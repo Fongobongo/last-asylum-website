@@ -3,4 +3,4 @@ Allow: /
 Disallow: /dnd/
 Disallow: /admin/
 
-Sitemap: https://last-asylum-hub.netlify.app/sitemap.xml
+Sitemap: https://lastasylum.netlify.app/sitemap.xml

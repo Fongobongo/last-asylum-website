@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
 
 // Set to your real domain before deploying; used by sitemap and canonical URLs
-const SITE_URL = process.env.SITE_URL?.trim() ? process.env.SITE_URL.trim() : 'https://last-asylum-hub.netlify.app';
+const SITE_URL = process.env.SITE_URL?.trim() ? process.env.SITE_URL.trim() : 'https://lastasylum.netlify.app';
 
 export default defineConfig({
   site: SITE_URL,

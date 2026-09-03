@@ -1,0 +1,20 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Explicitly declare text files to use LF
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+*.mjs text eol=lf
+*.ts text eol=lf
+*.astro text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+
+# Binary
+*.png binary
+*.webp binary
+*.svg text eol=lf
+*.enc binary

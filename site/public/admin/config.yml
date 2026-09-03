@@ -1,5 +1,5 @@
-site_url: https://last-asylum-hub.netlify.app
-logo_url: https://last-asylum-hub.netlify.app/og-cover.png
+site_url: https://lastasylum.netlify.app
+logo_url: https://lastasylum.netlify.app/og-cover.png
 locale: en
 
 # Editorial workflow: editors publish through pull requests; admins merge.
@@ -89,11 +89,11 @@ collections:
     editor:
       preview: true
     fields:
-      - { label: "Заголовок", name: title, widget: string }
-      - { label: "Описание", name: description, widget: string, required: false }
+      - { label: "Р—Р°РіРѕР»РѕРІРѕРє", name: title, widget: string }
+      - { label: "РћРїРёСЃР°РЅРёРµ", name: description, widget: string, required: false }
       - { label: "Language", name: lang, widget: hidden, default: ru }
       - { label: "Type", name: type, widget: hidden, default: guide }
-      - label: "Видео-топик"
+      - label: "Р’РёРґРµРѕ-С‚РѕРїРёРє"
         name: videoTopic
         widget: select
         required: false
@@ -118,19 +118,19 @@ collections:
           - royal
           - arena
           - wagon
-      - label: "Калькуляторы"
+      - label: "РљР°Р»СЊРєСѓР»СЏС‚РѕСЂС‹"
         name: calculators
         widget: list
         required: false
         field: { label: "Calculator", name: calc, widget: select, options: ["ad-phase4", "claire-shards", "cynthia-wheel"] }
-      - label: "Инфографики (webp)"
+      - label: "РРЅС„РѕРіСЂР°С„РёРєРё (webp)"
         name: infographics
         widget: list
         required: false
         field: { label: "Image", name: src, widget: string }
-      - { label: "Обновлено (YYYY-MM-DD)", name: updated, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
-      - { label: "Скрыть от поисковиков", name: noindex, widget: boolean, default: false, required: false }
-      - { label: "Текст", name: body, widget: markdown, modes: [rich_text, raw] }
+      - { label: "РћР±РЅРѕРІР»РµРЅРѕ (YYYY-MM-DD)", name: updated, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "РЎРєСЂС‹С‚СЊ РѕС‚ РїРѕРёСЃРєРѕРІРёРєРѕРІ", name: noindex, widget: boolean, default: false, required: false }
+      - { label: "РўРµРєСЃС‚", name: body, widget: markdown, modes: [rich_text, raw] }
 
   # ---------- Events (English) ----------
   - name: events_en
@@ -173,22 +173,22 @@ collections:
     editor:
       preview: true
     fields:
-      - { label: "Заголовок", name: title, widget: string }
-      - { label: "Описание", name: description, widget: string, required: false }
+      - { label: "Р—Р°РіРѕР»РѕРІРѕРє", name: title, widget: string }
+      - { label: "РћРїРёСЃР°РЅРёРµ", name: description, widget: string, required: false }
       - { label: "Language", name: lang, widget: hidden, default: ru }
       - { label: "Type", name: type, widget: hidden, default: event }
-      - label: "Видео-топик"
+      - label: "Р’РёРґРµРѕ-С‚РѕРїРёРє"
         name: videoTopic
         widget: select
         required: false
         options: [alliance_duel, arena, canyon, cheese, elixir, kvk, mythic, royal, survival, thief, undead, wagon]
-      - label: "Инфографики"
+      - label: "РРЅС„РѕРіСЂР°С„РёРєРё"
         name: infographics
         widget: list
         required: false
         field: { label: "Image", name: src, widget: string }
-      - { label: "Обновлено (YYYY-MM-DD)", name: updated, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
-      - { label: "Текст", name: body, widget: markdown, modes: [rich_text, raw] }
+      - { label: "РћР±РЅРѕРІР»РµРЅРѕ (YYYY-MM-DD)", name: updated, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "РўРµРєСЃС‚", name: body, widget: markdown, modes: [rich_text, raw] }
 
   # ---------- DND (alliance intel, encrypted) ----------
   - name: dnd
