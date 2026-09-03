@@ -11,10 +11,10 @@ interface Props {
 
 const { title, description, breadcrumbs = [] } = Astro.props;
 
-const toc = [];
 const slots = await Astro.slots.render('default');
 const re = /<(h[23])[^>]*id="([^"]+)"[^>]*>(.*?)<\/\1>/g;
 let m;
+const toc: { level: string; id: string; text: string }[] = [];
 while ((m = re.exec(slots)) !== null) {
   toc.push({
     level: m[1],
@@ -27,20 +27,24 @@ const tocLabel = Astro.props.lang === 'ru' ? 'На этой странице' : 
 const tocClose = Astro.props.lang === 'ru' ? 'Закрыть' : 'Close';
 ---
 
-<div class="lg:grid lg:grid-cols-[1fr_260px] lg:gap-10">
+<div class="lg:grid lg:grid-cols-[1fr_280px] lg:gap-8 xl:gap-10">
   {
     breadcrumbs.length > 0 && (
-      <nav aria-label="Breadcrumb" class="mb-4 flex flex-wrap items-center gap-1.5 text-sm text-stone-500">
+      <nav aria-label="Breadcrumb" class="mb-5 flex flex-wrap items-center gap-1.5 text-[13px] text-stone-500">
+        <a href="/" class="inline-flex items-center gap-1 hover:text-stone-300 transition">
+          <span class="text-stone-600">⌂</span>
+        </a>
+        <span class="text-stone-700">›</span>
         {breadcrumbs.map((b, i) => (
           <span class="flex items-center gap-1.5">
             {b.href ? (
-              <a href={b.href} class="hover:text-plague-300">
+              <a href={b.href} class="rounded-full px-2 py-0.5 hover:bg-stone-800 hover:text-plague-200 transition">
                 {b.label}
               </a>
             ) : (
-              <span class="text-stone-400">{b.label}</span>
+              <span class="rounded-full bg-stone-800 px-2.5 py-0.5 text-stone-300 border border-stone-700/50">{b.label}</span>
             )}
-            {i < breadcrumbs.length - 1 && <span class="text-stone-600">/</span>}
+            {i < breadcrumbs.length - 1 && <span class="text-stone-700">›</span>}
           </span>
         ))}
       </nav>
@@ -48,18 +52,29 @@ const tocClose = Astro.props.lang === 'ru' ? 'Закрыть' : 'Close';
   }
 
   <article class="prose-la max-w-none">
-    <h1 class="mb-2 text-3xl font-bold text-plague-100 sm:text-4xl" id="top">{title}</h1>
-    {description && <p class="mb-6 text-lg text-stone-400">{description}</p>}
+    <header class="mb-8 border-b border-stone-800/60 pb-6">
+      <h1 class="mb-3 text-3xl font-bold tracking-[-0.02em] text-stone-100 sm:text-[32px] leading-tight" id="top">{title}</h1>
+      {description && <p class="text-[15px] leading-6 text-stone-400 max-w-2xl">{description}</p>}
+      <div class="mt-4 flex items-center gap-3 text-xs text-stone-500">
+        <span class="inline-flex items-center gap-1.5 rounded-full border border-stone-800 bg-stone-900/50 px-2.5 py-1">
+          <span class="h-1.5 w-1.5 rounded-full bg-toxic-400"></span>
+          Guide
+        </span>
+        <span>Updated • Community verified</span>
+      </div>
+    </header>
 
     {
       toc.length > 2 && (
-        <details class="mb-6 rounded-lg border border-stone-800 bg-stone-900 lg:hidden">
-          <summary class="cursor-pointer select-none px-4 py-3 text-sm font-semibold text-plague-300">
-            ☰ {tocLabel} ({toc.length})
+        <details class="mb-6 overflow-hidden rounded-2xl border border-stone-800 bg-stone-900/40 lg:hidden">
+          <summary class="flex cursor-pointer select-none items-center justify-between px-4 py-3 text-sm font-medium text-stone-200">
+            <span class="inline-flex items-center gap-2">☰ {tocLabel} <span class="rounded-full bg-stone-800 px-2 py-0.5 text-xs text-stone-400 border border-stone-700">{toc.length}</span></span>
+            <span class="text-stone-500">▾</span>
           </summary>
-          <nav class="border-t border-stone-800 px-4 py-2 text-sm">
+          <nav class="border-t border-stone-800 px-2 py-2 text-sm">
             {toc.map((item) => (
-              <a href={`#${item.id}`} class={`block py-1 text-stone-300 hover:text-plague-200 ${item.level === 'h3' ? 'pl-3' : ''}`}>
+              <a href={`#${item.id}`} class={`flex items-center gap-2 rounded-lg px-3 py-2 text-stone-400 hover:bg-stone-800 hover:text-stone-100 transition ${item.level === 'h3' ? 'ml-3 text-[13px] border-l border-stone-800 pl-3' : ''}`}>
+                <span class="h-1 w-1 rounded-full bg-stone-600"></span>
                 {item.text}
               </a>
             ))}
@@ -68,23 +83,33 @@ const tocClose = Astro.props.lang === 'ru' ? 'Закрыть' : 'Close';
       )
     }
 
-    <slot />
+    <div class="prose-la">
+      <slot />
+    </div>
 
-    <Feedback lang={Astro.props.lang} />
-    <Comments />
+    <div class="mt-10">
+      <Feedback lang={Astro.props.lang} />
+      <Comments />
+    </div>
   </article>
 
   {
     toc.length > 2 && (
-      <aside class="sticky top-20 hidden self-start lg:block">
-        <p class="mb-2 text-sm font-semibold uppercase tracking-wider text-stone-500">{tocLabel}</p>
-        <nav class="border-l border-stone-800 pl-4 text-sm">
-          {toc.map((item) => (
-            <a href={`#${item.id}`} class={`block py-1 text-stone-400 hover:text-plague-200 ${item.level === 'h3' ? 'pl-3' : ''}`}>
-              {item.text}
-            </a>
-          ))}
-        </nav>
+      <aside class="sticky top-[84px] hidden self-start lg:block">
+        <div class="rounded-2xl border border-stone-800 bg-stone-900/30 backdrop-blur p-4">
+          <p class="mb-3 text-xs font-semibold uppercase tracking-widest text-stone-500 flex items-center gap-2">
+            <span class="h-px w-6 bg-stone-700"></span>
+            {tocLabel}
+          </p>
+          <nav class="space-y-0.5 text-[13.5px]">
+            {toc.map((item) => (
+              <a href={`#${item.id}`} class={`flex items-center gap-2 rounded-lg px-2.5 py-1.5 transition ${item.level === 'h3' ? 'ml-3 text-stone-500 border-l border-stone-800 pl-3' : 'text-stone-400 hover:bg-stone-800 hover:text-stone-100'}`}>
+                <span class={`h-1 w-1 rounded-full ${item.level === 'h2' ? 'bg-plague-400' : 'bg-stone-600'}`}></span>
+                <span class="line-clamp-1">{item.text}</span>
+              </a>
+            ))}
+          </nav>
+        </div>
       </aside>
     )
   }

@@ -1,4 +1,4 @@
-﻿---
+---
 import { languages, langNames, type Lang } from '../i18n/utils';
 import { t } from '../i18n/ui';
 
@@ -22,7 +22,6 @@ const navItems: { key: any; href: string }[] = [
   { key: 'nav.faq', href: 'faq' },
 ];
 
-// hreflang pairs: build the same page path across all languages
 const cleanPath = path.replace(/^\/(en|ru|es|pt|fr|de|id|ko|ja)?\/?/, '/');
 const langHrefs = languages.map((l) => ({
   lang: l,
@@ -30,54 +29,77 @@ const langHrefs = languages.map((l) => ({
 }));
 
 const base = lang === 'en' ? '' : `/${lang}`;
+
+function isActive(href: string) {
+  return cleanPath === `/${href}/` || cleanPath.startsWith(`/${href}/`);
+}
 ---
 
-<header class="sticky top-0 z-50 border-b border-stone-800 bg-stone-950/90 backdrop-blur">
+<header id="site-header" class="sticky top-0 z-50 border-b border-stone-800/60 bg-stone-950/75 backdrop-blur-xl supports-[backdrop-filter]:bg-stone-950/60">
   <div class="mx-auto max-w-7xl px-4">
-    <div class="flex h-16 items-center justify-between gap-3">
-      <a href={`${base}/`} class="flex items-center gap-2 shrink-0">
-        <span class="text-2xl">☣️</span>
-        <span class="hidden md:block font-bold tracking-tight text-plague-200">LA: Plague Hub</span>
+    <div class="flex h-[64px] items-center justify-between gap-3">
+      <a href={`${base}/`} class="group flex items-center gap-2.5 shrink-0">
+        <span class="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-plague-600 to-plague-800 text-sm ring-1 ring-white/10 group-hover:ring-white/15 transition">☣️</span>
+        <span class="hidden md:block text-[15px] font-semibold tracking-tight text-stone-100 group-hover:text-white transition">LA<span class="font-light text-stone-400">:</span> Plague Hub</span>
       </a>
 
-      <nav class="hidden lg:flex items-center gap-1 text-sm">
-        {navItems.map((item) => (
-          <a
-            href={`${base}/${item.href}/`}
-            class="rounded-md px-3 py-2 text-stone-300 hover:bg-stone-800 hover:text-plague-200 transition-colors"
-          >
-            {t(lang, item.key)}
-          </a>
-        ))}
+      <nav class="hidden lg:flex items-center gap-0.5 text-[13.5px]">
+        {navItems.map((item) => {
+          const active = isActive(item.href);
+          return (
+            <a
+              href={`${base}/${item.href}/`}
+              aria-current={active ? 'page' : undefined}
+              class:list={[
+                'relative rounded-full px-3.5 py-2 font-medium transition',
+                active
+                  ? 'bg-stone-800 text-plague-100'
+                  : 'text-stone-400 hover:bg-stone-800/60 hover:text-stone-200',
+              ]}
+            >
+              {t(lang, item.key)}
+            </a>
+          );
+        })}
       </nav>
 
-      <div class="flex items-center gap-2">
+      <div class="flex items-center gap-1.5">
         <button
           id="search-open"
-          class="rounded-md border border-stone-700 px-3 py-2 text-sm text-stone-300 hover:bg-stone-800 transition-colors"
+          class="inline-flex items-center gap-2 rounded-full border border-stone-700/60 bg-stone-900/50 px-3.5 py-2 text-[13px] font-medium text-stone-300 hover:bg-stone-800 hover:text-stone-100 hover:border-stone-600 transition"
           aria-label={t(lang, 'nav.search')}
         >
-          🔍 <span class="hidden sm:inline">{t(lang, 'nav.search')}</span>
+          <span class="text-stone-500">🔍</span>
+          <span class="hidden sm:inline">{t(lang, 'nav.search')}</span>
+          <kbd class="hidden sm:inline-flex ml-1 rounded bg-stone-800 px-1.5 py-0.5 text-[11px] font-mono text-stone-400 border border-stone-700">/</kbd>
         </button>
 
         <div class="relative">
           <button
             id="lang-toggle"
-            class="rounded-md border border-stone-700 px-3 py-2 text-sm font-semibold text-stone-200 hover:bg-stone-800 transition-colors"
+            class="inline-flex items-center gap-1.5 rounded-full border border-stone-700/60 bg-stone-900/50 px-3 py-2 text-[13px] font-medium text-stone-300 hover:bg-stone-800 hover:text-stone-100 transition"
             aria-label={t(lang, 'lang.label')}
           >
-            🌐 <span class="hidden sm:inline">{langNames[lang]}</span>
+            <span class="text-sm">🌐</span>
+            <span class="hidden sm:inline">{langNames[lang]}</span>
+            <span class="text-stone-500 text-xs">▾</span>
           </button>
           <div
             id="lang-menu"
-            class="absolute right-0 top-full mt-1 hidden w-40 overflow-hidden rounded-lg border border-stone-800 bg-stone-900 py-1 text-sm shadow-xl"
+            class="absolute right-0 top-full mt-2 hidden w-48 overflow-hidden rounded-xl border border-stone-800 bg-stone-900/95 backdrop-blur-xl py-1.5 text-sm shadow-2xl ring-1 ring-white/5"
           >
             {langHrefs.map((l) => (
               <a
                 href={l.href}
-                class:list={['block px-4 py-2 text-stone-300 hover:bg-stone-800 hover:text-plague-200', l.lang === lang && 'text-plague-300 font-semibold']}
+                class:list={[
+                  'flex items-center justify-between px-3.5 py-2 mx-1 rounded-lg transition',
+                  l.lang === lang
+                    ? 'bg-plague-600/20 text-plague-200'
+                    : 'text-stone-300 hover:bg-stone-800 hover:text-stone-100',
+                ]}
               >
-                {langNames[l.lang]}
+                <span>{langNames[l.lang]}</span>
+                {l.lang === lang && <span class="text-plague-400">●</span>}
               </a>
             ))}
           </div>
@@ -85,79 +107,84 @@ const base = lang === 'en' ? '' : `/${lang}`;
 
         <a
           href={`${base}/support/`}
-          class="rounded-md bg-plague-700 px-3 py-2 text-sm font-semibold text-plague-50 hover:bg-plague-600 transition-colors"
+          class="hidden sm:inline-flex items-center gap-1.5 rounded-full bg-gradient-to-br from-plague-600 to-plague-700 px-4 py-2 text-[13px] font-semibold text-white shadow-[0_1px_0_0_rgba(255,255,255,0.08)_inset,0_4px_12px_rgba(0,0,0,0.3)] hover:from-plague-500 hover:to-plague-600 transition"
         >
-          ❤ <span class="hidden sm:inline">{t(lang, 'nav.support')}</span>
+          <span>❤️</span> {t(lang, 'nav.support')}
         </a>
 
         <button
           id="menu-toggle"
-          class="lg:hidden rounded-md border border-stone-700 px-3 py-2 text-stone-200"
+          class="lg:hidden inline-flex h-9 w-9 items-center justify-center rounded-full border border-stone-700/60 bg-stone-900/50 text-stone-300 hover:bg-stone-800 transition"
           aria-label="Menu"
         >
-          ☰
+          <span class="text-lg">☰</span>
         </button>
       </div>
     </div>
 
-    <nav id="mobile-menu" class="hidden lg:hidden pb-4 text-sm">
-      {navItems.map((item) => (
-        <a
-          href={`${base}/${item.href}/`}
-          class="block rounded-md px-3 py-2 text-stone-300 hover:bg-stone-800 hover:text-plague-200"
-        >
-          {t(lang, item.key)}
-        </a>
-      ))}
-      <a href={`${base}/gear/`} class="block rounded-md px-3 py-2 text-stone-300 hover:bg-stone-800 hover:text-plague-200">
-        {t(lang, 'nav.gear')}
-      </a>
-      <a href={`${base}/faq/`} class="block rounded-md px-3 py-2 text-stone-300 hover:bg-stone-800 hover:text-plague-200">
-        {t(lang, 'nav.faq')}
-      </a>
-      <a href={`${base}/status/`} class="block rounded-md px-3 py-2 text-stone-300 hover:bg-stone-800 hover:text-plague-200">
-        Status
-      </a>
-      <a href={`${base}/patch-notes/`} class="block rounded-md px-3 py-2 text-stone-300 hover:bg-stone-800 hover:text-plague-200">
-        {t(lang, 'nav.patchnotes')}
-      </a>
-      <a href={`${base}/credits/`} class="block rounded-md px-3 py-2 text-stone-300 hover:bg-stone-800 hover:text-plague-200">
-        {t(lang, 'nav.credits')}
-      </a>
+    <nav id="mobile-menu" class="hidden lg:hidden pb-4 pt-2 border-t border-stone-800/50 mt-0">
+      <div class="grid grid-cols-2 gap-1.5 py-3">
+        {navItems.map((item) => (
+          <a
+            href={`${base}/${item.href}/`}
+            class="rounded-xl bg-stone-900/50 border border-stone-800/50 px-3.5 py-2.5 text-sm font-medium text-stone-300 hover:bg-stone-800 hover:text-stone-100 hover:border-stone-700 transition"
+          >
+            {t(lang, item.key)}
+          </a>
+        ))}
+        <a href={`${base}/gear/`} class="rounded-xl bg-stone-900/50 border border-stone-800/50 px-3.5 py-2.5 text-sm font-medium text-stone-300 hover:bg-stone-800 transition"> {t(lang, 'nav.gear')} </a>
+        <a href={`${base}/faq/`} class="rounded-xl bg-stone-900/50 border border-stone-800/50 px-3.5 py-2.5 text-sm font-medium text-stone-300 hover:bg-stone-800 transition"> {t(lang, 'nav.faq')} </a>
+        <a href={`${base}/status/`} class="rounded-xl bg-stone-900/50 border border-stone-800/50 px-3.5 py-2.5 text-sm font-medium text-stone-300 hover:bg-stone-800 transition"> Status </a>
+        <a href={`${base}/patch-notes/`} class="rounded-xl bg-stone-900/50 border border-stone-800/50 px-3.5 py-2.5 text-sm font-medium text-stone-300 hover:bg-stone-800 transition"> {t(lang, 'nav.patchnotes')} </a>
+      </div>
+      <a href={`${base}/support/`} class="flex items-center justify-center gap-2 rounded-xl bg-gradient-to-br from-blood-600 to-blood-500 px-4 py-3 text-sm font-semibold text-white mt-1">❤️ {t(lang, 'nav.support')}</a>
     </nav>
   </div>
 </header>
 
 <div
   id="search-modal"
-  class="fixed inset-0 z-[60] hidden bg-black/70 backdrop-blur-sm"
+  class="fixed inset-0 z-[60] hidden bg-stone-950/70 backdrop-blur-md"
   role="dialog"
   aria-modal="true"
 >
-  <div class="mx-auto mt-24 max-w-2xl px-4">
-    <div class="overflow-hidden rounded-xl border border-stone-700 bg-stone-900 shadow-2xl">
-      <div class="flex items-center gap-3 border-b border-stone-800 px-4 py-3">
-        <span class="text-xl">🔍</span>
+  <div class="mx-auto mt-[10vh] max-w-2xl px-4">
+    <div class="overflow-hidden rounded-2xl border border-stone-700/50 bg-stone-900 shadow-[0_20px_60px_rgba(0,0,0,0.6)] ring-1 ring-white/5">
+      <div class="flex items-center gap-3 border-b border-stone-800 px-4 py-3.5">
+        <span class="text-stone-500">🔍</span>
         <input
           id="search-input"
           type="search"
           placeholder={t(lang, 'search.placeholder')}
-          class="w-full bg-transparent text-lg text-stone-100 outline-none placeholder:text-stone-500"
+          class="w-full bg-transparent text-[15px] text-stone-100 placeholder:text-stone-500 outline-none"
           autocomplete="off"
         />
-        <button id="search-close" class="rounded px-2 py-1 text-sm text-stone-400 hover:bg-stone-800">ESC</button>
+        <button id="search-close" class="rounded-full bg-stone-800 px-2.5 py-1 text-xs font-medium text-stone-400 hover:bg-stone-700 hover:text-stone-200 transition">ESC</button>
       </div>
       <div id="search-results" class="max-h-[60vh] overflow-y-auto p-2 text-sm"></div>
+      <div class="border-t border-stone-800 px-3 py-2.5 text-xs text-stone-500 flex items-center gap-3">
+        <span><kbd class="rounded bg-stone-800 px-1.5 py-0.5 border border-stone-700">↑↓</kbd> navigate</span>
+        <span><kbd class="rounded bg-stone-800 px-1.5 py-0.5 border border-stone-700">↵</kbd> open</span>
+        <span class="ml-auto">/ to focus</span>
+      </div>
     </div>
   </div>
 </div>
 
 <script>
   function initChrome() {
+    const header = document.getElementById('site-header');
+    const onScroll = () => {
+      if (!header) return;
+      if (window.scrollY > 8) header.classList.add('shadow-[0_8px_30px_rgba(0,0,0,0.4)]', 'border-stone-700/50');
+      else header.classList.remove('shadow-[0_8px_30px_rgba(0,0,0,0.4)]', 'border-stone-700/50');
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+
     document.getElementById('menu-toggle')?.addEventListener('click', () => {
       document.getElementById('mobile-menu')?.classList.toggle('hidden');
     });
-
     document.getElementById('lang-toggle')?.addEventListener('click', (e) => {
       e.stopPropagation();
       document.getElementById('lang-menu')?.classList.toggle('hidden');
@@ -165,7 +192,6 @@ const base = lang === 'en' ? '' : `/${lang}`;
     document.addEventListener('click', () => {
       document.getElementById('lang-menu')?.classList.add('hidden');
     });
-
     const modal = document.getElementById('search-modal');
     const input = document.getElementById('search-input') as HTMLInputElement | null;
     document.getElementById('search-open')?.addEventListener('click', async () => {
@@ -173,7 +199,6 @@ const base = lang === 'en' ? '' : `/${lang}`;
       input?.focus();
       if (!(window as any).pagefind) {
         try {
-          // dynamic runtime import — built by pagefind after astro build
           const imp = new Function('u', 'return import(u)') as (u: string) => Promise<any>;
           (window as any).pagefind = await imp('/pagefind/pagefind.js');
         } catch {}
@@ -193,7 +218,6 @@ const base = lang === 'en' ? '' : `/${lang}`;
         input?.focus();
       }
     });
-
     let debounce: ReturnType<typeof setTimeout>;
     input?.addEventListener('input', () => {
       clearTimeout(debounce);
@@ -202,18 +226,25 @@ const base = lang === 'en' ? '' : `/${lang}`;
         const resultsEl = document.getElementById('search-results');
         if (!resultsEl) return;
         if (!pf || !input.value.trim()) {
-          resultsEl.innerHTML = '';
+          resultsEl.innerHTML = '<div class="p-8 text-center text-stone-500">Начни вводить для поиска…</div>';
           return;
         }
         const search = await pf.search(input.value);
         const five = search.results.slice(0, 8);
         const items = await Promise.all(five.map((r: any) => r.data()));
+        if (!items.length) {
+          resultsEl.innerHTML = '<div class="p-8 text-center text-stone-500">Ничего не найдено</div>';
+          return;
+        }
         resultsEl.innerHTML = items
           .map(
             (d: any) =>
-              `<a href="${d.url}" class="block rounded-lg px-3 py-2.5 hover:bg-stone-800">
-                 <div class="font-semibold text-plague-200">${d.meta.title ?? d.url}</div>
-                 <div class="text-stone-400">${d.excerpt}</div>
+              `<a href="${d.url}" class="flex gap-3 rounded-xl px-3 py-3 hover:bg-stone-800/70 transition">
+                 <div class="h-8 w-8 shrink-0 rounded-lg bg-stone-800 flex items-center justify-center text-stone-500">↗</div>
+                 <div class="min-w-0">
+                   <div class="font-medium text-stone-100 leading-tight">${d.meta.title ?? d.url}</div>
+                   <div class="text-[13px] leading-snug text-stone-400 line-clamp-2 mt-0.5">${d.excerpt}</div>
+                 </div>
                </a>`
           )
           .join('');
