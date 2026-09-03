@@ -1,0 +1,80 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'pt';
+---
+<Base lang={lang} path="/pt/events/elixir/" title="Elixir Scramble: como vencer" description="Um campo de batalha de pontos de 30 minutos aliança contra aliança: cinco estágios, pontuação baseada em controle, prioridade das Tendas de Cura, regras de teleporte e o erro da muralha que encerra sua partida em 10 minutos.">
+  <GuidePage title="Elixir Scramble: como vencer" description="Um campo de batalha de pontos de 30 minutos aliança contra aliança: cinco estágios, pontuação baseada em controle, prioridade das Tendas de Cura, regras de teleporte e o erro da muralha que encerra sua partida em 10 minutos." lang={lang}>
+    <p>Elixir Scramble é um <strong>campo de batalha de 30 minutos aliança contra aliança</strong> onde a vencedora é decidida por pontos, não por quem mata mais tropas. Alianças que o tratam como mata-mata perdem para alianças que o tratam como jogo de controle de mapa — sempre.</p>
+    <p>Este guia cobre os cinco estágios do evento, de onde os pontos realmente vêm, regras de teleporte, lógica de defesa, e o único erro que encerra uma partida antes de começar.</p>
+
+    <h2 id="event-structure">Os cinco estágios</h2>
+    <p>Toda disputa roda o mesmo arco, cerca de seis minutos por estágio ao longo da meia hora:</p>
+    <ol>
+      <li><strong>Pareamento</strong> — o sistema pareia as alianças.</li>
+      <li><strong>Preparação de entrada</strong> — você entra, posiciona, e tira seus esquadrões da muralha (veja <a href="#wall-warning">o aviso da muralha</a> — este estágio é onde partidas se perdem).</li>
+      <li><strong>Fortalezas iniciais</strong> — os primeiros edifícios desbloqueiam e a corrida inicial por terreno acontece.</li>
+      <li><strong>Batalhas decisivas do meio</strong> — o centro disputado se torna o pivô de pontos; a maior parte do evento se ganha ou se perde aqui.</li>
+      <li><strong>Acumulação tardia</strong> — edifícios mantidos geram os pontos finais; a aliança que ficou ativa até o último segundo recolhe a diferença.</li>
+    </ol>
+
+    <h2 id="registration">Inscrição e horário</h2>
+    <ul>
+      <li>Jogadores se inscrevem como <strong>Time A ou Time B</strong>, ou o <strong>R5 inscreve a aliança</strong> diretamente.</li>
+      <li><strong>Depois que a inscrição fecha, ninguém pode ser adicionado.</strong> Sem atrasados, sem substitutos — se metade da aliança dorme na inscrição, lutam em desvantagem numérica.</li>
+      <li>Exemplo de horário: uma disputa que começa às <strong>3PM CST roda às 9PM UK</strong>. Confira o cronômetro do evento no seu fuso e ponha um alarme — o evento recompensa estar online no início exato, não cinco minutos depois.</li>
+    </ul>
+
+    <h2 id="points">De onde vêm os pontos</h2>
+    <p>A regra central, e a que mais alianças erram: <strong>pontos vêm do CONTROLE, não das mortes.</strong> Matar esquadrões inimigos não rende nada diretamente. Segurar edifícios rende pontos a cada tick. Um esquadrão que nunca luta mas fica em cima de um edifício de alto valor supera um que varre três inimigos e não pisa em nada.</p>
+    <p>A hierarquia de edifícios:</p>
+    <ul>
+      <li><strong>Tendas de Cura</strong> — o segundo edifício que mais pontos rende nos primeiros 10 minutos. Elas curam <strong>15 soldados a cada 10 segundos</strong>, o que mantém seus esquadrões de luta no mapa em vez de andando de volta pra casa. Nota: <strong>acelerações não servem dentro do evento</strong> — a cura roda na tenda, não nos seus itens.</li>
+      <li><strong>Acampamentos</strong> — surgem mais tarde no evento e viram os alvos de coleta de pontos; agarre-os quando aparecerem.</li>
+      <li><strong>O Castelo de Elixir central</strong> — a fonte de pontos de maior valor do mapa. Este é o <strong>alvo prioritário dos seus jogadores mais fortes</strong>: garanti-lo e mantê-lo. Também é o mais disputado, então espere as batalhas decisivas ao redor dele.</li>
+    </ul>
+
+    <h2 id="teleports">Regras de teleporte</h2>
+    <ul>
+      <li><strong>O teleporte grátis tem recarga de 1 minuto</strong> — e teleportar <strong>cancela qualquer marcha que você tenha fora</strong>. Nunca se reposicione com esquadrões a meio caminho de um alvo.</li>
+      <li><strong>Teleporte Direto não é permitido</strong> dentro do evento. Você não pode comprar seu caminho pelo mapa.</li>
+      <li>A jogada padrão: <strong>baseie sua cidade no castelo</strong> e despache marchas para fora dali. Um reposicionamento, e depois uma caminhada curta para todo o resto — isso minimiza o problema da recarga por completo.</li>
+    </ul>
+
+    <h2 id="defense">Edifícios e lógica de defesa</h2>
+    <p>Edifícios conquistados <strong>não</strong> precisam de guarnição para continuar gerando pontos. Isso leva a uma regra simples:</p>
+    <ul>
+      <li><strong>Só defenda um edifício se ele está realmente disputado.</strong> Estacionar esquadrões em tudo que você tem é neutro em pontos e desperdiça seu exército.</li>
+      <li>Quando um edifício vem sob ataque, <strong>múltiplos esquadrões podem defendê-lo</strong> — empilhe a defesa em vez de alimentar esquadrões um por vez.</li>
+      <li>Você também pode <strong>escolher não defender</strong>: deixe um edifício de baixo valor ir, mantenha seus esquadrões vivos, e retome-o quando o inimigo marchar para outro lugar. Os pontos voltam a correr no momento em que você reconquista.</li>
+    </ul>
+
+    <h2 id="wall-warning">CRÍTICO: tire seus esquadrões da muralha antes do início</h2>
+    <blockquote>Se seus esquadrões ainda estiverem na muralha quando o Elixir Scramble começar, você pode perder suas tropas em menos de 10 minutos — e seu evento termina pelos 20 restantes.</blockquote>
+    <p>Esquadrões de muralha são pegos na onda inicial de ataques, e esquadrões mortos dentro do evento ficam mortos a meia hora inteira. Durante o estágio de preparação, o checklist é:</p>
+    <ol>
+      <li>Puxe todos os esquadrões para fora da muralha.</li>
+      <li>Confirme que suas marchas estão vazias e as recargas prontas.</li>
+      <li>Posicione-se no castelo.</li>
+      <li>Só então, comece a despachar.</li>
+    </ol>
+
+    <h2 id="winning-strategy">O plano de jogo de 30 minutos</h2>
+    <p>O padrão vencedor, condensado:</p>
+    <ul>
+      <li><strong>Esteja online no início.</strong> A corrida inicial por fortalezas decide quem joga na frente.</li>
+      <li><strong>Fique ativo os 30 minutos completos.</strong> Pontos acumulam o tempo todo; a aliança que sai no minuto 20 doa o último terço do evento.</li>
+      <li><strong>Segure, não estique demais.</strong> Garanta o que você tem antes de abrir uma terceira frente. Um edifício que você segura até o fim vale mais que dois que você tocou de passagem.</li>
+      <li><strong>Rotacione e reforce.</strong> Esquadrões em edifícios disputados precisam de corpos frescos; faça os cansados passarem pelas Tendas de Cura.</li>
+      <li><strong>Priorize edifícios de pontos altos.</strong> O Castelo de Elixir primeiro, Tendas de Cura no começo, Acampamentos quando surgirem.</li>
+      <li><strong>Nunca vá sozinho.</strong> Um esquadrão solitário atacando um ponto defendido morre sozinho e não contribui nada. Mova-se com sua aliança ou não se mova.</li>
+    </ul>
+    <p>Elixir Scramble recompensa disciplina sobre poder. Uma aliança mais fraca que segura os edifícios certos e nunca para de rotacionar vence uma mais forte caçando mortes — porque mortes nunca valeram nada.</p>
+
+    <VideoSection topic="elixir" lang={lang} />
+  </GuidePage>
+</Base>

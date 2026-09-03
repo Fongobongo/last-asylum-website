@@ -1,0 +1,36 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ja';
+const events = [
+  { slug: 'alliance-duel', name: 'Alliance Duel', icon: '⚔️', desc: '6日間の同盟戦。毎日のポイントカテゴリ、正確なポイント値、そして「すべて取っておく」経済。' },
+  { slug: 'elixir', name: 'Elixir Scramble', icon: '🧪', desc: '30分の同盟対同盟ポイント戦場。勝負を決めるのは撃破ではなく制圧 — 治療テント、城の優先度、テレポートのルール。' },
+  { slug: 'kvk', name: 'Kingdom War (KvK)', icon: '🏰', desc: '王都を巡るサーバー対サーバーの戦争。タurret 先攻、引き延ばし防衛、そして実質的な兵士リスク。' },
+  { slug: 'undead', name: 'Undead Siege', icon: '🧟', desc: '感染ウェーブに対する同盟防衛 — 隠された複数部隊メカニズム、持続HP、報酬マイルストーン。' },
+  { slug: 'cheese', name: 'Cheese Trap', icon: '🧀', desc: '巨大ネズミに対する同盟集結。5フェーズの個人報酬、共有の同盟HPプール、レベルスケーリングの計算。' },
+  { slug: 'thief', name: 'Thief Hunt', icon: '💰', desc: 'スタミナでThief Leaderボスを出現させる — スポーンの仕組み、連続討伐テクニック、交換の優先度。' },
+  { slug: 'survival', name: 'Survival Battle', icon: '🛡️', desc: '週1回のミッションイベント。スキルバッジ約60,000が無料 — 安いクリア方法とAlliance Duelとの重複。' },
+  { slug: 'canyon', name: 'Canyon Conquest', icon: '🏜️', desc: '3レーンのリレー戦。戦力より粘りが物を言う — リスクゼロのイベントでのレーン優先戦略。' },
+  { slug: 'mythic', name: 'Mythic Treasure', icon: '🗺️', desc: '海賊イベントの7タブをF2P向に解読 — 市場の優先度、魚300の上限、Buried Treasureの戦術。' },
+  { slug: 'royal', name: 'Royal Castle Scramble', icon: '👑', desc: '週1回の城取りレース — 1人1進軍、30枠の援軍、王都の称号システム完全解説。' },
+  { slug: 'arena', name: 'Triangle Arena', icon: '🔺', desc: '3編成を設置し攻撃側は2つを制圧 — 均等防衛、犠牲マッチアップ、Arena of Fateの罠部隊。' },
+  { slug: 'wagon', name: 'Guild Wagon & Caravans', icon: '🚚', desc: '毎日の無料ワゴン、護衛の箱ルール、ゴールデンワゴン、キャラバンでのURシャード農場。' },
+];
+---
+<Base lang={lang} path="/ja/events/" title="イベントガイド" description="Last Asylum: Plague の全イベントを完全解説：スケジュール、スコアリング、戦略、避けるべきミス。">
+  <section class="py-12">
+    <h1 class="mb-3 text-4xl font-bold text-plague-100">イベントガイド</h1>
+    <p class="mb-10 text-lg text-stone-400">すべてのイベントを完全解説：スケジュール、スコアリング、戦略、そして避けるべきミス。</p>
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {events.map(e => (
+        <a href={`/ja/events/${e.slug}/`} class="group rounded-lg border border-stone-800 bg-stone-900 p-5 transition-colors hover:border-plague-600">
+          <span class="text-3xl">{e.icon}</span>
+          <h2 class="mt-3 text-lg font-bold text-plague-200 group-hover:text-plague-100">{e.name}</h2>
+          <p class="mt-2 text-sm text-stone-400">{e.desc}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</Base>

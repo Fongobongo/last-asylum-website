@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  --color-plague-50: #f7f7d9;
+  --color-plague-100: #ededb8;
+  --color-plague-200: #dcd98f;
+  --color-plague-300: #c4c162;
+  --color-plague-400: #a9a344;
+  --color-plague-500: #8c8530;
+  --color-plague-600: #6e6824;
+  --color-plague-700: #574f21;
+  --color-plague-800: #473f20;
+  --color-plague-900: #3c361e;
+  --color-plague-950: #1f1c0c;
+  --color-toxic-400: #a3e635;
+  --color-toxic-500: #84cc16;
+  --color-blood-500: #dc2626;
+  --color-blood-600: #b91c1c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #12110b;
+  color: #e7e5e0;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;
+}
+
+.prose-la h2 {
+  @apply text-2xl font-bold mt-10 mb-4 text-plague-200;
+  scroll-margin-top: 6rem;
+}
+.prose-la h3 {
+  @apply text-xl font-semibold mt-8 mb-3 text-plague-300;
+  scroll-margin-top: 6rem;
+}
+.prose-la h4 {
+  @apply text-lg font-semibold mt-6 mb-2 text-plague-100;
+}
+.prose-la p {
+  @apply mb-4 leading-relaxed text-stone-300;
+}
+.prose-la ul {
+  @apply list-disc pl-6 mb-4 space-y-1 text-stone-300;
+}
+.prose-la ol {
+  @apply list-decimal pl-6 mb-4 space-y-1 text-stone-300;
+}
+.prose-la a {
+  @apply text-toxic-400 underline underline-offset-2 hover:text-toxic-500;
+}
+.prose-la strong {
+  @apply text-stone-100 font-semibold;
+}
+.prose-la blockquote {
+  @apply border-l-4 border-plague-600 pl-4 italic text-stone-400 my-4;
+}
+.prose-la table {
+  @apply w-full mb-6 text-sm;
+}
+.prose-la th {
+  @apply text-left py-2 pr-4 text-plague-300 font-semibold;
+}
+.prose-la td {
+  @apply py-2 pr-4 text-stone-300 border-t border-stone-800 align-top;
+}
+.prose-la tr {
+  @apply border-t border-stone-800;
+}
+.prose-la hr {
+  @apply my-8 border-stone-800;
+}
+.prose-la code {
+  @apply bg-stone-900 px-1.5 py-0.5 rounded text-plague-200 text-sm;
+}

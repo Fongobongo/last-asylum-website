@@ -1,0 +1,78 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+<Base lang={lang} path="/de/events/royal/" title="Königsschloss-Mêlée und Titel" description="Das wöchentliche Schloss-Eroberungsrennen: ein Marsch pro Spieler, Turm- und Verstärkungs-Regeln, Besetzung ab Heiligtum 6+, königliche Empfehlungs-Truhen und das komplette Königsstadt-Titelsystem mit Warteschlangen-Mechaniken.">
+  <GuidePage title="Königsschloss-Mêlée und Titel" description="Das wöchentliche Schloss-Eroberungsrennen: ein Marsch pro Spieler, Turm- und Verstärkungs-Regeln, Besetzung ab Heiligtum 6+, königliche Empfehlungs-Truhen und das komplette Königsstadt-Titelsystem mit Warteschlangen-Mechaniken." lang={lang}>
+    <p>Die Königsschloss-Mêlée ist die <strong>wöchentliche Schloss-Eroberung</strong>: Allianzen liefern sich ein Rennen um das Königsschloss zu nehmen und zu halten, <strong>jedes Woche am selben Wochentag und zur selben Zeit</strong>. Der Schloss-Kampf selbst ist schnell und simpel — die Vorbereitung (Märsche, Verstärkungen, Heiligtum-Stufen) ist, wo Matches entschieden werden.</p>
+    <p>Dieser Guide deckt die Eroberungs-Regeln, Verstärkungs-Mechaniken, Empfehlungs-Truhen und das komplette Königsstadt-Titelsystem ab, das das gewinnende Königreich freischaltet.</p>
+
+    <h2 id="how-it-works">Wie es funktioniert</h2>
+    <ul>
+      <li><strong>Wöchentlich</strong>, derselbe Wochentag und dieselbe Zeit jede Woche — stell den Alarm einmal ein, er ändert sich nie.</li>
+      <li><strong>Ein Marsch pro Spieler.</strong> Du bekommst einen einzigen Marsch für das ganze Event.</li>
+      <li><strong>Er kann nicht beschleunigt werden.</strong> Keine Beschleunigungen, keine Tempo-Items — das Marsch-Tempo, mit dem du losmarschierst, ist das Tempo, das ankommt.</li>
+      <li><strong>Rallyes werden empfohlen.</strong> Ein Marsch pro Spieler macht jeden Marsch zählen; Rallyes bündeln die Märsche der Allianz zu einem einzigen glaubwürdigen Angriff statt zu einem Strom von Solo-Verlusten.</li>
+      <li><strong>Der Anfangs-Marsch ist ein Rennen.</strong> Die ersten Märsche entscheiden, wer belagert und wer hetzt — Marsch-Timing beim Startschuss zählt mehr als Rohmacht.</li>
+    </ul>
+
+    <h2 id="turrets-and-positioning">Türme und Positionierung</h2>
+    <ul>
+      <li><strong>Türme aktivieren sich in der Mêlée NICHT</strong> — das sind <a href="/de/events/kvk/">KvK</a>-Mechaniken. Hier gibt es keinen Turm-Screen zu durchkämpfen.</li>
+      <li><strong>Teleportiere in den Schlamm</strong>, wenn du dir um Angriffe keine Sorgen machst — dort wird <strong>kein Schild benötigt</strong>. Das Schlamm-Gebiet ist die sichere Sammelzone; nutze es.</li>
+    </ul>
+
+    <h2 id="capture-and-reinforcement">Eroberung und Verstärkung</h2>
+    <ul>
+      <li><strong>4 Stunden, um das Schloss zu nehmen.</strong> Die Besetzung tickt über das Fenster hoch — sie füllt sich <strong>schneller bei hohem Besetzungs-Prozentsatz</strong> und <strong>langsamer, wenn sie umkämpft</strong> ist und Verteidiger zurückkämpfen.</li>
+      <li><strong>Verstärkungs-Limit: 30 Leute</strong> auf dem Schloss. Das ist die harte Grenze — plane die Verstärkungs-Liste vor dem Kampf, nicht währenddessen.</li>
+      <li><strong>Verstärkungen werden angenagt.</strong> Verteidiger beißen deine Garnison runter — <strong>ziehen und neu verstärken</strong> setzt den Nagel zurück. Eine Verstärkung mit 20% HP ist weniger wert als ein frischer Körper in dem Slot.</li>
+    </ul>
+
+    <h2 id="who-takes-vs-farms">Wer erobert, wer farmt</h2>
+    <blockquote>Schloss-Eroberer müssen Heiligtum 6+ sein — alle anderen farmen Ressourcen-Kacheln für Punkte.</blockquote>
+    <p>Nur Spieler mit <strong>Heiligtum 6+</strong> können das Schloss besetzen. Die Aufteilung definiert deine Rolle:</p>
+    <ul>
+      <li><strong>Heiligtum 6+</strong>: marschiere aufs Schloss, rallye, verstärke die 30 Slots.</li>
+      <li><strong>Alle anderen</strong>: farme Ressourcen-Kacheln rund um das Schloss für Event-Punkte — dein Marsch verdient trotzdem, nur eben nicht an den Mauern.</li>
+    </ul>
+    <p>Prüfe deine Heiligtum-Stufe <strong>bevor</strong> das Event startet; ein Heiligtum-5-Spieler, der aufs Schloss marschiert, verschwendet den einen Marsch, den er bekommt.</p>
+
+    <h2 id="commendation-chests">Königliche Empfehlungs-Truhen</h2>
+    <ul>
+      <li><strong>Nur R5</strong> — der Allianz-Leader claimt durch <strong>Klicken aufs Schloss nach der Schlacht</strong>.</li>
+      <li><strong>Berechtigung: länger als 24 Stunden im Königreich.</strong> Spieler, die weniger als einen Tag vor dem Kampf ins Königreich gewechselt sind, zählen nicht für die Truhe.</li>
+    </ul>
+
+    <h2 id="royal-titles">Königsstadt-Titel</h2>
+    <p>Das Schloss zu gewinnen schaltet das Titel-System des Königreichs frei — zeitlich begrenzte Prozent-Bonis, angewandt von den Titel-Inhabern:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Titel</th><th>Bonus-Typ</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Forschungsgeschwindigkeit</td><td>Zeitlich begrenzter %-Bonus auf Forschung</td></tr>
+        <tr><td>Territoriums-Entwicklung</td><td>Zeitlich begrenzter %-Bonus auf Territorium</td></tr>
+        <tr><td>Training</td><td>Zeitlich begrenzter %-Bonus auf Truppen-Training</td></tr>
+        <tr><td>Heilung</td><td>Zeitlich begrenzter %-Bonus auf Heilung</td></tr>
+        <tr><td>Minister des Inneren Hofes</td><td>Farm-Produktions-Bonus</td></tr>
+      </tbody>
+    </table>
+    <p>Die Warteschlangen-Mechaniken:</p>
+    <ul>
+      <li><strong>Warteschlangen-System</strong> — Spieler reihen sich pro Titel-Slot ein, wer zuerst kommt, mahlt zuerst.</li>
+      <li><strong>Jeder Slot läuft 5 Minuten.</strong></li>
+      <li><strong>Mail kommt am Anfang und Ende</strong> deines Slots, damit du exakt weißt, wann dein Bonus begann und endete.</li>
+      <li><strong>Bewirke sofort erneut, wenn dein Slot endet</strong> — derselbe Titel kann sich erneut einreihen, <strong>ohne Limit für Wiederbewerbungen</strong>. Slot an Slot ist das vorgesehene Muster.</li>
+      <li><strong>20 Minuten Abklingzeit nach dem Anwenden</strong> — die einzige Bremse an der Warteschlange. Takte deine Wiederbewerbung darum herum.</li>
+    </ul>
+    <p>Titel-Bonis stapeln sich mit allem anderen im Wochen-Kalender — ein Forschungs-Titel-Slot während <a href="/de/events/alliance-duel/">Allianz-Duell-Phase 3</a> oder ein Trainings-Slot während <a href="/de/events/alliance-duel/">Phase 5</a> ist das Kalender-Doppelnutzen, um das die ganze Woche gebaut ist.</p>
+
+    <VideoSection topic="royal" lang={lang} />
+  </GuidePage>
+</Base>

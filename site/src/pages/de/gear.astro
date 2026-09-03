@@ -1,0 +1,65 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import Infographic from '../../components/Infographic.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+
+<Base lang={lang} path="/de/gear/" title="Ausrüstungs-Guide" description="Ausrüstungssystem von Last Asylum: Plague: nur UR craften, Promotion-Meilensteine, Slot-Prioritäten für Carries und Tanks, sowie Gearstein-Farming.">
+  <GuidePage
+    title="⚔️ Ausrüstungs-Guide: Craften, Promoten, Priorisieren"
+    description="Die Community-Regeln des Ausrüstungssystems — was zu craften ist, was zu zerlegen ist, was zu überspringen ist und woher die Materialien kommen."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/de/' }, { label: 'Ausrüstung' }]}
+  >
+    <h2 id="cardinal-rules">Die Kardinalregeln</h2>
+    <ul>
+      <li><strong>Crafte nur UR (orange).</strong> Grüne und blaue Ausrüstung fällt kostenlos — verschwende nie Materialien für Upgrades davon. Veraltete Low-Tier-Ausrüstung zerlegen.</li>
+      <li><strong>Eine Truppe nach der anderen.</strong> Für schnelles Vorankommen nur Truppe 1 ausrüsten — Schwerter und Handschuhe für Carries, Brustplatten und Stiefel für Tanks.</li>
+      <li><strong>UR-Helden vor SSR-Helden</strong> bei der Ausrüstungsverteilung.</li>
+      <li>Qualitätsleiter: <strong>Gold (UR) &gt; Lila (SSR) &gt; Blau (SR) &gt; Grün (R) &gt; Grau</strong>.</li>
+    </ul>
+
+    <h2 id="slot-priorities">Slot-Prioritäten</h2>
+    <table class="w-full mb-6 text-sm">
+      <tr><th>Heldenrolle</th><th>Als Erstes</th><th>Als Zweites</th><th>Hinweise</th></tr>
+      <tr><td>Carry (DPS)</td><td>Waffe (Schwert)</td><td>Handschuhe</td><td>Angriff + Krit skalieren deinen Schaden</td></tr>
+      <tr><td>Tank</td><td>Stiefel</td><td>Brustpanzer</td><td>HP/DEF halten die Frontlinie aufrecht</td></tr>
+      <tr><td>Carry-Reihenfolge (Annie/Jester)</td><td>Schwert → Panzerhandschuhe → Rüstung → Stiefel</td><td></td><td>Community-Reihenfolge für Warlock-Carries</td></tr>
+    </table>
+
+    <h2 id="promotion">Ausrüstungs-Promotion (das System von Mai 2026)</h2>
+    <p>Seit dem Update von Mai 2026 kann Ausrüstung mit Bauplänen auf den Stufen <strong>10, 20, 30 und 40</strong> <strong>promotet</strong> und über 40 hinaus bis <strong>60</strong> verbessert werden — die Gesamtkosten der Materialien bleiben wie im alten System. Promotionen schalten zusätzliche Bonus-Stats frei; höhere Promotions-Stufen sind das wichtigste langfristige Ausrüstungsziel.</p>
+
+    <h2 id="boss-gear">Bosskampf-Ausrüstung (Dämonenkönig)</h2>
+    <p>Gegen Bosse, die nicht zurückschlagen, kehren sich die normalen Regeln um:</p>
+    <ul>
+      <li><strong>Waffen: die höchsten UR-Schwerter</strong> — „ein UR-Schwert +0 macht mehr Schaden als ein SSR-Schwert +30“ (Angriff + Krit-Chance skalieren die Skill-Basen)</li>
+      <li><strong>Handschuhe: SSR, NICHT UR!</strong> SSR-Handschuhe auf Stufe 30 geben <strong>+12.25% Schaden gegen Monster</strong>, und die SSR-Handschuh-Modifikatoren wirken auf den ENDGÜLTIGEN Schaden — UR-Handschuhe boosten ATK (schwächer) und fügen nutzlose Schadensresistenz hinzu</li>
+      <li><strong>Stiefel und Brust: egal</strong> gegen Bosse — jede Stufe funktioniert</li>
+    </ul>
+
+    <h2 id="raven-gear">Raben-Ausrüstung</h2>
+    <p>Der Rabe hat sein eigenes Ausrüstungs-Set (linke Seite: HP/Kritschadens-Reduktion, rechte Seite: ATK/Kritschaden). Push ihn Richtung <strong>Stufe 8</strong>, wo Prozent-Buffs einsetzen. <strong>Spar Raben-Ausrüstungstruhen für Allianz-Duell-Tage</strong> — Öffnen gibt Event-Punkte.</p>
+    <p>Spezialeffekt-Sets (Nacht-Raben-Maske, Rabenfeder-Umhang) aktivieren sich auf den vorgesehenen Stufen ihrer Teile — hinzugefügt im Update von März 2026.</p>
+
+    <h2 id="materials">Woher die Materialien kommen</h2>
+    <ul>
+      <li><strong>Ausrüstungswerkstatt</strong> — craften und zerlegen; die <strong>Schmelzwerkstatt</strong> produziert Gearsteine fürs Leveln; die <strong>Webwerkstatt</strong> produziert Stoff zum Fusionieren/Craften</li>
+      <li><strong>Gearstein-F2P-Farm:</strong> es existiert eine konsistente Farm-Route (siehe Video unten) — Gearsteine sind der größte Engpass der Community, plane das früh</li>
+      <li><strong>Shops:</strong> Gearsteine im Heiligtum- und Expeditions-Shop (Priorität: 3 Käufe)</li>
+      <li><strong>Baupläne:</strong> der Artikel Nr. 1 im Ehren-Shop — dieser Shop existiert für Ausrüstungs-Baupläne (niemals Epigraph-Truhen dort)</li>
+    </ul>
+
+    <Infographic src="/infographics/skill-scaling.webp" alt="Skill- und Ausrüstungs-Scaling" caption="Skill- &amp; Ausrüstungs-Scaling — warum Helden schwach wirken" credit="HottChoklit" />
+
+    <VideoSection topic="gear" lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

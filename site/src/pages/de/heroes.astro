@@ -1,0 +1,111 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+<Base lang={lang} path="/de/heroes/" title="Helden-Guide: Trupps, F2P-Weg, Fähigkeiten" description="Der kanonische F2P-Trupp mit kompletter Timeline, Fraktions-Timing für Krieger, Waldläufer und Hexer, Fähigkeits-Upgrade-Prioritäten, Stern-Wendepunkte und die Erwachter-Helden-Reihenfolge für die Ära der Wiedergeburt.">
+  <GuidePage title="Helden-Guide: Trupps, F2P-Weg, Fähigkeiten" description="Der kanonische F2P-Trupp mit kompletter Timeline, Fraktions-Timing für Krieger, Waldläufer und Hexer, Fähigkeits-Upgrade-Prioritäten, Stern-Wendepunkte und die Erwachter-Helden-Reihenfolge für die Ära der Wiedergeburt." lang={lang}>
+    <p>Helden sind der größte Macht-Multiplikator in Last Asylum: Plague — und das Teuerste zu reparieren, wenn falsch gebaut. Die Splitter- und Abzeichen-Ökonomie bestraft verstreute Investitionen, deshalb hat die Community auf einen kanonischen Free-to-Play-Weg und eine strenge Reihenfolge der Operationen darum konvergiert.</p>
+    <p>Diese Seite deckt ab: welche Fraktion auf welcher Spielstufe zu reiten ist, der kanonische F2P-Trupp mit seiner Tag-für-Tag-Timeline, per Abzeichen-Schadensanalyse verifizierte Fähigkeits-Prioritäten, Stern-Wendepunkte und die Erwachter-Helden-Fortschrittsreihenfolge für die Ära-der-Wiedergeburt-Saison.</p>
+
+    <h2 id="faction-timing">Fraktions-Timing: Krieger früh, Waldläufer mittel, Hexer spät</h2>
+    <p>Die drei Fraktionen sind auf derselben Spielstufe nicht gleich. Der Community-Konsens, wann jede ihren Peak hat:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Fraktion</th><th>Peak-Fenster</th><th>Warum</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Krieger</td><td>Frühes Spiel</td><td>Gratis-Arthur plus gratis Harper-Splitter und die $1-Marlena-Aufladung an Tag 66. Das Spiel schenkt dir ein Krieger-Kern-Team quasi umsonst.</td></tr>
+        <tr><td>Waldläufer</td><td>Mittleres Spiel</td><td>Waldläufer kontern Krieger — eine Waldläufer-Formation nimmt 20% weniger Schaden von ihnen. Mit Investition schlägt ein Mittel-Spiel-Waldläufer-Trupp rund 98% von allem, worauf er trifft.</td></tr>
+        <tr><td>Hexer</td><td>Spätes Spiel</td><td>Die höchste Decke, aber nur mit schwerer Investition — sie müssen den Krieger-Bonus überwinden, um hinzukommen. Zahl oder sei geduldig.</td></tr>
+      </tbody>
+    </table>
+    <p>Für ein neues Konto löst das ein häufiges Dilemma: baue den Krieger-Kern, den man dir geschenkt hat, selbst wenn du Waldläufer-Aufstellungen bewunderst. Auf Waldläufer kannst du wechseln, wenn deine Wirtschaft einen wirklich finanzieren kann.</p>
+
+    <h2 id="f2p-squad">Der kanonische F2P-Trupp</h2>
+    <p>Der Community-Standard-Free-to-Play-Build, über die ersten Monate eines Kontos zusammengesetzt:</p>
+    <p><strong>Arthur, Daskal, Marlena, Harper, Claire</strong></p>
+    <p>Drei Dinge machen das zum Standard: jeder Held darin ist gratis oder nahezu, die Teile kommen in einer Reihenfolge, die deinem besten Trupp immer etwas zum Hineinwachsen gibt, und er stapelt auf den Krieger-Monofraktions-Bonus hin, den die Spät-Spiel-Meta belohnt.</p>
+
+    <h3 id="f2p-timeline">Die F2P-Timeline</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Wann</th><th>Aktion</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Tag 1-2</td><td>Arthur kommt gratis und wird dein Tank. Fülle die restlichen Plätze mit den Gratis-Splittern von Bella, Claire und Celia.</td></tr>
+        <tr><td>Frühes Spiel</td><td>Investiere NUR in Claire und Arthur. Alle anderen bleiben Platzhalter — inklusive Bella und Celia.</td></tr>
+        <tr><td>Unterwegs</td><td>Harper auf 8 Sterne ist Pflicht für den Standard-Build. Füttere ihn stetig; lass ihn nicht auf 6 stehen.</td></tr>
+        <tr><td>Tag 66</td><td>Die $1-Marlena-Aufladung. Spare UR-Splitter, um sie sofort direkt auf 8 Sterne zu bringen — und push dann weiter Richtung 10.</td></tr>
+        <tr><td>Tag 120+ (Ära der Wiedergeburt)</td><td>Daskal stößt als bester Tank im Spiel dazu. Claire wird über die Ära-Tag-8-Umwandlung UR — ihre Splitter waren früh gratis, genau deshalb hast du sie gespart statt ausgegeben.</td></tr>
+      </tbody>
+    </table>
+    <p>Die zwei Disziplin-Punkte, die den Build machen oder brechen: nur Claire und Arthur, früh — und iss nie deine gesparten Claire-Splitter vor der Ära-Umwandlung, denn die UR-Wandlung ist genau das, wofür die Splitter gehortet wurden.</p>
+
+    <h2 id="alternatives">Alternativen und Varianten</h2>
+    <p>Die kanonischen Fünf sind nicht der einzige gangbare Weg — das sind die anerkannten Ersatzspieler und Regional-Varianten.</p>
+    <h3 id="no-marlena">Ohne $1-Marlena: Cynthia stattdessen</h3>
+    <p>Den Dollar ausgelassen? Cynthia vom Tag-8-Wünschelrad ist die Ersatz-Spielerin — eine UR-Früh-Carry, die wirklich trägt. Der Preis kommt im Spät-Spiel: du verlierst den 5%-Fraktionsbonus durch das Brechen der Monofraktions-Stapelung, und du verlierst die Harper- und Epigraph-Synergie, um die der Standard-Kern gebaut ist. Machbar, aber du wirst die fehlenden Glieder an der Spitze spüren.</p>
+    <h3 id="f2p-pvp-variant">F2P-PvP-Variante</h3>
+    <p>Für Konten, die gegen Spieler kämpfen statt still zu wachsen: <strong>Arthur, Lucius oder Bella, Claire, Marlena, Cynthia</strong>. Sie tauscht ein Stück des Fraktionsbonus gegen Cynthias PvP-Punch als Finisher.</p>
+    <h3 id="russian-variant">Der Build der russischen Community</h3>
+    <p>Die russische F2P-Community fährt: Vorne — Arthur und Lucius (das Paar trägt den Spitznamen Absoluter Schild); Hinten — Claire, Kesso und Celia. Sivir deckt die frühen Monate ab, Harper ist das Langzeit-Projekt. Dieselbe Logik wie der westliche Build, andere Figuren auf demselben Brett.</p>
+
+    <h2 id="mono-faction-meta">Die Monofraktions-Meta</h2>
+    <p>Seit die Raben-Epigraphe kamen, ist das Fahren einer einzigen Fraktion vom netten Bonus zur dominanten Strategie geworden. Der Grund: UR-Epigraphe buffen NUR eine Fraktion, also multipliziert ein gestapelter Trupp alles — der +20%-Fünf-Helden-Bonus aus der <a href="/de/beginners/">Fraktionstabelle</a>, plus die UR-Epigraph-Buff, plus fraktionsspezifische Synergien wie Harpers.</p>
+    <p>Das ist auch der Grund, warum der kanonische Trupp komplett aus Kriegern besteht: die Epigraph-Investition verzinst sich auf einer bereits gestapelten Fraktion. Multifraktions-Trupps zahlen für Epigraphe, die nur die Hälfte des Teams buffen.</p>
+    <p>Für Zahler gibt es eine praktische Ausnahme: temporäre Helden. Shadow und Cynthia werden auf 8 Sterne mit Fähigkeiten auf 15-20 gemaxt und dienen dann als Event- und PvP-Spezialisten — genug investiert, um zu zählen, nie so weit, dass sie das Budget des Haupt-Trupps fressen.</p>
+
+    <h2 id="skill-priorities">Fähigkeits-Upgrade-Prioritäten</h2>
+    <p>Fähigkeiten fressen Abzeichen, und Abzeichen sind knapp. Die Reihenfolge unten ist durch die Schadens-pro-Abzeichen-Analyse der Community verifiziert — kein Gefühl, sondern gemessen.</p>
+    <h3 id="marlena-skills">Marlena: wo der Schaden lebt</h3>
+    <p>Marlena ist etwa <strong>85% des Schadens deines Trupps, bis Zoya kommt</strong>, und danach 50/50 mit ihr. Sie ist der erste Ort, wo Abzeichen hingehen.</p>
+    <p>Aber in ihrem Kit steckt eine Falle: maxe Marlenas Auto-Angriff nie früh auf 30. Die verifizierte Reihenfolge:</p>
+    <ol>
+      <li>Ultimate zuerst — immer.</li>
+      <li>Aktive Fähigkeit als Zweites.</li>
+      <li>Auto-Angriff zuletzt, und nur auf moderatem Level, bis ihre anderen Fähigkeiten fertig sind.</li>
+    </ol>
+    <h3 id="claire-skills">Claire: die Passive ist der Punkt</h3>
+    <p>Claires Schlüsselfähigkeit ist ihre Passive — der Trupp-weite Schadens-Verstärker. Der verifizierte Plan: alle Fähigkeiten auf etwa 15, die Passive auf 20, und dort halten, bis Zoya kommt und die Prioritäten neu mischt.</p>
+
+    <h2 id="star-breakpoints">Stern-Wendepunkte und Zähigkeit</h2>
+    <p>Sterne sind der größte Einzelmultiplikator auf Helden-Macht. Der signifikante Sprung kommt nach <strong>4 Sternen</strong> — darunter ist ein Held Platzwärmer, darüber beginnt derselbe Held, Kämpfe zu gewinnen. Deshalb ist das erste Stern-Ziel der Community bei jedem Haupt-Trupp-Held, die 4 zu durchstoßen, nicht Splitter zu verstreuen, damit alle gleich medioker sind.</p>
+    <p>UR-Helden haben einen zweiten großen Wendepunkt: auf Level 30 und 8 Sternen schalten sie <strong>Zähigkeit</strong> frei. Das ist ein großer Überlebens-Sprung und der Grund, warum 8 Sterne der Standard-Ruhepunkt für UR-Helden sind — Marlenas Tag-66-Sofort-8-Sterne ist genau darum herum designt.</p>
+
+    <h2 id="awakened-order">Erwachte Helden: die Ära-Fortschrittsreihenfolge</h2>
+    <p>In der Ära-der-Wiedergeburt-Saison folgt die Erwachter-Helden-Progression einer festen Reihenfolge. Für deinen Haupthelden: schließe jeden Schritt ab, bevor du den nächsten beginnst:</p>
+    <ol>
+      <li>Hauptheld auf 10 Sterne.</li>
+      <li>Erwachen.</li>
+      <li>Exklusiv-Waffe.</li>
+      <li>Lord-Evolution.</li>
+      <li>Lord-Widerstand.</li>
+      <li>Ära-Verbesserung — nur ein Haupt-Skin.</li>
+      <li>Erst dann: den zweiten Helden durch dieselbe Leiter starten.</li>
+    </ol>
+    <p>Die alles bindende Regel: <strong>niemals Erweck-Materialien aufteilen</strong>. Einen Helden vollständig zu erwecken schlägt zwei halb erweckte — besser ein starker Marsch als mehrere halbfertige. Der Ära-spezifische Kontext für jeden Schritt steht im <a href="/de/era/">Ära-Guide</a>.</p>
+
+    <h2 id="might-formula">Die Macht-Formel</h2>
+    <p>Wenn du Konten vergleichst, ist Macht die Summe von fünf getrennten Stapeln:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Komponente</th><th>Quelle</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Helden-Macht</td><td>Level, Sterne, Fähigkeiten und Ausrüstung deiner Helden.</td></tr>
+        <tr><td>Raben-Macht</td><td>Raben-Stufen, Ausrüstung und Epigraphe — siehe den <a href="/de/raven/">Raben-Guide</a>.</td></tr>
+        <tr><td>Soldaten-Macht</td><td>Truppenstufen und Armee-Größe.</td></tr>
+        <tr><td>Tech-Bonus</td><td>Forschungslabor-Baum.</td></tr>
+        <tr><td>Gebäude-Bonus</td><td>Stadtgebäude — die Kriegerstatue und andere.</td></tr>
+      </tbody>
+    </table>
+    <p>Nutze die Aufteilung diagnostisch: wenn deine Macht helden-lastig aber soldaten-arm ist, bist du eine schlechte Schlacht davon entfernt, eine Armee zu verlieren, die du nicht ersetzen kannst. Ist sie soldaten-lastig aber helden-arm, schlagen deine Märsche unter ihrem Gewicht. Die stärksten Konten halten die Stapel in grobem Verhältnis — exakt das, wozu das Befolgen der Bau-Prioritäten und der F2P-Trupp-Timeline führt.</p>
+
+    <VideoSection topic="heroes" lang={lang} />
+  </GuidePage>
+</Base>

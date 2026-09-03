@@ -1,0 +1,192 @@
+---
+interface Props {
+  calc: 'ad-phase4' | 'claire-shards' | 'cynthia-wheel';
+  lang: string;
+}
+
+const { calc, lang } = Astro.props;
+
+const i18n = {
+  en: {
+    ad: {
+      title: 'Alliance Duel — Phase 4 Points Calculator',
+      desc: 'Count what your stockpile is worth before the hero day.',
+      ur: 'UR shards × 20,000',
+      ssr: 'SSR shards × 7,000',
+      sr: 'SR shards × 2,000',
+      recruit: 'Recruit tickets (×3,450 each)',
+      badge: 'Skill badges (×20 each)',
+      total: 'Total Phase 4 points',
+    },
+    claire: {
+      title: 'Claire SSR→UR — Shard Requirements',
+      desc: 'Plan the Hall of Honor level before converting.',
+      note: 'Conversion lands Claire at 6★. Every substage costs 2× the SSR equivalent. The 6★→10★ run is 1,600 shards in total.',
+      h60: 'Hall of Honor Lv.60 → banked',
+      h100: 'Lv.100 → banked',
+      h160: 'Lv.160 → banked',
+      stars: 'Stars after conversion',
+    },
+    cynthia: {
+      title: "Cynthia's Wishing Wheel — Diamond Budget",
+      desc: 'The wheel arrives on Day 8. Always spin ×10 — single spins waste tokens.',
+      spins: '×10 spins',
+      cost: 'Diamond cost',
+      shards: 'Shards from spins (approx.)',
+      note: 'Community estimate to obtain Cynthia: ~11,500 diamonds total. Never dump diamonds into standard recruitment — wait for the wheel.',
+    },
+  },
+  ru: {
+    ad: {
+      title: 'Дуэль Альянсов — калькулятор очков Фазы 4',
+      desc: 'Посчитай, что стоит твой сток перед днём героев.',
+      ur: 'UR-осколки × 20 000',
+      ssr: 'SSR-осколки × 7 000',
+      sr: 'SR-осколки × 2 000',
+      recruit: 'Тикеты рекрутинга (×3,450 за шт.)',
+      badge: 'Значки навыков (×20 за шт.)',
+      total: 'Итого очков Фазы 4',
+    },
+    claire: {
+      title: 'Claire SSR→UR — расчёт осколков',
+      desc: 'Планируй уровень Зала Чести до конверсии.',
+      note: 'Конверсия приземляет Claire на 6★. Каждый подтруп стоит 2× от SSR-эквивалента. Полный путь 6★→10★ = 1 600 осколков.',
+      h60: 'Зал Чести ур.60 → в банке',
+      h100: 'Ур.100 → в банке',
+      h160: 'Ур.160 → в банке',
+      stars: 'Звёзды после конверсии',
+    },
+    cynthia: {
+      title: 'Колесо Cynthia — бюджет алмазов',
+      desc: 'Колесо приходит на 8-й день. Крути только ×10 — одиночные спины жгут токены.',
+      spins: 'Спинов ×10',
+      cost: 'Стоимость в алмазах',
+      shards: 'Осколков со спинов (примерно)',
+      note: 'Оценка сообщества на получение Cynthia: ~11 500 алмазов всего. Не сливай алмазы в обычный рекрутинг — жди колеса.',
+    },
+  },
+};
+
+const calcKey = calc === 'ad-phase4' ? 'ad' : calc === 'claire-shards' ? 'claire' : 'cynthia';
+const L = (i18n as any)[lang]?.[calcKey] ?? (i18n as any).en[calcKey];
+---
+
+<section class={`not-prose my-8 rounded-xl border border-plague-700 bg-stone-900 p-6 js-calc-${calc}`}>
+  <h2 class="mb-1 text-2xl font-bold text-plague-200">🧮 {L.title}</h2>
+  <p class="mb-4 text-sm text-stone-400">{L.desc}</p>
+
+  {calc === 'ad-phase4' && (
+    <div>
+      <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
+        {[['ur', 20000], ['ssr', 7000], ['sr', 2000], ['recruit', 3450], ['badge', 20]].map(([k, mult]) => (
+          <label class="block">
+            <span class="mb-1 block text-xs text-stone-400">{L[k]}</span>
+            <input type="number" min="0" value="0" data-mult={mult} class="js-ad-input w-full rounded-md border border-stone-700 bg-stone-950 px-3 py-2 text-stone-200" />
+          </label>
+        ))}
+      </div>
+      <div class="mt-4 rounded-lg border border-toxic-500/40 bg-toxic-500/10 p-4">
+        <p class="text-xs uppercase tracking-wide text-toxic-400">{L.total}</p>
+        <p class="js-ad-total mt-1 font-mono text-2xl font-bold text-toxic-400">0</p>
+      </div>
+    </div>
+  )}
+
+  {calc === 'claire-shards' && (
+    <div>
+      <p class="mb-4 rounded-lg border border-stone-800 bg-stone-950 p-3 text-xs text-stone-400">💡 {L.note}</p>
+      <label class="block">
+        <span class="mb-1 block text-sm text-stone-300">{L.h60} <span class="text-stone-500">(→8★)</span></span>
+        <input type="number" min="0" max="600" value="600" class="js-claire-h60 w-full rounded-md border border-stone-700 bg-stone-950 px-3 py-2 text-stone-200" />
+      </label>
+      <div class="mt-4 grid gap-3 sm:grid-cols-3">
+        <div class="rounded-lg border border-stone-700 bg-stone-950 p-4">
+          <p class="text-xs uppercase tracking-wide text-stone-400">{L.h60}</p>
+          <p class="js-claire-b1 mt-1 font-mono text-xl font-bold text-plague-200">600</p>
+        </div>
+        <div class="rounded-lg border border-stone-700 bg-stone-950 p-4">
+          <p class="text-xs uppercase tracking-wide text-stone-400">{L.h100}</p>
+          <p class="js-claire-b2 mt-1 font-mono text-xl font-bold text-plague-200">1000</p>
+        </div>
+        <div class="rounded-lg border border-stone-700 bg-stone-950 p-4">
+          <p class="text-xs uppercase tracking-wide text-stone-400">{L.h160}</p>
+          <p class="js-claire-b3 mt-1 font-mono text-xl font-bold text-plague-200">1600</p>
+        </div>
+      </div>
+    </div>
+  )}
+
+  {calc === 'cynthia-wheel' && (
+    <div>
+      <label class="block">
+        <span class="mb-1 block text-sm text-stone-300">{L.spins}</span>
+        <input type="range" min="1" max="12" value="1" class="js-cynthia-spins w-full accent-lime-500" />
+        <output class="js-cynthia-n mt-1 block font-mono text-lg font-bold text-plague-200">1</output>
+      </label>
+      <div class="mt-4 grid gap-3 sm:grid-cols-2">
+        <div class="rounded-lg border border-plague-700/60 bg-plague-950/40 p-4">
+          <p class="text-xs uppercase tracking-wide text-plague-300">{L.cost}</p>
+          <p class="js-cynthia-cost mt-1 font-mono text-xl font-bold text-plague-200">4,500</p>
+        </div>
+        <div class="rounded-lg border border-stone-700 bg-stone-950 p-4">
+          <p class="text-xs uppercase tracking-wide text-stone-400">{L.shards}</p>
+          <p class="js-cynthia-shards mt-1 font-mono text-xl font-bold text-stone-200">~50</p>
+        </div>
+      </div>
+      <p class="mt-3 text-xs text-stone-500">💡 {L.note}</p>
+    </div>
+  )}
+</section>
+
+<script>
+  function initCalcs() {
+    // AD Phase 4
+    const adTotal = document.querySelector('.js-ad-total');
+    if (adTotal) {
+      const inputs = document.querySelectorAll('.js-ad-input');
+      const recalcAd = () => {
+        let sum = 0;
+        inputs.forEach((i) => {
+          sum += (parseFloat((i as HTMLInputElement).value) || 0) * parseFloat((i as HTMLInputElement).dataset.mult || '0');
+        });
+        adTotal.textContent = sum.toLocaleString('ru-RU').replace(/,/g, ' ');
+      };
+      inputs.forEach((i) => i.addEventListener('input', recalcAd));
+      recalcAd();
+    }
+
+    // Claire shards
+    const h60 = document.querySelector('.js-claire-h60') as HTMLInputElement | null;
+    if (h60) {
+      const b1 = document.querySelector('.js-claire-b1');
+      const b2 = document.querySelector('.js-claire-b2');
+      const b3 = document.querySelector('.js-claire-b3');
+      const recalcClaire = () => {
+        const v = parseInt(h60!.value, 10) || 0;
+        const capped = Math.min(Math.max(v, 0), 1600);
+        if (b1) b1.textContent = String(Math.min(capped, 600));
+        if (b2) b2.textContent = String(Math.min(capped, 1000));
+        if (b3) b3.textContent = String(capped);
+      };
+      h60!.addEventListener('input', recalcClaire);
+      recalcClaire();
+    }
+
+    // Cynthia wheel
+    const spins = document.querySelector('.js-cynthia-spins') as HTMLInputElement | null;
+    if (spins) {
+      const n = document.querySelector('.js-cynthia-n');
+      const cost = document.querySelector('.js-cynthia-cost');
+      const shards = document.querySelector('.js-cynthia-shards');
+      const recalcCy = () => {
+        const k = parseInt(spins!.value, 10) || 1;
+        if (n) n.textContent = String(k);
+        if (cost) cost.textContent = (4500 * k).toLocaleString('ru-RU').replace(/,/g, ' ');
+        if (shards) shards.textContent = `~${50 * k}`;
+      };
+      spins!.addEventListener('input', recalcCy);
+      recalcCy();
+    }
+  }
+  initCalcs();
+</script>

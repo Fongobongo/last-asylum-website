@@ -1,0 +1,60 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { weeklySchedule, recurring } from '../../data/calendar';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'fr';
+---
+
+<Base lang={lang} path="/fr/calendar/" title="Calendrier des événements" description="Le rythme hebdomadaire de Last Asylum: Plague — jours de réclamation de la Tour Faucon, phases du Duel d&apos;Alliances, resets et événements récurrents.">
+  <GuidePage
+    title="📅 Calendrier des événements"
+    description="Le rythme hebdomadaire que suit tout joueur efficace. NOTE : les rotations exactes varient selon le serveur — vérifiez toujours votre calendrier en jeu."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/fr/' }, { label: 'Calendrier' }]}
+  >
+    <h2 id="weekly-rhythm">Le rythme hebdomadaire</h2>
+    <div class="not-prose my-6 overflow-x-auto rounded-lg border border-stone-800">
+      <table class="w-full text-sm">
+        <thead class="bg-stone-900 text-left text-plague-300">
+          <tr><th class="p-3">Jour</th><th class="p-3">Événement</th><th class="p-3">Que faire</th></tr>
+        </thead>
+        <tbody>
+          {weeklySchedule.map((e) => (
+            <tr class="border-t border-stone-800">
+              <td class="p-3 font-bold text-plague-200 whitespace-nowrap">{e.icon} {e.day}</td>
+              <td class="p-3 text-stone-200 whitespace-nowrap">{e.event}</td>
+              <td class="p-3 text-stone-400">{e.what}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <h2 id="recurring">Resets et horaires récurrents</h2>
+    <div class="not-prose my-6 grid gap-3 sm:grid-cols-2">
+      {recurring.map((e) => (
+        <div class="rounded-lg border border-stone-800 bg-stone-900 p-4">
+          <p class="text-sm font-bold text-plague-200">{e.icon} {e.event}</p>
+          <p class="mt-0.5 text-xs text-stone-500">{e.day}</p>
+          <p class="mt-1 text-sm text-stone-400">{e.what}</p>
+        </div>
+      ))}
+    </div>
+
+    <h2 id="claim-days">L&apos;astuce des jours de réclamation (lun/mer/ven)</h2>
+    <p>Les quêtes de la Tour Faucon complétées mais <strong>non réclamées</strong> gardent leur point rouge et n&apos;expirent pas. Les jours à force double sont lundi, mercredi et vendredi :</p>
+    <ul>
+      <li>Complétez les quêtes dimanche → réclamez lundi</li>
+      <li>Complétez mardi → réclamez mercredi</li>
+      <li>Complétez jeudi → réclamez vendredi</li>
+    </ul>
+    <p><strong>Stacking Max − 1 :</strong> un tableau de quêtes plein fige le minuteur. Complétez une quête du maximum pour que de nouvelles quêtes continuent d&apos;apparaître — contrôlez votre flux de quêtes jour après jour.</p>
+    <p class="text-sm text-stone-500">⚠️ Limite de file : TOUTES les quêtes (complétées ou non) comptent dans le compteur de file (x/x). Quand elle est pleine, la prochaine quête est perdue.</p>
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

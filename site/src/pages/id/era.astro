@@ -1,0 +1,135 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+<Base lang={lang} path="/id/era/" title="Era Kebangkitan: Panduan Musim" description="Sistem musim: Resistance sebagai prioritas harian, pohon spesialis untuk F2P dan pemain paus, statistik Lord Evolution, daftar penimbunan, dan matematika lengkap konversi Claire SSR-ke-UR dengan strategi skip Hall of Honor.">
+  <GuidePage title="Era Kebangkitan: Panduan Musim" description="Sistem musim: Resistance sebagai prioritas harian, pohon spesialis untuk F2P dan pemain paus, statistik Lord Evolution, daftar penimbunan, dan matematika lengkap konversi Claire SSR-ke-UR dengan strategi skip Hall of Honor." lang={lang}>
+    <p>Era Kebangkitan adalah lapisan musiman yang tiba sekitar hari 120 — siklus kira-kira dua bulan yang menambahkan sistem progresinya sendiri di atas game dasar: Lord Statue (Resistance dan Lord Evolution), pohon Specialty, dan Elite Blight.</p>
+    <p>Musim ini menghargai fokus, dan menghukum gangguan lebih keras daripada game dasarnya. Halaman ini membahas apa yang diprioritaskan setiap hari, pohon spesialis mana yang cocok dengan level belanja Anda, apa yang harus ditimbun sebelum musim dimulai, dan matematika lengkap konversi Claire SSR-ke-UR.</p>
+
+    <h2 id="season-overview">Sekilas Musim</h2>
+    <p>Satu musim berjalan kira-kira dua bulan. Di dalamnya, tiga sistem memikul progresinya:</p>
+    <ul>
+      <li><strong>Lord Statue</strong> — Resistance dan Lord Evolution. Tulang punggung musim; lihat <a href="#lord-statues">bagian Lord Statues</a>.</li>
+      <li><strong>Pohon Specialty</strong> — bonus penentu peran, terbagi antara jalur pertumbuhan dan perang.</li>
+      <li><strong>Elite Blight</strong> — konten grup dengan kesulitan yang digerbangi Resistance.</li>
+    </ul>
+
+    <h2 id="resistance-first">Resistance: Prioritas Harian #1</h2>
+    <p>Sejak hari 1 musim, Resistance adalah prioritas harian teratas — di atas apa pun lain di daftar Anda. Alasannya sederhana: itu tembok progresi pertama, dan <strong>seluruh progresi musim bergantung pada XP Resistance</strong>. Setiap sistem musiman lain membuka atau menskalakan di belakangnya.</p>
+    <p>Dua aturan praktis untuk mendorong Resistance:</p>
+    <ul>
+      <li><strong>Serang monster bahkan dengan penalti damage 30%.</strong> Pertempurannya sering masih bisa diselesaikan — dan XP Resistance mengalir bagaimanapun juga.</li>
+      <li><strong>Rally Elite Blight dengan sekutu Resistance lebih tinggi.</strong> Kesulitan grup menskalakan dengan pesertanya; sekutu lebih kuat menyeret clear Anda bersama mereka.</li>
+    </ul>
+    <p>Satu bonus gratis yang layak diambil segera: <strong>skin Greenery Shelter memberikan +100 XP Resistance</strong>. Klaim, pasang, dan biarkan membayar setiap hari musim — itu 100 XP per hari yang tidak perlu Anda perjuangkan.</p>
+
+    <h2 id="specialty-trees">Pohon Specialty: Pertumbuhan lawan Perang</h2>
+    <p>Pohon specialty terbagi menurut profil belanja, dan pilihan komunitasnya tidak ambigu:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Profil</th><th>Pohon</th><th>Yang diberikan</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>F2P dan belanja menengah</td><td>Handyman / Skilled Craftsman</td><td>Pemotongan waktu riset dan bangunan — buru Sanctuary Anda dan capai pasukan Tier 10 lebih cepat.</td></tr>
+        <tr><td>Paus / fokus PvP</td><td>Legion Commander / Military Commander</td><td>Buff pertempuran, penyembuhan, dan kekuatan rally — jalur perang.</td></tr>
+      </tbody>
+    </table>
+    <p>Logikanya: jika Anda tidak menghabiskan lebih banyak dari tetangga Anda, pohon pertumbuhan memenangkan musim bagi Anda dengan membuat Anda membangun lebih cepat dari mereka. Jika Anda sudah menghabiskan lebih banyak, pohon perang mengubahnya menjadi hasil medan perang.</p>
+    <h3 id="war-supply">War Supply: Skill Batas Menjarah</h3>
+    <p>Pohon Legion Commander membawa War Supply, yang menaikkan batas menjarah harian Anda sebesar +6 / +14 / +24 / +36 / +50% di level skill 1 sampai 5. Untuk konteksnya berapa nilai itu per hari, lihat tabel batas menjarah di <a href="/id/economy/">Panduan Ekonomi</a> — pada batas akhir permainan, itu jutaan sumber daya ekstra harian.</p>
+
+    <h2 id="lord-statues">Lord Statues dan Era Academy</h2>
+    <p>Lord Statues berada di Era Academy, dan dua sistem di dalamnya melakukan pekerjaan berbeda:</p>
+    <ul>
+      <li><strong>Resistance</strong> — tembok musiman. Digerbangi XP, diberi makan oleh permainan harian, dan gerbang tempat konten serta hadiah musim berada di belakangnya.</li>
+      <li><strong>Lord Evolution</strong> — pertumbuhan statistik permanen untuk march Anda, diberi makan material musim.</li>
+    </ul>
+    <p>Yang di-reset saat musim berakhir: sistem progresi musiman di-reset bersama Era — progres Resistance dan pendakian pohon musiman kembali ke nol, sementara investasi permanen Anda (statistik Lord Evolution, hero, perlengkapan) dibawa maju. Rencanakan belanja Anda sesuai: belanjakan untuk kekuatan permanen dengan bebas, tetapi jangan menimbun mata uang musiman melewati musim yang mengeluarkannya.</p>
+
+    <h2 id="lord-evolution-stats">Lord Evolution: Statistik Mana yang Diambil</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Profil</th><th>Statistik</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>F2P / progresi</td><td>Research Speed, Construction Speed, Resource Production, Healing</td></tr>
+        <tr><td>PvP</td><td>Attack, March Size, Hero Damage</td></tr>
+      </tbody>
+    </table>
+    <p>Logika yang sama dengan pohon specialty, satu level turun: akun progresi menggandakan segalanya dengan statistik kecepatan; akun PvP membeli statistik yang memenangkan pertempuran saat kontak.</p>
+
+    <h2 id="hero-progression-order">Progresi Hero dalam Musim</h2>
+    <p>Tangga hero Awakened di dalam musim, untuk hero utama Anda, secara berurutan:</p>
+    <ol>
+      <li>Hero utama ke 10 bintang.</li>
+      <li>Awakening.</li>
+      <li>Exclusive Weapon.</li>
+      <li>Lord Evolution.</li>
+      <li>Lord Resistance.</li>
+      <li>Era Enhancement — hanya satu skin utama.</li>
+      <li>Baru hero kedua, lewat tangga yang sama.</li>
+    </ol>
+    <p>Dua aturan yang mengikat: <strong>jangan pernah membagi material Awakening</strong>, dan ingat bahwa satu march kuat mengalahkan beberapa yang setengah selesai — tangga itu ada tepat untuk menghentikan Anda menaikkan dua hero secara paralel.</p>
+
+    <h2 id="hoarding-list">Apa yang Ditimbun Sebelum Musim</h2>
+    <p>Jika akun Anda mendekati hari 120, inilah daftar timbunan. Setiap item di sini bernilai lebih jika dibelanjakan di dalam musim daripada sebelumnya:</p>
+    <ul>
+      <li>Intan.</li>
+      <li>Recruit Ticket.</li>
+      <li>Hero Fragment dan Medali.</li>
+      <li>Semua Percepatan, termasuk Research Speedup.</li>
+      <li>Antitoxin.</li>
+      <li>Raven Fruit.</li>
+      <li>Sumber daya.</li>
+      <li>Material Senjata.</li>
+    </ul>
+    <p>Polanya: musim menambahkan cara baru untuk membelanjakan semuanya, dan beberapa event musiman menghargai konsumsi — menimbun berubah langsung menjadi poin event dan progresi begitu Era dimulai.</p>
+
+    <h2 id="week-1-purchases">Pembelian Minggu 1 (Pemain Berbayar)</h2>
+    <ul>
+      <li><strong>Battle Pass + Weekly Era Pass</strong> — +250 Resistance dan XP Specialty. Nilai waktu terbaik musim: beli di minggu 1 agar pass membayar selama dua bulan penuh.</li>
+      <li><strong>Tahan paket Exclusive Weapon dan Awaken Shard</strong> sampai Exclusive Pass Event aktif. Paket yang sama, nilai lebih saat event membayar Anda untuk membelinya.</li>
+    </ul>
+
+    <h2 id="claire-conversion">Konversi Claire SSR-ke-UR (Hari Era 8)</h2>
+    <p>Konversi Claire dibuka di Hari Era 8 — tetapi jangan sentuh di hari 8 tanpa membaca ini dulu. Konversinya mendaratkan Claire di 6 bintang UR, dan jalan dari situ ke 10 adalah tempat masalahnya bersemayam.</p>
+    <h3 id="conversion-costs">Biayanya</h3>
+    <ul>
+      <li>Claire memakan <strong>shard SSR, bukan shard UR</strong> — shard awal permainan yang ditimbun adalah tepat yang dirancang di sekitar konversi ini.</li>
+      <li>Setiap sub-tahap berbiaya <strong>x2</strong>: dari 6 bintang ke 10 bintang memakan total 1.600 shard.</li>
+    </ul>
+    <h3 id="conversion-gains">Keuntungannya</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Level bintang</th><th>Damage vs SSR maksimal</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>9 bintang</td><td>~1,70x</td></tr>
+        <tr><td>10 bintang</td><td>~2,20x</td></tr>
+      </tbody>
+    </table>
+    <h3 id="the-passive-dip">Jebakan Passive</h3>
+    <p>Jebakannya: buff pasif tim-nya turun saat Anda konversi. Passive SSR maksimal adalah buff tim 16%; di 6 bintang UR hanya 10% — kehilangan tim beberapa persen yang nyata selagi Anda memanjat kembali. Itu pulih di 9 bintang (14%) dan mengungguli di 10 bintang (22%).</p>
+    <h3 id="skip-the-dip">Melewati Jebakannya: Strategi Hall of Honor</h3>
+    <p>Anda bisa melewati jebakan itu sepenuhnya dengan menyiapkan level Hall of Honor <strong>sebelum</strong> konversi:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Level Hall of Honor</th><th>Hasil konversi</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Lv. 60</td><td>Claire mendarat di 8 bintang — Tenacity Lanjutan (+20% ATK / HP / DEF, +10% kecepatan cooldown)</td></tr>
+        <tr><td>Lv. 100</td><td>Claire mendarat di 9 bintang</td></tr>
+        <tr><td>Lv. 160</td><td>Semua 1.600 shard tersimpan — 10 bintang seketika, tanpa jebakan sama sekali</td></tr>
+      </tbody>
+    </table>
+    <p>Garis bawah soal waktu: untuk akun tanpa lineup UR lengkap, konversi ini adalah upgrade PvP besar — damage carry 2,20x yang dibangun dari shard yang Anda timbun gratis. Cukup atur waktunya terhadap level Hall of Honor dan bank shard Anda agar mendarat di 8 bintang atau lebih, bukan di 6.</p>
+
+    <VideoSection topic="era" lang={lang} />
+  </GuidePage>
+</Base>

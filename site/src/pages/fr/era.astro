@@ -1,0 +1,135 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'fr';
+---
+<Base lang={lang} path="/fr/era/" title="Ère du Renouveau : guide de saison" description="Le système de saison : la Résistance comme priorité quotidienne, les arbres de spécialité pour F2P et whales, les stats d&apos;Évolution du Seigneur, la liste de thésaurisation, et le calcul complet de la conversion Claire SSR→UR avec la stratégie d&apos;évitement du Hall d&apos;Honneur.">
+  <GuidePage title="Ère du Renouveau : guide de saison" description="Le système de saison : la Résistance comme priorité quotidienne, les arbres de spécialités pour F2P et whales, les stats d&apos;Évolution du Seigneur, la liste de thésaurisation, et le calcul complet de la conversion Claire SSR→UR avec la stratégie d&apos;évitement du Hall d&apos;Honneur." lang={lang}>
+    <p>L&apos;Ère du Renouveau est la couche saisonnière qui arrive vers le jour 120 — un cycle d&apos;environ deux mois qui ajoute ses propres systèmes de progression par-dessus le jeu de base : la Statue du Seigneur (Résistance et Évolution du Seigneur), les arbres de Spécialité et le Blight d&apos;Élite.</p>
+    <p>La saison récompense la concentration, et punit la distraction plus durément que le jeu de base. Cette page couvre quoi prioriser quotidiennement, quel arbre de spécialité correspond à votre niveau de dépense, quoi thésauriser avant le début de la saison, et le calcul complet de la conversion de Claire SSR en UR.</p>
+
+    <h2 id="season-overview">Aperçu de la saison</h2>
+    <p>Une saison dure environ deux mois. À l&apos;intérieur, trois systèmes portent la progression :</p>
+    <ul>
+      <li><strong>Statue du Seigneur</strong> — Résistance et Évolution du Seigneur. La colonne vertébrale de la saison ; voir la <a href="#lord-statues">section Statues du Seigneur</a>.</li>
+      <li><strong>Arbres de Spécialité</strong> — des bonus qui définissent les rôles, divisés entre voies de croissance et de guerre.</li>
+      <li><strong>Blight d&apos;Élite</strong> — contenu de groupe à difficulté verrouillée par la Résistance.</li>
+    </ul>
+
+    <h2 id="resistance-first">Résistance : la priorité quotidienne n°1</h2>
+    <p>Dès le jour 1 de la saison, la Résistance est la priorité quotidienne maximale — devant toute autre chose sur votre liste. La raison est simple : c&apos;est le premier mur de progression, et <strong>toute la progression saisonnière dépend de l&apos;XP de Résistance</strong>. Chaque autre système saisonnier se débloque ou passe à l&apos;échelle derrière lui.</p>
+    <p>Deux règles pratiques pour pousser la Résistance :</p>
+    <ul>
+      <li><strong>Attaquez des monstres même avec 30% de malus de dégâts.</strong> Le combat reste souvent nettoyable — et l&apos;XP de Résistance coule dans tous les cas.</li>
+      <li><strong>Faites un rallye sur le Blight d&apos;Élite avec un allié à plus haute Résistance.</strong> La difficulté de groupe suit les participants ; un allié plus fort entraîne votre clear avec lui.</li>
+    </ul>
+    <p>Un gratuit à réclamer immédiatement : la <strong>skin de l&apos;Abri Végétal accorde +100 XP de Résistance</strong>. Réclamez-la, appliquez-la, et laissez-la payer chaque jour de la saison — c&apos;est 100 XP par jour que vous n&apos;avez pas à combattre pour obtenir.</p>
+
+    <h2 id="specialty-trees">Arbres de spécialité : Croissance vs Guerre</h2>
+    <p>Les arbres de spécialité se divisent par profil de dépense, et les choix de la communauté sont sans ambiguïté :</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Profil</th><th>Arbres</th><th>Ce qu&apos;ils donnent</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>F2P et dépenseurs moyens</td><td>Bricoleur / Artisan Habile</td><td>Coupes de temps de recherche et construction — précipitez votre Sanctuaire et atteignez les troupes de Palier 10 plus vite.</td></tr>
+        <tr><td>Whales / orientés PvP</td><td>Commandant de Légion / Commandant Militaire</td><td>Bonus de bataille, soins et puissance de rallye — la voie de la guerre.</td></tr>
+      </tbody>
+    </table>
+    <p>La logique : si vous ne dépensez pas plus que vos voisins, les arbres de croissance vous font gagner la saison en construisant plus qu&apos;eux. Si vous dépensez déjà plus, les arbres de guerre convertissent ça en résultats sur le champ de bataille.</p>
+    <h3 id="war-supply">Ravitaillement de Guerre : la compétence du plafond de pillage</h3>
+    <p>L&apos;arbre du Commandant de Légion porte le Ravitaillement de Guerre, qui relève votre limite quotidienne de pillage de +6 / +14 / +24 / +36 / +50% aux niveaux de compétence 1 à 5. Pour le contexte de ce que ça vaut par jour, voir la table des limites de pillage dans le <a href="/fr/economy/">guide de l&apos;Économie</a> — aux plafonds de fin de jeu, ce sont des millions de ressources supplémentaires quotidiennes.</p>
+
+    <h2 id="lord-statues">Statues du Seigneur et l&apos;Académie de l&apos;Ère</h2>
+    <p>Les Statues du Seigneur vivent dans l&apos;Académie de l&apos;Ère, et les deux systèmes à l&apos;intérieur font des travaux différents :</p>
+    <ul>
+      <li><strong>Résistance</strong> — le mur saisonnier. Verrouillée par l&apos;XP, nourrie par le jeu quotidien, et la porte derrière laquelle se trouvent le contenu et les récompenses de la saison.</li>
+      <li><strong>Évolution du Seigneur</strong> — croissance permanente de stats pour votre marche, nourrie de matériaux de saison.</li>
+    </ul>
+    <p>Ce qui se réinitialise en fin de saison : les systèmes de progression saisonniers se réinitialisent avec l&apos;Ère — le progrès de Résistance et l&apos;escalade saisonnière retombent à zéro, tandis que vos investissements permanents (stats d&apos;Évolution du Seigneur, héros, équipement) continuent. Planifiez vos dépenses en conséquence : dépensez librement en puissance permanente, mais ne thésaurisez pas de monnaies saisonnières au-delà de la saison qui les a émises.</p>
+
+    <h2 id="lord-evolution-stats">Évolution du Seigneur : quelles stats prendre</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Profil</th><th>Stats</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>F2P / progression</td><td>Vitesse de Recherche, Vitesse de Construction, Production de Ressources, Soins</td></tr>
+        <tr><td>PvP</td><td>Attaque, Taille de Marche, Dégâts de Héros</td></tr>
+      </tbody>
+    </table>
+    <p>Même logique que les arbres de spécialité, un cran en dessous : les comptes de progression composent tout avec des stats de vitesse ; les comptes PvP achètent les stats qui gagnent les combats au contact.</p>
+
+    <h2 id="hero-progression-order">Progression des héros dans la saison</h2>
+    <p>L&apos;échelle des héros Éveillés dans la saison, pour votre héros principal, dans l&apos;ordre :</p>
+    <ol>
+      <li>Héros principal à 10 étoiles.</li>
+      <li>Éveil.</li>
+      <li>Arme Exclusive.</li>
+      <li>Évolution du Seigneur.</li>
+      <li>Résistance du Seigneur.</li>
+      <li>Amélioration d&apos;Ère — une seule skin principale.</li>
+      <li>Puis le second héros, dans la même échelle.</li>
+    </ol>
+    <p>Deux règles contraignantes : <strong>ne divisez jamais les matériaux d&apos;Éveil</strong>, et rappelez-vous qu&apos;une marche forte bat plusieurs marches à moitié faites — l&apos;échelle existe précisément pour vous empêcher de monter deux héros en parallèle.</p>
+
+    <h2 id="hoarding-list">Que thésauriser avant la saison</h2>
+    <p>Si votre compte approche du jour 120, voici la liste de stockage. Chaque objet ici vaut plus dépensé dans la saison qu&apos;avant :</p>
+    <ul>
+      <li>Diamants.</li>
+      <li>Tickets de Recrutement.</li>
+      <li>Fragments de Héros et Médailles.</li>
+      <li>Toutes les Accélérations, y compris les Accélérations de Recherche.</li>
+      <li>Antitoxine.</li>
+      <li>Fruit de Corbeau.</li>
+      <li>Ressources.</li>
+      <li>Matériaux d&apos;Armes.</li>
+    </ul>
+    <p>Le motif : la saison ajoute de nouvelles façons de tous les dépenser, et plusieurs événements saisonniers récompensent la consommation — thésauriser se convertit directement en points d&apos;événement et en progression dès le début de l&apos;Ère.</p>
+
+    <h2 id="week-1-purchases">Achats de la semaine 1 (dépensiers)</h2>
+    <ul>
+      <li><strong>Battle Pass + Passe d&apos;Ère Hebdomadaire</strong> — +250 Résistance et XP de Spécialité. Le meilleur timing de valeur de la saison : achetez-les en semaine 1 pour que les passes paient sur les deux mois complets.</li>
+      <li><strong>Retenez les packs d&apos;Arme Exclusive et de Fragments d&apos;Éveil</strong> jusqu&apos;à ce que l&apos;Événement de Passe Exclusif soit actif. Mêmes packs, plus de valeur quand l&apos;événement vous paie pour les acheter.</li>
+    </ul>
+
+    <h2 id="claire-conversion">Conversion Claire SSR→UR (Jour 8 de l&apos;Ère)</h2>
+    <p>La conversion de Claire s&apos;ouvre au Jour 8 de l&apos;Ère — mais n&apos;y touchez pas au jour 8 sans lire ceci d&apos;abord. La conversion dépose Claire à 6 étoiles UR, et la route de là jusqu&apos;à 10 est là où vivent les problèmes.</p>
+    <h3 id="conversion-costs">Les coûts</h3>
+    <ul>
+      <li>Claire mange des <strong>fragments SSR, pas des fragments UR</strong> — les fragments thésaurisés du début de jeu sont exactement ce pour quoi cette conversion a été conçue.</li>
+      <li>Chaque sous-palier coûte <strong>x2</strong> : passer de 6 à 10 étoiles prend 1 600 fragments au total.</li>
+    </ul>
+    <h3 id="conversion-gains">Les gains</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Niveau d&apos;étoiles</th><th>Dégâts vs SSR maxé</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>9 étoiles</td><td>~1.70x</td></tr>
+        <tr><td>10 étoiles</td><td>~2.20x</td></tr>
+      </tbody>
+    </table>
+    <h3 id="the-passive-dip">La chute de la passive</h3>
+    <p>Le piège : son bonus passif d&apos;équipe chute à la conversion. La passive maxée du SSR est un bonus d&apos;équipe de 16% ; à 6 étoiles UR, elle n&apos;est qu&apos;à 10% — une vraie perte de quelques points de pourcentage pour l&apos;équipe pendant que vous remontez. Elle se récupère à 9 étoiles (14%) et dépasse à 10 étoiles (22%).</p>
+    <h3 id="skip-the-dip">Éviter la chute : la stratégie du Hall d&apos;Honneur</h3>
+    <p>Vous pouvez éviter la chute entièrement en préparant des niveaux du Hall d&apos;Honneur <strong>avant</strong> de convertir :</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Niveau du Hall d&apos;Honneur</th><th>Résultat de la conversion</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Nv. 60</td><td>Claire arrive à 8 étoiles — Ténacité Avancée (+20% ATK / HP / DEF, +10% vitesse de recharge)</td></tr>
+        <tr><td>Nv. 100</td><td>Claire arrive à 9 étoiles</td></tr>
+        <tr><td>Nv. 160</td><td>Les 1 600 fragments bancarisés — 10 étoiles instantanées, aucune chute</td></tr>
+      </tbody>
+    </table>
+    <p>Le mot de la fin sur le timing : pour un compte sans une formation UR complète, cette conversion est une énorme amélioration PvP — une carry de dégâts 2.20x construite sur des fragments thésaurisés gratuitement. Calibrez juste le moment par rapport à votre niveau de Hall d&apos;Honneur et votre banque de fragments pour atterrir à 8 étoiles ou mieux, pas à 6.</p>
+
+    <VideoSection topic="era" lang={lang} />
+  </GuidePage>
+</Base>

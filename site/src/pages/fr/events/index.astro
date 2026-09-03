@@ -1,0 +1,36 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'fr';
+const events = [
+  { slug: 'alliance-duel', name: 'Duel d&apos;Alliances', icon: '⚔️', desc: 'Compétition d&apos;alliance de six jours avec catégories de points quotidiennes, valeurs exactes et l&apos;économie du tout-garder.' },
+  { slug: 'elixir', name: 'Elixir Scramble', icon: '🧪', desc: 'Champ de bataille de points AvA de 30 minutes où le contrôle, pas les kills, gagne — Tentes de Soins, priorité du château et règles de téléportation.' },
+  { slug: 'kvk', name: 'Guerre des Royaumes (KvK)', icon: '🏰', desc: 'Guerre serveur contre serveur pour la Cité Royale : attaques tours-d&apos;abord, défense d&apos;usure et risque réel de troupes.' },
+  { slug: 'undead', name: 'Siège des morts-vivants', icon: '🧟', desc: 'Défense d&apos;alliance contre les vagues d&apos;infectés — la mécanique cachée multi-escouades, les PV persistants et les jalons de récompenses.' },
+  { slug: 'cheese', name: 'Cheese Trap', icon: '🧀', desc: 'Rallye d&apos;alliance contre le rat géant : récompenses personnelles en cinq phases, pool de PV partagé et calcul de mise à l&apos;échelle par niveau.' },
+  { slug: 'thief', name: 'Chasse aux Voleurs', icon: '💰', desc: 'Dépensez de l&apos;énergie pour faire apparaître des boss Chef Voleur — mécaniques d&apos;apparition, la technique du kill en continu et priorités d&apos;échange.' },
+  { slug: 'survival', name: 'Survival Battle', icon: '🛡️', desc: 'Événement de missions hebdomadaire qui vaut ~60 000 Insignes de Compétence gratuits — complétions bon marché et le chevauchement avec le Duel d&apos;Alliances.' },
+  { slug: 'canyon', name: 'Canyon Conquest', icon: '🏜️', desc: 'Bataille de relais à trois voies où l&apos;endurance bat la puissance — stratégie de priorité de voie dans un événement sans risque.' },
+  { slug: 'mythic', name: 'Mythic Treasure', icon: '🗺️', desc: 'L&apos;événement pirate à sept onglets décodé pour les F2P : priorités du marché, le plafond de 300 poissons et le coup du Trésor Enfoui.' },
+  { slug: 'royal', name: 'Mêlée du Château Royal', icon: '👑', desc: 'Course hebdomadaire de capture du château — une marche par joueur, renforts de 30 slots et le système complet de titres de la Cité Royale.' },
+  { slug: 'arena', name: 'Arène Triangulaire', icon: '🔺', desc: 'Trois formations, l&apos;attaquant en choisit deux à battre — défense équilibrée, confrontations sacrificielles et l&apos;escouade piège de l&apos;Arène du Destin.' },
+  { slug: 'wagon', name: 'Guild Wagon et Caravanes', icon: '🚚', desc: 'Courses de chariot gratuites quotidiennes, règles du coffre des Gardes, rafraîchissements du Charniot Doré et le farm de fragments UR par caravane.' },
+];
+---
+<Base lang={lang} path="/fr/events/" title="Guides d&apos;événements" description="Analyses complètes de chaque événement de Last Asylum: Plague : horaires, scores, stratégie et erreurs à éviter.">
+  <section class="py-12">
+    <h1 class="mb-3 text-4xl font-bold text-plague-100">Guides d&apos;événements</h1>
+    <p class="mb-10 text-lg text-stone-400">Analyses complètes de chaque événement : horaires, scores, stratégie et erreurs à éviter.</p>
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {events.map(e => (
+        <a href={`/fr/events/${e.slug}/`} class="group rounded-lg border border-stone-800 bg-stone-900 p-5 transition-colors hover:border-plague-600">
+          <span class="text-3xl">{e.icon}</span>
+          <h2 class="mt-3 text-lg font-bold text-plague-200 group-hover:text-plague-100" set:html={e.name} />
+          <p class="mt-2 text-sm text-stone-400" set:html={e.desc} />
+        </a>
+      ))}
+    </div>
+  </section>
+</Base>

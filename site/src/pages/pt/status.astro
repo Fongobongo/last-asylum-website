@@ -1,0 +1,56 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { statusUpdates } from '../../data/status';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'pt';
+
+const statusStyles = {
+  fixed: 'border-toxic-500/40 bg-toxic-500/10 text-toxic-400',
+  investigating: 'border-amber-500/40 bg-amber-900/20 text-amber-300',
+  info: 'border-sky-500/40 bg-sky-900/20 text-sky-300',
+};
+const statusIcons = { fixed: '✅', investigating: '⚠️', info: 'ℹ️' };
+---
+
+<Base lang={lang} path="/pt/status/" title="Status do servidor e problemas conhecidos" description="Bugs conhecidos, correções e avisos oficiais de Last Asylum: Plague — resumidos do canal oficial de status.">
+  <GuidePage
+    title="🛡️ Status do servidor e problemas conhecidos"
+    description="Resumido do canal oficial #status-update. Para novidades em tempo real, entre no Discord oficial."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/pt/' }, { label: 'Status' }]}
+  >
+    <p>Esta página lista todos os avisos oficiais relevantes: bugs, correções, ondas de compensação e alertas de segurança. Mais recentes primeiro. Se seu problema não estiver listado, denuncie no jogo: Avatar → Conta → Central do Usuário → Feedback.</p>
+
+    <div class="not-prose my-8 space-y-3">
+      {statusUpdates.map((s) => (
+        <article class="rounded-lg border border-stone-800 bg-stone-900 p-4">
+          <div class="flex flex-wrap items-center justify-between gap-2">
+            <h3 class="font-bold text-stone-100">{s.title}</h3>
+            <div class="flex items-center gap-2">
+              <time class="text-xs text-stone-500">{s.date}</time>
+              <span class={`rounded px-2 py-0.5 text-xs font-semibold ${statusStyles[s.status]}`}>{statusIcons[s.status]} {s.status}</span>
+            </div>
+          </div>
+          <p class="mt-2 text-sm text-stone-400">{s.detail}</p>
+        </article>
+      ))}
+    </div>
+
+    <h2 id="scam-alert">Alerta de golpe (importante)</h2>
+    <p>Golpistas se passam por oficiais para roubar contas. Funcionários reais <strong>nunca</strong> pedem senhas, códigos de verificação ou pagamentos fora dos canais oficiais. Ative a vinculação de conta Facebook/Google nas Configurações.</p>
+
+    <h2 id="login-fixes">Não consegue entrar? Correções rápidas</h2>
+    <ul>
+      <li>Reinicie o jogo por completo</li>
+      <li>Limpe o cache do jogo (pode exigir novo login)</li>
+      <li>Desative a VPN se usar uma</li>
+      <li>Use o botão de <strong>Reparar</strong> (canto superior direito na tela de carregamento)</li>
+    </ul>
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

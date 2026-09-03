@@ -1,0 +1,71 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+<Base lang={lang} path="/id/events/survival/" title="Survival Battle: 60 Ribu Lencana Gratis" description="Event misi mingguan yang membayar pemain F2P kira-kira 60.000 Lencana Skill: kategori misi, trik barracks tier-rendah, waktu Raven Fruit, dan konflik tumpang tindih dengan tabungan Alliance Duel.">
+  <GuidePage title="Survival Battle: 60 Ribu Lencana Gratis" description="Event misi mingguan yang membayar pemain F2P kira-kira 60.000 Lencana Skill: kategori misi, trik barracks tier-rendah, waktu Raven Fruit, dan konflik tumpang tindih dengan tabungan Alliance Duel." lang={lang}>
+    <p>Survival Battle adalah <strong>event misi mingguan</strong>, dan untuk akun free-to-play ini adalah sumber penghasilan berulang terpenting tunggal dalam game: <strong>pemain F2P bisa mendapat kira-kira 60.000 Lencana Skill per minggu</strong> darinya. Lencana Skill adalah penghambat skill-hero permanen — event inilah cara Anda menjaganya mengalir tanpa membelanjakan uang.</p>
+    <p>Panduan ini membahas cara kerja misinya, trik penyelesaian murah, dan satu konflik strategis yang harus Anda rencanakan.</p>
+
+    <h2 id="how-it-works">Cara Kerjanya</h2>
+    <ul>
+      <li>Survival Battle adalah <strong>event mingguan</strong> dengan daftar misi bergilir.</li>
+      <li><strong>Daftar misi BERBEDA PER SERVER</strong> — daftar Anda mungkin tidak sama dengan server lain, jadi perlakukan setiap panduan misi (termasuk nama misi spesifik) sebagai perkiraan dan periksa daftar dalam game Anda sendiri dulu.</li>
+      <li>Target pembayaran untuk akun F2P adalah <strong>~60.000 Lencana Skill per minggu</strong> — tercapai dari hadiah misi saat daftarnya diselesaikan dengan efisien.</li>
+    </ul>
+    <p>Kategori tugas yang akan Anda lihat di daftar:</p>
+    <ul>
+      <li>Misi riset teknologi</li>
+      <li>Misi Enhance Raven</li>
+      <li>Misi Train Soldier (lihat <a href="#barracks-trick">trik barracks</a>)</li>
+      <li>Misi membunuh monster (lihat <a href="#stamina-missions">misi stamina</a>)</li>
+      <li>Misi rekrutmen (lihat <a href="#recruit-missions">trik tiket</a>)</li>
+    </ul>
+
+    <h2 id="barracks-trick">Trik Barracks Tier-Rendah</h2>
+    <p>Misi Train Soldier tidak peduli tier — mereka menghitung jumlah kepala. Jadi:</p>
+    <ol>
+      <li>Antrekan <strong>pasukan murah tier-rendah</strong> di barracks Anda.</li>
+      <li>Setiap batch yang selesai men-tick misi Train Soldier dengan fraksi biaya makanan dan percepatan dari produksi pasukan sungguhan.</li>
+      <li>Waktu anti-batal: batch tier-rendah selesai cepat, jadi Anda bisa merangkaikan beberapa penyelesaian dalam satu jendela event.</li>
+    </ol>
+    <p>Ini logika jumlah-kepala yang sama yang menggerakkan <a href="/id/events/alliance-duel/">Alliance Duel</a> Fase 5 — kecuali di sana Anda ingin tier tinggi untuk poin besar, sementara di sini hanya jumlahnya yang penting. Latih pasukan termurah yang Anda punya dan selesaikan misinya.</p>
+
+    <h2 id="stamina-missions">Misi Monster: Simpan Raven Fruit, Belanjakan Stamina</h2>
+    <ul>
+      <li><strong>Simpan Raven Fruit Anda</strong> untuk misi membunuh monster — jangan bakar di hari-hari biasa saat tidak ada yang membayar untuk kill-nya.</li>
+      <li><strong>Belanjakan stamina</strong> untuk menembus misi monster. Stamina yang dibelanjakan di luar event adalah pemborosan F2P klasik — pertarungan yang sama menghasilkan progresi event saat diatur waktunya ke misi monster.</li>
+    </ul>
+
+    <h2 id="recruit-missions">Misi Rekrut 30 Tiket</h2>
+    <p>Penyelesaian murah yang diketahui: satu misi rekrutmen selesai dengan <strong>30 tiket rekrutmen</strong>. Itu menjadikannya ujian nilai murni — jika Anda punya 30 tiket tertabung, misinya gratis; jika tidak, timbang terhadap rencana <a href="/id/events/alliance-duel/">Alliance Duel Fase 4</a> Anda, di mana rekrutmen membayar +3.450 poin masing-masing.</p>
+
+    <h2 id="duel-overlap">KRITIS: Tumpang Tindih Alliance Duel</h2>
+    <blockquote>Sebagian misi Survival Battle tumpang tindih dengan tabungan Alliance Duel. Putuskan mana yang diselesaikan sekarang dan mana yang disimpan untuk Duel.</blockquote>
+    <p>Ini satu-satunya keputusan nyata yang dipaksakan event. Misi riset, rekrutmen dan pelatihan semuanya menginginkan sumber daya yang sama yang dibayar ganda oleh duel:</p>
+    <ul>
+      <li><strong>Misi riset minggu ini vs riset tanpa-scroll Fase 3 di Rabu duel.</strong></li>
+      <li><strong>Misi rekrutmen sekarang vs +3.450 per rekrut di Fase 4.</strong></li>
+      <li><strong>Misi pelatihan sekarang vs poin tergandakan dan nilai percepatan +30% Fase 5.</strong></li>
+    </ul>
+    <p>Aturan praktisnya: bandingkan hadiah Survival Battle terhadap poin duel yang akan Anda korbankan. Awal siklus duel, simpan untuk duel; akhir siklus, atau saat hadiah misi berat lencana, selesaikan misinya. Saat kalender bertabrakan, penghasilan 60 ribu lencana mingguan adalah prioritas F2P — lencana tidak punya sumber farm lain dalam skala ini.</p>
+
+    <h2 id="weekly-checklist">Checklist Mingguan</h2>
+    <ol>
+      <li>Buka event di awal minggu dan baca daftar misi <strong>server Anda</strong>.</li>
+      <li>Urutkan misi menjadi &quot;selesaikan sekarang&quot; dan &quot;simpan untuk duel&quot; — sebelum membelanjakan apa pun.</li>
+      <li>Antrekan batch barracks tier-rendah untuk misi pelatihan.</li>
+      <li>Tahan Raven Fruit dan stamina untuk misi monster.</li>
+      <li>Tabung 30 tiket rekrutmen jika misi rekrutmen sedang berjalan.</li>
+      <li>Kumpulkan seluruh ~60.000 Lencana Skill menjelang akhir minggu.</li>
+    </ol>
+    <p>Untuk ke mana lencana itu pergi — urutan prioritas skill hero — lihat <a href="/id/heroes/">Panduan Hero</a>.</p>
+
+    <VideoSection topic="survival" lang={lang} />
+  </GuidePage>
+</Base>

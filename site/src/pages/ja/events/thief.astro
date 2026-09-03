@@ -1,0 +1,88 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ja';
+---
+<Base lang={lang} path="/ja/events/thief/" title="Thief Hunt：ボスの出現と交換" description="スタミナをボスに変えるパイプライン:Thief Leader の出現の本当の仕組み、レベル30/35を狙う連続討伐テクニック、コミュニティの交換優先度リスト、そして最もダメージを積めるボス編成。">
+  <GuidePage title="Thief Hunt：ボスの出現と交換" description="スタミナをボスに変えるパイプライン:Thief Leader の出現の本当の仕組み、レベル30/35を狙う連続討伐テクニック、コミュニティの交換優先度リスト、そして最もダメージを積めるボス編成。" lang={lang}>
+    <p>Thief Hunt は<strong>同盟のスタミアイベント</strong>です:スタミナを使ってマップ上の盗賊を攻撃すると、盗賊の討伐がロールに回り、同盟全体が集結できる<strong>Thief Leader ボス</strong>の出現チャンスを引きます。余ったスタミナを交換ショップに変換するイベントです — 正しい順序で買えば、ゲーム内でも最良クラスの価値あるショップです。</p>
+    <p>このガイドでは、ボスの出現メカニズム、高レベルボスを出すテクニック、交換優先度リスト、ボス編成を解説します。</p>
+
+    <h2 id="how-it-works">仕組み</h2>
+    <ul>
+      <li>スタミナでマップの盗賊を攻撃。討伐が同盟集結用のThief Leader ボスを出します — <strong>ロールは「討伐した盗賊1匹ごと」</strong>に回り、日ごとやプレイヤーごとではありません。</li>
+      <li>ボスは<strong>最初の1匹か、20匹討伐後に出現</strong> — ロールは序盤か、連続討伐の後に起きます。ある同盟は<strong>常に8匹以上</strong>と報告。ばらつきがあるので、とにかく討伐を続けましょう。</li>
+      <li>ポイントと報酬は<strong>イベント後半に増えません</strong>。スタミナを取っておく理由はゼロ — <strong>即座に消化</strong>して、大きなボスを早く引きましょう。</li>
+    </ul>
+
+    <h2 id="boss-levels">サーバー別のボスレベル</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>サーバー齢</th><th>よく出るボスレベル</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>典型</td><td>10 / 15 / 20 / 25 / 30、まれに35</td></tr>
+        <tr><td>古いサーバー</td><td>40 / 65 / 85 / 90</td></tr>
+      </tbody>
+    </table>
+    <ul>
+      <li>ボスのレベル帯は<strong>プレイヤーごとにランダムで、以後変わりません</strong> — 引いた帯をそのまま持ち続けます。<strong>戦力とは無関係</strong>なので、低戦力プレイヤーが高レベルのボス帯を引くこともあります。</li>
+      <li><strong>7月8日以降のパッチ:出現はサーバーの成長に正確</strong>。このパッチ以降、ボスのレベルはサーバーの発展度に追従します — 1年物のサーバーでレベル10のボスはもう出ません。</li>
+    </ul>
+
+    <h2 id="spawn-technique">レベル30/35のための連続討伐テクニック</h2>
+    <p>ボトレベルを30と35へ押し込む検証済みのテクニック：</p>
+    <blockquote>部隊を基地に帰らせずに、盗賊を1匹ずつ討伐 — 空き時間ゼロの、バックツーバックの連続進軍。</blockquote>
+    <p>基地へ戻る進軍は連続を断ちます。連続した討伐がロールを繰り返し回す。次の進軍が前の着地の瞬間に出発するようにターゲットを繋げば、高レベルの出現頻度は格段に上がります。</p>
+
+    <h2 id="exchange">交換優先度リスト</h2>
+    <p>交換ショップこそが本当の報酬で、コミュニティの合意順序は安定しています：</p>
+    <h3 id="week-1">週1のみ</h3>
+    <ol>
+      <li><strong>巻物</strong> — 4個をAlliance Duel テックのために。<strong>それ以降は二度と</strong>。決闘テックはちょうど4個を欲しがり、その後は死に荷重です。</li>
+    </ol>
+    <h3 id="always">毎回、毎イベント</h3>
+    <ol>
+      <li><strong>カラスの精髄</strong> — 例外なしの毎回。カラスシステムは恒久的にここでボトルネックです(<a href="/ja/raven/">カラスガイド</a>参照)。</li>
+    </ol>
+    <h3 id="high-priority">高優先度</h3>
+    <ol>
+      <li>スタミナ</li>
+      <li>加速</li>
+      <li>カラスの箱</li>
+      <li>エピグラフ(<em>在庫がある時</em>)</li>
+    </ol>
+    <h3 id="late-game">終盤</h3>
+    <ol>
+      <li><strong>薬草</strong> — いくらあっても足りません。終盤アカウントは毎回薬草を買います。</li>
+    </ol>
+    <h3 id="alt-list">代替の優先度リスト</h3>
+    <ol>
+      <li>スタミナ</li>
+      <li>LV3カラスの箱</li>
+      <li>青/紫のエピグラフ箱</li>
+      <li>研究/建設加速</li>
+      <li>リクルートチケット</li>
+    </ol>
+    <p>そして1つの所持品ルール:<strong>巻物の上限はイベントをまたいで持ち越されます</strong>。巻物のキャップに達すると、そのキャップは次のイベントまで付いて回る — 「4個で、以降は二度と」ルールが存在するもう1つの理由です。</p>
+
+    <h2 id="boss-squad">ボス集結の部隊</h2>
+    <p>経時ダメージのために組まれた、コミュニティのボス編成：</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>列</th><th>ヒーロー</th><th>役割</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>前衛</td><td>Arthur + Bella</td><td>長く生き残る — 生存の1秒ごとにダメージがさらに積まれる</td></tr>
+        <tr><td>後衛</td><td>Marlena + Shadow + Claire</td><td>前衛の後ろのダメージエンジン</td></tr>
+      </tbody>
+    </table>
+    <p>論理：<strong>長い生存 = より多くのダメージ</strong>。ボス戦は瞬発力の検査ではなく、最も長く立っている部隊が最も多くのダメージを与えます。生の攻撃より生存を優先しましょう。ヒーローの詳細は<a href="/ja/heroes/">ヒーローガイド</a>にあります。</p>
+
+    <VideoSection topic="thief" lang={lang} />
+  </GuidePage>
+</Base>

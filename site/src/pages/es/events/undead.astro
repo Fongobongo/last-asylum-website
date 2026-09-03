@@ -1,0 +1,102 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'es';
+---
+<Base lang={lang} path="/es/events/undead/" title="Asedio no-muertos: guía completa" description="Defensa de alianza contra oleadas infectadas: la barra de 300,000 pistas, niveles de dificultad de 2.4M a 24.5M de Poder enemigo, la mecánica oculta de múltiples escuadrones que mata a jugadores de 9.5M y tablas completas de recompensas.">
+  <GuidePage title="Asedio no-muertos: guía completa" description="Defensa de alianza contra oleadas infectadas: la barra de 300,000 pistas, niveles de dificultad de 2.4M a 24.5M de Poder enemigo, la mecánica oculta de múltiples escuadrones que mata a jugadores de 9.5M y tablas completas de recompensas." lang={lang}>
+    <p>El Asedio no-muertos es el evento de defensa de alianza: toda tu alianza resiste <strong>oleadas de infectados</strong>, con los héroes en la muralla peleando. Dos reglas lo definen antes que nada: <strong>los escudos no funcionan</strong>, y <strong>no es un evento de puntos</strong> — el objetivo es defender tantas oleadas como sea posible.</p>
+    <p>Esta guía cubre cómo se desbloquean los asedios, la escalera de dificultad, la mecánica oculta de múltiples escuadrones que arrasa alianzas desprevenidas, las recompensas y los siete errores principales.</p>
+
+    <h2 id="unlocking">Cómo se desbloquea un asedio</h2>
+    <p>Los asedios no están en un temporizador — tu alianza los dispara:</p>
+    <ol>
+      <li>Llena la barra de <strong>300,000 Puntos de Pistas</strong>.</li>
+      <li>Un <strong>R4 o R5 encuentra la Prisión de la Muerte oculta</strong> en el mapa.</li>
+      <li>Ese líder <strong>inicia el asedio y elige la dificultad</strong>.</li>
+      <li>El asedio comienza aproximadamente <strong>4 horas tras el clic</strong> — usa ese margen para poner a los héroes de todos los miembros en la muralla.</li>
+    </ol>
+    <p>Los puntos de pistas vienen del juego diario normal:</p>
+    <ul>
+      <li>Atacar <strong>Rebeldes</strong> y la <strong>Legión de la Plaga</strong></li>
+      <li>Matar <strong>Plagas Errantes</strong></li>
+      <li>Recolectar recursos en casillas</li>
+      <li>Ayudar a aliados (toques de ayuda en construcción e investigación)</li>
+      <li>Correr la <strong>Excavación de Alianza</strong></li>
+      <li>Completar <strong>Misiones del Halcón</strong></li>
+    </ul>
+    <p>Una alianza activa llena la barra con juego ordinario; el cuello de botella no es la barra, es la preparación.</p>
+
+    <h2 id="difficulty">Niveles de dificultad</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Dificultad</th><th>Poder enemigo</th><th>Territorio</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Nivel 1</td><td>2.4M</td><td>Territorio 13</td></tr>
+        <tr><td>Nivel 6</td><td>~3 escuadrones por oleada</td><td>—</td></tr>
+        <tr><td>Nivel 10</td><td>24.5M</td><td>Territorio 27</td></tr>
+      </tbody>
+    </table>
+    <p>La escalera escala continuamente desde 2.4M de Poder enemigo en el Nivel 1 hasta 24.5M en el Nivel 10, con requisitos de territorio subiendo del 13 al 27. Las dificultades altas también desbloquean <strong>Mutaciones enemigas</strong> — <strong>previsualiza las mutaciones antes de comprometerte</strong> con una dificultad, porque una mutación que contrarresta tu formación defensiva vale millones de Poder enemigo.</p>
+
+    <h2 id="hidden-mechanic">La mecánica oculta de múltiples escuadrones</h2>
+    <p>Esta es la parte del evento que la pantalla de dificultad no te cuenta, y es la diferencia entre sobrevivir 20 oleadas y colapsar en la 17:</p>
+    <ul>
+      <li>El asedio envía <strong>2 o más escuadrones con el Poder indicado</strong>. 8M indicado significa que peleas contra dos escuadrones de 8M — efectivamente el doble del número del botón.</li>
+      <li>En la <strong>oleada 17</strong> de una dificultad de 8M, la fuerza real es aproximadamente <strong>7.3M x 2</strong>.</li>
+      <li>En <strong>dificultad 6 y superior, las oleadas envían 3 escuadrones</strong>.</li>
+      <li><strong>El HP del escuadrón persiste entre oleadas.</strong> Tu tanque empieza la siguiente pelea con el HP con que terminó la última — y tu escuadrón 1 debe sobrevivir <strong>peleas consecutivas</strong> sin curación entre medias.</li>
+    </ul>
+    <blockquote>Un jugador de 9.5M murió en la oleada 17 de una dificultad de 8M — desgastado por peleas consecutivas con HP persistente. El Poder indicado no es la pelea.</blockquote>
+
+    <h2 id="rewards">Recompensas</h2>
+    <h3 id="personal-rewards">Hitos personales</h3>
+    <p>Cada jugador enfrenta <strong>20 oleadas en solitario</strong>, con hitos en las oleadas <strong>1, 4, 8, 10, 13, 16 y 20</strong> — fichas, mejoras y cofres. Si tu ciudad cae <strong>no volverá a ser atacada</strong>, pero tus recompensas personales se detienen ahí: morir en la oleada 12 de 20 pierde cada hito posterior.</p>
+    <h3 id="alliance-rewards">Hitos de alianza</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Oleadas totales de la alianza</th><th>Recompensas</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>50</td><td>XP de héroes, materiales, medallas</td></tr>
+        <tr><td>100</td><td>XP de héroes, materiales, medallas</td></tr>
+        <tr><td>150</td><td>XP de héroes, materiales, medallas</td></tr>
+        <tr><td>200</td><td>XP de héroes, materiales, medallas</td></tr>
+        <tr><td>250</td><td>XP de héroes, materiales, medallas</td></tr>
+        <tr><td>300</td><td>XP de héroes, materiales, medallas</td></tr>
+      </tbody>
+    </table>
+    <p>Dos reglas en torno al total de alianza:</p>
+    <ul>
+      <li>Se requiere <strong>membresía de más de 48 horas</strong> para recibir recompensas de alianza — los recién llegados no cobran.</li>
+      <li><strong>Reforzar a otros miembros no duplica tus recompensas personales</strong> — sube el total de la alianza. Hazlo igual: los hitos de alianza son el gran pago.</li>
+    </ul>
+    <p>El récord absoluto es de <strong>1,193 oleadas</strong> en un solo asedio.</p>
+
+    <h2 id="deployment">Despliegue: escuadrones y refuerzos</h2>
+    <ul>
+      <li><strong>Tu escuadrón más fuerte va a tu propia muralla.</strong> Ese escuadrón lleva tus 20 oleadas personales.</li>
+      <li><strong>El resto de tus escuadrones refuerzan a otros miembros</strong> — reforzar sube el total de la alianza, donde viven las recompensas compartidas.</li>
+      <li>Los refuerzos aterrizan en la muralla del miembro y pelean las oleadas entrantes con él — mándalos antes de que golpeen las oleadas, no después de la notificación.</li>
+    </ul>
+
+    <h2 id="top-mistakes">Los 7 errores principales</h2>
+    <ol>
+      <li><strong>Héroes fuera de la muralla</strong> — el mayor asesino. Los héroes en la muralla son el evento; una muralla sin héroes es una ciudad esperando caer.</li>
+      <li><strong>Ignorar la defensa de muralla</strong> — aquí <strong>no hay defensa automática</strong>. Lo que preconfigures es lo que pelea.</li>
+      <li><strong>Empezar sin el 100% de pistas</strong> — un inicio apresurado desperdicia la ventana de aviso de 4 horas.</li>
+      <li><strong>Subestimar las mutaciones</strong> — lee siempre la vista previa de mutaciones antes de elegir la dificultad.</li>
+      <li><strong>No reforzar a los miembros</strong> — los hitos de alianza necesitan cuerpos en cada muralla, no solo la tuya.</li>
+      <li><strong>Empezar con escuadrones parciales</strong> — un escuadrón de muralla a medio llenar es un escuadrón muerto.</li>
+      <li><strong>Cerrar sesión sin defensa preconfigurada</strong> — la defensa offline funciona, pero <strong>solo si se preconfiguró</strong>. Configúralo, y luego a dormir.</li>
+    </ol>
+    <p>Corre el evento con esos siete corregidos y tu alianza defiende cerca de su techo. La configuración de héroes para la muralla y la composición de escuadrones están en la <a href="/es/heroes/">guía de Héroes</a>.</p>
+
+    <VideoSection topic="undead" lang={lang} />
+  </GuidePage>
+</Base>

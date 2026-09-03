@@ -1,0 +1,73 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'pt';
+
+const authors = [
+  { name: 'HottChoklit', tag: 'K34', contributions: ['Gasto de diamantes', 'Progressão de Poder', 'Série Hero Academy', 'Estratégia KvK', 'Guias de Undead/saque'] },
+  { name: 'korpez / Korpez Gaming', tag: 'YouTube', contributions: ['Guia completo do Duelo de Alianças', 'Survival Battle', 'Velocidade de construção', 'Era do Renascimento', 'Mythic Treasure'] },
+  { name: 'chuppergaming', tag: 'YouTube', contributions: ['Guia inicial da Era', 'Treinamento de tropas', 'Mythic Treasure', 'Supreme Duel', 'Guild Wagon'] },
+  { name: 'merlyn', tag: 'comunidade', contributions: ['Composição de esquadrões + seção F2P', 'Dicas de epígrafes do Corvo', 'Prioridades de lojas'] },
+  { name: 'lucifer_burnsyou', tag: 'comunidade', contributions: ['Guia de prioridades de lojas (5 idiomas)', 'strategic-game-guide.netlify.app'] },
+  { name: 'callikoneko', tag: 'comunidade', contributions: ['Análise profunda de dano no Rei Demônio', 'Explicações de sinergias de habilidades'] },
+  { name: 'kellerfaust', tag: 'comunidade', contributions: ['Formações contra Boss Blight (todas as facções)'] },
+  { name: 'DrAction', tag: 'S12', contributions: ['Ordem de promoção de epígrafes', 'Conselhos PvP de esquadrão'] },
+  { name: 'skyyzies', tag: 'comunidade', contributions: ['Regras de defesa e ataque da Arena Triangular'] },
+  { name: 'verratvonwindir', tag: 'S2', contributions: ['Mecânicas da Disputa do Castelo Real'] },
+  { name: 'mu_013', tag: 'comunidade', contributions: ['Hunt Battle', 'Wandering Phantom', 'Guild Wagon', 'Estoque de Falcon Tower'] },
+  { name: 'linde2000', tag: 'comunidade', contributions: ['Spawns de ladrões', 'Habilidades de Crystal Cluster', 'Respostas F2P'] },
+  { name: 'elsiika57', tag: 'comunidade', contributions: ['Roteiro de construções do Santuário 1–29'] },
+  { name: 'zoidseo', tag: 'K159', contributions: ['Progressão do jogo inicial'] },
+  { name: 'ruitea', tag: 'comunidade', contributions: ['Dicas gerais / F2P / guias Shrimp', 'Análise de habilidades de Marlena'] },
+  { name: '_.dot._', tag: 'comunidade', contributions: ['Eficiência de distintivos de Marlena', 'Correções de Mythic Treasure', 'Prioridades de habilidades'] },
+  { name: 'dunidunduni', tag: 'S7', contributions: ['Detalhes do evento Survival Battle'] },
+  { name: 'Aesy', tag: 'comunidade', contributions: ['Infográficos de Thief Hunt e Crystal Cluster'] },
+  { name: 'katherineclover', tag: 'S131', contributions: ['Compêndio de Lucky Clovers'] },
+  { name: 'DrGayLord / HOLY', tag: 'S247', contributions: ['Básico para iniciantes: construções, equipamento, facções'] },
+  { name: '뀨잉이 (jjuingyi)', tag: 'comunidade', contributions: ['Guia de Guild Wagon (KO)'] },
+  { name: 'bulheba', tag: 'comunidade RU', contributions: ['RU: mecânica PVP, ordem de build, vídeos do Duelo de Alianças'] },
+  { name: 'LapBase / ikona_in', tag: 'comunidade RU', contributions: ['RU: esquadrão F2P de infantaria, guias de eventos'] },
+  { name: 'oψsvge英俊的', tag: 'K250', contributions: ['ID: Era do Renascimento, Cerco dos mortos-vivos, primeiras semanas'] },
+  { name: 'hunalulu0503', tag: 'comunidade', contributions: ['Mythic Treasure F2P', 'TOP-10 construções'] },
+  { name: 'Sirox', tag: 'thelaphub.com', contributions: ['LAP Hub — planejador de pesquisas, calculadoras, codex', 'Análises de Claire UR e limites de saque'] },
+];
+
+const sources = [
+  { name: 'Discord oficial — #official-guide', url: null, desc: 'Guias oficiais de construções/heróis/Poder/antitoxina' },
+  { name: 'Discord oficial — #player-guide', url: null, desc: '520+ tópicos da comunidade em ~15 idiomas (extraídos com discord.py-self)' },
+  { name: 'Sirox’s LAP Hub', url: 'https://thelaphub.com', desc: 'Planejador de pesquisas, calculadoras, codex de heróis/construções' },
+  { name: 'Strategic Game Guide', url: 'https://strategic-game-guide.netlify.app', desc: 'Prioridades de lojas em 5 idiomas' },
+  { name: 'Canais de YouTube da comunidade', url: null, desc: 'korpez, HottChoklit, chuppergaming, KrrissGaming, quanybean e mais' },
+];
+---
+
+<Base lang={lang} path="/pt/credits/" title="Créditos e fontes" description="Créditos aos autores de guias da comunidade de Last Asylum: Plague cujo trabalho move este hub.">
+  <GuidePage title="🙏 Créditos e fontes" description="Este hub é uma compilação de conhecimento da comunidade. Os guias foram escritos por membros da comunidade de graça — respeito e crédito a todos eles." lang={lang}>
+    <h2 id="authors">Autores dos guias</h2>
+    <div class="not-prose my-6 grid gap-3 sm:grid-cols-2">
+      {authors.map((a) => (
+        <div class="rounded-lg border border-stone-800 bg-stone-900 p-4">
+          <p class="font-bold text-plague-200">{a.name} <span class="ml-1 rounded bg-stone-800 px-1.5 py-0.5 text-xs font-medium text-stone-400">{a.tag}</span></p>
+          <p class="mt-1 text-sm text-stone-400">{a.contributions.join(' · ')}</p>
+        </div>
+      ))}
+    </div>
+
+    <h2 id="sources">Fontes</h2>
+    <ul>
+      {sources.map((s) => (
+        <li>
+          {s.url
+            ? <a href={s.url} target="_blank" rel="noopener noreferrer">{s.name}</a>
+            : <strong>{s.name}</strong>}
+          {' — '}{s.desc}
+        </li>
+      ))}
+    </ul>
+
+    <p class="mt-6 text-sm text-stone-500">Se você é autor e quer seu nome ajustado ou removido, fale conosco — corrigiremos imediatamente.</p>
+  </GuidePage>
+</Base>

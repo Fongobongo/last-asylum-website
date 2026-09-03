@@ -1,0 +1,58 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { statusUpdates } from '../../data/status';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ru';
+
+const statusStyles = {
+  fixed: 'border-toxic-500/40 bg-toxic-500/10 text-toxic-400',
+  investigating: 'border-amber-500/40 bg-amber-900/20 text-amber-300',
+  info: 'border-sky-500/40 bg-sky-900/20 text-sky-300',
+};
+const statusIcons = { fixed: '✅', investigating: '⚠️', info: 'ℹ️' };
+const statusLabels = { fixed: 'исправлено', investigating: 'расследуется', info: 'инфо' };
+---
+
+<Base lang={lang} path="/status/" title="Статус серверов и известные проблемы" description="Известные баги, фиксы и официальные уведомления Last Asylum: Plague — кратко из официального канала.">
+  <GuidePage
+    title="🛡️ Статус серверов и известные проблемы"
+    description="Краткая выжимка официального канала #status-update. Для живых обновлений — официальный Discord."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/ru/' }, { label: 'Статус' }]}
+  >
+    <p>Здесь собраны все заметные официальные уведомления: баги, исправления, компенсации и предупреждения о безопасности. Новые сверху. Если твоей проблемы нет в списке — репорть в игре: Аватар → Аккаунт → User Center → Feedback.</p>
+    <p class="text-sm text-stone-500">Названия и статусы оставлены на английском — как в игре.</p>
+
+    <div class="not-prose my-8 space-y-3">
+      {statusUpdates.map((s) => (
+        <article class="rounded-lg border border-stone-800 bg-stone-900 p-4">
+          <div class="flex flex-wrap items-center justify-between gap-2">
+            <h3 class="font-bold text-stone-100">{s.title}</h3>
+            <div class="flex items-center gap-2">
+              <time class="text-xs text-stone-500">{s.date}</time>
+              <span class={`rounded px-2 py-0.5 text-xs font-semibold ${statusStyles[s.status]}`}>{statusIcons[s.status]} {statusLabels[s.status]}</span>
+            </div>
+          </div>
+          <p class="mt-2 text-sm text-stone-400">{s.detail}</p>
+        </article>
+      ))}
+    </div>
+
+    <h2 id="scam-alert">Внимание: мошенники</h2>
+    <p>Скамеры изображают официальных сотрудников, чтобы украсть аккаунты. Настоящие сотрудники <strong>никогда</strong> не просят пароли, коды подтверждения или оплату вне официальных каналов. Включи привязку Facebook/Google в настройках.</p>
+
+    <h2 id="login-fixes">Не заходит в игру? Быстрые фиксы</h2>
+    <ul>
+      <li>Полностью перезапусти игру</li>
+      <li>Очисти кэш игры (может потребоваться повторный вход)</li>
+      <li>Отключи VPN, если используешь</li>
+      <li>Кнопка <strong>Repair</strong> (правый верхний угол на экране загрузки)</li>
+    </ul>
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

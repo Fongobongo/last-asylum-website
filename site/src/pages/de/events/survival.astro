@@ -1,0 +1,71 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+<Base lang={lang} path="/de/events/survival/" title="Survival Battle: 60K gratis Abzeichen" description="Das wöchentliche Missions-Event, das F2P-Spielern rund 60.000 Fähigkeits-Abzeichen einbringt: Missions-Kategorien, der Niedrigstufen-Kasernen-Trick, Raben-Frucht-Timing und der Zielkonflikt mit dem Allianz-Duell-Sparen.">
+  <GuidePage title="Survival Battle: 60K gratis Abzeichen" description="Das wöchentliche Missions-Event, das F2P-Spielern rund 60.000 Fähigkeits-Abzeichen einbringt: Missions-Kategorien, der Niedrigstufen-Kasernen-Trick, Raben-Frucht-Timing und der Zielkonflikt mit dem Allianz-Duell-Sparen." lang={lang}>
+    <p>Survival Battle ist das <strong>wöchentliche Missions-Event</strong>, und für Free-to-Play-Konten ist es die wichtigste wiederkehrende Einnahmequelle des Spiels: <strong>F2P-Spieler können rund 60.000 Fähigkeits-Abzeichen pro Woche</strong> damit verdienen. Fähigkeits-Abzeichen sind der permanente Helden-Fähigkeiten-Flaschenhals — dieses Event ist, wie du sie ohne Ausgaben fließen hältst.</p>
+    <p>Dieser Guide deckt ab, wie die Missionen funktionieren, die billigen Abschluss-Tricks und den einen strategischen Zielkonflikt, um den du planen musst.</p>
+
+    <h2 id="how-it-works">Wie es funktioniert</h2>
+    <ul>
+      <li>Survival Battle ist ein <strong>wöchentliches Event</strong> mit rotierender Missions-Liste.</li>
+      <li><strong>Missions-Listen VARIIEREN JE NACH SERVER</strong> — deine Liste muss nicht zu der eines anderen Servers passen, also behandle jeden Missions-Guide (einschließlich spezifischer Missionsnamen) als ungefähr und prüfe zuerst deine eigene Ingame-Liste.</li>
+      <li>Das Auszahlungs-Ziel für ein F2P-Konto sind <strong>~60.000 Fähigkeits-Abzeichen pro Woche</strong> — erreichbar über die Missions-Belohnungen, wenn die Liste effizient abgeschlossen wird.</li>
+    </ul>
+    <p>Aufgaben-Kategorien, die du auf den Listen sehen wirst:</p>
+    <ul>
+      <li>Technologie-Forschungs-Missionen</li>
+      <li>Raben-Verbesserungs-Missionen</li>
+      <li>Soldaten-Trainings-Missionen (siehe <a href="#barracks-trick">den Kasernen-Trick</a>)</li>
+      <li>Monster-Tötungs-Missionen (siehe <a href="#stamina-missions">Ausdauer-Missionen</a>)</li>
+      <li>Rekrutierungs-Missionen (siehe <a href="#recruit-missions">den Ticket-Trick</a>)</li>
+    </ul>
+
+    <h2 id="barracks-trick">Der Niedrigstufen-Kasernen-Trick</h2>
+    <p>Soldaten-Trainings-Missionen ist die Stufe egal — sie zählen Köpfe. Also:</p>
+    <ol>
+      <li>Stelle <strong>billige Niedrigstufen-Truppen</strong> in deiner Kaserne in die Warteschlange.</li>
+      <li>Jede abgeschlossene Charge hakt die Train-Soldiers-Mission ab — für einen Bruchteil der Nahrungs- und Beschleunigungskosten echter Armee-Produktion.</li>
+      <li>Stornierfestes Timing: Niedrigstufen-Chargen finishen schnell, du kannst also mehrere Abschlüsse in einem Event-Fenster verketten.</li>
+    </ol>
+    <p>Das ist dieselbe Kopfzahl-Logik, die <a href="/de/events/alliance-duel/">Allianz-Duell-Phase 5</a> antreibt — nur dass du dort hohe Stufen für die großen Punkte willst, während hier nur die Zahl zählt. Trainiere die billigsten Truppen, die du hast, und clearä die Mission.</p>
+
+    <h2 id="stamina-missions">Monster-Missionen: Raben-Früchte sparen, Ausdauer ausgeben</h2>
+    <ul>
+      <li><strong>Hebe deine Raben-Früchte</strong> für Monster-Tötungs-Missionen auf — verbrenne sie nicht an gewöhnlichen Tagen, wenn nichts für den Kill zahlt.</li>
+      <li><strong>Gib Ausdauer aus</strong>, um Monster-Missionen zu erfüllen. Außerhalb von Events ausgegebene Ausdauer ist der klassische F2P-Verschleiß — dieselben Kämpfe bringen Event-Fortschritt, wenn sie auf eine Monster-Mission getaktet sind.</li>
+    </ul>
+
+    <h2 id="recruit-missions">Die 30-Ticket-Rekrutierungs-Mission</h2>
+    <p>Der bekannte billige Abschluss: eine Rekrutierungs-Mission clearät mit <strong>30 Rekrutierungs-Tickets</strong>. Das macht sie zu einem reinen Wert-Check — wenn du 30 Tickets gebankt hast, ist die Mission gratis; wenn nicht, wäge sie gegen deine <a href="/de/events/alliance-duel/">Allianz-Duell-Phase-4</a>-Pläne ab, wo Rekruten je +3.450 Punkte zahlen.</p>
+
+    <h2 id="duel-overlap">KRITISCH: die Allianz-Duell-Überschneidung</h2>
+    <blockquote>Manche Survival-Battle-Missionen überschneiden sich mit dem Allianz-Duell-Sparen. Entscheide, was du jetzt abschließt und was du fürs Duell aufhebst.</blockquote>
+    <p>Das ist die eine echte Entscheidung, die das Event erzwingt. Forschungs-, Rekrutierungs- und Trainings-Missionen wollen alle dieselben Ressourcen, für die das Duell doppelt zahlt:</p>
+    <ul>
+      <li><strong>Eine Forschungs-Mission diese Woche vs. schriftrollenfreie Forschung am Duell-Mittwoch in Phase 3.</strong></li>
+      <li><strong>Eine Rekrutierungs-Mission jetzt vs. Phase 4 mit +3.450 pro Rekrut.</strong></li>
+      <li><strong>Eine Trainings-Mission jetzt vs. Phase 5 mit verdoppelten Punkten und +30% Beschleunigungs-Wert.</strong></li>
+    </ul>
+    <p>Die Faustregel: vergleiche die Survival-Battle-Belohnung mit den Duell-Punkten, die du opfern würdest. Früh in einem Duell-Zyklus: fürs Duell sparen; spät im Zyklus, oder wenn die Missions-Belohnung abzeichen-lastig ist: Mission clearen. Wenn die Kalender kollidieren, ist das 60K-Wochen-Abzeichen-Einkommen die F2P-Priorität — Abzeichen haben keine andere farmbare Quelle in diesem Maßstab.</p>
+
+    <h2 id="weekly-checklist">Die Wochen-Checkliste</h2>
+    <ol>
+      <li>Öffne das Event zu Wochenbeginn und lies die Missions-Liste <strong>deines Servers</strong>.</li>
+      <li>Sortiere die Missionen in „jetzt abschließen“ und „fürs Duell aufheben“ — bevor du irgendwas ausgibst.</li>
+      <li>Stelle Niedrigstufen-Kasernen-Chargen für die Trainings-Missionen ein.</li>
+      <li>Halte Raben-Früchte und Ausdauer für die Monster-Missionen zurück.</li>
+      <li>Bank 30 Rekrutierungs-Tickets, wenn eine Rekrutierungs-Mission läuft.</li>
+      <li>Sammle die vollen ~60.000 Fähigkeits-Abzeichen bis Wochenende ein.</li>
+    </ol>
+    <p>Wohin diese Abzeichen gehen — die Helden-Fähigkeits-Prioritäten-Reihenfolge — steht im <a href="/de/heroes/">Helden-Guide</a>.</p>
+
+    <VideoSection topic="survival" lang={lang} />
+  </GuidePage>
+</Base>

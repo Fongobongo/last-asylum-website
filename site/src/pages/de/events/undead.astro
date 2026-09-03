@@ -1,0 +1,102 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+<Base lang={lang} path="/de/events/undead/" title="Untoten-Belagerung: kompletter Guide" description="Allianz-Defense gegen infizierte Wellen: die 300.000-Hinweise-Leiste, Schwierigkeitsstufen von 2.4M bis 24.5M Gegner-Macht, die versteckte Multi-Trupp-Mechanik, die 9.5M-Spieler tötet, und komplette Belohnungstabellen.">
+  <GuidePage title="Untoten-Belagerung: kompletter Guide" description="Allianz-Defense gegen infizierte Wellen: die 300.000-Hinweise-Leiste, Schwierigkeitsstufen von 2.4M bis 24.5M Gegner-Macht, die versteckte Multi-Trupp-Mechanik, die 9.5M-Spieler tötet, und komplette Belohnungstabellen." lang={lang}>
+    <p>Die Untoten-Belagerung ist das Allianz-Defense-Event: deine ganze Allianz steht gemeinsam gegen <strong>Wellen von Infizierten</strong>, wobei die Helden auf der Mauer kämpfen. Zwei Regeln definieren es vor allem anderen: <strong>Schilde funktionieren nicht</strong>, und es ist <strong>kein Punkte-Event</strong> — das Ziel ist, so viele Wellen wie möglich zu verteidigen.</p>
+    <p>Dieser Guide deckt ab, wie Belagerungen freigeschaltet werden, die Schwierigkeits-Leiter, die versteckte Multi-Trupp-Mechanik, die unvorbereitete Allianzen auslöscht, Belohnungen und die Top-7-Fehler.</p>
+
+    <h2 id="unlocking">Wie eine Belagerung freigeschaltet wird</h2>
+    <p>Belagerungen stehen nicht auf einem Timer — deine Allianz startet sie:</p>
+    <ol>
+      <li>Fülle die Leiste mit <strong>300.000 Hinweis-Punkten</strong>.</li>
+      <li>Ein <strong>R4 oder R5 findet das versteckte Todesgefängnis</strong> auf der Karte.</li>
+      <li>Dieser Leader <strong>startet die Belagerung und wählt die Schwierigkeit</strong>.</li>
+      <li>Die Belagerung beginnt rund <strong>4 Stunden nach dem Klick</strong> — nutze diese Lücke, um die Helden aller Mitglieder auf die Mauer zu stellen.</li>
+    </ol>
+    <p>Hinweis-Punkte kommen aus normalem Alltags-Spiel:</p>
+    <ul>
+      <li><strong>Rebellen</strong> und die <strong>Blight-Legion</strong> angreifen</li>
+      <li><strong>Wandernde Blights</strong> töten</li>
+      <li>Ressourcen auf Kacheln sammeln</li>
+      <li>Verbündeten helfen (Hilfe-Klicks bei Bau und Forschung)</li>
+      <li>Die <strong>Allianz-Ausgrabung</strong> laufen lassen</li>
+      <li><strong>Falken-Quests</strong> abschließen</li>
+    </ul>
+    <p>Eine aktive Allianz füllt die Leiste durch gewöhnliches Spiel; der Flaschenhals ist nicht die Leiste, sondern die Bereitschaft.</p>
+
+    <h2 id="difficulty">Schwierigkeitsstufen</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Schwierigkeit</th><th>Gegner-Macht</th><th>Territorium</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Stufe 1</td><td>2.4M</td><td>Territorium 13</td></tr>
+        <tr><td>Stufe 6</td><td>~3 Trupps pro Welle</td><td>—</td></tr>
+        <tr><td>Stufe 10</td><td>24.5M</td><td>Territorium 27</td></tr>
+      </tbody>
+    </table>
+    <p>Die Leiter skaliert kontinuierlich von 2.4M Gegner-Macht auf Stufe 1 bis 24.5M auf Stufe 10, wobei Territoriums-Anforderungen von 13 auf 27 steigen. Höhere Schwierigkeitsstufen schalten zusätzlich <strong>Gegner-Mutationen</strong> frei — <strong>schaue die Mutationen vor dem Festlegen einer Schwierigkeit an</strong>, denn eine Mutation, die deine Defense-Komposition kontert, ist Millionen von Gegner-Macht wert.</p>
+
+    <h2 id="hidden-mechanic">Die versteckte Multi-Trupp-Mechanik</h2>
+    <p>Das ist der Teil des Events, den dir der Schwierigkeits-Screen nicht verrät, und es ist der Unterschied zwischen 20 Wellen Überleben und Zusammenbruch bei 17:</p>
+    <ul>
+      <li>Die Belagerung schickt <strong>2 oder mehr Trupps mit der angegebenen Macht</strong>. Angegebene 8M heißt, du kämpfst gegen zwei Trupps à 8M — effektiv das Doppelte der Zahl auf dem Knopf.</li>
+      <li>In <strong>Welle 17</strong> einer 8M-Schwierigkeit liegt die echte Stärke bei etwa <strong>7.3M x 2</strong>.</li>
+      <li>Ab <strong>Schwierigkeit 6 schicken die Wellen 3 Trupps</strong>.</li>
+      <li><strong>Trupp-HP persistiert zwischen Wellen.</strong> Dein Tank startet den nächsten Kampf mit der HP, mit der er den letzten beendet hat — und dein Trupp 1 muss <strong>Hinterhut-Kämpfe</strong> ohne Heilung dazwischen überleben.</li>
+    </ul>
+    <blockquote>Ein 9.5M-Spieler starb in Welle 17 einer 8M-Schwierigkeit — aufgerieben von aufeinanderfolgenden Kämpfen mit persistenter HP. Die angegebene Macht ist nicht der Kampf.</blockquote>
+
+    <h2 id="rewards">Belohnungen</h2>
+    <h3 id="personal-rewards">Persönliche Meilensteine</h3>
+    <p>Jeder Spieler bestreitet <strong>20 Solo-Wellen</strong>, mit Meilensteinen in den Wellen <strong>1, 4, 8, 10, 13, 16 und 20</strong> — Token, Upgrades und Truhen. Fällt deine Stadt, wird sie <strong>nicht erneut angegriffen</strong>, aber deine persönlichen Belohnungen enden dort: In Welle 12 von 20 zu sterben verwirkt jeden Meilenstein danach.</p>
+    <h3 id="alliance-rewards">Allianz-Meilensteine</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Allianz-Wellen gesamt</th><th>Belohnungen</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>50</td><td>Helden-XP, Materialien, Medaillen</td></tr>
+        <tr><td>100</td><td>Helden-XP, Materialien, Medaillen</td></tr>
+        <tr><td>150</td><td>Helden-XP, Materialien, Medaillen</td></tr>
+        <tr><td>200</td><td>Helden-XP, Materialien, Medaillen</td></tr>
+        <tr><td>250</td><td>Helden-XP, Materialien, Medaillen</td></tr>
+        <tr><td>300</td><td>Helden-XP, Materialien, Medaillen</td></tr>
+      </tbody>
+    </table>
+    <p>Zwei Regeln um das Allianz-Gesamt:</p>
+    <ul>
+      <li>Eine <strong>Mitgliedschaft über 48 Stunden</strong> ist erforderlich, um Allianz-Belohnungen zu erhalten — Neuzugänge gehen leer aus.</li>
+      <li><strong>Mitglieder zu verstärken verdoppelt nicht deine persönlichen Belohnungen</strong> — es erhöht das Allianz-Gesamt. Mach es trotzdem: die Allianz-Meilensteine sind die große Auszahlung.</li>
+    </ul>
+    <p>Der Allzeit-Rekord steht bei <strong>1.193 Wellen</strong> in einer einzigen Belagerung.</p>
+
+    <h2 id="deployment">Aufstellung: Trupps und Verstärkung</h2>
+    <ul>
+      <li><strong>Dein stärkster Trupp geht auf deine eigene Mauer.</strong> Dieser Trupp trägt deine 20 persönlichen Wellen.</li>
+      <li><strong>Der Rest deiner Trupps verstärkt andere Mitglieder</strong> — Verstärken erhöht das Allianz-Gesamt, wo die geteilten Belohnungen leben.</li>
+      <li>Verstärkungen landen an der Mauer des Mitglieds und kämpfen dort gemeinsam gegen die ankommenden Wellen — schicke sie vor den Wellen los, nicht nach der Benachrichtigung.</li>
+    </ul>
+
+    <h2 id="top-mistakes">Die Top-7-Fehler</h2>
+    <ol>
+      <li><strong>Helden nicht auf der Mauer</strong> — der größte Killer. Helden auf der Mauer sind das Event; eine Mauer ohne Helden ist eine Stadt, die auf den Fall wartet.</li>
+      <li><strong>Mauer-Defense ignorieren</strong> — es gibt in diesem Event <strong>keine Auto-Defense</strong>. Was du voreinstellst, ist das, was kämpft.</li>
+      <li><strong>Ohne 100% Hinweise starten</strong> — ein überstürzter Start verschwendet das 4-Stunden-Warnfenster.</li>
+      <li><strong>Mutationen unterschätzen</strong> — lies immer die Mutations-Vorschau, bevor du die Schwierigkeit wählst.</li>
+      <li><strong>Mitglieder nicht verstärken</strong> — die Allianz-Meilensteine brauchen Körper an jeder Mauer, nicht nur an deiner.</li>
+      <li><strong>Mit Teil-Trupps starten</strong> — ein halbleerer Mauer-Trupp ist ein toter Mauer-Trupp.</li>
+      <li><strong>Ohne voreingestellte Defense abmelden</strong> — Offline-Defense funktioniert, aber <strong>nur wenn sie voreingestellt war</strong>. Stell sie ein, dann schlaf weiter.</li>
+    </ol>
+    <p>Spiele das Event mit diesen sieben ausgeräumt und deine Allianz verteidigt nahe ihrer Obergrenze. Helden-Setup für die Mauer und Trupp-Zusammensetzung sind im <a href="/de/heroes/">Helden-Guide</a> abgedeckt.</p>
+
+    <VideoSection topic="undead" lang={lang} />
+  </GuidePage>
+</Base>

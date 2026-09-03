@@ -1,0 +1,151 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+<Base lang={lang} path="/de/beginners/" title="Anfänger-Guide: Deine ersten Tage" description="Deine ersten 24 Stunden in Last Asylum: Plague — die Day-One-Checkliste, der Helden-Freischaltplan, Fraktionsboni, die offizielle Startaufstellung und die fünf Fehler, die neue Kontos ruinieren.">
+  <GuidePage title="Anfänger-Guide: Deine ersten Tage" description="Deine ersten 24 Stunden in Last Asylum: Plague — die Day-One-Checkliste, der Helden-Freischaltplan, Fraktionsboni, die offizielle Startaufstellung und die fünf Fehler, die neue Kontos ruinieren." lang={lang}>
+    <p>Last Asylum: Plague belohnt eine Sache über alles: Fokus. Zwischen Bau-Timern, Helden-Bannern, Events und Allianz-Pflichten ist es sehr leicht, zwei Wochen beschäftigt zu sein und trotzdem schwächer dazustehen als jemand, der drei Tage richtig gespielt hat.</p>
+    <p>Dieser Guide verdichtet den Community-Konsens des offiziellen Discords in einen Day-One-Spielplan: was in den ersten 24 Stunden zu tun ist, wann jeder wichtige Held freigeschaltet wird, wie Macht und Fraktionen wirklich funktionieren, und die fünf Fehler, die neue Kontos ruinieren.</p>
+
+    <h2 id="first-24-hours">Erste 24 Stunden: die Checkliste</h2>
+    <p>Arbeite diese Liste in Reihenfolge ab. Alles andere im Spiel kann warten, bis diese sechs Dinge erledigt sind.</p>
+    <ol>
+      <li><strong>Tritt sofort einer aktiven Allianz bei.</strong> Bau-Hilfe verkürzt deine Timer, Allianz-Events zahlen kostenlose Belohnungen und die Mitgliedschaft schreckt Angreifer ab. Eine tote Allianz gibt dir nichts davon.</li>
+      <li><strong>Push dein Heiligtum.</strong> Die Heiligtum-Stufe ist dein echter Spieler-Level — sie begrenzt Helden-Level-Caps, Gebäude-Freischaltungen und Truppenstufen.</li>
+      <li><strong>Halte die Bauhütte auf Heiligtum-Stufe bis Heiligtum 15.</strong> Sie verteilt kostenlose Bau-Beschleunigungen, der größte Frühbeschleuniger im Spiel.</li>
+      <li><strong>Wähle nur zwei oder drei Helden.</strong> Jeder Splitter, jedes Fähigkeits-Abzeichen und jeder EXP-Trank, den du verstreust, ist einer, den dein Haupttrupp nie sehen wird.</li>
+      <li><strong>Prüfe den Event-Kalender, bevor du Beschleunigungen ausgibst.</strong> Viele Events zahlen Belohnungen für das, was du ohnehin vorhattest — Doppelnutzen mitnehmen.</li>
+      <li><strong>Beginne am Tag eins mit Plündern.</strong> Plünder-Einkommen verzinst sich; später im Spiel ist ein verpasster Angriffstag rund 27 Millionen Ressourcen verloren.</li>
+    </ol>
+
+    <h2 id="join-alliance">Tritt sofort einer aktiven Allianz bei</h2>
+    <p>Das ist Schritt eins aus gutem Grund. In einer aktiven Allianz wird jeder Bau und jede Forschung, die du startest, von Allianzmitgliedern über den Hilfe-Button beschleunigt — das spart still jeden Tag Stunden an Timern.</p>
+    <p>Allianz-Events sind die zweite Einnahmequelle des Spiels. Das Allianz-Duell und ähnliche Events verteilen Helden-Splitter, Beschleunigungen und Ressourcen fürs Mitmachen — aber nur, wenn die Allianz sie wirklich spielt.</p>
+    <p>Mitgliedschaft ist auch Schutz. Spieler auf der Suche nach leichtem Plünder-Gut prüfen vorher, wem du gehörst; das Tag einer starken Allianz lässt die meisten einfach weiterziehen.</p>
+    <p>Wie du eine Allianz vor dem Beitritt einschätzt: schau die aktuelle Mitgliederaktivität an, ob Hilfeanfragen wirklich beantwortet werden, und ob die Allianz ihre Events spielt. Wenn du in einem Friedhof mit voller Mitgliederliste und null Logins landest — geh.</p>
+    <blockquote>Eine tote Allianz ist schlimmer als keine Allianz. Geh ohne schlechtes Gewissen und tritt am selben Tag einer lebendigen bei.</blockquote>
+
+    <h2 id="sanctuary-gates">Das Heiligtum begrenzt alles</h2>
+    <p>Das Heiligtum ist das große Zentralgebäude und das, was dem Spiel am ehesten einem Spieler-Level entspricht. Alle anderen Gebäude werden von ihm begrenzt, jedes Upgrade gibt EXP, und seine Stufe entscheidet, was das Spiel dich überhaupt anfassen lässt.</p>
+    <ul>
+      <li>Gebäude-Stufen — nichts in deiner Stadt kann die entsprechende Heiligtum-Grenze überschreiten.</li>
+      <li>Helden-Level-Cap — deine Helden können dein Heiligtum-Level nicht übersteigen.</li>
+      <li>Truppenstufen — höhere Stufen schaltest du über den Übungsplatz frei, der selbst vom Heiligtum begrenzt wird.</li>
+      <li>Feature-Freischaltungen — Werkstätten, die Taverne, Allianz-Funktionen und Event-Modi kommen alle bei festen Heiligtum-Stufen.</li>
+    </ul>
+    <p>Deshalb stehen Heiligtum-Upgrades dauerhaft ganz oben auf der Bau-Prioritätenliste. Die komplette Roadmap findest du im <a href="/de/buildings/">Gebäude-Guide</a>.</p>
+    <p>Eine Anfänger-spezifische Regel: halte die Bauhütte auf deiner aktuellen Heiligtum-Stufe, bis du Heiligtum 15 erreichst. Sie produziert kostenlose Bau-Beschleunigungen, und die sind es, die den Heiligtum-Push am Laufen halten, ohne deine gesparten Timer zu verbrennen.</p>
+
+    <h2 id="pick-heroes">Wähle nur zwei oder drei Helden</h2>
+    <p>Helden-Investitionen sind in Last Asylum brutal teuer. Splitter, Fähigkeits-Abzeichen, EXP-Tränke und Ausrüstungsmaterial sind alle knapp, und ein halb ausgebauter Held schützt dich vor gar nichts.</p>
+    <p>Die Community-Regel lautet, alle Ressourcen auf EINEN Haupttrupp von fünf Helden zu konzentrieren — und früh, bevor du überhaupt fünf Einsatzfähige hast, bedeutet das: zwei oder drei Helden tragen dein gesamtes Konto.</p>
+    <p>Konkret: wähle deine zwei oder drei, pack alles in sie, und lass alle anderen auf dem Level stehen, das das Spiel ihnen geschenkt hat. Ein Trupp aus zwei investierten Helden schlägt einen Trupp aus fünf gleichmäßig verteilten in fast jedem Kampf, den du wirklich führen wirst.</p>
+    <p>Welche Helden man wählt, ist keine Geschmacksfrage — der Freischaltplan unten und der <a href="/de/heroes/">Helden-Guide</a> geben den kanonischen Weg vor.</p>
+
+    <h2 id="events-speedups">Prüfe Events, bevor du Beschleunigungen ausgibst</h2>
+    <p>Beschleunigungen, Ressourcen und Diamanten sind nicht nur Währungen — sie sind auch Event-Punkte-Material. Ein großer Teil der Events zahlt Belohnungen dafür, wie viel du während des Event-Fensters von etwas verbrauchst.</p>
+    <p>Der Habitus, der gute von großartigen Kontos trennt: bevor du einen Stapel Beschleunigungen verbrennst, öffne den Event-Tab und prüfe, ob ein Event läuft — oder morgen startet — das Beschleunigungs-Nutzung belohnt.</p>
+    <p>Das ist der Doppelnutzen, wie Spieler es nennen: dieselbe Beschleunigung bringt deinen Bau voran UND sichert Event-Punkte. Den Stapel an einem toten Dienstag statt während des Events auszugeben heißt, für ein Ergebnis doppelt zu zahlen.</p>
+
+    <h2 id="start-plundering">Beginne am Tag eins mit Plündern</h2>
+    <p>Plündern ist deine dritte Einnahmequelle nach Produktion und Events, und es ist die, die die meisten Anfänger wochenlang ignorieren. Es kostet nur Ausdauer, die du ohnehin verschwendet hättest.</p>
+    <p>Die kompletten Mechaniken — Tageslimits, die 100% / 15% / 5% Schwellen, die Neun-Schläge-Regel, der Kriegsvorrat-Bonus — leben im <a href="/de/economy/">Wirtschafts-Guide</a>.</p>
+    <p>Die Day-One-Version ist einfach: greif das reichste Ziel an, das du schlagen kannst, lass deine Ausdauer nie am Cap stehen, und sei nicht der Spieler, der Heiligtum 20 mit zig Millionen verpasstem Plünder-Gut im Rücken erreicht. Täglichen gehalten, ist Plündern später im Spiel rund 27 Millionen Ressourcen pro Tag wert.</p>
+
+    <h2 id="unlock-timeline">Helden-Freischaltplan</h2>
+    <p>Das Spiel tröpfelt seine besten Helden nach festem Zeitplan. Den Plan im Voraus zu kennen ändert komplett, wie du Diamanten ausgibst — du hörst auf, zufällige Pulls zu kaufen, und beginnst, für terminierte Ziele zu sparen.</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Zeitpunkt</th><th>Freischaltung</th><th>Was die Community tut</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Tag 1-2</td><td>Arthur (UR) — gratis</td><td>Dein Day-One-Tank. Sofort claimen.</td></tr>
+        <tr><td>Tag 8</td><td>Cynthia und Shadow — Wünschelrad</td><td>Cynthia kostet ca. 11.500 Diamanten. Nur 10x ziehen.</td></tr>
+        <tr><td>Tag 36 / 43 / 57 / 64 / 72 / 85</td><td>Neue UR-Helden-Events</td><td>Eine diamantlastige Phase — Reserven vorher planen.</td></tr>
+        <tr><td>Tag 66</td><td>Marlena — $1-Aufladung</td><td>Universell der beste Kauf im Spiel genannt.</td></tr>
+        <tr><td>Tag 120+ (Ära der Wiedergeburt)</td><td>Daskal (UR-Tank); Claire-SSR-zu-UR-Umwandlung an Ära-Tag 8</td><td>Daskal ist der beste Tank im Spiel; das Timing der Claire-Umwandlung gut kalkulieren.</td></tr>
+      </tbody>
+    </table>
+
+    <h3 id="arthur-day-one">Arthur: Tag 1-2, gratis UR</h3>
+    <p>Arthur wird jedem Spieler in den ersten zwei Tagen geschenkt, er hat UR-Seltenheit und ist der beste Früh-Tank, den du je besitzen wirst. Weil er gratis ist, ist jeder Splitter für ihn reiner Profit — einer der zwei Helden, die sich ab Tag eins zu investieren lohnen.</p>
+
+    <h3 id="wishing-wheel-day-8">Cynthia und Shadow: Wünschelrad an Tag 8</h3>
+    <p>Tag 8 bringt das erste Wünschelrad mit Cynthia und Shadow. Cynthia, die UR-Früh-Carry, kostet rund 11.500 Diamanten zum Sichern. Zwei harte Community-Regeln: spare deine Diamanten bis Tag 8, statt sie früher auszugeben, und ziehe ausschließlich mit 10x-Pulls — Einzelzüge verschwenden Diamanten auf dieselben Chancen zu schlechterem Preis.</p>
+
+    <h3 id="ur-event-train">Der UR-Event-Zug: Tage 36-85</h3>
+    <p>Eine Reihe neuer UR-Helden-Events kommt an den Tagen 36, 43, 57, 64, 72 und 85. Jedes ist eine Chance, UR-Power hinzuzufügen — und jedes frisst Diamanten. Zu wissen, dass der Zug kommt, ist der Unterschied zwischen Tag 36 mit Plan oder pleite.</p>
+
+    <h3 id="marlena-day-66">Marlena: Tag 66 und die $1-Aufladung</h3>
+    <p>Die Tag-66-Aufladung, die Marlena gewährt, kostet einen Dollar und wird universell als bester Wert im Spiel bezeichnet. Marlena wird zur Schadens-Maschine des Standard-Trupps — sie ist etwa 85% deines Trupp-Schadens, bis Zoya kommt. Lass einen Kaffee aus, kauf die Heldin.</p>
+
+    <h3 id="era-daskal-claire">Tag 120+: Ära der Wiedergeburt — Daskal und Claire</h3>
+    <p>Die Saison Ära der Wiedergeburt beginnt um Tag 120. Sie bringt Daskal, den besten Tank im Spiel, und an Ära-Tag 8 öffnet die Claire-SSR-zu-UR-Umwandlung. Beide Events verändern deinen Langzeit-Trupp; die Timing-Details stehen im <a href="/de/era/">Ära-Guide</a>.</p>
+
+    <h2 id="hero-might">Wie Helden-Macht funktioniert</h2>
+    <p>Die Macht eines Helden ist die Summe von vier getrennten Investitionen. Die Aufteilung zu verstehen sagt dir genau, wohin deine nächste Ressource sollte.</p>
+    <ul>
+      <li><strong>Level</strong> — EXP aus Tränken und Spiel. Die billigste Komponente anfangs.</li>
+      <li><strong>Sterne</strong> — splittergespeist. Der größte Einzelmultiplikator: nach 4 Sternen gibt es einen signifikanten Sprung.</li>
+      <li><strong>Fähigkeiten</strong> — abzeichengespeist. Die Reihenfolge zählt mehr als die Menge; siehe den <a href="/de/heroes/">Helden-Guide</a>.</li>
+      <li><strong>Ausrüstung</strong> — in den Ausrüstungs-Werkstätten gefertigt und mit Materialien verbessert.</li>
+    </ul>
+    <p>Der 4-Sterne-Sprung ist die wichtigste Zahl der Helden-Planung. Unter 4 Sternen füllt ein Held nur einen Platz; darüber beginnt derselbe Held, Kämpfe zu entscheiden.</p>
+    <p>Und weil Splitter, Abzeichen und Ausrüstungsmaterial knapp sind, zahlt sich die Machtformel nur konzentriert aus: alle Ressourcen gehen in EINEN Haupttrupp aus fünf, in der Reihenfolge, in der der Trupp tatsächlich kämpft.</p>
+
+    <h2 id="factions-counters">Fraktionen und Konter</h2>
+    <p>Helden gehören zu drei Fraktionen — Krieger, Waldläufer und Hexer — und das Spiel zahlt dir für Fraktions-Disziplin doppelt: einen Bonus fürs Stapeln einer Fraktion und einen Konter-Zyklus fürs Kämpfen.</p>
+    <p>Zuerst der Stapel-Bonus. Je mehr Helden derselben Fraktion du aufstellst, desto größer der Trupp-weite Bonus:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Helden derselben Fraktion im Trupp</th><th>Trupp-Bonus</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>3</td><td>+5% HP / ATK / DEF</td></tr>
+        <tr><td>4</td><td>+15% HP / ATK / DEF</td></tr>
+        <tr><td>5</td><td>+20% HP / ATK / DEF</td></tr>
+      </tbody>
+    </table>
+    <p>Zweitens der Konter-Zyklus: Krieger schlagen Hexer, Hexer schlagen Waldläufer, Waldläufer schlagen Krieger. Eine Waldläufer-Formation nimmt 20% weniger Schaden von Kriegern — deshalb farmen Mittel-Spiel-Waldläufer-Trupps so gut kriegerlastige Verteidiger.</p>
+    <p>Für den Aufbau die simple Erkenntnis: wähle eine Fraktions-Spur, stapel auf den 5-Helden-+20%-Bonus hin, und prüfe die Fraktion des Gegner-Trupps vor dem Angriff statt danach.</p>
+
+    <h2 id="early-lineup">Deine erste Aufstellung</h2>
+    <p>Die offiziell empfohlene Früh-Aufstellung sieht so aus:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Reihe</th><th>Helden</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Vorne</td><td>Arthur, Bella</td></tr>
+        <tr><td>Hinten</td><td>Marlena, Claire, Celia</td></tr>
+      </tbody>
+    </table>
+    <p>Arthur ankert vorn als Tank; Bella hält den zweiten Frontplatz. Marlena ist die Schadens-Carry des Standard-Builds, Claire ist der Hinterkampf-Buffer, und Celia füllt den fünften Platz, bis dein echter Trupp ankommt.</p>
+    <p>Wichtiger als die exakten Plätze ist die Investitions-Aufteilung in dieser Aufstellung: zwei oder drei Helden bekommen alles, der Rest bleibt billiger Platzhalter. Die kanonische F2P-Aufteilung — Arthur und Claire früh, Marlena an Tag 66 — ist Schritt für Schritt im <a href="/de/heroes/">Helden-Guide</a> ausgebreitet.</p>
+
+    <h2 id="mistakes">Häufige Frühfehler</h2>
+    <p>Fast jedes festgefahrene Konto in diesem Spiel hat einen dieser fünf Fehler gemacht. Keiner davon ist aus dem Tutorial heraus sichtbar.</p>
+
+    <h3 id="mistake-equal-upgrades">1. Alles gleichmäßig ausbauen</h3>
+    <p>Der Instinkt aus anderen City-Buildern ist, jedes Gebäude auf demselben Level zu halten. In Last Asylum produziert das eine mittelmäßige Stadt, die von nichts begrenzt wird. Folge der Prioritätsreihenfolge — Heiligtum zuerst, Militär- und Forschungsgebäude als Nächstes, alles andere, wenn es dich blockiert. Die komplette Reihenfolge und die Roadmap Level für Level stehen im <a href="/de/buildings/">Gebäude-Guide</a>.</p>
+
+    <h3 id="mistake-judging-early">2. Helden zu früh beurteilen</h3>
+    <p>Ein niedrig-Sterne-Held auf Level 60 fühlt sich furchtbar an — schwache Fähigkeiten, dünne Multiplikatoren, keine Zähigkeit. Derselbe Held mit vielen Sternen ist ein Monster. Das klassische Beispiel ist Marlena: sie wirkt früh enttäuschend und wird dann etwa 85% des Schadens eines Standard-Trupps, sobald Sterne und Fähigkeiten online kommen. Beurteile einen Helden an seinem Wendepunkt, nicht auf Level 60 mit zwei Sternen.</p>
+
+    <h3 id="mistake-splitting">3. Ressourcen auf viele Helden verteilen</h3>
+    <p>Acht halbfertige Helden verlieren gegen zwei fertige in jedem Kampf, der zählt, und die Splitter-Ökonomie heißt: die für Platzhalter verschwendeten Ressourcen kommen nicht zurück. Wähle die fünf Haupt-Helden, benenne die zwei oder drei, die du diesen Monat baust, und sei unbarmherzig mit allem anderen.</p>
+
+    <h3 id="mistake-stamina">4. Ausdauer am Cap lassen</h3>
+    <p>Ausdauer, die am Cap steht, ist Einkommen, das du dauerhaft gelöscht hast — das Spiel bunkert den Überlauf nicht. Gib sie vor dem Logout für Monster oder Plünder aus, jede Session, ab Tag eins.</p>
+
+    <h3 id="mistake-plunder">5. Tägliche Plünder-Runde verpassen</h3>
+    <p>Täglich gehalten ist Plündern später im Spiel rund 27 Millionen Ressourcen pro Tag wert. Ausgelassen gibt es keine Aufhol-Mechanik — diese Ressourcen sind einfach weg. Greif das reichste Ziel an, das du schlägst, respektiere die Tageslimit-Schwellen, und nie den zehnten Schlag auf eine Farm. Das komplette Plünder-Regelwerk steht im <a href="/de/economy/">Wirtschafts-Guide</a>.</p>
+
+    <VideoSection topic="beginner" lang={lang} />
+  </GuidePage>
+</Base>

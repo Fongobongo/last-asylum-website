@@ -1,0 +1,60 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ja';
+
+// TODO: リンクが提供され次第差し替え
+const REF_LINK = '#';
+const DONATE_LINK = '#';
+
+const valuePicks = [
+  '66日目の$1 Marlena課金 — ゲーム内の全価格帯の中で、単一で最高コスパの購入と満場一致。',
+  '万能加速パック($20〜200)— 常に役に立ち、絶対に無駄になりません。',
+  'カラスの精髄パック — ボトルネック資源を直接購入する。システム全体がそれに依存しています。',
+  '都市レベルアップパック — 聖域の押し上げに必要な資源が1つのパックに揃います。',
+  '専用武器+覚醒シャードのパック — ただし専用パスのイベントが有効な時だけ購入。',
+];
+---
+
+<Base lang={lang} path="/ja/support/" title="支援する" description="Last Asylum: Plague ファンサイトを支援してください — 紹介リンクからの課金、または作者への寄付。">
+  <section class="mx-auto max-w-3xl py-16">
+    <h1 class="mb-3 text-4xl font-bold text-plague-100">❤️ 支援する</h1>
+    <p class="mb-10 text-lg text-stone-400">このファンサイトは無料で運営されています。ゲームに課金する予定があるなら、ぜひ私たちの紹介リンクからどうぞ — あなたには追加費用が1円も発生しませんが、サイトに小さな手数料が入ります。あるいは、作者にコーヒー1杯をおごってください。</p>
+
+    <div class="grid gap-6 sm:grid-cols-2">
+      <div class="flex flex-col rounded-xl border border-stone-800 bg-stone-900 p-6">
+        <span class="text-4xl">💎</span>
+        <h2 class="mt-4 text-xl font-bold text-plague-200">紹介リンクから課金する</h2>
+        <p class="mt-3 mb-6 flex-1 text-sm leading-relaxed text-stone-400">ゲーム内購入は私たちのリンクから。同じ価格、同じアイテム — そしてガイドを無料で続けるための助けになります。</p>
+        <a href={REF_LINK} class="rounded-lg bg-plague-700 px-5 py-3 text-center font-semibold text-plague-50 transition-colors hover:bg-plague-600">
+          課金ストアを開く
+        </a>
+      </div>
+
+      <div class="flex flex-col rounded-xl border border-stone-800 bg-stone-900 p-6">
+        <span class="text-4xl">☕</span>
+        <h2 class="mt-4 text-xl font-bold text-plague-200">作者に寄付する</h2>
+        <p class="mt-3 mb-6 flex-1 text-sm leading-relaxed text-stone-400">ガイドは役に立ちましたか?寄付はサーバー費用とコンテンツ制作時間を支えます。どのような金額でも感謝いたします。</p>
+        <a href={DONATE_LINK} class="rounded-lg bg-blood-600 px-5 py-3 text-center font-semibold text-white transition-colors hover:bg-blood-500">
+          寄付する
+        </a>
+      </div>
+    </div>
+
+    <div class="mt-8 rounded-xl border border-stone-800 bg-stone-900 p-6">
+      <h2 class="text-xl font-bold text-plague-200">🛒 課金するなら:コミュニティ推薦ピック</h2>
+      <p class="mt-2 mb-4 text-sm text-stone-400">課金するなら、これがコミュニティの合意が最良と見る購入です:</p>
+      <ol class="list-decimal space-y-2 pl-5 text-sm text-stone-300">
+        {valuePicks.map((v) => <li>{v}</li>)}
+      </ol>
+    </div>
+
+    <p class="mt-6 text-xs text-stone-500">⚖️ 開示:紹介リンクは作者に手数料をもたらしますが、ガイドの内容には影響しません — 推薦はコミュニティの合意のままです。</p>
+    <p class="mt-4 rounded-lg border border-stone-800 bg-stone-950 p-4 text-center text-sm text-stone-500">
+      🔧 リンクは準備中です — 提供され次第更新されます。
+    </p>
+  </section>
+</Base>

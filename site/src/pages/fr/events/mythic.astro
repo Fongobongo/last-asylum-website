@@ -1,0 +1,101 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'fr';
+---
+<Base lang={lang} path="/fr/events/mythic/" title="Mythic Treasure : guide F2P" description="Les sept onglets de l&apos;événement pirate décodés pour les joueurs gratuits : le battle pass, le piège de la machine à sous, la priorité corrigée du Marché Pirate, le plafond quotidien de 300 poissons, et le coup du suicide-pour-récompenses du Trésor Enfoui.">
+  <GuidePage title="Mythic Treasure : guide F2P" description="Les sept onglets de l&apos;événement pirate décodés pour les joueurs gratuits : le battle pass, le piège de la machine à sous, la priorité corrigée du Marché Pirate, le plafond quotidien de 300 poissons, et le coup du suicide-pour-récompenses du Trésor Enfoui." lang={lang}>
+    <p>Mythic Treasure est le grand événement à thème pirate, et il est construit comme un entonnoir : sept onglets, six orientés vers la dépense, et une poignée de valeur vraiment gratuite enterrée dedans. Le jeu F2P est de savoir exactement quels onglets paient et lesquels existent pour vous tenter — puis moudre les gratuits chaque jour.</p>
+    <p>Ce guide parcourt les sept onglets avec la priorité corrigée du marché, l&apos;économie du poisson, la stratégie du Trésor Enfoui, et la règle d&apos;expiration des pièces d&apos;ancre qui piège tout le monde.</p>
+
+    <h2 id="the-7-tabs">Les sept onglets en un coup d&apos;œil</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Onglet</th><th>Ce que c&apos;est</th><th>Verdict F2P</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1. Trésor Mythique du Pirate</td><td>Battle pass</td><td>Piste gratuite uniquement</td></tr>
+        <tr><td>2. Jeu du Pirate</td><td>Machine à sous</td><td>Tirages gratuits seulement, ne poursuivez jamais</td></tr>
+        <tr><td>3. Marché Pirate</td><td>Boutique en Pièces d&apos;Ancre</td><td>Achetez les fragments UR chaque jour</td></tr>
+        <tr><td>4. Grand Festin</td><td>Événement poissons de tout le serveur</td><td>Une des meilleures sections F2P — faites-le</td></tr>
+        <tr><td>5. Chasse Délicieuse</td><td>Farm de Poissons de Mer</td><td>Farmez jusqu&apos;au plafond quotidien de 300</td></tr>
+        <tr><td>6. Cadeau des Profondeurs</td><td>Récompenses de recharge d&apos;argent</td><td>Passez en F2P</td></tr>
+        <tr><td>7. Trésor Enfoui</td><td>Mini-jeu</td><td>5 parties gratuites + le coup du suicide</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="tab-1-pass">Onglet 1 : Trésor Mythique du Pirate (battle pass)</h2>
+    <p>Le battle pass vedette. La <strong>piste avancée coûte 499</strong> et paie en <strong>Pièces d&apos;Ancre, Or Pirate et coffres exclusifs</strong>. Si vous dépensez sur une chose dans cet événement, c&apos;est la candidate — mais la piste gratuite paie aussi, et tout ce qui suit fonctionne sans le pass.</p>
+
+    <h2 id="tab-2-slots">Onglet 2 : Jeu du Pirate (machine à sous)</h2>
+    <ul>
+      <li>Les tirages payants rapportent des <strong>Pièces d&apos;Ancre</strong>, et il existe une option de <strong>tirage 5X</strong>.</li>
+      <li>C&apos;est de la <strong>RNG pure — ne la poursuivez pas.</strong> La machine à sous est la pire cible de valeur de l&apos;événement, et elle est conçue pour sembler presque due.</li>
+      <li>Prenez les <strong>tirages gratuits</strong> chaque jour et partez. C&apos;est tout l&apos;onglet.</li>
+    </ul>
+
+    <h2 id="tab-3-market">Onglet 3 : Marché Pirate — priorité corrigée</h2>
+    <p>Le marché prend des Pièces d&apos;Ancre, et l&apos;ordre d&apos;achat compte plus que partout ailleurs dans l&apos;événement :</p>
+    <ol>
+      <li><strong>Fragments UR — ACHETEZ CHAQUE JOUR.</strong> Priorité maximale, sans débat. C&apos;est la valeur de héros garantie que l&apos;événement offre.</li>
+      <li><strong>Coffre de Curiosité quotidien</strong> — si vous avez des ancres de rechange après les fragments.</li>
+      <li><strong>Le reste du dernier jour va en Essence de Corbeau ou accélérations</strong> — dépensez le reliquat avant la fermeture de l&apos;échange (voir <a href="#anchor-expiry">la règle d&apos;expiration</a>).</li>
+    </ol>
+    <p>Et les deux interdits catégoriques :</p>
+    <ul>
+      <li><strong>N&apos;achetez pas d&apos;accélérations ni de ressources avec des ancres.</strong> Elles sont disponibles partout ailleurs dans le jeu ; les fragments UR non.</li>
+      <li><strong>Les Perles ne font qu&apos;augmenter les PV des héros — « pas super utiles ».</strong> Passez.</li>
+    </ul>
+    <p>Un dernier piège à connaître : la <strong>skin de navire à 4 000 ancres existe</strong>. Elle est jolie. <strong>Ne sacrifiez pas des récompenses garanties pour elle</strong> — quatre mille ancres, c&apos;est tout le revenu en fragments du marché pendant l&apos;événement.</p>
+
+    <h2 id="tab-4-grand-feast">Onglet 4 : Grand Festin</h2>
+    <p>Le banquet de tout le serveur : soumettez <strong>10 Poissons de Mer pour 1 EXP de Banquet</strong>, avec des <strong>récompenses top-50</strong> pour les plus gros contributeurs. Le verdict communautaire est direct — <strong>« une des meilleures sections F2P »</strong> de l&apos;événement. Ça ne coûte rien d&apos;autre que les poissons que vous farmez de toute façon (voir <a href="#tab-5-fish">Chasse Délicieuse</a>), et ça paie des récompenses visibles sur le serveur. Soumettez chaque jour, tous les jours, sans exception.</p>
+
+    <h2 id="tab-5-fish">Onglet 5 : Chasse Délicieuse (farm de Poissons de Mer)</h2>
+    <p>Les Poissons de Mer viennent de vos cibles quotidiennes habituelles :</p>
+    <ul>
+      <li>Tour du Faucon</li>
+      <li>Monstres de Ressources</li>
+      <li>Blight d&apos;Élite</li>
+      <li>Opérations Secrètes</li>
+      <li>Blight Errant</li>
+    </ul>
+    <p>Le chiffre critique : <strong>PLAFOND QUOTIDIEN DE 300 poissons</strong>. Farmer au-delà, c&apos;tuer des mobs pour rien — le compteur s&apos;arrête. Atteignez 300, arrêtez, mettez le temps en banque. Les poissons nourrissent le Grand Festin, c&apos;est pourquoi les deux onglets ensemble sont le cœur F2P de tout l&apos;événement.</p>
+
+    <h2 id="tab-6-deep-sea">Onglet 6 : Cadeau des Profondeurs</h2>
+    <p>Une clarification qui économise des diamants : cet onglet récompense les <strong>recharges d&apos;argent, PAS les dépenses de diamants</strong>. Contrairement à un événement de jalons de dépense de diamants, il n&apos;y a rien qu&apos;un compte F2P puisse faire ici. Passez l&apos;onglet entièrement — il ne vous est pas destiné.</p>
+
+    <h2 id="tab-7-buried">Onglet 7 : Trésor Enfoui (le mini-jeu F2P)</h2>
+    <p>Le mini-jeu de correspondance, et l&apos;onglet le plus mal compris :</p>
+    <ul>
+      <li><strong>5 tentatives gratuites par jour.</strong></li>
+      <li>Compétences gratuites : <strong>Retirer, Rappeler, Rafraîchir.</strong></li>
+      <li>Les récompenses ne sont <strong>PAS pour avoir nettoyé la phase</strong> — elles sont accordées <strong>UNE PAR UNE À CHAQUE CORRESPONDANCE</strong>.</li>
+      <li><strong>Les récompenses collectées restent EN SÉCURITÉ même si vous échouez.</strong> Apparié = en banque.</li>
+    </ul>
+    <p>Ce qui produit la stratégie F2P contre-intuitive, le coup du <strong>« suicide pour récompenses »</strong> : prenez les récompenses du plateau, puis <strong>perdez volontairement</strong>. Nettoyer n&apos;est pas le but — faire correspondre les récompenses hors du plateau l&apos;est. Échouer ne coûte rien et garde le butin apparié.</p>
+    <p>La seule réserve : la <strong>phase 2 est quasi impossible sans dépenser</strong> — elle exige environ <strong>26 nettoyages</strong>. Ne brûlez ni tentatives ni argent à la poursuivre ; farmez la valeur gratuite de la phase 1.</p>
+
+    <h2 id="anchor-expiry">CRITIQUE : les Pièces d&apos;Ancre ne se reportent pas</h2>
+    <blockquote>Les Pièces d&apos;Ancre NE se reportent PAS — les pièces non utilisées se convertissent en accélérations à la fermeture de l&apos;échange. Utilisez-les vraiment toutes avant.</blockquote>
+    <p>Les accélérations sont le lot de consolation, pas le but (voir la <a href="#tab-3-market">priorité du marché</a> — les ancres achètent des fragments UR, les accélérations achètent des accélérations). Finir l&apos;événement avec des ancres restantes, c&apos;est de la perte de valeur sèche : tout ce qu&apos;elles auraient pu acheter au marché était strictement meilleur que le taux de conversion.</p>
+
+    <h2 id="f2p-checklist">La checklist quotidienne F2P</h2>
+    <ol>
+      <li>Farmez <strong>300 Poissons de Mer</strong> (Chasse Délicieuse) et arrêtez au plafond.</li>
+      <li>Soumettez des poissons au <strong>Grand Festin</strong>.</li>
+      <li>Jouez <strong>5 tentatives de Trésor Enfoui</strong> — appariez les récompenses, suicidez, répétez.</li>
+      <li>Prenez les <strong>tirages gratuits du Jeu du Pirate</strong>.</li>
+      <li>Dépensez les ancres en valeur garantie — <strong>fragments UR d&apos;abord</strong>.</li>
+    </ol>
+
+    <h2 id="community-verdict">Verdict de la communauté</h2>
+    <p>Mythic Treasure est <strong>fortement teinté P2W</strong> — le pass, les machines à sous et l&apos;onglet de recharge sont construits pour les dépensiers. Mais les sections F2P — <strong>Grand Festin, Trésor Enfoui et le farm de poissons</strong> — valent la peine d&apos;être faites chaque jour de l&apos;événement. Moulez ça, ignorez le reste, et ne laissez rien sur la table à la fermeture de l&apos;échange.</p>
+
+    <VideoSection topic="mythic" lang={lang} />
+  </GuidePage>
+</Base>

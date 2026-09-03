@@ -1,0 +1,80 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'fr';
+---
+<Base lang={lang} path="/fr/events/elixir/" title="Elixir Scramble : comment gagner" description="Un champ de bataille de points de 30 minutes alliance contre alliance : cinq étapes, score basé sur le contrôle, priorité des Tentes de Soins, règles de téléportation, et l&apos;erreur du mur qui termine votre run en 10 minutes.">
+  <GuidePage title="Elixir Scramble : comment gagner" description="Un champ de bataille de points de 30 minutes alliance contre alliance : cinq étapes, score basé sur le contrôle, priorité des Tentes de Soins, règles de téléportation, et l&apos;erreur du mur qui termine votre run en 10 minutes." lang={lang}>
+    <p>Elixir Scramble est un <strong>champ de bataille de 30 minutes alliance contre alliance</strong> où le gagnant se décide aux points, pas à qui tue le plus de troupes. Les alliances qui le traitent comme un deathmatch perdent contre celles qui le traitent comme un jeu de contrôle de carte — à chaque fois.</p>
+    <p>Ce guide couvre les cinq étapes de l&apos;événement, d&apos;où viennent réellement les points, les règles de téléportation, la logique de défense, et l&apos;unique erreur qui termine un run avant qu&apos;il commence.</p>
+
+    <h2 id="event-structure">Les cinq étapes</h2>
+    <p>Chaque mêlée suit le même arc, environ six minutes par étape sur la demi-heure :</p>
+    <ol>
+      <li><strong>Appariement</strong> — le système associe les alliances.</li>
+      <li><strong>Préparation d&apos;entrée</strong> — vous chargez, vous positionnez, et vous sortez vos escouades du mur (voir <a href="#wall-warning">l&apos;avertissement du mur</a> — cette étape est là où les runs se perdent).</li>
+      <li><strong>Forteresses initiales</strong> — les premiers bâtiments se débloquent et la prise de terrain d&apos;ouverture se joue.</li>
+      <li><strong>Batailles décisives du milieu</strong> — le centre disputé devient le pivot des points ; la majorité de l&apos;événement se gagne ou se perd ici.</li>
+      <li><strong>Accumulation tardive</strong> — les bâtiments tenus produisent les points finaux ; l&apos;alliance restée active jusqu&apos;à la dernière seconde encaisse la différence.</li>
+    </ol>
+
+    <h2 id="registration">Inscription et horaires</h2>
+    <ul>
+      <li>Les joueurs s&apos;inscrivent en <strong>Équipe A ou Équipe B</strong>, ou le <strong>R5 inscrit l&apos;alliance</strong> directement.</li>
+      <li><strong>Après la fermeture des inscriptions, personne ne peut être ajouté.</strong> Pas de retardataires, pas de remplaçants — si la moitié de votre alliance dort pendant l&apos;inscription, vous vous battez en infériorité.</li>
+      <li>Exemple d&apos;horaire : une mêlée qui commence à <strong>15h CST tourne à 21h UK</strong>. Vérifiez le minuteur de l&apos;événement dans votre fuseau et mettez une alarme — l&apos;événement récompense d&apos;être en ligne au départ exact, pas cinq minutes après.</li>
+    </ul>
+
+    <h2 id="points">D&apos;où viennent les points</h2>
+    <p>La règle centrale, et celle que la plupart des alliances ratent : <strong>les points viennent du CONTRÔLE, pas des kills.</strong> Tuer des escouades ennemies ne rapporte rien directement. Tenir des bâtiments rapporte des points à chaque tick. Une escouade qui ne combat jamais mais reste sur un bâtiment à haute valeur surpasse une escouade qui pulvérise trois ennemis et ne se tient sur rien.</p>
+    <p>La hiérarchie des bâtiments :</p>
+    <ul>
+      <li><strong>Tentes de Soins</strong> — le deuxième bâtiment à points le plus élevé pendant les 10 premières minutes. Elles soignent <strong>15 soldats toutes les 10 secondes</strong>, ce qui garde vos escouades de combat sur la carte au lieu de rentrer à pied. Note : <strong>les accélérations sont inutiles à l&apos;intérieur de l&apos;événement</strong> — les soins tournent sur la tente, pas sur vos objets.</li>
+      <li><strong>Camps</strong> — apparaissent plus tard dans l&apos;événement et deviennent les cibles de collecte de points ; saisissez-les quand ils apparaissent.</li>
+      <li><strong>Le Château d&apos;Élixir central</strong> — la source de points à plus haute valeur de la carte. C&apos;est la <strong>cible prioritaire de vos joueurs les plus forts</strong> : sécurisez-le et tenez-le. C&apos;est aussi le plus disputé, donc attendez-vous à ce que les batailles décisives s&apos;y déroulent.</li>
+    </ul>
+
+    <h2 id="teleports">Règles de téléportation</h2>
+    <ul>
+      <li><strong>Le téléport gratuit a 1 minute de recharge</strong> — et vous téléporter <strong>annule toutes vos marches en cours</strong>. Ne vous repositionnez jamais pendant que vos escouades sont en marche vers une cible.</li>
+      <li><strong>Le Téléport Direct n&apos;est pas autorisé</strong> à l&apos;intérieur de l&apos;événement. Vous ne pouvez pas acheter votre chemin sur la carte.</li>
+      <li>Le coup standard : <strong>installez votre ville au château</strong> et expédiez des marches vers l&apos;extérieur depuis là. Un repositionnement, puis une marche courte pour tout le reste — ça minimise complètement le problème de recharge.</li>
+    </ul>
+
+    <h2 id="defense">Bâtiments et logique de défense</h2>
+    <p>Les bâtiments capturés n&apos;ont <strong>pas</strong> besoin de garnison pour continuer à générer des points. Cela mène à une règle simple :</p>
+    <ul>
+      <li><strong>Ne défendez un bâtiment que s&apos;il est réellement disputé.</strong> Garer des escouades sur tout ce que vous possédez est neutre en points et gaspille votre armée.</li>
+      <li>Quand un bâtiment passe sous attaque, <strong>plusieurs escouades peuvent le défendre</strong> — empilez la défense plutôt que d&apos;envoyer les escouades une par une.</li>
+      <li>Vous pouvez aussi <strong>choisir de ne pas défendre du tout</strong> : laissez partir un bâtiment à faible valeur, gardez vos escouades en vie, et reprenez-le quand l&apos;ennemi marche ailleurs. Les points repartent dès la recapture.</li>
+    </ul>
+
+    <h2 id="wall-warning">CRITIQUE : retirez vos escouades du mur avant le départ</h2>
+    <blockquote>Si vos escouades sont encore sur votre mur au début du Scramble, vous pouvez perdre vos troupes en moins de 10 minutes — et votre événement est terminé pour les 20 restantes.</blockquote>
+    <p>Les escouades de mur se font piéger dans la vague d&apos;attaques d&apos;ouverture, et les escouades mortes à l&apos;intérieur de l&apos;événement sont mortes pour la demi-heure complète. Pendant l&apos;étape de préparation d&apos;entrée, la checklist :</p>
+    <ol>
+      <li>Retirez chaque escouade du mur.</li>
+      <li>Confirmez que vos marches sont vides et les recharges prêtes.</li>
+      <li>Positionnez-vous au château.</li>
+      <li>Alors, et seulement alors, commencez à expédier.</li>
+    </ol>
+
+    <h2 id="winning-strategy">Le plan de jeu des 30 minutes</h2>
+    <p>Le schéma gagnant, condensé :</p>
+    <ul>
+      <li><strong>Soyez en ligne au départ.</strong> La prise de terrain initiale des forteresses décide qui joue devant.</li>
+      <li><strong>Restez actif les 30 minutes complètes.</strong> Les points s&apos;accumulent tout ce temps ; l&apos;alliance qui lâche à la minute 20 donne le dernier tiers de l&apos;événement.</li>
+      <li><strong>Tenez, ne surétendez pas.</strong> Sécurisez ce que vous avez avant d&apos;ouvrir un troisième front. Un bâtiment tenu jusqu&apos;au bout vaut mieux que deux brièvement touchés.</li>
+      <li><strong>Rottez et renforcez.</strong> Les escouades sur bâtiments disputés ont besoin de troupes fraîches ; faites tourner les escouades fatiguées par les Tentes de Soins.</li>
+      <li><strong>Priorisez les bâtiments à gros points.</strong> Le Château d&apos;Élixir d&apos;abord, les Tentes de Soins tôt, les Camps à leur apparition.</li>
+      <li><strong>Ne partez jamais en solo.</strong> Une escouade seule attaquant un point défendu meurt seule et ne contribue à rien. Bougez avec votre alliance ou ne bougez pas.</li>
+    </ul>
+    <p>Elixir Scramble récompense la discipline plutôt que la puissance. Une alliance plus faible tenant les bons bâtiments et ne cessant jamais de tourter bat une alliance plus forte courant après les kills — parce que les kills n&apos;ont jamais rien valu.</p>
+
+    <VideoSection topic="elixir" lang={lang} />
+  </GuidePage>
+</Base>

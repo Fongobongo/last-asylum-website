@@ -1,0 +1,102 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ja';
+---
+<Base lang={lang} path="/ja/events/undead/" title="Undead Siege：完全ガイド" description="感染ウェーブに対する同盟防衛:手がかり30万のバー、240万〜2,450万の敵戦力の難易度ラダー、950万プレイヤーを落とす隠し複数部隊メカニズム、そして完全な報酬表。">
+  <GuidePage title="Undead Siege：完全ガイド" description="感染ウェーブに対する同盟防衛:手がかり30万のバー、240万〜2,450万の敵戦力の難易度ラダー、950万プレイヤーを落とす隠し複数部隊メカニズム、そして完全な報酬表。" lang={lang}>
+    <p>Undead Siege は同盟防衛イベントです:同盟全体が<strong>感染のウェーブ</strong>に立ち向かい、壁の上のヒーローが戦いを担います。他の何より先に、2つのルールがこれを定義します:<strong>シールドは機能しません</strong>。そしてこれは<strong>ポイントイベントではない</strong> — 目標は可能な限り多くのウェーブを防衛することです。</p>
+    <p>このガイドでは、包囲戦の解放条件、難易度ラダー、準備不足の同盟を一掃する隠し複数部隊メカニズム、報酬、そして上位7つのミスを解説します。</p>
+
+    <h2 id="unlocking">包囲戦の解放方法</h2>
+    <p>包囲戦はタイマー上にはありません — 同盟が発動します：</p>
+    <ol>
+      <li><strong>手がかり(Clue)30万ポイント</strong>のバーを満たす。</li>
+      <li><strong>R4かR5がマップ上の隠されたDeath Prison</strong>を見つける。</li>
+      <li>そのリーダーが<strong>包囲戦を開始し、難易度を選択</strong>する。</li>
+      <li>包囲戦はクリックのおよそ<strong>4時間後</strong>に始まります — その間隔で、全メンバーのヒーローを壁に上げましょう。</li>
+    </ol>
+    <p>手がかりポイントは普段のプレイから溜まります：</p>
+    <ul>
+      <li><strong>反乱軍(Rebels)</strong>と<strong>疫病軍団(Blight Legion)</strong>の攻撃</li>
+      <li><strong>放浪疫病(Wandering Blights)</strong>の討伐</li>
+      <li>タイルでの資源採集</li>
+      <li>同盟員の助け(建設・研究ヘルプのタップ)</li>
+      <li><strong>同盟発掘(Alliance Excavation)</strong>の運用</li>
+      <li><strong>Falcon Quest</strong>の完了</li>
+    </ul>
+    <p>アクティブな同盟なら通常プレイでバーは満ちます。ボトルネックはバーではなく、準備です。</p>
+
+    <h2 id="difficulty">難易度レベル</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>難易度</th><th>敵戦力</th><th>領土</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>レベル1</td><td>2.4M</td><td>領土13</td></tr>
+        <tr><td>レベル6</td><td>ウェーブあたり約3部隊</td><td>—</td></tr>
+        <tr><td>レベル10</td><td>24.5M</td><td>領土27</td></tr>
+      </tbody>
+    </table>
+    <p>ラダーはレベル1の敵戦力240万からレベル10の2,450万まで連続的にスケールし、領土要件は13から27まで上昇します。より高い難易度は<strong>敵の変異(Enemy Mutations)</strong>も解放します — <strong>コミットする前に変異をプレビュー</strong>しましょう。あなたの防衛編成に刺さる変異は、数百万の敵戦力に相当します。</p>
+
+    <h2 id="hidden-mechanic">隠された複数部隊メカニズム</h2>
+    <p>これが難易度画面が教えてくれない部分で、20ウェーブを生き延びるのと17で崩壊するのとの分かれ目です：</p>
+    <ul>
+      <li>包囲戦は、表示された戦力で<strong>2部隊以上</strong>を送ってきます。表示8Mは8Mの部隊との2連戦を意味し — 実質的にボタン表示の2倍です。</li>
+      <li>難易度8Mの<strong>ウェーブ17</strong>では、実際の強さはおよそ<strong>7.3M × 2</strong>。</li>
+      <li><strong>難易度6以上では、ウェーブは3部隊</strong>を送ります。</li>
+      <li><strong>部隊HPはウェーブ間で持ち越されます。</strong> タンクは前の戦いを終えたHPのままで次の戦いを始める — そして部隊1は、回復なしの<strong>連続戦闘</strong>を生き延びなければなりません。</li>
+    </ul>
+    <blockquote>戦力950万のプレイヤーが、難易度8Mのウェーブ17で死亡 — 持続HPの連続戦闘で削り切られた。表示戦力は戦いそのものではない。</blockquote>
+
+    <h2 id="rewards">報酬</h2>
+    <h3 id="personal-rewards">個人のマイルストーン</h3>
+    <p>各プレイヤーは<strong>20のソロウェーブ</strong>に立ち向かい、ウェーブ<strong>1、4、8、10、13、16、20</strong>にマイルストーンがあります — トークン、強化素材、箱。都市が落ちても<strong>再攻撃はされません</strong>が、個人の報酬はそこで止まります:20のうちウェーブ12で死ぬと、以降のすべてのマイルストーンを失います。</p>
+    <h3 id="alliance-rewards">同盟のマイルストーン</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>同盟合計ウェーブ</th><th>報酬</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>50</td><td>ヒーローEXP、素材、メダル</td></tr>
+        <tr><td>100</td><td>ヒーローEXP、素材、メダル</td></tr>
+        <tr><td>150</td><td>ヒーローEXP、素材、メダル</td></tr>
+        <tr><td>200</td><td>ヒーローEXP、素材、メダル</td></tr>
+        <tr><td>250</td><td>ヒーローEXP、素材、メダル</td></tr>
+        <tr><td>300</td><td>ヒーローEXP、素材、メダル</td></tr>
+      </tbody>
+    </table>
+    <p>同盟合計をめぐる2つのルール：</p>
+    <ul>
+      <li><strong>48時間以上の所属</strong>が同盟報酬の受け取りに必要 — 入ったばかりのメンバーは受け取れません。</li>
+      <li><strong>他メンバーへの補強は個人の報酬を2倍にしない</strong> — 同盟合計を押し上げます。それでもやること:同盟のマイルストーンこそが大きな支払いです。</li>
+    </ul>
+    <p>歴代記録は1回の包囲戦で<strong>1,193ウェーブ</strong>です。</p>
+
+    <h2 id="deployment">配置:部隊と補強</h2>
+    <ul>
+      <li><strong>最強の部隊は自分の城壁へ。</strong> その部隊があなたの20の個人ウェーブを担います。</li>
+      <li><strong>残りの部隊は他メンバーを補強</strong> — 補強は同盟合計を押し上げ、共有報酬はそこにあります。</li>
+      <li>補強はメンバーの壁に着いて来るウェーブと共に戦います — 通知の後ではなく、ウェーブが来る前に送りましょう。</li>
+    </ul>
+
+    <h2 id="top-mistakes">上位7つのミス</h2>
+    <ol>
+      <li><strong>ヒーローが壁にいない</strong> — 最大の殺人者。壁の上のヒーローがイベントそのもの。ヒーローのいない壁は、落ちるのを待つだけの都市です。</li>
+      <li><strong>壁の防衛を無視</strong> — このイベントに<strong>自動防衛はない</strong>。事前に設定したものだけが戦います。</li>
+      <li><strong>手がかり100%前に開始</strong> — せっかちな開始は4時間の予告時間を無駄にします。</li>
+      <li><strong>変異を過小評価</strong> — 難易度を選ぶ前に必ず変異プレビューを読む。</li>
+      <li><strong>メンバーを補強しない</strong> — 同盟のマイルストーンには、自分の壁だけでなくすべての壁に兵が必要です。</li>
+      <li><strong>部隊が半分の状態で開始</strong> — 半端な壁部隊は死んだ壁部隊です。</li>
+      <li><strong>防衛を設定せずにログオフ</strong> — オフライン防衛は機能しますが、<strong>事前設定されていた場合のみ</strong>。設定してから寝ましょう。</li>
+    </ol>
+    <p>この7つを直して走れば、同盟はほぼ上限まで防衛できます。壁のヒーローセットアップと部隊編成は<a href="/ja/heroes/">ヒーローガイド</a>で解説しています。</p>
+
+    <VideoSection topic="undead" lang={lang} />
+  </GuidePage>
+</Base>

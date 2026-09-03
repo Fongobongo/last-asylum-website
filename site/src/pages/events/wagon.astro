@@ -1,0 +1,85 @@
+﻿---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'en';
+---
+<Base lang={lang} path="/events/wagon/" title="Guild Wagon &amp; Caravans" description="Daily free wagon runs, the Wagon Master and Guard chest rules, Golden Wagon refreshes, the caravan UR-shard strategy, cross-server plunder, and the gold-purple-blue box priority.">
+  <GuidePage title="Guild Wagon &amp; Caravans" description="Daily free wagon runs, the Wagon Master and Guard chest rules, Golden Wagon refreshes, the caravan UR-shard strategy, cross-server plunder, and the gold-purple-blue box priority." lang={lang}>
+    <p>Guild Wagon and Caravans are the game&apos;s daily logistics events — and both are <strong>zero-risk, zero-stamina</strong> income that too many players skip. The wagon is a 10-minute coordination exercise; the caravans are a permanent UR-shard farm. Neither costs troops or real losses, so the community rule is simple: <strong>ALWAYS run them.</strong></p>
+    <p>This guide covers the wagon&apos;s roles and chest rules, the Golden Wagon, the caravan strategy, and cross-server plunder with the box priority.</p>
+
+    <h2 id="guild-wagon-basics">Guild Wagon: The Free Daily Run</h2>
+    <ul>
+      <li><strong>1 free wagon per alliance per day</strong>, resetting around <strong>11 AM KST</strong>.</li>
+      <li>When the payment screen appears, <strong>the free one has been used</strong> — that is the tell that the daily free run is gone for the whole alliance.</li>
+      <li><strong>Paid extra runs exist — almost nobody buys them.</strong> Ignore the paywall.</li>
+      <li><strong>Guild Gift levels raise the wagon level</strong> — the shop gifts that raise gift level also upgrade what the wagon drops. Two reasons to care about gift level.</li>
+    </ul>
+
+    <h2 id="wagon-master">Wagon Master, Guards, and VIPs</h2>
+    <p>The roles:</p>
+    <ul>
+      <li>An <strong>online R4/R5 appoints an online member as Wagon Master</strong>.</li>
+      <li>The Master <strong>collects tickets from members</strong> (some auto-convert) for pool refreshes — <strong>5 refreshes make a &quot;Golden Wagon.&quot;</strong></li>
+      <li><strong>Guards AND VIPs both claim 2 chests.</strong> VIPs just ride — being a VIP is not a downgrade, the chests are identical.</li>
+      <li><strong>Low CP? Pick strong Guards to protect the wagon.</strong> The run&apos;s safety scales with guard strength.</li>
+      <li><strong>Guards must be online.</strong> Coordinate <strong>before</strong> starting the run, or risk an undefended plunder — some guilds deliberately delay the Master appointment to run the wagon at night when their guards are on.</li>
+    </ul>
+
+    <h2 id="chest-rules">The Chest Rules (The Common Mistake)</h2>
+    <blockquote>The 2 chests are for the GUARDS, not the Master. The most common wagon mistake in the game.</blockquote>
+    <p>The full reward distribution:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Role</th><th>Reward</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Guards</td><td>2 chests each</td></tr>
+        <tr><td>VIPs</td><td>2 chests each (identical to guards — they just ride)</td></tr>
+        <tr><td>Passengers</td><td>5 random draws + 1 vehicle chest each</td></tr>
+        <tr><td>Wagon Master</td><td>ALL items from all 4 wagons</td></tr>
+      </tbody>
+    </table>
+    <p>Read that last row twice — <strong>the Master receives ALL items from all 4 wagons.</strong> The appointment is a real payout, which is exactly why the chest confusion persists: the guards&apos; 2 chests come on top of a share, not out of the Master&apos;s pool.</p>
+
+    <h2 id="caravans">Caravans: The UR Shards Strategy</h2>
+    <p>Caravans are the daily caravan event running alongside the wagon:</p>
+    <ul>
+      <li>Core decisions: <strong>which caravans to attack, how to set up your alliance caravan, and maximizing daily rewards.</strong></li>
+      <li><strong>Caravans and Covert Ops never count toward the plunder limit</strong> — they are exempt from the daily cap that governs normal raiding (see the <a href="/economy/">Economy guide</a>).</li>
+      <li><strong>No real troop loss, no stamina cost.</strong> Zero risk, every day.</li>
+      <li><strong>ALWAYS run them.</strong> And remember from the <a href="/events/kvk/">KvK</a> guide: <strong>caravans and Covert Ops score for both KvK and Alliance Duel</strong> — the same run pays twice.</li>
+    </ul>
+
+    <h2 id="plundering-servers">Plundering Other Servers</h2>
+    <p>The cross-server caravan route:</p>
+    <ol>
+      <li>Open <strong>Caravan Trade</strong> and check the <strong>&quot;Exclude caravans from this server&quot;</strong> green checkmark — that filters out your home server&apos;s caravans and shows foreign ones.</li>
+      <li>Go to <strong>Other&apos;s Caravan</strong>, tap a caravan, and the <strong>Plunder button teleports you to that kingdom</strong>.</li>
+      <li>Exit the popup and you can <strong>roam that kingdom freely</strong> while you are there.</li>
+    </ol>
+
+    <h2 id="box-priority">Box Priority: Gold, Purple, Blue</h2>
+    <p>When you are staring at a foreign map full of caravans, the target order is:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Box color</th><th>Value</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>GOLD</td><td>Highest — UR tier. Always the target.</td></tr>
+        <tr><td>Purple</td><td>Very good — SSR tier. Priority target when gold is out of reach.</td></tr>
+        <tr><td>Blue</td><td>Backup — SR tier. Filler when the map is picked clean.</td></tr>
+      </tbody>
+    </table>
+    <ul>
+      <li><strong>Check the star rating and rewards before attacking</strong> — the preview shows what the box pays.</li>
+      <li><strong>Better color + higher stars = better rewards.</strong> Color first, stars as the tiebreaker.</li>
+    </ul>
+
+    <VideoSection topic="wagon" lang={lang} />
+  </GuidePage>
+</Base>

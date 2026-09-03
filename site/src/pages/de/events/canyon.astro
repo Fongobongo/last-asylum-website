@@ -1,0 +1,67 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+<Base lang={lang} path="/de/events/canyon/" title="Canyon Conquest: Spuren-Strategie" description="Der dreispurige Staffelkampf, wo Durchhaltewert Macht schlägt: die Staffel-Regeln, das 3-Kämpfe-Limit, Spur-Prioritäts-Strategie, bekannte Bugs und warum dies das beste risikofreie Event des Spiels ist.">
+  <GuidePage title="Canyon Conquest: Spuren-Strategie" description="Der dreispurige Staffelkampf, wo Durchhaltewert Macht schlägt: die Staffel-Regeln, das 3-Kämpfe-Limit, Spur-Prioritäts-Strategie, bekannte Bugs und warum dies das beste risikofreie Event des Spiels ist." lang={lang}>
+    <p>Canyon Conquest ist der <strong>Allianz-Spuren-Kampf</strong>: drei Spuren, und die Allianz, die <strong>2 von 3 Spuren</strong> gewinnt, nimmt das Match. Aber das Format ist eine <strong>Staffel</strong> — die schwächsten Spieler kämpfen zuerst, und ein Spieler <strong>bleibt in der Spur, bis er verliert</strong>. Zu verstehen, was diese Staffel mit der Aufstellungs-Strategie macht, ist das ganze Event.</p>
+    <p>Dieser Guide deckt die Staffel-Regeln, die Belohnungs-Struktur, die Spur-Prioritäts-Strategie mit ihren Haupt-Varianten, die bekannten Bugs und ab, warum dies das sicherste Event des Spiels ist.</p>
+
+    <h2 id="relay-rules">Die Staffel-Regeln</h2>
+    <ol>
+      <li><strong>Die Schwächsten kämpfen zuerst.</strong> Jede Spur startet mit ihren niedrigsten-CP-Spielern und eskaliert erst, wenn jemand verliert.</li>
+      <li><strong>Der Spieler bleibt, bis er verliert, dann tritt der nächste ein.</strong> Ein gewinnender Spieler hält die Spur und kämpft weiter gegen den nächsten Herausforderer — es gibt keine Rotation nach einem Sieg.</li>
+      <li><strong>Max 3 Kämpfe pro Spieler.</strong> Nach drei Kämpfen bist du für das Match fertig.</li>
+      <li><strong>15 Spieler pro Spur.</strong> Die Allianz verteilt ihren Kader über die drei Spuren.</li>
+    </ol>
+    <p>Konsequenz der Staffel: <strong>wenn deine Seite jeden Kampf mit je 2 Kills gewinnt, kämpfen nur 8 von 15 Spur-Spielern überhaupt.</strong> Sieben Spieler sitzen das ganze Match aus, ohne einen Kampf zu verbrauchen. Diese Tatsache steuert jede Aufstellungs-Entscheidung unten.</p>
+
+    <h2 id="rewards">Belohnungen und die 3-Kill-Stufe</h2>
+    <ul>
+      <li>Die <strong>3-Kill-Belohnung ist stufengegated</strong> — du brauchst alle drei deiner Kämpfe als Kills, um die Top-Personal-Stufe zu erreichen.</li>
+      <li>Weil stärkere Spieler weiter hinten in der Spur stärkere Gegner treffen, gehört die 3-Kill-Stufe meist zur Spitze des Kaders — plane deine persönlichen Erwartungen entsprechend.</li>
+    </ul>
+
+    <h2 id="rounds-and-groups">Runden und Gruppen</h2>
+    <ul>
+      <li><strong>Nach je 5 Runden endet das Match und startet ab der Registrierung neu.</strong> Registriere dich jeden Zyklus neu.</li>
+      <li><strong>Gewinne und du steigst in eine obere Gruppe auf; verliere und du bleibst in derselben oder fällst in eine schwächere.</strong> Die Leiter sortiert Allianzen über die Zeit selbst.</li>
+      <li>Ein <strong>„Bye“ ist selbst bei vollen 15 möglich</strong> — eine ungerade Zahl registrierter Spuren heißt, jemand rückt ohne Kampf weiter. Das ist Glück, kein Bug.</li>
+    </ul>
+
+    <h2 id="known-bugs">Bekannte Bugs</h2>
+    <ul>
+      <li><strong>Nach 2 Siegen ohne Niederlage ersetzt</strong> — die Staffel sollte dich nach Siegen drin behalten, aber manche Spieler werden nach zwei Triumphen rausgezogen. Melde es, wenn es dich trifft.</li>
+      <li><strong>Registrierte Spieler von Runde 2 ausgeschlossen.</strong> Veraltete Registrierungen können dich aus der nächsten Runde aussperren. Das Entfernen von der Liste ist <strong>nur R4/R5</strong> — wenn du feststeckst, bitte die Führung, dich freizumachen, damit du dich neu registrieren kannst.</li>
+    </ul>
+
+    <h2 id="lane-strategy">Spur-Prioritäts-Strategie</h2>
+    <blockquote>Du musst nicht JEDES Match gewinnen — du brauchst die RICHTIGEN Spuren.</blockquote>
+    <h3 id="consensus-setup">Die Konsens-Aufstellung</h3>
+    <ol>
+      <li><strong>Priorisiere 2 der 3 Spuren.</strong> Das Match zu gewinnen braucht 2 Spuren, nicht 3 — den Kader gleichmäßig auf alle drei zu verteilen garantiert nur, die dritte sowieso zu verlieren.</li>
+      <li><strong>Teile das Top-30 gleichmäßig auf zwei starke Spuren</strong> und fülle die verbleibenden Körper in die dritte.</li>
+    </ol>
+    <h3 id="weak-lane-refinement">Die Verfeinerung: die zwei Stärksten auf die schwache Spur</h3>
+    <ol>
+      <li>Schicke deine <strong>2 stärksten Spieler auf die SCHWACHE dritte Spur</strong> — sie tragen sie.</li>
+      <li>Die Logik ist Staffel-Arithmetik: deine stärksten Spieler, geparkt auf den starken Spuren, <strong>kämpfen oft nie</strong>, weil die schwächeren Spieler der Spur gewinnen, bevor die Asse überhaupt gebraucht werden. Auf der schwachen Spur sind sie der Unterschied zwischen 0-1 und einer lebenden Spur.</li>
+    </ol>
+    <h3 id="counterpoint">Das Gegenargument, das funktionierte</h3>
+    <ul>
+      <li><strong>3 ausgeglichene Teams mit dem Top-3-Spieler in jedem</strong> hat ebenfalls verifizierbar funktioniert — ein Anker pro Spur statt einer abgetretenen Spur.</li>
+    </ul>
+    <p>Keine Aufstellung ist im Vakuum falsch. Die korrekte Lesart: <strong>prüfe, wer in der nächsten Runde wo gewonnen und verloren hat.</strong> Deine Gegner wechseln von Gruppe zu Gruppe, und die Spur-Aufstellung, die dieses Match gewann, braucht nächste Runde vielleicht ein Rebalancing. Passe dich an, fahre nicht auf Autopilot.</p>
+
+    <h2 id="why-zero-risk">Warum dies das beste risikofreie Event ist</h2>
+    <p>Canyon Conquest hat <strong>keinen Truppenverlust, kein Ressourcen-Risiko und keine realen Ausdauer-Kosten</strong> — anders als der <a href="/de/events/kvk/">KvK</a>, wo eine ungeschützte Stadt brennt. Du kämpfst mit geliehener Turnier-Macht, und deine echte Armee bleibt zuhause unversehrt. Das macht es zu einem der <strong>besten Events für sichere Belohnungen</strong> im Spiel: zeigen, registrieren, deine drei Kämpfe fahren, einsammeln.</p>
+    <p>Der einzige reale Aufwand ist Aufstellungs-Aufmerksamkeit — und die Staffel-Regeln oben sind die komplette Aufstellungs-Meta.</p>
+
+    <VideoSection topic="canyon" lang={lang} />
+  </GuidePage>
+</Base>

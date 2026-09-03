@@ -1,0 +1,135 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+<Base lang={lang} path="/de/era/" title="Ära der Wiedergeburt: Saison-Guide" description="Das Saisonsystem: Widerstand als Tagespriorität Nummer 1, Spezialistenbäume für F2P und Whales, Lord-Evolution-Statistiken, die Hortliste und die komplette Claire-SSR-zu-UR-Umwandlungs-Mathematik mit der Ehrenhalle-Eintritts-Strategie.">
+  <GuidePage title="Ära der Wiedergeburt: Saison-Guide" description="Das Saisonsystem: Widerstand als Tagespriorität Nummer 1, Spezialistenbäume für F2P und Whales, Lord-Evolution-Statistiken, die Hortliste und die komplette Claire-SSR-zu-UR-Umwandlungs-Mathematik mit der Ehrenhalle-Eintritts-Strategie." lang={lang}>
+    <p>Die Ära der Wiedergeburt ist die saisonale Ebene, die um Tag 120 eintrifft — ein rund zwei Monate dauernder Zyklus, der dem Basisspiel eigene Progressionssysteme obendrauf setzt: die Lord-Statue (Widerstand und Lord-Evolution), Spezialistenbäume und Elite-Blight.</p>
+    <p>Die Saison belohnt Fokus und bestraft Ablenkung härter als das Basisspiel. Diese Seite deckt ab, was täglich priorisiert wird, welcher Spezialistenbaum zu deinem Ausgabenniveau passt, was vor Saisonstart zu horten ist, und die komplette Mathematik der Claire-SSR-zu-UR-Umwandlung.</p>
+
+    <h2 id="season-overview">Saison-Überblick</h2>
+    <p>Eine Saison läuft rund zwei Monate. Darin tragen drei Systeme die Progression:</p>
+    <ul>
+      <li><strong>Lord-Statue</strong> — Widerstand und Lord-Evolution. Das Rückgrat der Saison; siehe den <a href="#lord-statues">Abschnitt Lord-Statuen</a>.</li>
+      <li><strong>Spezialistenbäume</strong> — rollendefinierende Boni, aufgeteilt in Wachstums- und Kriegs-Pfade.</li>
+      <li><strong>Elite-Blight</strong> — Gruppencontent mit widerstandsgateder Schwierigkeit.</li>
+    </ul>
+
+    <h2 id="resistance-first">Widerstand: die Tagespriorität Nr. 1</h2>
+    <p>Ab Tag 1 der Saison ist Widerstand die höchste Tagespriorität — vor allem anderen auf deiner Liste. Der Grund ist simpel: er ist die erste Progressions-Wand, und <strong>die gesamte Saison-Progression hängt an Widerstands-XP</strong>. Jedes andere saisonale System schaltet sich dahinter frei oder skaliert dahinter.</p>
+    <p>Zwei praktische Regeln für den Widerstands-Push:</p>
+    <ul>
+      <li><strong>Greif Monster selbst mit 30% Schadens-Malus an.</strong> Der Kampf ist oft noch clearbar — und das Widerstands-XP fließt so oder so.</li>
+      <li><strong>Rallye Elite-Blight mit einem höher-Widerstands-Verbündeten.</strong> Die Gruppen-Schwierigkeit skaliert mit den Teilnehmern; ein stärkerer Verbündeter zieht deinen Clear mit sich.</li>
+    </ul>
+    <p>Ein Gratis-Geschenk, das es sofort zu holen gilt: Der <strong>Grünheit-Zuflucht-Skin gewährt +100 Widerstands-XP</strong>. Hol ihn, wende ihn an und lass ihn jeden Tag der Saison auszahlen — das sind 100 XP pro Tag, für die du nicht kämpfen musst.</p>
+
+    <h2 id="specialty-trees">Spezialistenbäume: Wachstum vs Krieg</h2>
+    <p>Die Spezialistenbäume teilen sich nach Ausgabeprofil, und die Community-Wahl ist eindeutig:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Profil</th><th>Bäume</th><th>Was sie geben</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>F2P und Mittelausgeber</td><td>Handwerker / Geschickter Handwerker</td><td>Forschungs- und Bauzeit-Kürzungen — ras dein Heiligtum und erreiche Stufe-10-Truppen schneller.</td></tr>
+        <tr><td>Whales / PvP-Fokus</td><td>Legionärs-Kommandant / Militär-Kommandant</td><td>Kampf-Boni, Heilung und Rallye-Macht — der Kriegs-Pfad.</td></tr>
+      </tbody>
+    </table>
+    <p>Die Logik: wenn du deine Nachbarn nicht übersteigerst, gewinnen dir die Wachstumsbäume die Saison, weil du sie wegstechen kannst. Wenn du sie bereits übersteigerst, wandeln dir die Kriegsbäume das in Schlachtfeld-Ergebnisse um.</p>
+    <h3 id="war-supply">Kriegsvorrat: die Plünder-Cap-Fähigkeit</h3>
+    <p>Der Legionärs-Kommandant-Baum trägt Kriegsvorrat, der dein tägliches Plünder-Limit um +6 / +14 / +24 / +36 / +50% auf Fähigkeitsstufen 1 bis 5 erhöht. Für den Kontext, was das pro Tag wert ist, sieh die Plünder-Limit-Tabelle im <a href="/de/economy/">Wirtschafts-Guide</a> — bei Spät-Spiel-Caps sind das täglich Millionen zusätzlicher Ressourcen.</p>
+
+    <h2 id="lord-statues">Lord-Statuen und die Ära-Akademie</h2>
+    <p>Die Lord-Statuen leben in der Ära-Akademie, und die zwei Systeme darin machen unterschiedliche Jobs:</p>
+    <ul>
+      <li><strong>Widerstand</strong> — die saisonale Wand. XP-gated, vom täglichen Spiel gefüttert, und das Tor, hinter dem Content und Belohnungen der Saison warten.</li>
+      <li><strong>Lord-Evolution</strong> — permanentes Statistik-Wachstum für deinen Marsch, von Saisonmaterialien gefüttert.</li>
+    </ul>
+    <p>Was am Saisonende resettet: die saisonalen Progressionssysteme resetten mit der Ära — Widerstands-Fortschritt und der saisonale Baum-Aufstieg gehen zurück auf null, während deine permanenten Investitionen (Lord-Evolution-Statistiken, Helden, Ausrüstung) weitergetragen werden. Plane deine Ausgaben entsprechend: gib freizügig für permanente Power aus, aber horte saisonale Währungen nicht über die Saison hinaus, die sie ausgegeben hat.</p>
+
+    <h2 id="lord-evolution-stats">Lord-Evolution: welche Statistiken nehmen</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Profil</th><th>Statistiken</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>F2P / Progression</td><td>Forschungsgeschwindigkeit, Baugeschwindigkeit, Ressourcen-Produktion, Heilung</td></tr>
+        <tr><td>PvP</td><td>Angriff, Marschgröße, Helden-Schaden</td></tr>
+      </tbody>
+    </table>
+    <p>Dieselbe Logik wie die Spezialistenbäume, eine Ebene tiefer: Progressions-Konten verzinsen alles über Geschwindigkeits-Statistiken; PvP-Konten kaufen die Statistiken, die Kämpfe auf Kontakt gewinnen.</p>
+
+    <h2 id="hero-progression-order">Helden-Progression in der Saison</h2>
+    <p>Die Erwachter-Helden-Leiter innerhalb der Saison, für deinen Haupthelden, in Reihenfolge:</p>
+    <ol>
+      <li>Hauptheld auf 10 Sterne.</li>
+      <li>Erwachen.</li>
+      <li>Exklusiv-Waffe.</li>
+      <li>Lord-Evolution.</li>
+      <li>Lord-Widerstand.</li>
+      <li>Ära-Verbesserung — nur ein Haupt-Skin.</li>
+      <li>Dann der zweite Held, durch dieselbe Leiter.</li>
+    </ol>
+    <p>Zwei bindende Regeln: <strong>Erweck-Materialien niemals aufteilen</strong>, und denk daran — ein starker Marsch schlägt mehrere halbfertige. Die Leiter existiert genau, um dich davon abzuhalten, zwei Helden parallel zu leveln.</p>
+
+    <h2 id="hoarding-list">Was vor der Saison zu horten ist</h2>
+    <p>Wenn dein Konto Tag 120 näher kommt, ist das die Hortliste. Jedes Item hier ist in der Saison mehr wert als davor:</p>
+    <ul>
+      <li>Diamanten.</li>
+      <li>Rekrutierungs-Tickets.</li>
+      <li>Helden-Fragmente und Medaillen.</li>
+      <li>Alle Beschleunigungen, einschließlich Forschungs-Beschleunigungen.</li>
+      <li>Antitoxin.</li>
+      <li>Raben-Frucht.</li>
+      <li>Ressourcen.</li>
+      <li>Waffen-Materialien.</li>
+    </ul>
+    <p>Das Muster: die Saison fügt neue Wege hinzu, alle zu verbrauchen, und mehrere Saison-Events belohnen Konsum — Horten verwandelt sich direkt in Event-Punkte und Progression, sobald die Ära beginnt.</p>
+
+    <h2 id="week-1-purchases">Woche-1-Käufe (für Zahler)</h2>
+    <ul>
+      <li><strong>Battle Pass + Wöchentlicher Ära-Pass</strong> — +250 Widerstand und Spezialisten-XP. Das beste Wert-Timing der Saison: kauf sie in Woche 1, damit die Pässe über die vollen zwei Monate auszahlen.</li>
+      <li><strong>Exklusiv-Waffen- und Erweck-Splitter-Packs zurückhalten</strong>, bis das Exklusiv-Pass-Event aktiv ist. Dieselben Packs, mehr Wert, wenn das Event dich für den Kauf bezahlt.</li>
+    </ul>
+
+    <h2 id="claire-conversion">Claire-SSR-zu-UR-Umwandlung (Ära-Tag 8)</h2>
+    <p>Die Claire-Umwandlung öffnet an Ära-Tag 8 — aber fass sie an Tag 8 nicht an, ohne das hier zuerst zu lesen. Die Umwandlung landet Claire auf 6 Sternen UR, und der Weg von dort auf 10 ist, wo die Probleme leben.</p>
+    <h3 id="conversion-costs">Die Kosten</h3>
+    <ul>
+      <li>Claire frisst <strong>SSR-Splitter, keine UR-Splitter</strong> — die im Frühspiel gehorteten Splitter sind genau das, worum diese Umwandlung designt wurde.</li>
+      <li>Jede Zwischenstufe kostet <strong>x2</strong>: von 6 auf 10 Sterne zu gehen, braucht insgesamt 1.600 Splitter.</li>
+    </ul>
+    <h3 id="conversion-gains">Die Gewinne</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Stern-Level</th><th>Schaden vs. gemaxtem SSR</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>9 Sterne</td><td>~1.70x</td></tr>
+        <tr><td>10 Sterne</td><td>~2.20x</td></tr>
+      </tbody>
+    </table>
+    <h3 id="the-passive-dip">Der Passive-Einbruch</h3>
+    <p>Die Falle: ihr Trupp-Passiv-Buff fällt bei der Umwandlung. Das gemaxte SSR-Passiv ist ein 16%-Trupp-Buff; bei 6 Sternen UR sind es nur 10% — ein echter Verlust von ein paar Prozentpunkten für den Trupp während du zurückkletterst. Es erholt sich bei 9 Sternen (14%) und übertrumpft bei 10 Sternen (22%).</p>
+    <h3 id="skip-the-dip">Den Einbruch überspringen: die Ehrenhalle-Strategie</h3>
+    <p>Du kannst den Einbruch komplett überspringen, indem du Ehrenhalle-Stufen <strong>vor</strong> der Umwandlung vorbereitest:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Ehrenhalle-Stufe</th><th>Umwandlungs-Ergebnis</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>St. 60</td><td>Claire landet bei 8 Sternen — Fortgeschrittene Zähigkeit (+20% ATK / HP / DEF, +10% Cooldown-Tempo)</td></tr>
+        <tr><td>St. 100</td><td>Claire landet bei 9 Sternen</td></tr>
+        <tr><td>St. 160</td><td>Alle 1.600 Splitter gebankt — sofortige 10 Sterne, gar kein Einbruch</td></tr>
+      </tbody>
+    </table>
+    <p>Das Fazit zum Timing: Für ein Konto ohne komplette UR-Aufstellung ist diese Umwandlung ein gewaltiges PvP-Upgrade — eine 2.20x-Schaden-Carry, gebaut auf Splittern, die du gratis gehortet hast. Kalkuliere es nur gegen deinen Ehrenhalle-Level und Splitter-Bestand, damit du bei 8 Sternen oder besser landest, nicht bei 6.</p>
+
+    <VideoSection topic="era" lang={lang} />
+  </GuidePage>
+</Base>

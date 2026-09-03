@@ -1,0 +1,111 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'es';
+---
+<Base lang={lang} path="/es/heroes/" title="Guía de héroes: escuadrones, ruta F2P, habilidades" description="El escuadrón F2P canónico y su calendario completo, los tiempos de facción para Guerreros, Guardabosques y Brujos, prioridades de mejora de habilidades, puntos de inflexión por estrellas y el orden de héroes Despiertos para la Era del Renacimiento.">
+  <GuidePage title="Guía de héroes: escuadrones, ruta F2P, habilidades" description="El escuadrón F2P canónico y su calendario completo, los tiempos de facción para Guerreros, Guardabosques y Brujos, prioridades de mejora de habilidades, puntos de inflexión por estrellas y el orden de héroes Despiertos para la Era del Renacimiento." lang={lang}>
+    <p>Los héroes son el mayor multiplicador de Poder en Last Asylum: Plague — y lo más caro de corregir si se construyen mal. La economía de fragmentos e insignias castiga repartir la inversión, así que la comunidad ha convergido en una ruta gratuita canónica y un orden de operaciones estricto en torno a ella.</p>
+    <p>Esta página cubre: qué facción jugar en cada etapa del juego, el escuadrón F2P canónico con su calendario día a día, prioridades de habilidades verificadas por análisis de daño por insignia, los puntos de inflexión por estrellas y el orden de progresión de héroes Despiertos para la temporada Era del Renacimiento.</p>
+
+    <h2 id="faction-timing">Tiempos de facción: Guerreros al principio, Guardabosques a mitad, Brujos al final</h2>
+    <p>Las tres facciones no son iguales en la misma etapa del juego. El consenso de la comunidad sobre cuándo alcanza su pico cada una:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Facción</th><th>Ventana de pico</th><th>Por qué</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Guerreros</td><td>Principio del juego</td><td>Arthur gratis más fragmentos gratis de Harper, y la recarga de $1 de Marlena en el día 66. El juego te entrega un núcleo de Guerreros casi gratis.</td></tr>
+        <tr><td>Guardabosques</td><td>Medio juego</td><td>Los Guardabosques contrarrestan a los Guerreros — una formación de Guardabosques recibe 20% menos de daño de ellos. Con inversión, un escuadrón de Guardabosques de mediados de juego vence a cerca del 98% de lo que encuentra.</td></tr>
+        <tr><td>Brujos</td><td>Final del juego</td><td>El techo más alto, pero solo con inversión pesada — necesitan superar el bono de Guerreros para llegar. Gasta o sé paciente.</td></tr>
+      </tbody>
+    </table>
+    <p>Para una cuenta nueva esto resuelve un dilema común: construye el núcleo de Guerreros que te regalaron, aunque admires las formaciones de Guardabosques. Puedes pivotar a Guardabosques cuando tu economía pueda realmente financiarlo.</p>
+
+    <h2 id="f2p-squad">El escuadrón F2P canónico</h2>
+    <p>El build gratuito estándar de la comunidad, ensamblado durante los primeros meses de una cuenta:</p>
+    <p><strong>Arthur, Daskal, Marlena, Harper, Claire</strong></p>
+    <p>Tres cosas hacen de este el estándar: cada héroe es gratis o casi gratis, las piezas llegan en un orden que siempre le da a tu mejor escuadrón algo en qué crecer, y acumula hacia el bono monofacción de Guerreros que la meta del final del juego recompensa.</p>
+
+    <h3 id="f2p-timeline">El calendario F2P</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Cuándo</th><th>Acción</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Día 1-2</td><td>Arthur llega gratis y se convierte en tu tanque. Llena los puestos restantes con los fragmentos gratis de Bella, Claire y Celia.</td></tr>
+        <tr><td>Principio del juego</td><td>Invierte SOLO en Claire y Arthur. Todos los demás se quedan como marcadores — incluyendo a Bella y Celia.</td></tr>
+        <tr><td>Por el camino</td><td>Harper a 8 estrellas es obligatorio para el build estándar. Aliméntalo constantemente; no lo dejes aparcado en 6.</td></tr>
+        <tr><td>Día 66</td><td>La recarga de $1 de Marlena. Guarda fragmentos UR para llevarla directa a 8 estrellas al instante — y luego sigue empujando hacia 10.</td></tr>
+        <tr><td>Día 120+ (Era del Renacimiento)</td><td>Daskal se une como el mejor tanque del juego. Claire se vuelve UR mediante la conversión del día 8 de la Era — sus fragmentos fueron gratis al principio, exactamente por eso los guardaste en vez de gastarlos.</td></tr>
+      </tbody>
+    </table>
+    <p>Los dos puntos de disciplina que hacen o rompen el build: solo Claire y Arthur, al principio — y nunca comas tus fragmentos guardados de Claire antes de la conversión de la Era, porque la conversión a UR es para lo que esos fragmentos se acumularon.</p>
+
+    <h2 id="alternatives">Alternativas y variantes</h2>
+    <p>Los cinco canónicos no son la única ruta viable — estos son los sustitutos y variantes regionales reconocidos.</p>
+    <h3 id="no-marlena">Sin Marlena de $1: Cynthia en su lugar</h3>
+    <p>¿Te saltaste el dólar? Cynthia de la Rueda de los Deseos del día 8 es el sustituto — una UR de daño temprano que realmente portará. El precio llega al final del juego: pierdes el bono de facción del 5% al romper la acumulación monofacción, y pierdes la sinergia de Harper y epígrafes en torno a la cual se construye el núcleo estándar. Viable, pero sentirás los eslabones perdidos en la cima.</p>
+    <h3 id="f2p-pvp-variant">Variante F2P PvP</h3>
+    <p>Para cuentas que quieren pelear contra jugadores en vez de crecer en silencio: <strong>Arthur, Lucius o Bella, Claire, Marlena, Cynthia</strong>. Cambia una parte del bono de facción por el golpe PvP de Cynthia como remate.</p>
+    <h3 id="russian-variant">El build de la comunidad rusa</h3>
+    <p>La comunidad F2P rusa usa: Frente — Arthur y Lucius (la pareja tiene el apodo de Escudo Absoluto); Zaga — Claire, Kesso y Celia. Sivir cubre los primeros meses, Harper es el proyecto a largo plazo. La misma lógica que el build occidental, piezas distintas en el mismo tablero.</p>
+
+    <h2 id="mono-faction-meta">La meta monofacción</h2>
+    <p>Desde que llegaron los epígrafes del Cuervo, jugar una sola facción pasó de bono agradable a estrategia dominante. La razón: los epígrafes UR potencian UNA sola facción, así que un escuadrón acumulado lo multiplica todo — el bono de +20% con cinco héroes de la <a href="/es/beginners/">tabla de facciones</a>, más los bonos de epígrafes UR, más sinergias específicas de facción como la de Harper.</p>
+    <p>Que es también por lo que el escuadrón canónico es todo Guerreros: la inversión en epígrafes se acumula sobre una facción ya apilada. Los escuadrones multifacción pagan por epígrafes que solo potencian a la mitad del equipo.</p>
+    <p>Para quienes gastan hay una excepción práctica: los héroes temporales. Shadow y Cynthia se llevan a 8 estrellas con habilidades al 15-20 y luego sirven como especialistas de eventos y PvP — lo bastante invertidos para importar, nunca tan invertidos que se coman el presupuesto del escuadrón principal.</p>
+
+    <h2 id="skill-priorities">Prioridades de mejora de habilidades</h2>
+    <p>Las habilidades devoran insignias, y las insignias escasean. El orden de abajo está verificado por análisis de daño por insignia de la comunidad — no es sensación, es medido.</p>
+    <h3 id="marlena-skills">Marlena: donde vive el daño</h3>
+    <p>Marlena es aproximadamente el <strong>85% del daño de tu escuadrón hasta que llegue Zoya</strong>, y 50/50 con ella después. Es el primer destino de las insignias.</p>
+    <p>Pero hay una trampa en su kit: nunca subas el ataque automático de Marlena a 30 al principio. El orden verificado es:</p>
+    <ol>
+      <li>Definitiva primero — siempre.</li>
+      <li>Habilidad activa segunda.</li>
+      <li>Ataque automático al final, y solo a un nivel modesto hasta que sus otras habilidades estén listas.</li>
+    </ol>
+    <h3 id="claire-skills">Claire: la pasiva es lo importante</h3>
+    <p>La habilidad clave de Claire es su pasiva — el amplificador de daño para todo el equipo. El plan verificado: todas las habilidades a unos 15, la pasiva a 20, y mantener ahí hasta que llegue Zoya y reordene las prioridades.</p>
+
+    <h2 id="star-breakpoints">Puntos de inflexión por estrellas y Tenacidad</h2>
+    <p>Las estrellas son el mayor multiplicador individual del Poder de un héroe. El salto significativo llega tras las <strong>4 estrellas</strong> — por debajo un héroe es un calentador de asiento, por encima el mismo héroe empieza a ganar peleas. Por eso el primer objetivo de estrellas de la comunidad con cada héroe del escuadrón principal es pasar las 4, no repartir fragmentos para que todos sean igual de mediocres.</p>
+    <p>Los héroes UR tienen un segundo gran punto de inflexión: en nivel 30 y 8 estrellas desbloquean la <strong>Tenacidad</strong>. Es un gran salto de supervivencia y la razón de que 8 estrellas sea el punto de descanso estándar de los héroes UR — las 8 estrellas instantáneas de Marlena del día 66 están diseñadas en torno a ello.</p>
+
+    <h2 id="awakened-order">Héroes Despiertos: el orden de progresión de la Era</h2>
+    <p>En la temporada Era del Renacimiento, la progresión de héroes Despiertos sigue un orden fijo. Para tu héroe principal, completa cada paso antes de empezar el siguiente:</p>
+    <ol>
+      <li>Héroe principal a 10 estrellas.</li>
+      <li>Despertar.</li>
+      <li>Arma Exclusiva.</li>
+      <li>Evolución del Señor.</li>
+      <li>Resistencia del Señor.</li>
+      <li>Mejora de Era — solo una skin principal.</li>
+      <li>Solo entonces: empieza el segundo héroe por la misma escalera.</li>
+    </ol>
+    <p>La regla que lo gobierna todo: <strong>nunca repartas los materiales de Despertar</strong>. Despertar un héroe por completo supera a despertar dos a medias — mejor una marcha fuerte que varias a medio hacer. El contexto específico de la Era para cada paso está en la <a href="/es/era/">guía de la Era del Renacimiento</a>.</p>
+
+    <h2 id="might-formula">La fórmula del Poder</h2>
+    <p>Cuando comparas cuentas, el Poder es la suma de cinco pilas separadas:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Componente</th><th>Fuente</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Poder de Héroes</td><td>Niveles, estrellas, habilidades y equipo de tus héroes.</td></tr>
+        <tr><td>Poder del Cuervo</td><td>Niveles, equipo y epígrafes del Cuervo — consulta la <a href="/es/raven/">guía del Cuervo</a>.</td></tr>
+        <tr><td>Poder de Soldados</td><td>Niveles de tropas y tamaño del ejército.</td></tr>
+        <tr><td>Bono Tecnológico</td><td>Árbol del Laboratorio de Investigación.</td></tr>
+        <tr><td>Bono de Edificios</td><td>Edificios de la ciudad — la Estatua del Guerrero, y otros.</td></tr>
+      </tbody>
+    </table>
+    <p>Usa el reparto como diagnóstico: si tu Poder carga en héroes pero está ligero en soldados, estás a una mala pelea de perder un ejército que no puedes reponer. Si carga en soldados pero está ligero en héroes, tus marchas pegan por debajo de su peso. Las cuentas más fuertes mantienen las pilas en proporción aproximada — exactamente lo que logras siguiendo el orden de prioridad de construcción y el calendario del escuadrón F2P.</p>
+
+    <VideoSection topic="heroes" lang={lang} />
+  </GuidePage>
+</Base>

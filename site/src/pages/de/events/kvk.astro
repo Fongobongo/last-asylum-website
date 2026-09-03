@@ -1,0 +1,75 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+<Base lang={lang} path="/de/events/kvk/" title="Königreichs-Krieg (KvK): Überleben und Punkte" description="Server-gegen-Server-Krieg um die Königsstadt: der zweiwöchige Zeitplan, Türme-zuerst-Strategie für Angreifer, Verzögerungstaktiken für Verteidiger, Truppen- und Ressourcenrisiko und die Punkte-Überschneidung mit dem Allianz-Duell.">
+  <GuidePage title="Königreichs-Krieg (KvK): Überleben und Punkte" description="Server-gegen-Server-Krieg um die Königsstadt: der zweiwöchige Zeitplan, Türme-zuerst-Strategie für Angreifer, Verzögerungstaktiken für Verteidiger, Truppen- und Ressourcenrisiko und die Punkte-Überschneidung mit dem Allianz-Duell." lang={lang}>
+    <p>Der Königreichs-Krieg ist der <strong>Server-gegen-Server-Krieg</strong> des Spiels: zwei Königreiche invade eine geteilte Karte und kämpfen um die <strong>Königsstadt</strong>. Er läuft <strong>vierzehntägig</strong>, mit Wertung und Vorbereitungs-Aufgaben über die Woche und der Hauptschlacht in ein einziges Fenster verdichtet. Gewinne, indem du die Königsstadt kontrollierst, wenn sich der Staub legt.</p>
+    <p>Dieser Guide deckt den Zeitplan, Angreifer- und Verteidiger-Strategie, universelle Regeln, die Fehler, die Kriege verlieren, und die Wirtschaft-Regeln, die dein Konto lebendig durchbringen.</p>
+
+    <h2 id="schedule">Der zweiwöchige Zeitplan</h2>
+    <ul>
+      <li><strong>Vorbereitung und Wertung laufen über die Woche</strong> — die Tagesaufgaben und Punkte-Kategorien bauen die Position deines Königreichs auf, bevor eine einzige Mauer umkämpft wird.</li>
+      <li><strong>Die Hauptschlacht ist Samstag ab Reset</strong>, in einem <strong>4-Stunden-Fenster</strong>. Dieses Fenster ist der ganze Krieg — alles davor ist Positionierung.</li>
+      <li><strong>Siegbedingung: die Königsstadt kontrollieren.</strong> Nicht die meisten Kills, nicht die meisten Punkte — wer am Ende die Stadt hält.</li>
+    </ul>
+    <blockquote>Gewinnende Allianzen sind nicht immer die stärksten — sie sind die organisiertesten.</blockquote>
+
+    <h2 id="attacker-playbook">Angreifer-Handbuch</h2>
+    <p>Wenn dein Königreich angreift, ist der Instinkt, direkt auf die Königsstadt zu stürmen. Dieser Instinkt verliert Kriege.</p>
+    <ul>
+      <li><strong>Stürme nicht zuerst auf die Stadt.</strong> Ein direkter Push in die Stadt läuft in konzentrierte Defense und Türme — er blutet deine stärksten Trupps in den ersten Minuten aus.</li>
+      <li><strong>Nimm zuerst die Türme, dann den Push.</strong> Jeder gefallene Turm verbreitert deine sichere Zone und reißt den Karten-Kontrolle den Verteidigern weg, bevor der Stadtkampf überhaupt beginnt.</li>
+      <li><strong>Bleib in Rallyes.</strong> Rallyes sind sicherer und stärker als Solo-Märsche — konzentrierte HP, konzentrierte Boni und ein Marsch, den die Verteidiger respektieren müssen. Der Solo-Held ist die Solo-Verluste.</li>
+    </ul>
+
+    <h2 id="defender-playbook">Verteidiger-Handbuch</h2>
+    <p>Verteidiger versuchen nicht, einen Kampf zu gewinnen. Verteidiger versuchen, <strong>eine Uhr auslaufen zu lassen</strong>.</p>
+    <ul>
+      <li><strong>Du brauchst Zeit, keine Kills.</strong> Jede Minute, die Angreifer damit verbringen, sich durch deine Defense zu mühlen, ist eine, in der sie die Stadt nicht halten. Hinauszögern ist Gewinnen.</li>
+      <li><strong>Verstärke ständig.</strong> Füttere frische Trupps in umkämpfte Punkte, so schnell wie sie sterben. Ein Punkt, der nie aufhört verteidigt zu werden, frisst das komplette Fenster des Gegners.</li>
+      <li><strong>Rotieren.</strong> Park nicht alles auf einer Spur — verlagere Trupps dorthin, wo der Druck wirklich ist, und zwinge die Angreifer, für jeden Zentimeter Boden zu kämpfen.</li>
+    </ul>
+
+    <h2 id="universal-rules">Universelle Regeln</h2>
+    <p>Auf welcher Seite du auch stehst, dieselben Regeln gelten:</p>
+    <ol>
+      <li><strong>Türme zuerst = Karten-Kontrolle.</strong> Die Turmlinie entscheidet, wer sich sicher bewegt. Es ist das erste Ziel des Krieges, jedes Mal.</li>
+      <li><strong>Nie solo.</strong> Solo-Pushes sind der Weg, wie Konten gelöscht werden. Marschiere mit Rallyes oder gar nicht.</li>
+      <li><strong>Verstärke ständig.</strong> Defense, die keine Verstärkung mehr bekommt, fällt in einer Welle.</li>
+      <li><strong>Bleib den ganzen Kampf online.</strong> Das 4-Stunden-Fenster bestraft jeden, der mitten im Krieg ausloggt — deine Trupps bleiben exakt dort, wo du sie verlassen hast, unverteidigt.</li>
+    </ol>
+
+    <h2 id="losing-mistakes">Die Fehler, die Kriege verlieren</h2>
+    <ul>
+      <li><strong>Solo-Pushes</strong> — sofortige Auslöschungen, die dem Gegner Gratis-Kills schenken und deiner Allianz einen Trupp kosten.</li>
+      <li><strong>Türme ignorieren</strong> — die Stadt durch intakte Turmlinien anzugreifen heißt, Truppen zu spenden.</li>
+      <li><strong>Keine Verstärkung</strong> — eine Defense, die mit Rotieren aufhört, fällt, dann fällt der nächste Punkt, dann fällt die Stadt.</li>
+      <li><strong>Mitten im Krieg ausloggen</strong> — das 4-Stunden-Fenster pausiert nicht für deinen Zeitplan.</li>
+    </ul>
+
+    <h2 id="economy-rules">KvK-Wirtschaft: Truppen, Ressourcen und Schilde</h2>
+    <p>Der Königreichs-Krieg ist eines der wenigen Events mit echtem Konto-Risiko:</p>
+    <ul>
+      <li><strong>Du KANNST Truppen und Ressourcen verlieren, wenn du angegriffen wirst</strong> — das ist kein risikofreies Event wie die <a href="/de/events/canyon/">Canyon-Eroberung</a>.</li>
+      <li><strong>Schild hoch</strong> während des Kriegs-Fensters. Eine ungeschützte Stadt im KvK ist eine Ressourcen-Pinata für den Gegner-Server.</li>
+      <li><strong>Verluste skalieren mit deiner Mauer und Forschung</strong> — eine gemaxte Mauer und Defensiv-Forschung sind das, was ein Massaker in ein Scharmützel verwandelt.</li>
+      <li><strong>Hebe Upgrades und Beschleunigungen für die Punkte-Tage auf</strong> — dieselbe Doppelwert-Logik, die das <a href="/de/events/alliance-duel/">Allianz-Duell</a> regiert, gilt für KvK-Punkte-Aufgaben. Ein großes Upgrade an einem neutralen Tag auszugeben bringt die Hälfte.</li>
+    </ul>
+
+    <h2 id="scoring-overlap">Punkte-Überschneidung mit dem Allianz-Duell</h2>
+    <p>KvK und Allianz-Duell teilen Punkte-Quellen, und der Community-Konsens lautet, das jeden Tag auszunutzen:</p>
+    <ul>
+      <li><strong>Verdeckte Operationen und Karawanen punkten für BEIDE Events.</strong> Dieselben Aktionen füttern dein Duell-Gesamt und dein KvK-Gesamt gleichzeitig.</li>
+      <li>Das macht Karawanen zur täglichen Selbstverständlichkeit — fahre sie jeden einzelnen Tag einer Duell-Woche. Die komplette Karawanen- und Plünder-Route ist im <a href="/de/events/wagon/">Gilden-Wagen- und Karawanen-Guide</a>.</li>
+    </ul>
+    <p>Die restliche Kriegs-Wirtschaft — was sparen, wann ausgeben, welche Shop-Käufe den Krieg finanzieren — ist im <a href="/de/economy/">Wirtschafts-Guide</a> abgedeckt.</p>
+
+    <VideoSection topic="kvk" lang={lang} />
+  </GuidePage>
+</Base>

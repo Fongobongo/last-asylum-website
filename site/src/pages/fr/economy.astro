@@ -1,0 +1,130 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import PlunderCalculator from '../../components/PlunderCalculator.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'fr';
+---
+<Base lang={lang} path="/fr/economy/" title="Économie : diamants, boutiques, pillage" description="Où va chaque diamant : priorités de la boutique VIP, le calendrier de réapprovisionnement, ordres d&apos;achat par boutique, budgets de la Roue des Vœux, et les mécaniques complètes du pillage avec limites quotidiennes par niveau de Sanctuaire.">
+  <GuidePage title="Économie : diamants, boutiques, pillage" description="Où va chaque diamant : priorités de la boutique VIP, le calendrier de réapprovisionnement, ordres d&apos;achat par boutique, budgets de la Roue des Vœux, et les mécaniques complètes du pillage avec limites quotidiennes par niveau de Sanctuaire." lang={lang}>
+    <p>Last Asylum: Plague gère trois économies parallèles : les diamants et les boutiques, le pillage quotidien, et le calendrier des événements. Chacune a ses pièges — mauvais achats de diamants, capacité de pillage gaspillée, énergie dépensée à 5% d&apos;efficacité. Cette page est le consensus de la communauté sur les trois, avec les chiffres exacts.</p>
+
+    <h2 id="vip-shop">Boutique VIP : priorités de diamants</h2>
+    <p>La boutique VIP prend des diamants, et la plupart de son stock est un mauvais deal. La liste d&apos;achat vérifiée :</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Priorité</th><th>Articles</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>HAUTE</td><td>Omnifragment UR, Antidote UR, Essence de Corbeau, Accélération 8h</td></tr>
+        <tr><td>MOYENNE</td><td>Accélération 3h, Omnifragment SSR, Accélération 1h</td></tr>
+        <tr><td>BASSE</td><td>Antidotes SSR, Relocalisation Directe</td></tr>
+      </tbody>
+    </table>
+    <p>Et la règle complète : <strong>évitez tout le reste sauf nécessité extrême.</strong> La boutique est tarifiée pour tenter les joueurs impatients de convertir des diamants en objets que le jeu distribue via les événements — tenez la ligne.</p>
+
+    <h2 id="restock-schedule">Calendrier de réapprovisionnement</h2>
+    <p>Toutes les boutiques se réapprovisionnent le lundi. Organisez votre semaine autour : achetez vos priorités lundi quand les stocks sont pleins, courez vos revenus de Duel d&apos;Alliances et d&apos;Expédition en milieu de semaine, puis passez le week-end à décider ce que le réapprovisionnement de lundi vous doit. Les joueurs qui achètent dimanche achètent une étagère déjà picorée.</p>
+
+    <h2 id="sanctuary-shop">Boutique du Sanctuaire</h2>
+    <ol>
+      <li>Essence de Corbeau et Omnifragments de Héros UR — achetez au maximum.</li>
+      <li>Antidotes et Omnifragments SSR.</li>
+      <li>Pierres d&apos;Équipement et Tickets de Recrutement.</li>
+      <li>Insignes de Compétence et Omnifragments SR — budget extra seulement.</li>
+    </ol>
+
+    <h2 id="expedition-shop">Boutique d&apos;Expédition</h2>
+    <ol>
+      <li>Omnifragments UR et Essences.</li>
+      <li>Coffre d&apos;Expédition, Fragment d&apos;Inscription et le Coffre d&apos;Inscription UR.</li>
+      <li>Antidotes et Pierres d&apos;Équipement.</li>
+      <li>Accélérations, Tickets et les Fruits de Corbeau 100K — seulement le nécessaire.</li>
+    </ol>
+
+    <h2 id="honor-shop">Boutique d&apos;Honneur</h2>
+    <ol>
+      <li>Plan d&apos;Équipement UR, Essence et Omnifragments UR.</li>
+      <li>Coffres de Curiosité et Inscriptions UR.</li>
+      <li>Tout le reste — besoins urgents seulement.</li>
+    </ol>
+    <p>La règle critique pour l&apos;Honneur spécifiquement : l&apos;honneur est <strong>uniquement pour les plans d&apos;équipement</strong>. Il n&apos;y a pas de coffres d&apos;épigraphes ici — ce n&apos;est pas un oubli à contourner, c&apos;est ainsi que la monnaie est conçue. Dépensez l&apos;honneur d&apos;abord en plans UR et traitez le reste comme du remplissage.</p>
+
+    <h2 id="alliance-shop">Boutique d&apos;Alliance</h2>
+    <ol>
+      <li>Omnifragment de Héros UR, Essence de Corbeau et Relocalisation Directe.</li>
+      <li>Guide d&apos;Évolution du Corbeau, Boucliers, Coffre d&apos;Inscription SR et Fragments de Bella.</li>
+      <li>Optionnel : toutes les accélérations.</li>
+    </ol>
+
+    <h2 id="epigraph-chests">Coffres d&apos;épigraphes : la règle de l&apos;exception</h2>
+    <p>Achetez des coffres d&apos;épigraphes dans toutes les boutiques <strong>sauf la Boutique d&apos;Honneur</strong>. Les épigraphes nourrissent le système du Corbeau, et les épigraphes UR du Corbeau ne buffent qu&apos;une seule faction — dans le méta mono-faction, ça fait des coffres d&apos;épigraphes l&apos;achat à long terme le plus constant du jeu.</p>
+    <p>Le revenu F2P en épigraphes est réel, si vous vous présentez pour lui : 30 fragments UR par jour du Duel d&apos;Alliances, plus l&apos;auto-forge à l&apos;Atelier d&apos;Épigraphes, totalise environ 1.5 épigraphe UR par mois. Le système complet — niveaux d&apos;atelier, ordre de promotion et règles de rareté — est couvert dans le <a href="/fr/raven/">guide du Corbeau</a>.</p>
+
+    <h2 id="diamond-rules">Règles des diamants : roues, bannières et jalons</h2>
+    <ol>
+      <li><strong>Économisez jusqu&apos;au jour 8</strong> pour la Roue des Vœux de Cynthia — elle coûte environ 11 500 diamants. Ne tirez qu&apos;en 10x ; les tirages simples paient les mêmes chances à un prix pire.</li>
+      <li><strong>Après le jour 15, économisez pour la roue de Joker</strong> — l&apos;événement de la finisseuse PvP UR. La réserve de diamants de mi-jeu existe pour ça.</li>
+      <li><strong>Ne videz jamais de diamants dans le recrutement standard.</strong> Attendez les bannières à taux boosté — même monnaie, meilleurs héros.</li>
+      <li><strong>Ne poursuivez pas les jalons de dépense cumulée de diamants</strong> comme le Cadeau des Profondeurs. Dépenser des diamants juste pour franchir un seuil de récompense, c&apos;est acheter le jalon, pas la valeur.</li>
+    </ol>
+    <h3 id="best-packs">Meilleurs packs (gamme $20-200)</h3>
+    <p>Si vous dépensez quoi que ce soit, la communauté choisit trois packs dans la gamme $20-200 : packs d&apos;Accélération Universelle, packs d&apos;Essence de Corbeau et packs de Montée de Niveau de Ville. Et des guides débutants : la recharge de $1 de Marlena au jour 66 reste le meilleur achat rapport qualité-prix du jeu à n&apos;importe quel prix.</p>
+
+    <h2 id="plunder-mechanics">Pillage : les mécaniques complètes</h2>
+    <p>Le revenu du pillage est plafonné par une limite quotidienne, et la limite suit votre niveau de Sanctuaire. Connaître les seuils change le moment où vous cessez d&apos;attaquer pour la journée.</p>
+    <PlunderCalculator lang={lang} />
+    <h3 id="how-the-limit-works">Comment fonctionne la limite</h3>
+    <ul>
+      <li>La limite compte le Grain, le Bois et les Herbes rapportés des attaques.</li>
+      <li>En dessous de la limite : vous rapportez des ressources à <strong>100%</strong> d&apos;efficacité.</li>
+      <li>À partir de 1x la limite : l&apos;efficacité chute à <strong>15%</strong>.</li>
+      <li>À partir de 1.3x la limite : l&apos;efficacité chute à <strong>5%</strong> — c&apos;est le plancher.</li>
+      <li>La limite se réinitialise à <strong>02:00 UTC</strong> chaque jour.</li>
+      <li>Le triangle jaune sous la Puissance d&apos;une cible est l&apos;indicateur de dépassement — vérifiez-le via Aperçu des Effets, puis Gains de Pillage.</li>
+    </ul>
+    <h3 id="plunder-limits-table">Limites quotidiennes par niveau de Sanctuaire</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Sanctuaire</th><th>Limite quotidienne</th><th>Sanctuaire</th><th>Limite quotidienne</th><th>Sanctuaire</th><th>Limite quotidienne</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>10-12</td><td>2.5M</td><td>18</td><td>8M</td><td>24</td><td>18M</td></tr>
+        <tr><td>13</td><td>3M</td><td>19</td><td>9M</td><td>25</td><td>20M</td></tr>
+        <tr><td>14</td><td>4M</td><td>20</td><td>10M</td><td>26</td><td>22M</td></tr>
+        <tr><td>15</td><td>5M</td><td>21</td><td>12M</td><td>27</td><td>24M</td></tr>
+        <tr><td>16</td><td>6M</td><td>22</td><td>14M</td><td>28</td><td>26M</td></tr>
+        <tr><td>17</td><td>7M</td><td>23</td><td>16M</td><td>29 / 30</td><td>28M / 30M</td></tr>
+      </tbody>
+    </table>
+    <p>Le motif : +1M par niveau de Sanctuaire jusqu&apos;à 20, puis +2M par niveau jusqu&apos;au plafond de 30M au Sanctuaire 30. Deux notes mécaniques :</p>
+    <ul>
+      <li>Une amélioration du Sanctuaire relève votre limite <strong>immédiatement</strong> — pas d&apos;attente de reset. Si vous êtes près du plafond quotidien et qu&apos;un niveau de Sanctuaire est proche, finissez-le d&apos;abord et pillez après.</li>
+      <li>La compétence Ravitaillement de Guerre de l&apos;arbre de spécialité Commandant de Légion (Ère du Renouveau) relève le plafond de +6 / +14 / +24 / +36 / +50% aux niveaux 1-5. Voir le <a href="/fr/era/">guide de l&apos;Ère</a>.</li>
+    </ul>
+
+    <h2 id="nine-hit-rule">La règle des neuf coups</h2>
+    <p>N&apos;attaquez jamais la même ferme plus de neuf fois de suite. Le dixième coup détruit la ville carrément et téléporte son propriétaire ailleurs — vous perdez la ferme, et le joueur perd sa ville. Neuf coups est le plafond ; la communauté le traite comme une obligation, pas une suggestion.</p>
+
+    <h2 id="stamina-math">Les maths de l&apos;énergie : pourquoi piller au-dessus de la limite échoue</h2>
+    <p>Dépenser de l&apos;énergie en pillage hors limite est l&apos;un des pires échanges du jeu :</p>
+    <ul>
+      <li>À 15% d&apos;efficacité, chaque point d&apos;énergie gagne environ <strong>7x moins</strong> que la normale.</li>
+      <li>À 5% d&apos;efficacité, environ <strong>20x moins</strong>.</li>
+      <li>La même énergie dépensée en monstres gagne <strong>de la valeur pleine, peu importe</strong> votre statut de pillage.</li>
+    </ul>
+    <p>Le rythme quotidien s&apos;écrit donc tout seul : frappez d&apos;abord les cibles les plus riches que vous pouvez battre pendant que vous êtes à 100%, cessez d&apos;attaquer les fermes au moment où vous franchissez la limite, et videz le reste de votre énergie dans les monstres. Et dans votre fenêtre de pillage, frappez toujours la cible la plus riche en premier — la limite arrive de toute façon, alors remplissez-la avec les plus gros nombres disponibles.</p>
+
+    <h2 id="caravans-covert-ops">Caravanes et Opérations Secrètes : courez toujours les deux</h2>
+    <p>Les Caravanes et les Opérations Secrètes sont des systèmes séparés du pillage, et ils esquivent toutes les restrictions ci-dessus : pas de limite de pillage, pas de perte réelle de troupes, pas de coût d&apos;énergie. C&apos;est du bénéfice pur, d&apos;où la règle communautaire de courir les deux chaque jour.</p>
+    <ul>
+      <li><strong>Caravanes</strong> — votre revenu commercial automatisé. Gardez-les en mouvement.</li>
+      <li><strong>Opérations Secrètes</strong> — vous pouvez piller jusqu&apos;à 5 Opérations Secrètes d&apos;autres joueurs par jour. Les Dorées paient les meilleures récompenses — prenez toujours une dorée quand vous en voyez une.</li>
+    </ul>
+
+    <VideoSection topic="economy" lang={lang} />
+  </GuidePage>
+</Base>

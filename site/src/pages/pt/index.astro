@@ -1,0 +1,104 @@
+---
+import Base from '../../layouts/Base.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'pt';
+
+const sections = [
+  { href: '/pt/beginners/', icon: '🌱', title: 'Guia para iniciantes', key: 'home.sections.beginners.desc', color: 'from-green-900/40' },
+  { href: '/pt/buildings/', icon: '🏰', title: 'Construções', key: 'home.sections.buildings.desc', color: 'from-amber-900/40' },
+  { href: '/pt/heroes/', icon: '⚔️', title: 'Heróis', key: 'home.sections.heroes.desc', color: 'from-red-900/40' },
+  { href: '/pt/economy/', icon: '💰', title: 'Economia', key: 'home.sections.economy.desc', color: 'from-yellow-900/40' },
+  { href: '/pt/raven/', icon: '🐦‍⬛', title: 'Corvo e epígrafes', key: 'home.sections.raven.desc', color: 'from-purple-900/40' },
+  { href: '/pt/era/', icon: '☣️', title: 'Era do Renascimento', key: 'home.sections.era.desc', color: 'from-lime-900/40' },
+  { href: '/pt/codes/', icon: '🎁', title: 'Códigos de presente', key: 'home.sections.codes.desc', color: 'from-toxic-900/40' },
+  { href: '/pt/patch-notes/', icon: '📜', title: 'Notas de patch', key: 'home.sections.patchnotes.desc', color: 'from-stone-700/40' },
+];
+
+const popular = [
+  { href: '/pt/beginners/', title: 'Suas primeiras 24 horas', desc: 'O checklist do primeiro dia que decide a sorte de toda a sua conta.' },
+  { href: '/pt/economy/', title: 'Prioridades de diamantes e lojas', desc: 'A ordem exata de compras em cada loja, e o que nunca comprar.' },
+  { href: '/pt/heroes/', title: 'O esquadrão F2P', desc: 'Arthur, Daskal, Marlena, Harper, Claire — o caminho canônico.' },
+  { href: '/pt/events/undead/', title: 'Cerco dos mortos-vivos', desc: 'A mecânica oculta de 2 esquadrões por onda que mata jogadores de 9.5M.' },
+  { href: '/pt/events/alliance-duel/', title: 'Duelo de Alianças', desc: 'Guarde pergaminhos para a Fase 3, fragmentos para a Fase 4, acelerações para a Fase 5.' },
+  { href: '/pt/era/', title: 'Claire SSR→UR', desc: 'Pule a queda de 6★–9★ com níveis do Salão da Honra.' },
+];
+---
+
+<Base lang={lang} path="/pt/">
+  <!-- Hero -->
+  <section class="relative overflow-hidden border-b border-stone-800">
+    <div class="absolute inset-0 bg-gradient-to-b from-plague-950/80 to-transparent"></div>
+    <div class="relative py-20 sm:py-28">
+      <p class="mb-3 text-sm font-semibold uppercase tracking-widest text-toxic-400">Last Asylum: Plague — Fan Hub</p>
+      <h1 class="mb-5 text-4xl font-bold tracking-tight text-plague-100 sm:text-6xl">
+        Sobreviva à praga
+      </h1>
+      <p class="mb-8 max-w-2xl text-lg leading-relaxed text-stone-300">
+        A base de conhecimento da comunidade: rotinas para iniciantes, prioridades de construção, estratégias F2P, prioridades de lojas e análises completas de eventos — tudo extraído dos guias do Discord oficial e verificado por jogadores.
+      </p>
+      <div class="flex flex-wrap gap-3">
+        <a href="/pt/beginners/" class="rounded-lg bg-plague-700 px-6 py-3 font-semibold text-plague-50 hover:bg-plague-600 transition-colors">
+          Ver guias →
+        </a>
+        <a href="/pt/events/" class="rounded-lg border border-stone-700 px-6 py-3 font-semibold text-stone-200 hover:bg-stone-800 transition-colors">
+          Guias de eventos →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sections grid -->
+  <section class="py-14">
+    <h2 class="mb-8 text-2xl font-bold text-plague-200">Guias</h2>
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {sections.map((s) => (
+        <a href={s.href} class={`group rounded-xl border border-stone-800 bg-gradient-to-br ${s.color} to-stone-900 p-6 transition-colors hover:border-plague-500`}>
+          <span class="text-3xl">{s.icon}</span>
+          <h3 class="mt-3 text-lg font-bold text-plague-200 group-hover:text-plague-100">{s.title}</h3>
+          <p class="mt-2 text-sm text-stone-400">{t(lang, s.key as any)}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Events banner -->
+  <section class="mb-14 rounded-xl border border-plague-800 bg-plague-950/50 p-8">
+    <div class="flex flex-wrap items-center justify-between gap-4">
+      <div>
+        <h2 class="text-xl font-bold text-plague-200">⚔️ Eventos</h2>
+        <p class="mt-1 text-stone-400">Duelo de Alianças, KvK, Cerco dos mortos-vivos e todos os outros eventos.</p>
+      </div>
+      <a href="/pt/events/" class="rounded-lg bg-plague-700 px-5 py-2.5 font-semibold text-plague-50 hover:bg-plague-600 transition-colors">
+        Guias de eventos →
+      </a>
+    </div>
+  </section>
+
+  <!-- Popular guides -->
+  <section class="mb-16">
+    <h2 class="mb-8 text-2xl font-bold text-plague-200">Guias populares</h2>
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {popular.map((p) => (
+        <a href={p.href} class="group rounded-lg border border-stone-800 bg-stone-900 p-5 transition-colors hover:border-plague-600">
+          <h3 class="font-bold text-stone-100 group-hover:text-plague-200">{p.title}</h3>
+          <p class="mt-2 text-sm text-stone-400">{p.desc}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Support banner -->
+  <section class="mb-16 rounded-xl border border-stone-800 bg-stone-900 p-8">
+    <div class="flex flex-wrap items-center justify-between gap-4">
+      <div>
+        <h2 class="text-xl font-bold text-plague-200">❤️ Apoie o projeto</h2>
+        <p class="mt-1 text-stone-400">Apoie o projeto e ganhe valor dentro do jogo.</p>
+      </div>
+      <a href="/pt/support/" class="rounded-lg bg-blood-600 px-5 py-2.5 font-semibold text-white hover:bg-blood-500 transition-colors">
+        Apoie-nos →
+      </a>
+    </div>
+  </section>
+</Base>

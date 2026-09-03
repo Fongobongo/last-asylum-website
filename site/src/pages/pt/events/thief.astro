@@ -1,0 +1,88 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'pt';
+---
+<Base lang={lang} path="/pt/events/thief/" title="Caça aos Ladrões: spawns e troca" description="A tubulação de vigor-para-chefes: como os spawns do Líder Ladrão realmente funcionam, a técnica de morte contínua para o nível 30/35, a lista de prioridades de troca da comunidade e o esquadrão de chefe que empilha mais dano.">
+  <GuidePage title="Caça aos Ladrões: spawns e troca" description="A tubulação de vigor-para-chefes: como os spawns do Líder Ladrão realmente funcionam, a técnica de morte contínua para o nível 30/35, a lista de prioridades de troca da comunidade e o esquadrão de chefe que empilha mais dano." lang={lang}>
+    <p>A Caça aos Ladrões é o <strong>evento de vigor da aliança</strong>: você gasta vigor atacando ladrões no mapa, e mortes de ladrões rolam uma chance de spawnar um <strong>chefe Líder Ladrão</strong> que a aliança inteira pode rallyear. Converte seu vigor sobrando na loja de troca — uma das melhores lojas do jogo se você comprar na ordem certa.</p>
+    <p>Este guia cobre mecânicas de spawn de chefe, a técnica para spawnar chefes de nível alto, a lista de prioridades de troca e o esquadrão de chefe.</p>
+
+    <h2 id="how-it-works">Como funciona</h2>
+    <ul>
+      <li>Ataque ladrões no mapa com vigor. Mortes spawnam o chefe Líder Ladrão para um rallye de aliança — <strong>a rolagem é por ladrão morto</strong>, não por dia de evento nem por jogador.</li>
+      <li>Chefes spawnam <strong>na primeira morte ou depois de 20</strong> — a rolagem acontece cedo ou depois de uma sequência. Uma aliança reporta <strong>sempre 8 ou mais</strong>; espere variação e continue matando.</li>
+      <li>Pontos e recompensas <strong>não aumentam mais tarde no evento</strong>. Não há razão para estocar vigor — <strong>gaste imediatamente</strong> para rolar pelos chefões mais cedo.</li>
+    </ul>
+
+    <h2 id="boss-levels">Níveis de chefe por servidor</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Idade do servidor</th><th>Níveis comuns de chefe</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Típico</td><td>10 / 15 / 20 / 25 / 30, raramente 35</td></tr>
+        <tr><td>Servidores antigos</td><td>40 / 65 / 85 / 90</td></tr>
+      </tbody>
+    </table>
+    <ul>
+      <li>Sua <strong>faixa de nível de chefe é aleatória por jogador e não muda</strong> — você rola sua faixa e fica com ela. Ela <strong>não está ligada ao seu Poder</strong>, então um jogador de Poder baixo pode rolar chefes de nível alto.</li>
+      <li><strong>Pós-patch de 8 de julho: spawns acompanham o crescimento do servidor.</strong> Desde aquele patch, os níveis de chefe seguem o quão desenvolvido está o servidor — chega de chefes nível 10 num servidor de um ano.</li>
+    </ul>
+
+    <h2 id="spawn-technique">A técnica de morte contínua para nível 30/35</h2>
+    <p>A técnica verificada para empurrar níveis de chefe a 30 e 35:</p>
+    <blockquote>Mate ladrões um a um SEM deixar suas tropas voltarem para a base — marchas contínuas, uma atrás da outra, com zero tempo ocioso.</blockquote>
+    <p>Marchas voltando à base quebram a sequência; mortes consecutivas rolam o spawn repetidamente. Encadeie seus alvos para a próxima marcha sair no instante em que a última pousa, e os spawns de nível alto chegam bem mais vezes.</p>
+
+    <h2 id="exchange">A lista de prioridades da troca</h2>
+    <p>A loja de troca é a recompensa de verdade, e a ordem do consenso da comunidade é estável:</p>
+    <h3 id="week-1">Só semana 1</h3>
+    <ol>
+      <li><strong>Pergaminhos</strong> — 4 para a tecnologia do Duelo de Alianças, <strong>depois nunca mais</strong>. A tech do duelo quer exatamente quatro; depois disso são peso morto.</li>
+    </ol>
+    <h3 id="always">Sempre, todo evento</h3>
+    <ol>
+      <li><strong>Essência de Corvo</strong> — todo evento, sem exceções. O sistema do Corvo é permanentemente gargalado por ela (veja a <a href="/pt/raven/">guia do Corvo</a>).</li>
+    </ol>
+    <h3 id="high-priority">Alta prioridade</h3>
+    <ol>
+      <li>Vigor</li>
+      <li>Acelerações</li>
+      <li>Baú do Corvo</li>
+      <li>Epígrafes <em>quando disponíveis</em></li>
+    </ol>
+    <h3 id="late-game">Fim de jogo</h3>
+    <ol>
+      <li><strong>Ervas</strong> — nunca são suficientes; contas do fim do jogo compram ervas todo evento.</li>
+    </ol>
+    <h3 id="alt-list">Lista de prioridades alternativa</h3>
+    <ol>
+      <li>Vigor</li>
+      <li>Baú do Corvo LV3</li>
+      <li>Baús de epígrafes azul/roxo</li>
+      <li>Acelerações de pesquisa/construção</li>
+      <li>Tickets de recrutamento</li>
+    </ol>
+    <p>E uma regra de inventário: <strong>o limite de pergaminhos arrasta de evento a evento</strong>. Se você bater o teto de pergaminhos, esse teto te segue pro próximo evento — mais uma razão para a regra "quatro e nunca mais" existir.</p>
+
+    <h2 id="boss-squad">O esquadrão de rallye de chefe</h2>
+    <p>A composição de chefe da comunidade, construída para dano ao longo do tempo:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Fila</th><th>Heróis</th><th>Função</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Frente</td><td>Arthur + Bella</td><td>Sobreviver mais — cada segundo extra de sobrevivência empilha mais dano</td></tr>
+        <tr><td>Fundo</td><td>Marlena + Shadow + Claire</td><td>Motor de dano por trás da frontline</td></tr>
+      </tbody>
+    </table>
+    <p>A lógica: <strong>mais sobrevivência = mais dano empilhado</strong>. Uma luta de chefe não é um teste de rajada — o esquadrão que aguenta mais tempo é o que mais bate, então priorize sobrevivência sobre ataque bruto. Detalhes completos de heróis estão na <a href="/pt/heroes/">guia de Heróis</a>.</p>
+
+    <VideoSection topic="thief" lang={lang} />
+  </GuidePage>
+</Base>

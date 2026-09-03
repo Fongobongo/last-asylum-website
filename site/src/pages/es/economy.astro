@@ -1,0 +1,130 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import PlunderCalculator from '../../components/PlunderCalculator.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'es';
+---
+<Base lang={lang} path="/es/economy/" title="Economía: diamantes, tiendas, saqueo" description="A dónde va cada diamante: prioridades de la tienda VIP, el calendario de reposición, órdenes de compra por tienda, presupuestos de la Rueda de los Deseos y las mecánicas completas del saqueo con límites diarios por nivel de Santuario.">
+  <GuidePage title="Economía: diamantes, tiendas, saqueo" description="A dónde va cada diamante: prioridades de la tienda VIP, el calendario de reposición, órdenes de compra por tienda, presupuestos de la Rueda de los Deseos y las mecánicas completas del saqueo con límites diarios por nivel de Santuario." lang={lang}>
+    <p>Last Asylum: Plague maneja tres economías paralelas: diamantes y tiendas, saqueo diario, y el calendario de eventos. Cada una tiene sus trampas — malas compras de diamantes, capacidad de saqueo desperdiciada, aguante gastado al 5% de eficiencia. Esta página es el consenso de la comunidad sobre las tres, con los números exactos.</p>
+
+    <h2 id="vip-shop">Tienda VIP: prioridades de diamantes</h2>
+    <p>La tienda VIP cobra diamantes, y la mayoría de su stock es un mal trato. La lista de compras verificada:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Prioridad</th><th>Artículos</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>ALTA</td><td>Omnifragmento UR, Antídoto UR, Esencia de Cuervo, Aceleración 8h</td></tr>
+        <tr><td>MEDIA</td><td>Aceleración 3h, Omnifragmento SSR, Aceleración 1h</td></tr>
+        <tr><td>BAJA</td><td>Antídotos SSR, Reubicación Directa</td></tr>
+      </tbody>
+    </table>
+    <p>Y la regla completa: <strong>evita todo lo demás salvo extrema necesidad.</strong> La tienda está precio para tentar a jugadores impacaces a convertir diamantes en artículos que el juego regala por eventos — mantén la línea.</p>
+
+    <h2 id="restock-schedule">Calendario de reposición de tiendas</h2>
+    <p>Todas las tiendas se reponen el lunes. Organiza tu semana en torno a ello: compra tus prioridades el lunes cuando el stock está lleno, corre con tus ingresos de Duelo de Alianzas y Expedición a mitad de semana, y pasa el fin de semana decidiendo qué te debe la reposición del lunes. Quien compra el domingo compra un estante ya pelado.</p>
+
+    <h2 id="sanctuary-shop">Tienda del Santuario</h2>
+    <ol>
+      <li>Esencia de Cuervo y Omnifragmentos de Héroe UR — compra al máximo.</li>
+      <li>Antídotos y Omnifragmentos SSR.</li>
+      <li>Piedras de Equipo y Tickets de Reclutamiento.</li>
+      <li>Insignias de Habilidad y Omnifragmentos SR — solo con presupuesto extra.</li>
+    </ol>
+
+    <h2 id="expedition-shop">Tienda de Expedición</h2>
+    <ol>
+      <li>Omnifragmentos UR y Esencias.</li>
+      <li>Cofre de Expedición, Fragmento de Inscripción y el Cofre de Inscripción UR.</li>
+      <li>Antídotos y Piedras de Equipo.</li>
+      <li>Aceleraciones, Tickets y las Frutas de Cuervo 100K — solo lo necesario.</li>
+    </ol>
+
+    <h2 id="honor-shop">Tienda de Honor</h2>
+    <ol>
+      <li>Plano de Equipo UR, Esencia y Omnifragmentos UR.</li>
+      <li>Cofres de Curiosidad e Inscripciones UR.</li>
+      <li>Todo lo demás — solo necesidades urgentes.</li>
+    </ol>
+    <p>La regla crítica para el Honor en concreto: el honor es <strong>solo para planos de equipo</strong>. Aquí no hay cofres de epígrafes — no es un descuido que sortear, es así como se diseñó la moneda. Gasta el honor primero en planos UR y trata el resto como relleno.</p>
+
+    <h2 id="alliance-shop">Tienda de Alianza</h2>
+    <ol>
+      <li>Omnifragmento de Héroe UR, Esencia de Cuervo y Reubicación Directa.</li>
+      <li>Guía de Evolución del Cuervo, Escudos, Cofre de Inscripción SR y Fragmentos de Bella.</li>
+      <li>Opcional: todas las aceleraciones.</li>
+    </ol>
+
+    <h2 id="epigraph-chests">Cofres de epígrafes: la regla de la excepción</h2>
+    <p>Compra cofres de epígrafes en todas las tiendas <strong>excepto la Tienda de Honor</strong>. Los epígrafes alimentan el sistema del Cuervo, y los epígrafes UR del Cuervo solo potencian una facción — en la meta monofacción, eso convierte los cofres de epígrafes en la compra a largo plazo más consistente del juego.</p>
+    <p>El ingreso F2P de epígrafes es real, si te presentas por él: 30 fragmentos UR diarios del Duelo de Alianzas, más la autoforja en el Taller de Epígrafes, suman aproximadamente 1.5 epígrafes UR al mes. El sistema completo — niveles de taller, orden de promoción y reglas de rareza — está cubierto en la <a href="/es/raven/">guía del Cuervo</a>.</p>
+
+    <h2 id="diamond-rules">Reglas de diamantes: ruedas, banners e hitos</h2>
+    <ol>
+      <li><strong>Ahorrar hasta el día 8</strong> para la Rueda de los Deseos de Cynthia — cuesta unos 11,500 diamantes. Tira solo de 10x; las tiradas simples pagan las mismas probabilidades a peor precio.</li>
+      <li><strong>Tras el día 15, ahorra para la rueda de Joker</strong> — el evento del remate PvP UR. La reserva de diamantes del medio juego existe para esto.</li>
+      <li><strong>Nunca viertas diamantes en reclutamiento estándar.</strong> Espera los banners con probabilidad subida — misma moneda, mejores héroes.</li>
+      <li><strong>No persigas hitos acumulados de gasto de diamantes</strong> como el Regalo del Mar Profundo. Gastar diamantes solo para cruzar un umbral de recompensa es comprar el hito, no el valor.</li>
+    </ol>
+    <h3 id="best-packs">Mejores paquetes (rango $20-200)</h3>
+    <p>Si gastas algo, la comunidad elige tres paquetes en el rango $20-200: paquetes de Aceleración Universal, paquetes de Esencia del Cuervo y paquetes de Subida de Nivel de Ciudad. Y de las guías para principiantes: la recarga de $1 de Marlena en el día 66 sigue siendo la mejor compra en relación valor-precio del juego a cualquier precio.</p>
+
+    <h2 id="plunder-mechanics">Saqueo: las mecánicas completas</h2>
+    <p>El ingreso del saqueo está limitado por un tope diario, y el tope escala con tu nivel de Santuario. Conocer los umbrales cambia cuándo dejas de atacar por el día.</p>
+    <PlunderCalculator lang={lang} />
+    <h3 id="how-the-limit-works">Cómo funciona el límite</h3>
+    <ul>
+      <li>El límite cuenta el Grano, la Madera y las Hierbas llevados a casa desde los ataques.</li>
+      <li>Por debajo del límite: llevas recursos con <strong>100%</strong> de eficiencia.</li>
+      <li>Desde 1x el límite: la eficiencia cae al <strong>15%</strong>.</li>
+      <li>Desde 1.3x el límite: la eficiencia cae al <strong>5%</strong> — ese es el suelo.</li>
+      <li>El límite se reinicia a las <strong>02:00 UTC</strong> diarias.</li>
+      <li>El triángulo amarillo bajo el Poder del objetivo es el indicador de exceso de límite — compruébalo en Vista de Efectos, luego Ganancias de Saqueo.</li>
+    </ul>
+    <h3 id="plunder-limits-table">Límites diarios por nivel de Santuario</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Santuario</th><th>Límite diario</th><th>Santuario</th><th>Límite diario</th><th>Santuario</th><th>Límite diario</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>10-12</td><td>2.5M</td><td>18</td><td>8M</td><td>24</td><td>18M</td></tr>
+        <tr><td>13</td><td>3M</td><td>19</td><td>9M</td><td>25</td><td>20M</td></tr>
+        <tr><td>14</td><td>4M</td><td>20</td><td>10M</td><td>26</td><td>22M</td></tr>
+        <tr><td>15</td><td>5M</td><td>21</td><td>12M</td><td>27</td><td>24M</td></tr>
+        <tr><td>16</td><td>6M</td><td>22</td><td>14M</td><td>28</td><td>26M</td></tr>
+        <tr><td>17</td><td>7M</td><td>23</td><td>16M</td><td>29 / 30</td><td>28M / 30M</td></tr>
+      </tbody>
+    </table>
+    <p>El patrón: +1M por nivel de Santuario hasta el 20, luego +2M por nivel hasta el tope de 30M en Santuario 30. Dos notas mecánicas:</p>
+    <ul>
+      <li>Una mejora del Santuario sube tu límite <strong>de inmediato</strong> — sin esperar el reinicio. Si estás cerca del tope diario y un nivel de Santuario está cerca, termínalo primero y saquea después.</li>
+      <li>La habilidad Aprovisionamiento de Guerra del árbol de especialidad del Comandante de Legión (Era del Renacimiento) sube el tope en +6 / +14 / +24 / +36 / +50% en niveles 1-5. Consulta la <a href="/es/era/">guía de la Era</a>.</li>
+    </ul>
+
+    <h2 id="nine-hit-rule">La regla de los nueve golpes</h2>
+    <p>Nunca ataques la misma granja más de nueve veces seguidas. El décimo golpe destruye la ciudad por completo y teletransporta a su dueño lejos — pierdes la granja, y el jugador pierde su ciudad. Nueve golpes es el techo; la comunidad lo trata como una obligación, no como sugerencia.</p>
+
+    <h2 id="stamina-math">Matemática del aguante: por qué saquear sobre el límite falla</h2>
+    <p>Gastar aguante en saqueo por encima del límite es uno de los peores tratos del juego:</p>
+    <ul>
+      <li>Al 15% de eficiencia, cada punto de aguante gana aproximadamente <strong>7 veces menos</strong> de lo normal.</li>
+      <li>Al 5% de eficiencia, aproximadamente <strong>20 veces menos</strong>.</li>
+      <li>El mismo aguante gastado en monstruos gana <strong>valor completo sin importar</strong> tu estado de saqueo.</li>
+    </ul>
+    <p>Así que el ritmo diario se escribe solo: golpea primero a los objetivos más ricos que puedas vencer mientras estás al 100%, deja de atacar granjas en el momento en que cruces el límite, y vuelca el resto de tu aguante en monstruos. Y dentro de tu ventana de saqueo, golpea siempre al objetivo más rico primero — el límite llegará de todos modos, así que llénalo con los números más grandes disponibles.</p>
+
+    <h2 id="caravans-covert-ops">Caravanas y Operaciones Encubiertas: corre siempre con ambas</h2>
+    <p>Las Caravanas y las Operaciones Encubiertas son sistemas separados del saqueo, y esquivan todas las restricciones de arriba: sin límite de saqueo, sin pérdida real de tropas, sin coste de aguante. Son puro beneficio, por eso la regla de la comunidad es correr con ambas cada día.</p>
+    <ul>
+      <li><strong>Caravanas</strong> — tu ingreso comercial automatizado. Mantenlas moviéndose.</li>
+      <li><strong>Operaciones Encubiertas</strong> — puedes saquear hasta 5 Operaciones Encubiertas de otros jugadores al día. las Doradas pagan las mejores recompensas — agarra siempre una dorada cuando la veas.</li>
+    </ul>
+
+    <VideoSection topic="economy" lang={lang} />
+  </GuidePage>
+</Base>

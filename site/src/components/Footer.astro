@@ -1,0 +1,19 @@
+---
+import { t } from '../i18n/ui';
+import type { Lang } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const year = new Date().getFullYear();
+---
+
+<footer class="mt-16 border-t border-stone-800 bg-stone-950">
+  <div class="mx-auto max-w-7xl px-4 py-8 text-sm text-stone-400">
+    <p class="mb-2">☣️ {t(lang, 'site.title')} — © {year}</p>
+    <p class="mb-2">{t(lang, 'footer.fansite')}</p>
+    <p>{t(lang, 'footer.source')}</p>
+  </div>
+</footer>

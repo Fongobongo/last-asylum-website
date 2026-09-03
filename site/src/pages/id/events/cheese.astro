@@ -1,0 +1,73 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+<Base lang={lang} path="/id/events/cheese/" title="Cheese Trap: Hadiah Maksimal" description="Rally bos tikus aliansi: hadiah pribadi lima fase, kolam HP aliansi bersama, mengapa urutan bergabung tidak berarti apa-apa, dan matematika penskalaan level yang menentukan tikus mana yang dilawan.">
+  <GuidePage title="Cheese Trap: Hadiah Maksimal" description="Rally bos tikus aliansi: hadiah pribadi lima fase, kolam HP aliansi bersama, mengapa urutan bergabung tidak berarti apa-apa, dan matematika penskalaan level yang menentukan tikus mana yang dilawan." lang={lang}>
+    <p>Cheese Trap adalah <strong>event rally PvE aliansi</strong> melawan seekor tikus raksasa. Damage pribadi Anda menghasilkan hadiah pribadi melintasi lima fase, dan total damage aliansi menghasilkan hadiah aliansi terpisah. Tampak seperti event kekuatan murni — sebenarnya event perencanaan, dan bedanya bernilai beberapa tier hadiah.</p>
+    <p>Panduan ini membahas dua jalur hadiah, aturan titik-berhenti, penskalaan level, dan cara membaca peringkat sebelum aliansi Anda berkomitmen ke seekor tikus.</p>
+
+    <h2 id="how-it-works">Cara Kerjanya</h2>
+    <ul>
+      <li><strong>R4 atau R5 menetapkan mulainya</strong>. Sejak klik itu aliansi punya <strong>sekitar 1,5 jam untuk menyerang</strong>.</li>
+      <li><strong>Cheese Trap I dan II hanya beda waktu</strong> — tikus yang sama, aturan yang sama, jendela berbeda. Pilih yang cocok dengan jadwal Anda.</li>
+      <li><strong>Anda hanya bisa melawan SATU dari dua tikus itu.</strong> Tidak ada membagi pasukan Anda ke keduanya.</li>
+      <li><strong>Partisipasi offline berfungsi</strong> — gabung rally lebih awal dan pasukan Anda bertarung bahkan jika Anda keluar. Atur march Anda sebelum jendela dibuka, lalu jalani hidup Anda.</li>
+    </ul>
+
+    <h2 id="two-reward-tracks">Dua Jalur Hadiah</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Jalur</th><th>Berdasarkan</th><th>Hadiah</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Pribadi</td><td>Damage Anda sendiri</td><td>5 fase hadiah yang meningkat</td></tr>
+        <tr><td>Aliansi</td><td>Total damage aliansi</td><td>Tier hadiah seluruh aliansi</td></tr>
+      </tbody>
+    </table>
+    <p>Interaksi antara kedua jalur adalah bagian pentingnya:</p>
+    <ul>
+      <li><strong>BERHENTI setelah Fase 5 pribadi.</strong> Damage melewati titik itu adalah kehilangan pasukan murni — nol hadiah pribadi ekstra untuk pasukan yang Anda bakar.</li>
+      <li><strong>Kedua tikus berbagi satu kolam HP untuk hadiah aliansi.</strong> Jika satu pemain mencapai Fase 5 di satu tikus dan yang lain berhenti di Fase 3 di tikus satunya, total aliansi dihitung seolah-olah semua mencapai <strong>Fase 5</strong>. Kolamnya — bukan fasenya — yang penting.</li>
+    </ul>
+
+    <h2 id="rally-mechanics">Mekanik Rally: yang Sebenarnya Penting</h2>
+    <ul>
+      <li><strong>Bergabung dengan rally R4/R5 memberi +2,5% serangan.</strong> Gabung rally alih-alih march solo. Setiap kali.</li>
+      <li><strong>Kekuatan penginisiasi rally dan urutan bergabung BERPENGARUH NOL pada damage Anda.</strong> Gabung duluan tidak memukul lebih keras; gabung terakhir tidak nyampung. Berhenti berebut posisi — itu tidak mengubah apa pun.</li>
+      <li><strong>Setiap prajurit menghasilkan damage.</strong> Kolam HP tikus itu sangat besar, dan tidak ada satu pemukul berat tunggal yang bisa &quot;menghabiskannya&quot; — march penuh pasukan murah mengungguli damage march setengah dari pasukan mahal. Bawa jumlah, bukan hanya elit.</li>
+    </ul>
+
+    <h2 id="level-scaling">Penskalaan Level: Tikus Mana yang Dilawan</h2>
+    <p>Keputusan levelnya punya aturan bersih:</p>
+    <blockquote>Fase 4 dari tikus level-berikutnya sedikit lebih baik daripada Fase 5 dari level sebelumnya — dan membayar total hadiah lebih besar.</blockquote>
+    <p>Dalam praktik:</p>
+    <ul>
+      <li>Aliansi mapan menjalankan <strong>level 7 atau 8</strong>.</li>
+      <li><strong>Dekat hari KvK, pilih level 7</strong> — Anda ingin pasukan tetap hidup untuk <a href="/id/events/kvk/">perang</a>, dan hadiah marjinal level 8 tidak sebanding dengan kerugian ekstranya.</li>
+    </ul>
+    <p>Sebelum berkomitmen, <strong>periksa peringkat</strong>: hitung pemain yang mencapai Fase 5 di tikus level 6 versus pemain yang mencapai Fase 4+ di level 7. Jika lebih banyak dari jajaran Anda yang menembus P4 di 7 daripada P5 di 6, tikus yang lebih tinggi adalah pilihan lebih baik.</p>
+    <h3 id="rewards-table">Membaca Tabel Hadiah dalam Game</h3>
+    <p>Tabel hadiah lengkapnya ada di dalam game: <strong>Event khusus &gt; tab Cheese Trap &gt; tombol Gift &gt; Rewards</strong>. Baca sebelum tikusnya dibuka — perbandingan fase demi fase memberi tahu Anda tepat di mana titik berhenti jajaran Anda mendarat.</p>
+
+    <h2 id="team-setup">Susunan Tim</h2>
+    <p>Prioritas pasukan untuk pertarungan bos panjang:</p>
+    <ul>
+      <li><strong>Daya tahan + DPS berkelanjutan + sinergi.</strong> Tikus itu maraton, bukan ujian burst.</li>
+      <li><strong>Garis depan kukuh</strong> — hero yang berdiri sepanjang pertarungan.</li>
+      <li><strong>Garis belakang kuat</strong> — mesin damage di belakang garis depan.</li>
+      <li><strong>Dukungan-penyembuh</strong> — menjaga garis depan tetap hidup, yang menjaga garis belakang aman, yang menjaga damage terus mengalir.</li>
+    </ul>
+    <p>Pilihan hero spesifik dan sinergi faksi ada di <a href="/id/heroes/">Panduan Hero</a>.</p>
+
+    <h2 id="whale-carry">Opsi Whale-Carry</h2>
+    <p>Jika aliansi Anda punya satu pemukul berat, ada pola endgame yang efisien: <strong>2-3 rally cukup untuk memaksimalkan hadiah aliansi</strong> saat si paus membawa damage-nya. Semua orang lain bergabung ke rally untuk +2,5%-nya, menjatuhkan pasukan mereka, dan berhenti di Fase 5 pribadi masing-masing. Damage si paus mengisi kolam bersama; tier aliansi terisi; tidak ada yang membakar pasukan melebihi titik berhenti mereka sendiri.</p>
+
+    <VideoSection topic="cheese" lang={lang} />
+  </GuidePage>
+</Base>

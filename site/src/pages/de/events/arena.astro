@@ -1,0 +1,60 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+<Base lang={lang} path="/de/events/arena/" title="Dreieck-Arena: Defense und Angriff" description="Drei Aufstellungen, der Angreifer wählt zwei zum Besiegen: das Prinzip der gleichmäßigen Defense, die Opfer-Matchup-Regel, konter-basiertes Angreifen, Fraktions-Bonis und die Schicksals-Arena-Fallen-Trupp-Taktik für UR-Splitter.">
+  <GuidePage title="Dreieck-Arena: Defense und Angriff" description="Drei Aufstellungen, der Angreifer wählt zwei zum Besiegen: das Prinzip der gleichmäßigen Defense, die Opfer-Matchup-Regel, konter-basiertes Angreifen, Fraktions-Bonis und die Schicksals-Arena-Fallen-Trupp-Taktik für UR-Splitter." lang={lang}>
+    <p>Die Dreieck-Arena ist der 3v3-Formations-Duellkampf: du stellst <strong>drei Defense-Aufstellungen</strong> ein, und jeder Angreifer <strong>wählt, gegen welche deiner Aufstellungen er kämpft</strong> — er muss <strong>2 von 3 gewinnen</strong>, um dich zu schlagen. Eine Regel formt das ganze Event, bevor alles andere kommt: <strong>der Angreifer SIEHT deine Setups</strong>. Defense in diesem Spiel heißt nicht, unschlagbar zu sein; sie heißt, nicht lesbar zu sein.</p>
+    <p>Dieser Guide deckt die Defense-Prinzipien ab, die Opfer-Matchup-Regel fürs Angreifen, Konter-Matchups, Fraktions-Bonis und die Schicksals-Arena-Fallen-Trupp-Strategie.</p>
+
+    <h2 id="format">Das Format, und was es bedeutet</h2>
+    <ul>
+      <li>Verteidiger stellen <strong>3 Aufstellungen</strong> ein. Angreifer wählen die Reihenfolge, in der sie sie bekämpfen, und müssen <strong>2 von 3 gewinnen</strong>.</li>
+      <li><strong>Der Angreifer sieht alle drei deiner Teams</strong> — das ist der Vorteil des Angreifers, und jede Defense-Regel unten existiert, um ihn zu stumpfen.</li>
+    </ul>
+    <blockquote>Du kannst nicht verhindern, dass ein stärkerer Spieler dich schlägt. Du kannst verhindern, dass ein schwächerer Spieler dich farmt.</blockquote>
+
+    <h2 id="defense-principles">Defense: Halte alle drei gleichmäßig</h2>
+    <p>Der häufigste Defense-Fehler: die besten Helden in eine einzige Aufstellung stapeln. Der Angreifer <strong>geht einfach deinem starken Team aus dem Weg und schlägt die anderen zwei</strong> — du verlierst 2-1, ohne dass dein bester Trupp je gekämpft hat. Die Regeln:</p>
+    <ul>
+      <li><strong>Halte alle 3 Aufstellungen GLEICHMÄSSIG.</strong> Verteile die Stärke, sodass es auf dem Brett keinen Gratis-Sieg gibt.</li>
+      <li><strong>Jedes Team bekommt einen deiner 3 besten Tanks</strong> nach vorn — eine gute Frontlinie ist das, was eine mittelmäßige Aufstellung lästig zum Clearen macht.</li>
+      <li><strong>Das schwächere Team bekommt die stärkeren Helden</strong> — stütze deinen schlechtesten Slot, nicht deinen besten.</li>
+      <li><strong>Stell einen zweiten Tank dahinter</strong> — Tiefe hinter der ersten Wand zieht jeden Kampf in die Länge.</li>
+      <li><strong>Macht ist nicht alles</strong> — Komposition und Konter entscheiden Kämpfe; tune per Versuch und Irrtum, nicht nach CP-Zahl.</li>
+      <li><strong>Beobachte, wer gegen dich gewinnt und verliert</strong> — das Defense-Log sind gratis Tuning-Daten. Rebalanciere, wenn Drift auftaucht.</li>
+    </ul>
+    <p>Was gleichmäßige Defense dir wirklich kauft: sie stoppt keine Stärkeren, aber sie <strong>verhindert, dass Schwächere deinen Rang abziehen</strong> — und Rang-Defense ist, wo die Saison-Belohnungen leben.</p>
+
+    <h2 id="sacrifice-rule">Die Opfer-Matchup-Regel</h2>
+    <p>Das Matchup-Prinzip, das Angriffe gewinnt:</p>
+    <blockquote>Gegen eine gestapelte Defense: wirf deinen SCHLECHTESTEN Trupp gegen ihren BESTEN — und gewinn die anderen zwei gratis.</blockquote>
+    <p>Lies ihr Brett, finde die eine Aufstellung, die du nicht schlagen kannst, und <strong>gib sie absichtlich her</strong>. Dein Opfer-Trupp existiert, um gegen ihr Monster zu verlieren, während deine zwei besseren Trupps die zwei machbaren Kämpfe nehmen. Der Angreifer wählt die Reihenfolge — verschwende niemals deinen besten Trupp an ihrer besten Aufstellung.</p>
+
+    <h2 id="attack-rules">Angriff: Konter und Fraktions-Bonis</h2>
+    <ul>
+      <li><strong>Deine 10 besten Helden sind zwischen den oberen zwei Teams austauschbar.</strong> Baue die zwei Siege; horte keine Helden für einen dritten Kampf, den du sowieso zu verlieren planst.</li>
+      <li><strong>Konter-Matchups entscheiden Kämpfe:</strong> deine Waldläufer in ihre Waldläufer-/Krieger-Aufstellungen; deine Krieger in ihre Krieger-/Hexer-Aufstellungen.</li>
+      <li><strong>Weiche ihrer stärksten Aufstellung aus</strong> — die Opfer-Regel oben. Kämpfe nur, was du schlagen kannst.</li>
+      <li><strong>Fraktions-Bonis sind der Schlüssel</strong> — und weil <strong>du ihre Defense sehen kannst</strong>, kannst du den Fraktions-Bonus deines Konter-Teams vorm Einreihen vorbauen. Der Verteidiger kann sich nicht anpassen; du kannst es.</li>
+    </ul>
+    <p>Held-für-Held-Konter-Picks stehen im <a href="/de/heroes/">Helden-Guide</a>.</p>
+
+    <h2 id="results">Was das in der Praxis erreicht</h2>
+    <p>Verifizierte Ergebnisse von Spielern, die dieses System fahren: <strong>konsistente Top-20/40/100-Platzierungen mit mittleren Kadern, vorher von 250+</strong>. Die Arena belohnt Konsistenz über Whale-Macht — ein lesbares Konto blutet täglich Rang ab an Angreifer, die die schwache Spur sehen; ein gleichmäßiges, beobachtetes Konto hält ihn.</p>
+
+    <h2 id="arena-of-fate">Schicksals-Arena: die Fallen-Trupp-Strategie</h2>
+    <ul>
+      <li>Die Spezial-Arena-Variante läuft auf demselben 2-von-3-Format — und der <strong>„Fallen-Trupp“</strong>-Coup dreht den Sichtbarkeits-Vorteil des Angreifers um: locke mit ausgeglichen aussehenden Trupps, die weit über ihr scheinbares Gewicht hinaus zuschlagen.</li>
+      <li>Gut ausgeführt, <strong>schnappt sie hochstufige Belohnungen, einschließlich UR-Splitter</strong> — die seltene Gratis-UR-Quelle in PvP-Content.</li>
+      <li><strong>Bekannter Bug: manche Spieler bleiben auf neuen Servern ungerankt</strong> — wenn dein Rang in einer Schicksals-Saison nie auftaucht, ist es der Bug, nicht dein Spiel. Melden und aussitzen.</li>
+    </ul>
+
+    <VideoSection topic="arena" lang={lang} />
+  </GuidePage>
+</Base>

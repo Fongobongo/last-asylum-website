@@ -1,0 +1,151 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'es';
+---
+<Base lang={lang} path="/es/beginners/" title="Guía para principiantes: tus primeros días" description="Tus primeras 24 horas en Last Asylum: Plague — la checklist del primer día, el calendario de desbloqueo de héroes, bonos de facción, el escuadrón oficial inicial y los cinco errores que arruinan cuentas nuevas.">
+  <GuidePage title="Guía para principiantes: tus primeros días" description="Tus primeras 24 horas en Last Asylum: Plague — la checklist del primer día, el calendario de desbloqueo de héroes, bonos de facción, el escuadrón oficial inicial y los cinco errores que arruinan cuentas nuevas." lang={lang}>
+    <p>Last Asylum: Plague recompensa una cosa por encima de todo: el enfoque. Entre temporizadores de construcción, banners de héroes, eventos y tareas de alianza es muy fácil estar ocupado dos semanas y aun así terminar más débil que alguien que jugó tres días correctamente.</p>
+    <p>Esta guía condensa el consenso de la comunidad del Discord oficial en un manual del primer día: qué hacer en las primeras 24 horas, cuándo se desbloquea cada héroe importante, cómo funcionan realmente el Poder y las facciones, y los cinco errores que arruinan cuentas nuevas.</p>
+
+    <h2 id="first-24-hours">Primeras 24 horas: la checklist</h2>
+    <p>Recorre esta lista en orden. Todo lo demás en el juego puede esperar hasta que estas seis cosas estén hechas.</p>
+    <ol>
+      <li><strong>Únete a una alianza activa de inmediato.</strong> La ayuda de construcción reduce tus temporizadores, los eventos de alianza pagan recompensas gratis y la afiliación disuade a los atacantes. Una alianza muerta no te da nada de eso.</li>
+      <li><strong>Empuja tu Santuario.</strong> El nivel del Santuario es tu verdadero nivel de jugador — limita los tope de nivel de héroes, desbloqueos de edificios y niveles de tropas.</li>
+      <li><strong>Mantén la Cabaña del Constructor al nivel del Santuario hasta Santuario 15.</strong> Reparte aceleraciones de construcción gratis, el mayor acelerador temprano del juego.</li>
+      <li><strong>Elige solo dos o tres héroes.</strong> Cada fragmento, insignia de habilidad y poción de EXP que repartes es uno que tu escuadrón principal nunca verá.</li>
+      <li><strong>Consulta el calendario de eventos antes de gastar aceleraciones.</strong> Muchos eventos pagan recompensas por hacer lo que ibas a hacer de todos modos — aprovecha el doble beneficio.</li>
+      <li><strong>Empieza a saquear desde el día uno.</strong> El ingreso del saqueo se acumula; más adelante en el juego, un día perdido de ataques son aproximadamente 27 millones de recursos perdidos.</li>
+    </ol>
+
+    <h2 id="join-alliance">Únete a una alianza activa de inmediato</h2>
+    <p>Este es el paso uno por una razón. En una alianza activa, cada construcción e investigación que inicias se acelera cuando los aliados pulsan el botón de ayuda, lo que silenciosamente ahorra horas de temporizadores cada día.</p>
+    <p>Los eventos de alianza son la segunda fuente de ingresos del juego. El Duelo de Alianzas y eventos similares reparten fragmentos de héroes, aceleraciones y recursos por participar — pero solo si la alianza realmente los juega.</p>
+    <p>La afiliación también es protección. Los jugadores que buscan saqueo fácil comprueban a quién perteneces antes de atacar; la etiqueta de una alianza fuerte hace que la mayoría pase de largo.</p>
+    <p>Cómo evaluar una alianza antes de unirte: mira la actividad reciente de los miembros, si las solicitudes de ayuda reciben respuesta, y si la alianza juega sus eventos. Si caes en un cementerio con la lista de miembros llena y cero inicios de sesión — vete.</p>
+    <blockquote>Una alianza muerta es peor que ninguna alianza. Vete sin culpa y únete a una viva el mismo día.</blockquote>
+
+    <h2 id="sanctuary-gates">El Santuario limita todo</h2>
+    <p>El Santuario es el gran edificio central y lo más parecido que tiene el juego a un nivel de jugador. Todos los demás edificios están limitados por él, cada mejora otorga EXP, y su nivel decide qué te permite tocar el juego en absoluto.</p>
+    <ul>
+      <li>Niveles de edificios — nada en tu ciudad puede superar la puerta correspondiente del Santuario.</li>
+      <li>Tope de nivel de héroes — tus héroes no pueden superar el nivel de tu Santuario.</li>
+      <li>Niveles de tropas — los niveles superiores se desbloquean en el Campo de Entrenamiento, que a su vez está limitado por el Santuario.</li>
+      <li>Desbloqueos de funciones — talleres, la Taberna, funciones de alianza y modos de evento llegan todos en niveles fijos del Santuario.</li>
+    </ul>
+    <p>Por eso, las mejoras del Santuario se sitúan permanentemente en lo más alto de la lista de prioridades de construcción. La hoja de ruta completa está en la <a href="/es/buildings/">guía de Edificios</a>.</p>
+    <p>Una regla específica para principiantes: mantén la Cabaña del Constructor al nivel actual de tu Santuario hasta llegar a Santuario 15. Produce aceleraciones de construcción gratis, y esas aceleraciones son lo que permite mantener el empuje del Santuario sin quemar tus temporizadores guardados.</p>
+
+    <h2 id="pick-heroes">Elige solo dos o tres héroes</h2>
+    <p>Invertir en héroes en Last Asylum es brutalmente caro. Los fragmentos, insignias de habilidad, pociones de EXP y materiales de equipo escasean, y un héroe a medias no te protege de nada.</p>
+    <p>La regla de la comunidad es concentrar todos los recursos en UN escuadrón principal de cinco héroes — y al principio, antes de tener cinco que valgan la pena, eso significa que dos o tres héroes sostienen toda tu cuenta.</p>
+    <p>Concretamente: elige tus dos o tres, échalo todo en ellos, y deja que los demás se queden en el nivel que el juego les dio gratis. Un escuadrón de dos héroes bien invertidos vence a uno de cinco repartidos parejo en casi todas las peleas que realmente librarás.</p>
+    <p>Qué héroes elegir no es cuestión de gusto — el calendario de desbloqueo de abajo y la <a href="/es/heroes/">guía de Héroes</a> dan la ruta canónica.</p>
+
+    <h2 id="events-speedups">Consulta los eventos antes de gastar aceleraciones</h2>
+    <p>Las aceleraciones, recursos y diamantes no son solo monedas — también son material de puntuación de eventos. Una gran parte de los eventos pagan recompensas según cuánto consumes de algo durante la ventana del evento.</p>
+    <p>Así que el hábito que separa las buenas cuentas de las excelentes: antes de quemar una pila de aceleraciones, abre la pestaña de eventos y comprueba si hay un evento activo — o que empieza mañana — que recompense el uso de aceleraciones.</p>
+    <p>Esto es lo que los jugadores llaman el doble beneficio: la misma aceleración adelanta tu construcción Y reclama puntos de evento. Gastar la pila un martes muerto en vez de durante el evento es pagar dos veces por un solo resultado.</p>
+
+    <h2 id="start-plundering">Empieza a saquear desde el día uno</h2>
+    <p>El saqueo es tu tercera fuente de ingresos tras la producción y los eventos, y es la que la mayoría de principiantes ignora durante semanas. Cuesta solo aguante que ibas a desperdiciar de todos modos.</p>
+    <p>Las mecánicas completas — límites diarios, los umbrales del 100% / 15% / 5%, la regla de los nueve golpes, el bono de Aprovisionamiento de Guerra — están en la <a href="/es/economy/">guía de Economía</a>.</p>
+    <p>La versión del primer día es simple: ataca al objetivo más rico que puedas vencer, nunca dejes tu aguante en el tope, y no seas el jugador que llega a Santuario 20 con decenas de millones en saqueo perdido a sus espaldas. Mantenido a diario, saquear vale aproximadamente 27 millones de recursos por día más adelante en el juego.</p>
+
+    <h2 id="unlock-timeline">Calendario de desbloqueo de héroes</h2>
+    <p>El juego dosifica sus mejores héroes en un calendario fijo. Conocer el calendario por adelantado cambia completamente cómo gastas los diamantes — dejas de hacer tiradas al azar y empiezas a ahorrar para objetivos con fecha.</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Momento</th><th>Qué se desbloquea</th><th>Qué hace la comunidad</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Día 1-2</td><td>Arthur (UR) — gratis</td><td>Tu tanque del día uno. Reclámalo de inmediato.</td></tr>
+        <tr><td>Día 8</td><td>Cynthia y Shadow — Rueda de los Deseos</td><td>Cynthia cuesta unos 11,500 diamantes. Tira solo de 10x.</td></tr>
+        <tr><td>Días 36 / 43 / 57 / 64 / 72 / 85</td><td>Eventos de nuevos héroes UR</td><td>Un tramo muy pesado en diamantes — planifica reservas con antelación.</td></tr>
+        <tr><td>Día 66</td><td>Marlena — recarga de $1</td><td>Considerada universalmente la mejor compra del juego.</td></tr>
+        <tr><td>Día 120+ (Era del Renacimiento)</td><td>Daskal (tanque UR); conversión de Claire SSR a UR en el día 8 de la Era</td><td>Daskal es el mejor tanque del juego; calcula bien el momento de la conversión de Claire.</td></tr>
+      </tbody>
+    </table>
+
+    <h3 id="arthur-day-one">Arthur: días 1-2, UR gratis</h3>
+    <p>Arthur se regala a todos los jugadores en los primeros dos días, es de rareza UR, y es el mejor tanque temprano que tendrás. Como es gratis, cada fragmento que consigas para él es puro beneficio — uno de los dos héroes que merecen inversión desde el día uno.</p>
+
+    <h3 id="wishing-wheel-day-8">Cynthia y Shadow: Rueda de los Deseos del día 8</h3>
+    <p>El día 8 trae la primera Rueda de los Deseos con Cynthia y Shadow. Cynthia, la UR de daño temprana, cuesta aproximadamente 11,500 diamantes para asegurarla. Dos reglas estrictas de la comunidad: guarda tus diamantes hasta el día 8 en vez de gastarlos antes, y tira solo con tiradas de 10x — las tiradas simples desperdician diamantes en las mismas probabilidades a peor precio.</p>
+
+    <h3 id="ur-event-train">El tren de eventos UR: días 36-85</h3>
+    <p>Una cadena de eventos de nuevos héroes UR llega en los días 36, 43, 57, 64, 72 y 85. Cada uno es una oportunidad de añadir poder UR — y cada uno devora diamantes. Saber que el tren viene es la diferencia entre llegar al día 36 con un plan o llegar arruinado.</p>
+
+    <h3 id="marlena-day-66">Marlena: día 66 y la recarga de $1</h3>
+    <p>La recarga del día 66 que otorga Marlena cuesta un dólar y es llamada universalmente la mejor relación valor-precio del juego. Marlena se convierte en el motor de daño del escuadrón estándar — vale aproximadamente el 85% del daño de tu escuadrón hasta que llegue Zoya. Sáltate un café, compra la heroína.</p>
+
+    <h3 id="era-daskal-claire">Día 120+: Era del Renacimiento — Daskal y Claire</h3>
+    <p>La temporada Era del Renacimiento empieza alrededor del día 120. Trae a Daskal, el mejor tanque del juego, y en el día 8 de la Era se abre la conversión de Claire SSR a UR. Ambos eventos cambian tu escuadrón a largo plazo; los detalles de tiempo están en la <a href="/es/era/">guía de la Era del Renacimiento</a>.</p>
+
+    <h2 id="hero-might">Cómo funciona el Poder de los héroes</h2>
+    <p>El Poder de un héroe es la suma de cuatro inversiones separadas. Entender el reparto te dice exactamente dónde debería ir tu próximo recurso.</p>
+    <ul>
+      <li><strong>Nivel</strong> — EXP de pociones y juego. El componente más barato al principio.</li>
+      <li><strong>Estrellas</strong> — alimentadas con fragmentos. El mayor multiplicador individual: hay un salto de poder significativo tras 4 estrellas.</li>
+      <li><strong>Habilidades</strong> — alimentadas con insignias. El orden importa más que la cantidad; consulta la <a href="/es/heroes/">guía de Héroes</a>.</li>
+      <li><strong>Equipo</strong> — fabricado en los talleres de equipo y mejorado con materiales.</li>
+    </ul>
+    <p>El salto de las 4 estrellas es el número más importante en la planificación de héroes. Por debajo de 4 estrellas un héroe solo ocupa un puesto; por encima, el mismo héroe empieza a decidir peleas.</p>
+    <p>Y como los fragmentos, insignias y materiales de equipo escasean, la fórmula del Poder solo rinde cuando se concentra: todos los recursos van a UN escuadrón principal de cinco, en el orden en que el escuadrón realmente pelea.</p>
+
+    <h2 id="factions-counters">Facciones y contrarrestos</h2>
+    <p>Los héroes pertenecen a tres facciones — Guerrero, Guardabosques y Brujo — y el juego te paga dos veces por la disciplina de facción: un bono por acumular una sola facción, y un ciclo de contrarrestos para pelear.</p>
+    <p>Primero, el bono de acumulación. Cuantos más héroes de la misma facción despliegues, mayor el bono para todo el escuadrón:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Héroes de la misma facción en el escuadrón</th><th>Bono de escuadrón</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>3</td><td>+5% HP / ATK / DEF</td></tr>
+        <tr><td>4</td><td>+15% HP / ATK / DEF</td></tr>
+        <tr><td>5</td><td>+20% HP / ATK / DEF</td></tr>
+      </tbody>
+    </table>
+    <p>Segundo, el ciclo de contrarrestos: los Guerreros vencen a los Brujos, los Brujos vencen a los Guardabosques, los Guardabosques vencen a los Guerreros. Una formación de Guardabosques recibe 20% menos de daño de los Guerreros — por eso los escuadrones de Guardabosques de mediados de juego farmean tan bien a los defensores cargados de Guerreros.</p>
+    <p>Para armar formaciones, la conclusión es simple: elige un carril de facción, acumula hacia el bono de +20% con cinco héroes, y comprueba la facción del escuadrón enemigo antes de atacar y no después.</p>
+
+    <h2 id="early-lineup">Tu primera formación</h2>
+    <p>El escuadrón temprano recomendado oficialmente se ve así:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Fila</th><th>Héroes</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Frente</td><td>Arthur, Bella</td></tr>
+        <tr><td>Zaga</td><td>Marlena, Claire, Celia</td></tr>
+      </tbody>
+    </table>
+    <p>Arthur ancla el frente como tanque; Bella sostiene el segundo puesto delantero. Marlena es la portadora de daño del build estándar, Claire es el buffer de la retaguardia, y Celia llena el quinto puesto hasta que llegue tu escuadrón real.</p>
+    <p>Lo que importa más que los puestos exactos es el reparto de inversión dentro de esta formación: dos o tres héroes reciben todo, el resto son marcadores baratos. El reparto canónico F2P — Arthur y Claire al principio, Marlena en el día 66 — está detallado paso a paso en la <a href="/es/heroes/">guía de Héroes</a>.</p>
+
+    <h2 id="mistakes">Errores comunes al principio</h2>
+    <p>Casi toda cuenta estancada en este juego cometió uno de estos cinco errores. Ninguno es obvio desde dentro del tutorial.</p>
+
+    <h3 id="mistake-equal-upgrades">1. Mejorar todo por igual</h3>
+    <p>El instinto de otros constructores de ciudades es mantener cada edificio al mismo nivel. En Last Asylum eso produce una ciudad mediocre en todo y limitada por nada. Sigue el orden de prioridad — primero el Santuario, luego edificios militares y de investigación, todo lo demás cuando te bloquee. El orden completo y la hoja de ruta nivel por nivel están en la <a href="/es/buildings/">guía de Edificios</a>.</p>
+
+    <h3 id="mistake-judging-early">2. Juzgar héroes demasiado pronto</h3>
+    <p>Un héroe de pocas estrellas y nivel 60 se siente terrible — habilidades débiles, multiplicadores finos, sin Tenacidad. El mismo héroe con muchas estrellas es un monstruo. El ejemplo clásico es Marlena: parece decepcionante al principio y luego se convierte en aproximadamente el 85% del daño de un escuadrón estándar cuando sus estrellas y habilidades maduran. Juzga a un héroe en su punto de inflexión, no en el nivel 60 con dos estrellas.</p>
+
+    <h3 id="mistake-splitting">3. Repartir recursos entre muchos héroes</h3>
+    <p>Ocho héroes a medias pierden contra dos terminados en cada pelea que importa, y la economía de fragmentos significa que los recursos desperdiciados en rellenos no vuelven. Elige los cinco principales, nombra los dos o tres que estás construyendo este mes, y sé implacable con todo lo demás.</p>
+
+    <h3 id="mistake-stamina">4. Dejar el aguante en el tope</h3>
+    <p>El aguante que se queda en el tope es ingreso que borraste permanentemente — el juego no guarda el excedente. Gástalo en monstruos o saqueo antes de cerrar sesión, en cada sesión, desde el día uno.</p>
+
+    <h3 id="mistake-plunder">5. Perder el saqueo diario</h3>
+    <p>Mantenido a diario, saquear vale aproximadamente 27 millones de recursos por día más adelante en el juego. Si se omite, no hay mecánica de recuperación — esos recursos simplemente se pierden. Ataca al objetivo más rico que puedas vencer, respeta los umbrales del límite diario, y nunca golpees décima vez una granja. El reglamento completo del saqueo está en la <a href="/es/economy/">guía de Economía</a>.</p>
+
+    <VideoSection topic="beginner" lang={lang} />
+  </GuidePage>
+</Base>

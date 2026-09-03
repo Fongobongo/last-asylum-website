@@ -1,0 +1,70 @@
+---
+import { t } from '../i18n/ui';
+import type { Lang } from '../i18n/utils';
+import { videosFor } from '../data/videos';
+
+interface Props {
+  topic: string;
+  lang: Lang;
+}
+
+const { topic, lang } = Astro.props;
+const vids = videosFor(topic, lang as 'en' | 'ru');
+---
+
+{
+  vids.length > 0 && (
+    <section class="not-prose my-10">
+      <h2 class="mb-4 text-2xl font-bold text-plague-200">{t(lang, 'video.section')}</h2>
+      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {vids.map((v) => (
+          <div class="group overflow-hidden rounded-lg border border-stone-800 bg-stone-900 transition-colors hover:border-plague-600">
+            <button
+              class="js-video-facade relative block w-full"
+              data-video-id={v.id}
+              aria-label={v.title ?? 'Play video'}
+            >
+              <span class="block aspect-video overflow-hidden bg-stone-800">
+                <img
+                  src={`https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`}
+                  alt={v.title ?? 'Video guide'}
+                  loading="lazy"
+                  class="h-full w-full object-cover transition-transform group-hover:scale-105"
+                />
+              </span>
+              <span class="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/30 opacity-80 transition-opacity group-hover:opacity-100">
+                <span class="flex h-12 w-12 items-center justify-center rounded-full bg-blood-600/90 text-xl text-white shadow-lg">▶</span>
+              </span>
+              {v.lang === 'en' && lang !== 'en' && (
+                <span class="absolute right-2 top-2 rounded bg-black/70 px-1.5 py-0.5 text-xs font-bold text-plague-200">
+                  {t(lang, 'video.en')}
+                </span>
+              )}
+            </button>
+            <div class="p-3">
+              <p class="line-clamp-2 text-sm font-medium text-stone-200 group-hover:text-plague-200">{v.title}</p>
+              <p class="mt-1 text-xs text-stone-500">YouTube</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  )
+}
+
+<script>
+  document.querySelectorAll('.js-video-facade').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const id = (btn as HTMLElement).dataset.videoId;
+      if (!id) return;
+      const frame = document.createElement('iframe');
+      frame.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1`;
+      frame.title = 'Video guide';
+      frame.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      frame.allowFullscreen = true;
+      frame.className = 'aspect-video w-full';
+      btn.replaceWith(frame);
+      frame.focus();
+    });
+  });
+</script>

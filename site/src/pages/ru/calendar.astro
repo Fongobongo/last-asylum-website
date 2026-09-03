@@ -1,0 +1,82 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { weeklySchedule, recurring } from '../../data/calendar';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ru';
+
+const dayNames: Record<string, string> = {
+  Mon: 'Пн', Tue: 'Вт', Wed: 'Ср', Thu: 'Чт', Fri: 'Пт', Sat: 'Сб', Sun: 'Вс',
+};
+const evNames: Record<string, string> = {
+  'Falcon Tower claim day': 'День забора Falcon Tower',
+  'Save day': 'День копления',
+  'Alliance Duel finale': 'Финал Дуэли альянсов',
+  'Planning + shop reset': 'Планирование + сброс магазинов',
+};
+const recNames: Record<string, string> = {
+  'Plunder limit reset': 'Сброс лимита грабежа',
+  'Guild Wagon': 'Гильдейский вагон',
+  'Sea Fish cap (during Mythic Treasure)': 'Кап морской рыбы (Mythic Treasure)',
+  'Royal Castle Scramble': 'Королевская схватка',
+  'Survival Battle missions': 'Миссии Битвы выживания',
+  'Kingdom War': 'Война королевств (KvK)',
+  'Elixir Scramble': 'Битва за эликсир',
+  'Undead Siege': 'Осада зомби',
+  'Era of Revival season': 'Сезон Эры Возрождения',
+};
+---
+
+<Base lang={lang} path="/calendar/" title="Календарь событий" description="Недельный ритм Last Asylum: Plague — дни забора Falcon, фазы Дуэли альянсов, сбросы и регулярные события.">
+  <GuidePage
+    title="📅 Календарь событий"
+    description="Недельный ритм каждого эффективного игрока. ТОЧНЫЕ ротации отличаются по серверам — сверяйся с игровым календарём."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/ru/' }, { label: 'Календарь' }]}
+  >
+    <h2 id="weekly-rhythm">Недельный ритм</h2>
+    <div class="not-prose my-6 overflow-x-auto rounded-lg border border-stone-800">
+      <table class="w-full text-sm">
+        <thead class="bg-stone-900 text-left text-plague-300">
+          <tr><th class="p-3">День</th><th class="p-3">Событие</th><th class="p-3">Что делать</th></tr>
+        </thead>
+        <tbody>
+          {weeklySchedule.map((e) => (
+            <tr class="border-t border-stone-800">
+              <td class="p-3 font-bold text-plague-200 whitespace-nowrap">{e.icon} {dayNames[e.day] ?? e.day}</td>
+              <td class="p-3 text-stone-200 whitespace-nowrap">{evNames[e.event] ?? e.event}</td>
+              <td class="p-3 text-stone-400">{e.what}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="text-sm text-stone-500">Текст «что делать» приведён на английском — как термины в игре.</p>
+
+    <h2 id="recurring">Сбросы и регулярные расписания</h2>
+    <div class="not-prose my-6 grid gap-3 sm:grid-cols-2">
+      {recurring.map((e) => (
+        <div class="rounded-lg border border-stone-800 bg-stone-900 p-4">
+          <p class="text-sm font-bold text-plague-200">{e.icon} {recNames[e.event] ?? e.event}</p>
+          <p class="mt-0.5 text-xs text-stone-500">{e.day}</p>
+          <p class="mt-1 text-sm text-stone-400">{e.what}</p>
+        </div>
+      ))}
+    </div>
+
+    <h2 id="claim-days">Трюк очковых дней (пн/ср/пт)</h2>
+    <p>Задания Falcon Tower, выполненные, но <strong>не забранные</strong>, сохраняют красную метку и не истекают. Двойные очки — понедельник, среда и пятница:</p>
+    <ul>
+      <li>Выполни задания в воскресенье → забери в понедельник</li>
+      <li>Выполни во вторник → забери в среду</li>
+      <li>Выполни в четверг → забери в пятницу</li>
+    </ul>
+    <p><strong>Стекинг Max − 1:</strong> полностью заполненная доска заданий замирает. Выполни одно задание из максимума — таймер пойдёт дальше и появятся новые задания.</p>
+    <p class="text-sm text-stone-500">⚠️ Лимит очереди: ВСЕ задания (выполненные и нет) считаются в счётчике очереди (x/x). При полной очереди следующее задание теряется.</p>
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

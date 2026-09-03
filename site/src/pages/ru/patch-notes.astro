@@ -1,0 +1,16 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import PatchNotes from '../../components/PatchNotes.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ru';
+---
+
+<Base lang={lang} path="/patch-notes/" title="Патчноуты" description="Все техработы и обновления серверов Last Asylum: Plague — кратко, новые сверху.">
+  <GuidePage title={`📜 ${t(lang, 'patchnotes.title')}`} description={t(lang, 'patchnotes.desc')} lang={lang}>
+    <p class="mb-6 text-stone-400">Названия и содержание патчей оставлены на английском (как в игре). Краткое описание — на русском.</p>
+    <PatchNotes />
+  </GuidePage>
+</Base>

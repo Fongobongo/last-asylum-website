@@ -1,0 +1,97 @@
+﻿---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import { heroCodex } from '../../../data/heroCodex';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ru';
+
+export function getStaticPaths() {
+  return heroCodex.map((hero) => ({
+    params: { slug: hero.slug },
+    props: { hero },
+  }));
+}
+
+const { hero } = Astro.props;
+
+const L = {
+  howToGet: 'Как получить',
+  skills: 'Важные навыки',
+  build: 'Приоритеты прокачки',
+  teams: 'Заметки по составам',
+  video: 'Видео-гайд',
+  allHeroes: '← Все герои',
+};
+---
+
+<Base lang={lang} path={`/codex/${hero.slug}/`} title={`${hero.name} — гайд по герою`} description={hero.role}>
+  <GuidePage
+    title={hero.name}
+    description={hero.role}
+    lang={lang}
+    breadcrumbs={[{ label: 'Главная', href: '/ru/' }, { label: 'Кодекс героев', href: '/ru/codex/' }, { label: hero.name }]}
+  >
+    <div class="not-prose mb-6 flex flex-wrap items-center gap-2">
+      <span class={`rounded px-2.5 py-1 text-sm font-bold ${hero.tier === 'S' ? 'bg-red-900/40 text-red-300' : hero.tier === 'A' ? 'bg-amber-900/40 text-amber-300' : 'bg-sky-900/40 text-sky-300'}`}>{hero.tier} тир</span>
+      <span class="rounded bg-stone-800 px-2.5 py-1 text-sm text-plague-200">{hero.rarity}</span>
+      <span class="rounded bg-stone-800 px-2.5 py-1 text-sm text-stone-300">{hero.faction}</span>
+      <span class="rounded bg-stone-800 px-2.5 py-1 text-sm text-stone-300">{hero.className}</span>
+    </div>
+    <p class="text-sm text-stone-500">Описания навыков и советы — в переводе; названия умений и термины соответствуют английской версии игры.</p>
+
+    <h2 id="how-to-get">{L.howToGet}</h2>
+    <p>{hero.howToGet}</p>
+
+    <h2 id="skills">{L.skills}</h2>
+    <div class="not-prose my-4 space-y-3">
+      {hero.skills.map((s) => (
+        <div class="rounded-lg border border-stone-800 bg-stone-900 p-4">
+          <p class="font-bold text-plague-200">{s.name}</p>
+          <p class="mt-1 text-sm text-stone-400">{s.desc}</p>
+        </div>
+      ))}
+    </div>
+
+    <h2 id="build">{L.build}</h2>
+    <ul>
+      {hero.buildTips.map((tip) => <li>{tip}</li>)}
+    </ul>
+
+    <h2 id="teams">{L.teams}</h2>
+    <p>{hero.teamNotes}</p>
+
+    {hero.video && (
+      <div class="not-prose my-8">
+        <h2 class="mb-4 text-2xl font-bold text-plague-200">{L.video}</h2>
+        <div class="js-video-facade max-w-lg cursor-pointer" data-video-id={hero.video} role="button" tabindex="0" aria-label="Play video">
+          <span class="block aspect-video overflow-hidden rounded-lg border border-stone-800">
+            <img src={`https://i.ytimg.com/vi/${hero.video}/hqdefault.jpg`} alt="Video guide" loading="lazy" class="h-full w-full object-cover" />
+          </span>
+        </div>
+      </div>
+    )}
+
+    <p class="mt-8"><a href="/ru/codex/">{L.allHeroes}</a></p>
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>
+
+<script>
+  document.querySelectorAll('.js-video-facade').forEach((el) => {
+    el.addEventListener('click', () => {
+      const id = (el as HTMLElement).dataset.videoId;
+      if (!id) return;
+      const frame = document.createElement('iframe');
+      frame.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1`;
+      frame.title = 'Video guide';
+      frame.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      frame.allowFullscreen = true;
+      frame.className = 'aspect-video w-full max-w-lg rounded-lg';
+      el.replaceWith(frame);
+    });
+  });
+</script>

@@ -1,0 +1,138 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'es';
+---
+<Base lang={lang} path="/es/events/alliance-duel/" title="Duelo de Alianzas: guía completa" description="Seis días de categorías de puntos, una final PvP el sábado, mecánicas fase por fase con valores exactos, apilamiento de Misiones del Halcón y la economía de guardarlo todo que gana el cofre máximo.">
+  <GuidePage title="Duelo de Alianzas: guía completa" description="Seis días de categorías de puntos, una final PvP el sábado, mecánicas fase por fase con valores exactos, apilamiento de Misiones del Halcón y la economía de guardarlo todo que gana el cofre máximo." lang={lang}>
+    <p>El Duelo de Alianzas es el evento en torno al cual se construye toda la semana: seis días de competencia contra una alianza rival emparejada, con una categoría de puntos distinta cada día y una final PvP el sábado. También es el evento que decide cuánto de tu alijo deberías gastar — fragmentos, tickets, insignias y aceleraciones tienen un día de duelo donde valen el doble o más.</p>
+    <p>Esta guía cubre los requisitos de entrada, las mecánicas por fase con valores de puntos exactos, la estrategia de ahorro diaria, el apilamiento de Misiones del Halcón y cómo el duelo alimenta la Guerra de Reinos.</p>
+
+    <h2 id="what-it-is">Qué es el Duelo de Alianzas</h2>
+    <p>El Duelo de Alianzas es una <strong>competencia de alianza de 6 días</strong> dividida en fases 1 a 6, de lunes a sábado. Cada día tiene su propia categoría de puntos — un conjunto específico de acciones que gana puntos de duelo — y la alianza que puntúa más en la categoría diaria gana esa fase. El sábado, Fase 6, es la <strong>final PvP</strong> donde las dos alianzas por fin se enfrentan directamente.</p>
+    <p>También hay un formato comprimido: <strong>Survival Battle</strong>, una versión de 4 horas del duelo para alianzas que quieren la misma competencia sin la semana completa. Las mecánicas y la lógica de puntuación son idénticas — solo cambia el reloj.</p>
+    <blockquote>El duelo no se gana el día. Lo gana quien guardó los recursos correctos para la fase correcta.</blockquote>
+
+    <h2 id="entry-requirements">Requisitos de entrada y emparejamiento</h2>
+    <ul>
+      <li>Tu alianza debe ser una <strong>alianza top-32 del ranking</strong> con <strong>20 miembros o más</strong> para entrar.</li>
+      <li>En un servidor nuevo, el primer duelo llega alrededor del <strong>día 17</strong> — planifica tus dos primeras semanas en torno a ello.</li>
+      <li>Tras terminar la Fase 6 hay un <strong>descanso de 1 día</strong> antes de que empiece el siguiente ciclo.</li>
+      <li>Se cree que el emparejamiento se basa en la <strong>actividad y tasa de victorias de la alianza</strong> — las alianzas muy activas se enfrentan a otras igual de activas, no puramente por poder bruto.</li>
+    </ul>
+
+    <h2 id="weekly-structure">La semana de un vistazo</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Día</th><th>Fase</th><th>Enfoque</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Lunes</td><td>Fase 1</td><td>Categoría diaria de puntos — comprueba la pantalla del evento para las acciones exactas de puntuación</td></tr>
+        <tr><td>Martes</td><td>Fase 2</td><td>Categoría diaria de puntos — igual, las categorías rotan por día</td></tr>
+        <tr><td>Miércoles</td><td>Fase 3</td><td>Día de investigación y pergaminos</td></tr>
+        <tr><td>Jueves</td><td>Fase 4</td><td>Héroes y reclutamiento</td></tr>
+        <tr><td>Viernes</td><td>Fase 5</td><td>Entrenamiento de tropas</td></tr>
+        <tr><td>Sábado</td><td>Fase 6</td><td>Final PvP contra la alianza rival</td></tr>
+      </tbody>
+    </table>
+    <p>Las Fases 1 y 2 cambian sus categorías de ciclo a ciclo, así que lee la pantalla de evento del juego cada semana. Las Fases 3, 4 y 5 son los grandes días de planificación — donde el acopio paga — y se cubren en detalle abajo.</p>
+
+    <h2 id="phase-3">Fase 3: día de investigación y pergaminos</h2>
+    <p>La Fase 3 puntúa tu actividad de investigación, pero trae una trampa: <strong>los puntos de pergaminos solo se otorgan por pergaminos consumidos ese día.</strong> Quemar pergaminos el lunes no gana nada el miércoles.</p>
+    <p>La solución es investigar cosas que <strong>no cuestan pergaminos</strong>:</p>
+    <ul>
+      <li><strong>Investigación de héroes</strong> — valor de puntos completo, coste cero de pergaminos.</li>
+      <li><strong>Investigación de soldados</strong> — lo mismo, y se acumula hacia el valor de tropas de la Fase 5.</li>
+    </ul>
+    <p>Dos reglas de cofres completan el día:</p>
+    <ul>
+      <li><strong>Los cofres de equipo del Cuervo están promocionados</strong> durante la Fase 3 — el evento otorga puntos por <strong>abrirlos</strong>. Es el día de reventar tu alijo.</li>
+      <li><strong>Los cofres de curiosidades no dan puntos</strong> en el duelo — pero tampoco tienen presión de tiempo. Réclamelos cuando quieras; no se pierde nada por guardarlos.</li>
+    </ul>
+
+    <h2 id="phase-4">Fase 4: héroes y reclutamiento</h2>
+    <p>La Fase 4 es el día de mayor valor para activos de héroes. Los valores de puntos exactos:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Acción</th><th>Puntos</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1 fragmento UR</td><td>+20,000</td></tr>
+        <tr><td>Fragmento SSR</td><td>+7,000</td></tr>
+        <tr><td>Fragmento SR</td><td>+2,000</td></tr>
+        <tr><td>Reclutamiento</td><td>+3,450</td></tr>
+        <tr><td>Insignia de habilidad</td><td>+20</td></tr>
+      </tbody>
+    </table>
+    <p>Un solo fragmento UR vale casi seis SSR. Esa matemática gobierna toda la semana: <strong>guarda tus tickets de reclutamiento, fragmentos de héroes e insignias de habilidad para la Fase 4.</strong> Gastar fragmentos el día que los recibes es tirar el mayor multiplicador de puntos que ofrece el duelo.</p>
+
+    <h2 id="phase-5">Fase 5: entrenamiento de tropas</h2>
+    <p>La Fase 5 convierte la producción de tu cuartel en puntos:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Fuente</th><th>Puntos</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Soldado entrenado, Nivel 1</td><td>+46</td></tr>
+        <tr><td>Soldado entrenado, Nivel 10</td><td>+253</td></tr>
+        <tr><td>Impulso de Entrenamiento</td><td>+115 por minuto</td></tr>
+      </tbody>
+    </table>
+    <p>Los valores de nivel escalan entre los dos extremos — los niveles altos pagan varias veces lo que los N1, así que entrena el nivel más alto que soporte tu cuartel. Y el evento apila sus propios bonos encima para el día:</p>
+    <ul>
+      <li><strong>Todos los puntos +100%</strong> — todo lo ganado el día de la Fase 5 se duplica.</li>
+      <li><strong>Aceleraciones +30%</strong> — la eficiencia de aceleraciones se ve impulsada.</li>
+      <li><strong>Entrenamiento +30%</strong> — el propio entrenamiento corre más rápido.</li>
+    </ul>
+    <p>La conclusión es obvia: <strong>guarda tus aceleraciones de entrenamiento para la Fase 5.</strong> Una aceleración quemada un martes cualquiera vale 30% menos y gana la mitad de puntos.</p>
+
+    <h2 id="sunday-planning">Domingo: el día de preplanificación</h2>
+    <p>El día de descanso tras la Fase 6 no es día de reposo — es el día de planificar el siguiente ciclo. Antes de que arranque el nuevo duelo:</p>
+    <ol>
+      <li>Revisa tu alijo: fragmentos, tickets, insignias, aceleraciones, cofres de equipo del Cuervo, cofres de curiosidades.</li>
+      <li>Asigna cada reserva a la fase que lo paga — Fase 3, 4 o 5.</li>
+      <li>Fija la meta de la alianza: el objetivo es el <strong>cofre máximo de hitos</strong> y las mejores promociones que la plantilla pueda alcanzar.</li>
+      <li>Comprueba tu <strong>Tecnología de Duelo de Alianzas</strong> — al 100% cambia qué metas son realistas, así que el liderazgo debe saber exactamente dónde está la alianza antes de comprometerse con un objetivo.</li>
+    </ol>
+
+    <h2 id="falcon-quest-stacking">Apilamiento de Misiones del Halcón</h2>
+    <p>Las Misiones del Halcón interactúan con el duelo mediante una regla: <strong>haz las misiones cuando quieras, pero reclámalas los días de puntos dobles — lunes, miércoles y viernes.</strong> Una misión reclamada el día equivocado gana la mitad de lo que podría.</p>
+    <p>Luego el truco avanzado, la técnica <strong>Apilamiento Máx - 1</strong>:</p>
+    <ul>
+      <li>Cuando tu tablero de misiones está completamente lleno, el temporizador del tablero <strong>se congela</strong> — no llegan misiones nuevas mientras esté lleno.</li>
+      <li>Mantén el tablero en el máximo menos uno: completa una misión, y el temporizador sigue corriendo, refrescando el tablero.</li>
+      <li>El resultado es un flujo continuo de misiones en vez de uno congelado, y muchas más misiones bancadas para los días de puntos dobles.</li>
+    </ul>
+
+    <h2 id="new-server-notes">Notas para servidores nuevos</h2>
+    <p>Dos hechos de calendario que todo jugador de servidor nuevo debería conocer:</p>
+    <ul>
+      <li><strong>No hay incursiones durante las primeras 2 semanas</strong> de un servidor nuevo. El contenido de incursión empieza en la <strong>semana 3</strong> — no quemes recursos esperándolo antes.</li>
+      <li>El <strong>primer Duelo de Alianzas llega alrededor del día 17</strong>. La economía de las dos primeras semanas en las guías para principiantes está calibrada exactamente a esto: acumula, y luego ten algo que valga la pena puntuar cuando abra el primer duelo.</li>
+    </ul>
+
+    <h2 id="rewards">Recompensas y la conexión con KvK</h2>
+    <p>Los pagos del duelo llegan en dos capas:</p>
+    <ul>
+      <li><strong>Cofres de hitos</strong> — la meta de la alianza es siempre el cofre máximo. Todo lo demás es secundario.</li>
+      <li><strong>Promociones y ranking de contribución</strong> — las recompensas individuales escalan con tu contribución personal, por eso el acopio en solitario que nunca se gasta no ayuda a nadie.</li>
+    </ul>
+    <p>Y el duelo no es un evento aislado: alimenta directamente la <strong>Guerra de Reinos</strong>. <a href="/es/events/kvk/">KvK</a> y el duelo comparten fuentes de puntuación — <strong>las Operaciones Encubiertas y las Caravanas puntúan para ambos</strong>. Córrelas cada día y el mismo esfuerzo paga dos veces. La ruta completa de caravanas está en la <a href="/es/events/wagon/">guía de Guild Wagon y Caravanas</a>.</p>
+
+    <h2 id="common-mistakes">Errores comunes</h2>
+    <ol>
+      <li>Gastar fragmentos y tickets fuera de la Fase 4 — la mayor pérdida de puntos del evento.</li>
+      <li>Quemar aceleraciones de entrenamiento fuera de la Fase 5 y perder el bono del día +100%.</li>
+      <li>Consumir pergaminos para investigar en días sin pergaminos en vez de correr investigación de héroes y soldados sin pergaminos.</li>
+      <li>Reclamar Misiones del Halcón en días de puntos simples.</li>
+      <li>Dejar el tablero de misiones congelado y lleno en vez de mantenerlo a una ranura de menos.</li>
+      <li>Ignorar el descanso de 1 día tras la Fase 6 y presentarse al nuevo ciclo sin preparación.</li>
+    </ol>
+
+    <VideoSection topic="alliance_duel" lang={lang} />
+  </GuidePage>
+</Base>

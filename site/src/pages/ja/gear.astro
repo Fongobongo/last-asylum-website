@@ -1,0 +1,65 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import Infographic from '../../components/Infographic.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ja';
+---
+
+<Base lang={lang} path="/gear/" title="装備ガイド" description="Last Asylum: Plague の装備システム：URのみ製作、昇格マイルストーン、キャリーとタンクのスロット優先度、ギアストーン農業。">
+  <GuidePage
+    title="⚔️ 装備ガイド：製作、昇格、優先度"
+    description="装備システムのコミュニティルール — 何を作り、何を餌にし、何を飛ばし、素材がどこから来るのか。"
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/ja/' }, { label: '装備' }]}
+  >
+    <h2 id="cardinal-rules">基本ルール</h2>
+    <ul>
+      <li><strong>UR(オレンジ)のみ製作。</strong> 緑と青の装備は無料でドロップします — アップグレードに素材を浪費しないこと。時代遅れの低ティア装備は分解しましょう。</li>
+      <li><strong>一度に一つの部隊のみ。</strong> 早い進行のためには、第1部隊だけを完成させましょう — キャリーには剣とグローブ、タンクには胸当てとブーツ。</li>
+      <li>装備を配る時は<strong>SSRヒーローよりURヒーローが優先</strong>。</li>
+      <li>品質の梯子：<strong>金(UR) &gt; 紫(SSR) &gt; 青(SR) &gt; 緑(R) &gt; 灰色</strong>。</li>
+    </ul>
+
+    <h2 id="slot-priorities">スロット優先度</h2>
+    <table class="w-full mb-6 text-sm">
+      <tr><th>ヒーローの役割</th><th>最初</th><th>次</th><th>メモ</th></tr>
+      <tr><td>キャリー (DPS)</td><td>武器(剣)</td><td>グローブ</td><td>攻撃力 + クリティカルがダメージをスケール</td></tr>
+      <tr><td>タンク</td><td>ブーツ</td><td>胸当て</td><td>HP/DEFが前線を立たせ続ける</td></tr>
+      <tr><td>キャリー順序 (Annie/Jester)</td><td>剣 → ガントレット → 鎧 → ブーツ</td><td></td><td>ウォーロックキャリーのコミュニティ順序</td></tr>
+    </table>
+
+    <h2 id="promotion">装備の昇格 (2026年5月のシステム)</h2>
+    <p>2026年5月のアップデート以降、装備は<strong>10、20、30、40レベル</strong>でブループリントを使って<strong>昇格</strong>でき、40以降は<strong>60</strong>まで強化できます — 総素材コストは旧システムと同じまま。昇格は追加ボーナスステータスを解放し、より高い昇格ティアが装備の主要な長期目標です。</p>
+
+    <h2 id="boss-gear">ボス戦装備 (Demon King)</h2>
+    <p>反撃してこないボスに対しては、通常のルールが逆転します：</p>
+    <ul>
+      <li><strong>武器：最も高いUR剣</strong> — 「+0のUR剣は+30のSSR剣よりダメージが出る」(攻撃力 + クリティカル率がスキルの基礎値をスケール)</li>
+      <li><strong>グローブ：SSR、URではない！</strong> レベル30のSSRグローブは<strong>モンスターへのダメージ+12.25%</strong>を与え、SSRグローブの修正値は最終ダメージに適用されます — URグローブはATK(より弱い)を上げ、無用なダメージ耐性を加えます</li>
+      <li><strong>ブーツ &amp; 胸当て：ボスには無関係</strong> — どのレベルでも可</li>
+    </ul>
+
+    <h2 id="raven-gear">カラスの装備</h2>
+    <p>カラス(Raven)は専用の装備セットを持ちます(左側：HP/クリティカルダメージ軽減、右側：ATK/クリティカルダメージ)。パーセンテージバフが発動する<strong>レベル8</strong>まで押し込みましょう。<strong>カラスの装備箱は同盟決戦の日に取っておく</strong> — 開くとイベントポイントが入ります。</p>
+    <p>特殊効果セット(ナイトレイヴンマスク、レイヴンフェザークローク)は各部位の指定レベルで発動します — 2026年3月のアップデートで追加。</p>
+
+    <h2 id="materials">素材はどこから来るか</h2>
+    <ul>
+      <li><strong>装備ワークショップ</strong> — 製作 &amp; 分解；<strong>製錬ワークショップ</strong>はレベリング用のギアストーンを生産；<strong>織布ワークショップ</strong>は合成/製作用の布を生産</li>
+      <li><strong>ギアストーンの無課金農業：</strong> 安定した農業ルートが存在します(下の動画参照) — コミュニティ最大のボトルネック不満はギアストーンなので、早めに計画しましょう</li>
+      <li><strong>ショップ：</strong> 聖域と遠征ショップのギアストーン(優先度は3回購入)</li>
+      <li><strong>ブループリント：</strong> 名誉ショップのNo.1品目 — あのショップは装備ブループリントのために存在します(絶対にそこでエピグラフ箱を買わない)</li>
+    </ul>
+
+    <Infographic src="/infographics/skill-scaling.webp" alt="スキルと装備のスケーリング" caption="スキル &amp; 装備のスケーリング — ヒーローが弱く感じる理由" credit="HottChoklit" />
+
+    <VideoSection topic="gear" lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

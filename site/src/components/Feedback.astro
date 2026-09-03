@@ -1,0 +1,60 @@
+---
+interface Props {
+  lang: string;
+}
+
+const { lang } = Astro.props;
+
+const L =
+  lang === 'ru'
+    ? { title: 'Гайд помог?', yes: '👍 Да', no: '👎 Нет', thanks: 'Спасибо за отзыв!' }
+    : lang === 'es' ? { title: '¿Te sirvió esta guía?', yes: '👍 Sí', no: '👎 No', thanks: '¡Gracias!' }
+    : lang === 'pt' ? { title: 'Esta guia ajudou?', yes: '👍 Sim', no: '👎 Não', thanks: 'Obrigado!' }
+    : lang === 'fr' ? { title: 'Ce guide vous a aidé ?', yes: '👍 Oui', no: '👎 Non', thanks: 'Merci !' }
+    : lang === 'de' ? { title: 'Hat diese Anleitung geholfen?', yes: '👍 Ja', no: '👎 Nein', thanks: 'Danke!' }
+    : lang === 'id' ? { title: 'Panduan ini membantu?', yes: '👍 Ya', no: '👎 Tidak', thanks: 'Terima kasih!' }
+    : lang === 'ko' ? { title: '이 가이드가 도움이 되었나요?', yes: '👍 네', no: '👎 아니요', thanks: '감사합니다!' }
+    : lang === 'ja' ? { title: 'このガイドは役に立ちましたか？', yes: '👍 はい', no: '👎 いいえ', thanks: 'ありがとうございます！' }
+    : { title: 'Did this guide help?', yes: '👍 Yes', no: '👎 No', thanks: 'Thanks for the feedback!' };
+---
+
+<section class="not-prose my-8 rounded-xl border border-stone-800 bg-stone-900 p-4 js-feedback">
+  <p class="mb-3 text-sm font-semibold text-stone-300">{L.title}</p>
+  <div class="flex gap-2">
+    <button class="js-fb-yes rounded-lg border border-stone-700 px-4 py-2 text-sm text-stone-200 hover:border-toxic-500 hover:text-toxic-400" data-value="yes">
+      {L.yes}
+    </button>
+    <button class="js-fb-no rounded-lg border border-stone-700 px-4 py-2 text-sm text-stone-200 hover:border-blood-500 hover:text-red-400" data-value="no">
+      {L.no}
+    </button>
+  </div>
+  <p class="js-fb-thanks mt-3 hidden text-sm text-toxic-400">{L.thanks}</p>
+</section>
+
+<script>
+  document.querySelectorAll('.js-feedback').forEach((sec) => {
+    const url = window.location.pathname;
+    const track = (val: string) => {
+      const w = window as any;
+      // Umami event if analytics present, else console
+      if (w.umami) w.umami.track('guide_feedback', { path: url, value: val });
+      try {
+        localStorage.setItem(`fb:${url}`, val);
+      } catch {}
+    };
+    const thanks = sec.querySelector('.js-fb-thanks');
+    const voted = (() => {
+      try { return localStorage.getItem(`fb:${url}`); } catch { return null; }
+    })();
+    if (voted && thanks) thanks.classList.remove('hidden');
+
+    sec.querySelector('.js-fb-yes')?.addEventListener('click', () => {
+      track('yes');
+      if (thanks) thanks.classList.remove('hidden');
+    });
+    sec.querySelector('.js-fb-no')?.addEventListener('click', () => {
+      track('no');
+      if (thanks) thanks.classList.remove('hidden');
+    });
+  });
+</script>

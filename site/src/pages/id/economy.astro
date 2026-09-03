@@ -1,0 +1,130 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import PlunderCalculator from '../../components/PlunderCalculator.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+<Base lang={lang} path="/id/economy/" title="Ekonomi: Intan, Toko, Menjarah" description="Ke mana setiap intan pergi: prioritas toko VIP, jadwal restock, urutan pembelian per toko, anggaran Wishing Wheel, dan mekanik menjarah lengkap dengan batas harian per level Sanctuary.">
+  <GuidePage title="Ekonomi: Intan, Toko, Menjarah" description="Ke mana setiap intan pergi: prioritas toko VIP, jadwal restock, urutan pembelian per toko, anggaran Wishing Wheel, dan mekanik menjarah lengkap dengan batas harian per level Sanctuary." lang={lang}>
+    <p>Last Asylum: Plague menjalankan tiga ekonomi paralel: intan dan toko, menjarah harian, dan kalender event. Masing-masing punya jebakannya sendiri — pembelian intan buruk, kapasitas menjarah terbuang, stamina dibelanjakan pada efisiensi 5%. Halaman ini adalah konsensus komunitas untuk ketiganya, lengkap dengan angka pastinya.</p>
+
+    <h2 id="vip-shop">Toko VIP: Prioritas Intan</h2>
+    <p>Toko VIP menerima intan, dan sebagian besar stoknya adalah transaksi buruk. Daftar beli terverifikasi:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Prioritas</th><th>Item</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>TINGGI</td><td>UR Omnifragment, UR Antidote, Crow Essence, Percepatan 8j</td></tr>
+        <tr><td>SEDANG</td><td>Percepatan 3j, SSR Omnifragment, Percepatan 1j</td></tr>
+        <tr><td>RENDAH</td><td>SSR Antidote, Direct Relocation</td></tr>
+      </tbody>
+    </table>
+    <p>Dan aturan lengkapnya: <strong>hindari semua selain itu kecuali kebutuhan sangat mendesak.</strong> Toko ini dihargai untuk menggoda pemain tidak sabar mengubah intan menjadi item yang game bagikan lewat event — tahan garisnya.</p>
+
+    <h2 id="restock-schedule">Jadwal Restock Toko</h2>
+    <p>Semua toko restock pada hari Senin. Rencanakan minggu Anda di sekitarnya: beli semua prioritas Anda Senin saat stok penuh, jalankan penghasilan Alliance Duel dan Expedition Anda di pertengahan minggu, lalu habiskan akhir pekan memutuskan apa yang berutang refresh Senin kepada Anda. Pemain yang belanja hari Minggu membeli rak yang sudah dipetik bersih.</p>
+
+    <h2 id="sanctuary-shop">Toko Sanctuary</h2>
+    <ol>
+      <li>Crow Essence dan UR Hero Omnifragment — beli sampai maksimal.</li>
+      <li>Antidote dan SSR Omnifragment.</li>
+      <li>Gear Stone dan Recruitment Ticket.</li>
+      <li>Lencana Skill dan SR Omnifragment — hanya anggaran ekstra.</li>
+    </ol>
+
+    <h2 id="expedition-shop">Toko Expedition</h2>
+    <ol>
+      <li>UR Omnifragment dan Essence.</li>
+      <li>Expedition Chest, Inscription Fragment, dan UR Inscription Chest.</li>
+      <li>Antidote dan Gear Stone.</li>
+      <li>Percepatan, Tiket, dan 100K Crow Fruits — hanya jika perlu.</li>
+    </ol>
+
+    <h2 id="honor-shop">Toko Honor</h2>
+    <ol>
+      <li>UR Gear Blueprint, Essence, dan UR Omnifragment.</li>
+      <li>Curiosity Chest dan UR Inscription.</li>
+      <li>Semua lainnya — hanya kebutuhan mendesak.</li>
+    </ol>
+    <p>Aturan kritis khusus Honor: honor <strong>hanya untuk blueprint perlengkapan</strong>. Tidak ada peti epigraf di sini — itu bukan kelalaian yang harus diakali, itu cara mata uang ini dirancang. Belanjakan honor pada blueprint perlengkapan UR dulu dan perlakukan sisanya sebagai pengisi.</p>
+
+    <h2 id="alliance-shop">Toko Aliansi</h2>
+    <ol>
+      <li>UR Hero Omnifragment, Crow Essence, dan Direct Relocation.</li>
+      <li>Crow Evolution Guide, Shield, SR Inscription Chest, dan Fragment Bella.</li>
+      <li>Opsional: semua percepatan.</li>
+    </ol>
+
+    <h2 id="epigraph-chests">Peti Epigraf: Aturan Pengecualian</h2>
+    <p>Beli peti epigraf di setiap toko <strong>kecuali Toko Honor</strong>. Epigraf memberi makan sistem Gagak, dan epigraf UR milik Gagak hanya memberi buff pada satu faksi — di meta mono-faksi, itu menjadikan peti epigraf pembelian jangka panjang paling konsisten dalam game.</p>
+    <p>Penghasilan epigraf free-to-play itu nyata, jika Anda hadir untuk itu: 30 shard UR per hari dari Alliance Duel, plus penempaan sendiri di Epigraph Workshop, berjumlah kira-kira 1,5 epigraf UR per bulan. Sistem lengkapnya — level workshop, urutan promosi, dan aturan rarity — dibahas di <a href="/id/raven/">Panduan Gagak</a>.</p>
+
+    <h2 id="diamond-rules">Aturan Intan: Wheel, Banner, dan Tonggak</h2>
+    <ol>
+      <li><strong>Simpan sampai hari 8</strong> untuk Wishing Wheel Cynthia — dia memakan sekitar 11.500 intan. Spin 10x saja; spin tunggal membayar peluang yang sama dengan harga lebih buruk.</li>
+      <li><strong>Setelah hari 15, tabung untuk wheel Joker</strong> — event finisher PvP UR. Cadangan intan mid-game ada untuk ini.</li>
+      <li><strong>Jangan pernah membuang intan ke rekrutmen standar.</strong> Tunggu banner rate-up — mata uang sama, hero lebih baik.</li>
+      <li><strong>Jangan mengejar tonggak belanja intan kumulatif</strong> seperti Deep Sea&apos;s Gift. Membelanjakan intan hanya untuk melewati ambang hadiah berarti membeli tongjaknya, bukan nilainya.</li>
+    </ol>
+    <h3 id="best-packs">Paket Terbaik (Rentang $20-200)</h3>
+    <p>Jika Anda membelanjakan uang sama sekali, komunitas memilih tiga paket di rentang $20-200: paket Universal Speedup, paket Raven Essence, dan paket City Level-Up. Dan dari panduan pemula: top-up Marlena $1 di hari 66 tetap menjadi pembelian bernilai terbaik dalam game pada harga apa pun.</p>
+
+    <h2 id="plunder-mechanics">Menjarah: Mekanik Lengkap</h2>
+    <p>Penghasilan menjarah dibatasi batas harian, dan batas itu menskalakan dengan level Sanctuary Anda. Mengetahui ambangnya mengubah kapan Anda berhenti menyerang hari itu.</p>
+    <PlunderCalculator lang={lang} />
+    <h3 id="how-the-limit-works">Cara Kerja Batasnya</h3>
+    <ul>
+      <li>Batas menghitung Grain, Timber, dan Herbs yang dibawa pulang dari serangan.</li>
+      <li>Di bawah batas: Anda membawa sumber daya dengan efisiensi <strong>100%</strong>.</li>
+      <li>Mulai 1x batas: efisiensi turun ke <strong>15%</strong>.</li>
+      <li>Mulai 1,3x batas: efisiensi turun ke <strong>5%</strong> — itulah lantainya.</li>
+      <li>Batas di-reset setiap hari pada <strong>02:00 UTC</strong>.</li>
+      <li>Segitiga kuning di bawah Kekuatan target adalah indikator melebihi batas — periksa lewat Effect Overview, lalu Plunder Gains.</li>
+    </ul>
+    <h3 id="plunder-limits-table">Batas Harian per Level Sanctuary</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Sanctuary</th><th>Batas harian</th><th>Sanctuary</th><th>Batas harian</th><th>Sanctuary</th><th>Batas harian</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>10-12</td><td>2,5M</td><td>18</td><td>8M</td><td>24</td><td>18M</td></tr>
+        <tr><td>13</td><td>3M</td><td>19</td><td>9M</td><td>25</td><td>20M</td></tr>
+        <tr><td>14</td><td>4M</td><td>20</td><td>10M</td><td>26</td><td>22M</td></tr>
+        <tr><td>15</td><td>5M</td><td>21</td><td>12M</td><td>27</td><td>24M</td></tr>
+        <tr><td>16</td><td>6M</td><td>22</td><td>14M</td><td>28</td><td>26M</td></tr>
+        <tr><td>17</td><td>7M</td><td>23</td><td>16M</td><td>29 / 30</td><td>28M / 30M</td></tr>
+      </tbody>
+    </table>
+    <p>Polanya: +1M per level Sanctuary sampai 20, lalu +2M per level hingga batas 30M di Sanctuary 30. Dua catatan mekanis:</p>
+    <ul>
+      <li>Upgrade Sanctuary menaikkan batas Anda <strong>seketika</strong> — tanpa menunggu reset. Jika Anda dekat batas harian dan level Sanctuary sudah dekat, selesaikan itu dulu dan jarah setelahnya.</li>
+      <li>Skill War Supply dari pohon spesialis Legion Commander (Era Kebangkitan) menaikkan batas sebesar +6 / +14 / +24 / +36 / +50% di level skill 1-5. Lihat <a href="/id/era/">Panduan Era</a>.</li>
+    </ul>
+
+    <h2 id="nine-hit-rule">Aturan Sembilan Serangan</h2>
+    <p>Jangan pernah menyerang farm yang sama lebih dari sembilan kali berturut-turut. Serangan kesepuluh menghancurkan kotanya langsung dan memindahkan pemiliknya ke tempat lain — Anda kehilangan farmnya, dan pemain itu kehilangan kotanya. Sembilan serangan adalah plafon; komunitas memperlakukannya sebagai kewajiban, bukan saran.</p>
+
+    <h2 id="stamina-math">Matematika Stamina: Mengapa Menjarah Melebihi Batas Gagal</h2>
+    <p>Membelanjakan stamina pada menjarah melebihi batas adalah salah satu transaksi terburuk dalam game:</p>
+    <ul>
+      <li>Pada efisiensi 15%, setiap poin stamina menghasilkan kira-kira <strong>7x lebih sedikit</strong> dari biasanya.</li>
+      <li>Pada efisiensi 5%, kira-kira <strong>20x lebih sedikit</strong>.</li>
+      <li>Stamina yang sama dibelanjakan pada monster menghasilkan <strong>nilai penuh terlepas</strong> dari status menjarah Anda.</li>
+    </ul>
+    <p>Jadi ritme hariannya menulis dirinya sendiri: serang target terkaya yang bisa Anda kalahkan duluan saat masih di 100%, berhenti menyerang farm begitu Anda melewati batas, dan buang sisa stamina Anda ke monster. Dan dalam jendela menjarah Anda, selalu serang target terkaya duluan — batasnya datang juga apa pun yang terjadi, jadi isilah dengan angka terbesar yang tersedia.</p>
+
+    <h2 id="caravans-covert-ops">Karavan dan Covert Ops: Selalu Jalankan Keduanya</h2>
+    <p>Karavan dan Covert Ops adalah sistem terpisah dari menjarah, dan mereka menghindari semua restriksi di atas: tanpa batas menjarah, tanpa kehilangan pasukan nyata, tanpa biaya stamina. Mereka keuntungan murni, itulah mengapa aturan komunitasnya menjalankan keduanya setiap hari.</p>
+    <ul>
+      <li><strong>Karavan</strong> — penghasilan dagang otomatis Anda. Jaga mereka terus bergerak.</li>
+      <li><strong>Covert Ops</strong> — Anda bisa menjarah Covert Ops hingga 5 pemain lain per hari. Covert Ops Emas memberikan hadiah terbaik — selalu ambil yang emas saat Anda melihatnya.</li>
+    </ul>
+
+    <VideoSection topic="economy" lang={lang} />
+  </GuidePage>
+</Base>

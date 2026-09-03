@@ -1,0 +1,138 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+<Base lang={lang} path="/id/events/alliance-duel/" title="Alliance Duel: Panduan Lengkap" description="Enam hari kategori poin, final PvP hari Sabtu, mekanik fase demi fase dengan nilai poin pasti, penumpukan Falcon Quest, dan ekonomi simpan-segalanya yang memenangkan peti teratas.">
+  <GuidePage title="Alliance Duel: Panduan Lengkap" description="Enam hari kategori poin, final PvP hari Sabtu, mekanik fase demi fase dengan nilai poin pasti, penumpukan Falcon Quest, dan ekonomi simpan-segalanya yang memenangkan peti teratas." lang={lang}>
+    <p>Alliance Duel adalah event yang seluruh minggunya dibangun di sekelilingnya: enam hari kompetisi melawan aliansi rival yang sepadan, dengan kategori poin berbeda setiap hari dan final PvP hari Sabtu. Ini juga event yang menentukan berapa banyak dari timbunan Anda yang layak dibelanjakan — shard, tiket, lencana dan percepatan semua punya hari duel di mana nilainya berlipat dua atau lebih.</p>
+    <p>Panduan ini membahas syarat masuk, mekanik fase dengan nilai poin pasti, strategi menabung harian, penumpukan Falcon Quest, dan bagaimana duel ini mengalir ke Kingdom War.</p>
+
+    <h2 id="what-it-is">Apa itu Alliance Duel</h2>
+    <p>Alliance Duel adalah <strong>kompetisi aliansi 6 hari</strong> yang terbagi menjadi fase 1 sampai 6, berjalan Senin sampai Sabtu. Setiap hari punya kategori poinnya sendiri — serangkaian tindakan spesifik yang menghasilkan poin duel — dan aliansi yang mencetak lebih banyak dalam kategori harian memenangkan fase itu. Sabtu, Fase 6, adalah <strong>final PvP</strong> tempat kedua aliansi akhirnya saling bertarung langsung.</p>
+    <p>Ada juga format terkompresi: <strong>Survival Battle</strong>, versi duel 4 jam untuk aliansi yang menginginkan kompetisi yang sama tanpa minggu penuh. Mekanik dan logika skornya identik — hanya jamnya yang berubah.</p>
+    <blockquote>Duel tidak dimenangkan pada harinya. Duel dimenangkan oleh siapa pun yang menyimpan sumber daya yang tepat untuk fase yang tepat.</blockquote>
+
+    <h2 id="entry-requirements">Syarat Masuk dan Matchmaking</h2>
+    <ul>
+      <li>Aliansi Anda harus <strong>aliansi peringkat top-32</strong> dengan <strong>20 anggota atau lebih</strong> untuk masuk.</li>
+      <li>Di server baru-baru ini, duel pertama berjalan sekitar <strong>hari 17</strong> — rencanakan dua minggu pembukaan Anda di sekitarnya.</li>
+      <li>Setelah Fase 6 berakhir ada <strong>jeda 1 hari</strong> sebelum siklus berikutnya dimulai.</li>
+      <li>Matchmaking dipercaya berdasarkan <strong>aktivitas aliansi dan tingkat kemenangan</strong> — aliansi yang sangat aktif dipasangkan dengan yang sama-sama aktif, bukan murni kekuatan mentah.</li>
+    </ul>
+
+    <h2 id="weekly-structure">Sekilas Minggu</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Hari</th><th>Fase</th><th>Fokus</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Senin</td><td>Fase 1</td><td>Kategori poin harian — periksa layar event untuk tindakan skor pastinya</td></tr>
+        <tr><td>Selasa</td><td>Fase 2</td><td>Kategori poin harian — sama, kategorinya berganti per hari</td></tr>
+        <tr><td>Rabu</td><td>Fase 3</td><td>Hari riset dan scroll</td></tr>
+        <tr><td>Kamis</td><td>Fase 4</td><td>Hero dan rekrutmen</td></tr>
+        <tr><td>Jumat</td><td>Fase 5</td><td>Pelatihan pasukan</td></tr>
+        <tr><td>Sabtu</td><td>Fase 6</td><td>Final PvP melawan aliansi rival</td></tr>
+      </tbody>
+    </table>
+    <p>Fase 1 dan 2 mengganti kategorinya dari siklus ke siklus, jadi baca layar event dalam game setiap minggu. Fase 3, 4 dan 5 adalah hari-hari perencanaan besar — hari-hari di mana menimbun membayar — dan dibahas detailnya di bawah.</p>
+
+    <h2 id="phase-3">Fase 3: Hari Riset dan Scroll</h2>
+    <p>Fase 3 menilai aktivitas riset Anda, tetapi punya jebakan bawaan: <strong>poin scroll hanya diberikan untuk scroll yang dikonsumsi pada hari itu.</strong> Membakar scroll hari Senin tidak menghasilkan apa pun hari Rabu.</p>
+    <p>Solusinya adalah meriset hal yang <strong>tidak memakan scroll</strong>:</p>
+    <ul>
+      <li><strong>Riset hero</strong> — nilai poin penuh, nol biaya scroll.</li>
+      <li><strong>Riset prajurit</strong> — keuntungan yang sama, dan berbunga ke nilai pasukan Fase 5.</li>
+    </ul>
+    <p>Dua aturan peti melengkapi harinya:</p>
+    <ul>
+      <li><strong>Peti perlengkapan Gagak dipromosikan</strong> selama Fase 3 — event memberikan poin untuk <strong>membuka</strong> peti itu. Inilah hari untuk membuka timbunan Anda.</li>
+      <li><strong>Peti curio tidak memberi poin</strong> dalam duel — tetapi mereka juga tanpa tekanan waktu. Klaim kapan pun Anda mau; tidak ada yang hilang dengan menyimpannya.</li>
+    </ul>
+
+    <h2 id="phase-4">Fase 4: Hero dan Rekrutmen</h2>
+    <p>Fase 4 adalah hari bernilai tertinggi untuk aset hero. Nilai poin pastinya:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Tindakan</th><th>Poin</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1 shard UR</td><td>+20.000</td></tr>
+        <tr><td>Shard SSR</td><td>+7.000</td></tr>
+        <tr><td>Shard SR</td><td>+2.000</td></tr>
+        <tr><td>Rekrutmen</td><td>+3.450</td></tr>
+        <tr><td>Lencana skill</td><td>+20</td></tr>
+      </tbody>
+    </table>
+    <p>Satu shard UR saja bernilai hampir enam SSR. Matematika itu mendorong seluruh minggunya: <strong>simpan tiket rekrutmen, shard hero dan lencana skill Anda untuk Fase 4.</strong> Membelanjakan shard di hari Anda mendapatkannya berarti membuang pengali poin tunggal terbesar yang ditawarkan duel.</p>
+
+    <h2 id="phase-5">Fase 5: Pelatihan Pasukan</h2>
+    <p>Fase 5 mengubah keluaran barracks Anda menjadi poin:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Sumber</th><th>Poin</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Prajurit terlatih, Tier 1</td><td>+46</td></tr>
+        <tr><td>Prajurit terlatih, Tier 10</td><td>+253</td></tr>
+        <tr><td>Training Boost</td><td>+115 per menit</td></tr>
+      </tbody>
+    </table>
+    <p>Nilai tier menskalakan di antara dua titik ujung itu — tier lebih tinggi membayar beberapa kali lipat dari T1, jadi latih tier tertinggi yang barracks Anda dukung. Dan event menumpuk bonusnya sendiri di atasnya untuk harinya:</p>
+    <ul>
+      <li><strong>Semua poin +100%</strong> — semua yang didapat di hari Fase 5 digandakan.</li>
+      <li><strong>Percepatan +30%</strong> — efisiensi percepatan didongkrak.</li>
+      <li><strong>Pelatihan +30%</strong> — pelatihannya sendiri berjalan lebih cepat.</li>
+    </ul>
+    <p>Kesimpulannya jelas: <strong>simpan percepatan pelatihan Anda untuk Fase 5.</strong> Percepatan yang dibakar di Selasa acak bernilai 30% lebih rendah dan menghasilkan setengah poin.</p>
+
+    <h2 id="sunday-planning">Minggu: Hari Pra-Perencanaan</h2>
+    <p>Hari jeda setelah Fase 6 bukan hari istirahat — itu hari perencanaan untuk siklus berikutnya. Sebelum duel baru dimulai:</p>
+    <ol>
+      <li>Periksa timbunan Anda: shard, tiket, lencana, percepatan, peti perlengkapan Gagak, peti curio.</li>
+      <li>Tugaskan setiap stok ke fase yang membayarnya — Fase 3, 4 atau 5.</li>
+      <li>Tetapkan target aliansi: tujuannya adalah <strong>peti tonggak maksimal</strong> dan promosi teratas yang jajaran bisa capai.</li>
+      <li>Periksa <strong>Alliance Duel Technology</strong> Anda — di 100% itu mengubah target apa yang realistis, jadi pimpinan harus tahu tepat di mana posisi aliansi sebelum berkomitmen ke target.</li>
+    </ol>
+
+    <h2 id="falcon-quest-stacking">Penumpukan Falcon Quest</h2>
+    <p>Falcon Quest berinteraksi dengan duel lewat satu aturan: <strong>kerjakan quest kapan pun Anda mau, tetapi klaim di hari poin-ganda — Senin, Rabu dan Jumat.</strong> Quest yang diklaim di hari yang salah menghasilkan setengah dari yang seharusnya.</p>
+    <p>Lalu trik lanjutannya, teknik <strong>Stacking Max - 1</strong>:</p>
+    <ul>
+      <li>Ketika papan quest Anda penuh seluruhnya, timer papan <strong>membeku</strong> — tidak ada quest baru tiba selagi papan penuh.</li>
+      <li>Jaga papan di maksimal dikurangi satu saja: selesaikan satu quest, dan timer terus berjalan, menyegarkan papan.</li>
+      <li>Hasilnya adalah pipeline quest berkelanjutan alih-alih yang beku, dan jauh lebih banyak quest tertabung untuk hari-hari poin-ganda.</li>
+    </ul>
+
+    <h2 id="new-server-notes">Catatan Server Baru</h2>
+    <p>Dua fakta kalender yang perlu diketahui setiap pemain server baru:</p>
+    <ul>
+      <li><strong>Tidak ada raid selama 2 minggu pertama</strong> di server baru. Konten raid dimulai di <strong>minggu 3</strong> — jangan bakar sumber daya mengharapkannya lebih awal.</li>
+      <li><strong>Alliance Duel pertama mendarat sekitar hari 17</strong>. Ekonomi dua-minggu-pembukaan di panduan pemula disetel tepat ke ini: bangun dulu, lalu punya sesuatu yang bernilai dicetak saat duel pertama dibuka.</li>
+    </ul>
+
+    <h2 id="rewards">Hadiah dan Koneksi KvK</h2>
+    <p>Pembayaran duel datang dalam dua lapis:</p>
+    <ul>
+      <li><strong>Peti tonggak</strong> — target aliansi selalu peti maksimal. Semua lainnya sekunder.</li>
+      <li><strong>Promosi dan peringkat kontribusi</strong> — hadiah individu menskalakan dengan kontribusi pribadi Anda, itulah mengapa menimbun sendirian yang tak pernah dibelanjakan tidak menolong siapa pun.</li>
+    </ul>
+    <p>Dan duel ini bukan event terisolasi: dia mengalir langsung ke <strong>Kingdom War</strong>. <a href="/id/events/kvk/">KvK</a> dan duel berbagi sumber skor — <strong>Covert Ops dan Karavan mencetak skor untuk keduanya</strong>. Jalankan setiap hari dan upaya yang sama membayar dua kali. Rute karavan lengkap dibahas di <a href="/id/events/wagon/">Panduan Guild Wagon dan Karavan</a>.</p>
+
+    <h2 id="common-mistakes">Kesalahan Umum</h2>
+    <ol>
+      <li>Membelanjakan shard dan tiket di luar Fase 4 — kerugian poin tunggal terbesar dalam event ini.</li>
+      <li>Membakar percepatan pelatihan di luar Fase 5 dan kehilangan bonus hari +100%.</li>
+      <li>Mengonsumsi scroll untuk riset di hari bukan-scroll alih-alih menjalankan riset hero dan prajurit tanpa scroll.</li>
+      <li>Mengklaim Falcon Quest di hari poin-tunggal.</li>
+      <li>Membiarkan papan quest membeku dalam keadaan penuh alih-alih menjaganya satu slot kosong.</li>
+      <li>Mengabaikan jeda 1 hari setelah Fase 6 dan datang ke siklus baru tanpa persiapan.</li>
+    </ol>
+
+    <VideoSection topic="alliance_duel" lang={lang} />
+  </GuidePage>
+</Base>

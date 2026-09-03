@@ -1,0 +1,65 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import Infographic from '../../components/Infographic.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'fr';
+---
+
+<Base lang={lang} path="/fr/gear/" title="Guide de l&apos;équipement" description="Système d&apos;équipement de Last Asylum: Plague : ne fabriquez que de l&apos;UR, jalons de promotion, priorités d&apos;emplacements pour les carries et les tanks, et farm de pierres d&apos;équipement.">
+  <GuidePage
+    title="⚔️ Guide de l&apos;équipement : fabriquer, promouvoir, prioriser"
+    description="Les règles de la communauté du système d&apos;équipement — quoi fabriquer, quoi démonter, quoi ignorer, et d&apos;où viennent les matériaux."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/fr/' }, { label: 'Équipement' }]}
+  >
+    <h2 id="cardinal-rules">Les règles cardinales</h2>
+    <ul>
+      <li><strong>Fabriquez uniquement de l&apos;UR (orange).</strong> L&apos;équipement vert et bleu tombe gratuitement — ne gaspillez jamais de matériaux pour l&apos;améliorer. Démontez l&apos;équipement obsolète de faible rareté.</li>
+      <li><strong>Une escouade à la fois.</strong> Pour progresser vite, équipez uniquement l&apos;Escouade 1 — épées et gants pour les carries, plastrons et bottes pour les tanks.</li>
+      <li><strong>Les héros UR avant les héros SSR</strong> lors de la distribution de l&apos;équipement.</li>
+      <li>Échelle de qualité : <strong>Or (UR) &gt; Violet (SSR) &gt; Bleu (SR) &gt; Vert (R) &gt; Gris</strong>.</li>
+    </ul>
+
+    <h2 id="slot-priorities">Priorités des emplacements</h2>
+    <table class="w-full mb-6 text-sm">
+      <tr><th>Rôle du héros</th><th>Premier</th><th>Second</th><th>Notes</th></tr>
+      <tr><td>Carry (DPS)</td><td>Arme (épée)</td><td>Gants</td><td>Attaque + critique font monter votre dégât</td></tr>
+      <tr><td>Tank</td><td>Bottes</td><td>Plastron</td><td>HP/DEF gardent la ligne de front debout</td></tr>
+      <tr><td>Ordre des carries (Annie/Jester)</td><td>Épée → Gantelets → Armure → Bottes</td><td></td><td>Ordre de la communauté pour les carries warlock</td></tr>
+    </table>
+
+    <h2 id="promotion">Promotion d&apos;équipement (le système de mai 2026)</h2>
+    <p>Depuis la mise à jour de mai 2026, l&apos;équipement peut être <strong>promu</strong> avec des Plans aux niveaux <strong>10, 20, 30 et 40</strong>, et amélioré au-delà de 40 jusqu&apos;à <strong>60</strong> — le coût total en matériaux reste identique à l&apos;ancien système. Les promotions débloquent des statistiques bonus supplémentaires ; les paliers de promotion supérieurs sont le principal objectif d&apos;équipement à long terme.</p>
+
+    <h2 id="boss-gear">Équipement anti-boss (Roi Démon)</h2>
+    <p>Contre des boss qui ne ripostent pas, les règles normales s&apos;inversent :</p>
+    <ul>
+      <li><strong>Armes : les plus hautes épées UR</strong> — « une épée UR +0 fait plus de dégâts qu&apos;une épée SSR +30 » (attaque + chance de critique amplifient les bases des compétences)</li>
+      <li><strong>Gants : SSR, PAS UR !</strong> Les gants SSR au niveau 30 donnent <strong>+12.25% de dégâts aux monstres</strong>, et les modificateurs des gants SSR s&apos;appliquent au dégât FINAL — les gants UR boostent l&apos;ATQ (plus faible) et ajoutent une résistance aux dégâts inutile</li>
+      <li><strong>Bottes et plastron : sans importance</strong> contre les boss — n&apos;importe quel niveau convient</li>
+    </ul>
+
+    <h2 id="raven-gear">Équipement du Corbeau</h2>
+    <p>Le Corbeau a son propre set d&apos;équipement (côté gauche : HP/réduction de dégâts critiques, côté droit : ATQ/dégâts critiques). Poussez-le vers le <strong>niveau 8</strong>, là où les bonus en pourcentage s&apos;activent. <strong>Gardez les coffres d&apos;équipement du Corbeau pour les jours de Duel d&apos;Alliance</strong> — les ouvrir rapporte des points d&apos;événement.</p>
+    <p>Les sets à effet spécial (Masque du Corbeau Nocturne, Cape de Plumes de Corbeau) s&apos;activent aux niveaux désignés de leurs pièces — ajoutés dans la mise à jour de mars 2026.</p>
+
+    <h2 id="materials">D&apos;où viennent les matériaux</h2>
+    <ul>
+      <li><strong>Atelier d&apos;Équipement</strong> — fabrication et démontage ; la <strong>Fonderie</strong> produit la pierre d&apos;équipement pour le leveling ; l&apos;<strong>Atelier de Tissage</strong> produit le tissu pour fusionner/fabriquer</li>
+      <li><strong>Farm F2P de pierres :</strong> une route de farm régulière existe (voir la vidéo ci-dessous) — le principal goulot d&apos;étranglement signalé par la communauté est la pierre d&apos;équipement, planifiez-la tôt</li>
+      <li><strong>Boutiques :</strong> Pierres d&apos;Équipement dans les boutiques du Sanctuaire et de l&apos;Expédition (priorité : 3 achats)</li>
+      <li><strong>Plans :</strong> l&apos;article n.º 1 de la boutique d&apos;Honneur — cette boutique existe pour les plans d&apos;équipement (jamais de coffres d&apos;épigraphes là-bas)</li>
+    </ul>
+
+    <Infographic src="/infographics/skill-scaling.webp" alt="Scaling des compétences et de l&apos;équipement" caption="Scaling compétences et équipement — pourquoi les héros semblent faibles" credit="HottChoklit" />
+
+    <VideoSection topic="gear" lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

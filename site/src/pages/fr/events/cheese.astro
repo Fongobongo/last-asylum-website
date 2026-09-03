@@ -1,0 +1,73 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'fr';
+---
+<Base lang={lang} path="/fr/events/cheese/" title="Cheese Trap : récompenses maximales" description="Le rallye d&apos;alliance contre le rat géant : récompenses personnelles en cinq phases, le pool de PV partagé de l&apos;alliance, pourquoi l&apos;ordre d&apos;entrée ne compte pas, et le calcul de mise à l&apos;échelle qui décide quel rat affronter.">
+  <GuidePage title="Cheese Trap : récompenses maximales" description="Le rallye d&apos;alliance contre le rat géant : récompenses personnelles en cinq phases, le pool de PV partagé de l&apos;alliance, pourquoi l&apos;ordre d&apos;entrée ne compte pas, et le calcul de mise à l&apos;échelle qui décide quel rat affronter." lang={lang}>
+    <p>Cheese Trap est un <strong>événement PvE de rallye d&apos;alliance</strong> contre un rat géant. Vos dégâts personnels rapportent des récompenses personnelles sur cinq phases, et les dégâts totaux de l&apos;alliance rapportent des récompenses d&apos;alliance séparées. On dirait un pur événement de puissance — c&apos;est en réalité un événement de planification, et la différence vaut plusieurs paliers de récompenses.</p>
+    <p>Ce guide couvre les deux pistes de récompenses, la règle du point d&apos;arrêt, la mise à l&apos;échelle par niveau, et comment lire les classements avant que votre alliance s&apos;engage sur un rat.</p>
+
+    <h2 id="how-it-works">Comment ça fonctionne</h2>
+    <ul>
+      <li>Un <strong>R4 ou R5 fixe le départ</strong>. Depuis ce clic, l&apos;alliance a <strong>environ 1,5 heure pour attaquer</strong>.</li>
+      <li><strong>Cheese Trap I et II ne diffèrent que par le temps</strong> — même rat, mêmes règles, fenêtre différente. Choisissez celle qui colle à votre planning.</li>
+      <li><strong>Vous ne pouvez affronter qu&apos;UN des deux rats.</strong> Pas de répartition de troupes entre les deux.</li>
+      <li><strong>La participation hors ligne fonctionne</strong> — rejoignez le rallye à l&apos;avance et vos escouades combattent même si vous vous déconnectez. Réglez votre marche avant l&apos;ouverture de la fenêtre, puis vivez votre vie.</li>
+    </ul>
+
+    <h2 id="two-reward-tracks">Les deux pistes de récompenses</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Piste</th><th>Basée sur</th><th>Récompenses</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Personnelle</td><td>Vos propres dégâts</td><td>5 phases de récompenses croissantes</td></tr>
+        <tr><td>Alliance</td><td>Dégâts totaux de l&apos;alliance</td><td>Paliers de récompenses pour toute l&apos;alliance</td></tr>
+      </tbody>
+    </table>
+    <p>L&apos;interaction entre les pistes est la partie importante :</p>
+    <ul>
+      <li><strong>STOP après votre Phase 5 personnelle.</strong> Les dégâts au-delà sont une pure perte de troupes — zéro récompense personnelle en plus pour les troupes brûlées.</li>
+      <li><strong>Les deux rats partagent un pool de PV pour les récompenses d&apos;alliance.</strong> Si un joueur atteint la Phase 5 sur un rat et un autre s&apos;arrête à la Phase 3 sur l&apos;autre, le total d&apos;alliance compte comme si tous avaient atteint la <strong>Phase 5</strong>. Le pool — pas la phase — est ce qui compte.</li>
+    </ul>
+
+    <h2 id="rally-mechanics">Mécaniques du rallye : ce qui compte vraiment</h2>
+    <ul>
+      <li><strong>Rejoindre un rallye de R4/R5 accorde +2.5% d&apos;attaque.</strong> Rejoignez le rallye au lieu de marcher en solo. À chaque fois.</li>
+      <li><strong>La force de l&apos;initiateur et l&apos;ordre d&apos;entrée ont un effet ZÉRO sur vos dégâts.</strong> Rejoindre en premier ne frappe pas plus fort ; rejoindre en dernier ne profite pas. Arrêtez de vous battre pour la place — ça ne change rien.</li>
+      <li><strong>Chaque troupe inflige des dégâts.</strong> Le pool de PV du rat est énorme, et aucun gros bill ne peut l&apos;épuiser — une marche complète de troupes bon marché fait plus de dégâts qu&apos;une demi-marche de troupes chères. Amenez des corps, pas juste des élites.</li>
+    </ul>
+
+    <h2 id="level-scaling">Mise à l&apos;échelle par niveau : quel rat affronter</h2>
+    <p>La décision de niveau a une règle nette :</p>
+    <blockquote>La Phase 4 du rat du niveau suivant est marginalement meilleure que la Phase 5 du niveau précédent — et paie de meilleures récompenses totales.</blockquote>
+    <p>En pratique :</p>
+    <ul>
+      <li>Les alliances établies jouent <strong>niveau 7 ou 8</strong>.</li>
+      <li><strong>Proche d&apos;un jour de KvK, choisissez le niveau 7</strong> — vous voulez des troupes vivantes pour la <a href="/fr/events/kvk/">guerre</a>, et la récompense marginale du niveau 8 ne vaut pas les pertes supplémentaires.</li>
+    </ul>
+    <p>Avant de vous engager, <strong>vérifiez les classements</strong> : comptez les joueurs atteignant la Phase 5 sur le rat niveau 6 contre les joueurs atteignant la Phase 4+ sur le 7. Si plus de votre effectif passe P4 sur le 7 que P5 sur le 6, le rat supérieur est le meilleur choix.</p>
+    <h3 id="rewards-table">Lire la table de récompenses en jeu</h3>
+    <p>La table complète est dans le jeu : <strong>Événement spécial &gt; onglet Cheese Trap &gt; bouton Cadeau &gt; Récompenses</strong>. Lisez-la avant l&apos;ouverture du rat — la comparaison phase par phase vous dit exactement où tombe le point d&apos;arrêt de votre effectif.</p>
+
+    <h2 id="team-setup">Configuration de l&apos;équipe</h2>
+    <p>Priorités d&apos;escouade pour un long combat de boss :</p>
+    <ul>
+      <li><strong>Survivabilité + DPS soutenu + synergie.</strong> Le rat est un marathon, pas un test de rafale.</li>
+      <li><strong>Frontline tanky</strong> — des héros qui tiennent tout le combat.</li>
+      <li><strong>Backline puissante</strong> — le moteur de dégâts derrière la frontline.</li>
+      <li><strong>Soutien-soigneur</strong> — garde la frontline en vie, ce qui garde la backline en sécurité, ce qui garde les dégâts qui coulent.</li>
+    </ul>
+    <p>Les choix spécifiques de héros et synergies de faction sont dans le <a href="/fr/heroes/">guide des Héros</a>.</p>
+
+    <h2 id="whale-carry">L&apos;option du whale qui porte</h2>
+    <p>Si votre alliance a un gros bill, il existe un schéma efficace d&apos;endgame : <strong>2-3 rallyes suffisent pour maximiser les récompenses d&apos;alliance</strong> quand le whale porte les dégâts. Tout le monde rejoint le rallye pour les +2.5%, y dépose ses troupes, et s&apos;arrête à sa Phase 5 personnelle. Les dégâts du whale remplissent le pool partagé ; le palier d&apos;alliance se remplit ; personne ne brûle de troupes au-delà de son propre point d&apos;arrêt.</p>
+
+    <VideoSection topic="cheese" lang={lang} />
+  </GuidePage>
+</Base>

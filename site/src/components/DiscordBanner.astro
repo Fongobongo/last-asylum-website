@@ -1,0 +1,36 @@
+---
+import { t } from '../i18n/ui';
+import type { Lang } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const DISCORD_INVITE = 'https://discord.gg/2PYWRyNtmU';
+
+const text =
+  lang === 'ru'
+    ? { title: 'Обсудить в сообществе', desc: 'Официальный Discord Last Asylum: Plague — гайды, помощь, коды первыми.' }
+    : lang === 'es' ? { title: 'Únete a la comunidad', desc: 'Discord oficial de Last Asylum: Plague — guías, ayuda y códigos primero.' }
+    : lang === 'pt' ? { title: 'Junte-se à comunidade', desc: 'Discord oficial — guias, ajuda e códigos em primeira mão.' }
+    : lang === 'fr' ? { title: 'Rejoindre la communauté', desc: 'Discord officiel — guides, aide et codes en avant-première.' }
+    : lang === 'de' ? { title: 'Community beitreten', desc: 'Offizieller Discord — Guides, Hilfe und Codes zuerst.' }
+    : lang === 'id' ? { title: 'Gabung komunitas', desc: 'Discord resmi — panduan, bantuan, dan kode paling awal.' }
+    : lang === 'ko' ? { title: '커뮤니티 참여', desc: '공식 디스코드 — 가이드, 도움, 코드를 가장 먼저.' }
+    : lang === 'ja' ? { title: 'コミュニティに参加', desc: '公式Discord — ガイド、サポート、コードをいち早く。' }
+    : { title: 'Join the community', desc: 'Official Last Asylum: Plague Discord — guides, help and codes first.' };
+---
+
+<a
+  href={DISCORD_INVITE}
+  target="_blank"
+  rel="noopener noreferrer"
+  class="not-prose my-8 flex items-center gap-4 rounded-xl border border-indigo-800/60 bg-indigo-950/40 p-5 transition-colors hover:border-indigo-600"
+>
+  <span class="text-3xl">💬</span>
+  <span>
+    <span class="block font-bold text-indigo-300">{text.title} ↗</span>
+    <span class="mt-0.5 block text-sm text-stone-400">{text.desc}</span>
+  </span>
+</a>

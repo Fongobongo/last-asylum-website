@@ -1,0 +1,23 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import GiftCodes from '../../components/GiftCodes.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+
+<Base lang={lang} path="/de/codes/" title="Geschenkcodes" description="Aktive und historische Geschenkcodes für Last Asylum: Plague — nach jedem offiziellen Drop aktualisiert.">
+  <GuidePage title="🎁 Geschenkcodes" description="Aktive und historische Geschenkcodes für Last Asylum: Plague — nach jedem offiziellen Drop aktualisiert. Löse sie im Spiel ein (Avatar → Einstellungen → Geschenkcode) oder über die offizielle Web-Einlösungsseite für iOS." lang={lang}>
+    <h2 id="latest-codes">Neueste Codes</h2>
+    <GiftCodes lang={lang} />
+
+    <h2 id="how-to-redeem">So löst du ein</h2>
+    <p>Android / im Spiel: tippe deinen Avatar (oben links) an → Einstellungen → Geschenkcode → Code eingeben.</p>
+    <p>iOS: nutze die offizielle Web-Seite — logge dich mit deinem verknüpften Facebook/Google-Konto ein, wähle Server und Charakter und gib den Code ein.</p>
+
+    <h2 id="notes">Hinweise</h2>
+    <p>Codes sind regionsfrei, aber meist nur einer pro Konto und zeitlich begrenzt. Die meisten erscheinen zuerst im offiziellen Discord — diese Seite wird nach jedem Drop aktualisiert.</p>
+  </GuidePage>
+</Base>

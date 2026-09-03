@@ -1,0 +1,36 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ko';
+const events = [
+  { slug: 'alliance-duel', name: '동맹 결투', icon: '⚔️', desc: '6일간의 동맹 대항전 — 일일 점수 카테고리, 정확한 점수 값, 모든 것을 아끼는 경제.' },
+  { slug: 'elixir', name: '엘릭서 스크램블', icon: '🧪', desc: '제압이 킬로 이기는 30분 AvA 점수 전장 — 치유 텐트, 성 우선순위, 순간이동 규칙.' },
+  { slug: 'kvk', name: '왕국 전쟁 (KvK)', icon: '🏰', desc: '로열 시티를 건 서버 대 서버 전쟁 — 포탑 우선 공격, 지연 전술 방어, 실제 부대 리스크.' },
+  { slug: 'undead', name: '언데드 공성전', icon: '🧟', desc: '감염 웨이브에 맞선 동맹 방어 — 숨겨진 다중 부대 메커니즘, 지속 HP, 보상 마일스톤.' },
+  { slug: 'cheese', name: '치즈 트랩', icon: '🧀', desc: '거대 쥐에 대한 동맹 집결 — 5단계 개인 보상, 공유 동맹 HP 풀, 레벨 스케일링 수학.' },
+  { slug: 'thief', name: '도적 사냥', icon: '💰', desc: '스태미나로 도적 두목 보스를 소환 — 스폰 메커니즘, 연속 처치 기법, 교환 우선순위.' },
+  { slug: 'survival', name: '생존 전투', icon: '🛡️', desc: '약 60,000개의 무료 스킬 배지가 걸린 주간 미션 이벤트 — 저렴한 완료와 동맹 결투 겹침.' },
+  { slug: 'canyon', name: '협곡 정복', icon: '🏜️', desc: '유지력이 전력을 이기는 3레인 릴레이 전투 — 무리스크 이벤트의 레인 우선순위 전략.' },
+  { slug: 'mythic', name: '신화 보물', icon: '🗺️', desc: 'F2P를 위해 해독된 7탭 해적 이벤트 — 시장 우선순위, 300마리 상한, 매장 보물 플레이.' },
+  { slug: 'royal', name: '로열 성채 스크램블', icon: '👑', desc: '주간 성 점령 레이스 — 플레이어당 1행군, 30슬롯 증원, 완전한 로열 시티 칭호 시스템.' },
+  { slug: 'arena', name: '삼각 아레나', icon: '🔺', desc: '3개 라인업, 공격자가 이길 2개를 고르기 — 균형 방어, 희생 매치업, 운명의 아레나 함정 부대.' },
+  { slug: 'wagon', name: '길드 마차 &amp; 상단', icon: '🚚', desc: '일일 무료 마차 운행, 경비 상자 규칙, 황금 마차 갱신, 상단 UR 샤드 파밍.' },
+];
+---
+<Base lang={lang} path="/ko/events/" title="이벤트 가이드" description="Last Asylum: Plague의 모든 이벤트 완전 분석: 일정, 점수, 전략, 피해야 할 실수.">
+  <section class="py-12">
+    <h1 class="mb-3 text-4xl font-bold text-plague-100">이벤트 가이드</h1>
+    <p class="mb-10 text-lg text-stone-400">모든 이벤트의 완전 분석: 일정, 점수, 전략, 피해야 할 실수.</p>
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {events.map(e => (
+        <a href={`/ko/events/${e.slug}/`} class="group rounded-lg border border-stone-800 bg-stone-900 p-5 transition-colors hover:border-plague-600">
+          <span class="text-3xl">{e.icon}</span>
+          <h2 class="mt-3 text-lg font-bold text-plague-200 group-hover:text-plague-100">{e.name}</h2>
+          <p class="mt-2 text-sm text-stone-400">{e.desc}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</Base>

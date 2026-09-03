@@ -1,0 +1,101 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'pt';
+---
+<Base lang={lang} path="/pt/events/mythic/" title="Mythic Treasure: guia F2P" description="As sete abas do evento pirata decodificadas para jogadores gratuitos: o passe de batalha, a armadilha da caça-níquel, a prioridade corrigida do Mercado Pirata, o teto diário de 300 peixes e a jogada de suicídio-por-recompensas do Tesouro Enterrado.">
+  <GuidePage title="Mythic Treasure: guia F2P" description="As sete abas do evento pirata decodificadas para jogadores gratuitos: o passe de batalha, a armadilha da caça-níquel, a prioridade corrigida do Mercado Pirata, o teto diário de 300 peixes e a jogada de suicídio-por-recompensas do Tesouro Enterrado." lang={lang}>
+    <p>Mythic Treasure é o grande evento de tema pirata, e é construído como um funil: sete abas, seis delas inclinadas para o gasto, e um punhado de valor genuinamente grátis enterrado dentro. A jogada F2P é saber exatamente quais abas pagam e quais existem para te tentar — e então moer as grátis todo dia.</p>
+    <p>Este guia percorre as sete abas com a prioridade corrigida do mercado, a economia do peixe, a estratégia do Tesouro Enterrado e a regra de expiração das moedas de âncora que pega todo mundo.</p>
+
+    <h2 id="the-7-tabs">As sete abas num relance</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Aba</th><th>O que é</th><th>Veredito F2P</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1. Tesouro Mítico do Pirata</td><td>Passe de batalha</td><td>Só a trilha grátis</td></tr>
+        <tr><td>2. Jogo do Pirata</td><td>Caça-níquel</td><td>Só giros grátis, nunca persiga</td></tr>
+        <tr><td>3. Mercado Pirata</td><td>Loja de Moedas de Âncora</td><td>Compre fragmentos UR todo dia</td></tr>
+        <tr><td>4. Grande Banquete</td><td>Evento de peixes do servidor inteiro</td><td>Uma das melhores seções F2P — faça</td></tr>
+        <tr><td>5. Caça Deliciosa</td><td>Farme de Peixes do Mar</td><td>Farme até o teto diário de 300</td></tr>
+        <tr><td>6. Presente do Mar Profundo</td><td>Recompensas por recarga de dinheiro</td><td>Pule como F2P</td></tr>
+        <tr><td>7. Tesouro Enterrado</td><td>Minijogo</td><td>5 partidas grátis + a jogada suicida</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="tab-1-pass">Aba 1: Tesouro Mítico do Pirata (passe de batalha)</h2>
+    <p>O passe de batalha estrela. A <strong>trilha avançada custa 499</strong> e paga em <strong>Moedas de Âncora, Ouro Pirata e baús exclusivos</strong>. Se você for gastar com algo neste evento, este é o candidato — mas a trilha grátis também paga, e tudo abaixo funciona sem o passe.</p>
+
+    <h2 id="tab-2-slots">Aba 2: Jogo do Pirata (caça-níquel)</h2>
+    <ul>
+      <li>Giros pagos rendem <strong>Moedas de Âncora</strong>, e existe uma opção de <strong>giro 5X</strong>.</li>
+      <li>É <strong>RNG puro — não persiga.</strong> A caça-níquel é o pior alvo de valor do evento, e é desenhada para parecer quase pronta de pagar.</li>
+      <li>Pegue os <strong>giros grátis</strong> todo dia e vá embora. Essa é a aba inteira.</li>
+    </ul>
+
+    <h2 id="tab-3-market">Aba 3: Mercado Pirata — prioridade corrigida</h2>
+    <p>O mercado aceita Moedas de Âncora, e a ordem de compra importa mais do que em qualquer outro lugar do evento:</p>
+    <ol>
+      <li><strong>Fragmentos UR — COMPRE TODO DIA.</strong> Prioridade máxima, sem debate. É o valor garantido de herói que o evento oferece.</li>
+      <li><strong>Baú de Curiosidade diário</strong> — se sobrarem âncoras depois dos fragmentos.</li>
+      <li><strong>Sobra do último dia vai para Essência do Corvo ou acelerações</strong> — gaste o restante antes de a troca fechar (veja <a href="#anchor-expiry">a regra de expiração</a>).</li>
+    </ol>
+    <p>E os dois NÃOs duros:</p>
+    <ul>
+      <li><strong>Não compre acelerações nem recursos com âncoras.</strong> Eles existem em todo o resto do jogo; fragmentos UR não.</li>
+      <li><strong>Pérolas só aumentam o HP dos heróis — "não tão úteis".</strong> Pule.</li>
+    </ul>
+    <p>Uma armadilha extra para conhecer: <strong>a skin de navio de 4,000 âncoras existe</strong>. É bonita. <strong>Não sacrifique recompensas garantidas por ela</strong> — quatro mil âncoras é a renda inteira em fragmentos do mercado durante o evento.</p>
+
+    <h2 id="tab-4-grand-feast">Aba 4: Grande Banquete</h2>
+    <p>O banquete do servidor inteiro: entregue <strong>10 Peixes do Mar por 1 EXP de Banquete</strong>, com <strong>recompensas top-50</strong> para os maiores contribuidores. O veredito da comunidade é direto — <strong>"uma das melhores seções F2P"</strong> do evento. Não custa nada além dos peixes que você farmaria de qualquer jeito (veja <a href="#tab-5-fish">Caça Deliciosa</a>), e paga recompensas visíveis no servidor. Entregue diariamente, todo dia, sem exceção.</p>
+
+    <h2 id="tab-5-fish">Aba 5: Caça Deliciosa (farme de Peixes do Mar)</h2>
+    <p>Peixes do Mar vêm dos seus alvos diários normais:</p>
+    <ul>
+      <li>Torre do Falcão</li>
+      <li>Monstros de Recursos</li>
+      <li>Blight de Elite</li>
+      <li>Operações Secretas</li>
+      <li>Blight Errante</li>
+    </ul>
+    <p>O número crítico: <strong>TETO DIÁRIO DE 300 peixes</strong>. Farme além e você está matando mobs por nada — o contador para. Bata 300, pare, banque o tempo. Os peixes alimentam o Grande Banquete, que é por que as duas abas juntas são o núcleo F2P do evento inteiro.</p>
+
+    <h2 id="tab-6-deep-sea">Aba 6: Presente do Mar Profundo</h2>
+    <p>Um esclarecimento que economiza diamantes: esta aba recompensa <strong>recargas de dinheiro, NÃO gasto de diamantes</strong>. Diferente de um evento de marcos por gasto de diamantes, não há nada que uma conta F2P possa fazer aqui. Pule a aba inteira — ela não é voltada para você.</p>
+
+    <h2 id="tab-7-buried">Aba 7: Tesouro Enterrado (o minijogo F2P)</h2>
+    <p>O minijogo de combinação, e a aba mais mal-entendida:</p>
+    <ul>
+      <li><strong>5 tentativas grátis por dia.</strong></li>
+      <li>Habilidades grátis: <strong>Remover, Recuperar, Atualizar.</strong></li>
+      <li>Recompensas <strong>NÃO são por limpar a fase</strong> — são concedidas <strong>UMA A UMA AO COMBINAR</strong>.</li>
+      <li><strong>Recompensas coletadas ficam SEGURAS mesmo se você falhar a partida.</strong> Combinado = bancado.</li>
+    </ul>
+    <p>O que produz a estratégia F2P contraintuitiva, a jogada de <strong>"suicídio por recompensas"</strong>: pegue as recompensas do tabuleiro, e depois <strong>perca de propósito</strong>. Limpar não é a meta — combinar recompensas fora do tabuleiro é. Falhar não custa nada e mantém o saque combinado.</p>
+    <p>A única ressalva: <strong>a fase 2 é quase impossível sem gastar</strong> — ela quer cerca de <strong>26 limpezas</strong>. Não queime tentativas nem dinheiro perseguindo-a; farme o valor grátis da fase 1.</p>
+
+    <h2 id="anchor-expiry">CRÍTICO: Moedas de Âncora não passam para o próximo evento</h2>
+    <blockquote>Moedas de Âncora NÃO passam para o próximo — moedas não usadas viram acelerações quando a troca fecha. Use todas antes, de verdade.</blockquote>
+    <p>Acelerações são o prêmio de consolação, não a meta (veja a <a href="#tab-3-market">prioridade do mercado</a> — âncoras compram fragmentos UR, acelerações compram acelerações). Terminar o evento com âncoras sobrando é perda de valor pura: tudo que elas poderiam ter comprado no mercado era estritamente melhor que a taxa de conversão.</p>
+
+    <h2 id="f2p-checklist">O checklist diário F2P</h2>
+    <ol>
+      <li>Farme <strong>300 Peixes do Mar</strong> (Caça Deliciosa) e pare no teto.</li>
+      <li>Entregue peixes no <strong>Grande Banquete</strong>.</li>
+      <li>Jogue <strong>5 tentativas de Tesouro Enterrado</strong> — combine recompensas, suicide-se, repita.</li>
+      <li>Pegue os <strong>giros grátis do Jogo do Pirata</strong>.</li>
+      <li>Gaste âncoras no valor garantido — <strong>fragmentos UR primeiro</strong>.</li>
+    </ol>
+
+    <h2 id="community-verdict">Veredito da comunidade</h2>
+    <p>Mythic Treasure é <strong>fortemente temperado com P2W</strong> — o passe, as caça-níqueis e a aba de recarga são construídas para gastadores. Mas as seções F2P — <strong>Grande Banquete, Tesouro Enterrado e o farme de peixes</strong> — valem ser feitas todo dia do evento. Moe essas, ignore o resto, e não deixe nada na mesa quando a troca fechar.</p>
+
+    <VideoSection topic="mythic" lang={lang} />
+  </GuidePage>
+</Base>

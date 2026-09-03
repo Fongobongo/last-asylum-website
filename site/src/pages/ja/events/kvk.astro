@@ -1,0 +1,75 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ja';
+---
+<Base lang={lang} path="/ja/events/kvk/" title="Kingdom War (KvK)：生還とスコアリング" description="王都を巡るサーバー対サーバーの戦争：隔週のスケジュール、攻め側のタurret先行戦略、守り側の引き延ばし戦術、兵士と資源のリスク、そしてAlliance Duelとのスコア重複。">
+  <GuidePage title="Kingdom War (KvK)：生還とスコアリング" description="王都を巡るサーバー対サーバーの戦争：隔週のスケジュール、攻め側のタurret先行戦略、守り側の引き延ばし戦術、兵士と資源のリスク、そしてAlliance Duelとのスコア重複。" lang={lang}>
+    <p>Kingdom War はこのゲームの<strong>サーバー対サーバーの戦争</strong>です:2つの王国が共有マップに侵攻し、<strong>王都(Royal City)</strong>を巡って戦います。<strong>隔週</strong>で走り、週を通じてスコアリングと準備タスクがあり、本戦は1つの時間窓に凝縮されます。砂が収まった時に王都を制御している側が勝ちです。</p>
+    <p>このガイドでは、スケジュール、攻めと守りの戦略、普遍ルール、戦争を負けるミス、そしてアカウントを生かし続ける経済ルールを解説します。</p>
+
+    <h2 id="schedule">隔週のスケジュール</h2>
+    <ul>
+      <li><strong>準備とスコアリングは週を通じて</strong> — 毎日のタスクとポイントカテゴリが、1つの壁が争われる前に王国の立ち位置を組み立てます。</li>
+      <li><strong>本戦はリセットからの土曜</strong>、<strong>4時間の窓</strong>の中。その窓が戦争のすべて — それ以前はすべてポジショニングです。</li>
+      <li><strong>勝利条件:王都の制御。</strong> 撃破数でもポイント数でもなく — 終わりに都を握っている方が勝ち。</li>
+    </ul>
+    <blockquote>勝つ同盟は常に最強ではない — 最も組織化されている同盟である。</blockquote>
+
+    <h2 id="attacker-playbook">攻め側のプレイブック</h2>
+    <p>自国が攻め側なら、本能は王都への突進です。その本能が戦争を負かせます。</p>
+    <ul>
+      <li><strong>都に最初から突進しない。</strong> 都への直接プッシュは集中した防衛とタurretに正面から当たり、開幕数分で最強の部隊を流します。</li>
+      <li><strong>まずタurretを取り、それから押す。</strong> タurretが1つ落ちるごとに安全地帯が広がり、都の戦いが始まる前に守り側のマップ制御を剥ぎ取ります。</li>
+      <li><strong>集結に留まる。</strong> 集結はソロ進軍より安全で強い — 集中したHP、集中したバフ、そして守り側が実際に警戒しなければならない進軍。単独の英雄は単独の犠牲者です。</li>
+    </ul>
+
+    <h2 id="defender-playbook">守り側のプレイブック</h2>
+    <p>守り側は戦いに勝とうとしてはいけません。守り側は<strong>時計を消費しようとしている</strong>のです。</p>
+    <ul>
+      <li><strong>必要なのは撃破ではなく時間。</strong> 攻め側があなたの防衛を削るのに使う1分は、彼らが都を保持しない1分です。引き延ばしこそ勝利です。</li>
+      <li><strong>絶えず補強する。</strong> 争奪地点に、死んだ分だけ速く新しい部隊を注ぐ。補強が止まらない地点は、敵の時間窓全体を食い尽くします。</li>
+      <li><strong>回す。</strong> 1つのレーンにすべて停めない — 圧力が実際にある場所へ部隊を移し、攻め側に地面の1インチごとを争わせましょう。</li>
+    </ul>
+
+    <h2 id="universal-rules">普遍ルール</h2>
+    <p>どちら側でも、同じルールが適用されます：</p>
+    <ol>
+      <li><strong>タurretファースト = マップ制御。</strong> タurretラインが誰が安全に動けるかを決めます。毎回、戦争の最初の目標です。</li>
+      <li><strong>絶対にソロをしない。</strong> ソロの突撃はアカウントが消える経路です。集結とともに進むか、進まないか。</li>
+      <li><strong>絶えず補強。</strong> 補強を受けなくなった防衛は1波で落ちます。</li>
+      <li><strong>戦闘の間ずっとオンライン。</strong> 4時間の窓は、途中でログオフした者を罰します — あなたの部隊は放置した場所のままで、無防備です。</li>
+    </ol>
+
+    <h2 id="losing-mistakes">戦争を負けるミス</h2>
+    <ul>
+      <li><strong>ソロの突撃</strong> — 即座の全滅で敵に無料のキルを渡し、同盟から部隊を1つ失わせます。</li>
+      <li><strong>タurret無視</strong> — 無傷のタurretライン越しに都を攻めるのは兵士の寄付です。</li>
+      <li><strong>補強なし</strong> — 回転を止めた防衛は落ち、次の地点が落ち、そして都が落ちます。</li>
+      <li><strong>戦争中のログオフ</strong> — 4時間の窓はあなたの都合で一時停止しません。</li>
+    </ul>
+
+    <h2 id="economy-rules">KvK経済:兵士、資源、そしてシールド</h2>
+    <p>Kingdom War は数少ない、アカウントに実質リスクがあるイベントです：</p>
+    <ul>
+      <li><strong>攻撃されると兵士と資源を失うことがあります</strong> — <a href="/ja/events/canyon/">Canyon Conquest</a>のようなリスクゼロイベントではありません。</li>
+      <li><strong>戦争の時間窓の間はシールドを張る。</strong> KvK中の無シールド都市は敵サーバーにとっての資源ピニャータです。</li>
+      <li><strong>損失は城壁と研究でスケール</strong> — 最大の城壁と防衛研究こそが、虐殺を小競り合いに変えるものです。</li>
+      <li><strong>アップグレードと加速はスコアデーのために取っておく</strong> — <a href="/ja/events/alliance-duel/">Alliance Duel</a>を支配するのと同じ二重価値の論理が、KvKのスコアタスクにも当てはまります。何もない日に大型アップグレードを使うと半額です。</li>
+    </ul>
+
+    <h2 id="scoring-overlap">Alliance Duel とのスコア重複</h2>
+    <p>KvKとAlliance Duelはスコアソースを共有しており、コミュニティのコンセンサスは毎日それを活用すること：</p>
+    <ul>
+      <li><strong>秘密作戦(Covert Ops)とキャラバンは両イベントにスコア。</strong> 同じ行動が決闘合計とKvK合計に同時に注ぎ込まれます。</li>
+      <li>だからキャラバンは毎日の当然の判断 — 決闘週の毎日走ること。キャラバンと略奪の完全なルートは<a href="/ja/events/wagon/">Guild Wagon &amp; キャラバンガイド</a>にあります。</li>
+    </ul>
+    <p>戦争経済の残り — 何を貯め、いつ使い、どの買い物が戦争を賄うか — は<a href="/ja/economy/">経済ガイド</a>で解説しています。</p>
+
+    <VideoSection topic="kvk" lang={lang} />
+  </GuidePage>
+</Base>

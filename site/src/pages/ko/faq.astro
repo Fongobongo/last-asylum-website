@@ -1,0 +1,46 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { faqKo } from '../../data/faqKo';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ko';
+
+const schema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqKo.map((f) => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+});
+---
+
+<Base lang={lang} path="/faq/" title="FAQ" description="가장 흔한 Last Asylum: Plague 질문에 대한 답변: 최고의 무과금 팀, 업그레이드 순서, 약탈 한도, 상점 우선순위, 기프트 코드.">
+  <GuidePage
+    title="❓ 자주 묻는 질문"
+    description="플레이어들이 실제로 묻는 질문들, 커뮤니티 합의 답변과 함께."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/ko/' }, { label: 'FAQ' }]}
+  >
+    <script slot="faq-schema" type="application/ld+json" set:html={schema} />
+
+    <div class="not-prose my-6 space-y-3">
+      {faqKo.map((f) => (
+        <details class="group rounded-lg border border-stone-800 bg-stone-900">
+          <summary class="cursor-pointer select-none px-4 py-3 font-semibold text-plague-200 group-open:text-plague-100">
+            {f.q}
+          </summary>
+          <p class="border-t border-stone-800 px-4 py-3 text-sm leading-relaxed text-stone-300">{f.a}</p>
+        </details>
+      ))}
+    </div>
+
+    <p>원하는 질문이 없나요? 각 가이드를 확인해보세요: <a href="/ko/beginners/">초보자</a>, <a href="/ko/economy/">경제</a>, <a href="/ko/heroes/">영웅</a>, <a href="/ko/gear/">장비</a>, <a href="/ko/raven/">레이븐</a>, <a href="/ko/era/">Era of Revival</a> — 또는 공식 디스코드에서 물어보세요.</p>
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

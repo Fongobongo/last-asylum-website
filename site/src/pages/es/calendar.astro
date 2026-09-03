@@ -1,0 +1,60 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { weeklySchedule, recurring } from '../../data/calendar';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'es';
+---
+
+<Base lang={lang} path="/es/calendar/" title="Calendario de eventos" description="El ritmo semanal de Last Asylum: Plague — días de recompensa de la Torre Halcón, fases del Duelo de Alianzas, reinicios y eventos recurrentes.">
+  <GuidePage
+    title="📅 Calendario de eventos"
+    description="El ritmo semanal que sigue todo jugador eficiente. NOTA: las rotaciones exactas varían según el servidor — revisa siempre tu calendario dentro del juego."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/es/' }, { label: 'Calendario' }]}
+  >
+    <h2 id="weekly-rhythm">El ritmo semanal</h2>
+    <div class="not-prose my-6 overflow-x-auto rounded-lg border border-stone-800">
+      <table class="w-full text-sm">
+        <thead class="bg-stone-900 text-left text-plague-300">
+          <tr><th class="p-3">Día</th><th class="p-3">Evento</th><th class="p-3">Qué hacer</th></tr>
+        </thead>
+        <tbody>
+          {weeklySchedule.map((e) => (
+            <tr class="border-t border-stone-800">
+              <td class="p-3 font-bold text-plague-200 whitespace-nowrap">{e.icon} {e.day}</td>
+              <td class="p-3 text-stone-200 whitespace-nowrap">{e.event}</td>
+              <td class="p-3 text-stone-400">{e.what}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <h2 id="recurring">Reinicios y horarios recurrentes</h2>
+    <div class="not-prose my-6 grid gap-3 sm:grid-cols-2">
+      {recurring.map((e) => (
+        <div class="rounded-lg border border-stone-800 bg-stone-900 p-4">
+          <p class="text-sm font-bold text-plague-200">{e.icon} {e.event}</p>
+          <p class="mt-0.5 text-xs text-stone-500">{e.day}</p>
+          <p class="mt-1 text-sm text-stone-400">{e.what}</p>
+        </div>
+      ))}
+    </div>
+
+    <h2 id="claim-days">El truco de los días de recompensa (lun/mié/vie)</h2>
+    <p>Las misiones de la Torre Halcón completadas pero <strong>no reclamadas</strong> mantienen su punto rojo y no caducan. Los días de fuerza doble son lunes, miércoles y viernes:</p>
+    <ul>
+      <li>Completa misiones el domingo → reclama el lunes</li>
+      <li>Completa el martes → reclama el miércoles</li>
+      <li>Completa el jueves → reclama el viernes</li>
+    </ul>
+    <p><strong>Stacking Max − 1:</strong> un tablero de misiones lleno congela el temporizador. Completa una misión del máximo para que sigan apareciendo misiones nuevas — controla tu flujo de misiones día a día.</p>
+    <p class="text-sm text-stone-500">⚠️ Límite de cola: TODAS las misiones (completadas o no) cuentan para el contador de cola (x/x). Cuando está lleno, la siguiente misión se pierde.</p>
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

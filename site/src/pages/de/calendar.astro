@@ -1,0 +1,60 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { weeklySchedule, recurring } from '../../data/calendar';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+
+<Base lang={lang} path="/de/calendar/" title="Event-Kalender" description="Der Wochenrhythmus von Last Asylum: Plague — Falkenturm-Abhol-Tage, Allianz-Duell-Phasen, Resets und wiederkehrende Events.">
+  <GuidePage
+    title="📅 Event-Kalender"
+    description="Der Wochenrhythmus, dem jeder effiziente Spieler folgt. HINWEIS: exakte Rotationen unterscheiden sich pro Server — prüfe immer deinen In-Game-Kalender."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/de/' }, { label: 'Kalender' }]}
+  >
+    <h2 id="weekly-rhythm">Der Wochenrhythmus</h2>
+    <div class="not-prose my-6 overflow-x-auto rounded-lg border border-stone-800">
+      <table class="w-full text-sm">
+        <thead class="bg-stone-900 text-left text-plague-300">
+          <tr><th class="p-3">Tag</th><th class="p-3">Event</th><th class="p-3">Was tun</th></tr>
+        </thead>
+        <tbody>
+          {weeklySchedule.map((e) => (
+            <tr class="border-t border-stone-800">
+              <td class="p-3 font-bold text-plague-200 whitespace-nowrap">{e.icon} {e.day}</td>
+              <td class="p-3 text-stone-200 whitespace-nowrap">{e.event}</td>
+              <td class="p-3 text-stone-400">{e.what}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <h2 id="recurring">Resets und wiederkehrende Zeitpläne</h2>
+    <div class="not-prose my-6 grid gap-3 sm:grid-cols-2">
+      {recurring.map((e) => (
+        <div class="rounded-lg border border-stone-800 bg-stone-900 p-4">
+          <p class="text-sm font-bold text-plague-200">{e.icon} {e.event}</p>
+          <p class="mt-0.5 text-xs text-stone-500">{e.day}</p>
+          <p class="mt-1 text-sm text-stone-400">{e.what}</p>
+        </div>
+      ))}
+    </div>
+
+    <h2 id="claim-days">Der Abhol-Tage-Trick (Mo/Mi/Fr)</h2>
+    <p>Falkenturm-Quests, die abgeschlossen, aber <strong>nicht abgeholt</strong> sind, behalten ihren roten Punkt und laufen nicht ab. Die Doppelstärke-Tage sind Montag, Mittwoch und Freitag:</p>
+    <ul>
+      <li>Quests am Sonntag abschließen → Montag abholen</li>
+      <li>Dienstag abschließen → Mittwoch abholen</li>
+      <li>Donnerstag abschließen → Freitag abholen</li>
+    </ul>
+    <p><strong>Stacking Max − 1:</strong> ein vollständiges Quest-Brett friert den Timer ein. Schließe eine Quest des Maximums ab, damit weiter neue Quests spawnen — kontrolliere deinen Quest-Fluss Tag für Tag.</p>
+    <p class="text-sm text-stone-500">⚠️ Warteschlangen-Limit: ALLE Quests (abgeschlossen oder nicht) zählen zum Warteschlangen-Zähler (x/x). Ist sie voll, geht die nächste Quest verloren.</p>
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

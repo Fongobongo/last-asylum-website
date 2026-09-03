@@ -1,0 +1,23 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import GiftCodes from '../../components/GiftCodes.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ru';
+---
+
+<Base lang={lang} path="/codes/" title="Промокоды" description="Активные и архивные промокоды для Last Asylum: Plague — обновляется после каждого официального дропа.">
+  <GuidePage title={`🎁 ${t(lang, 'codes.title')}`} description={t(lang, 'codes.desc')} lang={lang}>
+    <h2 id="latest-codes">{t(lang, 'codes.active')}</h2>
+    <GiftCodes lang={lang} />
+
+    <h2 id="how-to-redeem">{t(lang, 'codes.redeem')}</h2>
+    <p>{t(lang, 'codes.redeem.android')}</p>
+    <p>{t(lang, 'codes.redeem.ios')}</p>
+
+    <h2 id="notes">{t(lang, 'codes.note')}</h2>
+    <p>Коды не привязаны к региону, но обычно одноразовые на аккаунт. Большинство появляется сначала в официальном Discord — страница обновляется после каждого дропа.</p>
+  </GuidePage>
+</Base>

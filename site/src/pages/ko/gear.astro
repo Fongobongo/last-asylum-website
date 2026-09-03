@@ -1,0 +1,65 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import Infographic from '../../components/Infographic.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ko';
+---
+
+<Base lang={lang} path="/gear/" title="장비 가이드" description="Last Asylum: Plague 장비 시스템: UR만 제작, 승격 마일스톤, 캐리와 탱크의 슬롯 우선순위, 기어스톤 파밍.">
+  <GuidePage
+    title="⚔️ 장비 가이드: 제작, 승격, 우선순위"
+    description="장비 시스템의 커뮤니티 규칙 — 무엇을 만들고, 무엇을 먹이고, 무엇을 건너뛰고, 재료는 어디서 오는지."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/ko/' }, { label: '장비' }]}
+  >
+    <h2 id="cardinal-rules">기본 규칙</h2>
+    <ul>
+      <li><strong>UR(주황)만 제작하세요.</strong> 초록과 파란 장비는 공짜로 떨어집니다 — 업그레이드에 재료를 낭비하지 마세요. 낡은 저티어 장비는 분해하세요.</li>
+      <li><strong>한 번에 하나의 부대만.</strong> 빠른 성장을 위해서는 1부대만 완벽하게 — 캐리에게 검과 장갑, 탱크에게 흉갑과 부츠.</li>
+      <li>장비를 분배할 때는 <strong>SSR 영웅보다 UR 영웅이 먼저</strong>입니다.</li>
+      <li>품질 사다리: <strong>금색(UR) &gt; 보라(SSR) &gt; 파랑(SR) &gt; 초록(R) &gt; 회색</strong>.</li>
+    </ul>
+
+    <h2 id="slot-priorities">슬롯 우선순위</h2>
+    <table class="w-full mb-6 text-sm">
+      <tr><th>영웅 역할</th><th>첫 번째</th><th>두 번째</th><th>메모</th></tr>
+      <tr><td>캐리 (DPS)</td><td>무기 (검)</td><td>장갑</td><td>공격력 + 치명타가 딜을 키웁니다</td></tr>
+      <tr><td>탱크</td><td>부츠</td><td>흉갑</td><td>HP/방어가 전선을 지탱합니다</td></tr>
+      <tr><td>캐리 순서 (Annie/Jester)</td><td>검 → 건틀릿 → 갑옷 → 부츠</td><td></td><td>워록 캐리를 위한 커뮤니티 순서</td></tr>
+    </table>
+
+    <h2 id="promotion">장비 승격 (2026년 5월 시스템)</h2>
+    <p>2026년 5월 업데이트 이후, 장비는 <strong>10, 20, 30, 40레벨</strong>에서 청사진으로 <strong>승격</strong>할 수 있으며, 40 이후 <strong>60</strong>까지 강화할 수 있습니다 — 총 재료 비용은 기존 시스템과 동일합니다. 승격은 추가 보너스 스탯을 해금하며, 더 높은 승격 티어가 장비의 주요 장기 목표입니다.</p>
+
+    <h2 id="boss-gear">보스전 장비 (Demon King)</h2>
+    <p>반격하지 않는 보스를 상대로는 일반 규칙이 뒤집힙니다:</p>
+    <ul>
+      <li><strong>무기: 가장 높은 UR 검</strong> — "+0 UR 검이 +30 SSR 검보다 딜이 높습니다" (공격력 + 치명타 확률이 스킬 기반치를 키웁니다)</li>
+      <li><strong>장갑: SSR, UR이 아니라!</strong> 30레벨 SSR 장갑은 <strong>몬스터에게 +12.25% 딜</strong>을 주고, SSR 장갑 수정치는 최종 딜에 적용됩니다 — UR 장갑은 ATK(더 약함)를 올리고 쓸모없는 피해 저항을 더합니다</li>
+      <li><strong>부츠 &amp; 흉갑: 보스전에서 무의미</strong> — 아무 레벨이나 가능</li>
+    </ul>
+
+    <h2 id="raven-gear">레이븐 장비</h2>
+    <p>레이븐은 자체 장비 세트가 있습니다 (왼쪽: HP/치명타 피해 감소, 오른쪽: ATK/치명타 피해). 퍼센트 버프가 켜지는 <strong>8레벨</strong>까지 밀어주세요. <strong>레이븐 장비 상자는 동맹 결투 날을 위해 아끼세요</strong> — 열면 이벤트 점수가 오릅니다.</p>
+    <p>특수 효과 세트(나이트 레이븐 마스크, 레이븐 페더 망토)는 각 조각의 지정 레벨에서 활성화됩니다 — 2026년 3월 업데이트에서 추가.</p>
+
+    <h2 id="materials">재료는 어디서 오는가</h2>
+    <ul>
+      <li><strong>장비 작업장</strong> — 제작 &amp; 분해; <strong>제련 작업장</strong>은 레벨링용 기어스톤 생산; <strong>직조 작업장</strong>은 합성/제작용 천 생산</li>
+      <li><strong>기어스톤 무과금 파밍:</strong> 안정적인 파밍 루트가 존재합니다 (아래 영상 참고) — 커뮤니티의 최대 병목 불만이 기어스톤이니 일찍 계획하세요</li>
+      <li><strong>상점:</strong> 생츄어리와 원정 상점의 기어스톤 (우선순위 3회 구매)</li>
+      <li><strong>청사진:</strong> 명예 상점의 1번 품목 — 그 상점은 장비 청사진을 위해 존재합니다 (절대 그곳에서 에피그라프 상자 사지 말 것)</li>
+    </ul>
+
+    <Infographic src="/infographics/skill-scaling.webp" alt="스킬 및 장비 스케일링" caption="스킬 &amp; 장비 스케일링 — 영웅이 약하게 느껴지는 이유" credit="HottChoklit" />
+
+    <VideoSection topic="gear" lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

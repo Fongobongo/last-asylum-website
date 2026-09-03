@@ -1,0 +1,65 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import Infographic from '../../components/Infographic.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'es';
+---
+
+<Base lang={lang} path="/es/gear/" title="Guía de equipo" description="Sistema de equipo de Last Asylum: Plague: fabrica solo UR, hitos de promoción, prioridades de ranuras para carries y tanques, y farmeo de piedras de equipo.">
+  <GuidePage
+    title="⚔️ Guía de equipo: fabricar, promover, priorizar"
+    description="Las reglas de la comunidad del sistema de equipo — qué fabricar, qué desmontar, qué saltarse y de dónde salen los materiales."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/es/' }, { label: 'Equipo' }]}
+  >
+    <h2 id="cardinal-rules">Las reglas cardinales</h2>
+    <ul>
+      <li><strong>Fabrica solo UR (naranja).</strong> El equipo verde y azul cae gratis — nunca desperdicies materiales en mejorarlo. Desmonta el equipo anticuado de bajo nivel.</li>
+      <li><strong>Un escuadrón a la vez.</strong> Para progresar rápido, equipa solo el Escuadrón 1 — espadas y guantes para los carries, petos y botas para los tanques.</li>
+      <li><strong>Héroes UR antes que héroes SSR</strong> al repartir el equipo.</li>
+      <li>Escalera de calidad: <strong>Oro (UR) &gt; Púrpura (SSR) &gt; Azul (SR) &gt; Verde (R) &gt; Gris</strong>.</li>
+    </ul>
+
+    <h2 id="slot-priorities">Prioridades de ranuras</h2>
+    <table class="w-full mb-6 text-sm">
+      <tr><th>Rol del héroe</th><th>Primero</th><th>Segundo</th><th>Notas</th></tr>
+      <tr><td>Carry (DPS)</td><td>Arma (espada)</td><td>Guantes</td><td>Ataque + crítico escalan tu daño</td></tr>
+      <tr><td>Tanque</td><td>Botas</td><td>Peto</td><td>HP/DEF mantienen la primera línea en pie</td></tr>
+      <tr><td>Orden para carries (Annie/Jester)</td><td>Espada → Guanteletes → Armadura → Botas</td><td></td><td>Orden de la comunidad para carries warlock</td></tr>
+    </table>
+
+    <h2 id="promotion">Promoción de equipo (el sistema de mayo de 2026)</h2>
+    <p>Desde la actualización de mayo de 2026, el equipo puede <strong>promocionarse</strong> con Planos en los niveles <strong>10, 20, 30 y 40</strong>, y mejorarse más allá de 40 hasta <strong>60</strong> — el coste total de materiales sigue igual que en el sistema antiguo. Las promociones desbloquean estadísticas de bono adicionales; los niveles de promoción más altos son el principal objetivo de equipo a largo plazo.</p>
+
+    <h2 id="boss-gear">Equipo para peleas de jefe (Rey Demonio)</h2>
+    <p>Contra jefes que no contraatacan, las reglas normales se invierten:</p>
+    <ul>
+      <li><strong>Armas: las espadas UR más altas</strong> — «una espada UR +0 hace más daño que una espada SSR +30» (ataque + probabilidad crítica escalan las bases de las habilidades)</li>
+      <li><strong>Guantes: SSR, ¡NO UR!</strong> Los guantes SSR a nivel 30 dan <strong>+12.25% de daño a monstruos</strong>, y los modificadores de los guantes SSR se aplican al daño FINAL — los guantes UR potencian el ATK (más débil) y añaden resistencia al daño inútil</li>
+      <li><strong>Botas y peto: irrelevantes</strong> contra jefes — cualquier nivel sirve</li>
+    </ul>
+
+    <h2 id="raven-gear">Equipo del Cuervo</h2>
+    <p>El Cuervo tiene su propio set de equipo (lado izquierdo: HP/reducción de daño crítico, lado derecho: ATK/daño crítico). Empújalo hacia el <strong>nivel 8</strong>, donde entran los bonos porcentuales. <strong>Guarda los cofres de equipo del Cuervo para los días de Duelo de Alianzas</strong> — abrirlos puntúa para el evento.</p>
+    <p>Los sets de efecto especial (Máscara del Cuervo Nocturno, Capa de Plumas de Cuervo) se activan en los niveles designados de sus piezas — añadidos en la actualización de marzo de 2026.</p>
+
+    <h2 id="materials">De dónde salen los materiales</h2>
+    <ul>
+      <li><strong>Taller de Equipo</strong> — fabricar y desmontar; el <strong>Taller de Fundición</strong> produce piedras de equipo para subir de nivel; el <strong>Taller de Tejido</strong> produce tela para fusionar/fabricar</li>
+      <li><strong>Farmeo F2P de piedras de equipo:</strong> existe una ruta de farmeo consistente (ver el vídeo abajo) — la mayor queja de la comunidad es la piedra de equipo, planéala desde el principio</li>
+      <li><strong>Tiendas:</strong> Piedras de Equipo en las tiendas del Santuario y de la Expedición (prioridad: 3 compras)</li>
+      <li><strong>Planos:</strong> el artículo n.º 1 de la tienda de Honor — esa tienda existe para los planos de equipo (nunca cofres de epígrafes allí)</li>
+    </ul>
+
+    <Infographic src="/infographics/skill-scaling.webp" alt="Escalado de habilidades y equipo" caption="Escalado de habilidades y equipo — por qué los héroes se sienten débiles" credit="HottChoklit" />
+
+    <VideoSection topic="gear" lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

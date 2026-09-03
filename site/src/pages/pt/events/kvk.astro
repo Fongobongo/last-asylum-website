@@ -1,0 +1,75 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'pt';
+---
+<Base lang={lang} path="/pt/events/kvk/" title="Guerra dos Reinos (KvK): sobrevivência e pontuação" description="Guerra servidor contra servidor pela Cidade Real: o calendário quinzenal, a estratégia torre-primeiro para atacantes, táticas de desgaste para defensores, risco de tropas e recursos e o choque de pontuação com o Duelo de Alianças.">
+  <GuidePage title="Guerra dos Reinos (KvK): sobrevivência e pontuação" description="Guerra servidor contra servidor pela Cidade Real: o calendário quinzenal, a estratégia torre-primeiro para atacantes, táticas de desgaste para defensores, risco de tropas e recursos e o choque de pontuação com o Duelo de Alianças." lang={lang}>
+    <p>A Guerra dos Reinos é a <strong>guerra servidor contra servidor</strong> do jogo: dois reinos invadem um mapa compartilhado e lutam pela <strong>Cidade Real</strong>. Ela roda <strong>quinzenalmente</strong>, com pontuação e tarefas de preparação durante a semana e a batalha principal condensada numa única janela. Vença controlando a Cidade Real quando a poeira baixar.</p>
+    <p>Este guia cobre o calendário, a estratégia de atacantes e defensores, regras universais, os erros que perdem guerras e as regras econômicas que mantêm sua conta viva durante ela.</p>
+
+    <h2 id="schedule">O calendário quinzenal</h2>
+    <ul>
+      <li><strong>Preparação e pontuação rodam durante a semana</strong> — as tarefas diárias e categorias de pontos constroem a posição do seu reino antes que qualquer muralha seja disputada.</li>
+      <li><strong>A batalha principal é sábado a partir do reset</strong>, dentro de uma <strong>janela de 4 horas</strong>. Essa janela é a guerra inteira — tudo antes dela é posicionamento.</li>
+      <li><strong>Condição de vitória: controlar a Cidade Real.</strong> Não mais mortes, não mais pontos — quem tem a cidade no fim.</li>
+    </ul>
+    <blockquote>Alianças vencedoras nem sempre são as mais fortes — são as mais organizadas.</blockquote>
+
+    <h2 id="attacker-playbook">Manual do atacante</h2>
+    <p>Se o seu reino ataca, o instinto é correr para a Cidade Real. Esse instinto perde guerras.</p>
+    <ul>
+      <li><strong>Não corra para a cidade primeiro.</strong> Um empurrão direto na cidade esbarra em defesa concentrada e torres — sangra seus esquadrões mais fortes nos minutos iniciais.</li>
+      <li><strong>Pegue as torres primeiro, depois empurre.</strong> Cada torre derrubada alarga sua zona segura e arranca o controle de mapa dos defensores antes da luta pela cidade começar.</li>
+      <li><strong>Fique nos rallyes.</strong> Rallyes são mais seguros e mais fortes que marchas solo — HP concentrado, bônus concentrados, e uma marcha que os defensores precisam respeitar. O herói solitário é a baixa solitária.</li>
+    </ul>
+
+    <h2 id="defender-playbook">Manual do defensor</h2>
+    <p>Defensores não tentam ganhar uma luta. Defensores tentam <strong>esgotar um relógio</strong>.</p>
+    <ul>
+      <li><strong>Você precisa de tempo, não de mortes.</strong> Cada minuto que os atacantes gastam moendo sua defesa é um minuto que não seguram a cidade. Desgastar é vencer.</li>
+      <li><strong>Reforce constantemente.</strong> Alimente esquadrões frescos nos pontos disputados tão rápido quanto morrem. Um ponto que nunca deixa de ser defendido devora a janela inteira do inimigo.</li>
+      <li><strong>Rotacione.</strong> Não estacione tudo numa faixa só — mova esquadrões para onde a pressão realmente está, e faça os atacantes lutar por cada centímetro de terreno.</li>
+    </ul>
+
+    <h2 id="universal-rules">Regras universais</h2>
+    <p>De que lado você estiver, as mesmas regras valem:</p>
+    <ol>
+      <li><strong>Torres primeiro = controle de mapa.</strong> A linha de torres decide quem se move em segurança. É o primeiro objetivo da guerra, sempre.</li>
+      <li><strong>Nunca solo.</strong> Empurrões solo são como contas são apagadas. Marche com rallyes ou não marche.</li>
+      <li><strong>Reforce constantemente.</strong> Defesa que para de receber reforço cai numa onda.</li>
+      <li><strong>Fique online a luta inteira.</strong> A janela de 4 horas pune quem sai no meio da guerra — seus esquadrões ficam exatamente onde você os deixou, indefesos.</li>
+    </ol>
+
+    <h2 id="losing-mistakes">Os erros que perdem guerras</h2>
+    <ul>
+      <li><strong>Empurrões solo</strong> — aniquilações instantâneas que entregam mortes grátis ao inimigo e deixam sua aliança um esquadrão a menos.</li>
+      <li><strong>Ignorar as torres</strong> — atacar a cidade através de linhas de torre intactas é doar tropas.</li>
+      <li><strong>Sem reforço</strong> — uma defesa que para de rotacionar cai, depois o próximo ponto cai, depois a cidade cai.</li>
+      <li><strong>Sair no meio da guerra</strong> — a janela de 4 horas não pausa pela sua agenda.</li>
+    </ul>
+
+    <h2 id="economy-rules">Economia do KvK: tropas, recursos e escudos</h2>
+    <p>A Guerra dos Reinos é um dos poucos eventos com risco real de conta:</p>
+    <ul>
+      <li><strong>Você PODE perder tropas e recursos ao ser atacado</strong> — não é um evento de risco zero como a <a href="/pt/events/canyon/">Conquista do Cânion</a>.</li>
+      <li><strong>Levante o escudo</strong> durante a janela da guerra. Uma cidade sem escudo no KvK é uma pinhata de recursos para o servidor inimigo.</li>
+      <li><strong>Perdas escalam com sua muralha e pesquisa</strong> — muralha maximizada e pesquisa defensiva são o que transforma um massacre numa escaramuça.</li>
+      <li><strong>Guarde melhorias e acelerações para os dias de pontuação</strong> — a mesma lógica de valor duplo que governa o <a href="/pt/events/alliance-duel/">Duelo de Alianças</a> vale para as tarefas de pontuação do KvK. Gastar uma melhoria grande num dia neutro rende metade.</li>
+    </ul>
+
+    <h2 id="scoring-overlap">Choque de pontuação com o Duelo de Alianças</h2>
+    <p>O KvK e o Duelo de Alianças compartilham fontes de pontuação, e o consenso da comunidade é explorar isso todo dia:</p>
+    <ul>
+      <li><strong>Operações Secretas e Caravanas pontuam para AMBOS os eventos.</strong> As mesmas ações alimentam seu total de duelo e seu total de KvK ao mesmo tempo.</li>
+      <li>Isso torna as caravanas uma moleza diária — rode-as todos os dias de uma semana de duelo. A rota completa de caravanas e saque está na <a href="/pt/events/wagon/">guia de Guild Wagon e Caravanas</a>.</li>
+    </ul>
+    <p>O resto da economia de guerra — o que guardar, quando gastar, quais compras de loja financiam a guerra — está na <a href="/pt/economy/">guia de Economia</a>.</p>
+
+    <VideoSection topic="kvk" lang={lang} />
+  </GuidePage>
+</Base>

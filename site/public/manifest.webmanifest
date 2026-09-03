@@ -1,0 +1,14 @@
+{
+  "name": "Last Asylum: Plague — Fan Hub",
+  "short_name": "LA: Plague Hub",
+  "description": "Guides, events, gift codes and strategy for Last Asylum: Plague survivors",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#12110b",
+  "theme_color": "#8c8530",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

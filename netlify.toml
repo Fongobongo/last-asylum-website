@@ -1,0 +1,17 @@
+[build]
+  command = "npm run build"
+  publish = "site/dist"
+  base = "site"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[[redirects]]
+  from = "/en/*"
+  to = "/:splat"
+  status = 301
+
+[[headers]]
+  for = "/pagefind/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"

@@ -1,0 +1,78 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'fr';
+---
+<Base lang={lang} path="/fr/events/royal/" title="Mêlée du Château Royal et titres" description="La course hebdomadaire de capture du château : une marche par joueur, règles de tours et de renforts, occupation avec Sanctuaire 6+, coffres de commendation royale, et le système complet de titres de la Cité Royale avec mécaniques de file d&apos;attente.">
+  <GuidePage title="Mêlée du Château Royal et titres" description="La course hebdomadaire de capture du château : une marche par joueur, règles de tours et de renforts, occupation avec Sanctuaire 6+, coffres de commendation royale, et le système complet de titres de la Cité Royale avec mécaniques de file d&apos;attente." lang={lang}>
+    <p>La Mêlée du Château Royal est la <strong>capture de château hebdomadaire</strong> : les alliances se lancent dans la prise et la tenue du Château Royal, le <strong>même jour de semaine et à la même heure chaque semaine</strong>. Le combat du château lui-même est rapide et simple — la préparation (marches, renforts, niveaux de Sanctuaire) est là où les matchs se décident.</p>
+    <p>Ce guide couvre les règles de capture, les mécaniques de renfort, les coffres de commendation, et le système complet de titres de la Cité Royale que le royaume gagnant débloque.</p>
+
+    <h2 id="how-it-works">Comment ça fonctionne</h2>
+    <ul>
+      <li><strong>Hebdomadaire</strong>, même jour de semaine et même heure chaque semaine — réglez l&apos;alarme une fois, elle ne change jamais.</li>
+      <li><strong>Une marche par joueur.</strong> Vous recevez une seule marche pour tout l&apos;événement.</li>
+      <li><strong>Elle ne peut pas être accélérée.</strong> Pas d&apos;accélérations, pas d&apos;objets de vitesse — la vitesse de marche avec laquelle vous partez est celle qui arrive.</li>
+      <li><strong>Les rallyes sont recommandés.</strong> Une marche par joueur rend chaque marche précieuse ; les rallyes regroupent les marches de l&apos;alliance en une seule attaque crédible au lieu d&apos;un flot de victimes solitaires.</li>
+      <li><strong>La marche initiale est une course.</strong> Les premières marches décident qui assiège et qui s&apos;agite — le timing de marche au coup d&apos;envoi compte plus que la puissance brute.</li>
+    </ul>
+
+    <h2 id="turrets-and-positioning">Tours et positionnement</h2>
+    <ul>
+      <li><strong>Les tours ne s&apos;activent PAS</strong> dans la Mêlée — ce sont des mécaniques <a href="/fr/events/kvk/">KvK</a> uniquement. Pas d&apos;écran de tours à traverser ici.</li>
+      <li><strong>Téléportez-vous dans la boue</strong> si vous ne craignez pas les attaques — là-bas, <strong>aucun bouclier n&apos;est nécessaire</strong>. La zone de boue est la plateforme de staging sûre ; utilisez-la.</li>
+    </ul>
+
+    <h2 id="capture-and-reinforcement">Capture et renfort</h2>
+    <ul>
+      <li><strong>4 heures pour prendre le château.</strong> L&apos;occupation monte en ticks au fil de la fenêtre — elle remplit <strong>plus vite avec un fort pourcentage d&apos;occupation</strong> et <strong>plus lentement quand elle est disputée</strong> par des défenseurs qui ripostent.</li>
+      <li><strong>Limite de renfort : 30 personnes</strong> sur le château. C&apos;est le plafond dur — planifiez la liste de renforts avant le combat, pas pendant.</li>
+      <li><strong>Les renforts s&apos;érodent.</strong> Les défenseurs grignotent votre garnison — <strong>retirez et re-renforcez</strong> pour réinitialiser l&apos;usure. Un renfort à 20% de PV vaut moins qu&apos;un corps frais dans ce slot.</li>
+    </ul>
+
+    <h2 id="who-takes-vs-farms">Qui prend, qui farme</h2>
+    <blockquote>Les preneurs de château doivent être Sanctuaire 6+ — tous les autres farment les tuiles de ressources pour des points.</blockquote>
+    <p>Seuls les joueurs <strong>Sanctuaire 6+</strong> peuvent occuper le château. La répartition définit votre rôle :</p>
+    <ul>
+      <li><strong>Sanctuaire 6+</strong> : marchez sur le château, rallyez, renforcez les 30 slots.</li>
+      <li><strong>Tous les autres</strong> : farmez les tuiles de ressources autour du château pour des points d&apos;événement — votre marche gagne quand même, juste pas sur les murs.</li>
+    </ul>
+    <p>Vérifiez votre niveau de Sanctuaire <strong>avant</strong> le début de l&apos;événement ; un joueur Sanctuaire 5 marchant sur le château gaspille l&apos;unique marche qu&apos;il reçoit.</p>
+
+    <h2 id="commendation-chests">Coffres de Commendation Royale</h2>
+    <ul>
+      <li><strong>R5 uniquement</strong> — le leader d&apos;alliance réclame en <strong>cliquant sur le château après la bataille</strong>.</li>
+      <li><strong>Éligibilité : être dans le royaume depuis plus de 24 heures.</strong> Les joueurs entrés dans le royaume moins d&apos;un jour avant le combat ne comptent pas pour le coffre.</li>
+    </ul>
+
+    <h2 id="royal-titles">Titres de la Cité Royale</h2>
+    <p>Gagner le château débloque le système de titres du royaume — des bonus en pourcentage temporisés appliqués par les détenteurs de titres :</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Titre</th><th>Type de bonus</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Vitesse de recherche</td><td>Bonus % temporisé sur la recherche</td></tr>
+        <tr><td>Développement du territoire</td><td>Bonus % temporisé sur le territoire</td></tr>
+        <tr><td>Entraînement</td><td>Bonus % temporisé sur l&apos;entraînement des troupes</td></tr>
+        <tr><td>Soins</td><td>Bonus % temporisé sur les soins</td></tr>
+        <tr><td>Ministre de la Cour Intérieure</td><td>Bonus de production des fermes</td></tr>
+      </tbody>
+    </table>
+    <p>Les mécaniques de file d&apos;attente :</p>
+    <ul>
+      <li><strong>Système de file</strong> — les joueurs font la queue par slot de titre, premier arrivé premier servi.</li>
+      <li><strong>Chaque slot dure 5 minutes.</strong></li>
+      <li><strong>Un courrier arrive au début et à la fin</strong> de votre slot, pour savoir exactement quand votre bonus a commencé et fini.</li>
+      <li><strong>Repostulez immédiatement à la fin de votre slot</strong> — le même titre peut être remis en file, <strong>sans limite de repostulations</strong>. Les slots enchaînés sont le schéma prévu.</li>
+      <li><strong>Recharge de 20 minutes après application</strong> — le seul frein à la file. Calibrez votre repostulation autour.</li>
+    </ul>
+    <p>Les bonus de titres se composent avec tout le reste du calendrier hebdomadaire — un slot de titre de recherche pendant la <a href="/fr/events/alliance-duel/">Phase 3 du Duel d&apos;Alliances</a> ou un slot d&apos;entraînement pendant la <a href="/fr/events/alliance-duel/">Phase 5</a>, c&apos;est le double bénéfice de calendrier autour duquel toute la semaine s&apos;articule.</p>
+
+    <VideoSection topic="royal" lang={lang} />
+  </GuidePage>
+</Base>

@@ -1,0 +1,23 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import GiftCodes from '../../components/GiftCodes.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ja';
+---
+
+<Base lang={lang} path="/ja/codes/" title="ギフトコード" description="Last Asylum: Plague の有効なギフトコードと過去のコード — 公式ドロップのたびに更新。">
+  <GuidePage title="🎁 ギフトコード" description="Last Asylum: Plague の有効なギフトコードと過去のコード — 公式ドロップのたびに更新。" lang={lang}>
+    <h2 id="latest-codes">最新コード</h2>
+    <GiftCodes lang={lang} />
+
+    <h2 id="how-to-redeem">引き換え方法</h2>
+    <p>Android / ゲーム内:画面左上のアバターをタップ → 設定 → ギフトコード → コードを入力。</p>
+    <p>iOS:公式の引き換えウェブページを使用 — 連携済みのFacebook/Googleアカウントでログインし、サーバーとキャラクターを選択してコードを入力。</p>
+
+    <h2 id="notes">注意</h2>
+    <p>コードは地域制限なしですが、通常はアカウント1つにつき1回です。大半はまず公式Discordでドロップされます — このページは各ドロップ後に更新されます。</p>
+  </GuidePage>
+</Base>

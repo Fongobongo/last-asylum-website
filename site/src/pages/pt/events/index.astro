@@ -1,0 +1,36 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'pt';
+const events = [
+  { slug: 'alliance-duel', name: 'Duelo de Alianças', icon: '⚔️', desc: 'Competição de aliança de seis dias com categorias diárias de pontos, valores exatos e a economia de guardar tudo.' },
+  { slug: 'elixir', name: 'Elixir Scramble', icon: '🧪', desc: 'Campo de batalha de pontos AvA de 30 minutos onde o controle, não as mortes, vence — Tendas de Cura, prioridade do castelo e regras de teleporte.' },
+  { slug: 'kvk', name: 'Guerra dos Reinos (KvK)', icon: '🏰', desc: 'Guerra servidor contra servidor pela Cidade Real: ataques torre-primeiro, defesa de desgaste e risco real de tropas.' },
+  { slug: 'undead', name: 'Cerco dos mortos-vivos', icon: '🧟', desc: 'Defesa de aliança contra ondas infectadas — a mecânica oculta de múltiplos esquadrões, HP persistente e marcos de recompensas.' },
+  { slug: 'cheese', name: 'Cheese Trap', icon: '🧀', desc: 'Rallye de aliança contra o rato gigante: recompensas pessoais de cinco fases, pool de HP compartilhado e a matemática de escala por nível.' },
+  { slug: 'thief', name: 'Caça aos Ladrões', icon: '💰', desc: 'Gaste vigor para spawnar chefes Líder Ladrão — mecânicas de spawn, a técnica de morte contínua e prioridades de troca.' },
+  { slug: 'survival', name: 'Survival Battle', icon: '🛡️', desc: 'Evento semanal de missões que vale ~60,000 Distintivos de Habilidade grátis — completções baratas e o choque com o Duelo de Alianças.' },
+  { slug: 'canyon', name: 'Canyon Conquest', icon: '🏜️', desc: 'Batalha de revezamento em três faixas onde a constância vence o poder — estratégia de prioridade de faixa num evento de risco zero.' },
+  { slug: 'mythic', name: 'Mythic Treasure', icon: '🗺️', desc: 'O evento pirata de sete abas decodificado para F2P: prioridades do mercado, o teto de 300 peixes e a jogada do Tesouro Enterrado.' },
+  { slug: 'royal', name: 'Disputa do Castelo Real', icon: '👑', desc: 'Corrida semanal de captura do castelo — uma marcha por jogador, reforço de 30 vagas e o sistema completo de títulos da Cidade Real.' },
+  { slug: 'arena', name: 'Arena Triangular', icon: '🔺', desc: 'Três formações, o atacante escolhe duas para vencer — defesa equilibrada, confrontos de sacrifício e o esquadrão armadilha da Arena do Destino.' },
+  { slug: 'wagon', name: 'Guild Wagon e Caravanas', icon: '🚚', desc: 'Corridas diárias grátis do vagão, regras do baú dos Guardas, atualizações do Vagão Dourado e o farme de fragmentos UR por caravana.' },
+];
+---
+<Base lang={lang} path="/pt/events/" title="Guias de eventos" description="Análises completas de cada evento de Last Asylum: Plague: horários, pontuação, estratégia e erros a evitar.">
+  <section class="py-12">
+    <h1 class="mb-3 text-4xl font-bold text-plague-100">Guias de eventos</h1>
+    <p class="mb-10 text-lg text-stone-400">Análises completas de cada evento: horários, pontuação, estratégia e erros a evitar.</p>
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {events.map(e => (
+        <a href={`/pt/events/${e.slug}/`} class="group rounded-lg border border-stone-800 bg-stone-900 p-5 transition-colors hover:border-plague-600">
+          <span class="text-3xl">{e.icon}</span>
+          <h2 class="mt-3 text-lg font-bold text-plague-200 group-hover:text-plague-100">{e.name}</h2>
+          <p class="mt-2 text-sm text-stone-400">{e.desc}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</Base>

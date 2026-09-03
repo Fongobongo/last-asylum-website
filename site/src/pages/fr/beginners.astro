@@ -1,0 +1,151 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'fr';
+---
+<Base lang={lang} path="/fr/beginners/" title="Guide débutant : vos premiers jours" description="Vos premières 24 heures dans Last Asylum: Plague — la checklist du premier jour, le calendrier de déblocage des héros, les bonus de faction, l&apos;escouade de départ officielle et les cinq erreurs qui ruinent les nouveaux comptes.">
+  <GuidePage title="Guide débutant : vos premiers jours" description="Vos premières 24 heures dans Last Asylum: Plague — la checklist du premier jour, le calendrier de déblocage des héros, les bonus de faction, l&apos;escouade de début officielle et les cinq erreurs qui ruinent les nouveaux comptes." lang={lang}>
+    <p>Last Asylum: Plague récompense une chose avant tout : la concentration. Entre les minuteurs de construction, les bannières de héros, les événements et les corvées d&apos;alliance, il est très facile de rester occupé deux semaines et de finir plus faible qu&apos;un joueur qui a joué trois jours correctement.</p>
+    <p>Ce guide condense le consensus de la communauté du Discord officiel en un manuel du premier jour : quoi faire durant les premières 24 heures, quand chaque héros important se débloque, comment la Puissance et les factions fonctionnent vraiment, et les cinq erreurs qui ruinent les nouveaux comptes.</p>
+
+    <h2 id="first-24-hours">Premières 24 heures : la checklist</h2>
+    <p>Parcourez cette liste dans l&apos;ordre. Tout le reste dans le jeu peut attendre que ces six choses soient faites.</p>
+    <ol>
+      <li><strong>Rejoignez immédiatement une alliance active.</strong> L&apos;aide à la construction réduit vos minuteurs, les événements d&apos;alliance offrent des récompenses gratuites et l&apos;appartenance dissuade les attaquants. Une alliance morte ne vous offre rien de tout ça.</li>
+      <li><strong>Poussez votre Sanctuaire.</strong> Le niveau du Sanctuaire est votre vrai niveau de joueur — il plafonne les niveaux de héros, les déblocages de bâtiments et les paliers de troupes.</li>
+      <li><strong>Gardez la Cabane du Constructeur au niveau du Sanctuaire jusqu&apos;au Sanctuaire 15.</strong> Elle distribue des accélérations de construction gratuites, le plus grand accélérateur de début de jeu.</li>
+      <li><strong>Choisissez seulement deux ou trois héros.</strong> Chaque fragment, insigne de compétence et potion d&apos;EXP que vous dispersez est un que votre escouade principale ne verra jamais.</li>
+      <li><strong>Consultez le calendrier des événements avant de dépenser des accélérations.</strong> Beaucoup d&apos;événements paient des récompenses pour faire ce que vous alliez faire de toute façon — profitez du double bénéfice.</li>
+      <li><strong>Commencez à piller dès le premier jour.</strong> Les revenus du pillage se composent ; plus tard dans le jeu, une journée d&apos;attaques manquée représente environ 27 millions de ressources perdues.</li>
+    </ol>
+
+    <h2 id="join-alliance">Rejoignez immédiatement une alliance active</h2>
+    <p>C&apos;est l&apos;étape une pour une bonne raison. Dans une alliance active, chaque construction et recherche que vous lancez est accélérée par les alliés qui cliquent sur le bouton d&apos;aide, ce qui économise silencieusement des heures de minuteurs chaque jour.</p>
+    <p>Les événements d&apos;alliance sont la deuxième source de revenus du jeu. Le Duel d&apos;Alliances et les événements similaires distribuent des fragments de héros, des accélérations et des ressources pour la participation — mais seulement si l&apos;alliance les joue vraiment.</p>
+    <p>L&apos;appartenance est aussi une protection. Les joueurs en quête de pillage facile vérifient à qui vous appartenez avant d&apos;attaquer ; l&apos;étiquette d&apos;une alliance forte fait défiler la plupart d&apos;entre eux.</p>
+    <p>Comment juger une alliance avant de la rejoindre : regardez l&apos;activité récente des membres, si les demandes d&apos;aide reçoivent vraiment des réponses, et si l&apos;alliance joue ses événements. Si vous tombez dans un cimetière avec une liste de membres pleine et zéro connexion — partez.</p>
+    <blockquote>Une alliance morte est pire que pas d&apos;alliance. Partez sans culpabilité et rejoignez-en une vivante le jour même.</blockquote>
+
+    <h2 id="sanctuary-gates">Le Sanctuaire plafonne tout</h2>
+    <p>Le Sanctuaire est le grand bâtiment central et ce qui ressemble le plus à un niveau de joueur dans ce jeu. Tous les autres bâtiments sont plafonnés par lui, chaque amélioration donne de l&apos;EXP, et son niveau décide ce que le jeu vous laisse toucher.</p>
+    <ul>
+      <li>Niveaux des bâtiments — rien dans votre ville ne peut dépasser le palier correspondant du Sanctuaire.</li>
+      <li>Plafond de niveau des héros — vos héros ne peuvent pas dépasser le niveau de votre Sanctuaire.</li>
+      <li>Paliers de troupes — les paliers supérieurs se débloquent au Champ d&apos;Entraînement, lui-même plafonné par le Sanctuaire.</li>
+      <li>Déblocages de fonctionnalités — ateliers, Taverne, fonctions d&apos;alliance et modes d&apos;événement arrivent tous à des niveaux fixes du Sanctuaire.</li>
+    </ul>
+    <p>Pour cette raison, les améliorations du Sanctuaire restent en permanence en haut de la liste des priorités. La feuille de route complète est dans le <a href="/fr/buildings/">guide des Bâtiments</a>.</p>
+    <p>Une règle spécifique aux débutants : gardez la Cabane du Constructeur au niveau actuel de votre Sanctuaire jusqu&apos;au Sanctuaire 15. Elle produit des accélérations de construction gratuites, et ce sont elles qui permettent de maintenir la poussée du Sanctuaire sans brûler vos minuteurs économisés.</p>
+
+    <h2 id="pick-heroes">Choisissez seulement deux ou trois héros</h2>
+    <p>L&apos;investissement dans les héros dans Last Asylum est brutalement cher. Fragments, insignes de compétence, potions d&apos;EXP et matériaux d&apos;équipement sont rares, et un héros à moitié construit ne vous protège de rien.</p>
+    <p>La règle de la communauté est de concentrer toutes les ressources sur UNE escouade principale de cinq héros — et au début, avant même d&apos;en avoir cinq qui valent le coup, cela signifie que deux ou trois héros portent tout votre compte.</p>
+    <p>Concrètement : choisissez vos deux ou trois, investissez tout dedans, et laissez les autres au niveau que le jeu leur a donné gratuitement. Une escouade de deux héros investis bat une escouade de cinq équitablement répartis dans presque tous les combats que vous mènerez réellement.</p>
+    <p>Quels héros choisir n&apos;est pas une question de goût — le calendrier de déblocage ci-dessous et le <a href="/fr/heroes/">guide des Héros</a> donnent le chemin canonique.</p>
+
+    <h2 id="events-speedups">Vérifiez les événements avant de dépenser des accélérations</h2>
+    <p>Accélérations, ressources et diamants ne sont pas que des monnaies — ce sont aussi du matériel de score d&apos;événement. Une grande partie des événements paient des récompenses selon la quantité que vous consommez pendant la fenêtre de l&apos;événement.</p>
+    <p>L&apos;habitude qui sépare les bons comptes des excellents : avant de brûler une pile d&apos;accélérations, ouvrez l&apos;onglet des événements et vérifiez si un événement est en cours — ou commence demain — qui récompense l&apos;utilisation d&apos;accélérations.</p>
+    <p>C&apos;est ce que les joueurs appellent le double bénéfice : la même accélération fait avancer votre construction ET marque des points d&apos;événement. Dépenser la pile un mardi mort au lieu de pendant l&apos;événement, c&apos;est payer deux fois pour un seul résultat.</p>
+
+    <h2 id="start-plundering">Commencez à piller dès le premier jour</h2>
+    <p>Le pillage est votre troisième source de revenus après la production et les événements, et c&apos;est celle que la plupart des débutants ignorent pendant des semaines. Il ne coûte que de l&apos;énergie que vous alliez gaspiller de toute façon.</p>
+    <p>Les mécaniques complètes — limites quotidiennes, les seuils de 100% / 15% / 5%, la règle des neuf coups, le bonus Ravitaillement de Guerre — sont dans le <a href="/fr/economy/">guide de l&apos;Économie</a>.</p>
+    <p>La version du premier jour est simple : attaquez la cible la plus riche que vous pouvez battre, ne laissez jamais votre énergie au plafond, et ne soyez pas le joueur qui atteint le Sanctuaire 20 avec des dizaines de millions de pillage manqué derrière lui. Maintenu quotidiennement, piller vaut environ 27 millions de ressources par jour plus tard dans le jeu.</p>
+
+    <h2 id="unlock-timeline">Calendrier de déblocage des héros</h2>
+    <p>Le jeu distribue ses meilleurs héros selon un calendrier fixe. Connaître le calendrier à l&apos;avance change complètement votre façon de dépenser les diamants — vous arrêtez d&apos;acheter des tirages aléatoires et commencez à économiser pour des cibles datées.</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Moment</th><th>Ce qui se débloque</th><th>Ce que fait la communauté</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Jours 1-2</td><td>Arthur (UR) — gratuit</td><td>Votre tank du premier jour. Réclamez-le immédiatement.</td></tr>
+        <tr><td>Jour 8</td><td>Cynthia et Shadow — Roue des Vœux</td><td>Cynthia coûte environ 11 500 diamants. Ne tirez qu&apos;en 10x.</td></tr>
+        <tr><td>Jours 36 / 43 / 57 / 64 / 72 / 85</td><td>Nouveaux événements de héros UR</td><td>Une période lourde en diamants — planifiez vos réserves à l&apos;avance.</td></tr>
+        <tr><td>Jour 66</td><td>Marlena — recharge de $1</td><td>Universellement appelée la meilleure offre du jeu.</td></tr>
+        <tr><td>Jour 120+ (Ère du Renouveau)</td><td>Daskal (tank UR) ; conversion de Claire SSR en UR au Jour 8 de l&apos;Ère</td><td>Daskal est le meilleur tank du jeu ; calculez bien le moment de la conversion de Claire.</td></tr>
+      </tbody>
+    </table>
+
+    <h3 id="arthur-day-one">Arthur : jours 1-2, UR gratuit</h3>
+    <p>Arthur est offert à chaque joueur dans les deux premiers jours, il est de rareté UR, et c&apos;est le meilleur tank de début que vous aurez jamais. Comme il est gratuit, chaque fragment que vous obtiendrez pour lui est du pur profit — un des deux héros qui méritent l&apos;investissement dès le premier jour.</p>
+
+    <h3 id="wishing-wheel-day-8">Cynthia et Shadow : Roue des Vœux du jour 8</h3>
+    <p>Le jour 8 apporte la première Roue des Vœux avec Cynthia et Shadow. Cynthia, l&apos;UR carry de début, coûte environ 11 500 diamants à sécuriser. Deux règles strictes de la communauté : gardez vos diamants jusqu&apos;au jour 8 au lieu de les dépenser avant, et ne tirez qu&apos;avec des tirages 10x — les tirages simples gaspillent des diamants pour les mêmes chances à un prix pire.</p>
+
+    <h3 id="ur-event-train">Le train d&apos;événements UR : jours 36-85</h3>
+    <p>Une série de nouveaux événements de héros UR arrive aux jours 36, 43, 57, 64, 72 et 85. Chacun est une chance d&apos;ajouter de la puissance UR — et chacun dévore des diamants. Savoir que le train arrive, c&apos;est la différence entre aborder le jour 36 avec un plan ou ruiné.</p>
+
+    <h3 id="marlena-day-66">Marlena : jour 66 et la recharge de $1</h3>
+    <p>La recharge du jour 66 qui accorde Marlena coûte un dollar et est universellement appelée le meilleur rapport qualité-prix du jeu. Marlena devient le moteur de dégâts de l&apos;escouade standard — elle représente environ 85% des dégâts de votre escouade jusqu&apos;à l&apos;arrivée de Zoya. Sautez un café, achetez l&apos;héroïne.</p>
+
+    <h3 id="era-daskal-claire">Jour 120+ : Ère du Renouveau — Daskal et Claire</h3>
+    <p>La saison de l&apos;Ère du Renouveau commence vers le jour 120. Elle apporte Daskal, le meilleur tank du jeu, et au Jour 8 de l&apos;Ère s&apos;ouvre la conversion de Claire SSR en UR. Ces deux événements changent votre escouade à long terme ; les détails de timing sont dans le <a href="/fr/era/">guide de l&apos;Ère du Renouveau</a>.</p>
+
+    <h2 id="hero-might">Comment fonctionne la Puissance des héros</h2>
+    <p>La Puissance d&apos;un héros est la somme de quatre investissements séparés. Comprendre la répartition vous dit exactement où devrait aller votre prochaine ressource.</p>
+    <ul>
+      <li><strong>Niveau</strong> — EXP des potions et du jeu. Le composant le moins cher au début.</li>
+      <li><strong>Étoiles</strong> — nourries aux fragments. Le plus grand multiplicateur : il y a un saut de puissance significatif après 4 étoiles.</li>
+      <li><strong>Compétences</strong> — nourries aux insignes. L&apos;ordre compte plus que la quantité ; voir le <a href="/fr/heroes/">guide des Héros</a>.</li>
+      <li><strong>Équipement</strong> — fabriqué dans les ateliers et amélioré avec des matériaux.</li>
+    </ul>
+    <p>Le saut des 4 étoiles est le chiffre le plus important de la planification des héros. En dessous de 4 étoiles, un héros occupe un siège ; au-dessus, le même héros commence à décider des combats.</p>
+    <p>Et comme les fragments, insignes et matériaux d&apos;équipement sont rares, la formule de Puissance ne rentabilise que concentrée : toutes les ressources vont dans UNE escouade principale de cinq, dans l&apos;ordre où l&apos;escouade combat réellement.</p>
+
+    <h2 id="factions-counters">Factions et contres</h2>
+    <p>Les héros appartiennent à trois factions — Guerrier, Éclaireur et Occultiste — et le jeu vous paie deux fois pour la discipline de faction : un bonus pour empiler une seule faction, et un cycle de contres pour les combats.</p>
+    <p>D&apos;abord, le bonus d&apos;empilement. Plus vous déployez de héros de même faction, plus le bonus d&apos;escouade est grand :</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Héros de même faction dans l&apos;escouade</th><th>Bonus d&apos;escouade</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>3</td><td>+5% HP / ATK / DEF</td></tr>
+        <tr><td>4</td><td>+15% HP / ATK / DEF</td></tr>
+        <tr><td>5</td><td>+20% HP / ATK / DEF</td></tr>
+      </tbody>
+    </table>
+    <p>Ensuite, le cycle des contres : les Guerriers battent les Occultistes, les Occultistes battent les Éclaireurs, les Éclaireurs battent les Guerriers. Une formation d&apos;Éclaireurs subit 20% de dégâts en moins des Guerriers — c&apos;est pourquoi les escouades d&apos;Éclaireurs de mi-partie farment si bien les défenseurs bourrés de Guerriers.</p>
+    <p>Pour construire vos formations, la conclusion est simple : choisissez une voie de faction, empilez vers le bonus de +20% à cinq héros, et vérifiez la faction de l&apos;escouade ennemie avant d&apos;attaquer, pas après.</p>
+
+    <h2 id="early-lineup">Votre première formation</h2>
+    <p>L&apos;escouade de début officiellement recommandée ressemble à ceci :</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Rang</th><th>Héros</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Avant</td><td>Arthur, Bella</td></tr>
+        <tr><td>Arrière</td><td>Marlena, Claire, Celia</td></tr>
+      </tbody>
+    </table>
+    <p>Arthur ancre l&apos;avant comme tank ; Bella tient le second siège avant. Marlena est la carry de dégâts du build standard, Claire est le buffer de la ligne arrière, et Celia remplit le cinquième siège jusqu&apos;à l&apos;arrivée de votre vraie escouade.</p>
+    <p>Ce qui compte plus que les sièges exacts, c&apos;est la répartition de l&apos;investissement dans cette formation : deux ou trois héros reçoivent tout, le reste reste des remplaçants bon marché. La répartition F2P canonique — Arthur et Claire au début, Marlena au jour 66 — est détaillée pas à pas dans le <a href="/fr/heroes/">guide des Héros</a>.</p>
+
+    <h2 id="mistakes">Erreurs fréquentes au début</h2>
+    <p>Presque tous les comptes bloqués de ce jeu ont commis une de ces cinq erreurs. Aucune n&apos;est évidente depuis le tutoriel.</p>
+
+    <h3 id="mistake-equal-upgrades">1. Tout améliorer équitablement</h3>
+    <p>L&apos;instinct venu des autres city-builders est de garder chaque bâtiment au même niveau. Dans Last Asylum, cela produit une ville médiocre en tout et plafonnée par rien. Suivez l&apos;ordre de priorité — le Sanctuaire d&apos;abord, les bâtiments militaires et de recherche ensuite, le reste quand ça vous bloque. L&apos;ordre complet et la feuille de route niveau par niveau sont dans le <a href="/fr/buildings/">guide des Bâtiments</a>.</p>
+
+    <h3 id="mistake-judging-early">2. Juger les héros trop tôt</h3>
+    <p>Un héros peu étoilé de niveau 60 semble terrible — compétences faibles, multiplicateurs fins, pas de Ténacité. Le même héros très étoilé est un monstre. L&apos;exemple classique est Marlena : elle paraît décevante au début puis devient environ 85% des dégâts d&apos;une escouade standard quand ses étoiles et compétences arrivent. Jugez un héros à son point de bascule, pas au niveau 60 avec deux étoiles.</p>
+
+    <h3 id="mistake-splitting">3. Répartir les ressources entre trop de héros</h3>
+    <p>Huit héros à moitié construits perdent contre deux terminés dans chaque combat qui compte, et l&apos;économie de fragments signifie que les ressources gaspillées sur des bouche-trous ne reviendront pas. Choisissez les cinq principaux, nommez les deux ou trois que vous construisez ce mois-ci, et soyez impitoyable avec tout le reste.</p>
+
+    <h3 id="mistake-stamina">4. Laisser l&apos;énergie au plafond</h3>
+    <p>L&apos;énergie qui reste au plafond est un revenu que vous avez supprimé définitivement — le jeu ne banque pas le surplus. Dépensez-la en monstres ou en pillage avant de vous déconnecter, à chaque session, dès le premier jour.</p>
+
+    <h3 id="mistake-plunder">5. Rater le pillage quotidien</h3>
+    <p>Maintenu quotidiennement, le pillage vaut environ 27 millions de ressources par jour plus tard dans le jeu. Ignoré, il n&apos;existe aucun mécanisme de rattrapage — ces ressources sont simplement perdues. Attaquez la cible la plus riche que vous pouvez battre, respectez les seuils de la limite quotidienne, et ne donnez jamais le dixième coup à une ferme. Le règlement complet du pillage est dans le <a href="/fr/economy/">guide de l&apos;Économie</a>.</p>
+
+    <VideoSection topic="beginner" lang={lang} />
+  </GuidePage>
+</Base>

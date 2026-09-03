@@ -1,0 +1,126 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'de';
+
+const comparisons = [
+  {
+    slug: 'marlena-vs-zoya',
+    title: 'Marlena vs Zoya — welcher UR-Carry?',
+    verdict: 'Marlena zuerst, Zoya später',
+    points: [
+      ['Verfügbarkeit', 'Fast gratis (1-$-Top-up), an Tag 66 kostenlos', 'Nur bezahlt (10 Fragmente zum Start)'],
+      ['Schadensanteil', '~85% des Truppenschadens allein', 'Teilt ~50/50 mit einer maximierten Marlena'],
+      ['Schadenstyp', 'Physisch/Energie-Mix je nach Build', 'Energie-Wirbel — braucht Energie-Supports'],
+      ['Synergie', '4× gebufft in der Standard-Compo (Harper-Ulti + Bell + Claires Passiv)', 'Stapelt sich nicht mit dem physischen Jester'],
+      ['F2P-Urteil', 'Der Haupt-Carry des gesamten F2P-Wegs', 'Claire nur ersetzen, wenn deine Zoya hohe Sterne hat'],
+    ],
+    video: 'XktNJ6u4sWo',
+  },
+  {
+    slug: 'cynthia-vs-marlena-f2p',
+    title: 'Cynthia vs Marlena für F2P',
+    verdict: 'Zahl den Dollar — aber Cynthia funktioniert, wenn du wirklich nicht kannst',
+    points: [
+      ['Kosten', '~11.500 Diamanten (Rad an Tag 8)', '1-$-Top-up'],
+      ['Frühe Stärke', 'Starker früher Carry (Ranger-UR)', 'Spätzünder — schwach bis hohe Sterne'],
+      ['Lategame', 'Verliere 5% Fraktionsbonus + Harper/Epigraph-Synergie', 'Kern der Mono-Warrior-Meta'],
+      ['Rad-Timing', 'Diamanten an Tag 1–8 sparen', 'Keine Diamantenkosten'],
+      ['Urteil', 'Lebensfähiger früher Peak, fällt später ab', 'Universell gegenüber Cynthia empfohlen'],
+    ],
+  },
+  {
+    slug: 'annie-vs-joker',
+    title: 'Annie vs Joker — welcher Warlock-Carry?',
+    verdict: 'Annie für den Wert, Joker als PvP-Finisher',
+    points: [
+      ['Rolle', 'Nachhaltiger Carry + Teamwert bei 8★', 'Henker — zielt auf Gegner mit dem niedrigsten HP'],
+      ['F2P-Zugang', 'Helden-Pass (die Wahl der Community)', 'Wunschrad nach Tag 15'],
+      ['Synergie', 'Passt zu Energie-Supports', 'Physisch — passt NICHT zu Zoya'],
+      ['Am besten in', 'Lange Kämpfe, Monster-Content', 'PvP-Aufräumen, nachdem Marlena aufgeweicht hat'],
+    ],
+    video: 'ekodq_Wh2_I',
+  },
+  {
+    slug: 'claire-vs-keep-ssr',
+    title: 'Claire SSR→UR — jetzt konvertieren oder warten?',
+    verdict: 'Immer konvertieren — die Frage ist das Timing',
+    points: [
+      ['Persönlicher Schaden', '9★ UR ≈ 1,70× maxed SSR; 10★ ≈ 2,20×', '—'],
+      ['Team-Buff', 'Fällt von 16% → 10% bei 6★ (ein paar % echter Verlust)', '—'],
+      ['Dip überspringen', 'Ehrenhalle ansparen: St.60→8★, St.100→9★, St.160→sofort 10★', '—'],
+      ['PvP', 'Adv. Zähigkeit bei 8★ = +20% ATK/HP/DEF +10% CDR', '—'],
+      ['Kosten', '1.600 SSR-Scherben zum 2×-Preis (6★→10★)', '—'],
+    ],
+    video: '-9Nysk8pcns',
+  },
+  {
+    slug: 'shadow-vs-lucius',
+    title: 'Shadow vs Lucius — zweiter Tank',
+    verdict: 'Lucius jetzt gratis; Shadow, wenn du den Helden-Pass kaufst',
+    points: [
+      ['Kosten', 'Helden-Pass (bezahlt)', 'Gratis-Scherben'],
+      ['Scaling', '8★/10★ deutlich besser als 6★', 'Stabiler Platzhalter'],
+      ['Regel', 'Wenn gekauft: als TEMP-Hero behandeln — max. 8★, Skills 15–20', 'Frei einwechseln, während du Daskal baust'],
+      ['Endgame', 'Daskal ersetzt beide', '—'],
+    ],
+  },
+];
+---
+
+<Base lang={lang} path="/de/compare/" title="Helden-Vergleiche" description="Marlena vs Zoya, Annie vs Joker, Claire-Konvertierungs-Timing — Urteile Seite an Seite aus den Community-Guides.">
+  <GuidePage
+    title="⚖️ Helden-Vergleiche"
+    description="Die Debatten, die Spieler wirklich führen — entschieden von den Community-Guides mit exakten Zahlen."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/de/' }, { label: 'Vergleiche' }]}
+  >
+    {comparisons.map((c) => (
+      <section class="not-prose mb-10">
+        <h2 id={c.slug} class="mb-1 text-2xl font-bold text-plague-200">{c.title}</h2>
+        <p class="mb-4 text-sm font-semibold text-toxic-400">✓ {c.verdict}</p>
+        <div class="overflow-x-auto rounded-lg border border-stone-800">
+          <table class="w-full text-sm">
+            {c.points.map((row) => (
+              <tr class="border-t border-stone-800 first:border-t-0">
+                <td class="w-40 bg-stone-900 p-3 font-semibold text-plague-300">{row[0]}</td>
+                <td class="p-3 text-stone-300">{row[1]}</td>
+                <td class="p-3 text-stone-400">{row[2]}</td>
+              </tr>
+            ))}
+          </table>
+        </div>
+        {c.video && (
+          <div class="js-video-facade mt-4 max-w-md cursor-pointer" data-video-id={c.video} role="button" tabindex="0" aria-label="Vergleichsvideo abspielen">
+            <span class="block aspect-video overflow-hidden rounded-lg border border-stone-800">
+              <img src={`https://i.ytimg.com/vi/${c.video}/hqdefault.jpg`} alt="Vergleichsvideo" loading="lazy" class="h-full w-full object-cover" />
+            </span>
+          </div>
+        )}
+      </section>
+    ))}
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>
+
+<script>
+  document.querySelectorAll('.js-video-facade').forEach((el) => {
+    el.addEventListener('click', () => {
+      const id = (el as HTMLElement).dataset.videoId;
+      if (!id) return;
+      const frame = document.createElement('iframe');
+      frame.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1`;
+      frame.title = 'Video';
+      frame.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      frame.allowFullscreen = true;
+      frame.className = 'aspect-video w-full max-w-md rounded-lg';
+      el.replaceWith(frame);
+    });
+  });
+</script>

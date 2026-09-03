@@ -1,0 +1,101 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+<Base lang={lang} path="/id/events/mythic/" title="Mythic Treasure: Panduan F2P" description="Ketujuh tab event bajak laut diuraikan untuk pemain gratis: battle pass, jebakan mesin slot, prioritas Pirate Market yang dikoreksi, batas harian 300 ikan, dan strategi bunuh-diri-untuk-hadiah Buried Treasure.">
+  <GuidePage title="Mythic Treasure: Panduan F2P" description="Ketujuh tab event bajak laut diuraikan untuk pemain gratis: battle pass, jebakan mesin slot, prioritas Pirate Market yang dikoreksi, batas harian 300 ikan, dan strategi bunuh-diri-untuk-hadiah Buried Treasure." lang={lang}>
+    <p>Mythic Treasure adalah event bertema bajak laut besar, dan dibangun seperti corong: tujuh tab, enam di antaranya mengarah ke pembelanjaan, dan segelintir nilai gratis sejati terkubur di dalamnya. Permainan F2P adalah mengetahui tepat tab mana yang membayar dan mana yang ada untuk menggoda Anda — lalu grind yang gratis setiap hari.</p>
+    <p>Panduan ini menelusuri ketujuh tab dengan prioritas pasar yang dikoreksi, ekonomi ikan, strategi Buried Treasure, dan aturan kedaluwarsa koin-jangkar yang menjerat semua orang.</p>
+
+    <h2 id="the-7-tabs">Ketujuh Tab Sekilas</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Tab</th><th>Apa itu</th><th>Vonis F2P</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1. Pirate&apos;s Mythic Treasure</td><td>Battle pass</td><td>Hanya jalur gratis</td></tr>
+        <tr><td>2. Pirate&apos;s Game</td><td>Mesin slot</td><td>Hanya draw gratis, jangan pernah kejar</td></tr>
+        <tr><td>3. Pirate Market</td><td>Toko koin jangkar</td><td>Beli fragmen UR harian</td></tr>
+        <tr><td>4. Grand Feast</td><td>Event ikan seluruh server</td><td>Salah satu bagian F2P terbaik — kerjakan</td></tr>
+        <tr><td>5. Delicious Hunt</td><td>Farming Sea Fish</td><td>Farm sampai batas 300 harian</td></tr>
+        <tr><td>6. Deep Sea&apos;s Gift</td><td>Hadiah top-up uang</td><td>Lewati sebagai F2P</td></tr>
+        <tr><td>7. Buried Treasure</td><td>Mini-game</td><td>5 lari gratis + strategi bunuh-diri</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="tab-1-pass">Tab 1: Pirate&apos;s Mythic Treasure (Battle Pass)</h2>
+    <p>Battle pass utamanya. <strong>Jalur lanjutan berharga 499</strong> dan membayar dalam <strong>Koin Jangkar, Emas Bajak Laut dan peti eksklusif</strong>. Jika Anda membelanjakan untuk satu hal dalam event ini, ini kandidatnya — tetapi jalur gratis tetap membayar, dan semua di bawah berfungsi tanpa pass.</p>
+
+    <h2 id="tab-2-slots">Tab 2: Pirate&apos;s Game (Mesin Slot)</h2>
+    <ul>
+      <li>Spin berbayar memberikan <strong>Koin Jangkar</strong>, dan ada opsi <strong>draw 5X</strong>.</li>
+      <li>Itu <strong>RNG murni — jangan kejar.</strong> Mesin slot adalah target nilai terburuk tunggal dalam event, dan dirancang untuk terasa hampir keluar.</li>
+      <li>Ambil <strong>draw gratis</strong> setiap hari dan pergi. Itulah seluruh tabnya.</li>
+    </ul>
+
+    <h2 id="tab-3-market">Tab 3: Pirate Market — Prioritas yang Dikoreksi</h2>
+    <p>Pasar menerima Koin Jangkar, dan urutan belinya lebih penting daripada di mana pun lain dalam event:</p>
+    <ol>
+      <li><strong>Fragmen UR — BELI SETIAP HARI.</strong> Prioritas teratas, tanpa perdebatan. Ini nilai hero terjamin yang ditawarkan event.</li>
+      <li><strong>Peti Curio harian</strong> — jika Anda punya jangkar sisa setelah fragmen.</li>
+      <li><strong>Sisa hari terakhir ke Raven Essence atau percepatan</strong> — habiskan sisanya sebelum penukaran ditutup (lihat <a href="#anchor-expiry">aturan kedaluwarsa</a>).</li>
+    </ol>
+    <p>Dan dua larangan keras:</p>
+    <ul>
+      <li><strong>Jangan beli percepatan atau sumber daya dengan jangkar.</strong> Mereka tersedia di mana-mana lain dalam game; fragmen UR tidak.</li>
+      <li><strong>Mutiara hanya menaikkan HP hero — &quot;tidak terlalu berguna&quot;.</strong> Lewati.</li>
+    </ul>
+    <p>Satu jebakan lagi yang perlu diketahui: <strong>skin kapal 4.000 jangkar itu ada</strong>. Cantik. <strong>Jangan korbankan hadiah terjamin untuk itu</strong> — empat ribu jangkar adalah seluruh penghasilan fragmen pasar untuk event itu.</p>
+
+    <h2 id="tab-4-grand-feast">Tab 4: Grand Feast</h2>
+    <p>Bangket seluruh server: kirimkan <strong>10 Sea Fish untuk 1 EXP Bangket</strong>, dengan <strong>hadiah top-50</strong> untuk kontributor terbesar. Vonis komunitasnya blak-blakan — <strong>&quot;salah satu bagian F2P terbaik&quot;</strong> dari event. Tidak berbiaya apa-apa selain ikan yang Anda farm juga (lihat <a href="#tab-5-fish">Delicious Hunt</a>), dan membayar hadiah yang terlihat seluruh server. Kirim setiap hari, setiap hari, tanpa kecuali.</p>
+
+    <h2 id="tab-5-fish">Tab 5: Delicious Hunt (Farming Sea Fish)</h2>
+    <p>Sea Fish datang dari target harian normal Anda:</p>
+    <ul>
+      <li>Falcon Tower</li>
+      <li>Monster Sumber Daya</li>
+      <li>Elite Blight</li>
+      <li>Black Ops</li>
+      <li>Wandering Blight</li>
+    </ul>
+    <p>Angka kritisnya: <strong>BATAS HARIAN 300 ikan</strong>. Farm melewatinya dan Anda membunuh mob untuk nol — penghitungnya berhenti. Capai 300, berhenti, tabung waktunya. Ikan memberi makan Grand Feast, itulah mengapa kedua tab bersama-sama adalah inti F2P dari seluruh event.</p>
+
+    <h2 id="tab-6-deep-sea">Tab 6: Deep Sea&apos;s Gift</h2>
+    <p>Satu klarifikasi yang menghemat intan: tab ini memberi hadiah <strong>top-up uang, BUKAN pembelanjaan intan</strong>. Tidak seperti event tonggak belanja intan, tidak ada yang bisa dilakukan akun F2P di sini. Lewati tab ini sepenuhnya — itu bukan untuk Anda.</p>
+
+    <h2 id="tab-7-buried">Tab 7: Buried Treasure (Mini-Game F2P)</h2>
+    <p>Mini-game pencocokan, dan tab yang paling disalahpahami:</p>
+    <ul>
+      <li><strong>5 percobaan gratis per hari.</strong></li>
+      <li>Skill gratis: <strong>Remove, Recall, Refresh.</strong></li>
+      <li>Hadiah <strong>BUKAN untuk membersihkan tahap</strong> — hadiah diberikan <strong>SATU PER SATU SAAT DICOCOKKAN</strong>.</li>
+      <li><strong>Hadiah yang sudah dikumpulkan AMAN meski Anda gagal dalam lari itu.</strong> Cocok = tertabung.</li>
+    </ul>
+    <p>Yang menghasilkan strategi F2P kontraintuitif, permainan <strong>&quot;bunuh-diri untuk hadiah&quot;</strong>: ambil hadiah papan, lalu <strong>sengaja kalah</strong>. Membersihkan bukan tujuannya — mencocokkan hadiah dari papanlah tujuannya. Gagal tidak berbiaya apa-apa dan menjaga jarahan yang cocok.</p>
+    <p>Satu catatan: <strong>tahap 2 nyaris mustahil tanpa membayar</strong> — dia menginginkan kira-kira <strong>26 clear</strong>. Jangan bakar percobaan atau uang mengejarnya; farm nilai gratis tahap 1 saja.</p>
+
+    <h2 id="anchor-expiry">KRITIS: Koin Jangkar Tidak Dibawa Maju</h2>
+    <blockquote>Koin Jangkar TIDAK dibawa maju — koin tak terpakai dikonversi ke percepatan saat penukaran ditutup. Benar-benar habiskan semuanya sebelum itu.</blockquote>
+    <p>Percepatan adalah hadiah penghiburan, bukan tujuannya (lihat <a href="#tab-3-market">prioritas pasar</a> — jangkar membeli fragmen UR, percepatan membeli percepatan). Mengakhiri event dengan sisa jangkar adalah kerugian nilai langsung: semua yang bisa mereka beli di pasar semuanya lebih baik daripada tingkat konversinya.</p>
+
+    <h2 id="f2p-checklist">Checklist Harian F2P</h2>
+    <ol>
+      <li>Farm <strong>300 Sea Fish</strong> (Delicious Hunt) dan berhenti di batasnya.</li>
+      <li>Kirim ikan ke <strong>Grand Feast</strong>.</li>
+      <li>Mainkan <strong>5 percobaan Buried Treasure</strong> — cocokkan hadiah, bunuh diri, ulangi.</li>
+      <li>Ambil <strong>draw gratis Pirate&apos;s Game</strong>.</li>
+      <li>Belanjakan jangkar pada nilai terjamin — <strong>fragmen UR dulu</strong>.</li>
+    </ol>
+
+    <h2 id="community-verdict">Vonis Komunitas</h2>
+    <p>Mythic Treasure <strong>beraroma P2W berat</strong> — pass, slot dan tab top-up semuanya dibangun untuk pembelanja. Tetapi bagian F2P-nya — <strong>Grand Feast, Buried Treasure, dan farming ikan</strong> — layak dikerjakan setiap hari event berjalan. Grind itu, abaikan sisanya, dan jangan tinggalkan apa pun di atas meja saat penukaran ditutup.</p>
+
+    <VideoSection topic="mythic" lang={lang} />
+  </GuidePage>
+</Base>

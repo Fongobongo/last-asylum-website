@@ -1,0 +1,23 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import GiftCodes from '../../components/GiftCodes.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ko';
+---
+
+<Base lang={lang} path="/ko/codes/" title="기프트 코드" description="Last Asylum: Plague의 활성 및 지난 기프트 코드 — 공식 드롭마다 갱신.">
+  <GuidePage title="🎁 기프트 코드" description="Last Asylum: Plague의 활성 및 지난 기프트 코드 — 공식 드롭마다 갱신." lang={lang}>
+    <h2 id="latest-codes">최신 코드</h2>
+    <GiftCodes lang={lang} />
+
+    <h2 id="how-to-redeem">교환 방법</h2>
+    <p>Android: 게임 내 설정을 열고 선물 코드(또는 CDK) 입력창을 찾으세요. 보상은 우편함으로 전달됩니다.</p>
+    <p>iOS: 일부 빌드에서는 코드 교환이 잠겨 있습니다. 공식 Discord나 커뮤니티 채널을 확인하세요. 코드는 계정당 1회만 사용할 수 있으며 서버 제한 없이 어디서나 작동합니다.</p>
+
+    <h2 id="notes">참고</h2>
+    <p>코드는 리전 제한이 없지만 보통 계정당 1회입니다. 대부분 공식 Discord에서 먼저 드롭됩니다 — 이 페이지는 각 드롭 후 갱신됩니다.</p>
+  </GuidePage>
+</Base>

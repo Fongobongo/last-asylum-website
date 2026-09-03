@@ -1,0 +1,102 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+<Base lang={lang} path="/id/events/undead/" title="Undead Siege: Panduan Lengkap" description="Pertahanan aliansi melawan gelombang terinfeksi: batang petunjuk 300.000, level kesulitan dari 2,4M hingga 24,5M Kekuatan Musuh, mekanik multi-pasukan tersembunyi yang menumbangkan 9,5 juta pemain, dan tabel hadiah lengkap.">
+  <GuidePage title="Undead Siege: Panduan Lengkap" description="Pertahanan aliansi melawan gelombang terinfeksi: batang petunjuk 300.000, level kesulitan dari 2,4M hingga 24,5M Kekuatan Musuh, mekanik multi-pasukan tersembunyi yang menumbangkan 9,5 juta pemain, dan tabel hadiah lengkap." lang={lang}>
+    <p>Undead Siege adalah event pertahanan aliansi: seluruh aliansi Anda berdiri melawan <strong>gelombang terinfeksi</strong>, dengan hero di tembok yang melakukan pertarungan. Dua aturan menentukannya sebelum apa pun lain: <strong>shield tidak berfungsi</strong>, dan ini <strong>bukan event poin</strong> — tujuannya adalah mempertahankan sebanyak mungkin gelombang.</p>
+    <p>Panduan ini membahas bagaimana siege terbuka, tangga kesulitan, mekanik multi-pasukan tersembunyi yang menyapu aliansi yang kurang siap, hadiah, dan tujuh kesalahan teratas.</p>
+
+    <h2 id="unlocking">Bagaimana Siege Terbuka</h2>
+    <p>Siege tidak berjalan pada timer — aliansi Anda yang memicunya:</p>
+    <ol>
+      <li>Isi batang <strong>300.000 Poin Petunjuk</strong>.</li>
+      <li><strong>R4 atau R5 menemukan Death Prison tersembunyi</strong> di peta.</li>
+      <li>Pemimpin itu <strong>memulai siege dan memilih kesulitannya</strong>.</li>
+      <li>Siege dimulai kira-kira <strong>4 jam setelah klik</strong> — gunakan jeda itu untuk menaikkan hero setiap anggota ke tembok.</li>
+    </ol>
+    <p>Poin petunjuk datang dari permainan harian normal:</p>
+    <ul>
+      <li>Menyerang <strong>Rebel</strong> dan <strong>Blight Legion</strong></li>
+      <li>Membunuh <strong>Wandering Blight</strong></li>
+      <li>Mengumpulkan sumber daya di ubin</li>
+      <li>Membantu sekutu (ketukan bantu-bangun dan bantu-riset)</li>
+      <li>Menjalankan <strong>Alliance Excavation</strong></li>
+      <li>Menyelesaikan <strong>Falcon Quest</strong></li>
+    </ul>
+    <p>Aliansi aktif mengisi batangnya lewat permainan biasa; batangnya bukan penghambatnya, kesiapanlah.</p>
+
+    <h2 id="difficulty">Level Kesulitan</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Kesulitan</th><th>Kekuatan Musuh</th><th>Wilayah</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Level 1</td><td>2,4M</td><td>Wilayah 13</td></tr>
+        <tr><td>Level 6</td><td>~3 pasukan per gelombang</td><td>—</td></tr>
+        <tr><td>Level 10</td><td>24,5M</td><td>Wilayah 27</td></tr>
+      </tbody>
+    </table>
+    <p>Tangganya menskalakan menerus dari 2,4M Kekuatan Musuh di Level 1 sampai 24,5M di Level 10, dengan syarat wilayah naik dari 13 ke 27. Level kesulitan lebih tinggi juga membuka <strong>Mutasi Musuh</strong> — <strong>pratinjau mutasinya sebelum berkomitmen</strong> ke satu kesulitan, karena mutasi yang counter komposisi pertahanan Anda bernilai jutaan Kekuatan Musuh.</p>
+
+    <h2 id="hidden-mechanic">Mekanik Multi-Pasukan Tersembunyi</h2>
+    <p>Ini bagian event yang tidak diberitahukan layar kesulitan kepada Anda, dan merupakan pembeda antara bertahan 20 gelombang dan runtuh di 17:</p>
+    <ul>
+      <li>Siege mengirim <strong>2 pasukan atau lebih pada kekuatan yang tertera</strong>. Tertera 8M berarti Anda melawan dua pasukan 8M — efektifnya dua kali lipat angka di tombolnya.</li>
+      <li>Pada <strong>gelombang 17</strong> dari kesulitan 8M, kekuatan sebenarnya kira-kira <strong>7,3M x 2</strong>.</li>
+      <li>Pada <strong>kesulitan 6 ke atas, gelombang mengirim 3 pasukan</strong>.</li>
+      <li><strong>HP pasukan bertahan di antara gelombang.</strong> Tank Anda memulai pertarungan berikutnya pada HP apa pun saat mengakhiri yang terakhir — dan pasukan 1 Anda harus bertahan <strong>pertarungan beruntun</strong> tanpa penyembuhan di antaranya.</li>
+    </ul>
+    <blockquote>Pemain 9,5M mati di gelombang 17 dari kesulitan 8M — tergerus oleh pertarungan beruntun dengan HP persisten. Kekuatan yang tertera bukanlah pertarungannya.</blockquote>
+
+    <h2 id="rewards">Hadiah</h2>
+    <h3 id="personal-rewards">Tonggak Pribadi</h3>
+    <p>Setiap pemain menghadapi <strong>20 gelombang solo</strong>, dengan tonggak di gelombang <strong>1, 4, 8, 10, 13, 16 dan 20</strong> — token, upgrade dan peti. Jika kota Anda jatuh kota itu <strong>tidak akan diserang lagi</strong>, tetapi hadiah pribadi Anda berhenti di situ: mati di gelombang 12 dari 20 melepaskan setiap tonggak setelahnya.</p>
+    <h3 id="alliance-rewards">Tonggak Aliansi</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Total gelombang aliansi</th><th>Hadiah</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>50</td><td>XP Hero, material, medali</td></tr>
+        <tr><td>100</td><td>XP Hero, material, medali</td></tr>
+        <tr><td>150</td><td>XP Hero, material, medali</td></tr>
+        <tr><td>200</td><td>XP Hero, material, medali</td></tr>
+        <tr><td>250</td><td>XP Hero, material, medali</td></tr>
+        <tr><td>300</td><td>XP Hero, material, medali</td></tr>
+      </tbody>
+    </table>
+    <p>Dua aturan seputar total aliansi:</p>
+    <ul>
+      <li><strong>Keanggotaan lebih dari 48 jam</strong> disyaratkan untuk menerima hadiah aliansi — yang baru gabung tidak ikut mengumpulkan.</li>
+      <li><strong>Menguatkan anggota lain tidak menggandakan hadiah pribadi Anda</strong> — itu menaikkan total aliansi. Lakukan juga: tonggak aliansi adalah pembayaran besarannya.</li>
+    </ul>
+    <p>Rekor sepanjang masa berdiri di <strong>1.193 gelombang</strong> dalam satu siege.</p>
+
+    <h2 id="deployment">Penempatan: Pasukan dan Penguatan</h2>
+    <ul>
+      <li><strong>Pasukan terkuat Anda masuk ke tembok Anda sendiri.</strong> Pasukan itu membawa 20 gelombang pribadi Anda.</li>
+      <li><strong>Sisa pasukan Anda menguatkan anggota lain</strong> — penguatan menaikkan total aliansi, di sanalah hadiah bersama berada.</li>
+      <li>Penguatan mendarat di tembok anggota dan melawan gelombang yang datang bersama mereka — kirim sebelum gelombang menghantam, bukan setelah notifikasinya.</li>
+    </ul>
+
+    <h2 id="top-mistakes">7 Kesalahan Teratas</h2>
+    <ol>
+      <li><strong>Hero tidak di tembok</strong> — pembunuh terbesar. Hero di tembok adalah inti eventnya; tembok tanpa hero adalah kota yang menunggu jatuh.</li>
+      <li><strong>Mengabaikan pertahanan tembok</strong> — <strong>tidak ada pertahanan-otomatis</strong> dalam event ini. Apa pun yang Anda pra-atur itulah yang bertarung.</li>
+      <li><strong>Memulai tanpa petunjuk 100% selesai</strong> — mulai terburu-buru membuang jendela peringatan 4 jam.</li>
+      <li><strong>Meremehkan mutasi</strong> — selalu baca pratinjau mutasi sebelum memilih kesulitan.</li>
+      <li><strong>Tidak menguatkan anggota</strong> — tonggak aliansi butuh tubuh di setiap tembok, bukan hanya milik Anda.</li>
+      <li><strong>Memulai dengan pasukan setengah isi</strong> — pasukan tembok setengah kosong adalah pasukan tembok mati.</li>
+      <li><strong>Keluar tanpa pertahanan pra-atur</strong> — pertahanan offline berfungsi, tetapi <strong>hanya jika sudah pra-atur</strong>. Atur, lalu tidur.</li>
+    </ol>
+    <p>Jalankan event dengan tujuh itu diperbaiki dan aliansi Anda bertahan dekat plafonnya. Penataan hero untuk tembok dan komposisi pasukan dibahas di <a href="/id/heroes/">Panduan Hero</a>.</p>
+
+    <VideoSection topic="undead" lang={lang} />
+  </GuidePage>
+</Base>

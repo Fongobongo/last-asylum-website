@@ -1,0 +1,78 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ko';
+---
+<Base lang={lang} path="/ko/events/royal/" title="로열 성채 스크램블 &amp; 칭호" description="주간 성 점령 레이스: 플레이어당 1행군, 포탑과 증원 규칙, 생츄어리 6+ 점령, 왕립 훈장 상자, 그리고 대기열 메커니즘이 있는 완전한 로열 시티 칭호 시스템.">
+  <GuidePage title="로열 성채 스크램블 &amp; 칭호" description="주간 성 점령 레이스: 플레이어당 1행군, 포탑과 증원 규칙, 생츄어리 6+ 점령, 왕립 훈장 상자, 그리고 대기열 메커니즘이 있는 완전한 로열 시티 칭호 시스템." lang={lang}>
+    <p>로열 성채 스크램블은 <strong>주간 성 점령</strong>입니다: 동맹들이 로열 성을 가져와 유지하기 위해 경쟁하며, <strong>매주 같은 요일 같은 시간</strong>에 진행됩니다. 성 전투 자체는 빠르고 간단합니다 — 경기를 결정하는 것은 준비 (행군, 증원, 생츄어리 레벨)입니다.</p>
+    <p>이 가이드는 점령 규칙, 증원 메커니즘, 훈장 상자, 그리고 승리 왕국이 해금하는 완전한 로열 시티 칭호 시스템을 다룹니다.</p>
+
+    <h2 id="how-it-works">작동 방식</h2>
+    <ul>
+      <li><strong>주간</strong>, 매주 같은 요일 같은 시간 — 알람을 한 번 설정하면 바뀌지 않습니다.</li>
+      <li><strong>플레이어당 1행군.</strong> 이벤트 전체에 단 하나의 행군을 받습니다.</li>
+      <li><strong>가속할 수 없습니다.</strong> 가속도 가속 아이템도 없습니다 — 가지고 행군한 속도가 착지하는 속도입니다.</li>
+      <li><strong>집결이 권장됩니다.</strong> 플레이어당 1행군은 모든 행군을 소중하게 만듭니다; 집결은 동맹의 행군을 솔로 사상자의 물줄기가 아니라 하나의 믿을 만한 공격로 합칩니다.</li>
+      <li><strong>초기 행군은 레이스입니다.</strong> 첫 행군이 포위하는 쪽과 쫓기는 쪽을 결정합니다 — 개전 호각 순간의 행군 타이밍이 순수 전력보다 중요합니다.</li>
+    </ul>
+
+    <h2 id="turrets-and-positioning">포탑과 포지셔닝</h2>
+    <ul>
+      <li><strong>포탑은 스크램블에서 활성화되지 않습니다</strong> — 그것은 <a href="/ko/events/kvk/">KvK</a> 메커니즘입니다. 여기엔 뚫어야 할 포탑 장막이 없습니다.</li>
+      <li>공격이 걱정되지 않는다면 <strong>진흙 지대로 순간이동하세요</strong> — 그곳은 <strong>보호막이 필요 없습니다</strong>. 진흙 지역은 안전한 대기지입니다; 활용하세요.</li>
+    </ul>
+
+    <h2 id="capture-and-reinforcement">점령과 증원</h2>
+    <ul>
+      <li><strong>성을 점령하는 데 4시간.</strong> 점령 게이지는 시간 창 동안 차오릅니다 — <strong>점령율이 높을수록 빠르게</strong> 차고, 수비자가 맞서 싸우면 <strong>더 느리게</strong> 찹니다.</li>
+      <li><strong>증원 제한: 30명</strong>. 그것이 하드 상한입니다 — 전투 중이 아니라 전에 증원 명단을 계획하세요.</li>
+      <li><strong>증원은 깎입니다.</strong> 수비자가 주둔지를 갉아냅니다 — <strong>빼서 재증원</strong>해 깎임을 초기화하세요. HP 20%인 증원은 그 슬롯의 새 몸보다 가치가 낮습니다.</li>
+    </ul>
+
+    <h2 id="who-takes-vs-farms">점령하는 사람, 파밍하는 사람</h2>
+    <blockquote>성 점령자는 생츄어리 6+이어야 합니다 — 나머지는 점수를 위해 자원 타일을 파밍합니다.</blockquote>
+    <p><strong>생츄어리 6+</strong> 플레이어만 성을 점령할 수 있습니다. 이 분열이 역할을 정의합니다:</p>
+    <ul>
+      <li><strong>생츄어리 6+</strong>: 성으로 행군하고, 집결하고, 30슬롯을 증원합니다.</li>
+      <li><strong>나머지 전원</strong>: 이벤트 점수를 위해 성 주변의 자원 타일을 파밍합니다 — 행군은 여전히 벌지만, 성벽 위에서가 아닙니다.</li>
+    </ul>
+    <p>이벤트 시작 <strong>전에</strong> 생츄어리 레벨을 확인하세요; 생츄어리 5 플레이어가 성으로 행군하면 받은 하나뿐인 행군을 낭비합니다.</p>
+
+    <h2 id="commendation-chests">왕립 훈장 상자</h2>
+    <ul>
+      <li><strong>R5 전용</strong> — 동맹 리더가 전투 후 <strong>성을 클릭</strong>해 획득합니다.</li>
+      <li><strong>자격: 왕국에 24시간 이상.</strong> 전투 하루 전 미만에 왕국에 들어온 플레이어는 상자에 포함되지 않습니다.</li>
+    </ul>
+
+    <h2 id="royal-titles">로열 시티 칭호</h2>
+    <p>성 승리는 왕국의 칭호 시스템을 해금합니다 — 칭호 보유자가 적용하는 시간 제 퍼센트 버프입니다:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>칭호</th><th>버프 유형</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>연구 속도</td><td>연구에 시간 제 % 버프</td></tr>
+        <tr><td>영토 개발</td><td>영토에 시간 제 % 버프</td></tr>
+        <tr><td>훈련</td><td>부대 훈련에 시간 제 % 버프</td></tr>
+        <tr><td>치유</td><td>치유에 시간 제 % 버프</td></tr>
+        <tr><td>내정장관</td><td>농장 생산 버프</td></tr>
+      </tbody>
+    </table>
+    <p>대기열 메커니즘:</p>
+    <ul>
+      <li><strong>대기열 시스템</strong> — 플레이어가 칭호 슬롯마다 줄을 서고, 선착순입니다.</li>
+      <li><strong>슬롯당 5분.</strong></li>
+      <li><strong>슬롯 시작과 끝에 우편</strong>이 도착하므로, 버프가 언제 시작되고 끝났는지 정확히 알 수 있습니다.</li>
+      <li><strong>슬롯이 끝나면 즉시 재신청하세요</strong> — 같은 칭호를 다시 대기열에 넣을 수 있으며, <strong>재신청 횟수 제한 없음</strong>. 연속 슬롯이 의도된 패턴입니다.</li>
+      <li><strong>적용 후 20분 쿨다운</strong> — 대기열의 유일한 브레이크입니다. 재신청을 그 중심으로 타이밍 잡으세요.</li>
+    </ul>
+    <p>칭호 버프는 주간 캘린더의 다른 모든 것과 복리로 쌓입니다 — <a href="/ko/events/alliance-duel/">동맹 결투 3단계</a> 동안의 연구 칭호 슬롯이나 <a href="/ko/events/alliance-duel/">5단계</a> 동안의 훈련 슬롯이 주 전체가 짜인 캘린더 일석이조입니다.</p>
+
+    <VideoSection topic="royal" lang={lang} />
+  </GuidePage>
+</Base>

@@ -1,0 +1,101 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ja';
+---
+<Base lang={lang} path="/ja/events/mythic/" title="Mythic Treasure：F2Pガイド" description="海賊イベントの7つのタブを無課金プレイヤー向に解読：バトルパス、スロットマシンの罠、修正版の海賊市場優先度、魚の1日上限300、そしてBuried Treasureの自殺戦術。">
+  <GuidePage title="Mythic Treasure：F2Pガイド" description="海賊イベントの7つのタブを無課金プレイヤー向に解読：バトルパス、スロットマシンの罠、修正版の海賊市場優先度、魚の1日上限300、そしてBuried Treasureの自殺戦術。" lang={lang}>
+    <p>Mythic Treasure は海賊テーマの大型イベントで、ロートのような構造です:7つのタブのうち6つが課金に傾き、中に本物の無料価値のいくつかが埋まっています。F2Pのプレイは、どのタブが払ってくれてどのタブが誘惑のために存在するかを正確に知り、無料のものを毎日回すことです。</p>
+    <p>このガイドでは、7つすべてのタブを修正版の市場優先度、魚の経済、Buried Treasure戦略、そして全員が引っかかるアンカーコインの期限ルールとともに解説します。</p>
+
+    <h2 id="the-7-tabs">7つのタブの概要</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>タブ</th><th>内容</th><th>F2Pの評決</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1. Pirate&apos;s Mythic Treasure</td><td>バトルパス</td><td>無料トラックのみ</td></tr>
+        <tr><td>2. Pirate&apos;s Game</td><td>スロットマシン</td><td>無料回のみ。決して追わない</td></tr>
+        <tr><td>3. Pirate Market</td><td>アンカーコインのショップ</td><td>UR欠片を毎日購入</td></tr>
+        <tr><td>4. Grand Feast</td><td>サーバー全体の魚イベント</td><td>F2P最高のセクションの一つ — やる</td></tr>
+        <tr><td>5. Delicious Hunt</td><td>海の魚の収集</td><td>1日上限の300まで回す</td></tr>
+        <tr><td>6. Deep Sea&apos;s Gift</td><td>課金額報酬</td><td>F2Pはスキップ</td></tr>
+        <tr><td>7. Buried Treasure</td><td>ミニゲーム</td><td>無料5回 + 自殺戦術</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="tab-1-pass">タブ1:Pirate&apos;s Mythic Treasure(バトルパス)</h2>
+    <p>目玉のバトルパス。<strong>アドバンストトラックは499</strong>で、<strong>アンカーコイン、海賊ゴールド、限定箱</strong>で支払います。このイベントで1つだけ課金するなら、この候補です — ただし無料トラックもまだ支払い、以下のすべてはパスなしで機能します。</p>
+
+    <h2 id="tab-2-slots">タブ2:Pirate&apos;s Game(スロットマシン)</h2>
+    <ul>
+      <li>有料スピンは<strong>アンカーコイン</strong>を授与し、<strong>5Xドロー</strong>のオプションがあります。</li>
+      <li><strong>純RNG — 追わない。</strong> スロットマシンはイベント内で最悪の価値ターゲットであり、「もうすぐ当たる」感覚に設計されています。</li>
+      <li><strong>無料ドロー</strong>を毎日取って立ち去ること。それがこのタブのすべてです。</li>
+    </ul>
+
+    <h2 id="tab-3-market">タブ3:Pirate Market — 修正版の優先度</h2>
+    <p>市場はアンカーコインを受け取り、ここの購入順序はイベントのどこよりも重要です：</p>
+    <ol>
+      <li><strong>UR欠片 — 毎日買う。</strong> 最優先、議論の余地なし。これがイベントの提供する保証されたヒーロー価値です。</li>
+      <li><strong>好奇心箱を毎日</strong> — 欠片を買って余ったアンカーがあれば。</li>
+      <li><strong>最終日の残りはカラスの精髄か加速へ</strong> — 交換が閉じる前に残りを使い切る(<a href="#anchor-expiry">期限ルール</a>参照)。</li>
+    </ol>
+    <p>そして2つの厳しい禁止：</p>
+    <ul>
+      <li><strong>アンカーで加速や資源を買わない。</strong> それはゲームの他のどこにでもあります。UR欠片は違います。</li>
+      <li><strong>真珠はヒーローHPを上げるだけ — 「それほど有用ではない」。</strong> スキップ。</li>
+    </ul>
+    <p>もう1つの知っておくべき罠：<strong>アンカー4,000の船スキンが存在します</strong>。きれいです。<strong>保証された報酬をそれに犠牲にしない</strong> — 4,000アンカーは、このイベントの市場の欠片収入全体です。</p>
+
+    <h2 id="tab-4-grand-feast">タブ4:Grand Feast</h2>
+    <p>サーバー全体の宴:<strong>海の魚10匹を宴会EXP1に提出</strong>し、最大の貢献者には<strong>トップ50報酬</strong>。コミュニティの評決は率直です — イベントの<strong>「F2Pに最良のセクションの一つ」</strong>。コストはどうせ回す魚だけで(<a href="#tab-5-fish">Delicious Hunt</a>参照)、サーバーに見える報酬を払います。毎日、例外なく提出すること。</p>
+
+    <h2 id="tab-5-fish">タブ5:Delicious Hunt(海の魚の収集)</h2>
+    <p>海の魚は普段の毎日のターゲットからドロップします：</p>
+    <ul>
+      <li>Falcon Tower</li>
+      <li>資源モンスター</li>
+      <li>Elite Blight</li>
+      <li>Black Ops</li>
+      <li>Wandering Blight</li>
+    </ul>
+    <p>重要な数値：<strong>1日の上限は魚300</strong>。それを超えて回しても、モブを倒して何ももらえません — カウンターは止まります。300に届いたらストップし、時間をバンクしましょう。魚はGrand Feast の餌であり、2つのタブを合わせてイベント全体のF2Pの核である理由です。</p>
+
+    <h2 id="tab-6-deep-sea">タブ6:Deep Sea&apos;s Gift</h2>
+    <p>ダイヤを節約する1つの明確化：このタブが報酬を払うのは<strong>課金額であって、ダイヤ消費ではありません</strong>。ダイヤ消費マイルストーンのイベントとは違い、F2Pアカウントがここでできることは何もありません。タブごとスキップしましょう — あなた向きではありません。</p>
+
+    <h2 id="tab-7-buried">タブ7:Buried Treasure(F2Pミニゲーム)</h2>
+    <p>マッチのミニゲーム、そして最も誤解されるタブ：</p>
+    <ul>
+      <li><strong>1日5回の無料試行。</strong></li>
+      <li>無料スキル:<strong>Remove、Recall、Refresh。</strong></li>
+      <li>報酬は<strong>ステージクリアではなく</strong> — <strong>マッチするごとに1つずつ</strong>付与されます。</li>
+      <li><strong>回収済みの報酬は、試行に失敗してもセーフ。</strong> マッチ = バンク済み。</li>
+    </ul>
+    <p>ここから、直感に反するF2P戦略、<strong>「報酬のための自殺」</strong>が生まれます:盤面の報酬をつかみ、そして<strong>意図的に負ける</strong>。クリアが目的ではなく、盤面から報酬をマッチで引き剥がすことが目的です。失敗のコストはゼロで、マッチした戦利品は保持されます。</p>
+    <p>1つだけ注意：<strong>ステージ2は課金なしではほぼ不可能</strong> — およそ<strong>26クリア</strong>を要求します。試行や課金を燃やして追わず、ステージ1の無料価値を回しましょう。</p>
+
+    <h2 id="anchor-expiry">最重要:アンカーコインは繰り越されない</h2>
+    <blockquote>アンカーコインは繰り越されません — 交換終了時に未使用のコインは加速に変換されます。それまでに必ずすべてを使い切ること。</blockquote>
+    <p>加速は目標ではなく consolation prize です(<a href="#tab-3-market">市場優先度</a>参照 — アンカーはUR欠片を買い、加速は加速を買う)。アンカーを残してイベントを終えるのは、まっすぐな価値の損失です:市場で買えたすべてが、変換レートより厳密に上でした。</p>
+
+    <h2 id="f2p-checklist">F2Pの毎日チェックリスト</h2>
+    <ol>
+      <li><strong>海の魚300</strong>を集める(Delicious Hunt)し、上限で止める。</li>
+      <li>魚を<strong>Grand Feast</strong>へ提出。</li>
+      <li><strong>Buried Treasure 5試行</strong>をプレイ — 報酬をマッチし、自殺し、繰り返す。</li>
+      <li><strong>Pirate&apos;s Game の無料ドロー</strong>を取る。</li>
+      <li>アンカーを保証された価値に使う — <strong>まずUR欠片</strong>。</li>
+    </ol>
+
+    <h2 id="community-verdict">コミュニティの評決</h2>
+    <p>Mythic Treasure は<strong>かなりP2W色の強い</strong>イベントです — パス、スロット、課金タブはすべて課金者向に組まれています。しかしF2Pのセクション — <strong>Grand Feast、Buried Treasure、そして魚収集</strong> — はイベントの毎日を回す価値があります。それを回し、残りを無視し、交換が閉じる時にテーブルに何も残さないこと。</p>
+
+    <VideoSection topic="mythic" lang={lang} />
+  </GuidePage>
+</Base>

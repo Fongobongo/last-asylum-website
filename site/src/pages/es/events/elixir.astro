@@ -1,0 +1,80 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'es';
+---
+<Base lang={lang} path="/es/events/elixir/" title="Elixir Scramble: cómo ganar" description="Un campo de batalla de puntos de 30 minutos alianza contra alianza: cinco etapas, puntuación basada en control, prioridad de las Tiendas de Curación, reglas de teletransporte y el error de la muralla que termina tu partida en 10 minutos.">
+  <GuidePage title="Elixir Scramble: cómo ganar" description="Un campo de batalla de puntos de 30 minutos alianza contra alianza: cinco etapas, puntuación basada en control, prioridad de las Tiendas de Curación, reglas de teletransporte y el error de la muralla que termina tu partida en 10 minutos." lang={lang}>
+    <p>Elixir Scramble es un <strong>campo de batalla de 30 minutos alianza contra alianza</strong> donde la ganadora se decide por puntos, no por quién mata más tropas. Las alianzas que lo tratan como muerte en masa pierden contra las que lo tratan como juego de control de mapa — siempre.</p>
+    <p>Esta guía cubre las cinco etapas del evento, de dónde vienen realmente los puntos, las reglas de teletransporte, la lógica de defensa y el único error que acaba una partida antes de empezar.</p>
+
+    <h2 id="event-structure">Las cinco etapas</h2>
+    <p>Toda escaramuza corre el mismo arco, unos seis minutos por etapa a lo largo de la media hora:</p>
+    <ol>
+      <li><strong>Emparejamiento</strong> — el sistema empareja alianzas.</li>
+      <li><strong>Preparación de entrada</strong> — cargas, te posicionas y sacas tus escuadrones de la muralla (consulta <a href="#wall-warning">el aviso de la muralla</a> — esta etapa es donde se pierden las partidas).</li>
+      <li><strong>Fortalezas tempranas</strong> — se desbloquean los primeros edificios y ocurre la toma inicial de terreno.</li>
+      <li><strong>Batallas decisivas intermedias</strong> — el centro disputado se convierte en el pivote de puntos; la mayoría del evento se gana o pierde aquí.</li>
+      <li><strong>Acumulación tardía</strong> — los edificios retenidos generan los puntos finales; la alianza que se mantuvo activa hasta el último segundo recoge la diferencia.</li>
+    </ol>
+
+    <h2 id="registration">Registro y horario</h2>
+    <ul>
+      <li>Los jugadores se inscriben como <strong>Equipo A o Equipo B</strong>, o el <strong>R5 inscribe a la alianza</strong> directamente.</li>
+      <li><strong>Tras el cierre del registro, nadie puede añadirse.</strong> Sin rezagados ni suplentes — si media alianza duerme durante la inscripción, pelearán con menos gente.</li>
+      <li>Ejemplo de horario: una escaramuza que empieza a las <strong>3PM CST corre a las 9PM UK</strong>. Comprueba el temporizador del evento en tu propia zona horaria y pon una alarma — el evento premia estar conectado en el inicio exacto, no cinco minutos después.</li>
+    </ul>
+
+    <h2 id="points">De dónde vienen los puntos</h2>
+    <p>La regla básica, y la que más alianzas hacen mal: <strong>los puntos vienen del CONTROL, no de las bajas.</strong> Matar escuadrones enemigos no gana nada directamente. Mantener edificios genera puntos cada tick. Un escuadrón que nunca pelea pero está sobre un edificio de alto valor supera a uno que arrasa tres enemigos y no pisa nada.</p>
+    <p>La jerarquía de edificios:</p>
+    <ul>
+      <li><strong>Tiendas de Curación</strong> — el segundo edificio con más puntos los primeros 10 minutos. Curan <strong>15 soldados cada 10 segundos</strong>, lo que mantiene a tus escuadrones en el mapa en vez de caminando a casa. Nota: <strong>las aceleraciones no sirven dentro del evento</strong> — la curación corre por la tienda, no por tus objetos.</li>
+      <li><strong>Campamentos</strong> — aparecen más tarde en el evento y se vuelven los objetivos de recolección de puntos; tómalos cuando aparezcan.</li>
+      <li><strong>El Castillo de Elixir central</strong> — la fuente de puntos de mayor valor del mapa. Es el <strong>objetivo prioritario para tus jugadores más fuertes</strong>: asegúralo y mantenlo. También es el más disputado, así que espera las batallas decisivas a su alrededor.</li>
+    </ul>
+
+    <h2 id="teleports">Reglas de teletransporte</h2>
+    <ul>
+      <li><strong>El teletransporte gratis tiene 1 minuto de espera</strong> — y teletransportarte <strong>cancela cualquier marcha que tengas fuera</strong>. Nunca te reposiciones con tus escuadrones a mitad de marcha hacia un objetivo.</li>
+      <li><strong>El Teletransporte Directo no está permitido</strong> dentro del evento. No puedes comprar tu camino por el mapa.</li>
+      <li>La jugada estándar: <strong>instala tu ciudad en el castillo</strong> y despacha marchas hacia afuera desde ahí. Una reposición, y luego una caminata corta para todo lo demás — esto minimiza el problema del tiempo de espera por completo.</li>
+    </ul>
+
+    <h2 id="defense">Edificios y lógica de defensa</h2>
+    <p>Los edificios reclamados <strong>no</strong> necesitan guarnición para seguir generando puntos. Eso lleva a una regla simple:</p>
+    <ul>
+      <li><strong>Solo defiende un edificio si está realmente disputado.</strong> Aparcar escuadrones en todo lo que posees es neutral en puntos y desperdicia tu ejército.</li>
+      <li>Cuando un edificio sí viene bajo ataque, <strong>múltiples escuadrones pueden defenderlo</strong> — apila la defensa en vez de alimentar escuadrones de uno en uno.</li>
+      <li>También puedes <strong>elegir no defender en absoluto</strong>: deja ir un edificio de bajo valor, mantén tus escuadrones vivos, y recupéralo cuando el enemigo marche a otra parte. Los puntos vuelven a fluir en cuanto lo reclames.</li>
+    </ul>
+
+    <h2 id="wall-warning">CRÍTICO: saca tus escuadrones de la muralla antes del inicio</h2>
+    <blockquote>Si tus escuadrones siguen en tu muralla cuando empieza el Elixir Scramble, puedes perder tus tropas en menos de 10 minutos — y tu evento termina durante los 20 restantes.</blockquote>
+    <p>Los escuadrones de muralla caen en la oleada inicial de ataques, y los escuadrones muertos dentro del evento están muertos la media hora completa. Durante la etapa de preparación de entrada, la checklist es:</p>
+    <ol>
+      <li>Retira cada escuadrón de la muralla.</li>
+      <li>Confirma que tus marchas están vacías y los tiempos de espera listos.</li>
+      <li>Posiciónate en el castillo.</li>
+      <li>Solo entonces, empieza a despachar.</li>
+    </ol>
+
+    <h2 id="winning-strategy">El plan de juego de 30 minutos</h2>
+    <p>El patrón ganador, condensado:</p>
+    <ul>
+      <li><strong>Conéctate al inicio.</strong> La toma temprana de fortalezas decide quién juega con ventaja.</li>
+      <li><strong>Mantente activo los 30 minutos completos.</strong> Los puntos se acumulan todo el tiempo; la alianza que se retira en el minuto 20 dona el último tercio del evento.</li>
+      <li><strong>Sostén, no te sobreextiendas.</strong> Asegura lo que tienes antes de abrir un tercer frente. Un edificio que sostienes hasta el final vale más que dos que tocaste brevemente.</li>
+      <li><strong>Rota y refuerza.</strong> Los escuadrones en edificios disputados necesitan cuerpos frescos; rota los cansados de vuelta por las Tiendas de Curación.</li>
+      <li><strong>Prioriza edificios de puntos altos.</strong> El Castillo de Elixir primero, las Tiendas de Curación al principio, los Campamentos cuando aparezcan.</li>
+      <li><strong>Nunca vayas en solitario.</strong> Un escuadrón solitario atacando un punto defendido muere solo y no contribuye nada. Muévete con tu alianza o no te muevas.</li>
+    </ul>
+    <p>Elixir Scramble premia la disciplina sobre el poder. Una alianza más débil que sostiene los edificios correctos y nunca para de rotar vencerá a una más fuerte persiguiendo bajas — porque las bajas nunca valieron nada.</p>
+
+    <VideoSection topic="elixir" lang={lang} />
+  </GuidePage>
+</Base>

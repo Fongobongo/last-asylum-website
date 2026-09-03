@@ -1,0 +1,85 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'es';
+---
+<Base lang={lang} path="/es/events/wagon/" title="Guild Wagon y Caravanas" description="Recorridos diarios gratis del vagón, las reglas del Maestro del Vagón y del cofre de Guardias, refrescos del Vagón Dorado, la estrategia de fragmentos UR por caravanas, saqueo entre servidores y la prioridad de cajas oro-morado-azul.">
+  <GuidePage title="Guild Wagon y Caravanas" description="Recorridos diarios gratis del vagón, las reglas del Maestro del Vagón y del cofre de Guardias, refrescos del Vagón Dorado, la estrategia de fragmentos UR por caravanas, saqueo entre servidores y la prioridad de cajas oro-morado-azul." lang={lang}>
+    <p>Guild Wagon y las Caravanas son los eventos logísticos diarios del juego — y ambos son ingresos de <strong>riesgo cero, aguante cero</strong> que demasiados jugadores se saltan. El vagón es un ejercicio de coordinación de 10 minutos; las caravanas son un granjeo permanente de fragmentos UR. Ninguno cuesta tropas ni pérdidas reales, así que la regla de la comunidad es simple: <strong>SIEMPRE córrelos.</strong></p>
+    <p>Esta guía cubre los roles del vagón y sus reglas de cofres, el Vagón Dorado, la estrategia de caravanas y el saqueo entre servidores con la prioridad de cajas.</p>
+
+    <h2 id="guild-wagon-basics">Guild Wagon: el recorrido diario gratis</h2>
+    <ul>
+      <li><strong>1 vagón gratis por alianza al día</strong>, reiniciándose alrededor de las <strong>11 AM KST</strong>.</li>
+      <li>Cuando aparece la pantalla de pago, <strong>el gratis ya se usó</strong> — esa es la señal de que el recorrido diario gratis se acabó para toda la alianza.</li>
+      <li><strong>Existen recorridos extra pagados — casi nadie los compra.</strong> Ignora el muro de pago.</li>
+      <li><strong>Los niveles de Regalo de Gremio suben el nivel del vagón</strong> — los regalos de tienda que suben el nivel de regalo también mejoran lo que suelta el vagón. Dos razones para cuidar el nivel de regalo.</li>
+    </ul>
+
+    <h2 id="wagon-master">Maestro del Vagón, Guardias y VIPs</h2>
+    <p>Los roles:</p>
+    <ul>
+      <li>Un <strong>R4/R5 en línea nombra a un miembro en línea como Maestro del Vagón</strong>.</li>
+      <li>El Maestro <strong>recoge tickets de los miembros</strong> (algunos se convierten solos) para refrescar el fondo — <strong>5 refrescos hacen un "Vagón Dorado".</strong></li>
+      <li><strong>Guardias Y VIPs reclaman 2 cofres.</strong> Los VIPs solo viajan — ser VIP no es una degradación, los cofres son idénticos.</li>
+      <li><strong>¿CP bajo? Elige Guardias fuertes para proteger el vagón.</strong> La seguridad del recorrido escala con la fuerza de los guardias.</li>
+      <li><strong>Los Guardias deben estar en línea.</strong> Coordina <strong>antes</strong> de iniciar el recorrido, o arriesga un saqueo sin defensa — algunos gremios retrasan deliberadamente el nombramiento del Maestro para correr el vagón de noche, cuando sus guardias están conectados.</li>
+    </ul>
+
+    <h2 id="chest-rules">Las reglas de los cofres (el error común)</h2>
+    <blockquote>Los 2 cofres son para los GUARDIAS, no para el Maestro. El error de vagón más común del juego.</blockquote>
+    <p>El reparto completo de recompensas:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Rol</th><th>Recompensa</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Guardias</td><td>2 cofres cada uno</td></tr>
+        <tr><td>VIPs</td><td>2 cofres cada uno (idénticos a los de guardias — solo viajan)</td></tr>
+        <tr><td>Pasajeros</td><td>5 sorteos aleatorios + 1 cofre de vehículo cada uno</td></tr>
+        <tr><td>Maestro del Vagón</td><td>TODO de los objetos de los 4 vagones</td></tr>
+      </tbody>
+    </table>
+    <p>Lee esa última fila dos veces — <strong>el Maestro recibe TODOS los objetos de los 4 vagones.</strong> El nombramiento es un pago real, que es exactamente por lo que la confusión de cofres persiste: los 2 cofres de los guardias vienen sobre un reparto, no del fondo del Maestro.</p>
+
+    <h2 id="caravans">Caravanas: la estrategia de fragmentos UR</h2>
+    <p>Las caravanas son el evento diario de caravanas que corre junto al vagón:</p>
+    <ul>
+      <li>Decisiones núcleo: <strong>qué caravanas atacar, cómo configurar la caravana de tu alianza y maximizar las recompensas diarias.</strong></li>
+      <li><strong>Las Caravanas y Operaciones Encubiertas nunca cuentan para el límite de saqueo</strong> — están exentas del tope diario que gobierna las incursiones normales (consulta la <a href="/es/economy/">guía de Economía</a>).</li>
+      <li><strong>Sin pérdida real de tropas, sin coste de aguante.</strong> Riesgo cero, cada día.</li>
+      <li><strong>SIEMPRE córrelas.</strong> Y recuerda de la guía de <a href="/es/events/kvk/">KvK</a>: <strong>las caravanas y Operaciones Encubiertas puntúan para KvK y Duelo de Alianzas a la vez</strong> — el mismo recorrido paga dos veces.</li>
+    </ul>
+
+    <h2 id="plundering-servers">Saqueando otros servidores</h2>
+    <p>La ruta de caravanas entre servidores:</p>
+    <ol>
+      <li>Abre <strong>Comercio de Caravanas</strong> y comprueba la marca verde <strong>"Excluir caravanas de este servidor"</strong> — eso filtra las caravanas de tu servidor doméstico y muestra las extranjeras.</li>
+      <li>Ve a <strong>Caravana de Otros</strong>, toca una caravana, y el <strong>botón de Saqueo te teletransporta a ese reino</strong>.</li>
+      <li>Sal del popup y podrás <strong>vagar por ese reino libremente</strong> mientras estés ahí.</li>
+    </ol>
+
+    <h2 id="box-priority">Prioridad de cajas: oro, morado, azul</h2>
+    <p>Cuando estás mirando un mapa extranjero lleno de caravanas, el orden de objetivos es:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Color de caja</th><th>Valor</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>ORO</td><td>El más alto — nivel UR. Siempre el objetivo.</td></tr>
+        <tr><td>Morado</td><td>Muy bueno — nivel SSR. Objetivo prioritario cuando el oro está fuera de alcance.</td></tr>
+        <tr><td>Azul</td><td>Respaldo — nivel SR. Relleno cuando el mapa está pelado.</td></tr>
+      </tbody>
+    </table>
+    <ul>
+      <li><strong>Comprueba la calificación de estrellas y las recompensas antes de atacar</strong> — la vista previa muestra qué paga la caja.</li>
+      <li><strong>Mejor color + más estrellas = mejores recompensas.</strong> Primero color, estrellas como desempate.</li>
+    </ul>
+
+    <VideoSection topic="wagon" lang={lang} />
+  </GuidePage>
+</Base>

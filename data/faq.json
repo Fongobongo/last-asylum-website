@@ -1,0 +1,168 @@
+{
+  "channel_name": "faq",
+  "threads": [
+    {
+      "thread_id": 1453210380401639525,
+      "thread_name": "How to redeem the giftcode",
+      "message_count": 4,
+      "messages": [
+        {
+          "id": 1453210380401639525,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "1. Click on the avatar in the upper left corner of the game.",
+          "created_at": "2025-12-24T02:19:14.031000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1453210380401639525/1453210380615811092/image.png?ex=6a98d922&is=6a9787a2&hm=e92a7f4b773c273276428d5681bb80b652a149762a9e81672c854019abf87fa7&"
+            }
+          ]
+        },
+        {
+          "id": 1453210559196696688,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "2. Click Settings",
+          "created_at": "2025-12-24T02:19:56.659000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1453210380401639525/1453210558953160805/image.png?ex=6a98d94c&is=6a9787cc&hm=2d60d60fa14d99b7d9eff44093cd12175a022cd39046ffbb2ca4d6b002bd3210&"
+            }
+          ]
+        },
+        {
+          "id": 1453210700569907352,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "3. Click on Gift Code and then enter the gift code.",
+          "created_at": "2025-12-24T02:20:30.365000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1453210380401639525/1453210700297273354/image.png?ex=6a98d96e&is=6a9787ee&hm=cd1365c1e790967a4811cecaf24d33724bef0068c647a278cfbed752a3ad84a1&"
+            }
+          ]
+        },
+        {
+          "id": 1484382932515815558,
+          "author_id": 978860701760237598,
+          "author_name": "eoanf_123",
+          "content": "How iOS players  redeem the giftcode by the website:\nhttps://gevents.globallap.com/gamecode/index.html?gameId=440\n\n1) Log in to your account on the website (using your linked Facebook or Google account).\n2) Select the server and corresponding character.\n3) Enter the redemption code and confirm the redemption.",
+          "created_at": "2026-03-20T02:47:49.613000+00:00",
+          "embeds": [],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "thread_id": 1453281703215894608,
+      "thread_name": "How to report bug in the game?",
+      "message_count": 7,
+      "messages": [
+        {
+          "id": 1453281703215894608,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "Step:",
+          "created_at": "2025-12-24T07:02:38.715000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1453281703215894608/1453281703400571048/image.png?ex=6a991b8e&is=6a97ca0e&hm=52b5bb3f090907b3fda5df521d8c6a0291ff7d029ec6d1b947556fe79da47317&"
+            }
+          ]
+        },
+        {
+          "id": 1453281791723962590,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "1. Click on the avatar in the upper left corner of the game.",
+          "created_at": "2025-12-24T07:02:59.817000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1453281703215894608/1453281791766167563/image.png?ex=6a991ba3&is=6a97ca23&hm=47090b0c79d455b03ea9611205e2246ed3c5049913687173f738c29f02902e03&"
+            }
+          ]
+        },
+        {
+          "id": 1453281975140880475,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "2. Click Account",
+          "created_at": "2025-12-24T07:03:43.547000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1453281703215894608/1453281974566387794/image.png?ex=6a991bcf&is=6a97ca4f&hm=6a841cf422eed8f54ec5a6657d4327f880a65ae0d06445e1bdc8f812d16bc70f&"
+            }
+          ]
+        },
+        {
+          "id": 1453282117688627250,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "3. Click [User Center]",
+          "created_at": "2025-12-24T07:04:17.533000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1453281703215894608/1453282117331976398/image.png?ex=6a991bf1&is=6a97ca71&hm=11037e14d5bd4c23ccbdd058e055f3aa562d0c492ac711d32c31914813596852&"
+            }
+          ]
+        },
+        {
+          "id": 1453282325092634644,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "4. Click [Feedback], and tell your questions or bug you meet to CS",
+          "created_at": "2025-12-24T07:05:06.982000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1453281703215894608/1453282324857880717/image.png?ex=6a991c22&is=6a97caa2&hm=1860118b9c2661e4b775d5bd1822e95ecb98295a3e440ec1bd2c4bf391aa096b&"
+            }
+          ]
+        },
+        {
+          "id": 1453282752983203851,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "",
+          "created_at": "2025-12-24T07:06:48.999000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1453281703215894608/1453282751951147150/image.png?ex=6a991c88&is=6a97cb08&hm=c9718d34b0a4abe9c6f501e82f7f63f603a2c2cf3446cb3bb40a40f463e3a9ee&"
+            }
+          ]
+        },
+        {
+          "id": 1453282857115062302,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "",
+          "created_at": "2025-12-24T07:07:13.826000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1453281703215894608/1453282856800485440/image.png?ex=6a991ca1&is=6a97cb21&hm=09ca2b9efc42eb154f43378bfb5cbb84b83f6d0bdc59f6586b2e698d3f8b903a&"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

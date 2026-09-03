@@ -1,0 +1,60 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { weeklySchedule, recurring } from '../../data/calendar';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+
+<Base lang={lang} path="/calendar/" title="Kalender Acara" description="Ritme mingguan Last Asylum: Plague — hari klaim Falcon, fase Alliance Duel, reset dan acara rutin.">
+  <GuidePage
+    title="📅 Kalender Acara"
+    description="Ritme mingguan yang diikuti setiap pemain efisien. CATATAN: rotasi pasti berbeda per server — selalu cek kalender in-game Anda."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/id/' }, { label: 'Kalender' }]}
+  >
+    <h2 id="weekly-rhythm">Ritme mingguan</h2>
+    <div class="not-prose my-6 overflow-x-auto rounded-lg border border-stone-800">
+      <table class="w-full text-sm">
+        <thead class="bg-stone-900 text-left text-plague-300">
+          <tr><th class="p-3">Hari</th><th class="p-3">Acara</th><th class="p-3">Apa yang dilakukan</th></tr>
+        </thead>
+        <tbody>
+          {weeklySchedule.map((e) => (
+            <tr class="border-t border-stone-800">
+              <td class="p-3 font-bold text-plague-200 whitespace-nowrap">{e.icon} {e.day}</td>
+              <td class="p-3 text-stone-200 whitespace-nowrap">{e.event}</td>
+              <td class="p-3 text-stone-400">{e.what}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <h2 id="recurring">Reset &amp; jadwal rutin</h2>
+    <div class="not-prose my-6 grid gap-3 sm:grid-cols-2">
+      {recurring.map((e) => (
+        <div class="rounded-lg border border-stone-800 bg-stone-900 p-4">
+          <p class="text-sm font-bold text-plague-200">{e.icon} {e.event}</p>
+          <p class="mt-0.5 text-xs text-stone-500">{e.day}</p>
+          <p class="mt-1 text-sm text-stone-400">{e.what}</p>
+        </div>
+      ))}
+    </div>
+
+    <h2 id="claim-days">Trik hari klaim (Sen/Rab/Jum)</h2>
+    <p>Misi Falcon Tower yang selesai tapi <strong>belum diklaim</strong> tetap mempertahankan titik merahnya dan tidak kedaluwarsa. Hari kekuatan ganda adalah Senin, Rabu dan Jumat:</p>
+    <ul>
+      <li>Selesaikan misi hari Minggu → klaim hari Senin</li>
+      <li>Selesaikan hari Selasa → klaim hari Rabu</li>
+      <li>Selesaikan hari Kamis → klaim hari Jumat</li>
+    </ul>
+    <p><strong>Stacking Maks − 1:</strong> papan misi yang penuh membekukan timer. Selesaikan satu misi dari maksimum agar misi baru terus muncul — kendalikan aliran misi Anda hari demi hari.</p>
+    <p class="text-sm text-stone-500">⚠️ Batas antrean: SEMUA misi (selesai maupun belum) dihitung dalam penghitung antrean (x/x). Saat penuh, misi berikutnya hilang.</p>
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

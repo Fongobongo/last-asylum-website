@@ -1,0 +1,19 @@
+---
+interface Props {
+  src: string;       // e.g. '/infographics/f2p-guide.png'
+  alt: string;
+  caption?: string;
+  credit?: string;   // author name
+}
+const { src, alt, caption, credit } = Astro.props;
+---
+<figure class="not-prose my-8">
+  <a href={src} target="_blank" rel="noopener noreferrer" class="block overflow-hidden rounded-lg border border-stone-800 bg-stone-900">
+    <img src={src} alt={alt} loading="lazy" class="w-full" />
+  </a>
+  {(caption || credit) && (
+    <figcaption class="mt-2 text-center text-xs text-stone-500">
+      {caption}{credit && <span class="ml-1">— © {credit}</span>}
+    </figcaption>
+  )}
+</figure>

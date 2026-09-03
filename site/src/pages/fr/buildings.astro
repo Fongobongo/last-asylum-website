@@ -1,0 +1,118 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'fr';
+---
+<Base lang={lang} path="/fr/buildings/" title="Priorités de construction et feuille de route du Sanctuaire" description="Feuille de route du Sanctuaire jusqu&apos;au niveau 30, l&apos;ordre de priorité de construction, le rôle de chaque bâtiment, et comment empiler les bonus de vitesse de construction de la manière consécutive correcte.">
+  <GuidePage title="Priorités de construction et feuille de route du Sanctuaire" description="Feuille de route du Sanctuaire jusqu&apos;au niveau 30, l&apos;ordre de priorité de construction, le rôle de chaque bâtiment, et comment empiler les bonus de vitesse de construction de la manière consécutive correcte." lang={lang}>
+    <p>Construire dans Last Asylum: Plague est un jeu long — la poussée du Sanctuaire du niveau 1 au 30 prend des mois, et le mauvais ordre vous en coûte des semaines. Cette page est l&apos;ordre de construction de la communauté : quels bâtiments comptent et dans quelle séquence, une feuille de route du Sanctuaire niveau par niveau, et les mathématiques exactes de l&apos;empilement de vitesse de construction.</p>
+    <p>La seule question qui décide de chaque slot de file : cela vous rend-il plus fort ou plus rapide ? Si la réponse est non, cela peut attendre.</p>
+
+    <h2 id="priority-order">L&apos;ordre de priorité de construction</h2>
+    <p>Quand plusieurs bâtiments sont disponibles à la fois, l&apos;ordre de la communauté est fixe :</p>
+    <ol>
+      <li><strong>Sanctuaire</strong> — toujours. Il plafonne tous les autres niveaux de la ville, le plafond de niveau des héros et les paliers de troupes. Chaque fois qu&apos;une amélioration du Sanctuaire est disponible, elle entre en premier dans la file.</li>
+      <li><strong>Champ d&apos;Entraînement</strong> — paliers de troupes et capacité d&apos;entraînement. L&apos;armée, c&apos;est ce qui nettoie les monstres, gagne les rallyes et rapporte le pillage à la maison.</li>
+      <li><strong>Caserne</strong> — capacité de soldats. Une armée permanente plus grande signifie plus de Puissance et plus d&apos;impact par marche.</li>
+      <li><strong>Laboratoire de Recherche</strong> — recherche permanente de stats et d&apos;économie. Plus lent à rentabiliser que les troupes, mais ça compose pour toujours.</li>
+      <li><strong>Hôpital</strong> — soigne vos blessés après les défaites. Un petit Hôpital signifie que chaque combat perdu saigne des troupes que vous ne récupérerez pas.</li>
+      <li><strong>Muraille</strong> — défense. Réelle jusqu&apos;à ce qu&apos;arrive quelqu&apos;un de plus fort, d&apos;où sa dernière place.</li>
+    </ol>
+    <p>La règle derrière la liste : si un bâtiment ne vous rend pas plus fort ou plus rapide, il n&apos;est pas urgent. Les bâtiments de production, dépôts et décorations se construisent aussi — mais seulement quand les six ci-dessus n&apos;ont rien à faire ou qu&apos;un palier les oblige.</p>
+
+    <h2 id="building-functions">Le rôle de chaque bâtiment</h2>
+    <p>Une référence rapide des bâtiments que vous toucherez vraiment. Les traductions diffèrent entre les clients du jeu, donc quand deux noms se ressemblent, vérifiez l&apos;infobulle en jeu pour l&apos;effet exact de votre version.</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Bâtiment</th><th>Ce qu&apos;il fait</th><th>Notes de la communauté</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Sanctuaire</td><td>Plafonne tous les autres niveaux de bâtiments, fixe le plafond de niveau des héros, donne de l&apos;EXP par amélioration, et débloque bâtiments et fonctionnalités en montant de niveau.</td><td>Améliorez en continu. C&apos;est votre vrai niveau de joueur.</td></tr>
+        <tr><td>Cabane du Constructeur</td><td>Produit des accélérations de construction gratuites. Les survivants stationnés à l&apos;intérieur donnent des bonus — remplacez-les par de meilleurs survivants au fur et à mesure.</td><td>Gardez-la au niveau du Sanctuaire jusqu&apos;au Sanctuaire 15 pour le flux d&apos;accélérations gratuites.</td></tr>
+        <tr><td>Laboratoire de Recherche</td><td>Gère votre arbre technologique : recherche d&apos;économie, militaire et développement.</td><td>Priorité #4 — des stats qui composent en permanence.</td></tr>
+        <tr><td>Caserne / Champ d&apos;Entraînement</td><td>Les noms s&apos;échangent entre traductions. L&apos;un ouvre les paliers de troupes ; l&apos;autre augmente la capacité de soldats.</td><td>Vérifiez l&apos;infobulle en jeu pour savoir lequel est lequel dans votre client, puis construisez d&apos;abord l&apos;ouvreur de paliers.</td></tr>
+        <tr><td>Hôpital</td><td>Soigne les soldats blessés après les défaites.</td><td>Hôpital sous-dimensionné = pertes de troupes permanentes après chaque combat perdu.</td></tr>
+        <tr><td>Atelier d&apos;Antitoxine</td><td>Produit des Antidotes — la ressource clé des héros, utilisée dans les systèmes de progression.</td><td>Construisez-le tôt. Être à la traîne en Antidotes bloque les améliorations de héros plus tard.</td></tr>
+        <tr><td>Ateliers d&apos;Équipement / Fusion / Tissage</td><td>Fabrique et améliore l&apos;équipement des héros à partir de matériaux farmés.</td><td>Les hauts niveaux d&apos;Atelier d&apos;Équipement arrivent avec le Sanctuaire 20 — une raison de plus pour laquelle le 20 compte.</td></tr>
+        <tr><td>Taverne</td><td>Recrutement de héros — le système de bannières et de tirages vit ici.</td><td>Gardez les diamants pour les événements UR datés au lieu de les vider ici.</td></tr>
+        <tr><td>Halle d&apos;Alliance</td><td>Approfondit la participation et les récompenses d&apos;alliance.</td><td>Suivez la feuille de route ci-dessous — ça compte plus que les nouveaux joueurs ne le pensent.</td></tr>
+      </tbody>
+    </table>
+
+    <h3 id="barracks-vs-training">Caserne vs Champ d&apos;Entraînement — le piège des noms</h3>
+    <p>Un bâtiment ouvre de nouveaux paliers de troupes, et l&apos;autre augmente le nombre de soldats que vous pouvez tenir. Quel nom fait quoi dépend de la traduction de votre client — deux joueurs qui en débattent peuvent avoir tous les deux raison. Ouvrez le bâtiment et lisez l&apos;infobulle : si l&apos;effet listé est le déblocage de paliers, c&apos;est votre ouvreur et il passe en premier ; si c&apos;est la capacité de soldats, il passe en second. Les guides de communautés différentes échangent les noms librement, donc faites confiance à l&apos;infobulle plutôt qu&apos;au titre du guide.</p>
+
+    <h2 id="sanctuary-roadmap">Feuille de route du Sanctuaire par niveau</h2>
+    <p>C&apos;est la feuille de route de la communauté (du guide d&apos;elsiika57) de ce qu&apos;il faut monter à chaque étape du Sanctuaire. Lisez-la ainsi : en poussant le Sanctuaire vers le niveau X, montez les bâtiments listés aux niveaux indiqués. Elle existe pour vous empêcher de monter des bâtiments dont vous n&apos;aurez pas besoin pendant des semaines pendant que ceux que vous utilisez chaque jour prennent du retard.</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Push de Sanctuaire</th><th>Montez ces bâtiments</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Nv 1-10</td><td>Dépôt de Bois 1 nv 4, Grenier 1, Entrepôt 1. Au Sanctuaire 5-6 : Murailles 3 à 5. Au Sanctuaire 7-8 : Champ d&apos;Entraînement 4, Halle d&apos;Alliance 3 à 5. Au Sanctuaire 9-10 : Murailles 8-9, Halle d&apos;Alliance 7, Hôpital 7.</td></tr>
+        <tr><td>Nv 11-18</td><td>Au Sanctuaire 11 : Champ d&apos;Entraînement 10, Laboratoire 7. Au Sanctuaire 12-13 : Laboratoire 11-12, Murailles 10, Halle d&apos;Alliance 11. Au Sanctuaire 14-15 : Laboratoire 13-14, Statue du Guerrier 12, Champ d&apos;Entraînement 14. Au Sanctuaire 16-18 : Statue du Guerrier 14, Laboratoire 15-17, Caserne 15, Champ d&apos;Entraînement 17.</td></tr>
+        <tr><td>Nv 19-24</td><td>Laboratoire 18, Statue du Guerrier 17, Halle d&apos;Alliance 18. Au Sanctuaire 21-22 : Laboratoire 20, Champ d&apos;Entraînement 20, Hôpital 21. Au Sanctuaire 23-24 : Hôpital 22, Laboratoire 23, Murailles 23.</td></tr>
+        <tr><td>Nv 25-29</td><td>Champ d&apos;Entraînement 24, Laboratoire 24-25, Statue du Guerrier 25. Au Sanctuaire 27-28 : Laboratoire 26, Champ d&apos;Entraînement 26, Caserne 27. Au Sanctuaire 29 : Halle d&apos;Alliance 28, Laboratoire 28.</td></tr>
+        <tr><td>Nv 30</td><td>Le Sanctuaire 30 est le maximum. Terminez tous les paliers restants.</td></tr>
+      </tbody>
+    </table>
+    <p>Remarquez le motif dans le tableau : le Laboratoire et le Champ d&apos;Entraînement ne prennent jamais beaucoup de retard sur le Sanctuaire, les Murailles et l&apos;Hôpital se rattrapent par blocs, et la Halle d&apos;Alliance est poussée dans trois fenêtres séparées. Si votre ville diverge sauvagement de cette forme, c&apos;est généralement le signe d&apos;une erreur — le plus souvent, tout monter équitablement.</p>
+
+    <h2 id="milestones">Jalons clés : 20, 24, 27, 30</h2>
+    <p>La poussée du Sanctuaire n&apos;est pas une seule longue grind — ce sont quatre sprints entre des jalons qui débloquent chacun un vrai saut de puissance.</p>
+    <ul>
+      <li><strong>Sanctuaire 20</strong> — les troupes de Palier 7 et un Atelier d&apos;Équipement de haut niveau arrivent ensemble. C&apos;est le plus grand saut de puissance individuel du mi-jeu et la première poussée qui mérite de brûler des accélérations économisées.</li>
+      <li><strong>Sanctuaire 24, puis 27</strong> — les pushes de paliers suivants. Chacun rehauffe encore les paliers de troupes et les plafonds d&apos;ateliers.</li>
+      <li><strong>Sanctuaire 30</strong> — le plafond. Tout ce qui reste dans la ville peut maintenant être terminé.</li>
+    </ul>
+    <p>Méfiez-vous du coût des jalons tardifs : passé le milieu des années 20, des améliorations individuelles dépassent les 100 millions de ressources. Commencez à traiter le stockage de ressources comme une partie du plan de construction — voir la section de mise à l&apos;échelle ci-dessous.</p>
+
+    <h2 id="construction-speed">Empilement de vitesse de construction — les vraies maths</h2>
+    <p>Les bonus de vitesse de construction s&apos;empilent depuis cinq sources, et ensemble ils compriment une amélioration de 38 jours en 20 (du guide de chuppergaming). Les bonus sont :</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Source</th><th>Bonus</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Recherche de Développement Personnel</td><td>+5%, puis +10% au niveau de nœud 5</td></tr>
+        <tr><td>Recherche d&apos;Alliance — Construction Rapide</td><td>+20%</td></tr>
+        <tr><td>Niveau VIP 11</td><td>+45%</td></tr>
+        <tr><td>Cité Royale — titre de Ministre de la Construction</td><td>+50%</td></tr>
+      </tbody>
+    </table>
+    <p>Maintenant la partie que presque tout le monde rate : ces bonus s&apos;appliquent au <strong>temps restant, consécutivement</strong> — pas additivement depuis la base. Vous ne pouvez pas additionner 10% + 5% + 20% + 45% + 50% et couper le minuteur de 130% de quoi que ce soit.</p>
+    <p>Voici le vrai calcul sur une amélioration de 37 jours :</p>
+    <ol>
+      <li>Départ : 37 jours.</li>
+      <li>Appliquez un bonus de 10% : retirez 10% du temps restant — 37 moins 3.7 = 33.3 jours.</li>
+      <li>Appliquez un bonus de 5% : retirez 5% de ce qui reste — 33.3 moins 1.665 = 31.6 jours.</li>
+      <li>Chaque bonus suivant continue de raser le reste, jamais le chiffre original.</li>
+    </ol>
+    <p>Chaque bonus supplémentaire vaut donc un peu moins que le précédent. Les conséquences pratiques :</p>
+    <ul>
+      <li>L&apos;ordre des bonus ne change pas le résultat final — mais vous devez avoir les bonus actifs quand le minuteur est long, parce que leur valeur suit le temps restant.</li>
+      <li>Appliquez tout <strong>avant</strong> de lancer les gros pushes de Sanctuaire 20+, pas à mi-chemin.</li>
+      <li>Obtenir le titre de Ministre de la Construction et le VIP 11 avant le push final vaut, à lui seul, des jours de minuteurs.</li>
+    </ul>
+
+    <h2 id="resource-scaling">Mise à l&apos;échelle des ressources — planifiez vos stocks</h2>
+    <p>Ce qu&apos;un bâtiment coûte au Sanctuaire 8 ne vous dit rien de ce qu&apos;il coûte au Sanctuaire 25. La courbe court en trois phases :</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Phase</th><th>Coût typique par amélioration</th><th>Ce que ça signifie</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Début (Sanctuaire 1-10)</td><td>Milliers à quelques millions</td><td>La production couvre. Dépensez librement, gardez les files pleines.</td></tr>
+        <tr><td>Milieu (Sanctuaire 11-24)</td><td>Dizaines de millions</td><td>Le pillage et les événements portent la charge — le pillage quotidien cesse d&apos;être optionnel.</td></tr>
+        <tr><td>Fin (Sanctuaire 25-30)</td><td>Plus de 100 millions</td><td>Stockez pendant des jours avant de commencer. Une amélioration que vous ne pouvez pas nourrir bloque toute votre file.</td></tr>
+      </tbody>
+    </table>
+    <p>Et gardez la répartition équilibrée : ayez toujours Grain, Bois et Herbes en stock. Les améliorations tardives dévorent les trois à la fois, et tomber à sec sur l&apos;une d&apos;elles en plein push gaspille exactement le minuteur que vous aviez empilé des bonus pour économiser.</p>
+
+    <VideoSection topic="buildings" lang={lang} />
+  </GuidePage>
+</Base>

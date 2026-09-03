@@ -1,0 +1,46 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { faqRu } from '../../data/faqRu';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ru';
+
+const schema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqRu.map((f) => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+});
+---
+
+<Base lang={lang} path="/faq/" title="FAQ — Частые вопросы" description="Ответы на самые частые вопросы по Last Asylum: Plague: лучший F2P-отряд, порядок прокачки, лимиты грабежа, магазины, промокоды.">
+  <GuidePage
+    title="❓ Частые вопросы"
+    description="Вопросы, которые реально задают игроки — с консенсус-ответами сообщества."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/ru/' }, { label: 'FAQ' }]}
+  >
+    <script slot="faq-schema" type="application/ld+json" set:html={schema} />
+
+    <div class="not-prose my-6 space-y-3">
+      {faqRu.map((f) => (
+        <details class="group rounded-lg border border-stone-800 bg-stone-900">
+          <summary class="cursor-pointer select-none px-4 py-3 font-semibold text-plague-200 group-open:text-plague-100">
+            {f.q}
+          </summary>
+          <p class="border-t border-stone-800 px-4 py-3 text-sm leading-relaxed text-stone-300">{f.a}</p>
+        </details>
+      ))}
+    </div>
+
+    <p>Нет твоего вопроса? Смотри конкретные гайды: <a href="/ru/beginners/">новичкам</a>, <a href="/ru/economy/">экономика</a>, <a href="/ru/heroes/">герои</a>, <a href="/ru/gear/">снаряжение</a>, <a href="/ru/raven/">ворон</a>, <a href="/ru/era/">Эра Возрождения</a> — или спроси в официальном Discord.</p>
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

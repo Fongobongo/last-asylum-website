@@ -1,0 +1,60 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import GuidePage from '../../../../components/GuidePage.astro';
+import DiscordBanner from '../../../../components/DiscordBanner.astro';
+import { heroCodex } from '../../../../data/heroCodex';
+import type { Lang } from '../../../../i18n/utils';
+
+const lang: Lang = 'de';
+
+export function getStaticPaths() {
+  return heroCodex.map((hero) => ({
+    params: { slug: hero.slug },
+    props: { hero },
+  }));
+}
+
+const { hero } = Astro.props;
+---
+
+<Base lang={lang} path={`/codex/${hero.slug}/`} title={`${hero.name} вЂ” Hero Guide`} description={hero.role}>
+  <GuidePage
+    title={hero.name}
+    description={hero.role}
+    lang={lang}
+    breadcrumbs={[{ label: 'Start', href: '/de/' }, { label: 'Helden-Kodex', href: '/de/codex/' }, { label: hero.name }]}
+  >
+    <div class="not-prose mb-6 flex flex-wrap items-center gap-2">
+      <span class={`rounded px-2.5 py-1 text-sm font-bold ${hero.tier === 'S' ? 'bg-red-900/40 text-red-300' : hero.tier === 'A' ? 'bg-amber-900/40 text-amber-300' : 'bg-sky-900/40 text-sky-300'}`}>{hero.tier}</span>
+      <span class="rounded bg-stone-800 px-2.5 py-1 text-sm text-plague-200">{hero.rarity}</span>
+      <span class="rounded bg-stone-800 px-2.5 py-1 text-sm text-stone-300">{hero.faction}</span>
+      <span class="rounded bg-stone-800 px-2.5 py-1 text-sm text-stone-300">{hero.className}</span>
+    </div>
+    <p class="text-sm text-stone-500">Begriffe gemГ¤Гџ der englischen Spielversion.</p>
+
+    <h2 id="how-to-get">So bekommst du ihn</h2>
+    <p>{hero.howToGet}</p>
+
+    <h2 id="skills">Wichtige FГ¤higkeiten</h2>
+    <div class="not-prose my-4 space-y-3">
+      {hero.skills.map((s) => (
+        <div class="rounded-lg border border-stone-800 bg-stone-900 p-4">
+          <p class="font-bold text-plague-200">{s.name}</p>
+          <p class="mt-1 text-sm text-stone-400">{s.desc}</p>
+        </div>
+      ))}
+    </div>
+
+    <h2 id="build">PrioritГ¤ten</h2>
+    <ul>
+      {hero.buildTips.map((tip) => <li>{tip}</li>)}
+    </ul>
+
+    <h2 id="teams">Team-Notizen</h2>
+    <p>{hero.teamNotes}</p>
+
+    <p class="mt-8"><a href="/de/codex/">в†ђ Alle Helden</a></p>
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

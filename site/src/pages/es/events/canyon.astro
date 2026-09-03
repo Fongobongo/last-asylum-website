@@ -1,0 +1,67 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'es';
+---
+<Base lang={lang} path="/es/events/canyon/" title="Canyon Conquest: estrategia de carriles" description="La batalla de relevos en tres carriles donde la constancia vence al poder: las reglas de relevo, el límite de 3 peleas, la estrategia de prioridad de carriles, bugs conocidos y por qué este es el mejor evento de riesgo cero del juego.">
+  <GuidePage title="Canyon Conquest: estrategia de carriles" description="La batalla de relevos en tres carriles donde la constancia vence al poder: las reglas de relevo, el límite de 3 peleas, la estrategia de prioridad de carriles, bugs conocidos y por qué este es el mejor evento de riesgo cero del juego." lang={lang}>
+    <p>Canyon Conquest es la <strong>batalla de carriles de alianza</strong>: tres carriles, y la alianza que gana <strong>2 de 3 carriles</strong> se lleva la partida. Pero el formato es un <strong>relevo</strong> — los jugadores más débiles pelean primero, y un jugador <strong>permanece en el carril hasta perder</strong>. Entender qué hace ese relevo con la estrategia de formación es todo el evento.</p>
+    <p>Esta guía cubre las reglas de relevo, la estructura de recompensas, la estrategia de prioridad de carriles con sus variantes principales, los bugs conocidos y por qué este es el evento más seguro del juego.</p>
+
+    <h2 id="relay-rules">Las reglas de relevo</h2>
+    <ol>
+      <li><strong>Los más débiles pelean primero.</strong> Cada carril empieza con sus jugadores de menor CP y solo escala cuando alguien pierde.</li>
+      <li><strong>El jugador se queda hasta perder, luego entra el siguiente.</strong> Un jugador ganador sostiene el carril y sigue peleando al siguiente retador — no hay rotación tras una victoria.</li>
+      <li><strong>Máximo 3 peleas por jugador.</strong> Tras tres peleas terminas tu partida.</li>
+      <li><strong>15 jugadores por carril.</strong> La alianza reparte su plantilla entre los tres carriles.</li>
+    </ol>
+    <p>Consecuencia del relevo: <strong>si tu lado gana cada pelea con 2 bajas por jugador, solo 8 de 15 jugadores del carril llegan a pelear.</strong> Siete jugadores se sientan toda la partida sin gastar una pelea. Ese dato dirige cada decisión de formación de abajo.</p>
+
+    <h2 id="rewards">Recompensas y el nivel de 3 bajas</h2>
+    <ul>
+      <li>La <strong>recompensa de 3 bajas está cerrada por nivel</strong> — necesitas que tus tres peleas sean bajas para alcanzar el nivel personal máximo.</li>
+      <li>Como los jugadores fuertes al fondo del carril enfrentan oponentes más fuertes, el nivel de 3 bajas suele pertenecer a la cima de la plantilla — planifica tus expectativas personales en consecuencia.</li>
+    </ul>
+
+    <h2 id="rounds-and-groups">Rondas y grupos</h2>
+    <ul>
+      <li><strong>Tras cada 5 rondas la partida termina y se reinicia desde Registro.</strong> Vuelvete a registrar cada ciclo.</li>
+      <li><strong>Gana y subes a un grupo superior; pierde y te quedas en el mismo o bajas a un grupo más débil.</strong> La escalera auto-ordena alianzas con el tiempo.</li>
+      <li>Un <strong>"bye" es posible incluso con 15 completos</strong> — un número impar de carriles registrados significa que alguien avanza sin pelear. Es suerte, no un bug.</li>
+    </ul>
+
+    <h2 id="known-bugs">Bugs conocidos</h2>
+    <ul>
+      <li><strong>Reemplazado tras 2 victorias sin perder</strong> — el relevo debería mantenerte tras las victorias, pero algunos jugadores son retirados tras dos triunfos. Repórtalo si te pasa.</li>
+      <li><strong>Jugadores registrados excluidos de la ronda 2.</strong> Los registros obsoletos pueden dejarte fuera de la siguiente ronda. La eliminación de la lista es <strong>solo R4/R5</strong> — si estás atascado, pide al liderazgo que te limpie para poder re-registrarte.</li>
+    </ul>
+
+    <h2 id="lane-strategy">Estrategia de prioridad de carriles</h2>
+    <blockquote>No necesitas ganar TODAS las peleas — necesitas los carriles CORRECTOS.</blockquote>
+    <h3 id="consensus-setup">La formación de consenso</h3>
+    <ol>
+      <li><strong>Prioriza 2 de los 3 carriles.</strong> Ganar la partida necesita 2 carriles, no 3 — repartir la plantilla parejo entre los tres solo garantiza perder el tercero de todos modos.</li>
+      <li><strong>Divide el top-30 parejo en dos carriles fuertes</strong>, y llena los cuerpos restantes en el tercero.</li>
+    </ol>
+    <h3 id="weak-lane-refinement">El refinamiento: los dos más fuertes al carril débil</h3>
+    <ol>
+      <li>Envía a tus <strong>2 jugadores más fuertes al TERCER carril débil</strong> — ellos lo acarrean.</li>
+      <li>La lógica es aritmética de relevo: tus jugadores más fuertes aparcados en los carriles fuertes <strong>a menudo nunca pelean</strong>, porque los jugadores más débiles del carril ganan antes de que se necesiten a los ases. En el carril débil, son la diferencia entre 0-1 y un carril vivo.</li>
+    </ol>
+    <h3 id="counterpoint">El contraargumento que funcionó</h3>
+    <ul>
+      <li><strong>3 equipos equilibrados con el top-3 de jugadores en cada uno</strong> también ha funcionado verificablemente — un ancla por carril en vez de un carril cedido.</li>
+    </ul>
+    <p>Ninguna formación está mal en el vacío. La lectura correcta: <strong>comprueba quién ganó y perdió dónde en la siguiente ronda.</strong> Tus oponentes cambian de grupo en grupo, y la formación que ganó esta partida puede necesitar reequilibrio la próxima ronda. Adáptate, no vayas en automático.</p>
+
+    <h2 id="why-zero-risk">Por qué este es el mejor evento de riesgo cero</h2>
+    <p>Canyon Conquest <strong>no tiene pérdida de tropas, riesgo de recursos ni coste real de aguante</strong> — a diferencia del <a href="/es/events/kvk/">KvK</a>, donde una ciudad sin escudo arde. Peleas con poder de torneo prestado, y tu ejército real se queda en casa intacto. Eso lo hace uno de los <strong>mejores eventos para recompensas seguras</strong> del juego: preséntate, registra, pelea tus tres peleas, cobra.</p>
+    <p>El único coste real es la atención a la formación — y las reglas de relevo de arriba son toda la meta de formaciones.</p>
+
+    <VideoSection topic="canyon" lang={lang} />
+  </GuidePage>
+</Base>

@@ -1,0 +1,60 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'pt';
+---
+<Base lang={lang} path="/pt/events/arena/" title="Arena Triangular: defesa e ataque" description="Três formações, o atacante escolhe duas para vencer: o princípio da defesa equilibrada, a regra do confronto de sacrifício, ataque baseado em contra-ataques, bônus de facção e a jogada do esquadrão armadilha da Arena do Destino por fragmentos UR.">
+  <GuidePage title="Arena Triangular: defesa e ataque" description="Três formações, o atacante escolhe duas para vencer: o princípio da defesa equilibrada, a regra do confronto de sacrifício, ataque baseado em contra-ataques, bônus de facção e a jogada do esquadrão armadilha da Arena do Destino por fragmentos UR." lang={lang}>
+    <p>A Arena Triangular é o duelo de formações 3v3: você configura <strong>três formações de defesa</strong>, e todo atacante <strong>escolhe contra quais das suas formações lutar</strong> — ele precisa <strong>vencer 2 de 3</strong> para te bater. Uma regra molda o evento inteiro antes de qualquer coisa: <strong>o atacante VÊ suas formações</strong>. Defender neste jogo não é ser invencível; é não ser legível.</p>
+    <p>Este guia cobre os princípios de defesa, a regra do confronto de sacrifício para atacar, contra-ataques, bônus de facção e a estratégia do esquadrão armadilha da Arena do Destino.</p>
+
+    <h2 id="format">O formato, e o que significa</h2>
+    <ul>
+      <li>Defensores configuram <strong>3 formações</strong>. Atacantes escolhem a ordem em que lutam contra elas e precisam <strong>vencer 2 de 3</strong>.</li>
+      <li><strong>O atacante vê seus três times</strong> — esta é a vantagem do atacante, e toda regra de defesa abaixo existe para amortecê-la.</li>
+    </ul>
+    <blockquote>Você não pode impedir um jogador mais forte de te vencer. Você pode impedir um mais fraco de te farmar.</blockquote>
+
+    <h2 id="defense-principles">Defesa: mantenha as três equilibradas</h2>
+    <p>O erro de defesa mais comum: empilhar seus melhores heróis numa única formação. O atacante simplesmente <strong>evita seu time forte e vence os outros dois</strong> — você perde 2-1 com seu melhor esquadrão nunca tendo lutado. As regras:</p>
+    <ul>
+      <li><strong>Mantenha as 3 formações EQUILIBRADAS.</strong> Espalhe a força para que não exista vitória grátis no tabuleiro.</li>
+      <li><strong>Cada time recebe um dos seus 3 melhores tanques</strong> na frente — uma frontline boa é o que torna uma formação mediana chata de limpar.</li>
+      <li><strong>O time mais fraco recebe os heróis mais fortes</strong> — escora sua pior vaga, não sua melhor.</li>
+      <li><strong>Coloque um segundo tanque atrás</strong> da frontline — profundidade atrás da primeira muralha estica toda luta.</li>
+      <li><strong>Poder não é tudo</strong> — composição e contra-ataques decidem lutas; ajuste por tentativa e erro, não por número de CP.</li>
+      <li><strong>Monitore quem ganha e perde contra você</strong> — o registro de defesa é dado de ajuste grátis. Reequilibre quando aparecer deriva.</li>
+    </ul>
+    <p>O que a defesa equilibrada realmente compra: ela não para os mais fortes, mas <strong>impede os mais fracos de derrubar seu ranking</strong> — e defender ranking é onde moram as recompensas da temporada.</p>
+
+    <h2 id="sacrifice-rule">A regra do confronto de sacrifício</h2>
+    <p>O princípio de confronto que vence ataques:</p>
+    <blockquote>Contra uma defesa empilhada, coloque seu PIOR esquadrão contra o MELHOR deles — e vença as outras duas de graça.</blockquote>
+    <p>Leia o tabuleiro deles, encontre a única formação que você não vence, e <strong>ceda-a deliberadamente</strong>. Seu esquadrão de sacrifício existe para perder para o monstro deles enquanto seus dois esquadrões melhores pegam as duas lutas vencíveis. O atacante escolhe a ordem — nunca desperdice seu melhor esquadrão na melhor formação deles.</p>
+
+    <h2 id="attack-rules">Ataque: contra-ataques e bônus de facção</h2>
+    <ul>
+      <li><strong>Seus 10 melhores heróis são intercambiáveis entre os dois times de cima.</strong> Construa as duas vitórias; não guarde heróis para uma terceira luta que você planeia perder de qualquer jeito.</li>
+      <li><strong>Confrontos de contra-ataque decidem as lutas:</strong> seus guardas contra as formações guarda/guerreiro deles; seus guerreiros contra as formações guerreiro/bruxo deles.</li>
+      <li><strong>Evite a formação mais forte deles</strong> — a regra de sacrifício acima. Só lute contra o que você vence.</li>
+      <li><strong>Bônus de facção são chave</strong> — e como <strong>você pode ver a defesa deles</strong>, você pode pré-construir o bônus de facção do seu contra-ataque antes de entrar na fila. O defensor não pode se ajustar; você pode.</li>
+    </ul>
+    <p>Escolhas de herói contra herói estão na <a href="/pt/heroes/">guia de Heróis</a>.</p>
+
+    <h2 id="results">O que isso alcança na prática</h2>
+    <p>Resultados verificados de jogadores rodando este sistema: <strong>colocações top-20/40/100 consistentes com elencos médios, subindo de 250+ antes</strong>. A arena recompensa consistência sobre poder de whale — uma conta legível sangra ranking todo dia para atacantes que veem a faixa fraca; uma conta equilibrada e monitorada o segura.</p>
+
+    <h2 id="arena-of-fate">Arena do Destino: a estratégia do esquadrão armadilha</h2>
+    <ul>
+      <li>A variante especial da arena roda o mesmo formato de 2-de-3 — e a jogada do <strong>"Esquadrão Armadilha"</strong> explora a vantagem de visibilidade do atacante ao contrário: isca esquadrões de aparência equilibrada que batem muito acima do peso aparente.</li>
+      <li>Bem feita, ela <strong>agarra recompensas de alto nível, incluindo fragmentos UR</strong> — a rara fonte grátis de UR em conteúdo PvP.</li>
+      <li><strong>Bug conhecido: alguns jogadores ficam sem ranking em servidores novos</strong> — se seu ranking nunca aparece numa temporada de Destino, é o bug, não seu jogo. Reporte e espere passar.</li>
+    </ul>
+
+    <VideoSection topic="arena" lang={lang} />
+  </GuidePage>
+</Base>

@@ -1,0 +1,60 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { weeklySchedule, recurring } from '../../data/calendar';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ja';
+---
+
+<Base lang={lang} path="/calendar/" title="イベントカレンダー" description="Last Asylum: Plague の週間リズム — Falcon 受け取り曜日、同盟決闘フェーズ、リセットと定期イベント。">
+  <GuidePage
+    title="📅 イベントカレンダー"
+    description="効率を求めるプレイヤー全員が従う週間リズム。注意:正確なローテーションはサーバーごとに異なります — 必ずゲーム内カレンダーを確認してください。"
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/ja/' }, { label: 'カレンダー' }]}
+  >
+    <h2 id="weekly-rhythm">週間リズム</h2>
+    <div class="not-prose my-6 overflow-x-auto rounded-lg border border-stone-800">
+      <table class="w-full text-sm">
+        <thead class="bg-stone-900 text-left text-plague-300">
+          <tr><th class="p-3">曜日</th><th class="p-3">イベント</th><th class="p-3">やるべきこと</th></tr>
+        </thead>
+        <tbody>
+          {weeklySchedule.map((e) => (
+            <tr class="border-t border-stone-800">
+              <td class="p-3 font-bold text-plague-200 whitespace-nowrap">{e.icon} {e.day}</td>
+              <td class="p-3 text-stone-200 whitespace-nowrap">{e.event}</td>
+              <td class="p-3 text-stone-400">{e.what}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <h2 id="recurring">リセット &amp; 定期スケジュール</h2>
+    <div class="not-prose my-6 grid gap-3 sm:grid-cols-2">
+      {recurring.map((e) => (
+        <div class="rounded-lg border border-stone-800 bg-stone-900 p-4">
+          <p class="text-sm font-bold text-plague-200">{e.icon} {e.event}</p>
+          <p class="mt-0.5 text-xs text-stone-500">{e.day}</p>
+          <p class="mt-1 text-sm text-stone-400">{e.what}</p>
+        </div>
+      ))}
+    </div>
+
+    <h2 id="claim-days">受け取り曜日トリック (月/水/金)</h2>
+    <p>Falcon Tower のクエストは完了したのに<strong>受け取っていない</strong>場合、赤ドットが保持され期限切れになりません。ダブル強化の曜日は月曜・水曜・金曜です:</p>
+    <ul>
+      <li>日曜にクエストを完了 → 月曜に受け取る</li>
+      <li>火曜に完了 → 水曜に受け取る</li>
+      <li>木曜に完了 → 金曜に受け取る</li>
+    </ul>
+    <p><strong>スタッキング最大 − 1:</strong>クエストボードがいっぱいだとタイマーが止まります。最大のうち1つだけクエストを完了して新しいクエストが湧き続けるように — クエストの流れを日々コントロールしましょう。</p>
+    <p class="text-sm text-stone-500">⚠️ キュー上限:すべてのクエスト(完了済みか否かを問わず)がキューカウンター(x/x)にカウントされます。いっぱいになると次のクエストは失われます。</p>
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

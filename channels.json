@@ -1,0 +1,46 @@
+{
+  "guild_id": 1417476085179748507,
+  "channels": [
+    {
+      "id": 1451057834031710461,
+      "name": "official-guide",
+      "type": "forum",
+      "note": "спарсен"
+    },
+    {
+      "id": 1417476086425583703,
+      "name": "player-guide",
+      "type": "forum"
+    },
+    {
+      "id": 1451055508625559634,
+      "name": "patch-notes",
+      "type": "text"
+    },
+    {
+      "id": 1451055410646614127,
+      "name": "official-post",
+      "type": "text"
+    },
+    {
+      "id": 1451057019510591558,
+      "name": "event-news",
+      "type": "text"
+    },
+    {
+      "id": 1481179211581489162,
+      "name": "status-update",
+      "type": "text"
+    },
+    {
+      "id": 1451055610626969640,
+      "name": "giftcode",
+      "type": "text"
+    },
+    {
+      "id": 1451101542957580399,
+      "name": "faq",
+      "type": "forum"
+    }
+  ]
+}

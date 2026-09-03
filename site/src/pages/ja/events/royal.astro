@@ -1,0 +1,78 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ja';
+---
+<Base lang={lang} path="/ja/events/royal/" title="Royal Castle Scramble と称号" description="週1回の城取りレース:1人1進軍、タurretと補強のルール、聖域6以上の占領、王の褒章箱、そしてキューのメカニズムを含む王都の称号システムの全解説。">
+  <GuidePage title="Royal Castle Scramble と称号" description="週1回の城取りレース:1人1進軍、タurretと補強のルール、聖域6以上の占領、王の褒章箱、そしてキューのメカニズムを含む王都の称号システムの全解説。" lang={lang}>
+    <p>Royal Castle Scramble は<strong>週1回の城取り</strong>です:同盟が王城を奪取・保持するレースで、<strong>毎週同じ曜日の同じ時刻</strong>に行われます。城の戦い自体は速くシンプル — 勝負が決まるのは準備(進軍、補強、聖域レベル)です。</p>
+    <p>このガイドでは、奪取のルール、補強のメカニズム、褒章箱、そして勝利王国が解放する王都の称号システムのすべてを解説します。</p>
+
+    <h2 id="how-it-works">仕組み</h2>
+    <ul>
+      <li><strong>週1回</strong>、毎週同じ曜日の同じ時刻 — アラームを1回セットすればもう変わりません。</li>
+      <li><strong>1人1進軍。</strong> イベント全体で1回の進軍しかありません。</li>
+      <li><strong>加速はできない。</strong> 加速アイテムもなし — 出発時の進軍速度が到着時の進軍速度です。</li>
+      <li><strong>集結が推奨。</strong> 1人1進軍だからこそ毎回が肝心。集結は同盟の進軍を、単独の犠牲の流れではなく1つの信頼できる攻撃にプールします。</li>
+      <li><strong>初手の進軍はレース。</strong> 最初の進軍が攻囲する側と掻き回される側を決めます — 開始の合図での進軍タイミングは、生の戦力より重要です。</li>
+    </ul>
+
+    <h2 id="turrets-and-positioning">タurretと位置取り</h2>
+    <ul>
+      <li><strong>Scrambleではタurretは起動しない</strong> — あれは<a href="/ja/events/kvk/">KvK</a>のメカニズム専用です。ここに突破すべきタurretの幕はありません。</li>
+      <li><strong>攻撃が心配なら泥地へテレポート</strong> — そこでは<strong>シールドは不要</strong>。泥地のエリアは安全な集結地。使いましょう。</li>
+    </ul>
+
+    <h2 id="capture-and-reinforcement">奪取と補強</h2>
+    <ul>
+      <li><strong>城を取るまでに4時間。</strong> 占有は時間窓の中で刻々と上がり、<strong>占有率が高いほど速く</strong>、守り側が食い下がると<strong>争奪中は遅く</strong>なります。</li>
+      <li><strong>補強の上限:30人。</strong> これがハードキャップ — 補強リストは戦いの中ではなく前に計画すること。</li>
+      <li><strong>補強は削られる。</strong> 守り側はあなたの守備隊を削ぎ落とします — <strong>引き上げて再補強し</strong>、チップをリセットしましょう。HP20%の補強は、その枠の新しい1人より価値が低いです。</li>
+    </ul>
+
+    <h2 id="who-takes-vs-farms">誰が取り、誰が回すか</h2>
+    <blockquote>城を取るのは聖域6以上 — それ以外の全員はポイントのために資源タイルを回す。</blockquote>
+    <p>城を占有できるのは<strong>聖域6以上</strong>のプレイヤーだけです。この分割があなたの役割を定義します：</p>
+    <ul>
+      <li><strong>聖域6以上</strong>:城へ進軍し、集結し、30枠を補強する。</li>
+      <li><strong>それ以外の全員</strong>:城の周りの資源タイルを回してイベントポイントを稼ぐ — 進軍は、城壁ではなくても、ちゃんと稼いでくれます。</li>
+    </ul>
+    <p>イベント開始<strong>前に</strong>自分の聖域レベルを確認しましょう。聖域5のプレイヤーが城へ進軍しても、1回しかない進軍を無駄にします。</p>
+
+    <h2 id="commendation-chests">王の褒章箱</h2>
+    <ul>
+      <li><strong>R5のみ</strong> — 同盟リーダーが<strong>戦いの後に城をクリック</strong>して受け取ります。</li>
+      <li><strong>条件:王国に入って24時間以上。</strong> 戦いの1日前未満に王国を横断したプレイヤーは箱の対象外です。</li>
+    </ul>
+
+    <h2 id="royal-titles">王都の称号</h2>
+    <p>城を取ると、王国の称号システムが解放されます — 称号保有者が適用する、時間制限付きのパーセントバフ：</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>称号</th><th>バフの種類</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>研究速度</td><td>研究への時間制限%バフ</td></tr>
+        <tr><td>領土発展</td><td>領土への時間制限%バフ</td></tr>
+        <tr><td>訓練</td><td>部隊訓練への時間制限%バフ</td></tr>
+        <tr><td>治療</td><td>治療への時間制限%バフ</td></tr>
+        <tr><td>Minister of the Inner Court</td><td>農場生産バフ</td></tr>
+      </tbody>
+    </table>
+    <p>キューのメカニズム：</p>
+    <ul>
+      <li><strong>キュー制度</strong> — 称号枠ごとにプレイヤーが並び、先着順。</li>
+      <li><strong>各枠は5分間走る。</strong></li>
+      <li><strong>枠の開始と終了にメールが届く</strong>ので、バフがいつ始まりいつ終わったか正確に分かります。</li>
+      <li><strong>枠が終わったら即座に再申请</strong> — 同じ称号は再キュー可能で、<strong>再申请回数に制限なし</strong>。連続枠は想定されたパターンです。</li>
+      <li><strong>申请後20分のクールダウン</strong> — キューへの唯一のブレーキ。再申请はそれに合わせて。</li>
+    </ul>
+    <p>称号バフは週間カレンダーの他のすべてと複利します — <a href="/ja/events/alliance-duel/">Alliance Duel フェーズ3</a>の間の研究枠や、<a href="/ja/events/alliance-duel/">フェーズ5</a>の間の訓練枠こそ、週全体が組み上がる「二重取り」です。</p>
+
+    <VideoSection topic="royal" lang={lang} />
+  </GuidePage>
+</Base>

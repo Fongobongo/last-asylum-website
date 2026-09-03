@@ -1,0 +1,88 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+<Base lang={lang} path="/de/events/thief/" title="Diebesjagd: Boss-Spawns und Tausch" description="Die Ausdauer-zu-Bosses-Pipeline: wie Diebes-Anführer-Spawns wirklich funktionieren, die Nonstop-Kill-Technik für Stufe 30/35, die Community-Tausch-Prioritätenliste und der Boss-Trupp, der den meisten Schaden stapelt.">
+  <GuidePage title="Diebesjagd: Boss-Spawns und Tausch" description="Die Ausdauer-zu-Bosses-Pipeline: wie Diebes-Anführer-Spawns wirklich funktionieren, die Nonstop-Kill-Technik für Stufe 30/35, die Community-Tausch-Prioritätenliste und der Boss-Trupp, der den meisten Schaden stapelt." lang={lang}>
+    <p>Die Diebesjagd ist das <strong>Allianz-Ausdauer-Event</strong>: du gibst Ausdauer aus, um Diebe auf der Karte anzugreifen, und Diebes-Kills würfeln eine Chance, einen <strong>Diebes-Anführer-Boss</strong> zu spawnen, den die ganze Allianz rallyen kann. Es verwandelt deine überschüssige Ausdauer in den Tausch-Shop — einer der wertvollsten Shops im Spiel, wenn du in der richtigen Reihenfolge kaufst.</p>
+    <p>Dieser Guide deckt Boss-Spawn-Mechaniken ab, die Technik für hochstufige Boss-Spawns, die Tausch-Prioritätenliste und den Boss-Trupp.</p>
+
+    <h2 id="how-it-works">Wie es funktioniert</h2>
+    <ul>
+      <li>Greife Diebe auf der Karte mit Ausdauer an. Kills spawnen den Diebes-Anführer-Boss für eine Allianz-Rallye — <strong>der Wurf erfolgt pro getötetem Dieb</strong>, nicht pro Event-Tag oder pro Spieler.</li>
+      <li>Bosse spawnen <strong>beim ersten Kill oder nach 20</strong> — der Wurf kommt früh oder nach einer Serie. Eine Allianz berichtet <strong>immer 8 oder mehr</strong>; rechne mit Varianz und töte weiter.</li>
+      <li>Punkte und Belohnungen <strong>steigen später im Event nicht</strong>. Es gibt null Grund, Ausdauer zu horten — <strong>gib sie sofort aus</strong>, um früher auf die großen Bosse zu würfeln.</li>
+    </ul>
+
+    <h2 id="boss-levels">Boss-Stufen nach Server</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Server-Alter</th><th>Häufige Boss-Stufen</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Typisch</td><td>10 / 15 / 20 / 25 / 30, selten 35</td></tr>
+        <tr><td>Ältere Server</td><td>40 / 65 / 85 / 90</td></tr>
+      </tbody>
+    </table>
+    <ul>
+      <li>Deine <strong>Boss-Stufen-Spanne ist pro Spieler zufällig und ändert sich nie</strong> — du würfelst deine Spanne und behältst sie. Sie hängt <strong>nicht an deiner Macht</strong>, also kann ein macht-schwacher Spieler hochstufige Bosse erwürfeln.</li>
+      <li><strong>Nach dem Patch vom 8. Juli: Spawns folgen dem Server-Wachstum.</strong> Seit dem Patch folgen die Boss-Stufen dem Entwicklungsstand des Servers — keine Stufe-10-Bosse mehr auf einem Jahr-alten Server.</li>
+    </ul>
+
+    <h2 id="spawn-technique">Die Nonstop-Kill-Technik für Stufe 30/35</h2>
+    <p>Die verifizierte Technik, um Boss-Stufen auf 30 und 35 zu pushen:</p>
+    <blockquote>Töte Diebe einzeln OHNE deine Truppen zur Basis zurückkehren zu lassen — nonstop, Rücken-an-Rücken-Märsche mit null Leerlaufzeit.</blockquote>
+    <p>Märsche, die zur Basis zurückkehren, brechen die Serie; aufeinanderfolgende Kills würfeln den Spawn wieder und wieder. Verkette deine Ziele so, dass der nächste Marsch in dem Moment losschickt, in dem der letzte landet, und die hochstufigen Spawns kommen weit häufiger.</p>
+
+    <h2 id="exchange">Die Tausch-Prioritätenliste</h2>
+    <p>Der Tausch-Shop ist die echte Belohnung, und die Konsens-Reihenfolge der Community ist stabil:</p>
+    <h3 id="week-1">Nur Woche 1</h3>
+    <ol>
+      <li><strong>Schriftrollen</strong> — 4 für die Allianz-Duell-Technologie, <strong>danach nie wieder</strong>. Die Duell-Technologie will exakt vier; danach sind sie totes Gewicht.</li>
+    </ol>
+    <h3 id="always">Immer, jedes Event</h3>
+    <ol>
+      <li><strong>Krähen-Essenz</strong> — jedes Event, ohne Ausnahmen. Das Raben-System ist permanent von ihr ausgebremst (siehe den <a href="/de/raven/">Raben-Guide</a>).</li>
+    </ol>
+    <h3 id="high-priority">Hohe Priorität</h3>
+    <ol>
+      <li>Ausdauer</li>
+      <li>Beschleunigungen</li>
+      <li>Raben-Truhe</li>
+      <li>Epigraphe <em>wenn verfügbar</em></li>
+    </ol>
+    <h3 id="late-game">Spätes Spiel</h3>
+    <ol>
+      <li><strong>Kräuter</strong> — nie genug davon; Spät-Spiel-Konten kaufen jedes Event Kräuter.</li>
+    </ol>
+    <h3 id="alt-list">Alternative Prioritätenliste</h3>
+    <ol>
+      <li>Ausdauer</li>
+      <li>Raben-Truhe LV3</li>
+      <li>Blaue/lila Epigraph-Truhen</li>
+      <li>Forschungs-/Bau-Beschleunigungen</li>
+      <li>Rekrutierungs-Tickets</li>
+    </ol>
+    <p>Und eine Inventar-Regel: <strong>das Schriftrollen-Limit zieht von Event zu Event mit</strong>. Wenn du das Schriftrollen-Cap erreichst, folgt dir dieses Cap ins nächste Event — ein weiterer Grund für die „vier und dann nie wieder“-Regel.</p>
+
+    <h2 id="boss-squad">Der Boss-Rallye-Trupp</h2>
+    <p>Die Community-Boss-Komposition, gebaut für Schaden über Zeit:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Reihe</th><th>Helden</th><th>Job</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Vorne</td><td>Arthur + Bella</td><td>Länger überleben — jede zusätzliche Überlebens-Sekunde stapelt mehr Schaden</td></tr>
+        <tr><td>Hinten</td><td>Marlena + Shadow + Claire</td><td>Schadens-Maschine hinter der Frontlinie</td></tr>
+      </tbody>
+    </table>
+    <p>Die Logik: <strong>längeres Überleben = mehr gestapelter Schaden</strong>. Ein Boss-Kampf ist kein Burst-Check — der Trupp, der am längsten steht, verursacht am meisten, also priorisiere Überleben über Roh-Angriff. Vollständige Helden-Details stehen im <a href="/de/heroes/">Helden-Guide</a>.</p>
+
+    <VideoSection topic="thief" lang={lang} />
+  </GuidePage>
+</Base>

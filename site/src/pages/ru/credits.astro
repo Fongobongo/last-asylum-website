@@ -1,0 +1,73 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ru';
+
+const authors = [
+  { name: 'HottChoklit', tag: 'K34', contributions: ['Траты алмазов', 'Прокачка Мощи', 'Серия Hero Academy', 'Стратегия KvK', 'Гайды по Undead/грабежу'] },
+  { name: 'korpez / Korpez Gaming', tag: 'YouTube', contributions: ['Полный гайд по Дуэли альянсов', 'Survival Battle', 'Ускорение стройки', 'Эра Возрождения', 'Mythic Treasure'] },
+  { name: 'chuppergaming', tag: 'YouTube', contributions: ['Стартовый гайд по Эре', 'Тренировка войск', 'Mythic Treasure', 'Supreme Duel', 'Гильдейский вагон'] },
+  { name: 'merlyn', tag: 'сообщество', contributions: ['Составы отрядов + F2P-раздел', 'Советы по эпиграфам Ворона', 'Приоритеты магазинов'] },
+  { name: 'lucifer_burnsyou', tag: 'сообщество', contributions: ['Гайд по магазинам на 5 языках', 'strategic-game-guide.netlify.app'] },
+  { name: 'callikoneko', tag: 'сообщество', contributions: ['Разбор урона по Демону', 'Синергии навыков'] },
+  { name: 'kellerfaust', tag: 'сообщество', contributions: ['Сетки против боссов Blight (все фракции)'] },
+  { name: 'DrAction', tag: 'S12', contributions: ['Порядок эпиграфов', 'PvP-советы по отрядам'] },
+  { name: 'skyyzies', tag: 'сообщество', contributions: ['Правила Треугольной арены: защита и атака'] },
+  { name: 'verratvonwindir', tag: 'S2', contributions: ['Механики Королевской схватки'] },
+  { name: 'mu_013', tag: 'сообщество', contributions: ['Hunt Battle', 'Блуждающий Фантом', 'Гильдейский вагон', 'Копление Falcon Tower'] },
+  { name: 'linde2000', tag: 'сообщество', contributions: ['Спавн воров', 'Скиллы Crystal Cluster', 'F2P-ответы'] },
+  { name: 'elsiika57', tag: 'сообщество', contributions: ['Дорожная карта построек 1–29'] },
+  { name: 'zoidseo', tag: 'K159', contributions: ['Ранняя прокачка'] },
+  { name: 'ruitea', tag: 'сообщество', contributions: ['Общие советы / F2P / Shrimp-гайды', 'Анализ навыков Marlena'] },
+  { name: '_.dot._', tag: 'сообщество', contributions: ['Эффективность навыков Marlena', 'Правки по Mythic Treasure', 'Приоритеты навыков'] },
+  { name: 'dunidunduni', tag: 'S7', contributions: ['Детали Survival Battle'] },
+  { name: 'Aesy', tag: 'сообщество', contributions: ['Инфографики: Thief Hunt и Crystal Cluster'] },
+  { name: 'katherineclover', tag: 'S131', contributions: ['Компендиум Lucky Clovers'] },
+  { name: 'DrGayLord / HOLY', tag: 'S247', contributions: ['Азы для новичков: постройки, снаряжение, фракции'] },
+  { name: '뀨잉이 (jjuingyi)', tag: 'сообщество', contributions: ['Гайд по гильдейскому вагону (KO)'] },
+  { name: 'bulheba', tag: 'RU сообщество', contributions: ['RU: механика PVP, застройка, видео по Дуэли альянсов'] },
+  { name: 'LapBase / ikona_in', tag: 'RU сообщество', contributions: ['RU: F2P-пехотный отряд, гайды по событиям'] },
+  { name: 'oψsvge英俊的', tag: 'K250', contributions: ['ID: Эра Возрождения, Осада зомби, первые недели'] },
+  { name: 'hunalulu0503', tag: 'сообщество', contributions: ['Mythic Treasure F2P', 'ТОП-10 построек'] },
+  { name: 'Sirox', tag: 'thelaphub.com', contributions: ['LAP Hub — планер исследований, калькуляторы, кодекс', 'Разборы Claire UR и лимитов грабежа'] },
+];
+
+const sources = [
+  { name: 'Официальный Discord — #official-guide', url: null, desc: 'Официальные гайды: постройки, герои, Мощь, антитоксины' },
+  { name: 'Официальный Discord — #player-guide', url: null, desc: '520+ тредов сообщества на ~15 языках (спарсено discord.py-self)' },
+  { name: 'Sirox’s LAP Hub', url: 'https://thelaphub.com', desc: 'Планер исследований, калькуляторы, кодекс героев/построек' },
+  { name: 'Strategic Game Guide', url: 'https://strategic-game-guide.netlify.app', desc: 'Приоритеты магазинов на 5 языках' },
+  { name: 'YouTube-каналы сообщества', url: null, desc: 'korpez, HottChoklit, chuppergaming, KrrissGaming, quanybean и др.' },
+];
+---
+
+<Base lang={lang} path="/credits/" title="Авторы и источники" description="Благодарности авторам гайдов сообщества Last Asylum: Plague, на чьих работах построен хаб.">
+  <GuidePage title={`🙏 ${t(lang, 'credits.title')}`} description={t(lang, 'credits.intro')} lang={lang}>
+    <h2 id="authors">Авторы гайдов</h2>
+    <div class="not-prose my-6 grid gap-3 sm:grid-cols-2">
+      {authors.map((a) => (
+        <div class="rounded-lg border border-stone-800 bg-stone-900 p-4">
+          <p class="font-bold text-plague-200">{a.name} <span class="ml-1 rounded bg-stone-800 px-1.5 py-0.5 text-xs font-medium text-stone-400">{a.tag}</span></p>
+          <p class="mt-1 text-sm text-stone-400">{a.contributions.join(' · ')}</p>
+        </div>
+      ))}
+    </div>
+
+    <h2 id="sources">Источники</h2>
+    <ul>
+      {sources.map((s) => (
+        <li>
+          {s.url
+            ? <a href={s.url} target="_blank" rel="noopener noreferrer">{s.name}</a>
+            : <strong>{s.name}</strong>}
+          {' — '}{s.desc}
+        </li>
+      ))}
+    </ul>
+
+    <p class="mt-6 text-sm text-stone-500">Если ты автор и хочешь поправить или убрать своё имя — напиши нам, быстро исправим.</p>
+  </GuidePage>
+</Base>

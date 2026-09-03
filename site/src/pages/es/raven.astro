@@ -1,0 +1,111 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'es';
+---
+<Base lang={lang} path="/es/raven/" title="Cuervo y sistema de epígrafes" description="Niveles y planes del Cuervo, estrategia de equipo, rarezas de epígrafes y orden de promoción, y las reglas monofacción que deciden qué epígrafes vale la pena mejorar.">
+  <GuidePage title="Cuervo y sistema de epígrafes" description="Niveles y planes del Cuervo, estrategia de equipo, rarezas de epígrafes y orden de promoción, y las reglas monofacción que deciden qué epígrafes vale la pena mejorar." lang={lang}>
+    <p>El Cuervo es el sistema que separa cuentas en silencio: funciona como un héroe extra para todos tus escuadrones a la vez, y sus epígrafes son donde la meta monofacción se aplica de verdad. El Cuervo también es el sistema que más jugadores descuidan — un Cuervo atascado en nivel 1 es el error clásico.</p>
+    <p>Esta página cubre los niveles y planes del Cuervo, la estrategia de equipo, las rarezas de epígrafes y el orden de promoción, y las reglas que deciden qué epígrafes merecen materiales.</p>
+
+    <h2 id="what-raven-is">Qué es el Cuervo</h2>
+    <p>El Cuervo es un héroe extra para todos tus escuadrones — sus bonos se aplican en todas partes a la vez, no solo a una formación. Dos consecuencias siguen:</p>
+    <ul>
+      <li>Cada punto invertido en el Cuervo mejora cada marcha que despliegues, lo que lo convierte en uno de los sistemas de mayor valor del juego.</li>
+      <li>La Esencia de Cuervo, su comida, es el cuello de botella de todo el sistema. Farméala desde el principio y nunca pares — la tienda VIP y la del Santuario la venden exactamente por eso.</li>
+    </ul>
+    <p>La meta a largo plazo es el <strong>Cuervo nivel 110</strong>, donde aterriza la habilidad final: +50% de daño AOE a los objetivos afectados. Ese es el endgame del sistema, y la Esencia de Cuervo es lo que se interpone entre tú y él.</p>
+
+    <h2 id="raven-levels">Niveles y planes del Cuervo</h2>
+    <p>Los niveles del Cuervo desbloquean las ranuras de epígrafes (llamadas Planes) de una en una:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Nivel de Cuervo</th><th>Desbloqueo</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>10</td><td>Epígrafes + Plan 1 (primera ranura)</td></tr>
+        <tr><td>150</td><td>Plan 2 (+1 bono de sistema)</td></tr>
+        <tr><td>300</td><td>Plan 3 (+2)</td></tr>
+        <tr><td>450</td><td>Plan 4 (+3)</td></tr>
+        <tr><td>600</td><td>Plan 5 (+4)</td></tr>
+      </tbody>
+    </table>
+    <p>Lee la tabla como la verdadera ruta de progresión del Cuervo: el nivel 10 abre todo el sistema de epígrafes, y cada 150 niveles después añade otra ranura que llenar. Como cada ranura del Plan lleva su propio bono de epígrafo, un nivel de Cuervo estancado limita cuántos de esos bonos puedes equipar siquiera.</p>
+
+    <h2 id="raven-gear">Estrategia de equipo del Cuervo</h2>
+    <p>Empuja el equipo del Cuervo al nivel 8 — ahí llegan los bonos porcentuales, y los bonos porcentuales son lo que hace que el equipo valga la pena llevar.</p>
+    <p>Estrategia lateral, izquierda contra derecha:</p>
+    <ul>
+      <li><strong>Lado izquierdo</strong> — HP y reducción de daño crítico. Más fácil de conseguir, valor defensivo.</li>
+      <li><strong>Lado derecho</strong> — ATK y daño crítico. El mejor valor ofensivo del sistema.</li>
+    </ul>
+    <p>Y una regla de calendario: <strong>guarda tus cofres de equipo para los días de Duelo de Alianzas.</strong> Abrirlos entonces gana puntos de Duelo — la misma lógica de doble beneficio que gobierna las aceleraciones en la <a href="/es/economy/">guía de Economía</a>.</p>
+
+    <h2 id="epigraph-basics">Epígrafes: las reglas básicas</h2>
+    <p>Los epígrafes se colocan en los Planes del Cuervo y potencian a los héroes de una facción. Las rarezas se comportan distinto, y las diferencias dirigen cada decisión de mejora:</p>
+    <ul>
+      <li><strong>UR (oro)</strong> — potencia UNA sola facción. La meta final, y la razón de que los escuadrones monofacción sean la meta.</li>
+    </ul>
+    <ul>
+      <li><strong>SR (azul) y R (verde)</strong> — potencian TODAS las facciones, pero no pueden promocionarse. Son el nivel todos-reciben-un-poco, útiles mientras construyes hacia el UR.</li>
+    </ul>
+    <p>La regla más importante: <strong>solo mejora epígrafes de la facción de tu escuadrón principal.</strong> Un epígrafo UR que potencia una facción que no despliegas no vale nada para ti — y en la meta monofacción, los materiales de facción equivocada son exactamente para lo que sirve el alimento (consulta Añadido Rápido más abajo).</p>
+
+    <h3 id="early-epigraphs">Los epígrafes de la meta temprana</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Epígrafo</th><th>Tipo de ranura</th><th>Efecto</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Frenzy Flock</td><td>Ataque</td><td>Bono de ATK a aliados Guerreros tras dispararse la habilidad del Cuervo, más objetivos del Cuervo.</td></tr>
+        <tr><td>Reversal Power</td><td>Soporte</td><td>Daño para los 3 aliados Guerreros con mayor ATK, y reduce el daño definitivo enemigo.</td></tr>
+        <tr><td>Protective Charm</td><td>—</td><td>Opción de supervivencia — la tercera opción estándar cuando tu escuadrón muere en vez de perder por daño.</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="epigraph-workshop">El Taller de Epígrafes</h2>
+    <p>Fabricar epígrafes UR requiere <strong>Taller nivel 20</strong>. Todo lo anterior conduce a ello.</p>
+    <p>La escalera de rareza, y para qué sirve realmente cada color:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Color</th><th>Rol</th><th>Notas</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Verde</td><td>Material</td><td>El nivel de alimento.</td></tr>
+        <tr><td>Azul</td><td>Material mejorado</td><td>Un SR azul con 2 estrellas rinde aproximadamente como un SSR morado — usa azules hasta que los supere.</td></tr>
+        <tr><td>Morado</td><td>Nivel de transición</td><td>Suficientemente bueno para pelear mientras tus UR crecen.</td></tr>
+        <tr><td>Oro (UR)</td><td>Meta final</td><td>El objetivo de todo el sistema.</td></tr>
+      </tbody>
+    </table>
+    <p>Una regla absoluta: <strong>nunca recicles un epígrafo dorado salvo que estés seguro.</strong> Los epígrafes UR son el activo permanente más escaso del juego — un UR reciclado no vuelve.</p>
+
+    <h2 id="promotion-order">Orden de promoción de epígrafes</h2>
+    <p>Sigue este orden (de DrAction), promoviendo una ranura a la vez:</p>
+    <ol>
+      <li>Medio — ranura de Defensa (reducción de daño).</li>
+      <li>Arriba — ranura de Ataque (Objetivo del Cuervo).</li>
+      <li>Derecha — ranura de Soporte (reducción de daño).</li>
+      <li>Izquierda — ranura de Iniciativa (bono de % de Defensa).</li>
+    </ol>
+    <p>Para epígrafes de espada de Guerreros en concreto, la variante de la comunidad: Soporte (derecha) UR primero, luego Ataque (arriba), luego Iniciativa o Defensa.</p>
+
+    <h2 id="rarity-comparisons">Comparaciones de rareza que sorprenden</h2>
+    <p>El nivel de estrellas puede superar a la rareza en la ranura de daño. Estas son las comparaciones verificadas que más se discuten:</p>
+    <ul>
+      <li>Un morado con 4 estrellas puede superar en daño a un amarillo (UR) con 0 estrellas en la ranura de ataque — el dicho de la comunidad es morado DMG hasta el final.</li>
+      <li>Un UR de escudo con 0 estrellas es mejor que un SSR con 5 estrellas.</li>
+      <li>El morado supera al UR contra el Rey Plaga hasta que el UR alcanza 3 estrellas o más.</li>
+    </ul>
+    <p>La moraleja no es que el morado sea secretamente el mejor nivel — es que un epígrafo de muchas estrellas del tipo correcto vence a un UR fresco del tipo equivocado. Sube estrellas a tus epígrafes antes de perseguir su techo de rareza.</p>
+
+    <h2 id="ssr-vs-ur">SSR, UR y qué se mejora realmente</h2>
+    <p>Un malentendido común que conviene matar pronto: <strong>no puedes mejorar un epígrafo SSR a UR</strong>. Lo que improves es el Plan — la ranura donde se asienta el epígrafo. Los epígrafes SSR son marcadores en esa progresión, no embriones.</p>
+    <p>Lo que lleva al error del Cuervo más común del juego: los jugadores atesoran epígrafes de facción no principal en vez de alimentarlos al Cuervo vía <strong>Añadido Rápido</strong> — y luego se preguntan por qué su Cuervo está atascado en nivel 1. Los epígrafes de facción equivocada y baja rareza son comida del Cuervo. Añádelos con Añadido Rápido; para eso están.</p>
+
+    <VideoSection topic="raven" lang={lang} />
+  </GuidePage>
+</Base>

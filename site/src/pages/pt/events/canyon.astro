@@ -1,0 +1,67 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'pt';
+---
+<Base lang={lang} path="/pt/events/canyon/" title="Canyon Conquest: estratégia de faixas" description="A batalha de revezamento em três faixas onde a constância vence o poder: as regras de revezamento, o limite de 3 lutas, a estratégia de prioridade de faixa, bugs conhecidos e por que este é o melhor evento de risco zero do jogo.">
+  <GuidePage title="Canyon Conquest: estratégia de faixas" description="A batalha de revezamento em três faixas onde a constância vence o poder: as regras de revezamento, o limite de 3 lutas, a estratégia de prioridade de faixa, bugs conhecidos e por que este é o melhor evento de risco zero do jogo." lang={lang}>
+    <p>Canyon Conquest é a <strong>batalha de faixas da aliança</strong>: três faixas, e a aliança que ganha <strong>2 de 3 faixas</strong> leva a partida. Mas o formato é um <strong>revezamento</strong> — os jogadores mais fracos lutam primeiro, e um jogador <strong>fica na faixa até perder</strong>. Entender o que esse revezamento faz com a estratégia de formação é o evento inteiro.</p>
+    <p>Este guia cobre as regras de revezamento, a estrutura de recompensas, a estratégia de prioridade de faixa com suas variantes principais, os bugs conhecidos e por que este é o evento mais seguro do jogo.</p>
+
+    <h2 id="relay-rules">As regras do revezamento</h2>
+    <ol>
+      <li><strong>Os mais fracos lutam primeiro.</strong> Cada faixa começa com seus jogadores de menor CP e só escala quando alguém perde.</li>
+      <li><strong>O jogador fica até perder, aí entra o próximo.</strong> Um jogador vencedor segura a faixa e continua lutando contra o próximo desafiante — não existe rotação depois de uma vitória.</li>
+      <li><strong>Máximo de 3 lutas por jogador.</strong> Depois de três lutas você está fora da partida.</li>
+      <li><strong>15 jogadores por faixa.</strong> A aliança divide seu elenco entre as três faixas.</li>
+    </ol>
+    <p>Consequência do revezamento: <strong>se seu lado ganha cada luta com 2 mortes por jogador, só 8 dos 15 jogadores da faixa chegam a lutar.</strong> Sete jogadores ficam sentados a partida inteira sem gastar uma luta. Esse fato dirige cada decisão de formação abaixo.</p>
+
+    <h2 id="rewards">Recompensas e o nível de 3 mortes</h2>
+    <ul>
+      <li>A <strong>recompensa de 3 mortes é limitada por nível</strong> — você precisa que suas três lutas sejam mortes para atingir o nível pessoal máximo.</li>
+      <li>Como jogadores mais fortes no fundo da faixa enfrentam oponentes mais fortes, o nível de 3 mortes normalmente pertence ao topo do elenco — planeje suas expectativas pessoais em conformidade.</li>
+    </ul>
+
+    <h2 id="rounds-and-groups">Rodadas e grupos</h2>
+    <ul>
+      <li><strong>A cada 5 rodadas a partida termina e recomeça do Registro.</strong> Re-registre-se a cada ciclo.</li>
+      <li><strong>Ganhe e você sobe para um grupo superior; perca e fica no mesmo ou cai para um grupo mais fraco.</strong> A escada auto-organiza alianças ao longo do tempo.</li>
+      <li>Um <strong>"bye" é possível mesmo com 15 completos</strong> — um número ímpar de faixas registradas significa que alguém avança sem lutar. É sorte, não bug.</li>
+    </ul>
+
+    <h2 id="known-bugs">Bugs conhecidos</h2>
+    <ul>
+      <li><strong>Substituído após 2 vitórias sem perder</strong> — o revezamento deveria manter você após vitórias, mas alguns jogadores são puxados para fora depois de dois triunfos. Reporte se acontecer com você.</li>
+      <li><strong>Jogadores registrados excluídos da rodada 2.</strong> Registros velhos podem te deixar fora da próxima rodada. A remoção da lista é <strong>só R4/R5</strong> — se estiver preso, peça à liderança para te limpar para poder re-registrar.</li>
+    </ul>
+
+    <h2 id="lane-strategy">Estratégia de prioridade de faixa</h2>
+    <blockquote>Você não precisa vencer TODAS as lutas — você precisa das faixas CERTAS.</blockquote>
+    <h3 id="consensus-setup">A formação de consenso</h3>
+    <ol>
+      <li><strong>Priorize 2 das 3 faixas.</strong> Ganhar a partida exige 2 faixas, não 3 — despejar o elenco igualmente nas três só garante perder a terceira de qualquer jeito.</li>
+      <li><strong>Divida o top-30 igualmente em duas faixas fortes</strong>, e preencha os corpos restantes na terceira.</li>
+    </ol>
+    <h3 id="weak-lane-refinement">O refinamento: os dois mais fortes para a faixa fraca</h3>
+    <ol>
+      <li>Envie seus <strong>2 jogadores mais fortes para a TERCEIRA faixa fraca</strong> — eles carregam-na.</li>
+      <li>A lógica é aritmética de revezamento: seus jogadores mais fortes estacionados nas faixas fortes <strong>com frequência nunca lutam</strong>, porque os jogadores mais fracos da faixa ganham antes mesmo de os ases serem necessários. Na faixa fraca, eles são a diferença entre 0-1 e uma faixa viva.</li>
+    </ol>
+    <h3 id="counterpoint">O contraponto que funcionou</h3>
+    <ul>
+      <li><strong>3 times equilibrados com o top-3 de jogadores em cada</strong> também verificalmente funcionou — uma âncora por faixa em vez de uma faixa cedida.</li>
+    </ul>
+    <p>Nenhuma formação está errada no vácuo. A leitura correta: <strong>confira quem ganhou e perdeu onde na próxima rodada.</strong> Seus oponentes mudam de grupo para grupo, e a formação que ganhou esta partida pode precisar de reequilíbrio na próxima. Adapte-se, não pilots no automático.</p>
+
+    <h2 id="why-zero-risk">Por que este é o melhor evento de risco zero</h2>
+    <p>Canyon Conquest <strong>não tem perda de tropas, risco de recursos nem custo real de vigor</strong> — diferente do <a href="/pt/events/kvk/">KvK</a>, onde uma cidade sem escudo queima. Você luta com poder de torneio emprestado, e seu exército real fica em casa intacto. Isso torna um dos <strong>melhores eventos para recompensas seguras</strong> do jogo: apareça, registre-se, lute suas três lutas, recolha.</p>
+    <p>O único custo real é atenção à formação — e as regras de revezamento acima são toda a meta de formação.</p>
+
+    <VideoSection topic="canyon" lang={lang} />
+  </GuidePage>
+</Base>

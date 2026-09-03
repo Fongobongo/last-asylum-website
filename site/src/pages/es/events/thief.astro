@@ -1,0 +1,88 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'es';
+---
+<Base lang={lang} path="/es/events/thief/" title="Caza de ladrones: jefes e intercambio" description="La tubería de aguante-a-jefes: cómo funcionan realmente las apariciones del Líder Ladrón, la técnica de muerte continua para nivel 30/35, la lista de prioridades del intercambio de la comunidad y el escuadrón de jefe que apila más daño.">
+  <GuidePage title="Caza de ladrones: jefes e intercambio" description="La tubería de aguante-a-jefes: cómo funcionan realmente las apariciones del Líder Ladrón, la técnica de muerte continua para nivel 30/35, la lista de prioridades del intercambio de la comunidad y el escuadrón de jefe que apila más daño." lang={lang}>
+    <p>La Caza de Ladrones es el <strong>evento de aguante de alianza</strong>: gastas aguante atacando ladrones en el mapa, y las muertes de ladrones tiran una tirada por la posibilidad de generar un <strong>jefe Líder Ladrón</strong> que toda la alianza puede concentrar. Convierte tu aguante de sobra en la tienda de intercambio — una de las mejores tiendas del juego si compras en el orden correcto.</p>
+    <p>Esta guía cubre las mecánicas de aparición de jefes, la técnica para generar jefes de nivel alto, la lista de prioridades del intercambio y el escuadrón de jefe.</p>
+
+    <h2 id="how-it-works">Cómo funciona</h2>
+    <ul>
+      <li>Ataca ladrones en el mapa con aguante. Las muertes generan el jefe Líder Ladrón para una concentración de alianza — <strong>la tirada es por ladrón muerto</strong>, no por día de evento ni por jugador.</li>
+      <li>Los jefes aparecen <strong>en la primera muerte o tras 20</strong> — la tirada ocurre pronto o tras una racha. Una alianza reporta <strong>siempre 8 o más</strong>; espera variabilidad y sigue matando.</li>
+      <li>Los puntos y recompensas <strong>no aumentan más tarde en el evento</strong>. No hay razón para acopiar aguante — <strong>gástalo de inmediato</strong> para tirar por los grandes jefes antes.</li>
+    </ul>
+
+    <h2 id="boss-levels">Niveles de jefe por servidor</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Edad del servidor</th><th>Niveles comunes de jefe</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Tipical</td><td>10 / 15 / 20 / 25 / 30, raramente 35</td></tr>
+        <tr><td>Servidores antiguos</td><td>40 / 65 / 85 / 90</td></tr>
+      </tbody>
+    </table>
+    <ul>
+      <li>Tu <strong>rango de nivel de jefe es aleatorio por jugador y no cambia</strong> — tiras tu rango y te lo quedas. <strong>No está ligado a tu Poder</strong>, así que un jugador de Poder bajo puede sacar jefes de nivel alto.</li>
+      <li><strong>Tras el parche del 8 de julio: las apariciones siguen el crecimiento del servidor.</strong> Desde ese parche, los niveles de jefe siguen cuán desarrollado está el servidor — no más jefes nivel 10 en un servidor con un año de vida.</li>
+    </ul>
+
+    <h2 id="spawn-technique">La técnica de muerte continua para nivel 30/35</h2>
+    <p>La técnica verificada para empujar los niveles de jefe a 30 y 35:</p>
+    <blockquote>Mata ladrones uno a uno SIN dejar que tus tropas vuelvan a la base — marchas continuas, una tras otra, sin tiempo muerto.</blockquote>
+    <p>Las marchas que vuelven a base rompen la racha; las muertes consecutivas tiran la aparición repetidamente. Encadena tus objetivos para que la siguiente marcha salga en el momento en que la última aterriza, y las apariciones de nivel alto llegan mucho más a menudo.</p>
+
+    <h2 id="exchange">La lista de prioridades del intercambio</h2>
+    <p>La tienda de intercambio es la recompensa real, y el orden del consenso de la comunidad es estable:</p>
+    <h3 id="week-1">Solo semana 1</h3>
+    <ol>
+      <li><strong>Pergaminos</strong> — 4 para la tecnología del Duelo de Alianzas, <strong>luego nunca más</strong>. La tecnología del duelo quiere exactamente cuatro; después son lastre muerto.</li>
+    </ol>
+    <h3 id="always">Siempre, en cada evento</h3>
+    <ol>
+      <li><strong>Esencia del Cuervo</strong> — cada evento, sin excepciones. El sistema del Cuervo está permanentemente limitado por ella (consulta la <a href="/es/raven/">guía del Cuervo</a>).</li>
+    </ol>
+    <h3 id="high-priority">Alta prioridad</h3>
+    <ol>
+      <li>Aguante</li>
+      <li>Aceleraciones</li>
+      <li>Cofre del Cuervo</li>
+      <li>Epígrafes <em>cuando estén disponibles</em></li>
+    </ol>
+    <h3 id="late-game">Final del juego</h3>
+    <ol>
+      <li><strong>Hierbas</strong> — nunca suficientes; las cuentas del final compran hierbas en cada evento.</li>
+    </ol>
+    <h3 id="alt-list">Lista de prioridades alternativa</h3>
+    <ol>
+      <li>Aguante</li>
+      <li>Cofre del Cuervo LV3</li>
+      <li>Cofres de epígrafes azul/morado</li>
+      <li>Aceleraciones de investigación/construcción</li>
+      <li>Tickets de reclutamiento</li>
+    </ol>
+    <p>Y una regla de inventario: <strong>el límite de pergaminos se arrastra de evento a evento</strong>. Si tocas el tope de pergaminos, ese tope te sigue al siguiente evento — otra razón de que exista la regla "cuatro y luego nunca más".</p>
+
+    <h2 id="boss-squad">El escuadrón de concentración de jefe</h2>
+    <p>La composición de jefe de la comunidad, construida para daño en el tiempo:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Fila</th><th>Héroes</th><th>Trabajo</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Frente</td><td>Arthur + Bella</td><td>Sobrevivir más — cada segundo extra de supervivencia apila más daño</td></tr>
+        <tr><td>Zaga</td><td>Marlena + Shadow + Claire</td><td>Motor de daño detrás de la vanguardia</td></tr>
+      </tbody>
+    </table>
+    <p>La lógica: <strong>más supervivencia = más daño apilado</strong>. Una pelea de jefe no es un chequeo de ráfaga — el escuadrón que aguanta más es el que más golpea, así que prioriza supervivencia sobre ataque bruto. Los detalles completos de héroes están en la <a href="/es/heroes/">guía de Héroes</a>.</p>
+
+    <VideoSection topic="thief" lang={lang} />
+  </GuidePage>
+</Base>

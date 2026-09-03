@@ -1,0 +1,78 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'pt';
+---
+<Base lang={lang} path="/pt/events/royal/" title="Disputa do Castelo Real e títulos" description="A corrida semanal de captura do castelo: uma marcha por jogador, regras de torres e reforço, ocupação com Santuário 6+, baús de condecoração real e o sistema completo de títulos da Cidade Real com mecânicas de fila.">
+  <GuidePage title="Disputa do Castelo Real e títulos" description="A corrida semanal de captura do castelo: uma marcha por jogador, regras de torres e reforço, ocupação com Santuário 6+, baús de condecoração real e o sistema completo de títulos da Cidade Real com mecânicas de fila." lang={lang}>
+    <p>A Disputa do Castelo Real é a <strong>captura semanal do castelo</strong>: alianças correm para tomar e segurar o Castelo Real, no <strong>mesmo dia da semana e horário toda semana</strong>. A luta do castelo em si é rápida e simples — a preparação (marchas, reforços, níveis de Santuário) é onde as partidas são decididas.</p>
+    <p>Este guia cobre as regras de captura, mecânicas de reforço, baús de condecoração e o sistema completo de títulos da Cidade Real que o reino vencedor desbloqueia.</p>
+
+    <h2 id="how-it-works">Como funciona</h2>
+    <ul>
+      <li><strong>Semanal</strong>, mesmo dia da semana e mesmo horário toda semana — ajuste o alarme uma vez e nunca muda.</li>
+      <li><strong>Uma marcha por jogador.</strong> Você recebe uma única marcha para o evento inteiro.</li>
+      <li><strong>Ela não pode ser acelerada.</strong> Sem acelerações, sem itens de velocidade — a velocidade de marcha com que você marcha é a velocidade que chega.</li>
+      <li><strong>Rallyes são recomendados.</strong> Uma marcha por jogador faz cada marcha contar; rallyes juntam as marchas da aliança num único ataque crível em vez de um fluxo de baixas solo.</li>
+      <li><strong>A marcha inicial é uma corrida.</strong> As primeiras marchas decidem quem sedia e quem se atrapalha — o timing da marcha no apito inicial importa mais que poder bruto.</li>
+    </ul>
+
+    <h2 id="turrets-and-positioning">Torres e posicionamento</h2>
+    <ul>
+      <li><strong>As torres NÃO ativam</strong> na Disputa — são mecânicas exclusivas do <a href="/pt/events/kvk/">KvK</a>. Aqui não existe tela de torres para atravessar.</li>
+      <li><strong>Teleporte para a lama</strong> se você não está preocupado com ataques — lá <strong>não precisa de escudo</strong>. A área de lama é a plataforma segura; use-a.</li>
+    </ul>
+
+    <h2 id="capture-and-reinforcement">Captura e reforço</h2>
+    <ul>
+      <li><strong>4 horas para tomar o castelo.</strong> A ocupação sobe em ticks ao longo da janela — enche <strong>mais rápido com uma porcentagem de ocupação alta</strong> e <strong>mais devagar quando disputada</strong> por defensores revidando.</li>
+      <li><strong>Limite de reforço: 30 pessoas</strong> no castelo. Esse é o teto duro — planeje a lista de reforço antes da luta, não durante.</li>
+      <li><strong>Reforços são desgastados.</strong> Defensores roem sua guarnição — <strong>saia e reforce de novo</strong> para zerar o desgaste. Um reforço com 20% de HP vale menos que um corpo fresco naquela vaga.</li>
+    </ul>
+
+    <h2 id="who-takes-vs-farms">Quem toma, quem farma</h2>
+    <blockquote>Quem toma o castelo precisa ser Santuário 6+ — todo o resto farma tiles de recursos por pontos.</blockquote>
+    <p>Apenas jogadores com <strong>Santuário 6+</strong> podem ocupar o castelo. A divisão define seu papel:</p>
+    <ul>
+      <li><strong>Santuário 6+</strong>: marche para o castelo, rallye, reforce as 30 vagas.</li>
+      <li><strong>Todo mundo</strong>: farme tiles de recursos ao redor do castelo por pontos de evento — sua marcha ainda rende, só que não nas muralhas.</li>
+    </ul>
+    <p>Confira seu nível de Santuário <strong>antes</strong> do evento começar; um jogador de Santuário 5 marchando no castelo desperdiça a única marcha que recebe.</p>
+
+    <h2 id="commendation-chests">Baús de Condecoração Real</h2>
+    <ul>
+      <li><strong>Só o R5</strong> — o líder da aliança resgata <strong>clicando no castelo depois da batalha</strong>.</li>
+      <li><strong>Elegibilidade: estar no reino há mais de 24 horas.</strong> Jogadores que cruzaram para o reino menos de um dia antes da luta não contam para o baú.</li>
+    </ul>
+
+    <h2 id="royal-titles">Títulos da Cidade Real</h2>
+    <p>Vencer o castelo desbloqueia o sistema de títulos do reino — bônus percentuais temporizados aplicados pelos detentores dos títulos:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Título</th><th>Tipo de bônus</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Velocidade de pesquisa</td><td>Bônus % temporizado em pesquisa</td></tr>
+        <tr><td>Desenvolvimento de território</td><td>Bônus % temporizado em território</td></tr>
+        <tr><td>Treino</td><td>Bônus % temporizado em treino de tropas</td></tr>
+        <tr><td>Cura</td><td>Bônus % temporizado em cura</td></tr>
+        <tr><td>Ministro da Corte Interna</td><td>Bônus de produção de fazendas</td></tr>
+      </tbody>
+    </table>
+    <p>As mecânicas de fila:</p>
+    <ul>
+      <li><strong>Sistema de fila</strong> — jogadores formam fila por vaga de título, primeiro a chegar primeiro servido.</li>
+      <li><strong>Cada vaga roda 5 minutos.</strong></li>
+      <li><strong>Chega correio no início e no fim</strong> da sua vaga, então você sabe exatamente quando seu bônus começou e terminou.</li>
+      <li><strong>Reaplique imediatamente quando sua vaga acabar</strong> — o mesmo título pode voltar à fila, <strong>sem limite de reaplicações</strong>. Vagas seguidas são o padrão pretendido.</li>
+      <li><strong>Recarga de 20 minutos após aplicar</strong> — o único freio na fila. Cronometre sua reaplicação em torno dele.</li>
+    </ul>
+    <p>Bônus de título se acumulam com todo o resto do calendário semanal — uma vaga de título de pesquisa durante a <a href="/pt/events/alliance-duel/">Fase 3 do Duelo de Alianças</a> ou uma vaga de treino durante a <a href="/pt/events/alliance-duel/">Fase 5</a> é o benefício duplo de calendário em torno do qual a semana inteira é construída.</p>
+
+    <VideoSection topic="royal" lang={lang} />
+  </GuidePage>
+</Base>

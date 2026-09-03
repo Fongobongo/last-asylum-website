@@ -1,0 +1,80 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+<Base lang={lang} path="/id/events/elixir/" title="Elixir Scramble: Cara Menang" description="Medan pertempuran poin aliansi-lawan-aliansi 30 menit: lima tahap, skor berbasis kendali, prioritas Healing Tent, aturan teleport, dan kesalahan tembok yang mengakhiri lari Anda dalam 10 menit.">
+  <GuidePage title="Elixir Scramble: Cara Menang" description="Medan pertempuran poin aliansi-lawan-aliancsi 30 menit: lima tahap, skor berbasis kendali, prioritas Healing Tent, aturan teleport, dan kesalahan tembok yang mengakhiri lari Anda dalam 10 menit." lang={lang}>
+    <p>Elixir Scramble adalah <strong>medan pertempuran aliansi-lawan-aliancsi 30 menit</strong> di mana pemenang ditentukan oleh poin, bukan oleh siapa yang membunuh lebih banyak pasukan. Aliansi yang memperlakukannya seperti deathmatch kalah dari aliansi yang memperlakukannya seperti permainan kendali peta — setiap kali.</p>
+    <p>Panduan ini membahas lima tahap event, dari mana poin sebenarnya berasal, aturan teleport, logika pertahanan, dan satu kesalahan yang mengakhiri lari sebelum dimulai.</p>
+
+    <h2 id="event-structure">Lima Tahap</h2>
+    <p>Setiap scramble menjalankan busur yang sama, sekitar enam menit per tahap sepanjang setengah jam:</p>
+    <ol>
+      <li><strong>Matchmaking</strong> — sistem memasangkan aliansi.</li>
+      <li><strong>Persiapan masuk</strong> — Anda masuk, memposisikan diri, dan menurunkan pasukan dari tembok (lihat <a href="#wall-warning">peringatan tembok</a> — tahap ini tempat lari-lari itu kalah).</li>
+      <li><strong>Benteng awal</strong> — bangunan pertama terbuka dan perebutan lahan pembuka terjadi.</li>
+      <li><strong>Pertempuran penentuan tengah</strong> — pusat yang diperebutkan menjadi poros poin; sebagian besar event dimenangkan atau kalah di sini.</li>
+      <li><strong>Akumulasi akhir</strong> — bangunan yang dipegang mengeluarkan poin final; aliansi yang tetap aktif hingga detik terakhir mengambil selisihnya.</li>
+    </ol>
+
+    <h2 id="registration">Registrasi dan Waktu</h2>
+    <ul>
+      <li>Pemain mendaftar sebagai <strong>Tim A atau Tim B</strong>, atau <strong>R5 mendaftarkan aliansinya</strong> langsung.</li>
+      <li><strong>Setelah registrasi ditutup, tidak ada yang bisa ditambah.</strong> Tidak ada yang datang terlambat, tidak ada pengganti — jika separuh aliansi Anda tidur melewati pendaftaran, Anda bertarung kekurangan orang.</li>
+      <li>Contoh penjadwalan: scramble yang mulai <strong>15.00 CST berjalan 21.00 UK</strong>. Periksa timer event di zona waktu Anda sendiri dan pasang alarm — event menghargai online tepat di awal, bukan lima menit kemudian.</li>
+    </ul>
+
+    <h2 id="points">Dari Mana Poin Datang</h2>
+    <p>Aturan intinya, dan yang paling sering disalahpahami aliansi: <strong>poin datang dari KENDALI, bukan dari kill.</strong> Membunuh pasukan musuh tidak menghasilkan apa pun secara langsung. Memegang bangunan menghasilkan poin setiap tick. Pasukan yang tidak pernah bertarung tetapi berdiri di bangunan bernilai tinggi mengungguli pasukan yang menyapu tiga musuh dan tak berdiri di mana pun.</p>
+    <p>Hierarki bangunan:</p>
+    <ul>
+      <li><strong>Healing Tents</strong> — bangunan poin tertinggi kedua untuk 10 menit pertama. Mereka menyembuhkan <strong>15 prajurit per 10 detik</strong>, yang menjaga pasukan bertarung Anda tetap di peta alih-alih berjalan pulang. Catatan: <strong>percepatan tidak berguna di dalam event</strong> — penyembuhan berjalan pada tendanya, bukan pada item Anda.</li>
+      <li><strong>Camp</strong> — muncul kemudian dalam event dan menjadi target pengumpulan poin; rebut saat mereka muncul.</li>
+      <li><strong>Elixir Castle pusat</strong> — sumber poin bernilai tertinggi di peta. Ini <strong>target prioritas untuk pemain terkuat Anda</strong>: amankan dan pegang. Ini juga yang paling diperebutkan, jadi harapkan pertempuran penentu terjadi di sekelilingnya.</li>
+    </ul>
+
+    <h2 id="teleports">Aturan Teleport</h2>
+    <ul>
+      <li><strong>Teleport gratis punya cooldown 2 menit</strong> — dan teleportasi <strong>membatalkan march yang sedang berjalan</strong>. Jangan pernah reposisi saat pasukan Anda di tengah march menuju target.</li>
+      <li><strong>Direct Teleport tidak diizinkan</strong> di dalam event. Anda tidak bisa membeli jalan keliling peta.</li>
+      <li>Permainan standarnya: <strong>basakan kota Anda di kastil</strong> dan kirim march keluar dari sana. Satu reposisi, lalu jalan pendek untuk semuanya — ini meminimalkan masalah cooldown sepenuhnya.</li>
+    </ul>
+
+    <h2 id="defense">Bangunan dan Logika Pertahanan</h2>
+    <p>Bangunan yang diklaim <strong>tidak</strong> perlu garnisun untuk terus menghasilkan poin. Itu mengarah ke aturan sederhana:</p>
+    <ul>
+      <li><strong>Hanya pertahankan bangunan yang benar-benar diperebutkan.</strong> Memarkir pasukan di semua yang Anda miliki itu netral poin dan membuang pasukan Anda.</li>
+      <li>Saat sebuah bangunan memang diserang, <strong>beberapa pasukan bisa mempertahankannya</strong> — tumpuk pertahanan alih-alih mengumpankan pasukan satu per satu.</li>
+      <li>Anda juga bisa <strong>memilih tidak bertahan sama sekali</strong>: biarkan bangunan bernilai rendah pergi, jaga pasukan Anda tetap hidup, dan rebut kembali begitu musuh march ke tempat lain. Poin berdenyut kembali begitu Anda klaim ulang.</li>
+    </ul>
+
+    <h2 id="wall-warning">KRITIS: Turunkan Pasukan dari Tembok Anda Sebelum Mulai</h2>
+    <blockquote>Jika pasukan Anda masih di tembok saat Elixir Scramble dimulai, Anda bisa kehilangan pasukan dalam 10 menit — dan event Anda selesai untuk 20 menit sisanya.</blockquote>
+    <p>Pasukan tembok terjebak dalam gelombang serangan pembuka, dan pasukan mati di dalam event mati untuk setengah jam penuh. Selama tahap persiapan masuk, checklistnya:</p>
+    <ol>
+      <li>Tarik semua pasukan dari tembok.</li>
+      <li>Konfirmasikan march Anda kosong dan cooldown siap.</li>
+      <li>Posisikan di kastil.</li>
+      <li>Baru setelah itu, mulai mengirim.</li>
+    </ol>
+
+    <h2 id="winning-strategy">Rencana Permainan 30 Menit</h2>
+    <p>Pola kemenangannya, dipadatkan:</p>
+    <ul>
+      <li><strong>Online di awal.</strong> Perebutan lahan benteng awal menentukan siapa bermain dari posisi unggul.</li>
+      <li><strong>Tetap aktif selama 30 menit penuh.</strong> Poin terakumulasi sepanjang waktu; aliansi yang keluar di menit 20 menyumbangkan sepertiga akhir event.</li>
+      <li><strong>Pegang, jangan terlalu jauh melampaui batas.</strong> Amankan yang Anda punya sebelum membuka front ketiga. Bangunan yang Anda pegang sampai akhir mengalahkan dua bangunan yang sempat Anda sentuh.</li>
+      <li><strong>Rotasi dan penguatan.</strong> Pasukan di bangunan yang diperebutkan butuh tubuh segar; rotasikan pasukan lelah kembali lewat Healing Tents.</li>
+      <li><strong>Prioritaskan bangunan poin tinggi.</strong> Elixir Castle dulu, Healing Tents lebih awal, Camp saat mereka muncul.</li>
+      <li><strong>Jangan pernah jalan solo.</strong> Satu pasukan menyerang titik bertahan mati sendirian dan tidak berkontribusi apa-apa. Bergerak bersama aliansi Anda atau jangan bergerak.</li>
+    </ul>
+    <p>Elixir Scramble menghargai disiplin di atas kekuatan. Aliansi lebih lemah yang memegang bangunan yang tepat dan tidak pernah berhenti berotasi akan mengalahkan aliansi lebih kuat yang mengejar kill — karena kill tidak pernah bernilai apa-apa.</p>
+
+    <VideoSection topic="elixir" lang={lang} />
+  </GuidePage>
+</Base>

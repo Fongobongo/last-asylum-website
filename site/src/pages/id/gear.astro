@@ -1,0 +1,65 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import Infographic from '../../components/Infographic.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+
+<Base lang={lang} path="/gear/" title="Panduan Perlengkapan" description="Sistem perlengkapan Last Asylum: Plague: hanya buat UR, milestone promosi, prioritas slot untuk carry dan tank, dan farming gearstone.">
+  <GuidePage
+    title="⚔️ Panduan Perlengkapan: Buat, Promosikan, Prioritaskan"
+    description="Aturan komunitas sistem perlengkapan — apa yang dibuat, apa yang di-feed, apa yang dilewati, dan dari mana materialnya berasal."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/id/' }, { label: 'Perlengkapan' }]}
+  >
+    <h2 id="cardinal-rules">Aturan utama</h2>
+    <ul>
+      <li><strong>Buat hanya UR (oranye).</strong> Perlengkapan hijau dan biru jatuh gratis — jangan pernah buang material untuk meng-upgrade-nya. Bongkar perlengkapan tier rendah yang usang.</li>
+      <li><strong>Satu pasukan pada satu waktu.</strong> Untuk progres cepat, lengkapi Pasukan 1 saja — pedang dan sarung tangan untuk carry, pelat dada dan sepatu bot untuk tank.</li>
+      <li><strong>Hero UR sebelum hero SSR</strong> saat membagikan perlengkapan.</li>
+      <li>Tangga kualitas: <strong>Emas (UR) &gt; Ungu (SSR) &gt; Biru (SR) &gt; Hijau (R) &gt; Abu-abu</strong>.</li>
+    </ul>
+
+    <h2 id="slot-priorities">Prioritas slot</h2>
+    <table class="w-full mb-6 text-sm">
+      <tr><th>Peran hero</th><th>Pertama</th><th>Kedua</th><th>Catatan</th></tr>
+      <tr><td>Carry (DPS)</td><td>Senjata (pedang)</td><td>Sarung tangan</td><td>Serangan + crit menskalakan damage Anda</td></tr>
+      <tr><td>Tank</td><td>Sepatu bot</td><td>Pelat dada</td><td>HP/DEF membuat garis depan tetap berdiri</td></tr>
+      <tr><td>Urutan carry (Annie/Jester)</td><td>Pedang → Gauntlets → Armor → Boots</td><td></td><td>Urutan komunitas untuk carry warlock</td></tr>
+    </table>
+
+    <h2 id="promotion">Promosi Perlengkapan (sistem Mei 2026)</h2>
+    <p>Sejak update Mei 2026, perlengkapan bisa <strong>dipromosikan</strong> dengan Blueprint di level <strong>10, 20, 30 dan 40</strong>, dan ditingkatkan melampaui 40 hingga <strong>60</strong> — total biaya material tetap sama dengan sistem lama. Promosi membuka bonus stat tambahan; tier promosi lebih tinggi adalah tujuan perlengkapan jangka panjang utama.</p>
+
+    <h2 id="boss-gear">Perlengkapan pertarungan bos (Demon King)</h2>
+    <p>Melawan bos yang tidak membalas serangan, aturan normalnya terbalik:</p>
+    <ul>
+      <li><strong>Senjata: pedang UR tertinggi</strong> — "pedang UR +0 menghasilkan damage lebih besar daripada pedang SSR +30" (serangan + peluang crit menskalakan basis skill)</li>
+      <li><strong>Sarung tangan: SSR, BUKAN UR!</strong> Sarung tangan SSR di level 30 memberi <strong>+12,25% damage ke monster</strong>, dan modifier sarung tangan SSR berlaku pada damage AKHIR — sarung tangan UR menaikkan ATK (lebih lemah) dan menambah ketahanan damage yang tidak berguna</li>
+      <li><strong>Sepatu bot &amp; pelat dada: tidak relevan</strong> vs bos — level apa pun bisa dipakai</li>
+    </ul>
+
+    <h2 id="raven-gear">Perlengkapan Raven</h2>
+    <p>Raven punya set perlengkapan sendiri (sisi kiri: HP/pengurangan damage crit, sisi kanan: ATK/damage crit). Dorong ke <strong>level 8</strong> tempat buff persentase aktif. <strong>Simpan peti perlengkapan raven untuk hari Alliance Duel</strong> — membukanya menghasilkan poin event.</p>
+    <p>Set efek khusus (Night Raven Mask, Raven Feather Cloak) aktif di level yang ditentukan dari bagiannya — ditambahkan pada update Maret 2026.</p>
+
+    <h2 id="materials">Dari mana material berasal</h2>
+    <ul>
+      <li><strong>Workshop Perlengkapan</strong> — buat &amp; bongkar; <strong>Smelting Workshop</strong> memproduksi gearstone untuk leveling; <strong>Weaving Workshop</strong> memproduksi kain untuk fusing/pembuatan</li>
+      <li><strong>Farm gearstone F2P:</strong> rute farming konsisten ada (lihat video di bawah) — keluhan bottleneck utama komunitas adalah gearstone, rencanakan sejak awal</li>
+      <li><strong>Toko:</strong> Gear Stones di toko Sanctuary dan Expedition (3 pembelian prioritas)</li>
+      <li><strong>Blueprint:</strong> barang #1 toko Honor — toko itu memang ada untuk blueprint perlengkapan (jangan pernah epigraph chest di sana)</li>
+    </ul>
+
+    <Infographic src="/infographics/skill-scaling.webp" alt="Skill dan scaling perlengkapan" caption="Scaling skill &amp; perlengkapan — kenapa hero terasa lemah" credit="HottChoklit" />
+
+    <VideoSection topic="gear" lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

@@ -1,0 +1,41 @@
+---
+// Giscus comments (GitHub Discussions). Configure at https://giscus.app
+// TODO: fill in the constants below after creating the public repo with Discussions enabled.
+const GISCUS_REPO = '' // e.g. 'username/last-asylum-site'
+const GISCUS_REPO_ID = ''
+const GISCUS_CATEGORY = 'Announcements'
+const GISCUS_CATEGORY_ID = ''
+
+const enabled = GISCUS_REPO !== '' && GISCUS_REPO_ID !== ''
+---
+
+{
+  enabled ? (
+    <section class="not-prose my-10">
+      <h2 class="mb-4 text-2xl font-bold text-plague-200">💬 Comments</h2>
+      <div class="giscus" />
+      <script
+        is:inline
+        src="https://giscus.app/client.js"
+        data-repo={GISCUS_REPO}
+        data-repo-id={GISCUS_REPO_ID}
+        data-category={GISCUS_CATEGORY}
+        data-category-id={GISCUS_CATEGORY_ID}
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark_dimmed"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async
+      />
+    </section>
+  ) : (
+    <section class="not-prose my-10 rounded-xl border border-stone-800 bg-stone-900 p-5 text-sm text-stone-500">
+      <p>💬 Comments are powered by GitHub Discussions and will be enabled once the site repository is public.</p>
+    </section>
+  )
+}

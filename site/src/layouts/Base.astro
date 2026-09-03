@@ -1,0 +1,83 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { t } from '../i18n/ui';
+import { languages, type Lang } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+  path: string;
+  title?: string;
+  description?: string;
+}
+
+const { lang, path, title, description } = Astro.props;
+const pageTitle = title ? `${title} — ${t(lang, 'site.title')}` : t(lang, 'site.title');
+const desc = description ?? t(lang, 'site.tagline');
+
+const site = Astro.site?.toString().replace(/\/$/, '') ?? '';
+const canonical = site + (lang === 'en' ? path : `/${lang}${path === '/' ? '/' : path}`);
+
+// hreflang alternates for this page across all languages
+const cleanPath = path.replace(/^\/(en|ru|es|pt|fr|de|id|ko|ja)?\/?/, '/') || '/';
+const alternates = languages.map((l) => ({
+  lang: l,
+  href: site + (l === 'en' ? cleanPath : `/${l}${cleanPath === '/' ? '/' : cleanPath}`),
+}));
+const ogImage = `${site}/og-cover.png` || '/og-cover.png';
+
+// Optional privacy-friendly analytics (set UMAMI_ID or leave empty)
+const umamiId = import.meta.env.PUBLIC_UMAMI_ID ?? '';
+const umamiSrc = import.meta.env.PUBLIC_UMAMI_SRC ?? '';
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={desc} />
+    <title>{pageTitle}</title>
+
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang="x-default" href={site + cleanPath} />
+    {alternates.map((a) => <link rel="alternate" hreflang={a.lang} href={a.href} />)}
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={t(lang, 'site.title')} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:locale" content={lang === 'en' ? 'en_US' : lang} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={desc} />
+    <meta name="twitter:image" content={ogImage} />
+
+    <link rel="icon" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+
+    <script
+      type="application/ld+json"
+      set:html={JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: pageTitle,
+        description: desc,
+        url: canonical,
+        inLanguage: lang,
+      })}
+    />
+    {umamiId && <script is:inline async defer src={`${umamiSrc}`} data-website-id={umamiId}></script>}
+  </head>
+  <body class="min-h-screen antialiased">
+    <Header lang={lang} path={path} />
+    <main class="mx-auto w-full max-w-7xl px-4">
+      <slot />
+    </main>
+    <Footer lang={lang} />
+  </body>
+</html>

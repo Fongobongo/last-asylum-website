@@ -1,0 +1,36 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import { heroCodex } from '../../../data/heroCodex';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ko';
+---
+
+<Base lang={lang} path="/codex/" title="영웅 도감" description="Last Asylum: Plague의 모든 핵심 영웅 — 스킬, 빌드, 부대 노트와 획득 방법.">
+  <GuidePage
+    title="📖 영웅 도감"
+    description="중요한 모든 영웅의 스킬, 빌드 우선순위와 부대 노트 — 커뮤니티 가이드에서 집편."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/ko/' }, { label: '영웅 도감' }]}
+  >
+    <p>각 페이지: 역할, 영웅 획득 방법, 실제로 중요한 스킬, 빌드 우선순위, 그리고 해당 영웅이 등장하는 부대 구성. 등급은 <a href="/ko/tier-list/">티어 목록</a>을 참고하세요.</p>
+
+    <div class="not-prose my-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {heroCodex.map((h) => (
+        <a href={`/ko/codex/${h.slug}/`} class="group rounded-xl border border-stone-800 bg-stone-900 p-5 transition-colors hover:border-plague-600">
+          <div class="flex items-baseline justify-between">
+            <h3 class="text-lg font-bold text-plague-200 group-hover:text-plague-100">{h.name}</h3>
+            <span class={`rounded px-1.5 py-0.5 text-xs font-bold ${h.tier === 'S' ? 'bg-red-900/40 text-red-300' : h.tier === 'A' ? 'bg-amber-900/40 text-amber-300' : 'bg-sky-900/40 text-sky-300'}`}>{h.tier}</span>
+          </div>
+          <p class="mt-0.5 text-xs text-stone-500">{h.rarity} · {h.faction} · {h.className}</p>
+          <p class="mt-2 line-clamp-3 text-sm text-stone-400">{h.role}</p>
+        </a>
+      ))}
+    </div>
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

@@ -1,0 +1,88 @@
+﻿---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'en';
+---
+<Base lang={lang} path="/events/thief/" title="Thief Hunt: Boss Spawns &amp; Exchange" description="Stamina-to-bosses pipeline: how Thief Leader spawns really work, the nonstop-kill technique for level 30/35, the community exchange priority list, and the boss squad that stacks the most damage.">
+  <GuidePage title="Thief Hunt: Boss Spawns &amp; Exchange" description="Stamina-to-bosses pipeline: how Thief Leader spawns really work, the nonstop-kill technique for level 30/35, the community exchange priority list, and the boss squad that stacks the most damage." lang={lang}>
+    <p>Thief Hunt is the <strong>alliance stamina event</strong>: you spend stamina attacking thieves on the map, and thief kills roll for a chance to spawn a <strong>Thief Leader boss</strong> the whole alliance can rally. It converts your spare stamina into the exchange shop — one of the best value shops in the game if you buy it in the right order.</p>
+    <p>This guide covers boss spawn mechanics, the technique for spawning high-level bosses, the exchange priority list, and the boss squad.</p>
+
+    <h2 id="how-it-works">How It Works</h2>
+    <ul>
+      <li>Attack thieves on the map with stamina. Kills spawn the Thief Leader boss for an alliance rally — <strong>the spawn is rolled per thief killed</strong>, not per event day or per player.</li>
+      <li>Bosses spawn <strong>on the first kill or after 20</strong> — the roll happens early or after a streak. One alliance reports <strong>always 8 or more</strong>; expect variance and keep killing.</li>
+      <li>Points and rewards <strong>do not increase later in the event</strong>. There is zero reason to hoard stamina — <strong>spend it immediately</strong> to roll for the big bosses sooner.</li>
+    </ul>
+
+    <h2 id="boss-levels">Boss Levels by Server</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Server age</th><th>Common boss levels</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Typical</td><td>10 / 15 / 20 / 25 / 30, rarely 35</td></tr>
+        <tr><td>Older servers</td><td>40 / 65 / 85 / 90</td></tr>
+      </tbody>
+    </table>
+    <ul>
+      <li>Your boss level <strong>range is random per player and does not change</strong> — you roll your range and you keep it. It is <strong>not tied to your might</strong>, so a low-might player can roll high-level bosses.</li>
+      <li><strong>Post-July-08 patch: spawns are accurate to server growth.</strong> Since that patch, boss levels track how developed the server is — no more level 10 bosses on a year-old server.</li>
+    </ul>
+
+    <h2 id="spawn-technique">The Nonstop-Kill Technique for Level 30/35</h2>
+    <p>The verified technique for pushing boss levels to 30 and 35:</p>
+    <blockquote>Kill thieves one by one WITHOUT letting your troops return to base — nonstop, back-to-back marches with zero idle time.</blockquote>
+    <p>Marches returning to base break the streak; consecutive kills roll the spawn repeatedly. Chain your targets so the next march leaves the moment the last one lands, and the high-level spawns come far more often.</p>
+
+    <h2 id="exchange">The Exchange Priority List</h2>
+    <p>The exchange shop is the real reward, and the community consensus order is stable:</p>
+    <h3 id="week-1">Week 1 Only</h3>
+    <ol>
+      <li><strong>Scrolls</strong> — 4 for Alliance Duel tech, <strong>then never again</strong>. Duel tech wants exactly four; after that they are dead weight.</li>
+    </ol>
+    <h3 id="always">Always, Every Event</h3>
+    <ol>
+      <li><strong>Raven Essence</strong> — every event, no exceptions. The Raven system is permanently bottlenecked on it (see the <a href="/raven/">Raven guide</a>).</li>
+    </ol>
+    <h3 id="high-priority">High Priority</h3>
+    <ol>
+      <li>Stamina</li>
+      <li>Speedups</li>
+      <li>Raven chest</li>
+      <li>Epigraphs <em>when available</em></li>
+    </ol>
+    <h3 id="late-game">Late Game</h3>
+    <ol>
+      <li><strong>Herbs</strong> — never enough of them; late-game accounts buy herbs every event.</li>
+    </ol>
+    <h3 id="alt-list">Alternative Priority List</h3>
+    <ol>
+      <li>Stamina</li>
+      <li>LV3 Raven chest</li>
+      <li>Blue/purple epigraph chests</li>
+      <li>Research/construction speedups</li>
+      <li>Recruitment tickets</li>
+    </ol>
+    <p>And one inventory rule: <strong>the scroll limit carries over event to event</strong>. If you hit the scroll cap, that cap follows you into the next event — another reason the &quot;four then never again&quot; rule exists.</p>
+
+    <h2 id="boss-squad">The Boss Rally Squad</h2>
+    <p>The community boss comp, built for damage over time:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Row</th><th>Heroes</th><th>Job</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Front</td><td>Arthur + Bella</td><td>Survive longer — every extra second of survival stacks more damage</td></tr>
+        <tr><td>Back</td><td>Marlena + Shadow + Claire</td><td>Damage engine behind the frontline</td></tr>
+      </tbody>
+    </table>
+    <p>The logic: <strong>longer survival = more damage stacked</strong>. A boss fight is not a burst check — the squad that stands the longest deals the most, so prioritize survival over raw attack. Full hero details are in the <a href="/heroes/">Heroes guide</a>.</p>
+
+    <VideoSection topic="thief" lang={lang} />
+  </GuidePage>
+</Base>

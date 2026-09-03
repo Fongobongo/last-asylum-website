@@ -1,0 +1,60 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'fr';
+---
+<Base lang={lang} path="/fr/events/arena/" title="Arène Triangulaire : défense et attaque" description="Trois formations, l&apos;attaquant en choisit deux à battre : le principe de défense équilibrée, la règle de confrontation sacrificielle, l&apos;attaque basée sur les contres, les bonus de faction, et le coup de l&apos;escouade piège de l&apos;Arène du Destin pour les fragments UR.">
+  <GuidePage title="Arène Triangulaire : défense et attaque" description="Trois formations, l&apos;attaquant en choisit deux à battre : le principe de défense équilibrée, la règle de confrontation sacrificielle, l&apos;attaque basée sur les contres, les bonus de faction, et le coup de l&apos;escouade piège de l&apos;Arène du Destin pour les fragments UR." lang={lang}>
+    <p>L&apos;Arène Triangulaire est le duel de formations 3v3 : vous réglez <strong>trois formations défensives</strong>, et chaque attaquant <strong>choisit contre lesquelles de vos formations combattre</strong> — il doit <strong>gagner 2 sur 3</strong> pour vous battre. Une règle façonne tout l&apos;événement avant toute chose : <strong>l&apos;attaquant VOIT vos setups</strong>. Défendre dans ce jeu, ce n&apos;est pas être imbattable ; c&apos;est ne pas être lisible.</p>
+    <p>Ce guide couvre les principes de défense, la règle de confrontation sacrificielle pour attaquer, les match-ups de contres, les bonus de faction, et la stratégie de l&apos;escouade piège de l&apos;Arène du Destin.</p>
+
+    <h2 id="format">Le format, et ce que ça implique</h2>
+    <ul>
+      <li>Les défenseurs règlent <strong>3 formations</strong>. Les attaquants choisissent l&apos;ordre dans lequel ils les combattent et doivent <strong>gagner 2 sur 3</strong>.</li>
+      <li><strong>L&apos;attaquant voit vos trois équipes</strong> — c&apos;est l&apos;avantage de l&apos;attaquant, et chaque règle défensive ci-dessous existe pour l&apos;émousser.</li>
+    </ul>
+    <blockquote>Vous ne pouvez pas empêcher un joueur plus fort de vous battre. Vous pouvez empêcher un joueur plus faible de vous farmer.</blockquote>
+
+    <h2 id="defense-principles">Défense : gardez les trois équilibrées</h2>
+    <p>L&apos;erreur défensive la plus courante : empiler vos meilleurs héros dans une seule formation. L&apos;attaquant <strong>évite simplement votre équipe forte et bat les deux autres</strong> — vous perdez 2-1 sans que votre meilleure escouade ait jamais combattu. Les règles :</p>
+    <ul>
+      <li><strong>Gardez les 3 formations ÉQUILIBRÉES.</strong> Répartissez la force pour qu&apos;il n&apos;y ait pas de victoire gratuite sur le plateau.</li>
+      <li><strong>Chaque équipe reçoit un de vos 3 meilleurs tanks</strong> devant — une bonne frontline rend une formation moyenne pénible à nettoyer.</li>
+      <li><strong>L&apos;équipe la plus faible reçoit les héros les plus forts</strong> — étayez votre pire slot, pas votre meilleur.</li>
+      <li><strong>Mettez un second tank derrière</strong> la frontline — la profondeur derrière le premier mur étire chaque combat.</li>
+      <li><strong>La puissance ne fait pas tout</strong> — la comp et les contres décident des combats ; réglez par essais et erreurs, pas au chiffre de CP.</li>
+      <li><strong>Surveillez qui gagne et perd contre vous</strong> — le journal de défense est de la donnée de réglage gratuite. Rééquilibrez quand la dérive apparaît.</li>
+    </ul>
+    <p>Ce que la défense équilibrée vous achète vraiment : elle n&apos;arrête pas les plus forts, mais elle <strong>empêche les plus faibles de faire chuter votre rang</strong> — et la défense du rang est où vivent les récompenses de la saison.</p>
+
+    <h2 id="sacrifice-rule">La règle de confrontation sacrificielle</h2>
+    <p>Le principe de match-up qui gagne des attaques :</p>
+    <blockquote>Contre une défense empilée, envoyez votre PIRE escouade contre leur MEILLEURE formation — puis gagnez les deux autres librement.</blockquote>
+    <p>Lisez leur plateau, trouvez la seule formation que vous ne pouvez pas battre, et <strong>concédez-la délibérément</strong>. Votre escouade sacrificielle existe pour perdre contre leur monstre pendant que vos deux meilleures escouades prennent les deux combats gagnables. L&apos;attaquant choisit l&apos;ordre — ne gaspillez jamais votre meilleure escouade sur leur meilleure formation.</p>
+
+    <h2 id="attack-rules">Attaque : contres et bonus de faction</h2>
+    <ul>
+      <li><strong>Vos 10 meilleurs héros sont interchangeables entre les deux équipes du haut.</strong> Construisez les deux victoires, ne thésaurisez pas de héros pour un troisième combat que vous prévoyez de perdre de toute façon.</li>
+      <li><strong>Les match-ups de contres décident des combats :</strong> vos éclaireurs contre leurs formations éclaireur/guerrier ; vos guerriers contre leurs formations guerrier/occultiste.</li>
+      <li><strong>Évitez leur formation la plus forte</strong> — la règle du sacrifice ci-dessus. Ne combattez que ce que vous pouvez battre.</li>
+      <li><strong>Les bonus de faction sont la clé</strong> — et comme <strong>vous pouvez voir leur défense</strong>, vous pouvez pré-construire le bonus de faction de votre contre avant d&apos;entrer en file. Le défenseur ne peut pas s&apos;ajuster ; vous oui.</li>
+    </ul>
+    <p>Les choix de héros contre héros sont dans le <a href="/fr/heroes/">guide des Héros</a>.</p>
+
+    <h2 id="results">Ce que ça donne en pratique</h2>
+    <p>Résultats vérifiés de joueurs courant ce système : <strong>des classements top-20/40/100 constants avec des effectifs moyens, en hausse depuis 250+ avant</strong>. L&apos;arène récompense la constance sur la puissance de whales — un compte lisible saigne du rang chaque jour face aux attaquants qui voient la voie faible ; un compte équilibré et surveillé le tient.</p>
+
+    <h2 id="arena-of-fate">Arène du Destin : la stratégie de l&apos;escouade piège</h2>
+    <ul>
+      <li>La variante spéciale d&apos;arène tourne sur le même format 2-sur-3 — et le coup de l&apos;<strong>« Escouade Piège »</strong> exploite l&apos;avantage de visibilité de l&apos;attaquant à l&apos;envers : leurrez avec des escouades d&apos;apparence équilibrée qui frappent bien au-dessus de leur poids apparent.</li>
+      <li>Bien exécutée, elle <strong>décroche des récompenses de haut niveau, dont des fragments UR</strong> — la rare source d&apos;UR gratuite en contenu PvP.</li>
+      <li><strong>Bug connu : certains joueurs restent non classés sur les nouveaux serveurs</strong> — si votre rang ne se remplit jamais dans une saison de Destin, c&apos;est le bug, pas votre jeu. Signalez et attendez.</li>
+    </ul>
+
+    <VideoSection topic="arena" lang={lang} />
+  </GuidePage>
+</Base>

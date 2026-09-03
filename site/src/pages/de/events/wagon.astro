@@ -1,0 +1,85 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+<Base lang={lang} path="/de/events/wagon/" title="Gilden-Wagen und Karawanen" description="Tägliche Gratis-Wagenfahrten, die Wagenmeister- und Wachen-Truhen-Regeln, Goldener-Wagen-Auffrischungen, die Karawanen-UR-Splitter-Strategie, server-übergreifendes Plündern und die Gold-Lila-Blau-Kisten-Priorität.">
+  <GuidePage title="Gilden-Wagen und Karawanen" description="Tägliche Gratis-Wagenfahrten, die Wagenmeister- und Wachen-Truhen-Regeln, Goldener-Wagen-Auffrischungen, die Karawanen-UR-Splitter-Strategie, server-übergreifendes Plündern und die Gold-Lila-Blau-Kisten-Priorität." lang={lang}>
+    <p>Gilden-Wagen und Karawanen sind die täglichen Logistik-Events des Spiels — und beide sind <strong>risikofreie, ausdauerfreie</strong> Einnahme, die zu viele Spieler auslassen. Der Wagen ist eine 10-Minuten-Koordinations-Übung; die Karawanen sind eine permanente UR-Splitter-Farm. Keines von beiden kostet Truppen oder reale Verluste, deshalb ist die Community-Regel simpel: <strong>IMMER beide fahren.</strong></p>
+    <p>Dieser Guide deckt die Wagen-Rollen und Truhen-Regeln ab, den Goldenen Wagen, die Karawanen-Strategie und server-übergreifendes Plündern mit der Kisten-Priorität.</p>
+
+    <h2 id="guild-wagon-basics">Gilden-Wagen: die tägliche Gratis-Fahrt</h2>
+    <ul>
+      <li><strong>1 Gratis-Wagen pro Allianz pro Tag</strong>, mit Reset um etwa <strong>11 Uhr KST</strong>.</li>
+      <li>Wenn der Zahlungs-Screen erscheint, <strong>wurde der Gratis-Wagen verbraucht</strong> — das ist das Signal, dass die tägliche Gratis-Fahrt für die ganze Allianz weg ist.</li>
+      <li><strong>Bezahlte Extra-Fahrten existieren — fast niemand kauft sie.</strong> Ignoriere die Paywall.</li>
+      <li><strong>Gilden-Geschenk-Level erhöhen die Wagen-Stufe</strong> — die Shop-Geschenke, die das Geschenk-Level erhöhen, verbessern auch, was der Wagen droppt. Zwei Gründe, auf das Geschenk-Level zu achten.</li>
+    </ul>
+
+    <h2 id="wagon-master">Wagenmeister, Wachen und VIPs</h2>
+    <p>Die Rollen:</p>
+    <ul>
+      <li>Ein <strong>onlineer R4/R5 ernennt ein onlines Mitglied zum Wagenmeister</strong>.</li>
+      <li>Der Meister <strong>sammelt Tickets von den Mitgliedern</strong> (manche wandeln sich automatisch) für Pool-Auffrischungen — <strong>5 Auffrischungen machen einen „Goldenen Wagen“.</strong></li>
+      <li><strong>Wachen UND VIPs bekommen je 2 Truhen.</strong> VIPs reisen nur mit — VIP zu sein ist kein Downgrade, die Truhen sind identisch.</li>
+      <li><strong>Niedriger CP? Wähle starke Wachen, um den Wagen zu schützen.</strong> Die Sicherheit der Fahrt skaliert mit der Wachen-Stärke.</li>
+      <li><strong>Die Wachen müssen online sein.</strong> Koordiniere <strong>vor</strong> dem Start der Fahrt, oder riskiere eine unverteidigte Plünderung — manche Gilden verschieben die Meister-Ernennung absichtlich, um den Wagen nachts zu fahren, wenn ihre Wachen online sind.</li>
+    </ul>
+
+    <h2 id="chest-rules">Die Truhen-Regeln (der häufigste Fehler)</h2>
+    <blockquote>Die 2 Truhen sind für die WACHEN, nicht für den Meister. Der häufigste Wagen-Fehler des Spiels.</blockquote>
+    <p>Die komplette Belohnungs-Verteilung:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Rolle</th><th>Belohnung</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Wachen</td><td>je 2 Truhen</td></tr>
+        <tr><td>VIPs</td><td>je 2 Truhen (identisch mit den Wachen — sie reisen nur mit)</td></tr>
+        <tr><td>Passagiere</td><td>je 5 Zufalls-Ziehungen + 1 Fahrzeug-Truhe</td></tr>
+        <tr><td>Wagenmeister</td><td>ALLE Items aus allen 4 Wagen</td></tr>
+      </tbody>
+    </table>
+    <p>Lies die letzte Zeile zweimal — <strong>der Meister erhält ALLE Items aus allen 4 Wagen.</strong> Die Ernennung ist eine echte Auszahlung, und genau deshalb hält sich die Truhen-Verwirrung: die 2 Truhen der Wachen kommen obendrauf zu einem Anteil, sie gehen nicht aus dem Pool des Meisters ab.</p>
+
+    <h2 id="caravans">Karawanen: die UR-Splitter-Strategie</h2>
+    <p>Die Karawanen sind das tägliche Karawanen-Event, das neben dem Wagen läuft:</p>
+    <ul>
+      <li>Kern-Entscheidungen: <strong>welche Karawanen angreifen, wie man die eigene Allianz-Karawanen einrichtet und die Tages-Belohnungen maximiert.</strong></li>
+      <li><strong>Karawanen und Verdeckte Operationen zählen nie zum Plünder-Limit</strong> — sie sind von dem Tages-Cap ausgenommen, der normale Raids regelt (siehe den <a href="/de/economy/">Wirtschafts-Guide</a>).</li>
+      <li><strong>Kein realer Truppenverlust, keine Ausdauer-Kosten.</strong> Null Risiko, jeden Tag.</li>
+      <li><strong>IMMER fahren.</strong> Und denk an den <a href="/de/events/kvk/">KvK</a>-Guide: <strong>Karawanen und Verdeckte Operationen punkten gleichzeitig für KvK und Allianz-Duell</strong> — dieselbe Fahrt zahlt doppelt.</li>
+    </ul>
+
+    <h2 id="plundering-servers">Andere Server plündern</h2>
+    <p>Die server-übergreifende Karawanen-Route:</p>
+    <ol>
+      <li>Öffne den <strong>Karawanen-Handel</strong> und prüfe den grünen Haken <strong>„Karawanen dieses Servers ausschließen“</strong> — das filtert die Karawanen deines Heimat-Servers heraus und zeigt fremde.</li>
+      <li>Gehe zu <strong>Karawane anderer</strong>, tippe eine Karawane an, und der <strong>Plünder-Button teleportiert dich in das Königreich</strong>.</li>
+      <li>Schließe das Popup und du kannst <strong>frei durch das Königreich streifen</strong>, solange du dort bist.</li>
+    </ol>
+
+    <h2 id="box-priority">Kisten-Priorität: Gold, Lila, Blau</h2>
+    <p>Wenn du auf eine fremde Karte voller Karawanen starrst, ist die Ziel-Reihenfolge:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Kisten-Farbe</th><th>Wert</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>GOLD</td><td>Am höchsten — UR-Stufe. Immer das Ziel.</td></tr>
+        <tr><td>Lila</td><td>Sehr gut — SSR-Stufe. Prioritäts-Ziel, wenn Gold außer Reichweite ist.</td></tr>
+        <tr><td>Blau</td><td>Reserve — SR-Stufe. Füllmaterial, wenn die Karte abgegriffen ist.</td></tr>
+      </tbody>
+    </table>
+    <ul>
+      <li><strong>Prüfe die Sterne-Bewertung und Belohnungen vor dem Angriff</strong> — die Vorschau zeigt, was die Kiste zahlt.</li>
+      <li><strong>Bessere Farbe + mehr Sterne = bessere Belohnungen.</strong> Farbe zuerst, Sterne als Tie-Breaker.</li>
+    </ul>
+
+    <VideoSection topic="wagon" lang={lang} />
+  </GuidePage>
+</Base>

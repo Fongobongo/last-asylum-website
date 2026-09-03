@@ -1,0 +1,100 @@
+---
+interface Props {
+  lang: 'en' | 'ru' | string;
+}
+
+const { lang } = Astro.props;
+
+const labels =
+  lang === 'ru'
+    ? {
+        title: 'Калькулятор лимита грабежа',
+        sanctuary: 'Уровень Убежища',
+        warsupply: 'Навык War Supply',
+        none: 'Нет',
+        full: '100% добычи до',
+        reduced: '15% начиная с',
+        floor: '5% начиная с',
+        note: 'Лимит повышается сразу после апгрейда Убежища — ждать сброса (02:00 UTC) не нужно.',
+      }
+    : {
+        title: 'Plunder Limit Calculator',
+        sanctuary: 'Sanctuary level',
+        warsupply: 'War Supply skill',
+        none: 'None',
+        full: 'Full gains (100%) up to',
+        reduced: 'Drops to 15% from',
+        floor: 'Drops to 5% from',
+        note: 'The limit rises immediately after a Sanctuary upgrade — no need to wait for the daily reset (02:00 UTC).',
+      };
+---
+
+<section class="not-prose my-8 rounded-xl border border-plague-700 bg-stone-900 p-6" id="plunder-calc">
+  <h2 class="mb-4 flex items-center gap-2 text-2xl font-bold text-plague-200">🧮 {labels.title}</h2>
+
+  <div class="grid gap-4 sm:grid-cols-2">
+    <label class="block">
+      <span class="mb-1 block text-sm font-medium text-stone-300">{labels.sanctuary}</span>
+      <input id="pc-sanctuary" type="range" min="10" max="30" value="20" class="w-full accent-lime-500" />
+      <output id="pc-sanctuary-val" class="mt-1 block font-mono text-lg font-bold text-plague-200">20</output>
+    </label>
+    <label class="block">
+      <span class="mb-1 block text-sm font-medium text-stone-300">{labels.warsupply}</span>
+      <select id="pc-warsupply" class="w-full rounded-md border border-stone-700 bg-stone-950 px-3 py-2 text-stone-200">
+        <option value="0">{labels.none}</option>
+        <option value="0.06">1 (+6%)</option>
+        <option value="0.14">2 (+14%)</option>
+        <option value="0.24">3 (+24%)</option>
+        <option value="0.36">4 (+36%)</option>
+        <option value="0.50">5 (+50%)</option>
+      </select>
+    </label>
+  </div>
+
+  <div class="mt-6 grid gap-3 sm:grid-cols-3">
+    <div class="rounded-lg border border-toxic-500/40 bg-toxic-500/10 p-4">
+      <p class="text-xs uppercase tracking-wide text-toxic-400">{labels.full}</p>
+      <p id="pc-full" class="mt-1 font-mono text-2xl font-bold text-toxic-400">10.0M</p>
+    </div>
+    <div class="rounded-lg border border-amber-700/40 bg-amber-700/10 p-4">
+      <p class="text-xs uppercase tracking-wide text-amber-400">{labels.reduced}</p>
+      <p id="pc-reduced" class="mt-1 font-mono text-2xl font-bold text-amber-400">13.0M</p>
+    </div>
+    <div class="rounded-lg border border-red-800/40 bg-red-900/10 p-4">
+      <p class="text-xs uppercase tracking-wide text-red-400">{labels.floor}</p>
+      <p id="pc-floor" class="mt-1 font-mono text-2xl font-bold text-red-400">13.0M</p>
+    </div>
+  </div>
+
+  <p class="mt-4 text-xs text-stone-500">💡 {labels.note}</p>
+</section>
+
+<script>
+  // Base limits by Sanctuary level (from thelaphub.com Plunder Gains)
+  const LIMITS: Record<number, number> = {
+    10: 2.5, 11: 2.5, 12: 2.5, 13: 3, 14: 4, 15: 5, 16: 6, 17: 7, 18: 8, 19: 9,
+    20: 10, 21: 12, 22: 14, 23: 16, 24: 18, 25: 20, 26: 22, 27: 24, 28: 26, 29: 28, 30: 30,
+  };
+
+  function fmt(m: number): string {
+    return m >= 1 ? `${m.toFixed(1)}M` : `${Math.round(m * 1000)}K`;
+  }
+
+  function recalc() {
+    const s = parseInt((document.getElementById('pc-sanctuary') as HTMLInputElement).value, 10);
+    const w = parseFloat((document.getElementById('pc-warsupply') as HTMLSelectElement).value);
+    (document.getElementById('pc-sanctuary-val') as HTMLOutputElement).textContent = String(s);
+
+    const base = LIMITS[s] ?? 10;
+    const full = base * (1 + w);
+    const reduced = full * 1.3;
+    // 15% band starts at limit (1×); 5% floor starts at 1.3×
+    (document.getElementById('pc-full') as HTMLElement).textContent = fmt(full);
+    (document.getElementById('pc-reduced') as HTMLElement).textContent = fmt(full);
+    (document.getElementById('pc-floor') as HTMLElement).textContent = fmt(reduced);
+  }
+
+  document.getElementById('pc-sanctuary')?.addEventListener('input', recalc);
+  document.getElementById('pc-warsupply')?.addEventListener('change', recalc);
+  recalc();
+</script>

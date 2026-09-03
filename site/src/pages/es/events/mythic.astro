@@ -1,0 +1,101 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'es';
+---
+<Base lang={lang} path="/es/events/mythic/" title="Mythic Treasure: guía F2P" description="Las siete pestañas del evento pirata descifradas para jugadores gratuitos: el pase de batalla, la trampa de la máquina tragamonedas, la prioridad corregida del Mercado Pirata, el tope diario de 300 peces y la jugada de suicidio-por-recompensas del Tesoro Enterrado.">
+  <GuidePage title="Mythic Treasure: guía F2P" description="Las siete pestañas del evento pirata descifradas para jugadores gratuitos: el pase de batalla, la trampa de la máquina tragamonedas, la prioridad corregida del Mercado Pirata, el tope diario de 300 peces y la jugada de suicidio-por-recompensas del Tesoro Enterrado." lang={lang}>
+    <p>Mythic Treasure es el gran evento con temática pirata, y está construido como un embudo: siete pestañas, seis orientadas al gasto, y un puñado de valor genuinamente gratis enterrado dentro. La jugada F2P es saber exactamente qué pestañas pagan y cuáles existen para tentarte — y luego moler las gratis a diario.</p>
+    <p>Esta guía recorre las siete pestañas con la prioridad corregida del mercado, la economía del pez, la estrategia del Tesoro Enterrado y la regla de caducidad de las monedas de ancla que atrapa a todos.</p>
+
+    <h2 id="the-7-tabs">Las siete pestañas de un vistazo</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Pestaña</th><th>Qué es</th><th>Veredicto F2P</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1. Tesoro Mítico del Pirata</td><td>Pase de batalla</td><td>Solo la pista gratis</td></tr>
+        <tr><td>2. Juego del Pirata</td><td>Máquina tragamonedas</td><td>Solo tiros gratis, nunca persigas</td></tr>
+        <tr><td>3. Mercado Pirata</td><td>Tienda de Monedas de Ancla</td><td>Compra fragmentos UR a diario</td></tr>
+        <tr><td>4. Gran Banquete</td><td>Evento de peces de todo el servidor</td><td>Una de las mejores secciones F2P — hazla</td></tr>
+        <tr><td>5. Caza Sabrosa</td><td>Granjeo de Peces del Mar</td><td>Granjea hasta el tope diario de 300</td></tr>
+        <tr><td>6. Regalo del Mar Profundo</td><td>Recompensas por recargas de dinero</td><td>Sáltala como F2P</td></tr>
+        <tr><td>7. Tesoro Enterrado</td><td>Minijuego</td><td>5 partidas gratis + la jugada suicida</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="tab-1-pass">Pestaña 1: Tesoro Mítico del Pirata (pase de batalla)</h2>
+    <p>El pase de batalla estelar. La <strong>pista avanzada cuesta 499</strong> y paga en <strong>Monedas de Ancla, Oro Pirata y cofres exclusivos</strong>. Si gastas en algo de este evento, este es el candidato — pero la pista gratis también paga, y todo lo de abajo funciona sin el pase.</p>
+
+    <h2 id="tab-2-slots">Pestaña 2: Juego del Pirata (tragamonedas)</h2>
+    <ul>
+      <li>Los tiros pagados otorgan <strong>Monedas de Ancla</strong>, y hay una opción de <strong>tiro 5X</strong>.</li>
+      <li>Es <strong>RNG puro — no lo persigas.</strong> La tragamonedas es el peor objetivo de valor del evento, y está diseñada para sentirse casi lista de pagar.</li>
+      <li>Toma los <strong>tiros gratis</strong> cada día y aléjate. Esa es toda la pestaña.</li>
+    </ul>
+
+    <h2 id="tab-3-market">Pestaña 3: Mercado Pirata — prioridad corregida</h2>
+    <p>El mercado cobra Monedas de Ancla, y el orden de compra importa más que en ningún otro sitio del evento:</p>
+    <ol>
+      <li><strong>Fragmentos UR — COMPRA CADA DÍA.</strong> Prioridad máxima, sin debate. Es el valor garantizado de héroe que ofrece el evento.</li>
+      <li><strong>Cofre de Curiosidades diario</strong> — si te sobran anclas tras los fragmentos.</li>
+      <li><strong>El resto del último día va a Esencia del Cuervo o aceleraciones</strong> — gasta lo restante antes de que cierre el intercambio (consulta <a href="#anchor-expiry">la regla de caducidad</a>).</li>
+    </ol>
+    <p>Y los dos NO tajantes:</p>
+    <ul>
+      <li><strong>No compres aceleraciones ni recursos con anclas.</strong> Están disponibles en todo lo demás del juego; los fragmentos UR no.</li>
+      <li><strong>Las Perlas solo suben el HP de héroes — "no muy útiles".</strong> Sáltalas.</li>
+    </ul>
+    <p>Una trampa más que conviene conocer: <strong>la skin de barco de 4,000 anclas existe</strong>. Es bonita. <strong>No sacrifiques recompensas garantizadas por ella</strong> — cuatro mil anclas es todo el ingreso en fragmentos del mercado durante el evento.</p>
+
+    <h2 id="tab-4-grand-feast">Pestaña 4: Gran Banquete</h2>
+    <p>El banquete de todo el servidor: entrega <strong>10 Peces del Mar por 1 EXP de Banquete</strong>, con <strong>recompensas top-50</strong> para los mayores contribuidores. El veredicto de la comunidad es directo — <strong>"una de las mejores secciones F2P"</strong> del evento. No cuesta nada más que los peces que graneas de todos modos (consulta <a href="#tab-5-fish">Caza Sabrosa</a>), y paga recompensas visibles en el servidor. Entrega a diario, cada día, sin excepción.</p>
+
+    <h2 id="tab-5-fish">Pestaña 5: Caza Sabrosa (granjeo de Peces del Mar)</h2>
+    <p>Los Peces del Mar vienen de tus objetivos diarios normales:</p>
+    <ul>
+      <li>Torre del Halcón</li>
+      <li>Monstruos de Recursos</li>
+      <li>Plaga de Élite</li>
+      <li>Operaciones Encubiertas</li>
+      <li>Plaga Errante</li>
+    </ul>
+    <p>El número crítico: <strong>TOPE DIARIO DE 300 peces</strong>. Granjear más allá es matar mobs por nada — el contador se detiene. Llega a 300, para, banca el tiempo. Los peces alimentan el Gran Banquete, por eso las dos pestañas juntas son el núcleo F2P de todo el evento.</p>
+
+    <h2 id="tab-6-deep-sea">Pestaña 6: Regalo del Mar Profundo</h2>
+    <p>Una aclaración que ahorra diamantes: esta pestaña recompensa <strong>recargas de dinero, NO gasto de diamantes</strong>. A diferencia de un evento de hitos por gasto de diamantes, no hay nada que una cuenta F2P pueda hacer aquí. Sáltate la pestaña por completo — no va dirigida a ti.</p>
+
+    <h2 id="tab-7-buried">Pestaña 7: Tesoro Enterrado (el minijuego F2P)</h2>
+    <p>El minijuego de emparejar, y la pestaña más incomprendida:</p>
+    <ul>
+      <li><strong>5 intentos gratis por día.</strong></li>
+      <li>Habilidades gratis: <strong>Quitar, Recuperar, Refrescar.</strong></li>
+      <li>Las recompensas <strong>NO son por limpiar la etapa</strong> — se otorgan <strong>UNA A UNA AL EMPAREJAR</strong>.</li>
+      <li><strong>Las recompensas recolectadas quedan SEGURAS aunque falles la partida.</strong> Emparejado = bancado.</li>
+    </ul>
+    <p>Lo que produce la estrategia F2P contraintuitiva, la jugada de <strong>"suicidio por recompensas"</strong>: agarra las recompensas del tablero, y luego <strong>falla a propósito</strong>. Limpiar no es la meta — emparejar recompensas fuera del tablero lo es. Fallar no cuesta nada y conserva el botín emparejado.</p>
+    <p>La única reserva: <strong>la etapa 2 es casi imposible sin gastar</strong> — pide aproximadamente <strong>26 limpiezas</strong>. No quemes intentos ni dinero persiguiéndola; granea el valor gratis de la etapa 1.</p>
+
+    <h2 id="anchor-expiry">CRÍTICO: las Monedas de Ancla no se arrastran</h2>
+    <blockquote>Las Monedas de Ancla NO se arrastran al siguiente evento — las monedas sin usar se convierten en aceleraciones cuando cierra el intercambio. Úsalas todas antes de verdad.</blockquote>
+    <p>Las aceleraciones son el premio de consolación, no la meta (consulta la <a href="#tab-3-market">prioridad del mercado</a> — las anclas compran fragmentos UR, las aceleraciones compran aceleraciones). Terminar el evento con anclas restantes es pérdida de valor directa: todo lo que podrían haber comprado en el mercado era estrictamente mejor que la tasa de conversión.</p>
+
+    <h2 id="f2p-checklist">La checklist diaria F2P</h2>
+    <ol>
+      <li>Granea <strong>300 Peces del Mar</strong> (Caza Sabrosa) y para en el tope.</li>
+      <li>Entrega peces al <strong>Gran Banquete</strong>.</li>
+      <li>Juega <strong>5 intentos de Tesoro Enterrado</strong> — empareja recompensas, suicídate, repite.</li>
+      <li>Toma los <strong>tiros gratis del Juego del Pirata</strong>.</li>
+      <li>Gasta anclas en el valor garantizado — <strong>fragmentos UR primero</strong>.</li>
+    </ol>
+
+    <h2 id="community-verdict">Veredicto de la comunidad</h2>
+    <p>Mythic Treasure está <strong>fuertemente sazonado de P2W</strong> — el pase, las tragamonedas y la pestaña de recargas están construidas para gastadores. Pero las secciones F2P — <strong>Gran Banquete, Tesoro Enterrado y el granjeo de peces</strong> — valen la pena cada día del evento. Muele esas, ignora el resto, y no dejes nada en la mesa cuando cierre el intercambio.</p>
+
+    <VideoSection topic="mythic" lang={lang} />
+  </GuidePage>
+</Base>

@@ -1,0 +1,60 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+<Base lang={lang} path="/id/events/arena/" title="Triangle Arena: Pertahanan &amp; Serangan" description="Tiga lineup, penyerang memilih dua untuk dikalahkan: prinsip pertahanan merata, aturan pasangan pengorbanan, serangan berbasis counter, bonus faksi, dan strategi pasukan-jebakan Arena of Fate untuk shard UR.">
+  <GuidePage title="Triangle Arena: Pertahanan &amp; Serangan" description="Tiga lineup, penyerang memilih dua untuk dikalahkan: prinsip pertahanan merata, aturan pasangan pengorbanan, serangan berbasis counter, bonus faksi, dan strategi pasukan-jebakan Arena of Fate untuk shard UR." lang={lang}>
+    <p>Triangle Arena adalah duel formasi 3v3: Anda memasang <strong>tiga lineup pertahanan</strong>, dan setiap penyerang <strong>memilih lineup Anda mana yang akan dilawan</strong> — mereka harus <strong>menang 2 dari 3</strong> untuk mengalahkan Anda. Satu aturan membentuk seluruh event sebelum apa pun lain: <strong>penyerang MELIHAT susunan Anda</strong>. Pertahanan dalam game ini bukan soal tak terkalahkan; ini soal tidak mudah dibaca.</p>
+    <p>Panduan ini membahas prinsip pertahanan, aturan pasangan pengorbanan untuk menyerang, pasangan counter, bonus faksi, dan strategi pasukan-jebakan Arena of Fate.</p>
+
+    <h2 id="format">Formatnya, dan Artinya</h2>
+    <ul>
+      <li>Pembela memasang <strong>3 lineup</strong>. Penyerang memilih urutan mereka melawannya dan harus <strong>menang 2 dari 3</strong>.</li>
+      <li><strong>Penyerang melihat ketiga tim Anda</strong> — ini keuntungan penyerang, dan setiap aturan pertahanan di bawah ada untuk mengerdilkannya.</li>
+    </ul>
+    <blockquote>Anda tidak bisa menghentikan pemain lebih kuat mengalahkan Anda. Anda bisa menghentikan pemain lebih lemah meng-farm Anda.</blockquote>
+
+    <h2 id="defense-principles">Pertahanan: Jaga Ketiganya Merata</h2>
+    <p>Kesalahan pertahanan paling umum: menumpuk hero terbaik Anda ke satu lineup. Penyerang cukup <strong>menghindari tim kuat Anda dan mengalahkan dua lainnya</strong> — Anda kalah 2-1 dengan pasukan terbaik Anda tidak pernah bertarung. Aturannya:</p>
+    <ul>
+      <li><strong>Jaga ketiga lineup MERATA.</strong> Sebarkan kekuatan agar tidak ada kemenangan gratis di papan.</li>
+      <li><strong>Setiap tim mendapat satu dari 3 tank terbaik Anda</strong> di depan — garis depan yang bagus adalah yang membuat lineup biasa menjengkelkan untuk dibersihkan.</li>
+      <li><strong>Tim yang lebih lemah mendapat hero yang lebih kuat</strong> — sanggupi slot terburuk Anda, bukan yang terbaik.</li>
+      <li><strong>Pasang tank kedua di belakang</strong> garis depan — kedalaman di balik tembok pertama memperpanjang setiap pertarungan.</li>
+      <li><strong>Kekuatan bukan segalanya</strong> — komposisi dan counter yang menentukan pertarungan; setel lewat coba-coba, bukan angka CP.</li>
+      <li><strong>Pantau siapa menang dan kalah melawan Anda</strong> — log pertahanan adalah data penyetelan gratis. Seimbangkan ulang saat penyimpangan muncul.</li>
+    </ul>
+    <p>Yang sebenarnya dibeli oleh pertahanan merata: itu tidak menghentikan pemain lebih kuat, tetapi <strong>mencegah yang lebih lemah menjatuhkan peringkat Anda</strong> — dan pertahanan peringkat adalah tempat hadiah musim bersemayam.</p>
+
+    <h2 id="sacrifice-rule">Aturan Pasangan Pengorbanan</h2>
+    <p>Prinsip pasangan yang memenangkan serangan:</p>
+    <blockquote>Melawan pertahanan bertumpuk, masukkan pasukan TERBURUK Anda ke pasukan TERBAIK mereka — lalu menangkan dua lainnya dengan bebas.</blockquote>
+    <p>Baca papan mereka, temukan satu lineup yang tidak bisa Anda kalahkan, dan <strong>serahkan itu dengan sengaja</strong>. Pasukan pengorbanan Anda ada untuk kalah dari monster mereka sementara dua pasukan lebih baik Anda mengambil dua pertarungan yang bisa dimenangkan. Penyerang memilih urutannya — jangan pernah buang pasukan terbaik Anda pada lineup terbaik mereka.</p>
+
+    <h2 id="attack-rules">Serangan: Counter dan Bonus Faksi</h2>
+    <ul>
+      <li><strong>10 hero terbaik Anda saling dipertukarkan di dua tim teratas.</strong> Bangun dua kemenangan itu, jangan menimbun hero untuk pertarungan ketiga yang rencananya kalah juga.</li>
+      <li><strong>Pasangan counter menentukan pertarungan:</strong> ranger Anda ke lineup ranger/warrior mereka; warrior Anda ke lineup warrior/warlock mereka.</li>
+      <li><strong>Hindari lineup terkuat mereka</strong> — aturan pengorbanan di atas. Hanya lawan yang bisa Anda kalahkan.</li>
+      <li><strong>Bonus faksi adalah kunci</strong> — dan karena <strong>Anda bisa melihat pertahanan mereka</strong>, Anda bisa membangun bonus faksi counter Anda lebih dulu sebelum masuk antrean. Pembela tidak bisa menyesuaikan; Anda bisa.</li>
+    </ul>
+    <p>Pilihan counter hero-demi-hero ada di <a href="/id/heroes/">Panduan Hero</a>.</p>
+
+    <h2 id="results">Yang Dicapai Ini dalam Praktik</h2>
+    <p>Hasil terverifikasi dari pemain yang menjalankan sistem ini: <strong>finis konsisten top-20/40/100 dengan jajaran menengah, naik dari 250+ sebelumnya</strong>. Arena menghargai konsistensi di atas kekuatan paus — akun yang mudah dibaca kehilangan peringkat setiap hari ke penyerang yang melihat jalur lemahnya; akun yang merata dan terpantau menahannya.</p>
+
+    <h2 id="arena-of-fate">Arena of Fate: Strategi Pasukan Jebakan</h2>
+    <ul>
+      <li>Varian arena khusus menjalankan format 2-dari-3 yang sama — dan permainan <strong>&quot;Pasukan Jebakan&quot;</strong> mengeksploitasi keuntungan visibilitas penyerang secara terbalik: umpan berupa pasukan yang tampak seimbang tetapi memukul jauh di atas bobot tampaknya.</li>
+      <li>Dilakukan dengan baik, ini <strong>meraih hadiah tier tinggi, termasuk shard UR</strong> — sumber UR gratis yang langka dalam konten PvP.</li>
+      <li><strong>Bug yang diketahui: sebagian pemain terjebak tanpa peringkat di server baru</strong> — jika peringkat Anda tidak pernah terisi di musim Fate, itu bugnya, bukan cara main Anda. Laporkan dan tunggu.</li>
+    </ul>
+
+    <VideoSection topic="arena" lang={lang} />
+  </GuidePage>
+</Base>

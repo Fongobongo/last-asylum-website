@@ -1,0 +1,67 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+<Base lang={lang} path="/id/events/canyon/" title="Canyon Conquest: Strategi Jalur" description="Pertempuran estafet tiga jalur di mana daya tahan mengalahkan kekuatan: aturan estafet, batas 3 pertarungan, strategi prioritas jalur, bug yang diketahui, dan mengapa ini event tanpa-risiko terbaik dalam game.">
+  <GuidePage title="Canyon Conquest: Strategi Jalur" description="Pertempuran estafet tiga jalur di mana daya tahan mengalahkan kekuatan: aturan estafet, batas 3 pertarungan, strategi prioritas jalur, bug yang diketahui, dan mengapa ini event tanpa-risiko terbaik dalam game." lang={lang}>
+    <p>Canyon Conquest adalah <strong>pertempuran jalur aliansi</strong>: tiga jalur, dan aliansi yang memenangkan <strong>2 dari 3 jalur</strong> mengambil laga. Tetapi formatnya adalah <strong>estafet</strong> — pemain terlemah bertarung duluan, dan pemain <strong>tinggal di jalur sampai kalah</strong>. Memahami apa yang estafet itu lakukan pada strategi lineup adalah seluruh eventnya.</p>
+    <p>Panduan ini membahas aturan estafet, struktur hadiah, strategi prioritas jalur beserta varian utamanya, bug yang diketahui, dan mengapa ini event paling aman dalam game.</p>
+
+    <h2 id="relay-rules">Aturan Estafet</h2>
+    <ol>
+      <li><strong>Terlemah bertarung duluan.</strong> Setiap jalur dimulai dengan pemain CP terendahnya dan hanya naik ketika seseorang kalah.</li>
+      <li><strong>Pemain tinggal sampai kalah, lalu yang berikutnya masuk.</strong> Pemain yang menang memegang jalur dan terus melawan penantang berikutnya — tidak ada rotasi setelah menang.</li>
+      <li><strong>Maksimal 3 pertarungan per pemain.</strong> Setelah tiga pertarungan Anda selesai untuk laga itu.</li>
+      <li><strong>15 pemain per jalur.</strong> Aliansi membagi jajarannya ke tiga jalur.</li>
+    </ol>
+    <p>Konsekuensi dari estafet: <strong>jika pihak Anda memenangkan setiap pertarungan dengan 2 kill masing-masing, hanya 8 dari 15 pemain jalur yang pernah bertarung.</strong> Tujuh pemain duduk sepanjang laga tanpa membelanjakan satu pertarungan pun. Fakta itu mendorong setiap keputusan lineup di bawah.</p>
+
+    <h2 id="rewards">Hadiah dan Tier 3-Kill</h2>
+    <ul>
+      <li><strong>Hadiah 3-kill digerbangi tier</strong> — Anda perlu ketiga pertarungan Anda menjadi kill untuk mencapai tier pribadi teratas.</li>
+      <li>Karena pemain lebih kuat yang di dalam jalur menghadapi lawan lebih kuat, tier 3-kill biasanya milik puncak jajaran — rencanakan ekspektasi pribadi Anda sesuai.</li>
+    </ul>
+
+    <h2 id="rounds-and-groups">Ronde dan Grup</h2>
+    <ul>
+      <li><strong>Setiap 5 ronde laga berakhir dan dimulai ulang dari Registrasi.</strong> Daftar ulang setiap siklus.</li>
+      <li><strong>Menang dan Anda naik ke grup atas; kalah dan Anda tetap di grup yang sama atau turun ke grup lebih lemah.</strong> Tangga itu menyortir aliansi sendiri seiring waktu.</li>
+      <li><strong>&quot;Bye&quot; dimungkinkan bahkan dengan 15 penuh</strong> — jumlah jalur terdaftar yang ganjil berarti seseorang maju tanpa bertarung. Itu keberuntungan undian, bukan bug.</li>
+    </ul>
+
+    <h2 id="known-bugs">Bug yang Diketahui</h2>
+    <ul>
+      <li><strong>Diganti setelah 2 menang tanpa kalah</strong> — estafetnya seharusnya membuat Anda tetap masuk setelah menang, tetapi sebagian pemain ditarik setelah dua kemenangan. Laporkan jika mengenai Anda.</li>
+      <li><strong>Pemain terdaftar dikecualikan dari ronde 2.</strong> Registrasi basi bisa menyandung Anda keluar dari ronde berikutnya. Penghapusan dari daftar hanya untuk <strong>R4/R5</strong> — jika Anda terjebak, minta pimpinan membersihkan Anda agar bisa mendaftar ulang.</li>
+    </ul>
+
+    <h2 id="lane-strategy">Strategi Prioritas Jalur</h2>
+    <blockquote>Anda tidak perlu memenangkan SETIAP pertarungan — Anda perlu jalur yang TEPAT.</blockquote>
+    <h3 id="consensus-setup">Susunan Konsensus</h3>
+    <ol>
+      <li><strong>Prioritaskan 2 dari 3 jalur.</strong> Memenangkan laga butuh 2 jalur, bukan 3 — menyiram jajaran merata ke ketiganya hanya menjamin kalah di jalur ketiga juga.</li>
+      <li><strong>Bagi top-30 merata ke dua jalur kuat</strong>, dan isi sisa tubuh ke jalur ketiga.</li>
+    </ol>
+    <h3 id="weak-lane-refinement">Penyempurnaan: Dua Terkuat ke Jalur Lemah</h3>
+    <ol>
+      <li>Kirim <strong>2 pemain terkuat Anda ke jalur ketiga yang LEMAH</strong> — mereka membawanya.</li>
+      <li>Logikanya adalah aritmetika estafet: pemain terkuat Anda yang diparkir di jalur kuat <strong>sering tidak pernah bertarung</strong>, karena pemain jalur yang lebih lemah menang duluan sebelum as-nya pernah dibutuhkan. Di jalur lemah, mereka adalah pembeda antara 0-1 dan jalur yang hidup.</li>
+    </ol>
+    <h3 id="counterpoint">Sanggahan yang Terbukti Berhasil</h3>
+    <ul>
+      <li><strong>3 tim berimbang dengan pemain top-3 di masing-masing</strong> juga terverifikasi berhasil — satu jangkar per jalur alih-alih jalur yang diserahkan.</li>
+    </ul>
+    <p>Tidak ada susunan yang salah dalam ruang hampa. Bacaan yang benar: <strong>periksa siapa menang dan kalah di mana pada ronde berikutnya.</strong> Lawan Anda berubah grup demi grup, dan susunan jalur yang memenangkan laga ini mungkin perlu diimbangkan ulang ronde berikutnya. Beradaptasilah, jangan autopilot.</p>
+
+    <h2 id="why-zero-risk">Mengapa Ini Event Tanpa-Risiko Terbaik</h2>
+    <p>Canyon Conquest <strong>tanpa kehilangan pasukan, tanpa risiko sumber daya, dan tanpa biaya stamina nyata</strong> — tidak seperti <a href="/id/events/kvk/">KvK</a>, di mana kota tanpa shield terbakar. Anda bertarung dengan kekuatan turnamen pinjaman, pasukan nyata Anda tetap utuh di rumah. Itu menjadikannya salah satu <strong>event terbaik untuk hadiah aman</strong> dalam game: datang, daftar, jalankan tiga pertarungan Anda, panen.</p>
+    <p>Satu-satunya biaya nyata adalah perhatian pada lineup — dan aturan estafet di atas adalah seluruh meta lineup-nya.</p>
+
+    <VideoSection topic="canyon" lang={lang} />
+  </GuidePage>
+</Base>

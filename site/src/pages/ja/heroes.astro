@@ -1,0 +1,111 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ja';
+---
+<Base lang={lang} path="/ja/heroes/" title="ヒーローガイド：編成、F2Pルート、スキル" description="正統F2P部隊とその全タイムライン、Warrior・Ranger・Warlockの陣営タイミング、スキル強化優先度、星のブレークポイント、そしてEra of Revivalでの覚醒ヒーローの順序。">
+  <GuidePage title="ヒーローガイド：編成、F2Pルート、スキル" description="正統F2P部隊とその全タイムライン、Warrior・Ranger・Warlockの陣営タイミング、スキル強化優先度、星のブレークポイント、そしてEra of Revivalでの覚醒ヒーローの順序。" lang={lang}>
+    <p>ヒーローはLast Asylum: Plague最大の戦力倍率です — そして間違えて育てた時に直すのが最も高いものでもあります。シャードとスキルバッジの経済は分散投資に罰を与えるので、コミュニティは1つの正統な無課金ルートと、その周りの厳格な手順に収束しています。</p>
+    <p>このページでは：ゲームの各段階でどの陣営に乗るか、日別タイムライン付きの正統F2P部隊、バッジあたりダメージ分析で検証されたスキル優先度、星のブレークポイント、そしてEra of Revivalシーズンの覚醒ヒーロー進行順序を解説します。</p>
+
+    <h2 id="faction-timing">陣営タイミング：序盤はWarrior、中盤はRanger、終盤はWarlock</h2>
+    <p>3つの陣営はゲームの同じ段階では同等ではありません。それぞれがいつピークを迎えるか、コミュニティのコンセンサス：</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>陣営</th><th>ピーク期間</th><th>理由</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Warrior</td><td>序盤</td><td>無料のArthurに無料のHarperシャード、66日目の$1 Marlena課金。ほぼタダでWarriorコアが手に入ります。</td></tr>
+        <tr><td>Ranger</td><td>中盤</td><td>RangerはWarriorに強い — Ranger編成はWarriorからの被ダメージを20%軽減。投資すれば中盤のRanger部隊は遭遇する相手の約98%に勝てます。</td></tr>
+        <tr><td>Warlock</td><td>終盤</td><td>最強の天井。ただし重型投資でのみ — Warriorブーストを乗り越えてからが本番。課金するか、忍耐するか。</td></tr>
+      </tbody>
+    </table>
+    <p>新規アカウントのよくあるジレンマはこれで解決します：Ranger編成に憧れていても、無料で与えられたWarriorコアを育てること。経済力でRangerを実際に賄えるようになってから乗り換えればいいのです。</p>
+
+    <h2 id="f2p-squad">正統F2P部隊</h2>
+    <p>アカウントの最初の数ヶ月かけて組み上がる、コミュニティ標準の無課金編成：</p>
+    <p><strong>Arthur、Daskal、Marlena、Harper、Claire</strong></p>
+    <p>これが定番である理由は3つ：全員が無料かほぼ無料で手に入ること、パーツが常に「次の育成先」を与える順で届くこと、そして終盤メタが報酬を与えるWarrior単一陣営ボーナスへ積み上がることです。</p>
+
+    <h3 id="f2p-timeline">F2Pタイムライン</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>時期</th><th>アクション</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1〜2日目</td><td>Arthurが無料で到着しタンクに。残りの席は無料のBella、Claire、Celiaのシャードで埋める。</td></tr>
+        <tr><td>序盤</td><td>投資するのはClaireとArthurのみ。他は全員プレースホルダーのまま — BellaとCeliaも含めて。</td></tr>
+        <tr><td>その過程で</td><td>Harperの星8は定番構成の必須条件。安定して与え続ける。星6で止めない。</td></tr>
+        <tr><td>66日目</td><td>$1 Marlena課金。URシャードを貯めておき、到着したら即星8へ — その後10へ向けて押し続ける。</td></tr>
+        <tr><td>120日目以降(Era of Revival)</td><td>Daskalがゲーム最強のタンクとして加入。ClaireはEra 8日目の変換でURへ — 序盤のシャードが無料だったからこそ、使わずに貯めていたのです。</td></tr>
+      </tbody>
+    </table>
+    <p>この構成の成否を分ける2つの規律：序盤はClaireとArthurだけに絞ること — そしてEra変換の前に貯めたClaireシャードを絶対に消化しないこと。UR変換こそがそのシャードを貯めていた理由です。</p>
+
+    <h2 id="alternatives">代替案とバリエーション</h2>
+    <p>正統5人編成だけが唯一のまともなルートではありません — 以下は認識されている代替と地域バリエーションです。</p>
+    <h3 id="no-marlena">$1 Marlenaなし：代わりにCynthia</h3>
+    <p>1ドルをスキップした?8日目のWishing WheelのCynthiaが代替です — 本当にキャリーを担える序盤キャリーUR。トレードオフは終盤に来ます：単一陣営スタックが崩れるため5%の陣営ボーナスを失い、定番コアの前提であるHarperとエピグラフのシナジーも失います。機能はしますが、最上位で足りないリンクを感じるでしょう。</p>
+    <h3 id="f2p-pvp-variant">F2P PvPバリアント</h3>
+    <p>静かに成長するよりプレイヤーと戦いたいアカウント向け：<strong>Arthur、Lucius または Bella、Claire、Marlena、Cynthia</strong>。陣営ボーナスの一部を、フィニッシャーとしてのCynthiaのPvP打撃力と交換します。</p>
+    <h3 id="russian-variant">ロシアコミュニティ編成</h3>
+    <p>ロシアのF2Pコミュニティの構成：前衛 — ArthurとLucius(このペアは「絶対盾」と呼ばれています)。後衛 — Claire、Kesso、Celia。序盤数ヶ月はSivirがカバーし、Harperが長期プロジェクト。西側の編成と同じ論理、同じ盤面の別の駒です。</p>
+
+    <h2 id="mono-faction-meta">単一陣営メタ</h2>
+    <p>Ravenのエピグラフが実装されて以来、単一陣営での運用は「あると嬉しいボーナス」から「支配的戦略」になりました。理由は：URエピグラフは1つの陣営のみを強化する。だからスタックした部隊はすべてが倍がかりします — <a href="/ja/beginners/">陣営テーブル</a>の5体+20%ボーナス、URエピグラフのバフ、さらにHarperのような陣営固有のシナジーまで。</p>
+    <p>だからこそ正統部隊は全員Warriorです：エピグラフ投資が既に積まれた陣営の上に複利で乗る。分裂陣営の部隊は、半分しか強化しないエピグラフに支払うことになります。</p>
+    <p>課金プレイヤーには実践的な例外があります：一時的なヒーローです。ShadowとCynthiaは星8までスキル15-20で完成させ、イベントとPvPの専門家として運用します — 影響が出る程度には投資しつつ、メイン部隊の予算を食い尽くさない程度に。</p>
+
+    <h2 id="skill-priorities">スキル強化優先度</h2>
+    <p>スキルはバッジを食い、バッジは希少です。以下の順序はコミュニティのバッジあたりダメージ分析で検証済み — 感覚ではなく、計測値です。</p>
+    <h3 id="marlena-skills">Marlena:ダメージの中心</h3>
+    <p>MarlenaはZoyaが来るまで部隊ダメージの約<strong>85%</strong>を担い、その後も50/50です。バッジを最初に注ぐべき場所です。</p>
+    <p>ただしキットに罠が1つ：Marlenaの通常攻撃を序盤に30まで上げないこと。検証済みの順序：</p>
+    <ol>
+      <li>アルティメットを最優先 — 常に。</li>
+      <li>アクティブスキルを2番目。</li>
+      <li>通常攻撃は最後。しかも他のスキルが終わるまで控えめに。</li>
+    </ol>
+    <h3 id="claire-skills">Claire:パッシブこそ本質</h3>
+    <p>Claireの鍵はパッシブ — チーム全体のダメージ増幅です。検証済みプラン：全スキル15前後、パッシブ20、そこで止めてZoyaの到着と優先度の再編を待つ。</p>
+
+    <h2 id="star-breakpoints">星のブレークポイントとTenacity</h2>
+    <p>星はヒーロー戦力の最大の単一倍率です。重要な戦力ジャンプは<strong>星4の後</strong>に来ます — それ未満のヒーローは席を温めているだけ。超えれば同じヒーローが戦いを担い始めます。だからコミュニティはどのメイン部隊ヒーローでも、最初の星目標を「星4の通過」に置き、全員を均等に凡庸にするようなシャードのバラまきをしません。</p>
+    <p>URヒーローには2番目の大きなブレークポイントがあります：レベル30かつ星8で<strong>Tenacity</strong>を解放。これは大きな生存力ジャンプであり、星8がURヒーローの定番の定位置である理由です — Marlenaの66日目の即時星8はこれを前提に設計されています。</p>
+
+    <h2 id="awakened-order">覚醒ヒーロー：Eraの進行順序</h2>
+    <p>Era of Revivalシーズンでは、覚醒ヒーローの進行は1つの固定順序に従います。メインヒーローについては、各ステップを完了してから次を開始します：</p>
+    <ol>
+      <li>メインヒーローを星10へ。</li>
+      <li>覚醒(Awakening)。</li>
+      <li>専用武器(Exclusive Weapon)。</li>
+      <li>ロード進化(Lord Evolution)。</li>
+      <li>ロード耐性(Lord Resistance)。</li>
+      <li>Era強化(Era Enhancement) — メインスキン1つのみ。</li>
+      <li>それから初めて：2人目のヒーローを同じ梯子で開始。</li>
+    </ol>
+    <p>すべてを縛るルール：<strong>覚醒素材を絶対に分割しない</strong>。1体を完全に覚醒させることは、2体を半分ずつ覚醒させることに勝ります — 半端に完成した複数より、1つの強い進軍です。各ステップのEra固有の文脈は<a href="/ja/era/">Era of Revivalガイド</a>にあります。</p>
+
+    <h2 id="might-formula">戦力(Might)の公式</h2>
+    <p>アカウントを比較する時、戦力は5つの別々の山の合計です：</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>要素</th><th>ソース</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>ヒーロー戦力</td><td>ヒーローのレベル、星、スキル、装備。</td></tr>
+        <tr><td>カラス(Raven)戦力</td><td>カラスのレベル、装備、エピグラフ — <a href="/ja/raven/">カラスガイド</a>参照。</td></tr>
+        <tr><td>兵士戦力</td><td>部隊のティアと軍隊の規模。</td></tr>
+        <tr><td>テックボーナス</td><td>研究所のツリー。</td></tr>
+        <tr><td>建物ボーナス</td><td>市の建物 — 戦士の像(Warrior Statue)など。</td></tr>
+      </tbody>
+    </table>
+    <p>この内訳を診断に使いましょう：戦力がヒーロー偏重で兵士不足なら、取り返しのつかない軍隊を失う1回の敗戦から1歩のところにいます。兵士偏重でヒーロー不足なら、出撃が見かけの戦力以下の打撃しか出せません。最強のアカウントは各山を概ね比例させます — それはまさに、建設優先順序とF2P部隊タイムラインに従うことが自動でやってくれることです。</p>
+
+    <VideoSection topic="heroes" lang={lang} />
+  </GuidePage>
+</Base>

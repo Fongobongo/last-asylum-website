@@ -1,0 +1,71 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'es';
+---
+<Base lang={lang} path="/es/events/survival/" title="Survival Battle: 60K insignias gratis" description="El evento semanal de misiones que paga a los F2P unas 60,000 Insignias de Habilidad: categorías de misiones, el truco del cuartel de bajo nivel, el timing de la Fruta del Cuervo y el conflicto de solapamiento con el ahorro del Duelo de Alianzas.">
+  <GuidePage title="Survival Battle: 60K insignias gratis" description="El evento semanal de misiones que paga a los F2P unas 60,000 Insignias de Habilidad: categorías de misiones, el truco del cuartel de bajo nivel, el timing de la Fruta del Cuervo y el conflicto de solapamiento con el ahorro del Duelo de Alianzas." lang={lang}>
+    <p>Survival Battle es el <strong>evento semanal de misiones</strong>, y para cuentas gratuitas es la fuente de ingreso recurrente más importante del juego: <strong>los jugadores F2P pueden ganar unas 60,000 Insignias de Habilidad por semana</strong>. Las Insignias son el cuello de botella permanente de habilidades — este evento es cómo las mantienes fluyendo sin gastar.</p>
+    <p>Esta guía cubre cómo funcionan las misiones, los trucos de completación barata y el único conflicto estratégico que debes planificar.</p>
+
+    <h2 id="how-it-works">Cómo funciona</h2>
+    <ul>
+      <li>Survival Battle es un <strong>evento semanal</strong> con lista de misiones rotativa.</li>
+      <li><strong>Las listas VARIAN POR SERVIDOR</strong> — tu lista puede no coincidir con la de otro servidor, así que trata cada guía de misiones (incluidos nombres específicos) como aproximada y comprueba primero tu propia lista en el juego.</li>
+      <li>La meta de pago para una cuenta F2P es <strong>~60,000 Insignias de Habilidad por semana</strong> — alcanzable con las recompensas de misiones cuando la lista se completa eficientemente.</li>
+    </ul>
+    <p>Categorías de tareas que verás en las listas:</p>
+    <ul>
+      <li>Misiones de investigación tecnológica</li>
+      <li>Misiones de mejorar el Cuervo</li>
+      <li>Misiones de entrenar soldados (consulta <a href="#barracks-trick">el truco del cuartel</a>)</li>
+      <li>Misiones de matar monstruos (consulta <a href="#stamina-missions">misiones de aguante</a>)</li>
+      <li>Misiones de reclutamiento (consulta <a href="#recruit-missions">el truco de los tickets</a>)</li>
+    </ul>
+
+    <h2 id="barracks-trick">El truco del cuartel de bajo nivel</h2>
+    <p>Las misiones de Entrenar Soldados no se fijan en el nivel — cuentan cabezas. Así que:</p>
+    <ol>
+      <li>Encola <strong>tropas baratas de bajo nivel</strong> en tu cuartel.</li>
+      <li>Cada lote terminado marca la misión de Entrenar Soldados por una fracción del coste en comida y aceleraciones de la producción real de ejército.</li>
+      <li>Timing a prueba de cancelación: los lotes de bajo nivel terminan rápido, así que puedes encadenar múltiples completaciones dentro de una ventana de evento.</li>
+    </ol>
+    <p>Es la misma lógica de recuento de cuerpos que impulsa la <a href="/es/events/alliance-duel/">Fase 5 del Duelo de Alianzas</a> — excepto que ahí quieres niveles altos para los puntos grandes, mientras que aquí solo importa el conteo. Entrena las tropas más baratas que tengas y limpia la misión.</p>
+
+    <h2 id="stamina-missions">Misiones de monstruos: guarda las Frutas del Cuervo, gasta aguante</h2>
+    <ul>
+      <li><strong>Guarda tus Frutas del Cuervo</strong> para las misiones de matar monstruos — no las quemes en días corrientes cuando nada paga por la muerte.</li>
+      <li><strong>Gasta aguante</strong> para cumplir las misiones de monstruos. El aguante gastado fuera de eventos es el desperdicio F2P clásico — las mismas peleas ganan progreso de evento cuando se sincronizan con una misión de monstruos.</li>
+    </ul>
+
+    <h2 id="recruit-missions">La misión de reclutamiento de 30 tickets</h2>
+    <p>La completación barata conocida: una misión de reclutamiento se limpia con <strong>30 tickets de reclutamiento</strong>. Eso la convierte en un chequeo puro de valor — si tienes 30 tickets bancados, la misión es gratis; si no, piésalo contra tus planes de <a href="/es/events/alliance-duel/">Fase 4 del Duelo de Alianzas</a>, donde cada reclutamiento paga +3,450 puntos.</p>
+
+    <h2 id="duel-overlap">CRÍTICO: el solapamiento con el Duelo de Alianzas</h2>
+    <blockquote>Algunas misiones de Survival Battle se solapan con el ahorro del Duelo de Alianzas. Decide cuáles completar ahora y cuáles guardar para el Duelo.</blockquote>
+    <p>Esta es la única decisión real que el evento fuerza. Las misiones de investigación, reclutamiento y entrenamiento quieren los mismos recursos por los que el duelo paga el doble:</p>
+    <ul>
+      <li><strong>Una misión de investigación esta semana vs la investigación sin pergaminos del miércoles de duelo en la Fase 3.</strong></li>
+      <li><strong>Una misión de reclutamiento ahora vs los +3,450 por reclutamiento de la Fase 4.</strong></li>
+      <li><strong>Una misión de entrenamiento ahora vs los puntos doblados y +30% de valor de aceleraciones de la Fase 5.</strong></li>
+    </ul>
+    <p>La regla general: compara la recompensa de Survival Battle contra los puntos de duelo que sacrificarías. Al principio de un ciclo de duelo, ahorra para el duelo; tarde en el ciclo, o cuando la recompensa de la misión es rica en insignias, limpia la misión. Cuando los calendarios chocan, el ingreso semanal de 60K insignias es la prioridad F2P — las insignias no tienen otra fuente farmeable a esta escala.</p>
+
+    <h2 id="weekly-checklist">La checklist semanal</h2>
+    <ol>
+      <li>Abre el evento al empezar la semana y lee la lista de misiones de <strong>tu servidor</strong>.</li>
+      <li>Ordena las misiones en "completar ahora" y "guardar para el duelo" — antes de gastar nada.</li>
+      <li>Encola lotes de bajo nivel en el cuartel para las misiones de entrenamiento.</li>
+      <li>Reserva Frutas del Cuervo y aguante para las misiones de monstruos.</li>
+      <li>Banca 30 tickets de reclutamiento si hay una misión de reclutamiento activa.</li>
+      <li>Recolecta las ~60,000 Insignias de Habilidad completas al final de la semana.</li>
+    </ol>
+    <p>Para a dónde van esas insignias — el orden de prioridad de habilidades de héroes — consulta la <a href="/es/heroes/">guía de Héroes</a>.</p>
+
+    <VideoSection topic="survival" lang={lang} />
+  </GuidePage>
+</Base>

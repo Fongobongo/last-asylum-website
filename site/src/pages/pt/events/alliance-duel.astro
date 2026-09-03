@@ -1,0 +1,138 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'pt';
+---
+<Base lang={lang} path="/pt/events/alliance-duel/" title="Duelo de Alianças: guia completo" description="Seis dias de categorias de pontos, uma final PvP no sábado, mecânicas fase a fase com valores exatos, empilhamento de Missões do Falcão e a economia de guardar tudo que ganha o baú máximo.">
+  <GuidePage title="Duelo de Alianças: guia completo" description="Seis dias de categorias de pontos, uma final PvP no sábado, mecânicas fase a fase com valores exatos, empilhamento de Missões do Falcão e a economia de guardar tudo que ganha o baú máximo." lang={lang}>
+    <p>O Duelo de Alianças é o evento em torno do qual a semana inteira é construída: seis dias de competição contra uma aliança rival pareada, com uma categoria de pontos diferente a cada dia e uma final PvP no sábado. Também é o evento que decide quanto do seu estoque você deve gastar — fragmentos, tickets, distintivos e acelerações têm um dia de duelo onde valem o dobro ou mais.</p>
+    <p>Este guia cobre requisitos de entrada, as mecânicas por fase com valores de pontos exatos, a estratégia diária de economia, o empilhamento de Missões do Falcão e como o duelo alimenta a Guerra dos Reinos.</p>
+
+    <h2 id="what-it-is">O que é o Duelo de Alianças</h2>
+    <p>O Duelo de Alianças é uma <strong>competição de aliança de 6 dias</strong> dividida em fases 1 a 6, de segunda a sábado. Cada dia tem sua própria categoria de pontos — um conjunto específico de ações que pontua no duelo — e a aliança que marca mais na categoria diária ganha aquela fase. Sábado, Fase 6, é a <strong>final PvP</strong> onde as duas alianças finalmente se enfrentam diretamente.</p>
+    <p>Também existe um formato comprimido: <strong>Survival Battle</strong>, uma versão de 4 horas do duelo para alianças que querem a mesma competição sem a semana inteira. As mecânicas e a lógica de pontuação são idênticas — só muda o relógio.</p>
+    <blockquote>O duelo não se ganha no dia. Ganha-o quem guardou os recursos certos para a fase certa.</blockquote>
+
+    <h2 id="entry-requirements">Requisitos de entrada e pareamento</h2>
+    <ul>
+      <li>Sua aliança precisa ser uma <strong>aliança top-32 do ranking</strong> com <strong>20 membros ou mais</strong> para entrar.</li>
+      <li>Num servidor novinho, o primeiro duelo roda por volta do <strong>dia 17</strong> — planeje suas duas primeiras semanas em torno disso.</li>
+      <li>Após a Fase 6 terminar há uma <strong>pausa de 1 dia</strong> antes do próximo ciclo começar.</li>
+      <li>Acredita-se que o pareamento se baseia na <strong>atividade e taxa de vitória da aliança</strong> — alianças muito ativas pegam oponentes igualmente ativos, não puramente por poder bruto.</li>
+    </ul>
+
+    <h2 id="weekly-structure">A semana num relance</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Dia</th><th>Fase</th><th>Foco</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Segunda</td><td>Fase 1</td><td>Categoria diária de pontos — confira a tela do evento para as ações exatas de pontuação</td></tr>
+        <tr><td>Terça</td><td>Fase 2</td><td>Categoria diária de pontos — igual, as categorias giram por dia</td></tr>
+        <tr><td>Quarta</td><td>Fase 3</td><td>Dia de pesquisa e pergaminhos</td></tr>
+        <tr><td>Quinta</td><td>Fase 4</td><td>Heróis e recrutamento</td></tr>
+        <tr><td>Sexta</td><td>Fase 5</td><td>Treino de tropas</td></tr>
+        <tr><td>Sábado</td><td>Fase 6</td><td>Final PvP contra a aliança rival</td></tr>
+      </tbody>
+    </table>
+    <p>As Fases 1 e 2 trocam suas categorias de ciclo para ciclo, então leia a tela de evento in-game toda semana. As Fases 3, 4 e 5 são os grandes dias de planejamento — aqueles em que estocar paga — e estão cobertas em detalhe abaixo.</p>
+
+    <h2 id="phase-3">Fase 3: dia de pesquisa e pergaminhos</h2>
+    <p>A Fase 3 pontua sua atividade de pesquisa, mas tem uma armadilha embutida: <strong>pontos de pergaminho só são dados por pergaminhos consumidos naquele dia.</strong> Queimar pergaminhos na segunda não rende nada na quarta.</p>
+    <p>A saída é pesquisar coisas que <strong>não custam pergaminhos</strong>:</p>
+    <ul>
+      <li><strong>Pesquisa de heróis</strong> — valor de pontos cheio, custo zero de pergaminho.</li>
+      <li><strong>Pesquisa de soldados</strong> — mesmo negócio, e acumula para o valor de tropas da Fase 5.</li>
+    </ul>
+    <p>Duas regras de baú completam o dia:</p>
+    <ul>
+      <li><strong>Baús de equipamento do Corvo ficam promovidos</strong> durante a Fase 3 — o evento dá pontos por <strong>abrir</strong> eles. Este é o dia de estourar seu estoque.</li>
+      <li><strong>Baús de curiosidade não dão pontos</strong> no duelo — mas também não têm pressão de tempo. Resgate quando quiser; nada se perde por guardá-los.</li>
+    </ul>
+
+    <h2 id="phase-4">Fase 4: heróis e recrutamento</h2>
+    <p>A Fase 4 é o dia de maior valor para ativos de heróis. Os valores de pontos exatos:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Ação</th><th>Pontos</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1 fragmento UR</td><td>+20,000</td></tr>
+        <tr><td>Fragmento SSR</td><td>+7,000</td></tr>
+        <tr><td>Fragmento SR</td><td>+2,000</td></tr>
+        <tr><td>Recrutamento</td><td>+3,450</td></tr>
+        <tr><td>Distintivo de habilidade</td><td>+20</td></tr>
+      </tbody>
+    </table>
+    <p>Um único fragmento UR vale quase seis SSRs. Essa matemática guia a semana inteira: <strong>guarde seus tickets de recrutamento, fragmentos de heróis e distintivos de habilidade para a Fase 4.</strong> Gastar fragmentos no dia em que os recebe é jogar fora o maior multiplicador de pontos que o duelo oferece.</p>
+
+    <h2 id="phase-5">Fase 5: treino de tropas</h2>
+    <p>A Fase 5 converte a produção do seu quartel em pontos:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Fonte</th><th>Pontos</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Soldado treinado, Nível 1</td><td>+46</td></tr>
+        <tr><td>Soldado treinado, Nível 10</td><td>+253</td></tr>
+        <tr><td>Impulso de Treino</td><td>+115 por minuto</td></tr>
+      </tbody>
+    </table>
+    <p>Os valores de nível escalam entre os dois extremos — níveis mais altos pagam várias vezes o que N1s pagam, então treine o nível mais alto que seu quartel suporta. E o evento empilha seus próprios bônus por cima para o dia:</p>
+    <ul>
+      <li><strong>Todos os pontos +100%</strong> — tudo ganho no dia da Fase 5 é dobrado.</li>
+      <li><strong>Acelerações +30%</strong> — a eficiência das acelerações é turbinada.</li>
+      <li><strong>Treino +30%</strong> — o próprio treino roda mais rápido.</li>
+    </ul>
+    <p>A conclusão é óbvia: <strong>guarde suas acelerações de treino para a Fase 5.</strong> Uma aceleração queimada numa terça qualquer vale 30% menos e ganha metade dos pontos.</p>
+
+    <h2 id="sunday-planning">Domingo: o dia de pré-planejamento</h2>
+    <p>O dia de pausa após a Fase 6 não é dia de descanso — é o dia de planejar o próximo ciclo. Antes do novo duelo começar:</p>
+    <ol>
+      <li>Confira seu estoque: fragmentos, tickets, distintivos, acelerações, baús de equipamento do Corvo, baús de curiosidade.</li>
+      <li>Atribua cada reserva à fase que paga por ela — Fase 3, 4 ou 5.</li>
+      <li>Defina a meta da aliança: o alvo é o <strong>baú máximo de marcos</strong> e as melhores promoções que o elenco alcança.</li>
+      <li>Confira sua <strong>Tecnologia de Duelo de Alianças</strong> — a 100% ela muda quais metas são realistas, então a liderança deve saber exatamente onde a aliança está antes de fixar um alvo.</li>
+    </ol>
+
+    <h2 id="falcon-quest-stacking">Empilhamento de Missões do Falcão</h2>
+    <p>As Missões do Falcão interagem com o duelo por uma regra: <strong>faça as missões quando quiser, mas resgate-as nos dias de pontos dobrados — segunda, quarta e sexta.</strong> Uma missão resgatada no dia errado ganha metade do que poderia.</p>
+    <p>Depois o truque avançado, a técnica <strong>Empilhamento Máx - 1</strong>:</p>
+    <ul>
+      <li>Quando seu quadro de missões está completamente cheio, o cronômetro do quadro <strong>congela</strong> — nenhuma missão nova chega enquanto ele estiver cheio.</li>
+      <li>Mantenha o quadro no máximo menos um: complete uma missão, e o cronômetro continua rodando, renovando o quadro.</li>
+      <li>O resultado é um fluxo contínuo de missões em vez de um congelado, e muito mais missões bancadas para os dias de pontos dobrados.</li>
+    </ul>
+
+    <h2 id="new-server-notes">Notas para servidores novos</h2>
+    <p>Dois fatos de calendário que todo jogador de servidor novo deve saber:</p>
+    <ul>
+      <li><strong>Não há raid nas primeiras 2 semanas</strong> de um servidor novo. Conteúdo de raid começa na <strong>semana 3</strong> — não queime recursos esperando antes disso.</li>
+      <li>O <strong>primeiro Duelo de Alianças chega por volta do dia 17</strong>. A economia das duas primeiras semanas nos guias para iniciantes é ajustada exatamente para isso: construa, e depois tenha algo que valha pontos quando o primeiro duelo abrir.</li>
+    </ul>
+
+    <h2 id="rewards">Recompensas e a conexão com o KvK</h2>
+    <p>Os pagamentos do duelo chegam em duas camadas:</p>
+    <ul>
+      <li><strong>Baús de marcos</strong> — a meta da aliança é sempre o baú máximo. Todo o resto é secundário.</li>
+      <li><strong>Promoções e ranking de contribuição</strong> — recompensas individuais escalam com sua contribuição pessoal, por isso estocar sozinho sem nunca gastar não ajuda ninguém.</li>
+    </ul>
+    <p>E o duelo não é um evento isolado: ele alimenta diretamente a <strong>Guerra dos Reinos</strong>. <a href="/pt/events/kvk/">KvK</a> e o duelo compartilham fontes de pontuação — <strong>Operações Secretas e Caravanas pontuam para ambos</strong>. Rode-as todo dia e o mesmo esforço paga duas vezes. A rota completa de caravanas está na <a href="/pt/events/wagon/">guia de Guild Wagon e Caravanas</a>.</p>
+
+    <h2 id="common-mistakes">Erros comuns</h2>
+    <ol>
+      <li>Gastar fragmentos e tickets fora da Fase 4 — a maior perda de pontos do evento.</li>
+      <li>Queimar acelerações de treino fora da Fase 5 e perder o bônus do dia de +100%.</li>
+      <li>Consumir pergaminhos em pesquisa nos dias sem pergaminho em vez de rodar pesquisa de heróis e soldados sem pergaminho.</li>
+      <li>Resgatar Missões do Falcão em dias de ponto simples.</li>
+      <li>Deixar o quadro de missões congelado no cheio em vez de mantê-lo uma vaga abaixo.</li>
+      <li>Ignorar a pausa de 1 dia após a Fase 6 e chegar no novo ciclo sem preparo.</li>
+    </ol>
+
+    <VideoSection topic="alliance_duel" lang={lang} />
+  </GuidePage>
+</Base>

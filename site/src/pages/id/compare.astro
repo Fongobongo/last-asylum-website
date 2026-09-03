@@ -1,0 +1,126 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'id';
+
+const comparisons = [
+  {
+    slug: 'marlena-vs-zoya',
+    title: 'Marlena vs Zoya — carry UR mana?',
+    verdict: 'Marlena dulu, Zoya nanti',
+    points: [
+      ['Ketersediaan', 'Hampir gratis (top-up $1), gratis di hari 66', 'Berbayar saja (10 fragmen untuk mulai)'],
+      ['Porsi damage', '~85% damage pasukan sendirian', 'Membagi ~50/50 dengan Marlena maksimal'],
+      ['Tipe damage', 'Campuran fisik/energi sesuai build', 'Pusaran energi — butuh support energi'],
+      ['Sinergi', 'Di-buff 4× di komposisi standar (ult Harper + Bell + pasif Claire)', 'Tidak menumpuk dengan Jester fisik'],
+      ['Vonis F2P', 'Carry utama seluruh jalur F2P', 'Hanya ganti Claire jika Zoya Anda bintang tinggi'],
+    ],
+    video: 'XktNJ6u4sWo',
+  },
+  {
+    slug: 'cynthia-vs-marlena-f2p',
+    title: 'Cynthia vs Marlena untuk F2P',
+    verdict: 'Bayar $1 — tetapi Cynthia bisa jika benar-benar tidak bisa',
+    points: [
+      ['Biaya', '~11.500 intan (roda hari-8)', 'Top-up $1'],
+      ['Kekuatan awal', 'Carry awal kuat (ranger UR)', 'Late bloomer — lemah sampai bintang tinggi'],
+      ['Akhir permainan', 'Kehilangan bonus faksi 5% + sinergi Harper/epigraph', 'Inti dari meta mono-Warrior'],
+      ['Timing roda', 'Harus simpan intan hari 1–8', 'Tanpa biaya intan'],
+      ['Vonis', 'Spike awal layak, meredup belakangan', 'Dianjurkan universal di atas Cynthia'],
+    ],
+  },
+  {
+    slug: 'annie-vs-joker',
+    title: 'Annie vs Joker — carry warlock mana?',
+    verdict: 'Annie untuk nilai, Joker untuk finishing PvP',
+    points: [
+      ['Peran', 'Carry berkelanjutan + nilai tim di 8★', 'Eksekutor — menargetkan musuh HP terendah'],
+      ['Akses F2P', 'Hero Pass (pilihan komunitas)', 'Wishing Wheel setelah hari 15'],
+      ['Sinergi', 'Berpasangan dengan support energi', 'Fisik — TIDAK berpasangan dengan Zoya'],
+      ['Terbaik saat', 'Pertarungan panjang, konten monster', 'Pembersihan PvP setelah Marlena melunakkan'],
+    ],
+    video: 'ekodq_Wh2_I',
+  },
+  {
+    slug: 'claire-vs-keep-ssr',
+    title: 'Claire SSR→UR — konversi sekarang atau tunggu?',
+    verdict: 'Selalu konversi — pertanyaannya adalah timing',
+    points: [
+      ['Damage personal', '9★ UR ≈ 1,70× SSR maksimal; 10★ ≈ 2,20×', '—'],
+      ['Buff tim', 'Turun 16% → 10% di 6★ (kerugian riil beberapa persen)', '—'],
+      ['Lewati penurunan', 'Simpan Hall of Honor: Lv.60→8★, Lv.100→9★, Lv.160→instan 10★', '—'],
+      ['PvP', 'Adv. Tenacity di 8★ = +20% ATK/HP/DEF +10% CDR', '—'],
+      ['Biaya', '1.600 shard SSR dengan harga 2× (6★→10★)', '—'],
+    ],
+    video: '-9Nysk8pcns',
+  },
+  {
+    slug: 'shadow-vs-lucius',
+    title: 'Shadow vs Lucius — tank kedua',
+    verdict: 'Lucius gratis sekarang; Shadow jika Anda membeli Hero Pass',
+    points: [
+      ['Biaya', 'Hero Pass (berbayar)', 'Shard gratis'],
+      ['Scaling', '8★/10★ jauh lebih baik daripada 6★', 'Placeholder stabil'],
+      ['Aturan', 'Jika dibeli: perlakukan sebagai hero SEMENTARA — maks 8★, skill 15–20', 'Bebas dimasukkan sambil membangun Daskal'],
+      ['Endgame', 'Daskal menggantikan keduanya', '—'],
+    ],
+  },
+];
+---
+
+<Base lang={lang} path="/compare/" title="Perbandingan Hero" description="Marlena vs Zoya, Annie vs Joker, timing konversi Claire — vonis berdampingan dari panduan komunitas.">
+  <GuidePage
+    title="⚖️ Perbandingan Hero"
+    description="Debat yang benar-benar dimiliki pemain — diselesaikan oleh panduan komunitas dengan angka pasti."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/id/' }, { label: 'Perbandingan' }]}
+  >
+    {comparisons.map((c) => (
+      <section class="not-prose mb-10">
+        <h2 id={c.slug} class="mb-1 text-2xl font-bold text-plague-200">{c.title}</h2>
+        <p class="mb-4 text-sm font-semibold text-toxic-400">✓ {c.verdict}</p>
+        <div class="overflow-x-auto rounded-lg border border-stone-800">
+          <table class="w-full text-sm">
+            {c.points.map((row) => (
+              <tr class="border-t border-stone-800 first:border-t-0">
+                <td class="w-40 bg-stone-900 p-3 font-semibold text-plague-300">{row[0]}</td>
+                <td class="p-3 text-stone-300">{row[1]}</td>
+                <td class="p-3 text-stone-400">{row[2]}</td>
+              </tr>
+            ))}
+          </table>
+        </div>
+        {c.video && (
+          <div class="js-video-facade mt-4 max-w-md cursor-pointer" data-video-id={c.video} role="button" tabindex="0" aria-label="Putar video perbandingan">
+            <span class="block aspect-video overflow-hidden rounded-lg border border-stone-800">
+              <img src={`https://i.ytimg.com/vi/${c.video}/hqdefault.jpg`} alt="Video perbandingan" loading="lazy" class="h-full w-full object-cover" />
+            </span>
+          </div>
+        )}
+      </section>
+    ))}
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>
+
+<script>
+  document.querySelectorAll('.js-video-facade').forEach((el) => {
+    el.addEventListener('click', () => {
+      const id = (el as HTMLElement).dataset.videoId;
+      if (!id) return;
+      const frame = document.createElement('iframe');
+      frame.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1`;
+      frame.title = 'Video';
+      frame.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      frame.allowFullscreen = true;
+      frame.className = 'aspect-video w-full max-w-md rounded-lg';
+      el.replaceWith(frame);
+    });
+  });
+</script>

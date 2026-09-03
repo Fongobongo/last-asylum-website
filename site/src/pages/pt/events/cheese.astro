@@ -1,0 +1,73 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'pt';
+---
+<Base lang={lang} path="/pt/events/cheese/" title="Cheese Trap: recompensas máximas" description="O rallye de aliança contra o rato gigante: recompensas pessoais de cinco fases, o pool de HP compartilhado da aliança, por que a ordem de entrada não importa e a matemática de escala por nível que decide qual rato lutar.">
+  <GuidePage title="Cheese Trap: recompensas máximas" description="O rallye de aliança contra o rato gigante: recompensas pessoais de cinco fases, o pool de HP compartilhado da aliança, por que a ordem de entrada não importa e a matemática de escala por nível que decide qual rato lutar." lang={lang}>
+    <p>Cheese Trap é um <strong>evento PvE de rallye de aliança</strong> contra um rato gigante. Seu dano pessoal rende recompensas pessoais em cinco fases, e o dano total da aliança rende recompensas de aliança separadas. Parece um evento de puro poder — na verdade é um evento de planejamento, e a diferença vale vários níveis de recompensa.</p>
+    <p>Este guia cobre as duas trilhas de recompensa, a regra do ponto de parada, a escala por nível e como ler os rankings antes de sua aliança se comprometer com um rato.</p>
+
+    <h2 id="how-it-works">Como funciona</h2>
+    <ul>
+      <li>Um <strong>R4 ou R5 define o início</strong>. Desse clique a aliança tem <strong>cerca de 1.5 hora para atacar</strong>.</li>
+      <li><strong>Cheese Trap I e II diferem só no tempo</strong> — mesmo rato, mesmas regras, janela diferente. Escolha a que couber na sua agenda.</li>
+      <li><strong>Você só pode lutar contra UM dos dois ratos.</strong> Não existe dividir tropas entre os dois.</li>
+      <li><strong>Participação offline funciona</strong> — entre no rallye com antecedência e seus esquadrões lutam mesmo que você saia. Configure sua marcha antes da janela abrir, e viva sua vida.</li>
+    </ul>
+
+    <h2 id="two-reward-tracks">As duas trilhas de recompensa</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Trilha</th><th>Baseada em</th><th>Recompensas</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Pessoal</td><td>Seu próprio dano</td><td>5 fases de recompensas crescentes</td></tr>
+        <tr><td>Aliança</td><td>Dano total da aliança</td><td>Níveis de recompensa para toda a aliança</td></tr>
+      </tbody>
+    </table>
+    <p>A interação entre as trilhas é a parte importante:</p>
+    <ul>
+      <li><strong>PARE após sua Fase 5 pessoal.</strong> Dano além desse ponto é perda pura de tropas — zero recompensas pessoais extras pelas tropas queimadas.</li>
+      <li><strong>Os dois ratos compartilham um pool de HP para as recompensas de aliança.</strong> Se um jogador alcança a Fase 5 num rato e outro para na Fase 3 no outro, o total da aliança conta como se todos tivessem batido a <strong>Fase 5</strong>. O pool — não a fase — é o que importa.</li>
+    </ul>
+
+    <h2 id="rally-mechanics">Mecânica do rallye: o que realmente importa</h2>
+    <ul>
+      <li><strong>Entrar num rallye de R4/R5 concede +2.5% de ataque.</strong> Entre no rallye em vez de marchar solo. Sempre.</li>
+      <li><strong>A força do iniciador e a ordem de entrada têm efeito ZERO no seu dano.</strong> Entrar primeiro não bate mais forte; entrar por último não suga. Pare de disputar posição — não muda nada.</li>
+      <li><strong>Cada tropa causa dano.</strong> O pool de HP do rato é enorme, e nenhum puxador de peso consegue "esgotá-lo" — uma marcha cheia de tropas baratas supera em dano meia marcha de caras. Traga corpos, não só elites.</li>
+    </ul>
+
+    <h2 id="level-scaling">Escala por nível: qual rato lutar</h2>
+    <p>A decisão de nível tem uma regra limpa:</p>
+    <blockquote>A Fase 4 do rato do nível seguinte é marginalmente melhor que a Fase 5 do nível anterior — e paga recompensas totais maiores.</blockquote>
+    <p>Na prática:</p>
+    <ul>
+      <li>Alianças estabelecidas rodam <strong>nível 7 ou 8</strong>.</li>
+      <li><strong>Perto de um dia de KvK, escolha nível 7</strong> — você quer tropas vivas para a <a href="/pt/events/kvk/">guerra</a>, e a recompensa marginal do nível 8 não vale as perdas extras.</li>
+    </ul>
+    <p>Antes de se comprometer, <strong>confira os rankings</strong>: conte os jogadores batendo Fase 5 no rato nível 6 contra os jogadores alcançando Fase 4+ no 7. Se mais do seu elenco passa P4 no 7 do que P5 no 6, o rato maior é a melhor escolha.</p>
+    <h3 id="rewards-table">Lendo a tabela de recompensas no jogo</h3>
+    <p>A tabela completa está no jogo: <strong>Evento especial &gt; aba Cheese Trap &gt; botão Presente &gt; Recompensas</strong>. Leia-a antes do rato abrir — a comparação fase a fase diz exatamente onde o ponto de parada do seu elenco cai.</p>
+
+    <h2 id="team-setup">Configuração do time</h2>
+    <p>Prioridades de esquadrão para uma longa luta de chefe:</p>
+    <ul>
+      <li><strong>Sobrevivência + DPS sustentado + sinergia.</strong> O rato é uma maratona, não um teste de rajada.</li>
+      <li><strong>Frontline tanque</strong> — heróis que aguentam a luta inteira.</li>
+      <li><strong>Backline forte</strong> — o motor de dano por trás da frontline.</li>
+      <li><strong>Suporte-curandeiro</strong> — mantém a frontline viva, o que mantém a backline segura, o que mantém o dano fluindo.</li>
+    </ul>
+    <p>Escolhas específicas de heróis e sinergias de facção estão na <a href="/pt/heroes/">guia de Heróis</a>.</p>
+
+    <h2 id="whale-carry">A opção do whale que carrega</h2>
+    <p>Se sua aliança tem um puxador de peso, existe um padrão eficiente de endgame: <strong>2-3 rallyes bastam para maximizar as recompensas de aliança</strong> quando o whale carrega o dano. Todo mundo entra no rallye pelos +2.5%, solta as tropas, e para na própria Fase 5. O dano do whale enche o pool compartilhado; o nível da aliança enche; ninguém queima tropas além do próprio ponto de parada.</p>
+
+    <VideoSection topic="cheese" lang={lang} />
+  </GuidePage>
+</Base>

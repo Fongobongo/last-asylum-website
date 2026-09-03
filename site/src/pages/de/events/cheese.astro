@@ -1,0 +1,73 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+<Base lang={lang} path="/de/events/cheese/" title="Cheese Trap: Maximale Belohnungen" description="Die Allianz-Rallye gegen die Riesenratte: persönliche Fünf-Phasen-Belohnungen, der gemeinsame Allianz-HP-Pool, warum die Beitreitts-Reihenfolge nichts zählt, und die Stufen-Skalierungs-Mathematik, die entscheidet, gegen welche Ratte gekämpft wird.">
+  <GuidePage title="Cheese Trap: Maximale Belohnungen" description="Die Allianz-Rallye gegen die Riesenratte: persönliche Fünf-Phasen-Belohnungen, der gemeinsame Allianz-HP-Pool, warum die Beitreitts-Reihenfolge nichts zählt, und die Stufen-Skalierungs-Mathematik, die entscheidet, gegen welche Ratte gekämpft wird." lang={lang}>
+    <p>Cheese Trap ist ein <strong>Allianz-PvE-Rallye-Event</strong> gegen eine Riesenratte. Dein persönlicher Schaden bringt persönliche Belohnungen über fünf Phasen, und der Gesamtschaden der Allianz bringt separate Allianz-Belohnungen. Es sieht wie ein reines Macht-Event aus — es ist tatsächlich ein Planungs-Event, und der Unterschied ist mehrere Belohnungs-Stufen wert.</p>
+    <p>Dieser Guide deckt die zwei Belohnungs-Spuren, die Stopp-Punkt-Regel, Stufen-Skalierung und das Lesen der Rankings ab, bevor deine Allianz sich auf eine Ratte festlegt.</p>
+
+    <h2 id="how-it-works">Wie es funktioniert</h2>
+    <ul>
+      <li>Ein <strong>R4 oder R5 setzt den Start</strong>. Ab diesem Klick hat die Allianz <strong>etwa 1,5 Stunden zum Angreifen</strong>.</li>
+      <li><strong>Cheese Trap I und II unterscheiden sich nur in der Zeit</strong> — dieselbe Ratte, dieselben Regeln, anderes Fenster. Wähle, was in deinen Zeitplan passt.</li>
+      <li><strong>Du kannst nur gegen EINE der beiden Ratten kämpfen.</strong> Es gibt kein Aufteilen deiner Truppen über beide.</li>
+      <li><strong>Offline-Teilnahme funktioniert</strong> — tritt der Rallye vorher bei, und deine Trupps kämpfen selbst, wenn du ausloggst. Stell deinen Marsch ein, bevor das Fenster öffnet, und leb dann dein Leben.</li>
+    </ul>
+
+    <h2 id="two-reward-tracks">Die zwei Belohnungs-Spuren</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Spur</th><th>Basiert auf</th><th>Belohnungen</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Persönlich</td><td>Dein eigener Schaden</td><td>5 Phasen steigender Belohnungen</td></tr>
+        <tr><td>Allianz</td><td>Gesamtschaden der Allianz</td><td>Allianzweite Belohnungs-Stufen</td></tr>
+      </tbody>
+    </table>
+    <p>Die Interaktion zwischen den Spuren ist der wichtige Teil:</p>
+    <ul>
+      <li><strong>STOPP nach deiner persönlichen Phase 5.</strong> Schaden darüber hinaus ist reiner Truppenverlust — null zusätzliche persönliche Belohnungen für die verbrannten Truppen.</li>
+      <li><strong>Beide Ratten teilen einen HP-Pool für die Allianz-Belohnungen.</strong> Wenn ein Spieler Phase 5 auf einer Ratte erreicht und ein anderer bei Phase 3 auf der anderen stoppt, zählt das Allianz-Gesamt, als hätte jeder <strong>Phase 5</strong> erreicht. Der Pool — nicht die Phase — ist das, was zählt.</li>
+    </ul>
+
+    <h2 id="rally-mechanics">Rallye-Mechaniken: was wirklich zählt</h2>
+    <ul>
+      <li><strong>Beitritt zu einer R4/R5-Rallye gewährt +2,5% Angriff.</strong> Tritt der Rallye bei, statt solo zu marschieren. Jedes Mal.</li>
+      <li><strong>Die Stärke des Initiators und die Beitreitts-Reihenfolge haben NULL Effekt auf deinen Schaden.</strong> Wer zuerst beitritt, schlägt nicht härter; wer zuletzt beitritt, leecht nicht. Hör auf, um Positionen zu kämpfen — es ändert nichts.</li>
+      <li><strong>Jede Truppe verursacht Schaden.</strong> Der HP-Pool der Ratte ist riesig, und kein einzelner Heavy kann ihn „aufbrauchen“ — ein voller Marsch billiger Truppen übertrifft einen halben Marsch teurer an Schaden. Bring Körper mit, nicht nur Eliten.</li>
+    </ul>
+
+    <h2 id="level-scaling">Stufen-Skalierung: gegen welche Ratte kämpfen</h2>
+    <p>Die Stufen-Entscheidung hat eine saubere Regel:</p>
+    <blockquote>Phase 4 der Ratte der nächsten Stufe ist marginal besser als Phase 5 der vorherigen Stufe — und zahlt bessere Gesamt-Belohnungen.</blockquote>
+    <p>In der Praxis:</p>
+    <ul>
+      <li>Etablierte Allianzen fahren <strong>Stufe 7 oder 8</strong>.</li>
+      <li><strong>Kurz vor einem KvK-Tag: wähle Stufe 7</strong> — du willst lebende Truppen für den <a href="/de/events/kvk/">Krieg</a>, und die Grenz-Belohnung von Stufe 8 ist die Extra-Verluste nicht wert.</li>
+    </ul>
+    <p>Bevor du dich festlegst, <strong>prüfe die Rankings</strong>: zähle die Spieler, die Phase 5 auf der Stufe-6-Ratte erreichen, gegen die Spieler, die Phase 4+ auf Stufe 7 erreichen. Wenn mehr von deinem Kader P4 auf 7 schafft als P5 auf 6, ist die höhere Ratte die bessere Wahl.</p>
+    <h3 id="rewards-table">Die Ingame-Belohnungstabelle lesen</h3>
+    <p>Die komplette Belohnungstabelle steht im Spiel: <strong>Spezial-Event &gt; Cheese-Trap-Tab &gt; Geschenk-Button &gt; Belohnungen</strong>. Lies sie, bevor die Ratte öffnet — der Phasen-Vergleich sagt dir exakt, wo der Stopp-Punkt deines Kaders landet.</p>
+
+    <h2 id="team-setup">Team-Setup</h2>
+    <p>Trupp-Prioritäten für einen langen Boss-Kampf:</p>
+    <ul>
+      <li><strong>Überleben + anhaltender DPS + Synergie.</strong> Die Ratte ist ein Marathon, kein Burst-Check.</li>
+      <li><strong>Tanky Frontlinie</strong> — Helden, die den ganzen Kampf über stehen.</li>
+      <li><strong>Starke Rücklinie</strong> — die Schadens-Maschine hinter der Front.</li>
+      <li><strong>Unterstützer-Heiler</strong> — hält die Frontlinie am Leben, was die Rücklinie sicher hält, was den Schaden fließen lässt.</li>
+    </ul>
+    <p>Spezifische Helden-Picks und Fraktions-Synergien stehen im <a href="/de/heroes/">Helden-Guide</a>.</p>
+
+    <h2 id="whale-carry">Die Whale-Carry-Option</h2>
+    <p>Wenn deine Allianz einen Heavy Hat, gibt es ein effizientes Endgame-Muster: <strong>2-3 Rallyes reichen, um Allianz-Belohnungen zu maxen</strong>, wenn der Whale den Schaden trägt. Alle anderen treten der Rallye für die +2,5% bei, werfen ihre Truppen rein und stoppen bei ihrer persönlichen Phase 5. Der Schaden des Whales füllt den geteilten Pool; die Allianz-Stufe füllt sich; niemand verbrennt Truppen über den eigenen Stopp-Punkt hinaus.</p>
+
+    <VideoSection topic="cheese" lang={lang} />
+  </GuidePage>
+</Base>

@@ -1,0 +1,111 @@
+﻿---
+import Base from '../layouts/Base.astro';
+import GuidePage from '../components/GuidePage.astro';
+import VideoSection from '../components/VideoSection.astro';
+import { t } from '../i18n/ui';
+import type { Lang } from '../i18n/utils';
+
+const lang: Lang = 'en';
+---
+<Base lang={lang} path="/raven/" title="Raven &amp; Epigraph System" description="Raven levels and plans, gear strategy, epigraph rarities and promotion order, and the mono-faction rules that decide which epigraphs are worth upgrading at all.">
+  <GuidePage title="Raven &amp; Epigraph System" description="Raven levels and plans, gear strategy, epigraph rarities and promotion order, and the mono-faction rules that decide which epigraphs are worth upgrading at all." lang={lang}>
+    <p>The Raven is the system that quietly separates accounts: it works like an extra hero for all your squads at once, and its epigraphs are where the mono-faction meta is actually enforced. The Raven is also the system most players neglect — a Raven stuck at level 1 is a classic mistake.</p>
+    <p>This page covers Raven levels and plans, gear strategy, epigraph rarities and the promotion order, and the rules that decide which epigraphs deserve materials.</p>
+
+    <h2 id="what-raven-is">What the Raven Is</h2>
+    <p>The Raven is an extra hero for all your squads — its buffs apply everywhere at once, not just to one formation. Two consequences follow:</p>
+    <ul>
+      <li>Every point of Raven investment improves every march you field, which makes it one of the highest-value systems in the game.</li>
+      <li>Crow Essence, its food, is the bottleneck on the entire system. Farm it early and never stop — the VIP shop and Sanctuary shop both sell it for exactly this reason.</li>
+    </ul>
+    <p>The long-term goal is <strong>Raven level 110</strong>, where the final skill lands: +50% AOE damage to affected targets. That is the endgame of the system, and Crow Essence is what stands between you and it.</p>
+
+    <h2 id="raven-levels">Raven Levels and Plans</h2>
+    <p>Raven levels unlock the epigraph slots (called Plans) one at a time:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Raven level</th><th>Unlock</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>10</td><td>Epigraphs + Plan 1 (first slot)</td></tr>
+        <tr><td>150</td><td>Plan 2 (+1 system bonus)</td></tr>
+        <tr><td>300</td><td>Plan 3 (+2)</td></tr>
+        <tr><td>450</td><td>Plan 4 (+3)</td></tr>
+        <tr><td>600</td><td>Plan 5 (+4)</td></tr>
+      </tbody>
+    </table>
+    <p>Read the table as the Raven&apos;s true progression path: level 10 opens the whole epigraph system, and every 150 levels after that adds another slot to fill. Because each Plan slot carries its own epigraph buff, a stalled Raven level caps how many of those buffs you can even equip.</p>
+
+    <h2 id="raven-gear">Raven Gear Strategy</h2>
+    <p>Push Raven gear to level 8 — that is where the percentage buffs arrive, and percentage buffs are what make the gear worth wearing.</p>
+    <p>Side strategy, left versus right:</p>
+    <ul>
+      <li><strong>Left side</strong> — HP and crit-damage-reduction. Easier to acquire, defensive value.</li>
+      <li><strong>Right side</strong> — ATK and crit-damage. The best offensive value in the system.</li>
+    </ul>
+    <p>And one calendar rule: <strong>save your gear chests for Alliance Duel days.</strong> Opening them then earns Alliance Duel points — the same double-dip logic that governs speedups in the <a href="/economy/">Economy guide</a>.</p>
+
+    <h2 id="epigraph-basics">Epigraphs: The Core Rules</h2>
+    <p>Epigraphs slot into the Raven&apos;s Plans and buff the heroes of a faction. The rarities behave differently, and the differences drive every upgrade decision:</p>
+    <ul>
+      <li><strong>UR (gold)</strong> — buffs ONE faction only. The end goal, and the reason mono-faction squads are the meta.</li>
+    </ul>
+    <ul>
+      <li><strong>SR (blue) and R (green)</strong> — buff ALL factions, but cannot be promoted. They are the everyone-gets-a-cut tier, useful while you build toward UR.</li>
+    </ul>
+    <p>The single most important rule: <strong>only upgrade epigraphs of your main squad&apos;s faction.</strong> A UR epigraph that buffs a faction you do not field is worth nothing to you — and in the mono-faction meta, off-faction materials are exactly what the feed stock is for (see Quick Add below).</p>
+
+    <h3 id="early-epigraphs">The Early Meta Epigraphs</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Epigraph</th><th>Slot type</th><th>Effect</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Frenzy Flock</td><td>Attack</td><td>ATK buff to Warrior allies after the Raven skill fires, plus more Raven targets.</td></tr>
+        <tr><td>Reversal Power</td><td>Support</td><td>Damage for the 3 highest-ATK Warrior allies, and reduces enemy ultimate damage.</td></tr>
+        <tr><td>Protective Charm</td><td>—</td><td>Survivability pick — the standard third choice when your squad keeps dying instead of losing on damage.</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="epigraph-workshop">The Epigraph Workshop</h2>
+    <p>Crafting UR epigraphs requires <strong>Workshop level 20</strong>. Everything below that is building toward it.</p>
+    <p>The rarity ladder, and what each color is actually for:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Color</th><th>Role</th><th>Notes</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Green</td><td>Material</td><td>The feedstock tier.</td></tr>
+        <tr><td>Blue</td><td>Improved material</td><td>An SR blue with 2 stars performs roughly like an SSR purple — use blues until you outgrow them.</td></tr>
+        <tr><td>Purple</td><td>Transition tier</td><td>Good enough to fight with while your URs grow.</td></tr>
+        <tr><td>Gold (UR)</td><td>End goal</td><td>The target of the entire system.</td></tr>
+      </tbody>
+    </table>
+    <p>One absolute rule: <strong>never recycle a golden epigraph unless you are certain.</strong> UR epigraphs are the scarcest permanent asset in the game — a recycled UR is not coming back.</p>
+
+    <h2 id="promotion-order">Epigraph Promotion Order</h2>
+    <p>Follow this order (from DrAction), promoting one slot at a time:</p>
+    <ol>
+      <li>Mid — Defense slot (damage reduction).</li>
+      <li>Top — Attack slot (Raven Target).</li>
+      <li>Right — Support slot (damage reduction).</li>
+      <li>Left — Initiative slot (Defense% buff).</li>
+    </ol>
+    <p>For Warrior sword epigraphs specifically, the community variant: Support (right) UR first, then Attack (top), then Initiative or Defense.</p>
+
+    <h2 id="rarity-comparisons">Rarity Comparisons That Surprise People</h2>
+    <p>Star level can beat rarity in the damage slot. These are the verified comparisons players argue about most:</p>
+    <ul>
+      <li>A purple at 4 stars can outdamage a yellow (UR) at 0 stars in the attack slot — the community shorthand is purple DMG all the way.</li>
+      <li>A shield UR at 0 stars is better than an SSR at 5 stars.</li>
+      <li>Purple outperforms UR against King Blight until the UR reaches 3 stars or better.</li>
+    </ul>
+    <p>The takeaway is not that purple is secretly the best tier — it is that a high-star epigraph of the right type beats a fresh UR of the wrong one. Star your epigraphs before you chase their rarity ceiling.</p>
+
+    <h2 id="ssr-vs-ur">SSR, UR, and What Actually Upgrades</h2>
+    <p>A common misunderstanding worth killing early: you <strong>cannot upgrade an SSR epigraph into a UR</strong>. What you upgrade is the Plan — the slot the epigraph sits in. SSR epigraphs are placeholders in that progression, not embryos.</p>
+    <p>Which leads to the most common Raven mistake in the game: players hoard non-main-faction epigraphs instead of feeding them to the Raven via <strong>Quick Add</strong> — and then wonder why their Raven is stuck at level 1. Off-faction and low-rarity epigraphs are Raven food. Quick Add them; that is what they are for.</p>
+
+    <VideoSection topic="raven" lang={lang} />
+  </GuidePage>
+</Base>

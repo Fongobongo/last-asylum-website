@@ -1,0 +1,75 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'fr';
+---
+<Base lang={lang} path="/fr/events/kvk/" title="Guerre des Royaumes (KvK) : survie et score" description="Guerre serveur contre serveur pour la Cité Royale : le calendrier bimensuel, la stratégie tours-d&apos;abord pour les attaquants, les tactiques d&apos;usure pour les défenseurs, le risque sur troupes et ressources, et le chevauchement de score avec le Duel d&apos;Alliances.">
+  <GuidePage title="Guerre des Royaumes (KvK) : survie et score" description="Guerre serveur contre serveur pour la Cité Royale : le calendrier bimensuel, la stratégie tours-d&apos;abord pour les attaquants, les tactiques d&apos;usure pour les défenseurs, le risque sur troupes et ressources, et le chevauchement de score avec le Duel d&apos;Alliances." lang={lang}>
+    <p>La Guerre des Royaumes est la <strong>guerre serveur contre serveur</strong> du jeu : deux royaumes envahissent une carte partagée et se battent pour la <strong>Cité Royale</strong>. Elle tourne <strong>toutes les deux semaines</strong>, avec le score et les tâches de préparation pendant la semaine et la bataille principale condensée dans une seule fenêtre. Gagnez en contrôlant la Cité Royale quand la poussière retombe.</p>
+    <p>Ce guide couvre le calendrier, la stratégie d&apos;attaquant et de défenseur, les règles universelles, les erreurs qui perdent les guerres, et les règles économiques qui gardent votre compte en vie.</p>
+
+    <h2 id="schedule">Le calendrier bimensuel</h2>
+    <ul>
+      <li><strong>La préparation et le score tournent toute la semaine</strong> — les tâches quotidiennes et catégories de points construisent la position de votre royaume avant qu&apos;un seul mur ne soit disputé.</li>
+      <li><strong>La bataille principale est le samedi dès le reset</strong>, dans une <strong>fenêtre de 4 heures</strong>. Cette fenêtre est toute la guerre — tout ce qui précède est du positionnement.</li>
+      <li><strong>Condition de victoire : contrôler la Cité Royale.</strong> Pas le plus de kills, pas le plus de points — qui tient la ville à la fin.</li>
+    </ul>
+    <blockquote>Les alliances gagnantes ne sont pas toujours les plus fortes — ce sont les plus organisées.</blockquote>
+
+    <h2 id="attacker-playbook">Manuel de l&apos;attaquant</h2>
+    <p>Si votre royaume attaque, l&apos;instinct est de foncer sur la Cité Royale. Cet instinct perd des guerres.</p>
+    <ul>
+      <li><strong>Ne foncez pas sur la ville d&apos;abord.</strong> Un push direct dans la ville se heurte à une défense concentrée et aux tours — ça saigne vos escouades les plus fortes dans les premières minutes.</li>
+      <li><strong>Prenez les tours d&apos;abord, puis poussez.</strong> Chaque tour tombée élargit votre zone sûre et arrache le contrôle de carte des défenseurs avant même que le combat pour la ville commence.</li>
+      <li><strong>Restez en rallyes.</strong> Les rallyes sont plus sûrs et plus forts que les marches solo — PV concentrés, bonus concentrés, et une marche que les défenseurs doivent réellement respecter. Le héros solitaire est la victime solitaire.</li>
+    </ul>
+
+    <h2 id="defender-playbook">Manuel du défenseur</h2>
+    <p>Les défenseurs n&apos;essaient pas de gagner un combat. Les défenseurs essaient de <strong>faire tourner une horloge</strong>.</p>
+    <ul>
+      <li><strong>Vous avez besoin de temps, pas de kills.</strong> Chaque minute que les attaquants passent à moudre votre défense est une minute où ils ne tiennent pas la ville. Usurer, c&apos;est gagner.</li>
+      <li><strong>Renforcez constamment.</strong> Nourrissez des escouades fraîches dans les points disputés aussi vite qu&apos;elles meurent. Un point qui ne cesse jamais d&apos;être défendu dévore toute la fenêtre ennemie.</li>
+      <li><strong>Rottez.</strong> Ne garez pas tout sur une seule voie — déplacez les escouades là où la pression est réelle, et forcez les attaquants à se battre pour chaque centimètre de terrain.</li>
+    </ul>
+
+    <h2 id="universal-rules">Règles universelles</h2>
+    <p>Quel que soit votre camp, les mêmes règles s&apos;appliquent :</p>
+    <ol>
+      <li><strong>Tours d&apos;abord = contrôle de carte.</strong> La ligne de tours décide qui se déplace en sécurité. C&apos;est le premier objectif de la guerre, à chaque fois.</li>
+      <li><strong>Jamais en solo.</strong> Les pushes solos, c&apos;est ainsi que les comptes se font effacer. Marchez en rallyes ou pas du tout.</li>
+      <li><strong>Renforcez constamment.</strong> Une défense qui cesse de recevoir des renforts tombe en une vague.</li>
+      <li><strong>Restez en ligne pendant tout le combat.</strong> La fenêtre de 4 heures punit quiconque se déconnecte en pleine guerre — vos escouades restent exactement là où vous les avez laissées, sans défense.</li>
+    </ol>
+
+    <h2 id="losing-mistakes">Les erreurs qui perdent les guerres</h2>
+    <ul>
+      <li><strong>Pushes solos</strong> — anéantissements instantanés qui offrent des kills gratuits à l&apos;ennemi et laissent votre alliance une escouade en moins.</li>
+      <li><strong>Ignorer les tours</strong> — attaquer la ville à travers des lignes de tours intactes, c&apos;est faire don de troupes.</li>
+      <li><strong>Aucun renfort</strong> — une défense qui cesse de tourner tombe, puis le point suivant tombe, puis la ville tombe.</li>
+      <li><strong>Se déconnecter en pleine guerre</strong> — la fenêtre de 4 heures ne se met pas en pause pour votre planning.</li>
+    </ul>
+
+    <h2 id="economy-rules">Économie du KvK : troupes, ressources et boucliers</h2>
+    <p>La Guerre des Royaumes est l&apos;un des rares événements avec un vrai risque de compte :</p>
+    <ul>
+      <li><strong>Vous POUVEZ perdre des troupes et des ressources en étant attaqué</strong> — ce n&apos;est pas un événement sans risque comme la <a href="/fr/events/canyon/">Conquête du Canyon</a>.</li>
+      <li><strong>Bouclier levé</strong> pendant la fenêtre de guerre. Une ville sans bouclier pendant le KvK est une piñata à ressources pour le serveur ennemi.</li>
+      <li><strong>Les pertes suivent votre mur et vos recherches</strong> — un mur maximisé et une recherche défensive, c&apos;est ce qui transforme un massacre en escarmouche.</li>
+      <li><strong>Gardez les améliorations et accélérations pour les jours de score</strong> — la même logique de double valeur qui régit le <a href="/fr/events/alliance-duel/">Duel d&apos;Alliances</a> s&apos;applique aux tâches de score du KvK. Dépenser une grosse amélioration un jour neutre rapporte la moitié.</li>
+    </ul>
+
+    <h2 id="scoring-overlap">Chevauchement de score avec le Duel d&apos;Alliances</h2>
+    <p>Le KvK et le Duel d&apos;Alliances partagent des sources de score, et le consensus communautaire est de l&apos;exploiter chaque jour :</p>
+    <ul>
+      <li><strong>Les Opérations Secrètes et Caravanes marquent pour les DEUX événements.</strong> Les mêmes actions nourrissent votre total de duel et votre total de KvK à la fois.</li>
+      <li>Cela rend les caravanes une évidence quotidienne — courez-les chaque jour d&apos;une semaine de duel. La route complète des caravanes et du pillage est dans le <a href="/fr/events/wagon/">guide Guild Wagon et Caravanes</a>.</li>
+    </ul>
+    <p>Le reste de l&apos;économie de guerre — quoi garder, quand dépenser, quels achats de boutique financent la guerre — est couvert dans le <a href="/fr/economy/">guide de l&apos;Économie</a>.</p>
+
+    <VideoSection topic="kvk" lang={lang} />
+  </GuidePage>
+</Base>

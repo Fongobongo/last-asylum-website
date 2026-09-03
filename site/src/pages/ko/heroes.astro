@@ -1,0 +1,111 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ko';
+---
+<Base lang={lang} path="/ko/heroes/" title="영웅 가이드: 부대, F2P 코스, 스킬" description="정석 F2P 부대와 전체 타임라인, Warrior/Ranger/Warlock 진영 타이밍, 스킬 업그레이드 우선순위, 별 브레이크포인트, 부흥시대의 각성 영웅 순서.">
+  <GuidePage title="영웅 가이드: 부대, F2P 코스, 스킬" description="정석 F2P 부대와 전체 타임라인, Warrior/Ranger/Warlock 진영 타이밍, 스킬 업그레이드 우선순위, 별 브레이크포인트, 부흥시대의 각성 영웅 순서." lang={lang}>
+    <p>영웅은 Last Asylum: Plague에서 가장 큰 전력 배수기입니다 — 그리고 잘못 키우면 고치는 데 가장 비싼 것이기도 합니다. 샤드와 스킬 배지 경제는 분산 투자를 벌하기 때문에, 커뮤니티는 하나의 정석 무과금 코스와 그 주변의 엄격한 작업 순서로 수렴했습니다.</p>
+    <p>이 페이지는: 게임의 각 단계에서 어떤 진영을 탈지, 일별 타임라인이 있는 정석 F2P 부대, 배지당 피해량 분석으로 검증된 스킬 우선순위, 별 브레이크포인트, 그리고 부흥시대 시즌의 각성 영웅 진행 순서를 다룹니다.</p>
+
+    <h2 id="faction-timing">진영 타이밍: 초반 Warrior, 중반 Ranger, 후반 Warlock</h2>
+    <p>세 진영은 게임의 같은 단계에서 동등하지 않습니다. 각각이 언제 정점을 찍는지에 대한 커뮤니티 합의:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>진영</th><th>정점 시기</th><th>이유</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Warrior</td><td>초반</td><td>무료 Arthur에 무료 Harper 샤드, 그리고 66일차 $1 Marlena 충전. 게임이 거의 공짜로 Warrior 코어를 줍니다.</td></tr>
+        <tr><td>Ranger</td><td>중반</td><td>Ranger는 Warrior를 상대합니다 — Ranger 편성은 그들에게 받는 피해가 20% 감소합니다. 투자하면 미드게임 Ranger 부대는 조우하는 것의 약 98%를 이깁니다.</td></tr>
+        <tr><td>Warlock</td><td>후반</td><td>가장 강한 상한이지만 오직 대규모 투자로만 — 그곳에 도달하려면 Warrior 부스트를 극복해야 합니다. 지갑을 열거나 인내하세요.</td></tr>
+      </tbody>
+    </table>
+    <p>새 계정에서 이것은 흔한 딜레마를 해결합니다: Ranger 라인업이 부러워도 무료로 받은 Warrior 코어를 키우세요. 경제가 실제로 감당할 수 있을 때 Ranger로 전환할 수 있습니다.</p>
+
+    <h2 id="f2p-squad">정석 F2P 부대</h2>
+    <p>계정의 첫 몇 달에 걸쳐 조립되는 커뮤니티 표준 무과금 빌드:</p>
+    <p><strong>Arthur, Daskal, Marlena, Harper, Claire</strong></p>
+    <p>이것이 표준이 된 세 가지 이유: 모든 영웅이 무료이거나 거의 무료이고, 조각들이 최고의 부대가 항상 성장할 것을 주는 순서로 도착하고, 후반 메타가 보상하는 Warrior 단일 진영 보너스를 향해 쌓입니다.</p>
+
+    <h3 id="f2p-timeline">F2P 타임라인</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>시기</th><th>행동</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1-2일차</td><td>Arthur가 무료로 도착해 탱커가 됩니다. 남은 자리는 무료 Bella, Claire, Celia 샤드로 채우세요.</td></tr>
+        <tr><td>초반</td><td>Claire과 Arthur에만 투자하세요. 다른 모든 이는 자리 채움꾼으로 남습니다 — Bella와 Celia 포함.</td></tr>
+        <tr><td>진행 중</td><td>Harper를 8성으로 만드는 것은 표준 빌드에 필수입니다. 꾸준히 먹이세요; 6성에 방치하지 마세요.</td></tr>
+        <tr><td>66일차</td><td>$1 Marlena 충전. UR 샤드를 아껴서 즉시 8성으로 올리고 — 그다음 10성을 향해 계속 밀어주세요.</td></tr>
+        <tr><td>120일차 이후 (부흥시대)</td><td>Daskal이 게임 최고의 탱커로 합류합니다. Claire은 부흥시대 8일차 전환으로 UR이 됩니다 — 그녀의 샤드는 초반에 무료였고, 그래서 쓰지 않고 아궜던 것입니다.</td></tr>
+      </tbody>
+    </table>
+    <p>빌드를 좌우하는 두 가지 규율: 초반에는 Claire과 Arthur만 — 그리고 부흥시대 전환 전에 아낀 Claire 샤드를 절대 먹지 마세요, UR 전환이 바로 그 샤드를 위해 아궜던 이유입니다.</p>
+
+    <h2 id="alternatives">대안과 변형</h2>
+    <p>정석 5인이 유일하게 통하는 길은 아닙니다 — 이것들은 인정된 대체재와 지역 변형입니다.</p>
+    <h3 id="no-marlena">$1 Marlena 없이: 대신 Cynthia</h3>
+    <p>1달러를 건너뛰었나요? 8일차 소원의 바퀴의 Cynthia이 대체재입니다 — 진짜 캐리를 할 초반 캐리 UR. 트레이드오프는 후반에 옵니다: 단일 진영 스택을 깨뜨려 5% 진영 보너스를 잃고, 표준 코어가 세워진 Harper와 에피그라프 시너지를 잃습니다. 통하지만, 최상위에서 빠진 연결고리를 느낄 것입니다.</p>
+    <h3 id="f2p-pvp-variant">F2P PvP 변형</h3>
+    <p>조용히 성장하기보다 플레이어와 싸우고 싶은 계정: <strong>Arthur, Lucius 또는 Bella, Claire, Marlena, Cynthia</strong>. 진영 보너스의 일부를 마무리타로서 Cynthia의 PvP 타격력과 바꿉니다.</p>
+    <h3 id="russian-variant">러시아 커뮤니티 빌드</h3>
+    <p>러시아 F2P 커뮤니티는 다음을 사용합니다: 전열 — Arthur와 Lucius (이 페어링의 별명은 절대 방패); 후열 — Claire, Kesso, Celia. Sivir가 초반 몇 달을 커버하고, Harper가 장기 프로젝트입니다. 서양 빌드와 같은 논리, 같은 판의 다른 말들.</p>
+
+    <h2 id="mono-faction-meta">단일 진영 메타</h2>
+    <p>Raven 에피그라프가 출시된 이후, 단일 진영 운영은 좋은 보너스에서 지배적 전략으로 바뀌었습니다. 이유는: UR 에피그라프는 단 하나의 진영만 버프하므로, 쌓인 부대는 모든 것을 곱합니다 — <a href="/ko/beginners/">진영 표</a>의 5영웅 +20% 보너스, UR 에피그라프 버프, Harper 같은 진영 특정 시너지까지.</p>
+    <p>이것이 정석 부대가 전원 Warrior인 이유이기도 합니다: 에피그라프 투자는 이미 쌓인 진영 위에 복리로 쌓입니다. 분열 진영 부대는 절반만 버프하는 에피그라프 값을 지불합니다.</p>
+    <p>과금자에게는 실용적인 예외가 있습니다: 임시 영웅. Shadow와 Cynthia은 스킬 15-20에 8성으로 완성된 뒤 이벤트와 PvP 전문가로 활동합니다 — 의미가 있을 만큼 투자하되, 메인 부대 예산을 잡아먹을 만큼은 절대 하지 않습니다.</p>
+
+    <h2 id="skill-priorities">스킬 업그레이드 우선순위</h2>
+    <p>스킬은 배지를 잡아먹고, 배지는 부족합니다. 아래 순서는 커뮤니티 배지당 피해량 분석으로 검증되었습니다 — 감이 아니라 측정입니다.</p>
+    <h3 id="marlena-skills">Marlena: 딜이 사는 곳</h3>
+    <p>Marlena은 Zoya가 올 때까지 <strong>부대 딜의 약 85%</strong>, 그 후에는 그녀와 50/50입니다. 배지가 가장 먼저 가는 곳입니다.</p>
+    <p>하지만 그녀의 키트에는 함정이 하나 있습니다: Marlena의 기본 공격을 초반에 30까지 만들지 마세요. 검증된 순서:</p>
+    <ol>
+      <li>궁극기 먼저 — 항상.</li>
+      <li>액티브 스킬 두 번째.</li>
+      <li>기본 공격 마지막, 그리고 다른 스킬이 끝나기 전까지는 낮은 수준으로만.</li>
+    </ol>
+    <h3 id="claire-skills">Claire: 패시브가 핵심</h3>
+    <p>Claire의 핵심 스킬은 패시브입니다 — 부대 전체 피해 증폭기. 검증된 계획: 모든 스킬을 약 15까지, 패시브를 20까지, 그리고 Zoya가 와서 우선순위를 재조정할 때까지 유지하세요.</p>
+
+    <h2 id="star-breakpoints">별 브레이크포인트와 강인함</h2>
+    <p>별은 영웅 전력의 가장 큰 단일 배수기입니다. 중요한 전력 점프는 <strong>4성</strong> 이후에 옵니다 — 그 전의 영웅은 자리 데우기이고, 그 후의 같은 영웅은 전투를 이기기 시작합니다. 커뮤니티의 모든 메인 부대 영웅에 대한 첫 별 목표가 4를 통과하는 것이지, 모두를 고르게 평범하게 만들기 위해 샤드를 흩뿌리는 것이 아닌 이유입니다.</p>
+    <p>UR 영웅에게는 두 번째 주요 브레이크포인트가 있습니다: 30레벨과 8성에서 <strong>강인함(Tenacity)</strong>을 해금합니다. 대규모 생존 점프이며 UR 영웅의 표준 안식점이 8성인 이유입니다 — Marlena의 66일차 즉시 8성은 이것을 중심으로 설계되었습니다.</p>
+
+    <h2 id="awakened-order">각성 영웅: 부흥시대 진행 순서</h2>
+    <p>부흥시대 시즌에서 각성 영웅 진행은 하나의 고정 순서를 따릅니다. 메인 영웅에 대해 다음을 시작하기 전에 각 단계를 완료하세요:</p>
+    <ol>
+      <li>메인 영웅을 10성으로.</li>
+      <li>각성.</li>
+      <li>전용 무기.</li>
+      <li>영주 진화.</li>
+      <li>영주 저항.</li>
+      <li>부흥시대 강화 — 메인 스킨 하나만.</li>
+      <li>그다음에야: 두 번째 영웅을 같은 사다리로 시작하세요.</li>
+    </ol>
+    <p>모든 것을 묶는 규칙: <strong>각성 재료를 절대 분할하지 마세요</strong>. 한 영웅을 완전히 각성하는 것이 두 영웅을 반쯤 각성하는 것보다 낫습니다 — 반쯤 완성된 여러 행군보다 하나의 강한 행군이 낫습니다. 각 단계의 부흥시대별 맥락은 <a href="/ko/era/">부흥시대 가이드</a>에 있습니다.</p>
+
+    <h2 id="might-formula">전력 공식</h2>
+    <p>계정을 비교할 때, 전력은 다섯 개의 개별 스택의 합입니다:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>구성 요소</th><th>출처</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>영웅 전력</td><td>영웅의 레벨, 별, 스킬, 장비.</td></tr>
+        <tr><td>Raven 전력</td><td>Raven 레벨, 장비, 에피그라프 — <a href="/ko/raven/">Raven 가이드</a> 참고.</td></tr>
+        <tr><td>병사 전력</td><td>부대 티어와 군대 규모.</td></tr>
+        <tr><td>테크 보너스</td><td>연구소 트리.</td></tr>
+        <tr><td>건물 보너스</td><td>도시 건물 — 전사상 등.</td></tr>
+      </tbody>
+    </table>
+    <p>구분을 진단적으로 사용하세요: 전력이 영웅 과다 병사 부족이면, 대체 불가능한 군대를 잃는 한 번의 나쁜 전투만큼 위험합니다. 병사 과다 영웅 부족이면, 행군이 체급 대비 타격이 약합니다. 가장 강한 계정은 스택을 대략 비슷한 비율로 유지합니다 — 건설 우선순위와 F2P 부대 타임라인을 따르면 정확히 그렇게 됩니다.</p>
+
+    <VideoSection topic="heroes" lang={lang} />
+  </GuidePage>
+</Base>

@@ -1,0 +1,85 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'fr';
+---
+<Base lang={lang} path="/fr/events/wagon/" title="Guild Wagon et Caravanes" description="Courses de chariot gratuites quotidiennes, les règles du Maître du Chariot et du coffre des Gardes, les rafraîchissements du Charniot Doré, la stratégie de fragments UR par caravane, le pillage inter-serveurs et la priorité des caisses or-violet-bleu.">
+  <GuidePage title="Guild Wagon et Caravanes" description="Courses de chariot gratuites quotidiennes, les règles du Maître du Chariot et du coffre des Gardes, les rafraîchissements du Charniot Doré, la stratégie de fragments UR par caravane, le pillage inter-serveurs et la priorité des caisses or-violet-bleu." lang={lang}>
+    <p>Guild Wagon et les Caravanes sont les événements logistiques quotidiens du jeu — et les deux sont un revenu <strong>sans risque, sans énergie</strong> que trop de joueurs sautent. Le chariot est un exercice de coordination de 10 minutes ; les caravanes sont un farm permanent de fragments UR. Aucun des deux ne coûte de troupes ou de pertes réelles, donc la règle communautaire est simple : <strong>TouJOURS les faire tourner.</strong></p>
+    <p>Ce guide couvre les rôles du chariot et ses règles de coffres, le Charniot Doré, la stratégie des caravanes, et le pillage inter-serveurs avec la priorité des caisses.</p>
+
+    <h2 id="guild-wagon-basics">Guild Wagon : la course quotidienne gratuite</h2>
+    <ul>
+      <li><strong>1 chariot gratuit par alliance par jour</strong>, avec reset vers <strong>11h KST</strong>.</li>
+      <li>Quand l&apos;écran de paiement apparaît, <strong>le gratuit a déjà été utilisé</strong> — c&apos;est le signe que la course gratuite du jour est partie pour toute l&apos;alliance.</li>
+      <li><strong>Des courses payantes existent — presque personne ne les achète.</strong> Ignorez le paywall.</li>
+      <li><strong>Les niveaux de Cadeau de Guilde augmentent le niveau du chariot</strong> — les cadeaux de boutique qui montent le niveau de cadeau améliorent aussi ce que le chariot droppe. Deux raisons de soigner son niveau de cadeau.</li>
+    </ul>
+
+    <h2 id="wagon-master">Maître du Chariot, Gardes et VIPs</h2>
+    <p>Les rôles :</p>
+    <ul>
+      <li>Un <strong>R4/R5 en ligne nomme un membre en ligne Maître du Chariot</strong>.</li>
+      <li>Le Maître <strong>collecte les tickets des membres</strong> (certains se convertissent seuls) pour les rafraîchissements du pool — <strong>5 rafraîchissements font un « Charniot Doré ».</strong></li>
+      <li><strong>Les Gardes ET les VIPs réclament chacun 2 coffres.</strong> Les VIPs font juste le trajet — être VIP n&apos;est pas une rétrogradation, les coffres sont identiques.</li>
+      <li><strong>CP bas ? Choisissez des Gardes forts pour protéger le chariot.</strong> La sécurité de la course suit la force des gardes.</li>
+      <li><strong>Les Gardes doivent être en ligne.</strong> Coordonnez <strong>avant</strong> de lancer la course, ou risquez un pillage sans défense — certaines guildes retardent délibérément la nomination du Maître pour faire tourner le chariot la nuit, quand leurs gardes sont là.</li>
+    </ul>
+
+    <h2 id="chest-rules">Les règles des coffres (l&apos;erreur classique)</h2>
+    <blockquote>Les 2 coffres sont pour les GARDES, pas pour le Maître. L&apos;erreur de chariot la plus courante du jeu.</blockquote>
+    <p>La distribution complète des récompenses :</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Rôle</th><th>Récompense</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Gardes</td><td>2 coffres chacun</td></tr>
+        <tr><td>VIPs</td><td>2 coffres chacun (identiques aux gardes — ils font juste le trajet)</td></tr>
+        <tr><td>Passagers</td><td>5 tirages aléatoires + 1 coffre de véhicule chacun</td></tr>
+        <tr><td>Maître du Chariot</td><td>TOUS les objets des 4 chariots</td></tr>
+      </tbody>
+    </table>
+    <p>Lisez cette dernière ligne deux fois — <strong>le Maître reçoit TOUS les objets des 4 chariots.</strong> La nomination est un vrai paiement, ce qui est exactement pourquoi la confusion des coffres persiste : les 2 coffres des gardes viennent en plus d&apos;une part, pas du pool du Maître.</p>
+
+    <h2 id="caravans">Caravanes : la stratégie des fragments UR</h2>
+    <p>Les Caravanes sont l&apos;événement quotidien de caravanes qui tourne aux côtés du chariot :</p>
+    <ul>
+      <li>Décisions centrales : <strong>quelles caravanes attaquer, comment configurer la caravane de votre alliance, et maximiser les récompenses quotidiennes.</strong></li>
+      <li><strong>Les Caravanes et Opérations Secrètes ne comptent jamais dans la limite de pillage</strong> — elles sont exemptées du plafond quotidien qui régit les raids normaux (voir le <a href="/fr/economy/">guide de l&apos;Économie</a>).</li>
+      <li><strong>Pas de perte réelle de troupes, pas de coût d&apos;énergie.</strong> Risque zéro, chaque jour.</li>
+      <li><strong>TouJOURS les faire tourner.</strong> Et rappelez-vous du guide <a href="/fr/events/kvk/">KvK</a> : <strong>les caravanes et Opérations Secrètes marquent pour le KvK et le Duel d&apos;Alliances</strong> — la même course paie deux fois.</li>
+    </ul>
+
+    <h2 id="plundering-servers">Piller d&apos;autres serveurs</h2>
+    <p>La route de caravanes inter-serveurs :</p>
+    <ol>
+      <li>Ouvrez le <strong>Commerce de Caravane</strong> et vérifiez la coche verte <strong>« Exclure les caravanes de ce serveur »</strong> — ça filtre les caravanes de votre serveur d&apos;origine et montre les étrangères.</li>
+      <li>Allez dans <strong>Caravane d&apos;autrui</strong>, touchez une caravane, et le <strong>bouton Pillage vous téléporte dans ce royaume</strong>.</li>
+      <li>Fermez la popup et vous pouvez <strong>errer librement dans ce royaume</strong> pendant que vous y êtes.</li>
+    </ol>
+
+    <h2 id="box-priority">Priorité des caisses : or, violet, bleu</h2>
+    <p>Quand vous contemplatez une carte étrangère pleine de caravanes, l&apos;ordre des cibles est :</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Couleur de caisse</th><th>Valeur</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>OR</td><td>La plus haute — palier UR. Toujours la cible.</td></tr>
+        <tr><td>Violet</td><td>Très bon — palier SSR. Cible prioritaire quand l&apos;or est hors de portée.</td></tr>
+        <tr><td>Bleu</td><td>Réserve — palier SR. Du remplissage quand la carte est déjà picorée.</td></tr>
+      </tbody>
+    </table>
+    <ul>
+      <li><strong>Vérifiez le nombre d&apos;étoiles et les récompenses avant d&apos;attaquer</strong> — l&apos;aperçu montre ce que la caisse paie.</li>
+      <li><strong>Meilleure couleur + étoiles plus hautes = meilleures récompenses.</strong> D&apos;abord la couleur, les étoiles en départage.</li>
+    </ul>
+
+    <VideoSection topic="wagon" lang={lang} />
+  </GuidePage>
+</Base>

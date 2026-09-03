@@ -1,0 +1,111 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'fr';
+---
+<Base lang={lang} path="/fr/raven/" title="Corbeau et système d&apos;épigraphes" description="Niveaux et plans du Corbeau, stratégie d&apos;équipement, raretés d&apos;épigraphes et ordre de promotion, et les règles mono-faction qui décident quels épigraphes méritent d&apos;être améliorés.">
+  <GuidePage title="Corbeau et système d&apos;épigraphes" description="Niveaux et plans du Corbeau, stratégie d&apos;équipement, raretés d&apos;épigraphes et ordre de promotion, et les règles mono-faction qui décident quels épigraphes méritent d&apos;être améliorés." lang={lang}>
+    <p>Le Corbeau est le système qui sépare silencieusement les comptes : il fonctionne comme un héros supplémentaire pour toutes vos escouades à la fois, et ses épigraphes sont là où le méta mono-faction est vraiment imposé. Le Corbeau est aussi le système que la plupart des joueurs négligent — un Corbeau bloqué au niveau 1 est l&apos;erreur classique.</p>
+    <p>Cette page couvre les niveaux et plans du Corbeau, la stratégie d&apos;équipement, les raretés d&apos;épigraphes et l&apos;ordre de promotion, et les règles qui décident quels épigraphes méritent des matériaux.</p>
+
+    <h2 id="what-raven-is">Ce qu&apos;est le Corbeau</h2>
+    <p>Le Corbeau est un héros supplémentaire pour toutes vos escouades — ses bonus s&apos;appliquent partout à la fois, pas seulement à une formation. Deux conséquences suivent :</p>
+    <ul>
+      <li>Chaque point investi dans le Corbeau améliore chaque marche que vous déployez, ce qui en fait l&apos;un des systèmes à plus haute valeur du jeu.</li>
+      <li>L&apos;Essence de Corbeau, sa nourriture, est le goulot d&apos;étranglement de tout le système. Farmez-en tôt et n&apos;arrêtez jamais — la boutique VIP et celle du Sanctuaire en vendent exactement pour ça.</li>
+    </ul>
+    <p>L&apos;objectif à long terme est le <strong>Corbeau niveau 110</strong>, où arrive la compétence finale : +50% de dégâts AOE aux cibles affectées. C&apos;est l&apos;endgame du système, et l&apos;Essence de Corbeau est ce qui se tient entre vous et lui.</p>
+
+    <h2 id="raven-levels">Niveaux et plans du Corbeau</h2>
+    <p>Les niveaux du Corbeau débloquent les emplacements d&apos;épigraphes (appelés Plans) un par un :</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Niveau de Corbeau</th><th>Déblocage</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>10</td><td>Épigraphes + Plan 1 (premier emplacement)</td></tr>
+        <tr><td>150</td><td>Plan 2 (+1 bonus de système)</td></tr>
+        <tr><td>300</td><td>Plan 3 (+2)</td></tr>
+        <tr><td>450</td><td>Plan 4 (+3)</td></tr>
+        <tr><td>600</td><td>Plan 5 (+4)</td></tr>
+      </tbody>
+    </table>
+    <p>Lisez le tableau comme le vrai chemin de progression du Corbeau : le niveau 10 ouvre tout le système d&apos;épigraphes, et chaque 150 niveaux après ajoute un emplacement de plus à remplir. Comme chaque emplacement de Plan porte son propre bonus d&apos;épigraphe, un niveau de Corbeau bloqué plafonne le nombre de ces bonus que vous pouvez même équiper.</p>
+
+    <h2 id="raven-gear">Stratégie d&apos;équipement du Corbeau</h2>
+    <p>Poussez l&apos;équipement du Corbeau au niveau 8 — c&apos;est là qu&apos;arrivent les bonus en pourcentage, et les bonus en pourcentage sont ce qui rend l&apos;équipement digne d&apos;être porté.</p>
+    <p>Stratégie latérale, gauche contre droite :</p>
+    <ul>
+      <li><strong>Côté gauche</strong> — HP et réduction de dégâts critiques. Plus facile à acquérir, valeur défensive.</li>
+      <li><strong>Côté droit</strong> — ATK et dégâts critiques. La meilleure valeur offensive du système.</li>
+    </ul>
+    <p>Et une règle de calendrier : <strong>gardez vos coffres d&apos;équipement pour les jours de Duel d&apos;Alliances.</strong> Les ouvrir alors rapporte des points de Duel — la même logique de double bénéfice qui régit les accélérations dans le <a href="/fr/economy/">guide de l&apos;Économie</a>.</p>
+
+    <h2 id="epigraph-basics">Épigraphes : les règles de base</h2>
+    <p>Les épigraphes se logent dans les Plans du Corbeau et buffent les héros d&apos;une faction. Les raretés se comportent différemment, et les différences dirigent chaque décision d&apos;amélioration :</p>
+    <ul>
+      <li><strong>UR (or)</strong> — buffe UNE seule faction. Le but final, et la raison pour laquelle les escouades mono-faction sont le méta.</li>
+    </ul>
+    <ul>
+      <li><strong>SR (bleu) et R (vert)</strong> — buffent TOUTES les factions, mais ne peuvent pas être promus. Ce sont le palier tout-le-monde-en-prend-une-part, utiles pendant que vous construisez vers l&apos;UR.</li>
+    </ul>
+    <p>La règle la plus importante : <strong>n&apos;améliorez que les épigraphes de la faction de votre escouade principale.</strong> Un épigraphe UR qui buffe une faction que vous ne déployez pas ne vaut rien pour vous — et dans le méta mono-faction, les matériaux hors faction sont exactement ce à quoi sert le fourrage (voir Ajout Rapide ci-dessous).</p>
+
+    <h3 id="early-epigraphs">Les épigraphes du méta de début</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Épigraphe</th><th>Type d&apos;emplacement</th><th>Effet</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Frenzy Flock</td><td>Attaque</td><td>Bonus d&apos;ATK aux alliés Guerriers après le déclenchement de la compétence du Corbeau, plus de cibles du Corbeau.</td></tr>
+        <tr><td>Reversal Power</td><td>Soutien</td><td>Dégâts pour les 3 alliés Guerriers à l&apos;ATK la plus haute, et réduit les dégâts d&apos;ultime ennemis.</td></tr>
+        <tr><td>Protective Charm</td><td>—</td><td>Pick de survie — le troisième choix standard quand votre escouade meurt au lieu de perdre aux dégâts.</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="epigraph-workshop">L&apos;Atelier d&apos;Épigraphes</h2>
+    <p>Fabriquer des épigraphes UR requiert l&apos;<strong>Atelier niveau 20</strong>. Tout en dessous construit vers ça.</p>
+    <p>L&apos;échelle de rareté, et à quoi sert vraiment chaque couleur :</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Couleur</th><th>Rôle</th><th>Notes</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Vert</td><td>Matériau</td><td>Le palier fourrage.</td></tr>
+        <tr><td>Bleu</td><td>Matériau amélioré</td><td>Un SR bleu à 2 étoiles vaut environ comme un SSR violet — utilisez les bleus jusqu&apos;à les dépasser.</td></tr>
+        <tr><td>Violet</td><td>Palier de transition</td><td>Assez bon pour combattre pendant que vos UR grandissent.</td></tr>
+        <tr><td>Or (UR)</td><td>But final</td><td>La cible de tout le système.</td></tr>
+      </tbody>
+    </table>
+    <p>Une règle absolue : <strong>ne recyclez jamais un épigraphe doré sans certitude.</strong> Les épigraphes UR sont l&apos;actif permanent le plus rare du jeu — un UR recyclé ne revient pas.</p>
+
+    <h2 id="promotion-order">Ordre de promotion des épigraphes</h2>
+    <p>Suivez cet ordre (de DrAction), en promouvant un emplacement à la fois :</p>
+    <ol>
+      <li>Milieu — emplacement de Défense (réduction de dégâts).</li>
+      <li>Haut — emplacement d&apos;Attaque (Cible du Corbeau).</li>
+      <li>Droite — emplacement de Soutien (réduction de dégâts).</li>
+      <li>Gauche — emplacement d&apos;Initiative (bonus de % de Défense).</li>
+    </ol>
+    <p>Pour les épigraphes d&apos;épée de Guerriers spécifiquement, la variante de la communauté : Soutien (droite) UR d&apos;abord, puis Attaque (haut), puis Initiative ou Défense.</p>
+
+    <h2 id="rarity-comparisons">Comparaisons de rareté qui surprennent</h2>
+    <p>Le niveau d&apos;étoiles peut battre la rareté dans l&apos;emplacement de dégâts. Voici les comparaisons vérifiées les plus débattues :</p>
+    <ul>
+      <li>Un violet à 4 étoiles peut dépasser en dégâts un doré (UR) à 0 étoiles dans l&apos;emplacement d&apos;attaque — le raccourci de la communauté est violet DMG jusqu&apos;au bout.</li>
+      <li>Un UR de bouclier à 0 étoiles est meilleur qu&apos;un SSR à 5 étoiles.</li>
+      <li>Le violet surpasse l&apos;UR contre le Roi Blight jusqu&apos;à ce que l&apos;UR atteigne 3 étoiles ou plus.</li>
+    </ul>
+    <p>La leçon n&apos;est pas que le violet est secrètement le meilleur palier — c&apos;est qu&apos;un épigraphe très étoilé du bon type bat un UR frais du mauvais type. Étoilez vos épigraphes avant de poursuivre leur plafond de rareté.</p>
+
+    <h2 id="ssr-vs-ur">SSR, UR et ce qui s&apos;améliore vraiment</h2>
+    <p>Un malentendu courant à tuer tôt : vous <strong>ne pouvez pas améliorer un épigraphe SSR en UR</strong>. Ce qui s&apos;améliore, c&apos;est le Plan — l&apos;emplacement où l&apos;épigraphe siège. Les épigraphes SSR sont des placeholders dans cette progression, pas des embryons.</p>
+    <p>Ce qui mène à l&apos;erreur de Corbeau la plus courante du jeu : les joueurs thésaurisent des épigraphes hors faction principale au lieu de les nourrir au Corbeau via l&apos;<strong>Ajout Rapide</strong> — puis se demandent pourquoi leur Corbeau est bloqué au niveau 1. Les épigraphes hors faction et de faible rareté sont de la nourriture pour le Corbeau. Ajoutez-les vite ; c&apos;est à ça qu&apos;ils servent.</p>
+
+    <VideoSection topic="raven" lang={lang} />
+  </GuidePage>
+</Base>

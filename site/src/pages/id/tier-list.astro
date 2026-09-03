@@ -1,0 +1,52 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { heroTiers, tierColors } from '../../data/tiers';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'id';
+const tiers: ('S' | 'A' | 'B' | 'C')[] = ['S', 'A', 'B', 'C'];
+---
+
+<Base lang={lang} path="/tier-list/" title="Daftar Tingkat Hero" description="Daftar tingkat hero Last Asylum: Plague — peringkat S/A/B/C dengan konteks progresi F2P dan spender menengah.">
+  <GuidePage
+    title="🏆 Daftar Tingkat Hero"
+    description="Peringkat konsensus komunitas, dibobot untuk jalur progresi F2P / spender menengah yang tipikal. Konteks tingkat itu penting: SSR tingkat &apos;B&apos; yang sudah Anda miliki hari ini lebih baik daripada UR tingkat &apos;S&apos; yang baru Anda miliki tiga bulan lagi."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/id/' }, { label: 'Daftar Tingkat' }]}
+  >
+    <p>Disusun dari panduan komposisi pasukan, rincian pertarungan boss dan thread PvP di Discord resmi. Tingkat mencerminkan <strong>nilai keseluruhan untuk akun</strong> — bukan stat mentah.</p>
+
+    {tiers.map((tier) => (
+      <section class="not-prose my-6">
+        <h3 class={`mb-3 inline-block rounded-lg border px-3 py-1 text-xl font-bold ${tierColors[tier]}`}>
+          Tingkat {tier}
+        </h3>
+        <div class="grid gap-3 sm:grid-cols-2">
+          {heroTiers.filter((h) => h.tier === tier).map((h) => (
+            <div class="rounded-lg border border-stone-800 bg-stone-900 p-4">
+              <div class="flex items-baseline justify-between gap-2">
+                <p class="font-bold text-plague-200">{h.name}</p>
+                <span class="text-xs text-stone-500">{h.rarity} · {h.faction} · {h.class}</span>
+              </div>
+              <p class="mt-1 text-sm text-stone-400">{h.note}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+    ))}
+
+    <h2 id="how-to-read">Cara membaca daftar ini</h2>
+    <ul>
+      <li><strong>S</strong> — investasi inti jangka panjang: bangun lebih dulu, simpan selamanya</li>
+      <li><strong>A</strong> — carry kuat dan hero event: layak dibangun saat inti S Anda sudah stabil</li>
+      <li><strong>B</strong> — situasional/bujet: bagus selagi Anda membangun roster S/A, di komposisi boss, atau untuk pasukan satu-faksi</li>
+      <li><strong>C</strong> — hanya pengisi sementara di awal sekali</li>
+    </ul>
+    <blockquote>Meta satu faksi: epigraf UR mem-buff SATU faksi saja. 3 hero satu faksi = +5%, 4 = +15%, 5 = +20% HP/ATK/DEF. Kontra faksi: Warrior &gt; Warlock &gt; Ranger &gt; Warrior.</blockquote>
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

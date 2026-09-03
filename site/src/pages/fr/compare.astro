@@ -1,0 +1,126 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'fr';
+
+const comparisons = [
+  {
+    slug: 'marlena-vs-zoya',
+    title: 'Marlena vs Zoya — quel carry UR ?',
+    verdict: 'Marlena d&apos;abord, Zoya plus tard',
+    points: [
+      ['Disponibilité', 'Quasi gratuite (top-up 1 $), gratuite au jour 66', 'Payante uniquement (10 fragments pour commencer)'],
+      ['Part de dégâts', '~85% des dégâts de l&apos;escouade à elle seule', 'Partage ~50/50 avec une Marlena maximisée'],
+      ['Type de dégâts', 'Mixte physique/énergie selon le build', 'Tourbillon d&apos;énergie — nécessite des supports d&apos;énergie'],
+      ['Synergie', 'Boostée 4× dans la compo standard (ulti de Harper + Bell + passif de Claire)', 'Ne se cumule pas avec le Jester physique'],
+      ['Verdict F2P', 'Le carry principal de toute la voie F2P', 'Ne remplacez Claire que si votre Zoya a beaucoup d&apos;étoiles'],
+    ],
+    video: 'XktNJ6u4sWo',
+  },
+  {
+    slug: 'cynthia-vs-marlena-f2p',
+    title: 'Cynthia vs Marlena pour le F2P',
+    verdict: 'Payez le dollar — mais Cynthia marche si vous ne vraiment pas pouvez',
+    points: [
+      ['Coût', '~11 500 diamants (roue du jour 8)', 'Top-up à 1 $'],
+      ['Puissance précoce', 'Fort carry de début (ranger UR)', 'Éclosion tardive — faible avant les hautes étoiles'],
+      ['Fin de partie', 'Perdez le bonus de faction de 5% + synergie Harper/épigraphes', 'Le cœur de la méta mono-Guerrier'],
+      ['Calendrier de la roue', 'Économiser les diamants les jours 1–8', 'Aucun coût en diamants'],
+      ['Verdict', 'Pic précoce viable, s&apos;essouffle ensuite', 'Conseillée universellement plutôt que Cynthia'],
+    ],
+  },
+  {
+    slug: 'annie-vs-joker',
+    title: 'Annie vs Joker — quel carry warlock ?',
+    verdict: 'Annie pour la valeur, Joker pour finir en PvP',
+    points: [
+      ['Rôle', 'Carry soutenu + valeur d&apos;équipe à 8★', 'Bourreau — cible les ennemis au HP le plus bas'],
+      ['Accès F2P', 'Passe de Héros (le choix de la communauté)', 'Roue des Vœux après le jour 15'],
+      ['Synergie', 'S&apos;associe aux supports d&apos;énergie', 'Physique — ne s&apos;associe PAS avec Zoya'],
+      ['Meilleur pour', 'Longs combats, contenu de monstres', 'Nettoyage PvP après l&apos;amollissement de Marlena'],
+    ],
+    video: 'ekodq_Wh2_I',
+  },
+  {
+    slug: 'claire-vs-keep-ssr',
+    title: 'Claire SSR→UR — convertir maintenant ou attendre ?',
+    verdict: 'Convertissez toujours — la question est le timing',
+    points: [
+      ['Dégâts personnels', '9★ UR ≈ 1.70× SSR maximisée ; 10★ ≈ 2.20×', '—'],
+      ['Bonus d&apos;équipe', 'Baisse de 16% → 10% à 6★ (quelques % de perte réelle)', '—'],
+      ['Évitez la baisse', 'Capitalisez le Hall d&apos;Honneur : Nv.60→8★, Nv.100→9★, Nv.160→10★ instantané', '—'],
+      ['PvP', 'Ténacité Av. à 8★ = +20% ATQ/HP/DÉF +10% RCD', '—'],
+      ['Coût', '1 600 fragments SSR au prix 2× (6★→10★)', '—'],
+    ],
+    video: '-9Nysk8pcns',
+  },
+  {
+    slug: 'shadow-vs-lucius',
+    title: 'Shadow vs Lucius — deuxième tank',
+    verdict: 'Lucius gratuit maintenant ; Shadow si vous achetez la Passe de Héros',
+    points: [
+      ['Coût', 'Passe de Héros (payante)', 'Fragments gratuits'],
+      ['Scaling', '8★/10★ nettement meilleurs que 6★', 'Intérimaire stable'],
+      ['Règle', 'Si acheté : traitez-le comme héros TEMPORAIRE — max 8★, compétences 15–20', 'Remplacez-le librement en montant Daskal'],
+      ['Fin de partie', 'Daskal remplace les deux', '—'],
+    ],
+  },
+];
+---
+
+<Base lang={lang} path="/fr/compare/" title="Comparaisons de héros" description="Marlena vs Zoya, Annie vs Joker, timing de conversion de Claire — verdicts côte à côte tirés des guides de la communauté.">
+  <GuidePage
+    title="⚖️ Comparaisons de héros"
+    description="Les débats que les joueurs mènent vraiment — tranchés par les guides de la communauté avec des chiffres exacts."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/fr/' }, { label: 'Comparaisons' }]}
+  >
+    {comparisons.map((c) => (
+      <section class="not-prose mb-10">
+        <h2 id={c.slug} class="mb-1 text-2xl font-bold text-plague-200">{c.title}</h2>
+        <p class="mb-4 text-sm font-semibold text-toxic-400">✓ {c.verdict}</p>
+        <div class="overflow-x-auto rounded-lg border border-stone-800">
+          <table class="w-full text-sm">
+            {c.points.map((row) => (
+              <tr class="border-t border-stone-800 first:border-t-0">
+                <td class="w-40 bg-stone-900 p-3 font-semibold text-plague-300">{row[0]}</td>
+                <td class="p-3 text-stone-300">{row[1]}</td>
+                <td class="p-3 text-stone-400">{row[2]}</td>
+              </tr>
+            ))}
+          </table>
+        </div>
+        {c.video && (
+          <div class="js-video-facade mt-4 max-w-md cursor-pointer" data-video-id={c.video} role="button" tabindex="0" aria-label="Lire la vidéo comparative">
+            <span class="block aspect-video overflow-hidden rounded-lg border border-stone-800">
+              <img src={`https://i.ytimg.com/vi/${c.video}/hqdefault.jpg`} alt="Vidéo comparative" loading="lazy" class="h-full w-full object-cover" />
+            </span>
+          </div>
+        )}
+      </section>
+    ))}
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>
+
+<script>
+  document.querySelectorAll('.js-video-facade').forEach((el) => {
+    el.addEventListener('click', () => {
+      const id = (el as HTMLElement).dataset.videoId;
+      if (!id) return;
+      const frame = document.createElement('iframe');
+      frame.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1`;
+      frame.title = 'Vidéo';
+      frame.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      frame.allowFullscreen = true;
+      frame.className = 'aspect-video w-full max-w-md rounded-lg';
+      el.replaceWith(frame);
+    });
+  });
+</script>

@@ -1,0 +1,111 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'pt';
+---
+<Base lang={lang} path="/pt/raven/" title="Corvo e sistema de epígrafes" description="Níveis e planos do Corvo, estratégia de equipamento, raridades de epígrafes e ordem de promoção, e as regras monofação que decidem quais epígrafes valem a pena melhorar.">
+  <GuidePage title="Corvo e sistema de epígrafes" description="Níveis e planos do Corvo, estratégia de equipamento, raridades de epígrafes e ordem de promoção, e as regras monofação que decidem quais epígrafes valem a pena melhorar." lang={lang}>
+    <p>O Corvo é o sistema que silenciosamente separa contas: funciona como um herói extra para todos os seus esquadrões ao mesmo tempo, e seus epígrafes são onde a meta monofação é realmente imposta. O Corvo também é o sistema que mais jogadores negligenciam — um Corvo preso no nível 1 é o erro clássico.</p>
+    <p>Esta página cobre os níveis e planos do Corvo, a estratégia de equipamento, as raridades de epígrafes e a ordem de promoção, e as regras que decidem quais epígrafes merecem materiais.</p>
+
+    <h2 id="what-raven-is">O que é o Corvo</h2>
+    <p>O Corvo é um herói extra para todos os seus esquadrões — seus bônus se aplicam em toda parte ao mesmo tempo, não só a uma formação. Duas consequências seguem:</p>
+    <ul>
+      <li>Cada ponto investido no Corvo melhora toda marcha que você coloca em campo, o que o torna um dos sistemas de maior valor do jogo.</li>
+      <li>A Essência de Corvo, a comida dele, é o gargalo de todo o sistema. Farme-a cedo e nunca pare — a loja VIP e a do Santuário vendem-na exatamente por isso.</li>
+    </ul>
+    <p>A meta de longo prazo é o <strong>Corvo nível 110</strong>, onde a última habilidade chega: +50% de dano AOE aos alvos afetados. Esse é o endgame do sistema, e a Essência de Corvo é o que se interpõe entre você e ele.</p>
+
+    <h2 id="raven-levels">Níveis e planos do Corvo</h2>
+    <p>Os níveis do Corvo desbloqueiam os slots de epígrafes (chamados Planos) um de cada vez:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Nível do Corvo</th><th>Desbloqueio</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>10</td><td>Epígrafes + Plano 1 (primeiro slot)</td></tr>
+        <tr><td>150</td><td>Plano 2 (+1 bônus de sistema)</td></tr>
+        <tr><td>300</td><td>Plano 3 (+2)</td></tr>
+        <tr><td>450</td><td>Plano 4 (+3)</td></tr>
+        <tr><td>600</td><td>Plano 5 (+4)</td></tr>
+      </tbody>
+    </table>
+    <p>Leia a tabela como a verdadeira rota de progressão do Corvo: o nível 10 abre todo o sistema de epígrafes, e cada 150 níveis depois adiciona mais um slot para preencher. Como cada slot do Plano carrega seu próprio bônus de epígrafe, um nível de Corvo estagnado limita quantos desses bônus você consegue equipar.</p>
+
+    <h2 id="raven-gear">Estratégia de equipamento do Corvo</h2>
+    <p>Empurre o equipamento do Corvo ao nível 8 — é onde chegam os bônus percentuais, e bônus percentuais são o que tornam o equipamento vale a pena usar.</p>
+    <p>Estratégia lateral, esquerda contra direita:</p>
+    <ul>
+      <li><strong>Lado esquerdo</strong> — HP e redução de dano crítico. Mais fácil de conseguir, valor defensivo.</li>
+      <li><strong>Lado direito</strong> — ATK e dano crítico. O melhor valor ofensivo do sistema.</li>
+    </ul>
+    <p>E uma regra de calendário: <strong>guarde seus baús de equipamento para os dias de Duelo de Alianças.</strong> Abri-los então rende pontos de Duelo — a mesma lógica de benefício duplo que governa as acelerações na <a href="/pt/economy/">guia de Economia</a>.</p>
+
+    <h2 id="epigraph-basics">Epígrafes: as regras básicas</h2>
+    <p>Os epígrafes se encaixam nos Planos do Corvo e buffam os heróis de uma facção. As raridades se comportam de forma diferente, e as diferenças dirigem toda decisão de melhoria:</p>
+    <ul>
+      <li><strong>UR (ouro)</strong> — buffa UMA facção só. A meta final, e a razão de esquadrões monofação serem a meta.</li>
+    </ul>
+    <ul>
+      <li><strong>SR (azul) e R (verde)</strong> — buffam TODAS as facções, mas não podem ser promovidos. São o nível todos-levam-um-pedaço, úteis enquanto você constrói rumo ao UR.</li>
+    </ul>
+    <p>A regra mais importante: <strong>só meliore epígrafes da facção do seu esquadrão principal.</strong> Um epígrafe UR que buffa uma facção que você não usa não vale nada para você — e na meta monofação, materiais de facção errada são exatamente para o que serve a ração (veja Adição Rápida abaixo).</p>
+
+    <h3 id="early-epigraphs">Os epígrafes da meta inicial</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Epígrafe</th><th>Tipo de slot</th><th>Efeito</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Frenzy Flock</td><td>Ataque</td><td>Bônus de ATK para aliados Guerreiros depois da habilidade do Corvo disparar, e mais alvos do Corvo.</td></tr>
+        <tr><td>Reversal Power</td><td>Suporte</td><td>Dano para os 3 aliados Guerreiros com maior ATK, e reduz o dano de ultimate inimigo.</td></tr>
+        <tr><td>Protective Charm</td><td>—</td><td>Escolha de sobrevivência — a terceira opção padrão quando seu esquadrão morre em vez de perder por dano.</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="epigraph-workshop">A Oficina de Epígrafes</h2>
+    <p>Fabricar epígrafes UR requer <strong>Oficina nível 20</strong>. Tudo abaixo disso é construção rumo a isso.</p>
+    <p>A escada de raridade, e para que serve cada cor de verdade:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Cor</th><th>Função</th><th>Notas</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Verde</td><td>Material</td><td>O nível de ração.</td></tr>
+        <tr><td>Azul</td><td>Material melhorado</td><td>Um SR azul com 2 estrelas rende aproximadamente como um SSR roxo — use azuis até superá-los.</td></tr>
+        <tr><td>Roxo</td><td>Nível de transição</td><td>Bom o bastante para lutar enquanto seus URs crescem.</td></tr>
+        <tr><td>Ouro (UR)</td><td>Meta final</td><td>O alvo de todo o sistema.</td></tr>
+      </tbody>
+    </table>
+    <p>Uma regra absoluta: <strong>nunca recicle um epígrafe dourado salvo certeza absoluta.</strong> Epígrafes UR são o ativo permanente mais escasso do jogo — um UR reciclado não volta.</p>
+
+    <h2 id="promotion-order">Ordem de promoção dos epígrafes</h2>
+    <p>Siga esta ordem (do DrAction), promovendo um slot de cada vez:</p>
+    <ol>
+      <li>Meio — slot de Defesa (redução de dano).</li>
+      <li>Topo — slot de Ataque (Alvo do Corvo).</li>
+      <li>Direita — slot de Suporte (redução de dano).</li>
+      <li>Esquerda — slot de Iniciativa (bônus de % de Defesa).</li>
+    </ol>
+    <p>Para epígrafes de espada de Guerreiros em específico, a variante da comunidade: Suporte (direita) UR primeiro, depois Ataque (topo), depois Iniciativa ou Defesa.</p>
+
+    <h2 id="rarity-comparisons">Comparações de raridade que surpreendem</h2>
+    <p>O nível de estrelas pode vencer a raridade no slot de dano. Estas são as comparações verificadas que os jogadores mais discutem:</p>
+    <ul>
+      <li>Um roxo com 4 estrelas pode superar em dano um amarelo (UR) com 0 estrelas no slot de ataque — o resumo da comunidade é roxo DMG até o fim.</li>
+      <li>Um UR de escudo com 0 estrelas é melhor que um SSR com 5 estrelas.</li>
+      <li>O roxo supera o UR contra o Rei Blight até o UR chegar a 3 estrelas ou mais.</li>
+    </ul>
+    <p>A moral não é que o roxo é secretamente o melhor nível — é que um epígrafe de muitas estrelas do tipo certo vence um UR novinho do tipo errado. Estrelar seus epígrafes antes de perseguir o teto de raridade deles.</p>
+
+    <h2 id="ssr-vs-ur">SSR, UR e o que realmente melhora</h2>
+    <p>Um mal-entendido comum que vale matar cedo: <strong>você não pode melhorar um epígrafe SSR num UR</strong>. O que melhora é o Plano — o slot onde o epígrafe se senta. Epígrafes SSR são marcadores nessa progressão, não embriões.</p>
+    <p>O que leva ao erro de Corvo mais comum do jogo: jogadores entesouram epígrafes de facção não-principal em vez de alimentá-los ao Corvo via <strong>Adição Rápida</strong> — e depois se perguntam por que o Corvo deles está preso no nível 1. Epígrafes de facção errada e baixa raridade são comida do Corvo. Adicione-os com Adição Rápida; é para isso que existem.</p>
+
+    <VideoSection topic="raven" lang={lang} />
+  </GuidePage>
+</Base>

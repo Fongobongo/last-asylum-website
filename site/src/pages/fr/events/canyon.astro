@@ -1,0 +1,67 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'fr';
+---
+<Base lang={lang} path="/fr/events/canyon/" title="Canyon Conquest : stratégie de voies" description="La bataille de relais à trois voies où l&apos;endurance bat la puissance : les règles de relais, la limite de 3 combats, la stratégie de priorité de voie, les bugs connus, et pourquoi c&apos;est le meilleur événement sans risque du jeu.">
+  <GuidePage title="Canyon Conquest : stratégie de voies" description="La bataille de relais à trois voies où l&apos;endurance bat la puissance : les règles de relais, la limite de 3 combats, la stratégie de priorité de voie, les bugs connus, et pourquoi c&apos;est le meilleur événement sans risque du jeu." lang={lang}>
+    <p>Canyon Conquest est la <strong>bataille de voies d&apos;alliance</strong> : trois voies, et l&apos;alliance qui gagne <strong>2 voies sur 3</strong> prend le match. Mais le format est un <strong>relais</strong> — les joueurs les plus faibles combattent en premier, et un joueur <strong>reste dans la voie jusqu&apos;à sa défaite</strong>. Comprendre ce que ce relais fait à la stratégie de formation, c&apos;est tout l&apos;événement.</p>
+    <p>Ce guide couvre les règles de relais, la structure des récompenses, la stratégie de priorité de voie avec ses variantes principales, les bugs connus, et pourquoi c&apos;est l&apos;événement le plus sûr du jeu.</p>
+
+    <h2 id="relay-rules">Les règles du relais</h2>
+    <ol>
+      <li><strong>Les plus faibles combattent d&apos;abord.</strong> Chaque voie démarre avec ses joueurs au CP le plus bas et n&apos;escalade que quand quelqu&apos;un perd.</li>
+      <li><strong>Le joueur reste jusqu&apos;à sa défaite, puis le suivant entre.</strong> Un joueur gagnant tient la voie et continue de combattre le challenger suivant — il n&apos;y a pas de rotation après une victoire.</li>
+      <li><strong>Maximum 3 combats par joueur.</strong> Après trois combats, vous avez fini pour le match.</li>
+      <li><strong>15 joueurs par voie.</strong> L&apos;alliance répartit son effectif entre les trois voies.</li>
+    </ol>
+    <p>Conséquence du relais : <strong>si votre camp gagne chaque combat à 2 kills par joueur, seuls 8 des 15 joueurs de voie combattent jamais.</strong> Sept joueurs restent assis tout le match sans dépenser un combat. Ce fait dirige chaque décision de formation ci-dessous.</p>
+
+    <h2 id="rewards">Récompenses et le palier des 3 kills</h2>
+    <ul>
+      <li>La <strong>récompense des 3 kills est verrouillée par palier</strong> — il faut que vos trois combats soient des kills pour atteindre le palier personnel maximum.</li>
+      <li>Comme les joueurs les plus forts au fond de voie affrontent des adversaires plus forts, le palier des 3 kills appartient généralement au sommet de l&apos;effectif — ajustez vos attentes personnelles en conséquence.</li>
+    </ul>
+
+    <h2 id="rounds-and-groups">Tours et groupes</h2>
+    <ul>
+      <li><strong>Tous les 5 tours, le match se termine et repart de l&apos;Inscription.</strong> Réinscrivez-vous à chaque cycle.</li>
+      <li><strong>Une victoire vous monte dans un groupe supérieur ; une défaite vous laisse sur place ou vous descend vers un groupe plus faible.</strong> L&apos;échelle trie les alliances avec le temps.</li>
+      <li>Un <strong>« bye » est possible même à 15 complets</strong> — un nombre impair de voies inscrites signifie que quelqu&apos;un avance sans combattre. C&apos;est la chance, pas un bug.</li>
+    </ul>
+
+    <h2 id="known-bugs">Bugs connus</h2>
+    <ul>
+      <li><strong>Remplacé après 2 victoires sans défaite</strong> — le relais devrait vous garder après les victoires, mais certains joueurs sont retirés après deux triomphes. Signalez-le si ça vous arrive.</li>
+      <li><strong>Joueurs inscrits exclus du tour 2.</strong> Des inscriptions périmées peuvent vous laisser hors du tour suivant. La suppression de la liste est <strong>R4/R5 uniquement</strong> — si vous êtes coincé, demandez aux dirigeants de vous nettoyer pour pouvoir vous réinscrire.</li>
+    </ul>
+
+    <h2 id="lane-strategy">Stratégie de priorité de voie</h2>
+    <blockquote>Vous n&apos;avez pas besoin de gagner TOUS les combats — vous avez besoin des BONNES voies.</blockquote>
+    <h3 id="consensus-setup">La configuration de consensus</h3>
+    <ol>
+      <li><strong>Priorisez 2 des 3 voies.</strong> Gagner le match demande 2 voies, pas 3 — déverser l&apos;effectif également dans les trois garantit juste de perdre la troisième de toute façon.</li>
+      <li><strong>Répartissez le top-30 également dans deux voies fortes</strong>, et remplissez les corps restants dans la troisième.</li>
+    </ol>
+    <h3 id="weak-lane-refinement">Le raffinement : les deux plus forts vers la voie faible</h3>
+    <ol>
+      <li>Envoyez vos <strong>2 joueurs les plus forts dans la TROISIÈME voie faible</strong> — ils la portent.</li>
+      <li>La logique est l&apos;arithmétique du relais : vos joueurs les plus forts stationnés dans les voies fortes <strong>ne combattent souvent jamais</strong>, parce que les joueurs plus faibles de la voie gagnent avant même que les as ne soient nécessaires. Dans la voie faible, ils font la différence entre 0-1 et une voie vivante.</li>
+    </ol>
+    <h3 id="counterpoint">Le contre-argument qui a fonctionné</h3>
+    <ul>
+      <li><strong>3 équipes équilibrées avec le top-3 de joueurs dans chacune</strong> a aussi fonctionné de façon vérifiable — une ancre par voie plutôt qu&apos;une voie abandonnée.</li>
+    </ul>
+    <p>Aucune configuration n&apos;est fausse dans l&apos;absolu. La bonne lecture : <strong>vérifiez qui a gagné et perdu où au tour suivant.</strong> Vos adversaires changent de groupe en groupe, et la configuration qui a gagné ce match peut nécessiter un rééquilibrage au prochain tour. Adaptez-vous, ne pilotez pas en automatique.</p>
+
+    <h2 id="why-zero-risk">Pourquoi c&apos;est le meilleur événement sans risque</h2>
+    <p>Canyon Conquest n&apos;a <strong>pas de perte de troupes, pas de risque de ressources ni de vrai coût d&apos;énergie</strong> — à la différence du <a href="/fr/events/kvk/">KvK</a>, où une ville sans bouclier brûle. Vous vous battez avec une puissance de tournoi empruntée, et votre vraie armée reste intacte à la maison. Cela en fait l&apos;un des <strong>meilleurs événements pour des récompenses sûres</strong> du jeu : présentez-vous, inscrivez-vous, livrez vos trois combats, encaissez.</p>
+    <p>Le seul vrai coût est l&apos;attention portée aux formations — et les règles de relais ci-dessus sont toute la méta de formation.</p>
+
+    <VideoSection topic="canyon" lang={lang} />
+  </GuidePage>
+</Base>

@@ -1,0 +1,137 @@
+﻿---
+import Base from '../layouts/Base.astro';
+import GuidePage from '../components/GuidePage.astro';
+import VideoSection from '../components/VideoSection.astro';
+import Calculators from '../components/Calculators.astro';
+import { t } from '../i18n/ui';
+import type { Lang } from '../i18n/utils';
+
+const lang: Lang = 'en';
+---
+<Base lang={lang} path="/era/" title="Era of Revival: Season Guide" description="The season system: Resistance as the daily priority, specialty trees for F2P and whales, Lord Evolution stats, the hoarding list, and the full Claire SSR-to-UR conversion math with the Hall of Honor skip strategy.">
+  <GuidePage title="Era of Revival: Season Guide" description="The season system: Resistance as the daily priority, specialty trees for F2P and whales, Lord Evolution stats, the hoarding list, and the full Claire SSR-to-UR conversion math with the Hall of Honor skip strategy." lang={lang}>
+    <p>Era of Revival is the seasonal layer that arrives around day 120 — a roughly two-month cycle that adds its own progression systems on top of the base game: the Lord Statue (Resistance and Lord Evolution), Specialty trees, and Elite Blight.</p>
+    <p>The season rewards focus, and it punishes distraction harder than the base game does. This page covers what to prioritize daily, which specialty tree matches your spending level, what to hoard before the season starts, and the complete math of the Claire SSR-to-UR conversion.</p>
+
+    <h2 id="season-overview">Season Overview</h2>
+    <p>One season runs roughly two months. Within it, three systems carry the progression:</p>
+    <ul>
+      <li><strong>Lord Statue</strong> — Resistance and Lord Evolution. The backbone of the season; see the <a href="#lord-statues">Lord Statues section</a>.</li>
+      <li><strong>Specialty trees</strong> — role-defining bonuses, split between growth and war paths.</li>
+      <li><strong>Elite Blight</strong> — group content with Resistance-gated difficulty.</li>
+    </ul>
+
+    <h2 id="resistance-first">Resistance: The #1 Daily Priority</h2>
+    <p>From day 1 of the season, Resistance is the top daily priority — ahead of anything else on your list. The reason is simple: it is the first progression wall, and <strong>all season progression depends on Resistance XP</strong>. Every other seasonal system unlocks or scales behind it.</p>
+    <p>Two practical rules for pushing Resistance:</p>
+    <ul>
+      <li><strong>Attack monsters even at a 30% damage penalty.</strong> The fight is often still clearable — and the Resistance XP flows either way.</li>
+      <li><strong>Rally Elite Blight with a higher-Resistance ally.</strong> Group difficulty scales with the participants; a stronger ally drags your clear along with them.</li>
+    </ul>
+    <p>One freebie worth grabbing immediately: the <strong>Greenery Shelter skin grants +100 Resistance XP</strong>. Claim it, apply it, and let it pay out every single day of the season — that is 100 XP per day you do not have to fight for.</p>
+
+    <h2 id="specialty-trees">Specialty Trees: Growth vs War</h2>
+    <p>The specialty trees split by spending profile, and the community picks are unambiguous:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Profile</th><th>Trees</th><th>What they give</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>F2P and mid-spenders</td><td>Handyman / Skilled Craftsman</td><td>Research and building time cuts — rush your Sanctuary and reach Tier 10 troops faster.</td></tr>
+        <tr><td>Whales / PvP-focused</td><td>Legion Commander / Military Commander</td><td>Battle buffs, healing, and rally power — the war path.</td></tr>
+      </tbody>
+    </table>
+    <p>The logic: if you are not outspending your neighbors, the growth trees win you the season by letting you out-build them. If you already out-spend them, the war trees convert that into battlefield results.</p>
+    <h3 id="war-supply">War Supply: The Plunder Cap Skill</h3>
+    <p>The Legion Commander tree carries War Supply, which raises your daily plunder limit by +6 / +14 / +24 / +36 / +50% at skill levels 1 through 5. For context on what that is worth per day, see the plunder limits table in the <a href="/economy/">Economy guide</a> — at late-game caps it is millions of extra resources daily.</p>
+
+    <h2 id="lord-statues">Lord Statues and the Era Academy</h2>
+    <p>The Lord Statues live in the Era Academy, and the two systems inside them do different jobs:</p>
+    <ul>
+      <li><strong>Resistance</strong> — the seasonal wall. XP-gated, fed by daily play, and the gate behind which the season&apos;s content and rewards sit.</li>
+      <li><strong>Lord Evolution</strong> — permanent stat growth for your march, fed by season materials.</li>
+    </ul>
+    <p>What resets at season end: the seasonal progression systems reset with the Era — Resistance progress and the seasonal tree climb go back to zero, while your permanent investments (Lord Evolution stats, heroes, gear) carry forward. Plan your spending accordingly: spend on permanent power freely, but do not hoard seasonal currencies past the season that issued them.</p>
+
+    <h2 id="lord-evolution-stats">Lord Evolution: Which Stats to Take</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Profile</th><th>Stats</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>F2P / progression</td><td>Research Speed, Construction Speed, Resource Production, Healing</td></tr>
+        <tr><td>PvP</td><td>Attack, March Size, Hero Damage</td></tr>
+      </tbody>
+    </table>
+    <p>The same logic as the specialty trees, one level down: progression accounts compound everything with speed stats; PvP accounts buy the stats that win fights on contact.</p>
+
+    <h2 id="hero-progression-order">Hero Progression in the Season</h2>
+    <p>The Awakened hero ladder inside the season, for your main hero, in order:</p>
+    <ol>
+      <li>Main hero to 10 stars.</li>
+      <li>Awakening.</li>
+      <li>Exclusive Weapon.</li>
+      <li>Lord Evolution.</li>
+      <li>Lord Resistance.</li>
+      <li>Era Enhancement — one main skin only.</li>
+      <li>Then the second hero, through the same ladder.</li>
+    </ol>
+    <p>Two binding rules: <strong>never split Awakening materials</strong>, and remember that one strong march beats several half-finished ones — the ladder exists precisely to stop you from leveling two heroes in parallel.</p>
+
+    <h2 id="hoarding-list">What to Hoard Before the Season</h2>
+    <p>If your account is approaching day 120, this is the stockpile list. Every item here is worth more spent inside the season than before it:</p>
+    <ul>
+      <li>Diamonds.</li>
+      <li>Recruit Tickets.</li>
+      <li>Hero Fragments and Medals.</li>
+      <li>All Speedups, including Research Speedups.</li>
+      <li>Antitoxin.</li>
+      <li>Raven Fruit.</li>
+      <li>Resources.</li>
+      <li>Weapon Materials.</li>
+    </ul>
+    <p>The pattern: the season adds new ways to spend all of them, and several seasonal events reward consumption — hoarding converts directly into event points and progression once the Era starts.</p>
+
+    <h2 id="week-1-purchases">Week 1 Purchases (Spenders)</h2>
+    <ul>
+      <li><strong>Battle Pass + Weekly Era Pass</strong> — +250 Resistance and Specialty XP. Best value timing of the season: buy them week 1 so the passes pay out across the full two months.</li>
+      <li><strong>Hold the Exclusive Weapon and Awaken Shard packs</strong> until the Exclusive Pass Event is active. Same packs, more value when the event pays you for buying them.</li>
+    </ul>
+
+    <h2 id="claire-conversion">Claire SSR-to-UR Conversion (Era Day 8)</h2>
+    <p>The Claire conversion opens at Era Day 8 — but do not touch it on day 8 without reading this first. The conversion lands Claire at 6 stars UR, and the road from there to 10 is where the problems live.</p>
+    <h3 id="conversion-costs">The Costs</h3>
+    <ul>
+      <li>Claire eats <strong>SSR shards, not UR shards</strong> — the hoarded early-game shards are exactly what this conversion was designed around.</li>
+      <li>Every substage costs <strong>x2</strong>: going 6 stars to 10 stars takes 1,600 shards total.</li>
+    </ul>
+    <h3 id="conversion-gains">The Gains</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Star level</th><th>Damage vs maxed SSR</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>9 stars</td><td>~1.70x</td></tr>
+        <tr><td>10 stars</td><td>~2.20x</td></tr>
+      </tbody>
+    </table>
+    <h3 id="the-passive-dip">The Passive Dip</h3>
+    <p>The trap: her passive team buff drops when you convert. The SSR&apos;s maxed passive is a 16% team buff; at 6 stars UR it is only 10% — a real couple of percent team loss while you climb back. It recovers at 9 stars (14%) and overtakes at 10 stars (22%).</p>
+    <h3 id="skip-the-dip">Skipping the Dip: The Hall of Honor Strategy</h3>
+    <p>You can skip the dip entirely by preparing Hall of Honor levels <strong>before</strong> converting:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Hall of Honor level</th><th>Conversion outcome</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Lv. 60</td><td>Claire lands at 8 stars — Advanced Tenacity (+20% ATK / HP / DEF, +10% cooldown speed)</td></tr>
+        <tr><td>Lv. 100</td><td>Claire lands at 9 stars</td></tr>
+        <tr><td>Lv. 160</td><td>All 1,600 shards banked — instant 10 stars, no dip at all</td></tr>
+      </tbody>
+    </table>
+    <p>The bottom line on timing: for an account without a full UR line-up, this conversion is a huge PvP upgrade — a 2.20x damage carry built on shards you hoarded for free. Just time it against your Hall of Honor level and shard bank so you land at 8 stars or better, not at 6.</p>
+
+        <Calculators calc="claire-shards" lang={lang} />
+    <VideoSection topic="era" lang={lang} />
+  </GuidePage>
+</Base>

@@ -1,0 +1,60 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { weeklySchedule, recurring } from '../../data/calendar';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ko';
+---
+
+<Base lang={lang} path="/calendar/" title="이벤트 캘린더" description="Last Asylum: Plague의 주간 리듬 — Falcon 클레임 요일, 동맹 결투 단계, 리셋과 정기 이벤트.">
+  <GuidePage
+    title="📅 이벤트 캘린더"
+    description="효율적인 플레이어라면 누구나 따르는 주간 리듬입니다. 참고: 정확한 로테이션은 서버마다 다릅니다 — 항상 인게임 캘린더를 확인하세요."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/ko/' }, { label: '캘린더' }]}
+  >
+    <h2 id="weekly-rhythm">주간 리듬</h2>
+    <div class="not-prose my-6 overflow-x-auto rounded-lg border border-stone-800">
+      <table class="w-full text-sm">
+        <thead class="bg-stone-900 text-left text-plague-300">
+          <tr><th class="p-3">요일</th><th class="p-3">이벤트</th><th class="p-3">할 일</th></tr>
+        </thead>
+        <tbody>
+          {weeklySchedule.map((e) => (
+            <tr class="border-t border-stone-800">
+              <td class="p-3 font-bold text-plague-200 whitespace-nowrap">{e.icon} {e.day}</td>
+              <td class="p-3 text-stone-200 whitespace-nowrap">{e.event}</td>
+              <td class="p-3 text-stone-400">{e.what}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <h2 id="recurring">리셋 &amp; 정기 일정</h2>
+    <div class="not-prose my-6 grid gap-3 sm:grid-cols-2">
+      {recurring.map((e) => (
+        <div class="rounded-lg border border-stone-800 bg-stone-900 p-4">
+          <p class="text-sm font-bold text-plague-200">{e.icon} {e.event}</p>
+          <p class="mt-0.5 text-xs text-stone-500">{e.day}</p>
+          <p class="mt-1 text-sm text-stone-400">{e.what}</p>
+        </div>
+      ))}
+    </div>
+
+    <h2 id="claim-days">클레임 요일 트릭 (월/수/금)</h2>
+    <p>Falcon Tower 퀘스트를 완료했지만 <strong>클레임하지 않으면</strong> 빨간 점이 유지되고 만료되지 않습니다. 더블 강화 요일은 월요일, 수요일, 금요일입니다:</p>
+    <ul>
+      <li>일요일에 퀘스트 완료 → 월요일에 클레임</li>
+      <li>화요일에 완료 → 수요일에 클레임</li>
+      <li>목요일에 완료 → 금요일에 클레임</li>
+    </ul>
+    <p><strong>스태킹 최대 − 1:</strong> 퀘스트판이 가득 차면 타이머가 멈춥니다. 최대치 중 퀘스트 하나를 완료해야 새 퀘스트가 계속 생성됩니다 — 퀘스트 흐름을 매일 조절하세요.</p>
+    <p class="text-sm text-stone-500">⚠️ 대기열 제한: 모든 퀘스트(완료 여부 무관)가 대기열 카운터(x/x)에 포함됩니다. 대기열이 가득 차면 다음 퀘스트는 사라집니다.</p>
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

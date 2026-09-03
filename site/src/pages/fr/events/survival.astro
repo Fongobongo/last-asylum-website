@@ -1,0 +1,71 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'fr';
+---
+<Base lang={lang} path="/fr/events/survival/" title="Survival Battle : 60K insignes gratuits" description="L&apos;événement de missions hebdomadaire qui paie aux joueurs F2P environ 60 000 Insignes de Compétence : catégories de missions, le truc de caserne à bas palier, le timing des Fruits de Corbeau, et le conflit de chevauchement avec l&apos;économie du Duel d&apos;Alliances.">
+  <GuidePage title="Survival Battle : 60K insignes gratuits" description="L&apos;événement de missions hebdomadaire qui paie aux joueurs F2P environ 60 000 Insignes de Compétence : catégories de missions, le truc de caserne à bas palier, le timing des Fruits de Corbeau, et le conflit de chevauchement avec l&apos;économie du Duel d&apos;Alliances." lang={lang}>
+    <p>Survival Battle est l&apos;<strong>événement de missions hebdomadaire</strong>, et pour les comptes free-to-play c&apos;est la source de revenus récurrente la plus importante du jeu : <strong>les joueurs F2P peuvent gagner environ 60 000 Insignes de Compétence par semaine</strong>. Les Insignes sont le goulot permanent des compétences de héros — cet événement, c&apos;est comment les garder à flot sans dépenser.</p>
+    <p>Ce guide couvre le fonctionnement des missions, les trucs de complétion bon marché, et le seul conflit stratégique que vous devez planifier.</p>
+
+    <h2 id="how-it-works">Comment ça fonctionne</h2>
+    <ul>
+      <li>Survival Battle est un <strong>événement hebdomadaire</strong> avec une liste de missions rotative.</li>
+      <li><strong>Les listes VARIENT PAR SERVEUR</strong> — votre liste peut ne pas correspondre à celle d&apos;un autre serveur, donc traitez tout guide de missions (y compris les noms précis) comme approximatif et vérifiez d&apos;abord votre propre liste en jeu.</li>
+      <li>La cible de paiement pour un compte F2P est de <strong>~60 000 Insignes de Compétence par semaine</strong> — atteignable avec les récompenses de missions quand la liste est complétée efficacement.</li>
+    </ul>
+    <p>Catégories de tâches que vous verrez dans les listes :</p>
+    <ul>
+      <li>Missions de recherche technologique</li>
+      <li>Missions d&apos;amélioration du Corbeau</li>
+      <li>Missions d&apos;entraînement de soldats (voir <a href="#barracks-trick">le truc de caserne</a>)</li>
+      <li>Missions de tuerie de monstres (voir <a href="#stamina-missions">missions d&apos;énergie</a>)</li>
+      <li>Missions de recrutement (voir <a href="#recruit-missions">le truc des tickets</a>)</li>
+    </ul>
+
+    <h2 id="barracks-trick">Le truc de la caserne à bas palier</h2>
+    <p>Les missions d&apos;Entraînement de Soldats ne se soucient pas du palier — elles comptent les têtes. Donc :</p>
+    <ol>
+      <li>Enfilez des <strong>troupes bon marché à bas palier</strong> dans votre caserne.</li>
+      <li>Chaque lot terminé coche la mission d&apos;Entraînement de Soldats pour une fraction du coût en nourriture et accélérations de la production réelle d&apos;armée.</li>
+      <li>Timing à toute épreuve : les lots à bas palier finissent vite, donc vous pouvez enchaîner plusieurs complétions dans une fenêtre d&apos;événement.</li>
+    </ol>
+    <p>C&apos;est la même logique de compte de têtes qui alimente la <a href="/fr/events/alliance-duel/">Phase 5 du Duel d&apos;Alliances</a> — sauf que là vous voulez les hauts paliers pour les gros points, alors qu&apos;ici seul le compte importe. Entraînez les troupes les moins chères que vous avez et nettoyez la mission.</p>
+
+    <h2 id="stamina-missions">Missions de monstres : gardez les Fruits de Corbeau, dépensez l&apos;énergie</h2>
+    <ul>
+      <li><strong>Gardez vos Fruits de Corbeau</strong> pour les missions de tuerie de monstres — ne les brûlez pas des jours ordinaires où rien ne paie le kill.</li>
+      <li><strong>Dépensez de l&apos;énergie</strong> pour réussir les missions de monstres. L&apos;énergie dépensée hors événements est le gaspillage F2P classique — les mêmes combats rapportent de la progression d&apos;événement quand ils sont calés sur une mission de monstres.</li>
+    </ul>
+
+    <h2 id="recruit-missions">La mission de recrutement à 30 tickets</h2>
+    <p>La complétion bon marché connue : une mission de recrutement se nettoie avec <strong>30 tickets de recrutement</strong>. Ça en fait un pur test de valeur — si vous avez 30 tickets en banque, la mission est gratuite ; sinon, pesez-la contre vos projets de <a href="/fr/events/alliance-duel/">Phase 4 du Duel d&apos;Alliances</a>, où les recrues paient +3 450 points chacune.</p>
+
+    <h2 id="duel-overlap">CRITIQUE : le chevauchement avec le Duel d&apos;Alliances</h2>
+    <blockquote>Certaines missions de Survival Battle chevauchent l&apos;économie du Duel d&apos;Alliances. Décidez quoi compléter maintenant et quoi garder pour le Duel.</blockquote>
+    <p>C&apos;est la seule vraie décision que l&apos;événement impose. Les missions de recherche, recrutement et entraînement veulent toutes les mêmes ressources pour lesquelles le duel paie double :</p>
+    <ul>
+      <li><strong>Une mission de recherche cette semaine contre la recherche sans parchemin du mercredi de duel en Phase 3.</strong></li>
+      <li><strong>Une mission de recrutement maintenant contre les +3 450 par recrue de la Phase 4.</strong></li>
+      <li><strong>Une mission d&apos;entraînement maintenant contre les points doublés et la valeur d&apos;accélération +30% de la Phase 5.</strong></li>
+    </ul>
+    <p>La règle empirique : comparez la récompense de Survival Battle aux points de duel que vous sacrifieriez. Tôt dans un cycle de duel, économisez pour le duel ; tard dans le cycle, ou quand la récompense de mission est riche en insignes, nettoyez la mission. Quand les calendriers entrent en collision, le revenu hebdomadaire de 60K insignes est la priorité F2P — les insignes n&apos;ont aucune autre source farmable à cette échelle.</p>
+
+    <h2 id="weekly-checklist">La checklist hebdomadaire</h2>
+    <ol>
+      <li>Ouvrez l&apos;événement en début de semaine et lisez la liste de missions de <strong>votre serveur</strong>.</li>
+      <li>Triez les missions en « à compléter maintenant » et « à garder pour le duel » — avant de dépenser quoi que ce soit.</li>
+      <li>Enfilez des lots à bas palier à la caserne pour les missions d&apos;entraînement.</li>
+      <li>Réservez les Fruits de Corbeau et l&apos;énergie pour les missions de monstres.</li>
+      <li>Mettez en banque 30 tickets de recrutement si une mission de recrutement est active.</li>
+      <li>Encaissez les ~60 000 Insignes de Compétence complets en fin de semaine.</li>
+    </ol>
+    <p>Pour savoir où vont ces insignes — l&apos;ordre de priorité des compétences de héros — voir le <a href="/fr/heroes/">guide des Héros</a>.</p>
+
+    <VideoSection topic="survival" lang={lang} />
+  </GuidePage>
+</Base>

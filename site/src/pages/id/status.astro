@@ -1,0 +1,56 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { statusUpdates } from '../../data/status';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'id';
+
+const statusStyles = {
+  fixed: 'border-toxic-500/40 bg-toxic-500/10 text-toxic-400',
+  investigating: 'border-amber-500/40 bg-amber-900/20 text-amber-300',
+  info: 'border-sky-500/40 bg-sky-900/20 text-sky-300',
+};
+const statusIcons = { fixed: '✅', investigating: '⚠️', info: 'ℹ️' };
+---
+
+<Base lang={lang} path="/status/" title="Status Server & Masalah Diketahui" description="Bug, perbaikan dan pengumuman resmi untuk Last Asylum: Plague — dirangkum dari kanal status resmi.">
+  <GuidePage
+    title="🛡️ Status Server & Masalah Diketahui"
+    description="Dirangkum dari kanal #status-update resmi. Untuk pembaruan langsung, bergabunglah dengan Discord resmi."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/id/' }, { label: 'Status' }]}
+  >
+    <p>Halaman ini mencantumkan setiap pengumuman resmi penting: bug, perbaikan, gelombang kompensasi dan peringatan keamanan. Terbaru di atas. Jika masalah Anda tidak tercantum, laporkan dalam game: Avatar → Account → User Center → Feedback.</p>
+
+    <div class="not-prose my-8 space-y-3">
+      {statusUpdates.map((s) => (
+        <article class="rounded-lg border border-stone-800 bg-stone-900 p-4">
+          <div class="flex flex-wrap items-center justify-between gap-2">
+            <h3 class="font-bold text-stone-100">{s.title}</h3>
+            <div class="flex items-center gap-2">
+              <time class="text-xs text-stone-500">{s.date}</time>
+              <span class={`rounded px-2 py-0.5 text-xs font-semibold ${statusStyles[s.status]}`}>{statusIcons[s.status]} {s.status}</span>
+            </div>
+          </div>
+          <p class="mt-2 text-sm text-stone-400">{s.detail}</p>
+        </article>
+      ))}
+    </div>
+
+    <h2 id="scam-alert">Peringatan penipuan (penting)</h2>
+    <p>Penipu menyamar sebagai petugas untuk mencuri akun. Staf asli <strong>tidak pernah</strong> meminta kata sandi, kode verifikasi, atau pembayaran di luar kanal resmi. Aktifkan penautan akun Facebook/Google di Settings.</p>
+
+    <h2 id="login-fixes">Tidak bisa masuk? Perbaikan cepat</h2>
+    <ul>
+      <li>Mulai ulang game sepenuhnya</li>
+      <li>Bersihkan cache game (mungkin perlu login ulang)</li>
+      <li>Matikan VPN jika Anda memakainya</li>
+      <li>Gunakan tombol <strong>Repair</strong> (pojok kanan atas di layar pemuatan)</li>
+    </ul>
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

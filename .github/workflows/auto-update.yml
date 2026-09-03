@@ -1,0 +1,62 @@
+name: Auto-update data & deploy
+
+on:
+  schedule:
+    - cron: '0 6 * * *' # daily 06:00 UTC
+  workflow_dispatch: # manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python deps
+        run: pip install "git+https://github.com/dolfies/discord.py-self.git" python-dotenv
+
+      - name: Scrape Discord channels
+        env:
+          DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+        run: python parse_channel.py
+        continue-on-error: true # tolerate transient Discord rate-limits
+
+      - name: Regenerate site data
+        run: python update_data.py
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      - name: Build site
+        run: npm ci && npm run build
+        working-directory: site
+        env:
+          SITE_URL: ${{ secrets.SITE_URL }}
+
+      - name: Commit & push updated data (if changed)
+        run: |
+          git config user.name "auto-update-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add site/src/data/giftcodes.ts site/src/data/patchnotes.ts data/
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: auto-update gift codes & patch notes [skip ci]"
+            git push
+
+            # Announce new gift codes to Telegram (optional)
+            if [ -n "$TELEGRAM_BOT_TOKEN" ] && [ -n "$TELEGRAM_CHAT_ID" ]; then
+              python announce_codes.py || true
+            fi
+          fi
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}

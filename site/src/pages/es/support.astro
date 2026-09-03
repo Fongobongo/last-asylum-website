@@ -1,0 +1,59 @@
+---
+import Base from '../../layouts/Base.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'es';
+
+// TODO: replace placeholder links when provided
+const REF_LINK = '#';
+const DONATE_LINK = '#';
+
+const valuePicks = [
+  'Recarga inicial de Marlena por $1 — llamada universalmente la mejor relación valor-precio del juego',
+  'Hero Pass — el mayor impulso directo de escuadrón',
+  'Battle Pass + Pase Semanal de Era en la semana 1 de la temporada (+250 Resistencia)',
+  'Paquetes de Aceleración Universal / Esencia del Cuervo / Subida de Nivel de Ciudad en el rango $20–200',
+  'Pista avanzada de Mythic Treasure (499) — uno de los mejores valores de evento',
+];
+---
+
+<Base lang={lang} path="/es/support/" title="Apóyanos" description="Apoya el fan hub de Last Asylum: Plague — recarga con nuestro enlace de referidos o dona al autor.">
+  <section class="mx-auto max-w-3xl py-16">
+    <h1 class="mb-3 text-4xl font-bold text-plague-100">❤️ Apoya el proyecto</h1>
+    <p class="mb-10 text-lg text-stone-400">Este fan site es gratuito y lo sostiene la comunidad. Puedes apoyarlo de dos formas:</p>
+
+    <div class="grid gap-6 sm:grid-cols-2">
+      <div class="flex flex-col rounded-xl border border-stone-800 bg-stone-900 p-6">
+        <span class="text-4xl">💎</span>
+        <h2 class="mt-4 text-xl font-bold text-plague-200">Recarga con nuestro enlace</h2>
+        <p class="mt-3 mb-6 flex-1 text-sm leading-relaxed text-stone-400">Compra artículos y moneda del juego a través del enlace de referidos de abajo — recibes el mismo valor, y el proyecto recibe una pequeña comisión.</p>
+        <a href={REF_LINK} class="rounded-lg bg-plague-700 px-5 py-3 text-center font-semibold text-plague-50 transition-colors hover:bg-plague-600">
+          Abrir tienda de recargas
+        </a>
+      </div>
+
+      <div class="flex flex-col rounded-xl border border-stone-800 bg-stone-900 p-6">
+        <span class="text-4xl">☕</span>
+        <h2 class="mt-4 text-xl font-bold text-plague-200">Dona al autor</h2>
+        <p class="mt-3 mb-6 flex-1 text-sm leading-relaxed text-stone-400">Si las guías te ahorraron diamantes, puedes enviar una propina directamente al autor del sitio.</p>
+        <a href={DONATE_LINK} class="rounded-lg bg-blood-600 px-5 py-3 text-center font-semibold text-white transition-colors hover:bg-blood-500">
+          Donar
+        </a>
+      </div>
+    </div>
+
+    <div class="mt-8 rounded-xl border border-stone-800 bg-stone-900 p-6">
+      <h2 class="text-xl font-bold text-plague-200">🛒 Qué vale la pena comprar si gastas</h2>
+      <p class="mt-2 mb-4 text-sm text-stone-400">El consenso de las guías de la comunidad sobre las compras de mejor valor, en orden:</p>
+      <ol class="list-decimal space-y-2 pl-5 text-sm text-stone-300">
+        {valuePicks.map((v) => <li>{v}</li>)}
+      </ol>
+    </div>
+
+    <p class="mt-6 text-xs text-stone-500">⚖️ Transparencia: los enlaces de referidos pueden generar una comisión a este sitio sin coste adicional para ti.</p>
+    <p class="mt-4 rounded-lg border border-stone-800 bg-stone-950 p-4 text-center text-sm text-stone-500">
+      🔧 Muy pronto — los enlaces se añadirán en breve.
+    </p>
+  </section>
+</Base>

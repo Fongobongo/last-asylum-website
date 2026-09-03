@@ -1,0 +1,56 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { statusUpdates } from '../../data/status';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ko';
+
+const statusStyles = {
+  fixed: 'border-toxic-500/40 bg-toxic-500/10 text-toxic-400',
+  investigating: 'border-amber-500/40 bg-amber-900/20 text-amber-300',
+  info: 'border-sky-500/40 bg-sky-900/20 text-sky-300',
+};
+const statusIcons = { fixed: '✅', investigating: '⚠️', info: 'ℹ️' };
+---
+
+<Base lang={lang} path="/status/" title="서버 상태 & 알려진 문제" description="Last Asylum: Plague의 알려진 버그, 수정 사항, 공지 — 공식 상태 채널에서 요약.">
+  <GuidePage
+    title="🛡️ 서버 상태 & 알려진 문제"
+    description="공식 #status-update 채널에서 요약. 실시간 업데이트는 공식 디스코드에 가입하세요."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/ko/' }, { label: '상태' }]}
+  >
+    <p>이 페이지는 모든 주요 공지를 나열합니다: 버그, 수정, 보상 지급, 보안 경고. 최신순입니다. 문제가 목록에 없다면 게임 내로 신고하세요: 아바타 → 계정 → User Center → 피드백.</p>
+
+    <div class="not-prose my-8 space-y-3">
+      {statusUpdates.map((s) => (
+        <article class="rounded-lg border border-stone-800 bg-stone-900 p-4">
+          <div class="flex flex-wrap items-center justify-between gap-2">
+            <h3 class="font-bold text-stone-100">{s.title}</h3>
+            <div class="flex items-center gap-2">
+              <time class="text-xs text-stone-500">{s.date}</time>
+              <span class={`rounded px-2 py-0.5 text-xs font-semibold ${statusStyles[s.status]}`}>{statusIcons[s.status]} {s.status}</span>
+            </div>
+          </div>
+          <p class="mt-2 text-sm text-stone-400">{s.detail}</p>
+        </article>
+      ))}
+    </div>
+
+    <h2 id="scam-alert">사기 경고 (중요)</h2>
+    <p>사기꾼들이 관계자를 사칭해 계정을 훔칩니다. 진짜 스태프는 절대 공식 채널 밖에서 비밀번호, 인증 코드, 결제를 <strong>요청하지 않습니다</strong>. 설정에서 Facebook/Google 계정 연동을 켜세요.</p>
+
+    <h2 id="login-fixes">로그인이 안 되나요? 빠른 해결</h2>
+    <ul>
+      <li>게임을 완전히 재시작하세요</li>
+      <li>게임 캐시를 지우세요 (재로그인 필요할 수 있음)</li>
+      <li>VPN을 쓰고 있다면 끄세요</li>
+      <li>로딩 화면 우측 상단의 <strong>복구(Repair)</strong> 버튼을 사용하세요</li>
+    </ul>
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

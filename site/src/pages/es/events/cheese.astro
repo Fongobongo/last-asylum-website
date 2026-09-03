@@ -1,0 +1,73 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'es';
+---
+<Base lang={lang} path="/es/events/cheese/" title="Cheese Trap: recompensas máximas" description="La concentración de alianza contra la rata gigante: recompensas personales de cinco fases, el fondo compartido de HP de alianza, por qué el orden de unión no importa, y la matemática de escalado que decide qué rata pelear.">
+  <GuidePage title="Cheese Trap: recompensas máximas" description="La concentración de alianza contra la rata gigante: recompensas personales de cinco fases, el fondo compartido de HP de alianza, por qué el orden de unión no importa, y la matemática de escalado que decide qué rata pelear." lang={lang}>
+    <p>Cheese Trap es un <strong>evento PvE de concentración de alianza</strong> contra una rata gigante. Tu daño personal gana recompensas personales a lo largo de cinco fases, y el daño total de la alianza gana recompensas de alianza separadas. Parece un evento de poder puro — en realidad es un evento de planificación, y la diferencia vale varios niveles de recompensa.</p>
+    <p>Esta guía cubre las dos pistas de recompensas, la regla del punto de parada, el escalado por nivel y cómo leer los rankings antes de que tu alianza se comprometa con una rata.</p>
+
+    <h2 id="how-it-works">Cómo funciona</h2>
+    <ul>
+      <li>Un <strong>R4 o R5 fija el inicio</strong>. Desde ese clic la alianza tiene <strong>unas 1.5 horas para atacar</strong>.</li>
+      <li><strong>Cheese Trap I y II difieren solo en el tiempo</strong> — misma rata, mismas reglas, ventana distinta. Elige la que encaje con tu horario.</li>
+      <li><strong>Solo puedes pelear contra UNA de las dos ratas.</strong> No hay reparto de tropas entre ambas.</li>
+      <li><strong>La participación offline funciona</strong> — únete a la concentración con antelación y tus escuadrones pelean incluso si cierras sesión. Configura tu marcha antes de que abra la ventana, y luego vive tu vida.</li>
+    </ul>
+
+    <h2 id="two-reward-tracks">Las dos pistas de recompensas</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Pista</th><th>Basada en</th><th>Recompensas</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Personal</td><td>Tu propio daño</td><td>5 fases de recompensas crecientes</td></tr>
+        <tr><td>Alianza</td><td>Daño total de la alianza</td><td>Niveles de recompensa para toda la alianza</td></tr>
+      </tbody>
+    </table>
+    <p>La interacción entre las pistas es lo importante:</p>
+    <ul>
+      <li><strong>PARA tras tu Fase 5 personal.</strong> El daño pasado ese punto es pérdida pura de tropas — cero recompensas personales extra por las tropas que quemas.</li>
+      <li><strong>Ambas ratas comparten un fondo de HP para las recompensas de alianza.</strong> Si un jugador alcanza la Fase 5 en una rata y otro para en la Fase 3 en la otra, el total de alianza cuenta como si todos alcanzaran la <strong>Fase 5</strong>. El fondo — no la fase — es lo que importa.</li>
+    </ul>
+
+    <h2 id="rally-mechanics">Mecánicas de la concentración: lo que realmente importa</h2>
+    <ul>
+      <li><strong>Unirse a una concentración de R4/R5 otorga +2.5% de ataque.</strong> Únete a la concentración en vez de marchar solo. Siempre.</li>
+      <li><strong>La fuerza del iniciador y el orden de unión tienen efecto CERO en tu daño.</strong> Unirse primero no golpea más fuerte; unirse último no chupa. Deja de pelear por posición — no cambia nada.</li>
+      <li><strong>Cada tropa hace daño.</strong> El fondo de HP de la rata es enorme, y ningún peso pesado puede "agotarlo" — una marcha completa de tropas baratas supera en daño a media marcha de caras. Trae cuerpos, no solo élites.</li>
+    </ul>
+
+    <h2 id="level-scaling">Escalado por nivel: qué rata pelear</h2>
+    <p>La decisión de nivel tiene una regla limpia:</p>
+    <blockquote>La Fase 4 de la rata del siguiente nivel es marginalmente mejor que la Fase 5 del nivel anterior — y paga mejores recompensas totales.</blockquote>
+    <p>En la práctica:</p>
+    <ul>
+      <li>Las alianzas establecidas juegan <strong>nivel 7 u 8</strong>.</li>
+      <li><strong>Cerca de un día de KvK, elige nivel 7</strong> — querrás tropas vivas para la <a href="/es/events/kvk/">guerra</a>, y la recompensa marginal del nivel 8 no vale las pérdidas extra.</li>
+    </ul>
+    <p>Antes de comprometerte, <strong>revisa los rankings</strong>: cuenta los jugadores que alcanzan la Fase 5 en la rata nivel 6 contra los que llegan a Fase 4+ en la 7. Si más de tu plantilla supera P4 en la 7 que P5 en la 6, la rata mayor es la mejor llamada.</p>
+    <h3 id="rewards-table">Leyendo la tabla de recompensas del juego</h3>
+    <p>La tabla completa está en el juego: <strong>Evento especial &gt; pestaña Cheese Trap &gt; botón Regalo &gt; Recompensas</strong>. Léela antes de que abra la rata — la comparación fase por fase te dice exactamente dónde cae el punto de parada de tu plantilla.</p>
+
+    <h2 id="team-setup">Configuración del equipo</h2>
+    <p>Prioridades de escuadrón para una pelea larga de jefe:</p>
+    <ul>
+      <li><strong>Supervivencia + DPS sostenido + sinergia.</strong> La rata es un maratón, no un chequeo de ráfaga.</li>
+      <li><strong>Vanguardia tanque</strong> — héroes que aguanten la pelea completa.</li>
+      <li><strong>Retaguardia fuerte</strong> — el motor de daño detrás de la vanguardia.</li>
+      <li><strong>Soporte-curandero</strong> — mantiene viva la vanguardia, lo que mantiene segura la retaguardia, lo que mantiene fluyendo el daño.</li>
+    </ul>
+    <p>Las elecciones específicas de héroes y sinergias de facción están en la <a href="/es/heroes/">guía de Héroes</a>.</p>
+
+    <h2 id="whale-carry">La opción del whale que acarrea</h2>
+    <p>Si tu alianza tiene un peso pesado, hay un patrón eficiente de endgame: <strong>2-3 concentraciones bastan para maximizar las recompensas de alianza</strong> cuando el whale acarrea el daño. El resto se une a la concentración por el +2.5%, deja caer sus tropas, y para en su Fase 5 personal. El daño del whale llena el fondo compartido; el nivel de alianza se llena; nadie quema tropas más allá de su propio punto de parada.</p>
+
+    <VideoSection topic="cheese" lang={lang} />
+  </GuidePage>
+</Base>

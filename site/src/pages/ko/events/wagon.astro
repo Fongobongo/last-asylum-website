@@ -1,0 +1,85 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ko';
+---
+<Base lang={lang} path="/ko/events/wagon/" title="길드 마차 &amp; 상단" description="일일 무료 마차 운행, 마차장과 경비 상자 규칙, 황금 마차 갱신, 상단 UR 샤드 전략, 서버 간 약탈, 그리고 금-보라-파랑 상자 우선순위.">
+  <GuidePage title="길드 마차 &amp; 상단" description="일일 무료 마차 운행, 마차장과 경비 상자 규칙, 황금 마차 갱신, 상단 UR 샤드 전략, 서버 간 약탈, 그리고 금-보라-파랑 상자 우선순위." lang={lang}>
+    <p>길드 마차와 상단은 게임의 일일 물류 이벤트입니다 — 그리고 둘 다 너무 많은 플레이어가 건너뛰는 <strong>무리스크, 무스태미나</strong> 수입입니다. 마차는 10분짜리 협동 훈련이고; 상단은 영구적인 UR 샤드 농장입니다. 어느 쪽도 부대나 실제 손실이 없으므로, 커뮤니티 규칙은 간단합니다: <strong>항상 운영하세요.</strong></p>
+    <p>이 가이드는 마차의 역할과 상자 규칙, 황금 마차, 상단 전략, 그리고 상자 우선순위가 있는 서버 간 약탈을 다룹니다.</p>
+
+    <h2 id="guild-wagon-basics">길드 마차: 일일 무료 운행</h2>
+    <ul>
+      <li><strong>동맹당 하루 1회 무료 마차</strong>, <strong>한국 표준시 11시</strong> 전후로 초기화됩니다.</li>
+      <li>지불 화면이 나타나면 <strong>무료분이 사용된 것</strong>입니다 — 일일 무료 운행이 동맹 전체에 없다는 신호입니다.</li>
+      <li><strong>유료 추가 운행이 존재하지만 — 아무도 거의 사지 않습니다.</strong> 유료벽은 무시하세요.</li>
+      <li><strong>길드 선물 레벨이 마차 레벨을 올립니다</strong> — 선물 레벨을 올리는 상점 선물이 마차 드롭도 업그레이드합니다. 선물 레벨을 신경 쓸 두 가지 이유입니다.</li>
+    </ul>
+
+    <h2 id="wagon-master">마차장, 경비, VIP</h2>
+    <p>역할:</p>
+    <ul>
+      <li><strong>온라인 R4/R5가 온라인 멤버를 마차장으로 임명</strong>합니다.</li>
+      <li>마차장은 풀 갱신을 위해 <strong>멤버에게서 티켓을 모읍니다</strong> (일부는 자동 전환) — <strong>5회 갱신이 &quot;황금 마차&quot;를 만듭니다.</strong></li>
+      <li><strong>경비와 VIP 모두 상자 2개를 받습니다.</strong> VIP는 그냥 탑니다 — VIP가 강등이 아니라는 뜻입니다, 상자는 동일합니다.</li>
+      <li><strong>CP가 낮나요? 강한 경비를 골라 마차를 지키세요.</strong> 운행의 안전은 경비 전력에 스케일됩니다.</li>
+      <li><strong>경비는 온라인이어야 합니다.</strong> 운행 시작 <strong>전에</strong> 조율하세요, 아니면 무방비 약탈을 위험합니다 — 일부 길드는 경비가 있는 밤에 마차를 돌리기 위해 일부러 마차장 임명을 늦춥니다.</li>
+    </ul>
+
+    <h2 id="chest-rules">상자 규칙 (흔한 실수)</h2>
+    <blockquote>상자 2개는 마차장이 아니라 경비를 위한 것입니다. 게임에서 가장 흔한 마차 실수입니다.</blockquote>
+    <p>전체 보상 분배:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>역할</th><th>보상</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>경비</td><td>각자 상자 2개</td></tr>
+        <tr><td>VIP</td><td>각자 상자 2개 (경비와 동일 — 그냥 탑니다)</td></tr>
+        <tr><td>승객</td><td>각자 무작위 뽑기 5회 + 차량 상자 1개</td></tr>
+        <tr><td>마차장</td><td>4개 마차 전체의 모든 아이템</td></tr>
+      </tbody>
+    </table>
+    <p>마지막 줄을 두 번 읽으세요 — <strong>마차장은 4개 마차 전체의 모든 아이템을 받습니다.</strong> 임명은 실제 지급이며, 그래서 상자 혼동이 지속되는 것입니다: 경비의 상자 2개는 마차장의 풀에서 빼지는 것이 아니라 그 위에 얹히는 것입니다.</p>
+
+    <h2 id="caravans">상단: UR 샤드 전략</h2>
+    <p>상단은 마차와 함께 진행되는 일일 상단 이벤트입니다:</p>
+    <ul>
+      <li>핵심 결정: <strong>어느 상단을 공격할지, 동맹 상단을 어떻게 세팅할지, 일일 보상을 어떻게 최대화할지.</strong></li>
+      <li><strong>상단과 비밀 작전은 절대 약탈 한도에 포함되지 않습니다</strong> — 일반 습격을 지배하는 일일 상한에서 면제입니다 (<a href="/ko/economy/">경제 가이드</a> 참고).</li>
+      <li><strong>실제 부대 손실도, 스태미나 비용도 없습니다.</strong> 매일 무리스크.</li>
+      <li><strong>항상 운영하세요.</strong> 그리고 <a href="/ko/events/kvk/">KvK</a> 가이드에서 기억하세요: <strong>상단과 비밀 작전은 KvK와 동맹 결투 양쪽 모두 득점</strong>됩니다 — 같은 운행이 두 번 지급됩니다.</li>
+    </ul>
+
+    <h2 id="plundering-servers">다른 서버 약탈</h2>
+    <p>서버 간 상단 경로:</p>
+    <ol>
+      <li><strong>상단 교역</strong>을 열고 <strong>&quot;이 서버의 상단 제외&quot;</strong> 초록 체크를 확인하세요 — 자기 서버의 상단을 걸러내고 외부 상단을 보여줍니다.</li>
+      <li><strong>남의 상단</strong>으로 가서 상단을 탭하면, <strong>약탈 버튼이 그 왕국으로 순간이동</strong>시킵니다.</li>
+      <li>팝업을 닫으면 머무는 동안 <strong>그 왕국을 자유롭게 돌아다닐 수 있습니다</strong>.</li>
+    </ol>
+
+    <h2 id="box-priority">상자 우선순위: 금, 보라, 파랑</h2>
+    <p>외부 맵이 상단으로 가득할 때, 목표 순서는:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>상자 색</th><th>가치</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>황금</td><td>최고 — UR 티어. 항상 목표.</td></tr>
+        <tr><td>보라</td><td>매우 좋음 — SSR 티어. 황금이 손에 닿지 않을 때의 우선 목표.</td></tr>
+        <tr><td>파랑</td><td>백업 — SR 티어. 맵이 깨끗해졌을 때의 채움.</td></tr>
+      </tbody>
+    </table>
+    <ul>
+      <li><strong>공격 전에 별점과 보상을 확인하세요</strong> — 미리보기가 상자가 무엇을 지급하는지 보여줍니다.</li>
+      <li><strong>좋은 색 + 높은 별 = 더 좋은 보상.</strong> 색 먼저, 별은 동순위 결정자.</li>
+    </ul>
+
+    <VideoSection topic="wagon" lang={lang} />
+  </GuidePage>
+</Base>

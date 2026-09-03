@@ -1,0 +1,52 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { heroTiers, tierColors } from '../../data/tiers';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ko';
+const tiers: ('S' | 'A' | 'B' | 'C')[] = ['S', 'A', 'B', 'C'];
+---
+
+<Base lang={lang} path="/tier-list/" title="영웅 티어 목록" description="Last Asylum: Plague 영웅 티어 목록 — 무과금/중과금 진행 경로에 맞춘 S/A/B/C 등급.">
+  <GuidePage
+    title="🏆 영웅 티어 목록"
+    description="커뮤니티 합의 순위, 전형적인 무과금/중과금 진행 경로 기준으로 가중치 적용. 티어 맥락이 중요합니다: 오늘 이미 보유한 &apos;B&apos;급 SSR이 3개월 뒤에나 얻을 &apos;S&apos;급 UR보다 낫습니다."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/ko/' }, { label: '티어 목록' }]}
+  >
+    <p>공식 Discord의 부대 구성 가이드, 보스전 분석, PvP 스레드에서 집편했습니다. 티어는 <strong>계정 전체 가치</strong>를 반영합니다 — 스탯 수치가 아닙니다.</p>
+
+    {tiers.map((tier) => (
+      <section class="not-prose my-6">
+        <h3 class={`mb-3 inline-block rounded-lg border px-3 py-1 text-xl font-bold ${tierColors[tier]}`}>
+          {tier} 티어
+        </h3>
+        <div class="grid gap-3 sm:grid-cols-2">
+          {heroTiers.filter((h) => h.tier === tier).map((h) => (
+            <div class="rounded-lg border border-stone-800 bg-stone-900 p-4">
+              <div class="flex items-baseline justify-between gap-2">
+                <p class="font-bold text-plague-200">{h.name}</p>
+                <span class="text-xs text-stone-500">{h.rarity} · {h.faction} · {h.class}</span>
+              </div>
+              <p class="mt-1 text-sm text-stone-400">{h.note}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+    ))}
+
+    <h2 id="how-to-read">이 목록 읽는 법</h2>
+    <ul>
+      <li><strong>S</strong> — 장기 코어 투자: 가장 먼저 키우고 영원히 유지</li>
+      <li><strong>A</strong> — 강력한 캐리와 이벤트 영웅: S 코어가 안정된 뒤 키울 가치</li>
+      <li><strong>B</strong> — 상황별/저비용: S/A 로스터를 쌓는 동안, 보스 부대에서, 또는 단일 진영 부대용으로 좋음</li>
+      <li><strong>C</strong> — 아주 초반 자리 채움꾼만</li>
+    </ul>
+    <blockquote>단일 진영 메타: UR 에피그라프는 단 하나의 진영만 버프합니다. 같은 진영 3영웅 = +5%, 4 = +15%, 5 = +20% HP/ATK/DEF. 진영 상성: Warrior &gt; Warlock &gt; Ranger &gt; Warrior.</blockquote>
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

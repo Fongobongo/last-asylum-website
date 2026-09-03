@@ -1,0 +1,52 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { heroTiers, tierColors } from '../../data/tiers';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'pt';
+const tiers: ('S' | 'A' | 'B' | 'C')[] = ['S', 'A', 'B', 'C'];
+---
+
+<Base lang={lang} path="/pt/tier-list/" title="Tier list de heróis" description="Tier list de heróis de Last Asylum: Plague — rankings S/A/B/C com contexto para a progressão F2P e de gasto médio.">
+  <GuidePage
+    title="🏆 Tier list de heróis"
+    description="Rankings por consenso da comunidade, ponderados para uma progressão típica F2P / gasto médio. Contexto importa: um SSR «B» que você já tem hoje vale mais que um UR «S» que você só vai ter em três meses."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/pt/' }, { label: 'Tier List' }]}
+  >
+    <p>Compilada a partir dos guias de composição de esquadrões, breakdowns de chefes e threads de PvP do Discord oficial. Os tiers refletem o <strong>valor geral para a conta</strong>, não stats brutos.</p>
+
+    {tiers.map((tier) => (
+      <section class="not-prose my-6">
+        <h3 class={`mb-3 inline-block rounded-lg border px-3 py-1 text-xl font-bold ${tierColors[tier]}`}>
+          Tier {tier}
+        </h3>
+        <div class="grid gap-3 sm:grid-cols-2">
+          {heroTiers.filter((h) => h.tier === tier).map((h) => (
+            <div class="rounded-lg border border-stone-800 bg-stone-900 p-4">
+              <div class="flex items-baseline justify-between gap-2">
+                <p class="font-bold text-plague-200">{h.name}</p>
+                <span class="text-xs text-stone-500">{h.rarity} · {h.faction} · {h.class}</span>
+              </div>
+              <p class="mt-1 text-sm text-stone-400">{h.note}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+    ))}
+
+    <h2 id="how-to-read">Como ler esta lista</h2>
+    <ul>
+      <li><strong>S</strong> — investimentos centrais de longo prazo: construa primeiro, mantenha para sempre</li>
+      <li><strong>A</strong> — carries fortes e heróis de evento: vale construir quando seu núcleo S estiver estável</li>
+      <li><strong>B</strong> — situacionais/econômicos: bons enquanto você monta o roster S/A, em comps de chefe ou em esquadrões mono-facção</li>
+      <li><strong>C</strong> — apenas marcadores de posição bem no início do jogo</li>
+    </ul>
+    <blockquote>Meta mono-facção: epígrafos UR dão buff para UMA facção apenas. 3 heróis da mesma facção = +5%, 4 = +15%, 5 = +20% HP/ATK/DEF. Contras: Warrior > Warlock > Ranger > Warrior.</blockquote>
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

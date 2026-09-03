@@ -1,0 +1,130 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import PlunderCalculator from '../../components/PlunderCalculator.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'pt';
+---
+<Base lang={lang} path="/pt/economy/" title="Economia: diamantes, lojas, saque" description="Para onde vai cada diamante: prioridades da loja VIP, o calendário de reposição, ordens de compra por loja, orçamentos da Roda dos Desejos e as mecânicas completas do saque com limites diários por nível de Santuário.">
+  <GuidePage title="Economia: diamantes, lojas, saque" description="Para onde vai cada diamante: prioridades da loja VIP, o calendário de reposição, ordens de compra por loja, orçamentos da Roda dos Desejos e as mecânicas completas do saque com limites diários por nível de Santuário." lang={lang}>
+    <p>Last Asylum: Plague roda três economias paralelas: diamantes e lojas, saque diário, e o calendário de eventos. Cada uma tem suas armadilhas — compras ruins de diamantes, capacidade de saque desperdiçada, vigor gasto a 5% de eficiência. Esta página é o consenso da comunidade sobre as três, com os números exatos.</p>
+
+    <h2 id="vip-shop">Loja VIP: prioridades de diamantes</h2>
+    <p>A loja VIP cobra diamantes, e a maioria do estoque é um mau negócio. A lista de compras verificada:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Prioridade</th><th>Itens</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>ALTA</td><td>Omnifragmento UR, Antídoto UR, Essência de Corvo, Aceleração 8h</td></tr>
+        <tr><td>MÉDIA</td><td>Aceleração 3h, Omnifragmento SSR, Aceleração 1h</td></tr>
+        <tr><td>BAIXA</td><td>Antídotos SSR, Realocação Direta</td></tr>
+      </tbody>
+    </table>
+    <p>E a regra completa: <strong>evite todo o resto salvo extrema necessidade.</strong> A loja tem preços para tentar jogadores impacientes a converter diamantes em itens que o jogo dá de graça por eventos — mantenha a linha.</p>
+
+    <h2 id="restock-schedule">Calendário de reposição das lojas</h2>
+    <p>Todas as lojas repõem na segunda-feira. Organize sua semana em torno disso: compre suas prioridades na segunda quando os estoques estão cheios, rode sua renda de Duelo de Alianças e Expedição no meio da semana, e passe o fim de semana decidindo o que a reposição da segunda te deve. Quem compra no domingo compra uma prateleira já saqueada.</p>
+
+    <h2 id="sanctuary-shop">Loja do Santuário</h2>
+    <ol>
+      <li>Essência de Corvo e Omnifragmentos de Herói UR — compre no máximo.</li>
+      <li>Antídotos e Omnifragmentos SSR.</li>
+      <li>Pedras de Equipamento e Tickets de Recrutamento.</li>
+      <li>Distintivos de Habilidade e Omnifragmentos SR — só com orçamento extra.</li>
+    </ol>
+
+    <h2 id="expedition-shop">Loja da Expedição</h2>
+    <ol>
+      <li>Omnifragmentos UR e Essências.</li>
+      <li>Baú de Expedição, Fragmento de Inscrição e o Baú de Inscrição UR.</li>
+      <li>Antídotos e Pedras de Equipamento.</li>
+      <li>Acelerações, Tickets e as Frutas de Corvo 100K — só o necessário.</li>
+    </ol>
+
+    <h2 id="honor-shop">Loja da Honra</h2>
+    <ol>
+      <li>Planta de Equipamento UR, Essência e Omnifragmentos UR.</li>
+      <li>Baús de Curiosidade e Inscrições UR.</li>
+      <li>Todo o resto — só necessidades urgentes.</li>
+    </ol>
+    <p>A regra crítica para a Honra em específico: honra é <strong>só para plantas de equipamento</strong>. Aqui não há baús de epígrafes — não é um descuido para contornar, é como a moeda foi desenhada. Gaste honra primeiro em plantas UR e trate o resto como preenchimento.</p>
+
+    <h2 id="alliance-shop">Loja da Aliança</h2>
+    <ol>
+      <li>Omnifragmento de Herói UR, Essência de Corvo e Realocação Direta.</li>
+      <li>Guia de Evolução do Corvo, Escudos, Baú de Inscrição SR e Fragmentos de Bella.</li>
+      <li>Opcional: todas as acelerações.</li>
+    </ol>
+
+    <h2 id="epigraph-chests">Baús de epígrafes: a regra da exceção</h2>
+    <p>Compre baús de epígrafes em todas as lojas <strong>exceto na Loja da Honra</strong>. Epígrafes alimentam o sistema do Corvo, e os epígrafes UR do Corvo só buffam uma facção — na meta monofação, isso torna os baús de epígrafes a compra de longo prazo mais consistente do jogo.</p>
+    <p>A renda F2P de epígrafes é real, se você der as caras por ela: 30 fragmentos UR por dia do Duelo de Alianças, mais a autoforja na Oficina de Epígrafes, soma cerca de 1.5 epígrafes UR por mês. O sistema completo — níveis de oficina, ordem de promoção e regras de raridade — está na <a href="/pt/raven/">guia do Corvo</a>.</p>
+
+    <h2 id="diamond-rules">Regras dos diamantes: rodas, banners e marcos</h2>
+    <ol>
+      <li><strong>Poupe até o dia 8</strong> para a Roda dos Desejos da Cynthia — ela custa cerca de 11,500 diamantes. Gire só de 10x; giros únicos pagam as mesmas chances a preço pior.</li>
+      <li><strong>Depois do dia 15, poupe para a roda do Joker</strong> — o evento do finalizadora PvP UR. A reserva de diamantes do meio do jogo existe para isso.</li>
+      <li><strong>Nunca despeje diamantes em recrutamento padrão.</strong> Espere banners com taxa aumentada — mesma moeda, heróis melhores.</li>
+      <li><strong>Não persiga marcos acumulados de gasto de diamantes</strong> tipo o Presente do Mar Profundo. Gastar diamantes só para cruzar um limiar de recompensa é comprar o marco, não o valor.</li>
+    </ol>
+    <h3 id="best-packs">Melhores pacotes (faixa $20-200)</h3>
+    <p>Se você gasta algo, a comunidade escolhe três pacotes na faixa $20-200: pacotes de Aceleração Universal, pacotes de Essência do Corvo e pacotes de Subida de Nível da Cidade. E dos guias para iniciantes: a recarga de $1 da Marlena no dia 66 continua sendo a melhor compra em valor do jogo a qualquer preço.</p>
+
+    <h2 id="plunder-mechanics">Saque: as mecânicas completas</h2>
+    <p>A renda do saque é limitada por um teto diário, e o teto escala com seu nível de Santuário. Conhecer os limiares muda quando você para de atacar no dia.</p>
+    <PlunderCalculator lang={lang} />
+    <h3 id="how-the-limit-works">Como funciona o limite</h3>
+    <ul>
+      <li>O limite conta o Grão, a Madeira e as Ervas levadas para casa dos ataques.</li>
+      <li>Abaixo do limite: você leva recursos com <strong>100%</strong> de eficiência.</li>
+      <li>A partir de 1x o limite: a eficiência cai para <strong>15%</strong>.</li>
+      <li>A partir de 1.3x o limite: a eficiência cai para <strong>5%</strong> — esse é o piso.</li>
+      <li>O limite reseta às <strong>02:00 UTC</strong> diariamente.</li>
+      <li>O triângulo amarelo sob o Poder do alvo é o indicador de excesso de limite — confira em Visão de Efeitos, depois Ganhos de Saque.</li>
+    </ul>
+    <h3 id="plunder-limits-table">Limites diários por nível de Santuário</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Santuário</th><th>Limite diário</th><th>Santuário</th><th>Limite diário</th><th>Santuário</th><th>Limite diário</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>10-12</td><td>2.5M</td><td>18</td><td>8M</td><td>24</td><td>18M</td></tr>
+        <tr><td>13</td><td>3M</td><td>19</td><td>9M</td><td>25</td><td>20M</td></tr>
+        <tr><td>14</td><td>4M</td><td>20</td><td>10M</td><td>26</td><td>22M</td></tr>
+        <tr><td>15</td><td>5M</td><td>21</td><td>12M</td><td>27</td><td>24M</td></tr>
+        <tr><td>16</td><td>6M</td><td>22</td><td>14M</td><td>28</td><td>26M</td></tr>
+        <tr><td>17</td><td>7M</td><td>23</td><td>16M</td><td>29 / 30</td><td>28M / 30M</td></tr>
+      </tbody>
+    </table>
+    <p>O padrão: +1M por nível de Santuário até o 20, depois +2M por nível até o teto de 30M no Santuário 30. Duas notas mecânicas:</p>
+    <ul>
+      <li>Uma melhoria do Santuário sobe seu limite <strong>imediatamente</strong> — sem esperar o reset. Se você está perto do teto diário e um nível de Santuário está próximo, termine-o primeiro e saqueie depois.</li>
+      <li>A habilidade Suprimento de Guerra da árvore de especialidade do Comandante da Legião (Era do Renascimento) sobe o teto em +6 / +14 / +24 / +36 / +50% nos níveis 1-5. Veja a <a href="/pt/era/">guia da Era</a>.</li>
+    </ul>
+
+    <h2 id="nine-hit-rule">A regra dos nove golpes</h2>
+    <p>Nunca ataque a mesma fazenda mais de nove vezes seguidas. O décimo golpe destrói a cidade e teleporta o dono para longe — você perde a fazenda, e o jogador perde a cidade. Nove golpes é o teto; a comunidade trata como obrigação, não sugestão.</p>
+
+    <h2 id="stamina-math">Matemática do vigor: por que saquear acima do limite falha</h2>
+    <p>Gastar vigor em saque acima do limite é uma das piores trocas do jogo:</p>
+    <ul>
+      <li>A 15% de eficiência, cada ponto de vigor rende cerca de <strong>7x menos</strong> que o normal.</li>
+      <li>A 5% de eficiência, cerca de <strong>20x menos</strong>.</li>
+      <li>O mesmo vigor gasto em monstros rende <strong>valor completo independentemente</strong> do seu status de saque.</li>
+    </ul>
+    <p>Então o ritmo diário se escreve sozinho: bata primeiro nos alvos mais ricos que você vence enquanto está a 100%, pare de atacar fazendas no momento em que cruzar o limite, e despeje o resto do vigor em monstros. E dentro da sua janela de saque, bata sempre no alvo mais rico primeiro — o limite vem de qualquer jeito, então encha-o com os maiores números disponíveis.</p>
+
+    <h2 id="caravans-covert-ops">Caravanas e Operações Secretas: rode sempre com as duas</h2>
+    <p>Caravanas e Operações Secretas são sistemas separados do saque, e escapam de todas as restrições acima: sem limite de saque, sem perda real de tropas, sem custo de vigor. São puro ganho, por isso a regra da comunidade é rodar com as duas todos os dias.</p>
+    <ul>
+      <li><strong>Caravanas</strong> — sua renda comercial automatizada. Mantenha-as andando.</li>
+      <li><strong>Operações Secretas</strong> — você pode saquear até 5 Operações Secretas de outros jogadores por dia. As Douradas pagam as melhores recompensas — pegue sempre uma dourada quando vir.</li>
+    </ul>
+
+    <VideoSection topic="economy" lang={lang} />
+  </GuidePage>
+</Base>

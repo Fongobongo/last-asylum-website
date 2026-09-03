@@ -1,0 +1,111 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ko';
+---
+<Base lang={lang} path="/ko/raven/" title="Raven &amp; 에피그라프 시스템" description="Raven 레벨과 플랜, 장비 전략, 에피그라프 등급과 승급 순서, 그리고 어떤 에피그라프가 업그레이드할 가치가 있는지 결정하는 단일 진영 규칙.">
+  <GuidePage title="Raven &amp; 에피그라프 시스템" description="Raven 레벨과 플랜, 장비 전략, 에피그라프 등급과 승급 순서, 그리고 어떤 에피그라프가 업그레이드할 가치가 있는지 결정하는 단일 진영 규칙." lang={lang}>
+    <p>Raven(까마귀)은 조용히 계정을 가르는 시스템입니다: 모든 부대에 한꺼번에 적용되는 추가 영웅처럼 작동하고, 그 에피그라프는 단일 진영 메타가 실제로 강제되는 곳입니다. Raven은 또한 대부분의 플레이어가 소홀히 하는 시스템입니다 — 1레벨에 갇힌 Raven은 고전적인 실수입니다.</p>
+    <p>이 페이지는 Raven 레벨과 플랜, 장비 전략, 에피그라프 등급과 승급 순서, 그리고 어떤 에피그라프가 재료를 받을 자격이 있는지 결정하는 규칙을 다룹니다.</p>
+
+    <h2 id="what-raven-is">Raven이란 무엇인가</h2>
+    <p>Raven은 모든 부대를 위한 추가 영웅입니다 — 그 버프는 하나의 편성이 아니라 모든 곳에 한꺼번에 적용됩니다. 두 가지 결과가 따릅니다:</p>
+    <ul>
+      <li>Raven 투자의 모든 포인트가 출격하는 모든 행군을 향상시키므로, 게임에서 가장 가치 높은 시스템 중 하나입니다.</li>
+      <li>그 먹이인 까마귀 정수가 전체 시스템의 병목입니다. 일찍 파밍하고 절대 멈추지 마세요 — VIP 상점과 생츄어리 상점이 모두 파는 이유가 정확히 이것입니다.</li>
+    </ul>
+    <p>장기 목표는 <strong>Raven 레벨 110</strong>이며, 그곳에서 최종 스킬이 착지합니다: 영향받은 대상에게 +50% 광역 피해. 그것이 시스템의 엔드게임이고, 까마귀 정수가 당신과 그 사이에 있는 것입니다.</p>
+
+    <h2 id="raven-levels">Raven 레벨과 플랜</h2>
+    <p>Raven 레벨은 에피그라프 슬롯(플랜이라 불리는)을 한 번에 하나씩 해금합니다:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Raven 레벨</th><th>해금</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>10</td><td>에피그라프 + 플랜 1 (첫 슬롯)</td></tr>
+        <tr><td>150</td><td>플랜 2 (+1 시스템 보너스)</td></tr>
+        <tr><td>300</td><td>플랜 3 (+2)</td></tr>
+        <tr><td>450</td><td>플랜 4 (+3)</td></tr>
+        <tr><td>600</td><td>플랜 5 (+4)</td></tr>
+      </tbody>
+    </table>
+    <p>표를 Raven의 진짜 성장 경로로 읽으세요: 레벨 10이 전체 에피그라프 시스템을 열고, 그 후 150레벨마다 슬롯이 하나씩 추가됩니다. 각 플랜 슬롯이 자체 에피그라프 버프를 지니므로, 멈춘 Raven 레벨은 장착 가능한 버프 수를 제한합니다.</p>
+
+    <h2 id="raven-gear">Raven 장비 전략</h2>
+    <p>Raven 장비를 8레벨까지 밀어주세요 — 퍼센트 버프가 도착하는 지점이고, 퍼센트 버프가 장비를 착용할 가치가 있게 만듭니다.</p>
+    <p>측면 전략, 좌 vs 우:</p>
+    <ul>
+      <li><strong>왼쪽</strong> — HP와 치명타 피해 감소. 구하기 쉽고 방어적 가치.</li>
+      <li><strong>오른쪽</strong> — ATK와 치명타 피해. 시스템에서 최고의 공격 가치.</li>
+    </ul>
+    <p>그리고 캘린더 규칙 하나: <strong>장비 상자는 동맹 결투 날을 위해 아끼세요.</strong> 그때 열면 동맹 결투 점수를 받습니다 — <a href="/ko/economy/">경제 가이드</a>의 가속을 지배하는 것과 같은 일석이조 논리입니다.</p>
+
+    <h2 id="epigraph-basics">에피그라프: 핵심 규칙</h2>
+    <p>에피그라프는 Raven의 플랜에 장착되어 한 진영의 영웅을 버프합니다. 등급은 다르게 행동하고, 그 차이가 모든 업그레이드 결정을 이끕니다:</p>
+    <ul>
+      <li><strong>UR (황금)</strong> — 단 하나의 진영만 버프합니다. 최종 목표이자, 단일 진영 부대가 메타인 이유입니다.</li>
+    </ul>
+    <ul>
+      <li><strong>SR (파랑)과 R (초록)</strong> — 모든 진영을 버프하지만 승급할 수 없습니다. 모두에게 조금씩 티어이며, UR을 향해 쌓는 동안 유용합니다.</li>
+    </ul>
+    <p>가장 중요한 단일 규칙: <strong>메인 부대의 진영 에피그라프만 업그레이드하세요.</strong> 편성하지 않는 진영을 버프하는 UR 에피그라프는 무가치합니다 — 단일 진영 메타에서 진영 밖 재료는 정확히 먹이 재료입니다 (아래 빠른 추가 참고).</p>
+
+    <h3 id="early-epigraphs">초반 메타 에피그라프</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>에피그라프</th><th>슬롯 유형</th><th>효과</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>광란의 무리</td><td>공격</td><td>Raven 스킬 발동 후 Warrior 아군에게 ATK 버프, 추가로 Raven 대상 증가.</td></tr>
+        <tr><td>역전의 힘</td><td>지원</td><td>ATK 최상위 3명의 Warrior 아군에게 피해, 적 궁극기 피해 감소.</td></tr>
+        <tr><td>수호 부적</td><td>—</td><td>생존 픽 — 부대가 딜 싸움에서 지기보다 계속 죽을 때의 표준 세 번째 선택.</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="epigraph-workshop">에피그라프 작업장</h2>
+    <p>UR 에피그라프 제작에는 <strong>작업장 레벨 20</strong>이 필요합니다. 그 아래의 모든 것은 그곳을 향한 준비입니다.</p>
+    <p>등급 사다리, 그리고 각 색이 실제로 쓰이는 곳:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>색</th><th>역할</th><th>메모</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>초록</td><td>재료</td><td>먹이 재료 티어.</td></tr>
+        <tr><td>파랑</td><td>개선된 재료</td><td>2성 SR 파랑은 대략 SSR 보라와 비슷하게 수행합니다 — 넘어서기 전까지 파랑을 쓰세요.</td></tr>
+        <tr><td>보라</td><td>전환 티어</td><td>UR이 자라는 동안 싸울 만큼은 좋습니다.</td></tr>
+        <tr><td>황금 (UR)</td><td>최종 목표</td><td>전체 시스템의 목표.</td></tr>
+      </tbody>
+    </table>
+    <p>하나의 절대 규칙: <strong>확신이 없다면 황금 에피그라프를 절대 분해하지 마세요.</strong> UR 에피그라프는 게임에서 가장 희소한 영구 자산입니다 — 분해한 UR은 돌아오지 않습니다.</p>
+
+    <h2 id="promotion-order">에피그라프 승급 순서</h2>
+    <p>이 순서를 따르세요 (DrAction 제공), 한 번에 한 슬롯씩 승급:</p>
+    <ol>
+      <li>중앙 — 방어 슬롯 (피해 감소).</li>
+      <li>상단 — 공격 슬롯 (Raven 대상).</li>
+      <li>우측 — 지원 슬롯 (피해 감소).</li>
+      <li>좌측 — 선제 슬롯 (방어% 버프).</li>
+    </ol>
+    <p>Warrior 검 에피그라프의 경우, 커뮤니티 변형: 지원 (우측) UR 먼저, 그다음 공격 (상단), 그다음 선제 또는 방어.</p>
+
+    <h2 id="rarity-comparisons">사람들이 놀라는 등급 비교</h2>
+    <p>피해 슬롯에서 별 레벨은 등급을 이길 수 있습니다. 플레이어들이 가장 많이 논쟁하는 검증된 비교들:</p>
+    <ul>
+      <li>4성 보라는 공격 슬롯에서 0성 황색 (UR)보다 피해가 높을 수 있습니다 — 커뮤니티 약어는 끝까지 보라 DMG.</li>
+      <li>0성 보호막 UR은 5성 SSR보다 낫습니다.</li>
+      <li>보라는 UR이 3성 이상이 될 때까지 King Blight 상대로 UR보다 잘 수행합니다.</li>
+    </ul>
+    <p>교훈은 보라가 몰래 최고 티어라는 것이 아닙니다 — 옳은 유형의 고성 에피그라프가 잘못된 유형의 신규 UR을 이긴다는 것입니다. 등급 상한을 쫓기 전에 에피그라프에 별을 먼저 찍으세요.</p>
+
+    <h2 id="ssr-vs-ur">SSR, UR, 그리고 실제로 업그레이드되는 것</h2>
+    <p>일찍 죽여버릴 가치가 있는 흔한 오해: <strong>SSR 에피그라프를 UR로 업그레이드할 수 없습니다.</strong> 업그레이드하는 것은 플랜입니다 — 에피그라프가 앉아 있는 슬롯이요. SSR 에피그라프는 그 진행의 자리 채움꾼이지 배아가 아닙니다.</p>
+    <p>이것이 게임에서 가장 흔한 Raven 실수로 이어집니다: 플레이어들이 메인 진영이 아닌 에피그라프를 <strong>빠른 추가</strong>로 Raven에게 먹이는 대신 모아두고 — 그리고 왜 자기 Raven이 1레벨에 갇혔는지 궁금해합니다. 진영 밖 저등급 에피그라프는 Raven 먹입니다. 빠른 추가 하세요; 그것이 그들의 존재 이유입니다.</p>
+
+    <VideoSection topic="raven" lang={lang} />
+  </GuidePage>
+</Base>

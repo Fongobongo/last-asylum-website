@@ -1,0 +1,36 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'id';
+const events = [
+  { slug: 'alliance-duel', name: 'Alliance Duel', icon: '⚔️', desc: 'Kompetisi aliansi enam hari dengan kategori poin harian, nilai poin pasti dan ekonomi simpan-segalanya.' },
+  { slug: 'elixir', name: 'Elixir Scramble', icon: '🧪', desc: 'Medan pertempuran poin AvA 30 menit di mana kendali, bukan kill, yang menang — Healing Tents, prioritas kastil dan aturan teleport.' },
+  { slug: 'kvk', name: 'Kingdom War (KvK)', icon: '🏰', desc: 'Perang server lawan server memperebutkan Royal City: serangan turret-dulu, pertahanan taktik menunda dan risiko pasukan nyata.' },
+  { slug: 'undead', name: 'Undead Siege', icon: '🧟', desc: 'Pertahanan aliansi melawan gelombang terinfeksi — mekanik multi-pasukan tersembunyi, HP persisten dan tonggak hadiah.' },
+  { slug: 'cheese', name: 'Cheese Trap', icon: '🧀', desc: 'Rally aliansi melawan tikus raksasa: hadiah pribadi lima fase, kolam HP aliansi bersama dan matematika penskalaan level.' },
+  { slug: 'thief', name: 'Thief Hunt', icon: '💰', desc: 'Belanjakan stamina untuk memunculkan bos Thief Leader — mekanik spawn, teknik kill tanpa henti dan prioritas penukaran.' },
+  { slug: 'survival', name: 'Survival Battle', icon: '🛡️', desc: 'Event misi mingguan bernilai ~60.000 Lencana Skill gratis — penyelesaian murah dan tumpang tindih dengan Alliance Duel.' },
+  { slug: 'canyon', name: 'Canyon Conquest', icon: '🏜️', desc: 'Pertempuran estafet tiga jalur di mana daya tahan mengalahkan kekuatan — strategi prioritas jalur dalam event tanpa risiko.' },
+  { slug: 'mythic', name: 'Mythic Treasure', icon: '🗺️', desc: 'Event bajak laut tujuh tab yang diuraikan untuk F2P: prioritas pasar, batas 300 ikan dan strategi Buried Treasure.' },
+  { slug: 'royal', name: 'Royal Castle Scramble', icon: '👑', desc: 'Balapan perebutan kastil mingguan — satu march per pemain, penguatan 30 slot dan sistem gelar Royal City lengkap.' },
+  { slug: 'arena', name: 'Triangle Arena', icon: '🔺', desc: 'Tiga lineup, penyerang memilih dua untuk dikalahkan — pertahanan merata, pasangan pengorbanan dan pasukan jebakan Arena of Fate.' },
+  { slug: 'wagon', name: 'Guild Wagon & Caravans', icon: '🚚', desc: 'Jalankan wagon gratis harian, aturan peti Guard, refresh Golden Wagon dan farm shard UR karavan.' },
+];
+---
+<Base lang={lang} path="/id/events/" title="Panduan Event" description="Uraian lengkap setiap event Last Asylum: Plague: jadwal, skor, strategi dan kesalahan yang harus dihindari.">
+  <section class="py-12">
+    <h1 class="mb-3 text-4xl font-bold text-plague-100">Panduan Event</h1>
+    <p class="mb-10 text-lg text-stone-400">Uraian lengkap setiap event: jadwal, skor, strategi dan kesalahan yang harus dihindari.</p>
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {events.map(e => (
+        <a href={`/id/events/${e.slug}/`} class="group rounded-lg border border-stone-800 bg-stone-900 p-5 transition-colors hover:border-plague-600">
+          <span class="text-3xl">{e.icon}</span>
+          <h2 class="mt-3 text-lg font-bold text-plague-200 group-hover:text-plague-100">{e.name}</h2>
+          <p class="mt-2 text-sm text-stone-400">{e.desc}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</Base>

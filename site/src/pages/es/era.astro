@@ -1,0 +1,135 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'es';
+---
+<Base lang={lang} path="/es/era/" title="Era del Renacimiento: guía de temporada" description="El sistema de temporada: la Resistencia como prioridad diaria, árboles de especialidad para F2P y whales, estadísticas de Evolución del Señor, la lista de acopio y la matemática completa de la conversión de Claire SSR a UR con la estrategia de saltar el bache del Salón del Honor.">
+  <GuidePage title="Era del Renacimiento: guía de temporada" description="El sistema de temporada: la Resistencia como prioridad diaria, árboles de especialidad para F2P y whales, estadísticas de Evolución del Señor, la lista de acopio y la matemática completa de la conversión de Claire SSR a UR con la estrategia de saltar el bache del Salón del Honor." lang={lang}>
+    <p>La Era del Renacimiento es la capa estacional que llega alrededor del día 120 — un ciclo de unos dos meses que añade sus propios sistemas de progresión sobre el juego base: la Estatua del Señor (Resistencia y Evolución del Señor), los árboles de Especialidad y la Plaga de Élite.</p>
+    <p>La temporada recompensa el enfoque, y castiga la distracción más duro que el juego base. Esta página cubre qué priorizar a diario, qué árbol de especialidad encaja con tu nivel de gasto, qué acopiar antes de que empiece la temporada, y la matemática completa de la conversión de Claire SSR a UR.</p>
+
+    <h2 id="season-overview">Resumen de la temporada</h2>
+    <p>Una temporada dura unos dos meses. Dentro de ella, tres sistemas llevan la progresión:</p>
+    <ul>
+      <li><strong>Estatua del Señor</strong> — Resistencia y Evolución del Señor. La columna vertebral de la temporada; consulta la <a href="#lord-statues">sección de Estatuas del Señor</a>.</li>
+      <li><strong>Árboles de Especialidad</strong> — bonos que definen el rol, divididos entre rutas de crecimiento y guerra.</li>
+      <li><strong>Plaga de Élite</strong> — contenido grupal con dificultad limitada por Resistencia.</li>
+    </ul>
+
+    <h2 id="resistance-first">Resistencia: la prioridad diaria #1</h2>
+    <p>Desde el día 1 de la temporada, la Resistencia es la prioridad diaria máxima — por delante de cualquier otra cosa en tu lista. La razón es simple: es el primer muro de progresión, y <strong>toda la progresión de temporada depende del XP de Resistencia</strong>. Cada otro sistema estacional se desbloquea o escala detrás de él.</p>
+    <p>Dos reglas prácticas para empujar la Resistencia:</p>
+    <ul>
+      <li><strong>Ataca monstruos incluso con 30% de penalización al daño.</strong> La pelea suele seguir siendo ganable — y el XP de Resistencia fluye de todos modos.</li>
+      <li><strong>Concéntrate en la Plaga de Élite con un aliado de Resistencia superior.</strong> La dificultad grupal escala con los participantes; un aliado más fuerte arrastra tu limpieza con él.</li>
+    </ul>
+    <p>Un regalo que conviene reclamar de inmediato: la <strong>skin del Refugio Vegetal otorga +100 XP de Resistencia</strong>. Reclámala, aplícala, y deja que pague cada día de la temporada — son 100 XP diarios que no tienes que pelear.</p>
+
+    <h2 id="specialty-trees">Árboles de especialidad: Crecimiento vs Guerra</h2>
+    <p>Los árboles de especialidad se dividen por perfil de gasto, y las elecciones de la comunidad son inequívocas:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Perfil</th><th>Árboles</th><th>Qué dan</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>F2P y gasto medio</td><td>Manitas / Artesano Hábil</td><td>Recortes de tiempo de investigación y construcción — acelera tu Santuario y llega antes a tropas Nivel 10.</td></tr>
+        <tr><td>Whales / enfoque PvP</td><td>Comandante de Legión / Comandante Militar</td><td>Bonos de batalla, curación y poder de concentración — la ruta de guerra.</td></tr>
+      </tbody>
+    </table>
+    <p>La lógica: si no superas en gasto a tus vecinos, los árboles de crecimiento te ganan la temporada dejándote construir más que ellos. Si ya gastas más, los árboles de guerra lo convierten en resultados en el campo de batalla.</p>
+    <h3 id="war-supply">Aprovisionamiento de Guerra: la habilidad del tope de saqueo</h3>
+    <p>El árbol del Comandante de Legión lleva el Aprovisionamiento de Guerra, que sube tu límite diario de saqueo en +6 / +14 / +24 / +36 / +50% en los niveles de habilidad 1 a 5. Para contexto de lo que eso vale al día, consulta la tabla de límites de saqueo en la <a href="/es/economy/">guía de Economía</a> — con los topes del final del juego son millones de recursos extra diarios.</p>
+
+    <h2 id="lord-statues">Estatuas del Señor y la Academia de la Era</h2>
+    <p>Las Estatuas del Señor viven en la Academia de la Era, y los dos sistemas dentro hacen trabajos distintos:</p>
+    <ul>
+      <li><strong>Resistencia</strong> — el muro estacional. Limitada por XP, alimentada por el juego diario, y la puerta tras la que están el contenido y las recompensas de la temporada.</li>
+      <li><strong>Evolución del Señor</strong> — crecimiento permanente de estadísticas para tu marcha, alimentado por materiales de temporada.</li>
+    </ul>
+    <p>Qué se reinicia al final de la temporada: los sistemas de progresión estacional se reinician con la Era — el progreso de Resistencia y la escalada estacional vuelven a cero, mientras tus inversiones permanentes (estadísticas de Evolución del Señor, héroes, equipo) continúan. Planifica el gasto en consecuencia: gasta con libertad en poder permanente, pero no atesores monedas de temporada más allá de la temporada que las emitió.</p>
+
+    <h2 id="lord-evolution-stats">Evolución del Señor: qué estadísticas tomar</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Perfil</th><th>Estadísticas</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>F2P / progresión</td><td>Velocidad de Investigación, Velocidad de Construcción, Producción de Recursos, Curación</td></tr>
+        <tr><td>PvP</td><td>Ataque, Tamaño de Marcha, Daño de Héroe</td></tr>
+      </tbody>
+    </table>
+    <p>La misma lógica que los árboles de especialidad, un nivel más abajo: las cuentas de progresión lo acumulan todo con estadísticas de velocidad; las cuentas PvP compran las estadísticas que ganan peleas al contacto.</p>
+
+    <h2 id="hero-progression-order">Progresión de héroes en la temporada</h2>
+    <p>La escalera de héroes Despiertos dentro de la temporada, para tu héroe principal, en orden:</p>
+    <ol>
+      <li>Héroe principal a 10 estrellas.</li>
+      <li>Despertar.</li>
+      <li>Arma Exclusiva.</li>
+      <li>Evolución del Señor.</li>
+      <li>Resistencia del Señor.</li>
+      <li>Mejora de Era — solo una skin principal.</li>
+      <li>Luego el segundo héroe, por la misma escalera.</li>
+    </ol>
+    <p>Dos reglas vinculantes: <strong>nunca repartas los materiales de Despertar</strong>, y recuerda que una marcha fuerte vence a varias a medias — la escalera existe precisamente para impedir que subas dos héroes en paralelo.</p>
+
+    <h2 id="hoarding-list">Qué acopiar antes de la temporada</h2>
+    <p>Si tu cuenta se acerca al día 120, esta es la lista de acopio. Cada artículo aquí vale más gastado dentro de la temporada que antes:</p>
+    <ul>
+      <li>Diamantes.</li>
+      <li>Tickets de Reclutamiento.</li>
+      <li>Fragmentos de Héroes y Medallas.</li>
+      <li>Todas las Aceleraciones, incluidas las de Investigación.</li>
+      <li>Antitoxina.</li>
+      <li>Fruta del Cuervo.</li>
+      <li>Recursos.</li>
+      <li>Materiales de Armas.</li>
+    </ul>
+    <p>El patrón: la temporada añade nuevas formas de gastarlos todos, y varios eventos estacionales premian el consumo — acopiar se convierte directamente en puntos de evento y progresión en cuanto empieza la Era.</p>
+
+    <h2 id="week-1-purchases">Compras de la semana 1 (los que gastan)</h2>
+    <ul>
+      <li><strong>Battle Pass + Pase Semanal de Era</strong> — +250 Resistencia y XP de Especialidad. El mejor momento de la temporada: cómpralos la semana 1 para que paguen durante los dos meses completos.</li>
+      <li><strong>Retén los paquetes de Arma Exclusiva y Fragmentos de Despertar</strong> hasta que el Evento de Pase Exclusivo esté activo. Mismos paquetes, más valor cuando el evento te paga por comprarlos.</li>
+    </ul>
+
+    <h2 id="claire-conversion">Conversión de Claire SSR a UR (día 8 de la Era)</h2>
+    <p>La conversión de Claire se abre el día 8 de la Era — pero no la toques ese día sin leer esto primero. La conversión deja a Claire en 6 estrellas UR, y el camino de ahí a 10 es donde viven los problemas.</p>
+    <h3 id="conversion-costs">Los costes</h3>
+    <ul>
+      <li>Claire consume <strong>fragmentos SSR, no UR</strong> — los fragmentos atesorados del juego temprano son exactamente para lo que se diseñó esta conversión.</li>
+      <li>Cada subnivel cuesta <strong>x2</strong>: ir de 6 estrellas a 10 lleva 1,600 fragmentos en total.</li>
+    </ul>
+    <h3 id="conversion-gains">Las ganancias</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Nivel de estrellas</th><th>Daño vs SSR maximizado</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>9 estrellas</td><td>~1.70x</td></tr>
+        <tr><td>10 estrellas</td><td>~2.20x</td></tr>
+      </tbody>
+    </table>
+    <h3 id="the-passive-dip">El bache de la pasiva</h3>
+    <p>La trampa: su bono pasivo de equipo baja al convertir. La pasiva maximizada del SSR es un bono de equipo del 16%; con 6 estrellas UR es solo del 10% — un par de puntos porcentuales reales de pérdida mientras escalas de vuelta. Se recupera a las 9 estrellas (14%) y supera a las 10 (22%).</p>
+    <h3 id="skip-the-dip">Saltar el bache: la estrategia del Salón del Honor</h3>
+    <p>Puedes saltar el bache por completo preparando niveles del Salón del Honor <strong>antes</strong> de convertir:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Nivel del Salón del Honor</th><th>Resultado de la conversión</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Niv. 60</td><td>Claire queda en 8 estrellas — Tenacidad Avanzada (+20% ATK / HP / DEF, +10% velocidad de recuperación)</td></tr>
+        <tr><td>Niv. 100</td><td>Claire queda en 9 estrellas</td></tr>
+        <tr><td>Niv. 160</td><td>Los 1,600 fragmentos bancados — 10 estrellas instantáneas, sin bache</td></tr>
+      </tbody>
+    </table>
+    <p>La conclusión sobre el timing: para una cuenta sin una alineación UR completa, esta conversión es una mejora PvP enorme — una portadora de 2.20x de daño construida con fragmentos que atesoraste gratis. Solo calcúlalo contra tu nivel del Salón del Honor y tu banco de fragmentos para quedar en 8 estrellas o mejor, no en 6.</p>
+
+    <VideoSection topic="era" lang={lang} />
+  </GuidePage>
+</Base>

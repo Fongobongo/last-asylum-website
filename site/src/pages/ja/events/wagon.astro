@@ -1,0 +1,85 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ja';
+---
+<Base lang={lang} path="/ja/events/wagon/" title="Guild Wagon とキャラバン" description="毎日の無料ワゴン、Wagon Master と護衛の箱ルール、ゴールデンワゴン、キャラバンでのURシャード戦略、他サーバー略奪、そして金・紫・青の箱の優先度。">
+  <GuidePage title="Guild Wagon とキャラバン" description="毎日の無料ワゴン、Wagon Master と護衛の箱ルール、ゴールデンワゴン、キャラバンでのURシャード戦略、他サーバー略奪、そして金・紫・青の箱の優先度。" lang={lang}>
+    <p>Guild Wagon とキャラバン(Caravans)は、このゲームの毎日の物資イベントです — そしてどちらも、多くのプレイヤーが飛ばす<strong>リスクゼロ・スタミナゼロ</strong>の収入です。ワゴンは10分間の調整運動、キャラバンは恒久的なURシャードの農場です。どちらも兵士や実質的な損失を要求しないので、コミュニティルールはシンプル:<strong>必ず毎日走らせる。</strong></p>
+    <p>このガイドでは、ワゴンの役割と箱のルール、ゴールデンワゴン、キャラバンの戦略、そして他サーバー略奪と箱の優先度を解説します。</p>
+
+    <h2 id="guild-wagon-basics">Guild Wagon:毎日の無料走行</h2>
+    <ul>
+      <li><strong>同盟ごとに1日1回の無料ワゴン</strong>、リセットは<strong>午前11時(韓国時間/KST)</strong>前後。</li>
+      <li>支払い画面が出てきたら、<strong>無料枠は消化済み</strong> — 同盟全体のその日の無料走行がなくなった合図です。</li>
+      <li><strong>有料の追加走行は存在する — ほぼ誰も買わない。</strong> 課金壁は無視しましょう。</li>
+      <li><strong>ギフトレベルがワゴンのレベルを上げる</strong> — ギフトレベルを上げるショップギフトが、ワゴンのドロップもアップグレードします。ギフトレベルを気にする2つ目の理由です。</li>
+    </ul>
+
+    <h2 id="wagon-master">Wagon Master、護衛、VIP</h2>
+    <p>役割:</p>
+    <ul>
+      <li>オンラインの<strong>R4/R5が、オンラインのメンバーをWagon Master に任命</strong>します。</li>
+      <li>マスターは<strong>メンバーからチケットを集め</strong>(一部は自動変換)、プールのリフレッシュに使います — <strong>5回のリフレッシュで「ゴールデンワゴン」</strong>になります。</li>
+      <li><strong>護衛もVIPも2つの箱を獲る。</strong> VIPはただ乗りするだけ — VIPであることは格下げではなく、箱は同じです。</li>
+      <li><strong>CPが低い?ワゴンを守るために強い護衛を選ぶ。</strong> 走行の安全性は護衛の強さでスケールします。</li>
+      <li><strong>護衛はオンライン必須。</strong> 走行の<strong>前に</strong>調整するか、無防備な略奪をリスクします — ギルドによっては、護衛が揃う夜間に走行できるよう、あえてマスター任命を遅らせるところもあります。</li>
+    </ul>
+
+    <h2 id="chest-rules">箱のルール(最も多いミス)</h2>
+    <blockquote>2つの箱はマスターではなく護衛のもの。このゲームで最も多いワゴンのミス。</blockquote>
+    <p>報酬の全配分：</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>役割</th><th>報酬</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>護衛(Guards)</td><td>各2つ箱</td></tr>
+        <tr><td>VIP</td><td>各2つ箱(護衛と同一 — ただ乗りするだけ)</td></tr>
+        <tr><td>乗客(Passengers)</td><td>ランダム抽選5回 + 各1つの車両箱</td></tr>
+        <tr><td>Wagon Master</td><td>4つのワゴンすべてのアイテムすべて</td></tr>
+      </tbody>
+    </table>
+    <p>最後の行を2回読みましょう — <strong>マスターは4つのワゴンすべてのすべてのアイテムを受け取ります。</strong> 任命は実打の報酬であり、まさにそれゆえに箱の混同が残り続けます:護衛の2つの箱は、マスターのプールからではなく、取り分の上に積まれるものです。</p>
+
+    <h2 id="caravans">キャラバン:URシャード戦略</h2>
+    <p>キャラバンはワゴンと並走する、毎日のキャラバンイベントです：</p>
+    <ul>
+      <li>中核の意思決定:<strong>どのキャラバンを攻撃するか、自分の同盟キャラバンをどう設定するか、そして毎日の報酬の最大化。</strong></li>
+      <li><strong>キャラバンと秘密作戦(Covert Ops)は略奪上限に一切カウントされない</strong> — 通常の略奪を支配する1日の上限から免除されています(<a href="/ja/economy/">経済ガイド</a>参照)。</li>
+      <li><strong>実質的な兵士損失なし、スタミナコストなし。</strong> リスクゼロで、毎日。</li>
+      <li><strong>必ず毎日走らせる。</strong> そして<a href="/ja/events/kvk/">KvK</a>ガイドからの思い出し:<strong>キャラバンと秘密作戦はKvKとAlliance Duelの両方にスコア</strong> — 同じ走行が2回支払われます。</li>
+    </ul>
+
+    <h2 id="plundering-servers">他サーバーの略奪</h2>
+    <p>クロスサーバーのキャラバンルート：</p>
+    <ol>
+      <li><strong>Caravan Trade</strong>を開き、<strong>「このサーバーのキャラバンを除外」</strong>のグリーンチェックを確認 — 自国サーバーのキャラバンが除外され、よそのサーバーが表示されます。</li>
+      <li><strong>Other&apos;s Caravan</strong>へ行き、キャラバンをタップ。<strong>略奪ボタンがその王国へテレポート</strong>します。</li>
+      <li>ポップアップを閉じれば、滞在中その王国を<strong>自由に徘徊</strong>できます。</li>
+    </ol>
+
+    <h2 id="box-priority">箱の優先度:金、紫、青</h2>
+    <p>キャラバンだらけの他国のマップを前にした時の、ターゲットの順番：</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>箱の色</th><th>価値</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>金</td><td>最高 — URティア。常に最優先ターゲット。</td></tr>
+        <tr><td>紫</td><td>非常に良い — SSRティア。金が手が届かない時の優先ターゲット。</td></tr>
+        <tr><td>青</td><td>バックアップ — SRティア。マップが漁り尽くされた時の埋め草。</td></tr>
+      </tbody>
+    </table>
+    <ul>
+      <li><strong>攻撃する前に星の評価と報酬を確認</strong> — プレビューにその箱の支払いが表示されます。</li>
+      <li><strong>色が良い + 星が高い = 報酬が良い。</strong> まず色、星はタイブレーカーとして。</li>
+    </ul>
+
+    <VideoSection topic="wagon" lang={lang} />
+  </GuidePage>
+</Base>

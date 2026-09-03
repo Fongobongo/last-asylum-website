@@ -1,0 +1,102 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'pt';
+---
+<Base lang={lang} path="/pt/events/undead/" title="Cerco dos mortos-vivos: guia completo" description="Defesa de aliança contra ondas infectadas: a barra de 300,000 pistas, níveis de dificuldade de 2.4M a 24.5M de Poder inimigo, a mecânica oculta de múltiplos esquadrões que mata jogadores de 9.5M e tabelas completas de recompensas.">
+  <GuidePage title="Cerco dos mortos-vivos: guia completo" description="Defesa de aliança contra ondas infectadas: a barra de 300,000 pistas, níveis de dificuldade de 2.4M a 24.5M de Poder inimigo, a mecânica oculta de múltiplos esquadrões que mata jogadores de 9.5M e tabelas completas de recompensas." lang={lang}>
+    <p>O Cerco dos mortos-vivos é o evento de defesa de aliança: sua aliança inteira resiste a <strong>ondas de infectados</strong>, com heróis na muralha lutando. Duas regras o definem antes de qualquer coisa: <strong>escudos não funcionam</strong>, e <strong>não é um evento de pontos</strong> — o objetivo é defender o máximo de ondas possível.</p>
+    <p>Este guia cobre como cercos desbloqueiam, a escada de dificuldade, a mecânica oculta de múltiplos esquadrões que varre alianças despreparadas, recompensas e os sete erros principais.</p>
+
+    <h2 id="unlocking">Como um cerco desbloqueia</h2>
+    <p>Cercos não ficam num cronômetro — sua aliança os dispara:</p>
+    <ol>
+      <li>Encha a barra de <strong>300,000 Pontos de Pistas</strong>.</li>
+      <li>Um <strong>R4 ou R5 encontra a Prisão da Morte escondida</strong> no mapa.</li>
+      <li>Esse líder <strong>inicia o cerco e escolhe a dificuldade</strong>.</li>
+      <li>O cerco começa cerca de <strong>4 horas após o clique</strong> — use esse intervalo para colocar os heróis de todos os membros na muralha.</li>
+    </ol>
+    <p>Pontos de pistas vêm do jogo diário normal:</p>
+    <ul>
+      <li>Atacar <strong>Rebeldes</strong> e a <strong>Legião Blight</strong></li>
+      <li>Matar <strong>Blights Errantes</strong></li>
+      <li>Coletar recursos em tiles</li>
+      <li>Ajudar aliados (cliques de ajuda em construção e pesquisa)</li>
+      <li>Rodar a <strong>Escavação da Aliança</strong></li>
+      <li>Completar <strong>Missões do Falcão</strong></li>
+    </ul>
+    <p>Uma aliança ativa enche a barra com jogo ordinário; o gargalo não é a barra, é a preparação.</p>
+
+    <h2 id="difficulty">Níveis de dificuldade</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Dificuldade</th><th>Poder inimigo</th><th>Território</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Nível 1</td><td>2.4M</td><td>Território 13</td></tr>
+        <tr><td>Nível 6</td><td>~3 esquadrões por onda</td><td>—</td></tr>
+        <tr><td>Nível 10</td><td>24.5M</td><td>Território 27</td></tr>
+      </tbody>
+    </table>
+    <p>A escada escala continuamente de 2.4M de Poder inimigo no Nível 1 até 24.5M no Nível 10, com exigências de território subindo de 13 a 27. Dificuldades mais altas também desbloqueiam <strong>Mutações Inimigas</strong> — <strong>confira as mutações antes de se comprometer</strong> com uma dificuldade, porque uma mutação que contra-ataca sua formação defensiva vale milhões de Poder inimigo.</p>
+
+    <h2 id="hidden-mechanic">A mecânica oculta de múltiplos esquadrões</h2>
+    <p>Esta é a parte do evento que a tela de dificuldade não conta, e é a diferença entre sobreviver 20 ondas e colapsar na 17:</p>
+    <ul>
+      <li>O cerco envia <strong>2 ou mais esquadrões com o Poder declarado</strong>. 8M declarado significa lutar contra dois esquadrões de 8M — efetivamente o dobro do número no botão.</li>
+      <li>Na <strong>onda 17</strong> de uma dificuldade de 8M, a força real é cerca de <strong>7.3M x 2</strong>.</li>
+      <li>Na <strong>dificuldade 6 ou acima, as ondas enviam 3 esquadrões</strong>.</li>
+      <li><strong>O HP do esquadrão persiste entre ondas.</strong> Seu tanque começa a próxima luta com o HP com que terminou a última — e seu esquadrão 1 precisa sobreviver <strong>lutas consecutivas</strong> sem cura no intervalo.</li>
+    </ul>
+    <blockquote>Um jogador de 9.5M morreu na onda 17 de uma dificuldade de 8M — desgastado por lutas consecutivas com HP persistente. O Poder declarado não é a luta.</blockquote>
+
+    <h2 id="rewards">Recompensas</h2>
+    <h3 id="personal-rewards">Marcos pessoais</h3>
+    <p>Cada jogador enfrenta <strong>20 ondas solo</strong>, com marcos nas ondas <strong>1, 4, 8, 10, 13, 16 e 20</strong> — fichas, melhorias e baús. Se sua cidade cair ela <strong>não será atacada de novo</strong>, mas suas recompensas pessoais param aí: morrer na onda 12 de 20 perde cada marco seguinte.</p>
+    <h3 id="alliance-rewards">Marcos da aliança</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Ondas totais da aliança</th><th>Recompensas</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>50</td><td>XP de heróis, materiais, medalhas</td></tr>
+        <tr><td>100</td><td>XP de heróis, materiais, medalhas</td></tr>
+        <tr><td>150</td><td>XP de heróis, materiais, medalhas</td></tr>
+        <tr><td>200</td><td>XP de heróis, materiais, medalhas</td></tr>
+        <tr><td>250</td><td>XP de heróis, materiais, medalhas</td></tr>
+        <tr><td>300</td><td>XP de heróis, materiais, medalhas</td></tr>
+      </tbody>
+    </table>
+    <p>Duas regras em torno do total da aliança:</p>
+    <ul>
+      <li><strong>Membresia acima de 48 horas</strong> é exigida para receber recompensas de aliança — entradas novas não recebem.</li>
+      <li><strong>Reforçar outros membros não dobra suas recompensas pessoais</strong> — sobe o total da aliança. Faça mesmo assim: os marcos da aliança são o grande pagamento.</li>
+    </ul>
+    <p>O recorde absoluto é de <strong>1,193 ondas</strong> num único cerco.</p>
+
+    <h2 id="deployment">Implantação: esquadrões e reforço</h2>
+    <ul>
+      <li><strong>Seu esquadrão mais forte vai para sua própria muralha.</strong> Esse esquadrão carrega suas 20 ondas pessoais.</li>
+      <li><strong>O resto dos seus esquadrões reforça outros membros</strong> — reforçar sobe o total da aliança, que é onde moram as recompensas compartilhadas.</li>
+      <li>Reforços pousam na muralha do membro e lutam contra as ondas que chegam com ele — mande-os antes das ondas baterem, não depois da notificação.</li>
+    </ul>
+
+    <h2 id="top-mistakes">Os 7 erros principais</h2>
+    <ol>
+      <li><strong>Heróis fora da muralha</strong> — o maior assassino. Heróis na muralha são o evento; uma muralha sem heróis é uma cidade esperando cair.</li>
+      <li><strong>Ignorar a defesa da muralha</strong> — aqui <strong>não existe defesa automática</strong>. O que você pré-definir é o que luta.</li>
+      <li><strong>Começar sem 100% das pistas</strong> — um início apressado desperdiça a janela de aviso de 4 horas.</li>
+      <li><strong>Subestimar mutações</strong> — leia sempre a prévia de mutações antes de escolher a dificuldade.</li>
+      <li><strong>Não reforçar membros</strong> — os marcos da aliança precisam de corpos em cada muralha, não só na sua.</li>
+      <li><strong>Começar com esquadrões parciais</strong> — um esquadrão de muralha pela metade é um esquadrão morto.</li>
+      <li><strong>Sair sem defesa pré-definida</strong> — a defesa offline funciona, mas <strong>somente se foi pré-definida</strong>. Configure, e durma tranquilo.</li>
+    </ol>
+    <p>Rode o evento com esses sete corrigidos e sua aliança defende perto do teto dela. A configuração de heróis para a muralha e a composição de esquadrão estão na <a href="/pt/heroes/">guia de Heróis</a>.</p>
+
+    <VideoSection topic="undead" lang={lang} />
+  </GuidePage>
+</Base>

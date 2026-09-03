@@ -1,0 +1,78 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'es';
+---
+<Base lang={lang} path="/es/events/royal/" title="Escaramuza del Castillo Real y títulos" description="La carrera semanal de captura del castillo: una marcha por jugador, reglas de torres y refuerzos, ocupación con Santuario 6+, cofres de condecoración real y el sistema completo de títulos de la Ciudad Real con mecánicas de cola.">
+  <GuidePage title="Escaramuza del Castillo Real y títulos" description="La carrera semanal de captura del castillo: una marcha por jugador, reglas de torres y refuerzos, ocupación con Santuario 6+, cofres de condecoración real y el sistema completo de títulos de la Ciudad Real con mecánicas de cola." lang={lang}>
+    <p>La Escaramuza del Castillo Real es la <strong>captura semanal del castillo</strong>: las alianzas corren por tomar y sostener el Castillo Real, el <strong>mismo día de semana y hora cada semana</strong>. La pelea del castillo en sí es rápida y simple — la preparación (marchas, refuerzos, niveles de Santuario) es donde se deciden las partidas.</p>
+    <p>Esta guía cubre las reglas de captura, las mecánicas de refuerzo, los cofres de condecoración y el sistema completo de títulos de la Ciudad Real que desbloquea el reino ganador.</p>
+
+    <h2 id="how-it-works">Cómo funciona</h2>
+    <ul>
+      <li><strong>Semanal</strong>, mismo día de semana y misma hora cada semana — pon la alarma una vez y nunca cambia.</li>
+      <li><strong>Una marcha por jugador.</strong> Recibes una sola marcha para todo el evento.</li>
+      <li><strong>No puede acelerarse.</strong> Sin aceleraciones ni objetos de aceleración — la velocidad de marcha con la que marchas es la velocidad con la que aterrizas.</li>
+      <li><strong>Se recomiendan las concentraciones.</strong> Una marcha por jugador hace que cada marcha cuente; las concentraciones agrupan las marchas de la alianza en un solo ataque creíble en vez de un chorro de bajas solitarias.</li>
+      <li><strong>La marcha inicial es una carrera.</strong> Las primeras marchas deciden quién asedia y quién se apura — el timing de marcha al silbato inicial importa más que el poder bruto.</li>
+    </ul>
+
+    <h2 id="turrets-and-positioning">Torres y posicionamiento</h2>
+    <ul>
+      <li><strong>Las torres NO se activan</strong> en la Escaramuza — son mecánicas exclusivas del <a href="/es/events/kvk/">KvK</a>. Aquí no hay pantalla de torres que atravesar.</li>
+      <li><strong>Teletranspórtate al fango</strong> si no te preocupan los ataques — ahí <strong>no hace falta escudo</strong>. La zona de fango es la plataforma segura; úsala.</li>
+    </ul>
+
+    <h2 id="capture-and-reinforcement">Captura y refuerzo</h2>
+    <ul>
+      <li><strong>4 horas para tomar el castillo.</strong> La ocupación sube ticks durante la ventana — llena <strong>más rápido con un porcentaje de ocupación alto</strong> y <strong>más lento cuando está disputado</strong> por defensores resistiéndose.</li>
+      <li><strong>Límite de refuerzo: 30 personas</strong> en el castillo. Ese es el tope duro — planifica la lista de refuerzos antes de la pelea, no durante.</li>
+      <li><strong>Los refuerzos se desgastan.</strong> Los defensores muerden tu guarnición — <strong>sal y vuelve a reforzar</strong> para reiniciar el desgaste. Un refuerzo con 20% de HP vale menos que un cuerpo fresco en esa ranura.</li>
+    </ul>
+
+    <h2 id="who-takes-vs-farms">Quién toma, quién granea</h2>
+    <blockquote>Quienes toman el castillo deben ser Santuario 6+ — el resto granea casillas de recursos por puntos.</blockquote>
+    <p>Solo jugadores con <strong>Santuario 6+</strong> pueden ocupar el castillo. El reparto define tu rol:</p>
+    <ul>
+      <li><strong>Santuario 6+</strong>: marcha al castillo, concentra, refuerza las 30 ranuras.</li>
+      <li><strong>Todo el mundo demás</strong>: granea casillas de recursos alrededor del castillo por puntos de evento — tu marcha sigue ganando, solo que no en las murallas.</li>
+    </ul>
+    <p>Comprueba tu nivel de Santuario <strong>antes</strong> de que empiece el evento; un jugador de Santuario 5 marchando al castillo desperdicia la única marcha que recibe.</p>
+
+    <h2 id="commendation-chests">Cofres de Condecoración Real</h2>
+    <ul>
+      <li><strong>Solo R5</strong> — el líder de la alianza reclama <strong>pulsando el castillo tras la batalla</strong>.</li>
+      <li><strong>Elegibilidad: estar en el reino por más de 24 horas.</strong> Los jugadores que cruzaron al reino menos de un día antes de la pelea no cuentan para el cofre.</li>
+    </ul>
+
+    <h2 id="royal-titles">Títulos de la Ciudad Real</h2>
+    <p>Ganar el castillo desbloquea el sistema de títulos del reino — bonos porcentuales temporizados aplicados por quienes ostentan los títulos:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Título</th><th>Tipo de bono</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Velocidad de investigación</td><td>Bono % temporizado a investigación</td></tr>
+        <tr><td>Desarrollo de territorio</td><td>Bono % temporizado a territorio</td></tr>
+        <tr><td>Entrenamiento</td><td>Bono % temporizado al entrenamiento de tropas</td></tr>
+        <tr><td>Curación</td><td>Bono % temporizado a curación</td></tr>
+        <tr><td>Ministro de la Corte Interior</td><td>Bono de producción de granjas</td></tr>
+      </tbody>
+    </table>
+    <p>Las mecánicas de cola:</p>
+    <ul>
+      <li><strong>Sistema de cola</strong> — los jugadores hacen fila por ranura de título, por orden de llegada.</li>
+      <li><strong>Cada ranura dura 5 minutos.</strong></li>
+      <li><strong>Llega correo al inicio y al final</strong> de tu ranura, así sabes exactamente cuándo empezó y terminó tu bono.</li>
+      <li><strong>Reaplica inmediatamente al terminar tu ranura</strong> — el mismo título puede volver a la cola, <strong>sin límite de reaplicaciones</strong>. Ranuras seguidas son el patrón previsto.</li>
+      <li><strong>Enfriamiento de 20 minutos tras aplicar</strong> — el único freno a la cola. Calcula tu reaplicación en torno a él.</li>
+    </ul>
+    <p>Los bonos de título se acumulan con todo lo demás del calendario semanal — una ranura de título de investigación durante la <a href="/es/events/alliance-duel/">Fase 3 del Duelo de Alianzas</a> o una ranura de entrenamiento durante la <a href="/es/events/alliance-duel/">Fase 5</a> es el doble beneficio de calendario en torno al cual se construye toda la semana.</p>
+
+    <VideoSection topic="royal" lang={lang} />
+  </GuidePage>
+</Base>

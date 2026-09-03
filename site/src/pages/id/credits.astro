@@ -1,0 +1,73 @@
+﻿---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'id';
+
+const authors = [
+  { name: 'HottChoklit', tag: 'K34', contributions: ['Diamond spending', 'Might progression', 'Hero Academy series', 'KvK strategy', 'Undead/Plunder guides'] },
+  { name: 'korpez / Korpez Gaming', tag: 'YouTube', contributions: ['Alliance Duel full guide', 'Survival Battle', 'Building speed', 'Era of Revival', 'Mythic Treasure'] },
+  { name: 'chuppergaming', tag: 'YouTube', contributions: ['Era starter guide', 'Troop training', 'Mythic Treasure', 'Supreme Duel', 'Guild Wagon'] },
+  { name: 'merlyn', tag: 'community', contributions: ['Squad composition + F2P section', 'Raven epigraphs tips', 'Shop priorities (epigraphs)'] },
+  { name: 'lucifer_burnsyou', tag: 'community', contributions: ['Shop priority guide (5 languages)', 'strategic-game-guide.netlify.app'] },
+  { name: 'callikoneko', tag: 'community', contributions: ['Demon King damage deep-dive', 'Skill synergy walkthroughs'] },
+  { name: 'kellerfaust', tag: 'community', contributions: ['Boss Blight team setups (all factions)'] },
+  { name: 'DrAction', tag: 'S12', contributions: ['Epigraph promotion order', 'PvP squad advice'] },
+  { name: 'skyyzies', tag: 'community', contributions: ['Triangle Arena defense & attack rules'] },
+  { name: 'verratvonwindir', tag: 'S2', contributions: ['Royal Castle Scramble mechanics'] },
+  { name: 'mu_013', tag: 'community', contributions: ['Hunt Battle', 'Wandering Phantom', 'Guild Wagon', 'Falcon Tower stockpiling'] },
+  { name: 'linde2000', tag: 'community', contributions: ['Thief Hunt spawns', 'Crystal Cluster skills', 'F2P answers'] },
+  { name: 'elsiika57', tag: 'community', contributions: ['Sanctuary 1–29 building roadmap'] },
+  { name: 'zoidseo', tag: 'K159', contributions: ['Early game progression'] },
+  { name: 'ruitea', tag: 'community', contributions: ['General Tips / F2P / Shrimp guides', 'Marlena skill analysis'] },
+  { name: '_.dot._', tag: 'community', contributions: ['Marlena skill badge efficiency', 'Mythic Treasure corrections', 'Hero skill priorities'] },
+  { name: 'dunidunduni', tag: 'S7', contributions: ['Survival Battle event details'] },
+  { name: 'Aesy', tag: 'community', contributions: ['Thief Hunt & Crystal Cluster infographics'] },
+  { name: 'katherineclover', tag: 'S131', contributions: ['Lucky Clovers compendium'] },
+  { name: 'DrGayLord / HOLY', tag: 'S247', contributions: ['Beginner basics: buildings, gear, factions'] },
+  { name: '뀨잉이 (jjuingyi)', tag: 'community', contributions: ['Guild Wagon guide (KO)'] },
+  { name: 'bulheba', tag: 'RU community', contributions: ['RU: PVP mechanics, build order, Alliance Duel videos'] },
+  { name: 'LapBase / ikona_in', tag: 'RU community', contributions: ['RU: F2P infantry squad, event guides'] },
+  { name: 'oψsvge英俊的', tag: 'K250', contributions: ['ID: Era of Revival, Undead Siege, starter weeks'] },
+  { name: 'hunalulu0503', tag: 'community', contributions: ['Mythic Treasure F2P, TOP-10 buildings'] },
+  { name: 'Sirox', tag: 'thelaphub.com', contributions: ['LAP Hub — research planner, cost calculators, codex', 'Claire UR & Plunder Gains writeups'] },
+];
+
+const sources = [
+  { name: 'Official Discord — #official-guide', url: null, desc: 'Official building/hero/might/antitoxin guides' },
+  { name: 'Official Discord — #player-guide', url: null, desc: '520+ community threads in ~15 languages (scraped with discord.py-self)' },
+  { name: 'Sirox’s LAP Hub', url: 'https://thelaphub.com', desc: 'Research planner, cost calculators, hero/building codex' },
+  { name: 'Strategic Game Guide', url: 'https://strategic-game-guide.netlify.app', desc: 'Shop priorities in 5 languages' },
+  { name: 'Community YouTube channels', url: null, desc: 'korpez, HottChoklit, chuppergaming, KrrissGaming, quanybean and more' },
+];
+---
+
+<Base lang={lang} path="/id/credits/" title="Kredit & Sumber" description="Kredit kepada para penulis panduan komunitas Last Asylum: Plague yang karyanya menggerakkan hub ini.">
+  <GuidePage title={`🙏 ${t(lang, 'credits.title')}`} description={t(lang, 'credits.intro')} lang={lang}>
+    <h2 id="authors">Penulis panduan</h2>
+    <div class="not-prose my-6 grid gap-3 sm:grid-cols-2">
+      {authors.map((a) => (
+        <div class="rounded-lg border border-stone-800 bg-stone-900 p-4">
+          <p class="font-bold text-plague-200">{a.name} <span class="ml-1 rounded bg-stone-800 px-1.5 py-0.5 text-xs font-medium text-stone-400">{a.tag}</span></p>
+          <p class="mt-1 text-sm text-stone-400">{a.contributions.join(' · ')}</p>
+        </div>
+      ))}
+    </div>
+
+    <h2 id="sources">Sumber</h2>
+    <ul>
+      {sources.map((s) => (
+        <li>
+          {s.url
+            ? <a href={s.url} target="_blank" rel="noopener noreferrer">{s.name}</a>
+            : <strong>{s.name}</strong>}
+          {' — '}{s.desc}
+        </li>
+      ))}
+    </ul>
+
+    <p class="mt-6 text-sm text-stone-500">Jika Anda seorang penulis dan ingin nama Anda disesuaikan atau dihapus, hubungi kami — kami akan memperbaikinya segera.</p>
+  </GuidePage>
+</Base>

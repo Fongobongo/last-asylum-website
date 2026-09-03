@@ -1,0 +1,76 @@
+﻿---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import Infographic from '../../components/Infographic.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'en';
+---
+<Base lang={lang} path="/events/cheese/" title="Cheese Trap: Max Rewards" description="The alliance rat-boss rally: personal five-phase rewards, the shared alliance HP pool, why join order means nothing, and the level-scaling math that decides which rat to fight.">
+  <GuidePage title="Cheese Trap: Max Rewards" description="The alliance rat-boss rally: personal five-phase rewards, the shared alliance HP pool, why join order means nothing, and the level-scaling math that decides which rat to fight." lang={lang}>
+    <p>Cheese Trap is an <strong>alliance PvE rally event</strong> against a giant rat. Your personal damage earns personal rewards across five phases, and the alliance&apos;s total damage earns separate alliance rewards. It looks like a pure power event — it is actually a planning event, and the difference is worth several reward tiers.</p>
+    <p>This guide covers the two reward tracks, the stop-point rule, level scaling, and how to read the rankings before your alliance commits to a rat.</p>
+
+    <h2 id="how-it-works">How It Works</h2>
+    <ul>
+      <li>An <strong>R4 or R5 sets the start</strong>. From that click the alliance has <strong>about 1.5 hours to attack</strong>.</li>
+      <li><strong>Cheese Trap I and II differ only in time</strong> — same rat, same rules, different window. Pick whichever fits your schedule.</li>
+      <li><strong>You can only fight ONE of the two rats.</strong> There is no splitting your troops across both.</li>
+      <li><strong>Offline participation works</strong> — join the rally ahead of time and your squads fight even if you log off. Set your march before the window opens, then live your life.</li>
+    </ul>
+
+    <h2 id="two-reward-tracks">The Two Reward Tracks</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Track</th><th>Based on</th><th>Rewards</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Personal</td><td>Your own damage</td><td>5 phases of escalating rewards</td></tr>
+        <tr><td>Alliance</td><td>Alliance total damage</td><td>Alliance-wide reward tiers</td></tr>
+      </tbody>
+    </table>
+    <p>The interaction between the tracks is the important part:</p>
+    <ul>
+      <li><strong>STOP after personal Phase 5.</strong> Damage past that point is pure troop loss — zero extra personal rewards for the troops you burn.</li>
+      <li><strong>Both rats share one HP pool for alliance rewards.</strong> If one player reaches Phase 5 on one rat and another stops at Phase 3 on the other, the alliance total counts as if everyone hit <strong>Phase 5</strong>. The pool — not the phase — is what matters.</li>
+    </ul>
+
+    <h2 id="rally-mechanics">Rally Mechanics: What Actually Matters</h2>
+    <ul>
+      <li><strong>Joining an R4/R5 rally grants +2.5% attack.</strong> Join the rally instead of solo-marching. Every time.</li>
+      <li><strong>Rally initiator strength and join order have ZERO effect on your damage.</strong> Joining first does not hit harder; joining last does not leech. Stop jockeying for position — it changes nothing.</li>
+      <li><strong>Every troop deals damage.</strong> The rat&apos;s HP pool is enormous, and no single heavy hitter can &quot;use it up&quot; — a full march of cheap troops out-damages a half march of expensive ones. Bring bodies, not just elites.</li>
+    </ul>
+
+    <h2 id="level-scaling">Level Scaling: Which Rat to Fight</h2>
+    <p>The level decision has a clean rule:</p>
+    <blockquote>Phase 4 of the next-level rat is marginally better than Phase 5 of the previous level — and pays better total rewards.</blockquote>
+    <p>In practice:</p>
+    <ul>
+      <li>Established alliances run <strong>level 7 or 8</strong>.</li>
+      <li><strong>Near a KvK day, pick level 7</strong> — you want troops alive for the <a href="/events/kvk/">war</a>, and the marginal reward of level 8 is not worth the extra losses.</li>
+    </ul>
+    <p>Before committing, <strong>check the rankings</strong>: count the players hitting Phase 5 on the level 6 rat versus the players reaching Phase 4+ on level 7. If more of your roster clears P4 on 7 than P5 on 6, the higher rat is the better call.</p>
+    <h3 id="rewards-table">Reading the In-Game Rewards Table</h3>
+    <p>The full rewards table is in the game: <strong>Special event &gt; Cheese Trap tab &gt; Gift button &gt; Rewards</strong>. Read it before the rat opens — the phase-by-phase comparison tells you exactly where your roster&apos;s stopping point lands.</p>
+
+    <h2 id="team-setup">Team Setup</h2>
+    <Infographic src="/infographics/cheese-trap.webp" alt="Cheese Trap event guide — damage phases, reward thresholds and stop points" caption="Community Cheese Trap cheat sheet — phases, rewards and where to stop" />
+    <Infographic src="/infographics/cheese-rewards.webp" alt="Cheese Trap rewards breakdown by personal damage phase" caption="Reading the reward tiers before you commit troops" />
+    <p>Squad priorities for a long boss fight:</p>
+    <ul>
+      <li><strong>Survivability + sustained DPS + synergy.</strong> The rat is a marathon, not a burst check.</li>
+      <li><strong>Tanky frontline</strong> — heroes that stand for the full fight.</li>
+      <li><strong>Strong backline</strong> — the damage engine behind the frontline.</li>
+      <li><strong>Support-healer</strong> — keeps the frontline alive, which keeps the backline safe, which keeps damage flowing.</li>
+    </ul>
+    <p>Specific hero picks and faction synergies are in the <a href="/heroes/">Heroes guide</a>.</p>
+
+    <h2 id="whale-carry">The Whale-Carry Option</h2>
+    <p>If your alliance has one heavy hitter, there is an efficient endgame pattern: <strong>2-3 rallies are enough to max alliance rewards</strong> when the whale carries the damage. Everyone else joins the rally for the +2.5%, drops their troops in, and stops at their personal Phase 5. The whale&apos;s damage fills the shared pool; the alliance tier fills; nobody burns troops past their own stop point.</p>
+
+    <VideoSection topic="cheese" lang={lang} />
+  </GuidePage>
+</Base>

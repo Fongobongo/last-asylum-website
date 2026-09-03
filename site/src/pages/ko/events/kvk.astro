@@ -1,0 +1,75 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ko';
+---
+<Base lang={lang} path="/ko/events/kvk/" title="왕국 전쟁 (KvK): 생존 &amp; 득점" description="로열 시티를 건 서버 대 서버 전쟁: 격주 일정, 공격측의 포탑 우선 전략, 수비측의 지연 전술, 부대와 자원 리스크, 동맹 결투와의 득점 겹침.">
+  <GuidePage title="왕국 전쟁 (KvK): 생존 &amp; 득점" description="로열 시티를 건 서버 대 서버 전쟁: 격주 일정, 공격측의 포탑 우선 전략, 수비측의 지연 전술, 부대와 자원 리스크, 동맹 결투와의 득점 겹침." lang={lang}>
+    <p>왕국 전쟁은 게임의 <strong>서버 대 서버 전쟁</strong>입니다: 두 왕국이 공유 맵에 침입해 <strong>로열 시티</strong>를 두고 싸웁니다. <strong>격주</strong>로 진행되며, 주중 내내 득점과 준비 임무가 이어지고 본 전투는 하나의 시간 창에 압축됩니다. 먼지가 가라앉을 때 로열 시티를 통제하면 승리입니다.</p>
+    <p>이 가이드는 일정, 공격자와 수비자 전략, 보편 규칙, 전쟁을 지는 실수, 그리고 그 사이에서 계정을 지키는 경제 규칙을 다룹니다.</p>
+
+    <h2 id="schedule">격주 일정</h2>
+    <ul>
+      <li><strong>준비와 득점은 주중 내내</strong> — 일일 임무와 점수 카테고리가 성벽 하나 다투기 전에 왕국의 위치를 만듭니다.</li>
+      <li><strong>본 전투는 토요일 리셋부터</strong>, <strong>4시간 시간 창</strong> 안에서입니다. 그 시간 창이 전쟁의 전부입니다 — 그 전의 모든 것은 포지셔닝입니다.</li>
+      <li><strong>승리 조건: 로열 시티 통제.</strong> 최다 킬도, 최다 점수도 아닙니다 — 끝에서 도시를 쥔 사람입니다.</li>
+    </ul>
+    <blockquote>이기는 동맹이 항상 가장 강한 것은 아닙니다 — 가장 조직적인 동맹입니다.</blockquote>
+
+    <h2 id="attacker-playbook">공격자 플레이북</h2>
+    <p>왕국이 공격 측이면, 본능은 로열 시티로 돌진하는 것입니다. 그 본능은 전쟁을 잺습니다.</p>
+    <ul>
+      <li><strong>도시를 먼저 돌진하지 마세요.</strong> 도시 직행은 집중 방어와 포탑에 부딪힙니다 — 개전 몇 분 만에 최강 부대를 흘려보냅니다.</li>
+      <li><strong>포탑을 먼저 잡고, 그다음 밀어주세요.</strong> 포탑이 하나씩 무너질 때마다 안전 지대가 넓어지고, 도시 전투가 시작되기 전에 수비측의 맵 통제를 벗겨냅니다.</li>
+      <li><strong>집결에 머무세요.</strong> 집결은 솔로 행군보다 안전하고 강합니다 — 집중된 HP, 집중된 버프, 수비자가 실제로 존중해야 할 행군. 솔로 영웅은 솔로 사상자입니다.</li>
+    </ul>
+
+    <h2 id="defender-playbook">수비자 플레이북</h2>
+    <p>수비자는 전투를 이기려는 것이 아닙니다. 수비자는 <strong>시간을 끌려는</strong> 것입니다.</p>
+    <ul>
+      <li><strong>킬이 아니라 시간이 필요합니다.</strong> 공격자가 방어를 뚫는 데 쓰는 매 분은 도시를 쥐지 못하는 매 분입니다. 지연이 곧 승리입니다.</li>
+      <li><strong>끊임없이 증원하세요.</strong> 다투어지는 지점에 죽는 속도만큼 새 부대를 공급하세요. 방어가 멈추지 않는 지점 하나가 적의 시간 창 전체를 잡아먹습니다.</li>
+      <li><strong>순환하세요.</strong> 한 레인에 모든 것을 주둔시키지 마세요 — 압박이 실제로 있는 곳으로 부대를 옮겨, 공격자가 땅의 모든 치수를 위해 싸우게 하세요.</li>
+    </ul>
+
+    <h2 id="universal-rules">보편 규칙</h2>
+    <p>어느 쪽이든 같은 규칙이 적용됩니다:</p>
+    <ol>
+      <li><strong>포탑 먼저 = 맵 통제.</strong> 포탑 라인이 안전하게 움직이는 사람을 결정합니다. 매번 전쟁의 첫 목표입니다.</li>
+      <li><strong>절대 솔로 금지.</strong> 솔로 돌진은 계정이 삭제되는 방법입니다. 집결과 함께 행군하거나 아예 하지 마세요.</li>
+      <li><strong>끊임없이 증원하세요.</strong> 증원을 멈춘 방어는 한 웨이브에 무너집니다.</li>
+      <li><strong>전투 내내 온라인.</strong> 4시간 시간 창은 전쟁 중 로그오프하는 사람을 벌합니다 — 부대는 둔 곳에 무방비로 그대로 남습니다.</li>
+    </ol>
+
+    <h2 id="losing-mistakes">전쟁을 지는 실수</h2>
+    <ul>
+      <li><strong>솔로 돌진</strong> — 적에게 무료 킬을 주고 동맹에 부대 하나 부족을 남기는 즉시 전멸.</li>
+      <li><strong>포탑 무시</strong> — 온전한 포탑 라인을 뚫고 도시를 공격하는 것은 부대를 기부하는 것입니다.</li>
+      <li><strong>증원 없음</strong> — 순환을 멈춘 방어는 무너지고, 그다음 지점이 무너지고, 그다음 도시가 무너집니다.</li>
+      <li><strong>전쟁 중 로그오프</strong> — 4시간 시간 창은 당신의 일정에 맞춰 멈추지 않습니다.</li>
+    </ul>
+
+    <h2 id="economy-rules">KvK 경제: 부대, 자원, 보호막</h2>
+    <p>왕국 전쟁은 실제 계정 리스크가 있는 몇 안 되는 이벤트 중 하나입니다:</p>
+    <ul>
+      <li><strong>공격받으면 부대와 자원을 잃을 수 있습니다</strong> — <a href="/ko/events/canyon/">협곡 정복</a> 같은 무리스크 이벤트가 아닙니다.</li>
+      <li><strong>전쟁 시간 창 동안 보호막을 켜세요.</strong> KvK 중 보호막 없는 도시는 적 서버의 자원 피냐타입니다.</li>
+      <li><strong>손실은 성벽과 연구에 스케일</strong>됩니다 — 만렙 성벽과 방어 연구가 대학살을 소규모 교전으로 바꿉니다.</li>
+      <li><strong>업그레이드와 가속은 득점 날을 위해 아끼세요</strong> — <a href="/ko/events/alliance-duel/">동맹 결투</a>를 지배하는 같은 2배 가치 논리가 KvK 득점 임무에도 적용됩니다. 중립 날에 대형 업그레이드를 하면 절반입니다.</li>
+    </ul>
+
+    <h2 id="scoring-overlap">동맹 결투와의 득점 겹침</h2>
+    <p>KvK와 동맹 결투는 득점원을 공유하며, 커뮤니티 합의는 매일 그것을 활용하는 것입니다:</p>
+    <ul>
+      <li><strong>비밀 작전과 상단은 양쪽 이벤트 모두 득점됩니다.</strong> 같은 행동이 결투 총합과 KvK 총합에 동시에 먹입니다.</li>
+      <li>그래서 상단은 매일의 당연한 선택입니다 — 결투 주간의 매일 운영하세요. 전체 상단과 약탈 경로는 <a href="/ko/events/wagon/">길드 마차 &amp; 상단 가이드</a>에 있습니다.</li>
+    </ul>
+    <p>전쟁 경제의 나머지 — 무엇을 아끼고, 언제 쓰고, 어느 상점 구매가 전쟁을 지원하는지 — 는 <a href="/ko/economy/">경제 가이드</a>에서 다룹니다.</p>
+
+    <VideoSection topic="kvk" lang={lang} />
+  </GuidePage>
+</Base>

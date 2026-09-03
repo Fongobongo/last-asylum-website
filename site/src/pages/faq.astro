@@ -1,0 +1,46 @@
+---
+import Base from '../layouts/Base.astro';
+import GuidePage from '../components/GuidePage.astro';
+import DiscordBanner from '../components/DiscordBanner.astro';
+import { faqEn } from '../data/faq';
+import { t } from '../i18n/ui';
+import type { Lang } from '../i18n/utils';
+
+const lang: Lang = 'en';
+
+const schema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqEn.map((f) => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+});
+---
+
+<Base lang={lang} path="/faq/" title="FAQ" description="Answers to the most common Last Asylum: Plague questions: best F2P team, upgrade order, plunder limits, shop priorities, gift codes.">
+  <GuidePage
+    title="❓ Frequently Asked Questions"
+    description="The questions players actually ask, with the community-consensus answers."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/' }, { label: 'FAQ' }]}
+  >
+    <script slot="faq-schema" type="application/ld+json" set:html={schema} />
+
+    <div class="not-prose my-6 space-y-3">
+      {faqEn.map((f) => (
+        <details class="group rounded-lg border border-stone-800 bg-stone-900">
+          <summary class="cursor-pointer select-none px-4 py-3 font-semibold text-plague-200 group-open:text-plague-100">
+            {f.q}
+          </summary>
+          <p class="border-t border-stone-800 px-4 py-3 text-sm leading-relaxed text-stone-300">{f.a}</p>
+        </details>
+      ))}
+    </div>
+
+    <p>Question not covered? Check the specific guides: <a href="/beginners/">beginners</a>, <a href="/economy/">economy</a>, <a href="/heroes/">heroes</a>, <a href="/gear/">gear</a>, <a href="/raven/">raven</a>, <a href="/era/">Era of Revival</a> — or ask in the official Discord.</p>
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

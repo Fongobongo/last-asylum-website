@@ -1,0 +1,73 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ko';
+
+const authors = [
+  { name: 'HottChoklit', tag: 'K34', contributions: ['다이아몬드 지출', '전력 성장', '영웅 아카데미 시리즈', 'KvK 전략', '언데드/약탈 가이드'] },
+  { name: 'korpez / Korpez Gaming', tag: 'YouTube', contributions: ['동맹 결투 완전 가이드', '생존 전투', '건설 속도', '부흥시대', '신화 보물'] },
+  { name: 'chuppergaming', tag: 'YouTube', contributions: ['부흥 스타터 가이드', '부대 훈련', '신화 보물', '수퍼임 듀얼', '길드 마차'] },
+  { name: 'merlyn', tag: '커뮤니티', contributions: ['부대 구성 + F2P 섹션', 'Raven 에피그라프 팁', '상점 우선순위 (에피그라프)'] },
+  { name: 'lucifer_burnsyou', tag: '커뮤니티', contributions: ['상점 우선순위 가이드 (5개 언어)', 'strategic-game-guide.netlify.app'] },
+  { name: 'callikoneko', tag: '커뮤니티', contributions: ['마왕 피해 심층 분석', '스킬 시너지 워크스루'] },
+  { name: 'kellerfaust', tag: '커뮤니티', contributions: ['보스 역병 팀 세팅 (모든 진영)'] },
+  { name: 'DrAction', tag: 'S12', contributions: ['에피그라프 승급 순서', 'PvP 부대 조언'] },
+  { name: 'skyyzies', tag: '커뮤니티', contributions: ['삼각 아레나 방어 및 공격 규칙'] },
+  { name: 'verratvonwindir', tag: 'S2', contributions: ['로열 성채 스크램블 메커니즘'] },
+  { name: 'mu_013', tag: '커뮤니티', contributions: ['사냥 전투', '떠도는 환영', '길드 마차', '매의 탑 비축'] },
+  { name: 'linde2000', tag: '커뮤니티', contributions: ['도적 사냥 스폰', '수정 군집 스킬', 'F2P 답변'] },
+  { name: 'elsiika57', tag: '커뮤니티', contributions: ['생츄어리 1–29 건설 로드맵'] },
+  { name: 'zoidseo', tag: 'K159', contributions: ['초반 게임 성장'] },
+  { name: 'ruitea', tag: '커뮤니티', contributions: ['일반 팁 / F2P / 새우 가이드', 'Marlena 스킬 분석'] },
+  { name: '_.dot._', tag: '커뮤니티', contributions: ['Marlena 스킬 배지 효율', '신화 보물 수정', '영웅 스킬 우선순위'] },
+  { name: 'dunidunduni', tag: 'S7', contributions: ['생존 전투 이벤트 세부사항'] },
+  { name: 'Aesy', tag: '커뮤니티', contributions: ['도적 사냥 & 수정 군집 인포그래픽'] },
+  { name: 'katherineclover', tag: 'S131', contributions: ['행운의 클로버 총집'] },
+  { name: 'DrGayLord / HOLY', tag: 'S247', contributions: ['초보 기초: 건물, 장비, 진영'] },
+  { name: '뀨잉이 (jjuingyi)', tag: '커뮤니티', contributions: ['길드 마차 가이드 (KO)'] },
+  { name: 'bulheba', tag: 'RU 커뮤니티', contributions: ['RU: PvP 메커니즘, 건설 순서, 동맹 결투 영상'] },
+  { name: 'LapBase / ikona_in', tag: 'RU 커뮤니티', contributions: ['RU: F2P 보병 부대, 이벤트 가이드'] },
+  { name: 'oψsvge英俊的', tag: 'K250', contributions: ['ID: 부흥시대, 언데드 공성전, 스타터 주간'] },
+  { name: 'hunalulu0503', tag: '커뮤니티', contributions: ['신화 보물 F2P, TOP-10 건물'] },
+  { name: 'Sirox', tag: 'thelaphub.com', contributions: ['LAP 허브 — 연구 플래너, 비용 계산기, 도감', 'Claire UR & 약탈 수익 작성'] },
+];
+
+const sources = [
+  { name: '공식 Discord — #official-guide', url: null, desc: '공식 건물/영웅/전력/항독소 가이드' },
+  { name: '공식 Discord — #player-guide', url: null, desc: '약 15개 언어의 520+ 커뮤니티 스레드 (discord.py-self로 수집)' },
+  { name: 'Sirox의 LAP Hub', url: 'https://thelaphub.com', desc: '연구 플래너, 비용 계산기, 영웅/건물 도감' },
+  { name: 'Strategic Game Guide', url: 'https://strategic-game-guide.netlify.app', desc: '5개 언어의 상점 우선순위' },
+  { name: '커뮤니티 YouTube 채널', url: null, desc: 'korpez, HottChoklit, chuppergaming, KrrissGaming, quanybean 등' },
+];
+---
+
+<Base lang={lang} path="/ko/credits/" title="크레딧 &amp; 출처" description="이 허브를 뒷받침하는 Last Asylum: Plague 커뮤니티 가이드 저자들에 대한 크레딧.">
+  <GuidePage title="🙏 크레딧 &amp; 출처" description="이 허브를 뒷받침하는 Last Asylum: Plague 커뮤니티 가이드 저자들에 대한 크레딧." lang={lang}>
+    <h2 id="authors">가이드 저자</h2>
+    <div class="not-prose my-6 grid gap-3 sm:grid-cols-2">
+      {authors.map((a) => (
+        <div class="rounded-lg border border-stone-800 bg-stone-900 p-4">
+          <p class="font-bold text-plague-200">{a.name} <span class="ml-1 rounded bg-stone-800 px-1.5 py-0.5 text-xs font-medium text-stone-400">{a.tag}</span></p>
+          <p class="mt-1 text-sm text-stone-400">{a.contributions.join(' · ')}</p>
+        </div>
+      ))}
+    </div>
+
+    <h2 id="sources">출처</h2>
+    <ul>
+      {sources.map((s) => (
+        <li>
+          {s.url
+            ? <a href={s.url} target="_blank" rel="noopener noreferrer">{s.name}</a>
+            : <strong>{s.name}</strong>}
+          {' — '}{s.desc}
+        </li>
+      ))}
+    </ul>
+
+    <p class="mt-6 text-sm text-stone-500">저자이시고 이름 수정이나 삭제를 원하시면 연락해 주세요 — 신속히 수정하겠습니다.</p>
+  </GuidePage>
+</Base>

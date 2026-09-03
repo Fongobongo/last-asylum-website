@@ -1,0 +1,73 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ko';
+---
+<Base lang={lang} path="/ko/events/cheese/" title="치즈 트랩: 최대 보상" description="동맹 쥐 보스 집결: 개인 5단계 보상, 공유 동맹 HP 풀, 참가 순서가 무의미한 이유, 그리고 어느 쥐와 싸울지 결정하는 레벨 스케일링 수학.">
+  <GuidePage title="치즈 트랩: 최대 보상" description="동맹 쥐 보스 집결: 개인 5단계 보상, 공유 동맹 HP 풀, 참가 순서가 무의미한 이유, 그리고 어느 쥐와 싸울지 결정하는 레벨 스케일링 수학." lang={lang}>
+    <p>치즈 트랩은 거대한 쥐에 대한 <strong>동맹 PvE 집결 이벤트</strong>입니다. 개인 피해량이 5단계에 걸쳐 개인 보상을 벌고, 동맹 총 피해량이 별도의 동맹 보상을 법니다. 순수 전력 이벤트처럼 보이지만 — 실제로는 계획 이벤트이며, 그 차이는 보상 티어 몇 단계의 가치가 있습니다.</p>
+    <p>이 가이드는 두 보상 트랙, 중단점 규칙, 레벨 스케일링, 그리고 동맹이 쥐를 확정하기 전에 랭킹을 읽는 방법을 다룹니다.</p>
+
+    <h2 id="how-it-works">작동 방식</h2>
+    <ul>
+      <li><strong>R4 또는 R5가 시작을 설정합니다.</strong> 그 클릭부터 동맹은 <strong>약 1.5시간 동안 공격</strong>할 수 있습니다.</li>
+      <li><strong>치즈 트랩 I과 II는 시간만 다릅니다</strong> — 같은 쥐, 같은 규칙, 다른 시간. 일정에 맞는 쪽을 고르세요.</li>
+      <li><strong>두 쥐 중 하나와만 싸울 수 있습니다.</strong> 부대를 양쪽에 나눌 수 없습니다.</li>
+      <li><strong>오프라인 참여가 작동합니다</strong> — 미리 집결에 참가하면 로그오프해도 부대가 싸웁니다. 창이 열리기 전에 행군을 설정하고, 그다음은 살던 대로 사세요.</li>
+    </ul>
+
+    <h2 id="two-reward-tracks">두 보상 트랙</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>트랙</th><th>기준</th><th>보상</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>개인</td><td>자신의 피해량</td><td>5단계의 상승 보상</td></tr>
+        <tr><td>동맹</td><td>동맹 총 피해량</td><td>동맹 전체 보상 티어</td></tr>
+      </tbody>
+    </table>
+    <p>중요한 것은 트랙 간 상호작용입니다:</p>
+    <ul>
+      <li><strong>개인 5단계 후에 멈추세요.</strong> 그 지점 이후의 피해는 순수 부대 손실입니다 — 태운 부대에 대한 추가 개인 보상은 0입니다.</li>
+      <li><strong>두 쥐는 동맹 보상용으로 하나의 HP 풀을 공유합니다.</strong> 한 플레이어가 한 쥐에서 5단계에 도달하고 다른 플레이어가 다른 쥐에서 3단계에 멈춰도, 동맹 총합은 모두가 <strong>5단계</strong>에 도달한 것으로 계산됩니다. 단계가 아니라 풀이 중요합니다.</li>
+    </ul>
+
+    <h2 id="rally-mechanics">집결 메커니즘: 실제로 중요한 것</h2>
+    <ul>
+      <li><strong>R4/R5 집결 참가는 +2.5% 공격을 줍니다.</strong> 솔로 행군 대신 집결에 참가하세요. 매번.</li>
+      <li><strong>집결 주최자의 전력과 참가 순서는 피해에 0의 영향</strong>을 줍니다. 먼저 참가해도 더 세게 치지 않고, 나중에 참가해도 훔치지 않습니다. 자리다툼을 멈추세요 — 아무것도 바꾸지 못합니다.</li>
+      <li><strong>모든 부대가 피해를 줍니다.</strong> 쥐의 HP 풀은 어마어마하고, 어떤 단일 헤비히터도 그것을 &quot;다 쓸어버릴&quot; 수 없습니다 — 값싼 부대의 완전 행군은 비싼 부대의 절반 행군보다 피해가 높습니다. 엘리트만 말고 몸을 데려오세요.</li>
+    </ul>
+
+    <h2 id="level-scaling">레벨 스케일링: 어느 쥐와 싸울까</h2>
+    <p>레벨 결정에는 깔끔한 규칙이 있습니다:</p>
+    <blockquote>다음 레벨 쥐의 4단계는 이전 레벨의 5단계보다 약간 낫고 — 총 보상도 더 지급합니다.</blockquote>
+    <p>실전에서는:</p>
+    <ul>
+      <li>자리 잡은 동맹은 <strong>7 또는 8레벨</strong>을 돌립니다.</li>
+      <li><strong>KvK 날이 가까우면 7레벨을 고르세요</strong> — <a href="/ko/events/kvk/">전쟁</a>을 위해 살아있는 부대가 필요하고, 8레벨의 추가 보상이 추가 손실의 가치가 없습니다.</li>
+    </ul>
+    <p>확정 전에 <strong>랭킹을 확인하세요</strong>: 6레벨 쥐에서 5단계를 치는 플레이어 수와 7레벨에서 4단계 이상 도달하는 플레이어 수를 세세요. 명단의 더 많은 인원이 6의 P5보다 7의 P4를 클리어한다면, 더 높은 쥐가 더 나은 선택입니다.</p>
+    <h3 id="rewards-table">게임 내 보상 표 읽기</h3>
+    <p>전체 보상 표는 게임에 있습니다: <strong>특별 이벤트 &gt; 치즈 트랩 탭 &gt; 선물 버튼 &gt; 보상</strong>. 쥐가 열리기 전에 읽으세요 — 단계별 비교가 명단의 중단점이 어디에 떨어지는지 정확히 알려줍니다.</p>
+
+    <h2 id="team-setup">팀 세팅</h2>
+    <p>긴 보스 전투를 위한 부대 우선순위:</p>
+    <ul>
+      <li><strong>생존력 + 지속 DPS + 시너지.</strong> 쥐는 버스트 체크가 아니라 마라톤입니다.</li>
+      <li><strong>탱키한 전열</strong> — 전투 내내 서 있는 영웅들.</li>
+      <li><strong>강한 후열</strong> — 전열 뒤의 피해 엔진.</li>
+      <li><strong>지원-힐러</strong> — 전열을 살려 후열을 안전하게 하고, 피해가 흐르게 합니다.</li>
+    </ul>
+    <p>특정 영웅 픽과 진영 시너지는 <a href="/ko/heroes/">영웅 가이드</a>에 있습니다.</p>
+
+    <h2 id="whale-carry">고과금 캐리 옵션</h2>
+    <p>동맹에 헤비히터가 한 명 있다면 효율적인 엔드게임 패턴이 있습니다: 헤비히터가 피해를 짊어지면 <strong>2-3개 집결로 동맹 보상 최대치</strong>가 충분합니다. 나머지는 +2.5%를 위해 집결에 참가하고, 부대를 넣고, 개인 5단계에서 멈춥니다. 고과금자의 피해가 공유 풀을 채우고; 동맹 티어가 차오르고; 아무도 자기 중단점 너머로 부대를 태우지 않습니다.</p>
+
+    <VideoSection topic="cheese" lang={lang} />
+  </GuidePage>
+</Base>

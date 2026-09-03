@@ -1,0 +1,85 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+<Base lang={lang} path="/id/events/wagon/" title="Guild Wagon &amp; Karavan" description="Jalankan wagon gratis harian, aturan Wagon Master dan peti Guard, refresh Golden Wagon, strategi shard UR karavan, menjarah lintas-server, dan prioritas kotak emas-ungu-biru.">
+  <GuidePage title="Guild Wagon &amp; Karavan" description="Jalankan wagon gratis harian, aturan Wagon Master dan peti Guard, refresh Golden Wagon, strategi shard UR karavan, menjarah lintas-server, dan prioritas kotak emas-ungu-biru." lang={lang}>
+    <p>Guild Wagon dan Karavan adalah event logistik harian game — dan keduanya adalah penghasilan <strong>tanpa-risiko, tanpa-stamina</strong> yang terlalu banyak pemain lewatkan. Wagon adalah latihan koordinasi 10 menit; karavan adalah farm shard UR permanen. Tidak satu pun berbiaya pasukan atau kerugian nyata, jadi aturan komunitasnya sederhana: <strong>SELALU jalankan keduanya.</strong></p>
+    <p>Panduan ini membahas peran wagon dan aturan petinya, Golden Wagon, strategi karavan, dan menjarah lintas-server dengan prioritas kotaknya.</p>
+
+    <h2 id="guild-wagon-basics">Guild Wagon: Lari Gratis Harian</h2>
+    <ul>
+      <li><strong>1 wagon gratis per aliansi per hari</strong>, di-reset sekitar <strong>11.00 KST</strong>.</li>
+      <li>Saat layar pembayaran muncul, <strong>wagon gratis sudah terpakai</strong> — itulah tanda bahwa lari gratis harian sudah hilang untuk seluruh aliansi.</li>
+      <li><strong>Lari ekstra berbayar ada — hampir tidak ada yang membeli.</strong> Abaikan paywall-nya.</li>
+      <li><strong>Level Guild Gift menaikkan level wagon</strong> — hadiah toko yang menaikkan level gift juga meng-upgrade apa yang dijatuhkan wagon. Dua alasan untuk peduli pada level gift.</li>
+    </ul>
+
+    <h2 id="wagon-master">Wagon Master, Guard, dan VIP</h2>
+    <p>Peran-perannya:</p>
+    <ul>
+      <li><strong>R4/R5 yang online menunjuk anggota yang online sebagai Wagon Master</strong>.</li>
+      <li>Master <strong>mengumpulkan tiket dari anggota</strong> (sebagian terkonversi otomatis) untuk refresh kolam — <strong>5 refresh membentuk &quot;Golden Wagon&quot;.</strong></li>
+      <li><strong>Guard DAN VIP keduanya mengklaim 2 peti.</strong> VIP hanya ikut naik — menjadi VIP bukan penurunan nilai, petinya identik.</li>
+      <li><strong>CP rendah? Pilih Guard kuat untuk melindungi wagon.</strong> Keamanan lari menskalakan dengan kekuatan guard.</li>
+      <li><strong>Guard harus online.</strong> Koordinasikan <strong>sebelum</strong> memulai lari, atau risiko penjarahan tanpa pertahanan — sebagian guild sengaja menunda penunjukan Master untuk menjalankan wagon pada malam hari saat guard mereka aktif.</li>
+    </ul>
+
+    <h2 id="chest-rules">Aturan Peti (Kesalahan yang Umum)</h2>
+    <blockquote>2 peti itu untuk GUARD, bukan untuk Master. Kesalahan wagon paling umum dalam game.</blockquote>
+    <p>Distribusi hadiah lengkapnya:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Peran</th><th>Hadiah</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Guard</td><td>2 peti masing-masing</td></tr>
+        <tr><td>VIP</td><td>2 peti masing-masing (identik dengan guard — mereka hanya ikut naik)</td></tr>
+        <tr><td>Penumpang</td><td>5 undian acak + 1 peti kendaraan masing-masing</td></tr>
+        <tr><td>Wagon Master</td><td>SEMUA item dari keempat wagon</td></tr>
+      </tbody>
+    </table>
+    <p>Baca baris terakhir itu dua kali — <strong>Master menerima SEMUA item dari keempat wagon.</strong> Penunjukan itu pembayaran nyata, itulah tepatnya mengapa kebingungan peti itu bertahan: 2 peti guard datang di atas bagian, bukan dari kolam Master.</p>
+
+    <h2 id="caravans">Karavan: Strategi Shard UR</h2>
+    <p>Karavan adalah event karavan harian yang berjalan berdampingan dengan wagon:</p>
+    <ul>
+      <li>Keputusan intinya: <strong>karavan mana yang diserang, cara menyiapkan karavan aliansi Anda, dan memaksimalkan hadiah harian.</strong></li>
+      <li><strong>Karavan dan Covert Ops tidak pernah dihitung terhadap batas menjarah</strong> — mereka dikecualikan dari batas harian yang mengatur raiding normal (lihat <a href="/id/economy/">Panduan Ekonomi</a>).</li>
+      <li><strong>Tanpa kehilangan pasukan nyata, tanpa biaya stamina.</strong> Nol risiko, setiap hari.</li>
+      <li><strong>SELALU jalankan.</strong> Dan ingat dari panduan <a href="/id/events/kvk/">KvK</a>: <strong>karavan dan Covert Ops mencetak skor untuk KvK dan Alliance Duel sekaligus</strong> — lari yang sama membayar dua kali.</li>
+    </ul>
+
+    <h2 id="plundering-servers">Menjarah Server Lain</h2>
+    <p>Rute karavan lintas-server:</p>
+    <ol>
+      <li>Buka <strong>Caravan Trade</strong> dan periksa centang hijau <strong>&quot;Exclude caravans from this server&quot;</strong> — itu menyaring keluar karavan server asal Anda dan menampilkan yang asing.</li>
+      <li>Pergi ke <strong>Other&apos;s Caravan</strong>, ketuk satu karavan, dan <strong>tombol Plunder menteleportasi Anda ke kerajaan itu</strong>.</li>
+      <li>Keluar dari popup dan Anda bisa <strong>menjelajahi kerajaan itu dengan bebas</strong> selama Anda di sana.</li>
+    </ol>
+
+    <h2 id="box-priority">Prioritas Kotak: Emas, Ungu, Biru</h2>
+    <p>Saat Anda menatap peta asing penuh karavan, urutan targetnya adalah:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Warna kotak</th><th>Nilai</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>EMAS</td><td>Tertinggi — tier UR. Selalu targetnya.</td></tr>
+        <tr><td>Ungu</td><td>Sangat bagus — tier SSR. Target prioritas saat emas di luar jangkauan.</td></tr>
+        <tr><td>Biru</td><td>Cadangan — tier SR. Pengisi saat peta sudah dipetik bersih.</td></tr>
+      </tbody>
+    </table>
+    <ul>
+      <li><strong>Periksa peringkat bintang dan hadiah sebelum menyerang</strong> — pratinjau menunjukkan apa yang dibayar kotaknya.</li>
+      <li><strong>Warna lebih baik + bintang lebih tinggi = hadiah lebih baik.</strong> Warna dulu, bintang sebagai penentu saat seri.</li>
+    </ul>
+
+    <VideoSection topic="wagon" lang={lang} />
+  </GuidePage>
+</Base>

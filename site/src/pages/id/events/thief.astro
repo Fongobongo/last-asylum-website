@@ -1,0 +1,88 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+<Base lang={lang} path="/id/events/thief/" title="Thief Hunt: Spawn Bos &amp; Penukaran" description="Pipeline stamina-ke-bos: bagaimana spawn Thief Leader benar-benar bekerja, teknik kill-tanpa-henti untuk level 30/35, daftar prioritas penukaran komunitas, dan pasukan bos yang menumpuk damage paling banyak.">
+  <GuidePage title="Thief Hunt: Spawn Bos &amp; Penukaran" description="Pipeline stamina-ke-bos: bagaimana spawn Thief Leader benar-benar bekerja, teknik kill-tanpa-henti untuk level 30/35, daftar prioritas penukaran komunitas, dan pasukan bos yang menumpuk damage paling banyak." lang={lang}>
+    <p>Thief Hunt adalah <strong>event stamina aliansi</strong>: Anda membelanjakan stamina menyerang pencuri di peta, dan kill pencuri mengundi peluang memunculkan <strong>bos Thief Leader</strong> yang bisa di-rally seluruh aliansi. Event ini mengubah stamina luang Anda menjadi toko penukaran — salah satu toko bernilai terbaik dalam game jika Anda membelinya dalam urutan yang tepat.</p>
+    <p>Panduan ini membahas mekanika spawn bos, teknik memunculkan bos level tinggi, daftar prioritas penukaran, dan pasukan bosnya.</p>
+
+    <h2 id="how-it-works">Cara Kerjanya</h2>
+    <ul>
+      <li>Serang pencuri di peta dengan stamina. Kill memunculkan bos Thief Leader untuk rally aliansi — <strong>spawn diundi per pencuri yang dibunuh</strong>, bukan per hari event atau per pemain.</li>
+      <li>Bos muncul <strong>di kill pertama atau setelah 20</strong> — undiannya terjadi lebih awal atau setelah rentetan. Satu aliansi melaporkan <strong>selalu 8 atau lebih</strong>; harapkan variasi dan terus membunuh.</li>
+      <li>Poin dan hadiah <strong>tidak meningkat kemudian dalam event</strong>. Tidak ada alasan menimbun stamina — <strong>belanjakan segera</strong> untuk mengundi bos-bos besar lebih cepat.</li>
+    </ul>
+
+    <h2 id="boss-levels">Level Bos per Server</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Usia server</th><th>Level bos umum</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Tipikal</td><td>10 / 15 / 20 / 25 / 30, jarang 35</td></tr>
+        <tr><td>Server lebih tua</td><td>40 / 65 / 85 / 90</td></tr>
+      </tbody>
+    </table>
+    <ul>
+      <li><strong>Kisaran level bos Anda acak per pemain dan tidak berubah</strong> — Anda mengundi kisaran Anda dan mempertahankannya. Itu <strong>tidak terikat pada kekuatan Anda</strong>, jadi pemain berkekuatan rendah bisa mengundi bos level tinggi.</li>
+      <li><strong>Patch pasca-08-Juli: spawn akurat terhadap pertumbuhan server.</strong> Sejak patch itu, level bos mengikuti seberapa berkembang servernya — tidak lagi bos level 10 di server berusia setahun.</li>
+    </ul>
+
+    <h2 id="spawn-technique">Teknik Kill-Tanpa-Henti untuk Level 30/35</h2>
+    <p>Teknik terverifikasi untuk mendorong level bos ke 30 dan 35:</p>
+    <blockquote>Bunuh pencuri satu per satu TANPA membiarkan pasukan Anda kembali ke pangkalan — nonstop, march beruntun tanpa waktu menganggur.</blockquote>
+    <p>March yang kembali ke pangkalan memutus rentetannya; kill beruntun mengundi spawn berkali-kali. Rantai target Anda agar march berikutnya berangkat begitu yang terakhir mendarat, dan spawn level tinggi datang jauh lebih sering.</p>
+
+    <h2 id="exchange">Daftar Prioritas Penukaran</h2>
+    <p>Toko penukaran adalah hadiah yang sesungguhnya, dan urutan konsensus komunitasnya stabil:</p>
+    <h3 id="week-1">Hanya Minggu 1</h3>
+    <ol>
+      <li><strong>Scroll</strong> — 4 untuk teknologi Alliance Duel, <strong>lalu tidak pernah lagi</strong>. Teknologi duel menginginkan tepat empat; setelah itu mereka jadi beban mati.</li>
+    </ol>
+    <h3 id="always">Selalu, Setiap Event</h3>
+    <ol>
+      <li><strong>Raven Essence</strong> — setiap event, tanpa kecuali. Sistem Gagak tersumbat permanen karenanya (lihat <a href="/id/raven/">Panduan Gagak</a>).</li>
+    </ol>
+    <h3 id="high-priority">Prioritas Tinggi</h3>
+    <ol>
+      <li>Stamina</li>
+      <li>Percepatan</li>
+      <li>Peti Gagak</li>
+      <li>Epigraf <em>saat tersedia</em></li>
+    </ol>
+    <h3 id="late-game">Akhir Permainan</h3>
+    <ol>
+      <li><strong>Herbs</strong> — tidak pernah cukup; akun akhir-permainan membeli herbs setiap event.</li>
+    </ol>
+    <h3 id="alt-list">Daftar Prioritas Alternatif</h3>
+    <ol>
+      <li>Stamina</li>
+      <li>Peti Gagak LV3</li>
+      <li>Peti epigraf biru/ungu</li>
+      <li>Percepatan riset/konstruksi</li>
+      <li>Tiket rekrutmen</li>
+    </ol>
+    <p>Dan satu aturan inventaris: <strong>batas scroll terbawa dari event ke event</strong>. Jika Anda mencapai batas scroll, batas itu mengikuti Anda ke event berikutnya — satu lagi alasan aturan &quot;empat lalu tidak pernah lagi&quot; ada.</p>
+
+    <h2 id="boss-squad">Pasukan Rally Bos</h2>
+    <p>Komposisi bos komunitas, dibangun untuk damage seiring waktu:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Baris</th><th>Hero</th><th>Tugas</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Depan</td><td>Arthur + Bella</td><td>Bertahan lebih lama — setiap detik bertahan ekstra menumpuk lebih banyak damage</td></tr>
+        <tr><td>Belakang</td><td>Marlena + Shadow + Claire</td><td>Mesin damage di belakang garis depan</td></tr>
+      </tbody>
+    </table>
+    <p>Logikanya: <strong>bertahan lebih lama = lebih banyak damage tertumpuk</strong>. Pertarungan bos bukan ujian burst — pasukan yang berdiri paling lama memberikan damage terbanyak, jadi prioritaskan bertahan hidup di atas serangan mentah. Detail hero lengkap ada di <a href="/id/heroes/">Panduan Hero</a>.</p>
+
+    <VideoSection topic="thief" lang={lang} />
+  </GuidePage>
+</Base>

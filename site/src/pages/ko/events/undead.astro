@@ -1,0 +1,102 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ko';
+---
+<Base lang={lang} path="/ko/events/undead/" title="언데드 공성전: 완전 가이드" description="감염 웨이브에 맞선 동맹 방어: 300,000 단서 바, 2.4M에서 24.5M 적 전력까지의 난이도, 9.5M 플레이어를 쓰러뜨리는 숨겨진 다중 부대 메커니즘, 전체 보상 표.">
+  <GuidePage title="언데드 공성전: 완전 가이드" description="감염 웨이브에 맞선 동맹 방어: 300,000 단서 바, 2.4M에서 24.5M 적 전력까지의 난이도, 9.5M 플레이어를 쓰러뜨리는 숨겨진 다중 부대 메커니즘, 전체 보상 표." lang={lang}>
+    <p>언데드 공성전은 동맹 방어 이벤트입니다: 동맹 전체가 <strong>감염 웨이브</strong>에 맞서고, 성벽의 영웅이 싸웁니다. 두 가지 규칙이 무엇보다 먼저 이것을 규정합니다: <strong>보호막은 작동하지 않습니다</strong>, 그리고 <strong>점수 이벤트가 아닙니다</strong> — 목표는 가능한 한 많은 웨이브를 방어하는 것입니다.</p>
+    <p>이 가이드는 공성이 어떻게 해금되는지, 난이도 사다리, 준비 없는 동맹을 전멸시키는 숨겨진 다중 부대 메커니즘, 보상, 그리고 최악의 7가지 실수를 다룹니다.</p>
+
+    <h2 id="unlocking">공성 해금 방법</h2>
+    <p>공성은 타이머가 아니라 — 동맹이 작동시킵니다:</p>
+    <ol>
+      <li><strong>300,000 단서 포인트</strong> 바를 채우세요.</li>
+      <li><strong>R4 또는 R5가 맵의 숨겨진 죽음의 감옥</strong>을 찾으세요.</li>
+      <li>그 리더가 <strong>공성을 시작하고 난이도를 고릅니다</strong>.</li>
+      <li>공성은 클릭 후 대략 <strong>4시간 뒤</strong> 시작됩니다 — 그 시간을 써서 모든 멤버의 영웅을 성벽에 올리세요.</li>
+    </ol>
+    <p>단서 포인트는 평범한 일일 플레이에서 나옵니다:</p>
+    <ul>
+      <li><strong>반군</strong>과 <strong>역병 군단</strong> 공격</li>
+      <li><strong>떠도는 역병</strong> 처치</li>
+      <li>타일에서 자원 채집</li>
+      <li>동맹원 돕기 (건설 지원 및 연구 지원 탭)</li>
+      <li><strong>동맹 발굴</strong> 운영</li>
+      <li><strong>매 퀘스트</strong> 완료</li>
+    </ul>
+    <p>활동적인 동맹은 평범한 플레이로 바를 채웁니다; 병목은 바가 아니라 준비입니다.</p>
+
+    <h2 id="difficulty">난이도 레벨</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>난이도</th><th>적 전력</th><th>영토</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1레벨</td><td>2.4M</td><td>영토 13</td></tr>
+        <tr><td>6레벨</td><td>웨이브당 약 3부대</td><td>—</td></tr>
+        <tr><td>10레벨</td><td>24.5M</td><td>영토 27</td></tr>
+      </tbody>
+    </table>
+    <p>사다리는 1레벨의 2.4M 적 전력에서 10레벨의 24.5M까지 연속적으로 스케일되며, 영토 요구는 13에서 27로 상승합니다. 더 높은 난이도는 <strong>적 돌연변이</strong>도 해금합니다 — 난이도를 확정하기 <strong>전에 돌연변이를 미리보세요</strong>, 방어 구성을 상대하는 돌연변이 하나가 수백만의 적 전력 가치이기 때문입니다.</p>
+
+    <h2 id="hidden-mechanic">숨겨진 다중 부대 메커니즘</h2>
+    <p>이것이 난이도 화면이 말하지 않는 부분이며, 20웨이브 생존과 17웨이브 붕괴의 차이입니다:</p>
+    <ul>
+      <li>공성은 표시 전력으로 <strong>2개 이상의 부대</strong>를 보냅니다. 8M 표시는 8M 부대 둘과 싸운다는 뜻입니다 — 버튼 숫자의 사실상 2배.</li>
+      <li>8M 난이도의 <strong>17웨이브</strong>에서 실제 전력은 대략 <strong>7.3M x 2</strong>입니다.</li>
+      <li><strong>난이도 6 이상에서는 웨이브가 3부대</strong>를 보냅니다.</li>
+      <li><strong>부대 HP는 웨이브 사이에 지속됩니다.</strong> 탱커는 마지막 전투에서 끝난 HP로 다음 전투를 시작합니다 — 그리고 부대 1은 사이에 치유 없이 <strong>연속 전투</strong>를 버텨야 합니다.</li>
+    </ul>
+    <blockquote>9.5M 플레이어가 8M 난이도의 17웨이브에서 사망했습니다 — 지속 HP로 연속 전투에 갈려서. 표시 전력이 곧 전투가 아닙니다.</blockquote>
+
+    <h2 id="rewards">보상</h2>
+    <h3 id="personal-rewards">개인 마일스톤</h3>
+    <p>각 플레이어는 <strong>20개의 솔로 웨이브</strong>에 맞서며, 웨이브 <strong>1, 4, 8, 10, 13, 16, 20</strong>에 마일스톤이 있습니다 — 토큰, 업그레이드, 상자. 도시가 함락되면 <strong>다시 공격받지 않지만</strong>, 개인 보상은 거기서 멈춥니다: 20중 12웨이브에서 죽으면 이후 모든 마일스톤을 잃습니다.</p>
+    <h3 id="alliance-rewards">동맹 마일스톤</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>동맹 총 웨이브</th><th>보상</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>50</td><td>영웅 XP, 재료, 훈장</td></tr>
+        <tr><td>100</td><td>영웅 XP, 재료, 훈장</td></tr>
+        <tr><td>150</td><td>영웅 XP, 재료, 훈장</td></tr>
+        <tr><td>200</td><td>영웅 XP, 재료, 훈장</td></tr>
+        <tr><td>250</td><td>영웅 XP, 재료, 훈장</td></tr>
+        <tr><td>300</td><td>영웅 XP, 재료, 훈장</td></tr>
+      </tbody>
+    </table>
+    <p>동맹 총합에 관한 두 가지 규칙:</p>
+    <ul>
+      <li>동맹 보상을 받으려면 <strong>48시간 이상 멤버십</strong>이 필요합니다 — 신규 가입은 수령하지 못합니다.</li>
+      <li><strong>다른 멤버 증원은 개인 보상을 2배로 하지 않습니다</strong> — 동맹 총합을 올립니다. 그래도 하세요: 동맹 마일스톤이 큰 지급입니다.</li>
+    </ul>
+    <p>역대 최고 기록은 단일 공성에서 <strong>1,193웨이브</strong>입니다.</p>
+
+    <h2 id="deployment">배치: 부대와 증원</h2>
+    <ul>
+      <li><strong>가장 강한 부대를 자기 성벽에.</strong> 그 부대가 20개인 개인 웨이브를 짊어집니다.</li>
+      <li><strong>나머지 부대는 다른 멤버를 증원합니다</strong> — 증원은 동맹 총합을 올리고, 공유 보상이 그곳에 있습니다.</li>
+      <li>증원은 멤버의 성벽에 착지해 그들과 함께 다가오는 웨이브와 싸웁니다 — 알림 후가 아니라 웨이브가 오기 전에 보내세요.</li>
+    </ul>
+
+    <h2 id="top-mistakes">최악의 7가지 실수</h2>
+    <ol>
+      <li><strong>영웅이 성벽에 없음</strong> — 최대의 킬러. 성벽의 영웅이 곧 이벤트입니다; 영웅 없는 성벽은 함락을 기다리는 도시입니다.</li>
+      <li><strong>성벽 방어 무시</strong> — 이 이벤트에는 <strong>자동 방어가 없습니다</strong>. 미리 설정한 것이 싸웁니다.</li>
+      <li><strong>단서 100% 없이 시작</strong> — 급한 시작은 4시간 경고 창을 낭비합니다.</li>
+      <li><strong>돌연변이 과소평가</strong> — 난이도를 고르기 전에 항상 돌연변이 미리보기를 읽으세요.</li>
+      <li><strong>멤버 증원 안 함</strong> — 동맹 마일스톤은 자기 성벽만이 아니라 모든 성벽에 몸을 필요로 합니다.</li>
+      <li><strong>불완전한 부대로 시작</strong> — 반쯤 빈 성벽 부대는 죽은 성벽 부대입니다.</li>
+      <li><strong>사전 설정 방어 없이 로그오프</strong> — 오프라인 방어는 작동하지만, <strong>미리 설정된 경우에만</strong>입니다. 설정하고 자세요.</li>
+    </ol>
+    <p>이 일곱 가지를 고치고 이벤트를 운영하면 동맹은 상한 근처까지 방어합니다. 성벽의 영웅 세팅과 부대 구성은 <a href="/ko/heroes/">영웅 가이드</a>에서 다룹니다.</p>
+
+    <VideoSection topic="undead" lang={lang} />
+  </GuidePage>
+</Base>

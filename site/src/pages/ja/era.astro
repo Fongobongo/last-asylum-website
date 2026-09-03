@@ -1,0 +1,135 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ja';
+---
+<Base lang={lang} path="/ja/era/" title="Era of Revival：シーズンガイド" description="シーズンシステム：毎日の最優先事項としての耐性(Resistance)、F2Pと課金者向けの特技ツリー、ロード進化のステータス、備蓄リスト、そして名誉の殿堂スキップ戦略を含むClaire SSR→UR変換の完全な計算。">
+  <GuidePage title="Era of Revival：シーズンガイド" description="シーズンシステム：毎日の最優先事項としての耐性(Resistance)、F2Pと課金者向けの特技ツリー、ロード進化のステータス、備蓄リスト、そして名誉の殿堂スキップ戦略を含むClaire SSR→UR変換の完全な計算。" lang={lang}>
+    <p>Era of Revival は120日前後に到着する季節レイヤーです — 約2ヶ月のサイクルで、ベースゲームの上に独自の成長システムを追加します：ロードの像(耐性とロード進化)、特技ツリー、そしてエリート疫病(Elite Blight)。</p>
+    <p>このシーズンは一点集中に報酬を払い、ベースゲーム以上に注意散漫を罰します。このページでは、毎日何を優先すべきか、どの特技ツリーが課金レベルに合うか、シーズン開始前に何を備蓄すべきか、そしてClaire SSR→UR変換の完全な計算を解説します。</p>
+
+    <h2 id="season-overview">シーズンの概要</h2>
+    <p>1シーズンは約2ヶ月。その中で3つのシステムが成長を担います：</p>
+    <ul>
+      <li><strong>ロードの像(Lord Statue)</strong> — 耐性(Resistance)とロード進化(Lord Evolution)。シーズンの背骨。<a href="#lord-statues">ロードの像セクション</a>参照。</li>
+      <li><strong>特技ツリー</strong> — 役割を定義するボーナス。成長系と戦争系のパスに分かれます。</li>
+      <li><strong>エリート疫病(Elite Blight)</strong> — 耐性で難易度がゲートされるグループコンテンツ。</li>
+    </ul>
+
+    <h2 id="resistance-first">耐性(Resistance):毎日の最優先事項</h2>
+    <p>シーズン1日目から、耐性は他の何よりも優先される毎日の最優先事項です。理由は単純：これが最初の成長の壁であり、<strong>シーズンのすべての成長が耐性XPに依存しています</strong>。他のすべてのシーズンシステムはその裏で解放されるかスケールします。</p>
+    <p>耐性を押すための実践ルールが2つ：</p>
+    <ul>
+      <li><strong>ダメージ30%ペナルティでもモンスターを攻撃する。</strong> 戦闘はたいていそれでも勝てます — そして耐性XPはどのみち流れ込みます。</li>
+      <li><strong>耐性の高い同盟員とエリート疫病を集結する。</strong> グループの難易度は参加者でスケールします — 強い味方があなたのクリアを一緒に引き上げます。</li>
+    </ul>
+    <p>今すぐ受け取るべき無料品が1つ：<strong>緑の避難所(Greenery Shelter)のスキンは耐性XP +100</strong>。受け取って適用すれば、シーズンの毎日それが支払い続けます — 争う必要のない1日100XPです。</p>
+
+    <h2 id="specialty-trees">特技ツリー：成長系 vs 戦争系</h2>
+    <p>特技ツリーは課金プロファイルで分かれ、コミュニティの選択は明確です：</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>プロファイル</th><th>ツリー</th><th>効果</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>F2Pと中課金</td><td>Handyman / Skilled Craftsman</td><td>研究と建設時間の短縮 — 聖域を急ぎ、ティア10部隊に早く到達。</td></tr>
+        <tr><td>大口課金 / PvP特化</td><td>Legion Commander / Military Commander</td><td>戦闘バフ、治療、集結戦力 — 戦争のパス。</td></tr>
+      </tbody>
+    </table>
+    <p>論理はこうです：近隣より多く課金していないなら、成長ツリーが「建設で上回る」ことでシーズンを勝たせます。すでに上回って課金しているなら、戦争ツリーがそれを戦場の結果に変換します。</p>
+    <h3 id="war-supply">War Supply:略奪上限スキル</h3>
+    <p>軍団指揮官(Legion Commander)ツリーはWar Supplyを持ち、スキルレベル1〜5で毎日の略奪上限を+6 / +14 / +24 / +36 / +50%引き上げます。1日あたりの価値については<a href="/ja/economy/">経済ガイド</a>の略奪上限表を参照 — 終盤の上限では毎日数百万の追加資源です。</p>
+
+    <h2 id="lord-statues">ロードの像とEraアカデミー</h2>
+    <p>ロードの像はEraアカデミーにあり、内部の2つのシステムは別々の仕事をします：</p>
+    <ul>
+      <li><strong>耐性(Resistance)</strong> — シーズンの壁。XPでゲートされ、毎日のプレイで育ち、その裏にシーズンのコンテンツと報酬が待機しています。</li>
+      <li><strong>ロード進化(Lord Evolution)</strong> — 出撃のための永続ステータス成長。シーズン素材で育てます。</li>
+    </ul>
+    <p>シーズン終了時にリセットされるもの：季節の成長システムはEraとともにリセットされます — 耐性の進捗とシーズンツリーの登攀はゼロに戻り、永続的な投資(ロード進化のステータス、ヒーロー、装備)は引き継がれます。それに合わせて使うこと：永続的な戦力には自由に使い、シーズン通貨はそのシーズンのうちに使い切ること。</p>
+
+    <h2 id="lord-evolution-stats">ロード進化：どのステータスを取るか</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>プロファイル</th><th>ステータス</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>F2P / 成長</td><td>研究速度、建設速度、資源生産、治療</td></tr>
+        <tr><td>PvP</td><td>攻撃、進軍サイズ、ヒーローダメージ</td></tr>
+      </tbody>
+    </table>
+    <p>特技ツリーと同じ論理を一段下で：成長アカウントは速度系ステータスで全てを複利にし、PvPアカウントは接触した瞬間に勝負を決めるステータスを買います。</p>
+
+    <h2 id="hero-progression-order">シーズン内のヒーロー進行</h2>
+    <p>シーズン内の覚醒ヒーローの梯子。メインヒーローについて、順番に：</p>
+    <ol>
+      <li>メインヒーローを星10へ。</li>
+      <li>覚醒(Awakening)。</li>
+      <li>専用武器(Exclusive Weapon)。</li>
+      <li>ロード進化(Lord Evolution)。</li>
+      <li>ロード耐性(Lord Resistance)。</li>
+      <li>Era強化(Era Enhancement) — メインスキン1つのみ。</li>
+      <li>それから2人目のヒーローを、同じ梯子で。</li>
+    </ol>
+    <p>縛るルールが2つ：<strong>覚醒素材を絶対に分割しない</strong>こと、そして1つの強い進軍は半端に完成した複数に勝つこと — この梯子はまさに2体を並行して育てるのを防ぐために存在します。</p>
+
+    <h2 id="hoarding-list">シーズン前に備蓄するもの</h2>
+    <p>アカウントが120日へ近づいているなら、これが備蓄リストです。ここにあるすべては、シーズン前よりシーズン中に使う方が価値が高い：</p>
+    <ul>
+      <li>ダイヤ。</li>
+      <li>リクルートチケット。</li>
+      <li>ヒーローの欠片とメダル。</li>
+      <li>すべての加速(研究加速を含む)。</li>
+      <li>抗毒素(Antitoxin)。</li>
+      <li>カラスの果実(Raven Fruit)。</li>
+      <li>資源。</li>
+      <li>武器素材。</li>
+    </ul>
+    <p>パターン：シーズンはこれらの新しい使い道を追加し、いくつかのシーズンイベントは消費に報酬を払います — 備蓄は、Eraが始まるとそのままイベントポイントと成長に変わります。</p>
+
+    <h2 id="week-1-purchases">週1の購入(課金者向け)</h2>
+    <ul>
+      <li><strong>Battle Pass + Weekly Era Pass</strong> — 耐性+250と特技XP。シーズンで最良のタイミング：週1に買えば2ヶ月間ずっと支払い続けます。</li>
+      <li><strong>専用武器と覚醒シャードのパックは専用パスイベントまで取っておく。</strong> 同じパックでも、イベントが購入に報酬を払う時の方が価値が上がります。</li>
+    </ul>
+
+    <h2 id="claire-conversion">Claire SSR→UR変換(Era 8日目)</h2>
+    <p>Claireの変換はEra 8日目に開きます — ただしこれを読まずに8日目に触らないでください。変換でClaireは星6URに着地し、そこから星10への道にこそ問題が潜んでいます。</p>
+    <h3 id="conversion-costs">コスト</h3>
+    <ul>
+      <li>Claireは<strong>SSRシャードを食い、URシャードではない</strong> — 序盤に貯めたシャードはまさにこの変換のために設計されたものです。</li>
+      <li>各小段階は<strong>2倍</strong>のコスト：星6から星10までには合計1,600シャードかかります。</li>
+    </ul>
+    <h3 id="conversion-gains">利得</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>星レベル</th><th>最大SSR比のダメージ</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>星9</td><td>約1.70倍</td></tr>
+        <tr><td>星10</td><td>約2.20倍</td></tr>
+      </tbody>
+    </table>
+    <h3 id="the-passive-dip">パッシブの谷</h3>
+    <p>罠：変換すると彼女のパッシブのチームバフは下がります。最大SSRのパッシブはチームバフ16%。星6URではわずか10% — 登り返すまでの間、実質数パーセントのチーム損失です。星9で回復(14%)し、星10で逆転(22%)します。</p>
+    <h3 id="skip-the-dip">谷をスキップする：名誉の殿堂戦略</h3>
+    <p>変換の<strong>前に</strong>名誉の殿堂(Hall of Honor)のレベルを用意すれば、谷を完全にスキップできます：</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>名誉の殿堂レベル</th><th>変換結果</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Lv. 60</td><td>Claireは星8で着地 — 上級Tenacity(ATK/HP/DEF +20%、クールダウン速度+10%)</td></tr>
+        <tr><td>Lv. 100</td><td>Claireは星9で着地</td></tr>
+        <tr><td>Lv. 160</td><td>1,600シャード全てバンク済み — 即時星10、谷なし</td></tr>
+      </tbody>
+    </table>
+    <p>タイミングの結論：UR編成が揃っていないアカウントにとって、この変換は巨大なPvP強化です — 無料で貯めたシャードの上に築かれた2.20倍のダメージキャリー。ただし名誉の殿堂レベルとシャード残高と突き合わせて、星6ではなく星8以上で着地するようにタイミングを計ってください。</p>
+
+    <VideoSection topic="era" lang={lang} />
+  </GuidePage>
+</Base>

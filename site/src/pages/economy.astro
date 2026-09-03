@@ -1,0 +1,133 @@
+﻿---
+import Base from '../layouts/Base.astro';
+import GuidePage from '../components/GuidePage.astro';
+import VideoSection from '../components/VideoSection.astro';
+import PlunderCalculator from '../components/PlunderCalculator.astro';
+import Infographic from '../components/Infographic.astro';
+import { t } from '../i18n/ui';
+import type { Lang } from '../i18n/utils';
+
+const lang: Lang = 'en';
+---
+<Base lang={lang} path="/economy/" title="Economy: Diamonds, Shops, Plunder" description="Where every diamond goes: VIP shop priorities, the restock schedule, per-shop buy orders, Wishing Wheel budgets, and the complete plunder mechanics with daily limits by Sanctuary level.">
+  <GuidePage title="Economy: Diamonds, Shops, Plunder" description="Where every diamond goes: VIP shop priorities, the restock schedule, per-shop buy orders, Wishing Wheel budgets, and the complete plunder mechanics with daily limits by Sanctuary level." lang={lang}>
+    <p>Last Asylum: Plague runs three parallel economies: diamonds and shops, daily plunder, and the event calendar. Each has its own traps — bad diamond buys, wasted plunder capacity, stamina spent at 5% efficiency. This page is the community consensus on all three, with the exact numbers.</p>
+
+    <h2 id="vip-shop">VIP Shop: Diamond Priorities</h2>
+    <p>The VIP shop takes diamonds, and most of its stock is a bad trade. The verified buy list:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Priority</th><th>Items</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>HIGH</td><td>UR Omnifragment, UR Antidote, Crow Essence, 8h Speedup</td></tr>
+        <tr><td>MEDIUM</td><td>3h Speedup, SSR Omnifragment, 1h Speedup</td></tr>
+        <tr><td>LOW</td><td>SSR Antidotes, Direct Relocation</td></tr>
+      </tbody>
+    </table>
+    <p>And the full rule: <strong>avoid everything else unless extreme necessity.</strong> The shop is priced to tempt impatient players into converting diamonds into items the game gives away through events — hold the line.</p>
+    <Infographic src="/infographics/shop-priority.webp" alt="Diamond consumption and item exchange priorities for every shop in Last Asylum: Plague" caption="Community shop priority cheat sheet — what to buy in every shop, and in what order" />
+
+    <h2 id="restock-schedule">Shop Restock Schedule</h2>
+    <p>All shops restock on Monday. Plan your week around it: buy out your priorities Monday when stocks are full, run your Alliance Duel and Expedition income mid-week, then spend the weekend deciding what Monday&apos;s refresh owes you. Players who shop on Sunday buy a picked-clean shelf.</p>
+
+    <h2 id="sanctuary-shop">Sanctuary Shop</h2>
+    <ol>
+      <li>Crow Essence and UR Hero Omnifragments — buy to the maximum.</li>
+      <li>Antidotes and SSR Omnifragments.</li>
+      <li>Gear Stones and Recruitment Tickets.</li>
+      <li>Skill Badges and SR Omnifragments — extra budget only.</li>
+    </ol>
+
+    <h2 id="expedition-shop">Expedition Shop</h2>
+    <ol>
+      <li>UR Omnifragments and Essences.</li>
+      <li>Expedition Chest, Inscription Fragment, and the UR Inscription Chest.</li>
+      <li>Antidotes and Gear Stones.</li>
+      <li>Speedups, Tickets, and the 100K Crow Fruits — necessary only.</li>
+    </ol>
+
+    <h2 id="honor-shop">Honor Shop</h2>
+    <ol>
+      <li>UR Gear Blueprint, Essence, and UR Omnifragments.</li>
+      <li>Curiosity Chests and UR Inscriptions.</li>
+      <li>Everything else — urgent needs only.</li>
+    </ol>
+    <p>The critical rule for Honor specifically: honor is <strong>only for gear blueprints</strong>. There are no epigraph chests here — that is not an oversight to work around, it is how the currency is designed. Spend honor on UR gear blueprints first and treat the rest as filler.</p>
+
+    <h2 id="alliance-shop">Alliance Shop</h2>
+    <ol>
+      <li>UR Hero Omnifragment, Crow Essence, and Direct Relocation.</li>
+      <li>Crow Evolution Guide, Shields, SR Inscription Chest, and Bella Fragments.</li>
+      <li>Optional: all speedups.</li>
+    </ol>
+
+    <h2 id="epigraph-chests">Epigraph Chests: The Exception Rule</h2>
+    <p>Buy epigraph chests in every shop <strong>except the Honor Shop</strong>. Epigraphs feed the Raven system, and the Raven&apos;s UR epigraphs only buff one faction — in the mono-faction meta, that makes epigraph chests the single most consistent long-term purchase in the game.</p>
+    <p>Free-to-play epigraph income is real, if you show up for it: 30 UR shards per day from Alliance Duel, plus self-forging in the Epigraph Workshop, adds up to roughly 1.5 UR epigraphs per month. The full system — workshop levels, promotion order, and rarity rules — is covered in the <a href="/raven/">Raven guide</a>.</p>
+
+    <h2 id="diamond-rules">Diamond Rules: Wheels, Banners, and Milestones</h2>
+    <ol>
+      <li><strong>Save until day 8</strong> for the Cynthia Wishing Wheel — she runs about 11,500 diamonds. Spin 10x only; single spins pay the same odds at a worse price.</li>
+      <li><strong>After day 15, save for Joker&apos;s wheel</strong> — the UR PvP finisher event. The mid-game diamond reserve exists for this.</li>
+      <li><strong>Never dump diamonds into standard recruitment.</strong> Wait for rate-up banners — same currency, better heroes.</li>
+      <li><strong>Do not chase cumulative diamond-spend milestones</strong> like Deep Sea&apos;s Gift. Spending diamonds just to cross a reward threshold is buying the milestone, not the value.</li>
+    </ol>
+    <Infographic src="/infographics/diamonds-free.webp" alt="How to get diamonds for free in Last Asylum: Plague — working methods" caption="Free diamond farming methods that actually work" />
+    <h3 id="best-packs">Best Packs ($20-200 Range)</h3>
+    <p>If you spend at all, the community picks three packs in the $20-200 range: Universal Speedup packs, Raven Essence packs, and City Level-Up packs. And from the beginner guides: the $1 Marlena top-up at day 66 remains the single best value purchase in the game at any price.</p>
+
+    <h2 id="plunder-mechanics">Plunder: The Complete Mechanics</h2>
+    <p>Plunder income is capped by a daily limit, and the limit scales with your Sanctuary level. Knowing the thresholds changes when you stop attacking for the day.</p>
+    <PlunderCalculator lang={lang} />
+    <h3 id="how-the-limit-works">How the Limit Works</h3>
+    <ul>
+      <li>The limit counts Grain, Timber, and Herbs carried home from attacks.</li>
+      <li>Below the limit: you carry resources at <strong>100%</strong> efficiency.</li>
+      <li>From 1x the limit: efficiency drops to <strong>15%</strong>.</li>
+      <li>From 1.3x the limit: efficiency drops to <strong>5%</strong> — that is the floor.</li>
+      <li>The limit resets at <strong>02:00 UTC</strong> daily.</li>
+      <li>The yellow triangle under a target&apos;s Might is the over-limit indicator — check it via Effect Overview, then Plunder Gains.</li>
+    </ul>
+    <h3 id="plunder-limits-table">Daily Limits by Sanctuary Level</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Sanctuary</th><th>Daily limit</th><th>Sanctuary</th><th>Daily limit</th><th>Sanctuary</th><th>Daily limit</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>10-12</td><td>2.5M</td><td>18</td><td>8M</td><td>24</td><td>18M</td></tr>
+        <tr><td>13</td><td>3M</td><td>19</td><td>9M</td><td>25</td><td>20M</td></tr>
+        <tr><td>14</td><td>4M</td><td>20</td><td>10M</td><td>26</td><td>22M</td></tr>
+        <tr><td>15</td><td>5M</td><td>21</td><td>12M</td><td>27</td><td>24M</td></tr>
+        <tr><td>16</td><td>6M</td><td>22</td><td>14M</td><td>28</td><td>26M</td></tr>
+        <tr><td>17</td><td>7M</td><td>23</td><td>16M</td><td>29 / 30</td><td>28M / 30M</td></tr>
+      </tbody>
+    </table>
+    <p>The pattern: +1M per Sanctuary level up to 20, then +2M per level to the 30M cap at Sanctuary 30. Two mechanical notes:</p>
+    <ul>
+      <li>A Sanctuary upgrade raises your limit <strong>immediately</strong> — no reset wait. If you are near the daily cap and a Sanctuary level is close, finish it first and plunder after.</li>
+      <li>The War Supply skill from the Legion Commander specialty tree (Era of Revival) raises the cap by +6 / +14 / +24 / +36 / +50% at skill levels 1-5. See the <a href="/era/">Era guide</a>.</li>
+    </ul>
+
+    <h2 id="nine-hit-rule">The Nine-Hit Rule</h2>
+    <p>Never attack the same farm more than nine times in a row. The tenth hit destroys the city outright and teleports its owner away — you lose the farm, and the player loses their city. Nine hits is the ceiling; the community treats it as an obligation, not a suggestion.</p>
+
+    <h2 id="stamina-math">Stamina Math: Why Over-Limit Plundering Fails</h2>
+    <p>Spending stamina on over-limit plunder is one of the worst trades in the game:</p>
+    <ul>
+      <li>At 15% efficiency, each stamina point earns roughly <strong>7x less</strong> than normal.</li>
+      <li>At 5% efficiency, roughly <strong>20x less</strong>.</li>
+      <li>The same stamina spent on monsters earns <strong>full value regardless</strong> of your plunder status.</li>
+    </ul>
+    <p>So the daily rhythm writes itself: hit the richest targets you can beat first while you are at 100%, stop attacking farms the moment you cross the limit, and dump the rest of your stamina into monsters. And within your plunder window, always hit the richest target first — the limit is coming regardless, so fill it with the biggest numbers available.</p>
+
+    <h2 id="caravans-covert-ops">Caravans and Covert Ops: Always Run Both</h2>
+    <p>Caravans and Covert Ops are separate systems from plunder, and they dodge every restriction above: no plunder limit, no real troop loss, no stamina cost. They are pure upside, which is why the community rule is to run both every single day.</p>
+    <ul>
+      <li><strong>Caravans</strong> — your automated trade income. Keep them moving.</li>
+      <li><strong>Covert Ops</strong> — you can plunder up to 5 other players&apos; Covert Ops per day. Golden Covert Ops pay the best rewards — always grab a golden one when you see it.</li>
+    </ul>
+
+    <VideoSection topic="economy" lang={lang} />
+  </GuidePage>
+</Base>

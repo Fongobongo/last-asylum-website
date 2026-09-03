@@ -1,0 +1,56 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { statusUpdates } from '../../data/status';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ja';
+
+const statusStyles = {
+  fixed: 'border-toxic-500/40 bg-toxic-500/10 text-toxic-400',
+  investigating: 'border-amber-500/40 bg-amber-900/20 text-amber-300',
+  info: 'border-sky-500/40 bg-sky-900/20 text-sky-300',
+};
+const statusIcons = { fixed: '✅', investigating: '⚠️', info: 'ℹ️' };
+---
+
+<Base lang={lang} path="/status/" title="サーバーステータス & 既知の問題" description="Last Asylum: Plague の既知のバグ、修正、公式のお知らせ — 公式ステータスチャンネルから要約。">
+  <GuidePage
+    title="🛡️ サーバーステータス & 既知の問題"
+    description="公式 #status-update チャンネルから要約。ライブ更新は公式Discordに参加してください。"
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/ja/' }, { label: 'ステータス' }]}
+  >
+    <p>このページは注目すべき公式のお知らせをすべて掲載します：バグ、修正、補償ウェーブ、セキュリティ警告。新しいものが上。あなたの問題が載っていない場合はゲーム内で報告してください：アバター → アカウント → User Center → フィードバック。</p>
+
+    <div class="not-prose my-8 space-y-3">
+      {statusUpdates.map((s) => (
+        <article class="rounded-lg border border-stone-800 bg-stone-900 p-4">
+          <div class="flex flex-wrap items-center justify-between gap-2">
+            <h3 class="font-bold text-stone-100">{s.title}</h3>
+            <div class="flex items-center gap-2">
+              <time class="text-xs text-stone-500">{s.date}</time>
+              <span class={`rounded px-2 py-0.5 text-xs font-semibold ${statusStyles[s.status]}`}>{statusIcons[s.status]} {s.status}</span>
+            </div>
+          </div>
+          <p class="mt-2 text-sm text-stone-400">{s.detail}</p>
+        </article>
+      ))}
+    </div>
+
+    <h2 id="scam-alert">詐欺警告(重要)</h2>
+    <p>詐欺師がスタッフを装ってアカウントを盗もうとします。本物のスタッフが公式チャンネル外でパスワード、認証コード、支払いを<strong>要求することは絶対にありません</strong>。設定でFacebook/Googleアカウント連携を有効にしてください。</p>
+
+    <h2 id="login-fixes">ログインできない？クイック修正</h2>
+    <ul>
+      <li>ゲームを完全に再起動する</li>
+      <li>ゲームのキャッシュをクリアする(再ログインが必要な場合あり)</li>
+      <li>VPNを使っている場合は無効にする</li>
+      <li>ロード画面右上の<strong>修復(Repair)</strong>ボタンを使う</li>
+    </ul>
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

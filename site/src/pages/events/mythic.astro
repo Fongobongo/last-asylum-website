@@ -1,0 +1,101 @@
+﻿---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'en';
+---
+<Base lang={lang} path="/events/mythic/" title="Mythic Treasure: F2P Guide" description="All seven tabs of the pirate event decoded for free players: the battle pass, the slot machine trap, the corrected Pirate Market priority, the 300-fish daily cap, and the Buried Treasure suicide-for-rewards play.">
+  <GuidePage title="Mythic Treasure: F2P Guide" description="All seven tabs of the pirate event decoded for free players: the battle pass, the slot machine trap, the corrected Pirate Market priority, the 300-fish daily cap, and the Buried Treasure suicide-for-rewards play." lang={lang}>
+    <p>Mythic Treasure is the big pirate-themed event, and it is built like a funnel: seven tabs, six of them angled toward spending, and a handful of genuinely free value buried inside. The F2P play is to know exactly which tabs pay and which exist to tempt you — then grind the free ones daily.</p>
+    <p>This guide walks all seven tabs with the corrected market priority, the fish economy, the Buried Treasure strategy, and the anchor-coin expiry rule that catches everyone.</p>
+
+    <h2 id="the-7-tabs">The Seven Tabs at a Glance</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Tab</th><th>What it is</th><th>F2P verdict</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1. Pirate&apos;s Mythic Treasure</td><td>Battle pass</td><td>Free track only</td></tr>
+        <tr><td>2. Pirate&apos;s Game</td><td>Slot machine</td><td>Free draws only, never chase</td></tr>
+        <tr><td>3. Pirate Market</td><td>Anchor Coin shop</td><td>Buy UR fragments daily</td></tr>
+        <tr><td>4. Grand Feast</td><td>Server-wide fish event</td><td>One of the best F2P sections — do it</td></tr>
+        <tr><td>5. Delicious Hunt</td><td>Sea Fish farming</td><td>Farm to the 300 daily cap</td></tr>
+        <tr><td>6. Deep Sea&apos;s Gift</td><td>Money top-up rewards</td><td>Skip as F2P</td></tr>
+        <tr><td>7. Buried Treasure</td><td>Mini-game</td><td>5 free runs + the suicide play</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="tab-1-pass">Tab 1: Pirate&apos;s Mythic Treasure (Battle Pass)</h2>
+    <p>The headline battle pass. The <strong>advanced track costs 499</strong> and pays in <strong>Anchor Coins, Pirate Gold and exclusive chests</strong>. If you spend on one thing in this event, this is the candidate — but the free track still pays, and everything below works without the pass.</p>
+
+    <h2 id="tab-2-slots">Tab 2: Pirate&apos;s Game (Slot Machine)</h2>
+    <ul>
+      <li>Paid spins award <strong>Anchor Coins</strong>, and there is a <strong>5X draw</strong> option.</li>
+      <li>It is <strong>pure RNG — do not chase it.</strong> The slot machine is the single worst value target in the event, and it is designed to feel almost due.</li>
+      <li>Take the <strong>free draws</strong> every day and walk away. That is the entire tab.</li>
+    </ul>
+
+    <h2 id="tab-3-market">Tab 3: Pirate Market — Corrected Priority</h2>
+    <p>The market takes Anchor Coins, and the buy order matters more than anywhere else in the event:</p>
+    <ol>
+      <li><strong>UR fragments — BUY EVERY DAY.</strong> Top priority, no debate. This is the guaranteed hero value the event offers.</li>
+      <li><strong>Curio Chest daily</strong> — if you have spare anchors after the fragments.</li>
+      <li><strong>Final day leftovers go to Raven Essence or speedups</strong> — spend the remainder before the exchange closes (see <a href="#anchor-expiry">the expiry rule</a>).</li>
+    </ol>
+    <p>And the two hard DON&apos;Ts:</p>
+    <ul>
+      <li><strong>Do not buy speedups or resources with anchors.</strong> They are available everywhere else in the game; UR fragments are not.</li>
+      <li><strong>Pearls only raise hero HP — &quot;not super useful.&quot;</strong> Skip.</li>
+    </ul>
+    <p>One more trap to know about: the <strong>4,000-anchor ship skin exists</strong>. It is pretty. <strong>Do not sacrifice guaranteed rewards for it</strong> — four thousand anchors is the entire market&apos;s fragment income for the event.</p>
+
+    <h2 id="tab-4-grand-feast">Tab 4: Grand Feast</h2>
+    <p>The server-wide banquet: submit <strong>10 Sea Fish for 1 Banquet EXP</strong>, with <strong>top-50 rewards</strong> for the biggest contributors. The community verdict is blunt — <strong>&quot;one of the best F2P sections&quot;</strong> of the event. It costs nothing but the fish you farm anyway (see <a href="#tab-5-fish">Delicious Hunt</a>), and it pays server-visible rewards. Submit daily, every day, without exception.</p>
+
+    <h2 id="tab-5-fish">Tab 5: Delicious Hunt (Sea Fish Farming)</h2>
+    <p>Sea Fish come from your normal daily targets:</p>
+    <ul>
+      <li>Falcon Tower</li>
+      <li>Resource Monsters</li>
+      <li>Elite Blight</li>
+      <li>Black Ops</li>
+      <li>Wandering Blight</li>
+    </ul>
+    <p>The critical number: <strong>DAILY CAP 300 fish</strong>. Farm past it and you are killing mobs for nothing — the counter stops. Hit 300, stop, bank the time. The fish feed the Grand Feast, which is why the two tabs together are the F2P core of the whole event.</p>
+
+    <h2 id="tab-6-deep-sea">Tab 6: Deep Sea&apos;s Gift</h2>
+    <p>One clarification that saves diamonds: this tab rewards <strong>money top-ups, NOT diamond spending</strong>. Unlike a diamond-spend milestone event, there is nothing a F2P account can do here. Skip the tab entirely — it is not aimed at you.</p>
+
+    <h2 id="tab-7-buried">Tab 7: Buried Treasure (The F2P Mini-Game)</h2>
+    <p>The match mini-game, and the most misunderstood tab:</p>
+    <ul>
+      <li><strong>5 free attempts per day.</strong></li>
+      <li>Free skills: <strong>Remove, Recall, Refresh.</strong></li>
+      <li>Rewards are <strong>NOT for clearing the stage</strong> — they are granted <strong>ONE BY ONE AS MATCHED</strong>.</li>
+      <li><strong>Collected rewards are SAFE even if you fail the run.</strong> Matched = banked.</li>
+    </ul>
+    <p>Which produces the counterintuitive F2P strategy, the <strong>&quot;suicide for rewards&quot;</strong> play: grab the board&apos;s rewards, then <strong>intentionally lose</strong>. Clearing is not the goal — matching rewards off the board is. Failing costs nothing and keeps the matched loot.</p>
+    <p>The one caveat: <strong>stage 2 is near-impossible without spending</strong> — it wants roughly <strong>26 clears</strong>. Do not burn attempts or money chasing it; farm stage 1&apos;s free value instead.</p>
+
+    <h2 id="anchor-expiry">CRITICAL: Anchor Coins Do Not Carry Over</h2>
+    <blockquote>Anchor Coins DO NOT carry over — unused coins convert to speedups when the exchange closes. Really use them all before then.</blockquote>
+    <p>Speedups are the consolation prize, not the goal (see the <a href="#tab-3-market">market priority</a> — anchors buy UR fragments, speedups buy speedups). Ending the event with anchors left is straight value loss: everything they could have bought in the market was strictly better than the conversion rate.</p>
+
+    <h2 id="f2p-checklist">The F2P Daily Checklist</h2>
+    <ol>
+      <li>Farm <strong>300 Sea Fish</strong> ( Delicious Hunt ) and stop at the cap.</li>
+      <li>Submit fish to the <strong>Grand Feast</strong>.</li>
+      <li>Play <strong>5 Buried Treasure attempts</strong> — match rewards, suicide, repeat.</li>
+      <li>Take the <strong>free Pirate&apos;s Game draws</strong>.</li>
+      <li>Spend anchors on the guaranteed value — <strong>UR fragments first</strong>.</li>
+    </ol>
+
+    <h2 id="community-verdict">Community Verdict</h2>
+    <p>Mythic Treasure is <strong>heavily P2W-flavored</strong> — the pass, the slots and the top-up tab are all built for spenders. But the F2P sections — <strong>Grand Feast, Buried Treasure, and the fish farming</strong> — are worth doing every single day of the event. Grind those, ignore the rest, and leave nothing on the table when the exchange closes.</p>
+
+    <VideoSection topic="mythic" lang={lang} />
+  </GuidePage>
+</Base>

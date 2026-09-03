@@ -1,0 +1,91 @@
+---
+import Comments from './Comments.astro';
+import Feedback from './Feedback.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  lang: 'en' | 'ru' | 'es' | 'pt' | 'fr' | 'de' | 'id' | 'ko' | 'ja' | string;
+  breadcrumbs?: { label: string; href?: string }[];
+}
+
+const { title, description, breadcrumbs = [] } = Astro.props;
+
+const toc = [];
+const slots = await Astro.slots.render('default');
+const re = /<(h[23])[^>]*id="([^"]+)"[^>]*>(.*?)<\/\1>/g;
+let m;
+while ((m = re.exec(slots)) !== null) {
+  toc.push({
+    level: m[1],
+    id: m[2],
+    text: m[3].replace(/<[^>]+>/g, '').trim(),
+  });
+}
+
+const tocLabel = Astro.props.lang === 'ru' ? 'На этой странице' : 'On this page';
+const tocClose = Astro.props.lang === 'ru' ? 'Закрыть' : 'Close';
+---
+
+<div class="lg:grid lg:grid-cols-[1fr_260px] lg:gap-10">
+  {
+    breadcrumbs.length > 0 && (
+      <nav aria-label="Breadcrumb" class="mb-4 flex flex-wrap items-center gap-1.5 text-sm text-stone-500">
+        {breadcrumbs.map((b, i) => (
+          <span class="flex items-center gap-1.5">
+            {b.href ? (
+              <a href={b.href} class="hover:text-plague-300">
+                {b.label}
+              </a>
+            ) : (
+              <span class="text-stone-400">{b.label}</span>
+            )}
+            {i < breadcrumbs.length - 1 && <span class="text-stone-600">/</span>}
+          </span>
+        ))}
+      </nav>
+    )
+  }
+
+  <article class="prose-la max-w-none">
+    <h1 class="mb-2 text-3xl font-bold text-plague-100 sm:text-4xl" id="top">{title}</h1>
+    {description && <p class="mb-6 text-lg text-stone-400">{description}</p>}
+
+    {
+      toc.length > 2 && (
+        <details class="mb-6 rounded-lg border border-stone-800 bg-stone-900 lg:hidden">
+          <summary class="cursor-pointer select-none px-4 py-3 text-sm font-semibold text-plague-300">
+            ☰ {tocLabel} ({toc.length})
+          </summary>
+          <nav class="border-t border-stone-800 px-4 py-2 text-sm">
+            {toc.map((item) => (
+              <a href={`#${item.id}`} class={`block py-1 text-stone-300 hover:text-plague-200 ${item.level === 'h3' ? 'pl-3' : ''}`}>
+                {item.text}
+              </a>
+            ))}
+          </nav>
+        </details>
+      )
+    }
+
+    <slot />
+
+    <Feedback lang={Astro.props.lang} />
+    <Comments />
+  </article>
+
+  {
+    toc.length > 2 && (
+      <aside class="sticky top-20 hidden self-start lg:block">
+        <p class="mb-2 text-sm font-semibold uppercase tracking-wider text-stone-500">{tocLabel}</p>
+        <nav class="border-l border-stone-800 pl-4 text-sm">
+          {toc.map((item) => (
+            <a href={`#${item.id}`} class={`block py-1 text-stone-400 hover:text-plague-200 ${item.level === 'h3' ? 'pl-3' : ''}`}>
+              {item.text}
+            </a>
+          ))}
+        </nav>
+      </aside>
+    )
+  }
+</div>

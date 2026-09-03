@@ -1,0 +1,138 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+<Base lang={lang} path="/de/events/alliance-duel/" title="Allianz-Duell: kompletter Guide" description="Sechs Tage Punkte-Kategorien, ein PvP-Finale am Samstag, Phasen-Mechaniken mit exakten Punktwerten, Falken-Quest-Stapelung und die Alles-Sparen-Wirtschaft, die die Top-Truhe gewinnt.">
+  <GuidePage title="Allianz-Duell: kompletter Guide" description="Sechs Tage Punkte-Kategorien, ein PvP-Finale am Samstag, Phasen-Mechaniken mit exakten Punktwerten, Falken-Quest-Stapelung und die Alles-Sparen-Wirtschaft, die die Top-Truhe gewinnt." lang={lang}>
+    <p>Das Allianz-Duell ist das Event, um das die ganze Woche gebaut ist: sechs Tage Wettbewerb gegen eine ausgeloste Rivalen-Allianz, mit einer anderen Punkte-Kategorie jeden Tag und einem PvP-Finale am Samstag. Es ist auch das Event, das entscheidet, wie viel deines Hortes du jemals ausgeben solltest — Splitter, Tickets, Abzeichen und Beschleunigungen haben alle einen Duell-Tag, an dem sie das Doppelte oder mehr wert sind.</p>
+    <p>Dieser Guide deckt Zugangs-Voraussetzungen ab, die Phasen-Mechaniken mit exakten Punktwerten, die tägliche Spar-Strategie, Falken-Quest-Stapelung und wie das Duell in den Königreichs-Krieg fließt.</p>
+
+    <h2 id="what-it-is">Was das Allianz-Duell ist</h2>
+    <p>Das Allianz-Duell ist ein <strong>6-tägiger Allianz-Wettbewerb</strong> in Phasen 1 bis 6, Montag bis Samstag. Jeder Tag hat seine eigene Punkte-Kategorie — ein spezifisches Set von Aktionen, das Duell-Punkte einbringt — und die Allianz, die in der Tages-Kategorie mehr punktet, gewinnt die Phase. Samstag, Phase 6, ist das <strong>PvP-Finale</strong>, in dem die zwei Allianzen endlich direkt gegeneinander kämpfen.</p>
+    <p>Es gibt auch ein Komprimiert-Format: die <strong>Survival Battle</strong>, eine 4-Stunden-Version des Duells für Allianzen, die denselben Wettbewerb ohne die volle Woche wollen. Mechaniken und Punkte-Logik sind identisch — nur die Uhr ändert sich.</p>
+    <blockquote>Das Duell wird nicht am Tag selbst gewonnen. Es gewinnt, wer die richtigen Ressourcen für die richtige Phase gespart hat.</blockquote>
+
+    <h2 id="entry-requirements">Zugangs-Voraussetzungen und Matchmaking</h2>
+    <ul>
+      <li>Deine Allianz muss eine <strong>Top-32-Platzierung</strong> mit <strong>20 oder mehr Mitgliedern</strong> sein, um teilzunehmen.</li>
+      <li>Auf einem nagelneuen Server läuft das erste Duell um <strong>Tag 17</strong> — plane deine ersten zwei Wochen drum herum.</li>
+      <li>Nach dem Ende von Phase 6 gibt es eine <strong>1-tägige Pause</strong>, bevor der nächste Zyklus beginnt.</li>
+      <li>Das Matchmaking basiert vermutlich auf <strong>Allianz-Aktivität und Siegesquote</strong> — hochaktive Allianzen werden gegen ähnlich aktive gelost, nicht rein nach Rohmacht.</li>
+    </ul>
+
+    <h2 id="weekly-structure">Die Woche auf einen Blick</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Tag</th><th>Phase</th><th>Fokus</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Montag</td><td>Phase 1</td><td>Tägliche Punkte-Kategorie — prüfe den Event-Screen auf die exakten Punkte-Aktionen</td></tr>
+        <tr><td>Dienstag</td><td>Phase 2</td><td>Tägliche Punkte-Kategorie — gleiches Spiel, die Kategorien rotieren täglich</td></tr>
+        <tr><td>Mittwoch</td><td>Phase 3</td><td>Forschungs- und Schriftrollen-Tag</td></tr>
+        <tr><td>Donnerstag</td><td>Phase 4</td><td>Helden und Rekrutierung</td></tr>
+        <tr><td>Freitag</td><td>Phase 5</td><td>Truppen-Training</td></tr>
+        <tr><td>Samstag</td><td>Phase 6</td><td>PvP-Finale gegen die Rivalen-Allianz</td></tr>
+      </tbody>
+    </table>
+    <p>Phase 1 und 2 wechseln ihre Kategorien von Zyklus zu Zyklus — lies also jede Woche den Ingame-Event-Screen. Phase 3, 4 und 5 sind die großen Planungstage — die, an denen Horten sich auszahlt — und werden unten im Detail behandelt.</p>
+
+    <h2 id="phase-3">Phase 3: Forschungs- und Schriftrollen-Tag</h2>
+    <p>Phase 3 bewertet deine Forschungs-Aktivität, hat aber eine eingebaute Falle: <strong>Schriftrollen-Punkte gibt es nur für Schriftrollen, die an diesem Tag verbraucht werden.</strong> Schriftrollen am Montag zu verbrennen bringt am Mittwoch nichts.</p>
+    <p>Der Workaround: erforsche Dinge, die <strong>keine Schriftrollen kosten</strong>:</p>
+    <ul>
+      <li><strong>Helden-Forschung</strong> — vollen Punktwert, null Schriftrollen-Kosten.</li>
+      <li><strong>Soldaten-Forschung</strong> — dasselbe, und es verzinst sich in den Truppen-Wert von Phase 5.</li>
+    </ul>
+    <p>Zwei Truhen-Regeln vervollständigen den Tag:</p>
+    <ul>
+      <li><strong>Raben-Ausrüstungs-Truhen sind während Phase 3 befördert</strong> — das Event vergibt Punkte fürs <strong>Öffnen</strong>. Das ist der Tag, um deinen Bestand zu sprengen.</li>
+      <li><strong>Kurios-Truhen geben im Duell keine Punkte</strong> — stehen aber auch unter keinem Zeitdruck. Hol sie ab, wann immer du willst; nichts geht verloren, wenn du sie aufhebst.</li>
+    </ul>
+
+    <h2 id="phase-4">Phase 4: Helden und Rekrutierung</h2>
+    <p>Phase 4 ist der wertvollste Tag für Helden-Assets. Die exakten Punktwerte:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Aktion</th><th>Punkte</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1 UR-Splitter</td><td>+20.000</td></tr>
+        <tr><td>SSR-Splitter</td><td>+7.000</td></tr>
+        <tr><td>SR-Splitter</td><td>+2.000</td></tr>
+        <tr><td>Rekrutierung</td><td>+3.450</td></tr>
+        <tr><td>Fähigkeits-Abzeichen</td><td>+20</td></tr>
+      </tbody>
+    </table>
+    <p>Ein einzelner UR-Splitter ist fast sechs SSR wert. Diese Mathematik regiert die ganze Woche: <strong>hebe deine Rekrutierungs-Tickets, Helden-Splitter und Fähigkeits-Abzeichen für Phase 4 auf.</strong> Splitter an dem Tag auszugeben, an dem du sie bekommst, heißt, den größten Punkte-Multiplikator wegzuwerfen, den das Duell bietet.</p>
+
+    <h2 id="phase-5">Phase 5: Truppen-Training</h2>
+    <p>Phase 5 wandelt den Output deiner Kaserne in Punkte um:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Quelle</th><th>Punkte</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Trainierter Soldat, Stufe 1</td><td>+46</td></tr>
+        <tr><td>Trainierter Soldat, Stufe 10</td><td>+253</td></tr>
+        <tr><td>Trainings-Boost</td><td>+115 pro Minute</td></tr>
+      </tbody>
+    </table>
+    <p>Die Stufen-Werte skalieren zwischen den beiden Endpunkten — höhere Stufen zahlen ein Vielfaches dessen, was Stufe-1 tut, also trainiere die höchste Stufe, die deine Kaserne hergibt. Und das Event stapelt eigene Boni obendrauf für den Tag:</p>
+    <ul>
+      <li><strong>Alle Punkte +100%</strong> — alles, was am Phase-5-Tag verdient wird, verdoppelt sich.</li>
+      <li><strong>Beschleunigungen +30%</strong> — die Beschleunigungs-Effizienz ist erhöht.</li>
+      <li><strong>Training +30%</strong> — das Training selbst läuft schneller.</li>
+    </ul>
+    <p>Die Schlussfolgerung liegt auf der Hand: <strong>hebe deine Trainings-Beschleunigungen für Phase 5 auf.</strong> Eine Beschleunigung, die an einem zufälligen Dienstag verbrannt wird, ist 30% weniger wert und bringt die halben Punkte.</p>
+
+    <h2 id="sunday-planning">Sonntag: der Vorausplanungs-Tag</h2>
+    <p>Der Pausentag nach Phase 6 ist kein Ruhetag — er ist der Planungstag für den nächsten Zyklus. Bevor das neue Duell startet:</p>
+    <ol>
+      <li>Prüfe deinen Hort: Splitter, Tickets, Abzeichen, Beschleunigungen, Raben-Ausrüstungs-Truhen, Kurios-Truhen.</li>
+      <li>Ordne jeden Vorrat der Phase zu, die dafür zahlt — Phase 3, 4 oder 5.</li>
+      <li>Setze das Allianz-Ziel: der Claim ist die <strong>maximale Meilenstein-Truhe</strong> und die Top-Beförderungen, die der Kader erreichen kann.</li>
+      <li>Prüfe deine <strong>Allianz-Duell-Technologie</strong> — bei 100% ändert sie, welche Ziele realistisch sind, also sollte die Führung exakt wissen, wo die Allianz steht, bevor sie ein Ziel festlegt.</li>
+    </ol>
+
+    <h2 id="falcon-quest-stacking">Falken-Quest-Stapelung</h2>
+    <p>Falken-Quests interagieren über eine Regel mit dem Duell: <strong>mach die Quests, wann immer du willst, aber löse sie an Doppel-Punkte-Tagen ein — Montag, Mittwoch und Freitag.</strong> Eine am falschen Tag eingelöste Quest holt die Hälfte dessen, was drin wäre.</p>
+    <p>Dann der fortgeschrittene Trick, die <strong>Stapelung Max - 1</strong>-Technik:</p>
+    <ul>
+      <li>Wenn dein Quest-Board komplett voll ist, <strong>friert</strong> der Board-Timer ein — keine neuen Quests kommen, solange es voll ist.</li>
+      <li>Halte das Board stattdessen auf Maximum minus eins: schließe eine Quest ab, und der Timer läuft weiter und frischt das Board auf.</li>
+      <li>Das Ergebnis ist eine kontinuierliche Quest-Pipeline statt einer eingefrorenen — und weit mehr gebankte Quests für die Doppel-Punkte-Tage.</li>
+    </ul>
+
+    <h2 id="new-server-notes">Hinweise für neue Server</h2>
+    <p>Zwei Kalender-Fakten, die jeder neue-Server-Spieler kennen sollte:</p>
+    <ul>
+      <li><strong>Es gibt in den ersten 2 Wochen eines neuen Servers keine Raids.</strong> Raid-Content startet in <strong>Woche 3</strong> — verbrenne keine Ressourcen in der Erwartung, er käme früher.</li>
+      <li>Das <strong>erste Allianz-Duell landet um Tag 17</strong>. Die Erste-zwei-Wochen-Wirtschaft in den Anfänger-Guides ist exakt darauf getunt: aufbauen, und dann etwas Score-Wertes haben, wenn das erste Duell öffnet.</li>
+    </ul>
+
+    <h2 id="rewards">Belohnungen und die KvK-Verbindung</h2>
+    <p>Duell-Auszahlungen kommen in zwei Schichten:</p>
+    <ul>
+      <li><strong>Meilenstein-Truhen</strong> — das Allianz-Ziel ist immer die maximale Truhe. Alles andere ist sekundär.</li>
+      <li><strong>Beförderungen und Beitrags-Ranking</strong> — individuelle Belohnungen skalieren mit deinem persönlichen Beitrag, deshalb hilft Solo-Horten, das nie ausgegeben wird, niemandem.</li>
+    </ul>
+    <p>Und das Duell ist kein isoliertes Event: es fließt direkt in den <strong>Königreichs-Krieg</strong>. <a href="/de/events/kvk/">KvK</a> und das Duell teilen Punkte-Quellen — <strong>Verdeckte Operationen und Karawanen punkten für beide</strong>. Fahre sie täglich, und derselbe Aufwand zahlt doppelt. Die komplette Karawanen-Route ist im <a href="/de/events/wagon/">Gilden-Wagen- und Karawanen-Guide</a> abgedeckt.</p>
+
+    <h2 id="common-mistakes">Häufige Fehler</h2>
+    <ol>
+      <li>Splitter und Tickets außerhalb von Phase 4 ausgeben — der größte Punkte-Verlust im Event.</li>
+      <li>Trainings-Beschleunigungen außerhalb von Phase 5 verbrennen und den +100%-Tages-Bonus verlieren.</li>
+      <li>Schriftrollen für Forschung an Nicht-Schriftrollen-Tagen verbrauchen, statt schriftrollenfreie Helden- und Soldaten-Forschung laufen zu lassen.</li>
+      <li>Falken-Quests an Einzel-Punkte-Tagen einlösen.</li>
+      <li>Das Quest-Board voll einfrieren lassen, statt es einen Slot unter voll zu halten.</li>
+      <li>Die 1-Tages-Pause nach Phase 6 ignorieren und unvorbereitet im neuen Zyklus auftauchen.</li>
+    </ol>
+
+    <VideoSection topic="alliance_duel" lang={lang} />
+  </GuidePage>
+</Base>

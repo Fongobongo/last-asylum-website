@@ -1,0 +1,75 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+<Base lang={lang} path="/id/events/kvk/" title="Kingdom War (KvK): Bertahan &amp; Skor" description="Perang server-lawan-server memperebutkan Royal City: jadwal dwimingguan, strategi turret-dulu untuk penyerang, taktik menunda untuk pembela, risiko pasukan dan sumber daya, serta tumpang tindih skor dengan Alliance Duel.">
+  <GuidePage title="Kingdom War (KvK): Bertahan &amp; Skor" description="Perang server-lawan-server memperebutkan Royal City: jadwal dwimingguan, strategi turret-dulu untuk penyerang, taktik menunda untuk pembela, risiko pasukan dan sumber daya, serta tumpang tindih skor dengan Alliance Duel." lang={lang}>
+    <p>Kingdom War adalah <strong>perang server-lawan-server</strong> dalam game: dua kerajaan menginvasi peta bersama dan bertarung memperebutkan <strong>Royal City</strong>. Berjalan <strong>dwimingguan</strong>, dengan skor dan tugas persiapan sepanjang minggu dan pertempuran utama dipadatkan ke satu jendela. Menanglah dengan mengendalikan Royal City saat debu mereda.</p>
+    <p>Panduan ini membahas jadwal, strategi penyerang dan pembela, aturan universal, kesalahan yang kalah perang, dan aturan ekonomi yang menjaga akun Anda tetap hidup melewatinya.</p>
+
+    <h2 id="schedule">Jadwal Dwimingguan</h2>
+    <ul>
+      <li><strong>Persiapan dan skor berjalan sepanjang minggu</strong> — tugas harian dan kategori poin membangun posisi kerajaan Anda sebelum satu tembok pun diperebutkan.</li>
+      <li><strong>Pertempuran utama Sabtu mulai reset</strong>, di dalam <strong>jendela 4 jam</strong>. Jendela itulah seluruh perangnya — semua sebelum itu adalah memposisikan.</li>
+      <li><strong>Syarat menang: kendalikan Royal City.</strong> Bukan kill terbanyak, bukan poin terbanyak — siapa yang memegang kota di akhir.</li>
+    </ul>
+    <blockquote>Aliansi pemenang tidak selalu yang terkuat — mereka yang paling terorganisir.</blockquote>
+
+    <h2 id="attacker-playbook">Playbook Penyerang</h2>
+    <p>Jika kerajaan Anda menyerang, instingnya adalah menerjang Royal City. Insting itu kalah perang.</p>
+    <ul>
+      <li><strong>Jangan terjang kota duluan.</strong> Dorongan langsung ke kota menabrak pertahanan terkonsentrasi dan turret — mengerus pasukan terkuat Anda dalam menit pembuka.</li>
+      <li><strong>Ambil turret dulu, lalu dorong.</strong> Setiap turret jatuh melebarkan zona aman Anda dan mengupas kendali peta pembela sebelum pertarungan kota bahkan dimulai.</li>
+      <li><strong>Tetap dalam rally.</strong> Rally lebih aman dan lebih kuat daripada march solo — HP terkonsentrasi, buff terkonsentrasi, dan march yang pembela benar-benar harus segani. Pahlawan solo adalah korban solo.</li>
+    </ul>
+
+    <h2 id="defender-playbook">Playbook Pembela</h2>
+    <p>Pembela tidak mencoba memenangkan pertarungan. Pembela mencoba <strong>menghabiskan jam</strong>.</p>
+    <ul>
+      <li><strong>Anda butuh waktu, bukan kill.</strong> Setiap menit penyerang menghabiskan menggerus pertahanan Anda adalah menit mereka tidak memegang kota. Menunda adalah menang.</li>
+      <li><strong>Penguatan terus-menerus.</strong> Umpankan pasukan segar ke titik yang diperebutkan secepat mereka mati. Titik yang tidak pernah berhenti dipertahankan memakan seluruh jendela musuh.</li>
+      <li><strong>Rotasi.</strong> Jangan parkir semua di satu jalur — pindahkan pasukan ke mana tekanannya sebenarnya, dan paksa penyerang bertarung untuk setiap inci tanah.</li>
+    </ul>
+
+    <h2 id="universal-rules">Aturan Universal</h2>
+    <p>Di sisi mana pun Anda, aturan yang sama berlaku:</p>
+    <ol>
+      <li><strong>Turret dulu = kendali peta.</strong> Barisan turret menentukan siapa bergerak dengan aman. Itu tujuan pertama perang, setiap kali.</li>
+      <li><strong>Jangan pernah solo.</strong> Dorongan solo adalah cara akun terhapus. March dengan rally atau tidak sama sekali.</li>
+      <li><strong>Penguatan terus-menerus.</strong> Pertahanan yang berhenti menerima penguatan jatuh dalam satu gelombang.</li>
+      <li><strong>Online sepanjang pertarungan.</strong> Jendela 4 jam menghukum siapa pun yang keluar di tengah perang — pasukan Anda tetap tepat di mana Anda meninggalkannya, tak terlindungi.</li>
+    </ol>
+
+    <h2 id="losing-mistakes">Kesalahan yang Kalah Perang</h2>
+    <ul>
+      <li><strong>Dorongan solo</strong> — sapuan instan yang memberi musuh kill gratis dan meninggalkan aliansi Anda kekurangan satu pasukan.</li>
+      <li><strong>Mengabaikan turret</strong> — menyerang kota menembus barisan turret utuh adalah mendonasikan pasukan.</li>
+      <li><strong>Tanpa penguatan</strong> — pertahanan yang berhenti berotasi jatuh, lalu titik berikutnya jatuh, lalu kota jatuh.</li>
+      <li><strong>Keluar di tengah perang</strong> — jendela 4 jam tidak berhenti untuk jadwal Anda.</li>
+    </ul>
+
+    <h2 id="economy-rules">Ekonomi KvK: Pasukan, Sumber Daya, dan Shield</h2>
+    <p>Kingdom War adalah salah satu dari sedikit event dengan risiko akun nyata:</p>
+    <ul>
+      <li><strong>Anda BISA kehilangan pasukan dan sumber daya saat diserang</strong> — ini bukan event tanpa risiko seperti <a href="/id/events/canyon/">Canyon Conquest</a>.</li>
+      <li><strong>Pasang shield</strong> selama jendela perang. Kota tanpa shield selama KvK adalah piñata sumber daya untuk server musuh.</li>
+      <li><strong>Kerugian menskalakan dengan tembok dan riset Anda</strong> — tembok maksimal dan riset defensif adalah yang mengubah pembantaian menjadi insiden kecil.</li>
+      <li><strong>Simpan upgrade dan percepatan untuk hari-hari skor</strong> — logika nilai-ganda yang sama yang mengatur <a href="/id/events/alliance-duel/">Alliance Duel</a> berlaku untuk tugas skor KvK. Membelanjakan upgrade besar di hari netral menghasilkan setengah.</li>
+    </ul>
+
+    <h2 id="scoring-overlap">Tumpang Tindih Skor dengan Alliance Duel</h2>
+    <p>KvK dan Alliance Duel berbagi sumber skor, dan konsensus komunitas mengeksploitasinya setiap hari:</p>
+    <ul>
+      <li><strong>Covert Ops dan Karavan mencetak skor untuk KEDUA event.</strong> Tindakan yang sama sekaligus mengisi total duel Anda dan total KvK Anda.</li>
+      <li>Itu menjadikan karavan keputusan harian tanpa-pikir — jalankan setiap hari dalam seminggu duel. Rute karavan dan menjarah lengkap ada di <a href="/id/events/wagon/">Panduan Guild Wagon &amp; Karavan</a>.</li>
+    </ul>
+    <p>Sisa ekonomi perang — apa yang disimpan, kapan membelanjakan, pembelian toko mana yang mendanai perang — dibahas di <a href="/id/economy/">Panduan Ekonomi</a>.</p>
+
+    <VideoSection topic="kvk" lang={lang} />
+  </GuidePage>
+</Base>

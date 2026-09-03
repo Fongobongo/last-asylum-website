@@ -1,0 +1,52 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { heroTiers, tierColors } from '../../data/tiers';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'de';
+const tiers: ('S' | 'A' | 'B' | 'C')[] = ['S', 'A', 'B', 'C'];
+---
+
+<Base lang={lang} path="/de/tier-list/" title="Helden-Tier-List" description="Helden-Tier-List für Last Asylum: Plague — S/A/B/C-Rankings mit Kontext für F2P- und Mittelspender-Progression.">
+  <GuidePage
+    title="🏆 Helden-Tier-List"
+    description="Community-Konsens-Rankings, gewichtet für einen typischen F2P- / Mittelspender-Progressionspfad. Tier-Kontext zählt: ein „B“-SSR, das du heute besitzt, schlägt ein „S“-UR, das dir erst in drei Monaten gehört."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/de/' }, { label: 'Tier-List' }]}
+  >
+    <p>Zusammengestellt aus den Squad-Zusammenstellungs-Guides, Boss-Fight-Breakdowns und PvP-Threads des offiziellen Discords. Tiers spiegeln den <strong>Gesamtwert fürs Konto</strong> wider — nicht nackte Stats.</p>
+
+    {tiers.map((tier) => (
+      <section class="not-prose my-6">
+        <h3 class={`mb-3 inline-block rounded-lg border px-3 py-1 text-xl font-bold ${tierColors[tier]}`}>
+          Rang {tier}
+        </h3>
+        <div class="grid gap-3 sm:grid-cols-2">
+          {heroTiers.filter((h) => h.tier === tier).map((h) => (
+            <div class="rounded-lg border border-stone-800 bg-stone-900 p-4">
+              <div class="flex items-baseline justify-between gap-2">
+                <p class="font-bold text-plague-200">{h.name}</p>
+                <span class="text-xs text-stone-500">{h.rarity} · {h.faction} · {h.class}</span>
+              </div>
+              <p class="mt-1 text-sm text-stone-400">{h.note}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+    ))}
+
+    <h2 id="how-to-read">Wie man diese Liste liest</h2>
+    <ul>
+      <li><strong>S</strong> — langfristige Kern-Investitionen: zuerst bauen, für immer behalten</li>
+      <li><strong>A</strong> — starke Carries und Event-Helden: bauen lohnt sich, wenn dein S-Kern stabil ist</li>
+      <li><strong>B</strong> — situativ/budget: gut, während du das S/A-Roster aufbaust, in Boss-Comps oder in Monofraktions-Squads</li>
+      <li><strong>C</strong> — nur allerfrühe Platzhalter</li>
+    </ul>
+    <blockquote>Monofraktions-Meta: UR-Epigraphen buffen NUR EINE Fraktion. 3 Helden derselben Fraktion = +5 %, 4 = +15 %, 5 = +20 % HP/ATK/DEF. Konter: Krieger > Hexer > Waldläufer > Krieger.</blockquote>
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

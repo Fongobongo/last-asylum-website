@@ -1,0 +1,46 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { faqEs } from '../../data/faqEs';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'es';
+
+const schema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqEs.map((f) => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+});
+---
+
+<Base lang={lang} path="/es/faq/" title="Preguntas frecuentes" description="Respuestas a las preguntas más comunes de Last Asylum: Plague: mejor equipo F2P, orden de mejora, límites de saqueo, prioridades de tiendas, códigos de regalo.">
+  <GuidePage
+    title="❓ Preguntas frecuentes"
+    description="Las preguntas que los jugadores hacen de verdad, con las respuestas de consenso de la comunidad."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/es/' }, { label: 'FAQ' }]}
+  >
+    <script slot="faq-schema" type="application/ld+json" set:html={schema} />
+
+    <div class="not-prose my-6 space-y-3">
+      {faqEs.map((f) => (
+        <details class="group rounded-lg border border-stone-800 bg-stone-900">
+          <summary class="cursor-pointer select-none px-4 py-3 font-semibold text-plague-200 group-open:text-plague-100">
+            {f.q}
+          </summary>
+          <p class="border-t border-stone-800 px-4 py-3 text-sm leading-relaxed text-stone-300">{f.a}</p>
+        </details>
+      ))}
+    </div>
+
+    <p>¿Tu pregunta no está aquí? Consulta las guías específicas: <a href="/es/beginners/">principiantes</a>, <a href="/es/economy/">economía</a>, <a href="/es/heroes/">héroes</a>, <a href="/es/gear/">equipo</a>, <a href="/es/raven/">Cuervo</a>, <a href="/es/era/">Era del Renacimiento</a> — o pregunta en el Discord oficial.</p>
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

@@ -1,0 +1,111 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+<Base lang={lang} path="/id/heroes/" title="Panduan Hero: Pasukan, Jalur F2P, Skill" description="Pasukan F2P kanonik beserta garis waktunya, waktu faksi untuk Warriors, Rangers dan Warlocks, prioritas upgrade skill, titik jebol bintang, dan urutan hero Awakened untuk Era Kebangkitan.">
+  <GuidePage title="Panduan Hero: Pasukan, Jalur F2P, Skill" description="Pasukan F2P kanonik beserta garis waktunya, waktu faksi untuk Warriors, Rangers dan Warlocks, prioritas upgrade skill, titik jebol bintang, dan urutan hero Awakened untuk Era Kebangkitan." lang={lang}>
+    <p>Hero adalah pengali kekuatan terbesar di Last Asylum: Plague — dan hal termahal untuk diperbaiki jika salah bangun. Ekonomi shard dan lencana skill menghukum investasi yang tersebar, jadi komunitas menyepakati satu jalur free-to-play kanonik dan urutan operasi ketat di sekelilingnya.</p>
+    <p>Halaman ini membahas: faksi mana yang dinaiki di setiap tahap game, pasukan F2P kanonik dengan garis waktunya hari demi hari, prioritas skill yang diverifikasi analisis damage-per-lencana, titik jebol bintang, dan urutan progresi hero Awakened untuk musim Era Kebangkitan.</p>
+
+    <h2 id="faction-timing">Waktu Faksi: Warriors Awal, Rangers Tengah, Warlocks Akhir</h2>
+    <p>Ketiga faksi tidak setara di tahap game yang sama. Konsensus komunitas soal kapan masing-masing memuncak:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Faksi</th><th>Jendela puncak</th><th>Alasannya</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Warriors</td><td>Awal permainan</td><td>Arthur gratis plus shard Harper gratis, dan top-up Marlena $1 di hari 66. Game menyerahkan inti Warrior untuk nyaris tanpa biaya.</td></tr>
+        <tr><td>Rangers</td><td>Tengah permainan</td><td>Rangers counter Warriors — formasi Ranger menerima 20% damage lebih sedikit dari mereka. Dengan investasi, pasukan Ranger mid-game mengalahkan kira-kira 98% dari yang ditemuinya.</td></tr>
+        <tr><td>Warlocks</td><td>Akhir permainan</td><td>Plafon terkuat, tetapi hanya dengan investasi berat — mereka perlu mengatasi boost Warrior untuk sampai ke sana. Belanjakan atau bersabar.</td></tr>
+      </tbody>
+    </table>
+    <p>Untuk akun baru ini menyelesaikan dilema umum: bangun inti Warrior yang diberikan gratis, bahkan jika Anda mengagumi lineup Ranger. Anda bisa beralih ke Rangers ketika ekonomi Anda benar-benar mampu mendanainya.</p>
+
+    <h2 id="f2p-squad">Pasukan F2P Kanonik</h2>
+    <p>Build free-to-play standar komunitas, dirakit selama bulan-bulan pertama akun:</p>
+    <p><strong>Arthur, Daskal, Marlena, Harper, Claire</strong></p>
+    <p>Tiga hal membuat ini standar: setiap hero di dalamnya gratis atau nyaris gratis, potongan-potongannya tiba dalam urutan yang selalu memberi pasukan terbaik Anda sesuatu untuk ditumbuhi, dan menumpuk menuju bonus mono-faksi Warrior yang dihargai meta akhir permainan.</p>
+
+    <h3 id="f2p-timeline">Garis Waktu F2P</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Kapan</th><th>Tindakan</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Hari 1-2</td><td>Arthur tiba gratis dan menjadi tank Anda. Isi kursi yang tersisa dengan shard gratis Bella, Claire, dan Celia.</td></tr>
+        <tr><td>Awal permainan</td><td>Investasi HANYA pada Claire dan Arthur. Semua orang lain tetap pengisi kursi — termasuk Bella dan Celia.</td></tr>
+        <tr><td>Sepanjang jalan</td><td>Harper ke 8 bintang wajib untuk build standar. Beri dia makan secara stabil; jangan biarkan dia parkir di 6.</td></tr>
+        <tr><td>Hari 66</td><td>Top-up Marlena $1. Simpan shard UR agar bisa membawanya langsung ke 8 bintang seketika — lalu terus dorong menuju 10.</td></tr>
+        <tr><td>Hari 120+ (Era Kebangkitan)</td><td>Daskal bergabung sebagai tank terbaik dalam game. Claire menjadi UR lewat konversi Hari Era 8 — shard-nya gratis di awal, itulah tepatnya alasan Anda menyimpannya alih-alih memakainya.</td></tr>
+      </tbody>
+    </table>
+    <p>Dua titik disiplin yang menentukan berhasil atau gagalnya build: hanya Claire dan Arthur, di awal — dan jangan pernah makan shard Claire simpanan Anda sebelum konversi Era, karena konversi ke UR itulah tujuan shard itu ditimbun.</p>
+
+    <h2 id="alternatives">Alternatif dan Varian</h2>
+    <p>Lima kanonik bukan satu-satunya jalur yang layak — ini pengganti dan varian regional yang diakui.</p>
+    <h3 id="no-marlena">Tanpa Marlena $1: Cynthia Sebagai Gantinya</h3>
+    <p>Lewatkan dollarnya? Cynthia dari Wishing Wheel hari 8 adalah penggantinya — UR carry-awal yang benar-benar akan carry. Tukar pilahnya tiba di akhir permainan: Anda kehilangan bonus faksi 5% karena memecah tumpukan mono-faksi, dan kehilangan sinergi Harper dan epigraf yang menjadi fondasi inti standar. Layak, tapi Anda akan merasakan mata rantai yang hilang di puncak.</p>
+    <h3 id="f2p-pvp-variant">Varian F2P PvP</h3>
+    <p>Untuk akun yang ingin melawan pemain alih-alih tumbuh dengan tenang: <strong>Arthur, Lucius atau Bella, Claire, Marlena, Cynthia</strong>. Varian ini menukar sepotong bonus faksi dengan pukulan PvP Cynthia sebagai finisher.</p>
+    <h3 id="russian-variant">Build Komunitas Rusia</h3>
+    <p>Komunitas F2P Rusia menjalankan: Depan — Arthur dan Lucius (pasangan ini dijuluki Absolute Shield); Belakang — Claire, Kesso, dan Celia. Sivir menutupi bulan-bulan awal, Harper adalah proyek jangka panjang. Logika yang sama dengan build Barat, potongan berbeda di papan yang sama.</p>
+
+    <h2 id="mono-faction-meta">Meta Mono-Faksi</h2>
+    <p>Sejak epigraf Gagak dirilis, menjalankan satu faksi berubah dari bonus bagus menjadi strategi dominan. Alasannya: epigraf UR memberi buff pada SATU faksi saja, jadi pasukan yang ditumpuk mengalikan segalanya — bonus +20% lima hero dari <a href="/id/beginners/">tabel faksi</a>, plus buff epigraf UR, plus sinergi spesifik faksi seperti milik Harper.</p>
+    <p>Itulah juga mengapa pasukan kanonik semua-Warrior: investasi epigraf berbunga di atas faksi yang sudah ditumpuk. Pasukan faksi campuran membayar epigraf yang hanya memberi buff separuh tim.</p>
+    <p>Untuk pemain berbayar ada pengecualian praktis: hero sementara. Shadow dan Cynthia dimaksimalkan ke 8 bintang dengan skill di 15-20 lalu bertugas sebagai spesialis event dan PvP — cukup terinvestasi untuk berarti, tidak pernah seterinvestasi hingga memakan anggaran pasukan utama.</p>
+
+    <h2 id="skill-priorities">Prioritas Upgrade Skill</h2>
+    <p>Skill memakan lencana, dan lencana langka. Urutan di bawah diverifikasi oleh analisis damage-per-lencana komunitas — ini bukan perasaan, ini terukur.</p>
+    <h3 id="marlena-skills">Marlena: Tempat Damage Bersemayam</h3>
+    <p>Marlena adalah kira-kira <strong>85% damage pasukan Anda sampai Zoya tiba</strong>, dan 50/50 dengannya setelah itu. Dia tempat pertama lencana pergi.</p>
+    <p>Tetapi ada satu jebakan di dalam kit-nya: jangan pernah maksimalkan auto-attack Marlena ke 30 di awal. Urutan terverifikasinya:</p>
+    <ol>
+      <li>Ultimate dulu — selalu.</li>
+      <li>Skill aktif kedua.</li>
+      <li>Auto-attack terakhir, dan hanya ke level moderat sampai skill lainnya selesai.</li>
+    </ol>
+    <h3 id="claire-skills">Claire: Passive-nya adalah Intinya</h3>
+    <p>Skill kunci Claire adalah passive-nya — penguat damage seluruh tim. Rencana terverifikasinya: semua skill ke sekitar 15, passive ke 20, dan tahan di situ sampai Zoya tiba dan mengocok ulang prioritas.</p>
+
+    <h2 id="star-breakpoints">Titik Jebol Bintang dan Tenacity</h2>
+    <p>Bintang adalah pengali tunggal terbesar pada kekuatan hero. Lompatan kekuatan signifikan tiba setelah <strong>4 bintang</strong> — di bawah itu hero adalah pemanas kursi, di atasnya hero yang sama mulai memenangkan pertarungan. Inilah mengapa target bintang pertama komunitas untuk setiap hero pasukan utama adalah menembus 4, bukan menebar shard agar semua rata-rata biasa saja.</p>
+    <p>Hero UR punya titik jebol besar kedua: di level 30 dan 8 bintang mereka membuka <strong>Tenacity</strong>. Itu lompatan daya bertahan hidup besar dan alasan 8 bintang adalah titik istirahat standar untuk hero UR — 8 bintang instan Marlena di hari 66 dirancang di sekitarnya.</p>
+
+    <h2 id="awakened-order">Hero Awakened: Urutan Progresi Era</h2>
+    <p>Di musim Era Kebangkitan, progresi hero Awakened mengikuti satu urutan tetap. Untuk hero utama Anda, selesaikan setiap langkah sebelum memulai berikutnya:</p>
+    <ol>
+      <li>Hero utama ke 10 bintang.</li>
+      <li>Awakening.</li>
+      <li>Exclusive Weapon.</li>
+      <li>Lord Evolution.</li>
+      <li>Lord Resistance.</li>
+      <li>Era Enhancement — hanya satu skin utama.</li>
+      <li>Baru setelah itu: mulai hero kedua menaiki tangga yang sama.</li>
+    </ol>
+    <p>Aturan yang mengikat semuanya: <strong>jangan pernah membagi material Awakening</strong>. Membangunkan satu hero sepenuhnya mengungguli membangunkan dua hero setengah jalan — lebih baik satu march kuat daripada beberapa yang setengah selesai. Konteks spesifik Era untuk setiap langkah ada di <a href="/id/era/">Panduan Era Kebangkitan</a>.</p>
+
+    <h2 id="might-formula">Formula Kekuatan</h2>
+    <p>Saat Anda membandingkan akun, kekuatan adalah jumlah dari lima tumpukan terpisah:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Komponen</th><th>Sumber</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Kekuatan Hero</td><td>Level, bintang, skill dan perlengkapan hero Anda.</td></tr>
+        <tr><td>Kekuatan Gagak</td><td>Level Gagak, perlengkapan dan epigraf — lihat <a href="/id/raven/">Panduan Gagak</a>.</td></tr>
+        <tr><td>Kekuatan Prajurit</td><td>Tier pasukan dan ukuran pasukan.</td></tr>
+        <tr><td>Bonus Teknologi</td><td>Pohon riset Research Lab.</td></tr>
+        <tr><td>Bonus Bangunan</td><td>Bangunan kota — Warrior Statue, dan lainnya.</td></tr>
+      </tbody>
+    </table>
+    <p>Gunakan pembagiannya secara diagnostik: jika kekuatan Anda berat hero tapi ringan prajurit, Anda hanya satu pertempuran buruk dari kehilangan pasukan yang tidak bisa Anda ganti. Jika berat prajurit tapi ringan hero, march Anda memukul di bawah bobotnya. Akun terkuat menjaga tumpukan dalam proporsi kasar sama — itulah tepatnya yang dilakukan oleh mengikuti urutan prioritas bangunan dan garis waktu pasukan F2P untuk Anda.</p>
+
+    <VideoSection topic="heroes" lang={lang} />
+  </GuidePage>
+</Base>

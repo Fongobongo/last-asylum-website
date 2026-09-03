@@ -1,0 +1,130 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import PlunderCalculator from '../../components/PlunderCalculator.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ja';
+---
+<Base lang={lang} path="/ja/economy/" title="経済：ダイヤ、ショップ、略奪" description="すべてのダイヤの行き先：VIPショップの優先度、入荷スケジュール、ショップ別の購入順序、Wishing Wheelの予算、そして聖域レベル別の略奪1日上限を含む完全な略奪メカニズム。">
+  <GuidePage title="経済：ダイヤ、ショップ、略奪" description="すべてのダイヤの行き先：VIPショップの優先度、入荷スケジュール、ショップ別の購入順序、Wishing Wheelの予算、そして聖域レベル別の略奪1日上限を含む完全な略奪メカニズム。" lang={lang}>
+    <p>Last Asylum: Plague は3つの経済を並行して走らせています：ダイヤとショップ、毎日の略奪、そしてイベントカレンダー。それぞれに罠があります — 悪いダイヤの使い方、無駄になる略奪キャパ、5%効率で消えるスタミナ。このページはその3つすべてのコミュニティコンセンサスを、正確な数値付きでまとめたものです。</p>
+
+    <h2 id="vip-shop">VIPショップ：ダイヤの優先度</h2>
+    <p>VIPショップはダイヤを受け取りますが、品揃えの大半は悪い取引です。検証済みの購入リスト：</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>優先度</th><th>アイテム</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>高</td><td>UR万能欠片(UR Omnifragment)、UR解毒剤、カラスの精髄(Crow Essence)、8h加速</td></tr>
+        <tr><td>中</td><td>3h加速、SSR万能欠片、1h加速</td></tr>
+        <tr><td>低</td><td>SSR解毒剤、ダイレクトテレポート</td></tr>
+      </tbody>
+    </table>
+    <p>そして完全なルール：<strong>それ以外はよほどの必要性がない限り買わない。</strong> ショップは、せっかちなプレイヤーがダイヤを「イベントで配られるもの」に変換させるよう値付けされています — 引かれないこと。</p>
+
+    <h2 id="restock-schedule">ショップの入荷スケジュール</h2>
+    <p>すべてのショップは月曜日に入れ替わります。週の計画をそれに合わせましょう：在庫が満杯の月曜に優先品を買い尽くし、週半ばにAlliance Duelと遠征(Expedition)の収入を走らせ、週末は次の月曜の更新が自分に何をくれるかを考える。日曜に買い物をするプレイヤーは、漁り尽くされた棚を買っています。</p>
+
+    <h2 id="sanctuary-shop">聖域ショップ(Sanctuary Shop)</h2>
+    <ol>
+      <li>カラスの精髄とURヒーロー万能欠片 — 最大まで買う。</li>
+      <li>解毒剤とSSR万能欠片。</li>
+      <li>装備石とリクルートチケット。</li>
+      <li>スキルバッジとSR万能欠片 — 余剰予算がある時だけ。</li>
+    </ol>
+
+    <h2 id="expedition-shop">遠征ショップ(Expedition Shop)</h2>
+    <ol>
+      <li>UR万能欠片と精髄。</li>
+      <li>遠征箱、刻印欠片、UR刻印箱。</li>
+      <li>解毒剤と装備石。</li>
+      <li>加速、チケット、10万カラスの果実 — 必要な時だけ。</li>
+    </ol>
+
+    <h2 id="honor-shop">名誉ショップ(Honor Shop)</h2>
+    <ol>
+      <li>UR装備設計図、精髄、UR万能欠片。</li>
+      <li>好奇心箱(Curiosity Chest)とUR刻印。</li>
+      <li>その他 — 緊急の必要がある時だけ。</li>
+    </ol>
+    <p>名誉(Honor)に特有の重要ルール：名誉は<strong>装備設計図のためだけのもの</strong>。ここにエピグラフ箱はありません — 回り道で手に入るものではなく、通貨がそう設計されているのです。まずUR装備設計図に名誉を使い、残りは埋め草として扱いましょう。</p>
+
+    <h2 id="alliance-shop">同盟ショップ(Alliance Shop)</h2>
+    <ol>
+      <li>URヒーロー万能欠片、カラスの精髄、ダイレクトテレポート。</li>
+      <li>カラス進化ガイド、シールド、SR刻印箱、Bellaの欠片。</li>
+      <li>任意：すべての加速。</li>
+    </ol>
+
+    <h2 id="epigraph-chests">エピグラフ箱：例外ルール</h2>
+    <p>エピグラフ箱は<strong>名誉ショップを除く</strong>すべてのショップで買いましょう。エピグラフはカラス(Raven)システムの餌であり、カラスのURエピグラフは1つの陣営しか強化しません — 単一陣営メタにおいて、それはエピグラフ箱をゲームで最も一貫した長期購入にします。</p>
+    <p>無課金のエピグラフ収入も実在します。参加すれば、ですが：Alliance Duelで毎日30 URシャード、さらにエピグラフ工房での自作を合わせると、月に約1.5個のURエピグラフになります。システム全体 — ワークショップレベル、昇格順序、レアリティのルール — は<a href="/ja/raven/">カラスガイド</a>で解説しています。</p>
+
+    <h2 id="diamond-rules">ダイヤのルール：ホイール、バナー、マイルストーン</h2>
+    <ol>
+      <li><strong>8日目まで貯めて</strong>CynthiaのWishing Wheelに充てる — 約11,500ダイヤかかります。10連のみ。単発は同じ確率をより高い価格で買う行為です。</li>
+      <li><strong>15日目以降はJokerのホイール用に貯める</strong> — URのPvPフィニッシャーイベント。中盤のダイヤ備蓄はこのために存在します。</li>
+      <li><strong>通常リクルートにダイヤを注ぎ込まない。</strong> 確率アップバナーを待つ — 同じ通貨で、より良いヒーロー。</li>
+      <li><strong>累計ダイヤ消費マイルストーンを追わない</strong> — Deep Sea&apos;s Giftのような。報酬のしきい値を超えるためにダイヤを使うのは、価値ではなくマイルストーンを買う行為です。</li>
+    </ol>
+    <h3 id="best-packs">ベストパック($20〜200帯)</h3>
+    <p>課金するなら、コミュニティが$20〜200帯で選ぶ3つのパック：万能加速パック、カラスの精髄パック、都市レベルアップパック。そして初心者ガイドから：66日目の$1 Marlena課金は、どんな価格帯と比べてもゲーム内最高のコスパです。</p>
+
+    <h2 id="plunder-mechanics">略奪：完全なメカニズム</h2>
+    <p>略奪収入は1日の上限でキャップされ、その上限は聖域レベルでスケールします。しきい値を知っているかどうかで、その日にいつ攻撃をやめるかが変わります。</p>
+    <PlunderCalculator lang={lang} />
+    <h3 id="how-the-limit-works">上限の仕組み</h3>
+    <ul>
+      <li>上限は、攻撃で持ち帰った穀物・木材・薬草をカウントします。</li>
+      <li>上限未満：資源を<strong>100%</strong>の効率で持ち帰れます。</li>
+      <li>上限の1倍から：効率は<strong>15%</strong>に低下。</li>
+      <li>上限の1.3倍から：効率は<strong>5%</strong>に低下 — これが床です。</li>
+      <li>上限は毎日<strong>02:00 UTC</strong>にリセットされます。</li>
+      <li>ターゲットの戦力の下の黄色い三角が上限超過インジケーター — 効果概要から略奪収入(Plunder Gains)を確認。</li>
+    </ul>
+    <h3 id="plunder-limits-table">聖域レベル別の1日上限</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>聖域</th><th>1日上限</th><th>聖域</th><th>1日上限</th><th>聖域</th><th>1日上限</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>10-12</td><td>2.5M</td><td>18</td><td>8M</td><td>24</td><td>18M</td></tr>
+        <tr><td>13</td><td>3M</td><td>19</td><td>9M</td><td>25</td><td>20M</td></tr>
+        <tr><td>14</td><td>4M</td><td>20</td><td>10M</td><td>26</td><td>22M</td></tr>
+        <tr><td>15</td><td>5M</td><td>21</td><td>12M</td><td>27</td><td>24M</td></tr>
+        <tr><td>16</td><td>6M</td><td>22</td><td>14M</td><td>28</td><td>26M</td></tr>
+        <tr><td>17</td><td>7M</td><td>23</td><td>16M</td><td>29 / 30</td><td>28M / 30M</td></tr>
+      </tbody>
+    </table>
+    <p>パターン：聖域20までは+1M/レベル、その後は30Mの上限まで+2M/レベル。メカニズム上の注記が2つ：</p>
+    <ul>
+      <li>聖域のアップグレードは上限を<strong>即時</strong>に引き上げます — リセットを待つ必要なし。毎日の上限に近く、聖域のレベルアップが近いなら、先にレベルを上げてから略奪すること。</li>
+      <li>軍団指揮官(Legion Commander)特技ツリー(Era of Revival)のWar Supplyスキルは、スキルレベル1〜5で上限を+6 / +14 / +24 / +36 / +50%引き上げます。<a href="/ja/era/">Eraガイド</a>参照。</li>
+    </ul>
+
+    <h2 id="nine-hit-rule">9回ルール</h2>
+    <p>同じ農場を連続で9回以上攻撃しないこと。10回目の攻撃は都市を完全に破壊し、所有者をテレポートで追い出します — あなたは農場を失い、相手は都市を失います。9回が天井。コミュニティはこれを提案ではなく義務として扱います。</p>
+
+    <h2 id="stamina-math">スタミナ計算：上限超えの略奪が失敗する理由</h2>
+    <p>上限超過の略奪にスタミナを使うのは、ゲーム内でも最悪クラスの取引です：</p>
+    <ul>
+      <li>効率15%では、スタミナ1ポイントあたりの収入は通常の約<strong>7分の1</strong>。</li>
+      <li>効率5%では、約<strong>20分の1</strong>。</li>
+      <li>同じスタミナをモンスターに使えば、略奪の状況に<strong>関係なく全額</strong>の価値が得られます。</li>
+    </ul>
+    <p>つまり毎日のリズムは自動的に決まります：100%のうちに勝てる最も豊かなターゲットを攻撃し、上限を超えた瞬間に農場への攻撃をやめ、残りのスタミナはモンスターに注ぎ込む。そして略奪の時間帯の中では、常に最も豊かなターゲットから — 上限はどうせ来るので、一番大きな数字で埋めること。</p>
+
+    <h2 id="caravans-covert-ops">キャラバンと秘密作戦：両方毎日走らせる</h2>
+    <p>キャラバン(Caravans)と秘密作戦(Covert Ops)は略奪とは別のシステムで、上の制限をすべて回避します：略奪上限なし、実質的な兵士損失なし、スタミナコストなし。純粋なプラスなので、コミュニティルールは「毎日必ず両方走らせる」です。</p>
+    <ul>
+      <li><strong>キャラバン</strong> — 自動化された交易収入。動かし続けること。</li>
+      <li><strong>秘密作戦</strong> — 1日に最大5人の他プレイヤーの秘密作戦を略奪できます。ゴールデンの秘密作戦が最高報酬 — 見つけたら必ず取る。</li>
+    </ul>
+
+    <VideoSection topic="economy" lang={lang} />
+  </GuidePage>
+</Base>

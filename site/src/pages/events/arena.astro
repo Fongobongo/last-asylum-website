@@ -1,0 +1,60 @@
+﻿---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'en';
+---
+<Base lang={lang} path="/events/arena/" title="Triangle Arena: Defense &amp; Attack" description="Three lineups, attacker picks two to beat: the even-defense principle, the sacrifice matchup rule, counter-based attacking, faction bonuses, and the Arena of Fate trap-squad play for UR shards.">
+  <GuidePage title="Triangle Arena: Defense &amp; Attack" description="Three lineups, attacker picks two to beat: the even-defense principle, the sacrifice matchup rule, counter-based attacking, faction bonuses, and the Arena of Fate trap-squad play for UR shards." lang={lang}>
+    <p>Triangle Arena is the 3v3 formation duel: you set <strong>three defense lineups</strong>, and every attacker <strong>picks which of your lineups to fight</strong> — they must <strong>win 2 of 3</strong> to beat you. One rule shapes the entire event before anything else: <strong>the attacker SEES your setups</strong>. Defense in this game is not about being unbeatable; it is about not being readable.</p>
+    <p>This guide covers the defense principles, the sacrifice matchup rule for attacking, counter matchups, faction bonuses, and the Arena of Fate trap-squad strategy.</p>
+
+    <h2 id="format">The Format, and What It Means</h2>
+    <ul>
+      <li>Defenders set <strong>3 lineups</strong>. Attackers choose the order they fight them in and must <strong>win 2 of 3</strong>.</li>
+      <li><strong>The attacker sees all three of your teams</strong> — this is the attacker&apos;s advantage, and every defense rule below exists to blunt it.</li>
+    </ul>
+    <blockquote>You cannot stop a stronger player from beating you. You can stop a weaker player from farming you.</blockquote>
+
+    <h2 id="defense-principles">Defense: Keep All Three Even</h2>
+    <p>The single most common defense mistake: stacking your best heroes into one lineup. The attacker simply <strong>avoids your strong team and beats the other two</strong> — you lose 2-1 with your best squad never having fought. The rules:</p>
+    <ul>
+      <li><strong>Keep all 3 lineups EVEN.</strong> Spread strength so there is no free win on the board.</li>
+      <li><strong>Each team gets one of your 3 best tanks</strong> in front — a good frontline is what makes an average lineup annoying to clear.</li>
+      <li><strong>The weaker team gets the stronger heroes</strong> — prop up your worst slot, not your best.</li>
+      <li><strong>Put a second tank behind</strong> the frontline — depth behind the first wall stretches every fight.</li>
+      <li><strong>Power is not everything</strong> — comp and counters decide fights; tune by trial and error, not by CP number.</li>
+      <li><strong>Monitor who wins and loses against you</strong> — the defense log is free tuning data. Rebalance when drift appears.</li>
+    </ul>
+    <p>What even defense actually buys you: it does not stop stronger players, but it <strong>prevents weaker ones from dropping your rank</strong> — and rank defense is where the season&apos;s rewards live.</p>
+
+    <h2 id="sacrifice-rule">The Sacrifice Matchup Rule</h2>
+    <p>The matchup principle that wins attacks:</p>
+    <blockquote>Vs a stacked defense, put your WORST squad into their BEST — then win the other two free.</blockquote>
+    <p>Read their board, find the one lineup you cannot beat, and <strong>concede it deliberately</strong>. Your sacrifice squad exists to lose to their monster while your two better squads take the two winnable fights. The attacker chooses the order — never waste your best squad on their best lineup.</p>
+
+    <h2 id="attack-rules">Attack: Counters and Faction Bonuses</h2>
+    <ul>
+      <li><strong>Your 10 best heroes are interchangeable across the top two teams.</strong> Build the two wins, don&apos;t hoard heroes for a third fight you plan to lose anyway.</li>
+      <li><strong>Counter matchups decide fights:</strong> your rangers into their ranger/warrior lineups; your warriors into their warrior/warlock lineups.</li>
+      <li><strong>Avoid their strongest lineup</strong> — the sacrifice rule above. Only fight what you can beat.</li>
+      <li><strong>Faction bonuses are key</strong> — and because <strong>you can see their defense</strong>, you can pre-build your counter&apos;s faction bonus before you queue. The defender cannot adjust; you can.</li>
+    </ul>
+    <p>Hero-by-hero counter picks are in the <a href="/heroes/">Heroes guide</a>.</p>
+
+    <h2 id="results">What This Achieves in Practice</h2>
+    <p>Verified results from players running this system: <strong>consistent top-20/40/100 finishes on mid rosters, up from 250+ before</strong>. The arena rewards consistency over whale power — a readable account bleeds rank every day to attackers who see the weak lane; an even, monitored account holds it.</p>
+
+    <h2 id="arena-of-fate">Arena of Fate: The Trap Squad Strategy</h2>
+    <ul>
+      <li>The special arena variant runs the same 2-of-3 format — and the <strong>&quot;Trap Squad&quot;</strong> play exploits the attacker&apos;s visibility advantage in reverse: bait balanced-looking squads that punch far above their apparent weight.</li>
+      <li>Done well, it <strong>grabs high-tier rewards, including UR shards</strong> — the rare free UR source in PvP content.</li>
+      <li><strong>Known bug: some players get stuck unranked on new servers</strong> — if your rank never populates in a Fate season, it is the bug, not your play. Report and wait it out.</li>
+    </ul>
+
+    <VideoSection topic="arena" lang={lang} />
+  </GuidePage>
+</Base>

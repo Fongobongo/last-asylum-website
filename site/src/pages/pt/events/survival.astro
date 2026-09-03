@@ -1,0 +1,71 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'pt';
+---
+<Base lang={lang} path="/pt/events/survival/" title="Survival Battle: 60K distintivos grátis" description="O evento semanal de missões que paga aos F2P cerca de 60,000 Distintivos de Habilidade: categorias de missões, o truque do quartel de nível baixo, o timing da Fruta do Corvo e o conflito de choque com a economia do Duelo de Alianças.">
+  <GuidePage title="Survival Battle: 60K distintivos grátis" description="O evento semanal de missões que paga aos F2P cerca de 60,000 Distintivos de Habilidade: categorias de missões, o truque do quartel de nível baixo, o timing da Fruta do Corvo e o conflito de choque com a economia do Duelo de Alianças." lang={lang}>
+    <p>Survival Battle é o <strong>evento semanal de missões</strong>, e para contas free-to-play é a fonte de renda recorrente mais importante do jogo: <strong>jogadores F2P podem ganhar cerca de 60,000 Distintivos de Habilidade por semana</strong> com ele. Distintivos são o gargalo permanente das habilidades — este evento é como mantê-los fluindo sem gastar.</p>
+    <p>Este guia cobre como as missões funcionam, os truques de completção barata e o único conflito estratégico que você precisa planejar.</p>
+
+    <h2 id="how-it-works">Como funciona</h2>
+    <ul>
+      <li>Survival Battle é um <strong>evento semanal</strong> com uma lista rotativa de missões.</li>
+      <li><strong>As listas VARIAM POR SERVIDOR</strong> — sua lista pode não bater com a de outro servidor, então trate todo guia de missões (incluindo nomes específicos) como aproximado e confira sua própria lista in-game primeiro.</li>
+      <li>A meta de pagamento para uma conta F2P é <strong>~60,000 Distintivos de Habilidade por semana</strong> — alcançável com as recompensas de missões quando a lista é completada eficientemente.</li>
+    </ul>
+    <p>Categorias de tarefas que você verá nas listas:</p>
+    <ul>
+      <li>Missões de pesquisa tecnológica</li>
+      <li>Missões de aprimorar o Corvo</li>
+      <li>Missões de treinar soldados (veja <a href="#barracks-trick">o truque do quartel</a>)</li>
+      <li>Missões de matar monstros (veja <a href="#stamina-missions">missões de vigor</a>)</li>
+      <li>Missões de recrutamento (veja <a href="#recruit-missions">o truque dos tickets</a>)</li>
+    </ul>
+
+    <h2 id="barracks-trick">O truque do quartel de nível baixo</h2>
+    <p>Missões de Treinar Soldados não ligam para o nível — elas contam cabeças. Então:</p>
+    <ol>
+      <li>Enfileire <strong>tropas baratas de nível baixo</strong> no seu quartel.</li>
+      <li>Cada lote concluído marca a missão de Treinar Soldados por uma fração do custo em comida e aceleração da produção real de exército.</li>
+      <li>Timing à prova de cancelamento: lotes de nível baixo terminam rápido, então você pode encadear várias completções dentro de uma janela do evento.</li>
+    </ol>
+    <p>É a mesma lógica de contagem de corpos que alimenta a <a href="/pt/events/alliance-duel/">Fase 5 do Duelo de Alianças</a> — só que lá você quer níveis altos para os pontos grandes, enquanto aqui só a contagem importa. Treine as tropas mais baratas que tiver e limpe a missão.</p>
+
+    <h2 id="stamina-missions">Missões de monstros: guarde as Frutas do Corvo, gaste vigor</h2>
+    <ul>
+      <li><strong>Guarde suas Frutas do Corvo</strong> para as missões de matar monstros — não as queime em dias comuns quando nada paga pela morte.</li>
+      <li><strong>Gaste vigor</strong> para cumprir as missões de monstros. Vigor gasto fora de eventos é o desperdício F2P clássico — as mesmas lutas rendem progresso de evento quando cronometradas com uma missão de monstro.</li>
+    </ul>
+
+    <h2 id="recruit-missions">A missão de recrutamento de 30 tickets</h2>
+    <p>A completção barata conhecida: uma missão de recrutamento limpa com <strong>30 tickets de recrutamento</strong>. Isso a torna um teste puro de valor — se você tem 30 tickets bancados, a missão é grátis; se não, pondere contra seus planos de <a href="/pt/events/alliance-duel/">Fase 4 do Duelo de Alianças</a>, onde recrutamentos pagam +3,450 pontos cada.</p>
+
+    <h2 id="duel-overlap">CRÍTICO: o choque com o Duelo de Alianças</h2>
+    <blockquote>Algumas missões de Survival Battle se chocam com a economia do Duelo de Alianças. Decida quais completar agora e quais guardar para o Duelo.</blockquote>
+    <p>Esta é a única decisão real que o evento força. Missões de pesquisa, recrutamento e treino querem os mesmos recursos pelos quais o duelo paga o dobro:</p>
+    <ul>
+      <li><strong>Uma missão de pesquisa esta semana vs a pesquisa sem pergaminho da quarta de duelo na Fase 3.</strong></li>
+      <li><strong>Uma missão de recrutamento agora vs os +3,450 por recrutamento da Fase 4.</strong></li>
+      <li><strong>Uma missão de treino agora vs os pontos dobrados e +30% de valor de aceleração da Fase 5.</strong></li>
+    </ul>
+    <p>A regra de bolso: compare a recompensa do Survival Battle contra os pontos de duelo que você sacrificaria. No início de um ciclo de duelo, guarde para o duelo; no fim do ciclo, ou quando a recompensa da missão é carregada de distintivos, limpe a missão. Quando os calendários colidem, a renda semanal de 60K distintivos é a prioridade F2P — distintivos não têm outra fonte farmável nessa escala.</p>
+
+    <h2 id="weekly-checklist">O checklist semanal</h2>
+    <ol>
+      <li>Abra o evento no começo da semana e leia a lista de missões do <strong>seu servidor</strong>.</li>
+      <li>Separe as missões em "completar agora" e "guardar para o duelo" — antes de gastar qualquer coisa.</li>
+      <li>Enfileire lotes de nível baixo no quartel para as missões de treino.</li>
+      <li>Segure Frutas do Corvo e vigor para as missões de monstros.</li>
+      <li>Banque 30 tickets de recrutamento se houver missão de recrutamento ativa.</li>
+      <li>Recolha os ~60,000 Distintivos de Habilidade completos no fim da semana.</li>
+    </ol>
+    <p>Para onde vão esses distintivos — a ordem de prioridade de habilidades — veja a <a href="/pt/heroes/">guia de Heróis</a>.</p>
+
+    <VideoSection topic="survival" lang={lang} />
+  </GuidePage>
+</Base>

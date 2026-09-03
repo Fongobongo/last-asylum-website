@@ -1,0 +1,88 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'fr';
+---
+<Base lang={lang} path="/fr/events/thief/" title="Chasse aux Voleurs : apparitions et échange" description="Le pipeline énergie-vers-boss : comment fonctionnent vraiment les apparitions du Chef Voleur, la technique du kill en continu pour le niveau 30/35, la liste de priorités d&apos;échange de la communauté et l&apos;escouade de boss qui empile le plus de dégâts.">
+  <GuidePage title="Chasse aux Voleurs : apparitions et échange" description="Le pipeline énergie-vers-boss : comment fonctionnent vraiment les apparitions du Chef Voleur, la technique du kill en continu pour le niveau 30/35, la liste de priorités d&apos;échange de la communauté et l&apos;escouade de boss qui empile le plus de dégâts." lang={lang}>
+    <p>La Chasse aux Voleurs est l&apos;<strong>événement d&apos;énergie d&apos;alliance</strong> : vous dépensez de l&apos;énergie à attaquer des voleurs sur la carte, et les kills de voleurs tirent une chance de faire apparaître un <strong>boss Chef Voleur</strong> que toute l&apos;alliance peut rallyer. Ça convertit votre énergie de rechange en boutique d&apos;échange — l&apos;une des meilleures boutiques du jeu si vous achetez dans le bon ordre.</p>
+    <p>Ce guide couvre les mécaniques d&apos;apparition des boss, la technique pour faire apparaître les boss de haut niveau, la liste de priorités d&apos;échange, et l&apos;escouade de boss.</p>
+
+    <h2 id="how-it-works">Comment ça fonctionne</h2>
+    <ul>
+      <li>Attaquez des voleurs sur la carte avec de l&apos;énergie. Les kills font apparaître le boss Chef Voleur pour un rallye d&apos;alliance — <strong>le tirage se fait par voleur tué</strong>, pas par jour d&apos;événement ni par joueur.</li>
+      <li>Les boss apparaissent <strong>dès le premier kill ou après 20</strong> — le tirage arrive tôt ou après une série. Une alliance rapporte <strong>toujours 8 ou plus</strong> ; attendez-vous à de la variance et continuez à tuer.</li>
+      <li>Les points et récompenses <strong>n&apos;augmentent pas plus tard dans l&apos;événement</strong>. Aucune raison de thésauriser l&apos;énergie — <strong>dépensez-la immédiatement</strong> pour tirer vers les gros boss plus tôt.</li>
+    </ul>
+
+    <h2 id="boss-levels">Niveaux de boss par serveur</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Âge du serveur</th><th>Niveaux de boss courants</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Typique</td><td>10 / 15 / 20 / 25 / 30, rarement 35</td></tr>
+        <tr><td>Serveurs anciens</td><td>40 / 65 / 85 / 90</td></tr>
+      </tbody>
+    </table>
+    <ul>
+      <li>Votre <strong>gamme de niveau de boss est aléatoire par joueur et ne change pas</strong> — vous tirez votre gamme et vous la gardez. Elle n&apos;est <strong>pas liée à votre Puissance</strong>, donc un joueur à faible Puissance peut tirer des boss de haut niveau.</li>
+      <li><strong>Depuis le patch du 8 juillet : les apparitions suivent la croissance du serveur.</strong> Depuis ce patch, les niveaux de boss suivent le développement du serveur — fini les boss niveau 10 sur un serveur d&apos;un an.</li>
+    </ul>
+
+    <h2 id="spawn-technique">La technique du kill en continu pour le niveau 30/35</h2>
+    <p>La technique vérifiée pour pousser les niveaux de boss à 30 et 35 :</p>
+    <blockquote>Tuez les voleurs un par un SANS laisser vos troupes retourner à la base — des marches en continu, dos à dos, avec zéro temps mort.</blockquote>
+    <p>Les marches qui rentrent à la base cassent la série ; les kills consécutifs relancent l&apos;apparition à répétition. Enchaînez vos cibles pour que la prochaine marche parte à l&apos;instant où la dernière atterrit, et les apparitions de haut niveau arrivent bien plus souvent.</p>
+
+    <h2 id="exchange">La liste de priorités d&apos;échange</h2>
+    <p>La boutique d&apos;échange est la vraie récompense, et l&apos;ordre du consensus communautaire est stable :</p>
+    <h3 id="week-1">Semaine 1 uniquement</h3>
+    <ol>
+      <li><strong>Parchemins</strong> — 4 pour la techno du Duel d&apos;Alliances, <strong>puis plus jamais</strong>. La techno du duel veut exactement quatre ; après, c&apos;est du lest mort.</li>
+    </ol>
+    <h3 id="always">Toujours, à chaque événement</h3>
+    <ol>
+      <li><strong>Essence de Corbeau</strong> — à chaque événement, sans exception. Le système du Corbeau est en permanence bridé par elle (voir le <a href="/fr/raven/">guide du Corbeau</a>).</li>
+    </ol>
+    <h3 id="high-priority">Haute priorité</h3>
+    <ol>
+      <li>Énergie</li>
+      <li>Accélérations</li>
+      <li>Coffre du Corbeau</li>
+      <li>Épigraphes <em>quand disponibles</em></li>
+    </ol>
+    <h3 id="late-game">Fin de partie</h3>
+    <ol>
+      <li><strong>Herbes</strong> — jamais assez ; les comptes de fin de partie achètent des herbes à chaque événement.</li>
+    </ol>
+    <h3 id="alt-list">Liste de priorités alternative</h3>
+    <ol>
+      <li>Énergie</li>
+      <li>Coffre du Corbeau LV3</li>
+      <li>Coffres d&apos;épigraphes bleu/violet</li>
+      <li>Accélérations de recherche/construction</li>
+      <li>Tickets de recrutement</li>
+    </ol>
+    <p>Et une règle d&apos;inventaire : <strong>la limite de parchemins se reporte d&apos;événement en événement</strong>. Si vous atteignez le plafond de parchemins, ce plafond vous suit dans l&apos;événement suivant — une raison de plus pour la règle des « quatre puis plus jamais ».</p>
+
+    <h2 id="boss-squad">L&apos;escouade de rallye de boss</h2>
+    <p>La comp de boss de la communauté, construite pour des dégâts dans la durée :</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Rang</th><th>Héros</th><th>Rôle</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Avant</td><td>Arthur + Bella</td><td>Survivre plus longtemps — chaque seconde de survie supplémentaire empile plus de dégâts</td></tr>
+        <tr><td>Arrière</td><td>Marlena + Shadow + Claire</td><td>Moteur de dégâts derrière la frontline</td></tr>
+      </tbody>
+    </table>
+    <p>La logique : <strong>plus de survie = plus de dégâts empilés</strong>. Un combat de boss n&apos;est pas un test de rafale — l&apos;escouade qui tient le plus longtemps inflige le plus, donc privilégiez la survie à l&apos;attaque brute. Les détails complets des héros sont dans le <a href="/fr/heroes/">guide des Héros</a>.</p>
+
+    <VideoSection topic="thief" lang={lang} />
+  </GuidePage>
+</Base>

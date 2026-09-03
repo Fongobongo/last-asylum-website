@@ -1,0 +1,126 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'es';
+
+const comparisons = [
+  {
+    slug: 'marlena-vs-zoya',
+    title: 'Marlena vs Zoya — ¿qué carry UR?',
+    verdict: 'Marlena primero, Zoya después',
+    points: [
+      ['Disponibilidad', 'Casi gratis (top-up de $1), gratis el día 66', 'Solo de pago (10 fragmentos para empezar)'],
+      ['Cuota de daño', '~85% del daño del escuadrón ella sola', 'Reparte ~50/50 con una Marlena al máximo'],
+      ['Tipo de daño', 'Mezcla física/energía según el build', 'Torbellino de energía — necesita soportes de energía'],
+      ['Sinergia', 'Potenciada 4× en la composición estándar (ulti de Harper + Bell + pasiva de Claire)', 'No se apila con el Jester físico'],
+      ['Veredicto F2P', 'El carry principal de todo el camino F2P', 'Solo sustituye a Claire si tu Zoya es de estrellas altas'],
+    ],
+    video: 'XktNJ6u4sWo',
+  },
+  {
+    slug: 'cynthia-vs-marlena-f2p',
+    title: 'Cynthia vs Marlena para F2P',
+    verdict: 'Paga el $1 — pero Cynthia funciona si de verdad no puedes',
+    points: [
+      ['Coste', '~11,500 diamantes (rueda del día 8)', 'Top-up de $1'],
+      ['Poder temprano', 'Carry inicial fuerte (ranger UR)', 'Maduración tardía — débil hasta las estrellas altas'],
+      ['Final del juego', 'Pierdes el bono de facción del 5% + sinergia Harper/epígrafes', 'Núcleo de la meta monoguerrero'],
+      ['Tiempos de la rueda', 'Hay que guardar diamantes los días 1–8', 'Sin coste de diamantes'],
+      ['Veredicto', 'Pico temprano viable, se cae al final', 'Recomendada universalmente sobre Cynthia'],
+    ],
+  },
+  {
+    slug: 'annie-vs-joker',
+    title: 'Annie vs Joker — ¿qué carry warlock?',
+    verdict: 'Annie por valor, Joker para rematar en PvP',
+    points: [
+      ['Rol', 'Carry sostenido + valor de equipo a 8★', 'Verdugo — apunta a los enemigos con menos HP'],
+      ['Acceso F2P', 'Pase de Héroe (la elección de la comunidad)', 'Rueda de los Deseos después del día 15'],
+      ['Sinergia', 'Se combina con soportes de energía', 'Físico — NO se combina con Zoya'],
+      ['Destaca en', 'Peleas largas, contenido de monstruos', 'Limpieza PvP después de que Marlena ablande'],
+    ],
+    video: 'ekodq_Wh2_I',
+  },
+  {
+    slug: 'claire-vs-keep-ssr',
+    title: 'Claire SSR→UR — ¿convertir ahora o esperar?',
+    verdict: 'Convierte siempre — la pregunta es el momento',
+    points: [
+      ['Daño personal', '9★ UR ≈ 1.70× SSR al máximo; 10★ ≈ 2.20×', '—'],
+      ['Bono de equipo', 'Cae del 16% → 10% a 6★ (un par de % de pérdida real)', '—'],
+      ['Sáltate la caída', 'Acumula Salón de Honor: Nv.60→8★, Nv.100→9★, Nv.160→10★ instantáneo', '—'],
+      ['PvP', 'Tenacidad Av. a 8★ = +20% ATK/HP/DEF +10% RCD', '—'],
+      ['Coste', '1,600 fragmentos SSR a precio 2× (6★→10★)', '—'],
+    ],
+    video: '-9Nysk8pcns',
+  },
+  {
+    slug: 'shadow-vs-lucius',
+    title: 'Shadow vs Lucius — segundo tanque',
+    verdict: 'Lucius gratis ahora; Shadow si compras el Pase de Héroe',
+    points: [
+      ['Coste', 'Pase de Héroe (de pago)', 'Fragmentos gratis'],
+      ['Escalado', '8★/10★ significativamente mejor que 6★', 'Marcador estable'],
+      ['Regla', 'Si lo compraste: trátalo como héroe TEMPORAL — máx. 8★, habilidades 15–20', 'Cámbialo con libertad mientras subes a Daskal'],
+      ['Endgame', 'Daskal reemplaza a ambos', '—'],
+    ],
+  },
+];
+---
+
+<Base lang={lang} path="/es/compare/" title="Comparaciones de héroes" description="Marlena vs Zoya, Annie vs Joker, momento de conversión de Claire — veredictos lado a lado de las guías de la comunidad.">
+  <GuidePage
+    title="⚖️ Comparaciones de héroes"
+    description="Los debates que los jugadores tienen de verdad — resueltos por las guías de la comunidad con números exactos."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/es/' }, { label: 'Comparaciones' }]}
+  >
+    {comparisons.map((c) => (
+      <section class="not-prose mb-10">
+        <h2 id={c.slug} class="mb-1 text-2xl font-bold text-plague-200">{c.title}</h2>
+        <p class="mb-4 text-sm font-semibold text-toxic-400">✓ {c.verdict}</p>
+        <div class="overflow-x-auto rounded-lg border border-stone-800">
+          <table class="w-full text-sm">
+            {c.points.map((row) => (
+              <tr class="border-t border-stone-800 first:border-t-0">
+                <td class="w-40 bg-stone-900 p-3 font-semibold text-plague-300">{row[0]}</td>
+                <td class="p-3 text-stone-300">{row[1]}</td>
+                <td class="p-3 text-stone-400">{row[2]}</td>
+              </tr>
+            ))}
+          </table>
+        </div>
+        {c.video && (
+          <div class="js-video-facade mt-4 max-w-md cursor-pointer" data-video-id={c.video} role="button" tabindex="0" aria-label="Reproducir vídeo comparativo">
+            <span class="block aspect-video overflow-hidden rounded-lg border border-stone-800">
+              <img src={`https://i.ytimg.com/vi/${c.video}/hqdefault.jpg`} alt="Vídeo comparativo" loading="lazy" class="h-full w-full object-cover" />
+            </span>
+          </div>
+        )}
+      </section>
+    ))}
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>
+
+<script>
+  document.querySelectorAll('.js-video-facade').forEach((el) => {
+    el.addEventListener('click', () => {
+      const id = (el as HTMLElement).dataset.videoId;
+      if (!id) return;
+      const frame = document.createElement('iframe');
+      frame.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1`;
+      frame.title = 'Vídeo';
+      frame.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      frame.allowFullscreen = true;
+      frame.className = 'aspect-video w-full max-w-md rounded-lg';
+      el.replaceWith(frame);
+    });
+  });
+</script>

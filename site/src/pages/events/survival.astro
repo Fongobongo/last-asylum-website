@@ -1,0 +1,71 @@
+﻿---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'en';
+---
+<Base lang={lang} path="/events/survival/" title="Survival Battle: 60K Free Badges" description="The weekly mission event that pays F2P players roughly 60,000 Skill Badges: mission categories, the low-tier barracks trick, Raven Fruit timing, and the overlap conflict with Alliance Duel savings.">
+  <GuidePage title="Survival Battle: 60K Free Badges" description="The weekly mission event that pays F2P players roughly 60,000 Skill Badges: mission categories, the low-tier barracks trick, Raven Fruit timing, and the overlap conflict with Alliance Duel savings." lang={lang}>
+    <p>Survival Battle is the <strong>weekly mission event</strong>, and for free-to-play accounts it is the single most important recurring income source in the game: <strong>F2P players can earn roughly 60,000 Skill Badges per week</strong> from it. Skill Badges are the permanent hero-skill bottleneck — this event is how you keep them flowing without spending.</p>
+    <p>This guide covers how the missions work, the cheap completion tricks, and the one strategic conflict you have to plan around.</p>
+
+    <h2 id="how-it-works">How It Works</h2>
+    <ul>
+      <li>Survival Battle is a <strong>weekly event</strong> with a rotating mission list.</li>
+      <li><strong>Mission lists VARY BY SERVER</strong> — your list may not match another server&apos;s, so treat every mission guide (including specific mission names) as approximate and check your own in-game list first.</li>
+      <li>The payout target for a F2P account is <strong>~60,000 Skill Badges per week</strong> — achievable from the mission rewards when the list is completed efficiently.</li>
+    </ul>
+    <p>Task categories you will see on the lists:</p>
+    <ul>
+      <li>Technology research missions</li>
+      <li>Enhance Raven missions</li>
+      <li>Train Soldier missions (see <a href="#barracks-trick">the barracks trick</a>)</li>
+      <li>Monster-killing missions (see <a href="#stamina-missions">stamina missions</a>)</li>
+      <li>Recruit missions (see <a href="#recruit-missions">the ticket trick</a>)</li>
+    </ul>
+
+    <h2 id="barracks-trick">The Low-Tier Barracks Trick</h2>
+    <p>Train Soldiers missions do not care about tier — they count heads. So:</p>
+    <ol>
+      <li>Queue <strong>cheap, low-tier troops</strong> in your barracks.</li>
+      <li>Each finished batch ticks the Train Soldiers mission at a fraction of the food and speedup cost of real army production.</li>
+      <li>Cancel-proof the timing: low-tier batches finish fast, so you can chain multiple completions inside one event window.</li>
+    </ol>
+    <p>This is the same bodycount logic that powers <a href="/events/alliance-duel/">Alliance Duel</a> Phase 5 — except there you want high tiers for the big points, while here only the count matters. Train the cheapest troops you have and clear the mission.</p>
+
+    <h2 id="stamina-missions">Monster Missions: Save Raven Fruits, Spend Stamina</h2>
+    <ul>
+      <li><strong>Save your Raven Fruits</strong> for monster-killing missions — do not burn them on ordinary days when nothing is paying for the kill.</li>
+      <li><strong>Spend stamina</strong> to hit monster missions. Stamina spent outside events is the classic F2P waste — the same fights earn event progress when timed to a monster mission.</li>
+    </ul>
+
+    <h2 id="recruit-missions">The 30-Ticket Recruit Mission</h2>
+    <p>The known cheap completion: one recruit mission clears with <strong>30 recruitment tickets</strong>. That makes it a pure value check — if you have 30 tickets banked, the mission is free; if you do not, weigh it against your <a href="/events/alliance-duel/">Alliance Duel Phase 4</a> plans, where recruits pay +3,450 points each.</p>
+
+    <h2 id="duel-overlap">CRITICAL: The Alliance Duel Overlap</h2>
+    <blockquote>Some Survival Battle missions overlap with Alliance Duel savings. Decide which to complete now and which to save for the Duel.</blockquote>
+    <p>This is the one real decision the event forces. Research, recruitment and training missions all want the same resources the duel pays double for:</p>
+    <ul>
+      <li><strong>A research mission this week vs Phase 3 scroll-free research on duel Wednesday.</strong></li>
+      <li><strong>A recruit mission now vs Phase 4&apos;s +3,450 per recruit.</strong></li>
+      <li><strong>A training mission now vs Phase 5&apos;s doubled points and +30% speedup value.</strong></li>
+    </ul>
+    <p>The rule of thumb: compare the Survival Battle reward against the duel points you would sacrifice. Early in a duel cycle, save for the duel; late in the cycle, or when the mission reward is badge-heavy, clear the mission. When the calendars collide, the 60K weekly badge income is the F2P priority — badges have no other farmable source at this scale.</p>
+
+    <h2 id="weekly-checklist">The Weekly Checklist</h2>
+    <ol>
+      <li>Open the event at week start and read <strong>your server&apos;s</strong> mission list.</li>
+      <li>Sort missions into &quot;complete now&quot; and &quot;saves for the duel&quot; — before spending anything.</li>
+      <li>Queue low-tier barracks batches for the train missions.</li>
+      <li>Hold Raven Fruits and stamina for the monster missions.</li>
+      <li>Bank 30 recruitment tickets if a recruit mission is live.</li>
+      <li>Collect the full ~60,000 Skill Badges by week&apos;s end.</li>
+    </ol>
+    <p>For where those badges go — hero skill priority order — see the <a href="/heroes/">Heroes guide</a>.</p>
+
+    <VideoSection topic="survival" lang={lang} />
+  </GuidePage>
+</Base>

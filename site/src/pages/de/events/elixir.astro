@@ -1,0 +1,80 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+<Base lang={lang} path="/de/events/elixir/" title="Elixir Scramble: wie man gewinnt" description="Ein 30-minütiges Allianz-gegen-Allianz-Punkte-Schlachtfeld: fünf Etappen, kontrolle-basierte Wertung, Heizzelt-Priorität, Teleport-Regeln und der Mauer-Fehler, der deinen Run in 10 Minuten beendet.">
+  <GuidePage title="Elixir Scramble: wie man gewinnt" description="Ein 30-minütiges Allianz-gegen-Allianz-Punkte-Schlachtfeld: fünf Etappen, kontrolle-basierte Wertung, Heizzelt-Priorität, Teleport-Regeln und der Mauer-Fehler, der deinen Run in 10 Minuten beendet." lang={lang}>
+    <p>Elixir Scramble ist ein <strong>30-minütiges Allianz-gegen-Allianz-Schlachtfeld</strong>, in dem der Sieger über Punkte entschieden wird, nicht darüber, wer mehr Truppen tötet. Allianzen, die es wie ein Deathmatch behandeln, verlieren gegen Allianzen, die es wie ein Karten-Kontroll-Spiel behandeln — jedes Mal.</p>
+    <p>Dieser Guide deckt die fünf Etappen des Events ab, woher die Punkte wirklich kommen, Teleport-Regeln, Defense-Logik und den einen Fehler, der einen Run beendet, bevor er beginnt.</p>
+
+    <h2 id="event-structure">Die fünf Etappen</h2>
+    <p>Jeder Scramble läuft denselben Bogen, etwa sechs Minuten pro Etappe über die halbe Stunde:</p>
+    <ol>
+      <li><strong>Matchmaking</strong> — das System paart Allianzen.</li>
+      <li><strong>Eintritts-Vorbereitung</strong> — du lädst, positionierst und holst deine Trupps von der Mauer (siehe <a href="#wall-warning">die Mauer-Warnung</a> — hier verlieren Runs).</li>
+      <li><strong>Frühe Festungen</strong> — die ersten Gebäude schalten frei und das Land-Grab zum Start passiert.</li>
+      <li><strong>Entscheidende Mittel-Kämpfe</strong> — das umkämpfte Zentrum wird zum Punkte-Drehpunkt; das meiste des Events wird hier gewonnen oder verloren.</li>
+      <li><strong>Späte Anhäufung</strong> — gehaltene Gebäude ticken die Endpunkte aus; die Allianz, die bis zur letzten Sekunde aktiv bleibt, kassiert den Unterschied.</li>
+    </ol>
+
+    <h2 id="registration">Anmeldung und Timing</h2>
+    <ul>
+      <li>Spieler melden sich als <strong>Team A oder Team B</strong> an, oder der <strong>R5 meldet die Allianz</strong> direkt an.</li>
+      <li><strong>Nach Anmeldeschluss kann niemand mehr ergänzt werden.</strong> Keine Spätkömmerlinge, keine Ersatzspieler — wenn die Hälfte deiner Allianz die Anmeldung verschläft, kämpft ihr in Unterzahl.</li>
+      <li>Zeitplan-Beispiel: ein Scramble, der um <strong>15 Uhr CST startet, läuft um 21 Uhr UK</strong>. Prüfe den Event-Timer in deiner eigenen Zeitzone und stell einen Alarm — das Event belohnt, beim exakten Start online zu sein, nicht fünf Minuten später.</li>
+    </ul>
+
+    <h2 id="points">Woher die Punkte kommen</h2>
+    <p>Die Kern-Regel, und die, die die meisten Allianzen falsch machen: <strong>Punkte kommen aus KONTROLLE, nicht aus Kills.</strong> Gegner-Trupps zu töten bringt direkt nichts. Gebäude zu halten bringt bei jedem Tick Punkte. Ein Trupp, der nie kämpft, aber auf einem hochwertigen Gebäude steht, schlägt einen Trupp, der drei Gegner auslöscht und auf nichts steht.</p>
+    <p>Die Gebäude-Hierarchie:</p>
+    <ul>
+      <li><strong>Heizzelte</strong> — die ersten 10 Minuten lang das zweithöchste Punkte-Gebäude. Sie heilen <strong>15 Soldaten alle 10 Sekunden</strong>, was deine Kampf-Trupps auf der Karte hält statt nach Hause laufen zu lassen. Hinweis: <strong>Beschleunigungen sind im Event nutzlos</strong> — die Heilung läuft über das Zelt, nicht über deine Items.</li>
+      <li><strong>Lager</strong> — erscheinen später im Event und werden zu den Punkte-Sammel-Zielen; schnapp sie dir, wenn sie auftauchen.</li>
+      <li><strong>Die zentrale Elixier-Burg</strong> — die wertvollste Punkte-Quelle der Karte. Sie ist das <strong>Prioritätsziel deiner stärksten Spieler</strong>: sichern und halten. Sie ist auch das umkämpfteste, also erwarte die entscheidenden Kämpfe um sie herum.</li>
+    </ul>
+
+    <h2 id="teleports">Teleport-Regeln</h2>
+    <ul>
+      <li><strong>Der Gratis-Teleport hat 1 Minute Abklingzeit</strong> — und Teleportieren <strong>bricht alle Märsche ab, die draußen sind</strong>. Repositioniere dich nie, während deine Trupps auf ein Ziel zusteuern.</li>
+      <li><strong>Direkt-Teleport ist im Event nicht erlaubt.</strong> Du kannst dich nicht durch die Karte kaufen.</li>
+      <li>Der Standard-Zug: <strong>verankere deine Stadt an der Burg</strong> und schicke Märsche von dort nach außen. Eine Repositionierung, dann ein kurzer Weg für alles andere — das eliminiert das Abkling-Problem vollständig.</li>
+    </ul>
+
+    <h2 id="defense">Gebäude und Defense-Logik</h2>
+    <p>Eroberte Gebäude brauchen <strong>keine</strong> Garnison, um weiter Punkte zu generieren. Das führt zu einer simplen Regel:</p>
+    <ul>
+      <li><strong>Verteidige nur ein Gebäude, wenn es wirklich umkämpft ist.</strong> Trupps auf allem, was dir gehört, zu parken, ist Punkte-neutral und verschwendet deine Armee.</li>
+      <li>Wenn ein Gebäude angegriffen wird, <strong>können mehrere Trupps es verteidigen</strong> — staple die Defense, statt Trupps einzeln hineinzufüttern.</li>
+      <li>Du kannst dich auch <strong>dafür entscheiden, gar nicht zu verteidigen</strong>: lass ein minderwertiges Gebäude ziehen, halte deine Trupps am Leben und nimm es zurück, wenn der Gegner woandershin marschiert. Die Punkte ticken zurück, sobald du es zurückerobst.</li>
+    </ul>
+
+    <h2 id="wall-warning">KRITISCH: Hol die Trupps vor dem Start von der Mauer</h2>
+    <blockquote>Wenn deine Trupps beim Beginn des Elixir Scrambles noch auf deiner Mauer stehen, kannst du in unter 10 Minuten deine Truppen verlieren — und dein Event ist für die verbleibenden 20 vorbei.</blockquote>
+    <p>Mauer-Trupps werden in die Angriffs-Erstwelle gesogen, und tote Trupps im Event sind für die volle halbe Stunde tot. Während der Eintritts-Vorbereitung ist die Checkliste:</p>
+    <ol>
+      <li>Zieh jeden Trupp von der Mauer.</li>
+      <li>Bestätige, dass deine Märsche leer und die Abklingzeiten bereit sind.</li>
+      <li>Positioniere dich an der Burg.</li>
+      <li>Erst dann: beginne mit den Absendungen.</li>
+    </ol>
+
+    <h2 id="winning-strategy">Der 30-Minuten-Spielplan</h2>
+    <p>Das Gewinnmuster, verdichtet:</p>
+    <ul>
+      <li><strong>Sei beim Start online.</strong> Das frühe Land-Grab der Festungen entscheidet, wer in Führung spielt.</li>
+      <li><strong>Bleib die vollen 30 Minuten aktiv.</strong> Punkte sammeln sich die ganze Zeit; die Allianz, die bei Minute 20 aussteigt, verschenkt das letzte Drittel des Events.</li>
+      <li><strong>Halten statt überstrecken.</strong> Sichere, was du hast, bevor du eine dritte Front öffnest. Ein Gebäude, das du bis zum Ende hältst, schlägt zwei, die du kurz berührt hast.</li>
+      <li><strong>Rotieren und verstärken.</strong> Trupps auf umkämpften Gebäuden brauchen frische Körper; rotiere müde Trupps durch die Heizzelte zurück.</li>
+      <li><strong>Hochwertige Gebäude priorisieren.</strong> Die Elixier-Burg zuerst, Heizzelte früh, Lager, wenn sie erscheinen.</li>
+      <li><strong>Nie solo gehen.</strong> Ein einzelner Trupp, der einen verteidigten Punkt angreift, stirbt allein und trägt nichts bei. Beweg dich mit deiner Allianz oder gar nicht.</li>
+    </ul>
+    <p>Elixir Scramble belohnt Disziplin über Macht. Eine schwächere Allianz, die die richtigen Gebäude hält und nie aufhört zu rotieren, schlägt eine stärkere, die Kills hinterherjagt — denn Kills waren nie etwas wert.</p>
+
+    <VideoSection topic="elixir" lang={lang} />
+  </GuidePage>
+</Base>

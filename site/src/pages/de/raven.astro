@@ -1,0 +1,111 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+<Base lang={lang} path="/de/raven/" title="Rabe und Epigraph-System" description="Raben-Stufen und -Pläne, Ausrüstungs-Strategie, Epigraph-Seltenheiten und Beförderungsreihenfolge, und die Monofraktions-Regeln, die entscheiden, welche Epigraphe sich überhaupt zu verbessern lohnen.">
+  <GuidePage title="Rabe und Epigraph-System" description="Raben-Stufen und -Pläne, Ausrüstungs-Strategie, Epigraph-Seltenheiten und Beförderungsreihenfolge, und die Monofraktions-Regeln, die entscheiden, welche Epigraphe sich überhaupt zu verbessern lohnen." lang={lang}>
+    <p>Der Rabe ist das System, das still Kontos trennt: er funktioniert wie ein Extraplatz-Held für alle deine Trupps gleichzeitig, und seine Epigraphe sind der Ort, wo die Monofraktions-Meta tatsächlich durchgesetzt wird. Der Rabe ist auch das System, das die meisten Spieler vernachlässigen — ein Rabe, der auf Stufe 1 feststeckt, ist der klassische Fehler.</p>
+    <p>Diese Seite deckt Raben-Stufen und -Pläne, Ausrüstungs-Strategie, Epigraph-Seltenheiten und die Beförderungsreihenfolge ab, plus die Regeln, die entscheiden, welche Epigraphe Materialien verdienen.</p>
+
+    <h2 id="what-raven-is">Was der Rabe ist</h2>
+    <p>Der Rabe ist ein Extraplatz-Held für alle deine Trupps — seine Boni greifen überall gleichzeitig, nicht nur in einer Formation. Zwei Konsequenzen folgen:</p>
+    <ul>
+      <li>Jeder in den Raben investierte Punkt verbessert jeden Marsch, den du ausfährt — das macht ihn zu einem der wertvollsten Systeme im Spiel.</li>
+      <li>Krähen-Essenz, sein Futter, ist der Flaschenhals des gesamten Systems. Farm sie früh und hör nie auf — der VIP-Shop und der Heiligtum-Shop verkaufen sie genau aus diesem Grund.</li>
+    </ul>
+    <p>Das Langzeit-Ziel ist <strong>Raben-Stufe 110</strong>, wo die letzte Fähigkeit eintrifft: +50% AoE-Schaden auf betroffene Ziele. Das ist das Endgame des Systems, und Krähen-Essenz ist das, was zwischen dir und ihr steht.</p>
+
+    <h2 id="raven-levels">Raben-Stufen und -Pläne</h2>
+    <p>Raben-Stufen schalten die Epigraph-Slots (Pläne genannt) einzeln frei:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Raben-Stufe</th><th>Freischaltung</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>10</td><td>Epigraphe + Plan 1 (erster Slot)</td></tr>
+        <tr><td>150</td><td>Plan 2 (+1 System-Bonus)</td></tr>
+        <tr><td>300</td><td>Plan 3 (+2)</td></tr>
+        <tr><td>450</td><td>Plan 4 (+3)</td></tr>
+        <tr><td>600</td><td>Plan 5 (+4)</td></tr>
+      </tbody>
+    </table>
+    <p>Lies die Tabelle als den wahren Progressions-Weg des Raben: Stufe 10 öffnet das komplette Epigraph-System, und jede weiteren 150 Stufen fügen einen weiteren Slot zum Füllen hinzu. Weil jeder Plan-Slot seinen eigenen Epigraph-Bonus trägt, deckelt eine feststeckende Raben-Stufe, wie viele dieser Boni du überhaupt ausrüsten kannst.</p>
+
+    <h2 id="raven-gear">Raben-Ausrüstungs-Strategie</h2>
+    <p>Push die Raben-Ausrüstung auf Stufe 8 — dort kommen die Prozent-Bonis an, und Prozent-Bonis sind das, was die Ausrüstung tragenswert macht.</p>
+    <p>Seiten-Strategie, links gegen rechts:</p>
+    <ul>
+      <li><strong>Linke Seite</strong> — HP und Krit-Schadens-Reduktion. Leichter zu bekommen, defensiver Wert.</li>
+      <li><strong>Rechte Seite</strong> — ATK und Krit-Schaden. Der beste Offensive-Wert im System.</li>
+    </ul>
+    <p>Und eine Kalender-Regel: <strong>hebe deine Ausrüstungs-Truhen für Allianz-Duell-Tage auf.</strong> Sie dann zu öffnen bringt Allianz-Duell-Punkte — dieselbe Doppelnutzen-Logik, die Beschleunigungen im <a href="/de/economy/">Wirtschafts-Guide</a> regiert.</p>
+
+    <h2 id="epigraph-basics">Epigraphe: die Kern-Regeln</h2>
+    <p>Epigraphe rasten in die Plan-Slots des Raben und buffen die Helden einer Fraktion. Die Seltenheiten verhalten sich unterschiedlich, und die Unterschiede steuern jede Upgrade-Entscheidung:</p>
+    <ul>
+      <li><strong>UR (Gold)</strong> — bufft NUR eine Fraktion. Das Endziel und der Grund, warum Monofraktions-Trupps die Meta sind.</li>
+    </ul>
+    <ul>
+      <li><strong>SR (Blau) und R (Grün)</strong> — buffen ALLE Fraktionen, können aber nicht befördert werden. Sie sind das Jeder-bekommt-was-Level, nützlich, während du Richtung UR baust.</li>
+    </ul>
+    <p>Die wichtigste Regel: <strong>verbessere nur Epigraphe der Fraktion deines Haupt-Trupps.</strong> Ein UR-Epigraph, der eine Fraktion bufft, die du nicht fährst, ist für dich nichts wert — und in der Monofraktions-Meta sind Off-Fraktions-Materialien genau das, wofür das Futter da ist (siehe Schnell-Hinzufügen unten).</p>
+
+    <h3 id="early-epigraphs">Die Früh-Meta-Epigraphe</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Epigraph</th><th>Slot-Typ</th><th>Effekt</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Frenzy Flock</td><td>Angriff</td><td>ATK-Buff für Krieger-Verbündete nach dem Zünden der Raben-Fähigkeit, plus weitere Raben-Ziele.</td></tr>
+        <tr><td>Reversal Power</td><td>Unterstützung</td><td>Schaden für die 3 kriegerischen Verbündeten mit der höchsten ATK, und reduziert gegnerischen Ultimate-Schaden.</td></tr>
+        <tr><td>Protective Charm</td><td>—</td><td>Überlebens-Pick — die Standard-Drittwahl, wenn dein Trupp stirbt statt am Schaden zu verlieren.</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="epigraph-workshop">Die Epigraph-Werkstatt</h2>
+    <p>UR-Epigraphe zu schmieden erfordert <strong>Werkstatt-Stufe 20</strong>. Alles darunter baut darauf hin.</p>
+    <p>Die Seltenheits-Leiter, und wofür jede Farbe wirklich gut ist:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Farbe</th><th>Rolle</th><th>Notizen</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Grün</td><td>Material</td><td>Das Futter-Level.</td></tr>
+        <tr><td>Blau</td><td>Verbessertes Material</td><td>Ein blaues SR mit 2 Sternen performt ungefähr wie ein lila SSR — nutze Blaue, bis du sie übersteigst.</td></tr>
+        <tr><td>Lila</td><td>Übergangs-Level</td><td>Gut genug zum Kämpfen, während deine UR reifen.</td></tr>
+        <tr><td>Gold (UR)</td><td>Endziel</td><td>Das Ziel des gesamten Systems.</td></tr>
+      </tbody>
+    </table>
+    <p>Eine absolute Regel: <strong>recycle nie ein goldenes Epigraph, außer du bist sicher.</strong> UR-Epigraphe sind der knappste permanente Vermögenswert im Spiel — ein recyceltes UR kommt nicht zurück.</p>
+
+    <h2 id="promotion-order">Epigraph-Beförderungsreihenfolge</h2>
+    <p>Folge dieser Reihenfolge (von DrAction), ein Slot nach dem anderen befördert:</p>
+    <ol>
+      <li>Mitte — Verteidigungs-Slot (Schadens-Reduktion).</li>
+      <li>Oben — Angriffs-Slot (Raben-Ziel).</li>
+      <li>Rechts — Unterstützungs-Slot (Schadens-Reduktion).</li>
+      <li>Links — Initiativ-Slot (Verteidigung%-Buff).</li>
+    </ol>
+    <p>Für Krieger-Schwert-Epigraphe konkret die Community-Variante: Unterstützungs (rechts) UR zuerst, dann Angriff (oben), dann Initiativ oder Verteidigung.</p>
+
+    <h2 id="rarity-comparisons">Seltenheits-Vergleiche, die Leute überraschen</h2>
+    <p>Stern-Level kann im Schadens-Slot die Seltenheit schlagen. Das sind die verifizierten Vergleiche, über die am meisten gestritten wird:</p>
+    <ul>
+      <li>Ein Lila mit 4 Sternen kann im Angriffs-Slot mehr Schaden als ein Gold (UR) mit 0 Sternen — das Community-Kurzwort lautet Lila-DMG bis zum Schluss.</li>
+      <li>Ein Schild-UR mit 0 Sternen ist besser als ein SSR mit 5 Sternen.</li>
+      <li>Lila übertrumpft UR gegen König-Blight, bis das UR 3 Sterne oder besser erreicht.</li>
+    </ul>
+    <p>Die Erkenntnis ist nicht, dass Lila heimlich das beste Level ist — sondern dass ein hochsterniges Epigraph des richtigen Typs ein frisches UR des falschen schlägt. Vergebe deinen Epigraphen Sterne, bevor du ihrer Seltenheits-Decke hinterherjagst.</p>
+
+    <h2 id="ssr-vs-ur">SSR, UR und was wirklich verbessert wird</h2>
+    <p>Ein Missverständnis, das früh sterben sollte: du <strong>kannst ein SSR-Epigraph nicht in ein UR verbessern</strong>. Was du verbesserst, ist der Plan — der Slot, in dem das Epigraph steckt. SSR-Epigraphe sind Platzhalter in dieser Progression, keine Embryos.</p>
+    <p>Was zum häufigsten Raben-Fehler im Spiel führt: Spieler horten Nicht-Haupt-Fraktions-Epigraphe, statt sie dem Raben über <strong>Schnell-Hinzufügen</strong> zu verfüttern — und wundern sich dann, warum ihr Rabe auf Stufe 1 feststeckt. Off-Fraktions- und niedrige Seltenheits-Epigraphe sind Raben-Futter. Schnell-Hinzufügen sie; dafür sind sie da.</p>
+
+    <VideoSection topic="raven" lang={lang} />
+  </GuidePage>
+</Base>

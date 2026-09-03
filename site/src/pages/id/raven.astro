@@ -1,0 +1,111 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+<Base lang={lang} path="/id/raven/" title="Gagak &amp; Sistem Epigraf" description="Level dan rencana Gagak, strategi perlengkapan, rarity epigraf dan urutan promosi, serta aturan mono-faksi yang menentukan epigraf mana yang layak di-upgrade sama sekali.">
+  <GuidePage title="Gagak &amp; Sistem Epigraf" description="Level dan rencana Gagak, strategi perlengkapan, rarity epigraf dan urutan promosi, serta aturan mono-faksi yang menentukan epigraf mana yang layak di-upgrade sama sekali." lang={lang}>
+    <p>Gagak adalah sistem yang diam-diam memisahkan akun: dia bekerja seperti hero ekstra untuk semua pasukan Anda sekaligus, dan epigrafnya adalah tempat meta mono-faksi benar-benar ditegakkan. Gagak juga sistem yang paling banyak diabaikan pemain — Gagak yang terparkir di level 1 adalah kesalahan klasik.</p>
+    <p>Halaman ini membahas level dan rencana Gagak, strategi perlengkapan, rarity epigraf dan urutan promosi, serta aturan yang menentukan epigraf mana yang layak mendapat material.</p>
+
+    <h2 id="what-raven-is">Apa itu Gagak</h2>
+    <p>Gagak adalah hero ekstra untuk semua pasukan Anda — buff-nya berlaku di mana-mana sekaligus, bukan hanya untuk satu formasi. Dua konsekuensi mengikutinya:</p>
+    <ul>
+      <li>Setiap poin investasi Gagak meningkatkan setiap march yang Anda keluarkan, yang menjadikannya salah satu sistem bernilai tertinggi dalam game.</li>
+      <li>Crow Essence, makanannya, adalah penghambat seluruh sistem. Farm lebih awal dan jangan pernah berhenti — toko VIP dan toko Sanctuary sama-sama menjualnya tepat karena alasan ini.</li>
+    </ul>
+    <p>Tujuan jangka panjangnya adalah <strong>Gagak level 110</strong>, tempat skill terakhir mendarat: damage AOE +50% ke target yang terdampak. Itulah endgame sistemnya, dan Crow Essence-lah yang berdiri di antara Anda dan itu.</p>
+
+    <h2 id="raven-levels">Level dan Rencana Gagak</h2>
+    <p>Level Gagak membuka slot epigraf (disebut Rencana/Plan) satu per satu:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Level Gagak</th><th>Pembukaan</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>10</td><td>Epigraf + Rencana 1 (slot pertama)</td></tr>
+        <tr><td>150</td><td>Rencana 2 (+1 bonus sistem)</td></tr>
+        <tr><td>300</td><td>Rencana 3 (+2)</td></tr>
+        <tr><td>450</td><td>Rencana 4 (+3)</td></tr>
+        <tr><td>600</td><td>Rencana 5 (+4)</td></tr>
+      </tbody>
+    </table>
+    <p>Baca tabel sebagai jalur progresi Gagak yang sesungguhnya: level 10 membuka seluruh sistem epigraf, dan setiap 150 level setelahnya menambah satu slot lagi untuk diisi. Karena setiap slot Rencana membawa buff epigrafnya sendiri, level Gagak yang tersendat membatasi berapa banyak buff yang bahkan bisa Anda pasang.</p>
+
+    <h2 id="raven-gear">Strategi Perlengkapan Gagak</h2>
+    <p>Dorong perlengkapan Gagak ke level 8 — di situlah buff persentase tiba, dan buff persentase adalah yang membuat perlengkapan layak dipakai.</p>
+    <p>Strategi samping, kiri lawan kanan:</p>
+    <ul>
+      <li><strong>Sisi kiri</strong> — HP dan pengurangan damage kritikal. Lebih mudah didapat, nilai defensif.</li>
+      <li><strong>Sisi kanan</strong> — ATK dan damage kritikal. Nilai ofensif terbaik dalam sistem ini.</li>
+    </ul>
+    <p>Dan satu aturan kalender: <strong>simpan peti perlengkapan Anda untuk hari-hari Alliance Duel.</strong> Membukanya saat itu menghasilkan poin Alliance Duel — logika double-dip yang sama yang mengatur percepatan di <a href="/id/economy/">Panduan Ekonomi</a>.</p>
+
+    <h2 id="epigraph-basics">Epigraf: Aturan Inti</h2>
+    <p>Epigraf masuk ke Rencana Gagak dan memberi buff pada hero dari satu faksi. Rarity-nya berperilaku berbeda, dan perbedaannya mendorong setiap keputusan upgrade:</p>
+    <ul>
+      <li><strong>UR (emas)</strong> — memberi buff pada SATU faksi saja. Tujuan akhir, dan alasan pasukan mono-faksi menjadi meta.</li>
+    </ul>
+    <ul>
+      <li><strong>SR (biru) dan R (hijau)</strong> — memberi buff pada SEMUA faksi, tetapi tidak bisa dipromosikan. Mereka adalah tier semua-orang-dapat-bagian, berguna selagi Anda membangun menuju UR.</li>
+    </ul>
+    <p>Aturan terpenting satu-satunya: <strong>hanya upgrade epigraf dari faksi pasukan utama Anda.</strong> Epigraf UR yang memberi buff pada faksi yang tidak Anda keluarkan tak bernilai apa pun bagi Anda — dan di meta mono-faksi, material luar faksi tepatlah untuk apa stok makanan itu (lihat Quick Add di bawah).</p>
+
+    <h3 id="early-epigraphs">Epigraf Meta Awal</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Epigraf</th><th>Tipe slot</th><th>Efek</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Frenzy Flock</td><td>Serangan</td><td>Buff ATK ke sekutu Warrior setelah skill Gagak aktif, plus lebih banyak target Gagak.</td></tr>
+        <tr><td>Reversal Power</td><td>Dukungan</td><td>Damage untuk 3 sekutu ATK tertinggi, dan mengurangi damage ultimate musuh.</td></tr>
+        <tr><td>Protective Charm</td><td>—</td><td>Pilihan daya tahan — pilihan ketiga standar saat pasukan Anda terus mati alih-alih kalah karena damage.</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="epigraph-workshop">Epigraph Workshop</h2>
+    <p>Membuat epigraf UR membutuhkan <strong>Workshop level 20</strong>. Semua di bawah itu adalah membangun menuju sana.</p>
+    <p>Tangga rarity, dan untuk apa sebenarnya setiap warna:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Warna</th><th>Peran</th><th>Catatan</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Hijau</td><td>Material</td><td>Tier bahan makanan.</td></tr>
+        <tr><td>Biru</td><td>Material yang disempurnakan</td><td>Biru SR dengan 2 bintang berkinerja kira-kira seperti ungu SSR — pakai biru sampai Anda melampauinya.</td></tr>
+        <tr><td>Ungu</td><td>Tier transisi</td><td>Cukup baik untuk bertarung selagi UR Anda tumbuh.</td></tr>
+        <tr><td>Emas (UR)</td><td>Tujuan akhir</td><td>Sasaran dari seluruh sistem ini.</td></tr>
+      </tbody>
+    </table>
+    <p>Satu aturan mutlak: <strong>jangan pernah mendaur ulang epigraf emas kecuali Anda yakin.</strong> Epigraf UR adalah aset permanen paling langka dalam game — UR yang didaur ulang tidak akan kembali.</p>
+
+    <h2 id="promotion-order">Urutan Promosi Epigraf</h2>
+    <p>Ikuti urutan ini (dari DrAction), promosikan satu slot sekaligus:</p>
+    <ol>
+      <li>Tengah — slot Pertahanan (pengurangan damage).</li>
+      <li>Atas — slot Serangan (Raven Target).</li>
+      <li>Kanan — slot Dukungan (pengurangan damage).</li>
+      <li>Kiri — slot Inisiatif (buff Defense%).</li>
+    </ol>
+    <p>Untuk epigraf pedang Warrior khususnya, varian komunitasnya: Dukungan (kanan) UR dulu, lalu Serangan (atas), lalu Inisiatif atau Pertahanan.</p>
+
+    <h2 id="rarity-comparisons">Perbandingan Rarity yang Mengejutkan Orang</h2>
+    <p>Level bintang bisa mengalahkan rarity di slot damage. Ini perbandingan terverifikasi yang paling banyak diperdebatkan pemain:</p>
+    <ul>
+      <li>Ungu dengan 4 bintang bisa mengungguli damage kuning (UR) dengan 0 bintang di slot serangan — singkatan komunitasnya: DMG ungu terus-menerus.</li>
+      <li>Shield UR 0 bintang lebih baik daripada SSR 5 bintang.</li>
+      <li>Ungu mengungguli UR melawan King Blight sampai UR-nya mencapai 3 bintang atau lebih.</li>
+    </ul>
+    <p>Kesimpulannya bukan bahwa ungu diam-diam adalah tier terbaik — tetapi bahwa epigraf bintang tinggi dengan tipe yang tepat mengalahkan UR segar dengan tipe yang salah. Naikkan bintang epigraf Anda sebelum mengejar plafon rarity-nya.</p>
+
+    <h2 id="ssr-vs-ur">SSR, UR, dan yang Sebenarnya Bisa Di-upgrade</h2>
+    <p>Miskonsepsi umum yang layak dibunuh lebih awal: Anda <strong>tidak bisa meng-upgrade epigraf SSR menjadi UR</strong>. Yang Anda upgrade adalah Rencananya — slot tempat epigraf itu duduk. Epigraf SSR adalah pengisi tempat dalam progresi itu, bukan embrio.</p>
+    <p>Yang mengarah pada kesalahan Gagak paling umum dalam game: pemain menimbun epigraf bukan-faksi-utama alih-alih memberi makan Gagak lewat <strong>Quick Add</strong> — lalu bertanya-tanya mengapa Gagak mereka terparkir di level 1. Epigraf luar faksi dan rarity rendah adalah makanan Gagak. Quick Add mereka; untuk itulah mereka ada.</p>
+
+    <VideoSection topic="raven" lang={lang} />
+  </GuidePage>
+</Base>

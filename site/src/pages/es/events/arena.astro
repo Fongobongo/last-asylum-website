@@ -1,0 +1,60 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'es';
+---
+<Base lang={lang} path="/es/events/arena/" title="Arena Triangular: defensa y ataque" description="Tres formaciones, el atacante elige dos que vencer: el principio de defensa pareja, la regla del emparejamiento de sacrificio, ataque basado en contrarrestos, bonos de facción y la jugada del escuadrón trampa de la Arena del Destino por fragmentos UR.">
+  <GuidePage title="Arena Triangular: defensa y ataque" description="Tres formaciones, el atacante elige dos que vencer: el principio de defensa pareja, la regla del emparejamiento de sacrificio, ataque basado en contrarrestos, bonos de facción y la jugada del escuadrón trampa de la Arena del Destino por fragmentos UR." lang={lang}>
+    <p>La Arena Triangular es el duelo de formaciones 3v3: configuras <strong>tres formaciones defensivas</strong>, y cada atacante <strong>elige contra cuáles de tus formaciones pelear</strong> — debe <strong>ganar 2 de 3</strong> para vencerte. Una regla moldea todo el evento antes que nada: <strong>el atacante VE tus formaciones</strong>. Defender en este juego no va de ser invencible; va de no ser legible.</p>
+    <p>Esta guía cubre los principios de defensa, la regla del emparejamiento de sacrificio para atacar, los contrarrestos, los bonos de facción y la estrategia del escuadrón trampa de la Arena del Destino.</p>
+
+    <h2 id="format">El formato, y qué significa</h2>
+    <ul>
+      <li>Los defensores configuran <strong>3 formaciones</strong>. Los atacantes eligen el orden en que las pelean y deben <strong>ganar 2 de 3</strong>.</li>
+      <li><strong>El atacante ve tus tres equipos</strong> — esta es la ventaja del atacante, y cada regla de defensa de abajo existe para amortiguarla.</li>
+    </ul>
+    <blockquote>No puedes impedir que un jugador más fuerte te venza. Puedes impedir que uno más débil te farme.</blockquote>
+
+    <h2 id="defense-principles">Defensa: mantén las tres parejas</h2>
+    <p>El error de defensa más común: apilar tus mejores héroes en una sola formación. El atacante simplemente <strong>evita tu equipo fuerte y vence a los otros dos</strong> — pierdes 2-1 sin que tu mejor escuadrón haya peleado. Las reglas:</p>
+    <ul>
+      <li><strong>Mantén las 3 formaciones PAREJAS.</strong> Reparte la fuerza para que no haya victoria gratis en el tablero.</li>
+      <li><strong>Cada equipo recibe uno de tus 3 mejores tanques</strong> delante — una buena vanguardia es lo que vuelve molesta de limpiar a una formación corriente.</li>
+      <li><strong>El equipo más débil recibe los héroes más fuertes</strong> — apuntala tu peor ranura, no tu mejor.</li>
+      <li><strong>Pon un segundo tanque detrás</strong> de la vanguardia — profundidad tras la primera muralla estira cada pelea.</li>
+      <li><strong>El poder no lo es todo</strong> — la composición y los contrarrestos deciden peleas; ajusta a prueba y error, no por número de CP.</li>
+      <li><strong>Vigila quién gana y pierde contra ti</strong> — el registro de defensa son datos de ajuste gratis. Reequilibra cuando aparezca deriva.</li>
+    </ul>
+    <p>Lo que la defensa pareja realmente te compra: no detiene a los más fuertes, pero <strong>evita que los más débiles te bajen el rango</strong> — y defender el rango es donde viven las recompensas de la temporada.</p>
+
+    <h2 id="sacrifice-rule">La regla del emparejamiento de sacrificio</h2>
+    <p>El principio de emparejamiento que gana ataques:</p>
+    <blockquote>Contra una defensa apilada, lanza tu PEOR escuadrón contra su MEOR formación — y gana las otras dos libres.</blockquote>
+    <p>Lee su tablero, encuentra la única formación que no puedes vencer, y <strong>cedela deliberadamente</strong>. Tu escuadrón de sacrificio existe para perder contra su monstruo mientras tus dos escuadrones mejores toman las dos peleas ganables. El atacante elige el orden — nunca desperdicies tu mejor escuadrón en su mejor formación.</p>
+
+    <h2 id="attack-rules">Ataque: contrarrestos y bonos de facción</h2>
+    <ul>
+      <li><strong>Tus 10 mejores héroes son intercambiables entre los dos equipos superiores.</strong> Construye las dos victorias; no atesores héroes para una tercera pelea que planeas perder de todos modos.</li>
+      <li><strong>Los emparejamientos de contrarresto deciden las peleas:</strong> tus guardabosques contra sus formaciones guardabosques/guerrero; tus guerreros contra sus formaciones guerrero/brujo.</li>
+      <li><strong>Evita su formación más fuerte</strong> — la regla de sacrificio de arriba. Pelea solo lo que puedes vencer.</li>
+      <li><strong>Los bonos de facción son clave</strong> — y como <strong>puedes ver su defensa</strong>, puedes preconstruir el bono de facción de tu contrarresto antes de entrar en cola. El defensor no puede ajustarse; tú sí.</li>
+    </ul>
+    <p>Las elecciones de héroe por héroe están en la <a href="/es/heroes/">guía de Héroes</a>.</p>
+
+    <h2 id="results">Qué logra esto en la práctica</h2>
+    <p>Resultados verificados de jugadores corriendo este sistema: <strong>posiciones top-20/40/100 consistentes con plantillas medias, subiendo desde 250+ antes</strong>. La arena premia la consistencia sobre el poder de whales — una cuenta legible sangra rango cada día ante atacantes que ven el carril débil; una cuenta pareja y vigilada lo sostiene.</p>
+
+    <h2 id="arena-of-fate">Arena del Destino: la estrategia del escuadrón trampa</h2>
+    <ul>
+      <li>La variante especial de arena corre el mismo formato de 2-de-3 — y la jugada del <strong>"Escuadrón Trampa"</strong> explota la ventaja de visibilidad del atacante en reversa: ceba escuadrones de aspecto equilibrado que golpean muy por encima de su peso aparente.</li>
+      <li>Bien hecha, <strong>agarra recompensas de alto nivel, incluidos fragmentos UR</strong> — la rara fuente gratuita de UR en contenido PvP.</li>
+      <li><strong>Bug conocido: algunos jugadores quedan sin rango en servidores nuevos</strong> — si tu rango nunca aparece en una temporada de Destino, es el bug, no tu juego. Repórtalo y espéralo.</li>
+    </ul>
+
+    <VideoSection topic="arena" lang={lang} />
+  </GuidePage>
+</Base>

@@ -1,0 +1,469 @@
+{
+  "channel_name": "status-update",
+  "messages": [
+    {
+      "id": 1481180154708492348,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "🔧 Dear doctors，\nAn anomaly in server data has caused the Pirate Legacy quest to be repeatedly completable.\n\nDev team is fixing this bug.",
+      "created_at": "2026-03-11T06:41:07.879000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1481635404774903808,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# BUG Update\n\n🔧 Dear Doctor, \nThe bug regarding the Pirate Legacy Quest has been resolved, and the rewards obtained due to the anomaly have been removed.\n\n**To ensure fairness, we will deduct game progress from players who used the bug to obtain in-game items for upgrades.** However, due to the large amount of data involved, **we need some time** to confirm the specific details of the plan before taking action. We will continue to work hard to maintain game fairness.\n\nWe sincerely apologize for any inconvenience caused. As always, we will continue to work hard to ensure a stable gaming environment.\n@everyone",
+      "created_at": "2026-03-12T12:50:07.953000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1481752275755208715,
+      "author_id": 1086792549915688980,
+      "author_name": "verratvonwindir",
+      "content": "Banned accounts - Error 1013. Users are being banned (temporary or permanent) with no indication as to why.\n\nUpdated/ Russian players seem to be affected the most, this is being looked into.\n\nModerator bot in game is banning common words, phrases, emojis. Seems to have increased in severity since today's large update. \n\nAffected users, please try your account again in 2 hour slots. It seems this auto-ban is a temporary thing.\n\nDevs are working to update the ban screen with more information/links to follow to sort it out.\n\nPlease post in bug reports (example below), so we can help keep track of this issue https://discord.com/channels/1417476085179748507/1481625668188897352\n\nAnd log here for appeals https://docs.google.com/forms/d/e/1FAIpQLSfxjABuKnRfDOunOa9uAfXIg4HkVcktdaaEjzD5r9PVLfXcpA/viewform",
+      "created_at": "2026-03-12T20:34:32.166000+00:00",
+      "embeds": [
+        {
+          "thumbnail": {
+            "url": "https://lh3.googleusercontent.com/1pWpON_n-fYY7ATuKoRiIC3L10ZcEZiLHJKJ2pOJAKptdwr8iDOBUv6c_ivwBQKKvYd_93jwTK-ZX_Y=w1200-h630-p",
+            "proxy_url": "https://images-ext-1.discordapp.net/external/de3atLRkk5iTPPnLGyTX0bDCeCWmxNhE3fBj1n8Mz2A/https/lh3.googleusercontent.com/1pWpON_n-fYY7ATuKoRiIC3L10ZcEZiLHJKJ2pOJAKptdwr8iDOBUv6c_ivwBQKKvYd_93jwTK-ZX_Y%3Dw1200-h630-p",
+            "width": 200,
+            "height": 200,
+            "flags": 0
+          },
+          "provider": {
+            "name": "Google Docs"
+          },
+          "flags": 0,
+          "type": "link",
+          "description": "Please fill in the following information accurately, and our technical staff will help you check whether your account has been mistakenly banned.",
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSfxjABuKnRfDOunOa9uAfXIg4HkVcktdaaEjzD5r9PVLfXcpA/viewform",
+          "title": "Banning Issue Questionnaire"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": 1481944079783952466,
+      "author_id": 1086792549915688980,
+      "author_name": "verratvonwindir",
+      "content": "Players unable to enter the game - \"Network Connection\" error.\n\nUnfortunately some players are reporting they cannot enter the game. \nThe following suggested fixes can be tried:\n\n▶️ Resetting the game (Shut down, reload)\n▶️ Clearing the game cache (Be aware this may force you to log in again).\n▶️ If you have a VPN, Disable this and try the above.\n▶️ Repairing the game (top right corner when loading in).\n\nSome users have gotten around this via using bluestacks on PC. This won't help all we're aware 🙁 \n\nSince this cannot be reported in-game, please can you post here (thank you to the player who started this) - https://discord.com/channels/1417476085179748507/1481646605965725757\n\nThis will help massively 🙂\n\nThe following info may help developers find and fix the cause faster:\n\nUser Name (in game IGN): Myrsky\nServer # 2\nIn Game Account Number: 12312123132123123\nOS Type (Android/Iphone): Android\nOS Version: Angrydragon V19203\nTime Error noticed:  12 March 2026 - PM",
+      "created_at": "2026-03-13T09:16:41.810000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1482700883434405958,
+      "author_id": 1086792549915688980,
+      "author_name": "verratvonwindir",
+      "content": "City buffs have been reported to have to stopped working. Confirmed in s2 and via discord queries last night/today.\n\nWe will log as well. Please ensure you log a bug report in game and if you can, log here  \n\nhttps://discord.com/channels/1417476085179748507/1482700411885584515/1482700411885584515\n\nWe will update when we can asap.\n\nUpdate/\nApparently resetting after taking the role fixes it. Still bugged though\n\n@everyone",
+      "created_at": "2026-03-15T11:23:57.861000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1482702968879841416,
+      "author_id": 1086792549915688980,
+      "author_name": "verratvonwindir",
+      "content": "Shipbug - unfair levelled players.\n\nWe are working to try and ensure the devs ban the accounts involved in the ship resource bug.\n\nhttps://discord.com/channels/1417476085179748507/1482312548996087869\n\nhttps://discord.com/channels/1417476085179748507/1482122934935093438\n\nWe can see the frustration (and share it).  Last update was: \n \n\"Dear mods, to ensure fairness, we will deduct game progress from players who used the bug to obtain in-game items for upgrades. Here is the relevant announcement:\nhttps://discord.com/channels/1417476085179748507/1481179211581489162/1481635404774903808\n\nOur technical staff is urgently addressing the aftereffects of this bug. We need some time. Thank you very much for your assistance!\"\n\nHopefully we will get a positivr update this week. Apologies for anyone who had them in the duel/scramble. 😔\n\nThanks <a:emoji_13:1479611819545989371> \n\n@everyone",
+      "created_at": "2026-03-15T11:32:15.070000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1483709372675657798,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "Falcon Tower Excavation Issue Notice \n \nDear Doctor, \n \nDue to a server data anomaly, some players were able to exploit a bug in Falcon Tower Excavation to gain extra resources, resulting in abnormal increases in Might. We sincerely apologize for any negative impact this may have had on your experience. \n \nWe will be reclaiming any items obtained through this issue in the near future and appreciate your patience during this process. \n \nWe are committed to maintaining a fair gaming environment for all Doctors. Thank you for your understanding and support.\n \nLast Asylum Team\n\nIf you want to report other bugs, please follow the guide and contacnt CS: https://discord.com/channels/1417476085179748507/1481597747407753347\nNote: Community moderators are players who help maintain community order and are eager to assist others. They can provide answers to gameplay questions and offer advice for beginners. However, please note that **community moderators are not official staff and cannot resolve bugs for you. **\n\n@everyone",
+      "created_at": "2026-03-18T06:11:20.433000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1486667774645244076,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "Dear doctors, due to the large amount of content being updated, the maintenance time for this update will be extended. \nWe will provide additional compensation rewards based on the extended maintenance period.\nThank you for your support and understanding.\nI will promptly notify all doctors of any new developments in the community.\n@everyone",
+      "created_at": "2026-03-26T10:06:58.427000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1486684412149239910,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "【Maintenance Completion Notice】\n\nDear Doctors,\nThe maintenance for this version update has been completed, and the servers are now open. You can log in to the game normally to experience the new content and optimizations.\n\nDue to the maintenance time exceeding the original schedule, we will be distributing delay compensation to all players via in-game mail. Compensation will be distributed in tiers based on the actual extended duration; please check your in-game mail for specific details.\n\nThank you for your patience and support. @everyone",
+      "created_at": "2026-03-26T11:13:05.117000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1486687240414302398,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "🔧 Dear doctors，\nThere is a display bug in some shops.\n\nDev team is fixing this bug.<a:typingcat:983943453803151400>",
+      "created_at": "2026-03-26T11:24:19.428000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1488537564259549245,
+      "author_id": 1086792549915688980,
+      "author_name": "verratvonwindir",
+      "content": "Can any/all that have been muted for random things post here https://discord.com/channels/1417476085179748507/1481461132857442304\n\nTrying still to get this sorted out.  There are a few \"no no\" words that seem to get an auto ban...\n\nShenanigans\nGrapes\nRaccoon\nAdmin\nCA\nKur\nTurkish words with \"fak\" in them...\n\nDon't ask me why - Look at what words CAN be made from the above, do not \"road test\" in WC or Alliance Chat.  Any info over what you were saying at the time will help.  I've asked again for a list of the banned words so we can determine which are bogus 🙁\n\nSorry - we're trying as much as we can.",
+      "created_at": "2026-03-31T13:56:51.010000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1488914423442833408,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "Thief Hunt Event Issue\n\nDear Doctor,\n\nDue to a server data issue, the Thief Hunt event experienced an error where the Thief Leader spawned unexpectedly.\n\nWe are currently working to resolve this as quickly as possible and will be reclaiming any additional resources gained as a result of this issue.\n\nWe sincerely apologize for any inconvenience caused.\n\nThank you for your understanding and support.\n@everyone",
+      "created_at": "2026-04-01T14:54:21.241000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1489559400371982346,
+      "author_id": 795438872674172940,
+      "author_name": "achi_lla",
+      "content": "📢 **Status Update – Chat Restrictions**\n\nDear players,\n\nIssue where some players have been muted for using normal chat messages. The Dev team has removed some of the words that were causing these issues. However, some words related to fraud, such as GM and admin, remain banned\n\nIf a player is muted or banned specific words or phrases, they may contact Customer Service or GM to request a review and possible removal of the penalty.",
+      "created_at": "2026-04-03T09:37:15.724000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1489914886547963935,
+      "author_id": 795438872674172940,
+      "author_name": "achi_lla",
+      "content": "📢 **Status Update - Cross Server Teleportation Bug** \n\nDuring Alliance Duel Raid Event\nThe Cross- Server teleportation issue affecting some players has now been resolved by the development team.\n\nWe sincerely apologize for the inconvenience this has caused. All systems should now be functioning normally. \n\nThank you for your patience and understanding.\n\nIf a player still has this issue, pls report your role information(account ID, name, and server) to the CS or GM",
+      "created_at": "2026-04-04T09:09:50.233000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1489918486716092436,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "Dear doctors, this bug should be fixed now. Thanks for mods and players' help❤️",
+      "created_at": "2026-04-04T09:24:08.580000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1490660289446936596,
+      "author_id": 795438872674172940,
+      "author_name": "achi_lla",
+      "content": "📢 **Status Update - Regarding the Chat Restrictions**\n\nDear Doctors\n\nPlease wait a few hours before you can speak normally again if you have been temporarily muted.\n\nThe team is continuously optimizing the banned word system. As mentioned previously, due to the presence of numerous ad bots in the game, this system cannot be removed and will continue to be improved.\n\nWe apologize for any inconvenience caused and appreciate your understanding.",
+      "created_at": "2026-04-06T10:31:48.133000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1491061336426156204,
+      "author_id": 795438872674172940,
+      "author_name": "achi_lla",
+      "content": "📢 **Update on Chat Restrictions**\n\nWe have recently enhanced our risk control system. As a result, there has been an increase in the number of players receiving 24-hour chat restrictions today.\n\nWe appreciate your understanding as we continue to improve the game environment.\n\nIf this occurs, please click the Support button on the login page to submit an appeal <#1481597747407753347> or you may contact our GMs:\n\n<@1457556708464529480> \n<@1483306224605724682> \n<@1451040521001898118> \n<@1489145330531434536>",
+      "created_at": "2026-04-07T13:05:25.184000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1491093570323611781,
+      "author_id": 1086792549915688980,
+      "author_name": "verratvonwindir",
+      "content": "Please can users continue to log what they think got them muted in https://discord.com/channels/1417476085179748507/1481461132857442304\n\nReally helpful to have a list of what words are problematic. Updated list:\n\nShenanigans\nKur\nTurkish words with \"fak\" in them...\nGM\nDitto\nMaincoone\nRacoon\nRaccoon\nMafia\nCATS\nCAM <- The CA part is censored\nFOOL\nGrape\nAnalysis\nGM\nADMIN\nAdmin\nAccumulate\nManagement\nshenanigans\nsinigang\nSCAR\nVirus\nVIRUS\nKu\nwww\nWWW\nHindu\nCatholic\n\nDevs are working to improve this where we can.  Please ensure you log a support ticket https://discord.com/channels/1417476085179748507/1481597747407753347\n\nPlease note - Generic greetings - \"Good Morning\", \"How are you\", and \"Nice to meet you\" are also, unfortunately, used by the bots a lot so you may get caught with this. Resort to slang I guess. <a:emoji_18:1479612912052998365> \n\nAgain - Do NOT \"test\" in world chat, do NOT test in alliance chat.  <a:emoji_43:1479627072493191399> Thanks",
+      "created_at": "2026-04-07T15:13:30.344000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1495978986612981931,
+      "author_id": 795438872674172940,
+      "author_name": "achi_lla",
+      "content": "📢 **Status Update: Elixir Scramble Second Round**\n\nDear Doctors,\n\nRegarding the abnormal issues that occurred on April 18th during the Elixir Scramble (Second Round.)\n\nDue to the large scope of the impact, the process of sending compensation is still ongoing.\n\nWe sincerely apologize for the inconvenience caused and appreciate your patience and understanding.",
+      "created_at": "2026-04-21T02:46:24.354000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1502553727251382452,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# 📢 Status Update: Server Lag Issue\nDear Doctors,\nWe sincerely apologize for the unexpected issue that has occurred in the game. Our development team is working tirelessly to fix the server lag issue and ensure the stability and smoothness of the game environment so that you can return to enjoying the game as soon as possible. Once again, we apologize for any inconvenience caused by this issue and we sincerely appreciate your ongoing support and understanding. \n\nPlease stay tuned for further updates regarding the progress of the repairs\nWe sincerely apologize for the inconvenience caused and appreciate your patience and understanding.\n@everyone",
+      "created_at": "2026-05-09T06:12:04.675000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1502654154693152882,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# 📢 Status Update: Server Lag Issue Now Fixed!\n\nWe are thrilled to inform you that after relentless efforts from our development team, the in-game system issue that previously occurred has been completely repaired. The game has now resumed normal operations!\n\nWe sincerely apologize for any inconvenience caused. As always, we will continue to work hard to ensure a stable game environment.\n\nAs a token of our appreciation for your continuous support, we will compensate you for your patience in the mail.\n\nIf you have any further questions or concerns while playing the game, please feel free to contact our customer service team. https://discord.com/channels/1417476085179748507/1481597747407753347\nWe are wholeheartedly committed to providing any assistance you require.\n\nOnce again, thank you for your understanding and support. We wish you a delightful time playing our game!\n@everyone",
+      "created_at": "2026-05-09T12:51:08.443000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1503322288215293993,
+      "author_id": 1086792549915688980,
+      "author_name": "verratvonwindir",
+      "content": "Status Update - Rewards from KVK 10/05/2026\n\nPlease be aware devs are aware of the issues with rewards not being deployed to players.  They are on with a fix and rewards will come in in-game mail.\n\nPlease ensure you are still reporting through the in-game ticket system when these crop up.\n\nThanks",
+      "created_at": "2026-05-11T09:06:03.888000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1510820259832139806,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "~~# 📢 Status Update: Top-up Center Avatar Frame BUG~~\n\n**Status Update: This bug has been fixed. You should now be able to obtain the avatar frame normally after topping up.**\n\nIn the past 24 hours, a bug has occurred with the top-up center avatar frame, causing some doctors to not receive the avatar frame after topping up. Our technical staff is working urgently to fix this issue. \n\nIf you encounter this problem, please contact customer service according to this guidehttps://discord.com/channels/1417476085179748507/1481597747407753347. We will resend the affected avatar frame to the affected doctors later.",
+      "created_at": "2026-06-01T01:40:19.627000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1512044335129038929,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# Urgent Security Notice\n\nGreetings, Doctors!\nWe are issuing this important security notice to ensure your gaming experience remains safe and enjoyable.\n\n⚠️ **Important Warning About Third‑Party Top‑Up Websites** ⚠️\nWe have recently received multiple reports from players who fell victim to scams. Some players have been promoting unofficial top‑up websites in‑game, using discounted prices to lure others into using them. Unfortunately, players who completed transactions on these unofficial sites did not receive the packages they paid for. These websites are all fraudulent and are neither authorized by nor affiliated with Last Asylum.\n\nTo protect your account and your investment, we strongly recommend using only our official and secure payment channels. All transactions made through our official website are 100% secure, and your purchased items are guaranteed to be delivered immediately.\n\n🎁 Want the Best Deals? Follow Our Official Channels!\nFor the latest official recharge promotions, discounts, and bonus events, please keep your eyes on our dedicated channel <#1485893423209910302> \n\n[Official top‑up website Link](https://pay.globallap.com/platform/officialTopupNew.html?gameId=440&srtl=3266.0.990680.0#/)\n\nYour security is our top priority. Thank you for being a valued member of our community. Let us work together to build a fair and secure environment for Last Asylum. Wishing you an enjoyable experience in the wasteland!\n\nThe Last Asylum Team\n@everyone",
+      "created_at": "2026-06-04T10:44:21.920000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1513379708836904981,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# 📢 Status Update: Arena display BUG and game lag\n\nDear Doctors,\nWe sincerely apologize for the unexpected issue that has occurred in the game. Our development team is working tirelessly to fix the server lag issue and ensure the stability and smoothness of the game environment so that you can return to enjoying the game as soon as possible. Once again, we apologize for any inconvenience caused by this issue and we sincerely appreciate your ongoing support and understanding. \n\nPlease stay tuned for further updates regarding the progress of the repairs\nWe sincerely apologize for the inconvenience caused and appreciate your patience and understanding.",
+      "created_at": "2026-06-08T03:10:39.822000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1513462691459629076,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# 📢 Status Update: Arena display BUG and game lag Now Fixed!\n\nWe are thrilled to inform you that after relentless efforts from our development team, the in-game system issue that previously occurred has been completely repaired. The game has now resumed normal operations!\n\nWe sincerely apologize for any inconvenience caused. As always, we will continue to work hard to ensure a stable game environment.\n\nAs a token of our appreciation for your continuous support, we will compensate you for your patience in the mail.\n\nIf you have any further questions or concerns while playing the game, please feel free to contact our customer service team. https://discord.com/channels/1417476085179748507/1481597747407753347\nWe are wholeheartedly committed to providing any assistance you require.\n\nOnce again, thank you for your understanding and support. We wish you a delightful time playing our game!",
+      "created_at": "2026-06-08T08:40:24.421000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1514807224801693859,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# 📢 Status Update: Google Play Games Login Issue\n\nDear Doctors,\n\nWe are aware that some players are currently experiencing a 403 error when attempting to sign in with Google Play Games. Our development team is actively investigating the cause and working on a fix to restore normal login access as soon as possible.\n\nWe sincerely apologize for the inconvenience and appreciate your patience while we resolve this issue. Please stay tuned for further updates on the repair progress.\n\nYou also can contact our CS to deal with this problem: service@playplanetgame.com\n\nThank you for your continued support and understanding\n@everyone",
+      "created_at": "2026-06-12T01:43:06.150000+00:00",
+      "embeds": [],
+      "attachments": [
+        {
+          "filename": "image.png",
+          "url": "https://cdn.discordapp.com/attachments/1481179211581489162/1514807224487247975/image.png?ex=6a98d0aa&is=6a977f2a&hm=9499b42412536d80c319fb931149fe67bf0856befa06765a07db3fbf49153fa8&"
+        }
+      ]
+    },
+    {
+      "id": 1514826156833112165,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# 📢 Bug Report: Alliance Duel Daily Victory Reward Issue\n\nDear Doctors,\n\nWe have received reports from some players that personal scores in yesterday's Alliance Duel exceeded 180,000, but the reward email incorrectly states that the score did not reach the 180,000 threshold, making the daily victory reward unclaimable.\n\nOur development team is urgently investigating the cause of this scoring discrepancy. Affected players' scores will be verified and rewards will be redistributed once the issue is confirmed and fixed.\n\nWe sincerely apologize for this error and the frustration it has caused. Thank you for your patience and for bringing this to our attention.\n\nPlease stay tuned for further updates.",
+      "created_at": "2026-06-12T02:58:19.898000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1514950787464171561,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "Update for Google Play Games Login Issue\nA temporary solution to this problem: You can try clicking \"cancel\" to skip it and then logging into the game.",
+      "created_at": "2026-06-12T11:13:34.156000+00:00",
+      "embeds": [],
+      "attachments": [
+        {
+          "filename": "image.png",
+          "url": "https://cdn.discordapp.com/attachments/1481179211581489162/1514950787376349184/image.png?ex=6a98ad9e&is=6a975c1e&hm=476ac46fcc9f19af3d69440bbadc3aa85de0ca665d3fba18f2b792e24900019a&"
+        }
+      ]
+    },
+    {
+      "id": 1514965292315578489,
+      "author_id": 1086792549915688980,
+      "author_name": "verratvonwindir",
+      "content": "Players who were waiting for the diamond frame from the event (buying from the shop) - Please ensure you check the online portal again. There should be a claim button for it.\n\nTo be clear - The frame will NOT auto-drop into your bag.\n\nhttps://s.octlib.com/s/6ry53z\n\nThanks loves.",
+      "created_at": "2026-06-12T12:11:12.382000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1519893723222249472,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# 🛡️ Help Us Improve the Moderation System\n\nHi Doctors! Lately, several players have mentioned they were muted or banned unexpectedly in the game. We take these reports seriously and want to make sure our automated systems aren't flagging innocent players.\n\nIf you've been muted/banned and believe it was a mistake, please share the following info with us so we can investigate:\n\n✅ Your Character Name / ID\n✅ Server number\n✅ Screenshot of the mute/ban message\n✅ Brief description of what you were doing when it happened\n\nYou can fill out this quick form: https://forms.gle/NAkm8J6mVKKshN4z5\n\nWe review every case carefully. Thanks for your patience and help! 🙏",
+      "created_at": "2026-06-26T02:35:01.876000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1522153922490404956,
+      "author_id": 1086792549915688980,
+      "author_name": "verratvonwindir",
+      "content": "",
+      "created_at": "2026-07-02T08:16:15.374000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1522153923404763227,
+      "author_id": 1086792549915688980,
+      "author_name": "verratvonwindir",
+      "content": "Reposting for newer players.",
+      "created_at": "2026-07-02T08:16:15.592000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1522160014339608707,
+      "author_id": 1086792549915688980,
+      "author_name": "verratvonwindir",
+      "content": "RE: Migration/Merging. <:emoji_112:1503757930615406663> \n\n\nJust want to confirm that there is NO set date for this to be introduced to the game. Any and all months that are floating around the servers are just rumours. Any information from Mods - At this point is just speculation.\n\nAs soon as anything is heard of via a dev roadmap update, provided we're able, we will advise if/when this will take place.\n\nCheers,\n\nFR/\nJe souhaite simplement confirmer qu'il n'y a AUCUNE date fixée pour l'introduction de cette fonctionnalité dans le jeu. Tous les mois ou dates qui circulent actuellement sur les serveurs ne sont que des rumeurs. Toute information provenant des modérateurs, à ce stade, n'est que de la spéculation.\n\nDès que nous aurons des nouvelles via une mise à jour de la feuille de route des développeurs, et dans la mesure où nous serons autorisés à les communiquer, nous vous informerons si et quand cela aura lieu.\n\nMerci,",
+      "created_at": "2026-07-02T08:40:27.784000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1523766011927597310,
+      "author_id": 143743076333125632,
+      "author_name": "best_tactics",
+      "content": "RE: Mute / Unmute.\nDiscord Moderators have no control over it. Wish we could help more.\nThe AI moderation is not great, we know. False flagging and muting players for regular words in other languages and so on....\nSaying \"good morning\", spamming messages, writing \"diamonds\" and other words that a bot usually says to scam you gets you falsely flagged.\nAlways change the words after getting flagged with \"illegal character\" message. Use ãççëñțș.\n\nStep 1: Submit a customer support ticket in game. Select the Mute / Unmute / Ban / Unban option. \nGuide [here](https://discord.com/channels/1417476085179748507/1453281703215894608) \nAsked for a screenshot ? Just add your Account setting picture. (Profile picture -> Account)\n\nStep 2: Check out this update and complete the [form ](https://discord.com/channels/1417476085179748507/1481179211581489162/1519893723222249472) mentioned in it to improve the AI moderation and let the Support team of your mute. \n\nStep 3: Help the rest of the community. If you think you know what was flagged as \"illegal character\" please help the team improve the AI moderation. See the message [here ](https://discord.com/channels/1417476085179748507/1481179211581489162/1522153922490404956) and keep logging the words in the [Censorship and Punishment](https://discord.com/channels/1417476085179748507/1481461132857442304) channel.\n\nStep 4: If you can't access in game customer service, due to being banned and can't access the game, please email **service@playplanetgame.com**\n\nStep 5: If everything else fails and it has been over 48 hours since you are muted. Please directly message one of the GM's of the game and ask for their help. Have one short precise message with your details and potential mute reason so they can potentially check when they have time. They have helped me in the past. List of GM's can be found [here](https://discord.com/channels/1417476085179748507/1417476086178123929/1485568062366158948).\n\nThank you for your attention and understanding.",
+      "created_at": "2026-07-06T19:02:07.447000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1524975002091524189,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# Beware the False Plague: Scam Alert & Account Restoration\nGreetings, Doctors.\nThe Asylum's walls protect many, but shadows still creep in. We've spotted a new threat spreading through our ranks. Read carefully, and share it with your fellow Doctors.\n\n🕯️ I. Beware Social Media Scammers\nRecently, scammers have been using Alliance Mail to invite Doctors to add their personal social media accounts (Discord or Telegram) as friends.\nOnce added, these fraudsters send private messages claiming the game is \"shutting down soon\" — a fabricated lie designed to:\nTrick you into revealing personal information\nLure you into clicking scam / advertisement links\nDo not trust private messages from unknown social accounts. The only source of truth is the official Last Asylum: Plague community. If you receive such a message, report it to Customer Service immediately.\n📍 In-game path: Settings → Help → Customer Service\n\n⚰️ II. Wrongfully Banned? We're Restoring Access\nIn our effort to purge the advertisement bots behind these scams, we banned a number of accounts. Unfortunately, some legitimate Doctors were caught in the purge and wrongfully banned.\nIf you were affected, here is how to recover your account:\n\n1️⃣ Method 1 — Through the In-Game Popup (Fastest)\nWhen the ban popup appears, click the \"Help\" button inside the prompt window to contact Customer Service directly. (See the customer service button in the attached screenshot.)\nOur team will need time to verify your account information — please be patient while we investigate.\n\n2️⃣ Method 2 — Google Form (Priority Queue for Wrongful Bans)\nWrongfully banned Doctors may also fill out this form, and we will prioritize your case:\n🔗 https://forms.gle/wUZHvXUYLQzUC6i9A\n\n🩻 Stay Vigilant, Doctors\nThe Asylum endures because of you. Keep your personal information safe, trust only official channels, and report anything suspicious. Together, we hold the line against the plague — and those who profit from it.\n\n The Last Asylum: Plague Team\n\n@everyone",
+      "created_at": "2026-07-10T03:06:13.164000+00:00",
+      "embeds": [
+        {
+          "thumbnail": {
+            "url": "https://lh5.googleusercontent.com/B9EhM59--VY4gQ13_tFVgdr8MouOi2m_0Y3MKBtmgQoiK6r3VgAYnOBjmdSoUpwFUmTuJ8Yiy4Y5VJI=w1200-h630-p",
+            "proxy_url": "https://images-ext-1.discordapp.net/external/PgVzKtdINngM6RQNJ9PDclkFCc65CHjAlKYeAkyiSt0/https/lh5.googleusercontent.com/B9EhM59--VY4gQ13_tFVgdr8MouOi2m_0Y3MKBtmgQoiK6r3VgAYnOBjmdSoUpwFUmTuJ8Yiy4Y5VJI%3Dw1200-h630-p",
+            "width": 200,
+            "height": 200,
+            "content_type": "image/png",
+            "placeholder": "9QcODILTj2StRJeId3YJiMNzBw==",
+            "placeholder_version": 1,
+            "flags": 0
+          },
+          "provider": {
+            "name": "Google Docs"
+          },
+          "flags": 0,
+          "type": "link",
+          "description": "🛡️ Help Us Improve the Moderation System\n\nHi Doctors! Lately, several players have mentioned they were muted or banned unexpectedly. We take these reports seriously and want to make sure our automated systems aren't flagging innocent players.\n\nIf you've been muted/banned and believe it was a mistake, please share the following info with us ...",
+          "url": "https://forms.gle/wUZHvXUYLQzUC6i9A",
+          "title": "LAP False Ban Report Collection"
+        }
+      ],
+      "attachments": [
+        {
+          "filename": "image.png",
+          "url": "https://cdn.discordapp.com/attachments/1481179211581489162/1524975002468745216/image.png?ex=6a98e425&is=6a9792a5&hm=df47b71465d73441b1f819ce85daf6baa78e5829e39189cf1dea0f4135bf1145&"
+        }
+      ]
+    },
+    {
+      "id": 1526893667087024179,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "⚠️ Doctors, recently scammers have been impersonating official GMs in the community.\n\n🔍 Some players have already received private messages from fake GMs.\n🛡️ These scammers use various excuses to obtain personal information, induce transfers, and spread false rumors about the game to mislead everyone.\n📢 We take every Commander's account security and community environment very seriously, and are issuing this safety reminder.\n\n🛡️ How to identify official GMs:\n1️⃣ Official GMs will never pull you into a separate server or group.\n2️⃣ Official GMs will never proactively DM you asking for personal information or requesting transfers. They will also never privately disclose unreleased game content.\n3️⃣ Correct approach: You must proactively DM a staff member with the GM role in the community. Staff will only reply after verification.\n\n📍 How to find official GMs on Discord:\n📷 Please refer to the image guide below and only trust staff members with the official GM role badge.\n\n✅ If you encounter suspicious individuals spreading rumors or attempting to steal accounts, feel free to screenshot and submit to an official GM.\n\n@everyone",
+      "created_at": "2026-07-15T10:10:18.546000+00:00",
+      "embeds": [],
+      "attachments": [
+        {
+          "filename": "1.png",
+          "url": "https://cdn.discordapp.com/attachments/1481179211581489162/1526893666315145237/1.png?ex=6a99478a&is=6a97f60a&hm=6cb5ab3e7cee4a4a1554814534c541e5706e6e294d75be1b047c849a28bf0317&"
+        },
+        {
+          "filename": "2.png",
+          "url": "https://cdn.discordapp.com/attachments/1481179211581489162/1526893666734440528/2.png?ex=6a99478a&is=6a97f60a&hm=12da3bfb8dec8d5e812f75ad356c9f072b496cf3a9ffa33a3e16af43277b3b88&"
+        }
+      ]
+    },
+    {
+      "id": 1531203918007242792,
+      "author_id": 1086792549915688980,
+      "author_name": "verratvonwindir",
+      "content": "Please can users continue to log what they think got them muted in https://discord.com/channels/1417476085179748507/1481461132857442304\n\nReally helpful to have a list of what words are problematic. Updated list:\n\ncoronavirus\nShenanigans\nPetits\nFalcon Chest\nPutin\nAnalysis\nCave\nKudos\nKontakt\nKurs\nKU\nDev Notes\ndrugi\nzrobiłBYM\nChinchilla\nEbay\nEconomy\nFinancial\nDiamonds\nGMT\npasteur\nCA\nDocuments\nManagement\nAccumulate\nSaltwater\nHuevo\nGrapes\nCatholics\nVirus\nMaincoone\nDitto\nMafia\nCATS\nCAM\nFOOL\nsinigang\nSCAR\nwww\nWWW\nHindu\npetits\n트럼프\n푸틴\n연구개발\n가슴이 아프다\ndoing fairly well, jus a bit chilly an you - ended up as \"doing fairly well, jus a * illy an you?  - Common bot question. \"And You\"\nbacon cheeseburger\nCaravan\nassassin\nfreakin'\nfrigging\nfriggin'\nBeen catching up on chat. All the best to you for your recovery @[player name] \nsurvival battle\nsb\nHello Its nice to meet you\nHello would you like to join [insert clan]? We are an active and friendly alliance  - Common bot question.\ninstagram\nTherapeut\nKuchen\nKutscher\nCuma\nCumartesi\ngringo\ndisillusioned\nPandemie\nloser\ndevil\nhitler\nCapybara on shopee\n\"I would\npoketwatches\n코로나\n쫒\n변태\n쫒아\n망가\nhow long have you been playing the game? - Common bot question.\nHow's\nmentioning the Scunthorpe Problem\nCoffee\nTea\nI'm from the UK - Likely \"I'm from\" being flagged a bot action.\nsmartwatch\n\n\nDevs are working to improve this where we can.  Muted doctors please follow this status guide to unban - https://discord.com/channels/1417476085179748507/1481179211581489162/1524975002091524189\n\nPlease note - Generic greetings - \"Good Morning\", \"How are you\", and \"Nice to meet you\" are also, unfortunately, used by the bots a lot so you may get caught with this. Resort to slang I guess. <a:emoji_18:1479612912052998365> \n\nAgain - Do NOT \"test\" in world chat, do NOT test in alliance chat.  <a:emoji_43:1479627072493191399> Thanks",
+      "created_at": "2026-07-27T07:37:42.446000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1534480890661568583,
+      "author_id": 1086792549915688980,
+      "author_name": "verratvonwindir",
+      "content": "PACK PURCHASE ISSUES\n\nWe've been made aware that some players who are purchasing packs are not getting items delivered in the last 1-2 days.  Please can you ensure you:\n\nTake screenshots if possible of your receipts, get you UID, user and server and log an in-game ticket. Please advise if you purchases in-game or via the shop.\n\nIf this is not possible, please email global.support@37games.com\n\nAnd if you cannot get anywhere with the above, please contact a GM from this discord.\n\nPlease do NOT post your player information in this discord.\n\nFR/ Nous avons été informés que certains joueurs ayant acheté des packs n'ont pas reçu les objets correspondants au cours des un ou deux derniers jours. Veuillez procéder comme suit :\n\nPrenez des captures d'écran de vos reçus (si possible), notez votre UID, votre nom d'utilisateur ainsi que votre serveur, puis soumettez un ticket d'assistance en jeu. Veuillez préciser si vous avez effectué vos achats en jeu ou via la boutique.\n\nSi cela n'est pas possible, veuillez envoyer un e-mail à global.support@37games.com.\n\nSi aucune de ces démarches ne vous permet de résoudre le problème, veuillez contacter un GM sur ce serveur Discord.\n\nMerci de NE PAS publier vos informations de joueur sur ce serveur Discord.\n\nGR/\nWir wurden darüber informiert, dass einige Spieler, die Pakete gekauft haben, die entsprechenden Gegenstände in den letzten ein bis zwei Tagen nicht erhalten haben. Bitte gehen Sie wie folgt vor:\n\nErstellen Sie Screenshots Ihrer Kaufbelege (falls möglich), notieren Sie Ihre UID, Ihren Benutzernamen sowie Ihren Server und reichen Sie anschließend ein Support-Ticket im Spiel ein. Bitte teilen Sie uns mit, ob Sie den Kauf im Spiel oder über den Shop getätigt haben.\n\nSollte dies nicht möglich sein, senden Sie bitte eine E-Mail an global.support@37games.com.\n\nFalls keiner dieser Schritte das Problem löst, wenden Sie sich bitte an einen GM auf diesem Discord-Server.\n\nBitte posten Sie Ihre Spielerdaten NICHT auf diesem Discord-Server.",
+      "created_at": "2026-08-05T08:39:13.610000+00:00",
+      "embeds": [],
+      "attachments": [
+        {
+          "filename": "image.png",
+          "url": "https://cdn.discordapp.com/attachments/1481179211581489162/1534480889944473681/image.png?ex=6a993231&is=6a97e0b1&hm=189d27a6de8981b3781ae4e1c5ca776a13d2111970d8bc8ebc8ea45610cfc96b&"
+        }
+      ]
+    },
+    {
+      "id": 1534874195287212092,
+      "author_id": 1086792549915688980,
+      "author_name": "verratvonwindir",
+      "content": "❣️<a:emoji_17:1479612886967128135> RE: Display Issues - ANDROID ONLY <a:emoji_17:1479612886967128135> ❣️ \n\nPlease can players who have had a navigation/screen issue on Android provide a screenshot, their phone model and system version.\n\nCan you also advise server number please.  I've opened this post in suggestions to collect.\n\nThis will assist in the recent display bugs which devs are hoping to fix. <:ohno:1482707520396202085> \n\nCheers\n\nhttps://discord.com/channels/1417476085179748507/1534873684651540531",
+      "created_at": "2026-08-06T10:42:04.740000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1534877770742497302,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "@everyone If doctors encounter similar problems, please provide your phone model and role information here. ⏫",
+      "created_at": "2026-08-06T10:56:17.195000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1536212427841085570,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "~~# Important Notice: Apology for Game Exception~~\n***Update: The Dev team has fixed the Alliance Duel bugs. Players can now see all Alliance Duel features and scores normally.***\n\nGreetings, doctors,\n\nWe sincerely apologize for the **alliance duel bugs** that has occurred in the game. Our development team is working tirelessly to fix these problems and ensure the stability and smoothness of the game environment so that you can return to enjoying the game as soon as possible. \n\nSome functions have been fixed. Doctors can try logging in again to check the alliance duel. Some functions are still under repair.\n\nOnce again, we apologize for any inconvenience caused by this issue and we sincerely appreciate your ongoing support and understanding. Please stay tuned for further updates regarding the progress of the repairs.\n\nThank you for your understanding and support.",
+      "created_at": "2026-08-10T03:19:44.244000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1539124394058584114,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# Important Notice: Apology for Survey Reward Issue\n\nUpdate: Our team is currently investigating the reward distribution problem and preparing to reissue the survey rewards to all affected doctors.\n\nGreetings, doctors,\n\nWe sincerely apologize for the survey reward issue that occurred during the recent pirate event feedback survey. Some doctors who completed the survey about the pirate event did not receive the rewards they were supposed to receive.\n\nOur operations and development teams are preparing to reissue the survey rewards to all doctors who have completed the feedback survey. We are working to ensure that every eligible doctor receives what they earned.\n\nOnce again, we apologize for any inconvenience caused by this issue and we sincerely appreciate your ongoing support and understanding. Please stay tuned for further updates regarding the reward reissue.\n\nThank you for your understanding and support.",
+      "created_at": "2026-08-18T04:10:51.092000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1541641294902730795,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "",
+      "created_at": "2026-08-25T02:52:07.015000+00:00",
+      "embeds": [],
+      "attachments": []
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import PlunderCalculator from '../../components/PlunderCalculator.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+<Base lang={lang} path="/de/economy/" title="Wirtschaft: Diamanten, Shops, Plündern" description="Wohin jeder Diamant geht: VIP-Shop-Prioritäten, der Auffrischungsplan, Kaufreihenfolgen pro Shop, Wünschelrad-Budgets und die kompletten Plünder-Mechaniken mit Tageslimits nach Heiligtum-Stufe.">
+  <GuidePage title="Wirtschaft: Diamanten, Shops, Plündern" description="Wohin jeder Diamant geht: VIP-Shop-Prioritäten, der Auffrischungsplan, Kaufreihenfolgen pro Shop, Wünschelrad-Budgets und die kompletten Plünder-Mechaniken mit Tageslimits nach Heiligtum-Stufe." lang={lang}>
+    <p>Last Asylum: Plague betreibt drei parallele Wirtschaften: Diamanten und Shops, tägliches Plündern und den Event-Kalender. Jede hat eigene Fallen — schlechte Diamanten-Käufe, verschwendete Plünder-Kapazität, bei 5% Effizienz ausgegebene Ausdauer. Diese Seite ist der Community-Konsens zu allen dreien, mit den exakten Zahlen.</p>
+
+    <h2 id="vip-shop">VIP-Shop: Diamant-Prioritäten</h2>
+    <p>Der VIP-Shop nimmt Diamanten, und der Großteil seines Sortiments ist ein schlechter Deal. Die verifizierte Kaufliste:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Priorität</th><th>Items</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>HOCH</td><td>UR-Omnifragment, UR-Antidot, Krähen-Essenz, 8h-Beschleunigung</td></tr>
+        <tr><td>MITTEL</td><td>3h-Beschleunigung, SSR-Omnifragment, 1h-Beschleunigung</td></tr>
+        <tr><td>NIEDRIG</td><td>SSR-Antidote, Direkte-Umsiedlung</td></tr>
+      </tbody>
+    </table>
+    <p>Und die volle Regel: <strong>alles andere meiden außer in extremer Not.</strong> Der Shop ist darauf getarift, ungeduldige Spieler zu verleiten, Diamanten in Dinge umzuwandeln, die das Spiel über Events verschenkt — halte die Linie.</p>
+
+    <h2 id="restock-schedule">Shop-Auffrischungsplan</h2>
+    <p>Alle Shops frischen am Montag auf. Plane deine Woche drum herum: Kaufe deine Prioritäten am Montag, wenn die Regale voll sind, fahre Mitte der Woche dein Allianz-Duell- und Expeditions-Einkommen, und verbringe das Wochenende damit zu entscheiden, was dir die Montag-Erneuerung schuldet. Wer sonntags kauft, kauft ein leergepicktes Regal.</p>
+
+    <h2 id="sanctuary-shop">Heiligtum-Shop</h2>
+    <ol>
+      <li>Krähen-Essenz und UR-Helden-Omnifragmente — im Maximum kaufen.</li>
+      <li>Antidote und SSR-Omnifragmente.</li>
+      <li>Ausrüstungssteine und Rekrutierungs-Tickets.</li>
+      <li>Fähigkeits-Abzeichen und SR-Omnifragmente — nur mit Extra-Budget.</li>
+    </ol>
+
+    <h2 id="expedition-shop">Expeditions-Shop</h2>
+    <ol>
+      <li>UR-Omnifragmente und Essenzen.</li>
+      <li>Expeditionstruhe, Inschrift-Fragment und die UR-Inschrift-Truhe.</li>
+      <li>Antidote und Ausrüstungssteine.</li>
+      <li>Beschleunigungen, Tickets und die 100K-Krähen-Früchte — nur das Nötige.</li>
+    </ol>
+
+    <h2 id="honor-shop">Ehren-Shop</h2>
+    <ol>
+      <li>UR-Ausrüstungs-Blueprint, Essenz und UR-Omnifragmente.</li>
+      <li>Neugier-Truhen und UR-Inschriften.</li>
+      <li>Alles andere — nur bei dringendem Bedarf.</li>
+    </ol>
+    <p>Die kritische Regel speziell für Ehre: Ehre ist <strong>nur für Ausrüstungs-Blueprints</strong>. Es gibt hier keine Epigraph-Truhen — das ist kein Versäumnis zum Umgehen, so ist die Währung designt. Gib Ehre zuerst für UR-Blueprints aus und behandle den Rest als Füllmaterial.</p>
+
+    <h2 id="alliance-shop">Allianz-Shop</h2>
+    <ol>
+      <li>UR-Helden-Omnifragment, Krähen-Essenz und Direkte-Umsiedlung.</li>
+      <li>Krähen-Evolutionshandbuch, Schilde, SR-Inschrift-Truhe und Bella-Fragmente.</li>
+      <li>Optional: alle Beschleunigungen.</li>
+    </ol>
+
+    <h2 id="epigraph-chests">Epigraph-Truhen: die Ausnahme-Regel</h2>
+    <p>Kaufe Epigraph-Truhen in jedem Shop <strong>außer dem Ehren-Shop</strong>. Epigraphe füttern das Raben-System, und die UR-Epigraphe des Raben buffen nur eine Fraktion — in der Monofraktions-Meta machen das die Epigraph-Truhen zum konsistentesten Langzeit-Kauf im Spiel.</p>
+    <p>Das F2P-Epigraph-Einkommen ist real, wenn du dich dafür zeigst: 30 UR-Splitter pro Tag aus dem Allianz-Duell plus Selbstschmieden in der Epigraph-Werkstatt summieren sich auf rund 1,5 UR-Epigraphe pro Monat. Das komplette System — Werkstatt-Stufen, Beförderungsreihenfolge und Seltenheits-Regeln — ist im <a href="/de/raven/">Raben-Guide</a> abgedeckt.</p>
+
+    <h2 id="diamond-rules">Diamant-Regeln: Räder, Banner und Meilensteine</h2>
+    <ol>
+      <li><strong>Spare bis Tag 8</strong> für das Cynthia-Wünschelrad — sie kostet rund 11.500 Diamanten. Nur 10x ziehen; Einzelzüge zahlen dieselben Chancen zu schlechterem Preis.</li>
+      <li><strong>Nach Tag 15 für Jokers Rad sparen</strong> — das UR-PvP-Finisher-Event. Die Mittel-Spiel-Diamanten-Reserve existiert dafür.</li>
+      <li><strong>Nie Diamanten in Standard-Rekrutierung kippen.</strong> Warte auf Rate-Up-Banner — dieselbe Währung, bessere Helden.</li>
+      <li><strong>Kumulative Diamant-Ausgaben-Meilensteine nicht jagen</strong> wie die Gabe der Tiefsee. Diamanten nur auszugeben, um eine Belohnungsschwelle zu überschreiten, heißt, den Meilenstein zu kaufen, nicht den Wert.</li>
+    </ol>
+    <h3 id="best-packs">Beste Packs ($20-200-Bereich)</h3>
+    <p>Wenn du überhaupt ausgibst, wählt die Community drei Packs im $20-200-Bereich: Universal-Beschleunigungs-Packs, Krähen-Essenz-Packs und Stadt-Level-Up-Packs. Und aus den Anfänger-Guides: Die $1-Marlena-Aufladung an Tag 66 bleibt der einzelne beste Kauf im Spiel zu jedem Preis.</p>
+
+    <h2 id="plunder-mechanics">Plündern: die kompletten Mechaniken</h2>
+    <p>Plünder-Einkommen wird durch ein Tageslimit gedeckelt, und das Limit skaliert mit deiner Heiligtum-Stufe. Die Schwellen zu kennen ändert, wann du für den Tag aufhörst anzugreifen.</p>
+    <PlunderCalculator lang={lang} />
+    <h3 id="how-the-limit-works">Wie das Limit funktioniert</h3>
+    <ul>
+      <li>Das Limit zählt Korn, Holz und Kräuter, die aus Angriffen mit nach Hause genommen werden.</li>
+      <li>Unter dem Limit: du trägst Ressourcen mit <strong>100%</strong> Effizienz.</li>
+      <li>Ab dem 1x des Limits: die Effizienz fällt auf <strong>15%</strong>.</li>
+      <li>Ab 1.3x des Limits: die Effizienz fällt auf <strong>5%</strong> — das ist der Boden.</li>
+      <li>Das Limit resettet täglich um <strong>02:00 UTC</strong>.</li>
+      <li>Das gelbe Dreieck unter der Macht eines Ziels ist der Über-Limit-Indikator — prüfe ihn über Effekt-Übersicht, dann Plünder-Erträge.</li>
+    </ul>
+    <h3 id="plunder-limits-table">Tageslimits nach Heiligtum-Stufe</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Heiligtum</th><th>Tageslimit</th><th>Heiligtum</th><th>Tageslimit</th><th>Heiligtum</th><th>Tageslimit</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>10-12</td><td>2.5M</td><td>18</td><td>8M</td><td>24</td><td>18M</td></tr>
+        <tr><td>13</td><td>3M</td><td>19</td><td>9M</td><td>25</td><td>20M</td></tr>
+        <tr><td>14</td><td>4M</td><td>20</td><td>10M</td><td>26</td><td>22M</td></tr>
+        <tr><td>15</td><td>5M</td><td>21</td><td>12M</td><td>27</td><td>24M</td></tr>
+        <tr><td>16</td><td>6M</td><td>22</td><td>14M</td><td>28</td><td>26M</td></tr>
+        <tr><td>17</td><td>7M</td><td>23</td><td>16M</td><td>29 / 30</td><td>28M / 30M</td></tr>
+      </tbody>
+    </table>
+    <p>Das Muster: +1M pro Heiligtum-Stufe bis 20, dann +2M pro Stufe bis zur 30M-Grenze bei Heiligtum 30. Zwei mechanische Anmerkungen:</p>
+    <ul>
+      <li>Ein Heiligtum-Upgrade erhöht dein Limit <strong>sofort</strong> — kein Reset-Warten. Wenn du nah am Tages-Cap bist und eine Heiligtum-Stufe nah ist, mach die zuerst und plündere danach.</li>
+      <li>Die Fähigkeit Kriegsvorrat aus dem Legionärs-Kommandant-Spezialistenbaum (Ära der Wiedergeburt) erhöht den Cap um +6 / +14 / +24 / +36 / +50% auf Fähigkeitsstufen 1-5. Siehe den <a href="/de/era/">Ära-Guide</a>.</li>
+    </ul>
+
+    <h2 id="nine-hit-rule">Die Neun-Schläge-Regel</h2>
+    <p>Greife nie dieselbe Farm mehr als neunmal hintereinander an. Der zehnte Schlag zerstört die Stadt komplett und teleportiert ihren Besitzer weg — du verlierst die Farm, und der Spieler verliert seine Stadt. Neun Schläge sind die Decke; die Community behandelt das als Pflicht, nicht als Vorschlag.</p>
+
+    <h2 id="stamina-math">Ausdauer-Mathematik: warum Über-Limit-Plündern scheitert</h2>
+    <p>Ausdauer für Über-Limit-Plünder auszugeben ist einer der schlechtesten Deals im Spiel:</p>
+    <ul>
+      <li>Bei 15% Effizienz verdient jeder Ausdauer-Punkt rund <strong>7x weniger</strong> als normal.</li>
+      <li>Bei 5% Effizienz rund <strong>20x weniger</strong>.</li>
+      <li>Dieselbe Ausdauer in Monstern verdient <strong>vollen Wert, unabhängig</strong> von deinem Plünder-Status.</li>
+    </ul>
+    <p>Der Tagesrhythmus schreibt sich also von selbst: schlag zuerst die reichsten Ziele, die du schlägst, solange du bei 100% bist, hör mit Farmen auf, sobald du das Limit überschreitest, und kippe den Rest deiner Ausdauer in Monster. Und in deinem Plünder-Fenster immer das reichste Ziel zuerst — das Limit kommt sowieso, also fülle es mit den größten verfügbaren Zahlen.</p>
+
+    <h2 id="caravans-covert-ops">Karawanen und Verdeckte Operationen: immer beide fahren</h2>
+    <p>Karawanen und Verdeckte Operationen sind vom Plündern getrennte Systeme und weichen allen Beschränkungen oben aus: kein Plünder-Limit, kein realer Truppenverlust, keine Ausdauer-Kosten. Purer Vorteil, deshalb lautet die Community-Regel: beide jeden einzelnen Tag fahren.</p>
+    <ul>
+      <li><strong>Karawanen</strong> — dein automatisiertes Handels-Einkommen. Halte sie in Bewegung.</li>
+      <li><strong>Verdeckte Operationen</strong> — du kannst pro Tag bis zu 5 Verdeckte Operationen anderer Spieler plündern. Goldene zahlen die besten Belohnungen — schnapp dir immer eine goldene, wenn du eine siehst.</li>
+    </ul>
+
+    <VideoSection topic="economy" lang={lang} />
+  </GuidePage>
+</Base>

@@ -1,0 +1,60 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ja';
+---
+<Base lang={lang} path="/ja/events/arena/" title="Triangle Arena：防衛と攻撃" description="3編成を設置し攻撃側は2つを制圧：均等防衛の原則、犠牲マッチアップルール、相性ベースの攻撃、陣営ボーナス、そしてURシャードを獲るArena of Fateの罠部隊戦術。">
+  <GuidePage title="Triangle Arena：防衛と攻撃" description="3編成を設置し攻撃側は2つを制圧：均等防衛の原則、犠牲マッチアップルール、相性ベースの攻撃、陣営ボーナス、そしてURシャードを獲るArena of Fateの罠部隊戦術。" lang={lang}>
+    <p>Triangle Arena は3対3のフォーメーション決闘です：<strong>3つの防衛編成</strong>を設置し、攻撃者は<strong>どの編成と戦うかを選び</strong>、あなたに勝つには<strong>3戦中2勝</strong>が必要です。何より先にイベント全体を形づくるルール：<strong>攻撃者はあなたの設置を見ています</strong>。このゲームの防衛は無敵でいることではなく、読まれないことです。</p>
+    <p>このガイドでは、防衛の原則、攻撃のための犠牲マッチアップルール、相性マッチアップ、陣営ボーナス、そしてArena of Fateの罠部隊戦術を解説します。</p>
+
+    <h2 id="format">フォーマットと、それが意味するもの</h2>
+    <ul>
+      <li>防衛側は<strong>3編成</strong>を設置。攻撃側は戦う順番を選び、<strong>3戦中2勝</strong>が必要。</li>
+      <li><strong>攻撃者はあなたの3チームすべてを見られる</strong> — これが攻撃側の利点であり、以下のすべての防衛ルールはこれを鈍らせるために存在します。</li>
+    </ul>
+    <blockquote>強いプレイヤーに勝つのを止めることはできない。弱いプレイヤーに漁られるのを止めることはできる。</blockquote>
+
+    <h2 id="defense-principles">防衛：3つを均等に保つ</h2>
+    <p>最も多い防衛ミスは、最高のヒーローを1つの編成に詰め込むこと。攻撃者は単純に<strong>強いチームを避けて他の2つを倒します</strong> — 最良の部隊が一度も戦わないまま2-1で負けます。ルール：</p>
+    <ul>
+      <li><strong>3編成を均等に。</strong> 戦力を分散させ、盤面に「無料の勝ち」を作らない。</li>
+      <li><strong>各チームの前衛には3人のベストタンクの1人</strong> — 良い前衛こそが平均的な編成を「倒しづらい」ものにします。</li>
+      <li><strong>弱いチームに強いヒーローを</strong> — 最良の枠ではなく最悪の枠を支える。</li>
+      <li><strong>前衛の後ろに2人目のタンク</strong> — 最初の壁の奥の厚みがすべての戦闘を引き延ばします。</li>
+      <li><strong>戦力(CP)がすべてではない</strong> — 編成と相性が勝負を決める。CPの数字ではなく試行錯誤で調整を。</li>
+      <li><strong>誰が勝ち負けしたかを監視</strong> — 防衛ログは無料の調整データ。ズレが出たら再バランス。</li>
+    </ul>
+    <p>均等防衛が実際に買うもの：強いプレイヤーは止められませんが、<strong>弱いプレイヤーが順位を下げるのを防げます</strong> — 順位防衛こそシーズン報酬のある場所です。</p>
+
+    <h2 id="sacrifice-rule">犠牲マッチアップルール</h2>
+    <p>攻撃を勝たせるマッチアップの原則：</p>
+    <blockquote>積まれた防衛には、最悪の部隊を相手のベストにぶつける — 残り2つは楽に勝つ。</blockquote>
+    <p>相手の盤面を読み、勝てない編成を1つ見つけ、<strong>意図的に明け渡す</strong>。犠牲部隊は相手の化け物に負けるために存在し、あなたの2つの優秀な部隊が勝てる2戦を取ります。順番を選ぶのは攻撃者 — 最良の部隊を相手のベストに浪費しないこと。</p>
+
+    <h2 id="attack-rules">攻撃：相性と陣営ボーナス</h2>
+    <ul>
+      <li><strong>ベスト10人は上位2チーム間で自由に交換可能。</strong> 2つの勝ちを作ること。どうせ負ける3戦目のために取っておかない。</li>
+      <li><strong>相性マッチアップが勝負を決める:</strong> 自分のRangerを相手のranger/warrior編成に。自分のWarriorを相手のwarrior/warlock編成に。</li>
+      <li><strong>相手の最強編成を避ける</strong> — 上の犠牲ルール。勝てるものだけを戦わせる。</li>
+      <li><strong>陣営ボーナスが鍵</strong> — そして<strong>相手の防衛が見える</strong>ので、キューに入れる前にカウンターの陣営ボーナスを事前構築できます。防衛側は調整できない。あなたはできる。</li>
+    </ul>
+    <p>ヒーロー別のカウンターピックは<a href="/ja/heroes/">ヒーローガイド</a>にあります。</p>
+
+    <h2 id="results">実際に得られる結果</h2>
+    <p>このシステムを回しているプレイヤーの検証済みの結果：<strong>250位超から、中堅ロスターで一貫したトップ20/40/100入り</strong>。アリーナは課金戦力より一貫性に報酬を払います — 読めるアカウントは毎日弱いレーンを見た攻撃者に順位を吸われ、均等で監視されたアカウントは順位を保ちます。</p>
+
+    <h2 id="arena-of-fate">Arena of Fate:罠部隊戦略</h2>
+    <ul>
+      <li>特別アリーナ版は同じ2-of-3形式で走ります — そして<strong>「罠部隊(Trap Squad)」</strong>戦術は攻撃者の可視性の利点を逆手に取ります：バランスよく見えて実力以上に打つ、おびき寄せ編成。</li>
+      <li>うまくいけば<strong>URシャードを含む高ティア報酬</strong>を獲れます — PvPコンテンツにおける稀有な無料URソース。</li>
+      <li><strong>既知のバグ:新サーバーで一部プレイヤーが未ランクのままスタック</strong> — Fateシーズンで順位が一向に表示されないなら、それはあなたのプレイではなくバグです。報告して待ちましょう。</li>
+    </ul>
+
+    <VideoSection topic="arena" lang={lang} />
+  </GuidePage>
+</Base>

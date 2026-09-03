@@ -1,0 +1,224 @@
+﻿---
+import { languages, langNames, type Lang } from '../i18n/utils';
+import { t } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+  path: string;
+}
+
+const { lang, path } = Astro.props;
+
+const navItems: { key: any; href: string }[] = [
+  { key: 'nav.beginners', href: 'beginners' },
+  { key: 'nav.buildings', href: 'buildings' },
+  { key: 'nav.heroes', href: 'heroes' },
+  { key: 'nav.economy', href: 'economy' },
+  { key: 'nav.raven', href: 'raven' },
+  { key: 'nav.era', href: 'era' },
+  { key: 'nav.events', href: 'events' },
+  { key: 'nav.codes', href: 'codes' },
+  { key: 'nav.gear', href: 'gear' },
+  { key: 'nav.faq', href: 'faq' },
+];
+
+// hreflang pairs: build the same page path across all languages
+const cleanPath = path.replace(/^\/(en|ru|es|pt|fr|de|id|ko|ja)?\/?/, '/');
+const langHrefs = languages.map((l) => ({
+  lang: l,
+  href: l === 'en' ? (cleanPath === '/' ? '/' : cleanPath) : `/${l}${cleanPath === '/' ? '/' : cleanPath}`,
+}));
+
+const base = lang === 'en' ? '' : `/${lang}`;
+---
+
+<header class="sticky top-0 z-50 border-b border-stone-800 bg-stone-950/90 backdrop-blur">
+  <div class="mx-auto max-w-7xl px-4">
+    <div class="flex h-16 items-center justify-between gap-3">
+      <a href={`${base}/`} class="flex items-center gap-2 shrink-0">
+        <span class="text-2xl">☣️</span>
+        <span class="hidden md:block font-bold tracking-tight text-plague-200">LA: Plague Hub</span>
+      </a>
+
+      <nav class="hidden lg:flex items-center gap-1 text-sm">
+        {navItems.map((item) => (
+          <a
+            href={`${base}/${item.href}/`}
+            class="rounded-md px-3 py-2 text-stone-300 hover:bg-stone-800 hover:text-plague-200 transition-colors"
+          >
+            {t(lang, item.key)}
+          </a>
+        ))}
+      </nav>
+
+      <div class="flex items-center gap-2">
+        <button
+          id="search-open"
+          class="rounded-md border border-stone-700 px-3 py-2 text-sm text-stone-300 hover:bg-stone-800 transition-colors"
+          aria-label={t(lang, 'nav.search')}
+        >
+          🔍 <span class="hidden sm:inline">{t(lang, 'nav.search')}</span>
+        </button>
+
+        <div class="relative">
+          <button
+            id="lang-toggle"
+            class="rounded-md border border-stone-700 px-3 py-2 text-sm font-semibold text-stone-200 hover:bg-stone-800 transition-colors"
+            aria-label={t(lang, 'lang.label')}
+          >
+            🌐 <span class="hidden sm:inline">{langNames[lang]}</span>
+          </button>
+          <div
+            id="lang-menu"
+            class="absolute right-0 top-full mt-1 hidden w-40 overflow-hidden rounded-lg border border-stone-800 bg-stone-900 py-1 text-sm shadow-xl"
+          >
+            {langHrefs.map((l) => (
+              <a
+                href={l.href}
+                class:list={['block px-4 py-2 text-stone-300 hover:bg-stone-800 hover:text-plague-200', l.lang === lang && 'text-plague-300 font-semibold']}
+              >
+                {langNames[l.lang]}
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <a
+          href={`${base}/support/`}
+          class="rounded-md bg-plague-700 px-3 py-2 text-sm font-semibold text-plague-50 hover:bg-plague-600 transition-colors"
+        >
+          ❤ <span class="hidden sm:inline">{t(lang, 'nav.support')}</span>
+        </a>
+
+        <button
+          id="menu-toggle"
+          class="lg:hidden rounded-md border border-stone-700 px-3 py-2 text-stone-200"
+          aria-label="Menu"
+        >
+          ☰
+        </button>
+      </div>
+    </div>
+
+    <nav id="mobile-menu" class="hidden lg:hidden pb-4 text-sm">
+      {navItems.map((item) => (
+        <a
+          href={`${base}/${item.href}/`}
+          class="block rounded-md px-3 py-2 text-stone-300 hover:bg-stone-800 hover:text-plague-200"
+        >
+          {t(lang, item.key)}
+        </a>
+      ))}
+      <a href={`${base}/gear/`} class="block rounded-md px-3 py-2 text-stone-300 hover:bg-stone-800 hover:text-plague-200">
+        {t(lang, 'nav.gear')}
+      </a>
+      <a href={`${base}/faq/`} class="block rounded-md px-3 py-2 text-stone-300 hover:bg-stone-800 hover:text-plague-200">
+        {t(lang, 'nav.faq')}
+      </a>
+      <a href={`${base}/status/`} class="block rounded-md px-3 py-2 text-stone-300 hover:bg-stone-800 hover:text-plague-200">
+        Status
+      </a>
+      <a href={`${base}/patch-notes/`} class="block rounded-md px-3 py-2 text-stone-300 hover:bg-stone-800 hover:text-plague-200">
+        {t(lang, 'nav.patchnotes')}
+      </a>
+      <a href={`${base}/credits/`} class="block rounded-md px-3 py-2 text-stone-300 hover:bg-stone-800 hover:text-plague-200">
+        {t(lang, 'nav.credits')}
+      </a>
+    </nav>
+  </div>
+</header>
+
+<div
+  id="search-modal"
+  class="fixed inset-0 z-[60] hidden bg-black/70 backdrop-blur-sm"
+  role="dialog"
+  aria-modal="true"
+>
+  <div class="mx-auto mt-24 max-w-2xl px-4">
+    <div class="overflow-hidden rounded-xl border border-stone-700 bg-stone-900 shadow-2xl">
+      <div class="flex items-center gap-3 border-b border-stone-800 px-4 py-3">
+        <span class="text-xl">🔍</span>
+        <input
+          id="search-input"
+          type="search"
+          placeholder={t(lang, 'search.placeholder')}
+          class="w-full bg-transparent text-lg text-stone-100 outline-none placeholder:text-stone-500"
+          autocomplete="off"
+        />
+        <button id="search-close" class="rounded px-2 py-1 text-sm text-stone-400 hover:bg-stone-800">ESC</button>
+      </div>
+      <div id="search-results" class="max-h-[60vh] overflow-y-auto p-2 text-sm"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function initChrome() {
+    document.getElementById('menu-toggle')?.addEventListener('click', () => {
+      document.getElementById('mobile-menu')?.classList.toggle('hidden');
+    });
+
+    document.getElementById('lang-toggle')?.addEventListener('click', (e) => {
+      e.stopPropagation();
+      document.getElementById('lang-menu')?.classList.toggle('hidden');
+    });
+    document.addEventListener('click', () => {
+      document.getElementById('lang-menu')?.classList.add('hidden');
+    });
+
+    const modal = document.getElementById('search-modal');
+    const input = document.getElementById('search-input') as HTMLInputElement | null;
+    document.getElementById('search-open')?.addEventListener('click', async () => {
+      modal?.classList.remove('hidden');
+      input?.focus();
+      if (!(window as any).pagefind) {
+        try {
+          // dynamic runtime import — built by pagefind after astro build
+          const imp = new Function('u', 'return import(u)') as (u: string) => Promise<any>;
+          (window as any).pagefind = await imp('/pagefind/pagefind.js');
+        } catch {}
+      }
+    });
+    document.getElementById('search-close')?.addEventListener('click', () => {
+      modal?.classList.add('hidden');
+    });
+    modal?.addEventListener('click', (e) => {
+      if (e.target === modal) modal.classList.add('hidden');
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') modal?.classList.add('hidden');
+      if (e.key === '/' && (e.target as HTMLElement)?.tagName !== 'INPUT') {
+        e.preventDefault();
+        modal?.classList.remove('hidden');
+        input?.focus();
+      }
+    });
+
+    let debounce: ReturnType<typeof setTimeout>;
+    input?.addEventListener('input', () => {
+      clearTimeout(debounce);
+      debounce = setTimeout(async () => {
+        const pf = (window as any).pagefind;
+        const resultsEl = document.getElementById('search-results');
+        if (!resultsEl) return;
+        if (!pf || !input.value.trim()) {
+          resultsEl.innerHTML = '';
+          return;
+        }
+        const search = await pf.search(input.value);
+        const five = search.results.slice(0, 8);
+        const items = await Promise.all(five.map((r: any) => r.data()));
+        resultsEl.innerHTML = items
+          .map(
+            (d: any) =>
+              `<a href="${d.url}" class="block rounded-lg px-3 py-2.5 hover:bg-stone-800">
+                 <div class="font-semibold text-plague-200">${d.meta.title ?? d.url}</div>
+                 <div class="text-stone-400">${d.excerpt}</div>
+               </a>`
+          )
+          .join('');
+      }, 200);
+    });
+  }
+  initChrome();
+</script>

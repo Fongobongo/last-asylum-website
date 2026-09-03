@@ -1,0 +1,52 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { heroTiers, tierColors } from '../../data/tiers';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ja';
+const tiers: ('S' | 'A' | 'B' | 'C')[] = ['S', 'A', 'B', 'C'];
+---
+
+<Base lang={lang} path="/tier-list/" title="ヒーローティアリスト" description="Last Asylum: Plague のヒーローティアリスト — F2P・微課金進行に合わせた S/A/B/C ランク。">
+  <GuidePage
+    title="🏆 ヒーローティアリスト"
+    description="コミュニティ合意のランキング。典型的な F2P/微課金プレイヤーの進行パスを基準に重み付け。ティアの文脈が重要です:今日すでに持っている &apos;B&apos; ランクの SSRは、3ヶ月後に手に入る &apos;S&apos; ランクの UR より優れています。"
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/ja/' }, { label: 'ティアリスト' }]}
+  >
+    <p>公式 Discord の編成ガイド、ボス戦の分解、PvP スレッドから編集。ティアは<strong>アカウント全体の価値</strong>を反映します — 生のステータスではありません。</p>
+
+    {tiers.map((tier) => (
+      <section class="not-prose my-6">
+        <h3 class={`mb-3 inline-block rounded-lg border px-3 py-1 text-xl font-bold ${tierColors[tier]}`}>
+          {tier} ティア
+        </h3>
+        <div class="grid gap-3 sm:grid-cols-2">
+          {heroTiers.filter((h) => h.tier === tier).map((h) => (
+            <div class="rounded-lg border border-stone-800 bg-stone-900 p-4">
+              <div class="flex items-baseline justify-between gap-2">
+                <p class="font-bold text-plague-200">{h.name}</p>
+                <span class="text-xs text-stone-500">{h.rarity} · {h.faction} · {h.class}</span>
+              </div>
+              <p class="mt-1 text-sm text-stone-400">{h.note}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+    ))}
+
+    <h2 id="how-to-read">このリストの読み方</h2>
+    <ul>
+      <li><strong>S</strong> — 長期的なコア投資:真っ先に育て、永遠にキープ</li>
+      <li><strong>A</strong> — 強力なキャリーとイベントヒーロー:S コアが安定してから育てる価値あり</li>
+      <li><strong>B</strong> — 状況次第/低予算:S/A ロスターを育てている間、ボス編成、単一勢力部隊で有用</li>
+      <li><strong>C</strong> — ごく序盤の繋ぎのみ</li>
+    </ul>
+    <blockquote>単一勢力メタ:UR エピグラフは一つの勢力のみバフします。同勢力3ヒーロー = +5%、4 = +15%、5 = +20% HP/ATK/DEF。勢力相性:Warrior &gt; Warlock &gt; Ranger &gt; Warrior。</blockquote>
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

@@ -1,0 +1,126 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ja';
+
+const comparisons = [
+  {
+    slug: 'marlena-vs-zoya',
+    title: 'Marlena vs Zoya — どちらのURキャリー?',
+    verdict: '先にMarlena、Zoyaは後で',
+    points: [
+      ['入手性', 'ほぼ無料($1チャージ)、66日目に無料', '有料のみ(開始に10欠片)'],
+      ['ダメージ占有率', '単独で部隊ダメージの約85%', '最大のMarlenaと約50/50分割'],
+      ['ダメージタイプ', 'ビルドごとの物理/エナジー混合', 'エナジー旋風 — エナジーサポートが必要'],
+      ['シナジー', '定番構成で4倍バフ(Harperのアルティメット + Bell + Claireのパッシブ)', '物理Jesterとは重ならない'],
+      ['F2P結論', 'F2Pルート全体のメインキャリー', 'Zoyaが高星の場合のみClaireと交換'],
+    ],
+    video: 'XktNJ6u4sWo',
+  },
+  {
+    slug: 'cynthia-vs-marlena-f2p',
+    title: 'F2Pにおける Cynthia vs Marlena',
+    verdict: '$1を払う — 本当に無理ならCynthiaも機能する',
+    points: [
+      ['コスト', '約11,500ダイヤ(8日目のホイール)', '$1チャージ'],
+      ['序盤の戦力', '強力な序盤キャリー(レンジャーUR)', '遅咲き — 高星まで弱い'],
+      ['終盤', '陣営ボーナス5% + Harper/エピグラフシナジーを失う', '単一Warriorメタの中核'],
+      ['ホイールのタイミング', '1〜8日目はダイヤを貯める必要', 'ダイヤのコストなし'],
+      ['結論', '序盤のスパイクは可能だが終盤に失速', 'Cynthiaより普遍的に推奨'],
+    ],
+  },
+  {
+    slug: 'annie-vs-joker',
+    title: 'Annie vs Joker — どちらのウォーロックキャリー?',
+    verdict: '価値ならAnnie、PvPの花形ならJoker',
+    points: [
+      ['役割', '持続キャリー + 星8でのチーム価値', '処刑人 — HP最も低い敵を狙う'],
+      ['F2Pでの入手', 'ヒーローパス(コミュニティの選択)', '15日目以降のWishing Wheel'],
+      ['シナジー', 'エナジーサポートとペア', '物理 — Zoyaとはペアにならない'],
+      ['最適な場面', '長期戦、モンスターコンテンツ', 'Marlenaが削った後のPvPの掃討'],
+    ],
+    video: 'ekodq_Wh2_I',
+  },
+  {
+    slug: 'claire-vs-keep-ssr',
+    title: 'Claire SSR→UR — 今変換するか、待つか?',
+    verdict: '常に変換 — 問題はタイミングのみ',
+    points: [
+      ['個人ダメージ', '星9 UR ≈ 最大SSRの1.70倍; 星10 ≈ 2.20倍', '—'],
+      ['チームバフ', '星6で16% → 10%に低下(実損失は数%)', '—'],
+      ['低下のスキップ', '名誉の殿堂を貯蓄：Lv.60→星8、Lv.100→星9、Lv.160→即時星10', '—'],
+      ['PvP', '星8の上級Tenacity = ATK/HP/DEF +20% + CDR +10%', '—'],
+      ['コスト', '2倍価格でSSRシャード1,600個(星6→星10)', '—'],
+    ],
+    video: '-9Nysk8pcns',
+  },
+  {
+    slug: 'shadow-vs-lucius',
+    title: 'Shadow vs Lucius — 2番目のタンク',
+    verdict: '今は無料のLucius; ヒーローパスを買うならShadow',
+    points: [
+      ['コスト', 'ヒーローパス(有料)', '無料シャード'],
+      ['スケーリング', '星8/星10は星6より明らかに優秀', '安定したプレースホルダー'],
+      ['ルール', '購入した場合：一時的ヒーローとして扱う — 最大星8、スキル15〜20', 'Daskalを育てる間は自由に投入'],
+      ['終盤', 'Daskalが両方を置き換える', '—'],
+    ],
+  },
+];
+---
+
+<Base lang={lang} path="/compare/" title="ヒーロー比較" description="Marlena vs Zoya、Annie vs Joker、Claire変換のタイミング — コミュニティガイドの比較評決。">
+  <GuidePage
+    title="⚖️ ヒーロー比較"
+    description="プレイヤーが実際に交わす議論 — コミュニティガイドが正確な数字で決着させます。"
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/ja/' }, { label: '比較' }]}
+  >
+    {comparisons.map((c) => (
+      <section class="not-prose mb-10">
+        <h2 id={c.slug} class="mb-1 text-2xl font-bold text-plague-200">{c.title}</h2>
+        <p class="mb-4 text-sm font-semibold text-toxic-400">✓ {c.verdict}</p>
+        <div class="overflow-x-auto rounded-lg border border-stone-800">
+          <table class="w-full text-sm">
+            {c.points.map((row) => (
+              <tr class="border-t border-stone-800 first:border-t-0">
+                <td class="w-40 bg-stone-900 p-3 font-semibold text-plague-300">{row[0]}</td>
+                <td class="p-3 text-stone-300">{row[1]}</td>
+                <td class="p-3 text-stone-400">{row[2]}</td>
+              </tr>
+            ))}
+          </table>
+        </div>
+        {c.video && (
+          <div class="js-video-facade mt-4 max-w-md cursor-pointer" data-video-id={c.video} role="button" tabindex="0" aria-label="比較動画を再生">
+            <span class="block aspect-video overflow-hidden rounded-lg border border-stone-800">
+              <img src={`https://i.ytimg.com/vi/${c.video}/hqdefault.jpg`} alt="比較動画" loading="lazy" class="h-full w-full object-cover" />
+            </span>
+          </div>
+        )}
+      </section>
+    ))}
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>
+
+<script>
+  document.querySelectorAll('.js-video-facade').forEach((el) => {
+    el.addEventListener('click', () => {
+      const id = (el as HTMLElement).dataset.videoId;
+      if (!id) return;
+      const frame = document.createElement('iframe');
+      frame.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1`;
+      frame.title = 'Video';
+      frame.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      frame.allowFullscreen = true;
+      frame.className = 'aspect-video w-full max-w-md rounded-lg';
+      el.replaceWith(frame);
+    });
+  });
+</script>

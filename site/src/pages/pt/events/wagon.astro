@@ -1,0 +1,85 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'pt';
+---
+<Base lang={lang} path="/pt/events/wagon/" title="Guild Wagon e Caravanas" description="Corridas diárias grátis do vagão, as regras do Mestre do Vagão e do baú dos Guardas, atualizações do Vagão Dourado, a estratégia de fragmentos UR por caravana, saque entre servidores e a prioridade de caixas ouro-roxo-azul.">
+  <GuidePage title="Guild Wagon e Caravanas" description="Corridas diárias grátis do vagão, as regras do Mestre do Vagão e do baú dos Guardas, atualizações do Vagão Dourado, a estratégia de fragmentos UR por caravana, saque entre servidores e a prioridade de caixas ouro-roxo-azul." lang={lang}>
+    <p>Guild Wagon e as Caravanas são os eventos logísticos diários do jogo — e ambos são renda de <strong>risco zero, vigor zero</strong> que jogadores demais pulam. O vagão é um exercício de coordenação de 10 minutos; as caravanas são um farme permanente de fragmentos UR. Nenhum custa tropas ou perdas reais, então a regra da comunidade é simples: <strong>SEMPRE rode-os.</strong></p>
+    <p>Este guia cobre os papéis do vagão e suas regras de baú, o Vagão Dourado, a estratégia de caravanas e o saque entre servidores com a prioridade de caixas.</p>
+
+    <h2 id="guild-wagon-basics">Guild Wagon: a corrida diária grátis</h2>
+    <ul>
+      <li><strong>1 vagão grátis por aliança por dia</strong>, resetando por volta das <strong>11 AM KST</strong>.</li>
+      <li>Quando a tela de pagamento aparece, <strong>o grátis já foi usado</strong> — esse é o sinal de que a corrida diária grátis acabou para a aliança inteira.</li>
+      <li><strong>Existem corridas extras pagas — quase ninguém compra.</strong> Ignore o paywall.</li>
+      <li><strong>Níveis de Presente de Guilda sobem o nível do vagão</strong> — os presentes da loja que sobem o nível de presente também melhoram o que o vagão dropa. Dois motivos para cuidar do nível de presente.</li>
+    </ul>
+
+    <h2 id="wagon-master">Mestre do Vagão, Guardas e VIPs</h2>
+    <p>Os papéis:</p>
+    <ul>
+      <li>Um <strong>R4/R5 online nomeia um membro online como Mestre do Vagão</strong>.</li>
+      <li>O Mestre <strong>coleta tickets dos membros</strong> (alguns convertem sozinhos) para atualizar o pool — <strong>5 atualizações fazem um "Vagão Dourado".</strong></li>
+      <li><strong>Guardas E VIPs resgatam 2 baús.</strong> VIPs só vão de carona — ser VIP não é downgrade, os baús são idênticos.</li>
+      <li><strong>CP baixo? Escolha Guardas fortes para proteger o vagão.</strong> A segurança da corrida escala com a força dos guardas.</li>
+      <li><strong>Os Guardas precisam estar online.</strong> Coordene <strong>antes</strong> de começar a corrida, ou arrisque um saque indefeso — algumas guildas deliberadamente atrasam a nomeação do Mestre para rodar o vagão à noite, quando os guardas delas estão on.</li>
+    </ul>
+
+    <h2 id="chest-rules">As regras dos baús (o erro comum)</h2>
+    <blockquote>Os 2 baús são para os GUARDAS, não para o Mestre. O erro de vagão mais comum do jogo.</blockquote>
+    <p>A distribuição completa de recompensas:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Papel</th><th>Recompensa</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Guardas</td><td>2 baús cada</td></tr>
+        <tr><td>VIPs</td><td>2 baús cada (idênticos aos dos guardas — só vão de carona)</td></tr>
+        <tr><td>Passageiros</td><td>5 sorteios aleatórios + 1 baú de veículo cada</td></tr>
+        <tr><td>Mestre do Vagão</td><td>TODOS os itens de todos os 4 vagões</td></tr>
+      </tbody>
+    </table>
+    <p>Leia essa última linha duas vezes — <strong>o Mestre recebe TODOS os itens de todos os 4 vagões.</strong> A nomeação é um pagamento real, que é exatamente por que a confusão de baús persiste: os 2 baús dos guardas vêm por cima de uma divisão, não saem do pool do Mestre.</p>
+
+    <h2 id="caravans">Caravanas: a estratégia dos fragmentos UR</h2>
+    <p>As caravanas são o evento diário de caravanas que roda junto com o vagão:</p>
+    <ul>
+      <li>Decisões centrais: <strong>quais caravanas atacar, como configurar a caravana da sua aliança e maximizar as recompensas diárias.</strong></li>
+      <li><strong>Caravanas e Operações Secretas nunca contam para o limite de saque</strong> — elas são isentas do teto diário que rege incursões normais (veja a <a href="/pt/economy/">guia de Economia</a>).</li>
+      <li><strong>Sem perda real de tropas, sem custo de vigor.</strong> Risco zero, todo dia.</li>
+      <li><strong>SEMPRE rode-as.</strong> E lembre da guia de <a href="/pt/events/kvk/">KvK</a>: <strong>caravanas e Operações Secretas pontuam para KvK e Duelo de Alianças ao mesmo tempo</strong> — a mesma corrida paga duas vezes.</li>
+    </ul>
+
+    <h2 id="plundering-servers">Saqueando outros servidores</h2>
+    <p>A rota de caravanas entre servidores:</p>
+    <ol>
+      <li>Abra <strong>Comércio de Caravanas</strong> e confira o check verde <strong>"Excluir caravanas deste servidor"</strong> — isso filtra as caravanas do seu servidor e mostra as estrangeiras.</li>
+      <li>Vá em <strong>Caravana de Outros</strong>, toque numa caravana, e o <strong>botão de Saque teleporta você para aquele reino</strong>.</li>
+      <li>Feche o popup e você pode <strong>vagar por aquele reino livremente</strong> enquanto estiver lá.</li>
+    </ol>
+
+    <h2 id="box-priority">Prioridade de caixas: ouro, roxo, azul</h2>
+    <p>Quando você está encarando um mapa estrangeiro cheio de caravanas, a ordem de alvos é:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Cor da caixa</th><th>Valor</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>OURO</td><td>O mais alto — nível UR. Sempre o alvo.</td></tr>
+        <tr><td>Roxo</td><td>Muito bom — nível SSR. Alvo prioritário quando o ouro está fora de alcance.</td></tr>
+        <tr><td>Azul</td><td>Reserva — nível SR. Recheio quando o mapa está limpo.</td></tr>
+      </tbody>
+    </table>
+    <ul>
+      <li><strong>Confira a classificação de estrelas e as recompensas antes de atacar</strong> — a prévia mostra o que a caixa paga.</li>
+      <li><strong>Cor melhor + estrelas mais altas = recompensas melhores.</strong> Cor primeiro, estrelas como desempate.</li>
+    </ul>
+
+    <VideoSection topic="wagon" lang={lang} />
+  </GuidePage>
+</Base>

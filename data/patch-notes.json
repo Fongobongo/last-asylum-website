@@ -1,0 +1,266 @@
+{
+  "channel_name": "patch-notes",
+  "messages": [
+    {
+      "id": 1457270118584291424,
+      "author_id": 1450685468260696228,
+      "author_name": "lastasylum",
+      "content": "Greeting Doctors,\n\nTo provide you with a better gaming experience, we will be conducting a scheduled server maintenance today. During this time, the servers will be temporarily unavailable. \n\nMaintenance Schedule: **7:30-8:00 UTC-2, Jan 4th.**\n\nWe sincerely apologize for any inconvenience this may cause to your gaming experience.\n\nThank you for your understanding and support! \n\nLast Asylum Team\n@everyone",
+      "created_at": "2026-01-04T07:11:11.040000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1461250320805003501,
+      "author_id": 1450685468260696228,
+      "author_name": "lastasylum",
+      "content": "Dear Doctor\n\nWe will conduct a server update maintenance on UTC 2026/1/15 8:00 AM\n\nUpdate Notes:\n1. Optimized resources collection-related features\n2. Optimized Antitoxin production\n3. Optimized Speedup function, surplus caused by Quick Speed Up will now be returned accordingly.\n4. Improved same-server Alliance Duel experience\n5. Other optimizations and adjustments\n\nYou will be unable to log in during the maintenance. Thank you for your support and cooperation. Happy gaming!\n\nLast Asylum Team\n@everyone",
+      "created_at": "2026-01-15T06:47:05.198000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1463361307536523355,
+      "author_id": 1450685468260696228,
+      "author_name": "lastasylum",
+      "content": "Dear Doctor,\n\nWe will conduct a server update maintenance on January 21, 2026 at 8:00 AM (UTC).\n\nUpdate Notes:\n1. Optimized the Daily Quest system\n2. Improved the World Map gathering experience\n3. Added Cross-Server Caravan Trade, unlocked based on server age.\n4. Fixed multiple bugs\n\nYou will be unable to log in during the maintenance. Thank you for your patience and support. Happy gaming!\n\nLast Asylum Team\n@everyone",
+      "created_at": "2026-01-21T02:35:23.655000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1466013460943868044,
+      "author_id": 1450685468260696228,
+      "author_name": "lastasylum",
+      "content": "# Server Maintenance\n\nDear Doctor\n\nWe will conduct server maintenance on UTC 2026/1/29 08:00. The maintenance is expected to take 1.5 hours.\n\nMain updates include:\n1. Watchtower feature fix: resolved the issue of deploying heroes of non-corresponding faction;\n2. Cheese Trap Event optimization: two different options for starting time;\n3. Improved matching rules for various events;\n4. Enhanced city battle experience;\n5. Added rechargeable shield;\n6. Fixed several bugs.\n\nYou will be unable to log in during the maintenance. Thank you for your support and cooperation. Enjoy the game!\n\nLast Asylum Team\n@everyone",
+      "created_at": "2026-01-28T10:14:06.302000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1476155149784191108,
+      "author_id": 1450685468260696228,
+      "author_name": "lastasylum",
+      "content": "# Server Maintenance\n\nDear Doctor,\n\nWe will conduct server maintenance on **UTC 2026/2/26 07:00**. The maintenance is expected to take 1 hour.\n\nUpdate Note:\n1. Hero balance adjustments to better align performance with Might.\n2. Fixed several known bugs.\n\nYou will be unable to log in during the maintenance. Thank you for your support and cooperation. Enjoy the game.\n\nLast Asylum Team\n@everyone",
+      "created_at": "2026-02-25T09:53:33.345000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1478733910409220137,
+      "author_id": 1450685468260696228,
+      "author_name": "lastasylum",
+      "content": "# Server Maintenance Notice\n\nDear Doctor，\nWe will conduct server maintenance on UTC 2026/3/5 07:00. The maintenance is expected to take 1 hour.\n\nMain updates include:\n1. New Raven special effect gear:\nHeart of Wisdom, Feather of The Night, Sharp Beak reaching designated levels will activate the Night Raven Mask.\nTail of Wind, Attacker's Claw, Eye of Perception reaching designated levels will activate the Raven Feather Cloak.\n\n2. Optimized city building layout:\nWarrior Statue, Warlock Statue, Ranger Statue have been merged into an independent Temple building (countructable after the maintenance). A new Hall of Honor (countructable after the maintenance) has been added to display Heroes' honor levels.\nMerged Research Lab 1 and Research Lab 2, now both research queues enjoy optimal Speedup Buff. New functional buildings will be constructed on the vacated land.\n\n3. Optimized Research UI to improve experience (does not affect your current research progress or stats).\n\n4. Optimized Monthly Pass effects:\nImproved: Gathering Speedup 10% → 15%\nNewly added: Building Construction Speedup 5%\n\n5. Optimized layout in Bag to make it easier to find items.\n\n6. Hero balance adjustments for better performance and Might alignment.\n\n7. Fixed several known bugs.\n\nYou will be unable to log in during the maintenance, please wait patiently. Thank you for your support and cooperation. Enjoy the game!\n\nWelcome to share your feedbacks and suggestions about this update in https://discord.com/channels/1417476085179748507/1479009462944665624\n\nLast Asylum Team\n@everyone",
+      "created_at": "2026-03-04T12:40:37.789000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1481229609856008264,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# Server Maintenance Notice\n\nDear Doctors,\n\nWe will conduct server maintenance on UTC 2026/3/12 07:00. The maintenance is expected to last 1 hour.\n**Update: Maintenance time is expected to be extended by 1 hour.**\n\nMain updates include:\nI. New feature: Hunt Battle\nA large number of Monsters have appeared around the Sanctuary, rally alliance members to defeat them for rewards.\nPlease pay attention to the in-game announcement for the start time.\n\nII. Game Optimization:\n1. Content in alliance announcements can now be copied.\n2. Optimized Raven upgrade operation. You can press and hold the \"Feed\" and \"Upgrade\" buttons to turn on automation.\n3. You can now tap on quoted chat to jump to the original text.\n4. Optimized Covert Operation report sorting, placing the latest records at the top.\n5. Optimized the display of signs of wanted Caravans.\n6. Increased attack count rewards for Demon King Blight.\n7. Hero Skills balancing adjustments.\n8. Optimized damage calculation mode for each faction against the world Boss.\n\nIII. Issue Fixes:\n1. Fixed answer errors in the quiz event.\n2. Fixed the issue where the background might be lost in the Skin display window.\n3. Fixed the countdown error in the Friday Alliance Duel's raid pop-up.\n\nDuring this time, you will be unable to log in to the game, please be patient; thank you for your support and cooperation. Enjoy the game.\n\nWelcome to share your feedbacks and suggestions about this update in https://discord.com/channels/1417476085179748507/1481229334168473642\n\nLast Asylum Team\n@everyone",
+      "created_at": "2026-03-11T09:57:38.905000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1483772158764384316,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# Server Maintenance Notice\n\nDear Doctors,\nWe will conduct server maintenance on UTC 2026/3/19 07:00. Maintenance is expected to last 1.5 hours.\n\n⚔️ Optimizations and Adjustments:\n1. Optimized Caravan technologies to make them smoother.\n2. Performed a balance pass for Thief Hunt, Cheese Trap, and Wandering Blight.\n3. Improved Hero Ash's skill design.\n4. Optimized overall server performance.\n\n🔎 Fixes:\n1. Fixed missing display bug in Curio Hall Stats overview\n2. Fixed potential bug preventing cross-server Caravan refresh\n3. Fixed bug causing private chat to refresh repeatedly after Raid gameplay\n4. Fixed new concept bug in Alliance Duel matchmaking\n\nWelcome to share your feedbacks and suggestions about this update in https://discord.com/channels/1417476085179748507/1483772009023279154\n\nLast Asylum Team\n@everyone",
+      "created_at": "2026-03-18T10:20:49.803000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1484383750333923500,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "❤️ Dear doctors, we have launched a webpage for redeeming gift codes. Both iOS and Android players can use this webpage to redeem gift codes.\n\nPlease follow the instructions below to complete the gift code redemption process.\nWebsite: https://gevents.globallap.com/gamecode/index.html?gameId=440\n\n1) Log in to your account on the website (using your linked Facebook or Google account).\n2) Select the server and corresponding character.\n3) Enter the redemption code and confirm the redemption. <#1451055610626969640> \n\nThe above tutorials have been compiled in the FAQ https://discord.com/channels/1417476085179748507/1453210380401639525\n\n@everyone",
+      "created_at": "2026-03-20T02:51:04.596000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1486549156129542335,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# Server Maintenance Notice\n\nMaintenance Time: UTC 2026/3/26 07:00 - 08:30\n\nNew Feature:\n1. Kingdom War event, where doctors must complete Quests to earn Points and help their Kingdom achieve victory!\n2. Detailed Event rules can be found on Discord or the feature page.\n\nOptimizations and Adjustments:\n1. Optimized cross-server Caravan feature, the involved servers for the event will be displayed.\n2. New Curio Elixir obtainable via Expedition Chest (UR).\n\nFixes:\n1. Fixed Covert Operations bugs.\n2. Overall server performance optimization.\n\nThank you for your support and understanding. Enjoy the game!\n\nWelcome to share your feedbacks and suggestions about this update in https://discord.com/channels/1417476085179748507/1486548990106271854\n\nLast Asylum Team\n@everyone",
+      "created_at": "2026-03-26T02:15:37.569000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1488880810718396466,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# Server Maintenance Notice\n\nThis update will take place at 07:00 (UTC) on April 2, 2026 and is expected to last 1.5 hours.\n\n**Update: This update will last about half an hour longer than the original.**\n\nNew Content:\n1. Added Easter events.\n\nFixes:\n1. Fixed several known issues.\n\nFor full Easter event details, please check https://discord.com/channels/1417476085179748507/1451055410646614127/1488854737846665236 or view them in-game once the event goes live.\n\nLast Aslyum Team\n@everyone",
+      "created_at": "2026-04-01T12:40:47.343000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1491820283018088679,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# Server Maintenance Notice\n\nServer maintenance will take place on April 10 at 08:00 (UTC).\n\nNew Content:\n1. Added Crystal Cluster Valley, which will unlock based on server age.\n\nFixes:\n1. Fixed an issue where Covert Operation quests could disappear under certain conditions.\n2. Fixed several known issues.\n\nThank you for your support and understanding. Enjoy the game!\n\nLast Aslyum Team\n@everyone",
+      "created_at": "2026-04-09T15:21:12.152000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1493904490774925453,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# Server Maintenance Notice\n\nThis update will roll out at 07:00 on 2026/4/16 (UTC).\n\nNew Content:\n1. Added Epigraph for Raven, further enhancing Raven's power.\n\nFixes:\n1. Fixed an issue in Elixir Scramble where Heal Speedup could not be used in certain cases.\n2. Fixed several known bugs.\n\nFor the latest news and rewards, join our Discord community.\nThank you for your support and understanding. Enjoy the game!\n\nLast Asylum Team\n\n***Additional information about the Raven Epigraph system **\nWhether the Raven Epigraph system is available depends on when the server went live. The server will likely enable this feature in about 2 to 3 months. Therefore, players on new servers can patiently wait for the Raven Epigraph system to open.\n\n@everyone",
+      "created_at": "2026-04-15T09:23:06.004000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1501882302324674711,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# Server Maintenance Notice\n\nThis update will take place on UTC 08:00 2026/5/8\n\nI. New Content\n1. Frontier Pact\nThe new \"Frontier Pact\" will replace the previous \"Development Contract\"\nNote: After the update, the \"Development Contract\" purchase option will be closed. If you've already purchased the \"Development Contract\" before the update, you can still complete all quests and claim the corresponding rewards.\n\nII. Hero Gear\n1. Hero Gear System Optimization\nGear Promotion: After the update, when Gear reaches Lv.10, Lv.20, Lv.30, and Lv.40, you can consume Blueprints to perform Promotion.\nEnhanced Level Cap: Gear enhancement adjusted. After the update, Gear can continue consuming Blueprints for enhancement beyond Lv.40, up to Lv.60.\nNote: After this adjustment, the total number of items required for Gear enhancement remains the same as before.\n\n2. Emojis\nAfter the update, you can use emojis in chat.\n\n3. Crystal Cluster Valley\nOptimized display of Crystal Cluster Valley gameplay features for better clarity.\nAdjusted the mechanism of negative effects after Hero is defeated.\nOptimized Valley Awakening Skill effects.\nAdded Sacred Cave defense win streak announcement system to record and showcase consecutive victories.\n\nIII. Bug Fixes\nFixed abnormal Epigraph Might display in certain scenarios.\nFixed several known issues to further improve game stability.\n\nFor the latest content and benefits, please join our Discord community.\nThank you for your support and understanding. Enjoy the game!\n\nLast Asylum Team\n\nWelcome to share your feedbacks and suggestions about this update in https://discord.com/channels/1417476085179748507/1501899415772729384/1501899415772729384\n\n@everyone",
+      "created_at": "2026-05-07T09:44:04.498000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1504074179383787551,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# Update Notes\n\nThis update will proceed at 07:00 UTC on 2026/05/14\n\nNew Features:\n1. Added new Emoji options\n2. King's Reward now displays a countdown timer until reward distribution ends\n\nOptimizations:\n1. Arena improvements:\na. Matchmaking rules refined\nNote: If your server is in Week 1 of 3V3 Arena after this update, Arena settlement will be rescheduled to this Sunday\nb. Additional performance enhancements for smoother Arena gameplay\n2. Squad settings now support selecting preferred Squad Tech in certain scenarios\n3. The Sanctuary exterior will now sync with Territory appearance changes\n4. Enhanced visual presentation of Nameplate - Legion of Glory\n\nBug Fixes\n1. Fixed Durability display misalignment with Burn effects on Sanctuary\n2. Elixir Scramble garrison display optimized\n3. Fixed preparation phase display bug in Elixir Scramble\n4. Resolved additional known issues\n\nThank you for your continued support and understanding. Enjoy your game.\n\nLast Asylum Team\n\nWelcome to share your feedbacks and suggestions about this update in https://discord.com/channels/1417476085179748507/1504074037981216809\n\n@everyone",
+      "created_at": "2026-05-13T10:53:48.712000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1506610587889832057,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# Update Notes\n\nThis update will proceed at 07:00 UTC on 2026/5/21\n\nNew Content:\n1. New Alliance Event: Canyon Conquest\nRequirements: Alliance must have at least 15 members with Sanctuary Lv.15+, manual registration required to participate\nParticipation: Each player may dispatch three squads for battle\nOther Details: Will be announced on Discord community or in-game upon event launch\n\nOptimizations:\n1. World map now displays the Kingdom where other players' cities locate\n2. UR Epigraph effect adjusted — \"Guard of Nature\" now: Shield effect activates when battle starts, damage reduction effect activates after shield breaks\n3. Optimized Kingdom War Event, resolved lag issues\n4. Optimized Elixir Scramble, resolved lag issues\n5. Optimized cross-server features, added coordinate input in cross-server mode\n6. Some Hero Skill adjustments, detailed notes available after update completion or in Discord community\n\nBug Fixes:\n1. Fixed missing visual effects on certain Territory skins\n2. Fixed 3v3 Arena battle replay inconsistency with replay queue under specific conditions\n3. Fixed other known issues\n\nThank you for your support and understanding. Enjoy the game.\n\nLast Asylum Team\n\nWelcome to share your feedbacks and suggestions about this update in https://discord.com/channels/1417476085179748507/1506610243101134868\n\n@everyone",
+      "created_at": "2026-05-20T10:52:35.624000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1507027816217186518,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# Detailed instructions for Hero Skill adjustments\n\na. Nicole's skill [Ember Dust]: Changed the recovery effect to 10K + 50%.\nb. Nicole's skill [Heartwarming Flame]: Adjusted the healing effect.\nc. Billy's skill [Truth and Lies]: Changed from applying a \"DMG Taken Increase\" debuff to the attack target → to applying the debuff to 3 random enemy units.\nd. Billy's skill [Puppet]: Increased the bonus effects at 1★ and 2★. The 3★ effect has been changed to: additionally reduces Energy DMG taken by 8%.\ne. Daskal's skill [Resolute Fight]: Changed from prioritizing tanks for shields at the start of battle → to granting shields to allied DPS heroes when their HP falls below 50%.\n\nWelcome to share your feedbacks and suggestions about this 2026/5/21 update in https://discord.com/channels/1417476085179748507/1506610243101134868\n\n@everyone",
+      "created_at": "2026-05-21T14:30:30.609000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1509845811562025101,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# Update Notes\n\nMaintenance scheduled for UTC 2026/5/28 07:00\n\nOptimizations:\n1. Enhanced world sandbox rendering for multiple squads on-screen, improving performance and visual smoothness in multiplayer scenarios.\n2. Improved item chest opening process for Supply Chest, Raven Gear Chest, and Epigraph Chest, reducing response lag and delay.\n3. Upgraded server infrastructure for better overall performance.\n4. Added 2:00 time slot for Crystal Cluster Valley, providing greater scheduling flexibility for event participation.\n5. Refined building interface UI layout for enhanced construction experience.\n6. Extended Destiny Revelation event duration.\n\nBug Fixes:\n1. Fixed display anomalies occurring during failed Caravan Plunder attempts.\n2. Corrected Epigraph Might display error in 3v3 Arena.\n3. Fixed participant count display issue in Elixir Scramble.\n4. Supply Chest (R) will no longer auto-open after update.\n5. Fixed some other known issues.\n\nJoin our Discord community for the latest updates and rewards!\nThank you for your continued support, and enjoy the game!\n\nLast Asylum Team",
+      "created_at": "2026-05-29T09:08:13.055000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1514447343141781629,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# Update Notes\n\nThis update will roll out at 07:00 UTC 2026/6/11\n\nNew Event:\n1. League Phase added to Alliance Duel\na. When each League Period starts, Kingdoms that have come online for more than 7 weeks may participate.\n(If there are not enough matching servers, this league period will not launch until there are enough qualified servers)\nb. Only the top 16 Alliances within a Kingdom by ranking can participate in the League\n\n2. Added three new looks and stats for Raven at Lv.150, Lv.200, and Lv.250.\n\nOptimization:\n1. Optimized [Artisan's Request] Event, removed daily tier reset mechanism, changed to 7-day duration with no Progress Reset during the event; this optimization takes effect on June 15 when server time refreshes.\n2. Optimized Alliance naming rules.\n\nBug Fixes:\n1. Fixed issue where Epigraph Might was not displayed when viewing defensive formations in Triangular Arena.\n2. Fixed issue where VIP interface red dot may not be cleared in specific situations.\n3. Fixed issue where Rankings in Expedition Battle changed after clearing a stage in specific situations.\n\nWelcome to share your feedbacks and suggestions about this update in https://discord.com/channels/1417476085179748507/1514446917327782109\n\nThank you for your support and understanding. Enjoy the game!\n\nLast Asylum Team\n@everyone",
+      "created_at": "2026-06-11T01:53:03.676000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1516382678814031983,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# Update Notes\n\nThis update will roll out at UTC 07:00 on 2026/6/17.\n\nBug Fixes:\n1. Fixed various known bugs\n\nMore information on new gameplay features will be released in the community this week! Stay tuned!\n\nLast Asylum Team\n@everyone",
+      "created_at": "2026-06-16T10:03:23.657000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1519258816477397004,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# Update Notes\nThis update will roll out at 07:00 UTC on 2026/06/25\n\nNew Content:\n1. Some servers now feature the Era of Revival event and related content. More servers will unlock the event subsequently.\n\nOptimizations:\n1. Thief Hunt event rules adjusted—Thief Leader Level Cap now scales with server age\n2. Caravan Resource Plunder rewards enhanced\n3. Expedition Shop: reduced 10,000 Raven Fruit exchanges and added 100,000 Raven Fruit exchange option.\n\nFixes:\n1. Fixed Special event notification red dot does not disappear in rare cases\n2. Fixed font scaling issue when sharing coordinates in specific scenarios\n3. Fixed adjacent City misjudgment in edge cases\n\nWelcome to share your feedback and suggestions about this update in https://discord.com/channels/1417476085179748507/1519258510079164546\n\nThank you for your support and understanding. Enjoy the game!\n\nLast Asylum Team\n@everyone",
+      "created_at": "2026-06-24T08:32:08.312000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1521824457633697893,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# Update Notes\nThis update will roll out at 07:00 UTC on 2026/7/2\n\nNew Features:\n1. World Map: Sanctuary shields and Burn status are shown when zoom out.\n\nOptimizations:\n1. Hero Name: Brian will be renamed to Ulfrid.\n2. Cursed Land: Placement of new Cheese Traps will no longer be permitted in Cursed Land after this update.\n3. Demon King Blight Achievement interface: Damage data will display more clearly after this update.\n4. Canyon Conquest: A \"View Battle Report Mail\" button has been added to the My Battle Reports interface after this update.\n5. Bandit Hunt: After this update, the Leader Level Cap will only increase when Leaders discovered by your Alliance are defeated by Alliance members. Defeats by other Alliances will not affect subsequent Leader Level Caps.\n\nBug Fixes:\n1. Fixed an issue where the skill Lunar Howl was not affected by RES when attacking Era of Revival monsters.\n2. Fixed an issue where Caravan Epigraphs could not be equipped in certain situations. After this update, you will need to reconfigure your Caravan and save the new configuration.\n\nWelcome to share your feedback and suggestions about this update in https://discord.com/channels/1417476085179748507/1521824074190291024\n\nThank you for your support and understanding. Enjoy the game!\n\nLast Asylum Team\n@everyone",
+      "created_at": "2026-07-01T10:27:04.831000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1524370169210601523,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# Update Notes\n\nThis update will roll out at 2026/7/9 07:00 UTC\n**Update: Maintenance time is expected to be extended by 1 hour.**\n\nNew Features:\n1. Specialty Tech unlocks when Research Lab reaches Lv.30 and Elite Troop Tech reaches 80%.\n2. New Alliance Event: Undead Siege (available 2 weeks after server launch).\n\nOptimizations:\n1. Research Lab now displays recommended Tech for combat.\n2. Raven Gear interface will display research Progress for Lv.8 and above equipment.\n3. Improved CD calculation for Era Specialty Active Skills.\n\nBug Fixes:\n1. Fixed issue where Epigraph Plan changes failed to take effect in Arena under certain conditions.\n2. Fixed occasional bug where two territories appeared on the map when returning from Cross-Server actions.\n3. Fixed inconsistency between Alliance Caravan Might and Troop deployment interface Might.\n4. Fixed display issue in 3v3 Arena where opponent Hero avatar showed your awakening status.\n\nWelcome to share your feedbacks and suggestions about this update in https://discord.com/channels/1417476085179748507/1524369837143494777\n\nThank you for your support and understanding. Enjoy the game!\n\nLast Asylum Team\n@everyone",
+      "created_at": "2026-07-08T11:02:49.768000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1532199759639478392,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# Update Notes\n\nThis update will roll out at 2026/7/30 07:00 UTC\n\nWhat's New: \n1. Alliance Battle Log: View attack records from Alliance members.\n2. Falcon Tower One-Tap Reward Claim unlocks at Lv.8.\n3. Event Schedule: Major Events requiring reservation or scheduled activation (Hunt Battle, Cheese Trap, etc.) are now displayed in a unified Event Schedule.\n\nOptimizations: \n1. Raven interface now features separate buttons for Skin and Upgrade Preview.\n2. Thief Hunt optimized:\n- Lv.80+ Thief Leaders now drop Chief's Coin Chest (awarded to discoverer and Rally initiator).\n- Max discoverable Leader level increases after the highest Leader is defeated 3 times by your Alliance.\n\n3. Gold Egg can now be grabbed by tapping the egg directly.\n4. Undead Siege interface display optimized.\n5. Era Alliance Rankings now displays your Alliance's identifier.\n6. Official interface default timezone adjusted to local timezone.\n7. Caravan Trade now allows Cross-Server dispatch while viewing status.\n\n8. Elixir Scramble reminder Mail added:\n- 4 hours before signup deadline for unregistered Alliances.\n- 2 hours before signup deadline for Alliances with fewer than 10 signed up members.\n\n9. Era Specialty Skills optimized:\n- Support Skills now jump to Sandbox and auto-select targets.\n- War Flag Skills Buffs preview in Buff bar.\n- Specialty Skills shareable in chat.\n- Support Skills trigger private notifications after use.\n- Some Passive Skills are now displayed in Skill Preview panel.\n- War Flag usage logic and visual effects optimized.\n- Sandbox Skill status display improved, distinguishing learned/active states.\n- Assault Battle Frenzy Skill description and effects refined.\n- Weakness Skill reworked (now weakens enemy Soldiers by ratio during combat instead of knockback).\n\nFixes: \n1. Fixed Exclusive Weapon info errors in battle reports under special circumstances.\n2. Fixed marching armies being able to attack Demon King Blight.\n3. Fixed Era Monster RES display errors under special circumstances.\n4. Fixed duplicate Alliance abbreviation prompts across servers on Sandbox.\n5. Fixed Hell Doctor redirect failure in Pandemic Experience under special circumstances.\n6. Fixed rapid Triangular Arena taps causing double consecutive challenges.\n7. Fixed accidentally reset learned Specialty Skills when previewing other classes.\n8. Fixed Resource building bubbles not refreshing after Minister of The Inner Court activation.\n9. Fixed Error when player name exceeds length limit.\n\nWelcome to share your feedbacks and suggestions about this update in https://discord.com/channels/1417476085179748507/1532199502256148570\n\nThank you for your support and understanding. Enjoy the game!\n\nLast Asylum Team\n@everyone",
+      "created_at": "2026-07-30T01:34:49.593000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1534506959913484401,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# Update Notes\n\nThis update will take place at 7:00 UTC on 2026/8/6.\n\nFeature Optimization:\n1. Optimized icon display in the top-right corner of the main interface.\n2. Optimized Relocation: allowing relocation onto Covert Operation Quests, and displaced quests will respawn.\n3. Optimized Alliance Trade Caravan with added filtering options during member selection and improved VIP Passenger Wagon Reward selection interaction.\n4. Optimized Alliance League Ranking interface to display the corresponding Kingdom for each Alliance; tap the Flag to view Alliance details.\n5. Optimized Encounter Shop interface to immediately display available items based on different point tiers.\n6. Optimized foldable screen display to support more foldable devices.\n\n\nBug Fixes:\n1. Fixed Specialty Skill: Issue of Doctor info still appearing in Alliance battle records after using Concealed Identity.\n2. Fixed Era Battle Pass issue where Quests could not be completed.\n3. Fixed skill display errors in Awakened Hero battle reports.\n4. Fixed the information display issue with the Alliance Rally Event tab.\n5. Fixed an issue where the Shield could be activated in the Cursed Land perimeter.\n\nWelcome to share your feedbacks and suggestions about this update in https://discord.com/channels/1417476085179748507/1534506488461135994\n\nThank you for your understanding and support. Happy gaming!\n\nLast Asylum Team\n@everyone",
+      "created_at": "2026-08-05T10:22:49.004000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1537295122725732493,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# Update Notes\n\nGreetings, Doctor!\nWe'll be performing a live update on August 13th. \n\nNew Content\n1. Era Shop now features [Castle of Revival] Skin.\n2. Era Settlement Reward adjustments: Top 20 alliances (including No.20) now receive [Castle of Revival] limited-time items. Previous SSR Grain Level Supply and SSR Herb Level Supply have been replaced with SSR Resource items.\n\nFeature Optimization\n1. Expedition League event duration adjusted: 56 days → 55 days.\n2. Era Settlement Reward configuration optimized: [Mythic Era Commendation] chest random reward distribution refined.\n\nBug Fixes\n1. Fixed unnecessary bubble display above alliance buildings during garrison.\n2. Fixed issue where correct Alliance Gift wasn't awarded after defeating Rally monsters in [Claire's Inner Demon] event.\n3. Fixed Era Settlement Reward distribution issues.\n4. Fixed abnormal display of [Flame Breath] atmosphere effect.\n\nWelcome to share your feedbacks and suggestions about this update in https://discord.com/channels/1417476085179748507/1537295265499840532\n\nThank you for your understanding and support. Enjoy the game!\n@everyone",
+      "created_at": "2026-08-13T03:01:58.820000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1539816035832832050,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# Update Notes\n\nDear Doctor,\nWe will perform server maintenance on August 20 at 05:00 (UTC-2). You may be unable to access the game during this time. Thank you for your understanding. \n \nNew Content \n1. Raven Epigraphs can now be upgraded to 6 Stars. \n2. During the Saturday Raid Phase of the Cross-Server Alliance Duel, new Raid Buffs will be available: increase Infirmary Capacity and Healing Speed, and reduce Healing Cost. \n3. After an Exclusive Weapon reaches 10 Stars, the Smelt feature will unlock, allowing you to further enhance its attributes. \n \n\nOptimizations \n1. Optimized the display of march routes on the map. \n2. Optimized the display of purchased packs on the Blades Out event screen. \n3. Optimized the pop-up when a Shield cannot be activated after relocating within the Cursed Land. It now appears when confirming the relocation destination instead of when selecting it. \n4. Optimized emoji sorting so that unlocked emojis appear before locked ones. \n \n\nBug Fixes \n1. Fixed an issue where the top of the Alliance Caravan was not fully displayed on some phone screens. \n2. Fixed an issue where Nameplates could be obscured. \n3. Fixed an issue where the Infirmary screen would close if new wounded soldiers arrived while wounded soldiers are being treated. \n4. Fixed an issue where the Creative Ideas effect could be obscured. \n5. Fixed an issue where the gear crafting cost display did not account for Alliance Tech bonuses. \n6. Fixed an issue where Raven attributes would decrease at Lv.200. \n \nWelcome to share your feedbacks and suggestions about this update in https://discord.com/channels/1417476085179748507/1539815941326504017\n\nThank you for your understanding and support. Enjoy the game!\n\n@everyone",
+      "created_at": "2026-08-20T01:59:11.341000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1542345452144435220,
+      "author_id": 973105659040112681,
+      "author_name": "ray_7845",
+      "content": "# Update Notes\nAugust 27 Maintenance Notice\n\nDear Doctor,\nWe will perform server maintenance on August 27 at 5:00 (UTC-2). You may be unable to access the game during this time. Thank you for your understanding.\n\nNew Content:\n1. Difficulties 10 and 11 will be added to Pandemic Experience starting September 2.\n2. Added an option to allow or block private messages from other players.\n3. Added a Sanctuary Level requirement for other players to initiate private chats.\n\nOptimizations:\n1. Covert Ops Force will now display the range of Kingdoms available for plundering.\n\nBug Fixes:\n1. Fixed an issue where the promotion preview showed no stat changes when the number of Curios owned was 0.\n2. Fixed an issue where, under certain circumstances, tapping another player's Caravan would take you to the edge of the map.\n3. Fixed a display issue in Battle Reports when one side had no Heroes deployed.\n4. Fixed a chat display issue when gifting 100 Tulips.\n\nWelcome to share your feedbacks and suggestions about this update in https://discord.com/channels/1417476085179748507/1542345160338178068\nThank you for your understanding and support. Happy gaming!\n\nLast Asylum Team\n@everyone",
+      "created_at": "2026-08-27T01:30:11.184000+00:00",
+      "embeds": [],
+      "attachments": []
+    },
+    {
+      "id": 1544649841752416318,
+      "author_id": 973105659040112681,
+      "author_name": "ray_7845",
+      "content": "# Update Notes\n\nSep 3 Maintenance Notice\n\nDear Doctor:\nWe will schedule maintenance on September 3 at 05:00 (UTC-2). Here are the details of this update:\n\nNew Content:\n1. Added the Lv. 25 Alliance Gift Privilege: Starting at 00:00 Server Time on September 4, each Regular Wagon of Alliance Trade Caravan will carry 1 additional passenger.\n2. Added a toggle button for Official appointment notification banner. You may see this in Settings.\n\nOptimizations:\n1. Optimized the search field for Kingdom Commendation.\n2. Optimized the privilege indicators for purchased Alliance Golden Caravan.\n\nBug Fixes:\n1. Fixed an issue where the Plunder range displayed for Caravan was incorrect under certain conditions.\n2. Fixed an issue where Hero resources could be lost during formation setup under certain conditions.\n3. Fixed an issue where Hell Nurse could not be summoned under certain conditions during the Pandemic Experience event.\n4. Fixed an issue where players could be incorrectly prompted that only one troop could garrison a City under certain conditions.\n5. Fixed an issue where a reinforcing player's troops would return from the target's location when the troops was repatriated.\n6. Fixed an issue where the Quality of a personal Pumpkin Caravan was displayed incorrectly after being shared.\n7. Fixed an issue where Rally Monster invitations from Alliance members displayed incorrect information during Cross-Server events.\n\nWelcome to share your feedbacks and suggestions about this update in https://discord.com/channels/1417476085179748507/1544649631869308938\nThank you for your understanding and support. Enjoy the game!\n\n@everyone",
+      "created_at": "2026-09-02T10:07:00.480000+00:00",
+      "embeds": [],
+      "attachments": []
+    }
+  ]
+}

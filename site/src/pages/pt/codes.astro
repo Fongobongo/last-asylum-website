@@ -1,0 +1,23 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import GiftCodes from '../../components/GiftCodes.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'pt';
+---
+
+<Base lang={lang} path="/pt/codes/" title="Códigos de presente" description="Códigos de presente ativos e históricos para Last Asylum: Plague — atualizados após cada entrega oficial.">
+  <GuidePage title="🎁 Códigos de presente" description="Códigos de presente ativos e históricos para Last Asylum: Plague — atualizados após cada entrega oficial. Resgate no jogo (Avatar → Configurações → Código de Presente) ou pela página web oficial para iOS." lang={lang}>
+    <h2 id="latest-codes">Últimos códigos</h2>
+    <GiftCodes lang={lang} />
+
+    <h2 id="how-to-redeem">Como resgatar</h2>
+    <p>Android / no jogo: toque no seu Avatar (canto superior esquerdo) → Configurações → Código de Presente → insira o código.</p>
+    <p>iOS: use a página web oficial — faça login com sua conta vinculada do Facebook/Google, escolha servidor e personagem, e insira o código.</p>
+
+    <h2 id="notes">Notas</h2>
+    <p>Os códigos valem para todas as regiões, mas normalmente são um por conta e por tempo limitado. A maioria sai primeiro no Discord oficial — esta página é atualizada após cada entrega.</p>
+  </GuidePage>
+</Base>

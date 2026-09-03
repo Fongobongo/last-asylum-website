@@ -1,0 +1,78 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+<Base lang={lang} path="/id/events/royal/" title="Royal Castle Scramble &amp; Gelar" description="Balapan perebutan kastil mingguan: satu march per pemain, aturan turret dan penguatan, pendudukan Sanctuary 6+, peti commendation kerajaan, dan sistem gelar Royal City lengkap dengan mekanika antrean.">
+  <GuidePage title="Royal Castle Scramble &amp; Gelar" description="Balapan perebutan kastil mingguan: satu march per pemain, aturan turret dan penguatan, pendudukan Sanctuary 6+, peti commendation kerajaan, dan sistem gelar Royal City lengkap dengan mekanika antrean." lang={lang}>
+    <p>Royal Castle Scramble adalah <strong>perebutan kastil mingguan</strong>: aliansi berlomba mengambil dan memegang Royal Castle, pada <strong>hari dan waktu yang sama setiap minggu</strong>. Pertarungan kastilnya sendiri cepat dan sederhana — persiapan (march, penguatan, level Sanctuary) adalah tempat laga-laga diputuskan.</p>
+    <p>Panduan ini membahas aturan perebutan, mekanika penguatan, peti commendation, dan sistem gelar Royal City lengkap yang dibuka oleh kerajaan pemenang.</p>
+
+    <h2 id="how-it-works">Cara Kerjanya</h2>
+    <ul>
+      <li><strong>Mingguan</strong>, hari dan waktu yang sama setiap minggu — pasang alarm sekali dan tidak pernah berubah.</li>
+      <li><strong>Satu march per pemain.</strong> Anda mendapat satu march untuk seluruh event.</li>
+      <li><strong>Tidak bisa dipercepat.</strong> Tanpa percepatan, tanpa item akselerasi — kecepatan march yang Anda bawa adalah kecepatan march yang mendarat.</li>
+      <li><strong>Rally direkomendasikan.</strong> Satu march per pemain membuat setiap march berarti; rally menggabungkan march aliansi menjadi satu serangan kredibel alih-alih aliran korban solo.</li>
+      <li><strong>March pembuka adalah balapan.</strong> March pertama menentukan siapa mengepung dan siapa yang tergesa-gesa — waktu march di peluit pembuka lebih penting daripada kekuatan mentah.</li>
+    </ul>
+
+    <h2 id="turrets-and-positioning">Turret dan Posisi</h2>
+    <ul>
+      <li><strong>Turret TIDAK aktif</strong> dalam Scramble — itu mekanika <a href="/id/events/kvk/">KvK</a> saja. Tidak ada layar turret untuk ditembus di sini.</li>
+      <li><strong>Teleport ke area lumpur</strong> jika Anda tidak khawatir diserang — <strong>tidak perlu shield</strong> di sana. Area lumpur adalah panggungan yang aman; gunakan.</li>
+    </ul>
+
+    <h2 id="capture-and-reinforcement">Perebutan dan Penguatan</h2>
+    <ul>
+      <li><strong>4 jam untuk mengambil kastil.</strong> Pendudukan menaik sepanjang jendela — mengisi <strong>lebih cepat dengan persentase pendudukan tinggi</strong> dan <strong>lebih lambat saat diperebutkan</strong> oleh pembela yang melawan.</li>
+      <li><strong>Batas penguatan: 30 orang</strong> di kastil. Itu batas keras — rencanakan daftar penguatan sebelum pertarungan, bukan selama.</li>
+      <li><strong>Penguatan tergerus.</strong> Pembela mengerus garnisun Anda turun — <strong>tarik keluar dan kuatkan kembali</strong> untuk me-reset gerusannya. Penguatan ber-HP 20% bernilai lebih rendah daripada tubuh segar di slot itu.</li>
+    </ul>
+
+    <h2 id="who-takes-vs-farms">Siapa Mengambil, Siapa Farm</h2>
+    <blockquote>Pengambil kastil harus Sanctuary 6+ — semua orang lain farm ubin sumber daya untuk poin.</blockquote>
+    <p>Hanya pemain <strong>Sanctuary 6+</strong> yang bisa menduduki kastil. Pembagian itu menentukan peran Anda:</p>
+    <ul>
+      <li><strong>Sanctuary 6+</strong>: march menuju kastil, rally, kuatkan 30 slot itu.</li>
+      <li><strong>Semua orang lain</strong>: farm ubin sumber daya di sekitar kastil untuk poin event — march Anda tetap menghasilkan, hanya tidak di tembok.</li>
+    </ul>
+    <p>Periksa level Sanctuary Anda <strong>sebelum</strong> event dimulai; pemain Sanctuary 5 yang march ke kastil membuang satu-satunya march yang mereka dapat.</p>
+
+    <h2 id="commendation-chests">Peti Commendation Kerajaan</h2>
+    <ul>
+      <li><strong>Hanya R5</strong> — pemimpin aliansi mengklaimnya dengan <strong>mengeklik kastil setelah pertempuran</strong>.</li>
+      <li><strong>Syarat: berada di kerajaan lebih dari 24 jam.</strong> Pemain yang masuk ke kerajaan kurang dari sehari sebelum pertarungan tidak dihitung untuk peti.</li>
+    </ul>
+
+    <h2 id="royal-titles">Gelar Royal City</h2>
+    <p>Memenangkan kastil membuka sistem gelar kerajaan — buff persentase berwaktu yang diterapkan oleh pemegang gelar:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Gelar</th><th>Tipe buff</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Kecepatan riset</td><td>Buff % berwaktu ke riset</td></tr>
+        <tr><td>Pengembangan wilayah</td><td>Buff % berwaktu ke wilayah</td></tr>
+        <tr><td>Pelatihan</td><td>Buff % berwaktu ke pelatihan pasukan</td></tr>
+        <tr><td>Penyembuhan</td><td>Buff % berwaktu ke penyembuhan</td></tr>
+        <tr><td>Menteri Istana Dalam</td><td>Buff produksi farm</td></tr>
+      </tbody>
+    </table>
+    <p>Mekanika antreannya:</p>
+    <ul>
+      <li><strong>Sistem antrean</strong> — pemain berbaris per slot gelar, siapa cepat dia dapat.</li>
+      <li><strong>Setiap slot berjalan 5 menit.</strong></li>
+      <li><strong>Surat tiba di awal dan akhir</strong> slot Anda, jadi Anda tahu tepat kapan buff Anda mulai dan berakhir.</li>
+      <li><strong>Ajukan ulang segera saat slot Anda berakhir</strong> — gelar yang sama bisa diajukan ulang, <strong>tanpa batas pengajuan ulang</strong>. Slot berturut-turut adalah pola yang dimaksudkan.</li>
+      <li><strong>Cooldown 20 menit setelah menerapkan</strong> — satu-satunya rem pada antrean. Atur waktu pengajuan ulang Anda di sekitarnya.</li>
+    </ul>
+    <p>Buff gelar bertumpuk dengan semua hal lain di kalender mingguan — slot gelar riset selama <a href="/id/events/alliance-duel/">Fase 3 Alliance Duel</a> atau slot pelatihan selama <a href="/id/events/alliance-duel/">Fase 5</a> adalah double-dip kalender yang menjadi pondasi seluruh minggunya.</p>
+
+    <VideoSection topic="royal" lang={lang} />
+  </GuidePage>
+</Base>

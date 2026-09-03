@@ -1,0 +1,75 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'es';
+---
+<Base lang={lang} path="/es/events/kvk/" title="Guerra de Reinos (KvK): supervivencia y puntuación" description="Guerra servidor contra servidor por la Ciudad Real: el calendario quincenal, la estrategia torre-primero para atacantes, tácticas de agotamiento para defensores, riesgo de tropas y recursos, y el solapamiento de puntuación con el Duelo de Alianzas.">
+  <GuidePage title="Guerra de Reinos (KvK): supervivencia y puntuación" description="Guerra servidor contra servidor por la Ciudad Real: el calendario quincenal, la estrategia torre-primero para atacantes, tácticas de agotamiento para defensores, riesgo de tropas y recursos, y el solapamiento de puntuación con el Duelo de Alianzas." lang={lang}>
+    <p>La Guerra de Reinos es la <strong>guerra servidor contra servidor</strong> del juego: dos reinos invaden un mapa compartido y pelean por la <strong>Ciudad Real</strong>. Corre <strong>quincenalmente</strong>, con puntuación y tareas de preparación durante la semana y la batalla principal condensada en una sola ventana. Gana quien controle la Ciudad Real cuando se asiente el polvo.</p>
+    <p>Esta guía cubre el calendario, la estrategia de atacantes y defensores, las reglas universales, los errores que pierden guerras y las reglas económicas que mantienen viva tu cuenta a través de ella.</p>
+
+    <h2 id="schedule">El calendario quincenal</h2>
+    <ul>
+      <li><strong>La preparación y la puntuación corren toda la semana</strong> — las tareas diarias y categorías de puntos construyen la posición de tu reino antes de que se dispute una sola muralla.</li>
+      <li><strong>La batalla principal es el sábado desde el reinicio</strong>, dentro de una <strong>ventana de 4 horas</strong>. Esa ventana es toda la guerra — todo lo anterior es posicionamiento.</li>
+      <li><strong>Condición de victoria: controlar la Ciudad Real.</strong> No las más bajas, no los más puntos — quién tiene la ciudad al final.</li>
+    </ul>
+    <blockquote>Las alianzas ganadoras no siempre son las más fuertes — son las más organizadas.</blockquote>
+
+    <h2 id="attacker-playbook">Manual del atacante</h2>
+    <p>Si tu reino ataca, el instinto es irrumpir contra la Ciudad Real. Ese instinto pierde guerras.</p>
+    <ul>
+      <li><strong>No corras primero contra la ciudad.</strong> Un empuje directo contra la ciudad choca con defensa concentrada y torres — sangra a tus escuadrones más fuertes en los minutos iniciales.</li>
+      <li><strong>Toma las torres primero, luego empuja.</strong> Cada torre caída ensancha tu zona segura y arranca el control de mapa de los defensores antes de que la pelea por la ciudad siquiera empiece.</li>
+      <li><strong>Quédate en concentraciones.</strong> Las concentraciones son más seguras y fuertes que las marchas solitarias — HP concentrado, bonos concentrados, y una marcha que los defensores realmente deben respetar. El héroe solitario es la baja solitaria.</li>
+    </ul>
+
+    <h2 id="defender-playbook">Manual del defensor</h2>
+    <p>Los defensores no intentan ganar una pelea. Los defensores intentan <strong>agotar un reloj</strong>.</p>
+    <ul>
+      <li><strong>Necesitas tiempo, no bajas.</strong> Cada minuto que los atacantes gastan moliendo tu defensa es un minuto que no sostienen la ciudad. Agotar es ganar.</li>
+      <li><strong>Refuerza constantemente.</strong> Alimenta escuadrones frescos a los puntos disputados tan rápido como mueren. Un punto que nunca deja de ser defendido devora la ventana entera del enemigo.</li>
+      <li><strong>Rota.</strong> No aparques todo en un solo carril — mueve escuadrones hacia donde esté la presión real, y haz que los atacantes peleen cada centímetro de terreno.</li>
+    </ul>
+
+    <h2 id="universal-rules">Reglas universales</h2>
+    <p>De cualquier lado que estés, aplican las mismas reglas:</p>
+    <ol>
+      <li><strong>Torres primero = control de mapa.</strong> La línea de torres decide quién se mueve con seguridad. Es el primer objetivo de la guerra, siempre.</li>
+      <li><strong>Nunca en solitario.</strong> Los empujes solitarios son cómo se borran cuentas. Marcha con concentraciones o no marches.</li>
+      <li><strong>Refuerza constantemente.</strong> La defensa que deja de recibir refuerzos cae en una oleada.</li>
+      <li><strong>Mantente conectado toda la pelea.</strong> La ventana de 4 horas castiga a quien cierra sesión en plena guerra — tus escuadrones se quedan exactamente donde los dejaste, sin defender.</li>
+    </ol>
+
+    <h2 id="losing-mistakes">Los errores que pierden guerras</h2>
+    <ul>
+      <li><strong>Empujes solitarios</strong> — aniquilaciones instantáneas que regalan bajas gratis al enemigo y dejan a tu alianza un escuadrón menos.</li>
+      <li><strong>Ignorar las torres</strong> — atacar la ciudad a través de líneas de torres intactas es donar tropas.</li>
+      <li><strong>Sin refuerzos</strong> — una defensa que deja de rotar cae, luego cae el siguiente punto, luego cae la ciudad.</li>
+      <li><strong>Cerrar sesión en plena guerra</strong> — la ventana de 4 horas no se pausa por tu horario.</li>
+    </ul>
+
+    <h2 id="economy-rules">Economía del KvK: tropas, recursos y escudos</h2>
+    <p>La Guerra de Reinos es uno de los pocos eventos con riesgo real de cuenta:</p>
+    <ul>
+      <li><strong>SÍ puedes perder tropas y recursos al ser atacado</strong> — no es un evento de riesgo cero como la <a href="/es/events/canyon/">Conquista del Cañón</a>.</li>
+      <li><strong>Escúdate</strong> durante la ventana de guerra. Una ciudad sin escudo durante el KvK es una piñata de recursos para el servidor enemigo.</li>
+      <li><strong>Las pérdidas escalan con tu muralla e investigación</strong> — una muralla maximizada e investigación defensiva son lo que convierte una masacre en una escaramuza.</li>
+      <li><strong>Guarda mejoras y aceleraciones para los días de puntuación</strong> — la misma lógica de doble valor que gobierna el <a href="/es/events/alliance-duel/">Duelo de Alianzas</a> aplica a las tareas de puntuación del KvK. Gastar una mejora grande un día neutral gana la mitad.</li>
+    </ul>
+
+    <h2 id="scoring-overlap">Solapamiento de puntuación con el Duelo de Alianzas</h2>
+    <p>El KvK y el Duelo de Alianzas comparten fuentes de puntuación, y el consenso de la comunidad es explotarlo cada día:</p>
+    <ul>
+      <li><strong>Las Operaciones Encubiertas y las Caravanas puntúan para AMBOS eventos.</strong> Las mismas acciones alimentan tu total de duelo y tu total de KvK a la vez.</li>
+      <li>Eso convierte las caravanas en una obviedad diaria — córrelas cada día de una semana de duelo. La ruta completa de caravanas y saqueo está en la <a href="/es/events/wagon/">guía de Guild Wagon y Caravanas</a>.</li>
+    </ul>
+    <p>El resto de la economía de guerra — qué guardar, cuándo gastar, qué compras de tienda financian la guerra — está en la <a href="/es/economy/">guía de Economía</a>.</p>
+
+    <VideoSection topic="kvk" lang={lang} />
+  </GuidePage>
+</Base>

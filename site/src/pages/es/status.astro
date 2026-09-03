@@ -1,0 +1,56 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { statusUpdates } from '../../data/status';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'es';
+
+const statusStyles = {
+  fixed: 'border-toxic-500/40 bg-toxic-500/10 text-toxic-400',
+  investigating: 'border-amber-500/40 bg-amber-900/20 text-amber-300',
+  info: 'border-sky-500/40 bg-sky-900/20 text-sky-300',
+};
+const statusIcons = { fixed: '✅', investigating: '⚠️', info: 'ℹ️' };
+---
+
+<Base lang={lang} path="/es/status/" title="Estado del servidor y problemas conocidos" description="Errores conocidos, correcciones y avisos oficiales de Last Asylum: Plague — resumidos del canal oficial de estado.">
+  <GuidePage
+    title="🛡️ Estado del servidor y problemas conocidos"
+    description="Resumido del canal oficial #status-update. Para novedades en vivo, únete al Discord oficial."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/es/' }, { label: 'Estado' }]}
+  >
+    <p>Esta página recoge todos los avisos oficiales destacables: errores, correcciones, oleadas de compensación y alertas de seguridad. Lo más reciente primero. Si tu problema no aparece, repórtalo en el juego: Avatar → Cuenta → Centro de Usuario → Comentarios.</p>
+
+    <div class="not-prose my-8 space-y-3">
+      {statusUpdates.map((s) => (
+        <article class="rounded-lg border border-stone-800 bg-stone-900 p-4">
+          <div class="flex flex-wrap items-center justify-between gap-2">
+            <h3 class="font-bold text-stone-100">{s.title}</h3>
+            <div class="flex items-center gap-2">
+              <time class="text-xs text-stone-500">{s.date}</time>
+              <span class={`rounded px-2 py-0.5 text-xs font-semibold ${statusStyles[s.status]}`}>{statusIcons[s.status]} {s.status}</span>
+            </div>
+          </div>
+          <p class="mt-2 text-sm text-stone-400">{s.detail}</p>
+        </article>
+      ))}
+    </div>
+
+    <h2 id="scam-alert">Alerta de estafa (importante)</h2>
+    <p>Los estafadores suplantan a oficiales para robar cuentas. El personal real <strong>nunca</strong> pide contraseñas, códigos de verificación ni pagos fuera de los canales oficiales. Activa la vinculación de cuenta Facebook/Google en Configuración.</p>
+
+    <h2 id="login-fixes">¿No puedes iniciar sesión? Soluciones rápidas</h2>
+    <ul>
+      <li>Reinicia el juego por completo</li>
+      <li>Borra la caché del juego (puede requerir volver a iniciar sesión)</li>
+      <li>Desactiva la VPN si usas una</li>
+      <li>Usa el botón de <strong>Reparación</strong> (esquina superior derecha en la pantalla de carga)</li>
+    </ul>
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

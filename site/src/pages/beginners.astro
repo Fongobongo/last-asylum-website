@@ -1,0 +1,153 @@
+﻿---
+import Base from '../layouts/Base.astro';
+import GuidePage from '../components/GuidePage.astro';
+import VideoSection from '../components/VideoSection.astro';
+import Calculators from '../components/Calculators.astro';
+import { t } from '../i18n/ui';
+import type { Lang } from '../i18n/utils';
+
+const lang: Lang = 'en';
+---
+<Base lang={lang} path="/beginners/" title="Beginner&apos;s Guide: Your First Days" description="Your first 24 hours in Last Asylum: Plague — the day-one checklist, hero unlock timeline, faction bonuses, the official early lineup, and the five mistakes that ruin new accounts.">
+  <GuidePage title="Beginner&apos;s Guide: Your First Days" description="Your first 24 hours in Last Asylum: Plague — the day-one checklist, hero unlock timeline, faction bonuses, the official early lineup, and the five mistakes that ruin new accounts." lang={lang}>
+    <p>Last Asylum: Plague rewards one thing above everything else: focus. Between construction timers, hero banners, events and alliance chores it is very easy to stay busy for two weeks and still end up weaker than someone who played three days correctly.</p>
+    <p>This guide compresses the community consensus from the official Discord into a day-one playbook: what to do in the first 24 hours, when every important hero unlocks, how might and factions actually work, and the five mistakes that ruin new accounts.</p>
+
+    <h2 id="first-24-hours">First 24 Hours: The Checklist</h2>
+    <p>Work through this list in order. Everything else in the game can wait until these six things are done.</p>
+    <ol>
+      <li><strong>Join an active alliance immediately.</strong> Build help cuts your timers, alliance events pay free rewards, and membership discourages attackers. A dead alliance gives you none of that.</li>
+      <li><strong>Push your Sanctuary.</strong> Sanctuary level is your real player level — it gates hero level caps, building unlocks and troop tiers.</li>
+      <li><strong>Keep the Builder&apos;s Hut at Sanctuary level until Sanctuary 15.</strong> It hands out free construction speedups, the single biggest early accelerant in the game.</li>
+      <li><strong>Pick two or three heroes only.</strong> Every shard, skill badge and EXP potion you spread thin is one your main squad never sees.</li>
+      <li><strong>Check the event calendar before spending speedups.</strong> Many events pay rewards for doing what you were going to do anyway — double dip.</li>
+      <li><strong>Start plundering on day one.</strong> Plunder income compounds; later in the game a missed day of attacking is roughly 27 million resources gone.</li>
+    </ol>
+
+    <h2 id="join-alliance">Join an Active Alliance Immediately</h2>
+    <p>This is step one for a reason. In an active alliance every construction and research you start gets sped up by allies tapping the help button, which quietly saves hours of timers every single day.</p>
+    <p>Alliance events are the second income stream of the game. Alliance Duel and similar events hand out hero shards, speedups and resources for participation — but only if the alliance actually plays them.</p>
+    <p>Membership is also protection. Players looking for easy plunder check who you belong to before attacking; a strong alliance tag makes most of them scroll past you.</p>
+    <p>How to judge an alliance before joining: look at recent member activity, whether help requests actually get answered, and whether the alliance plays its events. If you land in a graveyard with a full member list and zero logins — leave.</p>
+    <blockquote>A dead alliance is worse than no alliance. Leave without guilt and join a living one the same day.</blockquote>
+
+    <h2 id="sanctuary-gates">Sanctuary Gates Everything</h2>
+    <p>The Sanctuary is the big central building and the closest thing the game has to a player level. Every other building is capped by it, every upgrade grants EXP, and its level decides what the game lets you touch at all.</p>
+    <ul>
+      <li>Building levels — nothing in your city can exceed the corresponding Sanctuary gate.</li>
+      <li>Hero level cap — your heroes cannot out-level your Sanctuary.</li>
+      <li>Troop tiers — higher tiers unlock through the Training Grounds, which are themselves gated by Sanctuary.</li>
+      <li>Feature unlocks — workshops, the Tavern, alliance features and event modes all arrive at fixed Sanctuary levels.</li>
+    </ul>
+    <p>Because of that, Sanctuary upgrades sit at the top of the build priority list permanently. The full roadmap lives in the <a href="/buildings/">Buildings guide</a>.</p>
+    <p>One beginner-specific rule: keep the Builder&apos;s Hut at your current Sanctuary level until you reach Sanctuary 15. It produces free construction speedups, and those speedups are what let you keep the Sanctuary push moving without burning your saved timers.</p>
+
+    <h2 id="pick-heroes">Pick Two or Three Heroes Only</h2>
+    <p>Hero investment in Last Asylum is brutally expensive. Shards, skill badges, EXP potions and gear materials are all scarce, and a hero that is half-built protects you from nothing.</p>
+    <p>The community rule is to concentrate every resource on ONE main squad of five heroes — and early on, before you even have five worth using, that means two or three heroes carry your entire account.</p>
+    <p>Concretely: pick your two or three, dump everything into them, and let everyone else stay at whatever level the game handed them for free. A squad of two invested heroes beats a squad of five evenly-split ones in almost every fight you will actually take.</p>
+    <p>Which heroes to pick is not a matter of taste — the unlock timeline below and the <a href="/heroes/">Heroes guide</a> give the canonical path.</p>
+
+    <h2 id="events-speedups">Check Events Before Spending Speedups</h2>
+    <p>Speedups, resources and diamonds are not just currencies — they are also event scoring material. A large share of events pay rewards based on how much you consume of something during the event window.</p>
+    <p>So the habit that separates good accounts from great ones: before you burn through a pile of speedups, open the events tab and check whether an event is running — or starts tomorrow — that rewards speedup usage.</p>
+    <p>This is what players call the double dip: the same speedup moves your construction forward AND claims event points for it. Spending the pile on a dead Tuesday instead of during the event is paying twice for one result.</p>
+
+    <h2 id="start-plundering">Start Plundering on Day One</h2>
+    <p>Plunder is your third income stream after production and events, and it is the one most beginners ignore for weeks. It costs only stamina you were going to waste anyway.</p>
+    <p>The full mechanics — daily limits, the 100% / 15% / 5% thresholds, the nine-hit rule, the War Supply bonus — live in the <a href="/economy/">Economy guide</a>.</p>
+    <p>The day-one version is simple: attack the richest target you can beat, never let your stamina sit at the cap, and do not be the player who reaches Sanctuary 20 with dozens of millions in missed plunder behind them. Kept up daily, plundering is worth roughly 27 million resources per day later in the game.</p>
+
+    <h2 id="unlock-timeline">Hero Unlock Timeline</h2>
+    <p>The game drips its best heroes on a fixed schedule. Knowing the schedule in advance completely changes how you spend diamonds — you stop buying random pulls and start saving for dated targets.</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Timing</th><th>What unlocks</th><th>What the community does</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Day 1-2</td><td>Arthur (UR) — free</td><td>Your day-one tank. Claim him immediately.</td></tr>
+        <tr><td>Day 8</td><td>Cynthia and Shadow — Wishing Wheel</td><td>Cynthia runs about 11,500 diamonds. Spin 10x only.</td></tr>
+        <tr><td>Day 36 / 43 / 57 / 64 / 72 / 85</td><td>New UR hero events</td><td>A diamond-heavy stretch — plan reserves in advance.</td></tr>
+        <tr><td>Day 66</td><td>Marlena — $1 top-up</td><td>Universally called the best value purchase in the game.</td></tr>
+        <tr><td>Day 120+ (Era of Revival)</td><td>Daskal (UR tank); Claire SSR-to-UR conversion at Era Day 8</td><td>Daskal is the best tank in the game; time the Claire conversion carefully.</td></tr>
+      </tbody>
+    </table>
+
+    <h3 id="arthur-day-one">Arthur: Day 1-2, Free UR</h3>
+    <p>Arthur is given to every player in the first two days, he is UR rarity, and he is the best early tank you will ever own. Because he is free, every shard you ever get for him is pure profit — one of the two heroes worth investing from day one.</p>
+
+    <h3 id="wishing-wheel-day-8">Cynthia and Shadow: Day 8 Wishing Wheel</h3>
+    <p>Day 8 brings the first Wishing Wheel featuring Cynthia and Shadow. Cynthia, the early-carry UR, costs roughly 11,500 diamonds to secure. Two hard rules from the community: save your diamonds until day 8 instead of spending them earlier, and only ever spin with 10x pulls — single spins waste diamonds on the same odds at a worse price.</p>
+
+    <h3 id="ur-event-train">The UR Event Train: Days 36-85</h3>
+    <p>A string of new UR hero events arrives at days 36, 43, 57, 64, 72 and 85. Each one is a chance to add UR power — and each one eats diamonds. Knowing the train is coming is the difference between entering day 36 with a plan and entering it broke.</p>
+
+    <h3 id="marlena-day-66">Marlena: Day 66 and the $1 Top-Up</h3>
+    <p>The day 66 top-up that grants Marlena costs one dollar and is universally called the best value in the game. Marlena becomes the damage engine of the standard squad — she is worth roughly 85% of your squad damage until Zoya arrives. Skip one coffee, buy the hero.</p>
+
+    <h3 id="era-daskal-claire">Day 120+: Era of Revival — Daskal and Claire</h3>
+    <p>The seasonal Era of Revival starts around day 120. It brings Daskal, the best tank in the game, and on Era Day 8 the Claire SSR-to-UR conversion opens. Both events change your long-term squad; the timing details are in the <a href="/era/">Era of Revival guide</a>.</p>
+
+    <h2 id="hero-might">How Hero Might Works</h2>
+    <p>A hero&apos;s might is the sum of four separate investments. Understanding the split tells you exactly where your next resource should go.</p>
+    <ul>
+      <li><strong>Level</strong> — EXP from potions and play. The cheapest component early on.</li>
+      <li><strong>Stars</strong> — shard-fed. The biggest single multiplier: there is a significant power jump after 4 stars.</li>
+      <li><strong>Skills</strong> — badge-fed. Order matters more than quantity; see the <a href="/heroes/">Heroes guide</a>.</li>
+      <li><strong>Gear</strong> — crafted in the gear workshops and upgraded with materials.</li>
+    </ul>
+    <p>The 4-star jump is the single most important number in hero planning. Below 4 stars a hero is filling a seat; above it, the same hero starts carrying fights.</p>
+    <p>And because shards, badges and gear materials are all scarce, the might formula only pays off when concentrated: all resources go into ONE main squad of five, in the order the squad actually fights.</p>
+
+    <h2 id="factions-counters">Factions and Counters</h2>
+    <p>Heroes belong to three factions — Warrior, Ranger and Warlock — and the game pays you twice for faction discipline: a bonus for stacking one faction, and a counter cycle for fighting.</p>
+    <p>First, the stacking bonus. The more same-faction heroes you field, the bigger the squad-wide bonus:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Same-faction heroes in the squad</th><th>Squad bonus</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>3</td><td>+5% HP / ATK / DEF</td></tr>
+        <tr><td>4</td><td>+15% HP / ATK / DEF</td></tr>
+        <tr><td>5</td><td>+20% HP / ATK / DEF</td></tr>
+      </tbody>
+    </table>
+    <p>Second, the counter cycle: Warriors beat Warlocks, Warlocks beat Rangers, Rangers beat Warriors. A Ranger formation takes 20% less damage from Warriors — which is why mid-game Ranger squads farm Warrior-heavy defenders so well.</p>
+    <p>For lineup building the takeaway is simple: pick one faction lane, stack toward the 5-hero +20% bonus, and check the enemy squad&apos;s faction before you attack rather than after.</p>
+
+    <h2 id="early-lineup">Your First Lineup</h2>
+    <p>The officially recommended early squad looks like this:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Row</th><th>Heroes</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Front</td><td>Arthur, Bella</td></tr>
+        <tr><td>Back</td><td>Marlena, Claire, Celia</td></tr>
+      </tbody>
+    </table>
+    <p>Arthur anchors the front as the tank; Bella holds the second front seat. Marlena is the damage carry of the standard build, Claire is the back-line buffer, and Celia fills the fifth seat until your real squad arrives.</p>
+    <p>What matters more than the exact seats is the investment split inside this lineup: two or three heroes get everything, the rest stay cheap placeholders. The canonical F2P split — Arthur and Claire early, Marlena at day 66 — is laid out step by step in the <a href="/heroes/">Heroes guide</a>.</p>
+
+    <h2 id="mistakes">Common Early Mistakes</h2>
+    <p>Almost every stalled account in this game made one of these five mistakes. None of them are obvious from inside the tutorial.</p>
+
+    <h3 id="mistake-equal-upgrades">1. Upgrading Everything Equally</h3>
+    <p>The instinct from other city builders is to keep every building at the same level. In Last Asylum that produces a city that is mediocre at everything and gated by nothing. Follow the priority order — Sanctuary first, military and research buildings next, everything else when it blocks you. The full order and the level-by-level roadmap are in the <a href="/buildings/">Buildings guide</a>.</p>
+
+    <h3 id="mistake-judging-early">2. Judging Heroes Too Early</h3>
+    <p>A low-star, level-60 hero feels terrible — weak skills, thin multipliers, no Tenacity. The same hero at high stars is a monster. The classic example is Marlena: she reads as underwhelming early and then becomes roughly 85% of a standard squad&apos;s damage once her stars and skills come online. Judge a hero at their breakpoint, not at level 60 with two stars.</p>
+
+    <h3 id="mistake-splitting">3. Splitting Resources Across Many Heroes</h3>
+    <p>Eight half-built heroes lose to two finished ones in every fight that matters, and the shard economy means the resources you wasted on seat-fillers are not coming back. Pick the main five, name the two or three you are building this month, and be ruthless about everything else.</p>
+
+    <h3 id="mistake-stamina">4. Letting Stamina Cap</h3>
+    <p>Stamina that sits at the cap is income you permanently deleted — the game does not bank overflow. Spend it on monsters or plunder before you log off, every session, from day one.</p>
+
+    <h3 id="mistake-plunder">5. Missing Daily Plunder</h3>
+    <p>Kept up, daily plundering is worth roughly 27 million resources per day later in the game. Skipped, there is no make-up mechanic — those resources are simply gone. Attack the richest target you can beat, respect the daily limit thresholds, and never tenth-hit a farm. The complete plunder rulebook is in the <a href="/economy/">Economy guide</a>.</p>
+
+        <Calculators calc="cynthia-wheel" lang={lang} />
+    <VideoSection topic="beginner" lang={lang} />
+  </GuidePage>
+</Base>

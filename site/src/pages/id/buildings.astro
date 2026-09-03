@@ -1,0 +1,118 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+<Base lang={lang} path="/id/buildings/" title="Prioritas Bangunan &amp; Roadmap Sanctuary" description="Roadmap Sanctuary sampai level 30, urutan prioritas bangunan, fungsi setiap bangunan, dan cara menumpuk buff kecepatan konstruksi secara berurutan yang benar.">
+  <GuidePage title="Prioritas Bangunan &amp; Roadmap Sanctuary" description="Roadmap Sanctuary sampai level 30, urutan prioritas bangunan, fungsi setiap bangunan, dan cara menumpuk buff kecepatan konstruksi secara berurutan yang benar." lang={lang}>
+    <p>Membangun di Last Asylum: Plague adalah permainan panjang — dorongan Sanctuary dari level 1 ke level 30 memakan waktu berbulan-bulan, dan urutan yang salah menghabiskan beberapa minggu darinya. Halaman ini adalah urutan bangunan komunitas: bangunan mana yang penting dan dalam urutan apa, roadmap Sanctuary level demi level, dan matematika pasti dari penumpukan kecepatan konstruksi.</p>
+    <p>Satu pertanyaan yang menentukan setiap slot antrean: apakah ini membuat Anda lebih kuat atau lebih cepat? Jika jawabannya tidak, itu bisa menunggu.</p>
+
+    <h2 id="priority-order">Urutan Prioritas Bangunan</h2>
+    <p>Ketika beberapa bangunan tersedia sekaligus, urutan komunitas sudah tetap:</p>
+    <ol>
+      <li><strong>Sanctuary</strong> — selalu. Ini membatasi setiap level lain di kota, batas level hero, dan tier pasukan. Setiap kali upgrade Sanctuary tersedia, itu masuk antrean lebih dulu.</li>
+      <li><strong>Training Grounds</strong> — tier pasukan dan kapasitas pelatihan. Pasukan adalah yang membersihkan monster, memenangkan rally, dan membawa jarahan pulang.</li>
+      <li><strong>Barracks</strong> — kapasitas prajurit. Pasukan tetap yang lebih besar berarti lebih banyak kekuatan dan lebih pukulan per march.</li>
+      <li><strong>Research Lab</strong> — riset statistik dan ekonomi permanen. Lebih lambat menghasilkan daripada pasukan, tetapi berbunga selamanya.</li>
+      <li><strong>Infirmary</strong> — menyembuhkan yang terluka setelah kekalahan. Infirmary kecil berarti setiap pertempuran yang kalah menggerus pasukan yang tidak bisa Anda pulihkan.</li>
+      <li><strong>Wall</strong> — pertahanan. Nyata sampai seseorang yang lebih kuat tiba juga, itulah mengapa dia duduk paling akhir.</li>
+    </ol>
+    <p>Aturan di balik daftar itu: jika sebuah bangunan tidak membuat Anda lebih kuat atau lebih cepat, bangunan itu tidak mendesak. Bangunan produksi, depo dan dekorasi tetap dibangun — tetapi hanya ketika enam di atas tidak punya pekerjaan atau gerbang memaksa mereka.</p>
+
+    <h2 id="building-functions">Fungsi Setiap Bangunan</h2>
+    <p>Referensi cepat untuk bangunan yang benar-benar akan Anda sentuh. Terjemahan berbeda antar klien game, jadi ketika dua nama terdengar mirip, periksa tooltip dalam game untuk efek persisnya di versi Anda.</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Bangunan</th><th>Fungsinya</th><th>Catatan komunitas</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Sanctuary</td><td>Membatasi semua level bangunan lain, menetapkan batas level hero, memberikan EXP per upgrade, dan membuka bangunan serta fitur seiring naiknya level.</td><td>Upgrade setiap cooldown. Itu level pemain Anda yang sesungguhnya.</td></tr>
+        <tr><td>Builder&apos;s Hut</td><td>Menghasilkan percepatan konstruksi gratis. Survivor yang ditempatkan di dalam memberikan bonus ekstra — pasang survivor yang lebih baik seiring Anda merekrutnya.</td><td>Biarkan di level Sanctuary sampai Sanctuary 15 untuk aliran percepatan gratis.</td></tr>
+        <tr><td>Research Lab</td><td>Menjalankan pohon teknologi Anda: riset ekonomi, militer, dan pengembangan.</td><td>Prioritas #4 — statistik permanen yang berbunga terus.</td></tr>
+        <tr><td>Barracks / Training Grounds</td><td>Nama sering tertukar antar terjemahan. Satu membuka tier pasukan; yang lain menambah kapasitas prajurit.</td><td>Periksa tooltip dalam game untuk melihat mana yang mana di klien Anda, lalu bangun pembuka tier lebih dulu.</td></tr>
+        <tr><td>Infirmary</td><td>Menyembuhkan prajurit yang terluka setelah kekalahan.</td><td>Infirmary kecil = kehilangan pasukan permanen setelah setiap pertempuran yang kalah.</td></tr>
+        <tr><td>Antitoxin Workshop</td><td>Menghasilkan Antidote — sumber daya hero utama yang dipakai di berbagai sistem progresi hero.</td><td>bangun lebih awal. Tertinggal dalam Antidote membuat upgrade hero tersendat nanti.</td></tr>
+        <tr><td>Gear / Smelting / Weaving Workshops</td><td>Membuat dan meng-upgrade perlengkapan hero dari material hasil farm.</td><td>Level Gear Workshop tinggi tiba bersama Sanctuary 20 — satu lagi alasan level 20 penting.</td></tr>
+        <tr><td>Tavern</td><td>Rekrutmen hero — sistem banner dan pull berada di sini.</td><td>Simpan intan untuk event UR bertanggal alih-alih membuangnya di sini.</td></tr>
+        <tr><td>Alliance Hall</td><td>Memperdalam partisipasi dan hadiah aliansi.</td><td>Ikuti roadmap di bawah — ini lebih penting daripada yang pemain baru harapkan.</td></tr>
+      </tbody>
+    </table>
+
+    <h3 id="barracks-vs-training">Barracks vs Training Grounds — Jebakan Penamaan</h3>
+    <p>Satu bangunan membuka tier pasukan baru, dan yang lain menambah berapa banyak prajurit yang bisa Anda pegang. Nama mana yang melakukan apa tergantung pada terjemahan klien Anda — dua pemain yang berdebat soal itu mungkin keduanya benar. Buka bangunannya dan baca tooltipnya: jika efek yang tercantum membuka tier, itu pembuka tier Anda dan dia jalan duluan; jika kapasitas prajurit, dia jalan kedua. Panduan komunitas dari region berbeda menukar nama-nama itu dengan bebas, jadi percayai tooltip daripada judul panduan.</p>
+
+    <h2 id="sanctuary-roadmap">Roadmap Sanctuary per Level</h2>
+    <p>Ini roadmap komunitas (dari panduan oleh elsiika57) untuk apa yang di-upgrade di setiap tahap Sanctuary. Baca sebagai: sambil mendorong Sanctuary menuju level X, naikkan bangunan yang tercantum ke level yang tercantum. Roadmap ini ada untuk menghentikan Anda menaikkan bangunan yang tidak Anda butuhkan selama berminggu-minggu sementara yang Anda butuhkan setiap hari tertinggal.</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Dorongan Sanctuary</th><th>Naikkan bangunan ini</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Lv 1-10</td><td>Lv 4 Lumber Depot 1, Granary 1, Storage 1. Di Sanctuary 5-6: Walls 3 sampai 5. Di Sanctuary 7-8: Training Grounds 4, Alliance Hall 3 sampai 5. Di Sanctuary 9-10: Walls 8-9, Alliance Hall 7, Infirmary 7.</td></tr>
+        <tr><td>Lv 11-18</td><td>Di Sanctuary 11: Training Grounds 10, Research Lab 7. Di Sanctuary 12-13: Research Lab 11-12, Walls 10, Alliance Hall 11. Di Sanctuary 14-15: Research Lab 13-14, Warrior Statue 12, Training Grounds 14. Di Sanctuary 16-18: Warrior Statue 14, Research Lab 15-17, Barracks 15, Training Grounds 17.</td></tr>
+        <tr><td>Lv 19-24</td><td>Research Lab 18, Warrior Statue 17, Alliance Hall 18. Di Sanctuary 21-22: Research Lab 20, Training Grounds 20, Infirmary 21. Di Sanctuary 23-24: Infirmary 22, Research Lab 23, Walls 23.</td></tr>
+        <tr><td>Lv 25-29</td><td>Training Grounds 24, Research Lab 24-25, Warrior Statue 25. Di Sanctuary 27-28: Research Lab 26, Training Grounds 26, Barracks 27. Di Sanctuary 29: Alliance Hall 28, Research Lab 28.</td></tr>
+        <tr><td>Lv 30</td><td>Sanctuary 30 adalah maksimal. Selesaikan setiap gerbang yang tersisa.</td></tr>
+      </tbody>
+    </table>
+    <p>Perhatikan pola di dalam tabel: Research Lab dan Training Grounds tidak pernah tertinggal jauh dari Sanctuary, Walls dan Infirmary mengejar dalam blok, dan Alliance Hall didorong dalam tiga jendela terpisah. Jika kota Anda pernah menyimpang liar dari bentuk ini, itu biasanya tanda kesalahan — paling sering menyetarakan level semua bangunan.</p>
+
+    <h2 id="milestones">Tonggak Penting: 20, 24, 27, 30</h2>
+    <p>Dorongan Sanctuary bukan satu grind panjang — itu empat sprint di antara tonggak yang masing-masing membuka lompatan kekuatan nyata.</p>
+    <ul>
+      <li><strong>Sanctuary 20</strong> — Pasukan Tier 7 dan Gear Workshop level tinggi tiba bersamaan. Ini lompatan kekuatan tunggal terbesar mid-game dan dorongan pertama yang layak membakar percepatan simpanan.</li>
+      <li><strong>Sanctuary 24, lalu 27</strong> — dorongan tier berikutnya. Setiap satu menaikkan tier pasukan dan plafon workshop lagi.</li>
+      <li><strong>Sanctuary 30</strong> — batas maksimal. Semua yang tersisa di kota sekarang bisa diselesaikan.</li>
+    </ul>
+    <p>Waspadai biaya tonggak akhir: melewati pertengahan 20-an, satu upgrade bisa memakan lebih dari 100 juta sumber daya. Mulailah memperlakukan penimbunan sumber daya sebagai bagian dari rencana bangunan — lihat bagian penskalaan sumber daya di bawah.</p>
+
+    <h2 id="construction-speed">Penumpukan Kecepatan Konstruksi — Matematika yang Benar</h2>
+    <p>Buff kecepatan konstruksi menumpuk dari lima sumber, dan bersama-sama memampatkan upgrade 38 hari menjadi 20 hari (dari panduan oleh chuppergaming). Buff-nya:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Sumber</th><th>Bonus</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Riset Personal Development</td><td>+5%, lalu +10% di node level 5</td></tr>
+        <tr><td>Riset Aliansi — Fast Building</td><td>+20%</td></tr>
+        <tr><td>VIP level 11</td><td>+45%</td></tr>
+        <tr><td>Royal City — gelar Minister of Construction</td><td>+50%</td></tr>
+      </tbody>
+    </table>
+    <p>Sekarang bagian yang hampir semua orang salah: buff ini berlaku pada <strong>sisa waktu, secara berurutan</strong> — bukan secara aditif dari basis. Anda tidak bisa menjumlahkan 10% + 5% + 20% + 45% + 50% dan memotong timer sebesar 130% dari apa pun.</p>
+    <p>Berikut aritmetika nyatanya pada upgrade 37 hari:</p>
+    <ol>
+      <li>Mulai: 37 hari.</li>
+      <li>Terapkan buff 10%: hapus 10% dari sisa waktu — 37 dikurangi 3,7 = 33,3 hari.</li>
+      <li>Terapkan buff 5%: hapus 5% dari yang tersisa — 33,3 dikurangi 1,665 = 31,6 hari.</li>
+      <li>Setiap buff berikutnya terus mencukur sisanya, bukan angka aslinya.</li>
+    </ol>
+    <p>Setiap buff tambahan karenanya bernilai sedikit lebih rendah daripada sebelumnya. Konsekuensi praktisnya:</p>
+    <ul>
+      <li>Urutan buff tidak memengaruhi hasil akhir — tetapi Anda harus punya buff aktif saat timernya panjang, karena nilai mereka menskalakan dengan sisa waktu.</li>
+      <li>Terapkan semuanya <strong>sebelum</strong> memulai dorongan besar Sanctuary 20+, bukan di tengah jalan.</li>
+      <li>Mengamankan gelar Minister of Construction dan VIP 11 sebelum dorongan akhir bernilai berhari-hari timer dengan sendirinya.</li>
+    </ul>
+
+    <h2 id="resource-scaling">Penskalaan Sumber Daya — Rencanakan Timbunan Anda</h2>
+    <p>Biaya bangunan di Sanctuary 8 tidak memberi tahu Anda apa pun tentang biayanya di Sanctuary 25. Kurvanya berjalan dalam tiga fase:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Fase</th><th>Biaya tipikal per upgrade</th><th>Artinya</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Awal (Sanctuary 1-10)</td><td>Ribuan hingga jutaan rendah</td><td>Produksi menutupinya. Belanjakan dengan bebas, jaga antrean penuh.</td></tr>
+        <tr><td>Tengah (Sanctuary 11-24)</td><td>Puluhan juta</td><td>Menjarah dan event memikul bebannya — menjarah harian berhenti jadi pilihan.</td></tr>
+        <tr><td>Akhir (Sanctuary 25-30)</td><td>Lebih dari 100 juta</td><td>Timbun selama berhari-hari sebelum mulai. Upgrade yang tidak bisa Anda beri makan menghentikan seluruh antrean Anda.</td></tr>
+      </tbody>
+    </table>
+    <p>Dan jaga campurannya seimbang: selalu simpan Grain, Timber, dan Herbs. Upgrade akhir memakan ketiganya sekaligus, dan kehabisan salah satunya di tengah dorongan membuang tepat timer yang Anda tumpuk buff untuk hemat.</p>
+
+    <VideoSection topic="buildings" lang={lang} />
+  </GuidePage>
+</Base>

@@ -1,0 +1,101 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ru';
+
+const comparisons = [
+  {
+    slug: 'marlena-vs-zoya',
+    title: 'Marlena vs Zoya — какого UR-кэрри?',
+    verdict: 'Сначала Marlena, Zoya позже',
+    points: [
+      ['Доступность', 'Почти бесплатно ($1 топап), на 66-й день — бесплатно', 'Только покупка (10 фрагментов на старт)'],
+      ['Доля урона', '~85% урона отряда в одиночку', 'Делит ~50/50 с вкачанной Marlena'],
+      ['Тип урона', 'Микс физ/энергия по билду', 'Энергия — нужны энергетические саппорты'],
+      ['Синергия', 'Бафается 4× в стандартной компе (ульта Harper + Bell + пассивка Claire)', 'Не стакуется с физическим Jester'],
+      ['Вердикт F2P', 'Главный кэрри всего F2P-пути', 'Меняй Claire только если твоя Zoya в высоких звёздах'],
+    ],
+  },
+  {
+    slug: 'cynthia-vs-marlena-f2p',
+    title: 'Cynthia vs Marlena для F2P',
+    verdict: 'Заплати $1 — но Cynthia сработает, если совсем нельзя',
+    points: [
+      ['Цена', '~11 500 алмазов (колесо 8-го дня)', '$1 топап'],
+      ['Ранняя сила', 'Сильный ранний кэрри (ranger UR)', 'Late-bloomer — слаба до высоких звёзд'],
+      ['Лейт-гейм', 'Минус 5% фракционного бонуса + синергии Harper/эпиграфов', 'Ядро моно-Warrior-меты'],
+      ['Тайминг колеса', 'Копить алмазы дни 1–8', 'Без затрат алмазов'],
+      ['Вердикт', 'Ранний спайк, падает поздно', 'Советуется повсеместно вместо Cynthia'],
+    ],
+  },
+  {
+    slug: 'annie-vs-joker',
+    title: 'Annie vs Joker — какой варлок-кэрри?',
+    verdict: 'Annie для ценности, Joker для добивания в PvP',
+    points: [
+      ['Роль', 'Стабильный кэрри + ценность команды на 8★', 'Экзекутор — цели с низким HP'],
+      ['F2P-доступ', 'Hero Pass (выбор сообщества)', 'Колесо после 15-го дня'],
+      ['Синергия', 'Пары с энергосаппортами', 'Физический — НЕ пара Zoya'],
+      ['Лучше всего', 'Долгие бои, контент против монстров', 'PvP-зачистка после Marlena'],
+    ],
+  },
+  {
+    slug: 'claire-vs-keep-ssr',
+    title: 'Claire SSR→UR — конвертировать сейчас или ждать?',
+    verdict: 'Конвертируй всегда — вопрос только в тайминге',
+    points: [
+      ['Личный урон', '9★ UR ≈ 1.70× максовой SSR; 10★ ≈ 2.20×', '—'],
+      ['Командный баф', 'Провал 16% → 10% на 6★ (реально пара % урона)', '—'],
+      ['Пропуск провала', 'Зал Чести: ур.60→8★, ур.100→9★, ур.160→сразу 10★', '—'],
+      ['PvP', 'Adv. Tenacity на 8★ = +20% ATK/HP/DEF +10% кулдаун', '—'],
+      ['Цена', '1 600 SSR-осколков по 2× цене (6★→10★)', '—'],
+    ],
+  },
+  {
+    slug: 'shadow-vs-lucius',
+    title: 'Shadow vs Lucius — второй танк',
+    verdict: 'Lucius бесплатно сейчас; Shadow если берёшь Hero Pass',
+    points: [
+      ['Цена', 'Hero Pass (платно)', 'Бесплатные осколки'],
+      ['Масштабирование', '8★/10★ заметно лучше 6★', 'Стабильная заглушка'],
+      ['Правило', 'Если куплен: ВРЕМЕННЫЙ герой — макс 8★, скиллы 15–20', 'Ставь свободно, пока строишь Daskal'],
+      ['Эндгейм', 'Daskal заменяет обоих', '—'],
+    ],
+  },
+];
+---
+
+<Base lang={lang} path="/compare/" title="Сравнения героев" description="Marlena vs Zoya, Annie vs Joker, тайминг конверсии Claire — вердикты сообщества с точными цифрами.">
+  <GuidePage
+    title="⚖️ Сравнения героев"
+    description="Споры, которые реально идут в сообществе — с решениями из гайдов и точными цифрами."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/ru/' }, { label: 'Сравнения' }]}
+  >
+    <p class="mb-6 text-stone-400">Названия умений и цифры — как в английской версии игры.</p>
+
+    {comparisons.map((c) => (
+      <section class="not-prose mb-10">
+        <h2 id={c.slug} class="mb-1 text-2xl font-bold text-plague-200">{c.title}</h2>
+        <p class="mb-4 text-sm font-semibold text-toxic-400">✓ {c.verdict}</p>
+        <div class="overflow-x-auto rounded-lg border border-stone-800">
+          <table class="w-full text-sm">
+            {c.points.map((row) => (
+              <tr class="border-t border-stone-800 first:border-t-0">
+                <td class="w-40 bg-stone-900 p-3 font-semibold text-plague-300">{row[0]}</td>
+                <td class="p-3 text-stone-300">{row[1]}</td>
+                <td class="p-3 text-stone-400">{row[2]}</td>
+              </tr>
+            ))}
+          </table>
+        </div>
+      </section>
+    ))}
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

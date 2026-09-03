@@ -1,0 +1,104 @@
+---
+import Base from '../../layouts/Base.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ko';
+
+const sections = [
+  { href: '/ko/beginners/', icon: '🌱', title: '초보자 가이드', key: 'home.sections.beginners.desc', color: 'from-green-900/40' },
+  { href: '/ko/buildings/', icon: '🏰', title: '건물', key: 'home.sections.buildings.desc', color: 'from-amber-900/40' },
+  { href: '/ko/heroes/', icon: '⚔️', title: '영웅', key: 'home.sections.heroes.desc', color: 'from-red-900/40' },
+  { href: '/ko/economy/', icon: '💰', title: '경제', key: 'home.sections.economy.desc', color: 'from-yellow-900/40' },
+  { href: '/ko/raven/', icon: '🐦‍⬛', title: '까마귀와 에피그라프', key: 'home.sections.raven.desc', color: 'from-purple-900/40' },
+  { href: '/ko/era/', icon: '☣️', title: '부흥시대', key: 'home.sections.era.desc', color: 'from-lime-900/40' },
+  { href: '/ko/codes/', icon: '🎁', title: '프로모 코드', key: 'home.sections.codes.desc', color: 'from-toxic-900/40' },
+  { href: '/ko/patch-notes/', icon: '📜', title: '패치 노트', key: 'home.sections.patchnotes.desc', color: 'from-stone-700/40' },
+];
+
+const popular = [
+  { href: '/ko/beginners/', title: '첫 24시간', desc: '계정의 운명을 결정하는 첫날 체크리스트.' },
+  { href: '/ko/economy/', title: '다이아몬드와 상점', desc: '각 상점에서의 정확한 구매 순서 — 그리고 절대 사면 안 되는 것들.' },
+  { href: '/ko/heroes/', title: 'F2P 부대', desc: 'Arthur, Daskal, Marlena, Harper, Claire — 정석 코스.' },
+  { href: '/ko/events/undead/', title: '언데드 공성전', desc: '9.5M 전력 플레이어를 쓰러뜨리는 웨이브당 2부대 숨겨진 메커니즘.' },
+  { href: '/ko/events/alliance-duel/', title: '동맹 결투', desc: '스크롤 — 3단계, 샤드 — 4단계, 가속 — 5단계.' },
+  { href: '/ko/era/', title: 'Claire SSR→UR', desc: '명예의 전당 레벨로 6★–9★ 실패를 건너뛰는 방법.' },
+];
+---
+
+<Base lang={lang} path="/ko/">
+  <!-- Hero -->
+  <section class="relative overflow-hidden border-b border-stone-800">
+    <div class="absolute inset-0 bg-gradient-to-b from-plague-950/80 to-transparent"></div>
+    <div class="relative py-20 sm:py-28">
+      <p class="mb-3 text-sm font-semibold uppercase tracking-widest text-toxic-400">Last Asylum: Plague — 팬 허브</p>
+      <h1 class="mb-5 text-4xl font-bold tracking-tight text-plague-100 sm:text-6xl">
+        {t(lang, 'home.hero.title')}
+      </h1>
+      <p class="mb-8 max-w-2xl text-lg leading-relaxed text-stone-300">
+        {t(lang, 'home.hero.subtitle')}
+      </p>
+      <div class="flex flex-wrap gap-3">
+        <a href="/ko/beginners/" class="rounded-lg bg-plague-700 px-6 py-3 font-semibold text-plague-50 hover:bg-plague-600 transition-colors">
+          {t(lang, 'home.cta.guides')} →
+        </a>
+        <a href="/ko/events/" class="rounded-lg border border-stone-700 px-6 py-3 font-semibold text-stone-200 hover:bg-stone-800 transition-colors">
+          {t(lang, 'home.cta.events')} →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sections grid -->
+  <section class="py-14">
+    <h2 class="mb-8 text-2xl font-bold text-plague-200">가이드</h2>
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {sections.map((s) => (
+        <a href={s.href} class={`group rounded-xl border border-stone-800 bg-gradient-to-br ${s.color} to-stone-900 p-6 transition-colors hover:border-plague-500`}>
+          <span class="text-3xl">{s.icon}</span>
+          <h3 class="mt-3 text-lg font-bold text-plague-200 group-hover:text-plague-100">{s.title}</h3>
+          <p class="mt-2 text-sm text-stone-400">{t(lang, s.key as any)}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Events banner -->
+  <section class="mb-14 rounded-xl border border-plague-800 bg-plague-950/50 p-8">
+    <div class="flex flex-wrap items-center justify-between gap-4">
+      <div>
+        <h2 class="text-xl font-bold text-plague-200">⚔️ {t(lang, 'nav.events')}</h2>
+        <p class="mt-1 text-stone-400">{t(lang, 'home.sections.events.desc')}</p>
+      </div>
+      <a href="/ko/events/" class="rounded-lg bg-plague-700 px-5 py-2.5 font-semibold text-plague-50 hover:bg-plague-600 transition-colors">
+        {t(lang, 'home.cta.events')} →
+      </a>
+    </div>
+  </section>
+
+  <!-- Popular guides -->
+  <section class="mb-16">
+    <h2 class="mb-8 text-2xl font-bold text-plague-200">{t(lang, 'home.latest.title')}</h2>
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {popular.map((p) => (
+        <a href={p.href} class="group rounded-lg border border-stone-800 bg-stone-900 p-5 transition-colors hover:border-plague-600">
+          <h3 class="font-bold text-stone-100 group-hover:text-plague-200">{p.title}</h3>
+          <p class="mt-2 text-sm text-stone-400">{p.desc}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Support banner -->
+  <section class="mb-16 rounded-xl border border-stone-800 bg-stone-900 p-8">
+    <div class="flex flex-wrap items-center justify-between gap-4">
+      <div>
+        <h2 class="text-xl font-bold text-plague-200">❤️ {t(lang, 'nav.support')}</h2>
+        <p class="mt-1 text-stone-400">{t(lang, 'home.sections.support.desc')}</p>
+      </div>
+      <a href="/ko/support/" class="rounded-lg bg-blood-600 px-5 py-2.5 font-semibold text-white hover:bg-blood-500 transition-colors">
+        {t(lang, 'nav.support')} →
+      </a>
+    </div>
+  </section>
+</Base>

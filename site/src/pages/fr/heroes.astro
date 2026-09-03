@@ -1,0 +1,111 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'fr';
+---
+<Base lang={lang} path="/fr/heroes/" title="Guide des héros : escouades, parcours F2P, compétences" description="L&apos;escouade F2P canonique et son calendrier complet, le timing de faction pour Guerriers, Éclaireurs et Occultistes, les priorités d&apos;amélioration des compétences, les seuils d&apos;étoiles et l&apos;ordre des héros Éveillés pour l&apos;Ère du Renouveau.">
+  <GuidePage title="Guide des héros : escouades, parcours F2P, compétences" description="L&apos;escouade F2P canonique et son calendrier complet, le timing de faction pour Guerriers, Éclaireurs et Occultistes, les priorités d&apos;amélioration des compétences, les seuils d&apos;étoiles et l&apos;ordre des héros Éveillés pour l&apos;Ère du Renouveau." lang={lang}>
+    <p>Les héros sont le plus grand multiplicateur de Puissance dans Last Asylum: Plague — et la chose la plus chère à corriger si mal construits. L&apos;économie des fragments et insignes punit la dispersion de l&apos;investissement, donc la communauté a convergé vers un parcours free-to-play canonique et un ordre d&apos;opérations strict autour de celui-ci.</p>
+    <p>Cette page couvre : quelle faction chevaucher à chaque étape du jeu, l&apos;escouade F2P canonique avec son calendrier jour par jour, les priorités de compétences vérifiées par analyse de dégâts-par-insigne, les seuils d&apos;étoiles, et l&apos;ordre de progression des héros Éveillés pour la saison de l&apos;Ère du Renouveau.</p>
+
+    <h2 id="faction-timing">Timing de faction : Guerriers tôt, Éclaireurs au milieu, Occultistes tard</h2>
+    <p>Les trois factions ne sont pas égales au même stade du jeu. Le consensus de la communauté sur le moment où chacune culmine :</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Faction</th><th>Fenêtre de pic</th><th>Pourquoi</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Guerriers</td><td>Début de partie</td><td>Arthur gratuit plus fragments gratuits de Harper, et la recharge de $1 de Marlena au jour 66. Le jeu vous donne un noyau de Guerriers presque gratuitement.</td></tr>
+        <tr><td>Éclaireurs</td><td>Mi-jeu</td><td>Les Éclaireurs contrent les Guerriers — une formation d&apos;Éclaireurs subit 20% de dégâts en moins d&apos;eux. Avec de l&apos;investissement, une escouade d&apos;Éclaireurs de mi-jeu bat environ 98% de ce qu&apos;elle rencontre.</td></tr>
+        <tr><td>Occultistes</td><td>Fin de partie</td><td>Le plafond le plus haut, mais seulement avec un investissement lourd — ils doivent surmonter le bonus des Guerriers pour y arriver. Dépensez ou soyez patient.</td></tr>
+      </tbody>
+    </table>
+    <p>Pour un nouveau compte, cela résout un dilemme courant : construisez le noyau de Guerriers qu&apos;on vous a donné, même si vous admirez les formations d&apos;Éclaireurs. Vous pourrez pivoter vers les Éclaireurs quand votre économie pourra vraiment en financer une.</p>
+
+    <h2 id="f2p-squad">L&apos;escouade F2P canonique</h2>
+    <p>Le build free-to-play standard de la communauté, assemblé pendant les premiers mois d&apos;un compte :</p>
+    <p><strong>Arthur, Daskal, Marlena, Harper, Claire</strong></p>
+    <p>Trois choses en font le standard : chaque héros est gratuit ou presque, les pièces arrivent dans un ordre qui donne toujours à votre meilleure escouade quelque chose vers quoi grandir, et il empile vers le bonus mono-faction de Guerriers que le méta de fin de jeu récompense.</p>
+
+    <h3 id="f2p-timeline">Le calendrier F2P</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Quand</th><th>Action</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Jours 1-2</td><td>Arthur arrive gratuitement et devient votre tank. Remplissez les sièges restants avec les fragments gratuits de Bella, Claire et Celia.</td></tr>
+        <tr><td>Début de partie</td><td>Investissez UNIQUEMENT dans Claire et Arthur. Tous les autres restent des remplaçants — y compris Bella et Celia.</td></tr>
+        <tr><td>Au fil du chemin</td><td>Harper à 8 étoiles est obligatoire pour le build standard. Nourrissez-le régulièrement ; ne le laissez pas garé à 6.</td></tr>
+        <tr><td>Jour 66</td><td>La recharge de $1 de Marlena. Gardez des fragments UR pour l&apos;emmener directement à 8 étoiles sur-le-champ — puis continuez vers 10.</td></tr>
+        <tr><td>Jour 120+ (Ère du Renouveau)</td><td>Daskal rejoint en tant que meilleur tank du jeu. Claire devient UR via la conversion du Jour 8 de l&apos;Ère — ses fragments étaient gratuits tôt, c&apos;est exactement pour ça que vous les aviez gardés au lieu de les dépenser.</td></tr>
+      </tbody>
+    </table>
+    <p>Les deux points de discipline qui font ou cassent le build : Claire et Arthur uniquement, tôt — et ne mangez jamais vos fragments de Claire économisés avant la conversion de l&apos;Ère, parce que la conversion en UR est précisément pour quoi ces fragments étaient thésaurisés.</p>
+
+    <h2 id="alternatives">Alternatives et variantes</h2>
+    <p>Les cinq canoniques ne sont pas le seul chemin viable — voici les substituts et variantes régionales reconnus.</p>
+    <h3 id="no-marlena">Pas de Marlena à $1 : Cynthia à la place</h3>
+    <p>Passé outre le dollar ? Cynthia de la Roue des Vœux du jour 8 est la remplaçante — une UR carry de début qui portera vraiment. Les compromis arrivent en fin de partie : vous perdez le bonus de faction de 5% en cassant l&apos;empilement mono-faction, et vous perdez la synergie de Harper et des épigraphes autour de laquelle le noyau standard est construit. Viable, mais vous sentirez les maillons manquants au sommet.</p>
+    <h3 id="f2p-pvp-variant">Variante F2P PvP</h3>
+    <p>Pour les comptes qui veulent se battre contre des joueurs plutôt que de grandir tranquillement : <strong>Arthur, Lucius ou Bella, Claire, Marlena, Cynthia</strong>. Ça troque un morceau du bonus de faction contre le punch PvP de Cynthia en finisseuse.</p>
+    <h3 id="russian-variant">Le build de la communauté russe</h3>
+    <p>La communauté F2P russe joue : Avant — Arthur et Lucius (la paire est surnommée le Bouclier Absolu) ; Arrière — Claire, Kesso et Celia. Sivir couvre les premiers mois, Harper est le projet à long terme. Même logique que le build occidental, pièces différentes sur le même échiquier.</p>
+
+    <h2 id="mono-faction-meta">Le méta mono-faction</h2>
+    <p>Depuis l&apos;arrivée des épigraphes du Corbeau, jouer une seule faction est passé de bonus sympa à stratégie dominante. La raison : les épigraphes UR buffent UNE seule faction, donc une escouade empilée multiplie tout — le bonus de +20% à cinq héros de la <a href="/fr/beginners/">table des factions</a>, plus les bonus d&apos;épigraphes UR, plus les synergies spécifiques de faction comme celle de Harper.</p>
+    <p>C&apos;est aussi pourquoi l&apos;escouade canonique est tout-Guerriers : l&apos;investissement en épigraphes se compose au-dessus d&apos;une faction déjà empilée. Les escouades multi-factions paient pour des épigraphes qui ne buffent que la moitié de l&apos;équipe.</p>
+    <p>Pour les dépensiers, il y a une exception pratique : les héros temporaires. Shadow et Cynthia sont montés à 8 étoiles avec des compétences à 15-20 puis servent de spécialistes d&apos;événement et de PvP — assez investis pour compter, jamais au point de manger le budget de l&apos;escouade principale.</p>
+
+    <h2 id="skill-priorities">Priorités d&apos;amélioration des compétences</h2>
+    <p>Les compétences dévorent des insignes, et les insignes sont rares. L&apos;ordre ci-dessous est vérifié par l&apos;analyse communautaire de dégâts-par-insigne — ce n&apos;est pas une impression, c&apos;est mesuré.</p>
+    <h3 id="marlena-skills">Marlena : là où vivent les dégâts</h3>
+    <p>Marlena représente environ <strong>85% des dégâts de votre escouade jusqu&apos;à l&apos;arrivée de Zoya</strong>, et 50/50 avec elle après. Elle est la première destination des insignes.</p>
+    <p>Mais il y a un piège dans son kit : ne montez jamais l&apos;attaque automatique de Marlena à 30 tôt. L&apos;ordre vérifié est :</p>
+    <ol>
+      <li>L&apos;Ultime d&apos;abord — toujours.</li>
+      <li>La compétence active en second.</li>
+      <li>L&apos;attaque automatique en dernier, et seulement à un niveau modeste jusqu&apos;à ce que ses autres compétences soient faites.</li>
+    </ol>
+    <h3 id="claire-skills">Claire : la passive est le cœur</h3>
+    <p>La compétence clé de Claire est sa passive — l&apos;amplificateur de dégâts pour toute l&apos;équipe. Le plan vérifié : toutes les compétences à environ 15, la passive à 20, et tenez là jusqu&apos;à l&apos;arrivée de Zoya qui rebat les priorités.</p>
+
+    <h2 id="star-breakpoints">Seuils d&apos;étoiles et Ténacité</h2>
+    <p>Les étoiles sont le plus grand multiplicateur individuel de la Puissance d&apos;un héros. Le saut significatif arrive après <strong>4 étoiles</strong> — en dessous, un héros est un chauffeur de siège ; au-dessus, le même héros commence à gagner des combats. C&apos;est pourquoi le premier objectif d&apos;étoiles de la communauté pour chaque héros de l&apos;escouade principale est de passer le cap des 4, pas de disperser des fragments pour rendre tout le monde également médiocre.</p>
+    <p>Les héros UR ont un second grand seuil : au niveau 30 et 8 étoiles, ils débloquent la <strong>Ténacité</strong>. C&apos;est un grand saut de survie et la raison pour laquelle 8 étoiles est le point de repos standard des héros UR — les 8 étoiles instantanées de Marlena au jour 66 sont conçues autour de ça.</p>
+
+    <h2 id="awakened-order">Héros Éveillés : l&apos;ordre de progression de l&apos;Ère</h2>
+    <p>Dans la saison de l&apos;Ère du Renouveau, la progression des héros Éveillés suit un ordre fixe. Pour votre héros principal, complétez chaque étape avant de commencer la suivante :</p>
+    <ol>
+      <li>Héros principal à 10 étoiles.</li>
+      <li>Éveil.</li>
+      <li>Arme Exclusive.</li>
+      <li>Évolution du Seigneur.</li>
+      <li>Résistance du Seigneur.</li>
+      <li>Amélioration d&apos;Ère — une seule skin principale.</li>
+      <li>Seulement ensuite : commencez le second héros dans la même échelle.</li>
+    </ol>
+    <p>La règle qui régit tout : <strong>ne divisez jamais les matériaux d&apos;Éveil</strong>. Éveiller un héros complètement surpasse éveiller deux héros à moitié — mieux vaut une marche forte que plusieurs inachevées. Le contexte spécifique de l&apos;Ère pour chaque étape est dans le <a href="/fr/era/">guide de l&apos;Ère du Renouveau</a>.</p>
+
+    <h2 id="might-formula">La formule de la Puissance</h2>
+    <p>Quand vous comparez des comptes, la Puissance est la somme de cinq piles séparées :</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Composant</th><th>Source</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Puissance des Héros</td><td>Niveaux, étoiles, compétences et équipement de vos héros.</td></tr>
+        <tr><td>Puissance du Corbeau</td><td>Niveaux, équipement et épigraphes du Corbeau — voir le <a href="/fr/raven/">guide du Corbeau</a>.</td></tr>
+        <tr><td>Puissance des Soldats</td><td>Paliers de troupes et taille d&apos;armée.</td></tr>
+        <tr><td>Bonus Techno</td><td>Arbre du Laboratoire de Recherche.</td></tr>
+        <tr><td>Bonus Bâtiments</td><td>Bâtiments de la ville — la Statue du Guerrier, entre autres.</td></tr>
+      </tbody>
+    </table>
+    <p>Utilisez la répartition en diagnostic : si votre Puissance est lourde en héros mais légère en soldats, vous êtes à un mauvais combat de perdre une armée irremplaçable. Si elle est lourde en soldats mais légère en héros, vos marches frappent sous leur poids. Les comptes les plus forts gardent les piles en proportion approximative — exactement ce que fait pour vous le suivi de l&apos;ordre de priorité de construction et du calendrier de l&apos;escouade F2P.</p>
+
+    <VideoSection topic="heroes" lang={lang} />
+  </GuidePage>
+</Base>

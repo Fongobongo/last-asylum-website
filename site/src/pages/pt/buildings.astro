@@ -1,0 +1,118 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'pt';
+---
+<Base lang={lang} path="/pt/buildings/" title="Prioridades de construção e roteiro do Santuário" description="Roteiro do Santuário até o nível 30, a ordem de prioridade de construção, o que cada edifício faz e como empilhar bônus de velocidade de construção da forma consecutiva correta.">
+  <GuidePage title="Prioridades de construção e roteiro do Santuário" description="Roteiro do Santuário até o nível 30, a ordem de prioridade de construção, o que cada edifício faz e como empilhar bônus de velocidade de construção da forma consecutiva correta." lang={lang}>
+    <p>Construir em Last Asylum: Plague é um jogo longo — o empurrão do Santuário do nível 1 ao 30 leva meses, e a ordem errada custa semanas disso. Esta página é a ordem de construção da comunidade: quais construções importam e em que sequência, um roteiro do Santuário nível a nível, e a matemática exata do empilhamento de velocidade de construção.</p>
+    <p>A única pergunta que decide cada vaga da fila: isso te deixa mais forte ou mais rápido? Se a resposta é não, pode esperar.</p>
+
+    <h2 id="priority-order">A ordem de prioridade de construção</h2>
+    <p>Quando vários edifícios estão disponíveis ao mesmo tempo, a ordem da comunidade é fixa:</p>
+    <ol>
+      <li><strong>Santuário</strong> — sempre. Ele limita todos os outros níveis da cidade, o teto de nível de heróis e os níveis de tropas. Sempre que uma melhoria do Santuário estiver disponível, ela entra primeiro na fila.</li>
+      <li><strong>Campo de Treinamento</strong> — níveis de tropas e capacidade de treino. O exército é o que limpa monstros, ganha rallyes e traz o saque para casa.</li>
+      <li><strong>Quartel</strong> — capacidade de soldados. Um exército permanente maior significa mais Poder e mais soco por marcha.</li>
+      <li><strong>Laboratório de Pesquisa</strong> — pesquisa permanente de atributos e economia. Mais lento para compensar que tropas, mas acumula para sempre.</li>
+      <li><strong>Enfermaria</strong> — cura seus feridos após derrotas. Uma Enfermaria pequena significa que toda derrota sangra tropas que você não recupera.</li>
+      <li><strong>Muralha</strong> — defesa. Real até alguém mais forte chegar de qualquer jeito, por isso fica por último.</li>
+    </ol>
+    <p>A regra por trás da lista: se uma construção não te deixa mais forte ou mais rápido, ela não é urgente. Construções de produção, depósitos e decorações ainda são construídas — mas só quando as seis acima não têm nada a fazer ou um portão as obriga.</p>
+
+    <h2 id="building-functions">O que cada edifício faz</h2>
+    <p>Uma referência rápida das construções que você realmente vai tocar. As traduções variam entre clientes do jogo, então quando dois nomes parecem iguais, confira a descrição no jogo para o efeito exato na sua versão.</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Edifício</th><th>O que faz</th><th>Notas da comunidade</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Santuário</td><td>Limita os níveis de todas as outras construções, define o teto de nível de heróis, dá EXP por melhoria e desbloqueia construções e recursos ao subir de nível.</td><td>Melhore sem pausa. É o seu verdadeiro nível de jogador.</td></tr>
+        <tr><td>Cabana do Construtor</td><td>Produz acelerações de construção grátis. Sobreviventes estacionados dentro dão bônus extra — troque por sobreviventes melhores conforme os recrutar.</td><td>Mantenha no nível do Santuário até o Santuário 15 pelo fluxo de acelerações grátis.</td></tr>
+        <tr><td>Laboratório de Pesquisa</td><td>Roda sua árvore tecnológica: pesquisa de economia, militar e desenvolvimento.</td><td>Prioridade #4 — atributos que acumulam permanentemente.</td></tr>
+        <tr><td>Quartel / Campo de Treinamento</td><td>Os nomes trocam entre traduções. Um abre níveis de tropas; o outro aumenta a capacidade de soldados.</td><td>Confira a descrição no jogo para ver qual é qual no seu cliente, e construa primeiro o que abre níveis.</td></tr>
+        <tr><td>Enfermaria</td><td>Cura soldados feridos após derrotas.</td><td>Enfermaria pequena = perdas permanentes de tropas após cada derrota.</td></tr>
+        <tr><td>Oficina de Antitoxina</td><td>Produz Antídotos — o recurso-chave de heróis usado nos sistemas de progressão.</td><td>Construa cedo. Ficar atrás nos Antídotos trava melhorias de heróis depois.</td></tr>
+        <tr><td>Oficinas de Equipamento / Fundição / Tecelagem</td><td>Fabrica e melhora o equipamento de heróis com materiais farmados.</td><td>Níveis altos da Oficina de Equipamento chegam com o Santuário 20 — mais um motivo pelo qual o 20 importa.</td></tr>
+        <tr><td>Taverna</td><td>Recrutamento de heróis — o sistema de banners e tiadas vive aqui.</td><td>Guarde diamantes para eventos UR com data marcada em vez de despejá-los aqui.</td></tr>
+        <tr><td>Salão da Aliança</td><td>Aprofunda a participação e recompensas da aliança.</td><td>Siga o roteiro abaixo — importa mais do que jogadores novos esperam.</td></tr>
+      </tbody>
+    </table>
+
+    <h3 id="barracks-vs-training">Quartel vs Campo de Treinamento — a armadilha dos nomes</h3>
+    <p>Uma construção abre novos níveis de tropas e a outra aumenta quantos soldados você pode manter. Qual nome faz o quê depende da tradução do seu cliente — dois jogadores discutindo podem estar ambos certos. Abra a construção e leia a descrição: se o efeito listado é desbloquear níveis, esse é o seu abridor de níveis e vai primeiro; se é capacidade de soldados, vai em segundo. Guias de comunidades diferentes trocam os nomes livremente, então confie na descrição mais que no título do guia.</p>
+
+    <h2 id="sanctuary-roadmap">Roteiro do Santuário por nível</h2>
+    <p>Este é o roteiro da comunidade (do guia de elsiika57) do que subir em cada estágio do Santuário. Leia assim: enquanto empurra o Santuário rumo ao nível X, suba as construções listadas aos níveis indicados. Ele existe para impedir que você suba construções que não precisará por semanas enquanto as que usa todo dia ficam para trás.</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Empurrão do Santuário</th><th>Suba estas construções</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Nv 1-10</td><td>Depósito de Madeira 1 nv 4, Celeiro 1, Armazém 1. No Santuário 5-6: Muralhas 3 a 5. No Santuário 7-8: Campo de Treinamento 4, Salão da Aliança 3 a 5. No Santuário 9-10: Muralhas 8-9, Salão da Aliança 7, Enfermaria 7.</td></tr>
+        <tr><td>Nv 11-18</td><td>No Santuário 11: Campo de Treinamento 10, Laboratório 7. No Santuário 12-13: Laboratório 11-12, Muralhas 10, Salão da Aliança 11. No Santuário 14-15: Laboratório 13-14, Estátua do Guerreiro 12, Campo de Treinamento 14. No Santuário 16-18: Estátua do Guerreiro 14, Laboratório 15-17, Quartel 15, Campo de Treinamento 17.</td></tr>
+        <tr><td>Nv 19-24</td><td>Laboratório 18, Estátua do Guerreiro 17, Salão da Aliança 18. No Santuário 21-22: Laboratório 20, Campo de Treinamento 20, Enfermaria 21. No Santuário 23-24: Enfermaria 22, Laboratório 23, Muralhas 23.</td></tr>
+        <tr><td>Nv 25-29</td><td>Campo de Treinamento 24, Laboratório 24-25, Estátua do Guerreiro 25. No Santuário 27-28: Laboratório 26, Campo de Treinamento 26, Quartel 27. No Santuário 29: Salão da Aliança 28, Laboratório 28.</td></tr>
+        <tr><td>Nv 30</td><td>Santuário 30 é o máximo. Termine todos os portões restantes.</td></tr>
+      </tbody>
+    </table>
+    <p>Repare no padrão dentro da tabela: o Laboratório e o Campo de Treinamento nunca ficam muito atrás do Santuário, Muralhas e Enfermaria se recuperam em blocos, e o Salão da Aliança é empurrado em três janelas separadas. Se sua cidade se afastar demais dessa forma, geralmente é sinal de erro — quase sempre nivelar tudo igualmente.</p>
+
+    <h2 id="milestones">Marcos-chave: 20, 24, 27, 30</h2>
+    <p>O empurrão do Santuário não é uma longa moída única — são quatro sprints entre marcos que desbloqueiam saltos reais de poder.</p>
+    <ul>
+      <li><strong>Santuário 20</strong> — tropas do Nível 7 e uma Oficina de Equipamento de nível alto chegam juntos. É o maior salto único de poder do meio do jogo e o primeiro empurrão que vale queimar acelerações guardadas.</li>
+      <li><strong>Santuário 24, depois 27</strong> — os próximos empurrões de nível. Cada um sobe de novo os níveis de tropas e os tetos das oficinas.</li>
+      <li><strong>Santuário 30</strong> — o teto. Tudo que sobrar na cidade agora pode ser terminado.</li>
+    </ul>
+    <p>Fique atento ao custo dos marcos tardios: passado o meio dos 20, melhorias individuais passam de 100 milhões de recursos. Comece a tratar o estoque de recursos como parte do plano de construção — veja a seção de escala de recursos abaixo.</p>
+
+    <h2 id="construction-speed">Empilhamento de velocidade de construção — a matemática correta</h2>
+    <p>Os bônus de velocidade de construção se empilham de cinco fontes, e juntos comprimem uma melhoria de 38 dias para 20 (do guia de chuppergaming). Os bônus são:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Fonte</th><th>Bônus</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Pesquisa de Desenvolvimento Pessoal</td><td>+5%, depois +10% no nó nível 5</td></tr>
+        <tr><td>Pesquisa de Aliança — Construção Rápida</td><td>+20%</td></tr>
+        <tr><td>Nível VIP 11</td><td>+45%</td></tr>
+        <tr><td>Cidade Real — título Ministro da Construção</td><td>+50%</td></tr>
+      </tbody>
+    </table>
+    <p>Agora a parte que quase todo mundo erra: esses bônus se aplicam ao <strong>tempo restante, consecutivamente</strong> — não aditivamente a partir da base. Você não pode somar 10% + 5% + 20% + 45% + 50% e cortar o cronômetro em 130% de coisa nenhuma.</p>
+    <p>Esta é a aritmética real numa melhoria de 37 dias:</p>
+    <ol>
+      <li>Início: 37 dias.</li>
+      <li>Aplique um bônus de 10%: remove 10% do tempo restante — 37 menos 3.7 = 33.3 dias.</li>
+      <li>Aplique um bônus de 5%: remove 5% do que sobra — 33.3 menos 1.665 = 31.6 dias.</li>
+      <li>Cada bônus seguinte continua aparando o restante, nunca o número original.</li>
+    </ol>
+    <p>Cada bônus adicional vale, portanto, um pouco menos que o anterior. As consequências práticas:</p>
+    <ul>
+      <li>A ordem dos bônus não muda o resultado final — mas você precisa dos bônus ativos quando o cronômetro está longo, porque o valor deles escala com o tempo restante.</li>
+      <li>Aplique tudo <strong>antes</strong> de começar os grandes empurrões de Santuário 20+, não no meio do caminho.</li>
+      <li>Garantir o título de Ministro da Construção e VIP 11 antes do empurrão final vale, por si só, dias de cronômetro.</li>
+    </ul>
+
+    <h2 id="resource-scaling">Escala de recursos — planeje seus estoques</h2>
+    <p>O que uma construção custa no Santuário 8 não diz nada sobre o que ela custa no Santuário 25. A curva corre em três fases:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Fase</th><th>Custo típico por melhoria</th><th>O que significa</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Inicial (Santuário 1-10)</td><td>Milhares a poucos milhões</td><td>A produção cobre. Gaste à vontade, mantenha as filas cheias.</td></tr>
+        <tr><td>Média (Santuário 11-24)</td><td>Dezenas de milhões</td><td>Saque e eventos carregam a carga — o saque diário deixa de ser opcional.</td></tr>
+        <tr><td>Tardia (Santuário 25-30)</td><td>Mais de 100 milhões</td><td>Estoque por dias antes de começar. Uma melhoria que você não consegue alimentar trava a fila inteira.</td></tr>
+      </tbody>
+    </table>
+    <p>E mantenha a mistura equilibrada: tenha sempre Grão, Madeira e Ervas em estoque. Melhorias tardias devoram as três ao mesmo tempo, e ficar seco em qualquer uma no meio do empurrão desperdiça exatamente o cronômetro que você empilhou bônus para economizar.</p>
+
+    <VideoSection topic="buildings" lang={lang} />
+  </GuidePage>
+</Base>

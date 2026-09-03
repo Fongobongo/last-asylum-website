@@ -1,0 +1,36 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'de';
+const events = [
+  { slug: 'alliance-duel', name: 'Allianz-Duell', icon: '⚔️', desc: 'Sechstägiger Allianz-Wettbewerb mit täglichen Punkte-Kategorien, exakten Punktwerten und der Alles-Sparen-Wirtschaft.' },
+  { slug: 'elixir', name: 'Elixir Scramble', icon: '🧪', desc: '30-minütiges AvA-Punkte-Schlachtfeld, wo Kontrolle statt Kills gewinnt — Heizzelte, Schloss-Priorität und Teleport-Regeln.' },
+  { slug: 'kvk', name: 'Königreichs-Krieg (KvK)', icon: '🏰', desc: 'Server-gegen-Server-Krieg um die Königsstadt: Türme-zuerst-Angriffe, Verzögerungs-Defense und echtes Truppenrisiko.' },
+  { slug: 'undead', name: 'Untoten-Belagerung', icon: '🧟', desc: 'Allianz-Defense gegen infizierte Wellen — die versteckte Multi-Trupp-Mechanik, persistente HP und Belohnungs-Meilensteine.' },
+  { slug: 'cheese', name: 'Cheese Trap', icon: '🧀', desc: 'Allianz-Rallye gegen die Riesenratte: fünfstufige persönliche Belohnungen, gemeinsamer Allianz-HP-Pool und Stufen-Skalierungs-Mathematik.' },
+  { slug: 'thief', name: 'Diebesjagd', icon: '💰', desc: 'Ausdauer gegen Boss-Spawns: Spawn-Mechaniken der Diebes-Anführer, die Nonstop-Kill-Technik und Tausch-Prioritäten.' },
+  { slug: 'survival', name: 'Survival Battle', icon: '🛡️', desc: 'Wöchentliches Missions-Event mit ~60.000 gratis Fähigkeits-Abzeichen — billige Abschlüsse und die Allianz-Duell-Überschneidung.' },
+  { slug: 'canyon', name: 'Canyon Conquest', icon: '🏜️', desc: 'Dreispuriger Staffelkampf, wo Durchhaltewert Macht schlägt — Spur-Prioritäten-Strategie in einem risikofreien Event.' },
+  { slug: 'mythic', name: 'Mythic Treasure', icon: '🗺️', desc: 'Das siebentabige Piraten-Event für F2P entschlüsselt: Markt-Prioritäten, die 300-Fische-Grenze und der Vergrabener-Schatz-Coup.' },
+  { slug: 'royal', name: 'Königsschloss-Mêlée', icon: '👑', desc: 'Wöchentliches Schloss-Eroberungsrennen — ein Marsch pro Spieler, 30-Slot-Verstärkung und das komplette Königsstadt-Titelsystem.' },
+  { slug: 'arena', name: 'Dreieck-Arena', icon: '🔺', desc: 'Drei Aufstellungen, der Angreifer wählt zwei zum Besiegen — gleichmäßige Defense, Opfer-Matchups und die Schicksals-Arena-Fallen-Trupp-Taktik.' },
+  { slug: 'wagon', name: 'Gilden-Wagen und Karawanen', icon: '🚚', desc: 'Tägliche Gratis-Wagenfahrten, Wachen-Truhen-Regeln, Goldener-Wagen-Auffrischungen und der Karawanen-UR-Splitter-Farm.' },
+];
+---
+<Base lang={lang} path="/de/events/" title="Event-Guides" description="Komplette Analysen jedes Last Asylum: Plague Events: Zeitpläne, Punktesysteme, Strategie und zu vermeidende Fehler.">
+  <section class="py-12">
+    <h1 class="mb-3 text-4xl font-bold text-plague-100">Event-Guides</h1>
+    <p class="mb-10 text-lg text-stone-400">Komplette Analysen jedes Events: Zeitpläne, Punktesysteme, Strategie und zu vermeidende Fehler.</p>
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {events.map(e => (
+        <a href={`/de/events/${e.slug}/`} class="group rounded-lg border border-stone-800 bg-stone-900 p-5 transition-colors hover:border-plague-600">
+          <span class="text-3xl">{e.icon}</span>
+          <h2 class="mt-3 text-lg font-bold text-plague-200 group-hover:text-plague-100">{e.name}</h2>
+          <p class="mt-2 text-sm text-stone-400">{e.desc}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</Base>

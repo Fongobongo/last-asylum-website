@@ -1,0 +1,15 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import PatchNotes from '../../components/PatchNotes.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+
+<Base lang={lang} path="/de/patch-notes/" title="Patch Notes" description="Jede Server-Wartung und jedes Update von Last Asylum: Plague, zusammengefasst — das Neueste zuerst.">
+  <GuidePage title="📜 Patch Notes und Updates" description="Zusammengefasste Wartungs- und Update-Notizen der Server, das Neueste zuerst. Quelle: offizielle Ankündigungen." lang={lang}>
+    <PatchNotes />
+  </GuidePage>
+</Base>

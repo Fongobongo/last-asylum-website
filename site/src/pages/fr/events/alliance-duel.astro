@@ -1,0 +1,138 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'fr';
+---
+<Base lang={lang} path="/fr/events/alliance-duel/" title="Duel d&apos;Alliances : guide complet" description="Six jours de catégories de points, une finale PvP le samedi, mécaniques phase par phase avec valeurs exactes, empilement des Quêtes du Faucon, et l&apos;économie du tout-garder qui gagne le coffre maximum.">
+  <GuidePage title="Duel d&apos;Alliances : guide complet" description="Six jours de catégories de points, une finale PvP le samedi, mécaniques phase par phase avec valeurs exactes, empilement des Quêtes du Faucon, et l&apos;économie du tout-garder qui gagne le coffre maximum." lang={lang}>
+    <p>Le Duel d&apos;Alliances est l&apos;événement autour duquel toute la semaine s&apos;articule : six jours de compétition contre une alliance rivale appariée, avec une catégorie de points différente chaque jour et une finale PvP le samedi. C&apos;est aussi l&apos;événement qui décide combien de votre réserve vous devriez dépenser — fragments, tickets, insignes et accélérations ont tous un jour de duel où ils valent le double ou plus.</p>
+    <p>Ce guide couvre les conditions d&apos;entrée, les mécaniques par phase avec les valeurs de points exactes, la stratégie d&apos;économie quotidienne, l&apos;empilement des Quêtes du Faucon, et la façon dont le duel alimente la Guerre des Royaumes.</p>
+
+    <h2 id="what-it-is">Ce qu&apos;est le Duel d&apos;Alliances</h2>
+    <p>Le Duel d&apos;Alliances est une <strong>compétition d&apos;alliance de 6 jours</strong> divisée en phases 1 à 6, du lundi au samedi. Chaque jour a sa propre catégorie de points — un ensemble spécifique d&apos;actions qui rapporte des points de duel — et l&apos;alliance qui marque le plus dans la catégorie du jour gagne cette phase. Samedi, Phase 6, c&apos;est la <strong>finale PvP</strong> où les deux alliances s&apos;affrontent enfin directement.</p>
+    <p>Il existe aussi un format compressé : la <strong>Survival Battle</strong>, une version de 4 heures du duel pour les alliances qui veulent la même compétition sans la semaine complète. Les mécaniques et la logique de score sont identiques — seul l&apos;horloge change.</p>
+    <blockquote>Le duel ne se gagne pas le jour même. Il se gagne par celui qui a gardé les bonnes ressources pour la bonne phase.</blockquote>
+
+    <h2 id="entry-requirements">Conditions d&apos;entrée et appariement</h2>
+    <ul>
+      <li>Votre alliance doit être une <strong>alliance classée top 32</strong> avec <strong>20 membres ou plus</strong> pour entrer.</li>
+      <li>Sur un tout nouveau serveur, le premier duel se joue vers le <strong>jour 17</strong> — planifiez vos deux premières semaines autour.</li>
+      <li>Après la fin de la Phase 6, il y a une <strong>pause d&apos;1 jour</strong> avant le début du cycle suivant.</li>
+      <li>L&apos;appariement serait basé sur l&apos;<strong>activité et le taux de victoire de l&apos;alliance</strong> — les alliances très actives sont opposées à des alliances tout aussi actives, pas purement par puissance brute.</li>
+    </ul>
+
+    <h2 id="weekly-structure">La semaine en un coup d&apos;œil</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Jour</th><th>Phase</th><th>Focus</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Lundi</td><td>Phase 1</td><td>Catégorie de points du jour — vérifiez l&apos;écran d&apos;événement pour les actions exactes de score</td></tr>
+        <tr><td>Mardi</td><td>Phase 2</td><td>Catégorie de points du jour — pareil, les catégories tournent chaque jour</td></tr>
+        <tr><td>Mercredi</td><td>Phase 3</td><td>Jour de recherche et parchemins</td></tr>
+        <tr><td>Jeudi</td><td>Phase 4</td><td>Héros et recrutement</td></tr>
+        <tr><td>Vendredi</td><td>Phase 5</td><td>Entraînement de troupes</td></tr>
+        <tr><td>Samedi</td><td>Phase 6</td><td>Finale PvP contre l&apos;alliance rivale</td></tr>
+      </tbody>
+    </table>
+    <p>Les Phases 1 et 2 changent de catégories d&apos;un cycle à l&apos;autre, donc lisez l&apos;écran d&apos;événement en jeu chaque semaine. Les Phases 3, 4 et 5 sont les grands jours de planification — ceux où thésauriser paie — et sont couvertes en détail ci-dessous.</p>
+
+    <h2 id="phase-3">Phase 3 : jour de recherche et parchemins</h2>
+    <p>La Phase 3 note votre activité de recherche, mais avec un piège intégré : <strong>les points de parchemin ne sont accordés que pour les parchemins consommés ce jour-là.</strong> Brûler des parchemins lundi ne rapporte rien mercredi.</p>
+    <p>La solution est de rechercher ce qui <strong>ne coûte pas de parchemins</strong> :</p>
+    <ul>
+      <li><strong>Recherche de héros</strong> — pleine valeur de points, coût zéro parchemin.</li>
+      <li><strong>Recherche de soldats</strong> — même deal, et ça se compose dans la valeur de troupes de la Phase 5.</li>
+    </ul>
+    <p>Deux règles de coffres complètent la journée :</p>
+    <ul>
+      <li><strong>Les coffres d&apos;équipement du Corbeau sont promus</strong> pendant la Phase 3 — l&apos;événement donne des points pour les <strong>ouvrir</strong>. C&apos;est le jour de faire éclater votre réserve.</li>
+      <li><strong>Les coffres de curiosités ne donnent pas de points</strong> au duel — mais ils n&apos;ont pas de pression de temps non plus. Réclamez-les quand vous voulez ; rien ne se perd à les garder.</li>
+    </ul>
+
+    <h2 id="phase-4">Phase 4 : héros et recrutement</h2>
+    <p>La Phase 4 est le jour de plus haute valeur pour les actifs de héros. Les valeurs de points exactes :</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Action</th><th>Points</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1 fragment UR</td><td>+20 000</td></tr>
+        <tr><td>Fragment SSR</td><td>+7 000</td></tr>
+        <tr><td>Fragment SR</td><td>+2 000</td></tr>
+        <tr><td>Recrutement</td><td>+3 450</td></tr>
+        <tr><td>Insigne de compétence</td><td>+20</td></tr>
+      </tbody>
+    </table>
+    <p>Un seul fragment UR vaut près de six SSR. Ces maths régissent toute la semaine : <strong>gardez vos tickets de recrutement, fragments de héros et insignes de compétence pour la Phase 4.</strong> Dépenser des fragments le jour où vous les recevez, c&apos;est jeter le plus grand multiplicateur de points que le duel offre.</p>
+
+    <h2 id="phase-5">Phase 5 : entraînement de troupes</h2>
+    <p>La Phase 5 convertit la production de votre caserne en points :</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Source</th><th>Points</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Soldat entraîné, Palier 1</td><td>+46</td></tr>
+        <tr><td>Soldat entraîné, Palier 10</td><td>+253</td></tr>
+        <tr><td>Boost d&apos;Entraînement</td><td>+115 par minute</td></tr>
+      </tbody>
+    </table>
+    <p>Les valeurs de palier s&apos;échelonnent entre les deux extrêmes — les paliers hauts paient plusieurs fois ce que paient les P1, donc entraînez le palier le plus haut que votre caserne supporte. Et l&apos;événement empile ses propres bonus par-dessus pour la journée :</p>
+    <ul>
+      <li><strong>Tous les points +100%</strong> — tout ce qui est gagné le jour de la Phase 5 est doublé.</li>
+      <li><strong>Accélérations +30%</strong> — l&apos;efficacité des accélérations est boostée.</li>
+      <li><strong>Entraînement +30%</strong> — l&apos;entraînement lui-même va plus vite.</li>
+    </ul>
+    <p>La conclusion est évidente : <strong>gardez vos accélérations d&apos;entraînement pour la Phase 5.</strong> Une accélération brûlée un mardi quelconque vaut 30% de moins et rapporte la moitié des points.</p>
+
+    <h2 id="sunday-planning">Dimanche : le jour de pré-planification</h2>
+    <p>Le jour de pause après la Phase 6 n&apos;est pas un jour de repos — c&apos;est le jour de planification du prochain cycle. Avant le nouveau duel :</p>
+    <ol>
+      <li>Vérifiez votre réserve : fragments, tickets, insignes, accélérations, coffres d&apos;équipement du Corbeau, coffres de curiosités.</li>
+      <li>Assignez chaque stock à la phase qui le paie — Phase 3, 4 ou 5.</li>
+      <li>Fixez l&apos;objectif d&apos;alliance : la cible est le <strong>coffre de jalon maximum</strong> et les meilleures promotions que l&apos;effectif peut atteindre.</li>
+      <li>Vérifiez votre <strong>Technologie de Duel d&apos;Alliance</strong> — à 100% elle change les objectifs réalistes, donc les dirigeants doivent savoir exactement où en est l&apos;alliance avant de s&apos;engager sur une cible.</li>
+    </ol>
+
+    <h2 id="falcon-quest-stacking">Empilement des Quêtes du Faucon</h2>
+    <p>Les Quêtes du Faucon interagissent avec le duel par une règle : <strong>faites les quêtes quand vous voulez, mais réclamez-les les jours à points doublés — lundi, mercredi et vendredi.</strong> Une quête réclamée le mauvais jour rapporte la moitié de ce qu&apos;elle pourrait.</p>
+    <p>Ensuite le truc avancé, la technique <strong>Empilement Max - 1</strong> :</p>
+    <ul>
+      <li>Quand votre tableau de quêtes est complètement plein, le minuteur du tableau <strong>gèle</strong> — aucune nouvelle quête n&apos;arrive pendant qu&apos;il est plein.</li>
+      <li>Gardez plutôt le tableau au maximum moins un : complétez une quête, et le minuteur continue de tourner, rafraîchissant le tableau.</li>
+      <li>Le résultat est un flux continu de quêtes au lieu d&apos;un gel, et bien plus de quêtes mises en banque pour les jours à points doublés.</li>
+    </ul>
+
+    <h2 id="new-server-notes">Notes pour les nouveaux serveurs</h2>
+    <p>Deux faits de calendrier que tout joueur de serveur récent devrait connaître :</p>
+    <ul>
+      <li><strong>Il n&apos;y a pas de raid pendant les 2 premières semaines</strong> d&apos;un nouveau serveur. Le contenu de raid commence en <strong>semaine 3</strong> — ne brûlez pas de ressources en l&apos;attendant plus tôt.</li>
+      <li>Le <strong>premier Duel d&apos;Alliances arrive vers le jour 17</strong>. L&apos;économie des deux premières semaines dans les guides débutants est calibrée exactement sur ça : construisez, puis ayez quelque chose qui vaut des points quand le premier duel ouvre.</li>
+    </ul>
+
+    <h2 id="rewards">Récompenses et la connexion KvK</h2>
+    <p>Les paiements du duel arrivent en deux couches :</p>
+    <ul>
+      <li><strong>Coffres de jalons</strong> — l&apos;objectif d&apos;alliance est toujours le coffre maximum. Tout le reste est secondaire.</li>
+      <li><strong>Promotions et classement de contribution</strong> — les récompenses individuelles suivent votre contribution personnelle, c&apos;est pourquoi thésauriser en solo sans jamais dépenser n&apos;aide personne.</li>
+    </ul>
+    <p>Et le duel n&apos;est pas un événement isolé : il alimente directement la <strong>Guerre des Royaumes</strong>. Le <a href="/fr/events/kvk/">KvK</a> et le duel partagent des sources de score — <strong>les Opérations Secrètes et Caravanes marquent pour les deux</strong>. Courez-les chaque jour et le même effort paie deux fois. La route complète des caravanes est couverte dans le <a href="/fr/events/wagon/">guide Guild Wagon et Caravanes</a>.</p>
+
+    <h2 id="common-mistakes">Erreurs courantes</h2>
+    <ol>
+      <li>Dépenser fragments et tickets hors Phase 4 — la plus grosse perte de points de l&apos;événement.</li>
+      <li>Brûler des accélérations d&apos;entraînement hors Phase 5 et perdre le bonus du jour de +100%.</li>
+      <li>Consommer des parchemins pour la recherche les jours sans parchemin au lieu de faire de la recherche de héros et soldats sans parchemin.</li>
+      <li>Réclamer les Quêtes du Faucon les jours à points simples.</li>
+      <li>Laisser le tableau de quêtes geler plein au lieu de le garder à un slot en moins.</li>
+      <li>Ignorer la pause d&apos;1 jour après la Phase 6 et arriver au nouveau cycle sans préparation.</li>
+    </ol>
+
+    <VideoSection topic="alliance_duel" lang={lang} />
+  </GuidePage>
+</Base>

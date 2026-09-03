@@ -1,0 +1,102 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'fr';
+---
+<Base lang={lang} path="/fr/events/undead/" title="Siège des morts-vivants : guide complet" description="Défense d&apos;alliance contre les vagues d&apos;infectés : la barre des 300 000 indices, les niveaux de difficulté de 2.4M à 24.5M de Puissance ennemie, la mécanique cachée multi-escouades qui tue les joueurs à 9.5M, et les tables de récompenses complètes.">
+  <GuidePage title="Siège des morts-vivants : guide complet" description="Défense d&apos;alliance contre les vagues d&apos;infectés : la barre des 300 000 indices, les niveaux de difficulté de 2.4M à 24.5M de Puissance ennemie, la mécanique cachée multi-escouades qui tue les joueurs à 9.5M, et les tables de récompenses complètes." lang={lang}>
+    <p>Le Siège des morts-vivants est l&apos;événement de défense d&apos;alliance : toute votre alliance résiste aux <strong>vagues d&apos;infectés</strong>, avec les héros sur le mur qui combattent. Deux règles le définissent avant tout : <strong>les boucliers ne fonctionnent pas</strong>, et ce n&apos;est <strong>pas un événement à points</strong> — l&apos;objectif est de défendre un maximum de vagues.</p>
+    <p>Ce guide couvre le déblocage des sièges, l&apos;échelle de difficulté, la mécanique cachée multi-escouades qui balaye les alliances insuffisamment préparées, les récompenses, et les sept erreurs principales.</p>
+
+    <h2 id="unlocking">Comment un siège se débloque</h2>
+    <p>Les sièges ne sont pas au minuteur — votre alliance les déclenche :</p>
+    <ol>
+      <li>Remplissez la barre des <strong>300 000 Points d&apos;Indices</strong>.</li>
+      <li>Un <strong>R4 ou R5 trouve la Prison de la Mort cachée</strong> sur la carte.</li>
+      <li>Ce leader <strong>lance le siège et choisit la difficulté</strong>.</li>
+      <li>Le siège commence environ <strong>4 heures après le clic</strong> — utilisez cet intervalle pour placer les héros de tous les membres sur le mur.</li>
+    </ol>
+    <p>Les points d&apos;indices viennent du jeu quotidien normal :</p>
+    <ul>
+      <li>Attaquer les <strong>Rebelles</strong> et la <strong>Légion Blight</strong></li>
+      <li>Tuer les <strong>Blights Errants</strong></li>
+      <li>Collecter des ressources sur les tuiles</li>
+      <li>Aider les alliés (clics d&apos;aide construction et recherche)</li>
+      <li>Lancer l&apos;<strong>Excavation d&apos;Alliance</strong></li>
+      <li>Compléter les <strong>Quêtes du Faucon</strong></li>
+    </ul>
+    <p>Une alliance active remplit la barre par un jeu ordinaire ; le goulot n&apos;est pas la barre, c&apos;est la préparation.</p>
+
+    <h2 id="difficulty">Niveaux de difficulté</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Difficulté</th><th>Puissance ennemie</th><th>Territoire</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Niveau 1</td><td>2.4M</td><td>Territoire 13</td></tr>
+        <tr><td>Niveau 6</td><td>~3 escouades par vague</td><td>—</td></tr>
+        <tr><td>Niveau 10</td><td>24.5M</td><td>Territoire 27</td></tr>
+      </tbody>
+    </table>
+    <p>L&apos;échelle grimpe en continu de 2.4M de Puissance ennemie au Niveau 1 jusqu&apos;à 24.5M au Niveau 10, avec les exigences de territoire montant de 13 à 27. Les difficultés élevées débloquent aussi les <strong>Mutations Ennemies</strong> — <strong>prévisualisez les mutations avant de vous engager</strong> sur une difficulté, car une mutation qui contrerait votre comp défensive vaut des millions de Puissance ennemie.</p>
+
+    <h2 id="hidden-mechanic">La mécanique cachée multi-escouades</h2>
+    <p>C&apos;est la partie de l&apos;événement que l&apos;écran de difficulté ne vous dit pas, et c&apos;est la différence entre survivre 20 vagues et s&apos;effondrer à la 17 :</p>
+    <ul>
+      <li>Le siège envoie <strong>2 escouades ou plus à la puissance affichée</strong>. 8M affiché signifie combattre deux escouades de 8M — effectivement le double du chiffre sur le bouton.</li>
+      <li>À la <strong>vague 17</strong> d&apos;une difficulté 8M, la force réelle est d&apos;environ <strong>7.3M x 2</strong>.</li>
+      <li>À la <strong>difficulté 6 et au-dessus, les vagues envoient 3 escouades</strong>.</li>
+      <li><strong>Les PV d&apos;escouade persistent entre les vagues.</strong> Votre tank commence le combat suivant avec les PV avec lesquels il a fini le précédent — et votre escouade 1 doit survivre à des <strong>combats en enchaînement</strong> sans soin entre les deux.</li>
+    </ul>
+    <blockquote>Un joueur à 9.5M est mort à la vague 17 d&apos;une difficulté 8M — usé par des combats consécutifs à PV persistants. La puissance affichée n&apos;est pas le combat.</blockquote>
+
+    <h2 id="rewards">Récompenses</h2>
+    <h3 id="personal-rewards">Jalons personnels</h3>
+    <p>Chaque joueur affronte <strong>20 vagues en solo</strong>, avec des jalons aux vagues <strong>1, 4, 8, 10, 13, 16 et 20</strong> — jetons, améliorations et coffres. Si votre ville tombe, elle <strong>ne sera pas attaquée à nouveau</strong>, mais vos récompenses personnelles s&apos;arrêtent là : mourir à la vague 12 sur 20 fait perdre chaque jalon suivant.</p>
+    <h3 id="alliance-rewards">Jalons d&apos;alliance</h3>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Vagues totales de l&apos;alliance</th><th>Récompenses</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>50</td><td>XP de héros, matériaux, médailles</td></tr>
+        <tr><td>100</td><td>XP de héros, matériaux, médailles</td></tr>
+        <tr><td>150</td><td>XP de héros, matériaux, médailles</td></tr>
+        <tr><td>200</td><td>XP de héros, matériaux, médailles</td></tr>
+        <tr><td>250</td><td>XP de héros, matériaux, médailles</td></tr>
+        <tr><td>300</td><td>XP de héros, matériaux, médailles</td></tr>
+      </tbody>
+    </table>
+    <p>Deux règles autour du total d&apos;alliance :</p>
+    <ul>
+      <li>Une <strong>appartenance de plus de 48 heures</strong> est requise pour recevoir les récompenses d&apos;alliance — les nouvelles recrues ne touchent rien.</li>
+      <li><strong>Renforcer les autres membres ne double pas vos récompenses personnelles</strong> — ça augmente le total de l&apos;alliance. Faites-le quand même : les jalons d&apos;alliance sont le gros paiement.</li>
+    </ul>
+    <p>Le record absolu est de <strong>1 193 vagues</strong> en un seul siège.</p>
+
+    <h2 id="deployment">Déploiement : escouades et renforts</h2>
+    <ul>
+      <li><strong>Votre escouade la plus forte va sur votre propre mur.</strong> Cette escouade porte vos 20 vagues personnelles.</li>
+      <li><strong>Le reste de vos escouades renforce les autres membres</strong> — renforcer augmente le total d&apos;alliance, où vivent les récompenses partagées.</li>
+      <li>Les renforts atterrissent au mur du membre et combattent les vagues entrantes avec lui — envoyez-les avant que les vagues ne frappent, pas après la notification.</li>
+    </ul>
+
+    <h2 id="top-mistakes">Les 7 erreurs principales</h2>
+    <ol>
+      <li><strong>Héros absents du mur</strong> — le plus grand tueur. Les héros sur le mur sont l&apos;événement ; un mur sans héros est une ville qui attend de tomber.</li>
+      <li><strong>Ignorer la défense du mur</strong> — il n&apos;y a <strong>pas d&apos;auto-défense</strong> dans cet événement. Ce que vous présélectionnez est ce qui combat.</li>
+      <li><strong>Commencer sans 100% d&apos;indices</strong> — un départ précipité gaspille la fenêtre d&apos;avertissement de 4 heures.</li>
+      <li><strong>Sous-estimer les mutations</strong> — lisez toujours l&apos;aperçu des mutations avant de choisir la difficulté.</li>
+      <li><strong>Ne pas renforcer les membres</strong> — les jalons d&apos;alliance ont besoin de troupes sur chaque mur, pas seulement le vôtre.</li>
+      <li><strong>Commencer avec des escouades partielles</strong> — une escouade de mur à moitié vide est une escouade de mur morte.</li>
+      <li><strong>Se déconnecter sans défense présélectionnée</strong> — la défense hors ligne fonctionne, mais <strong>seulement si elle a été préréglée</strong>. Réglez-la, puis dormez.</li>
+    </ol>
+    <p>Jouez l&apos;événement avec ces sept points corrigés et votre alliance défend près de son plafond. La configuration des héros pour le mur et la composition d&apos;escouade sont couvertes dans le <a href="/fr/heroes/">guide des Héros</a>.</p>
+
+    <VideoSection topic="undead" lang={lang} />
+  </GuidePage>
+</Base>

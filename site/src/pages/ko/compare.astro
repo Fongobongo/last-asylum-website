@@ -1,0 +1,126 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ko';
+
+const comparisons = [
+  {
+    slug: 'marlena-vs-zoya',
+    title: 'Marlena vs Zoya — 어느 UR 캐리?',
+    verdict: '먼저 Marlena, 나중에 Zoya',
+    points: [
+      ['입수 난이도', '사실상 무료 ($1 충전), 66일차 무료', '유료 전용 (시작에 10 조각)'],
+      ['딜 점유율', '단독으로 부대 딜의 ~85%', '만렙 Marlena와 ~50/50 분배'],
+      ['딜 유형', '빌드별 물리/에너지 혼합', '에너지 회오리 — 에너지 서포트 필요'],
+      ['시너지', '정석 조합에서 4× 버프 (Harper 궁극 + Bell + Claire 패시브)', '물리 Jester와 중첩 안 됨'],
+      ['무과금 결론', '무과금 경로 전체의 메인 캐리', 'Zoya가 고성별일 때만 Claire 교체'],
+    ],
+    video: 'XktNJ6u4sWo',
+  },
+  {
+    slug: 'cynthia-vs-marlena-f2p',
+    title: '무과금 기준 Cynthia vs Marlena',
+    verdict: '$1을 지불하세요 — 정말 안 되면 Cynthia도 가능',
+    points: [
+      ['비용', '~11,500 다이아몬드 (8일차 휠)', '$1 충전'],
+      ['초반 화력', '초반 캐리 강함 (레인저 UR)', '만개가 늦음 — 고성별까지 약함'],
+      ['후반', '진영 보너스 5% + Harper/에피그라프 시너지 손실', '단일 Warrior 메타의 핵심'],
+      ['휠 타이밍', '1–8일차에 다이아몬드 필수 저장', '다이아몬드 비용 없음'],
+      ['결론', '초반 스파이크는 가능, 후반 하락', 'Cynthia보다 보편적으로 권장'],
+    ],
+  },
+  {
+    slug: 'annie-vs-joker',
+    title: 'Annie vs Joker — 어느 워록 캐리?',
+    verdict: '가성비는 Annie, PvP 마무리는 Joker',
+    points: [
+      ['역할', '지속 캐리 + 8★ 팀 가치', '처형자 — HP 가장 낮은 적 대상'],
+      ['무과금 입수', '히어로 패스 (커뮤니티 픽)', '15일차 이후 위싱 휠'],
+      ['시너지', '에너지 서포트와 페어링', '물리 — Zoya와 페어링 안 됨'],
+      ['최적 상황', '긴 전투, 몬스터 콘텐츠', 'Marlena가 유린한 뒤 PvP 마무리'],
+    ],
+    video: 'ekodq_Wh2_I',
+  },
+  {
+    slug: 'claire-vs-keep-ssr',
+    title: 'Claire SSR→UR — 지금 전환할까, 기다릴까?',
+    verdict: '항상 전환 — 문제는 타이밍뿐',
+    points: [
+      ['개인 딜', '9★ UR ≈ 만렙 SSR의 1.70배; 10★ ≈ 2.20배', '—'],
+      ['팀 버프', '6★에서 16% → 10%로 하락 (실질 손실 몇 %)', '—'],
+      ['하락 구간 건너뛰기', '명예의 전당 저축: Lv.60→8★, Lv.100→9★, Lv.160→즉시 10★', '—'],
+      ['PvP', '8★ 상급 Tenacity = ATK/HP/DEF +20% + CDR +10%', '—'],
+      ['비용', '2배 가격으로 SSR 샤드 1,600개 (6★→10★)', '—'],
+    ],
+    video: '-9Nysk8pcns',
+  },
+  {
+    slug: 'shadow-vs-lucius',
+    title: 'Shadow vs Lucius — 두 번째 탱크',
+    verdict: '지금은 무료 Lucius; 히어로 패스를 산다면 Shadow',
+    points: [
+      ['비용', '히어로 패스 (유료)', '무료 샤드'],
+      ['스케일링', '8★/10★가 6★보다 확실히 우수', '안정적인 자리 채움꾼'],
+      ['규칙', '구매했다면: 임시 영웅으로 취급 — 최대 8★, 스킬 15–20', 'Daskal을 키우는 동안 자유롭게 투입'],
+      ['엔드게임', 'Daskal이 둘 다 대체', '—'],
+    ],
+  },
+];
+---
+
+<Base lang={lang} path="/compare/" title="영웅 비교" description="Marlena vs Zoya, Annie vs Joker, Claire 전환 타이밍 — 커뮤니티 가이드의 나란한 결론들.">
+  <GuidePage
+    title="⚖️ 영웅 비교"
+    description="플레이어들이 실제로 벌이는 논쟁 — 커뮤니티 가이드가 정확한 숫자로 정리합니다."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/ko/' }, { label: '비교' }]}
+  >
+    {comparisons.map((c) => (
+      <section class="not-prose mb-10">
+        <h2 id={c.slug} class="mb-1 text-2xl font-bold text-plague-200">{c.title}</h2>
+        <p class="mb-4 text-sm font-semibold text-toxic-400">✓ {c.verdict}</p>
+        <div class="overflow-x-auto rounded-lg border border-stone-800">
+          <table class="w-full text-sm">
+            {c.points.map((row) => (
+              <tr class="border-t border-stone-800 first:border-t-0">
+                <td class="w-40 bg-stone-900 p-3 font-semibold text-plague-300">{row[0]}</td>
+                <td class="p-3 text-stone-300">{row[1]}</td>
+                <td class="p-3 text-stone-400">{row[2]}</td>
+              </tr>
+            ))}
+          </table>
+        </div>
+        {c.video && (
+          <div class="js-video-facade mt-4 max-w-md cursor-pointer" data-video-id={c.video} role="button" tabindex="0" aria-label="비교 영상 재생">
+            <span class="block aspect-video overflow-hidden rounded-lg border border-stone-800">
+              <img src={`https://i.ytimg.com/vi/${c.video}/hqdefault.jpg`} alt="비교 영상" loading="lazy" class="h-full w-full object-cover" />
+            </span>
+          </div>
+        )}
+      </section>
+    ))}
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>
+
+<script>
+  document.querySelectorAll('.js-video-facade').forEach((el) => {
+    el.addEventListener('click', () => {
+      const id = (el as HTMLElement).dataset.videoId;
+      if (!id) return;
+      const frame = document.createElement('iframe');
+      frame.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1`;
+      frame.title = 'Video';
+      frame.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      frame.allowFullscreen = true;
+      frame.className = 'aspect-video w-full max-w-md rounded-lg';
+      el.replaceWith(frame);
+    });
+  });
+</script>

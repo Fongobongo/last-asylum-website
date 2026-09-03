@@ -1,0 +1,101 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+<Base lang={lang} path="/de/events/mythic/" title="Mythic Treasure: F2P-Guide" description="Alle sieben Tabs des Piraten-Events für Gratis-Spieler entschlüsselt: der Battle Pass, die Spielautomaten-Falle, die korrigierte Piratenmarkt-Priorität, die 300-Fische-Tagesgrenze und der Vergrabener-Schatz-Selbstmord-für-Belohnungen-Coup.">
+  <GuidePage title="Mythic Treasure: F2P-Guide" description="Alle sieben Tabs des Piraten-Events für Gratis-Spieler entschlüsselt: der Battle Pass, die Spielautomaten-Falle, die korrigierte Piratenmarkt-Priorität, die 300-Fische-Tagesgrenze und der Vergrabener-Schatz-Selbstmord-für-Belohnungen-Coup." lang={lang}>
+    <p>Mythic Treasure ist das große Piraten-Themen-Event, und es ist wie ein Trichter gebaut: sieben Tabs, sechs davon auf Ausgaben ausgerichtet, und eine Handvoll echter Gratis-Wert darin vergraben. Der F2P-Zug ist, exakt zu wissen, welche Tabs zahlen und welche existieren, um dich zu verführen — und dann die Gratis-Tabs täglich zu farmen.</p>
+    <p>Dieser Guide läuft durch alle sieben Tabs mit der korrigierten Markt-Priorität, der Fisch-Wirtschaft, der Vergrabener-Schatz-Strategie und der Anker-Münzen-Verfalls-Regel, die jeden erwischt.</p>
+
+    <h2 id="the-7-tabs">Die sieben Tabs auf einen Blick</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Tab</th><th>Was es ist</th><th>F2P-Urteil</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1. Des Piraten Mythischer Schatz</td><td>Battle Pass</td><td>Nur die Gratis-Spur</td></tr>
+        <tr><td>2. Spiel des Piraten</td><td>Spielautomat</td><td>Nur Gratis-Züge, nie hinterherjagen</td></tr>
+        <tr><td>3. Piratenmarkt</td><td>Anker-Münzen-Shop</td><td>Täglich UR-Fragmente kaufen</td></tr>
+        <tr><td>4. Großes Festmahl</td><td>Serverweites Fisch-Event</td><td>Eine der besten F2P-Sektionen — machen</td></tr>
+        <tr><td>5. Köstliche Jagd</td><td>Meeresfisch-Farming</td><td>Bis zur 300-Tagesgrenze farmen</td></tr>
+        <tr><td>6. Gabe der Tiefsee</td><td>Geld-Auflade-Belohnungen</td><td>Als F2P überspringen</td></tr>
+        <tr><td>7. Vergrabener Schatz</td><td>Minispiel</td><td>5 Gratis-Runs + der Selbstmord-Coup</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="tab-1-pass">Tab 1: Des Piraten Mythischer Schatz (Battle Pass)</h2>
+    <p>Der Headline-Battle-Pass. Die <strong>fortgeschrittene Spur kostet 499</strong> und zahlt in <strong>Anker-Münzen, Piratengold und exklusiven Truhen</strong>. Wenn du in diesem Event für eine Sache geld ausgibst, ist das die Kandidatin — aber die Gratis-Spur zahlt ebenfalls, und alles unten funktioniert ohne den Pass.</p>
+
+    <h2 id="tab-2-slots">Tab 2: Spiel des Piraten (Spielautomat)</h2>
+    <ul>
+      <li>Bezahlte Züge bringen <strong>Anker-Münzen</strong>, und es gibt eine <strong>5X-Ziehung</strong>.</li>
+      <li>Es ist <strong>reines RNG — jage es nicht.</strong> Der Spielautomat ist das schlechteste Wert-Ziel des Events, und er ist darauf designt, sich fast fällig anzufühlen.</li>
+      <li>Nimm die <strong>Gratis-Züge</strong> jeden Tag und geh. Das ist der ganze Tab.</li>
+    </ul>
+
+    <h2 id="tab-3-market">Tab 3: Piratenmarkt — korrigierte Priorität</h2>
+    <p>Der Markt nimmt Anker-Münzen, und die Kaufreihenfolge zählt mehr als überall sonst im Event:</p>
+    <ol>
+      <li><strong>UR-Fragmente — TÄGLICH KAUFEN.</strong> Top-Priorität, ohne Debatte. Das ist der garantierte Helden-Wert, den das Event bietet.</li>
+      <li><strong>Tägliche Kurios-Truhe</strong> — wenn dir nach den Fragmenten Anker übrig bleiben.</li>
+      <li><strong>Der Rest des letzten Tages geht in Krähen-Essenz oder Beschleunigungen</strong> — gib den Rest aus, bevor der Umtausch schließt (siehe <a href="#anchor-expiry">die Verfalls-Regel</a>).</li>
+    </ol>
+    <p>Und die zwei harten Verbote:</p>
+    <ul>
+      <li><strong>Kauf keine Beschleunigungen oder Ressourcen mit Ankern.</strong> Die gibt es überall sonst im Spiel; UR-Fragmente nicht.</li>
+      <li><strong>Perlen erhöhen nur Helden-HP — „nicht super nützlich“.</strong> Überspringen.</li>
+    </ul>
+    <p>Eine weitere Falle, die man kennen sollte: die <strong>4.000-Anker-Schiff-Skin existiert</strong>. Sie ist hübsch. <strong>Opfere keine garantierten Belohnungen für sie</strong> — viertausend Anker sind das komplette Fragment-Einkommen des Markts für das Event.</p>
+
+    <h2 id="tab-4-grand-feast">Tab 4: Großes Festmahl</h2>
+    <p>Das serverweite Bankett: reiche <strong>10 Meeresfische für 1 Bankett-EXP</strong> ein, mit <strong>Top-50-Belohnungen</strong> für die größten Beiträger. Das Community-Urteil ist unverblümt — <strong>„eine der besten F2P-Sektionen“</strong> des Events. Es kostet nichts außer die Fische, die du sowieso farmst (siehe <a href="#tab-5-fish">Köstliche Jagd</a>), und zahlt server-sichtbare Belohnungen. Reiche täglich ein, jeden Tag, ohne Ausnahme.</p>
+
+    <h2 id="tab-5-fish">Tab 5: Köstliche Jagd (Meeresfisch-Farming)</h2>
+    <p>Meeresfische kommen aus deinen normalen Tages-Zielen:</p>
+    <ul>
+      <li>Falkenturm</li>
+      <li>Ressourcen-Monster</li>
+      <li>Elite-Blight</li>
+      <li>Verdeckte Operationen</li>
+      <li>Wandernder Blight</li>
+    </ul>
+    <p>Die kritische Zahl: <strong>TAGESGRENZE 300 Fische</strong>. Darüber hinaus zu farmen heißt, Mobs umsonst zu töten — der Zähler stoppt. Erreiche 300, hör auf, spare die Zeit. Die Fische füttern das Große Festmahl — deshalb sind die beiden Tabs zusammen der F2P-Kern des ganzen Events.</p>
+
+    <h2 id="tab-6-deep-sea">Tab 6: Gabe der Tiefsee</h2>
+    <p>Eine Klarstellung, die Diamanten spart: dieser Tab belohnt <strong>Geld-Aufladungen, NICHT Diamanten-Ausgaben</strong>. Anders als bei einem Diamanten-Ausgaben-Meilenstein-Event kann eine F2P-Konto hier nichts ausrichten. Überspringe den Tab komplett — er zielt nicht auf dich.</p>
+
+    <h2 id="tab-7-buried">Tab 7: Vergrabener Schatz (das F2P-Minispiel)</h2>
+    <p>Das Match-Minispiel und der missverstandenste Tab:</p>
+    <ul>
+      <li><strong>5 Gratis-Versuche pro Tag.</strong></li>
+      <li>Gratis-Fähigkeiten: <strong>Entfernen, Zurückrufen, Auffrischen.</strong></li>
+      <li>Belohnungen gibt es <strong>NICHT fürs Clearen der Phase</strong> — sie werden <strong>EINE ZU EINE BEIM MATCHEN</strong> gewährt.</li>
+      <li><strong>Gesammelte Belohnungen bleiben SICHER, selbst wenn der Run scheitert.</strong> Gematcht = gebankt.</li>
+    </ul>
+    <p>Das produziert die kontraintuitive F2P-Strategie, den <strong>„Selbstmord für Belohnungen“</strong>-Coup: schnapp die Belohnungen des Spielbretts und <strong>verliere dann absichtlich</strong>. Clearen ist nicht das Ziel — Belohnungen vom Brett zu matchen ist das. Scheitern kostet nichts und behält den gematchten Loot.</p>
+    <p>Der einzige Vorbehalt: <strong>Phase 2 ist ohne Ausgaben quasi unmöglich</strong> — sie will rund <strong>26 Clears</strong>. Verbrenne keine Versuche und kein Geld darauf; farme den Gratis-Wert von Phase 1.</p>
+
+    <h2 id="anchor-expiry">KRITISCH: Anker-Münzen werden nicht übertragen</h2>
+    <blockquote>Anker-Münzen werden NICHT ins nächste Event übertragen — ungenutzte Münzen werden beim Schließen des Umtauschs in Beschleunigungen umgewandelt. Nutze wirklich alle vorher auf.</blockquote>
+    <p>Beschleunigungen sind der Trostpreis, nicht das Ziel (siehe die <a href="#tab-3-market">Markt-Priorität</a> — Anker kaufen UR-Fragmente, Beschleunigungen kaufen Beschleunigungen). Das Event mit Rest-Ankern zu beenden ist reiner Wertverlust: alles, was sie im Markt hätten kaufen können, war strikt besser als die Umrechnungs-Quote.</p>
+
+    <h2 id="f2p-checklist">Die F2P-Tages-Checkliste</h2>
+    <ol>
+      <li>Farme <strong>300 Meeresfische</strong> (Köstliche Jagd) und stoppe an der Grenze.</li>
+      <li>Reiche Fische beim <strong>Großen Festmahl</strong> ein.</li>
+      <li>Spiele <strong>5 Vergrabener-Schatz-Versuche</strong> — Belohnungen matchen, Selbstmord, wiederholen.</li>
+      <li>Nimm die <strong>Gratis-Züge des Piraten-Spiels</strong>.</li>
+      <li>Gib Anker für den garantierten Wert aus — <strong>UR-Fragmente zuerst</strong>.</li>
+    </ol>
+
+    <h2 id="community-verdict">Community-Urteil</h2>
+    <p>Mythic Treasure ist <strong>stark P2W gewürzt</strong> — der Pass, die Spielautomaten und der Auflade-Tab sind für Zahler gebaut. Aber die F2P-Sektionen — <strong>Großes Festmahl, Vergrabener Schatz und das Fisch-Farming</strong> — lohnen sich jeden einzelnen Tag des Events. Grind die, ignoriere den Rest, und lass nichts auf dem Tisch liegen, wenn der Umtausch schließt.</p>
+
+    <VideoSection topic="mythic" lang={lang} />
+  </GuidePage>
+</Base>

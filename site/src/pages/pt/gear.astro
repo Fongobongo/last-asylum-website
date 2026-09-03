@@ -1,0 +1,65 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import Infographic from '../../components/Infographic.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'pt';
+---
+
+<Base lang={lang} path="/pt/gear/" title="Guia de equipamento" description="Sistema de equipamento de Last Asylum: Plague: fabrique só UR, marcos de promoção, prioridades de slots para carries e tanques, e farm de pedras de equipamento.">
+  <GuidePage
+    title="⚔️ Guia de equipamento: fabricar, promover, priorizar"
+    description="As regras da comunidade do sistema de equipamento — o que fabricar, o que desmontar, o que pular e de onde vêm os materiais."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/pt/' }, { label: 'Equipamento' }]}
+  >
+    <h2 id="cardinal-rules">As regras cardeais</h2>
+    <ul>
+      <li><strong>Fabrique só UR (laranja).</strong> Equipamento verde e azul cai de graça — nunca desperdice materiais melhorando-o. Desmonte equipamento antigo de tier baixo.</li>
+      <li><strong>Um esquadrão por vez.</strong> Para progredir rápido, equipe só o Esquadrão 1 — espadas e luvas para os carries, peitoral e botas para os tanques.</li>
+      <li><strong>Heróis UR antes de heróis SSR</strong> ao distribuir equipamento.</li>
+      <li>Escada de qualidade: <strong>Ouro (UR) &gt; Roxo (SSR) &gt; Azul (SR) &gt; Verde (R) &gt; Cinza</strong>.</li>
+    </ul>
+
+    <h2 id="slot-priorities">Prioridades de slots</h2>
+    <table class="w-full mb-6 text-sm">
+      <tr><th>Função do herói</th><th>Primeiro</th><th>Segundo</th><th>Notas</th></tr>
+      <tr><td>Carry (DPS)</td><td>Arma (espada)</td><td>Luvas</td><td>Ataque + crítico escalam seu dano</td></tr>
+      <tr><td>Tanque</td><td>Botas</td><td>Peitoral</td><td>HP/DEF mantêm a linha de frente de pé</td></tr>
+      <tr><td>Ordem para carries (Annie/Jester)</td><td>Espada → Manoplas → Armadura → Botas</td><td></td><td>Ordem da comunidade para carries warlock</td></tr>
+    </table>
+
+    <h2 id="promotion">Promoção de equipamento (o sistema de maio de 2026)</h2>
+    <p>Desde a atualização de maio de 2026, o equipamento pode ser <strong>promovido</strong> com Plantas nos níveis <strong>10, 20, 30 e 40</strong>, e aprimorado além de 40 até <strong>60</strong> — o custo total de materiais continua o mesmo do sistema antigo. As promoções desbloqueiam estatísticas de bônus adicionais; tiers de promoção mais altos são o principal objetivo de equipamento a longo prazo.</p>
+
+    <h2 id="boss-gear">Equipamento para lutas de chefe (Rei Demônio)</h2>
+    <p>Contra chefes que não revidam, as regras normais se invertem:</p>
+    <ul>
+      <li><strong>Armas: as maiores espadas UR</strong> — «uma espada UR +0 dá mais dano que uma espada SSR +30» (ataque + chance crítica escalam as bases das habilidades)</li>
+      <li><strong>Luvas: SSR, NÃO UR!</strong> Luvas SSR no nível 30 dão <strong>+12.25% de dano contra monstros</strong>, e os modificadores das luvas SSR aplicam-se ao dano FINAL — luvas UR turbinam o ATK (mais fraco) e adicionam resistência a dano inútil</li>
+      <li><strong>Botas e peitoral: irrelevantes</strong> contra chefes — qualquer nível serve</li>
+    </ul>
+
+    <h2 id="raven-gear">Equipamento do Corvo</h2>
+    <p>O Corvo tem seu próprio conjunto de equipamento (lado esquerdo: HP/redução de dano crítico, lado direito: ATK/dano crítico). Empurre-o para o <strong>nível 8</strong>, onde os bônus percentuais entram em ação. <strong>Guarde os baús de equipamento do Corvo para os dias de Duelo de Alianças</strong> — abri-los pontua no evento.</p>
+    <p>Conjuntos de efeito especial (Máscara do Corvo Noturno, Capa de Penas de Corvo) ativam-se nos níveis designados de suas peças — adicionados na atualização de março de 2026.</p>
+
+    <h2 id="materials">De onde vêm os materiais</h2>
+    <ul>
+      <li><strong>Oficina de Equipamento</strong> — fabricar e desmontar; a <strong>Oficina de Fundição</strong> produz pedra de equipamento para subir de nível; a <strong>Oficina de Tecelagem</strong> produz tecido para fundir/fabricar</li>
+      <li><strong>Farm F2P de pedras:</strong> existe uma rota de farm consistente (veja o vídeo abaixo) — a principal reclamação da comunidade é a pedra de equipamento, planeje-a cedo</li>
+      <li><strong>Lojas:</strong> Pedras de Equipamento nas lojas do Santuário e da Expedição (prioridade: 3 compras)</li>
+      <li><strong>Plantas:</strong> o item n.º 1 da loja de Honra — essa loja existe para plantas de equipamento (nunca baús de epígrafes lá)</li>
+    </ul>
+
+    <Infographic src="/infographics/skill-scaling.webp" alt="Escalonamento de habilidades e equipamento" caption="Escalonamento de habilidades e equipamento — por que os heróis parecem fracos" credit="HottChoklit" />
+
+    <VideoSection topic="gear" lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

@@ -1,0 +1,88 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ko';
+---
+<Base lang={lang} path="/ko/events/thief/" title="도적 사냥: 보스 스폰 &amp; 교환" description="스태미나를 보스로 바꾸는 파이프라인: 도적 두목 스폰의 실제 작동, 30/35레벨 연속 처치 기법, 커뮤니티 교환 우선순위 목록, 가장 많은 피해를 쌓는 보스 부대.">
+  <GuidePage title="도적 사냥: 보스 스폰 &amp; 교환" description="스태미나를 보스로 바꾸는 파이프라인: 도적 두목 스폰의 실제 작동, 30/35레벨 연속 처치 기법, 커뮤니티 교환 우선순위 목록, 가장 많은 피해를 쌓는 보스 부대." lang={lang}>
+    <p>도적 사냥은 <strong>동맹 스태미나 이벤트</strong>입니다: 맵의 도적을 스태미나로 공격하면, 도적 처치가 동맹 전체가 집결할 수 있는 <strong>도적 두목 보스</strong> 스폰 확률 굴림이 됩니다. 남는 스태미나를 교환 상점으로 바꿉니다 — 올바른 순서로 사면 게임에서 가장 가치 좋은 상점 중 하나입니다.</p>
+    <p>이 가이드는 보스 스폰 메커니즘, 고레벨 보스 스폰 기법, 교환 우선순위 목록, 보스 부대를 다룹니다.</p>
+
+    <h2 id="how-it-works">작동 방식</h2>
+    <ul>
+      <li>맵의 도적을 스태미나로 공격하세요. 처치가 동맹 집결용 도적 두목 보스를 스폰합니다 — <strong>스폰은 처치한 도적마다 굴려집니다</strong>, 이벤트 일이나 플레이어당이 아니라.</li>
+      <li>보스는 <strong>첫 처치 또는 20번째 이후</strong>에 스폰됩니다 — 굴림은 일찍 또는 연속 후에 일어납니다. 한 동맹은 <strong>항상 8 이상</strong>을 보고했습니다; 편차를 예상하고 계속 죽이세요.</li>
+      <li>점수와 보상은 <strong>이벤트 후반에 증가하지 않습니다</strong>. 스태미나를 모을 이유가 전혀 없습니다 — <strong>즉시 쓰세요</strong> 더 빨리 큰 보스를 노리세요.</li>
+    </ul>
+
+    <h2 id="boss-levels">서버별 보스 레벨</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>서버 연령</th><th>일반적인 보스 레벨</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>일반</td><td>10 / 15 / 20 / 25 / 30, 드물게 35</td></tr>
+        <tr><td>오래된 서버</td><td>40 / 65 / 85 / 90</td></tr>
+      </tbody>
+    </table>
+    <ul>
+      <li>보스 레벨 <strong>범위는 플레이어마다 무작위이고 바뀌지 않습니다</strong> — 범위를 굴리면 그대로 유지됩니다. <strong>전력과 무관</strong>하므로, 저전력 플레이어도 고레벨 보스를 굴릴 수 있습니다.</li>
+      <li><strong>7월 8일 패치 이후: 스폰이 서버 성장에 정확</strong>합니다. 그 패치 이후 보스 레벨은 서버의 발전 정도를 따릅니다 — 1년 된 서버에 10레벨 보스는 이제 없습니다.</li>
+    </ul>
+
+    <h2 id="spawn-technique">30/35레벨을 위한 연속 처치 기법</h2>
+    <p>보스 레벨을 30과 35로 밀기 위한 검증된 기법:</p>
+    <blockquote>부대가 기지로 귀환하지 않게 도적을 하나씩 죽이세요 — 쉼 없이, 공백 시간 0으로 연속 행군.</blockquote>
+    <p>기지로 귀환하는 행군이 연속 기록을 끊습니다; 연속 처치가 스폰 굴림을 반복합니다. 다음 행군이 마지막 것이 착지하자마자 출발하도록 목표를 연쇄하세요, 그러면 고레벨 스폰이 훨씬 자주 옵니다.</p>
+
+    <h2 id="exchange">교환 우선순위 목록</h2>
+    <p>교환 상점이 진짜 보상이며, 커뮤니티 합의 순서는 안정적입니다:</p>
+    <h3 id="week-1">1주차에만</h3>
+    <ol>
+      <li><strong>스크롤</strong> — 동맹 결투 기술용 4개, <strong>그다음 절대 다시 사지 않기</strong>. 결투 기술은 정확히 4개를 원합니다; 그 후에는 무게만 됩니다.</li>
+    </ol>
+    <h3 id="always">항상, 매 이벤트</h3>
+    <ol>
+      <li><strong>Raven 정수</strong> — 매 이벤트, 예외 없음. Raven 시스템은 영구적으로 그것이 병목입니다 (<a href="/ko/raven/">Raven 가이드</a> 참고).</li>
+    </ol>
+    <h3 id="high-priority">높은 우선순위</h3>
+    <ol>
+      <li>스태미나</li>
+      <li>가속</li>
+      <li>Raven 상자</li>
+      <li>에피그라프 <em>있을 때</em></li>
+    </ol>
+    <h3 id="late-game">게임 후반</h3>
+    <ol>
+      <li><strong>약초</strong> — 절대 충분하지 않습니다; 후반 계정은 매 이벤트 약초를 삽니다.</li>
+    </ol>
+    <h3 id="alt-list">대체 우선순위 목록</h3>
+    <ol>
+      <li>스태미나</li>
+      <li>LV3 Raven 상자</li>
+      <li>파랑/보라 에피그라프 상자</li>
+      <li>연구/건설 가속</li>
+      <li>모집 티켓</li>
+    </ol>
+    <p>그리고 하나의 인벤토리 규칙: <strong>스크롤 한도는 이벤트 간 이월</strong>됩니다. 스크롤 상한에 도달하면 그 상한이 다음 이벤트까지 따라옵니다 — &quot;4개 그리고 다시는 안 사기&quot; 규칙이 존재하는 또 하나의 이유입니다.</p>
+
+    <h2 id="boss-squad">보스 집결 부대</h2>
+    <p>시간당 피해를 위해 지어진 커뮤니티 보스 구성:</p>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>열</th><th>영웅</th><th>역할</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>전열</td><td>Arthur + Bella</td><td>더 오래 생존 — 생존 매초마다 더 많은 피해가 쌓임</td></tr>
+        <tr><td>후열</td><td>Marlena + Shadow + Claire</td><td>전열 뒤의 피해 엔진</td></tr>
+      </tbody>
+    </table>
+    <p>논리: <strong>더 오래 생존 = 더 많은 피해 축적</strong>. 보스 전투는 버스트 체크가 아닙니다 — 가장 오래 서 있는 부대가 가장 많이 때립니다, 그러니 순수 공격보다 생존을 우선하세요. 전체 영웅 세부사항은 <a href="/ko/heroes/">영웅 가이드</a>에 있습니다.</p>
+
+    <VideoSection topic="thief" lang={lang} />
+  </GuidePage>
+</Base>
