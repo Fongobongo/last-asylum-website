@@ -1,0 +1,63 @@
+---
+import { getCollection, getEntry, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import GuidePage from '../components/GuidePage.astro';
+import VideoSection from '../components/VideoSection.astro';
+import Calculators from '../components/Calculators.astro';
+import Infographic from '../components/Infographic.astro';
+import DiscordBanner from '../components/DiscordBanner.astro';
+import type { Lang } from '../i18n/utils';
+
+export async function getStaticPaths() {
+  const guides = await getCollection('guides');
+  return guides.map((entry) => {
+    const [lang, ...rest] = entry.id.split('/');
+    const slug = rest.join('/').replace(/\.md$/, '');
+    // English is the default language: served at /{slug}/
+    // Others: /{lang}/{slug}/
+    const url = lang === 'en' ? `/${slug}/` : `/${lang}/${slug}/`;
+    return {
+      params: { slug: url.replace(/^\//, '').replace(/\/$/, '') },
+      props: { entryId: entry.id, lang, slug },
+    };
+  });
+}
+
+interface Props {
+  entryId: string;
+  lang: Lang;
+  slug: string;
+}
+
+const { entryId, lang, slug } = Astro.props;
+const entry = await getEntry('guides', entryId);
+if (!entry) return Astro.rewrite('/404');
+const { Content } = await render(entry);
+
+const data = entry.data as any;
+const path = lang === 'en' ? `/${slug}/` : `/${lang}/${slug}/`;
+const showDiscord = slug !== 'support' && slug !== 'credits';
+---
+
+<Base lang={lang} path={path} title={data.title} description={data.description}>
+  {data.noindex && <meta slot="head" name="robots" content="noindex, nofollow" />}
+  <GuidePage title={data.title} description={data.description} lang={lang}>
+    {data.updated && (
+      <p class="mb-4 text-xs text-stone-500">
+        🗓 {lang === 'ru' ? 'Обновлено' : 'Updated'}: {data.updated}
+      </p>
+    )}
+
+    <Content />
+
+    {data.calculators?.map((c: string) => <Calculators calc={c as any} lang={lang} />)}
+
+    {data.infographics?.map((i: string) => (
+      <Infographic src={i} alt="Guide infographic" />
+    ))}
+
+    {data.videoTopic && <VideoSection topic={data.videoTopic} lang={lang} />}
+
+    {showDiscord && <DiscordBanner lang={lang} />}
+  </GuidePage>
+</Base>

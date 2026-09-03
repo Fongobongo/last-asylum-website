@@ -78,6 +78,13 @@ node serve.cjs     # простой статический сервер для �
 
 Ручное обновление: `python parse_channel.py && python update_data.py` в корне.
 
+## Админка и редакторы
+
+Подробно — `site/README-ADMIN.md`. Кратко:
+- `/admin/` — Sveltia CMS (GitHub OAuth), контент в `content/guides/**/*.md`, публикация через PR (editorial workflow)
+- **Создать редактора**: Collaborators → Add people → роль Write; лимит правок — 5 мержей/день на автора (`limit-edits.yml`)
+- **DND-раздел** `/dnd/`: зашифрован AES-256-GCM, ключ — секрет `DND_SECRET`, не индексируется и отсутствует в sitemap
+
 ## Донат-раздел (`/support/`)
 
 Заглушки в `site/src/pages/support.astro` и `site/src/pages/ru/support.astro` (и аналоги для 7 языков):

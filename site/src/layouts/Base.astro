@@ -9,9 +9,10 @@ interface Props {
   path: string;
   title?: string;
   description?: string;
+  noindex?: boolean;
 }
 
-const { lang, path, title, description } = Astro.props;
+const { lang, path, title, description, noindex } = Astro.props;
 const pageTitle = title ? `${title} — ${t(lang, 'site.title')}` : t(lang, 'site.title');
 const desc = description ?? t(lang, 'site.tagline');
 
@@ -39,10 +40,11 @@ const umamiSrc = import.meta.env.PUBLIC_UMAMI_SRC ?? '';
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={desc} />
     <title>{pageTitle}</title>
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
 
-    <link rel="canonical" href={canonical} />
-    <link rel="alternate" hreflang="x-default" href={site + cleanPath} />
-    {alternates.map((a) => <link rel="alternate" hreflang={a.lang} href={a.href} />)}
+    {noindex ? '' : <link rel="canonical" href={canonical} />}
+    {!noindex && <link rel="alternate" hreflang="x-default" href={site + cleanPath} />}
+    {alternates.length > 0 && !noindex && alternates.map((a) => <link rel="alternate" hreflang={a.lang} href={a.href} />)}
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={t(lang, 'site.title')} />

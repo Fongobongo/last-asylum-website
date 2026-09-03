@@ -40,6 +40,7 @@ jobs:
         working-directory: site
         env:
           SITE_URL: ${{ secrets.SITE_URL }}
+          DND_SECRET: ${{ secrets.DND_SECRET }}
 
       - name: Commit & push updated data (if changed)
         run: |

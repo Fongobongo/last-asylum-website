@@ -1,0 +1,59 @@
+name: Enforce edit limits
+
+# Enforces: no author may have more than N merged edits per day.
+# - For PRs to main: checks the DAILY count of merges by the PR author.
+# - Auto-update bot commits are excluded.
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, ready_for_review]
+    branches: [main]
+
+permissions:
+  pull-requests: write
+  contents: read
+
+env:
+  MAX_EDITS_PER_DAY: "5"
+
+jobs:
+  check:
+    name: Daily edit limit (${{ github.event.pull_request.user.login }})
+    runs-on: ubuntu-latest
+    steps:
+      - name: Count author's merges in the last 24h
+        id: count
+        run: |
+          AUTHOR="${{ github.event.pull_request.user.login }}"
+          if [ "$AUTHOR" = "auto-update-bot" ] || [ "$AUTHOR" = "github-actions[bot]" ]; then
+            echo "count=0" >> "$GITHUB_OUTPUT"
+            echo "Bot author — limit skipped"
+            exit 0
+          fi
+          SINCE=$(date -u -d '24 hours ago' +'%Y-%m-%dT%H:%M:%SZ')
+          COUNT=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/search/issues?q=repo:${{ github.repository }}+type:pr+author:$AUTHOR+is:merged+merged:>$SINCE" \
+            | jq '.total_count')
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+          echo "Author $AUTHOR has $COUNT merged PRs in the last 24h (limit: $MAX_EDITS_PER_DAY)"
+
+      - name: Comment status on the PR
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const count = parseInt('${{ steps.count.outputs.count }}');
+            const limit = parseInt(process.env.MAX_EDITS_PER_DAY);
+            const isOver = count > limit;
+            const body = isOver
+              ? `⛔ **Daily edit limit reached**: @${context.payload.pull_request.user.login} already has **${count}** merged edits in the last 24h (limit: **${limit}**).\n\nThis PR cannot be merged today. It will be mergeable again after the daily window resets.`
+              : `✅ **Edit limit OK**: ${count}/${limit} edits used today by @${context.payload.pull_request.user.login}.`;
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.pull_request.number,
+              body
+            });
+            if (isOver) {
+              core.setFailed(`Edit limit exceeded: ${count} > ${limit}`);
+            }
