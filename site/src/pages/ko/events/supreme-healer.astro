@@ -1,0 +1,48 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ko';
+---
+
+<Base lang={lang} path="/ko/events/supreme-healer/" title="최고의 치유사: 완벽 이벤트 공략" description="7일간의 포인트 획득 일정, 일자별 자원 배분, 스태미나 비축, 매의 임무 활용 및 데일리 서바이벌 연계 2중 보상 전략.">
+  <GuidePage title="최고의 치유사: 완벽 이벤트 공략" description="7일간의 포인트 획득 일정, 일자별 자원 배분, 스태미나 비축, 매의 임무 활용 및 데일리 서바이벌 연계 2중 보상 전략." lang={lang}>
+    <p>최고의 치유사(Supreme Healer / Top Healer) 이벤트는 7일 동안 매일 다른 미션으로 경쟁하는 라스트 어사일럼 최고의 주간 대회입니다. 철저한 자원 비축과 마이크로 매니지먼트가 승리의 핵심입니다.</p>
+
+    <h2 id="what-it-is">최고의 치유사(Supreme Healer) 이벤트란?</h2>
+    <p>최고의 치유사(Supreme Healer / Top Healer) 이벤트는 7일 동안 매일 다른 미션으로 경쟁하는 라스트 어사일럼 최고의 주간 대회입니다. 철저한 자원 비축과 마이크로 매니지먼트가 승리의 핵심입니다.</p>
+
+    <h2 id="schedule">7일간의 포인트 일정표</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Day</th><th>Focus</th><th>Scoring Rules</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Day 1</td><td>Gathering & Stamina</td><td>1 Stamina = 100 pts • 1 Falcon Mission = 1,000 pts • Resource Gathering</td></tr>
+        <tr><td>Day 2</td><td>Survivors & Building</td><td>Recruitment = 400 pts • Build speedups = 20 pts/min • Might = 1 pt/+1</td></tr>
+        <tr><td>Day 3</td><td>Technology & Research</td><td>1 Falcon Mission = 1,000 pts • Research speedups = 20 pts/min</td></tr>
+        <tr><td>Day 4</td><td>Heroes & Healing</td><td>Recruitment = 400 pts/ticket • Skill Badges = 10 pts • Antitoxin = 1 pt/660</td></tr>
+        <tr><td>Day 5</td><td>Total Force & Troops</td><td>Troop training (scales by tier T7–T10) • Speedups = 20 pts/min</td></tr>
+        <tr><td>Day 6</td><td>Elite Operations</td><td>UR Caravan = 5,000 pts • Secret Op = 2,000 pts • Speedups = 20 pts/min</td></tr>
+        <tr><td>Day 7</td><td>Final Chaos</td><td>TOTAL MISSIONS: All previous day tasks grant points! • Speedups = 20 pts/min</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="pro-tips">생존 가방 (프로 공략 팁)</h2>
+    <ul>
+      <li><strong>00:00 UTC Pre-Reset Gathering:</strong> Send marches to harvest high-tier nodes 4-6 hours before Day 1 and Day 7 resets.</li>
+      <li><strong>Bank Falcon Missions:</strong> Don't claim missions right away; claim them only on Day 1 & Day 3 for 1,000 points each.</li>
+      <li><strong>Hold the Hammer:</strong> When buildings finish early, leave the hammer unclicked until Day 2 or Day 5 begins.</li>
+      <li><strong>Save 150–250 Recruit Tickets:</strong> Keep all tickets for Day 4 to hit top milestone chests.</li>
+      <li><strong>Stockpile Antitoxin:</strong> Save Antitoxin for 2-3 days prior to the event for effortless points on Day 4.</li>
+    </ul>
+
+    <h2 id="syncing">이벤트 연계 동시 달성 (더블 보상)</h2>
+    <p>가속 아이템은 반드시 데일리 서바이벌 배틀과 겹치는 시간대에 소모하여 두 이벤트 보상을 동시에 챙기세요.</p>
+
+    <VideoSection topic="supreme_healer" lang={lang} />
+  </GuidePage>
+</Base>

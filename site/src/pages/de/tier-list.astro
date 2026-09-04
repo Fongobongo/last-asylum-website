@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
 import DiscordBanner from '../../components/DiscordBanner.astro';
 import { heroTiers, tierColors } from '../../data/tiers';
 import { t } from '../../i18n/ui';
@@ -50,6 +51,7 @@ const tiers: ('S' | 'A' | 'B' | 'C')[] = ['S', 'A', 'B', 'C'];
     </ul>
     <blockquote>Monofraktions-Meta: UR-Epigraphen buffen NUR EINE Fraktion. 3 Helden derselben Fraktion = +5 %, 4 = +15 %, 5 = +20 % HP/ATK/DEF. Konter: Krieger > Hexer > Waldläufer > Krieger.</blockquote>
 
+        <VideoSection topic="tier_list" lang={lang} />
     <DiscordBanner lang={lang} />
   </GuidePage>
 </Base>

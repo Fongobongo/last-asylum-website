@@ -3,6 +3,7 @@ title: "🛡️ Server Status & Known Issues"
 description: "Summary of server status, known issues and compensation notices."
 lang: en
 updated: "2026-09-03"
+videoTopic: status
 ---
 
 This page lists every notable official notice: bugs, fixes, compensation waves and security alerts. Newest first. If your issue is not listed, report it in-game: Avatar → Account → User Center → Feedback.

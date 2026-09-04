@@ -1,7 +1,7 @@
 ---
 import { t } from '../i18n/ui';
 import type { Lang } from '../i18n/utils';
-import { videosFor } from '../data/videos';
+import { videosFor, getYouTubeSearchUrl, getTopicName, getSearchQuery } from '../data/videos';
 
 interface Props {
   topic: string;
@@ -9,44 +9,108 @@ interface Props {
 }
 
 const { topic, lang } = Astro.props;
-const vids = videosFor(topic, lang as 'en' | 'ru');
+const vids = videosFor(topic, lang);
+const topicName = getTopicName(topic, lang);
+const ytSearchUrl = getYouTubeSearchUrl(topic, lang);
+const queryText = getSearchQuery(topic, lang);
+
+const langBadges: Record<string, string> = {
+  ru: '🇷🇺 RU',
+  en: '🇺🇸 EN',
+  fr: '🇫🇷 FR',
+  pt: '🇧🇷 PT',
+  ko: '🇰🇷 KO',
+  de: '🇩🇪 DE',
+  es: '🇪🇸 ES',
+  id: '🇮🇩 ID',
+  ja: '🇯🇵 JA',
+};
 ---
 
 {
   vids.length > 0 && (
     <section class="not-prose my-10">
-      <h2 class="mb-4 text-2xl font-bold text-plague-200">{t(lang, 'video.section')}</h2>
+      <div class="mb-4 flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1">
+        <h2 class="text-2xl font-bold text-plague-200 flex items-center gap-2">
+          <span>🎥</span>
+          <span>{t(lang, 'video.section')}</span>
+        </h2>
+        <p class="text-xs text-stone-400">{t(lang, 'video.subtitle')}</p>
+      </div>
+
       <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {vids.map((v) => (
-          <div class="group overflow-hidden rounded-lg border border-stone-800 bg-stone-900 transition-colors hover:border-plague-600">
-            <button
-              class="js-video-facade relative block w-full"
-              data-video-id={v.id}
-              aria-label={v.title ?? 'Play video'}
-            >
-              <span class="block aspect-video overflow-hidden bg-stone-800">
-                <img
-                  src={`https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`}
-                  alt={v.title ?? 'Video guide'}
-                  loading="lazy"
-                  class="h-full w-full object-cover transition-transform group-hover:scale-105"
-                />
-              </span>
-              <span class="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/30 opacity-80 transition-opacity group-hover:opacity-100">
-                <span class="flex h-12 w-12 items-center justify-center rounded-full bg-blood-600/90 text-xl text-white shadow-lg">▶</span>
-              </span>
-              {v.lang === 'en' && lang !== 'en' && (
-                <span class="absolute right-2 top-2 rounded bg-black/70 px-1.5 py-0.5 text-xs font-bold text-plague-200">
-                  {t(lang, 'video.en')}
+          <div class="group overflow-hidden rounded-lg border border-stone-800 bg-stone-900 transition-colors hover:border-plague-500 flex flex-col justify-between">
+            <div>
+              <button
+                class="js-video-facade relative block w-full text-left cursor-pointer"
+                data-video-id={v.id}
+                aria-label={v.title ?? 'Play video'}
+              >
+                <span class="block aspect-video overflow-hidden bg-stone-800">
+                  <img
+                    src={`https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`}
+                    alt={v.title ?? 'Video guide'}
+                    loading="lazy"
+                    class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
                 </span>
-              )}
-            </button>
-            <div class="p-3">
-              <p class="line-clamp-2 text-sm font-medium text-stone-200 group-hover:text-plague-200">{v.title}</p>
-              <p class="mt-1 text-xs text-stone-500">YouTube</p>
+                <span class="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/30 opacity-80 transition-opacity group-hover:opacity-100">
+                  <span class="flex h-12 w-12 items-center justify-center rounded-full bg-red-600/90 text-xl text-white shadow-lg transition-transform group-hover:scale-110">▶</span>
+                </span>
+                {v.lang && (
+                  <span class="absolute right-2 top-2 rounded bg-black/80 px-2 py-0.5 text-xs font-bold text-stone-200 shadow border border-stone-700">
+                    {langBadges[v.lang] ?? v.lang.toUpperCase()}
+                  </span>
+                )}
+              </button>
+              <div class="p-3">
+                <p class="line-clamp-2 text-sm font-medium text-stone-200 group-hover:text-plague-200 transition-colors">{v.title}</p>
+              </div>
+            </div>
+            <div class="px-3 pb-3 pt-0 flex items-center justify-between text-xs text-stone-500 border-t border-stone-800/60 mt-1">
+              <span class="inline-flex items-center gap-1">
+                <svg class="h-3.5 w-3.5 text-red-500 fill-current" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                <span>YouTube</span>
+              </span>
+              <a
+                href={`https://www.youtube.com/watch?v=${v.id}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-stone-400 hover:text-plague-300 transition-colors"
+                title="Open in YouTube"
+              >
+                ↗
+              </a>
             </div>
           </div>
         ))}
+      </div>
+
+      <!-- Localized YouTube Search Banner -->
+      <div class="mt-4 flex flex-col sm:flex-row items-center justify-between gap-3 rounded-lg border border-stone-800 bg-stone-900/90 p-3.5">
+        <div class="flex items-center gap-3 min-w-0">
+          <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-red-600/20 text-red-500">
+            <svg class="h-5 w-5 fill-current" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </span>
+          <div class="min-w-0">
+            <p class="text-xs sm:text-sm font-semibold text-stone-200 truncate">
+              {t(lang, 'video.search_topic')}: <span class="text-plague-300">«{topicName}»</span>
+            </p>
+            <p class="text-xs text-stone-400 truncate">
+              <span class="text-stone-500">Поиск:</span> <span class="text-stone-300 font-mono">{queryText}</span>
+            </p>
+          </div>
+        </div>
+        <a
+          href={ytSearchUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-1.5 shrink-0 rounded-md bg-red-600 hover:bg-red-500 px-3.5 py-1.5 text-xs font-bold uppercase tracking-wider text-white shadow transition-all active:scale-95"
+        >
+          <span>{t(lang, 'video.watch_on_yt')}</span>
+          <svg class="h-3.5 w-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+        </a>
       </div>
     </section>
   )

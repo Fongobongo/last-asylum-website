@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
 import DiscordBanner from '../../components/DiscordBanner.astro';
 import { heroTiers, tierColors } from '../../data/tiers';
 import { t } from '../../i18n/ui';
@@ -50,6 +51,7 @@ const tiers: ('S' | 'A' | 'B' | 'C')[] = ['S', 'A', 'B', 'C'];
     </ul>
     <blockquote>Meta satu faksi: epigraf UR mem-buff SATU faksi saja. 3 hero satu faksi = +5%, 4 = +15%, 5 = +20% HP/ATK/DEF. Kontra faksi: Warrior &gt; Warlock &gt; Ranger &gt; Warrior.</blockquote>
 
+        <VideoSection topic="tier_list" lang={lang} />
     <DiscordBanner lang={lang} />
   </GuidePage>
 </Base>

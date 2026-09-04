@@ -82,5 +82,12 @@ const umamiSrc = import.meta.env.PUBLIC_UMAMI_SRC ?? '';
       <slot />
     </main>
     <Footer lang={lang} />
+    <script is:inline>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        });
+      }
+    </script>
   </body>
 </html>

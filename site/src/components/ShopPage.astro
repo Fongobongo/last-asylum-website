@@ -324,6 +324,176 @@ const T = {
     </div>
   </div>
 
+
+  <!-- Top-Up Savings Calculator -->
+  <div class="my-16 rounded-3xl border border-toxic-500/30 bg-stone-900/60 p-6 sm:p-8 backdrop-blur-xl shadow-2xl" id="savings-calc">
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 border-b border-white/[0.06] pb-6 mb-6">
+      <div>
+        <div class="flex items-center gap-2">
+          <span class="text-xl">💰</span>
+          <h3 class="text-xl sm:text-2xl font-bold text-white">
+            {isRu ? 'Калькулятор реальной экономии на LDShop' : 'Real Top-Up Savings Calculator'}
+          </h3>
+        </div>
+        <p class="mt-1 text-xs sm:text-sm text-stone-400">
+          {isRu ? 'Выберите желаемый пак алмазов и сравните цену с официальным магазином в игре:' : 'Choose your desired diamond pack and compare with standard in-game store prices:'}
+        </p>
+      </div>
+
+      <!-- Currency Switcher -->
+      <div class="flex items-center gap-1.5 self-start md:self-auto rounded-xl border border-white/10 bg-black/40 p-1 text-xs">
+        <button type="button" data-curr="USD" class="curr-btn active rounded-lg px-2.5 py-1 font-mono font-bold transition bg-white text-black">USD ($)</button>
+        <button type="button" data-curr="RUB" class="curr-btn rounded-lg px-2.5 py-1 font-mono font-bold transition text-stone-400 hover:text-white">RUB (₽)</button>
+        <button type="button" data-curr="EUR" class="curr-btn rounded-lg px-2.5 py-1 font-mono font-bold transition text-stone-400 hover:text-white">EUR (€)</button>
+      </div>
+    </div>
+
+    <!-- Pack Selection Buttons -->
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2.5 mb-8" id="calc-pack-selector">
+      <button type="button" data-diamonds="60" data-official-usd="0.99" data-ld-usd="0.82" data-official-rub="99" data-ld-rub="82" data-official-eur="0.99" data-ld-eur="0.82" class="pack-btn rounded-xl border border-stone-800 bg-stone-950 p-3 text-center transition hover:border-toxic-400/50">
+        <div class="text-xs font-semibold text-stone-400">60 💎</div>
+        <div class="mt-1 font-mono font-bold text-sm text-white pack-price">$0.82</div>
+      </button>
+
+      <button type="button" data-diamonds="300" data-official-usd="4.99" data-ld-usd="4.10" data-official-rub="499" data-ld-rub="410" data-official-eur="4.99" data-ld-eur="4.10" class="pack-btn rounded-xl border border-stone-800 bg-stone-950 p-3 text-center transition hover:border-toxic-400/50">
+        <div class="text-xs font-semibold text-stone-400">300 💎</div>
+        <div class="mt-1 font-mono font-bold text-sm text-white pack-price">$4.10</div>
+      </button>
+
+      <button type="button" data-diamonds="980" data-official-usd="14.99" data-ld-usd="12.30" data-official-rub="1490" data-ld-rub="1230" data-official-eur="14.99" data-ld-eur="12.30" class="pack-btn rounded-xl border border-stone-800 bg-stone-950 p-3 text-center transition hover:border-toxic-400/50">
+        <div class="text-xs font-semibold text-stone-400">980 💎</div>
+        <div class="mt-1 font-mono font-bold text-sm text-white pack-price">$12.30</div>
+      </button>
+
+      <button type="button" data-diamonds="1980" data-official-usd="29.99" data-ld-usd="24.60" data-official-rub="2990" data-ld-rub="2460" data-official-eur="29.99" data-ld-eur="24.60" class="pack-btn rounded-xl border border-stone-800 bg-stone-950 p-3 text-center transition hover:border-toxic-400/50">
+        <div class="text-xs font-semibold text-stone-400">1980 💎</div>
+        <div class="mt-1 font-mono font-bold text-sm text-white pack-price">$24.60</div>
+      </button>
+
+      <button type="button" data-diamonds="3280" data-official-usd="49.99" data-ld-usd="40.99" data-official-rub="4990" data-ld-rub="4090" data-official-eur="49.99" data-ld-eur="40.99" class="pack-btn rounded-xl border border-stone-800 bg-stone-950 p-3 text-center transition hover:border-toxic-400/50">
+        <div class="text-xs font-semibold text-stone-400">3280 💎</div>
+        <div class="mt-1 font-mono font-bold text-sm text-white pack-price">$40.99</div>
+      </button>
+
+      <button type="button" data-diamonds="6480" data-official-usd="99.99" data-ld-usd="81.99" data-official-rub="9990" data-ld-rub="8190" data-official-eur="99.99" data-ld-eur="81.99" class="pack-btn active rounded-xl border border-toxic-400 bg-toxic-500/10 p-3 text-center transition shadow-[0_0_15px_rgba(180,255,57,0.15)]">
+        <div class="text-xs font-bold text-toxic-300">6480 💎 (MAX)</div>
+        <div class="mt-1 font-mono font-bold text-sm text-toxic-300 pack-price">$81.99</div>
+      </button>
+    </div>
+
+    <!-- Comparison Display Card -->
+    <div class="grid sm:grid-cols-3 gap-4 rounded-2xl border border-white/[0.08] bg-black/40 p-5 sm:p-6 mb-6">
+      <div class="space-y-1">
+        <div class="text-xs text-stone-500">{isRu ? 'Официально в игре:' : 'Standard In-Game Store:'}</div>
+        <div class="font-mono text-xl sm:text-2xl text-stone-400 line-through" id="calc-official-price">$99.99</div>
+        <div class="text-[11px] text-stone-600">{isRu ? 'Без партнерских бонусов' : 'No partner discounts'}</div>
+      </div>
+
+      <div class="space-y-1">
+        <div class="text-xs text-toxic-400 font-semibold">{isRu ? 'Цена на LDShop (Партнёр):' : 'LDShop Discounted Price:'}</div>
+        <div class="font-mono text-2xl sm:text-3xl font-bold text-white" id="calc-ld-price">$81.99</div>
+        <div class="text-[11px] text-toxic-400/80 font-mono">🔥 {isRu ? 'Скидка ~18%' : 'Save ~18%'}</div>
+      </div>
+
+      <div class="space-y-1 rounded-xl border border-toxic-500/30 bg-toxic-500/10 p-3">
+        <div class="text-xs text-toxic-300 font-bold uppercase tracking-wider">{isRu ? 'Ваша чистая выгода:' : 'Your Total Savings:'}</div>
+        <div class="font-mono text-2xl sm:text-3xl font-extrabold text-toxic-300" id="calc-save-amount">-$18.00</div>
+        <div class="text-[11px] text-toxic-300/80" id="calc-bonus-diamonds">💎 +6480 бонус x2 первого раза</div>
+      </div>
+    </div>
+
+    <!-- CTA Button to LDShop -->
+    <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="text-xs text-stone-400 text-center sm:text-left">
+        🛡️ {isRu ? 'Авторизованный партнёр LDShop • Мгновенная доставка на аккаунт по вашему игровому UID' : 'Authorized LDShop partner • Instant delivery to game account by UID'}
+      </div>
+      <a
+        href={AFF_LINK}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-toxic-400 to-plague-400 px-6 py-3 text-sm font-bold text-black hover:brightness-110 shadow-[0_0_20px_rgba(180,255,57,0.3)] transition cursor-pointer"
+      >
+        <span>{isRu ? 'Забрать пак со скидкой на LDShop ↗' : 'Claim Pack with Discount on LDShop ↗'}</span>
+      </a>
+    </div>
+  </div>
+
+  <script>
+    function initSavingsCalc() {
+      const calcRoot = document.getElementById('savings-calc');
+      if (!calcRoot) return;
+
+      let currentCurrency = 'USD';
+      let activeBtn = calcRoot.querySelector('.pack-btn.active') as HTMLElement | null;
+
+      const currencySymbols: Record<string, string> = { USD: '$', RUB: '₽', EUR: '€' };
+
+      const updateValues = () => {
+        if (!activeBtn) return;
+        const curr = currentCurrency.toLowerCase();
+        const offPrice = activeBtn.dataset[`official${currentCurrency}`] ?? '';
+        const ldPrice = activeBtn.dataset[`ld${currentCurrency}`] ?? '';
+        const diamonds = activeBtn.dataset.diamonds ?? '0';
+
+        const offNum = parseFloat(offPrice);
+        const ldNum = parseFloat(ldPrice);
+        const diff = (offNum - ldNum).toFixed(currentCurrency === 'RUB' ? 0 : 2);
+
+        const sym = currencySymbols[currentCurrency] || '$';
+
+        const offEl = document.getElementById('calc-official-price');
+        const ldEl = document.getElementById('calc-ld-price');
+        const saveEl = document.getElementById('calc-save-amount');
+        const bonusEl = document.getElementById('calc-bonus-diamonds');
+
+        if (offEl) offEl.textContent = currentCurrency === 'RUB' ? `${offPrice} ${sym}` : `${sym}${offPrice}`;
+        if (ldEl) ldEl.textContent = currentCurrency === 'RUB' ? `${ldPrice} ${sym}` : `${sym}${ldPrice}`;
+        if (saveEl) saveEl.textContent = currentCurrency === 'RUB' ? `-${diff} ${sym}` : `-${sym}${diff}`;
+        if (bonusEl) bonusEl.textContent = `💎 +${diamonds} bonus x2`;
+
+        // Update prices inside buttons
+        calcRoot.querySelectorAll<HTMLElement>('.pack-btn').forEach((btn) => {
+          const p = btn.dataset[`ld${currentCurrency}`];
+          const prEl = btn.querySelector('.pack-price');
+          if (prEl && p) {
+            prEl.textContent = currentCurrency === 'RUB' ? `${p} ${sym}` : `${sym}${p}`;
+          }
+        });
+      };
+
+      // Currency toggling
+      calcRoot.querySelectorAll<HTMLButtonElement>('.curr-btn').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          calcRoot.querySelectorAll('.curr-btn').forEach((b) => {
+            b.classList.remove('active', 'bg-white', 'text-black');
+            b.classList.add('text-stone-400');
+          });
+          btn.classList.add('active', 'bg-white', 'text-black');
+          btn.classList.remove('text-stone-400');
+          currentCurrency = btn.dataset.curr || 'USD';
+          updateValues();
+        });
+      });
+
+      // Pack selection
+      calcRoot.querySelectorAll<HTMLElement>('.pack-btn').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          calcRoot.querySelectorAll('.pack-btn').forEach((b) => {
+            b.classList.remove('active', 'border-toxic-400', 'bg-toxic-500/10', 'text-toxic-300');
+            b.classList.add('border-stone-800', 'bg-stone-950');
+          });
+          btn.classList.add('active', 'border-toxic-400', 'bg-toxic-500/10');
+          btn.classList.remove('border-stone-800', 'bg-stone-950');
+          activeBtn = btn;
+          updateValues();
+        });
+      });
+
+      updateValues();
+    }
+    initSavingsCalc();
+  </script>
+
   <!-- Big Call to Action Card -->
   <div class="relative overflow-hidden rounded-3xl border border-toxic-500/40 bg-gradient-to-r from-toxic-950/40 via-stone-900/80 to-stone-950 p-8 sm:p-10 shadow-2xl backdrop-blur-xl flex flex-col md:flex-row items-center justify-between gap-6">
     <div class="space-y-2 text-center md:text-left">

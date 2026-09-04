@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
 import DiscordBanner from '../../components/DiscordBanner.astro';
 import { weeklySchedule, recurring } from '../../data/calendar';
 import { t } from '../../i18n/ui';
@@ -55,6 +56,7 @@ const lang: Lang = 'ja';
     <p><strong>スタッキング最大 − 1:</strong>クエストボードがいっぱいだとタイマーが止まります。最大のうち1つだけクエストを完了して新しいクエストが湧き続けるように — クエストの流れを日々コントロールしましょう。</p>
     <p class="text-sm text-stone-500">⚠️ キュー上限:すべてのクエスト(完了済みか否かを問わず)がキューカウンター(x/x)にカウントされます。いっぱいになると次のクエストは失われます。</p>
 
+        <VideoSection topic="calendar" lang={lang} />
     <DiscordBanner lang={lang} />
   </GuidePage>
 </Base>

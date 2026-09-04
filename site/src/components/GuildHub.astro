@@ -270,6 +270,14 @@ const T = {
       >
         <span>📜 {T.tabIntel}</span>
       </button>
+      <button
+        id="gh-tab-btn-rsvp"
+        type="button"
+        class="flex items-center gap-2 border-b-2 border-transparent px-5 py-3 text-sm font-medium text-stone-400 hover:text-stone-200 transition-colors cursor-pointer"
+      >
+        <span>⚔️ {isRu ? 'Чек-ин на битву (RSVP)' : 'War RSVP'}</span>
+        <span id="gh-rsvp-badge" class="rounded-full bg-toxic-500/20 px-2 py-0.5 text-xs font-mono text-toxic-300">0</span>
+      </button>
     </div>
 
     <!-- TAB 1: POLLS VIEW -->
@@ -1511,31 +1519,183 @@ const T = {
       document.getElementById('gh-admin-login-view')?.classList.remove('hidden');
     });
 
-    // 5. Tabs switching
+    // 5. Tabs switching (Polls, Intel, RSVP)
     const tabBtnPolls = document.getElementById('gh-tab-btn-polls');
     const tabBtnIntel = document.getElementById('gh-tab-btn-intel');
+    const tabBtnRsvp = document.getElementById('gh-tab-btn-rsvp');
     const tabViewPolls = document.getElementById('gh-tab-view-polls');
     const tabViewIntel = document.getElementById('gh-tab-view-intel');
+    const tabViewRsvp = document.getElementById('gh-tab-view-rsvp');
 
-    tabBtnPolls?.addEventListener('click', () => {
-      tabBtnPolls.classList.add('border-toxic-400', 'text-white', 'font-bold');
-      tabBtnPolls.classList.remove('border-transparent', 'text-stone-400');
-      tabBtnIntel?.classList.remove('border-toxic-400', 'text-white', 'font-bold');
-      tabBtnIntel?.classList.add('border-transparent', 'text-stone-400');
+    const switchTab = (active: 'polls' | 'intel' | 'rsvp') => {
+      const isP = active === 'polls';
+      const isI = active === 'intel';
+      const isR = active === 'rsvp';
 
-      tabViewPolls?.classList.remove('hidden');
-      tabViewIntel?.classList.add('hidden');
+      tabBtnPolls?.classList.toggle('border-toxic-400', isP);
+      tabBtnPolls?.classList.toggle('text-white', isP);
+      tabBtnPolls?.classList.toggle('font-bold', isP);
+      tabBtnPolls?.classList.toggle('border-transparent', !isP);
+      tabBtnPolls?.classList.toggle('text-stone-400', !isP);
+
+      tabBtnIntel?.classList.toggle('border-toxic-400', isI);
+      tabBtnIntel?.classList.toggle('text-white', isI);
+      tabBtnIntel?.classList.toggle('font-bold', isI);
+      tabBtnIntel?.classList.toggle('border-transparent', !isI);
+      tabBtnIntel?.classList.toggle('text-stone-400', !isI);
+
+      tabBtnRsvp?.classList.toggle('border-toxic-400', isR);
+      tabBtnRsvp?.classList.toggle('text-white', isR);
+      tabBtnRsvp?.classList.toggle('font-bold', isR);
+      tabBtnRsvp?.classList.toggle('border-transparent', !isR);
+      tabBtnRsvp?.classList.toggle('text-stone-400', !isR);
+
+      tabViewPolls?.classList.toggle('hidden', !isP);
+      tabViewIntel?.classList.toggle('hidden', !isI);
+      tabViewRsvp?.classList.toggle('hidden', !isR);
+
+      if (isI) renderDirective();
+      if (isR) renderRoster();
+    };
+
+    tabBtnPolls?.addEventListener('click', () => switchTab('polls'));
+    tabBtnIntel?.addEventListener('click', () => switchTab('intel'));
+    tabBtnRsvp?.addEventListener('click', () => switchTab('rsvp'));
+
+    // --- RSVP System Logic ---
+    interface RosterEntry { nick: string; status: 'ready' | 'late' | 'absent'; time: string; }
+    const STORAGE_ROSTER = 'gh_war_roster';
+    const DEFAULT_ROSTER: RosterEntry[] = [
+      { nick: 'Arthur_King', status: 'ready', time: '18:45' },
+      { nick: 'Commander_Daskal', status: 'ready', time: '18:50' },
+      { nick: 'Valkyrie', status: 'ready', time: '19:00' },
+      { nick: 'BlackLotus', status: 'late', time: '19:20' },
+      { nick: 'GhostRider', status: 'ready', time: '18:30' },
+    ];
+
+    function getRoster(): RosterEntry[] {
+      try {
+        const raw = localStorage.getItem(STORAGE_ROSTER);
+        if (!raw) return DEFAULT_ROSTER;
+        return JSON.parse(raw);
+      } catch {
+        return DEFAULT_ROSTER;
+      }
+    }
+
+    function saveRoster(list: RosterEntry[]) {
+      localStorage.setItem(STORAGE_ROSTER, JSON.stringify(list));
+    }
+
+    function renderRoster() {
+      const myNick = getCurrentNick() || 'Warrior';
+      const myNickEl = document.getElementById('gh-rsvp-my-nick');
+      if (myNickEl) myNickEl.textContent = myNick;
+
+      const roster = getRoster();
+      const listEl = document.getElementById('gh-roster-list');
+      const badgeEl = document.getElementById('gh-rsvp-badge');
+
+      let readyCount = 0;
+      let lateCount = 0;
+      let absentCount = 0;
+
+      roster.forEach((r) => {
+        if (r.status === 'ready') readyCount++;
+        else if (r.status === 'late') lateCount++;
+        else if (r.status === 'absent') absentCount++;
+      });
+
+      if (badgeEl) badgeEl.textContent = String(readyCount);
+
+      const cntReady = document.getElementById('gh-cnt-ready');
+      const cntLate = document.getElementById('gh-cnt-late');
+      const cntAbsent = document.getElementById('gh-cnt-absent');
+      if (cntReady) cntReady.textContent = String(readyCount);
+      if (cntLate) cntLate.textContent = String(lateCount);
+      if (cntAbsent) cntAbsent.textContent = String(absentCount);
+
+      if (listEl) {
+        listEl.innerHTML = roster.map((r) => {
+          const isReady = r.status === 'ready';
+          const isLate = r.status === 'late';
+          const badgeClass = isReady ? 'border-emerald-500/30 bg-emerald-950/30 text-emerald-300' : isLate ? 'border-amber-500/30 bg-amber-950/30 text-amber-300' : 'border-red-500/30 bg-red-950/30 text-red-300';
+          const icon = isReady ? '✅ Готов' : isLate ? '⚠️ Опоздает' : '❌ Нет';
+          return `
+            <div class="flex items-center justify-between rounded-xl border border-white/5 bg-stone-900/60 p-2.5 text-xs">
+              <span class="font-semibold text-stone-200 truncate">${r.nick}</span>
+              <span class="rounded px-2 py-0.5 text-[10px] font-mono border ${badgeClass}">${icon}</span>
+            </div>
+          `;
+        }).join('');
+      }
+
+      // Highlight active user's selection
+      const myEntry = roster.find((r) => r.nick.toLowerCase() === myNick.toLowerCase());
+      document.querySelectorAll<HTMLButtonElement>('.gh-rsvp-choice-btn').forEach((btn) => {
+        const choice = btn.dataset.rsvp;
+        const isSelected = myEntry?.status === choice;
+        btn.classList.toggle('ring-2', isSelected);
+        btn.classList.toggle('ring-toxic-400', isSelected);
+      });
+    }
+
+    document.querySelectorAll<HTMLButtonElement>('.gh-rsvp-choice-btn').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const status = (btn.dataset.rsvp as any) || 'ready';
+        const myNick = getCurrentNick() || 'Warrior';
+        const roster = getRoster();
+        const existingIdx = roster.findIndex((r) => r.nick.toLowerCase() === myNick.toLowerCase());
+        const timeNow = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+
+        if (existingIdx >= 0) {
+          roster[existingIdx].status = status;
+          roster[existingIdx].time = timeNow;
+        } else {
+          roster.unshift({ nick: myNick, status, time: timeNow });
+        }
+        saveRoster(roster);
+        renderRoster();
+      });
     });
 
-    tabBtnIntel?.addEventListener('click', () => {
-      tabBtnIntel.classList.add('border-toxic-400', 'text-white', 'font-bold');
-      tabBtnIntel.classList.remove('border-transparent', 'text-stone-400');
-      tabBtnPolls?.classList.remove('border-toxic-400', 'text-white', 'font-bold');
-      tabBtnPolls?.classList.add('border-transparent', 'text-stone-400');
+    document.getElementById('gh-btn-copy-roster')?.addEventListener('click', async () => {
+      const roster = getRoster();
+      const ready = roster.filter((r) => r.status === 'ready').map((r) => r.nick);
+      const late = roster.filter((r) => r.status === 'late').map((r) => r.nick);
+      const absent = roster.filter((r) => r.status === 'absent').map((r) => r.nick);
 
-      tabViewIntel?.classList.remove('hidden');
-      tabViewPolls?.classList.add('hidden');
-      renderDirective();
+      const text = `🛡️ **[DND] СОСТАВ НА ВОЙНУ / КАНЬОН**\n` +
+        `━━━━━━━━━━━━━━━━━━━━━━━━\n` +
+        `✅ **ГОТОВЫ (${ready.length}):** ${ready.join(', ') || 'нет'}\n` +
+        `⚠️ **ОПОЗДАЮТ (${late.length}):** ${late.join(', ') || 'нет'}\n` +
+        `❌ **ОТСУТСТВУЮТ (${absent.length}):** ${absent.join(', ') || 'нет'}\n` +
+        `🌐 *Штаб альянса:* ${window.location.origin}/dnd/`;
+
+      const btn = document.getElementById('gh-btn-copy-roster');
+      try {
+        await navigator.clipboard.writeText(text);
+        if (btn) btn.textContent = '✓ Скопировано в буфер!';
+        setTimeout(() => { if (btn) btn.textContent = '📋 Скопировать состав для Discord'; }, 2000);
+      } catch {}
+    });
+
+    // Discord Directive Copy in Admin Modal
+    document.getElementById('gh-btn-copy-discord-directive')?.addEventListener('click', async () => {
+      const dirInput = document.getElementById('gh-admin-directive-input') as HTMLTextAreaElement | null;
+      const text = dirInput?.value?.trim() || getStoredDirective();
+      const formatted = `🛡️ **[DND] ОПЕРАТИВНАЯ ДИРЕКТИВА АЛЬЯНСА**\n` +
+        `━━━━━━━━━━━━━━━━━━━━━━━━\n` +
+        `📢 **Приказ командования:**\n${text}\n\n` +
+        `🕒 **Сбор:** за 15 минут до начала в голосовом канале\n` +
+        `🌐 **Штаб альянса [Чек-ин]:** ${window.location.origin}/dnd/`;
+
+      const btn = document.getElementById('gh-btn-copy-discord-directive');
+      try {
+        await navigator.clipboard.writeText(formatted);
+        if (btn) btn.textContent = '✓ Приказ скопирован для Discord!';
+        setTimeout(() => { if (btn) btn.textContent = '📋 Скопировать для Discord (Markdown)'; }, 2000);
+      } catch {}
     });
 
     // 6. Create Poll Modal

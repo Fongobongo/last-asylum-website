@@ -1,0 +1,48 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ja';
+---
+
+<Base lang={lang} path="/ja/events/supreme-healer/" title="至高の医師：完全イベント攻略ガイド" description="7日間のポイントスケジュール、日別リソース配分、スタミナ温存、鷹の任務、デイリーサバイバル連動による二重報酬の獲得術。">
+  <GuidePage title="至高の医師：完全イベント攻略ガイド" description="7日間のポイントスケジュール、日別リソース配分、スタミナ温存、鷹の任務、デイリーサバイバル連動による二重報酬の獲得術。" lang={lang}>
+    <p>「至高の医師」イベントは、7日間にわたって日替わりの獲得条件で競い合うLast Asylum屈指の戦略トーナメントです。スタミナ、抗毒素、鷹の任務を計画的に温存したプレイヤーが勝利を掴みます。</p>
+
+    <h2 id="what-it-is">「至高の医師」(Supreme Healer) とは</h2>
+    <p>「至高の医師」イベントは、7日間にわたって日替わりの獲得条件で競い合うLast Asylum屈指の戦略トーナメントです。スタミナ、抗毒素、鷹の任務を計画的に温存したプレイヤーが勝利を掴みます。</p>
+
+    <h2 id="schedule">7日間のポイント獲得スケジュール</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Day</th><th>Focus</th><th>Scoring Rules</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Day 1</td><td>Gathering & Stamina</td><td>1 Stamina = 100 pts • 1 Falcon Mission = 1,000 pts • Resource Gathering</td></tr>
+        <tr><td>Day 2</td><td>Survivors & Building</td><td>Recruitment = 400 pts • Build speedups = 20 pts/min • Might = 1 pt/+1</td></tr>
+        <tr><td>Day 3</td><td>Technology & Research</td><td>1 Falcon Mission = 1,000 pts • Research speedups = 20 pts/min</td></tr>
+        <tr><td>Day 4</td><td>Heroes & Healing</td><td>Recruitment = 400 pts/ticket • Skill Badges = 10 pts • Antitoxin = 1 pt/660</td></tr>
+        <tr><td>Day 5</td><td>Total Force & Troops</td><td>Troop training (scales by tier T7–T10) • Speedups = 20 pts/min</td></tr>
+        <tr><td>Day 6</td><td>Elite Operations</td><td>UR Caravan = 5,000 pts • Secret Op = 2,000 pts • Speedups = 20 pts/min</td></tr>
+        <tr><td>Day 7</td><td>Final Chaos</td><td>TOTAL MISSIONS: All previous day tasks grant points! • Speedups = 20 pts/min</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="pro-tips">サバイバル・リュック（上級者の極意）</h2>
+    <ul>
+      <li><strong>00:00 UTC Pre-Reset Gathering:</strong> Send marches to harvest high-tier nodes 4-6 hours before Day 1 and Day 7 resets.</li>
+      <li><strong>Bank Falcon Missions:</strong> Don't claim missions right away; claim them only on Day 1 & Day 3 for 1,000 points each.</li>
+      <li><strong>Hold the Hammer:</strong> When buildings finish early, leave the hammer unclicked until Day 2 or Day 5 begins.</li>
+      <li><strong>Save 150–250 Recruit Tickets:</strong> Keep all tickets for Day 4 to hit top milestone chests.</li>
+      <li><strong>Stockpile Antitoxin:</strong> Save Antitoxin for 2-3 days prior to the event for effortless points on Day 4.</li>
+    </ul>
+
+    <h2 id="syncing">デイリーサバイバル連動（二重取り）</h2>
+    <p>建設や訓練の加速は、デイリーサバイバルバトルの対象時間帯に合わせて一気に消費し、両方の報酬を同時に獲得しましょう。</p>
+
+    <VideoSection topic="supreme_healer" lang={lang} />
+  </GuidePage>
+</Base>

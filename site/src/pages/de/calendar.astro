@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
 import DiscordBanner from '../../components/DiscordBanner.astro';
 import { weeklySchedule, recurring } from '../../data/calendar';
 import { t } from '../../i18n/ui';
@@ -55,6 +56,7 @@ const lang: Lang = 'de';
     <p><strong>Stacking Max − 1:</strong> ein vollständiges Quest-Brett friert den Timer ein. Schließe eine Quest des Maximums ab, damit weiter neue Quests spawnen — kontrolliere deinen Quest-Fluss Tag für Tag.</p>
     <p class="text-sm text-stone-500">⚠️ Warteschlangen-Limit: ALLE Quests (abgeschlossen oder nicht) zählen zum Warteschlangen-Zähler (x/x). Ist sie voll, geht die nächste Quest verloren.</p>
 
+        <VideoSection topic="calendar" lang={lang} />
     <DiscordBanner lang={lang} />
   </GuidePage>
 </Base>

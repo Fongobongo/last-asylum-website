@@ -1,0 +1,395 @@
+---
+import { heroCodex } from '../data/heroCodex';
+import type { Lang } from '../i18n/utils';
+
+interface Props {
+  lang?: Lang;
+}
+
+const { lang = 'en' } = Astro.props;
+const isRu = lang === 'ru';
+---
+
+<div class="squad-builder not-prose my-10 rounded-3xl border border-white/10 bg-stone-900/80 p-6 sm:p-8 backdrop-blur-xl shadow-2xl" id="squad-builder">
+  <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-white/[0.08] pb-6 mb-6">
+    <div>
+      <div class="flex items-center gap-2.5">
+        <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-toxic-500/20 to-plague-500/20 border border-toxic-400/30 text-xl shadow-[0_0_15px_rgba(180,255,57,0.15)]">
+          ⚔️
+        </span>
+        <div>
+          <h3 class="text-xl sm:text-2xl font-bold text-white tracking-tight">
+            {isRu ? 'Интерактивный конструктор отрядов' : 'Interactive Squad Builder'}
+          </h3>
+          <p class="text-xs text-stone-400 mt-0.5">
+            {isRu ? 'Расставьте 5 героев по слотам и проверьте классовые синергии и бонусы ауры:' : 'Place 5 heroes into tactical formation and calculate synergy aura bonuses:'}
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Meta Presets -->
+    <div class="flex flex-wrap gap-1.5 self-start sm:self-auto">
+      <button type="button" data-preset="f2p-warrior" class="sb-preset-btn rounded-lg border border-rose-500/30 bg-rose-950/20 px-2.5 py-1 text-xs font-semibold text-rose-300 hover:bg-rose-900/40 transition">
+        🛡️ {isRu ? 'F2P Воины' : 'F2P Warriors'}
+      </button>
+      <button type="button" data-preset="ranger-burst" class="sb-preset-btn rounded-lg border border-emerald-500/30 bg-emerald-950/20 px-2.5 py-1 text-xs font-semibold text-emerald-300 hover:bg-emerald-900/40 transition">
+        🏹 {isRu ? 'Рейнджеры' : 'Rangers'}
+      </button>
+      <button type="button" data-preset="sorcerer-cc" class="sb-preset-btn rounded-lg border border-indigo-500/30 bg-indigo-950/20 px-2.5 py-1 text-xs font-semibold text-indigo-300 hover:bg-indigo-900/40 transition">
+        🔮 {isRu ? 'Колдуны' : 'Sorcerers'}
+      </button>
+      <button type="button" id="sb-btn-clear" class="rounded-lg border border-white/10 bg-white/5 px-2.5 py-1 text-xs font-semibold text-stone-400 hover:text-white transition">
+        ✕ {isRu ? 'Очистить' : 'Clear'}
+      </button>
+    </div>
+  </div>
+
+  <!-- Tactical Grid: Frontline (2) & Backline (3) -->
+  <div class="mb-8 space-y-6">
+    <!-- Frontline Row (2 Slots) -->
+    <div>
+      <div class="flex items-center gap-2 mb-2 text-xs font-mono uppercase text-stone-400">
+        <span class="h-2 w-2 rounded-full bg-red-400"></span>
+        <span>{isRu ? 'Фронт (2 слота — Танки / Выживание)' : 'Frontline (2 Slots — Tanks & Frontline)'}</span>
+      </div>
+      <div class="grid grid-cols-2 gap-4 max-w-lg mx-auto">
+        <div class="squad-slot group relative flex flex-col items-center justify-center rounded-2xl border-2 border-dashed border-white/15 bg-black/40 p-4 transition-all hover:border-toxic-400 hover:bg-toxic-500/5 cursor-pointer min-h-[140px]" data-slot="0">
+          <div class="slot-empty text-center">
+            <span class="text-2xl text-stone-600 block mb-1">🛡️</span>
+            <span class="text-xs font-medium text-stone-400">{isRu ? 'Слот 1: Танк' : 'Slot 1: Main Tank'}</span>
+            <span class="block text-[10px] text-stone-600 mt-0.5">{isRu ? 'Нажмите для выбора' : 'Click to select'}</span>
+          </div>
+          <div class="slot-filled hidden w-full text-center"></div>
+        </div>
+
+        <div class="squad-slot group relative flex flex-col items-center justify-center rounded-2xl border-2 border-dashed border-white/15 bg-black/40 p-4 transition-all hover:border-toxic-400 hover:bg-toxic-500/5 cursor-pointer min-h-[140px]" data-slot="1">
+          <div class="slot-empty text-center">
+            <span class="text-2xl text-stone-600 block mb-1">🛡️</span>
+            <span class="text-xs font-medium text-stone-400">{isRu ? 'Слот 2: Офф-танк' : 'Slot 2: Off-Tank'}</span>
+            <span class="block text-[10px] text-stone-600 mt-0.5">{isRu ? 'Нажмите для выбора' : 'Click to select'}</span>
+          </div>
+          <div class="slot-filled hidden w-full text-center"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Backline Row (3 Slots) -->
+    <div>
+      <div class="flex items-center gap-2 mb-2 text-xs font-mono uppercase text-stone-400">
+        <span class="h-2 w-2 rounded-full bg-toxic-400"></span>
+        <span>{isRu ? 'Тыл (3 слота — Керри / Урон / Саппорт)' : 'Backline (3 Slots — Carries, DPS & Support)'}</span>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <div class="squad-slot group relative flex flex-col items-center justify-center rounded-2xl border-2 border-dashed border-white/15 bg-black/40 p-4 transition-all hover:border-toxic-400 hover:bg-toxic-500/5 cursor-pointer min-h-[140px]" data-slot="2">
+          <div class="slot-empty text-center">
+            <span class="text-2xl text-stone-600 block mb-1">⚔️</span>
+            <span class="text-xs font-medium text-stone-400">{isRu ? 'Слот 3: Главный Керри' : 'Slot 3: Main Carry'}</span>
+            <span class="block text-[10px] text-stone-600 mt-0.5">{isRu ? 'Нажмите для выбора' : 'Click to select'}</span>
+          </div>
+          <div class="slot-filled hidden w-full text-center"></div>
+        </div>
+
+        <div class="squad-slot group relative flex flex-col items-center justify-center rounded-2xl border-2 border-dashed border-white/15 bg-black/40 p-4 transition-all hover:border-toxic-400 hover:bg-toxic-500/5 cursor-pointer min-h-[140px]" data-slot="3">
+          <div class="slot-empty text-center">
+            <span class="text-2xl text-stone-600 block mb-1">💚</span>
+            <span class="text-xs font-medium text-stone-400">{isRu ? 'Слот 4: Саппорт / Бафф' : 'Slot 4: Support / Buffer'}</span>
+            <span class="block text-[10px] text-stone-600 mt-0.5">{isRu ? 'Нажмите для выбора' : 'Click to select'}</span>
+          </div>
+          <div class="slot-filled hidden w-full text-center"></div>
+        </div>
+
+        <div class="squad-slot group relative flex flex-col items-center justify-center rounded-2xl border-2 border-dashed border-white/15 bg-black/40 p-4 transition-all hover:border-toxic-400 hover:bg-toxic-500/5 cursor-pointer min-h-[140px]" data-slot="4">
+          <div class="slot-empty text-center">
+            <span class="text-2xl text-stone-600 block mb-1">🔮</span>
+            <span class="text-xs font-medium text-stone-400">{isRu ? 'Слот 5: Саб-ДД / Контроль' : 'Slot 5: Sub-DPS / Control'}</span>
+            <span class="block text-[10px] text-stone-600 mt-0.5">{isRu ? 'Нажмите для выбора' : 'Click to select'}</span>
+          </div>
+          <div class="slot-filled hidden w-full text-center"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Synergy Analysis & Share Bar -->
+  <div class="rounded-2xl border border-white/[0.08] bg-black/40 p-5 sm:p-6">
+    <div class="grid sm:grid-cols-3 gap-6 items-center">
+      <!-- Synergy Aura -->
+      <div>
+        <span class="text-[11px] font-mono uppercase text-stone-500 block mb-1">
+          {isRu ? 'Классовая аура отряда:' : 'Squad Class Aura:'}
+        </span>
+        <div class="text-lg font-bold text-white flex items-center gap-2" id="sb-aura-title">
+          <span class="text-stone-500">⚪ {isRu ? 'Выберите 5 героев' : 'Select 5 heroes'}</span>
+        </div>
+        <div class="text-xs text-stone-400 mt-1" id="sb-aura-bonus">
+          +0% ATK / +0% HP
+        </div>
+      </div>
+
+      <!-- Class Breakdown -->
+      <div>
+        <span class="text-[11px] font-mono uppercase text-stone-500 block mb-1">
+          {isRu ? 'Состав классов:' : 'Class Distribution:'}
+        </span>
+        <div class="flex items-center gap-3 text-xs font-mono" id="sb-classes-count">
+          <span class="text-rose-300 font-bold">🛡️ <span id="sb-cnt-warrior">0</span></span>
+          <span class="text-emerald-300 font-bold">🏹 <span id="sb-cnt-ranger">0</span></span>
+          <span class="text-indigo-300 font-bold">🔮 <span id="sb-cnt-sorcerer">0</span></span>
+        </div>
+        <p class="text-[11px] text-stone-500 mt-1">
+          {isRu ? 'Моно-класс (5 одного типа) дает максимальный бонус +20%' : 'Mono-class (5 of same type) grants max +20% bonus'}
+        </p>
+      </div>
+
+      <!-- Share Button -->
+      <div class="flex flex-col sm:items-end justify-center">
+        <button
+          type="button"
+          id="sb-btn-share"
+          class="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl bg-toxic-400 px-5 py-2.5 text-xs font-bold text-black hover:bg-toxic-300 transition shadow-[0_0_15px_rgba(180,255,57,0.2)] cursor-pointer"
+        >
+          <span>🔗</span>
+          <span id="sb-share-label">{isRu ? 'Скопировать ссылку на отряд' : 'Copy Squad Link'}</span>
+        </button>
+        <span class="text-[10px] text-stone-500 mt-1 text-center sm:text-right">
+          {isRu ? 'Сохраняет текущую расстановку' : 'Encodes current formation into URL'}
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Picker Modal (hidden by default) -->
+  <div id="sb-modal" class="fixed inset-0 z-50 hidden bg-black/80 backdrop-blur-md p-4 flex items-center justify-center">
+    <div class="relative w-full max-w-2xl max-h-[85vh] overflow-hidden rounded-3xl border border-white/10 bg-stone-900 shadow-2xl flex flex-col">
+      <div class="flex items-center justify-between border-b border-white/10 p-4 sm:p-5">
+        <h4 class="text-base sm:text-lg font-bold text-white flex items-center gap-2">
+          <span>{isRu ? 'Выберите героя в слот' : 'Choose hero for slot'}</span>
+          <span class="rounded bg-toxic-500/20 px-2 py-0.5 font-mono text-xs text-toxic-300" id="sb-modal-slot-label">Slot 1</span>
+        </h4>
+        <button type="button" id="sb-modal-close" class="h-8 w-8 rounded-full bg-white/10 hover:bg-white hover:text-black text-sm font-bold text-stone-300 transition">✕</button>
+      </div>
+
+      <div class="overflow-y-auto p-4 sm:p-6 grid grid-cols-2 sm:grid-cols-3 gap-3">
+        {heroCodex.map((h) => {
+          const classNorm = h.className?.toLowerCase().includes('ranger') ? 'Ranger' : h.className?.toLowerCase().includes('sorcerer') || h.className?.toLowerCase().includes('wizard') || h.className?.toLowerCase().includes('колдун') ? 'Sorcerer' : 'Warrior';
+          return (
+            <button
+              type="button"
+              class="sb-hero-pick-btn group flex flex-col items-start rounded-xl border border-stone-800 bg-stone-950 p-3 text-left transition hover:border-toxic-400 hover:bg-stone-900"
+              data-slug={h.slug}
+              data-name={h.name}
+              data-rarity={h.rarity}
+              data-tier={h.tier}
+              data-class={classNorm}
+            >
+              <div class="flex w-full items-baseline justify-between">
+                <span class="font-bold text-sm text-white group-hover:text-toxic-300 transition truncate">{h.name}</span>
+                <span class="rounded px-1.5 py-0.5 text-[10px] font-mono font-bold bg-white/10 text-stone-300">{h.rarity}</span>
+              </div>
+              <div class="mt-1 flex items-center gap-1.5 text-[11px] text-stone-400">
+                <span>{classNorm === 'Warrior' ? '🛡️' : classNorm === 'Ranger' ? '🏹' : '🔮'}</span>
+                <span>{classNorm}</span>
+                <span class="text-stone-600">•</span>
+                <span class="text-amber-400 font-mono font-bold">T{h.tier}</span>
+              </div>
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function initSquadBuilder() {
+    const root = document.getElementById('squad-builder');
+    if (!root) return;
+
+    let squad: (any | null)[] = [null, null, null, null, null];
+    let currentSlotIdx = -1;
+
+    const modal = document.getElementById('sb-modal');
+    const modalClose = document.getElementById('sb-modal-close');
+    const modalSlotLabel = document.getElementById('sb-modal-slot-label');
+
+    const presets: Record<string, string[]> = {
+      'f2p-warrior': ['arthur', 'daskal', 'marlena', 'claire', 'bell'],
+      'ranger-burst': ['zoya', 'celia', 'cynthia', 'shadow', 'harper'],
+      'sorcerer-cc': ['annie', 'joker', 'red-lady', 'lucius', 'kesso'],
+    };
+
+    const heroesData: Record<string, { name: string; rarity: string; tier: string; cls: string }> = {};
+    root.querySelectorAll<HTMLButtonElement>('.sb-hero-pick-btn').forEach((b) => {
+      const slug = b.dataset.slug || '';
+      heroesData[slug] = {
+        name: b.dataset.name || slug,
+        rarity: b.dataset.rarity || 'SSR',
+        tier: b.dataset.tier || 'A',
+        cls: b.dataset.class || 'Warrior',
+      };
+    });
+
+    const updateSlotsUI = () => {
+      let warriors = 0;
+      let rangers = 0;
+      let sorcerers = 0;
+
+      squad.forEach((slug, idx) => {
+        const slotEl = root.querySelector(`.squad-slot[data-slot="${idx}"]`);
+        if (!slotEl) return;
+        const emptyEl = slotEl.querySelector('.slot-empty');
+        const filledEl = slotEl.querySelector('.slot-filled');
+
+        if (!slug || !heroesData[slug]) {
+          emptyEl?.classList.remove('hidden');
+          filledEl?.classList.add('hidden');
+          slotEl.classList.remove('border-solid', 'border-toxic-400', 'bg-toxic-500/10');
+          slotEl.classList.add('border-dashed', 'border-white/15', 'bg-black/40');
+        } else {
+          emptyEl?.classList.add('hidden');
+          filledEl?.classList.remove('hidden');
+          slotEl.classList.remove('border-dashed', 'border-white/15', 'bg-black/40');
+          slotEl.classList.add('border-solid', 'border-toxic-500/40', 'bg-stone-950/80');
+
+          const h = heroesData[slug];
+          if (h.cls === 'Warrior') warriors++;
+          else if (h.cls === 'Ranger') rangers++;
+          else if (h.cls === 'Sorcerer') sorcerers++;
+
+          if (filledEl) {
+            filledEl.innerHTML = `
+              <div class="flex items-center justify-between w-full mb-1">
+                <span class="rounded bg-white/10 px-1.5 py-0.5 text-[9px] font-mono font-bold text-stone-300">${h.rarity}</span>
+                <button type="button" class="sb-btn-remove text-stone-500 hover:text-red-400 text-xs font-bold" data-slot="${idx}">✕</button>
+              </div>
+              <div class="text-base font-bold text-white truncate">${h.name}</div>
+              <div class="mt-1 flex items-center justify-center gap-1.5 text-xs text-stone-400">
+                <span>${h.cls === 'Warrior' ? '🛡️' : h.cls === 'Ranger' ? '🏹' : '🔮'}</span>
+                <span>${h.cls}</span>
+                <span class="text-stone-600">•</span>
+                <span class="font-mono text-toxic-300 font-bold">Tier ${h.tier}</span>
+              </div>
+            `;
+
+            filledEl.querySelector('.sb-btn-remove')?.addEventListener('click', (e) => {
+              e.stopPropagation();
+              squad[idx] = null;
+              updateSlotsUI();
+            });
+          }
+        }
+      });
+
+      // Update counters
+      const cntW = document.getElementById('sb-cnt-warrior');
+      const cntR = document.getElementById('sb-cnt-ranger');
+      const cntS = document.getElementById('sb-cnt-sorcerer');
+      if (cntW) cntW.textContent = String(warriors);
+      if (cntR) cntR.textContent = String(rangers);
+      if (cntS) cntS.textContent = String(sorcerers);
+
+      // Synergy calculation
+      const maxCount = Math.max(warriors, rangers, sorcerers);
+      const auraTitle = document.getElementById('sb-aura-title');
+      const auraBonus = document.getElementById('sb-aura-bonus');
+
+      const filledCount = squad.filter(Boolean).length;
+      if (filledCount < 5) {
+        if (auraTitle) auraTitle.innerHTML = `<span class="text-stone-500">⚪ Выбрано ${filledCount} из 5 героев</span>`;
+        if (auraBonus) auraBonus.textContent = '+0% к параметрам (заполните все 5 слотов)';
+      } else {
+        if (maxCount === 5) {
+          const clsName = warriors === 5 ? 'Воинов (Mono-Warrior)' : rangers === 5 ? 'Рейнджеров (Mono-Ranger)' : 'Колдунов (Mono-Sorcerer)';
+          if (auraTitle) auraTitle.innerHTML = `<span class="text-toxic-300">⚡ Аура Моно-класса: 5 ${clsName}</span>`;
+          if (auraBonus) auraBonus.innerHTML = '<strong class="text-toxic-300 font-bold">+20% АТАКИ / +20% ЗДОРОВЬЯ</strong> (Максимум)';
+        } else if (maxCount === 4) {
+          if (auraTitle) auraTitle.innerHTML = '<span class="text-amber-300">🔥 Синергия 4+1</span>';
+          if (auraBonus) auraBonus.innerHTML = '<strong class="text-amber-300 font-bold">+15% АТАКИ / +15% ЗДОРОВЬЯ</strong>';
+        } else if (maxCount === 3) {
+          const counts = [warriors, rangers, sorcerers].sort((a, b) => b - a);
+          if (counts[1] === 2) {
+            if (auraTitle) auraTitle.innerHTML = '<span class="text-sky-300">✨ Гибридная синергия 3+2</span>';
+            if (auraBonus) auraBonus.innerHTML = '<strong class="text-sky-300 font-bold">+10% АТАКИ / +10% ЗДОРОВЬЯ</strong>';
+          } else {
+            if (auraTitle) auraTitle.innerHTML = '<span class="text-stone-300">🔹 Базовая синергия 3+1+1</span>';
+            if (auraBonus) auraBonus.innerHTML = '<strong class="text-stone-300 font-bold">+5% АТАКИ / +5% ЗДОРОВЬЯ</strong>';
+          }
+        } else {
+          if (auraTitle) auraTitle.innerHTML = '<span class="text-stone-400">⚠️ Смешанный отряд (Без бонуса ауры)</span>';
+          if (auraBonus) auraBonus.textContent = '+0% АТАКИ / +0% ЗДОРОВЬЯ (Рекомендуется собрать минимум 3 героя одного класса)';
+        }
+      }
+    };
+
+    // Slot click opens modal
+    root.querySelectorAll('.squad-slot').forEach((slot) => {
+      slot.addEventListener('click', () => {
+        currentSlotIdx = parseInt((slot as HTMLElement).dataset.slot || '0', 10);
+        if (modalSlotLabel) modalSlotLabel.textContent = `Слот ${currentSlotIdx + 1}`;
+        modal?.classList.remove('hidden');
+      });
+    });
+
+    modalClose?.addEventListener('click', () => modal?.classList.add('hidden'));
+    modal?.addEventListener('click', (e) => { if (e.target === modal) modal.classList.add('hidden'); });
+
+    // Hero selection
+    root.querySelectorAll('.sb-hero-pick-btn').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const slug = (btn as HTMLElement).dataset.slug;
+        if (slug && currentSlotIdx >= 0 && currentSlotIdx < 5) {
+          squad[currentSlotIdx] = slug;
+          modal?.classList.add('hidden');
+          updateSlotsUI();
+        }
+      });
+    });
+
+    // Preset buttons
+    root.querySelectorAll('.sb-preset-btn').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const pKey = (btn as HTMLElement).dataset.preset || '';
+        if (presets[pKey]) {
+          squad = [...presets[pKey]];
+          updateSlotsUI();
+        }
+      });
+    });
+
+    // Clear button
+    document.getElementById('sb-btn-clear')?.addEventListener('click', () => {
+      squad = [null, null, null, null, null];
+      updateSlotsUI();
+    });
+
+    // Share link button
+    document.getElementById('sb-btn-share')?.addEventListener('click', async () => {
+      const slugs = squad.filter(Boolean).join(',');
+      const url = new URL(window.location.href);
+      url.searchParams.set('squad', slugs);
+      window.history.replaceState({}, '', url.toString());
+
+      const label = document.getElementById('sb-share-label');
+      try {
+        await navigator.clipboard.writeText(url.toString());
+        if (label) label.textContent = '✓ Ссылка скопирована!';
+        setTimeout(() => { if (label) label.textContent = 'Скопировать ссылку на отряд'; }, 2000);
+      } catch {
+        if (label) label.textContent = url.toString();
+      }
+    });
+
+    // Load from URL params if present
+    const urlParams = new URLSearchParams(window.location.search);
+    const sqParam = urlParams.get('squad');
+    if (sqParam) {
+      const list = sqParam.split(',').slice(0, 5);
+      list.forEach((slug, i) => { squad[i] = slug; });
+    }
+
+    updateSlotsUI();
+  }
+
+  initSquadBuilder();
+</script>

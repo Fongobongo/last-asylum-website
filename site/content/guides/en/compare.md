@@ -3,6 +3,7 @@ title: "⚖️ Hero Comparisons"
 description: "The debates players actually have — settled by the community guides with exact numbers."
 lang: en
 updated: "2026-09-03"
+videoTopic: compare
 ---
 
 ## Marlena vs Zoya — which UR carry? {#marlena-vs-zoya}

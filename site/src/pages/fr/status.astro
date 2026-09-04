@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
 import DiscordBanner from '../../components/DiscordBanner.astro';
 import { statusUpdates } from '../../data/status';
 import { t } from '../../i18n/ui';
@@ -51,6 +52,7 @@ const statusIcons = { fixed: '✅', investigating: '⚠️', info: 'ℹ️' };
       <li>Utilisez le bouton <strong>Réparer</strong> (coin supérieur droit sur l&apos;écran de chargement)</li>
     </ul>
 
+        <VideoSection topic="status" lang={lang} />
     <DiscordBanner lang={lang} />
   </GuidePage>
 </Base>

@@ -1,0 +1,82 @@
+---
+import type { Lang } from '../i18n/utils';
+
+interface Props {
+  variant?: 'marlena' | 'speedup' | 'gear' | 'general';
+  lang?: Lang;
+}
+
+const { variant = 'general', lang = 'en' } = Astro.props;
+const isRu = lang === 'ru';
+const AFF_LINK = 'https://chain.ldshop.gg/T4W43NR9I/last-asylum-plague-gp?aff_short=fan';
+
+const variants = {
+  marlena: {
+    icon: '⚡',
+    title: isRu ? 'Стартовый набор Марлены ($1) со скидкой' : 'Marlena $1 Starter Pack Discount',
+    desc: isRu
+      ? 'Лучший старт в игре: мгновенное получение UR-героя Марлены, алмазы и ускорения через авторизованного партнёра LDShop по игровому UID без пароля.'
+      : 'The undisputed best value in Last Asylum: get UR hero Marlena, bonus diamonds, and speedups via authorized partner LDShop using your UID.',
+    btn: isRu ? 'Забрать набор на LDShop ↗' : 'Claim Pack on LDShop ↗',
+  },
+  speedup: {
+    icon: '🏗️',
+    title: isRu ? 'Ускорения строительства и алмазы со скидкой до 20%' : 'Construction Speedups & Diamonds up to 20% Off',
+    desc: isRu
+      ? 'Не хватает ресурсов или времени до закрытия этапа Святилища? Забирайте алмазы с бонусом x2 на первый платёж на LDShop.'
+      : 'Pushing Sanctuary to level 25–30? Top-up diamonds and construction packs with instant delivery by UID on LDShop.',
+    btn: isRu ? 'Открыть магазин со скидкой ↗' : 'Open Store with Discount ↗',
+  },
+  gear: {
+    icon: '⚔️',
+    title: isRu ? 'Материалы снаряжения и призывы' : 'Gear Materials & Recruit Tickets',
+    desc: isRu
+      ? 'Камни снаряжения, чертежи UR и билеты призыва по выгодным ценам с моментальной доставкой на ваш игровой аккаунт.'
+      : 'Gearstones, UR blueprints, and recruitment tickets at competitive rates with instant UID delivery.',
+    btn: isRu ? 'Перейти к покупкам ↗' : 'Browse Materials ↗',
+  },
+  general: {
+    icon: '💎',
+    title: isRu ? 'Официальный магазин внутриигровой валюты LDShop' : 'Official In-Game Store by LDShop',
+    desc: isRu
+      ? 'Алмазы, боевые пропуска и наборы с моментальной доставкой по UID и скидками до 20%. Поддержите проект без дополнительных затрат!'
+      : 'Diamonds, battle passes, and starter packs delivered instantly via UID with discounts up to 20%. Support the fan hub at zero extra cost!',
+    btn: isRu ? 'Магазин со скидкой ↗' : 'Shop with Discount ↗',
+  },
+};
+
+const v = variants[variant] || variants.general;
+---
+
+<div class="not-prose my-8 overflow-hidden rounded-2xl border border-toxic-500/30 bg-gradient-to-r from-toxic-950/30 via-stone-900/90 to-stone-950 p-5 shadow-lg backdrop-blur-xl">
+  <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+    <div class="flex items-start gap-3.5">
+      <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-toxic-500/15 border border-toxic-400/30 text-2xl shadow-[0_0_15px_rgba(180,255,57,0.15)]">
+        {v.icon}
+      </span>
+      <div>
+        <div class="flex items-center gap-2">
+          <span class="rounded bg-toxic-500/20 px-2 py-0.5 font-mono text-[10px] font-bold text-toxic-300">
+            LDSHOP PARTNER
+          </span>
+          <span class="text-[10px] text-stone-500 font-mono">UID ONLY</span>
+        </div>
+        <h4 class="mt-1 text-sm sm:text-base font-bold text-white tracking-tight">
+          {v.title}
+        </h4>
+        <p class="mt-1 text-xs text-stone-400 leading-relaxed max-w-xl">
+          {v.desc}
+        </p>
+      </div>
+    </div>
+
+    <a
+      href={AFF_LINK}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="shrink-0 w-full sm:w-auto inline-flex items-center justify-center gap-1.5 rounded-xl bg-toxic-400 px-5 py-2.5 text-xs sm:text-sm font-bold text-black hover:bg-toxic-300 hover:shadow-[0_0_20px_rgba(180,255,57,0.3)] transition cursor-pointer"
+    >
+      <span>{v.btn}</span>
+    </a>
+  </div>
+</div>

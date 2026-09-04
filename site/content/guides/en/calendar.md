@@ -3,6 +3,7 @@ title: "📅 Event Calendar"
 description: "The weekly rhythm every efficient player follows. NOTE: exact rotations differ per server — always check your in-game calendar."
 lang: en
 updated: "2026-09-03"
+videoTopic: calendar
 ---
 
 ## The weekly rhythm {#weekly-rhythm}

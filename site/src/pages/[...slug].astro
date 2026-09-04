@@ -6,6 +6,9 @@ import VideoSection from '../components/VideoSection.astro';
 import Calculators from '../components/Calculators.astro';
 import Infographic from '../components/Infographic.astro';
 import DiscordBanner from '../components/DiscordBanner.astro';
+import ShopPromoBanner from '../components/ShopPromoBanner.astro';
+import AllianceDuelCalc from '../components/AllianceDuelCalc.astro';
+import SquadBuilder from '../components/SquadBuilder.astro';
 import type { Lang } from '../i18n/utils';
 
 export async function getStaticPaths() {
@@ -57,6 +60,15 @@ const showDiscord = slug !== 'support' && slug !== 'credits';
     ))}
 
     {data.videoTopic && <VideoSection topic={data.videoTopic} lang={lang} />}
+
+    {slug === 'events/alliance-duel' && <AllianceDuelCalc lang={lang} />}
+
+    {slug === 'heroes' && <SquadBuilder lang={lang} />}
+
+    {slug === 'heroes' && <ShopPromoBanner variant="marlena" lang={lang} />}
+    {slug === 'buildings' && <ShopPromoBanner variant="speedup" lang={lang} />}
+    {slug === 'gear' && <ShopPromoBanner variant="gear" lang={lang} />}
+    {slug === 'beginners' && <ShopPromoBanner variant="general" lang={lang} />}
 
     {showDiscord && <DiscordBanner lang={lang} />}
   </GuidePage>

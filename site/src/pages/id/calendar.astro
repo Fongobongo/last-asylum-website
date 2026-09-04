@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
 import DiscordBanner from '../../components/DiscordBanner.astro';
 import { weeklySchedule, recurring } from '../../data/calendar';
 import { t } from '../../i18n/ui';
@@ -55,6 +56,7 @@ const lang: Lang = 'id';
     <p><strong>Stacking Maks − 1:</strong> papan misi yang penuh membekukan timer. Selesaikan satu misi dari maksimum agar misi baru terus muncul — kendalikan aliran misi Anda hari demi hari.</p>
     <p class="text-sm text-stone-500">⚠️ Batas antrean: SEMUA misi (selesai maupun belum) dihitung dalam penghitung antrean (x/x). Saat penuh, misi berikutnya hilang.</p>
 
+        <VideoSection topic="calendar" lang={lang} />
     <DiscordBanner lang={lang} />
   </GuidePage>
 </Base>

@@ -1,0 +1,251 @@
+---
+import type { Lang } from '../i18n/utils';
+
+interface Props {
+  lang?: Lang;
+}
+
+const { lang = 'en' } = Astro.props;
+const isRu = lang === 'ru';
+---
+
+<div class="ad-calc not-prose my-10 rounded-2xl border border-toxic-500/30 bg-stone-900/80 p-6 shadow-2xl backdrop-blur-xl" id="ad-calculator">
+  <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-white/[0.08] pb-4 mb-6">
+    <div>
+      <div class="flex items-center gap-2">
+        <span class="text-2xl">⚔️</span>
+        <h3 class="text-xl font-bold text-white tracking-tight">
+          {isRu ? 'Калькулятор Дуэли Альянсов (Дни 1–6)' : 'Alliance Duel Points Calculator (Days 1–6)'}
+        </h3>
+      </div>
+      <p class="mt-1 text-xs sm:text-sm text-stone-400">
+        {isRu ? 'Рассчитайте свои запасы и проверьте, откроете ли вы 9-й сундук (7.2M очков):' : 'Calculate your stockpiles and check if you hit Chest 9 (7.2M points):'}
+      </p>
+    </div>
+    <span class="self-start rounded-full bg-toxic-500/20 px-3 py-1 font-mono text-xs font-bold text-toxic-300 border border-toxic-400/30">
+      CHEST 9: 7.2M
+    </span>
+  </div>
+
+  <!-- Day Tabs -->
+  <div class="flex flex-wrap gap-1.5 mb-6" id="ad-days-tabs">
+    <button type="button" data-day="1" class="ad-tab rounded-xl border border-white/10 px-3 py-2 text-xs font-semibold transition hover:bg-white/10">
+      {isRu ? 'День 1: Радар' : 'Day 1: Radar'}
+    </button>
+    <button type="button" data-day="2" class="ad-tab rounded-xl border border-white/10 px-3 py-2 text-xs font-semibold transition hover:bg-white/10">
+      {isRu ? 'День 2: Стройка' : 'Day 2: Build'}
+    </button>
+    <button type="button" data-day="3" class="ad-tab rounded-xl border border-white/10 px-3 py-2 text-xs font-semibold transition hover:bg-white/10">
+      {isRu ? 'День 3: Наука' : 'Day 3: Tech'}
+    </button>
+    <button type="button" data-day="4" class="ad-tab active rounded-xl border border-toxic-400 bg-toxic-500/20 px-3 py-2 text-xs font-bold text-toxic-300 transition shadow-[0_0_12px_rgba(180,255,57,0.2)]">
+      {isRu ? 'День 4: Герои' : 'Day 4: Heroes'}
+    </button>
+    <button type="button" data-day="5" class="ad-tab rounded-xl border border-white/10 px-3 py-2 text-xs font-semibold transition hover:bg-white/10">
+      {isRu ? 'День 5: Войска' : 'Day 5: Troops'}
+    </button>
+    <button type="button" data-day="6" class="ad-tab rounded-xl border border-white/10 px-3 py-2 text-xs font-semibold transition hover:bg-white/10">
+      {isRu ? 'День 6: Финал' : 'Day 6: Kill Event'}
+    </button>
+  </div>
+
+  <!-- Input Forms Container -->
+  <div class="rounded-xl border border-white/[0.06] bg-black/40 p-4 sm:p-5 mb-6">
+    <!-- Day 1 Inputs -->
+    <div class="ad-day-form hidden grid gap-3 sm:grid-cols-2" id="ad-form-1">
+      <div>
+        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'Заданий радара завершено (×25,000)' : 'Radar tasks completed (×25,000)'}</label>
+        <input type="number" data-factor="25000" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
+      </div>
+      <div>
+        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'Собрано ресурсов, млн (×100,000)' : 'Resources gathered, M (×100,000)'}</label>
+        <input type="number" data-factor="100000" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
+      </div>
+    </div>
+
+    <!-- Day 2 Inputs -->
+    <div class="ad-day-form hidden grid gap-3 sm:grid-cols-2" id="ad-form-2">
+      <div>
+        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'Строительных ускорений, минут (×1,000)' : 'Building speedups, min (×1,000)'}</label>
+        <input type="number" data-factor="1000" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
+      </div>
+      <div>
+        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'Прирост мощи зданий (×100)' : 'Building might gained (×100)'}</label>
+        <input type="number" data-factor="100" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
+      </div>
+    </div>
+
+    <!-- Day 3 Inputs -->
+    <div class="ad-day-form hidden grid gap-3 sm:grid-cols-2" id="ad-form-3">
+      <div>
+        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'Ускорений исследований, минут (×1,000)' : 'Research speedups, min (×1,000)'}</label>
+        <input type="number" data-factor="1000" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
+      </div>
+      <div>
+        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'Прирост мощи науки (×150)' : 'Tech might gained (×150)'}</label>
+        <input type="number" data-factor="150" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
+      </div>
+    </div>
+
+    <!-- Day 4 Inputs (Default Active) -->
+    <div class="ad-day-form grid gap-3 sm:grid-cols-2 lg:grid-cols-3" id="ad-form-4">
+      <div>
+        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'UR-осколки героев (×20,000)' : 'UR Hero Shards (×20,000)'}</label>
+        <input type="number" data-factor="20000" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
+      </div>
+      <div>
+        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'SSR-осколки героев (×7,000)' : 'SSR Hero Shards (×7,000)'}</label>
+        <input type="number" data-factor="7000" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
+      </div>
+      <div>
+        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'Билеты призыва (×3,450)' : 'Recruitment Tickets (×3,450)'}</label>
+        <input type="number" data-factor="3450" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
+      </div>
+      <div>
+        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'Значки навыков (×20)' : 'Skill Badges (×20)'}</label>
+        <input type="number" data-factor="20" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
+      </div>
+      <div>
+        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'SR-осколки героев (×2,000)' : 'SR Hero Shards (×2,000)'}</label>
+        <input type="number" data-factor="2000" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
+      </div>
+    </div>
+
+    <!-- Day 5 Inputs -->
+    <div class="ad-day-form hidden grid gap-3 sm:grid-cols-2" id="ad-form-5">
+      <div>
+        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'Ускорений тренировки, мин (×1,000)' : 'Training speedups, min (×1,000)'}</label>
+        <input type="number" data-factor="1000" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
+      </div>
+      <div>
+        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'Обучено солдат T8–T9 (×75)' : 'Troops T8–T9 trained (×75)'}</label>
+        <input type="number" data-factor="75" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
+      </div>
+    </div>
+
+    <!-- Day 6 Inputs -->
+    <div class="ad-day-form hidden grid gap-3 sm:grid-cols-2" id="ad-form-6">
+      <div>
+        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'Универсальных ускорений, мин (×1,000)' : 'Universal speedups, min (×1,000)'}</label>
+        <input type="number" data-factor="1000" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
+      </div>
+      <div>
+        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'Уничтожено вражеских войск (очки мощи)' : 'Enemy power killed (might points)'}</label>
+        <input type="number" data-factor="1" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Score & Progress Display -->
+  <div class="space-y-4">
+    <div class="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2">
+      <div>
+        <span class="text-xs font-mono uppercase text-stone-500 tracking-wider">
+          {isRu ? 'Очков за день:' : 'Estimated Day Score:'}
+        </span>
+        <div class="text-3xl sm:text-4xl font-mono font-extrabold text-white tracking-tight" id="ad-total-points">
+          0
+        </div>
+      </div>
+      <div class="text-xs text-stone-400 font-mono" id="ad-target-status">
+        {isRu ? 'Сундук 1: 100K • Сундук 6: 2M • Сундук 9: 7.2M' : 'Chest 1: 100K • Chest 6: 2M • Chest 9: 7.2M'}
+      </div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="relative h-4 rounded-full bg-stone-950 border border-white/10 overflow-hidden p-0.5">
+      <div id="ad-progress-bar" class="h-full rounded-full bg-gradient-to-r from-toxic-500 via-plague-400 to-amber-400 transition-all duration-300" style="width: 0%;"></div>
+    </div>
+
+    <!-- Tier Milestone Indicators -->
+    <div class="grid grid-cols-4 text-center text-[10px] font-mono text-stone-400 gap-1 pt-1">
+      <div id="m-1" class="rounded bg-stone-950/60 p-1 border border-stone-800">Box 1 (100K)</div>
+      <div id="m-3" class="rounded bg-stone-950/60 p-1 border border-stone-800">Box 3 (500K)</div>
+      <div id="m-6" class="rounded bg-stone-950/60 p-1 border border-stone-800">Box 6 (2M)</div>
+      <div id="m-9" class="rounded bg-stone-950/60 p-1 border border-stone-800">Box 9 (7.2M) 🔥</div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function initAdCalc() {
+    const root = document.getElementById('ad-calculator');
+    if (!root) return;
+
+    let activeDay = '4';
+    const totalEl = document.getElementById('ad-total-points');
+    const barEl = document.getElementById('ad-progress-bar');
+    const targetStatusEl = document.getElementById('ad-target-status');
+
+    const updatePoints = () => {
+      const activeForm = document.getElementById(`ad-form-${activeDay}`);
+      if (!activeForm) return;
+
+      let total = 0;
+      activeForm.querySelectorAll<HTMLInputElement>('.ad-input').forEach((inp) => {
+        const factor = parseInt(inp.dataset.factor || '0', 10);
+        const val = parseInt(inp.value || '0', 10);
+        if (!isNaN(val) && val > 0) {
+          total += val * factor;
+        }
+      });
+
+      if (totalEl) totalEl.textContent = total.toLocaleString();
+
+      const maxGoal = 7200000;
+      const pct = Math.min(100, Math.round((total / maxGoal) * 100));
+      if (barEl) barEl.style.width = `${pct}%`;
+
+      const m1 = document.getElementById('m-1');
+      const m3 = document.getElementById('m-3');
+      const m6 = document.getElementById('m-6');
+      const m9 = document.getElementById('m-9');
+
+      m1?.classList.toggle('border-toxic-400', total >= 100000);
+      m1?.classList.toggle('text-toxic-300', total >= 100000);
+      m3?.classList.toggle('border-toxic-400', total >= 500000);
+      m3?.classList.toggle('text-toxic-300', total >= 500000);
+      m6?.classList.toggle('border-toxic-400', total >= 2000000);
+      m6?.classList.toggle('text-toxic-300', total >= 2000000);
+      m9?.classList.toggle('border-toxic-400', total >= 7200000);
+      m9?.classList.toggle('text-toxic-300', total >= 7200000);
+
+      if (targetStatusEl) {
+        if (total >= 7200000) {
+          targetStatusEl.innerHTML = '<strong class="text-toxic-300">✓ СУНДУК 9 ГАРАНТИРОВАН! (CHEST 9 UNLOCKED)</strong>';
+        } else {
+          const diff = (7200000 - total).toLocaleString();
+          targetStatusEl.textContent = `До 9-го сундука осталось: ${diff} очков`;
+        }
+      }
+    };
+
+    // Tab switching
+    root.querySelectorAll<HTMLButtonElement>('.ad-tab').forEach((tab) => {
+      tab.addEventListener('click', () => {
+        root.querySelectorAll('.ad-tab').forEach((t) => {
+          t.classList.remove('active', 'border-toxic-400', 'bg-toxic-500/20', 'text-toxic-300');
+          t.classList.add('border-white/10');
+        });
+        tab.classList.add('active', 'border-toxic-400', 'bg-toxic-500/20', 'text-toxic-300');
+        tab.classList.remove('border-white/10');
+
+        activeDay = tab.dataset.day || '4';
+
+        root.querySelectorAll('.ad-day-form').forEach((f) => f.classList.add('hidden'));
+        document.getElementById(`ad-form-${activeDay}`)?.classList.remove('hidden');
+
+        updatePoints();
+      });
+    });
+
+    // Inputs listener
+    root.querySelectorAll<HTMLInputElement>('.ad-input').forEach((inp) => {
+      inp.addEventListener('input', updatePoints);
+    });
+
+    updatePoints();
+  }
+
+  initAdCalc();
+</script>

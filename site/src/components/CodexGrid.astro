@@ -1,0 +1,277 @@
+---
+import type { HeroCodexEntry } from '../data/heroCodex';
+import type { Lang } from '../i18n/utils';
+
+interface Props {
+  heroes: HeroCodexEntry[];
+  lang: Lang;
+  base: string;
+}
+
+const { heroes, lang, base } = Astro.props;
+const isRu = lang === 'ru';
+
+const labels = {
+  searchPlaceholder: isRu ? 'Поиск героя по имени или роли...' : 'Search hero by name or role...',
+  filterRarity: isRu ? 'Редкость:' : 'Rarity:',
+  filterClass: isRu ? 'Класс:' : 'Class:',
+  filterTier: isRu ? 'Тир:' : 'Tier:',
+  all: isRu ? 'Все' : 'All',
+  showing: isRu ? 'Показано:' : 'Showing:',
+  of: isRu ? 'из' : 'of',
+  heroesWord: isRu ? 'героев' : 'heroes',
+  notFound: isRu ? 'Герои по выбранным фильтрам не найдены' : 'No heroes match the selected filters',
+  resetFilters: isRu ? 'Сбросить фильтры' : 'Reset filters',
+  warriors: isRu ? 'Воины' : 'Warriors',
+  rangers: isRu ? 'Рейнджеры' : 'Rangers',
+  sorcerers: isRu ? 'Колдуны' : 'Sorcerers',
+};
+---
+
+<div class="codex-container not-prose my-6" id="codex-explorer">
+  <!-- Search and Filter Bar -->
+  <div class="mb-6 space-y-4 rounded-2xl border border-white/[0.08] bg-stone-900/60 p-4 sm:p-5 backdrop-blur-xl shadow-xl">
+    <!-- Search Input -->
+    <div class="relative">
+      <span class="absolute left-3.5 top-1/2 -translate-y-1/2 text-stone-400 text-sm">⌕</span>
+      <input
+        type="text"
+        id="codex-search-input"
+        placeholder={labels.searchPlaceholder}
+        class="w-full rounded-xl border border-white/10 bg-black/40 py-2.5 pl-9 pr-10 text-sm text-white placeholder-stone-500 outline-none focus:border-toxic-400/80 focus:ring-1 focus:ring-toxic-400/50 transition"
+      />
+      <button
+        id="codex-clear-search"
+        type="button"
+        class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-xs font-bold text-stone-500 hover:text-stone-300"
+      >
+        ✕
+      </button>
+    </div>
+
+    <!-- Filter Pills Rows -->
+    <div class="flex flex-wrap items-center justify-between gap-3 text-xs">
+      <!-- Rarity Filters -->
+      <div class="flex flex-wrap items-center gap-1.5" id="filter-rarity-group">
+        <span class="text-stone-500 font-mono uppercase text-[11px] mr-1">{labels.filterRarity}</span>
+        <button type="button" data-rarity="" class="filter-btn active rounded-lg border border-white/10 bg-white/10 px-2.5 py-1 text-white font-medium hover:bg-white/20 transition">{labels.all}</button>
+        <button type="button" data-rarity="UR" class="filter-btn rounded-lg border border-red-500/30 bg-red-950/20 px-2.5 py-1 text-red-400 font-bold hover:bg-red-900/40 transition">UR</button>
+        <button type="button" data-rarity="SSR" class="filter-btn rounded-lg border border-amber-500/30 bg-amber-950/20 px-2.5 py-1 text-amber-400 font-bold hover:bg-amber-900/40 transition">SSR</button>
+        <button type="button" data-rarity="SR" class="filter-btn rounded-lg border border-sky-500/30 bg-sky-950/20 px-2.5 py-1 text-sky-400 font-bold hover:bg-sky-900/40 transition">SR</button>
+      </div>
+
+      <!-- Class Filters -->
+      <div class="flex flex-wrap items-center gap-1.5" id="filter-class-group">
+        <span class="text-stone-500 font-mono uppercase text-[11px] mr-1">{labels.filterClass}</span>
+        <button type="button" data-class="" class="filter-btn active rounded-lg border border-white/10 bg-white/10 px-2.5 py-1 text-white font-medium hover:bg-white/20 transition">{labels.all}</button>
+        <button type="button" data-class="Warrior" class="filter-btn rounded-lg border border-rose-500/30 bg-rose-950/20 px-2.5 py-1 text-rose-300 hover:bg-rose-900/40 transition">🛡️ {labels.warriors}</button>
+        <button type="button" data-class="Ranger" class="filter-btn rounded-lg border border-emerald-500/30 bg-emerald-950/20 px-2.5 py-1 text-emerald-300 hover:bg-emerald-900/40 transition">🏹 {labels.rangers}</button>
+        <button type="button" data-class="Sorcerer" class="filter-btn rounded-lg border border-indigo-500/30 bg-indigo-950/20 px-2.5 py-1 text-indigo-300 hover:bg-indigo-900/40 transition">🔮 {labels.sorcerers}</button>
+      </div>
+
+      <!-- Tier Filters -->
+      <div class="flex flex-wrap items-center gap-1.5" id="filter-tier-group">
+        <span class="text-stone-500 font-mono uppercase text-[11px] mr-1">{labels.filterTier}</span>
+        <button type="button" data-tier="" class="filter-btn active rounded-lg border border-white/10 bg-white/10 px-2 py-1 text-white font-medium hover:bg-white/20 transition">{labels.all}</button>
+        <button type="button" data-tier="S" class="filter-btn rounded-lg border border-rose-500/30 bg-rose-950/30 px-2 py-1 text-rose-300 font-bold hover:bg-rose-900/50 transition">S</button>
+        <button type="button" data-tier="A" class="filter-btn rounded-lg border border-amber-500/30 bg-amber-950/30 px-2 py-1 text-amber-300 font-bold hover:bg-amber-900/50 transition">A</button>
+        <button type="button" data-tier="B" class="filter-btn rounded-lg border border-sky-500/30 bg-sky-950/30 px-2 py-1 text-sky-300 font-bold hover:bg-sky-900/50 transition">B</button>
+        <button type="button" data-tier="C" class="filter-btn rounded-lg border border-stone-600/30 bg-stone-900/40 px-2 py-1 text-stone-400 font-bold hover:bg-stone-800 transition">C</button>
+      </div>
+    </div>
+
+    <!-- Active Count & Reset -->
+    <div class="flex items-center justify-between border-t border-white/[0.04] pt-3 text-xs text-stone-400">
+      <div>
+        {labels.showing} <strong id="codex-shown-count" class="text-toxic-300 font-mono font-bold">{heroes.length}</strong> {labels.of} <span class="font-mono">{heroes.length}</span> {labels.heroesWord}
+      </div>
+      <button
+        id="codex-btn-reset"
+        type="button"
+        class="text-xs text-stone-500 hover:text-toxic-300 transition cursor-pointer"
+      >
+        ↺ {labels.resetFilters}
+      </button>
+    </div>
+  </div>
+
+  <!-- Cards Grid -->
+  <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3" id="codex-grid">
+    {heroes.map((h) => {
+      const classNorm = h.className?.toLowerCase().includes('ranger') ? 'Ranger' : h.className?.toLowerCase().includes('sorcerer') || h.className?.toLowerCase().includes('wizard') || h.className?.toLowerCase().includes('колдун') ? 'Sorcerer' : 'Warrior';
+      const rarityColor = h.rarity === 'UR' ? 'border-red-500/30 hover:border-red-400/70 bg-gradient-to-br from-red-950/20 via-stone-900 to-stone-950' : h.rarity === 'SSR' ? 'border-amber-500/30 hover:border-amber-400/70 bg-gradient-to-br from-amber-950/20 via-stone-900 to-stone-950' : 'border-sky-500/30 hover:border-sky-400/70 bg-gradient-to-br from-sky-950/20 via-stone-900 to-stone-950';
+      const tierBadge = h.tier === 'S' ? 'bg-red-900/40 text-red-300 border-red-700/50' : h.tier === 'A' ? 'bg-amber-900/40 text-amber-300 border-amber-700/50' : 'bg-sky-900/40 text-sky-300 border-sky-700/50';
+
+      return (
+        <a
+          href={`${base}/codex/${h.slug}/`}
+          class={`hero-card group relative flex flex-col justify-between rounded-xl border p-5 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(0,0,0,0.4)] ${rarityColor}`}
+          data-name={h.name.toLowerCase()}
+          data-slug={h.slug}
+          data-rarity={h.rarity}
+          data-class={classNorm}
+          data-tier={h.tier}
+          data-role={h.role.toLowerCase()}
+        >
+          <div>
+            <div class="flex items-baseline justify-between gap-2">
+              <h3 class="text-lg font-bold text-white group-hover:text-toxic-300 transition-colors">
+                {h.name}
+              </h3>
+              <div class="flex items-center gap-1.5">
+                <span class="rounded px-1.5 py-0.5 text-[10px] font-mono font-bold uppercase tracking-wider bg-white/10 text-stone-300 border border-white/10">
+                  {h.rarity}
+                </span>
+                <span class={`rounded px-1.5 py-0.5 text-xs font-bold font-mono border ${tierBadge}`}>
+                  Tier {h.tier}
+                </span>
+              </div>
+            </div>
+
+            <div class="mt-1 flex items-center gap-2 text-xs text-stone-400">
+              <span class="font-medium text-stone-300">
+                {classNorm === 'Warrior' ? '🛡️ Воин' : classNorm === 'Ranger' ? '🏹 Рейнджер' : '🔮 Колдун'}
+              </span>
+              <span class="text-stone-600">•</span>
+              <span class="text-stone-500 font-mono text-[11px]">{h.faction}</span>
+            </div>
+
+            <p class="mt-3 line-clamp-3 text-xs leading-relaxed text-stone-400">
+              {h.role}
+            </p>
+          </div>
+
+          <div class="mt-4 flex items-center justify-between border-t border-white/[0.04] pt-3 text-[11px] text-stone-500">
+            <span>{isRu ? 'Навыки и билды' : 'Skills & Builds'}</span>
+            <span class="font-bold text-stone-400 group-hover:text-toxic-300 transition">→</span>
+          </div>
+        </a>
+      );
+    })}
+  </div>
+
+  <!-- Empty state -->
+  <div id="codex-empty-state" class="hidden my-12 rounded-2xl border border-dashed border-stone-800 p-12 text-center">
+    <div class="text-4xl mb-3">🔍</div>
+    <h3 class="text-base font-bold text-white mb-1">{labels.notFound}</h3>
+    <p class="text-xs text-stone-400 mb-4">{labels.searchPlaceholder}</p>
+    <button
+      id="codex-btn-reset-empty"
+      type="button"
+      class="rounded-xl border border-toxic-500/40 bg-toxic-500/10 px-4 py-2 text-xs font-bold text-toxic-300 hover:bg-toxic-500/20 transition cursor-pointer"
+    >
+      ↺ {labels.resetFilters}
+    </button>
+  </div>
+</div>
+
+<script>
+  function initCodexExplorer() {
+    const root = document.getElementById('codex-explorer');
+    if (!root) return;
+
+    const input = document.getElementById('codex-search-input') as HTMLInputElement | null;
+    const clearBtn = document.getElementById('codex-clear-search');
+    const shownCountEl = document.getElementById('codex-shown-count');
+    const emptyState = document.getElementById('codex-empty-state');
+    const grid = document.getElementById('codex-grid');
+    const cards = Array.from(root.querySelectorAll<HTMLElement>('.hero-card'));
+
+    let activeRarity = '';
+    let activeClass = '';
+    let activeTier = '';
+    let searchQuery = '';
+
+    const applyFilters = () => {
+      let visible = 0;
+      cards.forEach((card) => {
+        const name = card.dataset.name || '';
+        const role = card.dataset.role || '';
+        const rarity = card.dataset.rarity || '';
+        const cls = card.dataset.class || '';
+        const tier = card.dataset.tier || '';
+
+        const matchSearch = !searchQuery || name.includes(searchQuery) || role.includes(searchQuery);
+        const matchRarity = !activeRarity || rarity === activeRarity;
+        const matchClass = !activeClass || cls === activeClass;
+        const matchTier = !activeTier || tier === activeTier;
+
+        const isMatch = matchSearch && matchRarity && matchClass && matchTier;
+        card.style.display = isMatch ? '' : 'none';
+        if (isMatch) visible++;
+      });
+
+      if (shownCountEl) shownCountEl.textContent = String(visible);
+      if (emptyState && grid) {
+        if (visible === 0) {
+          emptyState.classList.remove('hidden');
+          grid.classList.add('hidden');
+        } else {
+          emptyState.classList.add('hidden');
+          grid.classList.remove('hidden');
+        }
+      }
+    };
+
+    // Search input listener
+    input?.addEventListener('input', () => {
+      searchQuery = (input.value || '').trim().toLowerCase();
+      if (clearBtn) {
+        clearBtn.classList.toggle('hidden', !searchQuery);
+      }
+      applyFilters();
+    });
+
+    clearBtn?.addEventListener('click', () => {
+      if (input) input.value = '';
+      searchQuery = '';
+      clearBtn.classList.add('hidden');
+      applyFilters();
+    });
+
+    // Pill group handler
+    const setupGroup = (groupId: string, setVal: (v: string) => void) => {
+      const group = document.getElementById(groupId);
+      if (!group) return;
+      const btns = group.querySelectorAll<HTMLButtonElement>('.filter-btn');
+      btns.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          btns.forEach((b) => {
+            b.classList.remove('active', 'bg-white/20', 'border-toxic-400');
+            b.classList.add('border-white/10');
+          });
+          btn.classList.add('active', 'bg-white/20', 'border-toxic-400');
+          const val = btn.dataset.rarity ?? btn.dataset.class ?? btn.dataset.tier ?? '';
+          setVal(val);
+          applyFilters();
+        });
+      });
+    };
+
+    setupGroup('filter-rarity-group', (v) => { activeRarity = v; });
+    setupGroup('filter-class-group', (v) => { activeClass = v; });
+    setupGroup('filter-tier-group', (v) => { activeTier = v; });
+
+    // Reset buttons
+    const reset = () => {
+      activeRarity = '';
+      activeClass = '';
+      activeTier = '';
+      searchQuery = '';
+      if (input) input.value = '';
+      clearBtn?.classList.add('hidden');
+
+      root.querySelectorAll<HTMLButtonElement>('.filter-btn').forEach((b) => {
+        const isAll = (b.dataset.rarity === '') || (b.dataset.class === '') || (b.dataset.tier === '');
+        b.classList.toggle('active', isAll);
+        b.classList.toggle('bg-white/10', isAll);
+      });
+      applyFilters();
+    };
+
+    document.getElementById('codex-btn-reset')?.addEventListener('click', reset);
+    document.getElementById('codex-btn-reset-empty')?.addEventListener('click', reset);
+  }
+
+  initCodexExplorer();
+</script>

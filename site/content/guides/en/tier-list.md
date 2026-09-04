@@ -3,6 +3,7 @@ title: "🏆 Hero Tier List"
 description: "Community consensus rankings, weighted for a typical F2P / mid-spender progression path. Tier context matters: a 'B' SSR you own today beats an 'S' UR you will own in three months."
 lang: en
 updated: "2026-09-03"
+videoTopic: tier_list
 ---
 
 Compiled from squad-composition guides, boss-fight breakdowns and PvP testing by experienced players. Tiers reflect **overall account value** — not raw stats.

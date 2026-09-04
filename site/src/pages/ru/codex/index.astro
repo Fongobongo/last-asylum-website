@@ -1,12 +1,14 @@
 ﻿---
 import Base from '../../../layouts/Base.astro';
 import GuidePage from '../../../components/GuidePage.astro';
+import CodexGrid from '../../../components/CodexGrid.astro';
 import DiscordBanner from '../../../components/DiscordBanner.astro';
 import { heroCodex } from '../../../data/heroCodex';
 import { t } from '../../../i18n/ui';
 import type { Lang } from '../../../i18n/utils';
 
 const lang: Lang = 'ru';
+const base = lang === 'en' ? '' : `/${lang}`;
 ---
 
 <Base lang={lang} path="/codex/" title="Кодекс героев" description="Все ключевые герои Last Asylum: Plague — навыки, билды, составы и способы получения.">
@@ -18,18 +20,7 @@ const lang: Lang = 'ru';
   >
     <p>На каждой странице: роль героя, способ получения, действительно важные навыки, приоритеты прокачки и составы, где он используется. Для рангов смотри <a href="/ru/tier-list/">тир-лист</a>.</p>
 
-    <div class="not-prose my-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-      {heroCodex.map((h) => (
-        <a href={`/ru/codex/${h.slug}/`} class="group rounded-xl border border-stone-800 bg-stone-900 p-5 transition-colors hover:border-plague-600">
-          <div class="flex items-baseline justify-between">
-            <h3 class="text-lg font-bold text-plague-200 group-hover:text-plague-100">{h.name}</h3>
-            <span class={`rounded px-1.5 py-0.5 text-xs font-bold ${h.tier === 'S' ? 'bg-red-900/40 text-red-300' : h.tier === 'A' ? 'bg-amber-900/40 text-amber-300' : 'bg-sky-900/40 text-sky-300'}`}>{h.tier}</span>
-          </div>
-          <p class="mt-0.5 text-xs text-stone-500">{h.rarity} · {h.faction} · {h.className}</p>
-          <p class="mt-2 line-clamp-3 text-sm text-stone-400">{h.role}</p>
-        </a>
-      ))}
-    </div>
+    <CodexGrid heroes={heroCodex} lang={lang} base={base} />
 
     <DiscordBanner lang={lang} />
   </GuidePage>

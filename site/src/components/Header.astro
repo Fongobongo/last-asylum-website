@@ -43,6 +43,16 @@ function isActive(href: string) { return cleanPath === `/${href}/` || cleanPath.
         <span class="h-1.5 w-1.5 rounded-full bg-toxic-400 animate-pulse"></span>
         {t(lang, 'header.status')}
       </span>
+      <div class="hidden lg:flex items-center gap-2 font-mono text-[10px] text-stone-400 bg-stone-900/80 border border-white/[0.06] rounded-full px-3 py-0.5">
+        <span class="flex items-center gap-1.5 text-stone-300">
+          <span class="h-1.5 w-1.5 rounded-full bg-toxic-400"></span>
+          <span>UTC: <strong id="utc-clock" class="text-white">--:--:--</strong></span>
+        </span>
+        <span class="text-stone-700">|</span>
+        <span class="text-stone-400">
+          {lang === 'ru' ? 'Сброс сервера:' : 'Reset:'} <strong id="utc-countdown" class="text-toxic-300 font-semibold">--h --m</strong>
+        </span>
+      </div>
       <span class="flex items-center gap-3">
         <a href={`${base}/dnd/`} class="inline-flex items-center gap-1 font-semibold text-toxic-400 hover:text-toxic-300 transition">
           🛡️ {lang === 'ru' ? 'Штаб DND [🔒 Пароль]' : 'DND Hub [🔒 Password]'}
@@ -290,6 +300,28 @@ function isActive(href: string) { return cleanPath === `/${href}/` || cleanPath.
         `).join('');
       }, 150);
     });
+
+    const initUtcTimer = () => {
+      const clockEl = document.getElementById('utc-clock');
+      const countdownEl = document.getElementById('utc-countdown');
+      if (!clockEl || !countdownEl) return;
+      const tick = () => {
+        const now = new Date();
+        const h = now.getUTCHours();
+        const m = now.getUTCMinutes();
+        const s = now.getUTCSeconds();
+        clockEl.textContent = `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+        const secToday = h * 3600 + m * 60 + s;
+        const left = 86400 - secToday;
+        const lh = Math.floor(left / 3600);
+        const lm = Math.floor((left % 3600) / 60);
+        const ls = left % 60;
+        countdownEl.textContent = `${lh}h ${String(lm).padStart(2, '0')}m ${String(ls).padStart(2, '0')}s`;
+      };
+      tick();
+      setInterval(tick, 1000);
+    };
+    initUtcTimer();
   }
   initChrome();
 </script>
