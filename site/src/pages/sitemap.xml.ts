@@ -1,4 +1,4 @@
-﻿import type { APIRoute } from 'astro';
+import type { APIRoute } from 'astro';
 import { languages } from '../i18n/utils';
 
 const pages = [
@@ -49,16 +49,13 @@ export const GET: APIRoute = ({ site }) => {
 
   for (const p of pages) {
     const alternates = languages
-      .filter((l) => l !== 'en' || true)
       .map((l) => ({
         lang: l,
         href: l === 'en' ? `${base}/${p}` : `${base}/${l}/${p}`,
       }));
     urls.push({ loc: `${base}/${p}`, alternates });
-    if (p) {
-      for (const l of languages.filter((x) => x !== 'en')) {
-        urls.push({ loc: `${base}/${l}/${p}`, alternates: [] });
-      }
+    for (const l of languages.filter((x) => x !== 'en')) {
+      urls.push({ loc: `${base}/${l}/${p}`, alternates: [] });
     }
   }
 

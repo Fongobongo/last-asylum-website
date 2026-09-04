@@ -14,9 +14,13 @@ const navItems: { key: any; href: string; num: string }[] = [
   { key: 'nav.events', href: 'events', num: '07' },
   { key: 'nav.codes', href: 'codes', num: '08' },
   { key: 'nav.gear', href: 'gear', num: '09' },
-  { key: 'nav.faq', href: 'faq', num: '10' },
+  { key: 'nav.tierlist', href: 'tier-list', num: '10' },
+  { key: 'nav.codex', href: 'codex', num: '11' },
+  { key: 'nav.calendar', href: 'calendar', num: '12' },
+  { key: 'nav.patchnotes', href: 'patch-notes', num: '13' },
+  { key: 'nav.faq', href: 'faq', num: '14' },
 ];
-const cleanPath = path.replace(/^\/(en|ru|es|pt|fr|de|id|ko|ja)?\/?/, '/');
+const cleanPath = path.replace(/^\/(en|ru|es|pt|fr|de|id|ko|ja)?\/?/, '/') || '/';
 const langHrefs = languages.map((l) => ({
   lang: l,
   href: l === 'en' ? (cleanPath === '/' ? '/' : cleanPath) : `/${l}${cleanPath === '/' ? '/' : cleanPath}`,
@@ -25,14 +29,17 @@ const base = lang === 'en' ? '' : `/${lang}`;
 function isActive(href: string) { return cleanPath === `/${href}/` || cleanPath.startsWith(`/${href}/`); }
 ---
 
-<header id="site-header" class="sticky top-0 z-50 border-b border-white/[0.07] bg-[#080807]/60 backdrop-blur-2xl supports-[backdrop-filter]:bg-[#080807]/50">
-  <div class="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-plague-400/40 to-transparent"></div>
+<header id="site-header" class="sticky top-0 z-50 border-b border-white/[0.07] bg-[#080807]/75 backdrop-blur-2xl supports-[backdrop-filter]:bg-[#080807]/65 transition-shadow">
+  <div class="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-toxic-400/40 to-transparent"></div>
   <div class="border-b border-white/[0.03] bg-white/[0.01]">
     <div class="mx-auto max-w-7xl px-4 h-7 flex items-center justify-between text-[11px] tracking-widest uppercase text-stone-500">
-      <span class="hidden sm:inline-flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-toxic-400 animate-pulse"></span> Live from Discord • Updated daily</span>
+      <span class="hidden sm:inline-flex items-center gap-2">
+        <span class="h-1.5 w-1.5 rounded-full bg-toxic-400 animate-pulse"></span>
+        {lang === 'ru' ? 'Хаб сообщества Discord • Ежедневные обновления' : 'Live from Discord • Updated daily'}
+      </span>
       <span class="flex items-center gap-3">
-        <span class="hidden sm:inline">9 languages • 532 pages • 28 codex</span>
-        <a href={`${base}/credits/`} class="hover:text-stone-300 transition">Credits</a>
+        <span class="hidden sm:inline">{lang === 'ru' ? '9 языков • 530+ страниц • 28 героев' : '9 languages • 530+ pages • 28 codex'}</span>
+        <a href={`${base}/credits/`} class="hover:text-stone-300 transition">{t(lang, 'nav.credits')}</a>
       </span>
     </div>
   </div>
@@ -40,68 +47,75 @@ function isActive(href: string) { return cleanPath === `/${href}/` || cleanPath.
   <div class="mx-auto max-w-7xl px-4">
     <div class="flex h-[68px] items-center justify-between gap-4">
       <a href={`${base}/`} class="group flex items-center gap-3">
-        <span class="flex h-9 w-9 items-center justify-center rounded-[10px] bg-gradient-to-br from-white via-stone-100 to-plague-200 text-black font-serif text-lg leading-none shadow-[0_0_18px_rgba(236,229,138,0.25)] group-hover:shadow-[0_0_26px_rgba(236,229,138,0.45)] transition-shadow">LA</span>
+        <span class="flex h-9 w-9 items-center justify-center rounded-[10px] bg-gradient-to-br from-white via-stone-100 to-toxic-300 text-black font-heading font-bold text-sm leading-none shadow-[0_0_18px_rgba(180,255,57,0.25)] group-hover:shadow-[0_0_26px_rgba(180,255,57,0.5)] transition-shadow">LA</span>
         <div class="hidden sm:block leading-none">
-          <div class="text-[15px] font-semibold tracking-tight text-white group-hover:text-plague-100 transition">Plague Hub</div>
-          <div class="text-[11px] tracking-[0.14em] uppercase text-stone-500 -mt-0.5">Last Asylum</div>
+          <div class="text-[15px] font-bold tracking-tight text-white group-hover:text-toxic-300 transition font-heading">Plague Hub</div>
+          <div class="text-[10px] tracking-[0.16em] uppercase text-stone-500 mt-0.5">Last Asylum</div>
         </div>
       </a>
 
       <div class="flex items-center gap-2">
         <button id="search-open" class="btn-glow hidden md:inline-flex items-center gap-2.5 rounded-full bg-white text-black px-4 py-2 text-sm font-medium hover:bg-stone-200">
-          <span>⌕</span> Search <kbd class="ml-1 rounded bg-black/10 px-1.5 py-0.5 text-xs">/</kbd>
+          <span>⌕</span> {t(lang, 'nav.search').replace('…', '')} <kbd class="ml-1 rounded bg-black/10 px-1.5 py-0.5 text-xs">/</kbd>
         </button>
-        <button id="search-open-m" class="md:hidden h-9 w-9 grid place-items-center rounded-full border border-white/10 text-stone-400">⌕</button>
+        <button id="search-open-m" class="md:hidden h-9 w-9 grid place-items-center rounded-full border border-white/10 text-stone-300 hover:text-white" aria-label="Search">⌕</button>
 
         <div class="relative">
-          <button id="lang-toggle" class="inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-white/[0.06] px-3 py-2 text-sm text-stone-300 hover:bg-white/10 transition">
-            🌐 <span class="hidden sm:inline">{langNames[lang]}</span> <span class="text-stone-500">▾</span>
+          <button id="lang-toggle" class="inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-white/[0.06] px-3 py-2 text-sm text-stone-300 hover:bg-white/10 transition" aria-label="Select language">
+            🌐 <span class="hidden sm:inline">{langNames[lang]}</span> <span class="text-stone-500 text-xs">▾</span>
           </button>
-          <div id="lang-menu" class="absolute right-0 top-full mt-3 hidden w-56 overflow-hidden rounded-2xl glass p-1.5 shadow-2xl">
+          <div id="lang-menu" class="absolute right-0 top-full mt-3 hidden w-56 overflow-hidden rounded-2xl glass p-1.5 shadow-2xl z-50">
             {langHrefs.map((l) => (
-              <a href={l.href} class:list={['flex items-center justify-between rounded-xl px-3 py-2.5 text-sm transition', l.lang === lang ? 'bg-white text-black' : 'text-stone-300 hover:bg-white/5 hover:text-white']}>
-                <span>{langNames[l.lang]}</span> <span class="text-xs opacity-50">{l.lang.toUpperCase()}</span>
+              <a href={l.href} class:list={['flex items-center justify-between rounded-xl px-3 py-2 text-sm transition', l.lang === lang ? 'bg-white text-black font-medium' : 'text-stone-300 hover:bg-white/5 hover:text-white']}>
+                <span>{langNames[l.lang]}</span> <span class="text-xs opacity-50 font-mono">{l.lang.toUpperCase()}</span>
               </a>
             ))}
           </div>
         </div>
 
         <a href={`${base}/support/`} class="btn-glow hidden sm:inline-flex rounded-full bg-toxic-400 px-4 py-2 text-sm font-semibold text-black hover:bg-toxic-300">Support ♥</a>
-        <button id="menu-toggle" class="lg:hidden h-9 w-9 grid place-items-center rounded-full bg-white text-black">☰</button>
+        <button id="menu-toggle" class="lg:hidden h-9 w-9 grid place-items-center rounded-full bg-white text-black text-sm font-bold transition" aria-label="Toggle menu">☰</button>
       </div>
     </div>
 
-    <nav class="hidden lg:flex items-center gap-1 overflow-x-auto border-t border-white/[0.04] -mx-4 px-4 h-11 text-sm scrollbar-none">
+    <nav class="hidden lg:flex items-center gap-1 overflow-x-auto border-t border-white/[0.04] -mx-4 px-4 h-11 text-xs scrollbar-none">
       {navItems.map((item) => {
         const active = isActive(item.href);
         return (
-          <a href={`${base}/${item.href}/`} class:list={['inline-flex items-center gap-1.5 whitespace-nowrap rounded-full px-3 py-1.5 transition', active ? 'bg-white text-black shadow-[0_0_16px_rgba(255,255,255,0.2)]' : 'text-stone-400 hover:text-white hover:bg-white/5']}>
+          <a href={`${base}/${item.href}/`} class:list={['inline-flex items-center gap-1.5 whitespace-nowrap rounded-full px-3 py-1.5 transition font-medium', active ? 'bg-white text-black shadow-[0_0_16px_rgba(255,255,255,0.2)]' : 'text-stone-400 hover:text-white hover:bg-white/5']}>
             <span class="text-[10px] font-mono opacity-50">{item.num}</span> {t(lang, item.key)}
           </a>
         );
       })}
-      <span class="ml-auto hidden xl:inline-flex items-center gap-2 text-xs text-stone-500"><span class="h-px w-8 bg-white/10"></span> EST. 2024 • F2P FIRST</span>
+      <span class="ml-auto hidden xl:inline-flex items-center gap-2 text-xs text-stone-500 font-mono"><span class="h-px w-8 bg-white/10"></span> F2P FIRST</span>
     </nav>
 
-    <nav id="mobile-menu" class="hidden lg:hidden border-t border-white/5 py-4">
+    <nav id="mobile-menu" class="hidden lg:hidden border-t border-white/5 py-4 max-h-[75vh] overflow-y-auto">
       <div class="grid grid-cols-2 gap-2">
-        {navItems.map((item) => (
-          <a href={`${base}/${item.href}/`} class="rounded-2xl border border-white/5 bg-white/[0.03] px-4 py-3 text-sm font-medium text-stone-300 hover:bg-white hover:text-black transition">
-            <span class="text-xs font-mono opacity-50">{item.num}</span> <span class="ml-1">{t(lang, item.key)}</span>
-          </a>
-        ))}
+        {navItems.map((item) => {
+          const active = isActive(item.href);
+          return (
+            <a href={`${base}/${item.href}/`} class:list={['rounded-xl border px-3 py-2.5 text-xs font-medium transition flex items-center gap-2', active ? 'border-toxic-400 bg-toxic-400/10 text-toxic-300' : 'border-white/5 bg-white/[0.03] text-stone-300 hover:bg-white hover:text-black']}>
+              <span class="text-[10px] font-mono opacity-50">{item.num}</span> <span class="truncate">{t(lang, item.key)}</span>
+            </a>
+          );
+        })}
+      </div>
+      <div class="mt-3 pt-3 border-t border-white/5 flex items-center justify-between">
+        <a href={`${base}/credits/`} class="text-xs text-stone-400 hover:text-white">{t(lang, 'nav.credits')}</a>
+        <a href={`${base}/support/`} class="text-xs font-semibold text-toxic-400 hover:text-toxic-300">Support ♥</a>
       </div>
     </nav>
   </div>
 </header>
 
 <div id="search-modal" class="fixed inset-0 z-[60] hidden bg-black/80 backdrop-blur-xl" role="dialog" aria-modal="true">
-  <div class="mx-auto mt-[12vh] max-w-2xl px-4">
+  <div class="mx-auto mt-[10vh] max-w-2xl px-4">
     <div class="overflow-hidden rounded-[24px] border border-white/10 bg-[#0f0f0e] shadow-2xl">
       <div class="flex items-center gap-3 px-5 py-4 border-b border-white/5">
         <span class="text-stone-500">⌕</span>
         <input id="search-input" type="search" placeholder={t(lang, 'search.placeholder')} class="w-full bg-transparent text-lg text-white placeholder:text-stone-500 outline-none" autocomplete="off" />
-        <button id="search-close" class="rounded-full bg-white px-3 py-1 text-xs font-semibold text-black">ESC</button>
+        <button id="search-close" class="rounded-full bg-white/10 hover:bg-white hover:text-black px-3 py-1 text-xs font-semibold text-stone-300 transition">ESC</button>
       </div>
       <div id="search-results" class="max-h-[60vh] overflow-y-auto p-2"></div>
       <div class="flex items-center justify-between border-t border-white/5 px-4 py-3 text-xs text-stone-500">
@@ -117,18 +131,112 @@ function isActive(href: string) { return cleanPath === `/${href}/` || cleanPath.
     const header = document.getElementById('site-header');
     const onScroll = () => { if (!header) return; header.classList.toggle('shadow-[0_10px_40px_rgba(0,0,0,0.5)]', window.scrollY > 10); };
     window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
-    document.getElementById('menu-toggle')?.addEventListener('click', () => document.getElementById('mobile-menu')?.classList.toggle('hidden'));
+
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuToggle?.addEventListener('click', () => {
+      const isHidden = mobileMenu?.classList.toggle('hidden');
+      if (menuToggle) menuToggle.textContent = isHidden ? '☰' : '✕';
+    });
+
     document.getElementById('lang-toggle')?.addEventListener('click', (e) => { e.stopPropagation(); document.getElementById('lang-menu')?.classList.toggle('hidden'); });
     document.addEventListener('click', () => document.getElementById('lang-menu')?.classList.add('hidden'));
+
     const modal = document.getElementById('search-modal');
     const input = document.getElementById('search-input') as HTMLInputElement | null;
-    const open = async () => { modal?.classList.remove('hidden'); input?.focus(); if (!(window as any).pagefind) { try { const imp = new Function('u','return import(u)') as any; (window as any).pagefind = await imp('/pagefind/pagefind.js'); } catch {} } };
+    let selectedIdx = -1;
+
+    const updateSelection = () => {
+      const items = document.querySelectorAll<HTMLAnchorElement>('#search-results a');
+      items.forEach((item, idx) => {
+        const isSelected = idx === selectedIdx;
+        item.classList.toggle('bg-white/10', isSelected);
+        item.classList.toggle('ring-1', isSelected);
+        item.classList.toggle('ring-toxic-400/50', isSelected);
+        if (isSelected) item.scrollIntoView({ block: 'nearest' });
+      });
+    };
+
+    const open = async () => {
+      modal?.classList.remove('hidden');
+      document.body.classList.add('overflow-hidden');
+      input?.focus();
+      selectedIdx = -1;
+      if (!(window as any).pagefind) {
+        try {
+          const imp = new Function('u','return import(u)') as any;
+          (window as any).pagefind = await imp('/pagefind/pagefind.js');
+        } catch {}
+      }
+    };
+
+    const close = () => {
+      modal?.classList.add('hidden');
+      document.body.classList.remove('overflow-hidden');
+      selectedIdx = -1;
+    };
+
     document.getElementById('search-open')?.addEventListener('click', open);
     document.getElementById('search-open-m')?.addEventListener('click', open);
-    document.getElementById('search-close')?.addEventListener('click', () => modal?.classList.add('hidden'));
-    modal?.addEventListener('click', (e) => { if (e.target === modal) modal.classList.add('hidden'); });
-    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') modal?.classList.add('hidden'); if (e.key === '/' && (e.target as HTMLElement)?.tagName !== 'INPUT') { e.preventDefault(); open(); } });
-    let debounce: any; input?.addEventListener('input', () => { clearTimeout(debounce); debounce = setTimeout(async () => { const pf = (window as any).pagefind; const el = document.getElementById('search-results'); if (!el) return; if (!pf || !input.value.trim()) { el.innerHTML = '<div class="p-10 text-center text-stone-500 text-sm">Type to search guides…</div>'; return; } const s = await pf.search(input.value); const items = await Promise.all(s.results.slice(0,8).map((r:any)=>r.data())); el.innerHTML = items.map((d:any)=>`<a href="${d.url}" class="flex gap-3 rounded-2xl p-3 hover:bg-white/5 transition"><span class="h-8 w-8 grid place-items-center rounded-full bg-white text-black text-xs">↗</span><div><div class="text-sm font-medium text-white">${d.meta.title??d.url}</div><div class="text-xs text-stone-400 line-clamp-1">${d.excerpt}</div></div></a>`).join(''); }, 200); });
+    document.getElementById('search-close')?.addEventListener('click', close);
+    modal?.addEventListener('click', (e) => { if (e.target === modal) close(); });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') close();
+      if (e.key === '/' && (e.target as HTMLElement)?.tagName !== 'INPUT') {
+        e.preventDefault();
+        open();
+      }
+    });
+
+    input?.addEventListener('keydown', (e) => {
+      const items = document.querySelectorAll<HTMLAnchorElement>('#search-results a');
+      if (!items.length) return;
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        selectedIdx = (selectedIdx + 1) % items.length;
+        updateSelection();
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        selectedIdx = selectedIdx <= 0 ? items.length - 1 : selectedIdx - 1;
+        updateSelection();
+      } else if (e.key === 'Enter') {
+        if (selectedIdx >= 0 && items[selectedIdx]) {
+          e.preventDefault();
+          items[selectedIdx].click();
+          close();
+        }
+      }
+    });
+
+    let debounce: any;
+    input?.addEventListener('input', () => {
+      clearTimeout(debounce);
+      selectedIdx = -1;
+      debounce = setTimeout(async () => {
+        const pf = (window as any).pagefind;
+        const el = document.getElementById('search-results');
+        if (!el) return;
+        if (!pf || !input.value.trim()) {
+          el.innerHTML = '<div class="p-10 text-center text-stone-500 text-sm">Type to search guides…</div>';
+          return;
+        }
+        const s = await pf.search(input.value);
+        const items = await Promise.all(s.results.slice(0, 8).map((r: any) => r.data()));
+        if (!items.length) {
+          el.innerHTML = '<div class="p-10 text-center text-stone-500 text-sm">No results found</div>';
+          return;
+        }
+        el.innerHTML = items.map((d: any) => `
+          <a href="${d.url}" class="flex items-center gap-3 rounded-xl p-3 hover:bg-white/5 transition">
+            <span class="h-8 w-8 shrink-0 grid place-items-center rounded-full bg-toxic-400 text-black text-xs font-bold font-mono">↗</span>
+            <div class="min-w-0">
+              <div class="text-sm font-semibold text-white truncate">${d.meta.title ?? d.url}</div>
+              <div class="text-xs text-stone-400 line-clamp-1 mt-0.5">${d.excerpt}</div>
+            </div>
+          </a>
+        `).join('');
+      }, 150);
+    });
   }
   initChrome();
 </script>

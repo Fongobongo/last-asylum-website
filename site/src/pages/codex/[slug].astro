@@ -1,4 +1,4 @@
-﻿---
+---
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
 import DiscordBanner from '../../components/DiscordBanner.astro';
@@ -27,10 +27,10 @@ const { hero } = Astro.props;
     breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Hero Codex', href: '/codex/' }, { label: hero.name }]}
   >
     <div class="not-prose mb-6 flex flex-wrap items-center gap-2">
-      <span class={`rounded px-2.5 py-1 text-sm font-bold ${hero.tier === 'S' ? 'bg-red-900/40 text-red-300' : hero.tier === 'A' ? 'bg-amber-900/40 text-amber-300' : 'bg-sky-900/40 text-sky-300'}`}>{hero.tier} tier</span>
-      <span class="rounded bg-stone-800 px-2.5 py-1 text-sm text-plague-200">{hero.rarity}</span>
-      <span class="rounded bg-stone-800 px-2.5 py-1 text-sm text-stone-300">{hero.faction}</span>
-      <span class="rounded bg-stone-800 px-2.5 py-1 text-sm text-stone-300">{hero.className}</span>
+      <span class={`rounded-lg px-2.5 py-1 text-xs font-bold ${hero.tier === 'S' ? 'bg-red-950/80 border border-red-500/40 text-red-300 shadow-[0_0_12px_rgba(239,68,68,0.2)]' : hero.tier === 'A' ? 'bg-amber-950/80 border border-amber-500/40 text-amber-300' : 'bg-sky-950/80 border border-sky-500/40 text-sky-300'}`}>{hero.tier} tier</span>
+      <span class="rounded-lg bg-stone-900 border border-stone-800 px-2.5 py-1 text-xs font-semibold text-plague-300">{hero.rarity}</span>
+      <span class="rounded-lg bg-stone-900 border border-stone-800 px-2.5 py-1 text-xs text-stone-300">{hero.faction}</span>
+      <span class="rounded-lg bg-stone-900 border border-stone-800 px-2.5 py-1 text-xs text-stone-400">{hero.className}</span>
     </div>
 
     <h2 id="how-to-get">How to get</h2>
@@ -39,9 +39,9 @@ const { hero } = Astro.props;
     <h2 id="skills">Skills that matter</h2>
     <div class="not-prose my-4 space-y-3">
       {hero.skills.map((s) => (
-        <div class="rounded-lg border border-stone-800 bg-stone-900 p-4">
+        <div class="rounded-xl border border-stone-800/90 bg-stone-900/60 p-4 transition-colors hover:border-stone-700">
           <p class="font-bold text-plague-200">{s.name}</p>
-          <p class="mt-1 text-sm text-stone-400">{s.desc}</p>
+          <p class="mt-1 text-sm text-stone-400 leading-relaxed">{s.desc}</p>
         </div>
       ))}
     </div>
@@ -56,10 +56,13 @@ const { hero } = Astro.props;
 
     {hero.video && (
       <div class="not-prose my-8">
-        <h2 class="mb-4 text-2xl font-bold text-plague-200">Video guide</h2>
-        <div class="js-video-facade max-w-lg" data-video-id={hero.video} role="button" tabindex="0" aria-label="Play video">
-          <span class="block aspect-video overflow-hidden rounded-lg border border-stone-800">
-            <img src={`https://i.ytimg.com/vi/${hero.video}/hqdefault.jpg`} alt="Video guide" loading="lazy" class="h-full w-full object-cover" />
+        <h2 class="mb-4 text-xl font-bold text-plague-200">Video guide</h2>
+        <div class="js-video-facade group relative max-w-lg cursor-pointer overflow-hidden rounded-xl border border-stone-800 hover:border-plague-500 transition shadow-xl" data-video-id={hero.video} role="button" tabindex="0" aria-label="Play video">
+          <span class="block aspect-video overflow-hidden bg-stone-900">
+            <img src={`https://i.ytimg.com/vi/${hero.video}/hqdefault.jpg`} alt="Video guide" loading="lazy" class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105" />
+          </span>
+          <span class="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/40 transition-opacity group-hover:bg-black/25">
+            <span class="flex h-12 w-12 items-center justify-center rounded-full bg-blood-600/90 text-white text-lg pl-0.5 shadow-[0_0_20px_rgba(225,29,72,0.6)] group-hover:scale-110 transition-transform">▶</span>
           </span>
         </div>
       </div>

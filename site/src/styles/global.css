@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Unbounded:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -20,8 +20,9 @@
   --color-blood-600: #e11d48;
   --color-ink: #0a0a09;
   --color-paper: #fafaf8;
-  --font-display: "Space Grotesk", system-ui, sans-serif;
-  --font-serif: "Instrument Serif", Georgia, serif;
+  --font-display: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-heading: "Unbounded", system-ui, sans-serif;
+  --font-serif: Georgia, serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
 }
 
@@ -56,46 +57,100 @@ body {
 
 :focus-visible { outline: 2px solid #b4ff39; outline-offset: 2px; }
 
+h1, h2, h3, h4, h5, h6 {
+  scroll-margin-top: 5.5rem;
+}
+
 /* Display */
 .display {
-  font-family: var(--font-serif);
-  font-weight: 400;
-  letter-spacing: -0.03em;
-  line-height: 0.9;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.08;
 }
 
 /* Prose - editorial */
 .prose-la h2 {
-  @apply text-[28px] font-bold tracking-tight mt-12 mb-4 text-stone-100 leading-none;
-  font-family: var(--font-display);
+  @apply text-[26px] sm:text-[28px] font-bold tracking-tight mt-12 mb-4 text-stone-100 leading-snug;
+  font-family: var(--font-heading);
 }
 .prose-la h2::before {
   content: "";
-  @apply block h-px w-12 bg-plague-500 mb-4;
+  @apply block h-0.5 w-12 bg-gradient-to-r from-toxic-400 via-plague-400 to-transparent mb-4 rounded-full;
 }
 .prose-la h3 {
-  @apply text-[20px] font-semibold mt-10 mb-3 text-plague-200;
+  @apply text-[19px] sm:text-[20px] font-semibold mt-10 mb-3 text-plague-200 tracking-tight;
+  font-family: var(--font-heading);
+}
+.prose-la h4 {
+  @apply text-[16px] font-semibold mt-6 mb-2 text-stone-200 tracking-tight;
 }
 .prose-la p {
   @apply mb-5 leading-7 text-stone-300;
   font-size: 15.5px;
 }
+.prose-la strong {
+  @apply text-stone-100 font-semibold;
+}
 .prose-la a {
-  @apply text-toxic-400 underline decoration-toxic-400/20 underline-offset-4 decoration-1 hover:text-toxic-300 hover:decoration-toxic-400 transition;
+  @apply text-toxic-400 underline decoration-toxic-400/30 underline-offset-4 decoration-1 hover:text-toxic-300 hover:decoration-toxic-400 transition;
+}
+.prose-la ul {
+  @apply my-5 ml-6 list-disc space-y-2 text-stone-300 text-[15.5px] leading-7;
+}
+.prose-la ol {
+  @apply my-5 ml-6 list-decimal space-y-2 text-stone-300 text-[15.5px] leading-7;
+}
+.prose-la li {
+  @apply pl-1;
+}
+.prose-la li::marker {
+  @apply text-toxic-400 font-semibold;
 }
 .prose-la blockquote {
-  @apply border-l-2 border-plague-500/40 pl-6 italic text-stone-300 my-8 bg-stone-900/20 py-4 pr-4 rounded-r-xl;
-  font-family: var(--font-serif);
-  font-size: 18px;
+  @apply border-l-2 border-toxic-400/70 pl-6 text-stone-300 my-8 bg-gradient-to-r from-stone-900/60 to-transparent py-4 pr-4 rounded-r-xl italic;
+  font-size: 16px;
+}
+.prose-la hr {
+  @apply my-10 border-stone-800;
 }
 .prose-la code {
   @apply bg-stone-900 border border-stone-800/80 px-1.5 py-0.5 rounded text-plague-200 text-[13px];
   font-family: var(--font-mono);
 }
 .prose-la pre {
-  @apply bg-[#0f0f0e] border border-stone-800 rounded-xl p-5 overflow-x-auto my-7;
+  @apply bg-[#0f0f0e] border border-stone-800 rounded-xl p-5 overflow-x-auto my-7 shadow-xl;
 }
-.prose-la pre code { @apply bg-transparent border-0 p-0; }
+.prose-la pre code { @apply bg-transparent border-0 p-0 text-sm; }
+
+/* Table styling */
+.prose-la table {
+  @apply w-full text-left text-sm border-collapse;
+}
+.prose-la thead {
+  @apply bg-stone-950/80 border-b border-stone-800 text-plague-200;
+}
+.prose-la th {
+  @apply px-4 py-3 font-semibold tracking-wider text-[11.5px] uppercase text-plague-300 whitespace-nowrap;
+  font-family: var(--font-heading);
+}
+.prose-la tbody tr {
+  @apply border-b border-stone-800/50 transition-colors hover:bg-white/[0.02];
+}
+.prose-la tbody tr:last-child {
+  @apply border-b-0;
+}
+.prose-la td {
+  @apply px-4 py-3 text-stone-300 align-middle;
+}
+
+/* TOC active indicator */
+.toc-link.active {
+  @apply text-toxic-300 font-medium bg-toxic-400/10 rounded-lg;
+}
+.toc-link.active .toc-dot {
+  @apply bg-toxic-400 scale-125 shadow-[0_0_10px_rgba(180,255,57,0.9)];
+}
 
 /* ===== Modern design system additions ===== */
 

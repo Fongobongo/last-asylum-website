@@ -17,20 +17,20 @@ export const GET: APIRoute = () => {
         title: `Gift code: ${c.code}`,
         link: `${SITE}/codes/`,
         date: new Date(c.date),
-        desc: `New gift code ${c.code}${c.note ? ` (${c.note})` : ''} РІР‚вЂќ valid as of ${c.date}.`,
+        desc: `New gift code ${c.code}${c.note ? ` (${c.note})` : ''} — valid as of ${c.date}.`,
       })),
     ...patchNotes.slice(0, 5).map((p) => ({
       title: `Update: ${p.title}`,
       link: `${SITE}/patch-notes/`,
       date: new Date(p.date),
-      desc: p.highlights.map((h) => `РІР‚Сћ ${h}`).join(' '),
+      desc: p.highlights.map((h) => `• ${h}`).join(' '),
     })),
   ].sort((a, b) => b.date.getTime() - a.date.getTime());
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Last Asylum: Plague РІР‚вЂќ Fan Hub</title>
+    <title>Last Asylum: Plague — Fan Hub</title>
     <link>${SITE}</link>
     <description>Gift codes &amp; game updates</description>
     <language>en</language>

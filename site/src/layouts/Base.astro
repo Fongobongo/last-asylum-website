@@ -18,13 +18,13 @@ const pageTitle = title ? `${title} — ${t(lang, 'site.title')}` : t(lang, 'sit
 const desc = description ?? t(lang, 'site.tagline');
 
 const site = Astro.site?.toString().replace(/\/$/, '') ?? '';
-const canonical = site + (lang === 'en' ? path : `/${lang}${path === '/' ? '/' : path}`);
+const cleanPath = path.replace(/^\/(en|ru|es|pt|fr|de|id|ko|ja)?\/?/, '/') || '/';
+const canonical = site + (lang === 'en' ? (cleanPath === '/' ? '/' : cleanPath) : `/${lang}${cleanPath === '/' ? '/' : cleanPath}`);
 
 // hreflang alternates for this page across all languages
-const cleanPath = path.replace(/^\/(en|ru|es|pt|fr|de|id|ko|ja)?\/?/, '/') || '/';
 const alternates = languages.map((l) => ({
   lang: l,
-  href: site + (l === 'en' ? cleanPath : `/${l}${cleanPath === '/' ? '/' : cleanPath}`),
+  href: site + (l === 'en' ? (cleanPath === '/' ? '/' : cleanPath) : `/${l}${cleanPath === '/' ? '/' : cleanPath}`),
 }));
 const ogImage = `${site}/og-cover.png` || '/og-cover.png';
 

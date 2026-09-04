@@ -1,4 +1,4 @@
-﻿import type { Lang } from './utils';
+import type { Lang } from './utils';
 
 export const ui = {
   en: {
@@ -14,6 +14,9 @@ export const ui = {
     'nav.events': 'Events',
     'nav.codes': 'Gift Codes',
     'nav.gear': 'Gear',
+    'nav.tierlist': 'Tier List',
+    'nav.codex': 'Hero Codex',
+    'nav.calendar': 'Calendar',
     'nav.faq': 'FAQ',
     'nav.patchnotes': 'Patch Notes',
     'nav.credits': 'Credits',
@@ -41,6 +44,9 @@ export const ui = {
     'home.sections.support.desc': 'Support the project and get in-game value.',
     'home.sections.codes.desc': 'Working gift codes, updated after every drop.',
     'home.sections.patchnotes.desc': 'Every maintenance and update, summarized.',
+    'home.sections.calendar.desc': 'Weekly event rotation, reset timings, and claim-day optimization.',
+    'home.sections.tierlist.desc': 'Community hero rankings, tier benchmarks, and investment value.',
+    'home.sections.codex.desc': 'Full hero codex: skills, builds, squad synergies and unlock paths.',
     'support.title': 'Support the Project',
     'support.intro': 'This fan site is free and community-driven. You can support it in two ways:',
     'support.ref.title': 'Top-up through our link',
@@ -100,6 +106,9 @@ export const ui = {
     'nav.events': 'События',
     'nav.codes': 'Промокоды',
     'nav.gear': 'Снаряжение',
+    'nav.tierlist': 'Тир-лист',
+    'nav.codex': 'Кодекс героев',
+    'nav.calendar': 'Календарь',
     'nav.faq': 'FAQ',
     'nav.patchnotes': 'Патчноуты',
     'nav.credits': 'Авторы',
@@ -127,6 +136,9 @@ export const ui = {
     'home.sections.support.desc': 'Поддержи проект и получи ценность в игре.',
     'home.sections.codes.desc': 'Рабочие промокоды, обновляется после каждого дропа.',
     'home.sections.patchnotes.desc': 'Все обновления и техработы — кратко.',
+    'home.sections.calendar.desc': 'Недельный цикл событий, время сброса и оптимизация дней наград.',
+    'home.sections.tierlist.desc': 'Рейтинг героев от сообщества, тиры от S до C и приоритеты прокачки.',
+    'home.sections.codex.desc': 'Полный кодекс героев: навыки, билды, синергии отрядов и способы получения.',
     'support.title': 'Поддержать проект',
     'support.intro': 'Фан-сайт бесплатный и держится на сообществе. Поддержать можно двумя способами:',
     'support.ref.title': 'Пополнять по нашей ссылке',

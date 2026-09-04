@@ -96,8 +96,8 @@ const L = (i18n as any)[lang]?.[calcKey] ?? (i18n as any).en[calcKey];
     <div>
       <p class="mb-4 rounded-lg border border-stone-800 bg-stone-950 p-3 text-xs text-stone-400">💡 {L.note}</p>
       <label class="block">
-        <span class="mb-1 block text-sm text-stone-300">{L.h60} <span class="text-stone-500">(→8★)</span></span>
-        <input type="number" min="0" max="600" value="600" class="js-claire-h60 w-full rounded-md border border-stone-700 bg-stone-950 px-3 py-2 text-stone-200" />
+        <span class="mb-1 block text-sm font-medium text-stone-300">{lang === 'ru' ? 'Накоплено SSR-осколков' : 'Banked SSR shards'} <span class="text-stone-500">(0 – 1,600)</span></span>
+        <input type="number" min="0" max="1600" step="50" value="600" class="js-claire-h60 w-full rounded-md border border-stone-700 bg-stone-950 px-3 py-2 text-stone-200 focus:border-plague-400 outline-none" />
       </label>
       <div class="mt-4 grid gap-3 sm:grid-cols-3">
         <div class="rounded-lg border border-stone-700 bg-stone-950 p-4">

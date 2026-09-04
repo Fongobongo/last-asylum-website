@@ -1,45 +1,85 @@
-﻿---
+---
 import { giftCodes, REDEEM_URL } from '../data/giftcodes';
+
+interface Props {
+  lang?: string;
+}
+
+const { lang = 'en' } = Astro.props;
+
+const labels =
+  lang === 'ru'
+    ? {
+        copy: 'Копировать',
+        copied: '✓ Скопировано',
+        expired: 'Архивные коды (вероятно, истекли)',
+        webTitle: 'Активация через сайт (iOS и Android):',
+      }
+    : {
+        copy: 'Copy',
+        copied: '✓ Copied',
+        expired: 'Older codes (probably expired)',
+        webTitle: 'Web redemption (iOS & Android):',
+      };
 ---
 
 <div class="not-prose my-6">
-  <div class="mb-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3" id="codes-active">
+  <div class="mb-6 grid gap-3.5 sm:grid-cols-2 lg:grid-cols-3" id="codes-active">
     {giftCodes.filter((c) => c.active).map((c) => (
-      <div class="flex items-center justify-between gap-3 rounded-lg border border-toxic-500/40 bg-toxic-500/10 px-4 py-3">
+      <div class="group relative flex items-center justify-between gap-3 rounded-xl border border-toxic-500/30 bg-gradient-to-br from-toxic-500/10 to-transparent p-4 shadow-[0_4px_20px_rgba(0,0,0,0.3)] transition-all hover:border-toxic-400/60 hover:shadow-[0_0_24px_rgba(180,255,57,0.15)]">
         <div>
-          <code class="text-lg font-bold tracking-wider text-toxic-400">{c.code}</code>
-          {c.note && <p class="mt-0.5 text-xs text-stone-400">{c.note}</p>}
-          <p class="text-xs text-stone-500">{c.date}</p>
+          <div class="flex items-center gap-2">
+            <code class="font-mono text-lg font-bold tracking-wider text-toxic-400">{c.code}</code>
+            <span class="inline-flex items-center rounded-full bg-toxic-400/20 px-2 py-0.5 text-[10px] font-semibold text-toxic-300">ACTIVE</span>
+          </div>
+          {c.note && <p class="mt-1 text-xs text-stone-300">{c.note}</p>}
+          <p class="mt-0.5 text-[11px] font-mono text-stone-500">{c.date}</p>
         </div>
-        <button class="js-copy rounded-md border border-stone-600 px-3 py-1.5 text-xs font-semibold text-stone-200 hover:bg-stone-800" data-code={c.code}>
-          Copy
+        <button
+          class="js-copy inline-flex shrink-0 items-center justify-center rounded-lg border border-white/10 bg-white/5 px-3 py-1.5 text-xs font-semibold text-stone-200 transition hover:bg-toxic-400 hover:text-black hover:border-toxic-400"
+          data-code={c.code}
+          data-label-copy={labels.copy}
+          data-label-copied={labels.copied}
+        >
+          {labels.copy}
         </button>
       </div>
     ))}
   </div>
 
-  <details class="rounded-lg border border-stone-800 bg-stone-900 p-4">
-    <summary class="cursor-pointer font-semibold text-stone-300">Older codes (probably expired)</summary>
-    <div class="mt-4 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+  <details class="group rounded-xl border border-stone-800 bg-stone-900/40 p-4 transition-colors hover:border-stone-700">
+    <summary class="flex cursor-pointer select-none items-center justify-between font-semibold text-stone-300">
+      <span>📦 {labels.expired}</span>
+      <span class="text-xs text-stone-500 group-open:rotate-180 transition-transform">▾</span>
+    </summary>
+    <div class="mt-4 grid gap-2.5 sm:grid-cols-2 lg:grid-cols-3">
       {giftCodes.filter((c) => !c.active).map((c) => (
-        <div class="flex items-center justify-between gap-3 rounded-lg border border-stone-800 bg-stone-950 px-4 py-2.5 opacity-70">
+        <div class="flex items-center justify-between gap-3 rounded-lg border border-stone-800/80 bg-stone-950/60 px-3.5 py-2.5 opacity-70 hover:opacity-100 transition-opacity">
           <div>
             <code class="font-mono font-bold tracking-wider text-stone-400">{c.code}</code>
             {c.note && <span class="ml-2 text-xs text-stone-500">{c.note}</span>}
-            <p class="text-xs text-stone-600">{c.date}</p>
+            <p class="text-[11px] text-stone-600">{c.date}</p>
           </div>
-          <button class="js-copy rounded-md border border-stone-700 px-2.5 py-1 text-xs text-stone-400 hover:bg-stone-800" data-code={c.code}>
-            Copy
+          <button
+            class="js-copy rounded-md border border-stone-700/80 bg-stone-900 px-2.5 py-1 text-xs text-stone-400 transition hover:bg-stone-800 hover:text-white"
+            data-code={c.code}
+            data-label-copy={labels.copy}
+            data-label-copied={labels.copied}
+          >
+            {labels.copy}
           </button>
         </div>
       ))}
     </div>
   </details>
 
-  <div class="mt-6 rounded-lg border border-plague-700 bg-plague-950/50 p-4">
-    <p class="text-sm text-stone-300">
-      рџЊђ <strong class="text-plague-200">Web redemption (iOS & Android):</strong>
-      <a href={REDEEM_URL} target="_blank" rel="noopener noreferrer" class="ml-1 text-toxic-400 underline">{REDEEM_URL}</a>
+  <div class="mt-6 rounded-xl border border-plague-700/50 bg-gradient-to-r from-plague-950/60 via-stone-900 to-stone-950 p-4">
+    <p class="text-sm text-stone-300 flex flex-wrap items-center gap-2">
+      <span class="text-lg">🌐</span>
+      <strong class="text-plague-200">{labels.webTitle}</strong>
+      <a href={REDEEM_URL} target="_blank" rel="noopener noreferrer" class="text-toxic-400 hover:text-toxic-300 underline font-mono text-xs break-all transition">
+        {REDEEM_URL} ↗
+      </a>
     </p>
   </div>
 </div>
@@ -48,10 +88,16 @@ import { giftCodes, REDEEM_URL } from '../data/giftcodes';
   document.querySelectorAll('.js-copy').forEach((btn) => {
     btn.addEventListener('click', async () => {
       const code = (btn as HTMLElement).dataset.code ?? '';
+      const copiedLabel = (btn as HTMLElement).dataset.labelCopied ?? '✓ Copied';
+      const copyLabel = (btn as HTMLElement).dataset.labelCopy ?? 'Copy';
       try {
         await navigator.clipboard.writeText(code);
-        (btn as HTMLElement).textContent = 'вњ“ Copied';
-        setTimeout(() => ((btn as HTMLElement).textContent = 'Copy'), 1500);
+        (btn as HTMLElement).textContent = copiedLabel;
+        btn.classList.add('border-toxic-400', 'text-toxic-300', 'bg-toxic-500/10');
+        setTimeout(() => {
+          (btn as HTMLElement).textContent = copyLabel;
+          btn.classList.remove('border-toxic-400', 'text-toxic-300', 'bg-toxic-500/10');
+        }, 1500);
       } catch {
         (btn as HTMLElement).textContent = code;
       }

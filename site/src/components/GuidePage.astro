@@ -96,15 +96,15 @@ const tocClose = Astro.props.lang === 'ru' ? 'Закрыть' : 'Close';
   {
     toc.length > 2 && (
       <aside class="sticky top-[84px] hidden self-start lg:block">
-        <div class="rounded-2xl border border-stone-800 bg-stone-900/30 backdrop-blur p-4">
-          <p class="mb-3 text-xs font-semibold uppercase tracking-widest text-stone-500 flex items-center gap-2">
-            <span class="h-px w-6 bg-stone-700"></span>
+        <div class="rounded-2xl border border-stone-800/80 bg-stone-900/40 backdrop-blur-xl p-4 shadow-xl">
+          <p class="mb-3 text-[11px] font-semibold uppercase tracking-widest text-stone-500 flex items-center gap-2">
+            <span class="h-1.5 w-1.5 rounded-full bg-toxic-400"></span>
             {tocLabel}
           </p>
-          <nav class="space-y-0.5 text-[13.5px]">
+          <nav class="space-y-1 text-[13.5px]">
             {toc.map((item) => (
-              <a href={`#${item.id}`} class={`flex items-center gap-2 rounded-lg px-2.5 py-1.5 transition ${item.level === 'h3' ? 'ml-3 text-stone-500 border-l border-stone-800 pl-3' : 'text-stone-400 hover:bg-stone-800 hover:text-stone-100'}`}>
-                <span class={`h-1 w-1 rounded-full ${item.level === 'h2' ? 'bg-plague-400' : 'bg-stone-600'}`}></span>
+              <a href={`#${item.id}`} class={`toc-link flex items-center gap-2.5 rounded-lg px-2.5 py-1.5 transition text-stone-400 hover:bg-stone-800/60 hover:text-stone-100 ${item.level === 'h3' ? 'ml-3 text-[13px] border-l border-stone-800/80 pl-2.5' : ''}`}>
+                <span class={`toc-dot h-1.5 w-1.5 rounded-full shrink-0 transition-transform ${item.level === 'h2' ? 'bg-plague-400/80' : 'bg-stone-600'}`}></span>
                 <span class="line-clamp-1">{item.text}</span>
               </a>
             ))}
@@ -114,3 +114,36 @@ const tocClose = Astro.props.lang === 'ru' ? 'Закрыть' : 'Close';
     )
   }
 </div>
+
+<script>
+  function initTOC() {
+    const links = Array.from(document.querySelectorAll<HTMLAnchorElement>('aside nav a[href^="#"]'));
+    if (!links.length) return;
+
+    const headings = links
+      .map((link) => {
+        const id = link.getAttribute('href')?.slice(1);
+        return id ? document.getElementById(id) : null;
+      })
+      .filter((h): h is HTMLElement => h !== null);
+
+    if (!headings.length) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visible = entries.find((e) => e.isIntersecting);
+        if (visible) {
+          const id = visible.target.id;
+          links.forEach((l) => {
+            const match = l.getAttribute('href') === `#${id}`;
+            l.classList.toggle('active', match);
+          });
+        }
+      },
+      { rootMargin: '-90px 0px -70% 0px' }
+    );
+
+    headings.forEach((h) => observer.observe(h));
+  }
+  initTOC();
+</script>

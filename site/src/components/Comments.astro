@@ -10,7 +10,7 @@ const enabled = GISCUS_REPO !== '' && GISCUS_REPO_ID !== ''
 ---
 
 {
-  enabled ? (
+  enabled && (
     <section class="not-prose my-10">
       <h2 class="mb-4 text-2xl font-bold text-plague-200">💬 Comments</h2>
       <div class="giscus" />
@@ -32,10 +32,6 @@ const enabled = GISCUS_REPO !== '' && GISCUS_REPO_ID !== ''
         crossorigin="anonymous"
         async
       />
-    </section>
-  ) : (
-    <section class="not-prose my-10 rounded-xl border border-stone-800 bg-stone-900 p-5 text-sm text-stone-500">
-      <p>💬 Comments are powered by GitHub Discussions and will be enabled once the site repository is public.</p>
     </section>
   )
 }
