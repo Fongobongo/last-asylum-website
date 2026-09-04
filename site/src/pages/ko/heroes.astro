@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import SquadBuilder from '../../components/SquadBuilder.astro';
+import SquadQuiz from '../../components/SquadQuiz.astro';
 import PvPMatrix from '../../components/PvPMatrix.astro';
 import { t } from '../../i18n/ui';
 import type { Lang } from '../../i18n/utils';
@@ -108,6 +109,7 @@ const lang: Lang = 'ko';
     </table>
     <p>구분을 진단적으로 사용하세요: 전력이 영웅 과다 병영 부족이면, 대체 불가능한 군대를 잃는 한 번의 나쁜 전투만큼 위험합니다. 병영 과다 영웅 부족이면, 행군이 체급 대비 타격이 약합니다. 가장 강한 계정은 스택을 대략 비슷한 비율로 유지합니다 — 건설 우선순위와 F2P 부대 타임라인을 따르면 정확히 그렇게 됩니다.</p>
 
+    <SquadQuiz lang={lang} />
     <SquadBuilder lang={lang} />
     <PvPMatrix lang={lang} />
     <VideoSection topic="heroes" lang={lang} />

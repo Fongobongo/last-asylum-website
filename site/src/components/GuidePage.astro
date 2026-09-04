@@ -55,12 +55,24 @@ const tocClose = Astro.props.lang === 'ru' ? 'Закрыть' : 'Close';
     <header class="mb-8 border-b border-stone-800/60 pb-6">
       <h1 class="mb-3 text-3xl font-bold tracking-[-0.02em] text-stone-100 sm:text-[32px] leading-tight" id="top">{title}</h1>
       {description && <p class="text-[15px] leading-6 text-stone-400 max-w-2xl">{description}</p>}
-      <div class="mt-4 flex items-center gap-3 text-xs text-stone-500">
-        <span class="inline-flex items-center gap-1.5 rounded-full border border-stone-800 bg-stone-900/50 px-2.5 py-1">
-          <span class="h-1.5 w-1.5 rounded-full bg-toxic-400"></span>
-          Guide
-        </span>
-        <span>Updated • Community verified</span>
+      <div class="mt-4 flex flex-wrap items-center justify-between gap-3 text-xs text-stone-500">
+        <div class="flex items-center gap-3">
+          <span class="inline-flex items-center gap-1.5 rounded-full border border-stone-800 bg-stone-900/50 px-2.5 py-1">
+            <span class="h-1.5 w-1.5 rounded-full bg-toxic-400"></span>
+            Guide
+          </span>
+          <span>Updated • Community verified</span>
+        </div>
+
+        <button
+          id="btn-page-bookmark"
+          type="button"
+          class="inline-flex items-center gap-1.5 rounded-xl border border-stone-800 bg-stone-900/80 px-3 py-1.5 text-xs font-semibold text-stone-300 hover:text-white hover:border-toxic-500/50 transition cursor-pointer"
+          data-title={title}
+        >
+          <span id="bm-icon">☆</span>
+          <span id="bm-label">{Astro.props.lang === 'ru' ? 'В закладки' : 'Bookmark'}</span>
+        </button>
       </div>
     </header>
 
@@ -146,4 +158,46 @@ const tocClose = Astro.props.lang === 'ru' ? 'Закрыть' : 'Close';
     headings.forEach((h) => observer.observe(h));
   }
   initTOC();
+
+  function initPageBookmark() {
+    const btn = document.getElementById('btn-page-bookmark');
+    if (!btn) return;
+    const STORAGE_KEY = 'lap_bookmarks';
+    const pageUrl = window.location.pathname;
+    const pageTitle = btn.dataset.title || document.title;
+
+    const getList = () => {
+      try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'); }
+      catch { return []; }
+    };
+
+    const isBookmarked = () => getList().some((b: any) => b.url === pageUrl);
+
+    const updateState = () => {
+      const active = isBookmarked();
+      const icon = document.getElementById('bm-icon');
+      const label = document.getElementById('bm-label');
+      const isRu = (document.documentElement.lang || '').startsWith('ru');
+      if (icon) icon.textContent = active ? '★' : '☆';
+      if (label) label.textContent = active ? (isRu ? 'В закладках' : 'Bookmarked') : (isRu ? 'В закладки' : 'Bookmark');
+      btn.classList.toggle('border-toxic-400', active);
+      btn.classList.toggle('text-toxic-300', active);
+      btn.classList.toggle('bg-toxic-500/10', active);
+    };
+
+    updateState();
+
+    btn.addEventListener('click', () => {
+      let list = getList();
+      if (isBookmarked()) {
+        list = list.filter((b: any) => b.url !== pageUrl);
+      } else {
+        list.push({ url: pageUrl, title: pageTitle });
+      }
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(list));
+      updateState();
+      window.dispatchEvent(new CustomEvent('lap-bookmarks-updated'));
+    });
+  }
+  initPageBookmark();
 </script>

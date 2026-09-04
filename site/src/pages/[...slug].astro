@@ -13,6 +13,7 @@ import DailyChecklist from '../components/DailyChecklist.astro';
 import WeeklyCheatSheet from '../components/WeeklyCheatSheet.astro';
 import SanctuaryCalc from '../components/SanctuaryCalc.astro';
 import PvPMatrix from '../components/PvPMatrix.astro';
+import SquadQuiz from '../components/SquadQuiz.astro';
 import type { Lang } from '../i18n/utils';
 
 export async function getStaticPaths() {
@@ -77,6 +78,8 @@ const showDiscord = slug !== 'support' && slug !== 'credits';
     {slug === 'buildings' && <SanctuaryCalc lang={lang} />}
 
     {(slug === 'heroes' || slug === 'compare') && <PvPMatrix lang={lang} />}
+
+    {slug === 'heroes' && <SquadQuiz lang={lang} />}
 
     {slug === 'heroes' && <SquadBuilder lang={lang} />}
 

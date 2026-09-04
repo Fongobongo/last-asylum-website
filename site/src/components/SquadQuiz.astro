@@ -1,0 +1,410 @@
+---
+import type { Lang } from "../i18n/utils";
+
+interface Props {
+  lang?: Lang;
+}
+
+const { lang = "en" } = Astro.props;
+const isRu = lang === "ru";
+
+interface QuizDict {
+  title: string;
+  subtitle: string;
+  q1: string;
+  q1_sub: string;
+  q2: string;
+  q2_sub: string;
+  q3: string;
+  q3_sub: string;
+  opt_f2p: string;
+  opt_f2p_desc: string;
+  opt_micro: string;
+  opt_micro_desc: string;
+  opt_p2w: string;
+  opt_p2w_desc: string;
+  opt_early: string;
+  opt_early_desc: string;
+  opt_mid: string;
+  opt_mid_desc: string;
+  opt_era: string;
+  opt_era_desc: string;
+  opt_pvp: string;
+  opt_pvp_desc: string;
+  opt_pve: string;
+  opt_pve_desc: string;
+  opt_bal: string;
+  opt_bal_desc: string;
+  resultTitle: string;
+  openBuilder: string;
+  frontline: string;
+  backline: string;
+  mistakeTitle: string;
+}
+
+const dict: Record<string, QuizDict> = {
+  ru: {
+    title: "🎯 Тест: Какой отряд качать именно тебе?",
+    subtitle: "Ответьте на 3 быстрых вопроса о вашем бюджете и возрасте сервера, чтобы получить идеальную персональную расстановку:",
+    q1: "1. Ваш бюджет и стиль игры:",
+    q1_sub: "Честный ответ определит реальную доступность героев без тупиков прокачки.",
+    q2: "2. Сколько дней вашему серверу?",
+    q2_sub: "Игра открывает ключевых героев по строгому таймлайну (Синтия на 8 день, Марлена на 66, Даскал в Эре).",
+    q3: "3. Главный приоритет:",
+    q3_sub: "На чём сфокусировать синергии отряда.",
+    opt_f2p: "Чистый F2P ($0)",
+    opt_f2p_desc: "Играю без доната, коплю бесплатные алмазы на Колесо Синтии.",
+    opt_micro: "Микродонат ($1 за Marlena)",
+    opt_micro_desc: "Готов взять разовое пополнение за $1 на 66-й день ради топ-кэрри игры.",
+    opt_p2w: "Hero Pass / Донатер",
+    opt_p2w_desc: "Покупаю боевые пропуски, регулярно кручу колесо на UR-героев.",
+    opt_early: "Ранний сервер (1–30 дней)",
+    opt_early_desc: "Старт игры, доступен Arthur, скоро Колесо Синтии на 8-й день.",
+    opt_mid: "Средний этап (31–80 дней)",
+    opt_mid_desc: "Поезд UR-ивентов, появление Marlena, прокачка звёзд 8★.",
+    opt_era: "Эра Возрождения (80+ дней)",
+    opt_era_desc: "Танк Daskal, конвертация Claire в UR, сезонные Эпиграфы Ворона.",
+    opt_pvp: "PvP Арена, KvK и Рейды",
+    opt_pvp_desc: "Взрывной урон, контроль и уничтожение вражеских кэрри.",
+    opt_pve: "PvE, Осада зомби и Боссы",
+    opt_pve_desc: "Максимальная выживаемость, сустейн и закрытие 20 волн.",
+    opt_bal: "Сбалансированный универсал",
+    opt_bal_desc: "Один универсальный состав на каждый день без распыления ресурсов.",
+    resultTitle: "Ваш рекомендованный состав:",
+    openBuilder: "Открыть состав в Конструкторе отрядов ↗",
+    frontline: "Первая линия (Танки):",
+    backline: "Задняя линия (Урон и Саппорт):",
+    mistakeTitle: "Главная ошибка, которой нужно избегать:",
+  },
+  en: {
+    title: "🎯 Squad Recommendation Quiz",
+    subtitle: "Answer 3 quick questions about your budget and server age to get your personalized squad setup:",
+    q1: "1. Your budget and playstyle:",
+    q1_sub: "An honest answer guarantees hero availability without stalling progress.",
+    q2: "2. How old is your server?",
+    q2_sub: "Key heroes unlock along a fixed timeline (Cynthia Day 8, Marlena Day 66, Daskal in Era).",
+    q3: "3. Primary gameplay focus:",
+    q3_sub: "Defines whether to prioritize burst damage or sustained survival.",
+    opt_f2p: "Pure F2P ($0)",
+    opt_f2p_desc: "Zero spend, saving all free diamonds for Cynthia's Wheel.",
+    opt_micro: "Micro-Spender ($1 Marlena)",
+    opt_micro_desc: "Willing to spend $1 on Day 66 for the best carry in the game.",
+    opt_p2w: "Hero Pass / Spender",
+    opt_p2w_desc: "Purchasing battle passes and regular UR event pulls.",
+    opt_early: "Early Server (Days 1–30)",
+    opt_early_desc: "Game start, Arthur unlocked, prepping for Cynthia on Day 8.",
+    opt_mid: "Mid Game (Days 31–80)",
+    opt_mid_desc: "UR event train, Marlena arrival, pushing core heroes to 8★.",
+    opt_era: "Era of Revival (Days 80+)",
+    opt_era_desc: "Daskal tank, Claire SSR→UR conversion, Raven Epigraphs.",
+    opt_pvp: "PvP Arena, KvK & Raids",
+    opt_pvp_desc: "Burst DPS, crowd control, and neutralizing enemy carries.",
+    opt_pve: "PvE, Undead Siege & Bosses",
+    opt_pve_desc: "Maximum sustain, shielding, and clearing all 20 undead waves.",
+    opt_bal: "Balanced All-Rounder",
+    opt_bal_desc: "A versatile daily squad that thrives across all game modes.",
+    resultTitle: "Your Recommended Squad Formation:",
+    openBuilder: "Open Setup in Squad Builder ↗",
+    frontline: "Frontline (Tanks):",
+    backline: "Backline (DPS & Support):",
+    mistakeTitle: "Single Biggest Mistake to Avoid:",
+  },
+};
+
+const L = dict[lang] ?? dict.en;
+---
+
+<div class="squad-quiz not-prose my-10 rounded-3xl border border-toxic-500/20 bg-stone-950/80 p-6 sm:p-8 backdrop-blur-xl shadow-[0_0_40px_rgba(0,0,0,0.5)]" id="squad-quiz">
+  <div class="flex items-center gap-3 border-b border-stone-800 pb-5 mb-6">
+    <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-toxic-500/10 border border-toxic-400/30 text-2xl shadow-[0_0_20px_rgba(180,255,57,0.15)]">
+      🎯
+    </div>
+    <div>
+      <h3 class="text-xl sm:text-2xl font-bold text-white tracking-tight">{L.title}</h3>
+      <p class="text-xs sm:text-sm text-stone-400 mt-1">{L.subtitle}</p>
+    </div>
+  </div>
+
+  <!-- Interactive Steps Form -->
+  <form id="quiz-form" class="space-y-6">
+    <!-- Step 1: Budget -->
+    <div class="space-y-2.5">
+      <label class="block text-sm font-bold text-white">
+        {L.q1} <span class="text-xs font-normal text-stone-400">({L.q1_sub})</span>
+      </label>
+      <div class="grid gap-2.5 sm:grid-cols-3">
+        <label class="quiz-option relative flex flex-col justify-between rounded-xl border border-stone-800 bg-stone-900/60 p-3.5 cursor-pointer hover:border-toxic-500/50 transition">
+          <div class="flex items-center justify-between mb-1">
+            <span class="text-xs font-bold text-white">🌱 {L.opt_f2p}</span>
+            <input type="radio" name="budget" value="f2p" checked class="accent-toxic-400" />
+          </div>
+          <p class="text-[11px] text-stone-400">{L.opt_f2p_desc}</p>
+        </label>
+
+        <label class="quiz-option relative flex flex-col justify-between rounded-xl border border-stone-800 bg-stone-900/60 p-3.5 cursor-pointer hover:border-toxic-500/50 transition">
+          <div class="flex items-center justify-between mb-1">
+            <span class="text-xs font-bold text-toxic-300">⭐ {L.opt_micro}</span>
+            <input type="radio" name="budget" value="micro" class="accent-toxic-400" />
+          </div>
+          <p class="text-[11px] text-stone-400">{L.opt_micro_desc}</p>
+        </label>
+
+        <label class="quiz-option relative flex flex-col justify-between rounded-xl border border-stone-800 bg-stone-900/60 p-3.5 cursor-pointer hover:border-toxic-500/50 transition">
+          <div class="flex items-center justify-between mb-1">
+            <span class="text-xs font-bold text-amber-300">💎 {L.opt_p2w}</span>
+            <input type="radio" name="budget" value="p2w" class="accent-toxic-400" />
+          </div>
+          <p class="text-[11px] text-stone-400">{L.opt_p2w_desc}</p>
+        </label>
+      </div>
+    </div>
+
+    <!-- Step 2: Server Age -->
+    <div class="space-y-2.5">
+      <label class="block text-sm font-bold text-white">
+        {L.q2} <span class="text-xs font-normal text-stone-400">({L.q2_sub})</span>
+      </label>
+      <div class="grid gap-2.5 sm:grid-cols-3">
+        <label class="quiz-option relative flex flex-col justify-between rounded-xl border border-stone-800 bg-stone-900/60 p-3.5 cursor-pointer hover:border-toxic-500/50 transition">
+          <div class="flex items-center justify-between mb-1">
+            <span class="text-xs font-bold text-white">🐣 {L.opt_early}</span>
+            <input type="radio" name="server" value="early" class="accent-toxic-400" />
+          </div>
+          <p class="text-[11px] text-stone-400">{L.opt_early_desc}</p>
+        </label>
+
+        <label class="quiz-option relative flex flex-col justify-between rounded-xl border border-stone-800 bg-stone-900/60 p-3.5 cursor-pointer hover:border-toxic-500/50 transition">
+          <div class="flex items-center justify-between mb-1">
+            <span class="text-xs font-bold text-white">⚔️ {L.opt_mid}</span>
+            <input type="radio" name="server" value="mid" checked class="accent-toxic-400" />
+          </div>
+          <p class="text-[11px] text-stone-400">{L.opt_mid_desc}</p>
+        </label>
+
+        <label class="quiz-option relative flex flex-col justify-between rounded-xl border border-stone-800 bg-stone-900/60 p-3.5 cursor-pointer hover:border-toxic-500/50 transition">
+          <div class="flex items-center justify-between mb-1">
+            <span class="text-xs font-bold text-white">🌅 {L.opt_era}</span>
+            <input type="radio" name="server" value="era" class="accent-toxic-400" />
+          </div>
+          <p class="text-[11px] text-stone-400">{L.opt_era_desc}</p>
+        </label>
+      </div>
+    </div>
+
+    <!-- Step 3: Priority -->
+    <div class="space-y-2.5">
+      <label class="block text-sm font-bold text-white">
+        {L.q3} <span class="text-xs font-normal text-stone-400">({L.q3_sub})</span>
+      </label>
+      <div class="grid gap-2.5 sm:grid-cols-3">
+        <label class="quiz-option relative flex flex-col justify-between rounded-xl border border-stone-800 bg-stone-900/60 p-3.5 cursor-pointer hover:border-toxic-500/50 transition">
+          <div class="flex items-center justify-between mb-1">
+            <span class="text-xs font-bold text-white">🏆 {L.opt_pvp}</span>
+            <input type="radio" name="focus" value="pvp" class="accent-toxic-400" />
+          </div>
+          <p class="text-[11px] text-stone-400">{L.opt_pvp_desc}</p>
+        </label>
+
+        <label class="quiz-option relative flex flex-col justify-between rounded-xl border border-stone-800 bg-stone-900/60 p-3.5 cursor-pointer hover:border-toxic-500/50 transition">
+          <div class="flex items-center justify-between mb-1">
+            <span class="text-xs font-bold text-white">🛡️ {L.opt_pve}</span>
+            <input type="radio" name="focus" value="pve" class="accent-toxic-400" />
+          </div>
+          <p class="text-[11px] text-stone-400">{L.opt_pve_desc}</p>
+        </label>
+
+        <label class="quiz-option relative flex flex-col justify-between rounded-xl border border-stone-800 bg-stone-900/60 p-3.5 cursor-pointer hover:border-toxic-500/50 transition">
+          <div class="flex items-center justify-between mb-1">
+            <span class="text-xs font-bold text-white">⚖️ {L.opt_bal}</span>
+            <input type="radio" name="focus" value="bal" checked class="accent-toxic-400" />
+          </div>
+          <p class="text-[11px] text-stone-400">{L.opt_bal_desc}</p>
+        </label>
+      </div>
+    </div>
+  </form>
+
+  <!-- Realtime Calculated Result Card -->
+  <div id="quiz-result" class="mt-8 rounded-2xl border border-toxic-400/40 bg-gradient-to-br from-toxic-500/10 via-stone-900 to-black p-5 sm:p-6 shadow-[0_0_30px_rgba(180,255,57,0.1)]">
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-toxic-500/20 pb-4 mb-4">
+      <div>
+        <span class="text-[10px] font-mono uppercase tracking-widest text-toxic-400 font-bold">Recommended Build</span>
+        <h4 id="res-squad-name" class="text-lg sm:text-xl font-extrabold text-white">...</h4>
+      </div>
+      <a
+        id="res-builder-link"
+        href="#squad-builder"
+        class="inline-flex items-center justify-center gap-1.5 rounded-xl bg-toxic-400 px-4 py-2 text-xs font-bold text-black hover:bg-toxic-300 transition shadow-[0_0_15px_rgba(180,255,57,0.3)] shrink-0"
+      >
+        {L.openBuilder}
+      </a>
+    </div>
+
+    <!-- Squad Lineup Display -->
+    <div class="grid gap-4 sm:grid-cols-2 mb-5">
+      <div class="rounded-xl border border-stone-800 bg-stone-950/60 p-3.5">
+        <span class="text-xs font-bold text-red-300 block mb-2">{L.frontline}</span>
+        <div id="res-frontline" class="flex items-center gap-2"></div>
+      </div>
+      <div class="rounded-xl border border-stone-800 bg-stone-950/60 p-3.5">
+        <span class="text-xs font-bold text-toxic-300 block mb-2">{L.backline}</span>
+        <div id="res-backline" class="flex items-center gap-2"></div>
+      </div>
+    </div>
+
+    <!-- Strategy Insight & Mistake -->
+    <div class="space-y-2 text-xs">
+      <p id="res-strategy" class="text-stone-300 leading-relaxed"></p>
+      <div class="rounded-xl border border-amber-500/30 bg-amber-500/10 p-3 text-amber-200">
+        <strong class="font-bold text-amber-300">⚠️ {L.mistakeTitle}</strong>
+        <span id="res-mistake" class="ml-1"></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  interface SquadResult {
+    nameRu: string;
+    nameEn: string;
+    front: string[];
+    back: string[];
+    strategyRu: string;
+    strategyEn: string;
+    mistakeRu: string;
+    mistakeEn: string;
+    squadParam: string;
+  }
+
+  const resultsMap: Record<string, SquadResult> = {
+    // 1. Early F2P / Micro
+    "f2p-early-bal": {
+      nameRu: "Arthur Starter Core (Ранний старт)",
+      nameEn: "Arthur Starter Core (Early Game)",
+      front: ["Arthur (UR)", "Bella (SSR)"],
+      back: ["Claire (SSR)", "Celia (SSR)", "Kesso (SSR)"],
+      strategyRu: "Артур принимает весь основной урон. Клэр и Селия наносят урон из тыла. Копите все алмазы на 8-й день для Колеса Синтии!",
+      strategyEn: "Arthur absorbs frontline punishment while Claire and Celia deal backline damage. Hoard all diamonds for Cynthia's Lucky Wheel on Day 8!",
+      mistakeRu: "Никогда не тратьте алмазы в Таверне до 8-го дня.",
+      mistakeEn: "Never spend diamonds in the Tavern before Day 8.",
+      squadParam: "arthur,bella,claire,celia,kesso"
+    },
+    // 2. Canonical F2P Mid
+    "f2p-mid-bal": {
+      nameRu: "Canonical F2P Warrior Core (Каноничный строй)",
+      nameEn: "Canonical F2P Warrior Core",
+      front: ["Arthur (UR)", "Lucius (SSR)"],
+      back: ["Claire (SSR)", "Harper (UR 8★)", "Bell (SSR)"],
+      strategyRu: "Связка щитов Артура и Люциуса держит фронт. Харпер разгоняет урон Клэр ультимейтом в 4 раза.",
+      strategyEn: "Arthur and Lucius shields hold the frontline while Harper amplifies Claire's damage 4x with ultimate synergy.",
+      mistakeRu: "Не качайте второстепенных героев выше 40 уровня — берегите Противоядия для Артура и Харпера.",
+      mistakeEn: "Do not level secondary heroes past Lv.40 — save Antidotes for Arthur and Harper.",
+      squadParam: "arthur,lucius,claire,harper,bell"
+    },
+    // 3. Canonical $1 Marlena Mid/Era
+    "micro-mid-bal": {
+      nameRu: "S-Tier Marlena Carry (Билд за $1)",
+      nameEn: "S-Tier Marlena Carry ($1 Build)",
+      front: ["Arthur (UR)", "Daskal (UR)"],
+      back: ["Marlena (UR 85% Dmg)", "Harper (UR)", "Claire (SSR)"],
+      strategyRu: "Марлена наносит 85% суммарного урона пачки. Артур и Даскал создают непробиваемый щит. Моно-бонус Воинов +20%.",
+      strategyEn: "Marlena deals 85% of total squad damage. Arthur and Daskal provide an impenetrable wall. +20% Mono-Warrior faction bonus.",
+      mistakeRu: "Не распыляйте UR-осколки на других героев — только Marlena до 8★ и выше.",
+      mistakeEn: "Never dilute UR universal shards across multiple heroes — all in on Marlena to 8★+.",
+      squadParam: "arthur,daskal,marlena,harper,claire"
+    },
+    // 4. Era of Revival Late Game
+    "micro-era-bal": {
+      nameRu: "Absolute Mono-Warrior Meta (Эра Возрождения)",
+      nameEn: "Absolute Mono-Warrior Meta (Era of Revival)",
+      front: ["Arthur (UR 10★)", "Daskal (UR 10★)"],
+      back: ["Marlena (UR 10★)", "Harper (UR 10★)", "Claire (UR 10★)"],
+      strategyRu: "Полная синергия 5 Воинов с максимальными Эпиграфами Ворона. Клэр сконвертирована на 10★ с навыком Adv. Tenacity.",
+      strategyEn: "Full 5-Warrior synergy with maxed Raven Epigraphs. Claire converted to UR at 10★ with Adv. Tenacity skill unlocked.",
+      mistakeRu: "Не конвертируйте Клэр на 6★ без запаса осколков Зала Чести — сначала накопите на 9★-10★.",
+      mistakeEn: "Do not convert Claire to UR at 6★ without Hall of Fame shard reserves — save up for 9★-10★ jump first.",
+      squadParam: "arthur,daskal,marlena,harper,claire"
+    },
+    // 5. Spender PvP Burst
+    "p2w-mid-pvp": {
+      nameRu: "Ranger Burst & Warlock CC (PvP Доминация)",
+      nameEn: "Ranger Burst & Warlock CC (PvP Domination)",
+      front: ["Arthur (UR)", "Daskal (UR)"],
+      back: ["Cynthia (UR)", "Zoya (UR)", "Annie (UR)"],
+      strategyRu: "Синтия и Зоя дают колоссальный взрывной урон по задней линии врага, а Энни накладывает оглушение и замедление.",
+      strategyEn: "Cynthia and Zoya unleash devastating burst damage across backline rows, while Annie inflicts stuns and slows.",
+      mistakeRu: "Избегайте боёв против чистых Воинов без предварительного контроля передней линии.",
+      mistakeEn: "Avoid facing pure Mono-Warrior defenses without dedicated frontline crowd control.",
+      squadParam: "arthur,daskal,cynthia,zoya,annie"
+    }
+  };
+
+  const defaultResult: SquadResult = resultsMap["micro-mid-bal"];
+  let currentSquadParam = defaultResult.squadParam;
+
+  function updateQuiz() {
+    const form = document.getElementById("quiz-form") as HTMLFormElement | null;
+    if (!form) return;
+
+    const isRu = (document.documentElement.lang || '').startsWith('ru');
+    const data = new FormData(form);
+    const b = (data.get("budget") as string) || "micro";
+    const s = (data.get("server") as string) || "mid";
+    const f = (data.get("focus") as string) || "bal";
+
+    let key = `${b}-${s}-${f}`;
+    let res = resultsMap[key];
+
+    if (!res) {
+      if (b === "p2w") res = resultsMap["p2w-mid-pvp"];
+      else if (s === "era") res = resultsMap["micro-era-bal"];
+      else if (s === "early") res = resultsMap["f2p-early-bal"];
+      else if (b === "f2p") res = resultsMap["f2p-mid-bal"];
+      else res = defaultResult;
+    }
+
+    currentSquadParam = res.squadParam;
+
+    const nameEl = document.getElementById("res-squad-name");
+    const frontEl = document.getElementById("res-frontline");
+    const backEl = document.getElementById("res-backline");
+    const stratEl = document.getElementById("res-strategy");
+    const mistEl = document.getElementById("res-mistake");
+    const linkEl = document.getElementById("res-builder-link") as HTMLAnchorElement | null;
+
+    if (nameEl) nameEl.textContent = isRu ? res.nameRu : res.nameEn;
+    if (stratEl) stratEl.textContent = isRu ? res.strategyRu : res.strategyEn;
+    if (mistEl) mistEl.textContent = isRu ? res.mistakeRu : res.mistakeEn;
+
+    if (frontEl) {
+      frontEl.innerHTML = res.front.map(h => `<span class="rounded-lg bg-red-950/60 border border-red-500/30 px-2 py-1 text-[11px] font-bold text-red-200">🛡️ ${h}</span>`).join("");
+    }
+    if (backEl) {
+      backEl.innerHTML = res.back.map(h => `<span class="rounded-lg bg-toxic-950/60 border border-toxic-500/30 px-2 py-1 text-[11px] font-bold text-toxic-200">⚔️ ${h}</span>`).join("");
+    }
+
+    if (linkEl) {
+      const cleanPath = window.location.pathname.replace(/\/$/, '');
+      linkEl.href = `${cleanPath}/?squad=${res.squadParam}#squad-builder`;
+    }
+  }
+
+  // Handle direct click on builder link to load into active builder smoothly
+  document.getElementById("res-builder-link")?.addEventListener("click", (e) => {
+    const sb = document.getElementById("squad-builder");
+    if (sb) {
+      e.preventDefault();
+      window.dispatchEvent(new CustomEvent("lap-load-squad", { detail: { slugs: currentSquadParam } }));
+      const url = new URL(window.location.href);
+      url.searchParams.set("squad", currentSquadParam);
+      window.history.replaceState({}, "", url.toString());
+      sb.scrollIntoView({ behavior: "smooth" });
+    }
+  });
+
+  document.querySelectorAll("#quiz-form input").forEach(el => {
+    el.addEventListener("change", updateQuiz);
+  });
+
+  updateQuiz();
+</script>
