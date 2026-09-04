@@ -15,46 +15,88 @@ export function getStaticPaths() {
 }
 
 const { hero } = Astro.props;
+
+const L = {
+  home: 'Início',
+  codex: 'Códice de heróis',
+  howToGet: 'Como obter',
+  skills: 'Habilidades importantes',
+  build: 'Prioridades de evolução',
+  teams: 'Notas de equipe',
+  video: 'Guia em vídeo',
+  allHeroes: '← Todos os heróis',
+  termsNote: 'Termos conforme a versão inglesa do jogo.',
+};
 ---
 
-<Base lang={lang} path={`/codex/${hero.slug}/`} title={`${hero.name} вЂ” Hero Guide`} description={hero.role}>
+<Base lang={lang} path={`/pt/codex/${hero.slug}/`} title={`${hero.name} — Guia de herói`} description={hero.role}>
   <GuidePage
     title={hero.name}
     description={hero.role}
     lang={lang}
-    breadcrumbs={[{ label: 'InГ­cio', href: '/pt/' }, { label: 'CГіdice de herГіis', href: '/pt/codex/' }, { label: hero.name }]}
+    breadcrumbs={[{ label: L.home, href: '/pt/' }, { label: L.codex, href: '/pt/codex/' }, { label: hero.name }]}
   >
     <div class="not-prose mb-6 flex flex-wrap items-center gap-2">
-      <span class={`rounded px-2.5 py-1 text-sm font-bold ${hero.tier === 'S' ? 'bg-red-900/40 text-red-300' : hero.tier === 'A' ? 'bg-amber-900/40 text-amber-300' : 'bg-sky-900/40 text-sky-300'}`}>{hero.tier}</span>
-      <span class="rounded bg-stone-800 px-2.5 py-1 text-sm text-plague-200">{hero.rarity}</span>
-      <span class="rounded bg-stone-800 px-2.5 py-1 text-sm text-stone-300">{hero.faction}</span>
-      <span class="rounded bg-stone-800 px-2.5 py-1 text-sm text-stone-300">{hero.className}</span>
+      <span class={`rounded-lg px-2.5 py-1 text-xs font-bold ${hero.tier === 'S' ? 'bg-red-950/80 border border-red-500/40 text-red-300 shadow-[0_0_12px_rgba(239,68,68,0.2)]' : hero.tier === 'A' ? 'bg-amber-950/80 border border-amber-500/40 text-amber-300' : 'bg-sky-950/80 border border-sky-500/40 text-sky-300'}`}>{hero.tier} Tier</span>
+      <span class="rounded-lg bg-stone-900 border border-stone-800 px-2.5 py-1 text-xs font-semibold text-plague-300">{hero.rarity}</span>
+      <span class="rounded-lg bg-stone-900 border border-stone-800 px-2.5 py-1 text-xs text-stone-300">{hero.faction}</span>
+      <span class="rounded-lg bg-stone-900 border border-stone-800 px-2.5 py-1 text-xs text-stone-400">{hero.className}</span>
     </div>
-    <p class="text-sm text-stone-500">Termos conforme a versГЈo inglesa do jogo.</p>
+    <p class="text-sm text-stone-500">{L.termsNote}</p>
 
-    <h2 id="how-to-get">Como obter</h2>
+    <h2 id="how-to-get">{L.howToGet}</h2>
     <p>{hero.howToGet}</p>
 
-    <h2 id="skills">Habilidades importantes</h2>
+    <h2 id="skills">{L.skills}</h2>
     <div class="not-prose my-4 space-y-3">
       {hero.skills.map((s) => (
-        <div class="rounded-lg border border-stone-800 bg-stone-900 p-4">
+        <div class="rounded-xl border border-stone-800/90 bg-stone-900/60 p-4 transition-colors hover:border-stone-700">
           <p class="font-bold text-plague-200">{s.name}</p>
-          <p class="mt-1 text-sm text-stone-400">{s.desc}</p>
+          <p class="mt-1 text-sm text-stone-400 leading-relaxed">{s.desc}</p>
         </div>
       ))}
     </div>
 
-    <h2 id="build">Prioridades</h2>
+    <h2 id="build">{L.build}</h2>
     <ul>
       {hero.buildTips.map((tip) => <li>{tip}</li>)}
     </ul>
 
-    <h2 id="teams">Notas de equipe</h2>
+    <h2 id="teams">{L.teams}</h2>
     <p>{hero.teamNotes}</p>
 
-    <p class="mt-8"><a href="/pt/codex/">в†ђ Todos os herГіis</a></p>
+    {hero.video && (
+      <div class="not-prose my-8">
+        <h2 class="mb-4 text-xl font-bold text-plague-200">{L.video}</h2>
+        <div class="js-video-facade group relative max-w-lg cursor-pointer overflow-hidden rounded-xl border border-stone-800 hover:border-plague-500 transition shadow-xl" data-video-id={hero.video} role="button" tabindex="0" aria-label="Play video">
+          <span class="block aspect-video overflow-hidden bg-stone-900">
+            <img src={`https://i.ytimg.com/vi/${hero.video}/hqdefault.jpg`} alt="Video guide" loading="lazy" class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105" />
+          </span>
+          <span class="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/40 transition-opacity group-hover:bg-black/25">
+            <span class="flex h-12 w-12 items-center justify-center rounded-full bg-blood-600/90 text-white text-lg pl-0.5 shadow-[0_0_20px_rgba(225,29,72,0.6)] group-hover:scale-110 transition-transform">▶</span>
+          </span>
+        </div>
+      </div>
+    )}
+
+    <p class="mt-8"><a href={`/pt/codex/`}>{L.allHeroes}</a></p>
 
     <DiscordBanner lang={lang} />
   </GuidePage>
 </Base>
+
+<script>
+  document.querySelectorAll('.js-video-facade').forEach((el) => {
+    el.addEventListener('click', () => {
+      const id = (el as HTMLElement).dataset.videoId;
+      if (!id) return;
+      const frame = document.createElement('iframe');
+      frame.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1`;
+      frame.title = 'Video guide';
+      frame.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      frame.allowFullscreen = true;
+      frame.className = 'aspect-video w-full max-w-lg rounded-lg';
+      el.replaceWith(frame);
+    });
+  });
+</script>

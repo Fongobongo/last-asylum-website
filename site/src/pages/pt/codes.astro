@@ -8,16 +8,15 @@ import type { Lang } from '../../i18n/utils';
 const lang: Lang = 'pt';
 ---
 
-<Base lang={lang} path="/pt/codes/" title="Códigos de presente" description="Códigos de presente ativos e históricos para Last Asylum: Plague — atualizados após cada entrega oficial.">
-  <GuidePage title="🎁 Códigos de presente" description="Códigos de presente ativos e históricos para Last Asylum: Plague — atualizados após cada entrega oficial. Resgate no jogo (Avatar → Configurações → Código de Presente) ou pela página web oficial para iOS." lang={lang}>
-    <h2 id="latest-codes">Últimos códigos</h2>
+<Base lang={lang} path="/pt/codes/" title={t(lang, 'codes.title')} description={t(lang, 'codes.desc')}>
+  <GuidePage title={`🎁 ${t(lang, 'codes.title')}`} description={t(lang, 'codes.desc')} lang={lang}>
+    <h2 id="latest-codes">{t(lang, 'codes.active')}</h2>
     <GiftCodes lang={lang} />
 
-    <h2 id="how-to-redeem">Como resgatar</h2>
-    <p>Android / no jogo: toque no seu Avatar (canto superior esquerdo) → Configurações → Código de Presente → insira o código.</p>
-    <p>iOS: use a página web oficial — faça login com sua conta vinculada do Facebook/Google, escolha servidor e personagem, e insira o código.</p>
+    <h2 id="how-to-redeem">{t(lang, 'codes.redeem')}</h2>
+    <p>{t(lang, 'codes.redeem.android')}</p>
+    <p>{t(lang, 'codes.redeem.ios')}</p>
 
-    <h2 id="notes">Notas</h2>
-    <p>Os códigos valem para todas as regiões, mas normalmente são um por conta e por tempo limitado.</p>
+    <h2 id="notes">{t(lang, 'codes.note')}</h2>
   </GuidePage>
 </Base>

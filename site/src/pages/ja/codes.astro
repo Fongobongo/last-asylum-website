@@ -8,16 +8,15 @@ import type { Lang } from '../../i18n/utils';
 const lang: Lang = 'ja';
 ---
 
-<Base lang={lang} path="/ja/codes/" title="ギフトコード" description="Last Asylum: Plague の有効なギフトコードと過去のコード — 公式ドロップのたびに更新。">
-  <GuidePage title="🎁 ギフトコード" description="Last Asylum: Plague の有効なギフトコードと過去のコード — 公式ドロップのたびに更新。" lang={lang}>
-    <h2 id="latest-codes">最新コード</h2>
+<Base lang={lang} path="/ja/codes/" title={t(lang, 'codes.title')} description={t(lang, 'codes.desc')}>
+  <GuidePage title={`🎁 ${t(lang, 'codes.title')}`} description={t(lang, 'codes.desc')} lang={lang}>
+    <h2 id="latest-codes">{t(lang, 'codes.active')}</h2>
     <GiftCodes lang={lang} />
 
-    <h2 id="how-to-redeem">引き換え方法</h2>
-    <p>Android / ゲーム内:画面左上のアバターをタップ → 設定 → ギフトコード → コードを入力。</p>
-    <p>iOS:公式の引き換えウェブページを使用 — 連携済みのFacebook/Googleアカウントでログインし、サーバーとキャラクターを選択してコードを入力。</p>
+    <h2 id="how-to-redeem">{t(lang, 'codes.redeem')}</h2>
+    <p>{t(lang, 'codes.redeem.android')}</p>
+    <p>{t(lang, 'codes.redeem.ios')}</p>
 
-    <h2 id="notes">注意</h2>
-    <p>コードは地域制限なしですが、通常はアカウント1つにつき1回です。</p>
+    <h2 id="notes">{t(lang, 'codes.note')}</h2>
   </GuidePage>
 </Base>

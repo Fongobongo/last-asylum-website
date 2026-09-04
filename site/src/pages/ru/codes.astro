@@ -8,7 +8,7 @@ import type { Lang } from '../../i18n/utils';
 const lang: Lang = 'ru';
 ---
 
-<Base lang={lang} path="/codes/" title="Промокоды" description="Актуальные рабочие промокоды для Last Asylum: Plague.">
+<Base lang={lang} path="/ru/codes/" title={t(lang, 'codes.title')} description={t(lang, 'codes.desc')}>
   <GuidePage title={`🎁 ${t(lang, 'codes.title')}`} description={t(lang, 'codes.desc')} lang={lang}>
     <h2 id="latest-codes">{t(lang, 'codes.active')}</h2>
     <GiftCodes lang={lang} />

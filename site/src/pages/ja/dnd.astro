@@ -1,0 +1,19 @@
+---
+// Hidden Guild / Alliance Headquarters: /ja/dnd/
+// - Not in sitemap (excluded)
+// - noindex meta
+// - Cookie-based in-game nickname authorization
+// - Tactical polls creation and voting system
+// - Content encrypted with AES-GCM (DND collection)
+import Base from '../../layouts/Base.astro';
+import GuildHub from '../../components/GuildHub.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ja';
+---
+
+<Base lang={lang} path="/ja/dnd/" title="同盟本部 | DND Hub" description="同盟の機密作戦、戦術投票、防衛指令" noindex={true}>
+  <section class="py-8 sm:py-12">
+    <GuildHub lang={lang} />
+  </section>
+</Base>

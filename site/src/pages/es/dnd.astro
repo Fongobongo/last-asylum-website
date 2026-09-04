@@ -1,0 +1,19 @@
+---
+// Hidden Guild / Alliance Headquarters: /es/dnd/
+// - Not in sitemap (excluded)
+// - noindex meta
+// - Cookie-based in-game nickname authorization
+// - Tactical polls creation and voting system
+// - Content encrypted with AES-GCM (DND collection)
+import Base from '../../layouts/Base.astro';
+import GuildHub from '../../components/GuildHub.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'es';
+---
+
+<Base lang={lang} path="/es/dnd/" title="Cuartel de Alianza | DND Hub" description="Operaciones secretas de la alianza, encuestas tácticas y directivas" noindex={true}>
+  <section class="py-8 sm:py-12">
+    <GuildHub lang={lang} />
+  </section>
+</Base>

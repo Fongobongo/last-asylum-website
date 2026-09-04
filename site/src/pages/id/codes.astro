@@ -8,7 +8,7 @@ import type { Lang } from '../../i18n/utils';
 const lang: Lang = 'id';
 ---
 
-<Base lang={lang} path="/id/codes/" title="Kode Hadiah" description="Kode hadiah aktif dan historis untuk Last Asylum: Plague — diperbarui setelah setiap rilis resmi.">
+<Base lang={lang} path="/id/codes/" title={t(lang, 'codes.title')} description={t(lang, 'codes.desc')}>
   <GuidePage title={`🎁 ${t(lang, 'codes.title')}`} description={t(lang, 'codes.desc')} lang={lang}>
     <h2 id="latest-codes">{t(lang, 'codes.active')}</h2>
     <GiftCodes lang={lang} />
@@ -18,6 +18,5 @@ const lang: Lang = 'id';
     <p>{t(lang, 'codes.redeem.ios')}</p>
 
     <h2 id="notes">{t(lang, 'codes.note')}</h2>
-    <p>Kode berlaku di semua region tetapi biasanya satu per akun.</p>
   </GuidePage>
 </Base>

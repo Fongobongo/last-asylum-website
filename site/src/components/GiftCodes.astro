@@ -7,22 +7,64 @@ interface Props {
 
 const { lang = 'en' } = Astro.props;
 
-const labels =
-  lang === 'ru'
-    ? {
-        copy: 'Копировать',
-        copied: '✓ Скопировано',
-        expired: 'Архивные коды (вероятно, истекли)',
-        webTitle: 'Активация через сайт (для iPhone / iOS и Android):',
-        iosTip: 'Инструкция для iPhone (iOS): в самом приложении на iOS нет кнопки ввода кода из-за правил Apple. Откройте официальную веб-страницу активации по ссылке выше, войдите в привязанный аккаунт, выберите свой сервер и персонажа, введите код — награды сразу поступят на игровую почту.',
-      }
-    : {
-        copy: 'Copy',
-        copied: '✓ Copied',
-        expired: 'Older codes (probably expired)',
-        webTitle: 'Web redemption (for iPhone / iOS & Android):',
-        iosTip: 'iPhone / iOS guide: There is no in-app promo code button on iOS devices due to Apple policy. Open the official web redemption page above, sign in with your linked account, select your server and character, submit the code, and claim rewards via your in-game mailbox.',
-      };
+const dict: Record<string, { copy: string; copied: string; webTitle: string; iosTip: string }> = {
+  ru: {
+    copy: 'Копировать',
+    copied: '✓ Скопировано',
+    webTitle: 'Активация через сайт (для iPhone / iOS и Android):',
+    iosTip: 'Инструкция для iPhone (iOS): в самом приложении на iOS нет кнопки ввода кода из-за правил Apple. Откройте официальную веб-страницу активации по ссылке выше, войдите в привязанный аккаунт, выберите свой сервер и персонажа, введите код — награды сразу поступят на игровую почту.',
+  },
+  de: {
+    copy: 'Kopieren',
+    copied: '✓ Kopiert',
+    webTitle: 'Einlösung per Website (für iPhone / iOS & Android):',
+    iosTip: 'iPhone / iOS Anleitung: In der iOS-App gibt es aufgrund von Apple-Richtlinien keine Schaltfläche für Geschenkcodes. Öffne die offizielle Einlösungsseite oben, melde dich mit deinem verknüpften Konto an, wähle Server und Charakter, gib den Code ein und hole die Belohnung im Spiel-Postfach ab.',
+  },
+  es: {
+    copy: 'Copiar',
+    copied: '✓ Copiado',
+    webTitle: 'Canje vía web (para iPhone / iOS y Android):',
+    iosTip: 'Guía para iPhone (iOS): En iOS no hay botón dentro de la aplicación debido a políticas de Apple. Abre la página oficial de canje arriba, inicia sesión con tu cuenta vinculada, elige servidor y personaje, canjea el código y recoge las recompensas en tu buzón del juego.',
+  },
+  fr: {
+    copy: 'Copier',
+    copied: '✓ Copié',
+    webTitle: 'Échange via le web (pour iPhone / iOS et Android) :',
+    iosTip: "Guide iPhone (iOS) : L'application iOS ne comporte pas de bouton d'échange en raison des règles d'Apple. Ouvrez la page web officielle ci-dessus, connectez-vous avec votre compte lié, choisissez serveur et personnage, saisissez le code et recevez les récompenses par courrier en jeu.",
+  },
+  id: {
+    copy: 'Salin',
+    copied: '✓ Tersalin',
+    webTitle: 'Penukaran via web (untuk iPhone / iOS & Android):',
+    iosTip: 'Panduan iPhone / iOS: Tidak ada tombol kode hadiah di dalam aplikasi iOS karena kebijakan Apple. Buka halaman penukaran resmi di atas, masuk dengan akun tertaut Anda, pilih server dan karakter, masukkan kode, lalu ambil hadiah di kotak masuk dalam game.',
+  },
+  ja: {
+    copy: 'コピー',
+    copied: '✓ コピー完了',
+    webTitle: 'ウェブ交換ページ（iPhone / iOS & Android対応）：',
+    iosTip: 'iPhone / iOS向け手順：Appleの規約により、iOSアプリ内にはコード入力欄がありません。上記の公式ウェブ交換ページを開き、連携済みアカウントでログイン後、サーバーとキャラクターを選択してコードを入力してください。報酬はゲーム内メールに届きます。',
+  },
+  ko: {
+    copy: '복사',
+    copied: '✓ 복사됨',
+    webTitle: '웹사이트 교환 (iPhone / iOS 및 Android 공용):',
+    iosTip: 'iPhone (iOS) 가이드: Apple 정책으로 인해 iOS 앱 내에는 선물 코드 입력 버튼이 없습니다. 위 공식 웹 교환 페이지를 열고 연동 계정으로 로그인한 뒤, 서버와 캐릭터를 선택하고 코드를 입력하면 게임 내 우편으로 보상이 지급됩니다.',
+  },
+  pt: {
+    copy: 'Copiar',
+    copied: '✓ Copiado',
+    webTitle: 'Resgate via web (para iPhone / iOS e Android):',
+    iosTip: 'Guia para iPhone / iOS: Não há botão de código dentro do aplicativo iOS devido às regras da Apple. Abra a página oficial de resgate acima, faça login com sua conta vinculada, selecione servidor e personagem, insira o código e colete as recompensas no correio do jogo.',
+  },
+  en: {
+    copy: 'Copy',
+    copied: '✓ Copied',
+    webTitle: 'Web redemption (for iPhone / iOS & Android):',
+    iosTip: 'iPhone / iOS guide: There is no in-app promo code button on iOS devices due to Apple policy. Open the official web redemption page above, sign in with your linked account, select your server and character, submit the code, and claim rewards via your in-game mailbox.',
+  },
+};
+
+const labels = dict[lang] ?? dict.en;
 ---
 
 <div class="not-prose my-6">
@@ -48,32 +90,6 @@ const labels =
       </div>
     ))}
   </div>
-
-  <details class="group rounded-xl border border-stone-800 bg-stone-900/40 p-4 transition-colors hover:border-stone-700">
-    <summary class="flex cursor-pointer select-none items-center justify-between font-semibold text-stone-300">
-      <span>📦 {labels.expired}</span>
-      <span class="text-xs text-stone-500 group-open:rotate-180 transition-transform">▾</span>
-    </summary>
-    <div class="mt-4 grid gap-2.5 sm:grid-cols-2 lg:grid-cols-3">
-      {giftCodes.filter((c) => !c.active).map((c) => (
-        <div class="flex items-center justify-between gap-3 rounded-lg border border-stone-800/80 bg-stone-950/60 px-3.5 py-2.5 opacity-70 hover:opacity-100 transition-opacity">
-          <div>
-            <code class="font-mono font-bold tracking-wider text-stone-400">{c.code}</code>
-            {c.note && <span class="ml-2 text-xs text-stone-500">{c.note}</span>}
-            <p class="text-[11px] text-stone-600">{c.date}</p>
-          </div>
-          <button
-            class="js-copy rounded-md border border-stone-700/80 bg-stone-900 px-2.5 py-1 text-xs text-stone-400 transition hover:bg-stone-800 hover:text-white"
-            data-code={c.code}
-            data-label-copy={labels.copy}
-            data-label-copied={labels.copied}
-          >
-            {labels.copy}
-          </button>
-        </div>
-      ))}
-    </div>
-  </details>
 
   <div class="mt-6 rounded-xl border border-plague-700/50 bg-gradient-to-r from-plague-950/60 via-stone-900 to-stone-950 p-4">
     <p class="text-sm text-stone-300 flex flex-wrap items-center gap-2">

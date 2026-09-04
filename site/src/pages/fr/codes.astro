@@ -8,16 +8,15 @@ import type { Lang } from '../../i18n/utils';
 const lang: Lang = 'fr';
 ---
 
-<Base lang={lang} path="/fr/codes/" title="Codes cadeaux" description="Codes cadeaux actifs et historiques pour Last Asylum: Plague — mis à jour après chaque distribution officielle.">
-  <GuidePage title="🎁 Codes cadeaux" description="Codes cadeaux actifs et historiques pour Last Asylum: Plague — mis à jour après chaque distribution officielle. Échangez-les en jeu (Avatar → Paramètres → Code cadeau) ou via la page web officielle pour iOS." lang={lang}>
-    <h2 id="latest-codes">Derniers codes</h2>
+<Base lang={lang} path="/fr/codes/" title={t(lang, 'codes.title')} description={t(lang, 'codes.desc')}>
+  <GuidePage title={`🎁 ${t(lang, 'codes.title')}`} description={t(lang, 'codes.desc')} lang={lang}>
+    <h2 id="latest-codes">{t(lang, 'codes.active')}</h2>
     <GiftCodes lang={lang} />
 
-    <h2 id="how-to-redeem">Comment échanger</h2>
-    <p>Android / en jeu : touchez votre Avatar (en haut à gauche) → Paramètres → Code cadeau → entrez le code.</p>
-    <p>iOS : utilisez la page web officielle — connectez-vous avec votre compte Facebook/Google lié, choisissez le serveur et le personnage, entrez le code.</p>
+    <h2 id="how-to-redeem">{t(lang, 'codes.redeem')}</h2>
+    <p>{t(lang, 'codes.redeem.android')}</p>
+    <p>{t(lang, 'codes.redeem.ios')}</p>
 
-    <h2 id="notes">À noter</h2>
-    <p>Les codes fonctionnent dans toutes les régions mais sont généralement limités à un par compte et dans le temps.</p>
+    <h2 id="notes">{t(lang, 'codes.note')}</h2>
   </GuidePage>
 </Base>
