@@ -1,0 +1,207 @@
+---
+import Base from '../layouts/Base.astro';
+import { t } from '../i18n/ui';
+import type { Lang } from '../i18n/utils';
+
+interface Section {
+  href: string;
+  icon: string;
+  title: string;
+  key: string;
+  color: string;
+}
+interface Popular {
+  href: string;
+  title: string;
+  desc: string;
+}
+interface Props {
+  lang: Lang;
+  path: string;
+  sections: Section[];
+  popular: Popular[];
+  stats?: { label: string; value: string; sub: string }[];
+}
+
+const { lang, path, sections, popular } = Astro.props;
+const base = lang === 'en' ? '' : `/${lang}`;
+const stats = Astro.props.stats ?? [
+  { label: 'Heroes', value: '28', sub: 'codex' },
+  { label: 'Events', value: '12', sub: 'guides' },
+  { label: 'Codes', value: 'Live', sub: 'daily' },
+];
+---
+
+<Base lang={lang} path={path}>
+  <!-- Hero -->
+  <section class="relative overflow-hidden border-b border-white/[0.06]">
+    <div class="absolute inset-0 -z-10 bg-[#050507]">
+      <img src="/og-cover.png" alt="" class="absolute inset-0 h-full w-full object-cover opacity-[0.07] [mask-image:linear-gradient(to_bottom,black_50%,transparent_100%)]" />
+      <div class="hero-grid absolute inset-0"></div>
+      <div class="aurora absolute -top-48 left-1/2 h-[560px] w-[900px] -translate-x-1/2 rounded-full bg-plague-600/[0.16] blur-[130px]"></div>
+      <div class="aurora aurora-slow absolute -top-20 right-[-10%] h-[420px] w-[520px] rounded-full bg-toxic-500/[0.07] blur-[110px]"></div>
+      <div class="aurora absolute bottom-[-30%] left-[-8%] h-[380px] w-[480px] rounded-full bg-blood-600/[0.05] blur-[120px]"></div>
+      <div class="absolute inset-0 bg-gradient-to-b from-transparent via-[#080807]/40 to-[#080807]"></div>
+    </div>
+
+    <div class="mx-auto max-w-7xl px-4">
+      <div class="grid lg:grid-cols-[1.1fr_0.9fr] gap-10 items-center py-12 sm:py-16">
+        <div>
+          <div class="fade-up inline-flex items-center gap-2.5 rounded-full border border-white/10 glass px-3.5 py-1.5 text-[11px] tracking-[0.18em] uppercase text-stone-400">
+            <span class="relative flex h-2 w-2">
+              <span class="pulse-ring absolute inline-flex h-full w-full rounded-full bg-toxic-400"></span>
+              <span class="relative inline-flex h-2 w-2 rounded-full bg-toxic-400"></span>
+            </span>
+            Survivors • 9 languages • Updated daily
+          </div>
+
+          <h1 class="fade-up fade-up-1 mt-6 display text-[44px] sm:text-[68px] text-white leading-[0.92]">
+            {t(lang, 'home.hero.title').split(' ').slice(0, -1).join(' ')}<br/>
+            <span class="text-grad">{t(lang, 'home.hero.title').split(' ').slice(-1)}</span>
+          </h1>
+
+          <p class="fade-up fade-up-2 mt-5 max-w-xl text-[15.5px] leading-7 text-stone-400">
+            {t(lang, 'home.hero.subtitle')}
+          </p>
+
+          <div class="fade-up fade-up-3 mt-8 flex flex-wrap gap-3">
+            <a href={`${base}/beginners/`} class="btn-glow inline-flex items-center gap-2 rounded-full bg-toxic-400 px-6 py-3 text-sm font-semibold text-black hover:bg-toxic-300">
+              {t(lang, 'home.cta.guides')} <span>→</span>
+            </a>
+            <a href={`${base}/events/`} class="inline-flex items-center gap-2 rounded-full glass px-6 py-3 text-sm font-semibold text-white hover:border-white/20 transition">
+              {t(lang, 'home.cta.events')} <span class="opacity-60">↗</span>
+            </a>
+          </div>
+
+          <div class="fade-up fade-up-4 mt-9 grid grid-cols-3 gap-3 max-w-md">
+            {stats.map((s) => (
+              <div class="glass card-lift rounded-2xl p-3.5">
+                <div class="text-[10px] tracking-[0.18em] uppercase text-stone-500">{s.label}</div>
+                <div class="mt-0.5 text-xl font-semibold text-white">{s.value}</div>
+                <div class="text-[11px] text-stone-500">{s.sub}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div class="relative hidden lg:block">
+          <div class="floaty relative mx-auto w-full max-w-[420px]" style="--float-rot: -1.5deg">
+            <div class="absolute -inset-6 rounded-[32px] bg-gradient-to-br from-plague-500/20 via-transparent to-toxic-500/10 blur-2xl"></div>
+            <div class="relative rounded-[24px] border border-white/10 bg-gradient-to-br from-stone-900 to-[#0f0f0e] p-2 shadow-[0_30px_80px_rgba(0,0,0,0.6)]">
+              <div class="rounded-[16px] border border-white/5 bg-[#0a0a09] overflow-hidden">
+                <div class="flex items-center gap-1.5 border-b border-white/5 px-3 py-2.5">
+                  <span class="h-2.5 w-2.5 rounded-full bg-red-500/80"></span>
+                  <span class="h-2.5 w-2.5 rounded-full bg-yellow-500/80"></span>
+                  <span class="h-2.5 w-2.5 rounded-full bg-green-500/80"></span>
+                  <span class="ml-2 text-xs font-mono text-stone-500">plague-hub • guide</span>
+                </div>
+                <div class="p-4">
+                  <div class="h-2 w-20 rounded-full bg-plague-600/30 mb-3"></div>
+                  <div class="h-6 w-3/4 rounded-lg bg-white mb-2"></div>
+                  <div class="h-3 w-full rounded bg-stone-800 mb-1.5"></div>
+                  <div class="h-3 w-5/6 rounded bg-stone-800 mb-4"></div>
+                  <div class="grid grid-cols-3 gap-2">
+                    <div class="h-16 rounded-xl bg-plague-900/30 border border-plague-800/30"></div>
+                    <div class="h-16 rounded-xl bg-stone-800"></div>
+                    <div class="h-16 rounded-xl bg-stone-800"></div>
+                  </div>
+                  <div class="mt-4 flex gap-2">
+                    <span class="rounded-full bg-toxic-400 px-3 py-1 text-xs font-semibold text-black">F2P</span>
+                    <span class="rounded-full border border-white/10 px-3 py-1 text-xs text-stone-400">Verified</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="floaty absolute -bottom-4 -right-2 rounded-2xl glass px-3.5 py-2 text-xs text-stone-300 shadow-xl" style="--float-rot: 2deg; animation-delay: 1.2s">
+            <span class="text-toxic-400">●</span> 9 languages • auto-updated
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sections — bento grid -->
+  <section class="py-14">
+    <div class="flex items-end justify-between gap-4 mb-7">
+      <h2 class="h-section text-xl font-semibold tracking-tight text-stone-100">Guides</h2>
+      <span class="text-[11px] tracking-[0.18em] uppercase text-stone-500">{sections.length} sections</span>
+    </div>
+    <div class="grid gap-3.5 sm:grid-cols-2 lg:grid-cols-12">
+      {sections.map((s, i) => {
+        const span = i === 0 ? 'lg:col-span-7' : i === 1 ? 'lg:col-span-5' : i === 5 || i === 6 ? 'lg:col-span-6' : i === 10 ? 'lg:col-span-12 sm:col-span-2' : 'lg:col-span-4';
+        return (
+        <a href={s.href} class={`group relative overflow-hidden rounded-2xl border border-white/[0.06] bg-white/[0.02] card-lift hover:border-white/[0.14] ${span}`}>
+          <div class="relative rounded-[15px] bg-gradient-to-br from-[#101010] to-[#080807] p-5 h-full overflow-hidden">
+            <div class={`absolute inset-0 rounded-[15px] bg-gradient-to-br ${s.color} opacity-0 group-hover:opacity-[0.1] transition duration-500`}></div>
+            <div class="absolute -right-6 -bottom-6 h-24 w-24 rounded-full bg-white/[0.02] blur-2xl group-hover:bg-toxic-400/[0.06] transition"></div>
+            <div class="relative">
+              <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-white to-stone-300 text-black text-lg shadow-lg group-hover:scale-110 group-hover:rotate-[-5deg] transition duration-300">{s.icon}</div>
+              <h3 class="mt-4 text-[15px] font-semibold tracking-tight text-white group-hover:text-plague-100 transition">{s.title}</h3>
+              <p class="mt-1.5 text-[13.5px] leading-5 text-stone-400 line-clamp-2">{t(lang, s.key as any)}</p>
+              <div class="mt-4 inline-flex items-center gap-1 text-xs font-medium text-stone-500 group-hover:text-toxic-300 transition">Explore <span class="transition-transform group-hover:translate-x-1">→</span></div>
+            </div>
+          </div>
+        </a>
+        );
+      })}
+    </div>
+  </section>
+
+  <!-- Events banner -->
+  <section class="relative overflow-hidden rounded-2xl border border-plague-900/40 bg-gradient-to-br from-plague-950/60 via-stone-900 to-stone-950 p-[1px] mb-14">
+    <div class="relative rounded-[15px] bg-gradient-to-br from-plague-950/30 to-transparent p-7 sm:p-8 overflow-hidden">
+      <div class="aurora absolute -right-10 -top-10 h-44 w-44 rounded-full bg-plague-700/20 blur-2xl"></div>
+      <div class="aurora aurora-slow absolute -left-10 -bottom-14 h-36 w-36 rounded-full bg-toxic-500/10 blur-2xl"></div>
+      <div class="relative flex flex-col sm:flex-row sm:items-center justify-between gap-5">
+        <div class="flex gap-4">
+          <div class="hidden sm:flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-plague-900/50 border border-plague-800/50 text-plague-200 shadow-[0_0_20px_rgba(168,152,24,0.25)]">⚔️</div>
+          <div>
+            <h2 class="text-[15px] font-semibold tracking-tight text-plague-100">{t(lang, 'nav.events')}</h2>
+            <p class="mt-1 text-sm leading-5 text-stone-400 max-w-xl">{t(lang, 'home.sections.events.desc')}</p>
+          </div>
+        </div>
+        <a href={`${base}/events/`} class="btn-glow inline-flex shrink-0 items-center justify-center gap-2 rounded-full bg-plague-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-plague-500 transition">
+          {t(lang, 'home.cta.events')} <span>↗</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular -->
+  <section class="mb-14">
+    <div class="flex items-baseline justify-between mb-7">
+      <h2 class="h-section text-xl font-semibold tracking-tight text-stone-100">{t(lang, 'home.latest.title')}</h2>
+      <a href={`${base}/patch-notes/`} class="text-xs font-medium text-stone-500 hover:text-toxic-300 transition">All updates →</a>
+    </div>
+    <div class="grid gap-3.5 sm:grid-cols-2 lg:grid-cols-3">
+      {popular.map((p) => (
+        <a href={p.href} class="group relative rounded-2xl border border-white/[0.06] bg-white/[0.02] p-5 card-lift hover:bg-white/[0.04] hover:border-white/[0.12]">
+          <div class="text-[11px] font-mono tracking-[0.18em] uppercase text-toxic-400/60">Featured</div>
+          <h3 class="mt-1.5 text-[15px] font-semibold leading-tight text-white group-hover:text-plague-100 transition line-clamp-2">{p.title}</h3>
+          <p class="mt-2 text-[13px] leading-5 text-stone-400 line-clamp-2">{p.desc}</p>
+          <div class="mt-3 inline-flex items-center gap-1 text-xs font-medium text-stone-500 group-hover:text-toxic-300 transition">Read <span class="transition-transform group-hover:translate-x-0.5">→</span></div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Support -->
+  <section class="relative overflow-hidden rounded-2xl border border-white/[0.06] bg-white/[0.02] p-[1px] mb-14">
+    <div class="relative rounded-[15px] bg-[#0f0f0e] p-7 sm:p-8 overflow-hidden">
+      <div class="aurora absolute -right-16 -top-16 h-44 w-44 rounded-full bg-blood-600/10 blur-3xl"></div>
+      <div class="relative flex flex-col sm:flex-row gap-6 sm:items-center justify-between">
+        <div class="flex gap-4">
+          <div class="hidden sm:flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-blood-500 to-blood-600 text-white shadow-[0_0_24px_rgba(255,59,48,0.35)]">♥</div>
+          <div>
+            <h2 class="text-[15px] font-semibold tracking-tight text-white">{t(lang, 'nav.support')}</h2>
+            <p class="mt-1 text-sm leading-5 text-stone-400 max-w-xl">{t(lang, 'home.sections.support.desc')}</p>
+          </div>
+        </div>
+        <a href={`${base}/support/`} class="btn-glow inline-flex shrink-0 items-center justify-center gap-2 rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-black hover:bg-stone-100 transition">
+          {t(lang, 'nav.support')} <span>→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+</Base>

@@ -25,7 +25,8 @@ const base = lang === 'en' ? '' : `/${lang}`;
 function isActive(href: string) { return cleanPath === `/${href}/` || cleanPath.startsWith(`/${href}/`); }
 ---
 
-<header id="site-header" class="sticky top-0 z-50 border-b border-white/[0.06] bg-[#080807]/70 backdrop-blur-2xl">
+<header id="site-header" class="sticky top-0 z-50 border-b border-white/[0.07] bg-[#080807]/60 backdrop-blur-2xl supports-[backdrop-filter]:bg-[#080807]/50">
+  <div class="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-plague-400/40 to-transparent"></div>
   <div class="border-b border-white/[0.03] bg-white/[0.01]">
     <div class="mx-auto max-w-7xl px-4 h-7 flex items-center justify-between text-[11px] tracking-widest uppercase text-stone-500">
       <span class="hidden sm:inline-flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-toxic-400 animate-pulse"></span> Live from Discord • Updated daily</span>
@@ -39,7 +40,7 @@ function isActive(href: string) { return cleanPath === `/${href}/` || cleanPath.
   <div class="mx-auto max-w-7xl px-4">
     <div class="flex h-[68px] items-center justify-between gap-4">
       <a href={`${base}/`} class="group flex items-center gap-3">
-        <span class="flex h-9 w-9 items-center justify-center rounded-[10px] bg-white text-black font-serif text-lg leading-none">LA</span>
+        <span class="flex h-9 w-9 items-center justify-center rounded-[10px] bg-gradient-to-br from-white via-stone-100 to-plague-200 text-black font-serif text-lg leading-none shadow-[0_0_18px_rgba(236,229,138,0.25)] group-hover:shadow-[0_0_26px_rgba(236,229,138,0.45)] transition-shadow">LA</span>
         <div class="hidden sm:block leading-none">
           <div class="text-[15px] font-semibold tracking-tight text-white group-hover:text-plague-100 transition">Plague Hub</div>
           <div class="text-[11px] tracking-[0.14em] uppercase text-stone-500 -mt-0.5">Last Asylum</div>
@@ -47,7 +48,7 @@ function isActive(href: string) { return cleanPath === `/${href}/` || cleanPath.
       </a>
 
       <div class="flex items-center gap-2">
-        <button id="search-open" class="hidden md:inline-flex items-center gap-2.5 rounded-full bg-white text-black px-4 py-2 text-sm font-medium hover:bg-stone-200 transition">
+        <button id="search-open" class="btn-glow hidden md:inline-flex items-center gap-2.5 rounded-full bg-white text-black px-4 py-2 text-sm font-medium hover:bg-stone-200">
           <span>⌕</span> Search <kbd class="ml-1 rounded bg-black/10 px-1.5 py-0.5 text-xs">/</kbd>
         </button>
         <button id="search-open-m" class="md:hidden h-9 w-9 grid place-items-center rounded-full border border-white/10 text-stone-400">⌕</button>
@@ -56,7 +57,7 @@ function isActive(href: string) { return cleanPath === `/${href}/` || cleanPath.
           <button id="lang-toggle" class="inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-white/[0.06] px-3 py-2 text-sm text-stone-300 hover:bg-white/10 transition">
             🌐 <span class="hidden sm:inline">{langNames[lang]}</span> <span class="text-stone-500">▾</span>
           </button>
-          <div id="lang-menu" class="absolute right-0 top-full mt-3 hidden w-56 overflow-hidden rounded-2xl border border-white/10 bg-stone-900 p-1.5 shadow-2xl">
+          <div id="lang-menu" class="absolute right-0 top-full mt-3 hidden w-56 overflow-hidden rounded-2xl glass p-1.5 shadow-2xl">
             {langHrefs.map((l) => (
               <a href={l.href} class:list={['flex items-center justify-between rounded-xl px-3 py-2.5 text-sm transition', l.lang === lang ? 'bg-white text-black' : 'text-stone-300 hover:bg-white/5 hover:text-white']}>
                 <span>{langNames[l.lang]}</span> <span class="text-xs opacity-50">{l.lang.toUpperCase()}</span>
@@ -65,7 +66,7 @@ function isActive(href: string) { return cleanPath === `/${href}/` || cleanPath.
           </div>
         </div>
 
-        <a href={`${base}/support/`} class="hidden sm:inline-flex rounded-full bg-toxic-400 px-4 py-2 text-sm font-semibold text-black hover:bg-toxic-300 transition">Support ♥</a>
+        <a href={`${base}/support/`} class="btn-glow hidden sm:inline-flex rounded-full bg-toxic-400 px-4 py-2 text-sm font-semibold text-black hover:bg-toxic-300">Support ♥</a>
         <button id="menu-toggle" class="lg:hidden h-9 w-9 grid place-items-center rounded-full bg-white text-black">☰</button>
       </div>
     </div>
@@ -74,7 +75,7 @@ function isActive(href: string) { return cleanPath === `/${href}/` || cleanPath.
       {navItems.map((item) => {
         const active = isActive(item.href);
         return (
-          <a href={`${base}/${item.href}/`} class:list={['inline-flex items-center gap-1.5 whitespace-nowrap rounded-full px-3 py-1.5 transition', active ? 'bg-white text-black' : 'text-stone-400 hover:text-white hover:bg-white/5']}>
+          <a href={`${base}/${item.href}/`} class:list={['inline-flex items-center gap-1.5 whitespace-nowrap rounded-full px-3 py-1.5 transition', active ? 'bg-white text-black shadow-[0_0_16px_rgba(255,255,255,0.2)]' : 'text-stone-400 hover:text-white hover:bg-white/5']}>
             <span class="text-[10px] font-mono opacity-50">{item.num}</span> {t(lang, item.key)}
           </a>
         );

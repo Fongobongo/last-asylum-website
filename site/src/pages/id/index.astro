@@ -1,6 +1,5 @@
 ---
-import Base from '../../layouts/Base.astro';
-import { t } from '../../i18n/ui';
+import Home from '../../components/Home.astro';
 import type { Lang } from '../../i18n/utils';
 
 const lang: Lang = 'id';
@@ -26,79 +25,4 @@ const popular = [
 ];
 ---
 
-<Base lang={lang} path="/id/">
-  <!-- Hero -->
-  <section class="relative overflow-hidden border-b border-stone-800">
-    <div class="absolute inset-0 bg-gradient-to-b from-plague-950/80 to-transparent"></div>
-    <div class="relative py-20 sm:py-28">
-      <p class="mb-3 text-sm font-semibold uppercase tracking-widest text-toxic-400">Last Asylum: Plague — Fan Hub</p>
-      <h1 class="mb-5 text-4xl font-bold tracking-tight text-plague-100 sm:text-6xl">
-        {t(lang, 'home.hero.title')}
-      </h1>
-      <p class="mb-8 max-w-2xl text-lg leading-relaxed text-stone-300">
-        {t(lang, 'home.hero.subtitle')}
-      </p>
-      <div class="flex flex-wrap gap-3">
-        <a href="/id/beginners/" class="rounded-lg bg-plague-700 px-6 py-3 font-semibold text-plague-50 hover:bg-plague-600 transition-colors">
-          {t(lang, 'home.cta.guides')} →
-        </a>
-        <a href="/id/events/" class="rounded-lg border border-stone-700 px-6 py-3 font-semibold text-stone-200 hover:bg-stone-800 transition-colors">
-          {t(lang, 'home.cta.events')} →
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Sections grid -->
-  <section class="py-14">
-    <h2 class="mb-8 text-2xl font-bold text-plague-200">Panduan</h2>
-    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-      {sections.map((s) => (
-        <a href={s.href} class={`group rounded-xl border border-stone-800 bg-gradient-to-br ${s.color} to-stone-900 p-6 transition-colors hover:border-plague-500`}>
-          <span class="text-3xl">{s.icon}</span>
-          <h3 class="mt-3 text-lg font-bold text-plague-200 group-hover:text-plague-100">{s.title}</h3>
-          <p class="mt-2 text-sm text-stone-400">{t(lang, s.key as any)}</p>
-        </a>
-      ))}
-    </div>
-  </section>
-
-  <!-- Events banner -->
-  <section class="mb-14 rounded-xl border border-plague-800 bg-plague-950/50 p-8">
-    <div class="flex flex-wrap items-center justify-between gap-4">
-      <div>
-        <h2 class="text-xl font-bold text-plague-200">⚔️ {t(lang, 'nav.events')}</h2>
-        <p class="mt-1 text-stone-400">{t(lang, 'home.sections.events.desc')}</p>
-      </div>
-      <a href="/id/events/" class="rounded-lg bg-plague-700 px-5 py-2.5 font-semibold text-plague-50 hover:bg-plague-600 transition-colors">
-        {t(lang, 'home.cta.events')} →
-      </a>
-    </div>
-  </section>
-
-  <!-- Popular guides -->
-  <section class="mb-16">
-    <h2 class="mb-8 text-2xl font-bold text-plague-200">{t(lang, 'home.latest.title')}</h2>
-    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-      {popular.map((p) => (
-        <a href={p.href} class="group rounded-lg border border-stone-800 bg-stone-900 p-5 transition-colors hover:border-plague-600">
-          <h3 class="font-bold text-stone-100 group-hover:text-plague-200">{p.title}</h3>
-          <p class="mt-2 text-sm text-stone-400">{p.desc}</p>
-        </a>
-      ))}
-    </div>
-  </section>
-
-  <!-- Support banner -->
-  <section class="mb-16 rounded-xl border border-stone-800 bg-stone-900 p-8">
-    <div class="flex flex-wrap items-center justify-between gap-4">
-      <div>
-        <h2 class="text-xl font-bold text-plague-200">❤️ {t(lang, 'nav.support')}</h2>
-        <p class="mt-1 text-stone-400">{t(lang, 'home.sections.support.desc')}</p>
-      </div>
-      <a href="/id/support/" class="rounded-lg bg-blood-600 px-5 py-2.5 font-semibold text-white hover:bg-blood-500 transition-colors">
-        {t(lang, 'nav.support')} →
-      </a>
-    </div>
-  </section>
-</Base>
+<Home lang={lang} path="/id/" sections={sections} popular={popular} />

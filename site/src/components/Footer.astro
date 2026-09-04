@@ -11,12 +11,14 @@ const year = new Date().getFullYear();
 const base = lang === 'en' ? '' : `/${lang}`;
 ---
 
-<footer class="mt-16 border-t border-stone-800/60 bg-stone-950/50">
+<footer class="relative mt-16 border-t border-stone-800/60 bg-stone-950/50 overflow-hidden">
+  <div class="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-toxic-400/30 to-transparent"></div>
+  <div class="pointer-events-none absolute -top-24 left-1/2 h-48 w-[560px] -translate-x-1/2 rounded-full bg-plague-600/[0.08] blur-[100px]"></div>
   <div class="mx-auto max-w-7xl px-4 py-10">
     <div class="grid gap-8 sm:grid-cols-3">
       <div>
         <div class="flex items-center gap-2.5">
-          <span class="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-plague-600 to-plague-800 text-sm ring-1 ring-white/10">☣️</span>
+          <span class="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-plague-600 to-plague-800 text-sm ring-1 ring-white/10 shadow-[0_0_18px_rgba(168,152,24,0.3)]">☣️</span>
           <span class="text-sm font-semibold tracking-tight text-stone-100">LA<span class="font-light text-stone-500">:</span> Plague Hub</span>
         </div>
         <p class="mt-3 text-sm leading-5 text-stone-400 max-w-xs">{t(lang, 'footer.fansite')}</p>
@@ -49,7 +51,7 @@ const base = lang === 'en' ? '' : `/${lang}`;
     <div class="mt-8 flex flex-col sm:flex-row items-center justify-between gap-3 border-t border-stone-800/60 pt-6 text-xs text-stone-500">
       <p>☣️ {t(lang, 'site.title')} — © {year} • Fan-made • <span class="text-stone-600">Not affiliated</span></p>
       <p class="flex items-center gap-2">
-        <span class="h-1.5 w-1.5 rounded-full bg-toxic-400/60"></span>
+        <span class="h-1.5 w-1.5 rounded-full bg-toxic-400 pulse-ring"></span>
         Built for survivors
       </p>
     </div>
