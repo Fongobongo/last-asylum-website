@@ -72,9 +72,8 @@ node serve.cjs     # простой статический сервер для �
 
 `.github/workflows/auto-update.yml` — ежедневно в 06:00 UTC:
 1. `parse_channel.py` скрапит каналы Discord (`DISCORD_TOKEN` в секретах)
-2. `update_data.py` регенерирует `giftcodes.ts` и `patchnotes.ts` (коды активны 45 дней)
+2. `update_data.py` регенерирует `patchnotes.ts`
 3. Сборка + авто-коммит + деплой через `deploy.yml`
-4. `announce_codes.py` — при появлении новых кодов постит в Telegram-канал (`TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` в секретах; опционально)
 
 Ручное обновление: `python parse_channel.py && python update_data.py` в корне.
 
@@ -100,7 +99,7 @@ node serve.cjs     # простой статический сервер для �
 
 ## Обновление данных
 
-- **Промокоды**: `site/src/data/giftcodes.ts` (данные из парсера `dump_codes.py` по каналу `#giftcode`)
+- **Промокоды**: `site/src/data/giftcodes.ts` — обновляется вручную
 - **Патчи**: `site/src/data/patchnotes.ts` (из `#patch-notes`)
 - Ре-ран парсера Discord: `python parse_channel.py` в корне репозитория (токен в `.env`)
 

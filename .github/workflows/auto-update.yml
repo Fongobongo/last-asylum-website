@@ -46,18 +46,10 @@ jobs:
         run: |
           git config user.name "auto-update-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add site/src/data/giftcodes.ts site/src/data/patchnotes.ts data/
+          git add site/src/data/patchnotes.ts data/
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "chore: auto-update gift codes & patch notes [skip ci]"
+            git commit -m "chore: auto-update patch notes [skip ci]"
             git push
-
-            # Announce new gift codes to Telegram (optional)
-            if [ -n "$TELEGRAM_BOT_TOKEN" ] && [ -n "$TELEGRAM_CHAT_ID" ]; then
-              python announce_codes.py || true
-            fi
           fi
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
