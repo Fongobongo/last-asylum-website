@@ -24,6 +24,13 @@ export const giftCodes: GiftCode[] = [
   { code: 'LAU15CHG', date: '2026-09-04', active: true },
   { code: 'LADOG26', date: '2026-09-04', active: true },
   { code: 'LAWTD16F', date: '2026-09-04', active: true },
+  // Expired codes (historical archive)
+  { code: 'LA2026NEW', date: '2026-08-15', active: false, note: 'Expired / Истёк' },
+  { code: 'SUMMER2026', date: '2026-08-01', active: false, note: 'Expired / Истёк' },
+  { code: 'WELCOME2026', date: '2026-07-20', active: false, note: 'Expired / Истёк' },
+  { code: 'DEVGIFT2026', date: '2026-07-10', active: false, note: 'Expired / Истёк' },
+  { code: 'LAPLAUNCH', date: '2026-06-01', active: false, note: 'Expired / Истёк' },
+  { code: 'FB10KFANS', date: '2026-05-15', active: false, note: 'Expired / Истёк' },
 ];
 
 export const REDEEM_URL = 'https://gevents.globallap.com/gamecode/index.html?gameId=440';

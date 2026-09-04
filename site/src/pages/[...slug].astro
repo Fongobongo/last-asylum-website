@@ -9,6 +9,10 @@ import DiscordBanner from '../components/DiscordBanner.astro';
 import ShopPromoBanner from '../components/ShopPromoBanner.astro';
 import AllianceDuelCalc from '../components/AllianceDuelCalc.astro';
 import SquadBuilder from '../components/SquadBuilder.astro';
+import DailyChecklist from '../components/DailyChecklist.astro';
+import WeeklyCheatSheet from '../components/WeeklyCheatSheet.astro';
+import SanctuaryCalc from '../components/SanctuaryCalc.astro';
+import PvPMatrix from '../components/PvPMatrix.astro';
 import type { Lang } from '../i18n/utils';
 
 export async function getStaticPaths() {
@@ -62,6 +66,17 @@ const showDiscord = slug !== 'support' && slug !== 'credits';
     {data.videoTopic && <VideoSection topic={data.videoTopic} lang={lang} />}
 
     {slug === 'events/alliance-duel' && <AllianceDuelCalc lang={lang} />}
+
+    {slug === 'calendar' && (
+      <>
+        <DailyChecklist lang={lang} />
+        <WeeklyCheatSheet lang={lang} />
+      </>
+    )}
+
+    {slug === 'buildings' && <SanctuaryCalc lang={lang} />}
+
+    {(slug === 'heroes' || slug === 'compare') && <PvPMatrix lang={lang} />}
 
     {slug === 'heroes' && <SquadBuilder lang={lang} />}
 

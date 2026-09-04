@@ -2,6 +2,8 @@
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
 import VideoSection from '../../components/VideoSection.astro';
+import SquadBuilder from '../../components/SquadBuilder.astro';
+import PvPMatrix from '../../components/PvPMatrix.astro';
 import { t } from '../../i18n/ui';
 import type { Lang } from '../../i18n/utils';
 
@@ -106,6 +108,8 @@ const lang: Lang = 'id';
     </table>
     <p>Gunakan pembagiannya secara diagnostik: jika kekuatan Anda berat hero tapi ringan prajurit, Anda hanya satu pertempuran buruk dari kehilangan pasukan yang tidak bisa Anda ganti. Jika berat prajurit tapi ringan hero, march Anda memukul di bawah bobotnya. Akun terkuat menjaga tumpukan dalam proporsi kasar sama — itulah tepatnya yang dilakukan oleh mengikuti urutan prioritas bangunan dan garis waktu pasukan F2P untuk Anda.</p>
 
+    <SquadBuilder lang={lang} />
+    <PvPMatrix lang={lang} />
     <VideoSection topic="heroes" lang={lang} />
   </GuidePage>
 </Base>

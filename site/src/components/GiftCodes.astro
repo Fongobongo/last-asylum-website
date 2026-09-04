@@ -1,75 +1,190 @@
 ---
-import { giftCodes, REDEEM_URL } from '../data/giftcodes';
+import { giftCodes, REDEEM_URL } from "../data/giftcodes";
 
 interface Props {
   lang?: string;
 }
 
-const { lang = 'en' } = Astro.props;
+const { lang = "en" } = Astro.props;
 
-const dict: Record<string, { copy: string; copied: string; webTitle: string; iosTip: string }> = {
+interface GiftCodesDict {
+  copy: string;
+  copied: string;
+  copyAll: string;
+  allCopied: string;
+  verifiedToday: string;
+  activeCount: string;
+  showExpired: string;
+  hideExpired: string;
+  expiredTitle: string;
+  expiredNote: string;
+  webTitle: string;
+  iosTip: string;
+}
+
+const dict: Record<string, GiftCodesDict> = {
   ru: {
-    copy: 'Копировать',
-    copied: '✓ Скопировано',
-    webTitle: 'Активация через сайт (для iPhone / iOS и Android):',
-    iosTip: 'Инструкция для iPhone (iOS): в самом приложении на iOS нет кнопки ввода кода из-за правил Apple. Откройте официальную веб-страницу активации по ссылке выше, войдите в привязанный аккаунт, выберите свой сервер и персонажа, введите код — награды сразу поступят на игровую почту.',
+    copy: "Копировать",
+    copied: "✓ Скопировано",
+    copyAll: "📋 Копировать все рабочие коды",
+    allCopied: "✓ Все коды скопированы в буфер!",
+    verifiedToday: "Проверено сегодня",
+    activeCount: "активных кодов",
+    showExpired: "Показать устаревшие коды",
+    hideExpired: "Скрыть устаревшие коды",
+    expiredTitle: "Архив неактивных кодов",
+    expiredNote: "Эти коды уже истекли и приведены для справки, чтобы не тратить время на повторный ввод.",
+    webTitle: "Активация через сайт (для iPhone / iOS и Android):",
+    iosTip: "Инструкция для iPhone (iOS): в самом приложении на iOS нет кнопки ввода кода из-за правил Apple. Откройте официальную веб-страницу активации по ссылке выше, войдите в привязанный аккаунт, выберите свой сервер и персонажа, введите код — награды сразу поступят на игровую почту.",
+  },
+  en: {
+    copy: "Copy",
+    copied: "✓ Copied",
+    copyAll: "📋 Copy All Active Codes",
+    allCopied: "✓ All active codes copied to clipboard!",
+    verifiedToday: "Verified Today",
+    activeCount: "active codes",
+    showExpired: "Show Expired Codes",
+    hideExpired: "Hide Expired Codes",
+    expiredTitle: "Expired Codes Archive",
+    expiredNote: "These codes have expired and are listed for reference so you do not waste time retrying them.",
+    webTitle: "Web redemption (for iPhone / iOS & Android):",
+    iosTip: "iPhone / iOS guide: There is no in-app promo code button on iOS devices due to Apple policy. Open the official web redemption page above, sign in with your linked account, select your server and character, submit the code, and claim rewards via your in-game mailbox.",
   },
   de: {
-    copy: 'Kopieren',
-    copied: '✓ Kopiert',
-    webTitle: 'Einlösung per Website (für iPhone / iOS & Android):',
-    iosTip: 'iPhone / iOS Anleitung: In der iOS-App gibt es aufgrund von Apple-Richtlinien keine Schaltfläche für Geschenkcodes. Öffne die offizielle Einlösungsseite oben, melde dich mit deinem verknüpften Konto an, wähle Server und Charakter, gib den Code ein und hole die Belohnung im Spiel-Postfach ab.',
+    copy: "Kopieren",
+    copied: "✓ Kopiert",
+    copyAll: "📋 Alle aktiven Codes kopieren",
+    allCopied: "✓ Alle aktiven Codes kopiert!",
+    verifiedToday: "Heute verifiziert",
+    activeCount: "aktive Codes",
+    showExpired: "Abgelaufene Codes anzeigen",
+    hideExpired: "Abgelaufene Codes verbergen",
+    expiredTitle: "Archiv abgelaufener Codes",
+    expiredNote: "Diese Codes sind abgelaufen und dienen als Referenz, um unnötiges Eintippen zu vermeiden.",
+    webTitle: "Einlösung per Website (für iPhone / iOS & Android):",
+    iosTip: "iPhone / iOS Anleitung: In der iOS-App gibt es aufgrund von Apple-Richtlinien keine Schaltfläche für Geschenkcodes. Öffne die offizielle Einlösungsseite oben, melde dich mit deinem verknüpften Konto an, wähle Server und Charakter, gib den Code ein und hole die Belohnung im Spiel-Postfach ab.",
   },
   es: {
-    copy: 'Copiar',
-    copied: '✓ Copiado',
-    webTitle: 'Canje vía web (para iPhone / iOS y Android):',
-    iosTip: 'Guía para iPhone (iOS): En iOS no hay botón dentro de la aplicación debido a políticas de Apple. Abre la página oficial de canje arriba, inicia sesión con tu cuenta vinculada, elige servidor y personaje, canjea el código y recoge las recompensas en tu buzón del juego.',
+    copy: "Copiar",
+    copied: "✓ Copiado",
+    copyAll: "📋 Copiar todos los códigos activos",
+    allCopied: "✓ ¡Todos los códigos copiados!",
+    verifiedToday: "Verificado hoy",
+    activeCount: "códigos activos",
+    showExpired: "Mostrar códigos caducados",
+    hideExpired: "Ocultar códigos caducados",
+    expiredTitle: "Archivo de códigos caducados",
+    expiredNote: "Estos códigos ya expiraron y se muestran como referencia para no perder tiempo reingresándolos.",
+    webTitle: "Canje vía web (para iPhone / iOS y Android):",
+    iosTip: "Guía para iPhone (iOS): En iOS no hay botón dentro de la aplicación debido a políticas de Apple. Abre la página oficial de canje arriba, inicia sesión con tu cuenta vinculada, elige servidor y personaje, canjea el código y recoge las recompensas en tu buzón del juego.",
   },
   fr: {
-    copy: 'Copier',
-    copied: '✓ Copié',
-    webTitle: 'Échange via le web (pour iPhone / iOS et Android) :',
+    copy: "Copier",
+    copied: "✓ Copié",
+    copyAll: "📋 Copier tous les codes actifs",
+    allCopied: "✓ Tous les codes ont été copiés !",
+    verifiedToday: "Vérifié aujourd’hui",
+    activeCount: "codes actifs",
+    showExpired: "Afficher les codes expirés",
+    hideExpired: "Masquer les codes expirés",
+    expiredTitle: "Archive des codes expirés",
+    expiredNote: "Ces codes sont expirés et listés à titre indicatif pour éviter de les tester à nouveau.",
+    webTitle: "Échange via le web (pour iPhone / iOS et Android) :",
     iosTip: "Guide iPhone (iOS) : L'application iOS ne comporte pas de bouton d'échange en raison des règles d'Apple. Ouvrez la page web officielle ci-dessus, connectez-vous avec votre compte lié, choisissez serveur et personnage, saisissez le code et recevez les récompenses par courrier en jeu.",
   },
   id: {
-    copy: 'Salin',
-    copied: '✓ Tersalin',
-    webTitle: 'Penukaran via web (untuk iPhone / iOS & Android):',
-    iosTip: 'Panduan iPhone / iOS: Tidak ada tombol kode hadiah di dalam aplikasi iOS karena kebijakan Apple. Buka halaman penukaran resmi di atas, masuk dengan akun tertaut Anda, pilih server dan karakter, masukkan kode, lalu ambil hadiah di kotak masuk dalam game.',
+    copy: "Salin",
+    copied: "✓ Tersalin",
+    copyAll: "📋 Salin Semua Kode Aktif",
+    allCopied: "✓ Semua kode aktif telah disalin!",
+    verifiedToday: "Diverifikasi Hari Ini",
+    activeCount: "kode aktif",
+    showExpired: "Tampilkan Kode Kedaluwarsa",
+    hideExpired: "Sembunyikan Kode Kedaluwarsa",
+    expiredTitle: "Arsip Kode Kedaluwarsa",
+    expiredNote: "Kode-kode ini sudah tidak berlaku dan dicatat sebagai referensi agar Anda tidak membuang waktu mencobanya.",
+    webTitle: "Penukaran via web (untuk iPhone / iOS & Android):",
+    iosTip: "Panduan iPhone / iOS: Tidak ada tombol kode hadiah di dalam aplikasi iOS karena kebijakan Apple. Buka halaman penukaran resmi di atas, masuk dengan akun tertaut Anda, pilih server dan karakter, masukkan kode, lalu ambil hadiah di kotak masuk dalam game.",
   },
   ja: {
-    copy: 'コピー',
-    copied: '✓ コピー完了',
-    webTitle: 'ウェブ交換ページ（iPhone / iOS & Android対応）：',
-    iosTip: 'iPhone / iOS向け手順：Appleの規約により、iOSアプリ内にはコード入力欄がありません。上記の公式ウェブ交換ページを開き、連携済みアカウントでログイン後、サーバーとキャラクターを選択してコードを入力してください。報酬はゲーム内メールに届きます。',
+    copy: "コピー",
+    copied: "✓ コピー完了",
+    copyAll: "📋 有効なコードをすべてコピー",
+    allCopied: "✓ すべてのコードをコピーしました！",
+    verifiedToday: "本日検証済み",
+    activeCount: "件の有効コード",
+    showExpired: "期限切れコードを表示",
+    hideExpired: "期限切れコードを非表示",
+    expiredTitle: "期限切れコードのアーカイブ",
+    expiredNote: "これらのコードは使用期限が切れており、無駄な再入力を防ぐための参考情報です。",
+    webTitle: "ウェブ交換ページ（iPhone / iOS & Android対応）：",
+    iosTip: "iPhone / iOS向け手順：Appleの規約により、iOSアプリ内にはコード入力欄がありません。上記の公式ウェブ交換ページを開き、連携済みアカウントでログイン後、サーバーとキャラクターを選択してコードを入力してください。報酬はゲーム内メールに届きます。",
   },
   ko: {
-    copy: '복사',
-    copied: '✓ 복사됨',
-    webTitle: '웹사이트 교환 (iPhone / iOS 및 Android 공용):',
-    iosTip: 'iPhone (iOS) 가이드: Apple 정책으로 인해 iOS 앱 내에는 선물 코드 입력 버튼이 없습니다. 위 공식 웹 교환 페이지를 열고 연동 계정으로 로그인한 뒤, 서버와 캐릭터를 선택하고 코드를 입력하면 게임 내 우편으로 보상이 지급됩니다.',
+    copy: "복사",
+    copied: "✓ 복사됨",
+    copyAll: "📋 활성 코드 전체 복사",
+    allCopied: "✓ 모든 코드가 복사되었습니다!",
+    verifiedToday: "오늘 확인됨",
+    activeCount: "개의 활성 코드",
+    showExpired: "만료된 코드 보기",
+    hideExpired: "만료된 코드 숨기기",
+    expiredTitle: "만료된 코드 아카이브",
+    expiredNote: "이 코드들은 이미 만료되었으며, 중복 입력을 방지하기 위한 참고용 목록입니다.",
+    webTitle: "웹사이트 교환 (iPhone / iOS 및 Android 공용):",
+    iosTip: "iPhone (iOS) 가이드: Apple 정책으로 인해 iOS 앱 내에는 선물 코드 입력 버튼이 없습니다. 위 공식 웹 교환 페이지를 열고 연동 계정으로 로그인한 뒤, 서버와 캐릭터를 선택하고 코드를 입력하면 게임 내 우편으로 보상이 지급됩니다.",
   },
   pt: {
-    copy: 'Copiar',
-    copied: '✓ Copiado',
-    webTitle: 'Resgate via web (para iPhone / iOS e Android):',
-    iosTip: 'Guia para iPhone / iOS: Não há botão de código dentro do aplicativo iOS devido às regras da Apple. Abra a página oficial de resgate acima, faça login com sua conta vinculada, selecione servidor e personagem, insira o código e colete as recompensas no correio do jogo.',
-  },
-  en: {
-    copy: 'Copy',
-    copied: '✓ Copied',
-    webTitle: 'Web redemption (for iPhone / iOS & Android):',
-    iosTip: 'iPhone / iOS guide: There is no in-app promo code button on iOS devices due to Apple policy. Open the official web redemption page above, sign in with your linked account, select your server and character, submit the code, and claim rewards via your in-game mailbox.',
+    copy: "Copiar",
+    copied: "✓ Copiado",
+    copyAll: "📋 Copiar todos os códigos ativos",
+    allCopied: "✓ Todos os códigos copiados!",
+    verifiedToday: "Verificado hoje",
+    activeCount: "códigos ativos",
+    showExpired: "Mostrar códigos expirados",
+    hideExpired: "Ocultar códigos expirados",
+    expiredTitle: "Arquivo de códigos expirados",
+    expiredNote: "Esses códigos já expiraram e estão listados apenas como referência para evitar tentativas desnecessárias.",
+    webTitle: "Resgate via web (para iPhone / iOS e Android):",
+    iosTip: "Guia para iPhone / iOS: Não há botão de código dentro do aplicativo iOS devido às regras da Apple. Abra a página oficial de resgate acima, faça login com sua conta vinculada, selecione servidor e personagem, insira o código e colete as recompensas no correio do jogo.",
   },
 };
 
 const labels = dict[lang] ?? dict.en;
+const activeCodes = giftCodes.filter((c) => c.active);
+const expiredCodes = giftCodes.filter((c) => !c.active);
+const allActiveCodesText = activeCodes.map((c) => c.code).join("\n");
 ---
 
-<div class="not-prose my-6">
-  <div class="mb-6 grid gap-3.5 sm:grid-cols-2 lg:grid-cols-3" id="codes-active">
-    {giftCodes.filter((c) => c.active).map((c) => (
+<div class="not-prose my-6 space-y-6">
+  <!-- Status and Quick Actions Bar -->
+  <div class="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-stone-800 bg-stone-900/70 p-3.5 backdrop-blur">
+    <div class="flex items-center gap-3">
+      <span class="inline-flex items-center gap-1.5 rounded-full bg-toxic-400/10 px-2.5 py-1 text-xs font-semibold text-toxic-400 border border-toxic-400/30">
+        <span class="h-1.5 w-1.5 rounded-full bg-toxic-400 animate-pulse"></span>
+        {labels.verifiedToday}
+      </span>
+      <span class="text-xs text-stone-400">
+        <strong class="text-white font-mono">{activeCodes.length}</strong> {labels.activeCount}
+      </span>
+    </div>
+
+    <button
+      id="js-copy-all"
+      type="button"
+      data-all={allActiveCodesText}
+      data-copied={labels.allCopied}
+      data-default={labels.copyAll}
+      class="inline-flex items-center justify-center rounded-lg border border-toxic-500/40 bg-stone-900 px-3.5 py-1.5 text-xs font-semibold text-toxic-300 hover:bg-toxic-500/20 hover:border-toxic-400 transition cursor-pointer shadow-[0_0_12px_rgba(180,255,57,0.1)]"
+    >
+      {labels.copyAll}
+    </button>
+  </div>
+
+  <!-- Active Codes Grid -->
+  <div class="grid gap-3.5 sm:grid-cols-2 lg:grid-cols-3" id="codes-active">
+    {activeCodes.map((c) => (
       <div class="group relative flex items-center justify-between gap-3 rounded-xl border border-toxic-500/30 bg-gradient-to-br from-toxic-500/10 to-transparent p-4 shadow-[0_4px_20px_rgba(0,0,0,0.3)] transition-all hover:border-toxic-400/60 hover:shadow-[0_0_24px_rgba(180,255,57,0.15)]">
         <div>
           <div class="flex items-center gap-2">
@@ -80,7 +195,7 @@ const labels = dict[lang] ?? dict.en;
           <p class="mt-0.5 text-[11px] font-mono text-stone-500">{c.date}</p>
         </div>
         <button
-          class="js-copy inline-flex shrink-0 items-center justify-center rounded-lg border border-white/10 bg-white/5 px-3 py-1.5 text-xs font-semibold text-stone-200 transition hover:bg-toxic-400 hover:text-black hover:border-toxic-400"
+          class="js-copy inline-flex shrink-0 items-center justify-center rounded-lg border border-white/10 bg-white/5 px-3 py-1.5 text-xs font-semibold text-stone-200 transition hover:bg-toxic-400 hover:text-black hover:border-toxic-400 cursor-pointer"
           data-code={c.code}
           data-label-copy={labels.copy}
           data-label-copied={labels.copied}
@@ -91,7 +206,42 @@ const labels = dict[lang] ?? dict.en;
     ))}
   </div>
 
-  <div class="mt-6 rounded-xl border border-plague-700/50 bg-gradient-to-r from-plague-950/60 via-stone-900 to-stone-950 p-4">
+  <!-- Expired Codes Accordion Toggle -->
+  {expiredCodes.length > 0 && (
+    <div class="rounded-xl border border-stone-800 bg-stone-950/40 p-3">
+      <button
+        id="js-toggle-expired"
+        type="button"
+        class="flex w-full items-center justify-between text-left text-xs font-semibold text-stone-400 hover:text-stone-200 transition cursor-pointer"
+        data-show={labels.showExpired + ` (${expiredCodes.length})`}
+        data-hide={labels.hideExpired}
+      >
+        <span class="flex items-center gap-2">
+          <span>⏳</span>
+          <span id="js-toggle-expired-label">{labels.showExpired} ({expiredCodes.length})</span>
+        </span>
+        <span id="js-toggle-expired-icon" class="text-stone-500 text-sm transition-transform duration-200">▼</span>
+      </button>
+
+      <div id="js-expired-container" class="hidden mt-3 pt-3 border-t border-stone-800/60 space-y-2">
+        <p class="text-[11px] text-stone-500 leading-relaxed">{labels.expiredNote}</p>
+        <div class="grid gap-2 sm:grid-cols-2 lg:grid-cols-3 pt-1">
+          {expiredCodes.map((c) => (
+            <div class="flex items-center justify-between gap-2 rounded-lg border border-stone-800/80 bg-stone-900/30 p-2.5 opacity-60">
+              <div class="min-w-0">
+                <code class="font-mono text-xs line-through text-stone-400">{c.code}</code>
+                <p class="text-[10px] text-stone-500">{c.date}</p>
+              </div>
+              <span class="rounded bg-stone-800 px-1.5 py-0.5 text-[9px] font-semibold text-stone-400">EXPIRED</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  )}
+
+  <!-- Official Web Redemption Box -->
+  <div class="rounded-xl border border-plague-700/50 bg-gradient-to-r from-plague-950/60 via-stone-900 to-stone-950 p-4">
     <p class="text-sm text-stone-300 flex flex-wrap items-center gap-2">
       <span class="text-lg">🌐</span>
       <strong class="text-plague-200">{labels.webTitle}</strong>
@@ -106,22 +256,66 @@ const labels = dict[lang] ?? dict.en;
 </div>
 
 <script>
-  document.querySelectorAll('.js-copy').forEach((btn) => {
-    btn.addEventListener('click', async () => {
-      const code = (btn as HTMLElement).dataset.code ?? '';
-      const copiedLabel = (btn as HTMLElement).dataset.labelCopied ?? '✓ Copied';
-      const copyLabel = (btn as HTMLElement).dataset.labelCopy ?? 'Copy';
+  // Individual Code Copy
+  document.querySelectorAll(".js-copy").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      const code = (btn as HTMLElement).dataset.code ?? "";
+      const copiedLabel = (btn as HTMLElement).dataset.labelCopied ?? "✓ Copied";
+      const copyLabel = (btn as HTMLElement).dataset.labelCopy ?? "Copy";
       try {
         await navigator.clipboard.writeText(code);
         (btn as HTMLElement).textContent = copiedLabel;
-        btn.classList.add('border-toxic-400', 'text-toxic-300', 'bg-toxic-500/10');
+        btn.classList.add("border-toxic-400", "text-toxic-300", "bg-toxic-500/10");
         setTimeout(() => {
           (btn as HTMLElement).textContent = copyLabel;
-          btn.classList.remove('border-toxic-400', 'text-toxic-300', 'bg-toxic-500/10');
+          btn.classList.remove("border-toxic-400", "text-toxic-300", "bg-toxic-500/10");
         }, 1500);
       } catch {
         (btn as HTMLElement).textContent = code;
       }
     });
   });
+
+  // Copy All Codes
+  const copyAllBtn = document.getElementById("js-copy-all");
+  if (copyAllBtn) {
+    copyAllBtn.addEventListener("click", async () => {
+      const allText = copyAllBtn.dataset.all ?? "";
+      const defaultLabel = copyAllBtn.dataset.default ?? "Copy All";
+      const copiedLabel = copyAllBtn.dataset.copied ?? "✓ Copied!";
+      try {
+        await navigator.clipboard.writeText(allText);
+        copyAllBtn.textContent = copiedLabel;
+        copyAllBtn.classList.add("bg-toxic-400", "text-black", "border-toxic-400");
+        setTimeout(() => {
+          copyAllBtn.textContent = defaultLabel;
+          copyAllBtn.classList.remove("bg-toxic-400", "text-black", "border-toxic-400");
+        }, 2000);
+      } catch {
+        alert("Clipboard access denied.");
+      }
+    });
+  }
+
+  // Toggle Expired Codes Accordion
+  const toggleBtn = document.getElementById("js-toggle-expired");
+  const expiredContainer = document.getElementById("js-expired-container");
+  const toggleLabel = document.getElementById("js-toggle-expired-label");
+  const toggleIcon = document.getElementById("js-toggle-expired-icon");
+
+  if (toggleBtn && expiredContainer && toggleLabel && toggleIcon) {
+    let isOpen = false;
+    toggleBtn.addEventListener("click", () => {
+      isOpen = !isOpen;
+      if (isOpen) {
+        expiredContainer.classList.remove("hidden");
+        toggleLabel.textContent = toggleBtn.dataset.hide ?? "Hide Expired Codes";
+        toggleIcon.style.transform = "rotate(180deg)";
+      } else {
+        expiredContainer.classList.add("hidden");
+        toggleLabel.textContent = toggleBtn.dataset.show ?? "Show Expired Codes";
+        toggleIcon.style.transform = "rotate(0deg)";
+      }
+    });
+  }
 </script>

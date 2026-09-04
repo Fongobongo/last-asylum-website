@@ -3,6 +3,8 @@ import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import DiscordBanner from '../../components/DiscordBanner.astro';
+import DailyChecklist from '../../components/DailyChecklist.astro';
+import WeeklyCheatSheet from '../../components/WeeklyCheatSheet.astro';
 import { weeklySchedule, recurring } from '../../data/calendar';
 import { t } from '../../i18n/ui';
 import type { Lang } from '../../i18n/utils';
@@ -57,6 +59,8 @@ const lang: Lang = 'ko';
     <p class="text-sm text-stone-500">⚠️ 대기열 제한: 모든 퀘스트(완료 여부 무관)가 대기열 카운터(x/x)에 포함됩니다. 대기열이 가득 차면 다음 퀘스트는 사라집니다.</p>
 
         <VideoSection topic="calendar" lang={lang} />
+    <DailyChecklist lang={lang} />
+    <WeeklyCheatSheet lang={lang} />
     <DiscordBanner lang={lang} />
   </GuidePage>
 </Base>

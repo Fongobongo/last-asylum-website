@@ -2,6 +2,8 @@
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
 import VideoSection from '../../components/VideoSection.astro';
+import SquadBuilder from '../../components/SquadBuilder.astro';
+import PvPMatrix from '../../components/PvPMatrix.astro';
 import { t } from '../../i18n/ui';
 import type { Lang } from '../../i18n/utils';
 
@@ -106,6 +108,8 @@ const lang: Lang = 'es';
     </table>
     <p>Usa el reparto como diagnóstico: si tu Poder carga en héroes pero está ligero en soldados, estás a una mala pelea de perder un ejército que no puedes reponer. Si carga en soldados pero está ligero en héroes, tus marchas pegan por debajo de su peso. Las cuentas más fuertes mantienen las pilas en proporción aproximada — exactamente lo que logras siguiendo el orden de prioridad de construcción y el calendario del escuadrón F2P.</p>
 
+    <SquadBuilder lang={lang} />
+    <PvPMatrix lang={lang} />
     <VideoSection topic="heroes" lang={lang} />
   </GuidePage>
 </Base>

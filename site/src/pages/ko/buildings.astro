@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
 import VideoSection from '../../components/VideoSection.astro';
+import SanctuaryCalc from '../../components/SanctuaryCalc.astro';
 import { t } from '../../i18n/ui';
 import type { Lang } from '../../i18n/utils';
 
@@ -113,6 +114,7 @@ const lang: Lang = 'ko';
     </table>
     <p>그리고 구성을 균형 있게 유지하세요: 항상 곡물, 목재, 약초를 보유하세요. 후반 업그레이드는 세 가지를 동시에 잡아먹고, 돌파 중에 하나라도 바닥나면 버프를 쌓아서 아끼려던 타이머를 정확히 낭비하게 됩니다.</p>
 
+    <SanctuaryCalc lang={lang} />
     <VideoSection topic="buildings" lang={lang} />
   </GuidePage>
 </Base>

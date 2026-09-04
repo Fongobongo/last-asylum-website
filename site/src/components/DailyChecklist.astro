@@ -1,0 +1,412 @@
+---
+import type { Lang } from '../i18n/utils';
+
+interface Props {
+  lang?: Lang;
+}
+
+const { lang = 'en' } = Astro.props;
+
+const i18n = {
+  ru: {
+    title: 'Ежедневный чеклист выжившего',
+    subtitle: 'Интерактивный список дел с автоматическим сбросом в 00:00 UTC',
+    progress: 'Выполнено задач',
+    allDone: '🎉 Все ежедневные задачи выполнены! Ваш лагерь на пике эффективности.',
+    resetNotice: 'Сбрасывается ежедневно в 00:00 UTC вместе с игровым сервером',
+    resetBtn: 'Сбросить всё вручную',
+    todayFocus: 'Фокус событий на сегодня (UTC):',
+    tasks: [
+      { id: 'tavern', label: 'Бесплатный призыв в Таверне', tip: 'Не сгорает, но таймер нового бесплатного призыва пойдёт только после использования.' },
+      { id: 'stamina', label: 'Потратить выносливость (не держать 100/100)', tip: 'Каждый час простоя на капе 100 — это потерянные ресурсы и опыт.' },
+      { id: 'falcon', label: 'Соколиная башня: проверить правило «Красной точки»', tip: 'Понедельник/Среда/Пятница — забирать. Вторник/Четверг/Воскресенье — выполнить, но НЕ забирать до завтра.' },
+      { id: 'caravan', label: 'Отправить 4 каравана и провести 4 рейда', tip: 'Во вкладке «Foreign Caravan» выберите чужие сервера для максимального лута.' },
+      { id: 'shop', label: 'Собрать бесплатные ежедневные наборы в Магазине', tip: 'Проверьте обычный магазин, магазин альянса и вкладку VIP.' },
+      { id: 'gather', label: 'Отправить сборщиков на ресурсные плиты перед выходом', tip: 'Особенно на ночь — приоритет: Травы > Дерево > Еда.' },
+      { id: 'alliance', label: 'Внести вклады в технологии альянса и нажать «Помощь»', tip: 'Даёт очки чести альянса для покупки ценных предметов в магазине альянса.' },
+    ],
+    days: [
+      'Воскресенье: Планирование и подготовка. Выполняйте соколиные задания, но НЕ забирайте награду до 00:00 UTC!',
+      'Понедельник (День 1): Ресурсы и Ворон. Сжигайте Сущность Ворона и Плоды Ворона! Антитоксин не трогать.',
+      'Вторник (День 2): Развитие базы. Запускайте стройку, используйте выживших. Соколиные задания НЕ забирать!',
+      'Среда (День 3): Наука и свитки. Открывайте сундуки снаряжения Ворона 1-3 ур., используйте свитки учений и соколиные квесты.',
+      'Четверг (День 4): День героев! Сливайте все осколки героев, книги навыков и антитоксин — огромные очки!',
+      'Пятница (День 5): День тренировки. Сжигайте ускорения тренировки войск! Апайте солдат строго по +1 тиру.',
+      'Суббота (День 6): Финальная битва и PvP. Охота за караванами, сражения за башни и зачистка целевых отрядов.',
+    ]
+  },
+  en: {
+    title: 'Daily Survivor Checklist',
+    subtitle: 'Interactive routine tracker with automatic reset at 00:00 UTC',
+    progress: 'Tasks completed',
+    allDone: '🎉 All daily tasks completed! Your sanctuary is operating at maximum efficiency.',
+    resetNotice: 'Automatically resets daily at 00:00 UTC with the server reset',
+    resetBtn: 'Reset manually',
+    todayFocus: "Today's Event Focus (UTC):",
+    tasks: [
+      { id: 'tavern', label: 'Free Tavern Recruit', tip: 'Free summons do not stack; the refresh timer only begins once claimed.' },
+      { id: 'stamina', label: 'Spend stamina (never stay at 100/100 cap)', tip: 'Every hour idling at max stamina is wasted progression and resources.' },
+      { id: 'falcon', label: 'Falcon Tower: Check Red Dot Rule', tip: 'Mon/Wed/Fri — claim. Tue/Thu/Sun — finish quests but DO NOT claim until tomorrow.' },
+      { id: 'caravan', label: 'Dispatch 4 Caravans & Execute 4 Foreign Raids', tip: 'Use the "Foreign Caravan" tab to loot UR shards from other servers.' },
+      { id: 'shop', label: 'Collect Daily Free Packs in Shops', tip: 'Check standard store, Alliance shop, and VIP section daily.' },
+      { id: 'gather', label: 'Dispatch gatherers to resource nodes before logging off', tip: 'Priority: Herbs > Timber > Grain.' },
+      { id: 'alliance', label: 'Donate to Alliance Tech & hit Alliance Help', tip: 'Earns Alliance Honor coins for essential weekly shop items.' },
+    ],
+    days: [
+      'Sunday: Planning & reset prep. Finish Falcon quests but DO NOT claim until Monday 00:00 UTC!',
+      'Monday (Day 1): Resources & Raven. Dump all Raven Essence & Fruit today! Save Antitoxin.',
+      'Tuesday (Day 2): Base Development. Burn construction speedups. Finish Falcon quests but HOLD for Wed!',
+      'Wednesday (Day 3): Tech & Scrolls. Open Lv.1-3 Raven Gear Chests, study scrolls & claim saved Falcon quests.',
+      'Thursday (Day 4): Hero Day! Dump all hero shards, skill books, and massive antitoxin stocks!',
+      'Friday (Day 5): Troop Training. Burn training speedups! Upgrade troops +1 tier at a time for max points.',
+      'Saturday (Day 6): Combat Finale & PvP. Cross-server caravan raids, tower defenses, and enemy elimination.',
+    ]
+  },
+  de: {
+    title: 'Tägliche Überlebens-Checkliste',
+    subtitle: 'Interaktiver Aufgaben-Tracker mit automatischem Reset um 00:00 UTC',
+    progress: 'Aufgaben erledigt',
+    allDone: '🎉 Alle Tagesaufgaben abgeschlossen! Deine Zuflucht arbeitet mit maximaler Effizienz.',
+    resetNotice: 'Wird täglich um 00:00 UTC mit dem Server-Reset zurückgesetzt',
+    resetBtn: 'Manuell zurücksetzen',
+    todayFocus: 'Heutiger Event-Fokus (UTC):',
+    tasks: [
+      { id: 'tavern', label: 'Kostenlose Tavernen-Rekrutierung', tip: 'Timer für die nächste Gratis-Beschwörung startet erst nach dem Abholen.' },
+      { id: 'stamina', label: 'Ausdauer verbrauchen (nie bei 100/100 pausieren)', tip: 'Vollständige Ausdauer bedeutet vergeudete Ressourcen.' },
+      { id: 'falcon', label: 'Falkenturm: Roter-Punkt-Regel beachten', tip: 'Mo/Mi/Fr abholen. Di/Do/So abschließen, aber NICHT abholen bis morgen.' },
+      { id: 'caravan', label: '4 Karawanen entsenden & 4 Überfälle ausführen', tip: 'Im Reiter Fremde Karawanen nach lohnender Beute suchen.' },
+      { id: 'shop', label: 'Tägliche Gratis-Pakete in Shops einsammeln', tip: 'Allianz-Shop und VIP-Reiter nicht vergessen.' },
+      { id: 'gather', label: 'Truppen zum Ressourcensammeln schicken', tip: 'Besonders über Nacht: Kräuter > Holz > Nahrung.' },
+      { id: 'alliance', label: 'Allianz-Technologie spenden & Hilfe drücken', tip: 'Gibt wertvolle Allianz-Ehrenmünzen.' },
+    ],
+    days: [
+      'Sonntag: Planung & Reset-Vorbereitung. Falken-Quests abschließen, aber bis Montag sparen!',
+      'Montag (Tag 1): Ressourcen & Raben-Items. Rabenessenz und Früchte verbrauchen!',
+      'Dienstag (Tag 2): Basis-Entwicklung. Bauzeitverkürzungen nutzen. Falken-Quests für Mi sparen!',
+      'Mittwoch (Tag 3): Forschung & Schriftrollen. Raben-Ausrüstungstruhen 1-3 öffnen.',
+      'Donnerstag (Tag 4): Heldentag! Alle Heldenscherben, Fertigkeitsbücher und Antitoxin einsetzen!',
+      'Freitag (Tag 5): Truppenausbildung. Ausbildungsspeedups zünden & Einheiten stufenweise aufwerten.',
+      'Samstag (Tag 6): PvP-Finale. Karawanen plündern und Feinde besiegen.',
+    ]
+  },
+  es: {
+    title: 'Lista de Tareas Diarias del Superviviente',
+    subtitle: 'Seguimiento interactivo con reinicio automático a las 00:00 UTC',
+    progress: 'Tareas completadas',
+    allDone: '🎉 ¡Todas las tareas diarias completadas! Tu refugio funciona a máxima eficiencia.',
+    resetNotice: 'Se reinicia diariamente a las 00:00 UTC con el servidor',
+    resetBtn: 'Reiniciar manualmente',
+    todayFocus: 'Enfoque de eventos de hoy (UTC):',
+    tasks: [
+      { id: 'tavern', label: 'Reclutamiento gratis en la Taberna', tip: 'El temporizador de la siguiente tirada gratuita solo empieza tras reclamar.' },
+      { id: 'stamina', label: 'Gastar energía (no dejarla al límite de 100)', tip: 'Estar al máximo de energía es desperdiciar recursos valiosos.' },
+      { id: 'falcon', label: 'Torre del Halcón: Regla del punto rojo', tip: 'Lun/Mié/Vie reclamar. Mar/Jue/Dom completar pero NO reclamar hasta mañana.' },
+      { id: 'caravan', label: 'Enviar 4 caravanas y realizar 4 asaltos', tip: 'Usa la pestaña Caravanas foráneas para conseguir fragmentos UR.' },
+      { id: 'shop', label: 'Recoger paquetes gratis en las tiendas', tip: 'Revisa la tienda del gremio y la sección VIP.' },
+      { id: 'gather', label: 'Mandar recolectores antes de desconectarte', tip: 'Prioridad: Hierbas > Madera > Comida.' },
+      { id: 'alliance', label: 'Donar a tecnologías de alianza y dar ayuda', tip: 'Otorga monedas de honor para la tienda de la alianza.' },
+    ],
+    days: [
+      'Domingo: Planificación. Completa misiones de halcón pero guárdalas para el lunes.',
+      'Lunes (Día 1): Recursos y Cuervo. ¡Gasta la esencia y fruta del cuervo hoy!',
+      'Martes (Día 2): Desarrollo de la base. Acelera construcciones. Guarda misiones para el miércoles.',
+      'Miércoles (Día 3): Investigación y cofres de equipo de cuervo nivel 1-3.',
+      'Jueves (Día 4): ¡Día de Héroes! Gasta todos los fragmentos, libros y antitoxina acumulada.',
+      'Viernes (Día 5): Entrenamiento de tropas. Usa aceleradores y mejora soldados nivel por nivel.',
+      'Sábado (Día 6): Combate final y PvP. Asalta caravanas y derrota tropas enemigas.',
+    ]
+  },
+  fr: {
+    title: 'Liste Quotidienne du Survivant',
+    subtitle: 'Suivi interactif des tâches avec réinitialisation automatique à 00:00 UTC',
+    progress: 'Tâches terminées',
+    allDone: '🎉 Toutes les tâches quotidiennes sont terminées ! Votre sanctuaire tourne à plein régime.',
+    resetNotice: 'Se réinitialise chaque jour à 00:00 UTC avec le serveur',
+    resetBtn: 'Réinitialiser manuellement',
+    todayFocus: "Objectif d'événement du jour (UTC) :",
+    tasks: [
+      { id: 'tavern', label: 'Recrutement gratuit à la Taverne', tip: 'Le délai de la prochaine invocation commence uniquement après avoir réclamé.' },
+      { id: 'stamina', label: 'Dépenser l\'endurance (ne pas rester à 100/100)', tip: 'Chaque heure au plafond d\'endurance est une perte nette de progression.' },
+      { id: 'falcon', label: 'Tour du Faucon : Règle du point rouge', tip: 'Lun/Mer/Ven : réclamer. Mar/Jeu/Dim : accomplir mais NE PAS réclamer avant demain.' },
+      { id: 'caravan', label: 'Envoyer 4 chariots et faire 4 pillages', tip: 'Pillez les chariots d\'autres serveurs pour obtenir des fragments UR.' },
+      { id: 'shop', label: 'Récupérer les packs gratuits en boutique', tip: 'Vérifiez la boutique d\'alliance et l\'onglet VIP.' },
+      { id: 'gather', label: 'Envoyer des récolteurs avant de quitter', tip: 'Priorité : Herbes > Bois > Nourriture.' },
+      { id: 'alliance', label: 'Donner aux technologies d\'alliance et cliquer Aide', tip: 'Gagne des points d\'honneur pour les achats indispensables.' },
+    ],
+    days: [
+      'Dimanche : Planification. Préparez les quêtes du faucon sans les réclamer avant lundi !',
+      'Lundi (Jour 1) : Ressources et Corbeau. Utilisez essence et fruits du corbeau aujourd\'hui !',
+      'Mardi (Jour 2) : Développement de la base. Accélérez les bâtiments. Gardez les quêtes pour mercredi.',
+      'Mercredi (Jour 3) : Recherche & Coffres d\'équipement du corbeau Niv. 1-3.',
+      'Jeudi (Jour 4) : Jour des héros ! Videz tous vos fragments, livres de compétences et antitoxine.',
+      'Vendredi (Jour 5) : Entraînement de troupes. Améliorez vos soldats palier par palier.',
+      'Samedi (Jour 6) : Finale de combat & PvP. Attaquez les caravanes et éliminez les cibles.',
+    ]
+  },
+  id: {
+    title: 'Daftar Tugas Harian Penyintas',
+    subtitle: 'Pelacak rutinitas interaktif dengan reset otomatis pukul 00:00 UTC',
+    progress: 'Tugas selesai',
+    allDone: '🎉 Semua tugas harian selesai! Pangkalan Anda berjalan dengan efisiensi maksimal.',
+    resetNotice: 'Direset otomatis setiap hari pukul 00:00 UTC bersamaan dengan server',
+    resetBtn: 'Reset manual',
+    todayFocus: 'Fokus Event Hari Ini (UTC):',
+    tasks: [
+      { id: 'tavern', label: 'Perekrutan Kedai Gratis', tip: 'Hitung mundur gratis berikutnya hanya berjalan setelah Anda mengklaim.' },
+      { id: 'stamina', label: 'Habiskan stamina (jangan biarkan penuh 100/100)', tip: 'Setiap jam stamina penuh adalah pemborosan sumber daya.' },
+      { id: 'falcon', label: 'Menara Falcon: Terapkan Aturan Titik Merah', tip: 'Sen/Rab/Jum klaim. Sel/Kam/Min selesaikan misi tapi JANGAN klaim sampai besok.' },
+      { id: 'caravan', label: 'Kirim 4 Gerobak & Lakukan 4 Penyerbuan Antar-Server', tip: 'Gunakan tab Gerobak Asing untuk menjarah pecahan UR.' },
+      { id: 'shop', label: 'Ambil Paket Gratis Harian di Toko', tip: 'Periksa toko aliansi dan bagian VIP setiap hari.' },
+      { id: 'gather', label: 'Kirim pasukan pengumpul sebelum keluar game', tip: 'Prioritas: Herbal > Kayu > Pangan.' },
+      { id: 'alliance', label: 'Donasi Teknologi Aliansi & Klik Bantuan', tip: 'Kumpulkan koin kehormatan aliansi untuk belanja item penting.' },
+    ],
+    days: [
+      'Minggu: Perencanaan. Selesaikan misi falcon tapi simpan untuk hari Senin!',
+      'Senin (Hari 1): Sumber Daya & Gagak. Bakar Esensi dan Buah Gagak hari ini!',
+      'Selasa (Hari 2): Pembangunan Pangkalan. Gunakan percepatan bangunan.',
+      'Rabu (Hari 3): Riset & Gulungan. Buka peti gear gagak level 1-3.',
+      'Kamis (Hari 4): Hari Pahlawan! Gunakan semua pecahan hero, buku skill, dan antitoksin.',
+      'Jumat (Hari 5): Pelatihan Pasukan. Gunakan percepatan latih & tingkatkan tier per tingkat.',
+      'Sabtu (Hari 6): Pertempuran Final & PvP. Jarah karavan dan kalahkan musuh.',
+    ]
+  },
+  ja: {
+    title: '生存者のデイリーチェックリスト',
+    subtitle: '毎日00:00 UTCに自動リセットされる対話型タスク管理ツール',
+    progress: '完了タスク',
+    allDone: '🎉 本日の全デイリータスク完了！拠点は最高効率で稼働中です。',
+    resetNotice: '毎日00:00 UTCにサーバー更新と同時に自動リセットされます',
+    resetBtn: '手動リセット',
+    todayFocus: '本日のイベント重点（UTC）：',
+    tasks: [
+      { id: 'tavern', label: '酒場の無料英雄召喚', tip: '受け取った後から次回の無料タイマーが開始されます。' },
+      { id: 'stamina', label: 'スタミナ消費（上限100/100で溢れさせない）', tip: '溢れたスタミナは育成素材の大きな損失です。' },
+      { id: 'falcon', label: 'ハヤブサの塔：赤丸キープ法則を適用', tip: '月/水/金は受取。火/木/日はクリア状態にして翌日まで受け取らない。' },
+      { id: 'caravan', label: 'ギルド馬車4回派遣＆他サーバー略奪4回', tip: '他サーバーの馬車を襲撃してUR欠片を狙いましょう。' },
+      { id: 'shop', label: '各ショップのデイリー無料パック受取', tip: '連盟ショップやVIP特典も忘れずに確認。' },
+      { id: 'gather', label: 'ログアウト前の採集部隊派遣', tip: '優先度：薬草 > 木材 > 食糧。' },
+      { id: 'alliance', label: '連盟技術寄付＆連盟ヘルプ押し', tip: '連盟ショップで使える名誉ポイントを獲得できます。' },
+    ],
+    days: [
+      '日曜日：週間準備。ハヤブサ任務をクリアし、月曜00:00 UTCまで受け取らずキープ！',
+      '月曜日（1日目）：資源＆カラス。カラスのエッセンスと果実を今日一気に使用！',
+      '火曜日（2日目）：拠点発展。建設加速を使用。ハヤブサ任務は水曜までキープ。',
+      '水曜日（3日目）：研究＆巻物。カラス装備箱Lv.1-3を開封し、研究加速を使用。',
+      '木曜日（4日目）：英雄の日！英雄欠片・スキル書・抗毒素を一挙全投入！',
+      '金曜日（5日目）：兵士訓練。訓練加速を使用し、1段階ずつ昇格させて得点最大化。',
+      '土曜日（6日目）：決戦＆対人PvP。他サーバー馬車襲撃やターゲット撃破。',
+    ]
+  },
+  ko: {
+    title: '생존자 일일 체크리스트',
+    subtitle: '매일 00:00 UTC에 자동 리셋되는 일일 루틴 관리 도구',
+    progress: '완료된 과제',
+    allDone: '🎉 오늘의 모든 일일 과제를 완료했습니다! 안식처가 최고 효율로 가동 중입니다.',
+    resetNotice: '매일 00:00 UTC(한국 시간 오전 9시) 서버 리셋과 함께 자동 초기화됩니다',
+    resetBtn: '수동 초기화',
+    todayFocus: '오늘의 이벤트 핵심 전략 (UTC):',
+    tasks: [
+      { id: 'tavern', label: '주점 무료 영웅 소환', tip: '수령 즉시 다음 무료 소환 쿨타임이 시작됩니다.' },
+      { id: 'stamina', label: '행동력 소비 (100/100 풀 상태 방치 금지)', tip: '가득 찬 상태로 방치하면 자원과 경험치 손실이 발생합니다.' },
+      { id: 'falcon', label: '매의 탑: 레드닷 보관 법칙 확인', tip: '월/수/금 수령. 화/목/일은 완료만 해두고 내일까지 수령하지 않기.' },
+      { id: 'caravan', label: '길드 마차 4회 발송 및 타 서버 약탈 4회', tip: '해외 마차 탭을 이용해 다른 서버의 UR 조각을 약탈하세요.' },
+      { id: 'shop', label: '상점 일일 무료 패키지 수령', tip: '일반 상점, 연맹 상점, VIP 혜택 탭을 매일 확인하세요.' },
+      { id: 'gather', label: '접속 종료 전 자원지 채집 부대 파견', tip: '우선순위: 약초 > 목재 > 식량.' },
+      { id: 'alliance', label: '연맹 기술 기부 및 연맹 지원(악수) 클릭', tip: '연맹 상점에서 필수 아이템을 구매할 명예 포인트를 얻습니다.' },
+    ],
+    days: [
+      '일요일: 주간 계획 및 리셋 준비. 매의 탑 퀘스트 완료 후 월요일까지 보관!',
+      '월요일 (1일차): 자원 & 까마귀. 모아둔 까마귀 정수와 열매를 오늘 전부 소모!',
+      '화요일 (2일차): 기지 발전. 건설 가속 사용. 퀘스트는 수요일까지 보관!',
+      '수요일 (3일차): 연구 & 비전서. 1~3레벨 까마귀 장비 상자 개봉 및 연구 가속.',
+      '목요일 (4일차): 영웅의 날! 모든 영웅 조각, 스킬북, 항독소를 오늘 올인!',
+      '금요일 (5일차): 병력 훈련. 훈련 가속 집중 사용 및 1단계씩 업그레이드.',
+      '토요일 (6일차): 결전 & 서버 PvP. 타 서버 마차 약탈 및 타겟 처치.',
+    ]
+  },
+  pt: {
+    title: 'Lista de Tarefas Diárias do Sobrevivente',
+    subtitle: 'Rastreador de rotina interativo com reinício automático às 00:00 UTC',
+    progress: 'Tarefas concluídas',
+    allDone: '🎉 Todas as tarefas diárias concluídas! Seu santuário está operando com eficiência máxima.',
+    resetNotice: 'Reinicia diariamente às 00:00 UTC com o servidor do jogo',
+    resetBtn: 'Reiniciar manualmente',
+    todayFocus: 'Foco de evento de hoje (UTC):',
+    tasks: [
+      { id: 'tavern', label: 'Recrutamento grátis na Taverna', tip: 'O temporizador do próximo recrutamento gratuito só começa após resgatar.' },
+      { id: 'stamina', label: 'Gastar energia (nunca deixe no limite de 100/100)', tip: 'Cada hora no limite de energia é desperdício de progresso.' },
+      { id: 'falcon', label: 'Torre do Falcão: Regra do Ponto Vermelho', tip: 'Seg/Qua/Sex resgatar. Ter/Qui/Dom concluir mas NÃO resgatar até amanhã.' },
+      { id: 'caravan', label: 'Enviar 4 caravanas e fazer 4 saques entre servidores', tip: 'Use a aba Caravana Estrangeira para saquear estilhaços UR.' },
+      { id: 'shop', label: 'Coletar pacotes diários gratuitos nas lojas', tip: 'Verifique a loja da aliança e a seção VIP.' },
+      { id: 'gather', label: 'Enviar tropas para coleta antes de desconectar', tip: 'Prioridade: Ervas > Madeira > Comida.' },
+      { id: 'alliance', label: 'Doar para tecnologias de aliança e clicar em Ajuda', tip: 'Gera moedas de honra para itens essenciais da loja.' },
+    ],
+    days: [
+      'Domingo: Planejamento. Conclua missões do falcão mas guarde para segunda-feira!',
+      'Segunda (Dia 1): Recursos e Corvo. Use essência e frutos do corvo hoje!',
+      'Terça (Dia 2): Desenvolvimento da base. Use aceleradores de construção.',
+      'Quarta (Dia 3): Pesquisa e baús de equipamento do corvo Nível 1-3.',
+      'Quinta (Dia 4): Dia de Heróis! Use todos os estilhaços, livros e antitoxina acumulados.',
+      'Sexta (Dia 5): Treinamento de tropas. Use aceleradores e evolua soldados nível a nível.',
+      'Sábado (Dia 6): Combate final e PvP. Saqueie caravanas e elimine inimigos.',
+    ]
+  }
+};
+
+const texts = i18n[lang as keyof typeof i18n] ?? i18n.en;
+---
+
+<div class="not-prose my-8 rounded-xl border border-stone-800 bg-stone-900/95 p-5 shadow-xl" id="daily-checklist-container">
+  <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 border-b border-stone-800 pb-4">
+    <div>
+      <h3 class="text-xl font-bold text-plague-200 flex items-center gap-2">
+        <span>📋</span>
+        <span>{texts.title}</span>
+      </h3>
+      <p class="text-xs text-stone-400 mt-0.5">{texts.subtitle}</p>
+    </div>
+    <div class="flex items-center gap-2">
+      <span id="checklist-progress-text" class="text-xs font-mono font-bold text-toxic-400">0 / {texts.tasks.length}</span>
+      <button
+        id="checklist-reset-btn"
+        class="text-[11px] text-stone-400 hover:text-stone-200 underline decoration-stone-600 transition"
+      >
+        {texts.resetBtn}
+      </button>
+    </div>
+  </div>
+
+  <!-- Progress Bar -->
+  <div class="mt-4 h-2 w-full overflow-hidden rounded-full bg-stone-800">
+    <div
+      id="checklist-progress-bar"
+      class="h-full bg-gradient-to-r from-plague-500 to-toxic-400 transition-all duration-300"
+      style="width: 0%;"
+    ></div>
+  </div>
+
+  <!-- Today's Event Focus Alert -->
+  <div class="mt-4 rounded-lg border border-amber-500/30 bg-amber-950/20 p-3 text-xs text-amber-200">
+    <p class="font-bold flex items-center gap-1.5 text-amber-300">
+      <span>💡</span>
+      <span>{texts.todayFocus}</span>
+    </p>
+    <p id="checklist-today-text" class="mt-1 text-amber-100/90 leading-relaxed"></p>
+  </div>
+
+  <!-- Task Items -->
+  <div class="mt-4 space-y-2.5">
+    {texts.tasks.map((task) => (
+      <label class="group flex items-start gap-3 rounded-lg border border-stone-800/80 bg-stone-950/40 p-3 transition-colors hover:border-stone-700 cursor-pointer">
+        <input
+          type="checkbox"
+          class="js-chk mt-0.5 h-4 w-4 rounded border-stone-700 bg-stone-800 text-plague-500 focus:ring-plague-500/40 cursor-pointer"
+          data-task-id={task.id}
+        />
+        <div class="min-w-0 flex-1">
+          <p class="text-sm font-semibold text-stone-200 group-hover:text-plague-200 transition-colors js-task-title">
+            {task.label}
+          </p>
+          <p class="mt-0.5 text-xs text-stone-400 leading-relaxed">{task.tip}</p>
+        </div>
+      </label>
+    ))}
+  </div>
+
+  <!-- Success Banner -->
+  <div id="checklist-all-done" class="mt-4 hidden rounded-lg border border-toxic-500/40 bg-toxic-950/30 p-3 text-xs font-semibold text-toxic-300">
+    {texts.allDone}
+  </div>
+
+  <p class="mt-3 text-[11px] text-stone-400 text-right">
+    ℹ️ {texts.resetNotice}
+  </p>
+</div>
+
+<script define:vars={{ daysList: texts.days, totalTasks: texts.tasks.length }}>
+  (function () {
+    const STORAGE_KEY = 'lap_daily_checklist_v1';
+    const DATE_KEY = 'lap_checklist_last_date_v1';
+
+    // Calculate current UTC date (YYYY-MM-DD)
+    const now = new Date();
+    const utcDayOfWeek = now.getUTCDay(); // 0 = Sun, 1 = Mon, ...
+    const utcDateStr = now.toISOString().slice(0, 10);
+
+    // Display today's event focus
+    const todayEl = document.getElementById('checklist-today-text');
+    if (todayEl && daysList[utcDayOfWeek]) {
+      todayEl.textContent = daysList[utcDayOfWeek];
+    }
+
+    // Check if date changed since last store (auto-reset on new UTC day)
+    const savedDate = localStorage.getItem(DATE_KEY);
+    let state = {};
+    if (savedDate !== utcDateStr) {
+      localStorage.setItem(DATE_KEY, utcDateStr);
+      localStorage.setItem(STORAGE_KEY, JSON.stringify({}));
+      state = {};
+    } else {
+      try {
+        state = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+      } catch (e) {
+        state = {};
+      }
+    }
+
+    const checkboxes = document.querySelectorAll('.js-chk');
+    const progressBar = document.getElementById('checklist-progress-bar');
+    const progressText = document.getElementById('checklist-progress-text');
+    const allDoneBanner = document.getElementById('checklist-all-done');
+
+    function updateUI() {
+      let count = 0;
+      checkboxes.forEach((cb) => {
+        const id = cb.dataset.taskId;
+        const isChecked = !!state[id];
+        cb.checked = isChecked;
+        const label = cb.closest('label')?.querySelector('.js-task-title');
+        if (label) {
+          if (isChecked) {
+            label.classList.add('line-through', 'text-stone-500');
+          } else {
+            label.classList.remove('line-through', 'text-stone-500');
+          }
+        }
+        if (isChecked) count++;
+      });
+
+      const pct = Math.round((count / totalTasks) * 100);
+      if (progressBar) progressBar.style.width = pct + '%';
+      if (progressText) progressText.textContent = `${count} / ${totalTasks}`;
+
+      if (allDoneBanner) {
+        if (count === totalTasks && totalTasks > 0) {
+          allDoneBanner.classList.remove('hidden');
+        } else {
+          allDoneBanner.classList.add('hidden');
+        }
+      }
+    }
+
+    checkboxes.forEach((cb) => {
+      cb.addEventListener('change', () => {
+        const id = cb.dataset.taskId;
+        state[id] = cb.checked;
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+        updateUI();
+      });
+    });
+
+    const resetBtn = document.getElementById('checklist-reset-btn');
+    if (resetBtn) {
+      resetBtn.addEventListener('click', () => {
+        state = {};
+        localStorage.setItem(STORAGE_KEY, JSON.stringify({}));
+        updateUI();
+      });
+    }
+
+    updateUI();
+  })();
+</script>

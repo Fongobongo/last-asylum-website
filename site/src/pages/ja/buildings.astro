@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
 import VideoSection from '../../components/VideoSection.astro';
+import SanctuaryCalc from '../../components/SanctuaryCalc.astro';
 import { t } from '../../i18n/ui';
 import type { Lang } from '../../i18n/utils';
 
@@ -113,6 +114,7 @@ const lang: Lang = 'ja';
     </table>
     <p>そして資源のバランスを保つこと：穀物(Grain)、木材(Timber)、薬草(Herbs)は常に在庫を。終盤のアップグレードは3つを同時に食い、押しの途中で1つでも枯れると、バフを積んで節約したはずのタイマーをちょうど無駄にします。</p>
 
+    <SanctuaryCalc lang={lang} />
     <VideoSection topic="buildings" lang={lang} />
   </GuidePage>
 </Base>

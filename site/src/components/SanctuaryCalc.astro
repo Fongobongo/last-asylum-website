@@ -1,0 +1,437 @@
+---
+import type { Lang } from '../i18n/utils';
+
+interface Props {
+  lang?: Lang;
+}
+
+const { lang = 'en' } = Astro.props;
+
+const i18n = {
+  ru: {
+    title: 'Калькулятор перехода Санктуария',
+    subtitle: 'Точный расчёт ресурсов, времени с учётом бонуса скорости и цепочки обязательных зданий',
+    currentLevel: 'Текущий уровень Санктуария:',
+    targetLevel: 'Желаемый уровень:',
+    speedBuff: 'Бонус скорости строительства:',
+    totalResources: 'Суммарные ресурсы:',
+    food: 'Еда',
+    timber: 'Дерево',
+    herbs: 'Травы',
+    timeEst: 'Время строительства:',
+    baseTime: 'Базовое время',
+    actualTime: 'С вашим бонусом',
+    daysSaved: 'Сэкономлено времени',
+    prereqs: 'Обязательные здания-предпосылки (Prerequisites):',
+    hammerTipTitle: '💡 Золотое правило «Держи молоток» (Hold the Hammer):',
+    hammerTipText: 'Очки за стройку в Дуэли альянсов и Лучшем целителе начисляются в момент клика по иконке завершения (Молоток). Запустите стройку заранее и НЕ жмите на молоток до наступления Дня строительства (Вторник)!',
+    days: 'д',
+    hours: 'ч',
+    millions: 'М',
+    billions: 'млрд',
+  },
+  en: {
+    title: 'Sanctuary Upgrade Planner',
+    subtitle: 'Exact resource totals, net build time with speed buff, and prerequisite building chains',
+    currentLevel: 'Current Sanctuary Level:',
+    targetLevel: 'Target Sanctuary Level:',
+    speedBuff: 'Construction Speed Buff:',
+    totalResources: 'Total Resources Required:',
+    food: 'Grain',
+    timber: 'Timber',
+    herbs: 'Herbs',
+    timeEst: 'Construction Time:',
+    baseTime: 'Base Time',
+    actualTime: 'With your buff',
+    daysSaved: 'Time Saved',
+    prereqs: 'Required Prerequisite Buildings:',
+    hammerTipTitle: '💡 The Golden "Hold the Hammer" Rule:',
+    hammerTipText: 'Building Might points in Alliance Duel & Supreme Healer are only awarded when you click the completion Hammer icon. Start upgrades days in advance, but DO NOT tap the hammer until the designated Construction Day (Tuesday)!',
+    days: 'd',
+    hours: 'h',
+    millions: 'M',
+    billions: 'B',
+  },
+  de: {
+    title: 'Zuflucht-Ausbau-Planer',
+    subtitle: 'Exakte Ressourcen-Gesamtmengen, Bauzeiten mit Tempo-Buff und Vorbedingungs-Ketten',
+    currentLevel: 'Aktuelle Zuflucht-Stufe:',
+    targetLevel: 'Ziel-Stufe:',
+    speedBuff: 'Bautempo-Bonus:',
+    totalResources: 'Benötigte Ressourcen:',
+    food: 'Nahrung',
+    timber: 'Holz',
+    herbs: 'Kräuter',
+    timeEst: 'Bauzeit-Kalkulation:',
+    baseTime: 'Basiszeit',
+    actualTime: 'Mit deinem Buff',
+    daysSaved: 'Eingesparte Zeit',
+    prereqs: 'Erforderliche Vorbedingungen (Gebäude):',
+    hammerTipTitle: '💡 Die goldene „Hammer halten“-Regel:',
+    hammerTipText: 'Bau-Punkte im Allianzen-Duell werden erst vergeben, wenn du auf das fertige Hammer-Symbol klickst. Baue Tage im Voraus, aber klicke den Hammer erst am Bautag (Dienstag)!',
+    days: 'T',
+    hours: 'Std',
+    millions: 'M',
+    billions: 'Mrd',
+  },
+  es: {
+    title: 'Planificador de Mejora del Santuario',
+    subtitle: 'Cálculo de recursos, tiempo con bonus de velocidad y requisitos de edificios',
+    currentLevel: 'Nivel actual del Santuario:',
+    targetLevel: 'Nivel deseado:',
+    speedBuff: 'Bonus de velocidad de construcción:',
+    totalResources: 'Recursos totales necesarios:',
+    food: 'Comida',
+    timber: 'Madera',
+    herbs: 'Hierbas',
+    timeEst: 'Tiempo de construcción:',
+    baseTime: 'Tiempo base',
+    actualTime: 'Con tu bonus',
+    daysSaved: 'Tiempo ahorrado',
+    prereqs: 'Edificios prerrequisito obligatorios:',
+    hammerTipTitle: '💡 Regla de oro «Aguanta el martillo»:',
+    hammerTipText: 'Los puntos de construcción en el Duelo de Alianzas solo se otorgan al pulsar el martillo de finalización. ¡Inicia la obra con días de antelación pero NO pulses el martillo hasta el martes!',
+    days: 'd',
+    hours: 'h',
+    millions: 'M',
+    billions: 'B',
+  },
+  fr: {
+    title: 'Planificateur du Sanctuaire',
+    subtitle: 'Ressources totales, temps de construction avec bonus et bâtiments prérequis',
+    currentLevel: 'Niveau actuel du Sanctuaire :',
+    targetLevel: 'Niveau ciblé :',
+    speedBuff: 'Bonus de vitesse de construction :',
+    totalResources: 'Ressources totales requises :',
+    food: 'Nourriture',
+    timber: 'Bois',
+    herbs: 'Herbes',
+    timeEst: 'Temps de construction :',
+    baseTime: 'Temps de base',
+    actualTime: 'Avec votre bonus',
+    daysSaved: 'Temps économisé',
+    prereqs: 'Bâtiments prérequis obligatoires :',
+    hammerTipTitle: '💡 La règle d\'or « Gardez le marteau » :',
+    hammerTipText: 'Les points de puissance de construction ne sont accordés que lorsque vous cliquez sur le marteau d\'achèvement. Lancez vos travaux en avance mais attendez le mardi !',
+    days: 'j',
+    hours: 'h',
+    millions: 'M',
+    billions: 'Md',
+  },
+  id: {
+    title: 'Kalkulator Upgrade Sanctuary',
+    subtitle: 'Total sumber daya, waktu konstruksi dengan buff kecepatan dan rantai prasyarat',
+    currentLevel: 'Level Sanctuary Saat Ini:',
+    targetLevel: 'Level Target:',
+    speedBuff: 'Buff Kecepatan Konstruksi:',
+    totalResources: 'Total Sumber Daya Diperlukan:',
+    food: 'Pangan',
+    timber: 'Kayu',
+    herbs: 'Herbal',
+    timeEst: 'Waktu Konstruksi:',
+    baseTime: 'Waktu Dasar',
+    actualTime: 'Dengan Buff Anda',
+    daysSaved: 'Waktu Dihemat',
+    prereqs: 'Bangunan Prasyarat yang Dibutuhkan:',
+    hammerTipTitle: '💡 Aturan Emas «Tahan Palu»:',
+    hammerTipText: 'Poin Might Bangunan di Duel Aliansi hanya diberikan saat Anda mengetuk ikon Palu penyelesaian. Mulai upgrade jauh hari sebelumnya, tapi JANGAN ketuk palu sampai Hari Konstruksi (Selasa)!',
+    days: 'h',
+    hours: 'j',
+    millions: 'Jt',
+    billions: 'M',
+  },
+  ja: {
+    title: '避難所レベルアップ計算機',
+    subtitle: '必要資源・建設速度バフ適用後の実所要時間・前提条件施設の完全シミュレーション',
+    currentLevel: '現在の避難所レベル：',
+    targetLevel: '目標レベル：',
+    speedBuff: '建設速度バフ：',
+    totalResources: '必要資源合計：',
+    food: '食糧',
+    timber: '木材',
+    herbs: '薬草',
+    timeEst: '建設所要時間：',
+    baseTime: '基本時間',
+    actualTime: 'バフ適用後',
+    daysSaved: '短縮時間',
+    prereqs: '必要な前提条件施設（Prerequisites）：',
+    hammerTipTitle: '💡 黄金の「ハンマー温存」ルール：',
+    hammerTipText: '連盟対決での施設戦力ポイントは、完了アイコン（ハンマー）をタップした瞬間に付与されます。事前に建築を開始し、建設日（火曜日）が来るまでハンマーを押さずにキープしましょう！',
+    days: '日',
+    hours: '時間',
+    millions: '万',
+    billions: '億',
+  },
+  ko: {
+    title: '안식처 업그레이드 계산기',
+    subtitle: '필요 자원 총량, 건설 가속 버프 적용 실소요 시간 및 선행 건물 조건 완벽 시뮬레이션',
+    currentLevel: '현재 안식처 레벨:',
+    targetLevel: '목표 레벨:',
+    speedBuff: '건설 속도 버프:',
+    totalResources: '총 소모 자원:',
+    food: '식량',
+    timber: '목재',
+    herbs: '약초',
+    timeEst: '건설 소요 시간:',
+    baseTime: '기본 시간',
+    actualTime: '버프 적용 후',
+    daysSaved: '단축된 시간',
+    prereqs: '필수 선행 건물 목록 (Prerequisites):',
+    hammerTipTitle: '💡 황금의 «망치 보관» 법칙:',
+    hammerTipText: '연맹 대결의 건물 전투력 포인트는 완료 망치 아이콘을 누르는 순간 획득됩니다. 미리 건설해 두고, 화요일 건설의 날이 올 때까지 절대 망치를 누르지 마세요!',
+    days: '일',
+    hours: '시간',
+    millions: '백만',
+    billions: '억',
+  },
+  pt: {
+    title: 'Planejador de Evolução do Santuário',
+    subtitle: 'Recursos totais, tempo líquido com bônus de velocidade e cadeia de pré-requisitos',
+    currentLevel: 'Nível atual do Santuário:',
+    targetLevel: 'Nível desejado:',
+    speedBuff: 'Bônus de velocidade de construção:',
+    totalResources: 'Recursos totais necessários:',
+    food: 'Comida',
+    timber: 'Madeira',
+    herbs: 'Ervas',
+    timeEst: 'Tempo de construção:',
+    baseTime: 'Tempo base',
+    actualTime: 'Com seu bônus',
+    daysSaved: 'Tempo economizado',
+    prereqs: 'Edifícios pré-requisitos obrigatórios:',
+    hammerTipTitle: '💡 A Regra de Ouro «Segure o Martelo»:',
+    hammerTipText: 'Pontos de construção no Duelo de Alianças só são concedidos quando você clica no martelo de conclusão. Comece dias antes, mas NÃO clique no martelo até a terça-feira de construção!',
+    days: 'd',
+    hours: 'h',
+    millions: 'M',
+    billions: 'B',
+  }
+};
+
+const texts = i18n[lang as keyof typeof i18n] ?? i18n.en;
+
+// Sanctuary data from level 10 to 30
+const sanctuaryLevels = [
+  { level: 11, food: 220000, timber: 220000, herbs: 0, hours: 7.5, prereq: 'Wall Lv.10, Farm Lv.10' },
+  { level: 12, food: 360000, timber: 360000, herbs: 0, hours: 12.5, prereq: 'Wall Lv.11, Lumberyard Lv.11' },
+  { level: 13, food: 580000, timber: 580000, herbs: 0, hours: 19, prereq: 'Wall Lv.12, Infirmary Lv.12' },
+  { level: 14, food: 920000, timber: 920000, herbs: 0, hours: 28, prereq: 'Wall Lv.13, Training Grounds Lv.13' },
+  { level: 15, food: 1450000, timber: 1450000, herbs: 0, hours: 42, prereq: 'Wall Lv.14, Farm Lv.14' },
+  { level: 16, food: 2300000, timber: 2300000, herbs: 150000, hours: 64, prereq: 'Wall Lv.15, Lumberyard Lv.15' },
+  { level: 17, food: 3600000, timber: 3600000, herbs: 320000, hours: 96, prereq: 'Wall Lv.16, Infirmary Lv.16' },
+  { level: 18, food: 5800000, timber: 5800000, herbs: 680000, hours: 144, prereq: 'Wall Lv.17, Training Grounds Lv.17' },
+  { level: 19, food: 9200000, timber: 9200000, herbs: 1400000, hours: 216, prereq: 'Wall Lv.18, Herb Garden Lv.18' },
+  { level: 20, food: 14500000, timber: 14500000, herbs: 2800000, hours: 320, prereq: 'Wall Lv.19, Barracks Lv.19' },
+  { level: 21, food: 23000000, timber: 23000000, herbs: 5500000, hours: 480, prereq: 'Wall Lv.20, Smelting Workshop Lv.20' },
+  { level: 22, food: 36000000, timber: 36000000, herbs: 11000000, hours: 700, prereq: 'Wall Lv.21, Weaving Workshop Lv.21' },
+  { level: 23, food: 56000000, timber: 56000000, herbs: 21000000, hours: 1020, prereq: 'Wall Lv.22, Gear Workshop Lv.22' },
+  { level: 24, food: 88000000, timber: 88000000, herbs: 38000000, hours: 1480, prereq: 'Wall Lv.23, Alliance Hall Lv.23' },
+  { level: 25, food: 138000000, timber: 138000000, herbs: 68000000, hours: 2150, prereq: 'Wall Lv.24, 1st Lab Lv.24' },
+  { level: 26, food: 210000000, timber: 210000000, herbs: 120000000, hours: 3100, prereq: 'Wall Lv.25, Granary Lv.25' },
+  { level: 27, food: 320000000, timber: 320000000, herbs: 210000000, hours: 4400, prereq: 'Wall Lv.26, Lumber Depot Lv.26' },
+  { level: 28, food: 480000000, timber: 480000000, herbs: 360000000, hours: 6200, prereq: 'Wall Lv.27, Herb Storage Lv.27' },
+  { level: 29, food: 720000000, timber: 720000000, herbs: 610000000, hours: 8600, prereq: 'Wall Lv.28, Watchtower Lv.28' },
+  { level: 30, food: 1050000000, timber: 1050000000, herbs: 980000000, hours: 11800, prereq: 'Wall Lv.29, Lord Statue Lv.29' },
+];
+---
+
+<div class="not-prose my-8 rounded-xl border border-stone-800 bg-stone-900/95 p-5 shadow-xl" id="sanctuary-calc-container">
+  <div class="border-b border-stone-800 pb-4">
+    <h3 class="text-xl font-bold text-plague-200 flex items-center gap-2">
+      <span>🏰</span>
+      <span>{texts.title}</span>
+    </h3>
+    <p class="text-xs text-stone-400 mt-0.5">{texts.subtitle}</p>
+  </div>
+
+  <!-- Interactive Controls Grid -->
+  <div class="mt-5 grid gap-4 sm:grid-cols-3">
+    <div>
+      <label for="sc-current" class="block text-xs font-semibold text-stone-300 mb-1">
+        {texts.currentLevel}
+      </label>
+      <select
+        id="sc-current"
+        class="w-full rounded-lg border border-stone-700 bg-stone-800 px-3 py-2 text-sm text-stone-200 focus:border-plague-500 focus:outline-none"
+      >
+        {Array.from({ length: 20 }, (_, i) => i + 10).map((lvl) => (
+          <option value={lvl} selected={lvl === 15}>Уровень {lvl}</option>
+        ))}
+      </select>
+    </div>
+
+    <div>
+      <label for="sc-target" class="block text-xs font-semibold text-stone-300 mb-1">
+        {texts.targetLevel}
+      </label>
+      <select
+        id="sc-target"
+        class="w-full rounded-lg border border-stone-700 bg-stone-800 px-3 py-2 text-sm text-stone-200 focus:border-plague-500 focus:outline-none"
+      >
+        {Array.from({ length: 20 }, (_, i) => i + 11).map((lvl) => (
+          <option value={lvl} selected={lvl === 20}>Уровень {lvl}</option>
+        ))}
+      </select>
+    </div>
+
+    <div>
+      <div class="flex justify-between items-center mb-1">
+        <label for="sc-buff" class="text-xs font-semibold text-stone-300">
+          {texts.speedBuff}
+        </label>
+        <span id="sc-buff-val" class="font-mono text-xs font-bold text-toxic-400">+50%</span>
+      </div>
+      <input
+        type="range"
+        id="sc-buff"
+        min="0"
+        max="300"
+        step="5"
+        value="50"
+        class="w-full h-2 bg-stone-800 rounded-lg appearance-none cursor-pointer accent-toxic-400"
+      />
+    </div>
+  </div>
+
+  <!-- Results Summary Cards -->
+  <div class="mt-5 grid gap-3 sm:grid-cols-3">
+    <div class="rounded-lg border border-stone-800 bg-stone-950/60 p-3.5">
+      <p class="text-xs text-stone-400">{texts.food}</p>
+      <p id="sc-res-food" class="text-lg font-bold font-mono text-amber-300 mt-0.5">0</p>
+    </div>
+    <div class="rounded-lg border border-stone-800 bg-stone-950/60 p-3.5">
+      <p class="text-xs text-stone-400">{texts.timber}</p>
+      <p id="sc-res-timber" class="text-lg font-bold font-mono text-emerald-300 mt-0.5">0</p>
+    </div>
+    <div class="rounded-lg border border-stone-800 bg-stone-950/60 p-3.5">
+      <p class="text-xs text-stone-400">{texts.herbs}</p>
+      <p id="sc-res-herbs" class="text-lg font-bold font-mono text-purple-300 mt-0.5">0</p>
+    </div>
+  </div>
+
+  <!-- Time Comparison Cards -->
+  <div class="mt-3 grid gap-3 sm:grid-cols-3">
+    <div class="rounded-lg border border-stone-800 bg-stone-950/40 p-3">
+      <p class="text-[11px] text-stone-400">{texts.baseTime}</p>
+      <p id="sc-time-base" class="text-sm font-semibold font-mono text-stone-300 mt-0.5">0</p>
+    </div>
+    <div class="rounded-lg border border-toxic-500/30 bg-toxic-950/20 p-3">
+      <p class="text-[11px] text-toxic-300 font-semibold">{texts.actualTime}</p>
+      <p id="sc-time-actual" class="text-base font-bold font-mono text-toxic-400 mt-0.5">0</p>
+    </div>
+    <div class="rounded-lg border border-stone-800 bg-stone-950/40 p-3">
+      <p class="text-[11px] text-stone-400">{texts.daysSaved}</p>
+      <p id="sc-time-saved" class="text-sm font-semibold font-mono text-stone-400 mt-0.5">0</p>
+    </div>
+  </div>
+
+  <!-- Prerequisite Chain -->
+  <div class="mt-4 rounded-lg border border-stone-800 bg-stone-950/40 p-4">
+    <h4 class="text-xs font-bold uppercase tracking-wider text-plague-300 mb-2">
+      {texts.prereqs}
+    </h4>
+    <ul id="sc-prereqs-list" class="space-y-1.5 text-xs text-stone-300 font-mono">
+    </ul>
+  </div>
+
+  <!-- Hammer Pro-Tip -->
+  <div class="mt-4 rounded-lg border border-amber-500/30 bg-amber-950/20 p-3.5 text-xs text-amber-200">
+    <p class="font-bold text-amber-300">{texts.hammerTipTitle}</p>
+    <p class="mt-1 text-amber-100/90 leading-relaxed">{texts.hammerTipText}</p>
+  </div>
+</div>
+
+<script define:vars={{ levelsData: sanctuaryLevels, unitDays: texts.days, unitHours: texts.hours, unitM: texts.millions, unitB: texts.billions }}>
+  (function () {
+    const currentSelect = document.getElementById('sc-current');
+    const targetSelect = document.getElementById('sc-target');
+    const buffSlider = document.getElementById('sc-buff');
+    const buffVal = document.getElementById('sc-buff-val');
+
+    const resFood = document.getElementById('sc-res-food');
+    const resTimber = document.getElementById('sc-res-timber');
+    const resHerbs = document.getElementById('sc-res-herbs');
+
+    const timeBase = document.getElementById('sc-time-base');
+    const timeActual = document.getElementById('sc-time-actual');
+    const timeSaved = document.getElementById('sc-time-saved');
+    const prereqsList = document.getElementById('sc-prereqs-list');
+
+    function formatNumber(num) {
+      if (num >= 1000000000) {
+        return (num / 1000000000).toFixed(2) + ' ' + unitB;
+      }
+      if (num >= 1000000) {
+        return (num / 1000000).toFixed(1) + ' ' + unitM;
+      }
+      return num.toLocaleString();
+    }
+
+    function formatHours(h) {
+      const days = Math.floor(h / 24);
+      const remHours = Math.round(h % 24);
+      if (days === 0) return `${remHours}${unitHours}`;
+      return `${days}${unitDays} ${remHours}${unitHours}`;
+    }
+
+    function calculate() {
+      const cur = parseInt(currentSelect.value, 10);
+      let target = parseInt(targetSelect.value, 10);
+      const buff = parseInt(buffSlider.value, 10);
+
+      buffVal.textContent = `+${buff}%`;
+
+      // Keep target > current
+      if (target <= cur) {
+        target = cur + 1;
+        targetSelect.value = target;
+      }
+
+      let totalFood = 0;
+      let totalTimber = 0;
+      let totalHerbs = 0;
+      let totalHours = 0;
+      const prereqs = [];
+
+      for (const item of levelsData) {
+        if (item.level > cur && item.level <= target) {
+          totalFood += item.food;
+          totalTimber += item.timber;
+          totalHerbs += item.herbs;
+          totalHours += item.hours;
+          prereqs.push(`→ Ур. ${item.level}: ${item.prereq}`);
+        }
+      }
+
+      const actualHours = totalHours / (1 + buff / 100);
+      const savedHours = Math.max(0, totalHours - actualHours);
+
+      if (resFood) resFood.textContent = formatNumber(totalFood);
+      if (resTimber) resTimber.textContent = formatNumber(totalTimber);
+      if (resHerbs) resHerbs.textContent = formatNumber(totalHerbs);
+
+      if (timeBase) timeBase.textContent = formatHours(totalHours);
+      if (timeActual) timeActual.textContent = formatHours(actualHours);
+      if (timeSaved) timeSaved.textContent = `-${formatHours(savedHours)}`;
+
+      if (prereqsList) {
+        prereqsList.innerHTML = '';
+        if (prereqs.length === 0) {
+          prereqsList.innerHTML = '<li class="text-stone-500">Уже на этом уровне</li>';
+        } else {
+          prereqs.forEach((p) => {
+            const li = document.createElement('li');
+            li.textContent = p;
+            prereqsList.appendChild(li);
+          });
+        }
+      }
+    }
+
+    currentSelect.addEventListener('change', calculate);
+    targetSelect.addEventListener('change', calculate);
+    buffSlider.addEventListener('input', calculate);
+
+    calculate();
+  })();
+</script>

@@ -1,0 +1,376 @@
+---
+import type { Lang } from '../i18n/utils';
+
+interface Props {
+  lang?: Lang;
+}
+
+const { lang = 'en' } = Astro.props;
+
+const i18n = {
+  ru: {
+    title: 'Калькулятор контрпиков и матрица PvP',
+    subtitle: 'Интерактивный подбор контр-отряда по правилу треугольника классов и вражеским керри',
+    selectClass: 'Класс вражеского отряда:',
+    selectCarry: 'ИЛИ конкретный керри врага:',
+    warrior: '⚔️ Воины (Warriors)',
+    ranger: '🏹 Стрелки (Rangers)',
+    sorcerer: '🧙‍♂️ Колдуны (Sorcerers)',
+    counterClass: 'Рекомендуемый контр-класс:',
+    bonusText: '+25% бонусного урона в бою',
+    frontline: 'Рекомендуемый авангард (Танки):',
+    backline: 'Рекомендуемый арьергард (Керри / Саппорты):',
+    tactics: 'Тактические советы для победы:',
+    chooseNone: '-- Выберите керри (опционально) --',
+  },
+  en: {
+    title: 'PvP Counter Matrix & Matchup Calculator',
+    subtitle: 'Tactical squad builder based on class triangle dominance and enemy carry counters',
+    selectClass: 'Enemy Primary Class:',
+    selectCarry: 'OR Enemy Main Carry Hero:',
+    warrior: '⚔️ Warriors',
+    ranger: '🏹 Rangers',
+    sorcerer: '🧙‍♂️ Sorcerers',
+    counterClass: 'Recommended Counter Class:',
+    bonusText: '+25% battle damage advantage',
+    frontline: 'Recommended Frontline (Tanks):',
+    backline: 'Recommended Backline (Carries / Support):',
+    tactics: 'Key Tactical Advice:',
+    chooseNone: '-- Select Carry Hero (Optional) --',
+  },
+  de: {
+    title: 'PvP-Konter-Matrix & Aufstellungs-Rechner',
+    subtitle: 'Taktische Teamauswahl basierend auf Klassen-Vorteilen und Helden-Kontern',
+    selectClass: 'Hauptklasse des Gegners:',
+    selectCarry: 'ODER gegnerischer Carry-Held:',
+    warrior: '⚔️ Krieger (Warriors)',
+    ranger: '🏹 Waldläufer (Rangers)',
+    sorcerer: '🧙‍♂️ Zauberer (Sorcerers)',
+    counterClass: 'Empfohlene Konter-Klasse:',
+    bonusText: '+25% Schadensvorteil im Kampf',
+    frontline: 'Empfohlene Frontline (Tanks):',
+    backline: 'Empfohlene Backline (Carries / Support):',
+    tactics: 'Taktische Siegestipps:',
+    chooseNone: '-- Carry-Held wählen (optional) --',
+  },
+  es: {
+    title: 'Matriz de Contraataque y Calculadora PvP',
+    subtitle: 'Elección táctica de equipo basada en el triángulo de clases y héroes carry enemigos',
+    selectClass: 'Clase principal enemiga:',
+    selectCarry: 'O héroe carry enemigo:',
+    warrior: '⚔️ Guerreros',
+    ranger: '🏹 Tiradores',
+    sorcerer: '🧙‍♂️ Hechiceros',
+    counterClass: 'Clase recomendada de contraataque:',
+    bonusText: '+25% de ventaja de daño en combate',
+    frontline: 'Vanguardia recomendada (Tanques):',
+    backline: 'Línea trasera recomendada (Carries / Soporte):',
+    tactics: 'Consejos tácticos clave:',
+    chooseNone: '-- Seleccionar carry (opcional) --',
+  },
+  fr: {
+    title: 'Matrice de Contre PvP & Formations',
+    subtitle: 'Sélection d\'équipe basée sur le triangle des classes et le contre des héros adverses',
+    selectClass: 'Classe principale ennemie :',
+    selectCarry: 'OU Héros carry adverse :',
+    warrior: '⚔️ Guerriers',
+    ranger: '🏹 Tireurs',
+    sorcerer: '🧙‍♂️ Ensorceleurs',
+    counterClass: 'Classe de contre recommandée :',
+    bonusText: '+25% d\'avantage de dégâts en combat',
+    frontline: 'Première ligne recommandée (Tanks) :',
+    backline: 'Arrière-garde recommandée (Carries / Support) :',
+    tactics: 'Conseils tactiques clés :',
+    chooseNone: '-- Choisir un carry (optionnel) --',
+  },
+  id: {
+    title: 'Matriks Counter & Kalkulator PvP',
+    subtitle: 'Pemilihan formasi taktis berdasarkan segitiga kelas dan counter hero lawan',
+    selectClass: 'Kelas Utama Musuh:',
+    selectCarry: 'ATAU Hero Carry Musuh:',
+    warrior: '⚔️ Warrior (Prajurit)',
+    ranger: '🏹 Ranger (Pemanah)',
+    sorcerer: '🧙‍♂️ Sorcerer (Penyihir)',
+    counterClass: 'Kelas Counter yang Direkomendasikan:',
+    bonusText: '+25% keunggulan damage tempur',
+    frontline: 'Garis Depan Direkomendasikan (Tank):',
+    backline: 'Garis Belakang Direkomendasikan (Carry / Support):',
+    tactics: 'Saran Taktis Kunci:',
+    chooseNone: '-- Pilih Carry (Opsional) --',
+  },
+  ja: {
+    title: 'PvP相性マトリクス＆カウンター計算機',
+    subtitle: '兵種相性三角関係と敵エース英雄対策に基づく最適編成シミュレーター',
+    selectClass: '敵の主要クラス：',
+    selectCarry: 'または敵のエース英雄（Carry）：',
+    warrior: '⚔️ 戦士（Warriors）',
+    ranger: '🏹 射手（Rangers）',
+    sorcerer: '🧙‍♂️ 魔導士（Sorcerers）',
+    counterClass: '推奨カウンタークラス：',
+    bonusText: '戦闘時ダメージ+25%有利ボーナス',
+    frontline: '推奨前衛（タンク）：',
+    backline: '推奨後衛（アタッカー・支援）：',
+    tactics: '必勝の戦術アドバイス：',
+    chooseNone: '-- エース英雄を選択（任意） --',
+  },
+  ko: {
+    title: 'PvP 상성 매트릭스 & 카운터 계산기',
+    subtitle: '클래스 상성 삼각형 법칙 및 적 캐리 영웅에 맞춘 최적 카운터 조합 시뮬레이터',
+    selectClass: '적 주력 클래스:',
+    selectCarry: '또는 적 핵심 캐리 영웅:',
+    warrior: '⚔️ 전사 (Warriors)',
+    ranger: '🏹 레인저 (Rangers)',
+    sorcerer: '🧙‍♂️ 마법사 (Sorcerers)',
+    counterClass: '추천 카운터 클래스:',
+    bonusText: '전투 시 +25% 대미지 우위 보너스',
+    frontline: '추천 전열 (탱커):',
+    backline: '추천 후열 (딜러 / 서포터):',
+    tactics: '핵심 전투 전술 조언:',
+    chooseNone: '-- 캐리 영웅 선택 (선택 사항) --',
+  },
+  pt: {
+    title: 'Matriz de Contra-Ataque e Calculadora PvP',
+    subtitle: 'Montagem tática de equipe baseada no triângulo de classes e counters de heróis',
+    selectClass: 'Classe principal inimiga:',
+    selectCarry: 'OU Herói carry adversário:',
+    warrior: '⚔️ Guerreiros',
+    ranger: '🏹 Atiradores',
+    sorcerer: '🧙‍♂️ Feiticeiros',
+    counterClass: 'Classe de contra-ataque recomendada:',
+    bonusText: '+25% de vantagem de dano em combate',
+    frontline: 'Linha de frente recomendada (Tanques):',
+    backline: 'Linha de trás recomendada (Carries / Suporte):',
+    tactics: 'Dicas táticas de vitória:',
+    chooseNone: '-- Selecionar carry (opcional) --',
+  }
+};
+
+const texts = i18n[lang as keyof typeof i18n] ?? i18n.en;
+---
+
+<div class="not-prose my-8 rounded-xl border border-stone-800 bg-stone-900/95 p-5 shadow-xl" id="pvp-matrix-container">
+  <div class="border-b border-stone-800 pb-4">
+    <h3 class="text-xl font-bold text-plague-200 flex items-center gap-2">
+      <span>⚔️</span>
+      <span>{texts.title}</span>
+    </h3>
+    <p class="text-xs text-stone-400 mt-0.5">{texts.subtitle}</p>
+  </div>
+
+  <!-- Selection Controls -->
+  <div class="mt-5 grid gap-4 sm:grid-cols-2">
+    <div>
+      <label for="pvp-class-select" class="block text-xs font-semibold text-stone-300 mb-1.5">
+        {texts.selectClass}
+      </label>
+      <select
+        id="pvp-class-select"
+        class="w-full rounded-lg border border-stone-700 bg-stone-800 px-3 py-2 text-sm text-stone-200 focus:border-plague-500 focus:outline-none"
+      >
+        <option value="ranger" selected>{texts.ranger}</option>
+        <option value="sorcerer">{texts.sorcerer}</option>
+        <option value="warrior">{texts.warrior}</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="pvp-carry-select" class="block text-xs font-semibold text-stone-300 mb-1.5">
+        {texts.selectCarry}
+      </label>
+      <select
+        id="pvp-carry-select"
+        class="w-full rounded-lg border border-stone-700 bg-stone-800 px-3 py-2 text-sm text-stone-200 focus:border-plague-500 focus:outline-none"
+      >
+        <option value="">{texts.chooseNone}</option>
+        <option value="marlena">Marlena (UR Ranger — Burst DMG)</option>
+        <option value="cynthia">Cynthia (UR Sorcerer — Poison/Control)</option>
+        <option value="zoya">Zoya (UR Sorcerer — Sustained AoE)</option>
+        <option value="annie">Annie (SSR Sorcerer — Bleed/Burn)</option>
+        <option value="arthur">Arthur (SSR Warrior — Physical Tank)</option>
+        <option value="red_lady">Red Lady (SSR Ranger — Piercing)</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Counter Results Output -->
+  <div class="mt-5 rounded-xl border border-stone-800 bg-stone-950/70 p-4 space-y-4">
+    <!-- Advantage Header -->
+    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 border-b border-stone-800 pb-3">
+      <div>
+        <span class="text-xs text-stone-400">{texts.counterClass}</span>
+        <p id="pvp-counter-class-name" class="text-lg font-bold text-toxic-400">⚔️ Воины (Warriors)</p>
+      </div>
+      <span class="inline-flex items-center gap-1 rounded-full bg-toxic-500/20 px-3 py-1 text-xs font-bold text-toxic-300 border border-toxic-500/30">
+        ⚡ {texts.bonusText}
+      </span>
+    </div>
+
+    <!-- Recommended Squad Slots -->
+    <div class="grid gap-3 sm:grid-cols-2">
+      <div class="rounded-lg border border-stone-800/80 bg-stone-900/60 p-3">
+        <p class="text-xs font-bold text-plague-300 uppercase tracking-wider mb-2">
+          🛡️ {texts.frontline}
+        </p>
+        <div id="pvp-frontline-list" class="space-y-1 text-xs text-stone-200">
+          <p class="font-mono">1. Daskal (Даскал) — Стан и физ. защита</p>
+          <p class="font-mono">2. Arthur (Артур) — Щит и выживаемость</p>
+        </div>
+      </div>
+
+      <div class="rounded-lg border border-stone-800/80 bg-stone-900/60 p-3">
+        <p class="text-xs font-bold text-plague-300 uppercase tracking-wider mb-2">
+          🎯 {texts.backline}
+        </p>
+        <div id="pvp-backline-list" class="space-y-1 text-xs text-stone-200">
+          <p class="font-mono">3. Ulfrid (Ульфрид) — Массовое замедление</p>
+          <p class="font-mono">4. Billy (Билли) — Дополнительный бурст</p>
+          <p class="font-mono">5. Nicole (Николь) — Поддержка и щиты</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tactical Tip Banner -->
+    <div class="rounded-lg border border-amber-500/30 bg-amber-950/20 p-3.5 text-xs text-amber-200">
+      <p class="font-bold text-amber-300">💡 {texts.tactics}</p>
+      <p id="pvp-tactics-text" class="mt-1 text-amber-100/90 leading-relaxed">
+        Против стрелков ставьте плотных воинов с высоким бонусом брони. Воины снижают входящий физический урон на 25% и блокируют криты Марлены и Ред Леди.
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+  (function () {
+    const classSelect = document.getElementById('pvp-class-select') as HTMLSelectElement;
+    const carrySelect = document.getElementById('pvp-carry-select') as HTMLSelectElement;
+
+    const counterClassName = document.getElementById('pvp-counter-class-name');
+    const frontlineList = document.getElementById('pvp-frontline-list');
+    const backlineList = document.getElementById('pvp-backline-list');
+    const tacticsText = document.getElementById('pvp-tactics-text');
+
+    const matchupData: Record<string, { counter: string; front: string[]; back: string[]; tip: string }> = {
+      ranger: {
+        counter: '⚔️ Воины (Warriors) — Преимущество над Стрелками',
+        front: [
+          '1. Daskal (Даскал) — Мощный стан и снижение физ. урона',
+          '2. Arthur / Ulfrid — Щиты и высокий показатель Block'
+        ],
+        back: [
+          '3. Nicole (Николь) — Бафф брони всего отряда',
+          '4. Billy (Билли) — Рассекающий урон ближнего боя',
+          '5. Bestar / Rui — Добивание уязвимых стрелков'
+        ],
+        tip: 'Воины имеют +25% сопротивления и урона по Стрелкам. Их тяжелая броня нивелирует критические выстрелы, а оглушение не дает стрелкам разрядить ульту.'
+      },
+      sorcerer: {
+        counter: '🏹 Стрелки (Rangers) — Преимущество над Колдунами',
+        front: [
+          '1. Celia (Селия) — Уклонение и мобильный фронт',
+          '2. Bella (Белла) — Контроль первых рядов'
+        ],
+        back: [
+          '3. Marlena (Марлена) — Сверхбыстрый взрывной урон (Burst)',
+          '4. Red Lady (Ред Леди) — Пробивающий урон сквозь ряды',
+          '5. Belle (Белль) — Замедление каста вражеских магов'
+        ],
+        tip: 'Колдуны наносят огромный урон с течением времени, но крайне уязвимы к быстрому фокус-урону. Стрелки уничтожают магов за первые 5-8 секунд боя до активации массового яда.'
+      },
+      warrior: {
+        counter: '🧙‍♂️ Колдуны (Sorcerers) — Преимущество над Воинами',
+        front: [
+          '1. Hastar (Хастар) — Магический вампиризм',
+          '2. Stellar (Стеллар) — Энергетический щит'
+        ],
+        back: [
+          '3. Cynthia (Синтия) — Процентный урон ядом сквозь броню',
+          '4. Annie (Энни) — Поджог и сжигание защиты танков',
+          '5. Joker / Shadow — Снижение скорости атаки врагов'
+        ],
+        tip: 'Броня Воинов бессильна против энергетического и стихийного урона Колдунов. Яд Синтии и ожоги Энни игнорируют защиту и быстро плавят вражеских танков.'
+      }
+    };
+
+    const carrySpecific: Record<string, { counter: string; front: string[]; back: string[]; tip: string }> = {
+      marlena: {
+        counter: '⚔️ Контр-пик против Марлены: Воины со станом',
+        front: [
+          '1. Daskal — Оглушение прерывает цепь критов Марлены',
+          '2. Arthur / Ulfrid — Толстый физический щит'
+        ],
+        back: [
+          '3. Nicole — Снижение шанса критического удара',
+          '4. Bestar — Захват цели на задней линии',
+          '5. Billy — Высокий базовый урон'
+        ],
+        tip: 'Марлена наносит более 80% урона всего отряда. Фокусируйте контроль на ней: один стан Даскала лишает вражеский сквад всего атакующего потенциала.'
+      },
+      cynthia: {
+        counter: '🏹 Контр-пик против Синтии: Скоростные Стрелки (Burst)',
+        front: [
+          '1. Celia — Высокое уклонение от магических луж',
+          '2. Lucius — Снятие периодического урона'
+        ],
+        back: [
+          '3. Marlena — Мгновенный взрыв до накопления яда',
+          '4. Red Lady — Прострел Синтии на 3-й позиции',
+          '5. Belle — Замедление набора ульты'
+        ],
+        tip: 'Синтия опасна на 15+ секунде боя, когда стаки яда максимальны. Используйте состав с высоким начальным темпом (Rangers 4+1), чтобы устранить её сразу.'
+      },
+      zoya: {
+        counter: '🏹 Контр-пик против Зои: Стрелки с точечным уроном',
+        front: ['1. Celia / Bella — Удержание линии', '2. Daskal — Защита от вторичного урона'],
+        back: ['3. Marlena — Фокус по Зое', '4. Red Lady — Пробитие призванных существ', '5. Claire — Добивание'],
+        tip: 'Зоя сильна затяжным AoE. Фокусируйте прямой урон стрелков сквозь её призывы.'
+      },
+      annie: {
+        counter: '🏹 Контр-пик против Энни: Снятие дебаффов и взрывной урон',
+        front: ['1. Celia', '2. Lucius'],
+        back: ['3. Marlena', '4. Red Lady', '5. Belle'],
+        tip: 'Ожоги Энни сжигают процентное здоровье. Быстрый бурст стрелков выключает её до нанесения критического урона.'
+      },
+      arthur: {
+        counter: '🧙‍♂️ Контр-пик против Артура: Магический яд и ожоги',
+        front: ['1. Hastar', '2. Stellar'],
+        back: ['3. Cynthia — Игнорирование щита Артура', '4. Annie — Плавление хитпоинтов', '5. Joker'],
+        tip: 'Физический щит Артура бесполезен против магии. Колдуны пробивают его защиту в первые же секунды.'
+      },
+      red_lady: {
+        counter: '⚔️ Контр-пик против Ред Леди: Воины с блоком',
+        front: ['1. Daskal', '2. Ulfrid'],
+        back: ['3. Nicole', '4. Billy', '5. Bestar'],
+        tip: 'Ред Леди бьет по прямой линии. Ставьте перед ней танка со снижением пробивания.'
+      }
+    };
+
+    function update() {
+      const selectedCarry = carrySelect.value;
+      const selectedClass = classSelect.value;
+
+      let data;
+      if (selectedCarry && carrySpecific[selectedCarry]) {
+        data = carrySpecific[selectedCarry];
+      } else {
+        data = matchupData[selectedClass] || matchupData.ranger;
+      }
+
+      if (counterClassName) counterClassName.textContent = data.counter;
+      if (frontlineList) {
+        frontlineList.innerHTML = data.front.map(f => `<p class="font-mono">${f}</p>`).join('');
+      }
+      if (backlineList) {
+        backlineList.innerHTML = data.back.map(b => `<p class="font-mono">${b}</p>`).join('');
+      }
+      if (tacticsText) tacticsText.textContent = data.tip;
+    }
+
+    classSelect.addEventListener('change', () => {
+      carrySelect.value = '';
+      update();
+    });
+    carrySelect.addEventListener('change', update);
+
+    update();
+  })();
+</script>

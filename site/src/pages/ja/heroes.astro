@@ -2,6 +2,8 @@
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
 import VideoSection from '../../components/VideoSection.astro';
+import SquadBuilder from '../../components/SquadBuilder.astro';
+import PvPMatrix from '../../components/PvPMatrix.astro';
 import { t } from '../../i18n/ui';
 import type { Lang } from '../../i18n/utils';
 
@@ -106,6 +108,8 @@ const lang: Lang = 'ja';
     </table>
     <p>この内訳を診断に使いましょう：戦力がヒーロー偏重で兵士不足なら、取り返しのつかない軍隊を失う1回の敗戦から1歩のところにいます。兵士偏重でヒーロー不足なら、出撃が見かけの戦力以下の打撃しか出せません。最強のアカウントは各山を概ね比例させます — それはまさに、建設優先順序とF2P部隊タイムラインに従うことが自動でやってくれることです。</p>
 
+    <SquadBuilder lang={lang} />
+    <PvPMatrix lang={lang} />
     <VideoSection topic="heroes" lang={lang} />
   </GuidePage>
 </Base>

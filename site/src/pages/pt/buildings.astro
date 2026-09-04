@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
 import VideoSection from '../../components/VideoSection.astro';
+import SanctuaryCalc from '../../components/SanctuaryCalc.astro';
 import { t } from '../../i18n/ui';
 import type { Lang } from '../../i18n/utils';
 
@@ -113,6 +114,7 @@ const lang: Lang = 'pt';
     </table>
     <p>E mantenha a mistura equilibrada: tenha sempre Grão, Madeira e Ervas em estoque. Melhorias tardias devoram as três ao mesmo tempo, e ficar seco em qualquer uma no meio do empurrão desperdiça exatamente o cronômetro que você empilhou bônus para economizar.</p>
 
+    <SanctuaryCalc lang={lang} />
     <VideoSection topic="buildings" lang={lang} />
   </GuidePage>
 </Base>

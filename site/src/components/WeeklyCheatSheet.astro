@@ -1,0 +1,179 @@
+---
+import type { Lang } from '../i18n/utils';
+
+interface Props {
+  lang?: Lang;
+}
+
+const { lang = 'en' } = Astro.props;
+
+const i18n = {
+  ru: {
+    title: 'Шпаргалка недели (Cheat Sheet)',
+    subtitle: 'Компактная памятка по всем 7 дням событий — для второго монитора или печати на лист А4',
+    printBtn: '🖨️ Печать / Сохранить в PDF',
+    dayCol: 'День недели',
+    eventCol: 'Событие и фокус',
+    actionCol: 'Что делать СЕГОДНЯ',
+    saveCol: 'Что СТРОГО КОПИТЬ (не тратить)',
+    pointsCol: 'Ключевые очки',
+    mon: 'Пн (День 1)',
+    tue: 'Вт (День 2)',
+    wed: 'Ср (День 3)',
+    thu: 'Чт (День 4)',
+    fri: 'Пт (День 5)',
+    sat: 'Сб (День 6)',
+    sun: 'Вс (День 7)',
+    monAction: '🟢 Сжечь всю Сущность Ворона и Плоды Ворона. Собрать соколиные квесты с воскресенья.',
+    monSave: '⏳ Антитоксин, осколки героев, книги навыков, ускорения тренировки.',
+    monPoints: 'Сущность Ворона = 5 125 очк, Falcon = 25 500 очк.',
+    tueAction: '🟢 Использовать ускорения стройки и выживших. Отправить UR караваны и спецоперации.',
+    tueSave: '⏳ Выполнить соколиные задания, но НЕ забирать (держать красную точку до среды!).',
+    tuePoints: 'UR Караван = 210K очк, UR Спецоперация = 157.5K очк, 1 мин стройки = 127.5 очк.',
+    wedAction: '🟢 Открыть сундуки снаряжения Ворона 1-3 ур., сжечь свитки учений и ускорения науки.',
+    wedSave: '⏳ Не открывать сундуки Ворона 4+ ур. (если нет цели брать топ). Копить героев.',
+    wedPoints: 'Сундук Ворона ур.3 = 20.5K очк, Свиток = 615 очк, 1 мин науки = 127.5 очк.',
+    thuAction: '🟢 ДЕНЬ ГЕРОЕВ! Слить ВСЕ осколки героев (SSR/SR/R), книги навыков и накопленный антитоксин.',
+    thuSave: '⏳ Ускорения тренировки войск (беречь на пятницу!).',
+    thuPoints: '1 осколок SSR = 20.5K очк, 10 осколков = 205K очк! Антитоксин дает 2M+ очков.',
+    friAction: '🟢 Сжечь ВСЕ ускорения тренировки войск! Апать солдат строго на +1 тир за раз.',
+    friSave: '⏳ Не тренировать солдат с нуля (апгрейд солдата дает больше очков на единицу времени).',
+    friPoints: '1 мин тренировки = 127.5 очк (+30% бонус), солдат T10 = 264 очк (в 5.5 раз выше T1).',
+    satAction: '🟢 PvP и битвы за башни. Рейды на чужие караваны, слив оставшихся боевых ускорений.',
+    satSave: '⏳ Завершить бой до сброса сервера.',
+    satPoints: 'Победа над T10 врагом = 132 очк, потери тоже идут в зачет (22.5 очк).',
+    sunAction: '🟢 Закрыть недельные магазины, выполнить соколиные квесты на понедельник.',
+    sunSave: '⏳ НЕ забирать соколиные квесты до 00:00 UTC понедельника!',
+    sunPoints: 'Сброс магазинов, перезапуск недельного цикла.',
+    footerReset: '⏰ Сброс дня: 00:00 UTC | Лимит грабежа: 02:00 UTC | Двойной зачет с Битвой выживания',
+  },
+  en: {
+    title: 'Weekly Event Cheat Sheet',
+    subtitle: 'Compact 7-day survival schedule — print-optimized for single-page A4 or second screen',
+    printBtn: '🖨️ Print / Save as PDF',
+    dayCol: 'Day',
+    eventCol: 'Theme & Focus',
+    actionCol: 'Actions to DO TODAY',
+    saveCol: 'Items to STRICTLY SAVE',
+    pointsCol: 'Key Multipliers',
+    mon: 'Mon (Day 1)',
+    tue: 'Tue (Day 2)',
+    wed: 'Wed (Day 3)',
+    thu: 'Thu (Day 4)',
+    fri: 'Fri (Day 5)',
+    sat: 'Sat (Day 6)',
+    sun: 'Sun (Day 7)',
+    monAction: '🟢 Dump all Raven Essence & Raven Fruit. Collect saved Falcon quests from Sunday.',
+    monSave: '⏳ Antitoxin, Hero Shards, Skill Books, Training speedups.',
+    monPoints: 'Raven Essence = 5,125 pts, Falcon = 25,500 pts.',
+    tueAction: '🟢 Burn building speedups & recruit survivors. Dispatch UR Caravans & Covert Ops.',
+    tueSave: '⏳ Finish Falcon quests but DO NOT claim (Hold red dot until Wednesday!).',
+    tuePoints: 'UR Caravan = 210K pts, UR Op = 157.5K pts, 1m build = 127.5 pts.',
+    wedAction: '🟢 Open Lv.1-3 Raven Gear Chests, burn study scrolls & research speedups.',
+    wedSave: '⏳ Hero resources and training speedups.',
+    wedPoints: 'Lv.3 Raven Chest = 20.5K pts, Scroll = 615 pts, 1m tech = 127.5 pts.',
+    thuAction: '🟢 HERO DAY! Dump ALL hero shards (SSR/SR/R), skill books, and massive antitoxin reserves.',
+    thuSave: '⏳ Training speedups (save for Friday!).',
+    thuPoints: '1 SSR Shard = 20.5K pts! Bulk antitoxin yields 2M+ pts alone.',
+    friAction: '🟢 Burn ALL training speedups! Promote soldiers +1 tier at a time.',
+    friSave: '⏳ Do not train from scratch — upgrading existing troops gives more points per minute.',
+    friPoints: '1m training = 127.5 pts (+30% bonus), T10 troop = 264 pts (5.5x vs T1).',
+    satAction: '🟢 PvP showdown & tower control. Cross-server caravan raids and combat speedup dump.',
+    satSave: '⏳ Finish all matches before reset.',
+    satPoints: 'Defeating T10 = 132 pts, losses also count (22.5 pts).',
+    sunAction: '🟢 Clear weekly shops, complete Falcon quests for Monday claim.',
+    sunSave: '⏳ DO NOT claim Falcon quests before Monday 00:00 UTC!',
+    sunPoints: 'Weekly shop restock & cycle rollover.',
+    footerReset: '⏰ Day Reset: 00:00 UTC | Plunder Reset: 02:00 UTC | Double-dip with Survival Battle',
+  }
+};
+
+const texts = i18n[lang === 'ru' ? 'ru' : 'en'];
+---
+
+<div class="not-prose my-8 rounded-xl border border-stone-800 bg-stone-900/95 p-5 shadow-xl print:m-0 print:p-2 print:border-none print:bg-white print:text-black">
+  <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 border-b border-stone-800 pb-4 print:border-black/20">
+    <div>
+      <h3 class="text-xl font-bold text-plague-200 print:text-black flex items-center gap-2">
+        <span>📄</span>
+        <span>{texts.title}</span>
+      </h3>
+      <p class="text-xs text-stone-400 print:text-stone-600 mt-0.5">{texts.subtitle}</p>
+    </div>
+    <button
+      id="btn-print-cheatsheet"
+      type="button"
+      class="inline-flex items-center gap-1.5 rounded-lg border border-stone-700 bg-stone-800 px-3 py-1.5 text-xs font-semibold text-stone-200 hover:bg-stone-700 transition cursor-pointer print:hidden"
+    >
+      {texts.printBtn}
+    </button>
+  </div>
+
+  <!-- Responsive & Printable Table -->
+  <div class="mt-4 overflow-x-auto rounded-lg border border-stone-800 print:border-black/30">
+    <table class="w-full text-left text-xs">
+      <thead class="bg-stone-950 text-plague-300 print:bg-stone-100 print:text-black font-bold uppercase tracking-wider">
+        <tr>
+          <th class="p-2.5 border-b border-stone-800 print:border-black/20 w-24">{texts.dayCol}</th>
+          <th class="p-2.5 border-b border-stone-800 print:border-black/20 w-2/5">{texts.actionCol}</th>
+          <th class="p-2.5 border-b border-stone-800 print:border-black/20 w-1/3">{texts.saveCol}</th>
+          <th class="p-2.5 border-b border-stone-800 print:border-black/20">{texts.pointsCol}</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-stone-800 print:divide-black/20 text-stone-200 print:text-black">
+        <tr class="hover:bg-stone-800/40">
+          <td class="p-2.5 font-bold text-plague-200 print:text-black whitespace-nowrap">{texts.mon}</td>
+          <td class="p-2.5 leading-relaxed">{texts.monAction}</td>
+          <td class="p-2.5 text-amber-300 print:text-stone-800 leading-relaxed">{texts.monSave}</td>
+          <td class="p-2.5 text-stone-400 print:text-stone-600 font-mono text-[11px]">{texts.monPoints}</td>
+        </tr>
+        <tr class="hover:bg-stone-800/40">
+          <td class="p-2.5 font-bold text-plague-200 print:text-black whitespace-nowrap">{texts.tue}</td>
+          <td class="p-2.5 leading-relaxed">{texts.tueAction}</td>
+          <td class="p-2.5 text-amber-300 print:text-stone-800 leading-relaxed">{texts.tueSave}</td>
+          <td class="p-2.5 text-stone-400 print:text-stone-600 font-mono text-[11px]">{texts.tuePoints}</td>
+        </tr>
+        <tr class="hover:bg-stone-800/40">
+          <td class="p-2.5 font-bold text-plague-200 print:text-black whitespace-nowrap">{texts.wed}</td>
+          <td class="p-2.5 leading-relaxed">{texts.wedAction}</td>
+          <td class="p-2.5 text-amber-300 print:text-stone-800 leading-relaxed">{texts.wedSave}</td>
+          <td class="p-2.5 text-stone-400 print:text-stone-600 font-mono text-[11px]">{texts.wedPoints}</td>
+        </tr>
+        <tr class="hover:bg-stone-800/40 bg-toxic-950/20 print:bg-emerald-50">
+          <td class="p-2.5 font-bold text-toxic-300 print:text-emerald-900 whitespace-nowrap">{texts.thu}</td>
+          <td class="p-2.5 leading-relaxed font-medium text-toxic-200 print:text-black">{texts.thuAction}</td>
+          <td class="p-2.5 text-amber-300 print:text-stone-800 leading-relaxed">{texts.thuSave}</td>
+          <td class="p-2.5 text-stone-400 print:text-stone-600 font-mono text-[11px]">{texts.thuPoints}</td>
+        </tr>
+        <tr class="hover:bg-stone-800/40">
+          <td class="p-2.5 font-bold text-plague-200 print:text-black whitespace-nowrap">{texts.fri}</td>
+          <td class="p-2.5 leading-relaxed">{texts.friAction}</td>
+          <td class="p-2.5 text-amber-300 print:text-stone-800 leading-relaxed">{texts.friSave}</td>
+          <td class="p-2.5 text-stone-400 print:text-stone-600 font-mono text-[11px]">{texts.friPoints}</td>
+        </tr>
+        <tr class="hover:bg-stone-800/40 bg-blood-950/20 print:bg-red-50">
+          <td class="p-2.5 font-bold text-blood-300 print:text-red-900 whitespace-nowrap">{texts.sat}</td>
+          <td class="p-2.5 leading-relaxed">{texts.satAction}</td>
+          <td class="p-2.5 text-amber-300 print:text-stone-800 leading-relaxed">{texts.satSave}</td>
+          <td class="p-2.5 text-stone-400 print:text-stone-600 font-mono text-[11px]">{texts.satPoints}</td>
+        </tr>
+        <tr class="hover:bg-stone-800/40">
+          <td class="p-2.5 font-bold text-plague-200 print:text-black whitespace-nowrap">{texts.sun}</td>
+          <td class="p-2.5 leading-relaxed">{texts.sunAction}</td>
+          <td class="p-2.5 text-amber-300 print:text-stone-800 leading-relaxed">{texts.sunSave}</td>
+          <td class="p-2.5 text-stone-400 print:text-stone-600 font-mono text-[11px]">{texts.sunPoints}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p class="mt-3 text-xs text-stone-400 print:text-stone-600 text-center font-mono">
+    {texts.footerReset}
+  </p>
+</div>
+
+<script>
+  document.getElementById('btn-print-cheatsheet')?.addEventListener('click', () => {
+    window.print();
+  });
+</script>

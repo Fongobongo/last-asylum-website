@@ -3,6 +3,8 @@ import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import DiscordBanner from '../../components/DiscordBanner.astro';
+import DailyChecklist from '../../components/DailyChecklist.astro';
+import WeeklyCheatSheet from '../../components/WeeklyCheatSheet.astro';
 import { weeklySchedule, recurring } from '../../data/calendar';
 import { t } from '../../i18n/ui';
 import type { Lang } from '../../i18n/utils';
@@ -57,6 +59,8 @@ const lang: Lang = 'pt';
     <p class="text-sm text-stone-500">⚠️ Limite da fila: TODAS as missões (completas ou não) contam no contador da fila (x/x). Quando está cheia, a próxima missão é perdida.</p>
 
         <VideoSection topic="calendar" lang={lang} />
+    <DailyChecklist lang={lang} />
+    <WeeklyCheatSheet lang={lang} />
     <DiscordBanner lang={lang} />
   </GuidePage>
 </Base>

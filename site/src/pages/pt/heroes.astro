@@ -2,6 +2,8 @@
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
 import VideoSection from '../../components/VideoSection.astro';
+import SquadBuilder from '../../components/SquadBuilder.astro';
+import PvPMatrix from '../../components/PvPMatrix.astro';
 import { t } from '../../i18n/ui';
 import type { Lang } from '../../i18n/utils';
 
@@ -106,6 +108,8 @@ const lang: Lang = 'pt';
     </table>
     <p>Use a divisão como diagnóstico: se seu Poder pesa em heróis mas é leve em soldados, você está a uma derrota de perder um exército que não consegue repor. Se pesa em soldados mas é leve em heróis, suas marchas batem abaixo do peso. As contas mais fortes mantêm as pilhas em proporção aproximada — exatamente o que seguir a ordem de prioridade de construção e a linha do tempo do esquadrão F2P faz por você.</p>
 
+    <SquadBuilder lang={lang} />
+    <PvPMatrix lang={lang} />
     <VideoSection topic="heroes" lang={lang} />
   </GuidePage>
 </Base>

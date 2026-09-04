@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
 import DiscordBanner from '../../components/DiscordBanner.astro';
+import PvPMatrix from '../../components/PvPMatrix.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import { t } from '../../i18n/ui';
 import type { Lang } from '../../i18n/utils';
@@ -105,6 +106,7 @@ const comparisons = [
       </section>
     ))}
 
+    <PvPMatrix lang={lang} />
     <DiscordBanner lang={lang} />
   </GuidePage>
 </Base>

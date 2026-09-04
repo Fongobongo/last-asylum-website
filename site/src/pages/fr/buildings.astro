@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
 import VideoSection from '../../components/VideoSection.astro';
+import SanctuaryCalc from '../../components/SanctuaryCalc.astro';
 import { t } from '../../i18n/ui';
 import type { Lang } from '../../i18n/utils';
 
@@ -113,6 +114,7 @@ const lang: Lang = 'fr';
     </table>
     <p>Et gardez la répartition équilibrée : ayez toujours Grain, Bois et Herbes en stock. Les améliorations tardives dévorent les trois à la fois, et tomber à sec sur l&apos;une d&apos;elles en plein push gaspille exactement le minuteur que vous aviez empilé des bonus pour économiser.</p>
 
+    <SanctuaryCalc lang={lang} />
     <VideoSection topic="buildings" lang={lang} />
   </GuidePage>
 </Base>

@@ -2,6 +2,8 @@
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
 import VideoSection from '../../components/VideoSection.astro';
+import SquadBuilder from '../../components/SquadBuilder.astro';
+import PvPMatrix from '../../components/PvPMatrix.astro';
 import { t } from '../../i18n/ui';
 import type { Lang } from '../../i18n/utils';
 
@@ -106,6 +108,8 @@ const lang: Lang = 'fr';
     </table>
     <p>Utilisez la répartition en diagnostic : si votre Puissance est lourde en héros mais légère en soldats, vous êtes à un mauvais combat de perdre une armée irremplaçable. Si elle est lourde en soldats mais légère en héros, vos marches frappent sous leur poids. Les comptes les plus forts gardent les piles en proportion approximative — exactement ce que fait pour vous le suivi de l&apos;ordre de priorité de construction et du calendrier de l&apos;escouade F2P.</p>
 
+    <SquadBuilder lang={lang} />
+    <PvPMatrix lang={lang} />
     <VideoSection topic="heroes" lang={lang} />
   </GuidePage>
 </Base>
