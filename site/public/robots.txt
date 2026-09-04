@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /dnd/
+Disallow: /ru/dnd/
 Disallow: /admin/
 
 Sitemap: https://lastasylum.netlify.app/sitemap.xml

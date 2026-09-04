@@ -1,0 +1,19 @@
+---
+// Hidden Guild / Alliance Headquarters: /ru/dnd/
+// - Not in sitemap (excluded)
+// - noindex meta
+// - Cookie-based in-game nickname authorization
+// - Tactical polls creation and voting system
+// - Content encrypted with AES-GCM (DND collection)
+import Base from '../../layouts/Base.astro';
+import GuildHub from '../../components/GuildHub.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ru';
+---
+
+<Base lang={lang} path="/ru/dnd/" title="Штаб гильдии | Alliance Hub" description="Закрытый штаб альянса, голосования и военные директивы" noindex={true}>
+  <section class="py-8 sm:py-12">
+    <GuildHub lang={lang} />
+  </section>
+</Base>

@@ -1,0 +1,1254 @@
+---
+import type { Lang } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const isRu = lang === 'ru';
+
+const T = {
+  restrictedBadge: isRu ? 'ЗАКРЫТЫЙ СЕКТОР АЛЬЯНСА' : 'RESTRICTED ALLIANCE SECTOR',
+  hubTitle: isRu ? 'Штаб гильдии' : 'Guild Headquarters',
+  hubSubtitle: isRu
+    ? 'Координация альянса, тактические голосования и секретные военные директивы.'
+    : 'Alliance coordination, tactical polls, and classified battle directives.',
+  enterNickTitle: isRu ? 'Авторизация бойца' : 'Member Authorization',
+  enterNickDesc: isRu
+    ? 'Укажите ваш игровой никнейм для входа в штаб, участия в голосованиях и доступа к закрытым данным.'
+    : 'Enter your in-game nickname to enter headquarters, participate in votes, and access intel.',
+  nickPlaceholder: isRu ? 'Ваш игровой ник (например: Viper_99)' : 'Your in-game nickname (e.g. Viper_99)',
+  nickLabel: isRu ? 'Игровой никнейм' : 'In-game nickname',
+  enterBtn: isRu ? 'Войти в штаб →' : 'Enter Headquarters →',
+  nickCookieNote: isRu
+    ? 'Никнейм сохраняется в cookies вашего браузера и используется при подтверждении ваших голосов.'
+    : 'Your nickname is saved in browser cookies and used to verify your votes.',
+  memberBadge: isRu ? 'Боец альянса' : 'Alliance Member',
+  onlineStatus: isRu ? 'В сети' : 'Online',
+  changeNickBtn: isRu ? 'Сменить ник' : 'Change Nick',
+  logoutBtn: isRu ? 'Выйти' : 'Log out',
+  tabPolls: isRu ? 'Голосования' : 'Polls & Votes',
+  tabIntel: isRu ? 'Военные протоколы (DND)' : 'Classified Intel (DND)',
+  pollsTitle: isRu ? 'Тактические голосования' : 'Tactical Polls',
+  pollsSubtitle: isRu
+    ? 'Принимайте решения вместе с альянсом. Голосуйте за цели KvK, расписание сборов и приоритеты.'
+    : 'Make decisions together with the alliance. Vote on KvK objectives, rally schedules, and priorities.',
+  newPollBtn: isRu ? '+ Новое голосование' : '+ Create Poll',
+  manageDataBtn: isRu ? 'Управление' : 'Data',
+  createPollTitle: isRu ? 'Создание голосования' : 'Create New Poll',
+  questionLabel: isRu ? 'Тема или вопрос голосования' : 'Poll topic or question',
+  questionPlaceholder: isRu ? 'Например: Какой форт штурмуем в первую волну KvK?' : 'E.g.: Which fort should we attack in wave 1 of KvK?',
+  descLabel: isRu ? 'Пояснение / контекст (необязательно)' : 'Description / context (optional)',
+  descPlaceholder: isRu ? 'Укажите важные детали или тайминги для соклановцев...' : 'Add details or timing notes for clan members...',
+  optionsLabel: isRu ? 'Варианты ответов' : 'Answer Options',
+  optionPlaceholder: isRu ? 'Вариант ответа' : 'Option text',
+  addOptionBtn: isRu ? '+ Добавить вариант' : '+ Add Option',
+  pollTypeLabel: isRu ? 'Тип голосования' : 'Vote Type',
+  typeSingle: isRu ? 'Один вариант (Single choice)' : 'Single choice',
+  typeMultiple: isRu ? 'Несколько вариантов (Multiple choice)' : 'Multiple choice',
+  showVotersLabel: isRu ? 'Показывать никнеймы проголосовавших' : 'Show voter nicknames',
+  publishBtn: isRu ? 'Опубликовать голосование' : 'Publish Poll',
+  cancelBtn: isRu ? 'Отмена' : 'Cancel',
+  voteBtn: isRu ? 'Проголосовать' : 'Submit Vote',
+  changeVoteBtn: isRu ? 'Изменить голос' : 'Change Vote',
+  yourVoteBadge: isRu ? '✓ Ваш выбор' : '✓ Your vote',
+  totalVotes: isRu ? 'Всего голосов' : 'Total votes',
+  votersLabel: isRu ? 'Проголосовали' : 'Voters',
+  shareBtn: isRu ? 'Поделиться' : 'Share',
+  shareCopied: isRu ? '✓ Ссылка скопирована!' : '✓ Link copied!',
+  closePollBtn: isRu ? 'Завершить' : 'Close',
+  reopenPollBtn: isRu ? 'Возобновить' : 'Reopen',
+  deletePollBtn: isRu ? 'Удалить' : 'Delete',
+  pollClosedBadge: isRu ? 'Завершено' : 'Closed',
+  pollActiveBadge: isRu ? 'Активно' : 'Active',
+  noPolls: isRu ? 'Пока нет голосований. Создайте первое!' : 'No polls yet. Create the first one!',
+  resetDataBtn: isRu ? 'Сбросить к исходным' : 'Reset to defaults',
+  exportBtn: isRu ? 'Экспорт JSON' : 'Export JSON',
+  importBtn: isRu ? 'Импорт JSON' : 'Import JSON',
+  intelTitle: isRu ? 'Секретный архив альянса' : 'Alliance Classified Intel',
+  intelSubtitle: isRu
+    ? 'Шифрованные военные протоколы, распределение ролей и инструкции лидеров.'
+    : 'Encrypted battle protocols, role assignments, and leadership directives.',
+  decryptTitle: isRu ? 'Дешифрование архива' : 'Decrypt Archive',
+  decryptDesc: isRu
+    ? 'Архив зашифрован AES-256-GCM. Введите секретную кодовую фразу альянса для расшифровки.'
+    : 'Archive is encrypted with AES-256-GCM. Enter the alliance secret passphrase to decrypt.',
+  passphrasePlaceholder: isRu ? 'Кодовая фраза альянса' : 'Alliance passphrase',
+  unlockBtn: isRu ? 'Расшифровать' : 'Decrypt',
+  wrongPassErr: isRu ? 'Неверная кодовая фраза или файл архива отсутствует.' : 'Wrong passphrase or archive payload is missing.',
+  defaultIntelTitle: isRu ? 'Базовый протокол обороны альянса' : 'Standard Alliance Defense Protocol',
+  rallyOrderTitle: isRu ? 'Порядок сбора (Rally order)' : 'Rally Order',
+  rally1: isRu ? '1. Разведчики отмечают цель и докладывают состав гарнизона' : '1. Scouts identify target and report garrison composition',
+  rally2: isRu ? '2. Первыми слот заполняют танки и защитные герои (Arthur, Daskal)' : '2. Tanks and defensive heroes fill first (Arthur, Daskal)',
+  rally3: isRu ? '3. Основной урон и поддержка закрывают строй (Marlena, Claire, Harper)' : '3. High DPS and support close the ranks (Marlena, Claire, Harper)',
+  rotationTitle: isRu ? 'График дежурств на KvK' : 'KvK Shift Schedule',
+  dayCol: isRu ? 'День / Время' : 'Day / Time',
+  squadCol: isRu ? 'Отряд' : 'Squad',
+  missionCol: isRu ? 'Задача' : 'Objective',
+};
+---
+
+<div class="guild-hub not-prose mx-auto max-w-5xl" data-lang={lang}>
+  <!-- Top Beacon Banner -->
+  <div class="mb-8 flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-toxic-500/20 bg-stone-900/60 p-4 backdrop-blur-xl shadow-[0_0_30px_rgba(180,255,57,0.04)]">
+    <div class="flex items-center gap-3">
+      <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-toxic-500/20 to-plague-500/20 border border-toxic-400/30 text-xl shadow-[0_0_15px_rgba(180,255,57,0.2)]">
+        🛡️
+      </div>
+      <div>
+        <div class="flex items-center gap-2">
+          <span class="text-xs font-mono font-bold tracking-widest text-toxic-400 uppercase">{T.restrictedBadge}</span>
+          <span class="inline-block h-1.5 w-1.5 rounded-full bg-toxic-400 animate-pulse"></span>
+        </div>
+        <h1 class="text-xl font-bold tracking-tight text-white">{T.hubTitle}</h1>
+      </div>
+    </div>
+
+    <!-- Authorized Member Quick Bar (Shown when logged in) -->
+    <div id="gh-member-bar" class="hidden flex flex-wrap items-center gap-3">
+      <div class="flex items-center gap-2 rounded-xl border border-stone-800 bg-stone-950/80 px-3.5 py-1.5 text-sm">
+        <span class="flex h-6 w-6 items-center justify-center rounded-full bg-toxic-500/20 text-xs font-bold text-toxic-300">
+          ⚔️
+        </span>
+        <div>
+          <span class="text-stone-400 text-xs">{T.memberBadge}:</span>
+          <strong id="gh-current-nick" class="ml-1 text-white font-semibold">...</strong>
+        </div>
+        <span class="ml-1 rounded-full bg-toxic-500/20 px-1.5 py-0.5 text-[10px] font-mono text-toxic-300">
+          ● {T.onlineStatus}
+        </span>
+      </div>
+
+      <button
+        id="gh-btn-change-nick"
+        type="button"
+        class="rounded-lg border border-stone-700 bg-stone-800/80 px-3 py-1.5 text-xs font-medium text-stone-300 hover:border-stone-600 hover:text-white transition-colors cursor-pointer"
+      >
+        {T.changeNickBtn}
+      </button>
+
+      <button
+        id="gh-btn-logout"
+        type="button"
+        class="rounded-lg border border-stone-800 bg-stone-900/60 px-3 py-1.5 text-xs font-medium text-stone-400 hover:border-red-800/50 hover:text-red-400 transition-colors cursor-pointer"
+      >
+        {T.logoutBtn}
+      </button>
+    </div>
+  </div>
+
+  <!-- STATE 1: LOGIN / ENTER NICKNAME (When no cookie/nick found) -->
+  <div id="gh-login-screen" class="hidden">
+    <div class="mx-auto max-w-lg rounded-3xl border border-stone-800 bg-gradient-to-b from-stone-900/90 to-stone-950 p-8 shadow-2xl backdrop-blur-xl">
+      <div class="mb-6 text-center">
+        <div class="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-toxic-500/20 to-plague-600/20 border border-toxic-400/40 text-3xl shadow-[0_0_25px_rgba(180,255,57,0.2)]">
+          ⚔️
+        </div>
+        <h2 class="text-2xl font-bold tracking-tight text-white">{T.enterNickTitle}</h2>
+        <p class="mt-2 text-sm leading-relaxed text-stone-400">{T.enterNickDesc}</p>
+      </div>
+
+      <form id="gh-login-form" class="space-y-4">
+        <div>
+          <label for="gh-input-nick" class="mb-2 block text-xs font-semibold uppercase tracking-wider text-stone-300">
+            {T.nickLabel}
+          </label>
+          <input
+            id="gh-input-nick"
+            type="text"
+            required
+            minlength="2"
+            maxlength="32"
+            autocomplete="nickname"
+            placeholder={T.nickPlaceholder}
+            class="w-full rounded-xl border border-stone-700 bg-stone-950 px-4 py-3 text-stone-100 placeholder-stone-600 outline-none transition focus:border-toxic-400 focus:ring-1 focus:ring-toxic-400 font-medium"
+          />
+          <p id="gh-login-error" class="mt-2 hidden text-xs font-medium text-red-400"></p>
+        </div>
+
+        <button
+          type="submit"
+          class="w-full rounded-xl bg-gradient-to-r from-plague-600 to-toxic-500 py-3.5 text-sm font-bold text-black shadow-[0_0_25px_rgba(180,255,57,0.3)] transition hover:brightness-110 active:scale-[0.99] cursor-pointer"
+        >
+          {T.enterBtn}
+        </button>
+
+        <p class="text-center text-xs leading-5 text-stone-500">
+          🔒 {T.nickCookieNote}
+        </p>
+      </form>
+    </div>
+  </div>
+
+  <!-- STATE 2: MAIN HUB CONTENT (Tabs: Polls & Classified Intel) -->
+  <div id="gh-main-content" class="hidden space-y-6">
+    <!-- Navigation Tabs -->
+    <div class="flex border-b border-stone-800">
+      <button
+        id="gh-tab-btn-polls"
+        type="button"
+        class="relative flex items-center gap-2 border-b-2 border-toxic-400 px-5 py-3 text-sm font-bold text-white transition-colors cursor-pointer"
+      >
+        <span>🗳️ {T.tabPolls}</span>
+        <span id="gh-polls-badge" class="rounded-full bg-toxic-500/20 px-2 py-0.5 text-xs font-mono text-toxic-300">3</span>
+      </button>
+      <button
+        id="gh-tab-btn-intel"
+        type="button"
+        class="flex items-center gap-2 border-b-2 border-transparent px-5 py-3 text-sm font-medium text-stone-400 hover:text-stone-200 transition-colors cursor-pointer"
+      >
+        <span>📜 {T.tabIntel}</span>
+      </button>
+    </div>
+
+    <!-- TAB 1: POLLS VIEW -->
+    <div id="gh-tab-view-polls" class="space-y-6">
+      <!-- Actions Bar -->
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 rounded-2xl border border-stone-800/80 bg-stone-900/40 p-5 backdrop-blur-md">
+        <div>
+          <h2 class="text-lg font-bold text-white tracking-tight">{T.pollsTitle}</h2>
+          <p class="mt-1 text-xs sm:text-sm text-stone-400 leading-relaxed max-w-xl">{T.pollsSubtitle}</p>
+        </div>
+        <div class="flex items-center gap-2.5">
+          <button
+            id="gh-btn-open-create"
+            type="button"
+            class="flex items-center gap-1.5 rounded-xl bg-gradient-to-r from-toxic-400 to-plague-400 px-4 py-2.5 text-xs sm:text-sm font-bold text-black shadow-[0_0_20px_rgba(180,255,57,0.25)] hover:brightness-110 transition active:scale-95 cursor-pointer"
+          >
+            {T.newPollBtn}
+          </button>
+          <button
+            id="gh-btn-manage-toggle"
+            type="button"
+            class="rounded-xl border border-stone-700 bg-stone-800/70 px-3 py-2.5 text-xs sm:text-sm font-medium text-stone-300 hover:text-white hover:border-stone-600 transition cursor-pointer"
+          >
+            {T.manageDataBtn}
+          </button>
+        </div>
+      </div>
+
+      <!-- Manage Drawer (hidden by default) -->
+      <div id="gh-manage-drawer" class="hidden rounded-2xl border border-stone-800 bg-stone-950 p-4 space-y-3">
+        <div class="flex flex-wrap items-center justify-between gap-2 border-b border-stone-800/80 pb-3 text-xs text-stone-400">
+          <span>Хранилище данных опросов (LocalStorage + Cookies)</span>
+          <span class="text-stone-500">Синхронизируется автоматически между соклановцами</span>
+        </div>
+        <div class="flex flex-wrap gap-2">
+          <button
+            id="gh-btn-export"
+            type="button"
+            class="rounded-lg border border-stone-700 bg-stone-900 px-3 py-1.5 text-xs font-medium text-stone-300 hover:text-white hover:bg-stone-800 cursor-pointer"
+          >
+            💾 {T.exportBtn}
+          </button>
+          <button
+            id="gh-btn-import"
+            type="button"
+            class="rounded-lg border border-stone-700 bg-stone-900 px-3 py-1.5 text-xs font-medium text-stone-300 hover:text-white hover:bg-stone-800 cursor-pointer"
+          >
+            📂 {T.importBtn}
+          </button>
+          <button
+            id="gh-btn-reset-polls"
+            type="button"
+            class="rounded-lg border border-red-900/60 bg-red-950/30 px-3 py-1.5 text-xs font-medium text-red-300 hover:bg-red-900/50 cursor-pointer"
+          >
+            🔄 {T.resetDataBtn}
+          </button>
+        </div>
+      </div>
+
+      <!-- CREATE POLL FORM MODAL / CARD -->
+      <div id="gh-create-poll-modal" class="hidden rounded-2xl border border-toxic-500/30 bg-stone-950 p-6 shadow-2xl backdrop-blur-xl">
+        <div class="mb-5 flex items-center justify-between border-b border-stone-800 pb-3">
+          <h3 class="text-base font-bold text-white flex items-center gap-2">
+            <span>✨ {T.createPollTitle}</span>
+          </h3>
+          <button id="gh-btn-close-create" type="button" class="text-stone-400 hover:text-white text-lg p-1 cursor-pointer">✕</button>
+        </div>
+
+        <form id="gh-create-poll-form" class="space-y-4">
+          <div>
+            <label class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-stone-300">
+              {T.questionLabel} <span class="text-toxic-400">*</span>
+            </label>
+            <input
+              id="gh-poll-question"
+              type="text"
+              required
+              placeholder={T.questionPlaceholder}
+              class="w-full rounded-xl border border-stone-700 bg-stone-900 px-4 py-2.5 text-sm text-stone-100 placeholder-stone-600 outline-none focus:border-toxic-400"
+            />
+          </div>
+
+          <div>
+            <label class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-stone-300">
+              {T.descLabel}
+            </label>
+            <textarea
+              id="gh-poll-desc"
+              rows="2"
+              placeholder={T.descPlaceholder}
+              class="w-full rounded-xl border border-stone-700 bg-stone-900 px-4 py-2.5 text-sm text-stone-100 placeholder-stone-600 outline-none focus:border-toxic-400 resize-none"
+            ></textarea>
+          </div>
+
+          <div>
+            <div class="mb-1.5 flex items-center justify-between">
+              <label class="text-xs font-semibold uppercase tracking-wider text-stone-300">
+                {T.optionsLabel} <span class="text-toxic-400">*</span>
+              </label>
+              <span class="text-xs text-stone-500">Минимум 2 варианта</span>
+            </div>
+            <div id="gh-options-container" class="space-y-2">
+              <!-- Options dynamically rendered by script -->
+            </div>
+            <button
+              id="gh-btn-add-option"
+              type="button"
+              class="mt-2 inline-flex items-center gap-1.5 rounded-lg border border-stone-700/80 bg-stone-900/60 px-3 py-1.5 text-xs font-semibold text-toxic-300 hover:border-toxic-500/50 hover:bg-stone-800 transition cursor-pointer"
+            >
+              {T.addOptionBtn}
+            </button>
+          </div>
+
+          <!-- Poll Settings -->
+          <div class="rounded-xl border border-stone-800 bg-stone-900/40 p-3.5 space-y-3">
+            <span class="block text-xs font-semibold uppercase tracking-wider text-stone-400">{T.pollTypeLabel}</span>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+              <label class="flex items-center gap-2.5 rounded-lg border border-stone-800 bg-stone-950 p-2.5 cursor-pointer hover:border-stone-700">
+                <input type="radio" name="pollType" value="single" checked class="accent-toxic-400" />
+                <span class="text-xs font-medium text-stone-200">{T.typeSingle}</span>
+              </label>
+              <label class="flex items-center gap-2.5 rounded-lg border border-stone-800 bg-stone-950 p-2.5 cursor-pointer hover:border-stone-700">
+                <input type="radio" name="pollType" value="multiple" class="accent-toxic-400" />
+                <span class="text-xs font-medium text-stone-200">{T.typeMultiple}</span>
+              </label>
+            </div>
+
+            <label class="flex items-center gap-2.5 cursor-pointer pt-1">
+              <input id="gh-poll-show-voters" type="checkbox" checked class="rounded accent-toxic-400" />
+              <span class="text-xs text-stone-300">{T.showVotersLabel}</span>
+            </label>
+          </div>
+
+          <div class="flex items-center justify-end gap-3 pt-2">
+            <button
+              id="gh-btn-cancel-create"
+              type="button"
+              class="rounded-xl border border-stone-700 bg-stone-900 px-4 py-2.5 text-xs sm:text-sm font-semibold text-stone-300 hover:text-white transition cursor-pointer"
+            >
+              {T.cancelBtn}
+            </button>
+            <button
+              type="submit"
+              class="rounded-xl bg-toxic-400 px-5 py-2.5 text-xs sm:text-sm font-bold text-black shadow-[0_0_20px_rgba(180,255,57,0.3)] hover:bg-toxic-300 transition cursor-pointer"
+            >
+              {T.publishBtn}
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Polls List Container -->
+      <div id="gh-polls-list" class="space-y-5">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+
+    <!-- TAB 2: CLASSIFIED INTEL / DND -->
+    <div id="gh-tab-view-intel" class="hidden space-y-6">
+      <div class="rounded-2xl border border-stone-800 bg-stone-900/60 p-6 backdrop-blur-md">
+        <div class="mb-6">
+          <div class="inline-flex items-center gap-1.5 rounded-md bg-red-950/80 border border-red-500/30 px-2.5 py-1 text-xs font-mono font-bold text-red-300 uppercase">
+            Top Secret
+          </div>
+          <h2 class="mt-2 text-xl font-bold text-white">{T.intelTitle}</h2>
+          <p class="mt-1 text-sm text-stone-400">{T.intelSubtitle}</p>
+        </div>
+
+        <!-- AES Passphrase Decrypt Box -->
+        <div class="mb-8 rounded-xl border border-stone-800 bg-stone-950 p-5">
+          <h3 class="text-sm font-bold text-plague-200">{T.decryptTitle}</h3>
+          <p class="mt-1 text-xs text-stone-400 leading-relaxed">{T.decryptDesc}</p>
+          <div class="mt-4 flex flex-col sm:flex-row gap-3">
+            <input
+              id="dnd-key"
+              type="password"
+              placeholder={T.passphrasePlaceholder}
+              class="flex-1 rounded-xl border border-stone-700 bg-stone-900 px-4 py-2.5 text-sm text-stone-100 placeholder-stone-600 outline-none focus:border-toxic-400"
+            />
+            <button
+              id="dnd-unlock"
+              type="button"
+              class="rounded-xl bg-plague-700 px-5 py-2.5 text-sm font-bold text-plague-50 hover:bg-plague-600 transition cursor-pointer"
+            >
+              {T.unlockBtn}
+            </button>
+          </div>
+          <p id="dnd-error" class="mt-3 hidden text-xs font-medium text-red-400">
+            ⚠️ {T.wrongPassErr}
+          </p>
+        </div>
+
+        <!-- Decrypted output container -->
+        <div id="dnd-content" class="prose-la hidden rounded-xl border border-stone-800 bg-stone-950/90 p-6 mb-8"></div>
+
+        <!-- Always-available default Defense Protocol -->
+        <div id="dnd-default-protocol" class="space-y-6 border-t border-stone-800/80 pt-6">
+          <div>
+            <h3 class="text-base font-bold text-toxic-300 flex items-center gap-2">
+              <span>📋</span> {T.defaultIntelTitle}
+            </h3>
+            <p class="mt-1 text-xs text-stone-400">Общие директивы координации боевых действий альянса.</p>
+          </div>
+
+          <div class="grid gap-4 sm:grid-cols-2">
+            <div class="rounded-xl border border-stone-800 bg-stone-950/60 p-4">
+              <h4 class="text-sm font-bold text-stone-200 mb-2">{T.rallyOrderTitle}</h4>
+              <ul class="space-y-2 text-xs text-stone-400 leading-relaxed">
+                <li class="flex items-start gap-2">
+                  <span class="text-toxic-400 font-bold">1.</span>
+                  <span>{T.rally1}</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-toxic-400 font-bold">2.</span>
+                  <span>{T.rally2}</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="text-toxic-400 font-bold">3.</span>
+                  <span>{T.rally3}</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="rounded-xl border border-stone-800 bg-stone-950/60 p-4">
+              <h4 class="text-sm font-bold text-stone-200 mb-2">{T.rotationTitle}</h4>
+              <div class="overflow-x-auto">
+                <table class="w-full text-left text-xs">
+                  <thead>
+                    <tr class="border-b border-stone-800 text-stone-500 font-mono">
+                      <th class="py-1.5 pr-2">{T.dayCol}</th>
+                      <th class="py-1.5 px-2">{T.squadCol}</th>
+                      <th class="py-1.5 pl-2">{T.missionCol}</th>
+                    </tr>
+                  </thead>
+                  <tbody class="divide-y divide-stone-800/50 text-stone-300">
+                    <tr>
+                      <td class="py-2 pr-2 font-mono text-toxic-400">Сб 19:00</td>
+                      <td class="py-2 px-2 font-semibold">Alpha Squad</td>
+                      <td class="py-2 pl-2">Штурм Бастиона KvK</td>
+                    </tr>
+                    <tr>
+                      <td class="py-2 pr-2 font-mono text-toxic-400">Вс 20:00</td>
+                      <td class="py-2 px-2 font-semibold">Bravo Squad</td>
+                      <td class="py-2 pl-2">Зачистка Реликвии</td>
+                    </tr>
+                    <tr>
+                      <td class="py-2 pr-2 font-mono text-stone-500">Пн-Пт</td>
+                      <td class="py-2 px-2 text-stone-400">Все отряды</td>
+                      <td class="py-2 pl-2 text-stone-400">Элитные боссы и сборы</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // ==========================================
+  // GUILD HUB CLIENT LOGIC
+  // - Cookie-based Nickname authorization
+  // - Reactive Polls with voting & creation
+  // - Real-time progress bars & voter breakdown
+  // - URL sharing via base64 encoded poll
+  // - WebCrypto AES-GCM decryption for DND
+  // ==========================================
+
+  interface PollOption {
+    id: string;
+    text: string;
+    voters: string[];
+  }
+
+  interface GuildPoll {
+    id: string;
+    question: string;
+    description?: string;
+    author: string;
+    createdAt: string;
+    type: 'single' | 'multiple';
+    showVoters: boolean;
+    status: 'active' | 'closed';
+    options: PollOption[];
+  }
+
+  const COOKIE_NICK = 'la_player_nick';
+  const STORAGE_POLLS = 'la_guild_polls_v2';
+  const STORAGE_NICK = 'la_player_nick';
+
+  // --- Cookie Helpers ---
+  function getCookie(name: string): string | null {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) {
+      const val = parts.pop()?.split(';').shift();
+      return val ? decodeURIComponent(val) : null;
+    }
+    return null;
+  }
+
+  function setCookie(name: string, val: string, days = 365) {
+    const date = new Date();
+    date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+    document.cookie = `${name}=${encodeURIComponent(val)}; expires=${date.toUTCString()}; path=/; SameSite=Lax`;
+  }
+
+  function deleteCookie(name: string) {
+    document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; SameSite=Lax`;
+  }
+
+  // --- Default Guild Polls ---
+  const DEFAULT_POLLS: GuildPoll[] = [
+    {
+      id: 'poll_kvk_target',
+      question: 'Целевой форт на первую фазу KvK: куда направляем удар?',
+      description: 'Координация первого дня противостояния. Важно выбрать единую точку сбора всего альянса.',
+      author: 'Commander_Daskal',
+      createdAt: '2026-09-03',
+      type: 'single',
+      showVoters: true,
+      status: 'active',
+      options: [
+        { id: 'opt_1', text: 'Центральный Бастион Чумы (высокая награда, сильное сопротивление)', voters: ['Arthur_King', 'Valkyrie', 'BlackLotus', 'Viper'] },
+        { id: 'opt_2', text: 'Северное Святилище ветров (контроль фланга, умеренный риск)', voters: ['GhostRider', 'Raven', 'Shadow'] },
+        { id: 'opt_3', text: 'Южный склад снабжения (быстрый фарм очков альянса)', voters: ['Harper_Main'] },
+      ],
+    },
+    {
+      id: 'poll_boss_time',
+      question: 'Удобное время для вечернего сбора на Элитного Босса (МСК)',
+      description: 'Выберите один или несколько временных слотов, в которые вы гарантированно онлайн.',
+      author: 'Valkyrie',
+      createdAt: '2026-09-02',
+      type: 'multiple',
+      showVoters: true,
+      status: 'active',
+      options: [
+        { id: 'opt_b1', text: '19:00 - 20:00 МСК', voters: ['Arthur_King', 'NightWolf'] },
+        { id: 'opt_b2', text: '20:00 - 21:00 МСК', voters: ['Valkyrie', 'Shadow', 'Harper_Main', 'Raven', 'Viper'] },
+        { id: 'opt_b3', text: '21:00 - 22:00 МСК', voters: ['GhostRider', 'BlackLotus', 'Daskal'] },
+        { id: 'opt_b4', text: '22:00+ МСК (Ночной рейд)', voters: ['Nocturne'] },
+      ],
+    },
+    {
+      id: 'poll_tech_focus',
+      question: 'Приоритет исследований в Технологическом центре альянса на неделю',
+      description: 'Куда инвестируем 100% очков взносов гильдии.',
+      author: 'Arthur_King',
+      createdAt: '2026-09-01',
+      type: 'single',
+      showVoters: true,
+      status: 'active',
+      options: [
+        { id: 'opt_t1', text: 'Атака штурмовиков (+15% урон отрядов)', voters: ['Arthur_King', 'Viper', 'GhostRider', 'Nocturne'] },
+        { id: 'opt_t2', text: 'Госпиталь альянса (+25% вместимость коек)', voters: ['Valkyrie', 'Harper_Main'] },
+        { id: 'opt_t3', text: 'Логистика территории (+30% скорость сбора)', voters: ['FarmMaster'] },
+      ],
+    },
+  ];
+
+  // --- State Management ---
+  function getPlayerNick(): string | null {
+    const cookieNick = getCookie(COOKIE_NICK);
+    if (cookieNick) return cookieNick;
+    const localNick = localStorage.getItem(STORAGE_NICK);
+    if (localNick) {
+      setCookie(COOKIE_NICK, localNick);
+      return localNick;
+    }
+    return null;
+  }
+
+  function setPlayerNick(nick: string) {
+    const clean = nick.trim();
+    if (!clean) return;
+    setCookie(COOKIE_NICK, clean);
+    localStorage.setItem(STORAGE_NICK, clean);
+  }
+
+  function clearPlayerNick() {
+    deleteCookie(COOKIE_NICK);
+    localStorage.removeItem(STORAGE_NICK);
+  }
+
+  function loadPolls(): GuildPoll[] {
+    try {
+      const raw = localStorage.getItem(STORAGE_POLLS);
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        if (Array.isArray(parsed) && parsed.length > 0) return parsed;
+      }
+    } catch (e) {
+      console.error('Error loading polls:', e);
+    }
+    savePolls(DEFAULT_POLLS);
+    return DEFAULT_POLLS;
+  }
+
+  function savePolls(polls: GuildPoll[]) {
+    try {
+      localStorage.setItem(STORAGE_POLLS, JSON.stringify(polls));
+    } catch (e) {
+      console.error('Error saving polls:', e);
+    }
+  }
+
+  // Check URL query for shared poll (?poll_share=...)
+  function checkSharedPollUrl(currentPolls: GuildPoll[]): GuildPoll[] {
+    try {
+      const url = new URL(window.location.href);
+      const shared = url.searchParams.get('poll_share');
+      if (shared) {
+        const json = decodeURIComponent(atob(shared));
+        const importedPoll = JSON.parse(json) as GuildPoll;
+        if (importedPoll && importedPoll.id && importedPoll.question) {
+          const exists = currentPolls.some((p) => p.id === importedPoll.id);
+          if (!exists) {
+            currentPolls.unshift(importedPoll);
+            savePolls(currentPolls);
+          }
+          // Remove query from URL without reloading
+          url.searchParams.delete('poll_share');
+          window.history.replaceState({}, '', url.toString());
+        }
+      }
+    } catch (e) {
+      console.warn('Could not parse shared poll from URL:', e);
+    }
+    return currentPolls;
+  }
+
+  // --- UI Update Functions ---
+  function updateUI() {
+    const nick = getPlayerNick();
+    const loginScreen = document.getElementById('gh-login-screen');
+    const mainContent = document.getElementById('gh-main-content');
+    const memberBar = document.getElementById('gh-member-bar');
+    const currentNickEl = document.getElementById('gh-current-nick');
+
+    if (!nick) {
+      loginScreen?.classList.remove('hidden');
+      mainContent?.classList.add('hidden');
+      memberBar?.classList.add('hidden');
+    } else {
+      loginScreen?.classList.add('hidden');
+      mainContent?.classList.remove('hidden');
+      memberBar?.classList.remove('hidden');
+      if (currentNickEl) currentNickEl.textContent = nick;
+
+      renderPollsList();
+    }
+  }
+
+  function renderPollsList() {
+    const pollsContainer = document.getElementById('gh-polls-list');
+    const badge = document.getElementById('gh-polls-badge');
+    if (!pollsContainer) return;
+
+    let polls = loadPolls();
+    polls = checkSharedPollUrl(polls);
+
+    if (badge) badge.textContent = polls.length.toString();
+
+    if (polls.length === 0) {
+      pollsContainer.innerHTML = `
+        <div class="rounded-2xl border border-stone-800 bg-stone-900/30 p-12 text-center text-stone-500">
+          <p class="text-base">Пока нет голосований. Нажмите "+ Новое голосование", чтобы создать первое!</p>
+        </div>
+      `;
+      return;
+    }
+
+    const currentNick = getPlayerNick() || '';
+
+    pollsContainer.innerHTML = polls
+      .map((poll) => {
+        const totalVotes = poll.options.reduce((sum, opt) => sum + opt.voters.length, 0);
+        const hasVoted = poll.options.some((opt) => opt.voters.includes(currentNick));
+        const isClosed = poll.status === 'closed';
+
+        return `
+          <div class="poll-card rounded-2xl border ${hasVoted ? 'border-toxic-500/30 bg-stone-900/80' : 'border-stone-800 bg-stone-900/60'} p-5 sm:p-6 backdrop-blur-xl shadow-xl transition-all" data-poll-id="${poll.id}">
+            <!-- Header -->
+            <div class="flex flex-wrap items-start justify-between gap-3 border-b border-stone-800/80 pb-4">
+              <div class="space-y-1">
+                <div class="flex flex-wrap items-center gap-2 text-xs">
+                  <span class="rounded-md px-2 py-0.5 font-mono font-semibold ${isClosed ? 'bg-stone-800 text-stone-400' : 'bg-toxic-500/20 text-toxic-300 border border-toxic-400/30'}">
+                    ${isClosed ? '● Завершено' : '● Активно'}
+                  </span>
+                  <span class="rounded-md bg-stone-800/80 px-2 py-0.5 text-stone-400">
+                    ${poll.type === 'multiple' ? 'Несколько вариантов' : 'Один ответ'}
+                  </span>
+                  <span class="text-stone-500">Автор: <strong class="text-stone-300">${escapeHtml(poll.author)}</strong></span>
+                  <span class="text-stone-600">• ${escapeHtml(poll.createdAt)}</span>
+                </div>
+                <h3 class="text-base sm:text-lg font-bold text-white tracking-tight pt-1">${escapeHtml(poll.question)}</h3>
+                ${poll.description ? `<p class="text-xs sm:text-sm text-stone-400 leading-relaxed pt-0.5">${escapeHtml(poll.description)}</p>` : ''}
+              </div>
+
+              <!-- Top right actions -->
+              <div class="flex items-center gap-1.5">
+                <button type="button" class="btn-share-poll rounded-lg border border-stone-700 bg-stone-800/80 px-2.5 py-1 text-xs font-medium text-stone-300 hover:text-white transition cursor-pointer" data-poll-id="${poll.id}" title="Скопировать ссылку на опрос">
+                  🔗 Поделиться
+                </button>
+                <button type="button" class="btn-toggle-poll rounded-lg border border-stone-800 bg-stone-900 px-2.5 py-1 text-xs text-stone-400 hover:text-stone-200 transition cursor-pointer" data-poll-id="${poll.id}">
+                  ${isClosed ? 'Возобновить' : 'Завершить'}
+                </button>
+                <button type="button" class="btn-delete-poll rounded-lg border border-stone-800 bg-stone-900 px-2 py-1 text-xs text-stone-500 hover:text-red-400 transition cursor-pointer" data-poll-id="${poll.id}" title="Удалить опрос">
+                  ✕
+                </button>
+              </div>
+            </div>
+
+            <!-- Options & Voting Body -->
+            <div class="my-5 space-y-3">
+              ${poll.options
+                .map((opt) => {
+                  const optVotes = opt.voters.length;
+                  const pct = totalVotes > 0 ? Math.round((optVotes / totalVotes) * 100) : 0;
+                  const userVotedThis = opt.voters.includes(currentNick);
+
+                  if (hasVoted || isClosed) {
+                    // Results Mode with Progress Bar
+                    return `
+                      <div class="relative overflow-hidden rounded-xl border ${userVotedThis ? 'border-toxic-500/50 bg-stone-950/80 shadow-[0_0_15px_rgba(180,255,57,0.08)]' : 'border-stone-800 bg-stone-950/50'} p-3.5 transition-all">
+                        <!-- Progress fill bar -->
+                        <div class="absolute inset-y-0 left-0 bg-gradient-to-r ${userVotedThis ? 'from-toxic-500/20 to-plague-500/20' : 'from-stone-800/60 to-stone-800/30'} pointer-events-none transition-all duration-500" style="width: ${pct}%"></div>
+
+                        <div class="relative flex items-center justify-between gap-3 text-sm">
+                          <div class="flex items-center gap-2">
+                            <span class="font-medium ${userVotedThis ? 'text-white' : 'text-stone-300'}">${escapeHtml(opt.text)}</span>
+                            ${userVotedThis ? `<span class="rounded bg-toxic-400/20 px-1.5 py-0.5 text-[10px] font-bold text-toxic-300 border border-toxic-400/40">✓ Ваш выбор</span>` : ''}
+                          </div>
+                          <div class="flex items-center gap-2 font-mono text-xs shrink-0">
+                            <span class="font-bold ${userVotedThis ? 'text-toxic-300' : 'text-stone-300'}">${pct}%</span>
+                            <span class="text-stone-500">(${optVotes})</span>
+                          </div>
+                        </div>
+
+                        ${
+                          poll.showVoters && opt.voters.length > 0
+                            ? `
+                          <div class="relative mt-2 flex flex-wrap items-center gap-1.5 text-[11px] text-stone-400 border-t border-stone-800/60 pt-2">
+                            <span class="text-stone-500">👥 Бойцы:</span>
+                            ${opt.voters.map((v) => `<span class="rounded bg-stone-900 border border-stone-800 px-1.5 py-0.2 ${v === currentNick ? 'text-toxic-300 font-semibold' : 'text-stone-300'}">${escapeHtml(v)}</span>`).join('')}
+                          </div>
+                        `
+                            : ''
+                        }
+                      </div>
+                    `;
+                  } else {
+                    // Voting Mode (Selectable choices)
+                    const inputType = poll.type === 'multiple' ? 'checkbox' : 'radio';
+                    return `
+                      <label class="flex items-center justify-between gap-3 rounded-xl border border-stone-800 bg-stone-950/60 p-3.5 cursor-pointer hover:border-stone-700 hover:bg-stone-950 transition">
+                        <div class="flex items-center gap-3">
+                          <input type="${inputType}" name="vote_${poll.id}" value="${opt.id}" class="accent-toxic-400 h-4 w-4 rounded" />
+                          <span class="text-sm font-medium text-stone-200">${escapeHtml(opt.text)}</span>
+                        </div>
+                        <span class="text-xs font-mono text-stone-500">${optVotes} ${optVotes === 1 ? 'голос' : 'голосов'}</span>
+                      </label>
+                    `;
+                  }
+                })
+                .join('')}
+            </div>
+
+            <!-- Footer / Action Row -->
+            <div class="flex flex-wrap items-center justify-between gap-3 border-t border-stone-800/80 pt-4 text-xs text-stone-400">
+              <div class="flex items-center gap-2">
+                <span>Всего проголосовало: <strong class="text-stone-200">${totalVotes}</strong></span>
+              </div>
+
+              <div>
+                ${
+                  !hasVoted && !isClosed
+                    ? `
+                  <button type="button" class="btn-submit-vote rounded-xl bg-toxic-400 px-4 py-2 font-bold text-black shadow-[0_0_15px_rgba(180,255,57,0.25)] hover:bg-toxic-300 transition cursor-pointer" data-poll-id="${poll.id}">
+                    Отдать голос
+                  </button>
+                `
+                    : hasVoted && !isClosed
+                      ? `
+                  <button type="button" class="btn-change-vote rounded-lg border border-stone-700 bg-stone-800/60 px-3 py-1.5 text-stone-300 hover:text-white hover:border-stone-600 transition cursor-pointer" data-poll-id="${poll.id}">
+                    Изменить голос
+                  </button>
+                `
+                      : ''
+                }
+              </div>
+            </div>
+          </div>
+        `;
+      })
+      .join('');
+
+    attachPollEvents();
+  }
+
+  function escapeHtml(str: string): string {
+    return str
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#039;');
+  }
+
+  // --- Attach Event Listeners to Poll Elements ---
+  function attachPollEvents() {
+    // 1. Submit Vote
+    document.querySelectorAll('.btn-submit-vote').forEach((btn) => {
+      btn.addEventListener('click', (e) => {
+        const pollId = (e.currentTarget as HTMLElement).dataset.pollId;
+        if (!pollId) return;
+
+        const currentNick = getPlayerNick();
+        if (!currentNick) {
+          updateUI();
+          return;
+        }
+
+        const selectedInputs = Array.from(
+          document.querySelectorAll(`input[name="vote_${pollId}"]:checked`)
+        ) as HTMLInputElement[];
+
+        if (selectedInputs.length === 0) {
+          alert('Пожалуйста, выберите хотя бы один вариант ответа!');
+          return;
+        }
+
+        const selectedOptionIds = selectedInputs.map((i) => i.value);
+
+        const polls = loadPolls();
+        const poll = polls.find((p) => p.id === pollId);
+        if (!poll) return;
+
+        // Remove previous votes from this user in this poll if any
+        poll.options.forEach((opt) => {
+          opt.voters = opt.voters.filter((v) => v !== currentNick);
+        });
+
+        // Add user vote to selected options
+        poll.options.forEach((opt) => {
+          if (selectedOptionIds.includes(opt.id)) {
+            if (!opt.voters.includes(currentNick)) {
+              opt.voters.push(currentNick);
+            }
+          }
+        });
+
+        savePolls(polls);
+        renderPollsList();
+      });
+    });
+
+    // 2. Change Vote (Revote)
+    document.querySelectorAll('.btn-change-vote').forEach((btn) => {
+      btn.addEventListener('click', (e) => {
+        const pollId = (e.currentTarget as HTMLElement).dataset.pollId;
+        if (!pollId) return;
+        const currentNick = getPlayerNick();
+        if (!currentNick) return;
+
+        const polls = loadPolls();
+        const poll = polls.find((p) => p.id === pollId);
+        if (!poll) return;
+
+        // Clear user's vote
+        poll.options.forEach((opt) => {
+          opt.voters = opt.voters.filter((v) => v !== currentNick);
+        });
+
+        savePolls(polls);
+        renderPollsList();
+      });
+    });
+
+    // 3. Toggle Open/Close Poll
+    document.querySelectorAll('.btn-toggle-poll').forEach((btn) => {
+      btn.addEventListener('click', (e) => {
+        const pollId = (e.currentTarget as HTMLElement).dataset.pollId;
+        if (!pollId) return;
+        const polls = loadPolls();
+        const poll = polls.find((p) => p.id === pollId);
+        if (!poll) return;
+
+        poll.status = poll.status === 'closed' ? 'active' : 'closed';
+        savePolls(polls);
+        renderPollsList();
+      });
+    });
+
+    // 4. Delete Poll
+    document.querySelectorAll('.btn-delete-poll').forEach((btn) => {
+      btn.addEventListener('click', (e) => {
+        const pollId = (e.currentTarget as HTMLElement).dataset.pollId;
+        if (!pollId) return;
+        if (!confirm('Вы уверены, что хотите удалить это голосование?')) return;
+
+        let polls = loadPolls();
+        polls = polls.filter((p) => p.id !== pollId);
+        savePolls(polls);
+        renderPollsList();
+      });
+    });
+
+    // 5. Share Poll Link (encode to query parameter)
+    document.querySelectorAll('.btn-share-poll').forEach((btn) => {
+      btn.addEventListener('click', async (e) => {
+        const target = e.currentTarget as HTMLButtonElement;
+        const pollId = target.dataset.pollId;
+        if (!pollId) return;
+
+        const polls = loadPolls();
+        const poll = polls.find((p) => p.id === pollId);
+        if (!poll) return;
+
+        try {
+          const encoded = btoa(encodeURIComponent(JSON.stringify(poll)));
+          const shareUrl = `${window.location.origin}${window.location.pathname}?poll_share=${encoded}`;
+          await navigator.clipboard.writeText(shareUrl);
+          const orig = target.innerHTML;
+          target.innerHTML = '✓ Скопировано!';
+          setTimeout(() => {
+            target.innerHTML = orig;
+          }, 2000);
+        } catch (err) {
+          console.error('Error copying share link:', err);
+        }
+      });
+    });
+  }
+
+  // --- Dynamic Option Inputs for Create Form ---
+  let optionCount = 3;
+  function renderCreateOptions() {
+    const container = document.getElementById('gh-options-container');
+    if (!container) return;
+
+    let html = '';
+    for (let i = 1; i <= optionCount; i++) {
+      html += `
+        <div class="flex items-center gap-2">
+          <input
+            type="text"
+            name="optionText"
+            required
+            placeholder="Вариант ${i}"
+            class="flex-1 rounded-xl border border-stone-700 bg-stone-900 px-4 py-2 text-sm text-stone-100 placeholder-stone-600 outline-none focus:border-toxic-400"
+          />
+          ${
+            optionCount > 2
+              ? `<button type="button" class="btn-remove-option text-stone-500 hover:text-red-400 p-2 text-sm cursor-pointer" data-idx="${i}" title="Удалить вариант">✕</button>`
+              : ''
+          }
+        </div>
+      `;
+    }
+    container.innerHTML = html;
+
+    // Attach remove handlers
+    container.querySelectorAll('.btn-remove-option').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        if (optionCount > 2) {
+          optionCount--;
+          renderCreateOptions();
+        }
+      });
+    });
+  }
+
+  // --- Initialize Page Events ---
+  document.addEventListener('DOMContentLoaded', () => {
+    // 1. Initial UI check
+    updateUI();
+    renderCreateOptions();
+
+    // 2. Login Form
+    const loginForm = document.getElementById('gh-login-form');
+    loginForm?.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const input = document.getElementById('gh-input-nick') as HTMLInputElement;
+      const err = document.getElementById('gh-login-error');
+      const val = input.value.trim();
+
+      if (val.length < 2) {
+        if (err) {
+          err.textContent = 'Никнейм должен содержать не менее 2 символов.';
+          err.classList.remove('hidden');
+        }
+        return;
+      }
+
+      setPlayerNick(val);
+      updateUI();
+    });
+
+    // 3. Logout & Change Nick
+    document.getElementById('gh-btn-logout')?.addEventListener('click', () => {
+      clearPlayerNick();
+      updateUI();
+    });
+
+    document.getElementById('gh-btn-change-nick')?.addEventListener('click', () => {
+      const current = getPlayerNick() || '';
+      const newNick = prompt('Введите новый игровой никнейм:', current);
+      if (newNick && newNick.trim().length >= 2) {
+        setPlayerNick(newNick.trim());
+        updateUI();
+      }
+    });
+
+    // 4. Tabs Switching
+    const tabPollsBtn = document.getElementById('gh-tab-btn-polls');
+    const tabIntelBtn = document.getElementById('gh-tab-btn-intel');
+    const tabPollsView = document.getElementById('gh-tab-view-polls');
+    const tabIntelView = document.getElementById('gh-tab-view-intel');
+
+    tabPollsBtn?.addEventListener('click', () => {
+      tabPollsBtn.classList.add('border-toxic-400', 'text-white');
+      tabPollsBtn.classList.remove('border-transparent', 'text-stone-400');
+      tabIntelBtn?.classList.remove('border-toxic-400', 'text-white');
+      tabIntelBtn?.classList.add('border-transparent', 'text-stone-400');
+
+      tabPollsView?.classList.remove('hidden');
+      tabIntelView?.classList.add('hidden');
+    });
+
+    tabIntelBtn?.addEventListener('click', () => {
+      tabIntelBtn.classList.add('border-toxic-400', 'text-white');
+      tabIntelBtn.classList.remove('border-transparent', 'text-stone-400');
+      tabPollsBtn?.classList.remove('border-toxic-400', 'text-white');
+      tabPollsBtn?.classList.add('border-transparent', 'text-stone-400');
+
+      tabIntelView?.classList.remove('hidden');
+      tabPollsView?.classList.add('hidden');
+    });
+
+    // 5. Create Poll Modal Controls
+    const createModal = document.getElementById('gh-create-poll-modal');
+    document.getElementById('gh-btn-open-create')?.addEventListener('click', () => {
+      createModal?.classList.remove('hidden');
+      createModal?.scrollIntoView({ behavior: 'smooth' });
+    });
+
+    document.getElementById('gh-btn-close-create')?.addEventListener('click', () => {
+      createModal?.classList.add('hidden');
+    });
+
+    document.getElementById('gh-btn-cancel-create')?.addEventListener('click', () => {
+      createModal?.classList.add('hidden');
+    });
+
+    document.getElementById('gh-btn-add-option')?.addEventListener('click', () => {
+      if (optionCount < 8) {
+        optionCount++;
+        renderCreateOptions();
+      } else {
+        alert('Максимум 8 вариантов ответов.');
+      }
+    });
+
+    // 6. Create Poll Submit
+    document.getElementById('gh-create-poll-form')?.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const questionEl = document.getElementById('gh-poll-question') as HTMLInputElement;
+      const descEl = document.getElementById('gh-poll-desc') as HTMLTextAreaElement;
+      const typeEl = document.querySelector('input[name="pollType"]:checked') as HTMLInputElement;
+      const showVotersEl = document.getElementById('gh-poll-show-voters') as HTMLInputElement;
+      const optionInputs = Array.from(document.querySelectorAll('input[name="optionText"]')) as HTMLInputElement[];
+
+      const question = questionEl?.value.trim();
+      const desc = descEl?.value.trim() || '';
+      const pollType = (typeEl?.value === 'multiple' ? 'multiple' : 'single') as 'single' | 'multiple';
+      const showVoters = showVotersEl?.checked ?? true;
+
+      const options: PollOption[] = optionInputs
+        .map((opt, idx) => ({
+          id: `opt_${Date.now()}_${idx}`,
+          text: opt.value.trim(),
+          voters: [],
+        }))
+        .filter((o) => o.text.length > 0);
+
+      if (!question || options.length < 2) {
+        alert('Пожалуйста, заполните вопрос и как минимум 2 варианта ответов.');
+        return;
+      }
+
+      const author = getPlayerNick() || 'Соклановец';
+      const now = new Date();
+      const dateStr = now.toISOString().split('T')[0];
+
+      const newPoll: GuildPoll = {
+        id: `poll_${Date.now()}`,
+        question,
+        description: desc,
+        author,
+        createdAt: dateStr,
+        type: pollType,
+        showVoters,
+        status: 'active',
+        options,
+      };
+
+      const polls = loadPolls();
+      polls.unshift(newPoll);
+      savePolls(polls);
+
+      // Reset form
+      questionEl.value = '';
+      descEl.value = '';
+      optionCount = 3;
+      renderCreateOptions();
+      createModal?.classList.add('hidden');
+
+      renderPollsList();
+    });
+
+    // 7. Manage Data Drawer & Actions
+    const manageDrawer = document.getElementById('gh-manage-drawer');
+    document.getElementById('gh-btn-manage-toggle')?.addEventListener('click', () => {
+      manageDrawer?.classList.toggle('hidden');
+    });
+
+    document.getElementById('gh-btn-reset-polls')?.addEventListener('click', () => {
+      if (confirm('Сбросить все опросы к исходным для гильдии?')) {
+        savePolls(DEFAULT_POLLS);
+        renderPollsList();
+      }
+    });
+
+    document.getElementById('gh-btn-export')?.addEventListener('click', () => {
+      const polls = loadPolls();
+      const blob = new Blob([JSON.stringify(polls, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `la_guild_polls_${Date.now()}.json`;
+      a.click();
+      URL.revokeObjectURL(url);
+    });
+
+    document.getElementById('gh-btn-import')?.addEventListener('click', () => {
+      const input = document.createElement('input');
+      input.type = 'file';
+      input.accept = '.json';
+      input.onchange = async () => {
+        const file = input.files?.[0];
+        if (!file) return;
+        try {
+          const text = await file.text();
+          const parsed = JSON.parse(text);
+          if (Array.isArray(parsed)) {
+            savePolls(parsed);
+            renderPollsList();
+            alert('Голосования успешно импортированы!');
+          }
+        } catch (e) {
+          alert('Ошибка чтения JSON файла.');
+        }
+      };
+      input.click();
+    });
+
+    // 8. AES-GCM Intel Decryption (Existing WebCrypto logic)
+    async function deriveKey(pass: string, salt: Uint8Array): Promise<CryptoKey> {
+      const enc = new TextEncoder();
+      const base = await crypto.subtle.importKey('raw', enc.encode(pass), 'PBKDF2', false, ['deriveKey']);
+      return crypto.subtle.deriveKey(
+        { name: 'PBKDF2', salt: salt as any, iterations: 150000, hash: 'SHA-256' },
+        base,
+        { name: 'AES-GCM', length: 256 },
+        false,
+        ['decrypt']
+      );
+    }
+
+    async function decrypt(payloadB64: string, pass: string): Promise<string> {
+      const raw = Uint8Array.from(atob(payloadB64), (c) => c.charCodeAt(0));
+      const salt = raw.slice(0, 16);
+      const iv = raw.slice(16, 28);
+      const data = raw.slice(28);
+      const key = await deriveKey(pass, salt);
+      const plain = await crypto.subtle.decrypt({ name: 'AES-GCM', iv: iv as any }, key, data as any);
+      return new TextDecoder().decode(plain);
+    }
+
+    document.getElementById('dnd-unlock')?.addEventListener('click', async () => {
+      const pass = (document.getElementById('dnd-key') as HTMLInputElement)?.value;
+      const err = document.getElementById('dnd-error');
+      err?.classList.add('hidden');
+      try {
+        const res = await fetch('/dnd/payload.enc');
+        if (!res.ok) throw new Error('no payload');
+        const payload = (await res.text()).trim();
+        const md = await decrypt(payload, pass);
+
+        const html = md
+          .split(/\n{2,}/)
+          .map((block) => {
+            if (block.startsWith('### ')) return `<h3>${block.slice(4)}</h3>`;
+            if (block.startsWith('## ')) return `<h2>${block.slice(3)}</h2>`;
+            if (block.startsWith('# ')) return `<h2>${block.slice(2)}</h2>`;
+            if (block.startsWith('- ') || block.startsWith('* ')) {
+              const items = block.split('\n').map((l) => `<li>${l.replace(/^[-*] /, '')}</li>`).join('');
+              return `<ul>${items}</ul>`;
+            }
+            if (/^\|/.test(block)) {
+              const rows = block.split('\n').filter((r) => !/^\|[\s-|]+\|$/.test(r));
+              const cells = rows.map((r) => {
+                const tds = r.split('|').slice(1, -1).map((c) => c.trim());
+                return `<tr>${tds.map((c) => `<td>${c}</td>`).join('')}</tr>`;
+              });
+              return `<table>${cells.join('')}</table>`;
+            }
+            const p = block
+              .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+              .replace(/\*(.+?)\*/g, '<em>$1</em>')
+              .replace(/`(.+?)`/g, '<code>$1</code>');
+            return `<p>${p}</p>`;
+          })
+          .join('\n');
+
+        const content = document.getElementById('dnd-content');
+        if (content) {
+          content.innerHTML = html;
+          content.classList.remove('hidden');
+        }
+      } catch {
+        err?.classList.remove('hidden');
+      }
+    });
+
+    // 9. Sync between tabs with storage event
+    window.addEventListener('storage', (e) => {
+      if (e.key === STORAGE_POLLS) {
+        renderPollsList();
+      }
+      if (e.key === STORAGE_NICK) {
+        updateUI();
+      }
+    });
+  });
+</script>
