@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import DiscordBanner from '../../components/DiscordBanner.astro';
+import FaqSection from '../../components/FaqSection.astro';
 import { t } from '../../i18n/ui';
 import type { Lang } from '../../i18n/utils';
 
@@ -41,6 +42,7 @@ const lang: Lang = 'fr';
     <h2 id="pre-farming">7. Pré-récolte des Tuiles pour le Duel d’Alliance</h2>
     <p>Les points de récolte sont comptabilisés à la seconde exacte où la marche rentre chez vous. Lancez vos récoltes 4 à 5 heures avant minuit UTC pour empocher des millions de points dès 00:05 le jeudi.</p>
 
+    <FaqSection lang={lang} />
     <VideoSection topic="beginner" lang={lang} />
     <DiscordBanner lang={lang} />
   </GuidePage>

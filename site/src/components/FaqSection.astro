@@ -1,0 +1,71 @@
+---
+import { faqEn } from '../data/faq';
+import { faqRu } from '../data/faqRu';
+import { faqDe } from '../data/faqDe';
+import { faqEs } from '../data/faqEs';
+import { faqFr } from '../data/faqFr';
+import { faqId } from '../data/faqId';
+import { faqJa } from '../data/faqJa';
+import { faqKo } from '../data/faqKo';
+import { faqPt } from '../data/faqPt';
+import type { Lang } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const faqByLang: Record<string, { q: string; a: string }[]> = {
+  en: faqEn,
+  ru: faqRu,
+  de: faqDe,
+  es: faqEs,
+  fr: faqFr,
+  id: faqId,
+  ja: faqJa,
+  ko: faqKo,
+  pt: faqPt,
+};
+
+const faq = faqByLang[lang] ?? faqEn;
+
+const headings: Record<string, string> = {
+  en: '❓ FAQ — Frequently Asked Questions',
+  ru: '❓ FAQ — Частые вопросы',
+  de: '❓ FAQ — Häufig gestellte Fragen',
+  es: '❓ FAQ — Preguntas frecuentes',
+  fr: '❓ FAQ — Questions fréquentes',
+  id: '❓ FAQ — Pertanyaan Umum',
+  ja: '❓ FAQ — よくある質問',
+  ko: '❓ FAQ — 자주 묻는 질문',
+  pt: '❓ FAQ — Perguntas frequentes',
+};
+
+const schema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faq.map((f) => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+});
+---
+
+<section class="faq-section">
+  <h2 id="faq">{headings[lang] ?? headings.en}</h2>
+
+  <div class="not-prose my-6 space-y-3">
+    {faq.map((f) => (
+      <details class="group rounded-lg border border-stone-800 bg-stone-900">
+        <summary class="cursor-pointer select-none px-4 py-3 font-semibold text-plague-200 group-open:text-plague-100">
+          {f.q}
+        </summary>
+        <p class="border-t border-stone-800 px-4 py-3 text-sm leading-relaxed text-stone-300">{f.a}</p>
+      </details>
+    ))}
+  </div>
+
+  <script is:inline type="application/ld+json" set:html={schema} />
+</section>

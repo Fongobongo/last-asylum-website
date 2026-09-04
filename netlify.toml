@@ -6,6 +6,57 @@
 [build.environment]
   NODE_VERSION = "22"
 
+# FAQ merged into tips: keep specific redirects ABOVE the /en/* catch-all
+[[redirects]]
+  from = "/faq/"
+  to = "/tips/"
+  status = 301
+
+[[redirects]]
+  from = "/en/faq/"
+  to = "/tips/"
+  status = 301
+
+[[redirects]]
+  from = "/ru/faq/"
+  to = "/ru/tips/"
+  status = 301
+
+[[redirects]]
+  from = "/de/faq/"
+  to = "/de/tips/"
+  status = 301
+
+[[redirects]]
+  from = "/es/faq/"
+  to = "/es/tips/"
+  status = 301
+
+[[redirects]]
+  from = "/fr/faq/"
+  to = "/fr/tips/"
+  status = 301
+
+[[redirects]]
+  from = "/id/faq/"
+  to = "/id/tips/"
+  status = 301
+
+[[redirects]]
+  from = "/ja/faq/"
+  to = "/ja/tips/"
+  status = 301
+
+[[redirects]]
+  from = "/ko/faq/"
+  to = "/ko/tips/"
+  status = 301
+
+[[redirects]]
+  from = "/pt/faq/"
+  to = "/pt/tips/"
+  status = 301
+
 [[redirects]]
   from = "/en/*"
   to = "/:splat"

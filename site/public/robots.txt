@@ -2,6 +2,13 @@ User-agent: *
 Allow: /
 Disallow: /dnd/
 Disallow: /ru/dnd/
+Disallow: /de/dnd/
+Disallow: /es/dnd/
+Disallow: /pt/dnd/
+Disallow: /fr/dnd/
+Disallow: /id/dnd/
+Disallow: /ko/dnd/
+Disallow: /ja/dnd/
 Disallow: /admin/
 
 Sitemap: https://lastasylum.netlify.app/sitemap.xml

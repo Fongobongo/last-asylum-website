@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import DiscordBanner from '../../components/DiscordBanner.astro';
+import FaqSection from '../../components/FaqSection.astro';
 import { t } from '../../i18n/ui';
 import type { Lang } from '../../i18n/utils';
 
@@ -41,6 +42,7 @@ const lang: Lang = 'pt';
     <h2 id="pre-farming">7. Pré-Coleta de Recursos para o Duelo de Alianças</h2>
     <p>Os pontos de coleta são creditados no momento exato em que a marcha retorna à sua cidade. Envie coletas 4 a 5 horas antes do reset para garantir milhões de pontos às 00:05 UTC de quinta-feira.</p>
 
+    <FaqSection lang={lang} />
     <VideoSection topic="beginner" lang={lang} />
     <DiscordBanner lang={lang} />
   </GuidePage>

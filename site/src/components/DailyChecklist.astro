@@ -10,12 +10,12 @@ const { lang = 'en' } = Astro.props;
 const i18n = {
   ru: {
     title: 'Ежедневный чеклист выжившего',
-    subtitle: 'Интерактивный список дел с автоматическим сбросом в 00:00 UTC',
+    subtitle: 'Интерактивный список дел с автоматическим сбросом в 00:00 по серверу (02:00 UTC)',
     progress: 'Выполнено задач',
     allDone: '🎉 Все ежедневные задачи выполнены! Ваш лагерь на пике эффективности.',
-    resetNotice: 'Сбрасывается ежедневно в 00:00 UTC вместе с игровым сервером',
+    resetNotice: 'Сбрасывается ежедневно в 00:00 по серверу (02:00 UTC) вместе с игровым сервером',
     resetBtn: 'Сбросить всё вручную',
-    todayFocus: 'Фокус событий на сегодня (UTC):',
+    todayFocus: 'Фокус событий на сегодня (сервер):',
     tasks: [
       { id: 'tavern', label: 'Бесплатный призыв в Таверне', tip: 'Не сгорает, но таймер нового бесплатного призыва пойдёт только после использования.' },
       { id: 'stamina', label: 'Потратить выносливость (не держать 100/100)', tip: 'Каждый час простоя на капе 100 — это потерянные ресурсы и опыт.' },
@@ -26,7 +26,7 @@ const i18n = {
       { id: 'alliance', label: 'Внести вклады в технологии альянса и нажать «Помощь»', tip: 'Даёт очки чести альянса для покупки ценных предметов в магазине альянса.' },
     ],
     days: [
-      'Воскресенье: Планирование и подготовка. Выполняйте соколиные задания, но НЕ забирайте награду до 00:00 UTC!',
+      'Воскресенье: Планирование и подготовка. Выполняйте соколиные задания, но НЕ забирайте награду до 00:00 по серверу!',
       'Понедельник (День 1): Ресурсы и Ворон. Сжигайте Сущность Ворона и Плоды Ворона! Антитоксин не трогать.',
       'Вторник (День 2): Развитие базы. Запускайте стройку, используйте выживших. Соколиные задания НЕ забирать!',
       'Среда (День 3): Наука и свитки. Открывайте сундуки снаряжения Ворона 1-3 ур., используйте свитки учений и соколиные квесты.',
@@ -37,12 +37,12 @@ const i18n = {
   },
   en: {
     title: 'Daily Survivor Checklist',
-    subtitle: 'Interactive routine tracker with automatic reset at 00:00 UTC',
+    subtitle: 'Interactive routine tracker with automatic reset at server midnight (02:00 UTC)',
     progress: 'Tasks completed',
     allDone: '🎉 All daily tasks completed! Your sanctuary is operating at maximum efficiency.',
-    resetNotice: 'Automatically resets daily at 00:00 UTC with the server reset',
+    resetNotice: 'Automatically resets daily at server midnight (02:00 UTC) with the server reset',
     resetBtn: 'Reset manually',
-    todayFocus: "Today's Event Focus (UTC):",
+    todayFocus: "Today's Event Focus (server time):",
     tasks: [
       { id: 'tavern', label: 'Free Tavern Recruit', tip: 'Free summons do not stack; the refresh timer only begins once claimed.' },
       { id: 'stamina', label: 'Spend stamina (never stay at 100/100 cap)', tip: 'Every hour idling at max stamina is wasted progression and resources.' },
@@ -53,7 +53,7 @@ const i18n = {
       { id: 'alliance', label: 'Donate to Alliance Tech & hit Alliance Help', tip: 'Earns Alliance Honor coins for essential weekly shop items.' },
     ],
     days: [
-      'Sunday: Planning & reset prep. Finish Falcon quests but DO NOT claim until Monday 00:00 UTC!',
+      'Sunday: Planning & reset prep. Finish Falcon quests but DO NOT claim until Monday server midnight (02:00 UTC)!',
       'Monday (Day 1): Resources & Raven. Dump all Raven Essence & Fruit today! Save Antitoxin.',
       'Tuesday (Day 2): Base Development. Burn construction speedups. Finish Falcon quests but HOLD for Wed!',
       'Wednesday (Day 3): Tech & Scrolls. Open Lv.1-3 Raven Gear Chests, study scrolls & claim saved Falcon quests.',
@@ -64,12 +64,12 @@ const i18n = {
   },
   de: {
     title: 'Tägliche Überlebens-Checkliste',
-    subtitle: 'Interaktiver Aufgaben-Tracker mit automatischem Reset um 00:00 UTC',
+    subtitle: 'Interaktiver Aufgaben-Tracker mit automatischem Reset um 02:00 UTC (Server-Mitternacht)',
     progress: 'Aufgaben erledigt',
     allDone: '🎉 Alle Tagesaufgaben abgeschlossen! Deine Zuflucht arbeitet mit maximaler Effizienz.',
-    resetNotice: 'Wird täglich um 00:00 UTC mit dem Server-Reset zurückgesetzt',
+    resetNotice: 'Wird täglich um 02:00 UTC (Server-Mitternacht) mit dem Server-Reset zurückgesetzt',
     resetBtn: 'Manuell zurücksetzen',
-    todayFocus: 'Heutiger Event-Fokus (UTC):',
+    todayFocus: 'Heutiger Event-Fokus (Server-Zeit):',
     tasks: [
       { id: 'tavern', label: 'Kostenlose Tavernen-Rekrutierung', tip: 'Timer für die nächste Gratis-Beschwörung startet erst nach dem Abholen.' },
       { id: 'stamina', label: 'Ausdauer verbrauchen (nie bei 100/100 pausieren)', tip: 'Vollständige Ausdauer bedeutet vergeudete Ressourcen.' },
@@ -91,12 +91,12 @@ const i18n = {
   },
   es: {
     title: 'Lista de Tareas Diarias del Superviviente',
-    subtitle: 'Seguimiento interactivo con reinicio automático a las 00:00 UTC',
+    subtitle: 'Seguimiento interactivo con reinicio automático a las 02:00 UTC (medianoche del servidor)',
     progress: 'Tareas completadas',
     allDone: '🎉 ¡Todas las tareas diarias completadas! Tu refugio funciona a máxima eficiencia.',
-    resetNotice: 'Se reinicia diariamente a las 00:00 UTC con el servidor',
+    resetNotice: 'Se reinicia diariamente a las 02:00 UTC (medianoche del servidor)',
     resetBtn: 'Reiniciar manualmente',
-    todayFocus: 'Enfoque de eventos de hoy (UTC):',
+    todayFocus: 'Enfoque de eventos de hoy (hora del servidor):',
     tasks: [
       { id: 'tavern', label: 'Reclutamiento gratis en la Taberna', tip: 'El temporizador de la siguiente tirada gratuita solo empieza tras reclamar.' },
       { id: 'stamina', label: 'Gastar energía (no dejarla al límite de 100)', tip: 'Estar al máximo de energía es desperdiciar recursos valiosos.' },
@@ -118,12 +118,12 @@ const i18n = {
   },
   fr: {
     title: 'Liste Quotidienne du Survivant',
-    subtitle: 'Suivi interactif des tâches avec réinitialisation automatique à 00:00 UTC',
+    subtitle: 'Suivi interactif des tâches avec réinitialisation automatique à 02:00 UTC (minuit du serveur)',
     progress: 'Tâches terminées',
     allDone: '🎉 Toutes les tâches quotidiennes sont terminées ! Votre sanctuaire tourne à plein régime.',
-    resetNotice: 'Se réinitialise chaque jour à 00:00 UTC avec le serveur',
+    resetNotice: 'Se réinitialise chaque jour à 02:00 UTC (minuit du serveur)',
     resetBtn: 'Réinitialiser manuellement',
-    todayFocus: "Objectif d'événement du jour (UTC) :",
+    todayFocus: "Objectif d'événement du jour (heure du serveur) :",
     tasks: [
       { id: 'tavern', label: 'Recrutement gratuit à la Taverne', tip: 'Le délai de la prochaine invocation commence uniquement après avoir réclamé.' },
       { id: 'stamina', label: 'Dépenser l\'endurance (ne pas rester à 100/100)', tip: 'Chaque heure au plafond d\'endurance est une perte nette de progression.' },
@@ -145,12 +145,12 @@ const i18n = {
   },
   id: {
     title: 'Daftar Tugas Harian Penyintas',
-    subtitle: 'Pelacak rutinitas interaktif dengan reset otomatis pukul 00:00 UTC',
+    subtitle: 'Pelacak rutinitas interaktif dengan reset otomatis pukul 02:00 UTC (tengah malam server)',
     progress: 'Tugas selesai',
     allDone: '🎉 Semua tugas harian selesai! Pangkalan Anda berjalan dengan efisiensi maksimal.',
-    resetNotice: 'Direset otomatis setiap hari pukul 00:00 UTC bersamaan dengan server',
+    resetNotice: 'Direset otomatis setiap hari pukul 02:00 UTC (tengah malam server)',
     resetBtn: 'Reset manual',
-    todayFocus: 'Fokus Event Hari Ini (UTC):',
+    todayFocus: 'Fokus Event Hari Ini (waktu server):',
     tasks: [
       { id: 'tavern', label: 'Perekrutan Kedai Gratis', tip: 'Hitung mundur gratis berikutnya hanya berjalan setelah Anda mengklaim.' },
       { id: 'stamina', label: 'Habiskan stamina (jangan biarkan penuh 100/100)', tip: 'Setiap jam stamina penuh adalah pemborosan sumber daya.' },
@@ -172,12 +172,12 @@ const i18n = {
   },
   ja: {
     title: '生存者のデイリーチェックリスト',
-    subtitle: '毎日00:00 UTCに自動リセットされる対話型タスク管理ツール',
+    subtitle: '毎日02:00 UTC（サーバー時間0:00）に自動リセットされる対話型タスク管理ツール',
     progress: '完了タスク',
     allDone: '🎉 本日の全デイリータスク完了！拠点は最高効率で稼働中です。',
-    resetNotice: '毎日00:00 UTCにサーバー更新と同時に自動リセットされます',
+    resetNotice: '毎日02:00 UTC（サーバー時間0:00）にサーバー更新と同時に自動リセットされます',
     resetBtn: '手動リセット',
-    todayFocus: '本日のイベント重点（UTC）：',
+    todayFocus: '本日のイベント重点（サーバー時間）：',
     tasks: [
       { id: 'tavern', label: '酒場の無料英雄召喚', tip: '受け取った後から次回の無料タイマーが開始されます。' },
       { id: 'stamina', label: 'スタミナ消費（上限100/100で溢れさせない）', tip: '溢れたスタミナは育成素材の大きな損失です。' },
@@ -188,7 +188,7 @@ const i18n = {
       { id: 'alliance', label: '連盟技術寄付＆連盟ヘルプ押し', tip: '連盟ショップで使える名誉ポイントを獲得できます。' },
     ],
     days: [
-      '日曜日：週間準備。ハヤブサ任務をクリアし、月曜00:00 UTCまで受け取らずキープ！',
+      '日曜日：週間準備。ハヤブサ任務をクリアし、月曜02:00 UTC（サーバー時間0:00）まで受け取らずキープ！',
       '月曜日（1日目）：資源＆カラス。カラスのエッセンスと果実を今日一気に使用！',
       '火曜日（2日目）：拠点発展。建設加速を使用。ハヤブサ任務は水曜までキープ。',
       '水曜日（3日目）：研究＆巻物。カラス装備箱Lv.1-3を開封し、研究加速を使用。',
@@ -199,12 +199,12 @@ const i18n = {
   },
   ko: {
     title: '생존자 일일 체크리스트',
-    subtitle: '매일 00:00 UTC에 자동 리셋되는 일일 루틴 관리 도구',
+    subtitle: '매일 02:00 UTC(서버 시간 0:00)에 자동 리셋되는 일일 루틴 관리 도구',
     progress: '완료된 과제',
     allDone: '🎉 오늘의 모든 일일 과제를 완료했습니다! 안식처가 최고 효율로 가동 중입니다.',
-    resetNotice: '매일 00:00 UTC(한국 시간 오전 9시) 서버 리셋과 함께 자동 초기화됩니다',
+    resetNotice: '매일 02:00 UTC(서버 시간 0:00) 서버 리셋과 함께 자동 초기화됩니다',
     resetBtn: '수동 초기화',
-    todayFocus: '오늘의 이벤트 핵심 전략 (UTC):',
+    todayFocus: '오늘의 이벤트 핵심 전략 (서버 시간):',
     tasks: [
       { id: 'tavern', label: '주점 무료 영웅 소환', tip: '수령 즉시 다음 무료 소환 쿨타임이 시작됩니다.' },
       { id: 'stamina', label: '행동력 소비 (100/100 풀 상태 방치 금지)', tip: '가득 찬 상태로 방치하면 자원과 경험치 손실이 발생합니다.' },
@@ -226,12 +226,12 @@ const i18n = {
   },
   pt: {
     title: 'Lista de Tarefas Diárias do Sobrevivente',
-    subtitle: 'Rastreador de rotina interativo com reinício automático às 00:00 UTC',
+    subtitle: 'Rastreador de rotina interativo com reinício automático às 02:00 UTC (meia-noite do servidor)',
     progress: 'Tarefas concluídas',
     allDone: '🎉 Todas as tarefas diárias concluídas! Seu santuário está operando com eficiência máxima.',
-    resetNotice: 'Reinicia diariamente às 00:00 UTC com o servidor do jogo',
+    resetNotice: 'Reinicia diariamente às 02:00 UTC (meia-noite do servidor)',
     resetBtn: 'Reiniciar manualmente',
-    todayFocus: 'Foco de evento de hoje (UTC):',
+    todayFocus: 'Foco de evento de hoje (hora do servidor):',
     tasks: [
       { id: 'tavern', label: 'Recrutamento grátis na Taverna', tip: 'O temporizador do próximo recrutamento gratuito só começa após resgatar.' },
       { id: 'stamina', label: 'Gastar energia (nunca deixe no limite de 100/100)', tip: 'Cada hora no limite de energia é desperdício de progresso.' },
@@ -328,10 +328,11 @@ const texts = i18n[lang as keyof typeof i18n] ?? i18n.en;
     const STORAGE_KEY = 'lap_daily_checklist_v1';
     const DATE_KEY = 'lap_checklist_last_date_v1';
 
-    // Calculate current UTC date (YYYY-MM-DD)
+    // Calculate current server date (UTC-2, YYYY-MM-DD); server midnight = 02:00 UTC
     const now = new Date();
-    const utcDayOfWeek = now.getUTCDay(); // 0 = Sun, 1 = Mon, ...
-    const utcDateStr = now.toISOString().slice(0, 10);
+    const serverNow = new Date(now.getTime() - 2 * 60 * 60 * 1000);
+    const utcDayOfWeek = serverNow.getUTCDay(); // 0 = Sun, 1 = Mon, ...
+    const utcDateStr = serverNow.toISOString().slice(0, 10);
 
     // Display today's event focus
     const todayEl = document.getElementById('checklist-today-text');

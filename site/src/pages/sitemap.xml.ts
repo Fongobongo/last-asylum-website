@@ -4,6 +4,7 @@ import { languages } from '../i18n/utils';
 const pages = [
   '',
   'beginners/',
+  'tips/',
   'buildings/',
   'heroes/',
   'economy/',
@@ -17,7 +18,6 @@ const pages = [
   'tier-list/',
   'codex/',
   'gear/',
-  'faq/',
   'status/',
   'compare/',
   'events/',
@@ -29,6 +29,7 @@ const pages = [
   'events/kvk/',
   'events/mythic/',
   'events/royal/',
+  'events/supreme-healer/',
   'events/survival/',
   'events/thief/',
   'events/undead/',

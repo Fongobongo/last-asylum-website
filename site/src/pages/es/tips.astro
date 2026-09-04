@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import DiscordBanner from '../../components/DiscordBanner.astro';
+import FaqSection from '../../components/FaqSection.astro';
 import { t } from '../../i18n/ui';
 import type { Lang } from '../../i18n/utils';
 
@@ -41,6 +42,7 @@ const lang: Lang = 'es';
     <h2 id="pre-farming">7. Pre-recolección de Nodos para el Duelo de Alianzas</h2>
     <p>Los puntos de recolección se otorgan en el segundo exacto en que la marcha regresa a tu ciudad. Envía tus tropas 4-5 horas antes del reinicio para cobrar millones de puntos a las 00:05 UTC del jueves.</p>
 
+    <FaqSection lang={lang} />
     <VideoSection topic="beginner" lang={lang} />
     <DiscordBanner lang={lang} />
   </GuidePage>

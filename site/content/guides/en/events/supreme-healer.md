@@ -33,8 +33,8 @@ Each day activates a specialized scoring category. Below is the complete day-by-
 
 Veterans dominate Supreme Healer by exploiting these core timing mechanics:
 
-### 1. Pre-Reset Gathering Timing (00:00 UTC)
-Dispatch all your troop marches to high-level resource nodes 4–6 hours prior to the reset of **Day 1** and **Day 7**. Time their return so they arrive immediately after the clock strikes 00:00 UTC, securing instant leaderboard momentum without spending stamina.
+### 1. Pre-Reset Gathering Timing (server midnight, 02:00 UTC)
+Dispatch all your troop marches to high-level resource nodes 4–6 hours prior to the reset of **Day 1** and **Day 7**. Time their return so they arrive immediately after the server midnight (02:00 UTC), securing instant leaderboard momentum without spending stamina.
 
 ### 2. Hoard Falcon Missions
 Do not claim Falcon missions as soon as they refresh. Let completed missions bank in your log and claim them exclusively on **Day 1** and **Day 3**, where each mission grants **1,000 bonus points**.

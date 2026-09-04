@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import DiscordBanner from '../../components/DiscordBanner.astro';
+import FaqSection from '../../components/FaqSection.astro';
 import { t } from '../../i18n/ui';
 import type { Lang } from '../../i18n/utils';
 
@@ -41,6 +42,7 @@ const lang: Lang = 'id';
     <h2 id="pre-farming">7. Pre-Farming Sumber Daya untuk Duel Aliansi</h2>
     <p>Poin gathering dihitung saat pasukan kembali ke pangkalan, bukan saat menambang. Kirim pasukan 4-5 jam sebelum reset hari Kamis untuk klaim poin instan.</p>
 
+    <FaqSection lang={lang} />
     <VideoSection topic="beginner" lang={lang} />
     <DiscordBanner lang={lang} />
   </GuidePage>

@@ -19,7 +19,6 @@ const navItems: { key: any; href: string; num: string }[] = [
   { key: 'nav.codex', href: 'codex', num: '12' },
   { key: 'nav.calendar', href: 'calendar', num: '13' },
   { key: 'nav.patchnotes', href: 'patch-notes', num: '14' },
-  { key: 'nav.faq', href: 'faq', num: '15' },
 ];
 const cleanPath = path.replace(/^\/(en|ru|es|pt|fr|de|id|ko|ja)?\/?/, '/') || '/';
 const is404 = cleanPath === '/404/' || cleanPath.startsWith('/404');
@@ -46,6 +45,21 @@ const dictReset: Record<string, string> = {
   ko: '초기화:',
   pt: 'Reset:',
 };
+
+// Game server runs at UTC-2: its midnight (daily reset) is 02:00 UTC
+const SERVER_OFFSET_HOURS = -2;
+
+const dictServer: Record<string, string> = {
+  ru: 'Сервер:',
+  en: 'Server:',
+  de: 'Server:',
+  es: 'Servidor:',
+  fr: 'Serveur :',
+  id: 'Server:',
+  ja: 'サーバー:',
+  ko: '서버:',
+  pt: 'Servidor:',
+};
 ---
 
 <header id="site-header" class="sticky top-0 z-50 border-b border-white/[0.07] bg-[#080807]/75 backdrop-blur-2xl supports-[backdrop-filter]:bg-[#080807]/65 transition-shadow">
@@ -59,7 +73,7 @@ const dictReset: Record<string, string> = {
       <div class="hidden sm:flex items-center gap-2 font-mono text-[10px] text-stone-400 bg-stone-900/80 border border-white/[0.06] rounded-full px-3 py-0.5">
         <span class="flex items-center gap-1.5 text-stone-300">
           <span class="h-1.5 w-1.5 rounded-full bg-toxic-400"></span>
-          <span>UTC: <strong id="utc-clock" class="text-white">--:--:--</strong></span>
+          <span>{dictServer[lang] ?? 'Server:'} <strong id="utc-clock" class="text-white">--:--:--</strong></span>
         </span>
         <span class="text-stone-700">|</span>
         <span class="text-stone-400">
@@ -180,7 +194,7 @@ const dictReset: Record<string, string> = {
       <div class="sm:hidden mb-3 flex items-center justify-between rounded-xl border border-white/10 bg-stone-900/80 px-3 py-2 text-xs font-mono text-stone-400">
         <span class="flex items-center gap-1.5 text-stone-300">
           <span class="h-1.5 w-1.5 rounded-full bg-toxic-400 animate-pulse"></span>
-          <span>UTC: <strong id="utc-clock-m" class="text-white">--:--:--</strong></span>
+          <span>{dictServer[lang] ?? 'Server:'} <strong id="utc-clock-m" class="text-white">--:--:--</strong></span>
         </span>
         <span>
           {dictReset[lang] ?? 'Reset:'} <strong id="utc-countdown-m" class="text-toxic-300 font-semibold">--h --m</strong>
@@ -433,17 +447,21 @@ const dictReset: Record<string, string> = {
       const countdownElM = document.getElementById('utc-countdown-m');
       if (!clockEl && !clockElM) return;
 
+      // Game server runs at UTC-2; daily reset happens at its midnight (= 02:00 UTC)
+      const SERVER_OFFSET_MS = -2 * 60 * 60 * 1000;
+
       const tick = () => {
         const now = new Date();
-        const h = now.getUTCHours();
-        const m = now.getUTCMinutes();
-        const s = now.getUTCSeconds();
+        const serverNow = new Date(now.getTime() + SERVER_OFFSET_MS);
+        const h = serverNow.getUTCHours();
+        const m = serverNow.getUTCMinutes();
+        const s = serverNow.getUTCSeconds();
         const timeStr = `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
         if (clockEl) clockEl.textContent = timeStr;
         if (clockElM) clockElM.textContent = timeStr;
 
-        const secToday = h * 3600 + m * 60 + s;
-        const left = 86400 - secToday;
+        const secServerDay = h * 3600 + m * 60 + s;
+        const left = 86400 - secServerDay;
         const lh = Math.floor(left / 3600);
         const lm = Math.floor((left % 3600) / 60);
         const ls = left % 60;

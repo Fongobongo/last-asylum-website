@@ -27,10 +27,10 @@ const tocLabel = Astro.props.lang === 'ru' ? 'На этой странице' : 
 const tocClose = Astro.props.lang === 'ru' ? 'Закрыть' : 'Close';
 ---
 
-<div class="lg:grid lg:grid-cols-[1fr_280px] lg:gap-8 xl:gap-10">
+<div class:list={[toc.length > 2 && 'lg:grid lg:grid-cols-[1fr_280px] lg:gap-8 xl:gap-10']}>
   {
     breadcrumbs.length > 0 && (
-      <nav aria-label="Breadcrumb" class="mb-5 flex flex-wrap items-center gap-1.5 text-[13px] text-stone-500">
+      <nav aria-label="Breadcrumb" class="mb-5 flex flex-wrap items-center gap-1.5 text-[13px] text-stone-500 lg:col-span-2">
         <a href="/" class="inline-flex items-center gap-1 hover:text-stone-300 transition">
           <span class="text-stone-600">⌂</span>
         </a>

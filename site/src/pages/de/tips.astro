@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import DiscordBanner from '../../components/DiscordBanner.astro';
+import FaqSection from '../../components/FaqSection.astro';
 import { t } from '../../i18n/ui';
 import type { Lang } from '../../i18n/utils';
 
@@ -41,6 +42,7 @@ const lang: Lang = 'de';
     <h2 id="pre-farming">7. Rohstoff-Pre-Farming für das Allianz-Duell</h2>
     <p>Punkte für das Sammeln werden erst im Moment der Rückkehr gewertet. Schicke Sammelmärsche 4–5 Stunden vor dem Donnerstags-Reset los, um um 00:05 UTC sofort Millionen Punkte abzuräumen.</p>
 
+    <FaqSection lang={lang} />
     <VideoSection topic="beginner" lang={lang} />
     <DiscordBanner lang={lang} />
   </GuidePage>

@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import DiscordBanner from '../../components/DiscordBanner.astro';
+import FaqSection from '../../components/FaqSection.astro';
 import { t } from '../../i18n/ui';
 import type { Lang } from '../../i18n/utils';
 
@@ -41,6 +42,7 @@ const lang: Lang = 'ja';
     <h2 id="pre-farming">7. 同盟対決木曜日の資源事前採取（Pre-Farming）</h2>
     <p>採取ポイントは採掘中ではなく「部隊が城に帰還した瞬間」に加算されます。木曜00:00 UTCのリセット4〜5時間前に高Lvタイルへ出撃させ、00:05に帰還させれば即座に数百万Ptを獲得できます。</p>
 
+    <FaqSection lang={lang} />
     <VideoSection topic="beginner" lang={lang} />
     <DiscordBanner lang={lang} />
   </GuidePage>

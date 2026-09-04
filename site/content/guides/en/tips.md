@@ -69,7 +69,7 @@ Completed quests that display a red dot ("Claim") **NEVER EXPIRE**. They can rem
 The highest-value reward days in the weekly cycle are **Monday, Wednesday, and Friday** (these days correspond to Alliance Duel phases or double chest bonuses).
 1. On Sunday, complete all available quests, but claim only enough so that your board sits at **$N - 1$** (e.g. 7 out of 8).
 2. The remaining free slot allows the background timer to continuously spawn new quests overnight.
-3. On Monday after 00:00 UTC, log in, tap "Claim All" on the 7 pre-completed quests, finish the newly spawned ones — and instantly unlock all 3 event chests in the first minutes of the reset!
+3. On Monday after server midnight (02:00 UTC), log in, tap "Claim All" on the 7 pre-completed quests, finish the newly spawned ones — and instantly unlock all 3 event chests in the first minutes of the reset!
 4. Repeat the cadence: complete on Tuesday $\rightarrow$ claim on Wednesday; complete on Thursday $\rightarrow$ claim on Friday.
 
 ---
@@ -144,8 +144,8 @@ Thursday in Alliance Duel is Gathering Day. Veteran alliances routinely seal vic
 > The game awards Gathering points **NOT while mining the tile, but AT THE EXACT SECOND THE MARCH RETURNS to your city**!
 
 ### Step-by-Step Pre-Farming Protocol:
-1. On Wednesday evening (roughly 4 to 5 hours prior to the 00:00 UTC daily reset), dispatch all gathering marches to the richest Level 6 or 7 resource nodes (preferably Gold or Herbs).
-2. Time the marches so that gathering completes and troops march back into your gate at **00:02–00:05 UTC Thursday**.
+1. On Wednesday evening (roughly 4 to 5 hours prior to the daily reset at server midnight, 02:00 UTC), dispatch all gathering marches to the richest Level 6 or 7 resource nodes (preferably Gold or Herbs).
+2. Time the marches so that gathering completes and troops march back into your gate at **02:02–02:05 UTC (00:02–00:05 server time) on Thursday**.
 3. The moment the clock strikes Thursday, 5 hours of multi-march gathering points cash in simultaneously — instantly yielding **1.5 to 2.5 million duel points** and unlocking 2 to 3 chest tiers within seconds!
 
 ### World Map Etiquette: Tile Stripping
