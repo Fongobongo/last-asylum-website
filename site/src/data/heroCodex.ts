@@ -1,6 +1,8 @@
 export interface HeroCodex {
   slug: string;
   name: string;
+  names?: Record<string, string>;
+  exclusiveWeapon?: Record<string, string>;
   faction: 'Warrior' | 'Ranger' | 'Warlock';
   className: 'Tank' | 'Carry' | 'Support';
   rarity: 'UR' | 'SSR';
@@ -16,8 +18,10 @@ export interface HeroCodex {
 // Compiled from thelaphub codex + community guides (merlyn, DrAction, callikoneko, kellerfaust, 5sunburn).
 export const heroCodex: HeroCodex[] = [
   {
-    slug: 'arthur',
+        slug: 'arthur',
     name: 'Arthur',
+    names: {"en": "Arthur", "ru": "Артур", "de": "Arthur", "es": "Arturo", "fr": "Arthur", "id": "Arthur", "ja": "アーサー", "ko": "아서", "pt": "Arthur"},
+    exclusiveWeapon: {"en": "Stone Shield", "ru": "Каменный щит", "de": "Steinschild", "es": "Escudo de piedra", "fr": "Bouclier de pierre", "id": "Perisai Batu Kokoh", "ja": "磐石の盾", "ko": "반석 방패", "pt": "Escudo de Pedra"},
     faction: 'Warrior',
     className: 'Tank',
     rarity: 'UR',
@@ -37,8 +41,10 @@ export const heroCodex: HeroCodex[] = [
     teamNotes: 'Frontline anchor of the canonical F2P squad: Arthur, Daskal, Marlena, Harper, Claire.',
   },
   {
-    slug: 'marlena',
+        slug: 'marlena',
     name: 'Marlena',
+    names: {"en": "Marlena", "ru": "Марлена", "de": "Marlena", "es": "Marlena", "fr": "Marlena", "id": "Marlena", "ja": "マレーナ", "ko": "말레나", "pt": "Marlena"},
+    exclusiveWeapon: {"en": "Crimson Sword", "ru": "Багровый меч", "de": "Rotes Schwert", "es": "Espada carmesí", "fr": "Épée cramoisie", "id": "Pedang Merah Darah", "ja": "クリムゾンソード", "ko": "진홍의 검", "pt": "Espada Carmesim"},
     faction: 'Warrior',
     className: 'Carry',
     rarity: 'UR',
@@ -60,8 +66,9 @@ export const heroCodex: HeroCodex[] = [
     video: '9lXPCNdxNZ4',
   },
   {
-    slug: 'claire',
+        slug: 'claire',
     name: 'Claire',
+    names: {"en": "Claire", "ru": "Клэр", "de": "Claire", "es": "Claire", "fr": "Claire", "id": "Clea", "ja": "クレア", "ko": "클레아", "pt": "Claire"},
     faction: 'Warrior',
     className: 'Carry',
     rarity: 'SSR',
@@ -82,8 +89,10 @@ export const heroCodex: HeroCodex[] = [
     video: '-9Nysk8pcns',
   },
   {
-    slug: 'harper',
+        slug: 'harper',
     name: 'Harper',
+    names: {"en": "Harper", "ru": "Харпер", "de": "Harper", "es": "Harper", "fr": "Harper", "id": "Harper", "ja": "ハーパー", "ko": "하퍼", "pt": "Harper"},
+    exclusiveWeapon: {"en": "Bard\\'s Horn", "ru": "Рог барда", "de": "Bardenhorn", "es": "Cuerno de bardo", "fr": "Cor du barde", "id": "Terompet Penyanyi", "ja": "吟遊の角笛", "ko": "음유의 뿔피리", "pt": "Corneta do Bardo"},
     faction: 'Warrior',
     className: 'Support',
     rarity: 'UR',
@@ -101,8 +110,10 @@ export const heroCodex: HeroCodex[] = [
     teamNotes: 'Standard comp backline. Boss comps: Front Claire–Harper / Back Zoya–Celia/Bell–Marlena.',
   },
   {
-    slug: 'daskal',
+        slug: 'daskal',
     name: 'Daskal',
+    names: {"en": "Daskal", "ru": "Даскал", "de": "Daskal", "es": "Daskal", "fr": "Daskal", "id": "Duskar", "ja": "ダスカール", "ko": "다스칼", "pt": "Daskal"},
+    exclusiveWeapon: {"en": "Crimson Greatsword", "ru": "Багровый двуручник", "de": "Rotes Großschwert", "es": "Espadón carmesí", "fr": "Espadon écarlate", "id": "Pedang Raksasa Merah", "ja": "鮮血の巨刃", "ko": "선혈의 대검", "pt": "Espadão Carmesim"},
     faction: 'Warrior',
     className: 'Tank',
     rarity: 'UR',
@@ -120,8 +131,10 @@ export const heroCodex: HeroCodex[] = [
     teamNotes: 'Final form of the F2P squad: Arthur, Daskal, Marlena, Harper, Claire.',
   },
   {
-    slug: 'cynthia',
+        slug: 'cynthia',
     name: 'Cynthia',
+    names: {"en": "Cynthia", "ru": "Синтия", "de": "Cynthia", "es": "Cynthia", "fr": "Cynthia", "id": "Cynthia", "ja": "シンシア", "ko": "신시아", "pt": "Cynthia"},
+    exclusiveWeapon: {"en": "Moon Blade", "ru": "Лунный клинок", "de": "Mondklinge", "es": "Hoja lunar", "fr": "Lame lunaire", "id": "Pedang Bulan Suci", "ja": "聖なる月刃", "ko": "신성한 달의 검날", "pt": "Lâmina Lunar"},
     faction: 'Ranger',
     className: 'Carry',
     rarity: 'UR',
@@ -141,8 +154,10 @@ export const heroCodex: HeroCodex[] = [
     video: 'mK-mCXxerUE',
   },
   {
-    slug: 'zoya',
+        slug: 'zoya',
     name: 'Zoya',
+    names: {"en": "Zoya", "ru": "Зоя", "de": "Zoya", "es": "Zoya", "fr": "Zoya", "id": "Zoya", "ja": "ゾーヤ", "ko": "조야", "pt": "Zoya"},
+    exclusiveWeapon: {"en": "Forest Blade", "ru": "Лесной клинок", "de": "Waldklinge", "es": "Hoja del bosque", "fr": "Lame sylvestre", "id": "Pedang Kayu Hutan", "ja": "森の木刀", "ko": "숲의 목검", "pt": "Lâmina da Floresta"},
     faction: 'Warrior',
     className: 'Carry',
     rarity: 'UR',
@@ -160,8 +175,10 @@ export const heroCodex: HeroCodex[] = [
     video: 'XktNJ6u4sWo',
   },
   {
-    slug: 'bell',
+        slug: 'bell',
     name: 'Bell',
+    names: {"en": "Bell", "ru": "Белл", "de": "Bell", "es": "Bell", "fr": "Bell", "id": "Belle", "ja": "ベル", "ko": "벨", "pt": "Bell"},
+    exclusiveWeapon: {"en": "Tiny Drum", "ru": "Крошечный барабан", "de": "Kleine Trommel", "es": "Tamborcillo", "fr": "Tambour minuscule", "id": "Drum Lincah", "ja": "躍動の小太鼓", "ko": "경쾌한 소고", "pt": "Tamborzinho"},
     faction: 'Ranger',
     className: 'Support',
     rarity: 'UR',
@@ -178,8 +195,10 @@ export const heroCodex: HeroCodex[] = [
     teamNotes: 'Situational but best-in-slot for ranger boss fights.',
   },
   {
-    slug: 'shadow',
+        slug: 'shadow',
     name: 'Shadow',
+    names: {"en": "Shadow", "ru": "Шэдоу", "de": "Shadow", "es": "Sombra", "fr": "Shadow", "id": "Ying", "ja": "影", "ko": "섀도우", "pt": "Shadow"},
+    exclusiveWeapon: {"en": "Phantom Dagger", "ru": "Призрачный кинжал", "de": "Phantomdolch", "es": "Daga fantasma", "fr": "Dague fantôme", "id": "Belati Bayangan", "ja": "虚影のダガー", "ko": "환영 단검", "pt": "Adaga Fantasma"},
     faction: 'Ranger',
     className: 'Tank',
     rarity: 'UR',
@@ -197,8 +216,10 @@ export const heroCodex: HeroCodex[] = [
     teamNotes: 'PvP variant: Arthur, Shadow, Marlena, Harper, Cynthia.',
   },
   {
-    slug: 'annie',
+        slug: 'annie',
     name: 'Annie',
+    names: {"en": "Annie", "ru": "Анни", "de": "Annie", "es": "Annie", "fr": "Annie", "id": "Annie", "ja": "アニー", "ko": "애니", "pt": "Annie"},
+    exclusiveWeapon: {"en": "Candy Wand", "ru": "Леденцовая трость", "de": "Süßigkeitenstab", "es": "Varita de caramelo", "fr": "Baguette sucrée", "id": "Tongkat Permen", "ja": "キャンディステッキ", "ko": "사탕 지팡이", "pt": "Varinha de Doce"},
     faction: 'Warlock',
     className: 'Carry',
     rarity: 'UR',
@@ -215,8 +236,10 @@ export const heroCodex: HeroCodex[] = [
     teamNotes: 'Warlock boss comp: Front Harper/Bell–Stellar / Back Annie–Nicole–Joker.',
   },
   {
-    slug: 'joker',
+        slug: 'joker',
     name: 'Joker',
+    names: {"en": "Joker", "ru": "Джокер", "de": "Joker", "es": "Joker", "fr": "Joker", "id": "Joker", "ja": "ピエロ", "ko": "광대", "pt": "Joker"},
+    exclusiveWeapon: {"en": "Illusion Card", "ru": "Карта иллюзий", "de": "Illusionskarte", "es": "Carta de ilusión", "fr": "Carte illusoire", "id": "Kartu Ilusi", "ja": "マジックカード", "ko": "환술 카드", "pt": "Carta da Ilusão"},
     faction: 'Warlock',
     className: 'Carry',
     rarity: 'UR',
@@ -234,8 +257,10 @@ export const heroCodex: HeroCodex[] = [
     video: 'ekodq_Wh2_I',
   },
   {
-    slug: 'red-lady',
+        slug: 'red-lady',
     name: 'Red Lady',
+    names: {"en": "Red Lady", "ru": "Красная Леди", "de": "Rote Dame", "es": "Dama Roja", "fr": "Dame Rouge", "id": "Nyonya Merah", "ja": "レッドレディ", "ko": "레드 레이디", "pt": "Dama Vermelha"},
+    exclusiveWeapon: {"en": "Crimson Edge", "ru": "Багровый клинок", "de": "Rote Klinge", "es": "Filo carmesí", "fr": "Tranchant écarlate", "id": "Bilah Merah", "ja": "赤紅の利刃", "ko": "진홍의 칼날", "pt": "Lâmina Carmesim"},
     faction: 'Ranger',
     className: 'Carry',
     rarity: 'UR',
@@ -249,8 +274,9 @@ export const heroCodex: HeroCodex[] = [
     teamNotes: 'Ranger boss comp backline: Cynthia–Bell–Red Lady.',
   },
   {
-    slug: 'celia',
+        slug: 'celia',
     name: 'Celia',
+    names: {"en": "Celia", "ru": "Селия", "de": "Celia", "es": "Celia", "fr": "Celia", "id": "Celia", "ja": "シリア", "ko": "실리아", "pt": "Celia"},
     faction: 'Warrior',
     className: 'Support',
     rarity: 'SSR',
@@ -262,8 +288,9 @@ export const heroCodex: HeroCodex[] = [
     teamNotes: 'Boss comp fallback: Front Claire–Harper / Back Zoya–Celia–Marlena.',
   },
   {
-    slug: 'bella',
+        slug: 'bella',
     name: 'Bella',
+    names: {"en": "Bella", "ru": "Белла", "de": "Bella", "es": "Bella", "fr": "Bella", "id": "Bella", "ja": "ベラ", "ko": "벨라", "pt": "Bella"},
     faction: 'Warrior',
     className: 'Tank',
     rarity: 'SSR',
@@ -275,8 +302,9 @@ export const heroCodex: HeroCodex[] = [
     teamNotes: 'Thief Hunt squad: Front Arthur + Bella / Back Marlena + Shadow + Claire.',
   },
   {
-    slug: 'lucius',
+        slug: 'lucius',
     name: 'Lucius',
+    names: {"en": "Lucius", "ru": "Люциус", "de": "Lucius", "es": "Lucio", "fr": "Lucius", "id": "Lucius", "ja": "ルシウス", "ko": "루시우스", "pt": "Lucius"},
     faction: 'Warrior',
     className: 'Tank',
     rarity: 'SSR',
@@ -288,8 +316,9 @@ export const heroCodex: HeroCodex[] = [
     teamNotes: 'RU F2P: Front Arthur+Lucius / Back Claire+Kesso+Celia.',
   },
   {
-    slug: 'kesso',
+        slug: 'kesso',
     name: 'Kesso',
+    names: {"en": "Kesso", "ru": "Кессо", "de": "Kesso", "es": "Kesso", "fr": "Kesso", "id": "Kaeso", "ja": "ケイソ", "ko": "케이사", "pt": "Kesso"},
     faction: 'Warrior',
     className: 'Carry',
     rarity: 'SSR',
@@ -301,8 +330,9 @@ export const heroCodex: HeroCodex[] = [
     teamNotes: 'RU F2P backline: Claire + Kesso + Celia.',
   },
   {
-    slug: 'sivir',
+        slug: 'sivir',
     name: 'Sivir',
+    names: {"en": "Sivir", "ru": "Сивир", "de": "Sivir", "es": "Sivir", "fr": "Sivir", "id": "Sivir", "ja": "シヴィア", "ko": "시빌", "pt": "Sivir"},
     faction: 'Warrior',
     className: 'Carry',
     rarity: 'SSR',
@@ -314,8 +344,9 @@ export const heroCodex: HeroCodex[] = [
     teamNotes: 'Early alternative in the RU F2P path.',
   },
   {
-    slug: 'ash',
+        slug: 'ash',
     name: 'Ash',
+    names: {"en": "Ash", "ru": "Эш", "de": "Ash", "es": "Ash", "fr": "Ash", "id": "Ashe", "ja": "アッシュ", "ko": "애쉬", "pt": "Ash"},
     faction: 'Ranger',
     className: 'Carry',
     rarity: 'SSR',
@@ -327,8 +358,9 @@ export const heroCodex: HeroCodex[] = [
     teamNotes: 'Ranger boss comp: Front Harper–Ash / Back Cynthia–Bell–Red Lady.',
   },
   {
-    slug: 'stellar',
+        slug: 'stellar',
     name: 'Stellar',
+    names: {"en": "Stellar", "ru": "Стеллар", "de": "Stellar", "es": "Estelar", "fr": "Stellar", "id": "Stardust", "ja": "ステラ", "ko": "스타더스트", "pt": "Stellar"},
     faction: 'Warlock',
     className: 'Support',
     rarity: 'SSR',
@@ -343,8 +375,9 @@ export const heroCodex: HeroCodex[] = [
     teamNotes: 'Warlock boss comp: Front Harper/Bell–Stellar / Back Annie–Nicole–Joker.',
   },
   {
-    slug: 'hastar',
+        slug: 'hastar',
     name: 'Hastar',
+    names: {"en": "Hastar", "ru": "Хастар", "de": "Hastar", "es": "Hastar", "fr": "Hastar", "id": "Hastur", "ja": "ハスター", "ko": "하스터", "pt": "Hastar"},
     faction: 'Warlock',
     className: 'Tank',
     rarity: 'SSR',
@@ -356,8 +389,9 @@ export const heroCodex: HeroCodex[] = [
     teamNotes: 'Early game only.',
   },
   {
-    slug: 'grenwald',
+        slug: 'grenwald',
     name: 'Grenwald',
+    names: {"en": "Grenwald", "ru": "Гренвальд", "de": "Grenwald", "es": "Grenwald", "fr": "Grenwald", "id": "Grindelwald", "ja": "グリンウォルド", "ko": "그린델왈드", "pt": "Grenwald"},
     faction: 'Warlock',
     className: 'Carry',
     rarity: 'SSR',
@@ -369,8 +403,10 @@ export const heroCodex: HeroCodex[] = [
     teamNotes: 'Warlock placeholder.',
   },
   {
-    slug: 'nicole',
+        slug: 'nicole',
     name: 'Nicole',
+    names: {"en": "Nicole", "ru": "Николь", "de": "Nicole", "es": "Nicole", "fr": "Nicole", "id": "Nicole", "ja": "ニコル", "ko": "니콜", "pt": "Nicole"},
+    exclusiveWeapon: {"en": "Flame Cloak", "ru": "Огненный плащ", "de": "Flammenumhang", "es": "Manto de llamas", "fr": "Cape enflammée", "id": "Jubah Api Berkobar", "ja": "烈火のマント", "ko": "불꽃 망토", "pt": "Manto Flamejante"},
     faction: 'Warlock',
     className: 'Support',
     rarity: 'UR',
@@ -385,8 +421,10 @@ export const heroCodex: HeroCodex[] = [
     teamNotes: 'Warlock boss comp: Back Annie–Nicole–Joker.',
   },
   {
-    slug: 'ulfrid',
+        slug: 'ulfrid',
     name: 'Ulfrid',
+    names: {"en": "Ulfrid", "ru": "Ульфрид", "de": "Ulfrid", "es": "Ulfrid", "fr": "Ulfrid", "id": "Ulfred", "ja": "ウルフレッド", "ko": "울프레드", "pt": "Ulfrid"},
+    exclusiveWeapon: {"en": "Wolven Claw", "ru": "Волчий коготь", "de": "Wolfsklaue", "es": "Garra de lobo", "fr": "Griffe de loup", "id": "Cakar Suku Serigala", "ja": "狼族の爪", "ko": "늑대의 발톱", "pt": "Garra do Lobo"},
     faction: 'Warlock',
     className: 'Tank',
     rarity: 'UR',
@@ -398,8 +436,10 @@ export const heroCodex: HeroCodex[] = [
     teamNotes: 'Warlock squad front with Billy.',
   },
   {
-    slug: 'billy',
+        slug: 'billy',
     name: 'Billy',
+    names: {"en": "Billy", "ru": "Билли", "de": "Billy", "es": "Billy", "fr": "Billy", "id": "Billy", "ja": "ビリー", "ko": "빌리", "pt": "Billy"},
+    exclusiveWeapon: {"en": "Puppet Frame", "ru": "Облик марионетки", "de": "Puppenrahmen", "es": "Marco de marioneta", "fr": "Cadre de marionnette", "id": "Rangka Kayu Tali", "ja": "操り糸の十字架", "ko": "꼭두각시 조종틀", "pt": "Moldura de Marionete"},
     faction: 'Warlock',
     className: 'Tank',
     rarity: 'UR',
@@ -414,8 +454,10 @@ export const heroCodex: HeroCodex[] = [
     teamNotes: 'Warlock squad tank.',
   },
   {
-    slug: 'louis',
+        slug: 'louis',
     name: 'Louis',
+    names: {"en": "Louis", "ru": "Луи", "de": "Louis", "es": "Luis", "fr": "Louis", "id": "Louis", "ja": "ルイス", "ko": "루이스", "pt": "Louis"},
+    exclusiveWeapon: {"en": "Thorn Shackles", "ru": "Шипастые оковы", "de": "Dornenfesseln", "es": "Grilletes de espinas", "fr": "Entraves épineuses", "id": "Belenggu Duri", "ja": "荊の枷", "ko": "가시 족쇄", "pt": "Grilhões de Espinhos"},
     faction: 'Ranger',
     className: 'Tank',
     rarity: 'UR',
@@ -427,8 +469,9 @@ export const heroCodex: HeroCodex[] = [
     teamNotes: 'Ranger squad front with Griffith.',
   },
   {
-    slug: 'griffith',
+        slug: 'griffith',
     name: 'Griffith',
+    names: {"en": "Griffith", "ru": "Гриффит", "de": "Griffith", "es": "Griffith", "fr": "Griffith", "id": "Griffith", "ja": "グリフィス", "ko": "그리피스", "pt": "Griffith"},
     faction: 'Ranger',
     className: 'Tank',
     rarity: 'SSR',
@@ -440,8 +483,9 @@ export const heroCodex: HeroCodex[] = [
     teamNotes: 'Ranger squad placeholder.',
   },
   {
-    slug: 'rui',
+        slug: 'rui',
     name: 'Rui',
+    names: {"en": "Rui", "ru": "Руи", "de": "Rui", "es": "Rui", "fr": "Rui", "id": "Rui", "ja": "ルイ", "ko": "루이", "pt": "Rui"},
     faction: 'Ranger',
     className: 'Support',
     rarity: 'UR',
@@ -453,8 +497,9 @@ export const heroCodex: HeroCodex[] = [
     teamNotes: 'Ranger PvP support.',
   },
   {
-    slug: 'bestar',
+        slug: 'bestar',
     name: 'Bestar',
+    names: {"en": "Bestar", "ru": "Бестар", "de": "Bestar", "es": "Bestar", "fr": "Bestar", "id": "Bast", "ja": "ベスター", "ko": "베스트", "pt": "Bestar"},
     faction: 'Ranger',
     className: 'Carry',
     rarity: 'SSR',

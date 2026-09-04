@@ -28,10 +28,13 @@ const tiers: ('S' | 'A' | 'B' | 'C')[] = ['S', 'A', 'B', 'C'];
           {heroTiers.filter((h) => h.tier === tier).map((h) => (
             <div class="rounded-lg border border-stone-800 bg-stone-900 p-4">
               <div class="flex items-baseline justify-between gap-2">
-                <p class="font-bold text-plague-200">{h.name}</p>
+                <p class="font-bold text-plague-200">{h.names?.[lang] ? h.names[lang] + " (" + h.name + ")" : h.name}</p>
                 <span class="text-xs text-stone-500">{h.rarity} · {h.faction} · {h.class}</span>
               </div>
-              <p class="mt-1 text-sm text-stone-400">{h.note}</p>
+              <p class="mt-1 text-sm text-stone-400">{h.notes?.[lang] || h.note}</p>
+              {h.exclusiveWeapon?.[lang] && (
+                <p class="mt-2 text-xs text-amber-400 font-medium">⚔️ {h.exclusiveWeapon[lang]}</p>
+              )}
             </div>
           ))}
         </div>

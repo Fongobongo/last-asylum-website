@@ -1,0 +1,11 @@
+---
+import Base from '../../layouts/Base.astro';
+import ShopPage from '../../components/ShopPage.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ja';
+---
+
+<Base lang={lang} path="/ja/shop/" title="ゲームショップ＆ダイヤチャージ | Last Asylum" description="正規パートナーLDShop経由の公式ショップ＆ダイヤチャージ。UID即時納品、最大割引。">
+  <ShopPage lang={lang} />
+</Base>

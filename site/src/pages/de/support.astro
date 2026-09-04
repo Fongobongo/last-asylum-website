@@ -1,59 +1,11 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { t } from '../../i18n/ui';
+import ShopPage from '../../components/ShopPage.astro';
 import type { Lang } from '../../i18n/utils';
 
 const lang: Lang = 'de';
-
-// TODO: replace placeholder links when provided
-const REF_LINK = '#';
-const DONATE_LINK = '#';
-
-const valuePicks = [
-  'Marlena-$1-Starter-Aufladung — durchweg bester Wert im Spiel genannt',
-  'Hero Pass — der größte direkte Trupp-Boost',
-  'Battle Pass + Wöchentlicher Ära-Pass in Woche 1 der Saison (+250 Widerstand)',
-  'Universal-Beschleunigungs- / Krähen-Essenz- / Stadt-Level-Up-Packs im Bereich $20–200',
-  'Fortgeschrittene Mythic-Treasure-Spur (499) — einer der besseren Event-Werte',
-];
 ---
 
-<Base lang={lang} path="/de/support/" title="Uns unterstützen" description="Unterstütze den Last Asylum: Plague Fan Hub — lad über unseren Referral-Link auf oder spende dem Autor.">
-  <section class="mx-auto max-w-3xl py-16">
-    <h1 class="mb-3 text-4xl font-bold text-plague-100">❤️ Unterstütze das Projekt</h1>
-    <p class="mb-10 text-lg text-stone-400">Dieser Fan-Site ist kostenlos und Community-getragen. Du kannst ihn auf zwei Wegen unterstützen:</p>
-
-    <div class="grid gap-6 sm:grid-cols-2">
-      <div class="flex flex-col rounded-xl border border-stone-800 bg-stone-900 p-6">
-        <span class="text-4xl">💎</span>
-        <h2 class="mt-4 text-xl font-bold text-plague-200">Über unseren Link aufladen</h2>
-        <p class="mt-3 mb-6 flex-1 text-sm leading-relaxed text-stone-400">Kauf Ingame-Items und Währung über den Referral-Link unten — du bekommst denselben Wert, und das Projekt erhält eine kleine Provision.</p>
-        <a href={REF_LINK} class="rounded-lg bg-plague-700 px-5 py-3 text-center font-semibold text-plague-50 transition-colors hover:bg-plague-600">
-          Auflade-Store öffnen
-        </a>
-      </div>
-
-      <div class="flex flex-col rounded-xl border border-stone-800 bg-stone-900 p-6">
-        <span class="text-4xl">☕</span>
-        <h2 class="mt-4 text-xl font-bold text-plague-200">Dem Autor spenden</h2>
-        <p class="mt-3 mb-6 flex-1 text-sm leading-relaxed text-stone-400">Wenn die Guides dir Diamanten gespart haben, kannst du dem Autor der Site direkt ein Trinkgeld senden.</p>
-        <a href={DONATE_LINK} class="rounded-lg bg-blood-600 px-5 py-3 text-center font-semibold text-white transition-colors hover:bg-blood-500">
-          Spenden
-        </a>
-      </div>
-    </div>
-
-    <div class="mt-8 rounded-xl border border-stone-800 bg-stone-900 p-6">
-      <h2 class="text-xl font-bold text-plague-200">🛒 Was sich zu kaufen lohnt, wenn du ausgibst</h2>
-      <p class="mt-2 mb-4 text-sm text-stone-400">Der Konsens der Community-Guides zu den besten Käufen, in Reihenfolge:</p>
-      <ol class="list-decimal space-y-2 pl-5 text-sm text-stone-300">
-        {valuePicks.map((v) => <li>{v}</li>)}
-      </ol>
-    </div>
-
-    <p class="mt-6 text-xs text-stone-500">⚖️ Transparenz: Referral-Links können dieser Site eine Provision einbringen, ohne dass dir Mehrkosten entstehen.</p>
-    <p class="mt-4 rounded-lg border border-stone-800 bg-stone-950 p-4 text-center text-sm text-stone-500">
-      🔧 Bald — die Links werden in Kürze ergänzt.
-    </p>
-  </section>
+<Base lang={lang} path="/de/support/" title="In-Game-Shop & Aufladen | Last Asylum" description="Offizieller Last Asylum: Plague Shop und Diamanten-Aufladung über den autorisierten Partner LDShop. Sofortige Lieferung per UID, Rabatte und Community-Unterstützung.">
+  <ShopPage lang={lang} />
 </Base>

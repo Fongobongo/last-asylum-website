@@ -1,0 +1,3736 @@
+{
+  "40001": {
+    "names": {
+      "en": "Durant",
+      "ru": "Дюран",
+      "de": "Durant",
+      "es": "Durant",
+      "fr": "Durant",
+      "id": "Durant",
+      "ja": "デュラント",
+      "ko": "듀란트",
+      "pt": "Durant"
+    },
+    "weapons": {}
+  },
+  "40002": {
+    "names": {
+      "en": "William",
+      "ru": "Уильям",
+      "de": "William",
+      "es": "William",
+      "fr": "William",
+      "id": "Williams",
+      "ja": "ウィリアムズ",
+      "ko": "윌리엄스",
+      "pt": "William"
+    },
+    "weapons": {}
+  },
+  "30011": {
+    "names": {
+      "en": "Robin",
+      "ru": "Робин",
+      "de": "Robin",
+      "es": "Robin",
+      "fr": "Robin",
+      "id": "Robin",
+      "ja": "ロビン",
+      "ko": "로빈",
+      "pt": "Robin"
+    },
+    "weapons": {}
+  },
+  "30010": {
+    "names": {
+      "en": "Kafa",
+      "ru": "Кафа",
+      "de": "Kafa",
+      "es": "Kafa",
+      "fr": "Kafa",
+      "id": "Kafa",
+      "ja": "カファ",
+      "ko": "카파",
+      "pt": "Kafa"
+    },
+    "weapons": {}
+  },
+  "10006": {
+    "names": {
+      "en": "Celia",
+      "ru": "Селия",
+      "de": "Celia",
+      "es": "Celia",
+      "fr": "Celia",
+      "id": "Celia",
+      "ja": "シリア",
+      "ko": "실리아",
+      "pt": "Celia"
+    },
+    "weapons": {}
+  },
+  "30003": {
+    "names": {
+      "en": "Claire",
+      "ru": "Клэр",
+      "de": "Claire",
+      "es": "Claire",
+      "fr": "Claire",
+      "id": "Clea",
+      "ja": "クレア",
+      "ko": "클레아",
+      "pt": "Claire"
+    },
+    "weapons": {}
+  },
+  "30001": {
+    "names": {
+      "en": "Bella",
+      "ru": "Белла",
+      "de": "Bella",
+      "es": "Bella",
+      "fr": "Bella",
+      "id": "Bella",
+      "ja": "ベラ",
+      "ko": "벨라",
+      "pt": "Bella"
+    },
+    "weapons": {}
+  },
+  "10005": {
+    "names": {
+      "en": "Kesso",
+      "ru": "Кессо",
+      "de": "Kesso",
+      "es": "Kesso",
+      "fr": "Kesso",
+      "id": "Kaeso",
+      "ja": "ケイソ",
+      "ko": "케이사",
+      "pt": "Kesso"
+    },
+    "weapons": {}
+  },
+  "10008": {
+    "names": {
+      "en": "Lucius",
+      "ru": "Люциус",
+      "de": "Lucius",
+      "es": "Lucio",
+      "fr": "Lucius",
+      "id": "Lucius",
+      "ja": "ルシウス",
+      "ko": "루시우스",
+      "pt": "Lucius"
+    },
+    "weapons": {}
+  },
+  "20009": {
+    "names": {
+      "en": "Sivir",
+      "ru": "Сивир",
+      "de": "Sivir",
+      "es": "Sivir",
+      "fr": "Sivir",
+      "id": "Sivir",
+      "ja": "シヴィア",
+      "ko": "시빌",
+      "pt": "Sivir"
+    },
+    "weapons": {}
+  },
+  "20006": {
+    "names": {
+      "en": "Griffith",
+      "ru": "Гриффит",
+      "de": "Griffith",
+      "es": "Griffith",
+      "fr": "Griffith",
+      "id": "Griffith",
+      "ja": "グリフィス",
+      "ko": "그리피스",
+      "pt": "Griffith"
+    },
+    "weapons": {}
+  },
+  "20005": {
+    "names": {
+      "en": "Stellar",
+      "ru": "Стеллар",
+      "de": "Stellar",
+      "es": "Estelar",
+      "fr": "Stellar",
+      "id": "Stardust",
+      "ja": "ステラ",
+      "ko": "스타더스트",
+      "pt": "Stellar"
+    },
+    "weapons": {}
+  },
+  "40010": {
+    "names": {
+      "en": "Ash",
+      "ru": "Эш",
+      "de": "Ash",
+      "es": "Ash",
+      "fr": "Ash",
+      "id": "Ashe",
+      "ja": "アッシュ",
+      "ko": "애쉬",
+      "pt": "Ash"
+    },
+    "weapons": {}
+  },
+  "30007": {
+    "names": {
+      "en": "Hastar",
+      "ru": "Хастар",
+      "de": "Hastar",
+      "es": "Hastar",
+      "fr": "Hastar",
+      "id": "Hastur",
+      "ja": "ハスター",
+      "ko": "하스터",
+      "pt": "Hastar"
+    },
+    "weapons": {}
+  },
+  "30005": {
+    "names": {
+      "en": "Bestar",
+      "ru": "Бестар",
+      "de": "Bestar",
+      "es": "Bestar",
+      "fr": "Bestar",
+      "id": "Bast",
+      "ja": "ベスター",
+      "ko": "베스트",
+      "pt": "Bestar"
+    },
+    "weapons": {}
+  },
+  "30004": {
+    "names": {
+      "en": "Grenwald",
+      "ru": "Гренвальд",
+      "de": "Grenwald",
+      "es": "Grenwald",
+      "fr": "Grenwald",
+      "id": "Grindelwald",
+      "ja": "グリンウォルド",
+      "ko": "그린델왈드",
+      "pt": "Grenwald"
+    },
+    "weapons": {}
+  },
+  "10007": {
+    "names": {
+      "en": "Arthur",
+      "ru": "Артур",
+      "de": "Arthur",
+      "es": "Arturo",
+      "fr": "Arthur",
+      "id": "Arthur",
+      "ja": "アーサー",
+      "ko": "아서",
+      "pt": "Arthur"
+    },
+    "weapons": {
+      "en": "Stone Shield",
+      "ru": "Каменный щит",
+      "de": "Steinschild",
+      "es": "Escudo de piedra",
+      "fr": "Bouclier de pierre",
+      "id": "Perisai Batu Kokoh",
+      "ja": "磐石の盾",
+      "ko": "반석 방패",
+      "pt": "Escudo de Pedra"
+    }
+  },
+  "30006": {
+    "names": {
+      "en": "Marlena",
+      "ru": "Марлена",
+      "de": "Marlena",
+      "es": "Marlena",
+      "fr": "Marlena",
+      "id": "Marlena",
+      "ja": "マレーナ",
+      "ko": "말레나",
+      "pt": "Marlena"
+    },
+    "weapons": {
+      "en": "Crimson Sword",
+      "ru": "Багровый меч",
+      "de": "Rotes Schwert",
+      "es": "Espada carmesí",
+      "fr": "Épée cramoisie",
+      "id": "Pedang Merah Darah",
+      "ja": "クリムゾンソード",
+      "ko": "진홍의 검",
+      "pt": "Espada Carmesim"
+    }
+  },
+  "50004": {
+    "names": {
+      "en": "Shadow",
+      "ru": "Шэдоу",
+      "de": "Shadow",
+      "es": "Sombra",
+      "fr": "Shadow",
+      "id": "Ying",
+      "ja": "影",
+      "ko": "섀도우",
+      "pt": "Shadow"
+    },
+    "weapons": {
+      "en": "Phantom Dagger",
+      "ru": "Призрачный кинжал",
+      "de": "Phantomdolch",
+      "es": "Daga fantasma",
+      "fr": "Dague fantôme",
+      "id": "Belati Bayangan",
+      "ja": "虚影のダガー",
+      "ko": "환영 단검",
+      "pt": "Adaga Fantasma"
+    }
+  },
+  "50006": {
+    "names": {
+      "en": "Cynthia",
+      "ru": "Синтия",
+      "de": "Cynthia",
+      "es": "Cynthia",
+      "fr": "Cynthia",
+      "id": "Cynthia",
+      "ja": "シンシア",
+      "ko": "신시아",
+      "pt": "Cynthia"
+    },
+    "weapons": {
+      "en": "Moon Blade",
+      "ru": "Лунный клинок",
+      "de": "Mondklinge",
+      "es": "Hoja lunar",
+      "fr": "Lame lunaire",
+      "id": "Pedang Bulan Suci",
+      "ja": "聖なる月刃",
+      "ko": "신성한 달의 검날",
+      "pt": "Lâmina Lunar"
+    }
+  },
+  "50011": {
+    "names": {
+      "en": "Annie",
+      "ru": "Анни",
+      "de": "Annie",
+      "es": "Annie",
+      "fr": "Annie",
+      "id": "Annie",
+      "ja": "アニー",
+      "ko": "애니",
+      "pt": "Annie"
+    },
+    "weapons": {
+      "en": "Candy Wand",
+      "ru": "Леденцовая трость",
+      "de": "Süßigkeitenstab",
+      "es": "Varita de caramelo",
+      "fr": "Baguette sucrée",
+      "id": "Tongkat Permen",
+      "ja": "キャンディステッキ",
+      "ko": "사탕 지팡이",
+      "pt": "Varinha de Doce"
+    }
+  },
+  "50012": {
+    "names": {
+      "en": "Joker",
+      "ru": "Джокер",
+      "de": "Joker",
+      "es": "Joker",
+      "fr": "Joker",
+      "id": "Joker",
+      "ja": "ピエロ",
+      "ko": "광대",
+      "pt": "Joker"
+    },
+    "weapons": {
+      "en": "Illusion Card",
+      "ru": "Карта иллюзий",
+      "de": "Illusionskarte",
+      "es": "Carta de ilusión",
+      "fr": "Carte illusoire",
+      "id": "Kartu Ilusi",
+      "ja": "マジックカード",
+      "ko": "환술 카드",
+      "pt": "Carta da Ilusão"
+    }
+  },
+  "50002": {
+    "names": {
+      "en": "Harper",
+      "ru": "Харпер",
+      "de": "Harper",
+      "es": "Harper",
+      "fr": "Harper",
+      "id": "Harper",
+      "ja": "ハーパー",
+      "ko": "하퍼",
+      "pt": "Harper"
+    },
+    "weapons": {
+      "en": "Bard\\'s Horn",
+      "ru": "Рог барда",
+      "de": "Bardenhorn",
+      "es": "Cuerno de bardo",
+      "fr": "Cor du barde",
+      "id": "Terompet Penyanyi",
+      "ja": "吟遊の角笛",
+      "ko": "음유의 뿔피리",
+      "pt": "Corneta do Bardo"
+    }
+  },
+  "50001": {
+    "names": {
+      "en": "Daskal",
+      "ru": "Даскал",
+      "de": "Daskal",
+      "es": "Daskal",
+      "fr": "Daskal",
+      "id": "Duskar",
+      "ja": "ダスカール",
+      "ko": "다스칼",
+      "pt": "Daskal"
+    },
+    "weapons": {
+      "en": "Crimson Greatsword",
+      "ru": "Багровый двуручник",
+      "de": "Rotes Großschwert",
+      "es": "Espadón carmesí",
+      "fr": "Espadon écarlate",
+      "id": "Pedang Raksasa Merah",
+      "ja": "鮮血の巨刃",
+      "ko": "선혈의 대검",
+      "pt": "Espadão Carmesim"
+    }
+  },
+  "50007": {
+    "names": {
+      "en": "Red Lady",
+      "ru": "Красная Леди",
+      "de": "Rote Dame",
+      "es": "Dama Roja",
+      "fr": "Dame Rouge",
+      "id": "Nyonya Merah",
+      "ja": "レッドレディ",
+      "ko": "레드 레이디",
+      "pt": "Dama Vermelha"
+    },
+    "weapons": {
+      "en": "Crimson Edge",
+      "ru": "Багровый клинок",
+      "de": "Rote Klinge",
+      "es": "Filo carmesí",
+      "fr": "Tranchant écarlate",
+      "id": "Bilah Merah",
+      "ja": "赤紅の利刃",
+      "ko": "진홍의 칼날",
+      "pt": "Lâmina Carmesim"
+    }
+  },
+  "50010": {
+    "names": {
+      "en": "Ulfrid",
+      "ru": "Ульфрид",
+      "de": "Ulfrid",
+      "es": "Ulfrid",
+      "fr": "Ulfrid",
+      "id": "Ulfred",
+      "ja": "ウルフレッド",
+      "ko": "울프레드",
+      "pt": "Ulfrid"
+    },
+    "weapons": {
+      "en": "Wolven Claw",
+      "ru": "Волчий коготь",
+      "de": "Wolfsklaue",
+      "es": "Garra de lobo",
+      "fr": "Griffe de loup",
+      "id": "Cakar Suku Serigala",
+      "ja": "狼族の爪",
+      "ko": "늑대의 발톱",
+      "pt": "Garra do Lobo"
+    }
+  },
+  "50003": {
+    "names": {
+      "en": "Zoya",
+      "ru": "Зоя",
+      "de": "Zoya",
+      "es": "Zoya",
+      "fr": "Zoya",
+      "id": "Zoya",
+      "ja": "ゾーヤ",
+      "ko": "조야",
+      "pt": "Zoya"
+    },
+    "weapons": {
+      "en": "Forest Blade",
+      "ru": "Лесной клинок",
+      "de": "Waldklinge",
+      "es": "Hoja del bosque",
+      "fr": "Lame sylvestre",
+      "id": "Pedang Kayu Hutan",
+      "ja": "森の木刀",
+      "ko": "숲의 목검",
+      "pt": "Lâmina da Floresta"
+    }
+  },
+  "50005": {
+    "names": {
+      "en": "Louis",
+      "ru": "Луи",
+      "de": "Louis",
+      "es": "Luis",
+      "fr": "Louis",
+      "id": "Louis",
+      "ja": "ルイス",
+      "ko": "루이스",
+      "pt": "Louis"
+    },
+    "weapons": {
+      "en": "Thorn Shackles",
+      "ru": "Шипастые оковы",
+      "de": "Dornenfesseln",
+      "es": "Grilletes de espinas",
+      "fr": "Entraves épineuses",
+      "id": "Belenggu Duri",
+      "ja": "荊の枷",
+      "ko": "가시 족쇄",
+      "pt": "Grilhões de Espinhos"
+    }
+  },
+  "50008": {
+    "names": {
+      "en": "Bell",
+      "ru": "Белл",
+      "de": "Bell",
+      "es": "Bell",
+      "fr": "Bell",
+      "id": "Belle",
+      "ja": "ベル",
+      "ko": "벨",
+      "pt": "Bell"
+    },
+    "weapons": {
+      "en": "Tiny Drum",
+      "ru": "Крошечный барабан",
+      "de": "Kleine Trommel",
+      "es": "Tamborcillo",
+      "fr": "Tambour minuscule",
+      "id": "Drum Lincah",
+      "ja": "躍動の小太鼓",
+      "ko": "경쾌한 소고",
+      "pt": "Tamborzinho"
+    }
+  },
+  "50009": {
+    "names": {
+      "en": "Billy",
+      "ru": "Билли",
+      "de": "Billy",
+      "es": "Billy",
+      "fr": "Billy",
+      "id": "Billy",
+      "ja": "ビリー",
+      "ko": "빌리",
+      "pt": "Billy"
+    },
+    "weapons": {
+      "en": "Puppet Frame",
+      "ru": "Облик марионетки",
+      "de": "Puppenrahmen",
+      "es": "Marco de marioneta",
+      "fr": "Cadre de marionnette",
+      "id": "Rangka Kayu Tali",
+      "ja": "操り糸の十字架",
+      "ko": "꼭두각시 조종틀",
+      "pt": "Moldura de Marionete"
+    }
+  },
+  "50013": {
+    "names": {
+      "en": "Nicole",
+      "ru": "Николь",
+      "de": "Nicole",
+      "es": "Nicole",
+      "fr": "Nicole",
+      "id": "Nicole",
+      "ja": "ニコル",
+      "ko": "니콜",
+      "pt": "Nicole"
+    },
+    "weapons": {
+      "en": "Flame Cloak",
+      "ru": "Огненный плащ",
+      "de": "Flammenumhang",
+      "es": "Manto de llamas",
+      "fr": "Cape enflammée",
+      "id": "Jubah Api Berkobar",
+      "ja": "烈火のマント",
+      "ko": "불꽃 망토",
+      "pt": "Manto Flamejante"
+    }
+  },
+  "50020": {
+    "names": {
+      "en": "Claire",
+      "ru": "Клэр",
+      "de": "Claire",
+      "es": "Claire",
+      "fr": "Claire",
+      "id": "Clea",
+      "ja": "クレア",
+      "ko": "클레아",
+      "pt": "Claire"
+    },
+    "weapons": {}
+  },
+  "99001": {
+    "names": {
+      "en": "Marlena",
+      "ru": "Марлена",
+      "de": "Marlena",
+      "es": "Marlena",
+      "fr": "Marlena",
+      "id": "Marlena",
+      "ja": "マレーナ",
+      "ko": "말레나",
+      "pt": "Marlena"
+    },
+    "weapons": {}
+  },
+  "99002": {
+    "names": {
+      "en": "Marlena",
+      "ru": "Марлена",
+      "de": "Marlena",
+      "es": "Marlena",
+      "fr": "Marlena",
+      "id": "Marlena",
+      "ja": "マレーナ",
+      "ko": "말레나",
+      "pt": "Marlena"
+    },
+    "weapons": {}
+  },
+  "113001": {
+    "names": {
+      "en": "Durant",
+      "ru": "Дюран",
+      "de": "Durant",
+      "es": "Durant",
+      "fr": "Durant",
+      "id": "Durant",
+      "ja": "デュラント",
+      "ko": "듀란트",
+      "pt": "Durant"
+    },
+    "weapons": {}
+  },
+  "113002": {
+    "names": {
+      "en": "William",
+      "ru": "Уильям",
+      "de": "William",
+      "es": "William",
+      "fr": "William",
+      "id": "Williams",
+      "ja": "ウィリアムズ",
+      "ko": "윌리엄스",
+      "pt": "William"
+    },
+    "weapons": {}
+  },
+  "111001": {
+    "names": {
+      "en": "Robin",
+      "ru": "Робин",
+      "de": "Robin",
+      "es": "Robin",
+      "fr": "Robin",
+      "id": "Robin",
+      "ja": "ロビン",
+      "ko": "로빈",
+      "pt": "Robin"
+    },
+    "weapons": {}
+  },
+  "112001": {
+    "names": {
+      "en": "Annie",
+      "ru": "Анни",
+      "de": "Annie",
+      "es": "Annie",
+      "fr": "Annie",
+      "id": "Annie",
+      "ja": "アニー",
+      "ko": "애니",
+      "pt": "Annie"
+    },
+    "weapons": {}
+  },
+  "123001": {
+    "names": {
+      "en": "Celia",
+      "ru": "Селия",
+      "de": "Celia",
+      "es": "Celia",
+      "fr": "Celia",
+      "id": "Celia",
+      "ja": "シリア",
+      "ko": "실리아",
+      "pt": "Celia"
+    },
+    "weapons": {}
+  },
+  "123002": {
+    "names": {
+      "en": "Claire",
+      "ru": "Клэр",
+      "de": "Claire",
+      "es": "Claire",
+      "fr": "Claire",
+      "id": "Clea",
+      "ja": "クレア",
+      "ko": "클레아",
+      "pt": "Claire"
+    },
+    "weapons": {}
+  },
+  "123003": {
+    "names": {
+      "en": "Bella",
+      "ru": "Белла",
+      "de": "Bella",
+      "es": "Bella",
+      "fr": "Bella",
+      "id": "Bella",
+      "ja": "ベラ",
+      "ko": "벨라",
+      "pt": "Bella"
+    },
+    "weapons": {}
+  },
+  "123004": {
+    "names": {
+      "en": "Kesso",
+      "ru": "Кессо",
+      "de": "Kesso",
+      "es": "Kesso",
+      "fr": "Kesso",
+      "id": "Kaeso",
+      "ja": "ケイソ",
+      "ko": "케이사",
+      "pt": "Kesso"
+    },
+    "weapons": {}
+  },
+  "123005": {
+    "names": {
+      "en": "Lucius",
+      "ru": "Люциус",
+      "de": "Lucius",
+      "es": "Lucio",
+      "fr": "Lucius",
+      "id": "Lucius",
+      "ja": "ルシウス",
+      "ko": "루시우스",
+      "pt": "Lucius"
+    },
+    "weapons": {}
+  },
+  "123006": {
+    "names": {
+      "en": "Sivir",
+      "ru": "Сивир",
+      "de": "Sivir",
+      "es": "Sivir",
+      "fr": "Sivir",
+      "id": "Sivir",
+      "ja": "シヴィア",
+      "ko": "시빌",
+      "pt": "Sivir"
+    },
+    "weapons": {}
+  },
+  "121001": {
+    "names": {
+      "en": "Griffith",
+      "ru": "Гриффит",
+      "de": "Griffith",
+      "es": "Griffith",
+      "fr": "Griffith",
+      "id": "Griffith",
+      "ja": "グリフィス",
+      "ko": "그리피스",
+      "pt": "Griffith"
+    },
+    "weapons": {}
+  },
+  "121002": {
+    "names": {
+      "en": "Stellar",
+      "ru": "Стеллар",
+      "de": "Stellar",
+      "es": "Estelar",
+      "fr": "Stellar",
+      "id": "Stardust",
+      "ja": "ステラ",
+      "ko": "스타더스트",
+      "pt": "Stellar"
+    },
+    "weapons": {}
+  },
+  "121003": {
+    "names": {
+      "en": "Ash",
+      "ru": "Эш",
+      "de": "Ash",
+      "es": "Ash",
+      "fr": "Ash",
+      "id": "Ashe",
+      "ja": "アッシュ",
+      "ko": "애쉬",
+      "pt": "Ash"
+    },
+    "weapons": {}
+  },
+  "122001": {
+    "names": {
+      "en": "Hastar",
+      "ru": "Хастар",
+      "de": "Hastar",
+      "es": "Hastar",
+      "fr": "Hastar",
+      "id": "Hastur",
+      "ja": "ハスター",
+      "ko": "하스터",
+      "pt": "Hastar"
+    },
+    "weapons": {}
+  },
+  "122002": {
+    "names": {
+      "en": "Bestar",
+      "ru": "Бестар",
+      "de": "Bestar",
+      "es": "Bestar",
+      "fr": "Bestar",
+      "id": "Bast",
+      "ja": "ベスター",
+      "ko": "베스트",
+      "pt": "Bestar"
+    },
+    "weapons": {}
+  },
+  "122003": {
+    "names": {
+      "en": "Grenwald",
+      "ru": "Гренвальд",
+      "de": "Grenwald",
+      "es": "Grenwald",
+      "fr": "Grenwald",
+      "id": "Grindelwald",
+      "ja": "グリンウォルド",
+      "ko": "그린델왈드",
+      "pt": "Grenwald"
+    },
+    "weapons": {}
+  },
+  "133001": {
+    "names": {
+      "en": "Arthur",
+      "ru": "Артур",
+      "de": "Arthur",
+      "es": "Arturo",
+      "fr": "Arthur",
+      "id": "Arthur",
+      "ja": "アーサー",
+      "ko": "아서",
+      "pt": "Arthur"
+    },
+    "weapons": {}
+  },
+  "133002": {
+    "names": {
+      "en": "Marlena",
+      "ru": "Марлена",
+      "de": "Marlena",
+      "es": "Marlena",
+      "fr": "Marlena",
+      "id": "Marlena",
+      "ja": "マレーナ",
+      "ko": "말레나",
+      "pt": "Marlena"
+    },
+    "weapons": {}
+  },
+  "131001": {
+    "names": {
+      "en": "Shadow",
+      "ru": "Шэдоу",
+      "de": "Shadow",
+      "es": "Sombra",
+      "fr": "Shadow",
+      "id": "Ying",
+      "ja": "影",
+      "ko": "섀도우",
+      "pt": "Shadow"
+    },
+    "weapons": {}
+  },
+  "131002": {
+    "names": {
+      "en": "Cynthia",
+      "ru": "Синтия",
+      "de": "Cynthia",
+      "es": "Cynthia",
+      "fr": "Cynthia",
+      "id": "Cynthia",
+      "ja": "シンシア",
+      "ko": "신시아",
+      "pt": "Cynthia"
+    },
+    "weapons": {}
+  },
+  "132001": {
+    "names": {
+      "en": "Annie",
+      "ru": "Анни",
+      "de": "Annie",
+      "es": "Annie",
+      "fr": "Annie",
+      "id": "Annie",
+      "ja": "アニー",
+      "ko": "애니",
+      "pt": "Annie"
+    },
+    "weapons": {}
+  },
+  "132002": {
+    "names": {
+      "en": "Joker",
+      "ru": "Джокер",
+      "de": "Joker",
+      "es": "Joker",
+      "fr": "Joker",
+      "id": "Joker",
+      "ja": "ピエロ",
+      "ko": "광대",
+      "pt": "Joker"
+    },
+    "weapons": {}
+  },
+  "133003": {
+    "names": {
+      "en": "Harper",
+      "ru": "Харпер",
+      "de": "Harper",
+      "es": "Harper",
+      "fr": "Harper",
+      "id": "Harper",
+      "ja": "ハーパー",
+      "ko": "하퍼",
+      "pt": "Harper"
+    },
+    "weapons": {}
+  },
+  "133004": {
+    "names": {
+      "en": "Daskal",
+      "ru": "Даскал",
+      "de": "Daskal",
+      "es": "Daskal",
+      "fr": "Daskal",
+      "id": "Duskar",
+      "ja": "ダスカール",
+      "ko": "다스칼",
+      "pt": "Daskal"
+    },
+    "weapons": {}
+  },
+  "131003": {
+    "names": {
+      "en": "Red Lady",
+      "ru": "Красная Леди",
+      "de": "Rote Dame",
+      "es": "Dama Roja",
+      "fr": "Dame Rouge",
+      "id": "Nyonya Merah",
+      "ja": "レッドレディ",
+      "ko": "레드 레이디",
+      "pt": "Dama Vermelha"
+    },
+    "weapons": {}
+  },
+  "132003": {
+    "names": {
+      "en": "Ulfrid",
+      "ru": "Ульфрид",
+      "de": "Ulfrid",
+      "es": "Ulfrid",
+      "fr": "Ulfrid",
+      "id": "Ulfred",
+      "ja": "ウルフレッド",
+      "ko": "울프레드",
+      "pt": "Ulfrid"
+    },
+    "weapons": {}
+  },
+  "133005": {
+    "names": {
+      "en": "Zoya",
+      "ru": "Зоя",
+      "de": "Zoya",
+      "es": "Zoya",
+      "fr": "Zoya",
+      "id": "Zoya",
+      "ja": "ゾーヤ",
+      "ko": "조야",
+      "pt": "Zoya"
+    },
+    "weapons": {}
+  },
+  "131004": {
+    "names": {
+      "en": "Louis",
+      "ru": "Луи",
+      "de": "Louis",
+      "es": "Luis",
+      "fr": "Louis",
+      "id": "Louis",
+      "ja": "ルイス",
+      "ko": "루이스",
+      "pt": "Louis"
+    },
+    "weapons": {}
+  },
+  "131005": {
+    "names": {
+      "en": "Bell",
+      "ru": "Белл",
+      "de": "Bell",
+      "es": "Bell",
+      "fr": "Bell",
+      "id": "Belle",
+      "ja": "ベル",
+      "ko": "벨",
+      "pt": "Bell"
+    },
+    "weapons": {}
+  },
+  "132004": {
+    "names": {
+      "en": "Billy",
+      "ru": "Билли",
+      "de": "Billy",
+      "es": "Billy",
+      "fr": "Billy",
+      "id": "Billy",
+      "ja": "ビリー",
+      "ko": "빌리",
+      "pt": "Billy"
+    },
+    "weapons": {}
+  },
+  "132005": {
+    "names": {
+      "en": "Nicole",
+      "ru": "Николь",
+      "de": "Nicole",
+      "es": "Nicole",
+      "fr": "Nicole",
+      "id": "Nicole",
+      "ja": "ニコル",
+      "ko": "니콜",
+      "pt": "Nicole"
+    },
+    "weapons": {}
+  },
+  "213001": {
+    "names": {
+      "en": "Durant",
+      "ru": "Дюран",
+      "de": "Durant",
+      "es": "Durant",
+      "fr": "Durant",
+      "id": "Durant",
+      "ja": "デュラント",
+      "ko": "듀란트",
+      "pt": "Durant"
+    },
+    "weapons": {}
+  },
+  "213002": {
+    "names": {
+      "en": "William",
+      "ru": "Уильям",
+      "de": "William",
+      "es": "William",
+      "fr": "William",
+      "id": "Williams",
+      "ja": "ウィリアムズ",
+      "ko": "윌리엄스",
+      "pt": "William"
+    },
+    "weapons": {}
+  },
+  "211001": {
+    "names": {
+      "en": "Robin",
+      "ru": "Робин",
+      "de": "Robin",
+      "es": "Robin",
+      "fr": "Robin",
+      "id": "Robin",
+      "ja": "ロビン",
+      "ko": "로빈",
+      "pt": "Robin"
+    },
+    "weapons": {}
+  },
+  "212001": {
+    "names": {
+      "en": "Annie",
+      "ru": "Анни",
+      "de": "Annie",
+      "es": "Annie",
+      "fr": "Annie",
+      "id": "Annie",
+      "ja": "アニー",
+      "ko": "애니",
+      "pt": "Annie"
+    },
+    "weapons": {}
+  },
+  "223001": {
+    "names": {
+      "en": "Celia",
+      "ru": "Селия",
+      "de": "Celia",
+      "es": "Celia",
+      "fr": "Celia",
+      "id": "Celia",
+      "ja": "シリア",
+      "ko": "실리아",
+      "pt": "Celia"
+    },
+    "weapons": {}
+  },
+  "223002": {
+    "names": {
+      "en": "Claire",
+      "ru": "Клэр",
+      "de": "Claire",
+      "es": "Claire",
+      "fr": "Claire",
+      "id": "Clea",
+      "ja": "クレア",
+      "ko": "클레아",
+      "pt": "Claire"
+    },
+    "weapons": {}
+  },
+  "223003": {
+    "names": {
+      "en": "Bella",
+      "ru": "Белла",
+      "de": "Bella",
+      "es": "Bella",
+      "fr": "Bella",
+      "id": "Bella",
+      "ja": "ベラ",
+      "ko": "벨라",
+      "pt": "Bella"
+    },
+    "weapons": {}
+  },
+  "223004": {
+    "names": {
+      "en": "Kesso",
+      "ru": "Кессо",
+      "de": "Kesso",
+      "es": "Kesso",
+      "fr": "Kesso",
+      "id": "Kaeso",
+      "ja": "ケイソ",
+      "ko": "케이사",
+      "pt": "Kesso"
+    },
+    "weapons": {}
+  },
+  "223005": {
+    "names": {
+      "en": "Lucius",
+      "ru": "Люциус",
+      "de": "Lucius",
+      "es": "Lucio",
+      "fr": "Lucius",
+      "id": "Lucius",
+      "ja": "ルシウス",
+      "ko": "루시우스",
+      "pt": "Lucius"
+    },
+    "weapons": {}
+  },
+  "223006": {
+    "names": {
+      "en": "Sivir",
+      "ru": "Сивир",
+      "de": "Sivir",
+      "es": "Sivir",
+      "fr": "Sivir",
+      "id": "Sivir",
+      "ja": "シヴィア",
+      "ko": "시빌",
+      "pt": "Sivir"
+    },
+    "weapons": {}
+  },
+  "221001": {
+    "names": {
+      "en": "Griffith",
+      "ru": "Гриффит",
+      "de": "Griffith",
+      "es": "Griffith",
+      "fr": "Griffith",
+      "id": "Griffith",
+      "ja": "グリフィス",
+      "ko": "그리피스",
+      "pt": "Griffith"
+    },
+    "weapons": {}
+  },
+  "221002": {
+    "names": {
+      "en": "Stellar",
+      "ru": "Стеллар",
+      "de": "Stellar",
+      "es": "Estelar",
+      "fr": "Stellar",
+      "id": "Stardust",
+      "ja": "ステラ",
+      "ko": "스타더스트",
+      "pt": "Stellar"
+    },
+    "weapons": {}
+  },
+  "221003": {
+    "names": {
+      "en": "Ash",
+      "ru": "Эш",
+      "de": "Ash",
+      "es": "Ash",
+      "fr": "Ash",
+      "id": "Ashe",
+      "ja": "アッシュ",
+      "ko": "애쉬",
+      "pt": "Ash"
+    },
+    "weapons": {}
+  },
+  "222001": {
+    "names": {
+      "en": "Hastar",
+      "ru": "Хастар",
+      "de": "Hastar",
+      "es": "Hastar",
+      "fr": "Hastar",
+      "id": "Hastur",
+      "ja": "ハスター",
+      "ko": "하스터",
+      "pt": "Hastar"
+    },
+    "weapons": {}
+  },
+  "222002": {
+    "names": {
+      "en": "Bestar",
+      "ru": "Бестар",
+      "de": "Bestar",
+      "es": "Bestar",
+      "fr": "Bestar",
+      "id": "Bast",
+      "ja": "ベスター",
+      "ko": "베스트",
+      "pt": "Bestar"
+    },
+    "weapons": {}
+  },
+  "222003": {
+    "names": {
+      "en": "Grenwald",
+      "ru": "Гренвальд",
+      "de": "Grenwald",
+      "es": "Grenwald",
+      "fr": "Grenwald",
+      "id": "Grindelwald",
+      "ja": "グリンウォルド",
+      "ko": "그린델왈드",
+      "pt": "Grenwald"
+    },
+    "weapons": {}
+  },
+  "233001": {
+    "names": {
+      "en": "Arthur",
+      "ru": "Артур",
+      "de": "Arthur",
+      "es": "Arturo",
+      "fr": "Arthur",
+      "id": "Arthur",
+      "ja": "アーサー",
+      "ko": "아서",
+      "pt": "Arthur"
+    },
+    "weapons": {}
+  },
+  "233002": {
+    "names": {
+      "en": "Marlena",
+      "ru": "Марлена",
+      "de": "Marlena",
+      "es": "Marlena",
+      "fr": "Marlena",
+      "id": "Marlena",
+      "ja": "マレーナ",
+      "ko": "말레나",
+      "pt": "Marlena"
+    },
+    "weapons": {}
+  },
+  "231001": {
+    "names": {
+      "en": "Shadow",
+      "ru": "Шэдоу",
+      "de": "Shadow",
+      "es": "Sombra",
+      "fr": "Shadow",
+      "id": "Ying",
+      "ja": "影",
+      "ko": "섀도우",
+      "pt": "Shadow"
+    },
+    "weapons": {}
+  },
+  "231002": {
+    "names": {
+      "en": "Cynthia",
+      "ru": "Синтия",
+      "de": "Cynthia",
+      "es": "Cynthia",
+      "fr": "Cynthia",
+      "id": "Cynthia",
+      "ja": "シンシア",
+      "ko": "신시아",
+      "pt": "Cynthia"
+    },
+    "weapons": {}
+  },
+  "232001": {
+    "names": {
+      "en": "Annie",
+      "ru": "Анни",
+      "de": "Annie",
+      "es": "Annie",
+      "fr": "Annie",
+      "id": "Annie",
+      "ja": "アニー",
+      "ko": "애니",
+      "pt": "Annie"
+    },
+    "weapons": {}
+  },
+  "232002": {
+    "names": {
+      "en": "Joker",
+      "ru": "Джокер",
+      "de": "Joker",
+      "es": "Joker",
+      "fr": "Joker",
+      "id": "Joker",
+      "ja": "ピエロ",
+      "ko": "광대",
+      "pt": "Joker"
+    },
+    "weapons": {}
+  },
+  "233003": {
+    "names": {
+      "en": "Harper",
+      "ru": "Харпер",
+      "de": "Harper",
+      "es": "Harper",
+      "fr": "Harper",
+      "id": "Harper",
+      "ja": "ハーパー",
+      "ko": "하퍼",
+      "pt": "Harper"
+    },
+    "weapons": {}
+  },
+  "233004": {
+    "names": {
+      "en": "Daskal",
+      "ru": "Даскал",
+      "de": "Daskal",
+      "es": "Daskal",
+      "fr": "Daskal",
+      "id": "Duskar",
+      "ja": "ダスカール",
+      "ko": "다스칼",
+      "pt": "Daskal"
+    },
+    "weapons": {}
+  },
+  "231003": {
+    "names": {
+      "en": "Red Lady",
+      "ru": "Красная Леди",
+      "de": "Rote Dame",
+      "es": "Dama Roja",
+      "fr": "Dame Rouge",
+      "id": "Nyonya Merah",
+      "ja": "レッドレディ",
+      "ko": "레드 레이디",
+      "pt": "Dama Vermelha"
+    },
+    "weapons": {}
+  },
+  "232003": {
+    "names": {
+      "en": "Ulfrid",
+      "ru": "Ульфрид",
+      "de": "Ulfrid",
+      "es": "Ulfrid",
+      "fr": "Ulfrid",
+      "id": "Ulfred",
+      "ja": "ウルフレッド",
+      "ko": "울프레드",
+      "pt": "Ulfrid"
+    },
+    "weapons": {}
+  },
+  "233005": {
+    "names": {
+      "en": "Zoya",
+      "ru": "Зоя",
+      "de": "Zoya",
+      "es": "Zoya",
+      "fr": "Zoya",
+      "id": "Zoya",
+      "ja": "ゾーヤ",
+      "ko": "조야",
+      "pt": "Zoya"
+    },
+    "weapons": {}
+  },
+  "231004": {
+    "names": {
+      "en": "Louis",
+      "ru": "Луи",
+      "de": "Louis",
+      "es": "Luis",
+      "fr": "Louis",
+      "id": "Louis",
+      "ja": "ルイス",
+      "ko": "루이스",
+      "pt": "Louis"
+    },
+    "weapons": {}
+  },
+  "231005": {
+    "names": {
+      "en": "Bell",
+      "ru": "Белл",
+      "de": "Bell",
+      "es": "Bell",
+      "fr": "Bell",
+      "id": "Belle",
+      "ja": "ベル",
+      "ko": "벨",
+      "pt": "Bell"
+    },
+    "weapons": {}
+  },
+  "232004": {
+    "names": {
+      "en": "Billy",
+      "ru": "Билли",
+      "de": "Billy",
+      "es": "Billy",
+      "fr": "Billy",
+      "id": "Billy",
+      "ja": "ビリー",
+      "ko": "빌리",
+      "pt": "Billy"
+    },
+    "weapons": {}
+  },
+  "232005": {
+    "names": {
+      "en": "Nicole",
+      "ru": "Николь",
+      "de": "Nicole",
+      "es": "Nicole",
+      "fr": "Nicole",
+      "id": "Nicole",
+      "ja": "ニコル",
+      "ko": "니콜",
+      "pt": "Nicole"
+    },
+    "weapons": {}
+  },
+  "143001": {
+    "names": {
+      "en": "Louis",
+      "ru": "Луи",
+      "de": "Louis",
+      "es": "Luis",
+      "fr": "Louis",
+      "id": "Louis",
+      "ja": "ルイス",
+      "ko": "루이스",
+      "pt": "Louis"
+    },
+    "weapons": {}
+  },
+  "143002": {
+    "names": {
+      "en": "Louis",
+      "ru": "Луи",
+      "de": "Louis",
+      "es": "Luis",
+      "fr": "Louis",
+      "id": "Louis",
+      "ja": "ルイス",
+      "ko": "루이스",
+      "pt": "Louis"
+    },
+    "weapons": {}
+  },
+  "143003": {
+    "names": {
+      "en": "Louis",
+      "ru": "Луи",
+      "de": "Louis",
+      "es": "Luis",
+      "fr": "Louis",
+      "id": "Louis",
+      "ja": "ルイス",
+      "ko": "루이스",
+      "pt": "Louis"
+    },
+    "weapons": {}
+  },
+  "143004": {
+    "names": {
+      "en": "Louis",
+      "ru": "Луи",
+      "de": "Louis",
+      "es": "Luis",
+      "fr": "Louis",
+      "id": "Louis",
+      "ja": "ルイス",
+      "ko": "루이스",
+      "pt": "Louis"
+    },
+    "weapons": {}
+  },
+  "143005": {
+    "names": {
+      "en": "Louis",
+      "ru": "Луи",
+      "de": "Louis",
+      "es": "Luis",
+      "fr": "Louis",
+      "id": "Louis",
+      "ja": "ルイス",
+      "ko": "루이스",
+      "pt": "Louis"
+    },
+    "weapons": {}
+  },
+  "141001": {
+    "names": {
+      "en": "Louis",
+      "ru": "Луи",
+      "de": "Louis",
+      "es": "Luis",
+      "fr": "Louis",
+      "id": "Louis",
+      "ja": "ルイス",
+      "ko": "루이스",
+      "pt": "Louis"
+    },
+    "weapons": {}
+  },
+  "141002": {
+    "names": {
+      "en": "Louis",
+      "ru": "Луи",
+      "de": "Louis",
+      "es": "Luis",
+      "fr": "Louis",
+      "id": "Louis",
+      "ja": "ルイス",
+      "ko": "루이스",
+      "pt": "Louis"
+    },
+    "weapons": {}
+  },
+  "141003": {
+    "names": {
+      "en": "Louis",
+      "ru": "Луи",
+      "de": "Louis",
+      "es": "Luis",
+      "fr": "Louis",
+      "id": "Louis",
+      "ja": "ルイス",
+      "ko": "루이스",
+      "pt": "Louis"
+    },
+    "weapons": {}
+  },
+  "141004": {
+    "names": {
+      "en": "Louis",
+      "ru": "Луи",
+      "de": "Louis",
+      "es": "Luis",
+      "fr": "Louis",
+      "id": "Louis",
+      "ja": "ルイス",
+      "ko": "루이스",
+      "pt": "Louis"
+    },
+    "weapons": {}
+  },
+  "141005": {
+    "names": {
+      "en": "Louis",
+      "ru": "Луи",
+      "de": "Louis",
+      "es": "Luis",
+      "fr": "Louis",
+      "id": "Louis",
+      "ja": "ルイス",
+      "ko": "루이스",
+      "pt": "Louis"
+    },
+    "weapons": {}
+  },
+  "142001": {
+    "names": {
+      "en": "Louis",
+      "ru": "Луи",
+      "de": "Louis",
+      "es": "Luis",
+      "fr": "Louis",
+      "id": "Louis",
+      "ja": "ルイス",
+      "ko": "루이스",
+      "pt": "Louis"
+    },
+    "weapons": {}
+  },
+  "142002": {
+    "names": {
+      "en": "Louis",
+      "ru": "Луи",
+      "de": "Louis",
+      "es": "Luis",
+      "fr": "Louis",
+      "id": "Louis",
+      "ja": "ルイス",
+      "ko": "루이스",
+      "pt": "Louis"
+    },
+    "weapons": {}
+  },
+  "142003": {
+    "names": {
+      "en": "Louis",
+      "ru": "Луи",
+      "de": "Louis",
+      "es": "Luis",
+      "fr": "Louis",
+      "id": "Louis",
+      "ja": "ルイス",
+      "ko": "루이스",
+      "pt": "Louis"
+    },
+    "weapons": {}
+  },
+  "142004": {
+    "names": {
+      "en": "Louis",
+      "ru": "Луи",
+      "de": "Louis",
+      "es": "Luis",
+      "fr": "Louis",
+      "id": "Louis",
+      "ja": "ルイス",
+      "ko": "루이스",
+      "pt": "Louis"
+    },
+    "weapons": {}
+  },
+  "142005": {
+    "names": {
+      "en": "Louis",
+      "ru": "Луи",
+      "de": "Louis",
+      "es": "Luis",
+      "fr": "Louis",
+      "id": "Louis",
+      "ja": "ルイス",
+      "ko": "루이스",
+      "pt": "Louis"
+    },
+    "weapons": {}
+  },
+  "10000111": {
+    "names": {
+      "en": "Lone Rat",
+      "ru": "Одинокая крыса",
+      "de": "Einsame Ratte",
+      "es": "Rata solitaria",
+      "fr": "Rat Solitaire",
+      "id": "Tikus Hitam Penyendiri",
+      "ja": "一匹の黒ネズミ",
+      "ko": "고독한 검은 쥐",
+      "pt": "Rato Solitário"
+    },
+    "weapons": {}
+  },
+  "10000112": {
+    "names": {
+      "en": "Lone Rat",
+      "ru": "Одинокая крыса",
+      "de": "Einsame Ratte",
+      "es": "Rata solitaria",
+      "fr": "Rat Solitaire",
+      "id": "Tikus Hitam Penyendiri",
+      "ja": "一匹の黒ネズミ",
+      "ko": "고독한 검은 쥐",
+      "pt": "Rato Solitário"
+    },
+    "weapons": {}
+  },
+  "10000113": {
+    "names": {
+      "en": "Lone Rat",
+      "ru": "Одинокая крыса",
+      "de": "Einsame Ratte",
+      "es": "Rata solitaria",
+      "fr": "Rat Solitaire",
+      "id": "Tikus Hitam Penyendiri",
+      "ja": "一匹の黒ネズミ",
+      "ko": "고독한 검은 쥐",
+      "pt": "Rato Solitário"
+    },
+    "weapons": {}
+  },
+  "10000114": {
+    "names": {
+      "en": "Lone Rat",
+      "ru": "Одинокая крыса",
+      "de": "Einsame Ratte",
+      "es": "Rata solitaria",
+      "fr": "Rat Solitaire",
+      "id": "Tikus Hitam Penyendiri",
+      "ja": "一匹の黒ネズミ",
+      "ko": "고독한 검은 쥐",
+      "pt": "Rato Solitário"
+    },
+    "weapons": {}
+  },
+  "10000115": {
+    "names": {
+      "en": "Lone Rat",
+      "ru": "Одинокая крыса",
+      "de": "Einsame Ratte",
+      "es": "Rata solitaria",
+      "fr": "Rat Solitaire",
+      "id": "Tikus Hitam Penyendiri",
+      "ja": "一匹の黒ネズミ",
+      "ko": "고독한 검은 쥐",
+      "pt": "Rato Solitário"
+    },
+    "weapons": {}
+  },
+  "10000116": {
+    "names": {
+      "en": "Lone Rat",
+      "ru": "Одинокая крыса",
+      "de": "Einsame Ratte",
+      "es": "Rata solitaria",
+      "fr": "Rat Solitaire",
+      "id": "Tikus Hitam Penyendiri",
+      "ja": "一匹の黒ネズミ",
+      "ko": "고독한 검은 쥐",
+      "pt": "Rato Solitário"
+    },
+    "weapons": {}
+  },
+  "10000117": {
+    "names": {
+      "en": "Lone Rat",
+      "ru": "Одинокая крыса",
+      "de": "Einsame Ratte",
+      "es": "Rata solitaria",
+      "fr": "Rat Solitaire",
+      "id": "Tikus Hitam Penyendiri",
+      "ja": "一匹の黒ネズミ",
+      "ko": "고독한 검은 쥐",
+      "pt": "Rato Solitário"
+    },
+    "weapons": {}
+  },
+  "10000121": {
+    "names": {
+      "en": "Paired Rats",
+      "ru": "Парные крысы",
+      "de": "Rattenpaar",
+      "es": "Ratas emparejadas",
+      "fr": "Rats Appariés",
+      "id": "Tikus Hitam Berpasangan",
+      "ja": "二匹の黒ネズミ",
+      "ko": "쌍둥이 검은 쥐",
+      "pt": "Dupla de Ratos"
+    },
+    "weapons": {}
+  },
+  "10000122": {
+    "names": {
+      "en": "Paired Rats",
+      "ru": "Парные крысы",
+      "de": "Rattenpaar",
+      "es": "Ratas emparejadas",
+      "fr": "Rats Appariés",
+      "id": "Tikus Hitam Berpasangan",
+      "ja": "二匹の黒ネズミ",
+      "ko": "쌍둥이 검은 쥐",
+      "pt": "Dupla de Ratos"
+    },
+    "weapons": {}
+  },
+  "10000123": {
+    "names": {
+      "en": "Paired Rats",
+      "ru": "Парные крысы",
+      "de": "Rattenpaar",
+      "es": "Ratas emparejadas",
+      "fr": "Rats Appariés",
+      "id": "Tikus Hitam Berpasangan",
+      "ja": "二匹の黒ネズミ",
+      "ko": "쌍둥이 검은 쥐",
+      "pt": "Dupla de Ratos"
+    },
+    "weapons": {}
+  },
+  "10000124": {
+    "names": {
+      "en": "Paired Rats",
+      "ru": "Парные крысы",
+      "de": "Rattenpaar",
+      "es": "Ratas emparejadas",
+      "fr": "Rats Appariés",
+      "id": "Tikus Hitam Berpasangan",
+      "ja": "二匹の黒ネズミ",
+      "ko": "쌍둥이 검은 쥐",
+      "pt": "Dupla de Ratos"
+    },
+    "weapons": {}
+  },
+  "10000125": {
+    "names": {
+      "en": "Paired Rats",
+      "ru": "Парные крысы",
+      "de": "Rattenpaar",
+      "es": "Ratas emparejadas",
+      "fr": "Rats Appariés",
+      "id": "Tikus Hitam Berpasangan",
+      "ja": "二匹の黒ネズミ",
+      "ko": "쌍둥이 검은 쥐",
+      "pt": "Dupla de Ratos"
+    },
+    "weapons": {}
+  },
+  "10000126": {
+    "names": {
+      "en": "Paired Rats",
+      "ru": "Парные крысы",
+      "de": "Rattenpaar",
+      "es": "Ratas emparejadas",
+      "fr": "Rats Appariés",
+      "id": "Tikus Hitam Berpasangan",
+      "ja": "二匹の黒ネズミ",
+      "ko": "쌍둥이 검은 쥐",
+      "pt": "Dupla de Ratos"
+    },
+    "weapons": {}
+  },
+  "10000127": {
+    "names": {
+      "en": "Paired Rats",
+      "ru": "Парные крысы",
+      "de": "Rattenpaar",
+      "es": "Ratas emparejadas",
+      "fr": "Rats Appariés",
+      "id": "Tikus Hitam Berpasangan",
+      "ja": "二匹の黒ネズミ",
+      "ko": "쌍둥이 검은 쥐",
+      "pt": "Dupla de Ratos"
+    },
+    "weapons": {}
+  },
+  "10000128": {
+    "names": {
+      "en": "Paired Rats",
+      "ru": "Парные крысы",
+      "de": "Rattenpaar",
+      "es": "Ratas emparejadas",
+      "fr": "Rats Appariés",
+      "id": "Tikus Hitam Berpasangan",
+      "ja": "二匹の黒ネズミ",
+      "ko": "쌍둥이 검은 쥐",
+      "pt": "Dupla de Ratos"
+    },
+    "weapons": {}
+  },
+  "10000129": {
+    "names": {
+      "en": "Paired Rats",
+      "ru": "Парные крысы",
+      "de": "Rattenpaar",
+      "es": "Ratas emparejadas",
+      "fr": "Rats Appariés",
+      "id": "Tikus Hitam Berpasangan",
+      "ja": "二匹の黒ネズミ",
+      "ko": "쌍둥이 검은 쥐",
+      "pt": "Dupla de Ratos"
+    },
+    "weapons": {}
+  },
+  "100001210": {
+    "names": {
+      "en": "Paired Rats",
+      "ru": "Парные крысы",
+      "de": "Rattenpaar",
+      "es": "Ratas emparejadas",
+      "fr": "Rats Appariés",
+      "id": "Tikus Hitam Berpasangan",
+      "ja": "二匹の黒ネズミ",
+      "ko": "쌍둥이 검은 쥐",
+      "pt": "Dupla de Ratos"
+    },
+    "weapons": {}
+  },
+  "10000131": {
+    "names": {
+      "en": "Lumberjack Blight",
+      "ru": "Чумной дровосек",
+      "de": "Holzfäller-Seuche",
+      "es": "Leñador infectado",
+      "fr": "Bûcheron Flétri",
+      "id": "Ghoul Penebang Kayu",
+      "ja": "木こりゾンビ",
+      "ko": "나무꾼 좀비",
+      "pt": "Lenhador Infectado"
+    },
+    "weapons": {}
+  },
+  "10000132": {
+    "names": {
+      "en": "Lumberjack Blight",
+      "ru": "Чумной дровосек",
+      "de": "Holzfäller-Seuche",
+      "es": "Leñador infectado",
+      "fr": "Bûcheron Flétri",
+      "id": "Ghoul Penebang Kayu",
+      "ja": "木こりゾンビ",
+      "ko": "나무꾼 좀비",
+      "pt": "Lenhador Infectado"
+    },
+    "weapons": {}
+  },
+  "10000133": {
+    "names": {
+      "en": "Lumberjack Blight",
+      "ru": "Чумной дровосек",
+      "de": "Holzfäller-Seuche",
+      "es": "Leñador infectado",
+      "fr": "Bûcheron Flétri",
+      "id": "Ghoul Penebang Kayu",
+      "ja": "木こりゾンビ",
+      "ko": "나무꾼 좀비",
+      "pt": "Lenhador Infectado"
+    },
+    "weapons": {}
+  },
+  "10000134": {
+    "names": {
+      "en": "Lumberjack Blight",
+      "ru": "Чумной дровосек",
+      "de": "Holzfäller-Seuche",
+      "es": "Leñador infectado",
+      "fr": "Bûcheron Flétri",
+      "id": "Ghoul Penebang Kayu",
+      "ja": "木こりゾンビ",
+      "ko": "나무꾼 좀비",
+      "pt": "Lenhador Infectado"
+    },
+    "weapons": {}
+  },
+  "10000135": {
+    "names": {
+      "en": "Lumberjack Blight",
+      "ru": "Чумной дровосек",
+      "de": "Holzfäller-Seuche",
+      "es": "Leñador infectado",
+      "fr": "Bûcheron Flétri",
+      "id": "Ghoul Penebang Kayu",
+      "ja": "木こりゾンビ",
+      "ko": "나무꾼 좀비",
+      "pt": "Lenhador Infectado"
+    },
+    "weapons": {}
+  },
+  "10000136": {
+    "names": {
+      "en": "Lumberjack Blight",
+      "ru": "Чумной дровосек",
+      "de": "Holzfäller-Seuche",
+      "es": "Leñador infectado",
+      "fr": "Bûcheron Flétri",
+      "id": "Ghoul Penebang Kayu",
+      "ja": "木こりゾンビ",
+      "ko": "나무꾼 좀비",
+      "pt": "Lenhador Infectado"
+    },
+    "weapons": {}
+  },
+  "10000137": {
+    "names": {
+      "en": "Lumberjack Blight",
+      "ru": "Чумной дровосек",
+      "de": "Holzfäller-Seuche",
+      "es": "Leñador infectado",
+      "fr": "Bûcheron Flétri",
+      "id": "Ghoul Penebang Kayu",
+      "ja": "木こりゾンビ",
+      "ko": "나무꾼 좀비",
+      "pt": "Lenhador Infectado"
+    },
+    "weapons": {}
+  },
+  "10000141": {
+    "names": {
+      "en": "Nun",
+      "ru": "Монахиня",
+      "de": "Nonne",
+      "es": "Monja",
+      "fr": "Nonne",
+      "id": "Perawat",
+      "ja": "シスター",
+      "ko": "수녀",
+      "pt": "Freira"
+    },
+    "weapons": {}
+  },
+  "10000142": {
+    "names": {
+      "en": "Nun",
+      "ru": "Монахиня",
+      "de": "Nonne",
+      "es": "Monja",
+      "fr": "Nonne",
+      "id": "Perawat",
+      "ja": "シスター",
+      "ko": "수녀",
+      "pt": "Freira"
+    },
+    "weapons": {}
+  },
+  "10000143": {
+    "names": {
+      "en": "Nun",
+      "ru": "Монахиня",
+      "de": "Nonne",
+      "es": "Monja",
+      "fr": "Nonne",
+      "id": "Perawat",
+      "ja": "シスター",
+      "ko": "수녀",
+      "pt": "Freira"
+    },
+    "weapons": {}
+  },
+  "10000144": {
+    "names": {
+      "en": "Nun",
+      "ru": "Монахиня",
+      "de": "Nonne",
+      "es": "Monja",
+      "fr": "Nonne",
+      "id": "Perawat",
+      "ja": "シスター",
+      "ko": "수녀",
+      "pt": "Freira"
+    },
+    "weapons": {}
+  },
+  "10000145": {
+    "names": {
+      "en": "Nun",
+      "ru": "Монахиня",
+      "de": "Nonne",
+      "es": "Monja",
+      "fr": "Nonne",
+      "id": "Perawat",
+      "ja": "シスター",
+      "ko": "수녀",
+      "pt": "Freira"
+    },
+    "weapons": {}
+  },
+  "10000146": {
+    "names": {
+      "en": "Nun",
+      "ru": "Монахиня",
+      "de": "Nonne",
+      "es": "Monja",
+      "fr": "Nonne",
+      "id": "Perawat",
+      "ja": "シスター",
+      "ko": "수녀",
+      "pt": "Freira"
+    },
+    "weapons": {}
+  },
+  "10000147": {
+    "names": {
+      "en": "Nun",
+      "ru": "Монахиня",
+      "de": "Nonne",
+      "es": "Monja",
+      "fr": "Nonne",
+      "id": "Perawat",
+      "ja": "シスター",
+      "ko": "수녀",
+      "pt": "Freira"
+    },
+    "weapons": {}
+  },
+  "10000151": {
+    "names": {
+      "en": "Woman",
+      "ru": "Женщина",
+      "de": "Frau",
+      "es": "Mujer",
+      "fr": "Femme",
+      "id": "Wanita",
+      "ja": "女性",
+      "ko": "여인",
+      "pt": "Mulher"
+    },
+    "weapons": {}
+  },
+  "10000152": {
+    "names": {
+      "en": "Woman",
+      "ru": "Женщина",
+      "de": "Frau",
+      "es": "Mujer",
+      "fr": "Femme",
+      "id": "Wanita",
+      "ja": "女性",
+      "ko": "여인",
+      "pt": "Mulher"
+    },
+    "weapons": {}
+  },
+  "10000153": {
+    "names": {
+      "en": "Woman",
+      "ru": "Женщина",
+      "de": "Frau",
+      "es": "Mujer",
+      "fr": "Femme",
+      "id": "Wanita",
+      "ja": "女性",
+      "ko": "여인",
+      "pt": "Mulher"
+    },
+    "weapons": {}
+  },
+  "10000154": {
+    "names": {
+      "en": "Woman",
+      "ru": "Женщина",
+      "de": "Frau",
+      "es": "Mujer",
+      "fr": "Femme",
+      "id": "Wanita",
+      "ja": "女性",
+      "ko": "여인",
+      "pt": "Mulher"
+    },
+    "weapons": {}
+  },
+  "10000155": {
+    "names": {
+      "en": "Woman",
+      "ru": "Женщина",
+      "de": "Frau",
+      "es": "Mujer",
+      "fr": "Femme",
+      "id": "Wanita",
+      "ja": "女性",
+      "ko": "여인",
+      "pt": "Mulher"
+    },
+    "weapons": {}
+  },
+  "10000156": {
+    "names": {
+      "en": "Woman",
+      "ru": "Женщина",
+      "de": "Frau",
+      "es": "Mujer",
+      "fr": "Femme",
+      "id": "Wanita",
+      "ja": "女性",
+      "ko": "여인",
+      "pt": "Mulher"
+    },
+    "weapons": {}
+  },
+  "10000157": {
+    "names": {
+      "en": "Woman",
+      "ru": "Женщина",
+      "de": "Frau",
+      "es": "Mujer",
+      "fr": "Femme",
+      "id": "Wanita",
+      "ja": "女性",
+      "ko": "여인",
+      "pt": "Mulher"
+    },
+    "weapons": {}
+  },
+  "10000161": {
+    "names": {
+      "en": "Farmer",
+      "ru": "Фермер",
+      "de": "Bauer",
+      "es": "Granjero",
+      "fr": "Fermier",
+      "id": "Petani",
+      "ja": "農家",
+      "ko": "농부",
+      "pt": "Agricultor"
+    },
+    "weapons": {}
+  },
+  "10000162": {
+    "names": {
+      "en": "Farmer",
+      "ru": "Фермер",
+      "de": "Bauer",
+      "es": "Granjero",
+      "fr": "Fermier",
+      "id": "Petani",
+      "ja": "農家",
+      "ko": "농부",
+      "pt": "Agricultor"
+    },
+    "weapons": {}
+  },
+  "10000163": {
+    "names": {
+      "en": "Farmer",
+      "ru": "Фермер",
+      "de": "Bauer",
+      "es": "Granjero",
+      "fr": "Fermier",
+      "id": "Petani",
+      "ja": "農家",
+      "ko": "농부",
+      "pt": "Agricultor"
+    },
+    "weapons": {}
+  },
+  "10000164": {
+    "names": {
+      "en": "Farmer",
+      "ru": "Фермер",
+      "de": "Bauer",
+      "es": "Granjero",
+      "fr": "Fermier",
+      "id": "Petani",
+      "ja": "農家",
+      "ko": "농부",
+      "pt": "Agricultor"
+    },
+    "weapons": {}
+  },
+  "10000165": {
+    "names": {
+      "en": "Farmer",
+      "ru": "Фермер",
+      "de": "Bauer",
+      "es": "Granjero",
+      "fr": "Fermier",
+      "id": "Petani",
+      "ja": "農家",
+      "ko": "농부",
+      "pt": "Agricultor"
+    },
+    "weapons": {}
+  },
+  "10000166": {
+    "names": {
+      "en": "Farmer",
+      "ru": "Фермер",
+      "de": "Bauer",
+      "es": "Granjero",
+      "fr": "Fermier",
+      "id": "Petani",
+      "ja": "農家",
+      "ko": "농부",
+      "pt": "Agricultor"
+    },
+    "weapons": {}
+  },
+  "10000167": {
+    "names": {
+      "en": "Farmer",
+      "ru": "Фермер",
+      "de": "Bauer",
+      "es": "Granjero",
+      "fr": "Fermier",
+      "id": "Petani",
+      "ja": "農家",
+      "ko": "농부",
+      "pt": "Agricultor"
+    },
+    "weapons": {}
+  },
+  "10000171": {
+    "names": {
+      "en": "Blighted Herbalist",
+      "ru": "Чумной травник",
+      "de": "Verseuchter Kräuterkundiger",
+      "es": "Herborista infectado",
+      "fr": "Herboriste pestiféré",
+      "id": "Ghoul Peracik Obat",
+      "ja": "薬草栽培者ゾンビ",
+      "ko": "약초 재배자 좀비",
+      "pt": "Herborista Infectado"
+    },
+    "weapons": {}
+  },
+  "10000172": {
+    "names": {
+      "en": "Blighted Herbalist",
+      "ru": "Чумной травник",
+      "de": "Verseuchter Kräuterkundiger",
+      "es": "Herborista infectado",
+      "fr": "Herboriste pestiféré",
+      "id": "Ghoul Peracik Obat",
+      "ja": "薬草栽培者ゾンビ",
+      "ko": "약초 재배자 좀비",
+      "pt": "Herborista Infectado"
+    },
+    "weapons": {}
+  },
+  "10000173": {
+    "names": {
+      "en": "Blighted Herbalist",
+      "ru": "Чумной травник",
+      "de": "Verseuchter Kräuterkundiger",
+      "es": "Herborista infectado",
+      "fr": "Herboriste pestiféré",
+      "id": "Ghoul Peracik Obat",
+      "ja": "薬草栽培者ゾンビ",
+      "ko": "약초 재배자 좀비",
+      "pt": "Herborista Infectado"
+    },
+    "weapons": {}
+  },
+  "10000174": {
+    "names": {
+      "en": "Blighted Herbalist",
+      "ru": "Чумной травник",
+      "de": "Verseuchter Kräuterkundiger",
+      "es": "Herborista infectado",
+      "fr": "Herboriste pestiféré",
+      "id": "Ghoul Peracik Obat",
+      "ja": "薬草栽培者ゾンビ",
+      "ko": "약초 재배자 좀비",
+      "pt": "Herborista Infectado"
+    },
+    "weapons": {}
+  },
+  "10000175": {
+    "names": {
+      "en": "Blighted Herbalist",
+      "ru": "Чумной травник",
+      "de": "Verseuchter Kräuterkundiger",
+      "es": "Herborista infectado",
+      "fr": "Herboriste pestiféré",
+      "id": "Ghoul Peracik Obat",
+      "ja": "薬草栽培者ゾンビ",
+      "ko": "약초 재배자 좀비",
+      "pt": "Herborista Infectado"
+    },
+    "weapons": {}
+  },
+  "10000176": {
+    "names": {
+      "en": "Blighted Herbalist",
+      "ru": "Чумной травник",
+      "de": "Verseuchter Kräuterkundiger",
+      "es": "Herborista infectado",
+      "fr": "Herboriste pestiféré",
+      "id": "Ghoul Peracik Obat",
+      "ja": "薬草栽培者ゾンビ",
+      "ko": "약초 재배자 좀비",
+      "pt": "Herborista Infectado"
+    },
+    "weapons": {}
+  },
+  "10000177": {
+    "names": {
+      "en": "Blighted Herbalist",
+      "ru": "Чумной травник",
+      "de": "Verseuchter Kräuterkundiger",
+      "es": "Herborista infectado",
+      "fr": "Herboriste pestiféré",
+      "id": "Ghoul Peracik Obat",
+      "ja": "薬草栽培者ゾンビ",
+      "ko": "약초 재배자 좀비",
+      "pt": "Herborista Infectado"
+    },
+    "weapons": {}
+  },
+  "10000181": {
+    "names": {
+      "en": "Woman 2",
+      "ru": "Женщина 2",
+      "de": "Frau 2",
+      "es": "Mujer 2",
+      "fr": "Femme 2",
+      "id": "Wanita 2",
+      "ja": "女性2",
+      "ko": "여인 2",
+      "pt": "Mulher 2"
+    },
+    "weapons": {}
+  },
+  "10000182": {
+    "names": {
+      "en": "Woman 2",
+      "ru": "Женщина 2",
+      "de": "Frau 2",
+      "es": "Mujer 2",
+      "fr": "Femme 2",
+      "id": "Wanita 2",
+      "ja": "女性2",
+      "ko": "여인 2",
+      "pt": "Mulher 2"
+    },
+    "weapons": {}
+  },
+  "10000183": {
+    "names": {
+      "en": "Woman 2",
+      "ru": "Женщина 2",
+      "de": "Frau 2",
+      "es": "Mujer 2",
+      "fr": "Femme 2",
+      "id": "Wanita 2",
+      "ja": "女性2",
+      "ko": "여인 2",
+      "pt": "Mulher 2"
+    },
+    "weapons": {}
+  },
+  "10000184": {
+    "names": {
+      "en": "Woman 2",
+      "ru": "Женщина 2",
+      "de": "Frau 2",
+      "es": "Mujer 2",
+      "fr": "Femme 2",
+      "id": "Wanita 2",
+      "ja": "女性2",
+      "ko": "여인 2",
+      "pt": "Mulher 2"
+    },
+    "weapons": {}
+  },
+  "10000185": {
+    "names": {
+      "en": "Woman 2",
+      "ru": "Женщина 2",
+      "de": "Frau 2",
+      "es": "Mujer 2",
+      "fr": "Femme 2",
+      "id": "Wanita 2",
+      "ja": "女性2",
+      "ko": "여인 2",
+      "pt": "Mulher 2"
+    },
+    "weapons": {}
+  },
+  "10000186": {
+    "names": {
+      "en": "Woman 2",
+      "ru": "Женщина 2",
+      "de": "Frau 2",
+      "es": "Mujer 2",
+      "fr": "Femme 2",
+      "id": "Wanita 2",
+      "ja": "女性2",
+      "ko": "여인 2",
+      "pt": "Mulher 2"
+    },
+    "weapons": {}
+  },
+  "10000187": {
+    "names": {
+      "en": "Woman 2",
+      "ru": "Женщина 2",
+      "de": "Frau 2",
+      "es": "Mujer 2",
+      "fr": "Femme 2",
+      "id": "Wanita 2",
+      "ja": "女性2",
+      "ko": "여인 2",
+      "pt": "Mulher 2"
+    },
+    "weapons": {}
+  },
+  "10000191": {
+    "names": {
+      "en": "Mutant Blight Hound",
+      "ru": "Гончая скверны мутант",
+      "de": "Mutierter Seuchenhund",
+      "es": "Sabueso infectado mutante",
+      "fr": "Molosse mutant du Fléau",
+      "id": "Anjing Zombie Bermutasi",
+      "ja": "変異ゾンビ犬",
+      "ko": "변이 좀비견",
+      "pt": "Cão da Praga Mutante"
+    },
+    "weapons": {}
+  },
+  "10000192": {
+    "names": {
+      "en": "Mutant Blight Hound",
+      "ru": "Гончая скверны мутант",
+      "de": "Mutierter Seuchenhund",
+      "es": "Sabueso infectado mutante",
+      "fr": "Molosse mutant du Fléau",
+      "id": "Anjing Zombie Bermutasi",
+      "ja": "変異ゾンビ犬",
+      "ko": "변이 좀비견",
+      "pt": "Cão da Praga Mutante"
+    },
+    "weapons": {}
+  },
+  "10000193": {
+    "names": {
+      "en": "Mutant Blight Hound",
+      "ru": "Гончая скверны мутант",
+      "de": "Mutierter Seuchenhund",
+      "es": "Sabueso infectado mutante",
+      "fr": "Molosse mutant du Fléau",
+      "id": "Anjing Zombie Bermutasi",
+      "ja": "変異ゾンビ犬",
+      "ko": "변이 좀비견",
+      "pt": "Cão da Praga Mutante"
+    },
+    "weapons": {}
+  },
+  "10000194": {
+    "names": {
+      "en": "Mutant Blight Hound",
+      "ru": "Гончая скверны мутант",
+      "de": "Mutierter Seuchenhund",
+      "es": "Sabueso infectado mutante",
+      "fr": "Molosse mutant du Fléau",
+      "id": "Anjing Zombie Bermutasi",
+      "ja": "変異ゾンビ犬",
+      "ko": "변이 좀비견",
+      "pt": "Cão da Praga Mutante"
+    },
+    "weapons": {}
+  },
+  "10000195": {
+    "names": {
+      "en": "Mutant Blight Hound",
+      "ru": "Гончая скверны мутант",
+      "de": "Mutierter Seuchenhund",
+      "es": "Sabueso infectado mutante",
+      "fr": "Molosse mutant du Fléau",
+      "id": "Anjing Zombie Bermutasi",
+      "ja": "変異ゾンビ犬",
+      "ko": "변이 좀비견",
+      "pt": "Cão da Praga Mutante"
+    },
+    "weapons": {}
+  },
+  "10010111": {
+    "names": {
+      "en": "Elite Blight",
+      "ru": "Элитная скверна",
+      "de": "Elite-Seuche",
+      "es": "Infectado de élite",
+      "fr": "Peste majeure",
+      "id": "Ghoul Elite",
+      "ja": "エリートゾンビ",
+      "ko": "정예 좀비",
+      "pt": "Elite Infectado"
+    },
+    "weapons": {}
+  },
+  "10010112": {
+    "names": {
+      "en": "Elite Blight",
+      "ru": "Элитная скверна",
+      "de": "Elite-Seuche",
+      "es": "Infectado de élite",
+      "fr": "Peste majeure",
+      "id": "Ghoul Elite",
+      "ja": "エリートゾンビ",
+      "ko": "정예 좀비",
+      "pt": "Elite Infectado"
+    },
+    "weapons": {}
+  },
+  "10010113": {
+    "names": {
+      "en": "Elite Blight",
+      "ru": "Элитная скверна",
+      "de": "Elite-Seuche",
+      "es": "Infectado de élite",
+      "fr": "Peste majeure",
+      "id": "Ghoul Elite",
+      "ja": "エリートゾンビ",
+      "ko": "정예 좀비",
+      "pt": "Elite Infectado"
+    },
+    "weapons": {}
+  },
+  "10010114": {
+    "names": {
+      "en": "Elite Blight",
+      "ru": "Элитная скверна",
+      "de": "Elite-Seuche",
+      "es": "Infectado de élite",
+      "fr": "Peste majeure",
+      "id": "Ghoul Elite",
+      "ja": "エリートゾンビ",
+      "ko": "정예 좀비",
+      "pt": "Elite Infectado"
+    },
+    "weapons": {}
+  },
+  "10010115": {
+    "names": {
+      "en": "Elite Blight",
+      "ru": "Элитная скверна",
+      "de": "Elite-Seuche",
+      "es": "Infectado de élite",
+      "fr": "Peste majeure",
+      "id": "Ghoul Elite",
+      "ja": "エリートゾンビ",
+      "ko": "정예 좀비",
+      "pt": "Elite Infectado"
+    },
+    "weapons": {}
+  },
+  "10010121": {
+    "names": {
+      "en": "Noble Blight",
+      "ru": "Знать скверны",
+      "de": "Edle Seuche",
+      "es": "Infectado noble",
+      "fr": "Fléau noble",
+      "id": "Ghoul Bangsawan",
+      "ja": "貴族ゾンビ",
+      "ko": "귀족 좀비",
+      "pt": "Nobre Infectado"
+    },
+    "weapons": {}
+  },
+  "10010122": {
+    "names": {
+      "en": "Noble Blight",
+      "ru": "Знать скверны",
+      "de": "Edle Seuche",
+      "es": "Infectado noble",
+      "fr": "Fléau noble",
+      "id": "Ghoul Bangsawan",
+      "ja": "貴族ゾンビ",
+      "ko": "귀족 좀비",
+      "pt": "Nobre Infectado"
+    },
+    "weapons": {}
+  },
+  "10010123": {
+    "names": {
+      "en": "Noble Blight",
+      "ru": "Знать скверны",
+      "de": "Edle Seuche",
+      "es": "Infectado noble",
+      "fr": "Fléau noble",
+      "id": "Ghoul Bangsawan",
+      "ja": "貴族ゾンビ",
+      "ko": "귀족 좀비",
+      "pt": "Nobre Infectado"
+    },
+    "weapons": {}
+  },
+  "10010124": {
+    "names": {
+      "en": "Noble Blight",
+      "ru": "Знать скверны",
+      "de": "Edle Seuche",
+      "es": "Infectado noble",
+      "fr": "Fléau noble",
+      "id": "Ghoul Bangsawan",
+      "ja": "貴族ゾンビ",
+      "ko": "귀족 좀비",
+      "pt": "Nobre Infectado"
+    },
+    "weapons": {}
+  },
+  "10010125": {
+    "names": {
+      "en": "Noble Blight",
+      "ru": "Знать скверны",
+      "de": "Edle Seuche",
+      "es": "Infectado noble",
+      "fr": "Fléau noble",
+      "id": "Ghoul Bangsawan",
+      "ja": "貴族ゾンビ",
+      "ko": "귀족 좀비",
+      "pt": "Nobre Infectado"
+    },
+    "weapons": {}
+  },
+  "10010131": {
+    "names": {
+      "en": "Guard Blight",
+      "ru": "Страж скверны",
+      "de": "Wächter-Seuche",
+      "es": "Infectado guardián",
+      "fr": "Fléau gardien",
+      "id": "Ghoul Penjaga",
+      "ja": "護衛ゾンビ",
+      "ko": "경비 좀비",
+      "pt": "Guarda Infectado"
+    },
+    "weapons": {}
+  },
+  "10010132": {
+    "names": {
+      "en": "Guard Blight",
+      "ru": "Страж скверны",
+      "de": "Wächter-Seuche",
+      "es": "Infectado guardián",
+      "fr": "Fléau gardien",
+      "id": "Ghoul Penjaga",
+      "ja": "護衛ゾンビ",
+      "ko": "경비 좀비",
+      "pt": "Guarda Infectado"
+    },
+    "weapons": {}
+  },
+  "10010133": {
+    "names": {
+      "en": "Guard Blight",
+      "ru": "Страж скверны",
+      "de": "Wächter-Seuche",
+      "es": "Infectado guardián",
+      "fr": "Fléau gardien",
+      "id": "Ghoul Penjaga",
+      "ja": "護衛ゾンビ",
+      "ko": "경비 좀비",
+      "pt": "Guarda Infectado"
+    },
+    "weapons": {}
+  },
+  "10010134": {
+    "names": {
+      "en": "Guard Blight",
+      "ru": "Страж скверны",
+      "de": "Wächter-Seuche",
+      "es": "Infectado guardián",
+      "fr": "Fléau gardien",
+      "id": "Ghoul Penjaga",
+      "ja": "護衛ゾンビ",
+      "ko": "경비 좀비",
+      "pt": "Guarda Infectado"
+    },
+    "weapons": {}
+  },
+  "10010135": {
+    "names": {
+      "en": "Guard Blight",
+      "ru": "Страж скверны",
+      "de": "Wächter-Seuche",
+      "es": "Infectado guardián",
+      "fr": "Fléau gardien",
+      "id": "Ghoul Penjaga",
+      "ja": "護衛ゾンビ",
+      "ko": "경비 좀비",
+      "pt": "Guarda Infectado"
+    },
+    "weapons": {}
+  },
+  "10010141": {
+    "names": {
+      "en": "Wandering Blight",
+      "ru": "Блуждающая скверна",
+      "de": "Wandernde Seuche",
+      "es": "Infectado errante",
+      "fr": "Fléau errant",
+      "id": "Ghoul Pengembara",
+      "ja": "放浪ゾンビ",
+      "ko": "방랑 좀비",
+      "pt": "Praga Errante"
+    },
+    "weapons": {}
+  },
+  "10010142": {
+    "names": {
+      "en": "Wandering Blight",
+      "ru": "Блуждающая скверна",
+      "de": "Wandernde Seuche",
+      "es": "Infectado errante",
+      "fr": "Fléau errant",
+      "id": "Ghoul Pengembara",
+      "ja": "放浪ゾンビ",
+      "ko": "방랑 좀비",
+      "pt": "Praga Errante"
+    },
+    "weapons": {}
+  },
+  "10010143": {
+    "names": {
+      "en": "Wandering Blight",
+      "ru": "Блуждающая скверна",
+      "de": "Wandernde Seuche",
+      "es": "Infectado errante",
+      "fr": "Fléau errant",
+      "id": "Ghoul Pengembara",
+      "ja": "放浪ゾンビ",
+      "ko": "방랑 좀비",
+      "pt": "Praga Errante"
+    },
+    "weapons": {}
+  },
+  "10010144": {
+    "names": {
+      "en": "Wandering Blight",
+      "ru": "Блуждающая скверна",
+      "de": "Wandernde Seuche",
+      "es": "Infectado errante",
+      "fr": "Fléau errant",
+      "id": "Ghoul Pengembara",
+      "ja": "放浪ゾンビ",
+      "ko": "방랑 좀비",
+      "pt": "Praga Errante"
+    },
+    "weapons": {}
+  },
+  "10010145": {
+    "names": {
+      "en": "Wandering Blight",
+      "ru": "Блуждающая скверна",
+      "de": "Wandernde Seuche",
+      "es": "Infectado errante",
+      "fr": "Fléau errant",
+      "id": "Ghoul Pengembara",
+      "ja": "放浪ゾンビ",
+      "ko": "방랑 좀비",
+      "pt": "Praga Errante"
+    },
+    "weapons": {}
+  },
+  "10010151": {
+    "names": {
+      "en": "Blight Invasion",
+      "ru": "Нашествие скверны",
+      "de": "Seucheninvasion",
+      "es": "Invasión de la plaga",
+      "fr": "Invasion de la Peste",
+      "id": "Serangan Ghoul",
+      "ja": "ゾンビの襲撃",
+      "ko": "좀비의 습격",
+      "pt": "Invasão da Praga"
+    },
+    "weapons": {}
+  },
+  "10010152": {
+    "names": {
+      "en": "Blight Invasion",
+      "ru": "Нашествие скверны",
+      "de": "Seucheninvasion",
+      "es": "Invasión de la plaga",
+      "fr": "Invasion de la Peste",
+      "id": "Serangan Ghoul",
+      "ja": "ゾンビの襲撃",
+      "ko": "좀비의 습격",
+      "pt": "Invasão da Praga"
+    },
+    "weapons": {}
+  },
+  "10010153": {
+    "names": {
+      "en": "Blight Invasion",
+      "ru": "Нашествие скверны",
+      "de": "Seucheninvasion",
+      "es": "Invasión de la plaga",
+      "fr": "Invasion de la Peste",
+      "id": "Serangan Ghoul",
+      "ja": "ゾンビの襲撃",
+      "ko": "좀비의 습격",
+      "pt": "Invasão da Praga"
+    },
+    "weapons": {}
+  },
+  "10010154": {
+    "names": {
+      "en": "Blight Invasion",
+      "ru": "Нашествие скверны",
+      "de": "Seucheninvasion",
+      "es": "Invasión de la plaga",
+      "fr": "Invasion de la Peste",
+      "id": "Serangan Ghoul",
+      "ja": "ゾンビの襲撃",
+      "ko": "좀비의 습격",
+      "pt": "Invasão da Praga"
+    },
+    "weapons": {}
+  },
+  "10010155": {
+    "names": {
+      "en": "Blight Invasion",
+      "ru": "Нашествие скверны",
+      "de": "Seucheninvasion",
+      "es": "Invasión de la plaga",
+      "fr": "Invasion de la Peste",
+      "id": "Serangan Ghoul",
+      "ja": "ゾンビの襲撃",
+      "ko": "좀비의 습격",
+      "pt": "Invasão da Praga"
+    },
+    "weapons": {}
+  },
+  "10010161": {
+    "names": {
+      "en": "Hell Nurse",
+      "ru": "Адская сиделка",
+      "de": "Höllenkrankenpfleger",
+      "es": "Enfermera infernal",
+      "fr": "Infirmière Infernale",
+      "id": "Perawat Neraka",
+      "ja": "地獄の看護師",
+      "ko": "지옥의 간호사",
+      "pt": "Enfermeira Infernal"
+    },
+    "weapons": {}
+  },
+  "10010162": {
+    "names": {
+      "en": "Hell Nurse",
+      "ru": "Адская сиделка",
+      "de": "Höllenkrankenpfleger",
+      "es": "Enfermera infernal",
+      "fr": "Infirmière Infernale",
+      "id": "Perawat Neraka",
+      "ja": "地獄の看護師",
+      "ko": "지옥의 간호사",
+      "pt": "Enfermeira Infernal"
+    },
+    "weapons": {}
+  },
+  "10010163": {
+    "names": {
+      "en": "Hell Nurse",
+      "ru": "Адская сиделка",
+      "de": "Höllenkrankenpfleger",
+      "es": "Enfermera infernal",
+      "fr": "Infirmière Infernale",
+      "id": "Perawat Neraka",
+      "ja": "地獄の看護師",
+      "ko": "지옥의 간호사",
+      "pt": "Enfermeira Infernal"
+    },
+    "weapons": {}
+  },
+  "10010164": {
+    "names": {
+      "en": "Hell Nurse",
+      "ru": "Адская сиделка",
+      "de": "Höllenkrankenpfleger",
+      "es": "Enfermera infernal",
+      "fr": "Infirmière Infernale",
+      "id": "Perawat Neraka",
+      "ja": "地獄の看護師",
+      "ko": "지옥의 간호사",
+      "pt": "Enfermeira Infernal"
+    },
+    "weapons": {}
+  },
+  "10010165": {
+    "names": {
+      "en": "Hell Nurse",
+      "ru": "Адская сиделка",
+      "de": "Höllenkrankenpfleger",
+      "es": "Enfermera infernal",
+      "fr": "Infirmière Infernale",
+      "id": "Perawat Neraka",
+      "ja": "地獄の看護師",
+      "ko": "지옥의 간호사",
+      "pt": "Enfermeira Infernal"
+    },
+    "weapons": {}
+  },
+  "10010171": {
+    "names": {
+      "en": "Blight Disciple",
+      "ru": "Послушник скверны",
+      "de": "Seuchenanhänger",
+      "es": "Discípulo infectado",
+      "fr": "Disciple du Fléau",
+      "id": "Ghoul Pengikut",
+      "ja": "信者ゾンビ",
+      "ko": "신도 좀비",
+      "pt": "Discípulo da Praga"
+    },
+    "weapons": {}
+  },
+  "10010172": {
+    "names": {
+      "en": "Blight Disciple",
+      "ru": "Послушник скверны",
+      "de": "Seuchenanhänger",
+      "es": "Discípulo infectado",
+      "fr": "Disciple du Fléau",
+      "id": "Ghoul Pengikut",
+      "ja": "信者ゾンビ",
+      "ko": "신도 좀비",
+      "pt": "Discípulo da Praga"
+    },
+    "weapons": {}
+  },
+  "10010173": {
+    "names": {
+      "en": "Blight Disciple",
+      "ru": "Послушник скверны",
+      "de": "Seuchenanhänger",
+      "es": "Discípulo infectado",
+      "fr": "Disciple du Fléau",
+      "id": "Ghoul Pengikut",
+      "ja": "信者ゾンビ",
+      "ko": "신도 좀비",
+      "pt": "Discípulo da Praga"
+    },
+    "weapons": {}
+  },
+  "10010174": {
+    "names": {
+      "en": "Blight Disciple",
+      "ru": "Послушник скверны",
+      "de": "Seuchenanhänger",
+      "es": "Discípulo infectado",
+      "fr": "Disciple du Fléau",
+      "id": "Ghoul Pengikut",
+      "ja": "信者ゾンビ",
+      "ko": "신도 좀비",
+      "pt": "Discípulo da Praga"
+    },
+    "weapons": {}
+  },
+  "10010175": {
+    "names": {
+      "en": "Blight Disciple",
+      "ru": "Послушник скверны",
+      "de": "Seuchenanhänger",
+      "es": "Discípulo infectado",
+      "fr": "Disciple du Fléau",
+      "id": "Ghoul Pengikut",
+      "ja": "信者ゾンビ",
+      "ko": "신도 좀비",
+      "pt": "Discípulo da Praga"
+    },
+    "weapons": {}
+  },
+  "10020111": {
+    "names": {
+      "en": "Rat King",
+      "ru": "Крысиный король",
+      "de": "Rattenkönig",
+      "es": "Rey rata",
+      "fr": "Roi des Rats",
+      "id": "Raja Tikus Raksasa",
+      "ja": "キングネズミ",
+      "ko": "자이언트 쥐왕",
+      "pt": "Rei dos Ratos"
+    },
+    "weapons": {}
+  },
+  "10020112": {
+    "names": {
+      "en": "Rat King",
+      "ru": "Крысиный король",
+      "de": "Rattenkönig",
+      "es": "Rey rata",
+      "fr": "Roi des Rats",
+      "id": "Raja Tikus Raksasa",
+      "ja": "キングネズミ",
+      "ko": "자이언트 쥐왕",
+      "pt": "Rei dos Ratos"
+    },
+    "weapons": {}
+  },
+  "10020113": {
+    "names": {
+      "en": "Rat King",
+      "ru": "Крысиный король",
+      "de": "Rattenkönig",
+      "es": "Rey rata",
+      "fr": "Roi des Rats",
+      "id": "Raja Tikus Raksasa",
+      "ja": "キングネズミ",
+      "ko": "자이언트 쥐왕",
+      "pt": "Rei dos Ratos"
+    },
+    "weapons": {}
+  },
+  "10020114": {
+    "names": {
+      "en": "Rat King",
+      "ru": "Крысиный король",
+      "de": "Rattenkönig",
+      "es": "Rey rata",
+      "fr": "Roi des Rats",
+      "id": "Raja Tikus Raksasa",
+      "ja": "キングネズミ",
+      "ko": "자이언트 쥐왕",
+      "pt": "Rei dos Ratos"
+    },
+    "weapons": {}
+  },
+  "10020121": {
+    "names": {
+      "en": "Fang Guard",
+      "ru": "Клыкастый страж",
+      "de": "Hauerwächter",
+      "es": "Guardia colmillo",
+      "fr": "Garde Croc",
+      "id": "Pengawal Gigi Serigala",
+      "ja": "狼牙の護衛",
+      "ko": "늑대 경비병",
+      "pt": "Guarda da Presa"
+    },
+    "weapons": {}
+  },
+  "10020122": {
+    "names": {
+      "en": "Fang Guard",
+      "ru": "Клыкастый страж",
+      "de": "Hauerwächter",
+      "es": "Guardia colmillo",
+      "fr": "Garde Croc",
+      "id": "Pengawal Gigi Serigala",
+      "ja": "狼牙の護衛",
+      "ko": "늑대 경비병",
+      "pt": "Guarda da Presa"
+    },
+    "weapons": {}
+  },
+  "10020123": {
+    "names": {
+      "en": "Fang Guard",
+      "ru": "Клыкастый страж",
+      "de": "Hauerwächter",
+      "es": "Guardia colmillo",
+      "fr": "Garde Croc",
+      "id": "Pengawal Gigi Serigala",
+      "ja": "狼牙の護衛",
+      "ko": "늑대 경비병",
+      "pt": "Guarda da Presa"
+    },
+    "weapons": {}
+  },
+  "10020131": {
+    "names": {
+      "en": "Soulstealer Blight",
+      "ru": "Скверна душегуба",
+      "de": "Seelenräuber-Seuche",
+      "es": "Infectado atrapaalmas",
+      "fr": "Fléau Voleur d\\'âmes",
+      "id": "Ghoul Pencuri Jiwa",
+      "ja": "ソウルイーター",
+      "ko": "영혼 포식 좀비",
+      "pt": "Praga Rouba-almas"
+    },
+    "weapons": {}
+  },
+  "10020132": {
+    "names": {
+      "en": "Soulstealer Blight",
+      "ru": "Скверна душегуба",
+      "de": "Seelenräuber-Seuche",
+      "es": "Infectado atrapaalmas",
+      "fr": "Fléau Voleur d\\'âmes",
+      "id": "Ghoul Pencuri Jiwa",
+      "ja": "ソウルイーター",
+      "ko": "영혼 포식 좀비",
+      "pt": "Praga Rouba-almas"
+    },
+    "weapons": {}
+  },
+  "10020133": {
+    "names": {
+      "en": "Soulstealer Blight",
+      "ru": "Скверна душегуба",
+      "de": "Seelenräuber-Seuche",
+      "es": "Infectado atrapaalmas",
+      "fr": "Fléau Voleur d\\'âmes",
+      "id": "Ghoul Pencuri Jiwa",
+      "ja": "ソウルイーター",
+      "ko": "영혼 포식 좀비",
+      "pt": "Praga Rouba-almas"
+    },
+    "weapons": {}
+  },
+  "10020141": {
+    "names": {
+      "en": "Hell Doctor",
+      "ru": "Адский доктор",
+      "de": "Höllendoktor",
+      "es": "Doctor infernal",
+      "fr": "Docteur de l\\'enfer",
+      "id": "Dr. Hell",
+      "ja": "地獄の医者",
+      "ko": "지옥의 의사",
+      "pt": "Médico Infernal"
+    },
+    "weapons": {}
+  },
+  "10020142": {
+    "names": {
+      "en": "Hell Doctor",
+      "ru": "Адский доктор",
+      "de": "Höllendoktor",
+      "es": "Doctor infernal",
+      "fr": "Docteur de l\\'enfer",
+      "id": "Dr. Hell",
+      "ja": "地獄の医者",
+      "ko": "지옥의 의사",
+      "pt": "Médico Infernal"
+    },
+    "weapons": {}
+  },
+  "10020143": {
+    "names": {
+      "en": "Hell Doctor",
+      "ru": "Адский доктор",
+      "de": "Höllendoktor",
+      "es": "Doctor infernal",
+      "fr": "Docteur de l\\'enfer",
+      "id": "Dr. Hell",
+      "ja": "地獄の医者",
+      "ko": "지옥의 의사",
+      "pt": "Médico Infernal"
+    },
+    "weapons": {}
+  },
+  "10020151": {
+    "names": {
+      "en": "Rat Plague",
+      "ru": "Крысиная чума",
+      "de": "Rattenseuche",
+      "es": "Plaga de ratas",
+      "fr": "Peste des Rats",
+      "id": "Wabah Tikus Gila",
+      "ja": "ネズミの大災害",
+      "ko": "광란의 쥐난",
+      "pt": "Praga dos Ratos"
+    },
+    "weapons": {}
+  },
+  "10020152": {
+    "names": {
+      "en": "Rat Plague",
+      "ru": "Крысиная чума",
+      "de": "Rattenseuche",
+      "es": "Plaga de ratas",
+      "fr": "Peste des Rats",
+      "id": "Wabah Tikus Gila",
+      "ja": "ネズミの大災害",
+      "ko": "광란의 쥐난",
+      "pt": "Praga dos Ratos"
+    },
+    "weapons": {}
+  },
+  "10020153": {
+    "names": {
+      "en": "Rat Plague",
+      "ru": "Крысиная чума",
+      "de": "Rattenseuche",
+      "es": "Plaga de ratas",
+      "fr": "Peste des Rats",
+      "id": "Wabah Tikus Gila",
+      "ja": "ネズミの大災害",
+      "ko": "광란의 쥐난",
+      "pt": "Praga dos Ratos"
+    },
+    "weapons": {}
+  },
+  "10020161": {
+    "names": {
+      "en": "Rat Plague Greatsword",
+      "ru": "Меч крысиной чумы",
+      "de": "Rattenseuche-Großschwert",
+      "es": "Mandoble de la plaga de ratas",
+      "fr": "Espadon de la Peste des Rats",
+      "id": "Pedang Besar Wabah Tikus Gila",
+      "ja": "ネズミの大災害の大刀",
+      "ko": "광란의 쥐난 대도",
+      "pt": "Espadão da Praga dos Ratos"
+    },
+    "weapons": {}
+  },
+  "10020162": {
+    "names": {
+      "en": "Rat Plague Greatsword",
+      "ru": "Меч крысиной чумы",
+      "de": "Rattenseuche-Großschwert",
+      "es": "Mandoble de la plaga de ratas",
+      "fr": "Espadon de la Peste des Rats",
+      "id": "Pedang Besar Wabah Tikus Gila",
+      "ja": "ネズミの大災害の大刀",
+      "ko": "광란의 쥐난 대도",
+      "pt": "Espadão da Praga dos Ratos"
+    },
+    "weapons": {}
+  },
+  "10020163": {
+    "names": {
+      "en": "Rat Plague Greatsword",
+      "ru": "Меч крысиной чумы",
+      "de": "Rattenseuche-Großschwert",
+      "es": "Mandoble de la plaga de ratas",
+      "fr": "Espadon de la Peste des Rats",
+      "id": "Pedang Besar Wabah Tikus Gila",
+      "ja": "ネズミの大災害の大刀",
+      "ko": "광란의 쥐난 대도",
+      "pt": "Espadão da Praga dos Ratos"
+    },
+    "weapons": {}
+  },
+  "10020164": {
+    "names": {
+      "en": "Rat Plague Greatsword",
+      "ru": "Меч крысиной чумы",
+      "de": "Rattenseuche-Großschwert",
+      "es": "Mandoble de la plaga de ratas",
+      "fr": "Espadon de la Peste des Rats",
+      "id": "Pedang Besar Wabah Tikus Gila",
+      "ja": "ネズミの大災害の大刀",
+      "ko": "광란의 쥐난 대도",
+      "pt": "Espadão da Praga dos Ratos"
+    },
+    "weapons": {}
+  },
+  "10020165": {
+    "names": {
+      "en": "Rat Plague Greatsword",
+      "ru": "Меч крысиной чумы",
+      "de": "Rattenseuche-Großschwert",
+      "es": "Mandoble de la plaga de ratas",
+      "fr": "Espadon de la Peste des Rats",
+      "id": "Pedang Besar Wabah Tikus Gila",
+      "ja": "ネズミの大災害の大刀",
+      "ko": "광란의 쥐난 대도",
+      "pt": "Espadão da Praga dos Ratos"
+    },
+    "weapons": {}
+  },
+  "10020166": {
+    "names": {
+      "en": "Rat Plague Greatsword",
+      "ru": "Меч крысиной чумы",
+      "de": "Rattenseuche-Großschwert",
+      "es": "Mandoble de la plaga de ratas",
+      "fr": "Espadon de la Peste des Rats",
+      "id": "Pedang Besar Wabah Tikus Gila",
+      "ja": "ネズミの大災害の大刀",
+      "ko": "광란의 쥐난 대도",
+      "pt": "Espadão da Praga dos Ratos"
+    },
+    "weapons": {}
+  },
+  "10020167": {
+    "names": {
+      "en": "Rat Plague Greatsword",
+      "ru": "Меч крысиной чумы",
+      "de": "Rattenseuche-Großschwert",
+      "es": "Mandoble de la plaga de ratas",
+      "fr": "Espadon de la Peste des Rats",
+      "id": "Pedang Besar Wabah Tikus Gila",
+      "ja": "ネズミの大災害の大刀",
+      "ko": "광란의 쥐난 대도",
+      "pt": "Espadão da Praga dos Ratos"
+    },
+    "weapons": {}
+  },
+  "10020168": {
+    "names": {
+      "en": "Rat Plague Greatsword",
+      "ru": "Меч крысиной чумы",
+      "de": "Rattenseuche-Großschwert",
+      "es": "Mandoble de la plaga de ratas",
+      "fr": "Espadon de la Peste des Rats",
+      "id": "Pedang Besar Wabah Tikus Gila",
+      "ja": "ネズミの大災害の大刀",
+      "ko": "광란의 쥐난 대도",
+      "pt": "Espadão da Praga dos Ratos"
+    },
+    "weapons": {}
+  },
+  "10020169": {
+    "names": {
+      "en": "Rat Plague Greatsword",
+      "ru": "Меч крысиной чумы",
+      "de": "Rattenseuche-Großschwert",
+      "es": "Mandoble de la plaga de ratas",
+      "fr": "Espadon de la Peste des Rats",
+      "id": "Pedang Besar Wabah Tikus Gila",
+      "ja": "ネズミの大災害の大刀",
+      "ko": "광란의 쥐난 대도",
+      "pt": "Espadão da Praga dos Ratos"
+    },
+    "weapons": {}
+  },
+  "10020171": {
+    "names": {
+      "en": "Rat Plague Wagon",
+      "ru": "Крысиная чумная повозка",
+      "de": "Rattenseuche-Wagen",
+      "es": "Carruaje de la plaga de ratas",
+      "fr": "Chariot de la Peste des Rats",
+      "id": "Kereta Wabah Tikus Gila",
+      "ja": "ネズミの大災害の馬車",
+      "ko": "광란의 쥐난 마차",
+      "pt": "Carroça da Praga dos Ratos"
+    },
+    "weapons": {}
+  },
+  "10020172": {
+    "names": {
+      "en": "Rat Plague Wagon",
+      "ru": "Крысиная чумная повозка",
+      "de": "Rattenseuche-Wagen",
+      "es": "Carruaje de la plaga de ratas",
+      "fr": "Chariot de la Peste des Rats",
+      "id": "Kereta Wabah Tikus Gila",
+      "ja": "ネズミの大災害の馬車",
+      "ko": "광란의 쥐난 마차",
+      "pt": "Carroça da Praga dos Ratos"
+    },
+    "weapons": {}
+  },
+  "10020173": {
+    "names": {
+      "en": "Rat Plague Wagon",
+      "ru": "Крысиная чумная повозка",
+      "de": "Rattenseuche-Wagen",
+      "es": "Carruaje de la plaga de ratas",
+      "fr": "Chariot de la Peste des Rats",
+      "id": "Kereta Wabah Tikus Gila",
+      "ja": "ネズミの大災害の馬車",
+      "ko": "광란의 쥐난 마차",
+      "pt": "Carroça da Praga dos Ratos"
+    },
+    "weapons": {}
+  },
+  "10020181": {
+    "names": {
+      "en": "Warrior Blight King",
+      "ru": "Королевский воин скверны",
+      "de": "Krieger-Seuchenkönig",
+      "es": "Rey infectado guerrero",
+      "fr": "Roi-Fléau Guerrier",
+      "id": "Raja Ghoul Pejuang",
+      "ja": "ウォーリアゾンビキング",
+      "ko": "전사 좀비왕",
+      "pt": "Rei da Praga Guerreiro"
+    },
+    "weapons": {}
+  },
+  "10020182": {
+    "names": {
+      "en": "Warrior Blight King",
+      "ru": "Королевский воин скверны",
+      "de": "Krieger-Seuchenkönig",
+      "es": "Rey infectado guerrero",
+      "fr": "Roi-Fléau Guerrier",
+      "id": "Raja Ghoul Pejuang",
+      "ja": "ウォーリアゾンビキング",
+      "ko": "전사 좀비왕",
+      "pt": "Rei da Praga Guerreiro"
+    },
+    "weapons": {}
+  },
+  "10020183": {
+    "names": {
+      "en": "Warrior Blight King",
+      "ru": "Королевский воин скверны",
+      "de": "Krieger-Seuchenkönig",
+      "es": "Rey infectado guerrero",
+      "fr": "Roi-Fléau Guerrier",
+      "id": "Raja Ghoul Pejuang",
+      "ja": "ウォーリアゾンビキング",
+      "ko": "전사 좀비왕",
+      "pt": "Rei da Praga Guerreiro"
+    },
+    "weapons": {}
+  },
+  "10020191": {
+    "names": {
+      "en": "Warlock Blight King",
+      "ru": "Королевский колдун скверны",
+      "de": "Hexenmeister-Seuchenkönig",
+      "es": "Rey infectado brujo",
+      "fr": "Roi-Sorcier du Fléau",
+      "id": "Raja Ghoul Warlock",
+      "ja": "ソーサラーゾンビキング",
+      "ko": "마법사 좀비왕",
+      "pt": "Rei da Praga Bruxo"
+    },
+    "weapons": {}
+  },
+  "10020192": {
+    "names": {
+      "en": "Warlock Blight King",
+      "ru": "Королевский колдун скверны",
+      "de": "Hexenmeister-Seuchenkönig",
+      "es": "Rey infectado brujo",
+      "fr": "Roi-Sorcier du Fléau",
+      "id": "Raja Ghoul Warlock",
+      "ja": "ソーサラーゾンビキング",
+      "ko": "마법사 좀비왕",
+      "pt": "Rei da Praga Bruxo"
+    },
+    "weapons": {}
+  },
+  "10020193": {
+    "names": {
+      "en": "Warlock Blight King",
+      "ru": "Королевский колдун скверны",
+      "de": "Hexenmeister-Seuchenkönig",
+      "es": "Rey infectado brujo",
+      "fr": "Roi-Sorcier du Fléau",
+      "id": "Raja Ghoul Warlock",
+      "ja": "ソーサラーゾンビキング",
+      "ko": "마법사 좀비왕",
+      "pt": "Rei da Praga Bruxo"
+    },
+    "weapons": {}
+  },
+  "10020201": {
+    "names": {
+      "en": "Ranger Blight King",
+      "ru": "Королевский рейнджер скверны",
+      "de": "Ranger-Seuchenkönig",
+      "es": "Rey infectado montaraz",
+      "fr": "Roi-Rôdeur du Fléau",
+      "id": "Raja Ghoul Ranger",
+      "ja": "レンジャーゾンビキング",
+      "ko": "레인저 좀비왕",
+      "pt": "Rei da Praga Patrulheiro"
+    },
+    "weapons": {}
+  },
+  "10020202": {
+    "names": {
+      "en": "Ranger Blight King",
+      "ru": "Королевский рейнджер скверны",
+      "de": "Ranger-Seuchenkönig",
+      "es": "Rey infectado montaraz",
+      "fr": "Roi-Rôdeur du Fléau",
+      "id": "Raja Ghoul Ranger",
+      "ja": "レンジャーゾンビキング",
+      "ko": "레인저 좀비왕",
+      "pt": "Rei da Praga Patrulheiro"
+    },
+    "weapons": {}
+  },
+  "10020203": {
+    "names": {
+      "en": "Ranger Blight King",
+      "ru": "Королевский рейнджер скверны",
+      "de": "Ranger-Seuchenkönig",
+      "es": "Rey infectado montaraz",
+      "fr": "Roi-Rôdeur du Fléau",
+      "id": "Raja Ghoul Ranger",
+      "ja": "レンジャーゾンビキング",
+      "ko": "레인저 좀비왕",
+      "pt": "Rei da Praga Patrulheiro"
+    },
+    "weapons": {}
+  },
+  "10020211": {
+    "names": {
+      "en": "BOSS-11",
+      "ru": "BOSS-11",
+      "de": "BOSS-11",
+      "es": "BOSS-11",
+      "fr": "BOSS-11",
+      "id": "BOSS-11",
+      "ja": "BOSS-11",
+      "ko": "BOSS-11",
+      "pt": "BOSS-11"
+    },
+    "weapons": {}
+  },
+  "10020212": {
+    "names": {
+      "en": "BOSS-11",
+      "ru": "BOSS-11",
+      "de": "BOSS-11",
+      "es": "BOSS-11",
+      "fr": "BOSS-11",
+      "id": "BOSS-11",
+      "ja": "BOSS-11",
+      "ko": "BOSS-11",
+      "pt": "BOSS-11"
+    },
+    "weapons": {}
+  },
+  "10020213": {
+    "names": {
+      "en": "BOSS-11",
+      "ru": "BOSS-11",
+      "de": "BOSS-11",
+      "es": "BOSS-11",
+      "fr": "BOSS-11",
+      "id": "BOSS-11",
+      "ja": "BOSS-11",
+      "ko": "BOSS-11",
+      "pt": "BOSS-11"
+    },
+    "weapons": {}
+  },
+  "10020221": {
+    "names": {
+      "en": "\\",
+      "ru": "Папа скверны",
+      "de": "„Heiliger“ Seuche",
+      "es": "\\",
+      "fr": "\\",
+      "id": "\\",
+      "ja": "教皇ゾンビ",
+      "ko": "\\",
+      "pt": "\\"
+    },
+    "weapons": {}
+  },
+  "10020222": {
+    "names": {
+      "en": "\\",
+      "ru": "Папа скверны",
+      "de": "„Heiliger“ Seuche",
+      "es": "\\",
+      "fr": "\\",
+      "id": "\\",
+      "ja": "教皇ゾンビ",
+      "ko": "\\",
+      "pt": "\\"
+    },
+    "weapons": {}
+  },
+  "10020223": {
+    "names": {
+      "en": "\\",
+      "ru": "Папа скверны",
+      "de": "„Heiliger“ Seuche",
+      "es": "\\",
+      "fr": "\\",
+      "id": "\\",
+      "ja": "教皇ゾンビ",
+      "ko": "\\",
+      "pt": "\\"
+    },
+    "weapons": {}
+  },
+  "10020231": {
+    "names": {
+      "en": "Giant Axe Warrior",
+      "ru": "Гигантский топорщик",
+      "de": "Riesenaxt-Krieger",
+      "es": "Guerrero de hacha gigante",
+      "fr": "Guerrier à la Hache Géante",
+      "id": "Pejuang Kapak Raksasa",
+      "ja": "巨斧戦士",
+      "ko": "거대 도끼 전사",
+      "pt": "Guerreiro do Machado Gigante"
+    },
+    "weapons": {}
+  },
+  "10020232": {
+    "names": {
+      "en": "Giant Axe Warrior",
+      "ru": "Гигантский топорщик",
+      "de": "Riesenaxt-Krieger",
+      "es": "Guerrero de hacha gigante",
+      "fr": "Guerrier à la Hache Géante",
+      "id": "Pejuang Kapak Raksasa",
+      "ja": "巨斧戦士",
+      "ko": "거대 도끼 전사",
+      "pt": "Guerreiro do Machado Gigante"
+    },
+    "weapons": {}
+  },
+  "10020233": {
+    "names": {
+      "en": "Giant Axe Warrior",
+      "ru": "Гигантский топорщик",
+      "de": "Riesenaxt-Krieger",
+      "es": "Guerrero de hacha gigante",
+      "fr": "Guerrier à la Hache Géante",
+      "id": "Pejuang Kapak Raksasa",
+      "ja": "巨斧戦士",
+      "ko": "거대 도끼 전사",
+      "pt": "Guerreiro do Machado Gigante"
+    },
+    "weapons": {}
+  }
+}

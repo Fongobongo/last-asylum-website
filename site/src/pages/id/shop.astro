@@ -1,0 +1,11 @@
+---
+import Base from '../../layouts/Base.astro';
+import ShopPage from '../../components/ShopPage.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+
+<Base lang={lang} path="/id/shop/" title="Toko Game & Top-Up Berlian | Last Asylum" description="Toko resmi dan isi ulang berlian melalui mitra resmi LDShop. Pengiriman instan melalui UID, diskon terbaik.">
+  <ShopPage lang={lang} />
+</Base>

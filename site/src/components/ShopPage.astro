@@ -1,0 +1,378 @@
+---
+import type { Lang } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const isRu = lang === 'ru';
+
+// Official authorized partner top-up link
+const AFF_LINK = 'https://chain.ldshop.gg/T4W43NR9I/last-asylum-plague-gp?aff_short=fan';
+
+const T = {
+  heroBadge: isRu ? 'ОФИЦИАЛЬНОЕ ПОПОЛНЕНИЕ • СКИДКИ ДО 20% • LDSHOP' : 'OFFICIAL TOP-UP • UP TO 20% OFF • LDSHOP',
+  title: isRu ? 'Игровой магазин и пополнение баланса' : 'Game Store & Top-Up Portal',
+  subtitle: isRu
+    ? 'Официальный магазин внутриигровой валюты и предметов Last Asylum: Plague через авторизованную платформу LDShop. Моментальное начисление по игровому UID, скидки до 20% и поддержка нашего фан-хаба без дополнительных затрат!'
+    : 'Official in-game currency and item store for Last Asylum: Plague powered by authorized partner LDShop. Instant delivery via game UID, discounts up to 20%, and direct support for the fan hub at zero extra cost!',
+  openStoreBtn: isRu ? 'Перейти в магазин со скидкой ↗' : 'Open Store with Discount ↗',
+  howItWorksBtn: isRu ? 'Как пополнить по UID ↓' : 'How to Top-Up via UID ↓',
+
+  badgeFastTitle: isRu ? 'Моментальная доставка' : 'Instant Delivery',
+  badgeFastDesc: isRu ? '1–3 минуты на игровой аккаунт' : '1–3 minutes directly to your account',
+  badgeSecureTitle: isRu ? '100% Безопасно' : '100% Safe & Secure',
+  badgeSecureDesc: isRu ? 'Только по UID, пароль не требуется' : 'UID only, no game password required',
+  badgeDiscountTitle: isRu ? 'Выгоднее чем в игре' : 'Best Prices & Discounts',
+  badgeDiscountDesc: isRu ? 'Скидки до 20% и x2 бонус первого раза' : 'Up to 20% off & double first top-up',
+  badgePayTitle: isRu ? 'Удобная оплата' : 'Flexible Payment',
+  badgePayDesc: isRu ? 'МИР, СБП, Карты, QIWI, PayPal, Крипта' : 'Credit Cards, PayPal, Crypto & E-wallets',
+
+  catalogTitle: isRu ? 'Каталог внутриигровых товаров' : 'In-Game Items & Packs Catalog',
+  catalogSubtitle: isRu
+    ? 'Выберите категорию для быстрого перехода к оформлению со скидкой на LDShop:'
+    : 'Choose a category to open the discounted LDShop catalog directly:',
+
+  card1Tag: isRu ? 'Хит продаж • x2 бонус' : 'Best Seller • x2 Bonus',
+  card1Title: isRu ? 'Алмазы (Diamonds)' : 'Diamonds Packs',
+  card1Desc: isRu
+    ? 'Пакеты от 60 до 6480+ алмазов. Двойной бонус на первое пополнение каждого пакета!'
+    : 'Packs from 60 to 6,480+ Diamonds. Double bonus on each first purchase tier!',
+  card1Items: isRu
+    ? ['60 Алмазов', '300 Алмазов', '980 Алмазов', '1980 Алмазов', '3280 Алмазов', '6480 Алмазов']
+    : ['60 Diamonds', '300 Diamonds', '980 Diamonds', '1980 Diamonds', '3280 Diamonds', '6480 Diamonds'],
+  card1Cta: isRu ? 'Купить алмазы ↗' : 'Buy Diamonds ↗',
+
+  card2Tag: isRu ? 'Максимальная выгода' : 'High Value Pass',
+  card2Title: isRu ? 'Боевой пропуск и карты' : 'Battle Pass & Monthly Cards',
+  card2Desc: isRu
+    ? 'Ежедневные алмазы, пропуск сезона Эры Возрождения (+250 Сопротивления) и бонусы снабжения.'
+    : 'Daily diamonds, Era of Revival Battle Pass (+250 Resistance), and monthly supply perks.',
+  card2Items: isRu
+    ? ['Месячная карта снабжения', 'Еженедельный пропуск', 'Battle Pass Эры Возрождения', 'Премиум подписка']
+    : ['Monthly Supply Card', 'Weekly Era Pass', 'Era of Revival Battle Pass', 'VIP Privilege Cards'],
+  card2Cta: isRu ? 'Оформить пропуск ↗' : 'Get Season Pass ↗',
+
+  card3Tag: isRu ? 'Лучший старт' : 'Starter Essential',
+  card3Title: isRu ? 'Наборы новичка и ускорения' : 'Starter Packs & Speedups',
+  card3Desc: isRu
+    ? 'Стартовый пак  с Марленой (Marlena), строительные наборы и универсальные ускорения для быстрого пуша Святилища.'
+    : ' Marlena starter top-up, building packs, and universal speedup bundles for rapid Sanctuary growth.',
+  card3Items: isRu
+    ? ['Стартовый пак Marlena ()', 'Пакет строителя', 'Универсальные ускорения', 'Наборы ресурсов']
+    : [' Marlena Starter Pack', 'Builder Expansion Pack', 'Universal Speedup Bundles', 'Resource Reserves'],
+  card3Cta: isRu ? 'Выбрать наборы ↗' : 'Browse Bundles ↗',
+
+  card4Tag: isRu ? 'Герои и снаряжение' : 'Hero Progression',
+  card4Title: isRu ? 'Материалы и призыв' : 'Hero & Gear Materials',
+  card4Desc: isRu
+    ? 'Билеты призыва (Recruit Tickets), Камни снаряжения и Вороний плод для развития ваших лучших отрядов.'
+    : 'Recruit Tickets, Gearstones, and Raven Fruits to power up your squads and equipment.',
+  card4Items: isRu
+    ? ['Билеты призыва (Recruit Tickets)', 'Камни снаряжения (Gearstones)', 'Вороний плод (Raven Fruit)', 'Эксклюзивное оружие']
+    : ['Recruit Tickets', 'Gearstones', 'Raven Fruits', 'Exclusive Weapon Packs'],
+  card4Cta: isRu ? 'Купить материалы ↗' : 'Get Materials ↗',
+
+  bannerTitle: isRu ? 'Готовы усилить свой отряд прямо сейчас?' : 'Ready to strengthen your squads right now?',
+  bannerDesc: isRu
+    ? 'Перейдите в наш авторизованный магазин LDShop, укажите ваш игровой UID и получите алмазы и наборы за пару минут со скидкой!'
+    : 'Visit our authorized LDShop store, enter your player UID, and receive diamonds and bundles with exclusive discounts in minutes!',
+  bannerBtn: isRu ? 'Открыть магазин Last Asylum на LDShop ↗' : 'Open Last Asylum Shop on LDShop ↗',
+
+  howTitle: isRu ? 'Как пополнить счет в игре за 3 простых шага' : 'How to Top-Up in 3 Easy Steps',
+  step1Num: '01',
+  step1Title: isRu ? 'Скопируйте ваш игровой UID' : 'Copy your in-game UID',
+  step1Desc: isRu
+    ? 'В игре Last Asylum нажмите на аватар вашего профиля в левом верхнем углу и скопируйте цифровой ID (UID).'
+    : 'In Last Asylum, tap your player avatar in the top-left corner and copy your numeric User ID (UID).',
+  step2Num: '02',
+  step2Title: isRu ? 'Выберите товар на сайте LDShop' : 'Select your item on LDShop',
+  step2Desc: isRu
+    ? 'Перейдите по нашей ссылке в магазин LDShop, выберите нужный пак алмазов или набор и вставьте скопированный UID.'
+    : 'Follow our link to LDShop, pick your desired diamond package or pack, and paste your copied UID.',
+  step3Num: '03',
+  step3Title: isRu ? 'Оплатите и проверьте почту в игре' : 'Pay and check your in-game mail',
+  step3Desc: isRu
+    ? 'Оплатите заказ любым удобным способом (карты, СБП, кошельки, крипта). Алмазы поступят на аккаунт за 1–3 минуты!'
+    : 'Complete payment using credit card, PayPal, or local methods. Items arrive in your in-game mailbox within 1–3 minutes!',
+
+  guaranteeTitle: isRu ? 'Гарантия безопасности и поддержка фан-хаба' : 'Security Guarantee & Fan Hub Support',
+  guaranteeText: isRu
+    ? 'Пополнение осуществляется через официальный защищённый шлюз LDShop без необходимости передавать логин и пароль от аккаунта. Совершая покупки по нашей партнёрской ссылке, вы получаете скидки и бонусы, а наш фан-сайт получает небольшую комиссию на поддержание работы серверов и регулярное написание гайдов без каких-либо дополнительных затрат для вас.'
+    : "Top-ups are processed through LDShop's official secure gateway using UID only — no passwords or account credentials are ever required. When you purchase via our affiliate link, you get best prices and bonuses while helping support server hosting and guide updates at zero additional cost to you.",
+  disclosureNote: isRu
+    ? 'Официальный партнёрский сервис LDShop. Покупки производятся напрямую в игре Last Asylum: Plague через защищенный API.'
+    : 'Official partner service by LDShop. In-game currency is delivered directly to Last Asylum: Plague via secure APIs.',
+};
+---
+
+<div class="shop-page not-prose mx-auto max-w-5xl py-4 sm:py-8 space-y-12">
+  <!-- Hero Section -->
+  <div class="relative overflow-hidden rounded-3xl border border-toxic-500/30 bg-gradient-to-b from-stone-900/90 via-stone-950 to-stone-950 p-6 sm:p-12 shadow-[0_0_50px_rgba(180,255,57,0.08)] backdrop-blur-2xl">
+    <div class="pointer-events-none absolute -right-20 -top-20 h-80 w-80 rounded-full bg-toxic-500/15 blur-3xl"></div>
+    <div class="pointer-events-none absolute -left-20 -bottom-20 h-80 w-80 rounded-full bg-plague-500/15 blur-3xl"></div>
+
+    <div class="relative z-10 max-w-3xl space-y-4">
+      <div class="inline-flex items-center gap-2 rounded-full border border-toxic-400/40 bg-toxic-500/15 px-3.5 py-1 text-xs font-mono font-bold tracking-wider text-toxic-300 uppercase shadow-[0_0_15px_rgba(180,255,57,0.2)]">
+        <span class="h-2 w-2 rounded-full bg-toxic-400 animate-pulse"></span>
+        {T.heroBadge}
+      </div>
+
+      <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight">
+        {T.title}
+      </h1>
+
+      <p class="text-sm sm:text-base leading-relaxed text-stone-300 max-w-2xl">
+        {T.subtitle}
+      </p>
+
+      <div class="flex flex-wrap items-center gap-3 pt-4">
+        <a
+          href={AFF_LINK}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-glow inline-flex items-center gap-2 rounded-2xl bg-gradient-to-r from-plague-500 via-toxic-400 to-toxic-300 px-6 py-3.5 text-sm sm:text-base font-bold text-black shadow-[0_0_25px_rgba(180,255,57,0.35)] hover:brightness-110 hover:scale-[1.02] active:scale-[0.99] transition"
+        >
+          <span>🛒 {T.openStoreBtn}</span>
+        </a>
+
+        <a
+          href="#how-to-topup"
+          class="inline-flex items-center gap-2 rounded-2xl border border-stone-700 bg-stone-900/80 px-5 py-3.5 text-sm font-semibold text-stone-200 hover:border-stone-500 hover:text-white transition"
+        >
+          <span>{T.howItWorksBtn}</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Trust Highlights Grid -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+    <div class="rounded-2xl border border-stone-800 bg-stone-900/60 p-5 backdrop-blur-md hover:border-toxic-500/40 transition">
+      <span class="text-2xl mb-2 block">⚡</span>
+      <h3 class="text-sm font-bold text-white mb-1">{T.badgeFastTitle}</h3>
+      <p class="text-xs text-stone-400 leading-relaxed">{T.badgeFastDesc}</p>
+    </div>
+
+    <div class="rounded-2xl border border-stone-800 bg-stone-900/60 p-5 backdrop-blur-md hover:border-toxic-500/40 transition">
+      <span class="text-2xl mb-2 block">🔒</span>
+      <h3 class="text-sm font-bold text-white mb-1">{T.badgeSecureTitle}</h3>
+      <p class="text-xs text-stone-400 leading-relaxed">{T.badgeSecureDesc}</p>
+    </div>
+
+    <div class="rounded-2xl border border-stone-800 bg-stone-900/60 p-5 backdrop-blur-md hover:border-toxic-500/40 transition">
+      <span class="text-2xl mb-2 block">💰</span>
+      <h3 class="text-sm font-bold text-white mb-1">{T.badgeDiscountTitle}</h3>
+      <p class="text-xs text-stone-400 leading-relaxed">{T.badgeDiscountDesc}</p>
+    </div>
+
+    <div class="rounded-2xl border border-stone-800 bg-stone-900/60 p-5 backdrop-blur-md hover:border-toxic-500/40 transition">
+      <span class="text-2xl mb-2 block">🌍</span>
+      <h3 class="text-sm font-bold text-white mb-1">{T.badgePayTitle}</h3>
+      <p class="text-xs text-stone-400 leading-relaxed">{T.badgePayDesc}</p>
+    </div>
+  </div>
+
+  <!-- Catalog Categories Section -->
+  <div class="space-y-6">
+    <div class="text-center sm:text-left">
+      <h2 class="text-2xl sm:text-3xl font-bold text-white tracking-tight">{T.catalogTitle}</h2>
+      <p class="mt-1 text-sm text-stone-400">{T.catalogSubtitle}</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+      <!-- Card 1: Diamonds -->
+      <div class="group flex flex-col justify-between rounded-3xl border border-stone-800 bg-gradient-to-b from-stone-900/80 to-stone-950 p-6 backdrop-blur-xl hover:border-toxic-500/50 hover:shadow-[0_0_30px_rgba(180,255,57,0.1)] transition">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="flex h-12 w-12 items-center justify-center rounded-2xl bg-cyan-500/15 border border-cyan-400/30 text-2xl shadow-[0_0_15px_rgba(6,182,212,0.2)]">
+              💎
+            </span>
+            <span class="rounded-full bg-toxic-500/15 border border-toxic-500/30 px-3 py-1 text-[11px] font-mono font-semibold text-toxic-300">
+              {T.card1Tag}
+            </span>
+          </div>
+          <h3 class="text-xl font-bold text-white group-hover:text-toxic-300 transition">{T.card1Title}</h3>
+          <p class="mt-2 text-xs sm:text-sm text-stone-400 leading-relaxed">{T.card1Desc}</p>
+
+          <div class="mt-4 flex flex-wrap gap-1.5">
+            {T.card1Items.map((item: string) => (
+              <span class="rounded-lg bg-stone-950 border border-stone-800 px-2.5 py-1 text-xs font-mono text-stone-300">
+                {item}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        <div class="pt-6 mt-6 border-t border-stone-800/80">
+          <a
+            href={AFF_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-toxic-400 py-3 text-sm font-bold text-black hover:bg-toxic-300 hover:shadow-[0_0_20px_rgba(180,255,57,0.3)] transition cursor-pointer"
+          >
+            <span>{T.card1Cta}</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Card 2: Battle Pass & Monthly Cards -->
+      <div class="group flex flex-col justify-between rounded-3xl border border-stone-800 bg-gradient-to-b from-stone-900/80 to-stone-950 p-6 backdrop-blur-xl hover:border-amber-500/50 hover:shadow-[0_0_30px_rgba(245,158,11,0.1)] transition">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="flex h-12 w-12 items-center justify-center rounded-2xl bg-amber-500/15 border border-amber-400/30 text-2xl shadow-[0_0_15px_rgba(245,158,11,0.2)]">
+              📜
+            </span>
+            <span class="rounded-full bg-amber-500/15 border border-amber-500/30 px-3 py-1 text-[11px] font-mono font-semibold text-amber-300">
+              {T.card2Tag}
+            </span>
+          </div>
+          <h3 class="text-xl font-bold text-white group-hover:text-amber-300 transition">{T.card2Title}</h3>
+          <p class="mt-2 text-xs sm:text-sm text-stone-400 leading-relaxed">{T.card2Desc}</p>
+
+          <div class="mt-4 flex flex-wrap gap-1.5">
+            {T.card2Items.map((item: string) => (
+              <span class="rounded-lg bg-stone-950 border border-stone-800 px-2.5 py-1 text-xs font-mono text-stone-300">
+                {item}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        <div class="pt-6 mt-6 border-t border-stone-800/80">
+          <a
+            href={AFF_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-amber-400 to-amber-500 py-3 text-sm font-bold text-black hover:brightness-110 hover:shadow-[0_0_20px_rgba(245,158,11,0.3)] transition cursor-pointer"
+          >
+            <span>{T.card2Cta}</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Card 3: Starter Packs & Speedups -->
+      <div class="group flex flex-col justify-between rounded-3xl border border-stone-800 bg-gradient-to-b from-stone-900/80 to-stone-950 p-6 backdrop-blur-xl hover:border-emerald-500/50 hover:shadow-[0_0_30px_rgba(16,185,129,0.1)] transition">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="flex h-12 w-12 items-center justify-center rounded-2xl bg-emerald-500/15 border border-emerald-400/30 text-2xl shadow-[0_0_15px_rgba(16,185,129,0.2)]">
+              📦
+            </span>
+            <span class="rounded-full bg-emerald-500/15 border border-emerald-500/30 px-3 py-1 text-[11px] font-mono font-semibold text-emerald-300">
+              {T.card3Tag}
+            </span>
+          </div>
+          <h3 class="text-xl font-bold text-white group-hover:text-emerald-300 transition">{T.card3Title}</h3>
+          <p class="mt-2 text-xs sm:text-sm text-stone-400 leading-relaxed">{T.card3Desc}</p>
+
+          <div class="mt-4 flex flex-wrap gap-1.5">
+            {T.card3Items.map((item: string) => (
+              <span class="rounded-lg bg-stone-950 border border-stone-800 px-2.5 py-1 text-xs font-mono text-stone-300">
+                {item}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        <div class="pt-6 mt-6 border-t border-stone-800/80">
+          <a
+            href={AFF_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-emerald-400 to-emerald-500 py-3 text-sm font-bold text-black hover:brightness-110 hover:shadow-[0_0_20px_rgba(16,185,129,0.3)] transition cursor-pointer"
+          >
+            <span>{T.card3Cta}</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Card 4: Hero & Gear Materials -->
+      <div class="group flex flex-col justify-between rounded-3xl border border-stone-800 bg-gradient-to-b from-stone-900/80 to-stone-950 p-6 backdrop-blur-xl hover:border-purple-500/50 hover:shadow-[0_0_30px_rgba(168,85,247,0.1)] transition">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="flex h-12 w-12 items-center justify-center rounded-2xl bg-purple-500/15 border border-purple-400/30 text-2xl shadow-[0_0_15px_rgba(168,85,247,0.2)]">
+              ⚔️
+            </span>
+            <span class="rounded-full bg-purple-500/15 border border-purple-500/30 px-3 py-1 text-[11px] font-mono font-semibold text-purple-300">
+              {T.card4Tag}
+            </span>
+          </div>
+          <h3 class="text-xl font-bold text-white group-hover:text-purple-300 transition">{T.card4Title}</h3>
+          <p class="mt-2 text-xs sm:text-sm text-stone-400 leading-relaxed">{T.card4Desc}</p>
+
+          <div class="mt-4 flex flex-wrap gap-1.5">
+            {T.card4Items.map((item: string) => (
+              <span class="rounded-lg bg-stone-950 border border-stone-800 px-2.5 py-1 text-xs font-mono text-stone-300">
+                {item}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        <div class="pt-6 mt-6 border-t border-stone-800/80">
+          <a
+            href={AFF_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-purple-400 to-purple-500 py-3 text-sm font-bold text-black hover:brightness-110 hover:shadow-[0_0_20px_rgba(168,85,247,0.3)] transition cursor-pointer"
+          >
+            <span>{T.card4Cta}</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Big Call to Action Card -->
+  <div class="relative overflow-hidden rounded-3xl border border-toxic-500/40 bg-gradient-to-r from-toxic-950/40 via-stone-900/80 to-stone-950 p-8 sm:p-10 shadow-2xl backdrop-blur-xl flex flex-col md:flex-row items-center justify-between gap-6">
+    <div class="space-y-2 text-center md:text-left">
+      <h3 class="text-2xl sm:text-3xl font-bold text-white tracking-tight">{T.bannerTitle}</h3>
+      <p class="text-sm text-stone-300 max-w-xl leading-relaxed">{T.bannerDesc}</p>
+    </div>
+    <a
+      href={AFF_LINK}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="shrink-0 rounded-2xl bg-gradient-to-r from-plague-500 to-toxic-400 px-8 py-4 text-base font-bold text-black shadow-[0_0_30px_rgba(180,255,57,0.4)] hover:scale-105 active:scale-95 transition"
+    >
+      {T.bannerBtn}
+    </a>
+  </div>
+
+  <!-- How to Top-Up Section -->
+  <div id="how-to-topup" class="space-y-6 pt-6 border-t border-stone-800/80">
+    <div class="text-center sm:text-left">
+      <h2 class="text-2xl font-bold text-white tracking-tight">{T.howTitle}</h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="rounded-2xl border border-stone-800 bg-stone-900/50 p-6 space-y-3">
+        <span class="text-2xl font-mono font-bold text-toxic-400">{T.step1Num}</span>
+        <h4 class="text-base font-bold text-white">{T.step1Title}</h4>
+        <p class="text-xs sm:text-sm text-stone-400 leading-relaxed">{T.step1Desc}</p>
+      </div>
+
+      <div class="rounded-2xl border border-stone-800 bg-stone-900/50 p-6 space-y-3">
+        <span class="text-2xl font-mono font-bold text-toxic-400">{T.step2Num}</span>
+        <h4 class="text-base font-bold text-white">{T.step2Title}</h4>
+        <p class="text-xs sm:text-sm text-stone-400 leading-relaxed">{T.step2Desc}</p>
+      </div>
+
+      <div class="rounded-2xl border border-stone-800 bg-stone-900/50 p-6 space-y-3">
+        <span class="text-2xl font-mono font-bold text-toxic-400">{T.step3Num}</span>
+        <h4 class="text-base font-bold text-white">{T.step3Title}</h4>
+        <p class="text-xs sm:text-sm text-stone-400 leading-relaxed">{T.step3Desc}</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Guarantee & Transparent Disclosure -->
+  <div class="rounded-2xl border border-stone-800/80 bg-stone-950/80 p-6 space-y-3 text-xs leading-relaxed text-stone-400">
+    <h4 class="text-sm font-bold text-stone-200 flex items-center gap-2">
+      <span>🛡️</span> {T.guaranteeTitle}
+    </h4>
+    <p>{T.guaranteeText}</p>
+    <p class="text-stone-500 border-t border-stone-900 pt-2 font-mono">⚖️ {T.disclosureNote}</p>
+  </div>
+</div>

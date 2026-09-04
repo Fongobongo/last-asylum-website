@@ -1,0 +1,11 @@
+---
+import Base from '../../layouts/Base.astro';
+import ShopPage from '../../components/ShopPage.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'pt';
+---
+
+<Base lang={lang} path="/pt/shop/" title="Loja do jogo e Recarga de diamantes | Last Asylum" description="Loja oficial e recarga de diamantes via parceiro autorizado LDShop. Entrega instantânea por UID, melhores descontos.">
+  <ShopPage lang={lang} />
+</Base>

@@ -8,8 +8,8 @@ import type { Lang } from '../../i18n/utils';
 
 const lang: Lang = 'de';
 ---
-<Base lang={lang} path="/de/economy/" title="Wirtschaft: Diamanten, Shops, Plündern" description="Wohin jeder Diamant geht: VIP-Shop-Prioritäten, der Auffrischungsplan, Kaufreihenfolgen pro Shop, Wünschelrad-Budgets und die kompletten Plünder-Mechaniken mit Tageslimits nach Heiligtum-Stufe.">
-  <GuidePage title="Wirtschaft: Diamanten, Shops, Plündern" description="Wohin jeder Diamant geht: VIP-Shop-Prioritäten, der Auffrischungsplan, Kaufreihenfolgen pro Shop, Wünschelrad-Budgets und die kompletten Plünder-Mechaniken mit Tageslimits nach Heiligtum-Stufe." lang={lang}>
+<Base lang={lang} path="/de/economy/" title="Wirtschaft: Diamanten, Shops, Plündern" description="Wohin jeder Diamant geht: VIP-Shop-Prioritäten, der Auffrischungsplan, Kaufreihenfolgen pro Shop, Wünschelrad-Budgets und die kompletten Plünder-Mechaniken mit Tageslimits nach Zuflucht-Stufe.">
+  <GuidePage title="Wirtschaft: Diamanten, Shops, Plündern" description="Wohin jeder Diamant geht: VIP-Shop-Prioritäten, der Auffrischungsplan, Kaufreihenfolgen pro Shop, Wünschelrad-Budgets und die kompletten Plünder-Mechaniken mit Tageslimits nach Zuflucht-Stufe." lang={lang}>
     <p>Last Asylum: Plague betreibt drei parallele Wirtschaften: Diamanten und Shops, tägliches Plündern und den Event-Kalender. Jede hat eigene Fallen — schlechte Diamanten-Käufe, verschwendete Plünder-Kapazität, bei 5% Effizienz ausgegebene Ausdauer. Diese Seite ist der Community-Konsens zu allen dreien, mit den exakten Zahlen.</p>
 
     <h2 id="vip-shop">VIP-Shop: Diamant-Prioritäten</h2>
@@ -29,7 +29,7 @@ const lang: Lang = 'de';
     <h2 id="restock-schedule">Shop-Auffrischungsplan</h2>
     <p>Alle Shops frischen am Montag auf. Plane deine Woche drum herum: Kaufe deine Prioritäten am Montag, wenn die Regale voll sind, fahre Mitte der Woche dein Allianz-Duell- und Expeditions-Einkommen, und verbringe das Wochenende damit zu entscheiden, was dir die Montag-Erneuerung schuldet. Wer sonntags kauft, kauft ein leergepicktes Regal.</p>
 
-    <h2 id="sanctuary-shop">Heiligtum-Shop</h2>
+    <h2 id="sanctuary-shop">Zuflucht-Shop</h2>
     <ol>
       <li>Krähen-Essenz und UR-Helden-Omnifragmente — im Maximum kaufen.</li>
       <li>Antidote und SSR-Omnifragmente.</li>
@@ -75,7 +75,7 @@ const lang: Lang = 'de';
     <p>Wenn du überhaupt ausgibst, wählt die Community drei Packs im $20-200-Bereich: Universal-Beschleunigungs-Packs, Krähen-Essenz-Packs und Stadt-Level-Up-Packs. Und aus den Anfänger-Guides: Die $1-Marlena-Aufladung an Tag 66 bleibt der einzelne beste Kauf im Spiel zu jedem Preis.</p>
 
     <h2 id="plunder-mechanics">Plündern: die kompletten Mechaniken</h2>
-    <p>Plünder-Einkommen wird durch ein Tageslimit gedeckelt, und das Limit skaliert mit deiner Heiligtum-Stufe. Die Schwellen zu kennen ändert, wann du für den Tag aufhörst anzugreifen.</p>
+    <p>Plünder-Einkommen wird durch ein Tageslimit gedeckelt, und das Limit skaliert mit deiner Zuflucht-Stufe. Die Schwellen zu kennen ändert, wann du für den Tag aufhörst anzugreifen.</p>
     <PlunderCalculator lang={lang} />
     <h3 id="how-the-limit-works">Wie das Limit funktioniert</h3>
     <ul>
@@ -86,10 +86,10 @@ const lang: Lang = 'de';
       <li>Das Limit resettet täglich um <strong>02:00 UTC</strong>.</li>
       <li>Das gelbe Dreieck unter der Macht eines Ziels ist der Über-Limit-Indikator — prüfe ihn über Effekt-Übersicht, dann Plünder-Erträge.</li>
     </ul>
-    <h3 id="plunder-limits-table">Tageslimits nach Heiligtum-Stufe</h3>
+    <h3 id="plunder-limits-table">Tageslimits nach Zuflucht-Stufe</h3>
     <table class="w-full mb-6 text-sm">
       <thead>
-        <tr><th>Heiligtum</th><th>Tageslimit</th><th>Heiligtum</th><th>Tageslimit</th><th>Heiligtum</th><th>Tageslimit</th></tr>
+        <tr><th>Zuflucht</th><th>Tageslimit</th><th>Zuflucht</th><th>Tageslimit</th><th>Zuflucht</th><th>Tageslimit</th></tr>
       </thead>
       <tbody>
         <tr><td>10-12</td><td>2.5M</td><td>18</td><td>8M</td><td>24</td><td>18M</td></tr>
@@ -100,9 +100,9 @@ const lang: Lang = 'de';
         <tr><td>17</td><td>7M</td><td>23</td><td>16M</td><td>29 / 30</td><td>28M / 30M</td></tr>
       </tbody>
     </table>
-    <p>Das Muster: +1M pro Heiligtum-Stufe bis 20, dann +2M pro Stufe bis zur 30M-Grenze bei Heiligtum 30. Zwei mechanische Anmerkungen:</p>
+    <p>Das Muster: +1M pro Zuflucht-Stufe bis 20, dann +2M pro Stufe bis zur 30M-Grenze bei Zuflucht 30. Zwei mechanische Anmerkungen:</p>
     <ul>
-      <li>Ein Heiligtum-Upgrade erhöht dein Limit <strong>sofort</strong> — kein Reset-Warten. Wenn du nah am Tages-Cap bist und eine Heiligtum-Stufe nah ist, mach die zuerst und plündere danach.</li>
+      <li>Ein Zuflucht-Upgrade erhöht dein Limit <strong>sofort</strong> — kein Reset-Warten. Wenn du nah am Tages-Cap bist und eine Zuflucht-Stufe nah ist, mach die zuerst und plündere danach.</li>
       <li>Die Fähigkeit Kriegsvorrat aus dem Legionärs-Kommandant-Spezialistenbaum (Ära der Wiedergeburt) erhöht den Cap um +6 / +14 / +24 / +36 / +50% auf Fähigkeitsstufen 1-5. Siehe den <a href="/de/era/">Ära-Guide</a>.</li>
     </ul>
 

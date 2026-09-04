@@ -1,58 +1,11 @@
 ---
 import Base from '../../layouts/Base.astro';
+import ShopPage from '../../components/ShopPage.astro';
 import type { Lang } from '../../i18n/utils';
 
 const lang: Lang = 'ko';
-
-// TODO: replace placeholder links when provided
-const REF_LINK = '#';
-const DONATE_LINK = '#';
-
-const valuePicks = [
-  '66일차 $1 Marlena 충전 — 게임 내 모든 가격대에서 단일 최고 가성비 구매로 만장일치.',
-  '범용 가속 패키지 ($20-200) — 항상 유용하며 절대 낭비되지 않습니다.',
-  'Raven 정수 패키지 — 병목 자원을 직접 구매하세요; 시스템 전체가 그것에 의존합니다.',
-  '도시 레벨업 패키지 — 생츄어리 돌파에 필요한 자원이 패키지 하나에 들어 있습니다.',
-  '전용 무기 + 각성 샤드 패키지 — 단, 전용 패스 이벤트가 활성화되었을 때만 구매하세요.',
-];
 ---
 
-<Base lang={lang} path="/ko/support/" title="후원하기" description="Last Asylum: Plague 팬 허브를 후원하세요 — 추천 링크를 통해 충전하거나 저자에게 기부하세요.">
-  <section class="mx-auto max-w-3xl py-16">
-    <h1 class="mb-3 text-4xl font-bold text-plague-100">❤️ 후원하기</h1>
-    <p class="mb-10 text-lg text-stone-400">이 팬 허브는 무료로 운영됩니다. 게임에 충전할 계획이라면 우리의 추천 링크를 통해 해주세요 — 당신에게는 추가 비용이 없지만 사이트에 작은 수수료가 돌아옵니다. 아니면 저자에게 커피 한 잔을 사주세요.</p>
-
-    <div class="grid gap-6 sm:grid-cols-2">
-      <div class="flex flex-col rounded-xl border border-stone-800 bg-stone-900 p-6">
-        <span class="text-4xl">💎</span>
-        <h2 class="mt-4 text-xl font-bold text-plague-200">추천 링크로 충전하기</h2>
-        <p class="mt-3 mb-6 flex-1 text-sm leading-relaxed text-stone-400">게임 내 구매를 우리의 링크를 통해 하세요. 동일한 가격, 동일한 아이템 — 그리고 가이드를 계속 무료로 유지하는 데 도움이 됩니다.</p>
-        <a href={REF_LINK} class="rounded-lg bg-plague-700 px-5 py-3 text-center font-semibold text-plague-50 transition-colors hover:bg-plague-600">
-          추천 링크 열기
-        </a>
-      </div>
-
-      <div class="flex flex-col rounded-xl border border-stone-800 bg-stone-900 p-6">
-        <span class="text-4xl">☕</span>
-        <h2 class="mt-4 text-xl font-bold text-plague-200">저자에게 기부하기</h2>
-        <p class="mt-3 mb-6 flex-1 text-sm leading-relaxed text-stone-400">가이드가 도움이 되었나요? 기부는 서버 비용과 콘텐츠 제작 시간을 지원합니다. 모든 금액이 감사합니다.</p>
-        <a href={DONATE_LINK} class="rounded-lg bg-blood-600 px-5 py-3 text-center font-semibold text-white transition-colors hover:bg-blood-500">
-          기부하기
-        </a>
-      </div>
-    </div>
-
-    <div class="mt-8 rounded-xl border border-stone-800 bg-stone-900 p-6">
-      <h2 class="text-xl font-bold text-plague-200">🛒 돈을 쓴다면: 커뮤니티 추천 픽</h2>
-      <p class="mt-2 mb-4 text-sm text-stone-400">과금을 한다면, 이것들이 커뮤니티 합의가 가장 좋다고 보는 구매입니다:</p>
-      <ol class="list-decimal space-y-2 pl-5 text-sm text-stone-300">
-        {valuePicks.map((v) => <li>{v}</li>)}
-      </ol>
-    </div>
-
-    <p class="mt-6 text-xs text-stone-500">⚖️ 공개: 추천 링크는 저작자에게 수수료를 지급하지만, 가이드 콘텐츠에는 영향을 주지 않습니다 — 추천은 커뮤니티 합의 그대로입니다.</p>
-    <p class="mt-4 rounded-lg border border-stone-800 bg-stone-950 p-4 text-center text-sm text-stone-500">
-      🔧 링크는 준비 중입니다 — 제공되는 대로 갱신될 예정입니다.
-    </p>
-  </section>
+<Base lang={lang} path="/ko/support/" title="인게임 상점 및 충전 | Last Asylum" description="공식 파트너 LDShop을 통한 Last Asylum: Plague 공식 인게임 상점 및 다이아몬드 충전. UID 즉시 충전, 할인 혜택 및 커뮤니티 지원.">
+  <ShopPage lang={lang} />
 </Base>

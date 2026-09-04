@@ -104,3 +104,25 @@ What a building costs at Sanctuary 8 tells you nothing about what it costs at Sa
 | Late (Sanctuary 25-30) | Over 100 million | Stockpile for days before starting. An upgrade you cannot feed stalls your whole queue. |
 
 And keep the mix balanced: always keep Grain, Timber, and Herbs in stock. Late upgrades eat all three at once, and running dry on any of them mid-push wastes exactly the timer you stacked buffs to save.
+
+
+## Ultimate Research Lab Roadmap: All 13 Tech Trees {#tech-roadmap}
+
+Research Lab technologies provide compounding permanent multipliers across combat, economy, and alliance scoring. Based on the verified *Ultimate Research Roadmap*, here is the exact tier priority:
+
+| Priority Tier | Research Branch | Core Impact | Recommended Strategy |
+|---|---|---|---|
+| **Tier S (Mandatory)** | **Alliance Duel** | **Super Reward 1 & 2** | **Single highest priority in the game!** Super Reward unlocks tier 4 through 9 daily chests in Alliance Duel, granting millions in diamonds, speedups, and hero tokens. Maximize this first! |
+| **Tier S (Mandatory)** | **Development** | Building & Research Speed (+10-25%) | Must be researched before starting long Sanctuary 20+ construction timers to save hundreds of days in speedups. |
+| **Tier A (High)** | **Economy (Gathering)** | World Map Gathering Speed (+50-100%) | Map gathering yields 20x more resources than passive city production nodes. Prioritize Gathering branches over Production. |
+| **Tier A (High)** | **Primary Faction (Warrior/Ranger/Warlock)** | ATK, DEF & HP for chosen class | Focus 100% of military research on your Squad 1 core faction. Never spread stats equally across all three classes. |
+| **Tier A (High)** | **March Size** | +20,000 to +50,000 troop capacity | Direct multiplier on rally damage and garrison defense. Larger armies win engagements. |
+| **Tier B (Mid/Late)** | **Elite Troops** | Unlocks Tier 10 Troops (T10) | Requires Sanctuary 30 and full pre-requisite completion. Endgame milestone. |
+| **Tier B (Mid/Late)** | **Caravan Transport** | Caravan capacity and escort stats | Enhances Gold Caravan defense and plunder returns with zero troop losses. |
+| **Tier C (Situational)**| **Tactics (Offensive/Defensive)**| Casualty reduction in KvK Bastion rallies | Ideal before Kingdom War season begins. |
+
+### Troop Tier Milestones
+- **T7 Troops**: Sanctuary 20 + Training Grounds 20.
+- **T8 Troops**: Sanctuary 22 + Training Grounds 22.
+- **T9 Troops**: Sanctuary 26 + Training Grounds 26.
+- **T10 Troops**: Sanctuary 30 + Training Grounds 30 + 100% Elite Troops research branch.

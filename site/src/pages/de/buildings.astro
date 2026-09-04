@@ -7,16 +7,16 @@ import type { Lang } from '../../i18n/utils';
 
 const lang: Lang = 'de';
 ---
-<Base lang={lang} path="/de/buildings/" title="Bau-Prioritäten und Heiligtum-Roadmap" description="Heiligtum-Roadmap bis Level 30, die Bau-Prioritäten-Reihenfolge, was jedes Gebäude tut, und wie man Bau-Geschwindigkeits-Boni korrekt konsekutiv stapelt.">
-  <GuidePage title="Bau-Prioritäten und Heiligtum-Roadmap" description="Heiligtum-Roadmap bis Level 30, die Bau-Prioritäten-Reihenfolge, was jedes Gebäude tut, und wie man Bau-Geschwindigkeits-Boni korrekt konsekutiv stapelt." lang={lang}>
-    <p>Bauen ist in Last Asylum: Plague ein langes Spiel — der Heiligtum-Push von Level 1 auf 30 dauert Monate, und die falsche Reihenfolge kostet dich Wochen davon. Diese Seite ist die Bau-Reihenfolge der Community: welche Gebäude zählen und in welcher Sequenz, eine Heiligtum-Roadmap Level für Level, und die exakte Mathematik des Bau-Geschwindigkeits-Stapelns.</p>
+<Base lang={lang} path="/de/buildings/" title="Bau-Prioritäten und Zuflucht-Roadmap" description="Zuflucht-Roadmap bis Level 30, die Bau-Prioritäten-Reihenfolge, was jedes Gebäude tut, und wie man Bau-Geschwindigkeits-Boni korrekt konsekutiv stapelt.">
+  <GuidePage title="Bau-Prioritäten und Zuflucht-Roadmap" description="Zuflucht-Roadmap bis Level 30, die Bau-Prioritäten-Reihenfolge, was jedes Gebäude tut, und wie man Bau-Geschwindigkeits-Boni korrekt konsekutiv stapelt." lang={lang}>
+    <p>Bauen ist in Last Asylum: Plague ein langes Spiel — der Zuflucht-Push von Level 1 auf 30 dauert Monate, und die falsche Reihenfolge kostet dich Wochen davon. Diese Seite ist die Bau-Reihenfolge der Community: welche Gebäude zählen und in welcher Sequenz, eine Zuflucht-Roadmap Level für Level, und die exakte Mathematik des Bau-Geschwindigkeits-Stapelns.</p>
     <p>Die eine Frage, die jeden Warteschlangen-Slot entscheidet: macht dich das stärker oder schneller? Wenn die Antwort Nein lautet, kann es warten.</p>
 
     <h2 id="priority-order">Die Bau-Prioritäten-Reihenfolge</h2>
     <p>Wenn mehrere Gebäude gleichzeitig verfügbar sind, ist die Community-Reihenfolge fix:</p>
     <ol>
-      <li><strong>Heiligtum</strong> — immer. Es begrenzt jede andere Stufe in der Stadt, den Helden-Level-Cap und die Truppenstufen. Wann immer ein Heiligtum-Upgrade verfügbar ist, kommt es zuerst in die Warteschlange.</li>
-      <li><strong>Übungsplatz</strong> — Truppenstufen und Trainingskapazität. Die Armee ist es, die Monster clearät, Rallyes gewinnt und Plünder nach Hause bringt.</li>
+      <li><strong>Zuflucht</strong> — immer. Es begrenzt jede andere Stufe in der Stadt, den Helden-Level-Cap und die Truppenstufen. Wann immer ein Zuflucht-Upgrade verfügbar ist, kommt es zuerst in die Warteschlange.</li>
+      <li><strong>Trainingsplatz</strong> — Truppenstufen und Trainingskapazität. Die Armee ist es, die Monster clearät, Rallyes gewinnt und Plünder nach Hause bringt.</li>
       <li><strong>Kaserne</strong> — Soldatenkapazität. Ein größeres stehendes Heer bedeutet mehr Macht und mehr Schlag pro Marsch.</li>
       <li><strong>Forschungslabor</strong> — permanente Statistik- und Wirtschafts-Forschung. Langsamer rentabel als Truppen, aber es verzinst sich für immer.</li>
       <li><strong>Krankenhaus</strong> — heilt deine Verwundeten nach Niederlagen. Ein kleines Krankenhaus heißt: jede verlorene Schlacht blutet Truppen, die du nicht zurückholst.</li>
@@ -31,43 +31,43 @@ const lang: Lang = 'de';
         <tr><th>Gebäude</th><th>Was es tut</th><th>Community-Notizen</th></tr>
       </thead>
       <tbody>
-        <tr><td>Heiligtum</td><td>Begrenzt alle anderen Gebäude-Stufen, setzt den Helden-Level-Cap, gibt EXP pro Upgrade und schaltet Gebäude und Features mit steigendem Level frei.</td><td>Ohne Pause verbessern. Es ist dein echtes Spieler-Level.</td></tr>
-        <tr><td>Bauhütte</td><td>Produziert kostenlose Bau-Beschleunigungen. Stationierte Überlebende geben Extra-Boni — tausche bessere Überlebende ein, sobald du sie rekrutierst.</td><td>Bis Heiligtum 15 auf Heiligtum-Stufe halten wegen des Gratis-Beschleunigungs-Stroms.</td></tr>
+        <tr><td>Zuflucht</td><td>Begrenzt alle anderen Gebäude-Stufen, setzt den Helden-Level-Cap, gibt EXP pro Upgrade und schaltet Gebäude und Features mit steigendem Level frei.</td><td>Ohne Pause verbessern. Es ist dein echtes Spieler-Level.</td></tr>
+        <tr><td>Bauarbeiterhütte</td><td>Produziert kostenlose Bau-Beschleunigungen. Stationierte Überlebende geben Extra-Boni — tausche bessere Überlebende ein, sobald du sie rekrutierst.</td><td>Bis Zuflucht 15 auf Zuflucht-Stufe halten wegen des Gratis-Beschleunigungs-Stroms.</td></tr>
         <tr><td>Forschungslabor</td><td>Betreibt deinen Tech-Baum: Wirtschafts-, Militär- und Entwicklungsforschung.</td><td>Priorität #4 — permanent sich verzinsende Statistiken.</td></tr>
-        <tr><td>Kaserne / Übungsplatz</td><td>Die Namen werden zwischen Übersetzungen getauscht. Einer öffnet Truppenstufen; der andere erhöht die Soldatenkapazität.</td><td>Prüfe den Ingame-Tooltip, welcher welcher in deinem Client ist, und bau zuerst den Stufen-Öffner.</td></tr>
+        <tr><td>Kaserne / Trainingsplatz</td><td>Die Namen werden zwischen Übersetzungen getauscht. Einer öffnet Truppenstufen; der andere erhöht die Soldatenkapazität.</td><td>Prüfe den Ingame-Tooltip, welcher welcher in deinem Client ist, und bau zuerst den Stufen-Öffner.</td></tr>
         <tr><td>Krankenhaus</td><td>Heilt verwundete Soldaten nach Niederlagen.</td><td>Zu kleines Krankenhaus = dauerhafte Truppenverluste nach jeder verlorenen Schlacht.</td></tr>
-        <tr><td>Antitoxin-Werkstatt</td><td>Produziert Antidote — die Schlüssel-Ressource der Helden über alle Progressionssysteme hinweg.</td><td>Früh bauen. Ein Rückstand bei Antidoten stoppt später Helden-Upgrades.</td></tr>
-        <tr><td>Ausrüstungs-/Schmelz-/Web-Werkstätten</td><td>Fertigt und verbessert Helden-Ausrüstung aus gefarmten Materialien.</td><td>Hohe Ausrüstungs-Werkstatt-Stufen kommen mit Heiligtum 20 — ein Grund mehr, warum 20 zählt.</td></tr>
+        <tr><td>Gegengiftwerkstatt</td><td>Produziert Antidote — die Schlüssel-Ressource der Helden über alle Progressionssysteme hinweg.</td><td>Früh bauen. Ein Rückstand bei Antidoten stoppt später Helden-Upgrades.</td></tr>
+        <tr><td>Ausrüstungs-/Schmelz-/Web-Werkstätten</td><td>Fertigt und verbessert Helden-Ausrüstung aus gefarmten Materialien.</td><td>Hohe Ausrüstungs-Werkstatt-Stufen kommen mit Zuflucht 20 — ein Grund mehr, warum 20 zählt.</td></tr>
         <tr><td>Taverne</td><td>Helden-Rekrutierung — das Banner- und Pull-System lebt hier.</td><td>Diamanten für terminierte UR-Events sparen, statt sie hier zu verballern.</td></tr>
         <tr><td>Allianz-Halle</td><td>Vertieft Allianz-Teilnahme und -Belohnungen.</td><td>Folge der Roadmap unten — es zählt mehr, als neue Spieler erwarten.</td></tr>
       </tbody>
     </table>
 
-    <h3 id="barracks-vs-training">Kaserne vs Übungsplatz — die Namens-Falle</h3>
+    <h3 id="barracks-vs-training">Kaserne vs Trainingsplatz — die Namens-Falle</h3>
     <p>Ein Gebäude öffnet neue Truppenstufen, das andere erhöht, wie viele Soldaten du halten kannst. Welcher Name was tut, hängt von der Übersetzung deines Clients ab — zwei Spieler, die darüber streiten, können beide recht haben. Öffne das Gebäude und lies den Tooltip: Wenn die aufgeführte Wirkung Stufen freischaltet ist, ist das dein Stufen-Öffner und geht zuerst; ist es Soldatenkapazität, geht es als Zweites. Guides verschiedener Regionen tauschen die Namen frei, also vertrau dem Tooltip mehr als dem Guide-Titel.</p>
 
-    <h2 id="sanctuary-roadmap">Heiligtum-Roadmap nach Stufe</h2>
-    <p>Das ist die Community-Roadmap (aus dem Guide von elsiika57), was auf jeder Heiligtum-Stufe zu leveln ist. Lies es so: während du das Heiligtum Richtung Stufe X pushst, bring die gelisteten Gebäude auf die angegebenen Stufen. Sie existiert, um dich davon abzuhalten, Gebäude zu leveln, die du Wochen lang nicht brauchst, während die täglichen zurückfallen.</p>
+    <h2 id="sanctuary-roadmap">Zuflucht-Roadmap nach Stufe</h2>
+    <p>Das ist die Community-Roadmap (aus dem Guide von elsiika57), was auf jeder Zuflucht-Stufe zu leveln ist. Lies es so: während du das Zuflucht Richtung Stufe X pushst, bring die gelisteten Gebäude auf die angegebenen Stufen. Sie existiert, um dich davon abzuhalten, Gebäude zu leveln, die du Wochen lang nicht brauchst, während die täglichen zurückfallen.</p>
     <table class="w-full mb-6 text-sm">
       <thead>
-        <tr><th>Heiligtum-Push</th><th>Diese Gebäude hochziehen</th></tr>
+        <tr><th>Zuflucht-Push</th><th>Diese Gebäude hochziehen</th></tr>
       </thead>
       <tbody>
-        <tr><td>St. 1-10</td><td>Holzdepot 1 St. 4, Kornspeicher 1, Lager 1. Bei Heiligtum 5-6: Mauern 3 bis 5. Bei Heiligtum 7-8: Übungsplatz 4, Allianz-Halle 3 bis 5. Bei Heiligtum 9-10: Mauern 8-9, Allianz-Halle 7, Krankenhaus 7.</td></tr>
-        <tr><td>St. 11-18</td><td>Bei Heiligtum 11: Übungsplatz 10, Forschungslabor 7. Bei Heiligtum 12-13: Forschungslabor 11-12, Mauern 10, Allianz-Halle 11. Bei Heiligtum 14-15: Forschungslabor 13-14, Kriegerstatue 12, Übungsplatz 14. Bei Heiligtum 16-18: Kriegerstatue 14, Forschungslabor 15-17, Kaserne 15, Übungsplatz 17.</td></tr>
-        <tr><td>St. 19-24</td><td>Forschungslabor 18, Kriegerstatue 17, Allianz-Halle 18. Bei Heiligtum 21-22: Forschungslabor 20, Übungsplatz 20, Krankenhaus 21. Bei Heiligtum 23-24: Krankenhaus 22, Forschungslabor 23, Mauern 23.</td></tr>
-        <tr><td>St. 25-29</td><td>Übungsplatz 24, Forschungslabor 24-25, Kriegerstatue 25. Bei Heiligtum 27-28: Forschungslabor 26, Übungsplatz 26, Kaserne 27. Bei Heiligtum 29: Allianz-Halle 28, Forschungslabor 28.</td></tr>
-        <tr><td>St. 30</td><td>Heiligtum 30 ist das Maximum. Schließe jede verbleibende Grenze ab.</td></tr>
+        <tr><td>St. 1-10</td><td>Holzdepot 1 St. 4, Kornspeicher 1, Lager 1. Bei Zuflucht 5-6: Mauern 3 bis 5. Bei Zuflucht 7-8: Trainingsplatz 4, Allianz-Halle 3 bis 5. Bei Zuflucht 9-10: Mauern 8-9, Allianz-Halle 7, Krankenhaus 7.</td></tr>
+        <tr><td>St. 11-18</td><td>Bei Zuflucht 11: Trainingsplatz 10, Forschungslabor 7. Bei Zuflucht 12-13: Forschungslabor 11-12, Mauern 10, Allianz-Halle 11. Bei Zuflucht 14-15: Forschungslabor 13-14, Kriegerstatue 12, Trainingsplatz 14. Bei Zuflucht 16-18: Kriegerstatue 14, Forschungslabor 15-17, Kaserne 15, Trainingsplatz 17.</td></tr>
+        <tr><td>St. 19-24</td><td>Forschungslabor 18, Kriegerstatue 17, Allianz-Halle 18. Bei Zuflucht 21-22: Forschungslabor 20, Trainingsplatz 20, Krankenhaus 21. Bei Zuflucht 23-24: Krankenhaus 22, Forschungslabor 23, Mauern 23.</td></tr>
+        <tr><td>St. 25-29</td><td>Trainingsplatz 24, Forschungslabor 24-25, Kriegerstatue 25. Bei Zuflucht 27-28: Forschungslabor 26, Trainingsplatz 26, Kaserne 27. Bei Zuflucht 29: Allianz-Halle 28, Forschungslabor 28.</td></tr>
+        <tr><td>St. 30</td><td>Zuflucht 30 ist das Maximum. Schließe jede verbleibende Grenze ab.</td></tr>
       </tbody>
     </table>
-    <p>Beachte das Muster in der Tabelle: Forschungslabor und Übungsplatz fallen nie weit hinter das Heiligtum zurück, Mauern und Krankenhaus holen in Blöcken auf, und die Allianz-Halle wird in drei getrennten Fenstern gepusht. Wenn deine Stadt wild von dieser Form abweicht, ist das meist das Zeichen eines Fehlers — ganz oft gleichmäßiges Leveln von allem.</p>
+    <p>Beachte das Muster in der Tabelle: Forschungslabor und Trainingsplatz fallen nie weit hinter das Zuflucht zurück, Mauern und Krankenhaus holen in Blöcken auf, und die Allianz-Halle wird in drei getrennten Fenstern gepusht. Wenn deine Stadt wild von dieser Form abweicht, ist das meist das Zeichen eines Fehlers — ganz oft gleichmäßiges Leveln von allem.</p>
 
     <h2 id="milestones">Wichtige Meilensteine: 20, 24, 27, 30</h2>
-    <p>Der Heiligtum-Push ist keine lange Single-Grind — es sind vier Sprints zwischen Meilensteinen, die je einen echten Sprung freischalten.</p>
+    <p>Der Zuflucht-Push ist keine lange Single-Grind — es sind vier Sprints zwischen Meilensteinen, die je einen echten Sprung freischalten.</p>
     <ul>
-      <li><strong>Heiligtum 20</strong> — Stufe-7-Truppen und eine hochstufige Ausrüstungs-Werkstatt kommen zusammen. Das ist der größte Einzelsprung des Mittel-Spiels und der erste Push, für den sich gesparte Beschleunigungen zu verbrennen lohnen.</li>
-      <li><strong>Heiligtum 24, dann 27</strong> — die nächsten Stufen-Pushes. Jeder hebt Truppenstufen und Werkstatt-Decken erneut an.</li>
-      <li><strong>Heiligtum 30</strong> — der Cap. Alles Verbleibende in der Stadt kann jetzt fertiggestellt werden.</li>
+      <li><strong>Zuflucht 20</strong> — Stufe-7-Truppen und eine hochstufige Ausrüstungs-Werkstatt kommen zusammen. Das ist der größte Einzelsprung des Mittel-Spiels und der erste Push, für den sich gesparte Beschleunigungen zu verbrennen lohnen.</li>
+      <li><strong>Zuflucht 24, dann 27</strong> — die nächsten Stufen-Pushes. Jeder hebt Truppenstufen und Werkstatt-Decken erneut an.</li>
+      <li><strong>Zuflucht 30</strong> — der Cap. Alles Verbleibende in der Stadt kann jetzt fertiggestellt werden.</li>
     </ul>
     <p>Sei dir bewusst, was die späten Meilensteine kosten: ab Mitte 20 laufen einzelne Upgrades über 100 Millionen Ressourcen. Beginne, Ressourcen-Hortung als Teil des Bauplans zu behandeln — siehe den Abschnitt zur Ressourcen-Skalierung unten.</p>
 
@@ -95,20 +95,20 @@ const lang: Lang = 'de';
     <p>Jeder zusätzliche Bonus ist also etwas weniger wert als der vorherige. Die praktischen Konsequenzen:</p>
     <ul>
       <li>Die Bonus-Reihenfolge ist für das Endergebnis egal — aber die Boni müssen aktiv sein, solange der Timer lang ist, weil ihr Wert mit der Restzeit skaliert.</li>
-      <li>Wende alles an, <strong>bevor</strong> die großen Heiligtum-20+-Pushes starten, nicht auf halbem Weg.</li>
+      <li>Wende alles an, <strong>bevor</strong> die großen Zuflucht-20+-Pushes starten, nicht auf halbem Weg.</li>
       <li>Den Bauminister-Titel und VIP 11 vor dem Spät-Push zu sichern ist für sich allein Tage an Timern wert.</li>
     </ul>
 
     <h2 id="resource-scaling">Ressourcen-Skalierung — plane deine Vorräte</h2>
-    <p>Was ein Gebäude bei Heiligtum 8 kostet, sagt nichts über die Kosten bei Heiligtum 25. Die Kurve läuft in drei Phasen:</p>
+    <p>Was ein Gebäude bei Zuflucht 8 kostet, sagt nichts über die Kosten bei Zuflucht 25. Die Kurve läuft in drei Phasen:</p>
     <table class="w-full mb-6 text-sm">
       <thead>
         <tr><th>Phase</th><th>Typische Kosten pro Upgrade</th><th>Bedeutung</th></tr>
       </thead>
       <tbody>
-        <tr><td>Früh (Heiligtum 1-10)</td><td>Tausende bis niedrige Millionen</td><td>Die Produktion deckt es. Gib frei aus, halte die Warteschlangen voll.</td></tr>
-        <tr><td>Mittel (Heiligtum 11-24)</td><td>Zig Millionen</td><td>Plündern und Events tragen die Last — tägliche Plünder-Runde ist nicht mehr optional.</td></tr>
-        <tr><td>Spät (Heiligtum 25-30)</td><td>Über 100 Millionen</td><td>Vor dem Start Tage lang horten. Ein Upgrade, das du nicht füttern kannst, stoppt deine ganze Warteschlange.</td></tr>
+        <tr><td>Früh (Zuflucht 1-10)</td><td>Tausende bis niedrige Millionen</td><td>Die Produktion deckt es. Gib frei aus, halte die Warteschlangen voll.</td></tr>
+        <tr><td>Mittel (Zuflucht 11-24)</td><td>Zig Millionen</td><td>Plündern und Events tragen die Last — tägliche Plünder-Runde ist nicht mehr optional.</td></tr>
+        <tr><td>Spät (Zuflucht 25-30)</td><td>Über 100 Millionen</td><td>Vor dem Start Tage lang horten. Ein Upgrade, das du nicht füttern kannst, stoppt deine ganze Warteschlange.</td></tr>
       </tbody>
     </table>
     <p>Und halte die Mischung im Gleichgewicht: hab immer Korn, Holz und Kräuter auf Lager. Späte Upgrades fressen alle drei gleichzeitig, und bei irgendeinem mitten im Push trocken zu laufen verschwendet exakt den Timer, den du mit Bonis zu sparen gestapelt hast.</p>

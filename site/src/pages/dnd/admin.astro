@@ -1,0 +1,24 @@
+---
+// Admin Panel for Alliance Management (/admin/)
+import Base from "../../layouts/Base.astro";
+import GuildHub from "../../components/GuildHub.astro";
+import type { Lang } from "../i18n/utils";
+
+const lang: Lang = "ru";
+---
+
+<Base lang={lang} path="/admin/" title="Панель администратора | LA Plague Hub" description="Панель управления доступом альянса, директивами и тактическими голосованиями" noindex={true}>
+  <section class="py-8 sm:py-12">
+    <GuildHub lang={lang} />
+  </section>
+
+  <script>
+    // Auto trigger admin modal on /admin/ route
+    document.addEventListener("DOMContentLoaded", () => {
+      setTimeout(() => {
+        const btn = document.getElementById("gh-btn-open-admin-from-login") || document.getElementById("gh-btn-open-admin-from-bar");
+        btn?.click();
+      }, 50);
+    });
+  </script>
+</Base>

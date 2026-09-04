@@ -8,8 +8,8 @@ import type { Lang } from '../../i18n/utils';
 
 const lang: Lang = 'ja';
 ---
-<Base lang={lang} path="/ja/economy/" title="経済：ダイヤ、ショップ、略奪" description="すべてのダイヤの行き先：VIPショップの優先度、入荷スケジュール、ショップ別の購入順序、Wishing Wheelの予算、そして聖域レベル別の略奪1日上限を含む完全な略奪メカニズム。">
-  <GuidePage title="経済：ダイヤ、ショップ、略奪" description="すべてのダイヤの行き先：VIPショップの優先度、入荷スケジュール、ショップ別の購入順序、Wishing Wheelの予算、そして聖域レベル別の略奪1日上限を含む完全な略奪メカニズム。" lang={lang}>
+<Base lang={lang} path="/ja/economy/" title="経済：ダイヤ、ショップ、略奪" description="すべてのダイヤの行き先：VIPショップの優先度、入荷スケジュール、ショップ別の購入順序、Wishing Wheelの予算、そして教会レベル別の略奪1日上限を含む完全な略奪メカニズム。">
+  <GuidePage title="経済：ダイヤ、ショップ、略奪" description="すべてのダイヤの行き先：VIPショップの優先度、入荷スケジュール、ショップ別の購入順序、Wishing Wheelの予算、そして教会レベル別の略奪1日上限を含む完全な略奪メカニズム。" lang={lang}>
     <p>Last Asylum: Plague は3つの経済を並行して走らせています：ダイヤとショップ、毎日の略奪、そしてイベントカレンダー。それぞれに罠があります — 悪いダイヤの使い方、無駄になる略奪キャパ、5%効率で消えるスタミナ。このページはその3つすべてのコミュニティコンセンサスを、正確な数値付きでまとめたものです。</p>
 
     <h2 id="vip-shop">VIPショップ：ダイヤの優先度</h2>
@@ -29,7 +29,7 @@ const lang: Lang = 'ja';
     <h2 id="restock-schedule">ショップの入荷スケジュール</h2>
     <p>すべてのショップは月曜日に入れ替わります。週の計画をそれに合わせましょう：在庫が満杯の月曜に優先品を買い尽くし、週半ばにAlliance Duelと遠征(Expedition)の収入を走らせ、週末は次の月曜の更新が自分に何をくれるかを考える。日曜に買い物をするプレイヤーは、漁り尽くされた棚を買っています。</p>
 
-    <h2 id="sanctuary-shop">聖域ショップ(Sanctuary Shop)</h2>
+    <h2 id="sanctuary-shop">教会ショップ(Sanctuary Shop)</h2>
     <ol>
       <li>カラスの精髄とURヒーロー万能欠片 — 最大まで買う。</li>
       <li>解毒剤とSSR万能欠片。</li>
@@ -75,7 +75,7 @@ const lang: Lang = 'ja';
     <p>課金するなら、コミュニティが$20〜200帯で選ぶ3つのパック：万能加速パック、カラスの精髄パック、都市レベルアップパック。そして初心者ガイドから：66日目の$1 Marlena課金は、どんな価格帯と比べてもゲーム内最高のコスパです。</p>
 
     <h2 id="plunder-mechanics">略奪：完全なメカニズム</h2>
-    <p>略奪収入は1日の上限でキャップされ、その上限は聖域レベルでスケールします。しきい値を知っているかどうかで、その日にいつ攻撃をやめるかが変わります。</p>
+    <p>略奪収入は1日の上限でキャップされ、その上限は教会レベルでスケールします。しきい値を知っているかどうかで、その日にいつ攻撃をやめるかが変わります。</p>
     <PlunderCalculator lang={lang} />
     <h3 id="how-the-limit-works">上限の仕組み</h3>
     <ul>
@@ -86,10 +86,10 @@ const lang: Lang = 'ja';
       <li>上限は毎日<strong>02:00 UTC</strong>にリセットされます。</li>
       <li>ターゲットの戦力の下の黄色い三角が上限超過インジケーター — 効果概要から略奪収入(Plunder Gains)を確認。</li>
     </ul>
-    <h3 id="plunder-limits-table">聖域レベル別の1日上限</h3>
+    <h3 id="plunder-limits-table">教会レベル別の1日上限</h3>
     <table class="w-full mb-6 text-sm">
       <thead>
-        <tr><th>聖域</th><th>1日上限</th><th>聖域</th><th>1日上限</th><th>聖域</th><th>1日上限</th></tr>
+        <tr><th>教会</th><th>1日上限</th><th>教会</th><th>1日上限</th><th>教会</th><th>1日上限</th></tr>
       </thead>
       <tbody>
         <tr><td>10-12</td><td>2.5M</td><td>18</td><td>8M</td><td>24</td><td>18M</td></tr>
@@ -100,9 +100,9 @@ const lang: Lang = 'ja';
         <tr><td>17</td><td>7M</td><td>23</td><td>16M</td><td>29 / 30</td><td>28M / 30M</td></tr>
       </tbody>
     </table>
-    <p>パターン：聖域20までは+1M/レベル、その後は30Mの上限まで+2M/レベル。メカニズム上の注記が2つ：</p>
+    <p>パターン：教会20までは+1M/レベル、その後は30Mの上限まで+2M/レベル。メカニズム上の注記が2つ：</p>
     <ul>
-      <li>聖域のアップグレードは上限を<strong>即時</strong>に引き上げます — リセットを待つ必要なし。毎日の上限に近く、聖域のレベルアップが近いなら、先にレベルを上げてから略奪すること。</li>
+      <li>教会のアップグレードは上限を<strong>即時</strong>に引き上げます — リセットを待つ必要なし。毎日の上限に近く、教会のレベルアップが近いなら、先にレベルを上げてから略奪すること。</li>
       <li>軍団指揮官(Legion Commander)特技ツリー(Era of Revival)のWar Supplyスキルは、スキルレベル1〜5で上限を+6 / +14 / +24 / +36 / +50%引き上げます。<a href="/ja/era/">Eraガイド</a>参照。</li>
     </ul>
 

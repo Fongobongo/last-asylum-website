@@ -1,0 +1,11 @@
+---
+import Base from '../../layouts/Base.astro';
+import ShopPage from '../../components/ShopPage.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ko';
+---
+
+<Base lang={lang} path="/ko/shop/" title="게임 상점 및 다이아 충전 | Last Asylum" description="공식 파트너 LDShop을 통한 공식 상점 및 다이아몬드 충전. UID 즉시 지급, 최대 할인.">
+  <ShopPage lang={lang} />
+</Base>

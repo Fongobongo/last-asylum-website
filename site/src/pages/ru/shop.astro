@@ -1,0 +1,11 @@
+---
+import Base from '../../layouts/Base.astro';
+import ShopPage from '../../components/ShopPage.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ru';
+---
+
+<Base lang={lang} path="/ru/shop/" title="Игровой магазин и донат | Last Asylum" description="Официальный магазин Last Asylum: Plague и пополнение алмазов через авторизованного партнёра LDShop. Моментальная доставка по UID, скидки и поддержка проекта.">
+  <ShopPage lang={lang} />
+</Base>

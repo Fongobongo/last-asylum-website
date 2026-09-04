@@ -1,53 +1,11 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { t } from '../../i18n/ui';
+import ShopPage from '../../components/ShopPage.astro';
 import type { Lang } from '../../i18n/utils';
 
 const lang: Lang = 'ru';
-
-// TODO: replace placeholder links when provided
-const REF_LINK = '#';
-const DONATE_LINK = '#';
-
-const valuePicks = [t(lang, 'support.value.1'), t(lang, 'support.value.2'), t(lang, 'support.value.3'), t(lang, 'support.value.4'), t(lang, 'support.value.5')];
 ---
 
-<Base lang={lang} path="/support/" title="Поддержать проект" description="Поддержи фан-хаб Last Asylum: Plague — пополняй по нашей реф-ссылке или задонать автору.">
-  <section class="mx-auto max-w-3xl py-16">
-    <h1 class="mb-3 text-4xl font-bold text-plague-100">❤️ {t(lang, 'support.title')}</h1>
-    <p class="mb-10 text-lg text-stone-400">{t(lang, 'support.intro')}</p>
-
-    <div class="grid gap-6 sm:grid-cols-2">
-      <div class="flex flex-col rounded-xl border border-stone-800 bg-stone-900 p-6">
-        <span class="text-4xl">💎</span>
-        <h2 class="mt-4 text-xl font-bold text-plague-200">{t(lang, 'support.ref.title')}</h2>
-        <p class="mt-3 mb-6 flex-1 text-sm leading-relaxed text-stone-400">{t(lang, 'support.ref.desc')}</p>
-        <a href={REF_LINK} class="rounded-lg bg-plague-700 px-5 py-3 text-center font-semibold text-plague-50 transition-colors hover:bg-plague-600">
-          {t(lang, 'support.ref.cta')}
-        </a>
-      </div>
-
-      <div class="flex flex-col rounded-xl border border-stone-800 bg-stone-900 p-6">
-        <span class="text-4xl">☕</span>
-        <h2 class="mt-4 text-xl font-bold text-plague-200">{t(lang, 'support.donate.title')}</h2>
-        <p class="mt-3 mb-6 flex-1 text-sm leading-relaxed text-stone-400">{t(lang, 'support.donate.desc')}</p>
-        <a href={DONATE_LINK} class="rounded-lg bg-blood-600 px-5 py-3 text-center font-semibold text-white transition-colors hover:bg-blood-500">
-          {t(lang, 'support.donate.cta')}
-        </a>
-      </div>
-    </div>
-
-    <div class="mt-8 rounded-xl border border-stone-800 bg-stone-900 p-6">
-      <h2 class="text-xl font-bold text-plague-200">🛒 {t(lang, 'support.value.title')}</h2>
-      <p class="mt-2 mb-4 text-sm text-stone-400">{t(lang, 'support.value.intro')}</p>
-      <ol class="list-decimal space-y-2 pl-5 text-sm text-stone-300">
-        {valuePicks.map((v) => <li>{v}</li>)}
-      </ol>
-    </div>
-
-    <p class="mt-6 text-xs text-stone-500">⚖️ {t(lang, 'support.disclosure')}</p>
-    <p class="mt-4 rounded-lg border border-stone-800 bg-stone-950 p-4 text-center text-sm text-stone-500">
-      🔧 {t(lang, 'support.placeholder')}
-    </p>
-  </section>
+<Base lang={lang} path="/ru/support/" title="Игровой магазин и донат | Last Asylum" description="Официальный магазин Last Asylum: Plague и пополнение алмазов через авторизованного партнёра LDShop. Моментальная доставка по UID, скидки и поддержка проекта.">
+  <ShopPage lang={lang} />
 </Base>

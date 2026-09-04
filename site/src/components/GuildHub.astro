@@ -11,24 +11,32 @@ const isRu = lang === 'ru';
 
 const T = {
   restrictedBadge: isRu ? 'ЗАКРЫТЫЙ СЕКТОР АЛЬЯНСА' : 'RESTRICTED ALLIANCE SECTOR',
-  hubTitle: isRu ? 'Штаб гильдии' : 'Guild Headquarters',
+  hubTitle: isRu ? 'Штаб гильдии DND' : 'DND Guild Headquarters',
   hubSubtitle: isRu
     ? 'Координация альянса, тактические голосования и секретные военные директивы.'
     : 'Alliance coordination, tactical polls, and classified battle directives.',
-  enterNickTitle: isRu ? 'Авторизация бойца' : 'Member Authorization',
+  enterNickTitle: isRu ? 'Доступ в штаб DND' : 'DND Headquarters Access',
   enterNickDesc: isRu
-    ? 'Укажите ваш игровой никнейм для входа в штаб, участия в голосованиях и доступа к закрытым данным.'
-    : 'Enter your in-game nickname to enter headquarters, participate in votes, and access intel.',
+    ? 'Для входа в закрытый сектор введите пароль альянса и ваш игровой никнейм.'
+    : 'Enter alliance access password and your in-game nickname to enter restricted sector.',
+  passLabel: isRu ? 'Пароль доступа альянса' : 'Alliance Access Password',
+  passPlaceholder: isRu ? 'Введите пароль альянса...' : 'Enter alliance password...',
   nickPlaceholder: isRu ? 'Ваш игровой ник (например: Viper_99)' : 'Your in-game nickname (e.g. Viper_99)',
   nickLabel: isRu ? 'Игровой никнейм' : 'In-game nickname',
   enterBtn: isRu ? 'Войти в штаб →' : 'Enter Headquarters →',
+  showPassBtn: isRu ? 'Показать' : 'Show',
+  hidePassBtn: isRu ? 'Скрыть' : 'Hide',
+  wrongPassMember: isRu
+    ? 'Неверный пароль альянса. Обратитесь к офицерам или лидеру.'
+    : 'Invalid alliance password. Contact your officers or leader.',
   nickCookieNote: isRu
-    ? 'Никнейм сохраняется в cookies вашего браузера и используется при подтверждении ваших голосов.'
-    : 'Your nickname is saved in browser cookies and used to verify your votes.',
+    ? 'Авторизация и никнейм сохраняются в браузере для подтверждения ваших голосов.'
+    : 'Authorization and nickname are saved in browser cookies to verify your votes.',
   memberBadge: isRu ? 'Боец альянса' : 'Alliance Member',
   onlineStatus: isRu ? 'В сети' : 'Online',
   changeNickBtn: isRu ? 'Сменить ник' : 'Change Nick',
   logoutBtn: isRu ? 'Выйти' : 'Log out',
+  adminBtn: isRu ? '⚙️ Админка' : '⚙️ Admin',
   tabPolls: isRu ? 'Голосования' : 'Polls & Votes',
   tabIntel: isRu ? 'Военные протоколы (DND)' : 'Classified Intel (DND)',
   pollsTitle: isRu ? 'Тактические голосования' : 'Tactical Polls',
@@ -87,6 +95,29 @@ const T = {
   dayCol: isRu ? 'День / Время' : 'Day / Time',
   squadCol: isRu ? 'Отряд' : 'Squad',
   missionCol: isRu ? 'Задача' : 'Objective',
+  // Admin Panel strings
+  adminModalTitle: isRu ? 'Панель управления альянса DND' : 'DND Alliance Admin Panel',
+  adminLoginPrompt: isRu ? 'Вход для администратора' : 'Admin Login',
+  adminLoginDesc: isRu ? 'Введите мастер-пароль администратора для управления доступом и опросами.' : 'Enter admin master password to manage access and polls.',
+  adminMasterPassLabel: isRu ? 'Мастер-пароль администратора' : 'Admin Master Password',
+  adminMasterPassPlaceholder: isRu ? 'Пароль администратора...' : 'Admin password...',
+  adminLoginBtn: isRu ? 'Войти в панель →' : 'Enter Admin Panel →',
+  adminWrongPass: isRu ? 'Неверный пароль администратора.' : 'Invalid admin password.',
+  adminSecPassTitle: isRu ? '🔑 1. Пароль доступа для участников (/dnd)' : '🔑 1. Member Access Password (/dnd)',
+  adminCurrentPassLabel: isRu ? 'Текущий пароль:' : 'Current password:',
+  adminNewPassPlaceholder: isRu ? 'Новый пароль альянса...' : 'New alliance password...',
+  adminSavePassBtn: isRu ? 'Сохранить новый пароль' : 'Save New Password',
+  adminShareInviteTitle: isRu ? '🔗 Ссылка с авто-входом для соклановцев' : '🔗 Auto-login link for clan members',
+  adminCopyInviteBtn: isRu ? 'Копировать ссылку с паролем' : 'Copy link with password',
+  adminSecMasterTitle: isRu ? '🛡️ 2. Смена мастер-пароля администратора' : '🛡️ 2. Change Admin Master Password',
+  adminNewMasterPlaceholder: isRu ? 'Новый пароль админа...' : 'New admin password...',
+  adminSaveMasterBtn: isRu ? 'Обновить пароль админа' : 'Update Admin Password',
+  adminSecDirectiveTitle: isRu ? '📢 3. Оперативная директива альянса' : '📢 3. Tactical Alliance Directive',
+  adminDirectiveDesc: isRu ? 'Этот приказ сразу отображается всем бойцам во вкладке «Военные протоколы».' : 'This directive is immediately displayed to all members in Classified Intel tab.',
+  adminDirectivePlaceholder: isRu ? 'Внимание альянсу! В субботу в 19:00 сбор на форт...' : 'Attention alliance! Saturday 19:00 rally for fort...',
+  adminSaveDirectiveBtn: isRu ? 'Опубликовать директиву' : 'Publish Directive',
+  adminCloseModalBtn: isRu ? '✕ Закрыть' : '✕ Close',
+  adminLogoutBtn: isRu ? 'Выйти из админки' : 'Logout Admin',
 };
 ---
 
@@ -122,6 +153,14 @@ const T = {
       </div>
 
       <button
+        id="gh-btn-open-admin-from-bar"
+        type="button"
+        class="rounded-lg border border-toxic-500/40 bg-stone-900 px-3 py-1.5 text-xs font-bold text-toxic-300 hover:bg-toxic-500/20 hover:border-toxic-400 transition-colors cursor-pointer"
+      >
+        {T.adminBtn}
+      </button>
+
+      <button
         id="gh-btn-change-nick"
         type="button"
         class="rounded-lg border border-stone-700 bg-stone-800/80 px-3 py-1.5 text-xs font-medium text-stone-300 hover:border-stone-600 hover:text-white transition-colors cursor-pointer"
@@ -139,21 +178,43 @@ const T = {
     </div>
   </div>
 
-  <!-- STATE 1: LOGIN / ENTER NICKNAME (When no cookie/nick found) -->
+  <!-- STATE 1: LOGIN / ENTER PASSWORD & NICKNAME (When not authorized) -->
   <div id="gh-login-screen" class="hidden">
-    <div class="mx-auto max-w-lg rounded-3xl border border-stone-800 bg-gradient-to-b from-stone-900/90 to-stone-950 p-8 shadow-2xl backdrop-blur-xl">
+    <div class="mx-auto max-w-lg rounded-3xl border border-stone-800 bg-gradient-to-b from-stone-900/95 to-stone-950 p-8 shadow-2xl backdrop-blur-xl">
       <div class="mb-6 text-center">
-        <div class="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-toxic-500/20 to-plague-600/20 border border-toxic-400/40 text-3xl shadow-[0_0_25px_rgba(180,255,57,0.2)]">
-          ⚔️
+        <div class="mx-auto mb-3 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-toxic-500/20 to-plague-600/20 border border-toxic-400/40 text-3xl shadow-[0_0_25px_rgba(180,255,57,0.2)]">
+          🛡️
+        </div>
+        <div class="inline-block rounded-full bg-toxic-500/10 border border-toxic-500/30 px-3 py-0.5 text-[11px] font-mono text-toxic-300 uppercase tracking-widest mb-2">
+          {T.restrictedBadge}
         </div>
         <h2 class="text-2xl font-bold tracking-tight text-white">{T.enterNickTitle}</h2>
         <p class="mt-2 text-sm leading-relaxed text-stone-400">{T.enterNickDesc}</p>
       </div>
 
       <form id="gh-login-form" class="space-y-4">
-        <div>
-          <label for="gh-input-nick" class="mb-2 block text-xs font-semibold uppercase tracking-wider text-stone-300">
-            {T.nickLabel}
+        <!-- Alliance Access Password Field -->
+        <div id="gh-group-pass">
+          <label for="gh-input-pass" class="mb-1.5 flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-stone-300">
+            <span>{T.passLabel} <span class="text-toxic-400">*</span></span>
+            <button type="button" id="gh-toggle-pwd-btn" class="text-[11px] text-stone-400 hover:text-toxic-300 transition cursor-pointer">
+              👁️ {T.showPassBtn}
+            </button>
+          </label>
+          <input
+            id="gh-input-pass"
+            type="password"
+            required
+            autocomplete="current-password"
+            placeholder={T.passPlaceholder}
+            class="w-full rounded-xl border border-stone-700 bg-stone-950 px-4 py-3 text-stone-100 placeholder-stone-600 outline-none transition focus:border-toxic-400 focus:ring-1 focus:ring-toxic-400 font-medium"
+          />
+        </div>
+
+        <!-- Nickname Field -->
+        <div id="gh-group-nick">
+          <label for="gh-input-nick" class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-stone-300">
+            {T.nickLabel} <span class="text-toxic-400">*</span>
           </label>
           <input
             id="gh-input-nick"
@@ -165,8 +226,9 @@ const T = {
             placeholder={T.nickPlaceholder}
             class="w-full rounded-xl border border-stone-700 bg-stone-950 px-4 py-3 text-stone-100 placeholder-stone-600 outline-none transition focus:border-toxic-400 focus:ring-1 focus:ring-toxic-400 font-medium"
           />
-          <p id="gh-login-error" class="mt-2 hidden text-xs font-medium text-red-400"></p>
         </div>
+
+        <p id="gh-login-error" class="hidden rounded-lg bg-red-950/60 border border-red-800/60 p-2.5 text-center text-xs font-medium text-red-300"></p>
 
         <button
           type="submit"
@@ -175,9 +237,16 @@ const T = {
           {T.enterBtn}
         </button>
 
-        <p class="text-center text-xs leading-5 text-stone-500">
-          🔒 {T.nickCookieNote}
-        </p>
+        <div class="pt-3 border-t border-stone-800/80 flex flex-col items-center gap-2 text-center text-xs text-stone-500">
+          <p>🔒 {T.nickCookieNote}</p>
+          <button
+            type="button"
+            id="gh-btn-open-admin-from-login"
+            class="mt-1 inline-flex items-center gap-1.5 rounded-lg border border-stone-800 bg-stone-900/60 px-3 py-1.5 text-xs text-stone-400 hover:text-toxic-300 hover:border-toxic-500/40 transition cursor-pointer"
+          >
+            {T.adminBtn}
+          </button>
+        </div>
       </form>
     </div>
   </div>
@@ -233,7 +302,7 @@ const T = {
       <div id="gh-manage-drawer" class="hidden rounded-2xl border border-stone-800 bg-stone-950 p-4 space-y-3">
         <div class="flex flex-wrap items-center justify-between gap-2 border-b border-stone-800/80 pb-3 text-xs text-stone-400">
           <span>Хранилище данных опросов (LocalStorage + Cookies)</span>
-          <span class="text-stone-500">Синхронизируется автоматически между соклановцами</span>
+          <span class="text-stone-500">Синхронизируется автоматически</span>
         </div>
         <div class="flex flex-wrap gap-2">
           <button
@@ -369,6 +438,18 @@ const T = {
           <p class="mt-1 text-sm text-stone-400">{T.intelSubtitle}</p>
         </div>
 
+        <!-- Custom Command Directive Banner (Set by Admin) -->
+        <div id="gh-directive-card" class="hidden mb-8 rounded-2xl border border-toxic-500/40 bg-gradient-to-r from-toxic-500/10 via-stone-950 to-stone-950 p-5 shadow-[0_0_25px_rgba(180,255,57,0.1)]">
+          <div class="flex items-center justify-between gap-3 mb-2.5 pb-2 border-b border-toxic-500/20">
+            <div class="flex items-center gap-2">
+              <span class="text-base">📢</span>
+              <h3 class="text-sm font-bold text-toxic-300 uppercase tracking-wider">Оперативная директива командования</h3>
+            </div>
+            <span id="gh-directive-time" class="text-[11px] font-mono text-stone-400">Активно</span>
+          </div>
+          <div id="gh-directive-text" class="text-sm text-stone-200 leading-relaxed whitespace-pre-wrap"></div>
+        </div>
+
         <!-- AES Passphrase Decrypt Box -->
         <div class="mb-8 rounded-xl border border-stone-800 bg-stone-950 p-5">
           <h3 class="text-sm font-bold text-plague-200">{T.decryptTitle}</h3>
@@ -448,8 +529,8 @@ const T = {
                     </tr>
                     <tr>
                       <td class="py-2 pr-2 font-mono text-stone-500">Пн-Пт</td>
-                      <td class="py-2 px-2 text-stone-400">Все отряды</td>
-                      <td class="py-2 pl-2 text-stone-400">Элитные боссы и сборы</td>
+                      <td class="py-2 px-2 font-semibold text-stone-400">All Squads</td>
+                      <td class="py-2 pl-2 text-stone-400">Подготовка и фарм</td>
                     </tr>
                   </tbody>
                 </table>
@@ -460,11 +541,169 @@ const T = {
       </div>
     </div>
   </div>
+
+  <!-- ADMIN PANEL MODAL -->
+  <div id="gh-admin-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-black/80 backdrop-blur-md">
+    <div class="w-full max-w-xl max-h-[90vh] overflow-y-auto rounded-3xl border border-toxic-500/40 bg-stone-950 p-6 sm:p-8 shadow-2xl">
+      <!-- Modal Header -->
+      <div class="mb-6 flex items-center justify-between border-b border-stone-800 pb-4">
+        <div class="flex items-center gap-2.5">
+          <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-toxic-500/20 text-lg border border-toxic-400/40">⚙️</span>
+          <div>
+            <h3 class="text-lg font-bold text-white tracking-tight">{T.adminModalTitle}</h3>
+            <span class="text-xs font-mono text-toxic-400">Superuser / Officer Mode</span>
+          </div>
+        </div>
+        <button id="gh-btn-close-admin-modal" type="button" class="text-stone-400 hover:text-white text-xl p-1 cursor-pointer">✕</button>
+      </div>
+
+      <!-- ADMIN LOGIN VIEW (if not authed as admin) -->
+      <div id="gh-admin-login-view" class="space-y-4">
+        <div class="rounded-xl border border-stone-800 bg-stone-900/60 p-4">
+          <h4 class="text-sm font-bold text-white mb-1">{T.adminLoginPrompt}</h4>
+          <p class="text-xs text-stone-400 leading-relaxed">{T.adminLoginDesc}</p>
+        </div>
+        <form id="gh-admin-login-form" class="space-y-4">
+          <div>
+            <label for="gh-admin-master-input" class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-stone-300">
+              {T.adminMasterPassLabel}
+            </label>
+            <input
+              id="gh-admin-master-input"
+              type="password"
+              required
+              placeholder={T.adminMasterPassPlaceholder}
+              class="w-full rounded-xl border border-stone-700 bg-stone-900 px-4 py-3 text-stone-100 placeholder-stone-600 outline-none focus:border-toxic-400 font-medium"
+            />
+            <p id="gh-admin-login-error" class="mt-2 hidden text-xs font-medium text-red-400"></p>
+          </div>
+          <button
+            type="submit"
+            class="w-full rounded-xl bg-toxic-400 py-3 text-sm font-bold text-black shadow-[0_0_20px_rgba(180,255,57,0.25)] hover:bg-toxic-300 transition cursor-pointer"
+          >
+            {T.adminLoginBtn}
+          </button>
+        </form>
+      </div>
+
+      <!-- ADMIN DASHBOARD (after admin login) -->
+      <div id="gh-admin-dashboard" class="hidden space-y-6">
+        <!-- 1. Member Password Config -->
+        <div class="rounded-2xl border border-stone-800 bg-stone-900/50 p-5 space-y-3">
+          <h4 class="text-sm font-bold text-white flex items-center justify-between">
+            <span>{T.adminSecPassTitle}</span>
+            <span class="text-xs font-normal text-stone-400">для входа соклановцев</span>
+          </h4>
+          <div class="flex items-center gap-2 rounded-xl bg-stone-950 p-3 border border-stone-800 text-xs">
+            <span class="text-stone-400">{T.adminCurrentPassLabel}</span>
+            <code id="gh-admin-cur-pass-display" class="font-mono font-bold text-toxic-300 text-sm px-2 py-0.5 rounded bg-toxic-500/10 border border-toxic-500/20">...</code>
+          </div>
+          <div class="flex flex-col sm:flex-row gap-2 pt-1">
+            <input
+              id="gh-admin-new-member-pass"
+              type="text"
+              placeholder={T.adminNewPassPlaceholder}
+              class="flex-1 rounded-xl border border-stone-700 bg-stone-950 px-3.5 py-2 text-xs text-stone-100 placeholder-stone-600 outline-none focus:border-toxic-400 font-mono"
+            />
+            <button
+              id="gh-admin-btn-save-member-pass"
+              type="button"
+              class="rounded-xl bg-toxic-400 px-4 py-2 text-xs font-bold text-black hover:bg-toxic-300 transition cursor-pointer"
+            >
+              {T.adminSavePassBtn}
+            </button>
+          </div>
+          <!-- Share Link Box -->
+          <div class="pt-2 border-t border-stone-800/80">
+            <span class="block text-xs font-semibold text-stone-300 mb-1.5">{T.adminShareInviteTitle}:</span>
+            <button
+              id="gh-admin-btn-copy-invite"
+              type="button"
+              class="w-full inline-flex items-center justify-center gap-2 rounded-xl border border-stone-700 bg-stone-900/80 px-4 py-2 text-xs font-semibold text-stone-200 hover:text-white hover:border-toxic-500/50 transition cursor-pointer"
+            >
+              {T.adminCopyInviteBtn}
+            </button>
+          </div>
+        </div>
+
+        <!-- 2. Command Directives / Intel Broadcaster -->
+        <div class="rounded-2xl border border-stone-800 bg-stone-900/50 p-5 space-y-3">
+          <h4 class="text-sm font-bold text-white flex items-center justify-between">
+            <span>{T.adminSecDirectiveTitle}</span>
+            <span class="text-xs font-normal text-stone-400">объявление в протоколах</span>
+          </h4>
+          <p class="text-xs text-stone-400">{T.adminDirectiveDesc}</p>
+          <textarea
+            id="gh-admin-directive-input"
+            rows="3"
+            placeholder={T.adminDirectivePlaceholder}
+            class="w-full rounded-xl border border-stone-700 bg-stone-950 p-3 text-xs text-stone-100 placeholder-stone-600 outline-none focus:border-toxic-400 resize-none leading-relaxed"
+          ></textarea>
+          <div class="flex items-center justify-between gap-2">
+            <button
+              id="gh-admin-btn-clear-directive"
+              type="button"
+              class="text-xs text-stone-500 hover:text-red-400 transition cursor-pointer"
+            >
+              Очистить директиву
+            </button>
+            <button
+              id="gh-admin-btn-save-directive"
+              type="button"
+              class="rounded-xl bg-toxic-400 px-4 py-2 text-xs font-bold text-black hover:bg-toxic-300 transition cursor-pointer"
+            >
+              {T.adminSaveDirectiveBtn}
+            </button>
+          </div>
+        </div>
+
+        <!-- 3. Change Admin Master Password -->
+        <div class="rounded-2xl border border-stone-800 bg-stone-900/50 p-5 space-y-3">
+          <h4 class="text-sm font-bold text-white">{T.adminSecMasterTitle}</h4>
+          <div class="flex flex-col sm:flex-row gap-2">
+            <input
+              id="gh-admin-new-master-pass"
+              type="password"
+              placeholder={T.adminNewMasterPlaceholder}
+              class="flex-1 rounded-xl border border-stone-700 bg-stone-950 px-3.5 py-2 text-xs text-stone-100 placeholder-stone-600 outline-none focus:border-toxic-400"
+            />
+            <button
+              id="gh-admin-btn-save-master-pass"
+              type="button"
+              class="rounded-xl border border-stone-700 bg-stone-800 px-4 py-2 text-xs font-semibold text-stone-200 hover:text-white hover:border-stone-600 transition cursor-pointer"
+            >
+              {T.adminSaveMasterBtn}
+            </button>
+          </div>
+        </div>
+
+        <!-- 4. Footer Actions -->
+        <div class="flex items-center justify-between border-t border-stone-800 pt-4">
+          <button
+            id="gh-admin-btn-logout"
+            type="button"
+            class="text-xs font-medium text-stone-400 hover:text-red-400 transition cursor-pointer"
+          >
+            {T.adminLogoutBtn}
+          </button>
+          <button
+            id="gh-admin-btn-close-dash"
+            type="button"
+            class="rounded-xl bg-stone-800 hover:bg-stone-700 px-4 py-2 text-xs font-semibold text-white transition cursor-pointer"
+          >
+            {T.adminCloseModalBtn}
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <script>
   // ==========================================
   // GUILD HUB CLIENT LOGIC
+  // - Password-protected access (member password)
+  // - Admin control panel (master admin password)
   // - Cookie-based Nickname authorization
   // - Reactive Polls with voting & creation
   // - Real-time progress bars & voter breakdown
@@ -491,8 +730,16 @@ const T = {
   }
 
   const COOKIE_NICK = 'la_player_nick';
+  const COOKIE_AUTH = 'la_dnd_auth';
   const STORAGE_POLLS = 'la_guild_polls_v2';
   const STORAGE_NICK = 'la_player_nick';
+  const STORAGE_MEMBER_AUTH = 'la_dnd_member_authed';
+  const STORAGE_ALLIANCE_PWD = 'la_dnd_alliance_pwd';
+  const DEFAULT_ALLIANCE_PWD = 'dnd2026';
+  const STORAGE_ADMIN_PWD = 'la_dnd_admin_pwd';
+  const DEFAULT_ADMIN_PWD = 'admin2026';
+  const STORAGE_DIRECTIVE = 'la_dnd_directive';
+  const STORAGE_DIRECTIVE_TIME = 'la_dnd_directive_time';
 
   // --- Cookie Helpers ---
   function getCookie(name: string): string | null {
@@ -514,6 +761,39 @@ const T = {
   function deleteCookie(name: string) {
     document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; SameSite=Lax`;
   }
+
+  // --- Password & Auth Helpers ---
+  function getAlliancePassword(): string {
+    return localStorage.getItem(STORAGE_ALLIANCE_PWD) || DEFAULT_ALLIANCE_PWD;
+  }
+
+  function setAlliancePassword(newPass: string) {
+    localStorage.setItem(STORAGE_ALLIANCE_PWD, newPass.trim());
+  }
+
+  function getAdminPassword(): string {
+    return localStorage.getItem(STORAGE_ADMIN_PWD) || DEFAULT_ADMIN_PWD;
+  }
+
+  function setAdminPassword(newPass: string) {
+    localStorage.setItem(STORAGE_ADMIN_PWD, newPass.trim());
+  }
+
+  function isMemberAuthed(): boolean {
+    return localStorage.getItem(STORAGE_MEMBER_AUTH) === '1' || getCookie(COOKIE_AUTH) === '1';
+  }
+
+  function setMemberAuthed(val: boolean) {
+    if (val) {
+      localStorage.setItem(STORAGE_MEMBER_AUTH, '1');
+      setCookie(COOKIE_AUTH, '1', 30);
+    } else {
+      localStorage.removeItem(STORAGE_MEMBER_AUTH);
+      deleteCookie(COOKIE_AUTH);
+    }
+  }
+
+  let isAdminAuthed = false;
 
   // --- Default Guild Polls ---
   const DEFAULT_POLLS: GuildPoll[] = [
@@ -625,7 +905,6 @@ const T = {
             currentPolls.unshift(importedPoll);
             savePolls(currentPolls);
           }
-          // Remove query from URL without reloading
           url.searchParams.delete('poll_share');
           window.history.replaceState({}, '', url.toString());
         }
@@ -638,16 +917,29 @@ const T = {
 
   // --- UI Update Functions ---
   function updateUI() {
+    const isAuthed = isMemberAuthed();
     const nick = getPlayerNick();
+
     const loginScreen = document.getElementById('gh-login-screen');
     const mainContent = document.getElementById('gh-main-content');
     const memberBar = document.getElementById('gh-member-bar');
     const currentNickEl = document.getElementById('gh-current-nick');
+    const passGroup = document.getElementById('gh-group-pass');
+    const passInput = document.getElementById('gh-input-pass') as HTMLInputElement | null;
 
-    if (!nick) {
+    if (!isAuthed || !nick) {
       loginScreen?.classList.remove('hidden');
       mainContent?.classList.add('hidden');
       memberBar?.classList.add('hidden');
+
+      if (isAuthed) {
+        // Already verified password earlier, only nick is needed
+        if (passGroup) passGroup.classList.add('hidden');
+        if (passInput) passInput.required = false;
+      } else {
+        if (passGroup) passGroup.classList.remove('hidden');
+        if (passInput) passInput.required = true;
+      }
     } else {
       loginScreen?.classList.add('hidden');
       mainContent?.classList.remove('hidden');
@@ -655,6 +947,23 @@ const T = {
       if (currentNickEl) currentNickEl.textContent = nick;
 
       renderPollsList();
+      renderDirective();
+    }
+  }
+
+  function renderDirective() {
+    const card = document.getElementById('gh-directive-card');
+    const textEl = document.getElementById('gh-directive-text');
+    const timeEl = document.getElementById('gh-directive-time');
+    const saved = localStorage.getItem(STORAGE_DIRECTIVE);
+    const savedTime = localStorage.getItem(STORAGE_DIRECTIVE_TIME);
+
+    if (saved && saved.trim()) {
+      if (card) card.classList.remove('hidden');
+      if (textEl) textEl.textContent = saved;
+      if (timeEl && savedTime) timeEl.textContent = `Обновлено: ${savedTime}`;
+    } else {
+      if (card) card.classList.add('hidden');
     }
   }
 
@@ -730,7 +1039,6 @@ const T = {
                     // Results Mode with Progress Bar
                     return `
                       <div class="relative overflow-hidden rounded-xl border ${userVotedThis ? 'border-toxic-500/50 bg-stone-950/80 shadow-[0_0_15px_rgba(180,255,57,0.08)]' : 'border-stone-800 bg-stone-950/50'} p-3.5 transition-all">
-                        <!-- Progress fill bar -->
                         <div class="absolute inset-y-0 left-0 bg-gradient-to-r ${userVotedThis ? 'from-toxic-500/20 to-plague-500/20' : 'from-stone-800/60 to-stone-800/30'} pointer-events-none transition-all duration-500" style="width: ${pct}%"></div>
 
                         <div class="relative flex items-center justify-between gap-3 text-sm">
@@ -838,17 +1146,14 @@ const T = {
         }
 
         const selectedOptionIds = selectedInputs.map((i) => i.value);
-
         const polls = loadPolls();
         const poll = polls.find((p) => p.id === pollId);
         if (!poll) return;
 
-        // Remove previous votes from this user in this poll if any
         poll.options.forEach((opt) => {
           opt.voters = opt.voters.filter((v) => v !== currentNick);
         });
 
-        // Add user vote to selected options
         poll.options.forEach((opt) => {
           if (selectedOptionIds.includes(opt.id)) {
             if (!opt.voters.includes(currentNick)) {
@@ -874,7 +1179,6 @@ const T = {
         const poll = polls.find((p) => p.id === pollId);
         if (!poll) return;
 
-        // Clear user's vote
         poll.options.forEach((opt) => {
           opt.voters = opt.voters.filter((v) => v !== currentNick);
         });
@@ -913,11 +1217,11 @@ const T = {
       });
     });
 
-    // 5. Share Poll Link (encode to query parameter)
+    // 5. Share Poll link
     document.querySelectorAll('.btn-share-poll').forEach((btn) => {
       btn.addEventListener('click', async (e) => {
-        const target = e.currentTarget as HTMLButtonElement;
-        const pollId = target.dataset.pollId;
+        const targetBtn = e.currentTarget as HTMLButtonElement;
+        const pollId = targetBtn.dataset.pollId;
         if (!pollId) return;
 
         const polls = loadPolls();
@@ -925,23 +1229,29 @@ const T = {
         if (!poll) return;
 
         try {
-          const encoded = btoa(encodeURIComponent(JSON.stringify(poll)));
-          const shareUrl = `${window.location.origin}${window.location.pathname}?poll_share=${encoded}`;
-          await navigator.clipboard.writeText(shareUrl);
-          const orig = target.innerHTML;
-          target.innerHTML = '✓ Скопировано!';
+          const pollJson = JSON.stringify(poll);
+          const b64 = btoa(encodeURIComponent(pollJson));
+          const url = new URL(window.location.href);
+          url.searchParams.set('poll_share', b64);
+
+          await navigator.clipboard.writeText(url.toString());
+          const originalText = targetBtn.innerHTML;
+          targetBtn.innerHTML = '✓ Скопировано!';
+          targetBtn.classList.add('text-toxic-300', 'border-toxic-500/50');
           setTimeout(() => {
-            target.innerHTML = orig;
+            targetBtn.innerHTML = originalText;
+            targetBtn.classList.remove('text-toxic-300', 'border-toxic-500/50');
           }, 2000);
         } catch (err) {
-          console.error('Error copying share link:', err);
+          prompt('Скопируйте ссылку на голосование:', window.location.href);
         }
       });
     });
   }
 
-  // --- Dynamic Option Inputs for Create Form ---
+  // --- Dynamic Option Inputs for Poll Creation ---
   let optionCount = 3;
+
   function renderCreateOptions() {
     const container = document.getElementById('gh-options-container');
     if (!container) return;
@@ -950,16 +1260,17 @@ const T = {
     for (let i = 1; i <= optionCount; i++) {
       html += `
         <div class="flex items-center gap-2">
+          <span class="text-xs font-mono text-stone-500 w-5 text-right">${i}.</span>
           <input
             type="text"
-            name="optionText"
             required
-            placeholder="Вариант ${i}"
-            class="flex-1 rounded-xl border border-stone-700 bg-stone-900 px-4 py-2 text-sm text-stone-100 placeholder-stone-600 outline-none focus:border-toxic-400"
+            name="option_${i}"
+            placeholder="Вариант ответа ${i}"
+            class="flex-1 rounded-xl border border-stone-700 bg-stone-900 px-3.5 py-2 text-sm text-stone-100 placeholder-stone-600 outline-none focus:border-toxic-400"
           />
           ${
             optionCount > 2
-              ? `<button type="button" class="btn-remove-option text-stone-500 hover:text-red-400 p-2 text-sm cursor-pointer" data-idx="${i}" title="Удалить вариант">✕</button>`
+              ? `<button type="button" class="btn-remove-option text-stone-500 hover:text-red-400 text-sm px-2 py-1" data-index="${i}">✕</button>`
               : ''
           }
         </div>
@@ -967,7 +1278,6 @@ const T = {
     }
     container.innerHTML = html;
 
-    // Attach remove handlers
     container.querySelectorAll('.btn-remove-option').forEach((btn) => {
       btn.addEventListener('click', () => {
         if (optionCount > 2) {
@@ -978,135 +1288,327 @@ const T = {
     });
   }
 
-  // --- Initialize Page Events ---
+  // --- DOM Initialization ---
   document.addEventListener('DOMContentLoaded', () => {
-    // 1. Initial UI check
-    updateUI();
-    renderCreateOptions();
+    // 0. Auto-auth check from URL query (?pass=... or ?key=...)
+    try {
+      const urlParams = new URLSearchParams(window.location.search);
+      const urlPass = urlParams.get('pass') || urlParams.get('key');
+      if (urlPass && urlPass.trim() === getAlliancePassword()) {
+        setMemberAuthed(true);
+      }
+      if (urlParams.get('admin') === '1') {
+        openAdminModal();
+      }
+    } catch (e) {
+      console.warn('URL params parse error:', e);
+    }
 
-    // 2. Login Form
+    updateUI();
+
+    // 1. Password Toggle Visibility
+    const passInput = document.getElementById('gh-input-pass') as HTMLInputElement | null;
+    const togglePassBtn = document.getElementById('gh-toggle-pwd-btn');
+    togglePassBtn?.addEventListener('click', () => {
+      if (!passInput) return;
+      if (passInput.type === 'password') {
+        passInput.type = 'text';
+        togglePassBtn.textContent = '🙈 Скрыть';
+      } else {
+        passInput.type = 'password';
+        togglePassBtn.textContent = '👁️ Показать';
+      }
+    });
+
+    // 2. Login Form Submit
     const loginForm = document.getElementById('gh-login-form');
+    const loginError = document.getElementById('gh-login-error');
+
     loginForm?.addEventListener('submit', (e) => {
       e.preventDefault();
-      const input = document.getElementById('gh-input-nick') as HTMLInputElement;
-      const err = document.getElementById('gh-login-error');
-      const val = input.value.trim();
+      loginError?.classList.add('hidden');
 
-      if (val.length < 2) {
-        if (err) {
-          err.textContent = 'Никнейм должен содержать не менее 2 символов.';
-          err.classList.remove('hidden');
+      const passVal = passInput ? passInput.value.trim() : '';
+      const nickInput = document.getElementById('gh-input-nick') as HTMLInputElement | null;
+      const nickVal = nickInput ? nickInput.value.trim() : '';
+
+      // Check Password if member is not yet authed
+      if (!isMemberAuthed()) {
+        const requiredPass = getAlliancePassword();
+        if (passVal !== requiredPass) {
+          if (loginError) {
+            loginError.textContent = '⚠️ Неверный пароль альянса. Обратитесь к офицерам за актуальным паролем.';
+            loginError.classList.remove('hidden');
+          }
+          return;
+        }
+        setMemberAuthed(true);
+      }
+
+      if (!nickVal) {
+        if (loginError) {
+          loginError.textContent = '⚠️ Укажите игровой никнейм.';
+          loginError.classList.remove('hidden');
         }
         return;
       }
 
-      setPlayerNick(val);
+      setPlayerNick(nickVal);
       updateUI();
     });
 
-    // 3. Logout & Change Nick
+    // 3. Member Logout & Change Nick
     document.getElementById('gh-btn-logout')?.addEventListener('click', () => {
-      clearPlayerNick();
-      updateUI();
-    });
-
-    document.getElementById('gh-btn-change-nick')?.addEventListener('click', () => {
-      const current = getPlayerNick() || '';
-      const newNick = prompt('Введите новый игровой никнейм:', current);
-      if (newNick && newNick.trim().length >= 2) {
-        setPlayerNick(newNick.trim());
+      if (confirm('Выйти из закрытого сектора штаба?')) {
+        setMemberAuthed(false);
+        clearPlayerNick();
         updateUI();
       }
     });
 
-    // 4. Tabs Switching
-    const tabPollsBtn = document.getElementById('gh-tab-btn-polls');
-    const tabIntelBtn = document.getElementById('gh-tab-btn-intel');
-    const tabPollsView = document.getElementById('gh-tab-view-polls');
-    const tabIntelView = document.getElementById('gh-tab-view-intel');
-
-    tabPollsBtn?.addEventListener('click', () => {
-      tabPollsBtn.classList.add('border-toxic-400', 'text-white');
-      tabPollsBtn.classList.remove('border-transparent', 'text-stone-400');
-      tabIntelBtn?.classList.remove('border-toxic-400', 'text-white');
-      tabIntelBtn?.classList.add('border-transparent', 'text-stone-400');
-
-      tabPollsView?.classList.remove('hidden');
-      tabIntelView?.classList.add('hidden');
+    document.getElementById('gh-btn-change-nick')?.addEventListener('click', () => {
+      const current = getPlayerNick() || '';
+      const next = prompt('Введите новый игровой никнейм:', current);
+      if (next && next.trim() && next.trim() !== current) {
+        setPlayerNick(next.trim());
+        updateUI();
+      }
     });
 
-    tabIntelBtn?.addEventListener('click', () => {
-      tabIntelBtn.classList.add('border-toxic-400', 'text-white');
-      tabIntelBtn.classList.remove('border-transparent', 'text-stone-400');
-      tabPollsBtn?.classList.remove('border-toxic-400', 'text-white');
-      tabPollsBtn?.classList.add('border-transparent', 'text-stone-400');
+    // 4. Admin Modal Controls
+    function openAdminModal() {
+      const modal = document.getElementById('gh-admin-modal');
+      const loginView = document.getElementById('gh-admin-login-view');
+      const dashView = document.getElementById('gh-admin-dashboard');
 
-      tabIntelView?.classList.remove('hidden');
-      tabPollsView?.classList.add('hidden');
+      modal?.classList.remove('hidden');
+
+      if (isAdminAuthed) {
+        loginView?.classList.add('hidden');
+        dashView?.classList.remove('hidden');
+        populateAdminDashboard();
+      } else {
+        loginView?.classList.remove('hidden');
+        dashView?.classList.add('hidden');
+      }
+    }
+
+    function closeAdminModal() {
+      document.getElementById('gh-admin-modal')?.classList.add('hidden');
+    }
+
+    function populateAdminDashboard() {
+      const curPassEl = document.getElementById('gh-admin-cur-pass-display');
+      if (curPassEl) curPassEl.textContent = getAlliancePassword();
+
+      const directiveInput = document.getElementById('gh-admin-directive-input') as HTMLTextAreaElement | null;
+      if (directiveInput) {
+        directiveInput.value = localStorage.getItem(STORAGE_DIRECTIVE) || '';
+      }
+    }
+
+    document.getElementById('gh-btn-open-admin-from-bar')?.addEventListener('click', openAdminModal);
+    document.getElementById('gh-btn-open-admin-from-login')?.addEventListener('click', openAdminModal);
+    document.getElementById('gh-btn-close-admin-modal')?.addEventListener('click', closeAdminModal);
+    document.getElementById('gh-admin-btn-close-dash')?.addEventListener('click', closeAdminModal);
+
+    // Admin Login Form
+    document.getElementById('gh-admin-login-form')?.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const input = document.getElementById('gh-admin-master-input') as HTMLInputElement | null;
+      const err = document.getElementById('gh-admin-login-error');
+      err?.classList.add('hidden');
+
+      const passVal = input ? input.value.trim() : '';
+      if (passVal === getAdminPassword()) {
+        isAdminAuthed = true;
+        if (input) input.value = '';
+        document.getElementById('gh-admin-login-view')?.classList.add('hidden');
+        document.getElementById('gh-admin-dashboard')?.classList.remove('hidden');
+        populateAdminDashboard();
+      } else {
+        if (err) {
+          err.textContent = '⚠️ Неверный мастер-пароль администратора.';
+          err.classList.remove('hidden');
+        }
+      }
     });
 
-    // 5. Create Poll Modal Controls
+    // Admin Save New Member Password
+    document.getElementById('gh-admin-btn-save-member-pass')?.addEventListener('click', () => {
+      const input = document.getElementById('gh-admin-new-member-pass') as HTMLInputElement | null;
+      const val = input ? input.value.trim() : '';
+      if (!val) {
+        alert('Введите новый пароль!');
+        return;
+      }
+      setAlliancePassword(val);
+      populateAdminDashboard();
+      if (input) input.value = '';
+      alert('✓ Новый пароль альянса сохранен!');
+    });
+
+    // Admin Copy Share Link
+    document.getElementById('gh-admin-btn-copy-invite')?.addEventListener('click', async (e) => {
+      const btn = e.currentTarget as HTMLButtonElement;
+      const currentPass = getAlliancePassword();
+      const url = new URL(window.location.href);
+      url.searchParams.set('pass', currentPass);
+      url.searchParams.delete('admin');
+
+      try {
+        await navigator.clipboard.writeText(url.toString());
+        const orig = btn.innerHTML;
+        btn.innerHTML = '✓ Ссылка скопирована!';
+        btn.classList.add('text-toxic-300', 'border-toxic-400');
+        setTimeout(() => {
+          btn.innerHTML = orig;
+          btn.classList.remove('text-toxic-300', 'border-toxic-400');
+        }, 2500);
+      } catch {
+        prompt('Скопируйте ссылку с паролем для соклановцев:', url.toString());
+      }
+    });
+
+    // Admin Save New Master Password
+    document.getElementById('gh-admin-btn-save-master-pass')?.addEventListener('click', () => {
+      const input = document.getElementById('gh-admin-new-master-pass') as HTMLInputElement | null;
+      const val = input ? input.value.trim() : '';
+      if (!val || val.length < 4) {
+        alert('Мастер-пароль должен быть не менее 4 символов!');
+        return;
+      }
+      setAdminPassword(val);
+      if (input) input.value = '';
+      alert('✓ Мастер-пароль администратора обновлен!');
+    });
+
+    // Admin Save Directive
+    document.getElementById('gh-admin-btn-save-directive')?.addEventListener('click', () => {
+      const input = document.getElementById('gh-admin-directive-input') as HTMLTextAreaElement | null;
+      const val = input ? input.value.trim() : '';
+      const now = new Date().toLocaleString();
+      localStorage.setItem(STORAGE_DIRECTIVE, val);
+      localStorage.setItem(STORAGE_DIRECTIVE_TIME, now);
+      renderDirective();
+      alert('✓ Директива опубликована для всех участников!');
+    });
+
+    document.getElementById('gh-admin-btn-clear-directive')?.addEventListener('click', () => {
+      if (confirm('Очистить оперативную директиву?')) {
+        localStorage.removeItem(STORAGE_DIRECTIVE);
+        localStorage.removeItem(STORAGE_DIRECTIVE_TIME);
+        const input = document.getElementById('gh-admin-directive-input') as HTMLTextAreaElement | null;
+        if (input) input.value = '';
+        renderDirective();
+      }
+    });
+
+    // Admin Logout
+    document.getElementById('gh-admin-btn-logout')?.addEventListener('click', () => {
+      isAdminAuthed = false;
+      document.getElementById('gh-admin-dashboard')?.classList.add('hidden');
+      document.getElementById('gh-admin-login-view')?.classList.remove('hidden');
+    });
+
+    // 5. Tabs switching
+    const tabBtnPolls = document.getElementById('gh-tab-btn-polls');
+    const tabBtnIntel = document.getElementById('gh-tab-btn-intel');
+    const tabViewPolls = document.getElementById('gh-tab-view-polls');
+    const tabViewIntel = document.getElementById('gh-tab-view-intel');
+
+    tabBtnPolls?.addEventListener('click', () => {
+      tabBtnPolls.classList.add('border-toxic-400', 'text-white', 'font-bold');
+      tabBtnPolls.classList.remove('border-transparent', 'text-stone-400');
+      tabBtnIntel?.classList.remove('border-toxic-400', 'text-white', 'font-bold');
+      tabBtnIntel?.classList.add('border-transparent', 'text-stone-400');
+
+      tabViewPolls?.classList.remove('hidden');
+      tabViewIntel?.classList.add('hidden');
+    });
+
+    tabBtnIntel?.addEventListener('click', () => {
+      tabBtnIntel.classList.add('border-toxic-400', 'text-white', 'font-bold');
+      tabBtnIntel.classList.remove('border-transparent', 'text-stone-400');
+      tabBtnPolls?.classList.remove('border-toxic-400', 'text-white', 'font-bold');
+      tabBtnPolls?.classList.add('border-transparent', 'text-stone-400');
+
+      tabViewIntel?.classList.remove('hidden');
+      tabViewPolls?.classList.add('hidden');
+      renderDirective();
+    });
+
+    // 6. Create Poll Modal
     const createModal = document.getElementById('gh-create-poll-modal');
-    document.getElementById('gh-btn-open-create')?.addEventListener('click', () => {
+    const openCreateBtn = document.getElementById('gh-btn-open-create');
+    const closeCreateBtn = document.getElementById('gh-btn-close-create');
+    const cancelCreateBtn = document.getElementById('gh-btn-cancel-create');
+    const addOptionBtn = document.getElementById('gh-btn-add-option');
+
+    openCreateBtn?.addEventListener('click', () => {
+      renderCreateOptions();
       createModal?.classList.remove('hidden');
       createModal?.scrollIntoView({ behavior: 'smooth' });
     });
 
-    document.getElementById('gh-btn-close-create')?.addEventListener('click', () => {
-      createModal?.classList.add('hidden');
-    });
+    closeCreateBtn?.addEventListener('click', () => createModal?.classList.add('hidden'));
+    cancelCreateBtn?.addEventListener('click', () => createModal?.classList.add('hidden'));
 
-    document.getElementById('gh-btn-cancel-create')?.addEventListener('click', () => {
-      createModal?.classList.add('hidden');
-    });
-
-    document.getElementById('gh-btn-add-option')?.addEventListener('click', () => {
-      if (optionCount < 8) {
+    addOptionBtn?.addEventListener('click', () => {
+      if (optionCount < 10) {
         optionCount++;
         renderCreateOptions();
       } else {
-        alert('Максимум 8 вариантов ответов.');
+        alert('Максимум 10 вариантов ответа!');
       }
     });
 
-    // 6. Create Poll Submit
-    document.getElementById('gh-create-poll-form')?.addEventListener('submit', (e) => {
+    const createForm = document.getElementById('gh-create-poll-form') as HTMLFormElement | null;
+    createForm?.addEventListener('submit', (e) => {
       e.preventDefault();
-      const questionEl = document.getElementById('gh-poll-question') as HTMLInputElement;
-      const descEl = document.getElementById('gh-poll-desc') as HTMLTextAreaElement;
-      const typeEl = document.querySelector('input[name="pollType"]:checked') as HTMLInputElement;
-      const showVotersEl = document.getElementById('gh-poll-show-voters') as HTMLInputElement;
-      const optionInputs = Array.from(document.querySelectorAll('input[name="optionText"]')) as HTMLInputElement[];
 
-      const question = questionEl?.value.trim();
-      const desc = descEl?.value.trim() || '';
-      const pollType = (typeEl?.value === 'multiple' ? 'multiple' : 'single') as 'single' | 'multiple';
-      const showVoters = showVotersEl?.checked ?? true;
+      const questionEl = document.getElementById('gh-poll-question') as HTMLInputElement | null;
+      const descEl = document.getElementById('gh-poll-desc') as HTMLTextAreaElement | null;
+      const showVotersEl = document.getElementById('gh-poll-show-voters') as HTMLInputElement | null;
+      const pollTypeEl = document.querySelector('input[name="pollType"]:checked') as HTMLInputElement | null;
 
-      const options: PollOption[] = optionInputs
-        .map((opt, idx) => ({
-          id: `opt_${Date.now()}_${idx}`,
-          text: opt.value.trim(),
-          voters: [],
-        }))
-        .filter((o) => o.text.length > 0);
+      const question = questionEl ? questionEl.value.trim() : '';
+      const description = descEl ? descEl.value.trim() : '';
+      const showVoters = showVotersEl ? showVotersEl.checked : true;
+      const type = (pollTypeEl ? pollTypeEl.value : 'single') as 'single' | 'multiple';
 
-      if (!question || options.length < 2) {
-        alert('Пожалуйста, заполните вопрос и как минимум 2 варианта ответов.');
+      if (!question) {
+        alert('Укажите вопрос голосования!');
         return;
       }
 
-      const author = getPlayerNick() || 'Соклановец';
-      const now = new Date();
-      const dateStr = now.toISOString().split('T')[0];
+      const options: PollOption[] = [];
+      const optionInputs = document.querySelectorAll('#gh-options-container input[type="text"]') as NodeListOf<HTMLInputElement>;
+      optionInputs.forEach((inp, idx) => {
+        const text = inp.value.trim();
+        if (text) {
+          options.push({
+            id: `opt_${Date.now()}_${idx}`,
+            text,
+            voters: [],
+          });
+        }
+      });
+
+      if (options.length < 2) {
+        alert('Нужно указать как минимум 2 варианта ответа!');
+        return;
+      }
+
+      const currentNick = getPlayerNick() || 'Anonymous';
 
       const newPoll: GuildPoll = {
         id: `poll_${Date.now()}`,
         question,
-        description: desc,
-        author,
-        createdAt: dateStr,
-        type: pollType,
+        description,
+        author: currentNick,
+        createdAt: new Date().toISOString().split('T')[0],
+        type,
         showVoters,
         status: 'active',
         options,
@@ -1116,7 +1618,6 @@ const T = {
       polls.unshift(newPoll);
       savePolls(polls);
 
-      // Reset form
       questionEl.value = '';
       descEl.value = '';
       optionCount = 3;
@@ -1172,7 +1673,7 @@ const T = {
       input.click();
     });
 
-    // 8. AES-GCM Intel Decryption (Existing WebCrypto logic)
+    // 8. AES-GCM Intel Decryption (WebCrypto)
     async function deriveKey(pass: string, salt: Uint8Array): Promise<CryptoKey> {
       const enc = new TextEncoder();
       const base = await crypto.subtle.importKey('raw', enc.encode(pass), 'PBKDF2', false, ['deriveKey']);
@@ -1246,8 +1747,11 @@ const T = {
       if (e.key === STORAGE_POLLS) {
         renderPollsList();
       }
-      if (e.key === STORAGE_NICK) {
+      if (e.key === STORAGE_NICK || e.key === STORAGE_MEMBER_AUTH) {
         updateUI();
+      }
+      if (e.key === STORAGE_DIRECTIVE) {
+        renderDirective();
       }
     });
   });
