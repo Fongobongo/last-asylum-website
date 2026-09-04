@@ -13,13 +13,15 @@ const labels =
         copy: 'Копировать',
         copied: '✓ Скопировано',
         expired: 'Архивные коды (вероятно, истекли)',
-        webTitle: 'Активация через сайт (iOS и Android):',
+        webTitle: 'Активация через сайт (для iPhone / iOS и Android):',
+        iosTip: 'Инструкция для iPhone (iOS): в самом приложении на iOS нет кнопки ввода кода из-за правил Apple. Откройте официальную веб-страницу активации по ссылке выше, войдите в привязанный аккаунт, выберите свой сервер и персонажа, введите код — награды сразу поступят на игровую почту.',
       }
     : {
         copy: 'Copy',
         copied: '✓ Copied',
         expired: 'Older codes (probably expired)',
-        webTitle: 'Web redemption (iOS & Android):',
+        webTitle: 'Web redemption (for iPhone / iOS & Android):',
+        iosTip: 'iPhone / iOS guide: There is no in-app promo code button on iOS devices due to Apple policy. Open the official web redemption page above, sign in with your linked account, select your server and character, submit the code, and claim rewards via your in-game mailbox.',
       };
 ---
 
@@ -80,6 +82,9 @@ const labels =
       <a href={REDEEM_URL} target="_blank" rel="noopener noreferrer" class="text-toxic-400 hover:text-toxic-300 underline font-mono text-xs break-all transition">
         {REDEEM_URL} ↗
       </a>
+    </p>
+    <p class="mt-2 text-xs leading-relaxed text-stone-400 border-t border-stone-800/80 pt-2">
+      📱 {labels.iosTip}
     </p>
   </div>
 </div>

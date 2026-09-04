@@ -8,7 +8,7 @@ import type { Lang } from '../i18n/utils';
 const lang: Lang = 'en';
 ---
 
-<Base lang={lang} path="/codes/" title="Gift Codes" description="Active and historical gift codes for Last Asylum: Plague — updated after every official drop.">
+<Base lang={lang} path="/codes/" title="Gift Codes" description="Active and working gift codes for Last Asylum: Plague.">
   <GuidePage title={`🎁 ${t(lang, 'codes.title')}`} description={t(lang, 'codes.desc')} lang={lang}>
     <h2 id="latest-codes">{t(lang, 'codes.active')}</h2>
     <GiftCodes lang={lang} />
@@ -18,6 +18,6 @@ const lang: Lang = 'en';
     <p>{t(lang, 'codes.redeem.ios')}</p>
 
     <h2 id="notes">{t(lang, 'codes.note')}</h2>
-    <p>Codes are region-free but usually one-per-account. Most drop on official Discord first — this page is updated after each drop.</p>
+    <p>Codes are region-free but usually one-per-account.</p>
   </GuidePage>
 </Base>

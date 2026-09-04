@@ -5,7 +5,7 @@ lang: en
 updated: "2026-09-03"
 ---
 
-Compiled from the squad-composition guides, boss-fight breakdowns and PvP threads in the official Discord. Tiers reflect **overall account value** — not raw stats.
+Compiled from squad-composition guides, boss-fight breakdowns and PvP testing by experienced players. Tiers reflect **overall account value** — not raw stats.
 
 ## S tier {#s-tier}
 

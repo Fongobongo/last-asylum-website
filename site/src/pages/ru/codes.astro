@@ -8,7 +8,7 @@ import type { Lang } from '../../i18n/utils';
 const lang: Lang = 'ru';
 ---
 
-<Base lang={lang} path="/codes/" title="Промокоды" description="Активные и архивные промокоды для Last Asylum: Plague — обновляется после каждого официального дропа.">
+<Base lang={lang} path="/codes/" title="Промокоды" description="Актуальные рабочие промокоды для Last Asylum: Plague.">
   <GuidePage title={`🎁 ${t(lang, 'codes.title')}`} description={t(lang, 'codes.desc')} lang={lang}>
     <h2 id="latest-codes">{t(lang, 'codes.active')}</h2>
     <GiftCodes lang={lang} />
@@ -18,6 +18,6 @@ const lang: Lang = 'ru';
     <p>{t(lang, 'codes.redeem.ios')}</p>
 
     <h2 id="notes">{t(lang, 'codes.note')}</h2>
-    <p>Коды не привязаны к региону, но обычно одноразовые на аккаунт. Большинство появляется сначала в официальном Discord — страница обновляется после каждого дропа.</p>
+    <p>Коды не привязаны к региону, но обычно одноразовые на один игровой аккаунт.</p>
   </GuidePage>
 </Base>

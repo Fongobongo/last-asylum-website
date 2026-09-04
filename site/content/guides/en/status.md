@@ -1,6 +1,6 @@
 ---
 title: "🛡️ Server Status & Known Issues"
-description: "Summarized from the official #status-update channel. For live updates join the official Discord."
+description: "Summary of server status, known issues and compensation notices."
 lang: en
 updated: "2026-09-03"
 ---

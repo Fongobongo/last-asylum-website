@@ -9,7 +9,7 @@ calculators: ["cynthia-wheel"]
 
 Last Asylum: Plague rewards one thing above everything else: focus. Between construction timers, hero banners, events and alliance chores it is very easy to stay busy for two weeks and still end up weaker than someone who played three days correctly.
 
-This guide compresses the community consensus from the official Discord into a day-one playbook: what to do in the first 24 hours, when every important hero unlocks, how might and factions actually work, and the five mistakes that ruin new accounts.
+This guide compresses community expertise and tested strategy into a day-one playbook: what to do in the first 24 hours, when every important hero unlocks, how might and factions actually work, and the five mistakes that ruin new accounts.
 
 ## First 24 Hours: The Checklist {#first-24-hours}
 
