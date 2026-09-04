@@ -1,0 +1,47 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ko';
+---
+
+<Base lang={lang} path="/ko/tips/" title="숨겨진 핵심 기믹, 프로 팁 및 공략 비법" description="Last Asylum: Plague 필수 숨은 기믹 백과사전 — 건설 버프 스냅샷, 고스트 집결을 통한 병력 보호, 병원 과부하 즉사 메커니즘, 클레어 UR 변환 주의점 및 다이아 절약 비법.">
+  <GuidePage title="🧠 숨겨진 핵심 기믹, 프로 팁 및 공략 비법" description="Last Asylum: Plague 필수 숨은 기믹 백과사전 — 건설 버프 스냅샷, 고스트 집결을 통한 병력 보호, 병원 과부하 즉사 메커니즘, 클레어 UR 변환 주의점 및 다이아 절약 비법." lang={lang}>
+    <p>단순한 기지 건설 게임처럼 보이지만, Last Asylum: Plague의 이면에는 게임 내에서 직접 알려주지 않는 수많은 공식과 숨겨진 메커니즘이 존재합니다.</p>
+    <p>이러한 핵심 기믹을 숙지한 지휘관은 일반 유저보다 2~3배 빠르게 성장하며, 기습 공격에도 병력을 잃지 않고 전투력이 30~50% 높은 적도 격파할 수 있습니다.</p>
+
+    <h2 id="snapshotting">1. 건설 속도 버프 스냅샷(Snap-shotting) 원리</h2>
+    <div class="rounded-xl border border-toxic-500/30 bg-toxic-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-toxic-300">⚡ Snapshot Rule</p>
+      <p class="text-xs text-stone-300 mt-1">모든 건설 및 연구 속도 버프는 【업그레이드 시작 버튼을 누르는 바로 그 순간】에만 계산됩니다. 타이머가 시작된 후 활성화한 버프는 진행 중인 시간에 전혀 반영되지 않습니다!</p>
+    </div>
+
+    <h2 id="ghost-rally">2. 병원 수용량 초과 즉사 및 고스트 집결(Ghost Rally) 방어</h2>
+    <div class="rounded-xl border border-red-500/30 bg-red-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-red-300">🛡️ Ghost Rally Protocol</p>
+      <p class="text-xs text-stone-300 mt-1">병원이 100% 차면 추가 부상병은 영구 사망(삭제) 처리됩니다. 평화의 방패가 없을 때 강력한 적이 오면 먼 목표물에 8시간 집결을 걸어 부대를 숨기세요. 집결 대기 중인 부대는 완전 무적입니다!</p>
+    </div>
+
+    <h2 id="falcon-tower">3. 매의 탑: Stacking Max − 1 스폰 유지 법칙</h2>
+    <p>퀘스트 판이 가득 차면(8/8) 새로운 퀘스트 생성 타이머가 멈춥니다. 항상 1칸을 비워두고(7/8), 월/수/금 결전 이벤트 날에 모아서 일괄 수령하세요.</p>
+
+    <h2 id="warehouse-secrets">4. 가방 자원 보호 및 창고 한도 주의사항</h2>
+    <p>인벤토리의 자원 상자를 미리 열어두지 마세요! 가방 안의 자원은 정찰에 탐지되지 않으며 약탈당하지 않습니다. 업그레이드 직전에 필요한 만큼만 개봉하세요.</p>
+
+    <h2 id="troop-promotion">5. 신규 훈련 대신 병력 승급(Promote) 적극 활용</h2>
+    <p>상위 티어(T8/T9) 해금 시 처음부터 훈련하지 말고, 기존 T7 병력을 승급시키면 훈련 시간과 자원을 70% 이상 절약할 수 있습니다.</p>
+
+    <h2 id="claire-conversion">6. 클레어 SSR→UR 변환 함정과 극복법</h2>
+    <p>6★ UR 변환 직후 팀 전체 버프가 16%에서 10%로 일시 하락합니다. 명예의 전당 코인을 미리 모아 9★ 또는 10★까지 즉시 올릴 준비를 마친 후 변환하세요.</p>
+
+    <h2 id="pre-farming">7. 연맹 결전 목요일 자원 사전 채집(Pre-Farming)</h2>
+    <p>채집 포인트는 채굴 중이 아니라 【부대가 성으로 복귀하는 순간】 정산됩니다. 목요일 리셋 4~5시간 전에 최고 레벨 타일로 출격시켜 00:05에 복귀시키면 즉시 수백만 포인트를 획득합니다.</p>
+
+    <VideoSection topic="beginner" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

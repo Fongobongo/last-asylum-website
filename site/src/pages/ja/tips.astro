@@ -1,0 +1,47 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ja';
+---
+
+<Base lang={lang} path="/ja/tips/" title="裏ワザ・隠し仕様・上級者テクニック集" description="Last Asylum: Plagueの知られざる隠し仕様完全解説 — 建設バフのスナップショット、ゴースト集結による部隊保護、病院オーバーフロー死、クレアSSR→UR変換の罠、資源タイルの事前採取テクニック。">
+  <GuidePage title="🧠 裏ワザ・隠し仕様・上級者テクニック集" description="Last Asylum: Plagueの知られざる隠し仕様完全解説 — 建設バフのスナップショット、ゴースト集結による部隊保護、病院オーバーフロー死、クレアSSR→UR変換の罠、資源タイルの事前採取テクニック。" lang={lang}>
+    <p>一見シンプルに見える街づくり・戦略RPGですが、Last Asylum: Plagueにはゲーム内で説明されない高度な隠し計算ルールが多数存在します。</p>
+    <p>これらの仕様を理解しているプレイヤーは通常の2〜3倍の速度で成長し、夜間の奇襲でも兵士を失わず、戦力（Might）が30〜50%上の相手にも勝利できます。</p>
+
+    <h2 id="snapshotting">1. 建設バフのスナップショット仕様と時間計算</h2>
+    <div class="rounded-xl border border-toxic-500/30 bg-toxic-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-toxic-300">⚡ Snapshot Rule</p>
+      <p class="text-xs text-stone-300 mt-1">すべての建設速度バフ（装備、称号、ルーン、同盟研究）は【アップグレード開始ボタンを押した瞬間】にのみ判定されます。開始後にバフを発動しても残り時間は短縮されません！</p>
+    </div>
+
+    <h2 id="ghost-rally">2. 病院の収容上限死と「ゴースト集結（Ghost Rally）」</h2>
+    <div class="rounded-xl border border-red-500/30 bg-red-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-red-300">🛡️ Ghost Rally Protocol</p>
+      <p class="text-xs text-stone-300 mt-1">病院が100%満員になると、それ以降の負傷兵は【完全死亡（ロスト）】します。シールドがない緊急時は、遠くの敵へ「8時間集結（Rally）」を設定して兵を隠せば、集結中の兵士は100%無傷で保護されます！</p>
+    </div>
+
+    <h2 id="falcon-tower">3. ハヤブサの塔：Stacking Max − 1 ルール</h2>
+    <p>掲示板が満杯（8/8）になると新規クエスト生成タイマーが停止します。常に1枠空けて（7/8）おき、月・水・金の対決イベント日に一括受取して報酬を最大化しましょう。</p>
+
+    <h2 id="warehouse-secrets">4. バッグ内資源の保護と倉庫上限の罠</h2>
+    <p>バッグ内の資源パックを事前に開けてはいけません！インベントリ内の資源は敵の偵察に映らず、略奪も100%防げます。建設ボタンを押す直前に必要な分だけ開封してください。</p>
+
+    <h2 id="troop-promotion">5. 新規訓練ではなく「兵士昇格（Promote）」を活用</h2>
+    <p>上位ティア（T8/T9）解放時はゼロから訓練せず、旧兵士（T7）の「昇格」ボタンを使うことで、時間と資源を約70%節約できます。</p>
+
+    <h2 id="claire-conversion">6. クレア（SSR→UR）変換のステータス低下の罠</h2>
+    <p>6★UR変換直後はチーム全体バフが16%から10%に一時低下します。栄誉の殿堂コインを十分に貯め、一気に9★または10★まで育成できる準備をしてから変換しましょう。</p>
+
+    <h2 id="pre-farming">7. 同盟対決木曜日の資源事前採取（Pre-Farming）</h2>
+    <p>採取ポイントは採掘中ではなく「部隊が城に帰還した瞬間」に加算されます。木曜00:00 UTCのリセット4〜5時間前に高Lvタイルへ出撃させ、00:05に帰還させれば即座に数百万Ptを獲得できます。</p>
+
+    <VideoSection topic="beginner" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

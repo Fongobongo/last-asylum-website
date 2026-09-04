@@ -1,0 +1,47 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+
+<Base lang={lang} path="/id/tips/" title="Mekanisme Tersembunyi, Tips & Trik Rahasia" description="Ensiklopedia lengkap mekanisme tersembunyi Last Asylum: Plague — snapshotting buff pembangunan, taktik ghost rally, kapasitas rumah sakit, jebakan konversi Claire, dan strategi berlian.">
+  <GuidePage title="🧠 Mekanisme Tersembunyi, Tips & Trik Rahasia" description="Ensiklopedia lengkap mekanisme tersembunyi Last Asylum: Plague — snapshotting buff pembangunan, taktik ghost rally, kapasitas rumah sakit, jebakan konversi Claire, dan strategi berlian." lang={lang}>
+    <p>Banyak pemain mengira game ini sederhana: bangun markas, naikkan level hero, dan klik tombol. Namun di balik Last Asylum: Plague, terdapat sistem matematika mendalam yang tidak pernah dijelaskan game secara langsung.</p>
+    <p>Pemain yang memahami mekanisme ini berkembang 2 hingga 3 kali lebih cepat, tidak pernah kehilangan pasukan saat diserang mendadak, dan mampu mengalahkan musuh dengan Might 30–50% lebih tinggi.</p>
+
+    <h2 id="snapshotting">1. Snapshotting Buff & Perhitungan Waktu Bangunan</h2>
+    <div class="rounded-xl border border-toxic-500/30 bg-toxic-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-toxic-300">⚡ Snapshot Rule</p>
+      <p class="text-xs text-stone-300 mt-1">Semua buff kecepatan dihitung HANYA PADA SAAT ANDA MENEKAN TOMBOL UPGRADE. Buff yang diaktifkan setelah timer berjalan TIDAK AKAN memotong sisa waktu.</p>
+    </div>
+
+    <h2 id="ghost-rally">2. Bahaya Rumah Sakit Penuh & Taktik Ghost Rally</h2>
+    <div class="rounded-xl border border-red-500/30 bg-red-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-red-300">🛡️ Ghost Rally Protocol</p>
+      <p class="text-xs text-stone-300 mt-1">Jika kapasitas rumah sakit 100% penuh, setiap pasukan terluka berikutnya MATI PERMANEN. Jika diserang tanpa Peace Shield, sembunyikan pasukan dalam Rally 8 jam ke target jauh: pasukan dalam rally kebal serangan!</p>
+    </div>
+
+    <h2 id="falcon-tower">3. Rahasia Menara Falcon: Aturan Stacking Max − 1</h2>
+    <p>Papan misi yang penuh (8/8) menghentikan timer munculnya misi baru. Sisakan selalu 1 slot kosong (7/8) dan kumpulkan misi pada hari Senin, Rabu, dan Jumat.</p>
+
+    <h2 id="warehouse-secrets">4. Jebakan Membuka Tas Sumber Daya & Perlindungan Gudang</h2>
+    <p>JANGAN PERNAH membuka tas sumber daya sebelum waktunya! Sumber daya di tas tidak bisa dilihat pengintai dan tidak bisa dijarah musuh.</p>
+
+    <h2 id="troop-promotion">5. Promosi Pasukan daripada Melatih dari Nol</h2>
+    <p>Saat membuka tier pasukan baru (T8/T9), gunakan tombol Promosikan pada pasukan lama T7 untuk menghemat 70% waktu dan biaya.</p>
+
+    <h2 id="claire-conversion">6. Jebakan Konversi Claire (SSR ke UR)</h2>
+    <p>Pada 6★ UR, pasif tim Claire turun dari 16% menjadi 10%. Simpan koin Hall of Honor Anda agar bisa langsung menaikkannya ke 9★ atau 10★.</p>
+
+    <h2 id="pre-farming">7. Pre-Farming Sumber Daya untuk Duel Aliansi</h2>
+    <p>Poin gathering dihitung saat pasukan kembali ke pangkalan, bukan saat menambang. Kirim pasukan 4-5 jam sebelum reset hari Kamis untuk klaim poin instan.</p>
+
+    <VideoSection topic="beginner" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

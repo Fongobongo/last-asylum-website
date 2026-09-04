@@ -6,19 +6,20 @@ interface Props { lang: Lang; path: string; }
 const { lang, path } = Astro.props;
 const navItems: { key: any; href: string; num: string }[] = [
   { key: 'nav.beginners', href: 'beginners', num: '01' },
-  { key: 'nav.buildings', href: 'buildings', num: '02' },
-  { key: 'nav.heroes', href: 'heroes', num: '03' },
-  { key: 'nav.economy', href: 'economy', num: '04' },
-  { key: 'nav.raven', href: 'raven', num: '05' },
-  { key: 'nav.era', href: 'era', num: '06' },
-  { key: 'nav.events', href: 'events', num: '07' },
-  { key: 'nav.codes', href: 'codes', num: '08' },
-  { key: 'nav.gear', href: 'gear', num: '09' },
-  { key: 'nav.tierlist', href: 'tier-list', num: '10' },
-  { key: 'nav.codex', href: 'codex', num: '11' },
-  { key: 'nav.calendar', href: 'calendar', num: '12' },
-  { key: 'nav.patchnotes', href: 'patch-notes', num: '13' },
-  { key: 'nav.faq', href: 'faq', num: '14' },
+  { key: 'nav.tips', href: 'tips', num: '02' },
+  { key: 'nav.buildings', href: 'buildings', num: '03' },
+  { key: 'nav.heroes', href: 'heroes', num: '04' },
+  { key: 'nav.economy', href: 'economy', num: '05' },
+  { key: 'nav.raven', href: 'raven', num: '06' },
+  { key: 'nav.era', href: 'era', num: '07' },
+  { key: 'nav.events', href: 'events', num: '08' },
+  { key: 'nav.codes', href: 'codes', num: '09' },
+  { key: 'nav.gear', href: 'gear', num: '10' },
+  { key: 'nav.tierlist', href: 'tier-list', num: '11' },
+  { key: 'nav.codex', href: 'codex', num: '12' },
+  { key: 'nav.calendar', href: 'calendar', num: '13' },
+  { key: 'nav.patchnotes', href: 'patch-notes', num: '14' },
+  { key: 'nav.faq', href: 'faq', num: '15' },
 ];
 const cleanPath = path.replace(/^\/(en|ru|es|pt|fr|de|id|ko|ja)?\/?/, '/') || '/';
 const is404 = cleanPath === '/404/' || cleanPath.startsWith('/404');

@@ -1,0 +1,47 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'fr';
+---
+
+<Base lang={lang} path="/fr/tips/" title="Mécaniques Cachées, Astuces et Secrets" description="L’encyclopédie des mécaniques cachées de Last Asylum: Plague — snapshotting de construction, rallye fantôme, débordement d’hôpital, piège de conversion de Claire et gestion des diamants.">
+  <GuidePage title="🧠 Mécaniques Cachées, Astuces et Secrets" description="L’encyclopédie des mécaniques cachées de Last Asylum: Plague — snapshotting de construction, rallye fantôme, débordement d’hôpital, piège de conversion de Claire et gestion des diamants." lang={lang}>
+    <p>Les jeux de stratégie mobile semblent simples au premier abord : construire, monter les héros et appuyer sur les points rouges. Mais Last Asylum: Plague renferme des dizaines de règles mathématiques ignorées de la plupart des joueurs.</p>
+    <p>Ceux qui maîtrisent ces mécaniques progressent 2 à 3 fois plus vite, ne perdent jamais leurs troupes lors des raids nocturnes et battent des ennemis avec 30 à 50 % de Puissance supplémentaire.</p>
+
+    <h2 id="snapshotting">1. Snapshotting des Buffs de Construction</h2>
+    <div class="rounded-xl border border-toxic-500/30 bg-toxic-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-toxic-300">⚡ Snapshot Rule</p>
+      <p class="text-xs text-stone-300 mt-1">Tous les bonus de vitesse sont calculés STRICTEMENT AU MOMENT DU CLIC SUR AMÉLIORER. Tout bonus activé après le lancement ne réduit pas le chronomètre en cours.</p>
+    </div>
+
+    <h2 id="ghost-rally">2. Débordement de l’Hôpital et Rallye Fantôme (Ghost Rally)</h2>
+    <div class="rounded-xl border border-red-500/30 bg-red-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-red-300">🛡️ Ghost Rally Protocol</p>
+      <p class="text-xs text-stone-300 mt-1">Lorsque l’hôpital est plein à 100 %, TOUT soldat blessé supplémentaire MEURT DÉFINITIVEMENT. Sans bouclier de paix face à un raid, cachez votre armée dans un Rallye de 8 heures : les troupes en rallye sont totalement invulnérables !</p>
+    </div>
+
+    <h2 id="falcon-tower">3. Tour du Faucon : La Règle Stacking Max − 1</h2>
+    <p>Un tableau plein (8/8) gèle l’apparition de nouvelles quêtes. Gardez toujours un emplacement libre (7/8) et validez vos quêtes les lundis, mercredis et vendredis.</p>
+
+    <h2 id="warehouse-secrets">4. Le Piège des Ressources en Sac et la Réserve Sécurisée</h2>
+    <p>N’ouvrez JAMAIS vos sacs de ressources à l’avance ! Les ressources dans le sac sont invisibles aux éclaireurs et impossibles à piller. N’ouvrez que le montant exact juste avant de lancer.</p>
+
+    <h2 id="troop-promotion">5. Promotion des Troupes plutôt que Recrutement Brut</h2>
+    <p>Lors du déblocage des troupes T8/T9, utilisez le bouton Promouvoir sur vos anciennes T7 pour économiser 70 % de temps et de ressources.</p>
+
+    <h2 id="claire-conversion">6. Le Piège de Conversion de Claire (SSR vers UR)</h2>
+    <p>À 6★ UR, le passif d’équipe de Claire chute temporairement de 16 % à 10 %. Stockez vos jetons du Panthéon pour l’amener directement à 9★ ou 10★ sans baisse d’efficacité.</p>
+
+    <h2 id="pre-farming">7. Pré-récolte des Tuiles pour le Duel d’Alliance</h2>
+    <p>Les points de récolte sont comptabilisés à la seconde exacte où la marche rentre chez vous. Lancez vos récoltes 4 à 5 heures avant minuit UTC pour empocher des millions de points dès 00:05 le jeudi.</p>
+
+    <VideoSection topic="beginner" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

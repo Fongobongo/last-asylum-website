@@ -1,0 +1,47 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'pt';
+---
+
+<Base lang={lang} path="/pt/tips/" title="Mecânicas Ocultas, Dicas Pro & Segredos" description="A enciclopédia completa de mecânicas ocultas de Last Asylum: Plague — snapshot de buffs de construção, rally fantasma, limite do hospital, armadilha de conversão da Claire e economia de diamantes.">
+  <GuidePage title="🧠 Mecânicas Ocultas, Dicas Pro & Segredos" description="A enciclopédia completa de mecânicas ocultas de Last Asylum: Plague — snapshot de buffs de construção, rally fantasma, limite do hospital, armadilha de conversão da Claire e economia de diamantes." lang={lang}>
+    <p>Jogos de estratégia mobile parecem simples na superfície: evoluir prédios, subir heróis e tocar em pontos vermelhos. No entanto, Last Asylum: Plague esconde dezenas de regras matemáticas que nunca são explicadas diretamente.</p>
+    <p>Jogadores que dominam essas mecânicas evoluem 2 a 3 vezes mais rápido, protegem seus soldados contra invasões noturnas e vencem oponentes com 30 a 50% mais Poder.</p>
+
+    <h2 id="snapshotting">1. Snapshot de Bônus de Construção e Cálculo de Tempo</h2>
+    <div class="rounded-xl border border-toxic-500/30 bg-toxic-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-toxic-300">⚡ Snapshot Rule</p>
+      <p class="text-xs text-stone-300 mt-1">Todos os bônus de velocidade são calculados ESTRITAMENTE NO MOMENTO DO CLIQUE EM INICIAR. Ativar bônus após o início da obra não reduz o tempo restante!</p>
+    </div>
+
+    <h2 id="ghost-rally">2. Limite do Hospital e a Técnica do Rally Fantasma</h2>
+    <div class="rounded-xl border border-red-500/30 bg-red-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-red-300">🛡️ Ghost Rally Protocol</p>
+      <p class="text-xs text-stone-300 mt-1">Se o hospital atingir 100% de ocupação, qualquer soldado ferido adicional MORRE PERMANENTEMENTE. Sem Escudo de Paz, esconda suas tropas em um Rally de 8 horas: tropas em rally são 100% imunes a ataques!</p>
+    </div>
+
+    <h2 id="falcon-tower">3. Torre do Falcão: Regra Stacking Max − 1</h2>
+    <p>Um quadro cheio (8/8) congela o temporizador de novas missões. Mantenha sempre um espaço livre (7/8) e resgate missões concluídas nas segundas, quartas e sextas-feiras.</p>
+
+    <h2 id="warehouse-secrets">4. Armadilha de Recursos na Mochila e Proteção do Armazém</h2>
+    <p>NUNCA abra baús de recursos com antecedência! Recursos na mochila são invisíveis para batedores e impossíveis de saquear. Abra apenas o estritamente necessário antes de iniciar a obra.</p>
+
+    <h2 id="troop-promotion">5. Promoção de Tropas em vez de Treinar do Zero</h2>
+    <p>Ao desbloquear novos tiers (T8/T9), use o botão Promover nas tropas antigas T7 para economizar até 70% de tempo e recursos.</p>
+
+    <h2 id="claire-conversion">6. A Armadilha de Conversão da Claire (SSR para UR)</h2>
+    <p>Ao converter para 6★ UR, o bônus passivo de equipe da Claire cai temporariamente de 16% para 10%. Acumule moedas do Hall da Honra para promovê-la direto para 9★ ou 10★.</p>
+
+    <h2 id="pre-farming">7. Pré-Coleta de Recursos para o Duelo de Alianças</h2>
+    <p>Os pontos de coleta são creditados no momento exato em que a marcha retorna à sua cidade. Envie coletas 4 a 5 horas antes do reset para garantir milhões de pontos às 00:05 UTC de quinta-feira.</p>
+
+    <VideoSection topic="beginner" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

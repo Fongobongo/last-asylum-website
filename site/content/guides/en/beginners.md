@@ -167,6 +167,9 @@ Eight half-built heroes lose to two finished ones in every fight that matters, a
 
 Stamina that sits at the cap is income you permanently deleted — the game does not bank overflow. Spend it on monsters or plunder before you log off, every session, from day one.
 
-### 5. Missing Daily Plunder {#mistake-plunder}
-
 Kept up, daily plundering is worth roughly 27 million resources per day later in the game. Skipped, there is no make-up mechanic — those resources are simply gone. Attack the richest target you can beat, respect the daily limit thresholds, and never tenth-hit a farm. The complete plunder rulebook is in the [Economy guide](/economy/).
+
+## Read Next: Pro Tips & Hidden Mechanics {#read-next}
+
+Mastered the day-one basics? Dive into the non-obvious rules of the game: speed buff snap-shotting, protecting troops with Ghost Rallies, avoiding hospital overflow wipes, the Claire conversion dip, and tile pre-farming in the [Pro Tips & Hidden Mechanics Guide](/tips/).
+

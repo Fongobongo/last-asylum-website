@@ -1,0 +1,47 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'es';
+---
+
+<Base lang={lang} path="/es/tips/" title="Mecánicas Ocultas, Consejos y Secretos" description="La enciclopedia completa de mecánicas ocultas de Last Asylum: Plague — snapshotting de construcción, rally fantasma, desbordamiento del hospital, trampa de conversión de Claire y ahorro de diamantes.">
+  <GuidePage title="🧠 Mecánicas Ocultas, Consejos y Secretos" description="La enciclopedia completa de mecánicas ocultas de Last Asylum: Plague — snapshotting de construcción, rally fantasma, desbordamiento del hospital, trampa de conversión de Claire y ahorro de diamantes." lang={lang}>
+    <p>La mayoría de los juegos de estrategia parecen sencillos a primera vista: mejorar edificios, subir héroes y tocar puntos rojos. Sin embargo, bajo el motor de Last Asylum: Plague existen decenas de reglas matemáticas no escritas.</p>
+    <p>Los comandantes que dominan estas mecánicas progresan de 2 a 3 veces más rápido, protegen su ejército ante ataques sorpresa y derrotan a rivales con un 30-50% más de Poder.</p>
+
+    <h2 id="snapshotting">1. Snapshotting de Mejoras y Matemática de Tiempos</h2>
+    <div class="rounded-xl border border-toxic-500/30 bg-toxic-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-toxic-300">⚡ Snapshot Rule</p>
+      <p class="text-xs text-stone-300 mt-1">Todos los beneficios de velocidad se calculan ESTRICTAMENTE AL PULSAR MEJORAR (INICIAR). Cualquier mejora activada después no reduce el tiempo de la construcción en curso.</p>
+    </div>
+
+    <h2 id="ghost-rally">2. Límite del Hospital y la Técnica del Rally Fantasma</h2>
+    <div class="rounded-xl border border-red-500/30 bg-red-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-red-300">🛡️ Ghost Rally Protocol</p>
+      <p class="text-xs text-stone-300 mt-1">Si el hospital se llena al 100%, ¡cada soldado herido adicional MUERE DEFINITIVAMENTE! Si no tienes Escudo de Paz ante un ataque enemigo, oculta tu ejército en un Rally de 8 horas contra un campamento lejano: las tropas en rally son 100% inmunes al daño.</p>
+    </div>
+
+    <h2 id="falcon-tower">3. Secretos de la Torre del Halcón: Regla Stacking Max − 1</h2>
+    <p>Un tablero lleno (8/8) congela el temporizador de nuevas misiones. Mantén siempre un hueco libre (7/8) y canjea las misiones completadas los lunes, miércoles y viernes.</p>
+
+    <h2 id="warehouse-secrets">4. Trampa de Recursos en Mochila y Protección del Almacén</h2>
+    <p>¡Nunca abras cofres de recursos por adelantado! Los recursos en la mochila son invisibles para exploradores enemigos e imposibles de saquear. Abre solo lo necesario justo antes de iniciar la obra.</p>
+
+    <h2 id="troop-promotion">5. Promoción de Tropas en vez de Entrenamiento desde Cero</h2>
+    <p>Al desbloquear nuevos niveles de tropas (T8/T9), utiliza siempre el botón Promover en las tropas T7 antiguas para ahorrar el 70% del tiempo y recursos.</p>
+
+    <h2 id="claire-conversion">6. La Trampa de Conversión de Claire (SSR a UR)</h2>
+    <p>Al convertir a Claire a 6★ UR, su beneficio pasivo de equipo cae temporalmente del 16% al 10%. Acumula fichas del Salón del Honor para subirla de inmediato a 9★ o 10★.</p>
+
+    <h2 id="pre-farming">7. Pre-recolección de Nodos para el Duelo de Alianzas</h2>
+    <p>Los puntos de recolección se otorgan en el segundo exacto en que la marcha regresa a tu ciudad. Envía tus tropas 4-5 horas antes del reinicio para cobrar millones de puntos a las 00:05 UTC del jueves.</p>
+
+    <VideoSection topic="beginner" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

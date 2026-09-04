@@ -1,0 +1,47 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+
+<Base lang={lang} path="/de/tips/" title="Verborgene Mechaniken, Tipps & Geheimnisse" description="Die komplette Enzyklopädie verborgener Spielmechaniken in Last Asylum: Plague — Bau-Snap-Shotting, Geister-Rallyes (Ghost Rally), Spital-Überlauf, Claire-Konvertierungsfalle und Diamanten-Ökonomie.">
+  <GuidePage title="🧠 Verborgene Mechaniken, Tipps & Geheimnisse" description="Die komplette Enzyklopädie verborgener Spielmechaniken in Last Asylum: Plague — Bau-Snap-Shotting, Geister-Rallyes (Ghost Rally), Spital-Überlauf, Claire-Konvertierungsfalle und Diamanten-Ökonomie." lang={lang}>
+    <p>Die meisten mobilen Strategiespiele wirken auf den ersten Blick simpel: Gebäude ausbauen, Helden leveln und rote Punkte antippen. Unter der Haube von Last Asylum: Plague verbirgt sich jedoch eine komplexe mathematische Engine mit ungeschriebenen Regeln, die das Spiel nie erklärt.</p>
+    <p>Spieler, die diese Mechaniken kennen, entwickeln sich 2- bis 3-mal schneller, verlieren ihre Truppen nie bei nächtlichen Überfällen und schlagen Gegner mit 30–50 % höherer Macht.</p>
+
+    <h2 id="snapshotting">1. Bau-Snap-Shotting & Timer-Mathematik</h2>
+    <div class="rounded-xl border border-toxic-500/30 bg-toxic-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-toxic-300">⚡ Snapshot Rule</p>
+      <p class="text-xs text-stone-300 mt-1">Alle Geschwindigkeits-Boni (Ausrüstung, Titel, Runen, Allianz-Tech) werden STRENG IM MOMENT DES KLICKS AUF AUSBAUEN (START) berechnet. Nachträglich aktivierte Boni verkürzen die verbleibende Bauzeit nicht!</p>
+    </div>
+
+    <h2 id="ghost-rally">2. Spital-Überlauf & Geister-Rallye (Ghost Rally)</h2>
+    <div class="rounded-xl border border-red-500/30 bg-red-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-red-300">🛡️ Ghost Rally Protocol</p>
+      <p class="text-xs text-stone-300 mt-1">Sobald das Krankenhaus zu 100 % voll ist, STIRBT jeder weitere verwundete Soldat DAUERHAFT. Verstecke deine Truppen bei drohenden Angriffen ohne Friedensschild in einer 8-Stunden-Rallye auf ein fernes Ziel: Truppen in der Rallye sind absolut unverwundbar!</p>
+    </div>
+
+    <h2 id="falcon-tower">3. Falkenturm-Geheimnisse: Die Stacking Max − 1 Regel</h2>
+    <p>Ein volles Quest-Brett (8/8) stoppt den Respawn-Timer. Behalte stets einen freien Slot (7/8) und sammle Quests an Montagen, Mittwochen und Freitagen für maximale Duell-Punkte.</p>
+
+    <h2 id="warehouse-secrets">4. Ressourcen-Falle im Inventar & Lager-Schutz</h2>
+    <p>Öffne niemals Ressourcen-Pakete im Voraus! Ressourcen im Inventar sind für feindliche Spione unsichtbar und zu 100 % plündersicher. Öffne immer nur genau das, was du für den nächsten Ausbau benötigst.</p>
+
+    <h2 id="troop-promotion">5. Truppen-Beförderung (Promotion) statt Neurekrutierung</h2>
+    <p>Beim Freischalten neuer Truppenstufen (T8/T9) niemals von Null rekrutieren: Die Schaltfläche Befördern wertet bestehende T7-Truppen in Rekordzeit und zu einem Bruchteil der Kosten auf.</p>
+
+    <h2 id="claire-conversion">6. Die Claire SSR→UR Falle</h2>
+    <p>Bei der Wandlung auf 6★ UR sinkt Claires Team-Passiv vorübergehend von 16 % auf 10 %. Spare Ehrenhalle-Münzen, um sie direkt auf 9★ oder 10★ zu katapultieren.</p>
+
+    <h2 id="pre-farming">7. Rohstoff-Pre-Farming für das Allianz-Duell</h2>
+    <p>Punkte für das Sammeln werden erst im Moment der Rückkehr gewertet. Schicke Sammelmärsche 4–5 Stunden vor dem Donnerstags-Reset los, um um 00:05 UTC sofort Millionen Punkte abzuräumen.</p>
+
+    <VideoSection topic="beginner" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>
