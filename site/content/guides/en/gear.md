@@ -20,7 +20,7 @@ infographics: ["/infographics/skill-scaling.webp"]
 |---|---|---|---|
 | Carry (DPS) | Weapon (sword) | Gloves | Attack + crit scale your damage |
 | Tank | Boots | Chest | HP/DEF keep the frontline standing |
-| Carry order (Annie/Jester) | Sword → Gauntlets → Armor → Boots | | Community order for warlock carries |
+| Carry order (Annie/Joker) | Sword → Gauntlets → Armor → Boots | | Community order for warlock carries |
 
 ## Gear Promotion and Exclusive Weapon Smelt {#promotion}
 

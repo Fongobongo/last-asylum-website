@@ -39,6 +39,7 @@ A quick reference for the buildings you will actually be tapping. Translations d
 | Temple | Unified cult building (merging former Warrior, Ranger, and Warlock Statues). Provides percentage stat bonuses to your chosen faction. | Upgrade to boost squad power and satisfy Sanctuary pre-requisites. |
 | Hall of Honor | Displays hero honor levels and unlocks the Honor Shop (core source of UR Gear Blueprints). | Essential for late-game gear progression. |
 | Tavern | Hero recruiting — the banner and pull system lives here. | Save diamonds for dated UR events instead of dumping them here. |
+| Falcon Tower | Generates daily missions rewarding diamonds, speedups, hero shards, and antitoxin. Lv.8 unlocks one-tap claim. | Use the "Stacking Max − 1" strategy to bank completed quests for double-point days (Mon/Wed/Fri). |
 | Alliance Hall | Deepens alliance participation and rewards. | Follow the roadmap below — it matters more than new players expect. |
 
 ### Barracks vs Training Grounds — the Naming Trap {#barracks-vs-training}

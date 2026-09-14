@@ -13,7 +13,7 @@ export const patchNotes: PatchNote[] = [
   },
   {
     date: '2026-08-27',
-    title: 'Scheduled maintenance & optimizations',
+    title: 'Pandemic Experience update',
     highlights: ['Difficulties 10 and 11 will be added to Pandemic Experience starting September 2.', 'Added an option to allow or block private messages from other players.', 'Added a Sanctuary Level requirement for other players to initiate private chats.', 'Covert Ops Force will now display the range of Kingdoms available for plundering.'],
   },
   {
@@ -22,14 +22,59 @@ export const patchNotes: PatchNote[] = [
     highlights: ['Raven Epigraphs can now be upgraded to 6 Stars.', 'After an Exclusive Weapon reaches 10 Stars, the Smelt feature will unlock, allowing you to further enhance its attributes.', 'Optimized the display of march routes on the map.', 'Optimized the display of purchased packs on the Blades Out event screen.'],
   },
   {
+    date: '2026-08-13',
+    title: 'Era of Revival rollout',
+    highlights: ['Era Shop now features [Castle of Revival] Skin.', 'Expedition League event duration adjusted: 56 days → 55 days.', 'Era Settlement Reward configuration optimized: [Mythic Era Commendation] chest random reward distribution refined.', 'Fixed unnecessary bubble display above alliance buildings during garrison.'],
+  },
+  {
+    date: '2026-08-05',
+    title: 'Alliance League update',
+    highlights: ['Optimized icon display in the top-right corner of the main interface.', 'Optimized Relocation: allowing relocation onto Covert Operation Quests, and displaced quests will respawn.', 'Optimized Alliance Trade Caravan with added filtering options during member selection and improved VIP Passenger Wagon Reward selection interaction.', 'Optimized Alliance League Ranking interface to display the corresponding Kingdom for each Alliance; tap the Flag to view Alliance details.'],
+  },
+  {
+    date: '2026-07-30',
+    title: 'Thief Hunt & Alliance optimizations',
+    highlights: ['Alliance Battle Log: View attack records from Alliance members.', 'Falcon Tower One-Tap Reward Claim unlocks at Lv.8.', 'Event Schedule: Major Events requiring reservation or scheduled activation (Hunt Battle, Cheese Trap, etc.) are now displayed in a unified Event Schedule.', 'Raven interface now features separate buttons for Skin and Upgrade Preview.'],
+  },
+  {
     date: '2026-07-08',
     title: 'Scheduled maintenance & optimizations',
     highlights: ['Specialty Tech unlocks when Research Lab reaches Lv.30 and Elite Troop Tech reaches 80%.', 'New Alliance Event: Undead Siege (available 2 weeks after server launch).', 'Research Lab now displays recommended Tech for combat.', 'Raven Gear interface will display research Progress for Lv.8 and above equipment.'],
   },
   {
+    date: '2026-07-01',
+    title: 'Scheduled maintenance & optimizations',
+    highlights: ['World Map: Sanctuary shields and Burn status are shown when zoom out.', 'Hero Name: Brian will be renamed to Ulfrid.', 'Cursed Land: Placement of new Cheese Traps will no longer be permitted in Cursed Land after this update.', 'Demon King Blight Achievement interface: Damage data will display more clearly after this update.'],
+  },
+  {
+    date: '2026-06-24',
+    title: 'Era of Revival rollout',
+    highlights: ['Some servers now feature the Era of Revival event and related content. More servers will unlock the event subsequently.', 'Thief Hunt event rules adjusted—Thief Leader Level Cap now scales with server age', 'Caravan Resource Plunder rewards enhanced', 'Expedition Shop: reduced 10,000 Raven Fruit exchanges and added 100,000 Raven Fruit exchange option.'],
+  },
+  {
+    date: '2026-06-16',
+    title: 'Scheduled maintenance & optimizations',
+    highlights: ['Fixed various known bugs'],
+  },
+  {
+    date: '2026-06-11',
+    title: 'Alliance League update',
+    highlights: ['League Phase added to Alliance Duel', 'When each League Period starts, Kingdoms that have come online for more than 7 weeks may participate.', 'Only the top 16 Alliances within a Kingdom by ranking can participate in the League', 'Added three new looks and stats for Raven at Lv.150, Lv.200, and Lv.250.'],
+  },
+  {
     date: '2026-05-29',
     title: 'Crystal Cluster Valley launch',
     highlights: ['Enhanced world sandbox rendering for multiple squads on-screen, improving performance and visual smoothness in multiplayer scenarios.', 'Improved item chest opening process for Supply Chest, Raven Gear Chest, and Epigraph Chest, reducing response lag and delay.', 'Upgraded server infrastructure for better overall performance.', 'Added 2:00 time slot for Crystal Cluster Valley, providing greater scheduling flexibility for event participation.'],
+  },
+  {
+    date: '2026-05-20',
+    title: 'Canyon Conquest launch',
+    highlights: ['New Alliance Event: Canyon Conquest', 'World map now displays the Kingdom where other players\' cities locate', 'UR Epigraph effect adjusted — "Guard of Nature" now: Shield effect activates when battle starts, damage reduction effect activates after shield breaks', 'Optimized Kingdom War Event, resolved lag issues'],
+  },
+  {
+    date: '2026-05-13',
+    title: 'Scheduled maintenance & optimizations',
+    highlights: ['Added new Emoji options', 'King\'s Reward now displays a countdown timer until reward distribution ends', 'Arena improvements:', 'Matchmaking rules refined'],
   },
   {
     date: '2026-05-07',
@@ -58,7 +103,7 @@ export const patchNotes: PatchNote[] = [
   },
   {
     date: '2026-03-18',
-    title: 'Scheduled maintenance & optimizations',
+    title: 'Thief Hunt & Alliance optimizations',
     highlights: ['Optimized Caravan technologies to make them smoother.', 'Performed a balance pass for Thief Hunt, Cheese Trap, and Wandering Blight.', 'Improved Hero Ash\'s skill design.', 'Optimized overall server performance.'],
   },
   {

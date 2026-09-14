@@ -19,12 +19,12 @@ export const weeklySchedule: CalEvent[] = [
 
 export const recurring: CalEvent[] = [
   { day: 'Daily 02:00 UTC', icon: '🔄', event: 'Plunder limit reset', what: 'Daily plunder counter resets (100% → 15% → 5% bands start fresh).' },
-  { day: 'Daily', icon: '🐑', event: 'Guild Wagon', what: 'One free wagon per alliance per day (resets ~11:00 KST).' },
+  { day: 'Daily', icon: '🐑', event: 'Guild Wagon', what: 'One free wagon per alliance per day (resets ~11:00 KST). Lv.25 Alliance Gift adds +1 passenger.' },
   { day: 'Daily', icon: '🐟', event: 'Sea Fish cap (during Mythic Treasure)', what: '300 fish/day — stop farming at cap, submit to Grand Feast.' },
   { day: 'Weekly', icon: '🏆', event: 'Royal Castle Scramble', what: 'Same weekday/time each week; 4-hour castle battle, one march, reinforce ≤30.' },
   { day: 'Weekly', icon: '🎖️', event: 'Survival Battle missions', what: 'Up to 60K skill badges/week; mission list varies by server.' },
   { day: 'Biweekly', icon: '👑', event: 'Kingdom War', what: 'Prep/scoring through the week, main battle Saturday — 4-hour window.' },
-  { day: 'Weekly', icon: '🧪', event: 'Elixir Scramble', thing: '', what: '30-min AvA point battle — remove squads from the wall before it starts!' } as CalEvent,
-  { day: 'Server-age based', icon: '🧟', event: 'Undead Siege', what: 'After 300K clue points — 20 solo waves; hidden mechanic: 2–3 squads per wave, HP persists.' },
-  { day: '~2 months', icon: '☣️', event: 'Era of Revival season', what: 'Season cycle (~2 months): Resistance daily, Lord Statues, specialty trees.' },
+  { day: 'Weekly', icon: '🧪', event: 'Elixir Scramble', what: '30-min AvA point battle — remove squads from the wall before it starts!' },
+  { day: 'Server-age based', icon: '🧟', event: 'Undead Siege', what: 'Available 2 weeks after launch; after 300K clue points — 20 solo waves; HP persists across waves.' },
+  { day: '55 days', icon: '☣️', event: 'Era of Revival season', what: 'Expedition League (55 days): Resistance daily, Lord Statues, specialty trees.' },
 ];

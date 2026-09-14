@@ -15,7 +15,7 @@ videoTopic: compare
 | **Availability** | Free-ish ($1 top-up), day 66 free | Paid only (10 fragments to start) |
 | **Damage share** | ~85% of squad damage alone | Splits ~50/50 with a maxed Marlena |
 | **Damage type** | Physical/energy mix per build | Energy whirlwind — needs energy supports |
-| **Synergy** | Buffed 4× in the standard comp (Harper ult + Bell + Claire passive) | Does not stack with physical Jester |
+| **Synergy** | Buffed 4× in the standard comp (Harper ult + Bell + Claire passive) | Does not stack with physical Joker |
 | **F2P verdict** | The main carry of the whole F2P path | Only swap Claire out if your Zoya is high-star |
 
 <!-- video: XktNJ6u4sWo -->

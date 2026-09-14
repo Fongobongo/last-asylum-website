@@ -24,20 +24,24 @@ def load(fname):
 def extract_patches():
     pn = load("patch-notes.json")
     out = []
-    title_re = re.compile(r"(?:^|\n)#+\s*(?:Server Maintenance(?: Notice)?|Update Notes)\s*\n*", re.I)
     for m in pn["messages"]:
         c = m.get("content", "")
-        if not c.strip() or "maintenance" not in c.lower():
+        if not c.strip():
+            continue
+        c_lower = c.lower()
+        if "maintenance" not in c_lower and "update notes" not in c_lower and "new content" not in c_lower:
             continue
         d = m["created_at"][:10]
-        # extract highlights: numbered lines or "New..." sections
+        # extract highlights: numbered lines or bullet lines
         highlights = []
         for line in c.splitlines():
             line = line.strip()
             if re.match(r"^\d+\.\s", line) and 5 < len(line) < 160 and "UTC" not in line:
                 highlights.append(re.sub(r"^[\d]+\. ", "", line))
-            elif re.match(r"^\d+\.\s", line) and "UTC" in line:
-                continue
+            elif re.match(r"^-\s", line) and 5 < len(line) < 160 and "UTC" not in line:
+                highlights.append(re.sub(r"^-\s*", "", line))
+            elif re.match(r"^[a-z]\.\s", line) and 5 < len(line) < 160:
+                highlights.append(re.sub(r"^[a-z]\.\s*", "", line))
         if not highlights:
             continue
         highlights = highlights[:4]
@@ -45,7 +49,7 @@ def extract_patches():
         text = " ".join(highlights).lower()
         if "undead siege" in text and "launch" not in text:
             title = "Undead Siege & updates"
-        elif "era of revival" in text:
+        elif "era of revival" in text or "castle of revival" in text:
             title = "Era of Revival rollout"
         elif "canyon conquest" in text:
             title = "Canyon Conquest launch"
@@ -55,8 +59,14 @@ def extract_patches():
             title = "Raven Epigraphs update"
         elif "kingdom war" in text:
             title = "Kingdom War launch"
-        elif "hunt battle" in text:
-            title = "Hunt Battle launch"
+        elif "hunt battle" in text or "thief hunt" in text or "bandit hunt" in text:
+            title = "Thief Hunt & Alliance optimizations"
+        elif "league phase" in text or "alliance league" in text:
+            title = "Alliance League update"
+        elif "smelt" in text:
+            title = "Exclusive Weapon Smelt & Raid Buffs"
+        elif "pandemic" in text:
+            title = "Pandemic Experience update"
         elif "gear" in text and "promotion" in text:
             title = "Gear Promotion system"
         else:
