@@ -1,0 +1,609 @@
+---
+import Base from '../../layouts/Base.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ru';
+---
+
+<Base
+  lang={lang}
+  path="/admin/articles/"
+  title="Управление статьями (Supabase DB) | LA Plague Hub"
+  description="Редактор статей и синхронизация с базой данных Supabase для Last Asylum: Plague"
+  noindex={true}
+>
+  <div class="not-prose mx-auto max-w-6xl py-8">
+    <!-- Header -->
+    <div class="flex flex-wrap items-center justify-between gap-4 border-b border-stone-800 pb-6">
+      <div>
+        <div class="flex items-center gap-2.5">
+          <span class="text-2xl">🗄️</span>
+          <h1 class="text-2xl font-bold tracking-tight text-stone-100 sm:text-3xl">База статей (Supabase)</h1>
+        </div>
+        <p class="mt-1 text-sm text-stone-400">
+          Публикация и редактирование статей без изменения кода и коммитов в Git.
+        </p>
+      </div>
+
+      <div class="flex flex-wrap items-center gap-2">
+        <button
+          id="btn-open-settings"
+          type="button"
+          class="inline-flex items-center gap-1.5 rounded-lg border border-stone-700 bg-stone-800/80 px-3 py-2 text-xs font-semibold text-stone-200 transition hover:bg-stone-700 hover:text-white cursor-pointer"
+        >
+          <span>⚙️</span> Настройки API
+        </button>
+
+        <button
+          id="btn-new-article"
+          type="button"
+          class="inline-flex items-center gap-1.5 rounded-lg border border-toxic-500/50 bg-toxic-500/20 px-3.5 py-2 text-xs font-bold text-toxic-300 transition hover:bg-toxic-400 hover:text-black cursor-pointer shadow-[0_0_15px_rgba(180,255,57,0.15)]"
+        >
+          <span>➕</span> Новая статья
+        </button>
+
+        <button
+          id="btn-deploy"
+          type="button"
+          class="inline-flex items-center gap-1.5 rounded-lg border border-emerald-500/40 bg-emerald-500/20 px-3.5 py-2 text-xs font-bold text-emerald-300 transition hover:bg-emerald-400 hover:text-black cursor-pointer"
+          title="Запустить пересборку сайта на Netlify"
+        >
+          <span>🚀</span> Пересобрать сайт
+        </button>
+      </div>
+    </div>
+
+    <!-- Status Banner -->
+    <div id="connection-banner" class="mt-4 rounded-xl border border-stone-800 bg-stone-900/50 p-4 text-xs">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <span id="conn-dot" class="h-2 w-2 rounded-full bg-amber-500 animate-pulse"></span>
+          <span id="conn-text" class="text-stone-300">Проверка подключения к Supabase...</span>
+        </div>
+        <a id="conn-link" href="https://supabase.com/dashboard" target="_blank" rel="noopener" class="text-toxic-400 hover:underline">
+          Панель Supabase ↗
+        </a>
+      </div>
+    </div>
+
+    <!-- Search & Filters -->
+    <div class="mt-6 flex flex-wrap items-center justify-between gap-3">
+      <div class="flex flex-1 items-center gap-2 min-w-[240px]">
+        <input
+          id="search-input"
+          type="text"
+          placeholder="Поиск по названию или slug..."
+          class="w-full rounded-lg border border-stone-800 bg-stone-900 px-3 py-2 text-xs text-stone-200 placeholder-stone-500 outline-none focus:border-toxic-400"
+        />
+      </div>
+
+      <div class="flex items-center gap-2">
+        <select
+          id="filter-lang"
+          class="rounded-lg border border-stone-800 bg-stone-900 px-3 py-2 text-xs text-stone-300 outline-none focus:border-toxic-400"
+        >
+          <option value="all">Все языки</option>
+          <option value="ru">Русский (ru)</option>
+          <option value="en">English (en)</option>
+          <option value="es">Español (es)</option>
+          <option value="pt">Português (pt)</option>
+          <option value="de">Deutsch (de)</option>
+          <option value="fr">Français (fr)</option>
+        </select>
+
+        <select
+          id="filter-type"
+          class="rounded-lg border border-stone-800 bg-stone-900 px-3 py-2 text-xs text-stone-300 outline-none focus:border-toxic-400"
+        >
+          <option value="all">Все типы</option>
+          <option value="guide">Гайды (guide)</option>
+          <option value="event">События (event)</option>
+        </select>
+
+        <button
+          id="btn-refresh"
+          class="rounded-lg border border-stone-800 bg-stone-900 p-2 text-stone-400 hover:text-white transition cursor-pointer"
+          title="Обновить список"
+        >
+          🔄
+        </button>
+      </div>
+    </div>
+
+    <!-- Articles Table / List -->
+    <div class="mt-4 overflow-hidden rounded-xl border border-stone-800 bg-stone-950/60">
+      <table class="w-full text-left text-xs text-stone-300">
+        <thead class="border-b border-stone-800 bg-stone-900/80 text-[11px] font-mono text-stone-400">
+          <tr>
+            <th class="p-3">Язык</th>
+            <th class="p-3">Заголовок / Slug</th>
+            <th class="p-3">Тип</th>
+            <th class="p-3">Дата</th>
+            <th class="p-3">Статус</th>
+            <th class="p-3 text-right">Действия</th>
+          </tr>
+        </thead>
+        <tbody id="articles-tbody" class="divide-y divide-stone-800/60">
+          <tr>
+            <td colspan="6" class="p-6 text-center text-stone-500">Загрузка статей из базы данных...</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Settings Modal -->
+    <div id="modal-settings" class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black/80 backdrop-blur-sm p-4">
+      <div class="w-full max-w-lg rounded-2xl border border-stone-800 bg-stone-900 p-6 shadow-2xl">
+        <h3 class="text-lg font-bold text-white">⚙️ Настройки подключения</h3>
+        <p class="mt-1 text-xs text-stone-400">
+          Данные сохраняются в вашем браузере (localStorage) и не передаются на сервер.
+        </p>
+
+        <div class="mt-4 space-y-4">
+          <div>
+            <label class="block text-xs font-mono text-stone-400">Supabase Project URL</label>
+            <input
+              id="set-url"
+              type="url"
+              placeholder="https://xyzcompany.supabase.co"
+              class="mt-1 w-full rounded-lg border border-stone-700 bg-stone-950 px-3 py-2 text-xs text-stone-200 outline-none focus:border-toxic-400"
+            />
+          </div>
+
+          <div>
+            <label class="block text-xs font-mono text-stone-400">Supabase Key (Anon или Service Role)</label>
+            <input
+              id="set-key"
+              type="password"
+              placeholder="eyJhbGciOiJIUzI1NiIsIn..."
+              class="mt-1 w-full rounded-lg border border-stone-700 bg-stone-950 px-3 py-2 text-xs text-stone-200 outline-none focus:border-toxic-400"
+            />
+            <p class="mt-1 text-[11px] text-stone-500">Для добавления и редактирования статей используйте service_role key.</p>
+          </div>
+
+          <div>
+            <label class="block text-xs font-mono text-stone-400">Netlify Build Hook URL (Опционально)</label>
+            <input
+              id="set-hook"
+              type="url"
+              placeholder="https://api.netlify.com/build_hooks/..."
+              class="mt-1 w-full rounded-lg border border-stone-700 bg-stone-950 px-3 py-2 text-xs text-stone-200 outline-none focus:border-toxic-400"
+            />
+            <p class="mt-1 text-[11px] text-stone-500">Позволяет нажимать «Пересобрать сайт» прямо из этой панели.</p>
+          </div>
+        </div>
+
+        <div class="mt-6 flex justify-end gap-2">
+          <button
+            id="btn-close-settings"
+            type="button"
+            class="rounded-lg border border-stone-700 px-4 py-2 text-xs font-semibold text-stone-300 hover:bg-stone-800"
+          >
+            Отмена
+          </button>
+          <button
+            id="btn-save-settings"
+            type="button"
+            class="rounded-lg bg-toxic-400 px-4 py-2 text-xs font-bold text-black hover:bg-toxic-300"
+          >
+            Сохранить
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Article Editor Modal -->
+    <div id="modal-editor" class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black/85 backdrop-blur-md p-4">
+      <div class="flex flex-col h-[90vh] w-full max-w-4xl rounded-2xl border border-stone-800 bg-stone-900 p-6 shadow-2xl overflow-hidden">
+        <div class="flex items-center justify-between border-b border-stone-800 pb-3">
+          <h3 id="editor-modal-title" class="text-lg font-bold text-white">Редактирование статьи</h3>
+          <button id="btn-close-editor" class="text-stone-400 hover:text-white text-lg cursor-pointer">✕</button>
+        </div>
+
+        <div class="flex-1 overflow-y-auto pr-1 py-4 space-y-4">
+          <div class="grid gap-3 sm:grid-cols-3">
+            <div>
+              <label class="block text-xs font-mono text-stone-400">Язык (lang)</label>
+              <select id="ed-lang" class="mt-1 w-full rounded-lg border border-stone-700 bg-stone-950 px-3 py-2 text-xs text-stone-200">
+                <option value="ru">ru (Русский)</option>
+                <option value="en">en (English)</option>
+                <option value="es">es (Español)</option>
+                <option value="pt">pt (Português)</option>
+                <option value="de">de (Deutsch)</option>
+                <option value="fr">fr (Français)</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-xs font-mono text-stone-400">Тип (type)</label>
+              <select id="ed-type" class="mt-1 w-full rounded-lg border border-stone-700 bg-stone-950 px-3 py-2 text-xs text-stone-200">
+                <option value="guide">guide (Гайд)</option>
+                <option value="event">event (Событие)</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-xs font-mono text-stone-400">URL Slug</label>
+              <input id="ed-slug" type="text" placeholder="например: supreme-duel" class="mt-1 w-full rounded-lg border border-stone-700 bg-stone-950 px-3 py-2 text-xs text-stone-200" />
+            </div>
+          </div>
+
+          <div class="grid gap-3 sm:grid-cols-2">
+            <div>
+              <label class="block text-xs font-mono text-stone-400">Заголовок (Title)</label>
+              <input id="ed-title" type="text" placeholder="Заголовок статьи" class="mt-1 w-full rounded-lg border border-stone-700 bg-stone-950 px-3 py-2 text-xs text-stone-200" />
+            </div>
+
+            <div>
+              <label class="block text-xs font-mono text-stone-400">YouTube Video Topic (Опционально)</label>
+              <input id="ed-video" type="text" placeholder="например: arena, alliance_duel" class="mt-1 w-full rounded-lg border border-stone-700 bg-stone-950 px-3 py-2 text-xs text-stone-200" />
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-mono text-stone-400">Описание (Description / SEO)</label>
+            <textarea id="ed-desc" rows="2" placeholder="Краткое описание статьи" class="mt-1 w-full rounded-lg border border-stone-700 bg-stone-950 px-3 py-2 text-xs text-stone-200"></textarea>
+          </div>
+
+          <div>
+            <div class="flex items-center justify-between">
+              <label class="block text-xs font-mono text-stone-400">Текст статьи (Markdown)</label>
+              <span class="text-[11px] text-stone-500">Поддерживаются заголовки, списки, таблицы и блоки GitHub alerts</span>
+            </div>
+            <textarea id="ed-content" rows="14" placeholder="# Заголовок статьи&#10;&#10;Текст в формате Markdown..." class="mt-1 w-full rounded-lg border border-stone-700 bg-stone-950 p-3 font-mono text-xs text-stone-200 leading-relaxed"></textarea>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <input id="ed-published" type="checkbox" checked class="h-4 w-4 rounded border-stone-700 bg-stone-950 text-toxic-400" />
+            <label for="ed-published" class="text-xs text-stone-300">Опубликовано (Published)</label>
+          </div>
+        </div>
+
+        <div class="flex items-center justify-between border-t border-stone-800 pt-3">
+          <button id="btn-delete-article" type="button" class="hidden text-xs font-semibold text-red-400 hover:text-red-300 cursor-pointer">
+            🗑️ Удалить статью
+          </button>
+          <div class="flex gap-2 ml-auto">
+            <button id="btn-cancel-editor" type="button" class="rounded-lg border border-stone-700 px-4 py-2 text-xs font-semibold text-stone-300 hover:bg-stone-800">
+              Отмена
+            </button>
+            <button id="btn-save-article" type="button" class="rounded-lg bg-toxic-400 px-5 py-2 text-xs font-bold text-black hover:bg-toxic-300 cursor-pointer">
+              💾 Сохранить в базу
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script is:inline>
+    (function () {
+      const STORAGE_URL = 'lap_sb_url';
+      const STORAGE_KEY = 'lap_sb_key';
+      const STORAGE_HOOK = 'lap_sb_hook';
+
+      let allArticles = [];
+      let editingArticle = null;
+
+      function getCreds() {
+        return {
+          url: (localStorage.getItem(STORAGE_URL) || '').trim().replace(/\/$/, ''),
+          key: (localStorage.getItem(STORAGE_KEY) || '').trim(),
+          hook: (localStorage.getItem(STORAGE_HOOK) || '').trim(),
+        };
+      }
+
+      function updateStatus(status, text) {
+        const dot = document.getElementById('conn-dot');
+        const label = document.getElementById('conn-text');
+        if (!dot || !label) return;
+
+        if (status === 'connected') {
+          dot.className = 'h-2 w-2 rounded-full bg-toxic-400 shadow-[0_0_8px_rgba(180,255,57,0.8)]';
+          label.textContent = text || 'Подключено к Supabase. База данных активна.';
+          label.className = 'text-toxic-300';
+        } else if (status === 'error') {
+          dot.className = 'h-2 w-2 rounded-full bg-red-500';
+          label.textContent = text || 'Ошибка подключения к базе. Проверьте URL и ключ в настройках.';
+          label.className = 'text-red-400';
+        } else {
+          dot.className = 'h-2 w-2 rounded-full bg-amber-500 animate-pulse';
+          label.textContent = text || 'Укажите URL и ключ Supabase в настройках.';
+          label.className = 'text-stone-400';
+        }
+      }
+
+      async function fetchArticles() {
+        const { url, key } = getCreds();
+        if (!url || !key) {
+          updateStatus('idle');
+          renderTable([]);
+          return;
+        }
+
+        updateStatus('loading', 'Синхронизация со списком статей...');
+        try {
+          const res = await fetch(`${url}/rest/v1/articles?select=*&order=updated_at.desc`, {
+            headers: {
+              apikey: key,
+              Authorization: `Bearer ${key}`,
+            },
+          });
+
+          if (!res.ok) {
+            throw new Error(`Код ответа: ${res.status} ${res.statusText}`);
+          }
+
+          allArticles = await res.json();
+          updateStatus('connected', `Подключено: найдено ${allArticles.length} статей в базе.`);
+          renderFiltered();
+        } catch (err) {
+          console.error(err);
+          updateStatus('error', `Ошибка: ${err.message}`);
+          renderTable([]);
+        }
+      }
+
+      function renderTable(list) {
+        const tbody = document.getElementById('articles-tbody');
+        if (!tbody) return;
+
+        if (!list || list.length === 0) {
+          tbody.innerHTML = `<tr><td colspan="6" class="p-6 text-center text-stone-500">Статей не найдено. Нажмите «Новая статья», чтобы создать первую запись.</td></tr>`;
+          return;
+        }
+
+        tbody.innerHTML = list
+          .map((a) => {
+            const isPub = a.published !== false;
+            return `
+            <tr class="hover:bg-stone-900/60 transition group">
+              <td class="p-3 font-mono font-bold text-stone-300 uppercase">${a.lang || 'ru'}</td>
+              <td class="p-3">
+                <div class="font-bold text-stone-200 group-hover:text-toxic-300 transition">${escapeHtml(a.title || a.slug)}</div>
+                <div class="font-mono text-[11px] text-stone-500">/${a.lang}/${a.type === 'event' ? 'events/' : ''}${a.slug}/</div>
+              </td>
+              <td class="p-3">
+                <span class="rounded px-1.5 py-0.5 text-[10px] font-mono ${a.type === 'event' ? 'bg-amber-950 text-amber-300 border border-amber-800' : 'bg-stone-800 text-stone-300'}">
+                  ${a.type || 'guide'}
+                </span>
+              </td>
+              <td class="p-3 font-mono text-[11px] text-stone-400">${(a.updated_at || '').slice(0, 10)}</td>
+              <td class="p-3">
+                <span class="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold ${isPub ? 'bg-toxic-400/20 text-toxic-300' : 'bg-red-900/20 text-red-400'}">
+                  <span class="h-1.5 w-1.5 rounded-full ${isPub ? 'bg-toxic-400' : 'bg-red-500'}"></span>
+                  ${isPub ? 'Опубликовано' : 'Черновик'}
+                </span>
+              </td>
+              <td class="p-3 text-right">
+                <button data-id="${a.id}" class="js-edit-btn rounded border border-stone-700 bg-stone-800 px-2.5 py-1 text-[11px] font-semibold text-stone-200 hover:bg-toxic-400 hover:text-black hover:border-toxic-400 transition cursor-pointer">
+                  Редактировать
+                </button>
+              </td>
+            </tr>
+          `;
+          })
+          .join('');
+
+        tbody.querySelectorAll('.js-edit-btn').forEach((btn) => {
+          btn.addEventListener('click', () => {
+            const id = btn.getAttribute('data-id');
+            const item = allArticles.find((x) => x.id === id);
+            if (item) openEditor(item);
+          });
+        });
+      }
+
+      function escapeHtml(str) {
+        return (str || '').replace(/[&<>"']/g, (m) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[m]));
+      }
+
+      function renderFiltered() {
+        const query = (document.getElementById('search-input')?.value || '').toLowerCase().trim();
+        const langVal = document.getElementById('filter-lang')?.value || 'all';
+        const typeVal = document.getElementById('filter-type')?.value || 'all';
+
+        const filtered = allArticles.filter((a) => {
+          if (langVal !== 'all' && (a.lang || '').toLowerCase() !== langVal) return false;
+          if (typeVal !== 'all' && (a.type || 'guide').toLowerCase() !== typeVal) return false;
+          if (query) {
+            const titleMatch = (a.title || '').toLowerCase().includes(query);
+            const slugMatch = (a.slug || '').toLowerCase().includes(query);
+            const descMatch = (a.description || '').toLowerCase().includes(query);
+            return titleMatch || slugMatch || descMatch;
+          }
+          return true;
+        });
+
+        renderTable(filtered);
+      }
+
+      function openEditor(item) {
+        editingArticle = item;
+        const modal = document.getElementById('modal-editor');
+        const modalTitle = document.getElementById('editor-modal-title');
+        const btnDelete = document.getElementById('btn-delete-article');
+
+        if (!modal) return;
+
+        if (item) {
+          modalTitle.textContent = `Редактирование: ${item.slug}`;
+          document.getElementById('ed-lang').value = item.lang || 'ru';
+          document.getElementById('ed-type').value = item.type || 'guide';
+          document.getElementById('ed-slug').value = item.slug || '';
+          document.getElementById('ed-title').value = item.title || '';
+          document.getElementById('ed-video').value = item.video_topic || '';
+          document.getElementById('ed-desc').value = item.description || '';
+          document.getElementById('ed-content').value = item.content || '';
+          document.getElementById('ed-published').checked = item.published !== false;
+          btnDelete?.classList.remove('hidden');
+        } else {
+          modalTitle.textContent = 'Новая статья';
+          document.getElementById('ed-lang').value = 'ru';
+          document.getElementById('ed-type').value = 'guide';
+          document.getElementById('ed-slug').value = '';
+          document.getElementById('ed-title').value = '';
+          document.getElementById('ed-video').value = '';
+          document.getElementById('ed-desc').value = '';
+          document.getElementById('ed-content').value = '';
+          document.getElementById('ed-published').checked = true;
+          btnDelete?.classList.add('hidden');
+        }
+
+        modal.classList.remove('hidden');
+      }
+
+      function closeEditor() {
+        document.getElementById('modal-editor')?.classList.add('hidden');
+        editingArticle = null;
+      }
+
+      async function saveArticle() {
+        const { url, key } = getCreds();
+        if (!url || !key) {
+          alert('Сначала настройте URL и ключ Supabase.');
+          return;
+        }
+
+        const slug = (document.getElementById('ed-slug')?.value || '').trim().toLowerCase();
+        const lang = (document.getElementById('ed-lang')?.value || 'ru').trim().toLowerCase();
+        const title = (document.getElementById('ed-title')?.value || '').trim();
+        const content = (document.getElementById('ed-content')?.value || '').trim();
+        const description = (document.getElementById('ed-desc')?.value || '').trim();
+        const type = document.getElementById('ed-type')?.value || 'guide';
+        const video_topic = (document.getElementById('ed-video')?.value || '').trim() || null;
+        const published = document.getElementById('ed-published')?.checked ?? true;
+
+        if (!slug || !title || !content) {
+          alert('Заполните обязательные поля: Slug, Заголовок и Текст статьи.');
+          return;
+        }
+
+        const payload = {
+          slug,
+          lang,
+          title,
+          description,
+          content,
+          type,
+          video_topic,
+          published,
+          updated_at: new Date().toISOString().slice(0, 10),
+        };
+
+        try {
+          const endpoint = `${url}/rest/v1/articles?on_conflict=lang,slug`;
+          const res = await fetch(endpoint, {
+            method: 'POST',
+            headers: {
+              apikey: key,
+              Authorization: `Bearer ${key}`,
+              'Content-Type': 'application/json',
+              Prefer: 'resolution=merge-duplicates',
+            },
+            body: JSON.stringify(payload),
+          });
+
+          if (!res.ok) {
+            const errText = await res.text();
+            throw new Error(`Ошибка ${res.status}: ${errText}`);
+          }
+
+          alert('✅ Статья успешно сохранена в базе данных!');
+          closeEditor();
+          fetchArticles();
+        } catch (err) {
+          alert(`❌ Ошибка сохранения: ${err.message}`);
+        }
+      }
+
+      async function deleteArticle() {
+        if (!editingArticle || !editingArticle.id) return;
+        if (!confirm(`Вы действительно хотите удалить статью "${editingArticle.slug}"?`)) return;
+
+        const { url, key } = getCreds();
+        try {
+          const res = await fetch(`${url}/rest/v1/articles?id=eq.${editingArticle.id}`, {
+            method: 'DELETE',
+            headers: {
+              apikey: key,
+              Authorization: `Bearer ${key}`,
+            },
+          });
+
+          if (!res.ok) {
+            throw new Error(`Ошибка: ${res.status}`);
+          }
+
+          alert('Статья удалена.');
+          closeEditor();
+          fetchArticles();
+        } catch (err) {
+          alert(`Ошибка удаления: ${err.message}`);
+        }
+      }
+
+      async function triggerDeploy() {
+        const { hook } = getCreds();
+        if (!hook) {
+          alert('Укажите Netlify Build Hook URL в «Настройках API», чтобы запускать сборку одной кнопкой.');
+          return;
+        }
+
+        if (!confirm('Запустить пересборку и публикацию сайта на Netlify?')) return;
+
+        try {
+          const res = await fetch(hook, { method: 'POST' });
+          if (res.ok) {
+            alert('🚀 Сборка успешно запущена! Новый контент появится на сайте в течение 1-2 минут.');
+          } else {
+            alert(`Ошибка вызова вебхука: ${res.status}`);
+          }
+        } catch (err) {
+          alert(`Ошибка: ${err.message}`);
+        }
+      }
+
+      // DOM Event Listeners
+      document.getElementById('btn-open-settings')?.addEventListener('click', () => {
+        const { url, key, hook } = getCreds();
+        document.getElementById('set-url').value = url;
+        document.getElementById('set-key').value = key;
+        document.getElementById('set-hook').value = hook;
+        document.getElementById('modal-settings')?.classList.remove('hidden');
+      });
+
+      document.getElementById('btn-close-settings')?.addEventListener('click', () => {
+        document.getElementById('modal-settings')?.classList.add('hidden');
+      });
+
+      document.getElementById('btn-save-settings')?.addEventListener('click', () => {
+        const url = (document.getElementById('set-url')?.value || '').trim();
+        const key = (document.getElementById('set-key')?.value || '').trim();
+        const hook = (document.getElementById('set-hook')?.value || '').trim();
+
+        localStorage.setItem(STORAGE_URL, url);
+        localStorage.setItem(STORAGE_KEY, key);
+        localStorage.setItem(STORAGE_HOOK, hook);
+
+        document.getElementById('modal-settings')?.classList.add('hidden');
+        fetchArticles();
+      });
+
+      document.getElementById('btn-new-article')?.addEventListener('click', () => openEditor(null));
+      document.getElementById('btn-close-editor')?.addEventListener('click', closeEditor);
+      document.getElementById('btn-cancel-editor')?.addEventListener('click', closeEditor);
+      document.getElementById('btn-save-article')?.addEventListener('click', saveArticle);
+      document.getElementById('btn-delete-article')?.addEventListener('click', deleteArticle);
+      document.getElementById('btn-deploy')?.addEventListener('click', triggerDeploy);
+
+      document.getElementById('search-input')?.addEventListener('input', renderFiltered);
+      document.getElementById('filter-lang')?.addEventListener('change', renderFiltered);
+      document.getElementById('filter-type')?.addEventListener('change', renderFiltered);
+      document.getElementById('btn-refresh')?.addEventListener('click', fetchArticles);
+
+      // Initial Load
+      fetchArticles();
+    })();
+  </script>
+</Base>

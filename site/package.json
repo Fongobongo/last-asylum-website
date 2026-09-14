@@ -5,11 +5,13 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "prebuild": "node scripts/encrypt-dnd.mjs",
+    "prebuild": "node scripts/sync-db-articles.mjs && node scripts/encrypt-dnd.mjs",
     "build": "astro build",
     "postbuild": "pagefind --site dist --output-path dist/pagefind",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "db:sync": "node scripts/sync-db-articles.mjs",
+    "db:seed": "node scripts/seed-supabase.mjs"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
