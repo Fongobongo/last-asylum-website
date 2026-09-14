@@ -27,8 +27,8 @@ videoTopic: calendar
 - 🎖️ **Survival Battle missions** — Weekly. Up to 60K skill badges/week; mission list varies by server.
 - 👑 **Kingdom War** — Biweekly. Prep/scoring through the week, main battle Saturday — 4-hour window.
 - 🧪 **Elixir Scramble** — Weekly. 30-min AvA point battle — remove squads from the wall before it starts!
-- 🧟 **Undead Siege** — Server-age based. After 300K clue points — 20 solo waves; hidden mechanic: 2–3 squads per wave, HP persists.
-- ☣️ **Era of Revival season** — ~2 months. Season cycle (~2 months): Resistance daily, Lord Statues, specialty trees.
+- 🧟 **Undead Siege** — Available 2 weeks after server launch; triggers after 300K clue points — 20 solo waves; hidden mechanic: 2–3 squads per wave, HP persists.
+- ☣️ **Era of Revival season** — 55 days (Expedition League): Resistance daily, Lord Statues, specialty trees.
 
 ## The claim-day trick (Mon/Wed/Fri) {#claim-days}
 

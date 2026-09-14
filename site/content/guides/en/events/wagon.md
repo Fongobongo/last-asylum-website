@@ -18,7 +18,8 @@ This guide covers the wagon's roles and chest rules, the Golden Wagon, the carav
 - **1 free wagon per alliance per day**, resetting around **11 AM KST**.
 - When the payment screen appears, **the free one has been used** — that is the tell that the daily free run is gone for the whole alliance.
 - **Paid extra runs exist — almost nobody buys them.** Ignore the paywall.
-- **Guild Gift levels raise the wagon level** — the shop gifts that raise gift level also upgrade what the wagon drops. Two reasons to care about gift level.
+- **Guild Gift levels raise the wagon level** — the shop gifts that raise gift level also upgrade what the wagon drops.
+- **Lv. 25 Alliance Gift Privilege (September 2026):** Reaching Alliance Gift Lv. 25 permanently grants an extra perk: **each Regular Wagon of the Alliance Trade Caravan carries 1 additional passenger**, significantly boosting passive daily rewards for members.
 
 ## Wagon Master, Guards, and VIPs {#wagon-master}
 
@@ -58,9 +59,9 @@ Caravans are the daily caravan event running alongside the wagon:
 
 The cross-server caravan route:
 
-1. Open **Caravan Trade** and check the **"Exclude caravans from this server"** green checkmark — that filters out your home server's caravans and shows foreign ones.
-2. Go to **Other's Caravan**, tap a caravan, and the **Plunder button teleports you to that kingdom**.
-3. Exit the popup and you can **roam that kingdom freely** while you are there.
+1. Open **Caravan Trade** and check the green checkmark on **"Exclude this server's caravans"** — it filters out home server caravans and reveals foreign ones. Cross-server dispatch can also be launched directly while viewing status.
+2. Go to **Other Caravans**, tap a caravan — and the **Plunder button teleports you to that Kingdom**.
+3. Close the popup — and you can **freely roam that Kingdom** while you are there.
 
 ## Box Priority: Gold, Purple, Blue {#box-priority}
 

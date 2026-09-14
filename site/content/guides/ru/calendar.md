@@ -29,8 +29,8 @@ videoTopic: calendar
 - 🎖️ **Миссии Битвы выживания** — Weekly. Up to 60K skill badges/week; mission list varies by server.
 - 👑 **Война королевств (KvK)** — Biweekly. Prep/scoring through the week, main battle Saturday — 4-hour window.
 - 🧪 **Битва за эликсир** — Weekly. 30-min AvA point battle — remove squads from the wall before it starts!
-- 🧟 **Осада зомби** — Server-age based. After 300K clue points — 20 solo waves; hidden mechanic: 2–3 squads per wave, HP persists.
-- ☣️ **Сезон Эры Возрождения** — ~2 months. Season cycle (~2 months): Resistance daily, Lord Statues, specialty trees.
+- 🧟 **Осада зомби** — Доступна через 2 недели после старта сервера; запускается после сбора 300K улик — 20 соло-волн; скрытая механика: 2–3 отряда на волну, HP сохраняется.
+- ☣️ **Сезон Эры Возрождения** — 55 дней (Лига экспедиций): Сопротивление ежедневно, Статуи Лорда, деревья специализаций.
 
 ## Трюк очковых дней (пн/ср/пт) {#claim-days}
 

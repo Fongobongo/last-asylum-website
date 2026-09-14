@@ -22,9 +22,12 @@ infographics: ["/infographics/skill-scaling.webp"]
 | Tank | Boots | Chest | HP/DEF keep the frontline standing |
 | Carry order (Annie/Jester) | Sword → Gauntlets → Armor → Boots | | Community order for warlock carries |
 
-## Gear Promotion (the May 2026 system) {#promotion}
+## Gear Promotion and Exclusive Weapon Smelt {#promotion}
 
 Since the May 2026 update, gear can be **promoted** with Blueprints at levels **10, 20, 30 and 40**, and enhanced beyond 40 up to **60** — the total material cost stays the same as the old system. Promotions unlock additional bonus stats; higher promotion tiers are the main long-term gear goal.
+
+### Exclusive Weapon Smelt (10-Star Smelt) {#exclusive-smelt}
+After an Exclusive Weapon reaches **10 Stars**, the **Smelt** feature unlocks (August 20, 2026 update), allowing you to further enhance its secondary combat attributes (critical damage, defense penetration, lifesteal).
 
 ## Boss-fight gear (Demon King) {#boss-gear}
 
@@ -36,7 +39,7 @@ Against bosses that don't fight back, the normal rules invert:
 
 ## Raven gear {#raven-gear}
 
-The Raven has its own gear set (left side: HP/crit-damage-reduction, right side: ATK/crit damage). Push it toward **level 8** where percentage buffs kick in. **Save raven gear chests for Alliance Duel days** — opening them scores event points.
+The Raven has its own gear set (left side: HP/crit-damage-reduction, right side: ATK/crit damage). Push it toward **level 8** where percentage buffs kick in (research progress is now displayed for Lv.8 and above equipment). **Save raven gear chests for Alliance Duel days** — opening them scores event points.
 
 Special-effect sets (Night Raven Mask, Raven Feather Cloak) activate at designated levels of their pieces — added in the March 2026 update.
 

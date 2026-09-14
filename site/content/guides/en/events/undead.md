@@ -15,7 +15,7 @@ This guide covers how sieges unlock, the difficulty ladder, the hidden multi-squ
 
 ## How a Siege Unlocks {#unlocking}
 
-Sieges are not on a timer — your alliance triggers them:
+Sieges are not on a timer — your alliance triggers them (the event becomes available to Alliances **2 weeks after server launch** — July 9, 2026 update):
 
 1. Fill the **300,000 Clue Points** bar.
 2. An **R4 or R5 finds the hidden Death Prison** on the map.

@@ -98,13 +98,22 @@ In the Era of Revival season, Awakened hero progression follows one fixed order.
 
 1. Main hero to 10 stars.
 2. Awakening.
-3. Exclusive Weapon.
+3. Exclusive Weapon (reaching 10 Stars unlocks the Smelt feature for bonus secondary attributes).
 4. Lord Evolution.
 5. Lord Resistance.
 6. Era Enhancement — one main skin only.
 7. Only then: start the second hero through the same ladder.
 
 The rule that binds all of it: **never split Awakening materials**. Awakening one hero fully outperforms awakening two heroes halfway — better one strong march than several half-finished ones. The Era-specific context for each step is in the [Era of Revival guide](/era/).
+
+## Key Hero Balance Updates {#hero-balance-notes}
+
+Recent balance patches adjusted several key heroes:
+
+- **Daskal**: His skill *Resolute Fight* was reworked to grant shields to allied backline DPS heroes when their HP drops below 50% (previously granted shields to tanks at the start of battle). This turns him into the premier lifesaver for fragile carries like Marlena and Zoya.
+- **Billy**: *Truth and Lies* now applies the DMG Taken Increase debuff to 3 random enemy units (was: single target). His *Puppet* 3★ passive additionally reduces Energy DMG taken by 8%.
+- **Nicole**: *Ember Dust* recovery was adjusted to 10k + 50% HP; *Heartwarming Flame* healing output was refined.
+- **Ulfrid**: Officially renamed from Brian in the July 2, 2026 update. He remains the premier reflect-damage tank for mono-Warlock rosters.
 
 ## The Might Formula {#might-formula}
 
@@ -116,6 +125,6 @@ When you compare accounts, might is the sum of five separate stacks:
 | Raven Might | Raven levels, gear and epigraphs — see the [Raven guide](/raven/). |
 | Soldier Might | Troop tiers and army size. |
 | Tech Bonus | Research Lab tree. |
-| Building Bonus | City buildings — Warrior Statue, and others. |
+| Building Bonus | City buildings — Temple (formerly faction statues), Hall of Honor, and others. |
 
 Use the split diagnostically: if your might is hero-heavy but soldier-light, you are one bad fight from losing an army you cannot replace. If it is soldier-heavy but hero-light, your marches punch below their weight. The strongest accounts keep the stacks in rough proportion — which is exactly what following the build priority order and the F2P squad timeline does for you.

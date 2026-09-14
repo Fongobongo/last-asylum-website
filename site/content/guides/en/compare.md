@@ -69,3 +69,15 @@ videoTopic: compare
 | **Scaling** | 8★/10★ significantly better than 6★ | Steady placeholder |
 | **Rule** | If bought: treat as TEMP hero — 8★ max, skills 15–20 | Swap in freely while building Daskal |
 | **Endgame** | Daskal replaces both | — |
+
+## Ulfrid vs Billy — Warlock frontline {#ulfrid-vs-billy}
+
+**✓ Ideally pair together; if picking one — Ulfrid for PvE/bosses, Billy for PvP anti-CC**
+
+| | | |
+|---|---|---|
+| **Role** | Reflect damage tank (renamed from Brian) | Anti-CC tank and debuffer |
+| **Key Skill** | Reflect damage + survivability | Stun immunity (counters Red Lady) + −8% energy DMG taken |
+| **Debuff** | Monster damage reduction | +DMG taken debuff applied to 3 random enemies (Truth and Lies) |
+| **Source** | UR summon / Day 43 banner | Hero Pass / Day 85 Daily Offer |
+| **Verdict** | Backbone frontline of mono-Warlocks | Mandatory in PvP against Ranger crowd control |

@@ -13,7 +13,7 @@ The season rewards focus, and it punishes distraction harder than the base game 
 
 ## Season Overview {#season-overview}
 
-One season runs roughly two months. Within it, three systems carry the progression:
+One season (Expedition League) runs for **55 days** (reduced from 56 days in the August 13, 2026 update). Within it, three systems carry the progression:
 
 - **Lord Statue** — Resistance and Lord Evolution. The backbone of the season; see the [Lord Statues section](#lord-statues).
 - **Specialty trees** — role-defining bonuses, split between growth and war paths.
@@ -28,7 +28,7 @@ Two practical rules for pushing Resistance:
 - **Attack monsters even at a 30% damage penalty.** The fight is often still clearable — and the Resistance XP flows either way.
 - **Rally Elite Blight with a higher-Resistance ally.** Group difficulty scales with the participants; a stronger ally drags your clear along with them.
 
-One freebie worth grabbing immediately: the **Greenery Shelter skin grants +100 Resistance XP**. Claim it, apply it, and let it pay out every single day of the season — that is 100 XP per day you do not have to fight for.
+One freebie worth grabbing immediately: the **Greenery Shelter skin grants +100 Resistance XP**. Claim it, apply it, and let it pay out every single day of the season — that is 100 XP per day you do not have to fight for. The Era Shop also features the permanent **Castle of Revival** castle skin.
 
 ## Specialty Trees: Growth vs War {#specialty-trees}
 
@@ -38,6 +38,9 @@ The specialty trees split by spending profile, and the community picks are unamb
 |---|---|---|
 | F2P and mid-spenders | Handyman / Skilled Craftsman | Research and building time cuts — rush your Sanctuary and reach Tier 10 troops faster. |
 | Whales / PvP-focused | Legion Commander / Military Commander | Battle buffs, healing, and rally power — the war path. |
+
+> [!NOTE] Specialty Tech Requirements (July 2026 update)
+> Unlocking advanced Specialty Tech branches requires **Research Lab Lv. 30** and completing **80% of Elite Troop Tech**.
 
 The logic: if you are not outspending your neighbors, the growth trees win you the season by letting you out-build them. If you already out-spend them, the war trees convert that into battlefield results.
 
@@ -69,7 +72,7 @@ The Awakened hero ladder inside the season, for your main hero, in order:
 
 1. Main hero to 10 stars.
 2. Awakening.
-3. Exclusive Weapon.
+3. Exclusive Weapon (reaching 10★ unlocks **Smelt** to convert excess shards into weapon enhancement materials).
 4. Lord Evolution.
 5. Lord Resistance.
 6. Era Enhancement — one main skin only.

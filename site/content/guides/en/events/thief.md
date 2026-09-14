@@ -19,15 +19,17 @@ This guide covers boss spawn mechanics, the technique for spawning high-level bo
 - Bosses spawn **on the first kill or after 20** — the roll happens early or after a streak. One alliance reports **always 8 or more**; expect variance and keep killing.
 - Points and rewards **do not increase later in the event**. There is zero reason to hoard stamina — **spend it immediately** to roll for the big bosses sooner.
 
-## Boss Levels by Server {#boss-levels}
+## Boss Levels & Alliance Cap Progression {#boss-levels}
 
 | Server age | Common boss levels |
 |---|---|
-| Typical | 10 / 15 / 20 / 25 / 30, rarely 35 |
-| Older servers | 40 / 65 / 85 / 90 |
+| New servers | 10 / 15 / 20 / 25 / 30, rarely 35 |
+| Developed servers | 40 / 65 / 80 / 85 / 90+ |
 
-- Your boss level **range is random per player and does not change** — you roll your range and you keep it. It is **not tied to your might**, so a low-might player can roll high-level bosses.
-- **Post-July-08 patch: spawns are accurate to server growth.** Since that patch, boss levels track how developed the server is — no more level 10 bosses on a year-old server.
+- **How Level Cap Increases:** Max discoverable Leader level increases after the highest Leader is defeated **3 times** by your Alliance members (July 30, 2026 update).
+- **Discovery Ownership Rule:** The Leader Level Cap only increases when Leaders discovered by *your* Alliance are defeated by *your* members. Defeats by other Alliances do not affect your level cap (July 2, 2026 update).
+- **Chief's Coin Chest:** Lv.80+ Thief Leaders now drop a valuable **Chief's Coin Chest**, awarded directly to both the discoverer and the Rally initiator!
+- Boss levels scale with the server development stage — high-age servers will no longer see low-level spawns.
 
 ## The Nonstop-Kill Technique for Level 30/35 {#spawn-technique}
 

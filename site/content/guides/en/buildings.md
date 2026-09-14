@@ -31,11 +31,13 @@ A quick reference for the buildings you will actually be tapping. Translations d
 |---|---|---|
 | Sanctuary | Gates all other building levels, sets the hero level cap, grants EXP per upgrade, and unlocks buildings and features as it levels. | Upgrade on cooldown. It is your real player level. |
 | Builder's Hut | Produces free construction speedups. Survivors stationed inside give extra bonuses — swap in better survivors as you recruit them. | Keep at Sanctuary level until Sanctuary 15 for the free speedup stream. |
-| Research Lab | Runs your tech tree: economy, military, and development research. | Priority #4 — permanent compounding stats. |
+| Research Lab | Runs your tech tree: economy, military, and development research. Merged Research Lab 1 & 2: both queues enjoy optimal Speedup Buffs. | Priority #4 — permanent compounding stats. |
 | Barracks / Training Grounds | Names get swapped between translations. One opens troop tiers; the other increases soldier capacity. | Check the in-game tooltip to see which is which in your client, then build the tier-opener first. |
 | Infirmary | Heals wounded soldiers after defeats. | Undersized Infirmary = permanent troop losses after every lost fight. |
 | Antitoxin Workshop | Produces Antidotes — the key hero resource used across hero progression systems. | Build it early. Falling behind on Antidotes stalls hero upgrades later. |
 | Gear / Smelting / Weaving Workshops | Craft and upgrade hero gear from farmed materials. | High Gear Workshop levels arrive with Sanctuary 20 — one more reason 20 matters. |
+| Temple | Unified cult building (merging former Warrior, Ranger, and Warlock Statues). Provides percentage stat bonuses to your chosen faction. | Upgrade to boost squad power and satisfy Sanctuary pre-requisites. |
+| Hall of Honor | Displays hero honor levels and unlocks the Honor Shop (core source of UR Gear Blueprints). | Essential for late-game gear progression. |
 | Tavern | Hero recruiting — the banner and pull system lives here. | Save diamonds for dated UR events instead of dumping them here. |
 | Alliance Hall | Deepens alliance participation and rewards. | Follow the roadmap below — it matters more than new players expect. |
 
@@ -50,9 +52,9 @@ This is the community roadmap (from the guide by elsiika57) for what to level at
 | Sanctuary push | Bring these buildings up |
 |---|---|
 | Lv 1-10 | Lv 4 Lumber Depot 1, Granary 1, Storage 1. At Sanctuary 5-6: Walls 3 to 5. At Sanctuary 7-8: Training Grounds 4, Alliance Hall 3 to 5. At Sanctuary 9-10: Walls 8-9, Alliance Hall 7, Infirmary 7. |
-| Lv 11-18 | At Sanctuary 11: Training Grounds 10, Research Lab 7. At Sanctuary 12-13: Research Lab 11-12, Walls 10, Alliance Hall 11. At Sanctuary 14-15: Research Lab 13-14, Warrior Statue 12, Training Grounds 14. At Sanctuary 16-18: Warrior Statue 14, Research Lab 15-17, Barracks 15, Training Grounds 17. |
-| Lv 19-24 | Research Lab 18, Warrior Statue 17, Alliance Hall 18. At Sanctuary 21-22: Research Lab 20, Training Grounds 20, Infirmary 21. At Sanctuary 23-24: Infirmary 22, Research Lab 23, Walls 23. |
-| Lv 25-29 | Training Grounds 24, Research Lab 24-25, Warrior Statue 25. At Sanctuary 27-28: Research Lab 26, Training Grounds 26, Barracks 27. At Sanctuary 29: Alliance Hall 28, Research Lab 28. |
+| Lv 11-18 | At Sanctuary 11: Training Grounds 10, Research Lab 7. At Sanctuary 12-13: Research Lab 11-12, Walls 10, Alliance Hall 11. At Sanctuary 14-15: Research Lab 13-14, Temple 12, Training Grounds 14. At Sanctuary 16-18: Temple 14, Research Lab 15-17, Barracks 15, Training Grounds 17. |
+| Lv 19-24 | Research Lab 18, Temple 17, Alliance Hall 18. At Sanctuary 21-22: Research Lab 20, Training Grounds 20, Infirmary 21. At Sanctuary 23-24: Infirmary 22, Research Lab 23, Walls 23. |
+| Lv 25-29 | Training Grounds 24, Research Lab 24-25, Temple 25. At Sanctuary 27-28: Research Lab 26, Training Grounds 26, Barracks 27. At Sanctuary 29: Alliance Hall 28, Research Lab 28. |
 | Lv 30 | Sanctuary 30 is the max. Finish every remaining gate. |
 
 Notice the pattern inside the table: Research Lab and Training Grounds never fall far behind the Sanctuary, Walls and Infirmary catch up in blocks, and Alliance Hall gets pushed in three separate windows. If your city ever diverges wildly from this shape, that is usually the sign of a mistake — most often equally-leveling everything.
@@ -120,6 +122,7 @@ Research Lab technologies provide compounding permanent multipliers across comba
 | **Tier B (Mid/Late)** | **Elite Troops** | Unlocks Tier 10 Troops (T10) | Requires Sanctuary 30 and full pre-requisite completion. Endgame milestone. |
 | **Tier B (Mid/Late)** | **Caravan Transport** | Caravan capacity and escort stats | Enhances Gold Caravan defense and plunder returns with zero troop losses. |
 | **Tier C (Situational)**| **Tactics (Offensive/Defensive)**| Casualty reduction in KvK Bastion rallies | Ideal before Kingdom War season begins. |
+| **Tier S (Endgame)**   | **Specialty Tech**               | Powerful Era active & passive specialty buffs | Unlocks when Research Lab reaches Lv.30 and Elite Troop Tech reaches 80%. Peak tech tree pinnacle. |
 
 ### Troop Tier Milestones
 - **T7 Troops**: Sanctuary 20 + Training Grounds 20.

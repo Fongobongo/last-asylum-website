@@ -87,6 +87,17 @@ Tier values scale between the two endpoints — higher tiers pay several times w
 
 The conclusion is obvious: **save your training speedups for Phase 5.** A speedup burned on a random Tuesday is worth 30% less and earns half the points.
 
+## Phase 6: Saturday PvP Showdown & Raid Buffs {#phase-6}
+
+Saturday is the climax of the duel week: two matched alliances clash head-to-head in a cross-server raid showdown.
+
+- **PvP Points:** Points are awarded for defeating enemy soldiers and successfully breaching enemy cities.
+- **New Raid Buffs (August 20, 2026 update):** During the Saturday Raid Phase, powerful Raid Buffs are active:
+  - Increased Infirmary Capacity to prevent fatal troop overflow;
+  - Increased Healing Speed for wounded soldiers;
+  - Reduced Healing Cost (resource discount).
+- **Alliance League Phase:** For servers older than 7 weeks, the top 16 alliances in each Kingdom compete in the competitive League Phase featuring dedicated banners and bracket rewards.
+
 ## Sunday: The Pre-Planning Day {#sunday-planning}
 
 The break day after Phase 6 is not a rest day — it is the planning day for the next cycle. Before the new duel starts:

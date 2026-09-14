@@ -26,12 +26,14 @@ Raven levels unlock the epigraph slots (called Plans) one at a time:
 | Raven level | Unlock |
 |---|---|
 | 10 | Epigraphs + Plan 1 (first slot) |
-| 150 | Plan 2 (+1 system bonus) |
+| 150 | Plan 2 (+1 system bonus), new Raven look & stats |
+| 200 | New Raven look & enhanced stats |
+| 250 | New endgame look & maximum base stats |
 | 300 | Plan 3 (+2) |
 | 450 | Plan 4 (+3) |
 | 600 | Plan 5 (+4) |
 
-Read the table as the Raven's true progression path: level 10 opens the whole epigraph system, and every 150 levels after that adds another slot to fill. Because each Plan slot carries its own epigraph buff, a stalled Raven level caps how many of those buffs you can even equip.
+Read the table as the Raven's true progression path: level 10 opens the whole epigraph system, and every 150 levels after that adds another slot to fill. Reaching levels 150, 200, and 250 also unlocks new visual looks and major stat boosts. The interface now features separate buttons for Skin selection and Upgrade Preview. Because each Plan slot carries its own epigraph buff, a stalled Raven level caps how many of those buffs you can even equip.
 
 ## Raven Gear Strategy {#raven-gear}
 
@@ -48,7 +50,7 @@ And one calendar rule: **save your gear chests for Alliance Duel days.** Opening
 
 Epigraphs slot into the Raven's Plans and buff the heroes of a faction. The rarities behave differently, and the differences drive every upgrade decision:
 
-- **UR (gold)** — buffs ONE faction only. The end goal, and the reason mono-faction squads are the meta.
+- **UR (gold)** — buffs ONE faction only. The end goal, and the reason mono-faction squads are the meta. As of the August 20, 2026 update, Raven Epigraphs can now be upgraded up to **6 Stars** (previously capped at 5★), unleashing massive percentage stat scaling.
 
 - **SR (blue) and R (green)** — buff ALL factions, but cannot be promoted. They are the everyone-gets-a-cut tier, useful while you build toward UR.
 
@@ -61,6 +63,7 @@ The single most important rule: **only upgrade epigraphs of your main squad's fa
 | Frenzy Flock | Attack | ATK buff to Warrior allies after the Raven skill fires, plus more Raven targets. |
 | Reversal Power | Support | Damage for the 3 highest-ATK Warrior allies, and reduces enemy ultimate damage. |
 | Protective Charm | — | Survivability pick — the standard third choice when your squad keeps dying instead of losing on damage. |
+| Guard of Nature | Defense (UR) | Shield activates when battle starts; damage reduction activates after the shield breaks. |
 
 ## The Epigraph Workshop {#epigraph-workshop}
 

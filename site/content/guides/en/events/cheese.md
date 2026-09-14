@@ -15,7 +15,8 @@ This guide covers the two reward tracks, the stop-point rule, level scaling, and
 
 ## How It Works {#how-it-works}
 
-- An **R4 or R5 sets the start**. From that click the alliance has **about 1.5 hours to attack**.
+- An **R4 or R5 sets the start** via the unified Event Schedule. From that click the alliance has **about 1.5 hours to attack**.
+- **Cursed Land Placement Forbidden:** Since the July 2, 2026 update, placing new Cheese Traps in the Cursed Land is no longer permitted.
 - **Cheese Trap I and II differ only in time** — same rat, same rules, different window. Pick whichever fits your schedule.
 - **You can only fight ONE of the two rats.** There is no splitting your troops across both.
 - **Offline participation works** — join the rally ahead of time and your squads fight even if you log off. Set your march before the window opens, then live your life.

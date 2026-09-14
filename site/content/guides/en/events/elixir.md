@@ -27,6 +27,7 @@ Every scramble runs the same arc, about six minutes per stage across the half ho
 
 - Players sign up as **Team A or Team B**, or the **R5 signs the alliance up** directly.
 - **After registration closes, nobody can be added.** No late joiners, no substitutes — if half your alliance sleeps through sign-up, you fight short-handed.
+- **Registration Reminder Mails (July 2026 update):** The game sends automatic reminder mails to alliance officers: 4 hours before deadline for unregistered alliances, and 2 hours before deadline if fewer than 10 members are registered.
 - Scheduling example: a scramble that starts at **3PM CST runs at 9PM UK**. Check the event timer in your own timezone and set an alarm — the event rewards being online at the exact start, not five minutes in.
 
 ## Where Points Come From {#points}
