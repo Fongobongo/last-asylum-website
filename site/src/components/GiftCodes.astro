@@ -255,67 +255,120 @@ const allActiveCodesText = activeCodes.map((c) => c.code).join("\n");
   </div>
 </div>
 
-<script>
-  // Individual Code Copy
-  document.querySelectorAll(".js-copy").forEach((btn) => {
-    btn.addEventListener("click", async () => {
-      const code = (btn as HTMLElement).dataset.code ?? "";
-      const copiedLabel = (btn as HTMLElement).dataset.labelCopied ?? "✓ Copied";
-      const copyLabel = (btn as HTMLElement).dataset.labelCopy ?? "Copy";
+<script is:inline>
+  (function() {
+    async function copyToClipboard(text) {
+      if (!text) return false;
+      // Modern Clipboard API
+      if (navigator.clipboard && window.isSecureContext) {
+        try {
+          await navigator.clipboard.writeText(text);
+          return true;
+        } catch (err) {
+          console.warn("navigator.clipboard failed, attempting fallback", err);
+        }
+      }
+
+      // Hidden textarea fallback
       try {
-        await navigator.clipboard.writeText(code);
-        (btn as HTMLElement).textContent = copiedLabel;
-        btn.classList.add("border-toxic-400", "text-toxic-300", "bg-toxic-500/10");
-        setTimeout(() => {
-          (btn as HTMLElement).textContent = copyLabel;
-          btn.classList.remove("border-toxic-400", "text-toxic-300", "bg-toxic-500/10");
-        }, 1500);
-      } catch {
-        (btn as HTMLElement).textContent = code;
+        const textarea = document.createElement("textarea");
+        textarea.value = text;
+        textarea.setAttribute("readonly", "");
+        textarea.style.position = "fixed";
+        textarea.style.left = "-9999px";
+        textarea.style.top = "0";
+        textarea.style.opacity = "0";
+        document.body.appendChild(textarea);
+        textarea.focus();
+        textarea.select();
+        textarea.setSelectionRange(0, textarea.value.length);
+        const success = document.execCommand("copy");
+        document.body.removeChild(textarea);
+        return success;
+      } catch (err) {
+        console.error("execCommand fallback failed", err);
+        return false;
       }
-    });
-  });
+    }
 
-  // Copy All Codes
-  const copyAllBtn = document.getElementById("js-copy-all");
-  if (copyAllBtn) {
-    copyAllBtn.addEventListener("click", async () => {
-      const allText = copyAllBtn.dataset.all ?? "";
-      const defaultLabel = copyAllBtn.dataset.default ?? "Copy All";
-      const copiedLabel = copyAllBtn.dataset.copied ?? "✓ Copied!";
-      try {
-        await navigator.clipboard.writeText(allText);
-        copyAllBtn.textContent = copiedLabel;
-        copyAllBtn.classList.add("bg-toxic-400", "text-black", "border-toxic-400");
-        setTimeout(() => {
-          copyAllBtn.textContent = defaultLabel;
-          copyAllBtn.classList.remove("bg-toxic-400", "text-black", "border-toxic-400");
-        }, 2000);
-      } catch {
-        alert("Clipboard access denied.");
+    function initGiftCodes() {
+      // Individual Code Copy
+      document.querySelectorAll(".js-copy").forEach(function(btn) {
+        if (btn.dataset.bound === "true") return;
+        btn.dataset.bound = "true";
+
+        btn.addEventListener("click", async function() {
+          const code = btn.dataset.code || "";
+          const copiedLabel = btn.dataset.labelCopied || "✓ Copied";
+          const copyLabel = btn.dataset.labelCopy || "Copy";
+
+          const ok = await copyToClipboard(code);
+          if (ok) {
+            btn.textContent = copiedLabel;
+            btn.classList.add("border-toxic-400", "text-toxic-300", "bg-toxic-500/10");
+            setTimeout(function() {
+              btn.textContent = copyLabel;
+              btn.classList.remove("border-toxic-400", "text-toxic-300", "bg-toxic-500/10");
+            }, 1500);
+          } else {
+            window.prompt("Код для копирования (Ctrl+C / Cmd+C):", code);
+          }
+        });
+      });
+
+      // Copy All Codes
+      const copyAllBtn = document.getElementById("js-copy-all");
+      if (copyAllBtn && copyAllBtn.dataset.bound !== "true") {
+        copyAllBtn.dataset.bound = "true";
+        copyAllBtn.addEventListener("click", async function() {
+          const allText = copyAllBtn.dataset.all || "";
+          const defaultLabel = copyAllBtn.dataset.default || "Copy All";
+          const copiedLabel = copyAllBtn.dataset.copied || "✓ Copied!";
+
+          const ok = await copyToClipboard(allText);
+          if (ok) {
+            copyAllBtn.textContent = copiedLabel;
+            copyAllBtn.classList.add("bg-toxic-400", "text-black", "border-toxic-400");
+            setTimeout(function() {
+              copyAllBtn.textContent = defaultLabel;
+              copyAllBtn.classList.remove("bg-toxic-400", "text-black", "border-toxic-400");
+            }, 2000);
+          } else {
+            window.prompt("Коды для копирования (Ctrl+C / Cmd+C):", allText);
+          }
+        });
       }
-    });
-  }
 
-  // Toggle Expired Codes Accordion
-  const toggleBtn = document.getElementById("js-toggle-expired");
-  const expiredContainer = document.getElementById("js-expired-container");
-  const toggleLabel = document.getElementById("js-toggle-expired-label");
-  const toggleIcon = document.getElementById("js-toggle-expired-icon");
+      // Toggle Expired Codes Accordion
+      const toggleBtn = document.getElementById("js-toggle-expired");
+      const expiredContainer = document.getElementById("js-expired-container");
+      const toggleLabel = document.getElementById("js-toggle-expired-label");
+      const toggleIcon = document.getElementById("js-toggle-expired-icon");
 
-  if (toggleBtn && expiredContainer && toggleLabel && toggleIcon) {
-    let isOpen = false;
-    toggleBtn.addEventListener("click", () => {
-      isOpen = !isOpen;
-      if (isOpen) {
-        expiredContainer.classList.remove("hidden");
-        toggleLabel.textContent = toggleBtn.dataset.hide ?? "Hide Expired Codes";
-        toggleIcon.style.transform = "rotate(180deg)";
-      } else {
-        expiredContainer.classList.add("hidden");
-        toggleLabel.textContent = toggleBtn.dataset.show ?? "Show Expired Codes";
-        toggleIcon.style.transform = "rotate(0deg)";
+      if (toggleBtn && expiredContainer && toggleLabel && toggleIcon && toggleBtn.dataset.bound !== "true") {
+        toggleBtn.dataset.bound = "true";
+        let isOpen = false;
+        toggleBtn.addEventListener("click", function() {
+          isOpen = !isOpen;
+          if (isOpen) {
+            expiredContainer.classList.remove("hidden");
+            toggleLabel.textContent = toggleBtn.dataset.hide || "Hide Expired Codes";
+            toggleIcon.style.transform = "rotate(180deg)";
+          } else {
+            expiredContainer.classList.add("hidden");
+            toggleLabel.textContent = toggleBtn.dataset.show || "Show Expired Codes";
+            toggleIcon.style.transform = "rotate(0deg)";
+          }
+        });
       }
-    });
-  }
+    }
+
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", initGiftCodes);
+    } else {
+      initGiftCodes();
+    }
+    document.addEventListener("astro:page-load", initGiftCodes);
+  })();
 </script>
+

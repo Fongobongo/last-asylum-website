@@ -7,11 +7,13 @@ and rewrites:
 """
 
 import json
+import os
 import re
 
-ROOT = "D:/PythonProjects/LA_site"
+ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA = f"{ROOT}/data"
 SITE_DATA = f"{ROOT}/site/src/data"
+
 
 
 def load(fname):
