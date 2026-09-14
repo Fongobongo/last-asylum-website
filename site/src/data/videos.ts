@@ -535,6 +535,17 @@ export const videoTitles: Record<string, Partial<Record<Lang, string>>> = {
     "ko": "초보자를 위한 길드 마차 캐러밴 완벽 가이드 (뀨잉이)",
     "pt": "Guia completo da carroça da guilda e escolta"
   },
+  "FQrDCmOVx8o": {
+    "en": "Why You NEED an Active Alliance in Last Asylum (Full Benefits Guide)",
+    "ru": "Зачем нужен активный альянс — полный разбор бонусов и наград",
+    "de": "Warum du eine aktive Allianz brauchst — Vollständiger Guide",
+    "es": "Por qué necesitas una alianza activa — Guía completa de beneficios",
+    "fr": "Pourquoi une alliance active est essentielle — Guide des récompenses",
+    "id": "Pentingnya Aliansi Aktif — Panduan Lengkap Manfaat dan Hadiah",
+    "ja": "なぜ活発な同盟が不可欠なのか？同盟報酬＆メリット完全解説",
+    "ko": "활성 연맹이 필수인 이유 — 전체 혜택 및 보상 완벽 가이드",
+    "pt": "Por que você precisa de uma aliança ativa — Guia de benefícios"
+  },
   "crDuOmGa-yY": {
     "en": "Caravan Raids — Better Rewards & UR Shards",
     "ru": "Нападения на караваны: как грабить максимум UR осколков",
@@ -747,6 +758,42 @@ export const rawVideos: Record<string, Video[]> = {
     {
       "id": "D8rB9d_5cX8",
       "title": "Best Start Guide — Your First 24 Hours",
+      "lang": "en"
+    }
+  ],
+  "strike_first_ru": [
+    {
+      "id": "j3nYVmqn97Q",
+      "title": "Событие для новичков (Первый удар) — Полное прохождение",
+      "lang": "en"
+    },
+    {
+      "id": "ljXO4lFCL2E",
+      "title": "Гайд по застройке и старту базы",
+      "lang": "ru"
+    }
+  ],
+  "final_dawn_ru": [
+    {
+      "id": "ljXO4lFCL2E",
+      "title": "Гайд по застройке и приоритетам базы",
+      "lang": "ru"
+    },
+    {
+      "id": "D8rB9d_5cX8",
+      "title": "Идеальный старт — первые 24 часа выживания",
+      "lang": "en"
+    }
+  ],
+  "path_to_healing_ru": [
+    {
+      "id": "m-C9_1aNjro",
+      "title": "Герои: механика PVP и прокачка",
+      "lang": "ru"
+    },
+    {
+      "id": "98MOWm31PqE",
+      "title": "Главный гайд по героям и ролям для новичков",
       "lang": "en"
     }
   ],
@@ -1051,9 +1098,9 @@ export const rawVideos: Record<string, Video[]> = {
       "lang": "en"
     },
     {
-      "id": "cN832LwDzlg",
-      "title": "Alliance Duel Full 6-Day Progression",
-      "lang": "ru"
+      "id": "sHtY9euKC8c",
+      "title": "Supreme Duel: Winner Takes All Strategy",
+      "lang": "en"
     }
   ],
   "alliance_duel_ru": [
@@ -1126,35 +1173,35 @@ export const rawVideos: Record<string, Video[]> = {
   ],
   "kvk": [
     {
-      "id": "q0g5pRPXna0",
-      "title": "KvK Guide — 5 Essential Strategies",
-      "lang": "en"
-    },
-    {
       "id": "QjtaglYMb8c",
       "title": "UR Blueprint for KvK Victory",
       "lang": "en"
     },
     {
-      "id": "eyXS-5vPIjI",
-      "title": "War of Kingdoms Tactical Defense",
+      "id": "sHtY9euKC8c",
+      "title": "Supreme Duel: Winner Takes All Strategy",
+      "lang": "en"
+    },
+    {
+      "id": "rMrq2N9PT7E",
+      "title": "Royal City Scramble — Throne Fight",
       "lang": "en"
     }
   ],
   "kvk_ru": [
-    {
-      "id": "q0g5pRPXna0",
-      "title": "Война серверов (KvK) — 5 главных стратегий",
-      "lang": "en"
-    },
     {
       "id": "QjtaglYMb8c",
       "title": "План победы в KvK и UR чертежи",
       "lang": "en"
     },
     {
-      "id": "eyXS-5vPIjI",
-      "title": "Тактика обороны и захвата башен",
+      "id": "sHtY9euKC8c",
+      "title": "Высшая дуэль: стратегия абсолютной победы",
+      "lang": "en"
+    },
+    {
+      "id": "rMrq2N9PT7E",
+      "title": "Битва за королевский город — битва за трон",
       "lang": "en"
     }
   ],
@@ -1165,13 +1212,13 @@ export const rawVideos: Record<string, Video[]> = {
       "lang": "pt"
     },
     {
-      "id": "QjtaglYMb8c",
-      "title": "Estratégia de Vitória na Guerra de Reinos",
-      "lang": "en"
+      "id": "eyXS-5vPIjI",
+      "title": "Táticas de Defesa e Ataque em KvK",
+      "lang": "pt"
     },
     {
-      "id": "eyXS-5vPIjI",
-      "title": "Táticas de Combate no KvK",
+      "id": "QjtaglYMb8c",
+      "title": "Projeto UR para a Vitória no KvK",
       "lang": "en"
     }
   ],
@@ -1305,6 +1352,11 @@ export const rawVideos: Record<string, Video[]> = {
   ],
   "survival_ru": [
     {
+      "id": "cN832LwDzlg",
+      "title": "Дуэль альянсов и недельные события",
+      "lang": "ru"
+    },
+    {
       "id": "akt3OGeHXgY",
       "title": "Битва выживания — как забрать 60 000 жетонов",
       "lang": "en"
@@ -1394,9 +1446,9 @@ export const rawVideos: Record<string, Video[]> = {
       "lang": "en"
     },
     {
-      "id": "m-C9_1aNjro",
-      "title": "Hero Synergies & Arena PvP Mechanics",
-      "lang": "ru"
+      "id": "aW5_mRrZ8L4",
+      "title": "The Best F2P Team Composition",
+      "lang": "en"
     }
   ],
   "arena_ru": [
@@ -1413,13 +1465,13 @@ export const rawVideos: Record<string, Video[]> = {
   ],
   "wagon": [
     {
-      "id": "yyp0GtLmqME",
-      "title": "Beginner's Guild Wagon Complete Guide",
+      "id": "crDuOmGa-yY",
+      "title": "Caravan Raids — Better Rewards",
       "lang": "en"
     },
     {
-      "id": "crDuOmGa-yY",
-      "title": "Caravan Raids — Better Rewards",
+      "id": "FQrDCmOVx8o",
+      "title": "Why You NEED an Active Alliance (Full Benefits)",
       "lang": "en"
     }
   ],
@@ -1430,8 +1482,8 @@ export const rawVideos: Record<string, Video[]> = {
       "lang": "en"
     },
     {
-      "id": "yyp0GtLmqME",
-      "title": "Полный гайд по гильдейской повозке",
+      "id": "FQrDCmOVx8o",
+      "title": "Зачем нужен активный альянс — полный разбор бонусов",
       "lang": "en"
     }
   ],
@@ -1517,9 +1569,9 @@ export const rawVideos: Record<string, Video[]> = {
       "lang": "en"
     },
     {
-      "id": "cN832LwDzlg",
-      "title": "Alliance Duel & Weekly Events",
-      "lang": "ru"
+      "id": "sHtY9euKC8c",
+      "title": "Supreme Duel & Weekly Events Strategy",
+      "lang": "en"
     }
   ],
   "calendar_ru": [
@@ -1797,6 +1849,17 @@ export const topicSearchTerms: Record<string, Record<Lang, string>> = {
     "ja": "Last Asylum Plague 不死者の包囲 イベント",
     "ko": "Last Asylum Plague 언데드 공성전 공략",
     "pt": "Last Asylum Plague Cerco dos Mortos-Vivos evento"
+  },
+  "elixir": {
+    "en": "Last Asylum Plague Elixir Scramble event guide",
+    "ru": "Last Asylum Plague Битва за эликсир событие гайд",
+    "de": "Last Asylum Plague Elixier-Gedränge Event Guide",
+    "es": "Last Asylum Plague Batalla por el Elixir guía evento",
+    "fr": "Last Asylum Plague Ruée vers l'Élixir événement guide",
+    "id": "Last Asylum Plague Perebutan Elixir panduan event",
+    "ja": "Last Asylum Plague エリクサー争奪戦 イベント 攻略",
+    "ko": "Last Asylum Plague 엘릭서 쟁탈전 이벤트 공략",
+    "pt": "Last Asylum Plague Disputa pelo Elixir evento guia"
   },
   "cheese": {
     "en": "Last Asylum Plague cheese trap guide strategy",
@@ -2108,6 +2171,17 @@ export const topicNames: Record<string, Record<Lang, string>> = {
     "ja": "不死者の包囲",
     "ko": "언데드 공성전",
     "pt": "Cerco dos Mortos-Vivos"
+  },
+  "elixir": {
+    "en": "Elixir Scramble",
+    "ru": "Битва за эликсир",
+    "de": "Elixier-Gedränge",
+    "es": "Batalla por el Elixir",
+    "fr": "Ruée vers l'Élixir",
+    "id": "Perebutan Elixir",
+    "ja": "エリクサー争奪戦",
+    "ko": "엘릭서 쟁탈전",
+    "pt": "Disputa pelo Elixir"
   },
   "cheese": {
     "en": "Cheese Trap",
