@@ -1,0 +1,30 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ko';
+---
+
+<Base lang={lang} path="/ko/events/final-dawn/" title="파이널 던 (Final Dawn): 7일간의 성역 발전 대작전" description="핵심 초반 이벤트 «파이널 던»(Final Dawn) 완벽 가이드: 7일간의 4단계 페이즈(Foundations, Power Push, Major Push, Final Push) 및 자원 배분 전략.">
+  <GuidePage title="파이널 던 (Final Dawn): 7일간의 성역 발전 대작전" description="핵심 초반 이벤트 «파이널 던»(Final Dawn) 완벽 가이드: 7일간의 4단계 페이즈(Foundations, Power Push, Major Push, Final Push) 및 자원 배분 전략." lang={lang}>
+    <p>**«파이널 던»(Final Dawn)**은 게임 초반을 결정짓는 7일간의 육성 마라톤입니다. 성역 전투력(Might)을 폭발적으로 끌어올려 풍성한 보상 상자를 모두 획득하는 것이 목표입니다.</p>
+
+    <h2 id="phases">7일 플랜의 4단계 페이즈</h2>
+    <ul>
+      <li><strong>1~2일 차 (기반 다지기):</strong> 성역 및 선행 건물 위주 업그레이드. 연구소 연구는 24시간 쉬지 않고 가동.</li>
+      <li><strong>3~4일 차 (전투력 집중):</strong> 핵심 영웅 레벨 및 스킬 강화, 장비 착용, 주력 부대 훈련.</li>
+      <li><strong>5~6일 차 (대공세):</strong> 아껴둔 가속과 자원 상자를 본격 개봉. 하위 티어 병력을 상위 티어로 승급.</li>
+      <li><strong>7일 차 (파이널 푸시 🔥):</strong> 남은 마일스톤 점검 후 모든 가속과 EXP 투입. 리셋(서버 00:00 / UTC 02:00) 전에 모든 보상 수령.</li>
+    </ul>
+
+    <h2 id="priorities">황금 육성 우선순위</h2>
+    <p>성역 → 선행 건물 → 기술 연구 → 영웅 → 병력 → 자원 → 길드 지원.</p>
+
+    <h2 id="secret">가장 중요한 전략적 비결</h2>
+    <blockquote>1일 차에 가속 아이템을 모두 쓰지 마세요! 가장 가치 높은 상자가 열리는 5~7일 차를 위해 비축해야 합니다.</blockquote>
+
+    <VideoSection topic="final_dawn" lang={lang} />
+  </GuidePage>
+</Base>

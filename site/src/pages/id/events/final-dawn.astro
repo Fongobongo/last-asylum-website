@@ -1,0 +1,30 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+
+<Base lang={lang} path="/id/events/final-dawn/" title="Fajar Terakhir (Final Dawn): Panduan Sprint 7 Hari Pangkalan" description="Panduan event penting «Fajar Terakhir» (Final Dawn) di Last Asylum: Plague: 4 fase rencana 7 hari (Foundations, Power Push, Major Push, Final Push) dan strategi efisiensi.">
+  <GuidePage title="Fajar Terakhir (Final Dawn): Panduan Sprint 7 Hari Pangkalan" description="Panduan event penting «Fajar Terakhir» (Final Dawn) di Last Asylum: Plague: 4 fase rencana 7 hari (Foundations, Power Push, Major Push, Final Push) dan strategi efisiensi." lang={lang}>
+    <p>Event **«Fajar Terakhir» (Final Dawn)** adalah event 7 hari yang sangat krusial di awal permainan. Fokus utamanya adalah meningkatkan Sanctuary Might dan menyelesaikan milestone untuk meraup hadiah maksimal.</p>
+
+    <h2 id="phases">4 Fase Rencana 7 Hari</h2>
+    <ul>
+      <li><strong>Hari 1–2 (Fondasi):</strong> Fokus upgrade Kuil dan bangunan syarat. Riset Laboratorium wajib berjalan tanpa henti 24/7.</li>
+      <li><strong>Hari 3–4 (Push Power):</strong> Tingkatkan level hero & skill, lengkapi equipment, dan perbanyak pasukan.</li>
+      <li><strong>Hari 5–6 (Push Besar):</strong> Mulai gunakan percepat yang dikumpulkan. Promosikan prajurit dari tier rendah ke tinggi.</li>
+      <li><strong>Hari 7 (FINAL PUSH 🔥):</strong> Evaluasi milestone tersisa, gunakan sisa percepat, EXP dan material, lalu klaim seluruh hadiah sebelum reset (00:00 server / 02:00 UTC).</li>
+    </ul>
+
+    <h2 id="priorities">Prioritas Emas Pembangunan</h2>
+    <p>Kuil/Markas → Bangunan Syarat → Riset → Hero → Pasukan → Sumber Daya → Guild.</p>
+
+    <h2 id="secret">Kunci Strategi Rahasia</h2>
+    <blockquote>Jangan habiskan semua percepat dan sumber daya pada Hari ke-1! Kumpulkan untuk Hari 5–7 saat milestone paling bernilai tinggi terbuka.</blockquote>
+
+    <VideoSection topic="final_dawn" lang={lang} />
+  </GuidePage>
+</Base>

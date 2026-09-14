@@ -1,0 +1,33 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ko';
+---
+
+<Base lang={lang} path="/ko/events/path-to-healing/" title="치유의 길 (Path to Healing): 아서 및 셀리아 조각 5일 완벽 가이드" description="«치유의 길»(Path to Healing) 이벤트 완벽 공략: 1~5일 차 일일 미션 목록, 필수 조건인 VIP 5 달성법, UR 아서 조각 15개 획득.">
+  <GuidePage title="치유의 길 (Path to Healing): 아서 및 셀리아 조각 5일 완벽 가이드" description="«치유의 길»(Path to Healing) 이벤트 완벽 공략: 1~5일 차 일일 미션 목록, 필수 조건인 VIP 5 달성법, UR 아서 조각 15개 획득." lang={lang}>
+    <p>**«치유의 길»(Path to Healing)**은 신규 사령관을 위한 5일 필수 이벤트입니다. 완수 시 최고의 탱커인 **UR 아서 조각 15개**와 **SSR 셀리아 조각 30개**를 확정 지급합니다.</p>
+
+    <h2 id="vip-requirement">필수 조건: VIP 5 달성</h2>
+    <div class="rounded-xl border border-amber-500/40 bg-amber-500/10 p-4 text-amber-200 mb-6">
+      <p>【경고】 5일간의 모든 미션을 100% 완료하더라도, 이벤트 종료 전까지 계정이 VIP 5를 달성하지 못하면 아서 조각과 최종 상자가 지급되지 않습니다! 무료 다이아를 VIP 포인트에 투자하세요.</p>
+    </div>
+
+    <h2 id="daily-tasks">일자별 미션 (1~5일 차)</h2>
+    <ul>
+      <li><strong>1일 차:</strong> 출석 체크, 성역 업그레이드, 모험 챕터 진행.</li>
+      <li><strong>2일 차:</strong> 까마귀 탑, 투기장 결투, 영웅 레벨업.</li>
+      <li><strong>3일 차:</strong> 병력 훈련, 훈련 투기장, 길드 지원 클릭.</li>
+      <li><strong>4일 차:</strong> 기술 연구, 마법 까마귀 육성, 주점 영웅 모집.</li>
+      <li><strong>5일 차:</strong> 구울 토벌, 전투력(CP) 달성, 가속 아이템 소모.</li>
+    </ul>
+
+    <h2 id="pro-tips">실전 공략 팁</h2>
+    <p>연구와 병력 훈련 같은 장시간 소요 퀘스트는 미리 시작하고, 첫날부터 VIP 5 달성 계획을 세우세요.</p>
+
+    <VideoSection topic="path_to_healing" lang={lang} />
+  </GuidePage>
+</Base>

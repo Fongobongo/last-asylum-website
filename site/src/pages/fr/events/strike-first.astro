@@ -1,0 +1,36 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'fr';
+---
+
+<Base lang={lang} path="/fr/events/strike-first/" title="Premier Coup : Sprint de démarrage sur nouveau serveur" description="Guide complet de l'événement de départ « Premier Coup » (Strike First) : Paliers du Sanctuaire, élimination des mutants, mobilisation militaire et erreurs de débutant.">
+  <GuidePage title="Premier Coup : Sprint de démarrage sur nouveau serveur" description="Guide complet de l'événement de départ « Premier Coup » (Strike First) : Paliers du Sanctuaire, élimination des mutants, mobilisation militaire et erreurs de débutant." lang={lang}>
+    <p>L'événement **« Premier Coup » (Strike First)** est le sprint initial dédié aux nouveaux serveurs et débutants dans Last Asylum: Plague. Il accélère la progression en offrant diamants gratuits, tickets de recrutement et fragments de héros.</p>
+
+    <h2 id="milestones">Structure des tâches et paliers</h2>
+    <ul>
+      <li><strong>Paliers du Sanctuaire :</strong> Améliorez le Sanctuaire aux niveaux 5, 8, 10, 12 et 15 pour débloquer d'immenses réserves de ressources et d'accélérateurs.</li>
+      <li><strong>Purge de la Peste :</strong> Éliminez les morts-vivants sur la carte du monde avec votre endurance naturelle.</li>
+      <li><strong>Mobilisation Militaire :</strong> Entraînez des troupes T1–T3 et agrandissez vos casernes.</li>
+      <li><strong>Recrutement à la Taverne :</strong> Utilisez vos tickets pour débloquer Celia, Bella et Arthur.</li>
+      <li><strong>Arène du Destin :</strong> Participez aux combats d'arène pour accumuler des points de classement.</li>
+    </ul>
+
+    <h2 id="rewards">Récompenses des paliers</h2>
+    <p>Plus de 5 000 diamants gratuits, plus de 20 tickets de recrutement dorés, fragments de UR Arthur et SSR Celia, et antitoxine essentielle.</p>
+
+    <h2 id="mistakes">4 Erreurs cruciales à éviter</h2>
+    <ul>
+      <li><strong>Ne dépensez pas vos diamants dans la taverne ordinaire :</strong> Gardez-les pour la Roue de Cynthia au Jour 8 !</li>
+      <li><strong>Construisez avec rigueur :</strong> Ne bâtissez que les prérequis directs du niveau suivant du Sanctuaire.</li>
+      <li><strong>Utilisez l'endurance intelligemment :</strong> Ne ciblez que les monstres comptant pour l'événement.</li>
+      <li><strong>Pas de PvP prématuré :</strong> Attaquer d'autres joueurs surcharge votre infirmerie et freine votre développement.</li>
+    </ul>
+
+    <VideoSection topic="strike_first" lang={lang} />
+  </GuidePage>
+</Base>

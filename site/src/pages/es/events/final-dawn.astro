@@ -1,0 +1,30 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'es';
+---
+
+<Base lang={lang} path="/es/events/final-dawn/" title="Amanecer Final: Sprint de 7 días de desarrollo de base" description="Guía completa del evento clave «Amanecer Final» (Final Dawn) en Last Asylum: Plague: Las 4 fases (Foundations, Power Push, Major Push, Final Push) y prioridades.">
+  <GuidePage title="Amanecer Final: Sprint de 7 días de desarrollo de base" description="Guía completa del evento clave «Amanecer Final» (Final Dawn) en Last Asylum: Plague: Las 4 fases (Foundations, Power Push, Major Push, Final Push) y prioridades." lang={lang}>
+    <p>El evento **«Amanecer Final» (Final Dawn)** es el gran maratón de 7 días al inicio del juego. Premia el incremento de Poder del Santuario con cofres de recompensas masivos.</p>
+
+    <h2 id="phases">Las 4 Fases del Plan de 7 Días</h2>
+    <ul>
+      <li><strong>Días 1–2 (Fundamentos):</strong> Foco en subir el Santuario y edificios requisitos. Laboratorio de investigación funcionando 24/7.</li>
+      <li><strong>Días 3–4 (Empuje de Poder):</strong> Subir niveles de héroes y habilidades, equipar equipo básico y entrenar tropas.</li>
+      <li><strong>Días 5–6 (Gran Impulso):</strong> Activar aceleradores y cofres de recursos guardados. Promover tropas de niveles bajos a altos.</li>
+      <li><strong>Día 7 (FINAL PUSH 🔥):</strong> Revisar hitos pendientes, quemar aceleradores restantes y reclamar todos los cofres antes del reinicio (00:00 servidor / 02:00 UTC).</li>
+    </ul>
+
+    <h2 id="priorities">Cadena de prioridades dorada</h2>
+    <p>Santuario → Edificios requisitos → Investigación → Héroes → Tropas → Recursos → Alianza.</p>
+
+    <h2 id="secret">El gran secreto estratégico</h2>
+    <blockquote>¡Jamás gastes todos tus aceleradores en el Día 1! Guárdalos para los Días 5 a 7, cuando los cofres otorgan el máximo valor.</blockquote>
+
+    <VideoSection topic="final_dawn" lang={lang} />
+  </GuidePage>
+</Base>

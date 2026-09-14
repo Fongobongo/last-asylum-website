@@ -1,0 +1,36 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ja';
+---
+
+<Base lang={lang} path="/ja/events/strike-first/" title="先制攻撃 (Strike First)：新サーバー序盤攻略スプリント" description="新サーバー開幕イベント「先制攻撃」(Strike First) の完全攻略：聖域マイルストーン、感染者討伐、部隊編成、報酬一覧と初心者の落とし穴。">
+  <GuidePage title="先制攻撃 (Strike First)：新サーバー序盤攻略スプリント" description="新サーバー開幕イベント「先制攻撃」(Strike First) の完全攻略：聖域マイルストーン、感染者討伐、部隊編成、報酬一覧と初心者の落とし穴。" lang={lang}>
+    <p>「**先制攻撃 (Strike First)**」は、新設サーバーで開始される初心者向けスタートダッシュイベントです。序盤の重要タスクをクリアすることで、大量の無料ダイヤ、募集チケット、URアーサーやSSRセリアの破片を獲得できます。</p>
+
+    <h2 id="milestones">タスクとマイルストーン構造</h2>
+    <ul>
+      <li><strong>聖域レベル達成：</strong> 聖域をLv.5、8、10、12、15へ引き上げ、資源と加速アイテムを大量獲得。</li>
+      <li><strong>感染者討伐：</strong> マップ上のゾンビを自然回復スタミナで討伐。</li>
+      <li><strong>軍備拡張：</strong> T1〜T3部隊の訓練と兵舎拡張。</li>
+      <li><strong>酒場募集：</strong> チケットを使用してセリア、ベラ、アーサーを獲得。</li>
+      <li><strong>運命のアリーナ：</strong> アリーナ対戦に参加してランキングポイントを獲得。</li>
+    </ul>
+
+    <h2 id="rewards">達成報酬</h2>
+    <p>5,000個以上のダイヤ、20枚以上の高級募集チケット、URアーサー＆SSRセリアの破片、抗毒素。</p>
+
+    <h2 id="mistakes">初心者が避けるべき4つのミス</h2>
+    <ul>
+      <li><strong>通常募集にダイヤを使わない：</strong> 8日目の「シンシアの幸運のルーレット」に備えてダイヤを温存せよ！</li>
+      <li><strong>無駄な施設を建てない：</strong> 次の聖域レベルの前提条件となる施設だけを優先建設。</li>
+      <li><strong>スタミナを無駄遣いしない：</strong> イベント対象となる討伐のみを実行。</li>
+      <li><strong>早すぎるPvP戦闘は避ける：</strong> 他プレイヤーへの攻撃は病院を圧迫し成長を遅らせます。</li>
+    </ul>
+
+    <VideoSection topic="strike_first" lang={lang} />
+  </GuidePage>
+</Base>

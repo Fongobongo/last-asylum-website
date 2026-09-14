@@ -1,0 +1,36 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'es';
+---
+
+<Base lang={lang} path="/es/events/strike-first/" title="Primer Golpe: Carrera de inicio en nuevos servidores" description="Guía completa del evento inicial «Primer Golpe» (Strike First): Hitos del Santuario, purga de infectados, despliegue militar y errores de novato a evitar.">
+  <GuidePage title="Primer Golpe: Carrera de inicio en nuevos servidores" description="Guía completa del evento inicial «Primer Golpe» (Strike First): Hitos del Santuario, purga de infectados, despliegue militar y errores de novato a evitar." lang={lang}>
+    <p>El evento **«Primer Golpe» (Strike First)** es el sprint inicial para nuevos servidores y jugadores principiantes en Last Asylum: Plague. Acelera el desarrollo temprano otorgando diamantes gratis, boletos de reclutamiento y fragmentos de héroes.</p>
+
+    <h2 id="milestones">Estructura de tareas e hitos</h2>
+    <ul>
+      <li><strong>Hitos del Santuario:</strong> Mejora de Santuario a Nivel 5, 8, 10, 12 y 15 para obtener paquetes masivos de recursos y aceleradores.</li>
+      <li><strong>Purga de la Plaga:</strong> Eliminar zombis en el mapa mundial usando energía natural.</li>
+      <li><strong>Movilización Militar:</strong> Entrenar tropas T1–T3 y ampliar la capacidad de los cuarteles.</li>
+      <li><strong>Reclutamiento en la Taberna:</strong> Usar boletos normales y avanzados para desbloquear a Celia, Bella y Arthur.</li>
+      <li><strong>Arena del Destino:</strong> Participar en duelos PvP para obtener puntuación de rango.</li>
+    </ul>
+
+    <h2 id="rewards">Recompensas de hitos</h2>
+    <p>Más de 5.000 diamantes gratis, más de 20 boletos dorados, fragmentos de UR Arthur y SSR Celia, además de antitoxina para subir de nivel.</p>
+
+    <h2 id="mistakes">4 Errores fatales que debes evitar</h2>
+    <ul>
+      <li><strong>No gastes diamantes en la taberna común:</strong> ¡Guárdalos todos para la Ruleta de Cynthia en el Día 8!</li>
+      <li><strong>Construye con orden:</strong> Mejora solo los edificios requeridos para el siguiente nivel del Santuario.</li>
+      <li><strong>Usa tu energía con cabeza:</strong> Caza solo los monstruos que cuenten para los hitos del evento.</li>
+      <li><strong>Evita el PvP prematuro:</strong> Atacar jugadores llena tu hospital y frena en seco tu crecimiento.</li>
+    </ul>
+
+    <VideoSection topic="strike_first" lang={lang} />
+  </GuidePage>
+</Base>

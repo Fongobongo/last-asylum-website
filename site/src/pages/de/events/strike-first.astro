@@ -1,0 +1,36 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+
+<Base lang={lang} path="/de/events/strike-first/" title="Erster Schlag: Starter-Sprint auf neuen Servern" description="Kompletter Guide zum Starter-Event «Erster Schlag» (Strike First): Zufluchts-Meilensteine, Monsterjagd, Truppenaufbau, Belohnungen und typische Anfängerfehler.">
+  <GuidePage title="Erster Schlag: Starter-Sprint auf neuen Servern" description="Kompletter Guide zum Starter-Event «Erster Schlag» (Strike First): Zufluchts-Meilensteine, Monsterjagd, Truppenaufbau, Belohnungen und typische Anfängerfehler." lang={lang}>
+    <p>Das Event **«Erster Schlag» (Strike First)** ist der wichtigste Entwicklungssprint für neue Server und Einsteiger in Last Asylum: Plague. Es belohnt schnellen Basisaufbau, Truppentraining und Monsterjagd mit massiven Diamanten, Rekrutierungstickets und Heldenfragmenten.</p>
+
+    <h2 id="milestones">Aufgaben- und Meilensteinstruktur</h2>
+    <ul>
+      <li><strong>Zufluchts-Meilensteine:</strong> Upgrade der Zuflucht auf Stufe 5, 8, 10, 12 und 15 für riesige Ressourcen- und Beschleunigungspakete.</li>
+      <li><strong>Pest-Säuberung:</strong> Vernichtung von Untoten auf der Weltkarte für Forschungstempo und Raben-Essenzen.</li>
+      <li><strong>Militärische Mobilisierung:</strong> Ausbildung von T1–T3 Truppen und Kasernenausbau.</li>
+      <li><strong>Tavernen-Rekrutierung:</strong> Einsatz von normalen und goldenen Tickets zum Freischalten von Celia, Bella und Arthur.</li>
+      <li><strong>Arena des Schicksals:</strong> Erste PvP-Kämpfe für Server-Ranglistenpunkte.</li>
+    </ul>
+
+    <h2 id="rewards">Event-Belohnungen</h2>
+    <p>Über 5.000 Gratis-Diamanten, 20+ Goldene Rekrutierungstickets, Fragmente von UR Arthur und SSR Celia sowie wertvolles Gegengift.</p>
+
+    <h2 id="mistakes">4 Anfängerfehler, die man vermeiden muss</h2>
+    <ul>
+      <li><strong>Diamanten nicht in die Standard-Taverne werfen:</strong> Spare alle Diamanten für Cynthias Glücksrad an Tag 8!</li>
+      <li><strong>Keine unnötigen Gebäude bauen:</strong> Baue strikt nach den Anforderungen der nächsten Zufluchtsstufe.</li>
+      <li><strong>Ausdauer gezielt einsetzen:</strong> Töte nur Monster, die für Meilensteine zählen.</li>
+      <li><strong>Kein verfrühtes PvP:</strong> Angriffe auf Spieler füllen dein Lazarett und bremsen das Wachstum.</li>
+    </ul>
+
+    <VideoSection topic="strike_first" lang={lang} />
+  </GuidePage>
+</Base>

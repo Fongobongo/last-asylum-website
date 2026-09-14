@@ -1,0 +1,30 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ja';
+---
+
+<Base lang={lang} path="/ja/events/final-dawn/" title="ファイナルドーン (Final Dawn)：7日間の拠点発展ダッシュ" description="最重要序盤イベント「ファイナルドーン」(Final Dawn) 完全攻略：7日間の4フェーズ（基盤、戦力強化、大攻勢、ファイナルプッシュ）と優先順位。">
+  <GuidePage title="ファイナルドーン (Final Dawn)：7日間の拠点発展ダッシュ" description="最重要序盤イベント「ファイナルドーン」(Final Dawn) 完全攻略：7日間の4フェーズ（基盤、戦力強化、大攻勢、ファイナルプッシュ）と優先順位。" lang={lang}>
+    <p>「**ファイナルドーン (Final Dawn)**」は、序盤の命運を分ける7日間の成長イベントです。聖域戦力 (Might) を急速に伸ばし、マイルストーン報酬を総ざらいすることが目的です。</p>
+
+    <h2 id="phases">7日間プランの4つのフェーズ</h2>
+    <ul>
+      <li><strong>1〜2日目（基礎構築）：</strong> 聖域と前提施設を最優先。研究所は24時間フル稼働。</li>
+      <li><strong>3〜4日目（戦力強化）：</strong> 主力英雄のレベルとスキル強化、装備の着用、部隊訓練。</li>
+      <li><strong>5〜6日目（大攻勢）：</strong> 温存していた加速アイテムと資源を一気に投入。下位兵を上位兵へ昇格。</li>
+      <li><strong>7日目（ファイナルプッシュ 🔥）：</strong> 未達成マイルストーンを確認し、全資材を投入。リセット（サーバー00:00 / UTC 02:00）前に全報酬を受領。</li>
+    </ul>
+
+    <h2 id="priorities">黄金の育成優先度</h2>
+    <p>聖域 → 前提施設 → 研究所 → 英雄 → 部隊 → 資源 → 同盟支援。</p>
+
+    <h2 id="secret">最大の戦略的秘密</h2>
+    <blockquote>1日目に加速アイテムを使い切ってはいけません！最も価値の高い報酬箱が開く5〜7日目に集中投下しましょう。</blockquote>
+
+    <VideoSection topic="final_dawn" lang={lang} />
+  </GuidePage>
+</Base>

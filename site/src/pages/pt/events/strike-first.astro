@@ -1,0 +1,36 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'pt';
+---
+
+<Base lang={lang} path="/pt/events/strike-first/" title="Primeiro Golpe: Corrida de desenvolvimento em novos servidores" description="Guia completo do evento inicial «Primeiro Golpe» (Strike First): Marcos do Santuário, purga de infectados, recrutamento militar e erros a evitar.">
+  <GuidePage title="Primeiro Golpe: Corrida de desenvolvimento em novos servidores" description="Guia completo do evento inicial «Primeiro Golpe» (Strike First): Marcos do Santuário, purga de infectados, recrutamento militar e erros a evitar." lang={lang}>
+    <p>O evento **«Primeiro Golpe» (Strike First)** é a corrida inicial essencial para novos servidores e iniciantes em Last Asylum: Plague. Acelere o início do jogo ganhando diamantes grátis, bilhetes de recrutamento e fragmentos de heróis.</p>
+
+    <h2 id="milestones">Estrutura de Missões e Marcos</h2>
+    <ul>
+      <li><strong>Marcos do Santuário:</strong> Evolua o Santuário para Nível 5, 8, 10, 12 e 15 para ganhar baús de recursos e aceleradores.</li>
+      <li><strong>Purga da Praga:</strong> Elimine zumbis no mapa mundial gastando vigor natural.</li>
+      <li><strong>Mobilização Militar:</strong> Treine tropas T1–T3 e expanda a capacidade dos quartéis.</li>
+      <li><strong>Recrutamento na Taberna:</strong> Use bilhetes normais e avançados para recrutar Celia, Bella e Arthur.</li>
+      <li><strong>Arena do Destino:</strong> Participe de duelos PvP para pontuar no ranking do servidor.</li>
+    </ul>
+
+    <h2 id="rewards">Recompensas de Marcos</h2>
+    <p>Mais de 5.000 diamantes grátis, 20+ bilhetes dourados, fragmentos de UR Arthur e SSR Celia, além de antitoxina.</p>
+
+    <h2 id="mistakes">4 Erros Fatais a Evitar</h2>
+    <ul>
+      <li><strong>Não gaste diamantes na taberna comum:</strong> Guarde todos para a Roleta da Cynthia no Dia 8!</li>
+      <li><strong>Construa com foco:</strong> Evolua apenas as construções que são pré-requisitos diretos do Santuário.</li>
+      <li><strong>Gaste vigor com sabedoria:</strong> Cace apenas monstros que pontuam para o evento.</li>
+      <li><strong>Evite PvP precoce:</strong> Atacar outros jogadores enche seu hospital de feridos e trava sua evolução.</li>
+    </ul>
+
+    <VideoSection topic="strike_first" lang={lang} />
+  </GuidePage>
+</Base>

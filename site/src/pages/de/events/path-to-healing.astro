@@ -1,0 +1,33 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+
+<Base lang={lang} path="/de/events/path-to-healing/" title="Pfad der Heilung: 5-Tage-Guide für Arthur- & Celia-Splitter" description="Vollständiger Guide zum Event «Pfad der Heilung» (Path to Healing): Tägliche Aufgaben Tag 1–5, die zwingende VIP 5 Voraussetzung und 15 UR Arthur-Splitter.">
+  <GuidePage title="Pfad der Heilung: 5-Tage-Guide für Arthur- & Celia-Splitter" description="Vollständiger Guide zum Event «Pfad der Heilung» (Path to Healing): Tägliche Aufgaben Tag 1–5, die zwingende VIP 5 Voraussetzung und 15 UR Arthur-Splitter." lang={lang}>
+    <p>Das Event **«Pfad der Heilung» (Path to Healing)** ist ein 5-tägiges Pflichtevent für jeden neuen Spieler. Es garantiert **15 Fragmente von UR Arthur** (bester Tank) und **30 Fragmente von SSR Celia**.</p>
+
+    <h2 id="vip-requirement">Zwingende Voraussetzung: VIP 5 Freischaltung</h2>
+    <div class="rounded-xl border border-amber-500/40 bg-amber-500/10 p-4 text-amber-200 mb-6">
+      <p>WARNUNG: Selbst wenn du 100% aller Aufgaben an allen 5 Tagen abschließt, bleiben die Arthur-Fragmente und die Abschlusskiste GESPERRT, wenn dein Konto nicht VIP 5 erreicht hat! Investiere kostenlose Diamanten gezielt in VIP-Punkte.</p>
+    </div>
+
+    <h2 id="daily-tasks">Tagesaufgaben (Tag 1–5)</h2>
+    <ul>
+      <li><strong>Tag 1:</strong> Login, Zuflucht-Upgrades, Abenteuer-Aktionen auf der Karte.</li>
+      <li><strong>Tag 2:</strong> Raben-Turm, Arena-Kämpfe, Helden-Levelups.</li>
+      <li><strong>Tag 3:</strong> Truppentraining, Trainingsarena, Allianz-Hilfe.</li>
+      <li><strong>Tag 4:</strong> Forschung, Magischer Rabe, Tavernen-Rekrutierung.</li>
+      <li><strong>Tag 5:</strong> Ghul-Beseitigung, Kampfkraft (CP) steigern, Beschleuniger verbrauchen.</li>
+    </ul>
+
+    <h2 id="pro-tips">Praxistipps</h2>
+    <p>Schiebe zeitraubende Aufgaben (Forschung Tag 4, Truppentraining Tag 3) nicht auf den letzten Tag und überwache deine VIP-Punkte ab Tag 1.</p>
+
+    <VideoSection topic="path_to_healing" lang={lang} />
+  </GuidePage>
+</Base>

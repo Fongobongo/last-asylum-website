@@ -1,0 +1,33 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'pt';
+---
+
+<Base lang={lang} path="/pt/events/path-to-healing/" title="Caminho da Cura (Path to Healing): Guia de 5 dias para fragmentos de Arthur e Celia" description="Guia completo do evento «Caminho da Cura» (Path to Healing): Tarefas diárias Dias 1–5, exigência obrigatória de VIP 5 e 15 fragmentos de UR Arthur.">
+  <GuidePage title="Caminho da Cura (Path to Healing): Guia de 5 dias para fragmentos de Arthur e Celia" description="Guia completo do evento «Caminho da Cura» (Path to Healing): Tarefas diárias Dias 1–5, exigência obrigatória de VIP 5 e 15 fragmentos de UR Arthur." lang={lang}>
+    <p>O evento **«Caminho da Cura» (Path to Healing)** é indispensável para todo novo comandante. Garante **15 fragmentos de UR Arthur** (melhor tanque do jogo) e **30 fragmentos de SSR Celia**.</p>
+
+    <h2 id="vip-requirement">Requisito Obrigatório: Desbloquear VIP 5</h2>
+    <div class="rounded-xl border border-amber-500/40 bg-amber-500/10 p-4 text-amber-200 mb-6">
+      <p>AVISO CRÍTICO: Mesmo que você conclua 100% das tarefas dos 5 dias, as recompensas de Arthur e o baú final permanecerão BLOQUEADOS se a sua conta não atingir VIP 5 antes do fim do evento! Invista diamantes gratuitos diretamente em pontos VIP.</p>
+    </div>
+
+    <h2 id="daily-tasks">Missões Diárias (Dias 1 a 5)</h2>
+    <ul>
+      <li><strong>Dia 1:</strong> Login diário, evolução do Santuário, ações de aventura.</li>
+      <li><strong>Dia 2:</strong> Torre do Corvo, duelos na Arena, subida de nível de heróis.</li>
+      <li><strong>Dia 3:</strong> Treinamento de tropas, Arena de Treino, ajuda de aliança.</li>
+      <li><strong>Dia 4:</strong> Pesquisa de tecnologia, Corvo Mágico, recrutamento na taberna.</li>
+      <li><strong>Dia 5:</strong> Eliminar ghouls, aumentar Poder de Combate (CP), usar aceleradores.</li>
+    </ul>
+
+    <h2 id="pro-tips">Dicas de Sucesso</h2>
+    <p>Não deixe tarefas demoradas (como pesquisas do Dia 4 ou tropas do Dia 3) para o último dia e monitore seu progresso rumo ao VIP 5 desde o início.</p>
+
+    <VideoSection topic="path_to_healing" lang={lang} />
+  </GuidePage>
+</Base>

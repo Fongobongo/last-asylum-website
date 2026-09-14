@@ -1,0 +1,33 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ja';
+---
+
+<Base lang={lang} path="/ja/events/path-to-healing/" title="治癒の道 (Path to Healing)：アーサー＆セリア破片獲得5日間ガイド" description="「治癒の道」(Path to Healing) イベント完全攻略：1〜5日目のデイリー任務、必須条件となるVIP 5の到達法、URアーサー破片15個の確保。">
+  <GuidePage title="治癒の道 (Path to Healing)：アーサー＆セリア破片獲得5日間ガイド" description="「治癒の道」(Path to Healing) イベント完全攻略：1〜5日目のデイリー任務、必須条件となるVIP 5の到達法、URアーサー破片15個の確保。" lang={lang}>
+    <p>「**治癒の道 (Path to Healing)**」は、新プレイヤー必修の5日間イベントです。完遂すれば強力なタンクである**URアーサーの破片15個**と**SSRセリアの破片30個**が確約されます。</p>
+
+    <h2 id="vip-requirement">必須要件：VIP 5 のアンロック</h2>
+    <div class="rounded-xl border border-amber-500/40 bg-amber-500/10 p-4 text-amber-200 mb-6">
+      <p>【超重要】5日間の全ミッションを100%達成しても、イベント終了までにアカウントがVIP 5に達していないと、アーサー破片と完了報酬を受け取れません！ 無料ダイヤをVIPポイントに直接投資してください。</p>
+    </div>
+
+    <h2 id="daily-tasks">日別ミッション (1〜5日目)</h2>
+    <ul>
+      <li><strong>1日目：</strong> ログイン、聖域レベルアップ、冒険アクション。</li>
+      <li><strong>2日目：</strong> カラスの塔、アリーナ挑戦、英雄レベルアップ。</li>
+      <li><strong>3日目：</strong> 部隊訓練、訓練場、同盟支援。</li>
+      <li><strong>4日目：</strong> 技術研究、魔法のカラス、酒場募集。</li>
+      <li><strong>5日目：</strong> グール討伐、部隊戦力 (CP) 向上、加速アイテム使用。</li>
+    </ul>
+
+    <h2 id="pro-tips">攻略のコツ</h2>
+    <p>研究や部隊訓練など時間のかかるタスクは前もって準備し、1日目から計画的にVIP 5到達を目指しましょう。</p>
+
+    <VideoSection topic="path_to_healing" lang={lang} />
+  </GuidePage>
+</Base>

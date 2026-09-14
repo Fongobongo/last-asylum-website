@@ -1,0 +1,33 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+
+<Base lang={lang} path="/id/events/path-to-healing/" title="Jalan Penyembuhan (Path to Healing): Panduan 5 Hari Pecahan Arthur & Celia" description="Panduan lengkap event «Jalan Penyembuhan» (Path to Healing): Tugas harian Hari 1–5, syarat mutlak VIP 5, dan cara mengamankan 15 pecahan UR Arthur.">
+  <GuidePage title="Jalan Penyembuhan (Path to Healing): Panduan 5 Hari Pecahan Arthur & Celia" description="Panduan lengkap event «Jalan Penyembuhan» (Path to Healing): Tugas harian Hari 1–5, syarat mutlak VIP 5, dan cara mengamankan 15 pecahan UR Arthur." lang={lang}>
+    <p>Event **«Jalan Penyembuhan» (Path to Healing)** adalah event wajib 5 hari bagi setiap pemain baru. Menyelesaikannya memberi jaminan **15 Fragmen UR Arthur** (tank terbaik) dan **30 Fragmen SSR Celia**.</p>
+
+    <h2 id="vip-requirement">Syarat Mutlak: Membuka VIP 5</h2>
+    <div class="rounded-xl border border-amber-500/40 bg-amber-500/10 p-4 text-amber-200 mb-6">
+      <p>PERINGATAN KERAS: Meskipun kamu menyelesaikan 100% tugas harian Hari 1–5, hadiah pecahan Arthur dan peti utama TETAP TERKUNCI jika akunmu belum mencapai VIP 5 sebelum event berakhir! Gunakan diamond gratis untuk membeli poin VIP.</p>
+    </div>
+
+    <h2 id="daily-tasks">Tugas Harian (Hari 1–5)</h2>
+    <ul>
+      <li><strong>Hari 1:</strong> Total Login, Peningkatan Kuil, Aksi Petualangan.</li>
+      <li><strong>Hari 2:</strong> Menara Raven, Arena, Level-up Hero.</li>
+      <li><strong>Hari 3:</strong> Latih Prajurit, Arena Latihan, Bantuan Guild.</li>
+      <li><strong>Hari 4:</strong> Riset, Burung Gagak Sihir, Rekrutmen Tavern.</li>
+      <li><strong>Hari 5:</strong> Basmi Ghoul, Tingkatkan CP, Gunakan Percepat.</li>
+    </ul>
+
+    <h2 id="pro-tips">Tips Sukses</h2>
+    <p>Jangan menunda tugas berdurasi lama (seperti riset dan latihan pasukan) sampai hari terakhir, dan pastikan progres VIP 5 terkontrol sejak hari pertama.</p>
+
+    <VideoSection topic="path_to_healing" lang={lang} />
+  </GuidePage>
+</Base>

@@ -1,0 +1,30 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+
+<Base lang={lang} path="/de/events/final-dawn/" title="Letzte Dämmerung: 7-Tage-Basis-Entwicklungsspurt" description="Leitfaden für das 7-Tage-Schlüsselevent «Letzte Dämmerung» (Final Dawn) in Last Asylum: Plague: Die 4 Phasen (Foundations, Power Push, Major Push, Final Push) und Prioritäten.">
+  <GuidePage title="Letzte Dämmerung: 7-Tage-Basis-Entwicklungsspurt" description="Leitfaden für das 7-Tage-Schlüsselevent «Letzte Dämmerung» (Final Dawn) in Last Asylum: Plague: Die 4 Phasen (Foundations, Power Push, Major Push, Final Push) und Prioritäten." lang={lang}>
+    <p>Das Event **«Letzte Dämmerung» (Final Dawn)** ist das maßgebliche 7-Tage-Meilenstein-Event im frühen Spielverlauf. Es belohnt das gezielte Steigern der Zufluchts-Macht mit erstklassigen Belohnungstruhen.</p>
+
+    <h2 id="phases">Die 4 Phasen des 7-Tage-Plans</h2>
+    <ul>
+      <li><strong>Tage 1–2 (Fundament):</strong> Fokus auf Zuflucht-Upgrades und deren Voraussetzungsgebäude. Forschung rund um die Uhr laufen lassen.</li>
+      <li><strong>Tage 3–4 (Macht-Schub):</strong> Heldenstufen und Fähigkeiten ausbauen, Ausrüstung anlegen, Truppenkontingent erweitern.</li>
+      <li><strong>Tage 5–6 (Großer Vorstoß):</strong> Gesammelte Beschleuniger und Ressourcenpakete gezielt zünden. Truppen von T1 auf T2/T3 befördern.</li>
+      <li><strong>Tag 7 (FINAL PUSH 🔥):</strong> Nicht erreichte Meilensteine prüfen, verbleibende Beschleuniger und EXP einsetzen und alle Truhen vor dem Reset (00:00 Serverzeit / 02:00 UTC) abholen.</li>
+    </ul>
+
+    <h2 id="priorities">Die goldene Prioritätenkette</h2>
+    <p>Zuflucht → Voraussetzungsgebäude → Forschung → Helden → Truppen → Ressourcen → Allianz.</p>
+
+    <h2 id="secret">Das wichtigste Erfolgsgeheimnis</h2>
+    <blockquote>Verschieße deine Beschleuniger niemals an Tag 1! Spare sie für Tage 5–7 auf, wenn die wertvollsten Meilensteinkisten erreichbar sind.</blockquote>
+
+    <VideoSection topic="final_dawn" lang={lang} />
+  </GuidePage>
+</Base>

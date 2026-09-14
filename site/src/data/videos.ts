@@ -7,6 +7,17 @@ export interface Video {
 }
 
 export const videoTitles: Record<string, Partial<Record<Lang, string>>> = {
+  "j3nYVmqn97Q": {
+    "en": "Beginner's Event (Strike First) — Complete Walkthrough",
+    "ru": "Событие для новичков (Первый удар) — Полное прохождение",
+    "de": "Anfänger-Event (Erster Schlag) — Kompletter Walkthrough",
+    "es": "Evento de principiantes (Primer Golpe) — Guía completa",
+    "fr": "Événement débutant (Premier Coup) — Guide complet",
+    "id": "Event Pemula (Serangan Pertama) — Panduan Lengkap",
+    "ja": "初心者イベント (先制攻撃) — 完全攻略ガイド",
+    "ko": "초보자 이벤트 (선제타격) — 완벽 공략 가이드",
+    "pt": "Evento de iniciantes (Primeiro Golpe) — Passo a passo"
+  },
   "D8rB9d_5cX8": {
     "en": "Best Start Guide — Your First 24 Hours",
     "ru": "Идеальный старт — первые 24 часа выживания",
@@ -703,6 +714,42 @@ export const videoTitles: Record<string, Partial<Record<Lang, string>>> = {
 };
 
 export const rawVideos: Record<string, Video[]> = {
+  "strike_first": [
+    {
+      "id": "j3nYVmqn97Q",
+      "title": "Beginner's Event (Strike First) Walkthrough",
+      "lang": "en"
+    },
+    {
+      "id": "D8rB9d_5cX8",
+      "title": "Best Start Guide — Your First 24 Hours",
+      "lang": "en"
+    }
+  ],
+  "final_dawn": [
+    {
+      "id": "D8rB9d_5cX8",
+      "title": "Best Start Guide — Your First 24 Hours",
+      "lang": "en"
+    },
+    {
+      "id": "aD7q59suZyA",
+      "title": "Complete Infrastructure Guide",
+      "lang": "en"
+    }
+  ],
+  "path_to_healing": [
+    {
+      "id": "98MOWm31PqE",
+      "title": "The Ultimate Hero Guide for Beginners",
+      "lang": "en"
+    },
+    {
+      "id": "D8rB9d_5cX8",
+      "title": "Best Start Guide — Your First 24 Hours",
+      "lang": "en"
+    }
+  ],
   "beginner": [
     {
       "id": "D8rB9d_5cX8",
@@ -1597,6 +1644,39 @@ export const rawVideos: Record<string, Video[]> = {
 };
 
 export const topicSearchTerms: Record<string, Record<Lang, string>> = {
+  "strike_first": {
+    "en": "Last Asylum Plague Strike First beginner event",
+    "ru": "Last Asylum Plague Первый удар событие гайд",
+    "de": "Last Asylum Plague Erster Schlag Event",
+    "es": "Last Asylum Plague Primer Golpe evento",
+    "fr": "Last Asylum Plague Premier Coup événement",
+    "id": "Last Asylum Plague Serangan Pertama event",
+    "ja": "Last Asylum Plague 先制攻撃 イベント",
+    "ko": "Last Asylum Plague 선제타격 이벤트 공략",
+    "pt": "Last Asylum Plague Primeiro Golpe evento"
+  },
+  "final_dawn": {
+    "en": "Last Asylum Plague Final Dawn event guide",
+    "ru": "Last Asylum Plague Финальный рассвет событие гайд",
+    "de": "Last Asylum Plague Letzte Dämmerung Event",
+    "es": "Last Asylum Plague Amanecer Final evento",
+    "fr": "Last Asylum Plague Aube Finale événement",
+    "id": "Last Asylum Plague Fajar Terakhir event",
+    "ja": "Last Asylum Plague ファイナルドーン イベント",
+    "ko": "Last Asylum Plague 파이널 던 이벤트 공략",
+    "pt": "Last Asylum Plague Alvorecer Final evento"
+  },
+  "path_to_healing": {
+    "en": "Last Asylum Plague Path to Healing event Arthur guide",
+    "ru": "Last Asylum Plague Путь исцеления событие Артур гайд",
+    "de": "Last Asylum Plague Pfad der Heilung Event",
+    "es": "Last Asylum Plague Camino de Sanación evento",
+    "fr": "Last Asylum Plague Voie de la Guérison événement",
+    "id": "Last Asylum Plague Jalan Penyembuhan event",
+    "ja": "Last Asylum Plague 治癒の道 イベント",
+    "ko": "Last Asylum Plague 치유의 길 이벤트 공략",
+    "pt": "Last Asylum Plague Caminho da Cura evento"
+  },
   "beginner": {
     "en": "Last Asylum Plague beginner guide",
     "ru": "Last Asylum Plague гайд для новичков",
@@ -1875,6 +1955,39 @@ export const topicSearchTerms: Record<string, Record<Lang, string>> = {
 };
 
 export const topicNames: Record<string, Record<Lang, string>> = {
+  "strike_first": {
+    "en": "Strike First",
+    "ru": "Первый удар",
+    "de": "Erster Schlag",
+    "es": "Primer Golpe",
+    "fr": "Premier Coup",
+    "id": "Serangan Pertama",
+    "ja": "先制攻撃",
+    "ko": "선제타격",
+    "pt": "Primeiro Golpe"
+  },
+  "final_dawn": {
+    "en": "Final Dawn",
+    "ru": "Финальный рассвет",
+    "de": "Letzte Dämmerung",
+    "es": "Amanecer Final",
+    "fr": "Aube Finale",
+    "id": "Fajar Terakhir",
+    "ja": "ファイナルドーン",
+    "ko": "파이널 던",
+    "pt": "Alvorecer Final"
+  },
+  "path_to_healing": {
+    "en": "Path to Healing",
+    "ru": "Путь исцеления",
+    "de": "Pfad der Heilung",
+    "es": "Camino de Sanación",
+    "fr": "Voie de la Guérison",
+    "id": "Jalan Penyembuhan",
+    "ja": "治癒の道",
+    "ko": "치유의 길",
+    "pt": "Caminho da Cura"
+  },
   "beginner": {
     "en": "Beginner Guide",
     "ru": "Гайд для новичков",

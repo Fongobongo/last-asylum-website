@@ -1,0 +1,36 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+
+<Base lang={lang} path="/id/events/strike-first/" title="Serangan Pertama: Panduan Sprint Awal Server Baru" description="Panduan lengkap event pemula «Serangan Pertama» (Strike First): Milestone Kuil, pembersihan mutan, mobilisasi militer, dan kesalahan fatal pemula.">
+  <GuidePage title="Serangan Pertama: Panduan Sprint Awal Server Baru" description="Panduan lengkap event pemula «Serangan Pertama» (Strike First): Milestone Kuil, pembersihan mutan, mobilisasi militer, dan kesalahan fatal pemula." lang={lang}>
+    <p>Event **«Serangan Pertama» (Strike First)** adalah sprint awal terpenting untuk pemain baru di server baru Last Asylum: Plague. Event ini mempercepat progres awal dengan hadiah ribuan diamond gratis, tiket rekrutmen, dan fragmen hero.</p>
+
+    <h2 id="milestones">Struktur Misi dan Milestone</h2>
+    <ul>
+      <li><strong>Milestone Kuil/Markas:</strong> Naikkan Kuil ke Lv.5, 8, 10, 12, dan 15 untuk peti sumber daya dan percepat besar.</li>
+      <li><strong>Pembersihan Wabah:</strong> Habisi zombie di peta dunia dengan stamina alami.</li>
+      <li><strong>Mobilisasi Militer:</strong> Latih pasukan T1–T3 dan tingkatkan kapasitas barak.</li>
+      <li><strong>Rekrutmen Tavern:</strong> Gunakan tiket rekrut untuk membuka Celia, Bella, dan Arthur.</li>
+      <li><strong>Arena Takdir:</strong> Lakukan duel arena untuk meraih poin peringkat server.</li>
+    </ul>
+
+    <h2 id="rewards">Hadiah Milestone</h2>
+    <p>Lebih dari 5.000 Diamond gratis, 20+ Tiket Rekrutmen Emas, Fragmen UR Arthur & SSR Celia, serta stok antitoksin.</p>
+
+    <h2 id="mistakes">4 Kesalahan Fatal yang Harus Dihindari</h2>
+    <ul>
+      <li><strong>Jangan buang diamond di Tavern biasa:</strong> Simpan diamond untuk Roda Keberuntungan Cynthia di Hari ke-8!</li>
+      <li><strong>Bangun sesuai syarat:</strong> Hanya tingkatkan bangunan yang menjadi syarat upgrade Kuil berikutnya.</li>
+      <li><strong>Hemat stamina:</strong> Hanya serang monster yang relevan dengan tugas event.</li>
+      <li><strong>Hindari PvP dini:</strong> Menyerang pemain lain hanya akan memenuhi rumah sakit dan memperlambat perkembangan.</li>
+    </ul>
+
+    <VideoSection topic="strike_first" lang={lang} />
+  </GuidePage>
+</Base>

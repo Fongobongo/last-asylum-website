@@ -34,6 +34,9 @@ const pages = [
   'events/thief/',
   'events/undead/',
   'events/wagon/',
+  'events/strike-first/',
+  'events/final-dawn/',
+  'events/path-to-healing/',
 ];
 
 // hero codex dynamic routes

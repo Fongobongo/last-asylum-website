@@ -1,0 +1,33 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'fr';
+---
+
+<Base lang={lang} path="/fr/events/path-to-healing/" title="Voie de la Guérison : Guide de 5 jours pour les fragments d'Arthur et Celia" description="Guide complet de l'événement « Voie de la Guérison » (Path to Healing) : Liste des missions des Jours 1 à 5, condition requise de VIP 5 et fragments de UR Arthur.">
+  <GuidePage title="Voie de la Guérison : Guide de 5 jours pour les fragments d'Arthur et Celia" description="Guide complet de l'événement « Voie de la Guérison » (Path to Healing) : Liste des missions des Jours 1 à 5, condition requise de VIP 5 et fragments de UR Arthur." lang={lang}>
+    <p>L'événement **« Voie de la Guérison » (Path to Healing)** est un passage obligé pour tout débutant. Il permet d'obtenir **15 fragments de UR Arthur** (meilleur tank) et **30 fragments de SSR Celia**.</p>
+
+    <h2 id="vip-requirement">Condition Obligatoire : Atteindre le VIP 5</h2>
+    <div class="rounded-xl border border-amber-500/40 bg-amber-500/10 p-4 text-amber-200 mb-6">
+      <p>ATTENTION : Même si vous accomplissez 100% des missions des 5 jours, les récompenses d'Arthur et le grand coffre restent BLOQUÉS si votre compte n'atteint pas le niveau VIP 5 avant la fin de l'événement ! Investissez vos diamants gratuits dans les points VIP.</p>
+    </div>
+
+    <h2 id="daily-tasks">Missions Journalières (Jours 1 à 5)</h2>
+    <ul>
+      <li><strong>Jour 1 :</strong> Connexions, améliorations du Sanctuaire, actions d'aventure.</li>
+      <li><strong>Jour 2 :</strong> Tour du Corbeau, combats d'arène, montée en niveau des héros.</li>
+      <li><strong>Jour 3 :</strong> Entraînement de troupes, arène d'entraînement, aide d'alliance.</li>
+      <li><strong>Jour 4 :</strong> Recherches scientifiques, Corbeau Magique, recrutement taverne.</li>
+      <li><strong>Jour 5 :</strong> Élimination des goules, Puissance de Combat (CP), utilisation d'accélérateurs.</li>
+    </ul>
+
+    <h2 id="pro-tips">Conseils stratégiques</h2>
+    <p>Ne repoussez pas les tâches longues au dernier moment et surveillez votre progression vers le VIP 5 dès le premier jour.</p>
+
+    <VideoSection topic="path_to_healing" lang={lang} />
+  </GuidePage>
+</Base>

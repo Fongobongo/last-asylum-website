@@ -1,0 +1,30 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'fr';
+---
+
+<Base lang={lang} path="/fr/events/final-dawn/" title="Aube Finale : Sprint de développement de base sur 7 jours" description="Guide complet de l'événement clé « Aube Finale » (Final Dawn) dans Last Asylum: Plague : Les 4 phases (Foundations, Power Push, Major Push, Final Push) et priorités.">
+  <GuidePage title="Aube Finale : Sprint de développement de base sur 7 jours" description="Guide complet de l'événement clé « Aube Finale » (Final Dawn) dans Last Asylum: Plague : Les 4 phases (Foundations, Power Push, Major Push, Final Push) et priorités." lang={lang}>
+    <p>L'événement **« Aube Finale » (Final Dawn)** est le marathon de 7 jours qui conditionne votre début de partie. Il récompense l'augmentation de la Puissance du Sanctuaire par d'abondants coffres.</p>
+
+    <h2 id="phases">Les 4 Phases du Plan sur 7 Jours</h2>
+    <ul>
+      <li><strong>Jours 1–2 (Fondations) :</strong> Priorité absolue au Sanctuaire et à ses bâtiments prérequis. Recherches actives 24h/24.</li>
+      <li><strong>Jours 3–4 (Montée en Puissance) :</strong> Niveau des héros, compétences, équipement de départ et entraînement de troupes.</li>
+      <li><strong>Jours 5–6 (Grand Élan) :</strong> Déploiement des accélérateurs et coffres de ressources accumulés. Promotion des troupes vers les tiers supérieurs.</li>
+      <li><strong>Jour 7 (FINAL PUSH 🔥) :</strong> Bilan des paliers restants, liquidation des accélérateurs et récupération de tous les coffres avant le reset (00:00 serveur / 02:00 UTC).</li>
+    </ul>
+
+    <h2 id="priorities">Chaîne des priorités en or</h2>
+    <p>Sanctuaire → Bâtiments prérequis → Recherche → Héros → Troupes → Ressources → Alliance.</p>
+
+    <h2 id="secret">Le grand secret stratégique</h2>
+    <blockquote>Ne brûlez jamais vos accélérateurs au Jour 1 ! Gardez-les pour les Jours 5 à 7 afin de débloquer les paliers les plus lucratifs.</blockquote>
+
+    <VideoSection topic="final_dawn" lang={lang} />
+  </GuidePage>
+</Base>

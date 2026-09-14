@@ -1,0 +1,33 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'es';
+---
+
+<Base lang={lang} path="/es/events/path-to-healing/" title="Camino de Sanación: Guía de 5 días para fragmentos de Arthur y Celia" description="Guía completa del evento «Camino de Sanación» (Path to Healing): Tareas diarias de los Días 1 a 5, requisito obligatorio de VIP 5 y fragmentos de UR Arthur.">
+  <GuidePage title="Camino de Sanación: Guía de 5 días para fragmentos de Arthur y Celia" description="Guía completa del evento «Camino de Sanación» (Path to Healing): Tareas diarias de los Días 1 a 5, requisito obligatorio de VIP 5 y fragmentos de UR Arthur." lang={lang}>
+    <p>El evento **«Camino de Sanación» (Path to Healing)** es un evento de 5 días imprescindible para nuevos comandantes. Garantiza **15 fragmentos de UR Arthur** (mejor tanque) y **30 fragmentos de SSR Celia**.</p>
+
+    <h2 id="vip-requirement">Requisito Obligatorio: Desbloquear VIP 5</h2>
+    <div class="rounded-xl border border-amber-500/40 bg-amber-500/10 p-4 text-amber-200 mb-6">
+      <p>ADVERTENCIA: ¡Aunque completes el 100% de las misiones de los 5 días, las recompensas finales quedarán BLOQUEADAS si tu cuenta no alcanza VIP 5 antes de terminar el evento! Invierte diamantes gratuitos directamente en puntos VIP.</p>
+    </div>
+
+    <h2 id="daily-tasks">Misiones Diarias (Días 1 a 5)</h2>
+    <ul>
+      <li><strong>Día 1:</strong> Inicio de sesión, mejoras del Santuario, acciones de aventura.</li>
+      <li><strong>Día 2:</strong> Torre del Cuervo, duelos en la Arena, subida de nivel de héroes.</li>
+      <li><strong>Día 3:</strong> Entrenamiento de tropas, Arena de entrenamiento, ayuda de alianza.</li>
+      <li><strong>Día 4:</strong> Investigaciones, Cuervo Mágico, reclutamiento en la taberna.</li>
+      <li><strong>Día 5:</strong> Eliminar guls/zombis, subir Poder de Combate (CP), consumir aceleradores.</li>
+    </ul>
+
+    <h2 id="pro-tips">Consejos prácticos</h2>
+    <p>No dejes las tareas largas (investigación de día 4 o tropas de día 3) para el último momento y asegura tus puntos de VIP 5 desde el primer día.</p>
+
+    <VideoSection topic="path_to_healing" lang={lang} />
+  </GuidePage>
+</Base>

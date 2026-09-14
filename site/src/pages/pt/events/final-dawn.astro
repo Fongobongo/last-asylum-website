@@ -1,0 +1,30 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'pt';
+---
+
+<Base lang={lang} path="/pt/events/final-dawn/" title="Alvorecer Final (Final Dawn): Sprint de 7 dias de evolução da base" description="Guia completo do evento essencial «Alvorecer Final» (Final Dawn) em Last Asylum: Plague: As 4 fases (Foundations, Power Push, Major Push, Final Push) e prioridades.">
+  <GuidePage title="Alvorecer Final (Final Dawn): Sprint de 7 dias de evolução da base" description="Guia completo do evento essencial «Alvorecer Final» (Final Dawn) em Last Asylum: Plague: As 4 fases (Foundations, Power Push, Major Push, Final Push) e prioridades." lang={lang}>
+    <p>O evento **«Alvorecer Final» (Final Dawn)** é a maratona decisiva de 7 dias no início da sua jornada. Recompensa o crescimento do Poder do Santuário com baús repletos de itens raros.</p>
+
+    <h2 id="phases">As 4 Fases do Plano de 7 Dias</h2>
+    <ul>
+      <li><strong>Dias 1–2 (Fundações):</strong> Foco absoluto no Santuário e prédios pré-requisito. Laboratório de pesquisa ativo 24/7.</li>
+      <li><strong>Dias 3–4 (Impulso de Poder):</strong> Subir níveis e habilidades de heróis, equipar equipamentos e treinar tropas.</li>
+      <li><strong>Dias 5–6 (Grande Avanço):</strong> Queimar aceleradores e baús de recursos guardados. Promover tropas de tiers baixos para altos.</li>
+      <li><strong>Dia 7 (FINAL PUSH 🔥):</strong> Conferir marcos restantes, usar todos os aceleradores e resgatar baús antes do reset (00:00 servidor / 02:00 UTC).</li>
+    </ul>
+
+    <h2 id="priorities">Cadeia de Prioridades Dourada</h2>
+    <p>Santuário → Prédios pré-requisito → Pesquisa → Heróis → Tropas → Recursos → Aliança.</p>
+
+    <h2 id="secret">O Grande Segredo Estratégico</h2>
+    <blockquote>Nunca esgote seus aceleradores no Dia 1! Guarde-os para os Dias 5–7, quando os baús mais valiosos são liberados.</blockquote>
+
+    <VideoSection topic="final_dawn" lang={lang} />
+  </GuidePage>
+</Base>
