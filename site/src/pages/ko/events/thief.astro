@@ -19,19 +19,21 @@ const lang: Lang = 'ko';
       <li>점수와 보상은 <strong>이벤트 후반에 증가하지 않습니다</strong>. 스태미나를 모을 이유가 전혀 없습니다 — <strong>즉시 쓰세요</strong> 더 빨리 큰 보스를 노리세요.</li>
     </ul>
 
-    <h2 id="boss-levels">서버별 보스 레벨</h2>
+    <h2 id="boss-levels">보스 레벨 및 연맹 상한 진행</h2>
     <table class="w-full mb-6 text-sm">
       <thead>
         <tr><th>서버 연령</th><th>일반적인 보스 레벨</th></tr>
       </thead>
       <tbody>
-        <tr><td>일반</td><td>10 / 15 / 20 / 25 / 30, 드물게 35</td></tr>
-        <tr><td>오래된 서버</td><td>40 / 65 / 85 / 90</td></tr>
+        <tr><td>신규 서버</td><td>10 / 15 / 20 / 25 / 30, 드물게 35</td></tr>
+        <tr><td>성숙 서버</td><td>40 / 65 / 80 / 85 / 90+</td></tr>
       </tbody>
     </table>
     <ul>
-      <li>보스 레벨 <strong>범위는 플레이어마다 무작위이고 바뀌지 않습니다</strong> — 범위를 굴리면 그대로 유지됩니다. <strong>전력과 무관</strong>하므로, 저전력 플레이어도 고레벨 보스를 굴릴 수 있습니다.</li>
-      <li><strong>7월 8일 패치 이후: 스폰이 서버 성장에 정확</strong>합니다. 그 패치 이후 보스 레벨은 서버의 발전 정도를 따릅니다 — 1년 된 서버에 10레벨 보스는 이제 없습니다.</li>
+      <li><strong>레벨 상한 증가 방식:</strong> 연맹원이 발견한 최고 레벨 도적 두목을 <strong>3회 처치</strong>하면 발견 가능한 최대 두목 레벨이 증가합니다 (2026년 7월 30일 업데이트).</li>
+      <li><strong>발견 소유권 규칙:</strong> <em>자신들의</em> 연맹원이 발견한 두목을 연맹원이 격파해야만 상한이 상승합니다. 타 연맹의 처치는 상한 증가에 영향을 주지 않습니다 (2026년 7월 2일 업데이트).</li>
+      <li><strong>두목 코인 상자 (Chief's Coin Chest):</strong> <strong>Lv.80 이상</strong>의 도적 두목을 처치하면 발견자와 집결 발의자 모두에게 귀중한 상자가 지급됩니다!</li>
+      <li>보스 레벨은 서버 발전 단계에 맞춰 자동 조정되며, 오래된 서버에서는 더 이상 저레벨 두목이 생성되지 않습니다.</li>
     </ul>
 
     <h2 id="spawn-technique">30/35레벨을 위한 연속 처치 기법</h2>
@@ -83,7 +85,6 @@ const lang: Lang = 'ko';
     </table>
     <p>논리: <strong>더 오래 생존 = 더 많은 피해 축적</strong>. 보스 전투는 버스트 체크가 아닙니다 — 가장 오래 서 있는 부대가 가장 많이 때립니다, 그러니 순수 공격보다 생존을 우선하세요. 전체 영웅 세부사항은 <a href="/ko/heroes/">영웅 가이드</a>에 있습니다.</p>
 
-    <p><strong>9월 업데이트:</strong> 보상을 획득할 수 있는 도적 두목 처치는 <strong>하루 최대 3회</strong>로 제한됩니다. 두목 격파 시 <em>두목 코인 상자</em>가 추가 지급됩니다.</p>
     <VideoSection topic="thief" lang={lang} />
   </GuidePage>
 </Base>

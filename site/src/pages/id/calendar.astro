@@ -28,22 +28,22 @@ const lang: Lang = 'id';
         <tbody>
           {weeklySchedule.map((e) => (
             <tr class="border-t border-stone-800">
-              <td class="p-3 font-bold text-plague-200 whitespace-nowrap">{e.icon} {e.day}</td>
-              <td class="p-3 text-stone-200 whitespace-nowrap">{e.event}</td>
-              <td class="p-3 text-stone-400">{e.what}</td>
+              <td class="p-3 font-bold text-plague-200 whitespace-nowrap">{e.icon} {e.dayL10n?.[lang] || e.day}</td>
+              <td class="p-3 text-stone-200 whitespace-nowrap">{e.eventL10n?.[lang] || e.event}</td>
+              <td class="p-3 text-stone-400">{e.whatL10n?.[lang] || e.what}</td>
             </tr>
           ))}
         </tbody>
       </table>
     </div>
 
-    <h2 id="recurring">Reset &amp; jadwal rutin</h2>
+    <h2 id="recurring">Reset dan Jadwal Berulang</h2>
     <div class="not-prose my-6 grid gap-3 sm:grid-cols-2">
       {recurring.map((e) => (
         <div class="rounded-lg border border-stone-800 bg-stone-900 p-4">
-          <p class="text-sm font-bold text-plague-200">{e.icon} {e.event}</p>
-          <p class="mt-0.5 text-xs text-stone-500">{e.day}</p>
-          <p class="mt-1 text-sm text-stone-400">{e.what}</p>
+          <p class="text-sm font-bold text-plague-200">{e.icon} {e.eventL10n?.[lang] || e.event}</p>
+          <p class="mt-0.5 text-xs text-stone-500">{e.dayL10n?.[lang] || e.day}</p>
+          <p class="mt-1 text-sm text-stone-400">{e.whatL10n?.[lang] || e.what}</p>
         </div>
       ))}
     </div>
