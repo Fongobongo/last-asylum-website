@@ -14,6 +14,7 @@ import WeeklyCheatSheet from '../components/WeeklyCheatSheet.astro';
 import SanctuaryCalc from '../components/SanctuaryCalc.astro';
 import PvPMatrix from '../components/PvPMatrix.astro';
 import SquadQuiz from '../components/SquadQuiz.astro';
+import QuizSearch from '../components/QuizSearch.astro';
 import FaqSection from '../components/FaqSection.astro';
 import type { Lang } from '../i18n/utils';
 
@@ -83,6 +84,8 @@ const showDiscord = slug !== 'support' && slug !== 'credits';
     {slug === 'heroes' && <SquadQuiz lang={lang} />}
 
     {slug === 'heroes' && <SquadBuilder lang={lang} />}
+
+    {slug === 'events/quiz-of-wisdom' && <QuizSearch lang={lang} />}
 
     {slug === 'tips' && <FaqSection lang={lang} />}
 

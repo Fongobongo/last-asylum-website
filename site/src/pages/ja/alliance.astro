@@ -1,0 +1,81 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ja';
+---
+
+<Base lang={lang} path="/ja/alliance/" title="🤝 同盟システム完全攻略ガイド" description="Last Asylum: Plagueの同盟システム公式完全ガイド — 同盟支援の短縮計算式、同盟技術、ギフトLv.25特権、名誉ショップ優先度、同盟領土とR4/R5役職役割。">
+  <GuidePage title="🤝 同盟システム完全攻略ガイド" description="Last Asylum: Plagueの同盟システム公式完全ガイド — 同盟支援の短縮計算式、同盟技術、ギフトLv.25特権、名誉ショップ優先度、同盟領土とR4/R5役職役割。" lang={lang}>
+
+    <p><strong>Last Asylum: Plague</strong>の荒廃した世界において、単独での生存は極めて困難です。強力で統率された同盟に参加することで、アカウントの育成速度は<strong>3〜5倍</strong>に跳ね上がり、専用ショップの解放や資源の保護、そしてサーバー間戦争への道が開かれます。</p>
+
+    <h2 id="joining">1. 同盟への参加と初期の選び方</h2>
+    <p>同盟機能は<strong>拠点レベル5</strong>でアンロックされます。</p>
+    <ul>
+      <li><strong>戦力ランキング:</strong> サーバー内の上位1〜3位の同盟を目指しましょう。王城を制圧し、役職バフを保持し、毎日大量のギフト宝箱を獲得できます。</li>
+      <li><strong>活動時間帯:</strong> チーズトラップやゾンビ包囲戦などの主要ラリー時間帯が自身のプレイスタイルと合致しているか確認してください。</li>
+      <li><strong>ギフトレベル:</strong> 同盟ギフトレベルが高いほど、無料ダイヤや募集チケット、加速アイテムを含む豪華なマイルストーン宝箱が得られます。</li>
+    </ul>
+
+    <h2 id="help-formula">2. 同盟支援の仕組みと短縮計算式</h2>
+    <p>施設の建設、研究所での技術研究、病院での兵士治療を開始するたびに、拠点上に支援の握手アイコンが表示されます。</p>
+    <div class="rounded-xl border border-toxic-500/30 bg-toxic-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-toxic-300">⚡ 支援時間短縮の計算式</p>
+      <p class="text-xs text-stone-300 mt-1">同盟員が支援をタップするごとに、残り時間が<strong>「総基本時間の1%」または「1分間」のいずれか大きい方</strong>短縮されます。</p>
+    </div>
+    <ul>
+      <li>最大支援回数は<strong>同盟ホール</strong>のレベルによって決まります。Lv.25では最大30回の支援を受けられ、<strong>総建設時間の最大30%を完全無料で短縮</strong>できます！</li>
+      <li><strong>マナー:</strong> 同盟画面の「一括支援」をこまめにタップしましょう。支援ごとに<strong>同盟名誉ポイント</strong>が獲得でき、ショップで利用できます。</li>
+    </ul>
+
+    <h2 id="tech">3. 同盟技術と寄付</h2>
+    <p>同盟研究は、全メンバーの軍事力、採集速度、都市防衛に永続的なパッシブバフを与えます。</p>
+    <ul>
+      <li>寄付回数は20分ごとに1回回復（最大20回まで蓄積）。</li>
+      <li>幹部が星マークで指定した優先技術に寄付しましょう。</li>
+      <li>寄付時に確率で<strong>クリティカル倍率（x2、x5、x10）</strong>が発生し、名誉と同盟EXPが大幅に増加します。</li>
+      <li><strong>推奨研究順:</strong> 発展（「大家族」で定員増加 →「相互扶助」で支援効率強化）→ 領土（採集速度向上）→ 戦争（ATK/HP/ラリー上限）。</li>
+    </ul>
+
+    <h2 id="gift-25">4. 同盟ギフトとLv.25特権</h2>
+    <p>同盟員が盗賊の首領を討伐したり、エリートモンスターを倒したり、パックを購入すると、<strong>メンバー全員にギフト宝箱</strong>が配布されます。</p>
+    <ul>
+      <li><strong>ギフトLv.25特権（9月アップデート）:</strong> 同盟ギフトLv.25に到達すると永続特権がアンロックされ、<strong>交易キャラバンの通常荷車に乗車できる人数が1人追加</strong>されます。これにより、毎日の資源と英雄の破片獲得量が恒久的に増加します。</li>
+    </ul>
+
+    <h2 id="shop">5. 同盟名誉ショップの購入優先度</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>優先度</th><th>アイテム</th><th>戦略的価値</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Sランク</strong></td><td><strong>平和の盾（8時間 / 24時間）</strong></td><td>KvKや撃破イベントで兵士を守る必須品。ダイヤで盾を買うのは絶対に避けましょう！</td></tr>
+        <tr><td><strong>Sランク</strong></td><td><strong>高級移転</strong></td><td>同盟領土内や集結目標への即時テレポート。</td></tr>
+        <tr><td><strong>Aランク</strong></td><td><strong>天賦・スキルリセット</strong></td><td>同盟対決に合わせて内政特化と戦闘特化を切り替えるのに使用。</td></tr>
+        <tr><td><strong>Bランク</strong></td><td><strong>汎用加速</strong></td><td>金曜日の加速スコア稼ぎフェーズに向けて備蓄。</td></tr>
+        <tr><td><strong>Fランク</strong></td><td>基本資源（木材、食糧）</td><td>購入禁止 — マップ上で簡単に無償採集できます。</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="territory">6. 同盟領土と中央要塞</h2>
+    <ul>
+      <li><strong>中央要塞:</strong> 同盟領土の要石。要塞が維持されている限り、領土内に防衛結界が展開されます。</li>
+      <li><strong>同盟旗:</strong> 高レベルの資源帯に向けて領土を拡張します。</li>
+      <li><strong>領土バフ:</strong> 同盟領土内での採集速度+20%〜+30%、拠点防衛バフ、およびキャラバンの強奪防止効果。</li>
+    </ul>
+
+    <h2 id="ranks">7. 階級構造と役職の役割（R1〜R5）</h2>
+    <ul>
+      <li><strong>R5（盟主）:</strong> 全体方針、サーバー間外交、不可侵条約（NAP）、要塞配置、宣戦布告。</li>
+      <li><strong>R4（幹部）:</strong> 軍務官（集結・KvKの指揮）、女神（士気向上・バフ管理）、人事官（加入申請・メンバー管理）、建築官（領土・旗の設計）。</li>
+      <li><strong>R1〜R3:</strong> 主力戦闘員、採集員、一般メンバー。</li>
+    </ul>
+
+    <VideoSection topic="alliance_duel" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

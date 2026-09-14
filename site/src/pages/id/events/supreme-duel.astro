@@ -1,0 +1,70 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+
+<Base lang={lang} path="/id/events/supreme-duel/" title="🏆 Duel Tertinggi: Panduan Turnamen Lintas Server" description="Kuasai turnamen arena lintas server «Duel Tertinggi» (Supreme Duel) di Last Asylum: Plague — Jadwal Hari ke-58, 5 fase turnamen, meta 3 skuad Best-of-3, toko koin prediksi, dan hadiah juara.">
+  <GuidePage title="🏆 Duel Tertinggi: Panduan Turnamen Lintas Server" description="Kuasai turnamen arena lintas server «Duel Tertinggi» (Supreme Duel) di Last Asylum: Plague — Jadwal Hari ke-58, 5 fase turnamen, meta 3 skuad Best-of-3, toko koin prediksi, dan hadiah juara." lang={lang}>
+
+    <p><strong>«Duel Tertinggi» (Supreme Duel)</strong> adalah mode turnamen lintas server paling bergengsi di musim <strong>Era Kebangkitan (Era of Revival)</strong>. Berbeda dari arena lokal biasa, turnamen ini mempertemukan para komandan terkuat dari <strong>16 Zona Perang</strong> untuk memperebutkan gelar juara tertinggi.</p>
+    <p>Fitur paling luar biasa dari turnamen ini adalah <strong>Pasukan Virtual</strong>: tidak ada tentara yang tewas, rumah sakit tidak akan penuh, dan Anda tidak kehilangan sumber daya saat kalah. Ini adalah murni pertarungan formasi taktik, saling counter strategi, dan kesiapan tim.</p>
+
+    <h2 id="schedule">1. Jadwal & Syarat Partisipasi</h2>
+    <ul>
+      <li><strong>Waktu Pembukaan:</strong> Terbuka pada <strong>Hari ke-58 Era Kebangkitan</strong> (dapat dipantau di Gedung Tonggak Sejarah).</li>
+      <li><strong>Durasi:</strong> 27 hari.</li>
+      <li><strong>Cakupan:</strong> 16 Zona Perang gabungan.</li>
+      <li><strong>Persyaratan:</strong> Sanctuary Level <strong>20 ke atas</strong>.</li>
+    </ul>
+    <div class="rounded-xl border border-toxic-500/30 bg-toxic-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-toxic-300">💡 Tips untuk Semua Komandan</p>
+      <p class="text-xs text-stone-300 mt-1">Selalu daftarkan diri meskipun Anda tidak menargetkan posisi teratas! Pendaftaran dan laga babak penyisihan memberikan hadiah partisipasi yang sangat berharga.</p>
+    </div>
+
+    <h2 id="phases">2. 5 Tahapan Turnamen</h2>
+    <ol>
+      <li><strong>Pendaftaran:</strong> Komandan dengan Sanctuary Lv. 20+ mendaftar dan mengunci 3 skuad bertahan dan menyerang.</li>
+      <li><strong>Penyisihan (Babak Grup):</strong> Bertarung mengumpulkan poin untuk menentukan unggulan turnamen.</li>
+      <li><strong>Peluang Kedua (Rematch Bracket):</strong> Jalur penyelamatan bagi kontestan yang terancam gugur. <strong>Sistem Taruhan & Prediksi terbuka di tahap ini!</strong></li>
+      <li><strong>Babak Gugur (Playoffs):</strong> Sistem gugur tunggal di antara para komandan elit dari 16 zona perang.</li>
+      <li><strong>Grand Final:</strong> Pertarungan puncak penentuan Juara Utama Duel Tertinggi.</li>
+    </ol>
+
+    <h2 id="rules">3. Aturan Pertempuran: 3 Skuad Best-of-3</h2>
+    <ul>
+      <li><strong>3 Skuad Independen:</strong> Turunkan Skuad 1, Skuad 2, dan Skuad 3 tanpa ada pahlawan yang tumpang tindih.</li>
+      <li><strong>Best-of-3:</strong> Pemain pertama yang memenangkan 2 ronde skuad memenangkan pertandingan.</li>
+      <li><strong>Strategi «Skuad Korban»:</strong> Jika lawan memiliki satu skuad monster super kuat, jangan korbankan skuad terbaik Anda melawannya. Pasang skuad ke-3 terlemah Anda untuk menelan kekalahan di ronde itu, lalu rebut 2 kemenangan pasti di ronde lainnya dengan skuad utama Anda.</li>
+      <li><strong>Nol Korban Pasukan:</strong> Jumlah tentara dan statistik dihitung secara virtual berdasarkan level riset Anda. Bebas biaya obat rumah sakit!</li>
+    </ul>
+
+    <h2 id="betting">4. Putaran Prediksi & Toko Koin Prediksi</h2>
+    <p>Mulai babak Rematch, semua pemain dari semua server dapat berpartisipasi menebak hasil duel:</p>
+    <ul>
+      <li><strong>Koin Prediksi:</strong> Diperoleh dari login harian dan misi event. Tebakan tepat melipatgandakan koin Anda.</li>
+      <li><strong>Toko Eksklusif Prediksi:</strong> Tukarkan koin dengan item bernilai tinggi:
+        <ul>
+          <li>Pecahan Pahlawan UR Universal (Omni Shards)</li>
+          <li>Cetak Biru Promosi Perlengkapan</li>
+          <li>Peti Epigraf Langka Gagak</li>
+          <li>Paket besar Speedup dan Diamond</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2 id="champion">5. Kehormatan Juara</h2>
+    <ul>
+      <li><strong>Bingkai Avatar Eksklusif Juara:</strong> Simbol prestise animasi lintas server yang membanggakan.</li>
+      <li><strong>Deklarasi Juara:</strong> Pemenang dapat menuliskan slogan kemenangan pribadi yang ditampilkan di beranda event.</li>
+      <li><strong>Peti Tonggak Babak:</strong> Diamond, lencana keahlian, dan sumber daya melimpah di setiap fase yang berhasil dilewati.</li>
+    </ul>
+
+    <VideoSection topic="arena" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

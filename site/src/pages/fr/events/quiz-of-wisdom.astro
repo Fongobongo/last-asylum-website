@@ -1,0 +1,25 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import QuizSearch from '../../../components/QuizSearch.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'fr';
+---
+
+<Base lang={lang} path="/fr/events/quiz-of-wisdom/" title="🧠 Quiz de la Sagesse : Réponses & Antisèche (15/15)" description="Base de données complète et moteur de recherche instantané pour le Quiz de la Sagesse (Quiz of Wisdom) dans Last Asylum: Plague — Obtenez 15/15 à coup sûr.">
+  <GuidePage title="🧠 Quiz de la Sagesse : Réponses & Antisèche (15/15)" description="Base de données complète et moteur de recherche instantané pour le Quiz de la Sagesse (Quiz of Wisdom) dans Last Asylum: Plague — Obtenez 15/15 à coup sûr." lang={lang}>
+
+    <p>Le <strong>«Quiz de la Sagesse» (Quiz of Wisdom)</strong> est un événement récurrent dans <strong>Last Asylum: Plague</strong> qui évalue votre maîtrise des mécaniques, du lore, des prérequis de bâtiments, du triangle des classes et des héros.</p>
+    <p>Répondre correctement aux 15 questions débloque les coffres ultimes de récompenses contenant diamants gratuits, tickets de recrutement, accélérateurs et ressources rares.</p>
+
+    <h2 id="search">Moteur de Recherche des Réponses (15/15)</h2>
+    <p>Utilisez notre outil interactif ci-dessous ! Tapez un mot-clé de la question (ex. <code>sanctuaire</code>, <code>corbeau</code>, <code>15</code>, <code>roi des rats</code>) pour afficher la réponse vérifiée instantanément.</p>
+
+    <QuizSearch lang={lang} />
+    <VideoSection topic="beginner" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

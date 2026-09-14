@@ -1,0 +1,25 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import QuizSearch from '../../../components/QuizSearch.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ja';
+---
+
+<Base lang={lang} path="/ja/events/quiz-of-wisdom/" title="🧠 知恵のクイズ：回答一覧・検索ツール (15/15問全問正解)" description="Last Asylum: Plagueの「知恵のクイズ」(Quiz of Wisdom) 全問正解ガイド — 問題文のキーワードから即座に答えを引ける検索ツールを搭載。全15問を完全攻略。">
+  <GuidePage title="🧠 知恵のクイズ：回答一覧・検索ツール (15/15問全問正解)" description="Last Asylum: Plagueの「知恵のクイズ」(Quiz of Wisdom) 全問正解ガイド — 問題文のキーワードから即座に答えを引ける検索ツールを搭載。全15問を完全攻略。" lang={lang}>
+
+    <p><strong>「知恵のクイズ」(Quiz of Wisdom)</strong>は、<strong>Last Asylum: Plague</strong>で定期開催されるトリビアイベントです。ゲームの仕様、ストーリー設定、建築条件、陣営の相性、英雄スキルなどの知識が問われます。</p>
+    <p>全15問に正解すると、無料ダイヤ、高級募集チケット、各種加速アイテムが詰まった最高ランクの達成宝箱を獲得できます。</p>
+
+    <h2 id="search">即時回答検索ツール（15問全問正解用）</h2>
+    <p>以下の検索ツールをご活用ください！問題文のキーワード（例：<code>拠点</code>、<code>鴉</code>、<code>15</code>、<code>ネズミの王</code>など）を入力するだけで、正しい選択肢が瞬時に表示されます。</p>
+
+    <QuizSearch lang={lang} />
+    <VideoSection topic="beginner" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

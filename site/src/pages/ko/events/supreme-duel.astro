@@ -1,0 +1,70 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ko';
+---
+
+<Base lang={lang} path="/ko/events/supreme-duel/" title="🏆 최고의 결투: 서버 대항전 토너먼트 공략" description="Last Asylum: Plague의 서버 대항전 토너먼트 «최고의 결투»(Supreme Duel) 완벽 공략 — 58일차 개막 일정, 5단계 토너먼트 구성, 3분대 3판 2선승제 메타, 승부 예측 코인 상점 및 챔피언 보상.">
+  <GuidePage title="🏆 최고의 결투: 서버 대항전 토너먼트 공략" description="Last Asylum: Plague의 서버 대항전 토너먼트 «최고의 결투»(Supreme Duel) 완벽 공략 — 58일차 개막 일정, 5단계 토너먼트 구성, 3분대 3판 2선승제 메타, 승부 예측 코인 상점 및 챔피언 보상." lang={lang}>
+
+    <p><strong>«최고의 결투» (Supreme Duel)</strong>는 <strong>부흥의 시대 (Era of Revival)</strong> 시즌에서 선보이는 최상위 서버 대항전 아레나 토너먼트입니다. 일반 로컬 서버 결투장과 달리, <strong>16개 전쟁 구역</strong>의 최정예 사령관들이 모여 초대 챔피언의 자리를 놓고 격돌합니다.</p>
+    <p>본 대회의 핵심 시스템은 <strong>«가상 병력»</strong>입니다. 병력이 실제로 죽지 않으며, 병원이 가득 차서 손실을 입을 걱정이 없고, 패배해도 자원을 잃지 않습니다. 순수한 덱 빌딩, 카운터 픽 심리전, 육성의 깊이를 겨루는 진검승부의 무대입니다.</p>
+
+    <h2 id="schedule">1. 일정 및 참가 자격 요건</h2>
+    <ul>
+      <li><strong>해금 시점:</strong> <strong>부흥의 시대 58일차</strong>에 개막 (마일스톤 건물에서 확인 가능).</li>
+      <li><strong>진행 기간:</strong> 27일간.</li>
+      <li><strong>진행 범위:</strong> 16개 연합 전쟁 구역.</li>
+      <li><strong>참가 요건:</strong> 성역 레벨 <strong>20 이상</strong>.</li>
+    </ul>
+    <div class="rounded-xl border border-toxic-500/30 bg-toxic-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-toxic-300">💡 전 유저 필수 지침</p>
+      <p class="text-xs text-stone-300 mt-1">1위를 노리지 않더라도 무조건 참가 신청을 하세요! 신청 및 예선 참가만으로도 대량의 무료 성장 재화가 확정 지급됩니다.</p>
+    </div>
+
+    <h2 id="phases">2. 토너먼트 5단계 구성</h2>
+    <ol>
+      <li><strong>참가 등록 (Registration):</strong> 성역 Lv. 20 이상의 모든 사령관이 참가 등록을 진행하고 공수 3개 분대를 잠금 설정합니다.</li>
+      <li><strong>예선전 (조별 리그):</strong> 조별 매치를 통해 승점을 쌓고 토너먼트 시드 배정을 받습니다.</li>
+      <li><strong>패자부활전 (Rematch):</strong> 탈락 위기의 사령관들에게 본선 진출 기회를 부여하는 2차 토너먼트. <strong>이 단계부터 승부 예측 투표 시스템이 열립니다!</strong></li>
+      <li><strong>본선 토너먼트 (Playoffs):</strong> 16개 구역 최강자들의 단판 토너먼트.</li>
+      <li><strong>그랜드 파이널 (Grand Finals):</strong> 최고의 결투 초대 챔피언을 가리는 최종 결전.</li>
+    </ol>
+
+    <h2 id="rules">3. 전투 규칙: 3분대 3판 2선승제 (BO3)</h2>
+    <ul>
+      <li><strong>3개 독립 분대:</strong> 영웅 중복 없이 1분대, 2분대, 3분대를 완전히 분리하여 편성합니다.</li>
+      <li><strong>3판 2선승제:</strong> 먼저 2개 분대 승리를 따낸 사령관이 매치에서 승리합니다.</li>
+      <li><strong>«희생 분대» 전략:</strong> 상대방에게 압도적인 초고투력 괴물 덱이 있다면 최정예 덱을 맞부딪치지 마세요. 가장 약한 3분대를 적의 최강 덱에 붙여 1패를 넘겨주고, 나머지 2개 매치에서 주력 덱 2개로 2승을 챙겨 승리하는 것이 정석입니다.</li>
+      <li><strong>무손실 가상 병력:</strong> 병력 규모와 스탯은 연구소 기술과 분대 통솔력에 따라 자동 산출됩니다. 치료 비용이 전혀 들지 않습니다!</li>
+    </ul>
+
+    <h2 id="betting">4. 승부 예측 라운드 및 예측 코인 상점</h2>
+    <p>패자부활전 단계부터 전 서버의 모든 유저가 경기 결과 예측 투표에 참여할 수 있습니다:</p>
+    <ul>
+      <li><strong>예측 코인:</strong> 일일 출석 및 간단한 이벤트 미션으로 획득. 승부 예측 적중 시 코인이 대폭 불어납니다.</li>
+      <li><strong>전용 예측 상점:</strong> 코인을 모아 최고급 아이템으로 교환하세요:
+        <ul>
+          <li>UR 영웅 만능 조각 (Omni Shards)</li>
+          <li>장비 승급 도면</li>
+          <li>희귀 까마귀 비문 상자</li>
+          <li>대량의 가속 및 다이아몬드 패키지</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2 id="champion">5. 챔피언의 영예</h2>
+    <ul>
+      <li><strong>전용 챔피언 프로필 테두리:</strong> 전 서버에 위상을 떨치는 화려한 애니메이션 테두리.</li>
+      <li><strong>챔피언 선언문:</strong> 우승자는 이벤트 메인 화면 상단에 자신만의 승리 슬로건을 영구 게재할 수 있습니다.</li>
+      <li><strong>단계별 마일스톤 상자:</strong> 각 라운드를 통과할 때마다 대량의 다이아와 스킬 훈장이 지급됩니다.</li>
+    </ul>
+
+    <VideoSection topic="arena" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

@@ -1,0 +1,81 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'fr';
+---
+
+<Base lang={lang} path="/fr/alliance/" title="🤝 Guide Complet du Système d'Alliance" description="Guide stratégique officiel de l'Alliance dans Last Asylum: Plague — Formules d'aide, dons de technologie, privilège de cadeau niveau 25, boutique d'honneur et rôles R4/R5.">
+  <GuidePage title="🤝 Guide Complet du Système d'Alliance" description="Guide stratégique officiel de l'Alliance dans Last Asylum: Plague — Formules d'aide, dons de technologie, privilège de cadeau niveau 25, boutique d'honneur et rôles R4/R5." lang={lang}>
+
+    <p>Dans les terres désolées de <strong>Last Asylum: Plague</strong>, survivre en solitaire est quasi impossible. Rejoindre une alliance puissante et structurée accélère votre progression d'un facteur <strong>3x à 5x</strong>, débloque des boutiques exclusives, protège vos ressources et ouvre la voie aux guerres inter-serveurs.</p>
+
+    <h2 id="joining">1. Rejoindre une Alliance & Premiers Pas</h2>
+    <p>La fonctionnalité d'Alliance se débloque au <strong>Niveau 5 du Sanctuaire</strong>.</p>
+    <ul>
+      <li><strong>Classement de Puissance:</strong> Rejoignez impérativement l'une des 3 meilleures alliances de votre serveur. Elles contrôlent le Château Royal, distribuent les titres et génèrent des milliers de coffres de cadeaux par jour.</li>
+      <li><strong>Fuseau horaire et activité:</strong> Veillez à ce que les heures de rassemblement (Piège à Fromage, Siège des Morts-Vivants) correspondent à vos horaires de jeu.</li>
+      <li><strong>Niveau de Cadeau:</strong> Un niveau élevé garantit de meilleurs coffres d'étapes contenant diamants gratuits, tickets de recrutement et accélérateurs.</li>
+    </ul>
+
+    <h2 id="help-formula">2. Aide d'Alliance : Mécaniques & Formule</h2>
+    <p>À chaque amélioration de bâtiment, recherche en laboratoire ou soin à l'hôpital, une icône de poignée de main apparaît au-dessus de votre base.</p>
+    <div class="rounded-xl border border-toxic-500/30 bg-toxic-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-toxic-300">⚡ Formule de Réduction du Temps</p>
+      <p class="text-xs text-stone-300 mt-1">Chaque aide d'un allié réduit le temps restant de <strong>1% du temps de base total OU 1 minute</strong> (la valeur la plus élevée étant retenue).</p>
+    </div>
+    <ul>
+      <li>Le nombre maximal d'aides dépend du niveau de votre <strong>Salle d'Alliance</strong>. Au niveau 25, vous pouvez recevoir 30 aides, réduisant jusqu'à <strong>30% du temps total de construction gratuitement</strong> !</li>
+      <li><strong>Règle d'étiquette :</strong> Cliquez fréquemment sur « Aider tout ». Chaque clic rapporte des <strong>Points d'Honneur d'Alliance</strong> pour la boutique.</li>
+    </ul>
+
+    <h2 id="tech">3. Technologies d'Alliance & Dons</h2>
+    <p>Les recherches d'alliance accordent des bonus passifs permanents à tous les membres pour la puissance militaire, la récolte et la défense.</p>
+    <ul>
+      <li>1 tentative de don se régénère toutes les 20 minutes (maximum 20 stockées).</li>
+      <li>Donnez dans la recherche prioritaire marquée d'une étoile par les officiers.</li>
+      <li>Chaque don peut déclencher un <strong>Multiplicateur Critique (x2, x5, x10)</strong> d'honneur et d'EXP.</li>
+      <li><strong>Ordre de priorité :</strong> Développement (« Grande Famille » → « Entraide ») → Territoire (vitesse de récolte) → Guerre (ATQ/PV/taille de ralliement).</li>
+    </ul>
+
+    <h2 id="gift-25">4. Cadeaux d'Alliance & Privilège Niveau 25</h2>
+    <p>Lorsqu'un allié terrasse un Chef Voleur, élimine un monstre d'élite ou achète un pack, <strong>chaque membre reçoit un Coffre de Cadeau</strong>.</p>
+    <ul>
+      <li><strong>Privilège Niveau 25 (Mise à jour de Septembre) :</strong> Atteindre le Niveau de Cadeau 25 débloque un avantage permanent : <strong>chaque Chariot Régulier de la Caravane Marchande transporte 1 passager supplémentaire</strong>. Cela garantit un afflux massif de ressources et de fragments chaque jour.</li>
+    </ul>
+
+    <h2 id="shop">5. Priorités de la Boutique d'Alliance</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Priorité</th><th>Objet</th><th>Valeur Stratégique</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Tier S</strong></td><td><strong>Bouclier de Paix (8h / 24h)</strong></td><td>Indispensable en KvK et lors des événements d'élimination. Ne dépensez jamais de diamants pour des boucliers !</td></tr>
+        <tr><td><strong>Tier S</strong></td><td><strong>Téléportation Avancée</strong></td><td>Déplacement instantané vers le territoire allié ou les cibles de ralliement.</td></tr>
+        <tr><td><strong>Tier A</strong></td><td><strong>Réinitialisation de Talents</strong></td><td>Permet de basculer entre profil économique et militaire pour le Duel d'Alliance.</td></tr>
+        <tr><td><strong>Tier B</strong></td><td><strong>Accélérateurs Universels</strong></td><td>À stocker pour la phase d'accélération du vendredi.</td></tr>
+        <tr><td><strong>Tier F</strong></td><td>Ressources Basiques (Bois, Blé)</td><td>À ne jamais acheter : faciles à récolter sur la carte.</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="territory">6. Territoire & Forteresse Centrale</h2>
+    <ul>
+      <li><strong>Forteresse Centrale :</strong> Le cœur du territoire de guilde. Tant qu'elle est debout, une zone défensive protège vos membres.</li>
+      <li><strong>Bannières :</strong> Étendent les frontières vers les gisements de ressources de haut niveau.</li>
+      <li><strong>Bonus de territoire :</strong> +20% à +30% de vitesse de récolte sur le territoire et protection des convois de caravanes.</li>
+    </ul>
+
+    <h2 id="ranks">7. Hiérarchie & Rôles des Officiers (R1–R5)</h2>
+    <ul>
+      <li><strong>R5 (Chef d'Alliance) :</strong> Diplomatie inter-serveurs, pactes de non-agression, pose de forteresses et déclarations de guerre.</li>
+      <li><strong>R4 (Officiers) :</strong> Maréchal de Guerre (mène les ralliements et le KvK), Déesse (gère les buffs et le moral), Recruteur (sélectionne les candidatures), Bâtisseur (trace le réseau de bannières).</li>
+      <li><strong>R1–R3 :</strong> Combattants, récolteurs et membres actifs.</li>
+    </ul>
+
+    <VideoSection topic="alliance_duel" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

@@ -1,0 +1,83 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+
+<Base lang={lang} path="/id/might/" title="⚡ Cara Meningkatkan Kekuatan (Might) dengan Cepat: Formula & Strategi" description="Panduan resmi memaksimalkan Kekuatan tempur di Last Asylum: Plague — Penjelasan formula Might, kekuatan tempur nyata vs Might kertas, progres pahlawan, farm antitoksin, dan promosi gear hingga Lv.60.">
+  <GuidePage title="⚡ Cara Meningkatkan Kekuatan (Might) dengan Cepat: Formula & Strategi" description="Panduan resmi memaksimalkan Kekuatan tempur di Last Asylum: Plague — Penjelasan formula Might, kekuatan tempur nyata vs Might kertas, progres pahlawan, farm antitoksin, dan promosi gear hingga Lv.60." lang={lang}>
+
+    <p>Banyak komandan melakukan kesalahan fatal di <strong>Last Asylum: Plague</strong>: mereka mengejar angka Might di profil dengan melatih jutaan tentara tingkat rendah. Hasilnya adalah <strong>«Might Kertas»</strong> — angka profil yang besar namun hancur lebur dalam hitungan detik saat melawan skuad yang terasah, menyebabkan ratusan ribu tentara mati permanen karena rumah sakit penuh.</p>
+    <p>Berikut adalah rincian formula Might resmi dan jalur pertumbuhan paling efisien.</p>
+
+    <h2 id="formula">1. Formula Resmi Might</h2>
+    <div class="rounded-xl border border-toxic-500/30 bg-toxic-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-toxic-300">⚡ Formula Total Might Akun</p>
+      <p class="text-xs text-stone-300 mt-1 font-mono">Might = Pahlawan + Gagak + Pasukan + Teknologi + Bangunan</p>
+    </div>
+
+    <h3 id="hierarchy">Hierarki Prioritas Investasi:</h3>
+    <ol>
+      <li><strong>Might Pahlawan (Tier S):</strong> Menentukan langsung daya serang, daya tahan, dan kapasitas komando pasukan Anda di semua mode (Arena, KvK, garnisun, reli).</li>
+      <li><strong>Might Gagak & Epigraf (Tier A):</strong> Memberikan buff persentase global permanen untuk semua pasukan tempur Anda.</li>
+      <li><strong>Teknologi Militer (Tier A):</strong> Mengalikan ATK, DEF, dan kecepatan gerak untuk seluruh kelas pasukan secara permanen.</li>
+      <li><strong>Bangunan (Tier B):</strong> Level Sanctuary membatasi batas level semua struktur dan membuka sistem tingkat lanjut.</li>
+      <li><strong>Might Pasukan (Hati-hati!):</strong> Hanya latih pasukan tingkat tinggi (T7/T8/T9) sesuai kapasitas barisan tempur dan daya tampung Rumah Sakit Anda. Pasukan berlebih hanya menjadi poin gratis bagi musuh dalam Kill Event.</li>
+    </ol>
+
+    <h2 id="hero-pillars">2. Pengembangan Pahlawan: 4 Pilar Utama</h2>
+    <p>Might individu pahlawan dihitung sebagai berikut:</p>
+    <p class="font-mono text-sm text-toxic-300">Might Pahlawan = Level + Bintang + Keahlian + Gear</p>
+
+    <h3 id="antitoxin">1. Level Pahlawan & Antitoksin</h3>
+    <p>Level meningkatkan atribut dasar (HP, ATK, DEF) dan melipatgandakan statistik gear:</p>
+    <ul>
+      <li><strong>Antitoksin:</strong> Bahan bakar utama untuk menaikkan level pahlawan.</li>
+      <li><strong>Tips Pro:</strong> Tekan dan tahan tombol [Tingkatkan] untuk menaikkan level secara otomatis dan cepat tanpa perlu mengetuk ratusan kali.</li>
+    </ul>
+
+    <h3 id="stars">2. Terobosan Bintang (Bintang 4 yang Krusial)</h3>
+    <ul>
+      <li>Titik balik terbesar bagi pahlawan UR adalah <strong>Bintang 4</strong>, di mana pasif tim yang menentukan pertempuran terbuka.</li>
+      <li><strong>Aturan Emas F2P:</strong> Fokuskan sumber daya untuk membawa satu pahlawan carry utama (misalnya Marlena atau Arthur) ke bintang 4–5 sebelum menyebarkan pecahan ke banyak pahlawan bintang 1.</li>
+    </ul>
+
+    <h3 id="promotion">3. Promosi Perlengkapan / Gear (Hingga Lv. 60)</h3>
+    <ul>
+      <li>Gear membutuhkan Cetak Biru untuk promosi pada tonggak pencapaian: <strong>Lv. 10, 20, 30, 40, dan 60</strong>.</li>
+      <li><strong>Urutan Peningkatan:</strong> Maksimalkan senjata dan sarung tangan pahlawan carry belakang terlebih dahulu, lalu tingkatkan zirah tank garis depan Anda.</li>
+    </ul>
+
+    <h3 id="smelt">4. Peleburan Senjata Eksklusif (Tonggak Bintang 10)</h3>
+    <ul>
+      <li>Mencapai Bintang 10 pada Senjata Eksklusif membuka fitur <strong>Peleburan (Smelt)</strong> untuk mengacak ulang atribut bonus sekunder (Penetrasi DEF, Crit DMG).</li>
+    </ul>
+
+    <h2 id="sources">3. Sumber Utama Antitoksin</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Sumber</th><th>Cara Memaksimalkan</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Bengkel Antitoksin</strong></td><td>Jaga level bengkel setara dengan Sanctuary dan panen secara berkala.</td></tr>
+        <tr><td><strong>Peningkatan Bangunan</strong></td><td>Setiap konstruksi selesai memberikan pasokan antitoksin instan.</td></tr>
+        <tr><td><strong>Misi Menara Elang</strong></td><td>Prioritaskan misi ungu dan emas yang menawarkan botol antitoksin.</td></tr>
+        <tr><td><strong>Operasi Rahasia & Penjarahan</strong></td><td>Selesaikan rute harian dan jarah karavan lawan (hingga 3x sehari).</td></tr>
+        <tr><td><strong>Reli Monster Wabah</strong></td><td>Koordinasikan reli aliansi melawan wabah tingkat tinggi untuk pasokan stabil tanpa diamond.</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="raven">4. Perkembangan Gagak & Epigraf</h2>
+    <ul>
+      <li><strong>Gear Gagak:</strong> Buat dan lebur gear untuk mengaktifkan bonus set Topeng Gagak Malam dan Jubah Bulu Gagak.</li>
+      <li><strong>Epigraf (Hingga Bintang 6):</strong> Dapat ditingkatkan hingga Bintang 6. Epigraf UR «Penjaga Alam» memberikan perisai awal pertempuran diikuti mitigasi damage saat perisai hancur.</li>
+    </ul>
+
+    <VideoSection topic="beginner" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

@@ -1,0 +1,70 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ja';
+---
+
+<Base lang={lang} path="/ja/events/supreme-duel/" title="🏆 至高の決闘：トーナメント完全攻略" description="Last Asylum: Plagueのサーバー間アリーナ大会「至高の決闘」(Supreme Duel) を徹底解説 — 58日目スケジュール、5段階の大会構成、3部隊2本先取メタ、予想コイン交換所と覇者報酬。">
+  <GuidePage title="🏆 至高の決闘：トーナメント完全攻略" description="Last Asylum: Plagueのサーバー間アリーナ大会「至高の決闘」(Supreme Duel) を徹底解説 — 58日目スケジュール、5段階の大会構成、3部隊2本先取メタ、予想コイン交換所と覇者報酬。" lang={lang}>
+
+    <p><strong>「至高の決闘」(Supreme Duel)</strong>は、<strong>再生の時代 (Era of Revival)</strong>シーズンにおける最高峰のサーバー間トーナメント大会です。通常のサーバー内アリーナとは異なり、<strong>16の戦区</strong>から集結した最強の指揮官たちが覇者の座を懸けて激突します。</p>
+    <p>本大会の最大の特徴は<strong>「仮想兵士」</strong>システムです。兵士は一切死亡せず、病院が溢れることもなく、敗北しても資源は一切失われません。純粋な部隊編成の戦術、メタ読み、育成の深さが試される究極の舞台です。</p>
+
+    <h2 id="schedule">1. 日程と参加条件</h2>
+    <ul>
+      <li><strong>解放時期:</strong> <strong>再生の時代の58日目</strong>に開幕（マイルストーン施設で確認可能）。</li>
+      <li><strong>開催期間:</strong> 27日間。</li>
+      <li><strong>対象範囲:</strong> 16のグループ化された戦区。</li>
+      <li><strong>参加条件:</strong> 拠点レベル<strong>20以上</strong>。</li>
+    </ul>
+    <div class="rounded-xl border border-toxic-500/30 bg-toxic-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-toxic-300">💡 全プレイヤー必須の心得</p>
+      <p class="text-xs text-stone-300 mt-1">頂点を目指さない場合でも必ずエントリーしましょう！エントリーと予選参加だけで豪華な参加報酬が確実に獲得できます。</p>
+    </div>
+
+    <h2 id="phases">2. 大会の5つのステージ</h2>
+    <ol>
+      <li><strong>エントリー（参加登録）:</strong> 拠点Lv.20以上の全指揮官がエントリーし、攻撃・防衛用の3部隊を登録・固定します。</li>
+      <li><strong>予選（グループリーグ）:</strong> グループに分かれて対戦し、勝ち点を競って本戦のシード権を争います。</li>
+      <li><strong>敗者復活戦（リマッチ）:</strong> 敗退寸前のプレイヤーに本戦復帰の道を与える二次トーナメント。<strong>ここで勝敗予想投票システムが解放されます！</strong></li>
+      <li><strong>本戦トーナメント（決勝トーナメント）:</strong> 16戦区の精鋭による一発勝負の勝ち抜きトーナメント。</li>
+      <li><strong>グランドファイナル:</strong> 至高の決闘の初代王者を決定する最終決戦。</li>
+    </ol>
+
+    <h2 id="rules">3. 対戦ルール：3部隊2本先取（BO3）</h2>
+    <ul>
+      <li><strong>3つの独立部隊:</strong> 重複する英雄なしで部隊1、部隊2、部隊3を編成します。</li>
+      <li><strong>2本先取（Best of 3）:</strong> 先に2つの部隊で勝利を収めた指揮官がマッチの勝者となります。</li>
+      <li><strong>「捨て駒部隊」戦略:</strong> 相手に圧倒的な超強力特化部隊がいる場合、自身の主力部隊をぶつけて共倒れになるのを避けましょう。最も戦力の低い第3部隊を相手の最強部隊にぶつけて1敗を許容し、残る2戦で主力部隊を用いて確実に2勝をもぎ取るのが定石です。</li>
+      <li><strong>損失ゼロの仮想部隊:</strong> 兵士数とステータスは研究所の技術に基づいて自動生成されます。治療資源は一切不要です。</li>
+    </ul>
+
+    <h2 id="betting">4. 勝敗予想システムと予想コイン交換所</h2>
+    <p>敗者復活戦以降、全サーバーのプレイヤー（大会未参加者を含む）が対戦カードの勝敗予想に参加できます：</p>
+    <ul>
+      <li><strong>予想コイン:</strong> 毎日のログインや簡単なイベント任務で獲得。的確な予想でコインが倍増します。</li>
+      <li><strong>専用予想ショップ:</strong> 貯めたコインを高価値アイテムと交換可能：
+        <ul>
+          <li>UR英雄万能の破片</li>
+          <li>装備昇格の設計図</li>
+          <li>希少な鴉の碑文宝箱</li>
+          <li>大量の加速アイテムおよびダイヤ</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2 id="champion">5. 覇者の栄誉</h2>
+    <ul>
+      <li><strong>限定覇者アイコンフレーム:</strong> 全戦区に轟く名誉ある豪華アニメーションフレーム。</li>
+      <li><strong>覇者の宣言:</strong> 優勝者はイベント画面トップに自身の勝利宣言スローガンを掲載できます。</li>
+      <li><strong>勝ち抜きマイルストーン宝箱:</strong> 各トーナメントラウンド突破ごとに大量のダイヤやスキルバッジを獲得。</li>
+    </ul>
+
+    <VideoSection topic="arena" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

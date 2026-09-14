@@ -1,0 +1,83 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'pt';
+---
+
+<Base lang={lang} path="/pt/might/" title="⚡ Como Aumentar o Poder Rapidamente: Fórmulas e Estratégia" description="Guia oficial para maximizar o Poder de combate em Last Asylum: Plague — Divisão da fórmula de Poder, poder real vs poder de papel, cultivo de heróis, farm de antitoxina e promoção de equipamentos até o Nível 60.">
+  <GuidePage title="⚡ Como Aumentar o Poder Rapidamente: Fórmulas e Estratégia" description="Guia oficial para maximizar o Poder de combate em Last Asylum: Plague — Divisão da fórmula de Poder, poder real vs poder de papel, cultivo de heróis, farm de antitoxina e promoção de equipamentos até o Nível 60." lang={lang}>
+
+    <p>Muitos comandantes cometem um erro grave em <strong>Last Asylum: Plague</strong>: focam apenas em aumentar o número de Poder treinando exércitos gigantescos de soldados de baixo nível. O resultado é o perigoso <strong>«Poder de Papel»</strong> — um número enorme no perfil que desmorona em segundos diante de um esquadrão bem montado, superlotando hospitais e causando morte permanente de tropas.</p>
+    <p>Veja abaixo a fórmula oficial de Poder e a rota de crescimento mais eficiente em recursos.</p>
+
+    <h2 id="formula">1. A Fórmula Oficial de Poder</h2>
+    <div class="rounded-xl border border-toxic-500/30 bg-toxic-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-toxic-300">⚡ Fórmula de Poder Total da Conta</p>
+      <p class="text-xs text-stone-300 mt-1 font-mono">Poder = Heróis + Corvo + Tropas + Tecnologia + Edifícios</p>
+    </div>
+
+    <h3 id="hierarchy">Hierarquia de Investimento:</h3>
+    <ol>
+      <li><strong>Poder dos Heróis (Tier S):</strong> Determina diretamente seu dano, sobrevivência e comando em todos os modos (Arena, KvK, guarnições e comitivas).</li>
+      <li><strong>Poder do Corvo e Epígrafes (Tier A):</strong> Fornece bônus percentuais globais permanentes para todas as tropas em campo.</li>
+      <li><strong>Tecnologia Militar (Tier A):</strong> Multiplica ATQ, DEF e velocidade de marcha de classes inteiras de soldados permanentemente.</li>
+      <li><strong>Edifícios (Tier B):</strong> O nível do Santuário limita todas as outras estruturas e desbloqueia novos sistemas.</li>
+      <li><strong>Poder das Tropas (Cuidado!):</strong> Treine apenas soldados de alto nível (T7/T8/T9) que caibam em suas marchas e capacidade de Hospital. Tropas em excesso viram pontos fáceis para inimigos em eventos de eliminação.</li>
+    </ol>
+
+    <h2 id="hero-pillars">2. Os 4 Pilares do Cultivo de Heróis</h2>
+    <p>O poder individual de um herói é calculado por:</p>
+    <p class="font-mono text-sm text-toxic-300">Poder do Herói = Nível + Estrelas + Habilidades + Equipamento</p>
+
+    <h3 id="antitoxin">1. Nível do Herói e Antitoxina</h3>
+    <p>Subir o nível melhora atributos base (Vida, ATQ, DEF) e amplifica os bônus do equipamento:</p>
+    <ul>
+      <li><strong>Antitoxina:</strong> O combustível primordial para o nível dos heróis.</li>
+      <li><strong>Dica:</strong> Mantenha o botão [Aprimorar] pressionado para subir de nível continuamente sem precisar clicar centenas de vezes.</li>
+    </ul>
+
+    <h3 id="stars">2. Avanço de Estrelas (O Marco de 4 Estrelas)</h3>
+    <ul>
+      <li>O ponto de virada para qualquer herói UR são as <strong>4 Estrelas</strong>, quando passivas cruciais de esquadrão são ativadas.</li>
+      <li><strong>Regra de Ouro F2P:</strong> Foque em levar seu carry principal (ex: Marlena ou Arthur) para 4–5 estrelas antes de espalhar fragmentos em vários heróis de 1 estrela.</li>
+    </ul>
+
+    <h3 id="promotion">3. Promoção de Equipamento (Até Nível 60)</h3>
+    <ul>
+      <li>Equipamentos consom plantas para promover nos marcos: <strong>Nível 10, 20, 30, 40 e 60</strong>.</li>
+      <li><strong>Ordem de Melhoria:</strong> Maximize a arma e as luvas do seu causador de dano principal primeiro; depois reforce a armadura do seu tanque.</li>
+    </ul>
+
+    <h3 id="smelt">4. Fundição de Arma Exclusiva (Marco de 10 Estrelas)</h3>
+    <ul>
+      <li>Ao atingir 10 Estrelas em uma Arma Exclusiva, o recurso de <strong>Fundição (Smelt)</strong> é liberado para rolar atributos secundários avançados (perfuração de DEF, dano crítico).</li>
+    </ul>
+
+    <h2 id="sources">3. Principais Fontes de Antitoxina</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Fonte</th><th>Como Maximizar</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Oficina de Antitoxina</strong></td><td>Mantenha sincronizada com o Santuário e colete com frequência.</td></tr>
+        <tr><td><strong>Melhoria de Edifícios</strong></td><td>Cada construção concluída rende uma carga instantânea de antitoxina.</td></tr>
+        <tr><td><strong>Missões da Torre do Falcão</strong></td><td>Priorize missões roxas e douradas com frascos de antitoxina.</td></tr>
+        <tr><td><strong>Operações Secretas e Saques</strong></td><td>Complete rotas diárias e saqueie caravanas rivais (até 3 vezes ao dia).</td></tr>
+        <tr><td><strong>Comitivas contra a Praga</strong></td><td>Participe de ataques da guilda contra infectados de alto nível para fluxo contínuo sem gastar gemas.</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="raven">4. Corvo e Epígrafes</h2>
+    <ul>
+      <li><strong>Equipamento do Corvo:</strong> Forje e funda peças para ativar os conjuntos Máscara do Corvo Noturno e Manto de Penas.</li>
+      <li><strong>Epígrafes (Até 6 Estrelas):</strong> Evoluem até 6 estrelas. A epígrafe UR «Guardião da Natureza» concede um escudo inicial seguido de mitigação de dano após o rompimento.</li>
+    </ul>
+
+    <VideoSection topic="beginner" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

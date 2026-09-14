@@ -1,0 +1,70 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'es';
+---
+
+<Base lang={lang} path="/es/events/supreme-duel/" title="🏆 Duelo Supremo: Guía del Torneo" description="Domina el torneo entre servidores «Duelo Supremo» (Supreme Duel) en Last Asylum: Plague — Calendario Día 58, 5 fases, meta de 3 escuadrones al mejor de 3, tienda de predicciones y recompensas.">
+  <GuidePage title="🏆 Duelo Supremo: Guía del Torneo" description="Domina el torneo entre servidores «Duelo Supremo» (Supreme Duel) en Last Asylum: Plague — Calendario Día 58, 5 fases, meta de 3 escuadrones al mejor de 3, tienda de predicciones y recompensas." lang={lang}>
+
+    <p>El <strong>«Duelo Supremo» (Supreme Duel)</strong> es el torneo inter-servidores más prestigioso de la temporada <strong>Era del Renacimiento (Era of Revival)</strong>. A diferencia de la arena local, enfrenta a los mejores comandantes de <strong>16 Zonas de Guerra</strong> para coronar al campeón definitivo.</p>
+    <p>La gran ventaja de este modo son las <strong>Tropas Virtuales</strong>: ningún soldado muere, el hospital nunca se llena y no pierdes recursos al ser derrotado. Es una prueba pura de estrategia de formaciones, contrapicks y preparación.</p>
+
+    <h2 id="schedule">1. Calendario y Requisitos de Participación</h2>
+    <ul>
+      <li><strong>Apertura:</strong> Se desbloquea en el <strong>Día 58 de la Era del Renacimiento</strong> (consultable en el Edificio de Hitos).</li>
+      <li><strong>Duración:</strong> 27 días.</li>
+      <li><strong>Alcance:</strong> 16 Zonas de Guerra agrupadas.</li>
+      <li><strong>Requisito:</strong> Nivel de Santuario <strong>20 o superior</strong>.</li>
+    </ul>
+    <div class="rounded-xl border border-toxic-500/30 bg-toxic-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-toxic-300">💡 Consejo para todos los jugadores</p>
+      <p class="text-xs text-stone-300 mt-1">¡Inscríbete siempre aunque no busques el primer puesto! El registro y las partidas preliminares otorgan valiosas recompensas garantizadas.</p>
+    </div>
+
+    <h2 id="phases">2. Las 5 Fases del Torneo</h2>
+    <ol>
+      <li><strong>Inscripción:</strong> Los comandantes con Santuario 20+ registran su participación y bloquean sus 3 escuadrones de ataque y defensa.</li>
+      <li><strong>Preliminares (Fase de Grupos):</strong> Combates por puntos para determinar la clasificación y cabezas de serie.</li>
+      <li><strong>Repesca (Segunda Oportunidad):</strong> Cuadro secundario para reengancharse al torneo principal. <strong>¡Aquí se activa el sistema de apuestas y predicciones!</strong></li>
+      <li><strong>Eliminatorias (Playoffs):</strong> Cuadro de eliminación directa entre los mejores estrategas de las 16 zonas.</li>
+      <li><strong>Gran Final:</strong> El enfrentamiento definitivo para coronar al Campeón del Duelo Supremo.</li>
+    </ol>
+
+    <h2 id="rules">3. Reglas de Batalla: 3 Escuadrones al Mejor de 3</h2>
+    <ul>
+      <li><strong>3 Escuadrones Independientes:</strong> Alineas Escuadrón 1, 2 y 3 sin repetir héroes.</li>
+      <li><strong>Mejor de 3:</strong> El primer comandante en lograr 2 victorias de escuadrón gana la serie.</li>
+      <li><strong>La Estrategia del «Escuadrón de Sacrificio»:</strong> Si el rival tiene un mega-escuadrón imparable, no uses a tus mejores héroes contra él. Coloca a tu 3.er escuadrón más débil para absorber esa derrota y gana con tus dos formaciones principales los otros dos duelos.</li>
+      <li><strong>Cero Bajas:</strong> Las tropas y estadísticas se calculan virtualmente según tu tecnología. ¡Cero costes de curación!</li>
+    </ul>
+
+    <h2 id="betting">4. Ronda de Predicciones y Tienda de Monedas</h2>
+    <p>Desde la repesca, todos los comandantes de todos los servidores pueden participar en las apuestas de pronósticos:</p>
+    <ul>
+      <li><strong>Monedas de Predicción:</strong> Se obtienen por inicio de sesión diario y misiones de evento. Acertar pronósticos multiplica tus monedas.</li>
+      <li><strong>Tienda Exclusiva de Predicciones:</strong> Canjea monedas por artículos de élite:
+        <ul>
+          <li>Fragmentos Universales de Héroe UR</li>
+          <li>Planos de Promoción de Equipo</li>
+          <li>Cofres de Epígrafes Raros del Cuervo</li>
+          <li>Paquetes masivos de aceleradores y diamantes</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2 id="champion">5. Honores del Campeón</h2>
+    <ul>
+      <li><strong>Marco de Avatar Exclusivo de Campeón:</strong> Símbolo de estatus animado visible en todos los servidores.</li>
+      <li><strong>Declaración del Campeón:</strong> El vencedor escribe un lema de victoria personalizado que se exhibe en la portada del evento.</li>
+      <li><strong>Cofres de Progreso:</strong> Diamantes, insignias de habilidad y recursos otorgados en cada ronda superada.</li>
+    </ul>
+
+    <VideoSection topic="arena" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

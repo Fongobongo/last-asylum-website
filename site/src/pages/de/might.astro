@@ -1,0 +1,83 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+
+<Base lang={lang} path="/de/might/" title="⚡ Schnelle Machtsteigerung: Formeln & Strategie" description="Offizieller Leitfaden zur Maximierung der Kampfmacht in Last Asylum: Plague — Formel-Analyse, wahre Kampfkraft vs. Papiermacht, Heldenaufbau, Gegengift-Farming und Ausrüstungs-Promotion bis Stufe 60.">
+  <GuidePage title="⚡ Schnelle Machtsteigerung: Formeln & Strategie" description="Offizieller Leitfaden zur Maximierung der Kampfmacht in Last Asylum: Plague — Formel-Analyse, wahre Kampfkraft vs. Papiermacht, Heldenaufbau, Gegengift-Farming und Ausrüstungs-Promotion bis Stufe 60." lang={lang}>
+
+    <p>Viele Kommandanten machen in <strong>Last Asylum: Plague</strong> einen fatalen Fehler: Sie jagen pure Profil-Macht nach, indem sie endlose Horden niederstufiger Soldaten ausbilden. Das Ergebnis ist sogenannte <strong>«Papiermacht»</strong> — eine eindrucksvolle Zahl im Profil, die gegen einen optimierten Kampftrupp in Sekundenschnelle kollabiert und Hunderttausende Soldaten direkt in den permanenten Lazarett-Tod schickt.</p>
+    <p>Hier ist die detaillierte Aufschlüsselung der offiziellen Macht-Formel und der ressourceneffizienteste Entwicklungspfad.</p>
+
+    <h2 id="formula">1. Die offizielle Macht-Formel</h2>
+    <div class="rounded-xl border border-toxic-500/30 bg-toxic-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-toxic-300">⚡ Gesamtkonto-Macht-Formel</p>
+      <p class="text-xs text-stone-300 mt-1 font-mono">Macht = Helden + Rabe + Truppen + Technologie + Gebäude</p>
+    </div>
+
+    <h3 id="hierarchy">Investitions-Hierarchie:</h3>
+    <ol>
+      <li><strong>Helden-Macht (S-Tier):</strong> Bestimmt deinen direkten Schaden, Überlebensfähigkeit und Truppenführung in allen Spielmodi (Arena, KvK, Garnison, Rallyes).</li>
+      <li><strong>Raben- & Epigraphen-Macht (A-Tier):</strong> Verleiht allen eingesetzten Einheiten permanente globale Prozent-Buffs.</li>
+      <li><strong>Militär-Technologie (A-Tier):</strong> Multipliziert ATK, DEF und Marschtempo ganzer Truppenklassen dauerhaft.</li>
+      <li><strong>Gebäude (B-Tier):</strong> Die Zufluchtsstufe setzt die Obergrenzen für alle anderen Systeme und schaltet neue Stufen frei.</li>
+      <li><strong>Truppen-Macht (Vorsicht!):</strong> Bilde nur so viele Top-Truppen (T7/T8/T9) aus, wie deine Marsch-Queues und dein Lazarett fassen können. Überzählige Truppen sind bei Kill-Events kostenlose Punkte für feindliche Plünderer.</li>
+    </ol>
+
+    <h2 id="hero-pillars">2. Helden-Kultivierung: Die 4 Pfeiler</h2>
+    <p>Die individuelle Helden-Macht berechnet sich wie folgt:</p>
+    <p class="font-mono text-sm text-toxic-300">Helden-Macht = Level + Stern-Wertung + Fähigkeiten + Ausrüstung</p>
+
+    <h3 id="antitoxin">1. Helden-Stufe & Gegengift</h3>
+    <p>Helden-Stufen skalieren Grundwerte (HP, ATK, DEF) und verstärken Ausrüstungs-Prozente:</p>
+    <ul>
+      <li><strong>Gegengift:</strong> Der Haupttreibstoff für das Helden-Leveln.</li>
+      <li><strong>Tipp:</strong> Halte die Taste [Aufwerten] gedrückt, um automatisches Leveln ohne Hunderte Klicks zu aktivieren.</li>
+    </ul>
+
+    <h3 id="stars">2. Stern-Durchbrüche (Die 4-Sterne-Schwelle)</h3>
+    <ul>
+      <li>Der entscheidende Wendepunkt für jeden UR-Helden liegt bei <strong>4 Sternen</strong>. 4 Sterne schalten mächtige Team-Passiven frei.</li>
+      <li><strong>F2P-Grundregel:</strong> Bringe zuerst einen primären Carry (z.B. Marlena oder Arthur) auf 4–5 Sterne, bevor du Splitter auf viele 1-Stern-Helden verteilst.</li>
+    </ul>
+
+    <h3 id="promotion">3. Ausrüstungs-Promotion (bis Stufe 60)</h3>
+    <ul>
+      <li>Ausrüstung benötigt Baupläne für Promotionen auf den Meilensteinen: <strong>Stufe 10, 20, 30, 40 und 60</strong>.</li>
+      <li><strong>Reihenfolge:</strong> Maximiere zuerst Waffe und Handschuhe deines Haupt-Schadensverursachers, danach die Rüstung deines Frontline-Tanks.</li>
+    </ul>
+
+    <h3 id="smelt">4. Exklusive Waffen-Schmelze (10-Sterne-Meilenstein)</h3>
+    <ul>
+      <li>Bei Erreichen von 10 Sternen auf einer Exklusiven Waffe wird das <strong>Schmelzen (Smelt)</strong> freigeschaltet. Damit lassen sich mächtige Zweitwerte (DEF-Durchdringung, Kritschaden) auswürfeln.</li>
+    </ul>
+
+    <h2 id="sources">3. Die besten Quellen für Gegengift</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Quelle</th><th>So maximierst du den Ertrag</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Gegengiftwerkstatt</strong></td><td>Halte die Werkstatt stets synchron mit der Zuflucht. Regelmäßig leeren!</td></tr>
+        <tr><td><strong>Gebäude-Upgrades</strong></td><td>Jedes abgeschlossene Gebäude belohnt dich mit sofortigem Gegengift.</td></tr>
+        <tr><td><strong>Falkenturm-Missionen</strong></td><td>Priorisiere lila und goldene Quests mit Gegengift-Ampullen.</td></tr>
+        <tr><td><strong>Geheimoperationen & Karawanenraub</strong></td><td>Tägliche Routen abschließen und fremde Karawanen plündern (bis zu 3x täglich).</td></tr>
+        <tr><td><strong>Seuchenbosse & Rallyes</strong></td><td>Koordiniere Allianz-Rallyes gegen hochstufige Bosse für stetigen Zufluss ohne Diamantenkosten.</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="raven">4. Rabe & Epigraphen-Progression</h2>
+    <ul>
+      <li><strong>Raben-Ausrüstung:</strong> Crafte und fusioniere Teile, um die Set-Boni der Nacht-Raben-Maske und des Rabenfeder-Umhangs zu aktivieren.</li>
+      <li><strong>Epigraphen (bis zu 6 Sterne):</strong> Epigraphen lassen sich bis zu 6 Sternen aufwerten. Das UR-Epigraph «Wächter der Natur» erzeugt zu Kampfbeginn einen Schutzschild mit nachfolgender Schadensreduktion.</li>
+    </ul>
+
+    <VideoSection topic="beginner" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

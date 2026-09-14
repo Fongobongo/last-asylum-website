@@ -1,0 +1,25 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import QuizSearch from '../../../components/QuizSearch.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ko';
+---
+
+<Base lang={lang} path="/ko/events/quiz-of-wisdom/" title="🧠 지혜의 퀴즈: 즉시 정답 검색 족보 (15/15 만점)" description="Last Asylum: Plague «지혜의 퀴즈»(Quiz of Wisdom) 전 질문 정답 및 실시간 검색 족보 — 키워드 입력으로 즉시 정답을 확인하고 15문제 만점을 달성하세요.">
+  <GuidePage title="🧠 지혜의 퀴즈: 즉시 정답 검색 족보 (15/15 만점)" description="Last Asylum: Plague «지혜의 퀴즈»(Quiz of Wisdom) 전 질문 정답 및 실시간 검색 족보 — 키워드 입력으로 즉시 정답을 확인하고 15문제 만점을 달성하세요." lang={lang}>
+
+    <p><strong>«지혜의 퀴즈» (Quiz of Wisdom)</strong>는 <strong>Last Asylum: Plague</strong>에서 정기적으로 열리는 퀴즈 이벤트입니다. 게임 메커니즘, 세계관 스토리, 건물 해금 조건, 진영 상성, 영웅 스킬에 관한 문제가 출제됩니다.</p>
+    <p>15문제를 모두 맞히면 무료 다이아몬드, 모집 티켓, 가속 아이템 등 최고 등급의 마일스톤 보상 상자를 획득할 수 있습니다.</p>
+
+    <h2 id="search">실시간 정답 검색 족보 (15/15 만점 달성)</h2>
+    <p>아래의 실시간 검색 도구를 활용하세요! 질문의 핵심 키워드(예: <code>성역</code>, <code>까마귀</code>, <code>15</code>, <code>쥐의 왕</code> 등)를 입력하면 검증된 정답이 즉시 나타납니다.</p>
+
+    <QuizSearch lang={lang} />
+    <VideoSection topic="beginner" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

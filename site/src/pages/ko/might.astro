@@ -1,0 +1,83 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ko';
+---
+
+<Base lang={lang} path="/ko/might/" title="⚡ 전투력 급상승 공략: 계산 공식 및 성장 전략" description="Last Asylum: Plague 공식 전투력 강화 가이드 — 전투력 공식 분석, 허수 전투력 vs 진짜 실전력, 영웅 육성 4대 요소, 해독제 파밍 및 Lv.60 장비 승급.">
+  <GuidePage title="⚡ 전투력 급상승 공략: 계산 공식 및 성장 전략" description="Last Asylum: Plague 공식 전투력 강화 가이드 — 전투력 공식 분석, 허수 전투력 vs 진짜 실전력, 영웅 육성 4대 요소, 해독제 파밍 및 Lv.60 장비 승급." lang={lang}>
+
+    <p><strong>Last Asylum: Plague</strong>에서 수많은 사령관들이 치명적인 실수를 저지릅니다: 바로 하위 티어 병력을 대량 생산하여 프로필상의 전투력을 부풀리는 것입니다. 숙련된 유저들은 이를 <strong>«종이 전투력»</strong>이라 부릅니다. 정예 부대와 마주치면 몇 초 만에 전멸하고, 병원 수용량을 초과한 수십만 병력이 영구 사망하는 비극을 낳게 됩니다.</p>
+    <p>공식 전투력 산정 공식과 가장 자원 효율적인 성장 로드맵을 공개합니다.</p>
+
+    <h2 id="formula">1. 공식 전투력 계산 공식</h2>
+    <div class="rounded-xl border border-toxic-500/30 bg-toxic-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-toxic-300">⚡ 계정 총 전투력 공식</p>
+      <p class="text-xs text-stone-300 mt-1 font-mono">전투력 = 영웅 + 까마귀 + 병력 + 기술 + 건물</p>
+    </div>
+
+    <h3 id="hierarchy">투자 우선순위 티어표:</h3>
+    <ol>
+      <li><strong>영웅 전투력 (S티어):</strong> 아레나, KvK, 주둔, 집결 등 모든 전투 모드에서 실질적인 딜량, 생존력, 통솔력을 직접 좌우합니다.</li>
+      <li><strong>까마귀 및 비문 전투력 (A티어):</strong> 출진하는 모든 부대에 영구적인 글로벌 백분율 버프를 부여합니다.</li>
+      <li><strong>군사 기술 연구 (A티어):</strong> 병과 전체의 공격력, 방어력, 행군 속도를 영구 증폭합니다.</li>
+      <li><strong>건물 (B티어):</strong> 성역 레벨이 다른 모든 시스템의 상한을 열어주고 새 기능을 해금합니다.</li>
+      <li><strong>병력 전투력 (주의!):</strong> 자신의 출진 큐와 병원 수용량 범위 내에서만 정예 병력(T7/T8/T9)을 훈련하세요. 수용량을 넘는 병력은 킬 이벤트 때 적에게 공짜 점수를 퍼주는 먹잇감일 뿐입니다.</li>
+    </ol>
+
+    <h2 id="hero-pillars">2. 영웅 육성의 4대 핵심 축</h2>
+    <p>개별 영웅의 전투력은 다음과 같이 구성됩니다:</p>
+    <p class="font-mono text-sm text-toxic-300">영웅 전투력 = 레벨 + 성급(스타) + 스킬 + 장비</p>
+
+    <h3 id="antitoxin">1. 영웅 레벨 & 해독제</h3>
+    <p>레벨이 오르면 기본 스탯(HP, ATK, DEF)이 상승하고 장비의 퍼센트 효과가 증폭됩니다:</p>
+    <ul>
+      <li><strong>해독제:</strong> 영웅 레벨업의 핵심 필수 자원.</li>
+      <li><strong>꿀팁:</strong> [강화] 버튼을 길게 누르고 있으면 수백 번 클릭할 필요 없이 연속으로 자동 레벨업됩니다.</li>
+    </ul>
+
+    <h3 id="stars">2. 성급 돌파 (4성 핵심 분기점)</h3>
+    <ul>
+      <li>모든 UR 영웅의 가장 결정적인 변곡점은 <strong>4성 달성</strong>입니다. 4성에서 전투의 판도를 바꾸는 부대 패시브가 열립니다.</li>
+      <li><strong>무과금 황금률:</strong> 여러 영웅을 1성으로 난립시키지 말고, 주력 딜러 1명(말레나 또는 아서)을 먼저 4~5성까지 집중 육성하세요.</li>
+    </ul>
+
+    <h3 id="promotion">3. 장비 승급 (최대 Lv. 60)</h3>
+    <ul>
+      <li>장비는 도면을 사용하여 <strong>Lv. 10, 20, 30, 40, 그리고 60</strong> 단계에서 승급됩니다.</li>
+      <li><strong>승급 순서:</strong> 후열 핵심 딜러의 무기와 장갑을 먼저 최대화하고, 이후 전열 탱커의 갑옷을 강화하세요.</li>
+    </ul>
+
+    <h3 id="smelt">4. 전용 무기 제련 (10성 마일스톤)</h3>
+    <ul>
+      <li>전용 무기가 10성에 도달하면 <strong>제련(Smelt)</strong> 기능이 열려 방어 관통, 치명타 피해 등 강력한 보조 스탯을 부여할 수 있습니다.</li>
+    </ul>
+
+    <h2 id="sources">3. 해독제 주요 획득처</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>획득처</th><th>효율 극대화 방법</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>해독제 작업장</strong></td><td>성역 레벨과 동일하게 유지하고 정기적으로 수령하세요.</td></tr>
+        <tr><td><strong>건물 업그레이드</strong></td><td>건설 완료 시마다 즉시 대량의 해독제가 보상으로 주어집니다.</td></tr>
+        <tr><td><strong>매의 탑 퀘스트</strong></td><td>해독제를 보상으로 주는 보라/황금 퀘스트를 우선 수주하세요.</td></tr>
+        <tr><td><strong>비밀 작전 및 캐러밴 약탈</strong></td><td>매일 경로를 완료하고 상대 마차를 약탈하세요 (하루 최대 3회).</td></tr>
+        <tr><td><strong>역병 집결 공격</strong></td><td>연맹 집결에 적극 참여하여 다이아 소모 없이 지속적인 공급을 챙기세요.</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="raven">4. 까마귀 및 비문 성장</h2>
+    <ul>
+      <li><strong>까마귀 장비 합성:</strong> 장비를 합성하여 밤까마귀 가면 및 깃털 망토 세트 효과를 활성화하세요.</li>
+      <li><strong>비문 (최대 6성):</strong> 최대 6성까지 강화 가능합니다. UR 비문 «자연의 수호»는 전투 시작 시 실드를 부여하고 실드 파괴 시 피해 감소를 발동합니다.</li>
+    </ul>
+
+    <VideoSection topic="beginner" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

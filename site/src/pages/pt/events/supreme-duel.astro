@@ -1,0 +1,70 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'pt';
+---
+
+<Base lang={lang} path="/pt/events/supreme-duel/" title="🏆 Duelo Supremo: Guia do Torneio" description="Domine o torneio entre servidores «Duelo Supremo» (Supreme Duel) em Last Asylum: Plague — Cronograma do Dia 58, 5 fases, meta de 3 esquadrões melhor de 3, loja de palpites e recompensas.">
+  <GuidePage title="🏆 Duelo Supremo: Guia do Torneio" description="Domine o torneio entre servidores «Duelo Supremo» (Supreme Duel) em Last Asylum: Plague — Cronograma do Dia 58, 5 fases, meta de 3 esquadrões melhor de 3, loja de palpites e recompensas." lang={lang}>
+
+    <p>O <strong>«Duelo Supremo» (Supreme Duel)</strong> é o torneio inter-servidores de elite da temporada <strong>Era do Renascimento (Era of Revival)</strong>. Diferente da arena local comum, ele reúne os melhores comandantes de <strong>16 Zonas de Guerra</strong> para coroar o grande campeão.</p>
+    <p>O grande diferencial do torneio são as <strong>Tropas Virtuais</strong>: nenhum soldado morre, os hospitais não lotam e você não perde recursos ao ser derrotado. É um teste puro de estratégia de escalação, contra-ataque e planejamento tático.</p>
+
+    <h2 id="schedule">1. Cronograma e Requisitos de Entrada</h2>
+    <ul>
+      <li><strong>Desbloqueio:</strong> Aberto no <strong>Dia 58 da Era do Renascimento</strong> (visível no Edifício de Marcos).</li>
+      <li><strong>Duração:</strong> 27 dias.</li>
+      <li><strong>Escopo:</strong> 16 Zonas de Guerra agrupadas.</li>
+      <li><strong>Requisito:</strong> Santuário de Nível <strong>20 ou superior</strong>.</li>
+    </ul>
+    <div class="rounded-xl border border-toxic-500/30 bg-toxic-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-toxic-300">💡 Dica para Todos os Jogadores</p>
+      <p class="text-xs text-stone-300 mt-1">Sempre se inscreva, mesmo que não dispute o topo! A inscrição e as lutas preliminares garantem recompensas excelentes para a sua evolução.</p>
+    </div>
+
+    <h2 id="phases">2. As 5 Fases do Torneio</h2>
+    <ol>
+      <li><strong>Inscrição:</strong> Todos os comandantes com Santuário 20+ confirmam presença e travam seus 3 esquadrões de ataque e defesa.</li>
+      <li><strong>Preliminares (Fase de Grupos):</strong> Lutas por pontos para definir a classificação geral do torneio.</li>
+      <li><strong>Repescagem (Rematch Bracket):</strong> Chave secundária para dar uma segunda chance aos eliminados. <strong>O sistema de apostas e palpites é ativado aqui!</strong></li>
+      <li><strong>Eliminatórias (Playoffs):</strong> Chave de eliminação direta entre os melhores generais das 16 zonas.</li>
+      <li><strong>Grande Final:</strong> A disputa definitiva para coroar o Campeão do Duelo Supremo.</li>
+    </ol>
+
+    <h2 id="rules">3. Regras de Batalha: 3 Esquadrões em Melhor de 3</h2>
+    <ul>
+      <li><strong>3 Esquadrões Independentes:</strong> Você monta o Esquadrão 1, 2 e 3 sem repetir nenhum herói.</li>
+      <li><strong>Melhor de 3:</strong> Quem vencer 2 confrontos de esquadrão leva a vitória da partida.</li>
+      <li><strong>A Tática do «Esquadrão de Sacrifício»:</strong> Se o oponente tiver um esquadrão titânico, não desperdice seus melhores heróis contra ele. Use seu 3º esquadrão mais fraco para absorver essa derrota e use seus dois esquadrões principais para garantir as outras duas vitórias.</li>
+      <li><strong>Zero Baixas:</strong> As tropas são calculadas virtualmente com base em suas tecnologias. Sem custos hospitalares!</li>
+    </ul>
+
+    <h2 id="betting">4. Rodada de Palpites e Loja de Previsões</h2>
+    <p>A partir da repescagem, todos os jogadores de todos os servidores podem apostar nos confrontos:</p>
+    <ul>
+      <li><strong>Moedas de Previsão:</strong> Ganhas em logins diários e tarefas simples. Acertos aumentam seus ganhos de moedas.</li>
+      <li><strong>Loja Exclusiva de Previsões:</strong> Troque suas moedas por itens raros:
+        <ul>
+          <li>Fragmentos Universais de Herói UR</li>
+          <li>Plantas de Promoção de Equipamento</li>
+          <li>Baús Raros de Epígrafe do Corvo</li>
+          <li>Grandes pacotes de aceleradores e diamantes</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2 id="champion">5. Honras do Campeão</h2>
+    <ul>
+      <li><strong>Moldura de Avatar Exclusiva de Campeão:</strong> Símbolo animado de prestígio em todo o conjunto de servidores.</li>
+      <li><strong>Declaração do Campeão:</strong> O vencedor escreve uma mensagem de vitória personalizada exibida na tela principal do evento.</li>
+      <li><strong>Baús de Marcos:</strong> Diamantes, insígnias de habilidade e recursos recebidos a cada chave avançada.</li>
+    </ul>
+
+    <VideoSection topic="arena" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

@@ -1,0 +1,70 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+
+<Base lang={lang} path="/de/events/supreme-duel/" title="🏆 Oberstes Duell: Turnier-Guide" description="Meistere das serverübergreifende Turnier «Oberstes Duell» (Supreme Duel) in Last Asylum: Plague — Tag 58 Zeitplan, 5 Phasen, 3-Trupps Best-of-3 Meta, Wettmünzen-Shop und Belohnungen.">
+  <GuidePage title="🏆 Oberstes Duell: Turnier-Guide" description="Meistere das serverübergreifende Turnier «Oberstes Duell» (Supreme Duel) in Last Asylum: Plague — Tag 58 Zeitplan, 5 Phasen, 3-Trupps Best-of-3 Meta, Wettmünzen-Shop und Belohnungen." lang={lang}>
+
+    <p>Das <strong>«Oberste Duell» (Supreme Duel)</strong> ist das prestigeträchtigste serverübergreifende Turnierevent der Saison <strong>Ära der Wiederbelebung (Era of Revival)</strong>. Anders als bei normalen lokalen Arena-Kämpfen treten hier die besten Kommandanten aus <strong>16 Kriegszonen</strong> gegeneinander an, um den ultimativen Champion zu küren.</p>
+    <p>Die herausragende Mechanik dieses Turniers sind die <strong>Virtuellen Truppen</strong>: Kein einziger Soldat stirbt, Lazarette füllen sich nicht und du verlierst bei einer Niederlage keinerlei Ressourcen. Es ist ein reiner Test deiner Aufstellungstaktik, Konter-Mechaniken und Vorbereitung.</p>
+
+    <h2 id="schedule">1. Zeitplan & Teilnahmevoraussetzungen</h2>
+    <ul>
+      <li><strong>Freischaltung:</strong> Startet an <strong>Tag 58 der Ära der Wiederbelebung</strong> (über das Meilensteingebäude einsehbar).</li>
+      <li><strong>Dauer:</strong> 27 Tage.</li>
+      <li><strong>Umfang:</strong> 16 zusammengefasste Kriegszonen.</li>
+      <li><strong>Voraussetzung:</strong> Zuflucht auf <strong>Stufe 20 oder höher</strong>.</li>
+    </ul>
+    <div class="rounded-xl border border-toxic-500/30 bg-toxic-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-toxic-300">💡 Wichtig für jeden Spieler</p>
+      <p class="text-xs text-stone-300 mt-1">Auch wenn du nicht um Platz 1 mitkämpfst: Melde dich in jedem Fall an! Allein die Registrierung und die Vorrunden-Kämpfe garantieren wertvolle Teilnahmebelohnungen.</p>
+    </div>
+
+    <h2 id="phases">2. Die 5 Turnierphasen</h2>
+    <ol>
+      <li><strong>Anmeldung (Registration):</strong> Alle Kommandanten mit Zuflucht 20+ melden sich an und sperren ihre 3 Angriffs- und Verteidigungstrupps ein.</li>
+      <li><strong>Vorrunde (Preliminaries):</strong> Gruppenkämpfe um Wertungspunkte zur Bestimmung der Turnier-Setzliste.</li>
+      <li><strong>Hoffnungsrunde (Rematch Bracket):</strong> Zweite Chance für ausgeschiedene Teilnehmer, ins Hauptturnier zurückzukehren. <strong>Hier startet das Wettsystem!</strong></li>
+      <li><strong>K.-o.-Runde (Playoffs):</strong> Single-Elimination-Bracket der Elite aller 16 Kriegszonen.</li>
+      <li><strong>Großes Finale (Grand Finals):</strong> Der finale Showdown um den Titel des Obersten Champions.</li>
+    </ol>
+
+    <h2 id="rules">3. Kampfregeln: 3-Trupps Best-of-3</h2>
+    <ul>
+      <li><strong>3 Unabhängige Trupps:</strong> Du stellst Trupp 1, 2 und 3 auf — jeder Held darf nur in einem einzigen Trupp stehen.</li>
+      <li><strong>Best-of-3:</strong> Wer zuerst 2 Trupp-Siege erringt, gewinnt das Duell.</li>
+      <li><strong>Die «Opfertrupp»-Taktik:</strong> Wenn ein Gegner einen übermächtigen Monster-Trupp aufstellt, setze deinen schwächsten 3. Trupp dagegen (Opferrunde) und sichere mit deinen zwei besten Trupps den Gesamtsieg in den anderen beiden Duellen.</li>
+      <li><strong>Virtuelle Truppen:</strong> Truppenstärke und Attribute werden anhand deiner Forschungen dynamisch skaliert. Keine Lazarett-Heilung nötig!</li>
+    </ul>
+
+    <h2 id="betting">4. Wettphase & Wettmünzen-Shop</h2>
+    <p>Ab der Hoffnungsrunde kann jeder Spieler auf jedem Server Vorhersagen zu den anstehenden Duellen abgeben:</p>
+    <ul>
+      <li><strong>Wettmünzen:</strong> Tägliche Logins und einfache Event-Aufgaben belohnen dich mit Wettmünzen. Richtige Vorhersagen verdoppeln deinen Ertrag.</li>
+      <li><strong>Exklusiver Wett-Shop:</strong> Tausche Münzen gegen hochwertige Belohnungen:
+        <ul>
+          <li>UR-Helden-Universalsplitter</li>
+          <li>Ausrüstungs-Baupläne</li>
+          <li>Seltene Raben-Epigraphentruhen</li>
+          <li>Große Beschleunigungs- und Diamantenpakete</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2 id="champion">5. Champion-Ehrungen</h2>
+    <ul>
+      <li><strong>Exklusiver Champion-Avatarrahmen:</strong> Prestigeträchtiges animiertes Statussymbol auf dem gesamten Serververbund.</li>
+      <li><strong>Champion-Erklärung:</strong> Der Sieger verfasst eine Siegesbotschaft, die prominent im Event-Interface für alle sichtbar ist.</li>
+      <li><strong>Ranglisten-Meilensteintruhen:</strong> Diamanten, Fähigkeits-Abzeichen und seltene Ressourcen für jede überstandene Runde.</li>
+    </ul>
+
+    <VideoSection topic="arena" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

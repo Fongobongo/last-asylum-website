@@ -1,0 +1,83 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'es';
+---
+
+<Base lang={lang} path="/es/might/" title="⚡ Cómo Aumentar el Poder Rápidamente: Fórmulas y Estrategia" description="Guía oficial para maximizar el Poder de combate en Last Asylum: Plague — Desglose de la fórmula de Poder, Poder real vs. Poder de papel, cultivo de héroes, farmeo de antitoxina y promoción de equipo hasta Nivel 60.">
+  <GuidePage title="⚡ Cómo Aumentar el Poder Rápidamente: Fórmulas y Estrategia" description="Guía oficial para maximizar el Poder de combate en Last Asylum: Plague — Desglose de la fórmula de Poder, Poder real vs. Poder de papel, cultivo de héroes, farmeo de antitoxina y promoción de equipo hasta Nivel 60." lang={lang}>
+
+    <p>Muchos comandantes cometen un grave error en <strong>Last Asylum: Plague</strong>: persiguen inflar su cifra de Poder entrenando legiones de soldados de bajo nivel. El resultado es el temido <strong>«Poder de Papel»</strong>: un número impresionante en el perfil que es aniquilado en segundos por un escuadrón optimizado, colapsando el hospital y matando tropas de forma permanente.</p>
+    <p>A continuación te explicamos la fórmula oficial de Poder y el camino más eficiente para progresar.</p>
+
+    <h2 id="formula">1. La Fórmula Oficial de Poder</h2>
+    <div class="rounded-xl border border-toxic-500/30 bg-toxic-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-toxic-300">⚡ Fórmula de Poder Total de la Cuenta</p>
+      <p class="text-xs text-stone-300 mt-1 font-mono">Poder = Héroes + Cuervo + Tropas + Tecnología + Edificios</p>
+    </div>
+
+    <h3 id="hierarchy">Jerarquía de Inversión:</h3>
+    <ol>
+      <li><strong>Poder de Héroes (Tier S):</strong> Determina directamente tu daño, resistencia y capacidad de mando en todos los modos (Arena, KvK, guarniciones y asaltos).</li>
+      <li><strong>Poder de Cuervo y Epígrafes (Tier A):</strong> Otorga bonificaciones porcentuales globales permanentes a todas las tropas.</li>
+      <li><strong>Tecnología Militar (Tier A):</strong> Multiplica de forma permanente el ATQ, DEF y velocidad de marcha de tus tipos de unidad.</li>
+      <li><strong>Edificios (Tier B):</strong> El nivel de Santuario marca el límite de todas las estructuras y desbloquea nuevas mecánicas.</li>
+      <li><strong>Poder de Tropas (¡Cuidado!):</strong> Solo entrena tropas de alto nivel (T7/T8/T9) que quepan en tus colas de marcha y capacidad de Hospital. El exceso de tropas solo regala puntos al enemigo en eventos de bajas.</li>
+    </ol>
+
+    <h2 id="hero-pillars">2. Los 4 Pilares del Cultivo de Héroes</h2>
+    <p>El poder individual de un héroe se calcula así:</p>
+    <p class="font-mono text-sm text-toxic-300">Poder de Héroe = Nivel + Rango de Estrellas + Habilidades + Equipo</p>
+
+    <h3 id="antitoxin">1. Nivel de Héroe y Antitoxina</h3>
+    <p>Los niveles de héroe escalan los atributos base (PS, ATQ, DEF) y potencian los porcentajes de equipo:</p>
+    <ul>
+      <li><strong>Antitoxina:</strong> El combustible indispensable para subir de nivel a tus héroes.</li>
+      <li><strong>Consejo:</strong> Mantén presionado el botón [Mejorar] para subir de nivel de forma continua sin tener que pulsar cientos de veces.</li>
+    </ul>
+
+    <h3 id="stars">2. Ascenso de Estrellas (El hito de 4 Estrellas)</h3>
+    <ul>
+      <li>El gran punto de inflexión para cualquier héroe UR son las <strong>4 Estrellas</strong>, donde se desbloquean pasivas de escuadrón decisivas.</li>
+      <li><strong>Regla F2P:</strong> Lleva a tu atacante principal (p. ej., Marlena o Arthur) a 4–5 estrellas antes de dispersar fragmentos en héroes de 1 estrella.</li>
+    </ul>
+
+    <h3 id="promotion">3. Promoción de Equipo (Hasta Nivel 60)</h3>
+    <ul>
+      <li>El equipo requiere planos para ascender en los hitos: <strong>Nivel 10, 20, 30, 40 y 60</strong>.</li>
+      <li><strong>Prioridad:</strong> Maximiza el arma y los guantes de tu atacante de línea trasera primero; luego sube la armadura de tu tanque frontal.</li>
+    </ul>
+
+    <h3 id="smelt">4. Fundición de Armas Exclusivas (Hito de 10 Estrellas)</h3>
+    <ul>
+      <li>Al alcanzar 10 estrellas en un arma exclusiva se desbloquea la función <strong>Fundición (Smelt)</strong>, que permite obtener atributos secundarios avanzados (penetración de defensa, daño crítico).</li>
+    </ul>
+
+    <h2 id="sources">3. Principales Fuentes de Antitoxina</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Fuente</th><th>Cómo maximizarla</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Taller de Antitoxina</strong></td><td>Mantén el taller al mismo nivel que tu Santuario y recolecta con frecuencia.</td></tr>
+        <tr><td><strong>Mejora de Edificios</strong></td><td>Cada construcción finalizada otorga un lote instantáneo de antitoxina.</td></tr>
+        <tr><td><strong>Misiones de la Torre del Halcón</strong></td><td>Prioriza misiones moradas y doradas que otorguen viales de antitoxina.</td></tr>
+        <tr><td><strong>Operaciones Secretas y Saqueo</strong></td><td>Completa rutas diarias y asalta caravanas rivales (hasta 3 veces al día).</td></tr>
+        <tr><td><strong>Asaltos contra la Plaga</strong></td><td>Organiza ataques de gremio contra jefes de alto nivel para recibir botines continuos sin gastar gemas.</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="raven">4. Progreso de Cuervo y Epígrafes</h2>
+    <ul>
+      <li><strong>Equipo de Cuervo:</strong> Forja y fusiona piezas para activar los conjuntos de Máscara del Cuervo Nocturno y Capa de Plumas.</li>
+      <li><strong>Epígrafes (Hasta 6 Estrellas):</strong> Se mejoran hasta 6 estrellas. El epígrafe UR «Guardián de la Naturaleza» otorga un escudo inicial seguido de mitigación de daño al romperse.</li>
+    </ul>
+
+    <VideoSection topic="beginner" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

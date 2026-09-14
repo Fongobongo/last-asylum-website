@@ -1,0 +1,25 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import QuizSearch from '../../../components/QuizSearch.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'pt';
+---
+
+<Base lang={lang} path="/pt/events/quiz-of-wisdom/" title="🧠 Quiz da Sabedoria: Gabarito e Busca Rápida (15/15)" description="Base de dados e buscador interativo de perguntas e respostas para o Quiz da Sabedoria (Quiz of Wisdom) em Last Asylum: Plague — Acerte 15 de 15 sempre.">
+  <GuidePage title="🧠 Quiz da Sabedoria: Gabarito e Busca Rápida (15/15)" description="Base de dados e buscador interativo de perguntas e respostas para o Quiz da Sabedoria (Quiz of Wisdom) em Last Asylum: Plague — Acerte 15 de 15 sempre." lang={lang}>
+
+    <p>O <strong>«Quiz da Sabedoria» (Quiz of Wisdom)</strong> é um evento periódico de perguntas em <strong>Last Asylum: Plague</strong> que testa seu conhecimento sobre mecânicas, história, requisitos de construções, counter de facções e heróis.</p>
+    <p>Acertar todas as 15 perguntas garante os melhores baús de recompensas com diamantes grátis, bilhetes de recrutamento, aceleradores e materiais valiosos.</p>
+
+    <h2 id="search">Buscador Rápido de Respostas (15 de 15)</h2>
+    <p>Use nossa ferramenta interativa abaixo! Basta digitar qualquer palavra-chave da pergunta (ex: <code>santuário</code>, <code>corvo</code>, <code>15</code>, <code>rei rato</code>) para ver a resposta correta imediatamente.</p>
+
+    <QuizSearch lang={lang} />
+    <VideoSection topic="beginner" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

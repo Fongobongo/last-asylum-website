@@ -37,6 +37,10 @@ const pages = [
   'events/strike-first/',
   'events/final-dawn/',
   'events/path-to-healing/',
+  'events/supreme-duel/',
+  'events/quiz-of-wisdom/',
+  'alliance/',
+  'might/',
 ];
 
 // hero codex dynamic routes

@@ -1,0 +1,25 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import QuizSearch from '../../../components/QuizSearch.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+
+<Base lang={lang} path="/de/events/quiz-of-wisdom/" title="🧠 Quiz der Weisheit: Fragen, Antworten & Spickzettel (15/15)" description="Komplette Fragensammlung und Sofort-Suchhilfe für das Event «Quiz der Weisheit» (Quiz of Wisdom) in Last Asylum: Plague — Erziele jedes Mal 15/15 richtige Antworten.">
+  <GuidePage title="🧠 Quiz der Weisheit: Fragen, Antworten & Spickzettel (15/15)" description="Komplette Fragensammlung und Sofort-Suchhilfe für das Event «Quiz der Weisheit» (Quiz of Wisdom) in Last Asylum: Plague — Erziele jedes Mal 15/15 richtige Antworten." lang={lang}>
+
+    <p>Das <strong>«Quiz der Weisheit» (Quiz of Wisdom)</strong> ist ein regelmäßiges Trivia-Event in <strong>Last Asylum: Plague</strong>, das dein Wissen über Spielmechaniken, Hintergrundgeschichte, Gebäude-Voraussetzungen, Fraktions-Konter und Heldenfähigkeiten auf die Probe stellt.</p>
+    <p>Wer alle 15 Fragen korrekt beantwortet, sichert sich die höchsten Meilensteintruhen mit Gratis-Diamanten, Rekrutierungstickets, Beschleunigern und wertvollen Upgrade-Materialien.</p>
+
+    <h2 id="search">Antwort-Suchhilfe (15 aus 15 Richtige)</h2>
+    <p>Nutze unsere interaktive Schnellsuchmaske unten! Tippe einfach ein Stichwort aus der Frage ein (z. B. <code>Zuflucht</code>, <code>Rabe</code>, <code>15</code>, <code>Rattenkönig</code>), und die verifizierte Community-Antwort wird sofort angezeigt.</p>
+
+    <QuizSearch lang={lang} />
+    <VideoSection topic="beginner" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

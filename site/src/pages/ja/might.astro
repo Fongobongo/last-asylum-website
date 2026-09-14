@@ -1,0 +1,83 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ja';
+---
+
+<Base lang={lang} path="/ja/might/" title="⚡ 戦力を素早く上げる方法：計算式と育成戦略" description="Last Asylum: Plague公式戦力強化ガイド — 戦力計算式の内訳、見せかけの戦力（紙戦力）と真の戦闘力、英雄育成、抗毒素ファーム、Lv.60装備昇格と碑文システム。">
+  <GuidePage title="⚡ 戦力を素早く上げる方法：計算式と育成戦略" description="Last Asylum: Plague公式戦力強化ガイド — 戦力計算式の内訳、見せかけの戦力（紙戦力）と真の戦闘力、英雄育成、抗毒素ファーム、Lv.60装備昇格と碑文システム。" lang={lang}>
+
+    <p><strong>Last Asylum: Plague</strong>において多くの指揮官が陥る重大な罠があります。それは、低ティアの兵士を大量生産してプロフィール上の見せかけの戦力を上げることです。経験豊富なプレイヤーはこれを<strong>「紙の戦力」</strong>と呼びます。最適化された精鋭部隊に対して一瞬で壊滅し、病院の収容上限を超えて数十万の兵士が永久死亡してしまいます。</p>
+    <p>ここでは公式の戦力計算式と、最も資源効率の良い育成手順を徹底解説します。</p>
+
+    <h2 id="formula">1. 公式戦力計算式</h2>
+    <div class="rounded-xl border border-toxic-500/30 bg-toxic-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-toxic-300">⚡ アカウント総戦力計算式</p>
+      <p class="text-xs text-stone-300 mt-1 font-mono">戦力 = 英雄 + 鴉 + 兵士 + 技術 + 施設</p>
+    </div>
+
+    <h3 id="hierarchy">投資の優先度ランキング：</h3>
+    <ol>
+      <li><strong>英雄戦力（Sランク）：</strong> アリーナ、KvK、駐屯、集結などあらゆる戦闘モードにおいて直接的な火力・耐久・統率力を決定づけます。</li>
+      <li><strong>鴉・碑文戦力（Aランク）：</strong> 出撃するすべての部隊に永続的な全体割合バフを付与します。</li>
+      <li><strong>軍事技術（Aランク）：</strong> 兵種全体の攻撃力、防御力、行軍速度を恒久的に底上げします。</li>
+      <li><strong>施設（Bランク）：</strong> 拠点レベルが他のすべてのシステムの上限を引き上げ、新機能をアンロックします。</li>
+      <li><strong>兵士戦力（要注意！）：</strong> 出撃枠と病院の収容人数に見合った数の上位兵士（T7/T8/T9）のみを訓練してください。許容量を超える余剰兵士は、撃破イベントで敵にポイントを献上するだけの餌になります。</li>
+    </ol>
+
+    <h2 id="hero-pillars">2. 英雄育成の4大要素</h2>
+    <p>個々の英雄の戦力は次の4要素で構成されます：</p>
+    <p class="font-mono text-sm text-toxic-300">英雄戦力 = レベル + 星ランク + スキル + 装備</p>
+
+    <h3 id="antitoxin">1. 英雄レベルと抗毒素</h3>
+    <p>レベル上昇により基礎ステータス（HP、ATK、DEF）が成長し、装備の割合補正が増幅されます：</p>
+    <ul>
+      <li><strong>抗毒素：</strong> 英雄のレベルアップに不可欠な最重要資源。</li>
+      <li><strong>プロの裏技：</strong> [強化]ボタンを長押しすることで、連続タップすることなく高速自動レベルアップが可能です。</li>
+    </ul>
+
+    <h3 id="stars">2. 星ランクの突破（星4の重要分岐点）</h3>
+    <ul>
+      <li>UR英雄における最大の性能変化点は<strong>星4</strong>です。星4で部隊全体に影響を与える強力なパッシブスキルが解放されます。</li>
+      <li><strong>無課金・微課金の鉄則：</strong> 星1の英雄を複数育てるよりも、まず主力アタッカー1体（マーレナやアーサーなど）を星4〜5まで集中強化しましょう。</li>
+    </ul>
+
+    <h3 id="promotion">3. 装備の昇格（最大Lv.60）</h3>
+    <ul>
+      <li>装備は設計図を消費して重要節目で昇格します：<strong>Lv.10、20、30、40、そして60</strong>。</li>
+      <li><strong>強化順：</strong> 後衛アタッカーの武器と手を最優先で最大化し、次に前衛タンクの防具を固めましょう。</li>
+    </ul>
+
+    <h3 id="smelt">4. 専属武器の精錬（星10到達時）</h3>
+    <ul>
+      <li>専属武器が星10に到達すると<strong>精錬（Smelt）</strong>が解放され、防御貫通やクリティカルダメージなどの強力な追加ステータスを厳選できます。</li>
+    </ul>
+
+    <h2 id="sources">3. 抗毒素の主な獲得ルート</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>獲得源</th><th>最大化のポイント</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>抗毒素工房</strong></td><td>拠点レベルと常に同期させてレベルを上げ、定期的に回収する。</td></tr>
+        <tr><td><strong>施設レベルアップ</strong></td><td>建設完了時にまとまった量の抗毒素が即時付与されます。</td></tr>
+        <tr><td><strong>隼の塔の任務</strong></td><td>抗毒素を獲得できる紫・金の任務を最優先で受託する。</td></tr>
+        <tr><td><strong>秘密作戦とキャラバン略奪</strong></td><td>日課ルートを完遂し、他プレイヤーの荷車を毎日3回略奪する。</td></tr>
+        <tr><td><strong>ペスト集結戦</strong></td><td>高レベルの感染者に対する同盟集結に参加し、ダイヤ消費なしで安定供給を得る。</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="raven">4. 鴉と碑文の育成</h2>
+    <ul>
+      <li><strong>鴉装備の合成：</strong> 装備部位を合成し、「夜鴉の仮面」や「鴉羽の外套」のセット効果を発動させましょう。</li>
+      <li><strong>碑文（最大星6）：</strong> 碑文は星6まで強化可能。UR「自然の守護」碑文は戦闘開始時にシールドを展開し、破壊時に被ダメージ軽減を付与します。</li>
+    </ul>
+
+    <VideoSection topic="beginner" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

@@ -1,0 +1,25 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import QuizSearch from '../../../components/QuizSearch.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+
+<Base lang={lang} path="/id/events/quiz-of-wisdom/" title="🧠 Kuis Kebijaksanaan: Kunci Jawaban Lengkap (15/15)" description="Database tanya jawab dan alat pencarian cepat jawaban untuk event Kuis Kebijaksanaan (Quiz of Wisdom) di Last Asylum: Plague — Dapatkan skor sempurna 15/15.">
+  <GuidePage title="🧠 Kuis Kebijaksanaan: Kunci Jawaban Lengkap (15/15)" description="Database tanya jawab dan alat pencarian cepat jawaban untuk event Kuis Kebijaksanaan (Quiz of Wisdom) di Last Asylum: Plague — Dapatkan skor sempurna 15/15." lang={lang}>
+
+    <p><strong>«Kuis Kebijaksanaan» (Quiz of Wisdom)</strong> adalah event kuis berkala di <strong>Last Asylum: Plague</strong> yang menguji pengetahuan komandan tentang mekanisme game, kisah latar belakang, prasyarat bangunan, counter faksi, dan pahlawan.</p>
+    <p>Menjawab benar seluruh 15 pertanyaan akan memberikan peti hadiah tingkat tertinggi berisi diamond gratis, tiket rekrut, speedup, dan material penting.</p>
+
+    <h2 id="search">Pencarian Jawaban Cepat (15 dari 15 Benar)</h2>
+    <p>Gunakan alat pencarian interaktif di bawah ini! Ketik kata kunci dari pertanyaan (contoh: <code>sanctuary</code>, <code>gagak</code>, <code>15</code>, <code>rat king</code>), dan jawaban yang terverifikasi akan langsung muncul.</p>
+
+    <QuizSearch lang={lang} />
+    <VideoSection topic="beginner" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

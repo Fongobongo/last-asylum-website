@@ -1,0 +1,81 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'es';
+---
+
+<Base lang={lang} path="/es/alliance/" title="🤝 Guía Completa del Sistema de Alianzas" description="Guía exhaustiva oficial del Sistema de Alianzas en Last Asylum: Plague — Fórmulas de ayuda, donaciones tecnológicas, privilegio de regalo Nivel 25, tienda de honor y roles R4/R5.">
+  <GuidePage title="🤝 Guía Completa del Sistema de Alianzas" description="Guía exhaustiva oficial del Sistema de Alianzas en Last Asylum: Plague — Fórmulas de ayuda, donaciones tecnológicas, privilegio de regalo Nivel 25, tienda de honor y roles R4/R5." lang={lang}>
+
+    <p>En el páramo devastado por la plaga de <strong>Last Asylum: Plague</strong>, sobrevivir como jugador solitario es casi imposible. Unirte a una alianza activa y organizada acelera tu progresión de <strong>3 a 5 veces</strong>, desbloquea tiendas exclusivas, protege tus recursos y te permite luchar en guerras entre servidores.</p>
+
+    <h2 id="joining">1. Unirte a una Alianza y Primeros Pasos</h2>
+    <p>El sistema de Alianzas se desbloquea al alcanzar el <strong>Nivel 5 de Santuario</strong>.</p>
+    <ul>
+      <li><strong>Ranking de Poder:</strong> Apunta siempre a ingresar a una de las 3 mejores alianzas de tu servidor. Dominan el Castillo Real, otorgan títulos y generan miles de cofres de regalo diarios.</li>
+      <li><strong>Horarios y Actividad:</strong> Asegúrate de que las horas punta de asalto (Trampa de Queso, Asedio Zombi) coincidan con tu disponibilidad.</li>
+      <li><strong>Nivel de Regalo:</strong> Niveles superiores de regalo otorgan cofres de mayor rango con diamantes gratis, boletos de reclutamiento y aceleradores.</li>
+    </ul>
+
+    <h2 id="help-formula">2. Ayuda de Alianza: Mecánica y Fórmula</h2>
+    <p>Cada vez que inicias una construcción, investigación en el laboratorio o curación en el hospital, aparece un icono de apretón de manos sobre tu base.</p>
+    <div class="rounded-xl border border-toxic-500/30 bg-toxic-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-toxic-300">⚡ Fórmula de Reducción de Tiempo</p>
+      <p class="text-xs text-stone-300 mt-1">Cada toque de ayuda de un aliado reduce el contador restante en <strong>un 1% del tiempo total base O 1 minuto</strong> (lo que sea mayor).</p>
+    </div>
+    <ul>
+      <li>El número máximo de ayudas depende del nivel del <strong>Salón de la Alianza</strong>. En el nivel 25, puedes recibir 30 ayudas, ¡ahorrando hasta un <strong>30% del tiempo total de construcción gratis</strong>!</li>
+      <li><strong>Regla de Oro:</strong> Pulsa con frecuencia "Ayudar a todos". Cada ayuda te recompensa con <strong>Puntos de Honor de Alianza</strong> para gastar en la tienda.</li>
+    </ul>
+
+    <h2 id="tech">3. Tecnología de Alianza y Donaciones</h2>
+    <p>Las investigaciones de alianza otorgan mejoras pasivas globales a todos los miembros en combate, recolección y defensa.</p>
+    <ul>
+      <li>Se regenera 1 intento de donación cada 20 minutos (máximo 20 acumulados).</li>
+      <li>Dona en la tecnología prioritaria marcada con estrella por los oficiales.</li>
+      <li>Cada donación tiene probabilidad de obtener un <strong>Multiplicador Crítico (x2, x5, x10)</strong> de honor y EXP.</li>
+      <li><strong>Prioridad de investigación:</strong> Desarrollo («Gran Familia» para capacidad de miembros → «Ayuda Mutua») → Territorio (velocidad de recolección) → Guerra (ATQ/PS/capacidad de asalto).</li>
+    </ul>
+
+    <h2 id="gift-25">4. Cofres de Regalo y Privilegio de Nivel 25</h2>
+    <p>Cuando un compañero de alianza derrota a un Jefe Ladrón, abate monstruos de élite o adquiere paquetes, <strong>todos los miembros reciben un Cofre de Regalo</strong>.</p>
+    <ul>
+      <li><strong>Privilegio de Nivel 25 (Actualización de Septiembre):</strong> Al alcanzar el Nivel 25 de Regalo de Alianza, se activa una ventaja permanente: <strong>cada Carreta Regular de la Caravana de Comercio lleva 1 pasajero adicional</strong>. Esto genera una gran cantidad de recursos y fragmentos pasivos diarios.</li>
+    </ul>
+
+    <h2 id="shop">5. Prioridades de la Tienda de Honor</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Prioridad</th><th>Artículo</th><th>Valor Estratégico</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Tier S</strong></td><td><strong>Escudo de Paz (8h / 24h)</strong></td><td>Indispensable para proteger tropas en KvK y eventos de eliminación. ¡Nunca gastes diamantes en escudos!</td></tr>
+        <tr><td><strong>Tier S</strong></td><td><strong>Teletransporte Avanzado</strong></td><td>Reubicación instantánea al territorio de alianza o a objetivos de asalto.</td></tr>
+        <tr><td><strong>Tier A</strong></td><td><strong>Reinicio de Talentos/Habilidades</strong></td><td>Alterna entre configuraciones de economía y combate para el Duelo de Alianzas.</td></tr>
+        <tr><td><strong>Tier B</strong></td><td><strong>Aceleradores Universales</strong></td><td>Acumula para la fase de aceleración de los viernes.</td></tr>
+        <tr><td><strong>Tier F</strong></td><td>Recursos Básicos (Madera, Grano)</td><td>Nunca los compres: se recolectan gratis en el mapa mundial.</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="territory">6. Territorio y Fortaleza Central</h2>
+    <ul>
+      <li><strong>Fortaleza Central:</strong> El núcleo de las fronteras de tu gremio. Mientras se mantenga en pie, el territorio emite un perímetro defensivo activo.</li>
+      <li><strong>Estandartes:</strong> Expanden las fronteras hacia nodos de recursos de alto nivel.</li>
+      <li><strong>Beneficios de territorio:</strong> +20% a +30% de velocidad de recolección dentro del territorio y protección contra saqueos a caravanas.</li>
+    </ul>
+
+    <h2 id="ranks">7. Rangos y Responsabilidades de Oficiales (R1–R5)</h2>
+    <ul>
+      <li><strong>R5 (Líder del Gremio):</strong> Estrategia global, diplomacia entre servidores, pactos de no agresión, colocación de fortalezas y guerras.</li>
+      <li><strong>R4 (Oficiales):</strong> Mariscal de Guerra (dirige asaltos y KvK), Diosa (coordina mejoras y eventos), Reclutador (gestiona miembros), Constructor (diseña la red de estandartes).</li>
+      <li><strong>R1–R3:</strong> Guerreros, recolectores y miembros activos de apoyo.</li>
+    </ul>
+
+    <VideoSection topic="alliance_duel" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

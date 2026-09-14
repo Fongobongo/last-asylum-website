@@ -1,0 +1,70 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'fr';
+---
+
+<Base lang={lang} path="/fr/events/supreme-duel/" title="🏆 Duel Suprême : Guide du Tournoi" description="Maîtrisez le tournoi inter-serveurs «Duel Suprême» (Supreme Duel) dans Last Asylum: Plague — Calendrier Jour 58, 5 phases, format 3 escouades en 2 manches gagnantes, boutique de paris et récompenses.">
+  <GuidePage title="🏆 Duel Suprême : Guide du Tournoi" description="Maîtrisez le tournoi inter-serveurs «Duel Suprême» (Supreme Duel) dans Last Asylum: Plague — Calendrier Jour 58, 5 phases, format 3 escouades en 2 manches gagnantes, boutique de paris et récompenses." lang={lang}>
+
+    <p>Le <strong>«Duel Suprême» (Supreme Duel)</strong> est le tournoi inter-serveurs d'élite de la saison <strong>Ère du Renouveau (Era of Revival)</strong>. Contrairement à l'arène locale, il rassemble les commandants les plus redoutables de <strong>16 Zones de Guerre</strong> pour désigner l'ultime champion.</p>
+    <p>La particularité majeure de cette compétition repose sur les <strong>Troupes Virtuelles</strong> : aucun soldat ne meurt, l'hôpital ne se remplit pas et vous ne perdez aucune ressource en cas d'échec. Il s'agit d'une épreuve pure de composition d'équipe, de contre-tactique et d'anticipation.</p>
+
+    <h2 id="schedule">1. Calendrier & Conditions de Participation</h2>
+    <ul>
+      <li><strong>Déblocage :</strong> Démarre au <strong>Jour 58 de l'Ère du Renouveau</strong> (consultable dans le bâtiment des Jalons).</li>
+      <li><strong>Durée :</strong> 27 jours.</li>
+      <li><strong>Envergure :</strong> 16 Zones de Guerre interconnectées.</li>
+      <li><strong>Condition :</strong> Sanctuaire de niveau <strong>20 ou plus</strong>.</li>
+    </ul>
+    <div class="rounded-xl border border-toxic-500/30 bg-toxic-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-toxic-300">💡 Conseil pour tous les joueurs</p>
+      <p class="text-xs text-stone-300 mt-1">Inscrivez-vous systématiquement, même sans prétention au podium ! La participation et les éliminatoires garantissent d'excellentes récompenses gratuites.</p>
+    </div>
+
+    <h2 id="phases">2. Les 5 Étapes du Tournoi</h2>
+    <ol>
+      <li><strong>Inscription :</strong> Les commandants Sanctuaire 20+ valident leur inscription et verrouillent leurs 3 escouades d'attaque et de défense.</li>
+      <li><strong>Qualifications (Phase de Groupes) :</strong> Matchs de poules pour accumuler des points et déterminer les têtes de série.</li>
+      <li><strong>Repêchage (Rematch Bracket) :</strong> Voie de repêchage pour les éliminés. <strong>C'est ici que s'ouvrent les paris et pronostics !</strong></li>
+      <li><strong>Éliminatoires (Playoffs) :</strong> Arbre à élimination directe réunissant les plus brillants stratèges des 16 zones.</li>
+      <li><strong>Grande Finale :</strong> L'ultime duel pour couronner le Champion Suprême.</li>
+    </ol>
+
+    <h2 id="rules">3. Règles de Combat : 3 Escouades en 2 Manches Gagnantes</h2>
+    <ul>
+      <li><strong>3 Escouades Distinctes :</strong> Alignez les escouades 1, 2 et 3 sans doublon de héros.</li>
+      <li><strong>Format BO3 :</strong> Le premier joueur à remporter 2 victoires d'escouade gagne la confrontation.</li>
+      <li><strong>Tactique de l'«Escouade Sacrifiée» :</strong> Si l'adversaire aligne une composition monstrueuse et intouchable, opposez-lui votre 3e escouade la plus faible pour absorber la défaite, et remportez les 2 autres manches avec vos deux meilleures équipes.</li>
+      <li><strong>Zéro Perte de Troupes :</strong> Effectifs et caractéristiques sont générés virtuellement d'après vos recherches technologiques.</li>
+    </ul>
+
+    <h2 id="betting">4. Système de Pronostics & Boutique de Paris</h2>
+    <p>Dès les repêchages, l'ensemble des joueurs de tous les serveurs peuvent miser sur les duels :</p>
+    <ul>
+      <li><strong>Pièces de Prédiction :</strong> Gagnées lors des connexions et quêtes quotidiennes. Les pronostics exacts rapportent de gros gains.</li>
+      <li><strong>Boutique Exclusive de Prédictions :</strong> Échangez vos gains contre du contenu rare :
+        <ul>
+          <li>Fragments Universels de Héros UR</li>
+          <li>Plans de Promotion d'Équipement</li>
+          <li>Coffres d'Épigraphes Rares du Corbeau</li>
+          <li>Gros packs d'accélérateurs et de diamants</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2 id="champion">5. Honneurs du Champion</h2>
+    <ul>
+      <li><strong>Cadre d'Avatar Exclusif de Champion :</strong> Titre visuel animé prestigieux visible sur tous les serveurs.</li>
+      <li><strong>Déclaration du Vainqueur :</strong> Le champion rédige un slogan personnalisé affiché en grand sur l'accueil du tournoi.</li>
+      <li><strong>Coffres d'Étape :</strong> Diamants, insignes de compétences et ressources à chaque palier franchi.</li>
+    </ul>
+
+    <VideoSection topic="arena" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

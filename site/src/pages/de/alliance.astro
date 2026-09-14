@@ -1,0 +1,81 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+
+<Base lang={lang} path="/de/alliance/" title="🤝 Kompletter Allianz-Guide" description="Offizieller umfassender Leitfaden zum Allianz-System in Last Asylum: Plague — Allianz-Hilfe-Formeln, Tech-Spenden, Stufe 25 Geschenk-Privileg, Ehre-Shop und R4/R5-Rollen.">
+  <GuidePage title="🤝 Kompletter Allianz-Guide" description="Offizieller umfassender Leitfaden zum Allianz-System in Last Asylum: Plague — Allianz-Hilfe-Formeln, Tech-Spenden, Stufe 25 Geschenk-Privileg, Ehre-Shop und R4/R5-Rollen." lang={lang}>
+
+    <p>In den von der Seuche heimgesuchten Weiten von <strong>Last Asylum: Plague</strong> ist das Überleben als Solospieler praktisch unmöglich. Der Beitritt zu einer organisierten Allianz beschleunigt deinen Fortschritt um das <strong>3- bis 5-fache</strong>, schaltet exklusive Shops frei, schützt Ressourcen und öffnet das Tor zu epischen serverübergreifenden Kriegen.</p>
+
+    <h2 id="joining">1. Beitritt & die richtige Allianz finden</h2>
+    <p>Das Allianz-Feature wird mit <strong>Zufluchtsstufe 5</strong> freigeschaltet.</p>
+    <ul>
+      <li><strong>Macht-Rangliste:</strong> Versuche, in eine Top 1 bis Top 3 Allianz deines Servers einzutreten. Sie dominieren das Königsschloss, halten die Kron-Titel und generieren täglich Hunderte Geschenk-Truhen.</li>
+      <li><strong>Zeitzonen & Aktivität:</strong> Die Haupt-Rallye-Zeiten (Cheese Trap, Untoten-Belagerung) sollten zu deinen Onlinezeiten passen.</li>
+      <li><strong>Geschenk-Level:</strong> Höhere Allianz-Geschenk-Stufen bieten wertvollere Meilenstein-Kisten mit Gratis-Diamanten, Rekrutierungstickets und Beschleunigern.</li>
+    </ul>
+
+    <h2 id="help-formula">2. Allianz-Hilfe: Mechanik & Formel</h2>
+    <p>Jedes Mal, wenn du ein Gebäude ausbaust, im Labor forschst oder Truppen im Lazarett heilst, erscheint der Handschlag über deiner Basis.</p>
+    <div class="rounded-xl border border-toxic-500/30 bg-toxic-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-toxic-300">⚡ Hilfe-Zeitverkürzungsformel</p>
+      <p class="text-xs text-stone-300 mt-1">Jedes Antippen eines Verbündeten verkürzt den verbleibenden Countdown um <strong>1 % der gesamten Basiszeit ODER 1 Minute</strong> (je nachdem, was größer ist).</p>
+    </div>
+    <ul>
+      <li>Die maximale Anzahl an Hilfen hängt von deiner <strong>Allianz-Halle</strong> ab. Auf Stufe 25 erhältst du bis zu 30 Hilfen — das spart bis zu <strong>30 % der gesamten Bauzeit kostenlos</strong>!</li>
+      <li><strong>Etikette:</strong> Tippe im Allianz-Menü regelmäßig auf „Allen helfen“. Jede Hilfe belohnt dich mit <strong>Allianz-Ehrenpunkten</strong> für den Allianz-Shop.</li>
+    </ul>
+
+    <h2 id="tech">3. Allianz-Technologie & Spenden</h2>
+    <p>Allianz-Forschung gewährt allen Mitgliedern permanente passive Buffs auf Angriff, Sammelgeschwindigkeit und Verteidigung.</p>
+    <ul>
+      <li>Alle 20 Minuten regeneriert sich 1 Spendenversuch (maximal 20 gespeichert).</li>
+      <li>Spende in die von Offizieren mit Sternen markierte Prioritäts-Technologie.</li>
+      <li>Jede Spende hat die Chance auf einen <strong>Kritischen Multiplikator (x2, x5, x10)</strong> für Bonus-Ehre und Allianz-EP.</li>
+      <li><strong>Forschungs-Priorität:</strong> Entwicklung («Große Familie» für Mitgliederlimit → «Gegenseitige Hilfe») → Territorium (Sammeltempo) → Krieg (ATK/HP/Rallye-Kapazität).</li>
+    </ul>
+
+    <h2 id="gift-25">4. Allianz-Geschenke & das Stufe-25-Privileg</h2>
+    <p>Wenn Allianzmitglieder Diebes-Anführer besiegen, Seuchenbosse erlegen oder Pakete kaufen, erhält <strong>jedes Mitglied eine Geschenktruhe</strong>.</p>
+    <ul>
+      <li><strong>Stufe-25-Privileg (September-Update):</strong> Bei Erreichen von Allianz-Geschenk Stufe 25 erhält jedes Mitglied einen dauerhaften Bonus: <strong>jeder reguläre Wagen in der Handelskarawane fasst 1 zusätzlichen Passagier</strong>. Dies sorgt für signifikant mehr passive Rohstoffe und Heldensplitter.</li>
+    </ul>
+
+    <h2 id="shop">5. Prioritäten im Allianz-Shop</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Priorität</th><th>Gegenstand</th><th>Strategischer Nutzen</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>S-Tier</strong></td><td><strong>8h / 24h Friedensschild</strong></td><td>Überlebenswichtig während KvK und Kill-Events. Verschwende niemals Diamanten für Schilde!</td></tr>
+        <tr><td><strong>S-Tier</strong></td><td><strong>Erweiterter Teleport</strong></td><td>Sofortige Verlegung ins Allianzgebiet oder zu Boss-Rallyes.</td></tr>
+        <tr><td><strong>A-Tier</strong></td><td><strong>Talent-/Skill-Reset</strong></td><td>Wechsle für das Allianz-Duell zwischen Wirtschafts- und Kriegs-Builds.</td></tr>
+        <tr><td><strong>B-Tier</strong></td><td><strong>Universelle Beschleuniger</strong></td><td>Horten für den Freitag im Allianz-Duell.</td></tr>
+        <tr><td><strong>F-Tier</strong></td><td>Basis-Rohstoffe (Korn, Holz)</td><td>Niemals kaufen — kostenlos auf der Weltkarte sammelbar.</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="territory">6. Territorium & Zentralfestung</h2>
+    <ul>
+      <li><strong>Zentralfestung:</strong> Das Fundament eurer Grenzen. Solange die Festung steht, strahlt das Gebiet eine Verteidigungszone aus.</li>
+      <li><strong>Banner:</strong> Erweitern die Gebietsgrenzen zu hochstufigen Ressourcenfeldern.</li>
+      <li><strong>Gebiets-Boni:</strong> +20 % bis +30 % Sammeltempo innerhalb der Grenzen und Schutz vor unbefugtem Karawanenraub auf Gildengebiet.</li>
+    </ul>
+
+    <h2 id="ranks">7. Rangstruktur & Offiziersrollen (R1–R5)</h2>
+    <ul>
+      <li><strong>R5 (Allianzleiter):</strong> Strategie, Server-Diplomatie, Nichtangriffspakte (NAP), Festungsplatzierung und Kriegserklärungen.</li>
+      <li><strong>R4 (Offiziere):</strong> Kriegsminister (leitet Rallyes und KvK), Göttin (koordiniert Buffs und Community), Rekrutierer (prüft Bewerbungen), Baumeister (plant Bannergitter).</li>
+      <li><strong>R1–R3:</strong> Kämpfer, Sammler und aktive Unterstützer.</li>
+    </ul>
+
+    <VideoSection topic="alliance_duel" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

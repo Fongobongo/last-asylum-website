@@ -1,0 +1,81 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ko';
+---
+
+<Base lang={lang} path="/ko/alliance/" title="🤝 연맹 시스템 완벽 공략 가이드" description="Last Asylum: Plague 연맹 시스템 공식 종합 가이드 — 연맹 지원 단축 공식, 기술 기부, Lv.25 선물 특권, 명예 상점 우선순위, 연맹 영토 및 R4/R5 임원 역할.">
+  <GuidePage title="🤝 연맹 시스템 완벽 공략 가이드" description="Last Asylum: Plague 연맹 시스템 공식 종합 가이드 — 연맹 지원 단축 공식, 기술 기부, Lv.25 선물 특권, 명예 상점 우선순위, 연맹 영토 및 R4/R5 임원 역할." lang={lang}>
+
+    <p><strong>Last Asylum: Plague</strong>의 황폐한 역병 세계에서 솔로 플레이어로 생존하는 것은 거의 불가능합니다. 조직적이고 강력한 연맹에 가입하면 계정 성장 속도가 <strong>3배에서 5배</strong> 빨라지며, 전용 상점이 열리고 자원이 보호되며 서버 대항전의 문이 열립니다.</p>
+
+    <h2 id="joining">1. 연맹 가입 및 초기 선택 기준</h2>
+    <p>연맹 기능은 <strong>성역 레벨 5</strong>에서 해금됩니다.</p>
+    <ul>
+      <li><strong>전투력 순위:</strong> 반드시 서버 1~3위 연맹 진입을 목표로 하세요. 왕성을 장악하고 칭호 버프를 유지하며 매일 수천 개의 무료 선물 상자를 수급할 수 있습니다.</li>
+      <li><strong>활동 시간대:</strong> 치즈 트랩, 언데드 공성전 등 주요 집결 시간이 자신의 플레이 가능 시간대와 맞는지 확인하세요.</li>
+      <li><strong>선물 레벨:</strong> 연맹 선물 레벨이 높을수록 무료 다이아, 모집 티켓, 가속이 포함된 고등급 보상 상자가 지급됩니다.</li>
+    </ul>
+
+    <h2 id="help-formula">2. 연맹 지원 메커니즘 및 시간 단축 공식</h2>
+    <p>건물 업그레이드, 연구소 기술 연구, 병원 치료를 시작할 때마다 기지 위에 악수 모양의 지원 아이콘이 나타납니다.</p>
+    <div class="rounded-xl border border-toxic-500/30 bg-toxic-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-toxic-300">⚡ 지원 시간 단축 공식</p>
+      <p class="text-xs text-stone-300 mt-1">연맹원의 지원 1회당 남은 시간이 <strong>총 기본 시간의 1% 또는 1분 중 더 큰 값</strong>만큼 즉시 단축됩니다.</p>
+    </div>
+    <ul>
+      <li>최대 지원 횟수는 <strong>연맹 회관</strong> 레벨에 의해 결정됩니다. 25레벨 기준 30회의 지원을 받을 수 있어, <strong>총 건설 시간의 최대 30%를 무료로 단축</strong>할 수 있습니다!</li>
+      <li><strong>에티켓:</strong> 연맹 메뉴의 "모두 지원"을 수시로 누르세요. 지원 1회마다 연맹 상점에서 사용할 수 있는 <strong>연맹 명예 포인트</strong>가 지급됩니다.</li>
+    </ul>
+
+    <h2 id="tech">3. 연맹 기술 연구 및 기부</h2>
+    <p>연맹 연구는 모든 맹원에게 공격력, 채집 속도, 기지 방어 등 영구적인 패시브 버프를 제공합니다.</p>
+    <ul>
+      <li>기부 횟수는 20분마다 1회 충전됩니다 (최대 20회 누적).</li>
+      <li>임원이 별표로 지정한 우선 기술에 기부하세요.</li>
+      <li>기부 시 확률적으로 <strong>크리티컬 배수 (x2, x5, x10)</strong>가 발생하여 대량의 명예와 연맹 경험치를 획득합니다.</li>
+      <li><strong>연구 우선순위:</strong> 발전 («대가족» 인원 확장 → «상부상조» 지원 효율) → 영토 (채집 속도) → 전쟁 (공격력/생명력/집결 규모).</li>
+    </ul>
+
+    <h2 id="gift-25">4. 연맹 선물 및 25레벨 특권</h2>
+    <p>연맹원이 도적 두목을 처치하거나 엘리트 몬스터를 격파하거나 패키지를 구매할 때마다 <strong>모든 맹원에게 선물 상자</strong>가 지급됩니다.</p>
+    <ul>
+      <li><strong>25레벨 특권 (9월 업데이트):</strong> 연맹 선물 레벨 25를 달성하면 영구 특권이 활성화됩니다: <strong>무역 캐러밴의 일반 마차에 탑승 가능한 인원이 1명 추가</strong>됩니다. 이를 통해 매일 엄청난 양의 자원과 영웅 조각을 패시브로 얻을 수 있습니다.</li>
+    </ul>
+
+    <h2 id="shop">5. 연맹 명예 상점 구매 우선순위</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>우선순위</th><th>아이템</th><th>전략적 가치</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>S티어</strong></td><td><strong>평화의 방패 (8시간 / 24시간)</strong></td><td>KvK 및 킬 이벤트 기간에 병력을 지키기 위한 필수품. 방패에 다이아를 절대 쓰지 마세요!</td></tr>
+        <tr><td><strong>S티어</strong></td><td><strong>고급 이전</strong></td><td>연맹 영토나 보스 집결지로 즉시 이동하기 위한 필수품.</td></tr>
+        <tr><td><strong>A티어</strong></td><td><strong>특성/스킬 초기화</strong></td><td>연맹 대결 일정에 맞춰 경제형과 전투형 세팅을 전환하는 데 활용.</td></tr>
+        <tr><td><strong>B티어</strong></td><td><strong>공용 가속</strong></td><td>금요일 가속 점수 획득 단계를 위해 비축.</td></tr>
+        <tr><td><strong>F티어</strong></td><td>기본 자원 (식량, 목재)</td><td>절대 구매 금지 — 필드 채집으로 쉽게 무료 획득 가능.</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="territory">6. 영토 및 중앙 요새</h2>
+    <ul>
+      <li><strong>중앙 요새:</strong> 연맹 영토의 핵심 거점. 요새가 유지되는 동안 영토 내에 활성 방어 결계가 형성됩니다.</li>
+      <li><strong>깃발:</strong> 고레벨 자원 지대를 향해 영토를 확장합니다.</li>
+      <li><strong>영토 버프:</strong> 연맹 영토 내 채집 속도 +20%~+30%, 기지 방어 버프 및 캐러밴 약탈 방지 효과.</li>
+    </ul>
+
+    <h2 id="ranks">7. 계급 구조 및 임원 역할 (R1–R5)</h2>
+    <ul>
+      <li><strong>R5 (맹주):</strong> 서버 외교, 불가침 조약(NAP), 요새 배치, 전쟁 선포 및 최종 결정권.</li>
+      <li><strong>R4 (임원):</strong> 전쟁 사령관(집결 및 KvK 총괄), 여신(사기 진작 및 버프 관리), 인사관(가입 승인 및 인원 관리), 건축관(깃발 설계).</li>
+      <li><strong>R1–R3:</strong> 주력 전투원, 채집원 및 일반 맹원.</li>
+    </ul>
+
+    <VideoSection topic="alliance_duel" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

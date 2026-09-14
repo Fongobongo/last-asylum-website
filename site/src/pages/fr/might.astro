@@ -1,0 +1,83 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'fr';
+---
+
+<Base lang={lang} path="/fr/might/" title="⚡ Comment Augmenter sa Puissance Rapidement : Formules & Stratégie" description="Guide officiel pour maximiser la Puissance de combat dans Last Asylum: Plague — Formule de puissance, vraie force vs puissance de papier, développement des héros, farm d'antitoxine et promotion d'équipement jusqu'au niveau 60.">
+  <GuidePage title="⚡ Comment Augmenter sa Puissance Rapidement : Formules & Stratégie" description="Guide officiel pour maximiser la Puissance de combat dans Last Asylum: Plague — Formule de puissance, vraie force vs puissance de papier, développement des héros, farm d'antitoxine et promotion d'équipement jusqu'au niveau 60." lang={lang}>
+
+    <p>Beaucoup de commandants commettent une erreur fatale dans <strong>Last Asylum: Plague</strong> : ils cherchent à gonfler artificiellement leur Puissance de profil en entraînant des vagues massives de troupes de bas niveau. C'est ce qu'on appelle la <strong>« Puissance de Papier »</strong> — un chiffre impressionnant qui explose en quelques secondes face à une formation optimisée, envoyant des centaines de milliers de soldats mourir définitivement à l'hôpital.</p>
+    <p>Voici la décomposition de la formule officielle de puissance et la méthode d'évolution la plus rentable.</p>
+
+    <h2 id="formula">1. La Formule Officielle de Puissance</h2>
+    <div class="rounded-xl border border-toxic-500/30 bg-toxic-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-toxic-300">⚡ Formule de Puissance Totale du Compte</p>
+      <p class="text-xs text-stone-300 mt-1 font-mono">Puissance = Héros + Corbeau + Troupes + Technologie + Bâtiments</p>
+    </div>
+
+    <h3 id="hierarchy">Hiérarchie d'Investissement :</h3>
+    <ol>
+      <li><strong>Puissance des Héros (Tier S) :</strong> Conditionne directement vos dégâts, votre survie et votre commandement dans tous les modes (Arène, KvK, garnisons, ralliements).</li>
+      <li><strong>Puissance du Corbeau & Épigraphes (Tier A) :</strong> Confère des bonus globaux en pourcentage permanents à toutes vos unités.</li>
+      <li><strong>Technologies Militaires (Tier A) :</strong> Multiplie de façon permanente l'ATQ, la DÉF et la vitesse de marche de vos classes d'unités.</li>
+      <li><strong>Bâtiments (Tier B) :</strong> Le niveau de Sanctuaire débloque les paliers de tous les autres bâtiments et systèmes.</li>
+      <li><strong>Puissance des Troupes (Prudence !) :</strong> N'entraînez que les troupes d'élite (T7/T8/T9) que vos files de marche et votre hôpital peuvent abriter. L'excédent est une réserve de points gratuite pour vos ennemis en phase d'élimination.</li>
+    </ol>
+
+    <h2 id="hero-pillars">2. Les 4 Piliers du Développement des Héros</h2>
+    <p>La puissance individuelle d'un héros se calcule ainsi :</p>
+    <p class="font-mono text-sm text-toxic-300">Puissance du Héros = Niveau + Étoiles + Compétences + Équipement</p>
+
+    <h3 id="antitoxin">1. Niveau du Héros & Antitoxine</h3>
+    <p>Les niveaux améliorent les statistiques de base (PV, ATQ, DÉF) et décuplent les bonus d'équipement :</p>
+    <ul>
+      <li><strong>Antitoxine :</strong> Le carburant indispensable pour monter de niveau vos héros.</li>
+      <li><strong>Astuce :</strong> Maintenez le bouton [Améliorer] enfoncé pour monter de niveau en continu sans marteler l'écran.</li>
+    </ul>
+
+    <h3 id="stars">2. Paliers d'Étoiles (Le cap des 4 Étoiles)</h3>
+    <ul>
+      <li>Le tournant stratégique pour tout héros UR se situe à <strong>4 Étoiles</strong>, débloquant des passifs d'équipe cruciaux.</li>
+      <li><strong>Règle d'or F2P :</strong> Montez votre carry principal (ex. Marlena ou Arthur) à 4–5 étoiles avant de disperser vos fragments sur plusieurs héros 1 étoile.</li>
+    </ul>
+
+    <h3 id="promotion">3. Promotion d'Équipement (Jusqu'au Niveau 60)</h3>
+    <ul>
+      <li>L'équipement requiert des plans pour être promu aux paliers : <strong>Niveau 10, 20, 30, 40 et 60</strong>.</li>
+      <li><strong>Ordre d'amélioration :</strong> Maximisez l'arme et les accessoires de votre DPS principal en priorité, puis renforcez l'armure de votre tank.</li>
+    </ul>
+
+    <h3 id="smelt">4. Refonte d'Arme Exclusive (Palier 10 Étoiles)</h3>
+    <ul>
+      <li>À 10 étoiles d'Arme Exclusive, la mécanique de <strong>Fonte (Smelt)</strong> se débloque, permettant d'optimiser les attributs secondaires (Pénétration DÉF, Dégâts Critiques).</li>
+    </ul>
+
+    <h2 id="sources">3. Meilleures Sources d'Antitoxine</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Source</th><th>Comment optimiser le gain</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Atelier d'Antitoxine</strong></td><td>Gardez-le au même niveau que votre Sanctuaire et récoltez régulièrement.</td></tr>
+        <tr><td><strong>Améliorations de Bâtiments</strong></td><td>Chaque amélioration de bâtiment terminée accorde un lot immédiat d'antitoxine.</td></tr>
+        <tr><td><strong>Missions de la Tour du Faucon</strong></td><td>Priorisez les quêtes violettes et dorées avec fioles d'antitoxine.</td></tr>
+        <tr><td><strong>Opérations Secrètes & Caravanes</strong></td><td>Terminez vos trajets quotidiens et pillez les caravanes rivales (jusqu'à 3 fois/jour).</td></tr>
+        <tr><td><strong>Ralliements contre la Peste</strong></td><td>Lancez des ralliements d'alliance contre les boss infectés pour un flux régulier sans diamants.</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="raven">4. Corbeau & Épigraphes</h2>
+    <ul>
+      <li><strong>Équipement de Corbeau :</strong> Fabriquez et fusionnez les pièces pour activer les ensembles Masque du Corbeau de Nuit et Cape de Plumes.</li>
+      <li><strong>Épigraphes (Jusqu'à 6 Étoiles) :</strong> Améliorables jusqu'à 6 étoiles. L'épigraphe UR « Gardien de la Nature » déploie un bouclier initial suivi d'une réduction de dégâts à sa rupture.</li>
+    </ul>
+
+    <VideoSection topic="beginner" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

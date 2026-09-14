@@ -1,0 +1,81 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import VideoSection from '../../components/VideoSection.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+
+<Base lang={lang} path="/id/alliance/" title="🤝 Panduan Lengkap Sistem Aliansi" description="Panduan resmi sistem Aliansi di Last Asylum: Plague — Formula Bantuan Aliansi, donasi teknologi, Hak Istimewa Hadiah Lv.25, prioritas Toko Kehormatan, dan peran R4/R5.">
+  <GuidePage title="🤝 Panduan Lengkap Sistem Aliansi" description="Panduan resmi sistem Aliansi di Last Asylum: Plague — Formula Bantuan Aliansi, donasi teknologi, Hak Istimewa Hadiah Lv.25, prioritas Toko Kehormatan, dan peran R4/R5." lang={lang}>
+
+    <p>Di dunia <strong>Last Asylum: Plague</strong> yang hancur oleh wabah, bertahan hidup sendirian hampir mustahil. Bergabung dengan aliansi yang kuat dan terorganisir mempercepat progres akun Anda <strong>3x hingga 5x</strong>, membuka toko eksklusif, melindungi sumber daya, dan membuka pintu perang antar-server.</p>
+
+    <h2 id="joining">1. Bergabung dengan Aliansi & Langkah Awal</h2>
+    <p>Fitur Aliansi terbuka pada <strong>Sanctuary Level 5</strong>.</p>
+    <ul>
+      <li><strong>Peringkat Kekuatan (Might):</strong> Berusahalah masuk ke aliansi Top 1 hingga Top 3 di server Anda. Mereka menguasai Kastil Kerajaan, memegang gelar bergengsi, dan menghasilkan ribuan peti hadiah setiap hari.</li>
+      <li><strong>Zona Waktu & Aktivitas:</strong> Pastikan jam reli utama (Cheese Trap, Undead Siege) sesuai dengan jadwal aktif Anda.</li>
+      <li><strong>Level Hadiah:</strong> Level hadiah aliansi yang lebih tinggi memberikan peti pencapaian dengan diamond gratis, tiket rekrut, dan speedup.</li>
+    </ul>
+
+    <h2 id="help-formula">2. Mekanisme & Formula Bantuan Aliansi</h2>
+    <p>Setiap kali Anda meningkatkan bangunan, melakukan riset laboratorium, atau menyembuhkan pasukan di rumah sakit, ikon jabat tangan bantuan muncul di atas pangkalan.</p>
+    <div class="rounded-xl border border-toxic-500/30 bg-toxic-500/10 p-4 my-4">
+      <p class="text-sm font-semibold text-toxic-300">⚡ Formula Pengurangan Waktu Bantuan</p>
+      <p class="text-xs text-stone-300 mt-1">Setiap ketukan bantuan dari sekutu memotong sisa waktu sebesar <strong>1% dari total waktu dasar ATAU 1 menit</strong> (mana yang lebih besar).</p>
+    </div>
+    <ul>
+      <li>Jumlah maksimum bantuan ditentukan oleh level <strong>Balai Aliansi (Alliance Hall)</strong>. Pada Lv.25, Anda dapat menerima 30 bantuan — memangkas hingga <strong>30% dari total waktu konstruksi secara gratis</strong>!</li>
+      <li><strong>Etiket:</strong> Ketuk "Bantu Semua" sesering mungkin. Setiap bantuan memberi Anda <strong>Poin Kehormatan Aliansi</strong> untuk dibelanjakan di toko.</li>
+    </ul>
+
+    <h2 id="tech">3. Teknologi Aliansi & Donasi</h2>
+    <p>Riset aliansi memberikan buff pasif permanen bagi seluruh anggota untuk militer, pengumpulan sumber daya, dan pertahanan kota.</p>
+    <ul>
+      <li>1 kesempatan donasi pulih setiap 20 menit (maksimal 20 tersimpan).</li>
+      <li>Donasikan ke teknologi berbintang yang diprioritaskan oleh perwira.</li>
+      <li>Setiap donasi berpeluang memicu <strong>Pengganda Kritis (x2, x5, x10)</strong> untuk bonus Kehormatan dan EXP Aliansi.</li>
+      <li><strong>Prioritas Riset:</strong> Pembangunan («Keluarga Besar» → «Saling Membantu») → Wilayah (kecepatan panen) → Perang (ATK/HP/Kapasitas Reli).</li>
+    </ul>
+
+    <h2 id="gift-25">4. Peti Hadiah Aliansi & Hak Istimewa Lv.25</h2>
+    <p>Saat anggota aliansi mengalahkan Bos Pencuri, monster elit, atau membeli paket, <strong>semua anggota menerima Peti Hadiah</strong>.</p>
+    <ul>
+      <li><strong>Hak Istimewa Lv.25 (Pembaruan September):</strong> Mencapai Level Hadiah 25 membuka keuntungan permanen: <strong>setiap Gerobak Reguler di Karavan Dagang membawa 1 penumpang tambahan</strong>. Ini memberikan aliran sumber daya dan fragmen pahlawan harian ekstra.</li>
+    </ul>
+
+    <h2 id="shop">5. Prioritas Toko Kehormatan Aliansi</h2>
+    <table class="w-full mb-6 text-sm">
+      <thead>
+        <tr><th>Prioritas</th><th>Barang</th><th>Nilai Strategis</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Tier S</strong></td><td><strong>Perisai Perdamaian (8j / 24j)</strong></td><td>Wajib untuk melindungi pasukan saat KvK dan Kill Event. Jangan pernah buang diamond untuk beli perisai!</td></tr>
+        <tr><td><strong>Tier S</strong></td><td><strong>Teleport Lanjutan</strong></td><td>Relokasi instan ke wilayah aliansi atau target reli bos.</td></tr>
+        <tr><td><strong>Tier A</strong></td><td><strong>Reset Bakat/Keahlian</strong></td><td>Beralih antara konfigurasi ekonomi dan perang untuk Duel Aliansi.</td></tr>
+        <tr><td><strong>Tier B</strong></td><td><strong>Speedup Universal</strong></td><td>Kumpulkan untuk fase speedup hari Jumat.</td></tr>
+        <tr><td><strong>Tier F</strong></td><td>Sumber Daya Dasar (Kayu, Gandum)</td><td>Jangan pernah dibeli — mudah dikumpulkan dari peta dunia.</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="territory">6. Wilayah & Benteng Utama</h2>
+    <ul>
+      <li><strong>Benteng Utama:</strong> Jangkar perbatasan aliansi Anda. Selama benteng berdiri, wilayah memancarkan perimeter pertahanan aktif.</li>
+      <li><strong>Bendera:</strong> Memperluas perbatasan menuju tambang sumber daya level tinggi.</li>
+      <li><strong>Buff Wilayah:</strong> +20% hingga +30% kecepatan pengumpulan di dalam wilayah aliansi dan perlindungan konvoi karavan.</li>
+    </ul>
+
+    <h2 id="ranks">7. Struktur Pangkat & Peran Perwira (R1–R5)</h2>
+    <ul>
+      <li><strong>R5 (Pemimpin Aliansi):</strong> Diplomasi server, pakta perdamaian (NAP), penempatan benteng, dan deklarasi perang.</li>
+      <li><strong>R4 (Perwira):</strong> Panglima Perang (memimpin reli dan KvK), Dewi (koordinasi buff dan moral), Perekrut (mengelola pelamar), Pembangun (merancang jaringan bendera).</li>
+      <li><strong>R1–R3:</strong> Pasukan tempur, pengumpul sumber daya, dan anggota aktif.</li>
+    </ul>
+
+    <VideoSection topic="alliance_duel" lang={lang} />
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>
