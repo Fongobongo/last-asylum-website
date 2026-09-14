@@ -509,7 +509,7 @@ export const quizQuestions: QuizItem[] = [
     category: 'events',
     qEn: "In the Elixir Scramble, what is the initial free relocation interval (in minutes)?",
     aEn: "2 minutes",
-    qRu: "В Битве за эликсир каков начальный интервал бесплатной телепортации?",
+    qRu: "В Гонке за эликсиром (Elixir Scramble) каков начальный интервал бесплатной телепортации?",
     aRu: "2 минуты",
   },
   {
@@ -517,7 +517,7 @@ export const quizQuestions: QuizItem[] = [
     category: 'events',
     qEn: "How many minutes does an Elixir Scramble last?",
     aEn: "30 minutes",
-    qRu: "Сколько минут длится матч Битвы за эликсир?",
+    qRu: "Сколько минут длится матч Гонки за эликсиром (Elixir Scramble)?",
     aRu: "30 минут",
   },
   {

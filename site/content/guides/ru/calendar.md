@@ -28,7 +28,7 @@ videoTopic: calendar
 - 🏆 **Королевская схватка** — Weekly. Same weekday/time each week; 4-hour castle battle, one march, reinforce ≤30.
 - 🎖️ **Миссии Битвы выживания** — Weekly. Up to 60K skill badges/week; mission list varies by server.
 - 👑 **Война королевств (KvK)** — Biweekly. Prep/scoring through the week, main battle Saturday — 4-hour window.
-- 🧪 **Битва за эликсир** — Weekly. 30-min AvA point battle — remove squads from the wall before it starts!
+- 🧪 **Гонка за эликсиром** (Elixir Scramble) — Weekly. 30-min AvA point battle — remove squads from the wall before it starts!
 - 🧟 **Осада зомби** — Доступна через 2 недели после старта сервера; запускается после сбора 300K улик — 20 соло-волн; скрытая механика: 2–3 отряда на волну, HP сохраняется.
 - ☣️ **Сезон Эры Возрождения** — 55 дней (Лига экспедиций): Сопротивление ежедневно, Статуи Лорда, деревья специализаций.
 

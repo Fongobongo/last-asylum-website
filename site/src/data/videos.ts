@@ -284,7 +284,7 @@ export const videoTitles: Record<string, Partial<Record<Lang, string>>> = {
   },
   "dO0tbJMcCVs": {
     "en": "Master the Elixir Scramble Event",
-    "ru": "Мастерство в Битве за эликсир — полный разбор",
+    "ru": "Мастерство в Гонке за эликсиром — полный разбор",
     "de": "Elixier-Gedränge meistern — Komplette Event-Analyse",
     "es": "Domina la Batalla por el Elixir — Guía del evento",
     "fr": "Maîtriser la Ruée vers l'Élixir — Guide d'événement",
@@ -295,7 +295,7 @@ export const videoTitles: Record<string, Partial<Record<Lang, string>>> = {
   },
   "CapxXQKwxaM": {
     "en": "Live Elixir Event Gameplay with Tactical Commentary",
-    "ru": "Битва за эликсир: запись боя с разбором тактики",
+    "ru": "Гонка за эликсиром: запись боя с разбором тактики",
     "de": "Live Elixier-Event Gameplay mit Taktik-Kommentar",
     "es": "Partida en vivo de Elixir con comentarios tácticos",
     "fr": "Gameplay en direct d'Élixir avec analyse tactique",
@@ -306,7 +306,7 @@ export const videoTitles: Record<string, Partial<Record<Lang, string>>> = {
   },
   "hHPpnUqTlNc": {
     "en": "Elixir Scramble Tactical Map & Route Planning",
-    "ru": "Тактическая карта Битвы за эликсир и маршруты",
+    "ru": "Тактическая карта Гонки за эликсиром и маршруты",
     "de": "Elixier-Gedränge Taktikkarte & Routenplanung",
     "es": "Mapa táctico y rutas de la Batalla por el Elixir",
     "fr": "Carte tactique et planification de routes pour l'Élixir",
@@ -1157,7 +1157,7 @@ export const rawVideos: Record<string, Video[]> = {
   "elixir_ru": [
     {
       "id": "dO0tbJMcCVs",
-      "title": "Мастерство в Битве за эликсир",
+      "title": "Мастерство в Гонке за эликсиром",
       "lang": "en"
     },
     {
@@ -1852,7 +1852,7 @@ export const topicSearchTerms: Record<string, Record<Lang, string>> = {
   },
   "elixir": {
     "en": "Last Asylum Plague Elixir Scramble event guide",
-    "ru": "Last Asylum Plague Битва за эликсир событие гайд",
+    "ru": "Last Asylum Plague Гонка за эликсиром событие гайд",
     "de": "Last Asylum Plague Elixier-Gedränge Event Guide",
     "es": "Last Asylum Plague Batalla por el Elixir guía evento",
     "fr": "Last Asylum Plague Ruée vers l'Élixir événement guide",
@@ -2174,7 +2174,7 @@ export const topicNames: Record<string, Record<Lang, string>> = {
   },
   "elixir": {
     "en": "Elixir Scramble",
-    "ru": "Битва за эликсир",
+    "ru": "Гонка за эликсиром",
     "de": "Elixier-Gedränge",
     "es": "Batalla por el Elixir",
     "fr": "Ruée vers l'Élixir",
