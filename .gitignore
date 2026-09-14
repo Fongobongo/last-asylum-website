@@ -20,3 +20,5 @@ site/pagefind/
 Thumbs.db
 .DS_Store
 site/public/dnd/payload.enc
+*.log
+
