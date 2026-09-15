@@ -1,0 +1,166 @@
+---
+import ageRulesData from '../data/officialAgeRules.json';
+import type { Lang } from '../i18n/utils';
+
+interface Props {
+  lang?: Lang;
+}
+
+const { lang = 'ru' } = Astro.props;
+
+const i18n = {
+  ru: {
+    title: '⏳ Эра возрождения: Правила и Механики новой эпохи',
+    subtitle: 'Официальные правила наступления Эры возрождения из клиента игры. Новые здания, пробуждение героев, Солдатский приют и турнир 16 королевств.',
+    shelterBadge: 'Новое здание',
+    awakeningBadge: 'Пробуждение',
+    leagueBadge: '16 Королевств',
+    shelterNote: 'Солдатский приют позволяет вернуть часть павших в бою солдат обратно в казарму без потери ресурсов на тренировку!',
+  },
+  en: {
+    title: '⏳ Age of Rebirth: Complete Era Rules & Systems',
+    subtitle: 'Official rules for the Age of Rebirth from game files. New structures, hero awakenings, Soldier Shelter, and 16-kingdom league.',
+    shelterBadge: 'New Building',
+    awakeningBadge: 'Awakening',
+    leagueBadge: '16 Kingdoms',
+    shelterNote: 'Soldier Shelter allows you to recover soldiers fallen in battle directly into barracks, saving training resources!',
+  },
+  de: {
+    title: '⏳ Zeitalter der Wiedergeburt: Regeln & Systeme',
+    subtitle: 'Offizielle Regeln für das Zeitalter der Wiedergeburt.',
+    shelterBadge: 'Neues Gebäude',
+    awakeningBadge: 'Erweckung',
+    leagueBadge: '16 Reiche',
+    shelterNote: 'Soldatenzuflucht bringt gefallene Truppen zurück.',
+  },
+  es: {
+    title: '⏳ Era del Renacimiento: Reglas y Sistemas',
+    subtitle: 'Reglas oficiales de la Era del Renacimiento.',
+    shelterBadge: 'Nuevo edificio',
+    awakeningBadge: 'Despertar',
+    leagueBadge: '16 Reinos',
+    shelterNote: 'El Refugio de soldados permite recuperar tropas caídas.',
+  },
+  fr: {
+    title: '⏳ Ère de la Renaissance : Règles et Systèmes',
+    subtitle: 'Règles officielles de l\'Ère de la Renaissance.',
+    shelterBadge: 'Nouveau bâtiment',
+    awakeningBadge: 'Éveil',
+    leagueBadge: '16 Royaumes',
+    shelterNote: 'L\'Abri des soldats permet de récupérer les troupes perdues.',
+  },
+  id: {
+    title: '⏳ Era Kelahiran Kembali: Aturan & Sistem',
+    subtitle: 'Aturan resmi Era Kelahiran Kembali dari klien game.',
+    shelterBadge: 'Gedung Baru',
+    awakeningBadge: 'Kebangkitan',
+    leagueBadge: '16 Kerajaan',
+    shelterNote: 'Suaka Prajurit memungkinkan pemulihan prajurit gugur.',
+  },
+  ja: {
+    title: '⏳ 再生の時代：新時代の全公式ルールと新要素',
+    subtitle: '「再生の時代」で解禁される兵士避難所、英雄覚醒、16王国リーグの解説。',
+    shelterBadge: '新施設',
+    awakeningBadge: '英雄覚醒',
+    leagueBadge: '16王国リーグ',
+    shelterNote: '兵士避難所により、戦死した兵士の一部を資源消費なしで兵舎に復帰させることができます。',
+  },
+  ko: {
+    title: '⏳ 부활의 시대: 새로운 시대의 규칙 및 시스템',
+    subtitle: '부활의 시대 진입 시 해금되는 병사 보호소, 영웅 각성, 16개 왕국 리그 안내.',
+    shelterBadge: '신규 건물',
+    awakeningBadge: '영웅 각성',
+    leagueBadge: '16개 왕국전',
+    shelterNote: '병사 보호소는 전투 중 전사한 병력의 일부를 자원 소모 없이 병영으로 복귀시켜 줍니다!',
+  },
+  pt: {
+    title: '⏳ Era do Renascimento: Regras & Mecânicas',
+    subtitle: 'Regras oficiais da Era do Renascimento nos arquivos do jogo.',
+    shelterBadge: 'Novo Edifício',
+    awakeningBadge: 'Despertar',
+    leagueBadge: '16 Reinos',
+    shelterNote: 'O Abrigo de Soldados recupera tropas mortas em combate.',
+  },
+};
+
+const t = i18n[lang as keyof typeof i18n] || i18n.en;
+
+const rules = (ageRulesData as any[]).map((r) => {
+  const title = r.title?.[lang] || r.title?.ru || r.title?.en || `Rule #${r.id}`;
+  const desc = r.desc?.[lang] || r.desc?.ru || r.desc?.en || '';
+  
+  let icon = '📜';
+  if (r.id === 1) icon = '🏰';
+  else if (r.id === 2) icon = '🏆';
+  else if (r.id === 3) icon = '⚡';
+  else if (r.id === 4) icon = '🍻';
+  else if (r.id === 5) icon = '⚔️';
+  else if (r.id === 6) icon = '👹';
+  else if (r.id === 7) icon = '💎';
+  else if (r.id === 8) icon = '🗿';
+  else if (r.id === 9) icon = '🎪';
+  else if (r.id === 10) icon = '🧀';
+
+  return {
+    id: r.id,
+    title,
+    desc,
+    icon,
+  };
+});
+---
+
+<section class="not-prose my-10 rounded-3xl border border-toxic-500/30 bg-stone-950/80 p-6 sm:p-8 backdrop-blur-xl shadow-[0_0_50px_rgba(0,0,0,0.6)]" id="age-of-rebirth-guide">
+  <div class="mb-6 flex flex-col gap-2">
+    <div class="flex items-center gap-3">
+      <span class="rounded-xl border border-toxic-500/40 bg-toxic-950/60 px-3 py-1 text-xs font-bold text-toxic-400">
+        ERA OF REBIRTH
+      </span>
+      <span class="text-xs text-stone-500 font-mono">10 OFFICIAL RULES</span>
+    </div>
+    <h2 class="text-2xl font-bold tracking-tight text-toxic-400 sm:text-3xl">{t.title}</h2>
+    <p class="text-sm text-stone-400 max-w-3xl">{t.subtitle}</p>
+  </div>
+
+  <!-- Highlight Banner: Soldier Shelter & Awakenings -->
+  <div class="mb-8 grid gap-4 sm:grid-cols-2">
+    <div class="rounded-2xl border border-toxic-500/30 bg-toxic-950/30 p-4 sm:p-5">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="text-xl">🎪</span>
+        <span class="rounded-md border border-toxic-500/40 bg-toxic-900/60 px-2 py-0.5 text-[10px] font-bold text-toxic-300">
+          {t.shelterBadge}
+        </span>
+        <h3 class="text-sm font-bold text-stone-200">Солдатский приют (Soldier Shelter)</h3>
+      </div>
+      <p class="text-xs text-stone-300 leading-relaxed">{t.shelterNote}</p>
+    </div>
+
+    <div class="rounded-2xl border border-purple-500/30 bg-purple-950/20 p-4 sm:p-5">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="text-xl">⚡</span>
+        <span class="rounded-md border border-purple-500/40 bg-purple-900/60 px-2 py-0.5 text-[10px] font-bold text-purple-300">
+          {t.awakeningBadge}
+        </span>
+        <h3 class="text-sm font-bold text-purple-200">Пробуждение героев</h3>
+      </div>
+      <p class="text-xs text-stone-300 leading-relaxed">
+        <strong>Марлена, Синтия и Анни</strong> получают силу пробуждения, а <strong>Даскал, Луи и Ульфрид</strong> — эксклюзивное оружие!
+      </p>
+    </div>
+  </div>
+
+  <!-- Rules Grid -->
+  <div class="grid gap-4 sm:grid-cols-2">
+    {rules.map((r) => (
+      <div class="rounded-2xl border border-stone-800/80 bg-stone-900/40 p-5 transition hover:border-toxic-500/40 hover:bg-stone-900/80">
+        <div class="flex items-center gap-2.5 mb-2.5">
+          <span class="text-2xl">{r.icon}</span>
+          <h3 class="text-sm font-bold text-stone-100">{r.title}</h3>
+        </div>
+        <p class="whitespace-pre-line text-xs text-stone-400 leading-relaxed">
+          {r.desc}
+        </p>
+      </div>
+    ))}
+  </div>
+</section>

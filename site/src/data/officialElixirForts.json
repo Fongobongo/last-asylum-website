@@ -1,0 +1,277 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "ru": "Замок эликсира",
+      "en": "Elixir Castle",
+      "de": "Elixierschloss",
+      "es": "Castillo del Elixir",
+      "fr": "Château d\\'élixir",
+      "id": "Kastil Ramuan Kuno",
+      "ja": "秘薬の古城",
+      "ko": "비약의 고성",
+      "pt": "Castelo do Elixir"
+    },
+    "desc": {
+      "ru": "[Замок эликсира] откроется спустя некоторое время после начала битвы, принося [огромное количество очков] при захвате.",
+      "en": "[Elixir Castle] will open after the battlefield has been active for a while, granting [a massive amount of points] upon capture.",
+      "de": "[Elixierburg] wird sich öffnen, nachdem das Schlachtfeld eine Weile aktiv war, und bei Eroberung [eine riesige Menge an Punkten] gewähren.",
+      "es": "[Castillo de Elixir] se abrirá después de que el campo de batalla haya estado activo por un tiempo y otorga [una gran cantidad de puntos] al ser capturado.",
+      "fr": "Le [Château d\\'élixir] s\\'active après un certain temps sur le champ de bataille, rapportant [un nombre colossal de points] à la capture.",
+      "id": "[Kastil Ramuan Rahasia] akan terbuka setelah pertempuran berlangsung beberapa saat. Menguasainya akan memberikan [Poin berlimpah].",
+      "ja": "[秘薬の古城]は戦場が開始されてしばらくすると開放されます。占領すると[超大量のポイント]を獲得できます。",
+      "ko": "[비약의 고성]은 전장이 오픈된 후 일정 시간이 지나면 개방되며, 점령 시 [대량의 포인트]를 획득할 수 있습니다.",
+      "pt": "O [Castelo do Elixir] fica disponível após o campo de batalha estar ativo por um tempo, concedendo [uma enorme quantidade de pontos] ao ser capturado."
+    }
+  },
+  {
+    "id": 2,
+    "name": {
+      "ru": "Реликвии войны",
+      "en": "War Relics",
+      "de": "Kriegsrelikte",
+      "es": "Reliquias de Guerra",
+      "fr": "Reliques de uerreg",
+      "id": "Reruntuhan Perang",
+      "ja": "戦争の遺跡",
+      "ko": "전쟁의 유적",
+      "pt": "Relíquias de Guerra"
+    },
+    "desc": {
+      "ru": "[Реликвии войны] откроются спустя некоторое время после начала битвы, принося [небольшое количество очков] при захвате.",
+      "en": "[War Relics] will open after the battlefield has been active for a while, granting [a small amount of points] upon capture.",
+      "de": "[Kriegsrelikte] werden sich öffnen, nachdem das Schlachtfeld eine Weile aktiv war, und bei Eroberung [eine kleine Menge an Punkten] gewähren.",
+      "es": "[Reliquias de Guerra] se abrirán después de que el campo de batalla haya estado activo por un tiempo y otorga [una pequeña cantidad de puntos] al ser capturadas.",
+      "fr": "Les [Reliques de guerre] s\\'activent après un certain temps sur le champ de bataille, rapportant [un faible nombre de points] à la capture.",
+      "id": "[Reruntuhan Perang] akan terbuka setelah medan perang aktif beberapa saat. Menguasainya memberi [sedikit Poin].",
+      "ja": "[戦争の遺跡]は戦場が開始されてしばらくすると開放されます。占領すると[少量のポイント]を獲得できます。",
+      "ko": "[전쟁의 유적]은 전장이 오픈된 후 일정 시간이 지나면 개방되며, 점령 시 [소량의 포인트]를 획득할 수 있습니다.",
+      "pt": "As [Relíquias de Guerra] ficam disponíveis após o campo de batalha estar ativo por um tempo, concedendo [uma pequena quantidade de pontos] ao serem capturadas."
+    }
+  },
+  {
+    "id": 3,
+    "name": {
+      "ru": "Проклятый алтарь",
+      "en": "Cursed Altar",
+      "de": "Verfluchter Altar",
+      "es": "Altar Maldito",
+      "fr": "Autel maudit",
+      "id": "Altar Kutukan",
+      "ja": "呪いの祭壇",
+      "ko": "저주받은 제단",
+      "pt": "Altar Amaldiçoado"
+    },
+    "desc": {
+      "ru": "[Проклятый алтарь] появится спустя некоторое время после начала битвы, принося [небольшое количество очков] при захвате.",
+      "en": "[Cursed Altar] will open after the battlefield has been active for a while, granting [a small amount of points] upon capture.",
+      "de": "[Verfluchter Altar] wird sich öffnen, nachdem das Schlachtfeld eine Weile aktiv war, und bei Eroberung [eine kleine Menge an Punkten] gewähren.",
+      "es": "[Altar Maldito] se abrirá después de que el campo de batalla haya estado activo por un tiempo y otorga [una pequeña cantidad de puntos] al ser capturado.",
+      "fr": "L\\'[Autel maudit] s\\'active après un certain temps sur le champ de bataille, rapportant [un faible nombre de points] à la capture.",
+      "id": "[Altar Kutukan] akan terbuka setelah medan perang aktif beberapa saat. Menguasainya memberi [sedikit Poin].",
+      "ja": "[呪いの祭壇]は戦場が開始されてしばらくすると開放されます。占領すると[少量のポイント]を獲得できます。",
+      "ko": "[저주받은 제단]은 전장이 열린 후 일정 시간이 지나면 개방되며, 점령 시 [소량의 포인트]를 획득할 수 있습니다.",
+      "pt": "O [Altar Amaldiçoado] fica disponível após o campo de batalha estar ativo por um tempo, concedendo [uma pequena quantidade de pontos] ao ser capturado."
+    }
+  },
+  {
+    "id": 4,
+    "name": {
+      "ru": "Алхимическая мастерская №1",
+      "en": "Alchemy Workshop #1",
+      "de": "Alchemiewerkstatt #1",
+      "es": "Taller de Alquimia #1",
+      "fr": "Atelier d\\'alchimie #1",
+      "id": "Bengkel Alkimia 1",
+      "ja": "1番錬金工房",
+      "ko": "1호 연금술 공방",
+      "pt": "Oficina do Alquimia #1"
+    },
+    "desc": {
+      "ru": "[Алхимическая мастерская] появляется в начале битвы, принося [значительное количество очков] при захвате.",
+      "en": "[Alchemy Workshop] opens when the battlefield starts, granting [a large amount of points] upon capture.",
+      "de": "[Alchemiewerkstatt] öffnet sich zu Beginn des Schlachtfelds und gewährt bei Eroberung [eine große Menge an Punkten].",
+      "es": "[Taller de Alquimia] se abre cuando comienza el campo de batalla y otorga [una gran cantidad de puntos] al ser capturado.",
+      "fr": "L\\'[Atelier d\\'alchimie] s\\'active dès le début du champ de bataille, rapportant [un grand nombre de points] à la capture.",
+      "id": "[Bengkel Alkimia] akan terbuka saat medan perang dimulai. Menguasainya memberi [banyak Poin].",
+      "ja": "[錬金工房]は戦場が開始されてしばらくすると開放されます。占領すると[大量のポイント]を獲得できます。",
+      "ko": "[연금술 공방]은 전장이 오픈되면 즉시 개방되며, 점령 시 [대량의 포인트]를 획득할 수 있습니다.",
+      "pt": "A [Oficina de Alquimia] fica disponível quando o campo de batalha começa, concedendo [uma grande quantidade de pontos] ao ser capturada."
+    }
+  },
+  {
+    "id": 5,
+    "name": {
+      "ru": "Алхимическая мастерская №2",
+      "en": "Alchemist Workshop #2",
+      "de": "Alchemistenwerkstatt #2",
+      "es": "Taller de Alquimia #2",
+      "fr": "Atelier d\\'alchimiste #2",
+      "id": "Bengkel Alkimia 2",
+      "ja": "2番錬金工房",
+      "ko": "2호 연금술 공방",
+      "pt": "Oficina do Alquimista #2"
+    },
+    "desc": {
+      "ru": "[Алхимическая мастерская] появляется в начале битвы, принося [значительное количество очков] при захвате.",
+      "en": "[Alchemy Workshop] opens when the battlefield starts, granting [a large amount of points] upon capture.",
+      "de": "[Alchemiewerkstatt] öffnet sich zu Beginn des Schlachtfelds und gewährt bei Eroberung [eine große Menge an Punkten].",
+      "es": "[Taller de Alquimia] se abre cuando comienza el campo de batalla y otorga [una gran cantidad de puntos] al ser capturado.",
+      "fr": "L\\'[Atelier d\\'alchimie] s\\'active dès le début du champ de bataille, rapportant [un grand nombre de points] à la capture.",
+      "id": "[Bengkel Alkimia] akan terbuka saat medan perang dimulai. Menguasainya memberi [banyak Poin].",
+      "ja": "[錬金工房]は戦場が開始されてしばらくすると開放されます。占領すると[大量のポイント]を獲得できます。",
+      "ko": "[연금술 공방]은 전장이 오픈되면 즉시 개방되며, 점령 시 [대량의 포인트]를 획득할 수 있습니다.",
+      "pt": "A [Oficina de Alquimia] fica disponível quando o campo de batalha começa, concedendo [uma grande quantidade de pontos] ao ser capturada."
+    }
+  },
+  {
+    "id": 6,
+    "name": {
+      "ru": "Врата миграции",
+      "en": "Migration Portal",
+      "de": "Migrationsportal",
+      "es": "Portal de migración",
+      "fr": "Portail de migration",
+      "id": "Gerbang Perpindahan",
+      "ja": "転移の門",
+      "ko": "이주의 문",
+      "pt": "Portal de Migração"
+    },
+    "desc": {
+      "ru": "[Врата миграции] появляются в начале битвы, принося [небольшое количество очков] при захвате.",
+      "en": "[Migration Gate] opens when the battlefield starts, granting [a small amount of points] upon capture.",
+      "de": "[Migrationstor] öffnet sich zu Beginn des Schlachtfelds und gewährt bei Eroberung [eine geringe Anzahl an Punkten].",
+      "es": "[Puerta de Migración] se abre al inicio del campo de batalla y otorga [una pequeña cantidad de puntos] al capturarla.",
+      "fr": "La [Porte de migration] s\\'ouvre au début du combat et octroie [un petit nombre de points] à la capture.",
+      "id": "[Gerbang Migrasi] akan terbuka saat medan perang dimulai. Menguasainya memberi [sedikit Poin].",
+      "ja": "[転移の門]は戦場が開始されてしばらくすると開放されます。占領すると[少量のポイント]を獲得できます。",
+      "ko": "[이주의 문]은 전장이 오픈되면 즉시 개방되며, 점령 시 [소량의 포인트]를 획득할 수 있습니다.",
+      "pt": "O [Portal de Migração] fica disponível quando a batalha começa, concedendo [uma pequena quantidade de pontos] após a captura."
+    }
+  },
+  {
+    "id": 7,
+    "name": {
+      "ru": "Наблюдательный пункт",
+      "en": "Observatory",
+      "de": "Observatorium",
+      "es": "Observatorio",
+      "fr": "Observatoire",
+      "id": "Menara Pengamatan",
+      "ja": "観測台",
+      "ko": "관측소",
+      "pt": "Observatório"
+    },
+    "desc": {
+      "ru": "[Наблюдательный пункт] открывается в начале битвы, принося [небольшое количество очков] при захвате.",
+      "en": "[Observatory] opens when the battlefield starts, granting [a small amount of points] upon capture.",
+      "de": "[Observatorium] öffnet sich zu Beginn des Schlachtfelds und gewährt bei Eroberung [eine geringe Anzahl an Punkten].",
+      "es": "El [Observatorio] se abre al inicio del campo de batalla y otorga [una pequeña cantidad de puntos] al capturarlo.",
+      "fr": "L\\'[Observatoire] s\\'ouvre au début du combat et octroie [un petit nombre de points] à la capture.",
+      "id": "[Menara Pengintai] akan terbuka saat medan perang dimulai. Menguasainya memberi [sedikit Poin].",
+      "ja": "[観測台]は戦場が開始されてしばらくすると開放されます。占領すると[少量のポイント]を獲得できます。",
+      "ko": "[관측소]는 전장이 오픈되면 즉시 개방되며, 점령 시 [소량의 포인트]를 획득할 수 있습니다.",
+      "pt": "O [Observatório] fica disponível quando a batalha começa, concedendo [uma pequena quantidade de pontos] após a captura."
+    }
+  },
+  {
+    "id": 8,
+    "name": {
+      "ru": "Лечебная палатка #1",
+      "en": "Healing Tent #1",
+      "de": "Heilzelt #1",
+      "es": "Tienda de curación #1",
+      "fr": "Tente de soins #1",
+      "id": "Tenda Penyembuhan 1",
+      "ja": "1番救護テント",
+      "ko": "1호 치료 텐트",
+      "pt": "Tenda de Cura #1"
+    },
+    "desc": {
+      "ru": "[Лечебная палатка] открывается с началом боя, дает [умеренное количество очков] при захвате.",
+      "en": "[Healing Tent] opens when the battlefield starts, granting [a moderate amount of points] upon capture.",
+      "de": "[Heilzelt] öffnet sich zu Beginn des Schlachtfelds und gewährt bei Eroberung [eine moderate Anzahl an Punkten].",
+      "es": "[Tienda de Curación] se abre al inicio del campo de batalla y otorga [una cantidad moderada de puntos] al capturarla.",
+      "fr": "La [Tente de soin] s\\'ouvre au début du combat et octroie [une quantité modérée de points] à la capture.",
+      "id": "[Tenda Penyembuhan] akan tersedia saat medan perang dibuka, memberikan [Poin sedang] saat dikuasai.",
+      "ja": "[救護テント]は戦場が開始されてしばらくすると開放されます。占領すると[中量のポイント]を獲得できます。",
+      "ko": "[치료 텐트]는 전장이 오픈되면 즉시 개방되며, 점령 시 [중간량의 포인트]를 획득할 수 있습니다.",
+      "pt": "A [Tenda de Cura] fica disponível quando a batalha começa, concedendo [uma quantidade moderada de pontos] após a captura."
+    }
+  },
+  {
+    "id": 9,
+    "name": {
+      "ru": "Лечебная палатка #2",
+      "en": "Healing Tent #2",
+      "de": "Heilzelt #2",
+      "es": "Tienda de curación #2",
+      "fr": "Tente de soins #2",
+      "id": "Tenda Penyembuhan 2",
+      "ja": "2番救護テント",
+      "ko": "2번 치료 텐트",
+      "pt": "Tenda de Cura #2"
+    },
+    "desc": {
+      "ru": "[Лечебная палатка] открывается с началом боя, дает [умеренное количество очков] при захвате.",
+      "en": "[Healing Tent] opens when the battlefield starts, granting [a moderate amount of points] upon capture.",
+      "de": "[Heilzelt] öffnet sich zu Beginn des Schlachtfelds und gewährt bei Eroberung [eine moderate Anzahl an Punkten].",
+      "es": "[Tienda de Curación] se abre al inicio del campo de batalla y otorga [una cantidad moderada de puntos] al capturarla.",
+      "fr": "La [Tente de soin] s\\'ouvre au début du combat et octroie [une quantité modérée de points] à la capture.",
+      "id": "[Tenda Penyembuhan] akan tersedia saat medan perang dibuka, memberikan [Poin sedang] saat dikuasai.",
+      "ja": "[救護テント]は戦場が開始されてしばらくすると開放されます。占領すると[中量のポイント]を獲得できます。",
+      "ko": "[치료 텐트]는 전장이 오픈되면 즉시 개방되며, 점령 시 [중간량의 포인트]를 획득할 수 있습니다.",
+      "pt": "A [Tenda de Cura] fica disponível quando a batalha começa, concedendo [uma quantidade moderada de pontos] após a captura."
+    }
+  },
+  {
+    "id": 10,
+    "name": {
+      "ru": "Лечебная палатка #3",
+      "en": "Healing Tent #3",
+      "de": "Heilzelt #3",
+      "es": "Tienda de curación #3",
+      "fr": "Tente de soins #3",
+      "id": "Tenda Penyembuhan 3",
+      "ja": "3番救護テント",
+      "ko": "3번 치료 텐트",
+      "pt": "Tenda de Cura #3"
+    },
+    "desc": {
+      "ru": "[Лечебная палатка] открывается с началом боя, дает [умеренное количество очков] при захвате.",
+      "en": "[Healing Tent] opens when the battlefield starts, granting [a moderate amount of points] upon capture.",
+      "de": "[Heilzelt] öffnet sich zu Beginn des Schlachtfelds und gewährt bei Eroberung [eine moderate Anzahl an Punkten].",
+      "es": "[Tienda de Curación] se abre al inicio del campo de batalla y otorga [una cantidad moderada de puntos] al capturarla.",
+      "fr": "La [Tente de soin] s\\'ouvre au début du combat et octroie [une quantité modérée de points] à la capture.",
+      "id": "[Tenda Penyembuhan] akan tersedia saat medan perang dibuka, memberikan [Poin sedang] saat dikuasai.",
+      "ja": "[救護テント]は戦場が開始されてしばらくすると開放されます。占領すると[中量のポイント]を獲得できます。",
+      "ko": "[치료 텐트]는 전장이 오픈되면 즉시 개방되며, 점령 시 [중간량의 포인트]를 획득할 수 있습니다.",
+      "pt": "A [Tenda de Cura] fica disponível quando a batalha começa, concedendo [uma quantidade moderada de pontos] após a captura."
+    }
+  },
+  {
+    "id": 11,
+    "name": {
+      "ru": "Лечебная палатка №4",
+      "en": "Healing Tent #4",
+      "de": "Heilzelt #4",
+      "es": "Tienda de curación #4",
+      "fr": "Tente de soins #4",
+      "id": "Tenda Penyembuhan 4",
+      "ja": "4番救護テント",
+      "ko": "4번 치료 텐트",
+      "pt": "Tenda de Cura #4"
+    },
+    "desc": {
+      "ru": "[Лечебная палатка] открывается с началом боя, дает [умеренное количество очков] при захвате.",
+      "en": "[Healing Tent] opens when the battlefield starts, granting [a moderate amount of points] upon capture.",
+      "de": "[Heilzelt] öffnet sich zu Beginn des Schlachtfelds und gewährt bei Eroberung [eine moderate Anzahl an Punkten].",
+      "es": "[Tienda de Curación] se abre al inicio del campo de batalla y otorga [una cantidad moderada de puntos] al capturarla.",
+      "fr": "La [Tente de soin] s\\'ouvre au début du combat et octroie [une quantité modérée de points] à la capture.",
+      "id": "[Tenda Penyembuhan] akan tersedia saat medan perang dibuka, memberikan [Poin sedang] saat dikuasai.",
+      "ja": "[救護テント]は戦場が開始されてしばらくすると開放されます。占領すると[中量のポイント]を獲得できます。",
+      "ko": "[치료 텐트]는 전장이 오픈되면 즉시 개방되며, 점령 시 [중간량의 포인트]를 획득할 수 있습니다.",
+      "pt": "A [Tenda de Cura] fica disponível quando a batalha começa, concedendo [uma quantidade moderada de pontos] após a captura."
+    }
+  }
+]

@@ -1,0 +1,144 @@
+---
+import crystalData from '../data/officialCrystalMine.json';
+import type { Lang } from '../i18n/utils';
+
+interface Props {
+  lang?: Lang;
+}
+
+const { lang = 'ru' } = Astro.props;
+
+const i18n = {
+  ru: {
+    title: '💎 Долина кристальных скоплений: Тактические навыки',
+    subtitle: 'Официальные баффы и перки добычи в шахтах кристалла. Используйте комбинацию сбора и боевых усилений.',
+    typeGather: 'Сбор и Экономика',
+    typeCombat: 'Бой и Походы',
+    cooldown: 'Перезарядка',
+    passive: 'Пассивный навык',
+  },
+  en: {
+    title: '💎 Crystal Valley: Tactical Buffs & Skills',
+    subtitle: 'Official skills and gathering perks for the Crystal Mine / Valley. Optimize your yield and combat edge.',
+    typeGather: 'Gathering & Economy',
+    typeCombat: 'Combat & March',
+    cooldown: 'Cooldown',
+    passive: 'Passive Skill',
+  },
+  de: {
+    title: '💎 Kristalltal: Taktische Buffs & Fähigkeiten',
+    subtitle: 'Offizielle Buffs und Sammelvorteile für das Kristalltal.',
+    typeGather: 'Sammeln & Wirtschaft',
+    typeCombat: 'Kampf & Marsch',
+    cooldown: 'Abklingzeit',
+    passive: 'Passiv',
+  },
+  es: {
+    title: '💎 Valle de Cristales: Habilidades Tácticas',
+    subtitle: 'Habilidades oficiales y ventajas de recolección en el Valle de Cristales.',
+    typeGather: 'Recolección y Economía',
+    typeCombat: 'Combate y Marcha',
+    cooldown: 'Enfriamiento',
+    passive: 'Pasiva',
+  },
+  fr: {
+    title: '💎 Vallée des Cristaux : Compétences Tactiques',
+    subtitle: 'Compétences officielles et bonus de collecte de la Vallée des Cristaux.',
+    typeGather: 'Récolte & Économie',
+    typeCombat: 'Combat & Marche',
+    cooldown: 'Temps de recharge',
+    passive: 'Passif',
+  },
+  id: {
+    title: '💎 Lembah Kristal: Skill & Buff Taktis',
+    subtitle: 'Skill resmi dan buff pengumpulan di Lembah Kristal.',
+    typeGather: 'Pengumpulan & Ekonomi',
+    typeCombat: 'Tempur & Barisan',
+    cooldown: 'Cooldown',
+    passive: 'Pasif',
+  },
+  ja: {
+    title: '💎 水晶峡谷・採掘戦：戦術スキル＆バフ一覧',
+    subtitle: '水晶の谷で発動可能な公式スキルデータ。採集効率と戦闘能力を最大化します。',
+    typeGather: '採集・経済',
+    typeCombat: '戦闘・行軍',
+    cooldown: 'クールダウン',
+    passive: 'パッシブ',
+  },
+  ko: {
+    title: '💎 수정 협곡 채광: 전술 스킬 및 버프 도감',
+    subtitle: '수정 채광 전장에서 활용되는 공식 전술 스킬. 채집 효율과 전투력을 극대화합니다.',
+    typeGather: '채집 및 경제',
+    typeCombat: '전투 및 행군',
+    cooldown: '재사용 대기시간',
+    passive: '패시브 스킬',
+  },
+  pt: {
+    title: '💎 Vale de Cristais: Habilidades Táticas',
+    subtitle: 'Habilidades oficiais e bônus de coleta no Vale de Cristais.',
+    typeGather: 'Coleta & Economia',
+    typeCombat: 'Combate & Marcha',
+    cooldown: 'Recarga',
+    passive: 'Passiva',
+  },
+};
+
+const t = i18n[lang as keyof typeof i18n] || i18n.en;
+
+const skills = (crystalData as any[]).map((s) => {
+  const name = s.name[lang] || s.name.ru || s.name.en || `Skill #${s.id}`;
+  const desc = s.desc[lang] || s.desc.ru || s.desc.en || '';
+  
+  const isCombat = [3, 4, 8, 9].includes(s.id);
+  const icon = s.id === 1 ? '✨' :
+               s.id === 2 ? '🐀' :
+               s.id === 3 ? '⚔️' :
+               s.id === 4 ? '👟' :
+               s.id === 5 ? '🏴‍☠️' :
+               s.id === 6 ? '🛡️' :
+               s.id === 7 ? '⛏️' :
+               s.id === 8 ? '🔥' :
+               s.id === 9 ? '⚡' : '🔮';
+
+  return {
+    ...s,
+    displayName: name,
+    displayDesc: desc,
+    isCombat,
+    categoryLabel: isCombat ? t.typeCombat : t.typeGather,
+    icon,
+  };
+});
+---
+
+<section class="not-prose my-12 rounded-2xl border border-cyan-500/20 bg-gradient-to-b from-stone-900 via-stone-900/90 to-stone-950 p-6 shadow-2xl backdrop-blur">
+  <div class="mb-6 border-b border-stone-800 pb-5">
+    <h2 class="text-2xl font-bold tracking-tight text-white flex items-center gap-2.5">
+      <span>{t.title}</span>
+    </h2>
+    <p class="mt-1 text-sm text-stone-400 max-w-2xl">{t.subtitle}</p>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    {skills.map((skill) => (
+      <div class="flex items-start gap-3 rounded-xl border border-stone-800/80 bg-stone-900/50 p-4 transition-all hover:border-cyan-500/30 hover:bg-stone-800/50">
+        <span class="text-2xl flex-shrink-0 mt-0.5">{skill.icon}</span>
+        <div class="flex-1 min-w-0">
+          <div class="flex items-center justify-between gap-2">
+            <h3 class="text-sm font-bold text-stone-200">{skill.displayName}</h3>
+            <span class={`rounded px-2 py-0.5 text-[10px] font-semibold border ${
+              skill.isCombat 
+                ? 'bg-red-500/10 text-red-300 border-red-500/30' 
+                : 'bg-cyan-500/10 text-cyan-300 border-cyan-500/30'
+            }`}>
+              {skill.categoryLabel}
+            </span>
+          </div>
+          <p class="mt-1.5 text-xs text-stone-300 leading-relaxed">
+            {skill.displayDesc}
+          </p>
+        </div>
+      </div>
+    ))}
+  </div>
+</section>

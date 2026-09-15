@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "ru": "Всплеск кристалла",
+      "en": "Crystal Surge",
+      "de": "Kristallstoß",
+      "es": "Oleada de cristal",
+      "fr": "Déferlement de cristal",
+      "id": "Pengembalian Poin",
+      "ja": "水晶サージ",
+      "ko": "포인트 환급",
+      "pt": "Erupção de Cristal"
+    },
+    "desc": {
+      "ru": "Периодически даёт 1080 очищенных кристаллов",
+      "en": "Periodically gain 1080 Purified Crystals",
+      "de": "Erhalte regelmäßig 1080 Gereinigte Kristalle",
+      "es": "Obtén periódicamente 1080 cristales purificados.",
+      "fr": "Gagnez périodiquement 1080 Cristaux purifiés",
+      "id": "Otomatis mendapat 1080 Kristal Pemurni setiap periode waktu tertentu",
+      "ja": "一定時間ごとに1080浄化クリスタルを自動で獲得",
+      "ko": "일정 시간마다 정화 수정 1,080개 자동 획득",
+      "pt": "Ganhe periodicamente 1.080 Cristais Purificados"
+    }
+  },
+  {
+    "id": 2,
+    "name": {
+      "ru": "Охотник на чумных крыс",
+      "en": "Plague Rat Hunter",
+      "de": "Pestrattenjäger",
+      "es": "Cazador de Ratas de la plaga",
+      "fr": "Chasseur de Peste des Rats",
+      "id": "Pemburu Tikus Wabah",
+      "ja": "疫病ネズミハンター",
+      "ko": "역병 쥐 사냥꾼",
+      "pt": "Caçador de Ratos Infectados"
+    },
+    "desc": {
+      "ru": "Получите 1500 дополнительных кристаллов за убийство чумной крысы",
+      "en": "Gain 1500 extra Crystals when you slay a Plague Rat",
+      "de": "Erhalte 1500 zusätzliche Kristalle, wenn du eine Pestratte tötest",
+      "es": "Obtén 1500 cristales adicionales al eliminar una Rata de la plaga.",
+      "fr": "Obtenez 1500 cristaux supplémentaires en tuant une Peste des Rats",
+      "id": "Dapatkan 1500 bonus kristal saat mengalahkan Tikus Wabah",
+      "ja": "疫病ネズミを討伐すると、追加報酬としてクリスタルを1500獲得",
+      "ko": "역병 쥐 처치 시 수정 1,500개 추가 획득",
+      "pt": "Ganhe 1.500 Cristais extras ao abater um Rato Infectado"
+    }
+  },
+  {
+    "id": 3,
+    "name": {
+      "ru": "Увеличение силы",
+      "en": "Force Expansion",
+      "de": "Machtausdehnung",
+      "es": "Expansión de fuerza",
+      "fr": "Déploiement de force",
+      "id": "Ekspansi Pasukan",
+      "ja": "兵力拡張",
+      "ko": "병력 확장",
+      "pt": "Expansão de Força"
+    },
+    "desc": {
+      "ru": "Вместимость похода Героя +50.",
+      "en": "Single Hero March Capacity +50",
+      "de": "Einzelhelden-Marschkapazität +50",
+      "es": "Capacidad de marcha de héroe individual +50",
+      "fr": "Capacité de marche du Héros +50",
+      "id": "Kapasitas ekspedisi Hero tunggal bertambah 50",
+      "ja": "英雄単体の遠征容量+50",
+      "ko": "단일 영웅 출정 부대 규모 +50",
+      "pt": "Capacidade de Marcha de Herói Individual +50"
+    }
+  },
+  {
+    "id": 4,
+    "name": {
+      "ru": "Быстрый марш",
+      "en": "Swift March",
+      "de": "Schnellmarsch",
+      "es": "Marcha veloz",
+      "fr": "Marche rapide",
+      "id": "Sprint Lembah",
+      "ja": "山谷疾走",
+      "ko": "골짜기 질주",
+      "pt": "Marcha Veloz"
+    },
+    "desc": {
+      "ru": "Скорость похода войск в долине Кристальных скоплений +25%",
+      "en": "Troop March Speed in Crystal Cluster Valley +25%",
+      "de": "Truppen-Marschgeschwindigkeit im Kristallcluster-Tal +25%",
+      "es": "Velocidad de marcha de tropas en el Valle de cúmulos de cristal +25%.",
+      "fr": "Vitesse de marche de la troupe dans la Vallée des amas cristallins +25 %",
+      "id": "SPD Perjalanan Pasukan di Lembah Kristal meningkat 25%",
+      "ja": "晶簇の谷での部隊行軍速度+25%",
+      "ko": "수정 골짜기 내 부대 행군 속도+25%",
+      "pt": "Velocidade de Marcha da Tropa no Vale dos Cristais +25%"
+    }
+  },
+  {
+    "id": 5,
+    "name": {
+      "ru": "Разграбление в долине",
+      "en": "Valley Plunder",
+      "de": "Talplünderung",
+      "es": "Saqueo del valle",
+      "fr": "Pillage de la vallée",
+      "id": "Penjarahan Lembah",
+      "ja": "山谷略奪",
+      "ko": "골짜기 약탈",
+      "pt": "Pilhagem do Vale"
+    },
+    "desc": {
+      "ru": "Получите 5000 дополнительных очищенных кристаллов при захвате жилы. Восстановление: 60 сек.",
+      "en": "Gain 5000 extra Purified Crystals when you seize a Lode. CD: 60s",
+      "de": "Erhalte 5000 zusätzliche Gereinigte Kristalle, wenn du eine Ader eroberst. Abklingzeit: 60 Sek.",
+      "es": "Obtén 5000 cristales purificados adicionales al conquistar una veta. ENF: 60 s.",
+      "fr": "Obtenez 5000 cristaux purifiés supplémentaires en capturant un filon. Temps de recharge : 60 s",
+      "id": "Dapatkan 5000 bonus Kristal Pemurni saat berhasil merebut tambang, cooldown 60d",
+      "ja": "鉱脈の奪取成功時、追加で浄化クリスタルを5000獲得、クールダウン60秒",
+      "ko": "광맥 쟁탈 성공 시 정화 수정 5,000개 추가 획득(쿨타임: 60초)",
+      "pt": "Ganhe 5.000 Cristais Purificados extras ao conquistar um Veio. Recarga: 60s"
+    }
+  },
+  {
+    "id": 6,
+    "name": {
+      "ru": "Дозор в долине",
+      "en": "Valley Vigil",
+      "de": "Talwache",
+      "es": "Vigilia del valle",
+      "fr": "Veille de la vallée",
+      "id": "Penjaga Lembah",
+      "ja": "山谷見張り",
+      "ko": "골짜기 수호",
+      "pt": "Vigília do Vale"
+    },
+    "desc": {
+      "ru": "Получите 5000 дополнительных очищенных кристаллов при неудачной попытке захвата жилы. Восстановление: 60 сек.",
+      "en": "Gain 5000 extra Purified Crystals when you fail to seize a Lode. CD: 60s",
+      "de": "Erhalte 5000 zusätzliche Gereinigte Kristalle, wenn du bei der Eroberung einer Ader scheiterst. Abklingzeit: 60 Sek.",
+      "es": "Obtén 5000 cristales purificados adicionales al fallar en conquistar una veta. ENF: 60 s.",
+      "fr": "Obtenez 5000 Cristaux purifiés supplémentaires lorsque vous échouez à capturer un filon. Temps de recharge : 60 s",
+      "id": "Dapatkan 5000 bonus Kristal Pemurni saat gagal merebut tambang, cooldown 60d",
+      "ja": "鉱脈の奪取失敗時、追加で浄化クリスタルを5000獲得、クールダウン60秒",
+      "ko": "광맥 쟁탈 실패 시 정화 수정 5,000개 추가 획득(쿨타임: 60초)",
+      "pt": "Ganhe 5.000 Cristais Purificados extras se não conseguir conquistar um Veio. Recarga: 60s"
+    }
+  },
+  {
+    "id": 7,
+    "name": {
+      "ru": "Добыча кристаллов",
+      "en": "Crystal Mining",
+      "de": "Kristallabbau",
+      "es": "Minería de cristales",
+      "fr": "Mines de cristal",
+      "id": "Teknik Penambangan Kristal",
+      "ja": "晶簇採掘術",
+      "ko": "수정 군집 채광술",
+      "pt": "Mineração de Cristal"
+    },
+    "desc": {
+      "ru": "Скорость сбора кристаллических скоплений увеличивается на 15%",
+      "en": "Crystal Cluster Gathering Speed increases by 15%",
+      "de": "Kristallcluster-Sammelgeschwindigkeit erhöht sich um 15%",
+      "es": "La velocidad de recolección de cúmulos de cristal aumenta un 15%.",
+      "fr": "Augmente la vitesse de collecte des amas cristallins de 15 %",
+      "id": "Kecepatan Pengumpulan Kumpulan Kristal otomatis meningkat 15%",
+      "ja": "晶簇の採集速度が15%自動で上昇",
+      "ko": "수정 채집 속도 15% 자동 증가",
+      "pt": "Velocidade de Coleta no Vale dos Cristais aumenta em 15%"
+    }
+  },
+  {
+    "id": 8,
+    "name": {
+      "ru": "Стальная воля",
+      "en": "Iron Will",
+      "de": "Eiserner Wille",
+      "es": "Voluntad de hierro",
+      "fr": "Volonté de fer",
+      "id": "Tekad Kuat",
+      "ja": "不屈の意志",
+      "ko": "결연한 의지",
+      "pt": "Vontade de Ferro"
+    },
+    "desc": {
+      "ru": "Уменьшает длительность получаемых ослаблений на 30 сек.",
+      "en": "Reduces the duration of debuffs received by 30s",
+      "de": "Reduziert die Dauer erhaltener Debuff-Effekte um 30 Sek.",
+      "es": "Reduce la duración de los efectos negativos recibidos en 30 s.",
+      "fr": "Réduit la durée des malus subis de 30 s",
+      "id": "Mengurangi durasi efek negatif yang diterima 30d",
+      "ja": "受けるデバフの持続時間を30秒短縮",
+      "ko": "받는 디버프의 지속 시간-30초",
+      "pt": "Reduz a duração dos debuffs recebidos em 30s"
+    }
+  },
+  {
+    "id": 9,
+    "name": {
+      "ru": "Пробуждение долины",
+      "en": "Valley Awakening",
+      "de": "Talerwachen",
+      "es": "Despertar del valle",
+      "fr": "Éveil de la vallée",
+      "id": "Kebangkitan Lembah",
+      "ja": "谷の覚醒",
+      "ko": "골짜기의 각성",
+      "pt": "Despertar do Vale"
+    },
+    "desc": {
+      "ru": "Увеличивает Урон героя на 15% на 60 сек. Перезарядка: 300 сек.",
+      "en": "Increases Hero DMG by 15% for 60s. CD: 300s",
+      "de": "Erhöht Held-SCH um 15% für 60 Sek. Abklingzeit: 300s.",
+      "es": "Aumenta el daño del héroe en un 15% durante 60 s. ENF: 300 s.",
+      "fr": "Augmente les DGT de héros de 15 % pendant 60 s. Temps de recharge : 300 s",
+      "id": "Setelah digunakan meningkatkan DMG Hero +15%, durasi 60d, cooldown 300d",
+      "ja": "使用すると60秒間、英雄ダメージが15%上昇。クールダウン300秒。",
+      "ko": "사용 시 60초 동안 영웅의 피해량이 15% 증가한다(쿨타임: 300초)",
+      "pt": "Aumenta o Dano do Herói em 15% por 60s. Recarga: 300s"
+    }
+  },
+  {
+    "id": 10,
+    "name": {
+      "ru": "Резонанс кристалла",
+      "en": "Crystal Resonance",
+      "de": "Kristallresonanz",
+      "es": "Resonancia de cristal",
+      "fr": "Résonance cristalline",
+      "id": "Resonansi Kristal",
+      "ja": "晶簇共鳴",
+      "ko": "수정 군집 공명",
+      "pt": "Ressonância de Cristal"
+    },
+    "desc": {
+      "ru": "Временно увеличивает скорость сбора кристаллических скоплений на 50% на 60 сек. Перезарядка: 300 сек.",
+      "en": "Temporarily increases Crystal Cluster Gathering Speed by 50% for 60s. CD: 300s",
+      "de": "Erhöht vorübergehend die Kristallcluster-Sammelgeschwindigkeit um 50% für 60 Sek. Abklingzeit: 300 Sek.",
+      "es": "Aumenta temporalmente la velocidad de recolección de cúmulos de cristal en un 50% durante 60 s. ENF: 300 s.",
+      "fr": "Augmente temporairement la vitesse de collecte des amas cristallins de 50 % pendant 60 s. Temps de recharge : 300 s",
+      "id": "Setelah digunakan sementara meningkatkan Kecepatan Pengumpulan Kumpulan Kristal 50%, berlangsung 60d, cooldown 300d",
+      "ja": "使用すると60秒間晶簇の採集速度が50%上昇。クールダウン300秒。",
+      "ko": "사용 시 60초 동안 수정 채집 속도가 50% 증가한다(쿨타임: 300초)",
+      "pt": "Aumenta em 50% a Velocidade de Coleta de Aglomerados de Cristal por 60s. Recarga: 300s"
+    }
+  }
+]

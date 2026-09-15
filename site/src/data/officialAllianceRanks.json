@@ -1,0 +1,227 @@
+[
+  {
+    "id": 101,
+    "name": {
+      "ru": "R1",
+      "en": "R1",
+      "de": "R1",
+      "es": "R1",
+      "fr": "R1",
+      "id": "Kelas 1",
+      "ja": "階級1",
+      "ko": "레벨 1",
+      "pt": "R1"
+    },
+    "desc": {
+      "ru": "Новобранцы альянса, готовые к новым свершениям.",
+      "en": "Newcomers to the alliance, looking forward to starting a new journey here.",
+      "de": "Neuankömmlinge in der Allianz, freuen sich darauf, hier eine neue Reise zu beginnen.",
+      "es": "Recién llegados a la alianza, ansiosos por comenzar una nueva aventura aquí.",
+      "fr": "Des nouvelles recrues de l\\'alliance, impatientes d\\'entamer une nouvelle aventure.",
+      "id": "Anggota baru yang baru bergabung dengan Guild, berharap memulai petualangan baru di sini.",
+      "ja": "ギルドに入ったばかりの新人。ここで新たな旅が始まることを期待している。",
+      "ko": "길드에 갓 가입한 신입 멤버. 여기서 새로운 여정을 시작하길 기대합니다.",
+      "pt": "Novatos na aliança, ansiosos para começar uma nova jornada aqui."
+    }
+  },
+  {
+    "id": 102,
+    "name": {
+      "ru": "R2",
+      "en": "R2",
+      "de": "R2",
+      "es": "R2",
+      "fr": "R2",
+      "id": "Kelas 2",
+      "ja": "階級2",
+      "ko": "레벨 2",
+      "pt": "R2"
+    },
+    "desc": {
+      "ru": "Освоение альянса, активное участие в событиях, демонстрация своей значимости.",
+      "en": "Gradually familiarizing with the alliance, actively participating in events, showcasing personal value.",
+      "de": "Gewöhne dich allmählich an die Allianz, nimm aktiv an Events teil und zeigen deinen persönlichen Wert.",
+      "es": "Familiarizándose poco a poco con la alianza, participando activamente en eventos y demostrando su valía personal.",
+      "fr": "Intégration progressive, participation active aux événements, démonstration de valeur.",
+      "id": "Semakin akrab dengan Guild, aktif berpartisipasi dalam kegiatan, menunjukkan nilai diri.",
+      "ja": "ギルドに馴染み、イベントへ積極的に参加し、自らの価値を示す。",
+      "ko": "길드에 점차 익숙해지며, 이벤트에 적극 참여하고 개인의 가치를 드러냅니다.",
+      "pt": "Gradualmente se familiarizando com a aliança, participando ativamente de eventos, mostrando valor pessoal."
+    }
+  },
+  {
+    "id": 103,
+    "name": {
+      "ru": "R3",
+      "en": "R3",
+      "de": "R3",
+      "es": "R3",
+      "fr": "R3",
+      "id": "Kelas 3",
+      "ja": "階級3",
+      "ko": "레벨 3",
+      "pt": "R3"
+    },
+    "desc": {
+      "ru": "Выдающиеся успехи делают вас опорой альянса.",
+      "en": "With outstanding performance, gradually becoming the backbone of the alliance.",
+      "de": "Mit herausragender Leistung wirst du nach und nach zum Rückgrat der Allianz.",
+      "es": "Con un desempeño sobresaliente, convirtiéndose gradualmente en pilares fundamentales de la alianza.",
+      "fr": "Avec des performances remarquables, devenir progressivement un pilier de l\\'alliance.",
+      "id": "Berprestasi gemilang, menjadi tulang punggung Guild",
+      "ja": "目覚ましい活躍を見せ、次第にギルドの中核となる存在。",
+      "ko": "뛰어난 활약으로 길드의 중추적인 역량으로 성장합니다.",
+      "pt": "Com desempenho excepcional, gradualmente se tornando a espinha dorsal da aliança."
+    }
+  },
+  {
+    "id": 104,
+    "name": {
+      "ru": "R4",
+      "en": "R4",
+      "de": "R4",
+      "es": "R4",
+      "fr": "R4",
+      "id": "Kelas 4",
+      "ja": "階級4",
+      "ko": "레벨 4",
+      "pt": "R4"
+    },
+    "desc": {
+      "ru": "Вносить весомый вклад в альянс, участвовать в принятии решений, обучать новичков и способствовать его развитию.",
+      "en": "Making significant contributions to the alliance, participating in decision-making, nurturing new members, and driving alliance growth.",
+      "de": "Leiste bedeutende Beiträge zur Allianz bei, nimm an Entscheidungsprozessen teil, fördere neue Mitglieder und treibe das Wachstum der Allianz voran.",
+      "es": "Hacer contribuciones significativas a la alianza, participar en la toma de decisiones, guiar a nuevos miembros y impulsar el crecimiento de la alianza.",
+      "fr": "Apporter des contributions majeures à l\\'alliance, participer activement aux prises de décision, accompagner les nouveaux membres et stimuler la croissance de l\\'alliance.",
+      "id": "Berkontribusi besar pada Guild, terlibat dalam pengambilan keputusan, membimbing anggota baru, dan mendorong kemajuan Guild",
+      "ja": "ギルドへの顕著な貢献者。意思決定に関わり、新人を育成し、ギルドの発展を推進する。",
+      "ko": "길드에 큰 공헌을 하며, 의사결정에 참여하고 신입 회원을 육성하여 길드 발전을 추진합니다.",
+      "pt": "Fazer contribuições significativas à aliança, participar na tomada de decisões, nutrir novos membros e colaborar para o crescimento da aliança."
+    }
+  },
+  {
+    "id": 105,
+    "name": {
+      "ru": "R5",
+      "en": "R5",
+      "de": "R5",
+      "es": "R5",
+      "fr": "R5",
+      "id": "Kelas 5",
+      "ja": "階級5",
+      "ko": "레벨 5",
+      "pt": "R5"
+    },
+    "desc": {
+      "ru": "Верховный глава альянса, определяющий стратегию и ведущий его к величию.",
+      "en": "The highest leader of the alliance, formulating strategies and leading the alliance towards a glorious future.",
+      "de": "Der höchste Anführer der Allianz, entwickelt Strategien und führt die Allianz in eine glorreiche Zukunft.",
+      "es": "El líder supremo de la alianza, formulando estrategias y guiando a la alianza hacia un futuro glorioso.",
+      "fr": "Chef suprême de l\\'alliance, il élabore les stratégies et la mène vers un avenir glorieux.",
+      "id": "Sebagai pemimpin tertinggi Guild, menyusun strategi dan memimpin Guild menuju masa depan yang gemilang",
+      "ja": "ギルドの最高指導者。戦略を立て、ギルドを輝かしい未来へ導く。",
+      "ko": "길드의 최고 지도자로서 전략을 수립하고 길드를 영광스러운 미래로 이끕니다.",
+      "pt": "O líder máximo da aliança, formulando estratégias e conduzindo a aliança em direção a um futuro glorioso."
+    }
+  },
+  {
+    "id": 201,
+    "name": {
+      "ru": "Воевода",
+      "en": "God of War",
+      "de": "Kriegsgott",
+      "es": "Dios de la guerra",
+      "fr": "Dieu de la guerre",
+      "id": "Dewa Perang",
+      "ja": "戦神",
+      "ko": "전쟁의 신",
+      "pt": "Líder Militar"
+    },
+    "desc": {
+      "ru": "Как командир альянса, воевода возглавляет отряды в боях, повышая общую боевую мощь альянса.",
+      "en": "As the commander of the alliance, the core responsibility of the God of War is to lead the team in various combat activities, while enhancing the overall combat strength of the alliance.",
+      "de": "Als Kommandant der Allianz besteht die Kernaufgabe des Kriegsgottes darin, das Team in verschiedenen Kampfaktivitäten zu führen und gleichzeitig die gesamte Kampfkraft der Allianz zu steigern.",
+      "es": "Como comandante de la alianza, la responsabilidad principal del Dios de la guerra es liderar al equipo en diversas actividades de combate, mientras mejora la fuerza de combate general de la alianza.",
+      "fr": "En tant que commandant de l\\'alliance, la mission principale du Dieu de la guerre est de diriger l\\'équipe dans les activités de combat et d\\'accroître la puissance de l\\'alliance.",
+      "id": "Sebagai Panglima perang Guild, tugas utama Dewa Perang adalah memimpin tim dalam berbagai pertempuran, sekaligus meningkatkan kekuatan tempur Guild secara keseluruhan",
+      "ja": "ギルドの戦闘統帥「戦神」。あらゆる戦闘イベントでチームを率い、ギルド全体の戦闘力を高めることが核となる職責。",
+      "ko": "길드의 전투 총사령관이자 전쟁의 신으로서 핵심 임무는 팀을 이끌어 각종 전투 이벤트에 참여하고, 동시에 길드 전체의 전투력 향상을 주도하는 것입니다.",
+      "pt": "Como comandante da aliança, a responsabilidade central do Líder Militar é liderar a equipe em várias atividades de combate, ao mesmo tempo em que aumenta a força de combate geral da aliança."
+    }
+  },
+  {
+    "id": 202,
+    "name": {
+      "ru": "Вербовщик",
+      "en": "Recruiter",
+      "de": "Rekrutierer",
+      "es": "Reclutador",
+      "fr": "Recruteur",
+      "id": "Perekrut",
+      "ja": "募集官",
+      "ko": "모집관",
+      "pt": "Recrutador"
+    },
+    "desc": {
+      "ru": "Вербовщик привлекает новых участников в альянс, оценивает их способности и совместимость, обеспечивая непрерывный рост и расширение.",
+      "en": "The Recruiter is responsible for attracting new members to the alliance, assessing potential members\\' abilities and compatibility, and ensuring the alliance\\'s continuous growth and expansion.",
+      "de": "Der Rekrutierer ist verantwortlich für die Anwerbung neuer Mitglieder für die Allianz, die Bewertung der Fähigkeiten und Kompatibilität potenzieller Mitglieder sowie die Sicherstellung des kontinuierlichen Wachstums und der Expansion der Allianz.",
+      "es": "El Reclutador se encarga de atraer nuevos miembros a la alianza, evaluar las habilidades y compatibilidad de los posibles miembros, y asegurar el crecimiento y expansión continua de la alianza.",
+      "fr": "Le recruteur est chargé d\\'attirer de nouveaux membres, d\\'évaluer leurs capacités et leur compatibilité, et d\\'assurer la croissance continue et l\\'expansion de l\\'alliance.",
+      "id": "Perekrut bertugas menarik anggota baru ke Guild, menilai kemampuan dan kesesuaian calon anggota, serta memastikan perkembangan dan pertumbuhan Guild yang berkelanjutan",
+      "ja": "募集官。新メンバーの勧誘、潜在メンバーの能力評価と適性判断を担い、ギルドの持続的発展と強化を確保する。",
+      "ko": "모집관은 새로운 멤버를 길드에 유치하고, 잠재적 멤버의 능력과 적합성을 평가하며, 길드의 지속적인 성장과 발전을 보장합니다.",
+      "pt": "O Recrutador é responsável por atrair novos membros para a aliança, avaliar as habilidades e compatibilidade dos membros em potencial e garantir o crescimento e expansão contínuos da aliança."
+    }
+  },
+  {
+    "id": 203,
+    "name": {
+      "ru": "Богиня",
+      "en": "Goddess",
+      "de": "Göttin",
+      "es": "Diosa",
+      "fr": "Déesse",
+      "id": "Dewi",
+      "ja": "女神",
+      "ko": "여신",
+      "pt": "Musa"
+    },
+    "desc": {
+      "ru": "Богиня — сердце альянса, поддерживающее его атмосферу и культуру, организующее события и укрепляющее взаимодействие и сплоченность.",
+      "en": "The Goddess is the heart of the alliance, maintaining its atmosphere and culture, organizing events, and enhancing member interaction and cohesion.",
+      "de": "Die Göttin ist das Herz der Allianz, pflegt deren Atmosphäre und Kultur, organisiert Events und fördert die Interaktion und den Zusammenhalt der Mitglieder.",
+      "es": "La Diosa es el corazón de la alianza, manteniendo su ambiente y cultura, organizando eventos y mejorando la interacción y cohesión entre los miembros.",
+      "fr": "La Déesse est le cœur de l\\'alliance. Elle entretient son atmosphère et sa culture, organise des événements et renforce l\\'interaction et la cohésion des membres.",
+      "id": "Dewi adalah tokoh kunci Guild, bertanggung jawab menjaga suasana dan budaya Guild, mengorganisir kegiatan, serta meningkatkan interaksi dan kekompakan antar anggota Guild.",
+      "ja": "ギルドの魂「女神」。ギルドの雰囲気と文化を維持し、イベントを企画し、メンバー間の交流と結束力を高める役割を果たしている。",
+      "ko": "여신은 길드의 핵심 인물로, 길드의 분위기와 문화를 유지하고, 이벤트를 조직하며, 길드원 간의 상호작용과 결속력을 강화하는 역할을 담당합니다.",
+      "pt": "A Musa é o coração da aliança, mantendo sua atmosfera e cultura, organizando eventos e aprimorando a interação e coesão dos membros."
+    }
+  },
+  {
+    "id": 204,
+    "name": {
+      "ru": "Дипломат",
+      "en": "Diplomat",
+      "de": "Diplomat",
+      "es": "Diplomático",
+      "fr": "Diplomate",
+      "id": "Diplomat",
+      "ja": "外交官",
+      "ko": "외교관",
+      "pt": "Diplomata"
+    },
+    "desc": {
+      "ru": "Управляющий руководит повседневными делами альянса и распределением ресурсов, обеспечивая бесперебойную работу, поддерживая другие роли и поддерживая общий порядок.",
+      "en": "The Steward manages the alliance\\'s daily affairs and resource allocation, ensuring smooth operations, supporting other roles, and maintaining overall order.",
+      "de": "Der Verwalter kümmert sich um die täglichen Angelegenheiten und die Ressourcenverteilung der Allianz, sorgt für reibungslose Abläufe, unterstützt andere Rollen und hält die allgemeine Ordnung aufrecht.",
+      "es": "El Mayordomo gestiona los asuntos diarios y la asignación de recursos de la alianza, garantizando operaciones fluidas, apoyando a otros roles y manteniendo el orden general.",
+      "fr": "L\\'intendant gère les affaires courantes et l\\'allocation des ressources de l\\'alliance, garantissant la fluidité des opérations, le soutien des autres rôles et l\\'ordre général.",
+      "id": "Pengurus bertugas mengelola urusan harian dan alokasi Sumber Daya Guild, memastikan kelancaran operasional, mendukung pekerjaan posisi lain, serta menjaga keteraturan Guild secara keseluruhan.",
+      "ja": "執事。ギルドの日常業務と資源配分を管理し、運営を円滑にし、他の役職をサポートして秩序を維持する。",
+      "ko": "집사는 길드의 일상적인 업무와 자원 분배를 관리하고, 길드 운영이 원활하게 이루어지도록 하며, 다른 직책들의 업무를 지원하고, 길드의 전반적인 질서를 유지합니다.",
+      "pt": "O Administrador gere os assuntos diários da aliança e a alocação de recursos, garantindo a fluidez das operações, apoiando as outras funções e mantendo a ordem geral."
+    }
+  }
+]

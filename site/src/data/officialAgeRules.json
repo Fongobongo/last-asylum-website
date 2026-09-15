@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "ru": "Королевский город",
+      "en": "Royal City",
+      "de": "Königsstadt",
+      "es": "Ciudad Real",
+      "fr": "Cité royale",
+      "id": "Kota Raja Tertinggi",
+      "ja": "至高の王城",
+      "ko": "지존의 왕성",
+      "pt": "Cidade Real"
+    },
+    "desc": {
+      "ru": "[Требования для участия] Как только ваше королевство вступит в Эру возрождения, все альянсы смогут участвовать в событии \\",
+      "en": "[Participation Requirements] Once your Kingdom enters the Era of Revival, all Alliances can participate in the Royal City Scramble Event. Occupying 6 adjacent Lv.6 Cities is no longer required.\n[Celia\\'s Tip] Upon entering the era, your Kingdom will face unprecedented challenges. Unity among all Kingdom members is essential to maintain your footing in fierce competition. Therefore, we must strengthen Kingdom management, consolidate Kingdom Resources, accelerate development, and contribute to Kingdom glory!",
+      "de": "[Teilnahmebedingungen] Sobald dein Königreich das Zeitalter der Wiederbelebung betritt, können alle Allianzen am Königsstadtkampf-Event teilnehmen. Das Besetzen von 6 angrenzenden Lv.6-Städten ist nicht mehr erforderlich.\n[Celias Tipp] Beim Betreten des Zeitalters wird dein Königreich beispiellosen Herausforderungen gegenüberstehen. Die Einheit aller Königreichsmitglieder ist entscheidend, um in der harten Konkurrenz bestehen zu können. Daher müssen wir die Königreichsverwaltung stärken, Königreich-Ressourcen konsolidieren, die Entwicklung beschleunigen und zum Ruhm des Königreichs beitragen!",
+      "es": "[Requisitos de participación] Una vez que tu Reino entre en la Era del renacimiento, todas las alianzas pueden participar en el evento Alboroto en la Ciudad Real. Ya no es necesario ocupar 6 ciudades Nv. 6 adyacentes.\n[Consejo de Celia] Al entrar en la era, tu Reino enfrentará desafíos sin precedentes. La unidad entre todos los miembros del Reino es esencial para mantener tu posición en la feroz competencia. Por lo tanto, debemos fortalecer la gestión del Reino, consolidar los recursos del Reino, acelerar el desarrollo y contribuir a la gloria del Reino.",
+      "fr": "[Conditions de participation] Dès que votre royaume entre dans l\\'Ère du renouveau, toutes les alliances peuvent prendre part à l\\'événement Tumulte dans la Cité royale. L\\'occupation de 6 Cités de Niv. 6 adjacentes n\\'est plus requise.\n[Conseil de Celia] En entrant dans cette ère, votre royaume fera face à des défis sans précédent. L\\'unité de tous les membres du royaume est cruciale pour tenir bon face à une concurrence féroce. Il est donc impératif de renforcer la gestion du royaume, de consolider les ressources du royaume, d\\'accélérer son développement et de contribuer à sa gloire !",
+      "id": "[Syarat Partisipasi]Setelah Kerajaan memasuki Era Kebangkitan, semua Guild dapat berpartisipasi dalam Event Perebutan Kota Raja, tidak lagi menggunakan pendudukan Kota Lv.6 yang berdekatan sebagai syarat partisipasi.\n[Tips Celia]Setelah memasuki era ini, Kerajaan akan menghadapi tantangan yang lebih berat, membutuhkan persatuan seluruh anggota Kerajaan agar dapat bertahan dalam kompetisi yang ketat. Oleh karena itu, kita perlu memperkuat manajemen Kerajaan, mengintegrasikan Sumber Daya Kerajaan, mempercepat perkembangan diri, dan berkontribusi untuk kehormatan Kerajaan!",
+      "ja": "【参加条件】王国がルネサンス時代に突入すると、隣接するLv.6の城の占領は不要となり、全てのギルドが王城争奪戦イベントに参加できるようになります。\n【シリアのヒント】時代に突入後、王国はより厳しい試練に直面します。激しい競争の中で王国が生き残るには、王国メンバー全員の団結が不可欠です。そのため、王国の管理を固め、資源を統合し、自身の発展を加速させ、王国の栄誉のために貢献しましょう！",
+      "ko": "[참여 조건] 왕국이 부흥 시대에 진입하면 모든 길드는 인접한 Lv.6 도시 점령 조건 없이 왕성 쟁탈전 이벤트에 참여할 수 있습니다.\n[실리아의 조언] 부흥 시대에 진입하면 왕국은 더 큰 시련에 직면하게 됩니다. 치열한 경쟁 속에서 살아남으려면 모든 왕국의 구성원이 단결해야 합니다. 자원을 통합하여 발전을 가속하고, 왕국의 기반을 다져 왕국의 영광에 힘을 보태주세요!",
+      "pt": "[Requisitos de Participação] Assim que seu Reino entrar na Era da Renovação, todas as Alianças poderão participar do Tumulto na Capital. Não é mais necessário ocupar 6 Cidades adjacentes Nv.6.\n[Dica da Celia] Ao entrar nesta era, seu Reino enfrentará desafios sem precedentes. A união entre todos os membros do Reino é essencial para manter-se na acirrada competição. Por isso, devemos fortalecer a gestão do Reino, consolidar os Recursos, acelerar o desenvolvimento e contribuir para a glória do Reino!"
+    }
+  },
+  {
+    "id": 2,
+    "title": {
+      "ru": "Лига экспедиции возрождения",
+      "en": "Revival Expedition League",
+      "de": "Wiederbelebung Expeditionsliga",
+      "es": "Liga de expedición de resurrección",
+      "fr": "Ligue d\\'expédition du renouveau",
+      "id": "Liga Ekspedisi Kebangkitan",
+      "ja": "復興遠征リーグ",
+      "ko": "부흥 원정 리그",
+      "pt": "Liga de Expedição da Renovação"
+    },
+    "desc": {
+      "ru": "[Корректировка формата] Лига экспедиции возрождения — это турнир по Войне королевств, в котором 16 Королевств сражаются в течение 2-х месяцев. Еженедельные результаты и рейтинги Королевств определяют общий рейтинг королевств Эры возрождения, на основе которого распределяются награды эры.\n[Корректировка наград] Еженедельные награды за очки устранения противников заменены на награды эры, приносящие дополнительные предметы опыта специализации лорда.\n[Очки устранения противников] Рейтинги альянсов эры определяются еженедельными заслугами альянса, рассчитываемыми на основе рейтингов альянсов за очки устранения противников. Не забывайте, каждый бой имеет значение.",
+      "en": "[Format Adjustment] The Revival Expedition League is the league version of Kingdom War, featuring 16 Kingdoms competing over 2 months. Weekly Kingdom performance and rankings determine the Era of Revival Kingdom Composite Ranking. Kingdom era Rewards are distributed accordingly.\n[Reward Adjustment] Weekly enemy elimination score rewards are replaced with era enemy elimination score rewards, yielding additional Lord\\'s Specialty EXP Items.\n[Enemy Elimination Score] Era Alliance rankings are determined by weekly Alliance Merit calculated from Alliance enemy elimination score rankings. Lords, prioritize every battle.",
+      "de": "[Formatanpassung] Die Wiederbelebung Expeditionsliga ist die Liga-Version des Königreichskriegs, bei der 16 Königreiche über 2 Monate konkurrieren. Wöchentliche Königreich-Leistungen und Ranglisten bestimmen die Zeitalter der Wiederbelebung Königreich-Gesamtrangliste. Königreich-Zeitalter-Belohnungen werden entsprechend verteilt.\n[Belohnungsanpassung] Wöchentliche Feindvernichtungs-Punktebelohnungen werden durch Zeitalter-Feindvernichtungs-Punktebelohnungen ersetzt, die zusätzliche Spezialität-EP des Lords Gegenstände bringen.\n[Feindvernichtungs-Punkte] Zeitalter-Allianzranglisten werden durch wöchentliche Allianz-Verdienste bestimmt, die aus Allianz-Feindvernichtungs-Punkteranglisten berechnet werden. Lords, priorisiert jeden Kampf.",
+      "es": "[Ajuste de formato] La Liga de expedición de resurrección es la versión de liga de la Guerra del reino, con 16 Reinos compitiendo durante 2 meses. El rendimiento semanal del Reino y las clasificaciones determinan la clasificación compuesta del Reino de la Era del renacimiento. Las recompensas de la era del Reino se distribuyen en consecuencia.\n[Ajuste de recompensa] Las recompensas semanales de puntuación por eliminación de enemigos se reemplazan con recompensas de puntuación por eliminación de enemigos de la era, que proporcionan objetos adicionales de EXP de especialidad del señor.\n[Puntuación de eliminación de enemigos] Las clasificaciones de alianza de la era se determinan por el mérito semanal de la alianza calculado a partir de las clasificaciones de puntuación de eliminación de enemigos de la alianza. Señores, prioricen cada batalla.",
+      "fr": "[Ajustement du format] La Ligue d\\'expédition du renouveau est la version ligue de la Guerre du royaume, opposant 16 royaumes sur 2 mois. Les performances et classements hebdomadaires des royaumes déterminent le classement composite des royaumes de l\\'Ère du renouveau. Les récompenses d\\'ère du royaume sont attribuées en conséquence.\n[Ajustement des récompenses] Les récompenses de score d\\'élimination d\\'ennemis hebdomadaires sont remplacées par des récompenses de score d\\'élimination d\\'ennemis d\\'ère, octroyant des objets d\\'EXP de spécialité du seigneur supplémentaires.\n[Score d\\'élimination d\\'ennemis] Le classement d\\'alliance d\\'ère est déterminé par le mérite d\\'alliance hebdomadaire, calculé à partir du classement de score d\\'élimination d\\'ennemis de l\\'alliance. Seigneurs, chaque bataille compte.",
+      "id": "[Penyesuaian Format]Liga Ekspedisi Kebangkitan adalah versi liga dari Ekspedisi Lintas Negara, akan diikuti oleh 16 Kerajaan dalam kompetisi selama 2 bulan. Liga akan menentukan peringkat komprehensif Kerajaan Era Kebangkitan berdasarkan performa dan peringkat mingguan Kerajaan. Dan memberikan Hadiah era Kerajaan berdasarkan peringkat.\n[Penyesuaian Hadiah]Hadiah poin pembunuhan musuh mingguan akan diganti dengan Hadiah poin pembunuhan musuh era, menghasilkan tambahan Item EXP Keahlian Lord.\n[Poin Pembunuhan Musuh]Peringkat Guild era akan ditentukan berdasarkan Prestasi Perang Guild yang dihitung dari peringkat poin pembunuhan musuh Guild mingguan, para Lord harap memperhatikan setiap pertempuran.",
+      "ja": "【試合形式の調整】復興遠征リーグはクロサバ遠征のリーグ版で、16の王国が2ヶ月間にわたって競い合います。リーグでは、各王国の毎週の戦績と順位に基づき、ルネサンス時代の王国総合ランキングが決定され、そのランキングに応じて王国の時代報酬が配布されます。\n【報酬の調整】毎週の敵撃破ポイント報酬は、時代の敵撃破ポイント報酬に切り替わり、さらに領主特技経験値アイテムが追加で産出されます。\n【撃破ポイント】時代のギルドランキングは、毎週のギルド敵撃破ポイントランキングで集計されるギルド戦功によって決まりますので、毎回の戦闘を重視しましょう。",
+      "ko": "[경기 방식 조정] 부흥 원정 리그는 국가 원정의 리그 버전으로, 16개 왕국이 2개월간 경쟁을 펼칩니다. 리그는 매주 왕국의 성적과 랭킹에 따라 부흥 시대 왕국의 종합 랭킹을 결정하며, 랭킹에 따라 왕국 시대 보상이 지급됩니다.\n[보상 조정] 주간 처치 포인트 보상이 시대 처치 포인트 보상으로 변경되며, 추가로 영주 특기 경험치 아이템을 획득할 수 있습니다.\n[처치 포인트] 시대 길드 랭킹은 매주 길드 처치 포인트 랭킹에 따라 결산되는 길드 전공으로 결정되니, 영주님들께서는 모든 전투에 최선을 다해주시기 바랍니다.",
+      "pt": "[Ajuste de Formato] A Liga de Expedição da Renovação é a versão em liga da Guerra do Reino, com 16 Reinos competindo ao longo de 2 meses. O desempenho e o Ranking semanal dos Reinos determinam o Ranking Composto do Reino na Era da Renovação. As Recompensas da era do Reino são distribuídas de acordo.\n[Ajuste de Recompensas] As recompensas de pontuação de eliminação de inimigos semanais são substituídas pelas recompensas de pontuação de eliminação de inimigos da era, concedendo itens adicionais de EXP de Especialidade do Senhor Feudal.\n[Pontuação de Eliminação de Inimigos] O Ranking das Alianças na era é determinado pelo Mérito semanal da Aliança, calculado com base no Ranking de pontuação de eliminação de inimigos da Aliança. Senhores Feudais, valorizem cada batalha."
+    }
+  },
+  {
+    "id": 3,
+    "title": {
+      "ru": "Способности героя",
+      "en": "Hero Abilities",
+      "de": "Helden-Fähigkeiten",
+      "es": "Habilidades de héroes",
+      "fr": "Compétences de héros",
+      "id": "Kemampuan Hero",
+      "ja": "英雄能力",
+      "ko": "영웅 능력",
+      "pt": "Habilidades do Herói"
+    },
+    "desc": {
+      "ru": "[Пробуждение героя] В Эре возрождения Марлена, Синтия и Анни получат силу пробуждения. Пробуждение повышает все характеристики, дает различные навыки пробуждения и значительно усиливает героя.\n[Эксклюзивное оружие] В Эре возрождения Даскал, Луи и Ульфрид получат эксклюзивное оружие. Улучшение эксклюзивного оружия повышает все характеристики, дает различные навыки пробуждения и значительно усиливает героя.",
+      "en": "[Hero Awaken] Marlena, Cynthia, and Annie will gain awakening power in the Era of Revival. Awakening boosts all attributes, grants multiple Awaken Skills, and greatly enhances Hero strength\n[Exclusive Weapon] Daskal, Louis, and Ulfrid will obtain Exclusive Weapons in the Era of Revival. Upgrading Exclusive Weapons boosts all attributes, grants additional Skill effects, and greatly enhances Hero strength.",
+      "de": "[Held Erwachen] Marlena, Cynthia und Annie werden im Zeitalter der Wiederbelebung Erwachenskraft erlangen. Das Erwachen verstärkt alle Attribute, gewährt mehrere Erwachen Fähigkeiten und steigert die Heldenstärke erheblich.\n[Exklusive Waffe] Daskal, Louis und Ulfrid werden im Zeitalter der Wiederbelebung Exklusive Waffen erhalten. Das Upgraden von Exklusiven Waffen verstärkt alle Attribute, gewährt zusätzliche Fähigkeitseffekte und steigert die Heldenstärke erheblich.",
+      "es": "[Despertar de héroes] Marlena, Cynthia y Annie obtendrán poder de despertar en la Era del renacimiento. El despertar aumenta todos los atributos, otorga múltiples habilidades de despertar y mejora enormemente la fuerza del héroe\n[Arma exclusiva] Daskal, Luis y Ulfrid obtendrán armas exclusivas en la Era del renacimiento. Mejorar las armas exclusivas aumenta todos los atributos, otorga efectos de habilidad adicionales y mejora enormemente la fuerza del héroe.",
+      "fr": "[Éveil du héros] Marlena, Cynthia et Annie obtiendront le pouvoir d\\'éveil durant l\\'Ère du renouveau. L\\'éveil améliore toutes les statistiques, octroie de multiples compétences d\\'éveil et renforce considérablement la puissance du héros.\n[Arme exclusive] Daskal, Louis et Ulfrid recevront des armes exclusives durant l\\'Ère du renouveau. L\\'amélioration des armes exclusives augmente toutes les statistiques, confère des effets de compétence supplémentaires et accroît grandement la puissance du héros.",
+      "id": "[Kebangkitan Hero]Tiga Hero Marlena, Cynthia, dan Annie akan memperoleh kekuatan kebangkitan di Era Kebangkitan. Kebangkitan akan meningkatkan semua atribut, memperoleh beberapa Skill kebangkitan, dan sangat memperkuat kemampuan Hero.\n[Senjata Eksklusif Hero]Tiga Hero Duskar, Louis, dan Ulfred akan memperoleh Senjata Eksklusif di Era Kebangkitan. Naikkan Level senjata eksklusif akan meningkatkan semua atribut, memperoleh efek Skill tambahan, dan sangat memperkuat kemampuan Hero.",
+      "ja": "【英雄覚醒】ルネサンス時代において、英雄マレーナ、シンシア、アニーの三人が覚醒の力を獲得します。覚醒により各ステータスが上昇し、複数の覚醒スキルを獲得し、英雄の戦力が大幅に強化されます。\n【専用武器】ルネサンス時代において、英雄ダスカール、ルイス、ウルフレッドの三人が専用武器を獲得します。専用武器をレベルアップすると、各ステータスが上昇し、追加のスキル効果を獲得し、英雄の戦力が大幅に強化されます。",
+      "ko": "[영웅 각성] 말레나, 신시아, 애니 세 영웅은 부흥 시대에서 각성의 힘을 얻습니다. 각성 시 모든 속성이 상승하고, 여러 각성 스킬을 획득하여 영웅의 전투력이 대폭 상승합니다.\n[영웅 전용 무기] 다스칼, 루이스, 울프레드 세 영웅은 부흥 시대에 전용 무기를 획득할 수 있습니다. 전용 무기를 레벨업하면 모든 속성이 상승하고, 추가 스킬 효과를 획득하여 영웅의 전투력이 대폭 상승합니다.",
+      "pt": "[Despertar do Herói] Marlena, Cynthia e Annie ganharão poder de despertar na Era da Renovação. O Despertar potencializa todos os atributos, concede múltiplas Habilidades de Despertar e aumenta consideravelmente a força dos Heróis.\n[Arma Exclusiva] Daskal, Louis e Ulfrid obterão Armas Exclusivas na Era da Renovação. Aprimorar as Armas Exclusivas potencializa todos os atributos, concede efeitos adicionais de Habilidade e aumenta consideravelmente a força dos Heróis."
+    }
+  },
+  {
+    "id": 4,
+    "title": {
+      "ru": "Таверна",
+      "en": "Tavern",
+      "de": "Taverne",
+      "es": "Taberna",
+      "fr": "Taverne",
+      "id": "Kedai",
+      "ja": "酒場",
+      "ko": "선술집",
+      "pt": "Taverna"
+    },
+    "desc": {
+      "ru": "[Новый герой] Войдите в Эру возрождения, чтобы нанять в таверне Даскала и Красную Леди.",
+      "en": "[New Hero] Enter the Era of Revival and you\\'ll have a chance to recruit Daskal and Red Lady from the Tavern.",
+      "de": "[Neuer Held] Betritt das Zeitalter der Wiederbelebung und du hast die Chance, Daskal und die Rote Dame aus der Taverne zu rekrutieren.",
+      "es": "[Nuevo héroe] Entra en la Era del renacimiento y tendrás la oportunidad de reclutar a Daskal y la Dama Roja desde la Taberna.",
+      "fr": "[Nouveau héros] Dès l\\'Ère du renouveau, vous aurez une chance de recruter Daskal et la Dame Rouge à la Taverne.",
+      "id": "[Hero Baru]Memasuki Era Kebangkitan, ada peluang merekrut Duskar dan Nyonya Merah di Kedai.",
+      "ja": "【新規英雄】ルネサンス時代に入り、領主特技の特技レベルを5まで上げると、確率で酒場募集にてダスカールとレッドレディを募集できるようになります。",
+      "ko": "[신규 영웅] 부흥 시대에 진입한 후에 영주 특기 레벨을 Lv.5까지 올리면 선술집 모집에서 일정 확률로 다스칼과 레드 레이디를 모집할 수 있습니다",
+      "pt": "[Novo Herói] Entre na Era da Renovação para ter a chance de recrutar Daskal e a Dama Vermelha na Taverna."
+    }
+  },
+  {
+    "id": 5,
+    "title": {
+      "ru": "Дуэль альянсов",
+      "en": "Alliance Duel",
+      "de": "Allianz-Duell",
+      "es": "Duelo de alianzas",
+      "fr": "Duel d\\'alliances",
+      "id": "Pertarungan Guild",
+      "ja": "ギルドバトル",
+      "ko": "길드전",
+      "pt": "Duelo da Aliança"
+    },
+    "desc": {
+      "ru": "[Корректировка наград] Награды фаз Дуэли альянсов будут заменены на награды фаз эпохи, с дополнительными предметами опыта специализации лорда.\n[Нововведения] В Фазе II добавлена цель по очкам расхода фрагментов эксклюзивного оружия; в Фазе IV добавлена цель по очкам расхода фрагментов пробуждения героя или общих фрагментов пробуждения.",
+      "en": "[Reward Adjustment] Alliance Duel Phase Rewards will be replaced with Era Phase Rewards, with additional Lord\\'s Specialty EXP Item output.\n[Main Content] Phase II adds Excl. Wpn. Shard consumption point target; Phase IV adds Hero Awaken Shard or Awaken Omni Shard consumption point target.",
+      "de": "[Belohnung-Anpassung] Allianz-Duell Phase Belohnungen werden durch Zeitalter Phase Belohnungen ersetzt, mit zusätzlicher Spezialität-EP des Lords Gegenstand-Ausgabe.\n[Hauptinhalt] Phase II fügt Exkl. Wff. Splitter Verbrauchspunkt-Ziel hinzu; Phase IV fügt Held Erwachen Splitter oder Erwachen Omni-Splitter Verbrauchspunkt-Ziel hinzu.",
+      "es": "[Ajuste de recompensas] Las recompensas de fase del Duelo de alianzas serán reemplazadas por recompensas de fase de era, con producción adicional de objetos de EXP de especialidad del señor.\n[Contenido principal] La Fase II añade objetivo de puntos de consumo de fragmentos de arma excl.; la fase IV añade objetivo de puntos de consumo de fragmentos de despertar de héroe u omnifragmentos de despertar.",
+      "fr": "[Ajustement des récompenses] Les récompenses de phase du Duel d\\'alliances seront remplacées par des récompenses de phase d\\'ère, avec un rendement accru d\\'objets d\\'EXP de spécialité du seigneur.\n[Contenu principal] La phase II introduit un objectif de points de consommation de Fragments d\\'arme exclusive. La phase IV introduit un objectif de points de consommation de Fragments d\\'éveil de héros ou de Fragments universels d\\'éveil.",
+      "id": "[Penyesuaian Hadiah]Hadiah Tahap Pertarungan Guild akan diganti dengan hadiah Tahap Era, menghasilkan tambahan item EXP Keahlian Lord.\n[Konten Tema]Tahap dua menambah target konsumsi poin Fragmen Senjata Eksklusif; Tahap empat menambah target konsumsi poin Fragmen Kebangkitan Hero atau Fragmen Kebangkitan Universal.",
+      "ja": "【報酬調整】ギルドバトルの段階報酬を時代段階報酬に変更し、領主特技経験値アイテムを追加で産出します。\n【テーマ内容】段階二に専用武器の欠片の消費ポイント目標を追加します。段階四に英雄覚醒の欠片または万能覚醒の欠片の消費ポイント目標を追加します。",
+      "ko": "[보상 조정] 길드전 단계 보상이 시대 단계 보상으로 변경되며, 영주 특기 경험치 아이템을 추가로 획득할 수 있습니다.\n[테마 콘텐츠] 2단계에는 전용 무기 조각 소모 포인트 목표가 추가되고, 4단계에는 영웅 각성 조각 또는 만능 각성 조각 소모 포인트 목표가 추가됩니다.",
+      "pt": "[Ajuste de Recompensas] As Recompensas de Fase do Duelo da Aliança serão substituídas pelas Recompensas de Fase da Era, com produção adicional de Itens de EXP de Especialidade do Senhor Feudal.\n[Conteúdo Principal] A Fase II adiciona meta de pontos de consumo de Fragmento de Arma Excl.; a Fase IV adiciona meta de pontos de consumo de Fragmento de Despertar do Herói ou Fragmento Omni de Despertar."
+    }
+  },
+  {
+    "id": 6,
+    "title": {
+      "ru": "Король демонов скверны",
+      "en": "Demon King Blight",
+      "de": "Seuchen-Dämonenkönig",
+      "es": "Rey Demonio Infectado",
+      "fr": "Peste Roi démon",
+      "id": "Raja Iblis Ghoul",
+      "ja": "魔王ゾンビ",
+      "ko": "마왕 좀비",
+      "pt": "Rei Demônio da Praga"
+    },
+    "desc": {
+      "ru": "[Достижение] Лимит достижений Короля демонов скверны увеличен. Наносите им больше урона и получайте больше наград за достижения.",
+      "en": "[Achievement] Demon King Blight Achievement Cap expanded, deal higher damage to them and earn more Achievement Rewards.",
+      "de": "[Erfolg] Dämonenkönig Seuche Erfolg Grenze erweitert, verursache höheren Schaden gegen sie und verdiene mehr Erfolg Belohnungen.",
+      "es": "[Logro] Límite de logros de infectados del Rey Demonio ampliado, inflige mayor daño y obtén más recompensas de logros.",
+      "fr": "[Accomplissement] La limite d\\'accomplissement de la Peste du Roi démon est étendue. Infligez-lui plus de dégâts pour obtenir davantage de récompenses d\\'accomplissement.",
+      "id": "[Prestasi]Prestasi Raja Iblis Ghoul diperluas batas maksimal, berikan damage lebih tinggi padanya, dapatkan lebih banyak Hadiah Prestasi.",
+      "ja": "【実績】魔王ゾンビの実績上限を拡張します。これによりより高いダメージを与え、より多くの実績報酬を獲得可能になります。",
+      "ko": "[업적] 마왕 좀비 관련 업적 한도가 확장됩니다. 마왕 좀비에게 더 높은 피해를 입히고 더 많은 업적 보상을 획득하세요.",
+      "pt": "[Conquista] O Limite de Conquista da Praga do Rei Demônio foi expandido — cause mais dano a eles e ganhe mais Recompensas de Conquista."
+    }
+  },
+  {
+    "id": 7,
+    "title": {
+      "ru": "Магазин обмена",
+      "en": "Exchange Shop",
+      "de": "Tausch Shop",
+      "es": "Tienda de intercambio",
+      "fr": "Boutique d\\'échange",
+      "id": "Toko Penukaran",
+      "ja": "交換ショップ",
+      "ko": "교환 상점",
+      "pt": "Loja de Troca"
+    },
+    "desc": {
+      "ru": "[Магазин эпохи] Открыт новый магазин эпохи, где можно получить эксклюзивные облики эпохи, чертежи снаряжения MR, реликвии и другие редкие предметы.",
+      "en": "[Era Shop] New Era Shop unlocked, exchange for exclusive Era Skins, MR Gear Blueprints, Curios and other rare Items",
+      "de": "[Zeitalter Shop] Neuer Zeitalter Shop freigeschaltet, tausche exklusive Zeitalter Skins, MR Ausrüstung-Pläne, Kuriositäten und andere seltene Gegenstände.",
+      "es": "[Tienda de era] Nueva tienda de era desbloqueada, intercambia por aspectos exclusivos de era, planos de equipo MR, curiosidades y otros objetos raros.",
+      "fr": "[Boutique d\\'ère] Une nouvelle Boutique d\\'ère est déverrouillée. Échangez-y des apparences d\\'ère exclusives, des plans d\\'équipement MR, des curiosités et d\\'autres objets rares",
+      "id": "[Toko Era]Menambah Toko Era baru, dapat menukar Skin eksklusif era, Cetakan Gear MR, Koleksi dan Item langka lainnya",
+      "ja": "【時代ショップ】新たに時代ショップが追加され、時代限定スキン、MR装備設計図、収蔵品などのレアアイテムと交換できるようになりました。",
+      "ko": "[시대 상점] 시대 전용 스킨, MR 장비 설계도, 컬렉션 등 희귀 아이템으로 교환할 수 있습니다",
+      "pt": "[Era Shop] Nova Loja da Era desbloqueada! Troque por Visuais exclusivos da Era, Projetos de Equipamento MR, Artefatos e outros Itens raros."
+    }
+  },
+  {
+    "id": 8,
+    "title": {
+      "ru": "Статуя лорда",
+      "en": "Lord Statue",
+      "de": "Lord Statue",
+      "es": "Estatua del señor",
+      "fr": "Statue du seigneur",
+      "id": "Patung Lord",
+      "ja": "領主彫像",
+      "ko": "영주 조각상",
+      "pt": "Estátua do Senhor Feudal"
+    },
+    "desc": {
+      "ru": "[Статуя лорда] После возведения статуи лорда вы откроете специализацию лорда.\n[Специализация лорда] Повышайте уровень специализации и изучайте навыки специализации для усиления развития города и боевых возможностей.\n[Сопротивление] Сопротивление — основа быстрого прогресса в Эре возрождения. Увеличивайте сопротивление, чтобы противостоять более сильным монстрам.",
+      "en": "[Lord Statue] New Lord Statue building unlocks Lord\\'s Specialty.\n[Lord\\'s Specialty] Upgrade Specialty Level and learn Specialty Skills to strengthen City development and combat.\n[RES] RES is the foundation for rapid progress in Era of Revival, increase RES to face stronger Monsters.",
+      "de": "[Lord Statue]Neues Lord Statue Gebäude schaltet Spezialität des Lords frei.\n[Spezialität des Lords]Führe ein Upgrade des Spezialität-Levels durch und lerne Spezialität-Fähigkeiten, um Stadtentwicklung und Kampf zu stärken.\n[WID]WID ist die Grundlage für schnellen Fortschritt im Zeitalter der Wiederbelebung, erhöhe WID, um stärkeren Monstern gegenüberzutreten.",
+      "es": "[Estatua del señor] El nuevo edificio Estatua del señor desbloquea la especialidad del señor.\n[Especialidad del señor] Mejora el nivel de especialidad y aprende habilidades de especialidad para fortalecer el desarrollo de la ciudad y el combate.\n[RES] La RES es la base para el progreso rápido en la Era del renacimiento, aumenta tu RES para enfrentar monstruos más fuertes.",
+      "fr": "[Statue du seigneur] Le nouveau bâtiment Statue du seigneur déverrouille la spécialité du seigneur.\n[Spécialité du seigneur] Améliorez le niveau de spécialité et apprenez des compétences de spécialité pour renforcer le développement de votre Ville et le combat.\n[RÉS] La RÉS est la base d\\'un progrès rapide dans l\\'Ère du renouveau. Augmentez votre RÉS pour affronter des monstres plus puissants.",
+      "id": "[Patung Lord]Menambahkan bangunan Patung Lord baru, melalui patung dapat membuka Keahlian Lord.\n[Keahlian Lord]Tingkatkan Level Keahlian, pelajari Skill Keahlian, memberikan jaminan kuat untuk pengembangan kota dan pertempuran.\n[RES]RES adalah dasar perkembangan pesat Era Kebangkitan, tingkatkan RES untuk melawan Monster yang lebih kuat.",
+      "ja": "【領主彫像】新建築「領主彫像」が追加されました。彫像から領主特技を解放できます。\n【領主特技】特技レベルを上げ、特技スキルを習得することで、町の発展や戦闘を強力にサポートします。\n【耐性】耐性はルネサンス時代における急成長の基礎です。耐性を高めることで、より強力なモンスターに対抗できます。",
+      "ko": "[영주 조각상] 신규 건물인 영주 조각상을 통해 영주 특기를 해제할 수 있습니다.\n[영주 특기] 특기 레벨을 올리고 특기 스킬을 습득하여 도시 발전과 전투에 강력한 힘을 더해 보세요.\n[저항력] 저항력은 부흥 시대의 빠른 성장을 위한 토대입니다. 저항력을 높여 더욱 강력한 몬스터에 대항하세요.",
+      "pt": "[Lord Statue] O novo edifício Estátua do Senhor Feudal desbloqueia a Especialidade do Senhor Feudal.\n[Lord\\'s Specialty] Melhore o Nível de Especialidade e aprenda Habilidades de Especialidade para fortalecer o desenvolvimento da Cidade e o combate.\n[RES] RES é a base para o progresso acelerado na Era da Renovação. Aumente seu RES para enfrentar Monstros mais poderosos."
+    }
+  },
+  {
+    "id": 9,
+    "title": {
+      "ru": "Солдатский приют",
+      "en": "Soldier\\'s Rest",
+      "de": "Soldatenrast",
+      "es": "Descanso del soldado",
+      "fr": "Repos du soldat",
+      "id": "Tempat Istirahat Prajurit",
+      "ja": "兵士休息所",
+      "ko": "병사 휴식소",
+      "pt": "Abrigo de Soldados"
+    },
+    "desc": {
+      "ru": "[Солдатский приют] Добавлено новое здание: Солдатский приют. Часть павших в бою солдат будут попадать в солдатский приют, откуда лорды смогут повторно набрать их в казарму.\n[Помощь в найме] После найма солдат необходимо дождаться окончания периода восстановления, прежде чем нанимать новых. Просите помощь у участников альянса, чтобы сократить время восстановления, при этом помощники получат благодарственный подарок.",
+      "en": "[Soldier\\'s Rest] New Soldier\\'s Rest building added. Soldiers who die in battle will be partially rescued to the Soldier\\'s Rest, and Lords can recruit them to the Barracks.\n[Recruit Help] After recruiting soldiers, you must wait for the recovery period to end before recruiting again. Request Help from Alliance Members to reduce the recovery cooldown, and helpers will receive a thank-you gift.",
+      "de": "[Soldatenrast] Neues Soldatenrast-Gebäude hinzugefügt. Soldaten, die im Kampf sterben, werden teilweise zur Soldatenrast gerettet, und Lords können sie zur Kaserne rekrutieren.\n[Rekrutierung Hilfe] Nach der Rekrutierung von Soldaten musst du warten, bis die Erholungszeit endet, bevor du wieder rekrutieren kannst. Bitte Allianzmitglieder um Hilfe, um die Erholungsabklingzeit zu reduzieren, und Helfer erhalten ein Dankeschön-Geschenk.",
+      "es": "[Descanso del soldado] Se añadió el nuevo edificio Descanso del soldado. Los soldados que mueran en batalla serán parcialmente rescatados al Descanso del soldado, y los señores pueden reclutarlos al Cuartel.\n[Ayuda para reclutar] Después de reclutar soldados, debes esperar a que termine el período de recuperación antes de reclutar nuevamente. Solicita ayuda de los miembros de la alianza para reducir el tiempo de recuperación, y los ayudantes recibirán un regalo de agradecimiento.",
+      "fr": "[Repos du soldat] Nouveau bâtiment : Repos du soldat. Les soldats tombés au combat seront partiellement secourus et transférés au Repos du soldat, et les seigneurs pourront les recruter depuis la Caserne.\n[Aide au recrutement] Après un recrutement, une période de récupération est nécessaire avant de pouvoir recruter de nouveau. Demandez de l\\'aide aux membres d\\'alliance pour réduire le temps de recharge de récupération, et ceux qui vous aideront recevront un cadeau de remerciement.",
+      "id": "[Tempat Istirahat Prajurit]Menambahkan bangunan Tempat Istirahat Prajurit baru, Prajurit yang mati dalam pertempuran, sebagian akan diselamatkan ke tempat penampungan, Lord dapat merekrut mereka ke Barak.\n[Membantu Rekrut]Setelah merekrut Prajurit, perlu menunggu Prajurit selesai istirahat sebelum dapat merekrut lagi, saat ini meminta Anggota Guild membantu dapat mengurangi waktu cooldown istirahat, yang membantu juga akan mendapat hadiah terima kasih.",
+      "ja": "【兵士休息所】新建築「兵士休息所」が追加されます。戦闘で死亡した兵士の一部は治療のため収容所へ送られ、領主はそこから兵士を兵営に募集できます。\n【募集協力】兵士を募集した後、兵士の休息が完了するまで次の募集はできません。この時、ギルドメンバーに協力を要請すると、休息のクールダウンを短縮できます。協力したメンバーも謝礼を受け取れます。",
+      "ko": "[병사 휴식소] 전투 중 사망한 병사 중 일부는 이곳에서 구조되며, 영주님은 이들을 병영으로 다시 모집할 수 있습니다.\n[모집 협조] 병사를 모집한 후에는 병사가 휴식을 완료할 때까지 기다려야 합니다. 이때 길드원에게 협조를 요청하면 휴식 대기 시간을 단축할 수 있으며, 협조해준 길드원도 감사의 선물을 받습니다.",
+      "pt": "[Abrigo de Soldados] Adicionamos um novo edifício, o Abrigo de Soldados. Soldados derrotados em batalha são parcialmente resgatados para o Abrigo de Soldados, e os Senhores Feudais podem recrutá-los de volta ao Quartel.\n[Ajuda para Recrutar] Após recrutar Soldados, é necessário aguardar o período de recuperação antes de recrutar novamente. Peça Ajuda aos Membros da Aliança para reduzir o tempo de espera, aqueles que colaborarem receberão um presente de agradecimento."
+    }
+  },
+  {
+    "id": 10,
+    "title": {
+      "ru": "Сырная ловушка",
+      "en": "Cheese Trap",
+      "de": "Käsefalle",
+      "es": "Trampa de queso",
+      "fr": "Piège à fromage",
+      "id": "Perangkap Keju",
+      "ja": "チーズの罠",
+      "ko": "치즈 함정",
+      "pt": "Armadilha de Queijo"
+    },
+    "desc": {
+      "ru": "[Повышение уровня] С наступлением новой эры попавшие в ловушки монстры становятся сильнее, соответственно увеличивается и уровень Сырных ловушек. Ловушки более высокого уровня требуют нанесения большего количества урона, но и награды становятся щедрее. Объединим силы альянса, чтобы уничтожить пойманных монстров и защитить наши земли!",
+      "en": "[Level Up] Entering a new era, monsters lured by traps become stronger, and Cheese Trap levels increase accordingly. Higher-level traps require greater damage from Lords, but rewards are more generous. Let\\'s unite the Alliance\\'s strength to eliminate trapped monsters and protect our territory.",
+      "de": "[Level-Aufstieg] Mit dem Eintritt in ein neues Zeitalter werden die von Fallen angelockten Monster stärker, und die Level der Käsefallen steigen entsprechend an. Fallen höherer Level erfordern größeren Schaden von Lords, aber die Belohnungen sind großzügiger. Lasst uns die Kraft der Allianz vereinen, um gefangene Monster zu besiegen und unser Gebiet zu schützen.",
+      "es": "[Subir de etapa] Al entrar en una nueva era, los monstruos atraídos por las trampas se vuelven más fuertes, y los niveles de la Trampa de queso aumentan en consecuencia. Las trampas de mayor nivel requieren mayor daño de los señores, pero las recompensas son más generosas. Unamos la fuerza de la alianza para eliminar los monstruos atrapados y proteger nuestro territorio.",
+      "fr": "[Montée de niveau] L\\'aube d\\'une nouvelle ère : les monstres attirés par les pièges sont plus puissants, et les niveaux de Piège à fromage s\\'intensifient en conséquence. Les pièges de haut niveau exigent davantage de dégâts de la part des seigneurs, mais les récompenses sont plus généreuses. Unissons les forces de l\\'alliance pour éliminer les monstres piégés et protéger notre territoire.",
+      "id": "[Peningkatan Level]Setelah memasuki era baru, Monster yang terjebak akan semakin kuat, Level Perangkap Keju pun meningkat. Perangkap Level tinggi membutuhkan damage yang lebih besar dari para lord, namun Hadiah yang diberikan juga lebih melimpah. Mari bersatu dengan kekuatan Guild untuk membasmi Monster yang tertangkap perangkap dan menjaga keamanan wilayah.",
+      "ja": "【レベルアップ】の時代に入ると、罠でおびき寄せられるモンスターはより強力になり、チーズの罠のレベルも上昇します。高レベルの罠は要求されるダメージも高くなりますが、報酬もより豪華になります。ギルドの力を結集し、罠で捕らえたモンスターを討伐して、領地の安全を守りましょう。",
+      "ko": "[레벨 상승] 시대에 진입하면 함정으로 유인되는 몬스터가 더욱 강력해지고, 치즈 함정 레벨도 함께 상승합니다. 높은 레벨의 함정은 더 높은 피해량을 요구하지만, 그만큼 보상도 더욱 풍성합니다. 길드원과 함께 힘을 모아 함정에 걸린 몬스터를 처치하고 영지의 안전을 지켜냅시다.",
+      "pt": "[Subir de Nível] Uma nova era começa! Os monstros atraídos pelas armadilhas ficam mais poderosos e os níveis das Armadilhas de Queijo aumentam proporcionalmente. Armadilhas de nível mais alto exigem maior dano dos Senhores Feudais, mas as recompensas são ainda mais generosas. Unidos, os membros da Aliança devem eliminar os monstros capturados e proteger nosso território!"
+    }
+  }
+]

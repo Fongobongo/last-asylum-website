@@ -1,0 +1,249 @@
+---
+import lordData from '../data/officialLordJobs.json';
+import type { Lang } from '../i18n/utils';
+
+interface Props {
+  lang?: Lang;
+}
+
+const { lang = 'ru' } = Astro.props;
+
+const i18n = {
+  ru: {
+    title: '👑 Профессии Лорда и Навыки Специализации',
+    subtitle: 'Выбор пути развития Мэра: мирный строитель-умелец или грозный командующий армией. 34 уникальных активных и пассивных навыка из клиента игры.',
+    craftsman: 'Умелец (Инженер/Строитель)',
+    commander: 'Командир легиона (Военачальник)',
+    cooldown: 'Перезарядка:',
+    activeSkill: 'Активный навык',
+    passiveSkill: 'Пассивный навык',
+    craftsmanAdvise: 'Идеален для F2P игроков и периода быстрого развития. Дает мгновенные завершения строительства и исследований (-час очереди), бесплатные ресурсы, щиты мира для союзников и призыв выживших.',
+    commanderAdvise: 'Выбор для войн альянсов, Королевского переполоха и KvK. Позволяет МГНОВЕННО обучать сотни солдат высшего T-ранга, бесплатно лечить раненых и наносить сокрушительный урон по горящим базам.',
+  },
+  en: {
+    title: '👑 Lord Professions & Specialization Skills',
+    subtitle: 'Choose your mayoral path: peaceful craftsman engineer or ruthless legion commander. 34 unique active and passive skills from game data.',
+    craftsman: 'Craftsman (Engineer/Builder)',
+    commander: 'Legion Commander (Warlord)',
+    cooldown: 'Cooldown:',
+    activeSkill: 'Active Skill',
+    passiveSkill: 'Passive Skill',
+    craftsmanAdvise: 'Ideal for F2P players and rapid base development. Grants instant construction and research time reduction, free resource bursts, ally peace shields, and free survivors.',
+    commanderAdvise: 'Top choice for alliance wars, King\'s Castle clash, and KvK. Instantly trains highest-tier troops, instantly cures wounded soldiers, and inflicts massive damage on burning bases.',
+  },
+  de: {
+    title: '👑 Fürstenberufe & Spezialisierungsfertigkeiten',
+    subtitle: '34 Fertigkeiten für Handwerker und Legionskommandanten.',
+    craftsman: 'Handwerker (Ingenieur)',
+    commander: 'Legionskommandant (Krieger)',
+    cooldown: 'Abklingzeit:',
+    activeSkill: 'Aktiv',
+    passiveSkill: 'Passiv',
+    craftsmanAdvise: 'Ideal für F2P und schnellen Basisausbau.',
+    commanderAdvise: 'Ideal für Kriege und KvK-Kämpfe.',
+  },
+  es: {
+    title: '👑 Profesiones del Señor y Habilidades',
+    subtitle: '34 habilidades únicas: Artesano o Comandante de Legión.',
+    craftsman: 'Artesano (Ingeniero)',
+    commander: 'Comandante de Legión',
+    cooldown: 'Recarga:',
+    activeSkill: 'Activa',
+    passiveSkill: 'Pasiva',
+    craftsmanAdvise: 'Ideal para desarrollo y jugadores F2P.',
+    commanderAdvise: 'Ideal para guerras y batallas de reino.',
+  },
+  fr: {
+    title: '👑 Professions de Seigneur & Compétences',
+    subtitle: '34 compétences : Artisan ou Commandant de Légion.',
+    craftsman: 'Artisan (Ingénieur)',
+    commander: 'Commandant de Légion',
+    cooldown: 'Recharge :',
+    activeSkill: 'Active',
+    passiveSkill: 'Passive',
+    craftsmanAdvise: 'Parfait pour le développement rapide.',
+    commanderAdvise: 'Parfait pour les guerres et le KvK.',
+  },
+  id: {
+    title: '👑 Profesi Lord & Keahlian Khusus',
+    subtitle: '34 keahlian resmi: Pengrajin atau Komandan Legiun.',
+    craftsman: 'Pengrajin (Teknisi)',
+    commander: 'Komandan Legiun',
+    cooldown: 'Cooldown:',
+    activeSkill: 'Aktif',
+    passiveSkill: 'Pasif',
+    craftsmanAdvise: 'Terbaik untuk pembangunan markas.',
+    commanderAdvise: 'Terbaik untuk perang dan KvK.',
+  },
+  ja: {
+    title: '👑 領主の天職と専門スキルシステム',
+    subtitle: '職人（内政・技術）と軍団司令官（軍事・戦争）の全34スキル一覧。',
+    craftsman: '職人（エンジニア・内政）',
+    commander: '軍団司令官（武官・戦争）',
+    cooldown: 'クールダウン：',
+    activeSkill: 'アクティブ',
+    passiveSkill: 'パッシブ',
+    craftsmanAdvise: 'F2Pや内政育成期に最適。即時建設・即時研究、味方へのバリア付与、生存者獲得が可能。',
+    commanderAdvise: '戦争・王城争奪・KvKで無類の強さを誇る。最高ランク兵士の即時訓練、即時治療、炎上都市への追撃。',
+  },
+  ko: {
+    title: '👑 영주 직업 및 전문화 스킬 가이드',
+    subtitle: '장인(내정/건설)과 군단 사령관(전쟁/전투)의 34가지 공식 스킬.',
+    craftsman: '장인 (엔지니어/내정)',
+    commander: '군단 사령관 (전쟁/군사)',
+    cooldown: '재사용 대기시간:',
+    activeSkill: '액티브',
+    passiveSkill: '패시브',
+    craftsmanAdvise: 'F2P 및 빠른 성장에 최적화. 즉시 건설/연구 가속, 자원 획득, 아군 보호막 지원.',
+    commanderAdvise: '연맹전 및 서버전(KvK) 필수 직업. 최고 티어 병력 즉시 훈련, 부상병 즉시 치료, 화재 도시 추가 피해.',
+  },
+  pt: {
+    title: '👑 Profissões de Lorde & Habilidades',
+    subtitle: '34 habilidades: Artesão ou Comandante de Legião.',
+    craftsman: 'Artesão (Engenheiro)',
+    commander: 'Comandante de Legião',
+    cooldown: 'Recarga:',
+    activeSkill: 'Ativa',
+    passiveSkill: 'Passiva',
+    craftsmanAdvise: 'Ideal para construção e jogadores F2P.',
+    commanderAdvise: 'Ideal para guerras e disputas de KvK.',
+  },
+};
+
+const t = i18n[lang as keyof typeof i18n] || i18n.en;
+
+const craftsmanSkills = lordData.skills.filter((s) => s.jobId === 1).map((s) => ({
+  id: s.id,
+  name: s.name?.[lang] || s.name?.ru || s.name?.en || `Skill #${s.id}`,
+  desc: s.desc?.[lang] || s.desc?.ru || s.desc?.en || '',
+  isActive: s.desc?.[lang]?.includes('Перезарядка') || s.desc?.[lang]?.includes('Cooldown') || s.desc?.en?.includes('Cooldown'),
+}));
+
+const commanderSkills = lordData.skills.filter((s) => s.jobId === 2).map((s) => ({
+  id: s.id,
+  name: s.name?.[lang] || s.name?.ru || s.name?.en || `Skill #${s.id}`,
+  desc: s.desc?.[lang] || s.desc?.ru || s.desc?.en || '',
+  isActive: s.desc?.[lang]?.includes('Перезарядка') || s.desc?.[lang]?.includes('Cooldown') || s.desc?.en?.includes('Cooldown'),
+}));
+---
+
+<section class="not-prose my-10 rounded-3xl border border-toxic-500/30 bg-stone-950/80 p-6 sm:p-8 backdrop-blur-xl shadow-[0_0_50px_rgba(0,0,0,0.6)]" id="lord-jobs-guide">
+  <div class="mb-6 flex flex-col gap-2">
+    <div class="flex items-center gap-3">
+      <span class="rounded-xl border border-toxic-500/40 bg-toxic-950/60 px-3 py-1 text-xs font-bold text-toxic-400">
+        34 LORD SKILLS
+      </span>
+      <span class="text-xs text-stone-500 font-mono">LORD SPECIALIZATION</span>
+    </div>
+    <h2 class="text-2xl font-bold tracking-tight text-toxic-400 sm:text-3xl">{t.title}</h2>
+    <p class="text-sm text-stone-400 max-w-3xl">{t.subtitle}</p>
+  </div>
+
+  <!-- Profession Switcher Buttons -->
+  <div class="flex flex-wrap gap-2 mb-6" id="lord-job-switch">
+    <button
+      type="button"
+      id="btn-job-craftsman"
+      class="rounded-xl bg-toxic-500 px-4 py-2.5 text-xs font-bold text-stone-950 shadow-[0_0_15px_rgba(180,255,57,0.3)] transition-all flex items-center gap-2"
+    >
+      <span>⚙️</span> {t.craftsman} (22)
+    </button>
+    <button
+      type="button"
+      id="btn-job-commander"
+      class="rounded-xl border border-stone-800 bg-stone-900/60 px-4 py-2.5 text-xs font-bold text-stone-400 hover:border-toxic-500/40 hover:text-stone-200 transition-all flex items-center gap-2"
+    >
+      <span>⚔️</span> {t.commander} (12)
+    </button>
+  </div>
+
+  <!-- Craftsman Content -->
+  <div id="craftsman-section">
+    <div class="mb-5 rounded-2xl border border-stone-800 bg-stone-900/60 p-4 sm:p-5">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="text-xl">🛠️</span>
+        <h3 class="text-sm font-bold text-stone-200">{t.craftsman}</h3>
+      </div>
+      <p class="text-xs text-stone-300 leading-relaxed">{t.craftsmanAdvise}</p>
+    </div>
+
+    <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      {craftsmanSkills.map((s) => (
+        <div class="rounded-2xl border border-stone-800/80 bg-stone-900/40 p-4 transition hover:border-toxic-500/40 hover:bg-stone-900/80">
+          <div class="flex items-center justify-between mb-2">
+            <span class="rounded-md border border-stone-800 bg-stone-950 px-2 py-0.5 text-[10px] font-mono text-stone-400">
+              #{s.id}
+            </span>
+            <span class={`rounded-md border px-2 py-0.5 text-[10px] font-bold ${
+              s.isActive ? 'border-amber-500/40 bg-amber-950/40 text-amber-300' : 'border-stone-700 bg-stone-800 text-stone-400'
+            }`}>
+              {s.isActive ? t.activeSkill : t.passiveSkill}
+            </span>
+          </div>
+          <h4 class="text-sm font-bold text-stone-100">{s.name}</h4>
+          <p class="mt-1.5 text-xs text-stone-400 leading-relaxed">{s.desc}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <!-- Commander Content -->
+  <div id="commander-section" class="hidden">
+    <div class="mb-5 rounded-2xl border border-rose-500/30 bg-rose-950/20 p-4 sm:p-5">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="text-xl">⚔️</span>
+        <h3 class="text-sm font-bold text-rose-300">{t.commander}</h3>
+      </div>
+      <p class="text-xs text-stone-300 leading-relaxed">{t.commanderAdvise}</p>
+    </div>
+
+    <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      {commanderSkills.map((s) => (
+        <div class="rounded-2xl border border-stone-800/80 bg-stone-900/40 p-4 transition hover:border-rose-500/40 hover:bg-stone-900/80">
+          <div class="flex items-center justify-between mb-2">
+            <span class="rounded-md border border-stone-800 bg-stone-950 px-2 py-0.5 text-[10px] font-mono text-stone-400">
+              #{s.id}
+            </span>
+            <span class={`rounded-md border px-2 py-0.5 text-[10px] font-bold ${
+              s.isActive ? 'border-rose-500/40 bg-rose-950/40 text-rose-300' : 'border-stone-700 bg-stone-800 text-stone-400'
+            }`}>
+              {s.isActive ? t.activeSkill : t.passiveSkill}
+            </span>
+          </div>
+          <h4 class="text-sm font-bold text-stone-100">{s.name}</h4>
+          <p class="mt-1.5 text-xs text-stone-400 leading-relaxed">{s.desc}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<script>
+  function initLordJobs() {
+    const btnCraft = document.getElementById('btn-job-craftsman');
+    const btnComm = document.getElementById('btn-job-commander');
+    const secCraft = document.getElementById('craftsman-section');
+    const secComm = document.getElementById('commander-section');
+
+    if (!btnCraft || !btnComm || !secCraft || !secComm) return;
+
+    btnCraft.addEventListener('click', () => {
+      secCraft.classList.remove('hidden');
+      secComm.classList.add('hidden');
+
+      btnCraft.className = 'rounded-xl bg-toxic-500 px-4 py-2.5 text-xs font-bold text-stone-950 shadow-[0_0_15px_rgba(180,255,57,0.3)] transition-all flex items-center gap-2';
+      btnComm.className = 'rounded-xl border border-stone-800 bg-stone-900/60 px-4 py-2.5 text-xs font-bold text-stone-400 hover:border-toxic-500/40 hover:text-stone-200 transition-all flex items-center gap-2';
+    });
+
+    btnComm.addEventListener('click', () => {
+      secComm.classList.remove('hidden');
+      secCraft.classList.add('hidden');
+
+      btnComm.className = 'rounded-xl bg-toxic-500 px-4 py-2.5 text-xs font-bold text-stone-950 shadow-[0_0_15px_rgba(180,255,57,0.3)] transition-all flex items-center gap-2';
+      btnCraft.className = 'rounded-xl border border-stone-800 bg-stone-900/60 px-4 py-2.5 text-xs font-bold text-stone-400 hover:border-toxic-500/40 hover:text-stone-200 transition-all flex items-center gap-2';
+    });
+  }
+
+  initLordJobs();
+  document.addEventListener('astro:page-load', initLordJobs);
+</script>

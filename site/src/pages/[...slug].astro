@@ -27,6 +27,11 @@ import CollegeTechExplorer from '../components/CollegeTechExplorer.astro';
 import SurvivorsGuide from '../components/SurvivorsGuide.astro';
 import HeroGearGuide from '../components/HeroGearGuide.astro';
 import MonsterRadar from '../components/MonsterRadar.astro';
+import AgeOfRebirthGuide from '../components/AgeOfRebirthGuide.astro';
+import LordJobsGuide from '../components/LordJobsGuide.astro';
+import AllianceRanksGuide from '../components/AllianceRanksGuide.astro';
+import ElixirFortsGuide from '../components/ElixirFortsGuide.astro';
+import CrystalMineGuide from '../components/CrystalMineGuide.astro';
 import type { Lang } from '../i18n/utils';
 
 export async function getStaticPaths() {
@@ -107,14 +112,28 @@ const showDiscord = slug !== 'support' && slug !== 'credits';
 
     {slug === 'alliance' && (
       <>
+        <AllianceRanksGuide lang={lang} />
         <AllianceTechTree lang={lang} />
         <MonsterRadar lang={lang} />
       </>
     )}
+    {slug === 'era' && (
+      <>
+        <AgeOfRebirthGuide lang={lang} />
+        <LordJobsGuide lang={lang} />
+      </>
+    )}
+    {slug === 'events/elixir' && <ElixirFortsGuide lang={lang} />}
+    {(slug === 'economy' || slug === 'events/canyon') && <CrystalMineGuide lang={lang} />}
     {(slug === 'economy' || slug === 'beginners') && <VipCalculator lang={lang} />}
     {(slug === 'economy' || slug === 'beginners') && <SurvivorsGuide lang={lang} />}
     {(slug === 'economy' || slug === 'might') && <CollegeTechExplorer lang={lang} />}
-    {slug === 'might' && <TroopProgression lang={lang} />}
+    {slug === 'might' && (
+      <>
+        <LordJobsGuide lang={lang} />
+        <TroopProgression lang={lang} />
+      </>
+    )}
     {(slug === 'might' || slug === 'gear') && <HeroGearGuide lang={lang} />}
     {slug === 'beginners' && <MonsterRadar lang={lang} />}
     {slug === 'raven' && <RavenSystem lang={lang} />}

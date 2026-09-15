@@ -1,0 +1,780 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "name": {
+        "ru": "Умелец",
+        "en": "Handyman",
+        "de": "Handwerker",
+        "es": "Manitas",
+        "fr": "Bricoleur",
+        "id": "Pengrajin Terampil",
+        "ja": "巧みな工匠",
+        "ko": "솜씨 좋은 장인",
+        "pt": "Faz-Tudo"
+      },
+      "desc": {
+        "ru": "Технологии — двигатель прогресса. Благодаря своему таланту, умельцы становятся незаменимой опорой городов, повышая эффективность добычи ресурсов и усиливая союзников.",
+        "en": "Tech drives all progress. Handymen earn respect through exceptional talent, becoming indispensable pillars of their towns. They accelerate resource acquisition efficiency while providing enhancements to allies.",
+        "de": "Tech treibt allen Fortschritt voran. Handwerker verdienen sich durch außergewöhnliches Talent Respekt und werden zu unverzichtbaren Säulen ihrer Städte. Sie beschleunigen die Effizienz der Ressourcenbeschaffung und bieten Verbesserungen für Verbündete.",
+        "es": "La tecnología impulsa todo progreso. Los Manitas ganan respeto a través de su talento excepcional, convirtiéndose en pilares indispensables de sus ciudades. Aceleran la eficiencia de adquisición de recursos mientras proporcionan mejoras a los aliados.",
+        "fr": "La technologie est le moteur de tout progrès. Les Bricoleurs, par leur talent exceptionnel, s\\'attirent le respect et deviennent des piliers incontournables de leurs cités. Ils optimisent l\\'acquisition de ressources et confèrent des bonus à leurs alliés.",
+        "id": "Semua perkembangan bergantung pada kemajuan Teknologi. Para pengrajin meraih rasa hormat berkat bakat luar biasa mereka, menjadi pilar penting Kota. Pengrajin dapat mempercepat efisiensi Perolehan Sumber Daya sekaligus memberikan efek Perkuat untuk sekutu.",
+        "ja": "あらゆる発展は技術の進歩なくしてはあり得ない。工匠たちはその優れた才能によって人々の尊敬を集め、町の不可欠な支柱となっている。彼らは資源獲得の効率を上げると同時に、味方に強化効果を付与。",
+        "ko": "모든 발전은 기술의 진보를 바탕으로 이루어집니다. 뛰어난 재능을 지닌 장인들은 모두의 존경을 받으며 도시의 중추적인 역할을 하죠. 장인들은 자원 획득 효율을 높이고 아군에게 강화 효과를 부여합니다.",
+        "pt": "A Tecnologia impulsiona todo o progresso. Os Faz-Tudo conquistam respeito por meio de talento excepcional, tornando-se pilares indispensáveis de suas cidades. Eles aumentam a eficiência de aquisição de recursos e concedem melhorias aos aliados."
+      }
+    },
+    {
+      "id": 2,
+      "name": {
+        "ru": "Командир легиона",
+        "en": "Legion Commander",
+        "de": "Legion-Kommandant",
+        "es": "Comandante de legión",
+        "fr": "Commandant de légion",
+        "id": "Komandan Legion",
+        "ja": "軍団総帥",
+        "ko": "군단 통솔자",
+        "pt": "Comandante da Legião"
+      },
+      "desc": {
+        "ru": "Перед абсолютной властью все прочие голоса ничтожны. Грозный командир сокрушит любые преграды и подчинит себе всех вокруг. Командиры усиливают боеспособность отрядов, применяя тактики для увеличения наносимого урона.",
+        "en": "Before absolute power, all other voices fade into insignificance. A formidable commander will sweep aside all obstacles and conquer all directions. Commanders strengthen troop combat effectiveness while employing tactics to amplify damage dealt to enemies.",
+        "de": "Vor absoluter Macht verblassen alle anderen Stimmen zur Bedeutungslosigkeit. Ein furchtbarer Kommandant wird alle Hindernisse beiseite fegen und in alle Richtungen erobern. Kommandanten stärken die Kampfeffektivität der Truppen und setzen Taktiken ein, um den Schaden gegen Feinde zu verstärken.",
+        "es": "Ante el poder absoluto, todas las demás voces se desvanecen en la insignificancia. Un comandante formidable arrasará con todos los obstáculos y conquistará en todas las direcciones. Los comandantes fortalecen la efectividad de combate de las tropas mientras emplean tácticas para amplificar el daño infligido a los enemigos.",
+        "fr": "Face à la puissance absolue, toutes les voix s\\'éteignent. Un commandant redoutable balayera tous les obstacles et soumettra toutes les contrées. Les Commandants renforcent l\\'efficacité au combat des troupes et emploient des tactiques pour infliger des dégâts amplifiés aux ennemis.",
+        "id": "Di hadapan kekuatan absolut, suara lain akan menjadi lemah tak berdaya. Komandan yang tangguh akan menyapu segala rintangan dan menaklukkan segala penjuru. Komandan dapat memperkuat daya tempur pasukan, sekaligus menggunakan taktik untuk meningkatkan damage yang diterima musuh.",
+        "ja": "絶対的な力の前では、他の声は無力に等しい。強力な統帥は、あらゆる障害をなぎ払い、八方を征する。統帥は部隊の戦闘能力を強化すると同時に、戦術を駆使して敵への与ダメージを増加させる。",
+        "ko": "절대적인 힘 앞에서는 그 어떤 목소리도 공허할 뿐입니다. 강력한 통솔자는 모든 장애물을 휩쓸고 천하를 정복하죠. 통솔자는 부대의 전투력을 강화하고, 전술을 구사하여 적에게 더 큰 피해를 입힙니다.",
+        "pt": "Diante do poder absoluto, todas as outras vozes se tornam insignificantes. Um comandante formidável supera todos os obstáculos e conquista tudo ao redor. Os Comandantes aumentam a eficácia de combate das tropas e empregam táticas para amplificar o dano causado a inimigos."
+      }
+    }
+  ],
+  "skills": [
+    {
+      "id": 1001,
+      "jobId": 1,
+      "name": {
+        "ru": "Мгновенное производство",
+        "en": "Instant Produce",
+        "de": "Sofortige Produktion",
+        "es": "Producción instantánea",
+        "fr": "Production instantanée",
+        "id": "Produksi Instan",
+        "ja": "今すぐ生産",
+        "ko": "즉시 생산",
+        "pt": "Produção Instantânea"
+      },
+      "desc": {}
+    },
+    {
+      "id": 1002,
+      "jobId": 1,
+      "name": {
+        "ru": "Выдающийся вклад",
+        "en": "Outstanding Contribution",
+        "de": "Herausragender Beitrag",
+        "es": "Contribución excepcional",
+        "fr": "Contribution exceptionnelle",
+        "id": "Kontribusi Luar Biasa",
+        "ja": "大貢献",
+        "ko": "탁월한 공헌",
+        "pt": "Contribuição Excepcional"
+      },
+      "desc": {}
+    },
+    {
+      "id": 1003,
+      "jobId": 1,
+      "name": {
+        "ru": "Жизненная сила и энергия",
+        "en": "Vitality & Vigor",
+        "de": "Vitalität & Ausdauer",
+        "es": "Vitalidad y resistencia",
+        "fr": "Vitalité et énergie",
+        "id": "Stamina Berlimpah",
+        "ja": "スタミナ満タン",
+        "ko": "활력 충만",
+        "pt": "Vitalidade & Vigor"
+      },
+      "desc": {}
+    },
+    {
+      "id": 1004,
+      "jobId": 1,
+      "name": {
+        "ru": "Осадное безумие",
+        "en": "Siege Frenzy",
+        "de": "Belagerungsrausch",
+        "es": "Frenesí de asedio",
+        "fr": "Frénésie de siège",
+        "id": "Demam Serbu Kota",
+        "ja": "攻城フィーバー",
+        "ko": "공성의 광란",
+        "pt": "Frenesi de Cerco"
+      },
+      "desc": {}
+    },
+    {
+      "id": 1005,
+      "jobId": 1,
+      "name": {
+        "ru": "Бесплатное строительство",
+        "en": "Free Build",
+        "de": "Gratis Bauen",
+        "es": "Construcción gratis",
+        "fr": "Construction gratuite",
+        "id": "Bangun Gratis",
+        "ja": "無料建設",
+        "ko": "무료 건설",
+        "pt": "Construção Gratuita"
+      },
+      "desc": {}
+    },
+    {
+      "id": 1006,
+      "jobId": 1,
+      "name": {
+        "ru": "Бесплатное исследование",
+        "en": "Free Research",
+        "de": "Gratis Forschung",
+        "es": "Investigación gratis",
+        "fr": "Recherche gratuite",
+        "id": "Riset Gratis",
+        "ja": "無料研究",
+        "ko": "무료 연구",
+        "pt": "Pesquisa Gratuita"
+      },
+      "desc": {}
+    },
+    {
+      "id": 1007,
+      "jobId": 1,
+      "name": {
+        "ru": "Мгновенное строительство",
+        "en": "Instant Build",
+        "de": "Sofortiger Bau",
+        "es": "Construcción instantánea",
+        "fr": "Construction instantanée",
+        "id": "Bangun Sekarang",
+        "ja": "今すぐ建設",
+        "ko": "즉시 건설",
+        "pt": "Construção Instantânea"
+      },
+      "desc": {}
+    },
+    {
+      "id": 1008,
+      "jobId": 1,
+      "name": {
+        "ru": "Мгновенное исследование",
+        "en": "Instant Research",
+        "de": "Sofortige Forschung",
+        "es": "Investigación instantánea",
+        "fr": "Recherche instantanée",
+        "id": "Riset Sekarang",
+        "ja": "今すぐ研究",
+        "ko": "즉시 연구",
+        "pt": "Pesquisa instantânea"
+      },
+      "desc": {}
+    },
+    {
+      "id": 1009,
+      "jobId": 1,
+      "name": {
+        "ru": "Стремительный марш",
+        "en": "Swift Stride",
+        "de": "Schneller Schritt",
+        "es": "Paso veloz",
+        "fr": "Foulée rapide",
+        "id": "Langkah Cepat",
+        "ja": "俊足",
+        "ko": "신속한 걸음",
+        "pt": "Passo Veloz"
+      },
+      "desc": {}
+    },
+    {
+      "id": 1010,
+      "jobId": 1,
+      "name": {
+        "ru": "Осадное боевое знамя",
+        "en": "Siege War Flag",
+        "de": "Belagerung-Kriegsflagge",
+        "es": "Bandera de guerra de asedio",
+        "fr": "Étendard de siège",
+        "id": "Bendera Pengepungan",
+        "ja": "攻城戦旗",
+        "ko": "공성 전투 깃발",
+        "pt": "Bandeira de Guerra de Cerco"
+      },
+      "desc": {}
+    },
+    {
+      "id": 1011,
+      "jobId": 1,
+      "name": {
+        "ru": "Боевой опыт",
+        "en": "Combat EXP",
+        "de": "Kampf-EP",
+        "es": "EXP de Combate",
+        "fr": "EXP de combat",
+        "id": "EXP Tempur",
+        "ja": "作戦経験",
+        "ko": "작전 경험치",
+        "pt": "EXP de Combate"
+      },
+      "desc": {}
+    },
+    {
+      "id": 1012,
+      "jobId": 1,
+      "name": {
+        "ru": "Помощь альянса",
+        "en": "Alliance Aid",
+        "de": "Allianz-Hilfe",
+        "es": "Ayuda de la alianza",
+        "fr": "Aide d\\'alliance",
+        "id": "Bantuan Persahabatan",
+        "ja": "友情援助",
+        "ko": "우정 지원",
+        "pt": "Ajuda da Aliança"
+      },
+      "desc": {}
+    },
+    {
+      "id": 1013,
+      "jobId": 1,
+      "name": {
+        "ru": "Помощь строительства",
+        "en": "Help Building",
+        "de": "Bau-Hilfe",
+        "es": "Ayudar construcción",
+        "fr": "Aide à la construction",
+        "id": "Membantu Bangunan",
+        "ja": "建物協力",
+        "ko": "건설 협조",
+        "pt": "Ajudar em Edifício"
+      },
+      "desc": {}
+    },
+    {
+      "id": 1014,
+      "jobId": 1,
+      "name": {
+        "ru": "Помощь исследования",
+        "en": "Help Research",
+        "de": "Forschungs-Hilfe",
+        "es": "Ayudar investigación",
+        "fr": "Aide à la recherche",
+        "id": "Membantu Riset",
+        "ja": "研究協力",
+        "ko": "연구 협조",
+        "pt": "Ajudar em Pesquisa"
+      },
+      "desc": {}
+    },
+    {
+      "id": 1015,
+      "jobId": 1,
+      "name": {
+        "ru": "Искусство архитектуры",
+        "en": "Art of Architecture",
+        "de": "Kunst der Architektur",
+        "es": "Arte de la Arquitectura",
+        "fr": "Art de l\\'architecture",
+        "id": "Seni Membangun",
+        "ja": "建設アート",
+        "ko": "건설 예술",
+        "pt": "Arte da Arquitetura"
+      },
+      "desc": {}
+    },
+    {
+      "id": 1016,
+      "jobId": 1,
+      "name": {
+        "ru": "Переработка материалов",
+        "en": "Material Recycle",
+        "de": "Material-Recycling",
+        "es": "Reciclaje de materiales",
+        "fr": "Recyclage des matériaux",
+        "id": "Daur Ulang",
+        "ja": "循環利用",
+        "ko": "재활용",
+        "pt": "Reciclagem de Materiais"
+      },
+      "desc": {}
+    },
+    {
+      "id": 1017,
+      "jobId": 1,
+      "name": {
+        "ru": "Исцеляющая сила",
+        "en": "Healing Force",
+        "de": "Heilkraft",
+        "es": "Fuerza curativa",
+        "fr": "Force de guérison",
+        "id": "Kekuatan Penyembuhan",
+        "ja": "治療の力",
+        "ko": "치료의 힘",
+        "pt": "Força Curativa"
+      },
+      "desc": {}
+    },
+    {
+      "id": 1018,
+      "jobId": 1,
+      "name": {
+        "ru": "Связующий щит",
+        "en": "Bond Shield",
+        "de": "Bindungsschild",
+        "es": "Escudo de vínculo",
+        "fr": "Bouclier de lien",
+        "id": "Perisai Persahabatan",
+        "ja": "友情の盾",
+        "ko": "우정의 보호막",
+        "pt": "Escudo de Vínculo"
+      },
+      "desc": {}
+    },
+    {
+      "id": 1019,
+      "jobId": 1,
+      "name": {
+        "ru": "Снабжение ворона",
+        "en": "Raven Supply",
+        "de": "Raben-Vorrat",
+        "es": "Suministro del Cuervo",
+        "fr": "Ravitaillement du corbeau",
+        "id": "Pasokan Burung Gagak Sihir",
+        "ja": "レイヴン補給",
+        "ko": "까마귀 보급",
+        "pt": "Suprimento do Corvo"
+      },
+      "desc": {
+        "ru": "Получите награду Ворона в зависимости от вашего уровня.",
+        "en": "Obtain a Raven Reward based on your level.",
+        "de": "Erhalte eine Rabe-Belohnung basierend auf deinem Level.",
+        "es": "Obtén una recompensa del Cuervo basada en tu nivel.",
+        "fr": "Obtenez une récompense du corbeau selon votre niveau.",
+        "id": "Dapatkan satu Hadiah Burung Gagak Sihir, isi Hadiah terkait dengan Level",
+        "ja": "レイヴンの報酬を1つ獲得、報酬内容はレベルによって決まる",
+        "ko": "까마귀의 보상 1개를 획득한다(보상 내용은 레벨에 따라 결정된다)",
+        "pt": "Obtenha uma Recompensa de Corvo com base no seu nível."
+      }
+    },
+    {
+      "id": 1020,
+      "jobId": 1,
+      "name": {
+        "ru": "Надежная защита",
+        "en": "Solid Defense",
+        "de": "Solide Verteidigung",
+        "es": "Defensa sólida",
+        "fr": "Défense solide",
+        "id": "Pertahanan Kokoh",
+        "ja": "鉄壁防御",
+        "ko": "견고한 방어",
+        "pt": "Defesa Sólida"
+      },
+      "desc": {}
+    },
+    {
+      "id": 1021,
+      "jobId": 1,
+      "name": {
+        "ru": "Случайный гость",
+        "en": "Random Visitor",
+        "de": "Zufälliger Besucher",
+        "es": "Visitante aleatorio",
+        "fr": "Visiteur aléatoire",
+        "id": "Pengunjung Acak",
+        "ja": "ランダム訪問者",
+        "ko": "랜덤 방문객",
+        "pt": "Visitante Aleatório"
+      },
+      "desc": {}
+    },
+    {
+      "id": 1022,
+      "jobId": 1,
+      "name": {
+        "ru": "Тайная угроза",
+        "en": "Hidden Peril",
+        "de": "Verborgene Gefahr",
+        "es": "Peligro oculto",
+        "fr": "Péril caché",
+        "id": "Bahaya Tersembunyi",
+        "ja": "潜む危機",
+        "ko": "도사리는 위기",
+        "pt": "Perigo Oculto"
+      },
+      "desc": {}
+    },
+    {
+      "id": 2001,
+      "jobId": 2,
+      "name": {
+        "ru": "Вернуться сейчас",
+        "en": "Return Now",
+        "de": "Jetzt zurückkehren",
+        "es": "Volver ahora",
+        "fr": "Retour",
+        "id": "Kembali Sekarang",
+        "ja": "すぐに戻る",
+        "ko": "즉시 복귀",
+        "pt": "Voltar Agora"
+      },
+      "desc": {}
+    },
+    {
+      "id": 2002,
+      "jobId": 2,
+      "name": {
+        "ru": "Обучить сейчас",
+        "en": "Train Now",
+        "de": "Jetzt trainieren",
+        "es": "Entrenar ahora",
+        "fr": "Lancer l\\'entraînement",
+        "id": "Latih Sekarang",
+        "ja": "すぐに訓練",
+        "ko": "즉시 훈련",
+        "pt": "Treinar Agora"
+      },
+      "desc": {}
+    },
+    {
+      "id": 2003,
+      "jobId": 2,
+      "name": {
+        "ru": "Расширение казарм",
+        "en": "Barracks Expansion",
+        "de": "Kasernen-Erweiterung",
+        "es": "Expansión del Cuartel",
+        "fr": "Extension de Caserne",
+        "id": "Perluas Barak",
+        "ja": "兵営拡張",
+        "ko": "병영 확장",
+        "pt": "Expansão do Quartel"
+      },
+      "desc": {}
+    },
+    {
+      "id": 2004,
+      "jobId": 2,
+      "name": {
+        "ru": "Расширение лазарета",
+        "en": "Infirmary Expansion",
+        "de": "Krankenhaus-Erweiterung",
+        "es": "Expansión de la Enfermería",
+        "fr": "Extension d\\'Infirmerie",
+        "id": "Perluas Rumah Sakit",
+        "ja": "病院拡張",
+        "ko": "병원 확장",
+        "pt": "Expansão da Enfermaria"
+      },
+      "desc": {}
+    },
+    {
+      "id": 2005,
+      "jobId": 2,
+      "name": {
+        "ru": "Неистовство",
+        "en": "Frenzy",
+        "de": "Raserei",
+        "es": "Frenesí",
+        "fr": "Frénésie",
+        "id": "Fanatik",
+        "ja": "熱狂",
+        "ko": "광란",
+        "pt": "Frenesi"
+      },
+      "desc": {}
+    },
+    {
+      "id": 2006,
+      "jobId": 2,
+      "name": {
+        "ru": "Экстренное лечение",
+        "en": "Emergency Treatment",
+        "de": "Notbehandlung",
+        "es": "Tratamiento de emergencia",
+        "fr": "Traitement d\\'urgence",
+        "id": "Perawatan Darurat",
+        "ja": "緊急治療",
+        "ko": "긴급 치료",
+        "pt": "Tratamento de Emergência"
+      },
+      "desc": {}
+    },
+    {
+      "id": 2007,
+      "jobId": 2,
+      "name": {
+        "ru": "Сосредоточенный огонь",
+        "en": "Concentrated Fire",
+        "de": "Konzentriertes Feuer",
+        "es": "Fuego concentrado",
+        "fr": "Tir concentré",
+        "id": "Tembakan Terfokus",
+        "ja": "火力集中",
+        "ko": "화력 집중",
+        "pt": "Fogo Concentrado"
+      },
+      "desc": {}
+    },
+    {
+      "id": 2008,
+      "jobId": 2,
+      "name": {
+        "ru": "Интенсивная тренировка",
+        "en": "Intensive Training",
+        "de": "Intensives Training",
+        "es": "Entrenamiento intensivo",
+        "fr": "Entraînement intensif",
+        "id": "Pelatihan Intensif",
+        "ja": "集中特訓",
+        "ko": "집중 특훈",
+        "pt": "Treino Intensivo"
+      },
+      "desc": {}
+    },
+    {
+      "id": 2009,
+      "jobId": 2,
+      "name": {
+        "ru": "Пустынный марш",
+        "en": "Wasteland March",
+        "de": "Ödland-Marsch",
+        "es": "Marcha del páramo",
+        "fr": "Marche des Terres désolées",
+        "id": "Pawai Tanah Tandus",
+        "ja": "悪地行軍",
+        "ko": "황무지 행군",
+        "pt": "Marcha pelos Ermos"
+      },
+      "desc": {}
+    },
+    {
+      "id": 2010,
+      "jobId": 2,
+      "name": {
+        "ru": "Военное снабжение",
+        "en": "War Supply",
+        "de": "Kriegsvorräte",
+        "es": "Suministro de guerra",
+        "fr": "Approvisionnement de guerre",
+        "id": "Pasokan Perang",
+        "ja": "戦時補給",
+        "ko": "전쟁 보급",
+        "pt": "Suprimentos de Guerra"
+      },
+      "desc": {}
+    },
+    {
+      "id": 2011,
+      "jobId": 2,
+      "name": {
+        "ru": "Поднять боевой дух",
+        "en": "Boost Morale",
+        "de": "Moral-Boost",
+        "es": "Aumentar moral",
+        "fr": "Améliorer le moral",
+        "id": "Peningkatan Moral",
+        "ja": "士気鼓舞",
+        "ko": "사기 진작",
+        "pt": "Aumentar Moral"
+      },
+      "desc": {}
+    },
+    {
+      "id": 2012,
+      "jobId": 2,
+      "name": {
+        "ru": "Ускорение подкрепления",
+        "en": "Reinforcement Speedup",
+        "de": "Verstärkung beschleunigen",
+        "es": "Acelerar refuerzos",
+        "fr": "Accélération des renforts",
+        "id": "Percepat Bala Bantuan",
+        "ja": "増援加速",
+        "ko": "증원 가속",
+        "pt": "Aceleração de Reforços"
+      },
+      "desc": {}
+    },
+    {
+      "id": 2013,
+      "jobId": 2,
+      "name": {
+        "ru": "Командный штурм",
+        "en": "Team Raid",
+        "de": "Team-Überfall",
+        "es": "Incursión de escuadrón",
+        "fr": "Raid d\\'escouade",
+        "id": "Serangan Tim",
+        "ja": "パーティーレイド",
+        "ko": "팀 습격",
+        "pt": "Ataque em Equipe"
+      },
+      "desc": {}
+    },
+    {
+      "id": 2014,
+      "jobId": 2,
+      "name": {
+        "ru": "Скрытая личность",
+        "en": "Concealed Identity",
+        "de": "Verborgene Identität",
+        "es": "Identidad oculta",
+        "fr": "Identité dissimulée",
+        "id": "Penyamaran Identitas",
+        "ja": "正体隠し",
+        "ko": "신분 위장",
+        "pt": "Identidade Oculta"
+      },
+      "desc": {
+        "ru": "Входит в режим маскировки: скрывает личные данные и не отображается в боевых отчётах противника. Длительность: 30 мин. Перезарядка: 47.5 ч.",
+        "en": "Enter Disguise Mode: Hide personal information and won\\'t appear in enemy battle reports, lasts 30m. CD: 47.5h",
+        "de": "Tarnmodus aktivieren: Persönliche Informationen verbergen und nicht in feindlichen Kampfberichten erscheinen, dauert 30 Min. AZ: 47,5 Std.",
+        "es": "Activar modo camuflaje: oculta información personal y no aparecerás en reportes de batalla enemigos, dura 30 m. ENF: 47,5 h.",
+        "fr": "Activer le mode Camouflage : Masque les informations personnelles et vous rend invisible dans les rapports de bataille ennemis. Durée : 30 min. TR : 47,5 h",
+        "id": "Masuk mode kamuflase: menyembunyikan info pribadi dan tidak muncul di laporan perang musuh, berlangsung 30 menit, cooldown 47,5 jam",
+        "ja": "偽装状態に入る：個人情報を非表示にし、敵の戦闘レポートに表示されなくなる。持続時間30分、クールダウン47.5時間",
+        "ko": "위장 상태 진입: 개인 정보가 숨겨지고, 적 전투 보고서에 뜨지 않는다(30분 지속, 쿨타임 47.5시간)",
+        "pt": "Ativar Modo Disfarce: Oculta informações pessoais e não aparece nos relatórios de batalha inimigos, dura 30 min. Recarga: 47,5h"
+      }
+    },
+    {
+      "id": 2015,
+      "jobId": 2,
+      "name": {
+        "ru": "Полное усиление",
+        "en": "Full Power Buff",
+        "de": "Vollkraft-Buff",
+        "es": "Beneficio de máximo poder",
+        "fr": "Buff de pleine puissance",
+        "id": "Buff Penuh",
+        "ja": "全力バフ",
+        "ko": "총력 버프",
+        "pt": "Buff de Força Total"
+      },
+      "desc": {}
+    },
+    {
+      "id": 2016,
+      "jobId": 2,
+      "name": {
+        "ru": "Усиление подкрепления",
+        "en": "Reinforcement Enhance",
+        "de": "Verstärkung verbessern",
+        "es": "Mejorar refuerzos",
+        "fr": "Amélioration des renforts",
+        "id": "Perkuat Bantuan",
+        "ja": "増援強化",
+        "ko": "증원 강화",
+        "pt": "Aprimorar Reforço"
+      },
+      "desc": {}
+    },
+    {
+      "id": 2017,
+      "jobId": 2,
+      "name": {
+        "ru": "Ослабление",
+        "en": "Weakened",
+        "de": "Geschwächt",
+        "es": "Debilitado",
+        "fr": "Affaibli",
+        "id": "Lemah",
+        "ja": "弱体化",
+        "ko": "쇠약",
+        "pt": "Enfraquecido"
+      },
+      "desc": {}
+    },
+    {
+      "id": 2018,
+      "jobId": 2,
+      "name": {
+        "ru": "Штурмовое боевое знамя",
+        "en": "Charging War Flag",
+        "de": "Aufladende Kriegsflagge",
+        "es": "Bandera de guerra de carga",
+        "fr": "Étendard de guerre en charge",
+        "id": "Bendera Serbu",
+        "ja": "突撃戦旗",
+        "ko": "돌격 전투 깃발",
+        "pt": "Carregando a Bandeira de Guerra"
+      },
+      "desc": {}
+    },
+    {
+      "id": 2019,
+      "jobId": 2,
+      "name": {
+        "ru": "Держать рубеж",
+        "en": "Hold the Line",
+        "de": "Stellung halten",
+        "es": "Mantener la línea",
+        "fr": "Tenir la ligne",
+        "id": "Bertahan Posisi",
+        "ja": "陣地死守",
+        "ko": "진지 사수",
+        "pt": "Mantenha a Posição"
+      },
+      "desc": {}
+    },
+    {
+      "id": 2020,
+      "jobId": 2,
+      "name": {
+        "ru": "Штурмовой страж",
+        "en": "Rally Guardian",
+        "de": "Versammlung an Wächter",
+        "es": "Guardián de reunión",
+        "fr": "Ralliement du gardien",
+        "id": "Reli Penjaga",
+        "ja": "集結防衛",
+        "ko": "집결 수호",
+        "pt": "Mobilizar Guardião"
+      },
+      "desc": {}
+    },
+    {
+      "id": 2021,
+      "jobId": 2,
+      "name": {
+        "ru": "Штурм территории",
+        "en": "Territory Raid",
+        "de": "Gebietsüberfall",
+        "es": "Incursión territorial",
+        "fr": "Raid de territoire",
+        "id": "Serangan Wilayah",
+        "ja": "領地侵攻",
+        "ko": "영지 침략",
+        "pt": "Ataque ao Território"
+      },
+      "desc": {}
+    },
+    {
+      "id": 2022,
+      "jobId": 2,
+      "name": {
+        "ru": "Устранить угрозы",
+        "en": "Eliminate Threats",
+        "de": "Bedrohungen beseitigen",
+        "es": "Eliminar amenazas",
+        "fr": "Éliminer les menaces",
+        "id": "Singkirkan Ancaman",
+        "ja": "脅威排除",
+        "ko": "위험 요소 제거",
+        "pt": "Elimine as Ameaças"
+      },
+      "desc": {}
+    }
+  ]
+}
