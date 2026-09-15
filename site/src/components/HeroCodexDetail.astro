@@ -1,0 +1,463 @@
+---
+import type { HeroCodex } from '../data/heroCodex';
+import type { Lang } from '../i18n/utils';
+import DiscordBanner from './DiscordBanner.astro';
+import GuidePage from './GuidePage.astro';
+import officialHeroesData from '../data/officialHeroes.json';
+
+interface Props {
+  hero: HeroCodex;
+  lang: Lang;
+  breadcrumbs: { label: string; href?: string }[];
+}
+
+const { hero, lang, breadcrumbs } = Astro.props;
+
+const officialData = hero.officialId ? (officialHeroesData as any)[hero.officialId.toString()] : null;
+
+// Localized hero name & details
+const heroDisplayName = officialData?.names?.[lang] || hero.names?.[lang] || hero.name;
+const weaponName = officialData?.weapons?.[lang] || hero.exclusiveWeapon?.[lang];
+const traitName = officialData?.trait?.[lang];
+const previewQuote = officialData?.previewQuote?.[lang];
+const heroStory = officialData?.story?.[lang];
+const officialSkills = officialData?.officialSkills || [];
+
+const ui = {
+  ru: {
+    tierBadge: 'тир',
+    weaponLabel: 'Эксклюзивное оружие',
+    traitLabel: 'Черта характера',
+    officialSkillsTitle: '⚡ Официальные навыки и масштабирование (5 слотов)',
+    officialSkillsSubtitle: 'Формулы урона, типы воздействия и пошаговый прирост процентов за каждый уровень навыка прямо из клиента игры.',
+    levelScaling: 'Бонусы прокачки уровней:',
+    tacticalGuideTitle: '🎯 Стратегический гайд & Советы по прокачке',
+    howToGet: 'Как получить',
+    build: 'Приоритеты прокачки и билд',
+    teams: 'Заметки по отрядам и синергии',
+    video: 'Видео-гайд',
+    allHeroes: '← Все герои',
+    dossierTitle: '📖 Досье героя (Внутриигровой лор)',
+    slotNames: {
+      1: 'Слот 1: Автоатака',
+      2: 'Слот 2: Высший навык (Ультимейт)',
+      3: 'Слот 3: Активный навык',
+      4: 'Слот 4: Пассивный навык',
+      5: 'Слот 5: Навык поддержки (Стойкость)'
+    }
+  },
+  en: {
+    tierBadge: 'Tier',
+    weaponLabel: 'Exclusive Weapon',
+    traitLabel: 'Character Trait',
+    officialSkillsTitle: '⚡ Official In-Game Skills & Level Scaling (5 Slots)',
+    officialSkillsSubtitle: 'Exact damage formulas, effect mechanics, and percentage scaling per skill level extracted from the game client.',
+    levelScaling: 'Level Upgrade Scaling:',
+    tacticalGuideTitle: '🎯 Tactical Guide & Build Recommendations',
+    howToGet: 'How to Obtain',
+    build: 'Build Priorities & Tips',
+    teams: 'Squad Synergy & Team Comps',
+    video: 'Video Guide',
+    allHeroes: '← All Heroes',
+    dossierTitle: '📖 Hero Dossier (Official Lore)',
+    slotNames: {
+      1: 'Slot 1: Auto Attack',
+      2: 'Slot 2: Ultimate Skill',
+      3: 'Slot 3: Active Skill',
+      4: 'Slot 4: Passive Skill',
+      5: 'Slot 5: Support Skill (Tenacity)'
+    }
+  },
+  de: {
+    tierBadge: 'Tier',
+    weaponLabel: 'Exklusive Waffe',
+    traitLabel: 'Charakterzug',
+    officialSkillsTitle: '⚡ Offizielle Fähigkeiten & Skalierung (5 Slots)',
+    officialSkillsSubtitle: 'Exakte Schadensformeln, Effekte und prozentuale Steigerungen pro Fähigkeitenstufe direkt aus dem Spielclient.',
+    levelScaling: 'Stufenaufstiegs-Boni:',
+    tacticalGuideTitle: '🎯 Taktischer Guide & Empfehlungen',
+    howToGet: 'So bekommst du ihn',
+    build: 'Prioritäten & Ausrüstung',
+    teams: 'Team-Notizen & Synergien',
+    video: 'Video-Guide',
+    allHeroes: '← Alle Helden',
+    dossierTitle: '📖 Helden-Dossier (Offizielle Lore)',
+    slotNames: {
+      1: 'Slot 1: Standardangriff',
+      2: 'Slot 2: Ultimative Fähigkeit',
+      3: 'Slot 3: Aktive Fähigkeit',
+      4: 'Slot 4: Passive Fähigkeit',
+      5: 'Slot 5: Unterstützungsfähigkeit'
+    }
+  },
+  es: {
+    tierBadge: 'Nivel',
+    weaponLabel: 'Arma exclusiva',
+    traitLabel: 'Rasgo de carácter',
+    officialSkillsTitle: '⚡ Habilidades oficiales y escalado (5 ranuras)',
+    officialSkillsSubtitle: 'Fórmulas exactas de daño, tipos de efectos y aumento porcentual por nivel de habilidad extraídos del juego.',
+    levelScaling: 'Bonificaciones de nivel:',
+    tacticalGuideTitle: '🎯 Guía táctica y recomendaciones',
+    howToGet: 'Cómo obtenerlo',
+    build: 'Prioridades de mejora',
+    teams: 'Notas de escuadrón y sinergia',
+    video: 'Videoguía',
+    allHeroes: '← Todos los héroes',
+    dossierTitle: '📖 Expediente del héroe (Historia oficial)',
+    slotNames: {
+      1: 'Ranura 1: Ataque automático',
+      2: 'Ranura 2: Habilidad definitiva',
+      3: 'Ranura 3: Habilidad activa',
+      4: 'Ranura 4: Habilidad pasiva',
+      5: 'Ranura 5: Habilidad de apoyo'
+    }
+  },
+  fr: {
+    tierBadge: 'Tier',
+    weaponLabel: 'Arme exclusive',
+    traitLabel: 'Trait de caractère',
+    officialSkillsTitle: '⚡ Compétences officielles & progression (5 emplacements)',
+    officialSkillsSubtitle: 'Formules de dégâts exactes, mécaniques d\'effet et pourcentages d\'augmentation par niveau extraits du jeu.',
+    levelScaling: 'Progression par niveau :',
+    tacticalGuideTitle: '🎯 Guide tactique & Recommandations',
+    howToGet: 'Comment l\'obtenir',
+    build: 'Priorités d\'amélioration',
+    teams: 'Synergies et compositions',
+    video: 'Guide vidéo',
+    allHeroes: '← Tous les héros',
+    dossierTitle: '📖 Dossier du héros (Lore officiel)',
+    slotNames: {
+      1: 'Emplacement 1 : Attaque auto',
+      2: 'Emplacement 2 : Compétence ultime',
+      3: 'Emplacement 3 : Compétence active',
+      4: 'Emplacement 4 : Compétence passive',
+      5: 'Emplacement 5 : Compétence de soutien'
+    }
+  },
+  id: {
+    tierBadge: 'Tier',
+    weaponLabel: 'Senjata Eksklusif',
+    traitLabel: 'Sifat Karakter',
+    officialSkillsTitle: '⚡ Keterampilan Resmi & Peningkatan Level (5 Slot)',
+    officialSkillsSubtitle: 'Formula kerusakan akurat, jenis efek, dan persentase peningkatan per level keahlian dari game.',
+    levelScaling: 'Peningkatan per level:',
+    tacticalGuideTitle: '🎯 Panduan Taktis & Rekomendasi Build',
+    howToGet: 'Cara Mendapatkan',
+    build: 'Prioritas Build & Peningkatan',
+    teams: 'Catatan Skuad & Sinergi',
+    video: 'Panduan Video',
+    allHeroes: '← Semua Hero',
+    dossierTitle: '📖 Berkas Hero (Kisah Resmi)',
+    slotNames: {
+      1: 'Slot 1: Serangan Otomatis',
+      2: 'Slot 2: Jurus Pamungkas (Ultimate)',
+      3: 'Slot 3: Jurus Aktif',
+      4: 'Slot 4: Jurus Pasif',
+      5: 'Slot 5: Jurus Pendukung'
+    }
+  },
+  ja: {
+    tierBadge: 'ティア',
+    weaponLabel: '専用武器',
+    traitLabel: '性格・特徴',
+    officialSkillsTitle: '⚡ 公式スキル＆強化倍率（全5スロット）',
+    officialSkillsSubtitle: 'ゲームクライアントから抽出された正確なダメージ計算式、攻撃タイプ、スキルレベルごとの成長率。',
+    levelScaling: 'レベル強化ボーナス：',
+    tacticalGuideTitle: '🎯 戦術ガイド＆育成おすすめ優先度',
+    howToGet: '入手方法',
+    build: '育成優先度とビルド',
+    teams: 'おすすめ編成とシナジー',
+    video: '動画攻略',
+    allHeroes: '← 英雄一覧',
+    dossierTitle: '📖 英雄ファイル（公式ストーリー）',
+    slotNames: {
+      1: 'スロット1: 通常攻撃',
+      2: 'スロット2: アルティメット（奥義）',
+      3: 'スロット3: アクティブスキル',
+      4: 'スロット4: パッシブスキル',
+      5: 'スロット5: 支援スキル'
+    }
+  },
+  ko: {
+    tierBadge: '티어',
+    weaponLabel: '전용 무기',
+    traitLabel: '성격 및 특성',
+    officialSkillsTitle: '⚡ 공식 스킬 정보 및 레벨별 계수 (5개 슬롯)',
+    officialSkillsSubtitle: '게임 클라이언트에서 추출된 정확한 피해 공식, 효과 유형, 레벨별 강화 배율입니다.',
+    levelScaling: '스킬 레벨별 강화 계수:',
+    tacticalGuideTitle: '🎯 전술 가이드 및 육성 우선순위',
+    howToGet: '획득 방법',
+    build: '육성 우선순위 및 빌드 팁',
+    teams: '추천 조합 및 시너지',
+    video: '영상 가이드',
+    allHeroes: '← 모든 영웅',
+    dossierTitle: '📖 영웅 프로필 (공식 로어)',
+    slotNames: {
+      1: '슬롯 1: 기본 공격',
+      2: '슬롯 2: 궁극기',
+      3: '슬롯 3: 액티브 스킬',
+      4: '슬롯 4: 패시브 스킬',
+      5: '슬롯 5: 지원 스킬'
+    }
+  },
+  pt: {
+    tierBadge: 'Tier',
+    weaponLabel: 'Arma Exclusiva',
+    traitLabel: 'Traço de Caráter',
+    officialSkillsTitle: '⚡ Habilidades Oficiais e Escalonamento (5 Espaços)',
+    officialSkillsSubtitle: 'Fórmulas exatas de dano, mecânicas de efeito e porcentagens por nível de habilidade extraídos do jogo.',
+    levelScaling: 'Bônus por nível:',
+    tacticalGuideTitle: '🎯 Guia Tático e Recomendações',
+    howToGet: 'Como Obter',
+    build: 'Prioridades de Evolução',
+    teams: 'Composição de Esquadrão e Sinergias',
+    video: 'Guia em Vídeo',
+    allHeroes: '← Todos os Heróis',
+    dossierTitle: '📖 Dossiê do Herói (História Oficial)',
+    slotNames: {
+      1: 'Espaço 1: Ataque Automático',
+      2: 'Espaço 2: Habilidade Suprema',
+      3: 'Espaço 3: Habilidade Ativa',
+      4: 'Espaço 4: Habilidade Passiva',
+      5: 'Espaço 5: Habilidade de Suporte'
+    }
+  }
+};
+
+const t = ui[lang] || ui.en;
+---
+
+<GuidePage
+  title={heroDisplayName}
+  description={hero.role}
+  lang={lang}
+  breadcrumbs={breadcrumbs}
+>
+  <!-- Hero Badges Header -->
+  <div class="not-prose mb-6 flex flex-wrap items-center gap-2">
+    <span class={`rounded-lg px-2.5 py-1 text-xs font-bold ${hero.tier === 'S' ? 'bg-red-950/80 border border-red-500/40 text-red-300 shadow-[0_0_12px_rgba(239,68,68,0.2)]' : hero.tier === 'A' ? 'bg-amber-950/80 border border-amber-500/40 text-amber-300' : 'bg-sky-950/80 border border-sky-500/40 text-sky-300'}`}>
+      {hero.tier} {t.tierBadge}
+    </span>
+    <span class="rounded-lg bg-stone-900 border border-stone-800 px-2.5 py-1 text-xs font-semibold text-plague-300">
+      {hero.rarity}
+    </span>
+    <span class="rounded-lg bg-stone-900 border border-stone-800 px-2.5 py-1 text-xs text-stone-300">
+      {hero.faction}
+    </span>
+    <span class="rounded-lg bg-stone-900 border border-stone-800 px-2.5 py-1 text-xs text-stone-400">
+      {hero.className}
+    </span>
+
+    {weaponName && (
+      <span class="inline-flex items-center gap-1.5 rounded-lg border border-amber-500/30 bg-amber-950/50 px-2.5 py-1 text-xs font-semibold text-amber-300">
+        <span>⚔️</span>
+        <span>{t.weaponLabel}: <strong>{weaponName}</strong></span>
+      </span>
+    )}
+
+    {traitName && (
+      <span class="inline-flex items-center gap-1.5 rounded-lg border border-stone-700 bg-stone-900 px-2.5 py-1 text-xs text-stone-300">
+        <span>✨</span>
+        <span>{t.traitLabel}: {traitName}</span>
+      </span>
+    )}
+  </div>
+
+  <!-- Recruitment Quote -->
+  {previewQuote && (
+    <div class="not-prose my-5 rounded-xl border border-stone-800/80 bg-stone-900/50 p-4 italic text-stone-300 shadow-inner">
+      <p class="flex items-start gap-2.5 text-sm sm:text-base">
+        <span class="text-xl text-plague-400">💬</span>
+        <span>«{previewQuote}»</span>
+      </p>
+    </div>
+  )}
+
+  <!-- Official Lore / Dossier -->
+  {heroStory && heroStory.length > 10 && (
+    <div class="not-prose my-6 rounded-xl border border-stone-800/90 bg-stone-950/60 p-4 sm:p-5">
+      <h3 class="flex items-center gap-2 text-sm font-bold uppercase tracking-wider text-stone-400">
+        {t.dossierTitle}
+      </h3>
+      <p class="mt-2 text-xs leading-relaxed text-stone-300 sm:text-sm">
+        {heroStory}
+      </p>
+    </div>
+  )}
+
+  <!-- Official Skills Breakdown (5 Slots) -->
+  {officialSkills && officialSkills.length > 0 ? (
+    <div class="not-prose my-8 space-y-4">
+      <div class="border-b border-stone-800 pb-3">
+        <h2 class="text-xl font-black text-stone-100 sm:text-2xl">
+          {t.officialSkillsTitle}
+        </h2>
+        <p class="mt-1 text-xs text-stone-400 sm:text-sm">
+          {t.officialSkillsSubtitle}
+        </p>
+      </div>
+
+      <div class="grid gap-4 sm:grid-cols-1">
+        {officialSkills.map((s: any) => {
+          const slotTitle = (t.slotNames as any)[s.slot] || `Slot ${s.slot}`;
+          const skillTitle = s.name?.[lang] || s.name?.en || 'Skill';
+          const typeDesc = s.type?.[lang] || s.type?.en;
+          const dmgType = s.dmgType?.[lang] || s.dmgType?.en;
+          const descText = s.desc?.[lang] || s.desc?.en;
+
+          return (
+            <div class="rounded-xl border border-stone-800 bg-stone-900/70 p-4 transition-colors hover:border-stone-700 sm:p-5">
+              <div class="flex flex-wrap items-center justify-between gap-2 border-b border-stone-800/80 pb-3">
+                <div>
+                  <span class="text-xs font-semibold uppercase tracking-wider text-plague-400">
+                    {slotTitle}
+                  </span>
+                  <h3 class="mt-0.5 text-base font-bold text-stone-100 sm:text-lg">
+                    {skillTitle}
+                  </h3>
+                </div>
+
+                <div class="flex flex-wrap items-center gap-1.5">
+                  {typeDesc && (
+                    <span class="rounded bg-stone-800 px-2 py-0.5 text-xs font-medium text-stone-300">
+                      {typeDesc}
+                    </span>
+                  )}
+                  {dmgType && (
+                    <span class="rounded bg-stone-800 border border-stone-700 px-2 py-0.5 text-xs font-medium text-plague-300">
+                      {dmgType}
+                    </span>
+                  )}
+                </div>
+              </div>
+
+              <p class="mt-3 text-xs leading-relaxed text-stone-300 sm:text-sm">
+                {descText}
+              </p>
+
+              <!-- Level upgrades list -->
+              {s.upgrades && s.upgrades.length > 0 && (
+                <div class="mt-3.5 rounded-lg border border-stone-800/90 bg-stone-950/60 p-3">
+                  <span class="text-[11px] font-bold uppercase tracking-wider text-amber-400/90">
+                    {t.levelScaling}
+                  </span>
+                  <ul class="mt-2 space-y-1.5">
+                    {s.upgrades.map((u: any) => {
+                      const eff = u.effect?.[lang] || u.effect?.en;
+                      return (
+                        <li class="flex items-start gap-2 text-xs text-stone-300">
+                          <span class="font-bold text-amber-300/90">Lv.{u.level}:</span>
+                          <span>{eff}</span>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </div>
+              )}
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  ) : (
+    <!-- Fallback community skills if official 5-slot not present -->
+    <div class="not-prose my-6">
+      <h2 class="mb-3 text-lg font-bold text-plague-200">{t.build}</h2>
+      <div class="space-y-3">
+        {hero.skills.map((s) => (
+          <div class="rounded-xl border border-stone-800/90 bg-stone-900/60 p-4">
+            <p class="font-bold text-plague-200">{s.name}</p>
+            <p class="mt-1 text-sm text-stone-400 leading-relaxed">{s.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  )}
+
+  <!-- Tactical Community Guide -->
+  <div class="border-t border-stone-800/80 pt-6">
+    <h2 class="text-xl font-black text-stone-100 sm:text-2xl">
+      {t.tacticalGuideTitle}
+    </h2>
+
+    <h3 id="how-to-get" class="mt-6 text-base font-bold text-plague-300 sm:text-lg">
+      {t.howToGet}
+    </h3>
+    <p class="mt-2 text-sm leading-relaxed text-stone-300">
+      {hero.howToGet}
+    </p>
+
+    <h3 id="build" class="mt-6 text-base font-bold text-plague-300 sm:text-lg">
+      {t.build}
+    </h3>
+    <ul class="mt-2 space-y-2 text-sm text-stone-300">
+      {hero.buildTips.map((tip) => (
+        <li class="flex items-start gap-2">
+          <span class="mt-1.5 block h-1.5 w-1.5 shrink-0 rounded-full bg-plague-400" />
+          <span>{tip}</span>
+        </li>
+      ))}
+    </ul>
+
+    <h3 id="teams" class="mt-6 text-base font-bold text-plague-300 sm:text-lg">
+      {t.teams}
+    </h3>
+    <p class="mt-2 text-sm leading-relaxed text-stone-300">
+      {hero.teamNotes}
+    </p>
+
+    {hero.video && (
+      <div class="not-prose my-8">
+        <h3 class="mb-3 text-lg font-bold text-plague-200">{t.video}</h3>
+        <div
+          class="js-video-facade group relative max-w-lg cursor-pointer overflow-hidden rounded-xl border border-stone-800 hover:border-plague-500 transition shadow-xl"
+          data-video-id={hero.video}
+          role="button"
+          tabindex="0"
+          aria-label="Play video"
+        >
+          <span class="block aspect-video overflow-hidden bg-stone-900">
+            <img
+              src={`https://i.ytimg.com/vi/${hero.video}/hqdefault.jpg`}
+              alt="Video guide"
+              loading="lazy"
+              class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+            />
+          </span>
+          <span class="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/40 transition-opacity group-hover:bg-black/25">
+            <span class="flex h-12 w-12 items-center justify-center rounded-full bg-blood-600/90 text-white text-lg pl-0.5 shadow-[0_0_20px_rgba(225,29,72,0.6)] group-hover:scale-110 transition-transform">
+              ▶
+            </span>
+          </span>
+        </div>
+      </div>
+    )}
+
+    <p class="mt-8">
+      <a
+        href={lang === 'en' ? '/codex/' : `/${lang}/codex/`}
+        class="inline-flex items-center gap-1.5 text-sm font-semibold text-plague-400 hover:text-plague-300 hover:underline"
+      >
+        {t.allHeroes}
+      </a>
+    </p>
+
+    <DiscordBanner lang={lang} />
+  </div>
+</GuidePage>
+
+<script>
+  document.querySelectorAll('.js-video-facade').forEach((el) => {
+    el.addEventListener('click', () => {
+      const id = (el as HTMLElement).dataset.videoId;
+      if (!id) return;
+      const frame = document.createElement('iframe');
+      frame.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1`;
+      frame.title = 'Video guide';
+      frame.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      frame.allowFullscreen = true;
+      frame.className = 'aspect-video w-full max-w-lg rounded-lg';
+      el.replaceWith(frame);
+    });
+  });
+</script>

@@ -5,6 +5,7 @@ export interface MonumentMilestone {
   chapter: number;
   category: 'heroes' | 'alliance' | 'pvp' | 'pve' | 'season';
   icon: string;
+  officialMilestoneIds?: number[];
   title: Record<string, string>;
   badge: Record<string, string>;
   shortDesc: Record<string, string>;
@@ -170,6 +171,7 @@ export const monumentMilestones: MonumentMilestone[] = [
     chapter: 1,
     category: 'heroes',
     icon: '🏰',
+    officialMilestoneIds: [1000, 2000, 3000, 4000, 5000, 7000],
     title: {
       ru: 'Основание Убежища и Призыв Артура',
       en: 'Sanctuary Founding & Arthur Recruit',
@@ -270,6 +272,7 @@ export const monumentMilestones: MonumentMilestone[] = [
     chapter: 1,
     category: 'alliance',
     icon: '🛡️',
+    officialMilestoneIds: [8000, 9000],
     title: {
       ru: 'Открытие Альянсов и Территории',
       en: 'Alliance System & Territory Unlock',
@@ -370,6 +373,7 @@ export const monumentMilestones: MonumentMilestone[] = [
     chapter: 1,
     category: 'heroes',
     icon: '🎯',
+    officialMilestoneIds: [1000, 10000],
     title: {
       ru: 'Первая Рулетка Героя: Цинтия (Cynthia)',
       en: 'First Hero Roulette: Cynthia',
@@ -470,6 +474,7 @@ export const monumentMilestones: MonumentMilestone[] = [
     chapter: 1,
     category: 'pve',
     icon: '🧟',
+    officialMilestoneIds: [20100, 11000, 12000],
     title: {
       ru: 'Первая Осада Нежити (Undead Siege)',
       en: 'First Undead Siege (Zombie Waves)',
@@ -570,6 +575,7 @@ export const monumentMilestones: MonumentMilestone[] = [
     chapter: 2,
     category: 'alliance',
     icon: '⚔️',
+    officialMilestoneIds: [18000, 13000, 14000, 15000],
     title: {
       ru: 'Первая Дуэль Альянсов (Квалификация Top-32)',
       en: 'First Alliance Duel (Top-32 Qualification)',
@@ -670,6 +676,7 @@ export const monumentMilestones: MonumentMilestone[] = [
     chapter: 2,
     category: 'alliance',
     icon: '🚚',
+    officialMilestoneIds: [18001, 16000, 19000, 20000],
     title: {
       ru: 'Торговый Караван и Битва за Каньон',
       en: 'Alliance Caravan & Canyon Clash',
@@ -770,6 +777,7 @@ export const monumentMilestones: MonumentMilestone[] = [
     chapter: 3,
     category: 'pvp',
     icon: '👑',
+    officialMilestoneIds: [28000, 29000, 31000, 24000, 26000],
     title: {
       ru: 'Война Королевств (KvK) и Межсерверный Прорыв',
       en: 'Kingdom War (KvK) & Cross-Server Warfare',
@@ -870,6 +878,7 @@ export const monumentMilestones: MonumentMilestone[] = [
     chapter: 3,
     category: 'heroes',
     icon: '🔮',
+    officialMilestoneIds: [21000, 22000, 23000, 27000],
     title: {
       ru: 'Расширение Пула: Шэдоу (Shadow), Джокер, Белла',
       en: 'Hero Pool Expansion: Shadow, Joker, Bella',
@@ -970,6 +979,7 @@ export const monumentMilestones: MonumentMilestone[] = [
     chapter: 3,
     category: 'pvp',
     icon: '🧪',
+    officialMilestoneIds: [17000, 30000, 53000, 32000],
     title: {
       ru: 'Гонка за Эликсиром и Высшая Дуэль',
       en: 'Elixir Scramble & Supreme Duel',
@@ -1070,6 +1080,7 @@ export const monumentMilestones: MonumentMilestone[] = [
     chapter: 4,
     category: 'heroes',
     icon: '🗡️',
+    officialMilestoneIds: [33000, 34000, 35000],
     title: {
       ru: 'Золотой Век: Марлена (Marlena) — Главный Кэрри',
       en: 'Golden Age: Marlena — Core F2P Carry',
@@ -1170,6 +1181,7 @@ export const monumentMilestones: MonumentMilestone[] = [
     chapter: 4,
     category: 'pve',
     icon: '🐟',
+    officialMilestoneIds: [36000, 38000, 39000, 52001, 37000],
     title: {
       ru: 'Мифическое Сокровище, Рыбалка и Зал Реликвий',
       en: 'Mythic Treasure, Fishing & Curio Hall',
@@ -1270,6 +1282,7 @@ export const monumentMilestones: MonumentMilestone[] = [
     chapter: 4,
     category: 'season',
     icon: '📜',
+    officialMilestoneIds: [40000, 41000, 43000, 42000, 44000],
     title: {
       ru: 'Предвестники Бури: Эпиграфы Т4/Т5 и Антитоксин',
       en: 'Storm Harbingers: T4/T5 Epigraphs & Antitoxin',
@@ -1370,6 +1383,7 @@ export const monumentMilestones: MonumentMilestone[] = [
     chapter: 5,
     category: 'season',
     icon: '☣️',
+    officialMilestoneIds: [45000, 46000, 47000, 48000, 49000, 50000, 51000, 52000],
     title: {
       ru: 'Эра Возрождения — Сезон 1 (League of Expeditions)',
       en: 'Era of Revival — Season 1 (League of Expeditions)',

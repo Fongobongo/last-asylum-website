@@ -1,0 +1,1655 @@
+{
+  "1000": {
+    "id": 1000,
+    "dayUnlock": 1,
+    "chapter": 1,
+    "category": "heroes",
+    "icon": "🗡️",
+    "name": {
+      "ru": "Багровый клинок",
+      "en": "Crimson Blade",
+      "de": "Karmesinrote Klinge",
+      "es": "Espada carmesí",
+      "fr": "Lame cramoisie",
+      "id": "Bilah Merah Darah",
+      "ja": "クリムゾンブレード",
+      "ko": "진홍빛 칼날",
+      "pt": "Lâmina Carmesim"
+    },
+    "desc": {
+      "ru": "Мощный UR герой с колоссальным уроном — беспощадный истребитель зла! Сделайте ее своим главным оружием!",
+      "en": "Powerful UR Hero with immense damage, the ultimate evil vanquisher! Make her your strongest weapon!",
+      "de": "Mächtiger UR Held mit immensem Schaden, der ultimative Bezwinger des Bösen! Mache sie zu deiner stärksten Waffe!",
+      "es": "¡Poderosa heroína UR con daño inmenso, la definitiva vencedora del mal! ¡Conviértela en tu arma más poderosa!",
+      "fr": "Héros UR surpuissante aux dégâts colossaux, l\\'ultime pourfendeuse du mal ! Faites-en votre arme absolue !",
+      "id": "Hero UR penyerang super, pembantai kejahatan! Jadikan dia senjata andalanmu sekarang!",
+      "ja": "超強力アタッカータイプのUR英雄が登場！邪悪を打ち砕く存在を、今すぐあなたの最強の刃にしましょう！",
+      "ko": "초강력 딜러형 UR 영웅! 악의 종결자! 그녀를 당신의 가장 강력한 무기로 만드세요!",
+      "pt": "Poderoso Herói UR causadora de dano imenso, a maior aniquiladora do mal! Faça dela sua arma mais forte!"
+    }
+  },
+  "2000": {
+    "id": 2000,
+    "dayUnlock": 1,
+    "chapter": 1,
+    "category": "heroes",
+    "icon": "🛡️",
+    "name": {
+      "ru": "Нерушимый щит",
+      "en": "Unbreakable Shield",
+      "de": "Unzerbrechlicher Schild",
+      "es": "Escudo inquebrantable",
+      "fr": "Bouclier incassable",
+      "id": "Perisai Tak Tertembus",
+      "ja": "不壊の盾",
+      "ko": "뚫리지 않는 방패",
+      "pt": "Escudo Inquebrável"
+    },
+    "desc": {
+      "ru": "Мощный UR герой с колоссальной защитой, несокрушимый в бою! Нанимайте в таверне!",
+      "en": "Powerful UR Hero with immense defense, capable of withstanding any attack! Head to the Tavern to recruit!",
+      "de": "Mächtiger UR Held mit enormer Verteidigung, fähig jedem Angriff standzuhalten! Geh zur Taverne, um ihn zu rekrutieren!",
+      "es": "¡Poderoso héroe UR con defensa inmensa, capaz de resistir cualquier ataque! ¡Ve a la Taberna para reclutarlo!",
+      "fr": "Héros UR surpuissante à la défense impénétrable, capable d\\'encaisser tous les assauts ! Allez à la Taverne pour recruter !",
+      "id": "Hero UR tank super, mampu menahan segala serangan! Segera rekrut di Kedai!",
+      "ja": "あらゆる攻撃を受け止める、超強力タンクタイプのUR英雄！今すぐ酒場へ向かい、仲間に迎え入れましょう！",
+      "ko": "초강력 탱커형 UR 영웅! 모든 공격을 막아낼 수 있어요! 지금 바로 선술집에서 모집하세요!",
+      "pt": "Poderoso Herói UR com defesa poderosíssima, capaz de resistir a qualquer ataque! Recrute este Herói na Taverna!"
+    }
+  },
+  "3000": {
+    "id": 3000,
+    "dayUnlock": 2,
+    "chapter": 1,
+    "category": "pve",
+    "icon": "🗺️",
+    "name": {
+      "ru": "Секретная операция",
+      "en": "Covert Operation",
+      "de": "Verdeckte Operation",
+      "es": "Operación encubierta",
+      "fr": "Opération secrète",
+      "id": "Operasi Rahasia",
+      "ja": "秘密作戦",
+      "ko": "비밀 작전",
+      "pt": "Operação Secreta"
+    },
+    "desc": {
+      "ru": "В этом мире, полном опасностей, таится множество тайных сокровищ. Отправьте героев, чтобы доставить их в свои владения, пока их не нашли другие!",
+      "en": "Many secret treasures lie hidden in this world full of dangers. Dispatch Heroes to retrieve them to your territory before others discover them!",
+      "de": "Viele geheime Schätze liegen in dieser gefahrvollen Welt verborgen. Entsende Helden, um sie in dein Gebiet zu bringen, bevor andere sie entdecken!",
+      "es": "Muchos tesoros secretos yacen ocultos en este mundo lleno de peligros. ¡Envía héroes para recuperarlos en tu territorio antes de que otros los descubran!",
+      "fr": "Ce monde périlleux recèle d\\'innombrables trésors. Envoyez vos héros pour les rapporter sur votre territoire avant que d\\'autres ne les découvrent !",
+      "id": "Dunia penuh bahaya menyimpan banyak harta karun rahasia. Kirim heromu untuk membawa pulang harta sebelum orang lain menemukannya!",
+      "ja": "危険に満ちたこの世界には、数多くの秘宝が眠っています。他のプレイヤーに先駆けて英雄を派遣し、秘宝を領地へ持ち帰りましょう！",
+      "ko": "위험이 도사리는 세상에는 수많은 비밀 보물이 숨겨져 있습니다. 영웅을 파견해 다른 이들보다 먼저 보물을 영지로 가져오세요!",
+      "pt": "Muitos tesouros secretos estão escondidos neste mundo cheio de perigos. Envie Heróis para trazê-los para seu território antes que outros os descubram!"
+    }
+  },
+  "4000": {
+    "id": 4000,
+    "dayUnlock": 3,
+    "chapter": 1,
+    "category": "alliance",
+    "icon": "⚔️",
+    "name": {
+      "ru": "Штурмовая битва",
+      "en": "Rally Battle",
+      "de": "Versammlungsschlacht",
+      "es": "Batalla de Reunión",
+      "fr": "Bataille de Ralliement",
+      "id": "Reli untuk Pertempuran Besar",
+      "ja": "ラリー大作戦",
+      "ko": "집결 대작전",
+      "pt": "Batalha de Mobilização"
+    },
+    "desc": {
+      "ru": "Призывайте союзников на штурм могущественной скверны!",
+      "en": "Rally alliance members to defeat the world\\'s powerful Blight with utmost strength!",
+      "de": "Versammle Verbündete, um mit aller Kraft die mächtige Seuche der Welt zu besiegen!",
+      "es": "¡Reúne a los miembros de la alianza para derrotar al poderoso infectado del mundo con toda tu fuerza!",
+      "fr": "Ralliez les membres de l\\'alliance pour terrasser la puissante Peste mondiale !",
+      "id": "Kumpulkan anggota guild untuk mengalahkan Ghoul terkuat di dunia dengan kekuatan penuh!",
+      "ja": "ギルドメンバーを集結させ、圧倒的な力で世界に潜む強大なゾンビを討伐してください！",
+      "ko": "길드원들을 모아 세상에서 가장 강력한 좀비를 처치하세요!",
+      "pt": "Mobilize os membros da aliança para derrotar a poderosa Praga do mundo com a máxima força!"
+    }
+  },
+  "5000": {
+    "id": 5000,
+    "dayUnlock": 4,
+    "chapter": 1,
+    "category": "pve",
+    "icon": "🔥",
+    "name": {
+      "ru": "Битва на выживание",
+      "en": "Survival Battle",
+      "de": "Überlebenskampf",
+      "es": "Batalla de supervivencia",
+      "fr": "Combat de survie",
+      "id": "Pertarungan Bertahan Hidup",
+      "ja": "サバイバルバトル",
+      "ko": "서바이벌 배틀",
+      "pt": "Batalha de Sobrevivência"
+    },
+    "desc": {
+      "ru": "Чтобы выжить, будьте во всеоружии!",
+      "en": "To survive, you must be fully prepared!",
+      "de": "Um zu überleben, musst du vollständig vorbereitet sein!",
+      "es": "¡Para sobrevivir, debes estar completamente preparado!",
+      "fr": "Pour survivre, vous devez être préparés !",
+      "id": "Untuk bertahan hidup, persiapkan diri sebaik mungkin!",
+      "ja": "生き残るためには、万全の準備が不可欠です！",
+      "ko": "생존하려면 철저한 준비가 필수입니다!",
+      "pt": "Para sobreviver, você deve se preparar para tudo!"
+    }
+  },
+  "6000": {
+    "id": 6000,
+    "dayUnlock": 5,
+    "chapter": 1,
+    "category": "pve",
+    "icon": "👹",
+    "name": {
+      "ru": "Король демонов скверны",
+      "en": "Demon King Blight",
+      "de": "Seuchen-Dämonenkönig",
+      "es": "Rey Demonio Infectado",
+      "fr": "Peste Roi démon",
+      "id": "Raja Iblis Ghoul",
+      "ja": "魔王ゾンビ",
+      "ko": "마왕 좀비",
+      "pt": "Rei Demônio da Praga"
+    },
+    "desc": {
+      "ru": "Восстал король демонов скверны. Соберите всех, чтобы уничтожить его, пока не грянула беда!",
+      "en": "The Demon King Blight has emerged. Gather everyone to eliminate them before disaster strikes!",
+      "de": "Der Seuchen-Dämonenkönig ist aufgetaucht. Versammle alle, um ihn zu vernichten, bevor die Katastrophe zuschlägt!",
+      "es": "El Rey Demonio infectado ha surgido. ¡Reúne a todos para eliminarlo antes de que ocurra el desastre!",
+      "fr": "Le Roi démon de la Peste est apparu. Unissez-vous pour l\\'anéantir avant la catastrophe !",
+      "id": "Raja Ghoul telah muncul! Gabungkan kekuatan bersama dan hancurkan mereka sebelum bencana melanda!",
+      "ja": "魔王ゾンビが出現しました。みんなの力を結集し、災厄が訪れる前に討ち倒しましょう！",
+      "ko": "마왕 좀비가 나타났습니다. 모두의 힘을 모아 재앙이 닥치기 전에 그들을 물리치세요!",
+      "pt": "O Rei Demônio da Praga surgiu. Reúna todos para eliminá-los antes que o desastre aconteça!"
+    }
+  },
+  "7000": {
+    "id": 7000,
+    "dayUnlock": 6,
+    "chapter": 1,
+    "category": "pve",
+    "icon": "🧀",
+    "name": {
+      "ru": "Сырная ловушка",
+      "en": "Cheese Trap",
+      "de": "Käsefalle",
+      "es": "Trampa de queso",
+      "fr": "Piège à fromage",
+      "id": "Perangkap Keju",
+      "ja": "チーズの罠",
+      "ko": "치즈 함정",
+      "pt": "Armadilha de Queijo"
+    },
+    "desc": {
+      "ru": "Коварные воры постоянно нападают. Расставьте ловушки и поймайте их!",
+      "en": "Nefarious thieves frequently invade. Set traps to capture them!",
+      "de": "Ruchlose Diebe dringen häufig ein. Stelle Fallen auf, um sie zu fangen!",
+      "es": "Los ladrones malvados invaden con frecuencia. ¡Coloca trampas para capturarlos!",
+      "fr": "Des brigands ignobles s\\'infiltrent régulièrement. Tendez des pièges pour les capturer !",
+      "id": "Pencuri kurang ajar terus menyerang. Pasang jebakan dan tangkap mereka!",
+      "ja": "悪質な泥棒が何度も現れています。罠を仕掛けて、逃げ場を失わせましょう！",
+      "ko": "흉악한 도둑들이 자주 출몰하고 있습니다. 함정을 설치하여 그들을 잡아내세요!",
+      "pt": "Esses ladrões miseráveis tentam invasões frequentemente. Coloque armadilhas para capturá-los!"
+    }
+  },
+  "8000": {
+    "id": 8000,
+    "dayUnlock": 7,
+    "chapter": 1,
+    "category": "alliance",
+    "icon": "🐫",
+    "name": {
+      "ru": "Междугородняя торговля",
+      "en": "Intercity Trade",
+      "de": "Interstädtischer Handel",
+      "es": "Comercio Interurbano",
+      "fr": "Commerce intercités",
+      "id": "Perdagangan Antar Kota",
+      "ja": "都市間貿易",
+      "ko": "도시 간 무역",
+      "pt": "Comércio Intercidades"
+    },
+    "desc": {
+      "ru": "Сопроводите караван между городами и получите щедрые награды!",
+      "en": "Escort the caravan between towns to earn generous rewards!",
+      "de": "Begleite die Karawane zwischen den Städten, um großzügige Belohnungen zu verdienen!",
+      "es": "¡Escolta la caravana entre ciudades para ganar generosas recompensas!",
+      "fr": "Escortez la caravane marchande entre les cités pour obtenir d\\'abondantes récompenses !",
+      "id": "Kawal kereta antarkota dan dapatkan hadiah besar!",
+      "ja": "街と街の間で馬車を護衛し、豪華な報酬を獲得しましょう！",
+      "ko": "도시 간 왕래하는 마차를 호위하고 풍성한 보상을 획득하세요!",
+      "pt": "Escolte a caravana entre as cidades para ganhar recompensas generosas!"
+    }
+  },
+  "9000": {
+    "id": 9000,
+    "dayUnlock": 8,
+    "chapter": 1,
+    "category": "alliance",
+    "icon": "🏰",
+    "name": {
+      "ru": "Осада города",
+      "en": "City Siege",
+      "de": "Stadtbelagerung",
+      "es": "Asedio a la ciudad",
+      "fr": "Siège de ville",
+      "id": "Perebutan Kota",
+      "ja": "都市争奪戦",
+      "ko": "도시 점령전",
+      "pt": "Cerco à Cidade"
+    },
+    "desc": {
+      "ru": "Разгромите вражеские альянсы, захватите ключевые крепости, получите бонусы и доминируйте на сервере.",
+      "en": "Defeat rival alliances, seize key strongholds worldwide, gain stronghold bonuses, and dominate the server.",
+      "de": "Besiege rivalisierende Allianzen, erobere wichtige Bollwerke weltweit, erhalte Bollwerksboni und beherrsche den Server.",
+      "es": "Derrota a las alianzas rivales, conquista fortalezas clave en todo el mundo, obtén bonificaciones de fortaleza y domina el servidor.",
+      "fr": "Écrasez les alliances ennemies, conquérez les bastions stratégiques, déverrouillez leurs bonus et régnez sur le serveur.",
+      "id": "Kalahkan guild saingan, rebut pos kota penting di dunia, dapatkan bonus pos, dan kuasai seluruh server",
+      "ja": "ライバルギルドを倒し、重要拠点を奪取し、拠点のバフを獲得し、サーバー全体を制覇しましょう",
+      "ko": "경쟁 길드를 격파하고, 세계 곳곳의 핵심 도시 거점을 점령해 거점 버프를 획득하고 서버를 제패하세요!",
+      "pt": "Derrote alianças rivais, conquiste fortalezas importantes no mundo todo, obtenha bônus de fortaleza e domine o servidor."
+    }
+  },
+  "10000": {
+    "id": 10000,
+    "dayUnlock": 9,
+    "chapter": 1,
+    "category": "heroes",
+    "icon": "💖",
+    "name": {
+      "ru": "Лучший целитель",
+      "en": "Top Healer",
+      "de": "Top-Heiler",
+      "es": "Sanador supremo",
+      "fr": "Soigneur d\\'élite",
+      "id": "Dewa Medis Terbaik",
+      "ja": "至高の医神",
+      "ko": "최고의 의술",
+      "pt": "Curandeiro Supremo"
+    },
+    "desc": {
+      "ru": "Набирайте очки в напряженном состязании докторов, чтобы завоевать звание лучшего доктора и награды.",
+      "en": "Earn points in the intense Doctor competition - the goal is to claim the honor of the Top Doctor and rewards.",
+      "de": "Verdiene Punkte im intensiven Ärztewettbewerb - das Ziel ist es, die Ehre des Top-Arztes und Belohnungen zu erringen.",
+      "es": "Gana puntos en la intensa competición de doctores: el objetivo es reclamar el honor de Doctor estrella y recompensas.",
+      "fr": "Gagnez des points dans la compétition acharnée des docteurs pour décrocher le titre de Meilleur docteur et des récompenses.",
+      "id": "Raih poin dalam persaingan dokter yang sengit, dengan tujuan merebut kehormatan dan hadiah sebagai dokter terhebat",
+      "ja": "激しいドクター競争でポイントを獲得し、最強ドクターの栄誉と報酬を手に入れましょう",
+      "ko": "치열한 의사 경쟁에서 포인트를 획득해, 최강 의사의 영예와 보상을 차지하세요",
+      "pt": "Ganhe pontos na intensa competição de Médicos: o objetivo é reivindicar a honra de ser o Melhor Médico e ganhar recompensas."
+    }
+  },
+  "11000": {
+    "id": 11000,
+    "dayUnlock": 11,
+    "chapter": 1,
+    "category": "pve",
+    "icon": "🧀",
+    "name": {
+      "ru": "Улучшение сырной ловушки",
+      "en": "Cheese Trap Upgrade",
+      "de": "Käsefalle-Upgrade",
+      "es": "Mejora de la Trampa de queso",
+      "fr": "Amélioration du Piège à fromage",
+      "id": "Peningkatan Perangkap Keju",
+      "ja": "チーズの罠レベルアップ",
+      "ko": "치즈 함정 업그레이드",
+      "pt": "Melhoria da Armadilha de Queijo"
+    },
+    "desc": {
+      "ru": "Ваша мощь возросла, повысив максимальную сложность Похитителя сыра до ур. 3! Выше сложность — больше наград.",
+      "en": "Your power has surged, raising the Cheese Thief difficulty cap to Lv.3! Higher difficulty yields more rewards.",
+      "de": "Deine Macht ist angestiegen und hat die Schwierigkeitsobergrenze des Käsediebs auf Lv.3 erhöht! Höhere Schwierigkeit bringt mehr Belohnungen.",
+      "es": "Tu poder aumentó, ¡y se eleva el límite de dificultad del ladrón de queso al Nv. 3! Mayor dificultad significa más recompensas.",
+      "fr": "Votre puissance a bondi, portant le plafond de difficulté du Voleur de fromage au Niv. 3 ! Une difficulté accrue rapporte plus de récompenses.",
+      "id": "Kamu telah berkembang pesat! Batas kesulitan Pencuri Keju naik ke Lv.3! Lebih sulit, hadiah lebih besar!",
+      "ja": "実力が飛躍的に向上し、チーズ泥棒の難易度上限がLv.3まで上昇！より高難度で、より多くの報酬を！",
+      "ko": "실력이 크게 향상되어 치즈 도둑의 난이도 최대치가 레벨 3으로 상승했습니다! 더 높은 난이도에서 더 많은 보상을 획득해 보세요!",
+      "pt": "Seu poder aumentou, elevando o limite de dificuldade do Ladrão de Queijo para o Nv.3! Maior dificuldade concede mais recompensas."
+    }
+  },
+  "12000": {
+    "id": 12000,
+    "dayUnlock": 13,
+    "chapter": 1,
+    "category": "alliance",
+    "icon": "🏰",
+    "name": {
+      "ru": "Осада города II",
+      "en": "City Siege II",
+      "de": "Stadtbelagerung II",
+      "es": "Asedio a la ciudad II",
+      "fr": "Siège urbain II",
+      "id": "Pertempuran Merebut Kota II",
+      "ja": "都市争奪戦Ⅱ",
+      "ko": "도시 점령전 II",
+      "pt": "Cerco à Cidade II"
+    },
+    "desc": {
+      "ru": "Разгроми вражеские альянсы, захвати город и получи бонусы крепости! Станьте королем битвы!",
+      "en": "Defeat rival alliances, seize the city, and gain stronghold bonuses! Become the King of Battle!",
+      "de": "Besiege gegnerische Allianzen, erobere die Stadt und erhalte Bollwerksboni! Werde zum König der Schlacht!",
+      "es": "¡Derrota a las alianzas rivales, conquista la ciudad y obtén bonificaciones de fortaleza! ¡Conviértete en el Rey de la batalla!",
+      "fr": "Écrasez les alliances rivales, emparez-vous de la ville et débloquez des bonus de forteresse ! Devenez le Roi de la Bataille !",
+      "id": "Kalahkan guild lawan, rebut kota, dan dapatkan bonus markas! Jadilah raja penakluk!",
+      "ja": "ライバルギルドに打ち勝ち、都市を奪い、拠点のバフを獲得！征戦の王となれ！",
+      "ko": "경쟁 길드를 물리치고, 도시를 점령하여 거점 보너스를 획득하세요! 정복의 왕이 되세요!",
+      "pt": "Derrote alianças rivais, conquiste a cidade e ganhe bônus de fortaleza! Torne-se o Rei da Batalha!"
+    }
+  },
+  "13000": {
+    "id": 13000,
+    "dayUnlock": 15,
+    "chapter": 2,
+    "category": "pvp",
+    "icon": "👤",
+    "name": {
+      "ru": "Теневой мародер",
+      "en": "Shadow Plunderer",
+      "de": "Schattenplünderer",
+      "es": "Saqueador de las sombras",
+      "fr": "Pillard de l\\'ombre",
+      "id": "Perampok Bayangan",
+      "ja": "シャドウレイダー",
+      "ko": "그림자 약탈자",
+      "pt": "Saqueador Sombrio"
+    },
+    "desc": {
+      "ru": "Могучий UR герой с сокрушительным уроном, наводящий ужас на врагов!",
+      "en": "A commanding UR Hero with overwhelming output, intimidating all foes!",
+      "de": "Ein befehlender UR Held mit überwältigender Leistung, der alle Feinde einschüchtert!",
+      "es": "¡Un héroe UR imponente con un poder abrumador que intimida a todos los enemigos!",
+      "fr": "Un héros UR imposant, doté d\\'une puissance de frappe écrasante, terrifiant tous les adversaires !",
+      "id": "Hero UR penyerang yang menguasai arena, membuat musuh gemetar!",
+      "ja": "圧倒的な攻撃力で戦場を支配するUR英雄。敵を震え上がらせましょう！",
+      "ko": "전장을 지배하는 딜러형 UR 영웅! 모든 적을 압도하세요!",
+      "pt": "Um Herói UR dominante com poder avassalador, intimidando todos os inimigos!"
+    }
+  },
+  "14000": {
+    "id": 14000,
+    "dayUnlock": 16,
+    "chapter": 2,
+    "category": "heroes",
+    "icon": "🌙",
+    "name": {
+      "ru": "Стойкая луна",
+      "en": "Unyielding Moon",
+      "de": "Unnachgiebiger Mond",
+      "es": "Luna inquebrantable",
+      "fr": "Lune indomptable",
+      "id": "Bulan Purnama Abadi",
+      "ja": "沈まぬ月",
+      "ko": "지지 않는 밝은 달",
+      "pt": "Lua Inabalável"
+    },
+    "desc": {
+      "ru": "UR герой, что оберегает всех, словно яркая луна. Почувствуйте ее чистую силу!",
+      "en": "A UR Hero who guards all like the bright moon. Feel her pure power!",
+      "de": "Ein UR Held, der alle wie der helle Mond beschützt. Spüre ihre reine Kraft!",
+      "es": "Una heroína UR que protege a todos como la luna brillante. ¡Siente su poder puro!",
+      "fr": "Un héros UR qui veille sur tous tel un astre éclatant. Ressentez sa pure puissance !",
+      "id": "Hero UR pelindung bak rembulan, rasakan kekuatan sucinya!",
+      "ja": "月光のように全てを守護するUR英雄。その清らかで揺るぎない力を感じてください！",
+      "ko": "달빛처럼 모든 것을 수호하는 UR 영웅! 그녀의 순수한 힘을 느껴보세요!",
+      "pt": "Um Heroí UR que protege a todos como a lua brilhante. Sinta o poder puro dela!"
+    }
+  },
+  "15000": {
+    "id": 15000,
+    "dayUnlock": 18,
+    "chapter": 2,
+    "category": "alliance",
+    "icon": "🏰",
+    "name": {
+      "ru": "Осада города III",
+      "en": "City Siege III",
+      "de": "Stadtbelagerung III",
+      "es": "Asedio a la ciudad III",
+      "fr": "Siège urbain III",
+      "id": "Pertempuran Merebut Kota III",
+      "ja": "都市争奪戦Ⅲ",
+      "ko": "도시 점령전 III",
+      "pt": "Cerco à Cidade III"
+    },
+    "desc": {
+      "ru": "Разгромите вражеские альянсы, захватите ключевые крепости, получите бонусы и доминируйте на сервере.",
+      "en": "Defeat rival alliances, seize key strongholds worldwide, gain stronghold bonuses, and dominate the server.",
+      "de": "Besiege rivalisierende Allianzen, erobere wichtige Bollwerke weltweit, erhalte Bollwerksboni und beherrsche den Server.",
+      "es": "Derrota a las alianzas rivales, conquista fortalezas clave en todo el mundo, obtén bonificaciones de fortaleza y domina el servidor.",
+      "fr": "Écrasez les alliances ennemies, conquérez les bastions stratégiques, déverrouillez leurs bonus et régnez sur le serveur.",
+      "id": "Kalahkan guild saingan, rebut pos kota penting di dunia, dapatkan bonus pos, dan kuasai seluruh server",
+      "ja": "ライバルギルドを倒し、重要拠点を奪取し、拠点のバフを獲得し、サーバー全体を制覇しましょう",
+      "ko": "경쟁 길드를 격파하고, 세계 곳곳의 핵심 도시 거점을 점령해 거점 버프를 획득하고 서버를 제패하세요!",
+      "pt": "Derrote alianças rivais, conquiste fortalezas importantes no mundo todo, obtenha bônus de fortaleza e domine o servidor."
+    }
+  },
+  "16000": {
+    "id": 16000,
+    "dayUnlock": 20,
+    "chapter": 2,
+    "category": "pve",
+    "icon": "💎",
+    "name": {
+      "ru": "Долина Кристальных скоплений",
+      "en": "Crystal Cluster Valley",
+      "de": "Kristallcluster-Tal",
+      "es": "Valle de cúmulos de cristal",
+      "fr": "Vallée des amas cristallins",
+      "id": "Lembah Kristal",
+      "ja": "晶簇の谷",
+      "ko": "수정 골짜기",
+      "pt": "Vale dos Cristais"
+    },
+    "desc": {
+      "ru": "Вновь появились таинственные кристаллы! Добудьте чистейшие, чтобы исцелить все болезни мира.",
+      "en": "Mysterious crystals have resurfaced again! Obtain the purest crystals to cure all diseases in the world.",
+      "de": "Geheimnisvolle Kristalle sind wieder aufgetaucht! Beschaffe die reinsten Kristalle, um alle Krankheiten der Welt zu heilen.",
+      "es": "¡Los cristales misteriosos resurgieron de nuevo! Obtén los cristales más puros para curar todas las enfermedades del mundo.",
+      "fr": "De mystérieux cristaux ont refait surface ! Obtenez les plus purs pour guérir toutes les maladies du monde.",
+      "id": "Kristal misterius muncul kembali! Dapatkan kristal paling murni untuk menyembuhkan penyakit dunia.",
+      "ja": "神秘のクリスタルが再び出現！最も純粋なクリスタルを手に入れ、世の病を癒そう",
+      "ko": "신비한 수정이 다시 세상에 나타났습니다! 가장 순수한 수정을 획득하여 세상의 질병을 치유하세요.",
+      "pt": "Os cristais misteriosos ressurgiram! Obtenha os cristais mais puros para curar todas as doenças do mundo."
+    }
+  },
+  "17000": {
+    "id": 17000,
+    "dayUnlock": 22,
+    "chapter": 2,
+    "category": "pve",
+    "icon": "🧪",
+    "name": {
+      "ru": "Гонка за эликсиром",
+      "en": "Elixir Scramble",
+      "de": "Elixir-Gerangel",
+      "es": "Disputa de Elixir",
+      "fr": "Ruée à l\\'élixir",
+      "id": "Perebutan Ramuan Rahasia",
+      "ja": "秘薬争奪戦",
+      "ko": "비약 쟁탈전",
+      "pt": "Luta pelo Elixir"
+    },
+    "desc": {
+      "ru": "В эпоху чумы редкий эликсир — бесценный ресурс. Одолейте врагов, добейтесь победы и спасите человечество!",
+      "en": "The rare elixir is the most valuable resource during the plague era. Defeat opponents, claim victory, and save humanity.",
+      "de": "Das seltene Elixier ist die wertvollste Ressource während der Seuchenzeit. Besiege Gegner, erring den Sieg und rette die Menschheit.",
+      "es": "El elixir raro es el recurso más valioso durante la era de la plaga. Derrota a los oponentes, reclama la victoria y salva a la humanidad.",
+      "fr": "Le rare élixir est la ressource la plus précieuse en cette ère de Peste. Vainquez vos adversaires, remportez la victoire et sauvez l\\'humanité.",
+      "id": "Ramuan langka adalah sumber daya paling berharga di masa wabah. Kalahkan lawan, raih kemenangan, dan selamatkan umat manusia.",
+      "ja": "希少な秘薬は疫病の時代に最も貴重な資源だ。敵を倒し、勝利を掴み、人類を救おう。",
+      "ko": "희귀한 비약은 전염병 시대에 가장 귀중한 자원입니다. 적을 물리치고 승리를 쟁취하여 인류를 구원하세요.",
+      "pt": "O raro elixir é o recurso mais valioso durante a era da praga. Derrote os oponentes, reivindique a vitória e salve a humanidade."
+    }
+  },
+  "18000": {
+    "id": 18000,
+    "dayUnlock": 15,
+    "chapter": 2,
+    "category": "pvp",
+    "icon": "⚔️",
+    "name": {
+      "ru": "Дуэль альянсов",
+      "en": "Alliance Duel",
+      "de": "Allianz-Duell",
+      "es": "Duelo de alianzas",
+      "fr": "Duel d\\'alliances",
+      "id": "Pertarungan Guild",
+      "ja": "ギルドバトル",
+      "ko": "길드전",
+      "pt": "Duelo da Aliança"
+    },
+    "desc": {
+      "ru": "Масштабные противостояния альянсов. Выполняйте задания, зарабатывайте очки, одолевайте противников и получайте щедрые награды!",
+      "en": "Intense confrontations between alliances. Each member completes quests, earns points, defeats opponents, and receives generous rewards!",
+      "de": "Intensive Auseinandersetzungen zwischen Allianzen. Jedes Mitglied schließt Quests ab, verdient Punkte, besiegt Gegner und erhält großzügige Belohnungen!",
+      "es": "¡Enfrentamientos intensos entre alianzas! ¡Cada miembro completa misiones, gana puntos, derrota a los oponentes y recibe generosas recompensas!",
+      "fr": "Clashs épiques entre alliances. Accomplissez des quêtes, gagnez des points, défiez vos rivaux et empochez de généreuses récompenses !",
+      "id": "Pertarungan sengit antar guild! Setiap anggota selesaikan misi, kumpulkan poin, kalahkan lawan, dan raih hadiah besar!",
+      "ja": "ギルド間の激しい対抗、メンバー全員で任務をこなし、ポイントを獲得し、ライバルを打ち負かし、豪華報酬を手に入れよう！",
+      "ko": "길드 간의 치열한 경쟁! 퀘스트를 완료해 포인트를 획득하고, 상대를 물리쳐 풍성한 보상을 얻으세요!",
+      "pt": "Confrontos intensos entre alianças. Cada membro completa missões, ganha pontos, derrota oponentes e recebe recompensas generosas!"
+    }
+  },
+  "18001": {
+    "id": 18001,
+    "dayUnlock": 22,
+    "chapter": 2,
+    "category": "pvp",
+    "icon": "🏜️",
+    "name": {
+      "ru": "Завоевание каньона",
+      "en": "Canyon Conquest",
+      "de": "Schluchteroberung",
+      "es": "Conquista del cañón",
+      "fr": "Conquête du canyon",
+      "id": "Pertarungan Ngarai",
+      "ja": "峡谷争覇戦",
+      "ko": "협곡 대전",
+      "pt": "Conquista do Cânion"
+    },
+    "desc": {
+      "ru": "В ожесточенных схватках побеждает отвага. Распределите войска по трем линиям, захватите боевые флаги, добейтесь окончательной победы и получите награды!",
+      "en": "Bravery prevails in narrow encounters. Split forces across three lanes, seize the battle flags, claim final victory, and reap rich rewards!",
+      "de": "Mut siegt in engen Begegnungen. Teile deine Truppen auf drei Bahnen auf, erobere die Kampfflaggen, sichere dir den finalen Sieg und ernte reiche Belohnungen!",
+      "es": "La valentía prevalece en encuentros cerrados. Divide las fuerzas en tres carriles, captura las banderas de batalla, reclama la victoria final y obtén ricas recompensas.",
+      "fr": "Le courage triomphe dans les affrontements serrés. Déployez vos forces sur trois voies, emparez-vous des drapeaux de combat, remportez la victoire finale et remportez de fabuleuses récompenses !",
+      "id": "Ketika musuh bertemu, yang berani menang. Bagi pasukan menjadi tiga jalur, rebut bendera perang, raih kemenangan akhir, dan dapatkan hadiah melimpah!",
+      "ja": "強者のみが勝者となる、三手に分かれて進軍、戦旗を奪い合い、最後の勝利を掴み取って、豪華な報酬を手に入れよう！",
+      "ko": "세 갈래 길로 병력을 나눠 전투 깃발을 쟁탈하세요! 용감한 자만이 최후의 승리를 거머쥐고, 풍성한 보상을 획득할 수 있습니다!",
+      "pt": "A coragem triunfa nos confrontos mais acirrados. Divida suas forças em três frentes, capture as bandeiras de batalha, conquiste a vitória e colha grandes recompensas!"
+    }
+  },
+  "19000": {
+    "id": 19000,
+    "dayUnlock": 24,
+    "chapter": 2,
+    "category": "alliance",
+    "icon": "🏰",
+    "name": {
+      "ru": "Осада города IV",
+      "en": "City Siege IV",
+      "de": "Stadtbelagerung IV",
+      "es": "Asedio a la ciudad IV",
+      "fr": "Siège urbain IV",
+      "id": "Pertempuran Merebut Kota IV",
+      "ja": "都市争奪戦Ⅳ",
+      "ko": "도시 점령전 IV",
+      "pt": "Cerco à Cidade IV"
+    },
+    "desc": {
+      "ru": "Разгромите вражеские альянсы, захватите ключевые крепости, получите бонусы и доминируйте на сервере.",
+      "en": "Defeat rival alliances, seize key strongholds worldwide, gain stronghold bonuses, and dominate the server.",
+      "de": "Besiege rivalisierende Allianzen, erobere wichtige Bollwerke weltweit, erhalte Bollwerksboni und beherrsche den Server.",
+      "es": "Derrota a las alianzas rivales, conquista fortalezas clave en todo el mundo, obtén bonificaciones de fortaleza y domina el servidor.",
+      "fr": "Écrasez les alliances ennemies, conquérez les bastions stratégiques, déverrouillez leurs bonus et régnez sur le serveur.",
+      "id": "Kalahkan guild saingan, rebut pos kota penting di dunia, dapatkan bonus pos, dan kuasai seluruh server",
+      "ja": "ライバルギルドを倒し、重要拠点を奪取し、拠点のバフを獲得し、サーバー全体を制覇しましょう",
+      "ko": "경쟁 길드를 격파하고, 세계 곳곳의 핵심 도시 거점을 점령해 거점 버프를 획득하고 서버를 제패하세요!",
+      "pt": "Derrote alianças rivais, conquiste fortalezas importantes no mundo todo, obtenha bônus de fortaleza e domine o servidor."
+    }
+  },
+  "20000": {
+    "id": 20000,
+    "dayUnlock": 26,
+    "chapter": 2,
+    "category": "pve",
+    "icon": "🧀",
+    "name": {
+      "ru": "Улучшение сырной ловушки",
+      "en": "Cheese Trap Upgrade",
+      "de": "Käsefalle-Upgrade",
+      "es": "Mejora de la Trampa de queso",
+      "fr": "Amélioration du Piège à fromage",
+      "id": "Peningkatan Perangkap Keju",
+      "ja": "チーズの罠レベルアップ",
+      "ko": "치즈 함정 업그레이드",
+      "pt": "Melhoria da Armadilha de Queijo"
+    },
+    "desc": {
+      "ru": "Ваша мощь возросла, повысив максимальный уровень сложности похитителя сыра до ур. 4! Чем выше сложность, тем ценнее награды.",
+      "en": "Your power has surged, raising the Cheese Thief difficulty cap to Lv.4! Higher difficulty yields more rewards.",
+      "de": "Deine Macht ist angestiegen und hat die Schwierigkeitsobergrenze des Käsediebs auf Lv.4 erhöht! Höhere Schwierigkeit bringt mehr Belohnungen.",
+      "es": "Tu poder aumentó, ¡y se eleva el límite de dificultad del ladrón de queso al Nv. 4! Mayor dificultad significa más recompensas.",
+      "fr": "Votre puissance a bondi, portant le plafond de difficulté du Voleur de fromage au Niv. 4 ! Une difficulté accrue rapporte plus de récompenses.",
+      "id": "Kamu telah berkembang pesat! Batas kesulitan Pencuri Keju naik ke Lv.4! Lebih sulit, hadiah lebih besar!",
+      "ja": "実力が飛躍的に向上し、チーズ泥棒の難易度上限がLv.4まで上昇！より高難度で、より多くの報酬を！",
+      "ko": "실력이 크게 향상되어 치즈 도둑의 난이도 최대치가 레벨 4로 상승했습니다! 더 높은 난이도에서 더 많은 보상을 획득해 보세요!",
+      "pt": "Seu poder aumentou, elevando o limite de dificuldade do Ladrão de Queijo para o Nv.4! Maior dificuldade concede mais recompensas."
+    }
+  },
+  "20100": {
+    "id": 20100,
+    "dayUnlock": 14,
+    "chapter": 1,
+    "category": "pve",
+    "icon": "🧟",
+    "name": {
+      "ru": "Осада нежити",
+      "en": "Undead Siege",
+      "de": "Untoten-Belagerung",
+      "es": "Asedio de no muertos",
+      "fr": "Siège des morts-vivants",
+      "id": "Ghoul Siege",
+      "ja": "ゾンビ包囲",
+      "ko": "좀비 포위전",
+      "pt": "Cerco dos Mortos-Vivos"
+    },
+    "desc": {
+      "ru": "Тюрьма смерти кишит злобными Сквернами. Укрепите свои силы и защитите Территорию от их безжалостного натиска!",
+      "en": "The Death Prison is overrun with vicious Blights. Strengthen your forces and defend your Territory against their relentless onslaught!",
+      "de": "Das Todesgefängnis ist von bösartigen Seuchen überrannt. Verstärke deine Streitkräfte und verteidige dein Territorium gegen ihren unerbittlichen Ansturm!",
+      "es": "La Prisión de la muerte está infestada de Infectados despiadados. ¡Fortalece tus fuerzas y defiende tu Territorio contra su ataque implacable!",
+      "fr": "La Prison de la mort est envahie par de virulentes Pestes. Renforcez vos troupes et défendez votre Territoire contre leur assaut incessant !",
+      "id": "Penjara Narapidana dipenuhi berbagai Ghoul ganas, perkuat kemampuan Anda dan lindungi wilayah kita dari serangan Ghoul yang mengamuk!",
+      "ja": "死刑囚監獄は、あらゆる凶暴なゾンビで溢れかえっている。戦力を強化し、ゾンビの猛攻から我々の領地を守り抜け！",
+      "ko": "사형수 감옥은 흉악한 좀비들로 가득합니다. 힘을 강화하여 맹렬하게 몰아치는 좀비들의 공격으로부터 우리의 영지를 지켜내세요",
+      "pt": "A Prisão da Morte está infestada de Pragas ferozes. Fortaleça suas forças e defenda seu Território contra o ataque implacável delas!"
+    }
+  },
+  "21000": {
+    "id": 21000,
+    "dayUnlock": 29,
+    "chapter": 3,
+    "category": "heroes",
+    "icon": "👒",
+    "name": {
+      "ru": "Милая Красная шапочка",
+      "en": "Sweetheart Red Riding Hood",
+      "de": "Herzchen Rotkäppchen",
+      "es": "Caperucita Roja cariñosa",
+      "fr": "Charmante Chaperon rouge",
+      "id": "Si Tudung Merah Manis",
+      "ja": "スイートリトルレッド",
+      "ko": "달콤 빨간 모자",
+      "pt": "Chapeuzinho Vermelho, Meu Amor"
+    },
+    "desc": {
+      "ru": "За милым обличьем таится невероятная мощь!",
+      "en": "Beneath the sweet appearance lies incredible power!",
+      "de": "Unter dem süßen Äußeren verbirgt sich unglaubliche Kraft!",
+      "es": "¡Bajo su dulce apariencia se esconde un poder increíble!",
+      "fr": "Sous des dehors si charmants se cache une puissance incroyable !",
+      "id": "Di balik penampilan manisnya, tersembunyi kekuatan luar biasa!",
+      "ja": "その甘美な見た目の裏には、不思議な力が秘められている！",
+      "ko": "상냥해 보이는 외모 아래 숨겨진 놀라운 힘!",
+      "pt": "Em sua doce aparência se esconde um poder incrível!"
+    }
+  },
+  "22000": {
+    "id": 22000,
+    "dayUnlock": 32,
+    "chapter": 3,
+    "category": "heroes",
+    "icon": "🎭",
+    "name": {
+      "ru": "Исполнитель смерти",
+      "en": "Death Performer",
+      "de": "Todesdarsteller",
+      "es": "Intérprete de la muerte",
+      "fr": "Artiste de la mort",
+      "id": "Pemain Teater Nasib",
+      "ja": "命弄ぶ演者",
+      "ko": "운명의 공연자",
+      "pt": "Artista da Morte"
+    },
+    "desc": {
+      "ru": "Сквозь ослепительные трюки проступает безграничная жажда убийства.",
+      "en": "Amidst dazzling tricks, exudes endless killing intent.",
+      "de": "Inmitten blendender Tricks strahlt endlose Mordlust aus.",
+      "es": "Entre trucos deslumbrantes, emana una intención asesina interminable.",
+      "fr": "Au milieu de tours éblouissants, une intention meurtrière sans fin se dégage.",
+      "id": "Di antara trik-trik memukau, tersembunyi niat membunuh yang tak terbatas.",
+      "ja": "華麗な奇術の合間に、底知れぬ殺意を覗かせる。",
+      "ko": "화려한 마술 사이로 끝없는 살기가 뿜어져 나옵니다.",
+      "pt": "Apesar dos truques extravagantes, exala um desejo fatal sem limites."
+    }
+  },
+  "23000": {
+    "id": 23000,
+    "dayUnlock": 35,
+    "chapter": 3,
+    "category": "pve",
+    "icon": "🏹",
+    "name": {
+      "ru": "Охотничий бой",
+      "en": "Hunt Battle",
+      "de": "Jagd-Kampf",
+      "es": "Batalla de caza",
+      "fr": "Combat de chasse",
+      "id": "Pertempuran Pengepungan",
+      "ja": "狩猟戦",
+      "ko": "포위 섬멸전",
+      "pt": "Batalha de Caça"
+    },
+    "desc": {
+      "ru": "Орды опустошают земли. Уничтожьте их!",
+      "en": "The hordes are ravaging the land. Wipe them out!",
+      "de": "Die Horden verwüsten das Land. Vernichte sie!",
+      "es": "¡Las hordas están devastando la tierra! ¡Acaba con ellas!",
+      "fr": "Les hordes dévastent les terres. Anéantissez-les !",
+      "id": "Gerombolan Ghoul berbuat jahat di dunia, saatnya Serangan Proaktif untuk memusnahkan mereka!",
+      "ja": "ゾンビの群れが世界で悪事を働いている。今こそ奴らを討伐する時だ！",
+      "ko": "좀비 떼가 월드를 어지럽히고 있습니다. 선제공격으로 놈들을 소탕하세요!",
+      "pt": "As hordas estão devastando a terra. Elimine-as!"
+    }
+  },
+  "24000": {
+    "id": 24000,
+    "dayUnlock": 38,
+    "chapter": 3,
+    "category": "alliance",
+    "icon": "🏰",
+    "name": {
+      "ru": "Осада города V",
+      "en": "City Siege V",
+      "de": "Stadtbelagerung V",
+      "es": "Asedio a la ciudad V",
+      "fr": "Siège urbain V",
+      "id": "Pertempuran Merebut Kota V",
+      "ja": "都市争奪戦Ⅴ",
+      "ko": "도시 점령전 V",
+      "pt": "Cerco à Cidade V"
+    },
+    "desc": {
+      "ru": "Разгромите вражеские альянсы, захватите ключевые крепости, получите бонусы и доминируйте на сервере.",
+      "en": "Defeat rival alliances, seize key strongholds worldwide, gain stronghold bonuses, and dominate the server.",
+      "de": "Besiege rivalisierende Allianzen, erobere wichtige Bollwerke weltweit, erhalte Bollwerksboni und beherrsche den Server.",
+      "es": "Derrota a las alianzas rivales, conquista fortalezas clave en todo el mundo, obtén bonificaciones de fortaleza y domina el servidor.",
+      "fr": "Écrasez les alliances ennemies, conquérez les bastions stratégiques, déverrouillez leurs bonus et régnez sur le serveur.",
+      "id": "Kalahkan guild saingan, rebut pos kota penting di dunia, dapatkan bonus pos, dan kuasai seluruh server",
+      "ja": "ライバルギルドを倒し、重要拠点を奪取し、拠点のバフを獲得し、サーバー全体を制覇しましょう",
+      "ko": "경쟁 길드를 격파하고, 세계 곳곳의 핵심 도시 거점을 점령해 거점 버프를 획득하고 서버를 제패하세요!",
+      "pt": "Derrote alianças rivais, conquiste fortalezas importantes no mundo todo, obtenha bônus de fortaleza e domine o servidor."
+    }
+  },
+  "25000": {
+    "id": 25000,
+    "dayUnlock": 41,
+    "chapter": 3,
+    "category": "pve",
+    "icon": "🧀",
+    "name": {
+      "ru": "Улучшение сырной ловушки",
+      "en": "Cheese Trap Upgrade",
+      "de": "Käsefalle-Upgrade",
+      "es": "Mejora de la Trampa de queso",
+      "fr": "Amélioration du Piège à fromage",
+      "id": "Peningkatan Perangkap Keju",
+      "ja": "チーズの罠レベルアップ",
+      "ko": "치즈 함정 업그레이드",
+      "pt": "Melhoria da Armadilha de Queijo"
+    },
+    "desc": {
+      "ru": "Ваша мощь возросла, повысив максимальный уровень сложности похитителя сыра до ур. 5! Выше сложность — больше наград.",
+      "en": "Your power has surged, raising the Cheese Thief difficulty cap to Lv.5! Higher difficulty yields more rewards.",
+      "de": "Deine Macht ist angestiegen und hat die Schwierigkeitsgrenze des Käsediebs auf Lv.5 erhöht! Höhere Schwierigkeit bringt mehr Belohnungen.",
+      "es": "Tu poder aumentó, ¡y se eleva el límite de dificultad del ladrón de queso al Nv. 5! Mayor dificultad significa más recompensas.",
+      "fr": "Votre puissance a bondi, portant le plafond de difficulté du Voleur de fromage au Niv. 5 ! Une difficulté accrue rapporte plus de récompenses.",
+      "id": "Kekuatanmu meningkat pesat! Batas kesulitan Pencuri Keju naik ke Lv.5! Lebih sulit, hadiah lebih besar!",
+      "ja": "実力が飛躍的に向上し、チーズ泥棒の難易度上限がLv.5まで上昇！より高難度で、より多くの報酬を！",
+      "ko": "실력이 크게 향상되어 치즈 도둑의 난이도 최대치가 레벨 5로 상승했습니다! 더 높은 난이도에서 더 많은 보상을 획득해 보세요!",
+      "pt": "Seu poder aumentou, elevando o limite de dificuldade do Ladrão de Queijo para o Nv.5! Maior dificuldade concede mais recompensas."
+    }
+  },
+  "26000": {
+    "id": 26000,
+    "dayUnlock": 44,
+    "chapter": 3,
+    "category": "alliance",
+    "icon": "🏰",
+    "name": {
+      "ru": "Осада города VI",
+      "en": "City Siege VI",
+      "de": "Stadtbelagerung VI",
+      "es": "Asedio a la ciudad VI",
+      "fr": "Siège urbain VI",
+      "id": "Pertempuran Merebut Kota VI",
+      "ja": "都市争奪戦Ⅵ",
+      "ko": "도시 점령전 VI",
+      "pt": "Cerco à Cidade VI"
+    },
+    "desc": {
+      "ru": "Разгромите вражеские альянсы, захватите ключевые крепости, получите бонусы и доминируйте на сервере.",
+      "en": "Defeat rival alliances, seize key strongholds worldwide, gain stronghold bonuses, and dominate the server.",
+      "de": "Besiege rivalisierende Allianzen, erobere wichtige Bollwerke weltweit, erhalte Bollwerksboni und beherrsche den Server.",
+      "es": "Derrota a las alianzas rivales, conquista fortalezas clave en todo el mundo, obtén bonificaciones de fortaleza y domina el servidor.",
+      "fr": "Écrasez les alliances ennemies, conquérez les bastions stratégiques, déverrouillez leurs bonus et régnez sur le serveur.",
+      "id": "Kalahkan guild saingan, rebut pos kota penting di dunia, dapatkan bonus pos, dan kuasai seluruh server",
+      "ja": "ライバルギルドを倒し、重要拠点を奪取し、拠点のバフを獲得し、サーバー全体を制覇しましょう",
+      "ko": "경쟁 길드를 격파하고, 세계 곳곳의 핵심 도시 거점을 점령해 거점 버프를 획득하고 서버를 제패하세요!",
+      "pt": "Derrote alianças rivais, conquiste fortalezas importantes no mundo todo, obtenha bônus de fortaleza e domine o servidor."
+    }
+  },
+  "27000": {
+    "id": 27000,
+    "dayUnlock": 48,
+    "chapter": 3,
+    "category": "heroes",
+    "icon": "🎺",
+    "name": {
+      "ru": "Боевой бард",
+      "en": "Battle Bard",
+      "de": "Kampf-Barde",
+      "es": "Bardo de batalla",
+      "fr": "Barde de combat",
+      "id": "Musisi Perang",
+      "ja": "戦場の音楽家",
+      "ko": "전쟁 악사",
+      "pt": "Bardo de Batalha"
+    },
+    "desc": {
+      "ru": "Исполните вдохновляющие баллады, воспевающие величайшие битвы!",
+      "en": "Sing the most inspiring ballads, chronicling the greatest battles!",
+      "de": "Singe die inspirierendsten Balladen und erzähle von den größten Schlachten!",
+      "es": "¡Canta las baladas más inspiradoras, narrando las batallas más grandiosas!",
+      "fr": "Entonnez les ballades les plus inspirantes, narrant les plus grandes batailles !",
+      "id": "Nyanyikan lagu paling menggetarkan, abadikan pertempuran terhebat!",
+      "ja": "心を奮わせる最高の詩を謳い、最も偉大なる戦いを後世に伝えよ！",
+      "ko": "가장 감동적인 노래를 부르고, 가장 위대한 전투를 기록하세요!",
+      "pt": "Cante as baladas mais inspiradoras, narrando as maiores batalhas!"
+    }
+  },
+  "28000": {
+    "id": 28000,
+    "dayUnlock": 52,
+    "chapter": 3,
+    "category": "alliance",
+    "icon": "👑",
+    "name": {
+      "ru": "Королевский переполох",
+      "en": "Royal City Scramble",
+      "de": "Königsstadtkampf",
+      "es": "Alboroto en la Ciudad Real",
+      "fr": "Tumulte dans la Cité royale",
+      "id": "Perebutan Kota Raja",
+      "ja": "王城争奪戦",
+      "ko": "왕성 쟁탈전",
+      "pt": "Tumulto na Capital"
+    },
+    "desc": {
+      "ru": "Борьба за цитадель достигла критической точки. Продвигайтесь к королевскому городу и докажите мощь своего альянса!",
+      "en": "The struggle for the stronghold is at a critical point. Advance towards the Royal City and prove your alliance\\'s strength!",
+      "de": "Der Kampf um das Bollwerk befindet sich an einem kritischen Punkt. Rücke zur Königsstadt vor und beweise die Stärke deiner Allianz!",
+      "es": "¡La lucha por la fortaleza está en un punto crítico! ¡Avanza hacia la Ciudad Real y demuestra la fuerza de tu alianza!",
+      "fr": "La lutte pour le bastion atteint son paroxysme. Marchez sur la Cité royale et démontrez la puissance de votre alliance !",
+      "id": "Perebutan markas telah mencapai titik krusial. Maju ke ibukota dan buktikan Guild-mu yang terkuat!",
+      "ja": "拠点の争奪が重要な局面に入りました。首都へ向かって進もう。自分たちが最強のギルドであることを実力で証明しよう！",
+      "ko": "거점 쟁탈전이 결정적인 국면에 접어들었습니다. 수도를 향해 진군해, 실력으로 최강 길드임을 증명해 보세요!",
+      "pt": "A luta pela fortaleza está em um ponto crítico. Avance em direção à Cidade Real e prove a força da sua aliança!"
+    }
+  },
+  "29000": {
+    "id": 29000,
+    "dayUnlock": 56,
+    "chapter": 3,
+    "category": "pvp",
+    "icon": "🌐",
+    "name": {
+      "ru": "Война королевств",
+      "en": "Kingdom War",
+      "de": "Königreichskrieg",
+      "es": "Guerra del reino",
+      "fr": "Guerre du royaume",
+      "id": "Ekspedisi Lintas Negara",
+      "ja": "クロサバ遠征",
+      "ko": "국가 원정",
+      "pt": "Guerra do Reino"
+    },
+    "desc": {
+      "ru": "Королевский переполох завершен. Война королевств скоро начнется. Доктора, объединитесь и дайте отпор захватчикам.",
+      "en": "The Royal City Scramble is settled. Kingdom War is about to begin. All Doctors, unite and resist the invaders",
+      "de": "Der Königsstadtkampf ist entschieden. Der Königreichskrieg steht kurz bevor. Alle Ärzte, vereint euch und widersteht den Eindringlingen",
+      "es": "El Alboroto en la Ciudad Real finalizó. La Guerra del reino está a punto de comenzar. Doctores, únanse y resistan a los invasores.",
+      "fr": "Le Tumulte dans la Cité royale est achevé. La guerre du royaume est imminente. Docteurs, unissez-vous et résistez aux envahisseurs",
+      "id": "Perebutan Kota Raja telah berakhir, Ekspedisi Lintas Negara akan segera dimulai, semua dokter bersatu, bekerja sama melawan musuh luar",
+      "ja": "王城争奪戦の決着がつき、クロサバ遠征が間もなく始まります。全てのドクターは団結し、協力して外敵に立ち向かいましょう。",
+      "ko": "왕성 쟁탈전이 막을 내리고 국가 원정이 곧 시작됩니다. 함께 힘을 모아 외적에 맞서 싸웁시다!",
+      "pt": "O Tumulto na Capital foi concluído. A Guerra do Reino está prestes a começar. Todos os Médicos, unam-se e resistam aos invasores."
+    }
+  },
+  "30000": {
+    "id": 30000,
+    "dayUnlock": 60,
+    "chapter": 3,
+    "category": "pvp",
+    "icon": "🎯",
+    "name": {
+      "ru": "Охотник поля боя",
+      "en": "Battlefield Hunter",
+      "de": "Schlachtfeldjäger",
+      "es": "Cazador del campo de batalla",
+      "fr": "Chasseur du champ de bataille",
+      "id": "Pemburu Medan Perang",
+      "ja": "戦場ハンター",
+      "ko": "전장 사냥꾼",
+      "pt": "Caçador de Batalha"
+    },
+    "desc": {
+      "ru": "Несокрушимый и верный страж, отражающий любые вражеские удары. Наймите его!",
+      "en": "An extremely reliable and tough guardian who blocks all enemy attacks. Recruit him now.",
+      "de": "Ein äußerst zuverlässiger und robuster Wächter, der alle feindlichen Angriffe abwehrt. Rekrutiere ihn jetzt.",
+      "es": "Un guardián sumamente fiable y resistente, capaz de bloquear cada ataque enemigo. ¡Reclútalo ahora!",
+      "fr": "Gardien inébranlable et fiable, il pare toutes les attaques. Recrutez-le maintenant !",
+      "id": "Pelindung yang sangat andal, sekokoh Tembok Kota, mampu menahan segala serangan musuh. Ayo Rekrut dia sekarang!",
+      "ja": "防壁のごとく堅固な守護者。敵の猛攻をすべて防ぎ切る、非常に頼れる存在です。ぜひ募集して仲間に加えましょう。",
+      "ko": "매우 믿음직한 수호자. 성벽처럼 단단하여 적의 공격을 막아낼 수 있습니다. 지금 바로 모집하여 함께하세요!",
+      "pt": "Um guardião extremamente confiável e resistente que bloqueia todos os ataques inimigos. Recrute-o agora."
+    }
+  },
+  "31000": {
+    "id": 31000,
+    "dayUnlock": 62,
+    "chapter": 3,
+    "category": "alliance",
+    "icon": "🐫",
+    "name": {
+      "ru": "Межсерверный торговый обмен",
+      "en": "Cross-Server Intercity Trade",
+      "de": "Serverübergreifender Städtehandel",
+      "es": "Comercio Interurbano entre Servidores",
+      "fr": "Commerce intercités trans-serveurs",
+      "id": "Perdagangan Antar Kota Lintas Server",
+      "ja": "クロスサーバー都市間貿易",
+      "ko": "크로스 서버 도시 무역",
+      "pt": "Comércio Intercidades entre Servidores"
+    },
+    "desc": {
+      "ru": "Благодаря докторам, открыты торговые пути в другие регионы. Сопроводите грузы и получите награды!",
+      "en": "Thanks to the Doctors\\' efforts, we\\'ve opened trade routes with other regions. Escort the goods and earn rewards!",
+      "de": "Dank der Bemühungen der Ärzte haben wir Handelsrouten mit anderen Regionen eröffnet. Begleite die Waren und verdiene Belohnungen!",
+      "es": "¡Gracias a los esfuerzos de los doctores, hemos abierto rutas comerciales con otras regiones! ¡Escolta las mercancías y gana recompensas!",
+      "fr": "Grâce aux efforts des docteurs, des routes commerciales ont été établies avec d\\'autres régions. Escortez les convois pour remporter de précieuses récompenses !",
+      "id": "Berkat kerja keras para dokter, jalur perdagangan dengan wilayah lain telah terbuka. Segera kawal barang dagangan dan raih hadiahnya!",
+      "ja": "ドクターたちの努力により、他の地域との交易ルートが開通しました。急いで物資を護送し、報酬を手に入れよう。",
+      "ko": "의사들의 노력으로 다른 지역과의 교역로가 열렸습니다. 물자를 호위하고 보상을 획득하세요.",
+      "pt": "Graças aos esforços dos Médicos, abrimos rotas comerciais com outras regiões. Escolte as mercadorias e ganha recompensas!"
+    }
+  },
+  "32000": {
+    "id": 32000,
+    "dayUnlock": 64,
+    "chapter": 3,
+    "category": "pve",
+    "icon": "🧀",
+    "name": {
+      "ru": "Улучшение сырной ловушки",
+      "en": "Cheese Trap Upgrade",
+      "de": "Käsefalle-Upgrade",
+      "es": "Mejora de la Trampa de queso",
+      "fr": "Amélioration du Piège à fromage",
+      "id": "Peningkatan Perangkap Keju",
+      "ja": "チーズの罠レベルアップ",
+      "ko": "치즈 함정 업그레이드",
+      "pt": "Melhoria da Armadilha de Queijo"
+    },
+    "desc": {
+      "ru": "Ваша мощь возросла, и максимальный уровень сложности похитителя сыра теперь ур. 6! Выше сложность — больше наград.",
+      "en": "Your power has surged, raising the Cheese Thief difficulty cap to Lv.6! Higher difficulty yields more rewards.",
+      "de": "Deine Macht ist angestiegen und hat die Schwierigkeitsobergrenze des Käsediebs auf Lv.6 erhöht! Höhere Schwierigkeit bringt mehr Belohnungen.",
+      "es": "Tu poder aumentó, ¡y se eleva el límite de dificultad del ladrón de queso al Nv. 6! Mayor dificultad significa más recompensas.",
+      "fr": "Votre puissance a bondi, portant le plafond de difficulté du Voleur de fromage au Niv. 6 ! Une difficulté accrue rapporte plus de récompenses.",
+      "id": "Kekuatanmu meningkat pesat! Batas kesulitan Pencuri Keju naik ke Lv.6! Lebih sulit, hadiah lebih besar!",
+      "ja": "実力が飛躍的に向上し、チーズ泥棒の難易度上限がLv.6まで上昇！より高難度で、より多くの報酬を！",
+      "ko": "실력이 크게 향상되어 치즈 도둑의 난이도 최대치가 레벨 6으로 상승했습니다! 더 높은 난이도에서 더 많은 보상을 획득해 보세요!",
+      "pt": "Seu poder aumentou, elevando o limite de dificuldade do Ladrão de Queijo para o Nv.6! Maior dificuldade concede mais recompensas."
+    }
+  },
+  "33000": {
+    "id": 33000,
+    "dayUnlock": 66,
+    "chapter": 4,
+    "category": "heroes",
+    "icon": "🌹",
+    "name": {
+      "ru": "Багровая роза",
+      "en": "Crimson Rose",
+      "de": "Rote Rose",
+      "es": "Rosa carmesí",
+      "fr": "Rose écarlate",
+      "id": "Mawar Berdarah",
+      "ja": "血色の薔薇",
+      "ko": "핏빛 장미",
+      "pt": "Rosa Carmesim"
+    },
+    "desc": {
+      "ru": "Прирожденный охотник, чьи враги увядают, словно опадающие лепестки.",
+      "en": "A born hunter who makes enemy wither away like falling petals.",
+      "de": "Ein geborener Jäger, der Feindesleben wie fallende Blütenblätter verwelken lässt.",
+      "es": "Una cazadora nata que deja que las vidas enemigas se marchiten como pétalos cayendo.",
+      "fr": "Chasseur-né, il flétrit les vies ennemies comme des pétales qui tombent.",
+      "id": "Pemburu alami, membuat HP musuh layu bersama kelopak bunga.",
+      "ja": "生まれながらのハンター、敵のHPを花びらと共に散らせる。",
+      "ko": "타고난 사냥꾼, 꽃잎이 지듯 적의 생명도 함께 꺼져가게 합니다.",
+      "pt": "Um caçador nato que faz a vida dos inimigos murchar como pétalas caindo."
+    }
+  },
+  "34000": {
+    "id": 34000,
+    "dayUnlock": 70,
+    "chapter": 4,
+    "category": "heroes",
+    "icon": "🐺",
+    "name": {
+      "ru": "Клык судьбы",
+      "en": "Fang of Fate",
+      "de": "Zahn des Schicksals",
+      "es": "Colmillo del destino",
+      "fr": "Croc du destin",
+      "id": "Taring Takdir",
+      "ja": "運命の牙",
+      "ko": "운명의 송곳니",
+      "pt": "Presa do Destino"
+    },
+    "desc": {
+      "ru": "Кровь волка не знает боли — прирожденный танк первой линии.",
+      "en": "A tank-type hero by nature, whose wolf lineage grants an extraordinary resistance to pain.",
+      "de": "Wolfsblut, das keinen Schmerz spürt, ein natürlicher Frontkämpfer-Held.",
+      "es": "Sangre de lobo que no siente dolor, un héroe tanque natural para la primera línea.",
+      "fr": "Sang de Lycan insensible à la douleur, un tank naturel de première ligne.",
+      "id": "Keturunan serigala yang tak bisa merasakan sakit, Hero tank sejati!",
+      "ja": "痛みを感じない狼族の血筋、生まれながらのタンク型英雄。",
+      "ko": "고통을 모르는 늑대의 혈족, 타고난 탱커형 영웅",
+      "pt": "O sangue Wolfkin não permite que sinta dor. Um herói Tanque perfeito para vanguarda."
+    }
+  },
+  "35000": {
+    "id": 35000,
+    "dayUnlock": 74,
+    "chapter": 4,
+    "category": "pve",
+    "icon": "🧀",
+    "name": {
+      "ru": "Улучшение сырной ловушки",
+      "en": "Cheese Trap Upgrade",
+      "de": "Käsefalle-Upgrade",
+      "es": "Mejora de la Trampa de queso",
+      "fr": "Amélioration du Piège à fromage",
+      "id": "Peningkatan Perangkap Keju",
+      "ja": "チーズの罠レベルアップ",
+      "ko": "치즈 함정 업그레이드",
+      "pt": "Melhoria da Armadilha de Queijo"
+    },
+    "desc": {
+      "ru": "Ваша мощь возросла, повысив максимальный уровень сложности похитителя сыра до ур. 7! Выше сложность — больше наград.",
+      "en": "Your power has surged, raising the Cheese Thief difficulty cap to Lv.7! Higher difficulty yields more rewards.",
+      "de": "Deine Macht ist angestiegen und hat die Schwierigkeitsgrenze des Käsediebs auf Lv.7 erhöht! Höhere Schwierigkeit bringt mehr Belohnungen.",
+      "es": "Tu poder aumentó, ¡y se eleva el límite de dificultad del ladrón de queso al Nv. 7! Mayor dificultad significa más recompensas.",
+      "fr": "Votre puissance a bondi, portant le plafond de difficulté du Voleur de fromage au Niv. 7 ! Une difficulté accrue rapporte plus de récompenses.",
+      "id": "Kekuatanmu meningkat pesat! Batas kesulitan Pencuri Keju naik ke Lv.7! Lebih sulit, hadiah lebih besar!",
+      "ja": "実力が飛躍的に向上し、チーズ泥棒の難易度上限がLv.7まで上昇！より高難度で、より多くの報酬を！",
+      "ko": "실력이 크게 향상되어 치즈 도둑의 난이도 최대치가 레벨 7로 상승했습니다! 더 높은 난이도에서 더 많은 보상을 획득해 보세요!",
+      "pt": "Seu poder aumentou, elevando o limite de dificuldade do Ladrão de Queijo para o Nv.7! Maior dificuldade concede mais recompensas."
+    }
+  },
+  "36000": {
+    "id": 36000,
+    "dayUnlock": 78,
+    "chapter": 4,
+    "category": "pve",
+    "icon": "⛰️",
+    "name": {
+      "ru": "Дух горы",
+      "en": "Mountain Spirit",
+      "de": "Geist des Berges",
+      "es": "Espíritu de la montaña",
+      "fr": "Esprit de la montagne",
+      "id": "Roh Dewa Gunung",
+      "ja": "山神の霊",
+      "ko": "산신의 정령",
+      "pt": "Espírito da Montanha"
+    },
+    "desc": {
+      "ru": "Таинственная мощь природы, без труда сметающая любые угрозы.",
+      "en": "Harness the mystic power of nature to effortlessly overcome any threat.",
+      "de": "Geheimnisvolle Kraft, der Natur selbst entnommen, zerschmettert mühelos alle Bedrohungen.",
+      "es": "Poder misterioso extraído de la propia naturaleza, aplastando sin esfuerzo todas las amenazas.",
+      "fr": "Pouvoir mystérieux issu de la nature, anéantissant toute menace sans effort.",
+      "id": "Kekuatan misterius alam, atasi semua ancaman dengan mudah!",
+      "ja": "大自然の神秘的な力が、あらゆる脅威をたやすく解決する。",
+      "ko": "대자연의 신비로운 힘으로 모든 위협을 가뿐히 물리치세요!",
+      "pt": "Poder misterioso extraído da própria natureza, esmagando facilmente todas as ameaças."
+    }
+  },
+  "37000": {
+    "id": 37000,
+    "dayUnlock": 82,
+    "chapter": 4,
+    "category": "pve",
+    "icon": "🧀",
+    "name": {
+      "ru": "Улучшение сырной ловушки",
+      "en": "Cheese Trap Upgrade",
+      "de": "Käsefalle-Upgrade",
+      "es": "Mejora de la Trampa de queso",
+      "fr": "Amélioration du Piège à fromage",
+      "id": "Peningkatan Perangkap Keju",
+      "ja": "チーズの罠レベルアップ",
+      "ko": "치즈 함정 업그레이드",
+      "pt": "Melhoria da Armadilha de Queijo"
+    },
+    "desc": {
+      "ru": "Ваша мощь возросла, повысив максимальную сложность Похитителя сыра до ур. 8! Выше сложность — больше наград.",
+      "en": "Your power increased, the Cheese Thief difficulty cap is raised to Lv.8! Higher difficulty yields more rewards.",
+      "de": "Deine Macht ist angestiegen und hat die Schwierigkeitsobergrenze des Käsediebs auf Lv.8 erhöht! Höhere Schwierigkeit bringt mehr Belohnungen.",
+      "es": "Tu poder aumentó, ¡y se eleva el límite de dificultad del ladrón de queso al Nv. 8! Mayor dificultad significa más recompensas.",
+      "fr": "Votre puissance a bondi, portant le plafond de difficulté du Voleur de fromage au Niv. 8 ! Une difficulté plus haute rapporte plus de récompenses.",
+      "id": "Kekuatanmu meningkat pesat! Batas kesulitan Pencuri Keju naik ke Lv.8! Lebih sulit, hadiah lebih besar!",
+      "ja": "実力が飛躍的に向上し、チーズ泥棒の難易度上限がLv.8まで上昇！より高難度で、より多くの報酬を！",
+      "ko": "실력이 크게 향상되어 치즈 도둑의 난이도 최대치가 Lv.8로 상승했습니다! 더 높은 난이도에서 더 많은 보상을 획득해 보세요!",
+      "pt": "Seu poder aumentou, elevando o limite de dificuldade do Ladrão de Queijo para o Nv.8! Dificuldades maiores concedem mais recompensas."
+    }
+  },
+  "38000": {
+    "id": 38000,
+    "dayUnlock": 86,
+    "chapter": 4,
+    "category": "heroes",
+    "icon": "⚡",
+    "name": {
+      "ru": "Мощь освобождения",
+      "en": "Unleashed Power",
+      "de": "Kraft der Befreiung",
+      "es": "Poder de la liberación",
+      "fr": "Pouvoir de la libération",
+      "id": "Kekuatan Pembebasan",
+      "ja": "解脱の力",
+      "ko": "해방의 힘",
+      "pt": "Poder da Libertação"
+    },
+    "desc": {
+      "ru": "Мощь, вырвавшаяся на свободу, способна сокрушить все!",
+      "en": "Unleashed from its bonds, this power is capable of destroying all.",
+      "de": "Entfesselte Macht, befreit von ihren Fesseln, fähig alles zu zerstören!",
+      "es": "¡Poder liberado de sus cadenas, capaz de destruirlo todo!",
+      "fr": "Pouvoir déchaîné de ses entraves, capable de tout détruire !",
+      "id": "Kekuatan yang terlepas dari belenggu, mampu menghancurkan segalanya!",
+      "ja": "解き放たれた力が、すべてを滅ぼす！",
+      "ko": "속박에서 풀려난 힘은 모든 것을 파괴합니다!",
+      "pt": "Sem amarras para seu poder, é capaz de destruir tudo!"
+    }
+  },
+  "39000": {
+    "id": 39000,
+    "dayUnlock": 90,
+    "chapter": 4,
+    "category": "heroes",
+    "icon": "🔔",
+    "name": {
+      "ru": "Целебный звездный звон",
+      "en": "Healing Starbell",
+      "de": "Heilende Sternenglocke",
+      "es": "Campanilla estelar sanadora",
+      "fr": "Clochette étoilée de guérison",
+      "id": "Lonceng Penyembuh",
+      "ja": "癒やしの星鈴",
+      "ko": "치유의 방울",
+      "pt": "Sino Estelar Curativo"
+    },
+    "desc": {
+      "ru": "С каждым чистым перезвоном раны затягиваются и надежда возрождается.",
+      "en": "With the chime of a clear bell, all wounds are healed.",
+      "de": "Mit jedem klaren Glockenklang verblassen Wunden und Hoffnung wird wiederhergestellt.",
+      "es": "Con cada repique claro, las heridas se desvanecen y la esperanza se restaura.",
+      "fr": "À chaque carillon limpide, les blessures s\\'estompent et l\\'espoir renaît.",
+      "id": "Di bawah dentingan lonceng yang jernih, semua luka tersembuhkan.",
+      "ja": "澄んだ鈴の音が、あらゆる傷を癒す。",
+      "ko": "청아한 방울 소리가 모든 상처를 어루만져 줍니다.",
+      "pt": "A cada límpida baladada, feridas desaparecem e a esperança é restaurada."
+    }
+  },
+  "40000": {
+    "id": 40000,
+    "dayUnlock": 96,
+    "chapter": 4,
+    "category": "alliance",
+    "icon": "📜",
+    "name": {
+      "ru": "Эпиграф Ворона открыт",
+      "en": "Raven Epigraph Unlocked",
+      "de": "Raben-Epigraph freigeschaltet",
+      "es": "Epígrafe del Cuervo desbloqueado",
+      "fr": "Épigraphe du corbeau déverrouillée",
+      "id": "Buka Prasasti Raven",
+      "ja": "レイヴンルーン解放",
+      "ko": "까마귀 룬 해제",
+      "pt": "Epígrafe do Corvo Desbloqueada"
+    },
+    "desc": {
+      "ru": "Мощный эпиграф, дарующий Ворону невероятную мощь!",
+      "en": "Power-infused Epigraph that grants the Raven overwhelming strength!",
+      "de": "Krafterfüllter Epigraph, der dem Raben überwältigende Stärke verleiht!",
+      "es": "¡Epígrafe imbuido de poder que otorga al Cuervo una fuerza abrumadora!",
+      "fr": "Épigraphe chargée de puissance, conférant une force écrasante au corbeau !",
+      "id": "Prasasti berenergi yang memberikan kekuatan super untuk Raven!",
+      "ja": "エネルギーを秘めたルーン、レイヴンを大幅に強化！",
+      "ko": "에너지가 깃든 룬이 까마귀에게 막강한 힘을 부여합니다!",
+      "pt": "Epígrafe imbuída de poder que concede ao Corvo uma força descomunal!"
+    }
+  },
+  "41000": {
+    "id": 41000,
+    "dayUnlock": 102,
+    "chapter": 4,
+    "category": "heroes",
+    "icon": "🎪",
+    "name": {
+      "ru": "Кукловод",
+      "en": "Puppet",
+      "de": "Puppenspieler",
+      "es": "Titiritero",
+      "fr": "Marionnettiste",
+      "id": "Boneka Marionette",
+      "ja": "マリオネット",
+      "ko": "마리오네트",
+      "pt": "Titereiro"
+    },
+    "desc": {
+      "ru": "Безгранично предан, расчищает путь от любых преград.",
+      "en": "It never lies, it never betrays, it only clear the obstacles in your path.",
+      "de": "Treu über jeden Zweifel erhaben, räumt jedes Hindernis aus deinem Weg.",
+      "es": "Lealtad inquebrantable, despejando cada obstáculo en tu camino.",
+      "fr": "D\\'une loyauté indéfectible, balayant tous les obstacles sur votre passage.",
+      "id": "Tak akan pernah mengkhianati, tak akan pernah berbohong, menyingkirkan semua rintangan untukmu!",
+      "ja": "決して裏切らず、決して偽らず、貴方様のために全ての障害を排除いたします！",
+      "ko": "결코 배신도 거짓도 없이, 당신의 길을 막는 모든 것을 치워드리겠습니다!",
+      "pt": "Com lealdade inquestionável, supera todos os obstáculos em seu caminho."
+    }
+  },
+  "42000": {
+    "id": 42000,
+    "dayUnlock": 108,
+    "chapter": 4,
+    "category": "pve",
+    "icon": "🧀",
+    "name": {
+      "ru": "Улучшение сырной ловушки",
+      "en": "Cheese Trap Upgrade",
+      "de": "Käsefalle-Upgrade",
+      "es": "Mejora de la Trampa de queso",
+      "fr": "Amélioration du Piège à fromage",
+      "id": "Peningkatan Perangkap Keju",
+      "ja": "チーズの罠レベルアップ",
+      "ko": "치즈 함정 업그레이드",
+      "pt": "Melhoria da Armadilha de Queijo"
+    },
+    "desc": {
+      "ru": "Ваша мощь возросла, повысив максимальную сложность Похитителя сыра до ур. 9! Выше сложность — больше наград.",
+      "en": "Your power increased, the Cheese Thief difficulty cap is raised to Lv.9! Higher difficulty yields more rewards.",
+      "de": "Deine Macht ist angestiegen und hat die Schwierigkeitsgrenze des Käsediebs auf Lv.9 erhöht! Höheres Schwierigkeitsgrad bringt mehr Belohnungen.",
+      "es": "Tu poder aumentó, ¡y se eleva el límite de dificultad del ladrón de queso al Nv. 9! Mayor dificultad significa más recompensas.",
+      "fr": "Votre puissance a bondi, portant le plafond de difficulté du Voleur de fromage au Niv. 9 ! Une difficulté plus haute rapporte plus de récompenses",
+      "id": "Kekuatanmu meningkat pesat! Batas kesulitan Pencuri Keju naik ke Lv.9! Lebih sulit, hadiah lebih besar!",
+      "ja": "実力が飛躍的に向上し、チーズ泥棒の難易度上限がLv.9まで上昇！より高難度で、より多くの報酬を！",
+      "ko": "실력이 크게 향상되어 치즈 도둑의 난이도 최대치가 Lv.9로 상승했습니다! 더 높은 난이도에서 더 많은 보상을 획득해 보세요!",
+      "pt": "Seu poder aumentou, elevando o limite de dificuldade do Ladrão de Queijo para o Nv.9! Dificuldades maiores concedem mais recompensas."
+    }
+  },
+  "43000": {
+    "id": 43000,
+    "dayUnlock": 112,
+    "chapter": 4,
+    "category": "heroes",
+    "icon": "🔥",
+    "name": {
+      "ru": "Королева огня",
+      "en": "Queen of Fire",
+      "de": "Königin des Feuers",
+      "es": "Reina del fuego",
+      "fr": "Reine de feu",
+      "id": "Ratu Api",
+      "ja": "炎の女王",
+      "ko": "불의 여왕",
+      "pt": "Rainha do Fogo"
+    },
+    "desc": {
+      "ru": "Творить или разрушать. Выбор за вами!",
+      "en": "Create all, or destroy all. The choice is yours!",
+      "de": "Alles erschaffen oder alles zerstören. Die Wahl liegt bei dir!",
+      "es": "Crear todo o destruir todo. ¡La elección es tuya!",
+      "fr": "Tout créer, ou tout détruire. Le choix vous appartient !",
+      "id": "Ciptakan segalanya, atau hancurkan segalanya! Semua tergantung kehendak Anda.",
+      "ja": "全てを創造し、あるいは全てを破壊する！全ては貴方様の思し召しのままに。",
+      "ko": "창조든 파멸이든 모든 것은 당신의 뜻에 달려 있습니다.",
+      "pt": "Crie tudo ou destrua tudo. A escolha é sua!"
+    }
+  },
+  "44000": {
+    "id": 44000,
+    "dayUnlock": 116,
+    "chapter": 4,
+    "category": "pve",
+    "icon": "🧀",
+    "name": {
+      "ru": "Улучшение сырной ловушки",
+      "en": "Cheese Trap Upgrade",
+      "de": "Käsefalle-Upgrade",
+      "es": "Mejora de la Trampa de queso",
+      "fr": "Amélioration du Piège à fromage",
+      "id": "Peningkatan Perangkap Keju",
+      "ja": "チーズの罠レベルアップ",
+      "ko": "치즈 함정 업그레이드",
+      "pt": "Melhoria da Armadilha de Queijo"
+    },
+    "desc": {
+      "ru": "Ваша мощь возросла, так что максимальный уровень сложности Похитителя сыра повысился до ур. 10! Выше сложность — больше наград.",
+      "en": "Your power increased, the Cheese Thief difficulty cap is raised to Lv.10! Higher difficulty yields more rewards.",
+      "de": "Deine Macht ist gestiegen, die Schwierigkeitsobergrenze des Käsediebs wurde auf Lv.10 erhöht! Höhere Schwierigkeit bringt mehr Belohnungen.",
+      "es": "¡Tu poder aumentó y se eleva el límite de dificultad del ladrón de queso al Nv. 10! Mayor dificultad significa más recompensas.",
+      "fr": "Votre puissance a bondi, portant le plafond de difficulté du Voleur de fromage au Niv. 10 ! Une difficulté accrue rapporte plus de récompenses.",
+      "id": "Kekuatanmu meningkat pesat! Batas kesulitan Pencuri Keju naik ke Lv.10! Lebih sulit, hadiah lebih besar!",
+      "ja": "実力が飛躍的に向上し、チーズ泥棒の難易度上限がLv.10まで上昇！より高難度で、より多くの報酬を！",
+      "ko": "실력이 크게 향상되어 치즈 도둑의 난이도 최대치가 Lv.10으로 상승했습니다! 더 높은 난이도에서 더 많은 보상을 획득해 보세요!",
+      "pt": "Seu poder aumentou! O limite de dificuldade do Ladrão de Queijo foi elevado para o Nv.10. Dificuldades mais altas concedem mais recompensas."
+    }
+  },
+  "45000": {
+    "id": 45000,
+    "dayUnlock": 120,
+    "chapter": 5,
+    "category": "season",
+    "icon": "☣️",
+    "name": {
+      "ru": "Начинается Эра возрождения!",
+      "en": "Era of Revival Arrives!",
+      "de": "Das Zeitalter der Wiederbelebung bricht an!",
+      "es": "¡Llega la Era del renacimiento!",
+      "fr": "L\\'Ère du renouveau arrive !",
+      "id": "Era Kebangkitan telah tiba!",
+      "ja": "ルネサンス到来！",
+      "ko": "부흥 시대 도래!",
+      "pt": "A Era da Renovação Chegou!"
+    },
+    "desc": {
+      "ru": "Раньше люди считали чуму божественной карой, полагая, что лишь молитва и исповедь могли очистить их грехи и спасти от мора. Однако чума никого не щадила. Так человечество потянулось к науке.",
+      "en": "Initially, people believed the Plague was divine punishment, thinking only through prayer and confession could they cleanse their sins and escape the pestilence. Yet before the Plague, no one was spared. Thus began humanity\\'s pursuit of science.",
+      "de": "Anfangs glaubten die Menschen, die Seuche sei eine göttliche Strafe und dachten, nur durch Gebet und Beichte könnten sie ihre Sünden reinwaschen und der Pest entkommen. Doch vor der Seuche blieb niemand verschont. So begann die Menschheit mit der Verfolgung der Wissenschaft.",
+      "es": "Inicialmente, la gente creía que la Plaga era un castigo divino, pensando que solo a través de la oración y la confesión podrían purificar sus pecados y escapar de la pestilencia. Sin embargo, ante la Plaga, nadie se salvó. Así comenzó la búsqueda de la ciencia por parte de la humanidad.",
+      "fr": "Initialement, la population percevait la Peste comme un châtiment divin, pensant que seules la prière et la confession pouvaient purifier leurs péchés et les soustraire à ce fléau. Pourtant, face à la Peste, nul ne fut épargné. C\\'est ainsi que l\\'humanité entreprit sa quête de la science.",
+      "id": "Awalnya, orang-orang mengira Wabah Hitam adalah hukuman dari dewa, hanya melalui doa dan penyesalan untuk membersihkan dosa mereka, barulah bisa selamat dari wabah tersebut. Namun, di hadapan Wabah Hitam, tak seorang pun bisa terhindar. Sejak saat itu, manusia mulai menjelajahi ilmu pengetahuan......",
+      "ja": "当初、人々はペストを神罰と信じ、祈りと懺悔で罪を洗い流すことでのみ救われると考えていた。だが、ペストの前では誰も逃れることはできなかった。こうして、人々は科学の探求を始めた……",
+      "ko": "사람들은 흑사병이 신이 내린 징벌이라 여겼고, 기도와 참회로 죄를 씻어내야 역병을 피할 수 있다고 믿었다. 하지만 흑사병 앞에서는 누구도 자유로울 수 없었다. 그리고 마침내, 인류는 과학의 길을 걷기 시작했다...",
+      "pt": "No início, acreditava-se que a Praga era um castigo divino, e que apenas com orações e confissões seria possível purificar os pecados e escapar da pestilência. Porém, diante da Praga, ninguém estava a salvo. Foi assim que começou a busca da humanidade pela ciência."
+    }
+  },
+  "46000": {
+    "id": 46000,
+    "dayUnlock": 125,
+    "chapter": 5,
+    "category": "season",
+    "icon": "✨",
+    "name": {
+      "ru": "Пробуждение Марлены",
+      "en": "Marlena Awakens",
+      "de": "Marlena erwacht",
+      "es": "Marlena Despierta",
+      "fr": "Marlena s\\'éveille",
+      "id": "Kebangkitan Marlena",
+      "ja": "マレーナ覚醒",
+      "ko": "말레나 각성",
+      "pt": "Marlena Desperta"
+    },
+    "desc": {
+      "ru": "Марлена пробудила новую мощную способность и без труда сокрушает всех врагов!",
+      "en": "Marlena has awakened a powerful new ability and effortlessly vanquishes all opposing forces!",
+      "de": "Marlena hat eine mächtige neue Fähigkeit erweckt und besiegt mühelos alle gegnerischen Kräfte!",
+      "es": "¡Marlena despertó una nueva habilidad poderosa y vence sin esfuerzo a todas las fuerzas enemigas!",
+      "fr": "Marlena a éveillé un nouveau pouvoir redoutable. Elle est désormais capable d\\'anéantir toute opposition !",
+      "id": "Marlena telah membangkitkan kemampuan baru yang dahsyat, mudah memusnahkan semua kekuatan musuh!",
+      "ja": "マレーナが新たな強大な力に覚醒し、あらゆる敵を楽々と打ち破る！",
+      "ko": "말레나가 강력한 신규 능력을 각성하여 모든 적을 손쉽게 섬멸합니다!",
+      "pt": "Marlena despertou uma poderosa nova habilidade e aniquilou todas as forças inimigas sem esforço!"
+    }
+  },
+  "47000": {
+    "id": 47000,
+    "dayUnlock": 130,
+    "chapter": 5,
+    "category": "season",
+    "icon": "👹",
+    "name": {
+      "ru": "Достижение Скверны короля демонов повышено",
+      "en": "Demon King Blight Achievement Increased",
+      "de": "Dämonenkönig Seuche Erfolg Erhöht",
+      "es": "Logro de Rey Demonio Infectado aumentado",
+      "fr": "Accomplissement Peste du Roi démon augmenté",
+      "id": "Prestasi Ghoul Raja Iblis meningkat",
+      "ja": "魔王ゾンビ実績追加",
+      "ko": "마왕 좀비 업적 추가",
+      "pt": "Conquistas do Rei Demônio Praga Aumentadas"
+    },
+    "desc": {
+      "ru": "Открыты новые уровни достижений по урону. Отправляйтесь в мир и уничтожайте Королей демонов!",
+      "en": "Higher damage Achievement tiers are now available. Head to the World and hunt Demon Kings!",
+      "de": "Höhere Schaden-Erfolg-Stufen sind jetzt verfügbar. Geh in die Welt und jage Dämonenkönige!",
+      "es": "Ya están disponibles niveles superiores de logros de daño. ¡Ve al Mundo y caza Reyes Demonios!",
+      "fr": "De nouveaux paliers d\\'accomplissement de dégâts plus élevés sont désormais disponibles. Rendez-vous dans le monde et chassez les Rois démons !",
+      "id": "Tingkat Prestasi damage yang lebih tinggi kini telah dibuka, pergilah ke Dunia dan berburu Raja Iblis sepuasnya!",
+      "ja": "より高い段階のダメージ実績が開放されました。ワールドで思う存分魔王を狩りましょう！",
+      "ko": "더 높은 단계의 피해 업적이 개방되었습니다. 월드에서 마왕을 마음껏 사냥하세요!",
+      "pt": "Novos níveis de dano da Conquista estão disponíveis. Vá ao Mundo e caçe os Reis Demônio!"
+    }
+  },
+  "48000": {
+    "id": 48000,
+    "dayUnlock": 135,
+    "chapter": 5,
+    "category": "season",
+    "icon": "🗡️",
+    "name": {
+      "ru": "Эксклюзивное оружие Даскала",
+      "en": "Daskal Exclusive Weapon",
+      "de": "Daskals Exklusive Waffe",
+      "es": "Arma exclusiva de Daskal",
+      "fr": "Arme exclusive de Daskal",
+      "id": "Senjata Eksklusif Duskar",
+      "ja": "ダスカール専用武器",
+      "ko": "다스칼 전용 무기",
+      "pt": "Arma Exclusiva do Daskal"
+    },
+    "desc": {
+      "ru": "Эксклюзивное оружие Даскала готово. Вооружитесь им, чтобы увеличить свою мощь!",
+      "en": "Daskal Exclusive Weapon is ready. Wield this perfectly-suited weapon and dramatically boost your power!",
+      "de": "Daskals Exklusive Waffe ist bereit. Führe diese perfekt geeignete Waffe und steigere deine Kraft dramatisch!",
+      "es": "El arma exclusiva de Daskal está lista. ¡Empuña esta arma perfectamente adaptada y aumenta drásticamente tu poder!",
+      "fr": "L\\'arme exclusive de Daskal est prête. Brandissez cette arme parfaitement adaptée et décuplez votre puissance !",
+      "id": "Senjata Eksklusif Duskar telah selesai ditempa! Senjata yang sangat cocok ini meningkatkan kekuatan secara drastis!",
+      "ja": "ダスカールの専用武器が鍛造されました！手に馴染む武器で、実力が大幅にアップします！",
+      "ko": "다스칼의 전용 무기 제작 완료! 손에 익은 무기로 전투력이 대폭 상승합니다!",
+      "pt": "A Arma Exclusiva do Daskal está pronta. Empunhe esta arma perfeita e aumente drasticamente seu poder!"
+    }
+  },
+  "49000": {
+    "id": 49000,
+    "dayUnlock": 140,
+    "chapter": 5,
+    "category": "season",
+    "icon": "🌙",
+    "name": {
+      "ru": "Пробуждение Синтии",
+      "en": "Cynthia Awakens",
+      "de": "Cynthia erwacht",
+      "es": "Cynthia Despierta",
+      "fr": "Cynthia s\\'éveille",
+      "id": "Kebangkitan Cynthia",
+      "ja": "シンシア覚醒",
+      "ko": "신시아 각성",
+      "pt": "Cynthia Desperta"
+    },
+    "desc": {
+      "ru": "Синтия пробудила новую мощную способность и без труда сокрушает всех врагов!",
+      "en": "Cynthia has awakened a powerful new ability and effortlessly vanquishes all opposing forces!",
+      "de": "Cynthia hat eine mächtige neue Fähigkeit erweckt und besiegt mühelos alle gegnerischen Kräfte!",
+      "es": "¡Cynthia despertó una nueva habilidad poderosa y vence sin esfuerzo a todas las fuerzas enemigas!",
+      "fr": "Cynthia a éveillé un nouveau pouvoir redoutable. Elle est désormais capable d\\'anéantir toute opposition !",
+      "id": "Cynthia telah membangkitkan kemampuan baru yang dahsyat, mudah memusnahkan semua kekuatan musuh!",
+      "ja": "シンシアが新たな強大な力に覚醒し、あらゆる敵対勢力をいとも容易く殲滅します！",
+      "ko": "신시아가 강력한 신규 능력을 각성하여 모든 적을 손쉽게 섬멸합니다!",
+      "pt": "Cynthia despertou uma poderosa nova habilidade e aniquilou todas as forças inimigas sem esforço!"
+    }
+  },
+  "50000": {
+    "id": 50000,
+    "dayUnlock": 145,
+    "chapter": 5,
+    "category": "season",
+    "icon": "⛓️",
+    "name": {
+      "ru": "Эксклюзивное оружие Луи",
+      "en": "Louis Exclusive Weapon",
+      "de": "Louis\\' Exklusive Waffe",
+      "es": "Arma exclusiva de Luis",
+      "fr": "Arme exclusive de Louis",
+      "id": "Senjata Eksklusif Louis",
+      "ja": "ルイス専用武器",
+      "ko": "루이스 전용 무기",
+      "pt": "Arma Exclusiva do Louis"
+    },
+    "desc": {
+      "ru": "Эксклюзивное оружие Луи готово. Вооружитесь им, чтобы увеличить свою мощь!",
+      "en": "Louis Exclusive Weapon is ready. Wield this perfectly-suited weapon and dramatically boost your power!",
+      "de": "Louis\\' Exklusive Waffe ist bereit. Führe diese perfekt geeignete Waffe und steigere deine Kraft dramatisch!",
+      "es": "El arma exclusiva de Luis está lista. ¡Empuña esta arma perfectamente adaptada y aumenta drásticamente tu poder!",
+      "fr": "L\\'arme exclusive de Louis est prête. Brandissez cette arme parfaitement adaptée et décuplez votre puissance !",
+      "id": "Senjata Eksklusif Louis telah selesai ditempa! Senjata yang sangat cocok ini meningkatkan kekuatan secara drastis!",
+      "ja": "ルイスの専用武器が鍛造されました！手に馴染む武器で、実力が大幅にアップします！",
+      "ko": "루이스의 전용 무기 제작 완료! 손에 익은 무기로 전투력이 대폭 상승합니다!",
+      "pt": "A Arma Exclusiva do Louis está pronta. Empunhe esta arma perfeita e aumente drasticamente seu poder!"
+    }
+  },
+  "51000": {
+    "id": 51000,
+    "dayUnlock": 150,
+    "chapter": 5,
+    "category": "season",
+    "icon": "🍭",
+    "name": {
+      "ru": "Пробуждение Анни",
+      "en": "Annie Awakens",
+      "de": "Annie erwacht",
+      "es": "Annie Despierta",
+      "fr": "Annie s\\'éveille",
+      "id": "Kebangkitan Annie",
+      "ja": "アニー覚醒",
+      "ko": "애니 각성",
+      "pt": "Annie Desperta"
+    },
+    "desc": {
+      "ru": "Анни пробудила новую мощную способность. Теперь она сокрушает всех врагов!",
+      "en": "Annie has awakened a powerful new ability. She can now vanquish all opposing forces!",
+      "de": "Annie hat eine mächtige neue Fähigkeit erweckt. Sie kann nun alle gegnerischen Kräfte vernichten!",
+      "es": "Annie ha despertado una nueva habilidad poderosa. ¡Ahora puede vencer a todas las fuerzas enemigas!",
+      "fr": "Annie a éveillé un nouveau pouvoir redoutable. Elle est désormais capable d\\'anéantir toute opposition !",
+      "id": "Annie telah membangkitkan kemampuan baru yang kuat, mudah memusnahkan semua kekuatan musuh!",
+      "ja": "アニーが新たな強大な力に覚醒し、あらゆる敵を楽々と打ち破る！",
+      "ko": "애니가 강력한 신규 능력을 각성하여 모든 적을 가뿐히 섬멸합니다!",
+      "pt": "Annie despertou uma poderosa nova habilidade. Ela agora pode aniquilar todas as forças inimigas!"
+    }
+  },
+  "52000": {
+    "id": 52000,
+    "dayUnlock": 155,
+    "chapter": 5,
+    "category": "season",
+    "icon": "🐾",
+    "name": {
+      "ru": "Эксклюзивное оружие Ульфрида",
+      "en": "Ulfrid Exclusive Weapon",
+      "de": "Ulfrids Exklusive Waffe",
+      "es": "Arma exclusiva de Ulfrid",
+      "fr": "Arme exclusive d\\'Ulfrid",
+      "id": "Senjata Eksklusif Ulfred",
+      "ja": "ウルフレッド専用武器",
+      "ko": "울프레드 전용 무기",
+      "pt": "Arma Exclusiva do Ulfrid"
+    },
+    "desc": {
+      "ru": "Эксклюзивное оружие Ульфрида готово. Вооружитесь им, чтобы увеличить свою мощь!",
+      "en": "Ulfrid Exclusive Weapon is ready. Wield this perfectly-suited weapon and dramatically boost your power!",
+      "de": "Ulfrids Exklusive Waffe ist bereit. Führe diese perfekt geeignete Waffe und steigere deine Kraft dramatisch!",
+      "es": "¡El arma exclusiva de Ulfrid está lista! ¡Empuña esta arma perfectamente adaptada y aumenta drásticamente tu poder!",
+      "fr": "L\\'arme exclusive d\\'Ulfrid est prête. Brandissez cette arme parfaitement adaptée et décuplez votre puissance !",
+      "id": "Senjata Eksklusif Ulfred telah selesai ditempa! Senjata yang mudah digunakan, meningkatkan kekuatan secara signifikan!",
+      "ja": "ウルフレッドの専用武器が鍛造完了！手に馴染む武器で、実力が大幅にアップします！",
+      "ko": "울프레드의 전용 무기 제작 완료! 손에 익은 무기를 사용하여 전투력이 대폭 상승합니다!",
+      "pt": "A Arma Exclusiva do Ulfrid está pronta. Empunhe esta arma perfeita e aumente drasticamente seu poder!"
+    }
+  },
+  "52001": {
+    "id": 52001,
+    "dayUnlock": 118,
+    "chapter": 4,
+    "category": "alliance",
+    "icon": "🧙",
+    "name": {
+      "ru": "Торговец-отшельник",
+      "en": "Recluse Merchant",
+      "de": "Einsiedler-Händler",
+      "es": "Comerciante ermitaño",
+      "fr": "Marchand reclus",
+      "id": "Pedagang Pertapa",
+      "ja": "隠者商人",
+      "ko": "은둔 상인",
+      "pt": "Mercador Recluso"
+    },
+    "desc": {
+      "ru": "Торговец-отшельник прибыл в ваши владения! Загляните на торги и получите загадочные награды!",
+      "en": "The Recluse Merchant has arrived in your territory! Come trade for mysterious rewards!",
+      "de": "Der Einsiedler-Händler ist in deinem Gebiet angekommen! Komm und tausche gegen geheimnisvolle Belohnungen",
+      "es": "¡Ha llegado el Comerciante ermitaño a tu territorio! ¡Comercia con él para obtener recompensas misteriosas",
+      "fr": "Le Marchand reclus est arrivé sur votre territoire ! Venez échanger contre de mystérieuses récompenses !",
+      "id": "Pedagang Pertapa telah tiba di wilayahmu! Ayo tukar berbagai hadiah misterius darinya",
+      "ja": "隠者商人が領地にやって来ました。さあ、隠者商人と様々な不思議な豪華報酬を交換しましょう！",
+      "ko": "은둔 상인이 영지에 찾아왔습니다. 어서 은둔 상인에게 다양한 신비한 선물을 교환해 보세요",
+      "pt": "O Mercador Recluso chegou ao seu território! Venha trocar por recompensas misteriosas"
+    }
+  },
+  "53000": {
+    "id": 53000,
+    "dayUnlock": 160,
+    "chapter": 5,
+    "category": "season",
+    "icon": "⚔️",
+    "name": {
+      "ru": "Высшая дуэль",
+      "en": "Supreme Duel",
+      "de": "Großes Duell",
+      "es": "Duelo supremo",
+      "fr": "Duel suprême",
+      "id": "Duel Tertinggi",
+      "ja": "頂上決闘",
+      "ko": "지존 결투",
+      "pt": "Duelo Supremo"
+    },
+    "desc": {
+      "ru": "Вас ждет грандиозный турнир! 16 Королевств сойдутся в борьбе за высшую славу!",
+      "en": "An epic tournament awaits! 16 Kingdoms converge to claim supreme glory!",
+      "de": "Ein episches Turnier erwartet dich! 16 Königreiche treffen aufeinander, um sich den ultimativen Ruhm zu sichern",
+      "es": "¡Un torneo épico aguarda!¡16 Reinos se enfrentarán por la gloria suprema",
+      "fr": "Un tournoi épique vous attend ! 16 Royaumes convergent pour s\\'emparer de la gloire suprême !",
+      "id": "Kompetisi akbar akan segera dimulai! 16 Kerajaan berkumpul untuk memperebutkan kehormatan tertinggi!",
+      "ja": "全国民参加の盛大な大会がまもなく開幕！16の王国が集結し、至高の栄誉をかけて競い合う！",
+      "ko": "모두가 참여하는 성대한 축제가 곧 시작됩니다! 16개 왕국이 한자리에 모여 최고의 영광을 놓고 격돌합니다!",
+      "pt": "Um torneio épico te espera! 16 Reinos se reúnem para disputar a glória suprema"
+    }
+  },
+  "9999999": {
+    "id": 9999999,
+    "dayUnlock": 200,
+    "chapter": 5,
+    "category": "season",
+    "icon": "⏳",
+    "name": {
+      "ru": "Скоро новый контент...",
+      "en": "More content coming soon...",
+      "de": "Mehr Inhalte kommen bald...",
+      "es": "Más contenido próximamente...",
+      "fr": "Plus de contenu à venir...",
+      "id": "Konten lainnya segera hadir...",
+      "ja": "新コンテンツ、近日公開予定…",
+      "ko": "곧 찾아옵니다...",
+      "pt": "Mais conteúdo em breve..."
+    },
+    "desc": {
+      "ru": "Чума ширится. Всё больше пациентов ждут спасения. Путь Доктора продолжается. Не пропустите новые захватывающие события!",
+      "en": "Plague spreads far and wide. More patients await rescue. The Doctor\\'s journey continues. Stay tuned for more exciting events...",
+      "de": "Die Seuche breitet sich weit aus. Mehr Patienten warten auf Rettung. Die Reise des Arztes geht weiter. Bleibt dran für weitere spannende Ereignisse...",
+      "es": "La plaga se extiende por todas partes. Más pacientes esperan ser rescatados. El viaje del Doctor continúa. Mantente atento a más eventos emocionantes...",
+      "fr": "Le fléau se propage sans relâche.De nombreux patients attendent d\\'être secourus.L\\'aventure du Docteur se poursuit.Ne manquez pas les prochains événements palpitants...",
+      "id": "Wabah merajalela, masih banyak pasien yang menunggu penyelamatan, perjalanan Dokter terus berlanjut, nantikan Event menarik lainnya......",
+      "ja": "疫病が蔓延し、救いを待つ患者は後を絶たない。ドクターの旅はまだ続く。今後のイベントもお楽しみに……",
+      "ko": "역병이 창궐하여 수많은 환자들이 구원을 기다립니다. 의사의 여정은 계속됩니다. 앞으로의 다양한 이벤트를 기대해 주세요......",
+      "pt": "A praga se alastra. Mais pacientes aguardam resgate. A jornada do Médico continua. Fique atento para mais eventos emocionantes..."
+    }
+  }
+}

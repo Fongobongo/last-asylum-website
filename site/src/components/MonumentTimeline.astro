@@ -2,12 +2,18 @@
 import type { Lang } from '../i18n/utils';
 import { localizedPath } from '../i18n/utils';
 import { monumentMilestones, monumentChapters } from '../data/monumentTimeline';
+import officialMilestonesData from '../data/officialMilestones.json';
 
 interface Props {
   lang?: Lang;
 }
 
 const { lang = 'en' } = Astro.props;
+
+const allOfficialMilestones = Object.values(officialMilestonesData).sort((a: any, b: any) => {
+  if (a.dayUnlock !== b.dayUnlock) return a.dayUnlock - b.dayUnlock;
+  return a.id - b.id;
+});
 
 const ui = {
   ru: {
@@ -18,7 +24,7 @@ const ui = {
     quickSelect: 'Быстрый переход:',
     statusActive: '🟢 АКТИВНО СЕЙЧАС',
     statusPassed: '✅ ПРОЙДЕНО',
-    statusUpcoming: '⏳ ОТКРОЕТСЯ ЧЕРЕЗ',
+    statusUpcoming: '⏳ ЧЕРЕЗ {diff} ДН.',
     daysSuffix: 'дн.',
     daysCount: 'дней',
     expandAll: 'Развернуть все',
@@ -38,7 +44,15 @@ const ui = {
     currentFocus: 'Текущий фокус:',
     nextBigEvent: 'Ближайший крупный рубеж:',
     hoardPriority: 'Приоритет накопления:',
-    readGuide: 'Читать подробный гайд →'
+    readGuide: 'Читать подробный гайд →',
+    officialMilestoneLabel: 'Веха в клиенте игры',
+    officialDescLabel: 'Внутриигровое описание Монумента игры',
+    modePhases: '🌟 Стратегические фазы & Гайды',
+    modeRegistry: '🏛️ Реестр Монумента игры (57 вех)',
+    searchMilestones: 'Поиск по всем 57 вехам игры...',
+    dayUnlockLabel: 'День',
+    noResults: 'Вех по вашему запросу не найдено',
+    gameMilestoneId: 'Веха игры #'
   },
   en: {
     title: '🏛️ The Monument: Server Age Chronicle Calendar',
@@ -48,7 +62,7 @@ const ui = {
     quickSelect: 'Quick presets:',
     statusActive: '🟢 ACTIVE NOW',
     statusPassed: '✅ COMPLETED',
-    statusUpcoming: '⏳ UNLOCKS IN',
+    statusUpcoming: '⏳ IN {diff} DAYS',
     daysSuffix: 'd',
     daysCount: 'days',
     expandAll: 'Expand All',
@@ -68,7 +82,15 @@ const ui = {
     currentFocus: 'Current Focus:',
     nextBigEvent: 'Next Major Milestone:',
     hoardPriority: 'Strict Hoard Priority:',
-    readGuide: 'Read Full Guide →'
+    readGuide: 'Read Full Guide →',
+    officialMilestoneLabel: 'In-Game Client Milestone',
+    officialDescLabel: 'Official In-Game Monument Description',
+    modePhases: '🌟 Strategic Phases & Guides',
+    modeRegistry: '🏛️ In-Game Monument Registry (57 Milestones)',
+    searchMilestones: 'Search all 57 in-game milestones...',
+    dayUnlockLabel: 'Day',
+    noResults: 'No milestones matched your search',
+    gameMilestoneId: 'Game Milestone #'
   },
   de: {
     title: '🏛️ Das Denkmal: Server-Chronik nach Tagen',
@@ -78,7 +100,7 @@ const ui = {
     quickSelect: 'Schnellauswahl:',
     statusActive: '🟢 JETZT AKTIV',
     statusPassed: '✅ ABGESCHLOSSEN',
-    statusUpcoming: '⏳ ÖFFNET IN',
+    statusUpcoming: '⏳ IN {diff} TAGEN',
     daysSuffix: 'T',
     daysCount: 'Tagen',
     expandAll: 'Alle aufklappen',
@@ -98,7 +120,15 @@ const ui = {
     currentFocus: 'Aktueller Fokus:',
     nextBigEvent: 'Nächster Meilenstein:',
     hoardPriority: 'Sparpriorität:',
-    readGuide: 'Vollständigen Guide lesen →'
+    readGuide: 'Vollständigen Guide lesen →',
+    officialMilestoneLabel: 'Offizieller Spiel-Meilenstein',
+    officialDescLabel: 'Offizielle Denkmal-Beschreibung im Spiel',
+    modePhases: '🌟 Strategische Phasen & Guides',
+    modeRegistry: '🏛️ Denkmal-Register (57 Meilensteine)',
+    searchMilestones: 'Alle 57 Meilensteine durchsuchen...',
+    dayUnlockLabel: 'Tag',
+    noResults: 'Keine Meilensteine gefunden',
+    gameMilestoneId: 'Spiel-Meilenstein #'
   },
   es: {
     title: '🏛️ El Monumento: Crónicas del Servidor por Días',
@@ -108,7 +138,7 @@ const ui = {
     quickSelect: 'Acceso rápido:',
     statusActive: '🟢 ACTIVO AHORA',
     statusPassed: '✅ COMPLETADO',
-    statusUpcoming: '⏳ SE DESBLOQUEA EN',
+    statusUpcoming: '⏳ EN {diff} DÍAS',
     daysSuffix: 'd',
     daysCount: 'días',
     expandAll: 'Expandir todo',
@@ -128,7 +158,15 @@ const ui = {
     currentFocus: 'Enfoque actual:',
     nextBigEvent: 'Próximo gran hito:',
     hoardPriority: 'Prioridad de ahorro:',
-    readGuide: 'Leer guía completa →'
+    readGuide: 'Leer guía completa →',
+    officialMilestoneLabel: 'Hito oficial en el juego',
+    officialDescLabel: 'Descripción oficial del Monumento en el juego',
+    modePhases: '🌟 Fases estratégicas y guías',
+    modeRegistry: '🏛️ Registro del Monumento (57 hitos)',
+    searchMilestones: 'Buscar en los 57 hitos del juego...',
+    dayUnlockLabel: 'Día',
+    noResults: 'No se encontraron hitos',
+    gameMilestoneId: 'Hito del juego #'
   },
   fr: {
     title: '🏛️ Le Monument : Chroniques du Serveur par Jours',
@@ -138,7 +176,7 @@ const ui = {
     quickSelect: 'Accès rapide :',
     statusActive: '🟢 ACTIF MAINTENANT',
     statusPassed: '✅ TERMINÉ',
-    statusUpcoming: '⏳ DÉBLOCAGE DANS',
+    statusUpcoming: '⏳ DANS {diff} JOURS',
     daysSuffix: 'j',
     daysCount: 'jours',
     expandAll: 'Tout déplier',
@@ -158,7 +196,15 @@ const ui = {
     currentFocus: 'Focus actuel :',
     nextBigEvent: 'Prochain grand jalon :',
     hoardPriority: 'Priorité d\'épargne :',
-    readGuide: 'Lire le guide complet →'
+    readGuide: 'Lire le guide complet →',
+    officialMilestoneLabel: 'Jalon officiel du jeu',
+    officialDescLabel: 'Description officielle du Monument en jeu',
+    modePhases: '🌟 Phases stratégiques & Guides',
+    modeRegistry: '🏛️ Registre du Monument (57 jalons)',
+    searchMilestones: 'Rechercher parmi les 57 jalons...',
+    dayUnlockLabel: 'Jour',
+    noResults: 'Aucun jalon trouvé',
+    gameMilestoneId: 'Jalon du jeu #'
   },
   id: {
     title: '🏛️ Monumen: Kalender Kronik Server Menurut Hari',
@@ -168,7 +214,7 @@ const ui = {
     quickSelect: 'Pintasan cepat:',
     statusActive: '🟢 AKTIF SEKARANG',
     statusPassed: '✅ SELESAI',
-    statusUpcoming: '⏳ TERBUKA DALAM',
+    statusUpcoming: '⏳ DALAM {diff} HARI',
     daysSuffix: 'h',
     daysCount: 'hari',
     expandAll: 'Buka Semua',
@@ -188,7 +234,15 @@ const ui = {
     currentFocus: 'Fokus Saat Ini:',
     nextBigEvent: 'Tonggak Utama Berikutnya:',
     hoardPriority: 'Prioritas Tabungan:',
-    readGuide: 'Baca Panduan Lengkap →'
+    readGuide: 'Baca Panduan Lengkap →',
+    officialMilestoneLabel: 'Tonggak Resmi Game',
+    officialDescLabel: 'Deskripsi Monumen Resmi di Game',
+    modePhases: '🌟 Fase Strategis & Panduan',
+    modeRegistry: '🏛️ Registri Monumen Game (57 Tonggak)',
+    searchMilestones: 'Cari di antara 57 tonggak game...',
+    dayUnlockLabel: 'Hari',
+    noResults: 'Tonggak tidak ditemukan',
+    gameMilestoneId: 'Tonggak Game #'
   },
   ja: {
     title: '🏛️ 記念碑（モニュメント）：サーバー経過日数カレンダー',
@@ -198,7 +252,7 @@ const ui = {
     quickSelect: 'クイック選択：',
     statusActive: '🟢 現在開催中',
     statusPassed: '✅ 終了 / 解放済み',
-    statusUpcoming: '⏳ 解放まであと',
+    statusUpcoming: '⏳ あと {diff} 日',
     daysSuffix: '日',
     daysCount: '日',
     expandAll: 'すべて開く',
@@ -218,7 +272,15 @@ const ui = {
     currentFocus: '現在の重点目標：',
     nextBigEvent: '次回の大規模節目：',
     hoardPriority: '最優先温存アイテム：',
-    readGuide: '攻略ガイドを読む →'
+    readGuide: '攻略ガイドを読む →',
+    officialMilestoneLabel: 'ゲーム内公式マイルストーン',
+    officialDescLabel: '記念碑（モニュメント）の公式解説テキスト',
+    modePhases: '🌟 攻略フェーズ＆重要ガイド',
+    modeRegistry: '🏛️ 公式モニュメント全57項目レジストリ',
+    searchMilestones: '全57項目の公式節目を検索...',
+    dayUnlockLabel: '日数',
+    noResults: '該当するマイルストーンはありません',
+    gameMilestoneId: '公式ID #'
   },
   ko: {
     title: '🏛️ 기념비: 서버 일차별 연대기 캘린더',
@@ -228,7 +290,7 @@ const ui = {
     quickSelect: '빠른 이동:',
     statusActive: '🟢 현재 진행 중',
     statusPassed: '✅ 완료 / 해금됨',
-    statusUpcoming: '⏳ 오픈까지',
+    statusUpcoming: '⏳ {diff}일 후 오픈',
     daysSuffix: '일',
     daysCount: '일',
     expandAll: '모두 펼치기',
@@ -248,7 +310,15 @@ const ui = {
     currentFocus: '현재 집중 목표:',
     nextBigEvent: '다음 주요 마일스톤:',
     hoardPriority: '최우선 비축 자원:',
-    readGuide: '상세 가이드 보기 →'
+    readGuide: '상세 가이드 보기 →',
+    officialMilestoneLabel: '인게임 공식 마일스톤',
+    officialDescLabel: '기념비 공식 인게임 설명',
+    modePhases: '🌟 전략 페이즈 및 가이드',
+    modeRegistry: '🏛️ 기념비 전체 57개 마일스톤',
+    searchMilestones: '57개 공식 마일스톤 검색...',
+    dayUnlockLabel: '일차',
+    noResults: '해당하는 마일스톤이 없습니다',
+    gameMilestoneId: '인게임 ID #'
   },
   pt: {
     title: '🏛️ O Monumento: Calendário de Crônicas do Servidor',
@@ -258,7 +328,7 @@ const ui = {
     quickSelect: 'Atalhos rápidos:',
     statusActive: '🟢 ATIVO AGORA',
     statusPassed: '✅ CONCLUÍDO',
-    statusUpcoming: '⏳ DESBLOQUEIA EM',
+    statusUpcoming: '⏳ EM {diff} DIAS',
     daysSuffix: 'd',
     daysCount: 'dias',
     expandAll: 'Expandir tudo',
@@ -278,7 +348,15 @@ const ui = {
     currentFocus: 'Foco atual:',
     nextBigEvent: 'Próximo grande marco:',
     hoardPriority: 'Prioridade de economia:',
-    readGuide: 'Ler guia completo →'
+    readGuide: 'Ler guia completo →',
+    officialMilestoneLabel: 'Marco oficial no jogo',
+    officialDescLabel: 'Descrição oficial do Monumento no jogo',
+    modePhases: '🌟 Fases Estratégicas e Guias',
+    modeRegistry: '🏛️ Registro do Monumento (57 Marcos)',
+    searchMilestones: 'Pesquisar todos os 57 marcos do jogo...',
+    dayUnlockLabel: 'Dia',
+    noResults: 'Nenhum marco encontrado',
+    gameMilestoneId: 'Marco do jogo #'
   }
 };
 
@@ -307,6 +385,8 @@ const t = ui[lang] || ui.en;
           type="button"
           id="monument-toggle-all-btn"
           class="rounded-lg border border-stone-700 bg-stone-900 px-3.5 py-1.5 text-xs font-medium text-stone-300 transition-colors hover:border-plague-500 hover:text-plague-300"
+          data-expand-text={t.expandAll}
+          data-collapse-text={t.collapseAll}
         >
           {t.expandAll}
         </button>
@@ -334,7 +414,7 @@ const t = ui[lang] || ui.en;
               type="range"
               id="monument-day-slider"
               min="1"
-              max="150"
+              max="160"
               value="14"
               class="h-2 w-full max-w-xs cursor-pointer accent-plague-500 sm:max-w-md"
             />
@@ -357,7 +437,7 @@ const t = ui[lang] || ui.en;
         </div>
       </div>
 
-      <!-- Real-time dynamic status summary box -->
+      <!-- Dynamic Status Summary Box -->
       <div id="monument-briefing-box" class="mt-4 rounded-lg border border-plague-900/60 bg-plague-950/40 p-3.5 text-xs text-stone-300">
         <div class="flex items-center gap-2 font-bold text-plague-300">
           <span>⚡</span>
@@ -370,7 +450,7 @@ const t = ui[lang] || ui.en;
           </div>
           <div>
             <span class="text-stone-400">{t.nextBigEvent}</span>
-            <p id="monument-briefing-next" class="mt-0.5 font-medium text-amber-300">День 15: Дуэль Альянсов (через 1 дн.)</p>
+            <p id="monument-briefing-next" class="mt-0.5 font-medium text-amber-300">День 15: Дуэль Альянсов</p>
           </div>
           <div>
             <span class="text-stone-400">{t.hoardPriority}</span>
@@ -380,8 +460,43 @@ const t = ui[lang] || ui.en;
       </div>
     </div>
 
+    <!-- View Mode Switcher: Strategic Phases vs 57 In-Game Milestones -->
+    <div class="mt-6 flex flex-wrap items-center justify-between gap-3 border-t border-stone-800/80 pt-4">
+      <div class="flex rounded-xl bg-stone-900 p-1 border border-stone-800" id="monument-mode-switch">
+        <button
+          type="button"
+          id="btn-mode-phases"
+          class="rounded-lg px-3.5 py-1.5 text-xs font-bold transition-all bg-plague-950 border border-plague-500/50 text-plague-200 shadow-sm"
+          data-mode="phases"
+        >
+          {t.modePhases}
+        </button>
+        <button
+          type="button"
+          id="btn-mode-registry"
+          class="rounded-lg px-3.5 py-1.5 text-xs font-medium text-stone-400 transition-all hover:text-stone-200"
+          data-mode="registry"
+        >
+          {t.modeRegistry}
+        </button>
+      </div>
+
+      <!-- Search input for milestones -->
+      <div class="w-full sm:w-72">
+        <div class="relative">
+          <input
+            type="text"
+            id="monument-search-input"
+            placeholder={t.searchMilestones}
+            class="w-full rounded-lg border border-stone-800 bg-stone-900 px-3 py-1.5 pl-8 text-xs text-stone-200 placeholder-stone-500 shadow-inner focus:border-plague-500 focus:outline-none"
+          />
+          <span class="absolute left-2.5 top-2 text-xs text-stone-500">🔍</span>
+        </div>
+      </div>
+    </div>
+
     <!-- Filters Bar -->
-    <div class="mt-5 flex flex-wrap items-center justify-between gap-3">
+    <div class="mt-4 flex flex-wrap items-center justify-between gap-3">
       <!-- Chapter Tabs -->
       <div class="flex flex-wrap gap-1.5" id="monument-chapter-filters">
         <button
@@ -414,6 +529,13 @@ const t = ui[lang] || ui.en;
         <button
           type="button"
           class="monument-cat-filter rounded-full border border-stone-800 bg-stone-900 px-2.5 py-0.5 text-xs text-stone-400 hover:text-stone-200"
+          data-cat="heroes"
+        >
+          {t.catHeroes}
+        </button>
+        <button
+          type="button"
+          class="monument-cat-filter rounded-full border border-stone-800 bg-stone-900 px-2.5 py-0.5 text-xs text-stone-400 hover:text-stone-200"
           data-cat="alliance"
         >
           {t.catAlliance}
@@ -424,13 +546,6 @@ const t = ui[lang] || ui.en;
           data-cat="pvp"
         >
           {t.catPvp}
-        </button>
-        <button
-          type="button"
-          class="monument-cat-filter rounded-full border border-stone-800 bg-stone-900 px-2.5 py-0.5 text-xs text-stone-400 hover:text-stone-200"
-          data-cat="heroes"
-        >
-          {t.catHeroes}
         </button>
         <button
           type="button"
@@ -450,8 +565,8 @@ const t = ui[lang] || ui.en;
     </div>
   </div>
 
-  <!-- Timeline Stream -->
-  <div class="mt-6 space-y-4" id="monument-milestone-list">
+  <!-- VIEW 1: Strategic Phase Guides (13 Cards with linked official milestones) -->
+  <div class="mt-6 space-y-4" id="monument-phases-view">
     {monumentMilestones.map((m) => {
       const titleText = m.title[lang] || m.title.en;
       const badgeText = m.badge[lang] || m.badge.en;
@@ -480,7 +595,6 @@ const t = ui[lang] || ui.en;
             aria-expanded="false"
           >
             <div class="flex items-start gap-3.5">
-              <!-- Icon -->
               <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-stone-700 bg-stone-800 text-2xl shadow-sm">
                 {m.icon}
               </span>
@@ -503,6 +617,28 @@ const t = ui[lang] || ui.en;
                 <p class="mt-1 text-xs text-stone-400 sm:text-sm">
                   {shortDescText}
                 </p>
+
+                <!-- Linked Official Client Milestones Badges -->
+                {m.officialMilestoneIds && m.officialMilestoneIds.length > 0 && (
+                  <div class="mt-2.5 flex flex-wrap items-center gap-1.5">
+                    <span class="text-[11px] font-semibold text-stone-400">🏛️ {t.officialMilestoneLabel}:</span>
+                    {m.officialMilestoneIds.map((oid) => {
+                      const om = (officialMilestonesData as any)[oid.toString()];
+                      if (!om) return null;
+                      const omName = om.name[lang] || om.name.en;
+                      return (
+                        <span
+                          class="inline-flex items-center gap-1 rounded bg-stone-800/90 border border-stone-700/80 px-2 py-0.5 text-[11px] font-medium text-amber-300/90 shadow-sm"
+                          title={om.desc[lang] || om.desc.en}
+                        >
+                          <span>{om.icon || '🏛️'}</span>
+                          <span>{omName}</span>
+                          <span class="text-stone-400">#{oid}</span>
+                        </span>
+                      );
+                    })}
+                  </div>
+                )}
               </div>
             </div>
 
@@ -574,23 +710,126 @@ const t = ui[lang] || ui.en;
                   </div>
                 )}
               </div>
+
+              <!-- Official In-Game Quotes & Lore from Client -->
+              {m.officialMilestoneIds && m.officialMilestoneIds.length > 0 && (
+                <div class="rounded-lg border border-amber-900/30 bg-amber-950/15 p-3.5 sm:col-span-2">
+                  <h4 class="text-xs font-bold uppercase tracking-wider text-amber-400 flex items-center gap-1.5">
+                    <span>🏛️</span>
+                    <span>{t.officialDescLabel}</span>
+                  </h4>
+                  <div class="mt-2 grid gap-2 sm:grid-cols-2">
+                    {m.officialMilestoneIds.map((oid) => {
+                      const om = (officialMilestonesData as any)[oid.toString()];
+                      if (!om) return null;
+                      const omName = om.name[lang] || om.name.en;
+                      const omDesc = om.desc[lang] || om.desc.en;
+                      return (
+                        <div class="rounded border border-stone-800 bg-stone-900/60 p-2.5 text-xs">
+                          <div class="font-bold text-amber-200 flex items-center justify-between">
+                            <span>{om.icon || '🏛️'} {omName}</span>
+                            <span class="text-[10px] text-stone-400">ID #{oid}</span>
+                          </div>
+                          <p class="mt-1 text-stone-300 italic leading-relaxed">«{omDesc}»</p>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         </article>
       );
     })}
   </div>
+
+  <!-- VIEW 2: Complete Official 57 In-Game Milestones Registry -->
+  <div class="mt-6 hidden space-y-3" id="monument-registry-view">
+    {allOfficialMilestones.map((om: any) => {
+      const omName = om.name[lang] || om.name.en;
+      const omDesc = om.desc[lang] || om.desc.en;
+      const dayUnlock = om.dayUnlock || 1;
+
+      return (
+        <article
+          class="monument-registry-card group relative rounded-xl border border-stone-800/90 bg-stone-900/60 p-4 transition-all hover:border-stone-700 sm:p-5"
+          data-id={om.id}
+          data-day={dayUnlock}
+          data-chapter={om.chapter}
+          data-category={om.category}
+          data-search={`${omName} ${omDesc} ${om.id} ${dayUnlock}`.toLowerCase()}
+        >
+          <div class="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+            <div class="flex items-start gap-3.5">
+              <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-stone-700 bg-stone-800 text-2xl shadow-sm">
+                {om.icon || '🏛️'}
+              </span>
+
+              <div>
+                <div class="flex flex-wrap items-center gap-2">
+                  <span class="rounded bg-stone-800 px-2 py-0.5 text-xs font-bold text-amber-400">
+                    {t.gameMilestoneId}{om.id}
+                  </span>
+
+                  <span class="rounded bg-stone-800/80 border border-stone-700 px-2 py-0.5 text-xs font-semibold text-plague-300">
+                    {t.dayUnlockLabel} {dayUnlock >= 120 ? '120+' : dayUnlock}
+                  </span>
+
+                  <!-- Status badge updated by JS -->
+                  <span class="registry-status-badge rounded-full px-2.5 py-0.5 text-[11px] font-bold tracking-wide">
+                    {t.statusActive}
+                  </span>
+                </div>
+
+                <h3 class="mt-1.5 text-base font-bold text-stone-100 group-hover:text-amber-300 sm:text-lg">
+                  {omName}
+                </h3>
+                <p class="mt-1 text-xs leading-relaxed text-stone-300 sm:text-sm italic">
+                  «{omDesc}»
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+      );
+    })}
+
+    <!-- No results message -->
+    <div id="monument-no-results" class="hidden rounded-xl border border-stone-800 bg-stone-900/40 p-8 text-center text-sm text-stone-400">
+      {t.noResults}
+    </div>
+  </div>
 </section>
 
-<script is:inline>
+<script
+  is:inline
+  define:vars={{
+    txtActive: t.statusActive,
+    txtPassed: t.statusPassed,
+    txtUpcomingTpl: t.statusUpcoming,
+    txtBriefingTitle: t.summaryTitle,
+    txtExpandAll: t.expandAll,
+    txtCollapseAll: t.collapseAll,
+  }}
+>
   (function () {
     const input = document.getElementById('monument-day-input');
     const slider = document.getElementById('monument-day-slider');
-    const cards = Array.from(document.querySelectorAll('.monument-card'));
     const toggleAllBtn = document.getElementById('monument-toggle-all-btn');
     const presetBtns = Array.from(document.querySelectorAll('.monument-preset-btn'));
     const chapterFilters = Array.from(document.querySelectorAll('.monument-ch-filter'));
     const catFilters = Array.from(document.querySelectorAll('.monument-cat-filter'));
+    const searchInput = document.getElementById('monument-search-input');
+
+    const btnModePhases = document.getElementById('btn-mode-phases');
+    const btnModeRegistry = document.getElementById('btn-mode-registry');
+    const phasesView = document.getElementById('monument-phases-view');
+    const registryView = document.getElementById('monument-registry-view');
+    const noResultsBox = document.getElementById('monument-no-results');
+
+    const phaseCards = Array.from(document.querySelectorAll('.monument-card'));
+    const registryCards = Array.from(document.querySelectorAll('.monument-registry-card'));
 
     const briefingTitle = document.getElementById('monument-briefing-title');
     const briefingFocus = document.getElementById('monument-briefing-focus');
@@ -600,6 +839,8 @@ const t = ui[lang] || ui.en;
     let currentDay = parseInt(input?.value || '14', 10);
     let selectedChapter = 'all';
     let selectedCategory = 'all';
+    let searchQuery = '';
+    let currentMode = 'phases'; // 'phases' | 'registry'
     let allExpanded = false;
 
     function updateDay(day) {
@@ -610,34 +851,50 @@ const t = ui[lang] || ui.en;
       let activeMilestone = null;
       let nextUpcomingMilestone = null;
 
-      cards.forEach((card) => {
+      // Update Phase Cards
+      phaseCards.forEach((card) => {
         const start = parseInt(card.getAttribute('data-start') || '0', 10);
         const end = parseInt(card.getAttribute('data-end') || '0', 10);
         const badge = card.querySelector('.monument-status-badge');
-
         if (!badge) return;
 
         if (currentDay >= start && currentDay <= end) {
-          // ACTIVE NOW
-          badge.textContent = '🟢 АКТИВНО СЕЙЧАС';
+          badge.textContent = txtActive;
           badge.className = 'monument-status-badge rounded-full px-2.5 py-0.5 text-[11px] font-bold tracking-wide bg-emerald-950/80 border border-emerald-500/50 text-emerald-300';
           if (!activeMilestone) activeMilestone = card;
         } else if (currentDay > end) {
-          // PASSED
-          badge.textContent = '✅ ПРОЙДЕНО';
+          badge.textContent = txtPassed;
           badge.className = 'monument-status-badge rounded-full px-2.5 py-0.5 text-[11px] font-bold tracking-wide bg-stone-800 text-stone-400';
         } else {
-          // UPCOMING
           const diff = start - currentDay;
-          badge.textContent = `⏳ ЧЕРЕЗ ${diff} ДН.`;
+          badge.textContent = txtUpcomingTpl.replace('{diff}', diff.toString());
           badge.className = 'monument-status-badge rounded-full px-2.5 py-0.5 text-[11px] font-bold tracking-wide bg-amber-950/70 border border-amber-500/40 text-amber-300';
           if (!nextUpcomingMilestone) nextUpcomingMilestone = card;
         }
       });
 
+      // Update Registry Cards
+      registryCards.forEach((card) => {
+        const unlockDay = parseInt(card.getAttribute('data-day') || '0', 10);
+        const badge = card.querySelector('.registry-status-badge');
+        if (!badge) return;
+
+        if (currentDay === unlockDay || (currentDay >= 120 && unlockDay >= 120 && currentDay >= unlockDay)) {
+          badge.textContent = txtActive;
+          badge.className = 'registry-status-badge rounded-full px-2.5 py-0.5 text-[11px] font-bold tracking-wide bg-emerald-950/80 border border-emerald-500/50 text-emerald-300';
+        } else if (currentDay > unlockDay) {
+          badge.textContent = txtPassed;
+          badge.className = 'registry-status-badge rounded-full px-2.5 py-0.5 text-[11px] font-bold tracking-wide bg-stone-800 text-stone-400';
+        } else {
+          const diff = unlockDay - currentDay;
+          badge.textContent = txtUpcomingTpl.replace('{diff}', diff.toString());
+          badge.className = 'registry-status-badge rounded-full px-2.5 py-0.5 text-[11px] font-bold tracking-wide bg-amber-950/70 border border-amber-500/40 text-amber-300';
+        }
+      });
+
       // Update Top Briefing Box
       if (briefingTitle) {
-        briefingTitle.textContent = `Сводка сервера: День ${currentDay}`;
+        briefingTitle.textContent = `${txtBriefingTitle}: ${currentDay}`;
       }
 
       if (activeMilestone) {
@@ -661,36 +918,89 @@ const t = ui[lang] || ui.en;
       }
     }
 
-    function applyVisibilityFilters() {
-      cards.forEach((card) => {
-        const ch = card.getAttribute('data-chapter');
-        const cat = card.getAttribute('data-category');
+    function applyFilters() {
+      let visibleCount = 0;
 
-        const matchChapter = selectedChapter === 'all' || ch === selectedChapter;
-        const matchCategory = selectedCategory === 'all' || cat === selectedCategory;
+      if (currentMode === 'phases') {
+        phaseCards.forEach((card) => {
+          const ch = card.getAttribute('data-chapter');
+          const cat = card.getAttribute('data-category');
+          const text = card.textContent.toLowerCase();
 
-        if (matchChapter && matchCategory) {
-          card.classList.remove('hidden');
+          const matchChapter = selectedChapter === 'all' || ch === selectedChapter;
+          const matchCategory = selectedCategory === 'all' || cat === selectedCategory;
+          const matchSearch = !searchQuery || text.includes(searchQuery);
+
+          if (matchChapter && matchCategory && matchSearch) {
+            card.classList.remove('hidden');
+            visibleCount++;
+          } else {
+            card.classList.add('hidden');
+          }
+        });
+      } else {
+        registryCards.forEach((card) => {
+          const ch = card.getAttribute('data-chapter');
+          const cat = card.getAttribute('data-category');
+          const searchContent = card.getAttribute('data-search') || '';
+
+          const matchChapter = selectedChapter === 'all' || ch === selectedChapter;
+          const matchCategory = selectedCategory === 'all' || cat === selectedCategory;
+          const matchSearch = !searchQuery || searchContent.includes(searchQuery);
+
+          if (matchChapter && matchCategory && matchSearch) {
+            card.classList.remove('hidden');
+            visibleCount++;
+          } else {
+            card.classList.add('hidden');
+          }
+        });
+      }
+
+      if (noResultsBox) {
+        if (visibleCount === 0) {
+          noResultsBox.classList.remove('hidden');
         } else {
-          card.classList.add('hidden');
+          noResultsBox.classList.add('hidden');
         }
-      });
+      }
     }
+
+    function switchMode(mode) {
+      currentMode = mode;
+      if (mode === 'phases') {
+        phasesView?.classList.remove('hidden');
+        registryView?.classList.add('hidden');
+        btnModePhases?.classList.add('bg-plague-950', 'border', 'border-plague-500/50', 'text-plague-200', 'shadow-sm');
+        btnModePhases?.classList.remove('text-stone-400');
+        btnModeRegistry?.classList.remove('bg-plague-950', 'border', 'border-plague-500/50', 'text-plague-200', 'shadow-sm');
+        btnModeRegistry?.classList.add('text-stone-400');
+        if (toggleAllBtn) toggleAllBtn.style.display = '';
+      } else {
+        phasesView?.classList.add('hidden');
+        registryView?.classList.remove('hidden');
+        btnModeRegistry?.classList.add('bg-plague-950', 'border', 'border-plague-500/50', 'text-plague-200', 'shadow-sm');
+        btnModeRegistry?.classList.remove('text-stone-400');
+        btnModePhases?.classList.remove('bg-plague-950', 'border', 'border-plague-500/50', 'text-plague-200', 'shadow-sm');
+        btnModePhases?.classList.add('text-stone-400');
+        if (toggleAllBtn) toggleAllBtn.style.display = 'none';
+      }
+      applyFilters();
+    }
+
+    btnModePhases?.addEventListener('click', () => switchMode('phases'));
+    btnModeRegistry?.addEventListener('click', () => switchMode('registry'));
 
     // Input & Slider sync
-    if (input) {
-      input.addEventListener('input', (e) => {
-        const val = parseInt(e.target.value, 10);
-        if (!isNaN(val)) updateDay(val);
-      });
-    }
+    input?.addEventListener('input', (e) => {
+      const val = parseInt(e.target.value, 10);
+      if (!isNaN(val)) updateDay(val);
+    });
 
-    if (slider) {
-      slider.addEventListener('input', (e) => {
-        const val = parseInt(e.target.value, 10);
-        if (!isNaN(val)) updateDay(val);
-      });
-    }
+    slider?.addEventListener('input', (e) => {
+      const val = parseInt(e.target.value, 10);
+      if (!isNaN(val)) updateDay(val);
+    });
 
     // Presets
     presetBtns.forEach((btn) => {
@@ -698,6 +1008,12 @@ const t = ui[lang] || ui.en;
         const d = parseInt(btn.getAttribute('data-day') || '1', 10);
         updateDay(d);
       });
+    });
+
+    // Search filter
+    searchInput?.addEventListener('input', (e) => {
+      searchQuery = (e.target.value || '').trim().toLowerCase();
+      applyFilters();
     });
 
     // Chapter filters
@@ -711,7 +1027,7 @@ const t = ui[lang] || ui.en;
         btn.classList.remove('border-stone-800', 'bg-stone-900', 'text-stone-400');
 
         selectedChapter = btn.getAttribute('data-chapter') || 'all';
-        applyVisibilityFilters();
+        applyFilters();
       });
     });
 
@@ -726,12 +1042,12 @@ const t = ui[lang] || ui.en;
         btn.classList.remove('border-stone-800', 'bg-stone-900', 'text-stone-400');
 
         selectedCategory = btn.getAttribute('data-cat') || 'all';
-        applyVisibilityFilters();
+        applyFilters();
       });
     });
 
     // Accordion toggle per card
-    cards.forEach((card) => {
+    phaseCards.forEach((card) => {
       const header = card.querySelector('.monument-card-header');
       const body = card.querySelector('.monument-card-body');
       if (!header || !body) return;
@@ -756,23 +1072,21 @@ const t = ui[lang] || ui.en;
     });
 
     // Toggle All Expand / Collapse
-    if (toggleAllBtn) {
-      toggleAllBtn.addEventListener('click', () => {
-        allExpanded = !allExpanded;
-        cards.forEach((card) => {
-          const header = card.querySelector('.monument-card-header');
-          const body = card.querySelector('.monument-card-body');
-          if (!header || !body) return;
-          header.setAttribute('aria-expanded', allExpanded.toString());
-          if (allExpanded) {
-            body.classList.remove('hidden');
-          } else {
-            body.classList.add('hidden');
-          }
-        });
-        toggleAllBtn.textContent = allExpanded ? 'Свернуть все' : 'Развернуть все';
+    toggleAllBtn?.addEventListener('click', () => {
+      allExpanded = !allExpanded;
+      phaseCards.forEach((card) => {
+        const header = card.querySelector('.monument-card-header');
+        const body = card.querySelector('.monument-card-body');
+        if (!header || !body) return;
+        header.setAttribute('aria-expanded', allExpanded.toString());
+        if (allExpanded) {
+          body.classList.remove('hidden');
+        } else {
+          body.classList.add('hidden');
+        }
       });
-    }
+      toggleAllBtn.textContent = allExpanded ? txtCollapseAll : txtExpandAll;
+    });
 
     // Initial update
     updateDay(currentDay);

@@ -1,0 +1,801 @@
+{
+  "1": {
+    "id": 1,
+    "name": {
+      "ru": "Усиление ворона",
+      "en": "Enhance Raven",
+      "de": "Rabenverbesserung",
+      "es": "Mejora al Cuervo",
+      "fr": "Améliorer le corbeau",
+      "id": "Penguatan Raven",
+      "ja": "レイヴン強化",
+      "ko": "까마귀 강화",
+      "pt": "Aprimore o Corvo"
+    },
+    "tasks": {
+      "ru": [
+        "Соколиная башня",
+        "Улучшение ворона",
+        "Расход энергии",
+        "Собрать ресурсы"
+      ],
+      "en": [
+        "Falcon Tower",
+        "Raven Upgrade",
+        "Consume Stamina",
+        "Gather Resources"
+      ],
+      "de": [
+        "Falkenturm",
+        "Raben-Upgrade",
+        "Ausdauer verbrauchen",
+        "Ressourcen sammeln"
+      ],
+      "es": [
+        "Torre del halcón",
+        "Mejora del Cuervo",
+        "Consume resistencia",
+        "Recolecta recursos"
+      ],
+      "fr": [
+        "Tour du faucon",
+        "Amélioration du corbeau",
+        "Consommer de l\\'énergie",
+        "Collecter des ressources"
+      ],
+      "id": [
+        "Menara Raven",
+        "Peningkatan Raven",
+        "Menggunakan Stamina",
+        "Kumpulkan sumber daya"
+      ],
+      "ja": [
+        "ファルコンタワー",
+        "レイヴンレベルアップ",
+        "スタミナ消費",
+        "資源採集"
+      ],
+      "ko": [
+        "팔콘 타워",
+        "까마귀 레벨업",
+        "체력 소모",
+        "자원 채집"
+      ],
+      "pt": [
+        "Torre do Falcão",
+        "Melhoria do Corvo",
+        "Consumir Vigor",
+        "Colete Recursos"
+      ]
+    },
+    "tips": {}
+  },
+  "2": {
+    "id": 2,
+    "name": {
+      "ru": "Развитие территории",
+      "en": "Territory Development",
+      "de": "Gebietsentwicklung",
+      "es": "Desarrollo territorial",
+      "fr": "Développement du territoire",
+      "id": "Pengembangan Wilayah",
+      "ja": "領地発展",
+      "ko": "영지 발전",
+      "pt": "Desenvolvimento de Território"
+    },
+    "tasks": {
+      "ru": [
+        "Построить",
+        "Тайная операция",
+        "Торговый караван"
+      ],
+      "en": [
+        "Construct",
+        "Covert Operation",
+        "Trade Caravan"
+      ],
+      "de": [
+        "Bauen",
+        "Verdeckte Operation",
+        "Handelskarawane"
+      ],
+      "es": [
+        "Construcción",
+        "Operación Encubierta",
+        "Caravana comercial"
+      ],
+      "fr": [
+        "Construire",
+        "Opération secrète",
+        "Caravane commerciale"
+      ],
+      "id": [
+        "Bangun",
+        "Operasi Rahasia",
+        "Kereta Kargo"
+      ],
+      "ja": [
+        "建設",
+        "秘密作戦",
+        "輸送馬車"
+      ],
+      "ko": [
+        "건설",
+        "비밀 작전",
+        "화물 마차"
+      ],
+      "pt": [
+        "Construir",
+        "Operação Secreta",
+        "Caravana Mercante"
+      ]
+    },
+    "tips": {}
+  },
+  "3": {
+    "id": 3,
+    "name": {
+      "ru": "Изучение технологий",
+      "en": "Tech Research",
+      "de": "Tech-Forschung",
+      "es": "Investigación tecnológica",
+      "fr": "Recherche Technologique",
+      "id": "Riset Teknologi",
+      "ja": "技術開発",
+      "ko": "기술 연구개발",
+      "pt": "Pesquisa de Tecnologia"
+    },
+    "tasks": {
+      "ru": [
+        "Технологии",
+        "Свиток обучения",
+        "Соколиная башня"
+      ],
+      "en": [
+        "Technology Research",
+        "Study Scroll",
+        "Falcon Tower"
+      ],
+      "de": [
+        "Technologieforschung",
+        "Studien-Schriftrolle",
+        "Falkenturm"
+      ],
+      "es": [
+        "Investigación tecnológica",
+        "Pergamino de estudio",
+        "Torre del halcón"
+      ],
+      "fr": [
+        "Recherche technologique",
+        "Parchemin d\\'étude",
+        "Tour du faucon"
+      ],
+      "id": [
+        "Riset Teknologi",
+        "Gulungan Penelitian",
+        "Menara Raven"
+      ],
+      "ja": [
+        "技術研究",
+        "研究の巻物",
+        "ファルコンタワー"
+      ],
+      "ko": [
+        "과학기술 연구",
+        "연구 스크롤",
+        "팔콘 타워"
+      ],
+      "pt": [
+        "Pesquisa de Tecnologia",
+        "Pergaminho de Estudo",
+        "Torre do Falcão"
+      ]
+    },
+    "tips": {}
+  },
+  "4": {
+    "id": 4,
+    "name": {
+      "ru": "Усиление героев",
+      "en": "Enhance Heroes",
+      "de": "Heldenverbesserung",
+      "es": "Mejorar héroes",
+      "fr": "Renforcer les héros",
+      "id": "Peningkatan Hero",
+      "ja": "英雄強化",
+      "ko": "영웅 강화",
+      "pt": "Melhore os Heróis"
+    },
+    "tasks": {
+      "ru": [
+        "Наем",
+        "Фрагмент героя"
+      ],
+      "en": [
+        "Recruit",
+        "Hero Shard"
+      ],
+      "de": [
+        "Rekrutieren",
+        "Heldensplitter"
+      ],
+      "es": [
+        "Reclutar",
+        "Fragmento de héroe"
+      ],
+      "fr": [
+        "Recruter",
+        "Fragment de héros"
+      ],
+      "id": [
+        "Rekrut",
+        "Fragmen Hero"
+      ],
+      "ja": [
+        "募集",
+        "英雄の欠片"
+      ],
+      "ko": [
+        "모집",
+        "영웅 조각"
+      ],
+      "pt": [
+        "Recrutar",
+        "Fragmento de Herói"
+      ]
+    },
+    "tips": {}
+  },
+  "5": {
+    "id": 5,
+    "name": {
+      "ru": "Полное развитие I",
+      "en": "Full Development I",
+      "de": "Volle Entwicklung I",
+      "es": "Desarrollo completo I",
+      "fr": "Développement complet I",
+      "id": "Pengembangan Menyeluruh I",
+      "ja": "総合発展I",
+      "ko": "균형 성장 I",
+      "pt": "Desenvolvimento Completo I"
+    },
+    "tasks": {
+      "ru": [
+        "Соколиная башня",
+        "Ускорение",
+        "Подготовка солдат"
+      ],
+      "en": [
+        "Falcon Tower",
+        "Speedup",
+        "Soldier Training"
+      ],
+      "de": [
+        "Falkenturm",
+        "Beschleunigung",
+        "Soldatentraining"
+      ],
+      "es": [
+        "Torre del halcón",
+        "Acelerar",
+        "Entreno de soldados"
+      ],
+      "fr": [
+        "Tour du faucon",
+        "Accélération",
+        "Entraînement des soldats"
+      ],
+      "id": [
+        "Menara Raven",
+        "Percepat",
+        "Latih Prajurit"
+      ],
+      "ja": [
+        "ファルコンタワー",
+        "ブースト",
+        "兵士訓練"
+      ],
+      "ko": [
+        "팔콘 타워",
+        "가속",
+        "병사 훈련"
+      ],
+      "pt": [
+        "Torre do Falcão",
+        "Acelerar",
+        "Treinamento de Soldados"
+      ]
+    },
+    "tips": {}
+  },
+  "6": {
+    "id": 6,
+    "name": {
+      "ru": "Полное развитие II",
+      "en": "Full Development II",
+      "de": "Volle EntwIIcklung II",
+      "es": "Desarrollo completo II",
+      "fr": "Développement complet II",
+      "id": "Pengembangan Menyeluruh II",
+      "ja": "総合発展II",
+      "ko": "균형 성장 II",
+      "pt": "DesenvolvIImento Completo II"
+    },
+    "tasks": {
+      "ru": [
+        "Поражение",
+        "Тайная операция",
+        "Ускорение",
+        "Торговый караван"
+      ],
+      "en": [
+        "Defeat",
+        "Covert Operation",
+        "Speedup",
+        "Trade Caravan"
+      ],
+      "de": [
+        "Besiegen",
+        "Verdeckte Operation",
+        "Beschleunigung",
+        "Handelskarawane"
+      ],
+      "es": [
+        "Derrotar",
+        "Operación Encubierta",
+        "Acelerar",
+        "Caravana comercial"
+      ],
+      "fr": [
+        "Défaite",
+        "Opération secrète",
+        "Accélération",
+        "Caravane commerciale"
+      ],
+      "id": [
+        "Kalahkan",
+        "Operasi Rahasia",
+        "Percepat",
+        "Kereta Kargo"
+      ],
+      "ja": [
+        "撃破",
+        "秘密作戦",
+        "ブースト",
+        "輸送馬車"
+      ],
+      "ko": [
+        "격파",
+        "비밀 작전",
+        "가속",
+        "화물 마차"
+      ],
+      "pt": [
+        "Derrota",
+        "Operação Secreta",
+        "Acelerar",
+        "Caravana Mercante"
+      ]
+    },
+    "tips": {}
+  },
+  "101": {
+    "id": 101,
+    "name": {
+      "ru": "Усиление ворона",
+      "en": "Enhance Raven",
+      "de": "Rabenverbesserung",
+      "es": "Mejora al Cuervo",
+      "fr": "Améliorer le corbeau",
+      "id": "Penguatan Raven",
+      "ja": "レイヴン強化",
+      "ko": "까마귀 강화",
+      "pt": "Aprimore o Corvo"
+    },
+    "tasks": {
+      "ru": [
+        "Соколиная башня",
+        "Улучшение ворона",
+        "Расход энергии",
+        "Собрать ресурсы"
+      ],
+      "en": [
+        "Falcon Tower",
+        "Raven Upgrade",
+        "Consume Stamina",
+        "Gather Resources"
+      ],
+      "de": [
+        "Falkenturm",
+        "Raben-Upgrade",
+        "Ausdauer verbrauchen",
+        "Ressourcen sammeln"
+      ],
+      "es": [
+        "Torre del halcón",
+        "Mejora del Cuervo",
+        "Consume resistencia",
+        "Recolecta recursos"
+      ],
+      "fr": [
+        "Tour du faucon",
+        "Amélioration du corbeau",
+        "Consommer de l\\'énergie",
+        "Collecter des ressources"
+      ],
+      "id": [
+        "Menara Raven",
+        "Peningkatan Raven",
+        "Menggunakan Stamina",
+        "Kumpulkan sumber daya"
+      ],
+      "ja": [
+        "ファルコンタワー",
+        "レイヴンレベルアップ",
+        "スタミナ消費",
+        "資源採集"
+      ],
+      "ko": [
+        "팔콘 타워",
+        "까마귀 레벨업",
+        "체력 소모",
+        "자원 채집"
+      ],
+      "pt": [
+        "Torre do Falcão",
+        "Melhoria do Corvo",
+        "Consumir Vigor",
+        "Colete Recursos"
+      ]
+    },
+    "tips": {}
+  },
+  "102": {
+    "id": 102,
+    "name": {
+      "ru": "Развитие территории",
+      "en": "Territory Development",
+      "de": "Gebietsentwicklung",
+      "es": "Desarrollo territorial",
+      "fr": "Développement du territoire",
+      "id": "Pengembangan Wilayah",
+      "ja": "領地発展",
+      "ko": "영지 발전",
+      "pt": "Desenvolvimento de Território"
+    },
+    "tasks": {
+      "ru": [
+        "Построить",
+        "Тайная операция",
+        "Торговый караван"
+      ],
+      "en": [
+        "Construct",
+        "Covert Operation",
+        "Trade Caravan"
+      ],
+      "de": [
+        "Bauen",
+        "Verdeckte Operation",
+        "Handelskarawane"
+      ],
+      "es": [
+        "Construcción",
+        "Operación Encubierta",
+        "Caravana comercial"
+      ],
+      "fr": [
+        "Construire",
+        "Opération secrète",
+        "Caravane commerciale"
+      ],
+      "id": [
+        "Bangun",
+        "Operasi Rahasia",
+        "Kereta Kargo"
+      ],
+      "ja": [
+        "建設",
+        "秘密作戦",
+        "輸送馬車"
+      ],
+      "ko": [
+        "건설",
+        "비밀 작전",
+        "화물 마차"
+      ],
+      "pt": [
+        "Construir",
+        "Operação Secreta",
+        "Caravana Mercante"
+      ]
+    },
+    "tips": {}
+  },
+  "103": {
+    "id": 103,
+    "name": {
+      "ru": "Изучение технологий",
+      "en": "Tech Research",
+      "de": "Tech-Forschung",
+      "es": "Investigación tecnológica",
+      "fr": "Recherche Technologique",
+      "id": "Riset Teknologi",
+      "ja": "技術開発",
+      "ko": "기술 연구개발",
+      "pt": "Pesquisa de Tecnologia"
+    },
+    "tasks": {
+      "ru": [
+        "Технологии",
+        "Свиток обучения",
+        "Соколиная башня"
+      ],
+      "en": [
+        "Technology Research",
+        "Study Scroll",
+        "Falcon Tower"
+      ],
+      "de": [
+        "Technologieforschung",
+        "Studien-Schriftrolle",
+        "Falkenturm"
+      ],
+      "es": [
+        "Investigación tecnológica",
+        "Pergamino de estudio",
+        "Torre del halcón"
+      ],
+      "fr": [
+        "Recherche technologique",
+        "Parchemin d\\'étude",
+        "Tour du faucon"
+      ],
+      "id": [
+        "Riset Teknologi",
+        "Gulungan Penelitian",
+        "Menara Raven"
+      ],
+      "ja": [
+        "技術研究",
+        "研究の巻物",
+        "ファルコンタワー"
+      ],
+      "ko": [
+        "과학기술 연구",
+        "연구 스크롤",
+        "팔콘 타워"
+      ],
+      "pt": [
+        "Pesquisa de Tecnologia",
+        "Pergaminho de Estudo",
+        "Torre do Falcão"
+      ]
+    },
+    "tips": {}
+  },
+  "104": {
+    "id": 104,
+    "name": {
+      "ru": "Усиление героев",
+      "en": "Enhance Heroes",
+      "de": "Heldenverbesserung",
+      "es": "Mejorar héroes",
+      "fr": "Renforcer les héros",
+      "id": "Peningkatan Hero",
+      "ja": "英雄強化",
+      "ko": "영웅 강화",
+      "pt": "Melhore os Heróis"
+    },
+    "tasks": {
+      "ru": [
+        "Наем",
+        "Фрагмент героя"
+      ],
+      "en": [
+        "Recruit",
+        "Hero Shard"
+      ],
+      "de": [
+        "Rekrutieren",
+        "Heldensplitter"
+      ],
+      "es": [
+        "Reclutar",
+        "Fragmento de héroe"
+      ],
+      "fr": [
+        "Recruter",
+        "Fragment de héros"
+      ],
+      "id": [
+        "Rekrut",
+        "Fragmen Hero"
+      ],
+      "ja": [
+        "募集",
+        "英雄の欠片"
+      ],
+      "ko": [
+        "모집",
+        "영웅 조각"
+      ],
+      "pt": [
+        "Recrutar",
+        "Fragmento de Herói"
+      ]
+    },
+    "tips": {}
+  },
+  "105": {
+    "id": 105,
+    "name": {
+      "ru": "Подготовка к войне",
+      "en": "War Preparation",
+      "de": "Kriegsvorbereitung",
+      "es": "Preparativos de guerra",
+      "fr": "Préparatifs de guerre",
+      "id": "Persiapan Perang",
+      "ja": "戦争準備",
+      "ko": "전쟁 준비",
+      "pt": "Preparação para a Guerra"
+    },
+    "tasks": {
+      "ru": [
+        "Соколиная башня",
+        "Ускорение",
+        "Подготовка солдат"
+      ],
+      "en": [
+        "Falcon Tower",
+        "Speedup",
+        "Soldier Training"
+      ],
+      "de": [
+        "Falkenturm",
+        "Beschleunigung",
+        "Soldatentraining"
+      ],
+      "es": [
+        "Torre del halcón",
+        "Acelerar",
+        "Entreno de soldados"
+      ],
+      "fr": [
+        "Tour du faucon",
+        "Accélération",
+        "Entraînement des soldats"
+      ],
+      "id": [
+        "Menara Raven",
+        "Percepat",
+        "Latih Prajurit"
+      ],
+      "ja": [
+        "ファルコンタワー",
+        "ブースト",
+        "兵士訓練"
+      ],
+      "ko": [
+        "팔콘 타워",
+        "가속",
+        "병사 훈련"
+      ],
+      "pt": [
+        "Torre do Falcão",
+        "Acelerar",
+        "Treinamento de Soldados"
+      ]
+    },
+    "tips": {
+      "ru": [
+        "Активировать щит",
+        "Перемещение к точке сбора альянса"
+      ],
+      "en": [
+        "Activate Shield",
+        "Relocate to Alliance Assembly Point"
+      ],
+      "de": [
+        "Schild aktivieren",
+        "Zum Allianz-Versammlungspunkt umziehen"
+      ],
+      "es": [
+        "Activar escudo",
+        "Reubicarse en el punto de reunión de la alianza"
+      ],
+      "fr": [
+        "Activer le bouclier",
+        "Rejoindre le point de ralliement de l\\'alliance"
+      ],
+      "id": [
+        "Aktifkan Perisai",
+        "Pindah ke Titik Kumpul Guild"
+      ],
+      "ja": [
+        "防御シールドを展開",
+        "ギルド集合地点にテレポート"
+      ],
+      "ko": [
+        "보호막 활성화",
+        "길드 집합지로 이전"
+      ],
+      "pt": [
+        "Ativar Escudo",
+        "Realocar para o Ponto de Mobilização da Aliança"
+      ]
+    }
+  },
+  "106": {
+    "id": 106,
+    "name": {
+      "ru": "Рейд на врага",
+      "en": "Raid the Enemy",
+      "de": "Feindlicher Überfall",
+      "es": "Asalto al enemigo",
+      "fr": "Assaut sur l\\'ennemi",
+      "id": "Serangan Mendadak ke Musuh",
+      "ja": "敵軍へのレイド",
+      "ko": "적군 기습",
+      "pt": "Ataque o Inimigo"
+    },
+    "tasks": {
+      "ru": [
+        "Поражение",
+        "Тайная операция",
+        "Ускорение",
+        "Торговый караван"
+      ],
+      "en": [
+        "Defeat",
+        "Covert Operation",
+        "Speedup",
+        "Trade Caravan"
+      ],
+      "de": [
+        "Besiegen",
+        "Verdeckte Operation",
+        "Beschleunigung",
+        "Handelskarawane"
+      ],
+      "es": [
+        "Derrotar",
+        "Operación Encubierta",
+        "Acelerar",
+        "Caravana comercial"
+      ],
+      "fr": [
+        "Défaite",
+        "Opération secrète",
+        "Accélération",
+        "Caravane commerciale"
+      ],
+      "id": [
+        "Kalahkan",
+        "Operasi Rahasia",
+        "Percepat",
+        "Kereta Kargo"
+      ],
+      "ja": [
+        "撃破",
+        "秘密作戦",
+        "ブースト",
+        "輸送馬車"
+      ],
+      "ko": [
+        "격파",
+        "비밀 작전",
+        "가속",
+        "화물 마차"
+      ],
+      "pt": [
+        "Derrota",
+        "Operação Secreta",
+        "Acelerar",
+        "Caravana Mercante"
+      ]
+    },
+    "tips": {}
+  }
+}
