@@ -76,24 +76,22 @@ Falcon Tower quests and their associated treasure maps are among the primary dai
 
 ### Alliance Excavations {#excavations}
 
-Completing Falcon Tower quests rewards **Treasure Maps**, allowing players to start dig sites on the world map. This is a cooperative alliance activity with a dynamic excavation timer.
+Completing Falcon Tower quests awards **Treasure Maps**, which spawn excavation dig sites on the world map. This is a cooperative alliance activity featuring two distinct reward types: the base digging reward and a speed bonus upon completion.
 
-#### How Excavation Mechanics Work:
+#### 1. Base Excavation Reward (For All Alliance Members)
+* **Everyone Who Touches the Dig Site Receives the Reward:** You only need your squad to arrive and enter the excavation site for a single moment — participation is recorded immediately.
+* **The Cardinal Rule: DO NOT Camp/Sit on the Dig Site!**
+  The excavation duration decreases rapidly with every squad actively digging on the tile. If alliance members camp on the spot, the site finishes in seconds, and allies marching from distant cities **will not make it in time**.
+  > [!IMPORTANT]
+  > **Alliance Etiquette:** Touch the excavation for a split second to lock in your participation, then **immediately recall your squad**, allowing the timer to stay open long enough for all teammates to reach the site at normal march speed.
 
-* **The "Hand" Icon & Dispatching Squads:**
-  When an ally initiates an excavation, a quick-action **helping hand icon** appears in the interface, and the treasure site shows on the world map. You can join the excavation either by tapping the **"Hand" icon** in the quick menu or by tapping directly on the **excavation site** on the map to dispatch a march.
-
-* **20 Players Maximum Capacity:**
-  Up to **20 alliance members** can participate and claim rewards from a single excavation site.
-
-* **Dynamic Dig Speed: Dig Time Decreases with Every Player:**
-  All alliance members can participate, but **each additional squad that arrives at the site shortens the remaining excavation duration**. The more players actively digging together, the faster the site completes.
-
-* **Risk of Arriving Too Late (Wasted March):**
-  Because arriving players constantly reduce the overall excavation timer, the dig can wrap up very rapidly. If your city is far away or your march speed is slow, the excavation may **finish before your troops reach the site**, causing your squad to turn around empty-handed without any reward.
-
-> [!TIP]
-> **Tactical Advice:** If an excavation is triggered far from your location and many allies are already marching, compare your estimated march time against the ticking excavation timer. Use march speedups if necessary to ensure your squad reaches the site before the excavation completes.
+#### 2. Extra Speed Bonus ("Hand" Icon for 10 Players)
+* **"Hand" Icon Appears AFTER Excavation Ends:**
+  The exact moment the excavation finishes, a **"Hand" icon** appears above the site. To grab this extra bonus, quickly tap either the **Hand icon** or the **excavation location itself**.
+* **Strict First-Come, First-Served Cap of 10 Players:**
+  This is a speed-click reaction reward: only the **first 10 alliance members** who tap it receive the bonus prize.
+* **One Lucky Player Gets a Double Reward ($2\times$):**
+  Exactly **one random player** out of these 10 lucky clickers receives a **Double Reward ($2\times$)**!
 
 ---
 
