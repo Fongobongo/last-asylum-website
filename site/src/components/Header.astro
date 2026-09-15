@@ -233,7 +233,7 @@ const dictServer: Record<string, string> = {
   </div>
 </header>
 
-<div id="search-modal" class="fixed inset-0 z-[60] hidden bg-black/80 backdrop-blur-xl" role="dialog" aria-modal="true">
+<div id="search-modal" data-lang={lang} class="fixed inset-0 z-[60] hidden bg-black/80 backdrop-blur-xl" role="dialog" aria-modal="true">
   <div class="mx-auto mt-[10vh] max-w-2xl px-4">
     <div class="overflow-hidden rounded-[24px] border border-white/10 bg-[#0f0f0e] shadow-2xl">
       <div class="flex items-center gap-3 px-5 py-4 border-b border-white/5">
@@ -424,14 +424,18 @@ const dictServer: Record<string, string> = {
         const pf = (window as any).pagefind;
         const el = document.getElementById('search-results');
         if (!el) return;
+        const curLang = modal?.dataset.lang || 'en';
+        const emptyMsg = curLang === 'ru' ? 'Введите запрос для поиска по руководствам…' : 'Type to search guides…';
+        const noResultsMsg = curLang === 'ru' ? 'Ничего не найдено' : 'No results found';
+
         if (!pf || !input.value.trim()) {
-          el.innerHTML = '<div class="p-10 text-center text-stone-500 text-sm">Type to search guides…</div>';
+          el.innerHTML = `<div class="p-10 text-center text-stone-500 text-sm">${emptyMsg}</div>`;
           return;
         }
         const s = await pf.search(input.value);
         const items = await Promise.all(s.results.slice(0, 8).map((r: any) => r.data()));
         if (!items.length) {
-          el.innerHTML = '<div class="p-10 text-center text-stone-500 text-sm">No results found</div>';
+          el.innerHTML = `<div class="p-10 text-center text-stone-500 text-sm">${noResultsMsg}</div>`;
           return;
         }
         el.innerHTML = items.map((d: any) => `
