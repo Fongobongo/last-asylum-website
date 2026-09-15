@@ -18,6 +18,20 @@ videoTopic: calendar
 | ⚔️ Sat | Alliance Duel finale | AD Phase 6 PvP showdown. Kingdom War main battles also land on Saturdays (biweekly). |
 | 🗓️ Sun | Planning + shop reset | Pre-plan Monday; Alliance/other shops restock. Complete Falcon quests for tomorrow. |
 
+## 🏛️ The Monument: Server Age Chronicle {#monument}
+
+The in-game **Monument** (Sanctuary building ID 5038) records your server's exact timeline and chronicles (Server Age). Unlike recurring weekly rotations, premier game milestones, limited UR hero wheels, and cross-server warfare unlock strictly according to how many days your server has been alive.
+
+Use the interactive Monument tool below to **enter your server day** (e.g. Day 14, 29, 66, or 120) to view active milestones, countdowns to upcoming releases, strict hoarding priorities, and linked tactical guides.
+
+### Major Monument Milestones:
+
+- **Chapter 1 (Days 1–14)**: Sanctuary founding, core free UR tank [Arthur](/codex/arthur/), [Alliance](/alliance/) feature unlock, first UR Ranger roulette [Cynthia](/codex/cynthia/) (Day 8), and the first 20-wave [Undead Siege](/events/undead/) (Day 14).
+- **Chapter 2 (Days 15–28)**: First [Alliance Duel](/events/alliance-duel/) qualification (Top-32 alliances, Day 15), daily [Alliance Caravan](/events/wagon/) (Day 21), and team battlegrounds in [Canyon Clash](/events/canyon/).
+- **Chapter 3 (Days 29–65)**: Server borders shatter! Cross-server [Kingdom War (KvK)](/events/kvk/) begins, hero pool expands ([Shadow](/codex/shadow/), Joker, Bella), and weekly 30-minute [Elixir Scramble](/events/elixir/).
+- **Chapter 4 (Days 66–119)**: The Golden Age! Unlocking apex F2P carry [Marlena](/codex/marlena/), daily 300-fish ocean bounty in [Mythic Treasure](/events/mythic/), Curio Hall relics, and strict Antitoxin stockpiling.
+- **Chapter 5 (Day 120+)**: Launch of the epic 55-day **«Era of Revival»** (League of Expeditions) featuring viral infection immunity, Lord Statues, specialization talent trees, and Zoya.
+
 ## Resets & recurring schedules {#recurring}
 
 - 🔄 **Plunder limit reset** — Daily 02:00 UTC. Daily plunder counter resets (100% → 15% → 5% bands start fresh).

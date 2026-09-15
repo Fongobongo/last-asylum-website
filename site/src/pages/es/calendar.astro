@@ -5,6 +5,7 @@ import VideoSection from '../../components/VideoSection.astro';
 import DiscordBanner from '../../components/DiscordBanner.astro';
 import DailyChecklist from '../../components/DailyChecklist.astro';
 import WeeklyCheatSheet from '../../components/WeeklyCheatSheet.astro';
+import MonumentTimeline from '../../components/MonumentTimeline.astro';
 import { weeklySchedule, recurring } from '../../data/calendar';
 import { t } from '../../i18n/ui';
 import type { Lang } from '../../i18n/utils';
@@ -59,6 +60,7 @@ const lang: Lang = 'es';
     <p class="text-sm text-stone-500">⚠️ Límite de cola: TODAS las misiones (completadas o no) cuentan para el contador de cola (x/x). Cuando está lleno, la siguiente misión se pierde.</p>
 
         <VideoSection topic="calendar" lang={lang} />
+    <MonumentTimeline lang={lang} />
     <DailyChecklist lang={lang} />
     <WeeklyCheatSheet lang={lang} />
     <DiscordBanner lang={lang} />

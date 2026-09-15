@@ -1,0 +1,780 @@
+---
+import type { Lang } from '../i18n/utils';
+import { localizedPath } from '../i18n/utils';
+import { monumentMilestones, monumentChapters } from '../data/monumentTimeline';
+
+interface Props {
+  lang?: Lang;
+}
+
+const { lang = 'en' } = Astro.props;
+
+const ui = {
+  ru: {
+    title: '🏛️ Монумент: Календарь Хроник Сервера',
+    subtitle: 'Точное расписание всех событий игры по дням жизни сервера (от Дня 1 до Сезона 120+). Укажите день вашего сервера, чтобы увидеть активные и предстоящие события, приоритеты накопления и гайды.',
+    serverDayLabel: 'Возраст вашего сервера (день):',
+    serverDayPlaceholder: 'Введите день (например, 14)',
+    quickSelect: 'Быстрый переход:',
+    statusActive: '🟢 АКТИВНО СЕЙЧАС',
+    statusPassed: '✅ ПРОЙДЕНО',
+    statusUpcoming: '⏳ ОТКРОЕТСЯ ЧЕРЕЗ',
+    daysSuffix: 'дн.',
+    daysCount: 'дней',
+    expandAll: 'Развернуть все',
+    collapseAll: 'Свернуть все',
+    allChapters: 'Все главы',
+    allCategories: 'Все категории',
+    catHeroes: '🦸 Герои & Призыв',
+    catAlliance: '🛡️ Альянс & Команда',
+    catPvp: '⚔️ PvP & Войны',
+    catPve: '🧟 PvE & Осады',
+    catSeason: '☣️ Сезонные механики',
+    unlockCond: 'Условие открытия',
+    whatToHoard: 'Что копить заранее',
+    keyTips: 'Ключевые советы и тактика',
+    commonMistakes: 'Главная ошибка новичков',
+    summaryTitle: 'Сводка для Дня',
+    currentFocus: 'Текущий фокус:',
+    nextBigEvent: 'Ближайший крупный рубеж:',
+    hoardPriority: 'Приоритет накопления:',
+    readGuide: 'Читать подробный гайд →'
+  },
+  en: {
+    title: '🏛️ The Monument: Server Age Chronicle Calendar',
+    subtitle: 'Exact server timeline from Day 1 to Season 120+. Enter your server day to discover active and upcoming events, hoarding priorities, and linked tactical guides.',
+    serverDayLabel: 'Your server age (day):',
+    serverDayPlaceholder: 'Enter day (e.g. 14)',
+    quickSelect: 'Quick presets:',
+    statusActive: '🟢 ACTIVE NOW',
+    statusPassed: '✅ COMPLETED',
+    statusUpcoming: '⏳ UNLOCKS IN',
+    daysSuffix: 'd',
+    daysCount: 'days',
+    expandAll: 'Expand All',
+    collapseAll: 'Collapse All',
+    allChapters: 'All Chapters',
+    allCategories: 'All Categories',
+    catHeroes: '🦸 Heroes & Summons',
+    catAlliance: '🛡️ Alliance & Team',
+    catPvp: '⚔️ PvP & Wars',
+    catPve: '🧟 PvE & Sieges',
+    catSeason: '☣️ Seasonal Modes',
+    unlockCond: 'Unlock Condition',
+    whatToHoard: 'What to Hoard in Advance',
+    keyTips: 'Key Strategies & Tips',
+    commonMistakes: 'Common Rookie Pitfall',
+    summaryTitle: 'Briefing for Day',
+    currentFocus: 'Current Focus:',
+    nextBigEvent: 'Next Major Milestone:',
+    hoardPriority: 'Strict Hoard Priority:',
+    readGuide: 'Read Full Guide →'
+  },
+  de: {
+    title: '🏛️ Das Denkmal: Server-Chronik nach Tagen',
+    subtitle: 'Exakter Server-Zeitplan von Tag 1 bis Saison 120+. Gib deinen Servertag ein, um aktive und kommende Events sowie Spartipps zu sehen.',
+    serverDayLabel: 'Dein Servertag:',
+    serverDayPlaceholder: 'Tag eingeben (z.B. 14)',
+    quickSelect: 'Schnellauswahl:',
+    statusActive: '🟢 JETZT AKTIV',
+    statusPassed: '✅ ABGESCHLOSSEN',
+    statusUpcoming: '⏳ ÖFFNET IN',
+    daysSuffix: 'T',
+    daysCount: 'Tagen',
+    expandAll: 'Alle aufklappen',
+    collapseAll: 'Alle zuklappen',
+    allChapters: 'Alle Kapitel',
+    allCategories: 'Alle Kategorien',
+    catHeroes: '🦸 Helden',
+    catAlliance: '🛡️ Allianz',
+    catPvp: '⚔️ PvP & Krieg',
+    catPve: '🧟 PvE & Belagerung',
+    catSeason: '☣️ Saison',
+    unlockCond: 'Freischaltbedingung',
+    whatToHoard: 'Was im Voraus gespart werden muss',
+    keyTips: 'Wichtige Tipps & Taktiken',
+    commonMistakes: 'Häufiger Anfängerfehler',
+    summaryTitle: 'Lagebericht für Tag',
+    currentFocus: 'Aktueller Fokus:',
+    nextBigEvent: 'Nächster Meilenstein:',
+    hoardPriority: 'Sparpriorität:',
+    readGuide: 'Vollständigen Guide lesen →'
+  },
+  es: {
+    title: '🏛️ El Monumento: Crónicas del Servidor por Días',
+    subtitle: 'Cronograma exacto del servidor del Día 1 a la Temporada 120+. Ingresa el día de tu servidor para ver eventos activos, próximos y prioridades de ahorro.',
+    serverDayLabel: 'Día de tu servidor:',
+    serverDayPlaceholder: 'Ingresa el día (ej. 14)',
+    quickSelect: 'Acceso rápido:',
+    statusActive: '🟢 ACTIVO AHORA',
+    statusPassed: '✅ COMPLETADO',
+    statusUpcoming: '⏳ SE DESBLOQUEA EN',
+    daysSuffix: 'd',
+    daysCount: 'días',
+    expandAll: 'Expandir todo',
+    collapseAll: 'Colapsar todo',
+    allChapters: 'Todos los capítulos',
+    allCategories: 'Todas las categorías',
+    catHeroes: '🦸 Héroes',
+    catAlliance: '🛡️ Alianza',
+    catPvp: '⚔️ PvP y Guerras',
+    catPve: '🧟 PvE y Asedios',
+    catSeason: '☣️ Temporada',
+    unlockCond: 'Condición de desbloqueo',
+    whatToHoard: 'Qué ahorrar por adelantado',
+    keyTips: 'Consejos clave y tácticas',
+    commonMistakes: 'Error común de novatos',
+    summaryTitle: 'Resumen para el Día',
+    currentFocus: 'Enfoque actual:',
+    nextBigEvent: 'Próximo gran hito:',
+    hoardPriority: 'Prioridad de ahorro:',
+    readGuide: 'Leer guía completa →'
+  },
+  fr: {
+    title: '🏛️ Le Monument : Chroniques du Serveur par Jours',
+    subtitle: 'Calendrier exact du serveur du Jour 1 à la Saison 120+. Indiquez le jour de votre serveur pour voir les événements actifs et à venir.',
+    serverDayLabel: 'Âge du serveur (jour) :',
+    serverDayPlaceholder: 'Entrez le jour (ex. 14)',
+    quickSelect: 'Accès rapide :',
+    statusActive: '🟢 ACTIF MAINTENANT',
+    statusPassed: '✅ TERMINÉ',
+    statusUpcoming: '⏳ DÉBLOCAGE DANS',
+    daysSuffix: 'j',
+    daysCount: 'jours',
+    expandAll: 'Tout déplier',
+    collapseAll: 'Tout replier',
+    allChapters: 'Tous les chapitres',
+    allCategories: 'Toutes les catégories',
+    catHeroes: '🦸 Héros',
+    catAlliance: '🛡️ Alliance',
+    catPvp: '⚔️ PvP & Guerres',
+    catPve: '🧟 PvE & Sièges',
+    catSeason: '☣️ Saison',
+    unlockCond: 'Condition de déblocage',
+    whatToHoard: 'Ce qu\'il faut économiser',
+    keyTips: 'Conseils clés et tactiques',
+    commonMistakes: 'Erreur classique',
+    summaryTitle: 'Briefing pour le Jour',
+    currentFocus: 'Focus actuel :',
+    nextBigEvent: 'Prochain grand jalon :',
+    hoardPriority: 'Priorité d\'épargne :',
+    readGuide: 'Lire le guide complet →'
+  },
+  id: {
+    title: '🏛️ Monumen: Kalender Kronik Server Menurut Hari',
+    subtitle: 'Jadwal server akurat dari Hari 1 hingga Musim 120+. Masukkan hari server Anda untuk melihat acara aktif, mendatang, dan panduan taktis.',
+    serverDayLabel: 'Hari server Anda:',
+    serverDayPlaceholder: 'Masukkan hari (misal 14)',
+    quickSelect: 'Pintasan cepat:',
+    statusActive: '🟢 AKTIF SEKARANG',
+    statusPassed: '✅ SELESAI',
+    statusUpcoming: '⏳ TERBUKA DALAM',
+    daysSuffix: 'h',
+    daysCount: 'hari',
+    expandAll: 'Buka Semua',
+    collapseAll: 'Tutup Semua',
+    allChapters: 'Semua Bab',
+    allCategories: 'Semua Kategori',
+    catHeroes: '🦸 Hero',
+    catAlliance: '🛡️ Aliansi',
+    catPvp: '⚔️ PvP & Perang',
+    catPve: '🧟 PvE & Pengepungan',
+    catSeason: '☣️ Musim',
+    unlockCond: 'Syarat Membuka',
+    whatToHoard: 'Apa yang Harus Ditimbun',
+    keyTips: 'Tips & Taktik Kunci',
+    commonMistakes: 'Kesalahan Umum Pemula',
+    summaryTitle: 'Ringkasan untuk Hari',
+    currentFocus: 'Fokus Saat Ini:',
+    nextBigEvent: 'Tonggak Utama Berikutnya:',
+    hoardPriority: 'Prioritas Tabungan:',
+    readGuide: 'Baca Panduan Lengkap →'
+  },
+  ja: {
+    title: '🏛️ 記念碑（モニュメント）：サーバー経過日数カレンダー',
+    subtitle: 'サーバー1日目からシーズン120日目以降までの完全スケジュール。サーバー日数を指定して、解放イベント・温存すべき素材・攻略情報を確認。',
+    serverDayLabel: 'あなたのサーバー日数：',
+    serverDayPlaceholder: '日数を入力（例：14）',
+    quickSelect: 'クイック選択：',
+    statusActive: '🟢 現在開催中',
+    statusPassed: '✅ 終了 / 解放済み',
+    statusUpcoming: '⏳ 解放まであと',
+    daysSuffix: '日',
+    daysCount: '日',
+    expandAll: 'すべて開く',
+    collapseAll: 'すべて閉じる',
+    allChapters: '全チャプター',
+    allCategories: '全カテゴリー',
+    catHeroes: '🦸 英雄・募集',
+    catAlliance: '🛡️ 同盟・チーム',
+    catPvp: '⚔️ PvP・戦争',
+    catPve: '🧟 PvE・包囲戦',
+    catSeason: '☣️ シーズン',
+    unlockCond: '解放条件',
+    whatToHoard: '事前に温存すべき資材',
+    keyTips: '重要アドバイス・戦術',
+    commonMistakes: '初心者が陥りがちなミス',
+    summaryTitle: '進行度ブリーフィング（第',
+    currentFocus: '現在の重点目標：',
+    nextBigEvent: '次回の大規模節目：',
+    hoardPriority: '最優先温存アイテム：',
+    readGuide: '攻略ガイドを読む →'
+  },
+  ko: {
+    title: '🏛️ 기념비: 서버 일차별 연대기 캘린더',
+    subtitle: '서버 1일차부터 시즌 120일차 이상까지의 정확한 오픈 타임라인. 서버 일수를 입력하여 활성화된 이벤트, 사전 비축 항목, 상세 가이드를 확인하세요.',
+    serverDayLabel: '내 서버 경과 일수:',
+    serverDayPlaceholder: '일수 입력 (예: 14)',
+    quickSelect: '빠른 이동:',
+    statusActive: '🟢 현재 진행 중',
+    statusPassed: '✅ 완료 / 해금됨',
+    statusUpcoming: '⏳ 오픈까지',
+    daysSuffix: '일',
+    daysCount: '일',
+    expandAll: '모두 펼치기',
+    collapseAll: '모두 접기',
+    allChapters: '전체 챕터',
+    allCategories: '전체 분류',
+    catHeroes: '🦸 영웅 및 모집',
+    catAlliance: '🛡️ 연맹 및 협동',
+    catPvp: '⚔️ PvP 및 전쟁',
+    catPve: '🧟 PvE 및 공성',
+    catSeason: '☣️ 시즌',
+    unlockCond: '해금 조건',
+    whatToHoard: '사전 비축 필수 품목',
+    keyTips: '핵심 전략 및 팁',
+    commonMistakes: '초보자 주요 실수',
+    summaryTitle: '서버 일차 현황 브리핑 (',
+    currentFocus: '현재 집중 목표:',
+    nextBigEvent: '다음 주요 마일스톤:',
+    hoardPriority: '최우선 비축 자원:',
+    readGuide: '상세 가이드 보기 →'
+  },
+  pt: {
+    title: '🏛️ O Monumento: Calendário de Crônicas do Servidor',
+    subtitle: 'Cronograma exato do servidor do Dia 1 à Temporada 120+. Informe o dia do seu servidor para ver eventos ativos, próximos marcos e prioridades de economia.',
+    serverDayLabel: 'Idade do seu servidor (dia):',
+    serverDayPlaceholder: 'Digite o dia (ex: 14)',
+    quickSelect: 'Atalhos rápidos:',
+    statusActive: '🟢 ATIVO AGORA',
+    statusPassed: '✅ CONCLUÍDO',
+    statusUpcoming: '⏳ DESBLOQUEIA EM',
+    daysSuffix: 'd',
+    daysCount: 'dias',
+    expandAll: 'Expandir tudo',
+    collapseAll: 'Recolher tudo',
+    allChapters: 'Todos os capítulos',
+    allCategories: 'Todas as categorias',
+    catHeroes: '🦸 Heróis',
+    catAlliance: '🛡️ Aliança',
+    catPvp: '⚔️ PvP e Guerras',
+    catPve: '🧟 PvE e Cercos',
+    catSeason: '☣️ Temporada',
+    unlockCond: 'Condição de desbloqueio',
+    whatToHoard: 'O que estocar com antecedência',
+    keyTips: 'Dicas cruciais e táticas',
+    commonMistakes: 'Erro comum de novatos',
+    summaryTitle: 'Resumo para o Dia',
+    currentFocus: 'Foco atual:',
+    nextBigEvent: 'Próximo grande marco:',
+    hoardPriority: 'Prioridade de economia:',
+    readGuide: 'Ler guia completo →'
+  }
+};
+
+const t = ui[lang] || ui.en;
+---
+
+<section id="monument" class="not-prose my-10 rounded-2xl border border-stone-800 bg-stone-950/80 p-5 shadow-2xl backdrop-blur-sm sm:p-8">
+  <!-- Header -->
+  <div class="border-b border-stone-800/80 pb-6">
+    <div class="flex flex-wrap items-center justify-between gap-4">
+      <div>
+        <span class="inline-flex items-center gap-1.5 rounded-full border border-plague-500/30 bg-plague-950/60 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-plague-400">
+          🏛️ In-Game Monument System
+        </span>
+        <h2 class="mt-2 text-2xl font-black tracking-tight text-stone-100 sm:text-3xl">
+          {t.title}
+        </h2>
+        <p class="mt-2 max-w-3xl text-sm leading-relaxed text-stone-400">
+          {t.subtitle}
+        </p>
+      </div>
+
+      <!-- Expand / Collapse All -->
+      <div class="flex items-center gap-2 self-start">
+        <button
+          type="button"
+          id="monument-toggle-all-btn"
+          class="rounded-lg border border-stone-700 bg-stone-900 px-3.5 py-1.5 text-xs font-medium text-stone-300 transition-colors hover:border-plague-500 hover:text-plague-300"
+        >
+          {t.expandAll}
+        </button>
+      </div>
+    </div>
+
+    <!-- Interactive Server Age Bar -->
+    <div class="mt-6 rounded-xl border border-stone-800 bg-stone-900/90 p-4 sm:p-5">
+      <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+        <div class="flex flex-1 flex-col gap-1.5">
+          <label for="monument-day-input" class="text-xs font-bold uppercase tracking-wider text-stone-300">
+            {t.serverDayLabel}
+          </label>
+          <div class="flex items-center gap-3">
+            <input
+              type="number"
+              id="monument-day-input"
+              min="1"
+              max="200"
+              value="14"
+              class="w-24 rounded-lg border border-stone-700 bg-stone-950 px-3 py-1.5 text-center text-lg font-black text-plague-300 shadow-inner focus:border-plague-500 focus:outline-none"
+              placeholder="14"
+            />
+            <input
+              type="range"
+              id="monument-day-slider"
+              min="1"
+              max="150"
+              value="14"
+              class="h-2 w-full max-w-xs cursor-pointer accent-plague-500 sm:max-w-md"
+            />
+          </div>
+        </div>
+
+        <!-- Quick Jump Buttons -->
+        <div class="flex flex-col gap-1.5">
+          <span class="text-xs text-stone-400">{t.quickSelect}</span>
+          <div class="flex flex-wrap gap-1.5">
+            <button type="button" class="monument-preset-btn rounded border border-stone-700 bg-stone-800 px-2 py-1 text-xs font-medium text-stone-300 hover:border-plague-500 hover:text-plague-200" data-day="1">🚀 1</button>
+            <button type="button" class="monument-preset-btn rounded border border-stone-700 bg-stone-800 px-2 py-1 text-xs font-medium text-stone-300 hover:border-plague-500 hover:text-plague-200" data-day="8">🎯 8</button>
+            <button type="button" class="monument-preset-btn rounded border border-stone-700 bg-stone-800 px-2 py-1 text-xs font-medium text-stone-300 hover:border-plague-500 hover:text-plague-200" data-day="14">🧟 14</button>
+            <button type="button" class="monument-preset-btn rounded border border-stone-700 bg-stone-800 px-2 py-1 text-xs font-medium text-stone-300 hover:border-plague-500 hover:text-plague-200" data-day="15">⚔️ 15</button>
+            <button type="button" class="monument-preset-btn rounded border border-stone-700 bg-stone-800 px-2 py-1 text-xs font-medium text-stone-300 hover:border-plague-500 hover:text-plague-200" data-day="29">👑 29</button>
+            <button type="button" class="monument-preset-btn rounded border border-stone-700 bg-stone-800 px-2 py-1 text-xs font-medium text-stone-300 hover:border-plague-500 hover:text-plague-200" data-day="66">🗡️ 66</button>
+            <button type="button" class="monument-preset-btn rounded border border-stone-700 bg-stone-800 px-2 py-1 text-xs font-medium text-stone-300 hover:border-plague-500 hover:text-plague-200" data-day="75">🐟 75</button>
+            <button type="button" class="monument-preset-btn rounded border border-stone-700 bg-stone-800 px-2 py-1 text-xs font-medium text-stone-300 hover:border-plague-500 hover:text-plague-200" data-day="120">☣️ 120+</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Real-time dynamic status summary box -->
+      <div id="monument-briefing-box" class="mt-4 rounded-lg border border-plague-900/60 bg-plague-950/40 p-3.5 text-xs text-stone-300">
+        <div class="flex items-center gap-2 font-bold text-plague-300">
+          <span>⚡</span>
+          <span id="monument-briefing-title">{t.summaryTitle} 14</span>
+        </div>
+        <div class="mt-2 grid gap-2 sm:grid-cols-3">
+          <div>
+            <span class="text-stone-400">{t.currentFocus}</span>
+            <p id="monument-briefing-focus" class="mt-0.5 font-medium text-stone-200">Первая Осада Нежити (20 волн на базу)</p>
+          </div>
+          <div>
+            <span class="text-stone-400">{t.nextBigEvent}</span>
+            <p id="monument-briefing-next" class="mt-0.5 font-medium text-amber-300">День 15: Дуэль Альянсов (через 1 дн.)</p>
+          </div>
+          <div>
+            <span class="text-stone-400">{t.hoardPriority}</span>
+            <p id="monument-briefing-hoard" class="mt-0.5 font-medium text-emerald-400">Ускорения стройки, свитки исследований</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Filters Bar -->
+    <div class="mt-5 flex flex-wrap items-center justify-between gap-3">
+      <!-- Chapter Tabs -->
+      <div class="flex flex-wrap gap-1.5" id="monument-chapter-filters">
+        <button
+          type="button"
+          class="monument-ch-filter active rounded-lg border border-plague-500/50 bg-plague-950 px-3 py-1 text-xs font-semibold text-plague-200 shadow-sm"
+          data-chapter="all"
+        >
+          {t.allChapters}
+        </button>
+        {monumentChapters.map((ch) => (
+          <button
+            type="button"
+            class="monument-ch-filter rounded-lg border border-stone-800 bg-stone-900 px-3 py-1 text-xs font-medium text-stone-400 transition-colors hover:border-stone-700 hover:text-stone-200"
+            data-chapter={ch.chapter.toString()}
+          >
+            {ch.icon} {ch.dayRange}
+          </button>
+        ))}
+      </div>
+
+      <!-- Category Filter Pills -->
+      <div class="flex flex-wrap gap-1.5" id="monument-cat-filters">
+        <button
+          type="button"
+          class="monument-cat-filter active rounded-full border border-stone-700 bg-stone-800 px-2.5 py-0.5 text-xs font-medium text-stone-200"
+          data-cat="all"
+        >
+          {t.allCategories}
+        </button>
+        <button
+          type="button"
+          class="monument-cat-filter rounded-full border border-stone-800 bg-stone-900 px-2.5 py-0.5 text-xs text-stone-400 hover:text-stone-200"
+          data-cat="alliance"
+        >
+          {t.catAlliance}
+        </button>
+        <button
+          type="button"
+          class="monument-cat-filter rounded-full border border-stone-800 bg-stone-900 px-2.5 py-0.5 text-xs text-stone-400 hover:text-stone-200"
+          data-cat="pvp"
+        >
+          {t.catPvp}
+        </button>
+        <button
+          type="button"
+          class="monument-cat-filter rounded-full border border-stone-800 bg-stone-900 px-2.5 py-0.5 text-xs text-stone-400 hover:text-stone-200"
+          data-cat="heroes"
+        >
+          {t.catHeroes}
+        </button>
+        <button
+          type="button"
+          class="monument-cat-filter rounded-full border border-stone-800 bg-stone-900 px-2.5 py-0.5 text-xs text-stone-400 hover:text-stone-200"
+          data-cat="pve"
+        >
+          {t.catPve}
+        </button>
+        <button
+          type="button"
+          class="monument-cat-filter rounded-full border border-stone-800 bg-stone-900 px-2.5 py-0.5 text-xs text-stone-400 hover:text-stone-200"
+          data-cat="season"
+        >
+          {t.catSeason}
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Timeline Stream -->
+  <div class="mt-6 space-y-4" id="monument-milestone-list">
+    {monumentMilestones.map((m) => {
+      const titleText = m.title[lang] || m.title.en;
+      const badgeText = m.badge[lang] || m.badge.en;
+      const shortDescText = m.shortDesc[lang] || m.shortDesc.en;
+      const unlockCondText = m.unlockCondition[lang] || m.unlockCondition.en;
+      const whatToHoardText = m.whatToHoard[lang] || m.whatToHoard.en;
+      const tipsList = m.keyTips[lang] || m.keyTips.en || [];
+      const mistakeText = m.commonMistakes[lang] || m.commonMistakes.en;
+      const guideLabelText = (m.guideLabel && (m.guideLabel[lang] || m.guideLabel.en)) || t.readGuide;
+      const fullGuideHref = m.guideUrl ? localizedPath(lang, m.guideUrl) : null;
+
+      return (
+        <article
+          class="monument-card group relative overflow-hidden rounded-xl border border-stone-800/80 bg-stone-900/60 transition-all duration-200 hover:border-stone-700"
+          data-id={m.id}
+          data-start={m.dayStart}
+          data-end={m.dayEnd}
+          data-chapter={m.chapter}
+          data-category={m.category}
+        >
+          <!-- Card Header / Trigger -->
+          <div
+            class="monument-card-header flex cursor-pointer items-start justify-between gap-4 p-4 transition-colors hover:bg-stone-900/80 sm:p-5"
+            role="button"
+            tabindex="0"
+            aria-expanded="false"
+          >
+            <div class="flex items-start gap-3.5">
+              <!-- Icon -->
+              <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-stone-700 bg-stone-800 text-2xl shadow-sm">
+                {m.icon}
+              </span>
+
+              <div>
+                <div class="flex flex-wrap items-center gap-2">
+                  <span class="rounded bg-stone-800 px-2 py-0.5 text-xs font-bold text-plague-300">
+                    {badgeText}
+                  </span>
+
+                  <!-- Dynamic Status Tag populated by JS -->
+                  <span class="monument-status-badge rounded-full px-2.5 py-0.5 text-[11px] font-bold tracking-wide">
+                    {t.statusActive}
+                  </span>
+                </div>
+
+                <h3 class="mt-1 text-base font-bold text-stone-100 group-hover:text-plague-300 sm:text-lg">
+                  {titleText}
+                </h3>
+                <p class="mt-1 text-xs text-stone-400 sm:text-sm">
+                  {shortDescText}
+                </p>
+              </div>
+            </div>
+
+            <!-- Chevron indicator -->
+            <div class="shrink-0 pt-1 text-stone-500 transition-transform duration-200 group-aria-expanded:rotate-180">
+              <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </div>
+          </div>
+
+          <!-- Card Body / Drill-Down Details (collapsible) -->
+          <div class="monument-card-body hidden border-t border-stone-800/80 bg-stone-950/60 p-4 sm:p-6">
+            <div class="grid gap-4 sm:grid-cols-2">
+              <!-- Left Column: Condition & Hoarding -->
+              <div class="space-y-4">
+                <div class="rounded-lg border border-stone-800/80 bg-stone-900/40 p-3.5">
+                  <h4 class="text-xs font-bold uppercase tracking-wider text-stone-400">
+                    📋 {t.unlockCond}
+                  </h4>
+                  <p class="mt-1 text-xs leading-relaxed text-stone-200 sm:text-sm">
+                    {unlockCondText}
+                  </p>
+                </div>
+
+                <div class="rounded-lg border border-amber-900/40 bg-amber-950/20 p-3.5">
+                  <h4 class="text-xs font-bold uppercase tracking-wider text-amber-400">
+                    📦 {t.whatToHoard}
+                  </h4>
+                  <p class="mt-1 text-xs leading-relaxed text-amber-200 sm:text-sm">
+                    {whatToHoardText}
+                  </p>
+                </div>
+
+                <div class="rounded-lg border border-red-900/40 bg-red-950/20 p-3.5">
+                  <h4 class="text-xs font-bold uppercase tracking-wider text-red-400">
+                    ⚠️ {t.commonMistakes}
+                  </h4>
+                  <p class="mt-1 text-xs leading-relaxed text-red-200 sm:text-sm">
+                    {mistakeText}
+                  </p>
+                </div>
+              </div>
+
+              <!-- Right Column: Strategy Tips & Guide Link -->
+              <div class="flex flex-col justify-between space-y-4">
+                <div class="rounded-lg border border-stone-800/80 bg-stone-900/40 p-3.5">
+                  <h4 class="text-xs font-bold uppercase tracking-wider text-stone-400">
+                    💡 {t.keyTips}
+                  </h4>
+                  <ul class="mt-2 space-y-2 text-xs leading-relaxed text-stone-300 sm:text-sm">
+                    {tipsList.map((tip) => (
+                      <li class="flex items-start gap-2">
+                        <span class="mt-1 block h-1.5 w-1.5 shrink-0 rounded-full bg-plague-400" />
+                        <span>{tip}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                {fullGuideHref && (
+                  <div class="pt-2">
+                    <a
+                      href={fullGuideHref}
+                      class="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-plague-500/50 bg-plague-950/80 px-4 py-2.5 text-center text-xs font-bold text-plague-300 shadow-md transition-all hover:border-plague-400 hover:bg-plague-900 hover:text-white sm:text-sm"
+                    >
+                      <span>📖 {guideLabelText}</span>
+                    </a>
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        </article>
+      );
+    })}
+  </div>
+</section>
+
+<script is:inline>
+  (function () {
+    const input = document.getElementById('monument-day-input');
+    const slider = document.getElementById('monument-day-slider');
+    const cards = Array.from(document.querySelectorAll('.monument-card'));
+    const toggleAllBtn = document.getElementById('monument-toggle-all-btn');
+    const presetBtns = Array.from(document.querySelectorAll('.monument-preset-btn'));
+    const chapterFilters = Array.from(document.querySelectorAll('.monument-ch-filter'));
+    const catFilters = Array.from(document.querySelectorAll('.monument-cat-filter'));
+
+    const briefingTitle = document.getElementById('monument-briefing-title');
+    const briefingFocus = document.getElementById('monument-briefing-focus');
+    const briefingNext = document.getElementById('monument-briefing-next');
+    const briefingHoard = document.getElementById('monument-briefing-hoard');
+
+    let currentDay = parseInt(input?.value || '14', 10);
+    let selectedChapter = 'all';
+    let selectedCategory = 'all';
+    let allExpanded = false;
+
+    function updateDay(day) {
+      currentDay = Math.max(1, Math.min(200, day));
+      if (input) input.value = currentDay;
+      if (slider) slider.value = currentDay;
+
+      let activeMilestone = null;
+      let nextUpcomingMilestone = null;
+
+      cards.forEach((card) => {
+        const start = parseInt(card.getAttribute('data-start') || '0', 10);
+        const end = parseInt(card.getAttribute('data-end') || '0', 10);
+        const badge = card.querySelector('.monument-status-badge');
+
+        if (!badge) return;
+
+        if (currentDay >= start && currentDay <= end) {
+          // ACTIVE NOW
+          badge.textContent = '🟢 АКТИВНО СЕЙЧАС';
+          badge.className = 'monument-status-badge rounded-full px-2.5 py-0.5 text-[11px] font-bold tracking-wide bg-emerald-950/80 border border-emerald-500/50 text-emerald-300';
+          if (!activeMilestone) activeMilestone = card;
+        } else if (currentDay > end) {
+          // PASSED
+          badge.textContent = '✅ ПРОЙДЕНО';
+          badge.className = 'monument-status-badge rounded-full px-2.5 py-0.5 text-[11px] font-bold tracking-wide bg-stone-800 text-stone-400';
+        } else {
+          // UPCOMING
+          const diff = start - currentDay;
+          badge.textContent = `⏳ ЧЕРЕЗ ${diff} ДН.`;
+          badge.className = 'monument-status-badge rounded-full px-2.5 py-0.5 text-[11px] font-bold tracking-wide bg-amber-950/70 border border-amber-500/40 text-amber-300';
+          if (!nextUpcomingMilestone) nextUpcomingMilestone = card;
+        }
+      });
+
+      // Update Top Briefing Box
+      if (briefingTitle) {
+        briefingTitle.textContent = `Сводка сервера: День ${currentDay}`;
+      }
+
+      if (activeMilestone) {
+        const h3 = activeMilestone.querySelector('h3');
+        const hoardP = activeMilestone.querySelector('.border-amber-900\\/40 p');
+        if (briefingFocus && h3) briefingFocus.textContent = h3.textContent.trim();
+        if (briefingHoard && hoardP) briefingHoard.textContent = hoardP.textContent.trim();
+      } else {
+        if (briefingFocus) briefingFocus.textContent = 'Развитие базы, накопление ресурсов и подготовка';
+      }
+
+      if (nextUpcomingMilestone) {
+        const h3 = nextUpcomingMilestone.querySelector('h3');
+        const start = nextUpcomingMilestone.getAttribute('data-start');
+        const diff = parseInt(start, 10) - currentDay;
+        if (briefingNext && h3) {
+          briefingNext.textContent = `День ${start}: ${h3.textContent.trim().slice(0, 30)}... (через ${diff} дн.)`;
+        }
+      } else {
+        if (briefingNext) briefingNext.textContent = 'Эра Возрождения и экспедиции (Сезон открыт)';
+      }
+    }
+
+    function applyVisibilityFilters() {
+      cards.forEach((card) => {
+        const ch = card.getAttribute('data-chapter');
+        const cat = card.getAttribute('data-category');
+
+        const matchChapter = selectedChapter === 'all' || ch === selectedChapter;
+        const matchCategory = selectedCategory === 'all' || cat === selectedCategory;
+
+        if (matchChapter && matchCategory) {
+          card.classList.remove('hidden');
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+    }
+
+    // Input & Slider sync
+    if (input) {
+      input.addEventListener('input', (e) => {
+        const val = parseInt(e.target.value, 10);
+        if (!isNaN(val)) updateDay(val);
+      });
+    }
+
+    if (slider) {
+      slider.addEventListener('input', (e) => {
+        const val = parseInt(e.target.value, 10);
+        if (!isNaN(val)) updateDay(val);
+      });
+    }
+
+    // Presets
+    presetBtns.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const d = parseInt(btn.getAttribute('data-day') || '1', 10);
+        updateDay(d);
+      });
+    });
+
+    // Chapter filters
+    chapterFilters.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        chapterFilters.forEach((b) => {
+          b.classList.remove('active', 'border-plague-500/50', 'bg-plague-950', 'text-plague-200');
+          b.classList.add('border-stone-800', 'bg-stone-900', 'text-stone-400');
+        });
+        btn.classList.add('active', 'border-plague-500/50', 'bg-plague-950', 'text-plague-200');
+        btn.classList.remove('border-stone-800', 'bg-stone-900', 'text-stone-400');
+
+        selectedChapter = btn.getAttribute('data-chapter') || 'all';
+        applyVisibilityFilters();
+      });
+    });
+
+    // Category filters
+    catFilters.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        catFilters.forEach((b) => {
+          b.classList.remove('active', 'border-stone-700', 'bg-stone-800', 'text-stone-200');
+          b.classList.add('border-stone-800', 'bg-stone-900', 'text-stone-400');
+        });
+        btn.classList.add('active', 'border-stone-700', 'bg-stone-800', 'text-stone-200');
+        btn.classList.remove('border-stone-800', 'bg-stone-900', 'text-stone-400');
+
+        selectedCategory = btn.getAttribute('data-cat') || 'all';
+        applyVisibilityFilters();
+      });
+    });
+
+    // Accordion toggle per card
+    cards.forEach((card) => {
+      const header = card.querySelector('.monument-card-header');
+      const body = card.querySelector('.monument-card-body');
+      if (!header || !body) return;
+
+      const toggle = () => {
+        const isExpanded = header.getAttribute('aria-expanded') === 'true';
+        header.setAttribute('aria-expanded', (!isExpanded).toString());
+        if (isExpanded) {
+          body.classList.add('hidden');
+        } else {
+          body.classList.remove('hidden');
+        }
+      };
+
+      header.addEventListener('click', toggle);
+      header.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          toggle();
+        }
+      });
+    });
+
+    // Toggle All Expand / Collapse
+    if (toggleAllBtn) {
+      toggleAllBtn.addEventListener('click', () => {
+        allExpanded = !allExpanded;
+        cards.forEach((card) => {
+          const header = card.querySelector('.monument-card-header');
+          const body = card.querySelector('.monument-card-body');
+          if (!header || !body) return;
+          header.setAttribute('aria-expanded', allExpanded.toString());
+          if (allExpanded) {
+            body.classList.remove('hidden');
+          } else {
+            body.classList.add('hidden');
+          }
+        });
+        toggleAllBtn.textContent = allExpanded ? 'Свернуть все' : 'Развернуть все';
+      });
+    }
+
+    // Initial update
+    updateDay(currentDay);
+  })();
+</script>

@@ -17,6 +17,7 @@ import SquadQuiz from '../components/SquadQuiz.astro';
 import QuizSearch from '../components/QuizSearch.astro';
 import FaqSection from '../components/FaqSection.astro';
 import GuildHub from '../components/GuildHub.astro';
+import MonumentTimeline from '../components/MonumentTimeline.astro';
 import type { Lang } from '../i18n/utils';
 
 export async function getStaticPaths() {
@@ -79,6 +80,7 @@ const showDiscord = slug !== 'support' && slug !== 'credits';
 
     {slug === 'calendar' && (
       <>
+        <MonumentTimeline lang={lang} />
         <DailyChecklist lang={lang} />
         <WeeklyCheatSheet lang={lang} />
       </>
