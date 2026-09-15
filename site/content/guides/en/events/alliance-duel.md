@@ -79,13 +79,9 @@ Phase 5 converts your barracks output into points:
 | Trained soldier, Tier 10 | +253 |
 | Training Boost | +115 per minute |
 
-Tier values scale between the two endpoints — higher tiers pay several times what T1s do, so train the highest tier your barracks support. And the event stacks its own bonuses on top for the day:
+Tier values scale between the two endpoints — higher tiers pay several times what T1s do, so train the highest tier your barracks support.
 
-- **All points +100%** — everything earned on Phase 5 day is doubled.
-- **Speedups +30%** — speedup efficiency is boosted.
-- **Training +30%** — training itself runs faster.
-
-The conclusion is obvious: **save your training speedups for Phase 5.** A speedup burned on a random Tuesday is worth 30% less and earns half the points.
+The takeaway: **save your training speedups for Phase 5 (Friday).** On this day, soldier training converts directly into duel points and milestone chests for your alliance. Note: **training points are awarded at the moment you queue soldiers**, not when collecting finished troops!
 
 ## Phase 6: Saturday PvP Showdown & Raid Buffs {#phase-6}
 
@@ -135,9 +131,9 @@ And the duel is not an isolated event: it feeds directly into **Kingdom War**. [
 
 ## Common Mistakes {#common-mistakes}
 
-1. Spending shards and tickets outside Phase 4 — the single biggest point loss in the event.
-2. Burning training speedups outside Phase 5 and losing the +100% day bonus.
-3. Consuming scrolls for research on non-scroll days instead of running scroll-free hero and soldier research.
-4. Claiming Falcon Quests on single-point days.
-5. Letting the quest board freeze at full instead of keeping it one slot short.
-6. Ignoring the 1-day break after Phase 6 and showing up to the new cycle unprepared.
+1. Spending shards and recruitment tickets outside Phase 4 — the single biggest score drop in the event.
+2. Burning training speedups outside Phase 5 (Friday) when no duel points are awarded for training.
+3. Queueing training batches ahead of the phase (points are awarded upon queueing, not upon collection!).
+4. Using tech scrolls on non-scroll research days instead of scroll-free hero/soldier tech.
+5. Letting the quest board freeze at capacity instead of holding it one slot below max.
+6. Ignoring the Sunday reset day and entering the next cycle unprepared.

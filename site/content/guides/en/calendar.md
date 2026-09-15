@@ -14,7 +14,7 @@ videoTopic: calendar
 | ⏳ Tue | Save day | Complete Falcon quests but do not claim — tomorrow is double points. AD Phase 2. |
 | 🟢 Wed | Falcon Tower claim day | Collect quests saved since Tuesday. AD Phase 3: research/scroll day — consume study scrolls NOW, open epigraph chests. |
 | ⏳ Thu | Save day | AD Phase 4: hero day — spend UR/SSR/SR shards, recruit tickets, skill badges (UR shard = 20,000 pts). |
-| 🟢 Fri | Falcon Tower claim day | Collect quests saved since Thursday. AD Phase 5: training day — burn training speedups (all points +100%, speedups +30%). |
+| 🟢 Fri | Falcon Tower claim day | Collect quests saved since Thursday. AD Phase 5: training day — train top-tier troops and burn saved training speedups. |
 | ⚔️ Sat | Alliance Duel finale | AD Phase 6 PvP showdown. Kingdom War main battles also land on Saturdays (biweekly). |
 | 🗓️ Sun | Planning + shop reset | Pre-plan Monday; Alliance/other shops restock. Complete Falcon quests for tomorrow. |
 

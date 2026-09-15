@@ -1,6 +1,6 @@
 ---
 title: "Survival Battle: 60K Free Badges & 4-Hour Phase Rotation"
-description: "Weekly mission event yielding ~60,000 free Skill Badges: 5 task categories, 4-hour rotation phases, low-tier barracks trick, and synchronization with Alliance Duel."
+description: "Weekly mission event yielding ~60,000 free Skill Badges: 5 task categories, 4-hour rotation phases, queue-based soldier training scoring, and synchronization with Alliance Duel."
 lang: en
 updated: "2026-09-15"
 videoTopic: survival
@@ -23,33 +23,37 @@ Skill Badges are the permanent bottleneck across all hero skill trees. This guid
 | Category | How Points Are Earned |
 |---|---|
 | **Enhance Raven** | Feeding the Raven Guardian, consuming Raven Fruits, applying Essence, and opening Epigraph chests. |
-| **Train Soldiers** | Mobilizing fresh recruits and promoting standing units into higher tiers. |
+| **Train Soldiers** | Queueing recruits in barracks and starting promotions of existing units to higher tiers. |
 | **Research Tech** | Finalizing Laboratory technologies, increasing scientific Might, burning speedup minutes. |
 | **Build Territory** | Completing structures, elevating Sanctuary level, increasing construction Might. |
 | **Enhance Heroes** | Leveling heroes (Antitoxin), upgrading skills (Skill Badges), and star ascension (Omni Shards). |
 
 ---
 
-## ⏱️ 4-Hour Phase Mechanics: Avoid Wasted Resources {#phases}
+## 4-Hour Phase Mechanics: Avoid Wasted Resources {#phases}
 
 The central operational rule: **never spend high-value resources outside the active matching phase!**
 
-1. There is **no separate "Power Hour" with double points** — the entire event is structured as sequential 4-hour sprints.
+1. All event phases feature standard baseline point rates (there are no hidden "double point" events).
 2. Points are awarded **only for actions that match the currently active 4-hour category**. If "Train Soldiers" is active, building or research speedups contribute zero event points.
-3. Deploy building, research, and training speedups **strictly when the 4-hour Survival Battle phase aligns with the active Alliance Duel day** (e.g., building speedups on Tuesday during "Build Territory"). This allows you to double-dip milestone chests and alliance score simultaneously!
+3. Deploy building, research, and training speedups **strictly when the 4-hour Survival Battle phase aligns with the active Alliance Duel day** (e.g., training speedups on Friday during "Train Soldiers"). This allows you to claim milestone chests from both events simultaneously!
 
 ---
 
-## 🛡️ Soldier Training: Tier Scaling & Promotion Strategy {#barracks-trick}
+## 🛡️ Soldier Training: Queue-Based Point Scoring {#training-mechanics}
 
-> [!WARNING] Common Beginner Mistake: Training T1/T2 for "Headcounts"
-> In Survival Battle, points earned from training soldiers **scale directly with troop tier** (from Lv.1 to Lv.10). T1 and T2 units yield negligible points — attempting to clear high-milestone chests with low-tier troops clogs barracks queues and wastes food without moving the point needle.
+> [!IMPORTANT] Core Mechanic: Points Are Awarded UPON QUEUEING!
+> Points for training soldiers are credited **the exact second you tap the "Train" (or "Promote") button**, when resources are spent and the queue timer starts.
+> 
+> **Points are NOT awarded when the timer finishes, and NOT awarded when collecting troops from barracks!**
 
-Optimal approaches for the "Train Soldiers" phase:
+Critical tactical rules:
 
-1. **Train your highest unlocked tier (T7–T10):** High-tier units grant exponentially more points per soldier. A few full queues of your top tier will unlock milestone chests far faster than thousands of T1 recruits.
-2. **Utilize Promotion (Upgrade Existing Troops):** To rapidly reach the next chest before the 4-hour window closes, promote previously trained lower-tier units to your highest unlocked tier (e.g., T7 → T8 or T8 → T9). Promotions take only a fraction of the time needed for fresh recruitment and yield the point differential between tiers.
-3. **Pre-queue Long Batches:** Start training top-tier batches ahead of time so they complete right as the 4-hour training phase begins, claiming instant points without burning speedups.
+1. **DO NOT start training ahead of the phase:** If you start a batch 30 minutes before the training phase begins, points are credited outside the event. When the phase starts and the batch finishes, tapping the barracks to collect them yields **0 points**!
+2. **Tap "Train" strictly AFTER the training phase is live:** Wait for the phase change, confirm "Train Soldiers" is the active 4-hour phase, and only then launch recruitment in your barracks.
+3. **Train your highest unlocked tier (T7–T10):** Points per soldier scale steeply by tier. Low-tier recruits (T1–T2) give negligible points.
+4. **Utilize Promotion (Upgrade Existing Troops):** Promoting lower-tier troops to your highest tier awards points instantly upon queueing (the point differential between tiers). It takes far less time than training from scratch.
+5. **Burn training speedups INSIDE the active window:** To reach higher milestone chests, speed up current queues and immediately queue new batches to earn points for each batch.
 
 ---
 
@@ -66,7 +70,7 @@ A standout high-efficiency milestone clears for exactly **30 Recruitment Tickets
 
 ---
 
-## ⚔️ CRITICAL: Alliance Duel Synchronization {#duel-overlap}
+## ⚔️ Alliance Duel Synchronization {#duel-overlap}
 
 > The central F2P tactical balance: managing resource contention between Survival Battle milestones and Alliance Duel phases.
 
@@ -74,7 +78,7 @@ A standout high-efficiency milestone clears for exactly **30 Recruitment Tickets
 |---|---|---|---|
 | **Research** | Badge milestone | Phase 3 (Wednesday) | Bank scrolls for Wednesday; clear Survival Battle using scroll-free tech nodes. |
 | **Recruit Tickets** | 30-ticket milestone | Phase 4 (Thursday) | Spend exactly 30 tickets if milestone active; funnel remaining tickets to Thursday. |
-| **Training Speedups** | Training milestone | Phase 5 (Friday) | Unleash major training speedup reserves on Friday (+100% points, +30% speedup value). |
+| **Training Speedups** | Training milestone | Phase 5 (Friday) | Queue recruitment and use speedups on Friday during matching "Train Soldiers" phases. |
 
 **Golden Rule:** When calendars conflict, prioritize the weekly **60,000 Skill Badges** milestone floor — there is no equivalent renewable badge farm anywhere in the game!
 
@@ -85,5 +89,6 @@ A standout high-efficiency milestone clears for exactly **30 Recruitment Tickets
 1. Audit your server's unique mission rotation every Monday morning.
 2. Partition resources between Alliance Duel prerequisites and Survival Battle thresholds.
 3. Spend resources and speedups strictly within the matching active 4-hour phase.
-4. Clear training phases via top-tier recruitment (T7–T10) or promoting standing units.
-5. Sweep all milestone chests to secure your ~60,000 Skill Badges before the weekly reset (00:00 Server Time / 02:00 UTC).
+4. Queue soldier training **strictly after the training phase has started** (points are awarded upon queueing!).
+5. Train highest unlocked tier (T7–T10) or promote existing troops.
+6. Sweep all milestone chests to secure your ~60,000 Skill Badges before the weekly reset (00:00 Server Time / 02:00 UTC).

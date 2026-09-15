@@ -54,23 +54,44 @@ What should you do if an enemy strike force teleports to your hive during KvK or
 
 ---
 
-## 3. Falcon Tower Secrets: The "Stacking Max − 1" Rule {#falcon-tower}
+## 3. Falcon Tower Secrets & Alliance Excavations {#falcon-tower}
 
-Falcon Tower quests are among the primary sources of free diamonds, hero shards, and speedups. Yet casual players claim them randomly and squander up to 50% of potential rewards.
+Falcon Tower quests and their associated treasure maps are among the primary daily sources of diamonds, hero shards, speedups, and alliance gifts. Yet casual players claim them randomly and squander up to half of their potential rewards.
 
-### Hidden Spawn Freeze Mechanics
-Every Falcon Tower level has a maximum quest capacity on the board (e.g. 8/8).
-* If the board reaches full capacity (even if 7 of those quests are completed and awaiting collection), **the quest spawn timer completely freezes**. You receive zero new quests until a slot is opened.
+### The Three Golden Rules of Falcon Quest Stacking:
 
-### The Red Dot Permanence
-Completed quests that display a red dot ("Claim") **NEVER EXPIRE**. They can remain safely on the board for days or weeks without disappearing.
+1. **Do Not Clear "Red Dots"**:
+   Complete missions, but **DO NOT tap the "Claim" button**. Completed quests with red dots never expire and carry no deadline — they can safely sit on your board indefinitely. Keep rewards uncollected until the target server event day begins (Monday — Phase 1 Alliance Duel; Wednesday — Science Day; Friday — Troop Training).
 
-### The "Stacking Max − 1" Strategy:
-The highest-value reward days in the weekly cycle are **Monday, Wednesday, and Friday** (these days correspond to Alliance Duel phases or double chest bonuses).
-1. On Sunday, complete all available quests, but claim only enough so that your board sits at **$N - 1$** (e.g. 7 out of 8).
-2. The remaining free slot allows the background timer to continuously spawn new quests overnight.
-3. On Monday after server midnight (02:00 UTC), log in, tap "Claim All" on the 7 pre-completed quests (reaching **Falcon Tower Lv. 8** unlocks a convenient one-tap claim feature), finish the newly spawned ones — and instantly unlock all 3 event chests in the first minutes of the reset!
-4. Repeat the cadence: complete on Tuesday $\rightarrow$ claim on Wednesday; complete on Thursday $\rightarrow$ claim on Friday.
+2. **Stack to "Max − 1" (Stacking Max − 1)**:
+   Keep your quest board nearly filled to capacity — maintain exactly $N - 1$ completed quests (e.g., **24 out of 25 possible** at max capacity, or 7 out of 8 at early levels). Leaving one open slot is strictly required for the background quest generation timer to continue running.
+
+3. **Monitor Your Board Limit (Never Freeze the Timer)**:
+   If your board ever reaches maximum capacity (e.g. 25 out of 25), **the quest spawn timer IMMEDIATELY FREEZES**. Until you clear at least one slot, zero new quests will generate, and your free daily missions are permanently burned. Regularly claim finished quests when necessary so that at least one slot remains open for fresh quests to spawn.
+
+> [!TIP]
+> **One-Tap Claim at Level 8:** Reaching **Falcon Tower Lv. 8** unlocks the "Claim All" feature. On target collection days (Mon, Wed, Fri), a single tap instantly submits your entire stored hoard of 24 quests, unlocking all event reward chests within seconds of the server reset!
+
+---
+
+### Alliance Excavations & Treasure Maps {#excavations}
+
+Completing Falcon quests regularly yields **Treasure Maps**, which spawn excavation dig sites on the world map. This is a cooperative event that benefits your entire alliance when proper etiquette is followed:
+
+![Alliance Treasure Excavations and 19 Bonus Chests](/infographics/excavation-chest.jpg)
+
+#### Excavation Rules & Team Etiquette:
+
+1. **Always Share Coordinates in Alliance Chat**:
+   Upon activating a map, immediately ping the site coordinates in Alliance Chat. The faster your allies track the dig site, the more members can secure bonus gifts.
+2. **Marching Etiquette (Never Crowd the Site)**:
+   If an alliance member has already launched a march or is actively digging the treasure spot, **do not send a competing march or sit on top of the tile**. Only one squad can dig a site at a time. Wait nearby until the excavation finishes.
+3. **19 Bonus Gift Chests for Teammates**:
+   The exact moment excavation completes, **19 bonus gift chests** drop around the dig site and in the Alliance Gift tab!
+   * These chests are claimed on a **first-come, first-served** basis by the fastest alliance members to tap them.
+   * Keep alliance chat notifications on so you never miss an excavation drop.
+4. **Lucky Winner Jackpot ($2\times$ Double Reward)**:
+   Out of the 19 players who grab an excavation chest, exactly **one lucky player randomly wins the Lucky Jackpot ($2\times$ Double Reward)**, doubling diamonds, speedups, and valuable resources!
 
 ---
 

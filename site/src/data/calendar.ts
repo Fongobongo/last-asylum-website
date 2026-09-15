@@ -131,7 +131,7 @@ export const weeklySchedule: CalEvent[] = [
     day: 'Fri',
     icon: '🟢',
     event: 'Falcon Tower claim day',
-    what: 'Collect quests saved since Thursday. AD Phase 5: training day — burn training speedups (all points +100%, speedups +30%).',
+    what: 'Collect quests saved since Thursday. AD Phase 5: training day — train top-tier troops and burn saved training speedups.',
     dayL10n: { en: 'Fri', ru: 'Пт', de: 'Fr', es: 'Vie', fr: 'Ven', id: 'Jum', ja: '金', ko: '금', pt: 'Sex' },
     eventL10n: {
       en: 'Falcon Tower claim day',
@@ -145,15 +145,15 @@ export const weeklySchedule: CalEvent[] = [
       pt: 'Dia de Resgate da Torre do Falcão'
     },
     whatL10n: {
-      en: 'Collect quests saved since Thursday. AD Phase 5: training day — burn training speedups (all points +100%, speedups +30%).',
-      ru: 'Заберите задания с четверга. Фаза 5: день тренировки войск — сжигайте ускорения тренировки (все очки +100%, ускорения +30%).',
-      de: 'Quests vom Donnerstag abholen. AD Phase 5: Trainingstag — Trainings-Beschleuniger verbrennen (alle Punkte +100%, Beschleuniger +30%).',
-      es: 'Cobra las misiones del jueves. Fase 5: entrenamiento de tropas — quema aceleradores de entrenamiento (puntos +100%, aceleradores +30%).',
-      fr: 'Récoltez les quêtes de jeudi. Phase 5 : entraînement — utilisez les accélérations d\'entraînement (points +100%, accélérations +30%).',
-      id: 'Klaim misi dari hari Kamis. AD Fase 5: hari pelatihan — bakar percepatan latihan (semua poin +100%, speedup +30%).',
-      ja: '木曜からのクエストを受取。ADフェーズ5: 部隊訓練日 — 訓練加速を全投入（全pt+100%、加速+30%）。',
-      ko: '목요일 퀘스트 수령. 연맹 대결 5단계: 훈련의 날 — 훈련 가속 집중 소모 (모든 점수 +100%, 가속 +30%).',
-      pt: 'Colete missões de quinta. Fase 5: treino de tropas — use aceleradores de treinamento (pontos +100%, aceleradores +30%).'
+      en: 'Collect quests saved since Thursday. AD Phase 5: training day — train top-tier troops and burn saved training speedups.',
+      ru: 'Заберите задания с четверга. Фаза 5: день тренировки войск — обучайте отряды максимального тира и используйте накопленные ускорения тренировки.',
+      de: 'Quests vom Donnerstag abholen. AD Phase 5: Trainingstag — Elite-Truppen ausbilden und Trainings-Beschleuniger einsetzen.',
+      es: 'Cobra las misiones del jueves. Fase 5: entrenamiento de tropas — entrena tropas del nivel máximo y usa aceleradores guardados.',
+      fr: 'Récoltez les quêtes de jeudi. Phase 5 : entraînement — entraînez les troupes de plus haut rang et utilisez vos accélérations.',
+      id: 'Klaim misi dari hari Kamis. AD Fase 5: hari pelatihan — latih pasukan tingkat tertinggi dan gunakan percepatan tersimpan.',
+      ja: '木曜からのクエストを受取。ADフェーズ5: 部隊訓練日 — 最高ティア部隊を訓練し、温存した訓練加速を使用。',
+      ko: '목요일 퀘스트 수령. 연맹 대결 5단계: 훈련의 날 — 최고 티어 부대를 훈련하고 모아둔 훈련 가속을 소모하세요.',
+      pt: 'Colete missões de quinta. Fase 5: treino de tropas — treine tropas de nível máximo e gaste seus aceleradores guardados.'
     }
   },
   {

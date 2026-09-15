@@ -6,13 +6,10 @@ export interface GiftCode {
 }
 
 export const giftCodes: GiftCode[] = [
+  { code: 'LA30W7F2M', date: '2026-09-14', active: true, note: 'Discord 300k Fans Milestone (Diamonds, Speedups, Resources)' },
   { code: 'LADCEX1223', date: '2026-09-08', active: true, note: '100 Diamonds, 12× Speedups, 15k Grain/Timber (Discord Exclusive)' },
-  { code: 'LADOG26', date: '2026-08-27', active: true, note: 'International Dog Day' },
-  { code: 'LAWTD16F', date: '2026-08-25', active: true, note: 'Community Special Reward' },
-  { code: 'LAU15CHG', date: '2026-08-22', active: true, note: 'Summer Festival Bonus' },
-  { code: 'LAKR15K9A', date: '2026-08-20', active: true, note: 'Server Milestone Gift' },
-  { code: 'LAQIXI26', date: '2026-08-19', active: true, note: 'Qixi Festival Special' },
   { code: 'LA25W8CM', date: '2026-08-15', active: true, note: 'Discord 250k Fans (500 Diamonds, 80× Speedups, 60k Resources)' },
+  { code: 'LAKR15K9A', date: '2026-08-20', active: true, note: 'Server Milestone Gift' },
   { code: 'LAKR12K7O', date: '2026-08-10', active: true, note: 'Community Milestone Gift' },
   { code: 'twlap888', date: '2026-08-05', active: true, note: '500 Diamonds, 7 Recruit Tickets, 50k Resources' },
   { code: 'twlap666', date: '2026-08-05', active: true, note: '300 Diamonds, 5 Recruit Tickets, 30k Resources' },
@@ -27,6 +24,10 @@ export const giftCodes: GiftCode[] = [
   { code: 'LAAS777', date: '2026-06-15', active: true, note: 'Sanctuary Defender Supply' },
 
   // Expired codes (historical archive)
+  { code: 'LADOG26', date: '2026-08-27', active: false, note: 'International Dog Day (Expired / Истёк)' },
+  { code: 'LAWTD16F', date: '2026-08-25', active: false, note: 'Community Special Reward (Expired / Истёк)' },
+  { code: 'LAU15CHG', date: '2026-08-22', active: false, note: 'Summer Festival Bonus (Expired / Истёк)' },
+  { code: 'LAQIXI26', date: '2026-08-19', active: false, note: 'Qixi Festival Special (Expired / Истёк)' },
   { code: 'LA26ALLY', date: '2026-07-30', active: false, note: 'Friendship Day (Expired / Истёк)' },
   { code: '26CHOCO', date: '2026-07-07', active: false, note: 'World Chocolate Day (Expired / Истёк)' },
   { code: 'LADAD26', date: '2026-06-21', active: false, note: "Father's Day (Expired / Истёк)" },
