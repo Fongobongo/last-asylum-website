@@ -3,13 +3,18 @@ import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import DiscordBanner from '../../components/DiscordBanner.astro';
+import GuildHub from '../../components/GuildHub.astro';
 import type { Lang } from '../../i18n/utils';
 
 const lang: Lang = 'pt';
 ---
 
-<Base lang={lang} path="/pt/alliance/" title="🤝 Guia Completo do Sistema de Alianças" description="Guia oficial detalhado do Sistema de Alianças em Last Asylum: Plague — Fórmulas de ajuda, doações de tecnologia, privilégio de presente Nível 25, loja de honra e funções R4/R5.">
-  <GuidePage title="🤝 Guia Completo do Sistema de Alianças" description="Guia oficial detalhado do Sistema de Alianças em Last Asylum: Plague — Fórmulas de ajuda, doações de tecnologia, privilégio de presente Nível 25, loja de honra e funções R4/R5." lang={lang}>
+<Base lang={lang} path="/pt/alliance/" title="🤝 Guia de Alianças & Hub Tático" description="Guia oficial detalhado do Sistema de Alianças em Last Asylum: Plague — Fórmulas de ajuda, doações de tecnologia, privilégio de presente Nível 25, loja de honra e funções R4/R5.">
+  <GuidePage title="🤝 Guia de Alianças & Hub Tático" description="Guia oficial detalhado do Sistema de Alianças em Last Asylum: Plague — Fórmulas de ajuda, doações de tecnologia, privilégio de presente Nível 25, loja de honra e funções R4/R5." lang={lang}>
+
+    <div class="not-prose mb-10">
+      <GuildHub lang={lang} />
+    </div>
 
     <p>No mundo devastado pela praga de <strong>Last Asylum: Plague</strong>, sobreviver sozinho é praticamente impossível. Entrar em uma aliança forte e organizada acelera o progresso da sua conta de <strong>3x a 5x</strong>, desbloqueia lojas exclusivas, protege seus recursos e abre as portas para batalhas entre servidores.</p>
 

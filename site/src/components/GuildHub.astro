@@ -393,11 +393,8 @@ const T = {
           <div id="gh-directive-text" class="text-sm text-stone-200 leading-relaxed whitespace-pre-wrap"></div>
         </div>
 
-        <!-- Decrypted output container (if archive loaded) -->
-        <div id="dnd-content" class="prose-la hidden rounded-xl border border-stone-800 bg-stone-950/90 p-6 mb-8"></div>
-
-        <!-- Open Defense Protocol -->
-        <div id="dnd-default-protocol" class="space-y-6 mb-8">
+        <!-- Defense & Battle Protocols -->
+        <div id="alliance-default-protocol" class="space-y-6 mb-8">
           <div>
             <h3 class="text-base font-bold text-toxic-300 flex items-center gap-2">
               <span>📋</span> {T.defaultIntelTitle}
@@ -457,34 +454,6 @@ const T = {
             </div>
           </div>
         </div>
-
-        <!-- Optional Decryption Box for payload.enc -->
-        <details class="rounded-xl border border-stone-800/80 bg-stone-950/40 p-4">
-          <summary class="text-xs font-semibold text-stone-400 cursor-pointer hover:text-toxic-300 transition select-none">
-            🔒 {isRu ? 'Расшифровать дополнительный архив (AES-256)' : 'Decrypt additional archive (AES-256)'}
-          </summary>
-          <div class="mt-4 pt-3 border-t border-stone-800/60 space-y-3">
-            <p class="text-xs text-stone-400 leading-relaxed">{T.decryptDesc}</p>
-            <div class="flex flex-col sm:flex-row gap-3">
-              <input
-                id="dnd-key"
-                type="password"
-                placeholder={T.passphrasePlaceholder}
-                class="flex-1 rounded-xl border border-stone-700 bg-stone-900 px-4 py-2.5 text-sm text-stone-100 placeholder-stone-600 outline-none focus:border-toxic-400"
-              />
-              <button
-                id="dnd-unlock"
-                type="button"
-                class="rounded-xl bg-plague-700 px-5 py-2.5 text-sm font-bold text-plague-50 hover:bg-plague-600 transition cursor-pointer"
-              >
-                {T.unlockBtn}
-              </button>
-            </div>
-            <p id="dnd-error" class="mt-2 hidden text-xs font-medium text-red-400">
-              ⚠️ {T.wrongPassErr}
-            </p>
-          </div>
-        </details>
       </div>
     </div>
   </div>
@@ -689,14 +658,13 @@ const T = {
 
 <script>
   // ==========================================
-  // GUILD HUB CLIENT LOGIC
-  // - Password-protected access (member password)
+  // ALLIANCE HUB CLIENT LOGIC
+  // - Open access by default
   // - Admin control panel (master admin password)
   // - Cookie-based Nickname authorization
   // - Reactive Polls with voting & creation
   // - Real-time progress bars & voter breakdown
   // - URL sharing via base64 encoded poll
-  // - WebCrypto AES-GCM decryption for DND
   // ==========================================
 
   interface PollOption {
@@ -718,17 +686,17 @@ const T = {
   }
 
   const COOKIE_NICK = 'la_player_nick';
-  const COOKIE_AUTH = 'la_dnd_auth';
+  const COOKIE_AUTH = 'la_alliance_auth';
   const STORAGE_POLLS = 'la_guild_polls_v2';
   const STORAGE_NICK = 'la_player_nick';
-  const STORAGE_MEMBER_AUTH = 'la_dnd_member_authed';
-  const STORAGE_ALLIANCE_PWD = 'la_dnd_alliance_pwd';
-  const DEFAULT_ALLIANCE_PWD = 'dnd2026';
-  const STORAGE_ADMIN_PWD = 'la_dnd_admin_pwd';
+  const STORAGE_MEMBER_AUTH = 'la_alliance_member_authed';
+  const STORAGE_ALLIANCE_PWD = 'la_alliance_pwd';
+  const DEFAULT_ALLIANCE_PWD = 'alliance2026';
+  const STORAGE_ADMIN_PWD = 'la_alliance_admin_pwd';
   const DEFAULT_ADMIN_PWD = 'admin2026';
-  const STORAGE_DIRECTIVE = 'la_dnd_directive';
-  const STORAGE_DIRECTIVE_TIME = 'la_dnd_directive_time';
-  const STORAGE_DISCORD_WEBHOOK = 'la_dnd_discord_webhook';
+  const STORAGE_DIRECTIVE = 'la_alliance_directive';
+  const STORAGE_DIRECTIVE_TIME = 'la_alliance_directive_time';
+  const STORAGE_DISCORD_WEBHOOK = 'la_alliance_discord_webhook';
 
   // --- Cookie Helpers ---
   function getCookie(name: string): string | null {
@@ -1759,7 +1727,7 @@ const T = {
         `✅ **ГОТОВЫ (${ready.length}):** ${ready.join(', ') || 'нет'}\n` +
         `⚠️ **ОПОЗДАЮТ (${late.length}):** ${late.join(', ') || 'нет'}\n` +
         `❌ **ОТСУТСТВУЮТ (${absent.length}):** ${absent.join(', ') || 'нет'}\n` +
-        `🌐 *Информация альянса:* ${window.location.origin}/dnd/`;
+        `🌐 *Информация альянса:* ${window.location.origin}/alliance/`;
 
       const btn = document.getElementById('gh-btn-copy-roster');
       try {
@@ -1777,7 +1745,7 @@ const T = {
         `━━━━━━━━━━━━━━━━━━━━━━━━\n` +
         `📢 **Приказ командования:**\n${text}\n\n` +
         `🕒 **Сбор:** за 15 минут до начала в голосовом канале\n` +
-        `🌐 **Информация альянса [Чек-ин]:** ${window.location.origin}/dnd/`;
+        `🌐 **Информация альянса [Чек-ин]:** ${window.location.origin}/alliance/`;
 
       const btn = document.getElementById('gh-btn-copy-discord-directive');
       try {
@@ -1922,76 +1890,7 @@ const T = {
       input.click();
     });
 
-    // 8. AES-GCM Intel Decryption (WebCrypto)
-    async function deriveKey(pass: string, salt: Uint8Array): Promise<CryptoKey> {
-      const enc = new TextEncoder();
-      const base = await crypto.subtle.importKey('raw', enc.encode(pass), 'PBKDF2', false, ['deriveKey']);
-      return crypto.subtle.deriveKey(
-        { name: 'PBKDF2', salt: salt as any, iterations: 150000, hash: 'SHA-256' },
-        base,
-        { name: 'AES-GCM', length: 256 },
-        false,
-        ['decrypt']
-      );
-    }
-
-    async function decrypt(payloadB64: string, pass: string): Promise<string> {
-      const raw = Uint8Array.from(atob(payloadB64), (c) => c.charCodeAt(0));
-      const salt = raw.slice(0, 16);
-      const iv = raw.slice(16, 28);
-      const data = raw.slice(28);
-      const key = await deriveKey(pass, salt);
-      const plain = await crypto.subtle.decrypt({ name: 'AES-GCM', iv: iv as any }, key, data as any);
-      return new TextDecoder().decode(plain);
-    }
-
-    document.getElementById('dnd-unlock')?.addEventListener('click', async () => {
-      const pass = (document.getElementById('dnd-key') as HTMLInputElement)?.value;
-      const err = document.getElementById('dnd-error');
-      err?.classList.add('hidden');
-      try {
-        const res = await fetch('/dnd/payload.enc');
-        if (!res.ok) throw new Error('no payload');
-        const payload = (await res.text()).trim();
-        const md = await decrypt(payload, pass);
-
-        const html = md
-          .split(/\n{2,}/)
-          .map((block) => {
-            if (block.startsWith('### ')) return `<h3>${block.slice(4)}</h3>`;
-            if (block.startsWith('## ')) return `<h2>${block.slice(3)}</h2>`;
-            if (block.startsWith('# ')) return `<h2>${block.slice(2)}</h2>`;
-            if (block.startsWith('- ') || block.startsWith('* ')) {
-              const items = block.split('\n').map((l) => `<li>${l.replace(/^[-*] /, '')}</li>`).join('');
-              return `<ul>${items}</ul>`;
-            }
-            if (/^\|/.test(block)) {
-              const rows = block.split('\n').filter((r) => !/^\|[\s-|]+\|$/.test(r));
-              const cells = rows.map((r) => {
-                const tds = r.split('|').slice(1, -1).map((c) => c.trim());
-                return `<tr>${tds.map((c) => `<td>${c}</td>`).join('')}</tr>`;
-              });
-              return `<table>${cells.join('')}</table>`;
-            }
-            const p = block
-              .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-              .replace(/\*(.+?)\*/g, '<em>$1</em>')
-              .replace(/`(.+?)`/g, '<code>$1</code>');
-            return `<p>${p}</p>`;
-          })
-          .join('\n');
-
-        const content = document.getElementById('dnd-content');
-        if (content) {
-          content.innerHTML = html;
-          content.classList.remove('hidden');
-        }
-      } catch {
-        err?.classList.remove('hidden');
-      }
-    });
-
-    // 9. Sync between tabs with storage event
+    // 8. Sync between tabs with storage event
     window.addEventListener('storage', (e) => {
       if (e.key === STORAGE_POLLS) {
         renderPollsList();

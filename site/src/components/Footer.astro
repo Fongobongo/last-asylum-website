@@ -25,7 +25,7 @@ const base = lang === 'en' ? '' : `/${lang}`;
         <p class="mt-2 text-xs leading-4 text-stone-500">{t(lang, 'footer.source')}</p>
         <div class="mt-4">
           <a
-            href={`${base}/dnd/`}
+            href={`${base}/alliance/`}
             class="inline-flex items-center gap-1.5 rounded-lg border border-toxic-500/30 bg-toxic-500/10 px-2.5 py-1.5 text-xs font-semibold text-toxic-300 hover:border-toxic-400 hover:bg-toxic-500/20 transition"
           >
             <span>🛡️</span>
@@ -64,7 +64,7 @@ const base = lang === 'en' ? '' : `/${lang}`;
         <ul class="space-y-1.5 text-sm">
           <li><a href={`${base}/codes/`} class="text-stone-400 hover:text-plague-200 transition">{t(lang, 'nav.codes')}</a></li>
           <li><a href={`${base}/support/`} class="inline-flex items-center gap-1 font-semibold text-toxic-400 hover:text-toxic-300 transition">💎 {t(lang, 'nav.support')}</a></li>
-          <li><a href={`${base}/dnd/`} class="text-stone-400 hover:text-plague-200 transition">🛡️ {lang === 'ru' ? 'Информация альянса' : 'Alliance Info'}</a></li>
+          <li><a href={`${base}/alliance/`} class="text-stone-400 hover:text-plague-200 transition">🛡️ {lang === 'ru' ? 'Информация альянса' : 'Alliance Info'}</a></li>
           <li><a href={`${base}/credits/`} class="text-stone-400 hover:text-plague-200 transition">{t(lang, 'nav.credits')}</a></li>
           <li><a href="https://discord.gg/2PYWRyNtmU" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-indigo-400 hover:text-indigo-300 transition">Discord ↗</a></li>
         </ul>

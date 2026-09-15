@@ -3,13 +3,18 @@ import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import DiscordBanner from '../../components/DiscordBanner.astro';
+import GuildHub from '../../components/GuildHub.astro';
 import type { Lang } from '../../i18n/utils';
 
 const lang: Lang = 'ja';
 ---
 
-<Base lang={lang} path="/ja/alliance/" title="🤝 同盟システム完全攻略ガイド" description="Last Asylum: Plagueの同盟システム公式完全ガイド — 同盟支援の短縮計算式、同盟技術、ギフトLv.25特権、名誉ショップ優先度、同盟領土とR4/R5役職役割。">
-  <GuidePage title="🤝 同盟システム完全攻略ガイド" description="Last Asylum: Plagueの同盟システム公式完全ガイド — 同盟支援の短縮計算式、同盟技術、ギフトLv.25特権、名誉ショップ優先度、同盟領土とR4/R5役職役割。" lang={lang}>
+<Base lang={lang} path="/ja/alliance/" title="🤝 同盟攻略＆戦術ハブ" description="Last Asylum: Plagueの同盟システム公式完全ガイド — 同盟支援の短縮計算式、同盟技術、ギフトLv.25特権、名誉ショップ優先度、同盟領土とR4/R5役職役割。">
+  <GuidePage title="🤝 同盟攻略＆戦術ハブ" description="Last Asylum: Plagueの同盟システム公式完全ガイド — 同盟支援の短縮計算式、同盟技術、ギフトLv.25特権、名誉ショップ優先度、同盟領土とR4/R5役職役割。" lang={lang}>
+
+    <div class="not-prose mb-10">
+      <GuildHub lang={lang} />
+    </div>
 
     <p><strong>Last Asylum: Plague</strong>の荒廃した世界において、単独での生存は極めて困難です。強力で統率された同盟に参加することで、アカウントの育成速度は<strong>3〜5倍</strong>に跳ね上がり、専用ショップの解放や資源の保護、そしてサーバー間戦争への道が開かれます。</p>
 

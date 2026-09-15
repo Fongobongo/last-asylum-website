@@ -3,13 +3,18 @@ import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import DiscordBanner from '../../components/DiscordBanner.astro';
+import GuildHub from '../../components/GuildHub.astro';
 import type { Lang } from '../../i18n/utils';
 
 const lang: Lang = 'de';
 ---
 
-<Base lang={lang} path="/de/alliance/" title="🤝 Kompletter Allianz-Guide" description="Offizieller umfassender Leitfaden zum Allianz-System in Last Asylum: Plague — Allianz-Hilfe-Formeln, Tech-Spenden, Stufe 25 Geschenk-Privileg, Ehre-Shop und R4/R5-Rollen.">
-  <GuidePage title="🤝 Kompletter Allianz-Guide" description="Offizieller umfassender Leitfaden zum Allianz-System in Last Asylum: Plague — Allianz-Hilfe-Formeln, Tech-Spenden, Stufe 25 Geschenk-Privileg, Ehre-Shop und R4/R5-Rollen." lang={lang}>
+<Base lang={lang} path="/de/alliance/" title="🤝 Kompletter Allianz-Guide & Taktik-Hub" description="Offizieller umfassender Leitfaden zum Allianz-System in Last Asylum: Plague — Allianz-Hilfe-Formeln, Tech-Spenden, Stufe 25 Geschenk-Privileg, Ehre-Shop und R4/R5-Rollen.">
+  <GuidePage title="🤝 Kompletter Allianz-Guide & Taktik-Hub" description="Offizieller umfassender Leitfaden zum Allianz-System in Last Asylum: Plague — Allianz-Hilfe-Formeln, Tech-Spenden, Stufe 25 Geschenk-Privileg, Ehre-Shop und R4/R5-Rollen." lang={lang}>
+
+    <div class="not-prose mb-10">
+      <GuildHub lang={lang} />
+    </div>
 
     <p>In den von der Seuche heimgesuchten Weiten von <strong>Last Asylum: Plague</strong> ist das Überleben als Solospieler praktisch unmöglich. Der Beitritt zu einer organisierten Allianz beschleunigt deinen Fortschritt um das <strong>3- bis 5-fache</strong>, schaltet exklusive Shops frei, schützt Ressourcen und öffnet das Tor zu epischen serverübergreifenden Kriegen.</p>
 

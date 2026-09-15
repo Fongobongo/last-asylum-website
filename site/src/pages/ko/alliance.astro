@@ -3,13 +3,18 @@ import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import DiscordBanner from '../../components/DiscordBanner.astro';
+import GuildHub from '../../components/GuildHub.astro';
 import type { Lang } from '../../i18n/utils';
 
 const lang: Lang = 'ko';
 ---
 
-<Base lang={lang} path="/ko/alliance/" title="🤝 연맹 시스템 완벽 공략 가이드" description="Last Asylum: Plague 연맹 시스템 공식 종합 가이드 — 연맹 지원 단축 공식, 기술 기부, Lv.25 선물 특권, 명예 상점 우선순위, 연맹 영토 및 R4/R5 임원 역할.">
-  <GuidePage title="🤝 연맹 시스템 완벽 공략 가이드" description="Last Asylum: Plague 연맹 시스템 공식 종합 가이드 — 연맹 지원 단축 공식, 기술 기부, Lv.25 선물 특권, 명예 상점 우선순위, 연맹 영토 및 R4/R5 임원 역할." lang={lang}>
+<Base lang={lang} path="/ko/alliance/" title="🤝 연맹 가이드 & 전술 정보 허브" description="Last Asylum: Plague 연맹 시스템 공식 종합 가이드 — 연맹 지원 단축 공식, 기술 기부, Lv.25 선물 특권, 명예 상점 우선순위, 연맹 영토 및 R4/R5 임원 역할.">
+  <GuidePage title="🤝 연맹 가이드 & 전술 정보 허브" description="Last Asylum: Plague 연맹 시스템 공식 종합 가이드 — 연맹 지원 단축 공식, 기술 기부, Lv.25 선물 특권, 명예 상점 우선순위, 연맹 영토 및 R4/R5 임원 역할." lang={lang}>
+
+    <div class="not-prose mb-10">
+      <GuildHub lang={lang} />
+    </div>
 
     <p><strong>Last Asylum: Plague</strong>의 황폐한 역병 세계에서 솔로 플레이어로 생존하는 것은 거의 불가능합니다. 조직적이고 강력한 연맹에 가입하면 계정 성장 속도가 <strong>3배에서 5배</strong> 빨라지며, 전용 상점이 열리고 자원이 보호되며 서버 대항전의 문이 열립니다.</p>
 

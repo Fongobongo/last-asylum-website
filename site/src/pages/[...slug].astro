@@ -16,6 +16,7 @@ import PvPMatrix from '../components/PvPMatrix.astro';
 import SquadQuiz from '../components/SquadQuiz.astro';
 import QuizSearch from '../components/QuizSearch.astro';
 import FaqSection from '../components/FaqSection.astro';
+import GuildHub from '../components/GuildHub.astro';
 import type { Lang } from '../i18n/utils';
 
 export async function getStaticPaths() {
@@ -56,6 +57,12 @@ const showDiscord = slug !== 'support' && slug !== 'credits';
       <p class="mb-4 text-xs text-stone-500">
         🗓 {lang === 'ru' ? 'Обновлено' : 'Updated'}: {data.updated}
       </p>
+    )}
+
+    {slug === 'alliance' && (
+      <div class="not-prose mb-10">
+        <GuildHub lang={lang} />
+      </div>
     )}
 
     <Content />

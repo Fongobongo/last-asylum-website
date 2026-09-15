@@ -22,7 +22,7 @@ const navItems: { key: any; href: string; num: string }[] = [
 ];
 const cleanPath = path.replace(/^\/(en|ru|es|pt|fr|de|id|ko|ja)?\/?/, '/') || '/';
 const is404 = cleanPath === '/404/' || cleanPath.startsWith('/404');
-const isAdmin = cleanPath === '/admin/' || cleanPath === '/dnd/admin/';
+const isAdmin = cleanPath === '/admin/' || cleanPath === '/alliance/admin/';
 const langHrefs = languages.map((l) => ({
   lang: l,
   href: is404
@@ -81,7 +81,7 @@ const dictServer: Record<string, string> = {
         </span>
       </div>
       <span class="flex items-center gap-3">
-        <a href={`${base}/dnd/`} class="inline-flex items-center gap-1 font-semibold text-toxic-400 hover:text-toxic-300 transition">
+        <a href={`${base}/alliance/`} class="inline-flex items-center gap-1 font-semibold text-toxic-400 hover:text-toxic-300 transition">
           🛡️ {lang === 'ru' ? 'Информация альянса' : 'Alliance Live Info'}
         </a>
         <span class="text-stone-700 hidden sm:inline">|</span>
@@ -103,7 +103,7 @@ const dictServer: Record<string, string> = {
 
       <div class="flex items-center gap-2">
         <a
-          href={`${base}/dnd/`}
+          href={`${base}/alliance/`}
           class="btn-glow inline-flex items-center gap-1.5 rounded-full border border-toxic-500/40 bg-stone-900/90 px-3 py-1.5 text-xs font-bold text-toxic-300 hover:border-toxic-400 hover:bg-toxic-500/15 shadow-[0_0_15px_rgba(180,255,57,0.15)] transition"
           title={lang === 'ru' ? 'Актуальная информация альянса: тактика, голосования, директивы' : 'Alliance live info: tactics, polls & directives'}
         >
@@ -200,7 +200,7 @@ const dictServer: Record<string, string> = {
       </div>
 
       <a
-        href={`${base}/dnd/`}
+        href={`${base}/alliance/`}
         class="mb-3 flex items-center justify-between rounded-xl border border-toxic-500/40 bg-gradient-to-r from-toxic-500/15 via-plague-500/10 to-stone-900/60 p-3 text-xs font-bold text-white transition hover:border-toxic-400"
       >
         <div class="flex items-center gap-2.5">

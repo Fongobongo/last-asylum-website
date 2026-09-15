@@ -3,13 +3,18 @@ import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import DiscordBanner from '../../components/DiscordBanner.astro';
+import GuildHub from '../../components/GuildHub.astro';
 import type { Lang } from '../../i18n/utils';
 
 const lang: Lang = 'id';
 ---
 
-<Base lang={lang} path="/id/alliance/" title="🤝 Panduan Lengkap Sistem Aliansi" description="Panduan resmi sistem Aliansi di Last Asylum: Plague — Formula Bantuan Aliansi, donasi teknologi, Hak Istimewa Hadiah Lv.25, prioritas Toko Kehormatan, dan peran R4/R5.">
-  <GuidePage title="🤝 Panduan Lengkap Sistem Aliansi" description="Panduan resmi sistem Aliansi di Last Asylum: Plague — Formula Bantuan Aliansi, donasi teknologi, Hak Istimewa Hadiah Lv.25, prioritas Toko Kehormatan, dan peran R4/R5." lang={lang}>
+<Base lang={lang} path="/id/alliance/" title="🤝 Panduan Aliansi & Hub Taktis" description="Panduan resmi sistem Aliansi di Last Asylum: Plague — Formula Bantuan Aliansi, donasi teknologi, Hak Istimewa Hadiah Lv.25, prioritas Toko Kehormatan, dan peran R4/R5.">
+  <GuidePage title="🤝 Panduan Aliansi & Hub Taktis" description="Panduan resmi sistem Aliansi di Last Asylum: Plague — Formula Bantuan Aliansi, donasi teknologi, Hak Istimewa Hadiah Lv.25, prioritas Toko Kehormatan, dan peran R4/R5." lang={lang}>
+
+    <div class="not-prose mb-10">
+      <GuildHub lang={lang} />
+    </div>
 
     <p>Di dunia <strong>Last Asylum: Plague</strong> yang hancur oleh wabah, bertahan hidup sendirian hampir mustahil. Bergabung dengan aliansi yang kuat dan terorganisir mempercepat progres akun Anda <strong>3x hingga 5x</strong>, membuka toko eksklusif, melindungi sumber daya, dan membuka pintu perang antar-server.</p>
 

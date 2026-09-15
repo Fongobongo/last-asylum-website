@@ -3,13 +3,18 @@ import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import DiscordBanner from '../../components/DiscordBanner.astro';
+import GuildHub from '../../components/GuildHub.astro';
 import type { Lang } from '../../i18n/utils';
 
 const lang: Lang = 'fr';
 ---
 
-<Base lang={lang} path="/fr/alliance/" title="🤝 Guide Complet du Système d'Alliance" description="Guide stratégique officiel de l'Alliance dans Last Asylum: Plague — Formules d'aide, dons de technologie, privilège de cadeau niveau 25, boutique d'honneur et rôles R4/R5.">
-  <GuidePage title="🤝 Guide Complet du Système d'Alliance" description="Guide stratégique officiel de l'Alliance dans Last Asylum: Plague — Formules d'aide, dons de technologie, privilège de cadeau niveau 25, boutique d'honneur et rôles R4/R5." lang={lang}>
+<Base lang={lang} path="/fr/alliance/" title="🤝 Guide d'Alliance & Hub Tactique" description="Guide stratégique officiel de l'Alliance dans Last Asylum: Plague — Formules d'aide, dons de technologie, privilège de cadeau niveau 25, boutique d'honneur et rôles R4/R5.">
+  <GuidePage title="🤝 Guide d'Alliance & Hub Tactique" description="Guide stratégique officiel de l'Alliance dans Last Asylum: Plague — Formules d'aide, dons de technologie, privilège de cadeau niveau 25, boutique d'honneur et rôles R4/R5." lang={lang}>
+
+    <div class="not-prose mb-10">
+      <GuildHub lang={lang} />
+    </div>
 
     <p>Dans les terres désolées de <strong>Last Asylum: Plague</strong>, survivre en solitaire est quasi impossible. Rejoindre une alliance puissante et structurée accélère votre progression d'un facteur <strong>3x à 5x</strong>, débloque des boutiques exclusives, protège vos ressources et ouvre la voie aux guerres inter-serveurs.</p>
 

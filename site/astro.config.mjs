@@ -56,6 +56,17 @@ const SITE_URL = process.env.SITE_URL?.trim() ? process.env.SITE_URL.trim() : 'h
 export default defineConfig({
   site: SITE_URL,
   trailingSlash: 'always',
+  redirects: {
+    '/dnd/': '/alliance/',
+    '/ru/dnd/': '/ru/alliance/',
+    '/de/dnd/': '/de/alliance/',
+    '/es/dnd/': '/es/alliance/',
+    '/fr/dnd/': '/fr/alliance/',
+    '/id/dnd/': '/id/alliance/',
+    '/ja/dnd/': '/ja/alliance/',
+    '/ko/dnd/': '/ko/alliance/',
+    '/pt/dnd/': '/pt/alliance/',
+  },
   markdown: {
     remarkPlugins: [remarkCustomHeadingId],
     rehypePlugins: [rehypeTableWrap],

@@ -3,13 +3,18 @@ import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import DiscordBanner from '../../components/DiscordBanner.astro';
+import GuildHub from '../../components/GuildHub.astro';
 import type { Lang } from '../../i18n/utils';
 
 const lang: Lang = 'es';
 ---
 
-<Base lang={lang} path="/es/alliance/" title="🤝 Guía Completa del Sistema de Alianzas" description="Guía exhaustiva oficial del Sistema de Alianzas en Last Asylum: Plague — Fórmulas de ayuda, donaciones tecnológicas, privilegio de regalo Nivel 25, tienda de honor y roles R4/R5.">
-  <GuidePage title="🤝 Guía Completa del Sistema de Alianzas" description="Guía exhaustiva oficial del Sistema de Alianzas en Last Asylum: Plague — Fórmulas de ayuda, donaciones tecnológicas, privilegio de regalo Nivel 25, tienda de honor y roles R4/R5." lang={lang}>
+<Base lang={lang} path="/es/alliance/" title="🤝 Guía de Alianzas y Centro Táctico" description="Guía exhaustiva oficial del Sistema de Alianzas en Last Asylum: Plague — Fórmulas de ayuda, donaciones tecnológicas, privilegio de regalo Nivel 25, tienda de honor y roles R4/R5.">
+  <GuidePage title="🤝 Guía de Alianzas y Centro Táctico" description="Guía exhaustiva oficial del Sistema de Alianzas en Last Asylum: Plague — Fórmulas de ayuda, donaciones tecnológicas, privilegio de regalo Nivel 25, tienda de honor y roles R4/R5." lang={lang}>
+
+    <div class="not-prose mb-10">
+      <GuildHub lang={lang} />
+    </div>
 
     <p>En el páramo devastado por la plaga de <strong>Last Asylum: Plague</strong>, sobrevivir como jugador solitario es casi imposible. Unirte a una alianza activa y organizada acelera tu progresión de <strong>3 a 5 veces</strong>, desbloquea tiendas exclusivas, protege tus recursos y te permite luchar en guerras entre servidores.</p>
 
