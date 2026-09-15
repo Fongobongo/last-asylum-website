@@ -29,7 +29,7 @@ Use the interactive Monument tool below to **enter your server day** (e.g. Day 1
 - **Chapter 1 (Days 1–14)**: Sanctuary founding, core free UR tank [Arthur](/codex/arthur/), [Alliance](/alliance/) feature unlock, first UR Ranger roulette [Cynthia](/codex/cynthia/) (Day 8), and the first 20-wave [Undead Siege](/events/undead/) (Day 14).
 - **Chapter 2 (Days 15–28)**: First [Alliance Duel](/events/alliance-duel/) qualification (Top-32 alliances, Day 15), daily [Alliance Caravan](/events/wagon/) (Day 21), and team battlegrounds in [Canyon Clash](/events/canyon/).
 - **Chapter 3 (Days 29–65)**: Server borders shatter! Cross-server [Kingdom War (KvK)](/events/kvk/) begins, hero pool expands ([Shadow](/codex/shadow/), Joker, Bella), and weekly 30-minute [Elixir Scramble](/events/elixir/).
-- **Chapter 4 (Days 66–119)**: The Golden Age! Unlocking apex F2P carry [Marlena](/codex/marlena/), daily 300-fish ocean bounty in [Mythic Treasure](/events/mythic/), Curio Hall relics, and strict Antitoxin stockpiling.
+- **Chapter 4 (Days 66–119)**: The Golden Age! Free Tavern arrival of apex F2P carry [Marlena](/codex/marlena/) (for those who did not purchase her $1 Day 1 pack), daily 300-fish ocean bounty in [Mythic Treasure](/events/mythic/), Curio Hall relics, and strict Antitoxin stockpiling.
 - **Chapter 5 (Day 120+)**: Launch of the epic 55-day **«Era of Revival»** (League of Expeditions) featuring viral infection immunity, Lord Statues, specialization talent trees, and Zoya.
 
 ## Resets & recurring schedules {#recurring}

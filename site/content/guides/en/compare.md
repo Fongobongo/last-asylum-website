@@ -12,7 +12,7 @@ videoTopic: compare
 
 | | | |
 |---|---|---|
-| **Availability** | Free-ish ($1 top-up), day 66 free | Paid only (10 fragments to start) |
+| **Availability** | Day 1 via $1 top-up, Day 66 free in Tavern | Paid only (10 fragments to start) |
 | **Damage share** | ~85% of squad damage alone | Splits ~50/50 with a maxed Marlena |
 | **Damage type** | Physical/energy mix per build | Energy whirlwind — needs energy supports |
 | **Synergy** | Buffed 4× in the standard comp (Harper ult + Bell + Claire passive) | Does not stack with physical Joker |
@@ -26,7 +26,7 @@ videoTopic: compare
 
 | | | |
 |---|---|---|
-| **Cost** | ~11,500 diamonds (day-8 wheel) | $1 top-up |
+| **Cost** | ~11,500 diamonds (day-8 wheel) | $1 Day 1 top-up (or free Day 66 in Tavern) |
 | **Early power** | Strong early carry (ranger UR) | Late bloomer — weak until high stars |
 | **Late game** | Lose 5% faction bonus + Harper/epigraph synergy | Core of the mono-Warrior meta |
 | **Wheel timing** | Must save diamonds days 1–8 | No diamond cost |

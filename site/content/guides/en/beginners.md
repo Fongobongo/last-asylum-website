@@ -82,7 +82,7 @@ The game drips its best heroes on a fixed schedule. Knowing the schedule in adva
 | Day 1-2 | Arthur (UR) — free | Your day-one tank. Claim him immediately. |
 | Day 8 | Cynthia and Shadow — Wishing Wheel | Cynthia runs about 11,500 diamonds. Spin 10x only. |
 | Day 36 / 43 / 57 / 64 / 72 / 85 | New UR hero events | A diamond-heavy stretch — plan reserves in advance. |
-| Day 66 | Marlena — $1 top-up | Universally called the best value purchase in the game. |
+| Day 1 / Day 66 | Marlena: available immediately for $1 (First Top-Up), appears in Tavern for free on Day 66 | Apex early carry. A $1 spend unlocks her Day 1; 100% F2P players recruit her for free from the Tavern on Day 66. |
 | Day 120+ (Era of Revival) | Daskal (UR tank); Claire SSR-to-UR conversion at Era Day 8 | Daskal is the best tank in the game; time the Claire conversion carefully. |
 
 ### Arthur: Day 1-2, Free UR {#arthur-day-one}
@@ -97,9 +97,11 @@ Day 8 brings the first Wishing Wheel featuring Cynthia and Shadow. Cynthia, the 
 
 A string of new UR hero events arrives at days 36, 43, 57, 64, 72 and 85. Each one is a chance to add UR power — and each one eats diamonds. Knowing the train is coming is the difference between entering day 36 with a plan and entering it broke.
 
-### Marlena: Day 66 and the $1 Top-Up {#marlena-day-66}
+### Marlena: $1 First Top-Up on Day 1 & Free Tavern Recruit on Day 66 {#marlena-day-66}
 
-The day 66 top-up that grants Marlena costs one dollar and is universally called the best value in the game. Marlena becomes the damage engine of the standard squad — she is worth roughly 85% of your squad damage until Zoya arrives. Skip one coffee, buy the hero.
+Marlena is available starting on Day 1 via the $1 first top-up pack — universally hailed as the best value purchase in the game. She serves as the core damage carry of the standard squad, dealing roughly 85% of your total squad damage until Zoya arrives.
+
+For strict 100% F2P players who spend nothing: **on Server Day 66, Marlena enters the standard Tavern recruitment pool**, allowing you to summon her completely free using banked recruitment tickets!
 
 ### Day 120+: Era of Revival — Daskal and Claire {#era-daskal-claire}
 
@@ -145,7 +147,7 @@ The officially recommended early squad looks like this:
 
 Arthur anchors the front as the tank; Bella holds the second front seat. Marlena is the damage carry of the standard build, Claire is the back-line buffer, and Celia fills the fifth seat until your real squad arrives.
 
-What matters more than the exact seats is the investment split inside this lineup: two or three heroes get everything, the rest stay cheap placeholders. The canonical F2P split — Arthur and Claire early, Marlena at day 66 — is laid out step by step in the [Heroes guide](/heroes/).
+What matters more than the exact seats is the investment split inside this lineup: two or three heroes get everything, the rest stay cheap placeholders. The canonical F2P split — Arthur and Claire early, Marlena (Day 1 for $1 or Day 66 free in Tavern) — is laid out step by step in the [Heroes guide](/heroes/).
 
 ## Top Beginner Mistakes & Regrets to Avoid {#top-regrets}
 

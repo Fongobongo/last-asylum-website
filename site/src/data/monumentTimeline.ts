@@ -1104,26 +1104,26 @@ export const monumentMilestones: MonumentMilestone[] = [
       pt: 'Dia 60–74'
     },
     shortDesc: {
-      ru: 'Открытие Марлены ($1 пак или день 66). Наносит до 85% суммарного урона отряда. Приоритет №1 для осколков UR.',
-      en: 'Marlena unlocked ($1 pack or Day 66). Delivers ~85% of total squad damage. Absolute #1 priority for UR shards.',
-      de: 'Marlena freigeschaltet (1$-Paket oder Tag 66). Verursacht ~85% des Gesamtschadens. Priorität 1 für UR-Splitter.',
-      es: 'Desbloqueo de Marlena (paquete de $1 o día 66). Realiza el 85% del daño del escuadrón. Prioridad #1 para fragmentos UR.',
-      fr: 'Déblocage de Marlena (pack à 1$ ou jour 66). Inflige ~85% des dégâts du groupe. Priorité absolue pour les fragments UR.',
-      id: 'Marlena terbuka (paket $1 atau hari ke-66). Menghasilkan 85% total damage. Prioritas nomor 1 untuk shard UR.',
-      ja: 'マレーナの解放（1ドル課金または66日目）。部隊総ダメージの85%を叩き出す最優先UR英雄。',
-      ko: '말레나 해금(1달러 패키지 또는 66일차). 부대 전체 딜량의 85%를 차지하는 UR 최우선 투자 대상.',
-      pt: 'Desbloqueio de Marlena (pacote de $1 ou dia 66). Causa 85% do dano total. Prioridade número 1 para fragmentos UR.'
+      ru: 'Марлена в Таверне бесплатно (или с 1-го дня за $1). Наносит до 85% суммарного урона отряда. Приоритет №1 для осколков UR.',
+      en: 'Marlena free in Tavern (or Day 1 for $1). Delivers ~85% of total squad damage. Absolute #1 priority for UR shards.',
+      de: 'Marlena kostenlos in der Taverne (oder Tag 1 für 1$). Verursacht ~85% des Gesamtschadens. Priorität 1 für UR-Splitter.',
+      es: 'Marlena gratis en la Taberna (o Día 1 por $1). Realiza el 85% del daño del escuadrón. Prioridad #1 para fragmentos UR.',
+      fr: 'Marlena gratuite en Taverne (ou Jour 1 pour 1$). Inflige ~85% des dégâts du groupe. Priorité absolue pour les fragments UR.',
+      id: 'Marlena gratis di Kedai (atau Hari 1 seharga $1). Menghasilkan 85% total damage. Prioritas nomor 1 untuk shard UR.',
+      ja: 'マレーナが酒場に無料追加（または1日目から1ドル課金）。部隊総ダメージの85%を叩き出す最優先UR英雄。',
+      ko: '말레나 주점 무료 추가(또는 1일차 1달러 첫 충전). 부대 전체 딜량의 85%를 차지하는 UR 최우선 투자 대상.',
+      pt: 'Marlena grátis na Taverna (ou Dia 1 por US$ 1). Causa 85% do dano total. Prioridade número 1 para fragmentos UR.'
     },
     unlockCondition: {
-      ru: 'День 60–66 сервера (или $1 стартовый донат)',
-      en: 'Server Day 60–66 (or $1 starter recharge)',
-      de: 'Server-Tag 60–66 (oder 1$-Starterkauf)',
-      es: 'Día 60–66 del servidor (o recarga de $1)',
-      fr: 'Jour 60–66 du serveur (ou premier achat 1$)',
-      id: 'Hari ke 60–66 server (atau top-up pemula $1)',
-      ja: 'サーバー60〜66日目（または1ドル初回課金）',
-      ko: '서버 60~66일차(또는 1달러 첫 충전)',
-      pt: 'Dia 60–66 do servidor (ou recarga inicial de US$ 1)'
+      ru: 'День 66 в Таверне (бесплатно) или с 1-го дня за $1',
+      en: 'Day 66 in Tavern (free) or Day 1 for $1 first top-up',
+      de: 'Tag 66 in Taverne (kostenlos) oder Tag 1 für 1$ Erstkauf',
+      es: 'Día 66 en Taberna (gratis) o Día 1 por $1 primera recarga',
+      fr: 'Jour 66 en Taverne (gratuit) ou Jour 1 pour 1$ premier achat',
+      id: 'Hari 66 di Kedai (gratis) atau Hari 1 seharga $1 top-up pertama',
+      ja: '66日目に酒場無料追加（または1日目から1ドル初回課金）',
+      ko: '66일차 주점 무료 추가(또는 1일차 1달러 첫 충전)',
+      pt: 'Dia 66 na Taverna (grátis) ou Dia 1 por US$ 1 primeira recarga'
     },
     whatToHoard: {
       ru: 'ВСЕ универсальные осколки UR с самого старта сервера должны быть отложены на прокачку Марлены до 8★ (а затем 10★).',

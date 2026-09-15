@@ -68,7 +68,7 @@ Free-to-play epigraph income is real, if you show up for it: 30 UR shards per da
 
 ### Best Packs ($20-200 Range) {#best-packs}
 
-If you spend at all, the community picks three packs in the $20-200 range: Universal Speedup packs, Raven Essence packs, and City Level-Up packs. And from the beginner guides: the $1 Marlena top-up at day 66 remains the single best value purchase in the game at any price.
+If you spend at all, the community picks three packs in the $20-200 range: Universal Speedup packs, Raven Essence packs, and City Level-Up packs. And from the beginner guides: the $1 starter pack for Marlena (who becomes free in the Tavern on Day 66) remains the single best value purchase in the game at any price.
 
 ## Plunder: The Complete Mechanics {#plunder-mechanics}
 

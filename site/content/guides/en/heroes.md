@@ -18,7 +18,7 @@ The three factions are not equal at the same stage of the game. The community co
 
 | Faction | Peak window | Why |
 |---|---|---|
-| Warriors | Early game | Free Arthur plus free Harper shards, and the $1 Marlena top-up at day 66. The game hands you a Warrior core for almost nothing. |
+| Warriors | Early game | Free Arthur, free Harper shards, and Marlena (available immediately for $1 First Top-Up, or free in the Tavern on Day 66). The game hands you a Warrior core for almost nothing. |
 | Rangers | Mid game | Rangers counter Warriors — a Ranger formation takes 20% less damage from them. With investment, a mid-game Ranger squad beats roughly 98% of what it runs into. |
 | Warlocks | Late game | The strongest ceiling, but only with heavy investment — they need to overcome the Warrior boost to get there. Spend or be patient. |
 
@@ -39,7 +39,7 @@ Three things make this the standard: every hero in it is free or near-free, the 
 | Day 1-2 | Arthur arrives free and becomes your tank. Fill the remaining seats with the free Bella, Claire, and Celia shards. |
 | Early game | Invest ONLY in Claire and Arthur. Everyone else stays a placeholder — including Bella and Celia. |
 | Along the way | Harper to 8 stars is mandatory for the standard build. Feed him steadily; do not leave him parked at 6. |
-| Day 66 | The $1 Marlena top-up. Save UR shards so you can take her straight to 8 stars instantly — then keep pushing toward 10. |
+| Day 1 / Day 66 | Marlena: buy Day 1 for $1 or recruit free in the Tavern on Day 66. Save UR shards so you can take her straight to 8 stars instantly — then keep pushing toward 10. |
 | Day 120+ (Era of Revival) | Daskal joins as the best tank in the game. Claire becomes UR via the Era Day 8 conversion — her shards were free early, which is exactly why you saved them instead of spending them. |
 
 The two discipline points that make or break the build: Claire and Arthur only, early — and never eat your saved Claire shards before the Era conversion, because the conversion to UR is what those shards were hoarded for.
@@ -97,7 +97,7 @@ Claire's key skill is her passive — the team-wide damage amplifier. The verifi
 
 Stars are the biggest single multiplier on hero might. The significant power jump arrives after **4 stars** — below that a hero is a seat-warmer, above it the same hero starts winning fights. This is why the community's first star target on every main-squad hero is getting through 4, not scattering shards to make everyone evenly mediocre.
 
-UR heroes have a second major breakpoint: at level 30 and 8 stars they unlock **Tenacity**. It is a large survivability jump and the reason 8 stars is the standard resting point for UR heroes — Marlena's day-66 instant 8 stars is designed around it.
+UR heroes have a second major breakpoint: at level 30 and 8 stars they unlock **Tenacity**. It is a large survivability jump and the reason 8 stars is the standard resting point for UR heroes — rushing Marlena to 8 stars (unlocked on Day 1 for $1 or recruited on Day 66 from the Tavern) is designed around it.
 
 ## Awakened Heroes: The Era Progression Order {#awakened-order}
 
