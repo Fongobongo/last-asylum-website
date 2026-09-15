@@ -1,0 +1,10 @@
+.git
+.github
+.gitignore
+node_modules
+site/node_modules
+site/dist
+site/.astro
+*.log
+.env
+.env.*
