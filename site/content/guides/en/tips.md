@@ -74,24 +74,26 @@ Falcon Tower quests and their associated treasure maps are among the primary dai
 
 ---
 
-### Alliance Excavations & Treasure Maps {#excavations}
+### Alliance Excavations {#excavations}
 
-Completing Falcon quests regularly yields **Treasure Maps**, which spawn excavation dig sites on the world map. This is a cooperative event that benefits your entire alliance when proper etiquette is followed:
+Completing Falcon Tower quests rewards **Treasure Maps**, allowing players to start dig sites on the world map. This is a cooperative alliance activity with a dynamic excavation timer.
 
-![Alliance Treasure Excavations and 19 Bonus Chests](/infographics/excavation-chest.jpg)
+#### How Excavation Mechanics Work:
 
-#### Excavation Rules & Team Etiquette:
+* **The "Hand" Icon & Dispatching Squads:**
+  When an ally initiates an excavation, a quick-action **helping hand icon** appears in the interface, and the treasure site shows on the world map. You can join the excavation either by tapping the **"Hand" icon** in the quick menu or by tapping directly on the **excavation site** on the map to dispatch a march.
 
-1. **Always Share Coordinates in Alliance Chat**:
-   Upon activating a map, immediately ping the site coordinates in Alliance Chat. The faster your allies track the dig site, the more members can secure bonus gifts.
-2. **Marching Etiquette (Never Crowd the Site)**:
-   If an alliance member has already launched a march or is actively digging the treasure spot, **do not send a competing march or sit on top of the tile**. Only one squad can dig a site at a time. Wait nearby until the excavation finishes.
-3. **19 Bonus Gift Chests for Teammates**:
-   The exact moment excavation completes, **19 bonus gift chests** drop around the dig site and in the Alliance Gift tab!
-   * These chests are claimed on a **first-come, first-served** basis by the fastest alliance members to tap them.
-   * Keep alliance chat notifications on so you never miss an excavation drop.
-4. **Lucky Winner Jackpot ($2\times$ Double Reward)**:
-   Out of the 19 players who grab an excavation chest, exactly **one lucky player randomly wins the Lucky Jackpot ($2\times$ Double Reward)**, doubling diamonds, speedups, and valuable resources!
+* **20 Players Maximum Capacity:**
+  Up to **20 alliance members** can participate and claim rewards from a single excavation site.
+
+* **Dynamic Dig Speed: Dig Time Decreases with Every Player:**
+  All alliance members can participate, but **each additional squad that arrives at the site shortens the remaining excavation duration**. The more players actively digging together, the faster the site completes.
+
+* **Risk of Arriving Too Late (Wasted March):**
+  Because arriving players constantly reduce the overall excavation timer, the dig can wrap up very rapidly. If your city is far away or your march speed is slow, the excavation may **finish before your troops reach the site**, causing your squad to turn around empty-handed without any reward.
+
+> [!TIP]
+> **Tactical Advice:** If an excavation is triggered far from your location and many allies are already marching, compare your estimated march time against the ticking excavation timer. Use march speedups if necessary to ensure your squad reaches the site before the excavation completes.
 
 ---
 

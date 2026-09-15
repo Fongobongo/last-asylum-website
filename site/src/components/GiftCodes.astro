@@ -153,7 +153,6 @@ const dict: Record<string, GiftCodesDict> = {
 
 const labels = dict[lang] ?? dict.en;
 const activeCodes = giftCodes.filter((c) => c.active);
-const expiredCodes = giftCodes.filter((c) => !c.active);
 const allActiveCodesText = activeCodes.map((c) => c.code).join("\n");
 ---
 
@@ -205,40 +204,6 @@ const allActiveCodesText = activeCodes.map((c) => c.code).join("\n");
       </div>
     ))}
   </div>
-
-  <!-- Expired Codes Accordion Toggle -->
-  {expiredCodes.length > 0 && (
-    <div class="rounded-xl border border-stone-800 bg-stone-950/40 p-3">
-      <button
-        id="js-toggle-expired"
-        type="button"
-        class="flex w-full items-center justify-between text-left text-xs font-semibold text-stone-400 hover:text-stone-200 transition cursor-pointer"
-        data-show={labels.showExpired + ` (${expiredCodes.length})`}
-        data-hide={labels.hideExpired}
-      >
-        <span class="flex items-center gap-2">
-          <span>⏳</span>
-          <span id="js-toggle-expired-label">{labels.showExpired} ({expiredCodes.length})</span>
-        </span>
-        <span id="js-toggle-expired-icon" class="text-stone-500 text-sm transition-transform duration-200">▼</span>
-      </button>
-
-      <div id="js-expired-container" class="hidden mt-3 pt-3 border-t border-stone-800/60 space-y-2">
-        <p class="text-[11px] text-stone-500 leading-relaxed">{labels.expiredNote}</p>
-        <div class="grid gap-2 sm:grid-cols-2 lg:grid-cols-3 pt-1">
-          {expiredCodes.map((c) => (
-            <div class="flex items-center justify-between gap-2 rounded-lg border border-stone-800/80 bg-stone-900/30 p-2.5 opacity-60">
-              <div class="min-w-0">
-                <code class="font-mono text-xs line-through text-stone-400">{c.code}</code>
-                <p class="text-[10px] text-stone-500">{c.date}</p>
-              </div>
-              <span class="rounded bg-stone-800 px-1.5 py-0.5 text-[9px] font-semibold text-stone-400">EXPIRED</span>
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
-  )}
 
   <!-- Official Web Redemption Box -->
   <div class="rounded-xl border border-plague-700/50 bg-gradient-to-r from-plague-950/60 via-stone-900 to-stone-950 p-4">
@@ -335,29 +300,6 @@ const allActiveCodesText = activeCodes.map((c) => c.code).join("\n");
             }, 2000);
           } else {
             window.prompt("Коды для копирования (Ctrl+C / Cmd+C):", allText);
-          }
-        });
-      }
-
-      // Toggle Expired Codes Accordion
-      const toggleBtn = document.getElementById("js-toggle-expired");
-      const expiredContainer = document.getElementById("js-expired-container");
-      const toggleLabel = document.getElementById("js-toggle-expired-label");
-      const toggleIcon = document.getElementById("js-toggle-expired-icon");
-
-      if (toggleBtn && expiredContainer && toggleLabel && toggleIcon && toggleBtn.dataset.bound !== "true") {
-        toggleBtn.dataset.bound = "true";
-        let isOpen = false;
-        toggleBtn.addEventListener("click", function() {
-          isOpen = !isOpen;
-          if (isOpen) {
-            expiredContainer.classList.remove("hidden");
-            toggleLabel.textContent = toggleBtn.dataset.hide || "Hide Expired Codes";
-            toggleIcon.style.transform = "rotate(180deg)";
-          } else {
-            expiredContainer.classList.add("hidden");
-            toggleLabel.textContent = toggleBtn.dataset.show || "Show Expired Codes";
-            toggleIcon.style.transform = "rotate(0deg)";
           }
         });
       }
