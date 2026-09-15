@@ -210,29 +210,40 @@ const i18n = {
 
 const texts = i18n[lang as keyof typeof i18n] ?? i18n.en;
 
-// Sanctuary data from level 10 to 30
+// Sanctuary data from level 2 to 30 (extracted directly from game client binary)
 const sanctuaryLevels = [
-  { level: 11, food: 220000, timber: 220000, herbs: 0, hours: 7.5, prereq: 'Wall Lv.10, Farm Lv.10', prereqRu: 'Стена ур. 10, Ферма ур. 10' },
-  { level: 12, food: 360000, timber: 360000, herbs: 0, hours: 12.5, prereq: 'Wall Lv.11, Lumberyard Lv.11', prereqRu: 'Стена ур. 11, Лесопилка ур. 11' },
-  { level: 13, food: 580000, timber: 580000, herbs: 0, hours: 19, prereq: 'Wall Lv.12, Infirmary Lv.12', prereqRu: 'Стена ур. 12, Лазарет ур. 12' },
-  { level: 14, food: 920000, timber: 920000, herbs: 0, hours: 28, prereq: 'Wall Lv.13, Training Grounds Lv.13', prereqRu: 'Стена ур. 13, Полигон ур. 13' },
-  { level: 15, food: 1450000, timber: 1450000, herbs: 0, hours: 42, prereq: 'Wall Lv.14, Farm Lv.14', prereqRu: 'Стена ур. 14, Ферма ур. 14' },
-  { level: 16, food: 2300000, timber: 2300000, herbs: 150000, hours: 64, prereq: 'Wall Lv.15, Lumberyard Lv.15', prereqRu: 'Стена ур. 15, Лесопилка ур. 15' },
-  { level: 17, food: 3600000, timber: 3600000, herbs: 320000, hours: 96, prereq: 'Wall Lv.16, Infirmary Lv.16', prereqRu: 'Стена ур. 16, Лазарет ур. 16' },
-  { level: 18, food: 5800000, timber: 5800000, herbs: 680000, hours: 144, prereq: 'Wall Lv.17, Training Grounds Lv.17', prereqRu: 'Стена ур. 17, Полигон ур. 17' },
-  { level: 19, food: 9200000, timber: 9200000, herbs: 1400000, hours: 216, prereq: 'Wall Lv.18, Herb Garden Lv.18', prereqRu: 'Стена ур. 18, Огород трав ур. 18' },
-  { level: 20, food: 14500000, timber: 14500000, herbs: 2800000, hours: 320, prereq: 'Wall Lv.19, Barracks Lv.19', prereqRu: 'Стена ур. 19, Казармы ур. 19' },
-  { level: 21, food: 23000000, timber: 23000000, herbs: 5500000, hours: 480, prereq: 'Wall Lv.20, Smelting Workshop Lv.20', prereqRu: 'Стена ур. 20, Мастерская плавки ур. 20' },
-  { level: 22, food: 36000000, timber: 36000000, herbs: 11000000, hours: 700, prereq: 'Wall Lv.21, Weaving Workshop Lv.21', prereqRu: 'Стена ур. 21, Мастерская тканья ур. 21' },
-  { level: 23, food: 56000000, timber: 56000000, herbs: 21000000, hours: 1020, prereq: 'Wall Lv.22, Gear Workshop Lv.22', prereqRu: 'Стена ур. 22, Мастерская снаряжения ур. 22' },
-  { level: 24, food: 88000000, timber: 88000000, herbs: 38000000, hours: 1480, prereq: 'Wall Lv.23, Alliance Hall Lv.23', prereqRu: 'Стена ур. 23, Зал альянса ур. 23' },
-  { level: 25, food: 138000000, timber: 138000000, herbs: 68000000, hours: 2150, prereq: 'Wall Lv.24, 1st Lab Lv.24', prereqRu: 'Стена ур. 24, Институт (Лаборатория 1) ур. 24' },
-  { level: 26, food: 210000000, timber: 210000000, herbs: 120000000, hours: 3100, prereq: 'Wall Lv.25, Granary Lv.25', prereqRu: 'Стена ур. 25, Зернохранилище ур. 25' },
-  { level: 27, food: 320000000, timber: 320000000, herbs: 210000000, hours: 4400, prereq: 'Wall Lv.26, Lumber Depot Lv.26', prereqRu: 'Стена ур. 26, Склад древесины ур. 26' },
-  { level: 28, food: 480000000, timber: 480000000, herbs: 360000000, hours: 6200, prereq: 'Wall Lv.27, Herb Storage Lv.27', prereqRu: 'Стена ур. 27, Склад трав ур. 27' },
-  { level: 29, food: 720000000, timber: 720000000, herbs: 610000000, hours: 8600, prereq: 'Wall Lv.28, Watchtower Lv.28', prereqRu: 'Стена ур. 28, Дозорная башня ур. 28' },
-  { level: 30, food: 1050000000, timber: 1050000000, herbs: 980000000, hours: 11800, prereq: 'Wall Lv.29, Lord Statue Lv.29', prereqRu: 'Стена ур. 29, Статуя Лорда ур. 29' },
+  { level: 2, food: 32, timber: 32, herbs: 0, hours: 2 / 3600, prereq: 'None', prereqRu: '—' },
+  { level: 3, food: 983, timber: 983, herbs: 0, hours: 3 / 3600, prereq: 'None', prereqRu: '—' },
+  { level: 4, food: 2600, timber: 2600, herbs: 0, hours: 5 / 60, prereq: 'Lumber Depot Lv.1, Granary Lv.1, Herb Storage Lv.1', prereqRu: 'Древесный склад ур. 1, Зерновой склад ур. 1, Травяной склад ур. 1' },
+  { level: 5, food: 19700, timber: 19700, herbs: 0, hours: 10 / 60, prereq: 'Wall Lv.3', prereqRu: 'Стены ур. 3' },
+  { level: 6, food: 92700, timber: 92700, herbs: 0, hours: 34 / 60, prereq: 'Wall Lv.5', prereqRu: 'Стены ур. 5' },
+  { level: 7, food: 235800, timber: 235800, herbs: 0, hours: 1.5, prereq: 'Training Grounds Lv.4, Alliance Hall Lv.3', prereqRu: 'Полигон ур. 4, Зал альянса ур. 3' },
+  { level: 8, food: 395600, timber: 395600, herbs: 0, hours: 3.0, prereq: 'Training Grounds Lv.6, Alliance Hall Lv.5', prereqRu: 'Полигон ур. 6, Зал альянса ур. 5' },
+  { level: 9, food: 605800, timber: 605800, herbs: 208700, hours: 4.3, prereq: 'Wall Lv.8, Alliance Hall Lv.7', prereqRu: 'Стены ур. 8, Зал альянса ур. 7' },
+  { level: 10, food: 748700, timber: 748700, herbs: 232900, hours: 5.6, prereq: 'Wall Lv.9, Infirmary Lv.7', prereqRu: 'Стены ур. 9, Лазарет ур. 7' },
+  { level: 11, food: 1853000, timber: 1853000, herbs: 601800, hours: 7.2, prereq: 'Training Grounds Lv.10, Research Lab Lv.7', prereqRu: 'Полигон ур. 10, Исследовательская лаборатория ур. 7' },
+  { level: 12, food: 3104000, timber: 3104000, herbs: 959000, hours: 9.4, prereq: 'Research Lab Lv.11, Wall Lv.10, Antitoxin Workshop Lv.7', prereqRu: 'Исследовательская лаборатория ур. 11, Стены ур. 10, Мастерская противоядий ур. 7' },
+  { level: 13, food: 3519000, timber: 3519000, herbs: 1082000, hours: 12.2, prereq: 'Research Lab Lv.12, Alliance Hall Lv.11, Farm Lv.7', prereqRu: 'Исследовательская лаборатория ур. 12, Зал альянса ур. 11, Ферма ур. 7' },
+  { level: 14, food: 4913000, timber: 4913000, herbs: 1645000, hours: 15.9, prereq: 'Research Lab Lv.13, Warrior Statue Lv.12, Lumber Mill Lv.7', prereqRu: 'Исследовательская лаборатория ур. 13, Статуя воина ур. 12, Лесопилка ур. 7' },
+  { level: 15, food: 6474000, timber: 6474000, herbs: 2290000, hours: 22.3, prereq: 'Research Lab Lv.14, Training Grounds Lv.14, Herb Garden Lv.7', prereqRu: 'Исследовательская лаборатория ур. 14, Полигон ур. 14, Цветник ур. 7' },
+  { level: 16, food: 11900000, timber: 11900000, herbs: 3970000, hours: 31.2, prereq: 'Research Lab Lv.15, Warrior Statue Lv.14, Granary Lv.7', prereqRu: 'Исследовательская лаборатория ур. 15, Статуя воина ур. 14, Зерновой склад ур. 7' },
+  { level: 17, food: 16670000, timber: 16670000, herbs: 5138000, hours: 43.6, prereq: 'Research Lab Lv.16, Barracks Lv.15, Lumber Depot Lv.7', prereqRu: 'Исследовательская лаборатория ур. 16, Казарма ур. 15, Древесный склад ур. 7' },
+  { level: 18, food: 28220000, timber: 28220000, herbs: 9329000, hours: 61.1, prereq: 'Research Lab Lv.17, Training Grounds Lv.17, Herb Storage Lv.7', prereqRu: 'Исследовательская лаборатория ур. 17, Полигон ур. 17, Травяной склад ур. 7' },
+  { level: 19, food: 32710000, timber: 32710000, herbs: 11340000, hours: 85.5, prereq: 'Research Lab Lv.18, Warrior Statue Lv.17, Antitoxin Workshop Lv.10', prereqRu: 'Исследовательская лаборатория ур. 18, Статуя воина ур. 17, Мастерская противоядий ур. 10' },
+  { level: 20, food: 60030000, timber: 60030000, herbs: 18410000, hours: 119.7, prereq: 'Research Lab Lv.19, Alliance Hall Lv.18, Farm Lv.10', prereqRu: 'Исследовательская лаборатория ур. 19, Зал альянса ур. 18, Ферма ур. 10' },
+  { level: 21, food: 85450000, timber: 85450000, herbs: 27640000, hours: 160.3, prereq: 'Research Lab Lv.20, Training Grounds Lv.20, Lumber Mill Lv.10', prereqRu: 'Исследовательская лаборатория ур. 20, Полигон ур. 20, Лесопилка ур. 10' },
+  { level: 22, food: 111200000, timber: 111200000, herbs: 36660000, hours: 208.4, prereq: 'Research Lab Lv.21, Warrior Statue Lv.21, Herb Garden Lv.10', prereqRu: 'Исследовательская лаборатория ур. 21, Статуя воина ур. 21, Цветник ур. 10' },
+  { level: 23, food: 145200000, timber: 145200000, herbs: 42760000, hours: 271.0, prereq: 'Research Lab Lv.22, Infirmary Lv.22, Granary Lv.10', prereqRu: 'Исследовательская лаборатория ур. 22, Лазарет ур. 22, Зерновой склад ур. 10' },
+  { level: 24, food: 171200000, timber: 171200000, herbs: 56250000, hours: 379.4, prereq: 'Research Lab Lv.23, Wall Lv.23, Lumber Depot Lv.10', prereqRu: 'Исследовательская лаборатория ур. 23, Стены ур. 23, Древесный склад ур. 10' },
+  { level: 25, food: 277900000, timber: 277900000, herbs: 97530000, hours: 531.1, prereq: 'Research Lab Lv.24, Training Grounds Lv.24, Herb Storage Lv.10', prereqRu: 'Исследовательская лаборатория ур. 24, Полигон ур. 24, Травяной склад ур. 10' },
+  { level: 26, food: 386800000, timber: 386800000, herbs: 123500000, hours: 743.5, prereq: 'Research Lab Lv.25, Warrior Statue Lv.25, Antitoxin Workshop Lv.13', prereqRu: 'Исследовательская лаборатория ур. 25, Статуя воина ур. 25, Мастерская противоядий ур. 13' },
+  { level: 27, food: 548000000, timber: 548000000, herbs: 168600000, hours: 1041.0, prereq: 'Research Lab Lv.26, Training Grounds Lv.26, Farm Lv.13', prereqRu: 'Исследовательская лаборатория ур. 26, Полигон ур. 26, Ферма ур. 13' },
+  { level: 28, food: 731100000, timber: 731100000, herbs: 236500000, hours: 1457.3, prereq: 'Research Lab Lv.27, Barracks Lv.27, Lumber Mill Lv.13', prereqRu: 'Исследовательская лаборатория ур. 27, Казарма ур. 27, Лесопилка ур. 13' },
+  { level: 29, food: 1047000000, timber: 1047000000, herbs: 316400000, hours: 1894.5, prereq: 'Research Lab Lv.28, Alliance Hall Lv.28, Herb Garden Lv.13', prereqRu: 'Исследовательская лаборатория ур. 28, Зал альянса ур. 28, Цветник ур. 13' },
+  { level: 30, food: 1356000000, timber: 1356000000, herbs: 441300000, hours: 2462.9, prereq: 'Research Lab Lv.29, Training Grounds Lv.29, Antitoxin Workshop Lv.15', prereqRu: 'Исследовательская лаборатория ур. 29, Полигон ур. 29, Мастерская противоядий ур. 15' },
 ];
+
+const lvlLabel = lang === 'ru' ? 'Уровень' : 'Level';
 ---
 
 <div class="not-prose my-8 rounded-xl border border-stone-800 bg-stone-900/95 p-5 shadow-xl" id="sanctuary-calc-container">
@@ -254,8 +265,8 @@ const sanctuaryLevels = [
         id="sc-current"
         class="w-full rounded-lg border border-stone-700 bg-stone-800 px-3 py-2 text-sm text-stone-200 focus:border-plague-500 focus:outline-none"
       >
-        {Array.from({ length: 20 }, (_, i) => i + 10).map((lvl) => (
-          <option value={lvl} selected={lvl === 15}>Уровень {lvl}</option>
+        {Array.from({ length: 29 }, (_, i) => i + 1).map((lvl) => (
+          <option value={lvl} selected={lvl === 15}>{lvlLabel} {lvl}</option>
         ))}
       </select>
     </div>
@@ -268,8 +279,8 @@ const sanctuaryLevels = [
         id="sc-target"
         class="w-full rounded-lg border border-stone-700 bg-stone-800 px-3 py-2 text-sm text-stone-200 focus:border-plague-500 focus:outline-none"
       >
-        {Array.from({ length: 20 }, (_, i) => i + 11).map((lvl) => (
-          <option value={lvl} selected={lvl === 20}>Уровень {lvl}</option>
+        {Array.from({ length: 29 }, (_, i) => i + 2).map((lvl) => (
+          <option value={lvl} selected={lvl === 20}>{lvlLabel} {lvl}</option>
         ))}
       </select>
     </div>
