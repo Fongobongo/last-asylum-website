@@ -66,7 +66,14 @@ Since Raven epigraphs shipped, running a single faction has gone from a nice bon
 
 Which is also why the canonical squad is all-Warrior: the epigraph investment compounds on top of an already-stacked faction. Split-faction squads pay for epigraphs that only buff half the team.
 
-For spenders there is a practical exception: temporary heroes. Shadow and Cynthia get maxed to 8 stars with skills at 15-20 and then serve as event and PvP specialists — invested enough to matter, never so invested that they eat the main squad's budget.
+### Purple Heroes: World Boss Specialists (Ash & Cecilia) {#boss-purples}
+
+While purple (SSR) heroes are dropped from main combat rosters after week one, two exceptions carry lifelong PvE utility:
+
+* **Ash:** His passive skill directly amplifies total squad damage dealt to **World Bosses**.
+* **Cecilia:** Increases bonus resource drops and kill loot from World Bosses.
+
+Feed spare purple skill badges into their core abilities — they reliably multiply your weekly raid yield.
 
 ## Skill Upgrade Priorities {#skill-priorities}
 

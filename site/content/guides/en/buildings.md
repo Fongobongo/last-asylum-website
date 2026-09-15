@@ -16,11 +16,12 @@ When several buildings are available at once, the community order is fixed:
 
 1. **Sanctuary** — always. It gates every other level in the city, the hero level cap, and the troop tiers. Whenever a Sanctuary upgrade is available, it goes into the queue first.
 2. **Research Lab** — runs your tech tree and serves as the **mandatory prerequisite for Sanctuary levels 11 through 30** (without a leveled Lab, you cannot start any mid/endgame Sanctuary upgrade).
-3. **Training Grounds** — unlocks troop tiers (T1–T10) and training capacity. The army is what clears monsters, wins rallies, and defends your city.
+3. **Training Grounds** — unlocks troop tiers (T1–T10). Use the **1 Max + 3 Low Split**: max only 1 main ground to match your Sanctuary tier cap, and keep the other 3 at Level 10 to mass-produce cheap T4 for promotion (saves 6–7 hours per cycle and millions of resources!).
 4. **Barracks** — soldier capacity. A bigger standing army means more might and more punch per march.
 5. **Infirmary** — heals your wounded after defeats. A small Infirmary means every lost fight bleeds troops you cannot recover.
-6. **Walls** — leveled strictly for milestone gates (**only required for Sanctuary levels 5, 6, 9, 10, 12, and 24**; never required for the other 24 levels). **Walls do NOT provide combat stats or protect troops from damage!** They only provide City Defense durability to resist fire and forced teleportation during sieges.
-7. **Resource Buildings & Depots** — upgraded strictly as needed for Sanctuary prerequisites (Lumber, Granary, and Herb Storages).
+6. **Smelting Workshop** — produces and refines Gear Stones for equipment upgrades. Push it to **Level 25** as soon as your Sanctuary allows to avoid a mid-game bottleneck on carry weapons.
+7. **Walls** — leveled strictly for milestone gates (**only required for Sanctuary levels 5, 6, 9, 10, 12, and 24**; never required for the other 24 levels). **Walls do NOT provide combat stats or protect troops from damage!** They only provide City Defense durability to resist fire and forced teleportation during sieges.
+8. **Resource Buildings & Depots** — upgraded strictly as needed for Sanctuary prerequisites (Lumber, Granary, and Herb Storages).
 
 The rule behind the list: if a building does not make you stronger or faster, it is not urgent. Production buildings, depots and decorations still get built — but only when the seven above have nothing to do or a gate forces them.
 
@@ -33,14 +34,14 @@ A quick reference for the buildings you will actually be tapping. Translations d
 | Sanctuary | Gates all other building levels, sets the hero level cap, grants EXP per upgrade, and unlocks buildings and features as it levels. | Upgrade on cooldown. It is your real player level. |
 | Walls | Provides City Defense durability and reduces defense decay rate during siege. **Does NOT protect troops in battle and grants no combat stats!** | Level strictly as a prerequisite on levels 5, 6, 9, 10, 12, and 24. Do not waste builders on it otherwise. |
 | Builder's Hut | Produces free construction speedups. Survivors stationed inside give extra bonuses — swap in better survivors as you recruit them. | Keep at Sanctuary level until Sanctuary 15 for the free speedup stream. |
-| Research Lab | Runs your tech tree: economy, military, and development research. Merged Research Lab 1 & 2: both queues enjoy optimal Speedup Buffs. | Priority #2 — continuous prerequisite for Sanctuary 11–30. |
-| Training Grounds | Unlocks new troop tiers (T2 at Lv.3, T3 at Lv.6, T4 at Lv.10, T5 at Lv.14, T6 at Lv.17, T7 at Lv.20, T8 at Lv.24, T9 at Lv.27, T10 at Lv.30) and increases training capacity. | Follow Sanctuary closely. Without it, higher tier troops remain locked! |
+| Research Lab | Runs your tech tree: economy, military, and development research. Merged Research Lab 1 & 2: both queues enjoy optimal Speedup Buffs. | Priority #2 — continuous prerequisite for Sanctuary 11–30. Rush **Super Reward 1 & 2** in the Alliance Duel tree to unlock chest tiers 4–9! |
+| Training Grounds | Unlocks new troop tiers (T2 at Lv.3, T3 at Lv.6, T4 at Lv.10, T5 at Lv.14, T6 at Lv.17, T7 at Lv.20, T8 at Lv.24, T9 at Lv.27, T10 at Lv.30) and increases training capacity. | Max 1 ground for top tier; keep 3 others at Lv.10 for T4 parallel farming and promotion (saves 6–7h per cycle). |
 | Barracks | Increases total standing army capacity in your city. | Upgrade to hold a massive army for KvK and Kingdom Wars. |
 | Infirmary | Heals wounded soldiers after defeats. | Undersized Infirmary = permanent troop losses after every lost fight. |
 | Antitoxin Workshop | Produces Antidotes / Antitoxin — the key hero resource used across hero progression systems. | Build at Lv.10 and keep producing 24/7. |
-| Gear / Smelting / Weaving Workshops | Craft and upgrade hero gear from farmed materials. | High Gear Workshop levels arrive with Sanctuary 20 — one more reason 20 matters. |
+| Gear / Smelting / Weaving Workshops | Craft and upgrade hero gear from farmed materials. | **Push Smelting Workshop to Lv.25** for steady Gear Stone production; Gear Workshop unlocks at Sanctuary 20. |
 | Temple (Warrior Statue) | Unified cult building (merging former Warrior, Ranger, and Warlock Statues). Provides percentage stat bonuses to your chosen faction. | Upgrade to boost squad power and satisfy Sanctuary prerequisites. |
-| Hall of Honor | Displays hero honor levels and unlocks the Honor Shop (core source of UR Gear Blueprints). | Essential for late-game gear progression. |
+| Hall of Honor | Displays hero honor levels and unlocks the Honor Shop (core source of UR Gear Blueprints). | Essential for late-game gear progression. Buy UR Gear Blueprints exclusively. |
 | Curio Hall | Houses collected Curios providing passive bonuses to buildings, economy, and squad combat power. | Upgrade Curio star levels for permanent account-wide boosts. |
 | Tavern | Hero recruiting — the banner and pull system lives here. | Save diamonds for dated UR events instead of dumping them here. |
 | Falcon Tower | Generates daily missions rewarding diamonds, speedups, hero shards, and antitoxin. Lv.8 unlocks one-tap claim. | Use the "Stacking Max − 1" strategy to bank completed quests for double-point days. |

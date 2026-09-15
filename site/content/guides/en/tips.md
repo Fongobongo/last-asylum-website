@@ -174,23 +174,74 @@ Never leave partially gathered resource nodes behind. If an ally leaves 4,000 wo
 
 ---
 
-## 8. Training Grounds: Promotion vs Recruiting From Scratch {#troop-promotion}
+## 8. Training Grounds: The 4-Ground Split & T4 Promotion Trick {#troop-promotion}
 
-As your Sanctuary reaches levels 13, 16, 19, 22, and 26, the Training Grounds unlock higher troop tiers (T6, T7, T8, T9).
+As your Sanctuary reaches levels 13, 16, 19, 22, and 26, the Training Grounds unlock higher troop tiers (T6, T7, T8, T9, and T10 at Lv. 30 with Elite Troop research).
 
-Many players make the mistake of training new soldiers from scratch while leaving thousands of older T6/T7 troops idle. This wastes vast amounts of time.
+Most beginner players make a catastrophic mistake: they level all four Training Grounds equally and train their highest unlocked tier from scratch on each. This burns tens of millions of resources and forces 30+ hour timers. Veteran players use the **1 Max + 3 Low Split**.
 
-### The "Promote" Button:
-* In your Training Grounds, select your existing lower-tier troops and tap the **Promote** icon.
-* The game charges only the **difference** in resources and training duration between the two tiers!
-* **Example:** Training 10,000 brand-new T8 soldiers takes ~24 hours. Promoting 10,000 existing T7 soldiers to T8 takes only **4 to 5 hours** and costs a fraction of the food and timber!
+### The 4-Training-Ground Level Split:
+* **1 Main Training Ground (Max Level):** Keep this matching your Sanctuary cap. It is the only building needed to unlock your highest trainable tier (e.g. T9 at Lv. 27, T10 at Lv. 30).
+* **3 Support Training Grounds (Level 10):** Keep these strictly at **Level 10**! Level 10 unlocks **Tier 4 (T4)** troops. The 4th Training Ground is unlocked near the bottom of the **Development** research tree — unlock it as soon as possible.
+* Why? Upgrading all 4 grounds to Lv. 27–30 consumes vast amounts of Wood, Grain, and Herbs for zero additional tier unlocks. The game only requires **one** maxed building to train and promote to top tier.
 
-> [!NOTE]
-> On Friday (Troop Training Day in Alliance Duel), promoting existing soldiers awards **full event points for the higher tier**, allowing you to hit multimillion-point milestones at 70% less speedup cost.
+### The "T4 Factory → Promote" Pipeline:
+1. **Phase A (Parallel T4 Production):** Queue Tier 4 soldiers across all three Level-10 grounds simultaneously.
+   * On one ground, a batch of T4 takes ~10.5 hours (~455 soldiers).
+   * Across three grounds, you produce **~1,365 T4 soldiers** in the exact same ~10.5 hours.
+2. **Phase B (Promote on Main Ground):** Open your maxed Training Ground, switch from "Train" to **"Promote"**, and promote your stockpiled T4 soldiers into your highest tier (e.g. T9 or T10).
+   * Promoting a full batch of T4 to T9 takes only **~16.5 hours** (compared to ~33 hours for training T9 from scratch!).
+3. **Total Cycle Comparison:**
+   * **Promotion Route:** 10.5h (T4) + 16.5h (promote) = **~26 hours**.
+   * **Direct High-Tier Queue:** Single T9 batch = **~33 hours**.
+   * **Net Benefit:** Saves **6 to 7 hours per cycle**, keeps barracks working 24/7, and preserves millions of resources.
+
+> [!NOTE] Alliance Duel Scoring (Friday — Troop Training)
+> * Queuing T4 troops on the 3 support grounds awards full training points (points are awarded **at the moment the queue starts**, not on collection!).
+> * Promoting soldiers awards event points for the tier difference between T4 and T9/T10.
+> * Any speedups spent on promotion queues fully count toward speedup consumption event categories.
 
 ---
 
-## 9. Diamond Discipline: Where to Spend vs What to Avoid {#diamond-discipline}
+## 9. Research: The Alliance Duel Chest Lock (Super Reward 1 & 2) {#duel-research-lock}
+
+The Research Lab features 13 distinct trees. The most critical early progression gate is hidden inside the **Alliance Duel** branch:
+
+* This tree contains two non-negotiable milestones: **Super Reward 1** and **Super Reward 2**.
+* **Without Super Reward 1, you cannot open Tier 4–6 Duel reward chests**, even if you earn the required points!
+* **Without Super Reward 2, Tier 7–9 chests are physically locked!**
+* These top chests contain the lifeblood of account progression: thousands of Study Scrolls, UR Hero Omni Shards, Level 11 gear materials, and up to **10,000 Diamonds**.
+* **F2P Rule:** Immediately after basic Development nodes (Construction and Research Speed), channel your Study Scrolls into Super Reward 1 & 2. This unlocks the reward engine that funds your account for months.
+
+---
+
+## 10. Gear Priorities: Smelting Workshop Lv. 25 & Slot Optimization {#gear-priorities-tips}
+
+Gear Stones are severely limited. Spreading them across random equipment slots cripples mid-game performance:
+
+1. **Smelting Workshop → Level 25:** Push the Smelting Workshop to Level 25 as soon as your Sanctuary permits. It is the primary bottleneck for refining Gear Stones. Delaying it leaves your carry under-geared right when difficulty spikes.
+2. **DPS / Carry Slot Priority:**
+   * **Top Priority:** Weapon (Sword) and Gloves (boosts ATK, Crit, and Armor Pierce).
+   * **Second Priority:** Boots (speed and baseline survivability).
+   * **Chest Plate:** Leave at base level. Extra DEF on a carry has almost zero impact on victory.
+3. **Tank Slot Priority:**
+   * **Top Priority:** Chest Plate and Boots (raw HP and damage mitigation).
+   * **Weapon (Sword):** **Never spend stones on a tank's weapon!** Tanks win by surviving and protecting the backline. Refining a tank's sword inflates visible Might without adding real combat value.
+4. **Honor Shop:** Buy **Gear Blueprints (UR)** exclusively. Skip Curio Chests and universal shards — blueprints gate every orange gear promotion tier (Lv. 10, 20, 30, 40).
+
+---
+
+## 11. World Boss Specialists: Ash and Cecilia {#boss-specialists}
+
+While purple (SSR) heroes are phased out of PvP lineups early, two characters feature irreplaceable World Boss utility:
+
+* **Ash:** His passive skill directly amplifies total squad damage dealt to **World Bosses**.
+* **Cecilia:** Increases bonus resource drops and kill rewards from World Bosses.
+* Investing spare purple skill stones into these two pays lifelong dividends in boss loot.
+
+---
+
+## 12. Diamond Discipline: Where to Spend vs What to Avoid {#diamond-discipline}
 
 Diamonds are the premier currency. While generous in the early game, reckless spending leaves players starved when critical events arrive.
 
@@ -203,7 +254,7 @@ Diamonds are the premier currency. While generous in the early game, reckless sp
 
 ---
 
-## 10. Summary Checklist: The 10 Commandments of Survival {#ten-commandments}
+## 13. Summary Checklist: The 12 Commandments of Survival {#ten-commandments}
 
 1. **Speed buffs snap-shot on start** — Activate ministerial titles, runes, and gear BEFORE pressing upgrade.
 2. **Empty hospital = living army** — Hospital overflow causes irreversible permanent troop death.
@@ -212,6 +263,8 @@ Diamonds are the premier currency. While generous in the early game, reckless sp
 5. **Falcon Tower: Stacking Max − 1** — Keep one slot open to maintain background spawns; cash in on Mon/Wed/Fri.
 6. **Do not convert SSR Claire too early** — Hoard Hall of Honor tokens to skip the 6★ stat dip straight to 9★/10★.
 7. **Pre-farm gathering nodes on Gathering Day eve** — Time returns for 00:05 UTC on reset day (e.g. Sunday evening into Monday) to claim instant chests.
-8. **Promote troops instead of training fresh** — Upgrade older tiers for a 70% discount in time and resources.
-9. **Never spend diamonds on raw Tavern pulls** — Save 11,500+ for the Wishing Wheel and VIP progression.
-10. **Mono-faction beats hybrid setups** — Five heroes of the same class maximized with Raven Epigraphs dominate mixed comps.
+8. **The 4-Ground Split (1 Max + 3 Lv.10):** Parallel-farm T4 on 3 support grounds and promote on your main ground, saving 6–7 hours per cycle.
+9. **Super Reward 1 & 2 in Lab — Non-negotiable:** Without them, Duel chest tiers 4–9 remain permanently locked.
+10. **Never refine a tank's sword:** Gear stones belong on Carry Sword/Gloves and Tank Chest/Boots.
+11. **Never spend diamonds on raw Tavern pulls** — Save 11,500+ for the Wishing Wheel and VIP progression.
+12. **Mono-faction beats hybrid setups** — Five heroes of the same class maximized with Raven Epigraphs dominate mixed comps.

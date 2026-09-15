@@ -120,6 +120,20 @@ Two calendar facts every new server player should know:
 - **There is no raid during the first 2 weeks** of a new server. Raid content starts in **week 3** — do not burn resources expecting it earlier.
 - The **first Alliance Duel lands around day 17**. The opening-two-weeks economy in the beginner guides is tuned exactly to this: build up, then have something worth scoring when the first duel opens.
 
+## Research Lab: Unlocking Chest Tiers 4–9 (Super Rewards) {#lab-super-rewards}
+
+A frequent beginner question is: *"I hit millions of points in Alliance Duel, but the game won't let me claim tier 4 or higher chests. Why?"*
+
+The requirement lies directly within the **Research Lab** (under the "Alliance Duel" tree):
+
+* **Tier 1–3 chests** are available to all players by default upon reaching the point targets.
+* **Tier 4–6 chests are hard-gated behind the "Super Reward 1" technology.** Until this tech is researched in the lab, claiming these chests is physically impossible!
+* **Tier 7–9 chests require the "Super Reward 2" technology.**
+
+> [!IMPORTANT] Why this is a game changer:
+> Tiers 7–9 contain the highest value rewards in the entire event: thousands of Study Scrolls, UR Omni Shards, Level 11 gear materials, and up to **10,000 Diamonds**.
+> Players who delay Alliance Duel research leave a massive stream of free weekly progression on the table. Invest your early Study Scrolls into Super Reward 1 and 2 immediately after core base development.
+
 ## Rewards and the KvK Connection {#rewards}
 
 Duel payouts come in two layers:
@@ -135,5 +149,6 @@ And the duel is not an isolated event: it feeds directly into **Kingdom War**. [
 2. Burning training speedups outside Phase 5 (Friday) when no duel points are awarded for training.
 3. Queueing training batches ahead of the phase (points are awarded upon queueing, not upon collection!).
 4. Using tech scrolls on non-scroll research days instead of scroll-free hero/soldier tech.
-5. Letting the quest board freeze at capacity instead of holding it one slot below max.
-6. Ignoring the Sunday reset day and entering the next cycle unprepared.
+5. Skipping Super Reward 1 and 2 research in the Lab — leaving tiers 4–9 completely locked despite having the points.
+6. Letting the quest board freeze at capacity instead of holding it one slot below max.
+7. Ignoring the Sunday reset day and entering the next cycle unprepared.

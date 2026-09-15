@@ -18,9 +18,12 @@ infographics: ["/infographics/skill-scaling.webp"]
 
 | Hero role | First | Second | Notes |
 |---|---|---|---|
-| Carry (DPS) | Weapon (sword) | Gloves | Attack + crit scale your damage |
-| Tank | Boots | Chest | HP/DEF keep the frontline standing |
-| Carry order (Annie/Joker) | Sword → Gauntlets → Armor → Boots | | Community order for warlock carries |
+| Carry (DPS) | Weapon (sword) | Gloves | Attack + crit scale damage; leave Chest Plate low (low combat return) |
+| Tank | Chest Plate | Boots | HP/DEF keep frontline alive; **NEVER spend stones on a tank's weapon** |
+| Carry order (Annie/Joker) | Sword → Gloves → Boots → Armor | | Community order for DPS carries |
+
+> [!WARNING] The Tank Weapon Trap (Fake Might)
+> Refining a tank's sword with Gear Stones inflates your profile's visible Might, but delivers **virtually zero impact in actual battles**. Tanks win fights by surviving and soaking damage, not with basic attack swings. Do not waste scarce Gear Stones on tank weapons — channel them directly into your carry's sword and gloves! Similarly, do not over-invest in a carry's chest armor — minor defense gains won't save a glass cannon.
 
 ## Gear Promotion and Exclusive Weapon Smelt {#promotion}
 
@@ -45,7 +48,7 @@ Special-effect sets (Night Raven Mask, Raven Feather Cloak) activate at designat
 
 ## Where materials come from {#materials}
 
-- **Gear Workshop** — craft & dismantle; **Smelting Workshop** produces gearstone for leveling; **Weaving Workshop** produces cloth for fusing/crafting
-- **Gearstone F2P farm:** consistent farming route exists (see video below) — the community's main bottleneck complaint is gearstone, plan it early
-- **Shops:** Gear Stones in Sanctuary and Expedition shops (priority 3 purchases)
-- **Blueprints:** Honor shop's #1 item — that shop exists for gear blueprints (never epigraph chests there)
+- **Smelting Workshop → Level 25:** Push the Smelting Workshop to Level 25 as soon as your Sanctuary allows. It refines and produces the Gear Stones needed for leveling up gear. Lagging behind on this building creates an insurmountable bottleneck for your carry's weapons.
+- **Gear Workshop** — craft & dismantle; **Weaving Workshop** produces cloth for fusing/crafting.
+- **Gearstone F2P farm:** The community's main bottleneck is Gear Stones — buy them consistently from the Sanctuary and Expedition shops.
+- **Gear Blueprints (UR) in Honor Shop:** Spend your Honor Coins **EXCLUSIVELY on Gear Blueprints (UR)**. Skip Curio Chests and universal shards — blueprints are the sole gatekeeper for promoting orange gear at Lv. 10, 20, 30, and 40.
