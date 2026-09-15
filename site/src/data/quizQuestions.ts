@@ -53,7 +53,7 @@ export const quizQuestions: QuizItem[] = [
     category: 'general',
     qEn: "What is the purpose of Curios?",
     aEn: "Both of the Above (Enhances building stats & combat stats)",
-    qRu: "Каково назначение Диковинок (Curios)?",
+    qRu: "Каково назначение Реликвий (Curios)?",
     aRu: "Оба варианта (усиливает характеристики зданий и боя)",
   },
   {
