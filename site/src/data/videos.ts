@@ -130,7 +130,7 @@ export const videoTitles: Record<string, Partial<Record<Lang, string>>> = {
   },
   "TIXXXP0BLec": {
     "en": "Building Roadmap to Level 27 Sanctuary",
-    "ru": "Дорожная карта застройки Убежища до 27 уровня",
+    "ru": "Дорожная карта застройки Святилища до 27 уровня",
     "de": "Gebäude-Roadmap zum Level-27-Zuflucht",
     "es": "Ruta de edificios hasta el Santuario nivel 27",
     "fr": "Feuille de route des bâtiments jusqu'au Sanctuaire 27",

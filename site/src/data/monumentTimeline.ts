@@ -173,7 +173,7 @@ export const monumentMilestones: MonumentMilestone[] = [
     icon: '🏰',
     officialMilestoneIds: [1000, 2000, 3000, 4000, 5000, 7000],
     title: {
-      ru: 'Основание Убежища и Призыв Артура',
+      ru: 'Основание Святилища и Призыв Артура',
       en: 'Sanctuary Founding & Arthur Recruit',
       de: 'Zufluchtsgründung & Arthur-Rekrutierung',
       es: 'Fundación del Refugio y Recluta de Arturo',
@@ -195,7 +195,7 @@ export const monumentMilestones: MonumentMilestone[] = [
       pt: 'Dia 1–4'
     },
     shortDesc: {
-      ru: 'Старт сервера. Первые шаги в Убежище, получение бесплатного ключевого танка Артура (UR) из Таверны.',
+      ru: 'Старт сервера. Первые шаги в Святилище, получение бесплатного ключевого танка Артура (UR) из Таверны.',
       en: 'Server launch. First steps in the Sanctuary, acquiring core free UR tank Arthur from the Tavern.',
       de: 'Serverstart. Erste Schritte, Erhalt des unverzichtbaren kostenlosen UR-Tanks Arthur aus der Taverne.',
       es: 'Lanzamiento del servidor. Primeros pasos y obtención del tanque clave gratuito Arthur (UR) en la Taberna.',
@@ -206,7 +206,7 @@ export const monumentMilestones: MonumentMilestone[] = [
       pt: 'Início do servidor. Primeiros passos e obtenção do tanque UR essencial Arthur na Taverna.'
     },
     unlockCondition: {
-      ru: 'Убежище 1–4 уровня, первые часы сервера',
+      ru: 'Святилище 1–4 уровня, первые часы сервера',
       en: 'Sanctuary Lv. 1–4, first hours of server',
       de: 'Zuflucht Stufe 1–4, erste Serverstunden',
       es: 'Refugio nivel 1–4, primeras horas',
@@ -307,7 +307,7 @@ export const monumentMilestones: MonumentMilestone[] = [
       pt: 'Refúgio Nível 5 abre Alianças: ajuda mútua para obras, baús de presente e loja da aliança.'
     },
     unlockCondition: {
-      ru: 'Убежище 5 уровня, 5-й день сервера',
+      ru: 'Святилище 5 уровня, 5-й день сервера',
       en: 'Sanctuary Lv. 5, Server Day 5',
       de: 'Zuflucht Stufe 5, Server-Tag 5',
       es: 'Refugio nivel 5, Día 5 de servidor',
