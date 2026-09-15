@@ -1,0 +1,363 @@
+---
+import gearData from '../data/officialGear.json';
+import type { Lang } from '../i18n/utils';
+
+interface Props {
+  lang?: Lang;
+}
+
+const { lang = 'ru' } = Astro.props;
+
+const i18n = {
+  ru: {
+    title: '⚔️ Снаряжение героев и Мифическое продвижение (MR)',
+    subtitle: 'Полное руководство по 4 слотам экипировки, улучшению качества от R до UR и продвижению в Мифический ранг (MR).',
+    slotsTitle: '4 Слота экипировки и приоритеты классов',
+    sword: 'Оружие (Меч)',
+    armor: 'Броня',
+    gauntlets: 'Наручи',
+    boots: 'Сапоги',
+    mainStat: 'Основной параметр:',
+    secondaryStat: 'Вторичный параметр:',
+    priorityRole: 'Приоритет:',
+    tiersTitle: 'Ранги качества и предел уровней',
+    tierR: 'R (Зеленое) — Ур. 10 макс',
+    tierSR: 'SR (Синее) — Ур. 20 макс',
+    tierSSR: 'SSR (Фиолетовое) — Ур. 30 макс',
+    tierUR: 'UR (Оранжевое) — Ур. 40 макс',
+    tierMR: 'MR (Мифическое красное) — Ур. 40+',
+    promotionTitle: '🔥 Продвижение до ранга MR (Красная экипировка)',
+    promotionDesc: 'Когда снаряжение UR достигает 40-го уровня, его можно продвинуть до Мифического (MR). Это разблокирует эксклюзивные процентные боевые множители (Летальность, Снижение урона отряда), которые не масштабируются базовыми статами.',
+    ruleTank: '🛡️ Танки (Воины передовой):',
+    ruleTankDesc: 'Первыми улучшайте Броню и Сапоги — они дают колоссальный прирост к Защите, HP и снижению урона.',
+    ruleDps: '🏹 Стрелки и Маги (Рейнджеры/Колдуны тыла):',
+    ruleDpsDesc: 'Первыми улучшайте Оружие и Наручи — они дают Атаку, Крит. урон и Шанс крита.',
+    workshopNote: 'Снаряжение куется и улучшается в здании «Мастерская снаряжения» (ID 1008). На 20 уровне Святилища открывается улучшенная перековка.',
+  },
+  en: {
+    title: '⚔️ Hero Equipment & Mythic Promotion (MR)',
+    subtitle: 'Complete guide to the 4 gear slots, rarity tiers from R to UR, and promotion to Mythic Red (MR).',
+    slotsTitle: '4 Gear Slots & Class Priorities',
+    sword: 'Weapon (Sword)',
+    armor: 'Armor',
+    gauntlets: 'Gauntlets',
+    boots: 'Boots',
+    mainStat: 'Primary Stat:',
+    secondaryStat: 'Secondary Stat:',
+    priorityRole: 'Priority:',
+    tiersTitle: 'Rarity Tiers & Level Caps',
+    tierR: 'R (Green) — Max Lv. 10',
+    tierSR: 'SR (Blue) — Max Lv. 20',
+    tierSSR: 'SSR (Purple) — Max Lv. 30',
+    tierUR: 'UR (Orange) — Max Lv. 40',
+    tierMR: 'MR (Mythic Red) — Lv. 40+',
+    promotionTitle: '🔥 Promotion to MR (Mythic Red Gear)',
+    promotionDesc: 'When UR equipment reaches level 40, it can be promoted to Mythic (MR). This unlocks exclusive squad percentage multipliers (Lethality and Damage Reduction) that outperform flat stats.',
+    ruleTank: '🛡️ Tanks (Frontline Warriors):',
+    ruleTankDesc: 'Prioritize Armor and Boots first — maximum DEF, HP, and damage reduction.',
+    ruleDps: '🏹 DPS (Backline Rangers & Warlocks):',
+    ruleDpsDesc: 'Prioritize Weapon and Gauntlets first — maximum ATK, Crit Damage, and Crit Chance.',
+    workshopNote: 'Forged and upgraded in the Equipment Workshop (ID 1008). Enhanced reforging unlocks at Sanctuary Lv. 20.',
+  },
+  de: {
+    title: '⚔️ Helden-Ausrüstung & Mythische Aufwertung (MR)',
+    subtitle: 'Vollständiger Leitfaden zu den 4 Ausrüstungsplätzen von R bis MR.',
+    slotsTitle: '4 Ausrüstungsplätze & Klassen-Prioritäten',
+    sword: 'Waffe (Schwert)',
+    armor: 'Rüstung',
+    gauntlets: 'Handschuhe',
+    boots: 'Stiefel',
+    mainStat: 'Hauptwert:',
+    secondaryStat: 'Sekundärwert:',
+    priorityRole: 'Priorität:',
+    tiersTitle: 'Qualitätsstufen & Maximalstufe',
+    tierR: 'R (Grün) — Max Stufe 10',
+    tierSR: 'SR (Blau) — Max Stufe 20',
+    tierSSR: 'SSR (Lila) — Max Stufe 30',
+    tierUR: 'UR (Orange) — Max Stufe 40',
+    tierMR: 'MR (Mythisch Rot) — Stufe 40+',
+    promotionTitle: '🔥 Aufwertung zu MR',
+    promotionDesc: 'Auf Stufe 40 schaltet UR-Ausrüstung die mythische MR-Stufe frei.',
+    ruleTank: '🛡️ Tanks (Krieger):',
+    ruleTankDesc: 'Zuerst Rüstung und Stiefel maximieren.',
+    ruleDps: '🏹 DPS (Ranger & Magier):',
+    ruleDpsDesc: 'Zuerst Waffe und Handschuhe maximieren.',
+    workshopNote: 'Hergestellt in der Ausrüstungswerkstatt.',
+  },
+  es: {
+    title: '⚔️ Equipamiento de Héroes y Promoción Mítica (MR)',
+    subtitle: 'Guía de las 4 ranuras de equipo desde calidad R hasta MR.',
+    slotsTitle: '4 Ranuras de Equipo y Prioridades',
+    sword: 'Arma (Espada)',
+    armor: 'Armadura',
+    gauntlets: 'Guanteletes',
+    boots: 'Botas',
+    mainStat: 'Estadística principal:',
+    secondaryStat: 'Estadística secundaria:',
+    priorityRole: 'Prioridad:',
+    tiersTitle: 'Rangos y Niveles Máximos',
+    tierR: 'R (Verde) — Nvl. 10 máx.',
+    tierSR: 'SR (Azul) — Nvl. 20 máx.',
+    tierSSR: 'SSR (Morado) — Nvl. 30 máx.',
+    tierUR: 'UR (Naranja) — Nvl. 40 máx.',
+    tierMR: 'MR (Mítico Rojo) — Nvl. 40+',
+    promotionTitle: '🔥 Promoción a MR',
+    promotionDesc: 'Al nivel 40, el equipo UR asciende a Mítico (MR).',
+    ruleTank: '🛡️ Tanques:',
+    ruleTankDesc: 'Prioriza Armadura y Botas.',
+    ruleDps: '🏹 Daño (DPS):',
+    ruleDpsDesc: 'Prioriza Espada y Guanteletes.',
+    workshopNote: 'Fabricado en el Taller de equipamiento.',
+  },
+  fr: {
+    title: '⚔️ Équipement des Héros & Promotion Mythique (MR)',
+    subtitle: 'Guide des 4 emplacements d\'équipement de R à Mythique (MR).',
+    slotsTitle: '4 Emplacements & Priorités de Classe',
+    sword: 'Arme (Épée)',
+    armor: 'Armure',
+    gauntlets: 'Gantelets',
+    boots: 'Bottes',
+    mainStat: 'Statistique principale :',
+    secondaryStat: 'Statistique secondaire :',
+    priorityRole: 'Priorité :',
+    tiersTitle: 'Niveaux et Raretés',
+    tierR: 'R (Vert) — Niv. 10 max',
+    tierSR: 'SR (Bleu) — Niv. 20 max',
+    tierSSR: 'SSR (Violet) — Niv. 30 max',
+    tierUR: 'UR (Orange) — Niv. 40 max',
+    tierMR: 'MR (Mythique Rouge) — Niv. 40+',
+    promotionTitle: '🔥 Promotion vers MR',
+    promotionDesc: 'Au niveau 40, l\'équipement UR peut être promu en Mythique.',
+    ruleTank: '🛡️ Tanks :',
+    ruleTankDesc: 'Armure et Bottes en priorité.',
+    ruleDps: '🏹 DPS :',
+    ruleDpsDesc: 'Arme et Gantelets en priorité.',
+    workshopNote: 'Forgé dans l\'Atelier d\'équipement.',
+  },
+  id: {
+    title: '⚔️ Perlengkapan Hero & Promosi Mitos (MR)',
+    subtitle: 'Panduan lengkap 4 slot perlengkapan dari R hingga Mitos (MR).',
+    slotsTitle: '4 Slot Perlengkapan & Prioritas Kelas',
+    sword: 'Senjata (Pedang)',
+    armor: 'Armor',
+    gauntlets: 'Pelindung Tangan',
+    boots: 'Sepatu',
+    mainStat: 'Stat Utama:',
+    secondaryStat: 'Stat Sekunder:',
+    priorityRole: 'Prioritas:',
+    tiersTitle: 'Tingkat Kualitas & Batas Level',
+    tierR: 'R (Hijau) — Maks Lv. 10',
+    tierSR: 'SR (Biru) — Maks Lv. 20',
+    tierSSR: 'SSR (Ungu) — Maks Lv. 30',
+    tierUR: 'UR (Oranye) — Maks Lv. 40',
+    tierMR: 'MR (Merah Mitos) — Lv. 40+',
+    promotionTitle: '🔥 Promosi ke MR',
+    promotionDesc: 'Pada level 40, perlengkapan UR dapat dipromosikan ke MR.',
+    ruleTank: '🛡️ Tank:',
+    ruleTankDesc: 'Utamakan Armor dan Sepatu.',
+    ruleDps: '🏹 DPS:',
+    ruleDpsDesc: 'Utamakan Pedang dan Pelindung Tangan.',
+    workshopNote: 'Ditempa di Bengkel Perlengkapan.',
+  },
+  ja: {
+    title: '⚔️ 英雄装備システムと神話（MR）昇格ガイド',
+    subtitle: '4つの装備スロット、品質ランク、およびMR神話昇格の完全解説。',
+    slotsTitle: '4つの装備スロットとクラス別強化優先度',
+    sword: '武器（ソード）',
+    armor: '鎧（アーマー）',
+    gauntlets: '手甲（グローブ）',
+    boots: '靴（ブーツ）',
+    mainStat: '主ステータス：',
+    secondaryStat: '副ステータス：',
+    priorityRole: '推奨：',
+    tiersTitle: '品質ランクとレベル上限',
+    tierR: 'R（緑）— 最大Lv. 10',
+    tierSR: 'SR（青）— 最大Lv. 20',
+    tierSSR: 'SSR（紫）— 最大Lv. 30',
+    tierUR: 'UR（橙）— 最大Lv. 40',
+    tierMR: 'MR（赤・神話）— Lv. 40+',
+    promotionTitle: '🔥 神話ランク（MR）への昇格',
+    promotionDesc: 'UR装備がLv.40に達すると、MR（神話赤ランク）へ昇格可能になります。部隊全体のダメージ増減ボーナスを獲得します。',
+    ruleTank: '🛡️ タンク（前衛ウォーリア）：',
+    ruleTankDesc: '鎧と靴を最優先で強化（防御力・HP・被ダメージ軽減）。',
+    ruleDps: '🏹 アタッカー（後衛レンジャー／ソーサラー）：',
+    ruleDpsDesc: '武器と手甲を最優先で強化（攻撃力・会心ダメージ・会心率）。',
+    workshopNote: '装備工房（ID 1008）で製造・強化可能。聖域Lv.20で昇格解禁。',
+  },
+  ko: {
+    title: '⚔️ 영웅 장비 시스템 및 신화(MR) 승급 가이드',
+    subtitle: '4가지 장비 슬롯, R~UR 등급 및 MR 신화 빨간색 장비 승급 안내.',
+    slotsTitle: '4개 장비 슬롯 및 직업별 강화 우선순위',
+    sword: '무기 (검)',
+    armor: '갑옷',
+    gauntlets: '건틀릿 (장갑)',
+    boots: '전투 부츠',
+    mainStat: '주요 능력치:',
+    secondaryStat: '보조 능력치:',
+    priorityRole: '우선순위:',
+    tiersTitle: '등급 및 최고 레벨',
+    tierR: 'R (초록) — 최대 10레벨',
+    tierSR: 'SR (파랑) — 최대 20레벨',
+    tierSSR: 'SSR (보라) — 최대 30레벨',
+    tierUR: 'UR (주황) — 최대 40레벨',
+    tierMR: 'MR (신화 빨강) — 40레벨 이상',
+    promotionTitle: '🔥 신화 등급(MR) 승급',
+    promotionDesc: 'UR 장비가 40레벨에 도달하면 신화(MR) 등급으로 승급할 수 있습니다. 부대 피해 증가/감소 퍼센트 배율을 해금합니다.',
+    ruleTank: '🛡️ 탱커 (전방 전사):',
+    ruleTankDesc: '갑옷과 부츠 우선 강화 (방어력, 생명력, 피해 감소).',
+    ruleDps: '🏹 딜러 (후방 레인저/마법사):',
+    ruleDpsDesc: '검과 건틀릿 우선 강화 (공격력, 치명타 피해, 치명타율).',
+    workshopNote: '장비 작업장(ID 1008)에서 제작 및 강화. 성역 20레벨에 승급 해금.',
+  },
+  pt: {
+    title: '⚔️ Equipamentos de Heróis & Promoção Mítica (MR)',
+    subtitle: 'Guia completo dos 4 slots de equipamento de R a Mítico (MR).',
+    slotsTitle: '4 Slots de Equipamento & Prioridades de Classe',
+    sword: 'Arma (Espada)',
+    armor: 'Armadura',
+    gauntlets: 'Manoplas',
+    boots: 'Botas',
+    mainStat: 'Atributo Principal:',
+    secondaryStat: 'Atributo Secundário:',
+    priorityRole: 'Prioridade:',
+    tiersTitle: 'Níveis e Raridades',
+    tierR: 'R (Verde) — Máx Nív. 10',
+    tierSR: 'SR (Azul) — Máx Nív. 20',
+    tierSSR: 'SSR (Roxo) — Máx Nív. 30',
+    tierUR: 'UR (Laranja) — Máx Nív. 40',
+    tierMR: 'MR (Mítico Vermelho) — Nív. 40+',
+    promotionTitle: '🔥 Promoção para MR',
+    promotionDesc: 'No nível 40, equipamentos UR podem ser promovidos para Mítico (MR).',
+    ruleTank: '🛡️ Tanques:',
+    ruleTankDesc: 'Priorize Armadura e Botas.',
+    ruleDps: '🏹 DPS:',
+    ruleDpsDesc: 'Priorize Espada e Manoplas.',
+    workshopNote: 'Forjado na Oficina de Equipamentos.',
+  },
+};
+
+const t = i18n[lang as keyof typeof i18n] || i18n.en;
+
+const slots = [
+  {
+    name: t.sword,
+    icon: '🗡️',
+    primary: 'ATK (+Crit DMG)',
+    priority: t.ruleDpsDesc,
+    role: 'DPS #1',
+    color: '#e47e1e',
+  },
+  {
+    name: t.armor,
+    icon: '🛡️',
+    primary: 'DEF (+Phys DMG Reduction)',
+    priority: t.ruleTankDesc,
+    role: 'Tank #1',
+    color: '#379ce9',
+  },
+  {
+    name: t.gauntlets,
+    icon: '🧤',
+    primary: 'ATK (+Crit Rate & Lethality)',
+    priority: t.ruleDpsDesc,
+    role: 'DPS #2',
+    color: '#e47e1e',
+  },
+  {
+    name: t.boots,
+    icon: '👢',
+    primary: 'HP (+Magic DMG Reduction)',
+    priority: t.ruleTankDesc,
+    role: 'Tank #2',
+    color: '#379ce9',
+  },
+];
+---
+
+<section class="not-prose my-10 rounded-3xl border border-toxic-500/30 bg-stone-950/80 p-6 sm:p-8 backdrop-blur-xl shadow-[0_0_50px_rgba(0,0,0,0.6)]" id="hero-gear-guide">
+  <div class="mb-6 flex flex-col gap-2">
+    <div class="flex items-center gap-3">
+      <span class="rounded-xl border border-toxic-500/40 bg-toxic-950/60 px-3 py-1 text-xs font-bold text-toxic-400">
+        GEAR & MR SYSTEM
+      </span>
+      <span class="text-xs text-stone-500 font-mono">WORKSHOP ID 1008</span>
+    </div>
+    <h2 class="text-2xl font-bold tracking-tight text-toxic-400 sm:text-3xl">{t.title}</h2>
+    <p class="text-sm text-stone-400 max-w-3xl">{t.subtitle}</p>
+  </div>
+
+  <!-- 4 Slots Grid -->
+  <div class="mb-8">
+    <h3 class="text-base font-bold text-stone-200 mb-4 flex items-center gap-2">
+      <span>⚙️</span> {t.slotsTitle}
+    </h3>
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      {slots.map((s) => (
+        <div class="rounded-2xl border border-stone-800 bg-stone-900/50 p-4 transition hover:border-toxic-500/40 hover:bg-stone-900/80">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-2xl">{s.icon}</span>
+            <span class="rounded-md border border-stone-700 bg-stone-950 px-2 py-0.5 text-[10px] font-bold text-stone-300">
+              {s.role}
+            </span>
+          </div>
+          <h4 class="text-sm font-bold text-stone-100">{s.name}</h4>
+          <p class="mt-1 text-xs text-toxic-300 font-medium">{s.primary}</p>
+          <p class="mt-2 text-xs text-stone-400 leading-snug">{s.priority}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <!-- Rarity Tiers and MR Promotion Box -->
+  <div class="grid gap-6 lg:grid-cols-2">
+    <!-- Tiers progression -->
+    <div class="rounded-2xl border border-stone-800 bg-stone-900/60 p-5">
+      <h3 class="text-sm font-bold text-stone-200 mb-3 flex items-center gap-2">
+        <span>🏆</span> {t.tiersTitle}
+      </h3>
+      <div class="space-y-2.5">
+        <div class="flex items-center justify-between rounded-xl border border-stone-800/80 bg-stone-950/60 px-3 py-2 text-xs">
+          <span class="font-semibold text-emerald-400">🟢 R (Rare)</span>
+          <span class="text-stone-400">Max Lv. 10</span>
+        </div>
+        <div class="flex items-center justify-between rounded-xl border border-stone-800/80 bg-stone-950/60 px-3 py-2 text-xs">
+          <span class="font-semibold text-sky-400">🔵 SR (Super Rare)</span>
+          <span class="text-stone-400">Max Lv. 20</span>
+        </div>
+        <div class="flex items-center justify-between rounded-xl border border-stone-800/80 bg-stone-950/60 px-3 py-2 text-xs">
+          <span class="font-semibold text-purple-400">🟣 SSR (Special Super Rare)</span>
+          <span class="text-stone-400">Max Lv. 30</span>
+        </div>
+        <div class="flex items-center justify-between rounded-xl border border-stone-800/80 bg-stone-950/60 px-3 py-2 text-xs">
+          <span class="font-semibold text-amber-400">🟡 UR (Ultra Rare)</span>
+          <span class="text-stone-400">Max Lv. 40</span>
+        </div>
+        <div class="flex items-center justify-between rounded-xl border border-rose-500/40 bg-rose-950/30 px-3 py-2 text-xs">
+          <span class="font-bold text-rose-400">🔴 MR (Mythic Red / Promoted)</span>
+          <span class="text-rose-300 font-semibold">Lv. 40+ Reforged</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- MR Promotion Callout -->
+    <div class="rounded-2xl border border-rose-500/30 bg-rose-950/20 p-5 flex flex-col justify-between">
+      <div>
+        <h3 class="text-sm font-bold text-rose-300 mb-2">{t.promotionTitle}</h3>
+        <p class="text-xs text-stone-300 leading-relaxed mb-4">{t.promotionDesc}</p>
+        
+        <div class="rounded-xl border border-stone-800 bg-stone-950/60 p-3 space-y-1.5 text-xs">
+          <div class="text-stone-300">
+            <span class="text-rose-400 font-bold">1.</span> {t.ruleTank} {t.ruleTankDesc}
+          </div>
+          <div class="text-stone-300">
+            <span class="text-rose-400 font-bold">2.</span> {t.ruleDps} {t.ruleDpsDesc}
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-4 pt-3 border-t border-stone-800/80 text-[11px] text-stone-400 italic">
+        ℹ️ {t.workshopNote}
+      </div>
+    </div>
+  </div>
+</section>

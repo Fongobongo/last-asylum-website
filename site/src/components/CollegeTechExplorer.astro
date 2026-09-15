@@ -1,0 +1,447 @@
+---
+import branchesData from '../data/officialTechBranches.json';
+import techsData from '../data/officialTech.json';
+import type { Lang } from '../i18n/utils';
+
+interface Props {
+  lang?: Lang;
+}
+
+const { lang = 'ru' } = Astro.props;
+
+const i18n = {
+  ru: {
+    title: '🔬 Институт исследований: Древо технологий',
+    subtitle: 'Все 16 активных направлений исследований и 348 официальных технологий из клиента игры. Ищите по названию, ветке или боевому бонусу.',
+    placeholder: '🔍 Поиск технологии по названию или эффекту...',
+    allBranches: 'Все направления',
+    priorityFilter: 'Приоритет:',
+    allPriorities: 'Все',
+    sTierOnly: '⭐ S-Tier (Обязательные)',
+    techsFound: 'Технологий найдено:',
+    branch: 'Ветка:',
+    priorityBadge: 'Приоритет',
+    recommendation: 'Тактический совет:',
+    branchPrefixes: 'Ветка',
+    noResults: 'Технологии не найдены. Попробуйте другой запрос.',
+    viewAll: 'Показать все технологии ветки',
+    sTierTitle: 'Ключевые ветки для быстрого старта',
+    sTierDesc: 'Приоритет отдавайте ветке «Развитие» (строительство и исследования) и «Дуэль альянсов» для получения очков KvK.',
+  },
+  en: {
+    title: '🔬 Research Institute: Complete Technology Tree',
+    subtitle: 'All 16 active research branches and 348 official game technologies. Search by name, branch, or combat multiplier.',
+    placeholder: '🔍 Search technologies by name or effect...',
+    allBranches: 'All Branches',
+    priorityFilter: 'Priority:',
+    allPriorities: 'All',
+    sTierOnly: '⭐ S-Tier (Essential)',
+    techsFound: 'Technologies found:',
+    branch: 'Branch:',
+    priorityBadge: 'Priority',
+    recommendation: 'Tactical Advice:',
+    branchPrefixes: 'Branch',
+    noResults: 'No technologies found. Try another search query.',
+    viewAll: 'Show all branch technologies',
+    sTierTitle: 'Key Branches for Rapid Progression',
+    sTierDesc: 'Prioritize Development (construction and research speed) and Alliance Duel for maximum KvK event chests.',
+  },
+  de: {
+    title: '🔬 Forschungsinstitut: Kompletter Technologiebaum',
+    subtitle: 'Alle 16 Forschungszweige und 348 offizielle Spieltechnologien.',
+    placeholder: '🔍 Technologie nach Name oder Effekt suchen...',
+    allBranches: 'Alle Zweige',
+    priorityFilter: 'Priorität:',
+    allPriorities: 'Alle',
+    sTierOnly: '⭐ S-Tier (Essenziell)',
+    techsFound: 'Technologien gefunden:',
+    branch: 'Zweig:',
+    priorityBadge: 'Priorität',
+    recommendation: 'Taktischer Rat:',
+    branchPrefixes: 'Zweig',
+    noResults: 'Keine Technologien gefunden.',
+    viewAll: 'Alle Technologien anzeigen',
+    sTierTitle: 'Schlüsselzweige für schnelles Vorankommen',
+    sTierDesc: 'Priorisieren Sie Entwicklung und Allianz-Duell für maximale KvK-Punkte.',
+  },
+  es: {
+    title: '🔬 Instituto de Investigación: Árbol Tecnológico',
+    subtitle: 'Las 16 ramas de investigación y 348 tecnologías oficiales del juego.',
+    placeholder: '🔍 Buscar tecnología por nombre o efecto...',
+    allBranches: 'Todas las ramas',
+    priorityFilter: 'Prioridad:',
+    allPriorities: 'Todas',
+    sTierOnly: '⭐ S-Tier (Esencial)',
+    techsFound: 'Tecnologías encontradas:',
+    branch: 'Rama:',
+    priorityBadge: 'Prioridad',
+    recommendation: 'Consejo táctico:',
+    branchPrefixes: 'Rama',
+    noResults: 'No se encontraron tecnologías.',
+    viewAll: 'Mostrar todas las tecnologías',
+    sTierTitle: 'Ramas clave para la progresión rápida',
+    sTierDesc: 'Prioriza Desarrollo y Duelo de Alianzas para cofres de eventos KvK.',
+  },
+  fr: {
+    title: '🔬 Institut de Recherche : Arbre Technologique',
+    subtitle: 'Les 16 branches de recherche et 348 technologies officielles.',
+    placeholder: '🔍 Rechercher une technologie par nom ou effet...',
+    allBranches: 'Toutes les branches',
+    priorityFilter: 'Priorité :',
+    allPriorities: 'Toutes',
+    sTierOnly: '⭐ S-Tier (Essentiel)',
+    techsFound: 'Technologies trouvées :',
+    branch: 'Branche :',
+    priorityBadge: 'Priorité',
+    recommendation: 'Conseil tactique :',
+    branchPrefixes: 'Branche',
+    noResults: 'Aucune technologie trouvée.',
+    viewAll: 'Afficher toutes les technologies',
+    sTierTitle: 'Branches clés pour progresser rapidement',
+    sTierDesc: 'Priorisez le Développement et le Duel d\'alliances pour les coffres KvK.',
+  },
+  id: {
+    title: '🔬 Institut Riset: Pohon Teknologi Lengkap',
+    subtitle: 'Semua 16 cabang riset dan 348 teknologi resmi game.',
+    placeholder: '🔍 Cari teknologi berdasarkan nama atau efek...',
+    allBranches: 'Semua Cabang',
+    priorityFilter: 'Prioritas:',
+    allPriorities: 'Semua',
+    sTierOnly: '⭐ S-Tier (Penting)',
+    techsFound: 'Teknologi ditemukan:',
+    branch: 'Cabang:',
+    priorityBadge: 'Prioritas',
+    recommendation: 'Saran Taktis:',
+    branchPrefixes: 'Cabang',
+    noResults: 'Teknologi tidak ditemukan.',
+    viewAll: 'Tampilkan semua teknologi cabang',
+    sTierTitle: 'Cabang Kunci untuk Perkembangan Cepat',
+    sTierDesc: 'Prioritaskan Pengembangan dan Pertarungan Guild untuk hadiah KvK.',
+  },
+  ja: {
+    title: '🔬 研究機関：全テクノロジーツリー',
+    subtitle: '16の研究分野と公式348種類のテクノロジー。',
+    placeholder: '🔍 テクノロジー名または効果で検索...',
+    allBranches: '全分野',
+    priorityFilter: '優先度：',
+    allPriorities: 'すべて',
+    sTierOnly: '⭐ Sランク（必須）',
+    techsFound: '該当テクノロジー数：',
+    branch: '分野：',
+    priorityBadge: '優先度',
+    recommendation: '戦術アドバイス：',
+    branchPrefixes: '分野',
+    noResults: '該当するテクノロジーが見つかりません。',
+    viewAll: '分野の全テクノロジーを表示',
+    sTierTitle: '最速育成のための最重要分野',
+    sTierDesc: 'まずは「発展」（建設・研究速度）と「ギルドバトル」を最優先で強化しましょう。',
+  },
+  ko: {
+    title: '🔬 연구소: 전체 과학 기술 연구 트리',
+    subtitle: '16개 연구 분야 및 공식 348개 기술 데이터베이스.',
+    placeholder: '🔍 기술 이름 또는 효과 검색...',
+    allBranches: '모든 분야',
+    priorityFilter: '우선순위:',
+    allPriorities: '전체',
+    sTierOnly: '⭐ S티어 (필수)',
+    techsFound: '검색된 기술:',
+    branch: '분야:',
+    priorityBadge: '우선순위',
+    recommendation: '전술 팁:',
+    branchPrefixes: '분야',
+    noResults: '기술을 찾을 수 없습니다.',
+    viewAll: '해당 분야 전체 기술 보기',
+    sTierTitle: '빠른 성장을 위한 핵심 연구 분야',
+    sTierDesc: '발전(건설/연구 속도) 및 길드전(SvS 포인트 획득)을 최우선으로 진행하세요.',
+  },
+  pt: {
+    title: '🔬 Instituto de Pesquisa: Árvore Tecnológica',
+    subtitle: 'Todos os 16 ramos de pesquisa e 348 tecnologias oficiais do jogo.',
+    placeholder: '🔍 Buscar tecnologia por nome ou bônus...',
+    allBranches: 'Todos os Ramos',
+    priorityFilter: 'Prioridade:',
+    allPriorities: 'Todos',
+    sTierOnly: '⭐ S-Tier (Essencial)',
+    techsFound: 'Tecnologias encontradas:',
+    branch: 'Ramo:',
+    priorityBadge: 'Prioridade',
+    recommendation: 'Conselho tático:',
+    branchPrefixes: 'Ramo',
+    noResults: 'Nenhuma tecnologia encontrada.',
+    viewAll: 'Ver todas as tecnologias do ramo',
+    sTierTitle: 'Ramos Essenciais para Evolução Rápida',
+    sTierDesc: 'Priorize Desenvolvimento e Duelo da Aliança para baús de evento KvK.',
+  },
+};
+
+const t = i18n[lang as keyof typeof i18n] || i18n.en;
+
+// Format list of tech items with branch info
+const branchMap = new Map(branchesData.map((b) => [b.id, b]));
+
+const allTechs = Object.values(techsData).map((tech: any) => {
+  const branchId = Math.floor(tech.id / 1000);
+  const branch = branchMap.get(branchId);
+  const name = tech.name?.[lang] || tech.name?.en || tech.name?.ru || `Tech #${tech.id}`;
+  const desc = tech.desc?.[lang] || tech.desc?.en || tech.desc?.ru || '';
+  const branchName = branch?.name?.[lang] || branch?.name?.en || branch?.name?.ru || `Branch ${branchId}`;
+
+  return {
+    id: tech.id,
+    branchId,
+    branchName,
+    priority: branch?.priority || 'B',
+    name,
+    desc,
+    advice: branch?.advice?.[lang] || branch?.advice?.ru || branch?.advice?.en || '',
+  };
+});
+---
+
+<section class="not-prose my-10 rounded-3xl border border-toxic-500/30 bg-stone-950/80 p-6 sm:p-8 backdrop-blur-xl shadow-[0_0_50px_rgba(0,0,0,0.6)]" id="college-tech-explorer">
+  <div class="mb-6 flex flex-col gap-2">
+    <div class="flex items-center gap-3">
+      <span class="rounded-xl border border-toxic-500/40 bg-toxic-950/60 px-3 py-1 text-xs font-bold text-toxic-400">
+        348 TECHNOLOGIES
+      </span>
+      <span class="text-xs text-stone-500 font-mono">APK CLIENT v1.0.102</span>
+    </div>
+    <h2 class="text-2xl font-bold tracking-tight text-toxic-400 sm:text-3xl">{t.title}</h2>
+    <p class="text-sm text-stone-400 max-w-3xl">{t.subtitle}</p>
+  </div>
+
+  <!-- Priority Banner Callout -->
+  <div class="mb-6 rounded-2xl border border-stone-800 bg-stone-900/60 p-4 sm:p-5">
+    <div class="flex items-center gap-2 mb-2">
+      <span class="text-lg">💡</span>
+      <h3 class="text-sm font-bold text-stone-200">{t.sTierTitle}</h3>
+    </div>
+    <p class="text-xs text-stone-400 leading-relaxed">{t.sTierDesc}</p>
+    
+    <div class="mt-3 flex flex-wrap gap-2">
+      {branchesData.filter((b) => b.priority === 'S').map((b) => {
+        const bName = b.name?.[lang] || b.name?.en || b.name?.ru;
+        return (
+          <span class="inline-flex items-center gap-1.5 rounded-lg border border-toxic-500/30 bg-toxic-950/40 px-2.5 py-1 text-xs font-semibold text-toxic-300">
+            <span class="text-toxic-400 font-bold">S</span>
+            {bName}
+            <span class="text-[10px] text-stone-500 font-normal">({b.techCount})</span>
+          </span>
+        );
+      })}
+    </div>
+  </div>
+
+  <!-- Search and Filters -->
+  <div class="space-y-4">
+    <div class="relative flex items-center">
+      <input
+        type="text"
+        id="tech-search-input"
+        class="w-full rounded-2xl border border-stone-800 bg-stone-900/90 px-4 py-3.5 pl-11 text-sm text-stone-100 placeholder-stone-500 transition-all focus:border-toxic-500 focus:bg-black focus:outline-none focus:ring-2 focus:ring-toxic-500/30"
+        placeholder={t.placeholder}
+        autocomplete="off"
+      />
+      <span class="absolute left-4 text-stone-400">🔍</span>
+      <button
+        id="tech-clear-btn"
+        class="absolute right-3 hidden rounded-lg bg-stone-800 px-2.5 py-1 text-xs text-stone-400 hover:bg-stone-700 hover:text-white transition"
+      >
+        ✕
+      </button>
+    </div>
+
+    <!-- Branch selector tabs -->
+    <div class="flex flex-wrap gap-1.5 pt-1" id="tech-branch-tabs">
+      <button
+        type="button"
+        data-branch="all"
+        class="tech-branch-btn rounded-xl px-3 py-1.5 text-xs font-semibold bg-toxic-500 text-stone-950 shadow-[0_0_15px_rgba(180,255,57,0.3)] transition-all"
+      >
+        {t.allBranches} ({allTechs.length})
+      </button>
+
+      {branchesData.map((b) => {
+        const bName = b.name?.[lang] || b.name?.en || b.name?.ru;
+        const priorityColor = b.priority === 'S' ? 'text-toxic-400 border-toxic-500/40' : 'text-stone-400 border-stone-800';
+        return (
+          <button
+            type="button"
+            data-branch={b.id.toString()}
+            class={`tech-branch-btn rounded-xl border bg-stone-900/60 px-3 py-1.5 text-xs font-semibold hover:border-toxic-500/40 hover:text-stone-200 transition-all ${priorityColor}`}
+          >
+            {b.priority === 'S' && <span class="text-toxic-400 mr-1">⭐</span>}
+            {bName}
+            <span class="ml-1 text-[10px] text-stone-500">({b.techCount})</span>
+          </button>
+        );
+      })}
+    </div>
+
+    <!-- Stats & Counter bar -->
+    <div class="flex items-center justify-between text-xs text-stone-400 px-1 pt-1">
+      <div>
+        {t.techsFound} <span id="tech-count" class="font-bold text-toxic-400">{allTechs.length}</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <label for="tech-priority-select" class="text-stone-500">{t.priorityFilter}</label>
+        <select
+          id="tech-priority-select"
+          class="rounded-lg border border-stone-800 bg-stone-900 px-2 py-1 text-xs text-stone-300 focus:outline-none focus:border-toxic-500"
+        >
+          <option value="all">{t.allPriorities}</option>
+          <option value="S">S-Tier</option>
+          <option value="A">A-Tier</option>
+          <option value="B">B-Tier</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tech Cards Grid -->
+  <div class="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3" id="tech-cards-container">
+    {allTechs.map((tech) => {
+      const isSTier = tech.priority === 'S';
+      const borderClass = isSTier ? 'border-toxic-500/30 hover:border-toxic-500' : 'border-stone-800/80 hover:border-stone-700';
+      const badgeClass = isSTier
+        ? 'bg-toxic-950/70 border-toxic-500/40 text-toxic-300'
+        : tech.priority === 'A'
+        ? 'bg-blue-950/50 border-blue-500/30 text-blue-300'
+        : 'bg-stone-800/60 border-stone-700/50 text-stone-400';
+
+      return (
+        <div
+          class={`tech-card flex flex-col justify-between rounded-2xl border ${borderClass} bg-stone-900/40 p-4 transition-all hover:bg-stone-900/80 hover:shadow-lg`}
+          data-branch={tech.branchId.toString()}
+          data-priority={tech.priority}
+          data-search={`${tech.name} ${tech.desc} ${tech.branchName} ${tech.id}`.toLowerCase()}
+        >
+          <div>
+            <div class="mb-2 flex items-center justify-between">
+              <span class="rounded-md border border-stone-800 bg-stone-950 px-2 py-0.5 text-[10px] font-mono text-stone-400">
+                #{tech.id}
+              </span>
+              <span class={`rounded-md border px-2 py-0.5 text-[10px] font-bold ${badgeClass}`}>
+                {tech.priority}-TIER
+              </span>
+            </div>
+
+            <h3 class="text-sm font-bold text-stone-100 group-hover:text-toxic-200 leading-snug">
+              {tech.name}
+            </h3>
+
+            <p class="mt-1 text-xs text-stone-400 leading-relaxed">
+              {tech.desc}
+            </p>
+          </div>
+
+          <div class="mt-3 pt-2 border-t border-stone-800/60 flex items-center justify-between text-[11px]">
+            <span class="text-stone-500 truncate max-w-[170px]" title={tech.branchName}>
+              📁 {tech.branchName}
+            </span>
+            {isSTier && (
+              <span class="text-toxic-400 font-semibold flex items-center gap-1">
+                ⭐ {lang === 'ru' ? 'Приоритет' : 'Priority'}
+              </span>
+            )}
+          </div>
+        </div>
+      );
+    })}
+  </div>
+
+  <!-- Empty Results State -->
+  <div id="tech-no-results" class="hidden mt-8 rounded-2xl border border-dashed border-stone-800 p-8 text-center text-sm text-stone-400">
+    <p class="text-3xl mb-2">🔬</p>
+    <p>{t.noResults}</p>
+  </div>
+</section>
+
+<script>
+  function initCollegeExplorer() {
+    const input = document.getElementById('tech-search-input') as HTMLInputElement | null;
+    const clearBtn = document.getElementById('tech-clear-btn');
+    const cards = document.querySelectorAll<HTMLElement>('.tech-card');
+    const branchBtns = document.querySelectorAll<HTMLButtonElement>('.tech-branch-btn');
+    const prioritySelect = document.getElementById('tech-priority-select') as HTMLSelectElement | null;
+    const countSpan = document.getElementById('tech-count');
+    const noResults = document.getElementById('tech-no-results');
+
+    if (!cards.length) return;
+
+    let activeBranch = 'all';
+    let activePriority = 'all';
+
+    function filterTechs() {
+      const query = (input?.value || '').trim().toLowerCase();
+      let visible = 0;
+
+      cards.forEach((card) => {
+        const b = card.dataset.branch || '';
+        const p = card.dataset.priority || '';
+        const searchTarget = card.dataset.search || '';
+
+        const matchesBranch = activeBranch === 'all' || b === activeBranch;
+        const matchesPriority = activePriority === 'all' || p === activePriority;
+        const matchesQuery = !query || searchTarget.includes(query);
+
+        if (matchesBranch && matchesPriority && matchesQuery) {
+          card.style.display = 'flex';
+          visible++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      if (countSpan) countSpan.textContent = visible.toString();
+      if (noResults) {
+        noResults.style.display = visible === 0 ? 'block' : 'none';
+      }
+      if (clearBtn) {
+        clearBtn.style.display = query.length > 0 ? 'block' : 'none';
+      }
+    }
+
+    if (input) {
+      input.addEventListener('input', filterTechs);
+    }
+
+    if (clearBtn) {
+      clearBtn.addEventListener('click', () => {
+        if (input) {
+          input.value = '';
+          input.focus();
+          filterTechs();
+        }
+      });
+    }
+
+    if (prioritySelect) {
+      prioritySelect.addEventListener('change', () => {
+        activePriority = prioritySelect.value;
+        filterTechs();
+      });
+    }
+
+    branchBtns.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        activeBranch = btn.dataset.branch || 'all';
+
+        branchBtns.forEach((b) => {
+          if (b === btn) {
+            b.classList.remove('bg-stone-900/60', 'text-stone-400');
+            b.classList.add('bg-toxic-500', 'text-stone-950', 'shadow-[0_0_15px_rgba(180,255,57,0.3)]');
+          } else {
+            b.classList.remove('bg-toxic-500', 'text-stone-950', 'shadow-[0_0_15px_rgba(180,255,57,0.3)]');
+            b.classList.add('bg-stone-900/60', 'text-stone-400');
+          }
+        });
+
+        filterTechs();
+      });
+    });
+  }
+
+  initCollegeExplorer();
+  document.addEventListener('astro:page-load', initCollegeExplorer);
+</script>

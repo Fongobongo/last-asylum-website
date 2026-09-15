@@ -1,175 +1,175 @@
 ---
-import { quizQuestions } from '../data/quizQuestions';
+import quizData from '../data/officialQuiz.json';
 import type { Lang } from '../i18n/utils';
 
 interface Props {
   lang?: Lang;
 }
 
-const { lang = 'en' } = Astro.props;
+const { lang = 'ru' } = Astro.props;
 
 const i18n = {
   ru: {
-    title: '🧠 Шпаргалка по Викторине мудрости (15 из 15 верных ответов)',
-    subtitle: 'Мгновенный поиск ответа по ключевому слову во время события в игре. Нажмите Ctrl + F или введите слово ниже.',
-    placeholder: '🔍 Введите ключевое слово из вопроса (на русском или английском)...',
-    all: 'Все',
-    general: 'Общие знания',
+    title: '🧠 Викторина мудрости: Шпаргалка ответов (84 вопроса)',
+    subtitle: 'Мгновенный поиск ответа во время 30-секундного таймера события «Испытание мудрости». Введите слово из вопроса или ответа ниже.',
+    placeholder: '🔍 Введите ключевое слово (например: «Святилище», «Артур», «Ворон», «Селия»)...',
+    all: 'Все (84)',
+    events: 'События и Дуэль',
+    heroes: 'Герои и Фракции',
     buildings: 'Здания',
-    factions: 'Фракции',
-    vip: 'VIP',
-    lore: 'Лор и сюжет',
-    events: 'События',
-    heroes: 'Герои',
-    alliance: 'Альянс',
-    correctAnswer: 'Верный ответ:',
+    mechanics: 'Механики и Войска',
+    lore: 'Сюжет и Лор',
+    correctAnswer: 'Правильный ответ:',
+    copyBtn: 'Копировать',
+    copied: 'Скопировано!',
     found: 'Вопросов найдено:',
-    noResults: 'Ничего не найдено. Попробуйте ввести другое ключевое слово (например: «святилище», «ворон», «селия»).',
+    noResults: 'Вопрос не найден. Попробуйте ввести другое ключевое слово.',
     clear: 'Очистить',
+    timeTip: '⏱️ В игре дается 30 секунд на вопрос. Чем быстрее вы отвечаете вместе с альянсом, тем выше общая награда!',
   },
   en: {
-    title: '🧠 Quiz of Wisdom Cheat Sheet (15/15 Correct Answers)',
-    subtitle: 'Instant answer lookup during the in-game trivia event. Press Ctrl + F or type any keyword below.',
-    placeholder: '🔍 Type any keyword from the question...',
-    all: 'All',
-    general: 'General Knowledge',
+    title: '🧠 Quiz of Wisdom: Complete Answer Key (84 Questions)',
+    subtitle: 'Lightning-fast answer lookup during the 30-second in-game trivia timer. Type any keyword from the question or options.',
+    placeholder: '🔍 Type any keyword (e.g. "Sanctuary", "Arthur", "Raven", "Celia")...',
+    all: 'All (84)',
+    events: 'Events & Duel',
+    heroes: 'Heroes & Factions',
     buildings: 'Buildings',
-    factions: 'Factions',
-    vip: 'VIP',
-    lore: 'Lore & Story',
-    events: 'Events',
-    heroes: 'Heroes',
-    alliance: 'Alliance',
+    mechanics: 'Mechanics & Troops',
+    lore: 'Story & Lore',
     correctAnswer: 'Correct Answer:',
+    copyBtn: 'Copy',
+    copied: 'Copied!',
     found: 'Questions found:',
-    noResults: 'No questions matched your search. Try another keyword (e.g. "sanctuary", "raven", "celia").',
+    noResults: 'No matching questions found. Try another keyword.',
     clear: 'Clear',
+    timeTip: '⏱️ In-game timer is 30 seconds per question. Quick correct answers maximize alliance score and rewards!',
   },
   de: {
-    title: '🧠 Quiz der Weisheit Spickzettel (15/15 Richtige Antworten)',
-    subtitle: 'Sofortige Antwortsuche während des Quiz-Events im Spiel. Nutze die Suchleiste unten.',
-    placeholder: '🔍 Stichwort aus der Frage eingeben...',
-    all: 'Alle',
-    general: 'Allgemein',
-    buildings: 'Gebäude',
-    factions: 'Fraktionen',
-    vip: 'VIP',
-    lore: 'Story & Lore',
-    events: 'Events',
+    title: '🧠 Quiz der Weisheit: Antwort-Datenbank (84 Fragen)',
+    subtitle: 'Sofortige Antwortsuche während des 30-Sekunden-Quiz-Events im Spiel.',
+    placeholder: '🔍 Stichwort eingeben...',
+    all: 'Alle (84)',
+    events: 'Events & Duell',
     heroes: 'Helden',
-    alliance: 'Allianz',
+    buildings: 'Gebäude',
+    mechanics: 'Mechaniken',
+    lore: 'Story & Lore',
     correctAnswer: 'Richtige Antwort:',
-    found: 'Gefundene Fragen:',
-    noResults: 'Keine Treffer. Versuche ein anderes Stichwort.',
-    clear: 'Zurücksetzen',
+    copyBtn: 'Kopieren',
+    copied: 'Kopiert!',
+    found: 'Gefunden:',
+    noResults: 'Keine passenden Fragen gefunden.',
+    clear: 'Löschen',
+    timeTip: '⏱️ 30 Sekunden Zeit pro Frage im Spiel.',
   },
   es: {
-    title: '🧠 Guía Rápida del Quiz de la Sabiduría (15/15 Aciertos)',
-    subtitle: 'Búsqueda instantánea de respuestas para el evento del juego. Usa la barra inferior.',
-    placeholder: '🔍 Escribe una palabra clave de la pregunta...',
-    all: 'Todos',
-    general: 'Conocimiento General',
-    buildings: 'Edificios',
-    factions: 'Facciones',
-    vip: 'VIP',
-    lore: 'Historia y Lore',
-    events: 'Eventos',
+    title: '🧠 Quiz de Sabiduría: Guía de Respuestas (84 Preguntas)',
+    subtitle: 'Búsqueda rápida de respuestas durante el evento de 30 segundos.',
+    placeholder: '🔍 Escribe una palabra clave...',
+    all: 'Todas (84)',
+    events: 'Eventos y Duelo',
     heroes: 'Héroes',
-    alliance: 'Alianza',
-    correctAnswer: 'Respuesta correcta:',
+    buildings: 'Edificios',
+    mechanics: 'Mecánicas',
+    lore: 'Historia y Lore',
+    correctAnswer: 'Respuesta Correcta:',
+    copyBtn: 'Copiar',
+    copied: '¡Copiado!',
     found: 'Preguntas encontradas:',
-    noResults: 'No se encontraron coincidencias. Prueba con otra palabra clave.',
-    clear: 'Limpiar',
+    noResults: 'No se encontraron preguntas.',
+    clear: 'Borrar',
+    timeTip: '⏱️ El temporizador es de 30 segundos por pregunta.',
   },
   fr: {
-    title: '🧠 Antisèche du Quiz de la Sagesse (15/15 Bonnes Réponses)',
-    subtitle: 'Recherche instantanée de réponses pendant l’événement du jeu. Utilisez la barre ci-dessous.',
-    placeholder: '🔍 Tapez un mot-clé de la question...',
-    all: 'Tous',
-    general: 'Général',
-    buildings: 'Bâtiments',
-    factions: 'Factions',
-    vip: 'VIP',
-    lore: 'Histoire & Lore',
-    events: 'Événements',
+    title: '🧠 Quiz de Sagesse : Réponses Officielles (84 Questions)',
+    subtitle: 'Recherche rapide de réponses pendant le compte à rebours de 30 secondes.',
+    placeholder: '🔍 Tapez un mot-clé...',
+    all: 'Toutes (84)',
+    events: 'Événements & Duel',
     heroes: 'Héros',
-    alliance: 'Alliance',
-    correctAnswer: 'Bonne réponse :',
+    buildings: 'Bâtiments',
+    mechanics: 'Mécanismes',
+    lore: 'Histoire & Lore',
+    correctAnswer: 'Bonne Réponse :',
+    copyBtn: 'Copier',
+    copied: 'Copié !',
     found: 'Questions trouvées :',
-    noResults: 'Aucun résultat. Essayez un autre mot-clé.',
+    noResults: 'Aucune question trouvée.',
     clear: 'Effacer',
+    timeTip: '⏱️ 30 secondes par question en jeu.',
   },
   id: {
-    title: '🧠 Kuis Kebijaksanaan: Kunci Jawaban (15/15 Benar)',
-    subtitle: 'Cari jawaban instan selama event trivia berlangsung di dalam game.',
-    placeholder: '🔍 Ketik kata kunci dari pertanyaan...',
-    all: 'Semua',
-    general: 'Pengetahuan Umum',
-    buildings: 'Bangunan',
-    factions: 'Fraksi',
-    vip: 'VIP',
-    lore: 'Kisah & Lore',
-    events: 'Event',
-    heroes: 'Pahlawan',
-    alliance: 'Aliansi',
+    title: '🧠 Kuis Kebijaksanaan: Kunci Jawaban Resmi (84 Soal)',
+    subtitle: 'Pencarian cepat jawaban kuis berwaktu 30 detik dalam game.',
+    placeholder: '🔍 Ketik kata kunci...',
+    all: 'Semua (84)',
+    events: 'Event & Duel',
+    heroes: 'Hero',
+    buildings: 'Gedung',
+    mechanics: 'Mekanik',
+    lore: 'Cerita',
     correctAnswer: 'Jawaban Benar:',
-    found: 'Pertanyaan ditemukan:',
-    noResults: 'Tidak ada pertanyaan yang cocok. Coba kata kunci lain.',
+    copyBtn: 'Salin',
+    copied: 'Tersalin!',
+    found: 'Soal ditemukan:',
+    noResults: 'Soal tidak ditemukan.',
     clear: 'Hapus',
+    timeTip: '⏱️ Waktu kuis 30 detik per soal.',
   },
   ja: {
-    title: '🧠 知恵のクイズ 攻略カンペ（15/15問全問正解）',
-    subtitle: 'ゲーム内の知恵のクイズ開催中に素早く答えを引ける即時検索ツールです。',
-    placeholder: '🔍 問題文のキーワードを入力（英日対応）...',
-    all: 'すべて',
-    general: '一般知識',
+    title: '🧠 知恵のクイズ：公式解答集（全84問）',
+    subtitle: '制限時間30秒のクイズイベント用・キーワード即時検索ツール。',
+    placeholder: '🔍 質問または選択肢のキーワードを入力...',
+    all: 'すべて (84)',
+    events: 'イベント・対決',
+    heroes: '英雄・陣営',
     buildings: '施設・建築',
-    factions: '陣営・相性',
-    vip: 'VIP',
-    lore: 'ストーリー・世界観',
-    events: 'イベント',
-    heroes: '英雄',
-    alliance: '同盟',
+    mechanics: 'システム・兵士',
+    lore: 'ストーリー・設定',
     correctAnswer: '正解：',
-    found: '該当する問題数：',
-    noResults: '一致する問題が見つかりません。別のキーワードをお試しください。',
+    copyBtn: 'コピー',
+    copied: 'コピー済！',
+    found: '該当数：',
+    noResults: '一致する問題が見つかりません。',
     clear: 'クリア',
+    timeTip: '⏱️ 1問あたり30秒の制限時間。同盟メンバーと協力して全問正解を目指しましょう。',
   },
   ko: {
-    title: '🧠 지혜의 퀴즈 즉시 정답 족보 (15/15 만점 달성)',
-    subtitle: '게임 내 지혜의 퀴즈 진행 시 즉시 검색하여 정답을 확인할 수 있는 실시간 검색기입니다.',
-    placeholder: '🔍 질문의 핵심 키워드를 입력하세요...',
-    all: '전체',
-    general: '일반 상식',
-    buildings: '건물/시설',
-    factions: '진영 상성',
-    vip: 'VIP',
-    lore: '스토리/설정',
-    events: '이벤트',
-    heroes: '영웅',
-    alliance: '연맹',
+    title: '🧠 지혜의 퀴즈: 공식 정답표 (총 84문항)',
+    subtitle: '게임 내 30초 제한시간 퀴즈 이벤트 즉시 검색 솔루션.',
+    placeholder: '🔍 질문 또는 보기 키워드 검색...',
+    all: '전체 (84)',
+    events: '이벤트 및 대결',
+    heroes: '영웅 및 진영',
+    buildings: '건물 및 시설',
+    mechanics: '전투 및 시스템',
+    lore: '스토리 및 배경',
     correctAnswer: '정답:',
-    found: '검색된 질문 수:',
-    noResults: '일치하는 질문이 없습니다. 다른 키워드로 검색해 보세요.',
+    copyBtn: '복사',
+    copied: '복사됨!',
+    found: '검색된 문항:',
+    noResults: '일치하는 질문이 없습니다.',
     clear: '초기화',
+    timeTip: '⏱️ 문제당 30초 제한. 연맹원과 함께 빠르게 정답을 맞춰 최대 보상을 획득하세요.',
   },
   pt: {
-    title: '🧠 Gabarito do Quiz da Sabedoria (15/15 Acertos)',
-    subtitle: 'Busca rápida de respostas durante o evento de perguntas do jogo. Use o campo abaixo.',
+    title: '🧠 Quiz da Sabedoria: Gabarito Oficial (84 Questões)',
+    subtitle: 'Busca rápida de respostas durante o evento de 30 segundos.',
     placeholder: '🔍 Digite uma palavra-chave da pergunta...',
-    all: 'Todos',
-    general: 'Geral',
-    buildings: 'Edifícios',
-    factions: 'Facções',
-    vip: 'VIP',
-    lore: 'História & Lore',
-    events: 'Eventos',
+    all: 'Todas (84)',
+    events: 'Eventos e Duelo',
     heroes: 'Heróis',
-    alliance: 'Aliança',
+    buildings: 'Edifícios',
+    mechanics: 'Mecânicas',
+    lore: 'História',
     correctAnswer: 'Resposta Correta:',
+    copyBtn: 'Copiar',
+    copied: 'Copiado!',
     found: 'Perguntas encontradas:',
-    noResults: 'Nenhuma pergunta encontrada. Tente outra palavra-chave.',
+    noResults: 'Nenhuma pergunta encontrada.',
     clear: 'Limpar',
+    timeTip: '⏱️ 30 segundos por pergunta no jogo.',
   },
 };
 
@@ -177,21 +177,53 @@ const t = i18n[lang as keyof typeof i18n] || i18n.en;
 
 const categories = [
   { id: 'all', label: t.all },
-  { id: 'general', label: t.general },
-  { id: 'buildings', label: t.buildings },
-  { id: 'factions', label: t.factions },
-  { id: 'vip', label: t.vip },
-  { id: 'lore', label: t.lore },
   { id: 'events', label: t.events },
   { id: 'heroes', label: t.heroes },
-  { id: 'alliance', label: t.alliance },
+  { id: 'buildings', label: t.buildings },
+  { id: 'mechanics', label: t.mechanics },
+  { id: 'lore', label: t.lore },
 ];
+
+const formattedQuiz = (quizData as any[]).map((q) => {
+  const title = q.title?.[lang] || q.title?.ru || q.title?.en || `Question #${q.id}`;
+  const options = q.options.map((opt: any, idx: number) => {
+    const text = opt?.[lang] || opt?.ru || opt?.en || `Option ${idx + 1}`;
+    return {
+      index: idx + 1,
+      text,
+      isCorrect: q.correctAnswer === idx + 1,
+    };
+  });
+  const correctOption = options.find((o: any) => o.isCorrect) || options[0];
+
+  const searchIndex = `${title} ${options.map((o: any) => o.text).join(' ')} ${q.title?.ru || ''} ${q.title?.en || ''}`.toLowerCase();
+
+  return {
+    id: q.id,
+    category: q.category,
+    title,
+    options,
+    correctText: correctOption.text,
+    searchIndex,
+  };
+});
 ---
 
-<section class="not-prose my-8 rounded-3xl border border-toxic-500/30 bg-stone-950/80 p-6 sm:p-8 backdrop-blur-xl shadow-[0_0_50px_rgba(0,0,0,0.6)]" id="quiz-lookup-app">
+<section class="not-prose my-10 rounded-3xl border border-toxic-500/30 bg-stone-950/80 p-6 sm:p-8 backdrop-blur-xl shadow-[0_0_50px_rgba(0,0,0,0.6)]" id="quiz-lookup-app">
   <div class="mb-6 flex flex-col gap-2">
+    <div class="flex items-center gap-3">
+      <span class="rounded-xl border border-toxic-500/40 bg-toxic-950/60 px-3 py-1 text-xs font-bold text-toxic-400">
+        84 OFFICIAL QUESTIONS
+      </span>
+      <span class="text-xs text-stone-500 font-mono">SMART CONTEST SOLVER</span>
+    </div>
     <h2 class="text-2xl font-bold tracking-tight text-toxic-400 sm:text-3xl">{t.title}</h2>
-    <p class="text-sm text-stone-400">{t.subtitle}</p>
+    <p class="text-sm text-stone-400 max-w-3xl">{t.subtitle}</p>
+  </div>
+
+  <!-- Timer Advice Banner -->
+  <div class="mb-6 rounded-2xl border border-stone-800 bg-stone-900/60 p-4">
+    <p class="text-xs text-stone-300 leading-relaxed font-medium">{t.timeTip}</p>
   </div>
 
   <!-- Search and filter controls -->
@@ -233,58 +265,72 @@ const categories = [
     <!-- Counter -->
     <div class="flex items-center justify-between text-xs text-stone-400 px-1">
       <div>
-        {t.found} <span id="quiz-count" class="font-bold text-toxic-400">{quizQuestions.length}</span>
+        {t.found} <span id="quiz-count" class="font-bold text-toxic-400">{formattedQuiz.length}</span>
       </div>
     </div>
   </div>
 
   <!-- Questions Grid -->
-  <div class="mt-6 grid gap-3 sm:grid-cols-2" id="quiz-cards-container">
-    {quizQuestions.map((q) => {
-      const isRu = lang === 'ru';
-      const mainQ = isRu ? q.qRu : q.qEn;
-      const subQ = isRu ? q.qEn : q.qRu;
-      const mainA = isRu ? q.aRu : q.aEn;
-      const subA = isRu ? q.aEn : q.aRu;
-
-      return (
-        <div
-          class="quiz-card group flex flex-col justify-between rounded-2xl border border-stone-800/80 bg-stone-900/40 p-4 transition-all hover:border-toxic-500/40 hover:bg-stone-900/80 hover:shadow-lg"
-          data-category={q.category}
-          data-search={`${q.qEn} ${q.aEn} ${q.qRu} ${q.aRu}`.toLowerCase()}
-        >
-          <div>
-            <div class="mb-2 flex items-center justify-between">
-              <span class="rounded-md border border-stone-800 bg-stone-950 px-2 py-0.5 text-[10px] font-medium uppercase tracking-wider text-stone-400">
-                {q.category}
-              </span>
-            </div>
-            <h3 class="text-sm font-semibold text-stone-100 group-hover:text-toxic-200 leading-snug">
-              {mainQ}
-            </h3>
-            {subQ && (
-              <p class="mt-1 text-xs text-stone-500 italic">
-                {subQ}
-              </p>
-            )}
+  <div class="mt-6 grid gap-4 sm:grid-cols-2" id="quiz-cards-container">
+    {formattedQuiz.map((q) => (
+      <div
+        class="quiz-card flex flex-col justify-between rounded-2xl border border-stone-800/80 bg-stone-900/40 p-4 transition-all hover:border-toxic-500/50 hover:bg-stone-900/80 hover:shadow-lg"
+        data-category={q.category}
+        data-search={q.searchIndex}
+      >
+        <div>
+          <div class="mb-2 flex items-center justify-between">
+            <span class="rounded-md border border-stone-800 bg-stone-950 px-2 py-0.5 text-[10px] font-mono text-stone-400">
+              #{q.id}
+            </span>
+            <span class="rounded-md border border-stone-800 bg-stone-950 px-2 py-0.5 text-[10px] font-medium uppercase tracking-wider text-stone-400">
+              {q.category}
+            </span>
           </div>
 
-          <div class="mt-3 rounded-xl border border-toxic-500/30 bg-toxic-950/40 p-2.5">
-            <div class="text-[11px] font-semibold text-toxic-400 uppercase tracking-wide">
-              {t.correctAnswer}
-            </div>
-            <div class="text-sm font-bold text-toxic-200 mt-0.5">
-              ✅ {mainA}
-            </div>
-            {subA && subA !== mainA && (
-              <div class="text-xs text-stone-400 mt-0.5">
-                {subA}
+          <h3 class="text-sm font-bold text-stone-100 leading-snug">
+            {q.title}
+          </h3>
+
+          <!-- All Options List -->
+          <div class="mt-3 space-y-1.5">
+            {q.options.map((opt: any) => (
+              <div
+                class={`flex items-center justify-between rounded-xl px-3 py-1.5 text-xs transition ${
+                  opt.isCorrect
+                    ? 'border border-toxic-500/40 bg-toxic-950/50 text-toxic-200 font-bold'
+                    : 'border border-stone-800/60 bg-stone-950/40 text-stone-400'
+                }`}
+              >
+                <span>
+                  {opt.isCorrect ? '✅ ' : '• '}
+                  {opt.text}
+                </span>
+                {opt.isCorrect && (
+                  <span class="text-[10px] text-toxic-400 uppercase tracking-wide">
+                    {lang === 'ru' ? 'ВЕРНО' : 'CORRECT'}
+                  </span>
+                )}
               </div>
-            )}
+            ))}
           </div>
         </div>
-      );
-    })}
+
+        <!-- Copy Answer Bar -->
+        <div class="mt-4 pt-3 border-t border-stone-800/60 flex items-center justify-between text-xs">
+          <div class="truncate max-w-[200px] text-stone-400">
+            <span class="text-stone-500">{t.correctAnswer}</span> <strong class="text-toxic-300">{q.correctText}</strong>
+          </div>
+          <button
+            type="button"
+            class="quiz-copy-btn rounded-lg border border-stone-700 bg-stone-800/80 px-2.5 py-1 text-[11px] font-semibold text-stone-300 hover:bg-toxic-500 hover:text-stone-950 hover:border-toxic-500 transition"
+            data-copy={q.correctText}
+          >
+            📋 {t.copyBtn}
+          </button>
+        </div>
+      </div>
+    ))}
   </div>
 
   <!-- No Results Box -->
@@ -302,8 +348,9 @@ const categories = [
     const catBtns = document.querySelectorAll<HTMLButtonElement>('.quiz-cat-btn');
     const countSpan = document.getElementById('quiz-count');
     const noResults = document.getElementById('quiz-no-results');
+    const copyBtns = document.querySelectorAll<HTMLButtonElement>('.quiz-copy-btn');
 
-    if (!input || !cards.length) return;
+    if (!cards.length) return;
 
     let activeCategory = 'all';
 
@@ -335,7 +382,7 @@ const categories = [
       }
     }
 
-    input.addEventListener('input', filter);
+    if (input) input.addEventListener('input', filter);
 
     if (clearBtn) {
       clearBtn.addEventListener('click', () => {
@@ -365,9 +412,25 @@ const categories = [
         filter();
       });
     });
+
+    // Copy Answer handling
+    copyBtns.forEach((btn) => {
+      btn.addEventListener('click', async () => {
+        const text = btn.dataset.copy || '';
+        if (text && navigator.clipboard) {
+          await navigator.clipboard.writeText(text);
+          const orig = btn.innerHTML;
+          btn.innerHTML = '✅ OK';
+          btn.classList.add('bg-toxic-500', 'text-stone-950');
+          setTimeout(() => {
+            btn.innerHTML = orig;
+            btn.classList.remove('bg-toxic-500', 'text-stone-950');
+          }, 1500);
+        }
+      });
+    });
   }
 
-  // Init on DOM load and Astro view transitions
   initQuizSearch();
   document.addEventListener('astro:page-load', initQuizSearch);
 </script>

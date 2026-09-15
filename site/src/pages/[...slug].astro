@@ -23,6 +23,10 @@ import TroopProgression from '../components/TroopProgression.astro';
 import RavenSystem from '../components/RavenSystem.astro';
 import AllianceTechTree from '../components/AllianceTechTree.astro';
 import OfficialTipsWidget from '../components/OfficialTipsWidget.astro';
+import CollegeTechExplorer from '../components/CollegeTechExplorer.astro';
+import SurvivorsGuide from '../components/SurvivorsGuide.astro';
+import HeroGearGuide from '../components/HeroGearGuide.astro';
+import MonsterRadar from '../components/MonsterRadar.astro';
 import type { Lang } from '../i18n/utils';
 
 export async function getStaticPaths() {
@@ -101,11 +105,25 @@ const showDiscord = slug !== 'support' && slug !== 'credits';
 
     {slug === 'events/quiz-of-wisdom' && <QuizSearch lang={lang} />}
 
-    {slug === 'alliance' && <AllianceTechTree lang={lang} />}
+    {slug === 'alliance' && (
+      <>
+        <AllianceTechTree lang={lang} />
+        <MonsterRadar lang={lang} />
+      </>
+    )}
     {(slug === 'economy' || slug === 'beginners') && <VipCalculator lang={lang} />}
+    {(slug === 'economy' || slug === 'beginners') && <SurvivorsGuide lang={lang} />}
+    {(slug === 'economy' || slug === 'might') && <CollegeTechExplorer lang={lang} />}
     {slug === 'might' && <TroopProgression lang={lang} />}
+    {(slug === 'might' || slug === 'gear') && <HeroGearGuide lang={lang} />}
+    {slug === 'beginners' && <MonsterRadar lang={lang} />}
     {slug === 'raven' && <RavenSystem lang={lang} />}
-    {slug === 'tips' && <OfficialTipsWidget lang={lang} />}
+    {slug === 'tips' && (
+      <>
+        <OfficialTipsWidget lang={lang} />
+        <QuizSearch lang={lang} />
+      </>
+    )}
 
     {slug === 'tips' && <FaqSection lang={lang} />}
 

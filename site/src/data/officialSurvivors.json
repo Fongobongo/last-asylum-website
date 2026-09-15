@@ -1,0 +1,822 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "ru": "Дэвид",
+      "en": "David",
+      "de": "David",
+      "es": "David",
+      "fr": "David",
+      "id": "David",
+      "ja": "デイビッド",
+      "ko": "데이비드",
+      "pt": "David"
+    },
+    "character": {
+      "ru": "Спокойн.",
+      "en": "Steady",
+      "de": "Beständig",
+      "es": "Estable",
+      "fr": "Stable",
+      "id": "Diam & jujur",
+      "ja": "穏やか",
+      "ko": "차분하고 성실함",
+      "pt": "Firmeza"
+    },
+    "assignedBuilding": {
+      "ru": "Лесопилка",
+      "en": "Sawmill",
+      "icon": "axe"
+    },
+    "desc": {
+      "ru": "Дровосек, Производство древесины +30%\nЗакаленный воин, пораженный тяжелой Скверной. Все его тело покрыто сыпью.",
+      "en": "Lumberjack, Timber Output +30%\nA battle-hardened soldier afflicted with severe Blight, with rashes all over his body.",
+      "de": "Holzfäller, Holzertrag +30%\nEin kampferprobter Soldat, der von schwerer Seuche befallen ist, mit Ausschlägen am ganzen Körper.",
+      "es": "Leñador, Producción de madera +30 %\nSoldado veterano afectado por una grave infección. Tiene erupciones visibles en todo el cuerpo.",
+      "fr": "Bûcheron, Production de bois +30 %\nUn soldat aguerri, atteint d\\'une Peste virulente, le corps couvert d\\'éruptions cutanées.",
+      "id": "Penebang Kayu,Produksi Kayu +30%\nPrajurit berpengalaman, menderita Wabah Hitam parah yang menyebabkan ruam di seluruh tubuhnya.",
+      "ja": "伐採工、木材生産量+30%\n戦場を駆け抜けてきたベテラン兵士だが、重度のペストにかかり、全身に発疹が出ている。",
+      "ko": "나무꾼. 목재 생산량 +30%\n전장을 누빈 베테랑 병사. 심각한 흑사병에 걸려 온몸에 발진이 생겼다.",
+      "pt": "Lenhador, Produção de Madeira +30%\nUm soldado calejado pela batalha, afligido por uma grave Praga, com erupções por todo o corpo."
+    }
+  },
+  {
+    "id": 2,
+    "name": {
+      "ru": "Дженни",
+      "en": "Jenny",
+      "de": "Jenny",
+      "es": "Jenny",
+      "fr": "Jenny",
+      "id": "Jenny",
+      "ja": "ジェニー",
+      "ko": "제니",
+      "pt": "Jenny"
+    },
+    "character": {
+      "ru": "Прилежн.",
+      "en": "Diligent",
+      "de": "Fleißig",
+      "es": "Diligente",
+      "fr": "Assidu",
+      "id": "Rajin & baik",
+      "ja": "真面目",
+      "ko": "부지런하고 착함",
+      "pt": "Diligência"
+    },
+    "assignedBuilding": {
+      "ru": "Ферма",
+      "en": "Farm",
+      "icon": "wheat"
+    },
+    "desc": {
+      "ru": "Фермер, Производство зерна +10%\nДобрая женщина, потерявшая ребенка из-за Скверны.",
+      "en": "Farmer, Grain Output +10%\nA kind-hearted woman, who lost her child to the Blight.",
+      "de": "Bauer, Getreideertrag +10%\nEine gutmütige Frau, die ihr Kind durch die Seuche verloren hat.",
+      "es": "Granjera, Producción de grano +10 %\nUna mujer de buen corazón que perdió a su hijo por culpa de la plaga.",
+      "fr": "Fermière, Production de céréales +10 %\nUne femme au grand cœur, dont l\\'enfant fut emporté par la Peste.",
+      "id": "Petani, Produksi Makanan +10%\nWanita berhati mulia, kehilangan anaknya karena Wabah Hitam.",
+      "ja": "農家、食料生産量+10%\n心優しい女性だが、ペストでわが子を失ってしまった。",
+      "ko": "농부. 식량 생산량 +10%\n따뜻한 마음을 가진 여성. 흑사병으로 인해 자신의 아이를 잃었다.",
+      "pt": "Agricultora, Produção de Comida +10%\nUma mulher de bom coração, que perdeu seu filho para a Praga."
+    }
+  },
+  {
+    "id": 3,
+    "name": {
+      "ru": "Филлис",
+      "en": "Phyllis",
+      "de": "Phyllis",
+      "es": "Phyllis",
+      "fr": "Phyllis",
+      "id": "Phyllis",
+      "ja": "フィリス",
+      "ko": "필리스",
+      "pt": "Phyllis"
+    },
+    "character": {
+      "ru": "Отличн.",
+      "en": "Helpful",
+      "de": "Hilfsbereit",
+      "es": "Servicial",
+      "fr": "Serviable",
+      "id": "Penolong",
+      "ja": "世話焼き",
+      "ko": "남을 잘 돕는 편",
+      "pt": "Presteza"
+    },
+    "assignedBuilding": {
+      "ru": "Лесопилка",
+      "en": "Sawmill",
+      "icon": "axe"
+    },
+    "desc": {
+      "ru": "Дровосек, Производство древесины +20%\nУкушен зараженным жителем в руку. Ампутировал конечность, чтобы не поддаться Скверне.",
+      "en": "Lumberjack, Timber Output +20%\nBitten on the arm by an infected villager, amputated to avoid becoming a Blight.",
+      "de": "Holzfäller, Holzertrag +20%\nVon einem infizierten Dorfbewohner in den Arm gebissen, amputiert, um nicht zur Seuche zu werden.",
+      "es": "Leñador, Producción de madera +20 %\nUn aldeano infectado le mordió el brazo, por lo que tuvo que amputárselo para no correr el mismo destino.",
+      "fr": "Bûcheron, Production de bois +20 %\nMordu au bras par un villageois infecté, amputé pour ne pas devenir une Peste.",
+      "id": "Penebang Kayu,Produksi Kayu+20%\nTerluka oleh gigitan penduduk kota yang terinfeksi, memotong lengannya untuk menghindari berubah menjadi Ghoul.",
+      "ja": "伐採工、木材生産量+20%\n感染した町民に腕を噛まれ、ゾンビ化を避けるため自ら腕を切断した。",
+      "ko": "나무꾼. 목재 생산량 +20%\n병에 걸린 마을 주민에게 팔을 물려, 구울이 되는 것을 피하고자 팔을 절단했다.",
+      "pt": "Lenhador, Produção de Madeira +20%\nMordido no braço por um aldeão Infectado, acabou amputado para não se infectar também."
+    }
+  },
+  {
+    "id": 4,
+    "name": {
+      "ru": "Джессика",
+      "en": "Jessica",
+      "de": "Jessica",
+      "es": "Jessica",
+      "fr": "Jessica",
+      "id": "Jessica",
+      "ja": "ジェシカ",
+      "ko": "제시카",
+      "pt": "Jessica"
+    },
+    "character": {
+      "ru": "Порядочн.",
+      "en": "Upright",
+      "de": "Aufrecht",
+      "es": "Íntegro/a",
+      "fr": "Intègre",
+      "id": "Pintar & jujur",
+      "ja": "誠実",
+      "ko": "똑똑하고 정직함",
+      "pt": "Integridade"
+    },
+    "assignedBuilding": {
+      "ru": "Цветник",
+      "en": "Herb Garden",
+      "icon": "flower"
+    },
+    "desc": {
+      "ru": "Травник, Защита трав +10%\nЕго семья трагически пала жертвой Скверны, сражаясь с Черными крысами.",
+      "en": "Herbalist, Herb Protection +10%\nHis family was tragically turned into Blights while resisting the Black Rats.",
+      "de": "Kräuterkundiger, Kräuterschutz +10%\nSeine Familie wurde tragischerweise zu Seuchen, während sie den Schwarzen Ratten Widerstand leisteten.",
+      "es": "Herborista, Hierbas protegidas +10 %\nPor desgracia, todos los miembros de su familia se convirtieron en infectados mientras se enfrentaban a las ratas negras.",
+      "fr": "Herboriste, Protection des herbes +10 %\nSa famille fut tragiquement transformée en Pestes pendant leur combat contre les Rats noirs.",
+      "id": "Petani Obat,Perlindungan obat +10%\nKeluarganya berubah menjadi Ghoul setelah terinfeksi saat melawan tikus hitam.",
+      "ja": "薬草栽培者、薬材保護+10%\n家族が黒ネズミに抵抗したため感染し、ゾンビになってしまった。",
+      "ko": "약초 농부. 약재 보호 +10%\n그의 가족은 검은 쥐에 맞서다 불행히도 감염되어 구울이 되었다.",
+      "pt": "Herborista, Proteção de Ervas +10%\nA família dele foi tragicamente transformada em Infectados enquanto resistia aos Ratos Negros."
+    }
+  },
+  {
+    "id": 5,
+    "name": {
+      "ru": "Элис",
+      "en": "Alice",
+      "de": "Alice",
+      "es": "Alice",
+      "fr": "Alice",
+      "id": "Alice",
+      "ja": "アリシュ",
+      "ko": "앨리스",
+      "pt": "Alice"
+    },
+    "character": {
+      "ru": "Обычн.",
+      "en": "Ordinary",
+      "de": "Normal",
+      "es": "Normal",
+      "fr": "Commun",
+      "id": "Biasa",
+      "ja": "普通",
+      "ko": "평범한",
+      "pt": "Singeleza"
+    },
+    "assignedBuilding": {
+      "ru": "Хижина строителя",
+      "en": "Builder Hut",
+      "icon": "hammer"
+    },
+    "desc": {
+      "ru": "Строитель, 30 мин. бесплатного ускорения строительства.\nДевушка, укушенная Скверной. Она сообщила о большом скоплении Черных крыс на севере густого леса.",
+      "en": "Builder, 30m free build speed-up time\nA girl who was bitten by Blights. She said that she saw a large number of Black Rats in the north of the dense forest.",
+      "de": "Bauarbeiter, 30m kostenlose Bauzeit-Beschleunigung\nEin Mädchen, das von Seuchen gebissen wurde. Sie sagte, dass sie eine große Anzahl Schwarzer Ratten im Norden des dichten Waldes gesehen hat.",
+      "es": "Constructora, 30 m gratis de aceleración de construcción\nLa mordió un infectado. Dijo haber visto una gran cantidad de ratas negras al norte del bosque frondoso.",
+      "fr": "Bâtisseuse, 30 min d\\'accélération de construction gratuite\nUne jeune fille mordue par les Pestes. Elle a rapporté avoir vu un grand nombre de Rats noirs au nord de la forêt dense.",
+      "id": "Pekerja Konstruksi, Waktu percepatan gratis pembangunan 30 m\nGadis yang nyaris digigit Ghoul mengatakan dia melihat banyak tikus hitam di utara hutan lebat.",
+      "ja": "建設作業員、建造無料ブースト時間30分\nゾンビに噛まれかけた少女。密林の北側で大量の黒ネズミを目撃したと話している。",
+      "ko": "건설 노동자. 건설 무료 가속 시간 30분\n구울에게 물릴 뻔한 소녀. 울창한 숲 북쪽에서 수많은 검은 쥐를 목격했다고 전했다.",
+      "pt": "Construtora, 30m de tempo de aceleração de construção grátis\nUma garota que foi mordida pelos Infectados. Ela disse que viu um grande número de Ratos Negros no norte da floresta densa."
+    }
+  },
+  {
+    "id": 6,
+    "name": {
+      "ru": "Челси",
+      "en": "Chelsea",
+      "de": "Chelsea",
+      "es": "Chelsea",
+      "fr": "Chelsea",
+      "id": "Chelsea",
+      "ja": "チェルシー",
+      "ko": "첼시",
+      "pt": "Chelsea"
+    },
+    "character": {
+      "ru": "Робк.",
+      "en": "Timid",
+      "de": "Scheu",
+      "es": "Tímido/a",
+      "fr": "Timide",
+      "id": "Pengecut",
+      "ja": "臆病",
+      "ko": "겁이 많음",
+      "pt": "Timidez"
+    },
+    "assignedBuilding": {
+      "ru": "Цветник",
+      "en": "Herb Garden",
+      "icon": "flower"
+    },
+    "desc": {
+      "ru": "Травник, Защита трав +20%\nПациенты из соседнего города были изгнаны сюда Скверной.",
+      "en": "Herbalist, Herb Protection +20%\nPatients from the neighboring town were driven here by Blights.",
+      "de": "Kräuterkundiger, Kräuterschutz +20%\nPatienten aus der Nachbarstadt wurden von der Seuche hierher getrieben.",
+      "es": "Herborista, Hierbas protegidas +20 %\nLos pacientes del pueblo vecino se vieron forzados a refugiarse aquí por culpa de los infectados.",
+      "fr": "Herboriste, Protection des herbes +20 %\nLes Pestes ont contraint les patients de la ville voisine à se réfugier ici.",
+      "id": "Pengumpul Herbal,Perlindungan obat +20%\nPasien dari kota sebelah,dikejar Ghoul sampai ke sini.",
+      "ja": "採薬工、薬材保護+20%\n隣町から逃れてきた患者。ゾンビに追われ、この町へたどり着いた。",
+      "ko": "약초 채집가. 약재 보호 +20%\n이웃 마을의 환자. 구울에게 쫓겨 이곳까지 왔다.",
+      "pt": "Herborista, Proteção de Ervas +20%\nOs pacientes da cidade vizinha vieram para cá por causa dos Infectados."
+    }
+  },
+  {
+    "id": 7,
+    "name": {
+      "ru": "Хьюго",
+      "en": "Hugo",
+      "de": "Hugo",
+      "es": "Hugo",
+      "fr": "Hugo",
+      "id": "Hugo",
+      "ja": "ヒューゴ",
+      "ko": "휴고",
+      "pt": "Hugo"
+    },
+    "character": {
+      "ru": "Храбр.",
+      "en": "Brave",
+      "de": "Mutig",
+      "es": "Valiente",
+      "fr": "Vaillant",
+      "id": "Berani & adil",
+      "ja": "熱血",
+      "ko": "용감하고 정의로움",
+      "pt": "Coragem"
+    },
+    "assignedBuilding": {
+      "ru": "Полигон / Казарма",
+      "en": "Training / Barracks",
+      "icon": "shield"
+    },
+    "desc": {
+      "ru": "Офицер, Вместимость обучения +5%\nБывший генерал империи, его оклеветал темный колдун и теперь он живет в уединении.",
+      "en": "Officer, Soldier Training Cap +5%\nOnce a general of the empire, he was framed by a dark sorcerer and now lives in seclusion.",
+      "de": "Offizier, Soldaten-Trainingskapazität +5%\nEinst ein General des Reiches, wurde er von einem dunklen Zauberer verleumdet und lebt nun zurückgezogen.",
+      "es": "Oficial, Límite del entreno militar +5 %\nAntiguo general del imperio. Un hechicero oscuro lo incriminó, y ahora vive en reclusión.",
+      "fr": "Officier, Capacité d\\'entraînement des troupes +5 %\nJadis général de l\\'empire, il fut piégé par un sorcier maléfique et vit désormais reclus.",
+      "id": "Perwira,Batas Pelatihan Prajurit +5%\nMantan jenderal kekaisaran yang diasingkan oleh penyihir hitam.",
+      "ja": "軍官、兵士訓練上限+5%\nかつて帝国の将軍だったが、黒魔術師の陰謀により、この地に身を潜めることになった。",
+      "ko": "장교. 병사 훈련 한도 +5%\n한때 제국의 장군이었으나, 흑마법사의 모함으로 이곳에 은거하게 되었다.",
+      "pt": "Oficial, Capacidade de Treinamento de Soldados +5%\nOutrora um general do império, ele foi incriminado por um feiticeiro sombrio e agora vive recluso."
+    }
+  },
+  {
+    "id": 8,
+    "name": {
+      "ru": "Синди",
+      "en": "Cindy",
+      "de": "Cindy",
+      "es": "Cindy",
+      "fr": "Cindy",
+      "id": "Cindy",
+      "ja": "シンディ",
+      "ko": "신디",
+      "pt": "Cindy"
+    },
+    "character": {
+      "ru": "Осмотрит.",
+      "en": "Cautious",
+      "de": "Vorsichtig",
+      "es": "Prudente",
+      "fr": "Prudent",
+      "id": "Waspada",
+      "ja": "慎重",
+      "ko": "조심스러움",
+      "pt": "Cautela"
+    },
+    "assignedBuilding": {
+      "ru": "Травяной склад",
+      "en": "Herb Warehouse",
+      "icon": "archive"
+    },
+    "desc": {
+      "ru": "Смотритель склада травы, Защита трав +20%\nПокрытые черной сыпью от контакта с Черными крысами, они уже неделю страдают от сильной лихорадки.",
+      "en": "Herb Keeper, Herb protection +20%\nCovered in black rashes from touching Black Rats, they have had a persistent high fever for a week.",
+      "de": "Kräuterspeicherverwalter, Kräuterschutz +20%\nVon schwarzen Ausschlägen bedeckt, nachdem sie Schwarze Ratten berührt haben, leiden sie seit einer Woche unter anhaltendem hohem Fieber.",
+      "es": "Guardián del almacén de hierbas, Hierbas protegidas +20 %\nPresenta erupciones oscuras producto del contacto con ratas negras. Arrastra una fiebre elevada desde hace una semana.",
+      "fr": "Gardien de la réserve d\\'herbes, Protection des herbes +20 %\nCouvert d\\'éruptions cutanées noires suite au contact avec les Rats noirs, une forte fièvre le ronge depuis une semaine.",
+      "id": "Petugas Gudang Obat, Perlindungan bahan obat +20%\nTubuh penuh bintik hitam karena mengelus tikus hitam, demam tinggi selama seminggu.",
+      "ja": "薬材倉庫係、薬材保護+20%\n黒ネズミを撫でてしまい、全身に黒い発疹が広がって高熱が1週間も下がらない。",
+      "ko": "약재 창고 관리원. 약재 보호 +20%\n검은 쥐를 쓰다듬어 온몸에 검은 반점이 생기고, 일주일 동안 고열이 떨어지지 않았다.",
+      "pt": "Encarregado da Botica, Proteção de ervas +20%\nCoberto de erupções pretas por tocar em Ratos Pretos, está com febre alta há uma semana."
+    }
+  },
+  {
+    "id": 9,
+    "name": {
+      "ru": "Аделаида",
+      "en": "Adelaide",
+      "de": "Adelaide",
+      "es": "Adelaide",
+      "fr": "Adélaïde",
+      "id": "Adelaide",
+      "ja": "アデレード",
+      "ko": "아델레이드",
+      "pt": "Adelaide"
+    },
+    "character": {
+      "ru": "Сообразит.",
+      "en": "Smart",
+      "de": "Schlau",
+      "es": "Inteligente",
+      "fr": "Intelligent",
+      "id": "Cerdik",
+      "ja": "器用",
+      "ko": "영리하고 재치 있음",
+      "pt": "Inteligência"
+    },
+    "assignedBuilding": {
+      "ru": "Ферма",
+      "en": "Farm",
+      "icon": "wheat"
+    },
+    "desc": {
+      "ru": "Фермер, Продукция зерна +15%\nПациент из соседнего города, отправившийся в густой лес, обманутый другими в поисках чудодейственного лекарства.",
+      "en": "Farmer, Grain Output +15%\nA patient from the neighboring town, who ventured into the dense forest, misled by others in search of a miracle cure.",
+      "de": "Bauer, Getreideertrag +15%\nEin Patient aus der Nachbarstadt, der sich in den dichten Wald wagte, von anderen in die Irre geführt auf der Suche nach einem Wunderheilmittel.",
+      "es": "Granjero, Producción de grano +15 %\nPaciente del pueblo vecino que se adentró en el bosque frondoso tras ser convencido por otros de que allí hallaría una cura milagrosa.",
+      "fr": "Fermier, Production de céréales +15 %\nUn patient de la ville voisine, qui s\\'est aventuré dans la forêt dense, induits en erreur par d\\'autres en quête d\\'un remède miracle.",
+      "id": "Petani, Produksi Makanan +15%\nPasien dari kota sebelah masuk ke hutan lebat demi mencari obat mujarab karena percaya omongan orang.",
+      "ja": "農家、食料生産量+15%\n隣町から来た患者。特効薬を求め、人づての噂を信じて密林へ入り込んでしまった。",
+      "ko": "농부. 식량 생산량 +15%\n이웃 마을의 환자. 특효약을 찾기 위해 남의 말을 듣고 울창한 숲속으로 들어갔다.",
+      "pt": "Agricultor, Produção de Comida +15%\nUm paciente da cidade vizinha, que se aventurou na floresta densa, enganado por outros em busca de uma cura milagrosa."
+    }
+  },
+  {
+    "id": 10,
+    "name": {
+      "ru": "Линн",
+      "en": "Lynn",
+      "de": "Lynn",
+      "es": "Lynn",
+      "fr": "Lynn",
+      "id": "Lynn",
+      "ja": "リン",
+      "ko": "린",
+      "pt": "Lynn"
+    },
+    "character": {
+      "ru": "Переменчив.",
+      "en": "Moody",
+      "de": "Launisch",
+      "es": "Cambiante",
+      "fr": "Lunatique",
+      "id": "Labil",
+      "ja": "気まぐれ",
+      "ko": "다중 인격",
+      "pt": "Emotividade"
+    },
+    "assignedBuilding": {
+      "ru": "Исследовательская лаборатория",
+      "en": "Research Lab",
+      "icon": "book"
+    },
+    "desc": {
+      "ru": "Исследователь, Скорость исследований +5%\nИз-за Скверны лишился работы и тяжело болен.",
+      "en": "Researcher, Tech Research Speed +5%\nLost the job due to the Blight and suffers from a severe illness.",
+      "de": "Forscher, Technologie Forschungsgeschwindigkeit +5%\nHat wegen der Seuche den Job verloren und leidet an einer schweren Krankheit.",
+      "es": "Investigador, Velocidad de investigación +5 %\nPerdió su trabajo debido a la plaga. Sufre una grave enfermedad.",
+      "fr": "Chercheur, Vitesse de recherche technologique +5 %\nLicencié à cause de la Peste, il souffre d\\'une grave maladie.",
+      "id": "Peneliti, kecepatan Riset Teknologi +5%\nKehilangan pekerjaan karena Wabah Hitam, juga menderita penyakit parah.",
+      "ja": "研究員、技術研究速度+5%\nペストの流行で仕事を失い、自身も重い病を抱えている。",
+      "ko": "연구원. 기술 연구 속도 +5%\n흑사병으로 인해 일자리를 잃었고, 동시에 본인도 중증 질병을 앓고 있다.",
+      "pt": "Q5:Pesquisador, Velocidade de Pesquisa +5%\nPerdeu o emprego devido à Praga e sofre de uma doença grave."
+    }
+  },
+  {
+    "id": 11,
+    "name": {
+      "ru": "Джордж",
+      "en": "George",
+      "de": "George",
+      "es": "George",
+      "fr": "George",
+      "id": "George",
+      "ja": "ジョージ",
+      "ko": "조지",
+      "pt": "George"
+    },
+    "character": {
+      "ru": "Простодушн.",
+      "en": "Simple",
+      "de": "Einfach",
+      "es": "Sencillo/a",
+      "fr": "Simple",
+      "id": "Sederhana",
+      "ja": "単純",
+      "ko": "단순한 두뇌",
+      "pt": "Simplicidade"
+    },
+    "assignedBuilding": {
+      "ru": "Палатка спасения",
+      "en": "Rescue Tent",
+      "icon": "tent"
+    },
+    "desc": {
+      "ru": "Охотник, Вместимость спасательной палатки +5%\nОхотник из густого леса, подхвативший пневмонию от кашля, вызванного Скверной.",
+      "en": "Hunter, Rescue Tent Capacity +5%\nA hunter living in the dense forest, who developed pneumonia from coughing due to the Blight.",
+      "de": "Jäger, Rettungszeltskapazität +5%\nEin Jäger, der im dichten Wald lebt und aufgrund der Seuche durch Husten eine Lungenentzündung entwickelt hat.",
+      "es": "Cazador, Capacidad de la tienda de rescate +5 %\nCazador que vive en el bosque frondoso. Contrajo neumonía tras una tos persistente causada por la plaga.",
+      "fr": "Chasseur, Capacité de la tente de secours +5 %\nUn chasseur vivant dans la forêt dense, atteint de pneumonie suite à une toux persistante, causée par la Peste.",
+      "id": "Pemburu,Kapasitas Tenda Penyelamatan +5%\nPemburu yang tinggal di hutan lebat terkena pneumonia akibat batuk parah karena Wabah Hitam.",
+      "ja": "猟師、救援テント収容量+5%\n密林で暮らす猟師。ペストに罹り、咳が悪化して肺炎へと進行した。",
+      "ko": "사냥꾼. 구조 텐트 수용량 +5%\n울창한 숲속에서 살던 사냥꾼. 흑사병으로 인해 기침이 심해져 폐렴에 걸렸다.",
+      "pt": "Caçador, Capacidade da Tenda de Resgate +5%\nUm caçador que vive na floresta densa, desenvolveu pneumonia devido à tosse causada pela Praga."
+    }
+  },
+  {
+    "id": 12,
+    "name": {
+      "ru": "Анита",
+      "en": "Anita",
+      "de": "Anita",
+      "es": "Anita",
+      "fr": "Anita",
+      "id": "Anita",
+      "ja": "アニータ",
+      "ko": "아니타",
+      "pt": "Anita"
+    },
+    "character": {
+      "ru": "Прямолинейн.",
+      "en": "Frank",
+      "de": "Offen",
+      "es": "Franco/a",
+      "fr": "Franc",
+      "id": "Blak-blakan",
+      "ja": "素直",
+      "ko": "직설적임",
+      "pt": "Franqueza"
+    },
+    "assignedBuilding": {
+      "ru": "Лазарет",
+      "en": "Infirmary",
+      "icon": "heart"
+    },
+    "desc": {
+      "ru": "Сиделка, Скорость лечения +0.03%\nСиделка из соседнего города, сбежавшая в густой лес, когда лазарет заполонили Черные крысы и Скверна.",
+      "en": "Nurse, Healing speed +0.03%\nA nurse from the neighboring town fled into the dense forest after the infirmary was overrun by Black Rats and Blights.",
+      "de": "Krankenschwester, Heilungsgeschwindigkeit +0,03%\nEine Krankenschwester aus der Nachbarstadt floh in den dichten Wald, nachdem die Krankenstation von Schwarzen Ratten und der Seuche überrannt wurde.",
+      "es": "Enfermera, Velocidad de curación +0,03 %\nEnfermera del pueblo vecino que huyó al bosque frondoso después de que las ratas negras e infectados invadieran la enfermería.",
+      "fr": "Infirmière, Vitesse de soin +0,03 %\nUne infirmière de la ville voisine s\\'est réfugiée dans la forêt dense, l\\'Infirmerie ayant été envahie par les Rats noirs et la Peste.",
+      "id": "Perawat,kecepatan penyembuhan +0.03%\nPerawat dari kota sebelah, kabur ke hutan lebat setelah Rumah Sakit dikuasai tikus hitam dan Ghoul.",
+      "ja": "看護師、治療速度+0.03%\n隣町の看護師。病院がネズミとゾンビに占拠されたため、密林へ逃げ込んできた。",
+      "ko": "간호사. 치료 속도 +0.03%\n인근 도시의 간호사. 병원이 검은 쥐와 구울에게 점령당해 숲속으로 도망쳤다.",
+      "pt": "Enfermeira, Velocidade de cura +0,03%\nUma enfermeira da cidade vizinha fugiu para a floresta densa depois que a enfermaria foi invadida por Ratos Negros e Infectados."
+    }
+  },
+  {
+    "id": 13,
+    "name": {
+      "ru": "Белл",
+      "en": "Bell",
+      "de": "Bell",
+      "es": "Bell",
+      "fr": "Bell",
+      "id": "Belle",
+      "ja": "ベル",
+      "ko": "벨",
+      "pt": "Bell"
+    },
+    "character": {
+      "ru": "Добросердеч.",
+      "en": "Kind",
+      "de": "Nett",
+      "es": "Amable",
+      "fr": "Bienveillant",
+      "id": "Baik hati",
+      "ja": "優しい",
+      "ko": "착함",
+      "pt": "Gentileza"
+    },
+    "assignedBuilding": {
+      "ru": "Цветник",
+      "en": "Herb Garden",
+      "icon": "flower"
+    },
+    "desc": {
+      "ru": "Травник, Защита трав +5%\nГлаза часто наливаются кровью, изгнан из родного города в эти края.",
+      "en": "Herbalist, Herb Protection +5%\nFrequently exhibits symptoms of bloodshot eyes, exiled from the original town to this place.",
+      "de": "Kräuterkundiger, Kräuterschutz +5%\nZeigt häufig Symptome von blutunterlaufenen Augen, wurde aus der ursprünglichen Stadt an diesen Ort verbannt.",
+      "es": "Herborista, Hierbas protegidas +5 %\nPresenta episodios recurrentes de enrojecimiento ocular. Terminó aquí luego de que lo exiliaran de su pueblo natal.",
+      "fr": "Herboriste, Protection des herbes +5 %\nSouffre souvent d\\'yeux injectés de sang, exilé de sa ville natale en ces lieux.",
+      "id": "Pengumpul Herbal Perlindungan obat +5%\nSering mengalami mata merah, diusir dari kota asalnya dan terdampar di sini.",
+      "ja": "採薬工、薬材保護+5%\n目の充血が頻発するため元の町から追放され、この地へたどり着いた。",
+      "ko": "약초 채집가. 약재 보호 +5%\n자주 충혈된 눈 증상을 보여 원래 살던 마을에서 추방당해 이곳에 오게 되었다.",
+      "pt": "Herborista, Proteção de Ervas +5%\nFrequentemente exibe sintomas como olhos vermelhos, foi exilado de sua cidade para este lugar."
+    }
+  },
+  {
+    "id": 14,
+    "name": {
+      "ru": "Бланш",
+      "en": "Blanche",
+      "de": "Blanche",
+      "es": "Blanche",
+      "fr": "Blanche",
+      "id": "Blanche",
+      "ja": "ブランシュ",
+      "ko": "블랑쉬",
+      "pt": "Blanche"
+    },
+    "character": {
+      "ru": "Высокомерн.",
+      "en": "Arrogant",
+      "de": "Arrogant",
+      "es": "Arrogante",
+      "fr": "Arrogant",
+      "id": "Sombong",
+      "ja": "自信家",
+      "ko": "거만함",
+      "pt": "Arrogância"
+    },
+    "assignedBuilding": {
+      "ru": "Хижина строителя",
+      "en": "Builder Hut",
+      "icon": "hammer"
+    },
+    "desc": {
+      "ru": "Строитель, 20 мин. ускорения строительства бесплатно\nУвлечен ремонтом, но не в силах орудовать кувалдой из-за Скверны.",
+      "en": "Builder, 20m Construction Speedup for free\nPassionate about repairs, unable to wield the sledgehammer due to the Blight.",
+      "de": "Bauarbeiter, 20 Min. Baubeschleunigung kostenlos\nLeidenschaftlich für Reparaturen, aufgrund der Seuche unfähig, den Vorschlaghammer zu schwingen.",
+      "es": "Constructor, Aceleración de construcción de 20 min gratis\nLe entusiasma reparar cuanto cae en sus manos, aunque la plaga le ha arrebatado la capacidad de usar el martillo.",
+      "fr": "Bâtisseur, 20 min d\\'Accélération de construction gratuites\nPassionné par les réparations, mais incapable de manier la masse en raison de la Peste.",
+      "id": "Pekerja Konstruksi, Waktu percepatan gratis konstruksi 20m\nSangat suka memperbaiki, tapi tak bisa angkat palu besar karena Wabah Hitam.",
+      "ja": "建設作業員、無料建設ブースト時間20分\n修理好きな作業員だが、ペストの影響で重いハンマーを持てなくなってしまった。",
+      "ko": "건설 노동자. 무료 건설 가속 시간 20분\n수리를 매우 좋아하지만, 흑사병으로 인해 무거운 망치를 들 수 없게 되었다.",
+      "pt": "Construtor, Acelerar Construção – 20min grátis\nApaixonado por obras, incapaz de empunhar o martelo devido à Praga."
+    }
+  },
+  {
+    "id": 15,
+    "name": {
+      "ru": "Елизавета",
+      "en": "Elizabeth",
+      "de": "Elisabeth",
+      "es": "Elizabeth",
+      "fr": "Elizabeth",
+      "id": "Elizabeth",
+      "ja": "エリザベス",
+      "ko": "엘리자베스",
+      "pt": "Elizabeth"
+    },
+    "character": {
+      "ru": "Наивн.",
+      "en": "Naive",
+      "de": "Naiv",
+      "es": "Ingenuo/a",
+      "fr": "Naïf",
+      "id": "Lugu & polos",
+      "ja": "無邪気",
+      "ko": "천진난만함",
+      "pt": "Ingenuidade"
+    },
+    "assignedBuilding": {
+      "ru": "Зерновой склад",
+      "en": "Grain Warehouse",
+      "icon": "archive"
+    },
+    "desc": {
+      "ru": "Смотритель склада зерна, Защита зерна +10%\nМаленькая девочка, покрытая красной сыпью. Ее бросили родители и она едва не погибла от сильного жара.",
+      "en": "Grain Keeper, Grain Protection+10%\nA little girl covered in red rashes, who was abandoned by her parents and nearly lost her life due to a high fever.",
+      "de": "Getreidespeicherverwalter, Getreideschutz +10%\nEin kleines Mädchen bedeckt mit roten Ausschlägen, das von seinen Eltern ausgesetzt wurde und aufgrund hohen Fiebers fast sein Leben verlor.",
+      "es": "Guardiana del almacén de grano, Grano protegido +10 %\nUna niña pequeña cubierta de erupciones rojas. Sus padres la abandonaron, y casi pierde la vida producto de una fiebre alta.",
+      "fr": "Gardienne du Grenier à céréales, Protection des céréales +10 %\nUne petite fille couverte d\\'éruptions cutanées rouges, abandonnée par ses parents et ayant failli perdre la vie à cause d\\'une forte fièvre.",
+      "id": "Petugas Gudang Makanan,perlindungan makanan +10%\nGadis kecil dengan ruam di seluruh tubuh, dibuang orangtuanya, nyaris mati karena demam tinggi.",
+      "ja": "食糧倉庫係、食糧保護+10%\n全身に発疹が出て親に捨てられた少女。高熱で命を落としかけたことがある。",
+      "ko": "식량 창고 관리원. 식량 보호 +10%\n온몸에 붉은 발진이 생겨 부모에게 버림받은 어린 소녀. 고열로 인해 목숨을 잃을 뻔했다.",
+      "pt": "Encarregada do Granário, Proteção de Grãos+10%\nUma garotinha coberta de erupções vermelhas, que foi abandonada por seus pais e quase perdeu a vida devido a uma febre alta."
+    }
+  },
+  {
+    "id": 16,
+    "name": {
+      "ru": "Гейл",
+      "en": "Gale",
+      "de": "Gale",
+      "es": "Gale",
+      "fr": "Gale",
+      "id": "Gail",
+      "ja": "ゲイル",
+      "ko": "게일",
+      "pt": "Gale"
+    },
+    "character": {
+      "ru": "Ленив.",
+      "en": "Lazy",
+      "de": "Faul",
+      "es": "Perezoso/a",
+      "fr": "Paresseux",
+      "id": "Malas & rakus",
+      "ja": "ずぼら",
+      "ko": "게으름",
+      "pt": "Preguiça"
+    },
+    "assignedBuilding": {
+      "ru": "Древесный склад",
+      "en": "Timber Warehouse",
+      "icon": "archive"
+    },
+    "desc": {
+      "ru": "Смотритель склада дерева, Защита дерева +10%\nБродяга, который ловит и ест черных крыс, часто слышит голоса по ночам.",
+      "en": "Timber Keeper, Timber Protection +10%\nA vagrant who catches and eats Black Rats, often experiences auditory hallucinations at night.",
+      "de": "Holzspeicherverwalter, Holzschutz +10%\nEin Landstreicher, der Schwarze Ratten fängt und isst, erlebt nachts oft Gehörhalluzinationen.",
+      "es": "Guardián del almacén de madera, Madera protegida +10 %\nSintecho que atrapa y come ratas negras. Suele sufrir alucinaciones auditivas durante la noche.",
+      "fr": "Gardien du dépôt de bois, Protection du bois +10 %\nUn vagabond qui se nourrit de rats noirs, souvent en proie à des hallucinations auditives nocturnes.",
+      "id": "Petugas Gudang Kayu,Perlindungan kayu +10%\nGelandangan yang menangkap tikus hitam untuk dimakan,sering berhalusinasi di malam hari.",
+      "ja": "木材倉庫係、木材保護+10%\n黒ネズミを食べて生き延びてきた放浪者。夜になるとよく幻聴に悩まされる。",
+      "ko": "목재 창고 관리원. 목재 보존 +10%\n쥐를 잡아먹는 부랑자. 밤에는 환청에 시달리곤 한다.",
+      "pt": "Encarregado do Armazém de Madeira, Proteção de Madeira +10%\nUm errante que captura e come Ratos Pretos, frequentemente tem alucinações auditivas à noite."
+    }
+  },
+  {
+    "id": 17,
+    "name": {
+      "ru": "Карина",
+      "en": "Karina",
+      "de": "Karina",
+      "es": "Karina",
+      "fr": "Karina",
+      "id": "Karina",
+      "ja": "カリーナ",
+      "ko": "카리나",
+      "pt": "Karina"
+    },
+    "character": {
+      "ru": "Сочувствующ.",
+      "en": "Gentle",
+      "de": "Sanft",
+      "es": "Gentil",
+      "fr": "Doux",
+      "id": "Pengertian",
+      "ja": "親切",
+      "ko": "강한 배려심",
+      "pt": "Gentileza"
+    },
+    "assignedBuilding": {
+      "ru": "Лазарет",
+      "en": "Infirmary",
+      "icon": "heart"
+    },
+    "desc": {
+      "ru": "Сиделка, Скорость лечения +0.03%\nБожественно одаренная красавица, страдающая от сильного кашля и легкой лихорадки.",
+      "en": "Nurse, Healing Speed +0.03%\nA beautiful woman blessed by the divine, suffering from a severe cough and low fever.",
+      "de": "Krankenschwester, Heilungsgeschwindigkeit +0,03%\nEine schöne Frau, gesegnet vom Göttlichen, die unter starkem Husten und leichtem Fieber leidet.",
+      "es": "Enfermera, Velocidad de curación +0,03 %\nUna hermosa mujer bendecida por lo divino. Sufre de una tos severa y fiebre baja.",
+      "fr": "Infirmière, Vitesse de soin +0,03 %\nUne femme d\\'une beauté divine, bénie des cieux, mais affligée d\\'une toux sévère et d\\'une légère fièvre.",
+      "id": "Perawat,kecepatan penyembuhan +0.03%\nWanita cantik yang diberkati Tuhan, menderita batuk parah dan demam ringan.",
+      "ja": "看護師、治療速度+0.03%\n神に愛されたような美しい女性。ひどい咳と微熱が続いている。",
+      "ko": "간호사. 치료 속도 +0.03%\n신의 은총을 받은 아름다운 여성. 심한 기침과 미열 증상을 앓고 있다.",
+      "pt": "Enfermeira, Velocidade de Cura +0,03%\nUma bela mulher abençoada pelos deuses, sofrendo de tosse severa e febril."
+    }
+  },
+  {
+    "id": 18,
+    "name": {
+      "ru": "Шарлотта",
+      "en": "Charlotte",
+      "de": "Charlotte",
+      "es": "Charlotte",
+      "fr": "Charlotte",
+      "id": "Charlotte",
+      "ja": "シャーロット",
+      "ko": "샬롯",
+      "pt": "Charlotte"
+    },
+    "character": {
+      "ru": "Прагматичн.",
+      "en": "Pragmatic",
+      "de": "Pragmatisch",
+      "es": "Pragmático/a",
+      "fr": "Pragmatique",
+      "id": "Realistis",
+      "ja": "現実的",
+      "ko": "현실적임",
+      "pt": "Pragmatismo"
+    },
+    "assignedBuilding": {
+      "ru": "Лазарет",
+      "en": "Infirmary",
+      "icon": "heart"
+    },
+    "desc": {
+      "ru": "Сиделка, Скорость лечения +0.01%\nИстощенная из-за хронической диареи.",
+      "en": "Nurse, Healing Speed +0.01%\nEmaciated due to chronic diarrhea symptoms.",
+      "de": "Krankenschwester, Heilungsgeschwindigkeit +0,01%\nAufgrund chronischer Durchfallsymptome abgemagert.",
+      "es": "Enfermera, Velocidad de curación +0,01 %\nDemacrada debido a síntomas de diarrea crónica.",
+      "fr": "Infirmière, Vitesse de soin +0,01 %\nÉmaciée par une diarrhée chronique.",
+      "id": "Perawat, Kecepatan penyembuhan +0.01%\nKurus kering akibat diare kronis.",
+      "ja": "看護師、治療速度+0.01%\n長く続く下痢症状で衰弱し、骨と皮ばかりになってしまった。",
+      "ko": "간호사. 치료 속도 +0.01%\n오랫동안 설사를 앓아 앙상한 뼈만 남은 상태다.",
+      "pt": "Enfermeira, Velocidade de Cura +0,01%\nEmaciada devido a sintomas de diarreia crônica."
+    }
+  },
+  {
+    "id": 19,
+    "name": {
+      "ru": "Джулия",
+      "en": "Julia",
+      "de": "Julia",
+      "es": "Julia",
+      "fr": "Julia",
+      "id": "Julia",
+      "ja": "ジュリア",
+      "ko": "줄리아",
+      "pt": "Julia"
+    },
+    "character": {
+      "ru": "Осмотрит.",
+      "en": "Cautious",
+      "de": "Vorsichtig",
+      "es": "Prudente",
+      "fr": "Prudent",
+      "id": "Waspada",
+      "ja": "慎重",
+      "ko": "조심스러움",
+      "pt": "Cautela"
+    },
+    "assignedBuilding": {
+      "ru": "Ферма",
+      "en": "Farm",
+      "icon": "wheat"
+    },
+    "desc": {
+      "ru": "Фермер, Продукция зерна +0.5%\nЖена смертельно больного Роуэна, заблудившаяся в густом лесу в поисках мужа.",
+      "en": "Farmer, Grain Output +0.5%\nThe wife of the critically ill Rowan, lost in the dense forest while searching for her husband.",
+      "de": "Bauer, Getreideertrag +0,5%\nDie Frau des schwer kranken Rowan, die sich auf der Suche nach ihrem Mann im dichten Wald verirrt hat.",
+      "es": "Granjera, Producción de grano +0,5 %\nLa esposa de Rowan, quien está aquejado por una afección severa. Se perdió en el bosque frondoso mientras buscaba a su marido.",
+      "fr": "Fermière, Production de céréales +0,5 %\nL\\'épouse de Rowan, gravement malade, s\\'est égarée dans la forêt dense à la recherche de son mari.",
+      "id": "Petani,Produksi Makanan +0.5%\nIstri Rowan yang sakit parah, tersesat di hutan lebat saat mencari suaminya.",
+      "ja": "農家、食料生産量+0.5%\n重病の夫ロウェンを探すうち密林で迷ってしまった妻。",
+      "ko": "농부. 식량 생산량+0.5%\n중병을 앓는 로웬의 아내. 남편을 찾다가 울창한 숲에서 길을 잃었다.",
+      "pt": "Agricultora, Produção de Comida +0.5%\nA esposa de Rowan, que está gravemente doente, se perdeu na floresta densa enquanto procurava por seu marido."
+    }
+  },
+  {
+    "id": 20,
+    "name": {
+      "ru": "Роуэн",
+      "en": "Rowen",
+      "de": "Rowen",
+      "es": "Rowen",
+      "fr": "Rowen",
+      "id": "Rowen",
+      "ja": "ローウェン",
+      "ko": "로웬",
+      "pt": "Rowen"
+    },
+    "character": {
+      "ru": "Честн.",
+      "en": "Plain",
+      "de": "Schlicht",
+      "es": "Discreto/a",
+      "fr": "Banal",
+      "id": "Bersahaja",
+      "ja": "素朴",
+      "ko": "순진하고 정직함",
+      "pt": "Sinceridade"
+    },
+    "assignedBuilding": {
+      "ru": "Палатка спасения",
+      "en": "Rescue Tent",
+      "icon": "tent"
+    },
+    "desc": {
+      "ru": "Охотник, Вместимость палатки спасения +5%\nУглубился в дремучий лес за зерном, но был окружен Черными Крысами.",
+      "en": "Hunter, Rescue Tent Capacity +5%\nVentured into the dense forest in search of grain, only to be cornered by Black Rats.",
+      "de": "Jäger, Rettungszeltkapazität +5%\nWagte sich auf der Suche nach Getreide in den dichten Wald, nur um von Schwarzen Ratten in die Enge getrieben zu werden.",
+      "es": "Cazador, Capacidad de tienda de rescate +5 %\nSe adentró en el bosque frondoso en búsqueda de granos, pero lo acorralaron las ratas negras.",
+      "fr": "Chasseur, Capacité de la tente de secours +5 %\nS\\'est aventuré dans la forêt dense à la recherche de céréales, pour finir acculé par des Rats noirs.",
+      "id": "Pemburu,kapasitas tenda penyelamat +5%\nMasuk ke hutan lebat mencari Makanan, sayangnya terkepung oleh tikus hitam.",
+      "ja": "ハンター、救援テント収容量+5%\n食料を求めて密林へ入ったが、不運にも黒ネズミに包囲されてしまった。",
+      "ko": "사냥꾼. 구조 텐트 수용량+5%\n식량을 찾아 울창한 숲으로 들어갔다가 불행히도 검은 쥐들에게 포위당했다.",
+      "pt": "Caçador, Capacidade da Tenda de Resgate +5%\nAventurou-se na floresta densa em busca de comida, apenas para ser encurralado por Ratos Pretos."
+    }
+  }
+]

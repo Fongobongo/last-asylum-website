@@ -1,0 +1,652 @@
+{
+  "slots": {
+    "sword": {
+      "slot": 1,
+      "key": "sword",
+      "primaryStat": {
+        "ru": "Атака героя (ATK)",
+        "en": "Hero Attack (ATK)"
+      },
+      "secondaryStat": {
+        "ru": "Критический урон",
+        "en": "Crit Damage"
+      },
+      "classPriority": {
+        "ru": "Приоритет №1 для Рейнджеров и Колдунов (DPS)",
+        "en": "Priority #1 for Rangers and Warlocks (DPS)"
+      },
+      "icon": "sword"
+    },
+    "armor": {
+      "slot": 2,
+      "key": "armor",
+      "primaryStat": {
+        "ru": "Защита героя (DEF)",
+        "en": "Hero Defense (DEF)"
+      },
+      "secondaryStat": {
+        "ru": "Снижение физ. урона",
+        "en": "Physical Damage Reduction"
+      },
+      "classPriority": {
+        "ru": "Приоритет №1 для Воинов (Танки авангарда)",
+        "en": "Priority #1 for Warriors (Frontline Tanks)"
+      },
+      "icon": "shield"
+    },
+    "gauntlets": {
+      "slot": 3,
+      "key": "gauntlets",
+      "primaryStat": {
+        "ru": "Атака и Крит. шанс",
+        "en": "Attack & Crit Chance"
+      },
+      "secondaryStat": {
+        "ru": "Летальность",
+        "en": "Lethality"
+      },
+      "classPriority": {
+        "ru": "Приоритет №2 для атакующих героев",
+        "en": "Priority #2 for Damage Dealers"
+      },
+      "icon": "hand"
+    },
+    "boots": {
+      "slot": 4,
+      "key": "boots",
+      "primaryStat": {
+        "ru": "Очки здоровья (HP)",
+        "en": "Health Points (HP)"
+      },
+      "secondaryStat": {
+        "ru": "Снижение энерг./маг. урона",
+        "en": "Magic Damage Reduction"
+      },
+      "classPriority": {
+        "ru": "Приоритет №2 для Воинов (Танки)",
+        "en": "Priority #2 for Warriors (Tanks)"
+      },
+      "icon": "footprints"
+    }
+  },
+  "items": [
+    {
+      "id": 100201,
+      "slot": 1,
+      "slotKey": "sword",
+      "tier": "R",
+      "color": "#5bbf39",
+      "maxLevel": 10,
+      "name": {
+        "ru": "Меч (R)",
+        "en": "R Sword",
+        "de": "R Schwert",
+        "es": "Espada R",
+        "fr": "Épée R",
+        "id": "Pedang R",
+        "ja": "Rソード",
+        "ko": "R 검",
+        "pt": "Espada R"
+      },
+      "proName": null,
+      "primaryStat": {
+        "ru": "Атака героя (ATK)",
+        "en": "Hero Attack (ATK)"
+      },
+      "secondaryStat": {
+        "ru": "Критический урон",
+        "en": "Crit Damage"
+      },
+      "classPriority": {
+        "ru": "Приоритет №1 для Рейнджеров и Колдунов (DPS)",
+        "en": "Priority #1 for Rangers and Warlocks (DPS)"
+      },
+      "icon": "sword"
+    },
+    {
+      "id": 100202,
+      "slot": 2,
+      "slotKey": "armor",
+      "tier": "R",
+      "color": "#5bbf39",
+      "maxLevel": 10,
+      "name": {
+        "ru": "Броня (R)",
+        "en": "R Armor",
+        "de": "R Rüstung",
+        "es": "Armadura R",
+        "fr": "Armure R",
+        "id": "Armor R",
+        "ja": "Rアーマー",
+        "ko": "R 갑옷",
+        "pt": "Armadura R"
+      },
+      "proName": null,
+      "primaryStat": {
+        "ru": "Защита героя (DEF)",
+        "en": "Hero Defense (DEF)"
+      },
+      "secondaryStat": {
+        "ru": "Снижение физ. урона",
+        "en": "Physical Damage Reduction"
+      },
+      "classPriority": {
+        "ru": "Приоритет №1 для Воинов (Танки авангарда)",
+        "en": "Priority #1 for Warriors (Frontline Tanks)"
+      },
+      "icon": "shield"
+    },
+    {
+      "id": 100203,
+      "slot": 3,
+      "slotKey": "gauntlets",
+      "tier": "R",
+      "color": "#5bbf39",
+      "maxLevel": 10,
+      "name": {
+        "ru": "Наручи (R)",
+        "en": "R Gauntlets",
+        "de": "R Handschuhe",
+        "es": "Guanteletes R",
+        "fr": "Gantelets R",
+        "id": "Pelindung Tangan R",
+        "ja": "Rグローブ",
+        "ko": "R 건틀릿",
+        "pt": "Manoplas R"
+      },
+      "proName": null,
+      "primaryStat": {
+        "ru": "Атака и Крит. шанс",
+        "en": "Attack & Crit Chance"
+      },
+      "secondaryStat": {
+        "ru": "Летальность",
+        "en": "Lethality"
+      },
+      "classPriority": {
+        "ru": "Приоритет №2 для атакующих героев",
+        "en": "Priority #2 for Damage Dealers"
+      },
+      "icon": "hand"
+    },
+    {
+      "id": 100204,
+      "slot": 4,
+      "slotKey": "boots",
+      "tier": "R",
+      "color": "#5bbf39",
+      "maxLevel": 10,
+      "name": {
+        "ru": "Сапоги (R)",
+        "en": "R Boots",
+        "de": "R Stiefel",
+        "es": "Botas R",
+        "fr": "Bottes R",
+        "id": "Sepatu R",
+        "ja": "Rブーツ",
+        "ko": "R 전투 부츠",
+        "pt": "Botas R"
+      },
+      "proName": null,
+      "primaryStat": {
+        "ru": "Очки здоровья (HP)",
+        "en": "Health Points (HP)"
+      },
+      "secondaryStat": {
+        "ru": "Снижение энерг./маг. урона",
+        "en": "Magic Damage Reduction"
+      },
+      "classPriority": {
+        "ru": "Приоритет №2 для Воинов (Танки)",
+        "en": "Priority #2 for Warriors (Tanks)"
+      },
+      "icon": "footprints"
+    },
+    {
+      "id": 100301,
+      "slot": 1,
+      "slotKey": "sword",
+      "tier": "SR",
+      "color": "#379ce9",
+      "maxLevel": 20,
+      "name": {
+        "ru": "Меч (SR)",
+        "en": "SR Sword",
+        "de": "SR Schwert",
+        "es": "Espada SR",
+        "fr": "Épée SR",
+        "id": "Pedang SR",
+        "ja": "SRソード",
+        "ko": "SR 검",
+        "pt": "Espada SR"
+      },
+      "proName": null,
+      "primaryStat": {
+        "ru": "Атака героя (ATK)",
+        "en": "Hero Attack (ATK)"
+      },
+      "secondaryStat": {
+        "ru": "Критический урон",
+        "en": "Crit Damage"
+      },
+      "classPriority": {
+        "ru": "Приоритет №1 для Рейнджеров и Колдунов (DPS)",
+        "en": "Priority #1 for Rangers and Warlocks (DPS)"
+      },
+      "icon": "sword"
+    },
+    {
+      "id": 100302,
+      "slot": 2,
+      "slotKey": "armor",
+      "tier": "SR",
+      "color": "#379ce9",
+      "maxLevel": 20,
+      "name": {
+        "ru": "Броня (SR)",
+        "en": "SR Armor",
+        "de": "SR Rüstung",
+        "es": "Armadura SR",
+        "fr": "Armure SR",
+        "id": "Armor SR",
+        "ja": "SRアーマー",
+        "ko": "SR 갑옷",
+        "pt": "Armadura SR"
+      },
+      "proName": null,
+      "primaryStat": {
+        "ru": "Защита героя (DEF)",
+        "en": "Hero Defense (DEF)"
+      },
+      "secondaryStat": {
+        "ru": "Снижение физ. урона",
+        "en": "Physical Damage Reduction"
+      },
+      "classPriority": {
+        "ru": "Приоритет №1 для Воинов (Танки авангарда)",
+        "en": "Priority #1 for Warriors (Frontline Tanks)"
+      },
+      "icon": "shield"
+    },
+    {
+      "id": 100303,
+      "slot": 3,
+      "slotKey": "gauntlets",
+      "tier": "SR",
+      "color": "#379ce9",
+      "maxLevel": 20,
+      "name": {
+        "ru": "Наручи (SR)",
+        "en": "SR Gauntlets",
+        "de": "SR Handschuhe",
+        "es": "Guanteletes SR",
+        "fr": "Gantelets SR",
+        "id": "Pelindung Tangan SR",
+        "ja": "SRグローブ",
+        "ko": "SR 건틀릿",
+        "pt": "Manoplas SR"
+      },
+      "proName": null,
+      "primaryStat": {
+        "ru": "Атака и Крит. шанс",
+        "en": "Attack & Crit Chance"
+      },
+      "secondaryStat": {
+        "ru": "Летальность",
+        "en": "Lethality"
+      },
+      "classPriority": {
+        "ru": "Приоритет №2 для атакующих героев",
+        "en": "Priority #2 for Damage Dealers"
+      },
+      "icon": "hand"
+    },
+    {
+      "id": 100304,
+      "slot": 4,
+      "slotKey": "boots",
+      "tier": "SR",
+      "color": "#379ce9",
+      "maxLevel": 20,
+      "name": {
+        "ru": "Сапоги (SR)",
+        "en": "SR Boots",
+        "de": "SR Stiefel",
+        "es": "Botas SR",
+        "fr": "Bottes SR",
+        "id": "Sepatu SR",
+        "ja": "SRブーツ",
+        "ko": "SR 전투 부츠",
+        "pt": "Botas SR"
+      },
+      "proName": null,
+      "primaryStat": {
+        "ru": "Очки здоровья (HP)",
+        "en": "Health Points (HP)"
+      },
+      "secondaryStat": {
+        "ru": "Снижение энерг./маг. урона",
+        "en": "Magic Damage Reduction"
+      },
+      "classPriority": {
+        "ru": "Приоритет №2 для Воинов (Танки)",
+        "en": "Priority #2 for Warriors (Tanks)"
+      },
+      "icon": "footprints"
+    },
+    {
+      "id": 100401,
+      "slot": 1,
+      "slotKey": "sword",
+      "tier": "SSR",
+      "color": "#cc47e0",
+      "maxLevel": 30,
+      "name": {
+        "ru": "Меч (SSR)",
+        "en": "SSR Sword",
+        "de": "SSR Schwert",
+        "es": "Espada SSR",
+        "fr": "Épée SSR",
+        "id": "Pedang SSR",
+        "ja": "SSRソード",
+        "ko": "SSR 검",
+        "pt": "Espada SSR"
+      },
+      "proName": null,
+      "primaryStat": {
+        "ru": "Атака героя (ATK)",
+        "en": "Hero Attack (ATK)"
+      },
+      "secondaryStat": {
+        "ru": "Критический урон",
+        "en": "Crit Damage"
+      },
+      "classPriority": {
+        "ru": "Приоритет №1 для Рейнджеров и Колдунов (DPS)",
+        "en": "Priority #1 for Rangers and Warlocks (DPS)"
+      },
+      "icon": "sword"
+    },
+    {
+      "id": 100402,
+      "slot": 2,
+      "slotKey": "armor",
+      "tier": "SSR",
+      "color": "#cc47e0",
+      "maxLevel": 30,
+      "name": {
+        "ru": "Броня (SSR)",
+        "en": "SSR Armor",
+        "de": "SSR Rüstung",
+        "es": "Armadura SSR",
+        "fr": "Armure SSR",
+        "id": "Armor SSR",
+        "ja": "SSRアーマー",
+        "ko": "SSR 갑옷",
+        "pt": "Armadura SSR"
+      },
+      "proName": null,
+      "primaryStat": {
+        "ru": "Защита героя (DEF)",
+        "en": "Hero Defense (DEF)"
+      },
+      "secondaryStat": {
+        "ru": "Снижение физ. урона",
+        "en": "Physical Damage Reduction"
+      },
+      "classPriority": {
+        "ru": "Приоритет №1 для Воинов (Танки авангарда)",
+        "en": "Priority #1 for Warriors (Frontline Tanks)"
+      },
+      "icon": "shield"
+    },
+    {
+      "id": 100403,
+      "slot": 3,
+      "slotKey": "gauntlets",
+      "tier": "SSR",
+      "color": "#cc47e0",
+      "maxLevel": 30,
+      "name": {
+        "ru": "Наручи (SSR)",
+        "en": "SSR Gauntlets",
+        "de": "SSR Handschuhe",
+        "es": "Guanteletes SSR",
+        "fr": "Gantelets SSR",
+        "id": "Pelindung Tangan SSR",
+        "ja": "SSRグローブ",
+        "ko": "SSR 건틀릿",
+        "pt": "Manoplas SSR"
+      },
+      "proName": null,
+      "primaryStat": {
+        "ru": "Атака и Крит. шанс",
+        "en": "Attack & Crit Chance"
+      },
+      "secondaryStat": {
+        "ru": "Летальность",
+        "en": "Lethality"
+      },
+      "classPriority": {
+        "ru": "Приоритет №2 для атакующих героев",
+        "en": "Priority #2 for Damage Dealers"
+      },
+      "icon": "hand"
+    },
+    {
+      "id": 100404,
+      "slot": 4,
+      "slotKey": "boots",
+      "tier": "SSR",
+      "color": "#cc47e0",
+      "maxLevel": 30,
+      "name": {
+        "ru": "Сапоги (SSR)",
+        "en": "SSR Boots",
+        "de": "SSR Stiefel",
+        "es": "Botas SSR",
+        "fr": "Bottes SSR",
+        "id": "Sepatu SSR",
+        "ja": "SSRブーツ",
+        "ko": "SSR 전투 부츠",
+        "pt": "Botas SSR"
+      },
+      "proName": null,
+      "primaryStat": {
+        "ru": "Очки здоровья (HP)",
+        "en": "Health Points (HP)"
+      },
+      "secondaryStat": {
+        "ru": "Снижение энерг./маг. урона",
+        "en": "Magic Damage Reduction"
+      },
+      "classPriority": {
+        "ru": "Приоритет №2 для Воинов (Танки)",
+        "en": "Priority #2 for Warriors (Tanks)"
+      },
+      "icon": "footprints"
+    },
+    {
+      "id": 100501,
+      "slot": 1,
+      "slotKey": "sword",
+      "tier": "UR",
+      "color": "#e47e1e",
+      "maxLevel": 40,
+      "name": {
+        "ru": "Меч (UR)",
+        "en": "UR Sword",
+        "de": "UR Schwert",
+        "es": "Espada UR",
+        "fr": "Épée UR",
+        "id": "Pedang UR",
+        "ja": "URソード",
+        "ko": "UR 검",
+        "pt": "Espada UR"
+      },
+      "proName": {
+        "ru": "Меч (MR)",
+        "en": "MR Sword",
+        "de": "MR Schwert",
+        "es": "Espada MR",
+        "fr": "Épée MR",
+        "id": "Pedang MR",
+        "ja": "MRソード",
+        "ko": "MR 검",
+        "pt": "Espada MR"
+      },
+      "primaryStat": {
+        "ru": "Атака героя (ATK)",
+        "en": "Hero Attack (ATK)"
+      },
+      "secondaryStat": {
+        "ru": "Критический урон",
+        "en": "Crit Damage"
+      },
+      "classPriority": {
+        "ru": "Приоритет №1 для Рейнджеров и Колдунов (DPS)",
+        "en": "Priority #1 for Rangers and Warlocks (DPS)"
+      },
+      "icon": "sword"
+    },
+    {
+      "id": 100502,
+      "slot": 2,
+      "slotKey": "armor",
+      "tier": "UR",
+      "color": "#e47e1e",
+      "maxLevel": 40,
+      "name": {
+        "ru": "Броня (UR)",
+        "en": "UR Armor",
+        "de": "UR Rüstung",
+        "es": "Armadura UR",
+        "fr": "Armure UR",
+        "id": "Armor UR",
+        "ja": "URアーマー",
+        "ko": "UR 갑옷",
+        "pt": "Armadura UR"
+      },
+      "proName": {
+        "ru": "Броня (MR)",
+        "en": "MR Armor",
+        "de": "MR Rüstung",
+        "es": "Armadura MR",
+        "fr": "Armure MR",
+        "id": "Armor MR",
+        "ja": "MRアーマー",
+        "ko": "MR 갑옷",
+        "pt": "Armadura MR"
+      },
+      "primaryStat": {
+        "ru": "Защита героя (DEF)",
+        "en": "Hero Defense (DEF)"
+      },
+      "secondaryStat": {
+        "ru": "Снижение физ. урона",
+        "en": "Physical Damage Reduction"
+      },
+      "classPriority": {
+        "ru": "Приоритет №1 для Воинов (Танки авангарда)",
+        "en": "Priority #1 for Warriors (Frontline Tanks)"
+      },
+      "icon": "shield"
+    },
+    {
+      "id": 100503,
+      "slot": 3,
+      "slotKey": "gauntlets",
+      "tier": "UR",
+      "color": "#e47e1e",
+      "maxLevel": 40,
+      "name": {
+        "ru": "Наручи (UR)",
+        "en": "UR Gauntlets",
+        "de": "UR Handschuhe",
+        "es": "Guanteletes UR",
+        "fr": "Gantelets UR",
+        "id": "Pelindung Tangan UR",
+        "ja": "URグローブ",
+        "ko": "UR 건틀릿",
+        "pt": "Manoplas UR"
+      },
+      "proName": {
+        "ru": "Наручи (MR)",
+        "en": "MR Gauntlets",
+        "de": "MR Handschuhe",
+        "es": "Guanteletes MR",
+        "fr": "Gantelets MR",
+        "id": "Pelindung Tangan MR",
+        "ja": "MRグローブ",
+        "ko": "MR 건틀릿",
+        "pt": "Manoplas MR"
+      },
+      "primaryStat": {
+        "ru": "Атака и Крит. шанс",
+        "en": "Attack & Crit Chance"
+      },
+      "secondaryStat": {
+        "ru": "Летальность",
+        "en": "Lethality"
+      },
+      "classPriority": {
+        "ru": "Приоритет №2 для атакующих героев",
+        "en": "Priority #2 for Damage Dealers"
+      },
+      "icon": "hand"
+    },
+    {
+      "id": 100504,
+      "slot": 4,
+      "slotKey": "boots",
+      "tier": "UR",
+      "color": "#e47e1e",
+      "maxLevel": 40,
+      "name": {
+        "ru": "Сапоги (UR)",
+        "en": "UR Boots",
+        "de": "UR Stiefel",
+        "es": "Botas UR",
+        "fr": "Bottes UR",
+        "id": "Sepatu UR",
+        "ja": "URブーツ",
+        "ko": "UR 전투 부츠",
+        "pt": "Botas UR"
+      },
+      "proName": {
+        "ru": "Сапоги (MR)",
+        "en": "MR Boots",
+        "de": "MR Stiefel",
+        "es": "Botas MR",
+        "fr": "Bottes MR",
+        "id": "Sepatu MR",
+        "ja": "MRブーツ",
+        "ko": "MR 전투 부츠",
+        "pt": "Botas MR"
+      },
+      "primaryStat": {
+        "ru": "Очки здоровья (HP)",
+        "en": "Health Points (HP)"
+      },
+      "secondaryStat": {
+        "ru": "Снижение энерг./маг. урона",
+        "en": "Magic Damage Reduction"
+      },
+      "classPriority": {
+        "ru": "Приоритет №2 для Воинов (Танки)",
+        "en": "Priority #2 for Warriors (Tanks)"
+      },
+      "icon": "footprints"
+    }
+  ],
+  "promotionGuide": {
+    "title": {
+      "ru": "Продвижение снаряжения UR до Мифического (MR)",
+      "en": "UR Gear Promotion to Mythic (MR)"
+    },
+    "description": {
+      "ru": "По достижении ур. 40 снаряжение UR качества можно продвинуть до MR (красный ранг). Продвижение открывает эксклюзивные процентные множители к урону отряда и снижению получаемого урона.",
+      "en": "Upon reaching Lv. 40, UR gear can be promoted to MR (Mythic Red tier). Promotion unlocks exclusive squad damage and damage reduction percentage multipliers."
+    }
+  }
+}

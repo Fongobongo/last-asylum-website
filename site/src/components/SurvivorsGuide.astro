@@ -1,0 +1,413 @@
+---
+import survivorsData from '../data/officialSurvivors.json';
+import type { Lang } from '../i18n/utils';
+
+interface Props {
+  lang?: Lang;
+}
+
+const { lang = 'ru' } = Astro.props;
+
+const i18n = {
+  ru: {
+    title: '👥 Выжившие и Резиденция: Оптимизация бонусов',
+    subtitle: 'Полная база 20 выживших из клиента игры. Назначайте их в Резиденции на соответствующие здания для получения максимальных пассивных усилений экономики и строительства.',
+    placeholder: '🔍 Поиск выжившего, профессии или бонуса...',
+    allProfessions: 'Все выжившие',
+    assignedTo: 'Назначение в:',
+    trait: 'Характер:',
+    found: 'Выживших:',
+    noResults: 'Выжившие не найдены.',
+    filterByRole: 'Категория:',
+    allRoles: 'Все',
+    resRole: 'Ресурсы (Дерево/Зерно/Трава)',
+    buildRole: 'Строительство и Исследования',
+    militaryRole: 'Войска и Спасение',
+    infirmaryRole: 'Лазарет и Лечение',
+    tipTitle: 'Совет по назначению в Резиденции:',
+    tipText: 'В первую очередь ставьте Строителей (Элис и Бланш дают до 50 минут бесплатного ускорения) и Исследователей (Линн +5% скорости науки), а также Дровосеков и Фермеров на склады и добычу.',
+  },
+  en: {
+    title: '👥 Survivors & Residence: Optimization Guide',
+    subtitle: 'Complete database of 20 survivors from game data. Assign them in the Residence to corresponding city buildings for massive passive economy and construction buffs.',
+    placeholder: '🔍 Search survivor, profession, or buff...',
+    allProfessions: 'All Survivors',
+    assignedTo: 'Assigned to:',
+    trait: 'Trait:',
+    found: 'Survivors:',
+    noResults: 'No survivors found.',
+    filterByRole: 'Category:',
+    allRoles: 'All',
+    resRole: 'Resources (Timber/Grain/Herb)',
+    buildRole: 'Build & Research',
+    militaryRole: 'Troops & Rescue',
+    infirmaryRole: 'Infirmary & Healing',
+    tipTitle: 'Residence Assignment Tip:',
+    tipText: 'Prioritize Builders (Alice and Blanche provide up to 50 min free speedup) and Researchers (Lynn +5% science speed), followed by Lumberjacks and Farmers.',
+  },
+  de: {
+    title: '👥 Überlebende & Residenz: Optimierungsleitfaden',
+    subtitle: 'Vollständige Datenbank von 20 Überlebenden aus dem Spiel.',
+    placeholder: '🔍 Überlebenden, Beruf oder Bonus suchen...',
+    allProfessions: 'Alle Überlebenden',
+    assignedTo: 'Zugewiesen an:',
+    trait: 'Charakter:',
+    found: 'Überlebende:',
+    noResults: 'Keine Überlebenden gefunden.',
+    filterByRole: 'Kategorie:',
+    allRoles: 'Alle',
+    resRole: 'Ressourcen',
+    buildRole: 'Bau & Forschung',
+    militaryRole: 'Truppen & Rettung',
+    infirmaryRole: 'Krankenhaus',
+    tipTitle: 'Tipp:',
+    tipText: 'Priorisieren Sie Baumeister und Forscher in der Residenz.',
+  },
+  es: {
+    title: '👥 Supervivientes y Residencia: Guía de Optimización',
+    subtitle: 'Base de datos completa de 20 supervivientes del juego.',
+    placeholder: '🔍 Buscar superviviente, profesión o bono...',
+    allProfessions: 'Todos',
+    assignedTo: 'Asignado a:',
+    trait: 'Rasgo:',
+    found: 'Supervivientes:',
+    noResults: 'No se encontraron supervivientes.',
+    filterByRole: 'Categoría:',
+    allRoles: 'Todas',
+    resRole: 'Recursos',
+    buildRole: 'Construcción e Investigación',
+    militaryRole: 'Tropas y Rescate',
+    infirmaryRole: 'Enfermería',
+    tipTitle: 'Consejo:',
+    tipText: 'Prioriza Constructores e Investigadores en la Residencia.',
+  },
+  fr: {
+    title: '👥 Survivants et Résidence : Guide d\'Optimisation',
+    subtitle: 'Base de données complète des 20 survivants.',
+    placeholder: '🔍 Rechercher un survivant, métier ou bonus...',
+    allProfessions: 'Tous les Survivants',
+    assignedTo: 'Affecté à :',
+    trait: 'Caractère :',
+    found: 'Survivants :',
+    noResults: 'Aucun survivant trouvé.',
+    filterByRole: 'Catégorie :',
+    allRoles: 'Toutes',
+    resRole: 'Ressources',
+    buildRole: 'Construction & Recherche',
+    militaryRole: 'Troupes & Sauvetage',
+    infirmaryRole: 'Infirmerie',
+    tipTitle: 'Conseil :',
+    tipText: 'Donnez la priorité aux Bâtisseurs et Chercheurs.',
+  },
+  id: {
+    title: '👥 Penyintas & Kediaman: Panduan Optimasi',
+    subtitle: 'Basis data lengkap 20 penyintas dari klien game.',
+    placeholder: '🔍 Cari penyintas, profesi, atau buff...',
+    allProfessions: 'Semua Penyintas',
+    assignedTo: 'Ditempatkan di:',
+    trait: 'Karakter:',
+    found: 'Penyintas:',
+    noResults: 'Penyintas tidak ditemukan.',
+    filterByRole: 'Kategori:',
+    allRoles: 'Semua',
+    resRole: 'Sumber Daya',
+    buildRole: 'Konstruksi & Riset',
+    militaryRole: 'Pasukan',
+    infirmaryRole: 'Rumah Sakit',
+    tipTitle: 'Tips:',
+    tipText: 'Prioritaskan Pembangun dan Peneliti di Kediaman.',
+  },
+  ja: {
+    title: '👥 生存者と官邸：配置とバフ最適化ガイド',
+    subtitle: '公式クライアントデータに基づく20名の生存者一覧。',
+    placeholder: '🔍 生存者名、役職、バフで検索...',
+    allProfessions: '全生存者',
+    assignedTo: '配置先施設：',
+    trait: '性格：',
+    found: '生存者数：',
+    noResults: '見つかりませんでした。',
+    filterByRole: '分類：',
+    allRoles: 'すべて',
+    resRole: '資源生産',
+    buildRole: '建設・研究',
+    militaryRole: '軍事・救援',
+    infirmaryRole: '治療・病院',
+    tipTitle: '官邸配置のコツ：',
+    tipText: 'まずは建設時間短縮（アリス等）と研究加速（リン）を優先配置しましょう。',
+  },
+  ko: {
+    title: '👥 생존자 및 관저: 버프 최적화 가이드',
+    subtitle: '게임 내 20명 생존자 전체 목록 및 최적 배치 시설 안내.',
+    placeholder: '🔍 생존자 이름, 직업 또는 효과 검색...',
+    allProfessions: '전체 생존자',
+    assignedTo: '배치 시설:',
+    trait: '성격:',
+    found: '생존자 수:',
+    noResults: '생존자를 찾을 수 없습니다.',
+    filterByRole: '분류:',
+    allRoles: '전체',
+    resRole: '자원 생산',
+    buildRole: '건설 및 연구',
+    militaryRole: '병력 및 구호',
+    infirmaryRole: '병원 및 치료',
+    tipTitle: '관저 배치 팁:',
+    tipText: '건설 무료 가속(엘리스, 블랑쉬) 및 연구 속도(린) 생존자를 최우선으로 배치하세요.',
+  },
+  pt: {
+    title: '👥 Sobreviventes e Residência: Otimização de Bônus',
+    subtitle: 'Banco de dados de 20 sobreviventes do jogo oficial.',
+    placeholder: '🔍 Buscar sobrevivente, profissão ou bônus...',
+    allProfessions: 'Todos os Sobreviventes',
+    assignedTo: 'Atribuído a:',
+    trait: 'Personalidade:',
+    found: 'Sobreviventes:',
+    noResults: 'Nenhum sobrevivente encontrado.',
+    filterByRole: 'Categoria:',
+    allRoles: 'Todas',
+    resRole: 'Recursos',
+    buildRole: 'Construção & Pesquisa',
+    militaryRole: 'Tropas & Resgate',
+    infirmaryRole: 'Enfermaria',
+    tipTitle: 'Dica:',
+    tipText: 'Priorize Construtores e Pesquisadores na Residência.',
+  },
+};
+
+const t = i18n[lang as keyof typeof i18n] || i18n.en;
+
+const formattedSurvivors = (survivorsData as any[]).map((s) => {
+  const name = s.name?.[lang] || s.name?.ru || s.name?.en || `Survivor #${s.id}`;
+  const character = s.character?.[lang] || s.character?.ru || s.character?.en || '';
+  const desc = s.desc?.[lang] || s.desc?.ru || s.desc?.en || '';
+  const buildingName = s.assignedBuilding?.[lang] || s.assignedBuilding?.ru || s.assignedBuilding?.en || 'Residence';
+  const icon = s.assignedBuilding?.icon || 'user';
+
+  // Role categorization
+  let category = 'resources';
+  if ([5, 10, 14].includes(s.id)) category = 'build';
+  else if ([7, 11, 20].includes(s.id)) category = 'military';
+  else if ([12, 17, 18].includes(s.id)) category = 'infirmary';
+
+  return {
+    id: s.id,
+    name,
+    character,
+    desc,
+    buildingName,
+    icon,
+    category,
+  };
+});
+---
+
+<section class="not-prose my-10 rounded-3xl border border-toxic-500/30 bg-stone-950/80 p-6 sm:p-8 backdrop-blur-xl shadow-[0_0_50px_rgba(0,0,0,0.6)]" id="survivors-guide-app">
+  <div class="mb-6 flex flex-col gap-2">
+    <div class="flex items-center gap-3">
+      <span class="rounded-xl border border-toxic-500/40 bg-toxic-950/60 px-3 py-1 text-xs font-bold text-toxic-400">
+        20 SURVIVORS
+      </span>
+      <span class="text-xs text-stone-500 font-mono">RESIDENCE ASSIGNMENT</span>
+    </div>
+    <h2 class="text-2xl font-bold tracking-tight text-toxic-400 sm:text-3xl">{t.title}</h2>
+    <p class="text-sm text-stone-400 max-w-3xl">{t.subtitle}</p>
+  </div>
+
+  <!-- Tactical Tip -->
+  <div class="mb-6 rounded-2xl border border-stone-800 bg-stone-900/60 p-4 sm:p-5">
+    <div class="flex items-center gap-2 mb-2">
+      <span class="text-lg">🏡</span>
+      <h3 class="text-sm font-bold text-stone-200">{t.tipTitle}</h3>
+    </div>
+    <p class="text-xs text-stone-400 leading-relaxed">{t.tipText}</p>
+  </div>
+
+  <!-- Filter & Search Controls -->
+  <div class="space-y-4">
+    <div class="relative flex items-center">
+      <input
+        type="text"
+        id="survivor-search-input"
+        class="w-full rounded-2xl border border-stone-800 bg-stone-900/90 px-4 py-3.5 pl-11 text-sm text-stone-100 placeholder-stone-500 transition-all focus:border-toxic-500 focus:bg-black focus:outline-none focus:ring-2 focus:ring-toxic-500/30"
+        placeholder={t.placeholder}
+        autocomplete="off"
+      />
+      <span class="absolute left-4 text-stone-400">🔍</span>
+      <button
+        id="survivor-clear-btn"
+        class="absolute right-3 hidden rounded-lg bg-stone-800 px-2.5 py-1 text-xs text-stone-400 hover:bg-stone-700 hover:text-white transition"
+      >
+        ✕
+      </button>
+    </div>
+
+    <!-- Category Filters -->
+    <div class="flex flex-wrap gap-2 pt-1" id="survivor-category-tabs">
+      <button
+        type="button"
+        data-cat="all"
+        class="survivor-cat-btn rounded-xl px-3.5 py-1.5 text-xs font-semibold bg-toxic-500 text-stone-950 shadow-[0_0_15px_rgba(180,255,57,0.3)] transition-all"
+      >
+        {t.allRoles} ({formattedSurvivors.length})
+      </button>
+      <button
+        type="button"
+        data-cat="build"
+        class="survivor-cat-btn rounded-xl border border-stone-800 bg-stone-900/60 px-3.5 py-1.5 text-xs font-semibold text-stone-400 hover:border-toxic-500/40 hover:text-stone-200 transition-all"
+      >
+        🔨 {t.buildRole}
+      </button>
+      <button
+        type="button"
+        data-cat="resources"
+        class="survivor-cat-btn rounded-xl border border-stone-800 bg-stone-900/60 px-3.5 py-1.5 text-xs font-semibold text-stone-400 hover:border-toxic-500/40 hover:text-stone-200 transition-all"
+      >
+        🌾 {t.resRole}
+      </button>
+      <button
+        type="button"
+        data-cat="military"
+        class="survivor-cat-btn rounded-xl border border-stone-800 bg-stone-900/60 px-3.5 py-1.5 text-xs font-semibold text-stone-400 hover:border-toxic-500/40 hover:text-stone-200 transition-all"
+      >
+        🛡️ {t.militaryRole}
+      </button>
+      <button
+        type="button"
+        data-cat="infirmary"
+        class="survivor-cat-btn rounded-xl border border-stone-800 bg-stone-900/60 px-3.5 py-1.5 text-xs font-semibold text-stone-400 hover:border-toxic-500/40 hover:text-stone-200 transition-all"
+      >
+        ❤️ {t.infirmaryRole}
+      </button>
+    </div>
+
+    <!-- Counter -->
+    <div class="flex items-center justify-between text-xs text-stone-400 px-1">
+      <div>
+        {t.found} <span id="survivor-count" class="font-bold text-toxic-400">{formattedSurvivors.length}</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Survivors Grid -->
+  <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3" id="survivor-cards-container">
+    {formattedSurvivors.map((s) => (
+      <div
+        class="survivor-card flex flex-col justify-between rounded-2xl border border-stone-800 bg-stone-900/40 p-4 transition-all hover:border-toxic-500/50 hover:bg-stone-900/80 hover:shadow-lg"
+        data-category={s.category}
+        data-search={`${s.name} ${s.desc} ${s.buildingName} ${s.character}`.toLowerCase()}
+      >
+        <div>
+          <div class="mb-2 flex items-center justify-between">
+            <span class="rounded-lg border border-stone-800 bg-stone-950 px-2.5 py-0.5 text-xs font-bold text-toxic-400">
+              {s.name}
+            </span>
+            {s.character && (
+              <span class="rounded-md border border-stone-800 bg-stone-900/80 px-2 py-0.5 text-[10px] text-stone-400">
+                {t.trait} {s.character}
+              </span>
+            )}
+          </div>
+
+          <!-- Assignment building badge -->
+          <div class="mb-3 inline-flex items-center gap-1.5 rounded-lg border border-stone-800/80 bg-stone-950/60 px-2.5 py-1 text-xs text-stone-300">
+            <span class="text-stone-400">{t.assignedTo}</span>
+            <span class="font-semibold text-stone-200">{s.buildingName}</span>
+          </div>
+
+          <!-- Buff and Lore description -->
+          <p class="whitespace-pre-line text-xs text-stone-300 leading-relaxed font-sans">
+            {s.desc}
+          </p>
+        </div>
+
+        <div class="mt-3 pt-2.5 border-t border-stone-800/60 flex items-center justify-between text-[11px] text-stone-500">
+          <span>ID #{s.id}</span>
+          <span class="text-toxic-400/80 font-medium">Резиденция</span>
+        </div>
+      </div>
+    ))}
+  </div>
+
+  <!-- Empty state -->
+  <div id="survivor-no-results" class="hidden mt-8 rounded-2xl border border-dashed border-stone-800 p-8 text-center text-sm text-stone-400">
+    <p class="text-3xl mb-2">👥</p>
+    <p>{t.noResults}</p>
+  </div>
+</section>
+
+<script>
+  function initSurvivorsGuide() {
+    const input = document.getElementById('survivor-search-input') as HTMLInputElement | null;
+    const clearBtn = document.getElementById('survivor-clear-btn');
+    const cards = document.querySelectorAll<HTMLElement>('.survivor-card');
+    const catBtns = document.querySelectorAll<HTMLButtonElement>('.survivor-cat-btn');
+    const countSpan = document.getElementById('survivor-count');
+    const noResults = document.getElementById('survivor-no-results');
+
+    if (!cards.length) return;
+
+    let activeCat = 'all';
+
+    function filterSurvivors() {
+      const query = (input?.value || '').trim().toLowerCase();
+      let visible = 0;
+
+      cards.forEach((card) => {
+        const cat = card.dataset.category || '';
+        const searchTarget = card.dataset.search || '';
+
+        const matchesCat = activeCat === 'all' || cat === activeCat;
+        const matchesQuery = !query || searchTarget.includes(query);
+
+        if (matchesCat && matchesQuery) {
+          card.style.display = 'flex';
+          visible++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      if (countSpan) countSpan.textContent = visible.toString();
+      if (noResults) {
+        noResults.style.display = visible === 0 ? 'block' : 'none';
+      }
+      if (clearBtn) {
+        clearBtn.style.display = query.length > 0 ? 'block' : 'none';
+      }
+    }
+
+    if (input) {
+      input.addEventListener('input', filterSurvivors);
+    }
+
+    if (clearBtn) {
+      clearBtn.addEventListener('click', () => {
+        if (input) {
+          input.value = '';
+          input.focus();
+          filterSurvivors();
+        }
+      });
+    }
+
+    catBtns.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        activeCat = btn.dataset.cat || 'all';
+
+        catBtns.forEach((b) => {
+          if (b === btn) {
+            b.classList.remove('border', 'border-stone-800', 'bg-stone-900/60', 'text-stone-400');
+            b.classList.add('bg-toxic-500', 'text-stone-950', 'shadow-[0_0_15px_rgba(180,255,57,0.3)]');
+          } else {
+            b.classList.remove('bg-toxic-500', 'text-stone-950', 'shadow-[0_0_15px_rgba(180,255,57,0.3)]');
+            b.classList.add('border', 'border-stone-800', 'bg-stone-900/60', 'text-stone-400');
+          }
+        });
+
+        filterSurvivors();
+      });
+    });
+  }
+
+  initSurvivorsGuide();
+  document.addEventListener('astro:page-load', initSurvivorsGuide);
+</script>

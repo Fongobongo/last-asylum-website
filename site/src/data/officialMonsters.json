@@ -1,0 +1,1296 @@
+{
+  "solo": [
+    {
+      "level": 1,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    },
+    {
+      "level": 2,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    },
+    {
+      "level": 3,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    },
+    {
+      "level": 4,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    },
+    {
+      "level": 5,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    },
+    {
+      "level": 6,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    },
+    {
+      "level": 7,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    },
+    {
+      "level": 8,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    },
+    {
+      "level": 9,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    },
+    {
+      "level": 10,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    },
+    {
+      "level": 11,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    },
+    {
+      "level": 12,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    },
+    {
+      "level": 13,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    },
+    {
+      "level": 14,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    },
+    {
+      "level": 15,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    },
+    {
+      "level": 16,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    },
+    {
+      "level": 17,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    },
+    {
+      "level": 18,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    },
+    {
+      "level": 19,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    },
+    {
+      "level": 20,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    },
+    {
+      "level": 21,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    },
+    {
+      "level": 22,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    },
+    {
+      "level": 23,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    },
+    {
+      "level": 24,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    },
+    {
+      "level": 25,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    },
+    {
+      "level": 26,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    },
+    {
+      "level": 27,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    },
+    {
+      "level": 28,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    },
+    {
+      "level": 29,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    },
+    {
+      "level": 30,
+      "name": {
+        "ru": "Чумной крестьянин",
+        "en": "Grain Blight",
+        "de": "Verseuchter Bauer",
+        "es": "Granjero infectado",
+        "fr": "Fermier infecté",
+        "id": "Ghoul Petani",
+        "ja": "農家ゾンビ",
+        "ko": "농부 구울",
+        "pt": "Fazendeiro Infectado"
+      },
+      "staminaCost": 10,
+      "type": "solo"
+    }
+  ],
+  "rally": [
+    {
+      "level": 1,
+      "name": {
+        "ru": "Элитная скверна ур. 1",
+        "en": "Lv.1 Elite Blight",
+        "de": "Lv.1 Elite-Seuche",
+        "es": "Infectado de élite Nv.1",
+        "fr": "Peste majeure Niv. 1",
+        "id": "Ghoul Elite Lv.1",
+        "ja": "Lv.1エリートゾンビ",
+        "ko": "Lv.1 정예 좀비",
+        "pt": "Elite Infectado Nv.1"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    },
+    {
+      "level": 2,
+      "name": {
+        "ru": "Элитная скверна ур. 2",
+        "en": "Lv.2 Elite Blight",
+        "de": "Lv.2 Elite-Seuche",
+        "es": "Infectado de élite Nv.2",
+        "fr": "Peste majeure Niv. 2",
+        "id": "Ghoul Elite Lv.2",
+        "ja": "Lv.2エリートゾンビ",
+        "ko": "Lv.2 정예 좀비",
+        "pt": "Elite Infectado Nv.2"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    },
+    {
+      "level": 3,
+      "name": {
+        "ru": "Элитная скверна ур. 3",
+        "en": "Lv.3 Elite Blight",
+        "de": "Lv.3 Elite-Seuche",
+        "es": "Infectado de élite Nv.3",
+        "fr": "Peste majeure Niv. 3",
+        "id": "Ghoul Elite Lv.3",
+        "ja": "Lv.3エリートゾンビ",
+        "ko": "Lv.3 정예 좀비",
+        "pt": "Elite Infectado Nv.3"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    },
+    {
+      "level": 4,
+      "name": {
+        "ru": "Элитная скверна ур. 4",
+        "en": "Lv.4 Elite Blight",
+        "de": "Lv.4 Elite-Seuche",
+        "es": "Infectado de élite Nv.4",
+        "fr": "Peste majeure Niv. 4",
+        "id": "Ghoul Elite Lv.4",
+        "ja": "Lv.4エリートゾンビ",
+        "ko": "Lv.4 정예 좀비",
+        "pt": "Elite Infectado Nv.4"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    },
+    {
+      "level": 5,
+      "name": {
+        "ru": "Элитная скверна ур. 5",
+        "en": "Lv.5 Elite Blight",
+        "de": "Lv.5 Elite-Seuche",
+        "es": "Infectado de élite Nv.5",
+        "fr": "Peste majeure Niv. 5",
+        "id": "Ghoul Elite Lv.5",
+        "ja": "Lv.5エリートゾンビ",
+        "ko": "Lv.5 정예 좀비",
+        "pt": "Elite Infectado Nv.5"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    },
+    {
+      "level": 6,
+      "name": {
+        "ru": "Элитная скверна ур. 6",
+        "en": "Lv.6 Elite Blight",
+        "de": "Lv.6 Elite-Seuche",
+        "es": "Infectado de élite Nv.6",
+        "fr": "Peste majeure Niv. 6",
+        "id": "Ghoul Elite Lv.6",
+        "ja": "Lv.6エリートゾンビ",
+        "ko": "Lv.6 정예 좀비",
+        "pt": "Elite Infectado Nv.6"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    },
+    {
+      "level": 7,
+      "name": {
+        "ru": "Элитная скверна ур. 7",
+        "en": "Lv.7 Elite Blight",
+        "de": "Lv.7 Elite-Seuche",
+        "es": "Infectado de élite Nv.7",
+        "fr": "Peste majeure Niv. 7",
+        "id": "Ghoul Elite Lv.7",
+        "ja": "Lv.7エリートゾンビ",
+        "ko": "Lv.7 정예 좀비",
+        "pt": "Elite Infectado Nv.7"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    },
+    {
+      "level": 8,
+      "name": {
+        "ru": "Элитная скверна ур. 8",
+        "en": "Lv.8 Elite Blight",
+        "de": "Lv.8 Elite-Seuche",
+        "es": "Infectado de élite Nv.8",
+        "fr": "Peste majeure Niv. 8",
+        "id": "Ghoul Elite Lv.8",
+        "ja": "Lv.8エリートゾンビ",
+        "ko": "Lv.8 정예 좀비",
+        "pt": "Elite Infectado Nv.8"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    },
+    {
+      "level": 9,
+      "name": {
+        "ru": "Элитная скверна ур. 9",
+        "en": "Lv.9 Elite Blight",
+        "de": "Lv.9 Elite-Seuche",
+        "es": "Infectado de élite Nv.9",
+        "fr": "Peste majeure Niv. 9",
+        "id": "Ghoul Elite Lv.9",
+        "ja": "Lv.9エリートゾンビ",
+        "ko": "Lv.9 정예 좀비",
+        "pt": "Elite Infectado Nv.9"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    },
+    {
+      "level": 10,
+      "name": {
+        "ru": "Элитная скверна ур. 10",
+        "en": "Lv.10 Elite Blight",
+        "de": "Lv.10 Elite-Seuche",
+        "es": "Infectado de élite Nv.10",
+        "fr": "Peste majeure Niv. 10",
+        "id": "Ghoul Elite Lv.10",
+        "ja": "Lv.10エリートゾンビ",
+        "ko": "Lv.10 정예 좀비",
+        "pt": "Elite Infectado Nv.10"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    },
+    {
+      "level": 11,
+      "name": {
+        "ru": "Элитная скверна ур. 11",
+        "en": "Lv.11 Elite Blight",
+        "de": "Lv.11 Elite-Seuche",
+        "es": "Infectado de élite Nv.11",
+        "fr": "Peste majeure Niv. 11",
+        "id": "Ghoul Elite Lv.11",
+        "ja": "Lv.11エリートゾンビ",
+        "ko": "Lv.11 정예 좀비",
+        "pt": "Elite Infectado Nv.11"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    },
+    {
+      "level": 12,
+      "name": {
+        "ru": "Элитная скверна ур. 12",
+        "en": "Lv.12 Elite Blight",
+        "de": "Lv.12 Elite-Seuche",
+        "es": "Infectado de élite Nv.12",
+        "fr": "Peste majeure Niv. 12",
+        "id": "Ghoul Elite Lv.12",
+        "ja": "Lv.12エリートゾンビ",
+        "ko": "Lv.12 정예 좀비",
+        "pt": "Elite Infectado Nv.12"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    },
+    {
+      "level": 13,
+      "name": {
+        "ru": "Элитная скверна ур. 13",
+        "en": "Lv.13 Elite Blight",
+        "de": "Lv.13 Elite-Seuche",
+        "es": "Infectado de élite Nv.13",
+        "fr": "Peste majeure Niv. 13",
+        "id": "Ghoul Elite Lv.13",
+        "ja": "Lv.13エリートゾンビ",
+        "ko": "Lv.13 정예 좀비",
+        "pt": "Elite Infectado Nv.13"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    },
+    {
+      "level": 14,
+      "name": {
+        "ru": "Элитная скверна ур. 14",
+        "en": "Lv.14 Elite Blight",
+        "de": "Lv.14 Elite-Seuche",
+        "es": "Infectado de élite Nv.14",
+        "fr": "Peste majeure Niv. 14",
+        "id": "Ghoul Elite Lv.14",
+        "ja": "Lv.14エリートゾンビ",
+        "ko": "Lv.14 정예 좀비",
+        "pt": "Elite Infectado Nv.14"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    },
+    {
+      "level": 15,
+      "name": {
+        "ru": "Элитная скверна ур. 15",
+        "en": "Lv.15 Elite Blight",
+        "de": "Lv.15 Elite-Seuche",
+        "es": "Infectado de élite Nv.15",
+        "fr": "Peste majeure Niv. 15",
+        "id": "Ghoul Elite Lv.15",
+        "ja": "Lv.15エリートゾンビ",
+        "ko": "Lv.15 정예 좀비",
+        "pt": "Elite Infectado Nv.15"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    },
+    {
+      "level": 16,
+      "name": {
+        "ru": "Элитная скверна ур. 16",
+        "en": "Lv.16 Elite Blight",
+        "de": "Lv.16 Elite-Seuche",
+        "es": "Infectado de élite Nv.16",
+        "fr": "Peste majeure Niv. 16",
+        "id": "Ghoul Elite Lv.16",
+        "ja": "Lv.16エリートゾンビ",
+        "ko": "Lv.16 정예 좀비",
+        "pt": "Elite Infectado Nv.16"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    },
+    {
+      "level": 17,
+      "name": {
+        "ru": "Элитная скверна ур. 17",
+        "en": "Lv.17 Elite Blight",
+        "de": "Lv.17 Elite-Seuche",
+        "es": "Infectado de élite Nv.17",
+        "fr": "Peste majeure Niv. 17",
+        "id": "Ghoul Elite Lv.17",
+        "ja": "Lv.17エリートゾンビ",
+        "ko": "Lv.17 정예 좀비",
+        "pt": "Elite Infectado Nv.17"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    },
+    {
+      "level": 18,
+      "name": {
+        "ru": "Элитная скверна ур. 18",
+        "en": "Lv.18 Elite Blight",
+        "de": "Lv.18 Elite-Seuche",
+        "es": "Infectado de élite Nv.18",
+        "fr": "Peste majeure Niv. 18",
+        "id": "Ghoul Elite Lv.18",
+        "ja": "Lv.18エリートゾンビ",
+        "ko": "Lv.18 정예 좀비",
+        "pt": "Elite Infectado Nv.18"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    },
+    {
+      "level": 19,
+      "name": {
+        "ru": "Элитная скверна ур. 19",
+        "en": "Lv.19 Elite Blight",
+        "de": "Lv.19 Elite-Seuche",
+        "es": "Infectado de élite Nv.19",
+        "fr": "Peste majeure Niv. 19",
+        "id": "Ghoul Elite Lv.19",
+        "ja": "Lv.19エリートゾンビ",
+        "ko": "Lv.19 정예 좀비",
+        "pt": "Elite Infectado Nv.19"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    },
+    {
+      "level": 20,
+      "name": {
+        "ru": "Элитная скверна ур. 20",
+        "en": "Lv.20 Elite Blight",
+        "de": "Lv.20 Elite-Seuche",
+        "es": "Infectado de élite Nv.20",
+        "fr": "Peste majeure Niv. 20",
+        "id": "Ghoul Elite Lv.20",
+        "ja": "Lv.20エリートゾンビ",
+        "ko": "Lv.20 정예 좀비",
+        "pt": "Elite Infectado Nv.20"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    },
+    {
+      "level": 21,
+      "name": {
+        "ru": "Элитная скверна ур. 21",
+        "en": "Lv.21 Elite Blight",
+        "de": "Lv.21 Elite-Seuche",
+        "es": "Infectado de élite Nv.21",
+        "fr": "Peste majeure Niv. 21",
+        "id": "Ghoul Elite Lv.21",
+        "ja": "Lv.21エリートゾンビ",
+        "ko": "Lv.21 정예 좀비",
+        "pt": "Elite Infectado Nv.21"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    },
+    {
+      "level": 22,
+      "name": {
+        "ru": "Элитная скверна ур. 22",
+        "en": "Lv.22 Elite Blight",
+        "de": "Lv.22 Elite-Seuche",
+        "es": "Infectado de élite Nv.22",
+        "fr": "Peste majeure Niv. 22",
+        "id": "Ghoul Elite Lv.22",
+        "ja": "Lv.22エリートゾンビ",
+        "ko": "Lv.22 정예 좀비",
+        "pt": "Elite Infectado Nv.22"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    },
+    {
+      "level": 23,
+      "name": {
+        "ru": "Элитная скверна ур. 23",
+        "en": "Lv.23 Elite Blight",
+        "de": "Lv.23 Elite-Seuche",
+        "es": "Infectado de élite Nv.23",
+        "fr": "Peste majeure Niv. 23",
+        "id": "Ghoul Elite Lv.23",
+        "ja": "Lv.23エリートゾンビ",
+        "ko": "Lv.23 정예 좀비",
+        "pt": "Elite Infectado Nv.23"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    },
+    {
+      "level": 24,
+      "name": {
+        "ru": "Элитная скверна ур. 24",
+        "en": "Lv.24 Elite Blight",
+        "de": "Lv.24 Elite-Seuche",
+        "es": "Infectado de élite Nv.24",
+        "fr": "Peste majeure Niv. 24",
+        "id": "Ghoul Elite Lv.24",
+        "ja": "Lv.24エリートゾンビ",
+        "ko": "Lv.24 정예 좀비",
+        "pt": "Elite Infectado Nv.24"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    },
+    {
+      "level": 25,
+      "name": {
+        "ru": "Элитная скверна ур. 25",
+        "en": "Lv.25 Elite Blight",
+        "de": "Lv.25 Elite-Seuche",
+        "es": "Infectado de élite Nv.25",
+        "fr": "Peste majeure Niv. 25",
+        "id": "Ghoul Elite Lv.25",
+        "ja": "Lv.25エリートゾンビ",
+        "ko": "Lv.25 정예 좀비",
+        "pt": "Elite Infectado Nv.25"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    },
+    {
+      "level": 26,
+      "name": {
+        "ru": "Элитная скверна ур. 26",
+        "en": "Lv.26 Elite Blight",
+        "de": "Lv.26 Elite-Seuche",
+        "es": "Infectado de élite Nv.26",
+        "fr": "Peste majeure Niv. 26",
+        "id": "Ghoul Elite Lv.26",
+        "ja": "Lv.26エリートゾンビ",
+        "ko": "Lv.26 정예 좀비",
+        "pt": "Elite Infectado Nv.26"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    },
+    {
+      "level": 27,
+      "name": {
+        "ru": "Элитная скверна ур. 27",
+        "en": "Lv.27 Elite Blight",
+        "de": "Lv.27 Elite-Seuche",
+        "es": "Infectado de élite Nv.27",
+        "fr": "Peste majeure Niv. 27",
+        "id": "Ghoul Elite Lv.27",
+        "ja": "Lv.27エリートゾンビ",
+        "ko": "Lv.27 정예 좀비",
+        "pt": "Elite Infectado Nv.27"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    },
+    {
+      "level": 28,
+      "name": {
+        "ru": "Элитная скверна ур. 28",
+        "en": "Lv.28 Elite Blight",
+        "de": "Lv.28 Elite-Seuche",
+        "es": "Infectado de élite Nv.28",
+        "fr": "Peste majeure Niv. 28",
+        "id": "Ghoul Elite Lv.28",
+        "ja": "Lv.28エリートゾンビ",
+        "ko": "Lv.28 정예 좀비",
+        "pt": "Elite Infectado Nv.28"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    },
+    {
+      "level": 29,
+      "name": {
+        "ru": "Элитная скверна ур. 29",
+        "en": "Lv.29 Elite Blight",
+        "de": "Lv.29 Elite-Seuche",
+        "es": "Infectado de élite Nv.29",
+        "fr": "Peste majeure Niv. 29",
+        "id": "Ghoul Elite Lv.29",
+        "ja": "Lv.29エリートゾンビ",
+        "ko": "Lv.29 정예 좀비",
+        "pt": "Elite Infectado Nv.29"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    },
+    {
+      "level": 30,
+      "name": {
+        "ru": "Элитная скверна ур. 30",
+        "en": "Lv.30 Elite Blight",
+        "de": "Lv.30 Elite-Seuche",
+        "es": "Infectado de élite Nv.30",
+        "fr": "Peste majeure Niv. 30",
+        "id": "Lv.30 Ghoul Elite",
+        "ja": "Lv.30エリートゾンビ",
+        "ko": "Lv.30 정예 좀비",
+        "pt": "Elite Infectado Nv.30"
+      },
+      "shortName": {
+        "ru": "Элитная скверна",
+        "en": "Elite Blight",
+        "de": "Elite-Seuche",
+        "es": "Infectado de élite",
+        "fr": "Peste majeure",
+        "id": "Ghoul Elite",
+        "ja": "エリートゾンビ",
+        "ko": "정예 좀비",
+        "pt": "Elite Infectado"
+      },
+      "staminaCost": 20,
+      "type": "rally"
+    }
+  ]
+}

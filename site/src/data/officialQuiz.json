@@ -1,0 +1,4286 @@
+[
+  {
+    "id": 1,
+    "category": "lore",
+    "title": {
+      "ru": "Какая особая экипировка защищает от болезни?",
+      "en": "What special attire is needed to prevent the disease?",
+      "de": "Welche spezielle Kleidung wird benötigt, um die Krankheit zu verhindern?",
+      "es": "¿Qué vestimenta especial se necesita para prevenir la enfermedad?",
+      "fr": "Quelle tenue spéciale est requise pour enrayer la maladie ?",
+      "id": "Untuk mencegah penyakit, pakaian khusus apa yang perlu dikenakan?",
+      "ja": "病気を予防するには、どのような特殊な服装が必要ですか？",
+      "ko": "질병을 예방하려면 어떤 특수 의상을 착용해야 하나요?",
+      "pt": "Que traje especial é necessário para prevenir a doença?"
+    },
+    "options": [
+      {
+        "ru": "Одеяние чумного доктора",
+        "en": "Plague Doctor\\'s Garb",
+        "de": "Kleidung des Seuchenarztes",
+        "es": "Atuendo del doctor de la peste",
+        "fr": "Tenue du Docteur de la Peste",
+        "id": "Baju Hazmat Paruh Burung",
+        "ja": "鳥の嘴防護服",
+        "ko": "새 부리 방호복",
+        "pt": "Traje do Médico da Peste"
+      },
+      {
+        "ru": "Белый халат",
+        "en": "White Coat",
+        "de": "Weißer Kittel",
+        "es": "Bata blanca",
+        "fr": "Blouse blanche",
+        "id": "Jas Lab Putih",
+        "ja": "全身白衣",
+        "ko": "흰 가운 차림",
+        "pt": "Jaleco Branco"
+      },
+      {
+        "ru": "Металлическая броня",
+        "en": "Metal Armor",
+        "de": "Metallrüstung",
+        "es": "Armadura de metal",
+        "fr": "Armure métallique",
+        "id": "Armor Logam",
+        "ja": "金属の鎧",
+        "ko": "금속 아머",
+        "pt": "Armadura de Metal"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 2,
+    "category": "lore",
+    "title": {
+      "ru": "Как болезнь проникла в город?",
+      "en": "How did the disease enter the town?",
+      "de": "Wie ist die Krankheit in die Stadt gelangt?",
+      "es": "¿Cómo llegó la enfermedad al pueblo?",
+      "fr": "Comment la maladie s\\'est-elle introduite dans la ville ?",
+      "id": "Bagaimana penyakit masuk ke kota?",
+      "ja": "病気はどのようにして町に持ち込まれたのですか？",
+      "ko": "질병이 어떻게 마을까지 퍼지게 되었나요?",
+      "pt": "Como a doença chegou à cidade?"
+    },
+    "options": [
+      {
+        "ru": "Воздушно-капельным путем",
+        "en": "Through airborne droplets",
+        "de": "Durch Tröpfchen in der Luft",
+        "es": "A través de gotículas aéreas",
+        "fr": "Par voie aérienne",
+        "id": "Droplet Udara",
+        "ja": "空気飛沫",
+        "ko": "공기 전염",
+        "pt": "Por gotículas dispersas no ar"
+      },
+      {
+        "ru": "Укус блохи или крысы",
+        "en": "Flea or rat bite",
+        "de": "Floh- oder Rattenbiss",
+        "es": "Mordedura de pulga o rata",
+        "fr": "Morsure de puce ou de rat",
+        "id": "Gigitan Kutu Tikus",
+        "ja": "ネズミノミの咬みつき",
+        "ko": "쥐벼룩 습격",
+        "pt": "Picada de pulga ou mordida de rato"
+      },
+      {
+        "ru": "Загрязнение воды",
+        "en": "Water Contamination",
+        "de": "Wasserverschmutzung",
+        "es": "Contaminación del agua",
+        "fr": "Contamination de l\\'eau",
+        "id": "Pencemaran sumber air",
+        "ja": "水源汚染",
+        "ko": "수원 오염",
+        "pt": "Contaminação da Água"
+      }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 3,
+    "category": "lore",
+    "title": {
+      "ru": "Что обычно помещали в клюв маски чумного доктора?",
+      "en": "What is typically placed inside the beak of a Plague Doctor\\'s mask?",
+      "de": "Was wird normalerweise in den Schnabel einer Seuchenarzt-Maske gelegt?",
+      "es": "¿Qué se coloca típicamente dentro del pico de la máscara de un doctor de la peste?",
+      "fr": "Que mettait-on habituellement dans le bec du masque des docteurs de la peste?",
+      "id": "Topeng paruh burung \\",
+      "ja": "「ペストドクター」の鳥の嘴マスクには、通常何が入っていますか？",
+      "ko": "\\'역병 의사\\'의 새 부리 가면 안에는 보통 무엇을 채워 넣었나요?",
+      "pt": "O que normalmente fica dentro do bico da máscara de um Médico da Peste?"
+    },
+    "options": [
+      {
+        "ru": "Специи и травы",
+        "en": "Spices and herbs",
+        "de": "Gewürze und Kräuter",
+        "es": "Especias y hierbas",
+        "fr": "Épices et herbes",
+        "id": "Rempah Herbal",
+        "ja": "スパイスハーブ",
+        "ko": "향신료 약초",
+        "pt": "Especiarias e ervas"
+      },
+      {
+        "ru": "Яд",
+        "en": "Poison",
+        "de": "Gift",
+        "es": "Veneno",
+        "fr": "Poison",
+        "id": "Toxic",
+        "ja": "毒薬",
+        "ko": "독약",
+        "pt": "Veneno"
+      },
+      {
+        "ru": "Парфюм",
+        "en": "Perfume",
+        "de": "Parfüm",
+        "es": "Perfume",
+        "fr": "Parfum",
+        "id": "Parfum",
+        "ja": "香水",
+        "ko": "향수",
+        "pt": "Perfume"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 4,
+    "category": "heroes",
+    "title": {
+      "ru": "Кто виновен в тяжелом ранении и заражении Селии?",
+      "en": "Who is responsible for severely injuring and infecting Celia?",
+      "de": "Wer ist dafür verantwortlich, Celia schwer zu verletzen und zu infizieren?",
+      "es": "¿Quién es responsable de herir gravemente e infectar a Celia?",
+      "fr": "Qui a gravement blessé et infecté Celia?",
+      "id": "Siapa dalang yang membuat Celia terluka parah dan terinfeksi?",
+      "ja": "シリアに重傷を負わせ、感染させた元凶は誰ですか？",
+      "ko": "실리아에게 중상을 입히고 감염시킨 장본인은 누구인가요?",
+      "pt": "Quem feriu gravemente e infectou a Celia?"
+    },
+    "options": [
+      {
+        "ru": "Гадюка",
+        "en": "Viper",
+        "de": "Viper",
+        "es": "Víbora",
+        "fr": "Vipère",
+        "id": "Ular Berbisa",
+        "ja": "毒蛇",
+        "ko": "독사",
+        "pt": "Víbora"
+      },
+      {
+        "ru": "Крысиный король",
+        "en": "Rat King",
+        "de": "Rattenkönig",
+        "es": "Rey rata",
+        "fr": "Roi des Rats",
+        "id": "Raja Tikus Raksasa",
+        "ja": "キングネズミ",
+        "ko": "자이언트 쥐왕",
+        "pt": "Rei dos Ratos"
+      },
+      {
+        "ru": "Паук",
+        "en": "Spider",
+        "de": "Spinne",
+        "es": "Araña",
+        "fr": "Araignée",
+        "id": "Laba-laba",
+        "ja": "クモ",
+        "ko": "거미",
+        "pt": "Aranha"
+      }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 5,
+    "category": "buildings",
+    "title": {
+      "ru": "Кто был первым пострадавшим, спасенным в Святилище?",
+      "en": "Who was the first emergency patient rescued by the Sanctuary?",
+      "de": "Wer war der erste Notfallpatient, der von der Zuflucht gerettet wurde?",
+      "es": "¿Quién fue el primer paciente de emergencia rescatado por el Santuario?",
+      "fr": "Qui fut le premier patient secouru par le Sanctuaire ?",
+      "id": "Siapa pasien gawat darurat pertama yang ditolong di Kuil?",
+      "ja": "教会が救助した最初の急患は誰ですか？",
+      "ko": "성당에서 처음으로 치료한 응급 환자는 누구인가요?",
+      "pt": "Quem foi o primeiro paciente da emergência resgatado pelo Santuário?"
+    },
+    "options": [
+      {
+        "ru": "Белла",
+        "en": "Bella",
+        "de": "Bella",
+        "es": "Bella",
+        "fr": "Bella",
+        "id": "Bella",
+        "ja": "ベラ",
+        "ko": "벨라",
+        "pt": "Bella"
+      },
+      {
+        "ru": "Уильям",
+        "en": "William",
+        "de": "William",
+        "es": "William",
+        "fr": "William",
+        "id": "Williams",
+        "ja": "ウィリアムズ",
+        "ko": "윌리엄스",
+        "pt": "William"
+      },
+      {
+        "ru": "Селия",
+        "en": "Celia",
+        "de": "Celia",
+        "es": "Celia",
+        "fr": "Celia",
+        "id": "Celia",
+        "ja": "シリア",
+        "ko": "실리아",
+        "pt": "Celia"
+      }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 6,
+    "category": "lore",
+    "title": {
+      "ru": "Кто управляет черными крысами и нападает на город?",
+      "en": "Who controls the black rats and attacks the town?",
+      "de": "Wer kontrolliert die schwarzen Ratten und greift die Stadt an?",
+      "es": "¿Quién controla las ratas negras y ataca el pueblo?",
+      "fr": "Qui contrôle les rats noirs et attaque la ville ?",
+      "id": "Siapa yang mengendalikan tikus hitam dan menyerang kota?",
+      "ja": "黒ネズミを操って町を襲ったのは誰ですか？",
+      "ko": "검은 쥐를 조종해 마을을 습격한 자는 누구인가요?",
+      "pt": "Quem controla os ratos pretos e ataca a cidade?"
+    },
+    "options": [
+      {
+        "ru": "Гренвальд",
+        "en": "Grenwald",
+        "de": "Grenwald",
+        "es": "Grenwald",
+        "fr": "Grenwald",
+        "id": "Grindelwald",
+        "ja": "グリンウォルド",
+        "ko": "그린델왈드",
+        "pt": "Grenwald"
+      },
+      {
+        "ru": "Черный маг",
+        "en": "Black Wizard",
+        "de": "Schwarzer Zauberer",
+        "es": "Mago Negro",
+        "fr": "Mage noir",
+        "id": "Penyihir Hitam",
+        "ja": "黒魔道師",
+        "ko": "흑마법사",
+        "pt": "Mago Sombrio"
+      },
+      {
+        "ru": "Селия",
+        "en": "Celia",
+        "de": "Celia",
+        "es": "Celia",
+        "fr": "Celia",
+        "id": "Celia",
+        "ja": "シリア",
+        "ko": "실리아",
+        "pt": "Celia"
+      }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 10,
+    "category": "heroes",
+    "title": {
+      "ru": "Какому типу героев противостоят Рейнджеры?",
+      "en": "What type of heroes do Rangers counter?",
+      "de": "Welche Art von Helden kontern Ranger?",
+      "es": "¿Contra qué facción de héroes son fuertes los Montaraces?",
+      "fr": "Contre quel type de héros les rôdeurs sont-ils efficaces ?",
+      "id": "Ranger unggul terhadap Hero dari faksi mana?",
+      "ja": "レンジャーはどの陣営の英雄に有利ですか？",
+      "ko": "레인저는 어떤 진영의 영웅에게 강한가요?",
+      "pt": "Contra quais Heróis os Patrulheiros são fortes?"
+    },
+    "options": [
+      {
+        "ru": "Колдун",
+        "en": "Warlock",
+        "de": "Hexenmeister",
+        "es": "Brujo",
+        "fr": "Démoniste",
+        "id": "Warlock",
+        "ja": "ソーサラー",
+        "ko": "마법사",
+        "pt": "Bruxo"
+      },
+      {
+        "ru": "Воин",
+        "en": "Warrior",
+        "de": "Krieger",
+        "es": "Guerrero",
+        "fr": "Guerrier",
+        "id": "Pejuang",
+        "ja": "ウォーリア",
+        "ko": "전사",
+        "pt": "Guerreiro"
+      },
+      {
+        "ru": "Ворон",
+        "en": "Raven",
+        "de": "Rabe",
+        "es": "Cuervo",
+        "fr": "Corbeau",
+        "id": "Burung Gagak Sihir",
+        "ja": "レイヴン",
+        "ko": "까마귀",
+        "pt": "Corvo"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 11,
+    "category": "heroes",
+    "title": {
+      "ru": "Какому типу героев противостоят Колдуны?",
+      "en": "What type of heroes do Warlocks counter?",
+      "de": "Welche Art von Helden kontern Hexenmeister?",
+      "es": "¿Contra qué facción de héroes son fuertes los Brujos?",
+      "fr": "Contre quel type de héros les démonistes sont-ils efficaces ?",
+      "id": "Warlock unggul terhadap Hero dari faksi mana?",
+      "ja": "ソーサラーはどの陣営の英雄に有利ですか？",
+      "ko": "마법사는 어떤 진영의 영웅에게 강한가요?",
+      "pt": "Contra quais Heróis os Bruxos são fortes?"
+    },
+    "options": [
+      {
+        "ru": "Воин",
+        "en": "Warrior",
+        "de": "Krieger",
+        "es": "Guerrero",
+        "fr": "Guerrier",
+        "id": "Pejuang",
+        "ja": "ウォーリア",
+        "ko": "전사",
+        "pt": "Guerreiro"
+      },
+      {
+        "ru": "Рейнджер",
+        "en": "Ranger",
+        "de": "Ranger",
+        "es": "Montaraz",
+        "fr": "Rôdeur",
+        "id": "Ranger",
+        "ja": "レンジャー",
+        "ko": "레인저",
+        "pt": "Patrulheiro"
+      },
+      {
+        "ru": "Ворон",
+        "en": "Raven",
+        "de": "Rabe",
+        "es": "Cuervo",
+        "fr": "Corbeau",
+        "id": "Burung Gagak Sihir",
+        "ja": "レイヴン",
+        "ko": "까마귀",
+        "pt": "Corvo"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 12,
+    "category": "heroes",
+    "title": {
+      "ru": "Какому типу героев противостоят Воины?",
+      "en": "What type of heroes do Warriors counter?",
+      "de": "Welche Art von Helden kontern Krieger?",
+      "es": "¿Contra qué facción de héroes son fuertes los Guerreros?",
+      "fr": "Contre quel type de héros les guerriers sont-ils efficaces ?",
+      "id": "Warrior unggul terhadap Hero dari faksi mana?",
+      "ja": "ウォーリアはどの陣営の英雄に有利ですか？",
+      "ko": "전사는 어떤 진영의 영웅에게 강한가요?",
+      "pt": "Contra quais Heróis os Guerreiros são fortes?"
+    },
+    "options": [
+      {
+        "ru": "Рейнджер",
+        "en": "Ranger",
+        "de": "Ranger",
+        "es": "Montaraz",
+        "fr": "Rôdeur",
+        "id": "Ranger",
+        "ja": "レンジャー",
+        "ko": "레인저",
+        "pt": "Patrulheiro"
+      },
+      {
+        "ru": "Колдун",
+        "en": "Warlock",
+        "de": "Hexenmeister",
+        "es": "Brujo",
+        "fr": "Démoniste",
+        "id": "Warlock",
+        "ja": "ソーサラー",
+        "ko": "마법사",
+        "pt": "Bruxo"
+      },
+      {
+        "ru": "Ворон",
+        "en": "Raven",
+        "de": "Rabe",
+        "es": "Cuervo",
+        "fr": "Corbeau",
+        "id": "Burung Gagak Sihir",
+        "ja": "レイヴン",
+        "ko": "까마귀",
+        "pt": "Corvo"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 13,
+    "category": "events",
+    "title": {
+      "ru": "Сколько минут длится Гонка за эликсиром?",
+      "en": "How many minutes does an Elixir Scramble last?",
+      "de": "Wie viele Minuten dauert ein Elixir-Gerangel?",
+      "es": "¿Cuántos minutos dura una Batalla por el elixir?",
+      "fr": "Combien de minutes dure une Ruée à l\\'élixir ?",
+      "id": "Berapa menit durasi satu Perebutan Ramuan Rahasia?",
+      "ja": "秘薬争奪戦は1戦何分ですか？",
+      "ko": "비약 쟁탈전은 몇 분 동안 진행되나요?",
+      "pt": "Quantos minutos dura uma Luta pelo Elixir?"
+    },
+    "options": [
+      {
+        "ru": "60 минут",
+        "en": "60 Minutes",
+        "de": "60 Minuten",
+        "es": "60 minutos",
+        "fr": "60 minutes",
+        "id": "60 menit",
+        "ja": "60分",
+        "ko": "60분",
+        "pt": "60 Minutos"
+      },
+      {
+        "ru": "30 минут",
+        "en": "30 Minutes",
+        "de": "30 Minuten",
+        "es": "30 minutos",
+        "fr": "30 minutes",
+        "id": "30 menit",
+        "ja": "30分",
+        "ko": "30분",
+        "pt": "30 Minutos"
+      },
+      {
+        "ru": "90 минут",
+        "en": "90 Minutes",
+        "de": "90 Minuten",
+        "es": "90 minutos",
+        "fr": "90 minutes",
+        "id": "90 menit",
+        "ja": "90分",
+        "ko": "90분",
+        "pt": "90 Minutos"
+      }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 14,
+    "category": "events",
+    "title": {
+      "ru": "Каков начальный интервал бесплатного перемещения в Гонке за эликсиром (в минутах)?",
+      "en": "In the Elixir Scramble, what is the initial free relocation interval (in minutes)?",
+      "de": "Beim Elixir-Gerangel, wie lang ist das anfängliche kostenlose Verlagerungsintervall (in Minuten)?",
+      "es": "En la Batalla por el elixir, ¿cuál es el intervalo inicial gratuito de reubicación (en minutos)?",
+      "fr": "Dans la Ruée à l\\'élixir, quelle est la durée de la période de relocalisation gratuite initiale (en minutes) ?",
+      "id": "Dalam Perebutan Ramuan Rahasia, setiap berapa menit awal kita bisa melakukan relokasi gratis?",
+      "ja": "秘薬争奪戦で、序盤は何分おきに無料でテレポートできますか？",
+      "ko": "비약 쟁탈전에서 초기 무료 성 이전은 몇 분마다 가능한가요?",
+      "pt": "Na Luta pelo Elixir, qual é o intervalo inicial de realocação gratuita (em minutos)?"
+    },
+    "options": [
+      {
+        "ru": "1 минута",
+        "en": "1 Minutes",
+        "de": "1 Minute",
+        "es": "1 minuto",
+        "fr": "1 minute",
+        "id": "1 menit",
+        "ja": "1分",
+        "ko": "1분",
+        "pt": "1 Minuto"
+      },
+      {
+        "ru": "2 минуты",
+        "en": "2 Minutes",
+        "de": "2 Minuten",
+        "es": "2 minutos",
+        "fr": "2 minutes",
+        "id": "2 menit",
+        "ja": "2分",
+        "ko": "2분",
+        "pt": "2 Minutos"
+      },
+      {
+        "ru": "3 минуты",
+        "en": "3 Minutes",
+        "de": "3 Minuten",
+        "es": "3 minutos",
+        "fr": "3 minutes",
+        "id": "3 menit",
+        "ja": "3分",
+        "ko": "3분",
+        "pt": "3 minutos"
+      }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 15,
+    "category": "heroes",
+    "title": {
+      "ru": "Каков ранг Артура в игре?",
+      "en": "What is the quality of Arthur in the game?",
+      "de": "Welche Qualität hat Arthur im Spiel?",
+      "es": "¿Cuál es la calidad de Arturo en el juego?",
+      "fr": "Quelle est la qualité d\\'Arthur dans le jeu ?",
+      "id": "Arthur adalah Hero kualitas apa dalam game?",
+      "ja": "ゲーム内で、アーサーはどのレアリティの英雄ですか？",
+      "ko": "아서는 어떤 등급의 영웅인가요?",
+      "pt": "Qual é a qualidade de Arthur no jogo?"
+    },
+    "options": [
+      {
+        "ru": "SR",
+        "en": "SR",
+        "de": "SR",
+        "es": "SR",
+        "fr": "SR",
+        "id": "SR",
+        "ja": "SR",
+        "ko": "SR",
+        "pt": "SR"
+      },
+      {
+        "ru": "SSR",
+        "en": "SSR",
+        "de": "SSR",
+        "es": "SSR",
+        "fr": "SSR",
+        "id": "SSR",
+        "ja": "SSR",
+        "ko": "SSR",
+        "pt": "SSR"
+      },
+      {
+        "ru": "UR",
+        "en": "UR",
+        "de": "UR",
+        "es": "UR",
+        "fr": "UR",
+        "id": "UR",
+        "ja": "UR",
+        "ko": "UR",
+        "pt": "UR"
+      }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 16,
+    "category": "heroes",
+    "title": {
+      "ru": "Каков ранг Селии в игре?",
+      "en": "What is the quality of Celia in the game?",
+      "de": "Welche Qualität hat Celia im Spiel?",
+      "es": "¿Cuál es la calidad de Celia en el juego?",
+      "fr": "Quelle est la qualité de Celia dans le jeu ?",
+      "id": "Celia adalah Hero kualitas apa dalam game?",
+      "ja": "ゲーム内で、シリアはどのレアリティの英雄ですか？",
+      "ko": "실리아는 어떤 등급의 영웅인가요?",
+      "pt": "Qual é a qualidade de Celia no jogo?"
+    },
+    "options": [
+      {
+        "ru": "SR",
+        "en": "SR",
+        "de": "SR",
+        "es": "SR",
+        "fr": "SR",
+        "id": "SR",
+        "ja": "SR",
+        "ko": "SR",
+        "pt": "SR"
+      },
+      {
+        "ru": "SSR",
+        "en": "SSR",
+        "de": "SSR",
+        "es": "SSR",
+        "fr": "SSR",
+        "id": "SSR",
+        "ja": "SSR",
+        "ko": "SSR",
+        "pt": "SSR"
+      },
+      {
+        "ru": "UR",
+        "en": "UR",
+        "de": "UR",
+        "es": "UR",
+        "fr": "UR",
+        "id": "UR",
+        "ja": "UR",
+        "ko": "UR",
+        "pt": "UR"
+      }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 17,
+    "category": "lore",
+    "title": {
+      "ru": "Где производится игровое Противоядие?",
+      "en": "Which building produces Antitoxin in the game?",
+      "de": "Welches Gebäude produziert Gegengift im Spiel?",
+      "es": "¿Qué edificio produce Antídoto en el juego?",
+      "fr": "Quel bâtiment produit l\\'antitoxine dans le jeu ?",
+      "id": "Bangunan apa yang dapat menghasilkan Antitoksin dalam game?",
+      "ja": "抗毒剤を生産する建物は何ですか？",
+      "ko": "게임에서 항독소를 생산하는 건물은 무엇인가요?",
+      "pt": "Qual edifício produz Antitoxina no jogo?"
+    },
+    "options": [
+      {
+        "ru": "Мастерская противоядий",
+        "en": "Antitoxin Workshop",
+        "de": "Gegengiftwerkstatt",
+        "es": "Taller de antitoxinas",
+        "fr": "Atelier d\\'antitoxines",
+        "id": "Pusat Antitoksin",
+        "ja": "抗毒剤工房",
+        "ko": "해독제 작업장",
+        "pt": "Oficina de Antitoxinas"
+      },
+      {
+        "ru": "Мастерская снаряжения",
+        "en": "Gear Workshop",
+        "de": "Ausrüstungswerkstatt",
+        "es": "Taller de equipamiento",
+        "fr": "Atelier d\\'équipement",
+        "id": "Bengkel Gear",
+        "ja": "装備工房",
+        "ko": "장비 공방",
+        "pt": "Oficina de Equipamentos"
+      },
+      {
+        "ru": "Сторожевая башня",
+        "en": "Watchtower",
+        "de": "Wachturm",
+        "es": "Torre de vigilancia",
+        "fr": "Tour de guet",
+        "id": "Menara Pengawas",
+        "ja": "見張り塔",
+        "ko": "전망대",
+        "pt": "Torre de Vigia"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 18,
+    "category": "buildings",
+    "title": {
+      "ru": "На каком уровне Святилища открывается снаряжение Ворона?",
+      "en": "At which Sanctuary level is Raven Gear unlocked?",
+      "de": "Auf welchem Zufluchts-Level wird die Raben-Ausrüstung freigeschaltet?",
+      "es": "¿En qué nivel de Santuario se desbloquea el Equipo del Cuervo?",
+      "fr": "À quel niveau de Sanctuaire l\\'équipement de corbeau est-il déverrouillé ?",
+      "id": "Pada Kuil level berapa Gear Raven terbuka?",
+      "ja": "教会が何レベルになったら、レイヴンの装備が解放されますか？",
+      "ko": "성당이 몇 레벨에 도달해야 까마귀 장비가 해제되나요?",
+      "pt": "Em qual nível de Santuário o Equipamento do Corvo é desbloqueado?"
+    },
+    "options": [
+      {
+        "ru": "10",
+        "en": "10",
+        "de": "10",
+        "es": "10",
+        "fr": "10",
+        "id": "10",
+        "ja": "10",
+        "ko": "10",
+        "pt": "10"
+      },
+      {
+        "ru": "15",
+        "en": "15",
+        "de": "15",
+        "es": "15",
+        "fr": "15",
+        "id": "15",
+        "ja": "15",
+        "ko": "15",
+        "pt": "15"
+      },
+      {
+        "ru": "20",
+        "en": "20",
+        "de": "20",
+        "es": "20",
+        "fr": "20",
+        "id": "20",
+        "ja": "20",
+        "ko": "20",
+        "pt": "20"
+      }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 19,
+    "category": "lore",
+    "title": {
+      "ru": "Где производится игровое Противоядие?",
+      "en": "Which building produces Antitoxin in the game?",
+      "de": "Welches Gebäude produziert Gegengift im Spiel?",
+      "es": "¿Qué edificio produce Antídoto en el juego?",
+      "fr": "Quel bâtiment produit l\\'antitoxine dans le jeu ?",
+      "id": "Bangunan apa yang dapat menghasilkan Antitoksin dalam game?",
+      "ja": "抗毒剤を生産する建物は何ですか？",
+      "ko": "게임에서 항독소를 생산하는 건물은 무엇인가요?",
+      "pt": "Qual edifício produz Antitoxina no jogo?"
+    },
+    "options": [
+      {
+        "ru": "Мастерская противоядий",
+        "en": "Antitoxin Workshop",
+        "de": "Gegengiftwerkstatt",
+        "es": "Taller de antitoxinas",
+        "fr": "Atelier d\\'antitoxines",
+        "id": "Pusat Antitoksin",
+        "ja": "抗毒剤工房",
+        "ko": "해독제 작업장",
+        "pt": "Oficina de Antitoxinas"
+      },
+      {
+        "ru": "Мастерская снаряжения",
+        "en": "Gear Workshop",
+        "de": "Ausrüstungswerkstatt",
+        "es": "Taller de equipamiento",
+        "fr": "Atelier d\\'équipement",
+        "id": "Bengkel Gear",
+        "ja": "装備工房",
+        "ko": "장비 공방",
+        "pt": "Oficina de Equipamentos"
+      },
+      {
+        "ru": "Сторожевая башня",
+        "en": "Watchtower",
+        "de": "Wachturm",
+        "es": "Torre de vigilancia",
+        "fr": "Tour de guet",
+        "id": "Menara Pengawas",
+        "ja": "見張り塔",
+        "ko": "전망대",
+        "pt": "Torre de Vigia"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 20,
+    "category": "mechanics",
+    "title": {
+      "ru": "На каком VIP-уровне открывается автоотправка для Секретных операций?",
+      "en": "At which VIP level is Auto Dispatch for Covert Operations unlocked?",
+      "de": "Auf welchem VIP-Level wird die automatische Entsendung für Verdeckte Operationen freigeschaltet?",
+      "es": "¿En qué nivel VIP se desbloquea el despacho automático para las Operaciones encubiertas?",
+      "fr": "À quel niveau VIP le déploiement automatique pour les Opérations secrètes est-il déverrouillé ?",
+      "id": "Berapa level VIP yang diperlukan untuk membuka fitur pengiriman otomatis misi rahasia?",
+      "ja": "VIPレベルがいくつになると、秘密行動の自動派遣機能が解放されますか？",
+      "ko": "비밀 작전 자동 파견 기능은 VIP 몇 레벨에 도달해야 오픈되나요?",
+      "pt": "Em qual nível VIP o Despacho Automático para Operações Secretas é desbloqueado?"
+    },
+    "options": [
+      {
+        "ru": "8",
+        "en": "8",
+        "de": "8",
+        "es": "8",
+        "fr": "8",
+        "id": "8",
+        "ja": "8",
+        "ko": "8",
+        "pt": "8"
+      },
+      {
+        "ru": "10",
+        "en": "10",
+        "de": "10",
+        "es": "10",
+        "fr": "10",
+        "id": "10",
+        "ja": "10",
+        "ko": "10",
+        "pt": "10"
+      },
+      {
+        "ru": "12",
+        "en": "12",
+        "de": "12",
+        "es": "12",
+        "fr": "12",
+        "id": "12",
+        "ja": "12",
+        "ko": "12",
+        "pt": "12"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 21,
+    "category": "mechanics",
+    "title": {
+      "ru": "На каком VIP-уровне открывается суперрежим Секретных операций?",
+      "en": "At which VIP level is the Super Mode for Covert Operations unlocked?",
+      "de": "Auf welchem VIP-Level wird der Supermodus für Verdeckte Operationen freigeschaltet?",
+      "es": "¿En qué nivel VIP se desbloquea el modo super para las Operaciones encubiertas?",
+      "fr": "À quel niveau VIP le mode super pour les Opérations secrètes est-il déverrouillé ?",
+      "id": "Berapa level VIP yang diperlukan untuk membuka mode super dalam Operasi Rahasia?",
+      "ja": "VIPレベルがいくつになると、秘密行動のスーパーモード機能が解放されますか？",
+      "ko": "비밀 작전 슈퍼 모드는 VIP 몇 레벨에 도달해야 오픈되나요?",
+      "pt": "Em qual nível VIP o Supermodo para Operações Secretas é desbloqueado?"
+    },
+    "options": [
+      {
+        "ru": "8",
+        "en": "8",
+        "de": "8",
+        "es": "8",
+        "fr": "8",
+        "id": "8",
+        "ja": "8",
+        "ko": "8",
+        "pt": "8"
+      },
+      {
+        "ru": "10",
+        "en": "10",
+        "de": "10",
+        "es": "10",
+        "fr": "10",
+        "id": "10",
+        "ja": "10",
+        "ko": "10",
+        "pt": "10"
+      },
+      {
+        "ru": "12",
+        "en": "12",
+        "de": "12",
+        "es": "12",
+        "fr": "12",
+        "id": "12",
+        "ja": "12",
+        "ko": "12",
+        "pt": "12"
+      }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 22,
+    "category": "mechanics",
+    "title": {
+      "ru": "На каком VIP-уровне открывается быстрое испытание в Битве экспедиции?",
+      "en": "At which VIP level is the Quick Challenge feature for Expedition Battle unlocked?",
+      "de": "Ab welchem VIP-Level wird die Schnelle Herausforderung-Funktion für den Expeditionskampf freigeschaltet?",
+      "es": "¿En qué nivel VIP se desbloquea la función de desafío rápido para la Batalla de expedición?",
+      "fr": "À quel niveau VIP le Défi Rapide de la Bataille d\\'expédition est-il déverrouillé ?",
+      "id": "VIP Level berapa yang diperlukan untuk membuka fitur tantangan cepat \\",
+      "ja": "VIPレベルがいくつになると、「遠征戦」のクイック挑戦機能が解放されますか？",
+      "ko": "VIP 레벨 몇 달성 시 \\'원정 전투\\' 빠른 도전 기능이 오픈되나요?",
+      "pt": "Em qual nível VIP o recurso Desafio Rápido da Batalha de Expedição é desbloqueado?"
+    },
+    "options": [
+      {
+        "ru": "5",
+        "en": "5",
+        "de": "5",
+        "es": "5",
+        "fr": "5",
+        "id": "5",
+        "ja": "5",
+        "ko": "5",
+        "pt": "5"
+      },
+      {
+        "ru": "6",
+        "en": "6",
+        "de": "6",
+        "es": "6",
+        "fr": "6",
+        "id": "6",
+        "ja": "6",
+        "ko": "6",
+        "pt": "6"
+      },
+      {
+        "ru": "8",
+        "en": "8",
+        "de": "8",
+        "es": "8",
+        "fr": "8",
+        "id": "8",
+        "ja": "8",
+        "ko": "8",
+        "pt": "8"
+      }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 23,
+    "category": "mechanics",
+    "title": {
+      "ru": "На каком VIP-уровне открывается отображение VIP-уровня в чате?",
+      "en": "At which VIP level is the VIP Level Display in Chat feature unlocked?",
+      "de": "Ab welchem VIP-Level wird die VIP-Level-Anzeige im Chat freigeschaltet?",
+      "es": "¿En qué nivel VIP se desbloquea la función de mostrar nivel VIP en el chat?",
+      "fr": "À quel niveau VIP l\\'affichage du niveau VIP dans le chat est-il déverrouillé ?",
+      "id": "VIP Level berapa yang diperlukan untuk menampilkan VIPLevel saat mengobrol?",
+      "ja": "VIPレベルがいくつになると、チャット時のVIPレベル表示機能が解放されますか？",
+      "ko": "VIP 레벨 몇 달성 시 채팅창 VIP 레벨 표시 기능이 오픈되나요?",
+      "pt": "Em qual nível VIP o recurso de Exibição do Nível VIP no Bate-papo é desbloqueado?"
+    },
+    "options": [
+      {
+        "ru": "3",
+        "en": "3",
+        "de": "3",
+        "es": "3",
+        "fr": "3",
+        "id": "3",
+        "ja": "3",
+        "ko": "3",
+        "pt": "3"
+      },
+      {
+        "ru": "4",
+        "en": "4",
+        "de": "4",
+        "es": "4",
+        "fr": "4",
+        "id": "4",
+        "ja": "4",
+        "ko": "4",
+        "pt": "4"
+      },
+      {
+        "ru": "5",
+        "en": "5",
+        "de": "5",
+        "es": "5",
+        "fr": "5",
+        "id": "5",
+        "ja": "5",
+        "ko": "5",
+        "pt": "5"
+      }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 24,
+    "category": "heroes",
+    "title": {
+      "ru": "Какие эффекты дает активный навык Артура?",
+      "en": "What effects does Arthur\\'s Active Skill have?",
+      "de": "Welche Auswirkungen hat Arthurs Aktive Fähigkeit?",
+      "es": "¿Qué efectos tiene la habilidad activa de Arturo?",
+      "fr": "Quels sont les effets de la compétence active d\\'Arthur ?",
+      "id": "Apa efek dari Skill aktif Arthur?",
+      "ja": "アーサーのアクティブスキルには、どのような効果がありますか？",
+      "ko": "아서의 액티브 스킬은 어떤 효과를 가지고 있나요?",
+      "pt": "Quais efeitos a Habilidade Ativa do Arthur possui?"
+    },
+    "options": [
+      {
+        "ru": "Дает щиты",
+        "en": "Add Shields",
+        "de": "Schilde hinzufügen",
+        "es": "Añadir escudos",
+        "fr": "Ajouter des boucliers",
+        "id": "Tambah perisai",
+        "ja": "シールド付与",
+        "ko": "보호막 획득",
+        "pt": "Adicionar Escudos"
+      },
+      {
+        "ru": "Восстанавливает здоровье",
+        "en": "Restore HP",
+        "de": "LP wiederherstellen",
+        "es": "Restaurar PV",
+        "fr": "Restaurer les PV",
+        "id": "Memulihkan HP",
+        "ja": "HPを回復",
+        "ko": "체력 회복",
+        "pt": "Restaurar HP"
+      },
+      {
+        "ru": "Увеличивает атаку",
+        "en": "Increase ATK",
+        "de": "ANG erhöhen",
+        "es": "Aumenta el ATQ",
+        "fr": "Augmenter ATQ",
+        "id": "Tingkatkan ATK",
+        "ja": "攻撃アップ",
+        "ko": "공격력 증가",
+        "pt": "Aumentar ATQ"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 25,
+    "category": "heroes",
+    "title": {
+      "ru": "Какова роль Шэдоу в игре?",
+      "en": "What is Shadow\\'s role in the game?",
+      "de": "Welche Rolle hat Schatten im Spiel?",
+      "es": "¿Cuál es la clase de Sombra en el juego?",
+      "fr": "Quel est le rôle de Shadow dans le jeu ?",
+      "id": "Ying adalah karakter dengan posisi apa?",
+      "ja": "影はどのような役割のキャラクターですか？",
+      "ko": "섀도우는 어떤 포지션의 캐릭터인가요?",
+      "pt": "Qual é o papel do Shadow no jogo?"
+    },
+    "options": [
+      {
+        "ru": "Танк",
+        "en": "Tank",
+        "de": "Panzer",
+        "es": "Tanque",
+        "fr": "Tank",
+        "id": "Tank",
+        "ja": "タンク",
+        "ko": "탱커",
+        "pt": "Tanque"
+      },
+      {
+        "ru": "Нанесение урона",
+        "en": "DMG Dealt",
+        "de": "Verursachter SCH",
+        "es": "Daño infligido",
+        "fr": "DGT infligés",
+        "id": "Serangan",
+        "ja": "与ダメージ",
+        "ko": "데미지",
+        "pt": "Dano Causado"
+      },
+      {
+        "ru": "Поддержка",
+        "en": "Support",
+        "de": "Unterstützung",
+        "es": "Apoyo",
+        "fr": "Soutien",
+        "id": "Support",
+        "ja": "サポート",
+        "ko": "서포터",
+        "pt": "Suporte"
+      }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 26,
+    "category": "heroes",
+    "title": {
+      "ru": "Что ограничивает уровень навыков героя?",
+      "en": "What limits the hero skill level cap?",
+      "de": "Was begrenzt das maximale Level der Heldenfähigkeit?",
+      "es": "¿Qué limita el nivel máximo de habilidad del héroe?",
+      "fr": "Qu\\'est-ce qui limite le plafond de niveau des compétences de héros ?",
+      "id": "Apa yang membatasi level maksimum Skill Hero?",
+      "ja": "英雄のスキルレベルの上限は何によって制限されますか？",
+      "ko": "영웅 스킬의 최대 레벨은 무엇의 영향을 받나요?",
+      "pt": "O que determina o nível máximo da habilidade do herói?"
+    },
+    "options": [
+      {
+        "ru": "Уровень героя",
+        "en": "Hero Level",
+        "de": "Heldenlevel",
+        "es": "Nivel del héroe",
+        "fr": "Niveau du héros",
+        "id": "Level Hero",
+        "ja": "英雄レベル",
+        "ko": "영웅 레벨",
+        "pt": "Nível do Herói"
+      },
+      {
+        "ru": "Звездный рейтинг героя",
+        "en": "Hero Stars",
+        "de": "Helden-Sterne",
+        "es": "Estrellas de héroe",
+        "fr": "Étoiles de héros",
+        "id": "Level Bintang Hero",
+        "ja": "英雄★ランク",
+        "ko": "영웅 성급",
+        "pt": "Estrelas do Herói"
+      },
+      {
+        "ru": "Качество героя",
+        "en": "Hero Quality",
+        "de": "Held Qualität",
+        "es": "Calidad del héroe",
+        "fr": "Qualité du héros",
+        "id": "Kualitas Hero",
+        "ja": "英雄のレアリティ",
+        "ko": "영웅 등급",
+        "pt": "Qualidade do Herói"
+      }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 27,
+    "category": "heroes",
+    "title": {
+      "ru": "Что ограничивает максимальный уровень героя?",
+      "en": "What limits the hero level cap?",
+      "de": "Was begrenzt das maximale Heldenlevel?",
+      "es": "¿Qué limita el nivel máximo del héroe?",
+      "fr": "Quel élément détermine le plafond de niveau des héros ?",
+      "id": "Apa yang membatasi level maksimum Hero?",
+      "ja": "英雄のレベルの上限は何によって制限されますか？",
+      "ko": "영웅 레벨 최대치는 무엇의 영향을 받나요?",
+      "pt": "O que determina o nível máximo do herói?"
+    },
+    "options": [
+      {
+        "ru": "Уровень Святилища",
+        "en": "Sanctuary Level",
+        "de": "Zuflucht Level",
+        "es": "Nivel del Santuario",
+        "fr": "Niveau du Sanctuaire",
+        "id": "Level Kuil",
+        "ja": "教会レベル",
+        "ko": "성당 레벨",
+        "pt": "Nível do Santuário"
+      },
+      {
+        "ru": "Качество героя",
+        "en": "Hero Quality",
+        "de": "Held Qualität",
+        "es": "Calidad del héroe",
+        "fr": "Qualité du héros",
+        "id": "Kualitas Hero",
+        "ja": "英雄のレアリティ",
+        "ko": "영웅 등급",
+        "pt": "Qualidade do Herói"
+      },
+      {
+        "ru": "Звездный рейтинг героя",
+        "en": "Hero Stars",
+        "de": "Helden-Sterne",
+        "es": "Estrellas de héroe",
+        "fr": "Étoiles de héros",
+        "id": "Level Bintang Hero",
+        "ja": "英雄★ランク",
+        "ko": "영웅 성급",
+        "pt": "Estrelas do Herói"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 28,
+    "category": "heroes",
+    "title": {
+      "ru": "Какой тип героя у Марлены?",
+      "en": "What type of hero is Marlena?",
+      "de": "Welcher Heldentyp ist Marlena?",
+      "es": "¿A qué facción pertenece Marlena?",
+      "fr": "Quel type de héros est Marlena ?",
+      "id": "Marlena termasuk Hero dari faksi mana?",
+      "ja": "マレーナはどの陣営の英雄ですか？",
+      "ko": "말레나는 어느 진영 소속 영웅인가요?",
+      "pt": "Qual tipo de Herói é a Marlena?"
+    },
+    "options": [
+      {
+        "ru": "Воин (красный)",
+        "en": "Warrior (Red)",
+        "de": "Krieger (Rot)",
+        "es": "Guerrero (rojo)",
+        "fr": "Guerrier (Rouge)",
+        "id": "Pejuang (Merah)",
+        "ja": "ウォーリア（赤）",
+        "ko": "전사(레드)",
+        "pt": "Guerreiro (Vermelho)"
+      },
+      {
+        "ru": "Рейнджер (синий)",
+        "en": "Ranger (Blue)",
+        "de": "Ranger (Blau)",
+        "es": "Montaraz (azul)",
+        "fr": "Rôdeur (Bleu)",
+        "id": "Ranger (Biru)",
+        "ja": "レンジャー（青）",
+        "ko": "레인저(희귀)",
+        "pt": "Patrulheiro (Azul)"
+      },
+      {
+        "ru": "Колдун (зеленый)",
+        "en": "Warlock (Green)",
+        "de": "Hexenmeister (Grün)",
+        "es": "Brujo (verde)",
+        "fr": "Démoniste (Vert)",
+        "id": "Warlock (Hijau)",
+        "ja": "ウォーロック（緑）",
+        "ko": "흑마법사(녹색)",
+        "pt": "Bruxo (Verde)"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 29,
+    "category": "heroes",
+    "title": {
+      "ru": "Артура (герой-танк) следует размещать в тылу строя.",
+      "en": "We need to place Arthur (Tank Hero) in the back row.",
+      "de": "Wir müssen Arthur (Panzer-Held) in der hinteren Reihe platzieren.",
+      "es": "Necesitamos colocar a Arturo (héroe tanque) en la fila trasera.",
+      "fr": "Nous devons placer Arthur (héros tank) sur la ligne arrière.",
+      "id": "Kita perlu menempatkan Arthur (Hero Tank) di baris belakang.",
+      "ja": "英雄のアーサー（タンク）を後列に配置",
+      "ko": "아서(탱커)는 후열에 배치해야 합니다.",
+      "pt": "Precisamos posicionar o Arthur (Herói Tanque) na retaguarda."
+    },
+    "options": [
+      {
+        "ru": "Верно",
+        "en": "Correct",
+        "de": "Korrekt",
+        "es": "Correcto",
+        "fr": "Correct",
+        "id": "Benar",
+        "ja": "正解",
+        "ko": "확인",
+        "pt": "Correto"
+      },
+      {
+        "ru": "Неверно",
+        "en": "Incorrect",
+        "de": "Falsch",
+        "es": "Incorrecto",
+        "fr": "Incorrect",
+        "id": "Error",
+        "ja": "エラー",
+        "ko": "오류",
+        "pt": "Incorreto"
+      },
+      {
+        "ru": "Размещайте в любом месте",
+        "en": "Place anywhere",
+        "de": "Überall platzierbar",
+        "es": "Colocar en cualquier lugar",
+        "fr": "Placement libre",
+        "id": "Taruh sembarangan",
+        "ja": "自由に配置",
+        "ko": "자유롭게 배치",
+        "pt": "Colocar em qualquer lugar"
+      }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 30,
+    "category": "heroes",
+    "title": {
+      "ru": "Какое снаряжение дает наибольший прирост к мощи героя?",
+      "en": "Which gear boosts a hero\\'s Might the most significantly?",
+      "de": "Welche Ausrüstung erhöht die Macht eines Helden am stärksten?",
+      "es": "¿Qué color de rareza de equipo aumenta más significativamente el poder de un héroe?",
+      "fr": "Quel équipement augmente le plus la Puissance d\\'un héros ?",
+      "id": "Gear apa yang paling meningkatkan CP Hero?",
+      "ja": "どの装備が、英雄の戦力を最も大きく上昇させますか？",
+      "ko": "어떤 장비가 영웅의 전투력을 가장 많이 올려주나요?",
+      "pt": "Qual equipamento concede o maior aumento de Poder ao herói?"
+    },
+    "options": [
+      {
+        "ru": "UR",
+        "en": "UR",
+        "de": "UR",
+        "es": "UR",
+        "fr": "UR",
+        "id": "UR",
+        "ja": "UR",
+        "ko": "UR",
+        "pt": "UR"
+      },
+      {
+        "ru": "SSR",
+        "en": "SSR",
+        "de": "SSR",
+        "es": "SSR",
+        "fr": "SSR",
+        "id": "SSR",
+        "ja": "SSR",
+        "ko": "SSR",
+        "pt": "SSR"
+      },
+      {
+        "ru": "SR",
+        "en": "SR",
+        "de": "SR",
+        "es": "SR",
+        "fr": "SR",
+        "id": "SR",
+        "ja": "SR",
+        "ko": "SR",
+        "pt": "SR"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 31,
+    "category": "heroes",
+    "title": {
+      "ru": "Какое здание необходимо улучшить, когда герой достигает предела по уровню?",
+      "en": "When a hero hits the level cap, which building do you need to upgrade?",
+      "de": "Wenn ein Held das maximale Level erreicht hat, welches Gebäude muss man dann upgraden?",
+      "es": "Cuando un héroe alcanza el nivel máximo, ¿qué edificio necesitas mejorar?",
+      "fr": "Quel bâtiment faut-il améliorer quand un héros atteint le plafond de niveau ?",
+      "id": "Saat Hero tidak bisa naik level lagi, bangunan apa yang harus ditingkatkan Level-nya?",
+      "ja": "英雄がこれ以上レベルアップできなくなった場合、どの建物のレベルを上げればいいですか？",
+      "ko": "영웅 레벨업을 진행할 수 없을 때 어느 건물의 레벨을 올려야 하나요?",
+      "pt": "Quando um herói alcança o nível máximo, qual edifício precisa ser melhorado?"
+    },
+    "options": [
+      {
+        "ru": "Исследовательская лаборатория 1",
+        "en": "No.1 Research Lab",
+        "de": "Forschungslabor Nr. 1",
+        "es": "Laboratorio de investigación n.º 1",
+        "fr": "Laboratoire de recherche n° 1",
+        "id": "Lab Pertama",
+        "ja": "第一研究室",
+        "ko": "제1 연구실",
+        "pt": "Laboratório de Pesquisa No.1"
+      },
+      {
+        "ru": "Зал альянса",
+        "en": "Alliance Hall",
+        "de": "Allianz-Halle",
+        "es": "Salón de la alianza",
+        "fr": "Hall de l\\'alliance",
+        "id": "Pos Kontak Guild",
+        "ja": "ギルド連絡所",
+        "ko": "길드 연락소",
+        "pt": "Salão da Aliança"
+      },
+      {
+        "ru": "Святилище",
+        "en": "Sanctuary",
+        "de": "Zuflucht",
+        "es": "Santuario",
+        "fr": "Sanctuaire",
+        "id": "Kuil",
+        "ja": "教会",
+        "ko": "성당",
+        "pt": "Santuário"
+      }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 32,
+    "category": "lore",
+    "title": {
+      "ru": "Как повысить мощь отряда после неудачной экспедиции?",
+      "en": "How do you enhance a squad\\'s might after a failed exploration?",
+      "de": "Wie steigerst du die Macht einer Truppe nach einer gescheiterten Erkundung?",
+      "es": "¿Cómo aumentas el poder del escuadrón después de una exploración fallida?",
+      "fr": "Comment renforcer la puissance d\\'escouade après un échec d\\'exploration ?",
+      "id": "Bagaimana cara meningkatkan CP tim saat eksplorasi gagal?",
+      "ja": "探索に失敗した場合、パーティーの戦力を上げるにはどうすればいいですか？",
+      "ko": "탐험 실패 시 파티 전투력을 올리는 방법은 무엇인가요?",
+      "pt": "Como aprimorar o poder do esquadrão após uma exploração falhar?"
+    },
+    "options": [
+      {
+        "ru": "Улучшение героев",
+        "en": "Upgrade Heroes",
+        "de": "Helden upgraden",
+        "es": "Mejorar héroes",
+        "fr": "Améliorer les Héros",
+        "id": "Tingkatkan hero",
+        "ja": "英雄をレベルアップ",
+        "ko": "영웅 레벨업",
+        "pt": "Melhorar Heróis"
+      },
+      {
+        "ru": "Повысить ступень войск",
+        "en": "Upgrade Soldier Tier",
+        "de": "Soldaten-Stufe upgraden",
+        "es": "Mejorar el nivel de soldado",
+        "fr": "Améliorer le rang des soldats",
+        "id": "Naikkan pangkat prajurit",
+        "ja": "兵士ランクをアップグレード",
+        "ko": "병사 등급 업그레이드",
+        "pt": "Melhorar o Nível do Soldado"
+      },
+      {
+        "ru": "Оба варинта",
+        "en": "Both",
+        "de": "Beides",
+        "es": "Ambos",
+        "fr": "Les deux",
+        "id": "Keduanya",
+        "ja": "両方とも",
+        "ko": "둘 다",
+        "pt": "Ambos"
+      }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 33,
+    "category": "heroes",
+    "title": {
+      "ru": "Как подбирать героев для максимального урона при формировании строя героев?",
+      "en": "How do you select heroes to maximize their overall damage dealt when building a hero lineup?",
+      "de": "Wie wählst du Helden aus, um ihren Gesamtschaden zu maximieren, wenn du eine Heldenaufstellung zusammenstellst?",
+      "es": "¿Cómo seleccionas facciones para maximizar el daño del escuadrón al formar una formación de héroes?",
+      "fr": "Comment sélectionner les héros pour maximiser les dégâts infligés lors de la composition d\\'une équipe de héros ?",
+      "id": "Bagaimana cara memilih formasi tim hero untuk memaksimalkan damage?",
+      "ja": "英雄編成時、パーティーのダメージを最大にするための陣営の選び方は？",
+      "ko": "파티의 대미지를 극대화하려면 어떤 진영의 영웅으로 팀을 구성해야 하나요?",
+      "pt": "Como escolher as classes para maximizar o dano do esquadrão ao montar uma formação de heróis?"
+    },
+    "options": [
+      {
+        "ru": "5 участников из одной фракции",
+        "en": "5 members from the same faction",
+        "de": "5 Mitglieder derselben Fraktion",
+        "es": "5 miembros de la misma facción",
+        "fr": "5 membres de la même faction",
+        "id": "5 anggota dari faksi yang sama",
+        "ja": "5人とも同じ陣営",
+        "ko": "5명 모두 동일 진영",
+        "pt": "5 membros da mesma classe"
+      },
+      {
+        "ru": "5 участников из разных фракций",
+        "en": "5 heroes from different factions",
+        "de": "5 Helden aus verschiedenen Fraktionen",
+        "es": "5 héroes de diferentes facciones",
+        "fr": "5 héros de factions différentes",
+        "id": "5 orang dari faksi berbeda",
+        "ja": "5体とも異なる陣営",
+        "ko": "5명 모두 다른 진영",
+        "pt": "5 heróis de diferentes classes"
+      },
+      {
+        "ru": "Без разницы",
+        "en": "No Difference",
+        "de": "Kein Unterschied",
+        "es": "Sin diferencia",
+        "fr": "Aucune différence",
+        "id": "Tidak ada bedanya",
+        "ja": "違いはない",
+        "ko": "차이 없음",
+        "pt": "Não há diferença"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 34,
+    "category": "lore",
+    "title": {
+      "ru": "Какие способы не повышают мощь отряда после поражения?",
+      "en": "Which methods do not boost squad Might after defeat?",
+      "de": "Welche Methoden erhöhen nicht die Macht der Truppe nach einer Niederlage?",
+      "es": "¿Qué métodos no aumentan el poder del escuadrón después de una derrota?",
+      "fr": "Quelles méthodes n\\'augmentent pas la puissance d\\'escouade après une défaite ?",
+      "id": "Setelah kalah, cara apa saja yang tidak bisa meningkatkan CP tim?",
+      "ja": "敗北後、パーティーの戦力を上げられない方法は何ですか？",
+      "ko": "전투 패배 후 파티 전투력을 올릴 수 없는 방법은 무엇인가요?",
+      "pt": "Após uma derrota, reorganizar a formação ou retirar-se do campo de batalha não aumentam o Poder do esquadrão. Apenas treinamento, aprimoramento de equipamento e recrutamento o fazem."
+    },
+    "options": [
+      {
+        "ru": "Нанять выживших",
+        "en": "Recruit Survivors",
+        "de": "Rekrutiere Überlebende",
+        "es": "Reclutar sobrevivientes",
+        "fr": "Recruter des survivants",
+        "id": "Rekrut penyintas",
+        "ja": "生存者募集",
+        "ko": "생존자 모집",
+        "pt": "Recrutar Sobreviventes"
+      },
+      {
+        "ru": "Наем героев",
+        "en": "Recruit Heroes",
+        "de": "Helden rekrutieren",
+        "es": "Reclutar héroes",
+        "fr": "Recruter des héros",
+        "id": "Rekrut hero",
+        "ja": "英雄募集",
+        "ko": "영웅 모집",
+        "pt": "Recrutar Heróis"
+      },
+      {
+        "ru": "Обучение войск",
+        "en": "Train Soldiers",
+        "de": "Soldatentraining",
+        "es": "Entrenar soldados",
+        "fr": "Entraîner les soldats",
+        "id": "Pelatihan Pasukan",
+        "ja": "兵士訓練",
+        "ko": "병사 훈련",
+        "pt": "Treine Soldados"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 35,
+    "category": "lore",
+    "title": {
+      "ru": "Как можно получить медные монеты?",
+      "en": "What are the ways to obtain Copper Coins?",
+      "de": "Welche Möglichkeiten gibt es, um Kupfermünzen zu erhalten?",
+      "es": "¿Cuáles son las formas de obtener monedas de cobre?",
+      "fr": "Quels sont les moyens d\\'obtenir des Pièces de cuivre ?",
+      "id": "Dengan cara apa saja koin tembaga bisa didapatkan?",
+      "ja": "銅貨を入手できる方法は次のうちどれですか？",
+      "ko": "다음 중 동전을 획득할 수 있는 방법은 무엇인가요?",
+      "pt": "Quais são as formas de obter Moedas de Cobre?"
+    },
+    "options": [
+      {
+        "ru": "Умерщвленная скверна",
+        "en": "Slay Blight",
+        "de": "Seuche besiegen",
+        "es": "Eliminar infectados",
+        "fr": "Éliminer la Peste",
+        "id": "Bunuh Ghoul",
+        "ja": "ゾンビ撃破",
+        "ko": "좀비 처치",
+        "pt": "Abater Infectado"
+      },
+      {
+        "ru": "Сбор в Святилище",
+        "en": "Collect in the Sanctuary",
+        "de": "In der Zuflucht sammeln",
+        "es": "Recolectar en el Santuario",
+        "fr": "Collecter au Sanctuaire",
+        "id": "Ambil di Kuil",
+        "ja": "教会で受け取る",
+        "ko": "성당에서 수령",
+        "pt": "Coletar no Santuário"
+      },
+      {
+        "ru": "Этап исследования",
+        "en": "Exploration Stage",
+        "de": "Erkundungsstufe",
+        "es": "Etapa de exploración",
+        "fr": "Étape d\\'exploration",
+        "id": "Level petualangan",
+        "ja": "探検ステージ",
+        "ko": "탐험 스테이지",
+        "pt": "Fase de Exploração"
+      }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 36,
+    "category": "lore",
+    "title": {
+      "ru": "Что является доказательством статуса мэра в игре?",
+      "en": "What is the item that serves as proof of being the Mayor in the game?",
+      "de": "Was ist der Gegenstand, der im Spiel als Beweis für das Bürgermeisteramt dient?",
+      "es": "¿Cuál es el objeto que sirve como prueba de ser el alcalde en el juego?",
+      "fr": "Quel objet atteste du statut de maire dans le jeu ?",
+      "id": "Apa item yang menjadi bukti sebagai walikota dalam permainan?",
+      "ja": "ゲーム内で町長の証明となるアイテムは何ですか？",
+      "ko": "게임 내에서 촌장임을 증명하는 아이템은 무엇인가요?",
+      "pt": "Qual item comprova que alguém é o Prefeito no jogo?"
+    },
+    "options": [
+      {
+        "ru": "Перстень с печатью",
+        "en": "Signet Ring",
+        "de": "Siegelring",
+        "es": "Anillo de sello",
+        "fr": "Chevalière",
+        "id": "Cincin Segel",
+        "ja": "シグネットリング",
+        "ko": "인장 반지",
+        "pt": "Anel de Sinete"
+      },
+      {
+        "ru": "Маска с клювом",
+        "en": "Beaked Mask",
+        "de": "Schnabelmaske",
+        "es": "Máscara con pico",
+        "fr": "Masque à bec",
+        "id": "Topeng paruh burung",
+        "ja": "鳥の嘴の仮面",
+        "ko": "새 부리 가면",
+        "pt": "Máscara com Bico"
+      },
+      {
+        "ru": "Одобрение Селии",
+        "en": "Celia\\'s Approval",
+        "de": "Celias Zustimmung",
+        "es": "Aprobación de Celia",
+        "fr": "L\\'approbation de Celia",
+        "id": "Pengakuan Celia",
+        "ja": "シリアの承認",
+        "ko": "실리아의 인정",
+        "pt": "Aprovação de Celia"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 37,
+    "category": "lore",
+    "title": {
+      "ru": "Каково основное применение посоха чумного доктора?",
+      "en": "What is the primary use of the plague doctor\\'s staff?",
+      "de": "Was ist der Hauptzweck des Stabes des Seuchenarztes?",
+      "es": "¿Cuál es el uso principal del bastón del doctor de la peste?",
+      "fr": "Quelle est l\\'utilité principale du bâton du médecin de la peste ?",
+      "id": "Apa kegunaan utama tongkat yang dipakai oleh dokter bertopeng burung?",
+      "ja": "ペスト医師が杖を使う主な用途は何ですか？",
+      "ko": "부리 의사가 지팡이를 사용하는 주된 용도는 무엇인가요?",
+      "pt": "Qual é o principal uso do cajado do médico da peste?"
+    },
+    "options": [
+      {
+        "ru": "Командовать солдатами",
+        "en": "Command Soldiers",
+        "de": "Soldaten befehligen",
+        "es": "Comandar soldados",
+        "fr": "COmmander des soldats",
+        "id": "Pimpin prajurit",
+        "ja": "兵士の指揮",
+        "ko": "병사 지휘",
+        "pt": "Comandar Soldados"
+      },
+      {
+        "ru": "Самому оперировать пациента",
+        "en": "Perform surgery directly on the patient",
+        "de": "Operation direkt am Patienten durchführen",
+        "es": "Realizar cirugía directamente en el paciente",
+        "fr": "Opérer directement le patient",
+        "id": "Langsung operasi pasien",
+        "ja": "直接患者に手術",
+        "ko": "환자에게 직접 수술 시행",
+        "pt": "Realizar a cirurgia diretamente no paciente"
+      },
+      {
+        "ru": "Удерживать дистанцию от пациентов",
+        "en": "Keep a distance from patients",
+        "de": "Abstand zu Patienten halten",
+        "es": "Mantén la distancia con los pacientes",
+        "fr": "Garder ses distances avec les patients",
+        "id": "Jaga jarak dengan pasien",
+        "ja": "患者と距離を保つ",
+        "ko": "환자와 거리를 유지하세요",
+        "pt": "Manter distância dos pacientes"
+      }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 38,
+    "category": "lore",
+    "title": {
+      "ru": "Какой интервал между двумя ежедневными попытками получения энергии?",
+      "en": "How long is the time interval between the two opportunities to claim Stamina each day?",
+      "de": "Wie lang ist das Zeitintervall zwischen den beiden Möglichkeiten, täglich Ausdauer zu erhalten?",
+      "es": "¿Cuánto tiempo transcurre entre las dos oportunidades diarias para reclamar resistencia?",
+      "fr": "Quel est l\\'intervalle entre les deux opportunités quotidiennes de récupérer de l\\'énergie ?",
+      "id": "Setiap hari ada dua kesempatan untuk mendapatkan stamina, berapa lama jeda antara pengambilannya?",
+      "ja": "毎日2回スタミナを受け取れますが、受け取りの間隔はどのくらいですか？",
+      "ko": "매일 체력을 받을 수 있는 2번 기회가 있는데, 수령 간격은 얼마나 되나요?",
+      "pt": "Qual é o intervalo entre as duas oportunidades diárias de reivindicar Vigor?"
+    },
+    "options": [
+      {
+        "ru": "4 часа",
+        "en": "4 Hours",
+        "de": "4 Stunden",
+        "es": "4 horas",
+        "fr": "4 heures",
+        "id": "4 jam",
+        "ja": "4時間",
+        "ko": "4시간",
+        "pt": "4 Horas"
+      },
+      {
+        "ru": "8 часов",
+        "en": "8 Hours",
+        "de": "8 Stunden",
+        "es": "8 horas",
+        "fr": "8 heures",
+        "id": "8 jam",
+        "ja": "8時間",
+        "ko": "8시간",
+        "pt": "8 horas"
+      },
+      {
+        "ru": "12 часов",
+        "en": "12 Hours",
+        "de": "12 Stunden",
+        "es": "12 horas",
+        "fr": "12 heures",
+        "id": "12 jam",
+        "ja": "12時間",
+        "ko": "12시간",
+        "pt": "12 horas"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 39,
+    "category": "events",
+    "title": {
+      "ru": "Изучение технологии Дуэли альянсов повышает очки, получаемые в Дуэли альянсов.",
+      "en": "Researching Alliance Duel technology can increase the points gained per Alliance Duel.",
+      "de": "Die Erforschung der Allianz-Duell-Technologie kann die pro Allianz-Duell gewonnenen Punkte erhöhen.",
+      "es": "Investigar la tecnología de Duelo de alianzas puede aumentar los puntos obtenidos por cada Duelo de alianzas.",
+      "fr": "La recherche de la technologie du Duel d\\'alliances permet d\\'augmenter les points obtenus par Duel d\\'alliances.",
+      "id": "Meneliti teknologi pertarungan guild dapat meningkatkan jumlah poin yang diperoleh setiap kali pertarungan guild",
+      "ja": "ギルドバトルのテクノロジーを研究すると、バトルで獲得できるポイントが増かする",
+      "ko": "길드전 기술을 연구하면 길드전에서 획득하는 포인트 수량이 증가합니다.",
+      "pt": "Pesquisar a tecnologia de Duelo da Aliança pode aumentar os pontos obtidos por Duelo da Aliança."
+    },
+    "options": [
+      {
+        "ru": "Верно",
+        "en": "Correct",
+        "de": "Korrekt",
+        "es": "Correcto",
+        "fr": "Correct",
+        "id": "Benar",
+        "ja": "正解",
+        "ko": "확인",
+        "pt": "Correto"
+      },
+      {
+        "ru": "Неверно",
+        "en": "Incorrect",
+        "de": "Falsch",
+        "es": "Incorrecto",
+        "fr": "Incorrect",
+        "id": "Error",
+        "ja": "エラー",
+        "ko": "오류",
+        "pt": "Incorreto"
+      },
+      {
+        "ru": "Не знаю",
+        "en": "Not Sure",
+        "de": "Nicht sicher",
+        "es": "No tengo ninguna certeza",
+        "fr": "Pas sûr",
+        "id": "Tidak tahu",
+        "ja": "知らない",
+        "ko": "모르겠어요",
+        "pt": "Não tenho certeza"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 40,
+    "category": "lore",
+    "title": {
+      "ru": "Какие типы наград за задания может усилить выжившая Фрейя?",
+      "en": "Which type of Quest rewards can survivor Freya boost?",
+      "de": "Welche Art von Quest-Belohnungen kann die Überlebende Freya verstärken?",
+      "es": "¿Qué tipo de recompensas de misión puede mejorar la sobreviviente Freya?",
+      "fr": "Quel type de récompenses de quête la survivante Freya peut-elle augmenter ?",
+      "id": "Penyintas Freya dapat meningkatkan reward misi jenis apa?",
+      "ja": "生存者フレイヤは、どの種類の任務報酬を向上させますか？",
+      "ko": "생존자 프레이야는 어떤 유형의 퀘스트 보상을 향상시킬 수 있나요?",
+      "pt": "Que tipo de recompensas de missão a sobrevivente Freya pode aprimorar?"
+    },
+    "options": [
+      {
+        "ru": "Задание сокола",
+        "en": "Falcon Quest",
+        "de": "Falken-Quest",
+        "es": "Misión del halcón",
+        "fr": "Quête du faucon",
+        "id": "Misi Menara Raven",
+        "ja": "ファルコンタワー任務",
+        "ko": "팔콘 타워 임무",
+        "pt": "Missão Falcão"
+      },
+      {
+        "ru": "Суточные задания",
+        "en": "Daily Quests",
+        "de": "Tagesquests",
+        "es": "Misiones diarias",
+        "fr": "Quêtes quotidiennes",
+        "id": "Misi Harian",
+        "ja": "デイリー任務",
+        "ko": "일일 미션",
+        "pt": "Missões Diárias"
+      },
+      {
+        "ru": "Основное задание",
+        "en": "Main Quest",
+        "de": "Hauptquest",
+        "es": "Misión principal",
+        "fr": "Quête principale",
+        "id": "Misi Utama",
+        "ja": "メイン任務",
+        "ko": "메인 퀘스트",
+        "pt": "Missão Principal"
+      }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 41,
+    "category": "buildings",
+    "title": {
+      "ru": "Как повысить звездность Лазарета?",
+      "en": "How do you raise the star of the Infirmary?",
+      "de": "Wie erhöht man den Stern des Krankenhauses?",
+      "es": "¿Cómo se aumenta el nivel de estrellas de la Enfermería?",
+      "fr": "Comment augmenter le niveau d\\'étoiles de l\\'Infirmerie ?",
+      "id": "Bagaimana cara meningkatkan level bintang rumah sakit?",
+      "ja": "病院の★ランクを上げるにはどうしますか？",
+      "ko": "병원 성급은 어떻게 올리나요?",
+      "pt": "Como aumentar a estrela da Enfermaria?"
+    },
+    "options": [
+      {
+        "ru": "Улучшите строения в Лазарете",
+        "en": "Upgrade buildings in the Infirmary",
+        "de": "Gebäude im Krankenhaus upgraden",
+        "es": "Mejorar edificios en la Enfermería",
+        "fr": "Améliorer les bâtiments de l\\'Infirmerie",
+        "id": "Tingkatkan bangunan di Rumah Sakit",
+        "ja": "病院内の施設をアップグレード",
+        "ko": "병원 내 건물 업그레이드",
+        "pt": "Melhorar os edifícios na Enfermaria"
+      },
+      {
+        "ru": "Лечите больше пациентов",
+        "en": "Treat more patients",
+        "de": "Mehr Patienten behandeln",
+        "es": "Tratar a más pacientes",
+        "fr": "Soigner plus de patients",
+        "id": "Selamatkan lebih banyak pasien",
+        "ja": "より多くの患者を救う",
+        "ko": "더 많은 환자 치료하기",
+        "pt": "Tratar mais pacientes"
+      },
+      {
+        "ru": "Соберите больше трав",
+        "en": "Gather more herbs",
+        "de": "Mehr Kräuter sammeln",
+        "es": "Recolectar más hierbas",
+        "fr": "Ramasser plus d\\'herbes",
+        "id": "Kumpulkan lebih banyak herbal",
+        "ja": "薬草をさらに採集",
+        "ko": "더 많은 약초 채집",
+        "pt": "Recolher mais ervas"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 42,
+    "category": "mechanics",
+    "title": {
+      "ru": "Количество солдат не ограничено.",
+      "en": "There is no limit to the number of Soldiers.",
+      "de": "Es gibt keine Begrenzung für die Anzahl der Soldaten.",
+      "es": "No hay límite en el número de soldados.",
+      "fr": "Le nombre de soldats est illimité.",
+      "id": "Jumlah prajurit tidak memiliki batas maksimum.",
+      "ja": "兵士の数に上限はない",
+      "ko": "병사 보유 수에는 제한이 없습니다.",
+      "pt": "Não há limite para o número de Soldados."
+    },
+    "options": [
+      {
+        "ru": "Верно",
+        "en": "Correct",
+        "de": "Korrekt",
+        "es": "Correcto",
+        "fr": "Correct",
+        "id": "Benar",
+        "ja": "正解",
+        "ko": "확인",
+        "pt": "Correto"
+      },
+      {
+        "ru": "Неверно",
+        "en": "Incorrect",
+        "de": "Falsch",
+        "es": "Incorrecto",
+        "fr": "Incorrect",
+        "id": "Error",
+        "ja": "エラー",
+        "ko": "오류",
+        "pt": "Incorreto"
+      },
+      {
+        "ru": "Не знаю",
+        "en": "Not Sure",
+        "de": "Nicht sicher",
+        "es": "No tengo ninguna certeza",
+        "fr": "Pas sûr",
+        "id": "Tidak tahu",
+        "ja": "知らない",
+        "ko": "모르겠어요",
+        "pt": "Não tenho certeza"
+      }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 43,
+    "category": "heroes",
+    "title": {
+      "ru": "Что ограничивает уровень навыков героя?",
+      "en": "What limits the hero skill level cap?",
+      "de": "Was begrenzt das maximale Level der Heldenfähigkeit?",
+      "es": "¿Qué limita el nivel máximo de habilidad del héroe?",
+      "fr": "Qu\\'est-ce qui limite le plafond de niveau des compétences de héros ?",
+      "id": "Apa yang membatasi level maksimum Skill Hero?",
+      "ja": "英雄のスキルレベルの上限は何によって制限されますか？",
+      "ko": "영웅 스킬의 최대 레벨은 무엇의 영향을 받나요?",
+      "pt": "O que determina o nível máximo da habilidade do herói?"
+    },
+    "options": [
+      {
+        "ru": "Уровень героя",
+        "en": "Hero Level",
+        "de": "Heldenlevel",
+        "es": "Nivel del héroe",
+        "fr": "Niveau du héros",
+        "id": "Level Hero",
+        "ja": "英雄レベル",
+        "ko": "영웅 레벨",
+        "pt": "Nível do Herói"
+      },
+      {
+        "ru": "Звездный рейтинг героя",
+        "en": "Hero Stars",
+        "de": "Helden-Sterne",
+        "es": "Estrellas de héroe",
+        "fr": "Étoiles de héros",
+        "id": "Level Bintang Hero",
+        "ja": "英雄★ランク",
+        "ko": "영웅 성급",
+        "pt": "Estrelas do Herói"
+      },
+      {
+        "ru": "Качество героя",
+        "en": "Hero Quality",
+        "de": "Held Qualität",
+        "es": "Calidad del héroe",
+        "fr": "Qualité du héros",
+        "id": "Kualitas Hero",
+        "ja": "英雄のレアリティ",
+        "ko": "영웅 등급",
+        "pt": "Qualidade do Herói"
+      }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 44,
+    "category": "lore",
+    "title": {
+      "ru": "Что нужно сделать после заражения?",
+      "en": "What should be done after getting infected?",
+      "de": "Was sollte man tun, nachdem man sich infiziert hat?",
+      "es": "¿Qué se debe hacer después de contraer una enfermedad?",
+      "fr": "Que faire une fois infecté ?",
+      "id": "Setelah terinfeksi penyakit, apa yang harus dilakukan?",
+      "ja": "病気に感染したら、どうすればいいですか？",
+      "ko": "감염되면 어떻게 해야 하나요?",
+      "pt": "O que deve ser feito após se infectar?"
+    },
+    "options": [
+      {
+        "ru": "Обратиться к врачу",
+        "en": "See a doctor for treatment",
+        "de": "Einen Arzt zur Behandlung aufsuchen",
+        "es": "Buscar un médico para tratamiento",
+        "fr": "Consulter un docteur pour un traitement",
+        "id": "Cari dokter untuk pengobatan",
+        "ja": "ドクターを探して治療してもらう",
+        "ko": "의사에게서 치료받기",
+        "pt": "Procurar um médico para tratamento"
+      },
+      {
+        "ru": "Пойти на работу",
+        "en": "Go to work",
+        "de": "Zur Arbeit gehen",
+        "es": "Ir a trabajar",
+        "fr": "Allez au travail",
+        "id": "Kerja di Luar",
+        "ja": "働きに出る",
+        "ko": "작업하기",
+        "pt": "Ir trabalhar"
+      },
+      {
+        "ru": "Лечь и ждать",
+        "en": "Lie down and wait",
+        "de": "Hinlegen und warten",
+        "es": "Quedarse en casa y esperar",
+        "fr": "S\\'allonger et attendre",
+        "id": "Menunggu sambil Berbaring di Rumah",
+        "ja": "家で横になって待つ",
+        "ko": "집에서 빈둥거리기",
+        "pt": "Deitar e esperar"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 45,
+    "category": "buildings",
+    "title": {
+      "ru": "Какое здание в городе самое величественное?",
+      "en": "What is the most magnificent building in the town?",
+      "de": "Was ist das prächtigste Gebäude in der Stadt?",
+      "es": "¿Cuál es el edificio más magnífico del pueblo?",
+      "fr": "Quel est le bâtiment le plus splendide de la ville ?",
+      "id": "Bangunan mana yang paling megah di kota?",
+      "ja": "町で一番立派な建物はどれですか？",
+      "ko": "마을에서 가장 웅장한 건물은 무엇인가요?",
+      "pt": "Qual é o edifício mais magnífico da cidade?"
+    },
+    "options": [
+      {
+        "ru": "Ферма",
+        "en": "Farm",
+        "de": "Bauernhof",
+        "es": "Granja",
+        "fr": "Ferme",
+        "id": "Peternakan",
+        "ja": "農場",
+        "ko": "농장",
+        "pt": "Fazenda"
+      },
+      {
+        "ru": "Казарма",
+        "en": "Barracks",
+        "de": "Kaserne",
+        "es": "Cuartel",
+        "fr": "Caserne",
+        "id": "Barak",
+        "ja": "兵舎",
+        "ko": "병영",
+        "pt": "Quartel"
+      },
+      {
+        "ru": "Святилище",
+        "en": "Sanctuary",
+        "de": "Zuflucht",
+        "es": "Santuario",
+        "fr": "Sanctuaire",
+        "id": "Kuil",
+        "ja": "教会",
+        "ko": "성당",
+        "pt": "Santuário"
+      }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 46,
+    "category": "lore",
+    "title": {
+      "ru": "Где производится зерно?",
+      "en": "Where is Grain produced?",
+      "de": "Wo wird Getreide produziert?",
+      "es": "¿Dónde se produce el grano?",
+      "fr": "Où sont produites les céréales ?",
+      "id": "Di mana Makanan diproduksi?",
+      "ja": "食料はどこで手に入りますか？",
+      "ko": "식량은 어디서 획득할 수 있나요?",
+      "pt": "Onde se produz a Comida?"
+    },
+    "options": [
+      {
+        "ru": "Ферма",
+        "en": "Farm",
+        "de": "Bauernhof",
+        "es": "Granja",
+        "fr": "Ferme",
+        "id": "Peternakan",
+        "ja": "農場",
+        "ko": "농장",
+        "pt": "Fazenda"
+      },
+      {
+        "ru": "Цветник",
+        "en": "Herb Garden",
+        "de": "Kräutergarten",
+        "es": "Jardín de hierbas",
+        "fr": "Jardin d\\'herbes",
+        "id": "Kebun Obat",
+        "ja": "薬草園",
+        "ko": "약초원",
+        "pt": "Herbário"
+      },
+      {
+        "ru": "Таверна",
+        "en": "Tavern",
+        "de": "Taverne",
+        "es": "Taberna",
+        "fr": "Taverne",
+        "id": "Kedai",
+        "ja": "酒場",
+        "ko": "선술집",
+        "pt": "Taverna"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 47,
+    "category": "lore",
+    "title": {
+      "ru": "Где добывают древесину?",
+      "en": "Where is Timber produced?",
+      "de": "Wo wird Holz produziert?",
+      "es": "¿Dónde se produce la madera?",
+      "fr": "Où le bois est-il produit ?",
+      "id": "Di mana kayu diproduksi?",
+      "ja": "木材はどこで手に入りますか？",
+      "ko": "목재는 어디에서 생산되나요?",
+      "pt": "Onde se produz Madeira?"
+    },
+    "options": [
+      {
+        "ru": "Лесопилка",
+        "en": "Lumberyard",
+        "de": "Sägewerk",
+        "es": "Aserradero",
+        "fr": "Scierie",
+        "id": "Penebangan",
+        "ja": "伐採場",
+        "ko": "벌목장",
+        "pt": "Madeireira"
+      },
+      {
+        "ru": "Ферма",
+        "en": "Farm",
+        "de": "Bauernhof",
+        "es": "Granja",
+        "fr": "Ferme",
+        "id": "Peternakan",
+        "ja": "農場",
+        "ko": "농장",
+        "pt": "Fazenda"
+      },
+      {
+        "ru": "Плавильный цех",
+        "en": "Smelting Workshop",
+        "de": "Schmelzwerkstatt",
+        "es": "Taller de fundición",
+        "fr": "Atelier de fonderie",
+        "id": "Bengkel Peleburan",
+        "ja": "製錬工房",
+        "ko": "제련 공방",
+        "pt": "Casa de Fundição"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 48,
+    "category": "lore",
+    "title": {
+      "ru": "Для чего нужно противоядие?",
+      "en": "What is the function of Antitoxin?",
+      "de": "Was ist die Funktion von Gegengift?",
+      "es": "¿Cuál es la función del antídoto?",
+      "fr": "Quel est le rôle de l\\'antitoxine ?",
+      "id": "Apa fungsi Antitoksin?",
+      "ja": "抗毒剤の効果は何ですか？",
+      "ko": "항독소의 역할은 무엇일까요?",
+      "pt": "Qual é a função da Antitoxina?"
+    },
+    "options": [
+      {
+        "ru": "Улучшение и усиление героя",
+        "en": "Enhances or upgrades hero",
+        "de": "Verbessert oder upgradet Helden",
+        "es": "Mejora o potencia al héroe",
+        "fr": "Renforce ou améliore le héros",
+        "id": "Perkuat Peningkatan Hero Level",
+        "ja": "英雄を強化してレベルを上げる",
+        "ko": "영웅을 강화하여 레벨 올리기",
+        "pt": "Aprimora ou melhora um Herói"
+      },
+      {
+        "ru": "Лечение",
+        "en": "Heals",
+        "de": "Heilen",
+        "es": "Curar",
+        "fr": "Soigne",
+        "id": "Mengobati Penyakit",
+        "ja": "病気を治す",
+        "ko": "질병 치료",
+        "pt": "Cura"
+      },
+      {
+        "ru": "Победить Скверну",
+        "en": "Defeat the Blight",
+        "de": "Besiege die Seuche",
+        "es": "Derrota al infectado",
+        "fr": "Vainquez le Fléau",
+        "id": "Kalahkan Ghoul",
+        "ja": "ゾンビを撃破",
+        "ko": "좀비 처치",
+        "pt": "Derrote a Praga"
+      }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 49,
+    "category": "lore",
+    "title": {
+      "ru": "Для чего нужны реликвии?",
+      "en": "What is the purpose of Curios?",
+      "de": "Was ist der Zweck von Kuriositäten?",
+      "es": "¿Cuál es el propósito de las curiosidades?",
+      "fr": "À quoi servent les curiosités ?",
+      "id": "Apa fungsi Koleksi?",
+      "ja": "収蔵品の効果は何ですか？",
+      "ko": "컬렉션의 역할은 무엇일까요?",
+      "pt": "Qual é o propósito dos Artefatos?"
+    },
+    "options": [
+      {
+        "ru": "Усиление характеристи зданий",
+        "en": "Enhances building-related stats",
+        "de": "Verbessert gebäudebezogene Werte",
+        "es": "Mejora las estadísticas relacionadas con edificios",
+        "fr": "Renforce les stats de bâtiment",
+        "id": "Tingkatkan atribut terkait pembangunan",
+        "ja": "建設関連ステータス強化",
+        "ko": "건설 관련 능력치 강화",
+        "pt": "Aprimora atributos de edifícios"
+      },
+      {
+        "ru": "Улучшение боевых характеристик",
+        "en": "Enhances combat-related stats",
+        "de": "Verbessert kampfbezogene Werte",
+        "es": "Mejora las estadísticas de combate",
+        "fr": "Améliore les statistiques de combat",
+        "id": "Tingkatkan atribut tempur",
+        "ja": "戦闘関連のステータスをアップ",
+        "ko": "전투 능력치 강화",
+        "pt": "Aprimora atributos de combate"
+      },
+      {
+        "ru": "Оба варианта",
+        "en": "Both of the above",
+        "de": "Beide oben Genannten",
+        "es": "Ambos",
+        "fr": "Les deux ci-dessus",
+        "id": "Keduanya",
+        "ja": "両方",
+        "ko": "둘 다",
+        "pt": "Ambos os acima"
+      }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 50,
+    "category": "mechanics",
+    "title": {
+      "ru": "Какой из материалов не является ключевым ресурсом в игре?",
+      "en": "Which of the following materials is not a main resource in the game?",
+      "de": "Welches der folgenden Materialien ist keine Hauptressource im Spiel?",
+      "es": "¿Cuál de los siguientes materiales no es un recurso principal en el juego?",
+      "fr": "Parmi les matériaux suivants, lequel n\\'est pas une ressource principale du jeu ?",
+      "id": "Manakah dari sumber daya berikut yang bukan merupakan sumber daya utama dalam game?",
+      "ja": "次のうち、ゲーム内の主な資源ではないものはどれですか？",
+      "ko": "다음 중 게임 내 주요 자원이 아닌 것은 무엇일까요?",
+      "pt": "Qual dos materiais a seguir não é um recurso principal no jogo?"
+    },
+    "options": [
+      {
+        "ru": "Зерно",
+        "en": "Grain",
+        "de": "Getreide",
+        "es": "Grano",
+        "fr": "Céréales",
+        "id": "Makanan",
+        "ja": "食料",
+        "ko": "식량",
+        "pt": "Comida"
+      },
+      {
+        "ru": "Древесина",
+        "en": "Timber",
+        "de": "Holz",
+        "es": "Madera",
+        "fr": "Bois",
+        "id": "Kayu",
+        "ja": "木材",
+        "ko": "목재",
+        "pt": "Madeira"
+      },
+      {
+        "ru": "Железная руда",
+        "en": "Iron Ore",
+        "de": "Eisenerz",
+        "es": "Mineral de hierro",
+        "fr": "Minerai de fer",
+        "id": "Bijih Besi",
+        "ja": "鉄鉱",
+        "ko": "철광",
+        "pt": "Minério de Ferro"
+      }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 51,
+    "category": "lore",
+    "title": {
+      "ru": "Что из перечисленного можно получить путем повышения?",
+      "en": "Which of the following can be obtained via promotion?",
+      "de": "Was kann durch Beförderung erlangt werden?",
+      "es": "¿Cuál de los siguientes se puede obtener mediante la promoción?",
+      "fr": "Lequel des éléments suivants peut être obtenu par promotion ?",
+      "id": "Manakah dari berikut ini yang dapat diperoleh dengan meningkatkan Level Bintang?",
+      "ja": "★アップで獲得できるのは、次のうちどれですか？",
+      "ko": "다음 중 승성을 통해 획득할 수 있는 것은 무엇일까요?",
+      "pt": "Qual dos itens a seguir pode ser obtido por promoção?"
+    },
+    "options": [
+      {
+        "ru": "Билет призыва",
+        "en": "Recruit Ticket",
+        "de": "Rekrut.-ticket",
+        "es": "Boleto de reclut.",
+        "fr": "Ticket de recrutement",
+        "id": "Tiket Rekrut",
+        "ja": "募集チケット",
+        "ko": "모집권",
+        "pt": "Bilhete de Recrutamento"
+      },
+      {
+        "ru": "Опыт героя",
+        "en": "Hero EXP",
+        "de": "Helden-EP",
+        "es": "EXP de héroes",
+        "fr": "EXP de héros",
+        "id": "EXP Hero",
+        "ja": "英雄経験値",
+        "ko": "영웅 경험치",
+        "pt": "EXP do Herói"
+      },
+      {
+        "ru": "Усиление клиники",
+        "en": "Clinic Buff",
+        "de": "Klinik-Buff",
+        "es": "Beneficio de la clínica",
+        "fr": "Bonus de Clinique",
+        "id": "Bonus Klinik",
+        "ja": "診療所バフ",
+        "ko": "진료소 버프",
+        "pt": "Buff da Clínica"
+      }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 52,
+    "category": "heroes",
+    "title": {
+      "ru": "Какой из перечисленных героев относится к качеству UR?",
+      "en": "Which of the following heroes is of UR quality?",
+      "de": "Welcher der folgenden Helden ist von UR-Qualität?",
+      "es": "¿Cuál de los siguientes héroes es de calidad UR?",
+      "fr": "Parmi les héros suivants, lequel est de qualité UR ?",
+      "id": "Hero manakah di bawah ini yang memiliki kualitas UR?",
+      "ja": "次の英雄のうち、レアリティがURなのは誰ですか？",
+      "ko": "다음 중 UR 등급의 영웅은 누구일까요?",
+      "pt": "Qual dos Heróis abaixo possui qualidade UR?"
+    },
+    "options": [
+      {
+        "ru": "Марлена",
+        "en": "Marlena",
+        "de": "Marlena",
+        "es": "Marlena",
+        "fr": "Marlena",
+        "id": "Marlena",
+        "ja": "マレーナ",
+        "ko": "말레나",
+        "pt": "Marlena"
+      },
+      {
+        "ru": "Белла",
+        "en": "Bella",
+        "de": "Bella",
+        "es": "Bella",
+        "fr": "Bella",
+        "id": "Bella",
+        "ja": "ベラ",
+        "ko": "벨라",
+        "pt": "Bella"
+      },
+      {
+        "ru": "Селия",
+        "en": "Celia",
+        "de": "Celia",
+        "es": "Celia",
+        "fr": "Celia",
+        "id": "Celia",
+        "ja": "シリア",
+        "ko": "실리아",
+        "pt": "Celia"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 53,
+    "category": "lore",
+    "title": {
+      "ru": "Какие усиления доступны после вступления в альянс?",
+      "en": "What Buffs are available after joining an Alliance?",
+      "de": "Welche Buffs sind verfügbar, nachdem man einer Allianz beigetreten ist?",
+      "es": "¿Qué bonificaciones están disponibles después de unirse a una alianza?",
+      "fr": "Quels buffs sont disponibles après avoir rejoint une alliance ?",
+      "id": "Apa saja keuntungan setelah bergabung dengan Guild?",
+      "ja": "ギルドに加入すると、どんなメリットがありますか？",
+      "ko": "길드에 가입하면 어떤 혜택이 있나요?",
+      "pt": "Quais buffs ficam disponíveis após entrar em uma Aliança?"
+    },
+    "options": [
+      {
+        "ru": "Позволяет другим игрокам помогать со строительством",
+        "en": "Allows other players to help in construction",
+        "de": "Ermöglicht anderen Spielern, beim Bau zu helfen",
+        "es": "Permite que otros jugadores ayuden en la construcción",
+        "fr": "Permet aux autres joueurs d\\'aider à la construction",
+        "id": "Memungkinkan pemain lain membantu membangun",
+        "ja": "他のプレイヤーに建設を手伝ってもらえます",
+        "ko": "다른 유저의 건설 지원을 받을 수 있다",
+        "pt": "Permite que outros jogadores ajudem na construção"
+      },
+      {
+        "ru": "Позволяет другим игрокам присоединяться к штурмам",
+        "en": "Allows other players to Rally for battle",
+        "de": "Ermöglicht anderen Spielern, sich zur Versammlung für den Kampf zu treffen",
+        "es": "Permite que otros jugadores se unan a la reunión para la batalla",
+        "fr": "Permet aux autres joueurs de se rallier au combat",
+        "id": "Memungkinkan pemain lain Reli untuk bertempur",
+        "ja": "他のプレイヤーとラリーを組んで戦えます",
+        "ko": "다른 유저와 집결하여 전투할 수 있다",
+        "pt": "Permite que outros jogadores se Mobilizem para a batalha"
+      },
+      {
+        "ru": "Оба варинта",
+        "en": "Both",
+        "de": "Beides",
+        "es": "Ambos",
+        "fr": "Les deux",
+        "id": "Keduanya",
+        "ja": "両方とも",
+        "ko": "둘 다",
+        "pt": "Ambos"
+      }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 54,
+    "category": "mechanics",
+    "title": {
+      "ru": "Что делать при нехватке ресурсов для улучшения построек/технологий?",
+      "en": "What can you do when lacking resources for building/technology upgrades?",
+      "de": "Was kannst du tun, wenn dir Ressourcen für Gebäude-/Technologie-Upgrades fehlen?",
+      "es": "¿Qué puedes hacer cuando te faltan recursos para mejorar edificios o tecnología?",
+      "fr": "Que faire en cas de pénurie de ressources pour les améliorations de bâtiments/technologies ?",
+      "id": "Apa yang bisa dilakukan saat kekurangan Sumber Daya untuk meningkatkan bangunan/teknologi?",
+      "ja": "施設/技術のアップグレード時に資源が足りない場合は、どうすればいいですか？",
+      "ko": "건물/기술 업그레이드 시 자원이 부족하면 어떻게 해야 하나요?",
+      "pt": "O que fazer quando faltam recursos para melhorias de construções ou tecnologias?"
+    },
+    "options": [
+      {
+        "ru": "Сбор ресурсов на карте мира",
+        "en": "Gather resources in the world",
+        "de": "Ressourcen in der Welt sammeln",
+        "es": "Recolectar recursos en el mundo",
+        "fr": "Récolter des ressources dans le monde",
+        "id": "Mengumpulkan sumber daya di dunia",
+        "ja": "世界で資源を採集",
+        "ko": "월드에서 자원 채집",
+        "pt": "Coletar recursos pelo mundo"
+      },
+      {
+        "ru": "Грабить других игроков",
+        "en": "Plunder other players",
+        "de": "Andere Spieler plündern",
+        "es": "Saquear a otros jugadores",
+        "fr": "Piller d\\'autres joueurs",
+        "id": "Menjarah pemain lain",
+        "ja": "他のプレイヤーを略奪",
+        "ko": "다른 유저 약탈",
+        "pt": "Saquear outros jogadores"
+      },
+      {
+        "ru": "Все перечисленное",
+        "en": "All of the above",
+        "de": "Alles oben Genannte",
+        "es": "Todo lo anterior",
+        "fr": "Tout ce qui précède",
+        "id": "Semua benar",
+        "ja": "すべて正解",
+        "ko": "모두 정답",
+        "pt": "Todas as opções acima"
+      }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 55,
+    "category": "mechanics",
+    "title": {
+      "ru": "Какие усиления не открываются с повышением VIP-уровня?",
+      "en": "What buffs are not unlocked by raising your VIP level?",
+      "de": "Welche Buffs werden nicht durch das Erhöhen deines VIP-Levels freigeschaltet?",
+      "es": "¿Qué bonificaciones no se desbloquean al subir tu nivel VIP?",
+      "fr": "Quels buffs ne sont pas déverrouillés en augmentant votre niveau VIP ?",
+      "id": "Peningkatan apa yang tidak didapat dari upgrade VIP?",
+      "ja": "VIPをアップグレードしても獲得できないボーナスは何ですか？",
+      "ko": "VIP 업그레이드로 받을 수 없는 버프는 무엇인가요?",
+      "pt": "Quais buffs não são desbloqueados ao aumentar o nível VIP?"
+    },
+    "options": [
+      {
+        "ru": "Увеличение скорости добычи ресурсов",
+        "en": "Increase resource production speed",
+        "de": "Erhöhung der Ressourcenproduktionsgeschwindigkeit",
+        "es": "Aumentar la velocidad de producción de recursos",
+        "fr": "Accélérer la production de ressources",
+        "id": "Tingkatkan kecepatan produksi sumber daya",
+        "ja": "資源の生産速度が上昇",
+        "ko": "자원 생산 속도 증가",
+        "pt": "Aumentar a velocidade de produção de recursos"
+      },
+      {
+        "ru": "Повышение скорости строительства/исследований",
+        "en": "Boost construction/research speed",
+        "de": "Bau-/Forschungsgeschwindigkeit erhöhen",
+        "es": "Aumentar velocidad de construcción/investigación",
+        "fr": "Accélération de la construction/recherche",
+        "id": "Tingkatkan kecepatan konstruksi/riset",
+        "ja": "建設/研究速度を上昇",
+        "ko": "건설/연구 속도 증가",
+        "pt": "Aumentar a velocidade de construção/pesquisa"
+      },
+      {
+        "ru": "Улучшение характеристик солдат",
+        "en": "Enhance Soldier Stats",
+        "de": "Soldatenwerte verbessern",
+        "es": "Mejorar estadísticas del soldado",
+        "fr": "Améliorer les stats des soldats",
+        "id": "Tingkatkan atribut Prajurit",
+        "ja": "兵士のステータスを上げる",
+        "ko": "병사 속성 강화",
+        "pt": "Aprimorar os Atributos do Soldado"
+      }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 56,
+    "category": "events",
+    "title": {
+      "ru": "Какая тема Дуэли альянсов по средам?",
+      "en": "What is the theme for Alliance Duel on Wednesdays?",
+      "de": "Was ist das Thema für das Allianz-Duell am Mittwoch?",
+      "es": "¿Cuál es el tema semanal del Duelo de alianzas los miércoles?",
+      "fr": "Quel est le thème du Duel d\\'alliances le mercredi ?",
+      "id": "Apa tema Pertarungan Guild setiap hari Rabu?",
+      "ja": "毎週水曜日のギルドバトルのテーマは何ですか？",
+      "ko": "매주 수요일 길드전의 테마는 무엇인가요?",
+      "pt": "Qual é o tema do Duelo da Aliança às quartas-feiras?"
+    },
+    "options": [
+      {
+        "ru": "Изучение технологий",
+        "en": "Tech Research",
+        "de": "Tech-Forschung",
+        "es": "Investigación tecnológica",
+        "fr": "Recherche Technologique",
+        "id": "Riset Teknologi",
+        "ja": "技術開発",
+        "ko": "기술 연구개발",
+        "pt": "Pesquisa de Tecnologia"
+      },
+      {
+        "ru": "Усиление ворона",
+        "en": "Enhance Raven",
+        "de": "Rabenverbesserung",
+        "es": "Mejora al Cuervo",
+        "fr": "Améliorer le corbeau",
+        "id": "Penguatan Raven",
+        "ja": "レイヴン強化",
+        "ko": "까마귀 강화",
+        "pt": "Aprimore o Corvo"
+      },
+      {
+        "ru": "Развитие территории",
+        "en": "Territory Development",
+        "de": "Gebietsentwicklung",
+        "es": "Desarrollo territorial",
+        "fr": "Développement du territoire",
+        "id": "Pengembangan Wilayah",
+        "ja": "領地発展",
+        "ko": "영지 발전",
+        "pt": "Desenvolvimento de Território"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 57,
+    "category": "buildings",
+    "title": {
+      "ru": "Какое здание производит камень снаряжения?",
+      "en": "Which building produces Gearstone?",
+      "de": "Welches Gebäude produziert Ausrüstungsstein?",
+      "es": "¿Qué edificio produce piedra de equipo?",
+      "fr": "Quel bâtiment produit de la Pierre d\\'équipement ?",
+      "id": "Bangunan apa yang dapat memproduksi Batu Penguatan Gear?",
+      "ja": "装備強化石を生産できる施設は何ですか？",
+      "ko": "장비 강화석을 생산하는 건물은 무엇인가요?",
+      "pt": "Qual edifício produz Vítrium?"
+    },
+    "options": [
+      {
+        "ru": "Плавильный цех",
+        "en": "Smelting Workshop",
+        "de": "Schmelzwerkstatt",
+        "es": "Taller de fundición",
+        "fr": "Atelier de fonderie",
+        "id": "Bengkel Peleburan",
+        "ja": "製錬工房",
+        "ko": "제련 공방",
+        "pt": "Casa de Fundição"
+      },
+      {
+        "ru": "Ткацкая мастерская",
+        "en": "Weaving Workshop",
+        "de": "Weberei",
+        "es": "Taller de tejido",
+        "fr": "Atelier de tissage",
+        "id": "Bengkel Tenun",
+        "ja": "織物工房",
+        "ko": "방직 공방",
+        "pt": "Casa de Tecelagem"
+      },
+      {
+        "ru": "Мастерская снаряжения",
+        "en": "Gear Workshop",
+        "de": "Ausrüstungswerkstatt",
+        "es": "Taller de equipamiento",
+        "fr": "Atelier d\\'équipement",
+        "id": "Bengkel Gear",
+        "ja": "装備工房",
+        "ko": "장비 공방",
+        "pt": "Oficina de Equipamentos"
+      }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 58,
+    "category": "lore",
+    "title": {
+      "ru": "Для чего нужны изделия ткацкой мастерской?",
+      "en": "What can the items produced in the Weaving Workshop be used for?",
+      "de": "Wofür können die in der Weberei hergestellten Gegenstände verwendet werden?",
+      "es": "¿Para qué se pueden usar los objetos producidos en el Taller de tejido?",
+      "fr": "À quoi servent les objets produits à l\\'Atelier de tissage ?",
+      "id": "Apa kegunaan Item yang diproduksi di Bengkel Tenun?",
+      "ja": "織物工房で生産されるアイテムは何に使えますか？",
+      "ko": "방직 공방에서 생산되는 아이템은 어디에 사용할 수 있나요?",
+      "pt": "Qual a utilidade dos itens produzidos na Casa de Tecelagem?"
+    },
+    "options": [
+      {
+        "ru": "Обучение войск",
+        "en": "Train Soldiers",
+        "de": "Soldatentraining",
+        "es": "Entrenar soldados",
+        "fr": "Entraîner les soldats",
+        "id": "Pelatihan Pasukan",
+        "ja": "兵士訓練",
+        "ko": "병사 훈련",
+        "pt": "Treine Soldados"
+      },
+      {
+        "ru": "Создайте снаряжение",
+        "en": "Craft Gear",
+        "de": "Ausrüstung fertigen",
+        "es": "Fabrica equipo",
+        "fr": "Fabriquez de l\\'équipement",
+        "id": "Buat Gear",
+        "ja": "装備製造",
+        "ko": "장비 제작",
+        "pt": "Fabricar Equipamento"
+      },
+      {
+        "ru": "Усиление снаряжения",
+        "en": "Enhancing Gear",
+        "de": "Ausrüstung verbessern",
+        "es": "Mejorar equipo",
+        "fr": "Renforcement de l\\'équipement",
+        "id": "Perkuat Gear",
+        "ja": "装備強化",
+        "ko": "장비 강화",
+        "pt": "Aprimorar equipamento"
+      }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 59,
+    "category": "events",
+    "title": {
+      "ru": "Какая тема Дуэли альянсов по понедельникам?",
+      "en": "What is the theme for Alliance Duel on Mondays?",
+      "de": "Was ist das Thema für das Allianz-Duell am Montag?",
+      "es": "¿Cuál es el tema semanal del Duelo de alianzas los lunes?",
+      "fr": "Quel est le thème du Duel d\\'alliances le lundi ?",
+      "id": "Apa tema Pertarungan Guild setiap hari Senin?",
+      "ja": "毎週月曜日のギルドバトルのテーマは何ですか？",
+      "ko": "매주 월요일 길드전의 테마는 무엇인가요?",
+      "pt": "Qual é o tema do Duelo da Aliança às segundas-feiras?"
+    },
+    "options": [
+      {
+        "ru": "Изучение технологий",
+        "en": "Tech Research",
+        "de": "Tech-Forschung",
+        "es": "Investigación tecnológica",
+        "fr": "Recherche Technologique",
+        "id": "Riset Teknologi",
+        "ja": "技術開発",
+        "ko": "기술 연구개발",
+        "pt": "Pesquisa de Tecnologia"
+      },
+      {
+        "ru": "Усиление ворона",
+        "en": "Enhance Raven",
+        "de": "Rabenverbesserung",
+        "es": "Mejora al Cuervo",
+        "fr": "Améliorer le corbeau",
+        "id": "Penguatan Raven",
+        "ja": "レイヴン強化",
+        "ko": "까마귀 강화",
+        "pt": "Aprimore o Corvo"
+      },
+      {
+        "ru": "Развитие территории",
+        "en": "Territory Development",
+        "de": "Gebietsentwicklung",
+        "es": "Desarrollo territorial",
+        "fr": "Développement du territoire",
+        "id": "Pengembangan Wilayah",
+        "ja": "領地発展",
+        "ko": "영지 발전",
+        "pt": "Desenvolvimento de Território"
+      }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 60,
+    "category": "events",
+    "title": {
+      "ru": "Какая тема Дуэли альянсов по вторникам?",
+      "en": "What is the theme for Alliance Duel on Tuesdays?",
+      "de": "Was ist das Thema für das Allianz-Duell am Dienstag?",
+      "es": "¿Cuál es el tema semanal del Duelo de alianzas los martes?",
+      "fr": "Quel est le thème du Duel d\\'alliances le mardi ?",
+      "id": "Apa tema Pertarungan Guild setiap hari Selasa?",
+      "ja": "毎週火曜日のギルドバトルのテーマは何ですか？",
+      "ko": "매주 화요일 길드전의 테마는 무엇인가요?",
+      "pt": "Qual é o tema do Duelo da Aliança às terças-feiras?"
+    },
+    "options": [
+      {
+        "ru": "Изучение технологий",
+        "en": "Tech Research",
+        "de": "Tech-Forschung",
+        "es": "Investigación tecnológica",
+        "fr": "Recherche Technologique",
+        "id": "Riset Teknologi",
+        "ja": "技術開発",
+        "ko": "기술 연구개발",
+        "pt": "Pesquisa de Tecnologia"
+      },
+      {
+        "ru": "Усиление ворона",
+        "en": "Enhance Raven",
+        "de": "Rabenverbesserung",
+        "es": "Mejora al Cuervo",
+        "fr": "Améliorer le corbeau",
+        "id": "Penguatan Raven",
+        "ja": "レイヴン強化",
+        "ko": "까마귀 강화",
+        "pt": "Aprimore o Corvo"
+      },
+      {
+        "ru": "Развитие территории",
+        "en": "Territory Development",
+        "de": "Gebietsentwicklung",
+        "es": "Desarrollo territorial",
+        "fr": "Développement du territoire",
+        "id": "Pengembangan Wilayah",
+        "ja": "領地発展",
+        "ko": "영지 발전",
+        "pt": "Desenvolvimento de Território"
+      }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 61,
+    "category": "events",
+    "title": {
+      "ru": "Какая тема Дуэли альянсов по четвергам?",
+      "en": "What is the theme for Alliance Duel on Thursdays?",
+      "de": "Was ist das Thema für das Allianz-Duell am Donnerstag?",
+      "es": "¿Cuál es el tema semanal del Duelo de alianzas los jueves?",
+      "fr": "Quel est le thème du Duel d\\'alliances le jeudi ?",
+      "id": "Apa tema Pertarungan Guild setiap hari Kamis?",
+      "ja": "毎週木曜日のギルドバトルのテーマは何ですか？",
+      "ko": "매주 목요일 길드전의 테마는 무엇인가요?",
+      "pt": "Qual é o tema do Duelo da Aliança às quintas-feiras?"
+    },
+    "options": [
+      {
+        "ru": "Усиление героев",
+        "en": "Enhance Heroes",
+        "de": "Heldenverbesserung",
+        "es": "Mejorar héroes",
+        "fr": "Renforcer les héros",
+        "id": "Peningkatan Hero",
+        "ja": "英雄強化",
+        "ko": "영웅 강화",
+        "pt": "Melhore os Heróis"
+      },
+      {
+        "ru": "Полное развитие",
+        "en": "Full Development",
+        "de": "Volle Entwicklung",
+        "es": "Desarrollo completo",
+        "fr": "Développement complet",
+        "id": "Pengembangan menyeluruh",
+        "ja": "全面発展",
+        "ko": "균형 성장",
+        "pt": "Desenvolvimento Completo"
+      },
+      {
+        "ru": "Усиление ворона",
+        "en": "Enhance Raven",
+        "de": "Rabenverbesserung",
+        "es": "Mejora al Cuervo",
+        "fr": "Améliorer le corbeau",
+        "id": "Penguatan Raven",
+        "ja": "レイヴン強化",
+        "ko": "까마귀 강화",
+        "pt": "Aprimore o Corvo"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 62,
+    "category": "events",
+    "title": {
+      "ru": "В какие дни Дуэль альянсов не проводится?",
+      "en": "On which days is the Alliance Duel event not available?",
+      "de": "An welchen Tagen ist das Allianz-Duell-Event nicht verfügbar?",
+      "es": "¿Qué días no está disponible el evento de Duelo de alianzas?",
+      "fr": "Quels jours le Duel d\\'alliances est-il indisponible ?",
+      "id": "Pertarungan Guild tidak buka pada hari apa?",
+      "ja": "ギルドバトルイベントが開催されないのは何曜日ですか？",
+      "ko": "길드전 이벤트는 무슨 요일에 열리지 않나요?",
+      "pt": "Em quais dias o Duelo da Aliança não está disponível?"
+    },
+    "options": [
+      {
+        "ru": "Понедельники",
+        "en": "Mondays",
+        "de": "Montags",
+        "es": "Lunes",
+        "fr": "Les lundi",
+        "id": "Senin",
+        "ja": "月曜日",
+        "ko": "월요일",
+        "pt": "Segundas-feiras"
+      },
+      {
+        "ru": "Субботы",
+        "en": "Saturdays",
+        "de": "Samstags",
+        "es": "Sábado",
+        "fr": "Les samedi",
+        "id": "Sabtu",
+        "ja": "土曜日",
+        "ko": "토요일",
+        "pt": "Sábados"
+      },
+      {
+        "ru": "Воскресенья",
+        "en": "Sundays",
+        "de": "Sonntags",
+        "es": "Domingo",
+        "fr": "Les dimanche",
+        "id": "Minggu",
+        "ja": "日曜日",
+        "ko": "일요일",
+        "pt": "Domingo"
+      }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 63,
+    "category": "events",
+    "title": {
+      "ru": "Сколько часов длится каждая Битва на выживание в игре?",
+      "en": "How many hours does each Survival Battle last in the game?",
+      "de": "Wie viele Stunden dauert jeder Überlebenskampf im Spiel?",
+      "es": "¿Cuántas horas dura cada Batalla de supervivencia en el juego?",
+      "fr": "Combien d\\'heures dure chaque Combat de survie ?",
+      "id": "Berapa jam durasi setiap Battle Royale dalam game?",
+      "ja": "ゲーム内のサバイバルバトルは1回何時間ですか？",
+      "ko": "생존 전쟁은 한 판당 몇 시간 동안 진행되나요?",
+      "pt": "Quantas horas dura cada Batalha de Sobrevivência no jogo?"
+    },
+    "options": [
+      {
+        "ru": "2",
+        "en": "2",
+        "de": "2",
+        "es": "2",
+        "fr": "2",
+        "id": "2",
+        "ja": "2",
+        "ko": "2",
+        "pt": "2"
+      },
+      {
+        "ru": "3",
+        "en": "3",
+        "de": "3",
+        "es": "3",
+        "fr": "3",
+        "id": "3",
+        "ja": "3",
+        "ko": "3",
+        "pt": "3"
+      },
+      {
+        "ru": "4",
+        "en": "4",
+        "de": "4",
+        "es": "4",
+        "fr": "4",
+        "id": "4",
+        "ja": "4",
+        "ko": "4",
+        "pt": "4"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 64,
+    "category": "events",
+    "title": {
+      "ru": "Зачем жертвовать Мышиную приманку в событии Сырная ловушка?",
+      "en": "What is the purpose of donating Mouse Lure in the Cheese Trap event?",
+      "de": "Was ist der Zweck der Spende von Mäuseköder beim Käsefalle-Event?",
+      "es": "¿Cuál es el propósito de donar señuelo para ratones en el evento Trampa de queso?",
+      "fr": "À quoi sert le don d\\'appât à souris lors de l\\'événement Piège à fromage ?",
+      "id": "Apa fungsi menyumbang Umpan Tikus dalam Event Perangkap Keju?",
+      "ja": "チーズの罠イベントでネズミ誘惑チーズを寄付すると、どんな効果がありますか？",
+      "ko": "치즈 함정 이벤트에 쥐 유인 치즈를 기부하면 어떤 효과가 있나요?",
+      "pt": "Qual é o objetivo de doar as Iscas de Rato no evento Armadilha de Queijo?"
+    },
+    "options": [
+      {
+        "ru": "Для увеличения наносимого игроком урона",
+        "en": "To increase player\\'s damage dealt",
+        "de": "Um den Schaden des Spielers zu erhöhen",
+        "es": "Aumenta el daño del jugador",
+        "fr": "Pour augmenter les dégâts infligés par le joeur",
+        "id": "Tingkatkan DMG pemain",
+        "ja": "プレイヤーの与ダメージ上昇",
+        "ko": "유저의 피해량 증가",
+        "pt": "Aumentar dano do jogador"
+      },
+      {
+        "ru": "Для увеличения уровня героев",
+        "en": "To level up player\\'s heroes",
+        "de": "Um die Helden des Spielers aufzuleveln",
+        "es": "Para subir de nivel a los héroes",
+        "fr": "Pour améliorer les héros du joueur",
+        "id": "Tingkatkan Level Hero pemain",
+        "ja": "英雄レベルを上げる",
+        "ko": "영웅 레벨업",
+        "pt": "Aprimorar o nível do Herói"
+      },
+      {
+        "ru": "Для увеличения скорости похода",
+        "en": "To increase player\\'s march speed",
+        "de": "Die Marschgeschwindigkeit des Spielers erhöhen",
+        "es": "Aumentar velocidad de marcha del jugador",
+        "fr": "Pour augmenter la vitesse de marche",
+        "id": "Tingkatkan SPD Perjalanan Pemain",
+        "ja": "プレイヤーの行軍速度アップ",
+        "ko": "유저 행군 속도 증가",
+        "pt": "Aumentar velocidade de marcha do jogador"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 65,
+    "category": "events",
+    "title": {
+      "ru": "Сколько раз в день можно грабить чужие торговые караваны?",
+      "en": "How many times can you plunder others\\' Trade Caravan daily?",
+      "de": "Wie oft kannst du täglich die Handelskarawane anderer plündern?",
+      "es": "¿Cuántas veces puedes saquear la caravana comercial de otros diariamente en el juego?",
+      "fr": "Combien de fois peut-on piller les caravanes commerciales d\\'autrui par jour ?",
+      "id": "Berapa kali bisa merampok kereta kargo pemain lain per hari dalam game?",
+      "ja": "ゲーム内では、1日に何回まで他プレイヤーの輸送馬車を襲撃できますか？",
+      "ko": "하루에 타인의 마차를 몇 번까지 약탈할 수 있나요?",
+      "pt": "Quantas vezes por dia você pode saquear a Caravana Mercante de outros jogadores no jogo?"
+    },
+    "options": [
+      {
+        "ru": "2",
+        "en": "2",
+        "de": "2",
+        "es": "2",
+        "fr": "2",
+        "id": "2",
+        "ja": "2",
+        "ko": "2",
+        "pt": "2"
+      },
+      {
+        "ru": "3",
+        "en": "3",
+        "de": "3",
+        "es": "3",
+        "fr": "3",
+        "id": "3",
+        "ja": "3",
+        "ko": "3",
+        "pt": "3"
+      },
+      {
+        "ru": "4",
+        "en": "4",
+        "de": "4",
+        "es": "4",
+        "fr": "4",
+        "id": "4",
+        "ja": "4",
+        "ko": "4",
+        "pt": "4"
+      }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 66,
+    "category": "lore",
+    "title": {
+      "ru": "Для чего нужны изделия ткацкой мастерской?",
+      "en": "What can the items produced in the Weaving Workshop be used for?",
+      "de": "Wofür können die in der Weberei hergestellten Gegenstände verwendet werden?",
+      "es": "¿Para qué se pueden usar los objetos producidos en el Taller de tejido?",
+      "fr": "À quoi servent les objets produits à l\\'Atelier de tissage ?",
+      "id": "Apa kegunaan Item yang diproduksi di Bengkel Tenun?",
+      "ja": "織物工房で生産されるアイテムは何に使えますか？",
+      "ko": "방직 공방에서 생산되는 아이템은 어디에 사용할 수 있나요?",
+      "pt": "Qual a utilidade dos itens produzidos na Casa de Tecelagem?"
+    },
+    "options": [
+      {
+        "ru": "Обучение войск",
+        "en": "Train Soldiers",
+        "de": "Soldatentraining",
+        "es": "Entrenar soldados",
+        "fr": "Entraîner les soldats",
+        "id": "Pelatihan Pasukan",
+        "ja": "兵士訓練",
+        "ko": "병사 훈련",
+        "pt": "Treine Soldados"
+      },
+      {
+        "ru": "Создайте снаряжение",
+        "en": "Craft Gear",
+        "de": "Ausrüstung fertigen",
+        "es": "Fabrica equipo",
+        "fr": "Fabriquez de l\\'équipement",
+        "id": "Buat Gear",
+        "ja": "装備製造",
+        "ko": "장비 제작",
+        "pt": "Fabricar Equipamento"
+      },
+      {
+        "ru": "Усиление снаряжения",
+        "en": "Enhancing Gear",
+        "de": "Ausrüstung verbessern",
+        "es": "Mejorar equipo",
+        "fr": "Renforcement de l\\'équipement",
+        "id": "Perkuat Gear",
+        "ja": "装備強化",
+        "ko": "장비 강화",
+        "pt": "Aprimorar equipamento"
+      }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 67,
+    "category": "events",
+    "title": {
+      "ru": "К чему относится ячейка каравана?",
+      "en": "What is the Caravan slot related to?",
+      "de": "Womit hängt der Karawanen-Slot zusammen?",
+      "es": "¿Con qué está relacionado el espacio de caravana?",
+      "fr": "De quoi dépend l\\'emplacement de Caravane ?",
+      "id": "Kapasitas kereta berkaitan dengan apa?",
+      "ja": "馬車の枠は何と関係ありますか？",
+      "ko": "마차 슬롯은 무엇과 관련이 있나요?",
+      "pt": "A que está relacionado aos espaços da Caravana?"
+    },
+    "options": [
+      {
+        "ru": "Счетчик отрядов",
+        "en": "Squad Count",
+        "de": "Truppen-Anzahl",
+        "es": "Cantidad de escuadrones",
+        "fr": "Nombre d\\'escouades",
+        "id": "Jumlah squad",
+        "ja": "パーティーの数",
+        "ko": "소대 수량",
+        "pt": "Contagem de Esquadrões"
+      },
+      {
+        "ru": "Уровень Святилища",
+        "en": "Sanctuary Level",
+        "de": "Zuflucht Level",
+        "es": "Nivel del Santuario",
+        "fr": "Niveau du Sanctuaire",
+        "id": "Level Kuil",
+        "ja": "教会レベル",
+        "ko": "성당 레벨",
+        "pt": "Nível do Santuário"
+      },
+      {
+        "ru": "Уровень солдата",
+        "en": "Soldier Level",
+        "de": "Soldaten-Level",
+        "es": "Nivel del Soldado",
+        "fr": "Niveau de soldat",
+        "id": "Level Prajurit",
+        "ja": "兵士ランク",
+        "ko": "병사 레벨",
+        "pt": "Nível do Soldado"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 68,
+    "category": "buildings",
+    "title": {
+      "ru": "В каком здании можно быстро отправить выживших?",
+      "en": "In which building can players quickly dispatch survivors?",
+      "de": "In welchem Gebäude können Spieler schnell Überlebende entsenden?",
+      "es": "¿En qué edificio pueden los jugadores enviar sobrevivientes rápidamente?",
+      "fr": "Dans quel bâtiment les joueurs peuvent-ils rapidement déployer des survivants ?",
+      "id": "Di bangunan mana pemain bisa melakukan pengiriman survivor dengan cepat?",
+      "ja": "どの建物で生存者を素早く派遣できますか？",
+      "ko": "어느 건물에서 생존자를 빠르게 파견할 수 있나요?",
+      "pt": "Em qual edifício os jogadores podem despachar sobreviventes rapidamente?"
+    },
+    "options": [
+      {
+        "ru": "Резиденция",
+        "en": "Residence",
+        "de": "Wohnsitz",
+        "es": "Residencia",
+        "fr": "Résidence",
+        "id": "Pemukiman",
+        "ja": "民家",
+        "ko": "민가",
+        "pt": "Residência"
+      },
+      {
+        "ru": "Святилище",
+        "en": "Sanctuary",
+        "de": "Zuflucht",
+        "es": "Santuario",
+        "fr": "Sanctuaire",
+        "id": "Kuil",
+        "ja": "教会",
+        "ko": "성당",
+        "pt": "Santuário"
+      },
+      {
+        "ru": "Кочевой торговец",
+        "en": "Nomad Trader",
+        "de": "Nomadenhändler",
+        "es": "Comerciante nómada",
+        "fr": "Marchand nomade",
+        "id": "Pedagang Keliling",
+        "ja": "遊牧商人",
+        "ko": "유목 상인",
+        "pt": "Mercador Itinerante"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 69,
+    "category": "mechanics",
+    "title": {
+      "ru": "Для чего нужен Ворон в игре?",
+      "en": "What can the Raven do in the game?",
+      "de": "Was kann der Rabe im Spiel tun?",
+      "es": "¿Cuál es la función del Cuervo en el juego?",
+      "fr": "Que peut faire le Corbeau dans le jeu ?",
+      "id": "Apa fungsi Raven dalam game?",
+      "ja": "ゲーム内でレイヴンはどんな役割がありますか？",
+      "ko": "게임 내 까마귀의 역할은 무엇인가요?",
+      "pt": "Qual é a função do Corvo no jogo?"
+    },
+    "options": [
+      {
+        "ru": "Усиление характеристик героя",
+        "en": "Enhances hero stats",
+        "de": "Verbessert Heldenwerte",
+        "es": "Mejora las estadísticas del héroe",
+        "fr": "Renforce les stats du héros",
+        "id": "Tingkatkan atribut hero",
+        "ja": "英雄ステータス強化",
+        "ko": "영웅 능력치 강화",
+        "pt": "Aprimora atributos do herói"
+      },
+      {
+        "ru": "Использует навыки в бою",
+        "en": "Uses skills in battle",
+        "de": "Setzt Fähigkeiten im Kampf ein",
+        "es": "Usa habilidades en batalla",
+        "fr": "Utilise des compétences de combat",
+        "id": "Gunakan skill dalam pertempuran",
+        "ja": "戦闘中にスキルを発動",
+        "ko": "전투 중 스킬 사용",
+        "pt": "Usa Habilidades em batalha"
+      },
+      {
+        "ru": "Все перечисленное",
+        "en": "All of the above",
+        "de": "Alles oben Genannte",
+        "es": "Todo lo anterior",
+        "fr": "Tout ce qui précède",
+        "id": "Semua benar",
+        "ja": "すべて正解",
+        "ko": "모두 정답",
+        "pt": "Todas as opções acima"
+      }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 70,
+    "category": "lore",
+    "title": {
+      "ru": "Как улучшить награды, получаемые в Лагере исследователя?",
+      "en": "How do you enhance the rewards obtained from the Explorer\\'s Camp?",
+      "de": "Wie verbesserst du die Belohnungen, die du aus dem Entdeckerlager erhältst?",
+      "es": "¿Cómo mejorar las recompensas obtenidas en el Campamento del montaraz?",
+      "fr": "Comment améliorer les récompenses du Camp de l\\'explorateur ?",
+      "id": "Bagaimana cara meningkatkan hadiah yang didapat di Kemah Penjelajah?",
+      "ja": "探索者キャンプで獲得できる報酬を増やすにはどうすればいいですか？",
+      "ko": "탐험가 캠프에서 얻는 보상을 어떻게 늘릴 수 있나요?",
+      "pt": "Como aprimorar as recompensas obtidas no Acampamento de Exploradores?"
+    },
+    "options": [
+      {
+        "ru": "Проходить больше этапов",
+        "en": "Clear more stages",
+        "de": "Weitere Stufen abschließen",
+        "es": "Superar más etapas",
+        "fr": "Terminez plus d\\'étapes",
+        "id": "Selesaikan lebih banyak level",
+        "ja": "より多くのステージをクリア",
+        "ko": "더 많은 스테이지 클리어",
+        "pt": "Completar mais fases"
+      },
+      {
+        "ru": "Сражаться с большим числом игроков",
+        "en": "Fight against more players",
+        "de": "Kämpfe gegen mehr Spieler",
+        "es": "Luchar contra más jugadores",
+        "fr": "Affrontez davantage de joueurs",
+        "id": "Bertarung dengan lebih banyak pemain",
+        "ja": "より多くのプレイヤーと対戦",
+        "ko": "더 많은 유저와 전투",
+        "pt": "Lutar contra mais jogadores"
+      },
+      {
+        "ru": "Захватить больше городов",
+        "en": "Occupy more cities",
+        "de": "Mehr Städte besetzen",
+        "es": "Conquistar más ciudades",
+        "fr": "Conquérir davantage de villes",
+        "id": "Kuasai Lebih Banyak Kota",
+        "ja": "より多くの都市を占領",
+        "ko": "더 많은 도시 점령",
+        "pt": "Ocupar mais cidades"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 71,
+    "category": "lore",
+    "title": {
+      "ru": "Как можно улучшить бойцов?",
+      "en": "How do you upgrade soldiers?",
+      "de": "Wie upgradest du Soldaten?",
+      "es": "¿Cómo se puede mejorar a los soldados?",
+      "fr": "Comment améliorer les soldats ?",
+      "id": "Bagaimana cara meningkatkan Level Prajurit?",
+      "ja": "兵士のレベルはどうやって上げますか？",
+      "ko": "병사 레벨은 어떻게 올리나요?",
+      "pt": "Como melhorar os Soldados?"
+    },
+    "options": [
+      {
+        "ru": "Улучшение святилища",
+        "en": "Upgrade the Sanctuary",
+        "de": "Die Zuflucht upgraden",
+        "es": "Mejora el nivel del Santuario",
+        "fr": "Améliorer le Sanctuaire",
+        "id": "Tingkatkan Level Kuil",
+        "ja": "教会レベルを上げる",
+        "ko": "성당 레벨업",
+        "pt": "Melhore o Santuário"
+      },
+      {
+        "ru": "Улучшение полигона",
+        "en": "Upgrade Training Grounds",
+        "de": "Trainingsplatz upgraden",
+        "es": "Mejorar el Campo de entreno",
+        "fr": "Améliorer le Champ d\\'entraînement",
+        "id": "Tingkatkan Level Arena Latihan",
+        "ja": "訓練場レベルを上げる",
+        "ko": "훈련장 레벨업",
+        "pt": "Melhorar o Campo de Treinos"
+      },
+      {
+        "ru": "Улучшение героев",
+        "en": "Level up heroes",
+        "de": "Helden aufleveln",
+        "es": "Subir de nivel a los héroes",
+        "fr": "Améliorer les héros",
+        "id": "Tingkatkan Level Hero",
+        "ja": "英雄レベルアップ",
+        "ko": "영웅 레벨 상승",
+        "pt": "Aumentar o nível dos Herói"
+      }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 72,
+    "category": "lore",
+    "title": {
+      "ru": "Что дает казарма более высокого уровня?",
+      "en": "What is the benefit of having higher level Barracks in the game?",
+      "de": "Was ist der Vorteil von Kasernen höherer Level im Spiel?",
+      "es": "¿Cuál es el beneficio de un Cuartel de nivel más alto en el juego?",
+      "fr": "Quel est l\\'avantage d\\'une Caserne de niveau supérieur dans le jeu ?",
+      "id": "Dalam game, apa kegunaan Barak dengan level lebih tinggi?",
+      "ja": "ゲーム内で、兵営のレベルを上げるとどんなメリットがありますか？",
+      "ko": "병영 레벨이 높을수록 어떤 이점이 있나요?",
+      "pt": "Qual é o benefício um Quartel de nível mais alto no jogo?"
+    },
+    "options": [
+      {
+        "ru": "Увеличивает вместимость казарм",
+        "en": "Soldier capacity increased",
+        "de": "Soldatenkapazität erhöht",
+        "es": "Aumenta el límite de soldados",
+        "fr": "Capacité des soldats accrue",
+        "id": "Tingkatkan Kapasitas Prajurit",
+        "ja": "兵士容量を増やす",
+        "ko": "병사 수용량 증가",
+        "pt": "Capacidade de Soldados aumentada"
+      },
+      {
+        "ru": "Улучшение солдат",
+        "en": "Soldiers upgraded",
+        "de": "Soldaten upgegraded",
+        "es": "Soldados mejorados",
+        "fr": "Soldats améliorés",
+        "id": "Tingkatkan Level Prajurit",
+        "ja": "兵士レベルを上げる",
+        "ko": "병사 레벨업",
+        "pt": "Soldados melhorados"
+      },
+      {
+        "ru": "Больше опыта героя",
+        "en": "More Hero EXP",
+        "de": "Mehr Helden-EP",
+        "es": "Más EXP de héroe",
+        "fr": "Plus d\\'EXP de héros",
+        "id": "Memberikan EXP Hero",
+        "ja": "英雄経験値を獲得",
+        "ko": "영웅 경험치 획득",
+        "pt": "Mais EXP de Herói"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 73,
+    "category": "events",
+    "title": {
+      "ru": "Что изменится при повышении звездности Тайной операции?",
+      "en": "What changes when the Star level of Covert Operations increases?",
+      "de": "Was ändert sich, wenn das Stern-Level der Verdeckten Operationen steigt?",
+      "es": "¿Qué cambios ocurren cuando aumenta el nivel de estrella de las Operaciones encubiertas?",
+      "fr": "Qu\\'est-ce qui change lorsque le niveau d\\'étoile des Opérations secrètes augmente ?",
+      "id": "Saat Level Bintang Misi rahasia semakin tinggi, apa yang akan berubah?",
+      "ja": "秘密任務の★ランクが高いほど、何が変わりますか？",
+      "ko": "비밀 퀘스트의 성급이 높아지면 어떤 변화가 생기나요?",
+      "pt": "O que acontece conforme o nível de estrela das Operações Secretas aumenta?"
+    },
+    "options": [
+      {
+        "ru": "Повышенная сложность",
+        "en": "Higher difficulty",
+        "de": "Höheres Schwierigkeitsgrad",
+        "es": "Mayor dificultad",
+        "fr": "Difficulté supérieure",
+        "id": "Selesaikan kesulitan yang lebih tinggi",
+        "ja": "より高い難易度を達成",
+        "ko": "더 높은 난이도 클리어",
+        "pt": "Maior dificuldade"
+      },
+      {
+        "ru": "Лучшие награды",
+        "en": "Better Rewards",
+        "de": "Bessere Belohnungen",
+        "es": "Mejores recompensas",
+        "fr": "Meilleures récompenses",
+        "id": "Hadiah lebih baik",
+        "ja": "より良い報酬",
+        "ko": "더 좋은 보상",
+        "pt": "Melhores recompensas"
+      },
+      {
+        "ru": "Все перечисленное",
+        "en": "All of the above",
+        "de": "Alles oben Genannte",
+        "es": "Todo lo anterior",
+        "fr": "Tout ce qui précède",
+        "id": "Semua benar",
+        "ja": "すべて正解",
+        "ko": "모두 정답",
+        "pt": "Todas as opções acima"
+      }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 74,
+    "category": "lore",
+    "title": {
+      "ru": "Сколько раз в день можно помочь союзникам в Тайных операциях?",
+      "en": "How many times can you assist Alliance members in completing Covert Operations daily?",
+      "de": "Wie oft kannst du täglich Allianzmitgliedern beim Abschließen von Verdeckten Operationen helfen?",
+      "es": "¿Cuántas veces puedes ayudar diariamente a los miembros de la alianza a completar Operaciones encubiertas?",
+      "fr": "Combien de fois par jour pouvez-vous aider les membres de l\\'alliance à accomplir des Opérations secrètes ?",
+      "id": "Berapa kesempatan harian membantu anggota Guild menyelesaikan Misi rahasia dalam game?",
+      "ja": "ギルドメンバーの秘密任務は、1日に何回まで協力できますか？",
+      "ko": "하루에 길드원의 비밀 퀘스트를 몇 번까지 협조할 수 있나요?",
+      "pt": "Quantas vezes por dia você pode ajudar membros da Aliança a completar Operações Secretas?"
+    },
+    "options": [
+      {
+        "ru": "3",
+        "en": "3",
+        "de": "3",
+        "es": "3",
+        "fr": "3",
+        "id": "3",
+        "ja": "3",
+        "ko": "3",
+        "pt": "3"
+      },
+      {
+        "ru": "4",
+        "en": "4",
+        "de": "4",
+        "es": "4",
+        "fr": "4",
+        "id": "4",
+        "ja": "4",
+        "ko": "4",
+        "pt": "4"
+      },
+      {
+        "ru": "5",
+        "en": "5",
+        "de": "5",
+        "es": "5",
+        "fr": "5",
+        "id": "5",
+        "ja": "5",
+        "ko": "5",
+        "pt": "5"
+      }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 75,
+    "category": "lore",
+    "title": {
+      "ru": "Сколько раз в день можно грабить Тайные операции игроков, не состоящих в альянсе?",
+      "en": "How many times can non-Alliance members\\' Covert Operations be plundered each day?",
+      "de": "Wie oft können Verdeckte Operationen von Nicht-Allianzmitgliedern täglich geplündert werden?",
+      "es": "¿Cuántas veces al día se pueden saquear las Operaciones encubiertas de miembros que no pertenecen a la alianza en el juego?",
+      "fr": "Combien de fois les Opérations secrètes des joueurs hors alliance peuvent-elles être pillées chaque jour ?",
+      "id": "Dalam game, berapa kesempatan harian untuk bisa merampok Misi rahasia anggota non-Guild?",
+      "ja": "ゲーム内では、ギルドメンバー以外の秘密任務は1日に何回まで略奪できますか？",
+      "ko": "길드원이 아닌 유저의 비밀 퀘스트는 하루에 몇 번까지 약탈할 수 있나요?",
+      "pt": "Quantas vezes por dia as Operações Secretas de membros não-Aliança podem ser saqueadas no jogo?"
+    },
+    "options": [
+      {
+        "ru": "3",
+        "en": "3",
+        "de": "3",
+        "es": "3",
+        "fr": "3",
+        "id": "3",
+        "ja": "3",
+        "ko": "3",
+        "pt": "3"
+      },
+      {
+        "ru": "4",
+        "en": "4",
+        "de": "4",
+        "es": "4",
+        "fr": "4",
+        "id": "4",
+        "ja": "4",
+        "ko": "4",
+        "pt": "4"
+      },
+      {
+        "ru": "5",
+        "en": "5",
+        "de": "5",
+        "es": "5",
+        "fr": "5",
+        "id": "5",
+        "ja": "5",
+        "ko": "5",
+        "pt": "5"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 76,
+    "category": "lore",
+    "title": {
+      "ru": "Занимает ли Тайная операция ячейку похода?",
+      "en": "Does the Covert Operation take up a march queue?",
+      "de": "Nimmt die Verdeckte Operation eine Marschwarteschlange ein?",
+      "es": "¿La cola de Operación encubierta ocupa la cola de expedición?",
+      "fr": "L\\'Opération secrète occupe-t-elle une file de marche ?",
+      "id": "Apakah antrian misi rahasia juga akan menggunakan slot antrian ekspedisi?",
+      "ja": "秘密任務の部隊は遠征枠を使用しますか？",
+      "ko": "비밀 퀘스트 수행 시 출정 부대 슬롯이 소모되나요?",
+      "pt": "A fila de Operação Secreta ocupa a fila de marcha?"
+    },
+    "options": [
+      {
+        "ru": "Да",
+        "en": "Yes",
+        "de": "Ja",
+        "es": "Sí",
+        "fr": "Oui",
+        "id": "Ya",
+        "ja": "はい",
+        "ko": "네",
+        "pt": "Sim"
+      },
+      {
+        "ru": "Нет",
+        "en": "No",
+        "de": "Nein",
+        "es": "No",
+        "fr": "Non",
+        "id": "Tidak tahu",
+        "ja": "いいえ",
+        "ko": "아니오",
+        "pt": "Não"
+      },
+      {
+        "ru": "Не знаю",
+        "en": "Not Sure",
+        "de": "Nicht sicher",
+        "es": "No tengo ninguna certeza",
+        "fr": "Pas sûr",
+        "id": "Tidak tahu",
+        "ja": "知らない",
+        "ko": "모르겠어요",
+        "pt": "Não tenho certeza"
+      }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 77,
+    "category": "lore",
+    "title": {
+      "ru": "Сколько Тайных операций может выполнять один отряд одновременно?",
+      "en": "How many Covert Operations can a march queue execute simultaneously?",
+      "de": "Wie viele Verdeckte Operationen kann eine Marschwarteschlange gleichzeitig ausführen?",
+      "es": "¿Cuántas Operaciones encubiertas puede ejecutar simultáneamente cada cola de expedición?",
+      "fr": "Combien d\\'Opérations secrètes une file d\\'expédition peut-elle mener simultanément ?",
+      "id": "Berapa Misi rahasia yang bisa dijalankan di setiap barisan ekspedisi secara bersamaan?",
+      "ja": "1つの遠征部隊で同時に実行できる秘密任務はいくつまでですか？",
+      "ko": "출정 대기열 하나당 동시에 몇 개의 비밀 퀘스트를 수행할 수 있나요?",
+      "pt": "Quantas Operações Secretas cada fila de marcha pode executar ao mesmo tempo?"
+    },
+    "options": [
+      {
+        "ru": "2",
+        "en": "2",
+        "de": "2",
+        "es": "2",
+        "fr": "2",
+        "id": "2",
+        "ja": "2",
+        "ko": "2",
+        "pt": "2"
+      },
+      {
+        "ru": "3",
+        "en": "3",
+        "de": "3",
+        "es": "3",
+        "fr": "3",
+        "id": "3",
+        "ja": "3",
+        "ko": "3",
+        "pt": "3"
+      },
+      {
+        "ru": "4",
+        "en": "4",
+        "de": "4",
+        "es": "4",
+        "fr": "4",
+        "id": "4",
+        "ja": "4",
+        "ko": "4",
+        "pt": "4"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 78,
+    "category": "lore",
+    "title": {
+      "ru": "Кем станут зараженные, если их вовремя не спасти?",
+      "en": "What will infected individuals turn into if they are not treated in time?",
+      "de": "Was passiert mit infizierten Personen, wenn sie nicht rechtzeitig behandelt werden?",
+      "es": "¿Qué les sucederá a los individuos infectados sin tratamiento oportuno?",
+      "fr": "Que deviennent les personnes infectées sans traitement rapide ?",
+      "id": "Apa yang akan terjadi pada orang yang terinfeksi jika tidak mendapat perawatan tepat waktu?",
+      "ja": "治療が間に合わなかった感染者は、最終的にどうなりますか？",
+      "ko": "제때 치료받지 못한 감염자는 결국 어떻게 되나요?",
+      "pt": "O que acontece com indivíduos infectados que não são tratados a tempo?"
+    },
+    "options": [
+      {
+        "ru": "Скверна",
+        "en": "Blight",
+        "de": "Seuche",
+        "es": "Infectado",
+        "fr": "Peste",
+        "id": "Ghoul",
+        "ja": "ゾンビ",
+        "ko": "좀비",
+        "pt": "Praga"
+      },
+      {
+        "ru": "Призраки",
+        "en": "Ghosts",
+        "de": "Geister",
+        "es": "Fantasmas",
+        "fr": "Fantômes",
+        "id": "Hantu",
+        "ja": "幽霊",
+        "ko": "유령",
+        "pt": "Fantasmas"
+      },
+      {
+        "ru": "Крысы",
+        "en": "Rats",
+        "de": "Ratten",
+        "es": "Ratas",
+        "fr": "Rats",
+        "id": "Tikus Hitam",
+        "ja": "黒ネズミ",
+        "ko": "검은 쥐",
+        "pt": "Ratos"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 79,
+    "category": "lore",
+    "title": {
+      "ru": "Как можно найти выживших?",
+      "en": "How do you obtain survivors?",
+      "de": "Wie bekommst du Überlebende?",
+      "es": "¿Cómo se pueden obtener sobrevivientes?",
+      "fr": "Comment recruter des survivants ?",
+      "id": "Cara mana yang bisa mendapatkan survivor?",
+      "ja": "生存者はどうすれば入手できますか？",
+      "ko": "생존자는 어떻게 얻을 수 있나요?",
+      "pt": "Como pode-se obter sobreviventes?"
+    },
+    "options": [
+      {
+        "ru": "Наем в таверне",
+        "en": "Recruit in Tavern",
+        "de": "In Taverne rekrutieren",
+        "es": "Reclutar en la taberna",
+        "fr": "Recrutement à la Taverne",
+        "id": "Rekrut di Kedai",
+        "ja": "酒場募集",
+        "ko": "선술집 모집",
+        "pt": "Recrute na Taverna"
+      },
+      {
+        "ru": "Лечит заболевших пациентов",
+        "en": "Treat emergency patients",
+        "de": "Notfallpatienten behandeln",
+        "es": "Atender pacientes de emergencia",
+        "fr": "Traiter les urgences",
+        "id": "Rawat Pasien Gawat Darurat",
+        "ja": "急患を治療",
+        "ko": "응급 환자 치료",
+        "pt": "Trata pacientes de emergência"
+      },
+      {
+        "ru": "Оба варианта",
+        "en": "Both of the above",
+        "de": "Beide oben Genannten",
+        "es": "Ambos",
+        "fr": "Les deux ci-dessus",
+        "id": "Keduanya",
+        "ja": "両方",
+        "ko": "둘 다",
+        "pt": "Ambos os acima"
+      }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 80,
+    "category": "lore",
+    "title": {
+      "ru": "Какие бонусы могут дать союзники по альянсу?",
+      "en": "What benefits can Alliance members provide?",
+      "de": "Welche Vorteile können Allianzmitglieder bieten?",
+      "es": "¿Qué beneficios pueden proporcionar los miembros de la alianza?",
+      "fr": "Quels avantages les membres d\\'alliance peuvent-ils offrir ?",
+      "id": "Apa yang bisa diberikan bantuan anggota Guild?",
+      "ja": "ギルドメンバーの支援で何がもらえますか？",
+      "ko": "길드원 도움은 무엇을 얻을 수 있나요?",
+      "pt": "Que benefícios os membros da Aliança podem oferecer?"
+    },
+    "options": [
+      {
+        "ru": "Ускорение строительства",
+        "en": "Speed up construction",
+        "de": "Bau beschleunigen",
+        "es": "Acelera la construcción",
+        "fr": "Accélération de construction",
+        "id": "Percepat pembangunan",
+        "ja": "建設をブースト",
+        "ko": "건설 가속",
+        "pt": "Acelerar construção"
+      },
+      {
+        "ru": "Ускорить исследования",
+        "en": "Speed up research",
+        "de": "Forschung beschleunigen",
+        "es": "Acelerar la investigación",
+        "fr": "Accélérer la recherche",
+        "id": "Percepat Penelitian",
+        "ja": "研究をブースト",
+        "ko": "연구 가속",
+        "pt": "Acelerar pesquisa"
+      },
+      {
+        "ru": "Оба варианта",
+        "en": "Both of the above",
+        "de": "Beide oben Genannten",
+        "es": "Ambos",
+        "fr": "Les deux ci-dessus",
+        "id": "Keduanya",
+        "ja": "両方",
+        "ko": "둘 다",
+        "pt": "Ambos os acima"
+      }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 83,
+    "category": "heroes",
+    "title": {
+      "ru": "Какая фракция противостоит Воину?",
+      "en": "Which faction counters the Warrior",
+      "de": "Welche Fraktion ist dem Krieger überlegen",
+      "es": "¿Qué facción contrarresta al Guerrero?",
+      "fr": "Quelle faction a l\\'avantage sur le Guerrier ?",
+      "id": "Warrior dikalahkan oleh faksi mana?",
+      "ja": "ウォーリアが不利な陣営はどれか？",
+      "ko": "전사는 어느 진영에 상성상 약합니까?",
+      "pt": "Qual facção countera o Guerreiro"
+    },
+    "options": [
+      {
+        "ru": "Воин",
+        "en": "Warrior",
+        "de": "Krieger",
+        "es": "Guerrero",
+        "fr": "Guerrier",
+        "id": "Pejuang",
+        "ja": "ウォーリア",
+        "ko": "전사",
+        "pt": "Guerreiro"
+      },
+      {
+        "ru": "Рейнджер",
+        "en": "Ranger",
+        "de": "Ranger",
+        "es": "Montaraz",
+        "fr": "Rôdeur",
+        "id": "Ranger",
+        "ja": "レンジャー",
+        "ko": "레인저",
+        "pt": "Patrulheiro"
+      },
+      {
+        "ru": "Колдун",
+        "en": "Warlock",
+        "de": "Hexenmeister",
+        "es": "Brujo",
+        "fr": "Démoniste",
+        "id": "Warlock",
+        "ja": "ソーサラー",
+        "ko": "마법사",
+        "pt": "Bruxo"
+      }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 84,
+    "category": "heroes",
+    "title": {
+      "ru": "Какая фракция контрит Рейнджера?",
+      "en": "Which faction counters the Ranger",
+      "de": "Welche Fraktion kontert den Waldläufer",
+      "es": "¿Qué facción contrarresta al Ranger?",
+      "fr": "Quelle faction domine le Ranger ?",
+      "id": "Ranger dikalahkan oleh faksi mana?",
+      "ja": "レンジャーが不利な陣営はどれか？",
+      "ko": "레인저는 어느 진영에 상성상 약합니까?",
+      "pt": "Qual facção é eficaz contra o Patrulheiro?"
+    },
+    "options": [
+      {
+        "ru": "Воин",
+        "en": "Warrior",
+        "de": "Krieger",
+        "es": "Guerrero",
+        "fr": "Guerrier",
+        "id": "Pejuang",
+        "ja": "ウォーリア",
+        "ko": "전사",
+        "pt": "Guerreiro"
+      },
+      {
+        "ru": "Рейнджер",
+        "en": "Ranger",
+        "de": "Ranger",
+        "es": "Montaraz",
+        "fr": "Rôdeur",
+        "id": "Ranger",
+        "ja": "レンジャー",
+        "ko": "레인저",
+        "pt": "Patrulheiro"
+      },
+      {
+        "ru": "Колдун",
+        "en": "Warlock",
+        "de": "Hexenmeister",
+        "es": "Brujo",
+        "fr": "Démoniste",
+        "id": "Warlock",
+        "ja": "ソーサラー",
+        "ko": "마법사",
+        "pt": "Bruxo"
+      }
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 85,
+    "category": "heroes",
+    "title": {
+      "ru": "Герои какой фракции эффективны против колдуна?",
+      "en": "Which faction\\'s heroes counter Warlock?",
+      "de": "Welche Fraktion von Helden kontert Hexenmeister?",
+      "es": "¿Los héroes de qué facción contrarrestan a los brujos?",
+      "fr": "Les héros de quelle faction contrent le démoniste ?",
+      "id": "Warlock dikalahkan oleh faksi mana?",
+      "ja": "ソーサラーが不利な陣営はどれですか？",
+      "ko": "마법사는 어느 진영에 약한가요?",
+      "pt": "Os heróis de qual classe têm vantagem contra um Bruxo?"
+    },
+    "options": [
+      {
+        "ru": "Воин",
+        "en": "Warrior",
+        "de": "Krieger",
+        "es": "Guerrero",
+        "fr": "Guerrier",
+        "id": "Pejuang",
+        "ja": "ウォーリア",
+        "ko": "전사",
+        "pt": "Guerreiro"
+      },
+      {
+        "ru": "Рейнджер",
+        "en": "Ranger",
+        "de": "Ranger",
+        "es": "Montaraz",
+        "fr": "Rôdeur",
+        "id": "Ranger",
+        "ja": "レンジャー",
+        "ko": "레인저",
+        "pt": "Patrulheiro"
+      },
+      {
+        "ru": "Колдун",
+        "en": "Warlock",
+        "de": "Hexenmeister",
+        "es": "Brujo",
+        "fr": "Démoniste",
+        "id": "Warlock",
+        "ja": "ソーサラー",
+        "ko": "마법사",
+        "pt": "Bruxo"
+      }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 86,
+    "category": "heroes",
+    "title": {
+      "ru": "Когда срабатывает фракционное превосходство?",
+      "en": "When is faction restraint applicable?",
+      "de": "Wann ist Fraktionsbeherrschung anwendbar?",
+      "es": "¿Cuándo se aplica la restricción de facción?",
+      "fr": "Quand le système de contre des factions est-il actif ?",
+      "id": "Kapan restraint faksi berlaku?",
+      "ja": "陣営相性はどのような場面で適用されますか？",
+      "ko": "진영 상성은 어떤 상황에서 적용되나요?",
+      "pt": "Quando a restrição de facção é aplicada?"
+    },
+    "options": [
+      {
+        "ru": "Король демонов скверны",
+        "en": "Demon King Blight",
+        "de": "Seuchen-Dämonenkönig",
+        "es": "Rey Demonio Infectado",
+        "fr": "Peste Roi démon",
+        "id": "Raja Iblis Ghoul",
+        "ja": "魔王ゾンビ",
+        "ko": "마왕 좀비",
+        "pt": "Rei Demônio da Praga"
+      },
+      {
+        "ru": "PvP-битва",
+        "en": "Pvp Battle",
+        "de": "PvP-Kampf",
+        "es": "Batalla PvP",
+        "fr": "Combat PvP",
+        "id": "Pertarungan PVP",
+        "ja": "PVP戦闘",
+        "ko": "PVP 전투",
+        "pt": "Batalha PvP"
+      },
+      {
+        "ru": "Все перечисленное",
+        "en": "All of the above",
+        "de": "Alles oben Genannte",
+        "es": "Todo lo anterior",
+        "fr": "Tout ce qui précède",
+        "id": "Semua benar",
+        "ja": "すべて正解",
+        "ko": "모두 정답",
+        "pt": "Todas as opções acima"
+      }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 87,
+    "category": "lore",
+    "title": {
+      "ru": "Каковы роли различных классов Героев?",
+      "en": "What are the roles of different Hero classes?",
+      "de": "Was sind die Rollen der verschiedenen Heldenklassen?",
+      "es": "¿Cuáles son los roles de las diferentes clases de Héroes?",
+      "fr": "Quels sont les rôles des différentes classes de Héros ?",
+      "id": "Apa fungsi dari kelas Hero yang berbeda?",
+      "ja": "英雄の職業ごとに、どのような役割がありますか？",
+      "ko": "영웅 직업별 역할은 무엇인가요?",
+      "pt": "Quais são as funções das diferentes classes de Herói?"
+    },
+    "options": [
+      {
+        "ru": "Танков можно размещать в авангарде для поглощения урона.",
+        "en": "Tanks can be positioned at the front to absorb damage",
+        "de": "Panzer können vorne positioniert werden, um Schaden zu absorbieren",
+        "es": "Los tanques pueden posicionarse al frente para absorber daño",
+        "fr": "Les tanks peuvent être positionnés en première ligne pour encaisser les dégâts.",
+        "id": "Tank bisa ditempatkan di barisan depan untuk menahan damage",
+        "ja": "タンクは前衛に配置してダメージを防ぐ",
+        "ko": "탱커는 전열에서 피해를 막아줍니다",
+        "pt": "Tanques podem ser posicionados na linha de frente para absorver dano"
+      },
+      {
+        "ru": "Размещайте атакующих юнитов в тылу для максимального урона.",
+        "en": "Damage dealers should be placed at the back to maximize damage output",
+        "de": "Schadensverursacher sollten hinten platziert werden, um den Schadensausstoß zu maximieren",
+        "es": "Los atacantes deben colocarse atrás para maximizar el daño",
+        "fr": "Positionnez les DPS à l\\'arrière pour optimiser leur potentiel offensif.",
+        "id": "DPS di barisan belakang fokus memberikan damage maksimal",
+        "ja": "アタッカーは後衛から全力でダメージを与えます。",
+        "ko": "딜러는 후열에서 막강한 화력을 퍼붓습니다",
+        "pt": "Posicione os atacantes na retaguarda para maximizar o dano"
+      },
+      {
+        "ru": "Все перечисленное",
+        "en": "All of the above",
+        "de": "Alles oben Genannte",
+        "es": "Todo lo anterior",
+        "fr": "Tout ce qui précède",
+        "id": "Semua benar",
+        "ja": "すべて正解",
+        "ko": "모두 정답",
+        "pt": "Todas as opções acima"
+      }
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 88,
+    "category": "heroes",
+    "title": {
+      "ru": "В чем преимущества формирования команды из Героев одной фракции?",
+      "en": "What are the advantages of forming a team with Heroes from the same faction?",
+      "de": "Was sind die Vorteile, ein Team mit Helden derselben Fraktion zu bilden?",
+      "es": "¿Cuáles son las ventajas de formar un equipo con Héroes de la misma facción?",
+      "fr": "Quels sont les avantages de composer une équipe avec des Héros de même faction ?",
+      "id": "Apa keuntungan tim Hero dari faksi yang sama?",
+      "ja": "同じ陣営の英雄でチームを組むと、どんなメリットがありますか？",
+      "ko": "같은 진영의 영웅으로 팀을 구성하면 어떤 이점이 있나요?",
+      "pt": "Quais são as vantagens de formar uma equipa com Heróis da mesma facção?"
+    },
+    "options": [
+      {
+        "ru": "Приятные цвета.",
+        "en": "The colors are appealing",
+        "de": "Die Farben sind ansprechend",
+        "es": "Los colores son atractivos",
+        "fr": "Les couleurs sont attrayantes.",
+        "id": "Warnanya bagus",
+        "ja": "色が綺麗",
+        "ko": "색감이 아름답습니다",
+        "pt": "As cores são atraentes"
+      },
+      {
+        "ru": "Бонус фракции к урону",
+        "en": "Damage increased by faction bonus",
+        "de": "Schaden durch Fraktionsbonus erhöht",
+        "es": "Daño aumentado por bonificación de facción",
+        "fr": "Dégâts augmentés par le bonus de faction.",
+        "id": "Peningkatan Damage dari Bonus Faksi",
+        "ja": "陣営バフによるダメージ上昇",
+        "ko": "진영 버프로 피해량 증가",
+        "pt": "Dano aumentado pelo bônus de facção"
+      },
+      {
+        "ru": "Объединились против общего врага",
+        "en": "United against a common enemy",
+        "de": "Vereint gegen einen gemeinsamen Feind",
+        "es": "Unidos contra un enemigo común",
+        "fr": "Unis contre un ennemi commun",
+        "id": "Bersatu Melawan Musuh",
+        "ja": "一致団結",
+        "ko": "하나된 분노",
+        "pt": "Unidos contra um inimigo comum"
+      }
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 89,
+    "category": "heroes",
+    "title": {
+      "ru": "Когда открывается бонус фракции?",
+      "en": "When does the faction bonus feature unlock?",
+      "de": "Wann wird die Fraktionsbonus-Funktion freigeschaltet?",
+      "es": "¿Cuándo se desbloquea la función de bonificación de facción?",
+      "fr": "À quel moment la fonctionnalité de bonus de faction est-elle débloquée ?",
+      "id": "Kapan fitur bonus faksi dibuka?",
+      "ja": "陣営バフ機能はいつ解放されますか？",
+      "ko": "진영 버프는 언제 해제되나요?",
+      "pt": "Quando o recurso de bônus de facção é desbloqueado?"
+    },
+    "options": [
+      {
+        "ru": "Первая осада города",
+        "en": "First city siege",
+        "de": "Erste Stadtbelagerung",
+        "es": "Primer asedio de ciudad",
+        "fr": "Premier siège de ville",
+        "id": "Perang Rebut Kota pertama",
+        "ja": "初回都市争奪戦",
+        "ko": "최초의 도시 쟁탈전",
+        "pt": "Primeiro cerco à cidade"
+      },
+      {
+        "ru": "Первый Королевский переполох",
+        "en": "First Royal City Scramble",
+        "de": "Erster Königsstadtkampf",
+        "es": "Primer Alboroto en la Ciudad Real",
+        "fr": "Premier Tumulte en Cité Royale",
+        "id": "Perebutan Kota Raja Pertama",
+        "ja": "初回王城争奪戦",
+        "ko": "첫 왕성 쟁탈전",
+        "pt": "Primeiro Tumulto na Capital"
+      },
+      {
+        "ru": "Первая атака на Короля демонов скверны",
+        "en": "First attack on the Demon King Blight",
+        "de": "Erster Angriff auf den Dämonenkönig Seuche",
+        "es": "Primer ataque al Rey Demonio Infectado",
+        "fr": "Première attaque contre le Roi-Démon Peste",
+        "id": "Serangan Pertama ke Raja Iblis Ghoul",
+        "ja": "初めて魔王ゾンビを討伐します。",
+        "ko": "첫 마왕 좀비 토벌",
+        "pt": "Primeiro ataque ao Rei Demônio da Praga"
+      }
+    ],
+    "correctAnswer": 2
+  }
+]

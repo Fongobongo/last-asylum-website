@@ -1,0 +1,338 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "ru": "Развитие",
+      "en": "Development",
+      "de": "Entwicklung",
+      "es": "Desarrollo",
+      "fr": "Développement",
+      "id": "Kembangkan",
+      "ja": "発展",
+      "ko": "발전",
+      "pt": "Desenvolvimento"
+    },
+    "icon": "hammer",
+    "priority": "S",
+    "advice": {
+      "ru": "Критично качать Быстрое строительство и Улучшение исследований с первых дней для ускорения всего аккаунта.",
+      "en": "Critical to level Rapid Construction and Research Upgrade from day 1 to boost overall progress."
+    },
+    "techCount": 34
+  },
+  {
+    "id": 2,
+    "name": {
+      "ru": "Экономика",
+      "en": "Economy",
+      "de": "Wirtschaft",
+      "es": "Economía",
+      "fr": "Économie",
+      "id": "Ekonomi",
+      "ja": "経済",
+      "ko": "경제",
+      "pt": "Economia"
+    },
+    "icon": "wheat",
+    "priority": "A",
+    "advice": {
+      "ru": "Увеличивает сбор и производство ресурсов. Важно для F2P игроков.",
+      "en": "Increases gathering speed and resource output. Essential for F2P players."
+    },
+    "techCount": 39
+  },
+  {
+    "id": 3,
+    "name": {
+      "ru": "Герой",
+      "en": "Hero",
+      "de": "Held",
+      "es": "Héroes",
+      "fr": "Héros",
+      "id": "Hero",
+      "ja": "英雄",
+      "ko": "영웅",
+      "pt": "Herói"
+    },
+    "icon": "user",
+    "priority": "A",
+    "advice": {
+      "ru": "Ускоряет прокачку героев и дает базовые характеристики атаки/защиты.",
+      "en": "Speeds up hero leveling and grants base ATK/DEF stats."
+    },
+    "techCount": 28
+  },
+  {
+    "id": 4,
+    "name": {
+      "ru": "Солдат",
+      "en": "Soldier",
+      "de": "Soldat",
+      "es": "Soldado",
+      "fr": "Soldat",
+      "id": "Prajurit",
+      "ja": "兵士",
+      "ko": "병사",
+      "pt": "Soldado"
+    },
+    "icon": "shield",
+    "priority": "S",
+    "advice": {
+      "ru": "Базовые военные усиления пехоты, стрелков и магов. Обязательно для открытия T-рангов.",
+      "en": "Core troop military buffs. Required for higher tier combat."
+    },
+    "techCount": 20
+  },
+  {
+    "id": 5,
+    "name": {
+      "ru": "Отряд 1",
+      "en": "Squad 1",
+      "de": "Truppe 1",
+      "es": "Escuadrón 1",
+      "fr": "Escouade 1",
+      "id": "Tim 1",
+      "ja": "小隊1",
+      "ko": "소대 1",
+      "pt": "Esquadrão 1"
+    },
+    "icon": "zap",
+    "priority": "S",
+    "advice": {
+      "ru": "Основной боевой марш (Отряд 1). Приоритет №1 для PvP и PvE.",
+      "en": "Primary combat march queue. Top priority for both PvP and PvE."
+    },
+    "techCount": 20
+  },
+  {
+    "id": 6,
+    "name": {
+      "ru": "Отряд 2",
+      "en": "Squad 2",
+      "de": "Truppe 2",
+      "es": "Escuadrón 2",
+      "fr": "Escouade 2",
+      "id": "Tim 2",
+      "ja": "小隊2",
+      "ko": "소대 2",
+      "pt": "Esquadrão 2"
+    },
+    "icon": "users",
+    "priority": "B",
+    "advice": {
+      "ru": "Второй отряд (сбор ресурсов, поддержка в штурмах).",
+      "en": "Secondary march queue (gathering, rally reinforcement)."
+    },
+    "techCount": 20
+  },
+  {
+    "id": 7,
+    "name": {
+      "ru": "Отряд 3",
+      "en": "Squad 3",
+      "de": "Truppe 3",
+      "es": "Escuadrón 3",
+      "fr": "Escouade 3",
+      "id": "Tim 3",
+      "ja": "小隊3",
+      "ko": "소대 3",
+      "pt": "Esquadrão 3"
+    },
+    "icon": "users",
+    "priority": "B",
+    "advice": {
+      "ru": "Третий отряд для одновременного сбора ресурсов на карте мира.",
+      "en": "Third march queue for multi-tile world map gathering."
+    },
+    "techCount": 20
+  },
+  {
+    "id": 8,
+    "name": {
+      "ru": "Отряд 4",
+      "en": "Squad 4",
+      "de": "Truppe 4",
+      "es": "Escuadrón 4",
+      "fr": "Escouade 4",
+      "id": "Tim 4",
+      "ja": "小隊4",
+      "ko": "소대 4",
+      "pt": "Esquadrão 4"
+    },
+    "icon": "users",
+    "priority": "B",
+    "advice": {
+      "ru": "Четвертый отряд для максимального сбора эликсира и дерева.",
+      "en": "Fourth march queue for maximum passive gathering efficiency."
+    },
+    "techCount": 20
+  },
+  {
+    "id": 9,
+    "name": {
+      "ru": "Дуэль альянсов",
+      "en": "Alliance Duel",
+      "de": "Allianz-Duell",
+      "es": "Duelo de alianzas",
+      "fr": "Duel d\\'alliances",
+      "id": "Pertarungan Guild",
+      "ja": "ギルドバトル",
+      "ko": "길드전",
+      "pt": "Duelo da Aliança"
+    },
+    "icon": "trophy",
+    "priority": "S",
+    "advice": {
+      "ru": "САМАЯ ВАЖНАЯ ветка для набора очков в Дуэли альянсов (SvS) и открытия 9 сундуков!",
+      "en": "MOST CRUCIAL branch for maximizing Alliance Duel (SvS) points and unlocking 9 chests daily!"
+    },
+    "techCount": 14
+  },
+  {
+    "id": 10,
+    "name": {
+      "ru": "Перевозка каравана",
+      "en": "Caravan Transport",
+      "de": "Karawanentransport",
+      "es": "Transporte de caravana",
+      "fr": "Transport de caravane",
+      "id": "Transportasi Kereta Kuda",
+      "ja": "馬車輸送",
+      "ko": "마차 수송",
+      "pt": "Transporte de Caravana"
+    },
+    "icon": "truck",
+    "priority": "B",
+    "advice": {
+      "ru": "Увеличивает награды с торговых караванов и защиту от грабежей.",
+      "en": "Increases trade caravan rewards and plunder defense."
+    },
+    "techCount": 9
+  },
+  {
+    "id": 11,
+    "name": {
+      "ru": "Элитное войско",
+      "en": "Elite Troop",
+      "de": "Elite-Truppe",
+      "es": "Tropa de élite",
+      "fr": "Troupe d\\'élite",
+      "id": "Pasukan Elite",
+      "ja": "エリート部隊",
+      "ko": "정예 부대",
+      "pt": "Tropa de Elite"
+    },
+    "icon": "award",
+    "priority": "S",
+    "advice": {
+      "ru": "Элитные военные параметры: летальный урон, снижение получаемого урона.",
+      "en": "Elite military multipliers: lethality and damage reduction."
+    },
+    "techCount": 23
+  },
+  {
+    "id": 12,
+    "name": {
+      "ru": "Атакующая тактика",
+      "en": "Offensive Tactics",
+      "de": "Offensive Taktiken",
+      "es": "Tácticas ofensivas",
+      "fr": "Tactiques offensives",
+      "id": "Taktik Serangan",
+      "ja": "攻撃戦術",
+      "ko": "공격 전술",
+      "pt": "Táticas Ofensivas"
+    },
+    "icon": "crosshair",
+    "priority": "A",
+    "advice": {
+      "ru": "Усиления атаки при штурмах вражеских баз и городов.",
+      "en": "Offensive multipliers when initiating rallies and base assaults."
+    },
+    "techCount": 16
+  },
+  {
+    "id": 13,
+    "name": {
+      "ru": "Защитная тактика",
+      "en": "Defensive Tactics",
+      "de": "Defensive Taktiken",
+      "es": "Tácticas defensivas",
+      "fr": "Tactiques défensives",
+      "id": "Taktik Pertahanan",
+      "ja": "防衛戦術",
+      "ko": "방어 전술",
+      "pt": "Táticas Defensivas"
+    },
+    "icon": "shield",
+    "priority": "A",
+    "advice": {
+      "ru": "Оборонительные бонусы гарнизона и прочности стен при защите базы.",
+      "en": "Defensive garrison bonuses and wall durability."
+    },
+    "techCount": 16
+  },
+  {
+    "id": 16,
+    "name": {
+      "ru": "Мастерство воина",
+      "en": "Warrior Mastery",
+      "de": "Krieger-Beherrschung",
+      "es": "Maestría de guerrero",
+      "fr": "Maîtrise de guerrier",
+      "id": "Spesialisasi Fighter",
+      "ja": "ウォーリア特化",
+      "ko": "전사 특성",
+      "pt": "Maestria do Guerreiro"
+    },
+    "icon": "swords",
+    "priority": "A",
+    "advice": {
+      "ru": "Специализация на воинах (танки передовой линии).",
+      "en": "Warrior frontline specialization (HP, DEF, Damage reduction)."
+    },
+    "techCount": 23
+  },
+  {
+    "id": 17,
+    "name": {
+      "ru": "Мастерство рейнджера",
+      "en": "Ranger Mastery",
+      "de": "Ranger-Beherrschung",
+      "es": "Maestría de montaraz",
+      "fr": "Maîtrise de rôdeur",
+      "id": "Spesialisasi Ranger",
+      "ja": "レンジャー特化",
+      "ko": "레인저 특성",
+      "pt": "Maestria do Patrulheiro"
+    },
+    "icon": "target",
+    "priority": "A",
+    "advice": {
+      "ru": "Специализация на рейнджерах (физический ДПС задней линии).",
+      "en": "Ranger backline specialization (Physical DPS, Crit, Lethality)."
+    },
+    "techCount": 23
+  },
+  {
+    "id": 18,
+    "name": {
+      "ru": "Мастерство колдуна",
+      "en": "Warlock Mastery",
+      "de": "Hexenmeister-Beherrschung",
+      "es": "Maestría de brujo",
+      "fr": "Maîtrise de démoniste",
+      "id": "Spesialisasi Warlock",
+      "ja": "ソーサラー特化",
+      "ko": "마법사 특성",
+      "pt": "Maestria do Bruxo"
+    },
+    "icon": "sparkles",
+    "priority": "A",
+    "advice": {
+      "ru": "Специализация на колдунах (магический взрывной урон по площади).",
+      "en": "Warlock AoE magic burst specialization."
+    },
+    "techCount": 23
+  }
+]

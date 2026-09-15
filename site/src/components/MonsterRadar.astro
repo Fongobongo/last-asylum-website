@@ -1,0 +1,307 @@
+---
+import monstersData from '../data/officialMonsters.json';
+import type { Lang } from '../i18n/utils';
+
+interface Props {
+  lang?: Lang;
+}
+
+const { lang = 'ru' } = Astro.props;
+
+const i18n = {
+  ru: {
+    title: '🧟 Радар монстров и рейдовых боссов (Скверна ур. 1–30)',
+    subtitle: 'База всех 30 уровней одиночных чумных монстров и 30 уровней Элитной скверны для совместных штурмов альянса. Затраты выносливости, награды и советы по охоте.',
+    soloTab: 'Одиночные (Чумной крестьянин)',
+    rallyTab: 'Штурмы альянса (Элитная скверна)',
+    stamina: 'Выносливость:',
+    powerReq: 'Рекомендуемая мощь:',
+    drops: 'Основные награды:',
+    dropsSolo: 'Опыт героя, Зерно, Дерево, Ресурсы снаряжения',
+    dropsRally: 'Сундуки альянса, Очки VIP, Ускорения, Золотой опыт героев',
+    rallyAdviseTitle: 'Тактика штурмов альянса:',
+    rallyAdviseText: 'Обязательно изучите технологию «Автоштурм» в институте альянса! Это позволит вашим войскам автоматически присоединяться к штурмам Элитной скверны, когда вы офлайн, гарантируя получение сотен сундуков ежедневно.',
+    levelLabel: 'Уровень',
+    soloMonsterDesc: 'Одиночные монстры на карте мира. Атакуются одним отрядом без таймера сбора.',
+    rallyMonsterDesc: 'Командные боссы на карте мира. Требуют запуска штурма альянса (5 минут) и участия минимум 2 игроков.',
+  },
+  en: {
+    title: '🧟 Monster & Rally Radar (Blight Lv. 1–30)',
+    subtitle: 'Complete database of 30 solo plague peasant tiers and 30 alliance Doom Elite rally bosses. Stamina costs, loot tables, and hunting tactics.',
+    soloTab: 'Solo Monsters (Plague Peasant)',
+    rallyTab: 'Alliance Rallies (Doom Elite)',
+    stamina: 'Stamina:',
+    powerReq: 'Recommended Might:',
+    drops: 'Key Rewards:',
+    dropsSolo: 'Hero EXP, Grain, Timber, Gear Crafting Mats',
+    dropsRally: 'Alliance Chests, VIP Points, Speedups, High-tier Hero EXP',
+    rallyAdviseTitle: 'Alliance Rally Strategy:',
+    rallyAdviseText: 'Research "Auto-Rally" in the Alliance Tech Tree! It automatically dispatches your march into teammates\' rallies while offline, yielding hundreds of reward chests daily.',
+    levelLabel: 'Level',
+    soloMonsterDesc: 'Solo monsters on the world map. Attacked by a single march with no waiting timer.',
+    rallyMonsterDesc: 'Team bosses on the world map. Require initiating an alliance rally (5 min) with at least 2 players.',
+  },
+  de: {
+    title: '🧟 Monster- & Rally-Radar (Stufe 1–30)',
+    subtitle: 'Alle 30 Stufen von Solo-Monstern und Allianz-Elite-Bossen.',
+    soloTab: 'Solo-Monster',
+    rallyTab: 'Allianz-Schwarm (Elite)',
+    stamina: 'Ausdauer:',
+    powerReq: 'Empfohlene Kampfkraft:',
+    drops: 'Belohnungen:',
+    dropsSolo: 'Helden-EP, Ressourcen, Ausrüstungsmaterial',
+    dropsRally: 'Allianz-Truhen, VIP-Punkte, Beschleuniger',
+    rallyAdviseTitle: 'Tipp:',
+    rallyAdviseText: 'Erforschen Sie Auto-Rally für automatische Teilnahme.',
+    levelLabel: 'Stufe',
+    soloMonsterDesc: 'Einzelne Monster auf der Karte.',
+    rallyMonsterDesc: 'Allianz-Bosse für Gruppenangriffe.',
+  },
+  es: {
+    title: '🧟 Radar de Monstruos y Asaltos (Nvl. 1–30)',
+    subtitle: '30 niveles de monstruos en solitario y 30 jefes de asalto de alianza.',
+    soloTab: 'Monstruos en solitario',
+    rallyTab: 'Asaltos de Alianza',
+    stamina: 'Energía:',
+    powerReq: 'Poder recomendado:',
+    drops: 'Recompensas:',
+    dropsSolo: 'EXP de Héroe, Recursos, Materiales',
+    dropsRally: 'Cofres de alianza, Puntos VIP, Aceleradores',
+    rallyAdviseTitle: 'Estrategia:',
+    rallyAdviseText: 'Investiga Auto-Asalto en la tecnología de alianza.',
+    levelLabel: 'Nivel',
+    soloMonsterDesc: 'Monstruos individuales en el mapa.',
+    rallyMonsterDesc: 'Jefes de equipo que requieren asalto de alianza.',
+  },
+  fr: {
+    title: '🧟 Radar des Monstres et Rallies (Niv. 1–30)',
+    subtitle: '30 niveaux de monstres solos et 30 boss de rassemblement d\'alliance.',
+    soloTab: 'Monstres Solos',
+    rallyTab: 'Rassemblements d\'Alliance',
+    stamina: 'Endurance :',
+    powerReq: 'Puissance recommandée :',
+    drops: 'Récompenses :',
+    dropsSolo: 'EXP de héros, Ressources, Matériaux',
+    dropsRally: 'Coffres d\'alliance, Points VIP, Accélérations',
+    rallyAdviseTitle: 'Stratégie :',
+    rallyAdviseText: 'Débloquez l\'Auto-Ralliement dans l\'arbre d\'alliance.',
+    levelLabel: 'Niveau',
+    soloMonsterDesc: 'Monstres simples sur la carte.',
+    rallyMonsterDesc: 'Boss d\'équipe nécessitant un ralliement de 5 min.',
+  },
+  id: {
+    title: '🧟 Radar Monster & Serangan Bersama (Lv. 1–30)',
+    subtitle: '30 level monster solo dan 30 bos serangan guild.',
+    soloTab: 'Monster Solo',
+    rallyTab: 'Serangan Guild',
+    stamina: 'Stamina:',
+    powerReq: 'Kekuatan Rekomendasi:',
+    drops: 'Hadiah:',
+    dropsSolo: 'EXP Hero, Sumber Daya, Bahan Gear',
+    dropsRally: 'Peti Guild, Poin VIP, Percepatan',
+    rallyAdviseTitle: 'Saran:',
+    rallyAdviseText: 'Riset Auto-Rally agar otomatis ikut saat offline.',
+    levelLabel: 'Level',
+    soloMonsterDesc: 'Monster solo di peta dunia.',
+    rallyMonsterDesc: 'Bos bersama yang membutuhkan rally 5 menit.',
+  },
+  ja: {
+    title: '🧟 モンスター＆集結討伐レーダー（Lv.1〜30）',
+    subtitle: 'ソロ用感染者30段階および同盟集結エリートボス30段階の完全データ。',
+    soloTab: 'ソロ討伐（感染農民）',
+    rallyTab: '同盟集結（エリート感染体）',
+    stamina: '消費スタミナ：',
+    powerReq: '推奨戦力：',
+    drops: '主なドロップ：',
+    dropsSolo: '英雄EXP、食料、木材、装備強化素材',
+    dropsRally: '同盟ギフト宝箱、VIPポイント、加速、上級EXP',
+    rallyAdviseTitle: '集結討伐の極意：',
+    rallyAdviseText: '同盟技術の「自動集結」を必ず研究しましょう。オフライン時でも自動で味方の集結に参加し、毎日大量のギフト箱を獲得できます。',
+    levelLabel: 'レベル',
+    soloMonsterDesc: 'マップ上の単体モンスター。待機時間なしで単独攻撃可能。',
+    rallyMonsterDesc: 'マップ上の強敵ボス。同盟員との5分集結が必要です。',
+  },
+  ko: {
+    title: '🧟 몬스터 및 집결 보스 레이더 (1~30레벨)',
+    subtitle: '개인 사냥 30단계 및 연맹 집결 정예 보스 30단계 완벽 가이드.',
+    soloTab: '개인 사냥 (역병 농민)',
+    rallyTab: '연맹 집결 (정예 역병체)',
+    stamina: '소모 스태미나:',
+    powerReq: '권장 전투력:',
+    drops: '주요 보상:',
+    dropsSolo: '영웅 경험치, 식량, 목재, 장비 제작 재료',
+    dropsRally: '연맹 상자, VIP 포인트, 가속 아이템, 고급 영웅 EXP',
+    rallyAdviseTitle: '집결 레이드 필수 팁:',
+    rallyAdviseText: '연맹 연구에서 "자동 집결"을 반드시 활성화하세요! 오프라인 중에도 아군의 집결에 자동 참여하여 매일 수백 개의 연맹 상자를 획득합니다.',
+    levelLabel: '레벨',
+    soloMonsterDesc: '월드맵 개인 사냥 몬스터.',
+    rallyMonsterDesc: '2인 이상 5분 집결이 필요한 월드맵 팀 보스.',
+  },
+  pt: {
+    title: '🧟 Radar de Monstros e Ataques Conjuntos (Nív. 1–30)',
+    subtitle: '30 níveis de monstros solo e 30 chefes de ataque de aliança.',
+    soloTab: 'Monstros Solo',
+    rallyTab: 'Ataques da Aliança',
+    stamina: 'Vigor:',
+    powerReq: 'Poder Recomendado:',
+    drops: 'Recompensas:',
+    dropsSolo: 'EXP de Herói, Recursos, Materiais',
+    dropsRally: 'Baús da Aliança, Pontos VIP, Aceleradores',
+    rallyAdviseTitle: 'Dica:',
+    rallyAdviseText: 'Pesquise Auto-Rally para participar enquanto offline.',
+    levelLabel: 'Nível',
+    soloMonsterDesc: 'Monstros normais no mapa-múndi.',
+    rallyMonsterDesc: 'Chefes que exigem ataque conjunto de 5 min.',
+  },
+};
+
+const t = i18n[lang as keyof typeof i18n] || i18n.en;
+
+const soloMonsters = (monstersData.solo as any[]).map((m) => ({
+  level: m.level,
+  name: m.name?.[lang] || m.name?.ru || m.name?.en || `Monster Lv.${m.level}`,
+  stamina: m.staminaCost,
+  powerEst: Math.round(50000 * Math.pow(1.18, m.level - 1)).toLocaleString(),
+}));
+
+const rallyMonsters = (monstersData.rally as any[]).map((m) => ({
+  level: m.level,
+  name: m.name?.[lang] || m.name?.ru || m.name?.en || `Doom Elite Lv.${m.level}`,
+  stamina: m.staminaCost,
+  powerEst: Math.round(250000 * Math.pow(1.22, m.level - 1)).toLocaleString(),
+}));
+---
+
+<section class="not-prose my-10 rounded-3xl border border-toxic-500/30 bg-stone-950/80 p-6 sm:p-8 backdrop-blur-xl shadow-[0_0_50px_rgba(0,0,0,0.6)]" id="monster-radar-app">
+  <div class="mb-6 flex flex-col gap-2">
+    <div class="flex items-center gap-3">
+      <span class="rounded-xl border border-toxic-500/40 bg-toxic-950/60 px-3 py-1 text-xs font-bold text-toxic-400">
+        PVE HUNTING RADAR
+      </span>
+      <span class="text-xs text-stone-500 font-mono">60 OFFICIAL TIERS</span>
+    </div>
+    <h2 class="text-2xl font-bold tracking-tight text-toxic-400 sm:text-3xl">{t.title}</h2>
+    <p class="text-sm text-stone-400 max-w-3xl">{t.subtitle}</p>
+  </div>
+
+  <!-- Alliance Auto-Rally Callout -->
+  <div class="mb-6 rounded-2xl border border-toxic-500/30 bg-toxic-950/30 p-4 sm:p-5">
+    <div class="flex items-center gap-2 mb-2">
+      <span class="text-lg">📢</span>
+      <h3 class="text-sm font-bold text-toxic-300">{t.rallyAdviseTitle}</h3>
+    </div>
+    <p class="text-xs text-stone-300 leading-relaxed">{t.rallyAdviseText}</p>
+  </div>
+
+  <!-- Mode Switcher -->
+  <div class="flex flex-wrap gap-2 mb-6" id="monster-mode-switch">
+    <button
+      type="button"
+      id="btn-mode-rally"
+      class="rounded-xl bg-toxic-500 px-4 py-2 text-xs font-bold text-stone-950 shadow-[0_0_15px_rgba(180,255,57,0.3)] transition-all"
+    >
+      ⚔️ {t.rallyTab} (30 Lv)
+    </button>
+    <button
+      type="button"
+      id="btn-mode-solo"
+      class="rounded-xl border border-stone-800 bg-stone-900/60 px-4 py-2 text-xs font-bold text-stone-400 hover:border-toxic-500/40 hover:text-stone-200 transition-all"
+    >
+      🎯 {t.soloTab} (30 Lv)
+    </button>
+  </div>
+
+  <!-- Rally Monsters Container -->
+  <div id="container-rally-monsters">
+    <div class="mb-3 text-xs text-stone-400 flex items-center justify-between">
+      <span>{t.rallyMonsterDesc}</span>
+      <span class="text-toxic-400 font-semibold">{t.stamina} 20</span>
+    </div>
+    <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      {rallyMonsters.map((m) => (
+        <div class="rounded-2xl border border-stone-800/80 bg-stone-900/40 p-4 transition hover:border-toxic-500/40 hover:bg-stone-900/80">
+          <div class="flex items-center justify-between mb-2">
+            <span class="rounded-md border border-toxic-500/30 bg-toxic-950/60 px-2 py-0.5 text-xs font-bold text-toxic-400">
+              Lv. {m.level}
+            </span>
+            <span class="text-[11px] text-stone-400 font-mono">
+              ⚡ 20
+            </span>
+          </div>
+          <h4 class="text-sm font-bold text-stone-100">{m.name}</h4>
+          <div class="mt-2 space-y-1 text-xs">
+            <div class="text-stone-400">
+              <span class="text-stone-500">{t.powerReq}</span> ~{m.powerEst}
+            </div>
+            <div class="text-stone-400">
+              <span class="text-stone-500">{t.drops}</span>
+              <span class="text-toxic-300 font-medium ml-1">{t.dropsRally}</span>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <!-- Solo Monsters Container -->
+  <div id="container-solo-monsters" class="hidden">
+    <div class="mb-3 text-xs text-stone-400 flex items-center justify-between">
+      <span>{t.soloMonsterDesc}</span>
+      <span class="text-toxic-400 font-semibold">{t.stamina} 10</span>
+    </div>
+    <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      {soloMonsters.map((m) => (
+        <div class="rounded-2xl border border-stone-800/80 bg-stone-900/40 p-4 transition hover:border-toxic-500/40 hover:bg-stone-900/80">
+          <div class="flex items-center justify-between mb-2">
+            <span class="rounded-md border border-stone-700 bg-stone-950 px-2 py-0.5 text-xs font-bold text-stone-300">
+              Lv. {m.level}
+            </span>
+            <span class="text-[11px] text-stone-400 font-mono">
+              ⚡ 10
+            </span>
+          </div>
+          <h4 class="text-sm font-bold text-stone-100">{m.name}</h4>
+          <div class="mt-2 space-y-1 text-xs">
+            <div class="text-stone-400">
+              <span class="text-stone-500">{t.powerReq}</span> ~{m.powerEst}
+            </div>
+            <div class="text-stone-400">
+              <span class="text-stone-500">{t.drops}</span>
+              <span class="text-stone-300 ml-1">{t.dropsSolo}</span>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<script>
+  function initMonsterRadar() {
+    const btnRally = document.getElementById('btn-mode-rally');
+    const btnSolo = document.getElementById('btn-mode-solo');
+    const cRally = document.getElementById('container-rally-monsters');
+    const cSolo = document.getElementById('container-solo-monsters');
+
+    if (!btnRally || !btnSolo || !cRally || !cSolo) return;
+
+    btnRally.addEventListener('click', () => {
+      cRally.classList.remove('hidden');
+      cSolo.classList.add('hidden');
+
+      btnRally.className = 'rounded-xl bg-toxic-500 px-4 py-2 text-xs font-bold text-stone-950 shadow-[0_0_15px_rgba(180,255,57,0.3)] transition-all';
+      btnSolo.className = 'rounded-xl border border-stone-800 bg-stone-900/60 px-4 py-2 text-xs font-bold text-stone-400 hover:border-toxic-500/40 hover:text-stone-200 transition-all';
+    });
+
+    btnSolo.addEventListener('click', () => {
+      cSolo.classList.remove('hidden');
+      cRally.classList.add('hidden');
+
+      btnSolo.className = 'rounded-xl bg-toxic-500 px-4 py-2 text-xs font-bold text-stone-950 shadow-[0_0_15px_rgba(180,255,57,0.3)] transition-all';
+      btnRally.className = 'rounded-xl border border-stone-800 bg-stone-900/60 px-4 py-2 text-xs font-bold text-stone-400 hover:border-toxic-500/40 hover:text-stone-200 transition-all';
+    });
+  }
+
+  initMonsterRadar();
+  document.addEventListener('astro:page-load', initMonsterRadar);
+</script>
