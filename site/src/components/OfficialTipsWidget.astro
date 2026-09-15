@@ -1,0 +1,108 @@
+---
+import type { Lang } from '../i18n/utils';
+import officialTipsData from '../data/officialTips.json';
+
+interface Props {
+  lang?: Lang;
+}
+
+const { lang = 'en' } = Astro.props;
+
+const tips = officialTipsData as any[];
+
+const ui = {
+  ru: {
+    badge: '💡 Совет от разработчиков игры',
+    nextTip: 'Следующий совет ↻',
+    allTipsTitle: 'Все официальные советы с экранов загрузки игры:'
+  },
+  en: {
+    badge: '💡 Official In-Game Loading Screen Tip',
+    nextTip: 'Next Pro Tip ↻',
+    allTipsTitle: 'All Official Loading Screen Tips:'
+  },
+  de: {
+    badge: '💡 Offizieller Ladebildschirm-Tipp',
+    nextTip: 'Nächster Tipp ↻',
+    allTipsTitle: 'Alle offiziellen Tipps aus dem Spiel:'
+  },
+  es: {
+    badge: '💡 Consejo oficial de pantalla de carga',
+    nextTip: 'Siguiente consejo ↻',
+    allTipsTitle: 'Todos los consejos oficiales del juego:'
+  },
+  fr: {
+    badge: '💡 Conseil officiel d\'écran de chargement',
+    nextTip: 'Conseil suivant ↻',
+    allTipsTitle: 'Tous les conseils officiels en jeu :'
+  },
+  id: {
+    badge: '💡 Tips Resmi Layar Pemuatan Game',
+    nextTip: 'Tips Berikutnya ↻',
+    allTipsTitle: 'Semua tips resmi dari game:'
+  },
+  ja: {
+    badge: '💡 公式ロード画面ワンポイント攻略',
+    nextTip: '次のヒント ↻',
+    allTipsTitle: 'ロード画面の全公式アドバイス：'
+  },
+  ko: {
+    badge: '💡 공식 로딩 화면 게임 팁',
+    nextTip: '다음 팁 보기 ↻',
+    allTipsTitle: '게임 내 모든 공식 로딩 팁:'
+  },
+  pt: {
+    badge: '💡 Dica Oficial da Tela de Carregamento',
+    nextTip: 'Próxima dica ↻',
+    allTipsTitle: 'Todas as dicas oficiais do jogo:'
+  }
+};
+
+const t = ui[lang] || ui.en;
+---
+
+<div class="not-prose my-8 rounded-2xl border border-plague-500/30 bg-plague-950/40 p-4 sm:p-6 shadow-xl backdrop-blur-sm" id="official-tips-container">
+  <div class="flex flex-wrap items-center justify-between gap-2 border-b border-plague-900/40 pb-3">
+    <span class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-plague-400">
+      {t.badge}
+    </span>
+    <button
+      type="button"
+      id="btn-next-official-tip"
+      class="rounded-lg border border-stone-700 bg-stone-800/80 px-2.5 py-1 text-xs font-medium text-stone-300 transition-colors hover:border-plague-500 hover:text-plague-200"
+    >
+      {t.nextTip}
+    </button>
+  </div>
+
+  <div class="mt-4 min-h-[48px] flex items-center">
+    <p id="official-tip-text" class="text-sm font-medium leading-relaxed text-stone-200 sm:text-base italic">
+      «{tips[0]?.content?.[lang] || tips[0]?.content?.en}»
+    </p>
+  </div>
+</div>
+
+<script
+  is:inline
+  define:vars={{
+    tipsList: tips.map((tip) => tip.content[lang] || tip.content.en || ''),
+  }}
+>
+  (function () {
+    const tipText = document.getElementById('official-tip-text');
+    const btnNext = document.getElementById('btn-next-official-tip');
+    if (!tipText || !btnNext || !tipsList.length) return;
+
+    let currentIndex = Math.floor(Math.random() * tipsList.length);
+    tipText.textContent = `«${tipsList[currentIndex]}»`;
+
+    btnNext.addEventListener('click', () => {
+      currentIndex = (currentIndex + 1) % tipsList.length;
+      tipText.style.opacity = '0';
+      setTimeout(() => {
+        tipText.textContent = `«${tipsList[currentIndex]}»`;
+        tipText.style.opacity = '1';
+      }, 150);
+    });
+  })();
+</script>

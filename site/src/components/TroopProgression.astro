@@ -1,0 +1,284 @@
+---
+import type { Lang } from '../i18n/utils';
+import officialTroopsData from '../data/officialTroops.json';
+
+interface Props {
+  lang?: Lang;
+}
+
+const { lang = 'en' } = Astro.props;
+
+const { barracksProgression } = officialTroopsData;
+
+const ui = {
+  ru: {
+    title: '⚔️ Сетка войск T1–T10 и Треугольник фракций',
+    subtitle: 'Уровни Полигона для разблокировки каждого тира войск, прирост мощи и механика контр-пиков отрядов прямо из игрового движка.',
+    buildingClarificationTitle: '🏰 Разница между Полигоном и Казармой:',
+    trainingGroundRole: 'Полигон (Training Grounds): обучает солдат и открывает новые ранги (T1–T10) по мере повышения уровня здания.',
+    barracksRole: 'Казарма (Barracks): служит пунктом сбора солдат и увеличивает максимальный лимит вместимости армии.',
+    triangleTitle: '🔄 Боевой треугольник преимуществ (+20% урона):',
+    warriorBeat: 'Воины (Warriors) побеждают Стрелков (Rangers)',
+    rangerBeat: 'Стрелки (Rangers) побеждают Колдунов (Warlocks)',
+    warlockBeat: 'Колдуны (Warlocks) побеждают Воинов (Warriors)',
+    bonusNote: 'Отряд с классовым преимуществом наносит на +20% больше урона и получает меньше контратак.',
+    tableTitle: 'Сводка уровней Полигона и тиров войск',
+    tierCol: 'Тир',
+    barracksCol: 'Требуемый уровень Полигона',
+    mightCol: 'Мощь за солдата',
+    loadCol: 'Вместимость груза',
+    speedCol: 'Базовая скорость',
+    polygonLevelPrefix: 'Полигон ур.'
+  },
+  en: {
+    title: '⚔️ T1–T10 Troop Progression & Faction Counter Triangle',
+    subtitle: 'Training Grounds upgrade milestones per troop tier, Might scaling, and faction matchup mechanics extracted from game engine tables.',
+    buildingClarificationTitle: '🏰 Training Grounds vs. Barracks Roles:',
+    trainingGroundRole: 'Training Grounds (Полигон): trains soldiers and unlocks higher tiers (T1–T10) as the building upgrades.',
+    barracksRole: 'Barracks (Казарма): acts as a muster staging point and increases your overall army troop capacity limit.',
+    triangleTitle: '🔄 Combat Triangle Advantage (+20% Damage):',
+    warriorBeat: 'Warriors counter Rangers',
+    rangerBeat: 'Rangers counter Warlocks',
+    warlockBeat: 'Warlocks counter Warriors',
+    bonusNote: 'Squads with class advantage deal +20% damage and mitigate incoming counter-attacks.',
+    tableTitle: 'Training Grounds Milestones & Troop Tiers',
+    tierCol: 'Tier',
+    barracksCol: 'Required Training Grounds Lv.',
+    mightCol: 'Might per Troop',
+    loadCol: 'Resource Load',
+    speedCol: 'Base Speed',
+    polygonLevelPrefix: 'Training Grounds Lv.'
+  },
+  de: {
+    title: '⚔️ T1–T10 Truppen-Stufen & Kampfdreieck',
+    subtitle: 'Übungsplatz-Stufen für jeden Truppenrang und Schadensvorteile.',
+    buildingClarificationTitle: '🏰 Übungsplatz vs. Kaserne:',
+    trainingGroundRole: 'Übungsplatz: bildet Truppen aus und schaltet T1–T10 frei.',
+    barracksRole: 'Kaserne: erhöht die Gesamttruppenkapazität.',
+    triangleTitle: '🔄 Kampfdreieck (+20% Schaden):',
+    warriorBeat: 'Krieger kontern Waldläufer',
+    rangerBeat: 'Waldläufer kontern Hexenmeister',
+    warlockBeat: 'Hexenmeister kontern Krieger',
+    bonusNote: 'Klassenvorteil verleiht +20% Bonusschaden.',
+    tableTitle: 'Übungsplatz-Stufenübersicht',
+    tierCol: 'Rang',
+    barracksCol: 'Übungsplatz Stufe',
+    mightCol: 'Macht / Einheit',
+    loadCol: 'Ladekapazität',
+    speedCol: 'Geschwindigkeit',
+    polygonLevelPrefix: 'Übungsplatz St.'
+  },
+  es: {
+    title: '⚔️ Progresión de tropas T1–T10 y triángulo de ventaja',
+    subtitle: 'Niveles del Campo de entrenamiento por nivel de tropa y bonificaciones.',
+    buildingClarificationTitle: '🏰 Campo de entrenamiento vs. Cuartel:',
+    trainingGroundRole: 'Campo de entrenamiento (Polígono): entrena soldados y desbloquea T1–T10.',
+    barracksRole: 'Cuartel: aumenta la capacidad total de tropas.',
+    triangleTitle: '🔄 Triángulo de combate (+20% Daño):',
+    warriorBeat: 'Guerreros superan a Tiradores',
+    rangerBeat: 'Tiradores superan a Brujos',
+    warlockBeat: 'Brujos superan a Guerreros',
+    bonusNote: 'La ventaja otorga +20% de daño infligido.',
+    tableTitle: 'Hitos del Campo de entrenamiento',
+    tierCol: 'Nivel',
+    barracksCol: 'Nivel Campo de entrenamiento',
+    mightCol: 'Poder por tropa',
+    loadCol: 'Carga',
+    speedCol: 'Velocidad',
+    polygonLevelPrefix: 'Campo entren. Nv.'
+  },
+  fr: {
+    title: '⚔️ Progression des troupes T1–T10 & Triangle tactique',
+    subtitle: 'Niveaux du Terrain d\'entraînement par palier de troupes et multiplicateurs.',
+    buildingClarificationTitle: '🏰 Terrain d\'entraînement vs Caserne :',
+    trainingGroundRole: 'Terrain d\'entraînement : entraîne les troupes et débloque les tiers T1–T10.',
+    barracksRole: 'Caserne : augmente la capacité maximale de troupes.',
+    triangleTitle: '🔄 Triangle de combat (+20% de dégâts) :',
+    warriorBeat: 'Guerriers battent Rôdeurs',
+    rangerBeat: 'Rôdeurs battent Démonistes',
+    warlockBeat: 'Démonistes battent Guerriers',
+    bonusNote: 'L\'avantage de faction confère +20% de dégâts.',
+    tableTitle: 'Paliers du Terrain d\'entraînement',
+    tierCol: 'Palier',
+    barracksCol: 'Niv. Terrain d\'entraînement',
+    mightCol: 'Puissance / unité',
+    loadCol: 'Charge',
+    speedCol: 'Vitesse',
+    polygonLevelPrefix: 'Terrain d\'entr. Niv.'
+  },
+  id: {
+    title: '⚔️ Progresi Pasukan T1–T10 & Segitiga Pertempuran',
+    subtitle: 'Syarat level Tempat Latihan (Poligon) untuk setiap tier pasukan dan keunggulan fraksi.',
+    buildingClarificationTitle: '🏰 Tempat Latihan vs. Barak:',
+    trainingGroundRole: 'Tempat Latihan: melatih prajurit dan membuka tier T1–T10.',
+    barracksRole: 'Barak: meningkatkan kapasitas tampung total tentara.',
+    triangleTitle: '🔄 Keunggulan Segitiga Tempur (+20% Damage):',
+    warriorBeat: 'Warrior mengalahkan Ranger',
+    rangerBeat: 'Ranger mengalahkan Warlock',
+    warlockBeat: 'Warlock mengalahkan Warrior',
+    bonusNote: 'Keunggulan kelas memberikan bonus +20% damage.',
+    tableTitle: 'Level Tempat Latihan Pasukan',
+    tierCol: 'Tier',
+    barracksCol: 'Level Tempat Latihan',
+    mightCol: 'Might per Pasukan',
+    loadCol: 'Muatan',
+    speedCol: 'Kecepatan',
+    polygonLevelPrefix: 'Tempat Latihan Lv.'
+  },
+  ja: {
+    title: '⚔️ T1〜T10 兵士ティア表＆三竦み相性',
+    subtitle: '訓練場（ポリゴン）レベルごとの兵士解放条件、戦力倍率、属性相性。',
+    buildingClarificationTitle: '🏰 訓練場（ポリゴン）と兵舎の違い：',
+    trainingGroundRole: '訓練場（ポリゴン）：兵士を訓練し、施設Lvに応じてT1〜T10の上位兵士を解放します。',
+    barracksRole: '兵舎：兵士の集結拠点であり、全体の兵士収容上限を増やします。',
+    triangleTitle: '🔄 三竦みの属性相性（ダメージ+20%）：',
+    warriorBeat: '戦士（Warrior）は レンジャーに有利',
+    rangerBeat: 'レンジャー（Ranger）は ウォーロックに有利',
+    warlockBeat: 'ウォーロック（Warlock）は 戦士に有利',
+    bonusNote: '有利な属性に対して+20%の追加ダメージを与えます。',
+    tableTitle: '訓練場レベル進行表',
+    tierCol: 'ティア',
+    barracksCol: '必要訓練場Lv',
+    mightCol: '兵士1体あたりの戦力',
+    loadCol: '積載量',
+    speedCol: '行軍速度',
+    polygonLevelPrefix: '訓練場 Lv.'
+  },
+  ko: {
+    title: '⚔️ T1~T10 병종 해금표 및 상성 관계',
+    subtitle: '훈련장(폴리곤) 레벨별 병사 티어 해금 조건, 전투력 계수 및 상성 보너스.',
+    buildingClarificationTitle: '🏰 훈련장(폴리곤)과 병영의 차이점:',
+    trainingGroundRole: '훈련장(폴리곤): 병사를 훈련하고 레벨에 따라 T1~T10 상위 티어 병사를 해금합니다.',
+    barracksRole: '병영: 병사 집결지로서 전체 병사 수용 한도를 증가시킵니다.',
+    triangleTitle: '🔄 전투 상성 보너스 (피해량 +20%):',
+    warriorBeat: '전사(Warrior)는 궁수(Ranger)에 유리',
+    rangerBeat: '궁수(Ranger)는 마법사(Warlock)에 유리',
+    warlockBeat: '마법사(Warlock)는 전사(Warrior)에 유리',
+    bonusNote: '상성 우위 시 +20% 추가 피해를 줍니다.',
+    tableTitle: '훈련장 레벨별 병사 일람표',
+    tierCol: '티어',
+    barracksCol: '필요 훈련장 레벨',
+    mightCol: '병사당 전투력',
+    loadCol: '적재량',
+    speedCol: '이동 속도',
+    polygonLevelPrefix: '훈련장 Lv.'
+  },
+  pt: {
+    title: '⚔️ Progressão de Tropas T1–T10 e Triângulo de Vantagem',
+    subtitle: 'Níveis do Campo de Treinamento por nível de tropa e regras de combate.',
+    buildingClarificationTitle: '🏰 Campo de Treinamento vs. Quartel:',
+    trainingGroundRole: 'Campo de Treinamento (Polígono): treina soldados e desbloqueia T1–T10.',
+    barracksRole: 'Quartel: aumenta a capacidade total de soldados.',
+    triangleTitle: '🔄 Vantagem de Combate (+20% de Dano):',
+    warriorBeat: 'Guerreiros vencem Atiradores',
+    rangerBeat: 'Atiradores vencem Bruxos',
+    warlockBeat: 'Bruxos vencem Guerreiros',
+    bonusNote: 'A vantagem de classe concede +20% de dano adicional.',
+    tableTitle: 'Marcos do Campo de Treinamento',
+    tierCol: 'Tier',
+    barracksCol: 'Nível Campo Treinamento',
+    mightCol: 'Poder por Tropa',
+    loadCol: 'Carga',
+    speedCol: 'Velocidade',
+    polygonLevelPrefix: 'Treinamento Nv.'
+  }
+};
+
+const t = ui[lang] || ui.en;
+---
+
+<section class="not-prose my-10 rounded-2xl border border-stone-800 bg-stone-950/80 p-5 shadow-2xl backdrop-blur-sm sm:p-8">
+  <div class="border-b border-stone-800/80 pb-6">
+    <span class="inline-flex items-center gap-1.5 rounded-full border border-red-500/30 bg-red-950/60 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-red-400">
+      ⚔️ Official Troop System
+    </span>
+    <h2 class="mt-2 text-2xl font-black tracking-tight text-stone-100 sm:text-3xl">
+      {t.title}
+    </h2>
+    <p class="mt-2 max-w-3xl text-sm leading-relaxed text-stone-400">
+      {t.subtitle}
+    </p>
+
+    <!-- Clarification between Training Grounds (Полигон) and Barracks (Казарма) -->
+    <div class="mt-6 rounded-xl border border-stone-800 bg-stone-900/70 p-4 sm:p-5">
+      <h3 class="text-xs font-bold uppercase tracking-wider text-plague-300">
+        {t.buildingClarificationTitle}
+      </h3>
+      <div class="mt-3 grid gap-3 text-xs text-stone-300 sm:grid-cols-2">
+        <div class="rounded-lg border border-red-900/40 bg-red-950/20 p-3">
+          <p class="font-bold text-red-200">🎯 {t.trainingGroundRole.split(':')[0]}:</p>
+          <p class="mt-1 leading-relaxed text-stone-300">{t.trainingGroundRole.split(':')[1]}</p>
+        </div>
+        <div class="rounded-lg border border-stone-800 bg-stone-900/50 p-3">
+          <p class="font-bold text-stone-200">⛺ {t.barracksRole.split(':')[0]}:</p>
+          <p class="mt-1 leading-relaxed text-stone-300">{t.barracksRole.split(':')[1]}</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Combat Triangle Box -->
+    <div class="mt-6 rounded-xl border border-red-900/40 bg-red-950/20 p-4 sm:p-5">
+      <h3 class="text-xs font-bold uppercase tracking-wider text-red-300">
+        {t.triangleTitle}
+      </h3>
+      <div class="mt-3 grid gap-2.5 text-xs text-stone-300 sm:grid-cols-3">
+        <div class="rounded-lg border border-stone-800/80 bg-stone-900/60 p-3 text-center">
+          <span class="text-xl">🛡️ ➔ 🏹</span>
+          <p class="mt-1 font-bold text-stone-200">{t.warriorBeat}</p>
+        </div>
+        <div class="rounded-lg border border-stone-800/80 bg-stone-900/60 p-3 text-center">
+          <span class="text-xl">🏹 ➔ 🔮</span>
+          <p class="mt-1 font-bold text-stone-200">{t.rangerBeat}</p>
+        </div>
+        <div class="rounded-lg border border-stone-800/80 bg-stone-900/60 p-3 text-center">
+          <span class="text-xl">🔮 ➔ 🛡️</span>
+          <p class="mt-1 font-bold text-stone-200">{t.warlockBeat}</p>
+        </div>
+      </div>
+      <p class="mt-3 text-xs italic text-stone-400 text-center sm:text-left">
+        💡 {t.bonusNote}
+      </p>
+    </div>
+  </div>
+
+  <!-- Troops Table -->
+  <div class="mt-6 overflow-x-auto">
+    <table class="w-full text-left text-xs sm:text-sm">
+      <thead>
+        <tr class="border-b border-stone-800 text-stone-400 uppercase text-[11px] font-bold">
+          <th class="py-3 px-3">{t.tierCol}</th>
+          <th class="py-3 px-3">{t.barracksCol}</th>
+          <th class="py-3 px-3">{t.mightCol}</th>
+          <th class="py-3 px-3">{t.loadCol}</th>
+          <th class="py-3 px-3">{t.speedCol}</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-stone-800/60 text-stone-300">
+        {barracksProgression.map((b: any) => {
+          const isHigh = parseInt(b.tier.replace('T', ''), 10) >= 8;
+          return (
+            <tr class={`transition-colors hover:bg-stone-900/60 ${isHigh ? 'bg-red-950/15 font-semibold' : ''}`}>
+              <td class="py-3 px-3 font-black text-stone-100">
+                <span class={`inline-block rounded px-2 py-0.5 text-xs ${isHigh ? 'bg-red-900 text-red-200' : 'bg-stone-800 text-stone-300'}`}>
+                  {b.tier}
+                </span>
+              </td>
+              <td class="py-3 px-3 text-plague-300 font-bold">
+                {t.polygonLevelPrefix} {b.level}
+              </td>
+              <td class="py-3 px-3 text-amber-300 font-mono">
+                +{b.mightPerTroop}
+              </td>
+              <td class="py-3 px-3 font-mono text-stone-300">
+                {b.load}
+              </td>
+              <td class="py-3 px-3 font-mono text-stone-400">
+                {b.speed}
+              </td>
+            </tr>
+          );
+        })}
+      </tbody>
+    </table>
+  </div>
+</section>

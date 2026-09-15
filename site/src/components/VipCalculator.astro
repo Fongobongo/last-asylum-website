@@ -1,0 +1,242 @@
+---
+import type { Lang } from '../i18n/utils';
+import officialVipData from '../data/officialVip.json';
+
+interface Props {
+  lang?: Lang;
+}
+
+const { lang = 'en' } = Astro.props;
+
+const vipList = Object.values(officialVipData);
+
+const ui = {
+  ru: {
+    title: '👑 Таблица VIP-привилегий и ключевых порогов (VIP 1–19)',
+    subtitle: 'Точные награды и критические уровни автоматизации, извлеченные из клиента игры. Узнайте, до какого VIP уровня имеет смысл качаться F2P и донатерам.',
+    selectLevel: 'Выберите VIP уровень для просмотра:',
+    dailyPack: 'Ежедневный бесплатный набор:',
+    keyHighlight: 'Ключевая разблокировка:',
+    automationTitle: '⚡ Главные пороги автоматизации в игре:',
+    auto1: 'VIP 6: Быстрый бой в Битве экспедиции (экономит 10-15 минут ежедневно)',
+    auto2: 'VIP 8: Автоотправка для Секретных операций (главная цель любого F2P игрока)',
+    auto3: 'VIP 10: Суперрежим Секретных операций (удваивает награды за задания)',
+    auto4: '20 ур. Святилища: Постоянный «Быстрый сбор» ресурсов с клеток карты',
+    tableTitle: 'Сводная таблица уровней VIP',
+    levelCol: 'Уровень',
+    giftCol: 'Бесплатный ежедневный пак',
+    featureCol: 'Особенность / Порог'
+  },
+  en: {
+    title: '👑 VIP Privileges & Key Milestone Table (VIP 1–19)',
+    subtitle: 'Exact rewards and crucial automation thresholds extracted from the game client. Discover the optimal VIP targets for both F2P and spenders.',
+    selectLevel: 'Select VIP level to inspect:',
+    dailyPack: 'Daily Free Pack:',
+    keyHighlight: 'Key Feature Unlock:',
+    automationTitle: '⚡ Essential Automation Thresholds:',
+    auto1: 'VIP 6: Quick Expedition battle challenge (saves 10-15 minutes daily)',
+    auto2: 'VIP 8: Auto-dispatch for Covert Operations (the ultimate F2P milestone)',
+    auto3: 'VIP 10: Super Mode for Covert Operations (doubles quest rewards)',
+    auto4: 'Sanctuary Lv. 20: Permanent Quick Gathering on world map tiles',
+    tableTitle: 'VIP Progression Summary Table',
+    levelCol: 'Level',
+    giftCol: 'Daily Free Pack',
+    featureCol: 'Milestone / Feature'
+  },
+  de: {
+    title: '👑 VIP-Privilegien & Meilensteine (VIP 1–19)',
+    subtitle: 'Exakte Belohnungen und Automatisierungs-Stufen aus den Spieldateien.',
+    selectLevel: 'VIP-Stufe auswählen:',
+    dailyPack: 'Tägliches Gratispaket:',
+    keyHighlight: 'Wichtige Freischaltung:',
+    automationTitle: '⚡ Wichtige Automatisierungsstufen:',
+    auto1: 'VIP 6: Schneller Expeditionskampf',
+    auto2: 'VIP 8: Auto-Entsendung für Geheimoperationen',
+    auto3: 'VIP 10: Super-Modus für Geheimoperationen',
+    auto4: 'Zuflucht Stufe 20: Permanentes Schnell-Sammeln',
+    tableTitle: 'VIP-Übersichtstabelle',
+    levelCol: 'Stufe',
+    giftCol: 'Tägliches Paket',
+    featureCol: 'Besonderheit'
+  },
+  es: {
+    title: '👑 Privilegios VIP e Hitos Clave (VIP 1–19)',
+    subtitle: 'Recompensas exactas y umbrales de automatización extraídos del juego.',
+    selectLevel: 'Selecciona el nivel VIP:',
+    dailyPack: 'Paquete diario gratis:',
+    keyHighlight: 'Desbloqueo clave:',
+    automationTitle: '⚡ Umbrales de automatización esenciales:',
+    auto1: 'VIP 6: Batalla rápida en Expedición',
+    auto2: 'VIP 8: Envío automático de Operaciones secretas',
+    auto3: 'VIP 10: Modo súper de Operaciones secretas',
+    auto4: 'Refugio Nivel 20: Recolección rápida permanente',
+    tableTitle: 'Tabla de progreso VIP',
+    levelCol: 'Nivel',
+    giftCol: 'Paquete diario',
+    featureCol: 'Hito clave'
+  },
+  fr: {
+    title: '👑 Privilèges VIP & Jalons essentiels (VIP 1–19)',
+    subtitle: 'Récompenses et seuils d\'automatisation extraits du client de jeu.',
+    selectLevel: 'Sélectionnez le niveau VIP :',
+    dailyPack: 'Pack gratuit quotidien :',
+    keyHighlight: 'Déblocage clé :',
+    automationTitle: '⚡ Seuils d\'automatisation cruciaux :',
+    auto1: 'VIP 6 : Combat rapide en Expédition',
+    auto2: 'VIP 8 : Envoi automatique des Opérations secrètes',
+    auto3: 'VIP 10 : Super mode des Opérations secrètes',
+    auto4: 'Sanctuaire Niv. 20 : Récolte rapide permanente',
+    tableTitle: 'Tableau de progression VIP',
+    levelCol: 'Niveau',
+    giftCol: 'Pack quotidien',
+    featureCol: 'Jalon'
+  },
+  id: {
+    title: '👑 Hak Istimewa VIP & Tonggak Kunci (VIP 1–19)',
+    subtitle: 'Hadiah akurat dan batas otomatisasi penting dari game.',
+    selectLevel: 'Pilih level VIP:',
+    dailyPack: 'Paket gratis harian:',
+    keyHighlight: 'Fitur penting:',
+    automationTitle: '⚡ Tonggak Otomatisasi Utama:',
+    auto1: 'VIP 6: Pertempuran ekspedisi cepat',
+    auto2: 'VIP 8: Kirim otomatis Operasi Rahasia',
+    auto3: 'VIP 10: Mode super Operasi Rahasia',
+    auto4: 'Sanctuary Lv. 20: Pengumpulan cepat permanen',
+    tableTitle: 'Tabel Ringkasan VIP',
+    levelCol: 'Level',
+    giftCol: 'Paket Harian',
+    featureCol: 'Fitur Utama'
+  },
+  ja: {
+    title: '👑 VIP特権＆重要節目一覧表（VIP 1〜19）',
+    subtitle: 'ゲームクライアントから抽出された正確な報酬と自動化の節目。',
+    selectLevel: 'VIPレベルを選択：',
+    dailyPack: '毎日無料パック：',
+    keyHighlight: '解放される重要機能：',
+    automationTitle: '⚡ 主要な自動化マイルストーン：',
+    auto1: 'VIP 6：遠征バトルの即時スキップ',
+    auto2: 'VIP 8：秘密作戦の自動派遣（無課金の最優先目標）',
+    auto3: 'VIP 10：秘密作戦のスーパーモード',
+    auto4: '拠点Lv.20：マップ資源の常時クイック採集',
+    tableTitle: 'VIP進行一覧表',
+    levelCol: 'VIPレベル',
+    giftCol: '毎日無料ギフト',
+    featureCol: '解放特権'
+  },
+  ko: {
+    title: '👑 VIP 특권 및 주요 목표 구간 (VIP 1~19)',
+    subtitle: '게임 클라이언트에서 추출된 일일 보상 및 필수 자동화 기능.',
+    selectLevel: 'VIP 레벨 선택:',
+    dailyPack: '일일 무료 팩:',
+    keyHighlight: '핵심 해금 기능:',
+    automationTitle: '⚡ 핵심 자동화 마일스톤:',
+    auto1: 'VIP 6: 원정 전투 빠른 도전',
+    auto2: 'VIP 8: 비밀 작전 자동 파견 (무소과금 1순위 목표)',
+    auto3: 'VIP 10: 비밀 작전 슈퍼 모드',
+    auto4: '안식처 20레벨: 맵 자원 영구 빠른 채집',
+    tableTitle: 'VIP 진행 현황표',
+    levelCol: 'VIP 등급',
+    giftCol: '일일 무료 보상',
+    featureCol: '핵심 특권'
+  },
+  pt: {
+    title: '👑 Privilégios VIP e Marcos Decisivos (VIP 1–19)',
+    subtitle: 'Recompensas diárias e limites de automação extraídos do jogo.',
+    selectLevel: 'Selecione o nível VIP:',
+    dailyPack: 'Pacote diário gratuito:',
+    keyHighlight: 'Desbloqueio decisivo:',
+    automationTitle: '⚡ Limites de automação cruciais:',
+    auto1: 'VIP 6: Desafio rápido na Expedição',
+    auto2: 'VIP 8: Despacho automático em Operações Secretas',
+    auto3: 'VIP 10: Super modo de Operações Secretas',
+    auto4: 'Refúgio Nível 20: Coleta rápida permanente',
+    tableTitle: 'Tabela de progressão VIP',
+    levelCol: 'Nível',
+    giftCol: 'Pacote Diário',
+    featureCol: 'Destaque'
+  }
+};
+
+const t = ui[lang] || ui.en;
+---
+
+<section class="not-prose my-10 rounded-2xl border border-stone-800 bg-stone-950/80 p-5 shadow-2xl backdrop-blur-sm sm:p-8">
+  <div class="border-b border-stone-800/80 pb-6">
+    <span class="inline-flex items-center gap-1.5 rounded-full border border-amber-500/30 bg-amber-950/60 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-amber-400">
+      👑 Official VIP System
+    </span>
+    <h2 class="mt-2 text-2xl font-black tracking-tight text-stone-100 sm:text-3xl">
+      {t.title}
+    </h2>
+    <p class="mt-2 max-w-3xl text-sm leading-relaxed text-stone-400">
+      {t.subtitle}
+    </p>
+
+    <!-- Essential Automation Callouts -->
+    <div class="mt-6 rounded-xl border border-amber-900/40 bg-amber-950/20 p-4 sm:p-5">
+      <h3 class="text-xs font-bold uppercase tracking-wider text-amber-300">
+        {t.automationTitle}
+      </h3>
+      <div class="mt-3 grid gap-2.5 text-xs text-stone-300 sm:grid-cols-2">
+        <div class="flex items-start gap-2 rounded-lg border border-stone-800/80 bg-stone-900/60 p-2.5">
+          <span class="text-base">🚀</span>
+          <span><strong>VIP 6:</strong> {t.auto1}</span>
+        </div>
+        <div class="flex items-start gap-2 rounded-lg border border-amber-500/30 bg-amber-950/40 p-2.5 text-amber-200">
+          <span class="text-base">🎯</span>
+          <span><strong>VIP 8:</strong> {t.auto2}</span>
+        </div>
+        <div class="flex items-start gap-2 rounded-lg border border-stone-800/80 bg-stone-900/60 p-2.5">
+          <span class="text-base">⚡</span>
+          <span><strong>VIP 10:</strong> {t.auto3}</span>
+        </div>
+        <div class="flex items-start gap-2 rounded-lg border border-stone-800/80 bg-stone-900/60 p-2.5">
+          <span class="text-base">🏰</span>
+          <span><strong>HQ 20:</strong> {t.auto4}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Table of VIP Levels -->
+  <div class="mt-6 overflow-x-auto">
+    <table class="w-full text-left text-xs sm:text-sm">
+      <thead>
+        <tr class="border-b border-stone-800 text-stone-400 uppercase text-[11px] font-bold">
+          <th class="py-3 px-3">{t.levelCol}</th>
+          <th class="py-3 px-3">{t.giftCol}</th>
+          <th class="py-3 px-3">{t.featureCol}</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-stone-800/60 text-stone-300">
+        {vipList.map((v: any) => {
+          const giftName = v.dailyGift?.[lang] || v.dailyGift?.en;
+          const isHighlight = !!v.highlight;
+
+          return (
+            <tr class={`transition-colors hover:bg-stone-900/60 ${isHighlight ? 'bg-amber-950/15' : ''}`}>
+              <td class="py-3 px-3 font-bold text-stone-100 whitespace-nowrap">
+                <span class="inline-flex items-center gap-1 rounded bg-stone-800 border border-stone-700 px-2 py-0.5 text-amber-400 text-xs">
+                  👑 VIP {v.level}
+                </span>
+              </td>
+              <td class="py-3 px-3 font-medium text-stone-200">
+                {giftName}
+              </td>
+              <td class="py-3 px-3">
+                {v.highlight ? (
+                  <span class="inline-flex items-center gap-1.5 rounded-full border border-amber-500/40 bg-amber-950/60 px-2.5 py-0.5 text-xs font-bold text-amber-300">
+                    <span>⚡</span>
+                    <span>{v.highlight.badge}</span>
+                  </span>
+                ) : (
+                  <span class="text-xs text-stone-500">—</span>
+                )}
+              </td>
+            </tr>
+          );
+        })}
+      </tbody>
+    </table>
+  </div>
+</section>

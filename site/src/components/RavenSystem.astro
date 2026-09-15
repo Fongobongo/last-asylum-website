@@ -1,0 +1,183 @@
+---
+import type { Lang } from '../i18n/utils';
+import officialRavenData from '../data/officialRaven.json';
+
+interface Props {
+  lang?: Lang;
+}
+
+const { lang = 'en' } = Astro.props;
+
+const { components, sets, skills } = officialRavenData;
+
+const ui = {
+  ru: {
+    title: '🦅 Система Ворона (БПЛА / UAV): Компоненты, Сеты и Навыки',
+    subtitle: 'Полная раскладка слотов компонентов, легендарных сетов и процентных бонусов навыков, извлеченных из клиента игры.',
+    componentsTitle: '6 слотов компонентов Ворона:',
+    setsTitle: 'Легендарные комплекты (Сеты) Ворона:',
+    skillsTitle: 'Уровни боевого навыка Ворона:',
+    levelPrefix: 'Уровень навыка'
+  },
+  en: {
+    title: '🦅 Raven (UAV) System: Components, Sets & Skill Scaling',
+    subtitle: 'Comprehensive breakdown of component slots, legendary sets, and percentage skill multipliers extracted from game client files.',
+    componentsTitle: '6 Raven Component Slots:',
+    setsTitle: 'Legendary Raven Sets:',
+    skillsTitle: 'Raven Combat Skill Scaling:',
+    levelPrefix: 'Skill Level'
+  },
+  de: {
+    title: '🦅 Raben-System (UAV): Komponenten, Sets & Fähigkeiten',
+    subtitle: 'Komplette Übersicht über Slots, Sets und Fähigkeiten aus den Spieldateien.',
+    componentsTitle: '6 Raben-Komponenten-Slots:',
+    setsTitle: 'Legendäre Raben-Sets:',
+    skillsTitle: 'Raben-Kampffähigkeiten:',
+    levelPrefix: 'Stufe'
+  },
+  es: {
+    title: '🦅 Sistema del Cuervo (UAV): Componentes, Conjuntos y Habilidades',
+    subtitle: 'Desglose completo de ranuras, conjuntos y habilidades extraídos del juego.',
+    componentsTitle: '6 Ranuras de componentes del Cuervo:',
+    setsTitle: 'Conjuntos legendarios del Cuervo:',
+    skillsTitle: 'Escalado de habilidades del Cuervo:',
+    levelPrefix: 'Nivel'
+  },
+  fr: {
+    title: '🦅 Système du Corbeau (UAV) : Composants, Sets et Compétences',
+    subtitle: 'Aperçu complet des emplacements, ensembles et multiplicateurs de compétences.',
+    componentsTitle: '6 Emplacements de composants :',
+    setsTitle: 'Ensembles légendaires du Corbeau :',
+    skillsTitle: 'Progression des compétences du Corbeau :',
+    levelPrefix: 'Niveau'
+  },
+  id: {
+    title: '🦅 Sistem Gagak (UAV): Komponen, Set & Keterampilan',
+    subtitle: 'Panduan lengkap slot komponen, set legendaris, dan persentase keterampilan dari game.',
+    componentsTitle: '6 Slot Komponen Gagak:',
+    setsTitle: 'Set Legendaris Gagak:',
+    skillsTitle: 'Peningkatan Keterampilan Gagak:',
+    levelPrefix: 'Level'
+  },
+  ja: {
+    title: '🦅 レイヴン（UAV/ドローン）システム：部品・セット・スキル',
+    subtitle: 'ゲームクライアントから抽出された部品スロット、レジェンダリーセット、スキル倍率。',
+    componentsTitle: 'レイヴン全6スロット部品：',
+    setsTitle: 'レジェンダリーセット効果：',
+    skillsTitle: 'レイヴン戦闘スキル成長倍率：',
+    levelPrefix: 'スキルLv'
+  },
+  ko: {
+    title: '🦅 레이븐(UAV) 시스템: 부품, 세트 효과 및 스킬 계수',
+    subtitle: '게임 클라이언트에서 추출된 부품 슬롯, 전설 세트 효과 및 전투 스킬 계수.',
+    componentsTitle: '레이븐 6개 부품 슬롯:',
+    setsTitle: '레이븐 전설 세트 효과:',
+    skillsTitle: '레이븐 전투 스킬 레벨별 효과:',
+    levelPrefix: '스킬 레벨'
+  },
+  pt: {
+    title: '🦅 Sistema do Corvo (UAV): Componentes, Conjuntos e Habilidades',
+    subtitle: 'Detalhamento completo de slots de componentes, conjuntos lendários e habilidades do jogo.',
+    componentsTitle: '6 Slots de Componentes do Corvo:',
+    setsTitle: 'Conjuntos Lendários do Corvo:',
+    skillsTitle: 'Escalonamento de Habilidades do Corvo:',
+    levelPrefix: 'Nível'
+  }
+};
+
+const t = ui[lang] || ui.en;
+---
+
+<section class="not-prose my-10 rounded-2xl border border-stone-800 bg-stone-950/80 p-5 shadow-2xl backdrop-blur-sm sm:p-8">
+  <div class="border-b border-stone-800/80 pb-6">
+    <span class="inline-flex items-center gap-1.5 rounded-full border border-sky-500/30 bg-sky-950/60 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-sky-400">
+      🦅 Official Raven System
+    </span>
+    <h2 class="mt-2 text-2xl font-black tracking-tight text-stone-100 sm:text-3xl">
+      {t.title}
+    </h2>
+    <p class="mt-2 max-w-3xl text-sm leading-relaxed text-stone-400">
+      {t.subtitle}
+    </p>
+  </div>
+
+  <!-- 6 Component Slots -->
+  <div class="mt-6">
+    <h3 class="text-xs font-bold uppercase tracking-wider text-stone-400">
+      {t.componentsTitle}
+    </h3>
+    <div class="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      {components.map((c: any) => {
+        const cName = lang === 'ru' ? c.ru : c.en;
+        return (
+          <div class="flex items-center gap-3 rounded-xl border border-stone-800 bg-stone-900/60 p-3 transition-colors hover:border-stone-700">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border border-stone-700 bg-stone-800 text-xl">
+              {c.icon}
+            </span>
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="text-xs font-bold text-stone-200">
+                  {cName}
+                </span>
+                <span class="text-[10px] text-stone-500">#{c.slot}</span>
+              </div>
+              <p class="text-xs text-plague-300 font-medium">
+                {c.stat}
+              </p>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  </div>
+
+  <!-- Legendary Sets -->
+  <div class="mt-8 border-t border-stone-800/80 pt-6">
+    <h3 class="text-xs font-bold uppercase tracking-wider text-amber-400">
+      {t.setsTitle}
+    </h3>
+    <div class="mt-3 grid gap-4 sm:grid-cols-2">
+      {sets.map((s: any) => {
+        const sName = s.name?.[lang] || s.name?.en;
+        const sBonus = s.bonus?.[lang] || s.bonus?.en;
+        return (
+          <div class="rounded-xl border border-amber-900/40 bg-amber-950/20 p-4">
+            <div class="flex items-center justify-between">
+              <h4 class="font-bold text-amber-200 text-sm sm:text-base">
+                ✨ {sName}
+              </h4>
+              <span class="rounded bg-amber-900/60 px-2 py-0.5 text-[11px] font-semibold text-amber-300">
+                {s.type}
+              </span>
+            </div>
+            <p class="mt-2 text-xs leading-relaxed text-stone-300 sm:text-sm">
+              {sBonus}
+            </p>
+          </div>
+        );
+      })}
+    </div>
+  </div>
+
+  <!-- Combat Skills Scaling -->
+  <div class="mt-8 border-t border-stone-800/80 pt-6">
+    <h3 class="text-xs font-bold uppercase tracking-wider text-stone-400">
+      {t.skillsTitle}
+    </h3>
+    <div class="mt-3 space-y-2">
+      {skills.map((sk: any) => {
+        const sDesc = sk.desc?.[lang] || sk.desc?.en;
+        return (
+          <div class="flex items-start gap-3 rounded-lg border border-stone-800/80 bg-stone-900/40 p-3 text-xs sm:text-sm">
+            <span class="shrink-0 rounded bg-stone-800 px-2 py-0.5 font-mono text-xs font-bold text-plague-300">
+              {t.levelPrefix} {sk.level}
+            </span>
+            <span class="text-stone-300">
+              {sDesc}
+            </span>
+          </div>
+        );
+      })}
+    </div>
+  </div>
+</section>

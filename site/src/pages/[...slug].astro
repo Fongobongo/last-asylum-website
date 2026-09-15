@@ -18,6 +18,11 @@ import QuizSearch from '../components/QuizSearch.astro';
 import FaqSection from '../components/FaqSection.astro';
 import GuildHub from '../components/GuildHub.astro';
 import MonumentTimeline from '../components/MonumentTimeline.astro';
+import VipCalculator from '../components/VipCalculator.astro';
+import TroopProgression from '../components/TroopProgression.astro';
+import RavenSystem from '../components/RavenSystem.astro';
+import AllianceTechTree from '../components/AllianceTechTree.astro';
+import OfficialTipsWidget from '../components/OfficialTipsWidget.astro';
 import type { Lang } from '../i18n/utils';
 
 export async function getStaticPaths() {
@@ -95,6 +100,12 @@ const showDiscord = slug !== 'support' && slug !== 'credits';
     {slug === 'heroes' && <SquadBuilder lang={lang} />}
 
     {slug === 'events/quiz-of-wisdom' && <QuizSearch lang={lang} />}
+
+    {slug === 'alliance' && <AllianceTechTree lang={lang} />}
+    {(slug === 'economy' || slug === 'beginners') && <VipCalculator lang={lang} />}
+    {slug === 'might' && <TroopProgression lang={lang} />}
+    {slug === 'raven' && <RavenSystem lang={lang} />}
+    {slug === 'tips' && <OfficialTipsWidget lang={lang} />}
 
     {slug === 'tips' && <FaqSection lang={lang} />}
 

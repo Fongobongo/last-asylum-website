@@ -1,0 +1,161 @@
+---
+import type { Lang } from '../i18n/utils';
+import officialAllianceTechData from '../data/officialAllianceTech.json';
+
+interface Props {
+  lang?: Lang;
+}
+
+const { lang = 'en' } = Astro.props;
+
+const techs = Object.values(officialAllianceTechData);
+
+const ui = {
+  ru: {
+    title: '🛡️ Официальное дерево технологий Альянса (30 технологий)',
+    subtitle: 'Все технологии альянса с их точными игровыми описаниями и эффектами, извлеченными из клиента игры.',
+    coreTitle: '🔥 Ключевой приоритет исследований для любого Альянса:',
+    coreDesc: 'Технология «Автоштурм» (Auto-Rally) позволяет союзникам офлайн автоматически присоединяться к штурмам боссов. Любой успешный альянс качает ее на 100% в первую очередь!',
+    allTab: 'Все (30)',
+    devTab: 'Развитие',
+    milTab: 'Военное дело',
+    defTab: 'Оборона и Защита'
+  },
+  en: {
+    title: '🛡️ Official Alliance Technology Tree (30 Technologies)',
+    subtitle: 'All alliance research technologies with exact in-game descriptions and effects extracted from client files.',
+    coreTitle: '🔥 Absolute #1 Alliance Tech Priority:',
+    coreDesc: 'The "Auto Rally" technology allows offline alliance members to automatically participate in rally bosses. Every top alliance rushes this technology first!',
+    allTab: 'All (30)',
+    devTab: 'Development',
+    milTab: 'Military',
+    defTab: 'Defense'
+  },
+  de: {
+    title: '🛡️ Offizieller Allianz-Technologiebaum (30 Technologien)',
+    subtitle: 'Alle Allianz-Forschungen mit genauen Beschreibungen aus den Spieldateien.',
+    coreTitle: '🔥 Höchste Forschungspriorität:',
+    coreDesc: 'Die "Automatischer Sammelangriff"-Technologie erlaubt Offline-Mitgliedern automatische Teilnahme an Rallies.',
+    allTab: 'Alle (30)',
+    devTab: 'Entwicklung',
+    milTab: 'Militär',
+    defTab: 'Verteidigung'
+  },
+  es: {
+    title: '🛡️ Árbol oficial de tecnologías de la Alianza (30 tecnologías)',
+    subtitle: 'Todas las investigaciones de la alianza extraídas del juego.',
+    coreTitle: '🔥 Prioridad absoluta de investigación:',
+    coreDesc: 'La tecnología "Autoataque" permite a miembros desconectados unirse a ataques conjuntos automáticamente.',
+    allTab: 'Todas (30)',
+    devTab: 'Desarrollo',
+    milTab: 'Militar',
+    defTab: 'Defensa'
+  },
+  fr: {
+    title: '🛡️ Arbre officiel des technologies d\'Alliance (30 technologies)',
+    subtitle: 'Toutes les recherches d\'alliance extraites du client de jeu.',
+    coreTitle: '🔥 Priorité absolue de recherche :',
+    coreDesc: 'La technologie "Ralliement automatique" permet aux membres hors ligne de rejoindre les ralliements automatiquement.',
+    allTab: 'Toutes (30)',
+    devTab: 'Développement',
+    milTab: 'Militaire',
+    defTab: 'Défense'
+  },
+  id: {
+    title: '🛡️ Pohon Teknologi Aliansi Resmi (30 Teknologi)',
+    subtitle: 'Semua riset teknologi aliansi dengan deskripsi akurat dari game.',
+    coreTitle: '🔥 Prioritas Utama Riset Aliansi:',
+    coreDesc: 'Teknologi "Auto Rally" memungkinkan anggota offline otomatis bergabung ke serangan massal bos.',
+    allTab: 'Semua (30)',
+    devTab: 'Pembangunan',
+    milTab: 'Militer',
+    defTab: 'Pertahanan'
+  },
+  ja: {
+    title: '🛡️ 公式同盟技術ツリー（全30項目）',
+    subtitle: 'ゲームファイルから抽出された正確な同盟研究効果一覧。',
+    coreTitle: '🔥 最優先で研究すべき最重要技術：',
+    coreDesc: '「自動集結（Auto Rally）」は、オフラインの同盟員が自動でボス集結に参加できるようになる必須技術です。',
+    allTab: 'すべて（30）',
+    devTab: '発展・内政',
+    milTab: '軍事・集結',
+    defTab: '防衛・保護'
+  },
+  ko: {
+    title: '🛡️ 공식 연맹 기술 연구 트리 (30개 기술)',
+    subtitle: '게임 클라이언트에서 추출된 연맹 연구 항목 및 효과 설명.',
+    coreTitle: '🔥 연맹 연구 1순위 핵심 기술:',
+    coreDesc: '「자동 집결(Auto Rally)」은 오프라인 연맹원이 자동으로 보스 집결에 참여할 수 있게 해주는 필수 기술입니다.',
+    allTab: '전체 (30)',
+    devTab: '발전 및 경제',
+    milTab: '군사 및 집결',
+    defTab: '방어 및 보호'
+  },
+  pt: {
+    title: '🛡️ Árvore Oficial de Tecnologias da Aliança (30 Tecnologias)',
+    subtitle: 'Todas as pesquisas de aliança com descrições exatas do jogo.',
+    coreTitle: '🔥 Prioridade Máxima de Pesquisa:',
+    coreDesc: 'A tecnologia "Autoataque Conjunto" permite que membros offline participem de ataques conjuntos automaticamente.',
+    allTab: 'Todas (30)',
+    devTab: 'Desenvolvimento',
+    milTab: 'Militar',
+    defTab: 'Defesa'
+  }
+};
+
+const t = ui[lang] || ui.en;
+---
+
+<section class="not-prose my-10 rounded-2xl border border-stone-800 bg-stone-950/80 p-5 shadow-2xl backdrop-blur-sm sm:p-8">
+  <div class="border-b border-stone-800/80 pb-6">
+    <span class="inline-flex items-center gap-1.5 rounded-full border border-emerald-500/30 bg-emerald-950/60 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-emerald-400">
+      🛡️ Alliance Technology
+    </span>
+    <h2 class="mt-2 text-2xl font-black tracking-tight text-stone-100 sm:text-3xl">
+      {t.title}
+    </h2>
+    <p class="mt-2 max-w-3xl text-sm leading-relaxed text-stone-400">
+      {t.subtitle}
+    </p>
+
+    <!-- Auto Rally Spotlight -->
+    <div class="mt-6 rounded-xl border border-emerald-500/40 bg-emerald-950/30 p-4 sm:p-5">
+      <div class="flex items-start gap-3">
+        <span class="text-2xl">🚨</span>
+        <div>
+          <h3 class="text-sm font-bold text-emerald-300 sm:text-base">
+            {t.coreTitle}
+          </h3>
+          <p class="mt-1 text-xs leading-relaxed text-stone-300 sm:text-sm">
+            {t.coreDesc}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tech Grid -->
+  <div class="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+    {techs.map((tech: any) => {
+      const techName = tech.name?.[lang] || tech.name?.en;
+      const techDesc = tech.desc?.[lang] || tech.desc?.en;
+      const isCore = tech.isCore;
+
+      return (
+        <div class={`rounded-xl border p-4 transition-all hover:border-stone-700 ${isCore ? 'border-emerald-500/50 bg-emerald-950/20' : 'border-stone-800/90 bg-stone-900/60'}`}>
+          <div class="flex items-center justify-between">
+            <h4 class="font-bold text-stone-100 text-sm">
+              {isCore ? '🔥 ' : '⚡ '}{techName}
+            </h4>
+            <span class="rounded bg-stone-800 px-2 py-0.5 text-[10px] font-mono text-stone-400">
+              ID #{tech.id}
+            </span>
+          </div>
+          <p class="mt-2 text-xs leading-relaxed text-stone-300">
+            {techDesc}
+          </p>
+        </div>
+      );
+    })}
+  </div>
+</section>

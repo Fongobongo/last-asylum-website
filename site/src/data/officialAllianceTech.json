@@ -1,0 +1,812 @@
+{
+  "1001": {
+    "id": 1001,
+    "category": "military",
+    "isCore": true,
+    "name": {
+      "ru": "Автоштурм",
+      "en": "Auto Rally",
+      "de": "Auto-Versammlung",
+      "es": "Reunión automática",
+      "fr": "Ralliement automatique",
+      "id": "Reli otomatis",
+      "ja": "自動ラリー",
+      "ko": "자동 집결",
+      "pt": "Mobilizar Automático"
+    },
+    "desc": {
+      "ru": "Союзники не в сети автоматически добавят войска к штурму.",
+      "en": "Offline alliance members will automatically dispatch troops to join the rally.",
+      "de": "Offline-Allianzmitglieder entsenden automatisch Truppen, um sich der Versammlung anzuschließen.",
+      "es": "Los miembros de la alianza desconectados enviarán tropas automáticamente para unirse a la reunión.",
+      "fr": "Les membres d\\'alliance hors ligne déploieront automatiquement des troupes pour le ralliement.",
+      "id": "Anggota Guild yang offline akan otomatis mengirim Pasukan untuk Reli",
+      "ja": "オフラインのギルドメンバーが自動で部隊をラリーに派遣",
+      "ko": "오프라인 길드원들이 자동으로 부대를 집결에 파견합니다",
+      "pt": "Membros da aliança offline enviam tropas automaticamente para participar da mobilização."
+    }
+  },
+  "1002": {
+    "id": 1002,
+    "category": "development",
+    "isCore": false,
+    "name": {
+      "ru": "Быстрое строительство",
+      "en": "Fast Build",
+      "de": "Schnellbau",
+      "es": "Construcción rápida",
+      "fr": "Construction rapide",
+      "id": "Bangun cepat",
+      "ja": "クイック建設",
+      "ko": "신속 건설",
+      "pt": "Construção Rápida"
+    },
+    "desc": {
+      "ru": "Увеличивает скорость строительства для членов альянса.",
+      "en": "Increases Construction Speed for alliance members.",
+      "de": "Erhöht die Baugeschwindigkeit für Allianzmitglieder.",
+      "es": "Aumenta la vel. de construcción para los miembros de la alianza.",
+      "fr": "Augmente la Vitesse de construction des membres de l\\'alliance.",
+      "id": "Kecepatan membangun bangunan anggota Guild meningkat",
+      "ja": "ギルドメンバーの建物建設速度アップ",
+      "ko": "길드원의 건물 건설 속도 향상",
+      "pt": "Aumenta a Velocidade de Construção para membros da aliança."
+    }
+  },
+  "1003": {
+    "id": 1003,
+    "category": "development",
+    "isCore": false,
+    "name": {
+      "ru": "Усиление помощи",
+      "en": "Enhance Help",
+      "de": "Verbesserungshilfe",
+      "es": "Ayuda de mejora",
+      "fr": "Renforcer l\\'aide",
+      "id": "Bantu perkuat",
+      "ja": "強化ヘルプ",
+      "ko": "강화 지원",
+      "pt": "Ajuda de Aprimoramento"
+    },
+    "desc": {
+      "ru": "Усиливает эффект помощи альянса, дополнительно сокращая время с каждой попыткой помощи.",
+      "en": "Enhances Alliance Help effect, reducing time additionally with each help.",
+      "de": "Verstärkt den Allianz-Hilfe-Effekt und reduziert zusätzlich die Zeit mit jeder Hilfe.",
+      "es": "Mejora el efecto de ayuda de la alianza, reduciendo aún más el tiempo con cada ayuda.",
+      "fr": "Renforce l\\'effet d\\'Aide Alliance, réduisant le temps supplémentaire à chaque aide.",
+      "id": "Efek Bantuan Guild meningkat, setiap bantuan mengurangi waktu lebih banyak",
+      "ja": "ギルドヘルプの効果上昇、1回のヘルプごとに時間が追加短縮",
+      "ko": "길드 도움의 효과가 증가하여 매번 도움을 줄 때마다 추가로 시간이 단축됩니다",
+      "pt": "Aumenta o efeito da Ajuda da Aliança, reduzindo ainda mais o tempo a cada ajuda."
+    }
+  },
+  "1004": {
+    "id": 1004,
+    "category": "development",
+    "isCore": false,
+    "name": {
+      "ru": "Ускорение сбора",
+      "en": "Gathering Speedup",
+      "de": "Sammel-Beschleunigung",
+      "es": "Aceleración de recolección",
+      "fr": "Accélération de collecte",
+      "id": "Percepatan Pengumpulan",
+      "ja": "採集ブースト",
+      "ko": "수집 가속",
+      "pt": "Acelerar Coleta"
+    },
+    "desc": {
+      "ru": "Увеличивает скорость сбора ресурсов для членов альянса.",
+      "en": "Increases Resource Gathering Speed for alliance members.",
+      "de": "Erhöht die Sammelgeschwindigkeit von Ressourcen für Allianzmitglieder.",
+      "es": "Aumenta la vel. de recolección de recursos para los miembros de la alianza.",
+      "fr": "Augmente la Vitesse de collecte de Ressources des membres de l\\'alliance.",
+      "id": "Kecepatan mengumpulkan Sumber Daya anggota Guild meningkat",
+      "ja": "ギルドメンバーの資源採集速度アップ",
+      "ko": "길드원의 자원 수집 속도 향상",
+      "pt": "Aumenta a Velocidade de Coleta de Recursos para membros da aliança."
+    }
+  },
+  "1005": {
+    "id": 1005,
+    "category": "development",
+    "isCore": false,
+    "name": {
+      "ru": "Продукция зерна",
+      "en": "Grain Output",
+      "de": "Getreideertrag",
+      "es": "Producción de grano",
+      "fr": "Production de céréales",
+      "id": "Produksi Makanan",
+      "ja": "食料生産量",
+      "ko": "식량 생산량",
+      "pt": "Produção de Comida"
+    },
+    "desc": {
+      "ru": "Увеличивает продукцию зерна в городах членов альянса.",
+      "en": "Increases Grain Output for alliance members\\' cities.",
+      "de": "Erhöht den Getreideertrag für die Städte der Allianzmitglieder.",
+      "es": "Aumenta la producción de grano en las ciudades de los miembros de la alianza.",
+      "fr": "Augmente la Production de céréales des villes des membres de l\\'alliance.",
+      "id": "Produksi Makanan dalam kota anggota Guild meningkat",
+      "ja": "ギルドメンバーの都市内の食料生産量アップ",
+      "ko": "길드원의 도시 내 식량 생산량 증가",
+      "pt": "Aumenta a Produção de Comida nas cidades dos membros da aliança."
+    }
+  },
+  "1006": {
+    "id": 1006,
+    "category": "development",
+    "isCore": false,
+    "name": {
+      "ru": "Продукция древесины",
+      "en": "Timber Output",
+      "de": "Holzertrag",
+      "es": "Producción de madera",
+      "fr": "Production de bois",
+      "id": "Produksi Kayu",
+      "ja": "木材生産量",
+      "ko": "목재 생산량",
+      "pt": "Produção de Madeira"
+    },
+    "desc": {
+      "ru": "Увеличивает продукцию древесины в городах членов альянса.",
+      "en": "Increases Timber Output for alliance members\\' cities.",
+      "de": "Erhöht den Holzertrag für die Städte der Allianzmitglieder.",
+      "es": "Aumenta la producción de madera en las ciudades de los miembros de la alianza.",
+      "fr": "Augmente la Production de bois des villes des membres de l\\'alliance.",
+      "id": "Produksi Kayu dalam kota anggota Guild meningkat",
+      "ja": "ギルドメンバーの都市内の木材生産量アップ",
+      "ko": "길드원의 도시 내 목재 생산량 증가",
+      "pt": "Aumenta a Produção de Madeira nas cidades dos membros da aliança."
+    }
+  },
+  "1007": {
+    "id": 1007,
+    "category": "development",
+    "isCore": false,
+    "name": {
+      "ru": "Продукция травы",
+      "en": "Herb Output",
+      "de": "Kräuterertrag",
+      "es": "Producción de hierbas",
+      "fr": "Production d\\'herbes",
+      "id": "Produksi Obat",
+      "ja": "薬材生産量",
+      "ko": "약재 생산량",
+      "pt": "Produção de Ervas"
+    },
+    "desc": {
+      "ru": "Увеличивает продукцию травы в городах членов альянса.",
+      "en": "Increases Herb Output for alliance members\\' cities.",
+      "de": "Erhöht den Kräuterertrag für die Städte der Allianzmitglieder.",
+      "es": "Aumenta la producción de hierbas para las ciudades de los miembros de la alianza.",
+      "fr": "Augmente la Production d\\'herbes des villes alliées.",
+      "id": "Peningkatan produksi obat anggota Guild di dalam kota",
+      "ja": "ギルドメンバーの都市内の薬材生産量アップ",
+      "ko": "길드원의 도시 내 약재 생산량 증가",
+      "pt": "Aumenta a Produção de Ervas para as cidades dos membros da aliança."
+    }
+  },
+  "1008": {
+    "id": 1008,
+    "category": "development",
+    "isCore": false,
+    "name": {
+      "ru": "Ускорение исследований",
+      "en": "Research Speedup",
+      "de": "Forschung-Beschleunigung",
+      "es": "Aceleración de investigación",
+      "fr": "Accélération de recherche",
+      "id": "Percepatan Riset",
+      "ja": "研究ブースト",
+      "ko": "연구 가속",
+      "pt": "Acelerar Pesquisa"
+    },
+    "desc": {
+      "ru": "Увеличивает скорость исследований технологий для членов альянса.",
+      "en": "Increases Tech Research Speed for alliance members.",
+      "de": "Erhöht die Forschungsgeschwindigkeit für Allianzmitglieder.",
+      "es": "Aumenta la velocidad de investigación tecnológica para los miembros de la alianza.",
+      "fr": "Augmente la Vitesse de recherche technologique des membres d\\'alliance.",
+      "id": "Peningkatan kecepatan Riset Teknologi anggota Guild",
+      "ja": "ギルドメンバーの技術研究速度アップ",
+      "ko": "길드원의 과학기술 연구 속도 향상",
+      "pt": "Aumenta a Velocidade de Pesquisa para os membros da aliança."
+    }
+  },
+  "1009": {
+    "id": 1009,
+    "category": "development",
+    "isCore": false,
+    "name": {
+      "ru": "Улучшение исследований",
+      "en": "Research Upgrade",
+      "de": "Forschung-Upgrade",
+      "es": "Mejora de investigación",
+      "fr": "Amélioration de la recherche",
+      "id": "Peningkatan Riset",
+      "ja": "研究改良",
+      "ko": "연구 개선",
+      "pt": "Melhorar Pesquisa"
+    },
+    "desc": {
+      "ru": "Снижает расходы ресурсов для исследований технологий для членов альянса.",
+      "en": "Reduces Tech Research resource cost for alliance members.",
+      "de": "Reduziert die Ressourcenkosten für die Tech-Forschung für Allianzmitglieder.",
+      "es": "Reduce el costo de recursos para la investigación tecnológica de los miembros de la alianza.",
+      "fr": "Réduit le coût en ressources de recherche technologique des membres d\\'alliance.",
+      "id": "Pengurangan konsumsi Sumber Daya untuk Riset Teknologi anggota Guild",
+      "ja": "ギルドメンバーの技術研究の資源消費量ダウン",
+      "ko": "길드원의 과학기술 연구 자원 소비 감소",
+      "pt": "Reduz o custo de recursos da Pesquisa para os membros da aliança."
+    }
+  },
+  "1010": {
+    "id": 1010,
+    "category": "defense",
+    "isCore": false,
+    "name": {
+      "ru": "Защита зерна",
+      "en": "Grain Protection",
+      "de": "Getreideschutz",
+      "es": "Grano protegido",
+      "fr": "Protection de Céréales",
+      "id": "Perlindungan Makanan",
+      "ja": "食料保護",
+      "ko": "식량 보호",
+      "pt": "Proteção de Comida"
+    },
+    "desc": {
+      "ru": "Увеличивает предел защиты зерна для членов альянса.",
+      "en": "Increases Grain protection limit for alliance members.",
+      "de": "Erhöht das Schutzlimit für Getreide für Allianzmitglieder.",
+      "es": "Aumenta el límite de protección de grano para los miembros de la alianza.",
+      "fr": "Augmente la limite de protection des céréales des membres d\\'alliance.",
+      "id": "Peningkatan batas perlindungan Makanan anggota Guild",
+      "ja": "ギルドメンバーの食料保護上限アップ",
+      "ko": "길드원의 식량 보호 한도 증가",
+      "pt": "Aumenta o limite de proteção de Comida para os membros da aliança."
+    }
+  },
+  "1011": {
+    "id": 1011,
+    "category": "defense",
+    "isCore": false,
+    "name": {
+      "ru": "Защита древесины",
+      "en": "Timber Protection",
+      "de": "Geschütztes Holz",
+      "es": "Madera protegida",
+      "fr": "Bois protégé",
+      "id": "Perlindungan Kayu",
+      "ja": "木材保護",
+      "ko": "목재 보호",
+      "pt": "Madeira Protegida"
+    },
+    "desc": {
+      "ru": "Увеличивает предел защиты древесины для членов альянса.",
+      "en": "Increases Timber protection limit for alliance members.",
+      "de": "Erhöht das Schutzlimit für Holz für Allianzmitglieder.",
+      "es": "Aumenta el límite de protección de madera para los miembros de la alianza.",
+      "fr": "Augmente la limite de protection de bois des membres d\\'alliance.",
+      "id": "Peningkatan batas perlindungan Kayu anggota Guild",
+      "ja": "ギルドメンバーの木材保護上限アップ",
+      "ko": "길드원의 목재 보호 한도 증가",
+      "pt": "Aumenta o limite de proteção de Madeira para os membros da aliança."
+    }
+  },
+  "1012": {
+    "id": 1012,
+    "category": "defense",
+    "isCore": false,
+    "name": {
+      "ru": "Защита травы",
+      "en": "Herb Protection",
+      "de": "Kräuterschutz",
+      "es": "Hierbas protegidas",
+      "fr": "Protection (Herbes)",
+      "id": "Perlindungan Obat",
+      "ja": "薬材保護",
+      "ko": "약재 보호",
+      "pt": "Proteção de Ervas"
+    },
+    "desc": {
+      "ru": "Увеличивает предел защиты травы для членов альянса.",
+      "en": "Increases Herb protection limit for alliance members.",
+      "de": "Erhöht das Kräuter-Schutzlimit für Allianzmitglieder.",
+      "es": "Aumenta el límite de protección de hierbas para los miembros de la alianza.",
+      "fr": "Augmente la limite de protection d\\'Herbe des membres de l\\'alliance.",
+      "id": "Batas perlindungan maksimum Obat anggota Guild meningkat",
+      "ja": "ギルドメンバーの薬材保護上限アップ",
+      "ko": "길드원의 약재 보호 한도 증가",
+      "pt": "Aumenta o limite de proteção de Ervas para membros da aliança."
+    }
+  },
+  "1013": {
+    "id": 1013,
+    "category": "development",
+    "isCore": false,
+    "name": {
+      "ru": "Ускорение создания",
+      "en": "Crafting Speedup",
+      "de": "Fertigung-Beschleunigung",
+      "es": "Aceleración de fabricación",
+      "fr": "Accélération de fabrication",
+      "id": "Percepatan Produksi",
+      "ja": "製造速度アップ",
+      "ko": "제작 가속",
+      "pt": "Acelerar Fabricação"
+    },
+    "desc": {
+      "ru": "Повышает скорость создания снаряжения для членов альянса.",
+      "en": "Increases Gear crafting speed for alliance members.",
+      "de": "Erhöht die Ausrüstungsherstellungsgeschwindigkeit für Allianzmitglieder.",
+      "es": "Aumenta la velocidad de fabricación de equipo para los miembros de la alianza.",
+      "fr": "Augmente la vitesse de fabrication d\\'Équipement des membres de l\\'alliance.",
+      "id": "Kecepatan pembuatan Gear anggota Guild meningkat",
+      "ja": "ギルドメンバーの装備製造速度アップ",
+      "ko": "길드원의 장비 제작 속도 향상",
+      "pt": "Aumenta a velocidade de fabricação de Equipamentos para membros da aliança."
+    }
+  },
+  "1014": {
+    "id": 1014,
+    "category": "development",
+    "isCore": false,
+    "name": {
+      "ru": "Техника создания",
+      "en": "Crafting Technique",
+      "de": "Fertigungstechnik",
+      "es": "Técnica de fabricación",
+      "fr": "Technique de Fabrication",
+      "id": "Teknik Manufaktur",
+      "ja": "製造工程",
+      "ko": "제작 기술",
+      "pt": "Técnica de Fabricação"
+    },
+    "desc": {
+      "ru": "Уменьшает затраты травы на создание снаряжения для членов альянса.",
+      "en": "Reduces Gear crafting Herb cost for alliance members.",
+      "de": "Reduziert die Kräuterkosten für die Ausrüstungsherstellung für Allianzmitglieder.",
+      "es": "Reduce el costo de hierbas para fabricar equipo para los miembros de la alianza.",
+      "fr": "Réduit le coût en Herbe de fabrication d\\'Équipement des membres de l\\'alliance.",
+      "id": "Konsumsi Obat saat membuat Gear anggota Guild berkurang",
+      "ja": "ギルドメンバーの装備製造の薬材消費量ダウン",
+      "ko": "길드원의 장비 제작에 소비되는 약재 감소",
+      "pt": "Reduz o custo em Ervas para fabricar Equipamentos para membros da aliança."
+    }
+  },
+  "1015": {
+    "id": 1015,
+    "category": "development",
+    "isCore": false,
+    "name": {
+      "ru": "Расходы строительства",
+      "en": "Construction Cost",
+      "de": "Baukosten",
+      "es": "Coste de construcción",
+      "fr": "Coût de Construction",
+      "id": "Biaya Pembangunan",
+      "ja": "建設コスト",
+      "ko": "건설 소모",
+      "pt": "Custo de Construção"
+    },
+    "desc": {
+      "ru": "Уменьшает затраты ресурсов на строительство для членов альянса.",
+      "en": "Reduces construction resource cost for alliance members.",
+      "de": "Reduziert die Ressourcenkosten für den Bau für Allianzmitglieder.",
+      "es": "Reduce el costo de recursos de construcción para los miembros de la alianza.",
+      "fr": "Réduit le coût en ressources de construction des membres de l\\'alliance.",
+      "id": "Konsumsi Sumber Daya saat membangun bangunan anggota Guild berkurang",
+      "ja": "ギルドメンバーの建物建設の資源消費量ダウン",
+      "ko": "길드원의 건물 건설에 소비되는 자원 감소",
+      "pt": "Reduz o custo de recursos de construção para membros da aliança."
+    }
+  },
+  "2001": {
+    "id": 2001,
+    "category": "development",
+    "isCore": false,
+    "name": {
+      "ru": "Загрузка войск",
+      "en": "Troop Load",
+      "de": "Truppenlast",
+      "es": "Carga de tropas",
+      "fr": "Charge de troupes",
+      "id": "Beban Pasukan",
+      "ja": "部隊積載量",
+      "ko": "부대 적재량",
+      "pt": "Carga da Tropa"
+    },
+    "desc": {
+      "ru": "Увеличивает загрузку войска для членов альянса.",
+      "en": "Increases Troop Load for alliance members.",
+      "de": "Erhöht die Truppenlast für Allianzmitglieder.",
+      "es": "Aumenta la carga de las tropas para los miembros de la alianza.",
+      "fr": "Augmente la Charge de troupes des membres de l\\'alliance.",
+      "id": "Beban Pasukan anggota Guild meningkat",
+      "ja": "ギルドメンバーの部隊積載量アップ",
+      "ko": "길드원의 부대 적재량 증가",
+      "pt": "Aumenta a Carga da Tropa para membros da aliança."
+    }
+  },
+  "2002": {
+    "id": 2002,
+    "category": "development",
+    "isCore": false,
+    "name": {
+      "ru": "Быстрое обучение",
+      "en": "Fast Training",
+      "de": "Schnelles Training",
+      "es": "Entreno rápido",
+      "fr": "Entraînement rapide",
+      "id": "Pelatihan Cepat",
+      "ja": "クイック訓練",
+      "ko": "신속 훈련",
+      "pt": "Treinamento Rápido"
+    },
+    "desc": {
+      "ru": "Увеличивает скорость обучения солдат для членов альянса.",
+      "en": "Increases soldier training speed for alliance members.",
+      "de": "Erhöht die Trainingsgeschwindigkeit von Soldaten für Allianzmitglieder.",
+      "es": "Aumenta la velocidad de entreno de soldados para los miembros de la alianza.",
+      "fr": "Augmente la vitesse d\\'entraînement des troupes des alliés.",
+      "id": "Peningkatan kecepatan Pelatihan Pasukan anggota Guild",
+      "ja": "ギルドメンバーの兵士訓練速度アップ",
+      "ko": "길드원의 병사 훈련 속도 증가",
+      "pt": "Aumenta a velocidade de treinamento de soldados para membros da aliança."
+    }
+  },
+  "2003": {
+    "id": 2003,
+    "category": "development",
+    "isCore": false,
+    "name": {
+      "ru": "Грамотное обучение",
+      "en": "Coordinated Training",
+      "de": "Koordiniertes Training",
+      "es": "Entreno coordinado",
+      "fr": "Entraînement coordonné",
+      "id": "Pelatihan Terpadu",
+      "ja": "統括訓練",
+      "ko": "종합 훈련",
+      "pt": "Treinamento Coordenado"
+    },
+    "desc": {
+      "ru": "Снижает расход ресурсов на обучения солдат для членов альянса.",
+      "en": "Reduces soldier training resource cost for alliance members.",
+      "de": "Reduziert die Ressourcenkosten für das Training von Soldaten für Allianzmitglieder.",
+      "es": "Reduce el costo de recursos para entrenar soldados para los miembros de la alianza.",
+      "fr": "Réduit le coût en ressources de l\\'entraînement des troupes pour les alliés.",
+      "id": "Pengurangan konsumsi Sumber Daya saat Pelatihan Pasukan anggota Guild",
+      "ja": "ギルドメンバーの兵士訓練の資源消費ダウン",
+      "ko": "길드원의 병사 훈련 자원 소비 감소",
+      "pt": "Reduz o custo de recursos de treinamento de soldados para membros da aliança."
+    }
+  },
+  "2004": {
+    "id": 2004,
+    "category": "development",
+    "isCore": false,
+    "name": {
+      "ru": "Походная помощь",
+      "en": "March Aid",
+      "de": "Marschhilfe",
+      "es": "Ayuda de marcha",
+      "fr": "Aide de marche",
+      "id": "Bantuan Perjalanan",
+      "ja": "行軍支援",
+      "ko": "행군 지원",
+      "pt": "Auxílio de Marcha"
+    },
+    "desc": {
+      "ru": "Увеличивает Скорость похода войск альянса при атаке городов других Докторов.",
+      "en": "Increases Troop March Speed when attacking other Doctors\\' towns for alliance members.",
+      "de": "Erhöht die Marschgeschwindigkeit der Truppe beim Angriff auf Städte anderer Ärzte für Allianzmitglieder.",
+      "es": "Aumenta la vel. de marcha de las tropas al atacar las ciudades de otros doctores para los miembros de la alianza.",
+      "fr": "Augmente la Vitesse de marche des Troupes des alliés lors de l\\'attaque des villes d\\'autres Docteurs.",
+      "id": "Peningkatan SPD Perjalanan Pasukan anggota Guild saat menyerang kota dokter lain",
+      "ja": "ギルドメンバーが他のドクターの都市を攻撃する際、部隊の行軍速度アップ",
+      "ko": "길드원이 다른 의사의 도시를 공격할 때, 부대 행군 속도 증가",
+      "pt": "Aumenta a Velocidade de Marcha da Tropa ao atacar cidades de outros Médicos para membros da aliança."
+    }
+  },
+  "2005": {
+    "id": 2005,
+    "category": "development",
+    "isCore": false,
+    "name": {
+      "ru": "Ускорение гарнизона",
+      "en": "Garrison Speedup",
+      "de": "Stationierung-Beschleunigung",
+      "es": "Aceleración de guarnición",
+      "fr": "Accélération de garnison",
+      "id": "Percepat Pertahanan",
+      "ja": "駐屯ブースト",
+      "ko": "주둔 가속",
+      "pt": "Acelerar Guarnição"
+    },
+    "desc": {
+      "ru": "Увеличивает Скорость похода войск альянса при атаке городов.",
+      "en": "Increases Troop March Speed when attacking cities for alliance members.",
+      "de": "Erhöht die Marschgeschwindigkeit der Truppe beim Angriff auf Städte für Allianzmitglieder.",
+      "es": "Aumenta la vel. de marcha de las tropas al atacar ciudades para los miembros de la alianza.",
+      "fr": "Augmente la Vitesse de marche des Troupes des alliés lors de l\\'attaque de villes.",
+      "id": "Peningkatan SPD Perjalanan Pasukan anggota Guild saat menyerang kota",
+      "ja": "ギルドメンバーが都市を攻撃する際、部隊の行軍速度アップ",
+      "ko": "길드원이 도시를 공격할 때, 부대 행군 속도 증가",
+      "pt": "Aumenta a Velocidade de Marcha da Tropa ao atacar cidades para membros da aliança."
+    }
+  },
+  "2006": {
+    "id": 2006,
+    "category": "development",
+    "isCore": false,
+    "name": {
+      "ru": "Быстрый гарнизон",
+      "en": "Quick Garrison",
+      "de": "Schnelle Stationierung",
+      "es": "Guarnición rápida",
+      "fr": "Garnison rapide",
+      "id": "Pertahanan Cepat",
+      "ja": "クイック駐屯",
+      "ko": "빠른 주둔",
+      "pt": "Guarnição Rápida"
+    },
+    "desc": {
+      "ru": "Увеличивает Скорость похода войск альянса при создании гарнизона.",
+      "en": "Increases Troop March Speed when garrisoning for alliance members.",
+      "de": "Erhöht die Marschgeschwindigkeit der Truppe bei der Stationierung für Allianzmitglieder.",
+      "es": "Aumenta la vel. de marcha de las tropas al guarnecer para los miembros de la alianza.",
+      "fr": "Augmente la Vitesse de marche des Troupes des alliés lors de la mise en garnison.",
+      "id": "Peningkatan SPD Perjalanan Pasukan anggota Guild saat melakukan pertahanan",
+      "ja": "ギルドメンバーが駐屯を行う際、部隊の行軍速度アップ",
+      "ko": "길드원이 주둔 방어를 할 때, 부대 행군 속도 증가",
+      "pt": "Aumenta a Velocidade de Marcha da Tropa ao guarnecer para membros da aliança."
+    }
+  },
+  "2007": {
+    "id": 2007,
+    "category": "development",
+    "isCore": false,
+    "name": {
+      "ru": "Поход войска",
+      "en": "Troop March",
+      "de": "Truppenmarsch",
+      "es": "Marcha de tropas",
+      "fr": "Marche de Troupe",
+      "id": "Pergerakan Pasukan",
+      "ja": "部隊行軍",
+      "ko": "부대 행군",
+      "pt": "Marcha da Tropa"
+    },
+    "desc": {
+      "ru": "Увеличивает Скорость похода войск для членов альянса.",
+      "en": "Increases Troop March Speed for alliance members.",
+      "de": "Erhöht die Marschgeschwindigkeit der Truppen für Allianzmitglieder.",
+      "es": "Aumenta la vel. de marcha de las tropas para los miembros de la alianza.",
+      "fr": "Augmente la Vitesse de marche des Troupes des membres de l\\'alliance.",
+      "id": "SPD Perjalanan Pasukan anggota Guild meningkat",
+      "ja": "ギルドメンバーの部隊の行軍速度アップ",
+      "ko": "길드원의 부대 행군 속도 증가",
+      "pt": "Aumenta a Velocidade de Marcha da Tropa para membros da aliança."
+    }
+  },
+  "2008": {
+    "id": 2008,
+    "category": "development",
+    "isCore": false,
+    "name": {
+      "ru": "Здоровье штурма",
+      "en": "Rally HP",
+      "de": "Versammlung-LP",
+      "es": "PV de la reunión",
+      "fr": "PV de Ralliement",
+      "id": "HP Reli",
+      "ja": "ラリーHP",
+      "ko": "집결 체력",
+      "pt": "Mobilizar Vida"
+    },
+    "desc": {
+      "ru": "Увеличивает Здоровье героя членов альянса при вступлении в штурм.",
+      "en": "Increases Hero HP when joining a rally for alliance members.",
+      "de": "Erhöht die Held-LP beim Beitritt zu einer Versammlung für Allianzmitglieder.",
+      "es": "Aumenta los PV de héroe al unirse a una reunión para los miembros de la alianza.",
+      "fr": "Augmente les PV de héros des membres de l\\'alliance lors d\\'un ralliement.",
+      "id": "HP Hero Pasukan anggota Guild meningkat saat Reli",
+      "ja": "ギルドメンバーがラリーに参加する際、部隊の英雄HPアップ",
+      "ko": "길드원이 집결에 참여 시, 부대 영웅의 체력 증가",
+      "pt": "Aumenta o HP do Herói ao participar de uma mobilização de membros da aliança."
+    }
+  },
+  "2009": {
+    "id": 2009,
+    "category": "development",
+    "isCore": false,
+    "name": {
+      "ru": "Атака штурма",
+      "en": "Rally Attack",
+      "de": "Versammlungsangriff",
+      "es": "ATQ de la reunión",
+      "fr": "Attaque de Ralliement",
+      "id": "ATK Reli",
+      "ja": "ラリー攻撃",
+      "ko": "집결 공격력",
+      "pt": "Mobilizar Ataque"
+    },
+    "desc": {
+      "ru": "Увеличивает Атаку героя членов альянса при вступлении в штурм.",
+      "en": "Increases Hero ATK when joining a rally for alliance members.",
+      "de": "Erhöht den Held-ANG beim Beitritt zu einer Versammlung für Allianzmitglieder.",
+      "es": "Aumenta el ATQ de héroe al unirse a una reunión para los miembros de la alianza.",
+      "fr": "Augmente l\\'ATQ de héros des membres de l\\'alliance lors d\\'un ralliement.",
+      "id": "ATK Hero Pasukan anggota Guild meningkat saat Reli",
+      "ja": "ギルドメンバーがラリーに参加する際、部隊の英雄攻撃力アップ",
+      "ko": "길드원이 집결에 참여 시, 부대 영웅의 공격력 증가",
+      "pt": "Aumenta o ATQ do Herói ao participar de uma mobilização de membros da aliança."
+    }
+  },
+  "2010": {
+    "id": 2010,
+    "category": "development",
+    "isCore": false,
+    "name": {
+      "ru": "Защита штурма",
+      "en": "Rally Defense",
+      "de": "Versammlungsverteidigung",
+      "es": "DEF de la reunión",
+      "fr": "Défense de Ralliement",
+      "id": "DEF Reli",
+      "ja": "ラリー防御",
+      "ko": "집결 방어력",
+      "pt": "Mobilizar Defesa"
+    },
+    "desc": {
+      "ru": "Увеличивает Защиту героя членов альянса при вступлении в штурм.",
+      "en": "Increases Hero DEF when joining a rally for alliance members.",
+      "de": "Erhöht die Held-VER beim Beitritt zu einer Versammlung für Allianzmitglieder.",
+      "es": "Aumenta la DEF de héroe al unirse a una reunión para los miembros de la alianza.",
+      "fr": "Augmente la DÉF de héros des membres de l\\'alliance lors d\\'un ralliement.",
+      "id": "DEF Hero Pasukan anggota Guild meningkat saat Reli",
+      "ja": "ギルドメンバーがラリーに参加する際、部隊の英雄防御力アップ",
+      "ko": "길드원이 집결에 참여 시, 부대 영웅의 방어력 증가",
+      "pt": "Aumenta a DEF do Herói ao participar de uma mobilização de membros da aliança."
+    }
+  },
+  "2011": {
+    "id": 2011,
+    "category": "development",
+    "isCore": false,
+    "name": {
+      "ru": "Помощь лечения",
+      "en": "Heal Aid",
+      "de": "Heilungshilfe",
+      "es": "Ayuda de curación",
+      "fr": "Aide aux Soins",
+      "id": "Bantuan Penyembuhan",
+      "ja": "治療支援",
+      "ko": "치유 지원",
+      "pt": "Ajuda de Cura"
+    },
+    "desc": {
+      "ru": "Снижает стоимость ресурсов для лечения войск альянса.",
+      "en": "Reduces troop healing resource cost for alliance members.",
+      "de": "Reduziert die Ressourcenkosten für die Heilung von Truppen für Allianzmitglieder.",
+      "es": "Reduce el costo de recursos para curar tropas para los miembros de la alianza.",
+      "fr": "Réduit le coût en ressources de soin des Troupes des membres de l\\'alliance.",
+      "id": "Konsumsi Sumber Daya untuk menyembuhkan Pasukan anggota Guild berkurang",
+      "ja": "ギルドメンバーの部隊治療に必要な資源消費ダウン",
+      "ko": "길드원의 부대 치료 시 자원 소모 감소",
+      "pt": "Reduz o custo de recursos de cura de tropas para membros da aliança."
+    }
+  },
+  "2012": {
+    "id": 2012,
+    "category": "development",
+    "isCore": false,
+    "name": {
+      "ru": "Здоровье гарнизона",
+      "en": "Garrison HP",
+      "de": "Stationierung-LP",
+      "es": "PV de la guarnición",
+      "fr": "PV de Garnison",
+      "id": "HP Garnisun",
+      "ja": "駐屯HP",
+      "ko": "주둔 체력",
+      "pt": "HP do Quartel"
+    },
+    "desc": {
+      "ru": "Увеличивает Здоровье героя членов альянса в гарнизоне.",
+      "en": "Increases Hero HP when garrisoned for alliance members.",
+      "de": "Erhöht Held-LP für Allianzmitglieder bei Stationierung.",
+      "es": "Aumenta los PV de héroe al guarnecerse para miembros de la alianza.",
+      "fr": "Augmente les PV de héros des membres d\\'alliance en garnison.",
+      "id": "HP Hero Pasukan meningkat saat anggota Guild berpartisipasi dalam pertahanan",
+      "ja": "ギルドメンバーが駐屯に参加する際、部隊の英雄HPアップ",
+      "ko": "길드원이 주둔 방어에 참여 시, 부대 영웅의 체력 증가",
+      "pt": "Aumenta o HP do Herói quando guarnecido para membros da aliança."
+    }
+  },
+  "2013": {
+    "id": 2013,
+    "category": "development",
+    "isCore": false,
+    "name": {
+      "ru": "Атака гарнизона",
+      "en": "Garrison Attack",
+      "de": "Stationierungsangriff",
+      "es": "ATQ de la guarnición",
+      "fr": "Attaque de Garnison",
+      "id": "ATK Garnisun",
+      "ja": "駐屯攻撃",
+      "ko": "주둔 공격력",
+      "pt": "Ataque do Quartel"
+    },
+    "desc": {
+      "ru": "Увеличивает Атаку героя членов альянса в гарнизоне.",
+      "en": "Increases Hero ATK when garrisoned for alliance members.",
+      "de": "Erhöht Held-ANG für Allianzmitglieder bei Stationierung.",
+      "es": "Aumenta el ATQ de héroe al guarnecerse para miembros de la alianza.",
+      "fr": "Augmente l\\'ATQ de héros des membres d\\'alliance en garnison.",
+      "id": "ATK Hero Pasukan meningkat saat anggota Guild berpartisipasi dalam pertahanan",
+      "ja": "ギルドメンバーが駐屯に参加する際、部隊の英雄攻撃力アップ",
+      "ko": "길드원이 주둔 방어에 참여 시, 부대 영웅의 공격력 증가",
+      "pt": "Aumenta o ATQ do Herói quando guarnecido para membros da aliança."
+    }
+  },
+  "2014": {
+    "id": 2014,
+    "category": "development",
+    "isCore": false,
+    "name": {
+      "ru": "Защита гарнизона",
+      "en": "Garrison Defense",
+      "de": "Stationierungsverteidigung",
+      "es": "DEF de la guarnición",
+      "fr": "Défense de Garnison",
+      "id": "DEF Garnisun",
+      "ja": "駐屯防御",
+      "ko": "주둔 방어력",
+      "pt": "Defesa do Quartel"
+    },
+    "desc": {
+      "ru": "Увеличивает Защиту героя членов альянса в гарнизоне.",
+      "en": "Increases Hero DEF when garrisoned for alliance members.",
+      "de": "Erhöht Held-VER für Allianzmitglieder bei Stationierung.",
+      "es": "Aumenta la DEF de héroe al guarnecerse para miembros de la alianza.",
+      "fr": "Augmente la DÉF de héros des membres d\\'alliance en garnison.",
+      "id": "DEF Hero Pasukan meningkat saat anggota Guild berpartisipasi dalam pertahanan",
+      "ja": "ギルドメンバーが駐屯に参加する際、部隊の英雄防御力アップ",
+      "ko": "길드원이 주둔 방어에 참여 시, 부대 영웅의 방어력 증가",
+      "pt": "Aumenta a DEF do Herói quando guarnecido para membros da aliança."
+    }
+  },
+  "2015": {
+    "id": 2015,
+    "category": "development",
+    "isCore": false,
+    "name": {
+      "ru": "Расширение казарм",
+      "en": "Barracks Expansion",
+      "de": "Kasernen-Erweiterung",
+      "es": "Expansión del Cuartel",
+      "fr": "Extension de Caserne",
+      "id": "Perluasan Barak",
+      "ja": "兵営拡張",
+      "ko": "병영 확장",
+      "pt": "Expansão do Quartel"
+    },
+    "desc": {
+      "ru": "Повышает вместимость казарм для членов альянса.",
+      "en": "Increases barracks capacity for alliance members.",
+      "de": "Erhöht die Kasernenkapazität für Allianzmitglieder.",
+      "es": "Aumenta la capacidad del Cuartel para miembros de la alianza.",
+      "fr": "Augmente la capacité des casernes des alliés.",
+      "id": "Kapasitas Barak anggota Guild meningkat",
+      "ja": "ギルドメンバーの兵営容量アップ",
+      "ko": "길드원의 병영 수용력 증가",
+      "pt": "Aumenta a capacidade do quartel para membros da aliança."
+    }
+  }
+}

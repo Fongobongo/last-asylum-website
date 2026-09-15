@@ -1,0 +1,91 @@
+{
+  "barracksProgression": [
+    {
+      "tier": "T1",
+      "level": 1,
+      "mightPerTroop": 2,
+      "load": 5,
+      "speed": 10
+    },
+    {
+      "tier": "T2",
+      "level": 3,
+      "mightPerTroop": 4,
+      "load": 8,
+      "speed": 10
+    },
+    {
+      "tier": "T3",
+      "level": 6,
+      "mightPerTroop": 7,
+      "load": 11,
+      "speed": 10
+    },
+    {
+      "tier": "T4",
+      "level": 10,
+      "mightPerTroop": 11,
+      "load": 15,
+      "speed": 10
+    },
+    {
+      "tier": "T5",
+      "level": 14,
+      "mightPerTroop": 17,
+      "load": 19,
+      "speed": 10
+    },
+    {
+      "tier": "T6",
+      "level": 17,
+      "mightPerTroop": 25,
+      "load": 24,
+      "speed": 10
+    },
+    {
+      "tier": "T7",
+      "level": 20,
+      "mightPerTroop": 36,
+      "load": 30,
+      "speed": 10
+    },
+    {
+      "tier": "T8",
+      "level": 24,
+      "mightPerTroop": 52,
+      "load": 37,
+      "speed": 10
+    },
+    {
+      "tier": "T9",
+      "level": 27,
+      "mightPerTroop": 74,
+      "load": 45,
+      "speed": 10
+    },
+    {
+      "tier": "T10",
+      "level": 30,
+      "mightPerTroop": 105,
+      "load": 55,
+      "speed": 10
+    }
+  ],
+  "counterTriangle": {
+    "Warrior": {
+      "beats": "Ranger",
+      "losesTo": "Warlock",
+      "bonusPct": 20
+    },
+    "Ranger": {
+      "beats": "Warlock",
+      "losesTo": "Warrior",
+      "bonusPct": 20
+    },
+    "Warlock": {
+      "beats": "Warrior",
+      "losesTo": "Ranger",
+      "bonusPct": 20
+    }
+  }
+}

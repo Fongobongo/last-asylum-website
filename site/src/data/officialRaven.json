@@ -1,0 +1,164 @@
+{
+  "components": [
+    {
+      "slot": 1,
+      "key": "beak",
+      "ru": "Острый клюв",
+      "en": "Sharp Beak",
+      "icon": "🦅",
+      "stat": "ATK (Атака)"
+    },
+    {
+      "slot": 2,
+      "key": "eye",
+      "ru": "Глаз восприятия",
+      "en": "Eye of Perception",
+      "icon": "👁️",
+      "stat": "Crit / Accuracy (Крит/Точность)"
+    },
+    {
+      "slot": 3,
+      "key": "claw",
+      "ru": "Атакующий коготь",
+      "en": "Attacker's Claw",
+      "icon": "🐾",
+      "stat": "Damage Boost (Урон)"
+    },
+    {
+      "slot": 4,
+      "key": "feather",
+      "ru": "Перо ночи",
+      "en": "Feather of the Night",
+      "icon": "🪶",
+      "stat": "Defense (Защита)"
+    },
+    {
+      "slot": 5,
+      "key": "heart",
+      "ru": "Сердце мудрости",
+      "en": "Heart of Wisdom",
+      "icon": "💎",
+      "stat": "HP / Durability (Здоровье)"
+    },
+    {
+      "slot": 6,
+      "key": "tail",
+      "ru": "Хвост ветра",
+      "en": "Tail of Wind",
+      "icon": "💨",
+      "stat": "Speed / Agility (Скорость)"
+    }
+  ],
+  "sets": [
+    {
+      "id": 1,
+      "name": {
+        "ru": "Маска ночного Ворона",
+        "en": "Night Raven Mask",
+        "de": "Nachtraben-Maske",
+        "es": "Máscara del Cuervo Nocturno",
+        "fr": "Masque du Corbeau de Nuit",
+        "id": "Topeng Gagak Malam",
+        "ja": "ナイトレイヴンの仮面",
+        "ko": "나이트 레이븐 가면",
+        "pt": "Máscara do Corvo da Noite"
+      },
+      "type": "Offensive (Атакующий)",
+      "bonus": {
+        "ru": "Увеличивает урон отряда на 15% и пробивание защиты на 10%",
+        "en": "Increases squad damage by 15% and defense piercing by 10%"
+      }
+    },
+    {
+      "id": 2,
+      "name": {
+        "ru": "Плащ из перьев Ворона",
+        "en": "Raven Feather Cloak",
+        "de": "Rabenfeder-Umhang",
+        "es": "Capa de Plumas de Cuervo",
+        "fr": "Cape de Plumes de Corbeau",
+        "id": "Jubah Bulu Gagak",
+        "ja": "レイヴンの羽衣",
+        "ko": "레이븐 깃털 망토",
+        "pt": "Manto de Penas de Corvo"
+      },
+      "type": "Defensive (Защитный)",
+      "bonus": {
+        "ru": "Снижает весь получаемый отрядом урон на 15% и увеличивает HP на 20%",
+        "en": "Decreases squad damage taken by 15% and increases HP by 20%"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "level": 1,
+      "desc": {
+        "ru": "Пораженные цели получают на 12% больше урона в течение 5 сек.",
+        "en": "Increases damage taken by affected targets by 12% for 5s",
+        "de": "Erhöht den erlittenen Schaden der betroffenen Ziele um 12% für 5s",
+        "es": "Aumenta el daño recibido por los objetivos afectados en un 12% durante 5 s.",
+        "fr": "Augmente de 12 % les dégâts subis par les cibles affectées pendant 5 s",
+        "id": "Target yang terkena efek menerima 12% lebih banyak damage selama 5 detik",
+        "ja": "影響を受けた対象が受けるダメージが12%増加、5秒間持続",
+        "ko": "영향을 받은 대상이 받는 피해가 5초 동안 12% 증가합니다",
+        "pt": "Aumenta o dano recebido por alvos afetados em 12% por 5s"
+      }
+    },
+    {
+      "level": 2,
+      "desc": {
+        "ru": "Наносит на 18% больше урона.",
+        "en": "Deals 18% extra damage",
+        "de": "Verursacht 18% zusätzlichen Schaden",
+        "es": "Inflige un 18% de daño adicional.",
+        "fr": "Inflige 18 % de dégâts additionnels",
+        "id": "Memberikan 18% DMG tambahan",
+        "ja": "追加で18%のダメージを与える",
+        "ko": "추가로 18% 피해를 입힙니다",
+        "pt": "Causa 18% de dano extra"
+      }
+    },
+    {
+      "level": 3,
+      "desc": {
+        "ru": "Пораженные цели получают на 15% больше урона в течение 5 сек.",
+        "en": "Increases damage taken by affected targets by 15% for 5s",
+        "de": "Erhöht den erlittenen Schaden der betroffenen Ziele um 15% für 5s",
+        "es": "Aumenta el daño recibido por los objetivos afectados en un 15% durante 5s.",
+        "fr": "Augmente de 15 % les dégâts subis par les cibles affectées pendant 5 s",
+        "id": "Tingkatkan DMG yang diterima target sebesar 15% selama 5d",
+        "ja": "影響を受けた対象が受けるダメージが15%増加、5秒間持続",
+        "ko": "영향을 받은 대상이 받는 피해가 5초 동안 15% 증가합니다",
+        "pt": "Aumenta o dano recebido por alvos afetados em 15% por 5s"
+      }
+    },
+    {
+      "level": 4,
+      "desc": {
+        "ru": "Дополнительный урон увеличивается до 36%.",
+        "en": "Extra damage increases to 36%",
+        "de": "Zusätzlicher Schaden steigt auf 36%",
+        "es": "El daño adicional aumenta al 36%.",
+        "fr": "Les dégâts supplémentaires passent à 36 %",
+        "id": "Tambahan damage meningkat menjadi 36%",
+        "ja": "追加ダメージが36%に上昇",
+        "ko": "추가 피해가 36%로 증가합니다",
+        "pt": "O dano extra aumenta para 36%"
+      }
+    },
+    {
+      "level": 5,
+      "desc": {
+        "ru": "Пораженные цели получают на 15% больше урона в течение 7 сек.",
+        "en": "Increases damage taken by affected targets by 15% for 7s",
+        "de": "Erhöht den erlittenen Schaden der betroffenen Ziele um 15% für 7s",
+        "es": "Aumenta el daño recibido por los objetivos afectados en un 15% durante 7 s.",
+        "fr": "Augmente de 15 % les dégâts subis par les cibles affectées pendant 7 s",
+        "id": "Target terkena menerima 15% lebih banyak damage selama 7d",
+        "ja": "影響を受けた対象が受けるダメージが15%増加、7秒間持続",
+        "ko": "영향을 받은 대상이 받는 피해가 15% 증가하며, 7초간 지속됩니다",
+        "pt": "Aumenta o dano recebido por alvos afetados em 15% por 7s"
+      }
+    }
+  ]
+}

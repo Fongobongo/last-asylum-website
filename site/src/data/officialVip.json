@@ -1,0 +1,326 @@
+{
+  "1": {
+    "level": 1,
+    "dailyGift": {
+      "ru": "Ежедневный бесплатный набор VIP-1",
+      "en": "VIP 1 Daily Free Pack",
+      "de": "VIP 1 Tägliches Gratis-Paket",
+      "es": "Paquete diario gratis de VIP 1",
+      "fr": "Pack quotidien gratuit VIP 1",
+      "id": "Paket Harian Gratis VIP1",
+      "ja": "VIP1デイリー無料パック",
+      "ko": "VIP1 일일 무료 패키지",
+      "pt": "Pacote Diário Grátis VIP 1"
+    },
+    "keyUnlocks": []
+  },
+  "2": {
+    "level": 2,
+    "dailyGift": {
+      "ru": "Ежедневный бесплатный набор VIP-2",
+      "en": "VIP 2 Daily Free Pack",
+      "de": "VIP 2 Tägliches Gratis-Paket",
+      "es": "Paquete diario gratis de VIP 2",
+      "fr": "Pack quotidien gratuit VIP 2",
+      "id": "Paket Harian Gratis VIP2",
+      "ja": "VIP2デイリー無料パック",
+      "ko": "VIP2 일일 무료 패키지",
+      "pt": "Pacote Diário Grátis VIP 2"
+    },
+    "keyUnlocks": []
+  },
+  "3": {
+    "level": 3,
+    "dailyGift": {
+      "ru": "Ежедневный бесплатный набор VIP 3",
+      "en": "VIP 3 Daily Free Pack",
+      "de": "VIP 3 Tägliches Gratis-Paket",
+      "es": "Paquete diario gratis VIP 3",
+      "fr": "Pack quotidien gratuit VIP 3",
+      "id": "Paket Harian Gratis VIP3",
+      "ja": "VIP3デイリー無料パック",
+      "ko": "VIP3 일일 무료 패키지",
+      "pt": "Pacote Grátis Diário VIP 3"
+    },
+    "keyUnlocks": []
+  },
+  "4": {
+    "level": 4,
+    "dailyGift": {
+      "ru": "Ежедневный бесплатный набор VIP 4",
+      "en": "VIP 4 Daily Free Pack",
+      "de": "VIP 4 Tägliches Gratis-Paket",
+      "es": "Paquete diario gratis VIP 4",
+      "fr": "Pack quotidien gratuit VIP 4",
+      "id": "Paket Harian Gratis VIP4",
+      "ja": "VIP4デイリー無料パック",
+      "ko": "VIP4 일일 무료 패키지",
+      "pt": "Pacote Grátis Diário VIP 4"
+    },
+    "keyUnlocks": [],
+    "highlight": {
+      "badge": "VIP Chat Tag",
+      "desc": "Отображение VIP-уровня в чате (VIP level in chat)"
+    }
+  },
+  "5": {
+    "level": 5,
+    "dailyGift": {
+      "ru": "Ежедневный бесплатный набор VIP 5",
+      "en": "VIP 5 Daily Free Pack",
+      "de": "VIP 5 Tägliches Gratis-Paket",
+      "es": "Paquete diario gratis VIP 5",
+      "fr": "Pack quotidien gratuit VIP 5",
+      "id": "Paket Harian Gratis VIP5",
+      "ja": "VIP5デイリー無料パック",
+      "ko": "VIP5 일일 무료 패키지",
+      "pt": "Pacote Grátis Diário VIP 5"
+    },
+    "keyUnlocks": []
+  },
+  "6": {
+    "level": 6,
+    "dailyGift": {
+      "ru": "Ежедневный бесплатный набор VIP 6",
+      "en": "VIP 6 Daily Free Pack",
+      "de": "VIP 6 Tägliches Gratis-Paket",
+      "es": "Paquete diario gratis VIP 6",
+      "fr": "Pack quotidien gratuit VIP 6",
+      "id": "Paket Harian Gratis VIP6",
+      "ja": "VIP6デイリー無料パック",
+      "ko": "VIP6 일일 무료 패키지",
+      "pt": "Pacote Grátis Diário VIP 6"
+    },
+    "keyUnlocks": [],
+    "highlight": {
+      "badge": "Quick Expedition",
+      "desc": "Быстрый вызов Битвы экспедиции (Quick Expedition battle challenge)"
+    }
+  },
+  "7": {
+    "level": 7,
+    "dailyGift": {
+      "ru": "Ежедневный бесплатный набор VIP 7",
+      "en": "VIP 7 Daily Free Pack",
+      "de": "VIP 7 Tägliches Gratis-Paket",
+      "es": "Paquete diario gratis VIP 7",
+      "fr": "Pack quotidien gratuit VIP 7",
+      "id": "Paket Harian Gratis VIP7",
+      "ja": "VIP7デイリー無料パック",
+      "ko": "VIP7 일일 무료 패키지",
+      "pt": "Pacote Grátis Diário VIP 7"
+    },
+    "keyUnlocks": []
+  },
+  "8": {
+    "level": 8,
+    "dailyGift": {
+      "ru": "Ежедневный бесплатный набор VIP 8",
+      "en": "VIP 8 Daily Free Pack",
+      "de": "VIP 8 Tägliches Gratis-Paket",
+      "es": "Paquete diario gratis de VIP 8",
+      "fr": "Pack quotidien gratuit VIP 8",
+      "id": "Paket Harian Gratis VIP8",
+      "ja": "VIP8デイリー無料パック",
+      "ko": "VIP8 일일 무료 패키지",
+      "pt": "Pacote Diário Grátis VIP 8"
+    },
+    "keyUnlocks": [],
+    "highlight": {
+      "badge": "Auto Covert Ops",
+      "desc": "Автоотправка для Секретных операций (Auto-dispatch for Covert Operations)"
+    }
+  },
+  "9": {
+    "level": 9,
+    "dailyGift": {
+      "ru": "Ежедневный бесплатный набор VIP 9",
+      "en": "VIP 9 Daily Free Pack",
+      "de": "VIP 9 Tägliches Gratis-Paket",
+      "es": "Paquete diario gratis de VIP 9",
+      "fr": "Pack quotidien gratuit VIP 9",
+      "id": "Paket Harian Gratis VIP9",
+      "ja": "VIP9デイリー無料パック",
+      "ko": "VIP9 일일 무료 패키지",
+      "pt": "Pacote Diário Grátis VIP 9"
+    },
+    "keyUnlocks": []
+  },
+  "10": {
+    "level": 10,
+    "dailyGift": {
+      "ru": "Ежедневный бесплатный набор VIP 10",
+      "en": "VIP 10 Daily Free Pack",
+      "de": "VIP 10 Tägliches Gratis-Paket",
+      "es": "Paquete diario gratis de VIP 10",
+      "fr": "Pack quotidien gratuit VIP 10",
+      "id": "Paket Harian Gratis VIP10",
+      "ja": "VIP10デイリー無料パック",
+      "ko": "VIP10 일일 무료 패키지",
+      "pt": "Pacote Diário Grátis VIP 10"
+    },
+    "keyUnlocks": [],
+    "highlight": {
+      "badge": "Super Covert Ops",
+      "desc": "Суперрежим для Секретных операций (Super mode for Covert Operations)"
+    }
+  },
+  "11": {
+    "level": 11,
+    "dailyGift": {
+      "ru": "Ежедневный бесплатный набор VIP 11",
+      "en": "VIP 11 Daily Free Pack",
+      "de": "VIP 11 Tägliches Gratis-Paket",
+      "es": "Paquete diario gratis de VIP 11",
+      "fr": "Pack quotidien gratuit VIP 11",
+      "id": "Paket Harian Gratis VIP11",
+      "ja": "VIP11デイリー無料パック",
+      "ko": "VIP11 일일 무료 패키지",
+      "pt": "Pacote Diário Grátis VIP 11"
+    },
+    "keyUnlocks": []
+  },
+  "12": {
+    "level": 12,
+    "dailyGift": {
+      "ru": "Ежедневный бесплатный набор VIP 12",
+      "en": "VIP 12 Daily Free Pack",
+      "de": "VIP 12 Tägliches Gratis-Paket",
+      "es": "Paquete diario gratis de VIP 12",
+      "fr": "Pack quotidien gratuit VIP 12",
+      "id": "Paket Harian Gratis VIP12",
+      "ja": "VIP12デイリー無料パック",
+      "ko": "VIP12 일일 무료 패키지",
+      "pt": "Pacote Diário Grátis VIP 12"
+    },
+    "keyUnlocks": [],
+    "highlight": {
+      "badge": "Extra March Queue",
+      "desc": "Дополнительный слот марша и повышенная скорость сбора (Bonus march slot & gathering speed)"
+    }
+  },
+  "13": {
+    "level": 13,
+    "dailyGift": {
+      "ru": "Ежедневный бесплатный набор VIP 13",
+      "en": "VIP 13 Daily Free Pack",
+      "de": "VIP 13 Tägliches Gratis-Paket",
+      "es": "Paquete diario gratis VIP 13",
+      "fr": "Pack quotidien gratuit VIP 13",
+      "id": "Paket Harian Gratis VIP13",
+      "ja": "VIP13デイリー無料パック",
+      "ko": "VIP13 일일 무료 패키지",
+      "pt": "Pacote Grátis Diário VIP 13"
+    },
+    "keyUnlocks": []
+  },
+  "14": {
+    "level": 14,
+    "dailyGift": {
+      "ru": "Ежедневный бесплатный набор VIP 14",
+      "en": "VIP 14 Daily Free Pack",
+      "de": "VIP 14 Tägliches Gratis-Paket",
+      "es": "Paquete diario gratis VIP 14",
+      "fr": "Pack quotidien gratuit VIP 14",
+      "id": "Paket Harian Gratis VIP14",
+      "ja": "VIP14デイリー無料パック",
+      "ko": "VIP14 일일 무료 패키지",
+      "pt": "Pacote Grátis Diário VIP 14"
+    },
+    "keyUnlocks": []
+  },
+  "15": {
+    "level": 15,
+    "dailyGift": {
+      "ru": "Ежедневный бесплатный набор VIP 15",
+      "en": "VIP 15 Daily Free Pack",
+      "de": "VIP 15 Tägliches Gratis-Paket",
+      "es": "Paquete diario gratis VIP 15",
+      "fr": "Pack quotidien gratuit VIP 15",
+      "id": "Paket Harian Gratis VIP15",
+      "ja": "VIP15デイリー無料パック",
+      "ko": "VIP15 일일 무료 패키지",
+      "pt": "Pacote Grátis Diário VIP 15"
+    },
+    "keyUnlocks": [],
+    "highlight": {
+      "badge": "Max March Speed",
+      "desc": "Максимальное ускорение строительства и исследований (Max build/research speed boost)"
+    }
+  },
+  "16": {
+    "level": 16,
+    "dailyGift": {
+      "ru": "Ежедневный бесплатный набор VIP 16",
+      "en": "VIP 16 Daily Free Pack",
+      "de": "VIP 16 Tägliches Gratis-Paket",
+      "es": "Paquete diario gratis VIP 16",
+      "fr": "Pack quotidien gratuit VIP 16",
+      "id": "Paket Harian Gratis VIP16",
+      "ja": "VIP16デイリー無料パック",
+      "ko": "VIP16 일일 무료 패키지",
+      "pt": "Pacote Grátis Diário VIP 16"
+    },
+    "keyUnlocks": []
+  },
+  "17": {
+    "level": 17,
+    "dailyGift": {
+      "ru": "Ежедневный бесплатный набор VIP 17",
+      "en": "VIP 17 Daily Free Pack",
+      "de": "VIP 17 Tägliches Gratis-Paket",
+      "es": "Paquete diario gratis VIP 17",
+      "fr": "Pack quotidien gratuit VIP 17",
+      "id": "Paket Harian Gratis VIP17",
+      "ja": "VIP17デイリー無料パック",
+      "ko": "VIP17 일일 무료 패키지",
+      "pt": "Pacote Grátis Diário VIP 17"
+    },
+    "keyUnlocks": []
+  },
+  "18": {
+    "level": 18,
+    "dailyGift": {
+      "ru": "Ежедневный бесплатный набор VIP 18",
+      "en": "VIP 18 Daily Free Pack",
+      "de": "VIP 18 Tägliches Gratis-Paket",
+      "es": "Paquete diario gratis VIP 18",
+      "fr": "Pack quotidien gratuit VIP 18",
+      "id": "Paket Harian Gratis VIP18",
+      "ja": "VIP18デイリー無料パック",
+      "ko": "VIP18 일일 무료 패키지",
+      "pt": "Pacote Diário Grátis VIP 18"
+    },
+    "keyUnlocks": []
+  },
+  "19": {
+    "level": 19,
+    "dailyGift": {
+      "ru": "Ежедневный бесплатный набор VIP 19",
+      "en": "VIP 19 Daily Free Pack",
+      "de": "VIP 19 Tägliches Gratis-Paket",
+      "es": "Paquete diario gratis VIP 19",
+      "fr": "Pack quotidien gratuit VIP 19",
+      "id": "Paket gratis harian VIP19",
+      "ja": "VIP19デイリー無料パック",
+      "ko": "VIP19 일일 무료 패키지",
+      "pt": "Pacote Diário Grátis VIP 19"
+    },
+    "keyUnlocks": []
+  },
+  "20": {
+    "level": 20,
+    "dailyGift": {
+      "ru": "Ежедневный бесплатный набор VIP 20",
+      "en": "VIP 20 Daily Free Pack",
+      "de": "VIP 20 Tägliches Gratis-Paket",
+      "es": "Paquete diario gratis VIP 20",
+      "fr": "Pack quotidien gratuit VIP 20",
+      "id": "Paket Gratis Harian VIP20",
+      "ja": "VIP20デイリー無料パック",
+      "ko": "VIP20 일일 무료 패키지",
+      "pt": "Pacote Diário Grátis VIP 20"
+    },
+    "keyUnlocks": []
+  }
+}

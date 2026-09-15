@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "content": {
+      "ru": "Улучшение Святилища повышает максимальный уровень Героя.",
+      "en": "Upgrading the Sanctuary increases the Hero level cap.",
+      "de": "Das Upgrade der Zuflucht erhöht die Helden Levelobergrenze.",
+      "es": "Mejorar el Santuario aumenta el nivel máximo de los héroes.",
+      "fr": "Améliorer le Sanctuaire augmente le plafond de niveau des héros.",
+      "id": "Meningkatkan Kuil akan menaikkan batas Level hero",
+      "ja": "教会をレベルアップすると、英雄の最大レベルが上昇します",
+      "ko": "성당을 업그레이드하면 영웅의 레벨 한도가 높아집니다",
+      "pt": "Melhorar o Santuário aumenta o nível máximo do Herói."
+    }
+  },
+  {
+    "id": 2,
+    "content": {
+      "ru": "Улучшение Лаборатории открывает новые технологии.",
+      "en": "Upgrading the Research Lab unlocks more techs.",
+      "de": "Das Upgrade des Forschungslabors schaltet mehr Technologien frei.",
+      "es": "Mejorar el Laboratorio de investigación desbloquea más tecnologías.",
+      "fr": "Améliorer le Laboratoire de recherche déverrouille davantage de technologies.",
+      "id": "Meningkatkan Level laboratorium riset akan membuka lebih banyak teknologi",
+      "ja": "研究室をレベルアップすると、より多くの技術が解放されます",
+      "ko": "연구소 레벨을 업그레이드하면 더 많은 기술을 해제할 수 있습니다",
+      "pt": "Atualizar o Laboratório de Pesquisa desbloqueia mais tecnologias."
+    }
+  },
+  {
+    "id": 3,
+    "content": {
+      "ru": "Улучшение Казармы повышает лимит солдат.",
+      "en": "Upgrading the Barracks increases Soldier capacity.",
+      "de": "Das Upgrade der Kaserne erhöht die Soldatenkapazität.",
+      "es": "Mejorar el Cuartel aumenta la capacidad de soldados.",
+      "fr": "Améliorer la Caserne augmente la capacité en soldats.",
+      "id": "Meningkatkan Barak akan menambah kapasitas Prajurit",
+      "ja": "兵営をレベルアップすると、兵士の収容数が増加します",
+      "ko": "병영을 업그레이드하면 더 많은 병사를 수용할 수 있습니다",
+      "pt": "Atualizar o Quartel aumenta a capacidade de Soldados."
+    }
+  },
+  {
+    "id": 4,
+    "content": {
+      "ru": "Солдаты могут усиливать характеристики героя.",
+      "en": "Soldiers can enhance hero attributes.",
+      "de": "Soldaten können Heldenattribute verbessern.",
+      "es": "Los soldados pueden mejorar los atributos del héroe.",
+      "fr": "Les soldats renforcent les attributs des héros.",
+      "id": "Prajurit meningkatkan atribut hero",
+      "ja": "兵士は英雄のステータスを強化します",
+      "ko": "병사는 영웅의 능력치를 향상시킵니다",
+      "pt": "Os soldados podem melhorar os atributos do herói."
+    }
+  },
+  {
+    "id": 5,
+    "content": {
+      "ru": "В Казарме солдатов можно повышать в звании.",
+      "en": "Soldiers can be promoted to higher ranks in the Barracks.",
+      "de": "Soldaten können in der Kaserne zu höheren Rängen befördert werden.",
+      "es": "Los soldados pueden ascender de rango en el Cuartel.",
+      "fr": "Les soldats peuvent être promus à des grades supérieurs à la Caserne.",
+      "id": "Prajurit bisa naik pangkat menjadi tingkat yang lebih tinggi di Barak",
+      "ja": "兵営で兵士をより高いレベルへ昇進させることができます",
+      "ko": "병사는 병영에서 더 높은 등급으로 승급할 수 있습니다",
+      "pt": "Os soldados podem ser promovidos a patentes mais altas no Quartel."
+    }
+  },
+  {
+    "id": 6,
+    "content": {
+      "ru": "Материалы улучшения повышают характеристики снаряжения.",
+      "en": "Enhancement materials can strengthen gear stats.",
+      "de": "Verbesserungsmaterialien können die Werte der Ausrüstung stärken.",
+      "es": "Los materiales de mejora pueden incrementar las estadísticas del equipo.",
+      "fr": "Les matériaux d\\'amélioration renforcent les statistiques d\\'équipement.",
+      "id": "Bahan penguatan dapat meningkatkan atribut Gear",
+      "ja": "強化素材を使用すると、装備のステータスを強化できます",
+      "ko": "강화 재료로 장비의 속성을 강화할 수 있습니다",
+      "pt": "Os materiais de aprimoramento podem fortalecer os atributos do equipamento."
+    }
+  },
+  {
+    "id": 7,
+    "content": {
+      "ru": "Высокая мощь героя — залог победы в бою.",
+      "en": "Higher hero might is key to victory in combat.",
+      "de": "Höhere Heldenmacht ist der Schlüssel zum Sieg im Kampf.",
+      "es": "Un mayor poder de héroe es clave para obtener la victoria en el combate.",
+      "fr": "Une puissance héroïque supérieure est la clé de la victoire au combat.",
+      "id": "Meningkatkan CP hero adalah kunci kemenangan dalam pertempuran",
+      "ja": "英雄の戦力を高めることが、戦闘に勝利するための重要な要素です",
+      "ko": "영웅의 전투력을 높이는 것이 전투 승리의 핵심입니다",
+      "pt": "Aumentar o poder dos Heróis é a chave para vencer combates."
+    }
+  },
+  {
+    "id": 8,
+    "content": {
+      "ru": "Осколки снаряжения можно обменять на материалы улучшения.",
+      "en": "Gear shards can be exchanged for enhancement materials.",
+      "de": "Ausrüstungssplitter können gegen Verbesserungsmaterialien eingetauscht werden.",
+      "es": "Los fragmentos de equipo se pueden intercambiar por materiales de mejora.",
+      "fr": "Les fragments d\\'équipement s\\'échangent contre des matériaux d\\'amélioration.",
+      "id": "Fragmen Gear dapat ditukar dengan bahan penguatan",
+      "ja": "装備の欠片は、強化素材と交換できます",
+      "ko": "장비 조각으로 강화 재료를 교환할 수 있습니다",
+      "pt": "Troque os fragmentos de equipamento por materiais de aprimoramento."
+    }
+  },
+  {
+    "id": 9,
+    "content": {
+      "ru": "В боях размещайте героев-танков в первом ряду, чтобы они принимали урон на себя.",
+      "en": "During battles, place tank Heroes in the front row to bear damage.",
+      "de": "Platziere während der Kämpfe Panzer-Helden in der vordersten Reihe, um Schaden einzustecken.",
+      "es": "Durante las batallas, coloca a los héroes tanque en la primera fila para que absorban el daño.",
+      "fr": "Pendant les combats, positionnez les héros tanks en première ligne pour absorber les dégâts.",
+      "id": "Saat bertarung, tempatkan hero tank di garis depan untuk menyerap DMG",
+      "ja": "戦闘時は、タンクタイプの英雄を前列に配置することで、ダメージを受け持たせることができます",
+      "ko": "전투 시 탱커 영웅을 전열에 배치하여 피해를 막아내게 할 수 있습니다",
+      "pt": "Durante as batalhas, coloque Heróis tanques na linha de frente para absorver o dano."
+    }
+  },
+  {
+    "id": 10,
+    "content": {
+      "ru": "Выполняйте ежедневные задания и получайте щедрые награды.",
+      "en": "Complete daily quests to earn rich rewards.",
+      "de": "Schließe tägliche Quests ab, um reiche Belohnungen zu erhalten.",
+      "es": "Completa las misiones diarias para obtener grandes recompensas.",
+      "fr": "Accomplissez les quêtes quotidiennes pour obtenir de fabuleuses récompenses.",
+      "id": "Menyelesaikan misi harian memberikan banyak hadiah",
+      "ja": "デイリー任務を完了すると、多くの報酬を獲得できます",
+      "ko": "일일 퀘스트를 완료하면 풍성한 보상을 얻을 수 있습니다",
+      "pt": "Complete missões diárias e ganhe recompensas generosas."
+    }
+  },
+  {
+    "id": 11,
+    "content": {
+      "ru": "Участвуйте в рейдах и получайте щедрые награды.",
+      "en": "Join rallies to earn rich rewards.",
+      "de": "Nimm an Sammelangriffen teil, um reiche Belohnungen zu verdienen.",
+      "es": "Únete a las reuniones para ganar valiosas recompensas.",
+      "fr": "Rejoignez les ralliements pour gagner de précieuses récompenses.",
+      "id": "Reli untuk dapatkan banyak hadiah",
+      "ja": "ラリーに参加すると、多くの報酬を獲得できます",
+      "ko": "집결에 참여하면 많은 보상을 획득할 수 있습니다",
+      "pt": "Participe de Mobilizações e ganhe recompensas generosas."
+    }
+  },
+  {
+    "id": 12,
+    "content": {
+      "ru": "Участвуйте в событиях, чтобы получить щедрые награды.",
+      "en": "Participate in events to receive generous rewards.",
+      "de": "Beteilige dich an Events, um großzügige Belohnungen zu erhalten.",
+      "es": "Participa en eventos para recibir grandes recompensas.",
+      "fr": "Participez aux événements pour recevoir de somptueuses récompenses.",
+      "id": "Ikuti event untuk raih imbalan besar",
+      "ja": "イベントに参加すると、豊富な報酬を獲得できます",
+      "ko": "이벤트에 참여하여 풍성한 보상을 획득하세요",
+      "pt": "Participe de eventos para receber recompensas generosas."
+    }
+  },
+  {
+    "id": 13,
+    "content": {
+      "ru": "Нанимайте больше героев в Таверне.",
+      "en": "Acquire more Heroes in the Tavern.",
+      "de": "Erwerbe mehr Helden in der Taverne.",
+      "es": "Consigue más héroes en la Taberna.",
+      "fr": "Recrutez davantage de héros à la Taverne.",
+      "id": "Dapatkan lebih banyak hero di Kedai",
+      "ja": "酒場では、より多くの英雄を獲得できます",
+      "ko": "선술집에서 더 많은 영웅을 얻을 수 있습니다",
+      "pt": "Adquira mais Heróis na Taverna."
+    }
+  },
+  {
+    "id": 14,
+    "content": {
+      "ru": "Получайте щедрые награды в Соколиной башне.",
+      "en": "Obtain abundant rewards in the Falcon Tower.",
+      "de": "Erhalte reichliche Belohnungen im Falkenturm.",
+      "es": "Obtén recompensas a espuertas en la Torre del halcón.",
+      "fr": "Gagnez de généreuses récompenses dans la Tour du faucon.",
+      "id": "Raih banyak hadiah dari Menara Raven",
+      "ja": "ファルコンタワーで大量の報酬を獲得しましょう",
+      "ko": "팔콘 타워를 통해 풍성한 보상을 획득하세요",
+      "pt": "Obtenha recompensas abundantes na Torre do Falcão."
+    }
+  },
+  {
+    "id": 15,
+    "content": {
+      "ru": "Участвуйте в событиях альянса и получайте ценные награды.",
+      "en": "Participate in alliance events for generous rewards.",
+      "de": "Nimm an Allianz-Events für großzügige Belohnungen teil.",
+      "es": "Participa en eventos de alianza para obtener recompensas por montones.",
+      "fr": "Participez aux événements d\\'alliance pour recevoir de généreuses récompenses.",
+      "id": "Ikuti aktivitas Guild untuk dapatkan hadiah melimpah",
+      "ja": "ギルドイベントに参加して豊富な報酬を獲得しましょう",
+      "ko": "길드 이벤트에 참여하여 풍성한 보상 획득하세요",
+      "pt": "Participe de eventos da aliança para recompensas generosas."
+    }
+  },
+  {
+    "id": 16,
+    "content": {
+      "ru": "Вступите в альянс и поддерживайте друг друга.",
+      "en": "Join an alliance and support each other.",
+      "de": "Tritt einer Allianz bei und unterstützt euch gegenseitig.",
+      "es": "Únete a una alianza y apóyense mutuamente.",
+      "fr": "Rejoignez une alliance et entraidez-vous.",
+      "id": "Bergabung dengan Guild, saling membantu",
+      "ja": "ギルドに加入してメンバー同士で助け合いましょう",
+      "ko": "길드에 가입하여 서로 도울 수 있습니다",
+      "pt": "Junte-se a uma aliança e ajudem uns aos outros."
+    }
+  }
+]
