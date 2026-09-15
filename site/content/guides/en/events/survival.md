@@ -22,8 +22,8 @@ Skill Badges are the permanent bottleneck across all hero skill trees. This guid
 
 | Category | How Points Are Earned |
 |---|---|
-| **Raven Missions & Radar** | Points are awarded for **spending energy (stamina)** on Raven missions, as well as feeding the Raven Guardian, consuming Raven Fruits, applying Essence, and opening Epigraph chests. |
-| **Train Soldiers** | Queueing recruits in barracks and starting promotions of existing units to higher tiers. |
+| **Spend Energy & Raven Missions** | Points are awarded **directly for spending energy (stamina)** on Raven missions and hunting infected, as well as feeding the Raven Guardian, consuming Raven Fruits, applying Essence, and opening Epigraph chests. |
+| **Train Soldiers** | Queueing recruits in barracks and starting promotions of existing units to higher tiers (points awarded upon queueing!). |
 | **Research Tech** | Finalizing Laboratory technologies, increasing scientific Might, burning speedup minutes. |
 | **Build Territory** | Completing structures, elevating Sanctuary level, increasing construction Might. |
 | **Enhance Heroes** | Leveling heroes (Antitoxin), upgrading skills (Skill Badges), and star ascension (Omni Shards). |
@@ -35,8 +35,8 @@ Skill Badges are the permanent bottleneck across all hero skill trees. This guid
 The central operational rule: **never spend high-value resources outside the active matching phase!**
 
 1. All event phases feature standard baseline point rates (there are no hidden "double point" events).
-2. Points are awarded **only for actions that match the currently active 4-hour category**. If "Train Soldiers" is active, building or research speedups contribute zero event points.
-3. Deploy building, research, and training speedups **strictly when the 4-hour Survival Battle phase aligns with the active Alliance Duel day** (e.g., training speedups on Friday during "Train Soldiers"). This allows you to claim milestone chests from both events simultaneously!
+2. Points are awarded **only for actions that match the currently active 4-hour category**. If "Train Soldiers" is active, building, research speedups, or spending energy contribute zero event points. Energy spending scores points strictly during the Raven phase!
+3. Deploy building, research, and training speedups **strictly when the 4-hour Survival Battle phase aligns with the active Alliance Duel day** (e.g., energy spending on Monday during Raven phase, training speedups on Friday during "Train Soldiers"). This allows you to claim milestone chests from both events simultaneously!
 
 ---
 
@@ -80,6 +80,7 @@ A standout high-efficiency milestone clears for exactly **30 Recruitment Tickets
 
 | Resource / Action | Survival Battle | Alliance Duel | Optimal Strategy |
 |---|---|---|---|
+| **Energy (Stamina) & Raven** | Points for **spending energy** on Raven missions & Raven Fruits | Phase 1 (Monday — Enhance Raven) | Bank stamina potions & Raven Fruits for Monday. Burn energy on radar tasks during the 4-hour Raven phase — double dip points for both events! |
 | **Research** | Badge milestone | Phase 3 (Wednesday) | Bank scrolls for Wednesday; clear Survival Battle using scroll-free tech nodes. |
 | **Recruit Tickets** | 30-ticket milestone | Phase 4 (Thursday) | Spend exactly 30 tickets if milestone active; funnel remaining tickets to Thursday. |
 | **Training Speedups** | Training milestone | Phase 5 (Friday) | Queue recruitment and use speedups on Friday during matching "Train Soldiers" phases. |
@@ -92,7 +93,9 @@ A standout high-efficiency milestone clears for exactly **30 Recruitment Tickets
 
 1. Audit your server's unique mission rotation every Monday morning.
 2. Partition resources between Alliance Duel prerequisites and Survival Battle thresholds.
-3. Spend resources and speedups strictly within the matching active 4-hour phase.
-4. Queue soldier training **strictly after the training phase has started** (points are awarded upon queueing!).
-5. Train highest unlocked tier (T7–T10) or promote existing troops.
-6. Sweep all milestone chests to secure your ~60,000 Skill Badges before the weekly reset (00:00 Server Time / 02:00 UTC).
+3. **Spend energy on Raven missions** strictly during the active 4-hour Raven phase: points are awarded directly for stamina expenditure!
+4. Bank stamina potions and Raven Fruits for Monday to synchronize energy spending with Alliance Duel Phase 1.
+5. Spend speedups and construction resources strictly within the matching active 4-hour phase.
+6. Queue soldier training **strictly after the training phase has started** (points are awarded upon queueing!).
+7. Train highest unlocked tier (T7–T10) or promote existing troops.
+8. Sweep all milestone chests to secure your ~60,000 Skill Badges before the weekly reset (00:00 Server Time / 02:00 UTC).
