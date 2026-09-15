@@ -130,7 +130,7 @@ const dictServer: Record<string, string> = {
             <span>⭐</span>
             <span id="bm-header-badge" class="hidden rounded-full bg-toxic-400 px-1.5 py-0.2 text-[10px] font-bold text-black leading-none">0</span>
           </button>
-          <div id="bm-header-dropdown" class="absolute right-0 top-full mt-3 hidden w-72 sm:w-80 overflow-hidden rounded-2xl border border-stone-800 bg-[#0c0c0b]/95 p-3 shadow-2xl backdrop-blur-2xl z-50">
+          <div id="bm-header-dropdown" class="absolute right-0 top-full mt-3 hidden w-72 sm:w-80 overflow-hidden rounded-2xl border border-stone-800 bg-[#121211] p-3 shadow-2xl shadow-black/90 ring-1 ring-white/10 z-50">
             <div class="flex items-center justify-between border-b border-stone-800/80 pb-2 mb-2 px-1">
               <span class="text-xs font-bold text-white flex items-center gap-1.5">
                 <span>⭐</span>
@@ -148,10 +148,10 @@ const dictServer: Record<string, string> = {
           <button id="lang-toggle" class="inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-white/[0.06] px-3 py-2 text-sm text-stone-300 hover:bg-white/10 transition" aria-label="Select language">
             🌐 <span class="hidden sm:inline">{langNames[lang]}</span> <span class="text-stone-500 text-xs">▾</span>
           </button>
-          <div id="lang-menu" class="absolute right-0 top-full mt-3 hidden w-56 overflow-hidden rounded-2xl glass p-1.5 shadow-2xl z-50">
+          <div id="lang-menu" class="absolute right-0 top-full mt-3 hidden w-56 overflow-hidden rounded-2xl border border-stone-800 bg-[#121211] p-1.5 shadow-2xl shadow-black/90 ring-1 ring-white/10 z-50">
             {langHrefs.map((l) => (
-              <a href={l.href} class:list={['flex items-center justify-between rounded-xl px-3 py-2 text-sm transition', l.lang === lang ? 'bg-white text-black font-medium' : 'text-stone-300 hover:bg-white/5 hover:text-white']}>
-                <span>{langNames[l.lang]}</span> <span class="text-xs opacity-50 font-mono">{l.lang.toUpperCase()}</span>
+              <a href={l.href} class:list={['flex items-center justify-between rounded-xl px-3 py-2 text-sm transition', l.lang === lang ? 'bg-white text-black font-semibold shadow-sm' : 'text-stone-300 hover:bg-white/10 hover:text-white']}>
+                <span>{langNames[l.lang]}</span> <span class:list={['text-xs font-mono', l.lang === lang ? 'text-black/60 font-bold' : 'text-stone-500']}>{l.lang.toUpperCase()}</span>
               </a>
             ))}
           </div>
@@ -263,6 +263,10 @@ const dictServer: Record<string, string> = {
     menuToggle?.addEventListener('click', () => {
       const isHidden = mobileMenu?.classList.toggle('hidden');
       if (menuToggle) menuToggle.textContent = isHidden ? '☰' : '✕';
+      if (!isHidden) {
+        langMenu?.classList.add('hidden');
+        bmDropdown?.classList.add('hidden');
+      }
     });
 
     const langToggle = document.getElementById('lang-toggle');
@@ -278,6 +282,10 @@ const dictServer: Record<string, string> = {
       e.stopPropagation();
       langMenu?.classList.toggle('hidden');
       bmDropdown?.classList.add('hidden');
+      if (mobileMenu && !mobileMenu.classList.contains('hidden')) {
+        mobileMenu.classList.add('hidden');
+        if (menuToggle) menuToggle.textContent = '☰';
+      }
     });
 
     // Bookmarks Dropdown & State
