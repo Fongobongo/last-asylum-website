@@ -10,35 +10,35 @@ const { lang } = Astro.props;
 const isRu = lang === 'ru';
 
 const T = {
-  restrictedBadge: isRu ? 'ЗАКРЫТЫЙ СЕКТОР АЛЬЯНСА' : 'RESTRICTED ALLIANCE SECTOR',
-  hubTitle: isRu ? 'Штаб гильдии DND' : 'DND Guild Headquarters',
+  restrictedBadge: isRu ? 'АКТУАЛЬНАЯ ИНФОРМАЦИЯ АЛЬЯНСА' : 'ALLIANCE LIVE INFO',
+  hubTitle: isRu ? 'Актуальная информация альянса' : 'Alliance Live Info',
   hubSubtitle: isRu
-    ? 'Координация альянса, тактические голосования и секретные военные директивы.'
-    : 'Alliance coordination, tactical polls, and classified battle directives.',
-  enterNickTitle: isRu ? 'Доступ в штаб DND' : 'DND Headquarters Access',
+    ? 'Координация альянса, тактические голосования, расписание событий и боевые директивы.'
+    : 'Alliance coordination, tactical polls, event schedules, and battle directives.',
+  enterNickTitle: isRu ? 'Игровой никнейм' : 'In-game Nickname',
   enterNickDesc: isRu
-    ? 'Для входа в закрытый сектор введите пароль альянса и ваш игровой никнейм.'
-    : 'Enter alliance access password and your in-game nickname to enter restricted sector.',
-  passLabel: isRu ? 'Пароль доступа альянса' : 'Alliance Access Password',
-  passPlaceholder: isRu ? 'Введите пароль альянса...' : 'Enter alliance password...',
+    ? 'Укажите ваш игровой никнейм для участия в голосованиях и чек-ине альянса.'
+    : 'Enter your in-game nickname to participate in alliance polls and event RSVP.',
+  passLabel: isRu ? 'Пароль администратора' : 'Admin Password',
+  passPlaceholder: isRu ? 'Пароль для управления...' : 'Management password...',
   nickPlaceholder: isRu ? 'Ваш игровой ник (например: Viper_99)' : 'Your in-game nickname (e.g. Viper_99)',
   nickLabel: isRu ? 'Игровой никнейм' : 'In-game nickname',
-  enterBtn: isRu ? 'Войти в штаб →' : 'Enter Headquarters →',
+  enterBtn: isRu ? 'Сохранить никнейм' : 'Save Nickname',
   showPassBtn: isRu ? 'Показать' : 'Show',
   hidePassBtn: isRu ? 'Скрыть' : 'Hide',
   wrongPassMember: isRu
-    ? 'Неверный пароль альянса. Обратитесь к офицерам или лидеру.'
-    : 'Invalid alliance password. Contact your officers or leader.',
+    ? 'Неверный пароль администратора.'
+    : 'Invalid admin password.',
   nickCookieNote: isRu
-    ? 'Авторизация и никнейм сохраняются в браузере для подтверждения ваших голосов.'
-    : 'Authorization and nickname are saved in browser cookies to verify your votes.',
+    ? 'Никнейм сохраняется в браузере для подтверждения ваших голосов и отметок в строю.'
+    : 'Nickname is saved in browser to verify your votes and check-ins.',
   memberBadge: isRu ? 'Боец альянса' : 'Alliance Member',
   onlineStatus: isRu ? 'В сети' : 'Online',
   changeNickBtn: isRu ? 'Сменить ник' : 'Change Nick',
-  logoutBtn: isRu ? 'Выйти' : 'Log out',
+  logoutBtn: isRu ? 'Сбросить ник' : 'Reset Nick',
   adminBtn: isRu ? '⚙️ Админка' : '⚙️ Admin',
   tabPolls: isRu ? 'Голосования' : 'Polls & Votes',
-  tabIntel: isRu ? 'Военные протоколы (DND)' : 'Classified Intel (DND)',
+  tabIntel: isRu ? 'Военные протоколы' : 'Battle Protocols',
   pollsTitle: isRu ? 'Тактические голосования' : 'Tactical Polls',
   pollsSubtitle: isRu
     ? 'Принимайте решения вместе с альянсом. Голосуйте за цели KvK, расписание сборов и приоритеты.'
@@ -75,10 +75,10 @@ const T = {
   resetDataBtn: isRu ? 'Сбросить к исходным' : 'Reset to defaults',
   exportBtn: isRu ? 'Экспорт JSON' : 'Export JSON',
   importBtn: isRu ? 'Импорт JSON' : 'Import JSON',
-  intelTitle: isRu ? 'Секретный архив альянса' : 'Alliance Classified Intel',
+  intelTitle: isRu ? 'Военные протоколы и директивы' : 'Alliance Protocols & Directives',
   intelSubtitle: isRu
-    ? 'Шифрованные военные протоколы, распределение ролей и инструкции лидеров.'
-    : 'Encrypted battle protocols, role assignments, and leadership directives.',
+    ? 'Боевые протоколы, порядок сбора на цели, график дежурств и тактические указания.'
+    : 'Battle protocols, rally orders, KvK shifts, and tactical directives.',
   decryptTitle: isRu ? 'Дешифрование архива' : 'Decrypt Archive',
   decryptDesc: isRu
     ? 'Архив зашифрован AES-256-GCM. Введите секретную кодовую фразу альянса для расшифровки.'
@@ -86,7 +86,7 @@ const T = {
   passphrasePlaceholder: isRu ? 'Кодовая фраза альянса' : 'Alliance passphrase',
   unlockBtn: isRu ? 'Расшифровать' : 'Decrypt',
   wrongPassErr: isRu ? 'Неверная кодовая фраза или файл архива отсутствует.' : 'Wrong passphrase or archive payload is missing.',
-  defaultIntelTitle: isRu ? 'Базовый протокол обороны альянса' : 'Standard Alliance Defense Protocol',
+  defaultIntelTitle: isRu ? 'Базовый протокол обороны и сборов' : 'Standard Alliance Defense Protocol',
   rallyOrderTitle: isRu ? 'Порядок сбора (Rally order)' : 'Rally Order',
   rally1: isRu ? '1. Разведчики отмечают цель и докладывают состав гарнизона' : '1. Scouts identify target and report garrison composition',
   rally2: isRu ? '2. Первыми слот заполняют танки и защитные герои (Arthur, Daskal)' : '2. Tanks and defensive heroes fill first (Arthur, Daskal)',
@@ -96,14 +96,14 @@ const T = {
   squadCol: isRu ? 'Отряд' : 'Squad',
   missionCol: isRu ? 'Задача' : 'Objective',
   // Admin Panel strings
-  adminModalTitle: isRu ? 'Панель управления альянса DND' : 'DND Alliance Admin Panel',
+  adminModalTitle: isRu ? 'Панель управления альянса' : 'Alliance Admin Panel',
   adminLoginPrompt: isRu ? 'Вход для администратора' : 'Admin Login',
-  adminLoginDesc: isRu ? 'Введите мастер-пароль администратора для управления доступом и опросами.' : 'Enter admin master password to manage access and polls.',
+  adminLoginDesc: isRu ? 'Введите мастер-пароль администратора для управления директивой и опросами.' : 'Enter admin master password to manage directive and polls.',
   adminMasterPassLabel: isRu ? 'Мастер-пароль администратора' : 'Admin Master Password',
   adminMasterPassPlaceholder: isRu ? 'Пароль администратора...' : 'Admin password...',
   adminLoginBtn: isRu ? 'Войти в панель →' : 'Enter Admin Panel →',
   adminWrongPass: isRu ? 'Неверный пароль администратора.' : 'Invalid admin password.',
-  adminSecPassTitle: isRu ? '🔑 1. Пароль доступа для участников (/dnd)' : '🔑 1. Member Access Password (/dnd)',
+  adminSecPassTitle: isRu ? '🔑 1. Пароль доступа для участников' : '🔑 1. Member Access Password',
   adminCurrentPassLabel: isRu ? 'Текущий пароль:' : 'Current password:',
   adminNewPassPlaceholder: isRu ? 'Новый пароль альянса...' : 'New alliance password...',
   adminSavePassBtn: isRu ? 'Сохранить новый пароль' : 'Save New Password',
@@ -113,7 +113,7 @@ const T = {
   adminNewMasterPlaceholder: isRu ? 'Новый пароль админа...' : 'New admin password...',
   adminSaveMasterBtn: isRu ? 'Обновить пароль админа' : 'Update Admin Password',
   adminSecDirectiveTitle: isRu ? '📢 3. Оперативная директива альянса' : '📢 3. Tactical Alliance Directive',
-  adminDirectiveDesc: isRu ? 'Этот приказ сразу отображается всем бойцам во вкладке «Военные протоколы».' : 'This directive is immediately displayed to all members in Classified Intel tab.',
+  adminDirectiveDesc: isRu ? 'Этот приказ сразу отображается всем бойцам во вкладке «Военные протоколы».' : 'This directive is immediately displayed to all members in Battle Protocols tab.',
   adminDirectivePlaceholder: isRu ? 'Внимание альянсу! В субботу в 19:00 сбор на форт...' : 'Attention alliance! Saturday 19:00 rally for fort...',
   adminSaveDirectiveBtn: isRu ? 'Опубликовать директиву' : 'Publish Directive',
   adminSecWebhookTitle: isRu ? '💬 4. Интеграция с Discord (Webhook)' : '💬 4. Discord Webhook Integration',
@@ -143,15 +143,15 @@ const T = {
       </div>
     </div>
 
-    <!-- Authorized Member Quick Bar (Shown when logged in) -->
-    <div id="gh-member-bar" class="hidden flex flex-wrap items-center gap-3">
+    <!-- Member Quick Bar (Always shown) -->
+    <div id="gh-member-bar" class="flex flex-wrap items-center gap-3">
       <div class="flex items-center gap-2 rounded-xl border border-stone-800 bg-stone-950/80 px-3.5 py-1.5 text-sm">
         <span class="flex h-6 w-6 items-center justify-center rounded-full bg-toxic-500/20 text-xs font-bold text-toxic-300">
           ⚔️
         </span>
         <div>
           <span class="text-stone-400 text-xs">{T.memberBadge}:</span>
-          <strong id="gh-current-nick" class="ml-1 text-white font-semibold">...</strong>
+          <strong id="gh-current-nick" class="ml-1 text-white font-semibold">{isRu ? 'Гость' : 'Guest'}</strong>
         </div>
         <span class="ml-1 rounded-full bg-toxic-500/20 px-1.5 py-0.5 text-[10px] font-mono text-toxic-300">
           ● {T.onlineStatus}
@@ -159,106 +159,35 @@ const T = {
       </div>
 
       <button
-        id="gh-btn-open-admin-from-bar"
+        id="gh-btn-set-nick"
         type="button"
         class="rounded-lg border border-toxic-500/40 bg-stone-900 px-3 py-1.5 text-xs font-bold text-toxic-300 hover:bg-toxic-500/20 hover:border-toxic-400 transition-colors cursor-pointer"
       >
-        {T.adminBtn}
+        {isRu ? 'Указать ник' : 'Set Nick'}
       </button>
 
       <button
         id="gh-btn-change-nick"
         type="button"
-        class="rounded-lg border border-stone-700 bg-stone-800/80 px-3 py-1.5 text-xs font-medium text-stone-300 hover:border-stone-600 hover:text-white transition-colors cursor-pointer"
+        class="hidden rounded-lg border border-stone-700 bg-stone-800/80 px-3 py-1.5 text-xs font-medium text-stone-300 hover:border-stone-600 hover:text-white transition-colors cursor-pointer"
       >
         {T.changeNickBtn}
       </button>
 
       <button
-        id="gh-btn-logout"
+        id="gh-btn-open-admin-from-bar"
         type="button"
-        class="rounded-lg border border-stone-800 bg-stone-900/60 px-3 py-1.5 text-xs font-medium text-stone-400 hover:border-red-800/50 hover:text-red-400 transition-colors cursor-pointer"
+        class="rounded-lg border border-stone-800 bg-stone-900 px-3 py-1.5 text-xs font-medium text-stone-400 hover:text-toxic-300 hover:border-toxic-500/40 transition-colors cursor-pointer"
       >
-        {T.logoutBtn}
+        {T.adminBtn}
       </button>
     </div>
   </div>
 
-  <!-- STATE 1: LOGIN / ENTER PASSWORD & NICKNAME (When not authorized) -->
-  <div id="gh-login-screen" class="hidden">
-    <div class="mx-auto max-w-lg rounded-3xl border border-stone-800 bg-gradient-to-b from-stone-900/95 to-stone-950 p-8 shadow-2xl backdrop-blur-xl">
-      <div class="mb-6 text-center">
-        <div class="mx-auto mb-3 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-toxic-500/20 to-plague-600/20 border border-toxic-400/40 text-3xl shadow-[0_0_25px_rgba(180,255,57,0.2)]">
-          🛡️
-        </div>
-        <div class="inline-block rounded-full bg-toxic-500/10 border border-toxic-500/30 px-3 py-0.5 text-[11px] font-mono text-toxic-300 uppercase tracking-widest mb-2">
-          {T.restrictedBadge}
-        </div>
-        <h2 class="text-2xl font-bold tracking-tight text-white">{T.enterNickTitle}</h2>
-        <p class="mt-2 text-sm leading-relaxed text-stone-400">{T.enterNickDesc}</p>
-      </div>
+  <div id="gh-login-screen" class="hidden"></div>
 
-      <form id="gh-login-form" class="space-y-4">
-        <!-- Alliance Access Password Field -->
-        <div id="gh-group-pass">
-          <label for="gh-input-pass" class="mb-1.5 flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-stone-300">
-            <span>{T.passLabel} <span class="text-toxic-400">*</span></span>
-            <button type="button" id="gh-toggle-pwd-btn" class="text-[11px] text-stone-400 hover:text-toxic-300 transition cursor-pointer">
-              👁️ {T.showPassBtn}
-            </button>
-          </label>
-          <input
-            id="gh-input-pass"
-            type="password"
-            required
-            autocomplete="current-password"
-            placeholder={T.passPlaceholder}
-            class="w-full rounded-xl border border-stone-700 bg-stone-950 px-4 py-3 text-stone-100 placeholder-stone-600 outline-none transition focus:border-toxic-400 focus:ring-1 focus:ring-toxic-400 font-medium"
-          />
-        </div>
-
-        <!-- Nickname Field -->
-        <div id="gh-group-nick">
-          <label for="gh-input-nick" class="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-stone-300">
-            {T.nickLabel} <span class="text-toxic-400">*</span>
-          </label>
-          <input
-            id="gh-input-nick"
-            type="text"
-            required
-            minlength="2"
-            maxlength="32"
-            autocomplete="nickname"
-            placeholder={T.nickPlaceholder}
-            class="w-full rounded-xl border border-stone-700 bg-stone-950 px-4 py-3 text-stone-100 placeholder-stone-600 outline-none transition focus:border-toxic-400 focus:ring-1 focus:ring-toxic-400 font-medium"
-          />
-        </div>
-
-        <p id="gh-login-error" class="hidden rounded-lg bg-red-950/60 border border-red-800/60 p-2.5 text-center text-xs font-medium text-red-300"></p>
-
-        <button
-          type="submit"
-          class="w-full rounded-xl bg-gradient-to-r from-plague-600 to-toxic-500 py-3.5 text-sm font-bold text-black shadow-[0_0_25px_rgba(180,255,57,0.3)] transition hover:brightness-110 active:scale-[0.99] cursor-pointer"
-        >
-          {T.enterBtn}
-        </button>
-
-        <div class="pt-3 border-t border-stone-800/80 flex flex-col items-center gap-2 text-center text-xs text-stone-500">
-          <p>🔒 {T.nickCookieNote}</p>
-          <button
-            type="button"
-            id="gh-btn-open-admin-from-login"
-            class="mt-1 inline-flex items-center gap-1.5 rounded-lg border border-stone-800 bg-stone-900/60 px-3 py-1.5 text-xs text-stone-400 hover:text-toxic-300 hover:border-toxic-500/40 transition cursor-pointer"
-          >
-            {T.adminBtn}
-          </button>
-        </div>
-      </form>
-    </div>
-  </div>
-
-  <!-- STATE 2: MAIN HUB CONTENT (Tabs: Polls & Classified Intel) -->
-  <div id="gh-main-content" class="hidden space-y-6">
+  <!-- STATE 2: MAIN HUB CONTENT (Tabs: Polls & Battle Protocols) -->
+  <div id="gh-main-content" class="space-y-6">
     <!-- Navigation Tabs -->
     <div class="flex border-b border-stone-800">
       <button
@@ -441,12 +370,12 @@ const T = {
       </div>
     </div>
 
-    <!-- TAB 2: CLASSIFIED INTEL / DND -->
-    <div id="gh-tab-view-intel" class="hidden space-y-6">
+    <!-- TAB 2: BATTLE PROTOCOLS & DIRECTIVES -->
+    <div id="gh-tab-view-intel" class="space-y-6">
       <div class="rounded-2xl border border-stone-800 bg-stone-900/60 p-6 backdrop-blur-md">
         <div class="mb-6">
-          <div class="inline-flex items-center gap-1.5 rounded-md bg-red-950/80 border border-red-500/30 px-2.5 py-1 text-xs font-mono font-bold text-red-300 uppercase">
-            Top Secret
+          <div class="inline-flex items-center gap-1.5 rounded-md bg-toxic-950/80 border border-toxic-500/30 px-2.5 py-1 text-xs font-mono font-bold text-toxic-300 uppercase">
+            ⚔️ {isRu ? 'Боевые протоколы' : 'Battle Protocols'}
           </div>
           <h2 class="mt-2 text-xl font-bold text-white">{T.intelTitle}</h2>
           <p class="mt-1 text-sm text-stone-400">{T.intelSubtitle}</p>
@@ -464,35 +393,11 @@ const T = {
           <div id="gh-directive-text" class="text-sm text-stone-200 leading-relaxed whitespace-pre-wrap"></div>
         </div>
 
-        <!-- AES Passphrase Decrypt Box -->
-        <div class="mb-8 rounded-xl border border-stone-800 bg-stone-950 p-5">
-          <h3 class="text-sm font-bold text-plague-200">{T.decryptTitle}</h3>
-          <p class="mt-1 text-xs text-stone-400 leading-relaxed">{T.decryptDesc}</p>
-          <div class="mt-4 flex flex-col sm:flex-row gap-3">
-            <input
-              id="dnd-key"
-              type="password"
-              placeholder={T.passphrasePlaceholder}
-              class="flex-1 rounded-xl border border-stone-700 bg-stone-900 px-4 py-2.5 text-sm text-stone-100 placeholder-stone-600 outline-none focus:border-toxic-400"
-            />
-            <button
-              id="dnd-unlock"
-              type="button"
-              class="rounded-xl bg-plague-700 px-5 py-2.5 text-sm font-bold text-plague-50 hover:bg-plague-600 transition cursor-pointer"
-            >
-              {T.unlockBtn}
-            </button>
-          </div>
-          <p id="dnd-error" class="mt-3 hidden text-xs font-medium text-red-400">
-            ⚠️ {T.wrongPassErr}
-          </p>
-        </div>
-
-        <!-- Decrypted output container -->
+        <!-- Decrypted output container (if archive loaded) -->
         <div id="dnd-content" class="prose-la hidden rounded-xl border border-stone-800 bg-stone-950/90 p-6 mb-8"></div>
 
-        <!-- Always-available default Defense Protocol -->
-        <div id="dnd-default-protocol" class="space-y-6 border-t border-stone-800/80 pt-6">
+        <!-- Open Defense Protocol -->
+        <div id="dnd-default-protocol" class="space-y-6 mb-8">
           <div>
             <h3 class="text-base font-bold text-toxic-300 flex items-center gap-2">
               <span>📋</span> {T.defaultIntelTitle}
@@ -552,6 +457,34 @@ const T = {
             </div>
           </div>
         </div>
+
+        <!-- Optional Decryption Box for payload.enc -->
+        <details class="rounded-xl border border-stone-800/80 bg-stone-950/40 p-4">
+          <summary class="text-xs font-semibold text-stone-400 cursor-pointer hover:text-toxic-300 transition select-none">
+            🔒 {isRu ? 'Расшифровать дополнительный архив (AES-256)' : 'Decrypt additional archive (AES-256)'}
+          </summary>
+          <div class="mt-4 pt-3 border-t border-stone-800/60 space-y-3">
+            <p class="text-xs text-stone-400 leading-relaxed">{T.decryptDesc}</p>
+            <div class="flex flex-col sm:flex-row gap-3">
+              <input
+                id="dnd-key"
+                type="password"
+                placeholder={T.passphrasePlaceholder}
+                class="flex-1 rounded-xl border border-stone-700 bg-stone-900 px-4 py-2.5 text-sm text-stone-100 placeholder-stone-600 outline-none focus:border-toxic-400"
+              />
+              <button
+                id="dnd-unlock"
+                type="button"
+                class="rounded-xl bg-plague-700 px-5 py-2.5 text-sm font-bold text-plague-50 hover:bg-plague-600 transition cursor-pointer"
+              >
+                {T.unlockBtn}
+              </button>
+            </div>
+            <p id="dnd-error" class="mt-2 hidden text-xs font-medium text-red-400">
+              ⚠️ {T.wrongPassErr}
+            </p>
+          </div>
+        </details>
       </div>
     </div>
   </div>
@@ -973,38 +906,32 @@ const T = {
 
   // --- UI Update Functions ---
   function updateUI() {
-    const isAuthed = isMemberAuthed();
     const nick = getPlayerNick();
 
     const loginScreen = document.getElementById('gh-login-screen');
     const mainContent = document.getElementById('gh-main-content');
     const memberBar = document.getElementById('gh-member-bar');
     const currentNickEl = document.getElementById('gh-current-nick');
-    const passGroup = document.getElementById('gh-group-pass');
-    const passInput = document.getElementById('gh-input-pass') as HTMLInputElement | null;
+    const setNickBtn = document.getElementById('gh-btn-set-nick');
+    const changeNickBtn = document.getElementById('gh-btn-change-nick');
 
-    if (!isAuthed || !nick) {
-      loginScreen?.classList.remove('hidden');
-      mainContent?.classList.add('hidden');
-      memberBar?.classList.add('hidden');
+    // Section is open to everyone!
+    loginScreen?.classList.add('hidden');
+    mainContent?.classList.remove('hidden');
+    memberBar?.classList.remove('hidden');
 
-      if (isAuthed) {
-        // Already verified password earlier, only nick is needed
-        if (passGroup) passGroup.classList.add('hidden');
-        if (passInput) passInput.required = false;
-      } else {
-        if (passGroup) passGroup.classList.remove('hidden');
-        if (passInput) passInput.required = true;
-      }
-    } else {
-      loginScreen?.classList.add('hidden');
-      mainContent?.classList.remove('hidden');
-      memberBar?.classList.remove('hidden');
+    if (nick) {
       if (currentNickEl) currentNickEl.textContent = nick;
-
-      renderPollsList();
-      renderDirective();
+      setNickBtn?.classList.add('hidden');
+      changeNickBtn?.classList.remove('hidden');
+    } else {
+      if (currentNickEl) currentNickEl.textContent = isRu ? 'Гость' : 'Guest';
+      setNickBtn?.classList.remove('hidden');
+      changeNickBtn?.classList.add('hidden');
     }
+
+    renderPollsList();
+    renderDirective();
   }
 
   function renderDirective() {
@@ -1186,10 +1113,13 @@ const T = {
         const pollId = (e.currentTarget as HTMLElement).dataset.pollId;
         if (!pollId) return;
 
-        const currentNick = getPlayerNick();
+        let currentNick = getPlayerNick();
         if (!currentNick) {
+          const entered = prompt(isRu ? 'Введите ваш игровой никнейм для голосования:' : 'Enter your in-game nickname to vote:');
+          if (!entered || !entered.trim()) return;
+          currentNick = entered.trim();
+          setPlayerNick(currentNick);
           updateUI();
-          return;
         }
 
         const selectedInputs = Array.from(
@@ -1422,12 +1352,22 @@ const T = {
       }
     });
 
+    document.getElementById('gh-btn-set-nick')?.addEventListener('click', () => {
+      const entered = prompt(isRu ? 'Введите ваш игровой никнейм:' : 'Enter your in-game nickname:');
+      if (entered && entered.trim()) {
+        setPlayerNick(entered.trim());
+        updateUI();
+        renderRoster();
+      }
+    });
+
     document.getElementById('gh-btn-change-nick')?.addEventListener('click', () => {
       const current = getPlayerNick() || '';
-      const next = prompt('Введите новый игровой никнейм:', current);
+      const next = prompt(isRu ? 'Введите новый игровой никнейм:' : 'Enter new nickname:', current);
       if (next && next.trim() && next.trim() !== current) {
         setPlayerNick(next.trim());
         updateUI();
+        renderRoster();
       }
     });
 
@@ -1575,7 +1515,7 @@ const T = {
       }
 
       try {
-        const curNick = getMemberNick() || 'Командование DND';
+        const curNick = getPlayerNick() || 'Командование альянса';
         const res = await fetch(webhookUrl, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -1590,7 +1530,7 @@ const T = {
                   { name: '👤 Автор', value: curNick, inline: true },
                   { name: '🕒 Время', value: now, inline: true },
                 ],
-                footer: { text: 'Штаб альянса DND • Last Asylum Fan Portal' },
+                footer: { text: 'Информация альянса • Last Asylum' },
               },
             ],
           }),
@@ -1730,7 +1670,7 @@ const T = {
     }
 
     function renderRoster() {
-      const myNick = getCurrentNick() || 'Warrior';
+      const myNick = getPlayerNick() || (isRu ? 'Гость' : 'Guest');
       const myNickEl = document.getElementById('gh-rsvp-my-nick');
       if (myNickEl) myNickEl.textContent = myNick;
 
@@ -1785,16 +1725,23 @@ const T = {
     document.querySelectorAll<HTMLButtonElement>('.gh-rsvp-choice-btn').forEach((btn) => {
       btn.addEventListener('click', () => {
         const status = (btn.dataset.rsvp as any) || 'ready';
-        const myNick = getCurrentNick() || 'Warrior';
+        let myNick = getPlayerNick();
+        if (!myNick) {
+          const entered = prompt(isRu ? 'Введите ваш игровой никнейм для отметки в строю:' : 'Enter your in-game nickname:');
+          if (!entered || !entered.trim()) return;
+          myNick = entered.trim();
+          setPlayerNick(myNick);
+          updateUI();
+        }
         const roster = getRoster();
-        const existingIdx = roster.findIndex((r) => r.nick.toLowerCase() === myNick.toLowerCase());
+        const existingIdx = roster.findIndex((r) => r.nick.toLowerCase() === myNick!.toLowerCase());
         const timeNow = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
 
         if (existingIdx >= 0) {
           roster[existingIdx].status = status;
           roster[existingIdx].time = timeNow;
         } else {
-          roster.unshift({ nick: myNick, status, time: timeNow });
+          roster.unshift({ nick: myNick!, status, time: timeNow });
         }
         saveRoster(roster);
         renderRoster();
@@ -1807,12 +1754,12 @@ const T = {
       const late = roster.filter((r) => r.status === 'late').map((r) => r.nick);
       const absent = roster.filter((r) => r.status === 'absent').map((r) => r.nick);
 
-      const text = `🛡️ **[DND] СОСТАВ НА ВОЙНУ / КАНЬОН**\n` +
+      const text = `🛡️ **СОСТАВ НА ВОЙНУ / КАНЬОН**\n` +
         `━━━━━━━━━━━━━━━━━━━━━━━━\n` +
         `✅ **ГОТОВЫ (${ready.length}):** ${ready.join(', ') || 'нет'}\n` +
         `⚠️ **ОПОЗДАЮТ (${late.length}):** ${late.join(', ') || 'нет'}\n` +
         `❌ **ОТСУТСТВУЮТ (${absent.length}):** ${absent.join(', ') || 'нет'}\n` +
-        `🌐 *Штаб альянса:* ${window.location.origin}/dnd/`;
+        `🌐 *Информация альянса:* ${window.location.origin}/dnd/`;
 
       const btn = document.getElementById('gh-btn-copy-roster');
       try {
@@ -1826,11 +1773,11 @@ const T = {
     document.getElementById('gh-btn-copy-discord-directive')?.addEventListener('click', async () => {
       const dirInput = document.getElementById('gh-admin-directive-input') as HTMLTextAreaElement | null;
       const text = dirInput?.value?.trim() || getStoredDirective();
-      const formatted = `🛡️ **[DND] ОПЕРАТИВНАЯ ДИРЕКТИВА АЛЬЯНСА**\n` +
+      const formatted = `🛡️ **ОПЕРАТИВНАЯ ДИРЕКТИВА АЛЬЯНСА**\n` +
         `━━━━━━━━━━━━━━━━━━━━━━━━\n` +
         `📢 **Приказ командования:**\n${text}\n\n` +
         `🕒 **Сбор:** за 15 минут до начала в голосовом канале\n` +
-        `🌐 **Штаб альянса [Чек-ин]:** ${window.location.origin}/dnd/`;
+        `🌐 **Информация альянса [Чек-ин]:** ${window.location.origin}/dnd/`;
 
       const btn = document.getElementById('gh-btn-copy-discord-directive');
       try {

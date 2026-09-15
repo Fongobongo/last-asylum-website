@@ -1,10 +1,5 @@
 ---
-// Hidden Guild / Alliance Headquarters: /dnd/
-// - Not in sitemap (excluded)
-// - noindex meta
-// - Cookie-based in-game nickname authorization
-// - Tactical polls creation and voting system
-// - Content encrypted with AES-GCM (DND collection)
+// Alliance Live Information & Tactical Hub: /dnd/
 import Base from '../layouts/Base.astro';
 import GuildHub from '../components/GuildHub.astro';
 import type { Lang } from '../i18n/utils';
@@ -12,7 +7,7 @@ import type { Lang } from '../i18n/utils';
 const lang: Lang = 'en';
 ---
 
-<Base lang={lang} path="/dnd/" title="Alliance Headquarters | DND Hub" description="Classified alliance operations, tactical polls, and defense directives" noindex={true}>
+<Base lang={lang} path="/dnd/" title="Alliance Live Info | Last Asylum" description="Alliance coordination, tactical polls, battle protocols, and event schedules">
   <section class="py-8 sm:py-12">
     <GuildHub lang={lang} />
   </section>

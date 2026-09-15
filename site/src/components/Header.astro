@@ -82,7 +82,7 @@ const dictServer: Record<string, string> = {
       </div>
       <span class="flex items-center gap-3">
         <a href={`${base}/dnd/`} class="inline-flex items-center gap-1 font-semibold text-toxic-400 hover:text-toxic-300 transition">
-          🛡️ {lang === 'ru' ? 'Штаб DND [🔒 Пароль]' : 'DND Hub [🔒 Password]'}
+          🛡️ {lang === 'ru' ? 'Информация альянса' : 'Alliance Live Info'}
         </a>
         <span class="text-stone-700 hidden sm:inline">|</span>
         <span class="hidden sm:inline">{t(lang, 'header.stats')}</span>
@@ -105,12 +105,10 @@ const dictServer: Record<string, string> = {
         <a
           href={`${base}/dnd/`}
           class="btn-glow inline-flex items-center gap-1.5 rounded-full border border-toxic-500/40 bg-stone-900/90 px-3 py-1.5 text-xs font-bold text-toxic-300 hover:border-toxic-400 hover:bg-toxic-500/15 shadow-[0_0_15px_rgba(180,255,57,0.15)] transition"
-          title={lang === 'ru' ? 'Закрытый штаб альянса (доступ по паролю)' : 'Alliance Headquarters (password protected)'}
+          title={lang === 'ru' ? 'Актуальная информация альянса: тактика, голосования, директивы' : 'Alliance live info: tactics, polls & directives'}
         >
           <span>🛡️</span>
-          <span class="hidden sm:inline">DND</span>
-          <span>{lang === 'ru' ? 'Штаб' : 'Hub'}</span>
-          <span class="text-[10px] text-toxic-400/80 font-mono">🔒</span>
+          <span>{lang === 'ru' ? 'Инфо альянса' : 'Alliance Info'}</span>
         </a>
 
         <button id="search-open" class="btn-glow hidden md:inline-flex items-center gap-2.5 rounded-full bg-white text-black px-4 py-2 text-sm font-medium hover:bg-stone-200">
@@ -208,11 +206,11 @@ const dictServer: Record<string, string> = {
         <div class="flex items-center gap-2.5">
           <span class="text-base">🛡️</span>
           <div>
-            <div class="font-bold text-toxic-300">{lang === 'ru' ? 'Штаб альянса DND' : 'DND Alliance Headquarters'}</div>
+            <div class="font-bold text-toxic-300">{lang === 'ru' ? 'Актуальная информация альянса' : 'Alliance Live Info'}</div>
             <div class="text-[10px] text-stone-400 font-normal">{lang === 'ru' ? 'Голосования, директивы и тактика' : 'Polls, battle orders & tactics'}</div>
           </div>
         </div>
-        <span class="rounded bg-stone-950/80 border border-toxic-500/30 px-2 py-0.5 font-mono text-[10px] text-toxic-400">🔒 {lang === 'ru' ? 'Пароль' : 'Password'}</span>
+        <span class="rounded bg-stone-950/80 border border-toxic-500/30 px-2 py-0.5 font-mono text-[10px] text-toxic-400">{lang === 'ru' ? 'Открыто' : 'Open'}</span>
       </a>
       <div class="grid grid-cols-2 gap-2">
         {navItems.map((item) => {

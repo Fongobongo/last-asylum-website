@@ -1,10 +1,5 @@
 ---
-// Hidden Guild / Alliance Headquarters: /id/dnd/
-// - Not in sitemap (excluded)
-// - noindex meta
-// - Cookie-based in-game nickname authorization
-// - Tactical polls creation and voting system
-// - Content encrypted with AES-GCM (DND collection)
+// Informasi Aliansi: /id/dnd/
 import Base from '../../layouts/Base.astro';
 import GuildHub from '../../components/GuildHub.astro';
 import type { Lang } from '../../i18n/utils';
@@ -12,7 +7,7 @@ import type { Lang } from '../../i18n/utils';
 const lang: Lang = 'id';
 ---
 
-<Base lang={lang} path="/id/dnd/" title="Markas Aliansi | DND Hub" description="Operasi rahasia aliansi, voting taktis, dan petunjuk pertahanan" noindex={true}>
+<Base lang={lang} path="/id/dnd/" title="Informasi Aliansi | Last Asylum" description="Koordinasi aliansi, voting taktis, dan petunjuk pertempuran">
   <section class="py-8 sm:py-12">
     <GuildHub lang={lang} />
   </section>
