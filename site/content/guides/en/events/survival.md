@@ -22,7 +22,7 @@ Skill Badges are the permanent bottleneck across all hero skill trees. This guid
 
 | Category | How Points Are Earned |
 |---|---|
-| **Enhance Raven** | Feeding the Raven Guardian, consuming Raven Fruits, applying Essence, and opening Epigraph chests. |
+| **Raven Missions & Radar** | Points are awarded for **spending energy (stamina)** on Raven missions, as well as feeding the Raven Guardian, consuming Raven Fruits, applying Essence, and opening Epigraph chests. |
 | **Train Soldiers** | Queueing recruits in barracks and starting promotions of existing units to higher tiers. |
 | **Research Tech** | Finalizing Laboratory technologies, increasing scientific Might, burning speedup minutes. |
 | **Build Territory** | Completing structures, elevating Sanctuary level, increasing construction Might. |
@@ -57,10 +57,14 @@ Critical tactical rules:
 
 ---
 
-## 🦅 Monster Hunts: Hoard Raven Fruits {#stamina-missions}
+## 🦅 Raven Missions: Points for Spending Energy {#stamina-missions}
 
-- **Conserve Raven Fruits:** Do not burn fruits on off-days when no event points are attached to monster purges.
-- **Spend Natural Stamina:** Natural stamina regenerates continuously — bleed it strictly inside active monster elimination windows.
+> [!IMPORTANT] Points are awarded for the act of spending energy!
+> During Raven radar missions, Survival Battle points are awarded **directly for consuming energy (stamina)** to purge targets! The more energy you burn completing Raven radar tasks during the active phase, the faster you unlock maximum milestone chests.
+
+- **Conserve energy and Raven Fruits for the Raven phase:** Avoid burning stamina potions or Raven Fruits during off-days or irrelevant phases.
+- **Burn energy on Raven missions:** Once the Raven mission block goes live, clear your radar queue immediately — every point of energy spent converts directly into Survival Battle score.
+- **Compound rewards:** Spending energy during this phase simultaneously levels your Raven Guardian, farms epigraph chests, and clears Survival Battle chests.
 
 ---
 

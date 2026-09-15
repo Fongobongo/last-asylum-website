@@ -7,13 +7,14 @@ interface Props {
 }
 
 const { lang = 'ru' } = Astro.props;
+const totalCount = quizData.length;
 
 const i18n = {
   ru: {
-    title: '🧠 Викторина мудрости: Шпаргалка ответов (84 вопроса)',
+    title: `🧠 Викторина мудрости: Шпаргалка ответов (${totalCount} вопросов)`,
     subtitle: 'Мгновенный поиск ответа во время 30-секундного таймера события «Испытание мудрости». Введите слово из вопроса или ответа ниже.',
     placeholder: '🔍 Введите ключевое слово (например: «Святилище», «Артур», «Ворон», «Селия»)...',
-    all: 'Все (84)',
+    all: `Все (${totalCount})`,
     events: 'События и Дуэль',
     heroes: 'Герои и Фракции',
     buildings: 'Здания',
@@ -28,10 +29,10 @@ const i18n = {
     timeTip: '⏱️ В игре дается 30 секунд на вопрос. Чем быстрее вы отвечаете вместе с альянсом, тем выше общая награда!',
   },
   en: {
-    title: '🧠 Quiz of Wisdom: Complete Answer Key (84 Questions)',
+    title: `🧠 Quiz of Wisdom: Complete Answer Key (${totalCount} Questions)`,
     subtitle: 'Lightning-fast answer lookup during the 30-second in-game trivia timer. Type any keyword from the question or options.',
     placeholder: '🔍 Type any keyword (e.g. "Sanctuary", "Arthur", "Raven", "Celia")...',
-    all: 'All (84)',
+    all: `All (${totalCount})`,
     events: 'Events & Duel',
     heroes: 'Heroes & Factions',
     buildings: 'Buildings',
@@ -46,10 +47,10 @@ const i18n = {
     timeTip: '⏱️ In-game timer is 30 seconds per question. Quick correct answers maximize alliance score and rewards!',
   },
   de: {
-    title: '🧠 Quiz der Weisheit: Antwort-Datenbank (84 Fragen)',
+    title: `🧠 Quiz der Weisheit: Antwort-Datenbank (${totalCount} Fragen)`,
     subtitle: 'Sofortige Antwortsuche während des 30-Sekunden-Quiz-Events im Spiel.',
     placeholder: '🔍 Stichwort eingeben...',
-    all: 'Alle (84)',
+    all: `Alle (${totalCount})`,
     events: 'Events & Duell',
     heroes: 'Helden',
     buildings: 'Gebäude',
@@ -64,13 +65,13 @@ const i18n = {
     timeTip: '⏱️ 30 Sekunden Zeit pro Frage im Spiel.',
   },
   es: {
-    title: '🧠 Quiz de Sabiduría: Guía de Respuestas (84 Preguntas)',
+    title: `🧠 Quiz de Sabiduría: Guía de Respuestas (${totalCount} Preguntas)`,
     subtitle: 'Búsqueda rápida de respuestas durante el evento de 30 segundos.',
     placeholder: '🔍 Escribe una palabra clave...',
-    all: 'Todas (84)',
+    all: `Todas (${totalCount})`,
     events: 'Eventos y Duelo',
     heroes: 'Héroes',
-    buildings: 'Edificios',
+    buildings: 'Edifícios',
     mechanics: 'Mecánicas',
     lore: 'Historia y Lore',
     correctAnswer: 'Respuesta Correcta:',
@@ -82,10 +83,10 @@ const i18n = {
     timeTip: '⏱️ El temporizador es de 30 segundos por pregunta.',
   },
   fr: {
-    title: '🧠 Quiz de Sagesse : Réponses Officielles (84 Questions)',
+    title: `🧠 Quiz de Sagesse : Réponses Officielles (${totalCount} Questions)`,
     subtitle: 'Recherche rapide de réponses pendant le compte à rebours de 30 secondes.',
     placeholder: '🔍 Tapez un mot-clé...',
-    all: 'Toutes (84)',
+    all: `Toutes (${totalCount})`,
     events: 'Événements & Duel',
     heroes: 'Héros',
     buildings: 'Bâtiments',
@@ -100,10 +101,10 @@ const i18n = {
     timeTip: '⏱️ 30 secondes par question en jeu.',
   },
   id: {
-    title: '🧠 Kuis Kebijaksanaan: Kunci Jawaban Resmi (84 Soal)',
+    title: `🧠 Kuis Kebijaksanaan: Kunci Jawaban Resmi (${totalCount} Soal)`,
     subtitle: 'Pencarian cepat jawaban kuis berwaktu 30 detik dalam game.',
     placeholder: '🔍 Ketik kata kunci...',
-    all: 'Semua (84)',
+    all: `Semua (${totalCount})`,
     events: 'Event & Duel',
     heroes: 'Hero',
     buildings: 'Gedung',
@@ -118,10 +119,10 @@ const i18n = {
     timeTip: '⏱️ Waktu kuis 30 detik per soal.',
   },
   ja: {
-    title: '🧠 知恵のクイズ：公式解答集（全84問）',
+    title: `🧠 知恵のクイズ：公式解答集（全${totalCount}問）`,
     subtitle: '制限時間30秒のクイズイベント用・キーワード即時検索ツール。',
     placeholder: '🔍 質問または選択肢のキーワードを入力...',
-    all: 'すべて (84)',
+    all: `すべて (${totalCount})`,
     events: 'イベント・対決',
     heroes: '英雄・陣営',
     buildings: '施設・建築',
@@ -136,10 +137,10 @@ const i18n = {
     timeTip: '⏱️ 1問あたり30秒の制限時間。同盟メンバーと協力して全問正解を目指しましょう。',
   },
   ko: {
-    title: '🧠 지혜의 퀴즈: 공식 정답표 (총 84문항)',
+    title: `🧠 지혜의 퀴즈: 공식 정답표 (총 ${totalCount}문항)`,
     subtitle: '게임 내 30초 제한시간 퀴즈 이벤트 즉시 검색 솔루션.',
     placeholder: '🔍 질문 또는 보기 키워드 검색...',
-    all: '전체 (84)',
+    all: `전체 (${totalCount})`,
     events: '이벤트 및 대결',
     heroes: '영웅 및 진영',
     buildings: '건물 및 시설',
@@ -154,14 +155,14 @@ const i18n = {
     timeTip: '⏱️ 문제당 30초 제한. 연맹원과 함께 빠르게 정답을 맞춰 최대 보상을 획득하세요.',
   },
   pt: {
-    title: '🧠 Quiz da Sabedoria: Gabarito Oficial (84 Questões)',
+    title: `🧠 Quiz da Sabedoria: Gabarito Oficial (${totalCount} Questões)`,
     subtitle: 'Busca rápida de respostas durante o evento de 30 segundos.',
     placeholder: '🔍 Digite uma palavra-chave da pergunta...',
-    all: 'Todas (84)',
+    all: `Todas (${totalCount})`,
     events: 'Eventos e Duelo',
     heroes: 'Heróis',
     buildings: 'Edifícios',
-    mechanics: 'Mecânicas',
+    mechanics: 'Mecánicas',
     lore: 'História',
     correctAnswer: 'Resposta Correta:',
     copyBtn: 'Copiar',
@@ -213,7 +214,7 @@ const formattedQuiz = (quizData as any[]).map((q) => {
   <div class="mb-6 flex flex-col gap-2">
     <div class="flex items-center gap-3">
       <span class="rounded-xl border border-toxic-500/40 bg-toxic-950/60 px-3 py-1 text-xs font-bold text-toxic-400">
-        84 OFFICIAL QUESTIONS
+        {totalCount} OFFICIAL QUESTIONS
       </span>
       <span class="text-xs text-stone-500 font-mono">SMART CONTEST SOLVER</span>
     </div>

@@ -144,6 +144,12 @@ Each additional buff is therefore worth slightly less than the one before it. Th
 - Apply everything **before** starting the big Sanctuary 20+ pushes, not halfway through.
 - Securing the Minister of Construction title and VIP 11 before the late push is worth days of timers by itself.
 
+> [!IMPORTANT] Minister of Construction Title Snapshot Rule:
+> The Minister title (+50% construction speed) strictly applies to construction projects **started WHILE holding the title**.
+> 1. Request and receive the title from the King/officer.
+> 2. Tap Upgrade to queue your building (the timer locks in with the buff applied).
+> 3. You can immediately pass the title to the next player — the queued construction **permanently keeps its discounted timer** until completion!
+
 ## Resource Scaling — Plan Your Stockpiles {#resource-scaling}
 
 What a building costs at Sanctuary 8 tells you nothing about what it costs at Sanctuary 25. The curve runs in three phases:

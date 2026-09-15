@@ -1,0 +1,77 @@
+---
+title: "Secret Operations Center: Reroll Odds, 16th Chest Pity & Treasure Maps"
+description: "Comprehensive guide to Secret Operations in Last Asylum: Plague: reroll odds (UR 8%, SSR 24%), 16th chest pity guarantee, 7-piece treasure maps, plunder caps, and VIP features."
+lang: en
+updated: "2026-09-15"
+videoTopic: beginner
+type: event
+---
+
+The **Secret Operations Center** is a permanent headquarters building and a vital daily pipeline for free diamonds, Golden Recruit Tickets, Treasure Map fragments, and development resources in **Last Asylum: Plague**.
+
+Secret operations require zero stamina, risk zero soldiers, and directly yield points for both **Alliance Duel** and **Kingdom War (KvK)**!
+
+---
+
+## 🎯 Task Rarities & Reroll Odds {#reroll-rates}
+
+Tasks appear in **5 rarity tiers**: Common (White), Uncommon (Green), Rare (Blue / SR), Epic (Purple / SSR), and Legendary (Gold / UR).
+
+Free task refreshes are awarded daily and during 3-day cycle resets. Refresh odds are distributed as follows:
+
+| Task Rarity | Refresh Chance | Primary Rewards |
+|---|---|---|
+| **UR (Legendary)** | **8%** | Diamonds, Golden Recruit Tickets, 15% Treasure Map fragment chance, top event score |
+| **SSR (Epic)** | **24%** | Diamonds, Purple Skill Badges, 5% Treasure Map fragment chance |
+| **SR (Rare)** | **68%** | Resources, speedups, baseline skill badges |
+
+> [!TIP] Reroll Strategy
+> Always discard Common (White) and Uncommon (Green) tasks. Strive to lock in **SSR and UR** assignments — they account for the vast majority of diamonds, treasure maps, and competitive event points!
+
+---
+
+## 🗺️ Treasure Hunter & The 16th Chest Pity System {#treasure-hunter}
+
+Completing high-tier secret tasks grants a chance to acquire ancient Treasure Map fragments:
+* **SSR Tasks:** **5% chance** to drop a Treasure Map fragment.
+* **UR Tasks:** **15% chance** to drop a Treasure Map fragment.
+
+There are **7 unique Treasure Map fragments** in total (Numbered 1 through 7).
+
+### 💎 Hidden Pity Guarantee:
+> [!IMPORTANT] The 16th Chest Rule:
+> If you open **15 consecutive chests without receiving a single UR card**, the **16th chest is guaranteed to contain a UR Treasure Map fragment**!
+> 
+> Your bad luck is strictly capped by the game system.
+
+### Treasure Expeditions & Alliance Swaps:
+1. **Full Set Expedition:** Collecting all 7 unique pieces unlocks a legendary treasure expedition yielding monumental rewards.
+2. **Alliance Trading:** If you receive duplicate fragments (e.g., two copies of Piece #3), you can list duplicates on the alliance trading board to swap with guildmates.
+
+---
+
+## ⚔️ Plunder and Assistance Caps {#limits}
+
+* **Plunder Limit:** You can plunder **up to 5 foreign operations per day**. Plundering awards free resources with zero troop casualty risk.
+* **Assistance Limit:** You can provide assistance to alliance members **up to 5 times per day**, speeding up their transit time and earning helper rewards.
+* **Queue Capacity:** Each expedition dispatch queue can handle **up to 4 secret operations concurrently**.
+* **Zero March Slot Consumption:** Secret operations **do NOT consume standard world map march slots**, allowing simultaneous resource farming and monster hunting.
+
+---
+
+## 👑 VIP Unlocks for Secret Operations {#vip-unlocks}
+
+VIP level progression progressively automates and supercharges operations:
+* **VIP 6:** Unlocks **Auto-Dispatch** for one-click assignment.
+* **VIP 10:** Batch queue management and instant auto-collection.
+* **VIP 12:** Unlocks **Super Mode (Super Operations)**, granting vastly amplified milestone rewards and accelerated task completion times.
+
+---
+
+## 📋 Daily Checklist {#daily-checklist}
+
+1. Refresh tasks to eliminate Common/Uncommon slots, aiming for SSR and UR.
+2. Dispatch all 4 slots on active tasks.
+3. Plunder **5 foreign operations** for risk-free loot.
+4. Assist **5 alliance members** in the alliance overview tab.
+5. Check the Treasure Hunter tab to trade duplicate fragments with guild members.

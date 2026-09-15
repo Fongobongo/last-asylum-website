@@ -218,6 +218,45 @@ export const weeklySchedule: CalEvent[] = [
 
 export const recurring: CalEvent[] = [
   {
+    day: 'Tue & Fri',
+    icon: '👹',
+    event: 'Demon King (Blight Ranger)',
+    what: 'World boss spawns: 10 attacks daily. Vulnerable to Mages. Marches take exactly 30s.',
+    dayL10n: {
+      en: 'Tue & Fri',
+      ru: 'Вт и Пт',
+      de: 'Di & Fr',
+      es: 'Mar y Vie',
+      fr: 'Mar & Ven',
+      id: 'Sel & Jum',
+      ja: '火・金',
+      ko: '화・금',
+      pt: 'Ter e Sex'
+    },
+    eventL10n: {
+      en: 'Demon King (Blight Ranger)',
+      ru: 'Король демонов (Рейнджер скверны)',
+      de: 'Dämonenkönig (Seuchen-Ranger)',
+      es: 'Rey Demonio (Ranger de la Plaga)',
+      fr: 'Roi-Démon (Ranger de la Peste)',
+      id: 'Raja Iblis (Blight Ranger)',
+      ja: '魔王（疫病レンジャー）',
+      ko: '마왕 좀비 (역병 레인저)',
+      pt: 'Rei Demônio (Ranger da Praga)'
+    },
+    whatL10n: {
+      en: 'World boss spawns: 10 attacks daily (Sanctuary Lv.8+). Vulnerable to Mages. Marches take exactly 30s.',
+      ru: 'Мировой босс на карте: 10 атак в день (Святилище 8+). Уязвим к колдунам. Марш длится ровно 30 секунд.',
+      de: 'Weltboss auf der Karte: 10 Angriffe täglich (Zuflucht 8+). Schwach gegen Magier. Marsch dauert genau 30 Sek.',
+      es: 'Jefe mundial en el mapa: 10 ataques al día (Santuario 8+). Vulnerable a magos. Las marchas duran exactamente 30s.',
+      fr: 'Boss mondial sur la carte : 10 attaques par jour (Sanctuaire 8+). Vulnérable aux mages. Les marches durent 30s.',
+      id: 'Bos dunia di peta: 10 serangan harian (Sanctuary 8+). Rentan terhadap penyihir. March tepat 30 detik.',
+      ja: 'マップ上のワールドボス：毎日10回攻撃可能（聖域Lv.8+）。術師に脆弱。行軍時間は一律30秒。',
+      ko: '월드 보스 등장: 일일 10회 공격 가능 (성소 8레벨+). 마법사에 취약. 행군 시간은 정확히 30초.',
+      pt: 'Chefe mundial no mapa: 10 ataques diários (Santuário 8+). Vulnerável a magos. Marchas duram exatamente 30s.'
+    }
+  },
+  {
     day: 'Daily 02:00 UTC',
     icon: '🔄',
     event: 'Plunder limit reset',

@@ -46,6 +46,22 @@ The full reward distribution:
 
 Read that last row twice — **the Master receives ALL items from all 4 wagons.** The appointment is a real payout, which is exactly why the chest confusion persists: the guards' 2 chests come on top of a share, not out of the Master's pool.
 
+## ⏱️ Caravan Phases, Plunder Limits & Gift Perks {#phases-and-limits}
+
+1. **Waiting Phase (4 Hours):**
+   - Before departure, an alliance caravan enters a **4-hour staging period**.
+   - **Wagon Master:** During this window, the Master can refresh carriage rewards. After **5 refreshes**, the caravan is guaranteed to upgrade into a **Golden Caravan**. The Master also assigns guards.
+   - **Passengers:** Members can select and switch carriages freely. **At 5 minutes before departure**, 5 random queued passengers are locked in.
+
+2. **Transit Phase & Plunder Rules:**
+   - Outside players and foreign kingdoms can attack the caravan en route.
+   - **Each carriage can be pillaged up to 3 times** (looters can steal up to 3 cargo slots).
+   - High-power guards prevent loss and ensure 100% payout to all participants!
+
+3. **Alliance Gift Level Milestones:**
+   - When the Alliance Gift reaches **Lv. 8, Lv. 12, Lv. 16, Lv. 20, and Lv. 25**, the daily free caravan gains permanent capacity expansions and reward multipliers.
+   - Purchasing a Golden Caravan instantly unlocks all max-tier privileges without delay.
+
 ## Caravans: The UR Shards Strategy {#caravans}
 
 Caravans are the daily caravan event running alongside the wagon:

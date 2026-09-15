@@ -4282,5 +4282,56 @@
       }
     ],
     "correctAnswer": 2
+  },
+  {
+    "id": 85,
+    "category": "heroes",
+    "title": {
+      "ru": "Какова вероятность получения SSR-награды в найме героев?",
+      "en": "What is the probability of obtaining an SSR reward in hero recruitment?",
+      "de": "Wie hoch ist die Wahrscheinlichkeit für eine SSR-Belohnung bei der Heldenrekrutierung?",
+      "es": "¿Cuál es la probabilidad de obtener una recompensa SSR en el reclutamiento de héroes?",
+      "fr": "Quelle est la probabilité d'obtenir une récompense SSR lors du recrutement de héros ?",
+      "id": "Berapa peluang mendapatkan hadiah SSR dalam rekrutmen hero?",
+      "ja": "英雄募集でSSR報酬を獲得できる確率は？",
+      "ko": "영웅 모집에서 SSR 보상을 획득할 확률은 얼마인가요?",
+      "pt": "Qual é a probabilidade de obter uma recompensa SSR no recrutamento de heróis?"
+    },
+    "options": [
+      {
+        "ru": "0.17",
+        "en": "0.17",
+        "de": "0.17",
+        "es": "0.17",
+        "fr": "0.17",
+        "id": "0.17",
+        "ja": "0.17",
+        "ko": "0.17",
+        "pt": "0.17"
+      },
+      {
+        "ru": "0.05",
+        "en": "0.05",
+        "de": "0.05",
+        "es": "0.05",
+        "fr": "0.05",
+        "id": "0.05",
+        "ja": "0.05",
+        "ko": "0.05",
+        "pt": "0.05"
+      },
+      {
+        "ru": "0.30",
+        "en": "0.30",
+        "de": "0.30",
+        "es": "0.30",
+        "fr": "0.30",
+        "id": "0.30",
+        "ja": "0.30",
+        "ko": "0.30",
+        "pt": "0.30"
+      }
+    ],
+    "correctAnswer": 1
   }
 ]
