@@ -53,6 +53,9 @@ Critical tactical rules:
 2. **Tap "Train" strictly AFTER the training phase is live:** Wait for the phase change, confirm "Train Soldiers" is the active 4-hour phase, and only then launch recruitment in your barracks.
 3. **Train your highest unlocked tier (T7–T10):** Points per soldier scale steeply by tier. Low-tier recruits (T1–T2) give negligible points.
 4. **Utilize Promotion (Upgrade Existing Troops):** Promoting lower-tier troops to your highest tier awards points instantly upon queueing (the point differential between tiers). It takes far less time than training from scratch.
+5. **Keep a deliberately-low barracks parked at a mid tier** (e.g. one you stop upgrading mid-range on purpose). Your main barracks queue 2h/6h batches of your max tier; the cheap barracks keeps 2-hour T2–T3 queues running for milestones that just need *that* the queue exists, not the tier. Maximum milestones at minimum cost.
+6. **Double-dip with Alliance Duel.** Any research or training milestone doubling as an Alliance Duel day converts the same resources into two payouts. When stuck short on a milestone, check the Rush ripple — a 3-day cooldown often resets the milestone board without extra spend.
+7. **Raven milestone: stamina only, never fruits.** The "Enhance Raven" milestone accepts fruit expenditure — but your fruits belong to the Monday Raven-shop refresh in the Sanctuary Shop. Do the raven milestone by grinding stamina-only monster kills instead and let the fruits ride for the upcoming shop restock.
 5. **Burn training speedups INSIDE the active window:** To reach higher milestone chests, speed up current queues and immediately queue new batches to earn points for each batch.
 
 ---

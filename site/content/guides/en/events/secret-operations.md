@@ -59,6 +59,12 @@ There are **7 unique Treasure Map fragments** in total (Numbered 1 through 7).
 
 ---
 
+## 🔓 Sanctuary 27 Unlocks: Super Refresh & Super Deploy {#super-unlocks}
+
+- **Sanctuary ≥ 27** opens **Super Refresh** — one-button refill of the whole board to **golden (UR) rarity** — and **Super Deploy**, which auto-dispatches the full board at once (check troop counts first: Super Deploy commits everything visible).
+- Aim for **gear stones and skill badges** as the recurring bonuses; the headline rewards are **UR shards**, and a good refresh lands 3–4 per day (~4 UR shards/day is the benchmark high rollers hit).
+- Even if you sleep on it: yesterday's unfinished 4-day boards sitting at 12/12 (after overnight) are worth keeping, since partial bonus overlap with the next morning's dispatch still cashes out.
+
 ## 👑 VIP Unlocks for Secret Operations {#vip-unlocks}
 
 VIP level progression progressively automates and supercharges operations:
