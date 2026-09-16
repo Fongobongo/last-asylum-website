@@ -1309,6 +1309,26 @@ export const rawVideos: Record<string, Video[]> = {
       "id": "98MOWm31PqE",
       "title": "The Ultimate Hero Guide for Beginners",
       "lang": "en"
+    },
+    {
+      "id": "Ha_n370IiWQ",
+      "title": "The Ultimate F2P Guide",
+      "lang": "en"
+    },
+    {
+      "id": "_z9cfDUsrRQ",
+      "title": "Mailbag Monday #4",
+      "lang": "en"
+    },
+    {
+      "id": "iMAWtB7dhkU",
+      "title": "Mailbag Monday #10 — New Update",
+      "lang": "en"
+    },
+    {
+      "id": "ArouU6pH7w4",
+      "title": "Mailbag Monday #9 — Gear & Honor",
+      "lang": "en"
     }
   ],
   "beginner_ru": [
@@ -1381,6 +1401,11 @@ export const rawVideos: Record<string, Video[]> = {
       "id": "0VT5EEE-Swo",
       "title": "Top 10 Buildings — Complete Guide",
       "lang": "en"
+    },
+    {
+      "id": "8ld-gUR5Ad4",
+      "title": "Ultimate Research Guide",
+      "lang": "en"
     }
   ],
   "buildings_ru": [
@@ -1414,6 +1439,26 @@ export const rawVideos: Record<string, Video[]> = {
     {
       "id": "mK-mCXxerUE",
       "title": "Cynthia Awakened — Is She Worth Building?",
+      "lang": "en"
+    },
+    {
+      "id": "UThrEPA39zc",
+      "title": "Annie Awakened replaces Joker? Breakdown",
+      "lang": "en"
+    },
+    {
+      "id": "s8Dvnpggl0I",
+      "title": "Marlena Awakened: Full Breakdown",
+      "lang": "en"
+    },
+    {
+      "id": "HrsQfIACjHI",
+      "title": "Stop Upgrading the Wrong Skills",
+      "lang": "en"
+    },
+    {
+      "id": "9emz1DZzNtc",
+      "title": "Is Warlock the New Meta Squad?",
       "lang": "en"
     }
   ],
@@ -1528,6 +1573,11 @@ export const rawVideos: Record<string, Video[]> = {
     {
       "id": "RFc7SqnbKbg",
       "title": "Resistance System Explained",
+      "lang": "en"
+    },
+    {
+      "id": "-Umcm_xHe9Q",
+      "title": "Handyman OR Legion Commander? Era One Choice",
       "lang": "en"
     }
   ],
@@ -1916,6 +1966,11 @@ export const rawVideos: Record<string, Video[]> = {
       "id": "aW5_mRrZ8L4",
       "title": "The Best F2P Team Composition",
       "lang": "en"
+    },
+    {
+      "id": "6FHBLCoZT7Y",
+      "title": "The Trap Squad Tactic",
+      "lang": "en"
     }
   ],
   "arena_ru": [
@@ -2015,6 +2070,26 @@ export const rawVideos: Record<string, Video[]> = {
       "id": "ScwjLw0L4NM",
       "title": "Gearstone F2P Farm Guide",
       "lang": "en"
+    },
+    {
+      "id": "_DLu-XLpVH0",
+      "title": "Ultimate Gear Guide: stars & slots",
+      "lang": "en"
+    },
+    {
+      "id": "bLV82vMDgzQ",
+      "title": "Warrior Gear Guide (Part 2)",
+      "lang": "en"
+    },
+    {
+      "id": "CETuCXXdG-M",
+      "title": "Dominate with Warrior Squad",
+      "lang": "en"
+    },
+    {
+      "id": "AWMTUDONUPg",
+      "title": "Wall Defense & F2P World Boss Squad",
+      "lang": "en"
     }
   ],
   "gear_ru": [
@@ -2078,6 +2153,11 @@ export const rawVideos: Record<string, Video[]> = {
       "id": "aW5_mRrZ8L4",
       "title": "The Best F2P Team Composition",
       "lang": "en"
+    },
+    {
+      "id": "9emz1DZzNtc",
+      "title": "Is Warlock the New Meta Squad?",
+      "lang": "en"
     }
   ],
   "tier_list_ru": [
@@ -2116,6 +2196,16 @@ export const rawVideos: Record<string, Video[]> = {
     {
       "id": "yNaDWl9hKGw",
       "title": "Annie vs Jester — Which Warlock Carry Should You Build?",
+      "lang": "en"
+    },
+    {
+      "id": "u-lX2yz6SQc",
+      "title": "Louis & Rangers Skill Guide",
+      "lang": "en"
+    },
+    {
+      "id": "2mrgZlwZeNo",
+      "title": "Fix Your Bell: 66K → 205K Healing",
       "lang": "en"
     }
   ],
