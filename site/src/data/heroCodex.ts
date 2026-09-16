@@ -13,7 +13,8 @@ export interface HeroCodex {
   skills: { name: string; desc: string }[];
   buildTips: string[];
   teamNotes: string;
-  video?: string; // youtube id
+  video?: string; // youtube id (full guide)
+  deepdiveVideo?: string; // youtube id (20-second quick breakdown)
 }
 
 // Compiled from thelaphub codex + community guides (merlyn, DrAction, callikoneko, kellerfaust, 5sunburn).
@@ -41,6 +42,8 @@ export const heroCodex: HeroCodex[] = [
       'Frontline: Arthur + Bella/Lucius/Daskal',
     ],
     teamNotes: 'Frontline anchor of the canonical F2P squad: Arthur, Daskal, Marlena, Harper, Claire.',
+    video: 'yA8gM0r3X38',
+    deepdiveVideo: '0sKBoCEx21w',
   },
   {
         slug: 'marlena',
@@ -66,7 +69,8 @@ export const heroCodex: HeroCodex[] = [
       'Put every damage resource into her first',
     ],
     teamNotes: 'Backline of: Arthur, Daskal, Marlena, Harper, Claire. In boss comps she gets buffed 4× (Harper ult + Bell + Claire passive + self).',
-    video: '9lXPCNdxNZ4',
+    video: 's8Dvnpggl0I',
+    deepdiveVideo: 'XZkIOnPChsM',
   },
   {
         slug: 'claire',
@@ -90,7 +94,8 @@ export const heroCodex: HeroCodex[] = [
       'In PvP without a full UR roster, the conversion is one of the biggest upgrades available',
     ],
     teamNotes: 'Front (boss comps): Claire–Harper. Also the thief-hunt backline (Marlena + Shadow + Claire).',
-    video: '-9Nysk8pcns',
+    video: '9lXPCNdxNZ4',
+    deepdiveVideo: 'p9CCpjHWKEM',
   },
   {
         slug: 'harper',
@@ -113,6 +118,8 @@ export const heroCodex: HeroCodex[] = [
       'Also front-ranks in boss comps (no tanks needed vs bosses)',
     ],
     teamNotes: 'Standard comp backline. Boss comps: Front Claire–Harper / Back Zoya–Celia/Bell–Marlena.',
+    video: '-9Nysk8pcns',
+    deepdiveVideo: 'NQ3f1cDc3MQ',
   },
   {
         slug: 'daskal',
@@ -159,6 +166,7 @@ export const heroCodex: HeroCodex[] = [
     ],
     teamNotes: 'F2P PvP variant: Arthur, Lucius/Bella, Claire, Marlena, Cynthia.',
     video: 'mK-mCXxerUE',
+    deepdiveVideo: 'YYzp0hQohgU',
   },
   {
         slug: 'zoya',
@@ -181,6 +189,7 @@ export const heroCodex: HeroCodex[] = [
     ],
     teamNotes: 'Late-game Warrior comp: Arthur, Daskal, Marlena, Harper, Zoya (Claire to bench or boss-only).',
     video: 'XktNJ6u4sWo',
+    deepdiveVideo: '8ts3Ya5uYTg',
   },
   {
         slug: 'bell',
@@ -202,6 +211,8 @@ export const heroCodex: HeroCodex[] = [
       'Boss comp (Ranger): Front Harper–Ash / Back Cynthia–Bell–Red Lady',
     ],
     teamNotes: 'Situational but best-in-slot for ranger boss fights.',
+    video: 'qL2J81xOgtM',
+    deepdiveVideo: 'uoZRRFgWjGA',
   },
   {
         slug: 'shadow',
@@ -224,6 +235,7 @@ export const heroCodex: HeroCodex[] = [
       'Second-tank option in squads needing survivability',
     ],
     teamNotes: 'PvP variant: Arthur, Shadow, Marlena, Harper, Cynthia.',
+    deepdiveVideo: 'E0xH-Hswad8',
   },
   {
         slug: 'annie',
@@ -245,6 +257,8 @@ export const heroCodex: HeroCodex[] = [
       'Waiting 2–4 weeks for the daily offer is the budget alternative',
     ],
     teamNotes: 'Warlock boss comp: Front Harper/Bell–Stellar / Back Annie–Nicole–Joker.',
+    video: 'UThrEPA39zc',
+    deepdiveVideo: '4noSS8pzA-8',
   },
   {
         slug: 'joker',
@@ -266,7 +280,7 @@ export const heroCodex: HeroCodex[] = [
       'One of the most underrated damage dealers overall',
     ],
     teamNotes: 'Warlock PvP core; see the Annie vs Jester carry comparison thread.',
-    video: 'ekodq_Wh2_I',
+    deepdiveVideo: 'F4COEVQ8z7w',
   },
   {
         slug: 'red-lady',
@@ -285,6 +299,7 @@ export const heroCodex: HeroCodex[] = [
     ],
     buildTips: ['Pair with Rui for damage reduction + Unyielding (HP stays at 1 for 2 seconds once per battle)'],
     teamNotes: 'Ranger boss comp backline: Cynthia–Bell–Red Lady.',
+    video: 'qL2J81xOgtM',
   },
   {
         slug: 'celia',
@@ -442,6 +457,7 @@ export const heroCodex: HeroCodex[] = [
     ],
     buildTips: ['Core of the warlock backline with Annie and Joker'],
     teamNotes: 'Warlock boss comp: Back Annie–Nicole–Joker.',
+    deepdiveVideo: 'z4T0onI9t84',
   },
   {
         slug: 'ulfrid',
@@ -493,6 +509,8 @@ export const heroCodex: HeroCodex[] = [
     skills: [{ name: 'Tank kit', desc: 'Frontline for ranger squads.' }],
     buildTips: ['Only for mono-ranger investment paths'],
     teamNotes: 'Ranger squad front with Griffith.',
+    video: 'u-lX2yz6SQc',
+    deepdiveVideo: 'xEAwyEMpCwA',
   },
   {
         slug: 'griffith',

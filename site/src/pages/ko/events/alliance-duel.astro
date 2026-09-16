@@ -2,6 +2,7 @@
 import Base from '../../../layouts/Base.astro';
 import GuidePage from '../../../components/GuidePage.astro';
 import VideoSection from '../../../components/VideoSection.astro';
+import AllianceDuelCalc from '../../../components/AllianceDuelCalc.astro';
 import { t } from '../../../i18n/ui';
 import type { Lang } from '../../../i18n/utils';
 
@@ -129,6 +130,7 @@ const lang: Lang = 'ko';
       <li>6단계 후 1일 휴식을 무시하고 준비 없이 새 주기 참석.</li>
     </ol>
 
+    <AllianceDuelCalc lang={lang} />
     <VideoSection topic="alliance_duel" lang={lang} />
   </GuidePage>
 </Base>

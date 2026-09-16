@@ -79,6 +79,11 @@ const dictServer: Record<string, string> = {
         <span class="text-stone-400">
           {dictReset[lang] ?? 'Reset:'} <strong id="utc-countdown" class="text-toxic-300 font-semibold">--h --m</strong>
         </span>
+        <span class="text-stone-700">|</span>
+        <a href={`${base}/events/alliance-duel/`} class="flex items-center gap-1 text-toxic-300 hover:text-white transition" title="Alliance Duel Today">
+          <span>⚔️</span>
+          <strong id="ad-phase-badge" class="font-semibold text-toxic-400">AD: --</strong>
+        </a>
       </div>
       <span class="flex items-center gap-3">
         <a href={`${base}/alliance/`} class="inline-flex items-center gap-1 font-semibold text-toxic-400 hover:text-toxic-300 transition">
@@ -198,6 +203,17 @@ const dictServer: Record<string, string> = {
           {dictReset[lang] ?? 'Reset:'} <strong id="utc-countdown-m" class="text-toxic-300 font-semibold">--h --m</strong>
         </span>
       </div>
+
+      <a
+        href={`${base}/events/alliance-duel/`}
+        class="sm:hidden mb-3 flex items-center justify-between rounded-xl border border-toxic-500/20 bg-stone-900/60 px-3 py-2 text-xs font-mono text-stone-300 hover:border-toxic-400 transition"
+      >
+        <span class="flex items-center gap-1.5">
+          <span>⚔️</span>
+          <span>{lang === 'ru' ? 'Дуэль Альянсов:' : 'Alliance Duel:'}</span>
+        </span>
+        <strong id="ad-phase-badge-m" class="text-toxic-400 font-semibold">--</strong>
+      </a>
 
       <a
         href={`${base}/alliance/`}
@@ -455,10 +471,25 @@ const dictServer: Record<string, string> = {
       const countdownEl = document.getElementById('utc-countdown');
       const clockElM = document.getElementById('utc-clock-m');
       const countdownElM = document.getElementById('utc-countdown-m');
+      const adBadgeEl = document.getElementById('ad-phase-badge');
+      const adBadgeElM = document.getElementById('ad-phase-badge-m');
       if (!clockEl && !clockElM) return;
 
       // Game server runs at UTC-2; daily reset happens at its midnight (= 02:00 UTC)
       const SERVER_OFFSET_MS = -2 * 60 * 60 * 1000;
+      const currentLang = document.documentElement.lang || 'en';
+
+      const adPhaseNames: Record<string, string[]> = {
+        ru: ['Вс: Отдых', 'Пн: Фаза 1 (Ворон)', 'Вт: Фаза 2 (Стройка)', 'Ср: Фаза 3 (Наука)', 'Чт: Фаза 4 (Герои)', 'Пт: Фаза 5 (Войска)', 'Сб: Фаза 6 (Килл-ивент)'],
+        en: ['Sun: Rest', 'Mon: Phase 1 (Raven)', 'Tue: Phase 2 (Build)', 'Wed: Phase 3 (Tech)', 'Thu: Phase 4 (Heroes)', 'Fri: Phase 5 (Troops)', 'Sat: Phase 6 (PvP Final)'],
+        es: ['Dom: Descanso', 'Lun: Fase 1 (Cuervo)', 'Mar: Fase 2 (Construcción)', 'Mié: Fase 3 (Ciencia)', 'Jue: Fase 4 (Héroes)', 'Vie: Fase 5 (Tropas)', 'Sáb: Fase 6 (PvP Final)'],
+        de: ['So: Pause', 'Mo: Phase 1 (Rabe)', 'Di: Phase 2 (Bau)', 'Mi: Phase 3 (Forschung)', 'Do: Phase 4 (Helden)', 'Fr: Phase 5 (Truppen)', 'Sa: Phase 6 (PvP-Finale)'],
+        fr: ['Dim : Repos', 'Lun : Phase 1 (Corbeau)', 'Mar : Phase 2 (Construction)', 'Mer : Phase 3 (Science)', 'Jeu : Phase 4 (Héros)', 'Ven : Phase 5 (Troupes)', 'Sam : Phase 6 (PvP Final)'],
+        id: ['Min: Istirahat', 'Sen: Fase 1 (Gagak)', 'Sel: Fase 2 (Konstruksi)', 'Rab: Fase 3 (Riset)', 'Kam: Fase 4 (Hero)', 'Jum: Fase 5 (Pasukan)', 'Sab: Fase 6 (PvP Final)'],
+        ja: ['日: 休息', '月: フェーズ1 (大鴉)', '火: フェーズ2 (建設)', '水: フェーズ3 (研究)', '木: フェーズ4 (英雄)', '金: フェーズ5 (兵士)', '土: フェーズ6 (決戦PvP)'],
+        ko: ['일: 정비일', '월: 1단계 (까마귀)', '화: 2단계 (건설)', '수: 3단계 (연구)', '목: 4단계 (영웅)', '금: 5단계 (훈련)', '토: 6단계 (최종 PvP)'],
+        pt: ['Dom: Descanso', 'Seg: Fase 1 (Corvo)', 'Ter: Fase 2 (Construção)', 'Qua: Fase 3 (Ciência)', 'Qui: Fase 4 (Heróis)', 'Sex: Fase 5 (Tropas)', 'Sáb: Fase 6 (PvP Final)'],
+      };
 
       const tick = () => {
         const now = new Date();
@@ -478,6 +509,12 @@ const dictServer: Record<string, string> = {
         const cdStr = `${lh}h ${String(lm).padStart(2, '0')}m ${String(ls).padStart(2, '0')}s`;
         if (countdownEl) countdownEl.textContent = cdStr;
         if (countdownElM) countdownElM.textContent = cdStr;
+
+        const day = serverNow.getUTCDay();
+        const list = adPhaseNames[currentLang] || adPhaseNames.en;
+        const phaseStr = list[day] || '';
+        if (adBadgeEl) adBadgeEl.textContent = phaseStr;
+        if (adBadgeElM) adBadgeElM.textContent = phaseStr;
       };
       tick();
       setInterval(tick, 1000);

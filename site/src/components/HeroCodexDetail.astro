@@ -35,7 +35,9 @@ const ui = {
     howToGet: 'Как получить',
     build: 'Приоритеты прокачки и билд',
     teams: 'Заметки по отрядам и синергии',
-    video: 'Видео-гайд',
+    video: 'Видео-гайды',
+    videoFull: '🎯 Тактический видео-разбор',
+    videoDeepdive: '⚡ Быстрый дипдайв (20 сек)',
     allHeroes: '← Все герои',
     dossierTitle: '📖 Досье героя (Внутриигровой лор)',
     slotNames: {
@@ -57,7 +59,9 @@ const ui = {
     howToGet: 'How to Obtain',
     build: 'Build Priorities & Tips',
     teams: 'Squad Synergy & Team Comps',
-    video: 'Video Guide',
+    video: 'Video Guides',
+    videoFull: '🎯 Full Tactical Breakdown',
+    videoDeepdive: '⚡ 20-Second Deepdive',
     allHeroes: '← All Heroes',
     dossierTitle: '📖 Hero Dossier (Official Lore)',
     slotNames: {
@@ -415,29 +419,82 @@ const t = ui[lang] || ui.en;
       {hero.teamNotes}
     </p>
 
-    {hero.video && (
+    {(hero.video || hero.deepdiveVideo) && (
       <div class="not-prose my-8">
-        <h3 class="mb-3 text-lg font-bold text-plague-200">{t.video}</h3>
-        <div
-          class="js-video-facade group relative max-w-lg cursor-pointer overflow-hidden rounded-xl border border-stone-800 hover:border-plague-500 transition shadow-xl"
-          data-video-id={hero.video}
-          role="button"
-          tabindex="0"
-          aria-label="Play video"
-        >
-          <span class="block aspect-video overflow-hidden bg-stone-900">
-            <img
-              src={`https://i.ytimg.com/vi/${hero.video}/hqdefault.jpg`}
-              alt="Video guide"
-              loading="lazy"
-              class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-            />
-          </span>
-          <span class="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/40 transition-opacity group-hover:bg-black/25">
-            <span class="flex h-12 w-12 items-center justify-center rounded-full bg-blood-600/90 text-white text-lg pl-0.5 shadow-[0_0_20px_rgba(225,29,72,0.6)] group-hover:scale-110 transition-transform">
-              ▶
-            </span>
-          </span>
+        <h3 class="mb-4 text-lg font-bold text-plague-200 flex items-center gap-2">
+          <span>🎥</span>
+          <span>{t.video}</span>
+        </h3>
+        <div class="grid gap-4 sm:grid-cols-2">
+          {hero.deepdiveVideo && (
+            <div class="overflow-hidden rounded-xl border border-stone-800 bg-stone-900/80 p-3.5 shadow-lg flex flex-col justify-between">
+              <div>
+                <div class="mb-2 flex items-center justify-between">
+                  <span class="inline-flex items-center gap-1.5 text-xs font-bold text-toxic-300">
+                    <span>⚡</span> {t.videoDeepdive ?? '20-Second Deepdive'}
+                  </span>
+                  <span class="rounded bg-black/60 px-2 py-0.5 text-[10px] font-mono text-stone-400 border border-stone-800">20s</span>
+                </div>
+                <div
+                  class="js-video-facade group relative aspect-video cursor-pointer overflow-hidden rounded-lg border border-stone-800 hover:border-toxic-400 transition"
+                  data-video-id={hero.deepdiveVideo}
+                  role="button"
+                  tabindex="0"
+                  aria-label="Play 20s deepdive"
+                >
+                  <span class="block aspect-video overflow-hidden bg-stone-900">
+                    <img
+                      src={`https://i.ytimg.com/vi/${hero.deepdiveVideo}/hqdefault.jpg`}
+                      alt={`${heroDisplayName} 20s deepdive`}
+                      loading="lazy"
+                      class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    />
+                  </span>
+                  <span class="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/40 transition-opacity group-hover:bg-black/25">
+                    <span class="flex h-11 w-11 items-center justify-center rounded-full bg-toxic-400 text-black text-sm pl-0.5 shadow-[0_0_15px_rgba(180,255,57,0.4)] group-hover:scale-110 transition-transform font-bold">
+                      ▶
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <p class="mt-2 text-xs text-stone-400">Korpez Gaming • Quick build & skill overview</p>
+            </div>
+          )}
+
+          {hero.video && (
+            <div class="overflow-hidden rounded-xl border border-stone-800 bg-stone-900/80 p-3.5 shadow-lg flex flex-col justify-between">
+              <div>
+                <div class="mb-2 flex items-center justify-between">
+                  <span class="inline-flex items-center gap-1.5 text-xs font-bold text-plague-300">
+                    <span>🎯</span> {t.videoFull ?? 'Full Tactical Breakdown'}
+                  </span>
+                  <span class="rounded bg-black/60 px-2 py-0.5 text-[10px] font-mono text-stone-400 border border-stone-800">In-Depth</span>
+                </div>
+                <div
+                  class="js-video-facade group relative aspect-video cursor-pointer overflow-hidden rounded-lg border border-stone-800 hover:border-plague-500 transition"
+                  data-video-id={hero.video}
+                  role="button"
+                  tabindex="0"
+                  aria-label="Play full video guide"
+                >
+                  <span class="block aspect-video overflow-hidden bg-stone-900">
+                    <img
+                      src={`https://i.ytimg.com/vi/${hero.video}/hqdefault.jpg`}
+                      alt={`${heroDisplayName} video guide`}
+                      loading="lazy"
+                      class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    />
+                  </span>
+                  <span class="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/40 transition-opacity group-hover:bg-black/25">
+                    <span class="flex h-11 w-11 items-center justify-center rounded-full bg-blood-600/90 text-white text-base pl-0.5 shadow-[0_0_20px_rgba(225,29,72,0.6)] group-hover:scale-110 transition-transform">
+                      ▶
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <p class="mt-2 text-xs text-stone-400">Korpez Gaming • Comprehensive tactical breakdown</p>
+            </div>
+          )}
         </div>
       </div>
     )}

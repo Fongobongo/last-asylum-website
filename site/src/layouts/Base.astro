@@ -74,19 +74,125 @@ const umamiSrc = import.meta.env.PUBLIC_UMAMI_SRC ?? '';
         inLanguage: lang,
       })}
     />
+    {!noindex && cleanPath !== '/' && (
+      <script
+        type="application/ld+json"
+        set:html={JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'Article',
+          headline: pageTitle,
+          description: desc,
+          url: canonical,
+          inLanguage: lang,
+          image: ogImage,
+          dateModified: '2026-09-16T00:00:00Z',
+          author: {
+            '@type': 'Organization',
+            name: 'Last Asylum Plague Hub',
+            url: site,
+          },
+          publisher: {
+            '@type': 'Organization',
+            name: 'Last Asylum Plague Hub',
+            logo: {
+              '@type': 'ImageObject',
+              url: `${site}/favicon.svg`,
+            },
+          },
+        })}
+      />
+    )}
+    {!noindex && cleanPath !== '/' && (
+      <script
+        type="application/ld+json"
+        set:html={JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            {
+              '@type': 'ListItem',
+              position: 1,
+              name: 'Home',
+              item: site + (lang === 'en' ? '/' : `/${lang}/`),
+            },
+            {
+              '@type': 'ListItem',
+              position: 2,
+              name: pageTitle.replace(/ —.*$/, ''),
+              item: canonical,
+            },
+          ],
+        })}
+      />
+    )}
     {umamiId && <script is:inline async defer src={`${umamiSrc}`} data-website-id={umamiId}></script>}
   </head>
   <body class="min-h-screen antialiased">
+    <!-- Reading Progress Bar -->
+    <div id="reading-progress" class="fixed top-0 left-0 h-[2.5px] w-0 bg-gradient-to-r from-toxic-500 via-toxic-400 to-plague-400 z-[100] transition-[width] duration-100 ease-out pointer-events-none"></div>
+
     <Header lang={lang} path={path} />
     <main class="mx-auto w-full max-w-7xl px-4">
       <slot />
     </main>
     <Footer lang={lang} />
+
+    <!-- Floating Back-to-Top Button -->
+    <button
+      id="btn-back-to-top"
+      type="button"
+      aria-label="Back to top"
+      class="fixed bottom-6 right-6 z-40 h-10 w-10 sm:h-11 sm:w-11 rounded-full bg-stone-900/90 border border-toxic-500/40 text-toxic-300 shadow-xl shadow-black/80 flex items-center justify-center cursor-pointer transition-all duration-300 opacity-0 pointer-events-none hover:bg-toxic-500/20 hover:border-toxic-400 hover:scale-110 active:scale-95 backdrop-blur-sm"
+      title="Back to top"
+    >
+      <span class="text-base font-bold select-none">↑</span>
+    </button>
+
     <script is:inline>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
           navigator.serviceWorker.register('/sw.js').catch(() => {});
         });
+      }
+
+      function initScrollEnhancements() {
+        const prog = document.getElementById('reading-progress');
+        const btt = document.getElementById('btn-back-to-top');
+
+        const updateScroll = () => {
+          const scrollY = window.scrollY || document.documentElement.scrollTop;
+          const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
+
+          if (prog) {
+            const percent = totalHeight > 0 ? Math.min(100, Math.max(0, (scrollY / totalHeight) * 100)) : 0;
+            prog.style.width = percent + '%';
+          }
+
+          if (btt) {
+            if (scrollY > 320) {
+              btt.classList.remove('opacity-0', 'pointer-events-none');
+              btt.classList.add('opacity-100', 'pointer-events-auto');
+            } else {
+              btt.classList.add('opacity-0', 'pointer-events-none');
+              btt.classList.remove('opacity-100', 'pointer-events-auto');
+            }
+          }
+        };
+
+        window.addEventListener('scroll', updateScroll, { passive: true });
+        updateScroll();
+
+        if (btt) {
+          btt.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          });
+        }
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initScrollEnhancements);
+      } else {
+        initScrollEnhancements();
       }
     </script>
   </body>

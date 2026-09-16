@@ -2,6 +2,7 @@
 import Base from '../../../layouts/Base.astro';
 import GuidePage from '../../../components/GuidePage.astro';
 import VideoSection from '../../../components/VideoSection.astro';
+import AllianceDuelCalc from '../../../components/AllianceDuelCalc.astro';
 import { t } from '../../../i18n/ui';
 import type { Lang } from '../../../i18n/utils';
 
@@ -129,6 +130,7 @@ const lang: Lang = 'es';
       <li>Ignorar el descanso de 1 día tras la Fase 6 y presentarse al nuevo ciclo sin preparación.</li>
     </ol>
 
+    <AllianceDuelCalc lang={lang} />
     <VideoSection topic="alliance_duel" lang={lang} />
   </GuidePage>
 </Base>
