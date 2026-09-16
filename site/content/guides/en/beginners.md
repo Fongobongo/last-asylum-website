@@ -32,6 +32,8 @@ Membership is also protection. Players looking for easy plunder check who you be
 
 How to judge an alliance before joining: look at recent member activity, whether help requests actually get answered, and whether the alliance plays its events. If you land in a graveyard with a full member list and zero logins — leave.
 
+**Change your starting nickname first.** The game assigns you an auto-generated name like `Player_837261` — most recruiters read those as bots, farm accounts or players who will abandon the game in a week, and simply reject the application. A real-looking nickname dramatically raises your chance of being accepted into an active alliance. The first rename is free (Lord profile → edit icon next to the name).
+
 > A dead alliance is worse than no alliance. Leave without guilt and join a living one the same day.
 
 ## Sanctuary Gates Everything {#sanctuary-gates}

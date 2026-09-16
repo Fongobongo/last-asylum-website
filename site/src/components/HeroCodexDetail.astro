@@ -233,6 +233,15 @@ const t = ui[lang] || ui.en;
   lang={lang}
   breadcrumbs={breadcrumbs}
 >
+  <!-- Hero Portrait -->
+  <img
+    src={`/game/heroes/${hero.slug}.png`}
+    alt={heroDisplayName}
+    width="128"
+    height="128"
+    class="not-prose mb-4 h-28 w-28 rounded-2xl border border-white/10 object-cover shadow-lg"
+    onerror="this.remove()"
+  />
   <!-- Hero Badges Header -->
   <div class="not-prose mb-6 flex flex-wrap items-center gap-2">
     <span class={`rounded-lg px-2.5 py-1 text-xs font-bold ${hero.tier === 'S' ? 'bg-red-950/80 border border-red-500/40 text-red-300 shadow-[0_0_12px_rgba(239,68,68,0.2)]' : hero.tier === 'A' ? 'bg-amber-950/80 border border-amber-500/40 text-amber-300' : 'bg-sky-950/80 border border-sky-500/40 text-sky-300'}`}>

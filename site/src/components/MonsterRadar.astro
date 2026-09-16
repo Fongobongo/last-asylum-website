@@ -1,5 +1,6 @@
 ---
 import monstersData from '../data/officialMonsters.json';
+import monsterSpecies from '../data/officialMonsterSpecies.json';
 import type { Lang } from '../i18n/utils';
 
 interface Props {
@@ -157,6 +158,17 @@ const i18n = {
 
 const t = i18n[lang as keyof typeof i18n] || i18n.en;
 
+// Известные виды монстров карты мира (из банка данных клиента игры).
+// ids: [первый, последний] айди из банка данных; count — число записей (уровней/вариантов).
+const bestiaryLabels: Record<string, { title: string; sub: string }> = {
+  ru: { title: '📖 Бестиарий карты мира', sub: 'Все виды монстров и боссов, найденные в данных игрового клиента (полный список из SlgMonsterInfo).' },
+  en: { title: '📖 World Map Bestiary', sub: 'Every monster and boss species found in the game client data (full SlgMonsterInfo table).' },
+};
+const bLabel = bestiaryLabels[lang] || bestiaryLabels.en;
+const speciesShow = (monsterSpecies as any[])
+  .filter((s) => !/^(Rat Horde|Rat Plague|Fang Guard|Giant Axe Warrior|Plague Blight|Giant Rat King|Menacing|Plague Rat)/.test(s.key))
+  .map((s) => ({ count: s.count as number, label: (s.names?.[lang] as string) || s.names?.en || s.key }));
+
 const soloMonsters = (monstersData.solo as any[]).map((m) => ({
   level: m.level,
   name: m.name?.[lang] || m.name?.ru || m.name?.en || `Monster Lv.${m.level}`,
@@ -193,6 +205,22 @@ const rallyMonsters = (monstersData.rally as any[]).map((m) => ({
     <p class="text-xs text-stone-300 leading-relaxed">{t.rallyAdviseText}</p>
   </div>
 
+  <!-- Bestiary (all monster species from game data) -->
+  <div class="mb-6">
+    <div class="flex items-center gap-2 mb-1">
+      <h3 class="text-sm font-bold text-toxic-300">{bLabel.title}</h3>
+    </div>
+    <p class="text-[11px] text-stone-500 mb-3">{bLabel.sub}</p>
+    <div class="grid gap-1.5 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4">
+      {speciesShow.map((s: any) => (
+        <div class="rounded-lg border border-stone-800/70 bg-stone-900/40 px-2.5 py-1.5 flex items-center justify-between gap-2">
+          <span class="text-[11px] text-stone-200 truncate">{s.label}</span>
+          <span class="text-[10px] text-stone-500 font-mono shrink-0">×{s.count}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+
   <!-- Mode Switcher -->
   <div class="flex flex-wrap gap-2 mb-6" id="monster-mode-switch">
     <button
@@ -200,14 +228,14 @@ const rallyMonsters = (monstersData.rally as any[]).map((m) => ({
       id="btn-mode-rally"
       class="rounded-xl bg-toxic-500 px-4 py-2 text-xs font-bold text-stone-950 shadow-[0_0_15px_rgba(180,255,57,0.3)] transition-all"
     >
-      ⚔️ {t.rallyTab} (30 Lv)
+      <img src="/game/monsters/boss_01.png" alt="" width="20" height="20" class="inline-block h-5 w-5 rounded align-[-4px]" onerror="this.remove()" /> ⚔️ {t.rallyTab} (30 Lv)
     </button>
     <button
       type="button"
       id="btn-mode-solo"
       class="rounded-xl border border-stone-800 bg-stone-900/60 px-4 py-2 text-xs font-bold text-stone-400 hover:border-toxic-500/40 hover:text-stone-200 transition-all"
     >
-      🎯 {t.soloTab} (30 Lv)
+      <img src="/game/monsters/xiaoguai_01.png" alt="" width="20" height="20" class="inline-block h-5 w-5 rounded align-[-4px]" onerror="this.remove()" /> 🎯 {t.soloTab} (30 Lv)
     </button>
   </div>
 

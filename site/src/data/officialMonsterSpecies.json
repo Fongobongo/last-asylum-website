@@ -1,0 +1,724 @@
+[
+ {
+  "key": "Grain Blight",
+  "ids": [
+   1,
+   30
+  ],
+  "count": 30,
+  "names": {
+   "en": "Grain Blight",
+   "ru": "Чумной крестьянин",
+   "de": "Verseuchter Bauer",
+   "es": "Granjero infectado",
+   "fr": "Fermier infecté",
+   "id": "Ghoul Petani",
+   "ja": "農家ゾンビ",
+   "ko": "농부 구울",
+   "pt": "Fazendeiro Infectado"
+  }
+ },
+ {
+  "key": "Timber Blight",
+  "ids": [
+   31,
+   60
+  ],
+  "count": 30,
+  "names": {
+   "en": "Timber Blight",
+   "ru": "Чумной дровосек",
+   "de": "Holzfäller-Seuche",
+   "es": "Leñador infectado",
+   "fr": "Bûcheron pestiféré",
+   "id": "Ghoul Penebang",
+   "ja": "木こりゾンビ",
+   "ko": "나무꾼 좀비",
+   "pt": "Lenhador Infectado"
+  }
+ },
+ {
+  "key": "Herb Blight",
+  "ids": [
+   61,
+   90
+  ],
+  "count": 30,
+  "names": {
+   "en": "Herb Blight",
+   "ru": "Чумной травник",
+   "de": "Verseuchter Kräuterkundiger",
+   "es": "Herborista infectado",
+   "fr": "Herboriste pestiféré",
+   "id": "Ghoul Peracik Obat",
+   "ja": "薬草栽培者ゾンビ",
+   "ko": "약초 재배자 좀비",
+   "pt": "Herborista Infectado"
+  }
+ },
+ {
+  "key": "Elite Blight",
+  "ids": [
+   999,
+   999
+  ],
+  "count": 1,
+  "names": {
+   "en": "Elite Blight",
+   "ru": "Элитная скверна",
+   "de": "Elite-Seuche",
+   "es": "Infectado de élite",
+   "fr": "Peste majeure",
+   "id": "Ghoul Elite",
+   "ja": "エリートゾンビ",
+   "ko": "정예 좀비",
+   "pt": "Elite Infectado"
+  }
+ },
+ {
+  "key": "Demon King: Warlock Blight",
+  "ids": [
+   9001,
+   99019
+  ],
+  "count": 11,
+  "names": {
+   "en": "Demon King: Warlock Blight",
+   "ru": "Король демонов: Колдун скверны",
+   "de": "Dämonenkönig: Hexenmeister-Seuche",
+   "es": "Rey Demonio: Brujo infectado",
+   "fr": "Roi démon : Peste du démoniste",
+   "id": "Ghoul Raja Warlock",
+   "ja": "魔王・ソーサラーゾンビ",
+   "ko": "마왕·마법사 좀비",
+   "pt": "Rei Demônio: Bruxo Infectado"
+  }
+ },
+ {
+  "key": "Demon King: Ranger Blight",
+  "ids": [
+   9002,
+   99029
+  ],
+  "count": 11,
+  "names": {
+   "en": "Demon King: Ranger Blight",
+   "ru": "Король демонов: Рейнджер скверны",
+   "de": "Dämonenkönig: Ranger-Seuche",
+   "es": "Rey Demonio: Montaraz infectado",
+   "fr": "Roi démon : Peste du rôdeur",
+   "id": "Ghoul Raja Ranger",
+   "ja": "魔王・レンジャーゾンビ",
+   "ko": "마왕·레인저 좀비",
+   "pt": "Rei Demônio: Patrulheiro Infectado"
+  }
+ },
+ {
+  "key": "Demon King: Warrior Blight",
+  "ids": [
+   9003,
+   99040
+  ],
+  "count": 12,
+  "names": {
+   "en": "Demon King: Warrior Blight",
+   "ru": "Король демонов: Воин скверны",
+   "de": "Dämonenkönig: Krieger-Seuche",
+   "es": "Rey Demonio: Guerrero infectado",
+   "fr": "Roi démon : Peste du guerrier",
+   "id": "Ghoul Raja Fighter",
+   "ja": "魔王・ウォーリアゾンビ",
+   "ko": "마왕·전사 좀비",
+   "pt": "Rei Demônio: Guerreiro Infectado"
+  }
+ },
+ {
+  "key": "Wandering Blight",
+  "ids": [
+   100101,
+   100130
+  ],
+  "count": 30,
+  "names": {
+   "en": "Wandering Blight",
+   "ru": "Блуждающая скверна",
+   "de": "Wandernde Seuche",
+   "es": "Infectado errante",
+   "fr": "Fléau errant",
+   "id": "Ghoul Pengembara",
+   "ja": "放浪ゾンビ",
+   "ko": "방랑 좀비",
+   "pt": "Praga Errante"
+  }
+ },
+ {
+  "key": "Rebel Troop",
+  "ids": [
+   210101,
+   210130
+  ],
+  "count": 30,
+  "names": {
+   "en": "Rebel Troop",
+   "ru": "Мятежное войско",
+   "de": "Rebellentruppe",
+   "es": "Tropa rebelde",
+   "fr": "Troupe rebelle",
+   "id": "Pemberontak",
+   "ja": "反乱軍",
+   "ko": "반군",
+   "pt": "Tropa Rebelde"
+  }
+ },
+ {
+  "key": "Gold Thief",
+  "ids": [
+   220101,
+   220203
+  ],
+  "count": 6,
+  "names": {
+   "en": "Gold Thief",
+   "ru": "Золотой вор",
+   "de": "Golddieb",
+   "es": "Ladrón de oro",
+   "fr": "Voleur d'or",
+   "id": "Pencuri Koin",
+   "ja": "金貨盗賊",
+   "ko": "금화 도둑",
+   "pt": "Ladrão de Ouro"
+  }
+ },
+ {
+  "key": "Rat Horde",
+  "ids": [
+   1001,
+   1054
+  ],
+  "count": 5,
+  "names": {
+   "en": "Rat Horde",
+   "ru": "Орда черных крыс",
+   "de": "Schwarze Rattenhorde",
+   "es": "Horda de ratas negras",
+   "fr": "Horde de Rats noirs",
+   "id": "Kawanan Tikus Hitam",
+   "ja": "黒ネズミの群れ",
+   "ko": "검은 쥐 무리",
+   "pt": "Horda de Ratos Negros"
+  }
+ },
+ {
+  "key": "Giant Rat King Attack",
+  "ids": [
+   1004,
+   1055
+  ],
+  "count": 2,
+  "names": {
+   "en": "Giant Rat King Attack",
+   "ru": "Атака гигантского короля крыс",
+   "de": "Riesiger Rattenkönig Angriff",
+   "es": "Ataque del Rey Rata gigante",
+   "fr": "Attaque du Roi rat géant",
+   "id": "Serangan Raja Tikus Raksasa",
+   "ja": "キングネズミの襲撃",
+   "ko": "자이언트 쥐왕의 습격",
+   "pt": "Ataque do Rei dos Ratos Gigantes"
+  }
+ },
+ {
+  "key": "Rat Plague",
+  "ids": [
+   1005,
+   1005
+  ],
+  "count": 1,
+  "names": {
+   "en": "Rat Plague",
+   "ru": "Крысиная чума",
+   "de": "Rattenseuche",
+   "es": "Plaga de ratas",
+   "fr": "Peste des Rats",
+   "id": "Wabah Tikus Gila",
+   "ja": "ネズミの大災害",
+   "ko": "광란의 쥐난",
+   "pt": "Praga dos Ratos"
+  }
+ },
+ {
+  "key": "Fang Guard",
+  "ids": [
+   1006,
+   1006
+  ],
+  "count": 1,
+  "names": {
+   "en": "Fang Guard",
+   "ru": "Клыкастый страж",
+   "de": "Hauerwächter",
+   "es": "Guardia colmillo",
+   "fr": "Garde Croc",
+   "id": "Pengawal Gigi Serigala",
+   "ja": "狼牙の護衛",
+   "ko": "늑대 경비병",
+   "pt": "Guarda da Presa"
+  }
+ },
+ {
+  "key": "Giant Axe Warrior",
+  "ids": [
+   1007,
+   1007
+  ],
+  "count": 1,
+  "names": {
+   "en": "Giant Axe Warrior",
+   "ru": "Гигантский топорщик",
+   "de": "Riesenaxt-Krieger",
+   "es": "Guerrero de hacha gigante",
+   "fr": "Guerrier à la Hache Géante",
+   "id": "Pejuang Kapak Raksasa",
+   "ja": "巨斧戦士",
+   "ko": "거대 도끼 전사",
+   "pt": "Guerreiro do Machado Gigante"
+  }
+ },
+ {
+  "key": "Plague Blight",
+  "ids": [
+   1011,
+   1011
+  ],
+  "count": 1,
+  "names": {
+   "en": "Plague Blight",
+   "ru": "Чумная скверна",
+   "de": "Plagen-Seuche",
+   "es": "Infectado de la Plaga",
+   "fr": "Peste",
+   "id": "Ghoul Wabah",
+   "ja": "疫病ゾンビ",
+   "ko": "역병 좀비",
+   "pt": "Praga da Peste"
+  }
+ },
+ {
+  "key": "Plague Rat Horde",
+  "ids": [
+   1012,
+   1814
+  ],
+  "count": 98,
+  "names": {
+   "en": "Plague Rat Horde",
+   "ru": "Чумная орда черных крыс",
+   "de": "Plagen Schwarze Rattenhorde",
+   "es": "Horda de ratas negras de la Plaga",
+   "fr": "Horde de Rats noirs pestiférés",
+   "id": "Kawanan Tikus Hitam Wabah",
+   "ja": "疫病黒ネズミの群れ",
+   "ko": "역병 검은 쥐 무리",
+   "pt": "Horda de Ratos Negros da Peste"
+  }
+ },
+ {
+  "key": "Menacing Giant Rat King",
+  "ids": [
+   1013,
+   1063
+  ],
+  "count": 4,
+  "names": {
+   "en": "Menacing Giant Rat King",
+   "ru": "Грозный гигантский король крыс",
+   "de": "Bedrohlicher Riesiger Rattenkönig",
+   "es": "Rey Rata gigante amenazante",
+   "fr": "Roi rat géant menaçant",
+   "id": "Raja Tikus Raksasa Berbahaya",
+   "ja": "危険なキングネズミ",
+   "ko": "위험한 자이언트 쥐왕",
+   "pt": "Rei dos Ratos Gigantes Ameaçador"
+  }
+ },
+ {
+  "key": "Lv.1 Hunted Blight",
+  "ids": [
+   651011,
+   651091
+  ],
+  "count": 9,
+  "names": {
+   "en": "Lv.1 Hunted Blight",
+   "ru": "Разыскиваемая скверна ур. 1",
+   "de": "Lv.1 Gejagte Seuche",
+   "es": "Infectado asustado Nv. 1",
+   "fr": "Peste chassée Niv. 1",
+   "id": "Perburuan Ghoul Lv.1",
+   "ja": "Lv.1ゾンビ討伐",
+   "ko": "Lv.1 좀비 사냥",
+   "pt": "Infectado Caçado Nv.1"
+  }
+ },
+ {
+  "key": "Lv.2 Hunted Blight",
+  "ids": [
+   651012,
+   651092
+  ],
+  "count": 9,
+  "names": {
+   "en": "Lv.2 Hunted Blight",
+   "ru": "Разыскиваемая скверна ур. 2",
+   "de": "Lv.2 Gejagte Seuche",
+   "es": "Infectado asustado Nv. 2",
+   "fr": "Peste chassée Niv. 2",
+   "id": "Perburuan Ghoul Lv.2",
+   "ja": "Lv.2ゾンビ討伐",
+   "ko": "Lv.2 좀비 사냥",
+   "pt": "Infectado Caçado Nv.2"
+  }
+ },
+ {
+  "key": "Lv.3 Hunted Blight",
+  "ids": [
+   651013,
+   651093
+  ],
+  "count": 9,
+  "names": {
+   "en": "Lv.3 Hunted Blight",
+   "ru": "Разыскиваемая скверна ур. 3",
+   "de": "Lv.3 Gejagte Seuche",
+   "es": "Infectado asustado Nv. 3",
+   "fr": "Peste chassée Niv. 3",
+   "id": "Perburuan Ghoul Lv.3",
+   "ja": "Lv.3ゾンビ討伐",
+   "ko": "Lv.3 좀비 사냥",
+   "pt": "Infectado Caçado Nv.3"
+  }
+ },
+ {
+  "key": "Lv.4 Hunted Blight",
+  "ids": [
+   651014,
+   651094
+  ],
+  "count": 9,
+  "names": {
+   "en": "Lv.4 Hunted Blight",
+   "ru": "Разыскиваемая скверна ур. 4",
+   "de": "Lv.4 Gejagte Seuche",
+   "es": "Infectado asustado Nv. 4",
+   "fr": "Peste chassée Niv. 4",
+   "id": "Perburuan Ghoul Lv.4",
+   "ja": "Lv.4ゾンビ討伐",
+   "ko": "Lv.4 좀비 사냥",
+   "pt": "Infectado Caçado Nv.4"
+  }
+ },
+ {
+  "key": "Lv.5 Hunted Blight",
+  "ids": [
+   651015,
+   651095
+  ],
+  "count": 9,
+  "names": {
+   "en": "Lv.5 Hunted Blight",
+   "ru": "Разыскиваемая скверна ур. 5",
+   "de": "Lv.5 Gejagte Seuche",
+   "es": "Infectado asustado Nv. 5",
+   "fr": "Peste chassée Niv. 5",
+   "id": "Perburuan Ghoul Lv.5",
+   "ja": "Lv.5ゾンビ討伐",
+   "ko": "Lv.5 좀비 사냥",
+   "pt": "Infectado Caçado Nv.5"
+  }
+ },
+ {
+  "key": "Lv.1 Blight Elite",
+  "ids": [
+   652011,
+   652091
+  ],
+  "count": 9,
+  "names": {
+   "en": "Lv.1 Blight Elite",
+   "ru": "Элитная скверна ур. 1",
+   "de": "Lv.1 Seuche-Elite",
+   "es": "Infectado de élite Nv. 1",
+   "fr": "Peste majeure Niv. 1",
+   "id": "Ghoul Elite Lv.1",
+   "ja": "Lv.1ゾンビエリート",
+   "ko": "Lv.1 좀비 정예병",
+   "pt": "Elite Infectado Nv.1"
+  }
+ },
+ {
+  "key": "Lv.2 Blight Elite",
+  "ids": [
+   652012,
+   652092
+  ],
+  "count": 9,
+  "names": {
+   "en": "Lv.2 Blight Elite",
+   "ru": "Элитная скверна ур. 2",
+   "de": "Lv.2 Seuche-Elite",
+   "es": "Infectado de élite Nv.2",
+   "fr": "Peste majeure Niv. 2",
+   "id": "Ghoul Elite Lv.2",
+   "ja": "Lv.2ゾンビエリート",
+   "ko": "Lv.2 좀비 정예병",
+   "pt": "Elite Infectado Nv.2"
+  }
+ },
+ {
+  "key": "Lv.3 Blight Elite",
+  "ids": [
+   652013,
+   652093
+  ],
+  "count": 9,
+  "names": {
+   "en": "Lv.3 Blight Elite",
+   "ru": "Элитная скверна ур. 3",
+   "de": "Lv.3 Seuche-Elite",
+   "es": "Infectado de élite Nv. 3",
+   "fr": "Peste majeure Niv. 3",
+   "id": "Ghoul Elite Lv.3",
+   "ja": "Lv.3ゾンビエリート",
+   "ko": "Lv.3 좀비 정예병",
+   "pt": "Elite Infectado Nv.3"
+  }
+ },
+ {
+  "key": "Lv.4 Blight Elite",
+  "ids": [
+   652014,
+   652094
+  ],
+  "count": 9,
+  "names": {
+   "en": "Lv.4 Blight Elite",
+   "ru": "Элитная скверна ур. 4",
+   "de": "Lv.4 Seuche-Elite",
+   "es": "Infectado de élite Nv.4",
+   "fr": "Peste majeure Niv. 4",
+   "id": "Ghoul Elite Lv.4",
+   "ja": "Lv.4ゾンビエリート",
+   "ko": "Lv.4 좀비 정예병",
+   "pt": "Elite Infectado Nv.4"
+  }
+ },
+ {
+  "key": "Lv.5 Blight Elite",
+  "ids": [
+   652015,
+   652095
+  ],
+  "count": 9,
+  "names": {
+   "en": "Lv.5 Blight Elite",
+   "ru": "Элитная скверна ур. 5",
+   "de": "Lv.5 Seuche-Elite",
+   "es": "Infectado de élite Nv. 5",
+   "fr": "Peste majeure Niv. 5",
+   "id": "Ghoul Elite Lv.5",
+   "ja": "Lv.5ゾンビエリート",
+   "ko": "Lv.5 좀비 정예병",
+   "pt": "Elite Infectado Nv.5"
+  }
+ },
+ {
+  "key": "Fallen Legion Lv.1",
+  "ids": [
+   1150001,
+   1150001
+  ],
+  "count": 1,
+  "names": {
+   "en": "Fallen Legion Lv.1",
+   "ru": "Павший легион ур. 1",
+   "de": "Gefallene Legion Lv.1",
+   "es": "Legión caída Nv. 1",
+   "fr": "Légion déchue Niv. 1",
+   "id": "Legiun Terjatuh Lv.1",
+   "ja": "堕落軍団 Lv.1",
+   "ko": "타락한 군단 Lv.1",
+   "pt": "Legião Caída Nv.1"
+  }
+ },
+ {
+  "key": "Fallen Legion Lv.2",
+  "ids": [
+   1150002,
+   1150002
+  ],
+  "count": 1,
+  "names": {
+   "en": "Fallen Legion Lv.2",
+   "ru": "Павший легион ур. 2",
+   "de": "Gefallene Legion Lv.2",
+   "es": "Legión caída Nv. 2",
+   "fr": "Légion déchue Niv. 2",
+   "id": "Legiun Terjatuh Lv.2",
+   "ja": "堕落軍団 Lv.2",
+   "ko": "타락한 군단 Lv.2",
+   "pt": "Legião Caída Nv.2"
+  }
+ },
+ {
+  "key": "Fallen Legion Lv.3",
+  "ids": [
+   1150003,
+   1150003
+  ],
+  "count": 1,
+  "names": {
+   "en": "Fallen Legion Lv.3",
+   "ru": "Павший легион ур. 3",
+   "de": "Gefallene Legion Lv.3",
+   "es": "Legión caída Nv. 3",
+   "fr": "Légion déchue Niv. 3",
+   "id": "Legiun Terjatuh Lv.3",
+   "ja": "堕落軍団 Lv.3",
+   "ko": "타락한 군단 Lv.3",
+   "pt": "Legião Caída Nv.3"
+  }
+ },
+ {
+  "key": "Fallen Legion Lv.4",
+  "ids": [
+   1150004,
+   1150004
+  ],
+  "count": 1,
+  "names": {
+   "en": "Fallen Legion Lv.4",
+   "ru": "Павший легион ур. 4",
+   "de": "Gefallene Legion Lv.4",
+   "es": "Legión caída Nv. 4",
+   "fr": "Légion déchue Niv. 4",
+   "id": "Legiun Terjatuh Lv.4",
+   "ja": "堕落軍団 Lv.4",
+   "ko": "타락한 군단 Lv.4",
+   "pt": "Legião Caída Nv.4"
+  }
+ },
+ {
+  "key": "Fallen Legion Lv.5",
+  "ids": [
+   1150005,
+   1150005
+  ],
+  "count": 1,
+  "names": {
+   "en": "Fallen Legion Lv.5",
+   "ru": "Павший легион ур. 5",
+   "de": "Gefallene Legion Lv.5",
+   "es": "Legión caída Nv. 5",
+   "fr": "Légion déchue Niv. 5",
+   "id": "Legiun Terjatuh Lv.5",
+   "ja": "堕落軍団 Lv.5",
+   "ko": "타락한 군단 Lv.5",
+   "pt": "Legião Caída Nv.5"
+  }
+ },
+ {
+  "key": "Fallen Legion Lv.6",
+  "ids": [
+   1150006,
+   1150006
+  ],
+  "count": 1,
+  "names": {
+   "en": "Fallen Legion Lv.6",
+   "ru": "Павший легион ур. 6",
+   "de": "Gefallene Legion Lv.6",
+   "es": "Legión caída Nv. 6",
+   "fr": "Légion déchue Niv. 6",
+   "id": "Legiun Terjatuh Lv.6",
+   "ja": "堕落軍団 Lv.6",
+   "ko": "타락한 군단 Lv.6",
+   "pt": "Legião Caída Nv.6"
+  }
+ },
+ {
+  "key": "Plague Rat",
+  "ids": [
+   1200001,
+   1200002
+  ],
+  "count": 2,
+  "names": {
+   "en": "Plague Rat",
+   "ru": "Чумная крыса",
+   "de": "Pestratte",
+   "es": "Rata de la plaga",
+   "fr": "Peste des Rats",
+   "id": "Tikus Wabah",
+   "ja": "ペストネズミ",
+   "ko": "역병 쥐",
+   "pt": "Rato Infectado"
+  }
+ },
+ {
+  "key": "Lv.1 Crystal Guardian",
+  "ids": [
+   1200003,
+   1200003
+  ],
+  "count": 1,
+  "names": {
+   "en": "Lv.1 Crystal Guardian",
+   "ru": "Страж кристалла ур. 1",
+   "de": "Lv.1 Kristallwächter",
+   "es": "Guardián de cristal Nv. 1",
+   "fr": "Gardien de cristal Niv. 1",
+   "id": "Penjaga Kristal Lv.1",
+   "ja": "Lv.1晶簇ガード",
+   "ko": "Lv.1 수정 군집 수호자",
+   "pt": "Guardião de Cristal Nv.1"
+  }
+ },
+ {
+  "key": "Lv.2 Crystal Guardian",
+  "ids": [
+   1200004,
+   1200004
+  ],
+  "count": 1,
+  "names": {
+   "en": "Lv.2 Crystal Guardian",
+   "ru": "Страж кристалла ур. 2",
+   "de": "Lv.2 Kristallwächter",
+   "es": "Guardián de cristal Nv. 2",
+   "fr": "Gardien de cristal Niv. 2",
+   "id": "Lv.2 Penjaga Kristal",
+   "ja": "Lv.2晶簇ガード",
+   "ko": "Lv.2 수정 군집 수호자",
+   "pt": "Guardião de Cristal Nv.2"
+  }
+ },
+ {
+  "key": "Lv.3 Crystal Guardian",
+  "ids": [
+   1200005,
+   1200005
+  ],
+  "count": 1,
+  "names": {
+   "en": "Lv.3 Crystal Guardian",
+   "ru": "Страж кристалла ур. 3",
+   "de": "Lv.3 Kristallwächter",
+   "es": "Guardián de cristal Nv. 3",
+   "fr": "Gardien de cristal Niv. 3",
+   "id": "Lv.3 Penjaga Kristal",
+   "ja": "Lv.3晶簇ガード",
+   "ko": "Lv.3 수정 군집 수호자",
+   "pt": "Guardião de Cristal Nv.3"
+  }
+ }
+]
