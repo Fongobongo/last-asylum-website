@@ -188,6 +188,18 @@ Stamina that sits at the cap is income you permanently deleted — the game does
 
 Kept up, daily plundering is worth roughly 27 million resources per day later in the game. Skipped, there is no make-up mechanic — those resources are simply gone. Attack the richest target you can beat, respect the daily limit thresholds, and never tenth-hit a farm. The complete plunder rulebook is in the [Economy guide](/economy/).
 
+## Community Q&A: Answers That Keep Coming Up {#community-qa}
+
+Short answers to the questions Korpez' mailbag keeps fielding — most of these will hit you in week 2–4.
+
+- **When is my Ranger squad ready to replace Warriors?** Not by a star count alone — check three walls: every ranger at 8★ minimum (Cynthia and Red Lady at 10★, Louis at 8★, Bell at 9–10★), the Ranger Temple/Statue at ~22+, and hero research at the same stage as your Warriors branch. Site rule of thumb: the switch flips when the Ranger squad hits ~18M might against an existing 60M Warriors squad, boosted when all four flags clear.
+- **Zoya vs Claire — who wins?** Zoya is the true PvP tank (paywalled); **UR Claire is a PvE/monster specialist forever** — her passive stays locked on monster damage even in UR form. Keep Claire for world bosses, Pandemic and KvK zombies; swap Zoya in as soon as she's available for PvP.
+- **Can I skip keeping troops on my wall to save lives?** No. Regardless of your garrison choice, a losing defense loses the same troops anyway. Put troops up whenever you can contest the attacker; **only evacuate and teleport when the attacker is unbeatable**. Shield up before every KvK, always — "you don't need a shield in KvK" is a myth.
+- **Soldier's Rest: revive deads?** Yes, but cooldown is long and grow it with alliance help — treat it as a reserve you wipe after KvK, not a daily convenience. Don't burn it on solo monster hunts.
+- **Cynthia sword at 10★ — next blueprint into her or Red Lady?** Korpez: gloves, not a second sword. Flavor choice between Cynthia and Red Lady — Cynthia carries more AoE, Red Lady hits harder on single targets. One red sword + one red gloves on the same carry beats a double sword spread across two DPS.
+- **Freya or Elena (paid settlers)?** If you're spending at all: **Freya first** (Falcon Quest payout is daily lifetime income); Elena (+command/ATK) is a pure whale flex a mid-spender should skip.
+- **My second squad — warlocks or rangers?** Korpez's answer: **warlocks**, always — the endgame ceiling sits there; rangers for early-mid F2P but warlocks crush late. [Tier List](/tier-list/).
+
 ## Read Next: Pro Tips & Hidden Mechanics {#read-next}
 
 Mastered the day-one basics? Dive into the non-obvious rules of the game: speed buff snap-shotting, protecting troops with Ghost Rallies, avoiding hospital overflow wipes, the Claire conversion dip, and tile pre-farming in the [Pro Tips & Hidden Mechanics Guide](/tips/).
