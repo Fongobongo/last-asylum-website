@@ -58,7 +58,7 @@ Hero levels scale base attributes (HP, ATK, DEF) and amplify percentage gear sta
 | **Antitoxin Workshop** | Keep workshop level synchronized with your Sanctuary. Collect regularly via the Stable. |
 | **Building Upgrades** | Every completed structure upgrade awards an instant batch of Antitoxins. |
 | **Falcon Tower Quests** | Prioritize purple and gold missions offering Antitoxin vials. |
-| **Covert Ops & Caravan Plunder** | Complete daily routes and raid rival caravans (up to 3 times per day). |
+| **Covert Ops & Caravan Plunder** | Complete daily routes and raid rival caravans (up to 5 times per day). |
 | **Blight & Elite Blight Rallies** | Coordinate guild rallies against high-tier infected for steady resource flow without gem cost. |
 
 ---

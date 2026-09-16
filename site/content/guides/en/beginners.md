@@ -17,7 +17,7 @@ Work through this list in order. Everything else in the game can wait until thes
 
 1. **Join an active alliance immediately.** Build help cuts your timers, alliance events pay free rewards, and membership discourages attackers. A dead alliance gives you none of that.
 2. **Push your Sanctuary.** Sanctuary level is your real player level — it gates hero level caps, building unlocks and troop tiers.
-3. **Keep the Builder's Hut at Sanctuary level until Sanctuary 15.** It hands out free construction speedups, the single biggest early accelerant in the game.
+3. **Keep the Builder's Hut at Sanctuary level until Sanctuary 15.** It extends the free-completion window on construction timers (cutting hours off long upgrades), the single biggest early accelerant in the game.
 4. **Pick two or three heroes only.** Every shard, skill badge and EXP potion you spread thin is one your main squad never sees.
 5. **Check the event calendar before spending speedups.** Many events pay rewards for doing what you were going to do anyway — double dip.
 6. **Start plundering on day one.** Plunder income compounds; later in the game a missed day of attacking is roughly 27 million resources gone.
@@ -47,7 +47,7 @@ The Sanctuary is the big central building and the closest thing the game has to 
 
 Because of that, Sanctuary upgrades sit at the top of the build priority list permanently. The full roadmap lives in the [Buildings guide](/buildings/).
 
-One beginner-specific rule: keep the Builder's Hut at your current Sanctuary level until you reach Sanctuary 15. It produces free construction speedups, and those speedups are what let you keep the Sanctuary push moving without burning your saved timers.
+One beginner-specific rule: keep the Builder's Hut at your current Sanctuary level until you reach Sanctuary 15. It extends the free-completion window on timers (construction you can finish for free at the end), and that extension is what lets you keep the Sanctuary push moving without burning your saved speedups.
 
 ## Pick Two or Three Heroes Only {#pick-heroes}
 
@@ -131,6 +131,7 @@ First, the stacking bonus. The more same-faction heroes you field, the bigger th
 | Same-faction heroes in the squad | Squad bonus |
 |---|---|
 | 3 | +5% HP / ATK / DEF |
+| 3 of one faction + 2 of another | +10% HP / ATK / DEF |
 | 4 | +15% HP / ATK / DEF |
 | 5 | +20% HP / ATK / DEF |
 

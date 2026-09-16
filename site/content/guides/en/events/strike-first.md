@@ -50,7 +50,7 @@ Full completion of Strike First delivers game-changing starter value:
 ## ⚠️ 4 Fatal Beginner Mistakes to Avoid {#mistakes}
 
 ### 1. Blowing Free Diamonds on Standard Tavern Pulls
-The single biggest mistake new players make is dumping free diamonds into standard recruit pulls. **Do not do this.** On Day 8 of your server, Cynthia's Lucky Wheel arrives — an S-tier ranger carry requiring banked diamonds. Only pull using free tickets; hoard diamonds for the Wheel and VIP progression.
+The single biggest mistake new players make is dumping free diamonds into standard recruit pulls. **Do not do this.** On Day 8 of your server, the Ranger carry Lucky Wheel arrives (Rachel on current versions, Cynthia earlier) — an S-tier pickup requiring banked diamonds. Only pull using free tickets; hoard diamonds for the Wheel and VIP progression.
 
 ### 2. Disorganized Construction Queues
 Do not waste building queues on vanity upgrades or unnecessary resource plots. Always inspect the prerequisite buildings for the next Sanctuary level (typically Wall + Research Lab or Wall + Barracks) and upgrade **strictly along the critical path**.

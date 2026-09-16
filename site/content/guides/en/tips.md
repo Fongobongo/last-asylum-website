@@ -165,7 +165,7 @@ Gathering Day (Phase 1 of Alliance Duel on Monday, or Day 1 / Day 7 of Supreme H
 > The game awards Gathering points **NOT while mining the tile, but AT THE EXACT SECOND THE MARCH RETURNS to your city**!
 
 ### Step-by-Step Pre-Farming Protocol:
-1. On the eve of Gathering Day (e.g. Sunday evening roughly 4 to 5 hours prior to the daily reset at server midnight, 02:00 UTC), dispatch all gathering marches to the richest Level 6 or 7 resource nodes (preferably Gold or Herbs).
+1. On the eve of Gathering Day (e.g. Sunday evening roughly 4 to 5 hours before the daily reset at 02:00 UTC), dispatch all gathering marches to the richest Level 6 or 7 resource nodes (preferably Gold or Herbs).
 2. Time the marches so that gathering completes and troops march back into your gate at **02:02–02:05 UTC (00:02–00:05 server time) on the reset day**.
 3. The moment the clock strikes reset, 5 hours of multi-march gathering points cash in simultaneously — instantly yielding **1.5 to 2.5 million points** and unlocking 2 to 3 chest tiers within seconds!
 
@@ -176,7 +176,7 @@ Never leave partially gathered resource nodes behind. If an ally leaves 4,000 wo
 
 ## 8. Training Grounds: The 4-Ground Split & T4 Promotion Trick {#troop-promotion}
 
-As your Sanctuary reaches levels 13, 16, 19, 22, and 26, the Training Grounds unlock higher troop tiers (T6, T7, T8, T9, and T10 at Lv. 30 with Elite Troop research).
+Troop tiers unlock by Training Ground level: T6 at Lv. 17, T7 at 20, T8 at 24, T9 at 27, and T10 at Lv. 30 with the Elite Troop research completed.
 
 Most beginner players make a catastrophic mistake: they level all four Training Grounds equally and train their highest unlocked tier from scratch on each. This burns tens of millions of resources and forces 30+ hour timers. Veteran players use the **1 Max + 3 Low Split**.
 

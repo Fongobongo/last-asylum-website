@@ -33,7 +33,7 @@ A quick reference for the buildings you will actually be tapping. Translations d
 |---|---|---|
 | Sanctuary | Gates all other building levels, sets the hero level cap, grants EXP per upgrade, and unlocks buildings and features as it levels. | Upgrade on cooldown. It is your real player level. |
 | Walls | Provides City Defense durability and reduces defense decay rate during siege. **Does NOT protect troops in battle and grants no combat stats!** | Level strictly as a prerequisite on levels 5, 6, 9, 10, 12, and 24. Do not waste builders on it otherwise. |
-| Builder's Hut | Produces free construction speedups. Survivors stationed inside give extra bonuses — swap in better survivors as you recruit them. | Keep at Sanctuary level until Sanctuary 15 for the free speedup stream. |
+| Builder's Hut | Extends the free-completion window on construction timers (free speedup time). Survivors stationed inside give extra bonuses — swap in better survivors as you recruit them. | Keep at Sanctuary level until Sanctuary 15 for the maximum free-completion window. |
 | Research Lab | Runs your tech tree: economy, military, and development research. Merged Research Lab 1 & 2: both queues enjoy optimal Speedup Buffs. | Priority #2 — continuous prerequisite for Sanctuary 11–30. Rush **Super Reward 1 & 2** in the Alliance Duel tree to unlock chest tiers 4–9! |
 | Training Grounds | Unlocks new troop tiers (T2 at Lv.3, T3 at Lv.6, T4 at Lv.10, T5 at Lv.14, T6 at Lv.17, T7 at Lv.20, T8 at Lv.24, T9 at Lv.27, T10 at Lv.30) and increases training capacity. | Max 1 ground for top tier; keep 3 others at Lv.10 for T4 parallel farming and promotion (saves 6–7h per cycle). |
 | Barracks | Increases total standing army capacity in your city. | Upgrade to hold a massive army for KvK and Kingdom Wars. |
@@ -130,20 +130,25 @@ Construction speed buffs stack from five sources, and together they compress a 3
 | VIP level 11 | +45% |
 | Royal City — Minister of Construction title | +50% |
 
-Now the part almost everyone gets wrong: these buffs apply to the **remaining time, consecutively** — not additively from the base. You cannot sum 10% + 5% + 20% + 45% + 50% and cut the timer by 130% of anything.
+Now the part almost everyone gets wrong: these buffs **add up as speed multipliers, applied to the base time** — you cannot sum 10% + 5% + 20% + 45% + 50% and cut the timer by 130% of anything, because the game divides by total speed:
 
-Here is the real arithmetic on a 37-day upgrade:
+$$T = \frac{T_{base}}{100\% + \sum \text{speed buffs}}$$
 
-1. Start: 37 days.
-2. Apply a 10% buff: remove 10% of the remaining time — 37 minus 3.7 = 33.3 days.
-3. Apply a 5% buff: remove 5% of what is left — 33.3 minus 1.665 = 31.6 days.
-4. Every further buff keeps shaving the remainder, never the original number.
+Here is the real arithmetic on a 37-day base-time upgrade:
 
-Each additional buff is therefore worth slightly less than the one before it. The practical consequences:
+1. Base time: 37 days.
+2. With +10% and +5% active: T = 37 / 1.15 ≈ 32.2 days.
+3. Adding the Minister title (+50%): total speed 165% → T = 37 / 1.65 ≈ 22.4 days — the title saves ~10 days, not "half the timer".
+4. And with everything stacked (+10% +5% +20% +45% +50% = +130%): T = 37 / 2.30 ≈ 16.1 days.
+
+Each additional buff is therefore worth slightly fewer hours than the one before it (diminishing returns). The practical consequences:
 
 - Buff order does not matter for the final result — but you must have the buffs active when the timer is long, because their value scales with the remaining time.
 - Apply everything **before** starting the big Sanctuary 20+ pushes, not halfway through.
 - Securing the Minister of Construction title and VIP 11 before the late push is worth days of timers by itself.
+
+> [!TIP] The "Hold the Hammer" Scoring Trick:
+> In Alliance Duel and Supreme Healer, construction points are awarded **at the moment you tap the finished hammer icon**, not when you start the project. Start long upgrades days ahead, and don't tap the hammer until Construction/Build day (Tuesday) arrives.
 
 > [!IMPORTANT] Minister of Construction Title Snapshot Rule:
 > The Minister title (+50% construction speed) strictly applies to construction projects **started WHILE holding the title**.
@@ -182,6 +187,6 @@ Research Lab technologies provide compounding permanent multipliers across comba
 
 ### Troop Tier Milestones
 - **T7 Troops**: Sanctuary 20 + Training Grounds 20.
-- **T8 Troops**: Sanctuary 22 + Training Grounds 22.
-- **T9 Troops**: Sanctuary 26 + Training Grounds 26.
+- **T8 Troops**: Sanctuary 24–25 + Training Grounds 24.
+- **T9 Troops**: Sanctuary 27 + Training Grounds 27.
 - **T10 Troops**: Sanctuary 30 + Training Grounds 30 + 100% Elite Troops research branch.

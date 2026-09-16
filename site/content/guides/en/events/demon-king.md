@@ -13,9 +13,14 @@ The **Demon King (Blight Ranger)** is a recurring world boss event on the global
 
 ## 📅 Schedule & Participation Requirements {#schedule}
 
-* **Event Days:** The Demon King spawns on the world map **every Tuesday and Friday** (starting immediately after the server reset at 00:00 server time / 02:00 UTC).
+* **Event Days:** The Demon King rotates through three types on the world map:
+  - **Mon & Thu** — Warlock Blight (bonus damage from **Warrior** heroes)
+  - **Tue & Fri** — Ranger Blight (bonus damage from **Warlock** heroes)
+  - **Wed & Sat** — Warrior Blight (bonus damage from **Ranger** heroes)
+
+  This page covers the Tuesday/Friday Ranger Blight; the same rules apply to the other two days — just swap the counter class.
 * **Sanctuary Requirement:** Available to all commanders with **Sanctuary Level 8 or higher**.
-* **Daily Attack Cap:** Each commander has **up to 10 attacks per day**.
+* **Daily Attack Cap:** Each commander has **up to 10 attacks per day**. Rally attacks are not supported.
 * **Zero Troop Loss:** Battles against the Demon King do not result in permanent soldier deaths — wounded soldiers are routed to the Infirmary with zero permanent CP reduction.
 
 ---
@@ -26,8 +31,8 @@ The **Demon King (Blight Ranger)** is a recurring world boss event on the global
 > The Blight Ranger is inherently **vulnerable to heroes of the Mage / Warlock class**. Mages deal significantly amplified damage throughout the fight.
 
 To maximize your damage ranking and secure top milestone chests:
-1. **Build a Dedicated Mage Lineup:** Prioritize high single-target DPS spellcasters such as **Marlena**, **Celia**, **Evelyn**, and **Catherine**.
-2. **Faction Resonance:** Deploy 5 heroes belonging to the same caster faction to trigger the maximum **+25% ATK & HP synergy bonus**.
+1. **Build a Dedicated Warlock Lineup:** Prioritize your best Warlock roster (e.g. [Joker](/codex/joker/), [Annie](/codex/annie/), [Nicole](/codex/nicole/), [Billy](/codex/billy/), [Ulfrid](/codex/ulfrid/) as available).
+2. **Faction Resonance:** Deploy 5 heroes of the same faction to trigger the maximum squad bonus (**+20% HP / ATK / DEF**).
 3. **Single-Target Focus:** Equip and skill heroes with heavy single-target nuke abilities over area-of-effect (AoE) utility skills.
 
 ---

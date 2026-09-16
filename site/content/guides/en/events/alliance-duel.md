@@ -24,7 +24,7 @@ There is also a compressed format: **Survival Battle**, a 4-hour version of the 
 ## Entry Requirements and Matchmaking {#entry-requirements}
 
 - Your alliance must be a **top-32 ranked alliance** with **20 or more members** to enter.
-- On a brand-new server, the first duel runs around **day 17** — plan your opening two weeks around it.
+- On a brand-new server, the first duel runs around **day 15** — plan your opening two weeks around it.
 - After Phase 6 ends there is a **1-day break** before the next cycle begins.
 - Matchmaking is believed to be based on **alliance activity and win rate** — highly active alliances get paired against similarly active ones, not purely by raw power.
 
@@ -118,7 +118,7 @@ Then the advanced trick, the **Stacking Max - 1** technique:
 Two calendar facts every new server player should know:
 
 - **There is no raid during the first 2 weeks** of a new server. Raid content starts in **week 3** — do not burn resources expecting it earlier.
-- The **first Alliance Duel lands around day 17**. The opening-two-weeks economy in the beginner guides is tuned exactly to this: build up, then have something worth scoring when the first duel opens.
+- The **first Alliance Duel lands around day 15**. The opening-two-weeks economy in the beginner guides is tuned exactly to this: build up, then have something worth scoring when the first duel opens.
 
 ## Research Lab: Unlocking Chest Tiers 4–9 (Super Rewards) {#lab-super-rewards}
 
