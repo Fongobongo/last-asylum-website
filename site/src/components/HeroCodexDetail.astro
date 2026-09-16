@@ -13,6 +13,15 @@ interface Props {
 
 const { hero, lang, breadcrumbs } = Astro.props;
 
+// Heroes with known awakening trees get an interlink banner to the awakening deep-dive.
+const AWAKENED_SLUGS = new Set(['marlena', 'cynthia', 'annie']);
+const awakeningBanner = AWAKENED_SLUGS.has(hero.slug)
+  ? (lang === 'ru'
+      ? '🌟 У этого героя есть разблокированное Пробуждение — механика, осколки и что качать: раздел «Awakening» в гайде по героям →'
+      : '🌟 This hero has an Awakening tree unlocked — mechanics, shards and what to buy: the Awakening section of the Heroes guide →')
+  : null;
+const awakeningHref = lang === 'ru' ? '/ru/heroes/#awakening-walkthrough' : '/heroes/#awakening-walkthrough';
+
 const officialData = hero.officialId ? (officialHeroesData as any)[hero.officialId.toString()] : null;
 
 // Localized hero name & details
@@ -275,6 +284,12 @@ const t = ui[lang] || ui.en;
       </span>
     )}
   </div>
+
+  {awakeningBanner && (
+    <a href={awakeningHref} class="not-prose mb-5 flex items-center gap-2.5 rounded-xl border border-plague-600/40 bg-plague-950/40 px-4 py-3 text-sm font-medium text-plague-200 hover:border-plague-500 hover:text-plague-100">
+      {awakeningBanner}
+    </a>
+  )}
 
   <!-- Recruitment Quote -->
   {previewQuote && (

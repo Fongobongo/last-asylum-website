@@ -2301,18 +2301,6 @@ export const rawVideos: Record<string, Video[]> = {
       "lang": "en"
     }
   ],
-  "pandemic_ru": [
-    {
-      "id": "-BM4Rp9hd5U",
-      "title": "Вирусный опыт — как пройти правильно",
-      "lang": "en"
-    },
-    {
-      "id": "ECZkbQxBRMc",
-      "title": "Вирусный опыт — забираем лучшие награды",
-      "lang": "en"
-    }
-  ],
 };
 
 export const topicSearchTerms: Record<string, Record<Lang, string>> = {

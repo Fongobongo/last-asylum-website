@@ -69,6 +69,18 @@ The critical rule for Honor specifically: honor is **only for gear blueprints**.
 2. Crow Evolution Guide, Shields, SR Inscription Chest, and Bella Fragments.
 3. Optional: all speedups.
 
+## The Monday Shopping Sweep (Korpez) {#shop-sweep}
+
+Do this once a week, every week, after the shop restock — the whole run takes under 5 minutes:
+
+1. **Sanctuary Shop** — every Raven Essence → every UR shard → Gearstones. Stop there.
+2. **Expedition Shop** — same order. Add the two gold expedition chests if tokens allow; Alliance-duel shards stock up here too (shop aligns with the AD prep cycle).
+3. **Honor Shop** — *nothing except* UR gear blueprints (those are the [only reason Honor exists](/gear/)).
+4. **Alliance Shop** — top up UR omnis and essences while you still can; donations every few hours are how you fund this (-20 to -30 diamonds/day in donations is budget, not waste).
+5. **VIP Shop** — weekly 8h/3h/1h speedups, nothing else.
+
+A month of sweeps lands ~40 essences + ~80 UR shards + the full weekly speedup stack without you paying attention in between. New players forget; veterans don't.
+
 ## Epigraph Chests: The Exception Rule {#epigraph-chests}
 
 Buy epigraph chests in every shop **except the Honor Shop**. Epigraphs feed the Raven system, and the Raven's UR epigraphs only buff one faction — in the mono-faction meta, that makes epigraph chests the single most consistent long-term purchase in the game.
