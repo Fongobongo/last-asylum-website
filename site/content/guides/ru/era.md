@@ -5,6 +5,7 @@ lang: ru
 updated: "2026-09-03"
 videoTopic: era
 calculators: ["claire-shards"]
+infographics: ["/infographics/hero-awakening-ru.jpg", "/infographics/era-monsters-infection-ru.jpg", "/infographics/era-royal-city-ru.png"]
 ---
 
 Эра Возрождения — сезонный слой, который прибывает около 120-го дня: цикл длиной примерно в два месяца, добавляющий собственные системы прогрессии поверх базовой игры: Статую Лорда (Сопротивление и Эволюция Лорда), деревья специализаций и Элитную Скверну.

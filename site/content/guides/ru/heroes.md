@@ -5,7 +5,7 @@ lang: ru
 updated: "2026-09-03"
 videoTopic: heroes
 calculators: ["ad-phase4"]
-infographics: ["/infographics/marlena-skills.webp"]
+infographics: ["/infographics/hero-awakening-ru.jpg", "/infographics/marlena-skills.webp"]
 ---
 
 Герои — крупнейший множитель Мощи в Last Asylum: Plague и самое дорогое в исправлении, если построить неправильно. Экономика фрагментов и значков навыка наказывает распыление, поэтому сообщество сходится на одном каноническом free-to-play-пути и жёстком порядке действий вокруг него.

@@ -4,7 +4,7 @@ description: "Куда уходит каждый алмаз: приоритет�
 lang: ru
 updated: "2026-09-03"
 videoTopic: economy
-infographics: ["/infographics/shop-priority.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
+infographics: ["/infographics/diamond-shop-guide-ru.jpg", "/infographics/shop-priority.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
 ---
 
 В Last Asylum: Plague параллельно работают три экономики: алмазы с магазинами, ежедневный грабёж и календарь ивентов. В каждой свои ловушки — плохие алмазные покупки, впустую потраченный потенциал грабежа, выносливость, слитая с эффективностью 5%. Эта страница — консенсус сообщества по всем трём с точными цифрами.

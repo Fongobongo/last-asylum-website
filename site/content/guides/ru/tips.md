@@ -4,6 +4,7 @@ description: "Полная энциклопедия скрытых механи�
 lang: ru
 updated: "2026-09-04"
 videoTopic: beginner
+infographics: ["/infographics/tech-research-order-ru.jpg", "/infographics/building-speed-formula-ru.png"]
 ---
 
 Большинство мобильных стратегий кажутся простыми на первый взгляд: строй здания, качай героев, нажимай на кнопки с красными точками. Однако в **Last Asylum: Plague** за внешним интерфейсом скрывается сложный математический движок с десятками нюансов, о которых игра умалчивает.
