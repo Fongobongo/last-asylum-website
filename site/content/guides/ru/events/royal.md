@@ -5,7 +5,7 @@ lang: ru
 updated: "2026-09-03"
 videoTopic: royal
 calculators: []
-infographics: []
+infographics: ["/infographics/royal-scramble-ru.webp"]
 type: event
 ---
 

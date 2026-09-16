@@ -4,6 +4,7 @@ description: "Raven levels and plans, gear strategy, epigraph rarities and promo
 lang: en
 updated: "2026-09-03"
 videoTopic: raven
+infographics: ["/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
 ---
 
 The Raven is the system that quietly separates accounts: it works like an extra hero for all your squads at once, and its epigraphs are where the mono-faction meta is actually enforced. The Raven is also the system most players neglect — a Raven stuck at level 1 is a classic mistake.

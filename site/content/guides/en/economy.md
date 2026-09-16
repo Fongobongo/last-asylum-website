@@ -4,7 +4,7 @@ description: "Where every diamond goes: VIP shop priorities, the restock schedul
 lang: en
 updated: "2026-09-03"
 videoTopic: economy
-infographics: ["/infographics/shop-priority.webp", "/infographics/diamonds-free.webp"]
+infographics: ["/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
 ---
 
 Last Asylum: Plague runs three parallel economies: diamonds and shops, daily plunder, and the event calendar. Each has its own traps — bad diamond buys, wasted plunder capacity, stamina spent at 5% efficiency. This page is the community consensus on all three, with the exact numbers.

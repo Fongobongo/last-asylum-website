@@ -4,6 +4,7 @@ description: "Уровни и планы Ворона, стратегия сна
 lang: ru
 updated: "2026-09-03"
 videoTopic: raven
+infographics: ["/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
 ---
 
 Ворон — система, которая незаметно разделяет аккаунты: он работает как дополнительный герой сразу для всех ваших отрядов, а его эпиграфы — то место, где мета моно-фракций реально закрепляется. Ворон же — система, которую большинство игроков запускает: Ворон, застрявший на 1-м уровне, — классическая ошибка.
