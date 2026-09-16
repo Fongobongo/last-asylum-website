@@ -93,6 +93,22 @@ But there is one trap inside her kit: never max Marlena's auto-attack to 30 earl
 
 Claire's key skill is her passive — the team-wide damage amplifier. The verified plan: all skills to about 15, passive to 20, and hold there until Zoya arrives and reshuffles priorities.
 
+### Korpez' Per-Hero Skill Sheet (Deep-Dive Numbers) {#korpez-skill-sheet}
+
+For each hero Korpez goes through every skill with a target level. Distillation:
+
+- **Marlena** — Peerless Blade to 25 → Wargod's Will to 25 → Crimson Bloom to 20 → back: Peerless Blade 30, Wargod's Will 30. (8★ first to unlock Tenacity: +20% ATK/HP/DEF, +10% skill cooldown.)
+- **Arthur** — max stars comes free, but his skills are weak endgame; leftovers only, Ult+passive to ~20 at most.
+- **Escanor** — shield scales off max DEF (ult) and max HP (passive shields DPS below 50% HP); invest in gear, skip his attack skills.
+- **Cynthia** — auto-attack to ~15, Lunar Hunt to ~20-25, get the Moonfall Dance passive high (25–30; stars upgrade it to hit the whole enemy team).
+- **Annie** — Candy ~20, Surprise Gift ~20–25, Candy Jar (ult) to 30, Charged Gummies to 30. Gear: sword+gloves 40+, boots 2★+, chest low.
+- **Joker** — pure backline killer: his basic card hits the lowest-HP enemy, ultimate targets the backline directly; stack crit on sword.
+- **Billy (Warlock tank)** — Fate's Thread protects your top-2 ATK allies (25+); his passive grants near-total Red Lady stun immunity.
+- **Nicole** — support with DPS-tier healing off her ATK stat; heals trigger on burning enemies (Joker synergy).
+- **Bell** — **her heals scale with ATK**, not DEF: ignoring sword+gloves cuts her healing from ~205K to ~66K. Yes — put real damage gear on your "support".
+- **Ash & Cecilia (SR)** — the only purple heroes worth skills: Ash = +monster damage buff, Cecilia = resource-gather buff. Everything else SR stays at base.
+- General: **never spend skill points on tanks' attack skills; never on a tank's sword at all.**
+
 ## Star Breakpoints and Tenacity {#star-breakpoints}
 
 Stars are the biggest single multiplier on hero might. The significant power jump arrives after **4 stars** — below that a hero is a seat-warmer, above it the same hero starts winning fights. This is why the community's first star target on every main-squad hero is getting through 4, not scattering shards to make everyone evenly mediocre.

@@ -268,3 +268,15 @@ Diamonds are the premier currency. While generous in the early game, reckless sp
 10. **Never refine a tank's sword:** Gear stones belong on Carry Sword/Gloves and Tank Chest/Boots.
 11. **Never spend diamonds on raw Tavern pulls** — Save 11,500+ for the Wishing Wheel and VIP progression.
 12. **Mono-faction beats hybrid setups** — Five heroes of the same class maximized with Raven Epigraphs dominate mixed comps.
+
+---
+
+## Korpez' Top-5 Early-Game Regrets — Don't Repeat Them {#korpez-regrets}
+
+From 7 months of main-account play, five mistakes the vets keep telling new players to avoid:
+
+1. **Buying Curio chests in the Honor shop instead of blueprints.** Gear blueprints are the only thing Honor buys that's scarce everywhere else. Curios drop passively; blueprints don't.
+2. **Feeding UR Omnis to Arthur.** He ages badly. Vault them for **Marlena to 10★** — she carries the entire first 30–60 days.
+3. **Ignoring the Smelting Workshops.** Five of them at level 23–25 = 44K gearstones/week passive. Pushing them late is what gates every level-40 breakpoint later.
+4. **Dripping gearstones across purple (SSR) gear.** Right gear for the right hero only: sword+gloves+boots for DPS, chest+boots for tanks, everything else at zero until UR.
+5. **Upgrading attack skills on tanks.** A tank's attack does nothing; their skills work on scaling DEF/HP instead.

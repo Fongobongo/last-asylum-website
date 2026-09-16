@@ -25,6 +25,24 @@ infographics: ["/infographics/skill-scaling.webp"]
 > [!WARNING] The Tank Weapon Trap (Fake Might)
 > Refining a tank's sword with Gear Stones inflates your profile's visible Might, but delivers **virtually zero impact in actual battles**. Tanks win fights by surviving and soaking damage, not with basic attack swings. Do not waste scarce Gear Stones on tank weapons — channel them directly into your carry's sword and gloves! Similarly, do not over-invest in a carry's chest armor — minor defense gains won't save a glass cannon.
 
+## Smelting Workshops: the 25 sweet spot {#smelters}
+
+Five Smelting Workshops are your passive gearstone income.
+
+- Each workshop should be pushed to **level 23–25**. Level 25 is the sweet spot: past it the cost curve spikes hard while gains flatten.
+- 5 workshops at 25 ≈ **265 stones/hour ≈ 6K/day ≈ 44K/week passive**.
+- Combined with Covert Ops (~33K/week if you hit UR missions), KvK rewards (~14K), weekly shop buys (~10K×2) and Alliance Duel phase chests (~33K), F2P math lands at **~131K gearstones per week** — enough to fund one ~level 40 breakpoint per week.
+
+## Gear Market Mechanics: Craft, Fuse, Tempered Steel {#crafting-math}
+
+- Dismantle everything non-blue; fuse the result **4 → 1** up the material ladder into **Tempered Steel** — the required input for UR weapons, UR armor, and all past-40 upgrades.
+- A single UR craft costs **500K herbs** and **~1 day 5 hours** at lower workshop levels (higher workshop level shortens this).
+- Craft **SSR gloves back** only if the world-boss/demon-king loop demands them (their +6% monster damage is irreplaceable on PvE; swap back to UR gloves after).
+
+## Level-40 Stacking Trick {#level-40-jump}
+
+Gear stats scale linearly up to 40, then **jump disproportionately**: a level-40+ sword gains far more attack/crit per stone than levels 36–39. Practical rule: stack stones and herbs on an item until you can push it **straight from 38 to 42+ in one burst** — never drip-feed across the smoothest part of the curve.
+
 ## Gear Promotion and Exclusive Weapon Smelt {#promotion}
 
 Since the May 2026 update, gear can be **promoted** with Blueprints at levels **10, 20, 30 and 40**, and enhanced beyond 40 up to **60** — the total material cost stays the same as the old system. Promotions unlock additional bonus stats; higher promotion tiers are the main long-term gear goal.

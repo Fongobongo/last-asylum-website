@@ -59,3 +59,5 @@ Verified results from players running this system: **consistent top-20/40/100 fi
 - The special arena variant runs the same 2-of-3 format — and the **"Trap Squad"** play exploits the attacker's visibility advantage in reverse: bait balanced-looking squads that punch far above their apparent weight.
 - Done well, it **grabs high-tier rewards, including UR shards** — the rare free UR source in PvP content.
 - **Known bug: some players get stuck unranked on new servers** — if your rank never populates in a Fate season, it is the bug, not your play. Report and wait it out.
+- **The greedy variant (Korpez):** build three squads as *strong main / decoy / trap* — the **trap squad shows tiny visible Might while hiding your 10★ carry** (Marlena, Cynthia). Most players scan Might numbers, don't check compositions, so they waste their attack on the "easy" slot and eat the full carry. Extreme version: **run a 4-man formation** with a tank removed — the apparent power drop baits even mid-tier players into attacking.
+- "Trap squad + tank removed" took Korpez and his ally from rank ~160 into the top 50 without extra spending. Visibility of hero power trumps displayed Might.

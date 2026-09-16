@@ -72,6 +72,14 @@ The exchange shop is the real reward, and the community consensus order is stabl
 
 And one inventory rule: **the scroll limit carries over event to event**. If you hit the scroll cap, that cap follows you into the next event — another reason the "four then never again" rule exists.
 
+## Field Tips (Korpez) {#field-tips}
+
+- **Park one squad at a dense pack of small thieves** and chain them — 10 kills in ~2 minutes is what fully feeds your spawn counter. Standing still between spawns beats roaming.
+- **Kill your own alliance's bosses first** — if you drag your feet, a neighbor alliance will clear your bosses and rob your whole team of the damage-reward shares. A lose-lose you somehow chose.
+- **Oversized boss? Recruit up.** Drop the boss link in alliance chat — a whale or a whale-leaning mid-tier will absorb the kill, and you keep the drop rewards. Never let a high-level Thief Leader despawn.
+- **Keep one squad home permanently for ally rallies** — joining costs you zero stamina, but you still bank the full reward share. Free loot for zero resource. This is the best one: don't leave it unharvested.
+- An hour of targeted grinding converts to roughly 4K Thief Coins, 250K Crow berries and ~65M grain+wood+herbs in resources — which is why this event outearns the **Dwarven Mine** in raw weekly income for most players.
+
 ## The Boss Rally Squad {#boss-squad}
 
 The community boss comp, built for damage over time:
