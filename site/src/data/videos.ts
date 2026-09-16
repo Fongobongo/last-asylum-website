@@ -948,6 +948,11 @@ export const rawVideos: Record<string, Video[]> = {
       "id": "98MOWm31PqE",
       "title": "The Ultimate Hero Guide for Beginners",
       "lang": "en"
+    },
+    {
+      "id": "mK-mCXxerUE",
+      "title": "Cynthia Awakened — Is She Worth Building?",
+      "lang": "en"
     }
   ],
   "heroes_ru": [
@@ -964,6 +969,11 @@ export const rawVideos: Record<string, Video[]> = {
     {
       "id": "PNaQ5Q8sGAY",
       "title": "Академия героев: разбор ошибок",
+      "lang": "en"
+    },
+    {
+      "id": "mK-mCXxerUE",
+      "title": "Синтия пробуждённая — стоит ли качать",
       "lang": "en"
     }
   ],
@@ -999,6 +1009,11 @@ export const rawVideos: Record<string, Video[]> = {
       "id": "SkCEUgERNyo",
       "title": "My Priority List for Every Shop",
       "lang": "en"
+    },
+    {
+      "id": "Zk0dfyCSXMY",
+      "title": "Recluse Merchant & Recluse's Enigma — Best Pick",
+      "lang": "en"
     }
   ],
   "economy_ru": [
@@ -1015,6 +1030,11 @@ export const rawVideos: Record<string, Video[]> = {
     {
       "id": "SkCEUgERNyo",
       "title": "Полный список приоритетов магазинов",
+      "lang": "en"
+    },
+    {
+      "id": "Zk0dfyCSXMY",
+      "title": "Торговец-Отшельник и его Загадка — что брать",
       "lang": "en"
     }
   ],
@@ -1271,6 +1291,11 @@ export const rawVideos: Record<string, Video[]> = {
       "id": "vBBjFYwyIKE",
       "title": "Cheese Trap Formation Strategy",
       "lang": "en"
+    },
+    {
+      "id": "uakNIgTtdTM",
+      "title": "Cheese Trap — Latest Strategy Update",
+      "lang": "en"
     }
   ],
   "cheese_ru": [
@@ -1287,6 +1312,11 @@ export const rawVideos: Record<string, Video[]> = {
     {
       "id": "vBBjFYwyIKE",
       "title": "Тактика расстановки отряда для ловушки",
+      "lang": "en"
+    },
+    {
+      "id": "uakNIgTtdTM",
+      "title": "Сырная ловушка — свежая стратегия",
       "lang": "en"
     }
   ],
@@ -1401,6 +1431,11 @@ export const rawVideos: Record<string, Video[]> = {
       "id": "9RMjsXxa_zk",
       "title": "Buried Treasure Mini-Game Guide",
       "lang": "en"
+    },
+    {
+      "id": "i4KwMIoTups",
+      "title": "Pirate Event Guide & Mailbag Monday",
+      "lang": "en"
     }
   ],
   "mythic_ru": [
@@ -1412,6 +1447,11 @@ export const rawVideos: Record<string, Video[]> = {
     {
       "id": "9RMjsXxa_zk",
       "title": "Зарытые сокровища: прохождение мини-игры",
+      "lang": "en"
+    },
+    {
+      "id": "i4KwMIoTups",
+      "title": "Пиратский ивент и вопросы недели",
       "lang": "en"
     }
   ],
@@ -1640,6 +1680,11 @@ export const rawVideos: Record<string, Video[]> = {
       "id": "8wvFx7jeZds",
       "title": "Claire UR vs Zoya — Main Team Showdown",
       "lang": "en"
+    },
+    {
+      "id": "yNaDWl9hKGw",
+      "title": "Annie vs Jester — Which Warlock Carry Should You Build?",
+      "lang": "en"
     }
   ],
   "compare_ru": [
@@ -1656,6 +1701,11 @@ export const rawVideos: Record<string, Video[]> = {
     {
       "id": "8wvFx7jeZds",
       "title": "Клэр UR против Зои: выбор основного бойца",
+      "lang": "en"
+    },
+    {
+      "id": "yNaDWl9hKGw",
+      "title": "Энни против Джестера: какого колдуна-кэрри качать",
       "lang": "en"
     }
   ],
