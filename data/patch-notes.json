@@ -261,6 +261,13 @@
       "created_at": "2026-09-02T10:07:00.480000+00:00",
       "embeds": [],
       "attachments": []
+    },
+    {
+      "id": 1547136883375472640,
+      "author_id": 978860701760237598,
+      "author_name": "eoanf_123",
+      "content": "# Update Notes\nSeptember 9 Maintenance Notice \n \nDear Doctor: \nWe performed server maintenance Sep 9 at 5:00 (UTC-2), Here are the details of this update: \n \nNew Content: \n1. New Event: Gear Upgrade, available every Saturday and Sunday. \n \nOptimizations: \n1. Optimized the editing interface for King Mail and Alliance Mail. The current character count is now displayed while editing. \n2. Optimized the probability descriptions for Surprise Boxes in Surprise Encounter. \n \nBug Fixes: \n1. Fixed an issue where ally garrison information would not disappear under certain conditions. \n2. Fixed an issue where allied troops garrisoned at a location could not be recalled under certain conditions. \n \n\n Welcome to share your feedbacks and suggestions about this update in https://discord.com/channels/1417476085179748507/1547136668119605278\n\nThank you for your understanding and continued support. Enjoy the game! \n@everyone",
+      "created_at": "2026-09-09T06:49:37.410000+00:00"
     }
   ]
 }

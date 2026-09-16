@@ -1,0 +1,2750 @@
+{
+  "channel_name": "official-guide",
+  "threads": [
+    {
+      "thread_id": 1452584885096284160,
+      "thread_name": "Buildings Guide",
+      "message_count": 47,
+      "messages": [
+        {
+          "id": 1452584885096284160,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "In <Last Asylum: Survival>, there are a variety of buildings, each with unique features.\nAlmost all buildings can be upgraded to a higher level by clicking the green arrow.Upgrading buildings boosts your strength and unlocks additional bonuses.\nThe level of each building is always capped at the current level of the Sanctuary. Building upgrades require strategic planning around the Sanctuary level. Prioritize upgrading the Sanctuary, use Builder's Hut to reduce construction time, and gradually enhance Research, Barracks, Training Grounds, and Infirmary based on your needs. This balanced approach ensures might and resource growth, preventing issues like restricted troop training or stagnant progress.Below is a breakdown of the core functions of key buildings.\n\n**Sanctuary**\nThe Sanctuary is the most vital building, as it dictates the max level of all other structures.\nAfter upgrading the Sanctuary, the following stats will increase:\n•Might\n•Hero Level Cap\n•Hero HP\n•Hero ATK\n•Hero DEF\n•Building Level Cap\nAdditionally, upgrading the Sanctuary will also:\n•Grant EXP rewards (EXP gain shown in upgrade image);\n•Unlock new buildings.",
+          "created_at": "2025-12-22T08:53:44.329000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1452584885096284160/1452584885347815424/image.png?ex=6a993598&is=6a97e418&hm=2370fe68bf9ca40f080e0c84393ca8b4922598fac37a75d207b2059ba8d43652&"
+            },
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1452584885096284160/1452584885712584829/image.png?ex=6a993598&is=6a97e418&hm=c430fe0dc04fbf93f6722cb20367c5b9e379eb55822d1addcbcf34586ba646ca&"
+            }
+          ]
+        },
+        {
+          "id": 1452584987378454623,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "Builder's Hut\n\nIn the early game, when your base is below Lv.15, the Builder's Hut will be your most valuable asset.\nThis building grants you free construction speedups.By keeping the Builder's Hut at the same level as the Sanctuary, you can rapidly upgrade numerous other structures.\nHere, you can see which survivors are working in this building.You can also replace existing Survivors with others who offer higher bonus effects.",
+          "created_at": "2025-12-22T08:54:08.715000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1452584885096284160/1452584986971734122/image.png?ex=6a9935b0&is=6a97e430&hm=f8a242c5ee48bb2eea704c816e1853483ca804cee15380c6b4342fabfc610b67&"
+            }
+          ]
+        },
+        {
+          "id": 1452585036674105577,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "Research Lab\n\nScientific research is essential for boosting your might. In the Research Lab, you can study various technologies to gain a wide range of buffs and bonuses.\nBoth might cultivation and economic development can receive significant numerical boosts through tech research.",
+          "created_at": "2025-12-22T08:54:20.468000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1452584885096284160/1452585036422320258/image.png?ex=6a9935bc&is=6a97e43c&hm=de5dc31fb59c144a1f9da7c952cbf84454340b99b6ec71f59731589fb94c190d&"
+            }
+          ]
+        },
+        {
+          "id": 1452585159961481287,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "Barracks & Training Grounds\n    \nThese two buildings often cause confusion due to their similar themes, but their functions are distinct:\nBarracks are for upgrading troop types; Training Grounds are for expanding troop type capacity.",
+          "created_at": "2025-12-22T08:54:49.862000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1452584885096284160/1452585159177142303/image.png?ex=6a9935d9&is=6a97e459&hm=82c72da0a73ffd8229663e1c798429f0fc4a5b9e43f145ac571a9e9063e5beac&"
+            },
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1452584885096284160/1452585159483199568/image.png?ex=6a9935d9&is=6a97e459&hm=fedb251622406df3a5dde110e293385bb1314bb7969f2c45e5f6d87a1d869def&"
+            }
+          ]
+        },
+        {
+          "id": 1452585207055257652,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "Infirmary\n\nWhen you suffer a defeat in battle, some of your soldiers won't be killed outright; instead, they'll be critically injured and sent to the Infirmary.This is the Infirmary's core function: healing wounded troops.\nHow it works:\nTroops injured in battle are sent to the Infirmary.\nYou need to consume certain resources (such as Gold, Medicine, or time) to heal these troops.\nOnce healing is complete, troops will recover to full health and rejoin your army for future battles.\n\nMany more buildings await your exploration in the game. Master the rhythm of building upgrades and lay a solid foundation for your base. This way, you'll be able to face challenges in the post-apocalyptic world of Last Asylum: Survival with greater confidence and continuously grow your power!",
+          "created_at": "2025-12-22T08:55:01.090000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1452584885096284160/1452585207025762304/image.png?ex=6a9935e5&is=6a97e465&hm=d6716ace35b22f1ae8daa6d0747061d1f0e623dcd93ca1d76548334553f1322a&"
+            }
+          ]
+        },
+        {
+          "id": 1464304543176196322,
+          "author_id": 488188431793389570,
+          "author_name": "_mysticferret",
+          "content": "Could this be updated with watchtower, scouts, and tavern specifics? Some of the features are obvious but some are not.",
+          "created_at": "2026-01-23T17:03:28.556000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1466062964774928404,
+          "author_id": 1425824827415199837,
+          "author_name": "4187010378",
+          "content": "What level did the arena open for players?",
+          "created_at": "2026-01-28T13:30:48.935000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1467829895198543885,
+          "author_id": 604825460819361820,
+          "author_name": "tonnyvdmost",
+          "content": "Anything about the watchtower?",
+          "created_at": "2026-02-02T10:31:57.976000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1472129984444366902,
+          "author_id": 1472127210243489853,
+          "author_name": "khawarezmi0719",
+          "content": "How about the hero statue?",
+          "created_at": "2026-02-14T07:18:59.144000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1472668428262183059,
+          "author_id": 656252785691459584,
+          "author_name": "schurinio1424",
+          "content": "Can you make guide \"what do you need for each lvl of sanctuary\"",
+          "created_at": "2026-02-15T18:58:34.154000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1474068549734498405,
+          "author_id": 681638156478447672,
+          "author_name": "sls_443",
+          "content": "Is there a hero rotation in the tavern, or do I have to level up the tavern to get new URs?",
+          "created_at": "2026-02-19T15:42:09.126000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1478228253721231461,
+          "author_id": 1364093392421785640,
+          "author_name": ".queenlissa.",
+          "content": "can we have more information on the watch tower features please?",
+          "created_at": "2026-03-03T03:11:19.840000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1480635200781160459,
+          "author_id": 1469802032503324714,
+          "author_name": "lunamoon124",
+          "content": "What do I need (levels,might and  etc.)to be able to fight in the arena i unlocked it a long time ago and that’s at the top of my daily list but I’m not able to fight in it the button to do it is still grey",
+          "created_at": "2026-03-09T18:35:40.738000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1483985437599989833,
+          "author_id": 957858558987370527,
+          "author_name": "dr.strangel0ve",
+          "content": "Is there a guide to buildings you get to build based on Sanctuary level?",
+          "created_at": "2026-03-19T00:28:19.440000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1484406523387052082,
+          "author_id": 244601375642615809,
+          "author_name": "laskane",
+          "content": "What is the max level of each building ?",
+          "created_at": "2026-03-20T04:21:34.115000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1490547205017178193,
+          "author_id": 1021808864875790447,
+          "author_name": "queenmomamoody85",
+          "content": "❤️ 🇺🇲 👍",
+          "created_at": "2026-04-06T03:02:26.704000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1490547283417366779,
+          "author_id": 1021808864875790447,
+          "author_name": "queenmomamoody85",
+          "content": "❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ ❤️ <:SSR:1489973647626997810> <:UR:1489973573006393465> <:SR:1489973691604537507>",
+          "created_at": "2026-04-06T03:02:45.396000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1490949585378738266,
+          "author_id": 166966485670035458,
+          "author_name": "shortbeard3658",
+          "content": "According to ingame tooltip the upgrading the training ground enables higher tier soldiers. Barracks increase soldier cap.",
+          "created_at": "2026-04-07T05:41:21.658000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1490949725585936517,
+          "author_id": 166966485670035458,
+          "author_name": "shortbeard3658",
+          "content": "+1",
+          "created_at": "2026-04-07T05:41:55.086000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1494513429065629808,
+          "author_id": 1244379266150305933,
+          "author_name": "suedonym666",
+          "content": "You need to finish rookie Arena first. Then it will let you do Apex Arena.",
+          "created_at": "2026-04-17T01:42:48.206000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1502135387471220878,
+          "author_id": 1007707428621652018,
+          "author_name": "miss_starraven",
+          "content": "I have a question, when gathering from farms I have noticed there is a cap. I can't gather anymore , the number stays the same. is this a bug or does the number go up when I upgrade my depos? For example my cap is at 107 million at a level 21 farm depo.",
+          "created_at": "2026-05-08T02:29:44.699000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1502135447193911427,
+          "author_id": 1007707428621652018,
+          "author_name": "miss_starraven",
+          "content": "And gathering from  our farms inside",
+          "created_at": "2026-05-08T02:29:58.938000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1502135516605321276,
+          "author_id": 1007707428621652018,
+          "author_name": "miss_starraven",
+          "content": "When I collect the dailys my number will not go up , it is capped",
+          "created_at": "2026-05-08T02:30:15.487000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1502135573006127114,
+          "author_id": 1007707428621652018,
+          "author_name": "miss_starraven",
+          "content": "The only way my number on top goes up if i use bags.",
+          "created_at": "2026-05-08T02:30:28.934000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1502136152449355829,
+          "author_id": 1007707428621652018,
+          "author_name": "miss_starraven",
+          "content": "I'm talking about these numbers capping",
+          "created_at": "2026-05-08T02:32:47.084000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "Screenshot_20260507_185607_Last_Asylum_Plague.jpg",
+              "url": "https://cdn.discordapp.com/attachments/1452584885096284160/1502136151647977502/Screenshot_20260507_185607_Last_Asylum_Plague.jpg?ex=6a98dc4e&is=6a978ace&hm=c967e8616fc7e16d04628979a037f9cf85cd8dda1d76de428806b56196a79f32&"
+            }
+          ]
+        },
+        {
+          "id": 1502642832349986896,
+          "author_id": 923933052554575952,
+          "author_name": "ladym4232",
+          "content": "How do you find the buildings required for level 27",
+          "created_at": "2026-05-09T12:06:08.986000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1503616815039774801,
+          "author_id": 994414286803845192,
+          "author_name": "amashash",
+          "content": "",
+          "created_at": "2026-05-12T04:36:24.555000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "IMG_6500.jpg",
+              "url": "https://cdn.discordapp.com/attachments/1452584885096284160/1503616814737788968/IMG_6500.jpg?ex=6a98f948&is=6a97a7c8&hm=73773dca42c4d8772ff30105cfa81c05ca8723910bedca2a3777ab88376add9b&"
+            }
+          ]
+        },
+        {
+          "id": 1505704343674818611,
+          "author_id": 751626089679552541,
+          "author_name": "jenchris093094",
+          "content": "Thank you",
+          "created_at": "2026-05-17T22:51:30.166000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1506941375038357594,
+          "author_id": 1506939491481554985,
+          "author_name": "tilmatinemohamedamine",
+          "content": "Hello good peopels",
+          "created_at": "2026-05-21T08:47:01.426000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1506941466587697293,
+          "author_id": 1506939491481554985,
+          "author_name": "tilmatinemohamedamine",
+          "content": "How are you doing today",
+          "created_at": "2026-05-21T08:47:23.253000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1506941591749791776,
+          "author_id": 1506939491481554985,
+          "author_name": "tilmatinemohamedamine",
+          "content": "",
+          "created_at": "2026-05-21T08:47:53.094000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "received_979004294861494.jpg",
+              "url": "https://cdn.discordapp.com/attachments/1452584885096284160/1506941591896457216/received_979004294861494.jpg?ex=6a993439&is=6a97e2b9&hm=965c45fa749f31d66382dd2864a627c6059090fd64544256469c66b0880f2687&"
+            }
+          ]
+        },
+        {
+          "id": 1507165784936288387,
+          "author_id": 1465674491865727121,
+          "author_name": "biscute06",
+          "content": "The epigraph building: when and the best way to utilize it.",
+          "created_at": "2026-05-21T23:38:44.915000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1508083722128462025,
+          "author_id": 994414286803845192,
+          "author_name": "amashash",
+          "content": "You're welcome",
+          "created_at": "2026-05-24T12:26:18.196000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1510946707934806148,
+          "author_id": 554077729532805121,
+          "author_name": "joewannie",
+          "content": "Hey, can anybody tell me how the Epigraph Building works?! I don't get it",
+          "created_at": "2026-06-01T10:02:47.204000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1513710257036198079,
+          "author_id": 1421717004213293107,
+          "author_name": "pointgirl",
+          "content": "<@1450685468260696228>",
+          "created_at": "2026-06-09T01:04:08.654000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1514545018994688010,
+          "author_id": 948986976885948448,
+          "author_name": "dzalphamaker",
+          "content": "Dz",
+          "created_at": "2026-06-11T08:21:11.414000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1516767854341394543,
+          "author_id": 1445789612101599240,
+          "author_name": "carol042358",
+          "content": "Hiii",
+          "created_at": "2026-06-17T11:33:56.659000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1517528034838843513,
+          "author_id": 488188431793389570,
+          "author_name": "_mysticferret",
+          "content": "Agree 💯",
+          "created_at": "2026-06-19T13:54:37.813000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1524362977833255024,
+          "author_id": 1524279426374696990,
+          "author_name": "niwselims",
+          "content": "The epigraph gives more defense and attack buff to your heroes and the raven.  And it depends on how far along your server is before you get it ....a good hard working cooperative server will recieve one after the majority of the server reaches certain thresholds like sanctuary levels...winning kvks and alliance duels.....its more of a reward for hard working efforts .......I played on one server for 3 months before we got one",
+          "created_at": "2026-07-08T10:34:15.210000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1524847262650339439,
+          "author_id": 1524803564571066380,
+          "author_name": "boss990333",
+          "content": "Hi",
+          "created_at": "2026-07-09T18:38:37.708000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1525926769100849365,
+          "author_id": 1149688795827011634,
+          "author_name": "h2onymph1",
+          "content": "I am trying to understand the Residence building and all the survivors in it.  I have all these extra buildings (ex. 4-5 timber buildings), but I don't have enough people to fully staff them out to really improve output.  I keep recruiting survivors, but it looks like they are greyed out and not being used in the Resident building.  How do I upgrade them the way the heroes can be upgraded and sent out to work in the other buildings?",
+          "created_at": "2026-07-12T18:08:12.102000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1528115339156525266,
+          "author_id": 754131916164300892,
+          "author_name": "keres1286",
+          "content": "The in-game token exchange shops are a scam; they don't deliver the items even after deducting the tokens, and support is doing nothing about it. I'm on server 40, and this has happened to me personally on two occasions with different items, as well as to other players. However, support or customer service doesn't respond; they leave this bot that doesn't resolve anything, and they are stealing from us. If the game is in 'pay-to-win' mode, then at least be honest and take off the mask. These dynamics are becoming increasingly dirty, which is why many servers are dying",
+          "created_at": "2026-07-18T19:04:47.865000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1531438090604908706,
+          "author_id": 1274772456107802677,
+          "author_name": "mercyshadow",
+          "content": "Is this updated? I feel it is different from my quest",
+          "created_at": "2026-07-27T23:08:13.544000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1531442418589630655,
+          "author_id": 994414286803845192,
+          "author_name": "amashash",
+          "content": "Honestly I don't know. I got it from one of the player guides here",
+          "created_at": "2026-07-27T23:25:25.416000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1531587283579310190,
+          "author_id": 809188726944825364,
+          "author_name": "ibex.15",
+          "content": "Is there a list about what buildings are unlocked at which level?",
+          "created_at": "2026-07-28T09:01:03.921000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1543389708074352791,
+          "author_id": 444784108141412362,
+          "author_name": "bonnie6086",
+          "content": "Is there an excel sheet that covers all the buildings in what is needed in rss, and building time?",
+          "created_at": "2026-08-29T22:39:41.199000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1543389814374793247,
+          "author_id": 444784108141412362,
+          "author_name": "bonnie6086",
+          "content": "There really is not much info here",
+          "created_at": "2026-08-29T22:40:06.543000+00:00",
+          "embeds": [],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "thread_id": 1452585657166856325,
+      "thread_name": "Alliance System Guide | Join Forces to Combat the Plague Crisis",
+      "message_count": 73,
+      "messages": [
+        {
+          "id": 1452585657166856325,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "Doctors, the shadow of the plague is gradually enveloping the entire city.To advance your development more efficiently and accelerate the fight against the epidemic, joining an alliance and fighting alongside fellow doctors is an excellent strategic choice.\nAn alliance is like a warm yet powerful family—\nHere, you can fight side by side, support one another, share resources, grow and strengthen together, and unlock a wealth of exciting events.\n\n**What You Gain by Joining an Alliance**\nAfter joining an alliance, you will be able to:\n•Collaborate with alliance members to complete a variety of quests;\n•Join forces in battles and face enemies as a united front;\n•Assist each other to speed up construction and hero cultivation progress;\n•Share resources and vital intelligence;\n•Chat in the alliance channel and meet like-minded allies.\nThrough alliance cooperation, your overall development speed and might growth will receive a massive boost.",
+          "created_at": "2025-12-22T08:56:48.405000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "alliance_guide.png",
+              "url": "https://cdn.discordapp.com/attachments/1452585657166856325/1452585657334632489/alliance_guide.png?ex=6a993650&is=6a97e4d0&hm=b6836c9e8d330271299839cd43a926a84b3b86414f470603d5a6e8187f17496a&"
+            }
+          ]
+        },
+        {
+          "id": 1452585754952859698,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "# How to Join Alliance\n**1. Find Alliance**\nThe Alliance feature will be officially unlocked once your Sanctuary reaches Level 5.\nFollow these steps to find an alliance:\n1.Tap the [Alliance] button in the bottom-right corner of the main game screen;\n2.Once in the Alliance interface, view the list of alliances recommended by the system.\n￮Recommendations are usually based on activity level, rankings, or proximity.\n3.Alternatively, use the search function to enter an alliance name or ID and locate a specific alliance.\n\n**II. Submit an Application**\nAfter selecting your desired alliance, tap [Apply to Join]:\n•Open Alliances: You'll be admitted immediately after submitting your application.\n•Approval-Required Alliances: You'll need to wait for review and approval from the alliance admins.\nOnce your application is approved, the system will send you a notification confirming your successful alliance membership.\nYou can then participate in alliance events, donate resources, and interact with your fellow members.",
+          "created_at": "2025-12-22T08:57:11.719000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1452586117399314452,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "# How to Choose the Right Alliance\n\nPicking an alliance that suits your playstyle will drastically elevate your gaming experience:\n🔹 Alliance Activity\n•Prioritize alliances with highly active members;\n\n•Active alliances complete quests faster and offer more generous rewards;\n•Keep an eye on member online status and chat frequency to gauge activity.\n🔹 Alliance Level & Rankings\n\n•High-level, top-ranked alliances typically offer stronger tech buffs and larger resource reserves;\n•Note that these alliances may impose requirements on member might or activity levels.\n🔹 Alliance Goals & Playstyle\n•Casual Players: Opt for laid-back, friendly alliances with no strict requirements;\n•Competitive Players: Choose alliances that prioritize wars and rankings as their core goals.\n🔹 Language & Communication\n\n•Join an alliance where members speak a common language; this will greatly facilitate coordination and quest collaboration",
+          "created_at": "2025-12-22T08:58:38.133000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1452586330604179507,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "# Overview of Core Alliance Gameplay\n\n**I. Alliance Technology**\n•Earn Alliance EXP by assisting fellow members or making daily tech donations.\n•Upgrading Alliance Technology levels grants powerful permanent buffs to all alliance members.\n\n**II. Alliance Shop**\n•Stock refreshes every Monday\n•Exchange Alliance EXP for a variety of valuable items:\n￮Recruit Ticket;\n￮Construction Speedups;\n￮Other critical development resources.\n\nThis is a key way to boost your base construction and overall might growth.\n\n**3. Alliance Gifts**\n•Alliance members earn Alliance Gifts by completing designated quests.\n\n•Claiming gifts increases your Gift Level.\n\n•Higher Gift Levels unlock richer rewards and additional alliance features.\n\n**4. Alliance Help**\n•Members can assist each other to reduce quest and construction time.\n\n•This speeds up base development and hero training, drastically improving your overall efficiency.\n\nDoctors, join an alliance today!\nTeam up with your allies to explore more events, dispel the shadow of the plague together,\nand build your ideal home step by step!🌱",
+          "created_at": "2025-12-22T08:59:28.965000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1452585657166856325/1452586330562363402/image.png?ex=6a9936f0&is=6a97e570&hm=b187d39d3602a8f12ff90b4637827157f1730131eedf37c830dd045e1e1368cc&"
+            }
+          ]
+        },
+        {
+          "id": 1457420498987385038,
+          "author_id": 333277725806821376,
+          "author_name": "darthvalkyria",
+          "content": "Is there a guide for the roles within an Alliance and what they mean?",
+          "created_at": "2026-01-04T17:08:44.522000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1458147985320972328,
+          "author_id": 1374764255055839346,
+          "author_name": "saoxkirito5166",
+          "content": "Is there a guide on how to move the alliance relocation point?",
+          "created_at": "2026-01-06T17:19:30.780000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1458148928036798626,
+          "author_id": 1374764255055839346,
+          "author_name": "saoxkirito5166",
+          "content": "Worked it out never mind",
+          "created_at": "2026-01-06T17:23:15.541000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1458373686020276379,
+          "author_id": 310226348222185475,
+          "author_name": "rose_metal_nz",
+          "content": "How do you remove alliance markers?",
+          "created_at": "2026-01-07T08:16:22.020000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1459351726187352104,
+          "author_id": 661112075103371275,
+          "author_name": "full_tank",
+          "content": "actually it doesnt look like a guide, more appears like marketing",
+          "created_at": "2026-01-10T01:02:44.967000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1460179858398122086,
+          "author_id": 807278921757753355,
+          "author_name": "sweetbutspycho",
+          "content": "<@310226348222185475> just click on any base click alkiance marker chose the marker you want to remove click delete",
+          "created_at": "2026-01-12T07:53:27.072000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1467963062735601819,
+          "author_id": 779809088191725619,
+          "author_name": "anna_always",
+          "content": "Heyyy",
+          "created_at": "2026-02-02T19:21:07.591000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1467963191312253215,
+          "author_id": 779809088191725619,
+          "author_name": "anna_always",
+          "content": "Can you explain how you did it. Our marker is rught between 2 castles so I cant click it 😒 🙄 🤣",
+          "created_at": "2026-02-02T19:21:38.246000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1467966057825177662,
+          "author_id": 1374764255055839346,
+          "author_name": "saoxkirito5166",
+          "content": "To move it, just click anywhere on the map you want the new one,",
+          "created_at": "2026-02-02T19:33:01.676000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1467966137659822173,
+          "author_id": 1374764255055839346,
+          "author_name": "saoxkirito5166",
+          "content": "",
+          "created_at": "2026-02-02T19:33:20.710000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "Screenshot_20260202_193309_Last_Asylum_Plague.jpg",
+              "url": "https://cdn.discordapp.com/attachments/1452585657166856325/1467966137403703612/Screenshot_20260202_193309_Last_Asylum_Plague.jpg?ex=6a9922c0&is=6a97d140&hm=04819a7e13a8548c0794b182934bfd90563c6a98492820b15a4f5fbcc88445d9&"
+            }
+          ]
+        },
+        {
+          "id": 1467966188771348573,
+          "author_id": 1374764255055839346,
+          "author_name": "saoxkirito5166",
+          "content": "Click the red flag and youll be prompted",
+          "created_at": "2026-02-02T19:33:32.896000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1467966210384593057,
+          "author_id": 1374764255055839346,
+          "author_name": "saoxkirito5166",
+          "content": "",
+          "created_at": "2026-02-02T19:33:38.049000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "Screenshot_20260202_193312_Last_Asylum_Plague.jpg",
+              "url": "https://cdn.discordapp.com/attachments/1452585657166856325/1467966202939969817/Screenshot_20260202_193312_Last_Asylum_Plague.jpg?ex=6a9922d0&is=6a97d150&hm=47c15f4b6dda01598c281ef5037189c2fb09b9c9824691a2eaab2e735dd4eb3a&"
+            }
+          ]
+        },
+        {
+          "id": 1467971980816027760,
+          "author_id": 779809088191725619,
+          "author_name": "anna_always",
+          "content": "Thank you!!♥️",
+          "created_at": "2026-02-02T19:56:33.827000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1470046468847960213,
+          "author_id": 1061760691507310592,
+          "author_name": "retrogem",
+          "content": "Does anyone know how long abandon city cooldowns last? We want to abandon one but have a cooldown",
+          "created_at": "2026-02-08T13:19:50.316000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1470304893070741679,
+          "author_id": 807278921757753355,
+          "author_name": "sweetbutspycho",
+          "content": "30mins",
+          "created_at": "2026-02-09T06:26:43.452000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1470350558098620579,
+          "author_id": 1470348927957078157,
+          "author_name": "jujubee67",
+          "content": "Does anyone know where I can find details on the different roles in an Alliance ? Especially the god of war’s responsabilities",
+          "created_at": "2026-02-09T09:28:10.843000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1470901802772725801,
+          "author_id": 129677574031802369,
+          "author_name": "_akuta",
+          "content": "This actually doesn't work (it will remove the checkmark next to it in the pop up, but it does not remove the marker and in fact sends an alliance message that you've created a new marker). You have to click the magnifying glass, then go up to the top near where the coordinates are and click the star, then go to the alliance tab, then click the trash can next to the marker you want to remove. I learned this through a lot of trial and error, searching for the comparison in Last War posts, then realizing that instead of the individual icons for the markers that it was just the star and tapped it on a guess.",
+          "created_at": "2026-02-10T21:58:37.815000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1473051072191795265,
+          "author_id": 310226348222185475,
+          "author_name": "rose_metal_nz",
+          "content": "Did the alliance settings for removing inactives and promoting ranks automatically get moved or  removed? I can't find them anymore 😪",
+          "created_at": "2026-02-16T20:19:03.576000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1473163851796316180,
+          "author_id": 909653502412882011,
+          "author_name": "himryuki15",
+          "content": "Aside from donate, how do I get more Alliance coins to buy things in Alliance Shop?",
+          "created_at": "2026-02-17T03:47:12.329000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1473413981644390643,
+          "author_id": 129677574031802369,
+          "author_name": "_akuta",
+          "content": "You had me looking for it as well because I just saw it the other day. It *may* have been moved to just R5 (I migrated from R5 in one alliance to R4 in another between when I checked). If you're R5, and they aren't there anymore, they may have disappeared.",
+          "created_at": "2026-02-17T20:21:07.932000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1475351623852359680,
+          "author_id": 586399678782767107,
+          "author_name": "sevant_anatra",
+          "content": "How do you post notices and who all can edit them?",
+          "created_at": "2026-02-23T04:40:37.834000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1475380030094704721,
+          "author_id": 1341298174987472960,
+          "author_name": "better_w_butter",
+          "content": "How do you move the assembly marker and invite players to relocate?",
+          "created_at": "2026-02-23T06:33:30.410000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1475480485840027668,
+          "author_id": 1374764255055839346,
+          "author_name": "saoxkirito5166",
+          "content": "You cant invite them to relocate in a specific way, however you can make a notice in your alliance chat that one has been set and to use the alliance button, then the alliance assembly point to move on it. \n\nTo move it, find a clear space on the map, tap it, tap the red flag, click ok",
+          "created_at": "2026-02-23T13:12:40.926000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1481448595143131146,
+          "author_id": 893309651561644072,
+          "author_name": "anthonykearney",
+          "content": "How do I get gift codes.?",
+          "created_at": "2026-03-12T00:27:49.066000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1481979001122717716,
+          "author_id": 935648241620508732,
+          "author_name": "princess257x",
+          "content": "That’s what I need to know!!!",
+          "created_at": "2026-03-13T11:35:27.706000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1482018102832271491,
+          "author_id": 1196984923819622563,
+          "author_name": "deucekoko",
+          "content": "I too need to know ^^^^",
+          "created_at": "2026-03-13T14:10:50.280000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1482115028533510296,
+          "author_id": 1455735583560175669,
+          "author_name": "garendude",
+          "content": "this?",
+          "created_at": "2026-03-13T20:35:59.168000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1482442805434646639,
+          "author_id": 472906520376639499,
+          "author_name": ".draco80",
+          "content": "Is there a guide for playing without joining one? Was rather enjoying the game until that point.",
+          "created_at": "2026-03-14T18:18:27.271000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1483605457812717669,
+          "author_id": 496942312920973313,
+          "author_name": "galedestiel",
+          "content": "Hi does anyone know how to write Alliance Anousment in chat segment, I can't find any way to do it.",
+          "created_at": "2026-03-17T23:18:25.199000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image0.jpg",
+              "url": "https://cdn.discordapp.com/attachments/1452585657166856325/1483605457548345365/image0.jpg?ex=6a98aec1&is=6a975d41&hm=eb73a9b78186f9682811fb2c2735dc8e62e14f800f2a08272c545f386a9e5d8a&"
+            }
+          ]
+        },
+        {
+          "id": 1483895047530483742,
+          "author_id": 1319776782110691368,
+          "author_name": "josephmokrzycki",
+          "content": "Click on the speaker bottom on the top right. There you can make an alliance announcement.",
+          "created_at": "2026-03-18T18:29:08.768000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1485217110249439322,
+          "author_id": 809401670748209153,
+          "author_name": "jackill9475",
+          "content": "How does the voting system work? That's new to me and I've been playing these games a long time. Can only r4 vote or r4 and r3 or the whole alliance.",
+          "created_at": "2026-03-22T10:02:33.083000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1485280978212622520,
+          "author_id": 496942312920973313,
+          "author_name": "galedestiel",
+          "content": "All Alliance can vote, max vote time is 4h. You can leave coments bellow vote post.",
+          "created_at": "2026-03-22T14:16:20.392000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1485310241016123584,
+          "author_id": 809401670748209153,
+          "author_name": "jackill9475",
+          "content": "I mean for R5 that's new to me.",
+          "created_at": "2026-03-22T16:12:37.188000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1485651862664515755,
+          "author_id": 456226577798135808,
+          "author_name": "Deleted User",
+          "content": "🇺🇾",
+          "created_at": "2026-03-23T14:50:06.136000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1487219114337374229,
+          "author_id": 1487169767616811009,
+          "author_name": "3949400584flame",
+          "content": "<@893309651561644072> good Question",
+          "created_at": "2026-03-27T22:37:48.053000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1487904309000798268,
+          "author_id": 1112597528605622282,
+          "author_name": "kim12342700",
+          "content": "What events can be considered alliances participation events?",
+          "created_at": "2026-03-29T20:00:31.191000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1489400598423015474,
+          "author_id": 881944495409754112,
+          "author_name": "supermodelba",
+          "content": "Is the recruitment button in a different play for different phones?",
+          "created_at": "2026-04-02T23:06:14.389000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1493989595711275142,
+          "author_id": 850508587070652447,
+          "author_name": "loaded5451",
+          "content": "First occupation of cities you need to have a territory touching it correct? Or your alliance can’t declare war? Or how does that work",
+          "created_at": "2026-04-15T15:01:16.602000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1495234987757277274,
+          "author_id": 400106095076442122,
+          "author_name": "trish_the_dish",
+          "content": "Can people still apply for the alliance if you are at 100/100? <@1037295750717132840> <@1037295750717132840>",
+          "created_at": "2026-04-19T01:30:01.204000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1495966268518301809,
+          "author_id": 1467547856780005623,
+          "author_name": "happy_hippy_.",
+          "content": "Can anyone tell me what this is and how do I increase it?",
+          "created_at": "2026-04-21T01:55:52.124000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "IMG_9377.png",
+              "url": "https://cdn.discordapp.com/attachments/1452585657166856325/1495966268316979361/IMG_9377.png?ex=6a98d3a8&is=6a978228&hm=6821d0fee8ae487c007b9525e57a7bd7cf3386df59a28e904e684addaaaa7a2b&"
+            }
+          ]
+        },
+        {
+          "id": 1495990835794415718,
+          "author_id": 1256055149210767511,
+          "author_name": "moooee_",
+          "content": "Can you auto-join rallies? If so, how?",
+          "created_at": "2026-04-21T03:33:29.419000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1496191769447104512,
+          "author_id": 1435341545422454925,
+          "author_name": "vickystrumpher",
+          "content": "At what point can you manually start changing ranks? And adding players to R4",
+          "created_at": "2026-04-21T16:51:55.735000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1496207400901021796,
+          "author_id": 881944495409754112,
+          "author_name": "supermodelba",
+          "content": "It's your kill points to increase it you need to attack others cities and kill troops. A good way without causing drama is to attack those without an alliance",
+          "created_at": "2026-04-21T17:54:02.564000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1496208308502007808,
+          "author_id": 881944495409754112,
+          "author_name": "supermodelba",
+          "content": "That depends on the alliance leader, if you are the leader, for r4 you want to choose people who will help you lead while you are offline or even online. Those who boost the fun and support of other team members. The other ranks depend if you want to rate each person by their might. Usually I keep most inactive in r1, so when I get more people to join I know who to kick.",
+          "created_at": "2026-04-21T17:57:38.953000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1496208563570479385,
+          "author_id": 1435341545422454925,
+          "author_name": "vickystrumpher",
+          "content": "Thank you. But how do we manually change ranks, because mine is on an automatic thing",
+          "created_at": "2026-04-21T17:58:39.766000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1496208909176930526,
+          "author_id": 881944495409754112,
+          "author_name": "supermodelba",
+          "content": "The alliance announcement will be the little speaker phone icon in the top right corner. If gives you a choice to make a vote or an announcement notice",
+          "created_at": "2026-04-21T18:00:02.165000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1496209260663804024,
+          "author_id": 881944495409754112,
+          "author_name": "supermodelba",
+          "content": "You go to the alliance member page and click on the person you want to move. Change rank. To turn off automatically you need to go to the setting in the alliance page",
+          "created_at": "2026-04-21T18:01:25.966000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1496209353995325691,
+          "author_id": 1435341545422454925,
+          "author_name": "vickystrumpher",
+          "content": "Okay thanks. I will have a look",
+          "created_at": "2026-04-21T18:01:48.218000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1497813069542195250,
+          "author_id": 527247246136442881,
+          "author_name": "clawsy97",
+          "content": "So, nobody knows for the role in an alliance ? 🙁",
+          "created_at": "2026-04-26T04:14:23.800000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1503388110136934421,
+          "author_id": 1503377060792500396,
+          "author_name": "yuliia01754",
+          "content": "Подскажите пожалуйста,как развивать захваченные земли",
+          "created_at": "2026-05-11T13:27:37.057000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1503617860809785386,
+          "author_id": 994414286803845192,
+          "author_name": "amashash",
+          "content": "",
+          "created_at": "2026-05-12T04:40:33.886000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "Screenshot_20260427_075948_Firefox.jpg",
+              "url": "https://cdn.discordapp.com/attachments/1452585657166856325/1503617860457468055/Screenshot_20260427_075948_Firefox.jpg?ex=6a98fa41&is=6a97a8c1&hm=17ed59591308765b2332d9b8429e9ff8b376247d0df28df2db417cfc2a8f80a6&"
+            }
+          ]
+        },
+        {
+          "id": 1503618325039812712,
+          "author_id": 994414286803845192,
+          "author_name": "amashash",
+          "content": "That tells you how many enemy soldiers you have killed.",
+          "created_at": "2026-05-12T04:42:24.567000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1503618626958262324,
+          "author_id": 994414286803845192,
+          "author_name": "amashash",
+          "content": "Yes and if the leaders want to accept them they will have to remove an existing player",
+          "created_at": "2026-05-12T04:43:36.550000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1509343499500388482,
+          "author_id": 858721521215733760,
+          "author_name": "cythia6293",
+          "content": "<@1450685468260696228>",
+          "created_at": "2026-05-27T23:52:12.527000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1510264492238311465,
+          "author_id": 1501633388711378944,
+          "author_name": "naruki0352_27864",
+          "content": "How does the alliance mail work?",
+          "created_at": "2026-05-30T12:51:54.307000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1510264653308231761,
+          "author_id": 1501633388711378944,
+          "author_name": "naruki0352_27864",
+          "content": "Everything I click on just let's me type, where is the title? How do I know who I'm sending to?",
+          "created_at": "2026-05-30T12:52:32.709000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "Screenshot_20260530_142337_Last_Asylum_Plague.jpg",
+              "url": "https://cdn.discordapp.com/attachments/1452585657166856325/1510264652922093658/Screenshot_20260530_142337_Last_Asylum_Plague.jpg?ex=6a98c4d0&is=6a977350&hm=76e77e94570a5f1e7d13fc335032e5bd30e98903313a568431d3c1a91f44f2ff&"
+            }
+          ]
+        },
+        {
+          "id": 1510264661310701669,
+          "author_id": 1501633388711378944,
+          "author_name": "naruki0352_27864",
+          "content": "Please help",
+          "created_at": "2026-05-30T12:52:34.617000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1510494651944009728,
+          "author_id": 443560333580173337,
+          "author_name": "meemo.meemo",
+          "content": "<@1501633388711378944>  I believe it sends a mail message to everyone in your alliance. I can't figure out what the ... field does though.",
+          "created_at": "2026-05-31T04:06:28.657000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1514330739364200582,
+          "author_id": 421880618524213274,
+          "author_name": "lil_toebean",
+          "content": "Listen. People in my alliance are like super controlling. We can't wage war on anyone without one of 4 people giving the ok. It's exhausting. They said there is some guidelines in the game against waging war on other alliances but that makes no sense when the game is literally encouraging exactly that. I came to ask if anyone else can back their statements or are they just making things up?",
+          "created_at": "2026-06-10T18:09:43.169000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1518357763577876575,
+          "author_id": 994414286803845192,
+          "author_name": "amashash",
+          "content": "that is a rule likely set up by the lead teams. We have NAP a non aggression pact on 2 of my servers.  the top 20 alliances do not attack each other so they can stay strong for SvS and KvK battles. However any alliance in 21 and lower are fare game. I feel in general most players attack non alliance tagged players for resources or to get kills. Usually players with default names, no alliance and often level 10 or less.  But there are no \"official\" rules from the developers against alliances waging war on each other. You are in fact correct that it is mechanic of the game.",
+          "created_at": "2026-06-21T20:51:40.560000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1524846860764839946,
+          "author_id": 1524803564571066380,
+          "author_name": "boss990333",
+          "content": "Hi",
+          "created_at": "2026-07-09T18:37:01.891000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1524846990356255021,
+          "author_id": 1524803564571066380,
+          "author_name": "boss990333",
+          "content": "The game suddenly stopped. What should I do, my friends?",
+          "created_at": "2026-07-09T18:37:32.788000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1524847054638026773,
+          "author_id": 1524803564571066380,
+          "author_name": "boss990333",
+          "content": "I suspect the game account was hacked.",
+          "created_at": "2026-07-09T18:37:48.114000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1528151435710173385,
+          "author_id": 242321115005845504,
+          "author_name": "ak_theodore",
+          "content": "When you purchase an alliance caravan does it automatically put you as the coachmen or are you able to pick who the coachmen is??",
+          "created_at": "2026-07-18T21:28:13.954000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1531341705708835068,
+          "author_id": 613290991352283147,
+          "author_name": "akeboshi2167",
+          "content": "If we don’t have a speeker? <:icon_a03_biaoqing9:1489899639799943241>",
+          "created_at": "2026-07-27T16:45:13.594000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1531342602929049670,
+          "author_id": 613290991352283147,
+          "author_name": "akeboshi2167",
+          "content": "",
+          "created_at": "2026-07-27T16:48:47.508000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "4B088A9C-AA4D-410D-BF1A-18173869B5B3.jpg",
+              "url": "https://cdn.discordapp.com/attachments/1452585657166856325/1531342602694037704/4B088A9C-AA4D-410D-BF1A-18173869B5B3.jpg?ex=6a98fc2f&is=6a97aaaf&hm=57f6cc8b2274511cffec092eb4a2bc5fc41f94f556b602e62f83106ac9743d9e&"
+            }
+          ]
+        },
+        {
+          "id": 1532317638464639138,
+          "author_id": 1213721822189719595,
+          "author_name": "mr.han0996",
+          "content": "https://discord.gg/VZbHxAghv",
+          "created_at": "2026-07-30T09:23:14.095000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1543220057528864780,
+          "author_id": 779541507484942396,
+          "author_name": "ledasbotelho",
+          "content": "I'm having trouble friending a person and thereafter putting in an application.",
+          "created_at": "2026-08-29T11:25:33.357000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1544422351855288361,
+          "author_id": 1538923454672412776,
+          "author_name": "vnyrd77",
+          "content": "How do I lea e an alliance to join a new one",
+          "created_at": "2026-09-01T19:03:02.662000+00:00",
+          "embeds": [],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "thread_id": 1452586519821947001,
+      "thread_name": "Hero Upgrade: How To Get Antitoxin",
+      "message_count": 10,
+      "messages": [
+        {
+          "id": 1452586519821947001,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "Antitoxin is a crucial resource for character progression and overall might growth. It can be primarily obtained through three methods: daily gameplay, event rewards, and pack purchases.\n\n**I. Daily Gameplay**\n1. Antitoxin Workshop & Stable Production\n•Antitoxin Workshop produces antitoxins at regular intervals.\n•The higher the level of the Antitoxin Workshop, the more antitoxins you'll get per unit time.\n•Antitoxins can be collected via the Stable, making it one of the stable sources of antitoxins.",
+          "created_at": "2025-12-22T09:00:14.078000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "hero_upgrade.png",
+              "url": "https://cdn.discordapp.com/attachments/1452586519821947001/1452586520090251407/hero_upgrade.png?ex=6a99371e&is=6a97e59e&hm=f12e999b72d2d2d8363edc369fe0e703f38445602fc76050012e5541176afab6&"
+            }
+          ]
+        },
+        {
+          "id": 1452586662751113236,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "**2. Building Upgrade Rewards**\n•All buildings in your base will grant a certain amount of Antitoxins upon completion of an upgrade.\n•As the building level increases, the amount of Antitoxins obtained will gradually rise.",
+          "created_at": "2025-12-22T09:00:48.155000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1452586519821947001/1452586662403248128/image.png?ex=6a993740&is=6a97e5c0&hm=263d461c1483b30681ff1f1e0d24dd14e040a6c72df737af66c1ff3ea04a8638&"
+            }
+          ]
+        },
+        {
+          "id": 1452586763758469262,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "**3. Falcon Quest**\n    \n•Completing Falcon Quests rewards you with Antitoxins.\n\n•The amount of Antitoxins varies depending on the level of the Falcon Quest.\n•Most Falcon Quests include Antitoxin rewards, so we recommend prioritizing their completion.",
+          "created_at": "2025-12-22T09:01:12.237000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1452586519821947001/1452586763418865797/image.png?ex=6a993758&is=6a97e5d8&hm=80ead8b0af91143177c4e5aa96f5abb40b7b2cff774f3863b3518bc59ffb1bda&"
+            }
+          ]
+        },
+        {
+          "id": 1452586833803214881,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "** 4. Covert Ops Force & Caravan Trade**\n•Both completing Covert Ops Force Quests and Caravan Trade will earn you Antitoxins.\n•You can get antitoxins whether you complete your own quests or plunder others'.\n\n•Each player can plunder others' Covert Operation up to 5 times per day.\n•The amount of Antitoxins obtained from Covert Operation varies by color, with Golden Covert Operations offering the highest rewards.\n\n**5. Blight & Elite Blight**\n•Spend 10 Stamina to hunt Blight.\n￮Defeating Blight of different levels yields abundant Antitoxins.\n•Spend 20 Stamina to challenge Elite Blight.\n￮Defeating Elite Blight of different levels earns you abundant Antitoxins.\nThis is a cost-effective way to consume Stamina and acquire Antitoxins.",
+          "created_at": "2025-12-22T09:01:28.937000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1452587308086722663,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "**II. Event Rewards**\nParticipating in in-game events allows you to earn generous rewards. Take the Cheese Trap Event as an example.\n\n•Join Cheese Trap-related events.\n•Earn Event Points based on your individual kill count and your alliance's total kill count.\n•Different Point tiers correspond to different amounts of antitoxin rewards, with overall rewards being very generous\n\n**III. Pack Purchase**\n•You can obtain Antitoxins directly by purchasing packs.\n\n•This option is suitable for players who want to quickly level up and shorten their growth cycle.\n\n**Summary**\nThe best way to acquire Antitoxins and accelerate growth is to arrange your daily gameplay strategically, actively participate in events, and choose packs to supplement based on your own situation.\nBy consistently engaging in high-reward gameplay, your Antitoxin accumulation will be quite substantial.",
+          "created_at": "2025-12-22T09:03:22.015000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1466445402067959910,
+          "author_id": 1464850135380005047,
+          "author_name": "overall0757",
+          "content": "❤️",
+          "created_at": "2026-01-29T14:50:29.091000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1491196103855575090,
+          "author_id": 1369939812613750784,
+          "author_name": "dorna0642",
+          "content": "",
+          "created_at": "2026-04-07T22:00:56.243000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image0.png",
+              "url": "https://cdn.discordapp.com/attachments/1452586519821947001/1491196103561842800/image0.png?ex=6a994558&is=6a97f3d8&hm=8a2771e9c05fc635069d5f7876e69cba944d07b9766a46097b02751004002a52&"
+            }
+          ]
+        },
+        {
+          "id": 1492097676253331569,
+          "author_id": 1491991455676498104,
+          "author_name": "nicole_pad",
+          "content": "",
+          "created_at": "2026-04-10T09:43:27.853000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1506705160934789120,
+          "author_id": 991531896242716773,
+          "author_name": "ravc19836252",
+          "content": "Woow",
+          "created_at": "2026-05-20T17:08:23.595000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1528115423302652026,
+          "author_id": 754131916164300892,
+          "author_name": "keres1286",
+          "content": "The in-game token exchange shops are a scam; they don't deliver the items even after deducting the tokens, and support is doing nothing about it. I'm on server 40, and this has happened to me personally on two occasions with different items, as well as to other players. However, support or customer service doesn't respond; they leave this bot that doesn't resolve anything, and they are stealing from us. If the game is in 'pay-to-win' mode, then at least be honest and take off the mask. These dynamics are becoming increasingly dirty, which is why many servers are dying",
+          "created_at": "2026-07-18T19:05:07.927000+00:00",
+          "embeds": [],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "thread_id": 1452587435383980144,
+      "thread_name": "Ultimate Hero Squad Cultivation Guide",
+      "message_count": 44,
+      "messages": [
+        {
+          "id": 1452587435383980144,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "To gain an advantage on the battlefield, team composition and cultivation strategy are crucial. Overall, building a powerful squad can be approached from three core aspects: lineup, positioning, and unit type.",
+          "created_at": "2025-12-22T09:03:52.365000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "hero_squad.png",
+              "url": "https://cdn.discordapp.com/attachments/1452587435383980144/1452587436097015993/hero_squad.png?ex=6a9937f8&is=6a97e678&hm=416b21fa8426e1e87e7dabed7a60aba51b99e0e5d4f219b60936afcde942537e&"
+            }
+          ]
+        },
+        {
+          "id": 1452587501263912961,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "**I. Lineup Development Priority: Plan First, Then Invest**\n\n\nBefore cultivating heroes, you first need to clarify the development direction of your main lineup. Different unit types have varying formation rhythms. Choosing a direction in advance avoids resource waste.\nWe recommend focusing on developing a single main lineup for the long term, concentrating resources on leveling up and equipping these heroes. This growth efficiency is significantly higher than developing multiple lineups simultaneously.\nRecommended Early-Stage Hero Lineup:\nFrontline: Arthur, Bella\nBackline: Marlena, Claire, Celia",
+          "created_at": "2025-12-22T09:04:08.072000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1452587435383980144/1452587501108596736/image.png?ex=6a993808&is=6a97e688&hm=162f6d2e0632b75a9a46b62ff9ffacf2245400ce2fb7ac33860e4ca866023cfe&"
+            }
+          ]
+        },
+        {
+          "id": 1452587551335518352,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "During the cultivation process, prioritize enhancing core damage dealer characters. For example, the gear of main attack units should be upgraded first. In the early stage, we highly recommend focusing on cultivating the UR Hero Marlena.",
+          "created_at": "2025-12-22T09:04:20.010000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1452587435383980144/1452587551125667951/image.png?ex=6a993813&is=6a97e693&hm=fa583d81c271cebbf01c65a0e91a7a651582709aeacb5b7d03bf32361b4a19f2&"
+            }
+          ]
+        },
+        {
+          "id": 1452587589633576991,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "Additionally, heroes experience a significant power boost after reaching 4 stars. This should be set as a key phased goal.\n\n**II. Unit Type: Counter & Lineup Bonuses\n**\nEffectively utilizing unit type features is a crucial way to widen the might gap with opponents.",
+          "created_at": "2025-12-22T09:04:29.141000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1452587687424032789,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "**Unit Counter**",
+          "created_at": "2025-12-22T09:04:52.456000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1452587435383980144/1452587687096881206/image.png?ex=6a993834&is=6a97e6b4&hm=5a459daf6aef83632be98ef1551507ce4c70bf48e4b17b3b2df01e989bb71d2f&"
+            }
+          ]
+        },
+        {
+          "id": 1452587722530357268,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "The three unit types form a counter cycle:\nWarrior＞Ranger＞Warlock＞Warrior\nIn battles, selecting unit types that counter the enemy's lineup can often help you defeat stronger opponents.",
+          "created_at": "2025-12-22T09:05:00.826000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1452587435383980144/1452587722299674624/image.png?ex=6a99383c&is=6a97e6bc&hm=de449a4c47002841a7b7880f1dbf7a3d34076c9294e340cb0210cef26fe6eae5&"
+            }
+          ]
+        },
+        {
+          "id": 1452587793296396350,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "**Same-Unit Type Lineup Bonuses**\n\nUsing heroes of the same unit type in your team triggers additional attribute boosts (HP, ATK, DEF). The more same-type heroes you have, the higher the bonus:\n•3 same-type heroes: 5% attribute increase\n•4 same-type heroes: 15% attribute increase\n•5 same-type heroes: 20% attribute increase\nThis makes building a same-unit type lineup an excellent choice for your main team, as it delivers substantial overall benefits.",
+          "created_at": "2025-12-22T09:05:17.698000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1452587914428022924,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "**III. Positioning: Secure a Stable Attack Environment**\nIn battles, reasonable positioning maximizes the value of each hero. The basic positioning principle is:",
+          "created_at": "2025-12-22T09:05:46.578000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1452587435383980144/1452587914142683287/image.png?ex=6a99386a&is=6a97e6ea&hm=9ffd02c8a3797ac24f90de28a2c5ebe0d20395f38cccf3d8fcf518996fab6b8d&"
+            }
+          ]
+        },
+        {
+          "id": 1452587939757559922,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "",
+          "created_at": "2025-12-22T09:05:52.617000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1452587435383980144/1452587939694379059/image.png?ex=6a993870&is=6a97e6f0&hm=6284d7dc6369858420bda253a737af9cfc2ec15765cc49c86b0eee0848bd3edd&"
+            }
+          ]
+        },
+        {
+          "id": 1452587986108813353,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "•Frontline: Assigned to defensive heroes. Their role is to absorb enemy damage and protect backline units.\n•Backline: Place attack and support units here to provide sustained damage output and support effects.\nA stable frontline is the foundation for the backline to exert its full potential. Only with proper positioning can you maintain a favorable battle rhythm.\n\n**Summary**\nClarify your lineup direction, skillfully use unit countering, arrange positions reasonably, and concentrate resources on cultivating core heroes.\nMay all Doctors find the lineup that suits them best,\nachieve continuous victories on the battlefield, and fully enjoy the thrill of combat!🎯",
+          "created_at": "2025-12-22T09:06:03.668000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1465305515830546476,
+          "author_id": 335821354228252673,
+          "author_name": "drwatson1898",
+          "content": "Thank you for guide, but i have  a question:\nIn game  other faction  counter... where is a truth?",
+          "created_at": "2026-01-26T11:20:59.034000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "Screenshot_20260126_141911_Last_Asylum_Plague.jpg",
+              "url": "https://cdn.discordapp.com/attachments/1452587435383980144/1465305515616899208/Screenshot_20260126_141911_Last_Asylum_Plague.jpg?ex=6a98af5a&is=6a975dda&hm=8ca57f1ab12c01c2a6bbccc0b66e8d97ea55e854852aca77bc57619e8da2a8b9&"
+            }
+          ]
+        },
+        {
+          "id": 1465805561701597401,
+          "author_id": 1192154796610830419,
+          "author_name": "tindival",
+          "content": "Thank you for the guide as it answered some questions I had about my grouping.   I do wonder though why the heavy bias then to Warriors.  Warriors are the only ones with UR tier (2 of them), have 6 SSR and then 2 SR, making the Warriors the only ones that could even field a 5 of same type bonus.   Warlock and Ranger are limited 0 UR / 3 SSR / & 1 SR",
+          "created_at": "2026-01-27T20:27:59.260000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1473920928277598208,
+          "author_id": 364047730638585857,
+          "author_name": "kregorn72",
+          "content": "Hi",
+          "created_at": "2026-02-19T05:55:33.428000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1475159337755476203,
+          "author_id": 935597028967350292,
+          "author_name": "byteartist",
+          "content": "Not a bad guide but very limited, I see no updates and you don't explain the impact or difference between pomotions of each hero, neither the heros at all, It's only impersonal avatars wich cost money and effort.. And we don't know for what. Let us to involve, to know their best side and their wickness (of héroes) so we can develope an estrategy and chose a way to play. Open surveys if you want/care",
+          "created_at": "2026-02-22T15:56:33.256000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1482972799369740298,
+          "author_id": 1053324865341509692,
+          "author_name": "porky0193",
+          "content": "Anyone know CMD is for on a hero?",
+          "created_at": "2026-03-16T05:24:27.672000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "Screenshot_20260315_222411_Last_Asylum_Plague.jpg",
+              "url": "https://cdn.discordapp.com/attachments/1452587435383980144/1482972799134863370/Screenshot_20260315_222411_Last_Asylum_Plague.jpg?ex=6a99048b&is=6a97b30b&hm=ab87282be5ab52f79a15feb5c8ead8a8fe9c6a347bc14bad68b92280d40e7fe8&"
+            }
+          ]
+        },
+        {
+          "id": 1483845264505831505,
+          "author_id": 408414945970225176,
+          "author_name": "iricome",
+          "content": "This is how much soldiers a single hero can carry. It shows the size of your troops you can carry in a team",
+          "created_at": "2026-03-18T15:11:19.570000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1484091252923302049,
+          "author_id": 1053324865341509692,
+          "author_name": "porky0193",
+          "content": "Thank you",
+          "created_at": "2026-03-19T07:28:47.779000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1487373829033427004,
+          "author_id": 810652377219727401,
+          "author_name": "johnfrancis4422",
+          "content": "Any guide for.explorations",
+          "created_at": "2026-03-28T08:52:34.911000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1488328362521923675,
+          "author_id": 1212832435641913427,
+          "author_name": "m3lvak",
+          "content": "Thanks",
+          "created_at": "2026-03-31T00:05:33.429000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1488730213574643722,
+          "author_id": 1488308660760215703,
+          "author_name": "necronault",
+          "content": "any tips for world bosses on squad layouts? ranger boss/ lock boss/ warrior boss?",
+          "created_at": "2026-04-01T02:42:22.186000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1489148061782511777,
+          "author_id": 1121102783957966969,
+          "author_name": "ext1l1zy",
+          "content": "<@1265752698934792214>",
+          "created_at": "2026-04-02T06:22:44.962000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1502381376274563182,
+          "author_id": 1077702716362596403,
+          "author_name": "mfpb.",
+          "content": "I don't have Marlena 🥲",
+          "created_at": "2026-05-08T18:47:13+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1509466470793609268,
+          "author_id": 564216765941415936,
+          "author_name": "jd0279",
+          "content": "<@335821354228252673> They're equivalent, man.",
+          "created_at": "2026-05-28T08:00:51.168000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1509468265691349085,
+          "author_id": 335821354228252673,
+          "author_name": "drwatson1898",
+          "content": "Warriors  take less damage  from Rangers?",
+          "created_at": "2026-05-28T08:07:59.105000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1509957552899883158,
+          "author_id": 1497744304519512084,
+          "author_name": "diegosilva08658",
+          "content": "<@1450685468260696228> <@1450685468260696228> <@1450685468260696228> <@1450685468260696228>",
+          "created_at": "2026-05-29T16:32:14.266000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1511037901482492086,
+          "author_id": 1508571425370276028,
+          "author_name": "vils0343",
+          "content": "Ok i know the basics but i don't have marlena, so i want to build a warrior line up. Which is the best choice of hero to focus on between kesso, lucius and sivir to replace marlena with?",
+          "created_at": "2026-06-01T16:05:09.440000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1516343761251209287,
+          "author_id": 810822869613150258,
+          "author_name": "liesbeth79",
+          "content": "This guide is awesome! Clarifies so much on positioning! Thanx!",
+          "created_at": "2026-06-16T07:28:44.987000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1516680961985609882,
+          "author_id": 439318362061930496,
+          "author_name": "khena69",
+          "content": "Pinkmb",
+          "created_at": "2026-06-17T05:48:39.907000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1518121006991151154,
+          "author_id": 1132958808180797511,
+          "author_name": "lordgeralt2023",
+          "content": "hi",
+          "created_at": "2026-06-21T05:10:53.391000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1520606038234234971,
+          "author_id": 810652377219727401,
+          "author_name": "johnfrancis4422",
+          "content": "This game is boring now",
+          "created_at": "2026-06-28T01:45:31.009000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1524666471479775314,
+          "author_id": 1386224952721539173,
+          "author_name": "bravo0874",
+          "content": "<:icon_a01_biaoqing10:1489972690109595828>",
+          "created_at": "2026-07-09T06:40:13.734000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1524671570881155234,
+          "author_id": 1386224952721539173,
+          "author_name": "bravo0874",
+          "content": "<@810652377219727401>",
+          "created_at": "2026-07-09T07:00:29.526000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1524671813848928289,
+          "author_id": 1386224952721539173,
+          "author_name": "bravo0874",
+          "content": "<@1132958808180797511> <@1132958808180797511>",
+          "created_at": "2026-07-09T07:01:27.454000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1524846451929124915,
+          "author_id": 1524803564571066380,
+          "author_name": "boss990333",
+          "content": "Hi",
+          "created_at": "2026-07-09T18:35:24.417000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1524848561806774504,
+          "author_id": 1488235659159146536,
+          "author_name": "kelso0465",
+          "content": "Hello",
+          "created_at": "2026-07-09T18:43:47.451000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1528115249591619825,
+          "author_id": 754131916164300892,
+          "author_name": "keres1286",
+          "content": "The in-game token exchange shops are a scam; they don't deliver the items even after deducting the tokens, and support is doing nothing about it. I'm on server 40, and this has happened to me personally on two occasions with different items, as well as to other players. However, support or customer service doesn't respond; they leave this bot that doesn't resolve anything, and they are stealing from us. If the game is in 'pay-to-win' mode, then at least be honest and take off the mask. These dynamics are becoming increasingly dirty, which is why many servers are dying",
+          "created_at": "2026-07-18T19:04:26.511000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1533406342562447490,
+          "author_id": 1463789259356901642,
+          "author_name": "reybrujo666",
+          "content": "Completamente de acuerdo con tu información me ha pasado y jamás me dan respuesta uno escribe a soporte y nada es una estafa",
+          "created_at": "2026-08-02T09:29:21.379000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1533604446204989552,
+          "author_id": 928206664899907624,
+          "author_name": "jrey4d",
+          "content": "guerrero",
+          "created_at": "2026-08-02T22:36:32.968000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1536289846388072568,
+          "author_id": 298020688709550090,
+          "author_name": "jazzface",
+          "content": "<@1450685468260696228> uu uuu 7<:icon_a01_biaoqing10:1489972690109595828>",
+          "created_at": "2026-08-10T08:27:22.264000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1536289856089755669,
+          "author_id": 298020688709550090,
+          "author_name": "jazzface",
+          "content": "guiuuuuhu",
+          "created_at": "2026-08-10T08:27:24.577000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1536289877761458239,
+          "author_id": 298020688709550090,
+          "author_name": "jazzface",
+          "content": "https://klipy.com/gifs/cute-cha-pri",
+          "created_at": "2026-08-10T08:27:29.744000+00:00",
+          "embeds": [
+            {
+              "thumbnail": {
+                "url": "https://static.klipy.com/ii/935d7ab9d8c6202580a668421940ec81/5b/2d/Jktu2DiO.webp",
+                "proxy_url": "https://images-ext-1.discordapp.net/external/KL58IRb5s91lwaM7zMrIQC5tzOzHnJzmnNLmBI9dRmw/https/static.klipy.com/ii/935d7ab9d8c6202580a668421940ec81/5b/2d/Jktu2DiO.webp",
+                "width": 498,
+                "height": 498,
+                "placeholder": "OwgCBwDZ+nOVeIirZZpZlZeLfrAmBUgA",
+                "placeholder_version": 1,
+                "flags": 0
+              },
+              "video": {
+                "url": "https://static.klipy.com/ii/935d7ab9d8c6202580a668421940ec81/5b/2d/KhjY0twu.mp4",
+                "proxy_url": "https://images-ext-1.discordapp.net/external/OUhnXIGuBVDHubfOEGL7jFDJEpKK74fK8e1F65IVhMY/https/static.klipy.com/ii/935d7ab9d8c6202580a668421940ec81/5b/2d/KhjY0twu.mp4",
+                "width": 498,
+                "height": 498,
+                "placeholder": "OwgCBwDZ+nOVeIirZZpZlZeLfrAmBUgA",
+                "placeholder_version": 1,
+                "flags": 0
+              },
+              "provider": {
+                "name": "Klipy",
+                "url": "https://klipy.com"
+              },
+              "flags": 0,
+              "type": "gifv",
+              "url": "https://klipy.com/gifs/cute-cha-pri",
+              "title": "Cute Cha Pri Says Hello"
+            }
+          ],
+          "attachments": []
+        },
+        {
+          "id": 1536750340471521421,
+          "author_id": 1488235659159146536,
+          "author_name": "kelso0465",
+          "content": "https://klipy.com/gifs/hello-169",
+          "created_at": "2026-08-11T14:57:12.609000+00:00",
+          "embeds": [
+            {
+              "thumbnail": {
+                "url": "https://static.klipy.com/ii/d6b0ce929193df3c242ac34b5654d2ce/b2/f0/uZoaSNNb.webp",
+                "proxy_url": "https://images-ext-1.discordapp.net/external/8ZMeRH544ZzApJjGfto6fBA6q3PPbkcU2Zez5mAwRMI/https/static.klipy.com/ii/d6b0ce929193df3c242ac34b5654d2ce/b2/f0/uZoaSNNb.webp",
+                "width": 498,
+                "height": 239,
+                "placeholder": "LggGE4KgWmVyZHmIsGIFLUY=",
+                "placeholder_version": 1,
+                "flags": 0
+              },
+              "video": {
+                "url": "https://static.klipy.com/ii/d6b0ce929193df3c242ac34b5654d2ce/b2/f0/iFBVXTJDrAIYhpvH.mp4",
+                "proxy_url": "https://images-ext-1.discordapp.net/external/nWVWzkGfOordtwOaPsudQRcrjiyxkLoYO_-R5isb1a8/https/static.klipy.com/ii/d6b0ce929193df3c242ac34b5654d2ce/b2/f0/iFBVXTJDrAIYhpvH.mp4",
+                "width": 500,
+                "height": 240,
+                "placeholder": "LggGE4KgWmVyZHmIsGIFLUY=",
+                "placeholder_version": 1,
+                "flags": 0
+              },
+              "provider": {
+                "name": "Klipy",
+                "url": "https://klipy.com"
+              },
+              "flags": 0,
+              "type": "gifv",
+              "url": "https://klipy.com/gifs/hello-169",
+              "title": "Cute Penguin Chick Waves Hello!"
+            }
+          ],
+          "attachments": []
+        },
+        {
+          "id": 1542785495983984701,
+          "author_id": 709055772591652884,
+          "author_name": "alina20201",
+          "content": "",
+          "created_at": "2026-08-28T06:38:45.811000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "MLShare.jpg",
+              "url": "https://cdn.discordapp.com/attachments/1452587435383980144/1542785495828799488/MLShare.jpg?ex=6a9915f5&is=6a97c475&hm=ea2827b9d1ef0b5ca9ffdc8d90d2f827d8f359e748411754f5cf3de1c3799336&"
+            }
+          ]
+        },
+        {
+          "id": 1542785531799408640,
+          "author_id": 709055772591652884,
+          "author_name": "alina20201",
+          "content": "",
+          "created_at": "2026-08-28T06:38:54.350000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "MLShare.jpg",
+              "url": "https://cdn.discordapp.com/attachments/1452587435383980144/1542785531472117770/MLShare.jpg?ex=6a9915fe&is=6a97c47e&hm=9dbc216a13f6986f942e2165c4b58afdf2f204aeaacdfac1e474f4c1d6258b71&"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "thread_id": 1452588183970644079,
+      "thread_name": "Hero Cultivation Guide",
+      "message_count": 29,
+      "messages": [
+        {
+          "id": 1452588183970644079,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "In <Last Asylum: Survival>, the overall Might of your heroes determines your progress speed and combat efficiency. A formidable hero team will help you build your ideal new world in record time.\nBelow is a breakdown of the core essentials for hero cultivation.\n\n# Hero Might\nHero Might is determined by four core attributes:\n**Hero Might = Level + Star Rating + Skills + Gear**\nAllocate resources wisely to enhance these four aspects for maximum might growth.",
+          "created_at": "2025-12-22T09:06:50.842000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "hero.png",
+              "url": "https://cdn.discordapp.com/attachments/1452588183970644079/1452588184188752026/hero.png?ex=6a9938aa&is=6a97e72a&hm=622f75f291f5e74592f792137313fa250a4583b70499edc5f242130c6ab48897&"
+            }
+          ]
+        },
+        {
+          "id": 1452588256616120410,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "**I. Hero Level & Star Rating: The Foundation of Might Growth**\nHeroes of different rarities boast varying base might, with Orange Heroes being the rarest. Rarity Tiers: Orange > Purple > Blue.",
+          "created_at": "2025-12-22T09:07:08.162000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1452588183970644079/1452588256331042909/image.png?ex=6a9938bc&is=6a97e73c&hm=d5aac560799a1793ca7c40d1c2e3d3bea852c6c85952a46a3a6a970fa4a61830&"
+            }
+          ]
+        },
+        {
+          "id": 1452588293257695242,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "As your shelter level increases, the hero's level cap will also rise.Hero level not only directly affects the base might value but also amplifies the bonus from skills and gear.\n**Star Rating system** is equally crucial, as it:",
+          "created_at": "2025-12-22T09:07:16.898000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1452588183970644079/1452588292997644298/image.png?ex=6a9938c4&is=6a97e744&hm=dcc20dbfd6b950d4bb44d23348d885b46ec9164e99b4c5ab531b56b6928aab52&"
+            }
+          ]
+        },
+        {
+          "id": 1452589041433182323,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "•Determines a hero's base might;\n•Influences whether hero skills can be unlocked.\nUpgrading hero Star Rating will unlock more potent skill effects and greater growth potential.\n\n**II. Hero Skills: Key Driver of Might Growth**",
+          "created_at": "2025-12-22T09:10:15.277000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1452588183970644079/1452589041068281916/image.png?ex=6a993977&is=6a97e7f7&hm=0e2eaf4a7d91078d50e7d4d54ae1ad7a9612727f2baa7f43afe33b1f24d15b38&"
+            }
+          ]
+        },
+        {
+          "id": 1452589103865397298,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "Additional stat bonuses provided by hero skills are an indispensable part of boosting your overall might.\nFrom the Hero interface, you can:\n•Check the detailed stats and effects of each skill;\n•Spend certain items to upgrade unlocked skills.\nHigher skill levels yield more substantial might gains, making skill enhancement a pivotal way to pull ahead of the competition in the mid-to-late game.\n\n**3. Hero Gear: The Cornerstone of Might Enhancement**\nEach hero has 4 gear slots for equipping different types of gear.",
+          "created_at": "2025-12-22T09:10:30.162000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1452588183970644079/1452589103601418321/image.png?ex=6a993986&is=6a97e806&hm=eb9d7fc04c44011897897ec683f6677cce98b2f6098efbbdfb5fdf85100c6153&"
+            }
+          ]
+        },
+        {
+          "id": 1452590315348295733,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "🔹 **Gear Quality Tiers**\nGear quality is indicated by color, ranked from highest to lowest as follows:\nGold ＞ Purple ＞ Blue ＞ Green ＞ Gray\nIn the  [Gear Workshop], you can consume crafting materials to forge higher-quality gear for your heroes.The higher the gear quality, the stronger its base stats and growth potential.\n\n🔹 **Benefits of Gear Upgrading**\n•Upgrading gear unlocks additional bonus stats;\n•High-level, high-quality gear delivers a massive boost to hero might.\nWe recommend prioritizing high-level golden gear for your core heroes to drastically improve their combat performance.",
+          "created_at": "2025-12-22T09:15:19.002000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1452590351696003155,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "**IV. Resource Allocation Tips: Focused Cultivation = Maximum Efficiency**\nWhen resources are scarce, we advise you to:\n•Prioritize developing your main lineup heroes;\n•Channel all EXP and high-quality gear into your core lineup.\nAvoid spreading your resources too thin. This is the only way to maximize your combat advantage in key battles.\n\nMap out a clear growth path for your heroes' levels, star ratings, skills, and gear, and you'll forge a truly unstoppable team.\nDoctors, forge your ultimate roster of heroes,\nand savor the glory and challenges that await you on the battlefield! 💥",
+          "created_at": "2025-12-22T09:15:27.668000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1486125958124802279,
+          "author_id": 707169476906582046,
+          "author_name": "linakhv",
+          "content": "Ppppp",
+          "created_at": "2026-03-24T22:13:59.302000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1489148020422479992,
+          "author_id": 1121102783957966969,
+          "author_name": "ext1l1zy",
+          "content": "<@1265752698934792214>",
+          "created_at": "2026-04-02T06:22:35.101000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1496099125006045326,
+          "author_id": 1487379229065871400,
+          "author_name": "mopi5620",
+          "content": "<@1121102783957966969>",
+          "created_at": "2026-04-21T10:43:47.579000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1496363102709747823,
+          "author_id": 1121102783957966969,
+          "author_name": "ext1l1zy",
+          "content": "Yes ?",
+          "created_at": "2026-04-22T04:12:44.768000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1496363303956643950,
+          "author_id": 1121102783957966969,
+          "author_name": "ext1l1zy",
+          "content": "Need help?",
+          "created_at": "2026-04-22T04:13:32.749000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1497652451526971534,
+          "author_id": 1494416246102294629,
+          "author_name": "vanzo1.",
+          "content": "How do I find my current leader on this app. Someone please advise. Thank you",
+          "created_at": "2026-04-25T17:36:09.481000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1497697480526008342,
+          "author_id": 575477487346253840,
+          "author_name": "necoiai",
+          "content": "If your are getting those messages that say \"message us on discord, or else you will be removed from the alliance\". \n\nTheyre fake spam scam stuff. Always check the alliance tag of the person messaging you, and check the alliance members list to see who the owner is.",
+          "created_at": "2026-04-25T20:35:05.231000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1503847383979786342,
+          "author_id": 713964130570076181,
+          "author_name": "kingghostninja",
+          "content": "Frag amounts for hero star upgrades?",
+          "created_at": "2026-05-12T19:52:36.474000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1504930712065671259,
+          "author_id": 1212289171398590514,
+          "author_name": "droopy223",
+          "content": "",
+          "created_at": "2026-05-15T19:37:22.017000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1452588183970644079/1504930712577638631/image.png?ex=6a9923b2&is=6a97d232&hm=0e13d275df694dbe0123b72c1f64b704f7d6362a34ed67277106f255dfa7a758&"
+            }
+          ]
+        },
+        {
+          "id": 1514544776211337226,
+          "author_id": 948986976885948448,
+          "author_name": "dzalphamaker",
+          "content": "Dz",
+          "created_at": "2026-06-11T08:20:13.530000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1514604148778074112,
+          "author_id": 1443282497046581499,
+          "author_name": "john__wick__93",
+          "content": "👍🏻",
+          "created_at": "2026-06-11T12:16:09.053000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1517123150708604938,
+          "author_id": 898970967164997642,
+          "author_name": "mike.butterworth",
+          "content": "Is there a way to get back boosts on heroes you no longer need/use?",
+          "created_at": "2026-06-18T11:05:45.914000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1522125055985717300,
+          "author_id": 435059096538972160,
+          "author_name": "ksaddipancakek",
+          "content": "I want to know this too",
+          "created_at": "2026-07-02T06:21:33.063000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1522240399744438385,
+          "author_id": 1516726327082876952,
+          "author_name": "bit2475",
+          "content": "<:icon_a03_biaoqing23:1491053334587510934>",
+          "created_at": "2026-07-02T13:59:53.158000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1523114482984026152,
+          "author_id": 1522072184162353163,
+          "author_name": "leandro029477",
+          "content": "👍",
+          "created_at": "2026-07-04T23:53:10.842000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1524711750514118666,
+          "author_id": 1524708876648185967,
+          "author_name": "doktor00981",
+          "content": "Hi",
+          "created_at": "2026-07-09T09:40:09.097000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1524846679344545973,
+          "author_id": 1524803564571066380,
+          "author_name": "boss990333",
+          "content": "Hi",
+          "created_at": "2026-07-09T18:36:18.637000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1526869469643931778,
+          "author_id": 1242802527905382411,
+          "author_name": "tony.zucco.will.pay",
+          "content": "G’day gang",
+          "created_at": "2026-07-15T08:34:09.426000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1532300404585529385,
+          "author_id": 1521761881348374568,
+          "author_name": "jiggz0855",
+          "content": "Jigglehands. h.l.r.  RAVEN CONSIRACY TEAM",
+          "created_at": "2026-07-30T08:14:45.218000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1537181969484619836,
+          "author_id": 638460889346867262,
+          "author_name": "sykoshadowrose",
+          "content": "Is there a guide on how to promote an SSR hero to UR yet?",
+          "created_at": "2026-08-12T19:32:20.985000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1544064769277821008,
+          "author_id": 1212289171398590514,
+          "author_name": "droopy223",
+          "content": "Available on Era Day 8 \n\nhttps://thelaphub.com/guides/claire-rarity-upgrade",
+          "created_at": "2026-08-31T19:22:08.332000+00:00",
+          "embeds": [
+            {
+              "thumbnail": {
+                "url": "https://thelaphub.com/og-default.png",
+                "proxy_url": "https://images-ext-1.discordapp.net/external/xXVkGMxQ4SuZIVUnCqJF0uUCDAxCvHEBD2P6m0VotTU/https/thelaphub.com/og-default.png",
+                "width": 1200,
+                "height": 630,
+                "content_type": "image/png",
+                "placeholder": "CxcGHIJRZ3dtd4iAd5aPlQvyBg==",
+                "placeholder_version": 1,
+                "description": "Sirox's LAP Hub over a ruined gothic city at night — the toolkit for survivors of the plague",
+                "flags": 0
+              },
+              "provider": {
+                "name": "Sirox's LAP Hub"
+              },
+              "flags": 0,
+              "color": 526353,
+              "type": "article",
+              "description": "She stops being a hero you field so that other heroes hit harder, and becomes one that buffs them and hits hard herself. The catch is a shallow dip before 9 stars, and what it costs to skip it.",
+              "url": "https://thelaphub.com/guides/claire-rarity-upgrade",
+              "title": "Claire, SSR to UR"
+            }
+          ],
+          "attachments": []
+        },
+        {
+          "id": 1544341138474008687,
+          "author_id": 638460889346867262,
+          "author_name": "sykoshadowrose",
+          "content": "Thank you",
+          "created_at": "2026-09-01T13:40:19.883000+00:00",
+          "embeds": [],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "thread_id": 1452590514284138547,
+      "thread_name": "How to Boost Might Quickly",
+      "message_count": 63,
+      "messages": [
+        {
+          "id": 1452590514284138547,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "# Might = Hero Might + Raven Might + Soldier Might + Tech Bonus + Building Bonus",
+          "created_at": "2025-12-22T09:16:06.432000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "might.png",
+              "url": "https://cdn.discordapp.com/attachments/1452590514284138547/1452590514443386960/might.png?ex=6a993ad6&is=6a97e956&hm=0ed393ab67410db63870547a029906ec2c12076ff7aa8882977078600f079aeb&"
+            }
+          ]
+        },
+        {
+          "id": 1452590710371913729,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "**I. Hero Might: The Most Critical Might Source for New Players**\n\nHeroes are the most cost-effective system for boosting might in the early game.\n•Prioritize developing your main squad.\nConcentrate all resources on a single core lineup.\n•Prioritize upgrading hero levels\nA hero's level determines their base Might and amplifies the benefits from skills and gear.\n•Focus on core DPS heroes first\nAllocate EXP, gear, and skill materials to your main DPS hero with top priority.\n•Star Rating matters more than quantity.\nHigh-star heroes provide drastically significant improvements in stats and skills.\n\n*Tap here to access: \nhttps://discord.com/channels/1417476085179748507/1452588183970644079\nhttps://discord.com/channels/1417476085179748507/1452586519821947001\n\nhttps://discord.com/channels/1417476085179748507/1452587435383980144",
+          "created_at": "2025-12-22T09:16:53.183000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1452590514284138547/1452590710162456636/image.png?ex=6a993b05&is=6a97e985&hm=9954e656d3934ed55e6724a63f812c91b88de091074d4980d2049150e0dd0a15&"
+            }
+          ]
+        },
+        {
+          "id": 1452590829825953823,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "**II. Raven Bonus: Steady Growth, Late-Game Powerhouse**\n\nThe Raven provides stable, continuous bonuses to your entire team, yet it's often overlooked by new players in the early game.\nOpen Raven Gear Chests and fuse higher-level Raven Gear to gain additional stats.\nWe recommend upgrading your Raven level by completing daily quests to unlock more Might bonuses.",
+          "created_at": "2025-12-22T09:17:21.663000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "17663738368068.png",
+              "url": "https://cdn.discordapp.com/attachments/1452590514284138547/1452590829574033471/17663738368068.png?ex=6a993b21&is=6a97e9a1&hm=3363a6d045f9576830b6911b9cf2686d35d6bfb087065aac904c8d7bbb5b0979&"
+            }
+          ]
+        },
+        {
+          "id": 1452590909546954856,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "**III. Building Upgrades: The Foundation of Might and Development**\n\nBuildings are prerequisites for all in-game systems, so the upgrade order is crucial.\nPrioritize upgrading the Sanctuary first. It unlocks more features and increases the level cap for all other buildings.\nSubsequently focus on upgrading the Barracks, Research Lab, and other key buildings, as they directly affect your soldier capacity and technology research speed.\n\n*Click here to access: https://discord.com/channels/1417476085179748507/1452584885096284160",
+          "created_at": "2025-12-22T09:17:40.670000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1452590514284138547/1452590909316403262/image.png?ex=6a993b34&is=6a97e9b4&hm=9f6e7c02953bd295dd967f235c6d80dfa9dcc570bfef97c55409077c5ba16740&"
+            }
+          ]
+        },
+        {
+          "id": 1452590971169538140,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "**IV. Soldier Training: The Primary Source of Might**\n\nKeep your Training Grounds running continuously. Prioritize training high-level troop types and gradually replace low-level soldiers with stronger ones.",
+          "created_at": "2025-12-22T09:17:55.362000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1452590514284138547/1452590970876067913/image.png?ex=6a993b43&is=6a97e9c3&hm=6157e1e347aaf6637a3f3d184b40096ebb34b13da08b024b8814dabc50101d85&"
+            }
+          ]
+        },
+        {
+          "id": 1452591018926018642,
+          "author_id": 1450685468260696228,
+          "author_name": "lastasylum",
+          "content": "**V. Technology Research: An Underestimated Long-Term Might Boost**\n\nTechnologies provide permanent bonuses and are the key to pulling ahead of other players in the mid to late game.\nPrioritize researching combat and development technologies to enhance ATK, DEF, HP, training speed, construction speed, and other vital attributes.\n\nYou can choose the most suitable way to boost your might based on your available resources in the game, and cultivate an even more powerful team!",
+          "created_at": "2025-12-22T09:18:06.748000+00:00",
+          "embeds": [],
+          "attachments": [
+            {
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1452590514284138547/1452591018674487369/image.png?ex=6a993b4e&is=6a97e9ce&hm=6be34092e2a225161764dd80701ba4787536595284760b647b1e6bee2742797e&"
+            }
+          ]
+        },
+        {
+          "id": 1481569714500145263,
+          "author_id": 1480412447675252849,
+          "author_name": "gi0leal",
+          "content": "H",
+          "created_at": "2026-03-12T08:29:06.171000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1482204208680931428,
+          "author_id": 1424901450433298472,
+          "author_name": "ellie027945",
+          "content": "Hey",
+          "created_at": "2026-03-14T02:30:21.372000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1483997086910382283,
+          "author_id": 677374057158803481,
+          "author_name": "rodrigogamerxpz4498",
+          "content": "Olá",
+          "created_at": "2026-03-19T01:14:36.852000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1484776180979732522,
+          "author_id": 1327681115183648891,
+          "author_name": "decimo78",
+          "content": "Grazie",
+          "created_at": "2026-03-21T04:50:27.353000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1486626674094379058,
+          "author_id": 1300163960879976448,
+          "author_name": "lunanera_05",
+          "content": "Grazie",
+          "created_at": "2026-03-26T07:23:39.292000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1486661484934070292,
+          "author_id": 1486658986974384200,
+          "author_name": "heather746974",
+          "content": "Hi",
+          "created_at": "2026-03-26T09:41:58.843000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1486672135161249872,
+          "author_id": 1486658113477021756,
+          "author_name": "doctor1789.",
+          "content": "Hi",
+          "created_at": "2026-03-26T10:24:18.055000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1487117990750322841,
+          "author_id": 960603956931883008,
+          "author_name": "il_76vd",
+          "content": "Good",
+          "created_at": "2026-03-27T15:55:58.311000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1488112382898339930,
+          "author_id": 1142640820802048120,
+          "author_name": "2994738",
+          "content": "Excellent tips",
+          "created_at": "2026-03-30T09:47:19.874000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1488213884245512263,
+          "author_id": 1424251069357101102,
+          "author_name": "bgfaudy",
+          "content": "Hi",
+          "created_at": "2026-03-30T16:30:39.681000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1488268951606792213,
+          "author_id": 1488022256184590406,
+          "author_name": "sleepinginthetub",
+          "content": "Hiya",
+          "created_at": "2026-03-30T20:09:28.763000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1488327912057864292,
+          "author_id": 1212832435641913427,
+          "author_name": "m3lvak",
+          "content": "Ok",
+          "created_at": "2026-03-31T00:03:46.030000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1488930298887540877,
+          "author_id": 1379629296418689176,
+          "author_name": "boule0307",
+          "content": "That's great. Thank you",
+          "created_at": "2026-04-01T15:57:26.242000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1488990649016520714,
+          "author_id": 1465072461405098161,
+          "author_name": "happycamper0508",
+          "content": "👍",
+          "created_at": "2026-04-01T19:57:14.834000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1489442401477984420,
+          "author_id": 1140486224323301457,
+          "author_name": "quiqueseba",
+          "content": "Cómo puedo cambiar el idioma!",
+          "created_at": "2026-04-03T01:52:21.014000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1494260517240311918,
+          "author_id": 841259947539169290,
+          "author_name": ".joedev.",
+          "content": "Thx",
+          "created_at": "2026-04-16T08:57:49.328000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1497718049720238254,
+          "author_id": 1483438746987925606,
+          "author_name": "blablah26",
+          "content": "https://discord.gg/ebXCZPq63",
+          "created_at": "2026-04-25T21:56:49.309000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1498861606732435677,
+          "author_id": 718156864637894686,
+          "author_name": "luvspin1999",
+          "content": "Yo",
+          "created_at": "2026-04-29T01:40:54.547000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1499597015762473040,
+          "author_id": 1272955752038010970,
+          "author_name": "italuvs1_18906",
+          "content": "Hi",
+          "created_at": "2026-05-01T02:23:09.723000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1502524472551538800,
+          "author_id": 703376016655122443,
+          "author_name": "clarkey622625",
+          "content": "Hi all",
+          "created_at": "2026-05-09T04:15:49.811000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1504245173180174356,
+          "author_id": 1465454964326531217,
+          "author_name": "integralwingate_99225",
+          "content": "Hi",
+          "created_at": "2026-05-13T22:13:16.810000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1504396479467356250,
+          "author_id": 1504035697349230675,
+          "author_name": "jooker123_",
+          "content": "Hi",
+          "created_at": "2026-05-14T08:14:31.040000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1505282284201312336,
+          "author_id": 1299063584067813518,
+          "author_name": "jesha1809",
+          "content": "How to get your soldier capacity on your teams higher ?",
+          "created_at": "2026-05-16T18:54:23.346000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1506662169209475174,
+          "author_id": 1504391017066135626,
+          "author_name": "oban123.",
+          "content": "Add me as a friend on Discord! Invite expires in 1 week: https://discord.gg/rhUmcKsB",
+          "created_at": "2026-05-20T14:17:33.569000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1508369402360496218,
+          "author_id": 677374057158803481,
+          "author_name": "rodrigogamerxpz4498",
+          "content": "Hi",
+          "created_at": "2026-05-25T07:21:29.671000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1508953660418424874,
+          "author_id": 1508951694506070239,
+          "author_name": "adrianne03143",
+          "content": "Hello",
+          "created_at": "2026-05-26T22:03:07.647000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1508966976825983017,
+          "author_id": 1508963727788212264,
+          "author_name": "ariliz90",
+          "content": "hola",
+          "created_at": "2026-05-26T22:56:02.526000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1509221726511173725,
+          "author_id": 1407049189749166083,
+          "author_name": "riri.cm",
+          "content": "Hello",
+          "created_at": "2026-05-27T15:48:19.584000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1509478639442460673,
+          "author_id": 1504391017066135626,
+          "author_name": "oban123.",
+          "content": "Hello everyone",
+          "created_at": "2026-05-28T08:49:12.400000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1509498840447844403,
+          "author_id": 969556933654749244,
+          "author_name": "doctor_rose123",
+          "content": "Hi",
+          "created_at": "2026-05-28T10:09:28.695000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1509628540176568522,
+          "author_id": 677374057158803481,
+          "author_name": "rodrigogamerxpz4498",
+          "content": "Hello",
+          "created_at": "2026-05-28T18:44:51.520000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1509707692342640752,
+          "author_id": 1503577592509366392,
+          "author_name": "zafiro111",
+          "content": ",👍",
+          "created_at": "2026-05-28T23:59:22.867000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1510551137290289182,
+          "author_id": 1244299603889885276,
+          "author_name": "criss.0308",
+          "content": "Estoy teniendo problemas en agregar a mis compañeros de equipo. Alguien sabe?",
+          "created_at": "2026-05-31T07:50:55.813000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1512168975654588627,
+          "author_id": 1512122510794293303,
+          "author_name": "misia94",
+          "content": "",
+          "created_at": "2026-06-04T18:59:38.537000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1512382353270374471,
+          "author_id": 456226577798135808,
+          "author_name": "Deleted User",
+          "content": "I would like to use game codes! I have no gift box in my account put gift codes! I am using an apple I-PAD. How can I make this happen?",
+          "created_at": "2026-06-05T09:07:31.725000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1512548940711465113,
+          "author_id": 1500934989645090837,
+          "author_name": "uglyduckling94",
+          "content": "You have to go to the webside and enter the gift code. Let me see if I can copy paste it in here. Brb.",
+          "created_at": "2026-06-05T20:09:29.266000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1512549330349985812,
+          "author_id": 1500934989645090837,
+          "author_name": "uglyduckling94",
+          "content": "https://gevents.globallap.com/gamecode/index.html?gameId=440\n\nHere it is. Your gift will come in your mail🌷 😊",
+          "created_at": "2026-06-05T20:11:02.163000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1512549943292723371,
+          "author_id": 484092904743370772,
+          "author_name": "wickedquinn693626",
+          "content": "Hello y'all 👋",
+          "created_at": "2026-06-05T20:13:28.300000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1513146099718684734,
+          "author_id": 1510409419001958511,
+          "author_name": "demented0149",
+          "content": "Than you",
+          "created_at": "2026-06-07T11:42:23.068000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1513452291276013588,
+          "author_id": 1507843226600603772,
+          "author_name": "olima4040",
+          "content": "New Alliance Recruiting\nLooking for a relaxed alliance? OnlyChillingppl is the name\n✅ Discord not required \n✅ Friendly, drama-free environment \n✅ Help with events, building, battles, and growth \n✅ New and experienced players welcome \n✅ Leadership opportunities for active, experienced members\nThis alliance is for people who want to enjoy the game, work together, and have fun without excessive pressure or politics. We're not focused on being the biggest or most hardcore alliance—we're focused on teamwork, respect, and helping each other grow.\nIf you're tired of being used, ignored, or kicked from alliances, come build something better with us.\nHave fun. Grow together. Enjoy the game",
+          "created_at": "2026-06-08T07:59:04.824000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1513453496190500914,
+          "author_id": 1507843226600603772,
+          "author_name": "olima4040",
+          "content": "Onlychillingppl esta reclutando, es una alianza nueva en busca de jugadores que quieren ayuda para crecer, en eventos, batallas etc. es una alianza para disfrutar del juego. si tienes experiencia hay oportunidades de liderazco solo si eres activo y quieres ayudar",
+          "created_at": "2026-06-08T08:03:52.098000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1517607371139059872,
+          "author_id": 1516452795690123444,
+          "author_name": "markspade68",
+          "content": "Hello",
+          "created_at": "2026-06-19T19:09:53.061000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1518628403543281744,
+          "author_id": 514656602809303070,
+          "author_name": "jaquackalyn",
+          "content": "What’s DPS?",
+          "created_at": "2026-06-22T14:47:06.156000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1519068245624098836,
+          "author_id": 456226577798135808,
+          "author_name": "Deleted User",
+          "content": "Hii",
+          "created_at": "2026-06-23T19:54:52.680000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1521076391318261830,
+          "author_id": 1503577592509366392,
+          "author_name": "zafiro111",
+          "content": "Holaaaaaaaaaaaaaa !!!!!",
+          "created_at": "2026-06-29T08:54:31.923000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1524205043518148691,
+          "author_id": 1519183556373381120,
+          "author_name": "mr.tobi0166",
+          "content": "❤️",
+          "created_at": "2026-07-08T00:06:40.735000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1524280426515005532,
+          "author_id": 912123776043458571,
+          "author_name": "jew_bts",
+          "content": "❤️",
+          "created_at": "2026-07-08T05:06:13.442000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1524711210795401226,
+          "author_id": 1524709029064998962,
+          "author_name": "hadi13612",
+          "content": "Hi",
+          "created_at": "2026-07-09T09:38:00.418000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1525448041753083904,
+          "author_id": 1525093572779708638,
+          "author_name": "hassan34225.",
+          "content": "Anyone here",
+          "created_at": "2026-07-11T10:25:54.608000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1526690326075674675,
+          "author_id": 1523529275808940193,
+          "author_name": "temperance2426",
+          "content": "Hi",
+          "created_at": "2026-07-14T20:42:18.271000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1526738470868090914,
+          "author_id": 1525629865062043691,
+          "author_name": "tricky0ne_",
+          "content": "Any one here",
+          "created_at": "2026-07-14T23:53:36.884000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1527535615644795013,
+          "author_id": 1527393999474655384,
+          "author_name": "aleex0339",
+          "content": "Hii",
+          "created_at": "2026-07-17T04:41:11.009000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1528115048549974149,
+          "author_id": 754131916164300892,
+          "author_name": "keres1286",
+          "content": "The in-game token exchange shops are a scam; they don't deliver the items even after deducting the tokens, and support is doing nothing about it. I'm on server 40, and this has happened to me personally on two occasions with different items, as well as to other players. However, support or customer service doesn't respond; they leave this bot that doesn't resolve anything, and they are stealing from us. If the game is in 'pay-to-win' mode, then at least be honest and take off the mask. These dynamics are becoming increasingly dirty, which is why many servers are dying",
+          "created_at": "2026-07-18T19:03:38.579000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1528115153868947658,
+          "author_id": 754131916164300892,
+          "author_name": "keres1286",
+          "content": "The in-game token exchange shops are a scam; they don't deliver the items even after deducting the tokens, and support is doing nothing about it. I'm on server 40, and this has happened to me personally on two occasions with different items, as well as to other players. However, support or customer service doesn't respond; they leave this bot that doesn't resolve anything, and they are stealing from us. If the game is in 'pay-to-win' mode, then at least be honest and take off the mask. These dynamics are becoming increasingly dirty, which is why many servers are dying",
+          "created_at": "2026-07-18T19:04:03.689000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1535366369464549437,
+          "author_id": 1535363660182986872,
+          "author_name": "wowboy.",
+          "content": "Grazie",
+          "created_at": "2026-08-07T19:17:48.208000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1536386919750180954,
+          "author_id": 936637365655568434,
+          "author_name": "faisalparvez8649",
+          "content": "Follow the Improve English Skills ✅ channel on Whatsapp: https://whatsapp.com/channel/0029gVby6EXkUIt5s2f9CCGr43",
+          "created_at": "2026-08-10T14:53:06.357000+00:00",
+          "embeds": [],
+          "attachments": []
+        },
+        {
+          "id": 1540581922680348784,
+          "author_id": 1214340892966649927,
+          "author_name": "thehikster",
+          "content": "Damage per second",
+          "created_at": "2026-08-22T04:42:32.995000+00:00",
+          "embeds": [],
+          "attachments": []
+        }
+      ]
+    }
+  ]
+}

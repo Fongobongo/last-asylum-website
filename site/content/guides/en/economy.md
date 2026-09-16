@@ -105,6 +105,17 @@ The pattern: +1M per Sanctuary level up to 20, then +2M per level to the 30M cap
 
 Never attack the same farm more than nine times in a row. The tenth hit destroys the city outright and teleports its owner away — you lose the farm, and the player loses their city. Nine hits is the ceiling; the community treats it as an obligation, not a suggestion.
 
+### Field Technique: Getting a Full Farm Run {#field-technique}
+
+Community-tested procedure for a full daily plunder session:
+
+1. **Scout first.** Open your mail after scouting: the report shows exactly how much of each resource the target holds. Peek at 2–3 candidates and pick the richest — many targets are loaded with one resource type.
+2. **Skip players in an alliance** — attacking an allied member starts wars your alliance did not sign up for.
+3. **Stage on an adjacent tile.** Send your squad to a resource tile next to the target; once it's sitting there, you can launch up to ~8 rapid consecutive attacks without waiting for marches.
+4. **Keep them above 2,000 city HP.** Below that they teleport away and your farmspot is gone — reuse the same farm tomorrow by stopping short.
+
+**Soldier Load** decides how much you carry per hit. It rises **+200 per troop tier** (T6 = 1,400, T7 = 1,600, T8 = 1,800...) and can be raised further by the **Load Training** tech in the Soldier research tree. Higher-tier squads plunder the same target in fewer hits, saving stamina.
+
 ## Stamina Math: Why Over-Limit Plundering Fails {#stamina-math}
 
 Spending stamina on over-limit plunder is one of the worst trades in the game:

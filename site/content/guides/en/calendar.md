@@ -41,6 +41,7 @@ Use the interactive Monument tool below to **enter your server day** (e.g. Day 1
 - 🎖️ **Survival Battle missions** — Weekly. Up to 60K skill badges/week; mission list varies by server.
 - 👑 **Kingdom War** — Biweekly. Prep/scoring through the week, main battle Saturday — 4-hour window.
 - 🧪 **Elixir Scramble** — Weekly. 30-min AvA point battle — remove squads from the wall before it starts!
+- ⚒️ **Gear Upgrade** — Every **Saturday & Sunday** (September 9, 2026 update).
 - 🧟 **Undead Siege** — Available 2 weeks after server launch; triggers after 300K clue points — 20 solo waves; hidden mechanic: 2–3 squads per wave, HP persists.
 - ☣️ **Era of Revival season** — 55 days (Expedition League): Resistance daily, Lord Statues, specialty trees.
 
