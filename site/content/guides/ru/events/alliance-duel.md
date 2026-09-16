@@ -5,7 +5,7 @@ lang: ru
 updated: "2026-09-03"
 videoTopic: alliance_duel
 calculators: []
-infographics: ["/infographics/troops-training-strategy-ru.png", "/infographics/duel-day-guide.webp"]
+infographics: ["/infographics/troops-training-strategy-ru.webp", "/infographics/duel-day-guide.webp"]
 type: event
 ---
 

@@ -4,7 +4,7 @@ description: "Полная поуровневая дорожная карта С
 lang: ru
 updated: "2026-09-15"
 videoTopic: buildings
-infographics: ["/infographics/building-speed-formula-ru.png"]
+infographics: ["/infographics/building-speed-formula-ru.webp"]
 ---
 
 Строительство в Last Asylum: Plague — длинная стратегическая игра: развитие Святилища с 1-го до 30-го уровня требует грамотного распределения строителей и ресурсов. Ошибка в очередности может задержать открытие ключевых тиров войск на недели. 
