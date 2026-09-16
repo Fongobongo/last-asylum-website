@@ -31,6 +31,12 @@ The **Monthly VIP activation (10,000 diamonds)** is the single strongest diamond
 
 In the diamond-vs-item trade-off, Monthly VIP wins against every shop item; buy it first, then shop priorities above.
 
+### Spending Diamonds to Push VIP Levels — Sometimes It's Correct
+
+Each VIP level does more than look pretty: it unlocks new permanent account perks **and new rows in the VIP shop**. The "spend diamonds only on items" instinct is wrong here — from VIP 6 onward, every new tier adds a new shop slot (being able to buy 1h/3h/8h speedups in the VIP Shop alone pays the diamond cost back within two weeks), and the highest tiers stack research and training speed the ordinary shop doesn't carry.
+
+Practical read: if pushing VIP 6→7 takes 5–8K paid diamonds, spending them on the push is strictly better than spending them on a banner cycle — the unlock lasts forever, the banner ends.
+
 ## Shop Restock Schedule {#restock-schedule}
 
 All shops restock on Monday. Plan your week around it: buy out your priorities Monday when stocks are full, run your Alliance Duel and Expedition income mid-week, then spend the weekend deciding what Monday's refresh owes you. Players who shop on Sunday buy a picked-clean shelf.
