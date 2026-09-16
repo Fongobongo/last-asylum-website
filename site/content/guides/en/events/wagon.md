@@ -71,6 +71,14 @@ Caravans are the daily caravan event running alongside the wagon:
 - **No real troop loss, no stamina cost.** Zero risk, every day.
 - **ALWAYS run them.** And remember from the [KvK](/events/kvk/) guide: **caravans and Covert Ops score for both KvK and Alliance Duel** — the same run pays twice.
 
+### Korpez' daily caravan routine
+
+- **Attack only caravans carrying 2+ UR shards visible in the loot preview.** A 2-shard carrier often drops 1 per hit; 3–4-shard targets are rarer and worth two hits. Skip everything that doesn't show UR shards.
+- **Send your own caravans at the end of your day** (players going to sleep = fewer plunderers online). 4–5h travel per caravan easily covers the night. Never send 3 caravans at once — rotate 2 and stagger them.
+- **Guard with your main squad** — the caravan's defenders matter more than its tier. Swap before dispatch.
+- **Save UR-tier caravan refreshes for Alliance Duel days** — only then does the quest checkbox matter; otherwise accept the default purple ones.
+- **Share plunder reports in alliance chat** — caravan reports are shareable directly from the Records tab, so allies can jump the same juicy targets.
+
 ## Plundering Other Servers {#plundering-servers}
 
 The cross-server caravan route:

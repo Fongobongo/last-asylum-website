@@ -1,0 +1,220 @@
+================================================================================
+# Mailbag Monday #8
+================================================================================
+- Название / Title: Mailbag Monday #8
+- Ссылка / URL: https://www.youtube.com/watch?v=3TF5scqNqvs
+- ID видео: 3TF5scqNqvs
+- Автор / Channel: KorpezGaming
+- Длительность / Duration: 13:13 (793 сек)
+- Дата публикации / Published: N/A
+- Просмотров / Views: 377
+- Плейлист: Korpez Gaming - Last Asylum Guide Series (#7 из 41)
+
+--------------------------------------------------------------------------------
+ОПИСАНИЕ ВИДЕО / DESCRIPTION:
+--------------------------------------------------------------------------------
+Mailbag Monday #8 is here! 📬
+
+This week we're diving into F2P squad building and some important hero decisions in Last Asylum: Plague.
+
+When should you replace Claire with Zoya? Is a lower-star Zoya really better for PvP? Which heroes should F2P players focus on, and how should you build your squads without wasting valuable resources?
+
+We also take a look at Claire vs Celia, Lucius vs Bella and some different F2P and P2W hero setups.
+
+Topics in this episode:
+⚔️ Claire vs Zoya
+🆓 F2P hero & squad builds
+💰 P2W squad options
+🔥 Claire vs Celia
+🥊 Lucius vs Bella
+🏆 PvP squad advice
+
+Got a Last Asylum question of your own?
+
+Drop it in the comments and it might be featured in Mailbag Monday #9! 📬
+
+If these guides help you out, consider subscribing to Korpez Gaming for more Last Asylum guides, hero builds, account reviews and weekly Mailbag Mondays.
+
+#LastAsylum #LastAsylumPlague #F2P
+
+Timestamps
+
+00:00 Mailbag Monday #8
+00:18 When should you replace Claire with Zoya?
+04:45 F2P & P2W hero build suggestions
+08:24 Claire vs Celia & Lucius vs Bella for PvP
+11:40 Final squad advice & closing
+
+================================================================================
+РУССКИЙ ТРАНСКРИПТ / RUSSIAN TRANSCRIPT:
+================================================================================
+[0:00] Что случилось, ребята? Corpus Gaming здесь и сегодня у нас еще один понедельник с почтой в Lost Asylum. Надеюсь, ваши Войны Королевств прошли хорошо, вы выиграли инструменты альянса.
+[0:10] и давайте сразу перейдем к вопросам недели.
+[0:13] Итак, первый вопрос из «Воспоминания». Эй, Корпус, я спрашивал об интересах моего альянса, по твоему мнению, когда разумно заменить UR.
+[0:24] Клэр с Зоей и в какой момент Зоя лучше подходит для PvP, чем 10-звездочная UR Клэр. Давайте сразу перейдем к игре и пойдем
+[0:35] чтобы увидеть навыки и принять решение. Хорошо, давайте перейдем непосредственно к вопросу, и прежде чем мы это сделаем, нам, конечно же, нужно проверить
+[0:43] навыки, потому что вот в чем наш ответ, и у нас здесь есть Зоя, и в чем разница между Зоей и Клэр, все просто, это навыки. Но
+[0:53] вам также нужно кое-что знать.
+[0:56] Зое по-прежнему можно заплатить только за победу, поэтому вы не получите ее, если не заплатите. Вот почему для бесплатной игры игрокам доступна эта версия Claire UR.
+[1:10] довольно здорово, но, как вы можете видеть по ее навыкам, все они основаны на атаке, некоторых отличных навыках AoE, некоторых усилениях критического удара, и если мы посмотрим на Клэр UR
+[1:21] версии, у нее все еще есть этот пассивный бафф, который работает только тогда, когда вы атакуете монстров. Так что она все еще очень связана с PvE. у нее хороший
+[1:34] AoE-атака с физическим уроном, но она также не так уж и хороша, потому что она предназначена только для врагов в пределах досягаемости, но все равно довольно хороша и является хорошим обновлением для
+[1:47] бесплатно играть игрокам.
+[1:48] Вот как будет выглядеть ваш отряд, если вы будете играть свободно, у вас будет череп, его можно будет получить в эпоху возрождения.
+[1:56] затем у нас есть Артур, Харпер, Милена и Клэр, как для бесплатной игры, так и для платной игры, у вас есть Зоя, и это тоже довольно хороший состав,
+[2:09] но если вы собираетесь тратить, я бы действительно просто взял рейнджеров или варлоков, но что касается Зои и Клэр, то Зоя все же лучше для PvP
+[2:22] 100%, и Клэр всегда будет PvE 100%, и Клэр всегда будет героем, связанным с PvE. Теперь переходим к следующему вопросу. Итак, вопрос в следующем: как мне
+[2:32] знаешь, когда пора переходить в отряд рейнджеров?
+[2:35] Давайте приступим к игре, и я покажу вам это прямо сейчас.
+[2:38] Итак, как следует, у нас здесь есть отряд рейнджеров, и мы собираемся сначала взглянуть на это. По сути, это герой каждого. По сути, это отряд героев для каждого.
+[2:49] на данный момент полные воины, скажем, мы делаем здесь полных рейнджеров, а это 60 миллионов, а это 20 миллионов.
+[2:57] Конечно, мы еще далеко не готовы к переключению, но когда вы узнаете, что сможете это сделать? Когда это около 18 миллионов, тогда самое время
+[3:06] сделайте переключение, а также то, за чем вы хотите следить, — это следующие навыки. Какие навыки вы уже прокачали? Сколько звезд у тебя
+[3:18] У Рейнджеров есть все, кто выше восьми звезд, что действительно важно, потому что тогда у вас есть усиление упорства, которое действительно необходимо, чтобы этот отряд сиял.
+[3:27] а также то, что вы хотите, это, по сути, вы хотите, чтобы Синтия получила 10 звезд, а Красная Леди - 10 звезд. Этот может остаться на восемь звезд
+[3:39] для коммутатора это нормально. Льюис также должна иметь восемь звезд для перехода, и желательно, чтобы Белл хотела, чтобы она имела девять или десять звезд, чтобы сделать переход.
+[3:49] Переключение возможно и это еще не все. Вы также должны убедиться, что в храме у вас есть отряд рейнджеров, а также вторая часть воина.
+[4:00] здание. Это сделает ваш переход еще более прибыльным. И что еще? Извините, это была такая ошибка. Идеальный. И что еще нам нужно
+[4:11] делать? Нам нужно проверить исследование. А за исследованием мы идём сюда. И давайте прямо здесь посмотрим, что нам нужно сделать. Мы заботимся о том, чтобы в
+[4:22] исследования героев, они у нас тоже есть наравне с воинами. И чтобы все это было идеально выровнено, прежде чем вы сделаете этот переключатель. Итак, для этого
+[4:34] Вопрос, это также во многом похоже на вопрос, который у нас был раньше. Но вам понравится предложение о бесплатной игре и платной оплате за сборку героев. у меня есть
+[4:45] Конечно, на этом канале уже сделано много билдов от всех отрядов. Но давайте сделаем небольшой обзор и заглянем внутрь.
+[4:55] игра прямо сейчас. Хорошо, как мы уже обсуждали ранее, по сути, у нас есть бесплатный игровой отряд воинов в эпоху возрождения.
+[5:05] это произойдет, это произойдет как можно скорее. Как только вы достигнете возрождения эпохи, у вас появятся Душко, Артур, Малена, Харпер и Клэр в
+[5:16] назад. Что вам нужно сделать, так это после того, как вы завершили Малену, Артура и Харпера с UR, вы хотите сохранить все свои осколки UR, если вы собираетесь выбирать воинов.
+[5:28] и вы хотите использовать их на Душко, как только он станет доступен. Также подождите, используя жетоны найма в таверне, чтобы получить для него максимальное количество звезд.
+[5:37] сразу же, как только наступит эпоха возрождения. И тогда вы также можете посадить UR Клэр сзади. И это не самое лучшее, но это что-то.
+[5:48] Вы также можете удалить «Вы чисты» и «Вы также можете удалить вы чисты» и поместить туда Синтию. Ее также можно бесплатно получить, чтобы сыграть великого рейнджера.
+[5:57] герой и вы только теряете 5% от этих баффов, но вы получаете отличные атакующие баффы, но вы получаете отличного атакующего героя
+[6:06] по сравнению с Клэр. Возможно, это лучший вариант для бесплатного игрока, в том числе и в начале сервера. Вы также можете изменить
+[6:16] череп. Мне жаль. Вы также можете изменить череп вначале и раскачать эту смешанную группу рейнджеров и воинов, но вы потеряете 10% здоровья.
+[6:34] нападение и защита. Так что это не так уж приятно иметь. Итак, возможно, вы захотите сделать что-то подобное. Это также возможно для вас, пока у вас не будет
+[6:45] отпер череп и позволь мне войти. Возможно, ты хочешь сделать это с Беллой или с Люциусом. Один из двух, для которых они оба не очень хороши
+[6:58] танкование, но у вас есть варианты, и вы хотите, чтобы это выглядело вот так. Ты хочешь, чтобы Артур защищал твою Милену и хм.
+[7:08] вот и все, потому что ваша Милена будет основным дилером урона, и таким образом у вас все еще будет 15% дополнительных HP для атаки и защиты, в то время как у вас есть два больших урона.
+[7:18] дилеры и сторонник, а также. Так что это может быть лучшая установка, и вы можете продолжать использовать Клэр только для PVP PVE-монстров.
+[7:29] Если вы собираетесь запустить что-то еще, например, счет с оплатой за победу, и там будет полный отряд рейнджеров. Это действительно здорово
+[7:38] отряд, тем более что большинство людей вначале будут полными воинами. Итак, хорошо иметь сразу полных рейнджеров и
+[7:47] конечно, отряд в конце игры — это отряд чернокнижников, и этот будет отрядом, а тот — следующим.
+[7:54] Нам нужно пойти сюда, потому что у меня еще не разблокированы некоторые герои для отряда, отрядом чернокнижников теперь будет Джокер Билли или Уфрит. Тогда у нас есть то, что
+[8:06] тогда ее зовут Энни, Билли и Николь, и это будет вашей максимальной платой за победу в команде прямо здесь, за колесами. Определенно, это то место, где вы
+[8:18] вложите большую часть денег в последующие игры, которые идут с этим, а также в последующие игры. Теперь переходим к следующему вопросу. Итак, у нас много одинаковых вопросов
+[8:29] на этой неделе, и это также вопрос об отряде воинов. На этой неделе много вопросов об отрядах воинов, и это тоже интересный вопрос, Клэр.
+[8:41] против Селии и Люциуса против Беллы и что мы собираемся обсудить сейчас мы собираемся обсудить этого бесплатного героя Клэр против Селии и Люциуса
+[8:53] против Беллы. Я уже обсуждал, какой отряд лучше всего подходит для бесплатной игры в качестве воина, и давайте перейдем к этому прямо сейчас. Итак, чтобы увидеть
+[9:05] разница между Селией и конечно же ты Клэр или Клэр, потому что ты новенькая, поэтому у тебя нет Клэр, потому что ты новенькая, поэтому у тебя ее еще нет
+[9:14] и возрождения Клэр здесь все еще фиолетовая, но они два разных героя, на самом деле это два разных героя.
+[9:21] Клэр больше используется для мировых боссов, для получения высоких очков и действительно иметь возможность бесплатной игры, а Селия будет скорее героем.
+[9:33] это поможет вам получить больше ресурсов от монстров, потому что ее пассивный навык следующий. В бою увеличивает урон, наносимый монстрам.
+[9:43] на 15% и увеличивает количество трех типов ресурсов, получаемых за счет победы над элитными монстрами, на 50%, как только оно достигнет 20 для вашего отряда. Так,
+[9:55] По сути, если в вашем отряде есть Селия, вы получите больше ресурсов от убийства элитной порчи и тому подобного. Это действительно поможет вам
+[10:04] с этим грохотом. Вот почему она очень удобна для этого. И это ее единственная цель. И снова, если вы хотите собрать бесплатную команду,
+[10:14] хм, я просто собираюсь сделать это прямо сейчас.
+[10:16] Подождите, сначала мы поговорим о Белле и Люциусе. И у Беллы есть два атакующих навыка, которые немного уменьшили их атаку.
+[10:27] Итак, она собирается уменьшить ущерб, но это все. Не так уж и интересно.
+[10:31] Кроме того, цель, по которой она, вероятно, будет поражать, — это танки. Так что в этом тоже нет ничего полезного. И вот у нее есть еще один
+[10:41] навык атаки, основанный на монстрах.
+[10:44] Итак, у нее есть два навыка атаки монстров. И давайте посмотрим на Люциуса прямо сейчас. И вот наш ответ следующий.
+[10:53] У нее есть два-три навыка атаки на врага. Э-э, но его навык атаки, третий, третий, высший навык, направляется прямо к врагу в
+[11:05] передний. Итак, он собирается атаковать и спереди. А Белла собирается атаковать, возможно, спереди, но может быть и сзади. Его
+[11:15] э-э, ГСЧ, основанный на удаче. Но ее окончательная атака уменьшит урон этому человеку на 6%. Итак, это очень приятно.
+[11:25] Итак, мое предложение будет заключаться в следующем, учитывая эти два навыка: модернизировать Беллу. Она будет твоим вторым танком, если ты
+[11:35] делаю это, делаю этот отряд.
+[11:38] Попробуйте задать другой вопрос. Итак, я видел много вопросов о происходящей у нас пандемии и составил для этого руководство. Этот
+[11:50] выйдет в среду, и он будет коротким, но в то же время будет очень хорошим. И мы также
+[11:57] В субботу у нас также будет отличный гид, и речь пойдет о снаряжении. Все, что вам нужно знать об экипировке, звездных уровнях,
+[12:07] как их прокачать, где взять медали за монеты почета.
+[12:12] Все, что вам нужно знать об этом, выйдет в субботу, поэтому обязательно подпишитесь на канал и, конечно же, поставьте лайк этому видео. Это
+[12:21] очень сильно помогу каналу. Я также начал немного играть в Palworld. Это действительно хорошая игра, в которую тоже можно играть. Итак, я
+[12:33] мне это нравится, но мы все равно продолжим работу над Lost Asylum и сделаем отличные руководства, и я действительно с нетерпением жду того, что они планируют
+[12:41] Эра Возрождения 2, потому что Эра Возрождения на нашем сервере закончилась, и на первых серверах она тоже закончилась, и мы очень этого ждем. Это
+[12:52] это для этого видео. Я надеюсь, ребята, что у вас будет прекрасная неделя и приятный перерыв в «Королевстве против Королевства», и на этой неделе это все, и если у вас есть вопросы,
+[13:01] пожалуйста, дайте мне знать. Напишите в комментариях что-нибудь о вопросе, который у вас есть к Lost Asylum, и мы постараемся разобраться в нем на следующей неделе. Вот и все
+[13:11] на сегодня. Пока-пока.
+
+================================================================================
+ОРИГИНАЛЬНЫЙ АНГЛИЙСКИЙ ТРАНСКРИПТ / ORIGINAL ENGLISH TRANSCRIPT:
+================================================================================
+[0:00] What is up guys? Corpus Gaming here and today we have another mailbag Monday in Lost Asylum. I hope your Kingdom Wars went well, you won the alliance tools
+[0:10] and let's get straight into the questions of the week.
+[0:13] So for the first question, it is from Remembrance. Yo Corpus, I was asking around my alliance interest in your opinion, when it's wise to replace UR
+[0:24] Claire with Zoya and at what point is Zoya a better bet for PvP stuff than star 10 star UR Claire. Let's get straight into the game and we are going
+[0:35] to see out the skills and make our decision. All right, let's go straight into the question and before we do that, we have to of course check out the
+[0:43] skills cuz that's where our answer is and we have Zoya here and what the difference is between Zoya and Claire, it's simple, it's the skills. But
+[0:53] there's also something you need to know.
+[0:56] Zoya is still only pay to win possible, so you won't get her if you don't pay. So that's why for free to play players this Claire UR version is
+[1:10] pretty great, but as you can see with her skills, they're all based on attack, some great AoE skills, some crit buffs and if we look at Claire UR
+[1:21] version, she still has this passive buff that's only workable for when you're attacking monsters. So she's still really PvE related. She does has a good
+[1:34] physical damage AoE attack, but it's also not that great cuz it's only for enemies within range and but it is still pretty nice and a good update for the
+[1:47] free to play players.
+[1:48] This is what your squad is going to look like if you're free to play, you're going to have the skull, he's going to be obtainable in the era of revival.
+[1:56] then we have Arthur, Harper, Milena, and Claire here as a free-to-play as a paid-to-play you have Zoya here which is also pretty nice squad to have,
+[2:09] but if you are going to spend I would really just get Rangers or Warlocks, but for the question about Zoya and Claire, Zoya is still better for PvP
+[2:22] 100% and Claire will always be PvE 100% and Claire will always be PvE related hero. Now up to the next question. So the question is as followed, how do I
+[2:32] know when it's time to transfer to the Ranger squad?
+[2:35] Let's get into the game and I'm going to show you right now.
+[2:38] So as followed we have the Ranger squad here and we're going to first look at this. This is basically everyone's hero this. This is basically everyone's hero squad
+[2:49] at the moment full warriors let's say we are doing full Rangers here and this is 60 mil and this is 20 mil.
+[2:57] Of course this is nowhere near ready to make the switch, but when do you know you can make the switch? When this is around 18 mil then it's a good time to
+[3:06] make the switch and also what you want to look after is as followed skills. What what skills did you upgrade already? How much stars does your
+[3:18] Rangers have if is everyone above the eight stars that is really important cuz then you have the tenacity buff that is really needed to make this squad shine
+[3:27] as well and what you want is basically you want to want to get Cynthia to 10 stars, Red Lady to 10 stars. This one can stay eight stars
+[3:39] that's fine for the switch. Lewis needs to be eight stars for the switch as well and preferably for Bell you want to get her at nine or 10 stars to make the
+[3:49] switch possible and that is not everything. You also want to make sure in the temple you have the ranger squad building up as well part two the warrior
+[4:00] building. That's going to make your switch even more profitable. And what else? Excuse me, that was a mistake like this. Perfect. And what else do we need
+[4:11] to do? We need to check out the research. And for the research we go here. And let's just see right here what we have to do. We make sure that in the
+[4:22] hero research we have these ones all up as well on par with the warriors. And to get that all perfectly aligned before you make this switch. So for this
+[4:34] question it's also pretty much in the question we had before. But you would love suggestion for the free to play and pay to win hero builds. I've
+[4:45] course done a lot of builds already in this channel from all the squads as well. But let's just do a quick one and let's check out inside the
+[4:55] game right now. All right, as we have discussed before we are basically having this free to play warrior squad in the era revival
+[5:05] that's going to happen that's going to happen as soon as possible. Once you hit era revival you will have Dusko, Arthur, Malena and Harper and Claire in the
+[5:16] back. What you want to do is once you have completed Malena, Arthur and Harper with the UR you want to save up all your UR shards if you're going for warriors
+[5:28] and you want to use them on Dusko once he becomes available. Also wait with using the recruitment tokens in the tavern so you can get him max stars
+[5:37] straight away once the era of revival starts. And then you can put UR Claire in the back as well. And it is not the best but it is something.
+[5:48] You can also remove you are clear and You can also remove you are clear and get Cynthia in there. She's also free obtainable free to play a great a ranger
+[5:57] hero and you only you lose 5% in these buffs, but you do get a great attacking buffs, but you do get a great attacking hero
+[6:06] compared to Claire. This might be the best option you have as a free-to-play player also in the beginning of the server. You can also change up the
+[6:16] skull. I'm sorry. You can also change up the skull in the beginning and you can rock this mixed group of rangers and warriors, but you do lose 10% of HP
+[6:34] attack and defense. So that is not so nice to have. So you might want to do something like this. That is also a possibility for you until you have
+[6:45] unlocked the skull and let me just get here in. You want to maybe do this with Bella or with Lucius. One of the two they're both not that great for
+[6:58] tanking, but these are the options you have and you want to make it look like this. You want to have Arthur protecting your Milena and um
+[7:08] that's it cuz your Milena is going to be the main damage dealer and this way you still have your 15% extra HP attack and defense while you have two great damage
+[7:18] dealers and a supporter as well. So this might be the best setup and you can keep on using Claire for PVP PVE monsters alone.
+[7:29] If you are going to run something else like pay-to-win account and there's going to be a full ranger squad. This is a really great
+[7:38] squad to have especially since most people will go full warriors in the beginning. So, this is a nice one to have straight away full rangers and of
+[7:47] course the end game squad is the warlock squad and that one is going to be as squad and that one is going to be as followed.
+[7:54] We have to go here because I have some heroes not unlocked yet for the squad the warlock squad is going to be Joker Billy or Ufrit now. Then we have what's
+[8:06] her name Annie and Billy then and Nicole and that is going to be your ultimate pay to win squad right there for the wheels. Definitely this is where you
+[8:18] invest your most of money into and also with the after games that come with that. Now off to the next question. So, we've got a lot of the same questions
+[8:29] this week and this is also the question about the warrior squad. There are a lot of warrior squad questions this week this is also an interesting one Claire
+[8:41] versus Celia and Lucius versus Bella and what it is we're going to discuss now we're going to discuss this free to play heroes Claire versus Celia and Lucius
+[8:53] versus Bella. I've already discussed what squad is best for free to play players as warrior and let's get straight into that right now. So, to see
+[9:05] the difference between Celia and of course you are Claire or Claire cuz you are new so you don't have Claire cuz you are new so you don't have yet
+[9:14] and of revival Claire is still purple here and but they're two different they're really two different heroes.
+[9:21] Claire is more used for world bosses and to get those high score points and to really have a free to play option and Celia is going to be more of an hero
+[9:33] that's going to help you uh get more resources from monsters cuz her passive skill is as follows. In combat, increase damage dealt to monsters
+[9:43] uh by 15% and increases three types of resources obtained but from defeating uh elite monsters by um 50% once it reached 20 for your squad. So,
+[9:55] basically, if you have Celia in your squad, you will get more resources from uh killing elite blight and stuff like that. It's really going to help you out
+[10:04] with that grind. So, this is also why she's pretty handy for that. And that's her only purpose. And again, if you want to rock a free-to-play squad,
+[10:14] um I'm just going to do it right now.
+[10:16] Wait, we're first going to talk about Bella and uh Lucius here. And uh Bella has as follows, two attack skills, uh a little bit of um reduced their attack.
+[10:27] So, she's going to reduce damage, but that's about it. Not that interesting.
+[10:31] And also, the target she will probably be hitting is the tanks. So, that is also nothing to be uh useful for. And here, she has another
+[10:41] attack skill that is based for monsters.
+[10:44] So, she has two uh monster-based attack skills. And let's look at Lucius right now. And here is our answer as follows.
+[10:53] She is has two three attack skills for um enemy. Uh but his attack skill, the third the third one, the ultimate skill, is going straight to the enemy in the
+[11:05] front. So, he's going to attack uh the front as well. While Bella is going to attack uh probably the front, but also maybe one in the back. It's
+[11:15] uh a RNG luck-based. But her ultimate attack is going to reduce damage on that person for 6%. So, that's pretty nice.
+[11:25] So, my suggestion is going to be as follows, seeing those two skills, is going to be upgrading um Bella. She's going to be your second tank if you are
+[11:35] doing that doing that squad.
+[11:38] Try something else as a question. So, I've seen a lot of questions about the pandemic event that we have going on and I have made a guide for this. This
+[11:50] will be dropping on the Wednesday and that's going to be a short one, but it's going to be a really nice one as well. And we also
+[11:57] have a really great guide coming up on the Saturday as well and this is going to be about gear. Everything you need to know about gear, the star levels, the
+[12:07] how to level them up, where to get the medals for the honor coins.
+[12:12] Everything you need to know about this will be dropping on the Saturday, so make sure you subscribe to the channel and of course like this video. That's
+[12:21] going to really help the channel out a lot. I've also started playing a little bit of Palworld. That is really a a nice game to play as well. So, I'm
+[12:33] enjoying that, but we will still stick on Lost Asylum and we will make these great guides and I'm really looking forward at what they are planning for
+[12:41] the Era of Revival 2 cuz Era of Revival in our server has ended and in the first servers it has ended as well and we're really looking forward to that. This is
+[12:52] it for this video. I hope you guys have a lovely week and a nice break from Kingdom versus Kingdom and that's it for this week and if you have questions,
+[13:01] please let me know. Drop something in the comments about a question that you have for Lost Asylum and we will try to figure it out in next week. That's it
+[13:11] for today. Bye-bye.

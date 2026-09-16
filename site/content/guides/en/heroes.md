@@ -113,6 +113,20 @@ In the Era of Revival season, Awakened hero progression follows one fixed order.
 
 The rule that binds all of it: **never split Awakening materials**. Awakening one hero fully outperforms awakening two heroes halfway — better one strong march than several half-finished ones. The Era-specific context for each step is in the [Era of Revival guide](/era/).
 
+## Awakening Mechanics & First Three Awakened Heroes {#awakening-walkthrough}
+
+Awakening is gated behind **10 red stars** on the hero plus **~30 Omni Shards** to unlock the Awakened tree — and that initial 30 is deliberately paywalled behind $5 packs. After unlocking, you climb Awakened levels 1–40, each tier paying off at fixed breakpoints via new passives and stat floors.
+
+**Shard sources (F2P-friendly):** Expedition Shop (weekly stack, stock up on Stamina days), Honor Shop (25 shards ≈ 62k Honor monthly), Era Mystic Treasure chests, and Alliance Duel (2 shards per × phases). The $5 awakening packs are the comparable whale shortcut, and the bigger $100–$200 packs bundle the same shards with MR blueprints.
+
+The community-accepted ceiling is **AW 20 for most players** — the curve flattens hard past it. The first three heroes worth awakening (in the order most people unlock them):
+
+**Marlena (Warrior, pack hero)** — her awakened tree stacks **Battle Will** (2 stacks per allied warrior on the field, +1% damage dealt and +1% damage reduction per stack), her AW 10 Crimson Bloom hits the whole enemy team and applies a defense-shred debuff for follow-up damage, AW 20 unlocks Blade Tempest counter mechanics, AW 30 adds +8% ATK/HP/DEF to allied warriors, and the capstone adds a huge +5 blades to her normal attack cycle.
+
+**Cynthia (Ranger, F2P from Lucky Wheel)** — her tree stacks **Moonlight** marks (1% energy damage each, cap equal to her Ranger count on the field) and AW 20+ lets her spend ≥10 stacks on **Moonfall Dance** for burst energy damage. AW 2 raises skill damage 20%, AW 30 buffs allied Rangers +8% ATK/HP/DEF, and the capstone plus the stack mechanic together make her the longest-range F2P crit machine.
+
+**Annie (Warlock, F2P)** — her awakening multiplies her **burn/scorch** stacking (each burn tick = 25% of her ATK per second, 20–30s, cap scales with warlock count), AW 20 adds a **+250% energy damage AoE against all scorched targets**, and AW 30 spreads +8% ATK/HP/DEF to allied warlocks. Annie is the awakening that makes burn squads an actual endgame option instead of a meme.
+
 ## Key Hero Balance Updates {#hero-balance-notes}
 
 Recent balance patches adjusted several key heroes:

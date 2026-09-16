@@ -190,3 +190,16 @@ Research Lab technologies provide compounding permanent multipliers across comba
 - **T8 Troops**: Sanctuary 24–25 + Training Grounds 24.
 - **T9 Troops**: Sanctuary 27 + Training Grounds 27.
 - **T10 Troops**: Sanctuary 30 + Training Grounds 30 + 100% Elite Troops research branch.
+
+### Per-Tree Micro-Strategy (Korpez breakdown)
+
+Once the macro priority above is running, these are the in-tree shortcuts that save weeks of Research speedups:
+
+- **Development tree** — rush the node that unlocks the **extra Training Camp**. Only raise Quick Bandage to level 2 (enough to proceed); never max it early. Done in ~7 days with active alliance help.
+- **Economy tree** — open the extra **Farm plots first**, then immediately push **Herb Output** nodes; leave everything else alone until much later.
+- **Hero trees** — level all three class ladders to **Lv 3** evenly (the seven-day per-node cost is a bug the devs are allegedly fixing), then push your **main class** to Lv 5. The generic hero nodes below (Attack/Health/Def/Damage) are the gold.
+- **Soldier tree** — every standard stat node is worth it, **except the final Load node: a 9-day upgrade for +1% load is a trap; skip it.**
+- **Full Development tree** (post-dev) — push straight to **Soldier Fatality Rate** (−1% → −5% with max) — the single best node for KvK. Skip healing speed; training capacity can be slowrolled; training speed is worth grabbing on the way.
+- **Prosperous Economy** — unlock Herb Garden, then **leave the tree**: everything else there is worse than the same research days spent in military.
+- **Squad tab** (post-Soldier) — pad **March Capacity** and **Squad Attack** for your primary class; park the others at Lv 3. The world-boss-defense nodes can be left at 3 — maxing them doesn't pay back.
+

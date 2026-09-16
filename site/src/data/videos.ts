@@ -1742,10 +1742,70 @@ export const rawVideos: Record<string, Video[]> = {
       "title": "Донат-пакеты и оптимальный путь VIP",
       "lang": "en"
     }
-  ]
+  ],
+  "dwarven": [
+    {
+      "id": "WCIfyqH0vz0",
+      "title": "Dwarven Mine Guide — Don't Waste Your Pickaxes!",
+      "lang": "en"
+    }
+  ],
+  "dwarven_ru": [
+    {
+      "id": "WCIfyqH0vz0",
+      "title": "Гномья шахта — не тратьте кирки зря",
+      "lang": "en"
+    }
+  ],
+  "pandemic": [
+    {
+      "id": "-BM4Rp9hd5U",
+      "title": "Pandemic Experience — Do It Right",
+      "lang": "en"
+    },
+    {
+      "id": "ECZkbQxBRMc",
+      "title": "Pandemic Experience — Do THIS for Better Rewards",
+      "lang": "en"
+    }
+  ],
+  "pandemic_ru": [
+    {
+      "id": "-BM4Rp9hd5U",
+      "title": "Вирусный опыт — как пройти правильно",
+      "lang": "en"
+    },
+    {
+      "id": "ECZkbQxBRMc",
+      "title": "Вирусный опыт — забираем лучшие награды",
+      "lang": "en"
+    }
+  ],
 };
 
 export const topicSearchTerms: Record<string, Record<Lang, string>> = {
+  "dwarven": {
+    "en": "Last Asylum Plague Dwarven Mine guide",
+    "ru": "Last Asylum Plague Гномья шахта гайд",
+    "de": "Last Asylum Plague Zwergenmine Guide",
+    "es": "Last Asylum Plague Mina Enana guía",
+    "fr": "Last Asylum Plague Mine Naine guide",
+    "id": "Last Asylum Plague Tambang Dwarf panduan",
+    "ja": "Last Asylum Plague ドワーフ鉱山 攻略",
+    "ko": "Last Asylum Plague 드워프 광산 공략",
+    "pt": "Last Asylum Plague Mina dos Anões guia"
+  },
+  "pandemic": {
+    "en": "Last Asylum Plague Pandemic Experience guide",
+    "ru": "Last Asylum Plague Вирусный опыт гайд",
+    "de": "Last Asylum Plague Pandemie-Erlebnis Guide",
+    "es": "Last Asylum Plague Experiencia Pandemia guía",
+    "fr": "Last Asylum Plague Expérience Pandémie guide",
+    "id": "Last Asylum Plague Pengalaman Pandemi panduan",
+    "ja": "Last Asylum Plague パンデミック 攻略",
+    "ko": "Last Asylum Plague 팬데믹 공략",
+    "pt": "Last Asylum Plague Experiência Pandemia guia"
+  },
   "strike_first": {
     "en": "Last Asylum Plague Strike First beginner event",
     "ru": "Last Asylum Plague Первый удар событие гайд",
@@ -2068,6 +2128,28 @@ export const topicSearchTerms: Record<string, Record<Lang, string>> = {
 };
 
 export const topicNames: Record<string, Record<Lang, string>> = {
+  "dwarven": {
+    "en": "Dwarven Mine",
+    "ru": "Гномья шахта",
+    "de": "Zwergenmine",
+    "es": "Mina Enana",
+    "fr": "Mine Naine",
+    "id": "Tambang Dwarf",
+    "ja": "ドワーフ鉱山",
+    "ko": "드워프 광산",
+    "pt": "Mina dos Anões"
+  },
+  "pandemic": {
+    "en": "Pandemic Experience",
+    "ru": "Вирусный опыт",
+    "de": "Pandemie-Erlebnis",
+    "es": "Experiencia Pandemia",
+    "fr": "Expérience Pandémie",
+    "id": "Pengalaman Pandemi",
+    "ja": "パンデミック・エクスペリエンス",
+    "ko": "팬데믹 도전",
+    "pt": "Experiência Pandemia"
+  },
   "strike_first": {
     "en": "Strike First",
     "ru": "Первый удар",

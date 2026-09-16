@@ -1,0 +1,225 @@
+================================================================================
+# Stop Upgrading the Wrong Skills! | Last Asylum guide
+================================================================================
+- Название / Title: Stop Upgrading the Wrong Skills! | Last Asylum guide
+- Ссылка / URL: https://www.youtube.com/watch?v=HrsQfIACjHI
+- ID видео: HrsQfIACjHI
+- Автор / Channel: KorpezGaming
+- Длительность / Duration: 12:00 (720 сек)
+- Дата публикации / Published: N/A
+- Просмотров / Views: 1105
+- Плейлист: Last Asylum: Hero Guides (#4 из 9)
+
+--------------------------------------------------------------------------------
+ОПИСАНИЕ ВИДЕО / DESCRIPTION:
+--------------------------------------------------------------------------------
+Ready to unlock the true power of the Warlock Squad in Last Asylum? In Part 2 of our Warlock guide, we are breaking down the final three Warlock heroes—Billy, Nicole, and Stellar—to show you exactly how to upgrade their skills and gear for maximum damage!
+
+In this guide, we cover:
+
+Billy: The ultimate defensive tank to protect your backline DPS from getting melted by the Red Lady.
+
+Nicole: Why she is secretly a powerhouse hybrid support/DPS and how to optimize her gear (Sword, Gloves, Boots) to boost her heals.
+
+Stellar: The perfect positioning trick to buff three Warlock allies simultaneously and dominate the World Boss.
+
+F2P Warlock Setup: A complete breakdown for Free-to-Play players on how to build a top-tier team using Joker, Annie, Stellar, Hastar, and Arthur to unlock that sweet 15% extra Warlock damage bonus!
+
+Whether you are a medium player or a whale, these tips will help you maximize your combat efficiency.
+
+If this guide helped you out, make sure to SUBSCRIBE to the channel, smash that LIKE button, and leave your questions in the comments below!
+
+📌 Timestamps:
+0:00 - Warlock Heroes Intro & What to Upgrade
+
+0:19 - Billy: Skill Breakdown & Countering Red Lady 🛡️
+
+3:07 - Billy: Best UR Gear & Star Priority
+
+3:47 - Nicole: The Overpowered Hybrid Support/DPS
+
+4:21 - Nicole: Skill Upgrades & Healing Scaling
+
+7:35 - Nicole: Star Priorities for Weapons and Boots
+
+9:12 - Stellar: How to Maximize Her Buffs for World Boss ☄️
+
+10:49 - The Best Free-to-Play Warlock Squad Setup (Arthur Strategy)
+
+#LastAsylum #LastAsylumGuide #WarlockSquad #WarlockHeroes #KorpezGaming
+
+================================================================================
+РУССКИЙ ТРАНСКРИПТ / RUSSIAN TRANSCRIPT:
+================================================================================
+[0:00] Как дела, ребята, здесь Corpus Gaming.
+[0:02] Сегодня мы собираемся обсудить трех последних героев Чернокнижников, а также то, что мы хотим улучшить, а что не хотим улучшать. Мы также собираемся дать вам
+[0:09] Ребята, бесплатный совет для игроков, играющих бесплатно, в конце этого видео, так что следите за обновлениями. Если вам это нравится, ребята, поставьте лайк, нажмите это
+[0:17] подпишитесь и давайте займемся этим. Итак, мы начнем с деревянной рамы, базовой атаки, которая нанесет физический урон одному человеку.
+[0:25] враг, и как только вы получите больше звезд, урон увеличится, и, конечно, чем выше уровень, тем больше урона. Это не так уж и интересно, так что
+[0:33] мы собираемся перейти ко второму навыку, он называется «Нить судьбы», и он размахивает марионеткой, нанося физический урон одной цели.
+[0:41] уменьшить энергетический урон, получаемый двумя вторыми по силе атаки союзниками. Так что, по сути, он защитит ваших ДПС от убийств на задней линии.
+[0:52] 4 секунды, и как только вы получите больше звезд, это даст вам больше снижения урона и других союзных целей, и это определенно будет вашей
+[1:03] сторонник, так что это потрясающий и хороший навык - добраться хотя бы до 25, а если у вас все в порядке, вы можете просто увеличить его до 30.
+[1:11] Это хороший защитный навык. Затем переходим к следующему и правде и лжи. Он перечисляет марионетку и падает на землю, нанося урон от атаки
+[1:22] врагов в радиусе действия, что дает трем союзникам с самой высокой атакой 70% иммунитета к оглушению, и это отличный способ противостоять Красной Леди, и это уже
+[1:33] отличный усилитель для Чернокнижников против Рейнджеров, поэтому у Рейнджеров нет шансов против Чернокнижников, потому что это делает Красных Леди неуязвимыми к оглушению.
+[1:44] Весь полученный урон, и как только вы получите больше звезд, весь урон, полученный героями-союзниками, уменьшится на 15%, поэтому вы уменьшите количество героев-союзников на 15%, поэтому вы получите еще один
+[1:53] еще один уменьшенный урон всем вашим героям и уменьшенный урон всем вашим героям и, ммм, как только вы получите больше звездных звезд,
+[2:00] Шанс иммунитета к оглушению также увеличивается до 30%, что практически всегда дает дебафф на это оглушение, так что вы никогда не будете оглушены Красным.
+[2:12] Опять леди. И это И при 10 звездах он наносит 100% дополнительного урона и увеличивает урон, получаемый вражеским героем, на 50% в течение 5 секунд, так что это действительно здорово.
+[2:23] танк, чтобы вы могли максимально использовать его, как танк, чтобы вы также могли максимизировать это.
+[2:27] А еще у нас есть пассивный, и вы можете поставить его на 25. Это довольно просто.
+[2:32] В бою снижает весь получаемый урон на 22%. На самом деле не сказано, касается ли это всех героев-союзников или только Билли.
+[2:40] И им действительно нужно конкретизировать это, гм, лучше, чтобы мы точно знали, что происходит. И как только вы получите больше звезд
+[2:50] это усилит его эффект, а на 10 звездах он уменьшит получаемый энергетический урон еще на 8%. И это также отличный пассивный бафф.
+[3:01] против этих воронов.
+[3:03] Тогда нам также хватит упорства, и давайте приступим к работе. Ладно, мне пришлось сделать что-то другое.
+[3:09] Мы все еще говорим о Билли, а не об Ульфреде, но я еще не разблокировал Билли, поэтому не могу показать вам этот экран. И что мы хотим сделать для
+[3:17] Билли, мы хотим подарить ему хорошую нагрудную пластину.
+[3:22] По крайней мере, получите эти две звезды, чтобы вы могли снизить физический урон на 30%, и это также поможет вам против этих воронов. И
+[3:32] ты хочешь подарить ему ботинки. И если вы можете, вам также нужно сосредоточиться на том, чтобы дать ему перчатки, чтобы добиться уменьшения урона. И это
+[3:42] по сути, это та установка, которую вы хотите создать для Билли. Мы переходим к следующему Билли. Переходим к следующему герою.
+[3:47] Итак, у нас есть Николь. Хм, она из класса поддержки, но я также думаю, что она что-то вроде третьего ДПС в отряде Чернокнижников, потому что у нее есть некоторые
+[3:57] в отряде Чернокнижников, потому что у нее также есть потрясающие атаки ДПС. Вот почему на самом деле Колдуны настолько сильны, а люди нет.
+[4:08] Видя это, потому что мы все сейчас сосредоточены на Рейнджерах, но Чернокнижники приближаются, и я думаю, нам следует больше сосредоточиться на Чернокнижниках и дать им
+[4:17] еще немного любви и уважения. Теперь давайте приступим к освоению этих навыков прямо сейчас. И конечно, хочется получить здесь хотя бы 10 восьмерок за упорство, но мы
+[4:28] хочу сначала посмотреть на пассивный навык атаки, он называется Янтарная пыль, это базовая атака и что она делает
+[4:37] выпускает пламя, чтобы нанести физический урон одной цели, а также лечит союзника с наименьшим количеством здоровья на 10 тысяч плюс 50% атаки. Итак, чем выше
+[4:49] атака тем больше она собирается исцелиться. Это также причина, по которой мы собираемся сделать ее снаряжение немного другим. Итак, мы собираемся рассмотреть
+[4:57] эти дополнительные вещи, как только вы получите больше звезд на ней, нанесете на 40% дополнительный урон и восстановите дополнительно 5 тысяч HP и снова около восьми звезд дополнительного урона
+[5:09] увеличено до 100%, а дополнительное восстановление HP увеличено на 15 000, а другая снова выше, ее атака еще на 200% и дополнительное восстановление HP до 30 000 и
+[5:24] в общей сложности это дает вам 50 тысяч.
+[5:27] И что в этом действительно хорошо, так это то, что она, по сути, продолжит исцеляться, и это потрясающе. Перейдем ко второму навыку.
+[5:36] И то, что мы имеем здесь, называется трогательным пламенем. Бросает два огненных шара, исцеляющих двух союзников с наименьшим количеством здоровья на 80 тысяч плюс атака. Итак, и чем больше звезд
+[5:47] вы также получите большее исцеление. И, конечно же, чем выше уровень, тем больше будет исцеления.
+[5:54] Затем переходим к следующему. Вы также очень хотите довести это значение до 25, а колеса просто могут довести это значение до 30. И вы также можете увеличить этот первый навык до
+[6:03] 25 как обычный игрок. А у кита тоже максимум до 30. Затем мы перейдем ко второму, высшему навыку. И он вызывает огненный столб
+[6:15] нанесение большого физического урона всем врагам. И именно поэтому она тоже своего рода ДПС. Она нанесет урон всем врагам. Если мишени горят, и
+[6:24] они будут гореть из-за умения Джокера, увеличьте атаку на 40%. И прошу прощения, я допустил ошибку. Это не Джокер, это любой навык, который поможет
+[6:35] действительно увеличить этот урон. И чем больше звезд, тем больше сделок произойдет. И как только вы получите последние 10 звезд, вы получите
+[6:45] дополнительные 5% к урону от ожогов. Итак, это потрясающе. И вы также действительно хотите максимально использовать это. Я думаю, это тот самый герой, которого хочется полностью раскрыть.
+[6:55] максимально использовать все навыки, потому что это потрясающе. Затем переходим к последнему, пассивному навыку. И это называется силой пламени души. И в бою вся элита
+[7:05] чернокнижники получают увеличение атаки. И как только вы наберете на нее больше звезд, скорость атаки увеличится, бонус атаки увеличится, а затем снова атака.
+[7:15] скорость тоже увеличивается. И я просто думаю, что это, возможно, один из лучших классов поддержки в игре. И им действительно стоит постараться
+[7:25] чтобы сбалансировать это. Может быть, подарить Харпер еще больше любви.
+[7:29] Но мы здесь не ради Харпер. У нас есть Форникол. Итак, давайте займемся ее снаряжением прямо сейчас. Итак, еще раз, не смотрите ни на что.
+[7:38] Мы говорим здесь о Форниколе. И мы собираемся посмотреть на снаряжение прямо сейчас. И что мы действительно хотим иметь, так это хорошее, что мы действительно хотим иметь, так это хороший меч.
+[7:46] И вы можете получить две звезды, будучи средним игроком.
+[7:51] Будучи китом, вы, конечно, можете получить эти четыре звезды, но вам не нужно сильно на этом настаивать. Мы здесь не смотрим на уровень критического удара. Мы хотим получить
+[8:00] герой атакует. И мы собираемся. Это то, на чем мы действительно хотим сосредоточиться. Вероятность критического удара не так уж и важна.
+[8:06] И мы тоже хотим получить перчатки. И это действительно то, чего вы хотите достичь как можно выше. И у этого есть две причины. Мы хотим получить больше атак. И
+[8:17] это процент усиления атаки. Поэтому мы тоже хотим это поднять. И как только вы наберете 240 и выше, вы действительно получите больше процентов. Вы получаете 25 0,25%
+[8:29] каждый раз, когда вы обновляете его. Так что все будет действительно быстро. И затем мы хотим получить это сопротивление урону.
+[8:34] Это поможет вашему классу поддержки пережить несколько убийственных ударов на задней линии. И еще мы хотим получить хорошие ботинки.
+[8:44] Фишка чернокнижника – воины. А воины наносят только энергетический урон. Вот почему вам очень хочется еще и надеть на нее хорошие ботинки. И нагрудная пластина
+[8:54] получить можно, но ставить ей звезды особо не обязательно. Мы хотим поместить звезды в меч, перчатки и ботинки. Вот и все для Николь. Были
+[9:04] собираюсь пойти прямо к последнему герою.
+[9:07] И это будет герой ССР. Но я собираюсь объяснить вам, ребята, прямо сейчас. Я собираюсь объяснить вам, ребята, прямо сейчас, почему.
+[9:12] Итак, вот мы и здесь, и это последний герой, о котором мы собираемся поговорить. И это Стеллар. А почему мы ее обсуждаем, мы сейчас увидим. Мы собираемся
+[9:21] сначала обсудить эти навыки. А автоатака — это, по сути, просто атака, направленная на одного врага. И это Чем выше [прокашливается] звезды,
+[9:29] тем больше урона он нанесет.
+[9:32] Второе — деструктивный комментарий.
+[9:35] И он вызывает комментарий, наносящий урон от атаки врагу в радиусе действия, увеличивающий урон, получаемый монстром, на 8% на 3 секунды, и урон от атаки увеличивается.
+[9:45] как только вы получите больше звезд в ней, и это действительно поможет вам с мировым боссом нанести больше урона.
+[9:52] Тогда у нас есть высший навык, и он называется звездой желаний. Он вызывает метеоритный дождь, увеличивающий урон монстрам, наносимый соседними союзниками-колдунами.
+[10:01] 30% на 5 секунд и чем больше звезд вы в ней получите тем выше будет эффект и длительность этого эффекта.
+[10:11] И что вы действительно хотите сделать, так это поставить ее в заднюю линию посередине, чтобы она могла усилить хотя бы трех героев-чернокнижников. Так это то, что ты хочешь
+[10:20] что нужно сделать, и что у нас есть, а также последний пассив - это последний звездный свет, и когда Стеллар получает смертельный урон в битве, она расширяет свой звездный свет раньше
+[10:30] это исцеляет союзников с наименьшим количеством здоровья на 200% атаки. И это не так уж и интересно, может быть, для игроков, играющих в бесплатную игру, это будет интересно.
+[10:41] действительно хорошо, и это то, что мы делаем дальше. Ребята, я расскажу вам, какой бесплатный отряд вы можете использовать для бесплатного отряда, который вы можете использовать для чернокнижников.
+[10:49] Что хорошо в чернокнижниках, так это то, что вы также можете получить Джокера бесплатно. Вам нужно всего лишь 5 тысяч бриллиантов, и вы сможете достать его из колеса и
+[10:58] разблокируйте его, и Энни будет разблокирована в таверне, когда ваш сервер достигнет более позднего возраста. Это также бесплатный ДПС, так что у вас есть оба ДПС.
+[11:08] бесплатная игра и на что мы хотим обратить внимание в отношении остальных героев? Мы хотим получить хотя бы э-э Stellar за поддержку.
+[11:16] и мы хотим получить Хастера в качестве танка. И что нам нужно в качестве второго танка, и это Артур, хм, и я знаю, что он воин, и мы
+[11:27] не могу получить полный отряд чернокнижников бесплатно, потому что нет бесплатного второго танка.
+[11:34] Итак, мы хотим сделать Артура вторым танком, и вы, по сути, получите на 15% больше урона от атаки, потому что вы используете четырех героев-чернокнижников. Так что это
+[11:45] для бесплатно играющих игроков. Я надеюсь, что это поможет вам, ребята, и я надеюсь, что эти руководства помогут вам. Вы знаете, что делать. Если эта штука вам поможет,
+[11:53] эта штука поможет вам, поставьте лайк, нажмите на подписку, и увидимся в следующий раз. Пока-пока.
+
+================================================================================
+ОРИГИНАЛЬНЫЙ АНГЛИЙСКИЙ ТРАНСКРИПТ / ORIGINAL ENGLISH TRANSCRIPT:
+================================================================================
+[0:00] What's up guys, Corpus Gaming here.
+[0:02] Today we're going to discuss the last three Warlocks heroes and what we want to upgrade and what we don't want to upgrade. We're also going to give you
+[0:09] guys a free advice for the free-to-play players at the end of this video, so stay tuned for that. If you like this guys, smash that like, hit that
+[0:17] subscribe and let's get into it. So we're going to start off with the wooden frame, the basic attack and it's going to deal some physical damage to a single
+[0:25] enemy and once you get more stars on it, it's going to increase the damage and of course the higher the level the more damage. It's not that interesting, so
+[0:33] we're going to move on to the second skill and it's called Fate's Thread and it swings the marionette dealing physical damage to a single target,
+[0:41] reduce energy damage received by the two second highest attack allies. So it's basically going to defend your DPS's from getting that back line killing for
+[0:52] 4 seconds and once you get more stars on it, it's going to give you more damage reduction and and other allied target and that's definitely going to be your
+[1:03] supporter, so that's amazing and good skill to at least get to 25 and if you are well, you can just push that to 30.
+[1:11] It's a good defensive skill. Then we go to the next one and truth and lies. It lists the marionette stands and smashes to the ground dealing attack damage to
+[1:22] enemies within range granting the three highest attack allies a 70% to be immune to stuns and this is a great way to counter the Red Lady and this is already
+[1:33] a great buff to the Warlocks against the Rangers, so that is why the Rangers stand no chance against the Warlocks cuz this is making Red Ladies stun immune.
+[1:44] All damage received and once you get more stars on it, all damage received by allies heroes reduced by 15%, so you get allies heroes reduced by 15%, so you get another
+[1:53] another uh reduced damage on all your heroes and uh reduced damage on all your heroes and uh um once you get more star stars on it, the
+[2:00] chance of stun immunity also increases to 30% uh which gives it basically always that uh debuff on that stun, so you will never get stunned by the Red
+[2:12] Lady again. And it And at 10 stars, it deals 100% extra damage and increases uh the enemy hero's damage taken by 50% for 5 seconds, so it's a really great
+[2:23] tank to have you can max this out as tank to have you can max this out as well.
+[2:27] And then we have the passive one and you can put this to 25. It's pretty basic.
+[2:32] In combat, reduces all damage taken by 22%. It doesn't really say if this is for all allied heroes or just for Billy.
+[2:40] And they really need to specia- specificize this uh um better so that we know exactly what's going on. And once you get more stars on
+[2:50] it, it will increase its effect and uh at 10 stars, it reduces the energy damage taken by an extra 8%. And this is also a great uh passive buff to have
+[3:01] against those ravens.
+[3:03] Then we have the tenacity as well and let's get into the gear. All right, I had to do something uh different here.
+[3:09] We're still talking about uh Billy, not about Ulfred, but I haven't unlocked Billy yet, so I cannot show you guys this screen. And what we want to do for
+[3:17] Billy is we want to give him a good uh chest plate.
+[3:22] At least get those two stars on that so you can get that physical damage reduction uh 30% and that's going to help you also against those ravens. And
+[3:32] you want to give him boots. And if you are able, you also want to really focus on giving him the gloves as well to get that damage reduction. And this is
+[3:42] basically the setup you want to have for Billy. We are going over to the next Billy. We are going over to the next hero.
+[3:47] So here we have Nicole. Um she is a support class, but I also really think she's kind of the third DPS in the Warlock squad cuz she has some
+[3:57] in the Warlock squad cuz she has some amazing DPS attacks as well. So, it's it's that's why also really the Warlocks are that overpowered and people are not
+[4:08] seeing that cuz we're all focused on the Rangers right now, but the Warlocks are getting there and I think we should focus on the Warlocks more and give them
+[4:17] some more love and respect. Now, let's get into those skills right now. And of course, you want to get here at least 10 eight stars for the tenacity, but we
+[4:28] want to look at the passive skill attack skill first and it's called Amber Dust and it's the basic attack and what it does it
+[4:37] releases flame to inflict physical damage to a single target and also it heals the ally with the lowest HP for 10k plus 50% of attack. So, the higher
+[4:49] the attack is the more she's going to heal. So, that is also a reason why we're going to do her gear a little bit different. So, we are going to look at
+[4:57] those extra things once you get more stars on her, deal 40% extra damage and restore 5k HP extra and again around eight stars extra damage
+[5:09] increased to 100% and extra HP HP recovery increases by 15k and the other one is again above to her attack another 200% and extra HP recovery to 30k and
+[5:24] that gives you the 50k here in total.
+[5:27] And what is also really good about this is that she's going to basically keep on healing and that's amazing. Let's go to the second skill.
+[5:36] And what we have here it's called the heartwarming flame. Throws two fireballs healing the two lowest HP allies for 80k plus the attack. So, and the more stars
+[5:47] you get the more healing that will happen as well. And of course, the higher the level, the more healing that's going to go on.
+[5:54] Then we go to the next one. You also really want to get this to 25, and the wheels just can push this to 30. And you can also push this this first skill to
+[6:03] 25 as a normal player. And as a whale, also maxes out to 30. Then we are going to go to the second one, the ultimate skill. And it summons a pillar of fire
+[6:15] dealing a lot of physical damage to all enemies. And this is why she's also kind of DPS. She's going to damage all enemies. If the targets are burning, and
+[6:24] they will be burning cuz of the skill of Joker, increase the attack by 40%. And I excuse me, I made a mistake. It's not Joker, it's any skill that's going to
+[6:35] really boost this damage as well. And the more stars, the more dealing that's going to happen. And once you get those final 10 stars, it's going to give you
+[6:45] an extra 5% on the burn damage. So, that's amazing. And you also really want to max this out. I think this is the really the hero that you want to fully
+[6:55] max out on all the skills, cuz it's amazing. Then we go to the last one, the passive skill. And it is called flame soul power. And in battle, all elite
+[7:05] warlocks get an attack increase. And once you get more stars on her, the attack speed increases, the attack bonus increases, and then again, the attack
+[7:15] speed increases as well. And I just I just think this is also maybe one of the best support classes in the game. And they should really try
+[7:25] to balance it out. Maybe give Harper some more extra love.
+[7:29] But we're not here for Harper. We have Fornicol. So, let's get into her gear right now. So, again, don't look at any.
+[7:38] We're talking here Fornicol. And we're going to look at the gear right now. And what we really want to have is a good what we really want to have is a good sword.
+[7:46] And you can get this to two stars as a medium player.
+[7:51] As a whale, you can of course get those four stars, but you don't really need to push hard on this. We're not looking at the crit rate right here. We want to get
+[8:00] a hero attack up. And we going That's what we really want to focus on. The crit rate is not really that important.
+[8:06] And we want to get gloves as well. And this is really the one you want to get as high as possible. And it has two reasons. We want to get more attack. And
+[8:17] this is the attack boost percentages. So we also want to get that up. And once you get 240 up and up, you really get more percentage. You get 25 0.25%
+[8:29] each time you upgrade it. So that's really going to go fast. And then we want to get this damage resistance.
+[8:34] That's going to help your support class also survive a few backline killing hits. And what we also want to get is some nice boots.
+[8:44] The warlock's counter is warriors. And the warriors deal only energy damage. So that's why you really want to also get good boots on her. And the chest plate
+[8:54] you can get, but you don't really have to put any stars into her. We want to put stars in the sword, the gloves, and the boots. That's it for Nicole. We're
+[9:04] going to go straight into the last hero.
+[9:07] And it's going to be an SSR hero. But I'm going to explain you guys right now I'm going to explain you guys right now why.
+[9:12] So here we are, and this is the last hero that we're going to discuss. And it's Stellar. And why we are discussing her, we will see right now. We're going
+[9:21] to first discuss these skills. And the auto attack is basically just an attack that goes to a single enemy. And it's The higher [clears throat] the stars,
+[9:29] the more damage it's going to deal.
+[9:32] The second is the destructive comment.
+[9:35] And it summons a comment dealing attack damage to an enemy within range increase the damage taken by monster by 8% for 3 seconds and the attack damage increases
+[9:45] once you get more stars in her and this is really going to help you with the world boss to get more damage in.
+[9:52] Then we have the ultimate skill and it's called the wishing star. It summons a meteor shower increasing adjacent warlock allies damage to the monsters by
+[10:01] 30% for 5 seconds and the more stars you get in her the higher the effect will be and also the duration of this effect.
+[10:11] And what you really want to do you want to put her in the back line in the middle so she can at least buff up three warlock heroes. So that's what you want
+[10:20] to do and what we have as well as the final passive is final starlight and when Stellar takes fatal damage in the battle she expands her starlight before
+[10:30] that healing the allies with the lowest HP for 200% attack. And uh this is not really that interesting maybe for free-to-play players it is going to be
+[10:41] really good and that's what we're doing next. I'm going to tell you guys what free-to-play squad you can use for the free-to-play squad you can use for the warlocks.
+[10:49] So what's pretty nice about the warlocks is that you can also get Joker free-to-play. You only need 5K diamonds and you can get him from the wheel and
+[10:58] unlock him and Annie is going to be unlocked in the tavern once your server is at a later age. So that's also the free-to-play DPS so you got both DPS's
+[11:08] free-to-play and what do we want to look at for the rest of the heroes? We want to get at least uh Stellar for the to get at least uh Stellar for the support
+[11:16] and we want to get Haster as a tank. And what do we want as a second tank and that is Arthur um and I know he's a warrior and we
+[11:27] cannot get the full um warlock squad free-to-play cuz there isn't a free to play second tank.
+[11:34] Uh so we want to get Arthur as the second tank and you basically will get 15% extra attack damage because you're using four warlock heroes. So this is
+[11:45] for the free to play players. I hope this help you guys and I hope these guides help you. You know what to do. If this stuff helps you,
+[11:53] this stuff helps you, um smash that like, hit that subscribe, and we'll see you in the next time. Bye-bye.

@@ -1,0 +1,301 @@
+================================================================================
+# STOP WASTING BLUEPRINTS! ⚠️ Last Asylum Ultimate Gear Guide
+================================================================================
+- Название / Title: STOP WASTING BLUEPRINTS! ⚠️ Last Asylum Ultimate Gear Guide
+- Ссылка / URL: https://www.youtube.com/watch?v=_DLu-XLpVH0
+- ID видео: _DLu-XLpVH0
+- Автор / Channel: KorpezGaming
+- Длительность / Duration: 16:09 (969 сек)
+- Дата публикации / Published: N/A
+- Просмотров / Views: 1748
+- Плейлист: Korpez Gaming - Last Asylum Guide Series (#5 из 41)
+
+--------------------------------------------------------------------------------
+ОПИСАНИЕ ВИДЕО / DESCRIPTION:
+--------------------------------------------------------------------------------
+www.youtube.com/channel/UC-iboiLuvqfWVeDqEf30bFg
+⚔️ The ULTIMATE Last Asylum Gear Guide is here!
+
+Gear can be one of the biggest progression traps in Last Asylum if you upgrade the wrong pieces or waste your valuable blueprints too early.
+
+In this guide, I break down everything you need to know about gear — from the Gear Workshop and upgrading your equipment to exactly which gear pieces I recommend prioritizing for your Main DPS, Main Tank, and Second DPS.
+
+We cover:
+⚙️ How the Gear Workshop works
+🔨 Crafting, dismantling, fusing & salvaging
+⭐ Gear stars and upgrade priorities
+📊 Important additional stats
+⚔️ Main DPS gear progression
+🛡️ Main Tank gear progression
+🔥 Second DPS gear progression
+📜 How to spend your Gear Blueprints wisely
+💰 Where to get more gear materials and blueprints
+
+Related Guides:
+⛏️ Mining Event Guide: 
+💎 Gearstones Guide: https://youtu.be/ScwjLw0L4NM?si=AgNrNgn8Nu-89SXd
+
+The goal is simple: build the strongest team possible WITHOUT wasting months of resources on gear you don’t need yet.
+
+If you have questions about your own gear setup, drop your lineup in the comments and I’ll try to help!
+
+👍 Like the video if this guide helped you
+🔔 Subscribe to KorpezGaming for more Last Asylum guides, hero builds, event guides, and progression tips!
+
+Timestamps:
+00:00 The Ultimate Gear Guide
+00:54 Gear Workshop Explained
+02:45 Gear Stats & Upgrading
+03:26 Which Gear Stats Actually Matter?
+07:02 Getting Gear & Materials
+07:44 Main DPS Gear Progression
+09:24 Main Tank Gear Progression
+10:43 Second DPS Gear Progression
+11:59 Complete Gear Leveling Priority
+12:49 How to Get Gear Blueprints
+13:44 Promoting Your Gear
+15:08 Dwarven Mine & Extra Rewards
+15:50 Final Gear Advice
+
+#LastAsylum #LastAsylumGuide #GearGuide #KorpezGaming
+
+================================================================================
+РУССКИЙ ТРАНСКРИПТ / RUSSIAN TRANSCRIPT:
+================================================================================
+[0:00] Всем привет! Это KorpezGaming. Сегодня у нас новый гайд по системе экипировки.
+[0:09] Звёзды, уровни и то, какую экипировку ставить на разных героев — разберём всё.
+[0:13] Поехали. Гайд будет большой, так что берите блокнот и кофе!
+[0:20] Мы уже в игре. Если вы хорошо знакомы с экипировкой, посмотрите таймкоды в описании.
+[0:28] Они помогут быстро перейти к нужной части. А мы начнём с основ.
+[0:37] Сначала посмотрим на Gear Workshop. Его желательно как можно быстрее поднять до 20 уровня.
+[0:44] Тогда вы сможете добавлять звёзды к экипировке. Но сначала перейдём к крафту.
+[0:53] Здесь можно создавать три типа экипировки: синюю, фиолетовую и UR.
+[1:02] Конечно, наша цель — собрать полный комплект UR-экипировки для героев.
+[1:11] Один из способов — разбирать ненужную экипировку.
+[1:18] После разборки вы получаете материалы, которые можно объединять в материалы более высокого уровня.
+[1:33] Соотношение — четыре к одному. Четыре Brass дают один Refined Iron.
+[1:42] Так можно дойти до Tempered Steel. Он нужен для создания UR-экипировки.
+[1:51] Для крупных улучшений позже также понадобится много Tempered Steel.
+[1:58] Поэтому старайтесь накопить его как можно больше.
+[2:04] Его можно получать из событий и сундуков с экипировкой, а затем разбирать предметы на материалы.
+[2:13] Сейчас я объединяю Refined Iron в Tempered Steel. У меня примерно 3 000 Tempered Steel.
+[2:19] Tempered Steel можно также переработать, но я почти не вижу в этом смысла.
+[2:26] В большинстве случаев вам это не понадобится.
+[2:35] Исключение — если нужны SSR Gloves для World Boss и похожего PvE-контента.
+[2:42] Но обычно это не нужно. Возвращаемся к крафту.
+[2:49] Раз у нас есть Tempered Steel, мы можем создавать нужную UR-экипировку.
+[2:58] Например, chest plate или boots стоят 500K Herbs и крафтятся около 1 дня 5 часов.
+[3:06] Чем выше уровень Gear Workshop, тем быстрее крафт. Но лично я никуда не спешу.
+[3:18] Теперь разберём улучшение экипировки и то, что лучше подходит каждому герою.
+[3:24] Для Sword особенно важны Crit и Attack. С уровнем эти характеристики растут.
+[3:32] После 40 уровня прирост характеристик становится заметно сильнее.
+[3:41] Процентные бонусы Attack и Crit Rate становятся действительно хорошими.
+[3:50] Для улучшения нужны Gearstones, много Herbs и позже много Tempered Steel.
+[4:00] Поэтому в поздней игре экипировка становится дорогой.
+[4:07] Учитывайте это при планировании ресурсов, особенно Herbs.
+[4:14] Herbs нужны ещё и для исследований. Теперь посмотрим на SSR Gauntlets.
+[4:22] SSR Gauntlets могут быть очень полезны для PvE-событий.
+[4:30] +6% Damage to Monsters и ещё +6% от сета дают около 12% дополнительного урона по монстрам.
+[4:39] Почему Gloves, а не Sword? Потому что UR Gloves дают Damage Resistance.
+[4:51] UR Sword лучше сохранить из-за Crit Rate и дополнительного Attack.
+[4:58] Теперь посмотрим на UR Gloves.
+[5:05] Они дают Attack и Damage Resistance, что очень полезно.
+[5:11] Только из дополнительных характеристик можно получить около 4% Damage Resistance.
+[5:20] Поэтому Gloves стоит довольно быстро поднять до 40 уровня.
+[5:27] Это помогает задней линии выживать дольше и также даёт Hero Attack.
+[5:35] Chest Plate даёт много Defense и HP, но в основном Physical Damage Resistance.
+[5:48] Это не всегда идеально, потому что многие герои наносят Energy Damage.
+[5:55] Raven и Joker — примеры героев с сильным Physical Damage.
+[6:04] Chest Plate можно поднять до 40. Для DPS две звезды тоже могут дать полезную защиту.
+[6:15] UR Boots дают Hero Defense и Energy Damage Resistance. Это одна из самых важных защитных характеристик.
+[6:26] Потому что очень многие герои наносят именно Energy Damage.
+[6:34] В Warlock Squad особенно много героев, использующих Energy Damage.
+[6:44] Boots также дают хорошие процентные бонусы к Defense и HP.
+[6:53] Про звёзды поговорим подробнее позже. Теперь разберём Gearstones.
+[7:02] Gearstones можно получать из событий, сундуков и Operations.
+[7:08] Но один из главных источников — Smelting Workshops.
+[7:16] У меня есть отдельный полный гайд по Gearstones. Ссылку оставлю в описании.
+[7:25] С помощью этого гайда можно получить примерно 140K Gearstones.
+[7:32] Теперь перейдём к звёздам, порядку улучшений и распределению экипировки между героями.
+[7:41] Я покажу три этапа развития экипировки.
+[7:49] Полное прохождение этих этапов может занять около шести-семи месяцев.
+[7:57] Через полгода я, возможно, сделаю вторую часть с дальнейшим развитием.
+[8:04] Это базовые этапы для сильного PvP-аккаунта.
+[8:11] Основные DPS в игре — Melena, Cynthia и Annie.
+[8:19] Сначала поднимите Sword до трёх звёзд.
+[8:24] Затем Boots до двух звёзд.
+[8:32] Это поможет вашему DPS дольше выживать в Arena.
+[8:40] После этого поднимите Gloves до двух звёзд.
+[8:47] Так вы получите дополнительный Damage Resistance.
+[8:55] Boots дают Energy Damage Resistance, а Gloves — общий Damage Resistance.
+[9:05] По уровням Sword нужно держать как можно выше.
+[9:14] После Main DPS переходим ко второму этапу: Main Tank.
+[9:22] Основные танки — Billy, Dusk и Louis.
+[9:30] Если вы F2P, Dusk можно заменить на Arthur.
+[9:36] Для танка улучшаем Chest Plate и Boots. Sword ресурсы не тратим.
+[9:44] Единственное исключение — Louis. Его лечение зависит от Attack.
+[9:52] Поэтому Louis можно дать хорошие Gloves.
+[10:00] Но в целом для танка главное — Chest Plate и Boots.
+[10:08] Chest Plate можно поднять до 40 уровня, но звёзды на него не тратим.
+[10:17] Boots поднимаем минимум до 20 уровня и до двух звёзд.
+[10:26] Если вы донатер и Gearstones хватает, можно поднять Boots до 40.
+[10:34] И снова: для F2P используйте Arthur.
+[10:38] Теперь третий этап: Second DPS.
+[10:46] Second DPS частично выполняет роль поддержки и наносит меньше урона, чем Main DPS.
+[10:58] Сюда относятся Zora, Joker и Red Lady.
+[11:06] Для них используем 2-Star Sword, 2-Star Gloves и 2-Star Boots.
+[11:18] Всего потребуется около 45 Blueprints. Обязательно продолжайте их собирать.
+[11:26] Sword поднимайте как можно выше, а затем переходите к Gloves.
+[11:35] Теперь разберём, где брать Blueprints.
+[11:44] Также покажу быстрый template, который сделал R4 из моего alliance.
+[11:52] Можно сделать скриншот и поделиться им в Alliance Discord.
+[12:00] Приоритет такой: Main Carry, Tank, затем Second DPS.
+[12:09] На template также видны нужные уровни.
+[12:13] Есть несколько ошибок AI по Boots, но их можно игнорировать.
+[12:23] После этого можно переходить к Support Hero.
+[12:29] Но я советую сначала поднять Sword Main DPS до четырёх звёзд.
+[12:37] Потом переходите к Support Hero и Second Tank.
+[12:44] Причина — мы хотим как можно быстрее добраться до MR Blueprints.
+[12:53] Для звёзд нужны Blueprints. Их проще всего получать через еженедельные PvP-события.
+[13:04] Это Honor Shop. Он обновился после окончания месяца.
+[13:12] Каждый месяц F2P-игрок может купить примерно 50 Blueprints.
+[13:21] Сейчас я могу купить 14 Blueprints, что заметно усилит мой аккаунт.
+[13:28] Главная покупка в Honor Shop — именно Blueprints.
+[13:36] В Era of Revival некоторые shards тоже полезны, но Blueprints всегда очень важны.
+[13:46] Сейчас я работаю над вторым carry.
+[13:53] У меня 80 Blueprints, поэтому Gauntlet можно поднять до двух звёзд.
+[14:02] Две звезды дают много дополнительных характеристик.
+[14:10] Также теперь UR Gauntlets можно прокачать до более высокого уровня.
+[14:18] Теперь улучшаем Boots. Первая звезда стоит 5 Blueprints.
+[14:27] Вторая звезда стоит 10 Blueprints. С обычными Blueprints закончили.
+[14:37] Теперь переходим к MR Blueprints. Здесь у меня UR-экипировка на четыре звезды.
+[14:46] Для пяти звёзд понадобятся MR Blueprints.
+[14:54] Для F2P есть два основных способа получить MR Blueprints.
+[15:05] Первый — Dwarven Mine Event.
+[15:10] Ссылку на этот гайд я тоже оставлю в описании.
+[15:16] За прохождение 100 floors можно получить 10 MR Blueprints.
+[15:25] Второй источник — World Boss. За нужный урон можно получить 20 MR Blueprints.
+[15:34] Поэтому сначала сделайте Sword Main DPS на четыре звезды.
+[15:41] Так вы быстрее достигнете нужного урона и раньше получите MR Blueprints.
+[15:48] Это основные вещи, которые нужно знать об экипировке. Возможно, через полгода будет Part 2.
+[15:57] Если гайд помог, поставьте Like и подпишитесь на канал.
+[16:04] Увидимся в следующем гайде. На сегодня всё. Пока!
+
+================================================================================
+ОРИГИНАЛЬНЫЙ АНГЛИЙСКИЙ ТРАНСКРИПТ / ORIGINAL ENGLISH TRANSCRIPT:
+================================================================================
+[0:00] What's up guys, Corpus Gaming here, and today we have a new guide for you. We are going to talk about the gear, everything you need to know, stars,
+[0:08] level, you name it. What type of gear you need to put on what type of hero.
+[0:13] Let's get straight into it. It's going to be a big one, so get your notepad and your coffee ready. Let's go.
+[0:20] All right, here we are in the game, and basically, if you are advanced with the gear, check out the description below.
+[0:28] There time stamps, and these are going to guide you through the parts where you need to be.
+[0:33] We are going to start off with the basics right here, and that is the gear basics right here, and that is the gear workshop.
+[0:40] Once you have started in the game, you can build the gear workshop, and you really want to get that to 20 as fast as possible, so you can put stars on your
+[0:49] gear. But before we go all through that, let's go to the crafting section right here. And as you can see, we can craft three types of weapons, blue, purple, or
+[1:01] UR. And of course, the goal is to get all the UR gear for your heroes, and way to do that is by dismantling gear. As you can see right here, I've
+[1:12] quite a lot, and what you can do is you can dismantle all of this, and you will get gear pieces or material pieces.
+[1:21] These material pieces, then again, you can fuse, and by fusing them, you can make new pieces and higher gear materials. And these go four for
+[1:34] one, so if you have four brass, you get one refined iron. And this goes all the way up to tempered steel, and that is what you
+[1:44] need to make these UR swords, UR armor, all of that. All the UR gear is needed with tempered steel. Also, the massive upgrades, you will need tempered
+[1:55] steel. So, tempered steel is going to be really something that you need to make sure you have a lot of and you get them from events, you get them from gear
+[2:04] from events, you get them from gear chests because you if you get gear chests, you can dismantle that and you can make these gear pieces and you get get all
+[2:10] the way to the tempered steel. And as you can see, I'm fusing now my refined iron to the tempered steel and I have 3,000 tempered steel right now. Then we
+[2:20] have a few options that we can do. We can also salvage the tempered steel, but I don't see the point for it. You don't need to do this. This is useless and I
+[2:30] don't know what why it is here.
+[2:33] The only reason why you can do this if you need your SSR gloves for the world bosses and stuff like that, then you can do this, but
+[2:41] in the end, you don't really need this.
+[2:43] Then we go to crafting. Of course, what you can do is you can craft all types of gear now cuz we have the tempered steel.
+[2:52] So, let's say I need chest plate or some boots, then I just press craft here and it's going to cost me 500k herbs and it's going to take 1 day
+[3:03] and 5 hours for me. And the higher the level your gear workshop shop is, the faster it will go.
+[3:09] But 1 day is fine. I I am not in a hurry at all with this. Then we have discussed how we craft the gear. Let's get straight into how to upgrade the gear
+[3:20] and what gear is needed for what hero.
+[3:22] Let's go. All about crit and attack. And the higher the levels, the more attack or crit you will be getting. And basically, once you reach level 40, it
+[3:33] will go up with a lot of stats extra.
+[3:36] You have here the basic stats that you will get from upgrading these gears. And as you can see, after 40, it gets quite a lot. Also extra percentages with
+[3:45] attack and crit rate, which is pretty attack and crit rate, which is pretty nice.
+[3:48] nice. Nice.
+[3:50] Nice. And that is it for the upgrading. For upgrading, you need gear stones, a lot of herbs, and of course, after level 40,
+[4:00] you will also need a lot of tempered steel for this. So, it's going to get quite expensive later on in the game.
+[4:06] So, that is something you need to take uh with you in your planning, especially with the herbs, cuz you also need a lot for research. Then we go to the next
+[4:17] one, and this is one I'm going to show you guys right now. These are the SSR gauntlets, and why am I showing you guys this? Cuz
+[4:25] this is also really an important one.
+[4:27] Basically, these SSR gauntlets are needed for the PvE events, cuz these will boost your attack a lot cuz of these damage to
+[4:35] monsters with a 6% and with the basic stats is another 6%, so so you get 12% extra attack on the monsters. And the reason why you do the gloves and not the
+[4:46] sword is cuz the gloves have damage resistance on their UR version, and you really need want to keep your UR sword cuz of that crit rate and that extra
+[4:57] attack that you will be getting. Then let's look at the UR gloves, and we're just going to pick out this one. And for your your UR gloves, it is really nice
+[5:07] cuz you have attack, damage resistance, and attack, and another damage resistance. And that's already 4% damage resistance only with the additional
+[5:14] stats. So, this is also really a nice one to get 40 quite fast, and this is going to save your back line a lot of times. Then you also have the basic
+[5:24] stats, and again, you get a lot of percentages extra for damage resistance, and you get a lot of hero attack as well. Then we have the
+[5:32] chest plate UR giving out quite a lot of defense and HP, but sadly, it's giving physical damage resistance, and that one is not that
+[5:43] useful cuz uh, a lot of heroes do energy damage. Only the Raven and uh, Joker do really good physical damage. So, that is
+[5:53] something you have to keep in mind with upgrading this. You can upgrade it to 40, uh, but after that, uh, yeah, it's going to get quite, uh, useless. And of
+[6:02] course, for the DPS, I will have a template later. You can get this to two stars with the to get it extra 10% 10% damage resistance, which is quite nice.
+[6:12] Then we go to the last one and these are the UR boots. And these give, uh, hero defense, energy damage resistance, and all of that. And energy damage
+[6:21] resistance is the main damage that most heroes do in this game. So, keep that in mind when making your, uh, gear. Of course, the the Warlock squad does have
+[6:32] more heroes that do energy damage resistance. Resistance. Then we have the basic stats here and as you can see, it's also giving a lot of extra
+[6:41] percentage for the defense and the HP.
+[6:43] And with promotion, again, you have all of this.
+[6:47] Uh, we will discuss this more in, later in this video about the stars. We are now talking purely about the gear and what to upgrade. And how where to
+[6:58] get these, uh, gear stones is as followed. Uh, you get a lot of them from events, from chest, from, from operations. And but the main output
+[7:10] or input from these gear stones are from these, uh, workshops, smelting workshops. I have also full guide on these gear stones, so I'll put that in
+[7:19] the description below for you to watch.
+[7:21] Uh, but you will need a lot of this and with this guide that I made, you can get around 140K of these gear stones. So, that is it for the gear stones and what
+[7:31] type of gear is useful, uh, for what, uh, gear piece. Let's go to the setup that you want to start off with with the stars, with upgrades, and what hero gets
+[7:43] what gear. And I'm going to give you guys three stages where you need to upgrade your gear on. And this is basically going to take around 7 months
+[7:53] or maybe 6 to complete. So, you have after the 6 months, I'll make a second video about the next stages, but this is the first stages that everyone has to
+[8:03] take to get a good account for PvP. And we're going to start off with the gear pieces and we need to locate who are our main DPS's. And the main DPS's in this
+[8:13] game are Malena, Cynthia, and Annie. And what you want to start off with is as follows. You want to make sure that you get the swords to three stars first,
+[8:23] then we go to the boots to level two stars first. And the reason why is this is going to give your DPS some extra defense in the arena to survive longer
+[8:35] and to really get you more points in these battles. Then, after that, you're going to start off with the gloves, getting that two stars as well to
+[8:43] collect that extra damage resistance on the additional stats that we have already discussed. And the same thing goes for the boots. So, you will have
+[8:54] goes for the boots. So, you will have 30 30% extra energy damage resistance, which is really good for your DPS as well. And to get that extra 2% damage
+[9:05] resistance for everything on your gloves as well. And it's really going to boost your account. And for the levels, you really want to make sure that you
+[9:13] upgrade your sword, always get that as high as possible. And after this stage, we will move on to the next stage, and that is the tank. Need to locate the
+[9:24] main tanks, and the main tanks are as follows: Billy, Duskoll, and Lewis. If you are free-to-play player, Duskoll, of course, is going to be replaced by
+[9:34] Arthur. But for the gear, it doesn't not Arthur. But for the gear, it doesn't not matter.
+[9:38] For the gear, we have to upgrade chest plates and boots. We are not going to spend our resources on swords at all.
+[9:46] For exception for Lewis, you also want to get good gloves on it cuz he has an heal skill that is basically based on how much attack he has. So you want to
+[9:56] get those gloves for Lewis only. That is the only exception in this only. That is the only exception in this guide.
+[10:03] But for the simplification, these are the gears that you are going to upgrade.
+[10:08] The chest plate is going to get to level 40 for that 20% physical damage, but we will not put stars on that gear and we are going to upgrade the boots to level
+[10:19] 20 and you're going to get two stars on that for that physical damage. Of course, if you have our spender and have some extra gear, stone get those
+[10:28] boots to 40 as well. But that is it for stage two. And of course, remember if you are free to play player, you're going to use Arthur and not Duscal. Now
+[10:38] off to stage three. So for stage three, we are going to look at our second DPS and the second DPS is basically the one that is also a little bit support and
+[10:50] does little bit less damage than the main DPS. And for this it it is Zorgia, Joker and the Red Lady. And they are all a little bit close except for Zorgia.
+[11:02] a little bit close except for Zorgia. She's a lot weaker than Malena. But for the gear, we are going to do as followed.
+[11:07] Two star sword, two star gloves and two star boots again for that defense. This is going to cost you 45 blueprints in total. So make sure
+[11:19] that you collect these as well. And for the levels, of course, we are going to upgrade the swords as high as possible and afterwards we
+[11:29] can do the gloves second to that. Also, we are now going to discuss a little bit on how to get these blueprints cuz that is an important part of this video as
+[11:39] well. Let's get straight into that and I'm also going to show you guys a real quick template that uh my uh R4 made in uh 222 ASA, and you can take
+[11:52] a screenshot of this and you can basically put this on your alliance Discord as well to really help out your alliances. Of course, we already
+[12:00] discussed first is going to be the main carry, then the tank, uh then uh the second uh main carry, so the second DPS.
+[12:08] And as you can see, you can also see the levels of which uh things you're going to upgrade. Uh there are a bit of errors cuz of the of
+[12:16] course uh AI, but the boots, but you can ignore that. Uh of course, it's going to be the chest plate at level 20. After that, uh you can see that she wants to
+[12:25] start off with support hero. Of course, that is perfectly fine, but I do recommend getting the sword of your main DPS to four stars first before you start
+[12:35] working on your support hero afterwards, the second tank. The reason why is as followed. Uh you want to get to that MR blueprints as
+[12:43] fast as possible, and we're going to discuss how to get all these blueprints next. So, to get started on your gear, you need blueprints. And where to get
+[12:52] these blueprints? It is quite easy. You just need to do a lot of PvP events, and you have to join them all of them every week. You don't want to stop with this,
+[13:00] and I will show you guys where to get these blueprints right now. So, this is the honor shop, and as you can see, it has reset it cuz the month has been
+[13:08] finished. Every month, these reset, and you can buy 50 of these blueprints free-to-play, and all you need to do is join PvP events. And here is it. We're
+[13:19] going to buy it all, and we can buy 14 blueprints. That is quite nice, and it's going to really upgrade uh my account.
+[13:26] So, I've bought the blueprint and this is also uh, only thing you are going to buy from this owner shop. Maybe in era of revival you can buy the the shards as
+[13:37] well, but the blueprints are important.
+[13:39] So, I have bought the blueprints here and that is now bought and I can basically start upgrading my gear. And what I'm doing right now is I'm working
+[13:48] on my second carry and let me get the right gauntlet for this. Here we are.
+[13:54] And we are going to upgrade this. And to promote you need blueprints and I have 80 now, so I can upgrade this to two stars and this is going to give me a lot
+[14:05] of extra uh, stuff as you can see right here. And of course uh, I can push now also my UR gauntlets to level uh, 52 and before
+[14:15] that it was a bit lower. So, that's why you also want to put stars on your gear.
+[14:19] That has been done. Now we're going to go to the boots and we're going to upgrade these as well. And for one star you need five blueprints and after that
+[14:27] you need 10 blueprints for two stars.
+[14:30] So, that is done. My gear has been upgraded and this is it for uh, this part and where to get the blueprints.
+[14:37] Now we're going to the MR blueprints and for that I'm going to show you guys this. This is my four star UR sword and basically to upgrade this to five stars
+[14:46] to get the max uh, output from it you need MR blueprints. And where to get these MR blueprints I will show you guys uh, right now. Of course, I will need to
+[14:57] upgrade this UR sword to level 60 as well. And there two ways to get uh, these MR blueprints free to play and one is of course the dwarf mine event that
+[15:08] we have talked about already. Uh, description is in below as well if you want to watch this.
+[15:13] Uh, this is going to basically give you 10 MR blueprints if you do uh, 100 floors. And that is quite nice, but it's going to take a long run as well. And
+[15:24] what else do we have? We have the world boss here that has two 20 MR blueprints if you can achieve this damage. And that is also why I say
+[15:36] before you go to support, get that four star sword first for your main DPS so you will get these blueprints sooner.
+[15:45] And that is basically it all about the gear that you need to know. Um maybe in six months when there are new things in the game,
+[15:53] we will start making a part two of this video, but this is really the basics that you need to know. If these guides are helping you and you want to support
+[16:02] the channel, smash that like, hit that subscribe, and I'll see you guys in the next guide. And that's it for today.
+[16:08] next guide. And that's it for today. Bye-bye.

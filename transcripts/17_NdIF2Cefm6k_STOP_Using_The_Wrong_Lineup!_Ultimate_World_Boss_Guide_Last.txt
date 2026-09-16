@@ -1,0 +1,252 @@
+================================================================================
+# STOP Using The Wrong Lineup! Ultimate World Boss Guide | Last Asylum
+================================================================================
+- Название / Title: STOP Using The Wrong Lineup! Ultimate World Boss Guide | Last Asylum
+- Ссылка / URL: https://www.youtube.com/watch?v=NdIF2Cefm6k
+- ID видео: NdIF2Cefm6k
+- Автор / Channel: KorpezGaming
+- Длительность / Duration: 12:42 (762 сек)
+- Дата публикации / Published: N/A
+- Просмотров / Views: 1312
+- Плейлист: Korpez Gaming - Last Asylum Guide Series (#17 из 41)
+
+--------------------------------------------------------------------------------
+ОПИСАНИЕ ВИДЕО / DESCRIPTION:
+--------------------------------------------------------------------------------
+Want to maximize your damage against the World Boss in Last Asylum? In this guide, I break down the exact difference between a basic setup and an optimized endgame lineup that will massively boost your personal high scores!
+
+We cover faction bonuses, hero skill synergies (Ash, Claire, Marlena & Cynthia), and why equipping those specific SSR Gauntlets is a total game-changer for your damage output. Play smart, save your resources, and dominate the rankings!
+
+ERA One GUIDE : https://youtu.be/-Umcm_xHe9Q?si=5xBRm2DABFdrQ6Ve
+
+⏱️ Timestamps:
+0:00 - Introduction & What is the Demon King / World Boss
+0:15 - Explaining Demon King Blight & Types (Warrior, Ranger, Warlock)
+0:53 - Achievements & Rewards (MR Gear Blueprints)
+1:32 - Kingdom vs. Kingdom Points & Top 200 Rules
+2:37 - Free-to-Play World Boss Squad Setup (Cynthia & Ash)
+3:51 - End-game Squad & Skill Analyses (Claire & Marlena)
+4:47 - The Standard Setup vs. Optimized Attacks
+8:06 - Why War Frenzy is Crucial for Extra Damage
+10:26 - Battle Logs & Deep-Dive Damage Comparisons
+12:31 - Outro & Call to Action
+
+👇 What was your highest damage score this week? Let me know in the comments!
+
+──────────────────────────────
+🛒 GEAR & PARTNERS:
+Level up your mobile gaming setup with Razer: https://razer.a9yw.net/DW1zzq (Supports the channel!)
+
+Don't forget to LIKE and SUBSCRIBE for more structured Last Asylum guides! ⚔️
+
+#LastAsylum #LastAsylumGuide #WorldBoss #KorpezGaming #MobileGaming #StrategyGame #F2PGuide
+
+================================================================================
+РУССКИЙ ТРАНСКРИПТ / RUSSIAN TRANSCRIPT:
+================================================================================
+[0:00] Привет всем! С вами Corvus Gaming, и сегодня мы поговорим о мировом боссе и о том, как получить те достижения, о которых вы мечтаете.
+[0:07] Вы знаете, что делать. Если вам нравятся эти руководства, поставьте лайк, подпишитесь на канал , и давайте сразу перейдём к
+[0:14] , и давайте сразу перейдём к делу.
+[0:15] Итак, ребята. Вот Король Демонов, и это, по сути, начальная страница истории Короля Демонов. У нас есть три типа королей демонов. У нас есть Воин,
+[0:23] Рейнджер и Колдун, и каждый из них может быть включен в состав различных отрядов. « Уорриорз» могут рассчитывать на поддержку «Рейнджерс».
+[0:30] Заражение рейнджеров можно подсчитать по количеству чернокнижников, а заражение чернокнижников — по количеству воинов. И то же самое относится
+[0:37] к PvP-отрядам.
+[0:40] Для этой работы нужно использовать подходящих героев.
+[0:43] Конечно, на ранних этапах игры у вас нет всех отрядов, поэтому вам действительно нужно выбрать то, что вам больше всего подходит, и
+[0:49] использовать для этой задачи своих сильнейших героев . А вот и вкладка достижений, и, как вы видите, это, пожалуй, лучшие
+[0:57] награды, которые вы можете получить за победу над этим Королём Демонов.
+[0:59] И это чертежи оборудования MR. Здесь вам действительно понадобится хороший отряд рейнджеров, чтобы получить чертежи MR и прокачать снаряжение до максимального уровня. Затем у
+[1:10] нас есть вкладка записи, о которой я расскажу подробнее в конце этого видео, чтобы мы могли действительно углубиться в то, как
+[1:16] мы на самом деле нанесли ущерб. Затем нас ждет война между королевствами, которая действительно покажет вам, кто побеждает в битве между королевствами
+[1:25] за Короля Демонов и получит заветные очки, необходимые для победы в предварительном сражении перед битвой между королевствами.
+[1:32] Здесь также есть дополнительная информация . Здесь будет показано, что 200 лучших лордов из каждого королевства будут учитываться при подсчете общего
+[1:41] урона. Таким образом, если ваш урон ниже, чем у топ-200 игроков, ваши очки не будут засчитаны. Поэтому вам действительно нужно
+[1:49] набрать как можно больше баллов, чтобы получить награды. А ещё здесь есть несколько ежедневных наград, которые вы можете получить от этого
+[1:57] Короля Демонов. А вот и награды за место в рейтинге. Они не очень хороши. Им действительно нужно это изменить.
+[2:02] А ещё есть награды за выполнение заданий, и они действительно неплохи. Здесь вы найдете несколько камней для изготовления шестеренок
+[2:08] и травы. Так что для повседневной рутины это вполне приемлемо. Итак, вот рейтинг. Конечно, мне еще нужно сделать свою работу, поэтому меня здесь нет.
+[2:19] На данный момент номер один — Риела. Она делает потрясающую работу. Давайте перейдем к делу и выпустим семь составов наших команд. А
+[2:26] как только мы нажмем кнопку «Бой», мы отправимся прямиком к Королю Демонов. А теперь мы будем формировать наши команды, и я
+[2:31] покажу вам, ребята, бесплатную команду и, по сути, команду для финальной стадии игры, которую вы захотите использовать. Итак, начнём.
+[2:38] Начнём с руководства по мировым боссам в бесплатной версии игры. И это, по сути, для тех случаев, когда вы достигаете восьмого дня
+[2:45] игры, потому что тогда вы действительно можете улучшить некоторые вещи, а также получить Синтию в качестве бесплатного персонажа. Она
+[2:53] отличный рейнджер-боец, и вам нужно всего лишь накопить на неё 5000 алмазов . Поэтому я считаю это бесплатной игрой. Итак
+[3:00] , мы посадили Синтию на переднее сиденье.
+[3:02] Она станет вашим главным источником урона. Её будет сопровождать Эш на заднем сиденье. А причина в том, что у неё есть отличное усиление, благодаря которому два
+[3:11] рейнджера с самым высоким показателем атаки в команде наносят на 19% больше урона монстрам, что действительно очень поможет
+[3:17] вам в битве с мировым боссом.
+[3:19] Ее будет сопровождать и Бестар . А затем мы перейдем к отряду воинов. А вот что мы здесь будем использовать: если вы разблокировали Малену
+[3:28] за два доллара, то поместите Малену сюда, а Сесилию — назад. Но, разумеется, в данный момент Малена не может играть бесплатно
+[3:36] . Итак, мы посадим её сзади, Селену спереди, а Клэр — сзади.
+[3:42] Конечно, это её UR-версия, но, эээ, в начале игры также доступна SSR-версия . Итак, это, по сути, то, что вам понадобится. И если мы будем
+[3:52] рассматривать навыки Клэр, то то же самое относится и к версии SSR. Она собирается усилить трёх воинов с самым высоким показателем атаки в команде, нанося им
+[4:00] значительный дополнительный урон монстрам, и это действительно поможет вам одолеть этого мирового босса.
+[4:06] Пожалуйста, сделайте скриншот . Это будет ваш бесплатный отряд для сражений с боссами, и это поможет вам на начальном этапе. Как только у
+[4:14] вас появится больше доступных героев, вы сможете немного их заменить, например, взять Харпера вместо Бестара, когда сможете разблокировать
+[4:23] его бесплатно. Это будет ваш практически идеальный отряд примерно до 70-го дня, который вы сможете использовать для сражения с мировым боссом
+[4:30] бесплатно. Теперь перейдём к другому отряду, это мой основной отряд, который я использую против мирового босса. Конечно, у всех всё по-
+[4:38] разному. Всё зависит от того, какого героя вы разблокировали и какой отряд вы выбираете для сражения с этими мировыми вы выбираете для сражения с этими мировыми боссами.
+[4:46] Итак, давайте проверим наш урон, и сначала мы рассмотрим базовую конфигурацию, которую сейчас используют 90% игроков на поздних серверах, и она
+[4:56] выглядит примерно так. Два защитника сверху, два бойца ближнего боя и один саппорт сзади. Давайте проверим, действительно ли это хорошо, а потом
+[5:08] улучшим всё и посмотрим, сможем ли установить рекорд.
+[5:12] Прямо сейчас мы отправляемся к мировому боссу, и начнём . И я собираюсь начать атаку. На это потребуется 15 секунд, и у меня останется
+[5:21] 50 секунд, чтобы подробно объяснить, почему нам действительно нужно поработать над уроном по мировым боссам. Причина в том, что нам
+[5:27] действительно нужно набрать больше очков в битвах между королевствами, чтобы получить эти очки. Как получить эти очки. Как видите,
+[5:35] мы установили рекорд, но это также потому, что я давно не обновлял состав своей команды , и теперь у меня есть ещё и Марлена. Таким образом, мы достигли отметки почти в три
+[5:45] миллиона пунктов. Давайте посмотрим, сможем ли мы улучшить это с помощью нескольких обновлений, которые мы собираемся внести в игру.
+[5:53] Итак, мы здесь, и прямо сейчас мы собираемся сформировать команду для битвы с мировым боссом. А мы хотим вывести Малену на передний план вместе с
+[6:02] Зоей. И мы хотим поместить туда Харпера . Мы хотим поселить там Сесилию. И в качестве последнего я поставлю Duscal на заднее сиденье. А причина в том, что
+[6:13] я действительно хочу получить эти 20% к атаке, используя весь отряд воинов, который я собираю. Сейчас мы хотим обновить наших героев,
+[6:27] оснастив их хорошим снаряжением, чтобы значительно повысить наносимый ими урон . Итак, мы хотим присоединиться к отряду героев. Мы хотим
+[6:36] кликнуть на Малену. И это звучит странно, но мы хотим убрать перчатки UR и заменить их на фиолетовые. Причина заключается в следующем.
+[6:47] Фиолетовые наносят монстрам урон, превышающий обычный. Таким образом, мы можем получить здесь 6% дополнительного урона. Как только
+[6:56] мы прокачаем это до максимума, вам понадобится около 30 тысяч камней снаряжения, что очень дёшево. Я думаю, вы действительно сможете этого добиться.
+[7:05] А ещё вы получаете базовые статистические данные , 6%. Таким образом, вы получаете на 12% больше урона по этим монстрам. А на
+[7:14] самом деле вам нужно надеть их на всех персонажей, наносящих урон. Поэтому мы надели их на Малену. Мы также будем использовать их
+[7:20] на Зое.
+[7:22] И это действительно улучшит ваши шансы попасть в эту сферу. Позвольте мне поискать следующий. Вот так.
+[7:30] Мы разместим это здесь. И мы собираемся разместить их на странице «Где она?» Вот она. У неё это уже есть, и это она. У неё это уже есть, и это замечательно.
+[7:39] А теперь мы увидим реальную разницу, которая потребуется, и небольшой совет для игроков первого возраста:
+[7:51] если у вас есть указанная выше команда, вы можете атаковать одну из этих деревень, чтобы получить бафф «Безумие».
+[7:59] Мы немного пропустим этот момент, потому что в противном случае вам придется подождать 1 минуту и ​​30 секунд. Так что я сейчас вернусь
+[8:05] минуту и ​​30 секунд. Так что я сейчас вернусь .
+[8:06] Итак, мы вернулись, и вот о чём я говорю. Это «Боевое безумие», которое, по сути, увеличивает ваш урон. Причина, по которой
+[8:15] вам стоит его получить, заключается в том, что оно также работает против мирового босса, и вы можете разблокировать его во
+[8:21] вкладке командира, начиная с первой эпохи возрождения. Итак, как только вы туда доберетесь и разблокируете вкладку «Командир»,
+[8:29] вам действительно захочется получить этот бафф, и для мирового босса вам следует начать с него.
+[8:32] Что вы можете сделать, так это атаковать случайный город, находящийся в режиме AFK, и немедленно отозвать войска, потому что вы получите
+[8:39] бафф, как только начнете атаку.
+[8:42] Теперь мы собираемся атаковать мирового босса и посмотреть, насколько сильно изменится урон от его атаки босса и посмотреть, насколько сильно изменится урон от его атаки .
+[8:47] Итак, мы подошли к мировому боссу и собираемся начать атаку, посмотрим, что будет дальше. Я в восхищенни.
+[8:54] Я не знаю, насколько большой будет разница, и давайте попробуем после этого поставить Синтию вместо черепа, чтобы действительно увидеть, будет ли большая
+[9:04] разница или нет.
+[9:06] И здесь вы видите огромную разницу, И здесь вы видите огромную разницу, почти почти полтора миллиона в атаке.
+[9:15] Я предпочитаю атаковать три раза, чтобы учесть критический урон и оценить общий урон. Именно так вы можете комбинировать различные элементы и значительно повышать
+[9:28] свой урон. И, конечно же, исследования и любопытство также играют большую роль в том, какой ущерб вы нанесете . И я сделал это ещё раз, чтобы
+[9:38] действительно посмотреть, что происходит, и я не совсем побил рекорд, набрав всего около 40 тысяч, чего недостаточно, чтобы получить какие-либо
+[9:45] 40 тысяч, чего недостаточно, чтобы получить какие-либо награды. А давайте добавим туда Синтию и посмотрим, сможем ли мы раздобыть эти
+[9:51] посмотрим, сможем ли мы раздобыть эти чертежи MR.
+[9:53] Хорошо, мы заменили Пылевого Черепа на Синтию. Давайте посмотрим, что из этого получится. Итак, начнём . Атака идёт, и я очень надеюсь, что это
+[10:02] сработает, но я всё же считаю, что усиление отряда воинов на данном этапе игры было бы лучше. А когда у меня будет полный
+[10:10] отряд рейнджеров, возможно, я смогу наносить больше урона.
+[10:12] Посмотрим, что из этого получилось. О, на самом деле получилось даже намного получилось. О, на самом деле получилось даже намного лучше.
+[10:16] Э-э, 500 тысяч, ещё 250 тысяч. Так что, тест прошёл успешно. Вы видите улучшение, а теперь давайте углубимся в изучение записей. Итак, мы подошли к записям.
+[10:28] Давайте сначала посмотрим на самый худший отчет , тот, где два миллиона, базовый состав, который все используют.
+[10:35] А вот и статистика боя.
+[10:39] Я приношу свои извинения. Как видите, большую часть ущерба нанесли Марлена и Зоя большую часть ущерба нанесли Марлена и Зоя .
+[10:46] Э-э, 1,6 миллиарда и 1, э-э, миллиард, а остальное, э-э, ну да, они ничего толком не сделали. В общем, ничего особенного,
+[10:54] и, как видите, эти танки ничего не стоят.
+[10:58] Но Харпер справился ещё хуже, хотя он и Но Харпер справился ещё хуже, хотя он и усиливает Зою и Марлену, так что это уже Зою и Марлену, так что это уже что-то значит.
+[11:06] Тогда давайте посмотрим на наш новый отчет. Сначала мы рассмотрим только отряд воинов. Итак, начнём . Мне кажется, я выбрал не тот вариант.
+[11:17] Да, ну вот и началось.
+[11:19] И перейдите к боевой статистике. Как видите, Марлена нанесла вдвое больше урона благодаря этим перчаткам. Зоя также нанесла довольно
+[11:28] много урона благодаря фиолетовым перчаткам и усилению эффекта "безумия", которое у нас есть. Это действительно очень помогает.
+[11:35] Ворона на самом деле не причиняет особого вреда. Поэтому вам действительно нужно выбрать подходящих героев для этой работы, а также
+[11:42] правильное снаряжение и провести тщательное исследование. И вот мы переходим к последнему исследование. И вот мы переходим к последнему отчету
+[11:49] об этом сражении, и вместе с Синтией мы переходим к боевой статистике. Как переходим к боевой статистике. Как видите, видите, Синтия
+[11:58] неплохо справилась, нанеся дополнительный урон в 800 миллионов, и это действительно очень помогает.
+[12:04] Да, в принципе, так всё и будет выглядеть, и вы видите, что у Харпер и Клэр теперь низкий урон, но нужно также помнить, что они
+[12:15] усиливают Зою и Малену, чтобы они наносили действительно большой урон. Это действительно помогает, и я думаю, это отличный тест
+[12:23] и прекрасное руководство для вас, чтобы научиться атаковать мирового босса. На этом мы заканчиваем видео, и я хочу поблагодарить вас за то, что вы уделили
+[12:33] время просмотру. Если вам нравятся подобные руководства, вы знаете, что делать. Ставьте лайки, подписывайтесь, и увидимся в следующий раз!
+
+================================================================================
+ОРИГИНАЛЬНЫЙ АНГЛИЙСКИЙ ТРАНСКРИПТ / ORIGINAL ENGLISH TRANSCRIPT:
+================================================================================
+[0:00] What's up guys? Corvus Gaming here, and today we're going to discuss the world boss and how to really get those achievements that you're longing for.
+[0:07] You know what to do. If you like these guides, smash that like, hit that subscribe, and let's get straight into subscribe, and let's get straight into it.
+[0:15] All right, guys. Here's the Demon King, and this is basically the starting page for the Demon King. We have three types of Demon Kings. We have the Warrior, the
+[0:23] Ranger, and the Warlock, and each can be counted by the different squads. The Warriors can be counted by the Rangers.
+[0:30] The Ranger blight can be counted by the Warlocks, and the Warlock blight can be counted by the Warriors. And this is the same as with the PvP squads. You need to
+[0:40] use the right heroes for the job. Of course, when you start early game, you don't have all the squads, so you really need to pick what suits you best and
+[0:49] really use your strongest heroes for this job. Uh here we have the achievement tab, and here you as you can see, this is also really the best
+[0:57] rewards you can get for this Demon King.
+[0:59] And it is the gear blueprints MR. This is where you really want to get a good Ranger squad also to really get these MR blueprints to get your max gear up. Then
+[1:10] we have the record tab, and here I will tell more about at the end of this video, so we can really deep dive into how we really did the damage. Then we
+[1:19] have the Kingdom versus Kingdom war that's really going to show you guys who is winning in the Kingdom versus Kingdom battle for the Demon King and get those
+[1:27] sweet points to win the pre-battle for the Kingdom versus Kingdom battle. We have some extra information here as well. It's going to show you guys
+[1:36] uh the top 200 uh lords from each kingdom will be counted in the overall damage. So, if your damage is lower than uh the top 200 ranking, your points will
+[1:47] not be counted. So, you really want to get those points up for the rewards. And then you have some daily rewards here that you can get uh from this uh Demon
+[1:57] King as well. And here we have the ranking rewards. They're not really great. They really need to change that.
+[2:02] And then we have the challenge rewards, and those are really decent to have. You get some gear stones here and some herbs. So, that's okay for
+[2:11] the daily grind. Um then here we have the ranking. Of course, I still have to do mine, so I'm not here. Uh number one is Riela at the moment. She's doing an
+[2:20] amazing job. And let's get more into it and release seven of our squads. And once we press fight, we will go straight to the Demon King. And now we're going
+[2:30] to set up our squads, and I'm going to show you guys a free-to-play squad and really the end game squad that you want to use. All right, here we go. We are
+[2:38] going to start off with the free-to-play world boss guide. And this is basically for once you have reached day eight of the game, because then you can really uh
+[2:48] improve uh some things and you can get Cynthia as well free to play. She's a great ranger DPS-er to have, and you just need to save up 5K diamonds for
+[2:57] her. So, I count that as free to play.
+[3:00] Uh so, we put Cynthia in the front.
+[3:02] She's going to be your main damage dealer. She's going to be accompanied by Ash in the back. And the reason why is she has that great buff that for two
+[3:11] rangers with the highest attack in the team deal 19% more damage to the monsters, which is really going to help you out with that world boss.
+[3:19] Accompanying her is going to be Bestar as well. And then we're going to go to the warrior squad. And what we're going to use here, if you have unlocked Malena
+[3:28] uh for two bucks, you're going to put Malena here and Cecilia in the back. But of course, Malena is not free to play at the moment. So, we're going to put her
+[3:37] back, uh put Selena in the front, and we're going to put Claire in the back.
+[3:42] Of course, this is the her UR version, but uh you also have the SSR version early game. So, that is basically what you're going to use. And if we're going
+[3:52] to look at the skills of Claire, it's the same for the SSR version. She's going to buff three warriors with the highest attack in the team, dealing a
+[4:00] lot of extra damage to monsters, and that's really going to help you clear out that world boss.
+[4:06] Take a moment to take a screenshot from this. This is going to be your free-to-play boss fight squad, and that's going to help you early on. Once
+[4:14] you get more heroes available, you should can switch out a little bit, maybe get Harper in there as well instead of Bestar once you can unlock
+[4:23] him free-to-play, and this is going to be your pretty till around day 70 squad that you can use for the world boss free-to-play. Now, we're going to head
+[4:32] over to the other squad, and this is more my main squad that I'm using for the world boss. Of course, for everyone is different. Depends really on what
+[4:40] hero you have unlocked and what squad you're choosing to fight these world you're choosing to fight these world bosses.
+[4:46] So, let's check out our damage, and we're going to do first the basic setup that 90% of the players are using at the moment in the late servers, and it's
+[4:56] looking kind of like this. Two defense on top and two DPS and a support in the back, and let's check it out and see if this is really good, and afterwards we
+[5:08] are going to really improve everything and see if we can hit a record.
+[5:12] We go to the world boss right now, and here we go. And I'm going to send out the attack. It's going to take 15 seconds to get there, and that gives me
+[5:21] 50 seconds of time to really tell you why we really need to work on these world boss damage. The reason why is we really need to get more points in
+[5:29] kingdom versus kingdom battle to really grab those points as well. And as you can see, we did hit a record, but that's also cuz
+[5:38] I haven't really updated my squad in a while, and I've got that Marlena now as well. So, we hit it almost three mil points. Let's see if we can improve
+[5:48] this with the few updates that we're going to do in the game.
+[5:53] So, here we are and we're going to set up our squad right now for the world boss. And what we want to do, we want to put Malena in the front accompanied by
+[6:02] Zoya. And we want to put a Harper in there. We want to put a Cecilia in there. And as the last one, I'm going to put Duscal in the back. And the reason
+[6:13] why is cuz I want to really get this 20% attack above going with the full warrior squad that I'm getting. And what we want
+[6:24] to do now is to really update our heroes to get also some good gear on them to really improve in the damage that we're doing. So, what we want to do, we want
+[6:34] to go to the hero squad. We want to click on Malena. And it sounds weird, but we want to remove the UR gloves and really replace them with the purple
+[6:44] ones. And the reason why is as followed.
+[6:47] The purple ones give you a damage above to the monsters. So, what we can get here is 6% extra damage. Once we max this out, it's going to cost you
+[6:58] around 30k gear stones, which is really cheap. I think you can really get that.
+[7:05] And you also get the basic stats as well, 6%. So, you get 12% extra damage on that those monsters. And what you really want to do, you want to put them
+[7:15] on all the damage dealers. So, we put them on Malena. We're going to put them on Zoya as well.
+[7:22] And that is really going to improve how you really get into this. Let me search for the next one. Here we go.
+[7:30] We're going to put it here. And we're going to put them on Where is she? Here she is. She already has it, so that's she is. She already has it, so that's great.
+[7:39] And now we're going to see really the difference that it's going to take and also a really small tip for the for the players that are in age one,
+[7:51] what you can do if you have the command above, you can attack one of these villages to get the frenzy buff and we're going to skip this part a little
+[8:01] bit cuz then else you have to wait 1 minute and 30 seconds. So, I'll be right minute and 30 seconds. So, I'll be right back.
+[8:06] All right, we're back and here is what I'm talking about. It is war frenzy and a war frenzy is basically going to give you more damage output and the reason
+[8:15] why you want to get this is just cuz this also works for the world boss and you can get you can unlock this in the commander tab from the era one of
+[8:24] revival. So, once you get there and you have unlocked chosen the commander tab, you really want to get this buff as well and for the world boss you want to start
+[8:32] this first and what you can do you can attack a random AFK city and call back the troops immediately cuz you will get the buff once you've started the attack.
+[8:42] Now, we're going to attack the world boss and really see how much damage difference it is going to have.
+[8:47] And here we go to the world boss and we're going to set out our attack and let's see what's going on. I am excited.
+[8:54] I don't know how much the difference is going to be and let's try after this we put Cynthia instead of the skull to really see if there's a big
+[9:04] difference or no.
+[9:06] And here you see a huge difference And here you see a huge difference almost almost one one and almost one and a half mil difference in attack and what I like
+[9:15] to do is I like to attack three times to really account for the crit damage as well to see what my overall damage is.
+[9:23] And this is really the way how you can mix and match and really improve on your damage. And of course research and curios are also big part
+[9:34] in really how much damage you're going to do. And I've done it one more time to really see what's going on and I didn't really hit a record only a little bit by
+[9:43] 40K, not enough to really grab any 40K, not enough to really grab any rewards.
+[9:46] Uh but let's put Cynthia in there and see if we can maybe get those MR see if we can maybe get those MR blueprints.
+[9:53] All right, we have changed Dust Skull for Cynthia. Let's see what it's doing.
+[9:58] And here we go. The attack is going and then I hope really hope that this is working, but I do think the buff for the warrior squad is better at this point in
+[10:08] the game. And once I get full ranger squad, maybe I'll do more damage. Let's see what it did. Oh, it really did actually quite
+[10:15] did. Oh, it really did actually quite better.
+[10:16] Uh 500K 250K more. So uh the test worked. Uh you can see the improvement and let's get a deep dive now into the records. So here we are at the records.
+[10:28] Let's first check the worst report there is, the one with the two mil, the basic the basic squad that everyone is using.
+[10:35] And uh here is the battle statistics.
+[10:39] I'm I apologize. And as you can see uh Marlena and Zoya did most of the uh Marlena and Zoya did most of the damage.
+[10:46] Uh 1.6 bill and 1. uh bill 1 bill and the rest just uh yeah, they didn't really do anything. So it's not really that impressive and as you can
+[10:55] see those tanks are not worth anything.
+[10:58] Uh but Harper did even worse, but he's Uh but Harper did even worse, but he's buffing uh Zoya and Marlena, so that counts for
+[11:05] uh Zoya and Marlena, so that counts for something.
+[11:06] Uh then let's check out uh the new newest report that we have. First we'll do only with the warrior squad. And here we go. I think I picked the wrong one.
+[11:17] Yes, uh here we go.
+[11:19] And go to battle statistics. And as you can see uh Marlena did double her damage with those gloves. Zoya also did quite a
+[11:28] lot of damage cuz of the purple gloves and the frenzy buff that we're having.
+[11:33] So, that is really helping a lot. The crow is not really doing that much damage. So, you really have to choose the right heroes for the job and the
+[11:42] right gear as well accompanied with good research. And here we go to the last research. And here we go to the last report
+[11:49] of this battle and with Cynthia and we go to battle statistics. And as you can go to battle statistics. And as you can see,
+[11:56] Cynthia did a decent job 800 mil extra damage and that is really helping a lot out.
+[12:04] Yeah, this is basically how it's going to look and you see that Harper and Claire have low damage now, but this is also you have to keep in mind they're
+[12:15] buffing Zoya and Malena to really do a lot of damage. So, that is really helping and I think this is a great test and a great
+[12:24] guide for you guys to really learn how to attack the world boss and that comes and we're now at the end of this video and I want to thank you guys for taking
+[12:33] the time to watch this and if you like more of these guides, you know what to do. Smash that like, hit that subscribe and I'll see you guys in the next time.

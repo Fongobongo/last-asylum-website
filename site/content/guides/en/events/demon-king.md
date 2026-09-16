@@ -49,7 +49,24 @@ To maximize your damage ranking and secure top milestone chests:
 
 ---
 
+## ⚔️ Squads: F2P vs Endgame {#squads}
+
+The F2P lineup (available from day 8):
+
+- **Ranger squad**: **Cynthia** front (she's free from the Day-8 Lucky Wheel) + **Ash** behind (+19% monster damage for 2 top-ATK rangers) + **Bestar**.
+- **Warrior squad**: Marlena (if you bought the $2 hero) + Cecilia behind. Pure F2P: use Claire SSR/UR instead — she buffs 3 top-ATK warriors with monster damage. Works until ~day 70.
+
+The endgame lineup is a **mono-faction squad tuned to the current boss rotation** (Mon/Thu = Warlock counters, Tue/Fri = Ranger counters, Wed/Sat = Warrior counters — see the Mages chart above). An endgame all-warrior stack (Marlena + Zoya front, Harper + Cecilia mid, Daskal/Ulfrear back) with the +20% faction attack bonus wins by default.
+
+Two pre-fight tricks that add hundreds of thousands to your score:
+
+1. **Swap UR gloves for SSR gloves on your DPS heroes.** SSR gloves give a flat **% damage vs monsters** that stacks to ~12% per hero — the gold UR pieces trade it for raw stats that matter less on high-HP PvE HP pools. (Full detail: [Gear guide](/gear/)).
+2. **Trigger War Frenzy first** — attack any city (or the free friendly tile in the Legion Commander tree) once before launching at the boss; the battlefield buff carries into the boss fight and costs you nothing. See [Era guide](/era/) for the tree that unlocks it.
+
 ## 🎁 Event Rewards {#rewards}
+
+> [!NOTE]
+> In KvK context, only the **top 200 players of each kingdom** by Demon King damage count toward the kingdom score. Safe play: do your best 5+ hits with the tricks above before the boss rotates.
 
 1. **Per-Attack Milestone Chests:** Each strike awards equipment essence chests, Antitoxin, diamonds, and resource bundles.
 2. **Daily Damage Leaderboard:** High-ranking commanders receive universal UR Omni Shards and Golden Recruit Tickets delivered via in-game mail.

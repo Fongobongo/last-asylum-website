@@ -1,0 +1,226 @@
+================================================================================
+# NEW UPDATE + Which Heroes Should You Build? | Mailbag Monday #10 - Last Asylum
+================================================================================
+- Название / Title: NEW UPDATE + Which Heroes Should You Build? | Mailbag Monday #10 - Last Asylum
+- Ссылка / URL: https://www.youtube.com/watch?v=iMAWtB7dhkU
+- ID видео: iMAWtB7dhkU
+- Автор / Channel: KorpezGaming
+- Длительность / Duration: 15:19 (919 сек)
+- Дата публикации / Published: N/A
+- Просмотров / Views: 241
+- Плейлист: Last Asylum : Mailbag Monday (#1 из 10)
+
+--------------------------------------------------------------------------------
+ОПИСАНИЕ ВИДЕО / DESCRIPTION:
+--------------------------------------------------------------------------------
+Welcome back to Mailbag Monday #10!
+
+This week we have a mix of new Last Asylum updates, hero advice and community questions.
+
+In this episode we talk about:
+
+📰 New updates and changes in Last Asylum
+🦸 Which heroes are worth building
+⚔️ Squad and hero priority questions
+💰 Where your resources should go
+🧠 How I would approach progression
+💥 How Louis works and what his damage/healing actually does
+📬 Your community questions answered
+
+Mailbag Monday is all about helping players make better decisions with their accounts, while also covering important updates and topics from the Last Asylum community.
+
+If you have a question for the next episode, leave it in the comments and it might be featured in Mailbag Monday #11!
+
+Discord  : https://discord.gg/K5cdhJR9E
+
+👍 If this video helped you, consider liking the video and subscribing for more Last Asylum guides, strategy videos and weekly Mailbag Monday episodes.
+
+#LastAsylum #MailbagMonday #LastAsylumGuide #MobileGaming #KorpezGaming
+
+================================================================================
+РУССКИЙ ТРАНСКРИПТ / RUSSIAN TRANSCRIPT:
+================================================================================
+[0:00] Всем привет! С вами KorpezGaming.
+[0:02] Сегодня новый выпуск Mailbag Monday:
+[0:05] обсудим обновления Last Asylum, ответим на ваши вопросы и поговорим о том, что происходит с KorpezGaming.
+[0:14] Не забудьте поставить лайк и подписаться!
+[0:19] В обновлении от 9 сентября появится новое событие Gear Upgrades.
+[0:26] Возможно, в нём можно будет ускорять прогресс за деньги, но посмотрим после запуска.
+[0:36] Также улучшат King Mail, Alliance Mail, описания Surprise Box и исправят несколько ошибок.
+[0:48] Также появлялась информация, что в этом году добавят перенос между серверами.
+[1:01] Сообщество Last Asylum давно этого просит.
+[1:08] Деталей пока нет, но я предполагаю, что перенос может быть платным, как и во многих похожих играх.
+[1:29] Если у вас есть опыт с переносами серверов в подобных играх, напишите в комментариях.
+[1:42] Ещё у Last Asylum есть активный неофициальный фанатский Discord — ссылку оставлю в описании.
+[2:03] Там можно подробнее общаться с другими игроками.
+[2:13] На этом с обновлениями всё.
+[2:17] С приближением Хэллоуина я предполагаю, что может появиться тематическое событие и, возможно, новый скин.
+[2:30] Это лишь предположение, но было бы здорово, если бы разработчики дали сообществу возможность придумать дизайн Теперь к вопросу, который я пропустил
+[2:50] раньше: как понять, какой состав героев лучший из тех, что у меня есть?
+[3:00] Можно ли это проверить и какие навыки героев стоит улучшать в первую очередь?
+[3:10] Приоритет героев зависит от стадии игры и от того, F2P вы или донатер.
+[3:21] В начале у большинства игроков есть Marlena, и именно вокруг неё обычно строят команду.
+[3:36] Всегда начинайте с основного DPS.
+[3:41] У Marlena смотрите на Peerless Blade:
+[3:47] сколько урона он наносит, это AoE или нет, бьёт ли задний ряд.
+[3:58] Её ультимейт — сильная AoE-атака, поэтому этот навык я бы улучшал первым.
+[4:10] Дальше решаете, улучшать активный или пассивный навык.
+[4:17] Пассивку разумно поднять до 25 уровня, но после этого она становится очень дорогой.
+[4:27] Тогда лучше переключиться на активный навык и развивать его дальше.
+[4:38] У каждого класса есть основной DPS:
+[4:43] Marlena у Warriors, Cynthia у Rangers и Annie у Warlocks.
+[4:54] Мне нравится Joker за мощную AoE-атаку по заднему ряду, но Annie пробуждается раньше, поэтому сначала выгоднее вкладываться в неё.
+[5:16] И главное — сосредоточьтесь на одном основном отряде.
+[5:30] Второй вопрос: бывают ли ситуации, когда смешанные фракции выгоднее?
+[5:40] Или однофракционный отряд полезен только в определённых режимах?
+[5:51] В PvP обычно лучше использовать один тип отряда.
+[5:57] Донатеры могут собирать полный состав Rangers или Warlocks.
+[6:07] F2P игроки смогут собрать полный Warrior-состав в Era of Revival, когда Deathskull появится в Tavern.
+[6:23] Claire UR всё ещё больше подходит для PvE.
+[6:28] Для F2P хорошая основа — Arthur, Deathskull, Marlena и Harper.
+[6:38] В качестве второго DPS можно довести Cynthia до 10 звёзд или пойти по пути Joker до 10 звёзд.
+[6:53] Joker может хорошо работать и в смешанном составе: он атакует врагов с низким HP и отлично добивает задний ряд.
+[7:12] По целям с Burn он наносит больше урона, а на максимальных звёздах получает сильную AoE-атаку.
+[7:28] Вместо Claire можно использовать максимальную Cynthia, Joker или Annie из Warlocks.
+[7:42] Но по возможности держите хотя бы четырёх героев одной фракции, чтобы сохранить бонус 15% к атаке, HP и защите.
+[8:01] Лучше не падать до 10%, если можно сохранить дополнительные 5%.
+[8:14] Для World Boss смешанные составы тоже могут быть полезны.
+[8:23] Например, ультимейт Bell увеличивает атаку союзников почти на 40%, что очень помогает, если вы пытаетесь поставить рекорд на World Boss.
+[8:44] Теперь мой вопрос к вам: какие ещё игры вы хотели бы видеть на канале?
+[8:55] Мне нравится Last Asylum, но я хочу пробовать и другие игры.
+[9:07] Напишите в комментариях, что мне стоит попробовать.
+[9:16] Чтобы продолжать Mailbag Monday, мне нужно больше ваших вопросов.
+[9:23] Мы можем обсуждать обновления, но основа серии — ответы на ваши вопросы.
+[9:33] Пишите в комментариях всё, что хотите узнать о Last Asylum.
+[9:41] Следующий вопрос — про урон, лечение и навыки Louis.
+[9:51] Я не советую слишком сильно вкладываться в базовые атаки танков: 15–20 уровней обычно достаточно, а доводить их до 30 или
+[10:10] максимума необязательно.
+[10:17] Навык Louis Force Link снижает получаемый energy damage у двух союзников с самой высокой защитой.
+[10:33] Но против Joker этот щит бесполезен, потому что Joker наносит physical damage.
+[10:45] Поэтому навык особенно полезен против Warrior-составов.
+[10:56] По мере развития навык накладывает щит на большее число целей.
+[11:06] На 9 уровне добавляется ещё одна цель, а на 8 уровне exclusive weapon — ещё одна.
+[11:18] В итоге щит можно дать четырём героям, что сильно повышает ценность оружия.
+[11:30] Лечение Louis зависит от его attack: чем выше атака, тем больше он лечит.
+[11:43] Поэтому в экипировке ему тоже важен attack, и хорошие gloves особенно полезны.
+[11:56] Я предпочитаю gloves вместо sword, потому что на них есть damage resistance.
+[12:10] Пассивный навык даёт Louis состояние immortal/undying на две секунды.
+[12:18] С ростом уровня героя длительность увеличивается, а exclusive weapon может добавить ещё одну секунду.
+[12:31] Кажется немного, но иногда именно эта секунда решает бой.
+[12:39] Exclusive weapon неплохое.
+[12:47] Если вы его берёте, я советую хотя бы 3 звезды ради дополнительных 10% attack.
+[13:05] На более высоких уровнях появляются новые бонусы, но стоимость заметно растёт.
+[13:23] Стоит ли тратить все деньги именно на это оружие? Я не уверен.
+[13:31] В Era of Revival или позже могут появиться лучшие варианты, и, думаю, больше героев получат свои exclusive weapon.
+[13:46] KorpezGaming стартовал примерно три месяца назад, почти 90 дней, и канал вырос невероятно быстро.
+[14:04] Мы почти достигли 1000 подписчиков.
+[14:11] Это даёт мне огромную мотивацию продолжать делать видео и расти вместе с вами.
+[14:25] С ростом канала я хочу расширять контент.
+[14:30] Я уже пробовал Palworld и Dragon Ball и видел несколько интересных будущих игр.
+[14:42] Если у вас есть предложения — пишите их в комментариях.
+[14:52] Я также думаю о создании собственного Discord для KorpezGaming.
+[14:57] Напишите в комментариях, что вы об этом думаете. Если хотите поддержать канал — подпишитесь, поставьте лайк и продолжайте
+[15:07] смотреть мои видео. Спасибо!
+
+================================================================================
+ОРИГИНАЛЬНЫЙ АНГЛИЙСКИЙ ТРАНСКРИПТ / ORIGINAL ENGLISH TRANSCRIPT:
+================================================================================
+[0:00] What's up guys? Corpus Gaming here.
+[0:02] Today we have a new mailback Monday and we are going to discuss some updates in Lost Asylum, answer some questions, and talk a little bit about what's going on
+[0:11] for Corpus Gaming. You know what to do if you like this content. Smash that like, hit that subscribe, and let's get straight into it. [snorts] So, for the
+[0:20] update notes, um, in 9th September, we have a new event called gear upgrades.
+[0:26] This is probably going to again be something that you can uh buy your way through or that we have to see of course when it goes live. I have not seen it
+[0:34] yet. Then we have some optimizations on the king meal and alliance meal and some optimizations on the description for surprise boxes and surprise encounters
+[0:44] and uh some few bug fixes as well. And we are also getting and I heard I cannot see where I cannot find uh it anymore but there was some news about uh server
+[0:57] migrations coming this year and that is something that the whole lost asylum community has been screaming about and that is really something that's going to
+[1:07] be nice uh to really get people together and this will probably and I of course I have not the details for this but I do think there will be a price tag on this
+[1:18] because in most games like these, server migrations cost money and it's only for one person. Uh maybe someone that has more experience with server merges or
+[1:30] server migrations in these types of games can let us know something in the comments. That would be great. Then another thing uh lost asylum related
+[1:40] there's also a big community uh for lost asylum uh on discord and is more is not official community but more like a fan discord page let's call it like that and
+[1:52] that will also be in the description below. You can join that server and have like a more uh discussion with the players that are actually playing the
+[2:02] game and have some real opinions about the game. So that's a one that is nice to join as well. And that is basically it uh for the updates for Lost Asylum. I
+[2:12] do think that in the hol in the Halloween uh coming days there will be an Halloween event and probably there will be a new skin attached to that. I'm
+[2:22] of course just spec speculating about this, but let's be honest. Uh, a Halloween skin would be awesome. And maybe the the devs can also do an event
+[2:32] that we can design the skin and that they can uh implement that in the game.
+[2:37] That would be really nice of them to also get the community together, you know, something like this. Uh, that's it for this part of the video. Let's go
+[2:44] straight to the questions. So, here's a question. And this is a late one. I kind of got lost with this question cuz I got
+[2:53] a lot of them at one point. So, I didn't do this one. So, let's do it right now.
+[2:57] And this is how do I know which hero lineup is the best for what I have? Is there a way to test what hero skills should I prioritize on ranking up first?
+[3:07] Well, let's get into the game and we're going to discuss that right now. So, for uh what heroes you need to prioritize, it basically depends a little bit on
+[3:14] where you are in the game. Uh if you are a spender, if you're a free-to-play player, but when you start off with the game, most of the people will have
+[3:23] Marina and this is where they will build off on. And in this game, uh, you always want to focus on your main DPS first.
+[3:31] And you want to locate, uh, where can I find, uh, her strengths and what are her best skills. And for Melena, her skills are peerless blade. And it's basically
+[3:41] all about reading. How much damage do I do? Is it an AoE attack? Is it hitting the backline or is it hitting the front line? Because you want to have your uh,
+[3:50] main DPS always be hitting the back lines as well. And as you can see with Melena, she has a great AOE attack and is doing a lot of damage. Of course,
+[3:59] this is an ultimate attack, but it's still pretty nice. So, that is really the first skill that you want to upgrade. And then, of course, we have a
+[4:06] choice of am I going to upgrade an active skill or am I going to upgrade the passive skill? A passive skill is always nice to have, but once it reach
+[4:15] level 25, it's getting really expensive to upgrade it further. So then you want to actually you want to push the passive skill to 25 and then you want to go on
+[4:24] to your active skill and try to max that out. And that is basically where you start. And every class has his uh main DPS. For u the warriors it's Melena. For
+[4:37] the rangers it's Cynthia. And for the warlocks it is Annie because Annie will have her awakened state before Joker. I prefer Joker because he has that massive
+[4:48] AoE attack on the backline, but because Annie gets awakened first, you want to push on any first. And that is it for this question. And always focus on one
+[4:59] uh particular squad. Your warrior. If you're free to play warrior squad and if you're spender, you want to do warlock or uh you want to do uh rangers or
+[5:08] warlock. One of the two is fine, but uh preferably warlock is endame, so that's the one you want to focus on. Now we're going off to the second question. So
+[5:17] here we have the second question and this is I'd like to add a question above the details that we just discussed. Are there times when is advantage to use a
+[5:26] mixed faction squad? Is the uniform faction squad only an advantage in Pacific uh scenarios? Well uh that is also a bit complicated. I will tell you
+[5:37] in the game right now. So uh for this question it is it is for PVP it's best to have one particular squad. Um if you're a spender you want to have a full
+[5:46] ranger squad or a full warlock squad.
+[5:48] But if you are a free-to-play player, there is a a a difference, a little difference cuz you will have an option to use a full warrior squad and uh this
+[6:00] will only be achievable uh like in the era of revival because then the skull will be in the teen as well. But we have Claire UR version that is still really
+[6:12] only doing stuff for PvE. So, what I do recommend if you are a free-to-play player, you will get Arthur, Duskull, Marina, and Harbor. And then you have a
+[6:23] choice what is your um second DPS is going to be. And there are two options here. Or you can go Cynthia and get her max stars and get 10 stars on her. Or
+[6:34] you can do a different road and that is get Joker to 10 stars. And this is really maybe it's even a good one to have Joker in your uh mix squad as well
+[6:45] cuz he will be attacking the enemies with the lowest HP. So he'll do the backline killing and he doesn't really need um he he does he will inflict more
+[6:55] damage once he reach the burn uh burn target, but that's it. He really has this uh AoE attack that is going to do a lot of damage uh once you unlock it on
+[7:05] max stars. So you can change out Claire for either Cynthia max stars from the rangers or Joker max stars from the rangers, but you can also use any max
+[7:17] stars uh from the warlocks as well. Uh cuz she will of course be awakened if you buy her, but then you're not free to play anymore. I'm rambling right now,
+[7:26] but that is when you are really uh diverting a little bit from the full squads, but you do want to have at least four of the same squad so you can get
+[7:36] that 50% extra attack, HP, and defense.
+[7:39] That is really going to help your uh uh squad a lot. And you don't want to go to 10%. 50% is a good squad to sacrifice the 5% extra H attack, HP, and defense
+[7:51] so you can get a good uh DPS hero instead of CLA in there. Uh that's it for this question. Also, what you can use different squads for is the world
+[8:01] boss cuz uh in the world boss, we have Belle here, and she has also this ultimate skill that's going to increase the attack of the alleys uh by almost
+[8:12] 40% right now, but once you have reached her level 30 um in the skill, it can go to 50%. So, that is quite nice to have there as well when you're trying to get
+[8:23] that record on your world boss. So that's something to keep in mind of. But uh for spenders, just stay on your squad positioning like full full warlock, full
+[8:35] rangers, full warriors. That's it. But for freeto play, the rules change bit.
+[8:40] That's it for this question. Let's go to the last question of today. So before we go to the second question, I have a uh an uh I have a question myself for you
+[8:50] guys and that is basically are there any other games you would like me to play?
+[8:56] Uh because of course Lost Asylum is nice to play, but I also like to play other games as well. And we've got a few sweet ones that could be nice for the channel.
+[9:06] Uh let me know in the comments, of course, uh what game you would like me to uh do and maybe we can uh try it. And that's it for this. And I also would
+[9:16] like to ask you guys if we want to continue with this mailback Monday. I will need more questions uh to keep on going with this. Of course, we can do a
+[9:25] little bit of more updates and stuff like that. But I do like to do these mailback Mondays. So, we need the questions. So, let me know in the
+[9:32] comments if you have any questions for me about Lost Asylum and we can discuss them in the next week and we can go on like that's it for this. Let's go on to
+[9:41] the next question. So, uh, we have a question here about, uh, Lewis and how his damage works and the healing. Of course, she's also asking me about, uh,
+[9:50] all the skills, and those look pretty fine, but I do recommend uh the basic attack skills for the for the tanks.
+[10:00] They're not really necessary. You can you can do a little bit like push them to 15 or maybe 20, but don't push them to 30 or max them out. You don't want to
+[10:10] do that. That's a waste of your resources. Now, let's go look at Louisw's kit and see what we can find there. So, here we are at Lewis his kit.
+[10:20] And of course, first is force link. And this is a good one because this is going to give uh reduce energy damage taken by
+[10:27] two allies with the highest defense. So, he's going to create an energy shield that's going to uh defense the people against energy damage. Do take note of
+[10:36] this that against Joker this is useless because Yo Joker is doing physical damage and he's giving an energy damage shield. So this is basically only useful
+[10:46] against the warrior squad which you already got an advantage on. But it's also going to give you more uh targets uh that you're going to have that you
+[10:55] will place your shield on once it reach higher stars. So once uh you reach level nine on this one, you will get an extra target and once your exclusive weapon
+[11:05] reach level eight, you will also get an an extra target. So you'll get four people that you will place a shield on.
+[11:11] That is pretty amazing and that's also why his weapon is useful and that's only the only hero that the weapon is useful for. But let's go to the second one. And
+[11:22] this is also going to give you some extra heal based on your attack. So the higher your attack is, the more healing you will get done. So you want to give
+[11:33] him also gear related to attack. And this is going to be uh useful when you're going to make your gear for Louis because he's the only tank that you also
+[11:44] want to give good gloves. And the reason why we do gloves instead of sword is because the gloves also have damage resistance on them and that's going to
+[11:52] help him out with the tanking. That is basically all you need to know about Lewis. Of course, his uh passive is also really helpful and it's going to give
+[12:03] him an immortal an undying state.
+[12:05] Immortal state is the same. And this is for two seconds, but once you reach higher uh uh hero level on him, it will increase in the seconds. And of course,
+[12:15] once you unlock the exclusive weapon as well, you will get also more one second.
+[12:21] That is not really that that great because it's only one second, but it might be the thing that's going to change everything for uh Lewis. Then
+[12:30] let's look at his exclusive weapon real quick. And as you can see here, it is quite okayish. um you really if you going to get it, I do recommend you get
+[12:41] it to two three stars at least to get that 10% extra attack out in there. And of course, once you get higher, you also get all these extra things, but it will
+[12:51] also cost you a lot of money. And is this the best weapon to spend all your money on? I don't know. But I think there should be better options in the
+[13:01] future in era era of revival 2 or era of uh I don't know what they're going to call it, but it's going to happen uh sooner or later. And I will bet you more
+[13:13] heroes will get their exclusive weapons and there will probably be better spent on a DPS hero like Cynthia or Annie or whatever. Uh that is it for uh this
+[13:24] quick summary about Lewis and uh yeah that's it also for this mailbag Monday.
+[13:31] I'm going to give you a little bit of update about what we are going to do uh for Corpus Gaming and then we're going to end this video. So we have started uh
+[13:41] Corpus Gaming 3 months ago now almost uh 90 days and we have grown amazingly. I never expected that we have could have gotten here h in in a lifetime. We
+[13:53] almost got the thousand subscribers and that is huge also for me uh because that gives me more finance to also keep making these videos and uh even grow
+[14:04] further with you guys. Uh with growth there also comes expansion of course and I am looking for what game else we can play together. I've tried pal worlds.
+[14:15] I've tried dragon ball. Uh, I've seen a few nice new games coming up in the future and maybe you guys have suggestions. You can lay them out in the
+[14:24] comments. And also something that I have been thinking about is making a Discord for Corpus Gaming. Uh, let me know in the comments what you think about this.
+[14:34] And of course, if you want to support the channel, subscribe, like, and just keep on watching the videos I make.
+[14:40] That's really going to help me out. And uh yeah, just I want to thank you all for the lovely support we've had the coming 90 days and we will keep on
+[14:50] pushing forward also with these Lost Asylum guides. This will not stop. Three Lost Asylum videos each week shorts everything and on the site we will do
+[15:00] more of these little adventures outside Lost Asylum and see how that works out for me and for you guys. Thank you all and I will see you guys in the next week
+[15:10] Monday. Don't forget to uh deliver some uh uh some questions to me. Those are really helpful.

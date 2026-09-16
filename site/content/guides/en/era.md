@@ -48,6 +48,16 @@ The logic: if you are not outspending your neighbors, the growth trees win you t
 
 The Legion Commander tree carries War Supply, which raises your daily plunder limit by +6 / +14 / +24 / +36 / +50% at skill levels 1 through 5. For context on what that is worth per day, see the plunder limits table in the [Economy guide](/economy/) — at late-game caps it is millions of extra resources daily.
 
+## Point-by-Point Builds (40 specialty points) {#specialty-builds}
+
+You start the season with ~40 specialty points. These are the two tested builds (courtesy Korpez Gaming):
+
+**Handyman (growth path)** — pick up every **HP shield, +2h building speedup, construction speed** node first, then **research speed, speedups 20m, research −20 sec duration**, then finish every one-time unlock (cat + dog, battle slots, wall durability). Cap it with the two active skills: **Instant Construction** (instant 490 minutes of building) and **Instant Research** (−180 min research, cooldown 3 days). Efficient vs Slowers on the Right-Hand Pocket tree strictly after.
+
+**Legion Commander (PvP path)** — every **hospital cap + (16, 12, 14, 18 ×500)**, **+3% heal speed**, **marching speed for gather/tree nodes**, then the attack-side picks: **attack leading 1–3%**, **Swordsmanship leading damage**, and the active **Siege War Flag (+100 destruction for 30 min, 24h CD)**, **Poison Pouch**, **Firecracker**, **Speed Teacher (range of trees)**, **Bound Shield**, **War Frenzy (leadership attack buff)**, **All-Terrain Tactics**. For users pushing multiple marches: Command boosts and extra march slot matter more than the third Hospital Cap tranche.
+
+**War Frenzy trick**: attacking **any** player city (even an empty one) activates War Frenzy — the buff also applies to world bosses and the [Pandemic Experience](/events/pandemic-experience/) event. Cheap pre-boss buffing.
+
 ## Lord Statues and the Era Academy {#lord-statues}
 
 The Lord Statues live in the Era Academy, and the two systems inside them do different jobs:

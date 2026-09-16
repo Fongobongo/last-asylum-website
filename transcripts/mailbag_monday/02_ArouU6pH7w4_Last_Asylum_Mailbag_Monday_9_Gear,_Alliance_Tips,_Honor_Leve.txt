@@ -1,0 +1,195 @@
+================================================================================
+# Last Asylum Mailbag Monday #9  Gear, Alliance Tips, Honor Level & More!
+================================================================================
+- Название / Title: Last Asylum Mailbag Monday #9  Gear, Alliance Tips, Honor Level & More!
+- Ссылка / URL: https://www.youtube.com/watch?v=ArouU6pH7w4
+- ID видео: ArouU6pH7w4
+- Автор / Channel: KorpezGaming
+- Длительность / Duration: 11:07 (667 сек)
+- Дата публикации / Published: N/A
+- Просмотров / Views: 330
+- Плейлист: Last Asylum : Mailbag Monday (#2 из 10)
+
+--------------------------------------------------------------------------------
+ОПИСАНИЕ ВИДЕО / DESCRIPTION:
+--------------------------------------------------------------------------------
+📬 Welcome back to Mailbag Monday!
+
+Every week I take YOUR Last Asylum questions and break them down in detail.
+
+This week we're covering everything from gear progression and alliance priorities to Honor Levels, resource management and some important mistakes that can slow down your account.
+
+In this episode we talk about:
+
+⚙️ Gear upgrades & progression
+🛡️ What to focus on during the early weeks of a server
+🤝 Alliance priorities
+💰 What resources are worth buying and saving
+⭐ Honor Level progression
+🏕️ SSR buildings and upgrade priorities
+❓ Your Last Asylum questions
+
+Have a question for the next Mailbag Monday?
+
+Drop it in the comments below! I might feature your question in next week's episode. 👇
+
+If these Last Asylum guides help you, consider subscribing to KorpezGaming. I upload guides, strategies, account reviews and community Q&As to help you get more out of your account without wasting valuable resources.
+
+Thanks for watching and thanks to everyone who submitted questions! ❤️
+
+#LastAsylum #LastAsylumPlague #MailbagMonday
+
+================================================================================
+РУССКИЙ ТРАНСКРИПТ / RUSSIAN TRANSCRIPT:
+================================================================================
+[0:00] Привет всем! Это Corpus Gaming, и сегодня у нас для вас новая рубрика «Ответный звонок по понедельникам» . Надеюсь, у вас всех был прекрасный день, и
+[0:09] вы знаете, что делать, если вам понравился этот контент. Ставьте лайки, подписывайтесь, и давайте сразу начнём . So, I hope you guys had a lovely
+[0:16] weekend. Начнем с рубрики "Вопросы и ответы по понедельникам", и в конце этого видео я хочу предупредить вас, что оно действительно
+[0:23] заслуживает внимания, потому что речь идет об игре и о ненужных тратах. Давайте перейдём к первому вопросу, и он действительно очень хороший.
+[0:33] Это вопрос о перчатках SSR, давайте разберём его.
+[0:38] Стоит ли использовать перчатки SSR против мировых боссов, сторожевых башен и исследовательских контейнеров, и нужно ли их улучшать до 30-го уровня? Итак,
+[0:46] для ответа на этот вопрос мы переходим во вкладку «Герои», и вот они, SSR-перчатки. И использовать это следует только в PvE-событиях,
+[0:54] и ничто не сможет их превзойти по качеству перчатки UR или даже сферы MR. This has been tested by many uh whales as well. И это
+[1:02] возможно только при использовании перчатки S SR и меча UR.
+[1:09] Причина в том, что, как вы видите, это характеристики меча UR. А теперь давайте заменим это на: «Извините, это были характеристики меча SR SSR, а это
+[1:19] характеристики меча UR». Как видите, у него прекрасный показатель критического урона, и, конечно же, процент атаки, который
+[1:26] также увеличивается с каждым уровнем. И также увеличивается с каждым уровнем. И вот почему вам стоит оставить именно этого персонажа, а не этого
+[1:32] SSR, для ивента и всего PvE-контента. Итак, это также опыт пандемии, волны зомби с заданиями альянса, битвы с ворами, охота на воров — всё это необходимо для этой
+[1:46] PvE-системы. That's it for this question.
+[1:49] Надеюсь, это вам помогло, и давайте перейдём к следующему вопросу. Лучше ли добавлять в голограмму больше героев более низкого уровня
+[1:56] или сосредоточиться на прокачке одного-двух для получения баффов к атаке? Well, it is pretty simple.
+[2:02] Давайте начнём игру, и я вам сейчас всё покажу. Итак, для ответа на этот вопрос мы рассмотрим Зал Почёта. И, конечно же, давайте
+[2:11] рассмотрим только эти две. Как видите, чем больше уровней вы вложите, тем больше у вас шансов на атаку этого героя-воина. Это составляет 0,5%,
+[2:23] но при более высоких концентрациях это немного увеличивается . На самом деле, вам нужно просто использовать эти UR-карты,
+[2:30] если они у вас есть. Если, например, вы прокачали Мелену до максимума, то, конечно же, продолжайте прокачивать её, чтобы получить героев SSR.
+[2:37] Вам также следует накопить все эти SSR-токены до начала эры возрождения, потому что тогда вы сможете улучшить CLA до версии UR, и, конечно же, в будущем
+[2:52] больше SSR-героев также смогут улучшиться до версии UR. Я видел, как некоторые обсуждали идею вложить все эти токены в CLA, чтобы потом
+[3:03] получить их обратно. Это тоже возможно, но я пока держу их при себе на всякий случай, возможно, чтобы использовать в сложной дуэли с союзником,
+[3:15] когда это потребуется. На этом, в принципе, всё, и я надеюсь, это вам поможет. Но обязательно сосредоточьтесь на получении, извините, дополнительных бонусных характеристик для этих типов юнитов
+[3:25] . Именно такие герои вам и нужны, потому что количество HP, которое увеличится после улучшения, не так уж и велико. Итак, вы просто хотите продолжать
+[3:33] получать эти атаки героев-рейнджеров . Yes, that is it for this question. Переходим к следующему. Итак, у нас здесь вопрос о караванах
+[3:42] и грабежах. В сущности, вам нужно хотя бы немного прочувствовать игру. Знаете, если вы действительно сильны, конечно, вы будете грабить и всегда захотите
+[3:56] отправлять свой караван, но лучше я покажу вам это в игре, чтобы вы могли на собственном опыте понять, о чём я говорю. Давайте сразу перейдем
+[4:04] к делу. So, we're in the game. I have fresh caravans to send out. В общем, я хочу использовать для успешных караванов только свой сильнейший состав
+[4:14] . So, I have a good ranger squad. А на сервере, где я играю , это довольно неплохо, и многие не могут это превзойти. Of course, the
+[4:22] wheels can. В общем, я хочу получить один экземпляр с осколками UR и просто отправить их.
+[4:30] Если вы слабее, вы также можете использовать фиолетовые караваны, или, если у вас нет алмазов, просто отправьте их. Это неважно. Важно, чтобы
+[4:41] вы хотя бы попытались атаковать караваны, в которых находятся URS. These can be gold or these can be purple. Просто обновите страницу, нажав эту кнопку, и вы
+[4:53] увидите именно то, что вам нужно атаковать. А если повезет, то стоит постараться найти экземпляры с двумя URS.
+[5:01] Но в этот раз я просто начну действовать, а посмотрим, повезет ли. А ещё у меня есть очень большой путеводитель по караванам. I will drop the link in the
+[5:12] description below. And that is basically it for this question. Надеюсь, это вам помогло. А теперь перейдём к следующему. Итак,
+[5:20] вопрос в том, на чём нам следует сосредоточиться в первые шесть недель работы сервера. Например, заключайте союзы с другими,
+[5:29] захватывайте города, определяйте, на чём сосредоточиться во время событий, и копите средства для дуэлей альянса.
+[5:36] Что ж, у меня уже есть несколько хороших руководств по дуэлям альянсов.
+[5:40] Описание, ссылка будет ниже, а также в описании, и на что следует обратить внимание при обновлении. Мы сразу перейдём к игре, и я
+[5:50] вам всё объясню. Поэтому в первые недели игры вам следует сосредоточиться на улучшении святилищ. Это самое важное, что вы можете сделать в Lost Asylum в
+[6:03] первые несколько недель. Потому что чем выше показатель t, тем выше показатель t, и тем больше вы можете предоставить своему
+[6:10] альянсу. Второе, на чем вам действительно нужно сосредоточиться, и на каком событии вам следует сосредоточиться, это, конечно же,
+[6:17] событие "Охота на вора". В начале игры сохраните всю свою выносливость и используйте её в событии по поиску вора. Это даст вам очень-очень много
+[6:27] ресурсов, и это будет действительно здорово в начале игры. И, конечно же, вам также следует присоединиться к активному альянсу и вытеснить всех этих мелких
+[6:39] исследователей в начале игры, потому что это, по сути, поможет вам довольно быстро прокачать локации, так как все очень активны. Так что все
+[6:49] будут нажимать на эту кнопку "помощь".
+[6:52] Вот и все. А может быть, я сделаю более подробное руководство по первым нескольким неделям Lost Asylum и опубликую его позже. Но это слишком много работы для
+[7:03] понедельника, когда нужно отвечать на письма, и вот несколько советов, которые могут помочь вам на начальном этапе. Переходим к следующему вопросу. Итак,
+[7:10] этот вопрос касается пожертвований альянсам и технологий. Давайте зайдём в игру, и я вам сейчас всё покажу. Итак, мы находимся в исследовательском центре Alliance, и
+[7:22] вам нужно будет сделать пожертвование.
+[7:24] После первого пожертвования начнётся отсчёт времени, и на это потребуется 40 минут, чтобы получить дополнительную попытку. Разумеется, со временем
+[7:34] это сбросится . Поэтому, если вы настолько целеустремлены, вы можете установить таймеры, когда у вас будет достаточно попыток для достижения максимального результата. И, конечно же, если вы хотите
+[7:46] пожертвовать бриллианты, я рекомендую сделать это понемногу . В большинстве случаев, когда я делаю пожертвования для этих альянсов, я
+[7:55] выделяю около 20, 25 или даже 30 долларов. И на этом уровне я их и держу, и это нормально. Меня это вполне устраивает.
+[8:05] Также следует понимать, что вознаграждение за получение наибольшего количества пожертвований не такое уж и впечатляющее. И просто делай свое дело.
+[8:14] Делайте пожертвования своему альянсу, может быть, два раза в день, и всё будет хорошо. Дело не в том, что вы получите огромную награду за то, что
+[8:24] заняли первое место по количеству пожертвований. Это просто замечательное достижение. Постарайтесь выполнять это дважды в день, как полные забеги, и
+[8:31] тогда у вас будет довольно хорошее место, вероятно, где-то в первой двадцатке. На этом всё по данному вопросу. На этом вопросы, касающиеся отправки почты по понедельникам, также заканчиваются.
+[8:43] Сейчас я немного расскажу вам о предложении, которое Lost Asylum вытолкнули из ниоткуда, и оно касается двух любопытных фактов. Давайте
+[8:54] сразу перейдем к делу, и я покажу вам кое-что, почему вам не стоит покупать это предложение. И это всего лишь попытка выманить у вас деньги. И мне очень
+[9:05] не нравится, что они это сделали, но что есть, то есть. Так что, если вы разблокируете этот предмет за пять долларов, вы получите
+[9:14] ускорение на 20 минут. То есть это ничто. Это ничто по сравнению с финальной стадией игры. Так что точно не покупайте это. Если вы разблокируете его на третьем уровне,
+[9:23] и это обойдется вам примерно в 30 долларов, то за каждое улучшение вы получите ускорение на один час . И это тоже всё ещё
+[9:32] немного. А если вы получите его на 10-м уровне ( и это всего лишь шутка), то получите три часа и 20 минут. А чтобы прокачать
+[9:39] его до 10-го уровня, требуется столько ресурсов и вещей, что это действительно не стоит ваших вложений и денег. То же самое относится и к другому
+[9:50] , исследовательскому камню. А ещё, эти ускорители — это настоящий обман. И они занимаются этим лишь для того, чтобы выманить у вас
+[10:00] деньги и заполучить этот блестящий предмет.
+[10:03] Не покупайте это. Я прямо сейчас покажу вам, где вы можете бесплатно получить эти ускорители для магазина FIP. И вот оно.
+[10:11] И вот здесь мы получили вот это ускорение.
+[10:14] И вы можете купить их, кажется, в FIP 8 или где-то ещё. Вы можете приобрести это ускорение здесь. А за одну кнопку, стоящую 72
+[10:25] бриллианта, вы получаете ускорение на 1 час. То есть, 72 бриллианта достать очень легко.
+[10:31] Достать это довольно легко. Таким образом, вы сэкономили 30 долларов. Напишите в комментариях, что вы думаете об этом предложении и не
+[10:39] заходят ли они слишком далеко со своей жадностью до денег. На этом всё в рубрике «Вопросы и ответы по понедельникам». Надеюсь, вам понравилось, и не
+[10:47] забудьте также присылать вопросы о Lost Asylum, чтобы мы могли продолжать еженедельно отправлять вам письма по понедельникам и
+[10:55] поддерживать связь друг с другом. Поэтому, если у вас есть вопросы о Lost Asylum, задавайте их в комментариях. На этом всё на
+[11:01] сегодня. Ставьте лайки, подписывайтесь, и увидимся в следующем видео! Пока-пока.
+
+================================================================================
+ОРИГИНАЛЬНЫЙ АНГЛИЙСКИЙ ТРАНСКРИПТ / ORIGINAL ENGLISH TRANSCRIPT:
+================================================================================
+[0:00] What is up guys? Corpus Gaming here and today we have a new mailback Monday for you. I hope you all had a lovely day and you know what to do if you like this
+[0:11] content. Smash that like, hit that subscribe and let's get straight into it. So, I hope you guys had a lovely weekend. We're starting off with this
+[0:18] mailbag Monday and I do have one warning at the end of this video that I really recommend you watch because this is about the game and about unnecessary
+[0:29] spending. Uh let's go on to the first question and it's a really good one actually and it's a question about the SSR gloves and let's go through it.
+[0:38] Shall we use SSR gloves on the world boss, watchtowwers and explorer cans and if we shall upgrade them to level 30? So for this question, we go to the hero tab
+[0:48] and here we are the SSR gauntlets. And you only want to use this for PVE events and they will never be outshined by UR gloves or even MR globes. This has been
+[0:59] tested by many uh whales as well. And it is only workable if you use the S SR gauntlet and the UR sword. And the reason why is as you can see these are
+[1:11] the stats for the UR sword. And let's replace that with uh sorry that was the stats for the SR SSR sword and these are the stats for the UR sword. And as you
+[1:21] can see it has this beautiful crit rate and of course the attack percentage that goes up as well with each level. And that's going to be the big difference
+[1:29] why you want to keep this one you are and this one SSR for the event uh for all PvE content. So, this is also uh pandemic experience, the zombie waves
+[1:40] with alliance quest, uh thief battle, thief hunt, all of that is needed this PVE setup. That's it for this question.
+[1:49] I hope it helped you and let's go on to the next question. Is it better to add more heroes to the holo at a lower level or to focus leveling one or two for the
+[1:59] attack buffs? Well, it is pretty simple.
+[2:02] Let's get into the game and I'll show you guys right now. So, for this uh question, we are going to look at the Hall of Honor. And of course, uh let's
+[2:11] check out just these two. And as you can see, the more uh levels you put into it, the more chance you get to this warrior
+[2:19] hero attack. And it's uh 0.5%, but it do adds up a little bit once you get higher levels. Um what you really want to do is with this UR just put them
+[2:30] if you have them. If if you max out Melena for example, just keep on pushing it, of course, for the SSR heroes. What you want to do is you want to also save
+[2:40] up all these uh SSR tokens for when the era of revival is starting because at that point you can upgrade uh CLA to UR version and of course uh in the future
+[2:52] more SSR heroes will be able to uh upgrade to the UR version as well. I did see some people talk about pushing all of these uh tokens into CLA and then you
+[3:03] get the drop back uh later on. That's also a possibility for you to do, but I'm just keeping them uh in my pocket for now just to be sure and maybe to use
+[3:12] them on a difficult uh alliance duel when it's needed. That's basically it for this and I hope this helps you. But definitely focus on getting uh I
+[3:22] apologize getting these extra unit type bonus stats. Those are really the ones you want to have because the hero HP that will go up once you upgrade it, it
+[3:31] is not that much. So, you just want to keep on getting uh these ranger hero attacks. Yes, that is it for this question. On to the next one. So, we
+[3:39] have a question here about the caravans and the plundering. And basically, what you want to do is you want to feel feel the game a little bit. you know, uh, if
+[3:52] you're really strong, of course, you're going to plunder and you want to always send out your caravan, but it's better for me to show you in the game so you
+[4:00] can get a real feel about what I'm saying. Actually, let's get straight into it. So, we're in the game. I have fresh caravans to send out. And
+[4:09] basically, what I want to do is I want to h use only my strongest lineup for the good caravans. So, I have a good ranger squad. And in the server that I'm
+[4:18] in, this is pretty decent and a lot of people cannot beat it. Of course, the wheels can. And what I want to do is basically get one with the UR uh UR
+[4:28] shards and I just want to send them out.
+[4:30] If you're weaker, you can also use purple uh caravans or if you don't have the diamonds, just send them out. This is not important. What is important is
+[4:41] that you try to at least attack caravans with uh URS in it. These can be gold or these can be purple. You can just refresh this button here and it will
+[4:53] show you exactly what you need to attack. Then if you're lucky, you want to really try to get ones with two URS.
+[5:01] But for this one, I will just attack it and we'll see if I get lucky. And I also have a really big guide about the caravans. I will drop the link in the
+[5:12] description below. And that is basically it for this question. I hope it helped you. And let's go on to the next one. So for this question, it is uh about what
+[5:23] should we focus on on the first six weeks of the server. for example, establish alliance with others, cities to take also what to focus on for the
+[5:32] events and saving for alliance duel.
+[5:36] Well, I have got a few good guides about uh the alliance duel already. The description uh the link will be in below as well in the description and what to
+[5:45] focus on uh about upgrading. We'll go straight into the game and I'll explain you guys. So for the first weeks of this game, your first focus will be upgrading
+[5:57] sanctuaries. This is the most important thing that you can do in Lost Asylum on the first few weeks. Uh because the higher the t the higher the troop tire,
+[6:08] the more you can provide for your alliance. The second thing that you really need to focus on and what event you need to focus on is of course the
+[6:17] thief hunt event. save all your stamina in the beginning of the game and use this in the thief hunt event. And this will give you a lot a lot a lot of
+[6:27] resources and that's going to be really nice in the beginning of the game. And of course, what you also want to do is you really want to join an active
+[6:36] alliance and to push out all those small uh researchers in the beginning of the game because this is basically going to help you upgrade this pretty fast cuz
+[6:46] everyone is really active. So, everyone will be smashing that uh help button.
+[6:52] That's it. And maybe I will make a bigger guide uh for the first few weeks of Lost Asylum and I will post that later. But this is just too much to uh
+[7:03] do on a mailback Monday and this is a few tips that could help you off in the beginning. On to the next question. So, for this question, it's about alliance
+[7:13] donations and uh tech. Uh let's go into the game and I'm going to show you. So here we are at alliance uh research and you're just going to donate and
+[7:24] everything after you donate one time the timer will go on and it takes uh 40 minutes to really get one attempt extra.
+[7:34] Uh this will reset of course after amount of time. So you can what you can do is you can put timers on when you have full attempts again if you are that
+[7:44] dedicated. And of course, if you want to donate diamonds, I do recommend doing a little bit. Most of the times what I am doing for these alliance donations, I
+[7:55] put it around 20 or maybe 25 or 30. And that is where I keep it and that is okay. That is fine with me. You need to understand also that the rewards for
+[8:08] getting the most donations aren't that amazing. and uh just just do your thing.
+[8:14] Donate to your alliance maybe twice a day and you will be fine. It is not uh that you're getting a big big reward for being number one in the donations. It's
+[8:26] just a nice achievement. Just try to do it twice a day like the full runs and then you will have a pretty good spot probably around the top 20. And that is
+[8:37] it for this question. And that is also it for the questions of mailback Monday.
+[8:43] Now I'm going to talk to you guys a little bit about an offer that lost asylum pushed out uh out of nothing and it's about the two curios. Let's get
+[8:54] straight into that and I'm going to show you guys something on why you should not buy this offer. And it is really just a
+[9:02] attempt to take your money. And I really don't like that they did this but it is what it is. So you can get if you unlock
+[9:10] this curio for five bucks, you get a 20 uh minute speed up. That is that is nothing. That is nothing when you're in the end game. So definitely not get
+[9:20] this. If you unlock it at level three and this cost you roughly around 30 bucks, uh you get one hour speed up um per upgrade. And that is also still not
+[9:32] a lot. And if you get it at level 10, and here's this is just a joke, you get three hours and 20 minutes. And to get it to level 10, it takes so much
+[9:42] resources and so much stuff that it's really not worth your investment or your money. And the same goes for this other one, the research stone. And also, these
+[9:54] uh speedups are really scammish. And they only do this curios to get your money and to get this shiny object.
+[10:03] Don't buy it. I will show you right now where you can get these speedups for free to the FIP shop right now. And here it is. And we got these speedups here.
+[10:14] And you can buy them at I think it's FIP 8 or something. You can buy this speed up here. And for one button for 72 diamonds, you get 1 hour speed up. That
+[10:28] is and 72 diamonds are easy to get. You can get this quite easy. So, this just saved you 30 bucks. Tell me in [screaming] the comments what you think
+[10:37] about this offer and if they're really uh pushing it too far with this money grabbing. Uh that's it for this MailBag Monday. I hope you liked it and make
+[10:47] sure also to uh send out questions about Lost Asylum so that we can keep on making these mailback Mondays weekly and check in with each other. So let me know
+[10:57] in the comments if you have a question about Lost Asylum. And that's it for today. Smash that like, hit that subscribe, and I'll see you guys in the
+[11:05] next one. Bye-bye.
