@@ -26,7 +26,7 @@ videoTopic: compare
 
 | | | |
 |---|---|---|
-| **Cost** | ~11,500 diamonds (day-8 wheel) | $1 Day 1 top-up (or free Day 66 in Tavern) |
+| **Cost** | ~1,500 diamonds (7 free spins + milestone of 10 frags = full copy) | $1 Day 1 top-up (or free Day 66 in Tavern) |
 | **Early power** | Strong early carry (ranger UR) | Late bloomer — weak until high stars |
 | **Late game** | Lose 5% faction bonus + Harper/epigraph synergy | Core of the mono-Warrior meta |
 | **Wheel timing** | Must save diamonds days 1–8 | No diamond cost |

@@ -3,7 +3,7 @@ title: "Demon King: Event Schedule, Mage Vulnerability & 30-Sec March Trick"
 description: "Complete guide to the Demon King (Blight Ranger) world boss event in Last Asylum: Plague: Tuesday & Friday schedule, Mage counter bonus, 10 daily attacks, and the 30-second march recall trick."
 lang: en
 updated: "2026-09-15"
-videoTopic: beginner
+videoTopic: demon_king
 type: event
 ---
 

@@ -3,7 +3,7 @@ title: "🧠 Pro Tips, Hidden Mechanics & Secrets"
 description: "The complete encyclopedia of hidden mechanics in Last Asylum: Plague — construction buff snap-shotting, Ghost Rally defense tactics, hospital overflow mechanics, Claire conversion traps, tile pre-farming, and diamond economy secrets."
 lang: en
 updated: "2026-09-04"
-videoTopic: beginner
+videoTopic: tips
 ---
 
 Most mobile strategy games seem deceptively simple at first glance: upgrade buildings, level heroes, and tap buttons with red dots. However, beneath the surface of **Last Asylum: Plague** lies a sophisticated mathematical engine with dozens of unwritten rules that the game never explains.
@@ -266,7 +266,7 @@ Diamonds are the premier currency. While generous in the early game, reckless sp
 8. **The 4-Ground Split (1 Max + 3 Lv.10):** Parallel-farm T4 on 3 support grounds and promote on your main ground, saving 6–7 hours per cycle.
 9. **Super Reward 1 & 2 in Lab — Non-negotiable:** Without them, Duel chest tiers 4–9 remain permanently locked.
 10. **Never refine a tank's sword:** Gear stones belong on Carry Sword/Gloves and Tank Chest/Boots.
-11. **Never spend diamonds on raw Tavern pulls** — Save 11,500+ for the Wishing Wheel and VIP progression.
+11. **Never spend diamonds on raw Tavern pulls** — Save ~1,500 for the Wishing Wheel milestone (7 free spins + 3 paid = Cynthia copy) and push the rest into VIP progression.
 12. **Mono-faction beats hybrid setups** — Five heroes of the same class maximized with Raven Epigraphs dominate mixed comps.
 
 ---

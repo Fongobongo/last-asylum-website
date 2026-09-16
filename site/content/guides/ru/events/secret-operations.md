@@ -3,7 +3,7 @@ title: "Центр тайных операций: Шансы реролла, г�
 description: "Полный гайд по Центру тайных операций в Last Asylum: Plague: вероятности реролла (UR 8%, SSR 24%), гарант на 16-й сундук, сбор 7 фрагментов сокровищ, лимиты грабежа и VIP-уровни."
 lang: ru
 updated: "2026-09-15"
-videoTopic: beginner
+videoTopic: secret_operations
 type: event
 ---
 

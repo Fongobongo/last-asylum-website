@@ -82,7 +82,7 @@ The game drips its best heroes on a fixed schedule. Knowing the schedule in adva
 | Timing | What unlocks | What the community does |
 |---|---|---|
 | Day 1-2 | Arthur (UR) — free | Your day-one tank. Claim him immediately. |
-| Day 8 | Cynthia and Shadow — Wishing Wheel | Cynthia runs about 11,500 diamonds. Spin 10x only. |
+| Day 8 | Cynthia and Shadow — Wishing Wheel | Costs ~1,500 diamonds apiece: 7 free daily spins + milestone reward at 10 spins drops 10 fragments = a full copy. |
 | Day 36 / 43 / 57 / 64 / 72 / 85 | New UR hero events | A diamond-heavy stretch — plan reserves in advance. |
 | Day 1 / Day 66 | Marlena: available immediately for $1 (First Top-Up), appears in Tavern for free on Day 66 | Apex early carry. A $1 spend unlocks her Day 1; 100% F2P players recruit her for free from the Tavern on Day 66. |
 | Day 120+ (Era of Revival) | Daskal (UR tank); Claire SSR-to-UR conversion at Era Day 8 | Daskal is the best tank in the game; time the Claire conversion carefully. |
@@ -93,7 +93,7 @@ Arthur is given to every player in the first two days, he is UR rarity, and he i
 
 ### Cynthia and Shadow: Day 8 Wishing Wheel {#wishing-wheel-day-8}
 
-Day 8 brings the first Wishing Wheel featuring Cynthia and Shadow. Cynthia, the early-carry UR, costs roughly 11,500 diamonds to secure. Two hard rules from the community: save your diamonds until day 8 instead of spending them earlier, and only ever spin with 10x pulls — single spins waste diamonds on the same odds at a worse price.
+Day 8 brings the first Wishing Wheel featuring Cynthia and Shadow. Cynthia, the early-carry UR, costs roughly 1,500 diamonds total: the Wheel runs 7 days with one free spin daily, and the 10-spin milestone grants 10 fragments — the full hero. Two hard rules from the community: save your diamonds until Day 8 instead of spending them earlier, and stop the moment the milestone pays out — extra spins buy fragments you no longer need.
 
 ### The UR Event Train: Days 36-85 {#ur-event-train}
 

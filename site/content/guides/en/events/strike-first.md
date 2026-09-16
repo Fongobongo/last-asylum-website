@@ -50,7 +50,7 @@ Full completion of Strike First delivers game-changing starter value:
 ## ⚠️ 4 Fatal Beginner Mistakes to Avoid {#mistakes}
 
 ### 1. Blowing Free Diamonds on Standard Tavern Pulls
-The single biggest mistake new players make is dumping free diamonds into standard recruit pulls. **Do not do this.** On Day 8 of your server, the UR Ranger **Cynthia's Lucky Wheel** arrives — a strong early-carry pickup requiring banked diamonds (~11,500 for a copy). Only pull using free tickets; hoard diamonds for the Wheel and VIP progression.
+The single biggest mistake new players make is dumping free diamonds into standard recruit pulls. **Do not do this.** On Day 8 of your server, the UR Ranger **Cynthia's Lucky Wheel** arrives — 7 days of one free daily spin plus a 10-spin milestone that dumps 10 fragments — a full copy. Cover the gap with ~1,500 diamonds (3 extra spins) and the hero is yours; pull nothing before Day 8.
 
 ### 2. Disorganized Construction Queues
 Do not waste building queues on vanity upgrades or unnecessary resource plots. Always inspect the prerequisite buildings for the next Sanctuary level (typically Wall + Research Lab or Wall + Barracks) and upgrade **strictly along the critical path**.

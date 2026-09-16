@@ -21,6 +21,16 @@ The VIP shop takes diamonds, and most of its stock is a bad trade. The verified 
 
 And the full rule: **avoid everything else unless extreme necessity.** The shop is priced to tempt impatient players into converting diamonds into items the game gives away through events — hold the line.
 
+### The 10,000-Diamond Monthly VIP — the Best Diamond Investment in the Game
+
+The **Monthly VIP activation (10,000 diamonds)** is the single strongest diamond purchase available to any player, F2P included:
+
+- It banks that diamond spend into VIP progress that unlocks permanent economy and stat perks (extra trade, research speed, commodity perks) that no shop item can match for the price.
+- It stacks with the battle pass and daily packs — the 10K you spend here is saved, not spent.
+- **Renew it every month.** Missing a month is the classic F2P diamond-mistake: you grind back to 10K slower next time because you lost a month of boosted income.
+
+In the diamond-vs-item trade-off, Monthly VIP wins against every shop item; buy it first, then shop priorities above.
+
 ## Shop Restock Schedule {#restock-schedule}
 
 All shops restock on Monday. Plan your week around it: buy out your priorities Monday when stocks are full, run your Alliance Duel and Expedition income mid-week, then spend the weekend deciding what Monday's refresh owes you. Players who shop on Sunday buy a picked-clean shelf.
@@ -61,10 +71,11 @@ Free-to-play epigraph income is real, if you show up for it: 30 UR shards per da
 
 ## Diamond Rules: Wheels, Banners, and Milestones {#diamond-rules}
 
-1. **Save until day 8** for the Cynthia Wishing Wheel — she runs about 11,500 diamonds. Spin 10x only; single spins pay the same odds at a worse price.
-2. **After day 15, save for Joker's wheel** — the UR PvP finisher event. The mid-game diamond reserve exists for this.
-3. **Never dump diamonds into standard recruitment.** Wait for rate-up banners — same currency, better heroes.
-4. **Do not chase cumulative diamond-spend milestones** like Deep Sea's Gift. Spending diamonds just to cross a reward threshold is buying the milestone, not the value.
+1. **Forest for the trees: 10,000 diamonds → Monthly VIP.** Behind any wheel math, the best single diamond buy in the game is the 10K Monthly VIP — full stop.
+2. **Save until day 8** for the Cynthia Wishing Wheel — 7 free daily spins + 10-spin milestone (10 fragments = full copy) mean the real cost is ~1,500 diamonds in top-up spins. Stop after the milestone.
+3. **After day 15, save for Joker's wheel** — the UR PvP finisher event. The mid-game diamond reserve exists for this.
+4. **Never dump diamonds into standard recruitment.** Wait for rate-up banners — same currency, better heroes.
+5. **Do not chase cumulative diamond-spend milestones** like Deep Sea's Gift. Spending diamonds just to cross a reward threshold is buying the milestone, not the value.
 
 ### Best Packs ($20-200 Range) {#best-packs}
 

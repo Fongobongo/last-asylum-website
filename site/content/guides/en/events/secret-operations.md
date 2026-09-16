@@ -3,7 +3,7 @@ title: "Secret Operations Center: Reroll Odds, 16th Chest Pity & Treasure Maps"
 description: "Comprehensive guide to Secret Operations in Last Asylum: Plague: reroll odds (UR 8%, SSR 24%), 16th chest pity guarantee, 7-piece treasure maps, plunder caps, and VIP features."
 lang: en
 updated: "2026-09-15"
-videoTopic: beginner
+videoTopic: secret_operations
 type: event
 ---
 

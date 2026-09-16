@@ -4,7 +4,7 @@ description: "Official guide to maximizing combat Might in Last Asylum: Plague â
 lang: en
 type: guide
 updated: "2026-09-14"
-videoTopic: beginner
+videoTopic: might
 ---
 
 Many commanders make a critical mistake in **Last Asylum: Plague**: they chase raw profile Might by training endless hordes of low-tier soldiers. The result is what seasoned players call **"Paper Might"** â€” an impressive number on your profile that collapses in seconds against a refined combat squad, sending hundreds of thousands of troops straight into permanent hospital overflow death.

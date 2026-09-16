@@ -4,7 +4,7 @@ description: "Официальный гайд по эффективному на
 lang: ru
 type: guide
 updated: "2026-09-14"
-videoTopic: beginner
+videoTopic: might
 infographics: ["/infographics/squad-damage-guide-ru.png"]
 ---
 
