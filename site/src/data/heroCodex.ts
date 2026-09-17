@@ -6,7 +6,7 @@ export interface HeroCodex {
   exclusiveWeapon?: Record<string, string>;
   faction: 'Warrior' | 'Ranger' | 'Warlock';
   className: 'Tank' | 'Carry' | 'Support';
-  rarity: 'UR' | 'SSR';
+  rarity: 'UR' | 'SSR' | 'SR';
   tier: 'S' | 'A' | 'B' | 'C';
   role: string;
   howToGet: string;
@@ -556,5 +556,87 @@ export const heroCodex: HeroCodex[] = [
     skills: [{ name: 'Basic carry kit', desc: 'Placeholder for Cynthia/Red Lady.' }],
     buildTips: ['Do not over-invest'],
     teamNotes: 'Ranger squad placeholder.',
+  },
+  {
+        slug: 'durant',
+    name: 'Durant',
+    officialId: 40001,
+    names: {"en": "Durant", "ru": "Дюран"},
+    faction: 'Warrior',
+    className: 'Tank',
+    rarity: 'SR',
+    tier: 'C',
+    role: 'Starter-grade warrior tank. Purely a day-1 filler until Arthur lands.',
+    howToGet: 'SR shards (10 to unlock) from early missions and tavern pulls.',
+    skills: [
+      { name: 'Standard SR tank kit', desc: 'Front-line damage soak for early-game squads; no awakening or star breakpoints worth chasing.' },
+    ],
+    buildTips: [
+      'Never put skill badges in him — SR skill investment is sunk cost',
+      'Gear: chest + boots only, and only while he is your squad-1 tank',
+      'Replace with Arthur the moment he unlocks',
+    ],
+    teamNotes: 'Temporary frontliner. The F2P path replaces him with Arthur + Daskal/Bella/Lucius.',
+  },
+  {
+        slug: 'william',
+    name: 'William',
+    officialId: 40002,
+    names: {"en": "William", "ru": "Уильям"},
+    faction: 'Warrior',
+    className: 'Carry',
+    rarity: 'SR',
+    tier: 'C',
+    role: 'Early warrior DPS placeholder — the seat Claire or Marlena will own later.',
+    howToGet: 'SR shards (10 to unlock) from tavern and missions.',
+    skills: [
+      { name: 'Standard SR warrior kit', desc: 'Baseline warrior damage output; outclassed by any SSR carry within a week.' },
+    ],
+    buildTips: [
+      'No skill badges, no gear stars — his sword goes to your SSR/UR carry immediately',
+      'Runs fine as second-row filler until your Marlena/Claire arrives',
+      'Do not promote him past early levels',
+    ],
+    teamNotes: 'Filler body in early warrior squads until Marlena unlocks.',
+  },
+  {
+        slug: 'robin',
+    name: 'Robin',
+    officialId: 30011,
+    names: {"en": "Robin", "ru": "Робин"},
+    faction: 'Ranger',
+    className: 'Carry',
+    rarity: 'SR',
+    tier: 'C',
+    role: 'Hunter-adventurer SR ranger. Slot-filler for the day-1 squad before Cynthia.',
+    howToGet: 'SR shards (10 to unlock), tavern/missions.',
+    skills: [
+      { name: 'Standard SR ranger kit', desc: 'Baseline ranged damage; no signature effects worth investing in.' },
+    ],
+    buildTips: [
+      'Skip everything — badges and gear flow to Ash later (his boss-damage passive is the only SR-worth utility)',
+      'Swap for Cynthia the moment the Day-8 Lucky Wheel milestone pays out',
+    ],
+    teamNotes: 'Week-1 squad seat only.',
+  },
+  {
+        slug: 'kafa',
+    name: 'Kafa',
+    officialId: 30010,
+    names: {"en": "Kafa", "ru": "Кафа"},
+    faction: 'Warlock',
+    className: 'Carry',
+    rarity: 'SR',
+    tier: 'C',
+    role: 'Starting warlock fill. Joker/Annie marginalizes him the first week.',
+    howToGet: 'SR shards (10 to unlock), tavern/missions.',
+    skills: [
+      { name: 'Standard SR warlock kit', desc: 'Baseline warlock damage; be outshined by SSR members of the class.' },
+    ],
+    buildTips: [
+      'Do not invest — SR badges go nowhere but Ash\'s monster-damage buff',
+      'Gear priority zero; redistribute any drops to main carries immediately',
+    ],
+    teamNotes: 'Warlock day-1 filler until Joker/Annie unlock.',
   },
 ];
