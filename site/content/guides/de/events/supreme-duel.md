@@ -1,13 +1,13 @@
 ---
-title: "🏆 Leitfaden zum Event: Supreme Duel"
-description: "Meistere das serverübergreifende Supreme Duel Arena-Turnier in Last Asylum: Plague — Zeitplan ab Ära-Tag 58, 5 Turnierphasen, 3-Squad-Best-of-3-Meta, Vorhersagemünzen-Shop und Champion-Belohnungen."
+title: "🏆 Leitfaden zum Event: Großes Duell"
+description: "Meistere das serverübergreifende Großes Duell Arena-Turnier in Last Asylum: Plague — Zeitplan ab Ära-Tag 58, 5 Turnierphasen, 3-Squad-Best-of-3-Meta, Vorhersagemünzen-Shop und Champion-Belohnungen."
 lang: de
 type: event
 updated: "2026-09-14"
 videoTopic: arena
 ---
 
-**Supreme Duel** ist der erstklassige serverübergreifende Turniermodus, der in der Saison **Ära der Wiedergeburt** eingeführt wurde. Im Gegensatz zu gewöhnlichen Arena-Kämpfen auf dem lokalen Server lässt das Supreme Duel die besten Kommandanten aus **16 Kriegszonen** gegeneinander antreten, um den ultimativen Champion zu krönen.
+**Großes Duell** ist der erstklassige serverübergreifende Turniermodus, der in der Saison **Ära der Wiedergeburt** eingeführt wurde. Im Gegensatz zu gewöhnlichen Arena-Kämpfen auf dem lokalen Server lässt das Großes Duell die besten Kommandanten aus **16 Kriegszonen** gegeneinander antreten, um den ultimativen Champion zu krönen.
 
 Die herausragende Mechanik dieses Turniers sind **Virtuelle Truppen**. Es sterben keine Soldaten, Krankenhäuser laufen nie über und du verlierst bei einer Niederlage keine Ressourcen. Es ist ein reiner Test für taktischen Truppenaufbau, Konter-Mechaniken und strategische Vorbereitung.
 
@@ -53,7 +53,7 @@ Der Wettbewerb erstreckt sich über 5 verschiedene Phasen:
    * Runden mit hohen Einsätzen, in denen nur die besten Strategen weiterkommen.
 
 5. **Großes Finale:**
-   * Das ultimative Duell, um den erstplatzierten Champion des Supreme Duel zu ermitteln.
+   * Das ultimative Duell, um den erstplatzierten Champion des Großes Duell zu ermitteln.
 
 ---
 
@@ -61,7 +61,7 @@ Der Wettbewerb erstreckt sich über 5 verschiedene Phasen:
 
 Die Kampfmechaniken spiegeln die **Dreiecks-Arena** wider, jedoch auf die serverübergreifende Bühne gehoben:
 
-* **3 unabhängige Squads:** Du stellst Squad 1, Squad 2 und Squad 3 ohne sich überschneidende Helden auf.
+* **3 unabhängige Squads:** Du stellst Truppe 1, Truppe 2 und Truppe 3 ohne sich überschneidende Helden auf.
 * **Best-of-3-Serie:** Der Spieler, der zuerst 2 Squad-Siege erringt, gewinnt das Match.
 * **Die "Opfer-Squad"-Strategie:**
   Wenn ein Gegner ein extrem starkes "Wal"-Mega-Squad aufstellt, schicke nicht dein bestes Lineup dagegen. Weise dein schwächstes 3. Squad gegen deren Monster-Einheit zu (und opfere diese Runde), um mit deinen beiden Top-Squads die entscheidenden Siege in den verbleibenden zwei Duellen zu sichern.

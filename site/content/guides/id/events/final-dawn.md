@@ -1,13 +1,13 @@
 ---
-title: "Final Dawn: Sprint Perkembangan Markas 7 Hari"
-description: "Panduan komprehensif untuk event awal permainan 'Final Dawn' yang krusial di Last Asylum: Plague: 4 fase progresif (Fondasi, Power Push, Major Push, Final Push), matriks prioritas, dan penghematan speedup."
+title: "Cahaya Fajar Terakhir: Sprint Perkembangan Markas 7 Hari"
+description: "Panduan komprehensif untuk event awal permainan 'Cahaya Fajar Terakhir' yang krusial di Last Asylum: Plague: 4 fase progresif (Fondasi, Power Push, Major Push, Final Push), matriks prioritas, dan penghematan speedup."
 lang: id
 updated: "2026-09-14"
 videoTopic: final_dawn
 type: event
 ---
 
-Event **Final Dawn** adalah tonggak perkembangan 7 hari yang definitif dalam perjalanan awal Anda di Last Asylum: Plague. Fokus utamanya adalah mempercepat Sanctuary Might Anda dan membuka hadiah milestone bertingkat secara stabil: speedup universal, peti sumber daya besar, fragmen hero, dan perlengkapan penting.
+Event **Cahaya Fajar Terakhir** adalah tonggak perkembangan 7 hari yang definitif dalam perjalanan awal Anda di Last Asylum: Plague. Fokus utamanya adalah mempercepat Kuil Might Anda dan membuka hadiah milestone bertingkat secara stabil: speedup universal, peti sumber daya besar, fragmen hero, dan perlengkapan penting.
 
 Disusun oleh komandan veteran (oψsvge英俊的, Server K250), panduan ini menyediakan cetak biru taktis fase demi fase untuk seluruh linimasa 7 hari.
 
@@ -16,17 +16,17 @@ Disusun oleh komandan veteran (oψsvge英俊的, Server K250), panduan ini menye
 ## 📅 4 Fase Taktis Rencana 7 Hari {#phases}
 
 ### Fase 1: Hari 1–2 — Fondasi
-- **Fokus Utama:** Memajukan level Sanctuary (Markas) dengan cepat.
-- Tingkatkan hanya bangunan yang benar-benar diperlukan sebagai prasyarat untuk tingkat Sanctuary berikutnya.
+- **Fokus Utama:** Memajukan level Kuil (Markas) dengan cepat.
+- Tingkatkan hanya bangunan yang benar-benar diperlukan sebagai prasyarat untuk tingkat Kuil berikutnya.
 - Pastikan Riset berjalan terus-menerus 24/7 tanpa satu detik pun waktu antrean yang menganggur.
-- Rekrut Survivor dan segera tugaskan mereka ke fasilitas produksi utama.
+- Rekrut Penyintas dan segera tugaskan mereka ke fasilitas produksi utama.
 - **Aturan Utama:** Jangan biarkan pembangun konstruksi atau riset menganggur.
 
 ### Fase 2: Hari 3–4 — Power Push
 - **Fokus Utama:** Meningkatkan kekuatan tempur hero, tingkat skill, dan kekuatan militer.
-- Salurkan Antitoxin ke hero carry utama dan tank garis depan Anda (Arthur, Claire, Marlena).
+- Salurkan Antitoxin ke hero carry utama dan tank garis depan Anda (Arthur, Clea, Marlena).
 - Tingkatkan level skill hero dan lengkapi set perlengkapan awal.
-- Targetkan bangunan dengan Might tinggi: Sanctuary, Barracks, dan Raven Tower.
+- Targetkan bangunan dengan Might tinggi: Kuil, Barracks, dan Raven Tower.
 - Berpartisipasi aktif dalam bantuan Aliansi untuk memangkas waktu timer bangunan.
 
 ### Fase 3: Hari 5–6 — Major Push
@@ -38,19 +38,19 @@ Disusun oleh komandan veteran (oψsvge英俊的, Server K250), panduan ini menye
 
 ### Fase 4: Hari 7 — FINAL PUSH 🔥
 - **Fokus Utama:** Audit milestone dan menyapu semua hadiah yang tersisa.
-- Audit dasbor event Final Dawn untuk mengidentifikasi ambang batas milestone yang belum tercapai.
+- Audit dasbor event Cahaya Fajar Terakhir untuk mengidentifikasi ambang batas milestone yang belum tercapai.
 - Cairkan sisa speedup, Hero EXP, material Raven, dan cadangan sumber daya.
 - Selesaikan peningkatan spesifik yang memberikan nilai Might-per-menit tertinggi.
-- **PENTING:** Klaim setiap peti milestone Final Dawn sebelum reset server (00:00 Waktu Server / 02:00 UTC)!
+- **PENTING:** Klaim setiap peti milestone Cahaya Fajar Terakhir sebelum reset server (00:00 Waktu Server / 02:00 UTC)!
 
 ---
 
 ## 🏆 Rantai Prioritas Emas {#priorities}
 
 Saat mengalokasikan pembangun, speedup, dan material, patuhi urutan ini dengan ketat:
-$$\text{Sanctuary} \longrightarrow \text{Bangunan Prasyarat} \longrightarrow \text{Riset} \longrightarrow \text{Hero} \longrightarrow \text{Pasukan} \longrightarrow \text{Sumber Daya} \longrightarrow \text{Aliansi}$$
+$$\text{Kuil} \longrightarrow \text{Bangunan Prasyarat} \longrightarrow \text{Riset} \longrightarrow \text{Hero} \longrightarrow \text{Pasukan} \longrightarrow \text{Sumber Daya} \longrightarrow \text{Aliansi}$$
 
-1. **Sanctuary:** Mendorong batas akun dan memberikan lonjakan Might terbesar.
+1. **Kuil:** Mendorong batas akun dan memberikan lonjakan Might terbesar.
 2. **Prasyarat:** Wall, Laboratorium, dan Military Barracks.
 3. **Riset:** Kekuatan teknologi permanen yang tidak bisa dijarah.
 4. **Hero:** Level, peringkat bintang, dan breakpoint skill aktif untuk skuad pertama Anda.

@@ -1,13 +1,13 @@
 ---
-title: "🏆 Panduan Event Supreme Duel"
-description: "Kuasai turnamen arena lintas server Supreme Duel di Last Asylum: Plague — Jadwal Era Hari ke-58, 5 fase turnamen, meta 3-pasukan best-of-3, toko koin prediksi, dan hadiah juara."
+title: "🏆 Panduan Event Duel Tertinggi"
+description: "Kuasai turnamen arena lintas server Duel Tertinggi di Last Asylum: Plague — Jadwal Era Hari ke-58, 5 fase turnamen, meta 3-pasukan best-of-3, toko koin prediksi, dan hadiah juara."
 lang: id
 type: event
 updated: "2026-09-14"
 videoTopic: arena
 ---
 
-**Supreme Duel** adalah mode turnamen lintas server utama yang diperkenalkan pada musim **Era of Revival**. Berbeda dengan pertarungan arena server lokal biasa, Supreme Duel mengadu komandan terbaik dari **16 Warzone** untuk memperebutkan gelar juara tertinggi.
+**Duel Tertinggi** adalah mode turnamen lintas server utama yang diperkenalkan pada musim **Era of Revival**. Berbeda dengan pertarungan arena server lokal biasa, Duel Tertinggi mengadu komandan terbaik dari **16 Warzone** untuk memperebutkan gelar juara tertinggi.
 
 Mekanik utama dari turnamen ini adalah **Virtual Troops (Pasukan Virtual)**. Tidak ada prajurit yang mati, rumah sakit tidak akan pernah penuh, dan Anda tidak kehilangan sumber daya apa pun saat kalah. Ini adalah ujian murni dalam menyusun formasi taktis, mekanik kontra, dan persiapan strategis.
 
@@ -18,7 +18,7 @@ Mekanik utama dari turnamen ini adalah **Virtual Troops (Pasukan Virtual)**. Tid
 * **Tonggak Pencapaian Pembukaan:** Terbuka pada **Hari ke-58 Era of Revival** (dapat dilacak melalui Bangunan Milestone).
 * **Durasi:** 27 hari.
 * **Cakupan:** 16 Warzone yang dikelompokkan.
-* **Persyaratan:** Level Sanctuary **20 atau lebih tinggi**.
+* **Persyaratan:** Level Kuil **20 atau lebih tinggi**.
 
 > [!TIP]
 > Meskipun Anda tidak mengincar posisi nomor 1, selalu daftarkan diri Anda! Setiap peserta menerima hadiah yang dijamin untuk pendaftaran dan pertandingan babak penyisihan.
@@ -37,7 +37,7 @@ Kompetisi berlangsung melalui 5 tahap yang berbeda:
 ```
 
 1. **Pendaftaran:**
-   * Semua komandan dengan Sanctuary Lv. 20+ mengirimkan entri mereka di antarmuka event.
+   * Semua komandan dengan Kuil Lv. 20+ mengirimkan entri mereka di antarmuka event.
    * Kunci 3 pasukan pertahanan dan penyerangan Anda.
 
 2. **Penyisihan (Babak Grup):**
@@ -53,7 +53,7 @@ Kompetisi berlangsung melalui 5 tahap yang berbeda:
    * Babak dengan taruhan tinggi di mana hanya ahli strategi terbaik yang akan maju.
 
 5. **Grand Final:**
-   * Pertarungan puncak untuk menentukan Juara pertama Supreme Duel.
+   * Pertarungan puncak untuk menentukan Juara pertama Duel Tertinggi.
 
 ---
 
@@ -78,7 +78,7 @@ Selama tahap Rematch dan Playoff, setiap pemain di setiap server (termasuk merek
 * **Toko Prediksi Eksklusif:** Tukarkan koin dengan item bernilai tinggi:
   * UR Hero Omni Shards
   * Gear Promotion Blueprints
-  * Rare Raven Epigraph Chests
+  * Rare Prasasti Raven Chests
   * Bundel Speedup dan Diamond dalam jumlah besar
 
 ---

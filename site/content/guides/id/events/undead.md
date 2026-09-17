@@ -1,5 +1,5 @@
 ---
-title: "Undead Siege: Panduan Lengkap"
+title: "Pengepungan Ghoul: Panduan Lengkap"
 description: "Pertahanan aliansi melawan gelombang terinfeksi: bar petunjuk 300.000, tingkat kesulitan dari 2,4 Juta hingga 24,5 Juta Enemy Might, mekanik multi-pasukan tersembunyi yang menghancurkan pemain 9,5 Juta, dan tabel hadiah lengkap."
 lang: id
 updated: "2026-09-03"
@@ -9,7 +9,7 @@ infographics: ["/infographics/undead-siege-guide.webp", "/infographics/undead-si
 type: event
 ---
 
-Undead Siege adalah acara pertahanan aliansi: seluruh aliansi Anda berdiri melawan **gelombang terinfeksi**, dengan pahlawan di tembok yang melakukan pertempuran. Dua aturan mendefinisikannya sebelum hal lain: **perisai tidak berfungsi**, dan ini **bukan acara poin** — tujuannya adalah untuk mempertahankan sebanyak mungkin gelombang.
+Pengepungan Ghoul adalah acara pertahanan aliansi: seluruh aliansi Anda berdiri melawan **gelombang terinfeksi**, dengan pahlawan di tembok yang melakukan pertempuran. Dua aturan mendefinisikannya sebelum hal lain: **perisai tidak berfungsi**, dan ini **bukan acara poin** — tujuannya adalah untuk mempertahankan sebanyak mungkin gelombang.
 
 Panduan ini mencakup bagaimana pengepungan terbuka, tangga kesulitan, mekanik multi-pasukan tersembunyi yang memusnahkan aliansi yang tidak siap, hadiah, dan tujuh kesalahan utama.
 
@@ -18,17 +18,17 @@ Panduan ini mencakup bagaimana pengepungan terbuka, tangga kesulitan, mekanik mu
 Pengepungan tidak menggunakan pengatur waktu — aliansi Anda yang memicunya (acara menjadi tersedia untuk Aliansi **2 minggu setelah peluncuran server** — pembaruan 9 Juli 2026):
 
 1. Isi bar **300.000 Poin Petunjuk**.
-2. Seorang **R4 atau R5 menemukan Death Prison tersembunyi** di peta.
+2. Seorang **R4 atau R5 menemukan Penjara Narapidana tersembunyi** di peta.
 3. Pemimpin tersebut **memulai pengepungan dan memilih tingkat kesulitan**.
 4. Pengepungan dimulai sekitar **4 jam setelah diklik** — gunakan jeda waktu tersebut agar setiap anggota menempatkan pahlawan mereka di tembok.
 
 Poin petunjuk berasal dari permainan harian normal:
 
-- Menyerang **Rebel** dan **Blight Legion**
+- Menyerang **Rebel** dan **Ghoul Legion**
 - Membunuh **Wandering Blights**
 - Mengumpulkan sumber daya di ubin
 - Membantu sekutu (ketukan bantuan-membangun dan bantuan-penelitian)
-- Menjalankan **Alliance Excavation**
+- Menjalankan **Penggalian Guild**
 - Menyelesaikan **Falcon Quests**
 
 Aliansi yang aktif mengisi bar melalui permainan biasa; bar tersebut bukanlah hambatan, kesiapanlah yang menjadi kuncinya.

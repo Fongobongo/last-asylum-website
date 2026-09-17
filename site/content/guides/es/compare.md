@@ -59,9 +59,9 @@ videoTopic: compare
 
 <!-- video: -9Nysk8pcns -->
 
-## Shadow vs Lucius — segundo tanque {#shadow-vs-lucius}
+## Sombra vs Lucio — segundo tanque {#shadow-vs-lucius}
 
-**✓ Lucius gratis ahora; Shadow si compras el Pase de Héroe**
+**✓ Lucio gratis ahora; Sombra si compras el Pase de Héroe**
 
 | | | |
 |---|---|---|
@@ -77,7 +77,7 @@ videoTopic: compare
 | | | |
 |---|---|---|
 | **Rol** | Tanque de daño de reflejo (renombrado de Brian) | Tanque anti-CC y debilitador |
-| **Habilidad Clave** | Reflejar daño + supervivencia | Inmunidad a aturdimiento (contrarresta a Red Lady) + −8% de daño de energía recibido |
+| **Habilidad Clave** | Reflejar daño + supervivencia | Inmunidad a aturdimiento (contrarresta a Dama Roja) + −8% de daño de energía recibido |
 | **Debuff** | Reducción de daño de monstruos | Debuff de +daño recibido aplicado a 3 enemigos aleatorios (Verdad y Mentiras) |
-| **Fuente** | Invocación UR / Banner del Día 43 | Pase de Héroe / Oferta Diaria del Día 85 |
+| **Fuente** | Invocación UR / Estandarte del Día 43 | Pase de Héroe / Oferta Diaria del Día 85 |
 | **Veredicto** | Primera línea de apoyo de Warlocks mono | Obligatorio en PvP contra el control de masas de Guardabosques |

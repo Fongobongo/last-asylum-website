@@ -9,7 +9,7 @@ infographics: ["/infographics/undead-siege-guide.webp", "/infographics/undead-si
 type: event
 ---
 
-El Asedio de los No Muertos (Undead Siege) es el evento de defensa de la alianza: toda tu alianza se enfrenta a **oleadas de infectados**, con héroes en el muro encargados de la lucha. Dos reglas lo definen por encima de todo: **los escudos no funcionan** y **no es un evento de puntos**; el objetivo es defender tantas oleadas como sea posible.
+El Asedio de los No Muertos (Asedio de no muertos) es el evento de defensa de la alianza: toda tu alianza se enfrenta a **oleadas de infectados**, con héroes en el muro encargados de la lucha. Dos reglas lo definen por encima de todo: **los escudos no funcionan** y **no es un evento de puntos**; el objetivo es defender tantas oleadas como sea posible.
 
 Esta guía cubre cómo se desbloquean los asedios, la escala de dificultad, la mecánica oculta de escuadrones múltiples que acaba con las alianzas desprevenidas, las recompensas y los siete errores principales.
 
@@ -24,7 +24,7 @@ Los asedios no tienen un temporizador fijo; tu alianza los activa (el evento est
 
 Los puntos de pista se obtienen mediante el juego diario normal:
 
-- Atacar **Rebeldes** y la **Legión de la Plaga** (Blight Legion)
+- Atacar **Rebeldes** y la **Legión de la Plaga** (Infectado Legion)
 - Eliminar **Plagas Errantes** (Wandering Blights)
 - Recolectar recursos en nodos
 - Ayudar a aliados (toques de ayuda en construcción e investigación)

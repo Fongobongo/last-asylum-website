@@ -1,13 +1,13 @@
 ---
-title: "Crystal Cluster Valley: Rute Farming Poin F2P"
-description: "Panduan event Crystal Cluster Valley: farming red-mob (1,5K poin per ekor), hit tambang sebesar 5K poin/menit, disiplin waktu skill, dan trik stopwatch untuk memaksimalkan perolehan poin."
+title: "Lembah Kristal: Rute Farming Poin F2P"
+description: "Panduan event Lembah Kristal: farming red-mob (1,5K poin per ekor), hit tambang sebesar 5K poin/menit, disiplin waktu skill, dan trik stopwatch untuk memaksimalkan perolehan poin."
 lang: id
 updated: "2026-09-16"
 videoTopic: crystal
 type: event
 ---
 
-**Crystal Cluster Valley** adalah event bergaya battle-royale berbatas waktu: Anda menghabiskan sesi tetap di peta bersama untuk membunuh mob netral berwarna merah dan menambang kristal, dan skor Anda — bukan jumlah kill terhadap pemain lain — yang menentukan tingkatan hadiah. Pemain F2P dan whale memulai peta dengan pijakan yang sama; disiplin mengalahkan isi dompet.
+**Lembah Kristal** adalah event bergaya battle-royale berbatas waktu: Anda menghabiskan sesi tetap di peta bersama untuk membunuh mob netral berwarna merah dan menambang kristal, dan skor Anda — bukan jumlah kill terhadap pemain lain — yang menentukan tingkatan hadiah. Pemain F2P dan whale memulai peta dengan pijakan yang sama; disiplin mengalahkan isi dompet.
 
 ## Matematika Papan Skor {#scoring}
 

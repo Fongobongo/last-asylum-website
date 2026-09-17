@@ -1,5 +1,5 @@
 ---
-title: "Elixir Scramble: Cómo ganar"
+title: "Disputa de Elixir: Cómo ganar"
 description: "Un campo de batalla de alianza contra alianza de 30 minutos: cinco etapas, puntuación basada en el control, prioridad de las Tiendas de Curación, reglas de teletransporte y el error en el muro que termina tu partida en 10 minutos."
 lang: es
 updated: "2026-09-03"
@@ -9,7 +9,7 @@ infographics: ["/infographics/elixir-guide.webp", "/infographics/elixir-strategy
 type: event
 ---
 
-Elixir Scramble es un **campo de batalla de alianza contra alianza de 30 minutos** donde el ganador se decide por puntos, no por quién mata más tropas. Las alianzas que lo tratan como un combate a muerte pierden siempre frente a las alianzas que lo tratan como un juego de control de mapa.
+Disputa de Elixir es un **campo de batalla de alianza contra alianza de 30 minutos** donde el ganador se decide por puntos, no por quién mata más tropas. Las alianzas que lo tratan como un combate a muerte pierden siempre frente a las alianzas que lo tratan como un juego de control de mapa.
 
 Esta guía cubre las cinco etapas del evento, de dónde provienen realmente los puntos, las reglas de teletransporte, la lógica de defensa y el error que termina una partida antes de que comience.
 
@@ -56,7 +56,7 @@ Los edificios reclamados **no** necesitan una guarnición para seguir generando 
 
 ## CRÍTICO: Retira los escuadrones de tu muro antes del inicio {#wall-warning}
 
-> Si tus escuadrones siguen en tu muro cuando comienza el Elixir Scramble, puedes perder tus tropas en menos de 10 minutos, y tu evento habrá terminado para los 20 minutos restantes.
+> Si tus escuadrones siguen en tu muro cuando comienza el Disputa de Elixir, puedes perder tus tropas en menos de 10 minutos, y tu evento habrá terminado para los 20 minutos restantes.
 
 Los escuadrones en el muro quedan atrapados en la oleada inicial de ataques, y los escuadrones muertos dentro del evento permanecen muertos durante toda la media hora. Durante la etapa de preparación de entrada, la lista de verificación es:
 
@@ -76,4 +76,4 @@ El patrón ganador, resumido:
 - **Prioriza los edificios de alta puntuación.** Primero el Castillo de Elixir, luego las Tiendas de Curación y los Campamentos cuando aparezcan.
 - **Nunca vayas solo.** Un solo escuadrón atacando un punto defendido muere solo y no contribuye en nada. Muévete con tu alianza o no te muevas.
 
-Elixir Scramble recompensa la disciplina sobre el poder. Una alianza más débil que mantiene los edificios correctos y nunca deja de rotar vencerá a una alianza más fuerte que persigue bajas, porque las bajas nunca valieron nada.
+Disputa de Elixir recompensa la disciplina sobre el poder. Una alianza más débil que mantiene los edificios correctos y nunca deja de rotar vencerá a una alianza más fuerte que persigue bajas, porque las bajas nunca valieron nada.

@@ -22,13 +22,13 @@ Use nossa ferramenta de busca interativa abaixo! Basta digitar uma palavra-chave
 ## Visão Geral das Categorias de Perguntas
 
 * **Mecânicas Gerais:** Limites de saque (Caravanas: 4/dia, Operações Secretas: 5/dia), intervalo de coleta de energia (4 horas) e progressão do acampamento de exploradores.
-* **Edifícios e Portões:** Nível de desbloqueio do Equipamento Raven (**Sanctuary 15**), produção de antitoxina (Antitoxin Workshop) e mecânicas do campo de treinamento.
+* **Edifícios e Portões:** Nível de desbloqueio do Equipamento Raven (**Santuário 15**), produção de antitoxina (Antitoxin Workshop) e mecânicas do campo de treinamento.
 * **Facções e Contadores:** O triângulo de contadores pedra-papel-tesoura:
   * **Guerreiro (Warrior) vence Bruxo (Warlock)**
   * **Bruxo (Warlock) vence Patrulheiro (Ranger)**
   * **Patrulheiro (Ranger) vence Guerreiro (Warrior)**
   * Implantar 5 heróis da mesma facção concede a amplificação máxima de atributos do esquadrão (+25% ATK e HP).
 * **Marcos VIP:** Distintivo VIP no chat (**VIP 3**), Expedição Rápida (**VIP 8**), Despacho Automático de Operações Secretas (**VIP 10**) e Super Modo (**VIP 12**).
-* **Lore do Jogo:** O Rei Rato (Rat King) feriu Celia, William foi o primeiro paciente resgatado e as máscaras dos Médicos da Peste (Plague Doctor) são preenchidas com especiarias e ervas aromáticas.
+* **Lore do Jogo:** O Rei Rato (Rei dos Ratos) feriu Celia, William foi o primeiro paciente resgatado e as máscaras dos Médicos da Peste (Plague Doctor) são preenchidas com especiarias e ervas aromáticas.
 
 ---

@@ -15,14 +15,14 @@ Wenn du alle 15 Fragen korrekt beantwortest, erhältst du die Meilenstein-Truhen
 
 ## So erreichst du jedes Mal 15/15
 
-Nutze unser interaktives Suchwerkzeug unten! Gib einfach ein Schlüsselwort aus der Frage ein (z. B. `Sanctuary`, `Raven`, `Celia`, `15`, `Rat King`), und die verifizierte Antwort der Community erscheint sofort.
+Nutze unser interaktives Suchwerkzeug unten! Gib einfach ein Schlüsselwort aus der Frage ein (z. B. `Zuflucht`, `Raven`, `Celia`, `15`, `Rattenkönig`), und die verifizierte Antwort der Community erscheint sofort.
 
 ---
 
 ## Überblick über die wichtigsten Fragenkategorien
 
 * **Allgemeine Mechaniken:** Plünderungslimits (Karawanen: 4/Tag, Verdeckte Operationen: 5/Tag), Intervall für die Ausdauer-Abholung (4 Stunden) und Fortschritt im Entdeckerlager.
-* **Gebäude & Tore:** Freischaltlevel für Raven-Ausrüstung (**Sanctuary 15**), Antitoxin-Produktion (Antitoxin-Werkstatt) und Mechaniken der Trainingsgelände.
+* **Gebäude & Tore:** Freischaltlevel für Raven-Ausrüstung (**Zuflucht 15**), Antitoxin-Produktion (Antitoxin-Werkstatt) und Mechaniken der Trainingsgelände.
 * **Fraktionen & Konter:** Das Schere-Stein-Papier-Kontersystem:
   * **Krieger kontert Hexenmeister**
   * **Hexenmeister kontert Waldläufer**

@@ -1,5 +1,5 @@
 ---
-title: "Elixir Scramble: Como Vencer"
+title: "Luta pelo Elixir: Como Vencer"
 description: "Um campo de batalha de aliança contra aliança de 30 minutos: cinco estágios, pontuação baseada em controle, prioridade para a Tenda de Cura, regras de teletransporte e o erro no muro que acaba com sua partida em 10 minutos."
 lang: pt
 updated: "2026-09-03"
@@ -9,7 +9,7 @@ infographics: ["/infographics/elixir-guide.webp", "/infographics/elixir-strategy
 type: event
 ---
 
-O Elixir Scramble é um **campo de batalha de aliança contra aliança de 30 minutos**, onde o vencedor é decidido por pontos, não por quem mata mais tropas. Alianças que tratam isso como um mata-mata perdem para alianças que tratam como um jogo de controle de mapa — todas as vezes.
+O Luta pelo Elixir é um **campo de batalha de aliança contra aliança de 30 minutos**, onde o vencedor é decidido por pontos, não por quem mata mais tropas. Alianças que tratam isso como um mata-mata perdem para alianças que tratam como um jogo de controle de mapa — todas as vezes.
 
 Este guia cobre os cinco estágios do evento, de onde os pontos realmente vêm, regras de teletransporte, lógica de defesa e o único erro que acaba com uma partida antes mesmo de começar.
 
@@ -56,7 +56,7 @@ Edifícios reivindicados **não** precisam de uma guarnição para continuar ger
 
 ## CRÍTICO: Remova os esquadrões do seu muro antes do início {#wall-warning}
 
-> Se seus esquadrões ainda estiverem no seu muro quando o Elixir Scramble começar, você pode perder suas tropas em menos de 10 minutos — e seu evento acaba pelos 20 minutos restantes.
+> Se seus esquadrões ainda estiverem no seu muro quando o Luta pelo Elixir começar, você pode perder suas tropas em menos de 10 minutos — e seu evento acaba pelos 20 minutos restantes.
 
 Esquadrões no muro são pegos na onda inicial de ataques, e esquadrões mortos dentro do evento ficam mortos pela meia hora inteira. Durante o estágio de preparação de entrada, a lista de verificação é:
 
@@ -76,4 +76,4 @@ O padrão vencedor, resumido:
 - **Priorize edifícios de alta pontuação.** O Castelo de Elixir primeiro, Tendas de Cura cedo, Acampamentos quando surgirem.
 - **Nunca vá sozinho.** Um único esquadrão atacando um ponto defendido morre sozinho e não contribui com nada. Mova-se com sua aliança ou não se mova.
 
-O Elixir Scramble recompensa a disciplina acima do poder. Uma aliança mais fraca que mantém os edifícios certos e nunca para de girar vencerá uma aliança mais forte que persegue abates — porque abates nunca valeram nada.
+O Luta pelo Elixir recompensa a disciplina acima do poder. Uma aliança mais fraca que mantém os edifícios certos e nunca para de girar vencerá uma aliança mais forte que persegue abates — porque abates nunca valeram nada.

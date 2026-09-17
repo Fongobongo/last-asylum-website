@@ -19,7 +19,7 @@ Panduan ini membahas peran dan aturan peti wagon, Golden Wagon, strategi karavan
 - Saat layar pembayaran muncul, artinya **jatah gratis sudah digunakan** — itu adalah tanda bahwa lari gratis harian sudah habis untuk seluruh aliansi.
 - **Tersedia lari tambahan berbayar — hampir tidak ada yang membelinya.** Abaikan paywall tersebut.
 - **Level Guild Gift meningkatkan level wagon** — hadiah toko yang meningkatkan level gift juga meningkatkan hasil jarahan wagon.
-- **Privilese Alliance Gift Lv. 25 (September 2026):** Mencapai Alliance Gift Lv. 25 secara permanen memberikan keuntungan tambahan: **setiap Regular Wagon dari Alliance Trade Caravan membawa 1 penumpang tambahan**, yang secara signifikan meningkatkan hadiah pasif harian bagi anggota.
+- **Privilese Hadiah Guild Lv. 25 (September 2026):** Mencapai Hadiah Guild Lv. 25 secara permanen memberikan keuntungan tambahan: **setiap Regular Wagon dari Alliance Trade Caravan membawa 1 penumpang tambahan**, yang secara signifikan meningkatkan hadiah pasif harian bagi anggota.
 
 ## Wagon Master, Penjaga (Guards), dan VIP {#wagon-master}
 
@@ -58,8 +58,8 @@ Baca baris terakhir itu dua kali — **Master menerima SEMUA item dari keempat w
    - **Setiap kereta dapat dijarah hingga 3 kali** (penjarah dapat mencuri hingga 3 slot kargo).
    - Penjaga dengan kekuatan tinggi mencegah kerugian dan memastikan pembayaran 100% untuk semua peserta!
 
-3. **Pencapaian Level Alliance Gift:**
-   - Saat Alliance Gift mencapai **Lv. 8, Lv. 12, Lv. 16, Lv. 20, dan Lv. 25**, karavan gratis harian mendapatkan ekspansi kapasitas permanen dan pengali hadiah.
+3. **Pencapaian Level Hadiah Guild:**
+   - Saat Hadiah Guild mencapai **Lv. 8, Lv. 12, Lv. 16, Lv. 20, dan Lv. 25**, karavan gratis harian mendapatkan ekspansi kapasitas permanen dan pengali hadiah.
    - Membeli Golden Caravan secara instan membuka semua privilese tingkat maksimal tanpa penundaan.
 
 ## Karavan: Strategi Shard UR {#caravans}
@@ -69,14 +69,14 @@ Karavan adalah event karavan harian yang berjalan bersamaan dengan wagon:
 - Keputusan inti: **karavan mana yang akan diserang, cara mengatur karavan aliansi Anda, dan memaksimalkan hadiah harian.**
 - **Karavan dan Covert Ops tidak pernah dihitung dalam batas penjarahan** — mereka dikecualikan dari batas harian yang mengatur penjarahan normal (lihat [panduan Ekonomi](/id/economy/)).
 - **Tidak ada kehilangan pasukan nyata, tidak ada biaya stamina.** Tanpa risiko, setiap hari.
-- **SELALU jalankan.** Dan ingat dari panduan [KvK](/id/events/kvk/): **karavan dan Covert Ops memberikan skor untuk KvK dan Alliance Duel** — satu kali jalan mendapatkan dua keuntungan.
+- **SELALU jalankan.** Dan ingat dari panduan [KvK](/id/events/kvk/): **karavan dan Covert Ops memberikan skor untuk KvK dan Pertarungan Guild** — satu kali jalan mendapatkan dua keuntungan.
 
 ### Rutinitas karavan harian Korpez
 
 - **Serang hanya karavan yang membawa 2+ shard UR yang terlihat di pratinjau jarahan.** Pembawa 2 shard sering kali menjatuhkan 1 per serangan; target dengan 3–4 shard lebih langka dan layak diserang dua kali. Lewati semua yang tidak menampilkan shard UR.
 - **Kirim karavan Anda sendiri di akhir hari Anda** (pemain yang akan tidur = lebih sedikit penjarah yang online). Perjalanan 4–5 jam per karavan dengan mudah mencakup waktu malam. Jangan pernah mengirim 3 karavan sekaligus — rotasikan 2 dan atur waktunya agar tidak bersamaan.
 - **Jaga dengan pasukan utama Anda** — pertahanan karavan lebih penting daripada tingkatannya. Tukar sebelum mengirim.
-- **Simpan refresh karavan tingkat UR untuk hari Alliance Duel** — hanya saat itulah kotak centang misi penting; jika tidak, terima saja yang berwarna ungu standar.
+- **Simpan refresh karavan tingkat UR untuk hari Pertarungan Guild** — hanya saat itulah kotak centang misi penting; jika tidak, terima saja yang berwarna ungu standar.
 - **Bagikan laporan penjarahan di obrolan aliansi** — laporan karavan dapat dibagikan langsung dari tab Catatan, sehingga sekutu dapat menyerang target yang sama.
 
 ## Menjarah Server Lain {#plundering-servers}

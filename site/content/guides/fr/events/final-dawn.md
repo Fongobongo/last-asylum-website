@@ -1,13 +1,13 @@
 ---
-title: "Final Dawn : Sprint de progression de base sur 7 jours"
-description: "Guide complet de l'événement crucial de début de jeu 'Final Dawn' dans Last Asylum: Plague : 4 phases progressives (Fondations, Montée en puissance, Poussée majeure, Poussée finale), matrice de priorité et conservation des accélérations."
+title: "Aube ultime : Sprint de progression de base sur 7 jours"
+description: "Guide complet de l'événement crucial de début de jeu 'Aube ultime' dans Last Asylum: Plague : 4 phases progressives (Fondations, Montée en puissance, Poussée majeure, Poussée finale), matrice de priorité et conservation des accélérations."
 lang: fr
 updated: "2026-09-14"
 videoTopic: final_dawn
 type: event
 ---
 
-L'événement **Final Dawn** est le jalon de développement définitif de 7 jours de votre début de parcours dans Last Asylum: Plague. Son objectif principal est d'accélérer la Puissance de votre Sanctuaire et de débloquer progressivement des récompenses par paliers : accélérations universelles, caisses de ressources massives, fragments de héros et équipement essentiel.
+L'événement **Aube ultime** est le jalon de développement définitif de 7 jours de votre début de parcours dans Last Asylum: Plague. Son objectif principal est d'accélérer la Puissance de votre Sanctuaire et de débloquer progressivement des récompenses par paliers : accélérations universelles, caisses de ressources massives, fragments de héros et équipement essentiel.
 
 Formulé par des commandants vétérans (oψsvge英俊的, Serveur K250), ce guide fournit un plan tactique phase par phase pour l'ensemble du calendrier de 7 jours.
 
@@ -38,10 +38,10 @@ Formulé par des commandants vétérans (oψsvge英俊的, Serveur K250), ce gui
 
 ### Phase 4 : Jour 7 — POUSSÉE FINALE 🔥
 - **Objectif principal :** Audit des paliers et récupération de toutes les récompenses restantes.
-- Auditez le tableau de bord de l'événement Final Dawn pour identifier les seuils de palier non atteints.
+- Auditez le tableau de bord de l'événement Aube ultime pour identifier les seuils de palier non atteints.
 - Liquidez les accélérations restantes, l'EXP de Héros, les matériaux du Corbeau et les réserves de ressources.
 - Terminez les améliorations spécifiques offrant la plus grande valeur de Puissance par minute.
-- **IMPORTANT :** Réclamez chaque coffre de palier de Final Dawn avant la réinitialisation du serveur (00:00 Heure du Serveur / 02:00 UTC) !
+- **IMPORTANT :** Réclamez chaque coffre de palier de Aube ultime avant la réinitialisation du serveur (00:00 Heure du Serveur / 02:00 UTC) !
 
 ---
 

@@ -1,13 +1,13 @@
 ---
-title: "Final Dawn: Sprint de progresión de base de 7 días"
-description: "Guía completa para el evento inicial fundamental 'Final Dawn' en Last Asylum: Plague: 4 fases progresivas (Cimientos, Impulso de poder, Gran empuje, Empuje final), matriz de prioridades y conservación de aceleradores."
+title: "Amanecer final: Sprint de progresión de base de 7 días"
+description: "Guía completa para el evento inicial fundamental 'Amanecer final' en Last Asylum: Plague: 4 fases progresivas (Cimientos, Impulso de poder, Gran empuje, Empuje final), matriz de prioridades y conservación de aceleradores."
 lang: es
 updated: "2026-09-14"
 videoTopic: final_dawn
 type: event
 ---
 
-El evento **Final Dawn** es el hito de desarrollo definitivo de 7 días en tu viaje inicial en Last Asylum: Plague. Su enfoque principal es acelerar el Poder de tu Santuario y desbloquear constantemente recompensas de hitos por niveles: aceleradores universales, cajas de recursos masivas, fragmentos de héroe y equipo esencial.
+El evento **Amanecer final** es el hito de desarrollo definitivo de 7 días en tu viaje inicial en Last Asylum: Plague. Su enfoque principal es acelerar el Poder de tu Santuario y desbloquear constantemente recompensas de hitos por niveles: aceleradores universales, cajas de recursos masivas, fragmentos de héroe y equipo esencial.
 
 Formulada por comandantes veteranos (oψsvge英俊的, Servidor K250), esta guía proporciona un plan táctico fase por fase para todo el cronograma de 7 días.
 
@@ -24,7 +24,7 @@ Formulada por comandantes veteranos (oψsvge英俊的, Servidor K250), esta guí
 
 ### Fase 2: Días 3–4 — Impulso de poder
 - **Enfoque principal:** Aumentar el poder de combate de los héroes, los niveles de habilidad y la fuerza militar.
-- Canaliza Antitoxina hacia tu principal atacante y tanque de primera línea (Arthur, Claire, Marlena).
+- Canaliza Antitoxina hacia tu principal atacante y tanque de primera línea (Arturo, Claire, Marlena).
 - Mejora los niveles de habilidad de los héroes y equipa conjuntos de equipo iniciales.
 - Apunta a edificios de alto rendimiento de Poder: Santuario, Cuarteles y Torre del Cuervo (Raven Tower).
 - Participa activamente en las ayudas de la Alianza para reducir horas de los temporizadores de construcción.
@@ -38,10 +38,10 @@ Formulada por comandantes veteranos (oψsvge英俊的, Servidor K250), esta guí
 
 ### Fase 4: Día 7 — EMPUJE FINAL 🔥
 - **Enfoque principal:** Auditoría de hitos y obtención de todas las recompensas restantes.
-- Revisa el panel del evento Final Dawn para identificar los umbrales de hitos no alcanzados.
+- Revisa el panel del evento Amanecer final para identificar los umbrales de hitos no alcanzados.
 - Liquida los aceleradores, EXP de Héroe, materiales de Cuervo y reservas de recursos restantes.
 - Completa las mejoras específicas que ofrecen el mayor valor de Poder por minuto.
-- **IMPORTANTE:** ¡Reclama cada cofre de hito de Final Dawn antes del reinicio del servidor (00:00 hora del servidor / 02:00 UTC)!
+- **IMPORTANTE:** ¡Reclama cada cofre de hito de Amanecer final antes del reinicio del servidor (00:00 hora del servidor / 02:00 UTC)!
 
 ---
 

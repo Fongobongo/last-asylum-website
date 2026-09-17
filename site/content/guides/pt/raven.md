@@ -98,7 +98,7 @@ O nível de estrela pode superar a raridade no espaço de dano. Estas são as co
 
 - Um roxo com 4 estrelas pode causar mais dano do que um amarelo (UR) com 0 estrelas no espaço de ataque — a abreviação da comunidade é "Dano roxo até o fim".
 - Uma UR de escudo com 0 estrelas é melhor que uma SSR com 5 estrelas.
-- O roxo supera o UR contra o King Blight até que o UR alcance 3 estrelas ou mais.
+- O roxo supera o UR contra o King Praga até que o UR alcance 3 estrelas ou mais.
 
 A conclusão não é que o roxo é secretamente o melhor nível — é que uma epígrafe de alta estrela do tipo certo supera uma UR nova do tipo errado. Coloque estrelas em suas epígrafes antes de perseguir o teto de raridade delas.
 

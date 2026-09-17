@@ -59,9 +59,9 @@ Terdapat **7 fragmen Peta Harta Karun unik** secara total (Bernomor 1 sampai 7).
 
 ---
 
-## 🔓 Unlock Sanctuary 27: Super Refresh & Super Deploy {#super-unlocks}
+## 🔓 Unlock Kuil 27: Super Refresh & Super Deploy {#super-unlocks}
 
-- **Sanctuary ≥ 27** membuka **Super Refresh** — pengisian ulang satu tombol untuk seluruh papan menjadi **kelangkaan emas (UR)** — dan **Super Deploy**, yang secara otomatis mengirimkan seluruh papan sekaligus (periksa jumlah pasukan terlebih dahulu: Super Deploy mengirimkan semua yang terlihat).
+- **Kuil ≥ 27** membuka **Super Refresh** — pengisian ulang satu tombol untuk seluruh papan menjadi **kelangkaan emas (UR)** — dan **Super Deploy**, yang secara otomatis mengirimkan seluruh papan sekaligus (periksa jumlah pasukan terlebih dahulu: Super Deploy mengirimkan semua yang terlihat).
 - Incar **batu perlengkapan (gear stones) dan lencana skill** sebagai bonus berulang; hadiah utamanya adalah **pecahan UR**, dan penyegaran yang baik akan menghasilkan 3–4 per hari (~4 pecahan UR/hari adalah tolok ukur yang dicapai oleh pemain papan atas).
 - Meskipun Anda melewatkannya: papan 4 hari yang belum selesai dan berada di posisi 12/12 (setelah semalam) tetap layak disimpan, karena tumpang tindih bonus parsial dengan pengiriman pagi berikutnya tetap akan memberikan hasil.
 

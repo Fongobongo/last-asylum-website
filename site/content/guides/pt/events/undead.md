@@ -9,7 +9,7 @@ infographics: ["/infographics/undead-siege-guide.webp", "/infographics/undead-si
 type: event
 ---
 
-O Cerco aos Mortos-Vivos (Undead Siege) é o evento de defesa da aliança: toda a sua aliança enfrenta **ondas de infectados**, com heróis na muralha realizando o combate. Duas regras definem o evento antes de qualquer coisa: **escudos não funcionam** e **não é um evento de pontos** — o objetivo é defender o maior número possível de ondas.
+O Cerco aos Mortos-Vivos (Cerco dos Mortos-Vivos) é o evento de defesa da aliança: toda a sua aliança enfrenta **ondas de infectados**, com heróis na muralha realizando o combate. Duas regras definem o evento antes de qualquer coisa: **escudos não funcionam** e **não é um evento de pontos** — o objetivo é defender o maior número possível de ondas.
 
 Este guia cobre como os cercos são desbloqueados, a progressão de dificuldade, a mecânica oculta de esquadrões múltiplos que derrota alianças despreparadas, recompensas e os sete maiores erros.
 

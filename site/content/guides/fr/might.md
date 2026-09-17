@@ -59,7 +59,7 @@ Les niveaux des héros augmentent les attributs de base (PV, ATQ, DÉF) et ampli
 | **Améliorations de bâtiments** | Chaque amélioration de structure terminée octroie un lot instantané d'Antitoxines. |
 | **Quêtes de la Tour du Faucon** | Donnez la priorité aux missions violettes et dorées offrant des fioles d'Antitoxine. |
 | **Opérations secrètes & Pillage de caravanes** | Complétez les itinéraires quotidiens et pillez les caravanes rivales (jusqu'à 5 fois par jour). |
-| **Ralliements Blight & Blight d'élite** | Coordonnez des ralliements de guilde contre les infectés de haut niveau pour un flux constant de ressources sans coût en gemmes. |
+| **Ralliements Peste & Peste d'élite** | Coordonnez des ralliements de guilde contre les infectés de haut niveau pour un flux constant de ressources sans coût en gemmes. |
 
 ---
 

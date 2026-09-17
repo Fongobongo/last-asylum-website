@@ -1,13 +1,13 @@
 ---
-title: "Final Dawn: Sprint de Progressão de Base de 7 Dias"
-description: "Guia abrangente para o evento inicial crucial 'Final Dawn' em Last Asylum: Plague: 4 fases progressivas (Fundações, Impulso de Poder, Grande Impulso, Impulso Final), matriz de prioridades e conservação de aceleradores."
+title: "Amanhecer Final: Sprint de Progressão de Base de 7 Dias"
+description: "Guia abrangente para o evento inicial crucial 'Amanhecer Final' em Last Asylum: Plague: 4 fases progressivas (Fundações, Impulso de Poder, Grande Impulso, Impulso Final), matriz de prioridades e conservação de aceleradores."
 lang: pt
 updated: "2026-09-14"
 videoTopic: final_dawn
 type: event
 ---
 
-O evento **Final Dawn** é o marco de desenvolvimento definitivo de 7 dias da sua jornada inicial em Last Asylum: Plague. Seu foco principal é acelerar o Poder do seu Santuário e desbloquear gradualmente recompensas de marcos: aceleradores universais, caixas de recursos massivas, fragmentos de heróis e equipamentos essenciais.
+O evento **Amanhecer Final** é o marco de desenvolvimento definitivo de 7 dias da sua jornada inicial em Last Asylum: Plague. Seu foco principal é acelerar o Poder do seu Santuário e desbloquear gradualmente recompensas de marcos: aceleradores universais, caixas de recursos massivas, fragmentos de heróis e equipamentos essenciais.
 
 Formulado por comandantes veteranos (oψsvge英俊的, Servidor K250), este guia fornece um plano tático fase a fase para todo o cronograma de 7 dias.
 
@@ -38,10 +38,10 @@ Formulado por comandantes veteranos (oψsvge英俊的, Servidor K250), este guia
 
 ### Fase 4: Dia 7 — IMPULSO FINAL 🔥
 - **Foco Principal:** Auditoria de marcos e coleta de todas as recompensas restantes.
-- Audite o painel do evento Final Dawn para identificar limites de marcos não alcançados.
+- Audite o painel do evento Amanhecer Final para identificar limites de marcos não alcançados.
 - Liquide aceleradores restantes, EXP de Herói, materiais de Corvo e reservas de recursos.
 - Conclua as melhorias específicas que oferecem o maior valor de Poder por minuto.
-- **IMPORTANTE:** Resgate cada baú de marco do Final Dawn antes da reinicialização do servidor (00:00 Horário do Servidor / 02:00 UTC)!
+- **IMPORTANTE:** Resgate cada baú de marco do Amanhecer Final antes da reinicialização do servidor (00:00 Horário do Servidor / 02:00 UTC)!
 
 ---
 

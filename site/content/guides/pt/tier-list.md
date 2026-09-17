@@ -24,7 +24,7 @@ Compilado a partir de guias de composição de esquadrão, análises de lutas co
 - **Shadow** (UR · Patrulheiro · Tanque) — Tanque do Passe de Herói; mantém a linha de frente enquanto os carries eliminam os inimigos
 - **Annie** (UR · Bruxo · Carry) — Secretamente forte para F2P; habilidade de suporte 8★ = enorme valor para o time
 - **Joker** (UR · Bruxo · Carry) — Finalizador de PvP (alvo com menor HP); alvo da roda após o dia 15
-- **Red Lady** (UR · Patrulheiro · Carry) — Carry patrulheiro com atordoamentos para PvP
+- **Dama Vermelha** (UR · Patrulheiro · Carry) — Carry patrulheiro com atordoamentos para PvP
 
 ## Tier B {#b-tier}
 
@@ -37,7 +37,7 @@ Compilado a partir de guias de composição de esquadrão, análises de lutas co
 - **Louis** (UR · Patrulheiro · Tanque) — Tanque patrulheiro para elencos mono-patrulheiro
 - **Nicole** (UR · Bruxo · Suporte) — Suporte de cura para esquadrões de bruxos (Ember Dust e cura reformulados)
 - **Ulfrid** (UR · Bruxo · Tanque) — Tanque de reflexão de bruxo (renomeado de Brian em julho de 2026)
-- **Billy** (UR · Bruxo · Tanque) — Tanque anti-CC (contra-ataca os atordoamentos da Red Lady), −8% de dano de Energia recebido, aplica debuff em 3 inimigos
+- **Billy** (UR · Bruxo · Tanque) — Tanque anti-CC (contra-ataca os atordoamentos da Dama Vermelha), −8% de dano de Energia recebido, aplica debuff em 3 inimigos
 
 ## Tier C {#c-tier}
 

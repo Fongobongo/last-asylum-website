@@ -23,7 +23,7 @@ $$\text{Might} = \text{Hero} + \text{Raven} + \text{Pasukan} + \text{Teknologi} 
 1. **Might Hero (S-Tier):** Secara langsung memperkuat output damage, sustain, dan kepemimpinan pasukan Anda di semua mode pertempuran (Arena, KvK, garnisun, rally).
 2. **Might Raven & Epigraph (A-Tier):** Memberikan buff persentase global yang persisten untuk semua unit yang dikerahkan.
 3. **Teknologi Militer (A-Tier):** Melipatgandakan ATK, DEF, dan kecepatan gerak di seluruh kelas unit.
-4. **Bangunan (B-Tier):** Level Sanctuary menentukan batas level untuk semua struktur lain dan membuka sistem tingkat yang lebih tinggi.
+4. **Bangunan (B-Tier):** Level Kuil menentukan batas level untuk semua struktur lain dan membuka sistem tingkat yang lebih tinggi.
 5. **Might Pasukan (Peringatan!):** Hanya latih pasukan tingkat tinggi (T7/T8/T9) sebanyak yang dapat ditampung oleh antrean barisan dan kapasitas Rumah Sakit Anda dengan aman. Pasukan berlebih hanyalah poin gratis bagi penjarah musuh selama Kill Event.
 
 ---
@@ -55,11 +55,11 @@ Level hero meningkatkan atribut dasar (HP, ATK, DEF) dan memperkuat statistik ge
 
 | Sumber | Cara Memaksimalkan |
 |---|---|
-| **Antitoxin Workshop** | Jaga level workshop agar sinkron dengan Sanctuary Anda. Kumpulkan secara rutin melalui Stable. |
+| **Antitoxin Workshop** | Jaga level workshop agar sinkron dengan Kuil Anda. Kumpulkan secara rutin melalui Stable. |
 | **Upgrade Bangunan** | Setiap upgrade struktur yang selesai memberikan sejumlah Antitoxin instan. |
-| **Misi Falcon Tower** | Prioritaskan misi ungu dan emas yang menawarkan vial Antitoxin. |
+| **Misi Menara Raven** | Prioritaskan misi ungu dan emas yang menawarkan vial Antitoxin. |
 | **Covert Ops & Penjarahan Karavan** | Selesaikan rute harian dan jarah karavan saingan (hingga 5 kali per hari). |
-| **Rally Blight & Elite Blight** | Koordinasikan rally guild melawan infected tingkat tinggi untuk aliran sumber daya yang stabil tanpa biaya gem. |
+| **Reli Ghoul & Ghoul Elite** | Koordinasikan rally guild melawan infected tingkat tinggi untuk aliran sumber daya yang stabil tanpa biaya gem. |
 
 ---
 

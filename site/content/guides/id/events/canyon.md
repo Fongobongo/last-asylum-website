@@ -9,7 +9,7 @@ infographics: []
 type: event
 ---
 
-Penaklukan Ngarai (Canyon Conquest) adalah **pertempuran jalur aliansi**: tiga jalur, dan aliansi yang memenangkan **2 dari 3 jalur** akan memenangkan pertandingan. Namun, formatnya adalah **estafet** — pemain terlemah bertarung lebih dulu, dan pemain **tetap berada di jalur sampai mereka kalah**. Memahami pengaruh estafet tersebut terhadap strategi susunan pemain adalah inti dari acara ini.
+Penaklukan Ngarai (Pertarungan Ngarai) adalah **pertempuran jalur aliansi**: tiga jalur, dan aliansi yang memenangkan **2 dari 3 jalur** akan memenangkan pertandingan. Namun, formatnya adalah **estafet** — pemain terlemah bertarung lebih dulu, dan pemain **tetap berada di jalur sampai mereka kalah**. Memahami pengaruh estafet tersebut terhadap strategi susunan pemain adalah inti dari acara ini.
 
 Panduan ini mencakup aturan estafet, struktur hadiah, strategi prioritas jalur dengan varian utamanya, bug yang diketahui, dan mengapa ini adalah acara paling aman dalam game.
 

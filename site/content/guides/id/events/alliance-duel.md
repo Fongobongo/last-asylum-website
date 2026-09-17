@@ -1,6 +1,6 @@
 ---
 title: "Duel Aliansi: Panduan Lengkap"
-description: "Enam hari kategori poin, final PvP hari Sabtu, mekanisme fase demi fase dengan nilai poin yang tepat, penumpukan Falcon Quest, dan ekonomi hemat segalanya yang memenangkan peti tertinggi."
+description: "Enam hari kategori poin, final PvP hari Sabtu, mekanisme fase demi fase dengan nilai poin yang tepat, penumpukan Misi Menara Raven, dan ekonomi hemat segalanya yang memenangkan peti tertinggi."
 lang: id
 updated: "2026-09-03"
 videoTopic: alliance_duel
@@ -11,13 +11,13 @@ type: event
 
 Duel Aliansi adalah acara yang menjadi pusat dari seluruh kegiatan selama seminggu: enam hari kompetisi melawan aliansi rival yang sepadan, dengan kategori poin yang berbeda setiap harinya dan final PvP pada hari Sabtu. Ini juga merupakan acara yang menentukan seberapa banyak simpanan Anda yang harus dibelanjakan — shard, tiket, lencana, dan percepatan (speedup) semuanya memiliki hari duel di mana nilainya menjadi dua kali lipat atau lebih.
 
-Panduan ini mencakup persyaratan masuk, mekanisme fase dengan nilai poin yang tepat, strategi menabung harian, penumpukan Falcon Quest, dan bagaimana duel berkontribusi pada Perang Kerajaan (Kingdom War).
+Panduan ini mencakup persyaratan masuk, mekanisme fase dengan nilai poin yang tepat, strategi menabung harian, penumpukan Misi Menara Raven, dan bagaimana duel berkontribusi pada Perang Kerajaan (Ekspedisi Lintas Negara).
 
 ## Apa Itu Duel Aliansi {#what-it-is}
 
 Duel Aliansi adalah **kompetisi aliansi 6 hari** yang dibagi menjadi fase 1 hingga 6, berlangsung dari Senin hingga Sabtu. Setiap hari memiliki kategori poinnya sendiri — serangkaian tindakan spesifik yang menghasilkan poin duel — dan aliansi yang mencetak skor lebih tinggi dalam kategori harian tersebut akan memenangkan fase tersebut. Sabtu, Fase 6, adalah **final PvP** di mana kedua aliansi akhirnya bertarung secara langsung.
 
-Terdapat juga format yang dipadatkan: **Survival Battle**, versi duel berdurasi 4 jam bagi aliansi yang menginginkan kompetisi yang sama tanpa harus menghabiskan waktu seminggu penuh. Mekanisme dan logika penilaiannya identik — hanya durasi waktunya yang berubah.
+Terdapat juga format yang dipadatkan: **Pertarungan Bertahan Hidup**, versi duel berdurasi 4 jam bagi aliansi yang menginginkan kompetisi yang sama tanpa harus menghabiskan waktu seminggu penuh. Mekanisme dan logika penilaiannya identik — hanya durasi waktunya yang berubah.
 
 > Duel tidak dimenangkan pada hari itu saja. Duel dimenangkan oleh siapa pun yang menyimpan sumber daya yang tepat untuk fase yang tepat.
 
@@ -103,9 +103,9 @@ Hari jeda setelah Fase 6 bukanlah hari istirahat — ini adalah hari perencanaan
 3. Tetapkan tujuan aliansi: targetnya adalah **peti pencapaian maksimum** dan promosi tertinggi yang dapat dicapai oleh anggota.
 4. Periksa **Teknologi Duel Aliansi** Anda — pada 100%, ini mengubah tujuan mana yang realistis, jadi pimpinan harus tahu persis di mana posisi aliansi sebelum berkomitmen pada target.
 
-## Penumpukan Falcon Quest {#falcon-quest-stacking}
+## Penumpukan Misi Menara Raven {#falcon-quest-stacking}
 
-Falcon Quest berinteraksi dengan duel melalui satu aturan: **lakukan quest kapan pun Anda mau, tetapi klaim pada hari poin ganda — Senin, Rabu, dan Jumat.** Quest yang diklaim pada hari yang salah hanya menghasilkan setengah dari yang seharusnya.
+Misi Menara Raven berinteraksi dengan duel melalui satu aturan: **lakukan quest kapan pun Anda mau, tetapi klaim pada hari poin ganda — Senin, Rabu, dan Jumat.** Quest yang diklaim pada hari yang salah hanya menghasilkan setengah dari yang seharusnya.
 
 Kemudian trik lanjutannya, teknik **Stacking Max - 1**:
 
@@ -131,8 +131,8 @@ Persyaratannya terletak langsung di dalam **Lab Riset** (di bawah pohon "Duel Al
 * **Peti Tier 7–9 memerlukan teknologi "Hadiah Super 2".**
 
 > [!IMPORTANT] Mengapa ini mengubah permainan:
-> Tier 7–9 berisi hadiah bernilai tertinggi di seluruh acara: ribuan Study Scroll, UR Omni Shard, material perlengkapan Level 11, dan hingga **10.000 Diamond**.
-> Pemain yang menunda riset Duel Aliansi akan kehilangan aliran progres mingguan gratis yang sangat besar. Investasikan Study Scroll awal Anda ke Hadiah Super 1 dan 2 segera setelah pengembangan basis inti.
+> Tier 7–9 berisi hadiah bernilai tertinggi di seluruh acara: ribuan Gulungan Penelitian, UR Omni Shard, material perlengkapan Level 11, dan hingga **10.000 Diamond**.
+> Pemain yang menunda riset Duel Aliansi akan kehilangan aliran progres mingguan gratis yang sangat besar. Investasikan Gulungan Penelitian awal Anda ke Hadiah Super 1 dan 2 segera setelah pengembangan basis inti.
 
 ## Hadiah dan Hubungan dengan KvK {#rewards}
 

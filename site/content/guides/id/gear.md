@@ -31,11 +31,11 @@ Lima Workshop Peleburan adalah sumber pendapatan Gear Stone pasif Anda.
 
 - Setiap workshop harus ditingkatkan ke **level 23–25**. Level 25 adalah titik ideal: setelah itu, kurva biaya melonjak tajam sementara peningkatannya mendatar.
 - 5 workshop di level 25 ≈ **265 batu/jam ≈ 6K/hari ≈ 44K/minggu secara pasif**.
-- Dikombinasikan dengan Covert Ops (~33K/minggu jika Anda menyelesaikan misi UR), hadiah KvK (~14K), pembelian toko mingguan (~10K×2), dan peti fase Alliance Duel (~33K), perhitungan F2P mencapai **~131K gearstone per minggu** — cukup untuk mendanai satu *breakpoint* ~level 40 per minggu.
+- Dikombinasikan dengan Covert Ops (~33K/minggu jika Anda menyelesaikan misi UR), hadiah KvK (~14K), pembelian toko mingguan (~10K×2), dan peti fase Pertarungan Guild (~33K), perhitungan F2P mencapai **~131K gearstone per minggu** — cukup untuk mendanai satu *breakpoint* ~level 40 per minggu.
 
-## Mekanik Pasar Perlengkapan: Craft, Fuse, Tempered Steel {#crafting-math}
+## Mekanik Pasar Perlengkapan: Craft, Fuse, Baja Tempa {#crafting-math}
 
-- Bongkar semua yang bukan biru; gabungkan hasilnya **4 → 1** ke tingkat material yang lebih tinggi menjadi **Tempered Steel** — bahan yang diperlukan untuk senjata UR, armor UR, dan semua peningkatan setelah level 40.
+- Bongkar semua yang bukan biru; gabungkan hasilnya **4 → 1** ke tingkat material yang lebih tinggi menjadi **Baja Tempa** — bahan yang diperlukan untuk senjata UR, armor UR, dan semua peningkatan setelah level 40.
 - Satu craft UR membutuhkan **500K herbal** dan **~1 hari 5 jam** pada level workshop yang lebih rendah (level workshop yang lebih tinggi akan mempercepat proses ini).
 - Buat **sarung tangan SSR** hanya jika perulangan *world-boss/demon-king* membutuhkannya (+6% damage monster mereka tidak tergantikan di PvE; ganti kembali ke sarung tangan UR setelahnya).
 
@@ -60,13 +60,13 @@ Melawan bos yang tidak melawan balik, aturan normal menjadi terbalik:
 
 ## Perlengkapan Raven {#raven-gear}
 
-Raven memiliki set perlengkapan sendiri (sisi kiri: HP/pengurangan crit-damage, sisi kanan: ATK/crit damage). Dorong ke **level 8** di mana buff persentase mulai aktif (progres riset sekarang ditampilkan untuk peralatan Lv.8 ke atas). **Simpan peti perlengkapan raven untuk hari Alliance Duel** — membukanya akan memberikan poin acara.
+Raven memiliki set perlengkapan sendiri (sisi kiri: HP/pengurangan crit-damage, sisi kanan: ATK/crit damage). Dorong ke **level 8** di mana buff persentase mulai aktif (progres riset sekarang ditampilkan untuk peralatan Lv.8 ke atas). **Simpan peti perlengkapan raven untuk hari Pertarungan Guild** — membukanya akan memberikan poin acara.
 
 Set efek khusus (Topeng Night Raven, Jubah Bulu Raven) aktif pada level yang ditentukan dari bagian-bagiannya — ditambahkan dalam pembaruan Maret 2026.
 
 ## Dari mana sumber material {#materials}
 
-- **Workshop Peleburan → Level 25:** Tingkatkan Workshop Peleburan ke Level 25 segera setelah Sanctuary Anda mengizinkan. Workshop ini memurnikan dan menghasilkan Gear Stone yang diperlukan untuk meningkatkan level perlengkapan. Ketinggalan dalam membangun gedung ini akan menciptakan hambatan yang tidak teratasi untuk senjata carry Anda.
+- **Workshop Peleburan → Level 25:** Tingkatkan Workshop Peleburan ke Level 25 segera setelah Kuil Anda mengizinkan. Workshop ini memurnikan dan menghasilkan Gear Stone yang diperlukan untuk meningkatkan level perlengkapan. Ketinggalan dalam membangun gedung ini akan menciptakan hambatan yang tidak teratasi untuk senjata carry Anda.
 - **Workshop Perlengkapan** — craft & bongkar; **Workshop Tenun** menghasilkan kain untuk menggabungkan/membuat material.
-- **Farm Gearstone F2P:** Hambatan utama komunitas adalah Gear Stone — beli secara konsisten dari toko Sanctuary dan Expedition.
+- **Farm Batu Penguatan Gear F2P:** Hambatan utama komunitas adalah Gear Stone — beli secara konsisten dari toko Kuil dan Expedition.
 - **Blueprint Perlengkapan (UR) di Toko Kehormatan:** Habiskan Koin Kehormatan Anda **KHUSUS untuk Blueprint Perlengkapan (UR)**. Lewati Peti Curio dan shard universal — blueprint adalah satu-satunya gerbang untuk mempromosikan perlengkapan oranye di Lv. 10, 20, 30, dan 40.

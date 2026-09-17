@@ -59,7 +59,7 @@ Heldenstufen skalieren die Basisattribute (LP, ANG, VER) und verstärken die pro
 | **Gebäude-Upgrades** | Jedes abgeschlossene Gebäude-Upgrade gewährt eine sofortige Menge an Antitoxinen. |
 | **Falkenturm-Quests** | Priorisiere lila und goldene Missionen, die Antitoxin-Ampullen anbieten. |
 | **Verdeckte Operationen & Karawanenplünderung** | Absolviere tägliche Routen und überfalle rivalisierende Karawanen (bis zu 5 Mal pro Tag). |
-| **Blight- & Elite-Blight-Rallyes** | Koordiniere Gilden-Rallyes gegen hochstufige Infizierte für einen stetigen Ressourcenfluss ohne Edelsteinkosten. |
+| **Seuche- & Elite-Seuche-Rallyes** | Koordiniere Gilden-Rallyes gegen hochstufige Infizierte für einen stetigen Ressourcenfluss ohne Edelsteinkosten. |
 
 ---
 

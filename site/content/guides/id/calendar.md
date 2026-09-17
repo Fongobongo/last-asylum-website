@@ -28,8 +28,8 @@ Gunakan alat Monumen interaktif di bawah ini untuk **memasukkan hari server Anda
 
 - **Bab 1 (Hari 1–14)**: Pendirian Suaka, pembukaan fitur tank UR gratis inti [Arthur](/codex/arthur/), [Aliansi](/alliance/), putaran Ranger UR pertama [Cynthia](/codex/cynthia/) (Hari ke-8), dan [Pengepungan Mayat Hidup](/events/undead/) 20 gelombang pertama (Hari ke-14).
 - **Bab 2 (Hari 15–28)**: Kualifikasi [Duel Aliansi](/events/alliance-duel/) pertama (Aliansi Top-32, Hari ke-15), [Karavan Aliansi](/events/wagon/) harian (Hari ke-21), dan pertempuran tim di [Benturan Ngarai](/events/canyon/).
-- **Bab 3 (Hari 29–65)**: Perbatasan server hancur! [Perang Kerajaan (KvK)](/events/kvk/) antar server dimulai, kumpulan pahlawan meluas ([Shadow](/codex/shadow/), Joker, Bella), dan [Perebutan Ramuan](/events/elixir/) mingguan 30 menit.
-- **Bab 4 (Hari 66–119)**: Zaman Keemasan! Kedatangan gratis di Tavern dari carry F2P puncak [Marlena](/codex/marlena/) (bagi yang tidak membeli paket Hari ke-1 seharga $1), hadiah laut 300 ikan harian di [Harta Karun Mistik](/events/mythic/), relik Aula Curio, dan penimbunan Antitoksin yang ketat.
+- **Bab 3 (Hari 29–65)**: Perbatasan server hancur! [Perang Kerajaan (KvK)](/events/kvk/) antar server dimulai, kumpulan pahlawan meluas ([Ying](/codex/shadow/), Joker, Bella), dan [Perebutan Ramuan](/events/elixir/) mingguan 30 menit.
+- **Bab 4 (Hari 66–119)**: Zaman Keemasan! Kedatangan gratis di Kedai dari carry F2P puncak [Marlena](/codex/marlena/) (bagi yang tidak membeli paket Hari ke-1 seharga $1), hadiah laut 300 ikan harian di [Harta Karun Mistik](/events/mythic/), relik Aula Curio, dan penimbunan Antitoksin yang ketat.
 - **Bab 5 (Hari ke-120+)**: Peluncuran epik **«Era Kebangkitan»** selama 55 hari (Liga Ekspedisi) yang menampilkan kekebalan infeksi virus, Patung Penguasa, pohon bakat spesialisasi, dan Zoya.
 
 ## Reset & jadwal berulang {#recurring}

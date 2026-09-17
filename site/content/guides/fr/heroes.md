@@ -103,7 +103,7 @@ Pour chaque héros, Korpez détaille chaque compétence avec un niveau cible. Sy
 - **Cynthia** — attaque auto à ~15, Chasse Lunaire à ~20-25, montez la passive Danse de la Chute de Lune (25–30 ; les étoiles lui permettent de toucher toute l'équipe ennemie).
 - **Annie** — Bonbon ~20, Cadeau Surprise ~20–25, Pot à Bonbons (ultime) à 30, Gommes Chargées à 30. Équipement : épée+gants 40+, bottes 2★+, torse bas.
 - **Joker** — tueur de ligne arrière pur : sa carte de base frappe l'ennemi avec le moins de PV, l'ultime cible directement l'arrière ; cumulez les critiques sur l'épée.
-- **Billy (Tank Démoniste)** — Fil du Destin protège vos 2 meilleurs alliés en ATQ (25+) ; sa passive accorde une immunité quasi totale à l'étourdissement de Red Lady.
+- **Billy (Tank Démoniste)** — Fil du Destin protège vos 2 meilleurs alliés en ATQ (25+) ; sa passive accorde une immunité quasi totale à l'étourdissement de Dame Rouge.
 - **Nicole** — soutien avec des soins basés sur sa statistique d'ATQ ; les soins se déclenchent sur les ennemis brûlés (synergie Joker).
 - **Bell** — **ses soins dépendent de l'ATQ**, pas de la DÉF : ignorer l'épée+gants fait chuter ses soins de ~205K à ~66K. Oui — mettez du vrai équipement de dégâts sur votre "soutien".
 - **Ash & Cecilia (SR)** — les seuls héros violets qui valent des compétences : Ash = bonus de dégâts aux monstres, Cecilia = bonus de récolte. Tout le reste en SR reste à la base.

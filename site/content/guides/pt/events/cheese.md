@@ -9,7 +9,7 @@ infographics: ["/infographics/cheese-trap.webp", "/infographics/cheese-rewards.w
 type: event
 ---
 
-A Armadilha de Queijo (Cheese Trap) é um **evento de rally PvE de aliança** contra um rato gigante. Seu dano pessoal garante recompensas individuais em cinco fases, e o dano total da aliança garante recompensas separadas para a aliança. Parece um evento de puro poder — mas na verdade é um evento de planejamento, e a diferença vale vários níveis de recompensa.
+A Armadilha de Queijo (Armadilha de Queijo) é um **evento de rally PvE de aliança** contra um rato gigante. Seu dano pessoal garante recompensas individuais em cinco fases, e o dano total da aliança garante recompensas separadas para a aliança. Parece um evento de puro poder — mas na verdade é um evento de planejamento, e a diferença vale vários níveis de recompensa.
 
 Este guia cobre as duas trilhas de recompensa, a regra do ponto de parada, a escala de nível e como ler os rankings antes que sua aliança se comprometa com um rato.
 
@@ -33,7 +33,7 @@ A interação entre as trilhas é a parte importante:
 - **PARE após a Fase 5 pessoal.** O dano além desse ponto é pura perda de tropas — zero recompensas pessoais extras pelas tropas que você queimar.
 - **Ambos os ratos compartilham uma reserva de HP para as recompensas da aliança.** Se um jogador atingir a Fase 5 em um rato e outro parar na Fase 3 no outro, o total da aliança conta como se todos tivessem atingido a **Fase 5**. A reserva — não a fase — é o que importa.
 
-## Mecânicas de Rally: O Que Realmente Importa {#rally-mechanics}
+## Mecânicas de Mobilizar: O Que Realmente Importa {#rally-mechanics}
 
 - **Entrar em um rally de R4/R5 concede +2,5% de ataque.** Entre no rally em vez de marchar sozinho. Sempre.
 - **A força do iniciador do rally e a ordem de entrada NÃO têm efeito no seu dano.** Entrar primeiro não causa mais dano; entrar por último não é "leech". Pare de disputar posição — isso não muda nada.

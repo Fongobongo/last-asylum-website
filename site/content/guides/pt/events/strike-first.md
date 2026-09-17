@@ -7,7 +7,7 @@ videoTopic: strike_first
 type: event
 ---
 
-O evento **Ataque Primeiro** (Strike First) é o principal sprint de integração para novos servidores e comandantes iniciantes em Last Asylum: Plague. Acionado imediatamente após a criação da conta, ele serve como seu principal acelerador de crescimento durante a Semana 1: completar os marcos fundamentais concede uma abundância de diamantes gratuitos, acelerações, bilhetes de recrutamento e fragmentos de herói.
+O evento **Ataque Primeiro** (Ataque Primeiro) é o principal sprint de integração para novos servidores e comandantes iniciantes em Last Asylum: Plague. Acionado imediatamente após a criação da conta, ele serve como seu principal acelerador de crescimento durante a Semana 1: completar os marcos fundamentais concede uma abundância de diamantes gratuitos, acelerações, bilhetes de recrutamento e fragmentos de herói.
 
 ---
 

@@ -61,7 +61,7 @@ Seefische erhältst du bei deinen normalen täglichen Zielen:
 - Falkenturm
 - Ressourcen-Monster
 - Elite-Fäulnis
-- Black Ops
+- Schwarze Operationen
 - Wandernde Fäulnis
 
 Die kritische Zahl: **TÄGLICHES LIMIT 300 Fische**. Wenn du darüber hinaus farmst, tötest du Mobs umsonst – der Zähler stoppt. Erreiche 300, hör auf und spare Zeit. Die Fische füttern das Große Festmahl, weshalb diese beiden Reiter zusammen den F2P-Kern des gesamten Events bilden.

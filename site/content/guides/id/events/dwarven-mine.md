@@ -1,13 +1,13 @@
 ---
-title: "Dwarven Mine: Menimbun Pickaxe & Push Blueprint MR Lantai 100"
-description: "Cara kerja event Dwarven Mine: grid menambang 7 hari, aturan menimbun 750 pickaxe untuk F2P, progres lantai melalui jackpot, dan memilih Herbs daripada Gearstones di endgame."
+title: "Tambang kurcaci: Menimbun Pickaxe & Push Blueprint MR Lantai 100"
+description: "Cara kerja event Tambang kurcaci: grid menambang 7 hari, aturan menimbun 750 pickaxe untuk F2P, progres lantai melalui jackpot, dan memilih Herbs daripada Gearstones di endgame."
 lang: id
 updated: "2026-09-16"
 videoTopic: dwarven
 type: event
 ---
 
-**Dwarven Mine** adalah event menambang 7 hari yang berulang: Anda menggunakan **Pickaxe** untuk menggali ubin, menemukan jackpot untuk naik lantai, dan pemain yang menyelesaikan **100 lantai** dalam event tersebut akan mendapatkan hadiah utama — **blueprint gear MR** (gear tingkat tertinggi). Seluruh event ditentukan sebelum dimulai: siapa pun yang menimbun pickaxe akan menang, siapa pun yang mulai dengan tangan kosong harus membayar uang sungguhan untuk mengejar.
+**Tambang kurcaci** adalah event menambang 7 hari yang berulang: Anda menggunakan **Pickaxe** untuk menggali ubin, menemukan jackpot untuk naik lantai, dan pemain yang menyelesaikan **100 lantai** dalam event tersebut akan mendapatkan hadiah utama — **blueprint gear MR** (gear tingkat tertinggi). Seluruh event ditentukan sebelum dimulai: siapa pun yang menimbun pickaxe akan menang, siapa pun yang mulai dengan tangan kosong harus membayar uang sungguhan untuk mengejar.
 
 Panduan ini membahas pendapatan pickaxe, target menimbun untuk F2P, strategi pemilihan hadiah, dan di mana letak pemborosan uangnya.
 
@@ -29,7 +29,7 @@ Dengan kurang dari ~750 pickaxe, Anda tidak memiliki jalur realistis menuju blue
 
 - **Quest** harian dan event
 - **Melatih pasukan**
-- **Quest Falcon Tower**
+- **Quest Menara Raven**
 - **Donasi Alliance Island** (hingga 6×)
 
 Paket berbayar memang ada tetapi harganya sangat mahal — merakit sarung tangan MR melalui paket menghabiskan sekitar **$500**. Jika Anda bukan pemain yang mengeluarkan uang (spender), cukup menimbun saja.

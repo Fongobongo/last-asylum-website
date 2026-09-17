@@ -16,7 +16,7 @@ Halaman ini membahas level dan rencana Raven, strategi gear, kelangkaan epigraph
 Raven adalah hero tambahan untuk semua pasukan Anda — buff-nya berlaku di mana saja secara bersamaan, bukan hanya untuk satu formasi. Dua konsekuensi yang muncul:
 
 - Setiap poin investasi pada Raven meningkatkan setiap pasukan yang Anda turunkan, yang menjadikannya salah satu sistem bernilai tertinggi dalam game.
-- Crow Essence, makanannya, adalah hambatan (bottleneck) pada seluruh sistem ini. Kumpulkan sejak dini dan jangan pernah berhenti — toko VIP dan toko Sanctuary menjualnya tepat karena alasan ini.
+- Crow Essence, makanannya, adalah hambatan (bottleneck) pada seluruh sistem ini. Kumpulkan sejak dini dan jangan pernah berhenti — toko VIP dan toko Kuil menjualnya tepat karena alasan ini.
 
 Tujuan jangka panjangnya adalah **Raven level 110**, di mana skill terakhir terbuka: +50% damage AOE ke target yang terpengaruh. Itulah endgame dari sistem ini, dan Crow Essence adalah hal yang menghalangi Anda mencapainya.
 
@@ -45,7 +45,7 @@ Strategi sisi, kiri versus kanan:
 - **Sisi kiri** — HP dan pengurangan damage kritikal. Lebih mudah didapat, nilai pertahanan.
 - **Sisi kanan** — ATK dan damage kritikal. Nilai ofensif terbaik dalam sistem ini.
 
-Dan satu aturan kalender: **simpan peti gear Anda untuk hari Alliance Duel.** Membukanya saat itu akan mendapatkan poin Alliance Duel — logika "double-dip" yang sama yang mengatur penggunaan speedup dalam [panduan Ekonomi](/id/economy/).
+Dan satu aturan kalender: **simpan peti gear Anda untuk hari Pertarungan Guild.** Membukanya saat itu akan mendapatkan poin Pertarungan Guild — logika "double-dip" yang sama yang mengatur penggunaan speedup dalam [panduan Ekonomi](/id/economy/).
 
 ## Epigraph: Aturan Dasar {#epigraph-basics}
 
@@ -61,7 +61,7 @@ Aturan terpenting: **hanya tingkatkan epigraph dari faksi pasukan utama Anda.** 
 
 | Epigraph | Tipe Slot | Efek |
 |---|---|---|
-| Frenzy Flock | Serangan | Buff ATK untuk sekutu Warrior setelah skill Raven aktif, ditambah lebih banyak target Raven. |
+| Fanatik Flock | Serangan | Buff ATK untuk sekutu Warrior setelah skill Raven aktif, ditambah lebih banyak target Raven. |
 | Reversal Power | Dukungan | Damage untuk 3 sekutu Warrior dengan ATK tertinggi, dan mengurangi damage ultimate musuh. |
 | Protective Charm | — | Pilihan kemampuan bertahan — pilihan ketiga standar saat pasukan Anda terus mati alih-alih kalah karena damage. |
 | Guard of Nature | Pertahanan (UR) | Perisai aktif saat pertempuran dimulai; pengurangan damage aktif setelah perisai pecah. |
@@ -98,7 +98,7 @@ Level bintang bisa mengalahkan kelangkaan di slot damage. Ini adalah perbandinga
 
 - Ungu dengan 4 bintang bisa memberikan damage lebih besar daripada kuning (UR) dengan 0 bintang di slot serangan — singkatan komunitasnya adalah "DMG ungu sampai kapanpun".
 - UR perisai dengan 0 bintang lebih baik daripada SSR dengan 5 bintang.
-- Ungu mengungguli UR melawan King Blight sampai UR mencapai 3 bintang atau lebih.
+- Ungu mengungguli UR melawan King Ghoul sampai UR mencapai 3 bintang atau lebih.
 
 Kesimpulannya bukan bahwa ungu diam-diam adalah tingkatan terbaik — melainkan bahwa epigraph bintang tinggi dari tipe yang tepat mengalahkan UR baru dari tipe yang salah. Berikan bintang pada epigraph Anda sebelum mengejar batas kelangkaannya.
 

@@ -1,6 +1,6 @@
 ---
 title: "Ekonomi: Diamond, Toko, Penjarahan"
-description: "Ke mana setiap diamond pergi: prioritas toko VIP, jadwal restock, urutan pembelian per toko, anggaran Wishing Wheel, dan mekanik penjarahan lengkap dengan batas harian berdasarkan level Sanctuary."
+description: "Ke mana setiap diamond pergi: prioritas toko VIP, jadwal restock, urutan pembelian per toko, anggaran Roda Permohonan, dan mekanik penjarahan lengkap dengan batas harian berdasarkan level Kuil."
 lang: id
 updated: "2026-09-03"
 videoTopic: economy
@@ -15,8 +15,8 @@ Toko VIP menggunakan diamond, dan sebagian besar stoknya adalah pertukaran yang 
 
 | Prioritas | Item |
 |---|---|
-| TINGGI | UR Omnifragment, UR Antidote, Crow Essence, 8h Speedup |
-| SEDANG | 3h Speedup, SSR Omnifragment, 1h Speedup |
+| TINGGI | UR Omnifragment, UR Penawar Racun, Crow Essence, Percepat 8 jam |
+| SEDANG | Percepatan 3 jam, SSR Omnifragment, 1h Speedup |
 | RENDAH | SSR Antidotes, Direct Relocation |
 
 Dan aturan lengkapnya: **hindari yang lainnya kecuali dalam keadaan sangat mendesak.** Toko ini diberi harga untuk menggoda pemain yang tidak sabar agar mengubah diamond menjadi item yang diberikan game secara gratis melalui event — tetaplah pada rencana.
@@ -41,7 +41,7 @@ Bacaan praktis: jika mendorong VIP 6→7 membutuhkan 5–8 ribu diamond berbayar
 
 Semua toko melakukan restock pada hari Senin. Rencanakan minggu Anda di sekitarnya: beli prioritas Anda pada hari Senin saat stok penuh, jalankan pendapatan Duel Aliansi dan Ekspedisi Anda di pertengahan minggu, lalu habiskan akhir pekan untuk memutuskan apa yang harus dibeli pada penyegaran hari Senin berikutnya. Pemain yang berbelanja pada hari Minggu hanya akan mendapati rak yang sudah kosong.
 
-## Toko Sanctuary {#sanctuary-shop}
+## Toko Kuil {#sanctuary-shop}
 
 1. Crow Essence dan UR Hero Omnifragments — beli hingga maksimal.
 2. Antidotes dan SSR Omnifragments.
@@ -73,7 +73,7 @@ Aturan kritis khusus untuk Honor: honor **hanya untuk blueprint gear**. Tidak ad
 
 Lakukan ini sekali seminggu, setiap minggu, setelah restock toko — seluruh proses memakan waktu kurang dari 5 menit:
 
-1. **Toko Sanctuary** — setiap Raven Essence → setiap shard UR → Gearstones. Berhenti di sana.
+1. **Toko Kuil** — setiap Esensi Raven → setiap shard UR → Gearstones. Berhenti di sana.
 2. **Toko Ekspedisi** — urutan yang sama. Tambahkan dua peti ekspedisi emas jika token memungkinkan; shard Duel Aliansi juga tersedia di sini (toko selaras dengan siklus persiapan AD).
 3. **Toko Honor** — *tidak ada kecuali* blueprint gear UR (itu adalah [satu-satunya alasan Honor ada](/id/gear/)).
 4. **Toko Aliansi** — isi ulang UR omni dan essence selagi bisa; donasi setiap beberapa jam adalah cara Anda mendanai ini (donasi -20 hingga -30 diamond/hari adalah anggaran, bukan pemborosan).
@@ -87,21 +87,21 @@ Beli peti epigraph di setiap toko **kecuali Toko Honor**. Epigraph memberi makan
 
 Pendapatan epigraph gratis bagi pemain F2P itu nyata, jika Anda rajin: 30 shard UR per hari dari Duel Aliansi, ditambah menempa sendiri di Bengkel Epigraph, berjumlah sekitar 1,5 epigraph UR per bulan. Sistem lengkap — level bengkel, urutan promosi, dan aturan kelangkaan — dibahas dalam [panduan Raven](/id/raven/).
 
-## Aturan Diamond: Wheel, Banner, dan Milestone {#diamond-rules}
+## Aturan Diamond: Wheel, Bendera, dan Milestone {#diamond-rules}
 
 1. **Utamakan yang utama: 10.000 diamond → VIP Bulanan.** Di balik perhitungan wheel apa pun, pembelian diamond tunggal terbaik dalam game adalah VIP Bulanan 10 ribu — titik.
-2. **Simpan hingga hari ke-8** untuk Cynthia Wishing Wheel — 7 spin harian gratis + milestone 10-spin (10 fragmen = salinan penuh) berarti biaya sebenarnya adalah ~1.500 diamond dalam spin tambahan. Berhenti setelah milestone.
+2. **Simpan hingga hari ke-8** untuk Cynthia Roda Permohonan — 7 spin harian gratis + milestone 10-spin (10 fragmen = salinan penuh) berarti biaya sebenarnya adalah ~1.500 diamond dalam spin tambahan. Berhenti setelah milestone.
 3. **Setelah hari ke-15, simpan untuk Joker's wheel** — event finisher PvP UR. Cadangan diamond mid-game ada untuk ini.
 4. **Jangan pernah membuang diamond ke rekrutmen standar.** Tunggu banner rate-up — mata uang yang sama, hero yang lebih baik.
 5. **Jangan mengejar milestone pengeluaran diamond kumulatif** seperti Deep Sea's Gift. Menghabiskan diamond hanya untuk melewati ambang hadiah berarti membeli milestone, bukan nilainya.
 
 ### Paket Terbaik (Rentang $20-200) {#best-packs}
 
-Jika Anda mengeluarkan uang, komunitas memilih tiga paket dalam rentang $20-200: paket Universal Speedup, paket Raven Essence, dan paket City Level-Up. Dan dari panduan pemula: paket starter $1 untuk Marlena (yang menjadi gratis di Tavern pada Hari ke-66) tetap menjadi pembelian dengan nilai terbaik dalam game pada harga berapa pun.
+Jika Anda mengeluarkan uang, komunitas memilih tiga paket dalam rentang $20-200: paket Universal Speedup, paket Esensi Raven, dan paket City Level-Up. Dan dari panduan pemula: paket starter $1 untuk Marlena (yang menjadi gratis di Kedai pada Hari ke-66) tetap menjadi pembelian dengan nilai terbaik dalam game pada harga berapa pun.
 
 ## Penjarahan: Mekanik Lengkap {#plunder-mechanics}
 
-Pendapatan penjarahan dibatasi oleh batas harian, dan batas tersebut berskala dengan level Sanctuary Anda. Mengetahui ambang batas ini akan mengubah kapan Anda harus berhenti menyerang untuk hari itu.
+Pendapatan penjarahan dibatasi oleh batas harian, dan batas tersebut berskala dengan level Kuil Anda. Mengetahui ambang batas ini akan mengubah kapan Anda harus berhenti menyerang untuk hari itu.
 
 <!-- component:plunder-calculator -->
 
@@ -114,9 +114,9 @@ Pendapatan penjarahan dibatasi oleh batas harian, dan batas tersebut berskala de
 - Batas direset pada **02:00 UTC** setiap hari.
 - Segitiga kuning di bawah Might target adalah indikator melebihi batas — periksa melalui Ringkasan Efek, lalu Perolehan Penjarahan.
 
-### Batas Harian berdasarkan Level Sanctuary {#plunder-limits-table}
+### Batas Harian berdasarkan Level Kuil {#plunder-limits-table}
 
-| Sanctuary | Batas harian | Sanctuary | Batas harian | Sanctuary | Batas harian |
+| Kuil | Batas harian | Kuil | Batas harian | Kuil | Batas harian |
 |---|---|---|---|---|---|
 | 10-12 | 2,5M | 18 | 8M | 24 | 18M |
 | 13 | 3M | 19 | 9M | 25 | 20M |
@@ -125,10 +125,10 @@ Pendapatan penjarahan dibatasi oleh batas harian, dan batas tersebut berskala de
 | 16 | 6M | 22 | 14M | 28 | 26M |
 | 17 | 7M | 23 | 16M | 29 / 30 | 28M / 30M |
 
-Polanya: +1M per kenaikan level Sanctuary hingga level 20, lalu +2M per level hingga batas 30M di Sanctuary 30. Dua catatan mekanik:
+Polanya: +1M per kenaikan level Kuil hingga level 20, lalu +2M per level hingga batas 30M di Kuil 30. Dua catatan mekanik:
 
-- Upgrade Sanctuary menaikkan batas Anda **seketika** — tidak perlu menunggu reset. Jika Anda mendekati batas harian dan level Sanctuary hampir selesai, selesaikan dulu baru menjarah.
-- Skill War Supply dari pohon spesialisasi Legion Commander (Era of Revival) menaikkan batas sebesar +6 / +14 / +24 / +36 / +50% pada level skill 1-5. Lihat [panduan Era](/id/era/).
+- Tingkatkan Kuil menaikkan batas Anda **seketika** — tidak perlu menunggu reset. Jika Anda mendekati batas harian dan level Kuil hampir selesai, selesaikan dulu baru menjarah.
+- Skill Pasokan Perang dari pohon spesialisasi Legion Commander (Era of Revival) menaikkan batas sebesar +6 / +14 / +24 / +36 / +50% pada level skill 1-5. Lihat [panduan Era](/id/era/).
 
 ## Aturan Sembilan Serangan {#nine-hit-rule}
 
@@ -143,7 +143,7 @@ Prosedur yang telah diuji komunitas untuk sesi penjarahan harian penuh:
 3. **Bersiap di ubin (tile) yang berdekatan.** Kirim skuad Anda ke ubin sumber daya di sebelah target; setelah berada di sana, Anda dapat meluncurkan hingga ~8 serangan berturut-turut dengan cepat tanpa menunggu waktu perjalanan (march).
 4. **Jaga HP kota mereka di atas 2.000.** Di bawah itu mereka akan teleportasi menjauh dan tempat farm Anda hilang — gunakan kembali farm yang sama besok dengan berhenti sebelum hancur.
 
-**Beban Prajurit (Soldier Load)** menentukan seberapa banyak yang Anda bawa per serangan. Ini meningkat **+200 per tier pasukan** (T6 = 1.400, T7 = 1.600, T8 = 1.800...) dan dapat ditingkatkan lebih lanjut melalui teknologi **Load Training** di pohon riset Prajurit. Skuad tier lebih tinggi menjarah target yang sama dalam lebih sedikit serangan, menghemat stamina.
+**Beban Prajurit (Beban Prajurit)** menentukan seberapa banyak yang Anda bawa per serangan. Ini meningkat **+200 per tier pasukan** (T6 = 1.400, T7 = 1.600, T8 = 1.800...) dan dapat ditingkatkan lebih lanjut melalui teknologi **Load Training** di pohon riset Prajurit. Skuad tier lebih tinggi menjarah target yang sama dalam lebih sedikit serangan, menghemat stamina.
 
 ## Matematika Stamina: Mengapa Penjarahan Melebihi Batas Gagal {#stamina-math}
 

@@ -26,7 +26,7 @@ Utiliza la herramienta interactiva del Monumento a continuación para **introduc
 
 ### Hitos Principales del Monumento:
 
-- **Capítulo 1 (Días 1–14)**: Fundación del Santuario, desbloqueo del tanque UR gratuito principal [Arthur](/codex/arthur/), función [Alianza](/alliance/) desbloqueada, primera ruleta de Explorador UR [Cynthia](/codex/cynthia/) (Día 8) y la primera [Asedio de No Muertos](/events/undead/) de 20 oleadas (Día 14).
+- **Capítulo 1 (Días 1–14)**: Fundación del Santuario, desbloqueo del tanque UR gratuito principal [Arturo](/codex/arthur/), función [Alianza](/alliance/) desbloqueada, primera ruleta de Explorador UR [Cynthia](/codex/cynthia/) (Día 8) y la primera [Asedio de No Muertos](/events/undead/) de 20 oleadas (Día 14).
 - **Capítulo 2 (Días 15–28)**: Primera calificación para el [Duelo de Alianzas](/events/alliance-duel/) (Alianzas Top-32, Día 15), [Caravana de Alianza](/events/wagon/) diaria (Día 21) y campos de batalla en equipo en [Choque de Cañones](/events/canyon/).
 - **Capítulo 3 (Días 29–65)**: ¡Las fronteras del servidor se rompen! Comienza la [Guerra de Reinos (KvK)](/events/kvk/) entre servidores, el grupo de héroes se expande ([Sombra](/codex/shadow/), Joker, Bella) y el [Carrera de Elixires](/events/elixir/) semanal de 30 minutos.
 - **Capítulo 4 (Días 66–119)**: ¡La Edad de Oro! Llegada gratuita a la Taberna del portador F2P supremo [Marlena](/codex/marlena/) (para aquellos que no compraron su paquete de $1 el Día 1), recompensa diaria de 300 peces en el océano en [Tesoro Mítico](/events/mythic/), reliquias del Salón de Curiosidades y un estricto almacenamiento de Antitoxina.

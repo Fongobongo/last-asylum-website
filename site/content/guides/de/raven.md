@@ -61,7 +61,7 @@ Die wichtigste Regel überhaupt: **Werte nur Epigraphen der Fraktion deines Haup
 
 | Epigraph | Platz-Typ | Effekt |
 |---|---|---|
-| Frenzy Flock | Angriff | ATK-Buff für Krieger-Verbündete, nachdem die Raven-Fähigkeit ausgelöst wurde, plus mehr Raven-Ziele. |
+| Raserei Flock | Angriff | ATK-Buff für Krieger-Verbündete, nachdem die Raven-Fähigkeit ausgelöst wurde, plus mehr Raven-Ziele. |
 | Reversal Power | Unterstützung | Schaden für die 3 Krieger-Verbündeten mit dem höchsten ATK-Wert und reduziert den Ultimativen Schaden des Gegners. |
 | Protective Charm | — | Überlebens-Option – die standardmäßige dritte Wahl, wenn dein Trupp ständig stirbt, anstatt durch Schaden zu verlieren. |
 | Guard of Nature | Verteidigung (UR) | Schild aktiviert sich bei Kampfbeginn; Schadensreduzierung aktiviert sich, nachdem der Schild bricht. |
@@ -98,7 +98,7 @@ Die Sternenstufe kann im Schadensplatz die Seltenheit schlagen. Dies sind die ve
 
 - Ein Lila mit 4 Sternen kann im Angriffsplatz mehr Schaden verursachen als ein Gelber (UR) mit 0 Sternen – die Community-Kurzformel lautet: Lila DMG ist der Weg.
 - Ein Schild-UR mit 0 Sternen ist besser als ein SSR mit 5 Sternen.
-- Lila übertrifft UR gegen King Blight, bis der UR 3 Sterne oder mehr erreicht.
+- Lila übertrifft UR gegen King Seuche, bis der UR 3 Sterne oder mehr erreicht.
 
 Die Erkenntnis ist nicht, dass Lila heimlich die beste Stufe ist – sondern dass ein Epigraph mit vielen Sternen des richtigen Typs einen frischen UR des falschen Typs schlägt. Bringe deine Epigraphen auf Sterne, bevor du ihrer Seltenheitsobergrenze hinterherjagst.
 

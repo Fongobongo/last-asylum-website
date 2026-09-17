@@ -1,5 +1,5 @@
 ---
-title: "Kingdom War (KvK): Überleben & Punkte"
+title: "Königreichskrieg (KvK): Überleben & Punkte"
 description: "Server-gegen-Server-Krieg um die Royal City: der zweiwöchentliche Zeitplan, Strategie für Angreifer (erst Türme), Verzögerungstaktiken für Verteidiger, Truppen- und Ressourcenrisiken sowie die Punkteüberschneidung mit dem Allianz-Duell."
 lang: de
 updated: "2026-09-03"
@@ -9,7 +9,7 @@ infographics: []
 type: event
 ---
 
-Kingdom War ist der **Server-gegen-Server-Krieg** des Spiels: Zwei Königreiche fallen in eine gemeinsame Karte ein und kämpfen um die **Royal City**. Er findet **zweiwöchentlich** statt, wobei die Punktevergabe und Vorbereitungsaufgaben über die Woche verteilt sind und die Hauptschlacht in einem einzigen Zeitfenster stattfindet. Man gewinnt, indem man die Royal City kontrolliert, wenn sich der Staub gelegt hat.
+Königreichskrieg ist der **Server-gegen-Server-Krieg** des Spiels: Zwei Königreiche fallen in eine gemeinsame Karte ein und kämpfen um die **Royal City**. Er findet **zweiwöchentlich** statt, wobei die Punktevergabe und Vorbereitungsaufgaben über die Woche verteilt sind und die Hauptschlacht in einem einzigen Zeitfenster stattfindet. Man gewinnt, indem man die Royal City kontrolliert, wenn sich der Staub gelegt hat.
 
 Dieser Leitfaden behandelt den Zeitplan, die Strategie für Angreifer und Verteidiger, allgemeine Regeln, die Fehler, die Kriege verlieren lassen, und die Wirtschaftsregeln, die deinen Account währenddessen am Leben erhalten.
 
@@ -55,9 +55,9 @@ Egal auf welcher Seite du stehst, es gelten dieselben Regeln:
 
 ## KvK-Wirtschaft: Truppen, Ressourcen und Schilde {#economy-rules}
 
-Kingdom War ist eines der wenigen Events mit echtem Account-Risiko:
+Königreichskrieg ist eines der wenigen Events mit echtem Account-Risiko:
 
-- **Du KANNST Truppen und Ressourcen verlieren, wenn du angegriffen wirst** — dies ist kein risikofreies Event wie [Canyon Conquest](/de/events/canyon/).
+- **Du KANNST Truppen und Ressourcen verlieren, wenn du angegriffen wirst** — dies ist kein risikofreies Event wie [Schluchteroberung](/de/events/canyon/).
 - **Aktiviere Schilde** während des Zeitfensters des Krieges. Eine ungeschützte Stadt während KvK ist eine Ressourcen-Piñata für den gegnerischen Server.
 - **Verluste skalieren mit deiner Mauer und Forschung** — eine maximierte Mauer und Verteidigungsforschung machen aus einem Massaker ein Scharmützel.
 - **Spare Upgrades und Speedups für die Punktetage** — dieselbe Logik des doppelten Wertes, die für das [Allianz-Duell](/de/events/alliance-duel/) gilt, findet auch auf KvK-Punkteaufgaben Anwendung. Ein großes Upgrade an einem neutralen Tag auszugeben, bringt nur die Hälfte.

@@ -1,6 +1,6 @@
 ---
 title: "🧠 Profi-Tipps, versteckte Mechaniken & Geheimnisse"
-description: "Das komplette Kompendium der versteckten Mechaniken in Last Asylum: Plague — Bau-Buff-Snap-Shotting, Ghost-Rally-Verteidigungstaktiken, Krankenhaus-Überlauf-Mechaniken, Claire-Umwandlungsfallen, Ressourcen-Tile-Pre-Farming und Diamanten-Wirtschaftsgeheimnisse."
+description: "Das komplette Kompendium der versteckten Mechaniken in Last Asylum: Plague — Bau-Buff-Snap-Shotting, Ghost-Versammlung-Verteidigungstaktiken, Krankenhaus-Überlauf-Mechaniken, Claire-Umwandlungsfallen, Ressourcen-Tile-Pre-Farming und Diamanten-Wirtschaftsgeheimnisse."
 lang: de
 updated: "2026-09-04"
 videoTopic: tips
@@ -32,7 +32,7 @@ Aufgrund des Divisors bringt jeder zusätzliche +10 % Geschwindigkeits-Buff etwa
 
 ---
 
-## 2. Krankenhaus-Überlauf & die "Ghost-Rally"-Verteidigungstechnik {#ghost-rally}
+## 2. Krankenhaus-Überlauf & die "Ghost-Versammlung"-Verteidigungstechnik {#ghost-rally}
 
 Dein Krankenhaus ist nicht nur eine Heilungsstätte — es ist die wichtigste Firewall, die die permanente Zerstörung deines Accounts verhindert.
 
@@ -41,7 +41,7 @@ Wenn deine Stadt angegriffen wird, werden überlebende, besiegte Truppen verwund
 * Solange Krankenhauskapazität verfügbar ist, sind Truppen **Verwundet** und können schnell für günstige Ressourcen geheilt werden.
 * **Sobald die Krankenhauskapazität 100 % erreicht:** JEDER nachfolgende verwundete Soldat **STIRBT PERMANENT**. Wenn ein feindlicher "Wal" deine Stadt 3 bis 4 Mal hintereinander angreift, während du schläfst, sind Hunderttausende hochstufiger T8/T9-Truppen für immer verloren. Den Wiederaufbau dieser Armee dauert Monate.
 
-### Das "Ghost-Rally" (Fake-Rally) Geheimnis
+### Das "Ghost-Versammlung" (Fake-Versammlung) Geheimnis
 Was solltest du tun, wenn eine feindliche Streitmacht während eines KvK oder Kill-Events zu deinem Bienenstock teleportiert, du aber keinen Friedensschild hast (oder keine Diamanten mehr)?
 
 > [!TIP]
@@ -258,7 +258,7 @@ Diamanten sind die wichtigste Währung. Obwohl sie im frühen Spiel großzügig 
 
 1. **Geschwindigkeits-Buffs snap-shotten beim Start** — Aktiviere Minister-Titel, Runen und Ausrüstung BEVOR du auf Upgrade drückst.
 2. **Leeres Krankenhaus = lebende Armee** — Krankenhaus-Überlauf verursacht irreversiblen permanenten Truppentod.
-3. **Ghost-Rally zum Schutz der Truppen** — Verstecke deinen besten Marsch in einer 8-Stunden-Rallye, wenn du vor unbesiegbaren Überfällen stehst.
+3. **Ghost-Versammlung zum Schutz der Truppen** — Verstecke deinen besten Marsch in einer 8-Stunden-Rallye, wenn du vor unbesiegbaren Überfällen stehst.
 4. **Öffne niemals Inventar-Ressourcenbeutel** — Halte Beutel versiegelt bis zu dem Moment, in dem ein Upgrade startet.
 5. **Falkenturm: Stapeln bis Max − 1** — Halte einen Slot frei, um Hintergrund-Spawns zu erhalten; löse am Mo/Mi/Fr ein.
 6. **Wandle SSR Claire nicht zu früh um** — Horte Token der Ehrenhalle, um den 6★-Stat-Abfall direkt auf 9★/10★ zu überspringen.

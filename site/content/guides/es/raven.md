@@ -61,7 +61,7 @@ La regla más importante: **solo mejora epígrafes de la facción de tu escuadr�
 
 | Epígrafe | Tipo de espacio | Efecto |
 |---|---|---|
-| Frenzy Flock | Ataque | Mejora de ATK a aliados Guerreros después de que se dispara la habilidad del Cuervo, además de más objetivos para el Cuervo. |
+| Frenesí Flock | Ataque | Mejora de ATK a aliados Guerreros después de que se dispara la habilidad del Cuervo, además de más objetivos para el Cuervo. |
 | Reversal Power | Apoyo | Daño para los 3 aliados Guerreros con mayor ATK, y reduce el daño de las habilidades definitivas enemigas. |
 | Protective Charm | — | Opción de supervivencia: la tercera elección estándar cuando tu escuadrón sigue muriendo en lugar de perder por daño. |
 | Guard of Nature | Defensa (UR) | El escudo se activa al comenzar la batalla; la reducción de daño se activa después de que el escudo se rompe. |
@@ -98,7 +98,7 @@ El nivel de estrellas puede superar a la rareza en el espacio de daño. Estas so
 
 - Un morado de 4 estrellas puede superar en daño a un amarillo (UR) de 0 estrellas en el espacio de ataque; la abreviatura de la comunidad es "daño morado hasta el final".
 - Un UR de escudo de 0 estrellas es mejor que un SSR de 5 estrellas.
-- El morado supera al UR contra el Rey de la Plaga (King Blight) hasta que el UR alcanza 3 estrellas o más.
+- El morado supera al UR contra el Rey de la Plaga (King Infectado) hasta que el UR alcanza 3 estrellas o más.
 
 La conclusión no es que el morado sea secretamente el mejor nivel, sino que un epígrafe de muchas estrellas del tipo correcto supera a un UR nuevo del tipo incorrecto. Sube de estrellas tus epígrafes antes de perseguir su techo de rareza.
 

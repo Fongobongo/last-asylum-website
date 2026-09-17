@@ -89,8 +89,8 @@ El sábado es el clímax de la semana de duelo: dos alianzas emparejadas se enfr
 
 - **Puntos JcJ:** Se otorgan puntos por derrotar soldados enemigos y lograr penetrar ciudades enemigas.
 - **Nuevos potenciadores de incursión (actualización del 20 de agosto de 2026):** Durante la Fase de Incursión del sábado, hay potenciadores activos:
-  - Mayor capacidad de enfermería para evitar el desbordamiento fatal de tropas;
-  - Mayor velocidad de curación para soldados heridos;
+  - Alcalde capacidad de enfermería para evitar el desbordamiento fatal de tropas;
+  - Alcalde velocidad de curación para soldados heridos;
   - Costo de curación reducido (descuento de recursos).
 - **Fase de Liga de Alianzas:** Para servidores con más de 7 semanas, las 16 mejores alianzas de cada Reino compiten en la Fase de Liga competitiva, que cuenta con estandartes dedicados y recompensas de grupo.
 

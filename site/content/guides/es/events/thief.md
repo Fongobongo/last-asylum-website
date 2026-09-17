@@ -86,7 +86,7 @@ La composición comunitaria para jefes, diseñada para daño sostenido:
 
 | Fila | Héroes | Función |
 |---|---|---|
-| Frontal | Arthur + Bella | Sobrevivir más tiempo; cada segundo extra de supervivencia acumula más daño |
-| Trasera | Marlena + Shadow + Claire | Motor de daño detrás de la línea frontal |
+| Frontal | Arturo + Bella | Sobrevivir más tiempo; cada segundo extra de supervivencia acumula más daño |
+| Trasera | Marlena + Sombra + Claire | Motor de daño detrás de la línea frontal |
 
 La lógica: **mayor supervivencia = más daño acumulado**. Una pelea contra un jefe no es una prueba de daño explosivo; el escuadrón que resiste más tiempo es el que más daño inflige, así que prioriza la supervivencia sobre el ataque puro. Los detalles completos de los héroes están en la [guía de Héroes](/es/heroes/).

@@ -1,6 +1,6 @@
 ---
 title: "🧠 Conseils de pro, mécaniques cachées et secrets"
-description: "L'encyclopédie complète des mécaniques cachées dans Last Asylum: Plague — snapshot des bonus de construction, tactiques de défense par « Ghost Rally », gestion du débordement de l'hôpital, pièges de conversion de Claire, pré-farming de tuiles et secrets de l'économie de diamants."
+description: "L'encyclopédie complète des mécaniques cachées dans Last Asylum: Plague — snapshot des bonus de construction, tactiques de défense par « Ghost Ralliement », gestion du débordement de l'hôpital, pièges de conversion de Claire, pré-farming de tuiles et secrets de l'économie de diamants."
 lang: fr
 updated: "2026-09-04"
 videoTopic: tips
@@ -32,7 +32,7 @@ En raison du diviseur, chaque bonus de vitesse de +10 % supplémentaire génère
 
 ---
 
-## 2. Débordement de l'hôpital et technique de défense « Ghost Rally » {#ghost-rally}
+## 2. Débordement de l'hôpital et technique de défense « Ghost Ralliement » {#ghost-rally}
 
 Votre hôpital n'est pas seulement une infirmerie — c'est le pare-feu le plus critique pour éviter la destruction permanente de votre compte.
 
@@ -41,7 +41,7 @@ Lorsque votre ville est attaquée, les troupes survivantes vaincues sont blessé
 * Tant qu'il y a de la place à l'hôpital, les troupes sont **Blessées** et peuvent être soignées rapidement pour un coût modique en ressources.
 * **Une fois que la capacité de l'hôpital atteint 100 % :** CHAQUE soldat blessé supplémentaire **MEURT DÉFINITIVEMENT**. Si une « baleine » ennemie attaque votre ville 3 ou 4 fois de suite pendant que vous dormez, des centaines de milliers de troupes de haut niveau (T8/T9) sont anéanties pour toujours. Reconstruire cette armée prend des mois.
 
-### Le secret du « Ghost Rally » (Faux ralliement)
+### Le secret du « Ghost Ralliement » (Faux ralliement)
 Que faire si une force de frappe ennemie se téléporte dans votre ruche pendant un KvK ou un événement de tuerie, alors que vous n'avez pas de Bouclier de paix (ou plus de diamants) ?
 
 > [!TIP]
@@ -258,7 +258,7 @@ Les diamants sont la monnaie premium. Bien qu'ils soient généreux en début de
 
 1. **Les bonus de vitesse sont snapshotés au démarrage** — Activez les titres ministériels, les runes et l'équipement AVANT d'appuyer sur améliorer.
 2. **Hôpital vide = armée vivante** — Le débordement de l'hôpital cause la mort permanente et irréversible des troupes.
-3. **Ghost Rally pour protéger les troupes** — Cachez votre meilleure marche dans un ralliement de 8 heures face à des raids impossibles à gagner.
+3. **Ghost Ralliement pour protéger les troupes** — Cachez votre meilleure marche dans un ralliement de 8 heures face à des raids impossibles à gagner.
 4. **N'ouvrez jamais les sacs de ressources de l'inventaire** — Gardez les sacs scellés jusqu'au moment précis où une amélioration commence.
 5. **Tour du Faucon : Cumul Max − 1** — Gardez un emplacement ouvert pour maintenir les apparitions en arrière-plan ; encaissez les lun/mer/ven.
 6. **Ne convertissez pas Claire SSR trop tôt** — Accumulez des jetons du Hall d'honneur pour sauter la baisse de stats du 6★ directement vers 9★/10★.
@@ -266,7 +266,7 @@ Les diamants sont la monnaie premium. Bien qu'ils soient généreux en début de
 8. **La répartition sur 4 terrains (1 Max + 3 niv. 10) :** Produisez en parallèle des T4 sur 3 terrains de soutien et promouvez sur votre terrain principal, économisant 6–7 heures par cycle.
 9. **Super récompense 1 & 2 au Labo — Non négociable :** Sans elles, les niveaux de coffres de Duel 4–9 restent verrouillés en permanence.
 10. **Ne raffinez jamais l'épée d'un tank :** Les pierres d'équipement vont sur l'épée/gants du Carry et le plastron/bottes du Tank.
-11. **Ne dépensez jamais de diamants sur des tirages Tavern bruts** — Économisez ~1 500 pour le jalon de la Roue des souhaits (7 tours gratuits + 3 payés = copie de Cynthia) et poussez le reste dans la progression VIP.
+11. **Ne dépensez jamais de diamants sur des tirages Taverne bruts** — Économisez ~1 500 pour le jalon de la Roue des souhaits (7 tours gratuits + 3 payés = copie de Cynthia) et poussez le reste dans la progression VIP.
 12. **Le mono-faction bat les setups hybrides** — Cinq héros de la même classe maximisés avec des Épigraphes de corbeau dominent les compositions mixtes.
 
 ---

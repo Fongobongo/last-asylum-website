@@ -20,7 +20,7 @@ O recurso de Aliança é desbloqueado no **Nível 5 do Santuário**.
 2. Evite entrar em guildas de iniciantes "Abertas" aleatórias. Alianças competitivas e organizadas sempre exigem uma revisão de inscrição (Aplicar).
 3. **Critérios Chave de Seleção:**
    * **Classificação de Poder (Might Ranking):** Esforce-se para entrar em uma guilda Top 1 a Top 3 no seu servidor. Elas dominam o Castelo Real, detêm o título de Guilda Governante e geram milhares de baús de presente de membros ativos.
-   * **Fuso Horário e Atividade no Chat:** Certifique-se de que os horários de ataque principais da guilda se alinham com sua programação para os ataques de Armadilha de Queijo (Cheese Trap) e Cerco dos Mortos-Vivos (Undead Siege).
+   * **Fuso Horário e Atividade no Chat:** Certifique-se de que os horários de ataque principais da guilda se alinham com sua programação para os ataques de Armadilha de Queijo (Armadilha de Queijo) e Cerco dos Mortos-Vivos (Cerco dos Mortos-Vivos).
    * **Nível de Presente:** Níveis de presente de aliança mais altos dropam baús de marco melhores contendo diamantes grátis, bilhetes de recrutamento e aceleradores.
 
 ---
@@ -50,13 +50,13 @@ A pesquisa da Aliança fornece bônus passivos para cada membro em força milita
 ### Prioridade de Pesquisa dos Oficiais:
 1. **Desenvolvimento:** "Família Grande" (capacidade de membros) $\rightarrow$ "Ajuda Mútua" (aumenta a redução do tempo de ajuda).
 2. **Território:** Velocidade de coleta em terras da aliança e bônus de proteção de armazém.
-3. **Guerra:** Multiplicadores de Ataque/HP de Tropas e melhorias de Capacidade de Ataque em Grupo (Rally Capacity).
+3. **Guerra:** Multiplicadores de Ataque/HP de Tropas e melhorias de Capacidade de Ataque em Grupo (Mobilizar Capacity).
 
 ---
 
 ## 4. Presentes da Aliança e o Privilégio de Nível 25
 
-Sempre que um camarada da aliança mata um Líder Ladrão (Thief Leader), derrota um monstro da Praga de Elite (Elite Blight) ou compra um pacote, **cada membro recebe um Baú de Presente**.
+Sempre que um camarada da aliança mata um Líder Ladrão (Thief Leader), derrota um monstro da Praga de Elite (Elite Infectado) ou compra um pacote, **cada membro recebe um Baú de Presente**.
 
 * **XP de Presente:** Abrir baús eleva o seu Nível de Presente da Aliança.
 * **Privilégio de Nível 25 (Atualização de Setembro):**
@@ -72,7 +72,7 @@ A Honra da Aliança, obtida através de doações diárias e assistência, deve 
 |---|---|---|
 | **Nível S** | **Escudo de Paz de 8h / 24h** | Obrigatório para proteger tropas durante KvK e Eventos de Abate (Kill Events). Nunca gaste diamantes em escudos! |
 | **Nível S** | **Teletransporte Avançado** | Relocação instantânea para o território da aliança ou marcadores de ataque em grupo de chefes. |
-| **Nível A** | **Redefinição de Talento / Habilidade** | Troque entre construções econômicas e de combate para o Duelo de Alianças (Alliance Duel). |
+| **Nível A** | **Redefinição de Talento / Habilidade** | Troque entre construções econômicas e de combate para o Duelo de Alianças (Duelo da Aliança). |
 | **Nível B** | **Aceleradores Universais** | Estoque para as fases de pontuação de aceleradores de sexta-feira. |
 | **Nível F** | Recursos Básicos (Grão, Madeira) | Nunca compre — facilmente coletados de tiles do mapa-múndi. |
 

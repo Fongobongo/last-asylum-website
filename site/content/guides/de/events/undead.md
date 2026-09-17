@@ -1,5 +1,5 @@
 ---
-title: "Undead Siege: Vollständiger Leitfaden"
+title: "Untoten-Belagerung: Vollständiger Leitfaden"
 description: "Allianz-Verteidigung gegen Infizierten-Wellen: Der 300.000-Hinweis-Balken, Schwierigkeitsgrade von 2,4 Mio. bis 24,5 Mio. Feindstärke, die versteckte Multi-Squad-Mechanik, die 9,5-Mio.-Spieler ausschaltet, und vollständige Belohnungstabellen."
 lang: de
 updated: "2026-09-03"
@@ -9,7 +9,7 @@ infographics: ["/infographics/undead-siege-guide.webp", "/infographics/undead-si
 type: event
 ---
 
-Undead Siege (Untoten-Belagerung) ist das Allianz-Verteidigungsevent: Deine gesamte Allianz stellt sich **Wellen von Infizierten** entgegen, wobei Helden auf der Mauer den Kampf bestreiten. Zwei Regeln definieren das Event vor allen anderen: **Schilde funktionieren nicht** und es ist **kein Punkte-Event** — das Ziel ist es, so viele Wellen wie möglich abzuwehren.
+Untoten-Belagerung (Untoten-Belagerung) ist das Allianz-Verteidigungsevent: Deine gesamte Allianz stellt sich **Wellen von Infizierten** entgegen, wobei Helden auf der Mauer den Kampf bestreiten. Zwei Regeln definieren das Event vor allen anderen: **Schilde funktionieren nicht** und es ist **kein Punkte-Event** — das Ziel ist es, so viele Wellen wie möglich abzuwehren.
 
 Dieser Leitfaden behandelt, wie Belagerungen freigeschaltet werden, die Schwierigkeitsleiter, die versteckte Multi-Squad-Mechanik, die unvorbereitete Allianzen auslöscht, Belohnungen und die sieben größten Fehler.
 
@@ -24,7 +24,7 @@ Belagerungen haben keinen Timer — deine Allianz löst sie aus (das Event wird 
 
 Hinweis-Punkte erhält man durch das normale tägliche Spiel:
 
-- Angreifen von **Rebellen** und der **Blight Legion**
+- Angreifen von **Rebellen** und der **Seuche Legion**
 - Töten von **Wandering Blights** (Wandernde Seuchen)
 - Sammeln von Ressourcen auf Feldern
 - Helfen bei Verbündeten (Hilfe beim Bauen und Forschen)

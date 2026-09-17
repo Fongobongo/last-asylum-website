@@ -1,6 +1,6 @@
 ---
 title: "🧠 Consejos Pro, Mecánicas Ocultas y Secretos"
-description: "La enciclopedia completa de mecánicas ocultas en Last Asylum: Plague — instantánea de bonificaciones de construcción, tácticas de defensa con 'Ghost Rally', mecánica de desbordamiento del hospital, trampas de conversión de Claire, pre-cultivo de casillas y secretos de la economía de diamantes."
+description: "La enciclopedia completa de mecánicas ocultas en Last Asylum: Plague — instantánea de bonificaciones de construcción, tácticas de defensa con 'Ghost Reunión', mecánica de desbordamiento del hospital, trampas de conversión de Claire, pre-cultivo de casillas y secretos de la economía de diamantes."
 lang: es
 updated: "2026-09-04"
 videoTopic: tips
@@ -32,7 +32,7 @@ Debido al divisor, cada bonificación de velocidad del +10% posterior produce li
 
 ---
 
-## 2. Desbordamiento del Hospital y la Técnica de Defensa "Ghost Rally" {#ghost-rally}
+## 2. Desbordamiento del Hospital y la Técnica de Defensa "Ghost Reunión" {#ghost-rally}
 
 Tu Hospital no es solo una choza de curación; es el cortafuegos más crítico para evitar la destrucción permanente de tu cuenta.
 
@@ -41,13 +41,13 @@ Cuando tu ciudad es atacada, las tropas supervivientes derrotadas resultan herid
 * Mientras haya espacio disponible en el hospital, las tropas están **Heridas** y pueden curarse rápidamente con recursos baratos.
 * **Una vez que la capacidad del Hospital alcanza el 100%:** CADA soldado herido posterior **MUERE PERMANENTEMENTE**. Si una ballena enemiga ataca tu ciudad 3 o 4 veces consecutivas mientras duermes, cientos de miles de tropas de alto nivel T8/T9 son eliminadas para siempre. Reconstruir ese ejército lleva meses.
 
-### El secreto del "Ghost Rally" (Rally Falso)
+### El secreto del "Ghost Reunión" (Reunión Falso)
 ¿Qué debes hacer si una fuerza de ataque enemiga se teletransporta a tu colmena durante el KvK o eventos de asesinato, pero no tienes Escudo de Paz (o te quedaste sin diamantes)?
 
 > [!TIP]
 > **Cómo proteger a tu ejército sin un escudo:**
 > 1. Abre el mapa mundial y localiza una fortaleza abandonada lejana, una guarida de zombis de alto nivel o un campamento inactivo.
-> 2. Toca **Rally** y selecciona la duración máxima del temporizador: **8 Horas**.
+> 2. Toca **Reunión** y selecciona la duración máxima del temporizador: **8 Horas**.
 > 3. Asigna a tu escuadrón de combate principal con tus héroes más fuertes en este rally.
 
 **Por qué funciona:** Las tropas asignadas a un rally activo dentro de tu ciudad o marchando hacia un objetivo de rally poseen **inmunidad absoluta del 100% a los ataques entrantes**. Incluso si el enemigo ataca los muros de tu ciudad y prende fuego a tu pueblo, ¡tus tropas en rally no reciben daño! Una vez que la amenaza haya pasado, cancela el rally con un solo clic y tus tropas de élite regresarán a tus barracones sanas y salvas.
@@ -129,7 +129,7 @@ TU FORMACIÓN:
 
 ### Selección de objetivos directa y fugas diagonales
 * Los ataques automáticos cuerpo a cuerpo priorizan a la unidad de primera línea enemiga que está directamente enfrente.
-* Si tu tanque del flanco izquierdo (ej. Arthur) cae antes que tu tanque del flanco derecho (ej. Daskal), el flanco izquierdo enemigo **¡NO cambia al tanque derecho!** ¡En cambio, sus ataques se filtran directamente hacia tu carry de retaguardia que está detrás de Arthur!
+* Si tu tanque del flanco izquierdo (ej. Arturo) cae antes que tu tanque del flanco derecho (ej. Daskal), el flanco izquierdo enemigo **¡NO cambia al tanque derecho!** ¡En cambio, sus ataques se filtran directamente hacia tu carry de retaguardia que está detrás de Arturo!
 * **Regla táctica:** Coloca a tu tanque de mayor durabilidad directamente frente al carry de mayor daño explosivo del escuadrón enemigo.
 
 ### Sinergia Mono-Facción y Epígrafes de Cuervo
@@ -258,7 +258,7 @@ Los diamantes son la moneda principal. Aunque son generosos al principio del jue
 
 1. **Las bonificaciones de velocidad se instantanean al inicio** — Activa títulos ministeriales, runas y equipo ANTES de presionar mejorar.
 2. **Hospital vacío = ejército vivo** — El desbordamiento del hospital causa la muerte permanente e irreversible de tropas.
-3. **Ghost Rally para proteger tropas** — Esconde tu mejor marcha en un rally de 8 horas cuando enfrentes incursiones imposibles de ganar.
+3. **Ghost Reunión para proteger tropas** — Esconde tu mejor marcha en un rally de 8 horas cuando enfrentes incursiones imposibles de ganar.
 4. **Nunca abras bolsas de recursos del inventario** — Mantén las bolsas selladas hasta el momento exacto en que comienza una mejora.
 5. **Torre Falcon: Acumular Máx − 1** — Mantén un espacio abierto para mantener las apariciones en segundo plano; cobra los lunes/miércoles/viernes.
 6. **No conviertas a Claire SSR demasiado pronto** — Acumula fichas del Salón de Honor para saltar la caída de estadísticas de 6★ directamente a 9★/10★.
@@ -276,7 +276,7 @@ Los diamantes son la moneda principal. Aunque son generosos al principio del jue
 Tras 7 meses de juego en la cuenta principal, cinco errores que los veteranos siguen diciendo a los nuevos jugadores que eviten:
 
 1. **Comprar cofres de Curiosidades en la tienda de Honor en lugar de planos.** Los planos de equipo son lo único que compra el Honor que es escaso en todas partes. Las curiosidades caen pasivamente; los planos no.
-2. **Alimentar a Arthur con Omnis UR.** Envejece mal. Guárdalos para **Marlena a 10★** — ella carga con todo durante los primeros 30–60 días.
+2. **Alimentar a Arturo con Omnis UR.** Envejece mal. Guárdalos para **Marlena a 10★** — ella carga con todo durante los primeros 30–60 días.
 3. **Ignorar los Talleres de Fundición.** Cinco de ellos en nivel 23–25 = 44K piedras de equipo/semana pasivas. Empujarlos tarde es lo que bloquea cada punto de ruptura de nivel 40 más adelante.
 4. **Goteo de piedras de equipo en equipo morado (SSR).** Equipo correcto para el héroe correcto solamente: espada+guantes+botas para DPS, pecho+botas para tanques, todo lo demás en cero hasta UR.
 5. **Mejorar habilidades de ataque en tanques.** El ataque de un tanque no hace nada; sus habilidades funcionan escalando DEF/HP en su lugar.

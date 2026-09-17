@@ -1,24 +1,24 @@
 ---
 title: "Rei Demônio: Cronograma do Evento, Vulnerabilidade a Magos e o Truque de Marcha de 30 Segundos"
-description: "Guia completo para o evento de chefe mundial Rei Demônio (Blight Ranger) em Last Asylum: Plague: cronograma de terça e sexta-feira, bônus de contra-ataque de Magos, 10 ataques diários e o truque de retorno de marcha de 30 segundos."
+description: "Guia completo para o evento de chefe mundial Rei Demônio (Praga Ranger) em Last Asylum: Plague: cronograma de terça e sexta-feira, bônus de contra-ataque de Magos, 10 ataques diários e o truque de retorno de marcha de 30 segundos."
 lang: pt
 updated: "2026-09-15"
 videoTopic: demon_king
 type: event
 ---
 
-O **Rei Demônio (Blight Ranger)** é um evento de chefe mundial recorrente no mapa global em **Last Asylum: Plague**, permitindo que comandantes ataquem uma entidade infectada massiva para obter recompensas premium: diamantes, baús de equipamento, bilhetes de recrutamento de heróis e recursos.
+O **Rei Demônio (Praga Ranger)** é um evento de chefe mundial recorrente no mapa global em **Last Asylum: Plague**, permitindo que comandantes ataquem uma entidade infectada massiva para obter recompensas premium: diamantes, baús de equipamento, bilhetes de recrutamento de heróis e recursos.
 
 ---
 
 ## 📅 Cronograma e Requisitos de Participação {#schedule}
 
 * **Dias do Evento:** O Rei Demônio alterna entre três tipos no mapa mundial:
-  - **Seg & Qui** — Warlock Blight (dano bônus de heróis **Guerreiros**)
-  - **Ter & Sex** — Ranger Blight (dano bônus de heróis **Magos/Warlocks**)
-  - **Qua & Sáb** — Warrior Blight (dano bônus de heróis **Rangers**)
+  - **Seg & Qui** — Warlock Praga (dano bônus de heróis **Guerreiros**)
+  - **Ter & Sex** — Ranger Praga (dano bônus de heróis **Magos/Warlocks**)
+  - **Qua & Sáb** — Warrior Praga (dano bônus de heróis **Rangers**)
 
-  Esta página cobre o Ranger Blight de terça/sexta-feira; as mesmas regras se aplicam aos outros dois dias — basta trocar a classe de contra-ataque.
+  Esta página cobre o Ranger Praga de terça/sexta-feira; as mesmas regras se aplicam aos outros dois dias — basta trocar a classe de contra-ataque.
 * **Requisito do Santuário:** Disponível para todos os comandantes com **Santuário Nível 8 ou superior**.
 * **Limite de Ataque Diário:** Cada comandante tem **até 10 ataques por dia**. Ataques de rali não são suportados.
 * **Zero Perda de Tropas:** Batalhas contra o Rei Demônio não resultam em mortes permanentes de soldados — soldados feridos são enviados para a Enfermaria sem redução permanente de CP.
@@ -28,7 +28,7 @@ O **Rei Demônio (Blight Ranger)** é um evento de chefe mundial recorrente no m
 ## 🧙 Vulnerabilidade de Classe: Implante Heróis Magos / Warlocks! {#mages-weakness}
 
 > [!TIP] Mecânica Principal de Contra-ataque: O Rei Demônio recebe dano extra de Magos!
-> O Blight Ranger é inerentemente **vulnerável a heróis da classe Mago / Warlock**. Magos causam dano significativamente amplificado durante toda a luta.
+> O Praga Ranger é inerentemente **vulnerável a heróis da classe Mago / Warlock**. Magos causam dano significativamente amplificado durante toda a luta.
 
 Para maximizar seu ranking de dano e garantir os melhores baús de marco:
 1. **Monte uma Formação Dedicada de Warlocks:** Priorize seu melhor elenco de Warlocks (por exemplo, [Joker](/pt/codex/joker/), [Annie](/pt/codex/annie/), [Nicole](/pt/codex/nicole/), [Billy](/pt/codex/billy/), [Ulfrid](/pt/codex/ulfrid/), conforme disponível).

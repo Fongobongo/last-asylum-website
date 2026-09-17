@@ -28,7 +28,7 @@ Este guia cobre a mecânica de surgimento de chefes, a técnica para gerar chefe
 
 - **Como o Limite de Nível Aumenta:** O nível máximo de Líder detectável aumenta após o Líder mais alto ser derrotado **3 vezes** por membros da sua Aliança (atualização de 30 de julho de 2026).
 - **Regra de Propriedade da Descoberta:** O Limite de Nível do Líder só aumenta quando Líderes descobertos pela *sua* Aliança são derrotados por *seus* membros. Derrotas por outras Alianças não afetam seu limite de nível (atualização de 2 de julho de 2026).
-- **Baú de Moedas do Chefe:** Líderes Ladrões de nível 80+ agora deixam cair um valioso **Baú de Moedas do Chefe**, concedido diretamente tanto ao descobridor quanto ao iniciador do Rally!
+- **Baú de Moedas do Chefe:** Líderes Ladrões de nível 80+ agora deixam cair um valioso **Baú de Moedas do Chefe**, concedido diretamente tanto ao descobridor quanto ao iniciador do Mobilizar!
 - Os níveis dos chefes escalam com o estágio de desenvolvimento do servidor — servidores de idade avançada não verão mais surgimentos de baixo nível.
 
 ## A Técnica de Ataque Contínuo para Nível 30/35 {#spawn-technique}
@@ -80,7 +80,7 @@ E uma regra de inventário: **o limite de pergaminhos é transferido de um event
 - **Mantenha um esquadrão em casa permanentemente para rallies de aliados** — participar custa zero de energia, mas você ainda garante a parcela total da recompensa. Itens gratuitos por zero recurso. Esta é a melhor dica: não a deixe sem colher.
 - Uma hora de cultivo direcionado converte-se em aproximadamente 4 mil Moedas de Ladrão, 250 mil bagas de Corvo e ~65 milhões de grãos+madeira+ervas em recursos — é por isso que este evento supera a **Mina dos Anões** em renda semanal bruta para a maioria dos jogadores.
 
-## O Esquadrão de Rally de Chefe {#boss-squad}
+## O Esquadrão de Mobilizar de Chefe {#boss-squad}
 
 A composição de chefe da comunidade, construída para dano ao longo do tempo:
 

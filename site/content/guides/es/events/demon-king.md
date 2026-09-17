@@ -1,24 +1,24 @@
 ---
 title: "Rey Demonio: Horario del evento, vulnerabilidad a magos y truco de marcha de 30 segundos"
-description: "Guía completa para el evento del jefe mundial Rey Demonio (Blight Ranger) en Last Asylum: Plague: horario de martes y viernes, bonificación contra magos, 10 ataques diarios y el truco de retirada de marcha de 30 segundos."
+description: "Guía completa para el evento del jefe mundial Rey Demonio (Infectado Ranger) en Last Asylum: Plague: horario de martes y viernes, bonificación contra magos, 10 ataques diarios y el truco de retirada de marcha de 30 segundos."
 lang: es
 updated: "2026-09-15"
 videoTopic: demon_king
 type: event
 ---
 
-El **Rey Demonio (Blight Ranger)** es un evento de jefe mundial recurrente en el mapa global de **Last Asylum: Plague**, que permite a los comandantes atacar a una entidad infectada masiva para obtener recompensas premium: diamantes, cofres de equipo, boletos de reclutamiento de héroes y recursos.
+El **Rey Demonio (Infectado Ranger)** es un evento de jefe mundial recurrente en el mapa global de **Last Asylum: Plague**, que permite a los comandantes atacar a una entidad infectada masiva para obtener recompensas premium: diamantes, cofres de equipo, boletos de reclutamiento de héroes y recursos.
 
 ---
 
 ## 📅 Horario y requisitos de participación {#schedule}
 
 * **Días del evento:** El Rey Demonio rota a través de tres tipos en el mapa mundial:
-  - **Lun y Jue** — Warlock Blight (daño adicional de héroes **Guerreros**)
-  - **Mar y Vie** — Ranger Blight (daño adicional de héroes **Magos/Brujos**)
-  - **Mié y Sáb** — Warrior Blight (daño adicional de héroes **Rangers**)
+  - **Lun y Jue** — Warlock Infectado (daño adicional de héroes **Guerreros**)
+  - **Mar y Vie** — Ranger Infectado (daño adicional de héroes **Magos/Brujos**)
+  - **Mié y Sáb** — Warrior Infectado (daño adicional de héroes **Rangers**)
 
-  Esta página cubre el Ranger Blight de martes y viernes; las mismas reglas se aplican a los otros dos días, solo debes cambiar la clase de contraataque.
+  Esta página cubre el Ranger Infectado de martes y viernes; las mismas reglas se aplican a los otros dos días, solo debes cambiar la clase de contraataque.
 * **Requisito del Santuario:** Disponible para todos los comandantes con **Santuario de nivel 8 o superior**.
 * **Límite de ataques diarios:** Cada comandante tiene **hasta 10 ataques por día**. Los ataques de rally no están permitidos.
 * **Cero pérdida de tropas:** Las batallas contra el Rey Demonio no resultan en muertes permanentes de soldados; los soldados heridos son enviados a la Enfermería sin reducción permanente de CP.
@@ -28,7 +28,7 @@ El **Rey Demonio (Blight Ranger)** es un evento de jefe mundial recurrente en el
 ## 🧙 Vulnerabilidad de clase: ¡Despliega héroes Magos / Brujos! {#mages-weakness}
 
 > [!TIP] Mecánica de contraataque principal: ¡El Rey Demonio recibe daño adicional de los Magos!
-> El Blight Ranger es intrínsecamente **vulnerable a los héroes de la clase Mago / Brujo**. Los magos infligen un daño significativamente amplificado durante toda la pelea.
+> El Infectado Ranger es intrínsecamente **vulnerable a los héroes de la clase Mago / Brujo**. Los magos infligen un daño significativamente amplificado durante toda la pelea.
 
 Para maximizar tu clasificación de daño y asegurar los mejores cofres de hitos:
 1. **Construye una alineación dedicada de Brujos:** Prioriza tu mejor lista de Brujos (por ejemplo, [Joker](/es/codex/joker/), [Annie](/es/codex/annie/), [Nicole](/es/codex/nicole/), [Billy](/es/codex/billy/), [Ulfrid](/es/codex/ulfrid/) según disponibilidad).

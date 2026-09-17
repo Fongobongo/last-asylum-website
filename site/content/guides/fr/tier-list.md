@@ -24,7 +24,7 @@ Compilé à partir de guides de composition d'escouade, d'analyses de combats de
 - **Shadow** (UR · Ranger · Tank) — Tank du Pass Héros ; tient la ligne pendant que les carries éliminent les ennemis
 - **Annie** (UR · Démoniste · Carry) — Secrètement forte pour les F2P ; compétence de soutien 8★ = énorme valeur pour l'équipe
 - **Joker** (UR · Démoniste · Carry) — Finisseur PvP (cible les PV les plus bas) ; cible de la roue après le jour 15
-- **Red Lady** (UR · Ranger · Carry) — Carry Ranger avec des étourdissements pour le PvP
+- **Dame Rouge** (UR · Ranger · Carry) — Carry Ranger avec des étourdissements pour le PvP
 
 ## Palier B {#b-tier}
 
@@ -37,7 +37,7 @@ Compilé à partir de guides de composition d'escouade, d'analyses de combats de
 - **Louis** (UR · Ranger · Tank) — Tank Ranger pour les rosters mono-ranger
 - **Nicole** (UR · Démoniste · Soutien) — Soutien de soin pour les escouades de démonistes (Poussière de Braise et soins retravaillés)
 - **Ulfrid** (UR · Démoniste · Tank) — Tank à réflexion de dégâts pour démonistes (renommé depuis Brian en juillet 2026)
-- **Billy** (UR · Démoniste · Tank) — Tank anti-contrôle (contre les étourdissements de Red Lady), −8 % de dégâts d'énergie subis, affaiblit 3 ennemis
+- **Billy** (UR · Démoniste · Tank) — Tank anti-contrôle (contre les étourdissements de Dame Rouge), −8 % de dégâts d'énergie subis, affaiblit 3 ennemis
 
 ## Palier C {#c-tier}
 

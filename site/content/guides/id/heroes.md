@@ -18,7 +18,7 @@ Ketiga faksi tidak setara pada tahap permainan yang sama. Konsensus komunitas me
 
 | Faksi | Jendela Puncak | Mengapa |
 |---|---|---|
-| Warrior | Awal permainan | Arthur gratis, *shard* Harper gratis, dan Marlena (tersedia langsung seharga $1 untuk Top-Up Pertama, atau gratis di Tavern pada Hari ke-66). Gim ini memberikan inti Warrior hampir tanpa biaya. |
+| Warrior | Awal permainan | Arthur gratis, *shard* Harper gratis, dan Marlena (tersedia langsung seharga $1 untuk Top-Up Pertama, atau gratis di Kedai pada Hari ke-66). Gim ini memberikan inti Warrior hampir tanpa biaya. |
 | Ranger | Tengah permainan | Ranger melawan Warrior — formasi Ranger menerima *damage* 20% lebih sedikit dari mereka. Dengan investasi, skuad Ranger di tengah permainan mengalahkan sekitar 98% lawan yang ditemui. |
 | Warlock | Akhir permainan | Batas kekuatan tertinggi, tetapi hanya dengan investasi besar — mereka perlu melampaui *boost* Warrior untuk mencapainya. Berbelanjalah atau bersabarlah. |
 
@@ -28,7 +28,7 @@ Untuk akun baru, ini menyelesaikan dilema umum: bangun inti Warrior yang diberik
 
 Susunan *free-to-play* standar komunitas, yang dirakit selama bulan-bulan pertama akun:
 
-**Arthur, Daskal, Marlena, Harper, Claire**
+**Arthur, Duskar, Marlena, Harper, Clea**
 
 Tiga hal yang menjadikannya standar: setiap hero di dalamnya gratis atau hampir gratis, bagian-bagiannya tiba dalam urutan yang selalu memberikan skuad terbaik Anda sesuatu untuk dikembangkan, dan ini menumpuk menuju bonus mono-faksi Warrior yang dihargai oleh meta akhir permainan.
 
@@ -36,13 +36,13 @@ Tiga hal yang menjadikannya standar: setiap hero di dalamnya gratis atau hampir 
 
 | Kapan | Tindakan |
 |---|---|
-| Hari 1-2 | Arthur tiba secara gratis dan menjadi *tank* Anda. Isi kursi yang tersisa dengan *shard* Bella, Claire, dan Celia gratis. |
-| Awal permainan | Investasikan HANYA pada Claire dan Arthur. Yang lain tetap sebagai pengisi tempat — termasuk Bella dan Celia. |
+| Hari 1-2 | Arthur tiba secara gratis dan menjadi *tank* Anda. Isi kursi yang tersisa dengan *shard* Bella, Clea, dan Celia gratis. |
+| Awal permainan | Investasikan HANYA pada Clea dan Arthur. Yang lain tetap sebagai pengisi tempat — termasuk Bella dan Celia. |
 | Sepanjang jalan | Harper ke 8 bintang adalah wajib untuk susunan standar. Beri dia makan secara stabil; jangan biarkan dia tertahan di 6 bintang. |
-| Hari 1 / Hari 66 | Marlena: beli di Hari 1 seharga $1 atau rekrut gratis di Tavern pada Hari 66. Simpan *shard* UR agar Anda bisa langsung membawanya ke 8 bintang — lalu terus dorong menuju 10. |
-| Hari 120+ (Era of Revival) | Daskal bergabung sebagai *tank* terbaik dalam gim. Claire menjadi UR melalui konversi Hari ke-8 Era — *shard*-nya gratis di awal, itulah alasan mengapa Anda menyimpannya alih-alih menghabiskannya. |
+| Hari 1 / Hari 66 | Marlena: beli di Hari 1 seharga $1 atau rekrut gratis di Kedai pada Hari 66. Simpan *shard* UR agar Anda bisa langsung membawanya ke 8 bintang — lalu terus dorong menuju 10. |
+| Hari 120+ (Era of Revival) | Duskar bergabung sebagai *tank* terbaik dalam gim. Clea menjadi UR melalui konversi Hari ke-8 Era — *shard*-nya gratis di awal, itulah alasan mengapa Anda menyimpannya alih-alih menghabiskannya. |
 
-Dua poin disiplin yang menentukan keberhasilan susunan ini: Claire dan Arthur saja di awal — dan jangan pernah gunakan *shard* Claire yang disimpan sebelum konversi Era, karena konversi ke UR adalah tujuan utama *shard* tersebut ditimbun.
+Dua poin disiplin yang menentukan keberhasilan susunan ini: Clea dan Arthur saja di awal — dan jangan pernah gunakan *shard* Clea yang disimpan sebelum konversi Era, karena konversi ke UR adalah tujuan utama *shard* tersebut ditimbun.
 
 ## Alternatif dan Varian {#alternatives}
 
@@ -50,15 +50,15 @@ Lima hero kanonik bukanlah satu-satunya jalur yang bisa digunakan — berikut ad
 
 ### Tanpa Marlena $1: Cynthia Sebagai Pengganti {#no-marlena}
 
-Melewatkan penawaran satu dolar? Cynthia dari Wishing Wheel hari ke-8 adalah penggantinya — UR *early-carry* yang benar-benar akan menggendong tim. Pertukaran terjadi di akhir permainan: Anda kehilangan bonus faksi 5% karena memecah tumpukan mono-faksi, dan Anda kehilangan sinergi Harper serta *epigraph* yang menjadi dasar inti standar. Bisa digunakan, tetapi Anda akan merasakan kekurangan di tingkat atas.
+Melewatkan penawaran satu dolar? Cynthia dari Roda Permohonan hari ke-8 adalah penggantinya — UR *early-carry* yang benar-benar akan menggendong tim. Pertukaran terjadi di akhir permainan: Anda kehilangan bonus faksi 5% karena memecah tumpukan mono-faksi, dan Anda kehilangan sinergi Harper serta *epigraph* yang menjadi dasar inti standar. Bisa digunakan, tetapi Anda akan merasakan kekurangan di tingkat atas.
 
 ### Varian PvP F2P {#f2p-pvp-variant}
 
-Untuk akun yang ingin melawan pemain alih-alih tumbuh dengan tenang: **Arthur, Lucius atau Bella, Claire, Marlena, Cynthia**. Ini menukar sebagian bonus faksi untuk kekuatan PvP Cynthia sebagai penyelesai.
+Untuk akun yang ingin melawan pemain alih-alih tumbuh dengan tenang: **Arthur, Lucius atau Bella, Clea, Marlena, Cynthia**. Ini menukar sebagian bonus faksi untuk kekuatan PvP Cynthia sebagai penyelesai.
 
 ### Susunan Komunitas Rusia {#russian-variant}
 
-Komunitas F2P Rusia menjalankan: Depan — Arthur dan Lucius (pasangan ini dijuluki Perisai Mutlak); Belakang — Claire, Kesso, dan Celia. Sivir mencakup bulan-bulan awal, Harper adalah proyek jangka panjang. Logikanya sama dengan susunan Barat, hanya potongan yang berbeda di papan yang sama.
+Komunitas F2P Rusia menjalankan: Depan — Arthur dan Lucius (pasangan ini dijuluki Perisai Mutlak); Belakang — Clea, Kaeso, dan Celia. Sivir mencakup bulan-bulan awal, Harper adalah proyek jangka panjang. Logikanya sama dengan susunan Barat, hanya potongan yang berbeda di papan yang sama.
 
 ## Meta Mono-Faksi {#mono-faction-meta}
 
@@ -66,11 +66,11 @@ Sejak *epigraph* Raven dirilis, menjalankan satu faksi telah berubah dari bonus 
 
 Itulah sebabnya skuad kanonik semuanya Warrior: investasi *epigraph* terakumulasi di atas faksi yang sudah ditumpuk. Skuad faksi campuran membayar untuk *epigraph* yang hanya memberikan *buff* pada setengah tim.
 
-### Hero Ungu: Spesialis World Boss (Ash & Cecilia) {#boss-purples}
+### Hero Ungu: Spesialis World Boss (Ashe & Cecilia) {#boss-purples}
 
 Meskipun hero ungu (SSR) dikeluarkan dari daftar tempur utama setelah minggu pertama, dua pengecualian memiliki kegunaan PvE seumur hidup:
 
-* **Ash:** *Skill* pasifnya secara langsung memperkuat total *damage* skuad yang diberikan kepada **World Boss**.
+* **Ashe:** *Skill* pasifnya secara langsung memperkuat total *damage* skuad yang diberikan kepada **World Boss**.
 * **Cecilia:** Meningkatkan *drop* sumber daya bonus dan *loot* dari World Boss.
 
 Masukkan *badge skill* ungu cadangan ke kemampuan inti mereka — mereka secara andal melipatgandakan hasil *raid* mingguan Anda.
@@ -89,9 +89,9 @@ Namun ada satu jebakan dalam *kit*-nya: jangan pernah memaksimalkan *auto-attack
 2. *Skill* aktif kedua.
 3. *Auto-attack* terakhir, dan hanya sampai tingkat moderat sampai *skill* lainnya selesai.
 
-### Claire: Pasif Adalah Intinya {#claire-skills}
+### Clea: Pasif Adalah Intinya {#claire-skills}
 
-*Skill* kunci Claire adalah pasifnya — penguat *damage* seluruh tim. Rencana yang diverifikasi: semua *skill* ke sekitar 15, pasif ke 20, dan tahan di sana sampai Zoya tiba dan mengatur ulang prioritas.
+*Skill* kunci Clea adalah pasifnya — penguat *damage* seluruh tim. Rencana yang diverifikasi: semua *skill* ke sekitar 15, pasif ke 20, dan tahan di sana sampai Zoya tiba dan mengatur ulang prioritas.
 
 ### Lembar Skill Per-Hero Korpez (Angka Mendalam) {#korpez-skill-sheet}
 
@@ -103,17 +103,17 @@ Untuk setiap hero, Korpez memeriksa setiap *skill* dengan level target. Intisari
 - **Cynthia** — *auto-attack* ke ~15, Lunar Hunt ke ~20-25, buat pasif Moonfall Dance tinggi (25–30; bintang meningkatkannya untuk mengenai seluruh tim musuh).
 - **Annie** — Candy ~20, Surprise Gift ~20–25, Candy Jar (ult) ke 30, Charged Gummies ke 30. Perlengkapan: pedang+sarung tangan 40+, sepatu 2★+, dada rendah.
 - **Joker** — pembunuh lini belakang murni: kartu dasarnya mengenai musuh dengan HP terendah, *ultimate* menargetkan lini belakang secara langsung; tumpuk *crit* pada pedang.
-- **Billy (Tank Warlock)** — Fate's Thread melindungi 2 sekutu ATK teratas Anda (25+); pasifnya memberikan kekebalan *stun* Red Lady yang hampir total.
+- **Billy (Tank Warlock)** — Fate's Thread melindungi 2 sekutu ATK teratas Anda (25+); pasifnya memberikan kekebalan *stun* Nyonya Merah yang hampir total.
 - **Nicole** — pendukung dengan penyembuhan tingkat DPS dari statistik ATK-nya; penyembuhan dipicu pada musuh yang terbakar (sinergi Joker).
-- **Bell** — **penyembuhannya berskala dengan ATK**, bukan DEF: mengabaikan pedang+sarung tangan memotong penyembuhannya dari ~205K menjadi ~66K. Ya — pasang perlengkapan *damage* nyata pada "pendukung" Anda.
-- **Ash & Cecilia (SR)** — satu-satunya hero ungu yang layak diberi *skill*: Ash = +buff *damage* monster, Cecilia = buff pengumpul sumber daya. Yang lain tetap di dasar.
+- **Belle** — **penyembuhannya berskala dengan ATK**, bukan DEF: mengabaikan pedang+sarung tangan memotong penyembuhannya dari ~205K menjadi ~66K. Ya — pasang perlengkapan *damage* nyata pada "pendukung" Anda.
+- **Ashe & Cecilia (SR)** — satu-satunya hero ungu yang layak diberi *skill*: Ashe = +buff *damage* monster, Cecilia = buff pengumpul sumber daya. Yang lain tetap di dasar.
 - Umum: **jangan pernah menghabiskan poin *skill* pada *skill* serangan *tank*; jangan pernah pada pedang *tank* sama sekali.**
 
 ## Titik Batas Bintang dan Tenacity {#star-breakpoints}
 
 Bintang adalah pengganda tunggal terbesar pada *might* hero. Lompatan kekuatan yang signifikan tiba setelah **4 bintang** — di bawah itu hero hanyalah pengisi kursi, di atasnya hero yang sama mulai memenangkan pertarungan. Inilah sebabnya target bintang pertama komunitas pada setiap hero skuad utama adalah melewati 4, bukan menyebarkan *shard* untuk membuat semua orang rata-rata biasa saja.
 
-Hero UR memiliki titik batas utama kedua: pada level 30 dan 8 bintang mereka membuka **Tenacity**. Ini adalah lompatan kemampuan bertahan yang besar dan alasan mengapa 8 bintang adalah titik istirahat standar untuk hero UR — mempercepat Marlena ke 8 bintang (terbuka di Hari 1 seharga $1 atau direkrut di Hari 66 dari Tavern) dirancang di sekitarnya.
+Hero UR memiliki titik batas utama kedua: pada level 30 dan 8 bintang mereka membuka **Tenacity**. Ini adalah lompatan kemampuan bertahan yang besar dan alasan mengapa 8 bintang adalah titik istirahat standar untuk hero UR — mempercepat Marlena ke 8 bintang (terbuka di Hari 1 seharga $1 atau direkrut di Hari 66 dari Kedai) dirancang di sekitarnya.
 
 ## Hero Awakened: Urutan Progres Era {#awakened-order}
 
@@ -133,7 +133,7 @@ Aturan yang mengikat semuanya: **jangan pernah membagi material Awakening**. Mel
 
 *Awakening* dikunci di balik **10 bintang merah** pada hero ditambah **~30 Omni Shard** untuk membuka pohon *Awakened* — dan 30 awal itu sengaja dikunci di balik paket $5. Setelah terbuka, Anda mendaki level *Awakened* 1–40, setiap tingkat terbayar pada titik batas tetap melalui pasif baru dan dasar statistik.
 
-**Sumber shard (ramah F2P):** Expedition Shop (tumpukan mingguan, stok pada hari Stamina), Honor Shop (25 *shard* ≈ 62k Honor bulanan), peti Era Mystic Treasure, dan Alliance Duel (2 *shard* per × fase). Paket *awakening* $5 adalah jalan pintas *whale* yang sebanding, dan paket $100–$200 yang lebih besar menggabungkan *shard* yang sama dengan cetak biru MR.
+**Sumber shard (ramah F2P):** Toko Ekspedisi (tumpukan mingguan, stok pada hari Stamina), Honor Toko (25 *shard* ≈ 62k Honor bulanan), peti Era Mystic Treasure, dan Pertarungan Guild (2 *shard* per × fase). Paket *awakening* $5 adalah jalan pintas *whale* yang sebanding, dan paket $100–$200 yang lebih besar menggabungkan *shard* yang sama dengan cetak biru MR.
 
 Batas yang diterima komunitas adalah **AW 20 untuk sebagian besar pemain** — kurva mendatar tajam setelahnya. Tiga hero pertama yang layak di-*awakening* (dalam urutan yang dibuka kebanyakan orang):
 
@@ -147,10 +147,10 @@ Batas yang diterima komunitas adalah **AW 20 untuk sebagian besar pemain** — k
 
 *Patch* keseimbangan baru-baru ini menyesuaikan beberapa hero kunci:
 
-- **Daskal**: *Skill* *Resolute Fight*-nya dikerjakan ulang untuk memberikan perisai kepada hero DPS lini belakang sekutu saat HP mereka turun di bawah 50% (sebelumnya memberikan perisai kepada *tank* di awal pertempuran). Ini mengubahnya menjadi penyelamat utama bagi *carry* rapuh seperti Marlena dan Zoya.
-- **Billy**: *Truth and Lies* sekarang menerapkan *debuff* DMG Taken Increase ke 3 unit musuh acak (sebelumnya: target tunggal). Pasif 3★ *Puppet*-nya juga mengurangi *Energy DMG* yang diterima sebesar 8%.
+- **Duskar**: *Skill* *Resolute Fight*-nya dikerjakan ulang untuk memberikan perisai kepada hero DPS lini belakang sekutu saat HP mereka turun di bawah 50% (sebelumnya memberikan perisai kepada *tank* di awal pertempuran). Ini mengubahnya menjadi penyelamat utama bagi *carry* rapuh seperti Marlena dan Zoya.
+- **Billy**: *Truth and Lies* sekarang menerapkan *debuff* DMG Taken Increase ke 3 unit musuh acak (sebelumnya: target tunggal). Pasif 3★ *Boneka Marionette*-nya juga mengurangi *Energy DMG* yang diterima sebesar 8%.
 - **Nicole**: Pemulihan *Ember Dust* disesuaikan menjadi 10k + 50% HP; *output* penyembuhan *Heartwarming Flame* disempurnakan.
-- **Ulfrid**: Secara resmi berganti nama dari Brian dalam pembaruan 2 Juli 2026. Dia tetap menjadi *tank* *reflect-damage* utama untuk daftar mono-Warlock.
+- **Ulfred**: Secara resmi berganti nama dari Brian dalam pembaruan 2 Juli 2026. Dia tetap menjadi *tank* *reflect-damage* utama untuk daftar mono-Warlock.
 
 ## Rumus Might {#might-formula}
 
@@ -160,8 +160,8 @@ Saat Anda membandingkan akun, *might* adalah jumlah dari lima tumpukan terpisah:
 |---|---|
 | Hero Might | Level, bintang, *skill*, dan perlengkapan hero Anda. |
 | Raven Might | Level Raven, perlengkapan, dan *epigraph* — lihat [panduan Raven](/id/raven/). |
-| Soldier Might | Tingkat pasukan dan ukuran tentara. |
+| Prajurit Might | Tingkat pasukan dan ukuran tentara. |
 | Tech Bonus | Pohon Lab Penelitian. |
-| Building Bonus | Bangunan kota — Kuil (sebelumnya patung faksi), Hall of Honor, dan lainnya. |
+| Bangunan Bonus | Bangunan kota — Kuil (sebelumnya patung faksi), Aula Upacara Kemuliaan, dan lainnya. |
 
 Gunakan pembagian secara diagnostik: jika *might* Anda berat di hero tetapi ringan di tentara, Anda hanya berjarak satu pertarungan buruk dari kehilangan tentara yang tidak bisa Anda ganti. Jika berat di tentara tetapi ringan di hero, barisan Anda akan memukul di bawah bobotnya. Akun terkuat menjaga tumpukan dalam proporsi yang kasar — yang persis seperti yang dilakukan dengan mengikuti urutan prioritas pembangunan dan linimasa skuad F2P untuk Anda.

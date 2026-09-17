@@ -57,6 +57,6 @@ Konzentriere dich an Tag 3 auf die Forschung im Wirtschaftsbaum. Wirtschaftsknot
 
 Die wichtigste Regel für wettbewerbsorientiertes Punktesammeln ist das **Doppelt abkassieren (Double Dipping)**.
 
-Koordiniere deine Beschleuniger immer mit dem **Daily Survival Battle**:
+Koordiniere deine Beschleuniger immer mit dem **Daily Überlebenskampf**:
 * Nutze beispielsweise an Tag 2 deine Baubeschleuniger nur während des spezifischen stündlichen Zeitfensters, in dem Daily Survival ebenfalls das Bauen belohnt.
 * Dies gewährt dir doppelte Meilenstein-Belohnungen aus zwei separaten Events für genau denselben Ressourceneinsatz!

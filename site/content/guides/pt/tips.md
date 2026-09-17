@@ -1,6 +1,6 @@
 ---
 title: "🧠 Dicas Pro, Mecânicas Ocultas e Segredos"
-description: "A enciclopédia completa de mecânicas ocultas em Last Asylum: Plague — snapshot de bônus de construção, táticas de defesa Ghost Rally, mecânicas de transbordo hospitalar, armadilhas na conversão da Claire, pré-coleta de recursos e segredos da economia de diamantes."
+description: "A enciclopédia completa de mecânicas ocultas em Last Asylum: Plague — snapshot de bônus de construção, táticas de defesa Ghost Mobilizar, mecânicas de transbordo hospitalar, armadilhas na conversão da Claire, pré-coleta de recursos e segredos da economia de diamantes."
 lang: pt
 updated: "2026-09-04"
 videoTopic: tips
@@ -32,7 +32,7 @@ Devido ao divisor, cada bônus de velocidade de +10% subsequente gera um pouco m
 
 ---
 
-## 2. Transbordo Hospitalar e a Técnica de Defesa "Ghost Rally" {#ghost-rally}
+## 2. Transbordo Hospitalar e a Técnica de Defesa "Ghost Mobilizar" {#ghost-rally}
 
 Seu Hospital não é apenas uma cabana de cura — é o firewall mais crítico para evitar a destruição permanente da conta.
 
@@ -41,13 +41,13 @@ Quando sua cidade é atacada, as tropas sobreviventes derrotadas tornam-se ferid
 * Enquanto houver espaço disponível no hospital, as tropas ficam **Feridas** e podem ser curadas rapidamente por recursos baratos.
 * **Uma vez que a capacidade do Hospital atinge 100%:** CADA soldado ferido subsequente **MORRE PERMANENTEMENTE**. Se um "baleia" inimigo atacar sua cidade 3 a 4 vezes consecutivamente enquanto você dorme, centenas de milhares de tropas de alto nível (T8/T9) são eliminadas para sempre. Reconstruir esse exército leva meses.
 
-### O Segredo do "Ghost Rally" (Rally Falso)
+### O Segredo do "Ghost Mobilizar" (Mobilizar Falso)
 O que fazer se uma força de ataque inimiga se teletransportar para sua colmeia durante o KvK ou Eventos de Eliminação, mas você não tiver um Escudo de Paz (ou seus diamantes acabaram)?
 
 > [!TIP]
 > **Como proteger seu exército sem um escudo:**
 > 1. Abra o mapa-múndi e localize uma fortaleza abandonada distante, um covil de zumbis de alto nível ou um acampamento inativo.
-> 2. Toque em **Rally** e selecione a duração máxima do cronômetro: **8 Horas**.
+> 2. Toque em **Mobilizar** e selecione a duração máxima do cronômetro: **8 Horas**.
 > 3. Designe todo o seu esquadrão de combate principal com seus heróis mais fortes para este rally.
 
 **Por que isso funciona:** Tropas designadas para um rally ativo dentro de sua cidade ou marchando em direção a um alvo de rally possuem **100% de imunidade absoluta a ataques recebidos**. Mesmo que o inimigo ataque as muralhas da sua cidade e incendeie sua cidade, suas tropas em rally não sofrem dano algum! Assim que a ameaça passar, cancele o rally com um único clique e suas tropas de elite retornarão ao quartel sãs e salvas.
@@ -258,7 +258,7 @@ Diamantes são a moeda principal. Embora generosos no início do jogo, gastos im
 
 1. **Bônus de velocidade são snapshot no início** — Ative títulos ministeriais, runas e equipamentos ANTES de pressionar melhorar.
 2. **Hospital vazio = exército vivo** — O transbordo hospitalar causa morte permanente e irreversível de tropas.
-3. **Ghost Rally para proteger tropas** — Esconda sua melhor marcha em um rally de 8 horas ao enfrentar ataques invencíveis.
+3. **Ghost Mobilizar para proteger tropas** — Esconda sua melhor marcha em um rally de 8 horas ao enfrentar ataques invencíveis.
 4. **Nunca abra sacos de recursos do inventário** — Mantenha os sacos selados até o momento exato em que uma melhoria começa.
 5. **Torre Falcon: Acumule até Máximo − 1** — Mantenha um espaço aberto para manter os surgimentos em segundo plano; colete na Seg/Qua/Sex.
 6. **Não converta a Claire SSR muito cedo** — Acumule fichas do Salão de Honra para pular a queda de estatísticas de 6★ direto para 9★/10★.

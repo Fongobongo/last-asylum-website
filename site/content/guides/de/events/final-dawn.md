@@ -1,13 +1,13 @@
 ---
-title: "Final Dawn: 7-Tage-Basis-Fortschritts-Sprint"
-description: "Umfassender Leitfaden für das entscheidende 'Final Dawn'-Frühphasen-Event in Last Asylum: Plague: 4 progressive Phasen (Grundlagen, Power-Push, Großer Push, Finaler Push), Prioritätenmatrix und Einsparung von Beschleunigern."
+title: "Letzte Morgendämmerung: 7-Tage-Basis-Fortschritts-Sprint"
+description: "Umfassender Leitfaden für das entscheidende 'Letzte Morgendämmerung'-Frühphasen-Event in Last Asylum: Plague: 4 progressive Phasen (Grundlagen, Power-Push, Großer Push, Finaler Push), Prioritätenmatrix und Einsparung von Beschleunigern."
 lang: de
 updated: "2026-09-14"
 videoTopic: final_dawn
 type: event
 ---
 
-Das **Final Dawn**-Event ist der entscheidende 7-tägige Entwicklungsmeilenstein deiner frühen Reise in Last Asylum: Plague. Sein Hauptfokus liegt auf der Beschleunigung deiner Zufluchts-Macht (Sanctuary Might) und dem stetigen Freischalten von Meilenstein-Belohnungen: universelle Beschleuniger, riesige Ressourcenkisten, Heldenfragmente und essenzielle Ausrüstung.
+Das **Letzte Morgendämmerung**-Event ist der entscheidende 7-tägige Entwicklungsmeilenstein deiner frühen Reise in Last Asylum: Plague. Sein Hauptfokus liegt auf der Beschleunigung deiner Zufluchts-Macht (Zuflucht Might) und dem stetigen Freischalten von Meilenstein-Belohnungen: universelle Beschleuniger, riesige Ressourcenkisten, Heldenfragmente und essenzielle Ausrüstung.
 
 Dieser Leitfaden wurde von erfahrenen Kommandanten (oψsvge英俊的, Server K250) erstellt und bietet einen taktischen Phasenplan für den gesamten 7-Tage-Zeitraum.
 
@@ -16,7 +16,7 @@ Dieser Leitfaden wurde von erfahrenen Kommandanten (oψsvge英俊的, Server K25
 ## 📅 4 taktische Phasen des 7-Tage-Plans {#phases}
 
 ### Phase 1: Tage 1–2 — Grundlagen
-- **Kernfokus:** Schneller Ausbau deines Zufluchts-Levels (Sanctuary).
+- **Kernfokus:** Schneller Ausbau deines Zufluchts-Levels (Zuflucht).
 - Werte nur Gebäude auf, die strikt als Voraussetzung für die nächste Zufluchts-Stufe erforderlich sind.
 - Halte die Forschung kontinuierlich 24/7 am Laufen, ohne eine einzige Sekunde Leerlaufzeit.
 - Rekrutiere Überlebende und weise sie sofort wichtigen Produktionsanlagen zu.
@@ -38,10 +38,10 @@ Dieser Leitfaden wurde von erfahrenen Kommandanten (oψsvge英俊的, Server K25
 
 ### Phase 4: Tag 7 — FINALER PUSH 🔥
 - **Kernfokus:** Meilenstein-Überprüfung und das Abgreifen aller verbleibenden Belohnungen.
-- Überprüfe das Final Dawn-Event-Dashboard, um noch nicht erreichte Meilenstein-Schwellen zu identifizieren.
+- Überprüfe das Letzte Morgendämmerung-Event-Dashboard, um noch nicht erreichte Meilenstein-Schwellen zu identifizieren.
 - Liquidiere verbleibende Beschleuniger, Helden-EP, Raben-Materialien und Ressourcenreserven.
 - Schließe die spezifischen Upgrades ab, die den höchsten Macht-pro-Minute-Wert liefern.
-- **WICHTIG:** Fordere jede einzelne Final Dawn-Meilensteintruhe vor dem Server-Reset an (00:00 Serverzeit / 02:00 UTC)!
+- **WICHTIG:** Fordere jede einzelne Letzte Morgendämmerung-Meilensteintruhe vor dem Server-Reset an (00:00 Serverzeit / 02:00 UTC)!
 
 ---
 

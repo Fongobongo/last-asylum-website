@@ -1,6 +1,6 @@
 ---
-title: "Cheese Trap: Hadiah Maksimal"
-description: "Rally bos tikus aliansi: hadiah lima fase pribadi, total HP aliansi bersama, mengapa urutan bergabung tidak berpengaruh, dan matematika penskalaan level yang menentukan tikus mana yang harus dilawan."
+title: "Perangkap Keju: Hadiah Maksimal"
+description: "Reli bos tikus aliansi: hadiah lima fase pribadi, total HP aliansi bersama, mengapa urutan bergabung tidak berpengaruh, dan matematika penskalaan level yang menentukan tikus mana yang harus dilawan."
 lang: id
 updated: "2026-09-03"
 videoTopic: cheese
@@ -9,15 +9,15 @@ infographics: ["/infographics/cheese-trap.webp", "/infographics/cheese-rewards.w
 type: event
 ---
 
-Cheese Trap adalah **event rally PvE aliansi** melawan tikus raksasa. Damage pribadi Anda akan menghasilkan hadiah pribadi di lima fase, dan total damage aliansi akan menghasilkan hadiah aliansi terpisah. Ini terlihat seperti event kekuatan murni — padahal sebenarnya ini adalah event perencanaan, dan perbedaannya bisa mencapai beberapa tingkat hadiah.
+Perangkap Keju adalah **event rally PvE aliansi** melawan tikus raksasa. Damage pribadi Anda akan menghasilkan hadiah pribadi di lima fase, dan total damage aliansi akan menghasilkan hadiah aliansi terpisah. Ini terlihat seperti event kekuatan murni — padahal sebenarnya ini adalah event perencanaan, dan perbedaannya bisa mencapai beberapa tingkat hadiah.
 
 Panduan ini membahas dua jalur hadiah, aturan titik berhenti, penskalaan level, dan cara membaca peringkat sebelum aliansi Anda memilih tikus untuk dilawan.
 
 ## Cara Kerja {#how-it-works}
 
 - **R4 atau R5 menentukan waktu mulai** melalui Jadwal Event terpadu. Sejak klik tersebut, aliansi memiliki **sekitar 1,5 jam untuk menyerang**.
-- **Penempatan di Cursed Land Dilarang:** Sejak pembaruan 2 Juli 2026, menempatkan Cheese Trap baru di Cursed Land tidak lagi diizinkan.
-- **Cheese Trap I dan II hanya berbeda waktu** — tikus yang sama, aturan yang sama, jendela waktu berbeda. Pilih yang paling sesuai dengan jadwal Anda.
+- **Penempatan di Cursed Land Dilarang:** Sejak pembaruan 2 Juli 2026, menempatkan Perangkap Keju baru di Cursed Land tidak lagi diizinkan.
+- **Perangkap Keju I dan II hanya berbeda waktu** — tikus yang sama, aturan yang sama, jendela waktu berbeda. Pilih yang paling sesuai dengan jadwal Anda.
 - **Anda hanya bisa melawan SATU dari dua tikus tersebut.** Tidak ada pembagian pasukan di antara keduanya.
 - **Partisipasi offline bisa dilakukan** — bergabunglah dengan rally lebih awal dan pasukan Anda akan bertarung meskipun Anda log off. Atur pasukan Anda sebelum jendela waktu dibuka, lalu lanjutkan aktivitas Anda.
 
@@ -33,7 +33,7 @@ Interaksi antara kedua jalur ini adalah bagian yang penting:
 - **BERHENTI setelah Fase 5 pribadi.** Damage setelah titik tersebut hanyalah kerugian pasukan — tidak ada hadiah pribadi tambahan untuk pasukan yang Anda korbankan.
 - **Kedua tikus berbagi satu pool HP untuk hadiah aliansi.** Jika satu pemain mencapai Fase 5 pada satu tikus dan pemain lain berhenti di Fase 3 pada tikus lainnya, total aliansi dihitung seolah-olah semua orang mencapai **Fase 5**. Pool-nya — bukan fasenya — yang menjadi penentu.
 
-## Mekanisme Rally: Apa yang Sebenarnya Penting {#rally-mechanics}
+## Mekanisme Reli: Apa yang Sebenarnya Penting {#rally-mechanics}
 
 - **Bergabung dengan rally R4/R5 memberikan +2,5% attack.** Bergabunglah dengan rally alih-alih melakukan solo-march. Selalu lakukan ini.
 - **Kekuatan inisiator rally dan urutan bergabung TIDAK BERPENGARUH pada damage Anda.** Bergabung lebih dulu tidak membuat serangan lebih kuat; bergabung terakhir tidak membuat Anda "menumpang". Berhentilah berebut posisi — itu tidak mengubah apa pun.
@@ -54,7 +54,7 @@ Sebelum memutuskan, **periksa peringkat**: hitung pemain yang mencapai Fase 5 pa
 
 ### Membaca Tabel Hadiah Dalam Game {#rewards-table}
 
-Tabel hadiah lengkap ada di dalam game: **Special event > Tab Cheese Trap > Tombol Gift > Rewards**. Baca sebelum tikus dibuka — perbandingan fase demi fase memberi tahu Anda dengan tepat di mana titik berhenti roster Anda berada.
+Tabel hadiah lengkap ada di dalam game: **Special event > Tab Perangkap Keju > Tombol Gift > Rewards**. Baca sebelum tikus dibuka — perbandingan fase demi fase memberi tahu Anda dengan tepat di mana titik berhenti roster Anda berada.
 
 ## Pengaturan Tim {#team-setup}
 

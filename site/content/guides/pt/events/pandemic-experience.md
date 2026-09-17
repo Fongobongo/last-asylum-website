@@ -1,5 +1,5 @@
 ---
-title: "Experiência Pandêmica: Escada de Dificuldade e Truque de Rally da Aliança"
+title: "Experiência Pandêmica: Escada de Dificuldade e Truque de Mobilizar da Aliança"
 description: "Evento quinzenal Experiência Pandêmica: 9 níveis de dificuldade, progressão da aliança (40 jogadores na Dificuldade 9 desbloqueiam o próximo chefe), recompensas de Fragmentos Omni UR e o truque de rally com heróis fracos."
 lang: pt
 updated: "2026-09-16"
@@ -32,7 +32,7 @@ O mesmo [truque do Chefe Mundial](/pt/heroes/): as luvas SSR possuem **dano bôn
 ### 2. Ative o Frenesi de Guerra primeiro
 Espione qualquer jogador → isso ativa o **bônus de Frenesi de Guerra** (ataque extra), que também se aplica a este evento. Custa apenas uma espionagem e economiza suas tropas feridas.
 
-### 3. O Truque do Rally com Herói Fraco
+### 3. O Truque do Mobilizar com Herói Fraco
 Seus próprios esquadrões atingiram o limite nas dificuldades altas? Use rallies para pegar emprestado o poder dos seus colegas de equipe:
 
 1. Esvazie um slot: coloque **um herói fraco de baixo nível** sozinho em um esquadrão de rally.

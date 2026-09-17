@@ -81,19 +81,19 @@ El juego gotea sus mejores héroes en un horario fijo. Conocer el horario de ant
 
 | Momento | Qué se desbloquea | Qué hace la comunidad |
 |---|---|---|
-| Día 1-2 | Arthur (UR) — gratis | Tu tanque del primer día. Reclámalo inmediatamente. |
-| Día 8 | Cynthia y Shadow — Rueda de los Deseos | Cuesta ~1.500 diamantes cada uno: 7 tiradas diarias gratuitas + recompensa de hito a las 10 tiradas otorga 10 fragmentos = una copia completa. |
+| Día 1-2 | Arturo (UR) — gratis | Tu tanque del primer día. Reclámalo inmediatamente. |
+| Día 8 | Cynthia y Sombra — Rueda de los Deseos | Cuesta ~1.500 diamantes cada uno: 7 tiradas diarias gratuitas + recompensa de hito a las 10 tiradas otorga 10 fragmentos = una copia completa. |
 | Día 36 / 43 / 57 / 64 / 72 / 85 | Nuevos eventos de héroes UR | Un tramo con muchos diamantes — planifica reservas con antelación. |
 | Día 1 / Día 66 | Marlena: disponible inmediatamente por $1 (Primera Recarga), aparece en la Taberna gratis el Día 66 | Carry temprano principal. Un gasto de $1 la desbloquea el Día 1; los jugadores 100% F2P la reclutan gratis de la Taberna el Día 66. |
 | Día 120+ (Era del Renacimiento) | Daskal (tanque UR); conversión de Claire de SSR a UR en el Día 8 de la Era | Daskal es el mejor tanque del juego; programa la conversión de Claire con cuidado. |
 
-### Arthur: Día 1-2, UR Gratis {#arthur-day-one}
+### Arturo: Día 1-2, UR Gratis {#arthur-day-one}
 
-Arthur se entrega a todos los jugadores en los primeros dos días, es de rareza UR y es el mejor tanque temprano que jamás tendrás. Como es gratis, cada fragmento que obtengas para él es pura ganancia — uno de los dos héroes en los que vale la pena invertir desde el primer día.
+Arturo se entrega a todos los jugadores en los primeros dos días, es de rareza UR y es el mejor tanque temprano que jamás tendrás. Como es gratis, cada fragmento que obtengas para él es pura ganancia — uno de los dos héroes en los que vale la pena invertir desde el primer día.
 
-### Cynthia y Shadow: Día 8, Rueda de los Deseos {#wishing-wheel-day-8}
+### Cynthia y Sombra: Día 8, Rueda de los Deseos {#wishing-wheel-day-8}
 
-El Día 8 trae la primera Rueda de los Deseos con Cynthia y Shadow. Cynthia, la carry UR temprana, cuesta aproximadamente 1.500 diamantes en total: la Rueda funciona 7 días con una tirada gratuita diaria, y el hito de 10 tiradas otorga 10 fragmentos — el héroe completo. Dos reglas estrictas de la comunidad: guarda tus diamantes hasta el Día 8 en lugar de gastarlos antes, y detente en el momento en que el hito pague — las tiradas adicionales compran fragmentos que ya no necesitas.
+El Día 8 trae la primera Rueda de los Deseos con Cynthia y Sombra. Cynthia, la carry UR temprana, cuesta aproximadamente 1.500 diamantes en total: la Rueda funciona 7 días con una tirada gratuita diaria, y el hito de 10 tiradas otorga 10 fragmentos — el héroe completo. Dos reglas estrictas de la comunidad: guarda tus diamantes hasta el Día 8 en lugar de gastarlos antes, y detente en el momento en que el hito pague — las tiradas adicionales compran fragmentos que ya no necesitas.
 
 ### El Tren de Eventos UR: Días 36-85 {#ur-event-train}
 
@@ -145,19 +145,19 @@ El escuadrón inicial oficialmente recomendado se ve así:
 
 | Fila | Héroes |
 |---|---|
-| Delantera | Arthur, Bella |
+| Delantera | Arturo, Bella |
 | Trasera | Marlena, Claire, Celia |
 
-Arthur ancla el frente como tanque; Bella ocupa el segundo asiento delantero. Marlena es la carry de daño de la construcción estándar, Claire es la support de la línea trasera y Celia ocupa el quinto asiento hasta que llegue tu escuadrón real.
+Arturo ancla el frente como tanque; Bella ocupa el segundo asiento delantero. Marlena es la carry de daño de la construcción estándar, Claire es la support de la línea trasera y Celia ocupa el quinto asiento hasta que llegue tu escuadrón real.
 
-Lo que importa más que los asientos exactos es la división de la inversión dentro de esta alineación: dos o tres héroes reciben todo, el resto se quedan como sustitutos baratos. La división F2P canónica — Arthur y Claire al principio, Marlena (Día 1 por $1 o Día 66 gratis en la Taberna) — se explica paso a paso en la [guía de Héroes](/es/heroes/).
+Lo que importa más que los asientos exactos es la división de la inversión dentro de esta alineación: dos o tres héroes reciben todo, el resto se quedan como sustitutos baratos. La división F2P canónica — Arturo y Claire al principio, Marlena (Día 1 por $1 o Día 66 gratis en la Taberna) — se explica paso a paso en la [guía de Héroes](/es/heroes/).
 
 ## Principales Errores y Arrepentimientos de Principiantes a Evitar {#top-regrets}
 
 Los jugadores experimentados destacan siete errores tempranos críticos que pueden retrasar una cuenta meses:
 
 1.  **Trampas de la Tienda de Honor (Monedas de Honor)**: NUNCA compres cofres de curiosidades o fragmentos universales en el Salón de Honor. **El 100% de tus Monedas de Honor deben guardarse exclusivamente para Planos de Equipo (UR)**. Los Planos son el guardián definitivo para promover equipo naranja, y la Tienda de Honor es su única fuente gratuita confiable.
-2.  **Prioridad de Estrellas: Marlena Antes que Arthur**: No inviertas fragmentos UR universales tempranos en Arthur. Arthur funciona bien con estrellas básicas como tanque defensivo. Marlena inflige ~85% del daño total de veneno AoE de tu escuadrón; llevarla a estrellas rojas acelera la progresión de la campaña exponencialmente.
+2.  **Prioridad de Estrellas: Marlena Antes que Arturo**: No inviertas fragmentos UR universales tempranos en Arturo. Arturo funciona bien con estrellas básicas como tanque defensivo. Marlena inflige ~85% del daño total de veneno AoE de tu escuadrón; llevarla a estrellas rojas acelera la progresión de la campaña exponencialmente.
 3.  **Apresurar el Taller de Fundición al Nivel 25**: El Taller de Fundición produce y refina Piedras de Equipo. Si retrasas su mejora, tus héroes se estancarán con equipo verde/azul. Mejóralo inmediatamente junto con el Santuario.
 4.  **Enfoque de Ranura de Equipo Basado en el Rol**: ¡Nunca distribuyas las piedras de equipo por igual en las 4 ranuras!
     -   Para Carries (DPS): Maximiza **Arma** (Espada) y **Guantes** para Ataque y Crítico. Deja la Armadura en el nivel base.
@@ -192,7 +192,7 @@ Si se mantiene, el saqueo diario vale aproximadamente 27 millones de recursos po
 
 Respuestas cortas a las preguntas que el buzón de Korpez sigue recibiendo — la mayoría de estas te afectarán en la semana 2-4.
 
--   **¿Cuándo está listo mi escuadrón de Exploradores para reemplazar a los Guerreros?** No solo por el recuento de estrellas — verifica tres muros: cada explorador con un mínimo de 8★ (Cynthia y Dama Roja con 10★, Louis con 8★, Bell con 9–10★), el Templo/Estatua de Exploradores en ~22+, y la investigación de héroes en la misma etapa que tu rama de Guerreros. Regla general del sitio: el cambio se produce cuando el escuadrón de Exploradores alcanza ~18M de poder contra un escuadrón de Guerreros existente de 60M, impulsado cuando las cuatro banderas están despejadas.
+-   **¿Cuándo está listo mi escuadrón de Exploradores para reemplazar a los Guerreros?** No solo por el recuento de estrellas — verifica tres muros: cada explorador con un mínimo de 8★ (Cynthia y Dama Roja con 10★, Luis con 8★, Bell con 9–10★), el Templo/Estatua de Exploradores en ~22+, y la investigación de héroes en la misma etapa que tu rama de Guerreros. Regla general del sitio: el cambio se produce cuando el escuadrón de Exploradores alcanza ~18M de poder contra un escuadrón de Guerreros existente de 60M, impulsado cuando las cuatro banderas están despejadas.
 -   **Zoya vs Claire — ¿quién gana?** Zoya es el verdadero tanque PvP (de pago); **Claire UR es una especialista en PvE/monstruos para siempre** — su pasiva permanece bloqueada en el daño a monstruos incluso en forma UR. Guarda a Claire para jefes de mundo, Pandemia y zombis de KvK; cambia a Zoya tan pronto como esté disponible para PvP.
 -   **¿Puedo evitar mantener tropas en mi muro para salvar vidas?** No. Independientemente de tu elección de guarnición, una defensa perdedora pierde las mismas tropas de todos modos. Pon tropas siempre que puedas disputar al atacante; **solo evacúa y teletranspórtate cuando el atacante sea imbatible**. Ponte escudo antes de cada KvK, siempre — "no necesitas escudo en KvK" es un mito.
 -   **Descanso del Soldado: ¿revivir muertos?** Sí, pero el tiempo de reutilización es largo y hazlo crecer con la ayuda de la alianza — trátalo como una reserva que limpias después de KvK, no como una conveniencia diaria. No lo quemes en cacerías de monstruos en solitario.

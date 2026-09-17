@@ -39,7 +39,7 @@ videoTopic: compare
 | | | |
 |---|---|---|
 | **Função** | Carry sustentado + valor de equipe em 8★ | Executor — mira inimigos com menor HP |
-| **Acesso F2P** | Hero Pass (a escolha da comunidade) | Roda de Desejos após o dia 15 |
+| **Acesso F2P** | Passe de Herói (a escolha da comunidade) | Roda de Desejos após o dia 15 |
 | **Sinergia** | Combina com suportes de energia | Físico — NÃO combina com Zoya |
 | **Melhor em** | Lutas longas, conteúdo de monstros | Limpeza de PvP após Marlena enfraquecer |
 
@@ -61,11 +61,11 @@ videoTopic: compare
 
 ## Shadow vs Lucius — segundo tanque {#shadow-vs-lucius}
 
-**✓ Lucius grátis agora; Shadow se você comprar o Hero Pass**
+**✓ Lucius grátis agora; Shadow se você comprar o Passe de Herói**
 
 | | | |
 |---|---|---|
-| **Custo** | Hero Pass (pago) | Fragmentos grátis |
+| **Custo** | Passe de Herói (pago) | Fragmentos grátis |
 | **Escalonamento** | 8★/10★ significativamente melhor que 6★ | Placeholder estável |
 | **Regra** | Se comprado: trate como herói TEMPORÁRIO — 8★ máximo, habilidades 15–20 | Troque livremente enquanto constrói Daskal |
 | **Fim de jogo** | Daskal substitui ambos | — |
@@ -77,7 +77,7 @@ videoTopic: compare
 | | | |
 |---|---|---|
 | **Função** | Tanque de dano de reflexão (renomeado de Brian) | Tanque anti-CC e debuffer |
-| **Habilidade Chave** | Dano de reflexão + sobrevivência | Imunidade a atordoamento (contra Red Lady) + −8% de dano de energia recebido |
+| **Habilidade Chave** | Dano de reflexão + sobrevivência | Imunidade a atordoamento (contra Dama Vermelha) + −8% de dano de energia recebido |
 | **Debuff** | Redução de dano de monstros | Debuff de +dano recebido aplicado a 3 inimigos aleatórios (Verdade e Mentiras) |
-| **Fonte** | Invocação UR / Banner do Dia 43 | Hero Pass / Oferta Diária do Dia 85 |
+| **Fonte** | Invocação UR / Banner do Dia 43 | Passe de Herói / Oferta Diária do Dia 85 |
 | **Veredito** | Linha de frente essencial de Warlocks mono | Obrigatório em PvP contra controle de grupo de Rangers |

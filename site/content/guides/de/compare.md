@@ -53,7 +53,7 @@ videoTopic: compare
 |---|---|---|
 | **Eigener Schaden** | 9★ UR ≈ 1,70× maximierte SSR; 10★ ≈ 2,20× | — |
 | **Team-Buff** | Sinkt von 16 % → 10 % bei 6★ (ein paar % realer Verlust) | — |
-| **Den Einbruch überspringen** | Ruhmeshalle (Hall of Honor) ansparen: Lv. 60→8★, Lv. 100→9★, Lv. 160→sofort 10★ | — |
+| **Den Einbruch überspringen** | Ruhmeshalle (Ehrenhalle) ansparen: Lv. 60→8★, Lv. 100→9★, Lv. 160→sofort 10★ | — |
 | **PvP** | Erw. Zähigkeit bei 8★ = +20 % ATK/LP/DEF +10 % CDR | — |
 | **Kosten** | 1.600 SSR-Fragmente zum 2× Preis (6★→10★) | — |
 

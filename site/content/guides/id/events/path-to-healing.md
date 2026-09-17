@@ -7,7 +7,7 @@ videoTopic: path_to_healing
 type: event
 ---
 
-**Jalan Menuju Pemulihan** (*Path to Healing*) adalah event orientasi 5 hari yang krusial bagi setiap penyintas baru di Last Asylum: Plague. Menyelesaikan jalur misinya menjamin **15 Pecahan Hero UR Arthur** — tank garis depan terbaik yang tak terbantahkan untuk fase awal hingga pertengahan game — dan **30 Pecahan SSR Celia**, yang akan memperkuat fondasi utama pasukan Anda.
+**Jalan Menuju Pemulihan** (*Jalani Pengobatan*) adalah event orientasi 5 hari yang krusial bagi setiap penyintas baru di Last Asylum: Plague. Menyelesaikan jalur misinya menjamin **15 Pecahan Hero UR Arthur** — tank garis depan terbaik yang tak terbantahkan untuk fase awal hingga pertengahan game — dan **30 Pecahan SSR Celia**, yang akan memperkuat fondasi utama pasukan Anda.
 
 Namun, event ini memiliki prasyarat kelayakan yang ketat dan tidak dapat ditawar yang sering kali mengejutkan banyak pemula: **Gerbang Level VIP**.
 
@@ -20,7 +20,7 @@ Namun, event ini memiliki prasyarat kelayakan yang ketat dan tidak dapat ditawar
 Bahkan jika Anda menyelesaikan 100% tujuan misi harian selama 5 hari, kegagalan mencapai VIP 5 berarti **semua hadiah pencapaian dan pecahan Arthur akan tetap terkunci!**
 
 ### Cara mencapai VIP 5 sebagai pemain 100% F2P (Gratis):
-1. **Jangan pernah menyia-nyiakan diamond awal:** Game ini memberikan ribuan diamond gratis kepada pemain baru melalui bab Kampanye, pencapaian level Sanctuary, dan pencapaian pertama kali.
+1. **Jangan pernah menyia-nyiakan diamond awal:** Game ini memberikan ribuan diamond gratis kepada pemain baru melalui bab Kampanye, pencapaian level Kuil, dan pencapaian pertama kali.
 2. **Investasikan langsung ke Poin VIP:** Buka menu VIP Anda (area avatar kiri atas) dan gunakan diamond gratis untuk membeli poin pengalaman VIP secara langsung.
 3. **Buka semua Peti Hadiah Aliansi:** Setiap peti yang dibuka oleh anggota aliansi Anda akan memberikan poin VIP tambahan.
 
@@ -32,7 +32,7 @@ Tugas terbuka secara berurutan setiap hari, tetapi semua hari yang telah terbuka
 
 ### 🟡 Hari 1
 - **Login Total:** Absen harian di server.
-- **Peningkatan Shrine:** Meningkatkan level Sanctuary ke pencapaian yang ditentukan.
+- **Peningkatan Shrine:** Meningkatkan level Kuil ke pencapaian yang ditentukan.
 - **Aksi Petualangan:** Menyelesaikan node eksplorasi peta dan bab cerita.
 
 ### 🟡 Hari 2
@@ -48,7 +48,7 @@ Tugas terbuka secara berurutan setiap hari, tetapi semua hari yang telah terbuka
 ### 🟡 Hari 4
 - **Penelitian:** Menyelesaikan node teknologi di Laboratorium Penelitian.
 - **Magic Raven:** Memberi makan dan meningkatkan Guardian Raven.
-- **Rekrut:** Menggunakan Tiket Rekrutmen Normal dan Lanjutan di Tavern.
+- **Rekrut:** Menggunakan Tiket Rekrutmen Normal dan Lanjutan di Kedai.
 
 ### 🟡 Hari 5
 - **Eliminasi Ghoul:** Membasmi gerombolan terinfeksi yang berkeliaran di peta dunia luar.

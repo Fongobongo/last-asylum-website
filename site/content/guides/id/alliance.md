@@ -20,7 +20,7 @@ Fitur Aliansi terbuka pada **Level Suaka 5**.
 2. Hindari bergabung dengan guild pemula "Terbuka" secara acak. Aliansi yang kompetitif dan terorganisir selalu memerlukan tinjauan aplikasi (Lamar).
 3. **Kriteria Pemilihan Utama:**
    * **Peringkat Kekuatan:** Berusahalah untuk masuk ke guild Top 1 hingga Top 3 di server Anda. Mereka mendominasi Kastil Kerajaan, memegang gelar Guild Penguasa, dan menghasilkan ribuan peti hadiah dari anggota aktif.
-   * **Zona Waktu & Aktivitas Obrolan:** Pastikan jam penyerbuan utama guild selaras dengan jadwal Anda untuk reli Cheese Trap dan Undead Siege.
+   * **Zona Waktu & Aktivitas Obrolan:** Pastikan jam penyerbuan utama guild selaras dengan jadwal Anda untuk reli Perangkap Keju dan Pengepungan Ghoul.
    * **Level Hadiah:** Tingkat hadiah aliansi yang lebih tinggi menjatuhkan peti pencapaian yang lebih baik berisi berlian gratis, tiket rekrut, dan speedup.
 
 ---
@@ -56,7 +56,7 @@ Penelitian aliansi memberikan buff pasif kepada setiap anggota di seluruh kekuat
 
 ## 4. Hadiah Aliansi & Hak Istimewa Level 25
 
-Setiap kali rekan aliansi membunuh Pemimpin Pencuri, mengalahkan monster Elite Blight, atau membeli paket, **setiap anggota menerima Peti Hadiah**.
+Setiap kali rekan aliansi membunuh Pemimpin Pencuri, mengalahkan monster Ghoul Elite, atau membeli paket, **setiap anggota menerima Peti Hadiah**.
 
 * **XP Hadiah:** Membuka peti meningkatkan Level Hadiah Aliansi Anda.
 * **Hak Istimewa Level 25 (Pembaruan September):**

@@ -1,6 +1,6 @@
 ---
 title: "Käsefalle: Maximale Belohnungen"
-description: "Der Allianz-Rattenboss-Rally: persönliche Belohnungen in fünf Phasen, der gemeinsame Allianz-HP-Pool, warum die Beitrittsreihenfolge keine Rolle spielt und die Level-Skalierungs-Mathematik, die entscheidet, welche Ratte bekämpft werden sollte."
+description: "Der Allianz-Rattenboss-Versammlung: persönliche Belohnungen in fünf Phasen, der gemeinsame Allianz-HP-Pool, warum die Beitrittsreihenfolge keine Rolle spielt und die Level-Skalierungs-Mathematik, die entscheidet, welche Ratte bekämpft werden sollte."
 lang: de
 updated: "2026-09-03"
 videoTopic: cheese
@@ -9,7 +9,7 @@ infographics: ["/infographics/cheese-trap.webp", "/infographics/cheese-rewards.w
 type: event
 ---
 
-Die Käsefalle ist ein **Allianz-PvE-Rally-Event** gegen eine riesige Ratte. Dein persönlicher Schaden bringt dir persönliche Belohnungen in fünf Phasen ein, und der Gesamtschaden der Allianz bringt separate Allianz-Belohnungen. Es sieht nach einem reinen Stärke-Event aus – tatsächlich ist es jedoch ein Planungs-Event, und der Unterschied macht mehrere Belohnungsstufen aus.
+Die Käsefalle ist ein **Allianz-PvE-Versammlung-Event** gegen eine riesige Ratte. Dein persönlicher Schaden bringt dir persönliche Belohnungen in fünf Phasen ein, und der Gesamtschaden der Allianz bringt separate Allianz-Belohnungen. Es sieht nach einem reinen Stärke-Event aus – tatsächlich ist es jedoch ein Planungs-Event, und der Unterschied macht mehrere Belohnungsstufen aus.
 
 Dieser Guide behandelt die zwei Belohnungspfade, die Stopp-Regel, die Level-Skalierung und wie man die Ranglisten liest, bevor sich deine Allianz für eine Ratte entscheidet.
 
@@ -19,7 +19,7 @@ Dieser Guide behandelt die zwei Belohnungspfade, die Stopp-Regel, die Level-Skal
 - **Platzierung im Verfluchten Land verboten:** Seit dem Update vom 2. Juli 2026 ist das Platzieren neuer Käsefallen im Verfluchten Land nicht mehr gestattet.
 - **Käsefalle I und II unterscheiden sich nur in der Zeit** — gleiche Ratte, gleiche Regeln, anderes Zeitfenster. Wähle diejenige, die in deinen Zeitplan passt.
 - **Du kannst nur EINE der beiden Ratten bekämpfen.** Es gibt kein Aufteilen deiner Truppen auf beide.
-- **Offline-Teilnahme funktioniert** — tritt der Rally im Voraus bei, und deine Trupps kämpfen, auch wenn du dich ausloggst. Stelle deinen Marsch ein, bevor das Fenster öffnet, und lebe dein Leben.
+- **Offline-Teilnahme funktioniert** — tritt der Versammlung im Voraus bei, und deine Trupps kämpfen, auch wenn du dich ausloggst. Stelle deinen Marsch ein, bevor das Fenster öffnet, und lebe dein Leben.
 
 ## Die zwei Belohnungspfade {#two-reward-tracks}
 
@@ -33,10 +33,10 @@ Das Zusammenspiel zwischen den Pfaden ist der wichtige Teil:
 - **STOPPE nach der persönlichen Phase 5.** Schaden über diesen Punkt hinaus ist reiner Truppenverlust – null zusätzliche persönliche Belohnungen für die Truppen, die du verheizt.
 - **Beide Ratten teilen sich einen HP-Pool für Allianz-Belohnungen.** Wenn ein Spieler Phase 5 bei einer Ratte erreicht und ein anderer bei Phase 3 bei der anderen aufhört, zählt die Allianz-Summe so, als hätte jeder **Phase 5** erreicht. Der Pool – nicht die Phase – ist das, was zählt.
 
-## Rally-Mechaniken: Was wirklich zählt {#rally-mechanics}
+## Versammlung-Mechaniken: Was wirklich zählt {#rally-mechanics}
 
-- **Der Beitritt zu einer R4/R5-Rally gewährt +2,5 % Angriff.** Tritt der Rally bei, anstatt alleine zu marschieren. Jedes Mal.
-- **Die Stärke des Rally-Initiators und die Beitrittsreihenfolge haben NULL Einfluss auf deinen Schaden.** Wer zuerst beitritt, schlägt nicht härter zu; wer zuletzt beitritt, schnorrt nicht. Hör auf, um die Position zu kämpfen – es ändert nichts.
+- **Der Beitritt zu einer R4/R5-Versammlung gewährt +2,5 % Angriff.** Tritt der Versammlung bei, anstatt alleine zu marschieren. Jedes Mal.
+- **Die Stärke des Versammlung-Initiators und die Beitrittsreihenfolge haben NULL Einfluss auf deinen Schaden.** Wer zuerst beitritt, schlägt nicht härter zu; wer zuletzt beitritt, schnorrt nicht. Hör auf, um die Position zu kämpfen – es ändert nichts.
 - **Jede Truppe verursacht Schaden.** Der HP-Pool der Ratte ist riesig, und kein einzelner starker Spieler kann ihn "aufbrauchen" – ein voller Marsch aus billigen Truppen verursacht mehr Schaden als ein halber Marsch aus teuren. Bringe Masse mit, nicht nur Eliten.
 
 ## Level-Skalierung: Welche Ratte bekämpfen? {#level-scaling}
@@ -69,4 +69,4 @@ Spezifische Helden-Auswahlen und Fraktions-Synergien findest du im [Helden-Guide
 
 ## Die Wal-Carry-Option {#whale-carry}
 
-Wenn deine Allianz einen starken Spieler (Wal) hat, gibt es ein effizientes Endgame-Muster: **2-3 Rallys reichen aus, um die Allianz-Belohnungen zu maximieren**, wenn der Wal den Schaden trägt. Alle anderen treten der Rally für die +2,5 % bei, schicken ihre Truppen hinein und stoppen bei ihrer persönlichen Phase 5. Der Schaden des Wals füllt den gemeinsamen Pool; die Allianz-Stufe füllt sich; niemand verheizt Truppen über seinen eigenen Stopp-Punkt hinaus.
+Wenn deine Allianz einen starken Spieler (Wal) hat, gibt es ein effizientes Endgame-Muster: **2-3 Rallys reichen aus, um die Allianz-Belohnungen zu maximieren**, wenn der Wal den Schaden trägt. Alle anderen treten der Versammlung für die +2,5 % bei, schicken ihre Truppen hinein und stoppen bei ihrer persönlichen Phase 5. Der Schaden des Wals füllt den gemeinsamen Pool; die Allianz-Stufe füllt sich; niemand verheizt Truppen über seinen eigenen Stopp-Punkt hinaus.

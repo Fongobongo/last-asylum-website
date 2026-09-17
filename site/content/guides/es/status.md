@@ -24,7 +24,7 @@ Esta página enumera todos los avisos oficiales notables: errores, correcciones,
 - **01/06/2026 — Error en el marco de avatar del Centro de recarga** ✅ corregido — El marco de avatar del Centro de recarga no se entregaba; se corrigió de forma retroactiva.
 - **11/05/2026 — Aviso de retraso en las recompensas de KvK** ✅ corregido — Las recompensas de KvK (10/05) se retrasaron; se distribuyeron tras la verificación.
 - **09/05/2026 — Problema de lag en el servidor** ✅ corregido — Se informó de un lag significativo en el servidor y se corrigió el mismo día.
-- **21/04/2026 — Anomalía en la ronda 2 de Elixir Scramble** ✅ corregido — Problemas del 18 de abril en Elixir Scramble; la compensación se distribuyó por etapas.
+- **21/04/2026 — Anomalía en la ronda 2 de Disputa de Elixir** ✅ corregido — Problemas del 18 de abril en Disputa de Elixir; la compensación se distribuyó por etapas.
 - **07/04/2026 — Oleada de restricciones de chat** ℹ️ información — El sistema de control de riesgos se endureció → más silencios de chat de 24 horas. Apela a través del botón de Soporte en la página de inicio de sesión. La lista de palabras prohibidas incluye palabras inocentes (Grapes, Raccoon, Analysis…).
 - **04/04/2026 — Error de teletransporte entre servidores (Incursión del Duelo de Alianzas)** ✅ corregido — Se resolvió el problema de teletransporte entre servidores durante la incursión.
 - **03/04/2026 — Corrección de silencio de chat (parcial)** ✅ corregido — Se eliminaron algunas palabras bloqueadas por falsos positivos; las palabras relacionadas con fraude (GM, Admin) siguen prohibidas.

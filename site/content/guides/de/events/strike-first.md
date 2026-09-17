@@ -7,7 +7,7 @@ videoTopic: strike_first
 type: event
 ---
 
-Das Event **Zuerst zuschlagen** (Strike First) ist der wichtigste Onboarding-Sprint für neue Server und angehende Kommandanten in Last Asylum: Plague. Es wird unmittelbar nach der Kontoerstellung ausgelöst und dient als dein primärer Wachstumsbeschleuniger in der ersten Woche: Das Erreichen grundlegender Meilensteine belohnt dich mit einer Fülle an kostenlosen Diamanten, Beschleunigern, Rekrutierungstickets und Heldenfragmenten.
+Das Event **Zuerst zuschlagen** (Erster Schlag) ist der wichtigste Onboarding-Sprint für neue Server und angehende Kommandanten in Last Asylum: Plague. Es wird unmittelbar nach der Kontoerstellung ausgelöst und dient als dein primärer Wachstumsbeschleuniger in der ersten Woche: Das Erreichen grundlegender Meilensteine belohnt dich mit einer Fülle an kostenlosen Diamanten, Beschleunigern, Rekrutierungstickets und Heldenfragmenten.
 
 ---
 

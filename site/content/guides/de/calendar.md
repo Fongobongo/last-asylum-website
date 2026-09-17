@@ -18,13 +18,13 @@ videoTopic: calendar
 | ⚔️ Sa | Allianz-Duell Finale | AD Phase 6 PvP-Showdown. Königreichskrieg-Hauptschlachten finden ebenfalls samstags statt (alle zwei Wochen). |
 | 🗓️ So | Planung + Shop-Reset | Plane den Montag vor; Allianz-/andere Shops werden wieder aufgefüllt. Falken-Quests für morgen abschließen. |
 
-## 🏛️ Das Monument: Chronik des Server-Zeitalters {#monument}
+## 🏛️ Das Denkmal: Chronik des Server-Zeitalters {#monument}
 
-Das In-Game **Monument** (Heiligtums-Gebäude-ID 5038) zeichnet die genaue Zeitlinie und Chronik (Server-Zeitalter) deines Servers auf. Im Gegensatz zu wiederkehrenden wöchentlichen Rotationen werden die wichtigsten Meilensteine des Spiels, limitierte UR-Heldenräder und serverübergreifende Kriege streng danach freigeschaltet, wie viele Tage dein Server bereits existiert.
+Das In-Game **Denkmal** (Heiligtums-Gebäude-ID 5038) zeichnet die genaue Zeitlinie und Chronik (Server-Zeitalter) deines Servers auf. Im Gegensatz zu wiederkehrenden wöchentlichen Rotationen werden die wichtigsten Meilensteine des Spiels, limitierte UR-Heldenräder und serverübergreifende Kriege streng danach freigeschaltet, wie viele Tage dein Server bereits existiert.
 
-Nutze das interaktive Monument-Tool unten, um **deinen Server-Tag einzugeben** (z. B. Tag 14, 29, 66 oder 120), um aktive Meilensteine, Countdowns zu bevorstehenden Veröffentlichungen, strenge Hortprioritäten und verknüpfte Taktikführer anzuzeigen.
+Nutze das interaktive Denkmal-Tool unten, um **deinen Server-Tag einzugeben** (z. B. Tag 14, 29, 66 oder 120), um aktive Meilensteine, Countdowns zu bevorstehenden Veröffentlichungen, strenge Hortprioritäten und verknüpfte Taktikführer anzuzeigen.
 
-### Wichtige Monument-Meilensteine:
+### Wichtige Denkmal-Meilensteine:
 
 - **Kapitel 1 (Tage 1–14)**: Gründung des Heiligtums, Freischaltung des kostenlosen UR-Panzers [Arthur](/codex/arthur/), [Allianz](/alliance/)-Funktion, erstes UR-Ranger-Rad [Cynthia](/codex/cynthia/) (Tag 8) und die erste 20-Wellen-[Untoten-Belagerung](/events/undead/) (Tag 14).
 - **Kapitel 2 (Tage 15–28)**: Erste [Allianz-Duell](/events/alliance-duel/)-Qualifikation (Top-32-Allianzen, Tag 15), tägliche [Allianz-Karawane](/events/wagon/) (Tag 21) und Team-Schlachtfelder in [Schluchtenkampf](/events/canyon/).

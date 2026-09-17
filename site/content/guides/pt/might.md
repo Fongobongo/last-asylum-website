@@ -59,7 +59,7 @@ Os níveis dos heróis escalam os atributos base (HP, ATK, DEF) e amplificam as 
 | **Melhorias de Edifícios** | Cada melhoria de estrutura concluída concede um lote instantâneo de Antitoxinas. |
 | **Missões da Torre Falcon** | Priorize missões roxas e douradas que oferecem frascos de Antitoxina. |
 | **Operações Secretas & Saque de Caravana** | Complete rotas diárias e saqueie caravanas rivais (até 5 vezes por dia). |
-| **Ralis de Blight & Blight de Elite** | Coordene ralis da guilda contra infectados de alto nível para um fluxo constante de recursos sem custo de gemas. |
+| **Ralis de Praga & Praga de Elite** | Coordene ralis da guilda contra infectados de alto nível para um fluxo constante de recursos sem custo de gemas. |
 
 ---
 

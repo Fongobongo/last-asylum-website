@@ -60,9 +60,9 @@ Ikan Laut berasal dari target harian normal Anda:
 
 - Menara Falcon
 - Monster Sumber Daya
-- Elite Blight
-- Black Ops
-- Wandering Blight
+- Ghoul Elite
+- Divisi Operasi Rahasia
+- Ghoul Pengembara
 
 Angka kritis: **BATAS HARIAN 300 ikan**. Jika Anda bertani melebihi itu, Anda membunuh monster tanpa hasil — penghitungnya berhenti. Capai 300, berhenti, simpan waktu Anda. Ikan tersebut digunakan untuk Perjamuan Akbar, itulah sebabnya kedua tab tersebut bersama-sama menjadi inti F2P dari seluruh acara.
 
@@ -75,7 +75,7 @@ Satu klarifikasi yang menghemat berlian: tab ini memberikan hadiah untuk **top-u
 Mini-game mencocokkan, dan tab yang paling disalahpahami:
 
 - **5 percobaan gratis per hari.**
-- Skill gratis: **Hapus (Remove), Ingat (Recall), Segarkan (Refresh).**
+- Skill gratis: **Hapus (Keluarkan), Ingat (Bubarkan), Segarkan (Refresh).**
 - Hadiah **BUKAN untuk menyelesaikan tahap** — hadiah diberikan **SATU PER SATU SAAT DICOCOKKAN**.
 - **Hadiah yang dikumpulkan AMAN meskipun Anda gagal dalam permainan.** Dicocokkan = disimpan.
 

@@ -1,6 +1,6 @@
 ---
 title: "Royal Castle Scramble & Gelar"
-description: "Balapan perebutan kastil mingguan: satu pasukan per pemain, aturan menara dan bala bantuan, pendudukan Sanctuary 6+, peti penghargaan kerajaan, dan sistem gelar Royal City lengkap dengan mekanisme antrean."
+description: "Balapan perebutan kastil mingguan: satu pasukan per pemain, aturan menara dan bala bantuan, pendudukan Kuil 6+, peti penghargaan kerajaan, dan sistem gelar Royal City lengkap dengan mekanisme antrean."
 lang: id
 updated: "2026-09-03"
 videoTopic: royal
@@ -9,7 +9,7 @@ infographics: ["/infographics/royal-scramble.webp"]
 type: event
 ---
 
-Royal Castle Scramble adalah **perebutan kastil mingguan**: aliansi berlomba untuk merebut dan mempertahankan Royal Castle, pada **hari dan waktu yang sama setiap minggunya**. Pertarungan kastil itu sendiri cepat dan sederhana — persiapan (pasukan, bala bantuan, level Sanctuary) adalah penentu kemenangan.
+Royal Castle Scramble adalah **perebutan kastil mingguan**: aliansi berlomba untuk merebut dan mempertahankan Royal Castle, pada **hari dan waktu yang sama setiap minggunya**. Pertarungan kastil itu sendiri cepat dan sederhana — persiapan (pasukan, bala bantuan, level Kuil) adalah penentu kemenangan.
 
 Panduan ini membahas aturan perebutan, mekanisme bala bantuan, peti penghargaan, dan sistem gelar Royal City lengkap yang dibuka oleh kerajaan pemenang.
 
@@ -18,7 +18,7 @@ Panduan ini membahas aturan perebutan, mekanisme bala bantuan, peti penghargaan,
 - **Mingguan**, hari dan waktu yang sama setiap minggu — pasang alarm Anda sekali dan jadwalnya tidak akan pernah berubah.
 - **Satu pasukan per pemain.** Anda mendapatkan satu pasukan untuk keseluruhan acara.
 - **Tidak bisa dipercepat.** Tidak ada percepatan, tidak ada item akselerasi — kecepatan pasukan yang Anda gunakan saat berangkat adalah kecepatan yang akan sampai di tujuan.
-- **Rally sangat disarankan.** Satu pasukan per pemain membuat setiap pasukan sangat berharga; rally menggabungkan pasukan aliansi menjadi satu serangan yang kredibel alih-alih serangan solo yang hanya membuang pasukan.
+- **Reli sangat disarankan.** Satu pasukan per pemain membuat setiap pasukan sangat berharga; rally menggabungkan pasukan aliansi menjadi satu serangan yang kredibel alih-alih serangan solo yang hanya membuang pasukan.
 - **Pasukan awal adalah perlombaan.** Pasukan pertama menentukan siapa yang mengepung dan siapa yang berebut — waktu keberangkatan saat peluit dimulai lebih penting daripada kekuatan mentah.
 
 ## Menara dan Posisi {#turrets-and-positioning}
@@ -34,14 +34,14 @@ Panduan ini membahas aturan perebutan, mekanisme bala bantuan, peti penghargaan,
 
 ## Siapa yang Merebut, Siapa yang Bertani {#who-takes-vs-farms}
 
-> Perebut kastil harus Sanctuary 6+ — yang lainnya bertani di ubin sumber daya untuk mendapatkan poin.
+> Perebut kastil harus Kuil 6+ — yang lainnya bertani di ubin sumber daya untuk mendapatkan poin.
 
-Hanya pemain **Sanctuary 6+** yang bisa menduduki kastil. Pembagian ini menentukan peran Anda:
+Hanya pemain **Kuil 6+** yang bisa menduduki kastil. Pembagian ini menentukan peran Anda:
 
-- **Sanctuary 6+**: berangkat untuk kastil, rally, memperkuat 30 slot.
+- **Kuil 6+**: berangkat untuk kastil, rally, memperkuat 30 slot.
 - **Semua orang lainnya**: bertani di ubin sumber daya di sekitar kastil untuk mendapatkan poin acara — pasukan Anda tetap menghasilkan poin, hanya saja tidak di tembok kastil.
 
-Periksa level Sanctuary Anda **sebelum** acara dimulai; pemain Sanctuary 5 yang berangkat ke kastil hanya akan membuang satu-satunya pasukan yang mereka miliki.
+Periksa level Kuil Anda **sebelum** acara dimulai; pemain Kuil 5 yang berangkat ke kastil hanya akan membuang satu-satunya pasukan yang mereka miliki.
 
 ## Peti Penghargaan Kerajaan {#commendation-chests}
 
@@ -68,4 +68,4 @@ Mekanisme antrean:
 - **Terapkan kembali segera setelah slot Anda berakhir** — gelar yang sama dapat diantrekan kembali, dengan **tidak ada batasan untuk penerapan ulang**. Slot berturut-turut adalah pola yang dimaksudkan.
 - **Cooldown 20 menit setelah menerapkan** — satu-satunya hambatan dalam antrean. Atur waktu penerapan ulang Anda di sekitarnya.
 
-Buff gelar akan digabungkan dengan semua hal lain dalam kalender mingguan — slot gelar riset selama [Fase 3 Alliance Duel](/id/events/alliance-duel/) atau slot pelatihan selama [Fase 5](/id/events/alliance-duel/) adalah kombinasi kalender yang menjadi dasar strategi sepanjang minggu.
+Buff gelar akan digabungkan dengan semua hal lain dalam kalender mingguan — slot gelar riset selama [Fase 3 Pertarungan Guild](/id/events/alliance-duel/) atau slot pelatihan selama [Fase 5](/id/events/alliance-duel/) adalah kombinasi kalender yang menjadi dasar strategi sepanjang minggu.

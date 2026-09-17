@@ -7,7 +7,7 @@ videoTopic: era
 calculators: ["claire-shards"]
 ---
 
-Die Ära der Wiederbelebung (Era of Revival) ist die saisonale Ebene, die etwa um Tag 120 beginnt – ein etwa zweimonatiger Zyklus, der eigene Fortschrittssysteme auf das Basisspiel aufsetzt: die Lord-Statue (Resistenz und Lord-Evolution), Spezialisierungsbäume und Elite-Fäule (Elite Blight).
+Die Ära der Wiederbelebung (Era of Revival) ist die saisonale Ebene, die etwa um Tag 120 beginnt – ein etwa zweimonatiger Zyklus, der eigene Fortschrittssysteme auf das Basisspiel aufsetzt: die Lord-Statue (Resistenz und Lord-Evolution), Spezialisierungsbäume und Elite-Fäule (Elite-Seuche).
 
 Die Saison belohnt Fokus und bestraft Ablenkung härter als das Basisspiel. Diese Seite behandelt, was täglich Priorität hat, welcher Spezialisierungsbaum zu deinem Ausgabenniveau passt, was du vor Saisonbeginn horten solltest und die komplette Mathematik der Claire SSR-zu-UR-Umwandlung.
 
@@ -99,7 +99,7 @@ Wenn dein Account sich Tag 120 nähert, ist dies die Vorratsliste. Jeder Gegenst
 - Heldenfragmente und Medaillen.
 - Alle Beschleunigungen, einschließlich Forschungsbeschleunigungen.
 - Antitoxin.
-- Rabenfrucht (Raven Fruit).
+- Rabenfrucht (Rabenfrüchte).
 - Ressourcen.
 - Waffenmaterialien.
 
@@ -132,7 +132,7 @@ Die Falle: Ihr passiver Team-Buff sinkt bei der Umwandlung. Der maximale passive
 
 ### Den Einbruch überspringen: Die Halle-der-Ehre-Strategie {#skip-the-dip}
 
-Du kannst den Einbruch komplett überspringen, indem du Stufen in der Halle der Ehre (Hall of Honor) vorbereitest, **bevor** du umwandelst:
+Du kannst den Einbruch komplett überspringen, indem du Stufen in der Halle der Ehre (Ehrenhalle) vorbereitest, **bevor** du umwandelst:
 
 | Halle-der-Ehre-Stufe | Umwandlungsergebnis |
 |---|---|

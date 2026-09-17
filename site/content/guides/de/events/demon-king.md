@@ -1,24 +1,24 @@
 ---
 title: "Dämonenkönig: Event-Zeitplan, Magier-Schwachstelle & 30-Sekunden-Marsch-Trick"
-description: "Vollständiger Leitfaden zum Dämonenkönig (Blight Ranger) Weltboss-Event in Last Asylum: Plague: Zeitplan für Dienstag & Freitag, Magier-Konter-Bonus, 10 tägliche Angriffe und der 30-Sekunden-Marsch-Rückruf-Trick."
+description: "Vollständiger Leitfaden zum Dämonenkönig (Seuche Ranger) Weltboss-Event in Last Asylum: Plague: Zeitplan für Dienstag & Freitag, Magier-Konter-Bonus, 10 tägliche Angriffe und der 30-Sekunden-Marsch-Rückruf-Trick."
 lang: de
 updated: "2026-09-15"
 videoTopic: demon_king
 type: event
 ---
 
-Der **Dämonenkönig (Blight Ranger)** ist ein wiederkehrendes Weltboss-Event auf der Weltkarte in **Last Asylum: Plague**, bei dem Kommandanten eine massive infizierte Entität angreifen können, um Premium-Belohnungen zu erhalten: Diamanten, Ausrüstungskisten, Helden-Rekrutierungstickets und Ressourcen.
+Der **Dämonenkönig (Seuche Ranger)** ist ein wiederkehrendes Weltboss-Event auf der Weltkarte in **Last Asylum: Plague**, bei dem Kommandanten eine massive infizierte Entität angreifen können, um Premium-Belohnungen zu erhalten: Diamanten, Ausrüstungskisten, Helden-Rekrutierungstickets und Ressourcen.
 
 ---
 
 ## 📅 Zeitplan & Teilnahmevoraussetzungen {#schedule}
 
 * **Event-Tage:** Der Dämonenkönig rotiert auf der Weltkarte durch drei Typen:
-  - **Mo & Do** — Hexenmeister-Blight (Bonusschaden durch **Krieger**-Helden)
-  - **Di & Fr** — Waldläufer-Blight (Bonusschaden durch **Magier/Hexenmeister**-Helden)
-  - **Mi & Sa** — Krieger-Blight (Bonusschaden durch **Waldläufer**-Helden)
+  - **Mo & Do** — Hexenmeister-Seuche (Bonusschaden durch **Krieger**-Helden)
+  - **Di & Fr** — Waldläufer-Seuche (Bonusschaden durch **Magier/Hexenmeister**-Helden)
+  - **Mi & Sa** — Krieger-Seuche (Bonusschaden durch **Waldläufer**-Helden)
 
-  Diese Seite behandelt den Waldläufer-Blight am Dienstag/Freitag; die gleichen Regeln gelten für die anderen beiden Tage – tauschen Sie einfach die Konter-Klasse aus.
+  Diese Seite behandelt den Waldläufer-Seuche am Dienstag/Freitag; die gleichen Regeln gelten für die anderen beiden Tage – tauschen Sie einfach die Konter-Klasse aus.
 * **Zufluchts-Voraussetzung:** Verfügbar für alle Kommandanten mit **Zufluchts-Level 8 oder höher**.
 * **Tägliches Angriffslimit:** Jeder Kommandant hat **bis zu 10 Angriffe pro Tag**. Sammel-Angriffe (Rallys) werden nicht unterstützt.
 * **Kein Truppenverlust:** Kämpfe gegen den Dämonenkönig führen nicht zu dauerhaften Soldatentoden – verwundete Soldaten werden ins Lazarett geschickt, ohne dauerhaften CP-Verlust.
@@ -28,7 +28,7 @@ Der **Dämonenkönig (Blight Ranger)** ist ein wiederkehrendes Weltboss-Event au
 ## 🧙 Klassen-Schwachstelle: Setzen Sie Magier / Hexenmeister-Helden ein! {#mages-weakness}
 
 > [!TIP] Kern-Konter-Mechanik: Der Dämonenkönig erleidet zusätzlichen Schaden durch Magier!
-> Der Waldläufer-Blight ist von Natur aus **anfällig für Helden der Klasse Magier / Hexenmeister**. Magier verursachen während des gesamten Kampfes deutlich verstärkten Schaden.
+> Der Waldläufer-Seuche ist von Natur aus **anfällig für Helden der Klasse Magier / Hexenmeister**. Magier verursachen während des gesamten Kampfes deutlich verstärkten Schaden.
 
 Um Ihr Schadensranking zu maximieren und die besten Meilenstein-Kisten zu sichern:
 1. **Bauen Sie ein dediziertes Hexenmeister-Lineup auf:** Priorisieren Sie Ihren besten Hexenmeister-Kader (z. B. [Joker](/de/codex/joker/), [Annie](/de/codex/annie/), [Nicole](/de/codex/nicole/), [Billy](/de/codex/billy/), [Ulfrid](/de/codex/ulfrid/), sofern verfügbar).
@@ -44,7 +44,7 @@ Um Ihr Schadensranking zu maximieren und die besten Meilenstein-Kisten zu sicher
 
 ### Taktische Anwendungen:
 * **"Abkürzung" für lange Rückmärsche:** Wenn Ihre Truppen von einem weit entfernten Ressourcenfeld, einem Allianz-Außenposten oder einer Expedition (5–10 Minuten entfernt) zurückkehren, richten Sie diesen Marsch direkt auf den Dämonenkönig aus. Der Transit-Timer setzt sich sofort auf 30 Sekunden zurück, wodurch Ihre Legionen eine halbe Minute nach dem Aufprall zu Hause sind!
-* **Notfall-Verteidigungs-Rückruf:** Wenn eine feindliche Rally auf Ihre Basis zumarschiert, während Ihre Hauptstreitmacht weit entfernt ist, zieht ein umgeleiteter Angriff auf den Dämonenkönig Ihre Truppen in genau 30 Sekunden zurück an Ihre Mauern.
+* **Notfall-Verteidigungs-Rückruf:** Wenn eine feindliche Versammlung auf Ihre Basis zumarschiert, während Ihre Hauptstreitmacht weit entfernt ist, zieht ein umgeleiteter Angriff auf den Dämonenkönig Ihre Truppen in genau 30 Sekunden zurück an Ihre Mauern.
 * **Marsch-Beschleuniger sparen:** Es ist nicht nötig, teure Stiefel oder Marsch-Boosts auszugeben – die Boss-Mechanik sorgt für einen kostenlosen Schnelltransport.
 
 ---

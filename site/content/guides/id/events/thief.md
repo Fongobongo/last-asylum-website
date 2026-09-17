@@ -9,7 +9,7 @@ infographics: []
 type: event
 ---
 
-Thief Hunt (Perburuan Pencuri) adalah **event stamina aliansi**: Anda menghabiskan stamina untuk menyerang pencuri di peta, dan setiap pembunuhan pencuri memberikan peluang untuk memunculkan bos **Thief Leader** yang bisa diserang oleh seluruh aliansi. Event ini mengubah stamina cadangan Anda menjadi item di toko penukaran — salah satu toko dengan nilai terbaik dalam game jika Anda membelinya dengan urutan yang benar.
+Memburu Pencuri (Perburuan Pencuri) adalah **event stamina aliansi**: Anda menghabiskan stamina untuk menyerang pencuri di peta, dan setiap pembunuhan pencuri memberikan peluang untuk memunculkan bos **Thief Leader** yang bisa diserang oleh seluruh aliansi. Event ini mengubah stamina cadangan Anda menjadi item di toko penukaran — salah satu toko dengan nilai terbaik dalam game jika Anda membelinya dengan urutan yang benar.
 
 Panduan ini membahas mekanisme kemunculan bos, teknik untuk memunculkan bos level tinggi, daftar prioritas penukaran, dan skuad bos.
 
@@ -28,7 +28,7 @@ Panduan ini membahas mekanisme kemunculan bos, teknik untuk memunculkan bos leve
 
 - **Cara Meningkatkan Batas Level:** Batas level Leader yang dapat ditemukan meningkat setelah Leader tertinggi dikalahkan **3 kali** oleh anggota Aliansi Anda (pembaruan 30 Juli 2026).
 - **Aturan Kepemilikan Penemuan:** Batas Level Leader hanya meningkat ketika Leader yang ditemukan oleh Aliansi *Anda* dikalahkan oleh anggota *Anda*. Kekalahan oleh Aliansi lain tidak memengaruhi batas level Anda (pembaruan 2 Juli 2026).
-- **Chief's Coin Chest:** Thief Leader Lv.80+ sekarang menjatuhkan **Chief's Coin Chest** yang berharga, diberikan langsung kepada penemu dan inisiator Rally!
+- **Chief's Coin Chest:** Thief Leader Lv.80+ sekarang menjatuhkan **Chief's Coin Chest** yang berharga, diberikan langsung kepada penemu dan inisiator Reli!
 - Level bos berskala dengan tahap perkembangan server — server usia tinggi tidak akan lagi melihat kemunculan level rendah.
 
 ## Teknik Nonstop-Kill untuk Level 30/35 {#spawn-technique}
@@ -45,11 +45,11 @@ Toko penukaran adalah hadiah yang sebenarnya, dan urutan konsensus komunitas sud
 
 ### Hanya Minggu 1 {#week-1}
 
-1. **Scrolls** — 4 untuk teknologi Alliance Duel, **lalu jangan pernah lagi**. Teknologi Duel hanya membutuhkan tepat empat; setelah itu, item tersebut tidak berguna.
+1. **Scrolls** — 4 untuk teknologi Pertarungan Guild, **lalu jangan pernah lagi**. Teknologi Duel hanya membutuhkan tepat empat; setelah itu, item tersebut tidak berguna.
 
 ### Selalu, Setiap Event {#always}
 
-1. **Raven Essence** — setiap event, tanpa pengecualian. Sistem Raven secara permanen terhambat oleh item ini (lihat [panduan Raven](/id/raven/)).
+1. **Esensi Raven** — setiap event, tanpa pengecualian. Sistem Raven secara permanen terhambat oleh item ini (lihat [panduan Raven](/id/raven/)).
 
 ### Prioritas Tinggi {#high-priority}
 
@@ -78,15 +78,15 @@ Dan satu aturan inventaris: **batas scroll terbawa dari event ke event**. Jika A
 - **Bunuh bos aliansi Anda sendiri terlebih dahulu** — jika Anda lambat, aliansi tetangga akan menghabisi bos Anda dan merampas bagian hadiah damage seluruh tim Anda. Situasi kalah-kalah yang Anda pilih sendiri.
 - **Bos terlalu besar? Rekrut bantuan.** Bagikan tautan bos di obrolan aliansi — pemain besar (whale) atau pemain menengah akan membantu menghabisi bos, dan Anda tetap mendapatkan hadiah drop. Jangan pernah biarkan Thief Leader level tinggi menghilang (despawn).
 - **Simpan satu skuad di markas secara permanen untuk rally aliansi** — bergabung tidak memakan stamina, tetapi Anda tetap mendapatkan bagian hadiah penuh. Loot gratis tanpa sumber daya. Ini adalah yang terbaik: jangan biarkan terbuang.
-- Satu jam grinding terarah setara dengan sekitar 4K Thief Coins, 250K Crow berries, dan ~65M grain+wood+herbs dalam sumber daya — itulah sebabnya event ini menghasilkan lebih banyak daripada **Dwarven Mine** dalam pendapatan mingguan mentah bagi sebagian besar pemain.
+- Satu jam grinding terarah setara dengan sekitar 4K Thief Coins, 250K Crow berries, dan ~65M grain+wood+herbs dalam sumber daya — itulah sebabnya event ini menghasilkan lebih banyak daripada **Tambang kurcaci** dalam pendapatan mingguan mentah bagi sebagian besar pemain.
 
-## Skuad Rally Bos {#boss-squad}
+## Skuad Reli Bos {#boss-squad}
 
 Komposisi bos komunitas, dibangun untuk damage berkelanjutan:
 
 | Baris | Hero | Tugas |
 |---|---|---|
 | Depan | Arthur + Bella | Bertahan lebih lama — setiap detik tambahan bertahan akan menumpuk lebih banyak damage |
-| Belakang | Marlena + Shadow + Claire | Mesin damage di belakang garis depan |
+| Belakang | Marlena + Ying + Clea | Mesin damage di belakang garis depan |
 
 Logikanya: **bertahan lebih lama = lebih banyak damage yang terkumpul**. Pertarungan bos bukanlah tes burst — skuad yang bertahan paling lama memberikan damage paling banyak, jadi prioritaskan pertahanan daripada serangan mentah. Detail hero lengkap ada di [panduan Heroes](/id/heroes/).

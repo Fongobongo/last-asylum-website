@@ -24,16 +24,16 @@ Esta página lista todos os avisos oficiais notáveis: bugs, correções, ondas 
 - **01/06/2026 — Bug na moldura de avatar da Central de Recarga** ✅ corrigido — A moldura de avatar da Central de Recarga não foi entregue; corrigido retroativamente.
 - **11/05/2026 — Aviso de atraso nas recompensas do KvK** ✅ corrigido — As recompensas do KvK (10/05) sofreram atraso; distribuídas após verificação.
 - **09/05/2026 — Problema de lag no servidor** ✅ corrigido — Lag significativo no servidor relatado e corrigido no mesmo dia.
-- **21/04/2026 — Anomalia na rodada 2 do Elixir Scramble** ✅ corrigido — Problemas no Elixir Scramble de 18 de abril; compensação distribuída em etapas.
+- **21/04/2026 — Anomalia na rodada 2 do Luta pelo Elixir** ✅ corrigido — Problemas no Luta pelo Elixir de 18 de abril; compensação distribuída em etapas.
 - **07/04/2026 — Onda de restrições no chat** ℹ️ info — Sistema de controle de risco endurecido → mais silenciamentos de chat de 24h. Recorra através do botão Suporte na página de login. A lista de palavras proibidas inclui palavras inocentes (Grapes, Raccoon, Analysis…).
 - **04/04/2026 — Bug de teletransporte entre servidores (Invasão do Duelo de Alianças)** ✅ corrigido — Problema de teletransporte entre servidores durante a invasão resolvido.
 - **03/04/2026 — Correção de silenciamento no chat (parcial)** ✅ corrigido — Algumas palavras com falso positivo foram removidas; palavras relacionadas a fraude (GM, Admin) permanecem banidas.
 - **01/04/2026 — Erro de surgimento do Líder da Caça aos Ladrões** ✅ corrigido — O Líder dos Ladrões surgiu inesperadamente devido a um problema de dados; recursos extras foram recuperados.
-- **18/03/2026 — Exploit na Escavação da Falcon Tower** ✅ corrigido — Jogadores exploraram um bug de escavação para obter recursos/Poder — itens recuperados.
+- **18/03/2026 — Exploit na Escavação da Torre do Falcão** ✅ corrigido — Jogadores exploraram um bug de escavação para obter recursos/Poder — itens recuperados.
 - **15/03/2026 — Buffs da cidade pararam de funcionar** ✅ corrigido — Buffs da cidade relatados como quebrados em alguns servidores; redefinir após retomar o cargo resolveu o problema.
 - **13/03/2026 — Erro de login "Network Connection"** ✅ corrigido — Correções: reinicie o jogo, limpe o cache, desative a VPN ou use o botão de reparo (canto superior direito na tela de carregamento).
 - **12/03/2026 — Onda de banimentos por Erro 1013** ✅ corrigido — Contas (temp/permanentes) banidas pelo bot de moderação incluindo palavras inocentes; jogadores russos foram os mais afetados. Tente novamente em intervalos de 2 horas.
-- **12/03/2026 — Exploit na missão Pirate Legacy** ✅ corrigido — A missão podia ser completada repetidamente; progresso deduzido dos exploradores por justiça.
+- **12/03/2026 — Exploit na missão Legado Pirata** ✅ corrigido — A missão podia ser completada repetidamente; progresso deduzido dos exploradores por justiça.
 
 ## Alerta de golpe (importante) {#scam-alert}
 

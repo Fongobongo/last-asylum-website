@@ -40,7 +40,7 @@ Los niveles de héroe escalan los atributos base (HP, ATQ, DEF) y amplifican las
 
 ### 2. Avances en la clasificación de estrellas
 * El punto de inflexión principal para cualquier héroe UR son las **4 estrellas**. Alcanzar las 4 estrellas desbloquea pasivas de equipo que cambian el juego y una escala de estadísticas sustancial.
-* **Regla de oro para F2P:** Prioriza llevar a un héroe principal (por ejemplo, Marlena o Arthur) a 4-5 estrellas antes de repartir fragmentos entre múltiples héroes de 1 estrella.
+* **Regla de oro para F2P:** Prioriza llevar a un héroe principal (por ejemplo, Marlena o Arturo) a 4-5 estrellas antes de repartir fragmentos entre múltiples héroes de 1 estrella.
 
 ### 3. Mejora de equipo (Hasta Nv. 60)
 * El equipo consume Planos para mejorar en hitos clave: **Nv. 10, Nv. 20, Nv. 30, Nv. 40 y Nv. 60**.
@@ -59,7 +59,7 @@ Los niveles de héroe escalan los atributos base (HP, ATQ, DEF) y amplifican las
 | **Mejoras de edificios** | Cada mejora de estructura completada otorga un lote instantáneo de Antitoxinas. |
 | **Misiones de la Torre Falcon** | Prioriza las misiones púrpuras y doradas que ofrecen viales de Antitoxina. |
 | **Operaciones encubiertas y saqueo de caravanas** | Completa rutas diarias y saquea caravanas rivales (hasta 5 veces al día). |
-| **Rallies de Blight y Blight de élite** | Coordina rallies del gremio contra infectados de alto nivel para un flujo constante de recursos sin costo de gemas. |
+| **Rallies de Infectado y Infectado de élite** | Coordina rallies del gremio contra infectados de alto nivel para un flujo constante de recursos sin costo de gemas. |
 
 ---
 

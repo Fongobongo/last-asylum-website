@@ -21,10 +21,10 @@ Zusammengestellt aus Anleitungen zur Truppenzusammenstellung, Analysen von Bossk
 - **Cynthia** (UR · Waldläufer · Carry) — F2P-Carry über das Wunschrad an Tag 8 (~1,5k Diamanten nach 7 kostenlosen täglichen Drehungen + Meilenstein); stark gegen Monster
 - **Zoya** (UR · Krieger · Carry) — Nur durch Kauf erhältlich; teilt sich den Schaden 50/50 mit einer maximierten Marlena
 - **Bell** (UR · Waldläufer · Unterstützung) — Verstärkt die 2 stärksten ANG-Verbündeten + alle Waldläufer — Kern für Boss-Zusammenstellungen (benötigt 6★/Ult 10)
-- **Shadow** (UR · Waldläufer · Tank) — Hero-Pass-Tank; hält die Stellung, während Carries töten
+- **Shadow** (UR · Waldläufer · Tank) — Held-Pass-Tank; hält die Stellung, während Carries töten
 - **Annie** (UR · Hexenmeister · Carry) — Insgeheim stark für F2P; 8★-Unterstützungsfähigkeit = enormer Teamwert
 - **Joker** (UR · Hexenmeister · Carry) — PvP-Finisher (zielt auf niedrigste LP); Rad-Ziel nach Tag 15
-- **Red Lady** (UR · Waldläufer · Carry) — Waldläufer-Carry mit Betäubungseffekten für PvP
+- **Rote Dame** (UR · Waldläufer · Carry) — Waldläufer-Carry mit Betäubungseffekten für PvP
 
 ## B-Stufe {#b-tier}
 
@@ -37,7 +37,7 @@ Zusammengestellt aus Anleitungen zur Truppenzusammenstellung, Analysen von Bossk
 - **Louis** (UR · Waldläufer · Tank) — Waldläufer-Tank für Mono-Waldläufer-Aufstellungen
 - **Nicole** (UR · Hexenmeister · Unterstützung) — Heilungsunterstützung für Hexenmeister-Trupps (überarbeiteter Glutstaub & Heilung)
 - **Ulfrid** (UR · Hexenmeister · Tank) — Hexenmeister-Reflekt-Tank (umbenannt von Brian im Juli 2026)
-- **Billy** (UR · Hexenmeister · Tank) — Anti-CC-Tank (kontert Red Lady-Betäubungen), −8% erlittener Energieschaden, schwächt 3 Gegner
+- **Billy** (UR · Hexenmeister · Tank) — Anti-CC-Tank (kontert Rote Dame-Betäubungen), −8% erlittener Energieschaden, schwächt 3 Gegner
 
 ## C-Stufe {#c-tier}
 

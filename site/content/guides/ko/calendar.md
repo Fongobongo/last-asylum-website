@@ -26,11 +26,11 @@ videoTopic: calendar
 
 ### 주요 기념비 마일스톤:
 
-- **제1장 (1~14일)**: 성소 설립, 핵심 무료 UR 탱커 [Arthur](/ko/codex/arthur/), [Alliance](/ko/alliance/) 기능 해제, 첫 번째 UR 레인저 룰렛 [Cynthia](/ko/codex/cynthia/) (8일차), 그리고 첫 번째 20개 웨이브 [Undead Siege](/ko/events/undead/) (14일차).
-- **제2장 (15~28일)**: 첫 번째 [Alliance Duel](/ko/events/alliance-duel/) 자격 획득 (상위 32개 연맹, 15일차), 일일 [Alliance Caravan](/ko/events/wagon/) (21일차), [Canyon Clash](/ko/events/canyon/) 팀 전장.
-- **제3장 (29~65일)**: 서버 경계가 무너집니다! 서버 간 [Kingdom War (KvK)](/ko/events/kvk/) 시작, 영웅 풀 확장 ([Shadow](/ko/codex/shadow/), Joker, Bella), 주간 30분 [Elixir Scramble](/ko/events/elixir/).
-- **제4장 (66~119일)**: 황금기! 최고의 무과금(F2P) 캐리 [Marlena](/ko/codex/marlena/)의 주점 무료 등장 (1일차 1달러 패키지를 구매하지 않은 경우), [Mythic Treasure](/ko/events/mythic/)의 일일 300마리 물고기 바다 현상금, 골동품 홀 유물, 엄격한 항독소 비축.
-- **제5장 (120일 이후)**: 대서사시적인 55일간의 **«부흥의 시대»**(원정 리그) 시작: 바이러스 감염 면역, 영주 동상, 특화 특성 트리, Zoya 등장.
+- **제1장 (1~14일)**: 성소 설립, 핵심 무료 UR 탱커 [아서](/ko/codex/arthur/), [Alliance](/ko/alliance/) 기능 해제, 첫 번째 UR 레인저 룰렛 [신시아](/ko/codex/cynthia/) (8일차), 그리고 첫 번째 20개 웨이브 [좀비 포위전](/ko/events/undead/) (14일차).
+- **제2장 (15~28일)**: 첫 번째 [길드전](/ko/events/alliance-duel/) 자격 획득 (상위 32개 연맹, 15일차), 일일 [Alliance Caravan](/ko/events/wagon/) (21일차), [Canyon Clash](/ko/events/canyon/) 팀 전장.
+- **제3장 (29~65일)**: 서버 경계가 무너집니다! 서버 간 [국가 원정 (KvK)](/ko/events/kvk/) 시작, 영웅 풀 확장 ([섀도우](/ko/codex/shadow/), 광대, 벨라), 주간 30분 [비약 쟁탈전](/ko/events/elixir/).
+- **제4장 (66~119일)**: 황금기! 최고의 무과금(F2P) 캐리 [말레나](/ko/codex/marlena/)의 주점 무료 등장 (1일차 1달러 패키지를 구매하지 않은 경우), [Mythic Treasure](/ko/events/mythic/)의 일일 300마리 물고기 바다 현상금, 골동품 홀 유물, 엄격한 항독소 비축.
+- **제5장 (120일 이후)**: 대서사시적인 55일간의 **«부흥의 시대»**(원정 리그) 시작: 바이러스 감염 면역, 영주 동상, 특화 특성 트리, 조야 등장.
 
 ## 초기화 및 반복 일정 {#recurring}
 

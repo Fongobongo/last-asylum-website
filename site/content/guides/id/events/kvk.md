@@ -1,6 +1,6 @@
 ---
-title: "Kingdom War (KvK): Bertahan & Mencetak Skor"
-description: "Perang antar-server untuk memperebutkan Royal City: jadwal dua mingguan, strategi mengutamakan turret bagi penyerang, taktik mengulur waktu bagi pertahanan, risiko pasukan dan sumber daya, serta tumpang tindih skor dengan Alliance Duel."
+title: "Ekspedisi Lintas Negara (KvK): Bertahan & Mencetak Skor"
+description: "Perang antar-server untuk memperebutkan Royal City: jadwal dua mingguan, strategi mengutamakan turret bagi penyerang, taktik mengulur waktu bagi pertahanan, risiko pasukan dan sumber daya, serta tumpang tindih skor dengan Pertarungan Guild."
 lang: id
 updated: "2026-09-03"
 videoTopic: kvk
@@ -9,7 +9,7 @@ infographics: []
 type: event
 ---
 
-Kingdom War adalah **perang antar-server** dalam game ini: dua kerajaan menginvasi peta bersama dan bertarung memperebutkan **Royal City**. Acara ini berlangsung **dua mingguan**, dengan tugas mencetak skor dan persiapan sepanjang minggu, sementara pertempuran utama dipadatkan dalam satu jendela waktu. Menanglah dengan menguasai Royal City saat keadaan sudah tenang.
+Ekspedisi Lintas Negara adalah **perang antar-server** dalam game ini: dua kerajaan menginvasi peta bersama dan bertarung memperebutkan **Royal City**. Acara ini berlangsung **dua mingguan**, dengan tugas mencetak skor dan persiapan sepanjang minggu, sementara pertempuran utama dipadatkan dalam satu jendela waktu. Menanglah dengan menguasai Royal City saat keadaan sudah tenang.
 
 Panduan ini mencakup jadwal, strategi penyerang dan bertahan, aturan universal, kesalahan yang menyebabkan kekalahan perang, serta aturan ekonomi yang menjaga akun Anda tetap aman selama acara berlangsung.
 
@@ -27,7 +27,7 @@ Jika kerajaan Anda sedang menyerang, instingnya adalah menyerbu Royal City. Inst
 
 - **Jangan menyerbu kota terlebih dahulu.** Serangan langsung ke dalam kota akan berhadapan dengan pertahanan terkonsentrasi dan turret — ini akan menghabiskan pasukan terkuat Anda di menit-menit awal.
 - **Ambil turret terlebih dahulu, baru menyerbu.** Setiap turret yang jatuh memperluas zona aman Anda dan melucuti kendali peta pihak bertahan sebelum pertarungan kota dimulai.
-- **Tetap dalam rally.** Rally lebih aman dan lebih kuat daripada barisan solo — HP terkonsentrasi, buff terkonsentrasi, dan barisan yang harus dihormati oleh pihak bertahan. Pahlawan solo adalah korban solo.
+- **Tetap dalam rally.** Reli lebih aman dan lebih kuat daripada barisan solo — HP terkonsentrasi, buff terkonsentrasi, dan barisan yang harus dihormati oleh pihak bertahan. Pahlawan solo adalah korban solo.
 
 ## Panduan Bertahan {#defender-playbook}
 
@@ -55,16 +55,16 @@ Di sisi mana pun Anda berada, aturan yang sama berlaku:
 
 ## Ekonomi KvK: Pasukan, Sumber Daya, dan Shield {#economy-rules}
 
-Kingdom War adalah salah satu dari sedikit acara dengan risiko akun nyata:
+Ekspedisi Lintas Negara adalah salah satu dari sedikit acara dengan risiko akun nyata:
 
-- **Anda BISA kehilangan pasukan dan sumber daya saat diserang** — ini bukan acara tanpa risiko seperti [Canyon Conquest](/id/events/canyon/).
+- **Anda BISA kehilangan pasukan dan sumber daya saat diserang** — ini bukan acara tanpa risiko seperti [Pertarungan Ngarai](/id/events/canyon/).
 - **Gunakan Shield** selama jendela waktu perang. Kota tanpa shield selama KvK adalah piñata sumber daya bagi server musuh.
 - **Kerugian berskala dengan tembok dan riset Anda** — tembok maksimal dan riset pertahanan adalah hal yang mengubah pembantaian menjadi pertempuran kecil.
-- **Simpan upgrade dan speedup untuk hari pencetakan skor** — logika nilai ganda yang mengatur [Alliance Duel](/id/events/alliance-duel/) berlaku untuk tugas skor KvK. Menghabiskan upgrade besar pada hari netral hanya akan menghasilkan setengah poin.
+- **Simpan upgrade dan speedup untuk hari pencetakan skor** — logika nilai ganda yang mengatur [Pertarungan Guild](/id/events/alliance-duel/) berlaku untuk tugas skor KvK. Menghabiskan upgrade besar pada hari netral hanya akan menghasilkan setengah poin.
 
-## Tumpang Tindih Skor dengan Alliance Duel {#scoring-overlap}
+## Tumpang Tindih Skor dengan Pertarungan Guild {#scoring-overlap}
 
-KvK dan Alliance Duel berbagi sumber skor, dan konsensus komunitas adalah memanfaatkan hal itu setiap hari:
+KvK dan Pertarungan Guild berbagi sumber skor, dan konsensus komunitas adalah memanfaatkan hal itu setiap hari:
 
 - **Covert Ops dan Caravan memberikan skor untuk KEDUA acara.** Tindakan yang sama mengisi total duel dan total KvK Anda sekaligus.
 - Hal itu membuat caravan menjadi pilihan yang jelas setiap hari — jalankan setiap hari selama minggu duel. Rute caravan dan penjarahan lengkap ada di [panduan Guild Wagon & Caravans](/id/events/wagon/).

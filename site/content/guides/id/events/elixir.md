@@ -1,5 +1,5 @@
 ---
-title: "Elixir Scramble: Cara Menang"
+title: "Perebutan Ramuan Rahasia: Cara Menang"
 description: "Medan perang aliansi-lawan-aliansi berdurasi 30 menit: lima tahap, skor berbasis kendali, prioritas Healing Tent, aturan teleportasi, dan kesalahan pada tembok yang akan mengakhiri permainan Anda dalam 10 menit."
 lang: id
 updated: "2026-09-03"
@@ -9,7 +9,7 @@ infographics: ["/infographics/elixir-guide.webp", "/infographics/elixir-strategy
 type: event
 ---
 
-Elixir Scramble adalah **medan perang aliansi-lawan-aliansi berdurasi 30 menit** di mana pemenangnya ditentukan oleh poin, bukan oleh siapa yang membunuh lebih banyak pasukan. Aliansi yang menganggapnya sebagai *deathmatch* akan kalah dari aliansi yang menganggapnya sebagai permainan penguasaan peta — setiap saat.
+Perebutan Ramuan Rahasia adalah **medan perang aliansi-lawan-aliansi berdurasi 30 menit** di mana pemenangnya ditentukan oleh poin, bukan oleh siapa yang membunuh lebih banyak pasukan. Aliansi yang menganggapnya sebagai *deathmatch* akan kalah dari aliansi yang menganggapnya sebagai permainan penguasaan peta — setiap saat.
 
 Panduan ini mencakup lima tahap acara, dari mana poin sebenarnya berasal, aturan teleportasi, logika pertahanan, dan satu kesalahan yang mengakhiri permainan sebelum dimulai.
 
@@ -56,7 +56,7 @@ Bangunan yang diklaim **tidak** memerlukan garnisun untuk terus menghasilkan poi
 
 ## KRITIS: Tarik Pasukan dari Tembok Sebelum Dimulai {#wall-warning}
 
-> Jika pasukan Anda masih berada di tembok saat Elixir Scramble dimulai, Anda bisa kehilangan pasukan dalam waktu kurang dari 10 menit — dan acara Anda berakhir untuk 20 menit sisanya.
+> Jika pasukan Anda masih berada di tembok saat Perebutan Ramuan Rahasia dimulai, Anda bisa kehilangan pasukan dalam waktu kurang dari 10 menit — dan acara Anda berakhir untuk 20 menit sisanya.
 
 Pasukan di tembok akan terjebak dalam gelombang serangan pembuka, dan pasukan yang mati di dalam acara akan mati selama setengah jam penuh. Selama tahap persiapan masuk, daftar periksanya adalah:
 
@@ -76,4 +76,4 @@ Pola kemenangan, diringkas:
 - **Prioritaskan bangunan bernilai tinggi.** Elixir Castle terlebih dahulu, Healing Tents di awal, dan Camps saat muncul.
 - **Jangan pernah bergerak sendiri.** Satu pasukan yang menyerang titik pertahanan akan mati sendirian dan tidak berkontribusi apa pun. Bergeraklah bersama aliansi Anda atau jangan bergerak sama sekali.
 
-Elixir Scramble menghargai disiplin daripada kekuatan. Aliansi yang lebih lemah yang menguasai bangunan yang tepat dan tidak pernah berhenti melakukan rotasi akan mengalahkan aliansi yang lebih kuat yang hanya mengejar pembunuhan — karena pembunuhan tidak pernah bernilai apa pun.
+Perebutan Ramuan Rahasia menghargai disiplin daripada kekuatan. Aliansi yang lebih lemah yang menguasai bangunan yang tepat dan tidak pernah berhenti melakukan rotasi akan mengalahkan aliansi yang lebih kuat yang hanya mengejar pembunuhan — karena pembunuhan tidak pernah bernilai apa pun.

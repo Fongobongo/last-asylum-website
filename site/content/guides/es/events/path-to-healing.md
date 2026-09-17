@@ -1,13 +1,13 @@
 ---
-title: "Camino a la Curación: Guía del evento de 5 días y fragmentos de Arthur"
-description: "Guía completa del evento 'Camino a la Curación' en Last Asylum: Plague: desglose de misiones de los días 1 al 5, requisito obligatorio de VIP 5 y cómo obtener 15 fragmentos de UR Arthur."
+title: "Camino a la Curación: Guía del evento de 5 días y fragmentos de Arturo"
+description: "Guía completa del evento 'Camino a la Curación' en Last Asylum: Plague: desglose de misiones de los días 1 al 5, requisito obligatorio de VIP 5 y cómo obtener 15 fragmentos de UR Arturo."
 lang: es
 updated: "2026-09-14"
 videoTopic: path_to_healing
 type: event
 ---
 
-El **Camino a la Curación** es un evento de incorporación de 5 días fundamental para todo nuevo superviviente en Last Asylum: Plague. Completar su lista de misiones garantiza **15 fragmentos de héroe UR Arthur** —el tanque de primera línea indiscutible para el inicio y la mitad del juego— y **30 fragmentos de SSR Celia**, asegurando una base resistente para tu escuadrón principal.
+El **Camino a la Curación** es un evento de incorporación de 5 días fundamental para todo nuevo superviviente en Last Asylum: Plague. Completar su lista de misiones garantiza **15 fragmentos de héroe UR Arturo** —el tanque de primera línea indiscutible para el inicio y la mitad del juego— y **30 fragmentos de SSR Celia**, asegurando una base resistente para tu escuadrón principal.
 
 Sin embargo, el evento cuenta con un requisito de elegibilidad estricto e innegociable que toma por sorpresa a muchos principiantes: **el límite de nivel VIP**.
 
@@ -17,7 +17,7 @@ Sin embargo, el evento cuenta con un requisito de elegibilidad estricto e innego
 
 > ⚠️ **PRERREQUISITO CRÍTICO:** Para reclamar las recompensas por completar el Camino a la Curación, ¡tu cuenta **DEBE alcanzar el nivel VIP 5 antes de que concluya el evento!**
 
-Incluso si completas el 100% de los objetivos de las misiones diarias durante los 5 días, si no alcanzas el nivel VIP 5, **¡todas las recompensas de hitos y los fragmentos de Arthur permanecerán bloqueados!**
+Incluso si completas el 100% de los objetivos de las misiones diarias durante los 5 días, si no alcanzas el nivel VIP 5, **¡todas las recompensas de hitos y los fragmentos de Arturo permanecerán bloqueados!**
 
 ### Cómo alcanzar el VIP 5 siendo un jugador 100% F2P (gratuito):
 1. **Nunca desperdicies diamantes al principio:** El juego otorga a los nuevos jugadores miles de diamantes gratuitos a través de los capítulos de la Campaña, hitos de nivel del Santuario y logros por primera vez.
@@ -59,7 +59,7 @@ Las tareas se desbloquean secuencialmente día a día, pero todos los días desb
 
 ## 🎁 Lista de recompensas {#rewards}
 
-- 🧩 **15 fragmentos de UR Arthur:** Desbloquea o acelera la ascensión de estrellas para la potencia defensiva principal.
+- 🧩 **15 fragmentos de UR Arturo:** Desbloquea o acelera la ascensión de estrellas para la potencia defensiva principal.
 - 🧩 **30 fragmentos de SSR Celia:** Desbloquea a Celia, un apoyo esencial para la campaña y los jefes de PvE.
 - 🎁 **Gran alijo de finalización del evento:** Repleto de cajas de recursos de alto nivel, paquetes de aceleración y tickets de reclutamiento dorados.
 

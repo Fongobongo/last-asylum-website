@@ -7,7 +7,7 @@ videoTopic: strike_first
 type: event
 ---
 
-El evento **Golpe Primero** (Strike First) es el sprint de incorporación principal para nuevos servidores y comandantes principiantes en Last Asylum: Plague. Se activa inmediatamente al crear tu cuenta y sirve como tu acelerador de crecimiento principal durante la primera semana: completar los hitos fundamentales otorga una abundancia de diamantes gratuitos, aceleradores, tickets de reclutamiento y fragmentos de héroe.
+El evento **Golpe Primero** (Golpe preventivo) es el sprint de incorporación principal para nuevos servidores y comandantes principiantes en Last Asylum: Plague. Se activa inmediatamente al crear tu cuenta y sirve como tu acelerador de crecimiento principal durante la primera semana: completar los hitos fundamentales otorga una abundancia de diamantes gratuitos, aceleradores, tickets de reclutamiento y fragmentos de héroe.
 
 ---
 
@@ -29,7 +29,7 @@ Golpe Primero funciona como una lista de verificación de hitos por niveles vinc
 
 4. **Reclutamiento en la Taberna:**
    - Gastar tickets de reclutamiento normales y avanzados.
-   - Desbloquear héroes fundamentales (Celia, Bella, Arthur).
+   - Desbloquear héroes fundamentales (Celia, Bella, Arturo).
 
 5. **Debut en la Arena del Destino:**
    - Participar en duelos de arena en todo el servidor para establecer un ranking JcJ (PvP) inicial.
@@ -41,7 +41,7 @@ Golpe Primero funciona como una lista de verificación de hitos por niveles vinc
 Completar el evento Golpe Primero ofrece un valor inicial que cambia el juego:
 - **Diamantes:** Más de 5,000 diamantes gratuitos.
 - **Tickets de reclutamiento avanzado:** Más de 20 tickets para invocaciones en la Taberna.
-- **Fragmentos de héroe:** Fragmentos para UR Arthur (tanque) y SSR Celia (apoyo).
+- **Fragmentos de héroe:** Fragmentos para UR Arturo (tanque) y SSR Celia (apoyo).
 - **Paquetes de aceleradores:** Decenas de horas en aceleradores universales, de construcción y de investigación.
 - **Reservas de antitoxina:** Suero crucial para elevar el nivel de tu héroe principal de inmediato.
 

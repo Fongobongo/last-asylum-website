@@ -7,7 +7,7 @@ videoTopic: era
 calculators: ["claire-shards"]
 ---
 
-Era of Revival é a camada sazonal que chega por volta do dia 120 — um ciclo de aproximadamente dois meses que adiciona seus próprios sistemas de progressão sobre o jogo base: a Estátua do Lorde (Resistência e Evolução do Lorde), árvores de Especialidade e Elite Blight.
+Era of Revival é a camada sazonal que chega por volta do dia 120 — um ciclo de aproximadamente dois meses que adiciona seus próprios sistemas de progressão sobre o jogo base: a Estátua do Lorde (Resistência e Evolução do Lorde), árvores de Especialidade e Elite Infectado.
 
 A temporada foca em prioridades e pune a distração com mais rigor do que o jogo base. Esta página cobre o que priorizar diariamente, qual árvore de especialidade combina com seu nível de gastos, o que acumular antes do início da temporada e a matemática completa da conversão de Claire de SSR para UR.
 
@@ -17,7 +17,7 @@ Uma temporada (Liga de Expedição) dura **55 dias** (reduzido de 56 dias na atu
 
 - **Estátua do Lorde** — Resistência e Evolução do Lorde. A espinha dorsal da temporada; veja a seção [Estátuas do Lorde](#lord-statues).
 - **Árvores de Especialidade** — bônus que definem funções, divididos entre caminhos de crescimento e guerra.
-- **Elite Blight** — conteúdo em grupo com dificuldade limitada pela Resistência.
+- **Elite Infectado** — conteúdo em grupo com dificuldade limitada pela Resistência.
 
 ## Resistência: A Prioridade Diária nº 1 {#resistance-first}
 
@@ -26,7 +26,7 @@ Desde o dia 1 da temporada, a Resistência é a prioridade diária máxima — �
 Duas regras práticas para aumentar a Resistência:
 
 - **Ataque monstros mesmo com uma penalidade de dano de 30%.** A luta geralmente ainda pode ser vencida — e o XP de Resistência é obtido de qualquer maneira.
-- **Faça ralis em Elite Blight com um aliado de maior Resistência.** A dificuldade do grupo escala com os participantes; um aliado mais forte puxa sua vitória junto com ele.
+- **Faça ralis em Elite Infectado com um aliado de maior Resistência.** A dificuldade do grupo escala com os participantes; um aliado mais forte puxa sua vitória junto com ele.
 
 Um brinde que vale a pena pegar imediatamente: a **skin Abrigo de Vegetação (Greenery Shelter) concede +100 XP de Resistência**. Resgate-a, aplique-a e deixe que ela renda todos os dias da temporada — são 100 XP por dia pelos quais você não precisa lutar. A Loja da Era também apresenta a skin de castelo permanente **Castelo da Renascença (Castle of Revival)**.
 

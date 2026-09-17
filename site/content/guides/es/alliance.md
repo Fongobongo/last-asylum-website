@@ -20,7 +20,7 @@ La función de Alianza se desbloquea en el **Nivel 5 del Santuario**.
 2. Evita unirte a gremios de principiantes "Abiertos" al azar. Las alianzas competitivas y organizadas siempre requieren una revisión de solicitud (Aplicar).
 3. **Criterios Clave de Selección:**
    * **Clasificación de Poder:** Esfuérzate por entrar en un gremio del Top 1 al Top 3 de tu servidor. Dominan el Castillo Real, ostentan el título de Gremio Gobernante y generan miles de cofres de regalo de miembros activos.
-   * **Zona Horaria y Actividad de Chat:** Asegúrate de que las horas pico de incursión del gremio se alineen con tu horario para las reuniones de Cheese Trap y Undead Siege.
+   * **Zona Horaria y Actividad de Chat:** Asegúrate de que las horas pico de incursión del gremio se alineen con tu horario para las reuniones de Trampa de queso y Asedio de no muertos.
    * **Nivel de Regalo:** Los niveles de regalo de alianza más altos otorgan mejores cofres de hito que contienen diamantes gratis, tickets de reclutamiento y aceleradores.
 
 ---

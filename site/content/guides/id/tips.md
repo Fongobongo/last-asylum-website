@@ -1,6 +1,6 @@
 ---
 title: "🧠 Tips Pro, Mekanisme Tersembunyi & Rahasia"
-description: "Ensiklopedia lengkap mekanisme tersembunyi di Last Asylum: Plague — snapshot buff konstruksi, taktik pertahanan Ghost Rally, mekanisme overflow rumah sakit, jebakan konversi Claire, pre-farming tile, dan rahasia ekonomi diamond."
+description: "Ensiklopedia lengkap mekanisme tersembunyi di Last Asylum: Plague — snapshot buff konstruksi, taktik pertahanan Ghost Reli, mekanisme overflow rumah sakit, jebakan konversi Clea, pre-farming tile, dan rahasia ekonomi diamond."
 lang: id
 updated: "2026-09-04"
 videoTopic: tips
@@ -21,18 +21,18 @@ Salah satu kesalahan paling mahal yang dilakukan oleh komandan baru adalah salah
 > Semua buff kecepatan (gear, gelar, rune, teknologi aliansi) dihitung **SECARA KETAT PADA SAAT TEPAT MENGEKLIK UPGRADE (MULAI)**. Buff apa pun yang diaktifkan setelah timer dimulai **TIDAK AKAN MENGURANGI** durasi tersisa dari proyek yang sedang berjalan!
 
 ### Penerapan Praktis:
-* Jika Anda memulai upgrade Sanctuary selama 30 hari dan 5 menit kemudian melengkapi gear konstruksi atau meminta gelar "Menteri Pekerjaan" (+10%), timer tetap tidak berubah! Game tidak menghitung ulang timer aktif secara retroaktif.
-* **Trik Pemain Pro:** Lengkapi gear konstruksi Anda, minta gelar aliansi sementara "Menteri Pekerjaan" (+10%), aktifkan rune konstruksi (+5%), luncurkan upgrade Sanctuary 30 hari yang masif — dan **segera lepas gear serta lepaskan gelar tersebut**! Buff telah terkunci secara permanen (snap-shotted) selama 30 hari penuh.
+* Jika Anda memulai upgrade Kuil selama 30 hari dan 5 menit kemudian melengkapi gear konstruksi atau meminta gelar "Menteri Pekerjaan" (+10%), timer tetap tidak berubah! Game tidak menghitung ulang timer aktif secara retroaktif.
+* **Trik Pemain Pro:** Lengkapi gear konstruksi Anda, minta gelar aliansi sementara "Menteri Pekerjaan" (+10%), aktifkan rune konstruksi (+5%), luncurkan upgrade Kuil 30 hari yang masif — dan **segera lepas gear serta lepaskan gelar tersebut**! Buff telah terkunci secara permanen (snap-shotted) selama 30 hari penuh.
 
 ### Matematika di Balik Timer:
 Durasi sebenarnya ditentukan oleh:
 $$T = \frac{T_{dasar}}{1 + \sum \text{BuffKecepatan}}$$
 
-Karena pembagi, setiap buff kecepatan +10% berikutnya menghasilkan penghematan jam absolut yang sedikit lebih sedikit daripada sebelumnya (pengembalian yang semakin berkurang dalam hitungan jam). Namun, pada timer akhir game (Sanctuary 25–30, di mana durasi dasar mencapai 40–80 hari), bahkan rune 5% menghemat **beberapa hari penuh percepatan (speedup)**!
+Karena pembagi, setiap buff kecepatan +10% berikutnya menghasilkan penghematan jam absolut yang sedikit lebih sedikit daripada sebelumnya (pengembalian yang semakin berkurang dalam hitungan jam). Namun, pada timer akhir game (Kuil 25–30, di mana durasi dasar mencapai 40–80 hari), bahkan rune 5% menghemat **beberapa hari penuh percepatan (speedup)**!
 
 ---
 
-## 2. Overflow Rumah Sakit & Teknik Pertahanan "Ghost Rally" {#ghost-rally}
+## 2. Overflow Rumah Sakit & Teknik Pertahanan "Ghost Reli" {#ghost-rally}
 
 Rumah Sakit Anda bukan sekadar pondok penyembuhan — ini adalah firewall paling kritis yang mencegah kehancuran akun permanen.
 
@@ -41,22 +41,22 @@ Saat kota Anda diserang, pasukan yang selamat dari kekalahan menjadi terluka dan
 * Selama ada ruang rumah sakit yang tersedia, pasukan **Terluka** dan dapat disembuhkan dengan cepat menggunakan sumber daya murah.
 * **Setelah kapasitas Rumah Sakit mencapai 100%:** SETIAP tentara yang terluka berikutnya **MATI PERMANEN**. Jika pemain lawan yang kuat (whale) menyerang kota Anda 3 hingga 4 kali berturut-turut saat Anda tidur, ratusan ribu pasukan tingkat tinggi T8/T9 akan musnah selamanya. Membangun kembali pasukan itu butuh waktu berbulan-bulan.
 
-### Rahasia "Ghost Rally" (Rally Palsu)
+### Rahasia "Ghost Reli" (Reli Palsu)
 Apa yang harus Anda lakukan jika pasukan penyerang musuh berteleportasi ke sarang Anda selama KvK atau Event Kill, tetapi Anda tidak memiliki Peace Shield (atau kehabisan diamond)?
 
 > [!TIP]
 > **Cara melindungi pasukan Anda tanpa perisai:**
 > 1. Buka peta dunia dan cari benteng terbengkalai yang jauh, sarang zombie tingkat tinggi, atau kamp tidak aktif.
-> 2. Ketuk **Rally** dan pilih durasi timer maksimum: **8 Jam**.
+> 2. Ketuk **Reli** dan pilih durasi timer maksimum: **8 Jam**.
 > 3. Tugaskan seluruh pasukan tempur utama Anda dengan pahlawan terkuat Anda ke dalam rally ini.
 
 **Mengapa ini berhasil:** Pasukan yang ditugaskan ke rally aktif di dalam kota Anda atau berbaris menuju target rally memiliki **kekebalan mutlak 100% terhadap serangan yang masuk**. Bahkan jika musuh menyerang tembok kota Anda dan membakar kota Anda, pasukan yang di-rally tidak menerima kerusakan! Setelah ancaman berlalu, batalkan rally dengan satu klik, dan pasukan elit Anda akan kembali ke barak dengan selamat.
 
 ---
 
-## 3. Rahasia Falcon Tower & Ekskavasi Aliansi {#falcon-tower}
+## 3. Rahasia Menara Raven & Ekskavasi Aliansi {#falcon-tower}
 
-Misi Falcon Tower dan peta harta karun terkait adalah salah satu sumber utama harian untuk diamond, pecahan pahlawan, speedup, dan hadiah aliansi. Namun, pemain kasual mengeklaimnya secara acak dan menyia-nyiakan hingga setengah dari potensi hadiah mereka.
+Misi Menara Raven dan peta harta karun terkait adalah salah satu sumber utama harian untuk diamond, pecahan pahlawan, speedup, dan hadiah aliansi. Namun, pemain kasual mengeklaimnya secara acak dan menyia-nyiakan hingga setengah dari potensi hadiah mereka.
 
 ### Tiga Aturan Emas Penumpukan Misi Falcon:
 
@@ -70,13 +70,13 @@ Misi Falcon Tower dan peta harta karun terkait adalah salah satu sumber utama ha
    Jika papan Anda mencapai kapasitas maksimum (misalnya 25 dari 25), **timer kemunculan misi SEGERA MEMBEKU**. Sampai Anda mengosongkan setidaknya satu slot, tidak ada misi baru yang akan muncul, dan misi harian gratis Anda akan terbuang percuma. Klaim misi yang selesai secara berkala jika perlu agar setidaknya satu slot tetap terbuka untuk misi baru.
 
 > [!TIP]
-> **Klaim Sekali Ketuk di Level 8:** Mencapai **Falcon Tower Lv. 8** membuka fitur "Klaim Semua". Pada hari pengumpulan target (Senin, Rabu, Jumat), satu ketukan akan langsung mengirimkan seluruh tumpukan 24 misi Anda, membuka semua peti hadiah event dalam hitungan detik setelah reset server!
+> **Klaim Sekali Ketuk di Level 8:** Mencapai **Menara Raven Lv. 8** membuka fitur "Klaim Semua". Pada hari pengumpulan target (Senin, Rabu, Jumat), satu ketukan akan langsung mengirimkan seluruh tumpukan 24 misi Anda, membuka semua peti hadiah event dalam hitungan detik setelah reset server!
 
 ---
 
 ### Ekskavasi Aliansi {#excavations}
 
-Menyelesaikan misi Falcon Tower memberikan **Peta Harta Karun**, yang memunculkan lokasi penggalian ekskavasi di peta dunia. Ini adalah aktivitas aliansi kooperatif yang menampilkan dua jenis hadiah berbeda: hadiah penggalian dasar dan bonus kecepatan setelah selesai.
+Menyelesaikan misi Menara Raven memberikan **Peta Harta Karun**, yang memunculkan lokasi penggalian ekskavasi di peta dunia. Ini adalah aktivitas aliansi kooperatif yang menampilkan dua jenis hadiah berbeda: hadiah penggalian dasar dan bonus kecepatan setelah selesai.
 
 #### 1. Hadiah Ekskavasi Dasar (Untuk Semua Anggota Aliansi)
 * **Setiap Orang yang Menyentuh Lokasi Penggalian Menerima Hadiah:** Anda hanya perlu pasukan Anda tiba dan memasuki lokasi ekskavasi sejenak — partisipasi dicatat segera.
@@ -129,7 +129,7 @@ FORMASI ANDA:
 
 ### Penargetan Langsung dan Kebocoran Diagonal
 * Serangan otomatis jarak dekat memprioritaskan unit garis depan musuh yang berdiri tepat di seberangnya.
-* Jika tank sayap kiri Anda (misalnya Arthur) jatuh sebelum tank sayap kanan Anda (misalnya Daskal), sayap kiri musuh **TIDAK beralih ke tank kanan**! Sebaliknya, serangan mereka bocor langsung ke carry garis belakang Anda yang berdiri di belakang Arthur!
+* Jika tank sayap kiri Anda (misalnya Arthur) jatuh sebelum tank sayap kanan Anda (misalnya Duskar), sayap kiri musuh **TIDAK beralih ke tank kanan**! Sebaliknya, serangan mereka bocor langsung ke carry garis belakang Anda yang berdiri di belakang Arthur!
 * **Aturan taktis:** Tempatkan tank pertahanan utama Anda tepat di seberang carry dengan burst-damage tertinggi dari pasukan musuh.
 
 ### Sinergi Mono-Faksi & Raven Epigraphs
@@ -140,19 +140,19 @@ Namun, pengubah permainan yang sebenarnya muncul di akhir game: **UR Raven Epigr
 
 ---
 
-## 6. Jebakan Konversi Claire (SSR ➔ UR) {#claire-conversion}
+## 6. Jebakan Konversi Clea (SSR ➔ UR) {#claire-conversion}
 
-Pada Hari ke-8 musim "Era of Revival", komandan membuka kemampuan untuk mengubah SSR Claire menjadi pahlawan UR legendaris. Ribuan pemain langsung mengetuk tombol tersebut — hanya untuk mendapati bahwa total kerusakan pasukan mereka secara misterius **menurun**!
+Pada Hari ke-8 musim "Era of Revival", komandan membuka kemampuan untuk mengubah SSR Clea menjadi pahlawan UR legendaris. Ribuan pemain langsung mengetuk tombol tersebut — hanya untuk mendapati bahwa total kerusakan pasukan mereka secara misterius **menurun**!
 
 ### Mengapa Penurunan Kerusakan Terjadi:
-* SSR Claire yang dimaksimalkan sepenuhnya memberikan buff pasif seluruh tim yang andal sebesar **+16% kerusakan**.
+* SSR Clea yang dimaksimalkan sepenuhnya memberikan buff pasif seluruh tim yang andal sebesar **+16% kerusakan**.
 * Setelah konversi awal ke UR 6★, pasif seluruh tim itu turun menjadi **+10%**. Statistik dasar pribadinya naik sedikit, tetapi burst pasukan Anda secara keseluruhan turun secara nyata.
 
 ### Cara Melewati Penurunan:
-Jangan ubah Claire saat dia tersedia!
-1. Kumpulkan token dan pecahan Hall of Honor sebelumnya (targetkan Level 100 atau Level 160 di Hall).
+Jangan ubah Clea saat dia tersedia!
+1. Kumpulkan token dan pecahan Aula Upacara Kemuliaan sebelumnya (targetkan Level 100 atau Level 160 di Hall).
 2. Pada hari konversi, masukkan sumber daya yang Anda simpan sekaligus untuk langsung meningkatkan levelnya melewati 6★ langsung ke **9★ atau 10★**.
-3. Pada UR 10★, Claire memberikan lonjakan kekuatan yang memenangkan permainan: **pengganda kerusakan pribadi x2.20** dan membuka *Adv. Tenacity* (+20% ATK/DEF/HP dan -10% pengurangan cooldown untuk seluruh pasukan).
+3. Pada UR 10★, Clea memberikan lonjakan kekuatan yang memenangkan permainan: **pengganda kerusakan pribadi x2.20** dan membuka *Adv. Tenacity* (+20% ATK/DEF/HP dan -10% pengurangan cooldown untuk seluruh pasukan).
 
 ---
 
@@ -181,7 +181,7 @@ Tingkat pasukan terbuka berdasarkan level Tempat Pelatihan: T6 di Lv. 17, T7 di 
 Kebanyakan pemain pemula membuat kesalahan fatal: mereka menaikkan level keempat Tempat Pelatihan secara merata dan melatih tingkat tertinggi yang terbuka dari awal di masing-masing tempat. Ini membakar puluhan juta sumber daya dan memaksa timer 30+ jam. Pemain veteran menggunakan **Pembagian 1 Maks + 3 Rendah**.
 
 ### Pembagian Level 4-Tempat-Pelatihan:
-* **1 Tempat Pelatihan Utama (Level Maks):** Jaga agar ini sesuai dengan batas Sanctuary Anda. Ini adalah satu-satunya bangunan yang diperlukan untuk membuka tingkat tertinggi yang dapat Anda latih (misalnya T9 di Lv. 27, T10 di Lv. 30).
+* **1 Tempat Pelatihan Utama (Level Maks):** Jaga agar ini sesuai dengan batas Kuil Anda. Ini adalah satu-satunya bangunan yang diperlukan untuk membuka tingkat tertinggi yang dapat Anda latih (misalnya T9 di Lv. 27, T10 di Lv. 30).
 * **3 Tempat Pelatihan Pendukung (Level 10):** Jaga agar ini tetap di **Level 10**! Level 10 membuka pasukan **Tingkat 4 (T4)**. Tempat Pelatihan ke-4 dibuka di dekat bagian bawah pohon penelitian **Pengembangan** — buka sesegera mungkin.
 * Mengapa? Meningkatkan keempat tempat ke Lv. 27–30 menghabiskan banyak Kayu, Gandum, dan Herbal tanpa membuka tingkat tambahan. Game hanya memerlukan **satu** bangunan maksimal untuk melatih dan mempromosikan ke tingkat atas.
 
@@ -219,7 +219,7 @@ Lab Penelitian memiliki 13 pohon berbeda. Gerbang perkembangan awal yang paling 
 
 Batu Gear sangat terbatas. Menyebarkannya ke slot peralatan acak akan melumpuhkan performa mid-game:
 
-1. **Workshop Peleburan → Level 25:** Dorong Workshop Peleburan ke Level 25 segera setelah Sanctuary Anda mengizinkan. Ini adalah hambatan utama untuk memurnikan Batu Gear. Menundanya membuat carry Anda kurang gear tepat saat kesulitan meningkat.
+1. **Workshop Peleburan → Level 25:** Dorong Workshop Peleburan ke Level 25 segera setelah Kuil Anda mengizinkan. Ini adalah hambatan utama untuk memurnikan Batu Gear. Menundanya membuat carry Anda kurang gear tepat saat kesulitan meningkat.
 2. **Prioritas Slot DPS / Carry:**
    * **Prioritas Utama:** Senjata (Pedang) dan Sarung Tangan (meningkatkan ATK, Crit, dan Armor Pierce).
    * **Prioritas Kedua:** Sepatu (kecepatan dan kemampuan bertahan dasar).
@@ -231,11 +231,11 @@ Batu Gear sangat terbatas. Menyebarkannya ke slot peralatan acak akan melumpuhka
 
 ---
 
-## 11. Spesialis Bos Dunia: Ash dan Cecilia {#boss-specialists}
+## 11. Spesialis Bos Dunia: Ashe dan Cecilia {#boss-specialists}
 
 Meskipun pahlawan ungu (SSR) tidak digunakan dalam susunan PvP sejak awal, dua karakter memiliki utilitas Bos Dunia yang tak tergantikan:
 
-* **Ash:** Keterampilan pasifnya secara langsung memperkuat total kerusakan pasukan yang diberikan kepada **Bos Dunia**.
+* **Ashe:** Keterampilan pasifnya secara langsung memperkuat total kerusakan pasukan yang diberikan kepada **Bos Dunia**.
 * **Cecilia:** Meningkatkan drop sumber daya bonus dan hadiah pembunuhan dari Bos Dunia.
 * Menginvestasikan batu keterampilan ungu cadangan ke dua karakter ini memberikan dividen seumur hidup dalam jarahan bos.
 
@@ -247,7 +247,7 @@ Diamond adalah mata uang utama. Meskipun murah hati di awal game, pengeluaran ya
 
 | Investasi Tingkat Atas (PRO) | Jangan Pernah Belanjakan Diamond di Sini (NOOB) |
 |---|---|
-| **Wishing Wheel** pada Hari ke-8 (Cynthia) dan Hari ke-36+ (Pahlawan UR). Selalu tarik dalam batch 10x untuk jaminan. | Perekrutan Tavern standar (peluang UR suram, nol jaring pengaman). |
+| **Roda Permohonan** pada Hari ke-8 (Cynthia) dan Hari ke-36+ (Pahlawan UR). Selalu tarik dalam batch 10x untuk jaminan. | Perekrutan Kedai standar (peluang UR suram, nol jaring pengaman). |
 | **Poin VIP** selama event Diskon Diamond untuk mendorong ke VIP 8 (pembangun permanen ke-2) dan VIP 11 (kecepatan +10% permanen). | Melewati timer bangunan secara instan langsung dengan diamond mentah. |
 | **Peace Shield 8 Jam** selama KvK dan event Kill akhir pekan. | Membeli Makanan atau Kayu standar langsung dari toko item. |
 | **Toko Aliansi & Pedagang Misterius** menyegarkan untuk speedup diskon 70–80%. | Menghidupkan kembali pasukan standar di luar pertahanan benteng kritis. |
@@ -258,15 +258,15 @@ Diamond adalah mata uang utama. Meskipun murah hati di awal game, pengeluaran ya
 
 1. **Buff kecepatan snap-shot saat dimulai** — Aktifkan gelar menteri, rune, dan gear SEBELUM menekan upgrade.
 2. **Rumah sakit kosong = pasukan hidup** — Overflow rumah sakit menyebabkan kematian pasukan permanen yang tidak dapat diubah.
-3. **Ghost Rally untuk melindungi pasukan** — Sembunyikan barisan terbaik Anda dalam rally 8 jam saat menghadapi serangan yang tidak bisa dimenangkan.
+3. **Ghost Reli untuk melindungi pasukan** — Sembunyikan barisan terbaik Anda dalam rally 8 jam saat menghadapi serangan yang tidak bisa dimenangkan.
 4. **Jangan pernah membuka tas sumber daya inventaris** — Simpan tas tetap tersegel sampai saat yang tepat saat upgrade dimulai.
-5. **Falcon Tower: Menumpuk Maks − 1** — Sisakan satu slot terbuka untuk mempertahankan kemunculan latar belakang; klaim pada Sen/Rab/Jum.
-6. **Jangan ubah SSR Claire terlalu dini** — Kumpulkan token Hall of Honor untuk melewati penurunan statistik 6★ langsung ke 9★/10★.
+5. **Menara Raven: Menumpuk Maks − 1** — Sisakan satu slot terbuka untuk mempertahankan kemunculan latar belakang; klaim pada Sen/Rab/Jum.
+6. **Jangan ubah SSR Clea terlalu dini** — Kumpulkan token Aula Upacara Kemuliaan untuk melewati penurunan statistik 6★ langsung ke 9★/10★.
 7. **Pre-farm node pengumpulan pada malam Hari Pengumpulan** — Atur waktu kembali ke 00:05 UTC pada hari reset (misalnya Minggu malam ke Senin) untuk mengeklaim peti instan.
 8. **Pembagian 4-Ground (1 Maks + 3 Lv.10):** T4 pertanian paralel di 3 tempat pendukung dan promosikan di tempat utama Anda, menghemat 6–7 jam per siklus.
 9. **Hadiah Super 1 & 2 di Lab — Tidak dapat dinegosiasikan:** Tanpanya, tingkat peti Duel 4–9 tetap terkunci secara permanen.
 10. **Jangan pernah memurnikan pedang tank:** Batu gear milik Carry Sword/Gloves dan Tank Chest/Boots.
-11. **Jangan pernah menghabiskan diamond untuk tarikan Tavern mentah** — Simpan ~1.500 untuk tonggak Wishing Wheel (7 putaran gratis + 3 berbayar = salinan Cynthia) dan dorong sisanya ke perkembangan VIP.
+11. **Jangan pernah menghabiskan diamond untuk tarikan Kedai mentah** — Simpan ~1.500 untuk tonggak Roda Permohonan (7 putaran gratis + 3 berbayar = salinan Cynthia) dan dorong sisanya ke perkembangan VIP.
 12. **Mono-faksi mengalahkan pengaturan hibrida** — Lima pahlawan dari kelas yang sama yang dimaksimalkan dengan Raven Epigraphs mendominasi komposisi campuran.
 
 ---

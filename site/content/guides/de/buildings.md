@@ -38,7 +38,7 @@ Eine schnelle Referenz für die Gebäude, die du tatsächlich antippen wirst. Ü
 | Ausbildungszentrum | Schaltet neue Truppentypen frei (T2 bei Lv.3, T3 bei Lv.6, T4 bei Lv.10, T5 bei Lv.14, T6 bei Lv.17, T7 bei Lv.20, T8 bei Lv.24, T9 bei Lv.27, T10 bei Lv.30) und erhöht die Trainingskapazität. | Maximiere 1 Ausbildungszentrum für die höchste Stufe; halte 3 andere auf Lv.10 für paralleles T4-Farming und Beförderung (spart 6–7 Stunden pro Zyklus). |
 | Kaserne | Erhöht die Gesamtkapazität der stehenden Armee in deiner Stadt. | Upgrade, um eine massive Armee für KvK und Königreichskriege zu halten. |
 | Krankenstation | Heilt verwundete Soldaten nach Niederlagen. | Eine zu kleine Krankenstation = permanente Truppenverluste nach jedem verlorenen Kampf. |
-| Antitoxin-Werkstatt | Produziert Antidote / Antitoxin – die Schlüsselressource für Helden, die in Helden-Fortschrittssystemen verwendet wird. | Baue es auf Lv.10 und produziere rund um die Uhr. |
+| Antitoxin-Werkstatt | Produziert Gegengift / Antitoxin – die Schlüsselressource für Helden, die in Helden-Fortschrittssystemen verwendet wird. | Baue es auf Lv.10 und produziere rund um die Uhr. |
 | Werkstätten für Ausrüstung / Schmelzen / Weben | Stelle Heldenausrüstung aus gefarmten Materialien her und verbessere sie. | **Schmelzwerkstatt auf Lv.25 pushen** für stetige Ausrüstungsstein-Produktion; Ausrüstungs-Werkstatt wird bei Zuflucht 20 freigeschaltet. |
 | Tempel (Kriegerstatue) | Vereinheitlichtes Kultgebäude (zusammengeführt aus früheren Krieger-, Waldläufer- und Magierstatuen). Bietet prozentuale Stat-Boni für deine gewählte Fraktion. | Upgrade, um die Truppenstärke zu erhöhen und Zufluchts-Voraussetzungen zu erfüllen. |
 | Ruhmeshalle | Zeigt Helden-Ehrenstufen an und schaltet den Ehren-Shop frei (Hauptquelle für UR-Ausrüstungsbaupläne). | Wesentlich für die Ausrüstungsentwicklung im späten Spiel. Kaufe ausschließlich UR-Ausrüstungsbaupläne. |
@@ -130,7 +130,7 @@ Baugeschwindigkeits-Boni stapeln sich aus fünf Quellen und komprimieren zusamme
 | VIP-Level 11 | +45% |
 | Königsstadt – Titel des Bauministers | +50% |
 
-Nun der Teil, den fast jeder falsch macht: Diese Boni **addieren sich als Geschwindigkeitsmultiplikatoren, angewendet auf die Basiszeit** – du kannst nicht 10% + 5% + 20% + 45% + 50% summieren und den Timer um 130% von irgendetwas kürzen, weil das Spiel durch die Gesamtgeschwindigkeit teilt:
+Nonne der Teil, den fast jeder falsch macht: Diese Boni **addieren sich als Geschwindigkeitsmultiplikatoren, angewendet auf die Basiszeit** – du kannst nicht 10% + 5% + 20% + 45% + 50% summieren und den Timer um 130% von irgendetwas kürzen, weil das Spiel durch die Gesamtgeschwindigkeit teilt:
 
 $$T = \frac{T_{basis}}{100\% + \sum \text{Geschwindigkeitsboni}}$$
 

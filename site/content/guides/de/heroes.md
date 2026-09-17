@@ -103,7 +103,7 @@ Für jeden Helden geht Korpez jede Fähigkeit mit einem Ziel-Level durch. Destil
 - **Cynthia** — Auto-Angriff auf ~15, Lunar Hunt auf ~20-25, Moonfall Dance passiv hochbringen (25–30; Sterne verbessern es, um das ganze gegnerische Team zu treffen).
 - **Annie** — Candy ~20, Surprise Gift ~20–25, Candy Jar (Ult) auf 30, Charged Gummies auf 30. Ausrüstung: Schwert+Handschuhe 40+, Stiefel 2★+, Brust niedrig.
 - **Joker** — reiner Backline-Killer: seine Basiskarte trifft den Gegner mit den wenigsten HP, die Ult zielt direkt auf die Backline; stacke Krit auf das Schwert.
-- **Billy (Hexenmeister-Tank)** — Fate's Thread schützt deine Top-2 ATK-Verbündeten (25+); sein Passiv gewährt fast vollständige Immunität gegen Red Lady-Betäubung.
+- **Billy (Hexenmeister-Tank)** — Fate's Thread schützt deine Top-2 ATK-Verbündeten (25+); sein Passiv gewährt fast vollständige Immunität gegen Rote Dame-Betäubung.
 - **Nicole** — Unterstützung mit Heilung auf DPS-Niveau basierend auf ihrem ATK-Wert; Heilungen lösen bei brennenden Gegnern aus (Joker-Synergie).
 - **Bell** — **ihre Heilungen skalieren mit ATK**, nicht mit DEF: Das Ignorieren von Schwert+Handschuhen senkt ihre Heilung von ~205K auf ~66K. Ja – lege echte Schadensausrüstung auf deine "Unterstützung".
 - **Ash & Cecilia (SR)** — die einzigen lila Helden, bei denen sich Fähigkeiten lohnen: Ash = +Monster-Schadensbuff, Cecilia = Ressourcen-Sammelbuff. Alles andere SR bleibt auf Basis.
@@ -148,7 +148,7 @@ Die von der Community akzeptierte Obergrenze ist **AW 20 für die meisten Spiele
 Kürzliche Balance-Patches haben mehrere wichtige Helden angepasst:
 
 - **Daskal**: Seine Fähigkeit *Resolute Fight* wurde überarbeitet, um verbündeten Backline-DPS-Helden Schilde zu gewähren, wenn ihre HP unter 50 % fallen (zuvor gewährte sie Tanks zu Beginn des Kampfes Schilde). Dies macht ihn zum erstklassigen Lebensretter für zerbrechliche Carries wie Marlena und Zoya.
-- **Billy**: *Truth and Lies* wendet den Debuff „Erhöhter erlittener Schaden“ jetzt auf 3 zufällige gegnerische Einheiten an (zuvor: ein einzelnes Ziel). Sein *Puppet* 3★-Passiv reduziert zusätzlich den erlittenen Energieschaden um 8 %.
+- **Billy**: *Truth and Lies* wendet den Debuff „Erhöhter erlittener Schaden“ jetzt auf 3 zufällige gegnerische Einheiten an (zuvor: ein einzelnes Ziel). Sein *Puppenspieler* 3★-Passiv reduziert zusätzlich den erlittenen Energieschaden um 8 %.
 - **Nicole**: Die Wiederherstellung von *Ember Dust* wurde auf 10k + 50 % HP angepasst; die Heilungsleistung von *Heartwarming Flame* wurde verfeinert.
 - **Ulfrid**: Offiziell umbenannt von Brian im Update vom 2. Juli 2026. Er bleibt der erstklassige Tank mit reflektiertem Schaden für Mon-Hexenmeister-Aufstellungen.
 
