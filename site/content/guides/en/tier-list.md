@@ -18,7 +18,7 @@ Compiled from squad-composition guides, boss-fight breakdowns and PvP testing by
 
 ## A Tier {#a-tier}
 
-- **Cynthia** (UR · Ranger · Carry) — F2P carry via Wishing Wheel day 8 (~11.5k diamonds); strong vs monsters
+- **Cynthia** (UR · Ranger · Carry) — F2P carry via Wishing Wheel day 8 (~1.5k diamonds after 7 free daily spins + milestone); strong vs monsters
 - **Zoya** (UR · Warrior · Carry) — Paid-only; splits damage 50/50 with maxed Marlena
 - **Bell** (UR · Ranger · Support) — Buffs 2 strongest ATK allies + all rangers — boss comp core (needs 6★/ult 10)
 - **Shadow** (UR · Ranger · Tank) — Hero Pass tank; hold the line while carries kill

@@ -1,0 +1,125 @@
+---
+import { heroCodex } from '../data/heroCodex';
+
+interface Props { lang: string }
+const { lang } = Astro.props;
+const ru = lang === 'ru';
+
+const L = {
+  all: ru ? 'Все' : 'All',
+  faction: ru ? 'Фракция' : 'Faction',
+  role: ru ? 'Роль' : 'Role',
+  tier: ru ? 'Тир' : 'Tier',
+  Warrior: ru ? 'Воин' : 'Warrior',
+  Ranger: ru ? 'Рейнджер' : 'Ranger',
+  Warlock: ru ? 'Колдун' : 'Warlock',
+  Tank: ru ? 'Танк' : 'Tank',
+  Carry: ru ? 'ДД' : 'Carry',
+  Support: ru ? 'Саппорт' : 'Support',
+  tip: ru
+    ? 'Нажми фильтры, чтобы оставить только нужных героев. Карточка ведёт на страницу героя в кодексе.'
+    : 'Use the filters to narrow the roster. Cards link to each hero\'s codex page.',
+};
+
+const tierOrder: Record<string, number> = { S: 0, A: 1, B: 2, C: 3 };
+const heroes = [...heroCodex].sort((a, b) =>
+  tierOrder[a.tier] - tierOrder[b.tier] || (a.rarity === 'UR' ? 0 : 1) - (b.rarity === 'UR' ? 0 : 1) || a.name.localeCompare(b.name)
+);
+
+const tierColor: Record<string, string> = {
+  S: 'from-red-950/60 border-red-500/60',
+  A: 'from-amber-950/60 border-amber-500/60',
+  B: 'from-sky-950/60 border-sky-500/50',
+  C: 'from-stone-900/60 border-stone-600/50',
+};
+
+const pfx = lang === 'en' ? '' : `/${lang}`;
+---
+
+<section class="not-prose my-8" id="hero-grid">
+  <h2 class="text-2xl font-bold text-white mb-2">{ru ? '⚔️ Вся карта героев (фильтры)' : '⚔️ Full hero map (filterable)'}</h2>
+  <p class="text-sm text-stone-400 mb-4">{L.tip}</p>
+
+  <div class="flex flex-wrap gap-2 mb-5" id="tl-filters">
+    {(['faction','role','tier'] as const).map((group) => (
+      <div class="flex flex-wrap items-center gap-1.5 mr-2">
+        <span class="text-xs uppercase tracking-wider text-stone-500 mr-1">{L[group]}:</span>
+        {(group === 'faction' ? ['Warrior','Ranger','Warlock'] : group === 'role' ? ['Tank','Carry','Support'] : ['S','A','B','C']).map((v) => (
+          <button
+            data-group={group}
+            data-value={v}
+            class="tl-btn rounded-lg border border-stone-700 bg-stone-900 px-2.5 py-1 text-xs font-semibold text-stone-300 hover:border-toxic-400 hover:text-white transition"
+          >{(L as any)[v] ?? v}</button>
+        ))}
+      </div>
+    ))}
+    <button id="tl-reset" class="rounded-lg border border-stone-700 px-2.5 py-1 text-xs text-stone-400 hover:text-white transition">
+      ✕ {L.all}
+    </button>
+  </div>
+
+  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
+    {heroes.map((h) => (
+      <a
+        href={`${pfx}/codex/${h.slug}/`}
+        class="tl-card group relative rounded-xl border bg-stone-950/60 p-3 transition hover:scale-[1.02] hover:border-toxic-400/60"
+        data-faction={h.faction} data-role={h.className} data-tier={h.tier}
+      >
+        <div class={`absolute inset-0 rounded-xl bg-gradient-to-b ${tierColor[h.tier]} opacity-40 pointer-events-none`} />
+        <div class="relative flex items-center gap-2.5">
+          <img
+            src={`/game/heroes/${h.slug}.png`}
+            alt={h.name}
+            loading="lazy"
+            class="h-12 w-12 rounded-lg object-cover border border-stone-700 bg-stone-900"
+            onerror="this.style.display='none'"
+          />
+          <div class="min-w-0">
+            <div class="font-bold text-sm text-white truncate">{ru && h.names?.ru ? h.names.ru : h.name}</div>
+            <div class="text-[10px] text-stone-400">
+              <span class={h.rarity === 'UR' ? 'text-red-300' : h.rarity === 'SSR' ? 'text-amber-300' : 'text-sky-300'}>{h.rarity}</span>
+              {' · '}{(L as any)[h.faction]} · {(L as any)[h.className]}
+            </div>
+          </div>
+          <span class={`ml-auto text-lg font-black ${h.tier === 'S' ? 'text-red-400' : h.tier === 'A' ? 'text-amber-400' : h.tier === 'B' ? 'text-sky-400' : 'text-stone-500'}`}>{h.tier}</span>
+        </div>
+      </a>
+    ))}
+  </div>
+</section>
+
+<script is:inline>
+  (function () {
+    const state: Record<string, string | null> = { faction: null, role: null, tier: null };
+    const btns = document.querySelectorAll('.tl-btn');
+    const cards = document.querySelectorAll('.tl-card');
+    const reset = document.getElementById('tl-reset');
+
+    function apply() {
+      cards.forEach((c: any) => {
+        const ok =
+          (!state.faction || c.dataset.faction === state.faction) &&
+          (!state.role || c.dataset.role === state.role) &&
+          (!state.tier || c.dataset.tier === state.tier);
+        c.classList.toggle('hidden', !ok);
+      });
+      btns.forEach((b: any) => {
+        const active = state[b.dataset.group] === b.dataset.value;
+        b.classList.toggle('bg-toxic-400', active);
+        b.classList.toggle('text-black', active);
+        b.classList.toggle('border-toxic-400', active);
+        b.classList.toggle('text-stone-300', !active);
+        b.classList.toggle('border-stone-700', !active);
+      });
+    }
+
+    btns.forEach((b: any) => {
+      b.addEventListener('click', () => {
+        const g = b.dataset.group, v = b.dataset.value;
+        state[g] = state[g] === v ? null : v;
+        apply();
+      });
+    });
+    reset?.addEventListener('click', () => { state.faction = state.role = state.tier = null; apply(); });
+  })();
+</script>

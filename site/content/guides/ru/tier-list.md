@@ -18,7 +18,7 @@ videoTopic: tier_list
 
 ## A тир {#a-tier}
 
-- **Cynthia** (UR · Ranger · Carry) — F2P carry via Wishing Wheel day 8 (~11.5k diamonds); strong vs monsters
+- **Cynthia** (UR · Рейнджер · DD) — F2P-кэрри с Колеса желаний (день 8); реально ~1.5k алмазов после 7 бесплатных круток; сильна против мобов
 - **Zoya** (UR · Warrior · Carry) — Paid-only; splits damage 50/50 with maxed Marlena
 - **Bell** (UR · Ranger · Support) — Buffs 2 strongest ATK allies + all rangers — boss comp core (needs 6★/ult 10)
 - **Shadow** (UR · Ranger · Tank) — Hero Pass tank; hold the line while carries kill

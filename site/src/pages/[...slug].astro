@@ -32,6 +32,7 @@ import LordJobsGuide from '../components/LordJobsGuide.astro';
 import AllianceRanksGuide from '../components/AllianceRanksGuide.astro';
 import ElixirFortsGuide from '../components/ElixirFortsGuide.astro';
 import CrystalMineGuide from '../components/CrystalMineGuide.astro';
+import TierListGrid from '../components/TierListGrid.astro';
 import type { Lang } from '../i18n/utils';
 
 export async function getStaticPaths() {
@@ -101,6 +102,8 @@ const showDiscord = slug !== 'support' && slug !== 'credits';
     )}
 
     {slug === 'buildings' && <SanctuaryCalc lang={lang} />}
+
+    {slug === 'tier-list' && <TierListGrid lang={lang} />}
 
     {(slug === 'heroes' || slug === 'compare') && <PvPMatrix lang={lang} />}
 
