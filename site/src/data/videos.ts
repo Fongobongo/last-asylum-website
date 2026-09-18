@@ -414,6 +414,17 @@ export const videoTitles: Record<string, Partial<Record<Lang, string>>> = {
     "ko": "최고의 결투: 대형 서버 이벤트 승리 전략",
     "pt": "Duelo Supremo: Estratégia de vitória no servidor"
   },
+  "2mrgZlwZeNo": {
+    "en": "Fix Your Bell: 66K → 205K Healing & Hospital Optimization",
+    "ru": "Секреты исцеления: Белл от 66K до 205K и лазарет",
+    "de": "Heilung optimieren: Bell von 66K auf 205K & Lazarett",
+    "es": "Optimiza la curación: Bell de 66K a 205K y hospital",
+    "fr": "Optimiser les soins : Bell de 66K à 205K et hôpital",
+    "id": "Optimasi Penyembuhan: Bell 66K ke 205K & Rumah Sakit",
+    "ja": "回復効率の極意：ベルを6.6万から20.5万回復へ強化",
+    "ko": "치유량 극대화: 벨 6.6만에서 20.5만 치유 및 의무실",
+    "pt": "Otimize a cura: Bell de 66K para 205K e hospital"
+  },
   "DkH1xNq_JV0": {
     "en": "Rapid Construction — Secret Upgrade Speed Tips",
     "ru": "Секреты быстрого строительства и ускорения таймеров",
@@ -1359,6 +1370,11 @@ export const rawVideos: Record<string, Video[]> = {
       "lang": "en"
     },
     {
+      "id": "2mrgZlwZeNo",
+      "title": "Fix Your Bell: 66K → 205K Healing & Hospital Optimization",
+      "lang": "en"
+    },
+    {
       "id": "0k621wMXs4Y",
       "title": "Maximizing Troop Training & Action Points",
       "lang": "en"
@@ -1378,6 +1394,11 @@ export const rawVideos: Record<string, Video[]> = {
     {
       "id": "akt3OGeHXgY",
       "title": "Битва выживания: стакинг 60 000 жетонов",
+      "lang": "en"
+    },
+    {
+      "id": "2mrgZlwZeNo",
+      "title": "Секреты исцеления: Белл от 66K до 205K и лазарет",
       "lang": "en"
     },
     {
@@ -1613,6 +1634,11 @@ export const rawVideos: Record<string, Video[]> = {
       "id": "sHtY9euKC8c",
       "title": "Supreme Duel: Winner Takes All Strategy",
       "lang": "en"
+    },
+    {
+      "id": "akt3OGeHXgY",
+      "title": "Supreme Healer & Survival Battle: 60K Badges",
+      "lang": "en"
     }
   ],
   "alliance_duel_ru": [
@@ -1629,6 +1655,16 @@ export const rawVideos: Record<string, Video[]> = {
     {
       "id": "0k621wMXs4Y",
       "title": "Очки тренировки войск и награды",
+      "lang": "en"
+    },
+    {
+      "id": "sHtY9euKC8c",
+      "title": "Высшая дуэль: тактика победы в PvP",
+      "lang": "en"
+    },
+    {
+      "id": "akt3OGeHXgY",
+      "title": "Битва выживания: 60 000 бесплатных значков",
       "lang": "en"
     }
   ],

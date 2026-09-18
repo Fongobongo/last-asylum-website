@@ -31,25 +31,40 @@ Each day activates a specialized scoring category. Below is the complete day-by-
 
 ## 🎒 Survival Backpack (Pro Tips) {#pro-tips}
 
-Veterans dominate Supreme Healer by exploiting these core timing mechanics:
+Veterans dominate Supreme Healer by exploiting these core timing and optimization mechanics:
 
-### 1. Pre-Reset Gathering Timing (server midnight, 02:00 UTC)
+### 1. The 20-Minute Batch Healing Secret (Alliance Help Exploitation)
+One of the most powerful tactical mechanics in Last Asylum:
+* **The Beginner Mistake:** Putting 20,000 wounded troops into the hospital in a single batch with a 24-hour timer. Alliance members tap "Help", reducing the clock by a minor percentage, forcing you to burn expensive Healing Speedups.
+* **The Pro Method (Batch Healing):** Heal your wounded soldiers in small batches of **15 to 30 minutes** (depending on your Embassy level and alliance help capacity).
+* **The Result:** 15–20 alliance help taps instantly drop the timer **straight to 0 seconds with zero speedups and zero diamonds spent**!
+* Repeating this cycle during PvP warfare allows you to heal tens of thousands of troops for free while generating an avalanche of healing points on Day 4 and Day 7 of Supreme Healer.
+
+### 2. The 60,000 Free Skill Badges Secret (Survival Battle Stacking)
+As highlighted by Korpez Gaming in community video breakdowns:
+* The parallel event **Survival Battle** runs in **4-hour rotating cycles** featuring three alternating milestones: Raven upgrades, Hero development, and Territory/Troop training.
+* **The Micro-Research Trick:** Always keep 2–3 cheap 5-to-15 minute technologies unresearched in your Lab. If you are 200–500 points short of the final Gold Chest in a Survival Battle block, start one of these quick techs and finish it with alliance helps—milestone cleared with 0 speedups burned!
+* By aligning these 4-hour blocks with your daily Supreme Healer routine, F2P players consistently bank **up to 60,000 free Skill Badges** and golden UR shard chests every week.
+
+### 3. Pre-Reset Gathering Timing (server midnight, 02:00 UTC)
 Dispatch all your troop marches to high-level resource nodes 4–6 hours prior to the reset of **Day 1** and **Day 7**. Time their return so they arrive immediately after the server midnight (02:00 UTC), securing instant leaderboard momentum without spending stamina.
 
-### 2. Hoard Falcon Missions
-Do not claim Falcon missions as soon as they refresh. Let completed missions bank in your log and claim them exclusively on **Day 1** and **Day 3**, where each mission grants **1,000 bonus points**.
+### 4. Hoard Falcon Missions (Stacking Max - 1)
+Do not claim Falcon missions as soon as they refresh. Let completed missions bank in your log using the "Max - 1" rule (keep one slot open so the timer doesn't freeze) and claim them exclusively on **Day 1** and **Day 3**, where each mission grants **1,000 bonus points**.
 
-### 3. The "Don't Tap the Hammer" Rule
-When high-value upgrades (such as Sanctuary or Research Lab) finish ahead of schedule, **do not tap the floating hammer icon**. Leave the completed building in pending state and claim it only after Day 2 or Day 5 begins.
+### 5. The "Frozen Hammer" Rule
+When high-value upgrades (such as Sanctuary, Lab, or Radar) finish ahead of schedule, **do not tap the floating hammer icon**. Leave the completed building in pending state and claim it only after Day 2 or Day 5 begins to score maximum Might points with zero speedup consumption.
 
-### 4. Stockpile 150–250 Recruit Tickets
-Never burn recruitment tickets on whim. Save **150 to 250 tickets** for Day 4 to effortlessly unlock the top tier milestone chests.
+### 6. Stockpile 150–250 Recruit Tickets & Antitoxin
+* Never burn recruitment tickets on whim. Save **150 to 250 tickets** for Day 4 to effortlessly unlock the top tier milestone chests.
+* Store Antitoxin in your Antitoxin Workshop all week and cure infected survivors in bulk on Thursday (1 point per 660 units consumed).
 
-### 5. Antitoxin & Skill Badge Reserves
-Begin stockpiling Antitoxin from your Antitoxin Workshop and save all Skill Badges starting **2–3 days before** the event begins. On Day 4, they convert into massive free points.
+### 7. The Promotion Trick for Day 5 (Troop Training)
+Do not train high-tier units from scratch on Day 5. Train mass low-tier **T1 soldiers** during off-days, then use the **Promotion** action on Day 5 to promote T1 to T8/T9. It requires 60% less time and yields significantly higher points per minute of training speedup!
 
-### 6. Focus on Economy Tech Tree
-On Day 3, focus research on the Economy tree. Economy nodes cost fewer combat materials while granting identical speedup points per minute.
+### 8. Day 7: Final Chaos (Total Showdown)
+On the final day, every action and all speedup categories award points:
+* **F2P Ranking Strategy:** If pushing for the top 10 server leaderboard, save your **Universal Speedups** specifically for Day 7, where each minute spent advances your position across multiple overlapping leaderboards simultaneously.
 
 ---
 
@@ -58,5 +73,6 @@ On Day 3, focus research on the Economy tree. Economy nodes cost fewer combat ma
 The number one rule of competitive scoring is **Double Dipping**.
 
 Always coordinate your speedups with the **Daily Survival Battle**:
-* For example, on Day 2, only burn your construction speedups during the specific hourly window when Daily Survival also rewards construction.
-* This awards you double milestone rewards from two separate events for the exact same resource investment!
+* For example, on **Day 2**, only burn construction speedups during the 4-hour window when Survival Battle also rewards building upgrades.
+* On **Day 4**, open hero recruitment tickets during the Hero Growth block.
+* This allows you to claim top milestone chests in **two independent major events for the cost of one**!

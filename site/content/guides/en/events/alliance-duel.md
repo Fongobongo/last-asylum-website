@@ -30,16 +30,39 @@ There is also a compressed format: **Survival Battle**, a 4-hour version of the 
 
 ## The Week at a Glance {#weekly-structure}
 
-| Day | Phase | Focus |
-|---|---|---|
-| Monday | Phase 1 | Daily point category — check the event screen for the exact scoring actions |
-| Tuesday | Phase 2 | Daily point category — same, the categories rotate per day |
-| Wednesday | Phase 3 | Research and scroll day |
-| Thursday | Phase 4 | Heroes and recruitment |
-| Friday | Phase 5 | Troop training |
-| Saturday | Phase 6 | PvP finale against the rival alliance |
+| Day | Phase | Focus | Core Strategy |
+|---|---|---|---|
+| Monday | Phase 1 | Gathering, Falcon Quests, Raven Gear | Pre-gathering 4–6 hrs before daily reset |
+| Tuesday | Phase 2 | Construction & Base Might Growth | "Frozen Hammer" trick (wait for reset before clicking) |
+| Wednesday | Phase 3 | Research & Study Scrolls | Spend Study Scrolls exclusively today; open Raven chests |
+| Thursday | Phase 4 | Heroes, Recruitment & Skill Badges | Hoard 150–250 recruit tickets & all UR shards (+20,000 pts) |
+| Friday | Phase 5 | Troop Training & Barracks Speedups | Promotion trick (T1 → T8/T9) instead of raw training |
+| Saturday | Phase 6 | PvP Showdown vs Rival Alliance | Ghost Rally defense, Power Hour coordination & Infirmary safety |
 
-Phases 1 and 2 change their categories from cycle to cycle, so read the in-game event screen each week. Phases 3, 4 and 5 are the big planning days — the ones where hoarding pays — and they are covered in detail below.
+Phases 1 and 2 may feature minor category rotations depending on server age, but Phases 3, 4, and 5 are the pillars of the duel economy. Below is a comprehensive breakdown incorporating top tactics from community creators (Korpez Gaming, KrrisGaming, Pro Noobs).
+
+## Phase 1: Gathering, Raven Gear & Falcon Quests {#phase-1}
+
+Monday sets the benchmark for the entire duel. Points are awarded for resource gathering on the world map, completing Falcon Quests, and upgrading Raven gear.
+
+### The Pre-Gathering Trick
+Top-tier alliances never dispatch gathering marches after Monday begins:
+* **4 to 6 hours before server reset** (Sunday night, 02:00 UTC), send out full gathering marches to high-yield resource tiles (Gold, Food, Lumber, Herbs).
+* Time your marches so they finish harvesting and enter your base **5–10 minutes after the daily reset**.
+* As soon as Phase 1 begins, your returning harvesters dump millions of free duel points into your alliance score with **zero stamina (AP) spent**.
+
+### Falcon Quests Stacking
+Monday grants double points for turning in Falcon Quests. Complete missions throughout the weekend but delay claiming them until Monday begins.
+
+## Phase 2: Construction & The "Frozen Hammer" Rule {#phase-2}
+
+Tuesday focuses on building upgrades and base might expansion. Points are awarded per minute of construction speedup and for raw building might gained.
+
+### The "Frozen Hammer" Trick
+The biggest beginner mistake is tapping the floating hammer icon as soon as an upgrade finishes:
+1. Start long upgrades (Sanctuary, Research Lab, Radar, Wall) days in advance.
+2. When the construction timer expires, **DO NOT click the floating hammer icon** above the building!
+3. The building remains in a finished state. When Phase 2 begins at midnight, tap the hammer: the game credits the might gain instantly, awarding millions of points without burning any speedups.
 
 ## Phase 3: Research and Scroll Day {#phase-3}
 
@@ -64,35 +87,58 @@ Phase 4 is the highest-value day for hero assets. The exact point values:
 | 1 UR shard | +20,000 |
 | SSR shard | +7,000 |
 | SR shard | +2,000 |
-| Recruitment | +3,450 |
+| Recruitment ticket | +3,450 |
 | Skill badge | +20 |
 
-One UR shard alone is worth nearly six SSRs. That math drives the whole week: **save your recruitment tickets, hero shards and skill badges for Phase 4.** Spending shards the day you get them is throwing away the single biggest point multiplier the duel offers.
+One UR shard alone is worth nearly six SSRs. That math drives the whole week: **save 150–250 recruitment tickets, all universal UR hero shards, and skill badges exclusively for Phase 4.** Spending shards the day you get them throws away the single biggest point multiplier in the game.
 
-## Phase 5: Troop Training {#phase-5}
+## Phase 5: Troop Training & The Promotion Strategy {#phase-5}
 
-Phase 5 converts your barracks output into points:
+Phase 5 converts your barracks output into massive duel points:
 
 | Source | Points |
 |---|---|
 | Trained soldier, Tier 1 | +46 |
+| Trained soldier, Tier 7 | +138 |
+| Trained soldier, Tier 8 | +172 |
+| Trained soldier, Tier 9 | +210 |
 | Trained soldier, Tier 10 | +253 |
-| Training Boost | +115 per minute |
+| Training Speedup | +115 per minute |
 
-Tier values scale between the two endpoints — higher tiers pay several times what T1s do, so train the highest tier your barracks support.
+### The Secret Promotion Trick (T1 → T8/T9)
+Training high-tier soldiers from scratch consumes huge amounts of barracks time. Pro players recommend the **Promotion Method**:
+* During off-days and downtime, train tens of thousands of **Tier 1 soldiers** (Infantry, Rangers, Casters). They train in seconds and cost virtually nothing.
+* On Friday (Phase 5), initiate **Promotion** to upgrade those T1 soldiers directly to Tier 8 or Tier 9.
+* **The Math:** You gain the exact difference in points (e.g., +164 points per soldier for T1→T9), but promotion requires **60% less time** than training a new T9 from scratch!
+* In points per speedup minute, promotion yields **50–60% more Duel Points** than raw training.
 
-The takeaway: **save your training speedups for Phase 5 (Friday).** On this day, soldier training converts directly into duel points and milestone chests for your alliance. Note: **training points are awarded at the moment you queue soldiers**, not when collecting finished troops!
+> [!IMPORTANT] Queue Timing Rule
+> **Training points are awarded at the moment you queue soldiers into the barracks**, not when collecting finished troops! Only queue your massive troop batches after Phase 5 officially begins.
 
-## Phase 6: Saturday PvP Showdown & Raid Buffs {#phase-6}
+## Phase 6: Saturday PvP Showdown, Ghost Rallies & Hospital Safety {#phase-6}
 
-Saturday is the climax of the duel week: two matched alliances clash head-to-head in a cross-server raid showdown.
+Saturday is the climax of the duel week: two matched alliances clash head-to-head in cross-server warfare.
 
-- **PvP Points:** Points are awarded for defeating enemy soldiers and successfully breaching enemy cities.
-- **New Raid Buffs (August 20, 2026 update):** During the Saturday Raid Phase, powerful Raid Buffs are active:
-  - Increased Infirmary Capacity to prevent fatal troop overflow;
-  - Increased Healing Speed for wounded soldiers;
-  - Reduced Healing Cost (resource discount).
-- **Alliance League Phase:** For servers older than 7 weeks, the top 16 alliances in each Kingdom compete in the competitive League Phase featuring dedicated banners and bracket rewards.
+### 1. Infirmary Capacity & Anti-Zeroing
+* If your Infirmary fills to 100%, **all subsequent wounded troops die permanently (Dead Troops)**.
+* Take advantage of active Saturday raid buffs: boosted infirmary capacity, increased healing speed, and discounted healing costs.
+* Continuously empty your hospital using batch healing (heal in 15–30 min batches so alliance members tap help to instantly clear the queue).
+
+### 2. The Ghost Rally Tactic (Save Troops from Being Zeroed)
+If a massive enemy rally is marching on your base and you have no peace shield:
+* **Do NOT leave your defense army on the wall** — an overwhelming rally will wipe your garrison and fill your hospital to overflow.
+* Initiate an **8-hour rally** on a distant abandoned base or zombie lair.
+* Assign your main combat troops to the rally. While the rally is forming, your troops are outside the city gates and **completely immune to attacks**! The enemy breaches only your wall and loots minor resources, while your high-tier army remains 100% safe.
+
+### 3. Power Hour Coordination
+Coordinated alliances schedule a "Power Hour" during the first 2 hours of Phase 6:
+* The Alliance Leader activates combat buffs (Attack, Defense, March Speed).
+* Members assemble in Discord/Telegram voice or chat, coordinating concentrated swarms against high-value targets.
+
+### 4. Mutual T1 Point Farming
+If the outcome of the match is already settled or both alliances simply want to guarantee individual Chest 9 milestones, leaders negotiate a mutual point farm on neutral resource tiles:
+* Both sides send full marches of **Tier 1 troops** against each other.
+* Both players earn hundreds of thousands of kill points for minimal healing cost and zero risk of losing high-tier units.
 
 ## Sunday: The Pre-Planning Day {#sunday-planning}
 
