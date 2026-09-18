@@ -1,0 +1,114 @@
+---
+import type { Lang } from '../i18n/utils';
+
+interface Props {
+  lang?: Lang;
+}
+
+const { lang = 'en' } = Astro.props;
+const isRu = lang === 'ru';
+
+const dict = {
+  title: isRu ? 'Установить приложение LA: Plague Hub' : 'Install LA: Plague Hub App',
+  desc: isRu ? 'Быстрый доступ к гайдам, калькуляторам и таймкодам даже офлайн.' : 'Quick offline access to guides, calculators, and tools.',
+  btnInstall: isRu ? 'Установить' : 'Install',
+  iosHint: isRu 
+    ? 'Для установки на iPhone: нажмите «Поделиться» (иконка квадрата со стрелкой) внизу Safari и выберите «На экран «Домой»» 📲' 
+    : 'To install on iPhone: tap Share in Safari and choose "Add to Home Screen" 📲',
+  gotIt: isRu ? 'Понятно' : 'Got it',
+};
+---
+
+<div id="pwa-install-banner" class="hidden fixed bottom-5 left-4 right-4 sm:left-auto sm:right-5 sm:max-w-sm z-50 overflow-hidden rounded-2xl border border-toxic-500/40 bg-stone-950/95 p-4 shadow-[0_10px_30px_rgba(0,0,0,0.8),0_0_20px_rgba(180,255,57,0.15)] backdrop-blur-xl transition-all duration-300">
+  <div class="flex items-start gap-3">
+    <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-toxic-500 to-plague-700 text-lg shadow-inner">
+      ☣️
+    </div>
+    <div class="flex-1">
+      <div class="flex items-center justify-between">
+        <h4 class="text-xs font-bold uppercase tracking-wider text-toxic-300">{dict.title}</h4>
+        <button type="button" id="pwa-close-btn" class="text-stone-400 hover:text-white text-xs font-bold p-1">✕</button>
+      </div>
+      <p class="mt-1 text-xs text-stone-300 leading-relaxed" id="pwa-banner-desc">{dict.desc}</p>
+      
+      <div class="mt-3 flex items-center gap-2" id="pwa-actions">
+        <button type="button" id="pwa-install-btn" class="rounded-lg bg-toxic-400 hover:bg-toxic-300 px-3 py-1.5 text-xs font-bold text-black transition shadow-md">
+          {dict.btnInstall}
+        </button>
+        <button type="button" id="pwa-dismiss-btn" class="rounded-lg border border-white/10 hover:bg-white/5 px-2.5 py-1.5 text-xs text-stone-400 hover:text-stone-200 transition">
+          {dict.gotIt}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script define:vars={{ dict }}>
+  function initPwaBanner() {
+    const banner = document.getElementById('pwa-install-banner');
+    const installBtn = document.getElementById('pwa-install-btn');
+    const dismissBtn = document.getElementById('pwa-dismiss-btn');
+    const closeBtn = document.getElementById('pwa-close-btn');
+    const bannerDesc = document.getElementById('pwa-banner-desc');
+
+    if (!banner) return;
+
+    // Check if dismissed recently (within 7 days)
+    const dismissedAt = localStorage.getItem('la_pwa_dismissed');
+    if (dismissedAt && Date.now() - parseInt(dismissedAt) < 7 * 24 * 60 * 60 * 1000) {
+      return;
+    }
+
+    // Check if running in standalone PWA mode already
+    const isStandalone = window.matchMedia('(display-mode: standalone)').matches || (window.navigator as any).standalone === true;
+    if (isStandalone) return;
+
+    let deferredPrompt: any = null;
+
+    // Android / Chrome beforeinstallprompt event
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+      banner.classList.remove('hidden');
+    });
+
+    // iOS Safari detection
+    const isIos = /iPad|iPhone|iPod/.test(navigator.userAgent) && !(window as any).MSStream;
+    if (isIos && !isStandalone) {
+      // Delay showing on iOS so it doesn't interrupt first impression
+      setTimeout(() => {
+        if (!localStorage.getItem('la_pwa_dismissed')) {
+          if (bannerDesc) bannerDesc.textContent = dict.iosHint;
+          if (installBtn) installBtn.classList.add('hidden');
+          banner.classList.remove('hidden');
+        }
+      }, 4000);
+    }
+
+    function dismiss() {
+      banner?.classList.add('hidden');
+      localStorage.setItem('la_pwa_dismissed', Date.now().toString());
+    }
+
+    installBtn?.addEventListener('click', async () => {
+      if (deferredPrompt) {
+        deferredPrompt.prompt();
+        const { outcome } = await deferredPrompt.userChoice;
+        if (outcome === 'accepted') {
+          dismiss();
+        }
+        deferredPrompt = null;
+      }
+    });
+
+    dismissBtn?.addEventListener('click', dismiss);
+    closeBtn?.addEventListener('click', dismiss);
+  }
+
+  document.addEventListener('astro:page-load', initPwaBanner);
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initPwaBanner);
+  } else {
+    initPwaBanner();
+  }
+</script>

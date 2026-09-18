@@ -1,0 +1,25 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ja';
+---
+
+<Base lang={lang} path="/ja/events/pandemic-experience/" title="パンデミック体験: 感染ポイントと解毒剤管理" description="パンデミック体験イベントで報酬を最大化する方法: 任務宝箱、解毒剤の調合、感染治療。">
+  <GuidePage
+    title="パンデミック体験: 感染ポイントと解毒剤管理"
+    description="パンデミック体験イベントで報酬を最大化する方法: 任務宝箱、解毒剤の調合、感染治療。"
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/ja/' }, { label: t(lang, 'nav.events'), href: '/ja/events/' }, { label: 'パンデミック体験' }]}
+  >
+    <p><strong>パンデミック体験</strong>は感染爆発を制御し、解毒剤を調合して生存者を治療することで大量の報酬を得るイベントです。</p>
+
+    <VideoSection topic="pandemic" lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

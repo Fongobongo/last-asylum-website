@@ -33,6 +33,9 @@ import AllianceRanksGuide from '../components/AllianceRanksGuide.astro';
 import ElixirFortsGuide from '../components/ElixirFortsGuide.astro';
 import CrystalMineGuide from '../components/CrystalMineGuide.astro';
 import TierListGrid from '../components/TierListGrid.astro';
+import TroopCalc from '../components/TroopCalc.astro';
+import GearCalc from '../components/GearCalc.astro';
+import HeroCompare from '../components/HeroCompare.astro';
 import type { Lang } from '../i18n/utils';
 
 export async function getStaticPaths() {
@@ -91,7 +94,12 @@ const showDiscord = slug !== 'support' && slug !== 'credits';
 
     {data.videoTopic && <VideoSection topic={data.videoTopic} lang={lang} />}
 
-    {slug === 'events/alliance-duel' && <AllianceDuelCalc lang={lang} />}
+    {slug === 'events/alliance-duel' && (
+      <>
+        <AllianceDuelCalc lang={lang} />
+        <TroopCalc lang={lang} />
+      </>
+    )}
 
     {slug === 'calendar' && (
       <>
@@ -103,9 +111,13 @@ const showDiscord = slug !== 'support' && slug !== 'credits';
 
     {slug === 'buildings' && <SanctuaryCalc lang={lang} />}
 
+    {slug === 'gear' && <GearCalc lang={lang} />}
+
     {slug === 'tier-list' && <TierListGrid lang={lang} />}
 
     {(slug === 'heroes' || slug === 'compare') && <PvPMatrix lang={lang} />}
+
+    {slug === 'compare' && <HeroCompare lang={lang} />}
 
     {slug === 'heroes' && <SquadQuiz lang={lang} />}
 

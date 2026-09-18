@@ -1,0 +1,25 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import InfographicGallery from '../../components/InfographicGallery.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ru';
+---
+
+<Base lang={lang} path="/infographics/" title="Атлас инфографик и схем" description="Все постеры, визуальные схемы и шпаргалки по Last Asylum: Plague в высоком разрешении.">
+  <GuidePage
+    title="📊 Атлас инфографик и шпаргалок"
+    description="Все ключевые визуальные схемы сообщества, таблицы расчетов и постеры тактик — с возможностью увеличения и скачивания."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/ru/' }, { label: 'Инфографики' }]}
+  >
+    <p>Здесь собраны все инфографики и схемы для Last Asylum: Plague. Нажмите на любой постер для открытия в полноэкранном режиме с детализацией.</p>
+
+    <InfographicGallery lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

@@ -1,0 +1,25 @@
+---
+import Base from '../layouts/Base.astro';
+import GuidePage from '../components/GuidePage.astro';
+import InfographicGallery from '../components/InfographicGallery.astro';
+import DiscordBanner from '../components/DiscordBanner.astro';
+import { t } from '../i18n/ui';
+import type { Lang } from '../i18n/utils';
+
+const lang: Lang = 'en';
+---
+
+<Base lang={lang} path="/infographics/" title="Infographics & Visual Cheat Sheets" description="All community infographics, tactical posters, and visual cheat sheets for Last Asylum: Plague.">
+  <GuidePage
+    title="📊 Infographics & Tactical Posters"
+    description="High-resolution visual cheat sheets, battle diagrams, and upgrade math compiled from top community strategists."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/' }, { label: 'Infographics' }]}
+  >
+    <p>Browse, filter, and enlarge every tactical diagram for Last Asylum: Plague. Click any image to open the full-resolution view with zoom and download options.</p>
+
+    <InfographicGallery lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

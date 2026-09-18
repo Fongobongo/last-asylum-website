@@ -1,0 +1,25 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+
+<Base lang={lang} path="/id/events/pandemic-experience/" title="Pengalaman Pandemi: Poin Infeksi & Manajemen Antidot" description="Maksimalkan hadiah event pandemi: peti misi, produksi penawar racun, dan pengobatan pasukan.">
+  <GuidePage
+    title="Pengalaman Pandemi: Poin Infeksi & Manajemen Antidot"
+    description="Maksimalkan hadiah event pandemi: peti misi, produksi penawar racun, dan pengobatan pasukan."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/id/' }, { label: t(lang, 'nav.events'), href: '/id/events/' }, { label: 'Pengalaman Pandemi' }]}
+  >
+    <p>Event <strong>Pengalaman Pandemi</strong> memberi hadiah untuk pengendalian wabah dan pengobatan survivor di klinik pengungsian.</p>
+
+    <VideoSection topic="pandemic" lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

@@ -1,0 +1,35 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'fr';
+---
+
+<Base lang={lang} path="/fr/events/dwarven-mine/" title="Mine des Nains : Réserve de pioches et 100 étages pour le plan MR" description="Comment fonctionne l’événement de la Mine des Nains : règle des 750 pioches F2P, paliers de jackpot et choix des Herbes en endgame.">
+  <GuidePage
+    title="Mine des Nains : Réserve de pioches et 100 étages pour le plan MR"
+    description="Comment fonctionne l’événement de la Mine des Nains : règle des 750 pioches F2P, paliers de jackpot et choix des Herbes en endgame."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/fr/' }, { label: t(lang, 'nav.events'), href: '/fr/events/' }, { label: 'Mine des Nains ' }]}
+  >
+    <p>La <strong>Mine des Nains</strong> est un événement récurrent de 7 jours : vous dépensez des <strong>Pioches</strong> pour creuser, trouver le jackpot et gravir les étages. Atteindre l’<strong>étage 100</strong> offre la récompense suprême : un <strong>plan d’équipement MR</strong>.</p>
+
+<h2 id="mechanics">Mécaniques</h2>
+<ul>
+  <li><strong>Durée : 7 jours</strong>, événement cyclique.</li>
+  <li>Creusez la grille ; la tuile <strong>jackpot</strong> vous propulse à l’étage supérieur.</li>
+  <li><strong>Récompense ultime à l'étage 100 : plan d'équipement MR (rouge).</strong></li>
+</ul>
+
+<h2 id="hoarding">La règle des 750 pioches F2P</h2>
+<blockquote>Conseil F2P : économisez au moins <strong>750 pioches</strong> sur plusieurs cycles avant de tenter l'étage 100.</blockquote>
+
+    <VideoSection topic="dwarven" lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

@@ -1,0 +1,25 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'id';
+---
+
+<Base lang={lang} path="/id/events/dwarven-mine/" title="Tambang Kurcaci: Menimbun Beliung & 100 Lantai Cetak Biru MR" description="Panduan Tambang Kurcaci: Aturan 750 beliung F2P, jackpot tiap lantai, dan memilih Tanaman Obat dibanding Batu Perlengkapan.">
+  <GuidePage
+    title="Tambang Kurcaci: Menimbun Beliung & 100 Lantai Cetak Biru MR"
+    description="Panduan Tambang Kurcaci: Aturan 750 beliung F2P, jackpot tiap lantai, dan memilih Tanaman Obat dibanding Batu Perlengkapan."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/id/' }, { label: t(lang, 'nav.events'), href: '/id/events/' }, { label: 'Tambang Kurcaci' }]}
+  >
+    <p><strong>Tambang Kurcaci</strong> adalah event 7 hari di mana Anda menggali ubin dengan <strong>Beliung</strong>. Pemain yang menyelesaikan <strong>100 lantai</strong> memenangkan <strong>cetak biru perlengkapan MR</strong>.</p>
+
+    <VideoSection topic="dwarven" lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

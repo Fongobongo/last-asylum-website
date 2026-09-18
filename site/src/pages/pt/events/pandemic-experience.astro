@@ -1,0 +1,25 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'pt';
+---
+
+<Base lang={lang} path="/pt/events/pandemic-experience/" title="Experiência Pandêmica: Pontos de infecção e antídotos" description="Maximize recompensas no evento pandêmico: marcos de baús, produção de antídoto e cura de tropas.">
+  <GuidePage
+    title="Experiência Pandêmica: Pontos de infecção e antídotos"
+    description="Maximize recompensas no evento pandêmico: marcos de baús, produção de antídoto e cura de tropas."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/pt/' }, { label: t(lang, 'nav.events'), href: '/pt/events/' }, { label: 'Experiência Pandêmica' }]}
+  >
+    <p>O evento <strong>Experiência Pandêmica</strong> recompensa a gestão de surtos e produção de antídotos para curar sobreviventes.</p>
+
+    <VideoSection topic="pandemic" lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

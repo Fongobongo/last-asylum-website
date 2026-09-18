@@ -1,0 +1,28 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ja';
+---
+
+<Base lang={lang} path="/ja/events/dwarven-mine/" title="ドワーフの鉱山: ツルハシ貯蓄と100階MR設計図攻略" description="ドワーフの鉱山イベント完全攻略: 無課金750ツルハシ貯蓄ルール、ジャックポットによる階層突破、終盤の薬草優先戦略。">
+  <GuidePage
+    title="ドワーフの鉱山: ツルハシ貯蓄と100階MR設計図攻略"
+    description="ドワーフの鉱山イベント完全攻略: 無課金750ツルハシ貯蓄ルール、ジャックポットによる階層突破、終盤の薬草優先戦略。"
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/ja/' }, { label: t(lang, 'nav.events'), href: '/ja/events/' }, { label: 'ドワーフの鉱山' }]}
+  >
+    <p><strong>ドワーフの鉱山</strong>は7日間の採掘イベントです。<strong>ツルハシ</strong>を消費してマスを掘り、<strong>100階</strong>をクリアすると最高報酬である<strong>MR装備設計図</strong>を獲得できます。</p>
+
+<h2 id="hoarding">無課金の750ツルハシ貯蓄ルール</h2>
+<blockquote>無課金の鉄則: イベントごとにツルハシを中途半端に使わず、<strong>750本以上貯蓄</strong>してから一気に100階を目指しましょう。</blockquote>
+
+    <VideoSection topic="dwarven" lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

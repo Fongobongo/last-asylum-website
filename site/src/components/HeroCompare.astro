@@ -1,0 +1,243 @@
+---
+import { heroCodex } from '../data/heroCodex';
+import type { Lang } from '../i18n/utils';
+
+interface Props {
+  lang?: Lang;
+}
+
+const { lang = 'en' } = Astro.props;
+const isRu = lang === 'ru';
+
+const dict = {
+  title: isRu ? 'Сравнение героев (Лицом к лицу)' : 'Hero Comparison (Face-to-Face)',
+  subtitle: isRu ? 'Выберите двух героев для детального сравнения навыков, оружия, фракционных преимуществ и синергии в отряде:' : 'Select two heroes to compare skills, weapons, faction counters, and squad synergies:',
+  hero1: isRu ? 'Первый герой:' : 'First Hero:',
+  hero2: isRu ? 'Второй герой:' : 'Second Hero:',
+  faction: isRu ? 'Фракция:' : 'Faction:',
+  classRole: isRu ? 'Класс и роль:' : 'Class & Role:',
+  rarityTier: isRu ? 'Редкость и тир:' : 'Rarity & Tier:',
+  exclusiveWeapon: isRu ? 'Эксклюзивное оружие:' : 'Exclusive Weapon:',
+  howToGet: isRu ? 'Способ получения:' : 'How to Obtain:',
+  skills: isRu ? 'Ключевые навыки:' : 'Key Skills:',
+  tips: isRu ? 'Советы по прокачке:' : 'Build & Gear Tips:',
+  team: isRu ? 'Командные синергии:' : 'Team Synergies:',
+  counterAdvantage: isRu ? 'Преимущество фракции (+20% урона):' : 'Faction Advantage (+20% damage):',
+  presetsTitle: isRu ? 'Популярные дуэли героев:' : 'Popular Hero Matchups:',
+  verdictTitle: isRu ? 'Сравнительный вердикт:' : 'Comparison Verdict:',
+};
+---
+
+<div class="hero-compare not-prose my-10 rounded-2xl border border-toxic-500/30 bg-stone-900/80 p-5 sm:p-6 shadow-2xl backdrop-blur-xl" id="hero-comparison-tool">
+  <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-white/[0.08] pb-4 mb-6">
+    <div>
+      <div class="flex items-center gap-2">
+        <span class="text-2xl">⚔️</span>
+        <h3 class="text-xl font-bold text-white tracking-tight">{dict.title}</h3>
+      </div>
+      <p class="mt-1 text-xs sm:text-sm text-stone-400">{dict.subtitle}</p>
+    </div>
+    <span class="self-start rounded-full bg-toxic-500/20 px-3 py-1 font-mono text-xs font-bold text-toxic-300 border border-toxic-400/30">
+      VERSUS TOOL
+    </span>
+  </div>
+
+  <!-- Matchup Presets -->
+  <div class="mb-6">
+    <span class="text-xs font-semibold uppercase tracking-wider text-stone-400 mr-2">{dict.presetsTitle}</span>
+    <div class="inline-flex flex-wrap gap-1.5 mt-2">
+      <button type="button" data-h1="annie" data-h2="joker" class="hc-preset-btn rounded-lg border border-white/10 bg-black/40 px-2.5 py-1 text-xs text-stone-300 hover:border-toxic-400 hover:text-toxic-300 transition">
+        Annie vs Joker
+      </button>
+      <button type="button" data-h1="marlena" data-h2="zoya" class="hc-preset-btn rounded-lg border border-white/10 bg-black/40 px-2.5 py-1 text-xs text-stone-300 hover:border-toxic-400 hover:text-toxic-300 transition">
+        Marlena vs Zoya
+      </button>
+      <button type="button" data-h1="arthur" data-h2="lucius" class="hc-preset-btn rounded-lg border border-white/10 bg-black/40 px-2.5 py-1 text-xs text-stone-300 hover:border-toxic-400 hover:text-toxic-300 transition">
+        Arthur vs Lucius
+      </button>
+      <button type="button" data-h1="cynthia" data-h2="bell" class="hc-preset-btn rounded-lg border border-white/10 bg-black/40 px-2.5 py-1 text-xs text-stone-300 hover:border-toxic-400 hover:text-toxic-300 transition">
+        Cynthia vs Bell
+      </button>
+    </div>
+  </div>
+
+  <!-- Hero Selectors -->
+  <div class="grid gap-4 sm:grid-cols-2 mb-6">
+    <div>
+      <label class="block text-xs font-semibold uppercase tracking-wider text-toxic-400 mb-1.5">{dict.hero1}</label>
+      <select id="hc-select-1" class="w-full rounded-xl border border-white/10 bg-black/50 px-3 py-2.5 text-sm text-white font-medium outline-none focus:border-toxic-400">
+        {heroCodex.map((h) => (
+          <option value={h.slug} selected={h.slug === 'marlena'}>
+            {h.names?.[lang] || h.name} ({h.faction} • {h.rarity} • {h.tier} Tier)
+          </option>
+        ))}
+      </select>
+    </div>
+    <div>
+      <label class="block text-xs font-semibold uppercase tracking-wider text-amber-400 mb-1.5">{dict.hero2}</label>
+      <select id="hc-select-2" class="w-full rounded-xl border border-white/10 bg-black/50 px-3 py-2.5 text-sm text-white font-medium outline-none focus:border-amber-400">
+        {heroCodex.map((h) => (
+          <option value={h.slug} selected={h.slug === 'zoya'}>
+            {h.names?.[lang] || h.name} ({h.faction} • {h.rarity} • {h.tier} Tier)
+          </option>
+        ))}
+      </select>
+    </div>
+  </div>
+
+  <!-- Faction Advantage Banner -->
+  <div id="hc-faction-advantage" class="mb-6 hidden rounded-xl border p-3 text-xs font-medium text-center"></div>
+
+  <!-- Comparison Cards Grid -->
+  <div class="grid gap-6 md:grid-cols-2">
+    <!-- Hero 1 Card -->
+    <div id="hc-card-1" class="rounded-2xl border border-white/[0.08] bg-black/40 p-5 space-y-4 shadow-xl"></div>
+
+    <!-- Hero 2 Card -->
+    <div id="hc-card-2" class="rounded-2xl border border-white/[0.08] bg-black/40 p-5 space-y-4 shadow-xl"></div>
+  </div>
+</div>
+
+<script define:vars={{ heroCodex, lang, isRu, dict }}>
+  function initHeroCompare() {
+    const root = document.getElementById('hero-comparison-tool');
+    if (!root) return;
+
+    const select1 = document.getElementById('hc-select-1');
+    const select2 = document.getElementById('hc-select-2');
+    const card1 = document.getElementById('hc-card-1');
+    const card2 = document.getElementById('hc-card-2');
+    const advBanner = document.getElementById('hc-faction-advantage');
+    const presets = root.querySelectorAll('.hc-preset-btn');
+
+    const heroesMap = new Map();
+    heroCodex.forEach((h) => heroesMap.set(h.slug, h));
+
+    // Faction counters: Warrior > Warlock > Ranger > Warrior
+    function checkAdvantage(f1, f2) {
+      if (f1 === f2) return null;
+      if (f1 === 'Warrior' && f2 === 'Warlock') return { winner: 1, text: `${isRu ? 'Воины контрят Чернокнижников (+20% урона)' : 'Warriors counter Warlocks (+20% damage)'}` };
+      if (f1 === 'Warlock' && f2 === 'Ranger') return { winner: 1, text: `${isRu ? 'Чернокнижники контрят Стрелков (+20% урона)' : 'Warlocks counter Rangers (+20% damage)'}` };
+      if (f1 === 'Ranger' && f2 === 'Warrior') return { winner: 1, text: `${isRu ? 'Стрелки контрят Воинов (+20% урона)' : 'Rangers counter Warriors (+20% damage)'}` };
+      
+      if (f2 === 'Warrior' && f1 === 'Warlock') return { winner: 2, text: `${isRu ? 'Воины контрят Чернокнижников (+20% урона)' : 'Warriors counter Warlocks (+20% damage)'}` };
+      if (f2 === 'Warlock' && f1 === 'Ranger') return { winner: 2, text: `${isRu ? 'Чернокнижники контрят Стрелков (+20% урона)' : 'Warlocks counter Rangers (+20% damage)'}` };
+      if (f2 === 'Ranger' && f1 === 'Warrior') return { winner: 2, text: `${isRu ? 'Стрелки контрят Воинов (+20% урона)' : 'Rangers counter Warriors (+20% damage)'}` };
+      return null;
+    }
+
+    function renderCard(container, hero, accentColor) {
+      if (!container || !hero) return;
+
+      const heroName = hero.names?.[lang] || hero.name;
+      const weaponName = hero.exclusiveWeapon?.[lang] || hero.exclusiveWeapon?.['en'] || '—';
+      const tierBadgeColor = hero.tier === 'S' ? 'border-red-500/40 bg-red-950/30 text-red-300' : 'border-amber-500/40 bg-amber-950/30 text-amber-300';
+      const baseLink = lang === 'en' ? `/codex/${hero.slug}/` : `/${lang}/codex/${hero.slug}/`;
+
+      const skillsHtml = hero.skills.map((s) => `
+        <div class="rounded-lg border border-white/5 bg-white/[0.02] p-2.5 text-xs">
+          <span class="font-bold text-stone-200">${s.name}:</span>
+          <span class="text-stone-400 ml-1">${s.desc}</span>
+        </div>
+      `).join('');
+
+      const tipsHtml = hero.buildTips.map((t) => `
+        <li class="text-stone-300">${t}</li>
+      `).join('');
+
+      container.innerHTML = `
+        <div class="flex items-start justify-between gap-3 border-b border-white/10 pb-4">
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="text-xl font-bold text-white">${heroName}</span>
+              <span class="rounded px-2 py-0.5 text-xs font-bold border ${tierBadgeColor}">${hero.tier} Tier</span>
+              <span class="rounded bg-stone-800 px-1.5 py-0.5 text-[11px] font-mono text-stone-300">${hero.rarity}</span>
+            </div>
+            <p class="mt-1 text-xs text-stone-400">${hero.role}</p>
+          </div>
+          <a href="${baseLink}" class="shrink-0 rounded-lg border border-white/10 bg-white/5 px-2.5 py-1 text-xs font-medium text-toxic-300 hover:bg-white/10 transition">
+            ${isRu ? 'Гайд' : 'Guide'} →
+          </a>
+        </div>
+
+        <div class="grid grid-cols-2 gap-2 text-xs">
+          <div class="rounded-lg border border-white/5 bg-white/[0.02] p-2">
+            <span class="text-stone-500 block">${dict.faction}</span>
+            <span class="font-bold text-stone-200">${hero.faction}</span>
+          </div>
+          <div class="rounded-lg border border-white/5 bg-white/[0.02] p-2">
+            <span class="text-stone-500 block">${dict.classRole}</span>
+            <span class="font-bold text-stone-200">${hero.className}</span>
+          </div>
+          <div class="rounded-lg border border-white/5 bg-white/[0.02] p-2 col-span-2">
+            <span class="text-stone-500 block">${dict.exclusiveWeapon}</span>
+            <span class="font-bold text-amber-300">${weaponName}</span>
+          </div>
+          <div class="rounded-lg border border-white/5 bg-white/[0.02] p-2 col-span-2">
+            <span class="text-stone-500 block">${dict.howToGet}</span>
+            <span class="text-stone-300">${hero.howToGet}</span>
+          </div>
+        </div>
+
+        <div>
+          <h5 class="text-xs font-mono uppercase tracking-wider text-stone-400 mb-2">${dict.skills}</h5>
+          <div class="space-y-1.5">${skillsHtml}</div>
+        </div>
+
+        <div>
+          <h5 class="text-xs font-mono uppercase tracking-wider text-stone-400 mb-1.5">${dict.tips}</h5>
+          <ul class="list-disc list-inside space-y-1 text-xs text-stone-400">${tipsHtml}</ul>
+        </div>
+
+        <div class="rounded-xl border border-white/5 bg-black/40 p-3 text-xs">
+          <span class="font-semibold text-stone-300 block mb-1">${dict.team}</span>
+          <span class="text-stone-400 leading-relaxed">${hero.teamNotes}</span>
+        </div>
+      `;
+    }
+
+    function updateComparison() {
+      const h1Slug = select1.value;
+      const h2Slug = select2.value;
+
+      const h1 = heroesMap.get(h1Slug);
+      const h2 = heroesMap.get(h2Slug);
+
+      renderCard(card1, h1, 'toxic');
+      renderCard(card2, h2, 'amber');
+
+      if (h1 && h2) {
+        const adv = checkAdvantage(h1.faction, h2.faction);
+        if (adv && advBanner) {
+          advBanner.classList.remove('hidden');
+          advBanner.className = `mb-6 rounded-xl border p-3 text-xs font-medium text-center ${adv.winner === 1 ? 'border-toxic-500/30 bg-toxic-950/20 text-toxic-300' : 'border-amber-500/30 bg-amber-950/20 text-amber-300'}`;
+          advBanner.innerHTML = `⚡ <strong>${adv.winner === 1 ? (h1.names?.[lang] || h1.name) : (h2.names?.[lang] || h2.name)}</strong>: ${adv.text}`;
+        } else if (advBanner) {
+          advBanner.classList.add('hidden');
+        }
+      }
+    }
+
+    select1?.addEventListener('change', updateComparison);
+    select2?.addEventListener('change', updateComparison);
+
+    presets.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const h1 = btn.getAttribute('data-h1');
+        const h2 = btn.getAttribute('data-h2');
+        if (h1 && select1) select1.value = h1;
+        if (h2 && select2) select2.value = h2;
+        updateComparison();
+      });
+    });
+
+    updateComparison();
+  }
+
+  document.addEventListener('astro:page-load', initHeroCompare);
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initHeroCompare);
+  } else {
+    initHeroCompare();
+  }
+</script>

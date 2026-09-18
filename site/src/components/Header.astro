@@ -18,7 +18,8 @@ const navItems: { key: any; href: string; num: string }[] = [
   { key: 'nav.tierlist', href: 'tier-list', num: '11' },
   { key: 'nav.codex', href: 'codex', num: '12' },
   { key: 'nav.calendar', href: 'calendar', num: '13' },
-  { key: 'nav.patchnotes', href: 'patch-notes', num: '14' },
+  { key: 'nav.infographics', href: 'infographics', num: '14' },
+  { key: 'nav.patchnotes', href: 'patch-notes', num: '15' },
 ];
 const cleanPath = path.replace(/^\/(en|ru|es|pt|fr|de|id|ko|ja)?\/?/, '/') || '/';
 const is404 = cleanPath === '/404/' || cleanPath.startsWith('/404');
@@ -117,7 +118,7 @@ const dictServer: Record<string, string> = {
         </a>
 
         <button id="search-open" class="btn-glow hidden md:inline-flex items-center gap-2.5 rounded-full bg-white text-black px-4 py-2 text-sm font-medium hover:bg-stone-200">
-          <span>⌕</span> {t(lang, 'nav.search').replace('…', '')} <kbd class="ml-1 rounded bg-black/10 px-1.5 py-0.5 text-xs">/</kbd>
+          <span>⌕</span> {t(lang, 'nav.search').replace('…', '')} <kbd class="ml-1 rounded bg-black/10 px-1.5 py-0.5 text-xs font-mono">⌘K</kbd>
         </button>
         <button id="search-open-m" class="md:hidden h-9 w-9 grid place-items-center rounded-full border border-white/10 text-stone-300 hover:text-white" aria-label="Search">⌕</button>
 
@@ -256,6 +257,15 @@ const dictServer: Record<string, string> = {
         <span class="text-stone-500">⌕</span>
         <input id="search-input" type="search" placeholder={t(lang, 'search.placeholder')} class="w-full bg-transparent text-lg text-white placeholder:text-stone-500 outline-none" autocomplete="off" />
         <button id="search-close" class="rounded-full bg-white/10 hover:bg-white hover:text-black px-3 py-1 text-xs font-semibold text-stone-300 transition">ESC</button>
+      </div>
+      <div class="flex flex-wrap items-center gap-1.5 px-4 py-2 bg-black/40 border-b border-white/5 text-xs text-stone-400 overflow-x-auto">
+        <span class="text-[10px] font-mono text-stone-500 mr-1">{lang === 'ru' ? 'Быстро:' : 'Quick:'}</span>
+        <button type="button" class="js-search-chip rounded-md border border-white/10 bg-white/5 px-2 py-0.5 hover:border-toxic-400 hover:text-toxic-300 transition text-[11px]" data-query={lang === 'ru' ? 'Дуэль альянсов' : 'Alliance Duel'}>⚔️ {lang === 'ru' ? 'Дуэль' : 'Duel'}</button>
+        <button type="button" class="js-search-chip rounded-md border border-white/10 bg-white/5 px-2 py-0.5 hover:border-toxic-400 hover:text-toxic-300 transition text-[11px]" data-query={lang === 'ru' ? 'Промокоды' : 'Gift Codes'}>🎁 {lang === 'ru' ? 'Коды' : 'Codes'}</button>
+        <button type="button" class="js-search-chip rounded-md border border-white/10 bg-white/5 px-2 py-0.5 hover:border-toxic-400 hover:text-toxic-300 transition text-[11px]" data-query={lang === 'ru' ? 'Тир-лист' : 'Tier list'}>🏆 {lang === 'ru' ? 'Тир-лист' : 'Tier'}</button>
+        <button type="button" class="js-search-chip rounded-md border border-white/10 bg-white/5 px-2 py-0.5 hover:border-toxic-400 hover:text-toxic-300 transition text-[11px]" data-query={lang === 'ru' ? 'Ворон' : 'Raven'}>🦅 {lang === 'ru' ? 'Ворон' : 'Raven'}</button>
+        <button type="button" class="js-search-chip rounded-md border border-white/10 bg-white/5 px-2 py-0.5 hover:border-toxic-400 hover:text-toxic-300 transition text-[11px]" data-query={lang === 'ru' ? 'Снаряжение' : 'Gear'}>🛡️ {lang === 'ru' ? 'Снаряжение' : 'Gear'}</button>
+        <button type="button" class="js-search-chip rounded-md border border-white/10 bg-white/5 px-2 py-0.5 hover:border-toxic-400 hover:text-toxic-300 transition text-[11px]" data-query={lang === 'ru' ? 'Инфографики' : 'Infographics'}>📊 {lang === 'ru' ? 'Схемы' : 'Infographics'}</button>
       </div>
       <div id="search-results" class="max-h-[60vh] overflow-y-auto p-2"></div>
       <div class="flex items-center justify-between border-t border-white/5 px-4 py-3 text-xs text-stone-500">
@@ -406,10 +416,27 @@ const dictServer: Record<string, string> = {
     modal?.addEventListener('click', (e) => { if (e.target === modal) close(); });
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') close();
-      if (e.key === '/' && (e.target as HTMLElement)?.tagName !== 'INPUT') {
+      const isK = (e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k';
+      const isSlash = e.key === '/' && (e.target as HTMLElement)?.tagName !== 'INPUT';
+      if (isK || isSlash) {
         e.preventDefault();
-        open();
+        if (modal?.classList.contains('hidden')) {
+          open();
+        } else {
+          close();
+        }
       }
+    });
+
+    document.querySelectorAll('.js-search-chip').forEach((chip) => {
+      chip.addEventListener('click', () => {
+        const query = chip.getAttribute('data-query');
+        if (input && query) {
+          input.value = query;
+          input.dispatchEvent(new Event('input', { bubbles: true }));
+          input.focus();
+        }
+      });
     });
 
     input?.addEventListener('keydown', (e) => {

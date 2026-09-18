@@ -1,0 +1,25 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'pt';
+---
+
+<Base lang={lang} path="/pt/events/crystal-cluster/" title="Vale dos Cachos de Cristal: Rotas de coleta e recompensas F2P" description="Zonas seguras de mineração de cristal, defesa contra saques e loja do vale.">
+  <GuidePage
+    title="Vale dos Cachos de Cristal: Rotas de coleta e recompensas F2P"
+    description="Zonas seguras de mineração de cristal, defesa contra saques e loja do vale."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/pt/' }, { label: t(lang, 'nav.events'), href: '/pt/events/' }, { label: 'Vale dos Cachos de Cristal' }]}
+  >
+    <p>O <strong>Vale dos Cachos de Cristal</strong> é uma zona de recursos especiais para coletar minérios valiosos em aliança.</p>
+
+    <VideoSection topic="crystal_cluster" lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

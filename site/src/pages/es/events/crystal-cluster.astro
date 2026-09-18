@@ -1,0 +1,31 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'es';
+---
+
+<Base lang={lang} path="/es/events/crystal-cluster/" title="Valle de Cúmulos de Cristal: Rutas y recompensas F2P" description="Zonas seguras de recolección de cristales, defensa contra saqueos y prioridades en la tienda del valle.">
+  <GuidePage
+    title="Valle de Cúmulos de Cristal: Rutas y recompensas F2P"
+    description="Zonas seguras de recolección de cristales, defensa contra saqueos y prioridades en la tienda del valle."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/es/' }, { label: t(lang, 'nav.events'), href: '/es/events/' }, { label: 'Valle de Cúmulos de Cristal' }]}
+  >
+    <p>El <strong>Valle de Cúmulos de Cristal</strong> es una zona especial donde las alianzas compiten por vetas de cristales de alto nivel.</p>
+
+<h2 id="mechanics">Mecánicas</h2>
+<ul>
+  <li><strong>Vetas de Cristal (Niveles 1–5):</strong> Los niveles más altos otorgan mayor tasa de recolección.</li>
+  <li><strong>Protección de marcha:</strong> Usa tanques en tus marchas de recolección para evitar pérdidas por emboscadas.</li>
+</ul>
+
+    <VideoSection topic="crystal_cluster" lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

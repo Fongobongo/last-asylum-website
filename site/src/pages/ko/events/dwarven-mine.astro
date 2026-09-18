@@ -1,0 +1,28 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ko';
+---
+
+<Base lang={lang} path="/ko/events/dwarven-mine/" title="드워프 광산: 곡괭이 비축 및 100층 MR 설계도 공략" description="드워프 광산 이벤트 공략: 무과금 750 곡괭이 존버 규칙, 잭팟 층수 돌파, 종결 약초 우선 선택법.">
+  <GuidePage
+    title="드워프 광산: 곡괭이 비축 및 100층 MR 설계도 공략"
+    description="드워프 광산 이벤트 공략: 무과금 750 곡괭이 존버 규칙, 잭팟 층수 돌파, 종결 약초 우선 선택법."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/ko/' }, { label: t(lang, 'nav.events'), href: '/ko/events/' }, { label: '드워프 광산' }]}
+  >
+    <p><strong>드워프 광산</strong>은 7일간 진행되는 채굴 이벤트로, <strong>곡괭이</strong>를 사용하여 타일을 파고 <strong>100층</strong>에 도달하면 최고 보상인 <strong>MR 장비 설계도</strong>를 획득합니다.</p>
+
+<h2 id="hoarding">무과금 750 곡괭이 존버 규칙</h2>
+<blockquote>무과금 핵심 전략: 곡괭이를 평소에 쓰지 말고 <strong>최소 750개 이상 비축</strong>한 뒤 한 번의 이벤트에 모두 쏟아부으세요.</blockquote>
+
+    <VideoSection topic="dwarven" lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

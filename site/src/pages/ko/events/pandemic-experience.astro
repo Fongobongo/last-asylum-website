@@ -1,0 +1,25 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ko';
+---
+
+<Base lang={lang} path="/ko/events/pandemic-experience/" title="팬데믹 경험: 감염 포인트 및 해독제 관리" description="팬데믹 이벤트 보상 극대화: 퀘스트 상자, 해독제 생산 및 감염 병력 치료.">
+  <GuidePage
+    title="팬데믹 경험: 감염 포인트 및 해독제 관리"
+    description="팬데믹 이벤트 보상 극대화: 퀘스트 상자, 해독제 생산 및 감염 병력 치료."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/ko/' }, { label: t(lang, 'nav.events'), href: '/ko/events/' }, { label: '팬데믹 경험' }]}
+  >
+    <p><strong>팬데믹 경험</strong>은 전염병 발생을 억제하고 해독제를 투여하여 생존자를 치료하는 주간 이벤트입니다.</p>
+
+    <VideoSection topic="pandemic" lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

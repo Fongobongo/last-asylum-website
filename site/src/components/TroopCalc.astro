@@ -1,0 +1,377 @@
+---
+import type { Lang } from '../i18n/utils';
+
+interface Props {
+  lang?: Lang;
+}
+
+const { lang = 'en' } = Astro.props;
+const isRu = lang === 'ru';
+
+const dict = {
+  title: isRu ? 'Калькулятор тренировки войск и ускорений' : 'Troop Training & Speedups Calculator',
+  subtitle: isRu ? 'Рассчитайте очки Дуэли (День 5), расход ускорений и ресурсов для прямого найма или апгрейда T1→T8/T9:' : 'Calculate Alliance Duel Day 5 points, speedups and resource costs for direct training or T1→T8/T9 promo:',
+  mode: isRu ? 'Режим обучения:' : 'Training Mode:',
+  modeDirect: isRu ? 'Прямой наём с 0' : 'Direct Training',
+  modeUpgrade: isRu ? 'Апгрейд (T1 → T8/T9)' : 'Troop Promotion (T1 → T8/T9)',
+  sourceTier: isRu ? 'Исходный тир войск:' : 'Source Troop Tier:',
+  targetTier: isRu ? 'Целевой тир войск:' : 'Target Troop Tier:',
+  calcBy: isRu ? 'Считать по:' : 'Calculate by:',
+  byTroops: isRu ? 'Количеству войск' : 'Troop Quantity',
+  bySpeedups: isRu ? 'Имеющимся ускорениям' : 'Available Speedups',
+  troopCountLabel: isRu ? 'Количество войск (шт):' : 'Number of Troops:',
+  speedupsLabel: isRu ? 'Имеющиеся ускорения тренировок (часов):' : 'Available Training Speedups (hours):',
+  speedBonusLabel: isRu ? 'Бонус скорости тренировки (% с науки/зданий):' : 'Training Speed Buff (% from tech/buildings):',
+  day5BoostLabel: isRu ? 'Бонус Дня 5 Дуэли (+100% очков, +30% скорости)' : 'Alliance Duel Day 5 (+100% points, +30% speed boost)',
+  resultsTitle: isRu ? 'Итоги расчета:' : 'Calculation Summary:',
+  totalPoints: isRu ? 'Очки Дуэли:' : 'Alliance Duel Points:',
+  speedupsNeeded: isRu ? 'Требуется ускорений:' : 'Speedups Needed:',
+  speedupHours: isRu ? 'ч.' : 'hrs',
+  speedupDays: isRu ? 'дн.' : 'days',
+  speedupPts: isRu ? 'Очки за ускорения:' : 'Speedup Points:',
+  troopPts: isRu ? 'Очки за бойцов:' : 'Troop Tier Points:',
+  pointsPerMin: isRu ? 'Эффективность (очков / мин ускорений):' : 'Efficiency (pts / min of speedup):',
+  chest9Progress: isRu ? 'Прогресс до 9-го сундука (7.2M):' : 'Progress to Chest 9 (7.2M):',
+  foodCost: isRu ? 'Расход еды:' : 'Food Cost:',
+  ironCost: isRu ? 'Расход железа:' : 'Iron Cost:',
+  proTip: isRu 
+    ? '💡 Совет профи: Апгрейд T1→T8/T9 тратит в 3-4 раза меньше времени и ускорений на единицу очков, чем прямой найм T8/T9. Готовьте 100-200K T1 заранее в течение недели!'
+    : '💡 Pro Tip: Promoting T1→T8/T9 requires 3-4× less speedups per point compared to training T8/T9 from scratch. Pre-train 100-200K T1 during the week!',
+};
+---
+
+<div class="troop-calc not-prose my-10 rounded-2xl border border-toxic-500/30 bg-stone-900/80 p-5 sm:p-6 shadow-2xl backdrop-blur-xl" id="troop-calculator">
+  <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-white/[0.08] pb-4 mb-6">
+    <div>
+      <div class="flex items-center gap-2">
+        <span class="text-2xl">🎖️</span>
+        <h3 class="text-xl font-bold text-white tracking-tight">{dict.title}</h3>
+      </div>
+      <p class="mt-1 text-xs sm:text-sm text-stone-400">{dict.subtitle}</p>
+    </div>
+    <span class="self-start rounded-full bg-toxic-500/20 px-3 py-1 font-mono text-xs font-bold text-toxic-300 border border-toxic-400/30">
+      DAY 5 METRIC
+    </span>
+  </div>
+
+  <div class="grid gap-6 md:grid-cols-2">
+    <!-- Left Column: Settings & Inputs -->
+    <div class="space-y-4">
+      <!-- Mode Toggle -->
+      <div>
+        <label class="block text-xs font-semibold uppercase tracking-wider text-stone-400 mb-1.5">{dict.mode}</label>
+        <div class="grid grid-cols-2 gap-2">
+          <button type="button" id="tc-mode-direct" class="tc-mode-btn active rounded-xl border border-toxic-400 bg-toxic-500/20 py-2 text-xs font-bold text-toxic-300 transition">
+            {dict.modeDirect}
+          </button>
+          <button type="button" id="tc-mode-upgrade" class="tc-mode-btn rounded-xl border border-white/10 bg-black/40 py-2 text-xs font-semibold text-stone-400 hover:text-white transition">
+            {dict.modeUpgrade}
+          </button>
+        </div>
+      </div>
+
+      <!-- Tiers -->
+      <div class="grid grid-cols-2 gap-3">
+        <div id="tc-source-tier-wrap" class="hidden">
+          <label class="block text-xs text-stone-400 mb-1">{dict.sourceTier}</label>
+          <select id="tc-source-tier" class="w-full rounded-xl border border-white/10 bg-black/40 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400">
+            <option value="1" selected>T1 (Базовые)</option>
+            <option value="2">T2</option>
+            <option value="3">T3</option>
+            <option value="4">T4</option>
+            <option value="5">T5</option>
+            <option value="6">T6</option>
+            <option value="7">T7</option>
+          </select>
+        </div>
+        <div id="tc-target-tier-wrap" class="w-full col-span-2">
+          <label class="block text-xs text-stone-400 mb-1">{dict.targetTier}</label>
+          <select id="tc-target-tier" class="w-full rounded-xl border border-white/10 bg-black/40 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400">
+            <option value="1">T1 (+46 pts)</option>
+            <option value="2">T2 (+56 pts)</option>
+            <option value="3">T3 (+68 pts)</option>
+            <option value="4">T4 (+82 pts)</option>
+            <option value="5">T5 (+101 pts)</option>
+            <option value="6">T6 (+124 pts)</option>
+            <option value="7">T7 (+153 pts)</option>
+            <option value="8" selected>T8 (+188 pts)</option>
+            <option value="9">T9 (+218 pts)</option>
+            <option value="10">T10 (+253 pts)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Calc By Toggle -->
+      <div>
+        <label class="block text-xs font-semibold uppercase tracking-wider text-stone-400 mb-1.5">{dict.calcBy}</label>
+        <div class="grid grid-cols-2 gap-2">
+          <button type="button" id="tc-by-troops" class="tc-by-btn active rounded-lg border border-white/20 bg-white/10 py-1.5 text-xs font-bold text-white transition">
+            {dict.byTroops}
+          </button>
+          <button type="button" id="tc-by-speedups" class="tc-by-btn rounded-lg border border-white/10 bg-black/40 py-1.5 text-xs font-medium text-stone-400 hover:text-white transition">
+            {dict.bySpeedups}
+          </button>
+        </div>
+      </div>
+
+      <!-- Input: Troops Count -->
+      <div id="tc-input-troops-wrap">
+        <label class="block text-xs text-stone-400 mb-1">{dict.troopCountLabel}</label>
+        <input type="number" id="tc-input-troops" value="50000" step="1000" min="1" class="w-full rounded-xl border border-white/10 bg-black/40 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" />
+      </div>
+
+      <!-- Input: Speedup Hours -->
+      <div id="tc-input-speedups-wrap" class="hidden">
+        <label class="block text-xs text-stone-400 mb-1">{dict.speedupsLabel}</label>
+        <input type="number" id="tc-input-speedups" value="100" step="5" min="0" class="w-full rounded-xl border border-white/10 bg-black/40 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" />
+      </div>
+
+      <!-- Buffs & Toggles -->
+      <div class="rounded-xl border border-white/[0.06] bg-black/30 p-3.5 space-y-3">
+        <div>
+          <label class="block text-xs text-stone-400 mb-1">{dict.speedBonusLabel}</label>
+          <input type="number" id="tc-speed-buff" value="150" step="5" min="0" class="w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-1.5 text-sm text-white font-mono outline-none focus:border-toxic-400" />
+        </div>
+        <label class="flex items-center gap-2.5 cursor-pointer text-xs text-stone-300 select-none">
+          <input type="checkbox" id="tc-day5-boost" checked class="h-4 w-4 rounded border-white/20 bg-stone-900 text-toxic-500 focus:ring-0 cursor-pointer" />
+          <span>{dict.day5BoostLabel}</span>
+        </label>
+      </div>
+    </div>
+
+    <!-- Right Column: Results Card -->
+    <div class="flex flex-col justify-between rounded-2xl border border-white/[0.08] bg-black/50 p-5 shadow-inner">
+      <div>
+        <h4 class="text-xs font-mono uppercase tracking-widest text-stone-400 mb-3">{dict.resultsTitle}</h4>
+        
+        <!-- Big Points Display -->
+        <div class="mb-4 rounded-xl border border-toxic-500/30 bg-gradient-to-br from-toxic-950/40 to-stone-950 p-4 text-center">
+          <div class="text-xs font-medium text-stone-400">{dict.totalPoints}</div>
+          <div class="mt-1 text-3xl sm:text-4xl font-black tracking-tight text-toxic-300 font-mono" id="tc-res-points">0</div>
+          <div class="mt-2 text-[11px] text-stone-500 flex justify-center gap-3">
+            <span>{dict.troopPts} <strong class="text-stone-300 font-mono" id="tc-res-troop-pts">0</strong></span>
+            <span>•</span>
+            <span>{dict.speedupPts} <strong class="text-stone-300 font-mono" id="tc-res-speedup-pts">0</strong></span>
+          </div>
+        </div>
+
+        <!-- Chest 9 Progress Bar -->
+        <div class="mb-5 space-y-1.5">
+          <div class="flex justify-between text-xs font-mono">
+            <span class="text-stone-400">{dict.chest9Progress}</span>
+            <span class="font-bold text-toxic-400" id="tc-res-chest-pct">0%</span>
+          </div>
+          <div class="h-2 w-full overflow-hidden rounded-full bg-stone-800">
+            <div id="tc-res-chest-bar" class="h-full bg-gradient-to-r from-toxic-500 to-toxic-300 transition-all duration-300" style="width: 0%"></div>
+          </div>
+        </div>
+
+        <!-- Breakdown Grid -->
+        <div class="grid grid-cols-2 gap-2.5 text-xs">
+          <div class="rounded-lg border border-white/5 bg-white/[0.02] p-2.5">
+            <div class="text-stone-500">{dict.speedupsNeeded}</div>
+            <div class="mt-1 text-base font-bold text-white font-mono" id="tc-res-speedups">0 {dict.speedupHours}</div>
+            <div class="text-[10px] text-stone-400 font-mono" id="tc-res-days">0 {dict.speedupDays}</div>
+          </div>
+          <div class="rounded-lg border border-white/5 bg-white/[0.02] p-2.5">
+            <div class="text-stone-500">{dict.pointsPerMin}</div>
+            <div class="mt-1 text-base font-bold text-toxic-300 font-mono" id="tc-res-ppm">0</div>
+            <div class="text-[10px] text-stone-400">pts/min</div>
+          </div>
+          <div class="rounded-lg border border-white/5 bg-white/[0.02] p-2.5">
+            <div class="text-stone-500">{dict.foodCost}</div>
+            <div class="mt-1 text-sm font-bold text-amber-300 font-mono" id="tc-res-food">0</div>
+          </div>
+          <div class="rounded-lg border border-white/5 bg-white/[0.02] p-2.5">
+            <div class="text-stone-500">{dict.ironCost}</div>
+            <div class="mt-1 text-sm font-bold text-slate-300 font-mono" id="tc-res-iron">0</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pro Tip Box -->
+      <div class="mt-5 rounded-xl border border-toxic-500/20 bg-toxic-500/5 p-3 text-xs leading-relaxed text-toxic-200/90">
+        {dict.proTip}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Troop base training points & times
+  const TIER_DATA: Record<number, { points: number; baseSec: number; food: number; iron: number }> = {
+    1:  { points: 46,  baseSec: 1.6, food: 20,  iron: 0 },
+    2:  { points: 56,  baseSec: 2.4, food: 35,  iron: 0 },
+    3:  { points: 68,  baseSec: 3.5, food: 60,  iron: 10 },
+    4:  { points: 82,  baseSec: 5.2, food: 100, iron: 25 },
+    5:  { points: 101, baseSec: 7.8, food: 170, iron: 55 },
+    6:  { points: 124, baseSec: 11.5, food: 280, iron: 110 },
+    7:  { points: 153, baseSec: 17.0, food: 460, iron: 220 },
+    8:  { points: 188, baseSec: 25.0, food: 750, iron: 420 },
+    9:  { points: 218, baseSec: 36.0, food: 1200, iron: 780 },
+    10: { points: 253, baseSec: 52.0, food: 1900, iron: 1400 },
+  };
+
+  let mode: 'direct' | 'upgrade' = 'direct';
+  let calcBy: 'troops' | 'speedups' = 'troops';
+
+  function initTroopCalc() {
+    const calcEl = document.getElementById('troop-calculator');
+    if (!calcEl) return;
+
+    const btnModeDirect = document.getElementById('tc-mode-direct');
+    const btnModeUpgrade = document.getElementById('tc-mode-upgrade');
+    const sourceTierWrap = document.getElementById('tc-source-tier-wrap');
+    const targetTierWrap = document.getElementById('tc-target-tier-wrap');
+    const sourceTierSelect = document.getElementById('tc-source-tier') as HTMLSelectElement;
+    const targetTierSelect = document.getElementById('tc-target-tier') as HTMLSelectElement;
+
+    const btnByTroops = document.getElementById('tc-by-troops');
+    const btnBySpeedups = document.getElementById('tc-by-speedups');
+    const inputTroopsWrap = document.getElementById('tc-input-troops-wrap');
+    const inputSpeedupsWrap = document.getElementById('tc-input-speedups-wrap');
+    const inputTroops = document.getElementById('tc-input-troops') as HTMLInputElement;
+    const inputSpeedups = document.getElementById('tc-input-speedups') as HTMLInputElement;
+
+    const inputSpeedBuff = document.getElementById('tc-speed-buff') as HTMLInputElement;
+    const checkDay5Boost = document.getElementById('tc-day5-boost') as HTMLInputElement;
+
+    // Results elements
+    const resPoints = document.getElementById('tc-res-points');
+    const resTroopPts = document.getElementById('tc-res-troop-pts');
+    const resSpeedupPts = document.getElementById('tc-res-speedup-pts');
+    const resChestPct = document.getElementById('tc-res-chest-pct');
+    const resChestBar = document.getElementById('tc-res-chest-bar');
+    const resSpeedups = document.getElementById('tc-res-speedups');
+    const resDays = document.getElementById('tc-res-days');
+    const resPpm = document.getElementById('tc-res-ppm');
+    const resFood = document.getElementById('tc-res-food');
+    const resIron = document.getElementById('tc-res-iron');
+
+    function updateView() {
+      if (mode === 'direct') {
+        btnModeDirect?.classList.add('active', 'border-toxic-400', 'bg-toxic-500/20', 'text-toxic-300');
+        btnModeDirect?.classList.remove('border-white/10', 'bg-black/40', 'text-stone-400');
+        btnModeUpgrade?.classList.remove('active', 'border-toxic-400', 'bg-toxic-500/20', 'text-toxic-300');
+        btnModeUpgrade?.classList.add('border-white/10', 'bg-black/40', 'text-stone-400');
+        sourceTierWrap?.classList.add('hidden');
+        targetTierWrap?.classList.add('col-span-2');
+      } else {
+        btnModeUpgrade?.classList.add('active', 'border-toxic-400', 'bg-toxic-500/20', 'text-toxic-300');
+        btnModeUpgrade?.classList.remove('border-white/10', 'bg-black/40', 'text-stone-400');
+        btnModeDirect?.classList.remove('active', 'border-toxic-400', 'bg-toxic-500/20', 'text-toxic-300');
+        btnModeDirect?.classList.add('border-white/10', 'bg-black/40', 'text-stone-400');
+        sourceTierWrap?.classList.remove('hidden');
+        targetTierWrap?.classList.remove('col-span-2');
+      }
+
+      if (calcBy === 'troops') {
+        btnByTroops?.classList.add('active', 'border-white/20', 'bg-white/10', 'text-white');
+        btnByTroops?.classList.remove('border-white/10', 'bg-black/40', 'text-stone-400');
+        btnBySpeedups?.classList.remove('active', 'border-white/20', 'bg-white/10', 'text-white');
+        btnBySpeedups?.classList.add('border-white/10', 'bg-black/40', 'text-stone-400');
+        inputTroopsWrap?.classList.remove('hidden');
+        inputSpeedupsWrap?.classList.add('hidden');
+      } else {
+        btnBySpeedups?.classList.add('active', 'border-white/20', 'bg-white/10', 'text-white');
+        btnBySpeedups?.classList.remove('border-white/10', 'bg-black/40', 'text-stone-400');
+        btnByTroops?.classList.remove('active', 'border-white/20', 'bg-white/10', 'text-white');
+        btnByTroops?.classList.add('border-white/10', 'bg-black/40', 'text-stone-400');
+        inputSpeedupsWrap?.classList.remove('hidden');
+        inputTroopsWrap?.classList.add('hidden');
+      }
+
+      recalculate();
+    }
+
+    function formatNumber(num: number): string {
+      if (num >= 1_000_000_000) return (num / 1_000_000_000).toFixed(2) + 'B';
+      if (num >= 1_000_000) return (num / 1_000_000).toFixed(2) + 'M';
+      if (num >= 1_000) return (num / 1_000).toFixed(1) + 'K';
+      return Math.round(num).toLocaleString('ru-RU');
+    }
+
+    function recalculate() {
+      const targetT = parseInt(targetTierSelect.value) || 8;
+      const sourceT = mode === 'upgrade' ? Math.min(parseInt(sourceTierSelect.value) || 1, targetT - 1) : 0;
+      
+      const targetData = TIER_DATA[targetT];
+      const sourceData = sourceT > 0 ? TIER_DATA[sourceT] : { points: 0, baseSec: 0, food: 0, iron: 0 };
+
+      // Point calculation per troop
+      const ptsPerTroop = Math.max(1, targetData.points - sourceData.points);
+      const secPerTroopBase = Math.max(0.1, targetData.baseSec - sourceData.baseSec);
+      const foodPerTroop = Math.max(0, targetData.food - sourceData.food);
+      const ironPerTroop = Math.max(0, targetData.iron - sourceData.iron);
+
+      // Speed multipliers
+      const userBuff = (parseFloat(inputSpeedBuff.value) || 0) / 100;
+      const isDay5 = checkDay5Boost.checked;
+      const day5SpeedMultiplier = isDay5 ? 1.30 : 1.0;
+      const day5PointMultiplier = isDay5 ? 2.0 : 1.0;
+
+      // Actual time in seconds per troop
+      const actualSecPerTroop = Math.max(0.01, secPerTroopBase / ((1 + userBuff) * day5SpeedMultiplier));
+
+      let troops = 0;
+      let totalSeconds = 0;
+
+      if (calcBy === 'troops') {
+        troops = Math.max(0, parseInt(inputTroops.value) || 0);
+        totalSeconds = troops * actualSecPerTroop;
+      } else {
+        const speedupHours = Math.max(0, parseFloat(inputSpeedups.value) || 0);
+        totalSeconds = speedupHours * 3600;
+        troops = actualSecPerTroop > 0 ? Math.floor(totalSeconds / actualSecPerTroop) : 0;
+      }
+
+      // 1 minute of speedup in Day 5 gives 115 points * multiplier
+      const speedupMinutes = totalSeconds / 60;
+      const speedupBasePts = speedupMinutes * 115;
+      const speedupPtsTotal = speedupBasePts * day5PointMultiplier;
+      const troopPtsTotal = troops * ptsPerTroop * day5PointMultiplier;
+      const grandTotalPoints = Math.round(speedupPtsTotal + troopPtsTotal);
+
+      const hours = totalSeconds / 3600;
+      const days = hours / 24;
+      const ppm = totalSeconds > 0 ? Math.round(grandTotalPoints / (totalSeconds / 60)) : 0;
+
+      const chest9Goal = 7_200_000;
+      const pct = Math.min(100, Math.round((grandTotalPoints / chest9Goal) * 100));
+
+      if (resPoints) resPoints.textContent = grandTotalPoints.toLocaleString('ru-RU');
+      if (resTroopPts) resTroopPts.textContent = formatNumber(troopPtsTotal);
+      if (resSpeedupPts) resSpeedupPts.textContent = formatNumber(speedupPtsTotal);
+      if (resChestPct) resChestPct.textContent = `${pct}%`;
+      if (resChestBar) (resChestBar as HTMLElement).style.width = `${pct}%`;
+
+      if (resSpeedups) resSpeedups.textContent = `${Math.round(hours).toLocaleString('ru-RU')} ч.`;
+      if (resDays) resDays.textContent = `${days.toFixed(1)} дн.`;
+      if (resPpm) resPpm.textContent = ppm.toLocaleString('ru-RU');
+
+      if (resFood) resFood.textContent = formatNumber(troops * foodPerTroop);
+      if (resIron) resIron.textContent = formatNumber(troops * ironPerTroop);
+    }
+
+    btnModeDirect?.addEventListener('click', () => { mode = 'direct'; updateView(); });
+    btnModeUpgrade?.addEventListener('click', () => { mode = 'upgrade'; updateView(); });
+    btnByTroops?.addEventListener('click', () => { calcBy = 'troops'; updateView(); });
+    btnBySpeedups?.addEventListener('click', () => { calcBy = 'speedups'; updateView(); });
+
+    sourceTierSelect?.addEventListener('change', recalculate);
+    targetTierSelect?.addEventListener('change', recalculate);
+    inputTroops?.addEventListener('input', recalculate);
+    inputSpeedups?.addEventListener('input', recalculate);
+    inputSpeedBuff?.addEventListener('input', recalculate);
+    checkDay5Boost?.addEventListener('change', recalculate);
+
+    updateView();
+  }
+
+  document.addEventListener('astro:page-load', initTroopCalc);
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initTroopCalc);
+  } else {
+    initTroopCalc();
+  }
+</script>

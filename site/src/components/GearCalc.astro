@@ -1,0 +1,288 @@
+---
+import type { Lang } from '../i18n/utils';
+
+interface Props {
+  lang?: Lang;
+}
+
+const { lang = 'en' } = Astro.props;
+const isRu = lang === 'ru';
+
+const dict = {
+  title: isRu ? 'Калькулятор снаряжения и плавильни' : 'Gear & Smelter Calculator',
+  subtitle: isRu ? 'Рассчитайте камни снаряжения, закаленную сталь и чертежи для сета 1★–5★ и скорость плавильни:' : 'Calculate Gearstones, Tempered Steel, and Blueprints for 1★–5★ gear sets and smelter output:',
+  gearPieces: isRu ? 'Элементы снаряжения для прокачки:' : 'Gear Pieces to Upgrade:',
+  pieceWeapon: isRu ? 'Оружие (Атака)' : 'Weapon (ATK)',
+  pieceHelmet: isRu ? 'Шлем (ОЗ/Защита)' : 'Helmet (HP/DEF)',
+  pieceArmor: isRu ? 'Броня (ОЗ/Защита)' : 'Armor (HP/DEF)',
+  pieceBoots: isRu ? 'Сапоги (Скорость/ОЗ)' : 'Boots (Speed/HP)',
+  targetQuality: isRu ? 'Качество снаряжения:' : 'Target Gear Quality:',
+  targetStars: isRu ? 'Целевой уровень звезд:' : 'Target Star Level:',
+  smelterLevel: isRu ? 'Уровень плавильни (Smelter Lv 1–25):' : 'Smelter Level (1–25):',
+  smelterWeekly: isRu ? 'Недельный доход камней:' : 'Weekly Gearstones Output:',
+  materialsTitle: isRu ? 'Необходимые материалы:' : 'Materials Required:',
+  gearstones: isRu ? 'Камни снаряжения:' : 'Gearstones:',
+  temperedSteel: isRu ? 'Закаленная сталь:' : 'Tempered Steel:',
+  blueprints: isRu ? 'Чертежи (Blueprints):' : 'Gear Blueprints:',
+  timeToComplete: isRu ? 'Срок накопления при текущей плавильне:' : 'Time to Farm with Current Smelter:',
+  daysWord: isRu ? 'дней' : 'days',
+  weeksWord: isRu ? 'недель' : 'weeks',
+  smelterTipTitle: isRu ? 'Совет по плавильне (Smelter Sweet Spot):' : 'Smelter Sweet Spot Tip:',
+  smelterTipDesc: isRu 
+    ? 'Качай плавильню минимум до 20 уровня — это дает ~90 000 камней в неделю. На 25 уровне доход достигает 131 000+ камней в неделю. Начинай крафт с Сапог (для танков) или Оружия (для Марлены/кэрри).'
+    : 'Level your Smelter to at least Lv 20 — yields ~90K stones weekly. At Lv 25 it exceeds 131K+ stones/week. Forge Boots first for Tanks, Weapon first for Carries (Marlena/Zoya).',
+};
+---
+
+<div class="gear-calc not-prose my-10 rounded-2xl border border-toxic-500/30 bg-stone-900/80 p-5 sm:p-6 shadow-2xl backdrop-blur-xl" id="gear-calculator">
+  <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-white/[0.08] pb-4 mb-6">
+    <div>
+      <div class="flex items-center gap-2">
+        <span class="text-2xl">🛡️</span>
+        <h3 class="text-xl font-bold text-white tracking-tight">{dict.title}</h3>
+      </div>
+      <p class="mt-1 text-xs sm:text-sm text-stone-400">{dict.subtitle}</p>
+    </div>
+    <span class="self-start rounded-full bg-amber-500/20 px-3 py-1 font-mono text-xs font-bold text-amber-300 border border-amber-400/30">
+      FORGE & SMELTER
+    </span>
+  </div>
+
+  <div class="grid gap-6 md:grid-cols-2">
+    <!-- Settings Column -->
+    <div class="space-y-4">
+      <!-- Quality Selector -->
+      <div>
+        <label class="block text-xs font-semibold uppercase tracking-wider text-stone-400 mb-1.5">{dict.targetQuality}</label>
+        <div class="grid grid-cols-3 gap-2">
+          <button type="button" data-quality="SSR" class="gc-quality-btn rounded-xl border border-white/10 bg-black/40 py-2 text-xs font-semibold text-purple-400 hover:bg-purple-950/20 transition">
+            SSR (Фиолет)
+          </button>
+          <button type="button" data-quality="UR" class="gc-quality-btn active rounded-xl border border-amber-400 bg-amber-500/20 py-2 text-xs font-bold text-amber-300 transition shadow-[0_0_12px_rgba(251,191,36,0.2)]">
+            UR (Золото)
+          </button>
+          <button type="button" data-quality="MR" class="gc-quality-btn rounded-xl border border-white/10 bg-black/40 py-2 text-xs font-semibold text-red-400 hover:bg-red-950/20 transition">
+            MR (Красное)
+          </button>
+        </div>
+      </div>
+
+      <!-- Gear Pieces Selection -->
+      <div>
+        <label class="block text-xs font-semibold uppercase tracking-wider text-stone-400 mb-1.5">{dict.gearPieces}</label>
+        <div class="grid grid-cols-2 gap-2 text-xs">
+          <label class="flex items-center gap-2 rounded-lg border border-white/10 bg-black/30 p-2.5 cursor-pointer hover:border-white/20 select-none">
+            <input type="checkbox" id="gc-piece-weapon" checked class="gc-piece-cb h-4 w-4 rounded border-white/20 bg-stone-900 text-toxic-500 focus:ring-0" />
+            <span class="text-white font-medium">⚔️ {dict.pieceWeapon}</span>
+          </label>
+          <label class="flex items-center gap-2 rounded-lg border border-white/10 bg-black/30 p-2.5 cursor-pointer hover:border-white/20 select-none">
+            <input type="checkbox" id="gc-piece-boots" checked class="gc-piece-cb h-4 w-4 rounded border-white/20 bg-stone-900 text-toxic-500 focus:ring-0" />
+            <span class="text-white font-medium">👢 {dict.pieceBoots}</span>
+          </label>
+          <label class="flex items-center gap-2 rounded-lg border border-white/10 bg-black/30 p-2.5 cursor-pointer hover:border-white/20 select-none">
+            <input type="checkbox" id="gc-piece-helmet" checked class="gc-piece-cb h-4 w-4 rounded border-white/20 bg-stone-900 text-toxic-500 focus:ring-0" />
+            <span class="text-white font-medium">🪖 {dict.pieceHelmet}</span>
+          </label>
+          <label class="flex items-center gap-2 rounded-lg border border-white/10 bg-black/30 p-2.5 cursor-pointer hover:border-white/20 select-none">
+            <input type="checkbox" id="gc-piece-armor" checked class="gc-piece-cb h-4 w-4 rounded border-white/20 bg-stone-900 text-toxic-500 focus:ring-0" />
+            <span class="text-white font-medium">🛡️ {dict.pieceArmor}</span>
+          </label>
+        </div>
+      </div>
+
+      <!-- Target Stars -->
+      <div>
+        <div class="flex justify-between text-xs text-stone-400 mb-1.5">
+          <span class="font-semibold uppercase tracking-wider">{dict.targetStars}</span>
+          <span class="font-mono font-bold text-amber-300" id="gc-stars-display">5★</span>
+        </div>
+        <div class="flex gap-1.5" id="gc-stars-buttons">
+          <button type="button" data-star="0" class="gc-star-btn flex-1 rounded-lg border border-white/10 bg-black/40 py-1.5 text-xs font-mono font-bold text-stone-300 hover:bg-white/10">0★</button>
+          <button type="button" data-star="1" class="gc-star-btn flex-1 rounded-lg border border-white/10 bg-black/40 py-1.5 text-xs font-mono font-bold text-stone-300 hover:bg-white/10">1★</button>
+          <button type="button" data-star="2" class="gc-star-btn flex-1 rounded-lg border border-white/10 bg-black/40 py-1.5 text-xs font-mono font-bold text-stone-300 hover:bg-white/10">2★</button>
+          <button type="button" data-star="3" class="gc-star-btn flex-1 rounded-lg border border-white/10 bg-black/40 py-1.5 text-xs font-mono font-bold text-stone-300 hover:bg-white/10">3★</button>
+          <button type="button" data-star="4" class="gc-star-btn flex-1 rounded-lg border border-white/10 bg-black/40 py-1.5 text-xs font-mono font-bold text-stone-300 hover:bg-white/10">4★</button>
+          <button type="button" data-star="5" class="gc-star-btn active flex-1 rounded-lg border border-amber-400 bg-amber-500/20 py-1.5 text-xs font-mono font-bold text-amber-300">5★</button>
+        </div>
+      </div>
+
+      <!-- Smelter Level Range -->
+      <div class="rounded-xl border border-white/[0.06] bg-black/30 p-3.5 space-y-2">
+        <div class="flex justify-between text-xs">
+          <span class="text-stone-400">{dict.smelterLevel}</span>
+          <span class="font-mono font-bold text-toxic-300" id="gc-smelter-val">Уровень 20</span>
+        </div>
+        <input type="range" id="gc-smelter-slider" min="1" max="25" value="20" class="w-full accent-toxic-400 cursor-pointer" />
+        <div class="flex justify-between text-[11px] font-mono text-stone-500">
+          <span>Lv 1 (~10K/нед)</span>
+          <span class="text-toxic-400/80 font-bold">Lv 20 (Sweet Spot: ~90K)</span>
+          <span>Lv 25 (131K+)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Results Column -->
+    <div class="flex flex-col justify-between rounded-2xl border border-white/[0.08] bg-black/50 p-5 shadow-inner">
+      <div>
+        <h4 class="text-xs font-mono uppercase tracking-widest text-stone-400 mb-4">{dict.materialsTitle}</h4>
+
+        <!-- Key Materials Cards -->
+        <div class="grid grid-cols-3 gap-2.5 mb-5 text-center">
+          <div class="rounded-xl border border-amber-500/30 bg-amber-950/20 p-3">
+            <div class="text-[11px] font-medium text-amber-400/80">{dict.gearstones}</div>
+            <div class="mt-1 text-xl sm:text-2xl font-black text-amber-300 font-mono" id="gc-res-stones">0</div>
+          </div>
+          <div class="rounded-xl border border-blue-500/30 bg-blue-950/20 p-3">
+            <div class="text-[11px] font-medium text-blue-400/80">{dict.temperedSteel}</div>
+            <div class="mt-1 text-xl sm:text-2xl font-black text-blue-300 font-mono" id="gc-res-steel">0</div>
+          </div>
+          <div class="rounded-xl border border-purple-500/30 bg-purple-950/20 p-3">
+            <div class="text-[11px] font-medium text-purple-400/80">{dict.blueprints}</div>
+            <div class="mt-1 text-xl sm:text-2xl font-black text-purple-300 font-mono" id="gc-res-blueprints">0</div>
+          </div>
+        </div>
+
+        <!-- Smelter Weekly & Farm Time -->
+        <div class="space-y-3 rounded-xl border border-white/5 bg-white/[0.02] p-4 text-xs">
+          <div class="flex items-center justify-between border-b border-white/5 pb-2.5">
+            <span class="text-stone-400">{dict.smelterWeekly}</span>
+            <span class="font-mono font-bold text-toxic-300 text-sm" id="gc-res-weekly">~90,000</span>
+          </div>
+          <div class="flex items-center justify-between">
+            <span class="text-stone-400">{dict.timeToComplete}</span>
+            <div class="text-right">
+              <span class="font-mono font-bold text-white text-base" id="gc-res-days">0</span>
+              <span class="text-stone-400 ml-1">{dict.daysWord}</span>
+              <span class="text-[11px] text-stone-500 ml-1.5 font-mono" id="gc-res-weeks">(~0 нед.)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tip Box -->
+      <div class="mt-5 rounded-xl border border-amber-500/20 bg-amber-500/5 p-3 text-xs leading-relaxed text-amber-200/90">
+        <strong class="text-amber-300 font-semibold">{dict.smelterTipTitle}</strong> {dict.smelterTipDesc}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Gear costs per single piece by target stars (cumulative from 0 to N stars)
+  const COSTS: Record<string, { stones: number[]; steel: number[]; bp: number }> = {
+    SSR: {
+      stones: [1500, 2200, 3500, 5500, 9000, 15000],
+      steel: [0, 0, 0, 0, 0, 0],
+      bp: 40,
+    },
+    UR: {
+      stones: [5000, 6000, 8500, 13500, 23500, 43500],
+      steel: [50, 70, 110, 190, 340, 640],
+      bp: 100,
+    },
+    MR: {
+      stones: [15000, 18000, 24000, 35000, 55000, 95000],
+      steel: [150, 220, 340, 560, 960, 1760],
+      bp: 250,
+    },
+  };
+
+  // Weekly stones by Smelter level
+  const SMELTER_RATES: Record<number, number> = {
+    1: 10000, 2: 12000, 3: 14500, 4: 17000, 5: 20000,
+    6: 23500, 7: 27000, 8: 31000, 9: 35500, 10: 41000,
+    11: 46500, 12: 52000, 13: 58000, 14: 64500, 15: 71000,
+    16: 76500, 17: 81000, 18: 84500, 19: 87500, 20: 90000,
+    21: 96000, 22: 103000, 23: 111000, 24: 120000, 25: 131500,
+  };
+
+  let quality: 'SSR' | 'UR' | 'MR' = 'UR';
+  let stars = 5;
+
+  function initGearCalc() {
+    const calc = document.getElementById('gear-calculator');
+    if (!calc) return;
+
+    const qBtns = calc.querySelectorAll('.gc-quality-btn');
+    const starBtns = calc.querySelectorAll('.gc-star-btn');
+    const pieceCbs = calc.querySelectorAll('.gc-piece-cb') as NodeListOf<HTMLInputElement>;
+    const slider = document.getElementById('gc-smelter-slider') as HTMLInputElement;
+    const smelterVal = document.getElementById('gc-smelter-val');
+    const starsDisplay = document.getElementById('gc-stars-display');
+
+    const resStones = document.getElementById('gc-res-stones');
+    const resSteel = document.getElementById('gc-res-steel');
+    const resBlueprints = document.getElementById('gc-res-blueprints');
+    const resWeekly = document.getElementById('gc-res-weekly');
+    const resDays = document.getElementById('gc-res-days');
+    const resWeeks = document.getElementById('gc-res-weeks');
+
+    function update() {
+      let selectedPieces = 0;
+      pieceCbs.forEach((cb) => { if (cb.checked) selectedPieces++; });
+
+      const qData = COSTS[quality];
+      const stonesPerPiece = qData.stones[stars] || 0;
+      const steelPerPiece = qData.steel[stars] || 0;
+      const bpPerPiece = qData.bp;
+
+      const totalStones = stonesPerPiece * selectedPieces;
+      const totalSteel = steelPerPiece * selectedPieces;
+      const totalBp = bpPerPiece * selectedPieces;
+
+      const sLvl = parseInt(slider?.value || '20');
+      const weeklyStones = SMELTER_RATES[sLvl] || 90000;
+      const dailyStones = weeklyStones / 7;
+      const days = dailyStones > 0 ? Math.ceil(totalStones / dailyStones) : 0;
+      const weeks = (days / 7).toFixed(1);
+
+      if (starsDisplay) starsDisplay.textContent = `${stars}★`;
+      if (smelterVal) smelterVal.textContent = `Уровень ${sLvl}`;
+
+      if (resStones) resStones.textContent = totalStones.toLocaleString('ru-RU');
+      if (resSteel) resSteel.textContent = totalSteel.toLocaleString('ru-RU');
+      if (resBlueprints) resBlueprints.textContent = totalBp.toLocaleString('ru-RU');
+      if (resWeekly) resWeekly.textContent = `~${weeklyStones.toLocaleString('ru-RU')}`;
+      if (resDays) resDays.textContent = days.toLocaleString('ru-RU');
+      if (resWeeks) resWeeks.textContent = `(~${weeks} нед.)`;
+    }
+
+    qBtns.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        qBtns.forEach((b) => {
+          b.classList.remove('active', 'border-amber-400', 'bg-amber-500/20', 'text-amber-300', 'shadow-[0_0_12px_rgba(251,191,36,0.2)]');
+          b.classList.add('border-white/10', 'bg-black/40');
+        });
+        btn.classList.add('active', 'border-amber-400', 'bg-amber-500/20', 'text-amber-300', 'shadow-[0_0_12px_rgba(251,191,36,0.2)]');
+        btn.classList.remove('border-white/10', 'bg-black/40');
+        quality = (btn.getAttribute('data-quality') as any) || 'UR';
+        update();
+      });
+    });
+
+    starBtns.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        starBtns.forEach((b) => {
+          b.classList.remove('active', 'border-amber-400', 'bg-amber-500/20', 'text-amber-300');
+          b.classList.add('border-white/10', 'bg-black/40', 'text-stone-300');
+        });
+        btn.classList.add('active', 'border-amber-400', 'bg-amber-500/20', 'text-amber-300');
+        btn.classList.remove('border-white/10', 'bg-black/40', 'text-stone-300');
+        stars = parseInt(btn.getAttribute('data-star') || '5');
+        update();
+      });
+    });
+
+    pieceCbs.forEach((cb) => cb.addEventListener('change', update));
+    slider?.addEventListener('input', update);
+
+    update();
+  }
+
+  document.addEventListener('astro:page-load', initGearCalc);
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initGearCalc);
+  } else {
+    initGearCalc();
+  }
+</script>

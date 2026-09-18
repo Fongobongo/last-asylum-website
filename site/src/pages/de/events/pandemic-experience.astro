@@ -1,0 +1,38 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+
+<Base lang={lang} path="/de/events/pandemic-experience/" title="Pandemie-Erfahrung: Infektionspunkte & Antidot-Management" description="Maximiere Belohnungen im Pandemie-Event: Kisten-Meilensteine, Antidot-Ressourcen und Truppen-Heilung ohne Ressourcenverlust.">
+  <GuidePage
+    title="Pandemie-Erfahrung: Infektionspunkte & Antidot-Management"
+    description="Maximiere Belohnungen im Pandemie-Event: Kisten-Meilensteine, Antidot-Ressourcen und Truppen-Heilung ohne Ressourcenverlust."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/de/' }, { label: t(lang, 'nav.events'), href: '/de/events/' }, { label: 'Pandemie-Erfahrung' }]}
+  >
+    <p>Das <strong>Pandemie-Erfahrungs-Event</strong> belohnt Spieler für die Bewältigung der Seuche, Antidot-Produktion und das Heilen infizierter Überlebender im Schutzraum.</p>
+
+<h2 id="mechanics">Hauptmechaniken</h2>
+<ul>
+  <li><strong>Infektionswellen:</strong> Tägliche Ausbrüche erfordern gezielte Antidot-Zuteilung im Seuchenlazarett.</li>
+  <li><strong>Belohnungsmeilensteine:</strong> Schließe 9 Stufen an Aufgaben ab, um UR-Heldenfragmente und Beschleuniger zu erhalten.</li>
+  <li><strong>Truppen-Sicherheit:</strong> Achte darauf, dass Infizierte rechtzeitig kuriert werden, um Malus auf Kampfkraft zu vermeiden.</li>
+</ul>
+
+<h2 id="strategy">F2P-Strategie</h2>
+<ul>
+  <li>Verbrauche Antidote gebündelt während der Punkte-Multiplikatoren.</li>
+  <li>Kombiniere die Heilung mit den Allianz-Duell-Aufgaben am entsprechenden Wochentag.</li>
+</ul>
+
+    <VideoSection topic="pandemic" lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

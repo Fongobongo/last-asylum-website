@@ -1,0 +1,32 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+
+<Base lang={lang} path="/de/events/crystal-cluster/" title="Kristall-Cluster-Tal: Sammelrouten und F2P-Belohnungen" description="Sichere Kristall-Farming-Routen, Schutz vor feindlichen Überfällen und Prioritäten im Kristall-Tal-Shop.">
+  <GuidePage
+    title="Kristall-Cluster-Tal: Sammelrouten und F2P-Belohnungen"
+    description="Sichere Kristall-Farming-Routen, Schutz vor feindlichen Überfällen und Prioritäten im Kristall-Tal-Shop."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/de/' }, { label: t(lang, 'nav.events'), href: '/de/events/' }, { label: 'Kristall-Cluster-Tal' }]}
+  >
+    <p>Das <strong>Kristall-Cluster-Tal</strong> ist eine spezielle Ressourcenzone, in der Allianzen um hochgradige Kristalladern und seltene Erze kämpfen.</p>
+
+<h2 id="mechanics">Minen-Mechanik</h2>
+<ul>
+  <li><strong>Kristalladern (Lv 1–5):</strong> Höhere Stufen bieten schnellere Abbauraten, sind jedoch umkämpft.</li>
+  <li><strong>Überfall-Schutz:</strong> Sende stets Defensiv-Helden (Arthur/Lucius) mit den Sammeltruppen.</li>
+  <li><strong>Allianz-Bonus:</strong> Baue in der Nähe von Allianz-Außenposten ab für +25% Sammelgeschwindigkeit.</li>
+</ul>
+
+    <VideoSection topic="crystal_cluster" lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

@@ -1,0 +1,28 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'pt';
+---
+
+<Base lang={lang} path="/pt/events/dwarven-mine/" title="Mina dos Anões: Acúmulo de picaretas e 100 andares para projeto MR" description="Como funciona o evento da Mina dos Anões: regra de 750 picaretas F2P, progressão de andares por jackpot e escolha de Ervas no endgame.">
+  <GuidePage
+    title="Mina dos Anões: Acúmulo de picaretas e 100 andares para projeto MR"
+    description="Como funciona o evento da Mina dos Anões: regra de 750 picaretas F2P, progressão de andares por jackpot e escolha de Ervas no endgame."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/pt/' }, { label: t(lang, 'nav.events'), href: '/pt/events/' }, { label: 'Mina dos Anões' }]}
+  >
+    <p>A <strong>Mina dos Anões</strong> é um evento recorrente de 7 dias: você gasta <strong>Picaretas</strong> para escavar blocos e quem atinge o <strong>andar 100</strong> recebe o prêmio máximo: um <strong>projeto de equipamento MR</strong>.</p>
+
+<h2 id="hoarding">A regra F2P de 750 picaretas</h2>
+<blockquote>Dica F2P essencial: economize pelo menos <strong>750 picaretas</strong> entre ciclos antes de tentar a corrida do andar 100.</blockquote>
+
+    <VideoSection topic="dwarven" lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

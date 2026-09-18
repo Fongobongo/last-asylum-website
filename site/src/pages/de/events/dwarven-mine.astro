@@ -1,0 +1,44 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+
+<Base lang={lang} path="/de/events/dwarven-mine/" title="Zwergenmine: Spitzhacken-Vorrat & 100-Etagen-MR-Bauplan" description="Der 7-Tage-Minen-Event: Die 750-Spitzhacken-Regel für F2P, Etagenaufstieg durch Jackpots und Kräuter vs. Ausrüstungssteine im Endgame.">
+  <GuidePage
+    title="Zwergenmine: Spitzhacken-Vorrat & 100-Etagen-MR-Bauplan"
+    description="Der 7-Tage-Minen-Event: Die 750-Spitzhacken-Regel für F2P, Etagenaufstieg durch Jackpots und Kräuter vs. Ausrüstungssteine im Endgame."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/de/' }, { label: t(lang, 'nav.events'), href: '/de/events/' }, { label: 'Zwergenmine' }]}
+  >
+    <p>Die <strong>Zwergenmine</strong> ist ein wiederkehrendes 7-Tage-Event: Man gräbt Felder mit <strong>Spitzhacken</strong> aus, findet Jackpots für den Etagenaufstieg und wer <strong>Etage 100</strong> erreicht, sichert sich den Hauptpreis — einen <strong>MR-Ausrüstungs-Bauplan</strong>.</p>
+
+<h2 id="mechanics">Mechaniken</h2>
+<ul>
+  <li><strong>Dauer: 7 Tage</strong>, zyklisch wiederkehrend.</li>
+  <li>Du gräbst Kacheln mit Spitzhacken ab; das <strong>Jackpot-Feld</strong> bringt dich sofort in die nächste Etage.</li>
+  <li><strong>Hauptpreis auf Etage 100: MR-Bauplan (Rot/Mythisch).</strong></li>
+  <li>Am Rad des Events kann man mit Glück direkt fertige rote Ausrüstungsteile ziehen.</li>
+</ul>
+
+<h2 id="hoarding">Die 750-Spitzhacken-F2P-Regel</h2>
+<blockquote>F2P-Grundregel: Spiele das Event nicht spontan — <strong>spare mindestens 750 Spitzhacken</strong> über mehrere Zyklen an, bevor du ernsthaft gräbst.</blockquote>
+<p>Mit weniger als ~750 Spitzhacken erreicht man Etage 100 kaum realistisch. Wer zwischendurch verbraucht, verbrennt wertvolle Ressourcen ohne Hauptpreis.</p>
+
+<h2 id="reward-choice">Kräuter vs. Ausrüstungssteine</h2>
+<p>Bei jedem Etagen-Aufstieg wählt man zwischen zwei Belohnungen:</p>
+<ul>
+  <li><strong>Kräuter (~8M pro Wahl):</strong> ✅ <strong>Beste Wahl für das Mid- und Endgame.</strong> Kräuter sind das Nadelöhr für hochstufige Forschung.</li>
+  <li><strong>Ausrüstungssteine:</strong> ❌ Im späteren Spielverlauf hat man Hunderttausende Steine auf Lager. Das Nadelöhr sind Baupläne, nicht Steine.</li>
+</ul>
+
+    <VideoSection topic="dwarven" lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

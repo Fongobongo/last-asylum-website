@@ -1,0 +1,43 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import VideoSection from '../../../components/VideoSection.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'es';
+---
+
+<Base lang={lang} path="/es/events/dwarven-mine/" title="Mina Enana: Acumulación de picos y 100 pisos para planos MR" description="El evento de 7 días de minería: la regla F2P de 750 picos, progresión por botes y elección de Hierbas sobre Piedras de equipo en el juego tardío.">
+  <GuidePage
+    title="Mina Enana: Acumulación de picos y 100 pisos para planos MR"
+    description="El evento de 7 días de minería: la regla F2P de 750 picos, progresión por botes y elección de Hierbas sobre Piedras de equipo en el juego tardío."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/es/' }, { label: t(lang, 'nav.events'), href: '/es/events/' }, { label: 'Mina Enana' }]}
+  >
+    <p>La <strong>Mina Enana</strong> es un evento de 7 días: gastas <strong>Picos</strong> para cavar casillas, encuentras botes para subir de piso y quien completa <strong>100 pisos</strong> se lleva el premio máximo: un <strong>plano de equipo MR</strong>.</p>
+
+<h2 id="mechanics">Mecánicas</h2>
+<ul>
+  <li><strong>Duración: 7 días</strong>, evento recurrente.</li>
+  <li>Cavas una cuadrícula; la casilla del <strong>bote</strong> te sube al siguiente piso con mejores recompensas.</li>
+  <li><strong>Premio superior en Piso 100: plano de equipo MR (Mítico Rojo).</strong></li>
+  <li>La ruleta del evento también puede otorgar equipo rojo terminado.</li>
+</ul>
+
+<h2 id="hoarding">La regla F2P de ahorrar 750 picos</h2>
+<blockquote>Comprobación de realidad F2P: ahorra al menos <strong>750 picos</strong> entre ciclos de eventos antes de cavar en serio.</blockquote>
+<p>Con menos de ~750 picos no hay forma realista de alcanzar el Piso 100. Gastar picos fuera de ciclo solo quema recursos sin premio mayor.</p>
+
+<h2 id="reward-choice">Hierbas vs Piedras de equipo</h2>
+<ul>
+  <li><strong>Hierbas (~8M por elección):</strong> ✅ <strong>La mejor opción para el juego tardío.</strong> Bloquean investigaciones de alto nivel.</li>
+  <li><strong>Piedras de equipo:</strong> ❌ Más adelante tendrás cientos de miles sin gastar. El cuello de botella son los planos.</li>
+</ul>
+
+    <VideoSection topic="dwarven" lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>
