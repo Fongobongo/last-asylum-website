@@ -149,15 +149,22 @@ The break day after Phase 6 is not a rest day — it is the planning day for the
 3. Set the alliance goal: the target is the **maximum milestone chest** and the top promotions the roster can reach.
 4. Check your **Alliance Duel Technology** — at 100% it changes what goals are realistic, so leadership should know exactly where the alliance stands before committing to a target.
 
-## Falcon Quest Stacking {#falcon-quest-stacking}
+## Falcon Quest Stacking & The "Red Dot" Rule {#falcon-quest-stacking}
 
-Falcon Quests interact with the duel through one rule: **do the quests whenever you like, but claim them on double-point days — Monday, Wednesday and Friday.** A claimed quest on the wrong day earns half of what it could.
+Falcon Quests interact with events through one strict rule: **run your quests whenever you like, but claim the rewards exclusively on multiplier days.**
+* In **Alliance Duel**, claim on: **Monday (Phase 1), Wednesday (Phase 3), and Friday (Phase 5)**.
+* In **Supreme Healer**, claim on: **Days 1, 3, 5, and 7 (Final Showdown)**.
 
-Then the advanced trick, the **Stacking Max - 1** technique:
+### The Pre-Day "Red Dot" Hoarding Rule
+1. **The Day Before a Scoring Day** (Sunday, Tuesday, and Thursday), send heroes out on all available Falcon missions.
+2. When the missions complete, **red notification dots** appear over the Falcon Tower / quest board indicating pending reward chests.
+3. **MANDATORY RULE:** **NEVER tap or clear the red dots the day before the event!** Leave all finished missions uncollected in the log.
+4. When the server day rolls over (00:00 server / 02:00 UTC), open the quest board and **clear all red dots in a single click**: this immediately dumps 6,000 to 12,000+ points on second one of the new stage.
+5. Immediately take and run the fresh set of daily missions and claim them before the day ends, securing a **full double batch of daily quest points**.
 
-- When your quest board is completely full, the board timer **freezes** — no new quests arrive while it is full.
-- Keep the board at max minus one instead: complete one quest, and the timer keeps running, refreshing the board.
-- The result is a continuous quest pipeline instead of a frozen one, and far more quests banked for the double-point days.
+### The Stacking Max - 1 Technique:
+* When your quest board is completely full (every slot occupied), the board timer **freezes** — no new quests generate in the background.
+* Keep the board at **maximum minus one** instead: complete quests but leave one slot unstarted so the timer keeps running, generating hidden reserve quests.
 
 ## New Server Notes {#new-server-notes}
 

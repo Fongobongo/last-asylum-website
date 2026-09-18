@@ -23,9 +23,9 @@ Each day activates a specialized scoring category. Below is the complete day-by-
 | **Day 2** | **Survivors & Building** | • Survivor Recruitment = **400 points each**<br>• Construction Speedups = **20 points per 1 minute**<br>• Building Might = **1 point per +1 Might gained** |
 | **Day 3** | **Technology & Research** | • 1 Falcon Mission completed = **1,000 points**<br>• Research Speedups = **20 points per 1 minute**<br>• Tech / Building Might = **1 point per +1 Might gained** |
 | **Day 4** | **Heroes & Healing** | • Hero Recruitment = **400 points per Ticket**<br>• Skill Badges = **10 points per 1 Badge used**<br>• Antitoxin consumed = **1 point per 660 units** |
-| **Day 5** | **Total Force & Troops** | • Training / Promoting troops (scales by Tier T7–T10)<br>• All Speedups (Build, Research, Training) = **20 points per 1 min** |
+| **Day 5** | **Total Force & Troops** | • Training / Promoting troops (scales by Tier T7–T10)<br>• 1 Falcon Mission completed = **1,000 points**<br>• All Speedups (Build, Research, Training) = **20 points per 1 min** |
 | **Day 6** | **Elite Operations** | • UR Caravan completed = **5,000 points**<br>• UR Secret Operation = **2,000 points**<br>• Universal Speedups = **20 points per 1 min** |
-| **Day 7** | **Final Chaos** | • **TOTAL MISSIONS**: All tasks from previous days grant points!<br>• Any Speedups = **20 points per 1 min** |
+| **Day 7** | **Final Chaos** | • **TOTAL MISSIONS**: All tasks from previous days grant points (including Falcon Missions = **1,000 points**)!<br>• Any Speedups = **20 points per 1 min** |
 
 ---
 
@@ -49,8 +49,20 @@ As highlighted by Korpez Gaming in community video breakdowns:
 ### 3. Pre-Reset Gathering Timing (server midnight, 02:00 UTC)
 Dispatch all your troop marches to high-level resource nodes 4–6 hours prior to the reset of **Day 1** and **Day 7**. Time their return so they arrive immediately after the server midnight (02:00 UTC), securing instant leaderboard momentum without spending stamina.
 
-### 4. Hoard Falcon Missions (Stacking Max - 1)
-Do not claim Falcon missions as soon as they refresh. Let completed missions bank in your log using the "Max - 1" rule (keep one slot open so the timer doesn't freeze) and claim them exclusively on **Day 1** and **Day 3**, where each mission grants **1,000 bonus points**.
+### 4. Falcon Missions: Claim on Days 1, 3, 5, 7 & The "Red Dot" Stacking Trick
+In Supreme Healer, points for Falcon Missions are awarded strictly on **Days 1, 3, 5, and 7** (**1,000 points** per mission). On Days 2, 4, and 6, no points are awarded for them!
+
+#### How to Stack Missions (The Pre-Day "Red Dot" Rule):
+* **The Day Before a Scoring Day** (Sunday before Day 1, Tuesday before Day 3, Thursday before Day 5, Saturday before Day 7):
+  * Dispatch heroes to complete all available Falcon missions.
+  * When each mission finishes, a **red notification dot** appears over the Falcon Tower / mission journal.
+  * **GOLDEN RULE:** **DO NOT collect the reward or clear the red dots the day before the scoring day!** Leave all completed missions sitting in the journal.
+  * Keep at least one unstarted slot open on the board ("Max - 1" rule) so the background refresh timer continues generating missions.
+
+#### Daily Reset Trigger (00:00 server / 02:00 UTC):
+* As soon as Day 1, 3, 5, or 7 activates, open the Falcon Tower and **claim all banked red dots in seconds**.
+* You instantly secure **6,000 to 12,000+ free points** right on minute one of the new stage!
+* Immediately dispatch the fresh set of daily missions and claim them before the day ends, locking in **double the daily point volume** on every single scoring day (1, 3, 5, 7).
 
 ### 5. The "Frozen Hammer" Rule
 When high-value upgrades (such as Sanctuary, Lab, or Radar) finish ahead of schedule, **do not tap the floating hammer icon**. Leave the completed building in pending state and claim it only after Day 2 or Day 5 begins to score maximum Might points with zero speedup consumption.
