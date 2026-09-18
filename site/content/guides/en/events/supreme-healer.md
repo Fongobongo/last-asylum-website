@@ -1,90 +1,175 @@
 ---
 title: "Supreme Healer: Complete Event Guide"
-description: "7-day scoring schedule, day-by-day resource allocations, stamina stockpiling, Falcon missions, antitoxin usage, and dual rewards with Daily Survival."
+description: "Full 7-day scoring schedule, day-by-day resource allocation, stamina stacking, Falcon missions, antitoxin, speedup preservation, and double dipping with Daily Survival."
 lang: en
-updated: "2026-09-04"
+updated: "2026-09-18"
 videoTopic: supreme_healer
 type: event
 ---
 
-The **Supreme Healer (Top Healer)** event is the ultimate 7-day competitive tournament in Last Asylum: Plague. It tests your micromanagement, inventory planning, and discipline. Unlike standard pay-to-win sprints, Supreme Healer is routinely won by strategic F2P and low-spender players who properly hoard Stamina, Falcon missions, Antitoxin, and building timers.
+The **Supreme Healer (Top Healer)** event is the premier 7-day competitive tournament in Last Asylum: Plague. It tests your micromanagement, inventory planning, and resource patience. Unlike standard pay-to-win sprints, Supreme Healer is routinely won by strategic F2P and low-spender players who properly hoard Stamina, Falcon missions, Antitoxin, and carefully preserve and allocate speedups to matching days.
 
-This guide breaks down all 7 event phases, exact scoring multipliers, and battle-tested tips from top alliance leaders.
-
----
-
-## 🗓️ 7-Day Scoring Schedule {#schedule}
-
-Each day activates a specialized scoring category. Below is the complete day-by-day scoring matrix:
-
-| Day | Focus | Actions & Points Multipliers |
-|---|---|---|
-| **Day 1** | **Gathering & Stamina** | • 1 Stamina spent = **100 points**<br>• 1 Falcon Mission completed = **1,000 points**<br>• Gathering: 1 point per 100 Wood/Food or 60 Herbs |
-| **Day 2** | **Survivors & Building** | • Survivor Recruitment = **400 points each**<br>• Construction Speedups = **20 points per 1 minute**<br>• Building Might = **1 point per +1 Might gained** |
-| **Day 3** | **Technology & Research** | • 1 Falcon Mission completed = **1,000 points**<br>• Research Speedups = **20 points per 1 minute**<br>• Tech / Building Might = **1 point per +1 Might gained** |
-| **Day 4** | **Heroes & Healing** | • Hero Recruitment = **400 points per Ticket**<br>• Skill Badges = **10 points per 1 Badge used**<br>• Antitoxin consumed = **1 point per 660 units** |
-| **Day 5** | **Total Force & Troops** | • Training / Promoting troops (scales by Tier T7–T10)<br>• 1 Falcon Mission completed = **1,000 points**<br>• All Speedups (Build, Research, Training) = **20 points per 1 min** |
-| **Day 6** | **Elite Operations** | • UR Caravan completed = **5,000 points**<br>• UR Secret Operation = **2,000 points**<br>• Universal Speedups = **20 points per 1 min** |
-| **Day 7** | **Final Chaos** | • **TOTAL MISSIONS**: All tasks from previous days grant points (including Falcon Missions = **1,000 points**)!<br>• Any Speedups = **20 points per 1 min** |
+This guide provides the complete 7-day schedule, the exact day-by-day resource allocation matrix, advanced stacking mechanics, and how to double dip with Survival Battle for top-tier milestone chests.
 
 ---
 
-## 🎒 Survival Backpack (Pro Tips) {#pro-tips}
+## 🗓️ Complete 7-Day Scoring Schedule {#schedule}
 
-Veterans dominate Supreme Healer by exploiting these core timing and optimization mechanics:
+Each day activates an exclusive scoring category. Pay special attention to what scores points—and what does NOT:
 
-### 1. The 20-Minute Batch Healing Secret (Alliance Help Exploitation)
-One of the most powerful tactical mechanics in Last Asylum:
-* **The Beginner Mistake:** Putting 20,000 wounded troops into the hospital in a single batch with a 24-hour timer. Alliance members tap "Help", reducing the clock by a minor percentage, forcing you to burn expensive Healing Speedups.
-* **The Pro Method (Batch Healing):** Heal your wounded soldiers in small batches of **15 to 30 minutes** (depending on your Embassy level and alliance help capacity).
-* **The Result:** 15–20 alliance help taps instantly drop the timer **straight to 0 seconds with zero speedups and zero diamonds spent**!
-* Repeating this cycle during PvP warfare allows you to heal tens of thousands of troops for free while generating an avalanche of healing points on Day 4 and Day 7 of Supreme Healer.
+| Day | Daily Focus | Scoring Actions & Point Multipliers | Critical Rules & Pitfalls |
+|---|---|---|---|
+| **Day 1** | **Gathering & Stamina** | • 1 Stamina spent = **100 points**<br>• 1 Falcon Mission completed = **1,000 points**<br>• Gathering: 1 pt per 100 Wood/Food or 60 Herbs | ❌ Do NOT burn building or tech speedups.<br>✅ Dump stamina potions on zombies and bosses. |
+| **Day 2** | **Survivors & Building** | • Survivor Recruitment = **400 points each**<br>• Construction Speedups = **20 points per 1 min**<br>• Building Might = **1 point per +1 Might gained** | ❌ Falcon missions award 0 points today!<br>❌ Do NOT use research or troop speedups. |
+| **Day 3** | **Technology & Research** | • 1 Falcon Mission completed = **1,000 points**<br>• Research Speedups = **20 points per 1 min**<br>• Research/Tech Might = **1 point per +1 Might gained** | ⚠️ **WARNING: NO POINTS FOR BUILDINGS ON DAY 3!**<br>Building speedups and completed constructions grant 0 points! |
+| **Day 4** | **Heroes & Healing** | • Hero Recruitment = **400 points per Ticket**<br>• Skill Badges = **10 points per 1 Badge used**<br>• Antitoxin consumed = **1 point per 660 units** | ❌ Falcon missions award 0 points today!<br>✅ Flush stored serum to heal infected patients. |
+| **Day 5** | **Total Force & Troops** | • Training / Promoting troops (scales by Tier T7–T10)<br>• 1 Falcon Mission completed = **1,000 points**<br>• All Speedups (Build, Tech, Troops) = **20 pts per 1 min** | ✅ Use the Promotion trick (T1 → T8/T9).<br>✅ Claim held "Frozen Hammer" buildings. |
+| **Day 6** | **Elite Operations** | • UR Caravan completed = **5,000 points**<br>• UR Secret Operation = **2,000 points**<br>• Universal Speedups = **20 points per 1 min** | ❌ Falcon missions award 0 points today!<br>✅ Reroll caravans & secret ops to gold (UR) tier. |
+| **Day 7** | **Final Chaos (All Categories)** | • **TOTAL SHOWDOWN**: Every category from the week scores!<br>• 1 Falcon Mission = **1,000 points**<br>• 1 Stamina = **100 points**<br>• Any Speedups = **20 points per 1 min**<br>• Hero pulls, antitoxin, troops, gathering | 🔥 Prime day to dump Universal Speedups and push for Top 10 leaderboard rankings. |
 
-### 2. The 60,000 Free Skill Badges Secret (Survival Battle Stacking)
-As highlighted by Korpez Gaming in community video breakdowns:
-* The parallel event **Survival Battle** runs in **4-hour rotating cycles** featuring three alternating milestones: Raven upgrades, Hero development, and Territory/Troop training.
-* **The Micro-Research Trick:** Always keep 2–3 cheap 5-to-15 minute technologies unresearched in your Lab. If you are 200–500 points short of the final Gold Chest in a Survival Battle block, start one of these quick techs and finish it with alliance helps—milestone cleared with 0 speedups burned!
-* By aligning these 4-hour blocks with your daily Supreme Healer routine, F2P players consistently bank **up to 60,000 free Skill Badges** and golden UR shard chests every week.
-
-### 3. Pre-Reset Gathering Timing (server midnight, 02:00 UTC)
-Dispatch all your troop marches to high-level resource nodes 4–6 hours prior to the reset of **Day 1** and **Day 7**. Time their return so they arrive immediately after the server midnight (02:00 UTC), securing instant leaderboard momentum without spending stamina.
-
-### 4. Falcon Missions: Claim on Days 1, 3, 5, 7 & The "Red Dot" Stacking Trick
-In Supreme Healer, points for Falcon Missions are awarded strictly on **Days 1, 3, 5, and 7** (**1,000 points** per mission). On Days 2, 4, and 6, no points are awarded for them!
-
-#### How to Stack Missions (The Pre-Day "Red Dot" Rule):
-* **The Day Before a Scoring Day** (Sunday before Day 1, Tuesday before Day 3, Thursday before Day 5, Saturday before Day 7):
-  * Dispatch heroes to complete all available Falcon missions.
-  * When each mission finishes, a **red notification dot** appears over the Falcon Tower / mission journal.
-  * **GOLDEN RULE:** **DO NOT collect the reward or clear the red dots the day before the scoring day!** Leave all completed missions sitting in the journal.
-  * Keep at least one unstarted slot open on the board ("Max - 1" rule) so the background refresh timer continues generating missions.
-
-#### Daily Reset Trigger (00:00 server / 02:00 UTC):
-* As soon as Day 1, 3, 5, or 7 activates, open the Falcon Tower and **claim all banked red dots in seconds**.
-* You instantly secure **6,000 to 12,000+ free points** right on minute one of the new stage!
-* Immediately dispatch the fresh set of daily missions and claim them before the day ends, locking in **double the daily point volume** on every single scoring day (1, 3, 5, 7).
-
-### 5. The "Frozen Hammer" Rule
-When high-value upgrades (such as Sanctuary, Lab, or Radar) finish ahead of schedule, **do not tap the floating hammer icon**. Leave the completed building in pending state and claim it only after Day 2 or Day 5 begins to score maximum Might points with zero speedup consumption.
-
-### 6. Stockpile 150–250 Recruit Tickets & Antitoxin
-* Never burn recruitment tickets on whim. Save **150 to 250 tickets** for Day 4 to effortlessly unlock the top tier milestone chests.
-* Store Antitoxin in your Antitoxin Workshop all week and cure infected survivors in bulk on Thursday (1 point per 660 units consumed).
-
-### 7. The Promotion Trick for Day 5 (Troop Training)
-Do not train high-tier units from scratch on Day 5. Train mass low-tier **T1 soldiers** during off-days, then use the **Promotion** action on Day 5 to promote T1 to T8/T9. It requires 60% less time and yields significantly higher points per minute of training speedup!
-
-### 8. Day 7: Final Chaos (Total Showdown)
-On the final day, every action and all speedup categories award points:
-* **F2P Ranking Strategy:** If pushing for the top 10 server leaderboard, save your **Universal Speedups** specifically for Day 7, where each minute spent advances your position across multiple overlapping leaderboards simultaneously.
+> [!WARNING]
+> **Critical Day 3 Trap (Technology & Research):** Many players mistakenly finish big building upgrades or burn construction speedups on Day 3. **Day 3 rewards ONLY Tech Research and Research Might!** Building timers and construction speedups give exactly **ZERO points**. Hold your building completions for Day 5 or Day 7.
 
 ---
 
-## 🛠️ Event Syncing (Double Dipping) {#syncing}
+## 📊 Day-by-Day Resource Allocation Matrix {#resource-allocation}
 
-The number one rule of competitive scoring is **Double Dipping**.
+To consistently clear top milestone chests without unnecessary spending, follow this inventory schedule:
 
-Always coordinate your speedups with the **Daily Survival Battle**:
-* For example, on **Day 2**, only burn construction speedups during the 4-hour window when Survival Battle also rewards building upgrades.
-* On **Day 4**, open hero recruitment tickets during the Hero Growth block.
-* This allows you to claim top milestone chests in **two independent major events for the cost of one**!
+| Resource / Inventory Item | When to Spend (Scoring Days) | When to NEVER Spend | Tactical Notes |
+|---|---|---|---|
+| **Stamina (Potions / Energy Drinks)** | **Day 1** & **Day 7** | Days 2, 3, 4, 5, 6 | 1x 100-stamina potion = 10,000 immediate event points. |
+| **Falcon Missions (Falcon Tower)** | **Days 1, 3, 5, 7** | **Days 2, 4, 6** | Claim strictly on odd days using the "Red Dot" technique. |
+| **Antitoxin (Healing Serum)** | **Day 4** & **Day 7** | Days 1, 2, 3, 5, 6 | Stockpiled all week in workshop; dumped in Clinic on Day 4. |
+| **Building Speedups** | **Day 2**, **Day 5**, **Day 7** | **Day 3 (0 points!)**, Days 1, 4, 6 | Match with 4-hour Survival Battle construction windows. |
+| **Research Speedups** | **Day 3**, **Day 5**, **Day 7** | Days 1, 2, 4, 6 | Burn exclusively on high-tier technology branches. |
+| **Training Speedups** | **Day 5** & **Day 7** | Days 1, 2, 3, 4, 6 | Use exclusively with the Promotion technique (T1 → T8/T9). |
+| **Universal Speedups** | **Day 7** (Top priority) | Days 1, 2, 3, 4 | "Iron Reserve" for Day 7 leaderboard push or chest top-offs. |
+| **Hero Recruitment Tickets** | **Day 4** & **Day 7** | Days 1, 2, 3, 5, 6 | Save in batches of 150–250+ tickets to sweep all chests. |
+| **Skill Badges** | **Day 4** & **Day 7** | Days 1, 2, 3, 5, 6 | Upgrade premier combat commander skills. |
+| **Gold Caravans / Secret Ops** | **Day 6** & **Day 7** | Days 1–5 | Reroll using diamonds until you hit gold (UR) rank. |
+
+---
+
+## ⚡ Stamina Stacking (Energy Management) {#stamina-stacking}
+
+Stamina is one of the most cost-effective F2P scoring engines on **Day 1** and **Day 7** (1 Stamina = 100 points):
+
+1. **Pre-Reset Natural Energy Cap:**
+   * 10–12 hours before Day 1 begins, stop spending natural stamina.
+   * Allow your energy bar to fill to maximum capacity (100–120/120) by server midnight (00:00 server / 02:00 UTC).
+2. **Stockpiling Inventory Potions:**
+   * Never consume inventory energy potions (10, 20, 50, 100 energy drinks) for casual zombie farming on off-days.
+   * Buy energy potions consistently from the Alliance Shop and VIP Shop, and hoard daily quest rewards.
+3. **Execution on Day 1 & Day 7:**
+   * At server reset, unleash your full natural energy bar and inventory potions on **high-level mutants**, **Plague Lairs**, and **world bosses**.
+   * Every 1,000 stamina consumed generates **100,000 event points**, guaranteeing that you clear the initial chest tiers in minutes.
+
+---
+
+## 🦅 Falcon Missions: Days 1, 3, 5, 7 & The "Red Dot" Rule {#falcon-stacking}
+
+In Supreme Healer, Falcon Missions score strictly on **Days 1, 3, 5, and 7** (**1,000 points** per mission). They provide 0 points on Days 2, 4, and 6!
+
+```mermaid
+flowchart LR
+    A["Pre-Day (Sun, Tue, Thu, Sat)<br>Dispatch Falcon Missions"] --> B["Missions Complete<br>Red Notification Dots Appear"]
+    B --> C["GOLDEN RULE:<br>DO NOT claim rewards!"]
+    C --> D["00:00 Server Reset:<br>Claim all red dots in 5 seconds"]
+    D --> E["Burst: +6,000–12,000 pts!<br>Dispatch new daily mission pool"]
+```
+
+### Step-by-Step Hoarding Procedure:
+* **The Day Before a Scoring Stage** (Sunday before Day 1, Tuesday before Day 3, Thursday before Day 5, Saturday before Day 7):
+  1. Dispatch available heroes on all active Falcon quests.
+  2. As missions complete, **red notification dots** appear over the Falcon Tower and mission log.
+  3. **IRONCLAD RULE:** **DO NOT tap the rewards or clear the red dots the day before the event!** Leave all completed missions waiting in the log.
+  4. **The "Max - 1" Rule:** Leave at least one unstarted slot open on the quest board so the automatic refresh timer continues cycling new missions.
+
+### Server Midnight Reset (00:00 Server Time / 02:00 UTC):
+1. The second Day 1, 3, 5, or 7 goes live, open the Falcon Tower and **claim every banked red dot in a single burst**.
+2. You instantly bank **6,000 to 12,000+ free points** on minute one with zero resource expenditure.
+3. Immediately dispatch and complete the fresh daily quest pool before the day ends, locking in **double the daily point volume** on every single scoring day.
+
+---
+
+## 🧪 Antitoxin Stacking (Healing Serum) {#antitoxin-stacking}
+
+Antitoxin is a powerhouse scoring lever on **Day 4** (Heroes & Healing) and **Day 7** (Final Chaos):
+
+* **Point Value:** 1 point per **660 units** of Antitoxin consumed while treating infected survivors.
+* **Common Rookie Mistake:** Treating infected survivors continuously throughout Days 1, 2, and 3. Doing so wastes millions of serum for zero event credit!
+* **Stockpiling & Execution:**
+  1. Keep your Antitoxin Workshop producing serum 24/7 without interruption.
+  2. Allow minor infections to accumulate safely during the first three days of the week.
+  3. On **Day 4**, open the Clinic and initiate mass treatment rounds, consuming hundreds of thousands of serum units.
+  4. This generates **50,000 to 300,000+ free points** purely from passive production without burning diamonds or speedups.
+
+---
+
+## ⏱️ Speedup Preservation: Strict Discipline & Specialization {#speedups-discipline}
+
+Careless speedup usage is the primary reason players fall short of top milestone rewards. Adhere to strict specialization:
+
+### 1. Construction Speedups
+* **When to Burn:** Strictly on **Day 2** (Building), **Day 5** (Total Might), and **Day 7** (Final Chaos).
+* **Absolute Prohibition:** **NEVER use on Day 3!** On Day 3, construction speedups award exactly **0 points**!
+* **The "Frozen Hammer" Rule:** If a major building upgrade (Sanctuary, Lab) finishes ahead of schedule, do not tap the completed hammer icon. Wait until Day 2 or Day 5 to click and claim the Might gain.
+
+### 2. Research Speedups
+* **When to Burn:** On **Day 3** (Technology) and **Day 7** (Final Chaos).
+* Tech provides compound value: 20 points per minute of speedup + 1 point per +1 point of Research Might gained.
+
+### 3. Training Speedups & The Promotion Trick
+* **When to Burn:** On **Day 5** (Troop Training) and **Day 7** (Final Chaos).
+* **The Promotion Trick (T1 → T8/T9):**
+  * Train cheap Tier 1 units during non-event days.
+  * On Day 5, use the **Promotion** button to upgrade T1 units directly to your highest tier (T8/T9/T10).
+  * Promoting requires **60% less time** than training from scratch while delivering significantly more points per minute of training speedup!
+
+### 4. Healing Speedups & The Batch Healing Secret
+* **How to Save Healing Speedups:**
+  * **Never heal 20,000 wounded soldiers in a 24-hour batch.** Alliance helps only shave off tiny fractions.
+  * **Batch Healing Method:** Heal troops in small batches of **15 to 20 minutes**.
+  * 15–20 alliance help taps from teammates clear the batch **instantly down to 0 seconds with zero speedups spent**.
+  * Repeating this loop clears your entire hospital for free while scoring massive healing points on Day 4 and Day 7.
+
+### 5. Universal Speedups
+* Universal speedups are your high-leverage strategic reserve.
+* **Never burn them early in the week!** Hold them for **Day 7 (Final Chaos)**, where they apply universally across all queues, or use them sparingly to close the final 200–500 points needed for Gold Chest #3 in Survival Battle.
+
+---
+
+## ⚔️ Double Dipping with Survival Battle {#double-dipping}
+
+The premier tactic among top alliances is **Double Dipping**.
+
+The parallel event **Daily Survival Battle** operates on **4-hour rotating cycles**, each offering 3 milestone chests (including the Gold Chest containing Skill Badges, Diamonds, and UR Shards).
+
+```mermaid
+flowchart TD
+    SH["Supreme Healer<br>(24h Daily Stage)"] --> Match{"Align Time Windows"}
+    SB["Daily Survival Battle<br>(4h Rotating Block)"] --> Match
+    Match --> Action["Single Action:<br>Burn speedups / resources during shared window"]
+    Action --> Chest1["Supreme Healer<br>Milestone Chests"]
+    Action --> Chest2["Survival Battle<br>Gold Chest (3/3)"]
+```
+
+### How to Align Blocks for Maximum Rewards:
+1. **Day 2 (Building):**
+   * Wait for the 4-hour Survival Battle block featuring **"Territory Construction / Building Might"**.
+   * Burn construction speedups exclusively within this 4-hour window.
+2. **Day 3 (Technology):**
+   * Wait for the Survival Battle block featuring **"Technology & Research"**.
+   * Apply research speedups to score simultaneously in both events.
+3. **Day 4 (Heroes):**
+   * Open your hoarded recruitment tickets (150–250+) during the **"Hero Growth"** block.
+4. **Day 5 (Troops):**
+   * Execute mass unit Promotions during the **"Troop Training"** block.
+5. **Day 7 (Final):**
+   * Any active Survival Battle block provides dual-event progression.
+
+### The Micro-Research Trick for Free Gold Chests:
+* Keep 2–3 cheap, basic technologies (5–15 minute base research time) unresearched in your Lab.
+* If you are 200–400 points short of Gold Chest #3 in a 4-hour Survival Battle block, start one of these quick techs and complete it with free alliance help clicks.
+* **Net Result:** Clear the Gold Chest for free, preserve your speedups, and bank **up to 60,000 free Skill Badges** every week!
