@@ -150,7 +150,7 @@ Careless speedup usage is the primary reason players fall short of top milestone
   * **Never heal 20,000 wounded soldiers in a 24-hour batch.** Alliance helps only shave off tiny fractions.
   * **Batch Healing Technique:** Queue wounded troops in bite-sized batches of **15–20 minutes** each.
   * 15–20 alliance help taps from teammates clear each queue **instantly in 0 seconds with ZERO speedups consumed**.
-  * *(Help capacity is capped by your **Alliance Hall** level — this single structure replaces the traditional "Embassy" found in other games and enables up to 25–30 helps per queue).*
+  * *(Help capacity is capped by your **Alliance Hall** level, enabling up to 25–30 helps per queue at high levels).*
   * Repeating this loop lets you sweep all healing milestones for free while conserving 100% of your healing speedups for wartime, Day 4 and Day 7.
 
 ### 5. Universal Speedups
