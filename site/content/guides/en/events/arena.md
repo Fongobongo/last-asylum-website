@@ -72,3 +72,74 @@ Ladder mechanics and defense optimization by KorpezGaming ([Last Asylum Players 
 | **2:10** | Building the Trap Squad | Conceal your overpowered 10★ carry behind a squad showing artificially low overall Might. |
 | **3:45** | 4-Hero Formation | Removing one tank cuts apparent power by 20-30%, baiting constant suicidal attacks from rivals. |
 | **5:15** | Top-50 F2P Climb | Defense wins rack up hundreds of ladder points without spending offensive challenge tickets. |
+
+---
+
+## 📚 Reference: Arenas: battles, rewards and rank {#wiki-arenas}
+
+Source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/arenas), client v1.0.87.
+
+## Tools
+
+Arenas turn hero Might into steady income: every battle pays Antitoxin, and every season closes with a diamond payout by rank. There are several arenas, differing in entry, battle count and rewards. The lowest one opens almost immediately, while the higher ones ask for a strong rank in hero Might. Nearly all of the income comes from the free battles, and bought ones return far less than they cost.
+
+## Battles and rewards
+
+The number of free battles depends on the arena, and the spread between them is sixfold.
+
+| Arena | Free battles per day |
+|---|---|
+| Lowest | 5 |
+| Higher ones | 10 each |
+| Separate one, no top-ups | 30 |
+
+A win in the lowest arena gives 50,000 Antitoxin, a loss gives 25,000, plus glory medals. Five free battles come to 250,000 Antitoxin a day, and Antitoxin goes straight into hero levels. The source is steady and costs nothing beyond the five battles themselves.
+
+## Season rewards: diamonds by rank
+
+Beyond the daily battles, arenas pay out by season rank, and they pay in diamonds. One-off sources such as boss tasks, growth goals and Sanctuary level rewards total more, yet they run dry, while the arena pays again every season. Qualifying is easier than it looks, since the payouts reach down to the thousandth places. The table holds the extremes for each arena.
+
+| Arena | First place | Bottom payout |
+|---|---|---|
+| Lower (two) | 1,010 diamonds | 85 diamonds down to rank 15,000 |
+| Middle | 1,000 diamonds and 5,000 skill badges | 50 diamonds and 1,000 badges |
+| Upper | 4,000 diamonds and 21,000 skill badges | 200 diamonds and 3,000 badges |
+| Top | 15,200 diamonds | 3,000 diamonds down to rank 200 |
+
+The top arena has only ten reward steps and two hundred places, yet its last place still pays three thousand diamonds, more than first place on a lower arena.
+
+The skill badges from the middle and upper arenas matter on their own terms: 21,000 badges is an eighth of a full SR skill, which costs 170,200, and a twentieth of an SSR or UR skill at 436,700.
+
+## Might needed for a rank
+
+Arena ranks are not held by live players alone. Trainer bots with fixed Might sit among them, and they show what a squad needs to reach a given place.
+
+| Rank | Opponent Might |
+|---|---|
+| 1 | 4,372,700 |
+| 3 | 3,587,400 |
+| 10 | 2,926,300 |
+| 50 | 2,647,394 |
+| 100 | 2,265,290 |
+| 300 | 1,325,315 |
+| 500 | 957,000 |
+| 1000 | 509,524 |
+| 2000 | 247,776 |
+
+Might nearly halves between rank 300 and rank 100, so climbing out of the third hundred into the first costs roughly a million Might. Higher up the table each place costs more than the one below it.
+
+## Refreshes and challenges
+
+The opponent list refreshes three times a day for free, and further refreshes are paid: up to ten in the lower and middle arenas, five in the upper one. The top arena has no refreshes at all, since it hands out thirty battles a day and none of them can be bought.
+
+The lowest arena adds a separate rule for challenges from the rank table. Only a player inside the top ten may issue one, and the target has to stand no lower than rank fifty. Everyone else fights the opponents the arena picks.
+
+## Buying extra battles
+
+Not every arena allows top-ups. Where it does, each purchased battle costs more than the last: 100, 200, 300, 400 diamonds and then 500 apiece. Five bought battles come to 1,500 diamonds and return nothing close to that.
+
+## What it means in practice
+
+Hero Might converts into resources here directly, and a higher rank opens the arenas with the larger rewards. The free battles deliver that income at no cost, which is why they are taken every day, even on days with no appetite for fighting. Which squad to field against a particular opponent from the list is suggested by the arena team builder: a battle simulation runs through the marked heroes and shows the five with the best outcome.
+
+##

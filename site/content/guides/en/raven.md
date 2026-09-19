@@ -150,3 +150,60 @@ Verified values from game client data (v1.0.87), source: [wiki-last-asylum.com](
 | Night Raven Mask | Raven HP 720,000, hero HP 400,000, hero DEF 2,860 |
 | Raven Feather Cloak | Raven ATK 5,150, raven DEF 5,150, hero ATK 2,860 |
 
+---
+
+## 📚 Reference: Falcon Quests: types and Sanctuary level {#wiki-falcon-tasks}
+
+Source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/falcon-tasks), client v1.0.87.
+
+Falcon Quests are handed out by the Falcon Tower itself: the list refreshes and the player picks from it. Each quest carries a quality from 1 to 5, quality decides the size of the reward, and there are 8 hours to finish. The point worth knowing is that which quests show up depends on the Sanctuary level, so city progress changes the draw itself and not only the payout.
+
+## Quest types
+
+The set of quests is fixed, and they differ in what they cost in energy and what they bring back.
+
+| Task | Energy | Drops |
+|---|---|---|
+| Efficient Gathering | free | diamonds, grain, herbs |
+| Blight Extermination | 10 | Raven Fruit, Resource Supply (General), herbs |
+| Defeat Blight Legion | 20 | Raven Fruit, Resource Supply (General), grain |
+| Pirate Legacy | free | Resource Supply (General), Lv.1 Raven Gear Chest, Raven Essence |
+| Aid Alliance Members | 10 | Resource Supply (General), grain, herbs |
+| Supply Recovery | free | Gearstone, Resource Supply (General), herbs |
+| Eliminate Rebels | 10 | Raven Fruit, Resource Supply (General), grain |
+| Rescue the Wounded | 10 | Resource Supply (General), grain, timber |
+| Eliminate Threats | 20 | Resource Supply (General), Survivor Recruit Ticket, grain |
+| Rescue Refugee | free | Nurse Alice Shard, Attendant Lancelot Shard, Explorer Dorota Shard |
+| Celia's Trial 1 | free | 1K Antitoxin, Skill Badge, hero XP |
+
+## Sanctuary level decides what shows up
+
+Quest quality is random, but the weights depend on the difficulty level, which maps one to one to the Sanctuary level. Difficulty cannot be raised on its own, as it follows the territory. At level 1, quality four is 18% of rolls and quality five 9%. At level 35, quality four is 41% and quality five 16%.
+
+The Sanctuary therefore does more than raise the reward per quest: it reshapes the draw, and the expensive quests start turning up several times as often. That is one more reason not to stall it, and the game never spells it out.
+
+Half the quests cost no energy at all, namely gathering, supply recovery, refugee rescue and digs, which makes them worth taking every time. Only combat quests cost energy, 10 for hunts and 20 for rally targets.
+
+## How many quests the tower holds
+
+The Falcon Tower refreshes every 6 hours: a new batch of quests lands in storage, and a quest moves to the visible list once a slot there frees up. How many quests are visible, how many wait in storage and how many arrive per refresh depend on the tower level, and the table shows what each level gives. The level grows with the number of rewards claimed, and level fifteen takes 5000 quests.
+
+| Tower level | Quests visible | In storage | Per refresh | Helpers | Resources |
+|---|---|---|---|---|---|
+| 1 | 5 | 25 | 6 | 5 | ×1.00 |
+| 3 | 6 | 25 | 7 | 5 | ×1.05 |
+| 5 | 7 | 25 | 9 | 5 | ×1.05 |
+| 7 | 8 | 30 | 10 | 10 | ×1.10 |
+| 9 | 9 | 35 | 11 | 10 | ×1.10 |
+| 10 | 9 | 40 | 11 | 15 | ×1.15 |
+| 12 | 10 | 40 | 12 | 15 | ×1.15 |
+| 13 | 11 | 40 | 12 | 20 | ×1.20 |
+| 15 | 12 | 40 | 13 | 20 | ×1.20 |
+
+## Whether stockpiling pays
+
+Stockpiling quests pays only for the Alliance Duel: on days one, three and five every Falcon Quest handed in brings 10 000 points. Players complete a quest but leave the reward unclaimed, and it stays in the visible list with a red dot until the right day. By player observation a completed quest never burns, an uncompleted one disappears after 8 hours, and Wandering Blight quests do not count against storage.
+
+The ceiling of such a stockpile is the visible quests plus the storage, and the storage fills in under a day: 30 hours at tower level one, 18-24 hours from level five on. After that every refresh is wasted, while the tower hands out from 24 quests a day at level one to 52 at level fifteen. Stockpiling longer than a day therefore does not pay: on duel days two and four quests are completed and kept, on days one, three and five everything is handed in, and at the weekend rewards are claimed at once. Stockpiling does not affect the tower level, it only delays it.
+
+##

@@ -436,3 +436,163 @@ Verified values from game client data (v1.0.87), source: [wiki-last-asylum.com](
 | Grain Level Supply (SR) | 68,400 | 197,820 | x2.9 |
 | Timber Level Supply (SR) | 68,400 | 197,820 | x2.9 |
 
+---
+
+## 📚 Reference: Spending: rate, subscriptions and the contract {#wiki-spending}
+
+Source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/spending), client v1.0.87.
+
+## Tools
+
+Spending in this game comes down to diamonds: nearly everything sold for money is bought with them, and offers are compared through them. The general rule is simple, since a bundle at the same price almost always returns the same diamonds and something else besides, which makes plain diamonds a poor purchase. What follows covers the rate, the second currency, one-off purchases such as the permanent build queues, the subscriptions and the places where diamonds go furthest.
+
+## The rate
+
+Diamonds sell at one rate: 100 per dollar, rounded up to the nearest hundred. There is no bulk discount, every tier converts the same. A separate offer doubles the diamonds on a first purchase.
+
+## The second currency
+
+Vouchers are bought separately and buy any paid bundle at its price in cents, so a $4.99 bundle costs 499 vouchers. Buying vouchers does not count towards top-up events and quests.
+
+## Bundles almost always return the diamonds in full
+
+A paid bundle holds exactly as many diamonds as the plain tariff of the same price would give, and the goods come on top. Of 1,446 priced bundles, 1,195 work this way. Buying plain diamonds is therefore nearly pointless, because a bundle at the same price gives the same diamonds plus something else. Bundles are best compared by their contents rather than by their diamond count.
+
+There are 251 exceptions, and 71 of them hold no diamonds at all.
+
+## Permanent build queues
+
+There are four build queues, and three of them are sold once per account:
+
+| What | Price | Contents besides the queue |
+|---|---|---|
+| Permanent build queue (second) | $1.99 | 200 diamonds, 10 five-minute speed-ups, VIP points, resource supplies |
+| Permanent 3rd build queue | $9.99 | 1,000 diamonds, 100 speed-ups, SSR resource supplies |
+| Permanent 4th build queue | $19.99 | 2,000 diamonds, 190 speed-ups, SSR resource supplies |
+
+Each is a one-time purchase and stays forever, and the diamonds inside follow the usual tariff, so the extra money pays for the queue itself.
+
+## Price anchors
+
+A few prices are worth keeping in mind, since any shop offer can be measured against them.
+
+| Item | Price |
+|---|---|
+| Recruit Ticket | 398 diamonds |
+| Guaranteed UR hero | 19,900 diamonds |
+| Ticket for glory medals | 2,000 |
+| Ticket for expedition medals | 300 |
+
+Speed-ups get cheaper per minute the larger the denomination. Shields are cheaper for alliance coins than for diamonds.
+
+## Subscriptions
+
+Alongside one-off bundles there are recurring passes, and what makes them interesting is less the daily payout than the standing bonuses, which cannot be had any other way.
+
+Premium monthly pass, $24.99 for 30 days: an extra squad, +15% gathering speed for all squads, +5% build speed, -5% damage from monsters, and daily 100 diamonds, 2 Recruit Tickets, 100 stamina and 62 five-minute speed-ups. The extra squad weighs more than the diamonds. There are four squads, unlocked at Sanctuary 4, 8 and 20, and the fourth works only while the pass is active. It also adds two covert-operation dispatches, since dispatches are counted two per squad.
+
+Age weekly pass, $4.99 for 7 days: Resistance +250, march speed +5%, daily 100 diamonds, 20,000 lord specialization XP, 50 stamina and 80 speed-ups.
+
+Passes are worth judging by their bonuses rather than their contents, because the diamonds roughly match the tariff while the percentages and the extra squad run for the whole term.
+
+## Development contract
+
+The Development Contract at $19.99 is a one-per-account purchase that pays nothing up front: diamonds arrive as the Sanctuary grows, in twelve payouts from level 6 to level 30, 50,000 diamonds in total.
+
+| Sanctuary level | Diamonds |
+|---|---|
+| 6, 8, 10 | 1,200 each |
+| 12, 14 | 1,400 each |
+| 16 | 1,600 |
+| 18 | 2,000 |
+| 21 | 3,000 |
+| 23 | 4,000 |
+| 25 | 6,000 |
+| 28 | 9,000 |
+| 30 | 18,000 |
+
+A plain tariff at that price gives 2,000 diamonds, so the contract returns twenty-five times the face value, but more than half of it lands at levels 28 and 30.
+
+## Where diamonds pay back best
+- The daily buyout of skill badges and Gearstones beats one-off purchases.
+- Level hero skills wide, not deep: top skill levels cost far more than the first ones, so five mid-level skills beat one maxed skill.
+- Buying extra arena battles does not pay back: the price climbs with every purchase, the reward does not.
+
+## Shops
+
+There are seventeen exchange shops, each with its own currency: diamonds, glory medals, expedition medals, alliance coins and others. The same item costs differently across them, so the neighboring counter is worth a look before buying.
+
+Two counters are worth remembering. The cheapest line in the alliance shop is the survivor token at 4 coins with a cap of 2,500, and no other free source of tokens exists in the game, see Survivors. The Lion coin shop sells a universal awakening fragment for 120 coins with a cap of 10, the second free source of those fragments after Abyss boss tasks, see Awakening shards.
+
+Whether a second or third queue is worth it for a particular city is visible in the build calculator: an extra queue is added there with one button and the upgrade order is recomputed.
+
+##
+
+---
+
+## 📚 Reference: VIP: perks, points and level gifts {#wiki-vip}
+
+Source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/vip), client v1.0.87.
+
+VIP is a separate track fed by VIP points, which come inside paid bundles. There are twenty levels, and the value is spread very unevenly across them: most of the convenience arrives by level five, combat percentages wait until level twelve, and the upper half of the scale costs out of all proportion to what it adds.
+
+## What each level gives
+
+Privileges accumulate from level to level, and the table shows where each new bonus switches on.
+
+| Privilege | VIP 1 | VIP 3 | VIP 5 | VIP 8 | VIP 12 | VIP 20 |
+|---|---|---|---|---|---|---|
+| Hero HP↑ | - | - | - | - | +4% | +13% |
+| Hero ATK↑ | - | - | - | - | +4% | +13% |
+| Hero DEF↑ | - | - | - | - | +4% | +13% |
+| Overall March Speed↑ | - | - | +5% | +8% | +13% | +20% |
+| Grain Output↑ | +3% | +8% | +13% | +20% | +25% | +25% |
+| Timber Output↑ | - | +8% | +13% | +20% | +25% | +25% |
+| Herb Output↑ | - | +8% | +13% | +20% | +25% | +25% |
+| Building Construction Speed↑ | - | +10% | +15% | +30% | +50% | +50% |
+| Research Speed↑ | - | - | - | +8% | +18% | +25% |
+| Training Speed↑ | - | - | - | - | - | +15% |
+| Increases soldier capacity in barracks | - | - | - | +5% | +5% | +10% |
+| Increases Healing Speed | - | - | - | - | +10% | +30% |
+| Hero Gear Crafting Speedup | - | - | +25% | +25% | +30% | +50% |
+| Quick Collect (permanently activated with Lv.20 Sanctuary) | yes | yes | yes | yes | yes | yes |
+| Enable auto dispatch for Covert Operation | - | - | yes | yes | yes | yes |
+| Activate super mode for Covert Operation | - | - | - | - | yes | yes |
+| Unlock Expedition Battle Quick Challenge | - | - | - | yes | yes | yes |
+| Display VIP level during chat | - | yes | yes | yes | yes | yes |
+
+## Points needed
+
+The price of a level climbs much faster than the list of privileges, and the table shows where the gap opens up.
+
+| VIP | Points needed |
+|---|---|
+| 1 | 0 |
+| 3 | 1,050 |
+| 5 | 11,000 |
+| 8 | 55,000 |
+| 12 | 550,000 |
+| 20 | 50,000,000 |
+
+Level five costs 11,000 points and is the cheapest meaningful stop. VIP 5 turns on auto-dispatch for covert operations, so the game stops demanding a manual visit every day, and it adds +13% to all three productions, +15% build speed and +25% gear forging speed.
+
+Combat percentages, meaning hero HP, ATK and DEF, do not appear at all until VIP 12. For anyone not planning to spend heavily, level five is a sensible place to stop.
+
+## VIP for diamonds
+
+VIP status itself is extended with diamonds regardless of level: 30 days cost 10,000 diamonds and 7 days 3,000, there is no purchase cap, and a month works out a quarter cheaper than four weeks. Players who buy no bundles keep VIP running this way and call it the best use of diamonds, because the build and research speed applies to every project. The monthly card from the shop, for comparison, brings the same 30 days of status and four card bonuses on top of 2,500 diamonds and 2,500 VIP points.
+
+## Level gifts
+
+Every VIP level pays out a one-time gift. Only one thing in it carries real value, universal hero fragments, while the rest is level supplies, one pack of each kind per level. Across all twenty levels the gifts add up to this.
+
+| Item | Total |
+|---|---|
+| Universal hero fragment UR | 27 |
+| Universal hero fragment SSR | 12 |
+| Universal hero fragment SR | 3 |
+| Level supplies of each kind | 210 |
+
+The first UR fragment sits at level ten, which already costs 155,000 points. From level sixteen to twenty the gift stops growing in fragments at all, staying at three UR everywhere. The gifts are therefore no reason to chase the top levels, since they only pay off in the middle.
+
+##

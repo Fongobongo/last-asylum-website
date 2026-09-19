@@ -203,3 +203,33 @@ Once the macro priority above is running, these are the in-tree shortcuts that s
 - **Prosperous Economy** — unlock Herb Garden, then **leave the tree**: everything else there is worse than the same research days spent in military.
 - **Squad tab** (post-Soldier) — pad **March Capacity** and **Squad Attack** for your primary class; park the others at Lv 3. The world-boss-defense nodes can be left at 3 — maxing them doesn't pay back.
 
+---
+
+## 📚 Reference: Building limits: why herbs run dry {#wiki-building-limits}
+
+Source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-limits), client v1.0.87.
+
+## Tools
+
+Building limits cap how many buildings of one kind a city may hold, and the real cap sits higher than the building panel suggests. The lab carries nodes that add one more building of each kind, and with them the allowance looks like this.
+
+| Building | Total allowed |
+|---|---|
+| Farm | 5 |
+| Lumberyard | 5 |
+| Herb garden | 5 |
+| Training ground | 4 |
+| Infirmary | 4 |
+| Barracks | 4 |
+
+A fifth production building adds a quarter to the output of its resource and costs less than another level on the buildings already standing. Finding out about it is the hard part, since the node hides in the research tree rather than in the building panel.
+
+## Why herbs run dry in the mid game
+
+The allowances do not open together, and the herb schedule lags behind. The fourth farm and the fourth lumberyard open at Sanctuary level twelve, the fourth herb garden only at nineteen. For seven levels in a row grain and wood come from four buildings each while herbs come from three.
+
+Hence the feeling that herbs always run out first. The feeling is accurate, and it comes from the unlock schedule rather than from how the player spends.
+
+How many copies a city can have, Lab nodes included, is shown by the build calculator: every tile is labelled with the Sanctuary level that unlocks it.
+
+##

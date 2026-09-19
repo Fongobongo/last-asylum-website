@@ -88,3 +88,28 @@ During the Rematch and Playoff stages, every player on every server (including t
 * **Exclusive Champion Avatar Frame:** A prestigious animated server-wide status symbol.
 * **Champion Declaration:** The winner writes a personalized victory slogan showcased prominently across the tournament UI.
 * **Tier Milestone Chests:** Diamonds, elite skill badges, and resources awarded at every cleared bracket tier.
+
+---
+
+## 📚 Reference: Leadership {#wiki-leadership}
+
+Source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/leadership), client v1.0.87.
+
+Leadership is a hero's troop capacity, meaning how many soldiers the hero takes on a march. Combat rests on that number, because soldiers die during a fight and a larger march both deals and absorbs more damage before it breaks.
+
+Six permanent sources feed leadership, and their contributions are far from equal. The table lists them from the most generous downwards, with the value at the start and at the maximum.
+
+| Source | Start | Maximum |
+|---|---|---|
+| Hero levels (to 150) | 50 | 350 |
+| Faction statue (to level 30) | 10 | 100 |
+| Two class technologies | 0 | 20 |
+| Survivor on duty | 0 | 10 |
+| Age Beacon relic | 0 | 10 |
+| Black mine control | 0 | 50 |
+
+Permanent sources add up to 490 soldiers under one hero, 350 of it from hero levels alone. Statues give 100, technologies 20, and holding the black mine adds 50 for as long as the alliance keeps it.
+
+The practical conclusion is short. Hero levels are the only real lever on the number, and the faction statue comes second, with everything else rounding the total out.
+
+##

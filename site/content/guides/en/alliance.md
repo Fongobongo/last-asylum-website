@@ -98,3 +98,164 @@ Alliance Honor earned through daily donations and assistance should be spent wit
   * **Recruiter:** Screens applicants, reaches out to active map wanderers, manages roster spots.
   * **Builder:** Plans banner grids and fortress expansion.
 * **R3 – R1:** Core fighters, gatherers, and recruits.
+
+---
+
+## 📚 Reference: Alliance League: Elite, Epic and Mythic {#wiki-alliance-league}
+
+Source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/alliance-league), client v1.0.87.
+
+Alliance League is a seasonal competition between alliances with promotion through divisions, and the reward depends on two ranks at once: where the alliance finished and where the player finished inside it. Sitting in a strong alliance is not enough on its own, because personal placement decides which row of the reward table applies. Payment comes mostly in Study Scrolls.
+
+Every league has its own reward table, and a row is picked by the alliance rank together with the player's rank inside it.
+
+## Elite League
+
+The reward depends on both the alliance rank and the player's rank inside it.
+
+| Alliance rank | Rank inside alliance | Study Scrolls |
+|---|---|---|
+| 1-1 | 1-10 | 1,100 |
+| 1-1 | 11-30 | 1,050 |
+| 1-1 | 31-100 | 1,000 |
+| 2-3 | 1-10 | 1,000 |
+| 2-3 | 11-30 | 950 |
+| 2-3 | 31-100 | 900 |
+| 4-16 | 1-10 | 900 |
+| 4-16 | 11-30 | 800 |
+| 4-16 | 31-100 | 750 |
+
+## Epic League
+
+The reward depends on both the alliance rank and the player's rank inside it.
+
+| Alliance rank | Rank inside alliance | Study Scrolls |
+|---|---|---|
+| 1-1 | 1-10 | 2,100 |
+| 1-1 | 11-30 | 1,950 |
+| 1-1 | 31-100 | 1,650 |
+| 2-3 | 1-10 | 1,650 |
+| 2-3 | 11-30 | 1,500 |
+| 2-3 | 31-100 | 1,400 |
+| 4-16 | 1-10 | 1,400 |
+| 4-16 | 11-30 | 1,250 |
+| 4-16 | 31-100 | 1,100 |
+
+## Mythic League
+
+The reward depends on both the alliance rank and the player's rank inside it.
+
+| Alliance rank | Rank inside alliance | Study Scrolls |
+|---|---|---|
+| 1-1 | 1-10 | 3,120 |
+| 1-1 | 11-30 | 2,980 |
+| 1-1 | 31-100 | 2,760 |
+| 2-3 | 1-10 | 2,760 |
+| 2-3 | 11-30 | 2,550 |
+| 2-3 | 31-100 | 2,380 |
+| 4-16 | 1-10 | 2,380 |
+| 4-16 | 11-30 | 2,250 |
+| 4-16 | 31-100 | 2,100 |
+
+The spread runs from 750 scrolls at the bottom of the lowest league to 3,120 for first place in the highest. For comparison, an Alliance Duel week pays 840 scrolls for a win and 420 for a loss, and the whole Duel research branch costs 54,110 scrolls, so one league season outweighs a duel week.
+
+Moving up a division nearly doubles the reward, while climbing from rank 100 to rank 10 inside the same alliance adds much less, which makes promotion the more valuable of the two goals.
+
+##
+
+---
+
+## 📚 Reference: Alliance Technologies: general and resource {#wiki-alliance-tech}
+
+Source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/alliance-tech), client v1.0.87.
+
+Alliance Technologies are funded by the whole alliance and then work for every member individually. There are 30 of them, and they share one trait: every ten-level technology costs the same, 5,500 herbs and 110 hours to reach the maximum. Price says nothing about priority, so the order comes down to the size of the effect.
+
+The technologies fall into two groups, general and resource. The tables show what each one gives at maximum level.
+
+## General
+
+The technologies of this branch, their cap and what each gives at max:
+
+| Technology | At max | What it does |
+|---|---|---|
+| Auto Rally | on | Offline alliance members will automatically dispatch troops to join the rally. |
+| Gathering Speedup | +40% | Increases Resource Gathering Speed for alliance members. |
+| Fast Build | +25% | Increases Construction Speed for alliance members. |
+| Grain Output | +25% | Increases Grain Output for alliance members' cities. |
+| Herb Output | +25% | Increases Herb Output for alliance members' cities. |
+| Research Speedup | +25% | Increases Tech Research Speed for alliance members. |
+| Timber Output | +25% | Increases Timber Output for alliance members' cities. |
+| Crafting Speedup | +20% | Increases Gear crafting speed for alliance members. |
+| Grain Protection | +12.5% | Increases Grain protection limit for alliance members. |
+| Herb Protection | +12.5% | Increases Herb protection limit for alliance members. |
+| Timber Protection | +12.5% | Increases Timber protection limit for alliance members. |
+| Crafting Technique | +10% | Reduces Gear crafting Herb cost for alliance members. |
+| Construction Cost | +5% | Reduces construction resource cost for alliance members. |
+| Research Upgrade | +5% | Reduces Tech Research resource cost for alliance members. |
+| Enhance Help | +300 s | Enhances Alliance Help effect, reducing time additionally with each help. |
+
+## Resource
+
+The technologies of this branch, their cap and what each gives at max:
+
+| Technology | At max | What it does |
+|---|---|---|
+| Quick Garrison | +50% | Increases Troop March Speed when garrisoning for alliance members. |
+| Garrison Attack | +10% | Increases Hero ATK when garrisoned for alliance members. |
+| Garrison Defense | +10% | Increases Hero DEF when garrisoned for alliance members. |
+| Garrison HP | +10% | Increases Hero HP when garrisoned for alliance members. |
+| Garrison Speedup | +10% | Increases Troop March Speed when attacking cities for alliance members. |
+| March Aid | +10% | Increases Troop March Speed when attacking other Doctors' towns for alliance members. |
+| Rally Attack | +10% | Increases Hero ATK when joining a rally for alliance members. |
+| Rally Defense | +10% | Increases Hero DEF when joining a rally for alliance members. |
+| Rally HP | +10% | Increases Hero HP when joining a rally for alliance members. |
+| Troop Load | +10% | Increases Troop Load for alliance members. |
+| Barracks Expansion | +5% | Increases barracks capacity for alliance members. |
+| Coordinated Training | +5% | Reduces soldier training resource cost for alliance members. |
+| Fast Training | +5% | Increases soldier training speed for alliance members. |
+| Heal Aid | +5% | Reduces troop healing resource cost for alliance members. |
+| Troop March | +5% | Increases Troop March Speed for alliance members. |
+
+## Where to start
+
+Auto Rally comes first. It has a single level, costs a token 100 herbs and makes offline allies dispatch troops to a rally automatically. After that come the largest percentages, namely gathering speed, resource output and build speed.
+
+The combat technologies, covering health, attack and defense in rallies and garrisons, add 10% each. They begin to matter once the alliance actually fights, rather than in the first weeks of a server.
+
+##
+
+---
+
+## 📚 Reference: Alliance Expedition {#wiki-alliance-expedition}
+
+Source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/alliance-expedition), client v1.0.87.
+
+Alliance Expedition is a chain of 6 camps that an alliance clears together. Each member gets 3 attempts, and a camp holds 40 to 60 monsters. Camps pay in skill badges and alliance coins, and the further along the chain a camp sits, the larger its payout.
+
+The table lists the camps in order, with the monster count and the reward for clearing each.
+
+| Camp | Monsters | Skill badges | Alliance coins |
+|---|---|---|---|
+| Basic Shack | 40 | 500 | 2,500 |
+| Basic Camp | 40 | 1,000 | 5,000 |
+| Intermediate Camp | 50 | 1,000 | 5,000 |
+| Intermediate Fortress | 50 | 1,500 | 7,500 |
+| Advanced Camp | 60 | 2,000 | 10,000 |
+| Boss Fortress | - | - | - |
+
+## Damage bonus
+
+Damage accumulated over the expedition comes back as a buff: the bonus to damage dealt grows in steps and holds until the event ends, so the later camps are easier than the first.
+
+| Damage dealt | Bonus |
+|---|---|
+| 2,000,000-5,000,000 | +2% |
+| 5,000,001-10,000,000 | +4% |
+| 10,000,001-16,000,000 | +6% |
+| 16,000,001-25,000,000 | +8% |
+| 25,000,001+ | +10% |
+
+The top step needs 25,000,001 damage and grants 10%, five times the lowest one. Skill badges rise from 500 at the first camp to 2,000 at the last rewarding one, and the final camp is a boss that pays no chests.
+
+##
