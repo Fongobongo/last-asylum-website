@@ -64,7 +64,7 @@ To consistently clear top milestone chests without unnecessary spending, follow 
 | **Training Speedups** | **Day 5** & **Day 7** | Days 1, 2, 3, 4, 6 | Use exclusively with the Promotion technique (T1 → T8/T9). |
 | **Universal Speedups** | **Day 7** (Top priority) | Days 1, 2, 3, 4 | "Iron Reserve" for Day 7 leaderboard push or chest top-offs. |
 | **Hero Recruitment Tickets** | **Day 4** & **Day 7** | Days 1, 2, 3, 5, 6 | Save in batches of 150–250+ tickets to sweep all chests. |
-| **Hero Star Shards** | **Day 4** & **Day 7** | Days 1, 2, 3, 5, 6 | Hoard shards; promote stars on Thursday. Gear crafting is free anytime — it never scores hero points. |
+| **Hero Star Shards** | **Day 4** & **Day 7** | Days 1, 2, 3, 5, 6 | Hoard universal hero shards; promote stars on Thursday (Day 4) or Sunday (Day 7). Gear crafting is free anytime — it never scores hero points. |
 | **Skill Badges** | **Day 4** & **Day 7** | Days 1, 2, 3, 5, 6 | Upgrade premier combat commander skills. |
 | **Gold Caravans / Secret Ops** | **Day 6** & **Day 7** | Days 1–5 | Reroll using diamonds until you hit gold (UR) rank. |
 

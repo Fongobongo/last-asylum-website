@@ -1,7 +1,7 @@
 # Транскрипты всех видео по игре Last Asylum (Korpez Gaming)
 
 - **Плейлист:** [https://youtube.com/playlist?list=PLbRVd1OtNdNI8QX0_ggHyxwK5GwFNOGvB](https://youtube.com/playlist?list=PLbRVd1OtNdNI8QX0_ggHyxwK5GwFNOGvB)
-- **Всего видео обработано:** 41 из 41
+- **Всего видео обработано:** 43
 
 В каждом файле содержится подробное описание, таймкоды, **русский перевод транскрипта** и **оригинальный английский текст**.
 
@@ -48,3 +48,5 @@
 | 39 | The Plague Doctor's Secret: 145+ Weekly UR Shards I Part 3 Ur Shards ! | 9:32 | [YouTube](https://www.youtube.com/watch?v=jmF364zevNo) | [39_jmF364zevNo_The_Plague_Doctor's_Secret_145+_Weekly_UR_Shards_I_Part_3_Ur.txt](./39_jmF364zevNo_The_Plague_Doctor's_Secret_145+_Weekly_UR_Shards_I_Part_3_Ur.txt) |
 | 40 | This Gear Changed EVERYTHING! 👇 Part 2 Warrior Squad | 9:52 | [YouTube](https://www.youtube.com/watch?v=bLV82vMDgzQ) | [40_bLV82vMDgzQ_This_Gear_Changed_EVERYTHING!_👇_Part_2_Warrior_Squad.txt](./40_bLV82vMDgzQ_This_Gear_Changed_EVERYTHING!_👇_Part_2_Warrior_Squad.txt) |
 | 41 | How to Dominate with Warrior in Last Asylum! (Best Builds & Setup Part 1) | 7:20 | [YouTube](https://www.youtube.com/watch?v=CETuCXXdG-M) | [41_CETuCXXdG-M_How_to_Dominate_with_Warrior_in_Last_Asylum!_(Best_Builds_&.txt](./41_CETuCXXdG-M_How_to_Dominate_with_Warrior_in_Last_Asylum!_(Best_Builds_&.txt) |
+| 42 | Событие Лучший Целитель Стань топом 💪 вместе со мной и ПОДПИШИСЬ 🔥 (JokerKipish Survival) | 8:11 | [YouTube](https://www.youtube.com/watch?v=5sn95_i8fUo) | [42_5sn95_i8fUo_Событие_Лучший_Целитель_Стань_топом_💪_вместе_со_мной_ПОДПИШИСЬ_🔥.txt](./42_5sn95_i8fUo_Событие_Лучший_Целитель_Стань_топом_💪_вместе_со_мной_ПОДПИШИСЬ_🔥.txt) |
+| 43 | Top Healer - 7 Day Event in Last Asylum Plague (Pro Noobs) | 10:53 | [YouTube](https://www.youtube.com/watch?v=2u8ok-VKz_c) | [43_2u8ok-VKz_c_Top_Healer_-_7_Day_Event_in_Last_Asylum_Plague.txt](./43_2u8ok-VKz_c_Top_Healer_-_7_Day_Event_in_Last_Asylum_Plague.txt) |
