@@ -80,19 +80,19 @@ Elixier-Gerangel belohnt Disziplin über Stärke. Eine schwächere Allianz, die 
 
 ---
 
+---
+
 ## Offizielle Regeln aus dem Spielclient (v1.0.102) {#official-rules}
 
 
 ### Elixir-Gerangel
 
-Elixir-Gerangel
 Während sich die Seuche über die Welt ausbreitet, ist das knappste Gut stets das Heilmittel für Krankheiten. Alten Schriften zufolge wachsen geheimnisvolle Kräuter in einem Land, das sich nur in der Nacht des Blutmonds öffnet.
 Es heißt, dass eine große Menge Elixiere im legendären Elixierschloss versteckt ist, und diese Elixiere können verschiedene Krankheiten wirksam behandeln, was viele dazu verlockt, darum zu wetteifern...
 
 
 ### Eingangsbereich
 
-Eingangsbereich
 Zwei Allianzen werden von der Ost- und Westseite des Schlachtfelds eintreten und um Punkte kämpfen, um den endgültigen Sieg zu erringen.
 
 
@@ -104,13 +104,11 @@ Das wichtigste Bauwerk auf dem Schlachtfeld, das sich im Zentrum des Gebiets bef
 
 ### Alchemiewerkstatt
 
-Alchemiewerkstatt
 Es gibt 2 Alchemiewerkstätten, die sich in der Nähe der Eingangsbereiche der 2 Allianzen befinden. Ihre Eroberung bringt kontinuierlich erhebliche Punkte ein und sollte zu Beginn des Kampfes Priorität haben.
 
 
 ### Heilzelt
 
-Heilzelt
 Auf dem Schlachtfeld gibt es 4 vorgefertigte Heilzelte. Ihre Eroberung bringt nicht nur eine moderate Anzahl an Punkten, sondern heilt auch verwundete Soldaten.
 
 [Heilzelt] heilt alle 10 Sekunden 15 verwundete Soldaten.

@@ -80,12 +80,13 @@ Disputa de Elixir recompensa la disciplina sobre el poder. Una alianza más déb
 
 ---
 
+---
+
 ## Reglas oficiales del cliente del juego (v1.0.102) {#official-rules}
 
 
 ### Disputa de Elixir
 
-Disputa de Elixir
 Mientras la plaga se extiende por el mundo, el recurso más escaso siempre es la cura para las enfermedades. Según textos antiguos, hierbas misteriosas crecen en una tierra que solo se abre en la noche de la Luna de Sangre.
 Se dice que una gran cantidad de elixires se esconde dentro del legendario Castillo de los Elixires, y estos elixires pueden tratar eficazmente diversas enfermedades, atrayendo a muchos a competir por ellos...
 
@@ -98,13 +99,11 @@ Dos alianzas entrarán por los lados este y oeste del campo de batalla, compitie
 
 ### Castillo del Elixir
 
-Castillo del Elixir
 La estructura más crucial en el campo de batalla, ubicada en el centro del área. Las puertas del castillo se abren 10 minutos después de iniciada la batalla y otorga puntos sustanciales al ser capturado.
 
 
 ### Taller de Alquimia
 
-Taller de Alquimia
 Hay 2 Talleres de Alquimia, ubicados cerca de las áreas de entrada de 2 alianzas. Capturarlos otorga puntos sustanciales de forma continua, y deberían ser priorizados al inicio de la batalla.
 
 

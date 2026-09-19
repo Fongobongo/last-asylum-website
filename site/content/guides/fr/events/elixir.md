@@ -80,25 +80,24 @@ L'Elixir Scramble récompense la discipline plutôt que la puissance. Une allian
 
 ---
 
+---
+
 ## Règles officielles du client du jeu (v1.0.102) {#official-rules}
 
 
 ### Ruée à l\'élixir
 
-Ruée à l\'élixir
 Face à la propagation de la Peste qui ravage le monde, le remède est devenu la ressource la plus convoitée. Selon d\'anciens écrits, des herbes mystérieuses poussent sur une terre qui n\'apparaît qu\'à la nuit de la Lune de sang.
 On raconte qu\'une profusion d\'élixirs est dissimulée au sein du légendaire Château d\'élixir. Ces précieux breuvages, capables de soigner efficacement diverses maladies, attisent la convoitise de nombreux aventuriers, prêts à tout pour s\'en emparer...
 
 
 ### Zone d\'accès
 
-Zone d\'accès
 Deux alliances, l\'une à l\'est et l\'autre à l\'ouest, pénétreront sur le champ de bataille. Elles s\'affronteront pour des points afin de décrocher la victoire ultime.
 
 
 ### Château d\'élixir
 
-Château d\'élixir
 L\'édifice le plus stratégique du champ de bataille, situé en son centre. Ses portes s\'ouvrent 10 minutes après le début du combat, rapportant un nombre de points considérable à sa capture.
 
 

@@ -80,31 +80,29 @@ O Luta pelo Elixir recompensa a disciplina acima do poder. Uma aliança mais fra
 
 ---
 
+---
+
 ## Regras oficiais do cliente do jogo (v1.0.102) {#official-rules}
 
 
 ### Luta pelo Elixir
 
-Luta pelo Elixir
 Conforme a praga se espalha pelo mundo, o recurso mais escasso é sempre a cura para as doenças. De acordo com textos antigos, ervas misteriosas crescem em uma terra que só se abre na noite da Lua de Sangue.
 Diz-se que uma grande quantidade de elixires está escondida dentro do lendário Castelo do Elixir, e esses elixires podem efetivamente tratar várias doenças, atraindo muitos para competir por eles...
 
 
 ### Área de Entrada
 
-Área de Entrada
 Duas alianças entrarão pelos lados leste e oeste do campo de batalha, competindo por pontos para alcançar a vitória suprema.
 
 
 ### Castelo do Elixir
 
-Castelo do Elixir
 A estrutura mais crucial no campo de batalha, localizada no centro da área. Os portões do castelo abrem 10 minutos após o início da batalha, concedendo pontos substanciais após a captura.
 
 
 ### Oficina de Alquimia
 
-Oficina de Alquimia
 Existem 2 Oficinas de Alquimia, localizadas perto das áreas de entrada de 2 alianças. Capturá-las concede pontos substanciais continuamente e elas devem ser priorizadas no início da batalha.
 
 

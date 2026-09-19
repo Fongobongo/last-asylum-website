@@ -104,12 +104,13 @@ Verified values from game client data (v1.0.87), source: wiki-last-asylum.com. B
 
 ---
 
+---
+
 ## Official in-game rules (client v1.0.102) {#official-rules}
 
 
 ### Elixir Scramble
 
-Elixir Scramble
 As the plague spreads across the world, the most scarce resource is always the cure for diseases. According to ancient texts, mysterious herbs grow in a land that only opens on the night of the Blood Moon.
 It is said that a large quantity of elixirs is hidden within the legendary Elixir Castle, and these elixirs can effectively treat various diseases, attracting many to compete for them...
 
@@ -122,19 +123,16 @@ Two alliances will enter from the east and west sides of the battlefield, compet
 
 ### Elixir Castle
 
-Elixir Castle
 The most crucial structure on the battlefield, located at the center of the area. The castle gates open 10 minutes into the battle, granting substantial points upon capture.
 
 
 ### Alchemy Workshop
 
-Alchemy Workshop
 There are 2 Alchemy Workshops, located near the entrance areas of 2 alliances. Capturing them grants substantial points continuously, and they should be prioritized at the start of the battle.
 
 
 ### Healing Tent
 
-Healing Tent
 There are 4 pre-built Healing Tents on the battlefield. Capturing them not only grants a moderate amount of points but also heals wounded soldiers.
 
 [Healing Tent] heals 15 Wounded Soldiers every 10s.

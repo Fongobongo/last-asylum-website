@@ -80,6 +80,8 @@ Perebutan Ramuan Rahasia menghargai disiplin daripada kekuatan. Aliansi yang leb
 
 ---
 
+---
+
 ## Aturan resmi dari klien game (v1.0.102) {#official-rules}
 
 
@@ -92,7 +94,6 @@ Konon, banyak obat rahasia tersembunyi di Kastil Obat Rahasia legendaris. Obat i
 
 ### Area Masuk
 
-Area Masuk
 2 Guild akan memasuki arena dari sisi timur dan barat, bersaing memperebutkan Poin di medan perang untuk meraih kemenangan.
 
 
@@ -104,13 +105,11 @@ Bangunan paling penting di medan perang, terletak tepat di tengah area. Gerbang 
 
 ### Bengkel Alkimia
 
-Bengkel Alkimia
 Ada 2 Bengkel Alkimia, masing-masing dekat area masuk tiap guild. Menguasainya akan memberikan banyak poin secara terus-menerus. Sebaiknya diprioritaskan untuk dikuasai saat pertempuran dimulai.
 
 
 ### Tenda Penyembuhan
 
-Tenda Penyembuhan
 Ada 4 Tenda Penyembuhan di medan perang. Menguasainya tidak hanya memberikan poin sedang secara terus-menerus, tapi juga menyembuhkan Pasukan Terluka guild.
 
 [Tenda Penyembuhan] dapat menyembuhkan 15 Prajurit terluka setiap 10 detik.
