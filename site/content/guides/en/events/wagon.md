@@ -73,11 +73,23 @@ Caravans are the daily caravan event running alongside the wagon:
 
 ### Korpez' daily caravan routine
 
+- **Failed attacks DO NOT consume an attempt!** The most critical takeaway for newcomers: if your attack on an enemy caravan fails, **your 4 daily plunder attempts remain 100% intact**. You can safely test defender strength without fear of wasting a daily run.
 - **Attack only caravans carrying 2+ UR shards visible in the loot preview.** A 2-shard carrier often drops 1 per hit; 3–4-shard targets are rarer and worth two hits. Skip everything that doesn't show UR shards.
-- **Send your own caravans at the end of your day** (players going to sleep = fewer plunderers online). 4–5h travel per caravan easily covers the night. Never send 3 caravans at once — rotate 2 and stagger them.
-- **Guard with your main squad** — the caravan's defenders matter more than its tier. Swap before dispatch.
-- **Save UR-tier caravan refreshes for Alliance Duel days** — only then does the quest checkbox matter; otherwise accept the default purple ones.
+- **Send your own caravans at off-peak hours and strictly 1 at a time.** When rival kingdoms are asleep, routes are completely safe. Stagger your dispatches one by one, always escorting with your primary **Squad 1**.
+- **Save UR-tier caravan refreshes for Alliance Duel days** — only then does the quest checkbox matter; on standard days stick with purple or natural gold caravans.
 - **Share plunder reports in alliance chat** — caravan reports are shareable directly from the Records tab, so allies can jump the same juicy targets.
+
+## Video Breakdown: Maximize Caravans & Plunder (KorpezGaming) {#video-breakdown-caravan}
+
+A complete guide to caravan mechanics and cross-server plunder by KorpezGaming ([Caravan Guide: Maximize Your Rewards & Plunder Strategy](https://youtu.be/crDuOmGa-yY)):
+
+| Timestamp | Topic | Practical Takeaway |
+|---|---|---|
+| **0:45** | Plunder Attempts | 4 daily plunder limits. Defeats never deduct from your daily attack counter! |
+| **1:30** | Cross-Server Checkbox | Toggle the checkbox to scout foreign servers rather than raiding allies. |
+| **3:10** | Hunting UR Shards | Scout for weak defenders guarding gold caravans with 2+ UR shards in loot preview. |
+| **5:40** | Alliance Wagon Setup | Wagon Master coordination, Guardians assignment, and ticket aggregation before launch. |
+| **7:25** | Safe Dispatching | Sending caravans during quiet hours with primary Squad 1 escorts. |
 
 ## Plundering Other Servers {#plundering-servers}
 

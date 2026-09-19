@@ -52,11 +52,23 @@ The Legion Commander tree carries War Supply, which raises your daily plunder li
 
 You start the season with ~40 specialty points. These are the two tested builds (courtesy Korpez Gaming):
 
-**Handyman (growth path)** — pick up every **HP shield, +2h building speedup, construction speed** node first, then **research speed, speedups 20m, research −20 sec duration**, then finish every one-time unlock (cat + dog, battle slots, wall durability). Cap it with the two active skills: **Instant Construction** (instant 490 minutes of building) and **Instant Research** (−180 min research, cooldown 3 days). Efficient vs Slowers on the Right-Hand Pocket tree strictly after.
+**Handyman (Growth Path)** — The mandatory path for F2P and moderate spenders. Pick up every **HP shield, +2h building speedup, construction speed** node first, then **research speed, speedups 20m, research −20 sec duration**, followed by key utility unlocks (cat + dog, battle slots, wall durability). Cap it with the two powerful active skills: **Instant Construction** (instantly completes 490 minutes of building) and **Instant Research** (−180 min research, 3-day cooldown). This path shaves hundreds of hours off construction/research and rushes you toward T10 troops weeks faster.
 
-**Legion Commander (PvP path)** — every **hospital cap + (16, 12, 14, 18 ×500)**, **+3% heal speed**, **marching speed for gather/tree nodes**, then the attack-side picks: **attack leading 1–3%**, **Swordsmanship leading damage**, and the active **Siege War Flag (+100 destruction for 30 min, 24h CD)**, **Poison Pouch**, **Firecracker**, **Speed Teacher (range of trees)**, **Bound Shield**, **War Frenzy (leadership attack buff)**, **All-Terrain Tactics**. For users pushing multiple marches: Command boosts and extra march slot matter more than the third Hospital Cap tranche.
+**Legion Commander (PvP Path)** — Tailored for rally leaders and heavy spenders. Focus on **hospital cap + (16, 12, 14, 18 ×500)**, **+3% heal speed**, **marching speed for gather/tree nodes**, then attack nodes: **attack leading 1–3%**, **Swordsmanship leading damage**, and active skills: **Siege War Flag (+100 destruction for 30 min, 24h CD)**, **Poison Pouch**, **Firecracker**, **Speed Teacher**, **Bound Shield**, **War Frenzy (leadership attack buff)**, and **All-Terrain Tactics**.
 
 **War Frenzy trick**: attacking **any** player city (even an empty one) activates War Frenzy — the buff also applies to world bosses and the [Pandemic Experience](/events/pandemic-experience/) event. Cheap pre-boss buffing.
+
+## Video Breakdown: Handyman OR Legion Commander? (KorpezGaming) {#video-breakdown-era}
+
+Comprehensive breakdown of tech trees and specialization choices in Era 1 by KorpezGaming ([Handyman OR Legion Commander? The Ultimate Era One Choice](https://youtu.be/-Umcm_xHe9Q)):
+
+| Timestamp | Topic | Practical Takeaway |
+|---|---|---|
+| **0:50** | Era 1 Tech Overview | Tree structure and the fundamental fork between economic acceleration and warfare. |
+| **2:15** | Handyman Benefits | Massive passive construction/research boosts and instant-completion active skills (490m / 180m). |
+| **6:40** | Legion Commander Strengths | Hospital capacity, troop battle stats, and siege destruction flags for high-stakes KvK. |
+| **10:20** | Skill Cooldown Timing | Aligning instant-construction active skills with Alliance Duel building point days. |
+| **14:15** | Final Verdict | F2P must choose Handyman to unlock T10 troops. Legion Commander is only viable for heavy spenders. |
 
 ## Lord Statues and the Era Academy {#lord-statues}
 

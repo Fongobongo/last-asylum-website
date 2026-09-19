@@ -109,6 +109,16 @@ For each hero Korpez goes through every skill with a target level. Distillation:
 - **Ash & Cecilia (SR)** — the only purple heroes worth skills: Ash = +monster damage buff, Cecilia = resource-gather buff. Everything else SR stays at base.
 - General: **never spend skill points on tanks' attack skills; never on a tank's sword at all.**
 
+## Healing Scaling Secret: Bell & Louis (66K → 205K HP) {#healing-scaling-secret}
+
+> [!IMPORTANT] Counter-Intuitive Scaling: Heals Scale with ATTACK!
+> 99% of players make a fatal mistake: seeing "healer" or "support," they outfit **Bell** strictly in defensive gear (armor, boots, and HP). As a result, her heals output an underwhelming ~66K HP per pulse.
+
+How healing scaling actually works in Last Asylum ([FIX YOUR BELL: 66K TO 205K HEAL INSTANTLY](https://youtu.be/2mrgZlwZeNo)):
+- **Bell's Skill Formula:** Her healing volume is directly proportional to her **Hero Attack** stat, NOT her HP or defense.
+- **Proper Bell Setup:** Equip her with a **UR Sword** and **UR Gloves**. Boosting her attack stat skyrockets her healing **from 66,000 up to 205,000 HP per pulse (over a 3× jump!)**. This completely turns the tide in prolonged fights.
+- **Louis's Secret:** Louis is the only tank in the game with a similar mechanic ([The Ranger's Guide](https://youtu.be/u-lX2yz6SQc)). His innate lifesteal and self-recovery skills are strictly tied to his Attack power. Unlike Arthur or Duskoll (who ignore weapons completely), Louis requires upgraded gloves/sword, otherwise he loses up to 70% of his frontline sustain.
+
 ## Star Breakpoints and Tenacity {#star-breakpoints}
 
 Stars are the biggest single multiplier on hero might. The significant power jump arrives after **4 stars** — below that a hero is a seat-warmer, above it the same hero starts winning fights. This is why the community's first star target on every main-squad hero is getting through 4, not scattering shards to make everyone evenly mediocre.

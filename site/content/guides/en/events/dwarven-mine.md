@@ -49,3 +49,14 @@ Each climb lets you pick between two reward lines:
 2. Event opens: commit the full stockpile in one push.
 3. Dig → find jackpot → floor rises → repeat, choosing **Herbs** at every reward fork.
 4. Floor 100 lands the MR blueprint; the wheel shots at red gear are bonus along the way.
+
+## Video Breakdown: Don't Waste Your Pickaxes! (KorpezGaming) {#video-breakdown-dwarf}
+
+Floor progression tactics and pickaxe math by KorpezGaming ([DON'T Waste Your Pickaxes! Dwarven Mine Guide](https://youtu.be/WCIfyqH0vz0)):
+
+| Timestamp | Topic | Practical Takeaway |
+|---|---|---|
+| **0:40** | The 750 Pickaxe Rule | If you have under 750 pickaxes, DO NOT start digging! Skip and hoard for next time. |
+| **1:30** | Jackpot Routing | Prioritize revealing tiles toward high-score jackpot blocks to advance floors rapidly. |
+| **2:45** | Herbs Over Stones | Always choose Herbs: 100 cleared floors provide tens of millions of herbs for endgame research. |
+| **4:10** | Floor 100 Jackpot | Reaching Floor 100 guarantees the MR gear blueprint, justifying months of patient hoarding. |

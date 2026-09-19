@@ -61,3 +61,14 @@ Verified results from players running this system: **consistent top-20/40/100 fi
 - **Known bug: some players get stuck unranked on new servers** — if your rank never populates in a Fate season, it is the bug, not your play. Report and wait it out.
 - **The greedy variant (Korpez):** build three squads as *strong main / decoy / trap* — the **trap squad shows tiny visible Might while hiding your 10★ carry** (Marlena, Cynthia). Most players scan Might numbers, don't check compositions, so they waste their attack on the "easy" slot and eat the full carry. Extreme version: **run a 4-man formation** with a tank removed — the apparent power drop baits even mid-tier players into attacking.
 - "Trap squad + tank removed" took Korpez and his ally from rank ~160 into the top 50 without extra spending. Visibility of hero power trumps displayed Might.
+
+## Video Breakdown: Arena Secret & The Trap Squad (KorpezGaming) {#video-breakdown-arena}
+
+Ladder mechanics and defense optimization by KorpezGaming ([Last Asylum Players DO NOT KNOW This Arena Secret!](https://youtu.be/OGyohKhAHFE)):
+
+| Timestamp | Topic | Practical Takeaway |
+|---|---|---|
+| **0:50** | Displayed Might Trap | Players scan visible Combat Power numbers rather than evaluating hero stars and formations. |
+| **2:10** | Building the Trap Squad | Conceal your overpowered 10★ carry behind a squad showing artificially low overall Might. |
+| **3:45** | 4-Hero Formation | Removing one tank cuts apparent power by 20-30%, baiting constant suicidal attacks from rivals. |
+| **5:15** | Top-50 F2P Climb | Defense wins rack up hundreds of ladder points without spending offensive challenge tickets. |

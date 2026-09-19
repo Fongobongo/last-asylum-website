@@ -107,3 +107,15 @@ The takeaway is not that purple is secretly the best tier — it is that a high-
 A common misunderstanding worth killing early: you **cannot upgrade an SSR epigraph into a UR**. What you upgrade is the Plan — the slot the epigraph sits in. SSR epigraphs are placeholders in that progression, not embryos.
 
 Which leads to the most common Raven mistake in the game: players hoard non-main-faction epigraphs instead of feeding them to the Raven via **Quick Add** — and then wonder why their Raven is stuck at level 1. Off-faction and low-rarity epigraphs are Raven food. Quick Add them; that is what they are for.
+
+## Video Breakdown: Do NOT Touch Your Raven Before This! (KorpezGaming) {#video-breakdown-raven}
+
+Complete Raven gear, skills, and shop priority guide by KorpezGaming ([DO NOT Touch Your Raven Before Watching This!](https://youtu.be/MaTgA50P81s)):
+
+| Timestamp | Topic | Practical Takeaway |
+|---|---|---|
+| **0:40** | Global Raven Damage | Raven damage and passive stats buff ALL your squad marches simultaneously, not just Squad 1. |
+| **2:15** | Raven Skins | Unlocking visual skins at milestones (Lv. 150, 200, 250) delivers permanent account-wide stat boosts. |
+| **5:30** | Sanctuary Shop Priority | Buy out ALL Raven Essences every Monday — this is an uncompromised top weekly priority. |
+| **8:45** | Gear Upgrading Order | Push the right side (ATK/Crit) first; left side (HP/DEF) is secondary defensive padding. |
+| **11:20** | Epigraph Fusing | Feed off-faction epigraphs ruthlessly via Quick Add to level up your Raven Plans. |
