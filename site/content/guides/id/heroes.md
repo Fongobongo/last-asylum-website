@@ -165,3 +165,40 @@ Saat Anda membandingkan akun, *might* adalah jumlah dari lima tumpukan terpisah:
 | Bangunan Bonus | Bangunan kota — Kuil (sebelumnya patung faksi), Aula Upacara Kemuliaan, dan lainnya. |
 
 Gunakan pembagian secara diagnostik: jika *might* Anda berat di hero tetapi ringan di tentara, Anda hanya berjarak satu pertarungan buruk dari kehilangan tentara yang tidak bisa Anda ganti. Jika berat di tentara tetapi ringan di hero, barisan Anda akan memukul di bawah bobotnya. Akun terkuat menjaga tumpukan dalam proporsi yang kasar — yang persis seperti yang dilakukan dengan mengikuti urutan prioritas pembangunan dan linimasa skuad F2P untuk Anda.
+
+---
+
+## 📖 Panduan hero {#heroes-index}
+
+- [Annie](/id/heroes/annie/)
+- [Arthur](/id/heroes/arthur/)
+- [Ash](/id/heroes/ash/)
+- [Bell](/id/heroes/bell/)
+- [Bella](/id/heroes/bella/)
+- [Bestar](/id/heroes/bestar/)
+- [Billy](/id/heroes/billy/)
+- [Celia](/id/heroes/celia/)
+- [Claire (Advanced)](/id/heroes/claire-advanced/)
+- [Claire](/id/heroes/claire/)
+- [Cynthia](/id/heroes/cynthia/)
+- [Daskal](/id/heroes/daskal/)
+- [Durant](/id/heroes/durant/)
+- [Grenwald](/id/heroes/grenwald/)
+- [Griffith](/id/heroes/griffith/)
+- [Harper](/id/heroes/harper/)
+- [Hastar](/id/heroes/hastar/)
+- [Joker](/id/heroes/joker/)
+- [Kafa](/id/heroes/kafa/)
+- [Kesso](/id/heroes/kesso/)
+- [Louis](/id/heroes/louis/)
+- [Lucius](/id/heroes/lucius/)
+- [Marlena](/id/heroes/marlena/)
+- [Nicole](/id/heroes/nicole/)
+- [Red Lady](/id/heroes/red-lady/)
+- [Robin](/id/heroes/robin/)
+- [Shadow](/id/heroes/shadow/)
+- [Sivir](/id/heroes/sivir/)
+- [Stellar](/id/heroes/stellar/)
+- [Ulfrid](/id/heroes/ulfrid/)
+- [William](/id/heroes/william/)
+- [Zoya](/id/heroes/zoya/)

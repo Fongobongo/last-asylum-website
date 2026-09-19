@@ -1333,3 +1333,40 @@ No approved comments yet.
 Sign in to leave a comment.
 
 ↑ Back to top
+
+---
+
+## 🦸 Hero guides {#hero-index}
+
+- [Annie](/heroes/annie/)
+- [Arthur](/heroes/arthur/)
+- [Ash](/heroes/ash/)
+- [Bell](/heroes/bell/)
+- [Bella](/heroes/bella/)
+- [Bestar](/heroes/bestar/)
+- [Billy](/heroes/billy/)
+- [Celia](/heroes/celia/)
+- [Claire (Advanced)](/heroes/claire-advanced/)
+- [Claire](/heroes/claire/)
+- [Cynthia](/heroes/cynthia/)
+- [Daskal](/heroes/daskal/)
+- [Durant](/heroes/durant/)
+- [Grenwald](/heroes/grenwald/)
+- [Griffith](/heroes/griffith/)
+- [Harper](/heroes/harper/)
+- [Hastar](/heroes/hastar/)
+- [Joker](/heroes/joker/)
+- [Kafa](/heroes/kafa/)
+- [Kesso](/heroes/kesso/)
+- [Louis](/heroes/louis/)
+- [Lucius](/heroes/lucius/)
+- [Marlena](/heroes/marlena/)
+- [Nicole](/heroes/nicole/)
+- [Red Lady](/heroes/red-lady/)
+- [Robin](/heroes/robin/)
+- [Shadow](/heroes/shadow/)
+- [Sivir](/heroes/sivir/)
+- [Stellar](/heroes/stellar/)
+- [Ulfrid](/heroes/ulfrid/)
+- [William](/heroes/william/)
+- [Zoya](/heroes/zoya/)

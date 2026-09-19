@@ -1111,3 +1111,40 @@ Marlena даёт примерно **85% урона отряда до прихо�
 - Звёзды героев
 
 ##
+
+---
+
+## 🦸 Гайды по героям {#hero-index}
+
+- [Анни](/ru/heroes/annie/)
+- [Артур](/ru/heroes/arthur/)
+- [Эш](/ru/heroes/ash/)
+- [Белл](/ru/heroes/bell/)
+- [Белла](/ru/heroes/bella/)
+- [Бестар](/ru/heroes/bestar/)
+- [Билли](/ru/heroes/billy/)
+- [Селия](/ru/heroes/celia/)
+- [Клэр (улучшенная)](/ru/heroes/claire-advanced/)
+- [Клэр](/ru/heroes/claire/)
+- [Синтия](/ru/heroes/cynthia/)
+- [Даскал](/ru/heroes/daskal/)
+- [Дюран](/ru/heroes/durant/)
+- [Гренвальд](/ru/heroes/grenwald/)
+- [Гриффит](/ru/heroes/griffith/)
+- [Харпер](/ru/heroes/harper/)
+- [Хастар](/ru/heroes/hastar/)
+- [Джокер](/ru/heroes/joker/)
+- [Кафа](/ru/heroes/kafa/)
+- [Кессо](/ru/heroes/kesso/)
+- [Луи](/ru/heroes/louis/)
+- [Люциус](/ru/heroes/lucius/)
+- [Марлена](/ru/heroes/marlena/)
+- [Николь](/ru/heroes/nicole/)
+- [Красная Леди](/ru/heroes/red-lady/)
+- [Робин](/ru/heroes/robin/)
+- [Шэдоу](/ru/heroes/shadow/)
+- [Сивир](/ru/heroes/sivir/)
+- [Стеллар](/ru/heroes/stellar/)
+- [Ульфрид](/ru/heroes/ulfrid/)
+- [Уильям](/ru/heroes/william/)
+- [Зоя](/ru/heroes/zoya/)

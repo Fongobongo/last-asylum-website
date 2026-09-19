@@ -165,3 +165,40 @@ Wenn du Accounts vergleichst, ist die Stärke die Summe von fünf separaten Stap
 | Gebäude-Bonus | Stadtgebäude – Tempel (ehemals Fraktionsstatuen), Ehrenhalle und andere. |
 
 Nutze die Aufteilung diagnostisch: Wenn deine Stärke heldenlastig, aber soldatenschwach ist, bist du einen schlechten Kampf davon entfernt, eine Armee zu verlieren, die du nicht ersetzen kannst. Wenn sie soldatenlastig, aber heldenschwach ist, schlagen deine Märsche unter ihrem Wert. Die stärksten Accounts halten die Stapel in einem groben Verhältnis – genau das bewirkt das Befolgen der Prioritätenreihenfolge und des F2P-Trupp-Zeitplans für dich.
+
+---
+
+## 📖 Helden-Guides {#heroes-index}
+
+- [Annie](/de/heroes/annie/)
+- [Arthur](/de/heroes/arthur/)
+- [Ash](/de/heroes/ash/)
+- [Bell](/de/heroes/bell/)
+- [Bella](/de/heroes/bella/)
+- [Bestar](/de/heroes/bestar/)
+- [Billy](/de/heroes/billy/)
+- [Celia](/de/heroes/celia/)
+- [Claire (Advanced)](/de/heroes/claire-advanced/)
+- [Claire](/de/heroes/claire/)
+- [Cynthia](/de/heroes/cynthia/)
+- [Daskal](/de/heroes/daskal/)
+- [Durant](/de/heroes/durant/)
+- [Grenwald](/de/heroes/grenwald/)
+- [Griffith](/de/heroes/griffith/)
+- [Harper](/de/heroes/harper/)
+- [Hastar](/de/heroes/hastar/)
+- [Joker](/de/heroes/joker/)
+- [Kafa](/de/heroes/kafa/)
+- [Kesso](/de/heroes/kesso/)
+- [Louis](/de/heroes/louis/)
+- [Lucius](/de/heroes/lucius/)
+- [Marlena](/de/heroes/marlena/)
+- [Nicole](/de/heroes/nicole/)
+- [Red Lady](/de/heroes/red-lady/)
+- [Robin](/de/heroes/robin/)
+- [Shadow](/de/heroes/shadow/)
+- [Sivir](/de/heroes/sivir/)
+- [Stellar](/de/heroes/stellar/)
+- [Ulfrid](/de/heroes/ulfrid/)
+- [William](/de/heroes/william/)
+- [Zoya](/de/heroes/zoya/)

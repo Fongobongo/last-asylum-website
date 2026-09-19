@@ -165,3 +165,40 @@ Cuando comparas cuentas, el poder es la suma de cinco acumulaciones separadas:
 | Bono de Edificio | Edificios de la ciudad: Templo (anteriormente estatuas de facción), Salón de Honor y otros. |
 
 Usa la división de forma diagnóstica: si tu poder es pesado en héroes pero ligero en soldados, estás a una mala pelea de perder un ejército que no puedes reemplazar. Si es pesado en soldados pero ligero en héroes, tus marchas golpean por debajo de su peso. Las cuentas más fuertes mantienen las acumulaciones en proporción aproximada, que es exactamente lo que hace por ti seguir el orden de prioridad de construcción y la cronología del escuadrón F2P.
+
+---
+
+## 📖 Guías de héroes {#heroes-index}
+
+- [Annie](/es/heroes/annie/)
+- [Arthur](/es/heroes/arthur/)
+- [Ash](/es/heroes/ash/)
+- [Bell](/es/heroes/bell/)
+- [Bella](/es/heroes/bella/)
+- [Bestar](/es/heroes/bestar/)
+- [Billy](/es/heroes/billy/)
+- [Celia](/es/heroes/celia/)
+- [Claire (Advanced)](/es/heroes/claire-advanced/)
+- [Claire](/es/heroes/claire/)
+- [Cynthia](/es/heroes/cynthia/)
+- [Daskal](/es/heroes/daskal/)
+- [Durant](/es/heroes/durant/)
+- [Grenwald](/es/heroes/grenwald/)
+- [Griffith](/es/heroes/griffith/)
+- [Harper](/es/heroes/harper/)
+- [Hastar](/es/heroes/hastar/)
+- [Joker](/es/heroes/joker/)
+- [Kafa](/es/heroes/kafa/)
+- [Kesso](/es/heroes/kesso/)
+- [Louis](/es/heroes/louis/)
+- [Lucius](/es/heroes/lucius/)
+- [Marlena](/es/heroes/marlena/)
+- [Nicole](/es/heroes/nicole/)
+- [Red Lady](/es/heroes/red-lady/)
+- [Robin](/es/heroes/robin/)
+- [Shadow](/es/heroes/shadow/)
+- [Sivir](/es/heroes/sivir/)
+- [Stellar](/es/heroes/stellar/)
+- [Ulfrid](/es/heroes/ulfrid/)
+- [William](/es/heroes/william/)
+- [Zoya](/es/heroes/zoya/)

@@ -165,3 +165,40 @@ Ao comparar contas, o poder é a soma de cinco pilhas separadas:
 | Bônus de Construção | Construções da cidade — Templo (antigas estátuas de facção), Salão de Honra e outros. |
 
 Use a divisão de forma diagnóstica: se seu poder é focado em heróis, mas fraco em soldados, você está a uma luta ruim de perder um exército que não pode substituir. Se for focado em soldados, mas fraco em heróis, suas marchas batem abaixo do peso. As contas mais fortes mantêm as pilhas em proporção aproximada — que é exatamente o que seguir a ordem de prioridade de construção e a linha do tempo do esquadrão F2P faz por você.
+
+---
+
+## 📖 Guias de heróis {#heroes-index}
+
+- [Annie](/pt/heroes/annie/)
+- [Arthur](/pt/heroes/arthur/)
+- [Ash](/pt/heroes/ash/)
+- [Bell](/pt/heroes/bell/)
+- [Bella](/pt/heroes/bella/)
+- [Bestar](/pt/heroes/bestar/)
+- [Billy](/pt/heroes/billy/)
+- [Celia](/pt/heroes/celia/)
+- [Claire (Advanced)](/pt/heroes/claire-advanced/)
+- [Claire](/pt/heroes/claire/)
+- [Cynthia](/pt/heroes/cynthia/)
+- [Daskal](/pt/heroes/daskal/)
+- [Durant](/pt/heroes/durant/)
+- [Grenwald](/pt/heroes/grenwald/)
+- [Griffith](/pt/heroes/griffith/)
+- [Harper](/pt/heroes/harper/)
+- [Hastar](/pt/heroes/hastar/)
+- [Joker](/pt/heroes/joker/)
+- [Kafa](/pt/heroes/kafa/)
+- [Kesso](/pt/heroes/kesso/)
+- [Louis](/pt/heroes/louis/)
+- [Lucius](/pt/heroes/lucius/)
+- [Marlena](/pt/heroes/marlena/)
+- [Nicole](/pt/heroes/nicole/)
+- [Red Lady](/pt/heroes/red-lady/)
+- [Robin](/pt/heroes/robin/)
+- [Shadow](/pt/heroes/shadow/)
+- [Sivir](/pt/heroes/sivir/)
+- [Stellar](/pt/heroes/stellar/)
+- [Ulfrid](/pt/heroes/ulfrid/)
+- [William](/pt/heroes/william/)
+- [Zoya](/pt/heroes/zoya/)

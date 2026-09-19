@@ -165,3 +165,40 @@ Lorsque vous comparez des comptes, la puissance est la somme de cinq piles disti
 | Bonus de bâtiment | Bâtiments de la ville — Temple (anciennement statues de faction), Hall d'Honneur, et autres. |
 
 Utilisez la répartition pour diagnostiquer : si votre puissance est centrée sur les héros mais faible sur les soldats, vous êtes à un mauvais combat de perdre une armée que vous ne pouvez pas remplacer. Si elle est centrée sur les soldats mais faible sur les héros, vos marches frappent en dessous de leur poids. Les comptes les plus forts maintiennent les piles en proportion — ce qui est exactement ce que fait le respect de l'ordre de priorité de construction et du calendrier de l'escouade F2P.
+
+---
+
+## 📖 Guides des héros {#heroes-index}
+
+- [Annie](/fr/heroes/annie/)
+- [Arthur](/fr/heroes/arthur/)
+- [Ash](/fr/heroes/ash/)
+- [Bell](/fr/heroes/bell/)
+- [Bella](/fr/heroes/bella/)
+- [Bestar](/fr/heroes/bestar/)
+- [Billy](/fr/heroes/billy/)
+- [Celia](/fr/heroes/celia/)
+- [Claire (Advanced)](/fr/heroes/claire-advanced/)
+- [Claire](/fr/heroes/claire/)
+- [Cynthia](/fr/heroes/cynthia/)
+- [Daskal](/fr/heroes/daskal/)
+- [Durant](/fr/heroes/durant/)
+- [Grenwald](/fr/heroes/grenwald/)
+- [Griffith](/fr/heroes/griffith/)
+- [Harper](/fr/heroes/harper/)
+- [Hastar](/fr/heroes/hastar/)
+- [Joker](/fr/heroes/joker/)
+- [Kafa](/fr/heroes/kafa/)
+- [Kesso](/fr/heroes/kesso/)
+- [Louis](/fr/heroes/louis/)
+- [Lucius](/fr/heroes/lucius/)
+- [Marlena](/fr/heroes/marlena/)
+- [Nicole](/fr/heroes/nicole/)
+- [Red Lady](/fr/heroes/red-lady/)
+- [Robin](/fr/heroes/robin/)
+- [Shadow](/fr/heroes/shadow/)
+- [Sivir](/fr/heroes/sivir/)
+- [Stellar](/fr/heroes/stellar/)
+- [Ulfrid](/fr/heroes/ulfrid/)
+- [William](/fr/heroes/william/)
+- [Zoya](/fr/heroes/zoya/)

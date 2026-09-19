@@ -165,3 +165,40 @@ UR 영웅은 두 번째 주요 돌파 구간이 있습니다. 30레벨과 8성�
 | 건물 보너스 | 도시 건물 — 신전(구 진영 동상), 명예의 전당 등. |
 
 이 구분을 진단용으로 사용하세요: 영웅 전투력은 높은데 병사 전투력이 낮다면, 대체 불가능한 군대를 잃을 위험이 큽니다. 반대로 병사 전투력은 높은데 영웅 전투력이 낮다면, 행군 효율이 떨어집니다. 가장 강력한 계정은 이 스택들이 대략적인 균형을 이룹니다. 바로 육성 우선순위와 무과금 스쿼드 타임라인을 따르는 것이 이 균형을 맞추는 방법입니다.
+
+---
+
+## 📖 영웅 가이드 {#heroes-index}
+
+- [Annie](/ko/heroes/annie/)
+- [Arthur](/ko/heroes/arthur/)
+- [Ash](/ko/heroes/ash/)
+- [Bell](/ko/heroes/bell/)
+- [Bella](/ko/heroes/bella/)
+- [Bestar](/ko/heroes/bestar/)
+- [Billy](/ko/heroes/billy/)
+- [Celia](/ko/heroes/celia/)
+- [Claire (Advanced)](/ko/heroes/claire-advanced/)
+- [Claire](/ko/heroes/claire/)
+- [Cynthia](/ko/heroes/cynthia/)
+- [Daskal](/ko/heroes/daskal/)
+- [Durant](/ko/heroes/durant/)
+- [Grenwald](/ko/heroes/grenwald/)
+- [Griffith](/ko/heroes/griffith/)
+- [Harper](/ko/heroes/harper/)
+- [Hastar](/ko/heroes/hastar/)
+- [Joker](/ko/heroes/joker/)
+- [Kafa](/ko/heroes/kafa/)
+- [Kesso](/ko/heroes/kesso/)
+- [Louis](/ko/heroes/louis/)
+- [Lucius](/ko/heroes/lucius/)
+- [Marlena](/ko/heroes/marlena/)
+- [Nicole](/ko/heroes/nicole/)
+- [Red Lady](/ko/heroes/red-lady/)
+- [Robin](/ko/heroes/robin/)
+- [Shadow](/ko/heroes/shadow/)
+- [Sivir](/ko/heroes/sivir/)
+- [Stellar](/ko/heroes/stellar/)
+- [Ulfrid](/ko/heroes/ulfrid/)
+- [William](/ko/heroes/william/)
+- [Zoya](/ko/heroes/zoya/)

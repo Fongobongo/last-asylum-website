@@ -165,3 +165,40 @@ URヒーローには2つ目の大きなブレイクポイントがあります�
 | 建物ボーナス | 都市の建物 — 神殿（旧派閥像）、名誉の殿堂など。 |
 
 戦力がヒーローに偏りすぎていると、一度の敗北で取り返しのつかない軍隊を失うリスクがあります。逆に兵士に偏りすぎていると、戦力値の割に戦闘で勝てません。最強のアカウントはこれらをバランスよく維持しています。育成優先順位と無課金向けタイムラインに従うことは、まさにこのバランスを保つための最善策です。
+
+---
+
+## 📖 英雄ガイド {#heroes-index}
+
+- [Annie](/ja/heroes/annie/)
+- [Arthur](/ja/heroes/arthur/)
+- [Ash](/ja/heroes/ash/)
+- [Bell](/ja/heroes/bell/)
+- [Bella](/ja/heroes/bella/)
+- [Bestar](/ja/heroes/bestar/)
+- [Billy](/ja/heroes/billy/)
+- [Celia](/ja/heroes/celia/)
+- [Claire (Advanced)](/ja/heroes/claire-advanced/)
+- [Claire](/ja/heroes/claire/)
+- [Cynthia](/ja/heroes/cynthia/)
+- [Daskal](/ja/heroes/daskal/)
+- [Durant](/ja/heroes/durant/)
+- [Grenwald](/ja/heroes/grenwald/)
+- [Griffith](/ja/heroes/griffith/)
+- [Harper](/ja/heroes/harper/)
+- [Hastar](/ja/heroes/hastar/)
+- [Joker](/ja/heroes/joker/)
+- [Kafa](/ja/heroes/kafa/)
+- [Kesso](/ja/heroes/kesso/)
+- [Louis](/ja/heroes/louis/)
+- [Lucius](/ja/heroes/lucius/)
+- [Marlena](/ja/heroes/marlena/)
+- [Nicole](/ja/heroes/nicole/)
+- [Red Lady](/ja/heroes/red-lady/)
+- [Robin](/ja/heroes/robin/)
+- [Shadow](/ja/heroes/shadow/)
+- [Sivir](/ja/heroes/sivir/)
+- [Stellar](/ja/heroes/stellar/)
+- [Ulfrid](/ja/heroes/ulfrid/)
+- [William](/ja/heroes/william/)
+- [Zoya](/ja/heroes/zoya/)
