@@ -12,7 +12,7 @@ Event **Supreme Healer (Dewa Medis Terbaik)** adalah turnamen kompetitif 7 hari 
 Panduan ini menguraikan ketujuh fase event, pengganda skor yang tepat, dan tips yang telah teruji dalam pertempuran dari para pemimpin aliansi papan atas.
 
 > [!NOTE]
-> Event ini terbuka pada **Kuil level 6** dan terdiri dari **7 kompetisi terpisah** yang berjalan berurutan — masing-masing hanya menghitung aksinya sendiri. Nilai tiap aksi sangat timpang, jadi yang penting adalah harga sebuah aksi di kompetisi yang sedang berjalan. **Membeli paket berisi Diamond memberi 30 poin per 1 Diamond di ketujuh kompetisi** — satu-satunya aksi yang selalu dihitung.
+> Event ini terbuka pada **Kuil level 6** dan terdiri dari **7 kompetisi terpisah** yang berjalan berurutan — masing-masing hanya menghitung aksinya sendiri. Nilai tiap aksi sangat timpang, jadi yang penting adalah harga sebuah aksi di kompetisi yang sedang berjalan. **Membeli paket berisi Diamond memberi 30 poin per 1 Diamond di ketujuh kompetisi** — satu-satunya aksi yang selalu dihitung. **Mulai:** di server baru, event dimulai pada **Senin kedua sejak server hidup** dan berlangsung 7 hari (berulang tiap minggu selama server masih muda).
 >
 > Varian kedua menggantikan "Pengumpulan Sumber Daya" dengan **"Penguatan Gagak"**: misi Falcon bernilai **1.350 poin** dan memakai **esensi gagak** memberi **300 poin**. Ambang hadiahnya mencapai **180.000 poin** (ambang tertinggi: 5 tiket rekrutmen).
 

@@ -12,7 +12,7 @@ Das **Supreme Healer (Top-Heiler)** Event ist das ultimative 7-tägige Wettbewer
 Dieser Guide schlüsselt alle 7 Event-Phasen, die genauen Punktemultiplikatoren und praxiserprobte Tipps von führenden Allianzleitern auf.
 
 > [!NOTE]
-> Das Event wird ab **Zuflucht Level 6** freigeschaltet und besteht aus **7 separaten Wettbewerben** hintereinander — jeder wertet nur seine eigenen Aktionen. Aktionen werden sehr unterschiedlich bewertet, entscheidend ist der Wert einer Aktion im gerade laufenden Wettbewerb. **Der Kauf von Paketen mit Diamanten gibt 30 Punkte pro 1 Diamant in allen sieben Wettbewerben** — die einzige Aktion, die immer zählt.
+> Das Event wird ab **Zuflucht Level 6** freigeschaltet und besteht aus **7 separaten Wettbewerben** hintereinander — jeder wertet nur seine eigenen Aktionen. Aktionen werden sehr unterschiedlich bewertet, entscheidend ist der Wert einer Aktion im gerade laufenden Wettbewerb. **Der Kauf von Paketen mit Diamanten gibt 30 Punkte pro 1 Diamant in allen sieben Wettbewerben** — die einzige Aktion, die immer zählt. **Start:** auf neuen Servern beginnt das Event am **zweiten Montag nach Serverstart** und läuft 7 Tage (wöchentliche Wiederholung auf jungen Servern).
 >
 > Eine zweite Variante ersetzt „Ressourcenbeschaffung“ durch **„Raben-Verstärkung“**: Eine Falken-Quest bringt **1.350 Punkte**, der Verbrauch von **Raben-Essenz** gibt **300 Punkte**. Die Belohnungsschwellen reichen bis **180.000 Punkte** (oberste Schwelle: 5 Rekrutierungstickets).
 

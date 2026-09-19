@@ -13,7 +13,7 @@ The **Supreme Healer (Top Healer)** event is the premier 7-day competitive tourn
 This guide provides the complete 7-day schedule, the exact day-by-day resource allocation matrix, advanced stacking mechanics, and how to double dip with Survival Battle for top-tier milestone chests.
 
 > [!NOTE]
-> The event unlocks at **Sanctuary level 6** and consists of **7 separate contests** run in sequence — each scores only its own actions. Actions are valued very unevenly, so what matters is the price of an action in the currently running contest. **Buying packs containing Diamonds gives 30 points per 1 Diamond in all seven contests** — the only action that always counts.
+> The event unlocks at **Sanctuary level 6** and consists of **7 separate contests** run in sequence — each scores only its own actions. Actions are valued very unevenly, so what matters is the price of an action in the currently running contest. **Buying packs containing Diamonds gives 30 points per 1 Diamond in all seven contests** — the only action that always counts. **Launch:** on fresh servers the event starts on the **second Monday of the server's life** and runs 7 days (repeats weekly while the server is young).
 >
 > A second variant of this event replaces "Resource Acquisition" with **"Raven Enhancement"**: a Falcon quest is worth **1,350 points**, and spending **Raven Essence** gives **300 points**. Its reward thresholds go up to **180,000 points** (top threshold: 5 recruitment tickets).
 
@@ -40,9 +40,9 @@ Each day activates an exclusive scoring category. Pay special attention to what 
 | **Day 1** | **Gathering & Stamina** | • 1 Stamina spent = **100 points**<br>• 1 Falcon Mission completed = **1,000 points**<br>• Gathering: 1 pt per 100 Wood/Food, 60 Herbs, or 40 Iron/Gold | ❌ Do NOT burn building or tech speedups.<br>✅ Dump stamina potions on mutants and bosses.<br>✅ Pre-gather: dispatch marches 4–6 hrs before 02:00 UTC. |
 | **Day 2** | **Survivors & Building** | • Survivor Recruitment = **400 points each**<br>• Construction Speedups = **20 points per 1 min**<br>• Building Might = **1 point per +1 Might gained** | ❌ Falcon missions award 0 points today!<br>❌ Do NOT use research or troop speedups. |
 | **Day 3** | **Technology & Research** | • 1 Falcon Mission completed = **1,000 points**<br>• Research Speedups = **20 points per 1 min**<br>• Research/Tech Might = **1 point per +1 Might gained** | ⚠️ **WARNING: NO POINTS FOR BUILDINGS ON DAY 3!**<br>Building speedups and completed constructions grant 0 points! |
-| **Day 4** | **Heroes & Healing** | • Hero Recruitment = **400 points per Ticket**<br>• Skill Badges = **10 points per 1 Badge used**<br>• Antitoxin consumed = **1 point per 660 units** | ❌ Falcon missions award 0 points today!<br>✅ Flush stored serum to heal infected patients. |
-| **Day 5** | **Total Force & Troops** | • Training / Promoting troops (scales by Tier T7–T10)<br>• 1 Falcon Mission completed = **1,000 points**<br>• All Speedups (Build, Tech, Troops) = **20 pts per 1 min** | ✅ Use the Promotion trick (T1 → T8/T9).<br>✅ Claim held "Frozen Hammer" buildings. |
-| **Day 6** | **Elite Operations** | • UR Caravan completed = **5,000 points**<br>• UR Secret Operation = **2,000 points**<br>• Universal Speedups = **20 points per 1 min** | ❌ Falcon missions award 0 points today!<br>✅ Reroll caravans & secret ops to gold (UR) tier. |
+| **Day 4** | **Heroes & Healing** | • Hero Recruitment = **400 points per Ticket**<br>• Skill Badges = **10 points per 1 Badge used**<br>• **Hero star promotion** scores points<br>• Antitoxin spent on **hero leveling** = **1 point per 660 units** | ❌ Falcon missions award 0 points today!<br>✅ Dump stockpiled serum into hero levels.<br>⚠️ **Weapon/gear upgrades do NOT count as hero upgrades** — craft gear any day, no need to wait for Thursday. |
+| **Day 5** | **Total Force & Troops** | • Troops trained/promoted: T1=**5**, T2=**6**, T3=**7**, T4=**13**, T5=**15**, T6=**19**, T7=**22**, T8=**25**, T9=**28**, T10=**31** pts each<br>• 1 Falcon Mission completed = **1,000 points**<br>• All Speedups (Build, Tech, Troops) = **20 pts per 1 min** | ✅ Use the Promotion trick (T1 → T8/T9).<br>✅ Claim held "Frozen Hammer" buildings. |
+| **Day 6** | **Elite Operations** | • UR Caravan completed = **5,000 points**<br>• UR Secret Operation = **2,000 points**<br>• Universal Speedups = **20 points per 1 min**<br>• Healing Speedups = **20 points per 1 min** | ❌ Falcon missions award 0 points today!<br>✅ Reroll caravans & secret ops to gold (UR) tier. |
 | **Day 7** | **Final Chaos (All Categories)** | • **TOTAL SHOWDOWN**: Every category from the week scores!<br>• 1 Falcon Mission = **1,000 points**<br>• 1 Stamina = **100 points**<br>• Any Speedups = **20 points per 1 min**<br>• Hero pulls, antitoxin, troops, gathering | 🔥 Prime day to dump Universal Speedups and push for Top 10 leaderboard rankings. |
 
 > [!WARNING]
@@ -64,6 +64,7 @@ To consistently clear top milestone chests without unnecessary spending, follow 
 | **Training Speedups** | **Day 5** & **Day 7** | Days 1, 2, 3, 4, 6 | Use exclusively with the Promotion technique (T1 → T8/T9). |
 | **Universal Speedups** | **Day 7** (Top priority) | Days 1, 2, 3, 4 | "Iron Reserve" for Day 7 leaderboard push or chest top-offs. |
 | **Hero Recruitment Tickets** | **Day 4** & **Day 7** | Days 1, 2, 3, 5, 6 | Save in batches of 150–250+ tickets to sweep all chests. |
+| **Hero Star Shards** | **Day 4** & **Day 7** | Days 1, 2, 3, 5, 6 | Hoard shards; promote stars on Thursday. Gear crafting is free anytime — it never scores hero points. |
 | **Skill Badges** | **Day 4** & **Day 7** | Days 1, 2, 3, 5, 6 | Upgrade premier combat commander skills. |
 | **Gold Caravans / Secret Ops** | **Day 6** & **Day 7** | Days 1–5 | Reroll using diamonds until you hit gold (UR) rank. |
 
