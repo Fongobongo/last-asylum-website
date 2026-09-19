@@ -95,3 +95,26 @@ The all-time record stands at **1,193 waves** in a single siege.
 7. **Logging off without preset defense** — offline defense works, but **only if it was pre-set**. Set it, then sleep.
 
 Run the event with those seven fixed and your alliance defends near its ceiling. Hero setup for the wall and squad composition are covered in the [Heroes guide](/heroes/).
+
+---
+
+## 📊 Score & Reward Tables {#wiki-tables}
+
+Verified values from game client data (v1.0.87), source: wiki-last-asylum.com. Base values shown without Academy or event research bonuses.
+
+### Source: [wiki — city-siege](https://wiki-last-asylum.com/en/wiki/city-siege)
+
+**Last Asylum: Plague Wiki**
+
+| Stage | Sanctuary | Might needed | Antitoxin per stage |
+|---|---|---|---|
+| 1 | 13-15 | 2,414,269 | 16,704,000 |
+| 2 | 14-16 | 3,293,051 | 20,880,000 |
+| 3 | 15-17 | 4,229,772 | 26,100,000 |
+| 4 | 17-20 | 6,088,213 | 52,800,000 |
+| 5 | 19-22 | 8,014,806 | 75,400,000 |
+| 6 | 21-24 | 11,522,865 | 119,700,000 |
+| 7 | 23-26 | 14,019,948 | 138,800,000 |
+| 8 | 25-28 | 17,411,540 | 196,300,000 |
+| 9 | 26-29 | 20,155,943 | 202,600,000 |
+| 10 | 27-30 | 24,471,960 | 255,600,000 |

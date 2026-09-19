@@ -39,3 +39,35 @@ Rack up reds early, pivot to mines once your skills are high, and you'll outscor
 ## The Whale Counter {#whales}
 
 Paying players mostly buy march-speed packs and stronger skills faster. The answer is not to race their speed — it's to **out-discipline** them: hit more reds per minute, never waste a second fighting them, and steal the mine they just cleared the moment they leave. Most whales plateau at 5K mines; a clean 30-reds-per-minute F2P run lands the same bracket.
+
+---
+
+## 📊 Score & Reward Tables {#wiki-tables}
+
+Verified values from game client data (v1.0.87), source: wiki-last-asylum.com. Base values shown without Academy or event research bonuses.
+
+### Source: [wiki — black-mine](https://wiki-last-asylum.com/en/wiki/black-mine)
+
+**Veins**
+
+| Vein | Stock | Rate |
+|---|---|---|
+| Crystal Cluster 1 | 8,640 | 12 |
+| Crystal Cluster 2 | 17,280 | 24 |
+| Crystal Cluster 3 | 34,560 | 48 |
+| Instant Cluster 4 | 4,000 | 200 |
+
+**Mine skills**
+
+| Skill | Effect | Cost |
+|---|---|---|
+| Crystal Surge | Periodically gain 1080 Purified Crystals | 200 |
+| Plague Rat Hunter | Gain 1500 extra Crystals when you slay a Plague Rat | 200 |
+| Force Expansion | Single Hero March Capacity +50 | 500 |
+| Swift March | Troop March Speed in Crystal Cluster Valley +25% | 500 |
+| Valley Plunder | Gain 5000 extra Purified Crystals when you seize a Lode. CD: 60s | 900 |
+| Valley Vigil | Gain 5000 extra Purified Crystals when you fail to seize a Lode. CD: 60s | 900 |
+| Crystal Mining | Crystal Cluster Gathering Speed increases by 15% | 1,500 |
+| Iron Will | Reduces the duration of debuffs received by 30s | 1,500 |
+| Valley Awakening | Increases Hero DMG by 15% for 60s. CD: 300s | 2,300 |
+| Crystal Resonance | Temporarily increases Crystal Cluster Gathering Speed by 50% for 60s. CD: 300s | 2,300 |

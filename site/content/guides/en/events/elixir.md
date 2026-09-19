@@ -77,3 +77,27 @@ The winning pattern, condensed:
 - **Never go solo.** A single squad attacking a defended point dies alone and contributes nothing. Move with your alliance or don't move.
 
 Elixir Scramble rewards discipline over power. A weaker alliance that holds the right buildings and never stops rotating will beat a stronger alliance chasing kills — because kills were never worth anything.
+
+---
+
+## 📊 Score & Reward Tables {#wiki-tables}
+
+Verified values from game client data (v1.0.87), source: wiki-last-asylum.com. Base values shown without Academy or event research bonuses.
+
+### Source: [wiki — elixir-race](https://wiki-last-asylum.com/en/wiki/elixir-race)
+
+**The battlefield map**
+
+| # | Structure | Position | Alliance points | Extra effect |
+|---|---|---|---|---|
+| 1 | Elixir Castle | center | 48 / 32 | - |
+| 2 | War Relics | center | 6 / 4 | allies gain +15% hero HP, ATK and DEF |
+| 3 | Cursed Altar | center | 6 / 4 | enemies lose 15% hero HP, ATK and DEF |
+| 4 | Alchemy Workshop | by the west entrance | 30 / 20 | - |
+| 5 | Alchemy Workshop | by the east entrance | 30 / 20 | - |
+| 6 | Migration Portal | eastern half | 6 / 4 | city relocation cooldown 50% shorter |
+| 7 | Observatory | western half | 6 / 4 | all alliance points grow by 10% |
+| 8 | Healing Tent | by the west entrance | 18 / 12 | heals 15 wounded every 10 seconds |
+| 9 | Healing Tent | by the east entrance | 18 / 12 | heals 15 wounded every 10 seconds |
+| 10 | Healing Tent | western half | 18 / 12 | heals 15 wounded every 10 seconds |
+| 11 | Healing Tent | eastern half | 18 / 12 | heals 15 wounded every 10 seconds |

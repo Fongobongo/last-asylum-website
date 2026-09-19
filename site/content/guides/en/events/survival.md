@@ -141,3 +141,60 @@ The complete video breakdown by creator **KorpezGaming** is embedded below and a
 6. Queue soldier training **strictly after the training phase has started** (points are awarded upon queueing!).
 7. Use the Promotion trick (T1 → T7) for rapid, ultra-cheap milestone completions.
 8. Sweep all milestone chests to secure your ~60,000 Skill Badges before the weekly reset (00:00 Server Time / 02:00 UTC).
+
+---
+
+## 📊 Score & Reward Tables {#wiki-tables}
+
+Verified values from game client data (v1.0.87), source: wiki-last-asylum.com. Base values shown without Academy or event research bonuses.
+
+### Source: [wiki — arms-race](https://wiki-last-asylum.com/en/wiki/arms-race)
+
+**Enhance Heroes**
+
+| Action | Points |
+|---|---|
+| Recruit heroes once | 400 |
+| Buy a pack containing Diamonds [1 Diamond] | 30 |
+| For every 1950 Antitoxin consumed | 1 |
+
+**Build Territory**
+
+| Action | Points |
+|---|---|
+| Buy a pack containing Diamonds [1 Diamond] | 30 |
+| Use 1m Construction Speedup | 10 |
+| Increase 1 Building Might | 1 |
+
+**Train Soldiers**
+
+| Action | Points |
+|---|---|
+| Buy a pack containing Diamonds [1 Diamond] | 30 |
+| Use 1m Training Boost | 10 |
+
+**Research Technology**
+
+| Action | Points |
+|---|---|
+| Buy a pack containing Diamonds [1 Diamond] | 30 |
+| Use 1m Research Speedup | 10 |
+| Increase 1 Tech Might | 1 |
+
+**Enhance Raven**
+
+| Action | Points |
+|---|---|
+| Consume 1 Stamina | 100 |
+| Buy a pack containing Diamonds [1 Diamond] | 30 |
+| For every 10 Raven Fruits consumed | 1 |
+
+**Rank rewards**
+
+| Place | Reward |
+|---|---|
+| 1 | UR Hero Omni Shard x1, Curio Chest (SSR) x1, Grain Level Supply (SR) x24 |
+| 2 | Curio Chest (SSR) x1, Grain Level Supply (SR) x18, Timber Level Supply (SR) x18 |
+| 3 | Curio Chest (SR) x1, Grain Level Supply (SR) x12, Timber Level Supply (SR) x12 |
+| 4-5 | Grain Level Supply (SR) x6, Timber Level Supply (SR) x6, Herb Level Supply (SR) x6 |
+| 6-20 | Grain Level Supply (SR) x3, Timber Level Supply (SR) x3, Herb Level Supply (SR) x3 |

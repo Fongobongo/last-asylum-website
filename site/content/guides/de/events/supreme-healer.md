@@ -2,7 +2,7 @@
 title: "Supreme Healer: Kompletter Event-Guide"
 description: "7-Tage-Punkteschema, tägliche Ressourceneinteilung, Ausdauer-Horten, Falcon-Missionen, Antitoxin-Verbrauch und doppelte Belohnungen mit Daily Survival."
 lang: de
-updated: "2026-09-04"
+updated: "2026-09-19"
 videoTopic: supreme_healer
 type: event
 ---
@@ -11,7 +11,24 @@ Das **Supreme Healer (Top-Heiler)** Event ist das ultimative 7-tägige Wettbewer
 
 Dieser Guide schlüsselt alle 7 Event-Phasen, die genauen Punktemultiplikatoren und praxiserprobte Tipps von führenden Allianzleitern auf.
 
+> [!NOTE]
+> Das Event wird ab **Rathaus (Burg) Level 6** freigeschaltet und besteht aus **7 separaten Wettbewerben** hintereinander — jeder wertet nur seine eigenen Aktionen. Aktionen werden sehr unterschiedlich bewertet, entscheidend ist der Wert einer Aktion im gerade laufenden Wettbewerb. **Der Kauf von Paketen mit Diamanten gibt 30 Punkte pro 1 Diamant in allen sieben Wettbewerben** — die einzige Aktion, die immer zählt.
+>
+> Eine zweite Variante ersetzt „Ressourcenbeschaffung“ durch **„Raben-Verstärkung“**: Eine Falken-Quest bringt **1.350 Punkte**, der Verbrauch von **Raben-Essenz** gibt **300 Punkte**. Die Belohnungsschwellen reichen bis **180.000 Punkte** (oberste Schwelle: 5 Rekrutierungstickets).
+
 ---
+
+## 🏆 Belohnungsschwellen {#rewards}
+
+Belohnungen gibt es für gesammelte Punkte. Die meisten Wettbewerbe haben fünf Schwellen bis 10.000 Punkte, an der Spitze ein universelles UR-Heldenfragment:
+
+| Punkte | Belohnung |
+|---|---|
+| **500** | Level-Vorräte: Getreide (SR) ×2, Holz (SR) ×2, Kraut (SR) ×2 |
+| **1.000** | Level-Vorräte: Getreide (SR) ×2, Holz (SR) ×2, Kraut (SR) ×2 |
+| **3.000** | Level-Vorräte: Getreide (SR) ×6, Holz (SR) ×6, Kraut (SR) ×6 |
+| **6.000** | Universelles Heldenfragment (SSR) ×2, 60-Min-Beschleuniger ×3, Rekrutierungsticket ×2 |
+| **10.000** | **Universelles Heldenfragment (UR) ×1**, Antitoxin-Vorräte (SR) ×3, Rekrutierungsticket ×2 |
 
 ## 🗓️ 7-Tage-Punkteschema {#schedule}
 

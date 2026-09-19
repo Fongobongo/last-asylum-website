@@ -81,3 +81,21 @@ VIP level progression progressively automates and supercharges operations:
 3. Plunder **5 foreign operations** for risk-free loot.
 4. Assist **5 alliance members** in the alliance overview tab.
 5. Check the Treasure Hunter tab to trade duplicate fragments with guild members.
+
+---
+
+## 📊 Score & Reward Tables {#wiki-tables}
+
+Verified values from game client data (v1.0.87), source: wiki-last-asylum.com. Base values shown without Academy or event research bonuses.
+
+### Source: [wiki — covert-ops](https://wiki-last-asylum.com/en/wiki/covert-ops)
+
+**Top line (quality 5)**
+
+| Level | Heroes needed | Time | Hero XP | Also gives |
+|---|---|---|---|---|
+| 1 | 1 hero lv 25, 1 of quality 5, 1 at stars 1 | 4 h | 913,770 | Secret Reward 32, UR Hero Omni Shard 1 |
+| 2 | 2 heroes lv 65, 1 of quality 5, 2 at stars 2 | 4 h | 3,069,000 | Secret Reward 62, UR Hero Omni Shard 1 |
+| 3 | 2 heroes lv 90, 2 of quality 5, 2 at stars 2 | 4 h | 7,108,200 | Secret Reward 92, UR Hero Omni Shard 1 |
+| 4 | 3 heroes lv 100, 2 of quality 5, 2 at stars 3 | 4 h | 9,108,000 | Secret Reward 122, UR Hero Omni Shard 1 |
+| 5 | 3 heroes lv 110, 2 of quality 5, 1 at stars 4 | 4 h | 12,177,000 | Secret Reward 152, UR Hero Omni Shard 1 |

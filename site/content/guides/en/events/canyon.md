@@ -63,3 +63,22 @@ Neither setup is wrong in a vacuum. The correct read: **check who won and lost w
 Canyon Conquest has **no troop loss, no resource risk, and no real stamina cost** — unlike [KvK](/events/kvk/), where an unshielded city burns. You fight with borrowed tournament power, your real army stays home intact. That makes it one of the **best events for safe rewards** in the game: show up, register, fight your three fights, collect.
 
 The only real cost is lineup attention — and the relay rules above are the entire lineup meta.
+
+---
+
+## 📊 Score & Reward Tables {#wiki-tables}
+
+Verified values from game client data (v1.0.87), source: wiki-last-asylum.com. Base values shown without Academy or event research bonuses.
+
+### Source: [wiki — flag-war](https://wiki-last-asylum.com/en/wiki/flag-war)
+
+**Last Asylum: Plague Wiki**
+
+| League | Medals required | Team size | Win | Draw | Loss |
+|---|---|---|---|---|---|
+| Rookie League | 0-499 | 15 | 200 | 60 | 60 |
+| Novice League | 500-1,499 | 15 | 250 | 75 | 75 |
+| Beginner League | 1,500-2,799 | 15 | 400 | 120 | 120 |
+| Elite League | 2,800-4,499 | 20 | 600 | 180 | 180 |
+| Epic League | 4,500-6,999 | 20 | 800 | 240 | 240 |
+| Mythic League | 7,000+ | 20 | 1,000 | 300 | 300 |

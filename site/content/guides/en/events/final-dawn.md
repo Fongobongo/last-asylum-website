@@ -65,3 +65,27 @@ $$\text{Sanctuary} \longrightarrow \text{Prerequisite Buildings} \longrightarrow
 The most common pitfall is blowing all starter speedups within the first 24 hours. When Days 5–7 arrive with massive high-tier reward milestones, unprepared players find their bags empty and stall out.
 
 **The winning approach:** Accumulate speedups and resource crates through Days 1–4 using natural build timers and alliance assists, then execute a coordinated, explosive push during Days 5–7.
+
+---
+
+## 📊 Score & Reward Tables {#wiki-tables}
+
+Verified values from game client data (v1.0.87), source: wiki-last-asylum.com. Base values shown without Academy or event research bonuses.
+
+### Source: [wiki — final-dawn](https://wiki-last-asylum.com/en/wiki/final-dawn)
+
+**Thresholds and rewards**
+
+| Threshold | Might | Reward |
+|---|---|---|
+| 1 | 32,000 | Recruit Ticket ×2, 5m Construction Speedup ×12, 50 Stamina ×2, Antitoxin Level Supply (SR) ×2 |
+| 2 | 95,000 | Recruit Ticket ×2, 5m Construction Speedup ×22, 50 Stamina ×2, Antitoxin Level Supply (SR) ×3 |
+| 3 | 190,000 | Recruit Ticket ×3, 5m Construction Speedup ×34, 50 Stamina ×2, Antitoxin Level Supply (SR) ×4 |
+| 4 | 480,000 | Recruit Ticket ×3, 5m Construction Speedup ×45, 50 Stamina ×2, Antitoxin Level Supply (SR) ×6 |
+| 5 | 800,000 | Recruit Ticket ×5, 5m Construction Speedup ×52, 50 Stamina ×2, Antitoxin Level Supply (SSR) ×1 |
+| 6 | 1,150,000 | Recruit Ticket ×5, 5m Construction Speedup ×58, 50 Stamina ×2, Antitoxin Level Supply (SSR) ×2 |
+| 7 | 1,650,000 | Recruit Ticket ×10, 5m Construction Speedup ×68, 50 Stamina ×2, Antitoxin Level Supply (SSR) ×3 |
+| 8 | 2,250,000 | Recruit Ticket ×10, 5m Construction Speedup ×83, 50 Stamina ×2, Antitoxin Level Supply (SSR) ×4 |
+| 9 | 2,750,000 | Recruit Ticket ×10, 5m Construction Speedup ×96, 50 Stamina ×2, Antitoxin Level Supply (SSR) ×6 |
+| 10 | 3,480,000 | Recruit Ticket ×30, 5m Construction Speedup ×98, 50 Stamina ×2, Antitoxin Level Supply (SSR) ×7 |
+| 11 | 4,600,000 | UR Sword ×1, 5m Construction Speedup ×158, 50 Stamina ×4, Antitoxin Level Supply (SSR) ×8 |

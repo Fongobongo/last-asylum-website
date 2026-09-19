@@ -2,7 +2,7 @@
 title: "Curador Supremo: Guia Completo do Evento"
 description: "Cronograma de pontuação de 7 dias, alocação de recursos diária, estoque de energia, missões Falcon, uso de antitoxina e recompensas duplas com a Sobrevivência Diária."
 lang: pt
-updated: "2026-09-04"
+updated: "2026-09-19"
 videoTopic: supreme_healer
 type: event
 ---
@@ -11,7 +11,24 @@ O evento **Curador Supremo (Supreme Healer)** é o torneio competitivo definitiv
 
 Este guia detalha todas as 7 fases do evento, multiplicadores de pontuação exatos e dicas testadas em batalha pelos principais líderes de aliança.
 
+> [!NOTE]
+> O evento desbloqueia no **Centro da Cidade (castelo) nível 6** e consiste em **7 competições separadas** em sequência — cada uma pontua apenas suas próprias ações. As ações têm valores muito desiguais, então o que importa é o preço de cada ação na competição ativa. **Comprar pacotes com diamantes dá 30 pontos por 1 diamante nas sete competições** — a única ação que sempre conta.
+>
+> Uma segunda variante substitui "Coleta de Recursos" por **"Aprimoramento do Corvo"**: uma missão do Falcão vale **1.350 pontos** e gastar **essência de corvo** dá **300 pontos**. Os limites de recompensa chegam a **180.000 pontos** (limite máximo: 5 bilhetes de recrutamento).
+
 ---
+
+## 🏆 Limites de Recompensa {#rewards}
+
+As recompensas são dadas por pontos acumulados. A maioria das competições tem cinco limites até 10.000 pontos, com um fragmento de herói UR universal no topo:
+
+| Pontos | Recompensa |
+|---|---|
+| **500** | Suprimentos de nível: grãos (SR) ×2, madeira (SR) ×2, ervas (SR) ×2 |
+| **1.000** | Suprimentos de nível: grãos (SR) ×2, madeira (SR) ×2, ervas (SR) ×2 |
+| **3.000** | Suprimentos de nível: grãos (SR) ×6, madeira (SR) ×6, ervas (SR) ×6 |
+| **6.000** | Fragmento de herói universal (SSR) ×2, Aceleração (60 min) ×3, Bilhete de recrutamento ×2 |
+| **10.000** | **Fragmento de herói universal (UR) ×1**, Suprimentos de antitoxina (SR) ×3, Bilhete de recrutamento ×2 |
 
 ## 🗓️ Cronograma de Pontuação de 7 Dias {#schedule}
 

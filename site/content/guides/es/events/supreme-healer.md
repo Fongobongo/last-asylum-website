@@ -2,7 +2,7 @@
 title: "Sanador Supremo: Guía completa del evento"
 description: "Calendario de puntuación de 7 días, asignación de recursos día a día, acumulación de energía, misiones de Falcon, uso de antitoxina y recompensas dobles con la Supervivencia Diaria."
 lang: es
-updated: "2026-09-04"
+updated: "2026-09-19"
 videoTopic: supreme_healer
 type: event
 ---
@@ -11,7 +11,24 @@ El evento **Sanador Supremo (Supreme Healer)** es el torneo competitivo definiti
 
 Esta guía desglosa las 7 fases del evento, los multiplicadores de puntuación exactos y consejos probados en batalla por los principales líderes de alianzas.
 
+> [!NOTE]
+> El evento se desbloquea con el **Ayuntamiento (castillo) nivel 6** y consta de **7 competiciones independientes** consecutivas: cada una puntúa solo sus propias acciones. Las acciones se valoran de forma muy desigual, así que lo importante es el precio de cada acción en la competición activa. **Comprar paquetes con diamantes da 30 puntos por 1 diamante en las siete competiciones**: la única acción que siempre cuenta.
+>
+> Una segunda variante sustituye «Obtención de recursos» por **«Mejora del Cuervo»**: una misión del halcón vale **1.350 puntos** y gastar **esencia de cuervo** da **300 puntos**. Sus umbrales de recompensa llegan hasta **180.000 puntos** (umbral máximo: 5 boletos de reclutamiento).
+
 ---
+
+## 🏆 Umbrales de recompensas {#rewards}
+
+Las recompensas se otorgan por puntos acumulados. La mayoría de las competiciones tienen cinco umbrales hasta 10.000 puntos; el superior da un fragmento de héroe UR universal:
+
+| Puntos | Recompensa |
+|---|---|
+| **500** | Suministros de nivel: grano (SR) ×2, madera (SR) ×2, hierba (SR) ×2 |
+| **1.000** | Suministros de nivel: grano (SR) ×2, madera (SR) ×2, hierba (SR) ×2 |
+| **3.000** | Suministros de nivel: grano (SR) ×6, madera (SR) ×6, hierba (SR) ×6 |
+| **6.000** | Fragmento de héroe universal (SSR) ×2, Aceleración (60 min) ×3, Boleto de reclutamiento ×2 |
+| **10.000** | **Fragmento de héroe universal (UR) ×1**, Suministros de antitoxina (SR) ×3, Boleto de reclutamiento ×2 |
 
 ## 🗓️ Calendario de puntuación de 7 días {#schedule}
 

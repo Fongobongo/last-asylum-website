@@ -249,3 +249,111 @@ A complete 22-minute video breakdown of Alliance Duel mechanics by creator **Kor
 8. Skipping Super Reward 1 and 2 research in the Lab — leaving tiers 4–9 completely locked despite having the points.
 9. Letting the quest board freeze at capacity instead of holding it one slot below max (the Max - 1 rule).
 10. Ignoring the Sunday reset day and entering the next cycle unprepared.
+
+---
+
+## 📊 Score & Reward Tables {#wiki-tables}
+
+Verified values from game client data (v1.0.87), source: wiki-last-asylum.com. Base values shown without Academy or event research bonuses.
+
+### Source: [wiki — event-points](https://wiki-last-asylum.com/en/wiki/event-points)
+
+**Day 1**
+
+| Action | Points |
+|---|---|
+| Complete Falcon Quest once | 10,000 |
+| Consume 1 Raven Essence | 2,500 |
+| Get 1 UR Epigraph Shard for each Epigraph Chest opened | 1,125 |
+| Consume 1 Stamina | 150 |
+| Buy a pack containing Diamonds [1 Diamond] | 30 |
+| Gather 100 Timber | 5 |
+| Gather 100 Grain | 5 |
+| Gather 60 Herbs | 5 |
+| Consume 1 Raven Fruit | 3 |
+| Use 660 Antitoxin | 1 |
+
+**Day 2**
+
+| Action | Points |
+|---|---|
+| Dispatch a UR Caravan | 100,000 |
+| Execute 1 UR Covert Operation | 75,000 |
+| Recruit survivor once | 1,500 |
+| Use 1m Construction Speedup | 50 |
+| Buy a pack containing Diamonds [1 Diamond] | 30 |
+| Increase 1 Building Might | 10 |
+
+**Day 3**
+
+| Action | Points |
+|---|---|
+| Complete Falcon Quest once | 10,000 |
+| Consume 1 Study Scroll | 300 |
+| Use 1m Research Speedup | 50 |
+| Buy a pack containing Diamonds [1 Diamond] | 30 |
+| Increase 1 Tech Might | 10 |
+
+**Day 4**
+
+| Action | Points |
+|---|---|
+| Consume 1 Hero Awaken Shard or Awaken Omni Shard | 10,000 |
+| Consume 1 UR Hero Shard | 10,000 |
+| Consume 1 SSR Hero Shard | 3,500 |
+| Recruit heroes once | 1,500 |
+| Consume 1 SR Hero Shard | 1,000 |
+| Buy a pack containing Diamonds [1 Diamond] | 30 |
+| Use 1 Skill Badge | 10 |
+| Use 660 Antitoxin | 1 |
+
+**Day 5**
+
+| Action | Points |
+|---|---|
+| Complete Falcon Quest once | 10,000 |
+| Use 1m Research Speedup | 50 |
+| Use 1m Construction Speedup | 50 |
+| Use 1m Training Boost | 50 |
+| Buy a pack containing Diamonds [1 Diamond] | 30 |
+| Increase 1 Building Might | 10 |
+| Increase 1 Tech Might | 10 |
+
+**Day 6**
+
+| Action | Points |
+|---|---|
+| Dispatch a UR Caravan | 100,000 |
+| Execute 1 UR Covert Operation | 75,000 |
+| Consume 1 UR Hero Shard | 10,000 |
+| Consume 1 SSR Hero Shard | 3,500 |
+| Consume 1 Raven Essence | 2,500 |
+| Recruit survivor once | 1,500 |
+| Recruit heroes once | 1,500 |
+| Consume 1 SR Hero Shard | 1,000 |
+| Use 1m Research Speedup | 50 |
+| Use 1m Healing Speedup | 50 |
+| Use 1m Construction Speedup | 50 |
+| Use 1m Training Boost | 50 |
+| Buy a pack containing Diamonds [1 Diamond] | 30 |
+| Use 1 Skill Badge | 10 |
+| Increase 1 Building Might | 10 |
+| Increase 1 Tech Might | 10 |
+| Gather 100 Timber | 5 |
+| Gather 100 Grain | 5 |
+| Gather 60 Herbs | 5 |
+| Consume 1 Raven Fruit | 3 |
+| Use 660 Antitoxin | 1 |
+
+**Points can be multiplied**
+
+| Technology | Levels | At max | Cost |
+|---|---|---|---|
+| Arena Expert | 20 | +100% | 3,800 |
+| Arena Master | 10 | +50% | 7,200 |
+| Falcon Points | 10 | +50% | 1,200 |
+| Recruitment Points | 10 | +50% | 1,200 |
+| Survivor Recruitment Points | 10 | +50% | 4,520 |
+| Training Points | 10 | +50% | 6,350 |
+| Building Points | 10 | +50% | 6,350 |
+| Covert Operation Points | 10 | +50% | 4,520 |

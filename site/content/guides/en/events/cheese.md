@@ -70,3 +70,48 @@ Specific hero picks and faction synergies are in the [Heroes guide](/heroes/).
 ## The Whale-Carry Option {#whale-carry}
 
 If your alliance has one heavy hitter, there is an efficient endgame pattern: **2-3 rallies are enough to max alliance rewards** when the whale carries the damage. Everyone else joins the rally for the +2.5%, drops their troops in, and stops at their personal Phase 5. The whale's damage fills the shared pool; the alliance tier fills; nobody burns troops past their own stop point.
+
+---
+
+## 📊 Score & Reward Tables {#wiki-tables}
+
+Verified values from game client data (v1.0.87), source: wiki-last-asylum.com. Base values shown without Academy or event research bonuses.
+
+### Source: [wiki — cheese-trap](https://wiki-last-asylum.com/en/wiki/cheese-trap)
+
+**How the event runs**
+
+| Lures | Damage bonus |
+|---|---|
+| 15 | +3% |
+| 20 | +7% |
+| 25 | +12% |
+| 30 | +18% |
+| 35 | +25% |
+
+**Trap levels**
+
+| Level | Server day | Alliance damage to unlock | Personal damage for ten rewards |
+|---|---|---|---|
+| 1 | from day one | 0 | 20,000,000 |
+| 2 | from day one | 44,000,000 | 48,000,000 |
+| 3 | 7 | 170,000,000 | 110,000,000 |
+| 4 | 14 | 530,000,000 | 190,000,000 |
+| 5 | 21 | 1,400,000,000 | 440,000,000 |
+| 6 | 30 | 3,800,000,000 | 900,000,000 |
+| 7 | 45 | 8,000,000,000 | 1,400,000,000 |
+| 8 | 60 | 14,000,000,000 | 2,200,000,000 |
+| 9 | 90 | 25,000,000,000 | 3,200,000,000 |
+| 10 | 120 | 42,000,000,000 | 4,200,000,000 |
+| 11 | season day 80 | 60,000,000,000 | 5,760,000,000 |
+| 12 | season day 80 | 103,680,000,000 | 8,800,000,000 |
+
+**Rewards**
+
+| Threshold | Personal damage | Reward |
+|---|---|---|
+| 1 | any hit | 5m Speedup ×3, diamonds ×45, Gearstone ×200, Refined Iron ×7, Resource Supply (General) ×1 |
+| 2 | 1,000,000 | 5m Speedup ×5, diamonds ×55, Gearstone ×340, Refined Iron ×11, Resource Supply (General) ×1 |
+| 3 | 2,000,000 | 5m Speedup ×8, diamonds ×60, Gearstone ×480, Refined Iron ×16, Resource Supply (General) ×2 |
+| 4 | 3,000,000 | 5m Speedup ×10, diamonds ×70, Gearstone ×560, Refined Iron ×19, Resource Supply (General) ×2 |
+| 5 | 5,000,000 | 5m Speedup ×11, diamonds ×75, Gearstone ×640, Refined Iron ×21, Resource Supply (General) ×2 |

@@ -2,7 +2,7 @@
 title: "Guérisseur Suprême : Guide complet de l'événement"
 description: "Calendrier de score sur 7 jours, allocations de ressources quotidiennes, stockage d'endurance, missions Falcon, utilisation de l'antitoxine et récompenses doubles avec la Survie Quotidienne."
 lang: fr
-updated: "2026-09-04"
+updated: "2026-09-19"
 videoTopic: supreme_healer
 type: event
 ---
@@ -11,7 +11,24 @@ L'événement **Guérisseur Suprême (Top Healer)** est le tournoi compétitif u
 
 Ce guide détaille les 7 phases de l'événement, les multiplicateurs de score exacts et les astuces éprouvées par les meilleurs chefs d'alliance.
 
+> [!NOTE]
+> L'événement se débloque au niveau **6 de l'hôtel de ville (château)** et se compose de **7 compétitions indépendantes** qui s'enchaînent — chacune ne compte que ses propres actions. Les actions sont valorisées très inégalement : ce qui compte, c'est le prix d'une action dans la compétition en cours. **Acheter des packs contenant des diamants rapporte 30 points par diamant dans les sept compétitions** — la seule action qui compte toujours.
+>
+> Une seconde variante remplace « Collecte de ressources » par **« Renforcement du Corbeau »** : une mission du Faucon vaut **1 350 points** et dépenser de l'**essence de corbeau** rapporte **300 points**. Ses seuils de récompense montent jusqu'à **180 000 points** (seuil supérieur : 5 tickets de recrutement).
+
 ---
+
+## 🏆 Seuils de récompenses {#rewards}
+
+Les récompenses sont accordées selon les points cumulés. La plupart des compétitions ont cinq seuils jusqu'à 10 000 points, avec un fragment de héros UR universel au sommet :
+
+| Points | Récompense |
+|---|---|
+| **500** | Fournitures de niveau : grain (SR) ×2, bois (SR) ×2, herbe (SR) ×2 |
+| **1 000** | Fournitures de niveau : grain (SR) ×2, bois (SR) ×2, herbe (SR) ×2 |
+| **3 000** | Fournitures de niveau : grain (SR) ×6, bois (SR) ×6, herbe (SR) ×6 |
+| **6 000** | Fragment de héros universel (SSR) ×2, Accélération (60 min) ×3, Ticket de recrutement ×2 |
+| **10 000** | **Fragment de héros universel (UR) ×1**, Fournitures d'antitoxine (SR) ×3, Ticket de recrutement ×2 |
 
 ## 🗓️ Calendrier de score sur 7 jours {#schedule}
 

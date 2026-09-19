@@ -90,3 +90,32 @@ The community boss comp, built for damage over time:
 | Back | Marlena + Shadow + Claire | Damage engine behind the frontline |
 
 The logic: **longer survival = more damage stacked**. A boss fight is not a burst check — the squad that stands the longest deals the most, so prioritize survival over raw attack. Full hero details are in the [Heroes guide](/heroes/).
+
+---
+
+## 📊 Score & Reward Tables {#wiki-tables}
+
+Verified values from game client data (v1.0.87), source: wiki-last-asylum.com. Base values shown without Academy or event research bonuses.
+
+### Source: [wiki — thief-hunt](https://wiki-last-asylum.com/en/wiki/thief-hunt)
+
+**The Lion Coin shop**
+
+| Item | Price in Lion Coins | Purchase limit |
+|---|---|---|
+| Hero Awaken Omni Shard | 120 | 10 |
+| Recruit Ticket | 80 | 10 |
+| Survivor Recruit Ticket | 80 | 30 |
+| 50 Stamina | 10 | 3 |
+| Timber Level Supply (SSR) | 160 | 50 |
+| Grain Level Supply (SSR) | 160 | 50 |
+| Herb Level Supply (SSR) | 160 | 100 |
+| Study Scroll ×10 | 200 | 50 |
+| Raven Essence | 200 | 50 |
+| Lv.3 Raven Gear Chest | 360 | 3 |
+| SR Epigraph Chest | 120 | 3 |
+| SSR Epigraph Chest | 400 | 1 |
+| 5m Research Speedup | 4 | 100 |
+| 5m Construction Speedup | 4 | 50 |
+| Refined Iron | 8 | 300 |
+| Gearstone ×50 | 100 | 100 |

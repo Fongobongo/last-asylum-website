@@ -70,3 +70,23 @@ KvK and Alliance Duel share scoring sources, and the community consensus is to e
 - That makes caravans a daily no-brainer — run them every single day of a duel week. The full caravan and plunder route is in the [Guild Wagon & Caravans guide](/events/wagon/).
 
 The rest of the war economy — what to save, when to spend, which shop buys fund the war — is covered in the [Economy guide](/economy/).
+
+---
+
+## 📊 Score & Reward Tables {#wiki-tables}
+
+Verified values from game client data (v1.0.87), source: wiki-last-asylum.com. Base values shown without Academy or event research bonuses.
+
+### Source: [wiki — kingdom-war](https://wiki-last-asylum.com/en/wiki/kingdom-war)
+
+**Season rewards**
+
+| Rank | Weapon fragments | Recruit tickets | Gearstone | Season badges |
+|---|---|---|---|---|
+| 1 | 30 | 100 | 21,500 | 2,000 |
+| 3 | 25 | 80 | 15,000 | 1,800 |
+| 10 | 20 | 60 | 12,500 | 1,600 |
+| 20 | 15 | 50 | 10,000 | 1,400 |
+| 50 | 10 | 45 | 8,000 | 1,200 |
+| 100 | 5 | 40 | 7,000 | 1,000 |
+| Below | 3 | 30 | 5,000 | 600 |

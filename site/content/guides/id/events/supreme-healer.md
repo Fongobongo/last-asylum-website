@@ -2,7 +2,7 @@
 title: "Supreme Healer: Panduan Event Lengkap"
 description: "Jadwal skor 7 hari, alokasi sumber daya harian, penimbunan stamina, misi Falcon, penggunaan antitoxin, dan hadiah ganda dengan Daily Survival."
 lang: id
-updated: "2026-09-04"
+updated: "2026-09-19"
 videoTopic: supreme_healer
 type: event
 ---
@@ -11,7 +11,24 @@ Event **Supreme Healer (Dewa Medis Terbaik)** adalah turnamen kompetitif 7 hari 
 
 Panduan ini menguraikan ketujuh fase event, pengganda skor yang tepat, dan tips yang telah teruji dalam pertempuran dari para pemimpin aliansi papan atas.
 
+> [!NOTE]
+> Event ini terbuka di **Town Hall (kastil) level 6** dan terdiri dari **7 kompetisi terpisah** yang berjalan berurutan — masing-masing hanya menghitung aksinya sendiri. Nilai tiap aksi sangat timpang, jadi yang penting adalah harga sebuah aksi di kompetisi yang sedang berjalan. **Membeli paket berisi Diamond memberi 30 poin per 1 Diamond di ketujuh kompetisi** — satu-satunya aksi yang selalu dihitung.
+>
+> Varian kedua menggantikan "Pengumpulan Sumber Daya" dengan **"Penguatan Gagak"**: misi Falcon bernilai **1.350 poin** dan memakai **esensi gagak** memberi **300 poin**. Ambang hadiahnya mencapai **180.000 poin** (ambang tertinggi: 5 tiket rekrutmen).
+
 ---
+
+## 🏆 Ambang Hadiah {#rewards}
+
+Hadiah diberikan berdasarkan poin yang terkumpul. Sebagian besar kompetisi punya lima ambang hingga 10.000 poin, dengan fragmen hero UR universal di puncaknya:
+
+| Poin | Hadiah |
+|---|---|
+| **500** | Perbekalan level: gandum (SR) ×2, kayu (SR) ×2, herbal (SR) ×2 |
+| **1.000** | Perbekalan level: gandum (SR) ×2, kayu (SR) ×2, herbal (SR) ×2 |
+| **3.000** | Perbekalan level: gandum (SR) ×6, kayu (SR) ×6, herbal (SR) ×6 |
+| **6.000** | Fragmen hero universal (SSR) ×2, Speedup (60 mnt) ×3, Tiket rekrutmen ×2 |
+| **10.000** | **Fragmen hero universal (UR) ×1**, Perbekalan antitoksin (SR) ×3, Tiket rekrutmen ×2 |
 
 ## 🗓️ Jadwal Skor 7 Hari {#schedule}
 

@@ -111,3 +111,36 @@ When you are staring at a foreign map full of caravans, the target order is:
 
 - **Check the star rating and rewards before attacking** — the preview shows what the box pays.
 - **Better color + higher stars = better rewards.** Color first, stars as the tiebreaker.
+
+---
+
+## 📊 Score & Reward Tables {#wiki-tables}
+
+Verified values from game client data (v1.0.87), source: wiki-last-asylum.com. Base values shown without Academy or event research bonuses.
+
+### Source: [wiki — caravans](https://wiki-last-asylum.com/en/wiki/caravans)
+
+**Load by quality (level 25)**
+
+| Quality | Resources per caravan |
+|---|---|
+| 1 | 2,203,740 |
+| 2 | 3,524,400 |
+| 3 | 4,405,500 |
+| 4 | 5,286,600 |
+| 5 | 6,609,240 |
+| 6 | 13,216,500 |
+
+**Caravan research branch**
+
+| Technology | At maximum | Scrolls |
+|---|---|---|
+| Raid Mastery | +15% hero HP, attack and defense when raiding | 9,400 |
+| Defense Mastery | +15% to the same when defending a caravan | 9,400 |
+| Plunder | 50% chance at an extra crate on a win | 5,000 |
+| Luck | 50% chance to save a crate on a loss | 5,000 |
+| Swift Caravan | +25% movement speed | 4,400 |
+| Caravan Expansion | +25% cargo | 3,750 |
+| Extra Caravan | one more daily run | 5,000 |
+| Countermeasures | one player may raid at most 3 times | 20,000 |
+| Pumpkin Carriage | unlocks the Golden Caravan | 20,000 |

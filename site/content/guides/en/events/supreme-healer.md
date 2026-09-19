@@ -2,7 +2,7 @@
 title: "Supreme Healer: Complete Event Guide"
 description: "Full 7-day scoring schedule, day-by-day resource allocation, stamina stacking, Falcon missions, antitoxin, speedup preservation, and double dipping with Daily Survival."
 lang: en
-updated: "2026-09-18"
+updated: "2026-09-19"
 videoTopic: supreme_healer
 infographics: ["/infographics/falcon-tower-storage.webp"]
 type: event
@@ -12,7 +12,24 @@ The **Supreme Healer (Top Healer)** event is the premier 7-day competitive tourn
 
 This guide provides the complete 7-day schedule, the exact day-by-day resource allocation matrix, advanced stacking mechanics, and how to double dip with Survival Battle for top-tier milestone chests.
 
+> [!NOTE]
+> The event unlocks at **Town Hall (Castle) level 6** and consists of **7 separate contests** run in sequence — each scores only its own actions. Actions are valued very unevenly, so what matters is the price of an action in the currently running contest. **Buying packs containing Diamonds gives 30 points per 1 Diamond in all seven contests** — the only action that always counts.
+>
+> A second variant of this event replaces "Resource Acquisition" with **"Raven Enhancement"**: a Falcon quest is worth **1,350 points**, and spending **Raven Essence** gives **300 points**. Its reward thresholds go up to **180,000 points** (top threshold: 5 recruitment tickets).
+
 ---
+
+## 🏆 Reward Thresholds {#rewards}
+
+Rewards are granted for accumulated points. Most contests have five thresholds up to 10,000 points, with a universal UR hero fragment at the top:
+
+| Points | Reward |
+|---|---|
+| **500** | Level Supplies: Grain (SR) ×2, Lumber (SR) ×2, Herb (SR) ×2 |
+| **1,000** | Level Supplies: Grain (SR) ×2, Lumber (SR) ×2, Herb (SR) ×2 |
+| **3,000** | Level Supplies: Grain (SR) ×6, Lumber (SR) ×6, Herb (SR) ×6 |
+| **6,000** | Universal Hero Fragment (SSR) ×2, 60-min Speedup ×3, Recruitment Ticket ×2 |
+| **10,000** | **Universal Hero Fragment (UR) ×1**, Antitoxin Supplies (SR) ×3, Recruitment Ticket ×2 |
 
 ## 🗓️ Complete 7-Day Scoring Schedule {#schedule}
 
