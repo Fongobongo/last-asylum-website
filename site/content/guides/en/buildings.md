@@ -45,7 +45,7 @@ A quick reference for the buildings you will actually be tapping. Translations d
 | Curio Hall | Houses collected Curios providing passive bonuses to buildings, economy, and squad combat power. | Upgrade Curio star levels for permanent account-wide boosts. |
 | Tavern | Hero recruiting — the banner and pull system lives here. | Save diamonds for dated UR events instead of dumping them here. |
 | Falcon Tower | Generates daily missions rewarding diamonds, speedups, hero shards, and antitoxin. Lv.8 unlocks one-tap claim. | Use the "Stacking Max − 1" strategy to bank completed quests for double-point days. |
-| Alliance Hall | Increases daily Alliance Help assists received, base garrison capacity, and rally size limit. | Higher level = more assists (up to 30 assists at Lv.25, shaving ~30% off timers). Mandatory prerequisite for Sanctuary Lv. 7, 8, 9, 13, 20, and 29. |
+| Alliance Hall | Increases the number of Alliance Help assists you can receive. Does NOT affect garrison or rallies! | Higher level = more assists from allies (up to 30 assists at Lv.25, shaving ~30% off any timer for free). Critical for saving speedups and mandatory prerequisite for Sanctuary Lv. 7, 8, 9, 13, 20, and 29. |
 
 ### Barracks vs Training Grounds — the Naming Trap {#barracks-vs-training}
 
