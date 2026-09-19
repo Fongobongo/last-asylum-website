@@ -149,11 +149,12 @@ Careless speedup usage is the primary reason players fall short of top milestone
 ### 1. Construction Speedups
 * **When to Burn:** Strictly on **Day 2** (Building), **Day 5** (Total Might), and **Day 7** (Final Chaos).
 * **Absolute Prohibition:** **NEVER use on Day 3!** On Day 3, construction speedups award exactly **0 points**!
-* **The "Frozen Hammer" Rule:** If a major building upgrade (Sanctuary, Lab) finishes ahead of schedule, do not tap the completed hammer icon. Wait until Day 2 or Day 5 to click and claim the Might gain.
+* **The "Frozen Hammer" Rule:** If a major building upgrade (Sanctuary, Lab) finishes ahead of schedule, do not tap the completed hammer icon. Wait until Day 2 or Day 5 to click and claim the Might gain. Start construction anytime during the day — pop the hammer only on a scoring day.
 
 ### 2. Research Speedups
 * **When to Burn:** On **Day 3** (Technology) and **Day 7** (Final Chaos).
 * Tech provides compound value: 20 points per minute of speedup + 1 point per +1 point of Research Might gained.
+* **The "Long Research" Timing:** queue long technologies (hours/days) so their timer completes on a scoring day. Do not tap Complete before the day starts — the full Might gain lands in one go.
 
 ### 3. Training Speedups & The Promotion Trick
 * **When to Burn:** On **Day 5** (Troop Training) and **Day 7** (Final Chaos).
