@@ -64,6 +64,9 @@ In his video guide, Korpez reveals the primary technique for clearing soldier tr
 
 ## 🔬 Research Phase: The "Micro-Research" Alliance Help Trick {#research-trick}
 
+> [!TIP]
+> **The "Long Research" Trick:** symmetrically to construction — start a **long research (hours or days)** timed so its timer **finishes inside the 4-hour "Technology" phase**. Completing a tech during the active phase pays points for its entire power gain at once. Plan the start in advance and don't tap Finish before the phase begins!
+
 During the 4-hour Technology Research block, KorpezGaming recommends the following optimization:
 * **The Micro-Tech Trick:** Keep 2–3 low-level, basic technologies unresearched in your Lab with base research times of **5–15 minutes** (e.g. initial gathering or defense nodes).
 * If you are 200–400 points short of the Purple or Gold milestone chest, do not burn valuable multi-hour speedups. Simply launch a quick micro-tech and tap **"Alliance Help"**.
@@ -83,6 +86,9 @@ During the 4-hour Technology Research block, KorpezGaming recommends the followi
 ---
 
 ## ⚠️ KorpezGaming Warning: Why You Should SKIP the Building Phase {#skip-building}
+
+> [!TIP]
+> **The "Frozen Hammer" Trick:** you can (and should) **start construction during the day** — but never **tap the hammer to complete a building** until the 4-hour "Territory Development / Build" phase is open. Finishing a building inside the phase pays points for its full cost at once — stack several nearly-finished structures and click them in a burst during the window.
 
 In his video guide, Korpez makes a crucial recommendation for all F2P and low-spender commanders:
 * **The "Build Territory" Trap:** Clearing the Gold Chest in the 4-hour construction phase burns an immense quantity of construction speedups.
