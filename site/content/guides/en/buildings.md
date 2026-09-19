@@ -233,3 +233,52 @@ Hence the feeling that herbs always run out first. The feeling is accurate, and 
 How many copies a city can have, Lab nodes included, is shown by the build calculator: every tile is labelled with the Sanctuary level that unlocks it.
 
 ##
+
+---
+
+## 📚 Reference: Research: price of Might, branches and caps {#wiki-research-priority}
+
+> Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/research-priority)).
+
+## Tools
+
+Research runs slowly and costs heavily, so the order of the branches matters more than the list of them. Might comes at wildly different prices across the lab categories, two branches repeat what two others already give, and one category asks for no resources at all. Development and Economy sell Might cheapest, Hero sells it dearest.
+
+## Price of Might by category
+
+Dividing everything a category costs by all the Might it grants gives the following picture.
+
+| Category | Resources per point |
+|---|---|
+| Development | 794 |
+| Economy | 2,640 |
+| Soldier | 12,152 |
+| Hero | 18,065 |
+
+The gap is twentyfold. The early Development and Economy branches pay back fastest and go first, while the Hero ones wait until later.
+
+## Two squad branches duplicate two others
+
+Squad 1 and Squad 4 give the same bonuses and the same caps as Squad 2 and Squad 3, yet cost far less: about 310M resources and 38 days of queue against billions of resources and thousands of days for the second pair.
+
+The first two are worth maxing, and the other two can wait as long as anything else is worth buying.
+
+## The branch that costs no resources
+
+The category tied to the Alliance Duel needs no grain, wood or herbs. It is paid with Study Scrolls, which are awarded for competition: alliance league ranks, the duel, arena season rewards and growth goals. Behind its node sits the elite troop branch, and with it the tenth tier, so the category cannot be skipped.
+
+## Economy caps
+
+The lab pushes economy up to a fixed border and no further. Output of each resource rises to +60%, gathering speed to +25%, construction speed to +25%, research speed to +50% and the protected resource limit to +50%.
+
+Construction speed comes from four Fast Construction branches, 5% each for the first three and 10% for the fourth. Research speed works the same way, three at 10% and a fourth at 20%.
+
+Construction Master sits beside them and is easy to mistake for one of them. It does not speed building up, it makes it cheaper, taking up to 5% off resource cost over five levels. The names look alike while the effects do not: one branch saves time, the other saves resources.
+
+## Worth remembering
+
+Might and bonus values in the tables are cumulative, so a row shows the total at that level rather than the increment over the previous one. Levels must not be summed.
+
+How the speed, cost and copy-limit nodes change the build queue for a particular city is shown by the build calculator.
+
+##

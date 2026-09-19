@@ -1027,3 +1027,309 @@ No approved comments yet.
 Sign in to leave a comment.
 
 ↑ Back to top
+
+---
+
+## 📚 Reference: Hero skills: slots, upgrades and cost {#wiki-hero-skills}
+
+> Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-skills)).
+
+Hero skills fill five slots and are upgraded with skill badges. There are two templates: an SR hero caps a skill at level 30 for 170,200 badges, while SSR and UR heroes cap at level 40 for 436,700. A full skill on a higher hero costs two and a half times more, which is why badges usually go into one hero rather than across the squad.
+
+## Five slots
+
+The slots hold different kinds of skill. The first is the auto attack, firing all the time. The second is the ultimate, the strongest hit. The third is an active skill on cooldown, the fourth a passive one that works on its own. The fifth is a support skill, active while the hero sits outside the main squad.
+
+Slots open with hero stars: the first at 5, then 10, 15, 20, and the fifth only at 40. The support skill arrives twice as late as the fourth, so a benched hero contributes nothing until 40 stars.
+
+## Two upgrades in one skill
+
+A skill carries two separate upgrades that behave differently. The effect step is unlocked by hero stars and changes what the skill does, with damage growing from 40% to 200%. The level is bought with skill badges and simply raises the number. A step without levels gives little and levels without the step give as little, so both sides have to move together.
+
+## What a skill level actually needs
+
+Skill badges cover only half of the requirement. Every level also demands hero stars, the top levels demand awakening on top, and until the stars are there the badges will not go in.
+
+| Skill level | Stars needed | Awakening needed | Badges total |
+|---|---|---|---|
+| 1 | 0 | - | 0 |
+| 5 | 4 | - | 600 |
+| 10 | 6 | - | 4,500 |
+| 20 | 8 | - | 41,700 |
+| 30 | 10 | - | 170,200 |
+| 35 | 10 | 19 | 284,700 |
+| 40 | 10 | 40 | 436,700 |
+
+That is the advanced hero scale. A plain hero caps the skill at level 30 for 170,200 badges: the last ten levels belong to advanced heroes and only through awakening.
+- Skill badges
+- Hero stars
+
+## What links here
+
+Pages that mention this one. The list is built from the markup, not filled by hand.
+- Contents: heroes, army, events and spending
+- Skill badges: cost and where they come from
+- Hero stars: what they give and unlock
+- Claire (Advanced): skills, upgrades and Might
+- Nicole: skills, upgrades and Might
+- Joker: skills, upgrades and Might
+- Annie: skills, upgrades and Might
+- Ulfrid: skills, upgrades and Might
+- Billy: skills, upgrades and Might
+- Bell: skills, upgrades and Might
+- Red Lady: skills, upgrades and Might
+- Cynthia: skills, upgrades and Might
+- Louis: skills, upgrades and Might
+- Shadow: skills, upgrades and Might
+- Zoya: skills, upgrades and Might
+- Harper: skills, upgrades and Might
+- Daskal: skills, upgrades and Might
+- Ash: skills, upgrades and Might
+- William: skills, upgrades and Might
+- Durant: skills, upgrades and Might
+- Robin: skills, upgrades and Might
+- Kafa: skills, upgrades and Might
+- Hastar: skills, upgrades and Might
+- Marlena: skills, upgrades and Might
+- Bestar: skills, upgrades and Might
+- Grenwald: skills, upgrades and Might
+- Claire: skills, upgrades and Might
+- Bella: skills, upgrades and Might
+- Sivir: skills, upgrades and Might
+- Griffith: skills, upgrades and Might
+- Stellar: skills, upgrades and Might
+- Lucius: skills, upgrades and Might
+- Celia: skills, upgrades and Might
+- Kesso: skills, upgrades and Might
+- Arthur: skills, upgrades and Might
+
+## Comments
+
+No approved comments yet.
+
+Sign in to leave a comment.
+
+↑ Back to top
+
+---
+
+## 📚 Reference: Hero stars: what they give and unlock {#wiki-hero-stars}
+
+> Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-stars)).
+
+Hero stars raise HP, ATK and DEF, and every fifth star also upgrades one of the hero's skills. There are 50 stars in total, and the full path costs 975 shards of that same hero. The shards have to come from that one hero, so stars depend on a shard source rather than on general resources.
+
+## What stars give
+
+The table shows how much HP, ATK and DEF have accumulated at every fifth star and how many shards the next step costs.
+
+| Stars | HP | ATK | DEF | Cost |
+|---|---|---|---|---|
+| 0 | 0 | 0 | 0 | 0 |
+| 1 | 5,664 | 42 | 42 | 2 |
+| 5 | 28,309 | 203 | 203 | 2 |
+| 10 | 60,228 | 428 | 428 | 3 |
+| 15 | 95,613 | 682 | 682 | 4 |
+| 20 | 135,516 | 968 | 968 | 6 |
+| 25 | 177,976 | 1,269 | 1,269 | 8 |
+| 30 | 225,862 | 1,615 | 1,615 | 12 |
+| 35 | 282,476 | 2,018 | 2,018 | 25 |
+| 40 | 346,321 | 2,476 | 2,476 | 35 |
+| 45 | 417,087 | 2,978 | 2,978 | 40 |
+| 50 | 496,891 | 3,548 | 3,548 | 60 |
+
+## What stars unlock
+
+Every fifth star upgrades one of the skills, and the skill gains a new step with a stronger effect. The exact list for each hero is on their page under “What unlocks and when”.
+- Hero shards
+- Hero skills
+
+## What links here
+
+Pages that mention this one. The list is built from the markup, not filled by hand.
+- Contents: heroes, army, events and spending
+- Hero Growth Tasks: who pays off and how much
+- Honor levels: conditions, cost and payout
+- Hero conversion: what it takes and gives
+- Where to get heroes: summons, cost and the cap
+- Hero shards: shard of every hero
+- Hero skills: slots, upgrades and cost
+- Claire (Advanced): skills, upgrades and Might
+- Nicole: skills, upgrades and Might
+- Joker: skills, upgrades and Might
+- Annie: skills, upgrades and Might
+- Ulfrid: skills, upgrades and Might
+- Billy: skills, upgrades and Might
+- Bell: skills, upgrades and Might
+- Red Lady: skills, upgrades and Might
+- Cynthia: skills, upgrades and Might
+- Louis: skills, upgrades and Might
+- Shadow: skills, upgrades and Might
+- Zoya: skills, upgrades and Might
+- Harper: skills, upgrades and Might
+- Daskal: skills, upgrades and Might
+- Ash: skills, upgrades and Might
+- William: skills, upgrades and Might
+- Durant: skills, upgrades and Might
+- Robin: skills, upgrades and Might
+- Kafa: skills, upgrades and Might
+- Hastar: skills, upgrades and Might
+- Marlena: skills, upgrades and Might
+- Bestar: skills, upgrades and Might
+- Grenwald: skills, upgrades and Might
+- Claire: skills, upgrades and Might
+- Bella: skills, upgrades and Might
+- Sivir: skills, upgrades and Might
+- Griffith: skills, upgrades and Might
+- Stellar: skills, upgrades and Might
+- Lucius: skills, upgrades and Might
+- Celia: skills, upgrades and Might
+- Kesso: skills, upgrades and Might
+- Arthur: skills, upgrades and Might
+
+## Comments
+
+No approved comments yet.
+
+Sign in to leave a comment.
+
+↑ Back to top
+
+---
+
+## 📚 Reference: Hero Growth Tasks: who pays off and how much {#wiki-hero-growth}
+
+> Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-growth)).
+
+Hero growth tasks are 15 tracks of 10 steps, 150 tasks in all. Each track is tied to particular heroes and asks for a set number of stars from them, while levels and gear count for nothing. The tracks pay in skill badges and Gearstones, the very things a hero needs anyway, which turns the list into a hint about who to invest in.
+
+Shards put into a pair of heroes from one track close it completely, while the same shards spread across several tracks close none of them. The table lists every track with its heroes, the stars required and the reward.
+
+| Track | Heroes | Stars | Track reward |
+|---|---|---|---|
+| 1001 | Arthur, Marlena | 1-8 | Skill Badge 25,000, Gearstone 22,500 |
+| 1002 | Cynthia, Shadow | 1-8 | Skill Badge 25,000, Gearstone 22,500 |
+| 1003 | Annie, Joker | 1-8 | Skill Badge 25,000, Gearstone 22,500 |
+| 1004 | Annie, Harper, Shadow | 1-8 | Skill Badge 25,000, Gearstone 22,500 |
+| 1005 | Arthur, Daskal | 1-8 | Skill Badge 25,000, Gearstone 22,500 |
+| 1006 | Cynthia, Red Lady | 1-8 | Skill Badge 25,000, Gearstone 22,500 |
+| 1007 | Joker, Ulfrid | 1-8 | Skill Badge 25,000, Gearstone 22,500 |
+| 1008 | Daskal, Red Lady, Ulfrid | 1-8 | Skill Badge 25,000, Gearstone 22,500 |
+| 1009 | Arthur, Zoya | 1-8 | Skill Badge 25,000, Gearstone 22,500 |
+| 1010 | Joker, Louis | 1-8 | Skill Badge 25,000, Gearstone 22,500 |
+| 1011 | Bell, Cynthia | 1-8 | Skill Badge 25,000, Gearstone 22,500 |
+| 1012 | Bell, Louis, Zoya | 1-8 | Skill Badge 25,000, Gearstone 22,500 |
+| 1013 | Billy, Cynthia | 1-8 | Skill Badge 25,000, Gearstone 22,500 |
+| 1014 | Joker, Nicole | 1-8 | Skill Badge 25,000, Gearstone 22,500 |
+| 1015 | Billy, Louis, Nicole | 1-8 | Skill Badge 25,000, Gearstone 22,500 |
+
+## Who pays off most
+
+Some heroes appear in several tracks at once and their stars count for all of them. Tracks covered in brackets: Cynthia (4), Joker (4), Arthur (3), Louis (3).
+
+## What it adds up to
+
+Skill badges are the main currency here: one track pays 25,000 badges, while a full skill on an SR hero costs 170,200 and an SSR or UR one 436,700. A single closed track therefore covers a seventh of a junior hero's skill and an eighteenth of a senior one, earned along the way rather than in addition to it.
+
+Gearstones come next at 22,500 per track, and forging materials and supplies arrive on top of them.
+
+Stars are counted whole, and the tracks run from the first star to the eighth, so nothing is asked beyond eight stars.
+
+##
+
+---
+
+## 📚 Reference: Hero shards: shard of every hero {#wiki-hero-shards}
+
+> Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-shards)).
+
+Hero shards unlock a hero first and raise their stars afterwards. Every hero has one, 10 of them cover the unlock, and reaching 50 stars needs 975 more on top of that. The same shard serves both purposes, so a surplus on an already unlocked hero never goes to waste.
+
+## Shard of every hero
+
+Shards are named after their heroes, and the table shows which one belongs to whom.
+
+| Hero | Faction | Rarity | Item |
+|---|---|---|---|
+| Annie | Warlock | UR | Annie Shard |
+| Arthur | Warrior | UR | Arthur Shard |
+| Ash | Ranger | SSR | Ash Shard |
+| Bell | Ranger | UR | Bell Shard |
+| Bella | Warrior | SSR | Bella Shard |
+| Bestar | Ranger | SSR | Bestar Shard |
+| Billy | Warlock | UR | Billy Shard |
+| Celia | Warrior | SSR | Celia Shard |
+| Claire | Warrior | SSR | Claire Shard |
+| Claire (Advanced) | Warrior | UR | Claire Shard |
+| Cynthia | Ranger | UR | Cynthia Shard |
+| Daskal | Warrior | UR | Daskal Shard |
+| Durant | Warrior | SR | Durant Shard |
+| Grenwald | Warlock | SSR | Grenwald Shard |
+| Griffith | Ranger | SSR | Griffith Shard |
+| Harper | Warrior | UR | Harper Shard |
+| Hastar | Warlock | SSR | Hastar Shard |
+| Joker | Warlock | UR | Joker Shard |
+| Kafa | Warlock | SR | Kafa Shard |
+| Kesso | Warrior | SSR | Kesso Shard |
+| Louis | Ranger | UR | Louis Shard |
+| Lucius | Warrior | SSR | Lucius Shard |
+| Marlena | Warrior | UR | Marlena Shard |
+| Nicole | Warlock | UR | Nicole Shard |
+| Red Lady | Ranger | UR | Red Lady Shard |
+| Robin | Ranger | SR | Robin Shard |
+| Shadow | Ranger | UR | Shadow Shard |
+| Sivir | Warrior | SSR | Sivir Shard |
+| Stellar | Warlock | SSR | Stellar Shard |
+| Ulfrid | Warlock | UR | Ulfrid Shard |
+| William | Warrior | SR | William Shard |
+| Zoya | Warrior | UR | Zoya Shard |
+- Hero stars
+
+## What links here
+
+Pages that mention this one. The list is built from the markup, not filled by hand.
+- Surprise Encounter: call reward and boxes
+- Contents: heroes, army, events and spending
+- Honor levels: conditions, cost and payout
+- Where to get heroes: summons, cost and the cap
+- Hero stars: what they give and unlock
+- Claire (Advanced): skills, upgrades and Might
+- Nicole: skills, upgrades and Might
+- Joker: skills, upgrades and Might
+- Annie: skills, upgrades and Might
+- Ulfrid: skills, upgrades and Might
+- Billy: skills, upgrades and Might
+- Bell: skills, upgrades and Might
+- Red Lady: skills, upgrades and Might
+- Cynthia: skills, upgrades and Might
+- Louis: skills, upgrades and Might
+- Shadow: skills, upgrades and Might
+- Zoya: skills, upgrades and Might
+- Harper: skills, upgrades and Might
+- Daskal: skills, upgrades and Might
+- Ash: skills, upgrades and Might
+- William: skills, upgrades and Might
+- Durant: skills, upgrades and Might
+- Robin: skills, upgrades and Might
+- Kafa: skills, upgrades and Might
+- Hastar: skills, upgrades and Might
+- Marlena: skills, upgrades and Might
+- Bestar: skills, upgrades and Might
+- Grenwald: skills, upgrades and Might
+- Claire: skills, upgrades and Might
+- Bella: skills, upgrades and Might
+- Sivir: skills, upgrades and Might
+- Griffith: skills, upgrades and Might
+- Stellar: skills, upgrades and Might
+- Lucius: skills, upgrades and Might
+- Celia: skills, upgrades and Might
+- Kesso: skills, upgrades and Might
+- Arthur: skills, upgrades and Might
+
+## Comments
+
+No approved comments yet.
+
+Sign in to leave a comment.
+
+↑ Back to top

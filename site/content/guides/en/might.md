@@ -146,3 +146,52 @@ A closer look at that fight:
 That is why an opponent's total Might is no reason to avoid a fight: learning the heroes' skills and practising team building pays more. The Arena section helps pick heroes against the opponent's squad.
 
 ##
+
+---
+
+## 📚 Reference: Troops: tiers, tier ten and priorities {#wiki-troops}
+
+> Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/troops)).
+
+Troops make up the striking force of a march, and heroes lead them, with the hero's leadership setting how many soldiers go out. There are ten tiers, each unlocked by a Training Ground level, and the tenth needs a separate technology on top. The conclusion of this page is that the highest available tier is the one to recruit, because it gives more Might per minute of training.
+
+## Tiers
+
+All ten tiers sit in one table: the Training Ground level that unlocks each tier, the Might and the load of one soldier, the training time and the recruitment cost.
+
+| Tier | Training Ground level | Might per soldier | Training | Load | Recruit |
+|---|---|---|---|---|---|
+| T1 | 1 | 25 | 40 s | 400 | 97, 97 |
+| T2 | 3 | 37 | 60 s | 600 | 145, 145 |
+| T3 | 6 | 80 | 80 s | 800 | 349, 349 |
+| T4 | 10 | 210 | 100 s | 1,000 | 903, 903 |
+| T5 | 14 | 412 | 120 s | 1,200 | 1,746, 1,746 |
+| T6 | 17 | 579 | 140 s | 1,400 | 2,464, 2,464 |
+| T7 | 20 | 781 | 160 s | 1,600 | 3,320, 3,320 |
+| T8 | 24 | 1,065 | 180 s | 1,800 | 4,535, 4,535 |
+| T9 | 27 | 1,350 | 200 s | 2,000 | 5,770, 5,770 |
+| T10 | 30 | 1,650 | 220 s | 2,200 | 7,027, 7,027 |
+
+Tiers compare by Might per training time rather than by Might per soldier. A T1 soldier gives 38 Might per minute and a T10 soldier gives 450, 12 times more for the same place in the squad. Resource cost per point of Might is about the same, so pushing to the highest available tier almost always wins.
+
+Load grows from 400 at tier one to 2,200 at tier ten, so gathering on the map depends on troop tier as much as on troop numbers.
+
+Healing beats re-recruiting: it costs 30% of recruitment in both resources and time, on every tier, which makes infirmary space part of the war economy alongside the army itself, see Shields and city safety.
+
+## Tier ten unlocks separately
+
+Training Ground level 30 alone does not give tier ten. It also needs the "Lv.10 Soldier" technology, a single-level node costing 194,697,000, 194,697,000, 584,440,000 and granting 36,810 Might. Nearly a billion resources land on one indivisible step, which is why players start saving for it well in advance.
+
+## There are no counters between troop types
+
+This one is easy to get wrong, because the genre trains players to expect rock-paper-scissors. A counter table for three types does exist: a full circle where one type hits another at a 1.5 multiplier and takes 0.7 against the third. The problem is that those three types do not exist in the game.
+
+There are only two soldier types, Frontline and Support. All ten tiers a player recruits are Frontline and differ from one another only by tier. Support covers enemy and monster troops, which cannot be recruited. Not a single soldier of the second or third type named by the counter table exists, and the table itself is never applied anywhere.
+
+The practical conclusion is simple: there is no need to build a composition balanced by type, because the game never offers that choice. One meaningful composition question remains, and it is the question of tier. The twenty per cent edge that mixing types buys in other games lives here at the level of hero factions, not soldiers.
+
+## What to upgrade first
+
+Combat technologies from research give percentages to the whole army at once, while a new tier needs Training Ground levels and time to train every soldier again from scratch. Per unit spent, technology almost always wins.
+
+##
