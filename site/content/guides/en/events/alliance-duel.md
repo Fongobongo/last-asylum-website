@@ -54,15 +54,27 @@ Top-tier alliances never dispatch gathering marches after Monday begins:
 ### Falcon Quests Stacking
 Monday grants double points for turning in Falcon Quests. Complete missions throughout the weekend but delay claiming them until Monday begins.
 
-## Phase 2: Construction & The "Frozen Hammer" Rule {#phase-2}
+### ⚠️ Antitoxin Timing: Do NOT Spend on Monday
+A frequent beginner mistake is spending antitoxin to cure infected survivors on Monday. As emphasized by **KorpezGaming**, save all your antitoxin serum for **Thursday (Phase 4: Hero Development)**, where each unit of antitoxin consumed awards massive amounts of duel points!
 
-Tuesday focuses on building upgrades and base might expansion. Points are awarded per minute of construction speedup and for raw building might gained.
+## Phase 2: Construction, King Buff & The "Frozen Hammer" Rule {#phase-2}
+
+Tuesday focuses on building upgrades and base might expansion. Points are awarded per minute of construction speedup, raw building might gained, survivor recruitment, and completing UR caravans and secret operations.
+
+### The King Buff: 60% Construction Speedup Discount
+Before starting any major building upgrades or burning construction speedups, request the **King Buff / Mayor Title**:
+* The King Buff grants an immediate **60% discount on construction time**, saving days of speedups and yielding vastly superior points per speedup spent!
+
+### Reroll Caravans & Secret Ops to Gold (UR) Tier
+Never send ordinary caravans on Tuesday. Spend a small amount of diamonds to refresh and lock in gold (**UR Caravan** and **UR Secret Operation**) tiers:
+* Sending 4 UR caravans and UR operations generates between **600,000 and 1,500,000+ points** effortlessly with zero risk to troops!
 
 ### The "Frozen Hammer" Trick
 The biggest beginner mistake is tapping the floating hammer icon as soon as an upgrade finishes:
-1. Start long upgrades (Sanctuary, Research Lab, Radar, Wall) days in advance.
+1. Start long upgrades (Sanctuary, Research Lab, Radar, Wall) days in advance (beginning Sunday).
 2. When the construction timer expires, **DO NOT click the floating hammer icon** above the building!
 3. The building remains in a finished state. When Phase 2 begins at midnight, tap the hammer: the game credits the might gain instantly, awarding millions of points without burning any speedups.
+4. **Double Dipping with Survival Battle:** Align your hammer clicks and speedups with the 4-hour Survival Battle block dedicated to Base Construction.
 
 ## Phase 3: Research and Scroll Day {#phase-3}
 
@@ -115,27 +127,42 @@ Training high-tier soldiers from scratch consumes huge amounts of barracks time.
 > [!IMPORTANT] Queue Timing Rule
 > **Training points are awarded at the moment you queue soldiers into the barracks**, not when collecting finished troops! Only queue your massive troop batches after Phase 5 officially begins.
 
-## Phase 6: Saturday PvP Showdown, Ghost Rallies & Hospital Safety {#phase-6}
+## Phase 6: Saturday PvP Showdown, Shields UP & Ghost Rallies {#phase-6}
 
 Saturday is the climax of the duel week: two matched alliances clash head-to-head in cross-server warfare.
 
-### 1. Infirmary Capacity & Anti-Zeroing
+### 1. The Golden Rule: Shields UP Immediately After Reset!
+The costliest mistake an alliance can make on Saturday is leaving bases unshielded:
+* **Point Bleeding:** When an unshielded base is breached, the enemy alliance farms millions of effortless points off your garrison troops.
+* **Pro Rule:** The very second the server day rolls over (00:00 server / 02:00 UTC), **every non-attacking alliance member must pop an 8- or 24-hour Peace Shield**. Only drop shields during coordinated strikes, and re-shield immediately once your march returns!
+
+### 2. Banking 600K+ Points Without PvP (UR Caravans & Covert Ops)
+As demonstrated by KorpezGaming, you do not need to risk your army in PvP to contribute heavily:
+* Send all 3 gold-tier (**UR Caravans**) and dispatch **UR Secret Operations**.
+* This alone yields **over 600,000 Duel Points** right on Saturday morning with zero wounded troops—ideal for F2P players and farm accounts to clear top milestone chests safely.
+
+### 3. Scout Wall Garrisons Before Attacking
+Before teleporting to the rival server or striking enemy castles, **always scout the target**:
+* Verify whether high-tier troops (T9/T10) are defending the wall.
+* Blind attacks against fortified garrisons will instantly fill your hospital and hand free points to the opposing alliance.
+
+### 4. Infirmary Capacity & Anti-Zeroing
 * If your Infirmary fills to 100%, **all subsequent wounded troops die permanently (Dead Troops)**.
 * Take advantage of active Saturday raid buffs: boosted infirmary capacity, increased healing speed, and discounted healing costs.
 * Continuously empty your hospital using batch healing (heal in 15–30 min batches so alliance members tap help to instantly clear the queue).
 
-### 2. The Ghost Rally Tactic (Save Troops from Being Zeroed)
+### 5. The Ghost Rally Tactic (Save Troops from Being Zeroed)
 If a massive enemy rally is marching on your base and you have no peace shield:
 * **Do NOT leave your defense army on the wall** — an overwhelming rally will wipe your garrison and fill your hospital to overflow.
 * Initiate an **8-hour rally** on a distant abandoned base or zombie lair.
 * Assign your main combat troops to the rally. While the rally is forming, your troops are outside the city gates and **completely immune to attacks**! The enemy breaches only your wall and loots minor resources, while your high-tier army remains 100% safe.
 
-### 3. Power Hour Coordination
+### 6. Power Hour Coordination
 Coordinated alliances schedule a "Power Hour" during the first 2 hours of Phase 6:
 * The Alliance Leader activates combat buffs (Attack, Defense, March Speed).
 * Members assemble in Discord/Telegram voice or chat, coordinating concentrated swarms against high-value targets.
 
-### 4. Mutual T1 Point Farming
+### 7. Mutual T1 Point Farming
 If the outcome of the match is already settled or both alliances simply want to guarantee individual Chest 9 milestones, leaders negotiate a mutual point farm on neutral resource tiles:
 * Both sides send full marches of **Tier 1 troops** against each other.
 * Both players earn hundreds of thousands of kill points for minimal healing cost and zero risk of losing high-tier units.
@@ -196,12 +223,29 @@ Duel payouts come in two layers:
 
 And the duel is not an isolated event: it feeds directly into **Kingdom War**. [KvK](/events/kvk/) and the duel share scoring sources — **Covert Ops and Caravans score for both**. Run them every day and the same effort pays twice. The full caravan route is covered in the [Guild Wagon and Caravans guide](/events/wagon/).
 
+## 🎬 Video Guide: KorpezGaming Strategy Breakdown {#video-guide}
+
+A complete 22-minute video breakdown of Alliance Duel mechanics by creator **KorpezGaming** is embedded at the bottom of this page and available directly at [HOW TO DOMINATE Last Asylum Alliance Duels!🏆](https://youtu.be/2LJ11oTk20M).
+
+### Key Timestamps & Takeaways from the Video:
+* `00:00` — **Introduction & Research Priority:** Why your first 2–3 months must prioritize the Alliance Duel tech tree to unlock milestone chests 4–9.
+* `03:30` — **Monday (Raven & Falcon Quests):** Feeding Raven fruit/essence, claiming 40 banked Falcon quests, and a crucial warning: **do not waste antitoxin on Day 1** (save for Thursday).
+* `06:15` — **Tuesday (Construction):** Mandatory request for the **King Buff (-60% construction time)**, syncing with Survival Battle base building blocks, and diamond-refreshing caravans and secret ops to UR tier.
+* `10:03` — **Wednesday (Research):** Spending Study Scrolls exclusively today and opening stockpiled Raven gear chests.
+* `12:45` — **Thursday (Heroes):** Opening recruitment tickets, flushing hoarded antitoxin, promoting hero star ratings with shards, and spending skill badges.
+* `15:20` — **Friday (Troops):** The heaviest grind day; how the Promotion technique and Falcon missions prevent speedup exhaustion.
+* `20:10` — **Saturday (PvP Finale):** The iron rule of **Shields UP immediately after reset** to stop point bleeding, scouting wall garrisons before striking, and securing 600,000+ points without PvP via UR caravans.
+* `22:00` — **Summary & Weekly Rewards.**
+
 ## Common Mistakes {#common-mistakes}
 
 1. Spending shards and recruitment tickets outside Phase 4 — the single biggest score drop in the event.
-2. Burning training speedups outside Phase 5 (Friday) when no duel points are awarded for training.
-3. Queueing training batches ahead of the phase (points are awarded upon queueing, not upon collection!).
-4. Using tech scrolls on non-scroll research days instead of scroll-free hero/soldier tech.
-5. Skipping Super Reward 1 and 2 research in the Lab — leaving tiers 4–9 completely locked despite having the points.
-6. Letting the quest board freeze at capacity instead of holding it one slot below max.
-7. Ignoring the Sunday reset day and entering the next cycle unprepared.
+2. Wasting antitoxin on Monday instead of saving it for Thursday.
+3. Forgetting to shield up right after the Saturday reset (enemies immediately wipe your garrison and farm duel points off your base).
+4. Burning construction speedups without requesting the King Buff (60% discount).
+5. Burning training speedups outside Phase 5 (Friday) when no duel points are awarded for training.
+6. Queueing training batches ahead of the phase (points are awarded upon queueing, not upon collection!).
+7. Using tech scrolls on non-scroll research days instead of scroll-free hero/soldier tech.
+8. Skipping Super Reward 1 and 2 research in the Lab — leaving tiers 4–9 completely locked despite having the points.
+9. Letting the quest board freeze at capacity instead of holding it one slot below max (the Max - 1 rule).
+10. Ignoring the Sunday reset day and entering the next cycle unprepared.
