@@ -132,13 +132,12 @@ flowchart LR
 
 Antitoxin is a powerhouse scoring lever on **Day 4** (Heroes & Healing) and **Day 7** (Final Chaos):
 
-* **Point Value:** 1 point per **660 units** of Antitoxin consumed while treating infected survivors.
-* **Common Rookie Mistake:** Treating infected survivors continuously throughout Days 1, 2, and 3. Doing so wastes millions of serum for zero event credit!
+* **Point Value:** 1 point per **660 units** of Antitoxin spent **leveling up your heroes** — the event scores hero XP/serum consumption, not healing infected residents.
+* **Common Rookie Mistake:** Spending serum to level up heroes during Days 1–3 as it accumulates. That spending earns zero event points outside scoring days!
 * **Stockpiling & Execution:**
-  1. Keep your Antitoxin Workshop producing serum 24/7 without interruption.
-  2. Allow minor infections to accumulate safely during the first three days of the week.
-  3. On **Day 4**, open the Clinic and initiate mass treatment rounds, consuming hundreds of thousands of serum units.
-  4. This generates **50,000 to 300,000+ free points** purely from passive production without burning diamonds or speedups.
+  1. Keep your Antitoxin Workshop producing serum 24/7 (it has an internal production cap — collect in time).
+  2. Bank serum all through the first part of the week and hold off on hero leveling.
+  3. On **Day 4**, open the Clinic and level your hero squad in a single burst — synced with ticket summons (400 pts/ticket) and Skill Badges (10 pts/badge) for a stacked surge.
 
 ---
 
