@@ -12,7 +12,7 @@ El evento **Sanador Supremo (Supreme Healer)** es el torneo competitivo definiti
 Esta guía desglosa las 7 fases del evento, los multiplicadores de puntuación exactos y consejos probados en batalla por los principales líderes de alianzas.
 
 > [!NOTE]
-> El evento se desbloquea con el **Ayuntamiento (castillo) nivel 6** y consta de **7 competiciones independientes** consecutivas: cada una puntúa solo sus propias acciones. Las acciones se valoran de forma muy desigual, así que lo importante es el precio de cada acción en la competición activa. **Comprar paquetes con diamantes da 30 puntos por 1 diamante en las siete competiciones**: la única acción que siempre cuenta.
+> El evento se desbloquea al alcanzar el **nivel 6 del Santuario** y consta de **7 competiciones independientes** consecutivas: cada una puntúa solo sus propias acciones. Las acciones se valoran de forma muy desigual, así que lo importante es el precio de cada acción en la competición activa. **Comprar paquetes con diamantes da 30 puntos por 1 diamante en las siete competiciones**: la única acción que siempre cuenta.
 >
 > Una segunda variante sustituye «Obtención de recursos» por **«Mejora del Cuervo»**: una misión del halcón vale **1.350 puntos** y gastar **esencia de cuervo** da **300 puntos**. Sus umbrales de recompensa llegan hasta **180.000 puntos** (umbral máximo: 5 boletos de reclutamiento).
 

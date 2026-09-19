@@ -12,7 +12,7 @@ O evento **Curador Supremo (Supreme Healer)** é o torneio competitivo definitiv
 Este guia detalha todas as 7 fases do evento, multiplicadores de pontuação exatos e dicas testadas em batalha pelos principais líderes de aliança.
 
 > [!NOTE]
-> O evento desbloqueia no **Centro da Cidade (castelo) nível 6** e consiste em **7 competições separadas** em sequência — cada uma pontua apenas suas próprias ações. As ações têm valores muito desiguais, então o que importa é o preço de cada ação na competição ativa. **Comprar pacotes com diamantes dá 30 pontos por 1 diamante nas sete competições** — a única ação que sempre conta.
+> O evento desbloqueia no **Santuário nível 6** e consiste em **7 competições separadas** em sequência — cada uma pontua apenas suas próprias ações. As ações têm valores muito desiguais, então o que importa é o preço de cada ação na competição ativa. **Comprar pacotes com diamantes dá 30 pontos por 1 diamante nas sete competições** — a única ação que sempre conta.
 >
 > Uma segunda variante substitui "Coleta de Recursos" por **"Aprimoramento do Corvo"**: uma missão do Falcão vale **1.350 pontos** e gastar **essência de corvo** dá **300 pontos**. Os limites de recompensa chegam a **180.000 pontos** (limite máximo: 5 bilhetes de recrutamento).
 

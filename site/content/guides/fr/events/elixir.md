@@ -77,3 +77,264 @@ Le schéma gagnant, résumé :
 - **Ne jouez jamais en solo.** Une seule escouade attaquant un point défendu meurt seule et ne contribue à rien. Déplacez-vous avec votre alliance ou ne bougez pas.
 
 L'Elixir Scramble récompense la discipline plutôt que la puissance. Une alliance plus faible qui détient les bons bâtiments et ne cesse jamais de faire tourner ses troupes battra une alliance plus forte qui court après les éliminations — car les éliminations n'ont jamais rien rapporté.
+
+---
+
+## Règles officielles du client du jeu (v1.0.102) {#official-rules}
+
+
+### Ruée à l\'élixir
+
+Ruée à l\'élixir
+Face à la propagation de la Peste qui ravage le monde, le remède est devenu la ressource la plus convoitée. Selon d\'anciens écrits, des herbes mystérieuses poussent sur une terre qui n\'apparaît qu\'à la nuit de la Lune de sang.
+On raconte qu\'une profusion d\'élixirs est dissimulée au sein du légendaire Château d\'élixir. Ces précieux breuvages, capables de soigner efficacement diverses maladies, attisent la convoitise de nombreux aventuriers, prêts à tout pour s\'en emparer...
+
+
+### Zone d\'accès
+
+Zone d\'accès
+Deux alliances, l\'une à l\'est et l\'autre à l\'ouest, pénétreront sur le champ de bataille. Elles s\'affronteront pour des points afin de décrocher la victoire ultime.
+
+
+### Château d\'élixir
+
+Château d\'élixir
+L\'édifice le plus stratégique du champ de bataille, situé en son centre. Ses portes s\'ouvrent 10 minutes après le début du combat, rapportant un nombre de points considérable à sa capture.
+
+
+### Atelier d\'alchimie
+
+Atelier d\'Alchimie
+2 Ateliers d\'alchimie sont situés à proximité des entrées des 2 alliances. Leur capture rapporte un flux constant de points et doit être une priorité dès le début de la bataille.
+
+
+### Tente de soin
+
+Tente de Soin
+4 Tentes de soin sont préétablies sur le champ de bataille. Leur capture octroie des points substantiels et soigne les soldats blessés.
+
+[Tente de soin] soigne 15 soldats blessés toutes les 10 s.
+
+
+### Avant-poste stratégique I
+
+Base stratégique I
+De nombreuses installations stratégiques sont dispersées sur le champ de bataille. Leur capture rapporte une petite quantité de points au fil du temps et divers avantages.
+
+[Portail de migration] Temps de recharge du déplacement de ville réduit de 50 %.
+[Observatoire] Efficacité des points alliés augmentée de 10 %.
+
+
+### Avant-poste stratégique II
+
+Base Stratégique II
+Après 10 minutes de combat, toutes les bases stratégiques restantes seront accessibles. Les capturer confère une petite quantité de points sur la durée et des bluffs de combat.
+
+[Relique de guerre] Augmente l\'ATQ, la DÉF et les PV des héros alliés de 15 %.
+[Autel maudit] Réduit l\'ATQ, la DÉF et les PV des héros ennemis de 15 %.
+
+
+### Points d\'occupation
+
+[b]Points d\'occupation[/b]
+L\'occupation génère des points en continu.
+Les bâtiments occupés accumulent des points, et peuvent être pillés après un délai.
+
+
+### Points de brèche
+
+[b]Points de brèche[/b]
+Lorsqu\'un bâtiment est forcé, des Trousses de soin seront dispersées dans la zone. Les deux camps peuvent déployer des escouades pour les récupérer, leur faisant gagner quelques points.
+
+
+### Points de camp
+
+[b]Points de camp[/b]
+À la 13e minute du combat, des camps regorgeant d\'herbes apparaîtront. Envoyez-y vos troupes pour les collecter et gagner des points progressivement.
+
+
+### Chasser
+
+Vaincre les Pestes de par le monde octroie des ressources et des objets. Les Pestes majeures puissantes nécessitent une alliance pour être attaquées. Plus leur niveau est élevé, plus les récompenses sont généreuses.
+
+
+### Tour du faucon
+
+Accomplir diverses quêtes dans la Tour du faucon octroie de généreuses récompenses.
+
+
+### Collecter
+
+Déployer des troupes pour occuper les Points de Ressource et récolter des ressources. Plus leur niveau est élevé, plus la récolte est abondante.
+
+
+### Combattre
+
+Affrontez des docteurs d\'alliances différentes à travers le monde, en pillant des territoires ou en attaquant des points de ressource. Les combats peuvent épuiser vos soldats, agissez avec prudence !
+
+
+### Règles de base
+
+Une fois acquis, vous recevez une récompense supplémentaire à chaque Quête du faucon accomplie, avec une chance d\'obtenir des objets UR dans le coffre de récompense.
+
+
+### Promouvoir
+
+Augmenter les étoiles renforce les capacités, augmentant la qualité et la quantité des coffres de quête.
+
+
+### Déclarer la guerre
+
+Les R4 ou R5 peuvent déclarer la guerre aux villes adjacentes, permettant ainsi aux membres de l\'alliance de lancer un siège.
+
+
+### Assiéger
+
+Assiégez des villes, vainquez les garnisons et réduisez leur durabilité pour gagner des récompenses de participation.
+
+
+### Classement
+
+À l\'issue de l\'événement, les récompenses de classement sont attribuées en fonction du niveau et du nombre de villes occupées.
+
+
+### Déclarer la guerre
+
+Les R4 ou R5 peuvent déclarer la guerre aux villes adjacentes, permettant ainsi aux membres de l\'alliance de lancer un siège.
+
+
+### Vaincre la garnison
+
+Lors d\'un siège, éliminez d\'abord la garnison de la ville. Celle-ci est puissante, agissez donc avec prudence.
+
+
+### Réduire la durabilité
+
+Une fois la garnison vaincue, réduisez la durabilité de la ville. Plus les participants sont nombreux, plus le processus est rapide.
+
+
+### Capturer la ville
+
+Une fois la DÉF de ville épuisée, les points totaux obtenus en vainquant la garnison et en réduisant la durabilité seront comptabilisés. L\'alliance avec le plus de points prend le contrôle de la ville.
+
+
+### Révéler
+
+Lorsque le compte à rebours de l\'Opération secrète est inférieur à 10 minutes, elle devient visible pour tous. Afin d\'éviter toute perte, récupérez vos récompenses de quête sans tarder !
+
+
+### Piller
+
+Les quêtes terminées afficheront une bulle de récompense. Touchez la bulle pour dérober de généreuses récompenses. Remarque : Chaque quête ne peut être dérobée qu\'une fois par joueur et par jour.
+
+
+### Partager
+
+Chaque quête peut être dérobée jusqu\'à 3 fois. Partagez-la avec les membres de votre alliance pour le plaisir.
+
+
+### Chercher
+
+Sur la mini-carte du monde, visualisez les quêtes terminées. Leurs bulles de récompense arborent des couleurs différentes selon leur qualité.
+
+
+### ATQ
+
+Au cours de la Bataille de la Cité royale, les membres de l\'alliance peuvent attaquer la ville en solo ou en équipe.
+
+
+### Occuper
+
+Maîtrisez le Château suprême pour remporter la victoire finale du Tumulte dans la Cité royale !
+
+
+### Résolution
+
+À la fin de l\'Événement, recevez de généreuses récompenses selon les Points d\'honneur obtenus !
+
+
+### Règles
+
+Règles du Tumulte dans la Cité royale :
+1, Le Tumulte dans la Cité royale a lieu une fois par semaine. Seules les alliances occupant des villes de Niv. 6 peuvent y participer.
+2, Le Tumulte dans la Cité royale dure 8 heures. La première alliance à l\'occuper pendant 4 heures, ou celle qui aura le temps d\'occupation total le plus long à la fin, sera la grande gagnante.
+3, Le Chef de l\'alliance victorieuse devient le Roi.
+4, La Cité royale est entourée par la Terre maudite. Les territoires qui y sont déplacés ne peuvent pas activer de boucliers, et la Tour du faucon cesse son activité, suspendant les quêtes d\'exploration.
+
+
+### Attaquer PNJ
+
+Deux types de Pestes des Rats se terrent dans la Vallée des amas cristallins. Vaincre les monstres de la Vallée confère des cristaux de compétence, qui améliorent les compétences de la Vallée et vous aident à dominer la vallée !
+
+
+### Attaque / Éclaireur de l\'Amas de Cristal
+
+La Vallée des amas cristallins abrite des amas de Niv. 1 à Niv. 3. Les niveaux supérieurs purifient les Cristaux purifiés plus rapidement, et le total de Cristaux purifiés détermine l\'issue finale. Les amas inoccupés sont gardés. Vainquez les défenseurs avant de pouvoir les récolter !
+
+
+### Déplacement Gratuit
+
+Déplacement gratuit toutes les 360 secondes, puis entre en temps de recharge. Pendant la recharge, le déplacement coûte des objets de déplacement ciblée. Le coût augmente de 1 objet par utilisation successive, jusqu\'à 5 objets par déplacement.
+
+
+### Occuper la Grotte de Cristal Sacrée
+
+La Grotte sacrée trône au cœur de la Vallée des amas cristallins. Elle est protégée pendant les 23 premières minutes après l\'ouverture de la Vallée. Une fois la protection levée, tous les joueurs peuvent la conquérir en envoyant une seule équipe. Les 10 meilleurs joueurs seront généreusement récompensés de Cristaux purifiés, ajoutés directement à leur total de récolte lors du décompte final !
+
+
+### Amas de cristaux instantané
+
+Les Cristaux instantanés sont des amas cristallins uniques de la Vallée, qui peuvent être rapidement récoltés. Ils apparaissent en six vagues durant l\'événement de la Vallée, aux minutes 10, 11, 12, 20, 21 et 22. C\'est une méthode rapide pour acquérir des Cristaux purifiés pendant l\'événement.
+
+
+### Compétence de cristal
+
+Vous pouvez obtenir des cristaux de compétence en vainquant les Pestes des Rats dans la Vallée. Une fois suffisamment de cristaux de compétence collectés, vous pourrez apprendre des compétences de la Vallée. Chaque niveau propose deux compétences, mais une seule peut être choisie. Les compétences de Nv. 1 à Nv. 4 sont des compétences passives qui s\'activent automatiquement après l\'apprentissage, tandis que la compétence de Nv. 5 est active et doit être lancée manuellement !
+
+
+### Ville principale inattaquable
+
+Dans la Vallée, il est impossible d\'attaquer ou d\'espionner les capitales adverses. Lancez-vous à l\'attaque ou à la collecte de points de ressources !
+
+
+### Choix de spécialité
+
+Sélection de spécialité :
+Bricoleur : Le développement repose entièrement sur le progrès technologique. Les artisans, par leur talent exceptionnel, s\'attirent le respect et deviennent les piliers incontournables de leurs cités.
+Commandant de légion : Face à la puissance absolue, toute autre voix s\'éteint. Des commandants redoutables balayent les obstacles et conquièrent toutes les directions.
+
+
+### Compétence d\'ère
+
+Compétences d\'ère : Activez les compétences d\'ère en améliorant votre niveau de spécialité. Chaque compétence d\'ère déverrouille des fonctions uniques, accélérant le développement de votre Sanctuaire tout en renforçant vos capacités personnelles.
+
+
+### Compétence de spécialité
+
+Compétences de spécialité : Chaque spécialité possède des compétences de spécialité uniques. Atteindre un niveau de spécialité octroie des points de compétence de spécialité. Dès l\'atteinte du niveau de spécialité requis, les seigneurs peuvent utiliser manuellement leurs points de compétence de spécialité pour activer les compétences de spécialité. (Certaines compétences de spécialité sont des compétences actives, nécessitant d\'être activées dans le monde ou la ville principale)
+
+
+### Niveau de spécialité
+
+Les seigneurs obtiennent de l\'EXP de spécialité en vainquant des monstres dans le monde. L\'accumulation de cette EXP augmente leur niveau de spécialité. Chaque niveau de spécialité octroie des points de compétence de spécialité. Une fois le niveau désigné atteint, les seigneurs peuvent utiliser manuellement ces points pour activer des compétences de spécialité.
+
+
+### Réinitialisation de spécialité
+
+Utilisez un Livre de réinitialisation de spécialité pour réinitialiser votre spécialité actuelle et en choisir une autre. Après cette réinitialisation, toutes les compétences de spécialité seront effacées et devront être réapprises.
+
+
+### Débordement d\'EXP
+
+Lorsque votre niveau de spécialité atteint sa limite, vous continuerez de gagner de l\'EXP de spécialité à la fin de l\'ère. L\'excédent d\'EXP de spécialité sera converti en objets à un taux de 30 %. Les objets ainsi obtenus vous seront envoyés par courrier et pourront être utilisés pour améliorer votre niveau de spécialité lors de la prochaine ère.
+
+
+### Niveau de RÉS
+
+Le niveau de RÉS est essentiel pour affronter les monstres d\'ère. L\'amélioration du niveau de RÉS confère des attributs de RÉS, vous aidant à vaincre les monstres d\'ère avec aisance. À la fin d\'une ère, le niveau de RÉS devient inactif et ses attributs de RÉS sont perdus. Ils se réactivent au début de la prochaine ère.
+
+
+### Attribut de RÉS
+
+La RÉS est le seul attribut à prendre en compte pour affronter les monstres d\'ère. Chaque monstre possède son propre attribut de RÉS. Si votre RÉS dépasse celle du monstre, vous les vaincrez facilement. Si votre RÉS est insuffisante, vous subirez des désavantages, voire une défaite au combat.
+
