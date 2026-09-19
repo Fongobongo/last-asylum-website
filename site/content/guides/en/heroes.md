@@ -175,3 +175,51 @@ When you compare accounts, might is the sum of five separate stacks:
 | Building Bonus | City buildings — Temple (formerly faction statues), Hall of Honor, and others. |
 
 Use the split diagnostically: if your might is hero-heavy but soldier-light, you are one bad fight from losing an army you cannot replace. If it is soldier-heavy but hero-light, your marches punch below their weight. The strongest accounts keep the stacks in rough proportion — which is exactly what following the build priority order and the F2P squad timeline does for you.
+
+---
+
+## 📊 Client data tables {#wiki-hero-sources}
+
+Verified values from game client data (v1.0.87), source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-sources).
+
+**Summoning**
+| What | How much |
+|---|---|
+| Guarantee | every 50 summons |
+| What it gives | 10 shards of a UR hero, an instant unlock |
+| Chance of any hero shard | about 26% per summon |
+| Of that, UR | 2.8% in the permanent pool, 3.1% in pools with new heroes |
+
+---
+
+## 📊 Client data tables {#wiki-skill-badges}
+
+Verified values from game client data (v1.0.87), source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/skill-badges).
+
+**Requirements and cost**
+| Level | Stars | Badges |
+|---|---|---|
+| 1 | 0 | 0 |
+| 5 | 4 | 300 |
+| 10 | 6 | 1,200 |
+| 15 | 7 | 3,100 |
+| 20 | 8 | 6,900 |
+| 25 | 9 | 12,100 |
+| 30 | 10 | 18,400 |
+| 35 | 10 | 25,900 |
+| 40 | 10 | 33,400 |
+
+**Where they come from**
+| Source | Total | Per drop |
+|---|---|---|
+| Surprise Encounter boxes | 481,600 | 80,000 |
+| Hero growth tasks | 375,000 | 4,500 |
+| Abyss boss tasks | 317,000 | 50,000 |
+| Arena season rewards | 263,800 | 21,000 |
+| Growth goals | 172,910 | 10,000 |
+| Leaderboards | 159,500 | 30,000 |
+| Seasonal leaderboard groups | 135,000 | 30,000 |
+| Era Pass | 67,300 | 16,000 |
+| Undead Siege | 46,995 | 3,000 |
+| Trials | 42,250 | 2,500 |
+

@@ -119,3 +119,34 @@ Complete Raven gear, skills, and shop priority guide by KorpezGaming ([DO NOT To
 | **5:30** | Sanctuary Shop Priority | Buy out ALL Raven Essences every Monday — this is an uncompromised top weekly priority. |
 | **8:45** | Gear Upgrading Order | Push the right side (ATK/Crit) first; left side (HP/DEF) is secondary defensive padding. |
 | **11:20** | Epigraph Fusing | Feed off-faction epigraphs ruthlessly via Quick Add to level up your Raven Plans. |
+
+---
+
+## 📊 Client data tables {#wiki-raven}
+
+Verified values from game client data (v1.0.87), source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/raven).
+
+**Four tracks**
+| Track | What it is |
+|---|---|
+| Level | up to 250, normal levels for fruit, milestones for essence |
+| Evolution | a separate 900-level scale, fed with low-rank epigraphs |
+| Gear | six slots with twelve levels each |
+| Epigraphs | four sockets by skill type, ranks from generic to faction-bound |
+
+**Six equipment slots**
+| Slot | At maximum |
+|---|---|
+| Heart of Wisdom | Raven HP 8,995,299, incoming crit chance -5% |
+| Feather of Night | Hero HP 4,997,388 and +30% hero HP |
+| Sharp Beak | Hero DEF 35,731 and +30% hero DEF |
+| Wind Tail | Raven DEF 64,315, crit chance +10% |
+| Attack Claw | Raven ATK 64,316, crit damage +20% |
+| Eye of Perception | Hero ATK 35,731, +30% hero ATK, hero damage dealt +15% |
+
+**Two sets**
+| Set | At level twelve |
+|---|---|
+| Night Raven Mask | Raven HP 720,000, hero HP 400,000, hero DEF 2,860 |
+| Raven Feather Cloak | Raven ATK 5,150, raven DEF 5,150, hero ATK 2,860 |
+
