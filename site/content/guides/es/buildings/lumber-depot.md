@@ -5,6 +5,8 @@ lang: es
 updated: "2026-09-19"
 type: guide
 ---
+![icon](/building-icons/5024.png)
+
 
 **Nombre oficial:** Depósito de madera
 >

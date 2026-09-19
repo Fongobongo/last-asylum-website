@@ -5,6 +5,8 @@ lang: ja
 updated: "2026-09-19"
 type: guide
 ---
+![icon](/building-icons/5021.png)
+
 
 **公式名:** 民家
 >

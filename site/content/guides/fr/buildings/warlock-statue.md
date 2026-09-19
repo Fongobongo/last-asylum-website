@@ -5,6 +5,8 @@ lang: fr
 updated: "2026-09-19"
 type: guide
 ---
+![icon](/building-icons/5045.png)
+
 
 **Nom officiel:** Statue de démoniste
 >

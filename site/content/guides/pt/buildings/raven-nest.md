@@ -5,6 +5,8 @@ lang: pt
 updated: "2026-09-19"
 type: guide
 ---
+![icon](/building-icons/5036.png)
+
 
 **Nome oficial:** Ninho do Corvo
 >

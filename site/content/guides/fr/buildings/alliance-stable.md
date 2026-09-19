@@ -5,6 +5,8 @@ lang: fr
 updated: "2026-09-19"
 type: guide
 ---
+![icon](/building-icons/5052.png)
+
 
 **Nom officiel:** Écurie d\'alliance
 >

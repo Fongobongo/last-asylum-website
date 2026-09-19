@@ -5,6 +5,8 @@ lang: id
 updated: "2026-09-19"
 type: guide
 ---
+![icon](/building-icons/1010.png)
+
 
 **Nama resmi:** Pos Kontak Guild
 >

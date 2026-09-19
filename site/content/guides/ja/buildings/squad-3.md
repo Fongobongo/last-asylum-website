@@ -5,6 +5,8 @@ lang: ja
 updated: "2026-09-19"
 type: guide
 ---
+![icon](/building-icons/5015.png)
+
 
 **公式名:** 小隊3
 >

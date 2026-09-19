@@ -5,6 +5,8 @@ lang: pt
 updated: "2026-09-19"
 type: guide
 ---
+![icon](/building-icons/5034.png)
+
 
 **Nome oficial:** Oficina do Corvo
 >

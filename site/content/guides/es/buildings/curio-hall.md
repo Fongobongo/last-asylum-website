@@ -5,6 +5,8 @@ lang: es
 updated: "2026-09-19"
 type: guide
 ---
+![icon](/building-icons/5039.png)
+
 
 **Nombre oficial:** Sala de curiosidades
 >

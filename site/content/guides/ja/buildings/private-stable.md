@@ -5,6 +5,8 @@ lang: ja
 updated: "2026-09-19"
 type: guide
 ---
+![icon](/building-icons/5051.png)
+
 
 **公式名:** 個人厩舎
 >

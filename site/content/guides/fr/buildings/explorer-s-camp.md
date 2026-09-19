@@ -5,6 +5,8 @@ lang: fr
 updated: "2026-09-19"
 type: guide
 ---
+![icon](/building-icons/5002.png)
+
 
 **Nom officiel:** Camp des explorateurs
 >

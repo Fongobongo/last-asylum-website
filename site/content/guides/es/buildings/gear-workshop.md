@@ -5,6 +5,8 @@ lang: es
 updated: "2026-09-19"
 type: guide
 ---
+![icon](/building-icons/1008.png)
+
 
 **Nombre oficial:** Taller de equipamiento
 >

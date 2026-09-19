@@ -5,6 +5,8 @@ lang: de
 updated: "2026-09-19"
 type: guide
 ---
+![icon](/building-icons/5016.png)
+
 
 **Offizieller Name:** Truppe 4
 >

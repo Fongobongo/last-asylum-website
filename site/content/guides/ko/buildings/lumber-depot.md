@@ -5,6 +5,8 @@ lang: ko
 updated: "2026-09-19"
 type: guide
 ---
+![icon](/building-icons/5024.png)
+
 
 **공식 명칭:** 목재 창고
 >
