@@ -40,34 +40,57 @@ The central operational rule: **never spend high-value resources outside the act
 
 ---
 
-## 🛡️ Soldier Training: Queue-Based Point Scoring {#training-mechanics}
+## 🛡️ Soldier Training: Tiered Barracks Setup & Promotion Mechanics {#training-mechanics}
 
 > [!IMPORTANT] Core Mechanic: Points Are Awarded UPON QUEUEING!
 > Points for training soldiers are credited **the exact second you tap the "Train" (or "Promote") button**, when resources are spent and the queue timer starts.
 > 
 > **Points are NOT awarded when the timer finishes, and NOT awarded when collecting troops from barracks!**
 
-Critical tactical rules:
+### The Tiered Barracks Setup (KorpezGaming Secret):
+In his video guide, Korpez reveals the primary technique for clearing soldier training milestones with minimal resources:
+1. **Tiered Barracks Structure:** Maintain one low-level barracks (for churning out cheap T1 units), one mid-level barracks (T7), and your highest-tier barracks.
+2. **Short 2-Hour Batches via Promotion:** Instead of burning 12–24 hours of raw training from scratch, train batches of cheap T1 units during downtime.
+3. **Cheap Promotion in Active Windows:** When the 4-hour "Train Soldiers" phase goes live, trigger **Promotion (T1 → T7)** (which only takes around 2 hours).
+4. **The Payout:** You sweep the Gold milestone chest containing Skill Badges and UR Hero Shards for minimal speedup cost! Immediately set the low-level barracks back to training T1s to prep for the next rotation.
 
-1. **DO NOT start training ahead of the phase:** If you start a batch 30 minutes before the training phase begins, points are credited outside the event. When the phase starts and the batch finishes, tapping the barracks to collect them yields **0 points**!
-2. **Tap "Train" strictly AFTER the training phase is live:** Wait for the phase change, confirm "Train Soldiers" is the active 4-hour phase, and only then launch recruitment in your barracks.
-3. **Train your highest unlocked tier (T7–T10):** Points per soldier scale steeply by tier. Low-tier recruits (T1–T2) give negligible points.
-4. **Utilize Promotion (Upgrade Existing Troops):** Promoting lower-tier troops to your highest tier awards points instantly upon queueing (the point differential between tiers). It takes far less time than training from scratch.
-5. **Keep a deliberately-low barracks parked at a mid tier** (e.g. one you stop upgrading mid-range on purpose). Your main barracks queue 2h/6h batches of your max tier; the cheap barracks keeps 2-hour T2–T3 queues running for milestones that just need *that* the queue exists, not the tier. Maximum milestones at minimum cost.
-6. **Double-dip with Alliance Duel.** Any research or training milestone doubling as an Alliance Duel day converts the same resources into two payouts. When stuck short on a milestone, check the Rush ripple — a 3-day cooldown often resets the milestone board without extra spend.
-7. **Raven milestone: stamina only, never fruits.** The "Enhance Raven" milestone accepts fruit expenditure — but your fruits belong to the Monday Raven-shop refresh in the Sanctuary Shop. Do the raven milestone by grinding stamina-only monster kills instead and let the fruits ride for the upcoming shop restock.
-5. **Burn training speedups INSIDE the active window:** To reach higher milestone chests, speed up current queues and immediately queue new batches to earn points for each batch.
+### Critical Tactical Rules:
+1. **DO NOT start training ahead of the phase:** If you start a batch 30 minutes before the training phase begins, points are credited outside the event.
+2. **Tap "Train" strictly AFTER the training phase is live:** Confirm "Train Soldiers" is active before starting recruitment queues.
+3. **Burn training speedups INSIDE the active window:** To reach higher milestone chests, speed up current queues and immediately queue new batches to earn points for each batch.
+4. **Double-dip with Alliance Duel:** When the training block aligns with Friday (Alliance Duel Phase 5), the same barracks output scores in both major events simultaneously!
 
 ---
 
-## 🦅 Raven Missions: Points for Spending Energy {#stamina-missions}
+## 🔬 Research Phase: The "Micro-Research" Alliance Help Trick {#research-trick}
+
+During the 4-hour Technology Research block, KorpezGaming recommends the following optimization:
+* **The Micro-Tech Trick:** Keep 2–3 low-level, basic technologies unresearched in your Lab with base research times of **5–15 minutes** (e.g. initial gathering or defense nodes).
+* If you are 200–400 points short of the Purple or Gold milestone chest, do not burn valuable multi-hour speedups. Simply launch a quick micro-tech and tap **"Alliance Help"**.
+* Alliance member taps will finish the research instantly to **0 seconds with ZERO speedups consumed**, unlocking the milestone chest for free!
+* **Wednesday Synchronization:** If the phase lands on Wednesday (Alliance Duel Phase 3), burn your stockpiled Study Scrolls here for compound scoring.
+
+---
+
+## 🦅 Raven Missions: Stamina Only, Never Fruits! {#stamina-missions}
 
 > [!IMPORTANT] Points are awarded for the act of spending energy!
-> During Raven radar missions, Survival Battle points are awarded **directly for consuming energy (stamina)** to purge targets! The more energy you burn completing Raven radar tasks during the active phase, the faster you unlock maximum milestone chests.
+> During Raven radar missions, Survival Battle points are awarded **directly for consuming energy (stamina)** to purge targets! 
 
-- **Conserve energy and Raven Fruits for the Raven phase:** Avoid burning stamina potions or Raven Fruits during off-days or irrelevant phases.
-- **Burn energy on Raven missions:** Once the Raven mission block goes live, clear your radar queue immediately — every point of energy spent converts directly into Survival Battle score.
-- **Compound rewards:** Spending energy during this phase simultaneously levels your Raven Guardian, farms epigraph chests, and clears Survival Battle chests.
+* **The Ironclad Korpez Rule:** **NEVER burn Raven Fruits during Survival Battle!** Save all Raven Fruits for Monday (Alliance Duel Phase 1).
+* **How to Clear the Phase:** Clear the Raven phase 100% **purely by hunting monsters, infected, and Plague Lairs using natural stamina and energy potions**. This secures maximum Skill Badges without wasting precious fruit stockpiles.
+
+---
+
+## ⚠️ KorpezGaming Warning: Why You Should SKIP the Building Phase {#skip-building}
+
+In his video guide, Korpez makes a crucial recommendation for all F2P and low-spender commanders:
+* **The "Build Territory" Trap:** Clearing the Gold Chest in the 4-hour construction phase burns an immense quantity of construction speedups.
+* **Why You Should Skip It:** Those construction speedups are infinitely more valuable on **Tuesday (Alliance Duel Phase 2)** or **Day 2 of Supreme Healer**, where the King Buff (-60% time) can be stacked to unlock major weekly chests!
+* **The F2P "Golden Trio" of Easy Phases:** Do not try to complete every single 4-hour phase. To consistently claim your **60,000 free Skill Badges** and UR Omni Shards every week, focus on the three easiest, low-cost phases:
+  1. **Soldier Training** (via tiered barracks and quick T1 → T7 promotions).
+  2. **Raven Upgrades** (free via stamina and monster hunting).
+  3. **Hero Enhancement** (micro-upgrades to hero levels and skills WITHOUT burning your stockpiled antitoxin).
 
 ---
 
@@ -83,12 +106,28 @@ A standout high-efficiency milestone clears for exactly **30 Recruitment Tickets
 
 | Resource / Action | Survival Battle | Alliance Duel | Optimal Strategy |
 |---|---|---|---|
-| **Energy (Stamina) & Raven** | Points for **spending energy** on Raven missions & Raven Fruits | Phase 1 (Monday — Enhance Raven) | Bank stamina potions & Raven Fruits for Monday. Burn energy on radar tasks during the 4-hour Raven phase — double dip points for both events! |
-| **Research** | Badge milestone | Phase 3 (Wednesday) | Bank scrolls for Wednesday; clear Survival Battle using scroll-free tech nodes. |
+| **Energy (Stamina) & Raven** | Points for **spending energy** on Raven missions | Phase 1 (Monday — Enhance Raven) | Bank stamina potions for Monday. Burn energy during the 4-hour Raven phase — double dip points for both events! Hold Raven Fruits for Monday. |
+| **Research** | Badge milestone | Phase 3 (Wednesday) | Bank scrolls for Wednesday; clear Survival Battle using micro-techs and alliance help. |
 | **Recruit Tickets** | 30-ticket milestone | Phase 4 (Thursday) | Spend exactly 30 tickets if milestone active; funnel remaining tickets to Thursday. |
-| **Training Speedups** | Training milestone | Phase 5 (Friday) | Queue recruitment and use speedups on Friday during matching "Train Soldiers" phases. |
+| **Training Speedups** | Training milestone | Phase 5 (Friday) | Queue recruitment via Promotion on Friday during matching "Train Soldiers" phases. |
 
 **Golden Rule:** When calendars conflict, prioritize the weekly **60,000 Skill Badges** milestone floor — there is no equivalent renewable badge farm anywhere in the game!
+
+---
+
+## 🎬 Video Guide: Survival Battle Breakdown by KorpezGaming {#video-guide}
+
+The complete video breakdown by creator **KorpezGaming** is embedded below and accessible at [The Secret to 60K FREE Skill Badges | Ultimate Survival Battle Guide](https://youtu.be/akt3OGeHXgY).
+
+### Key Timestamps & Takeaways:
+* `00:00` — **The 60K Free Skill Badges F2P Foundation:** Why daily Survival Battle is the single most important routine for hero progression.
+* `00:45` — **Interface & 5 Rotating Blocks:** Schedule layout and daily task sequence.
+* `01:20` — **Tiered Barracks & Promotion Trick:** Why keeping a low-tier barracks for T1 and a mid-tier barracks for T7 clears milestone chests in hours.
+* `02:25` — **Research Block & Micro-Techs:** How to finish the final 200–400 points using 5-minute techs and alliance help clicks with 0 speedups burned.
+* `03:20` — **Raven Phase (Stamina Only):** Why Raven Fruits must never be spent here, and how monster kills clear the stage.
+* `04:20` — **Hero Phase:** Micro-leveling heroes while preserving antitoxin for Thursday.
+* `05:10` — **Why You Should Skip the Building Phase:** Preserving construction speedups for the King Buff on Tuesday.
+* `06:20` — **Weekly Summary & Chest Sweep.**
 
 ---
 
@@ -96,9 +135,9 @@ A standout high-efficiency milestone clears for exactly **30 Recruitment Tickets
 
 1. Audit your server's unique mission rotation every Monday morning.
 2. Partition resources between Alliance Duel prerequisites and Survival Battle thresholds.
-3. **Spend energy on Raven missions** strictly during the active 4-hour Raven phase: points are awarded directly for stamina expenditure!
-4. Bank stamina potions and Raven Fruits for Monday to synchronize energy spending with Alliance Duel Phase 1.
-5. Spend speedups and construction resources strictly within the matching active 4-hour phase.
+3. **Spend energy on Raven missions** strictly during the active 4-hour Raven phase: points are awarded directly for stamina expenditure! Never spend Raven Fruits here!
+4. Bank stamina potions for Monday to synchronize energy spending with Alliance Duel Phase 1.
+5. Skip the territory building phase unless you have excess speedups or it coincides with Tuesday.
 6. Queue soldier training **strictly after the training phase has started** (points are awarded upon queueing!).
-7. Train highest unlocked tier (T7–T10) or promote existing troops.
+7. Use the Promotion trick (T1 → T7) for rapid, ultra-cheap milestone completions.
 8. Sweep all milestone chests to secure your ~60,000 Skill Badges before the weekly reset (00:00 Server Time / 02:00 UTC).
