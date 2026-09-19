@@ -4,6 +4,7 @@ description: "Full 7-day scoring schedule, day-by-day resource allocation, stami
 lang: en
 updated: "2026-09-18"
 videoTopic: supreme_healer
+infographics: ["/infographics/falcon-tower-storage.webp"]
 type: event
 ---
 

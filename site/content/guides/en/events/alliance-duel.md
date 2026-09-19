@@ -2,10 +2,10 @@
 title: "Alliance Duel: Complete Guide"
 description: "Six days of point categories, a Saturday PvP finale, phase-by-phase mechanics with exact point values, Falcon Quest stacking, and the save-everything economy that wins the top chest."
 lang: en
-updated: "2026-09-03"
+updated: "2026-09-18"
 videoTopic: alliance_duel
 calculators: []
-infographics: ["/infographics/duel-day-guide.webp", "/infographics/duel-savings.webp"]
+infographics: ["/infographics/duel-day-guide.webp", "/infographics/duel-savings.webp", "/infographics/falcon-tower-storage.webp"]
 type: event
 ---
 

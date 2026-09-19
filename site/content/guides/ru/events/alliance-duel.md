@@ -2,10 +2,10 @@
 title: "Дуэль альянсов: полный гайд"
 description: "Шесть дней категорий очков, PvP-финал в субботу, механика фаз с точными значениями очков, стакинг Заданий сокола и экономика «копи всё», которая приносит топовый сундук."
 lang: ru
-updated: "2026-09-03"
+updated: "2026-09-18"
 videoTopic: alliance_duel
 calculators: []
-infographics: ["/infographics/troops-training-strategy-ru.webp", "/infographics/duel-day-guide.webp"]
+infographics: ["/infographics/troops-training-strategy-ru.webp", "/infographics/duel-day-guide.webp", "/infographics/falcon-tower-storage-ru.webp"]
 type: event
 ---
 

@@ -4,6 +4,7 @@ description: "Полный 7-дневный график набора очков
 lang: ru
 updated: "2026-09-18"
 videoTopic: supreme_healer
+infographics: ["/infographics/falcon-tower-storage-ru.webp"]
 type: event
 ---
 
