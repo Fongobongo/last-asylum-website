@@ -20,7 +20,7 @@ Each day activates an exclusive scoring category. Pay special attention to what 
 
 | Day | Daily Focus | Scoring Actions & Point Multipliers | Critical Rules & Pitfalls |
 |---|---|---|---|
-| **Day 1** | **Gathering & Stamina** | • 1 Stamina spent = **100 points**<br>• 1 Falcon Mission completed = **1,000 points**<br>• Gathering: 1 pt per 100 Wood/Food or 60 Herbs | ❌ Do NOT burn building or tech speedups.<br>✅ Dump stamina potions on zombies and bosses. |
+| **Day 1** | **Gathering & Stamina** | • 1 Stamina spent = **100 points**<br>• 1 Falcon Mission completed = **1,000 points**<br>• Gathering: 1 pt per 100 Wood/Food, 60 Herbs, or 40 Iron/Gold | ❌ Do NOT burn building or tech speedups.<br>✅ Dump stamina potions on mutants and bosses.<br>✅ Pre-gather: dispatch marches 4–6 hrs before 02:00 UTC. |
 | **Day 2** | **Survivors & Building** | • Survivor Recruitment = **400 points each**<br>• Construction Speedups = **20 points per 1 min**<br>• Building Might = **1 point per +1 Might gained** | ❌ Falcon missions award 0 points today!<br>❌ Do NOT use research or troop speedups. |
 | **Day 3** | **Technology & Research** | • 1 Falcon Mission completed = **1,000 points**<br>• Research Speedups = **20 points per 1 min**<br>• Research/Tech Might = **1 point per +1 Might gained** | ⚠️ **WARNING: NO POINTS FOR BUILDINGS ON DAY 3!**<br>Building speedups and completed constructions grant 0 points! |
 | **Day 4** | **Heroes & Healing** | • Hero Recruitment = **400 points per Ticket**<br>• Skill Badges = **10 points per 1 Badge used**<br>• Antitoxin consumed = **1 point per 660 units** | ❌ Falcon missions award 0 points today!<br>✅ Flush stored serum to heal infected patients. |
@@ -52,45 +52,62 @@ To consistently clear top milestone chests without unnecessary spending, follow 
 
 ---
 
-## ⚡ Stamina Stacking (Energy Management) {#stamina-stacking}
+## ⚡ Stamina Stacking & Pre-Gathering {#stamina-stacking}
 
 Stamina is one of the most cost-effective F2P scoring engines on **Day 1** and **Day 7** (1 Stamina = 100 points):
 
-1. **Pre-Reset Natural Energy Cap:**
-   * 10–12 hours before Day 1 begins, stop spending natural stamina.
+1. **Pre-Gathering Marches the Night Before:**
+   * 4–6 hours before daily reset (00:00 server / 02:00 UTC), dispatch all available troop marches to high-level resource nodes (Level 6–7 Herbs, Iron, Gold, Wood, Food).
+   * Time their return so they finish gathering and arrive back inside your sanctuary right **after 02:00 UTC**, giving you an immediate points explosion on minute one of Day 1.
+2. **Pre-Reset Natural Energy Cap:**
+   * 10–12 hours before Day 1 begins, stop spending natural stamina on casual mutants.
    * Allow your energy bar to fill to maximum capacity (100–120/120) by server midnight (00:00 server / 02:00 UTC).
-2. **Stockpiling Inventory Potions:**
+3. **Stockpiling Inventory Potions:**
    * Never consume inventory energy potions (10, 20, 50, 100 energy drinks) for casual zombie farming on off-days.
    * Buy energy potions consistently from the Alliance Shop and VIP Shop, and hoard daily quest rewards.
-3. **Execution on Day 1 & Day 7:**
+4. **Execution on Day 1 & Day 7:**
    * At server reset, unleash your full natural energy bar and inventory potions on **high-level mutants**, **Plague Lairs**, and **world bosses**.
    * Every 1,000 stamina consumed generates **100,000 event points**, guaranteeing that you clear the initial chest tiers in minutes.
 
 ---
 
-## 🦅 Falcon Missions: Days 1, 3, 5, 7 & The "Red Dot" Rule {#falcon-stacking}
+## 🦅 Falcon Tower: Incident Storage, Navigation Compasses & the 29/30 Rule {#falcon-stacking}
 
 In Supreme Healer, Falcon Missions score strictly on **Days 1, 3, 5, and 7** (**1,000 points** per mission). They provide 0 points on Days 2, 4, and 6!
+
+> [!TIP]
+> The complete visual storage guide by `#252 Dalkongss` is attached at the bottom of this page and available in the [Infographics Gallery](/infographics/#falcon-tower-storage).
 
 ```mermaid
 flowchart LR
     A["Pre-Day (Sun, Tue, Thu, Sat)<br>Dispatch Falcon Missions"] --> B["Missions Complete<br>Red Notification Dots Appear"]
     B --> C["GOLDEN RULE:<br>DO NOT claim rewards!"]
-    C --> D["00:00 Server Reset:<br>Claim all red dots in 5 seconds"]
+    C --> D["00:00 Server (02:00 UTC):<br>Claim all red dots in 5 seconds"]
     D --> E["Burst: +6,000–12,000 pts!<br>Dispatch new daily mission pool"]
 ```
 
-### Step-by-Step Hoarding Procedure:
-* **The Day Before a Scoring Stage** (Sunday before Day 1, Tuesday before Day 3, Thursday before Day 5, Saturday before Day 7):
-  1. Dispatch available heroes on all active Falcon quests.
-  2. As missions complete, **red notification dots** appear over the Falcon Tower and mission log.
-  3. **IRONCLAD RULE:** **DO NOT tap the rewards or clear the red dots the day before the event!** Leave all completed missions waiting in the log.
-  4. **The "Max - 1" Rule:** Leave at least one unstarted slot open on the quest board so the automatic refresh timer continues cycling new missions.
+### 1. Incident Storage Mechanics:
+* Inside the **Falcon Tower**, access the mission screen and tap **Incident Storage**.
+* When high-rarity (Purple/Epic or Gold/Legendary) missions appear, tap **Save**.
+* **Saved missions never expire!** They remain banked indefinitely until scoring days (Days 1, 3, 5, and 7).
 
-### Server Midnight Reset (00:00 Server Time / 02:00 UTC):
-1. The second Day 1, 3, 5, or 7 goes live, open the Falcon Tower and **claim every banked red dot in a single burst**.
-2. You instantly bank **6,000 to 12,000+ free points** on minute one with zero resource expenditure.
-3. Immediately dispatch and complete the fresh daily quest pool before the day ends, locking in **double the daily point volume** on every single scoring day.
+### 2. The 29/30 Rule (Why NOT 30/30?):
+* The Incident Storage cap is exactly 30 missions.
+* ❌ **If capped at 30/30:** the game considers your queue completely full and **freezes automatic mission generation** (1 free incident every 60 minutes). You lose passive free missions!
+* ✅ **If held at 29/30:** the hourly background generation timer continues cycling normally every 60 minutes. Whenever an exceptional mission rolls, complete it or rotate it without forfeiting a single free incident.
+
+### 3. Navigation Compass Preservation:
+* **Navigation Compasses** force-refresh the quest board.
+* Do not waste Compasses casually on Green or Blue incidents during off-days.
+* Hoard your Compasses and burn them during active scoring days (1, 3, 5, 7) to cycle for high-rarity rewards and milestone points.
+
+### 4. The "Red Dot" Hoarding Procedure Before Reset:
+* **The Day Before a Scoring Stage** (Sunday before Day 1, Tuesday before Day 3, Thursday before Day 5, Saturday before Day 7):
+  1. Dispatch heroes on all available Falcon quests.
+  2. As missions complete, **red notification dots** appear over the Falcon Tower and mission log.
+  3. **IRONCLAD RULE:** **DO NOT tap the rewards or clear the red dots before 02:00 UTC reset!** Leave all completed missions waiting in the log.
+  4. Exactly at 00:00 server time (02:00 UTC), open the Falcon Tower and **claim every banked red dot in a single burst**: you instantly score **6,000 to 12,000+ free points** on minute one.
+  5. Immediately dispatch and complete the fresh daily quest pool before the day ends for **double the daily point volume**!
 
 ---
 
@@ -145,12 +162,20 @@ Careless speedup usage is the primary reason players fall short of top milestone
 
 The premier tactic among top alliances is **Double Dipping**.
 
-The parallel event **Daily Survival Battle** operates on **4-hour rotating cycles**, each offering 3 milestone chests (including the Gold Chest containing Skill Badges, Diamonds, and UR Shards).
+Operating concurrently with Supreme Healer around the clock is the [Survival Battle (Daily Survival)](/events/survival/) event. It rotates across **six 4-hour blocks** every day:
+* **02:00 – 06:00 UTC**
+* **06:00 – 10:00 UTC**
+* **10:00 – 14:00 UTC**
+* **14:00 – 18:00 UTC**
+* **18:00 – 22:00 UTC**
+* **22:00 – 02:00 UTC**
+
+Each block contains 3 milestone chests. Clearing Gold Chest #3 awards substantial reserves of **Skill Badges**, Diamonds, and UR Hero Shards.
 
 ```mermaid
 flowchart TD
     SH["Supreme Healer<br>(24h Daily Stage)"] --> Match{"Align Time Windows"}
-    SB["Daily Survival Battle<br>(4h Rotating Block)"] --> Match
+    SB["Survival Battle<br>(4h Rotating Block)"] --> Match
     Match --> Action["Single Action:<br>Burn speedups / resources during shared window"]
     Action --> Chest1["Supreme Healer<br>Milestone Chests"]
     Action --> Chest2["Survival Battle<br>Gold Chest (3/3)"]
@@ -158,19 +183,20 @@ flowchart TD
 
 ### How to Align Blocks for Maximum Rewards:
 1. **Day 2 (Building):**
-   * Wait for the 4-hour Survival Battle block featuring **"Territory Construction / Building Might"**.
-   * Burn construction speedups exclusively within this 4-hour window.
+   * Wait for the 4-hour Survival Battle block featuring **"Territory Construction / Build Territory"**.
+   * Burn construction speedups and click completed building hammers exclusively within this 4-hour window.
 2. **Day 3 (Technology):**
-   * Wait for the Survival Battle block featuring **"Technology & Research"**.
+   * Wait for the Survival Battle block featuring **"Research Tech"**.
    * Apply research speedups to score simultaneously in both events.
 3. **Day 4 (Heroes):**
-   * Open your hoarded recruitment tickets (150–250+) during the **"Hero Growth"** block.
+   * Open your hoarded recruitment tickets (150–250+) and Skill Badges strictly during the **"Enhance Heroes"** block.
 4. **Day 5 (Troops):**
-   * Execute mass unit Promotions during the **"Troop Training"** block.
+   * Execute mass unit Promotions during the **"Train Soldiers"** block.
+   * ⚠️ **CRITICAL RULE:** In Survival Battle, troop training points are awarded **at the exact moment you tap the Train / Promote button** (when resources are deducted), NOT when the timer finishes! Never start troop queues before the designated 4-hour window starts.
 5. **Day 7 (Final):**
-   * Any active Survival Battle block provides dual-event progression.
+   * Any active Survival Battle block provides dual-event progression since Day 7 scores every action.
 
 ### The Micro-Research Trick for Free Gold Chests:
 * Keep 2–3 cheap, basic technologies (5–15 minute base research time) unresearched in your Lab.
 * If you are 200–400 points short of Gold Chest #3 in a 4-hour Survival Battle block, start one of these quick techs and complete it with free alliance help clicks.
-* **Net Result:** Clear the Gold Chest for free, preserve your speedups, and bank **up to 60,000 free Skill Badges** every week!
+* **Net Result:** Clear the Gold Chest for free, preserve your speedups, and bank **up to 60,000 free Skill Badges** every week! For deep dives, check out the [Survival Battle Guide](/events/survival/) and [Alliance Duel Guide](/events/alliance-duel/).
