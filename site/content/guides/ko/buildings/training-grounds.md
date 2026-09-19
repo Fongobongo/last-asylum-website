@@ -5,6 +5,8 @@ lang: ko
 updated: "2026-09-19"
 type: guide
 ---
+![icon](/building-icons/1020.png)
+
 
 **공식 명칭:** 훈련장
 >

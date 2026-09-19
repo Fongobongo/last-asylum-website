@@ -5,6 +5,8 @@ lang: ko
 updated: "2026-09-19"
 type: guide
 ---
+![icon](/building-icons/5043.png)
+
 
 **공식 명칭:** 방직 공방
 >

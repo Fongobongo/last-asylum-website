@@ -5,6 +5,8 @@ lang: id
 updated: "2026-09-19"
 type: guide
 ---
+![icon](/building-icons/5042.png)
+
 
 **Nama resmi:** Bengkel Peleburan
 >

@@ -5,6 +5,8 @@ lang: ja
 updated: "2026-09-19"
 type: guide
 ---
+![icon](/building-icons/1019.png)
+
 
 **公式名:** 薬草園
 >

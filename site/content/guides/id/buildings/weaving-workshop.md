@@ -5,6 +5,8 @@ lang: id
 updated: "2026-09-19"
 type: guide
 ---
+![icon](/building-icons/5043.png)
+
 
 **Nama resmi:** Bengkel Tenun
 >

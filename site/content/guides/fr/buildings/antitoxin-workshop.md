@@ -5,6 +5,8 @@ lang: fr
 updated: "2026-09-19"
 type: guide
 ---
+![icon](/building-icons/1027.png)
+
 
 **Nom officiel:** Atelier d\'antitoxines
 >
