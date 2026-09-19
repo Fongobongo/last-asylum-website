@@ -191,3 +191,248 @@ Caravans and Covert Ops are separate systems from plunder, and they dodge every 
 
 - **Caravans** — your automated trade income. Keep them moving.
 - **Covert Ops** — you can plunder up to 5 other players' Covert Ops per day. Golden Covert Ops pay the best rewards — always grab a golden one when you see it.
+
+---
+
+## 📊 Client data tables {#wiki-where-to-get}
+
+Verified values from game client data (v1.0.87), source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/where-to-get).
+
+
+**Antitoxin**
+
+| Source | Total | Largest drop |
+|---|---|---|
+| building upgrades | 15,365,510,570 | 199,000,000 |
+| rallies | 1,322,896,191 | 5,048,000 |
+| Undead Siege | 1,104,884,000 | 41,800,000 |
+| level supplies | 1,094,961,240 | 38,136,000 |
+| Hero Road alliance boss | 572,191,000 | 105,000,000 |
+| campaign idle rewards | 383,146,640 | 1,188,000 |
+| Explorer Dungeon secret chapters | 371,689,698 | 1,720,000 |
+
+
+**Recruit Ticket**
+
+| Source | Total | Largest drop |
+|---|---|---|
+| paid bundles | 3,470 | 160 |
+| kingdom war season | 2,025 | 100 |
+| battle passes | 1,376 | 40 |
+| abyss boss tasks | 705 | 150 |
+| kingdom war server reward | 670 | 150 |
+| growth goals | 555 | 60 |
+| hero growth tasks | 300 | 18 |
+
+
+**Skill badge**
+
+| Source | Total | Largest drop |
+|---|---|---|
+| paid bundles | 1,342,050 | 52,000 |
+| Surprise Encounter boxes | 481,600 | 80,000 |
+| hero growth tasks | 375,000 | 4,500 |
+| abyss boss tasks | 317,000 | 50,000 |
+| arena season rewards | 263,800 | 21,000 |
+| growth goals | 190,910 | 10,000 |
+| leaderboards | 184,000 | 30,000 |
+
+
+**Gearstone**
+
+| Source | Total | Largest drop |
+|---|---|---|
+| paid bundles | 1,352,000 | 40,000 |
+| kingdom war season | 395,000 | 21,500 |
+| growth goals | 348,700 | 15,000 |
+| hero growth tasks | 337,500 | 4,050 |
+| abyss boss tasks | 230,000 | 50,000 |
+| hunting war chests | 136,600 | 2,800 |
+| kingdom war server reward | 112,000 | 25,000 |
+
+
+**Study Scroll**
+
+| Source | Total | Largest drop |
+|---|---|---|
+| alliance league | 49,630 | 3,120 |
+| paid bundles | 26,070 | 1,400 |
+| Surprise Encounter boxes | 14,080 | 2,400 |
+| arena season rewards | 13,650 | 3,200 |
+| growth goals | 8,840 | 600 |
+| alliance duel stages | 4,800 | 400 |
+| exchange shops | 3,950 | 2,400 |
+
+
+**Expedition medal**
+
+| Source | Total | Largest drop |
+|---|---|---|
+| expedition | 6,676,800 | 6,400 |
+
+
+**Glory medal**
+
+| Source | Total | Largest drop |
+|---|---|---|
+| kingdom war season | 2,375,000 | 100,000 |
+| arena season rewards | 1,416,420 | 61,000 |
+| kingdom war battle | 433,000 | 55,000 |
+| flag war league | 309,600 | 16,000 |
+| kingdom war server reward | 240,000 | 50,000 |
+| ChampionDuelRankReward | 110,000 | 25,000 |
+| black mine zone | 100,000 | 2,000 |
+
+
+**Raven essence**
+
+| Source | Total | Largest drop |
+|---|---|---|
+| paid bundles | 4,501 | 300 |
+| Surprise Encounter boxes | 3,096 | 500 |
+| growth goals | 945 | 200 |
+| exchange shops | 906 | 500 |
+| abyss boss tasks | 400 | 160 |
+| weekend boss | 388 | 21 |
+| GrowthBook | 340 | 40 |
+
+
+**Raven fruit**
+
+| Source | Total | Largest drop |
+|---|---|---|
+| GrowthBook | 2,360,000 | 300,000 |
+| rallies | 1,267,552 | 2,650 |
+| falcon tasks | 525,955 | 1,988 |
+| campaign chapters | 230,000 | 50,000 |
+| battle passes | 152,000 | 5,000 |
+| seasonal monsters | 122,040 | 1,130 |
+| item contents | 111,500 | 100,000 |
+
+
+**Survivor token**
+
+| Source | Total | Largest drop |
+|---|---|---|
+| paid bundles | 52,785 | 8,500 |
+| chest drops | 3 | 2 |
+| NewCardsPoolInfo | 3 | 2 |
+| exchange shops | 1 | 1 |
+
+
+**Epigraph fragment (SSR)**
+
+| Source | Total | Largest drop |
+|---|---|---|
+| battle passes | 10,200 | 400 |
+| abyss boss tasks | 2,450 | 450 |
+| SevenDaySignReward | 1,740 | 450 |
+| exchange shops | 400 | 400 |
+| trials | 225 | 50 |
+
+
+**Tempered steel**
+
+| Source | Total | Largest drop |
+|---|---|---|
+| growth goals | 10,756 | 1,000 |
+| paid bundles | 5,250 | 750 |
+| abyss boss tasks | 2,000 | 500 |
+| black mine zone | 900 | 50 |
+| mainland alliance reward | 700 | 220 |
+| battle passes | 646 | 100 |
+| PickOneGiftReward | 255 | 150 |
+
+
+**Lion coin**
+
+| Source | Total | Largest drop |
+|---|---|---|
+| rally find | 17,820 | 460 |
+| rallies | 10,368 | 78 |
+| chest drops | 1,150 | 1,000 |
+| item contents | 1,150 | 1,000 |
+| monster hunting | 60 | 10 |
+
+
+**Universal weapon fragment**
+
+| Source | Total | Largest drop |
+|---|---|---|
+| kingdom war season | 540 | 30 |
+| trials | 96 | 7 |
+| paid bundles | 80 | 80 |
+| battle passes | 55 | 25 |
+| war season tasks | 12 | 6 |
+| chest drops | 10 | 10 |
+| item contents | 10 | 10 |
+
+
+**Universal awakening fragment**
+
+| Source | Total | Largest drop |
+|---|---|---|
+| ChampionDuelRankReward | 445 | 100 |
+| abyss boss tasks | 80 | 40 |
+| paid bundles | 80 | 80 |
+| hero road | 14 | 8 |
+| ChampionDuelFirework | 10 | 5 |
+| exchange shops | 3 | 1 |
+| growth goals | 2 | 1 |
+
+
+**Speedups**
+
+| Source | Days |
+|---|---|
+| paid bundles | 933 |
+| Surprise Encounter boxes | 101 |
+| abyss boss tasks | 92 |
+| exchange shops | 31 |
+| battle passes | 27 |
+| leaderboards | 25 |
+| ChampionDuelRankReward | 19 |
+
+
+**Where the game itself points**
+
+| Item | Where the game points |
+|---|---|
+| Gearstone | Falcon Tower, VIP Shop |
+| Raven essence | VIP Shop, From Daily Quests |
+| Raven fruit | Falcon Tower, Resource Monster, Rally |
+| Recruit Ticket | Campaign, Resource Monster, Glory Shop, Expedition Shop |
+| Skill badge | Falcon Tower, VIP Shop, Purchase Pack |
+| Study Scroll | Alliance Duel, Purchase Pack |
+| Tempered steel | Resource Monster |
+| Universal awakening fragment | Daily Offer, Alliance Duel, Glory Shop, Expedition Shop |
+| Universal weapon fragment | Daily Offer, Glory Shop, VIP Shop, Alliance Shop, Sanctuary Shop |
+
+---
+
+## 📊 Client data tables {#wiki-level-supplies}
+
+Verified values from game client data (v1.0.87), source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/level-supplies).
+
+
+**Tools**
+
+| Supplies | Castle 1 | Castle 35 | Growth |
+|---|---|---|---|
+| Antitoxin Level Supply (R) | 2,790 | 158,900 | x57.0 |
+| Antitoxin Level Supply (SR) | 27,900 | 1,589,000 | x57.0 |
+| Antitoxin Level Supply (SSR) | 223,200 | 12,712,000 | x57.0 |
+| Antitoxin Level Supply (UR) | 669,600 | 38,136,000 | x57.0 |
+| Herb Level Supply (UR) | 1,041,880 | 3,037,360 | x2.9 |
+| Herb Level Supply (SSR) | 347,300 | 1,012,460 | x2.9 |
+| Herb Level Supply (SR) | 43,420 | 126,560 | x2.9 |
+| Herb Level Supply (R) | 4,390 | 12,790 | x2.9 |
+| Grain Level Supply (R) | 6,910 | 19,990 | x2.9 |
+| Timber Level Supply (R) | 6,910 | 19,990 | x2.9 |
+| Grain Level Supply (UR) | 1,641,460 | 4,747,490 | x2.9 |
+| Timber Level Supply (UR) | 1,641,460 | 4,747,490 | x2.9 |
+| Grain Level Supply (SSR) | 547,160 | 1,582,500 | x2.9 |
+| Timber Level Supply (SSR) | 547,160 | 1,582,500 | x2.9 |
+| Grain Level Supply (SR) | 68,400 | 197,820 | x2.9 |
+| Timber Level Supply (SR) | 68,400 | 197,820 | x2.9 |
+

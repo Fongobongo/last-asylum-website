@@ -204,3 +204,52 @@ Short answers to the questions Korpez' mailbag keeps fielding — most of these 
 
 Mastered the day-one basics? Dive into the non-obvious rules of the game: speed buff snap-shotting, protecting troops with Ghost Rallies, avoiding hospital overflow wipes, the Claire conversion dip, and tile pre-farming in the [Pro Tips & Hidden Mechanics Guide](/tips/).
 
+---
+
+## 📊 Client data tables {#wiki-unlocks}
+
+Verified values from game client data (v1.0.87), source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/unlocks).
+
+
+**Tools**
+
+| Requirement | Unlocks |
+|---|---|
+| Sanctuary level 1 | Building menu |
+| Sanctuary level 1 | Dawn breakout |
+| Sanctuary level 1 | Heroes |
+| Sanctuary level 1 | King appointments |
+| Sanctuary level 1 | Quiz |
+| Sanctuary level 1 | Survivors |
+| Sanctuary level 3 | Castle skins |
+| Sanctuary level 3 | Match-three |
+| Sanctuary level 4 | Alliance |
+| Sanctuary level 4 | Bag |
+| Sanctuary level 4 | Campaign |
+| Sanctuary level 4 | First purchase |
+| Sanctuary level 4 | Gift shop |
+| Sanctuary level 4 | Mail |
+| Sanctuary level 4 | Main missions |
+| Sanctuary level 4 | VIP |
+| Sanctuary level 5 | Daily missions |
+| Sanctuary level 5 | Online reward |
+| Sanctuary level 8 | Daily to-do list |
+| Sanctuary level 8 | Leaderboards |
+| Sanctuary level 10 | Alliance escort |
+| Sanctuary level 10 | Escort |
+| Sanctuary level 10 | Presents |
+| Sanctuary level 15 | Raven gear |
+| Alliance Hall level 1 | Alliance |
+| Black Ops level 1 | Covert ops |
+| Black Ops level 1 | Covert ops raiding |
+| Epigraph Workshop level 1 | Raven evolution |
+| Falcon Tower level 1 | Chat |
+| Falcon Tower level 1 | World map |
+| Raven Nest level 1 | Raven gear |
+| Research Lab level 1 | Research |
+| Residence level 1 | Daily reward |
+| Squad 1 level 1 | Idle income |
+| Squad 4 level 1 | Card build queue |
+| Tavern level 1 | Hero recruit |
+| Watchtower level 1 | March alarm |
+
