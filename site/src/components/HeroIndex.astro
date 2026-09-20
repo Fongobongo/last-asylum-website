@@ -37,7 +37,7 @@ if (showHub) {
       const title = m ? m[1].replace(/^[📊🦸🎯📋🧮🏗️🛡️⚔️\s]+/, '') : '';
       const bodyMd = m ? p.replace(/^## .+$/m, '') : p;
       const { code } = await pro.render(bodyMd);
-      hubCards.push({ title, html: code });
+      hubCards.push({ title, html: code.replace(/<h[12][^>]*><\/h[12]>/g, '') });
     }
   }
 }
