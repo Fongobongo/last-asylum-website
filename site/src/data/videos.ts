@@ -1365,45 +1365,20 @@ export const rawVideos: Record<string, Video[]> = {
 ],
   "supreme_healer": [
     {
-      "id": "akt3OGeHXgY",
-      "title": "Supreme Healer & Survival Battle: 60K Badges",
-      "lang": "en"
-    },
-    {
-      "id": "2mrgZlwZeNo",
-      "title": "Fix Your Bell: 66K → 205K Healing & Hospital Optimization",
-      "lang": "en"
-    },
-    {
-      "id": "0k621wMXs4Y",
-      "title": "Maximizing Troop Training & Action Points",
-      "lang": "en"
-    },
-    {
-      "id": "sHtY9euKC8c",
-      "title": "Supreme Duel: Winner Takes All Strategy",
+      "id": "2u8ok-VKz_c",
+      "title": "Top Healer - 7 Day Event in Last Asylum: Plague",
       "lang": "en"
     }
   ],
   "supreme_healer_ru": [
     {
-      "id": "cN832LwDzlg",
-      "title": "Дуэль альянсов и недельные события",
+      "id": "5sn95_i8fUo",
+      "title": "Событие «Лучший Целитель»: стань топом",
       "lang": "ru"
     },
     {
-      "id": "akt3OGeHXgY",
-      "title": "Битва выживания: стакинг 60 000 жетонов",
-      "lang": "en"
-    },
-    {
-      "id": "2mrgZlwZeNo",
-      "title": "Секреты исцеления: Белл от 66K до 205K и лазарет",
-      "lang": "en"
-    },
-    {
-      "id": "0k621wMXs4Y",
-      "title": "Тренировка войск и распределение таймеров",
+      "id": "2u8ok-VKz_c",
+      "title": "Top Healer - 7 Day Event in Last Asylum: Plague",
       "lang": "en"
     }
   ],
