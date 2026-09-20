@@ -1,0 +1,43 @@
+---
+import { getCollection } from 'astro:content';
+import type { Lang } from '../i18n/utils';
+
+const { lang } = Astro.props as { lang: Lang };
+const entries = (await getCollection('guides'))
+  .filter((e) => e.data.lang === lang && e.id.startsWith(`${lang}/heroes/`))
+  .map((e) => ({
+    slug: e.id.replace(`${lang}/heroes/`, '').replace(/\.md$/, ''),
+    title: e.data.title.split(':')[0].split(',')[0].trim(),
+    desc: (e.data.description || '').split('. ')[0] + '.',
+  }))
+  .sort((a, b) => a.title.localeCompare(b.title));
+
+const base = lang === 'en' ? '' : `/${lang}`;
+const H: Record<string, { h: string; d: string }> = {
+  ru: { h: 'Гайды по героям', d: `${entries.length} героев: навыки, билды, прокачка, получение и осколки.` },
+  en: { h: 'Hero Guides', d: `${entries.length} heroes: skills, builds, leveling, how to unlock, shard sources.` },
+};
+const tt = H[lang] || H.en;
+
+// original hub guide renders below the card grid
+const hub = (await getCollection('guides')).find((e) => e.id === `${lang}/heroes.md`);
+let HubContent: any = null;
+if (hub) HubContent = (await hub.render()).Content;
+---
+<section class="py-12">
+  <h1 class="mb-3 text-4xl font-bold text-plague-100">{tt.h}</h1>
+  <p class="mb-10 text-lg text-stone-400">{tt.d}</p>
+  <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    {entries.map((e: any) => (
+      <a href={`${base}/heroes/${e.slug}/`} class="group rounded-lg border border-stone-800 bg-stone-900 p-5 transition-colors hover:border-plague-600">
+        <h2 class="text-lg font-bold text-plague-200 group-hover:text-plague-100">{e.title}</h2>
+        <p class="mt-2 text-sm text-stone-400">{e.desc}</p>
+      </a>
+    ))}
+  </div>
+  {HubContent && (
+    <article class="mt-12 prose prose-invert max-w-none">
+      <HubContent />
+    </article>
+  )}
+</section>

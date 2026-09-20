@@ -1,0 +1,9 @@
+---
+import Base from '../../../layouts/Base.astro';
+import HeroIndex from '../../../components/HeroIndex.astro';
+import type { Lang } from '../../../i18n/utils';
+const lang: Lang = 'pt';
+---
+<Base lang={lang} path="/pt/heroes/" title="Guide Atlas: Heroes" description="Hero guides: skills, builds, leveling, shard sources.">
+  <HeroIndex lang={lang} />
+</Base>
