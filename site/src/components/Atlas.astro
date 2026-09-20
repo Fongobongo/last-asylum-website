@@ -1,0 +1,52 @@
+---
+import { getCollection } from 'astro:content';
+import type { Lang } from '../i18n/utils';
+
+const { lang } = Astro.props as { lang: Lang };
+const entries = (await getCollection('guides')).filter((e) => e.data.lang === lang);
+
+const base = lang === 'en' ? '/' : `/${lang}/`;
+
+function groupOf(id: string) {
+  const rel = id.replace(new RegExp(`^${lang}/`), '');
+  if (rel.startsWith('heroes/')) return 'heroes';
+  if (rel.startsWith('buildings/')) return 'buildings';
+  if (rel.startsWith('events/')) return 'events';
+  return 'guides';
+}
+
+const groups: Record<string, { title: string; href: string }[]> = {
+  guides: [], heroes: [], buildings: [], events: [],
+};
+for (const e of entries) {
+  const rel = e.id.replace(new RegExp(`^${lang}/`), '');
+  const g = groupOf(e.id);
+  const href = base + rel.replace(/\.md$/, '') + '/';
+  groups[g].push({ title: e.data.title, href });
+}
+for (const g of Object.values(groups)) g.sort((a, b) => a.title.localeCompare(b.title));
+
+const T: Record<string, Record<string, string>> = {
+  ru: { heroes: '🦸 Герои', buildings: '🏗️ Здания', events: '⚔️ События', guides: '📖 Гайды и механики', atlas: '🗺️ Атлас гайдов', all: 'Весь контент сайта на одной странице' },
+  en: { heroes: '🦸 Heroes', buildings: '🏗️ Buildings', events: '⚔️ Events', guides: '📖 Guides & Mechanics', atlas: '🗺️ Guide Atlas', all: 'All site content on one page' },
+};
+const tt = T[lang] || T.en;
+---
+<nav class="atlas">
+  <h1>{tt.atlas}</h1>
+  <p class="sub">{tt.all}</p>
+  {(['heroes','buildings','events','guides'] as const).map((g) => groups[g].length > 0 && (
+    <section>
+      <h2>{tt[g]} <span class="cnt">{groups[g].length}</span></h2>
+      <ul>
+        {groups[g].map((i) => <li><a href={i.href}>{i.title}</a></li>)}
+      </ul>
+    </section>
+  ))}
+</nav>
+<style>
+  nav.atlas ul { columns: 2; column-gap: 2rem; list-style: none; padding: 0; }
+  nav.atlas li { break-inside: avoid; margin: .3rem 0; }
+  nav.atlas .cnt { opacity: .5; font-size: .7em; }
+  nav.atlas .sub { opacity: .7; }
+</style>

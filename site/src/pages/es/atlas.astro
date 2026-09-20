@@ -1,0 +1,10 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import Atlas from '../../components/Atlas.astro';
+import type { Lang } from '../../i18n/utils';
+const lang: Lang = 'es';
+---
+<Base lang={lang} path="/atlas/" title="Атлас гайдов / Guide Atlas" description="Все гайды по Last Asylum: Plague на одной странице: герои, здания, события, экономика.">
+  <Atlas lang={lang} />
+</Base>
