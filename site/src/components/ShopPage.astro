@@ -8,7 +8,8 @@ interface Props {
 const { lang } = Astro.props;
 const isRu = lang === 'ru';
 
-// Official authorized partner top-up link
+// Partner top-up links. LootBar is listed first.
+const LOOTBAR_LINK = 'https://www.lootbar.com/s/fG5O3n';
 const AFF_LINK = 'https://chain.ldshop.gg/T4W43NR9I/last-asylum-plague-gp?aff_short=fan';
 
 const T = {
@@ -17,7 +18,8 @@ const T = {
   subtitle: isRu
     ? 'Официальный магазин внутриигровой валюты и предметов Last Asylum: Plague через авторизованную платформу LDShop. Моментальное начисление по игровому UID, скидки до 20% и поддержка нашего фан-хаба без дополнительных затрат!'
     : 'Official in-game currency and item store for Last Asylum: Plague powered by authorized partner LDShop. Instant delivery via game UID, discounts up to 20%, and direct support for the fan hub at zero extra cost!',
-  openStoreBtn: isRu ? 'Перейти в магазин со скидкой ↗' : 'Open Store with Discount ↗',
+  openStoreBtn: isRu ? 'LootBar: регистрация и 2 купона до $20 ↗' : 'LootBar: sign up & get 2 coupons up to $20 ↗',
+  openStoreLdBtn: isRu ? 'LDShop: мгновенная доставка по UID ↗' : 'LDShop: instant delivery via UID ↗',
   howItWorksBtn: isRu ? 'Как пополнить по UID ↓' : 'How to Top-Up via UID ↓',
 
   badgeFastTitle: isRu ? 'Моментальная доставка' : 'Instant Delivery',
@@ -129,12 +131,21 @@ const T = {
 
       <div class="flex flex-wrap items-center gap-3 pt-4">
         <a
-          href={AFF_LINK}
+          href={LOOTBAR_LINK}
           target="_blank"
           rel="noopener noreferrer"
           class="btn-glow inline-flex items-center gap-2 rounded-2xl bg-gradient-to-r from-plague-500 via-toxic-400 to-toxic-300 px-6 py-3.5 text-sm sm:text-base font-bold text-black shadow-[0_0_25px_rgba(180,255,57,0.35)] hover:brightness-110 hover:scale-[1.02] active:scale-[0.99] transition"
         >
           <span>🛒 {T.openStoreBtn}</span>
+        </a>
+
+        <a
+          href={AFF_LINK}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 rounded-2xl border border-stone-700 bg-stone-900/80 px-5 py-3.5 text-sm font-semibold text-stone-200 hover:border-stone-500 hover:text-white transition"
+        >
+          <span>⚡ {T.openStoreLdBtn}</span>
         </a>
 
         <a
@@ -144,6 +155,12 @@ const T = {
           <span>{T.howItWorksBtn}</span>
         </a>
       </div>
+
+      <p class="mt-3 text-xs text-stone-400">
+        {isRu
+          ? '💡 Зарегистрируйтесь на LootBar по нашей ссылке — 2 купона на скидку до $20. Безопасные пополнения, быстрая доставка и выгодные цены.'
+          : '💡 Sign up on LootBar via our link to get 2 discount coupons worth up to $20. Safe top-ups, fast delivery, and great prices.'}
+      </p>
     </div>
   </div>
 
