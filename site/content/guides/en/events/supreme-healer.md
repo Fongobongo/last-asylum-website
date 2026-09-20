@@ -97,13 +97,14 @@ In Supreme Healer, Falcon Missions score strictly on **Days 1, 3, 5, and 7** (**
 > [!TIP]
 > Visual storage cheat-sheet by `#252 Dalkongss`. Also in the [Infographics Gallery](/infographics/#falcon-tower-storage).
 
-```mermaid
-flowchart LR
-    A["Pre-Day (Sun, Tue, Thu, Sat)<br>Dispatch Falcon Missions"] --> B["Missions Complete<br>Red Notification Dots Appear"]
-    B --> C["GOLDEN RULE:<br>DO NOT claim rewards!"]
-    C --> D["00:00 Server (02:00 UTC):<br>Claim all red dots in 5 seconds"]
-    D --> E["Burst: +6,000–12,000 pts!<br>Dispatch new daily mission pool"]
-```
+**How it works:**
+
+1. **The day before** (Sun, Tue, Thu, Sat): dispatch all available Falcon missions.
+2. Missions finish — red notification dots light up on ready rewards.
+3. **Golden rule: DO NOT claim** anything until the server reset.
+4. At **00:00 server time (02:00 UTC)** — claim all red dots in 5 seconds.
+5. **+6,000–12,000 points** in the first minute of the day → immediately dispatch the new daily mission pool.
+
 
 ### 1. Incident Storage Mechanics:
 * Inside the **Falcon Tower**, access the mission screen and tap **Incident Storage**.
@@ -197,14 +198,13 @@ Operating concurrently with Supreme Healer around the clock is the [Survival Bat
 
 Each block contains 3 milestone chests. Clearing Gold Chest #3 awards substantial reserves of **Skill Badges**, Diamonds, and UR Hero Shards.
 
-```mermaid
-flowchart TD
-    SH["Supreme Healer<br>(24h Daily Stage)"] --> Match{"Align Time Windows"}
-    SB["Survival Battle<br>(4h Rotating Block)"] --> Match
-    Match --> Action["Single Action:<br>Burn speedups / resources during shared window"]
-    Action --> Chest1["Supreme Healer<br>Milestone Chests"]
-    Action --> Chest2["Survival Battle<br>Gold Chest (3/3)"]
-```
+**The sync logic:**
+
+* Supreme Healer runs daily stages; Daily Survival runs 4-hour rotating phases.
+* Wait for a moment when **both events score the same action** (e.g. building, research, training).
+* Dump your speedups and resources **into that shared slot**.
+* → Earn Supreme Healer rewards **and** the Daily Survival golden chest (3/3) for the same single action.
+
 
 ### How to Align Blocks for Maximum Rewards:
 1. **Day 2 (Building):**
