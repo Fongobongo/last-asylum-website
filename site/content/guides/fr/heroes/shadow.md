@@ -1,6 +1,7 @@
 ---
-title: "Shadow: skills, upgrades and Might"
+title: "Shadow : compétences, build et montée"
 description: "Shadow is a UR ranger who plays as tank. Fully upgraded, he reaches 1,075,906 Might, rank 1 of 11 among the game's tanks. Unlocking him takes 10 shards ( Shadow Shard), a…"
+videoTopic: "heroes"
 lang: fr
 updated: "2026-09-19"
 type: guide

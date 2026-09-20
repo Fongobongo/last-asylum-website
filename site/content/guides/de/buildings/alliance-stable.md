@@ -1,11 +1,12 @@
 ---
 title: "Alliance Stable: levels, cost and upgrades"
 description: "Alliance Stable assembles the alliance caravan: up to twenty members, six wagons and a locomotive, with a two-hour muster. An alliance caravan can be robbed three times, …"
+videoTopic: "buildings"
 lang: de
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5052.png)
+![Allianz-Stall](/building-icons/5052.png)
 
 
 **Offizieller Name:** Allianz-Stall

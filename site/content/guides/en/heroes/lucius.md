@@ -1,6 +1,7 @@
 ---
-title: "Lucius: skills, upgrades and Might"
+title: "Lucius: Skills, Build & Leveling"
 description: "Lucius is an SSR warrior who plays as tank. Fully upgraded, he reaches 778,239 Might, rank 7 of 11 among the game's tanks. Unlocking him takes 10 shards ( Lucius Shard), …"
+videoTopic: "heroes"
 lang: en
 updated: "2026-09-19"
 type: guide

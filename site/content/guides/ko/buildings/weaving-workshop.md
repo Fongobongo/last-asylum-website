@@ -1,11 +1,12 @@
 ---
 title: "Weaving Workshop: levels, cost and upgrades"
 description: "Weaving Workshop produces Cloth, the lowest of the five materials that go into crafting and upgrading hero gear. The steps convert four to one in both directions without …"
+videoTopic: "buildings"
 lang: ko
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5043.png)
+![방직 공방](/building-icons/5043.png)
 
 
 **공식 명칭:** 방직 공방

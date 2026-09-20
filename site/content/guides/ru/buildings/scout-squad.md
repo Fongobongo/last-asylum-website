@@ -1,11 +1,12 @@
 ---
 title: "Отряд разведки: уровни, стоимость и прокачка"
 description: "Отряд разведки разгоняет разведчиков, которые читают гарнизон и запасы чужого города до нападения. Скорость движения растёт с уровнем до 30%, а сам отчёт разведки показыв…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5033.png)
+![Отряд разведки](/building-icons/5033.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-scout-squad)).

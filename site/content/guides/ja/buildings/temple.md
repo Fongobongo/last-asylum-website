@@ -1,11 +1,12 @@
 ---
 title: "Temple: levels, cost and upgrades"
 description: "Temple holds the plot of the three faction statues and serves as the way in to each of them. While the Warrior, Warlock or Ranger Statue is not yet built, a request for i…"
+videoTopic: "buildings"
 lang: ja
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5053.png)
+![神殿](/building-icons/5053.png)
 
 
 **公式名:** 神殿

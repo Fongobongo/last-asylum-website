@@ -1,11 +1,12 @@
 ---
 title: "Отряд 3: уровни, стоимость и прокачка"
 description: "Отряд 3 добавляет третью очередь похода и открывается позже остальных отрядов. Каждая очередь работает каждый день, поэтому на длинной дистанции она отдаёт больше, чем ра…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5015.png)
+![Отряд 3](/building-icons/5015.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-squad-3)).

@@ -1,11 +1,12 @@
 ---
 title: "Granary: levels, cost and upgrades"
 description: "Granary shields part of the Grain stock from plunder, keeping 225 million of it safe at level 30. Anything above that line an attacker carries off, so spending the surplu…"
+videoTopic: "buildings"
 lang: fr
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5023.png)
+![Grenier](/building-icons/5023.png)
 
 
 **Nom officiel:** Grenier

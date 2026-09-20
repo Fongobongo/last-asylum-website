@@ -1,11 +1,12 @@
 ---
 title: "Lumber Depot: levels, cost and upgrades"
 description: "Lumber Depot keeps part of the Timber stock out of a raider's hands: 225 million at level 30, reached after 299 days of building. Construction eats Timber faster than any…"
+videoTopic: "buildings"
 lang: en
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5024.png)
+![Lumber Depot](/building-icons/5024.png)
 
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-lumber-depot)).

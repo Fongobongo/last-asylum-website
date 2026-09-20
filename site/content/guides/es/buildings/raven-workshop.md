@@ -1,11 +1,12 @@
 ---
 title: "Raven Workshop: levels, cost and upgrades"
 description: "Raven Workshop turns out Lv.1 Raven Gear Chests, the base of the gear worn by the squad's sixth fighter. Production stops after a day, so the workshop is emptied daily, a…"
+videoTopic: "buildings"
 lang: es
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5034.png)
+![Taller del Cuervo](/building-icons/5034.png)
 
 
 **Nombre oficial:** Taller del Cuervo

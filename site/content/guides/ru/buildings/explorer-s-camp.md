@@ -1,11 +1,12 @@
 ---
 title: "Лагерь исследователя: уровни и стоимость"
 description: "Лагерь исследователя открывает подземелье исследователя: восьмичасовой накопитель платит до 1 750 020 опыта героев в час. Посаженные в лагерь выжившие вдобавок расширяют …"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5002.png)
+![Лагерь исследователя](/building-icons/5002.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-explorer-s-camp)).

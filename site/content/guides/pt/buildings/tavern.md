@@ -1,11 +1,12 @@
 ---
 title: "Tavern: levels, cost and upgrades"
 description: "Tavern opens hero and survivor recruiting, including the free recruit that returns on a cooldown. Recruiting and shards are the two ways a roster grows, which is why the …"
+videoTopic: "buildings"
 lang: pt
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5008.png)
+![Taverna](/building-icons/5008.png)
 
 
 **Nome oficial:** Taverna

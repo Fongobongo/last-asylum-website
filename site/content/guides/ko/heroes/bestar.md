@@ -1,6 +1,7 @@
 ---
-title: "Bestar: skills, upgrades and Might"
+title: "Bestar: 스킬, 빌드, 육성"
 description: "Bestar is an SSR ranger who plays as DPS. Fully upgraded, she reaches 685,793 Might, rank 10 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Bestar Sha…"
+videoTopic: "heroes"
 lang: ko
 updated: "2026-09-19"
 type: guide

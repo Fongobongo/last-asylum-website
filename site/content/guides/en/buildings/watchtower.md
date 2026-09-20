@@ -1,11 +1,12 @@
 ---
 title: "Watchtower: levels, cost and upgrades"
 description: "Watchtower hides intel from enemy scouts, and from level 5 counter-scouting triggers every single time. From level 9 five fields drop out of the enemy report, and neither…"
+videoTopic: "buildings"
 lang: en
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5049.png)
+![Watchtower](/building-icons/5049.png)
 
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-watchtower)).

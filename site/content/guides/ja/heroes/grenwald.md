@@ -1,6 +1,7 @@
 ---
-title: "Grenwald: skills, upgrades and Might"
+title: "Grenwald：スキル・ビルド・育成"
 description: "Grenwald is an SSR warlock who plays as DPS. Fully upgraded, he reaches 690,773 Might, rank 7 of 16 among the game's DPS heroes. Unlocking him takes 10 shards ( Grenwald …"
+videoTopic: "heroes"
 lang: ja
 updated: "2026-09-19"
 type: guide

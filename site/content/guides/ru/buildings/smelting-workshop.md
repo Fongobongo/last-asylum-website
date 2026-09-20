@@ -1,11 +1,12 @@
 ---
 title: "Плавильный цех: уровни, стоимость и прокачка"
 description: "Плавильный цех производит камни снаряжения, расходный материал для усиления предметов героев. Продукция копится до двенадцати часов, поэтому цеха забирают дважды в сутки,…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5042.png)
+![Плавильный цех](/building-icons/5042.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-smelting-workshop)).

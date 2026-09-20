@@ -1,11 +1,12 @@
 ---
 title: "Nomad Trader: levels, cost and upgrades"
 description: "Nomad Trader opens the exchange, where diamonds, medals and event currencies turn into the items a player needs. Rates differ markedly between shops, and the best line fo…"
+videoTopic: "buildings"
 lang: de
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5040.png)
+![Nomadenhändler](/building-icons/5040.png)
 
 
 **Offizieller Name:** Nomadenhändler

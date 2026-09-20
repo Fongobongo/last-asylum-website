@@ -1,6 +1,7 @@
 ---
-title: "Griffith: skills, upgrades and Might"
+title: "Griffith: Skills, Build & Leveling"
 description: "Griffith is an SSR ranger who plays as tank. Fully upgraded, he reaches 764,263 Might, rank 9 of 11 among the game's tanks. Unlocking him takes 10 shards ( Griffith Shard…"
+videoTopic: "heroes"
 lang: de
 updated: "2026-09-19"
 type: guide

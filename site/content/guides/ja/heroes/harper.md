@@ -1,6 +1,7 @@
 ---
-title: "Harper: skills, upgrades and Might"
+title: "Harper：スキル・ビルド・育成"
 description: "Harper is a UR warrior who plays as support. Fully upgraded, he reaches 920,570 Might, rank 1 of 5 among the game's support heroes. Unlocking him takes 10 shards ( Harper…"
+videoTopic: "heroes"
 lang: ja
 updated: "2026-09-19"
 type: guide

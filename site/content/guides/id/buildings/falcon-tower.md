@@ -1,11 +1,12 @@
 ---
 title: "Falcon Tower: levels, cost and upgrades"
 description: "Falcon Tower opens the world map, chat and scouting, and with them the Falcon Quests that pay for guarding the area. The difficulty of those quests follows the Sanctuary …"
+videoTopic: "buildings"
 lang: id
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1006.png)
+![Menara Raven](/building-icons/1006.png)
 
 
 **Nama resmi:** Menara Raven

@@ -1,11 +1,12 @@
 ---
 title: "Статуя рейнджера: уровни, стоимость и бонус"
 description: "Статуя рейнджера…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5046.png)
+![Статуя рейнджера](/building-icons/5046.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-ranger-statue)).

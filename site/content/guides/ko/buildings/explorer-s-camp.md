@@ -1,11 +1,12 @@
 ---
 title: "Explorer's Camp: levels, cost and upgrades"
 description: "Explorer's Camp opens the Explorer's Dungeon, an eight-hour store that pays up to 1,750,020 hero EXP an hour at the top steps. Survivors posted at the camp additionally w…"
+videoTopic: "buildings"
 lang: ko
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5002.png)
+![탐험가 캠프](/building-icons/5002.png)
 
 
 **공식 명칭:** 탐험가 캠프

@@ -1,11 +1,12 @@
 ---
 title: "Monument: levels, cost and upgrades"
 description: "Monument gathers development milestones, a board of goals whose selection changes from day to day. The goals point to the key activities, from hero recruiting to covert o…"
+videoTopic: "buildings"
 lang: en
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5038.png)
+![Monument](/building-icons/5038.png)
 
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-monument)).

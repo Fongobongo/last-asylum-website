@@ -1,6 +1,7 @@
 ---
-title: "Bell: skills, upgrades and Might"
+title: "Bell: Skills, Build & Leveling"
 description: "Bell is a UR ranger who plays as support. Fully upgraded, she reaches 920,570 Might, rank 2 of 5 among the game's support heroes. Unlocking her takes 10 shards ( Bell Sha…"
+videoTopic: "heroes"
 lang: en
 updated: "2026-09-19"
 type: guide

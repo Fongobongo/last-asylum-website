@@ -1,11 +1,12 @@
 ---
 title: "Squad 2: levels, cost and upgrades"
 description: "Squad 2 adds a second march queue, letting the city run two marches at once: gathering and reinforcing an ally, for instance. The number of free covert-ops dispatches cou…"
+videoTopic: "buildings"
 lang: id
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5014.png)
+![Tim 2](/building-icons/5014.png)
 
 
 **Nama resmi:** Tim 2

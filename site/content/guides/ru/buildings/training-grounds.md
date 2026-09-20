@@ -1,11 +1,12 @@
 ---
 title: "Полигон: уровни, стоимость и прокачка"
 description: "Полигон обучает солдат, и его уровень открывает ярусы войск: четвёртый на десятом уровне, седьмой на двадцатом. Десятый ярус приходит на тридцатом, и одного уровня ему ма…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1020.png)
+![Полигон](/building-icons/1020.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-training-grounds)).

@@ -1,11 +1,12 @@
 ---
 title: "Builder's Hut: levels, cost and upgrades"
 description: "Builder's Hut trims construction with a free completion window: an upgrade shorter than that finishes without a single speedup. The window reaches half an hour at level 3…"
+videoTopic: "buildings"
 lang: id
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5031.png)
+![Rumah Pekerja](/building-icons/5031.png)
 
 
 **Nama resmi:** Rumah Pekerja

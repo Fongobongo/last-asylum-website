@@ -1,11 +1,12 @@
 ---
 title: "Soldier's Rest: levels, cost and upgrades"
 description: "Soldier's Rest saves a share of fallen soldiers, and the share climbs from 18% to 40% before stopping at level 23. Later levels add capacity only. Raising a fallen soldie…"
+videoTopic: "buildings"
 lang: en
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5055.png)
+![Soldier\'s Rest](/building-icons/5055.png)
 
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-soldier-s-rest)).

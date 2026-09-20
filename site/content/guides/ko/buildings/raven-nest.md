@@ -1,11 +1,12 @@
 ---
 title: "Raven Nest: levels, cost and upgrades"
 description: "Raven Nest opens the Raven, the squad's sixth fighter, which strikes the two enemies with the most HP. Part of its stats passes to the heroes. Level 110 is the target, wh…"
+videoTopic: "buildings"
 lang: ko
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5036.png)
+![까마귀 거처](/building-icons/5036.png)
 
 
 **공식 명칭:** 까마귀 거처

@@ -1,11 +1,12 @@
 ---
 title: "Herb Storage: levels, cost and upgrades"
 description: "Herb Storage leaves the raider only the Herb above the protected line, 75 million at level 30, a third of what Grain and Timber get. Herb also comes in slower, which leav…"
+videoTopic: "buildings"
 lang: en
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5025.png)
+![Herb Storage](/building-icons/5025.png)
 
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-herb-storage)).

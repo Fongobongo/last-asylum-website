@@ -1,11 +1,12 @@
 ---
 title: "Barracks: levels, cost and upgrades"
 description: "Barracks sets the Troop Capacity: how many soldiers the territory keeps at all, apart from what the heroes' CMD leads out. A research node opens a fourth Barracks. The bu…"
+videoTopic: "buildings"
 lang: pt
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5006.png)
+![Quartel](/building-icons/5006.png)
 
 
 **Nome oficial:** Quartel

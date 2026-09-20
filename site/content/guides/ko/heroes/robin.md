@@ -1,6 +1,7 @@
 ---
-title: "Robin: skills, upgrades and Might"
+title: "Robin: 스킬, 빌드, 육성"
 description: "Robin is an SR ranger who plays as DPS. Fully upgraded, he reaches 523,779 Might, rank 15 of 16 among the game's DPS heroes. Unlocking him takes 10 shards ( Robin Shard),…"
+videoTopic: "heroes"
 lang: ko
 updated: "2026-09-19"
 type: guide

@@ -1,11 +1,12 @@
 ---
 title: "Monument: levels, cost and upgrades"
 description: "Monument gathers development milestones, a board of goals whose selection changes from day to day. The goals point to the key activities, from hero recruiting to covert o…"
+videoTopic: "buildings"
 lang: es
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5038.png)
+![Monumento](/building-icons/5038.png)
 
 
 **Nombre oficial:** Monumento

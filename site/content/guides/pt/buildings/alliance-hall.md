@@ -1,11 +1,12 @@
 ---
 title: "Alliance Hall: levels, cost and upgrades"
 description: "Alliance Hall collects Alliance Help, where every ally who responds shaves a few seconds off a queue. The hall's level raises both the number of helps and the weight of e…"
+videoTopic: "buildings"
 lang: pt
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1010.png)
+![Salão da Aliança](/building-icons/1010.png)
 
 
 **Nome oficial:** Salão da Aliança

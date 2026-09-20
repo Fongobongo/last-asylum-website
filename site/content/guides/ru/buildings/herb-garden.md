@@ -1,11 +1,12 @@
 ---
 title: "Цветник: уровни, стоимость и прокачка"
 description: "Цветник производит траву, которая расходуется в исследованиях, а добывается на 36% медленнее зерна и древесины. Четвёртый цветник открывается на семь уровней Святилища по…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1019.png)
+![Цветник](/building-icons/1019.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-herb-garden)).

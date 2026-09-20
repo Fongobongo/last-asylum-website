@@ -1,6 +1,7 @@
 ---
-title: "Louis: skills, upgrades and Might"
+title: "Louis : compétences, build et montée"
 description: "Louis is a UR ranger who plays as tank. Fully upgraded, he reaches 1,044,341 Might, rank 4 of 11 among the game's tanks. Unlocking him takes 10 shards ( Louis Shard), and…"
+videoTopic: "heroes"
 lang: fr
 updated: "2026-09-19"
 type: guide

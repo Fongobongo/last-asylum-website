@@ -1,6 +1,7 @@
 ---
-title: "Sivir: skills, upgrades and Might"
+title: "Sivir: 스킬, 빌드, 육성"
 description: "Sivir is an SSR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Might, rank 11 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Sivir Shar…"
+videoTopic: "heroes"
 lang: ko
 updated: "2026-09-19"
 type: guide

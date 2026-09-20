@@ -1,6 +1,7 @@
 ---
-title: "Arthur: skills, upgrades and Might"
+title: "Arthur: skill, build & leveling"
 description: "Arthur is a UR warrior who plays as tank. Fully upgraded, he reaches 1,052,453 Might, rank 3 of 11 among the game's tanks. Unlocking him takes 10 shards ( Arthur Shard), …"
+videoTopic: "heroes"
 lang: id
 updated: "2026-09-19"
 type: guide

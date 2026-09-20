@@ -1,6 +1,7 @@
 ---
-title: "Hastar: skills, upgrades and Might"
+title: "Hastar：スキル・ビルド・育成"
 description: "Hastar is an SSR warlock who plays as tank. Fully upgraded, he reaches 750,047 Might, rank 10 of 11 among the game's tanks. Unlocking him takes 10 shards ( Hastar Shard),…"
+videoTopic: "heroes"
 lang: ja
 updated: "2026-09-19"
 type: guide

@@ -1,11 +1,12 @@
 ---
 title: "Raven Nest: levels, cost and upgrades"
 description: "Raven Nest opens the Raven, the squad's sixth fighter, which strikes the two enemies with the most HP. Part of its stats passes to the heroes. Level 110 is the target, wh…"
+videoTopic: "buildings"
 lang: de
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5036.png)
+![Rabennest](/building-icons/5036.png)
 
 
 **Offizieller Name:** Rabennest

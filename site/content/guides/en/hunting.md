@@ -1,6 +1,7 @@
 ---
 title: "Hunting: targets, Raven Fruit and rallies"
 description: "Hunting the Blight is the main way to spend energy and, with it, the main supply of recruit tickets and Raven Fruit, while rallies on its targets are one of the larger so…"
+videoTopic: "general"
 lang: en
 updated: "2026-09-19"
 type: guide

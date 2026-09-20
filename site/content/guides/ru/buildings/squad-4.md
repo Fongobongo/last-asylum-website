@@ -1,11 +1,12 @@
 ---
 title: "Отряд 4: уровни, стоимость и прокачка"
 description: "Отряд 4 добавляет четвёртую очередь похода, но работает только при активном месячном пропуске. Виден он рано, а без подписки очередь не открывается, и из числа бесплатных…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5016.png)
+![Отряд 4](/building-icons/5016.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-squad-4)).

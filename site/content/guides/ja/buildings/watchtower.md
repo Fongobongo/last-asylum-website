@@ -1,11 +1,12 @@
 ---
 title: "Watchtower: levels, cost and upgrades"
 description: "Watchtower hides intel from enemy scouts, and from level 5 counter-scouting triggers every single time. From level 9 five fields drop out of the enemy report, and neither…"
+videoTopic: "buildings"
 lang: ja
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5049.png)
+![見張り塔](/building-icons/5049.png)
 
 
 **公式名:** 見張り塔

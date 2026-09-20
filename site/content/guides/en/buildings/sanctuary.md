@@ -1,11 +1,12 @@
 ---
 title: "Sanctuary: requirements and time by level"
 description: "Sanctuary sets the hero level cap at five levels per Sanctuary level and adds hero stats on top. Almost every other building demands a Sanctuary no lower than itself, so …"
+videoTopic: "buildings"
 lang: en
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1001.png)
+![Sanctuary](/building-icons/1001.png)
 
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-sanctuary)).

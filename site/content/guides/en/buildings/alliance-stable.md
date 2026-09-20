@@ -1,11 +1,12 @@
 ---
 title: "Alliance Stable: levels, cost and upgrades"
 description: "Alliance Stable assembles the alliance caravan: up to twenty members, six wagons and a locomotive, with a two-hour muster. An alliance caravan can be robbed three times, …"
+videoTopic: "buildings"
 lang: en
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5052.png)
+![Alliance Stable](/building-icons/5052.png)
 
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-alliance-stable)).

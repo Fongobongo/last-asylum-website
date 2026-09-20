@@ -1,11 +1,12 @@
 ---
 title: "Солдатский приют: уровни, стоимость и прокачка"
 description: "Солдатский приют спасает часть павших солдат: доля растёт с 18% до 40% и встаёт на двадцать третьем уровне. Дальше прибавляется только вместимость. Поднять павшего стоит …"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5055.png)
+![Солдатский приют](/building-icons/5055.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-soldier-s-rest)).

@@ -1,11 +1,12 @@
 ---
 title: "Мастерская ворона: уровни и стоимость"
 description: "Мастерская ворона выпускает сундуки снаряжения Ворона первого уровня, из которых собирается снаряжение шестого бойца отряда. Накопление обрывается на сутках, поэтому маст…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5034.png)
+![Мастерская ворона](/building-icons/5034.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-raven-workshop)).

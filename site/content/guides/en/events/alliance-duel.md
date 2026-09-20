@@ -357,3 +357,7 @@ Verified values from game client data (v1.0.87), source: wiki-last-asylum.com. B
 | Training Points | 10 | +50% | 6,350 |
 | Building Points | 10 | +50% | 6,350 |
 | Covert Operation Points | 10 | +50% | 4,520 |
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does the Alliance Duel research tree do?", "acceptedAnswer": {"@type": "Answer", "text": "It multiplies event points (Arena Expert +100%, Arena Master +50%) and unlocks the tier 7–9 chests with top rewards."}}, {"@type": "Question", "name": "What is the single highest-value action in Alliance Duel?", "acceptedAnswer": {"@type": "Answer", "text": "Dispatching a UR trade caravan for 100,000 points on Phases 2 and 6, then a UR covert op for 75,000."}}]}
+</script>

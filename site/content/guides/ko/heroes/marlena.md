@@ -1,6 +1,7 @@
 ---
-title: "Marlena: skills, upgrades and Might"
+title: "Marlena: 스킬, 빌드, 육성"
 description: "Marlena is a UR warrior who plays as DPS. Fully upgraded, she reaches 914,868 Might, rank 4 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Marlena Sha…"
+videoTopic: "marlena"
 lang: ko
 updated: "2026-09-19"
 type: guide

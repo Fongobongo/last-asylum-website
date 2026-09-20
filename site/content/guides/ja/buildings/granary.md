@@ -1,11 +1,12 @@
 ---
 title: "Granary: levels, cost and upgrades"
 description: "Granary shields part of the Grain stock from plunder, keeping 225 million of it safe at level 30. Anything above that line an attacker carries off, so spending the surplu…"
+videoTopic: "buildings"
 lang: ja
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5023.png)
+![食糧倉庫](/building-icons/5023.png)
 
 
 **公式名:** 食糧倉庫

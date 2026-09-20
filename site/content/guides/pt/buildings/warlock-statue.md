@@ -1,11 +1,12 @@
 ---
 title: "Warlock Statue: levels, cost and bonus"
 description: "Warlock Statue…"
+videoTopic: "buildings"
 lang: pt
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5045.png)
+![Estátua do Bruxo](/building-icons/5045.png)
 
 
 **Nome oficial:** Estátua do Bruxo

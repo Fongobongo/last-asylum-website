@@ -1,11 +1,12 @@
 ---
 title: "Farm: levels, cost and upgrades"
 description: "Farm produces Grain, the main resource for recruiting troops and for construction, and stores it inside the building. Output stalls once the store is full, so it is colle…"
+videoTopic: "buildings"
 lang: id
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1016.png)
+![Peternakan](/building-icons/1016.png)
 
 
 **Nama resmi:** Peternakan

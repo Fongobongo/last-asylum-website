@@ -1,11 +1,12 @@
 ---
 title: "Soldier's Rest: levels, cost and upgrades"
 description: "Soldier's Rest saves a share of fallen soldiers, and the share climbs from 18% to 40% before stopping at level 23. Later levels add capacity only. Raising a fallen soldie…"
+videoTopic: "buildings"
 lang: ko
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5055.png)
+![병사 휴식소](/building-icons/5055.png)
 
 
 **공식 명칭:** 병사 휴식소

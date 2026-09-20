@@ -1,11 +1,12 @@
 ---
 title: "Private Stable: levels, cost and upgrades"
 description: "Private Stable sends out personal caravans with resources, where cart quality matters more than the number of runs. The gap between the first and sixth quality is sixfold…"
+videoTopic: "buildings"
 lang: id
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5051.png)
+![Kandang Pribadi](/building-icons/5051.png)
 
 
 **Nama resmi:** Kandang Pribadi

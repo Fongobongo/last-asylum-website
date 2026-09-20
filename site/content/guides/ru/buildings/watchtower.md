@@ -1,11 +1,12 @@
 ---
 title: "Сторожевая башня: уровни, стоимость и прокачка"
 description: "Сторожевая башня прячет сведения от чужой разведки: с пятого уровня контрразведка срабатывает всегда. С девятого из отчёта противника пропадает пять полей, дальше это не …"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5049.png)
+![Сторожевая башня](/building-icons/5049.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-watchtower)).

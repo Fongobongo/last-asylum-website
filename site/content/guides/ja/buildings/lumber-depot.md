@@ -1,11 +1,12 @@
 ---
 title: "Lumber Depot: levels, cost and upgrades"
 description: "Lumber Depot keeps part of the Timber stock out of a raider's hands: 225 million at level 30, reached after 299 days of building. Construction eats Timber faster than any…"
+videoTopic: "buildings"
 lang: ja
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5024.png)
+![木材倉庫](/building-icons/5024.png)
 
 
 **公式名:** 木材倉庫

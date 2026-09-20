@@ -1,11 +1,12 @@
 ---
 title: "Мастерская противоядий: уровни и стоимость"
 description: "Мастерская противоядий производит противоядие: 259 666 единиц в час на тридцатом уровне, больше любого добывающего здания. Склада для противоядия не существует, поэтому в…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1027.png)
+![Мастерская противоядий](/building-icons/1027.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-antitoxin-workshop)).

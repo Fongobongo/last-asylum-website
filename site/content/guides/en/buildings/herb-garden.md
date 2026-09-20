@@ -1,11 +1,12 @@
 ---
 title: "Herb Garden: levels, cost and upgrades"
 description: "Herb Garden produces Herb, the resource research burns through, and it comes in 36% slower than Grain and Timber. A fourth Herb Garden opens seven Sanctuary levels later …"
+videoTopic: "buildings"
 lang: en
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1019.png)
+![Herb Garden](/building-icons/1019.png)
 
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-herb-garden)).

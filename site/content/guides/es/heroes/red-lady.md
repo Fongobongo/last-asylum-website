@@ -1,6 +1,7 @@
 ---
-title: "Red Lady: skills, upgrades and Might"
+title: "Red Lady: habilidades, build y subida"
 description: "Red Lady is a UR ranger who plays as DPS. Fully upgraded, she reaches 913,583 Might, rank 5 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Red Lady Sh…"
+videoTopic: "heroes"
 lang: es
 updated: "2026-09-19"
 type: guide

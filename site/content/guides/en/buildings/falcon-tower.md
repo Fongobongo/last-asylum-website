@@ -1,11 +1,12 @@
 ---
 title: "Falcon Tower: levels, cost and upgrades"
 description: "Falcon Tower opens the world map, chat and scouting, and with them the Falcon Quests that pay for guarding the area. The difficulty of those quests follows the Sanctuary …"
+videoTopic: "buildings"
 lang: en
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1006.png)
+![Falcon Tower](/building-icons/1006.png)
 
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-falcon-tower)).

@@ -1,11 +1,12 @@
 ---
 title: "Walls: levels, cost and upgrades"
 description: "Walls protect the city with defense strength an attacker has to break through, and hold the defending troop. The squad assigned there meets the assault. The strength reco…"
+videoTopic: "buildings"
 lang: ko
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1002.png)
+![성벽](/building-icons/1002.png)
 
 
 **공식 명칭:** 성벽

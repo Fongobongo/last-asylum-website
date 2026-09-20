@@ -1,11 +1,12 @@
 ---
 title: "Squad 4: levels, cost and upgrades"
 description: "Squad 4 adds a fourth march queue, which works only while the monthly pass subscription is active. It appears early, yet without the subscription the queue stays shut and…"
+videoTopic: "buildings"
 lang: es
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5016.png)
+![Escuadrón 4](/building-icons/5016.png)
 
 
 **Nombre oficial:** Escuadrón 4

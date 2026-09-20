@@ -1,6 +1,7 @@
 ---
 title: "Treasure Maps"
 description: "A treasure map is assembled from 7 distinct fragments, and until all of them are collected the expedition cannot start. Fragments drop from Falcon Quests and other activi…"
+videoTopic: "treasure"
 lang: en
 updated: "2026-09-19"
 type: guide

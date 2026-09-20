@@ -1,11 +1,12 @@
 ---
 title: "Храм: уровни, стоимость и прокачка"
 description: "Храм занимает в городе площадку трёх статуй фракций и служит входом к каждой из них. Пока статуя воина, колдуна или рейнджера не построена, обращение к ней приводит к хра…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5053.png)
+![Храм](/building-icons/5053.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-temple)).

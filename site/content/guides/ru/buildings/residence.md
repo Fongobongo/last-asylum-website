@@ -1,11 +1,12 @@
 ---
 title: "Резиденция: уровни, стоимость и прокачка"
 description: "Резиденция открывает панель выживших: 383 персонажа, которых собирают осколками и ставят в постройки ради бонусов. Легендарный выживший на максимуме звёзд даёт вдвое боль…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5021.png)
+![Резиденция](/building-icons/5021.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-residence)).

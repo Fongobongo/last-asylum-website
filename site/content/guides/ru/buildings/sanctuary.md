@@ -1,11 +1,12 @@
 ---
 title: "Святилище: требования и время по уровням"
 description: "Святилище задаёт максимальный уровень героев, равный пяти уровням Святилища, и добавляет им характеристики. Почти каждая постройка требует Святилище не ниже своего уровня…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1001.png)
+![Святилище](/building-icons/1001.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-sanctuary)).

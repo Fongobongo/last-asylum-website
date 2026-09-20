@@ -1,11 +1,12 @@
 ---
 title: "Казарма: уровни, стоимость и прокачка"
 description: "Казарма задаёт лимит войска: сколько солдат территория содержит вообще, независимо от лидерства героев. Четвёртую казарму открывает узел исследований. Постройка открывает…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5006.png)
+![Казарма](/building-icons/5006.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-barracks)).

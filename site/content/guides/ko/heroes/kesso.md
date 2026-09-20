@@ -1,6 +1,7 @@
 ---
-title: "Kesso: skills, upgrades and Might"
+title: "Kesso: 스킬, 빌드, 육성"
 description: "Kesso is an SSR warrior who plays as DPS. Fully upgraded, he reaches 686,515 Might, rank 8 of 16 among the game's DPS heroes. Unlocking him takes 10 shards ( Kesso Shard)…"
+videoTopic: "heroes"
 lang: ko
 updated: "2026-09-19"
 type: guide

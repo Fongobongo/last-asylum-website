@@ -1,6 +1,7 @@
 ---
-title: "Celia: skills, upgrades and Might"
+title: "Celia : compétences, build et montée"
 description: "Celia is an SSR warrior who plays as support. Fully upgraded, she reaches 691,655 Might, rank 5 of 5 among the game's support heroes. Unlocking her takes 10 shards ( Celi…"
+videoTopic: "heroes"
 lang: fr
 updated: "2026-09-19"
 type: guide

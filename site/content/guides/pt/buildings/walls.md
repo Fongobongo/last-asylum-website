@@ -1,11 +1,12 @@
 ---
 title: "Walls: levels, cost and upgrades"
 description: "Walls protect the city with defense strength an attacker has to break through, and hold the defending troop. The squad assigned there meets the assault. The strength reco…"
+videoTopic: "buildings"
 lang: pt
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1002.png)
+![Muralhas](/building-icons/1002.png)
 
 
 **Nome oficial:** Muralhas

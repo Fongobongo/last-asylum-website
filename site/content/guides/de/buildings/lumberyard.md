@@ -1,11 +1,12 @@
 ---
 title: "Lumberyard: levels, cost and upgrades"
 description: "Lumberyard produces Timber, the resource that construction consumes in larger amounts than any other. Output accumulates in the building and stalls when the store fills, …"
+videoTopic: "buildings"
 lang: de
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1017.png)
+![Sägewerk](/building-icons/1017.png)
 
 
 **Offizieller Name:** Sägewerk

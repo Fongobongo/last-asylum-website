@@ -1,6 +1,7 @@
 ---
 title: "Campaign: Might per level and hero experience"
 description: "The campaign works as a source of passive income rather than as a story mode. Every level cleared permanently raises idle output, and it grows by multiples instead of inc…"
+videoTopic: "general"
 lang: en
 updated: "2026-09-19"
 type: guide

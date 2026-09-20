@@ -1,11 +1,12 @@
 ---
 title: "Отряд 2: уровни, стоимость и прокачка"
 description: "Отряд 2 добавляет вторую очередь похода, и город ведёт два марша сразу: сбор ресурсов и подкрепление союзнику. Число бесплатных отправок секретных операций тоже считается…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5014.png)
+![Отряд 2](/building-icons/5014.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-squad-2)).

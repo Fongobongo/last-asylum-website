@@ -1,11 +1,12 @@
 ---
 title: "Antitoxin Workshop: levels, cost and upgrades"
 description: "Antitoxin Workshop produces Antitoxin, and at level 30 yields 259,666 an hour, more than any other production building. No storehouse exists for Antitoxin, so an attacker…"
+videoTopic: "buildings"
 lang: es
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1027.png)
+![Taller de antitoxinas](/building-icons/1027.png)
 
 
 **Nombre oficial:** Taller de antitoxinas

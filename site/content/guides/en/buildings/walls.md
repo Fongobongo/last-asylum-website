@@ -1,11 +1,12 @@
 ---
 title: "Walls: levels, cost and upgrades"
 description: "Walls protect the city with defense strength an attacker has to break through, and hold the defending troop. The squad assigned there meets the assault. The strength reco…"
+videoTopic: "buildings"
 lang: en
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1002.png)
+![Walls](/building-icons/1002.png)
 
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-walls)).

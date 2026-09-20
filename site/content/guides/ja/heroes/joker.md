@@ -1,6 +1,7 @@
 ---
-title: "Joker: skills, upgrades and Might"
+title: "Joker：スキル・ビルド・育成"
 description: "Joker is a UR warlock who plays as DPS. Fully upgraded, he reaches 913,583 Might, rank 6 of 16 among the game's DPS heroes. Unlocking him takes 10 shards ( Joker Shard), …"
+videoTopic: "heroes"
 lang: ja
 updated: "2026-09-19"
 type: guide

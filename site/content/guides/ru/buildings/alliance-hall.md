@@ -1,11 +1,12 @@
 ---
 title: "Зал альянса: уровни, стоимость и прокачка"
 description: "Зал альянса принимает помощь альянса: каждый союзник снимает с очереди несколько секунд. Уровень зала увеличивает и число помощей, и вес каждой. Помощь работает только дл…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1010.png)
+![Зал альянса](/building-icons/1010.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-alliance-hall)).

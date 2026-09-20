@@ -1,11 +1,12 @@
 ---
 title: "Ranger Statue: levels, cost and bonus"
 description: "Ranger Statue…"
+videoTopic: "buildings"
 lang: ko
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5046.png)
+![레인저 조각상](/building-icons/5046.png)
 
 
 **공식 명칭:** 레인저 조각상

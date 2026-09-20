@@ -1,11 +1,12 @@
 ---
 title: "2nd Workbench: levels, cost and upgrades"
 description: "2nd Workbench adds a second research queue, so two technology nodes make progress at the same time. It requires no subscription, and its level adds research speed exactly…"
+videoTopic: "buildings"
 lang: en
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5047.png)
+![2nd Workbench](/building-icons/5047.png)
 
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-2nd-workbench)).

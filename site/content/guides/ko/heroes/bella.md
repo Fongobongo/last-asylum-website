@@ -1,6 +1,7 @@
 ---
-title: "Bella: skills, upgrades and Might"
+title: "Bella: 스킬, 빌드, 육성"
 description: "Bella is an SSR warrior who plays as tank. Fully upgraded, she reaches 773,500 Might, rank 8 of 11 among the game's tanks. Unlocking her takes 10 shards ( Bella Shard), a…"
+videoTopic: "heroes"
 lang: ko
 updated: "2026-09-19"
 type: guide

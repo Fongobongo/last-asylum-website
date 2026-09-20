@@ -1,11 +1,12 @@
 ---
 title: "Ranger Statue: levels, cost and bonus"
 description: "Ranger Statue…"
+videoTopic: "buildings"
 lang: de
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5046.png)
+![Ranger-Statue](/building-icons/5046.png)
 
 
 **Offizieller Name:** Ranger-Statue

@@ -1,11 +1,12 @@
 ---
 title: "Warrior Statue: levels, cost and bonus"
 description: "Warrior Statue…"
+videoTopic: "buildings"
 lang: es
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5044.png)
+![Estatua del guerrero](/building-icons/5044.png)
 
 
 **Nombre oficial:** Estatua del guerrero

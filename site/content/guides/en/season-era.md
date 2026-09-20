@@ -1,6 +1,7 @@
 ---
 title: "Era of Revival: what stays open, heroes by week and start"
 description: "The Era of Revival runs for 56 days, and a new one is announced 5 days before it starts. The game calls it the Era of Revival, and players shorten it to the Era or the Ag…"
+videoTopic: "era"
 lang: en
 updated: "2026-09-19"
 type: guide

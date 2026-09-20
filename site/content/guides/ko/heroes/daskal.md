@@ -1,6 +1,7 @@
 ---
-title: "Daskal: skills, upgrades and Might"
+title: "Daskal: 스킬, 빌드, 육성"
 description: "Daskal is a UR warrior who plays as tank. Fully upgraded, he reaches 1,057,192 Might, rank 2 of 11 among the game's tanks. Unlocking him takes 10 shards ( Daskal Shard), …"
+videoTopic: "heroes"
 lang: ko
 updated: "2026-09-19"
 type: guide

@@ -1,11 +1,12 @@
 ---
 title: "Herb Storage: levels, cost and upgrades"
 description: "Herb Storage leaves the raider only the Herb above the protected line, 75 million at level 30, a third of what Grain and Timber get. Herb also comes in slower, which leav…"
+videoTopic: "buildings"
 lang: pt
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5025.png)
+![Botica](/building-icons/5025.png)
 
 
 **Nome oficial:** Botica

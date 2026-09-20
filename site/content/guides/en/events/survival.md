@@ -204,3 +204,7 @@ Verified values from game client data (v1.0.87), source: wiki-last-asylum.com. B
 | 3 | Curio Chest (SR) x1, Grain Level Supply (SR) x12, Timber Level Supply (SR) x12 |
 | 4-5 | Grain Level Supply (SR) x6, Timber Level Supply (SR) x6, Herb Level Supply (SR) x6 |
 | 6-20 | Grain Level Supply (SR) x3, Timber Level Supply (SR) x3, Herb Level Supply (SR) x3 |
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How long is each Survival Battle phase?", "acceptedAnswer": {"@type": "Answer", "text": "Each phase lasts 4 hours; there are five themed phases: heroes, territory, troops, tech and raven."}}, {"@type": "Question", "name": "When are troop training points awarded?", "acceptedAnswer": {"@type": "Answer", "text": "The moment you press Train/Promote and resources are deducted — not when the timer finishes."}}]}
+</script>

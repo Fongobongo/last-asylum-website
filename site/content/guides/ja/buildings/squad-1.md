@@ -1,11 +1,12 @@
 ---
 title: "Squad 1: levels, cost and upgrades"
 description: "Squad 1 opens the first march queue, and without that queue no troops leave the city at all. Idle income depends on the same building, and its level adds march speed to t…"
+videoTopic: "buildings"
 lang: ja
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5013.png)
+![小隊1](/building-icons/5013.png)
 
 
 **公式名:** 小隊1

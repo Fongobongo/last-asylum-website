@@ -1,11 +1,12 @@
 ---
 title: "2nd Workbench: levels, cost and upgrades"
 description: "2nd Workbench adds a second research queue, so two technology nodes make progress at the same time. It requires no subscription, and its level adds research speed exactly…"
+videoTopic: "buildings"
 lang: id
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5047.png)
+![Meja Kerja ke-2](/building-icons/5047.png)
 
 
 **Nama resmi:** Meja Kerja ke-2

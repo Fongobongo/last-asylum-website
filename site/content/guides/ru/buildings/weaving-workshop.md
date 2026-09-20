@@ -1,11 +1,12 @@
 ---
 title: "Ткацкая мастерская: уровни и стоимость"
 description: "Ткацкая мастерская производит ткань, самый простой из пяти материалов для ковки снаряжения. Материалы обмениваются четыре к одному в обе стороны без потерь, поэтому одна …"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5043.png)
+![Ткацкая мастерская](/building-icons/5043.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-weaving-workshop)).

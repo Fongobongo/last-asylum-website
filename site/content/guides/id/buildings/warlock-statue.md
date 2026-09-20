@@ -1,11 +1,12 @@
 ---
 title: "Warlock Statue: levels, cost and bonus"
 description: "Warlock Statue…"
+videoTopic: "buildings"
 lang: id
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5045.png)
+![Patung Warlock](/building-icons/5045.png)
 
 
 **Nama resmi:** Patung Warlock

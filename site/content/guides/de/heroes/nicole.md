@@ -1,6 +1,7 @@
 ---
-title: "Nicole: skills, upgrades and Might"
+title: "Nicole: Skills, Build & Leveling"
 description: "Nicole is a UR warlock who plays as support. Fully upgraded, she reaches 920,570 Might, rank 3 of 5 among the game's support heroes. Unlocking her takes 10 shards ( Nicol…"
+videoTopic: "heroes"
 lang: de
 updated: "2026-09-19"
 type: guide

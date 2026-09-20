@@ -1,11 +1,12 @@
 ---
 title: "Лесопилка: уровни, стоимость и прокачка"
 description: "Лесопилка производит древесину, которой в строительстве расходуется больше всего. Продукция копится в здании и простаивает при полном накопителе, а пятая лесопилка открыв…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1017.png)
+![Лесопилка](/building-icons/1017.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-lumberyard)).

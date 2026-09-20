@@ -1,6 +1,7 @@
 ---
 title: "Era Pass"
 description: "The Era Pass is a season battle pass of 50 levels, the last of which opens at 35,000 points. Points come from 40 pass tasks, 7 of them refreshing every day and worth 1,10…"
+videoTopic: "era"
 lang: en
 updated: "2026-09-19"
 type: guide

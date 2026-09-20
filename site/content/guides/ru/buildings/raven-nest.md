@@ -1,11 +1,12 @@
 ---
 title: "Гнездо ворона: уровни, стоимость и прокачка"
 description: "Гнездо ворона открывает ворона, шестого бойца отряда: он бьёт по двум противникам с наибольшим здоровьем. Часть своих характеристик ворон отдаёт героям. Целиться стоит в …"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5036.png)
+![Гнездо ворона](/building-icons/5036.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-raven-nest)).

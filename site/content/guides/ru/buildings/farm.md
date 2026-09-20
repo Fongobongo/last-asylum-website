@@ -1,11 +1,12 @@
 ---
 title: "Ферма: уровни, стоимость и прокачка"
 description: "Ферма производит зерно, основной ресурс найма войск и строительства, и копит его в самом здании. Производство простаивает, когда накопитель полон, поэтому зерно забирают …"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1016.png)
+![Ферма](/building-icons/1016.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-farm)).

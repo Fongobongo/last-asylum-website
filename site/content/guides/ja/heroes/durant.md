@@ -1,6 +1,7 @@
 ---
-title: "Durant: skills, upgrades and Might"
+title: "Durant：スキル・ビルド・育成"
 description: "Durant is an SR warrior who plays as tank. Fully upgraded, he reaches 596,226 Might, rank 11 of 11 among the game's tanks. Unlocking him takes 10 shards ( Durant Shard), …"
+videoTopic: "heroes"
 lang: ja
 updated: "2026-09-19"
 type: guide

@@ -1,11 +1,12 @@
 ---
 title: "Builder's Hut: levels, cost and upgrades"
 description: "Builder's Hut trims construction with a free completion window: an upgrade shorter than that finishes without a single speedup. The window reaches half an hour at level 3…"
+videoTopic: "buildings"
 lang: en
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5031.png)
+![Builder\'s Hut](/building-icons/5031.png)
 
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-builder-s-hut)).

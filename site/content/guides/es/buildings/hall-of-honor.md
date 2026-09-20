@@ -1,11 +1,12 @@
 ---
 title: "Hall of Honor: levels, cost and upgrades"
 description: "Hall of Honor stands as a memorial and takes no part in hero progression, since Honor levels are opened by the faction statues. The Honor screen is entered through those …"
+videoTopic: "buildings"
 lang: es
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5054.png)
+![Salón de honor](/building-icons/5054.png)
 
 
 **Nombre oficial:** Salón de honor

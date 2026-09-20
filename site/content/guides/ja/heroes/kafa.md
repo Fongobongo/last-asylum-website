@@ -1,6 +1,7 @@
 ---
-title: "Kafa: skills, upgrades and Might"
+title: "Kafa：スキル・ビルド・育成"
 description: "Kafa is an SR warlock who plays as DPS. Fully upgraded, she reaches 523,217 Might, rank 16 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Kafa Shard),…"
+videoTopic: "heroes"
 lang: ja
 updated: "2026-09-19"
 type: guide

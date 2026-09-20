@@ -1,11 +1,12 @@
 ---
 title: "Монумент: уровни, стоимость и прокачка"
 description: "Монумент собирает вехи развития: подборку целей, которая меняется изо дня в день. Цели ведут к ключевым занятиям вроде найма героев, секретных операций и штурмов. Построй…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5038.png)
+![Монумент](/building-icons/5038.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-monument)).

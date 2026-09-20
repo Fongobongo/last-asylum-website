@@ -1,11 +1,12 @@
 ---
 title: "Residence: levels, cost and upgrades"
 description: "Residence opens the survivor panel: 383 characters collected with shards and posted around the territory for their bonuses. A legendary survivor at full stars gives twice…"
+videoTopic: "buildings"
 lang: en
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5021.png)
+![Residence](/building-icons/5021.png)
 
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-residence)).

@@ -1,11 +1,12 @@
 ---
 title: "Исследовательская лаборатория: уровни"
 description: "Исследовательская лаборатория ведёт исследования: 348 узлов дерева технологий, от добычи и строительства до боевых прибавок всей армии. Святилище с одиннадцатого уровня т…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1007.png)
+![Исследовательская лаборатория](/building-icons/1007.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-research-lab)).

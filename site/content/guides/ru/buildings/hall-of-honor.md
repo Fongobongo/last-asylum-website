@@ -1,11 +1,12 @@
 ---
 title: "Зал чести: уровни, стоимость и прокачка"
 description: "Зал чести стоит в городе памятником и в развитие героев не вмешивается: уровни чести открывают статуи фракций. Вход на экран чести идёт через сами статуи, а не через зал.…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5054.png)
+![Зал чести](/building-icons/5054.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-hall-of-honor)).

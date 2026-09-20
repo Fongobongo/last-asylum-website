@@ -1,11 +1,12 @@
 ---
 title: "Хижина строителя: уровни, стоимость и прокачка"
 description: "Хижина строителя сокращает стройку бесплатным окном: улучшение короче этого времени завершается без ускорений. На тридцатом уровне окно доходит до получаса. Через хижину …"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5031.png)
+![Хижина строителя](/building-icons/5031.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-builder-s-hut)).

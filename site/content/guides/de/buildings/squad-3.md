@@ -1,11 +1,12 @@
 ---
 title: "Squad 3: levels, cost and upgrades"
 description: "Squad 3 adds a third march queue, and it opens much later than any of the other squad buildings. Every queue works every day, so over a long run it returns more than a on…"
+videoTopic: "buildings"
 lang: de
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5015.png)
+![Truppe 3](/building-icons/5015.png)
 
 
 **Offizieller Name:** Truppe 3

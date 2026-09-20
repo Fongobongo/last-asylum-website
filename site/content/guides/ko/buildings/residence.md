@@ -1,11 +1,12 @@
 ---
 title: "Residence: levels, cost and upgrades"
 description: "Residence opens the survivor panel: 383 characters collected with shards and posted around the territory for their bonuses. A legendary survivor at full stars gives twice…"
+videoTopic: "buildings"
 lang: ko
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5021.png)
+![민가](/building-icons/5021.png)
 
 
 **공식 명칭:** 민가

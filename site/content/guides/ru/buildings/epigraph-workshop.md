@@ -1,11 +1,12 @@
 ---
 title: "Мастерская эпиграфов: уровни и стоимость"
 description: "Мастерская эпиграфов создаёт эпиграфы, которые вставляются в чертёж ворона и усиливают его навык. Высший ранг требует двадцатого уровня мастерской и 800 фрагментов, причё…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5035.png)
+![Мастерская эпиграфов](/building-icons/5035.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-epigraph-workshop)).

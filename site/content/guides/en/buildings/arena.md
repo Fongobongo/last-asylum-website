@@ -1,11 +1,12 @@
 ---
 title: "Arena: levels, cost and upgrades"
 description: "Arena opens one-on-one duels and the arena shop, where a season placement pays diamonds and skill badges. The Might of the training bots shows the price of climbing: betw…"
+videoTopic: "buildings"
 lang: en
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5010.png)
+![Arena](/building-icons/5010.png)
 
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-arena)).

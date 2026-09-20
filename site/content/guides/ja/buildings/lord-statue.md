@@ -1,11 +1,12 @@
 ---
 title: "Lord Statue: levels, cost and upgrades"
 description: "Lord Statue opens the Lord's specialization: forty levels that raise virus resistance EXP per hour. There are also 44 active skills such as instant research, on cooldowns…"
+videoTopic: "buildings"
 lang: ja
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5056.png)
+![領主彫像](/building-icons/5056.png)
 
 
 **公式名:** 領主彫像

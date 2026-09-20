@@ -1,11 +1,12 @@
 ---
 title: "Sanctuary: requirements and time by level"
 description: "Sanctuary sets the hero level cap at five levels per Sanctuary level and adds hero stats on top. Almost every other building demands a Sanctuary no lower than itself, so …"
+videoTopic: "buildings"
 lang: id
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1001.png)
+![Kuil](/building-icons/1001.png)
 
 
 **Nama resmi:** Kuil

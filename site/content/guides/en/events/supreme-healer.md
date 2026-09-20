@@ -219,3 +219,7 @@ flowchart TD
 * Keep 2–3 cheap, basic technologies (5–15 minute base research time) unresearched in your Lab.
 * If you are 200–400 points short of Gold Chest #3 in a 4-hour Survival Battle block, start one of these quick techs and complete it with free alliance help clicks.
 * **Net Result:** Clear the Gold Chest for free, preserve your speedups, and bank **up to 60,000 free Skill Badges** every week! For deep dives, check out the [Survival Battle Guide](/events/survival/) and [Alliance Duel Guide](/events/alliance-duel/).
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What level unlocks Supreme Healer?", "acceptedAnswer": {"@type": "Answer", "text": "It unlocks at Sanctuary level 6 and on new servers starts on the second Monday, running 7 consecutive days."}}, {"@type": "Question", "name": "Which days score Falcon missions in Supreme Healer?", "acceptedAnswer": {"@type": "Answer", "text": "Falcon missions give 1,000 points on Days 1, 3, 5 and 7. Days 2, 4 and 6 award nothing for them."}}, {"@type": "Question", "name": "How does antitoxin score in Supreme Healer?", "acceptedAnswer": {"@type": "Answer", "text": "1 point per 660 antitoxin spent leveling up heroes, on Days 4 and 7."}}]}
+</script>

@@ -1,11 +1,12 @@
 ---
 title: "Research Lab: levels, cost and upgrades"
 description: "Research Lab runs research: 348 nodes covering economy, troops and heroes, with combat branches that lift the whole army at once. From level 11 the Sanctuary demands a Re…"
+videoTopic: "buildings"
 lang: ko
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1007.png)
+![연구실](/building-icons/1007.png)
 
 
 **공식 명칭:** 연구실

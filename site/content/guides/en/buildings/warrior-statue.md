@@ -1,11 +1,12 @@
 ---
 title: "Warrior Statue: levels, cost and bonus"
 description: "Warrior Statue…"
+videoTopic: "buildings"
 lang: en
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5044.png)
+![Warrior Statue](/building-icons/5044.png)
 
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-warrior-statue)).

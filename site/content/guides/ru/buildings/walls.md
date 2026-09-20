@@ -1,11 +1,12 @@
 ---
 title: "Стены: уровни, стоимость и прокачка"
 description: "Стены защищают город прочностью, которую нападающий ломает при штурме, и хранят войско обороны. Назначенный в них отряд встречает атаку. Прочность восстанавливается сама,…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1002.png)
+![Стены](/building-icons/1002.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-walls)).

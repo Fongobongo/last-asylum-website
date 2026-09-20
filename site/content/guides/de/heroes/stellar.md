@@ -1,6 +1,7 @@
 ---
-title: "Stellar: skills, upgrades and Might"
+title: "Stellar: Skills, Build & Leveling"
 description: "Stellar is an SSR warlock who plays as support. Fully upgraded, she reaches 695,511 Might, rank 4 of 5 among the game's support heroes. Unlocking her takes 10 shards ( St…"
+videoTopic: "heroes"
 lang: de
 updated: "2026-09-19"
 type: guide

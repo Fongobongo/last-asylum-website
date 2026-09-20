@@ -1,11 +1,12 @@
 ---
 title: "Ranger Statue: levels, cost and bonus"
 description: "Ranger Statue…"
+videoTopic: "buildings"
 lang: fr
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5046.png)
+![Statue de rôdeur](/building-icons/5046.png)
 
 
 **Nom officiel:** Statue de rôdeur

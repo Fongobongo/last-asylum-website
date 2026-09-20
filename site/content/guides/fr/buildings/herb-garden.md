@@ -1,11 +1,12 @@
 ---
 title: "Herb Garden: levels, cost and upgrades"
 description: "Herb Garden produces Herb, the resource research burns through, and it comes in 36% slower than Grain and Timber. A fourth Herb Garden opens seven Sanctuary levels later …"
+videoTopic: "buildings"
 lang: fr
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1019.png)
+![Jardin d\'herbes](/building-icons/1019.png)
 
 
 **Nom officiel:** Jardin d\'herbes

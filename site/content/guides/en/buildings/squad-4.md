@@ -1,11 +1,12 @@
 ---
 title: "Squad 4: levels, cost and upgrades"
 description: "Squad 4 adds a fourth march queue, which works only while the monthly pass subscription is active. It appears early, yet without the subscription the queue stays shut and…"
+videoTopic: "buildings"
 lang: en
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5016.png)
+![Squad 4](/building-icons/5016.png)
 
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-squad-4)).

@@ -1,11 +1,12 @@
 ---
 title: "Curio Hall: levels, cost and upgrades"
 description: "Curio Hall shows the Curio collection: 31 artifact structures with permanent bonuses, raised with shards. Several Curios repeat each other in numbers, and five different …"
+videoTopic: "buildings"
 lang: fr
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5039.png)
+![Salle de curiosités](/building-icons/5039.png)
 
 
 **Nom officiel:** Salle de curiosités

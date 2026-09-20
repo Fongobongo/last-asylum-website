@@ -1,11 +1,12 @@
 ---
 title: "Warlock Statue: levels, cost and bonus"
 description: "Warlock Statue…"
+videoTopic: "buildings"
 lang: ko
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5045.png)
+![마법사 조각상](/building-icons/5045.png)
 
 
 **공식 명칭:** 마법사 조각상

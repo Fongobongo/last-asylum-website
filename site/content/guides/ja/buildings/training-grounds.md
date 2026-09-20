@@ -1,11 +1,12 @@
 ---
 title: "Training Grounds: levels, cost and upgrades"
 description: "Training Grounds trains soldiers, and its level unlocks the troop tiers: T4 at level 10, T7 at 20, T10 at 30. The last tier needs more than level 30, since the technology…"
+videoTopic: "buildings"
 lang: ja
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1020.png)
+![訓練場](/building-icons/1020.png)
 
 
 **公式名:** 訓練場

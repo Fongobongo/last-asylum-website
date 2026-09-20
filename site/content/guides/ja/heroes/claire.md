@@ -1,6 +1,7 @@
 ---
-title: "Claire: skills, upgrades and Might"
+title: "Claire：スキル・ビルド・育成"
 description: "Claire is an SSR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Might, rank 12 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Claire Sh…"
+videoTopic: "claire"
 lang: ja
 updated: "2026-09-19"
 type: guide

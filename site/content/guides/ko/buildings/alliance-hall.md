@@ -1,11 +1,12 @@
 ---
 title: "Alliance Hall: levels, cost and upgrades"
 description: "Alliance Hall collects Alliance Help, where every ally who responds shaves a few seconds off a queue. The hall's level raises both the number of helps and the weight of e…"
+videoTopic: "buildings"
 lang: ko
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1010.png)
+![길드 연락소](/building-icons/1010.png)
 
 
 **공식 명칭:** 길드 연락소

@@ -1,11 +1,12 @@
 ---
 title: "Статуя лорда: уровни, стоимость и прокачка"
 description: "Статуя лорда открывает специализацию лорда: сорок уровней, которые качают производство опыта сопротивления вирусу. Сюда же входят 44 активных навыка вроде мгновенного исс…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5056.png)
+![Статуя лорда](/building-icons/5056.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-lord-statue)).

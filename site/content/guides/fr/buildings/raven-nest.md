@@ -1,11 +1,12 @@
 ---
 title: "Raven Nest: levels, cost and upgrades"
 description: "Raven Nest opens the Raven, the squad's sixth fighter, which strikes the two enemies with the most HP. Part of its stats passes to the heroes. Level 110 is the target, wh…"
+videoTopic: "buildings"
 lang: fr
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5036.png)
+![Nid du corbeau](/building-icons/5036.png)
 
 
 **Nom officiel:** Nid du corbeau

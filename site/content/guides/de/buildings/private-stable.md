@@ -1,11 +1,12 @@
 ---
 title: "Private Stable: levels, cost and upgrades"
 description: "Private Stable sends out personal caravans with resources, where cart quality matters more than the number of runs. The gap between the first and sixth quality is sixfold…"
+videoTopic: "buildings"
 lang: de
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5051.png)
+![Privater Stall](/building-icons/5051.png)
 
 
 **Offizieller Name:** Privater Stall

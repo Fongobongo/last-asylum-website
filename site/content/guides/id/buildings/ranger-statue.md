@@ -1,11 +1,12 @@
 ---
 title: "Ranger Statue: levels, cost and bonus"
 description: "Ranger Statue…"
+videoTopic: "buildings"
 lang: id
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5046.png)
+![Patung Ranger](/building-icons/5046.png)
 
 
 **Nama resmi:** Patung Ranger

@@ -1,11 +1,12 @@
 ---
 title: "2-й верстак: уровни, стоимость и прокачка"
 description: "2-й верстак добавляет вторую очередь исследований, и дерево технологий изучается двумя узлами одновременно. Подписки постройка не требует, а её уровень прибавляет скорост…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5047.png)
+![2-й верстак](/building-icons/5047.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-2nd-workbench)).

@@ -1,11 +1,12 @@
 ---
 title: "Lord Statue: levels, cost and upgrades"
 description: "Lord Statue opens the Lord's specialization: forty levels that raise virus resistance EXP per hour. There are also 44 active skills such as instant research, on cooldowns…"
+videoTopic: "buildings"
 lang: en
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5056.png)
+![Lord Statue](/building-icons/5056.png)
 
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-lord-statue)).

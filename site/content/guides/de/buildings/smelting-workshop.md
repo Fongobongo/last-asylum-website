@@ -1,11 +1,12 @@
 ---
 title: "Smelting Workshop: levels, cost and upgrades"
 description: "Smelting Workshop produces Gearstones, the material that every step of strengthening hero gear consumes. Output stores for up to twelve hours, so the workshops are collec…"
+videoTopic: "buildings"
 lang: de
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5042.png)
+![Schmelzwerkstatt](/building-icons/5042.png)
 
 
 **Offizieller Name:** Schmelzwerkstatt

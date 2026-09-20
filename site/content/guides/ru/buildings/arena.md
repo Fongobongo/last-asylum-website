@@ -1,11 +1,12 @@
 ---
 title: "Арена: уровни, стоимость и прокачка"
 description: "Арена открывает бои один на один и магазин арены, где место в рейтинге сезона платит алмазами и значками навыков. По мощи ботов видна цена подъёма: между сотым и трёхсоты…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5010.png)
+![Арена](/building-icons/5010.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-arena)).

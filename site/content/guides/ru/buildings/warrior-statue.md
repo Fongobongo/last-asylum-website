@@ -1,11 +1,12 @@
 ---
 title: "Статуя воина: уровни, стоимость и бонус"
 description: "Статуя воина…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5044.png)
+![Статуя воина](/building-icons/5044.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-warrior-statue)).

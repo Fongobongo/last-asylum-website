@@ -1,11 +1,12 @@
 ---
 title: "Травяной склад: уровни, стоимость и прокачка"
 description: "Травяной склад оставляет нападающему только излишек травы сверх защищённого запаса: на тридцатом уровне это 75 млн. Это втрое меньше, чем у зернового и древесного складов…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5025.png)
+![Травяной склад](/building-icons/5025.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-herb-storage)).

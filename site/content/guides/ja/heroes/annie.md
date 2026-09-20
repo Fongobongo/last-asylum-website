@@ -1,6 +1,7 @@
 ---
-title: "Annie: skills, upgrades and Might"
+title: "Annie：スキル・ビルド・育成"
 description: "Annie is a UR warlock who plays as DPS. Fully upgraded, she reaches 916,394 Might, rank 2 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Annie Shard),…"
+videoTopic: "heroes"
 lang: ja
 updated: "2026-09-19"
 type: guide

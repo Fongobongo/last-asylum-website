@@ -1,11 +1,12 @@
 ---
 title: "Лазарет: уровни, стоимость и прокачка"
 description: "Лазарет принимает тяжелораненых солдат вместо их гибели и задаёт цену проигранного боя. Вылечить бойца стоит 30% от найма нового. Четвёртый лазарет открывается узлом иссл…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1004.png)
+![Лазарет](/building-icons/1004.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-infirmary)).

@@ -1,6 +1,7 @@
 ---
 title: "Bosses: Abyss, weekend and alliance boss"
 description: "Bosses come in three kinds and work in different ways. The Abyss boss and the weekend boss reward a matching faction, so the squad is chosen for the boss, while the allia…"
+videoTopic: "general"
 lang: en
 updated: "2026-09-19"
 type: guide

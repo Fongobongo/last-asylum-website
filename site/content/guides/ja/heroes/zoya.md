@@ -1,6 +1,7 @@
 ---
-title: "Zoya: skills, upgrades and Might"
+title: "Zoya：スキル・ビルド・育成"
 description: "Zoya is a UR warrior who plays as DPS. Fully upgraded, she reaches 918,563 Might, rank 1 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Zoya Shard), a…"
+videoTopic: "heroes"
 lang: ja
 updated: "2026-09-19"
 type: guide

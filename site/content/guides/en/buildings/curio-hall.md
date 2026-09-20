@@ -1,11 +1,12 @@
 ---
 title: "Curio Hall: levels, cost and upgrades"
 description: "Curio Hall shows the Curio collection: 31 artifact structures with permanent bonuses, raised with shards. Several Curios repeat each other in numbers, and five different …"
+videoTopic: "buildings"
 lang: en
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5039.png)
+![Curio Hall](/building-icons/5039.png)
 
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-curio-hall)).

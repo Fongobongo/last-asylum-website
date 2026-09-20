@@ -1,11 +1,12 @@
 ---
 title: "Соколиная башня: уровни, стоимость и прокачка"
 description: "Соколиная башня открывает мировую карту, чат и разведку, а вместе с ними задания сокола с наградами за оборону округи. Сложность этих заданий растёт не от башни, а от уро…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1006.png)
+![Соколиная башня](/building-icons/1006.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-falcon-tower)).

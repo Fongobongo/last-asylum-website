@@ -1,11 +1,12 @@
 ---
 title: "Infirmary: levels, cost and upgrades"
 description: "Infirmary takes in severely wounded soldiers instead of losing them, which decides what a lost battle costs. Healing a soldier runs at 30% of recruiting a new one. A rese…"
+videoTopic: "buildings"
 lang: ja
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1004.png)
+![病院](/building-icons/1004.png)
 
 
 **公式名:** 病院

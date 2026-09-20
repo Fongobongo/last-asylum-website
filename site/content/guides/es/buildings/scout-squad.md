@@ -1,11 +1,12 @@
 ---
 title: "Scout Squad: levels, cost and upgrades"
 description: "Scout Squad speeds up scouts, who read an enemy city's garrison and stores before an attack is launched. Movement speed grows with level up to 30%, and the scouting repor…"
+videoTopic: "buildings"
 lang: es
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5033.png)
+![Escuadrón de exploradores](/building-icons/5033.png)
 
 
 **Nombre oficial:** Escuadrón de exploradores

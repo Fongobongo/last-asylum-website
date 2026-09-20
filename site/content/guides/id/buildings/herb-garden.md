@@ -1,11 +1,12 @@
 ---
 title: "Herb Garden: levels, cost and upgrades"
 description: "Herb Garden produces Herb, the resource research burns through, and it comes in 36% slower than Grain and Timber. A fourth Herb Garden opens seven Sanctuary levels later …"
+videoTopic: "buildings"
 lang: id
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1019.png)
+![Kebun Obat](/building-icons/1019.png)
 
 
 **Nama resmi:** Kebun Obat

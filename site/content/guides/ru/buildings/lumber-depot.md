@@ -1,11 +1,12 @@
 ---
 title: "Древесный склад: уровни, стоимость и прокачка"
 description: "Древесный склад прячет от грабежа часть запаса древесины, на тридцатом уровне это 225 млн. Древесины в стройку уходит больше всего, поэтому её запас чаще прочих перераста…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5024.png)
+![Древесный склад](/building-icons/5024.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-lumber-depot)).

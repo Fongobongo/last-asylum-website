@@ -1,11 +1,12 @@
 ---
 title: "Lord Statue: levels, cost and upgrades"
 description: "Lord Statue opens the Lord's specialization: forty levels that raise virus resistance EXP per hour. There are also 44 active skills such as instant research, on cooldowns…"
+videoTopic: "buildings"
 lang: pt
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5056.png)
+![Estátua do Senhor Feudal](/building-icons/5056.png)
 
 
 **Nome oficial:** Estátua do Senhor Feudal

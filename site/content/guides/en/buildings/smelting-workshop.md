@@ -1,11 +1,12 @@
 ---
 title: "Smelting Workshop: levels, cost and upgrades"
 description: "Smelting Workshop produces Gearstones, the material that every step of strengthening hero gear consumes. Output stores for up to twelve hours, so the workshops are collec…"
+videoTopic: "buildings"
 lang: en
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5042.png)
+![Smelting Workshop](/building-icons/5042.png)
 
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-smelting-workshop)).

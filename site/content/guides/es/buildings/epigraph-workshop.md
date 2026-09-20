@@ -1,11 +1,12 @@
 ---
 title: "Epigraph Workshop: levels, cost and upgrades"
 description: "Epigraph Workshop crafts Epigraphs, which fit into the Raven's blueprint and strengthen the skill it carries. The top rank needs the workshop at level 20 and 800 fragment…"
+videoTopic: "buildings"
 lang: es
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5035.png)
+![Taller de epígrafes](/building-icons/5035.png)
 
 
 **Nombre oficial:** Taller de epígrafes

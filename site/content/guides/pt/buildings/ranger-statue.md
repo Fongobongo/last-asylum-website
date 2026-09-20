@@ -1,11 +1,12 @@
 ---
 title: "Ranger Statue: levels, cost and bonus"
 description: "Ranger Statue…"
+videoTopic: "buildings"
 lang: pt
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5046.png)
+![Estátua do Patrulheiro](/building-icons/5046.png)
 
 
 **Nome oficial:** Estátua do Patrulheiro

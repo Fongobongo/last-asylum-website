@@ -1,11 +1,12 @@
 ---
 title: "Black Ops: levels, cost and upgrades"
 description: "Black Ops opens covert ops, the main source of hero EXP: 70 missions, the top one paying 12,177,000 EXP. A universal UR hero shard drops at every secrecy level. Assisting…"
+videoTopic: "buildings"
 lang: en
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5029.png)
+![Black Ops](/building-icons/5029.png)
 
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-black-ops)).

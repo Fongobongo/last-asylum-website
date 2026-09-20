@@ -1,6 +1,7 @@
 ---
 title: "World map: distances, speed and gathering"
 description: "The world map is the shared field that holds player cities, resource nodes and monsters, with the Throne zone in the middle. Travel usually takes longer than the battle a…"
+videoTopic: "general"
 lang: en
 updated: "2026-09-19"
 type: guide

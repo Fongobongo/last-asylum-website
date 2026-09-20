@@ -1,11 +1,12 @@
 ---
 title: "Статуя колдуна: уровни, стоимость и бонус"
 description: "Статуя колдуна…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5045.png)
+![Статуя колдуна](/building-icons/5045.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-warlock-statue)).

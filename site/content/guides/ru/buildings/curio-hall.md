@@ -1,11 +1,12 @@
 ---
 title: "Зал реликвий: уровни, стоимость и прокачка"
 description: "Зал реликвий показывает прогресс коллекции реликвий: 31 постройка-артефакт с постоянными бонусами. Качаются они осколками. Часть реликвий повторяет друг друга по цифрам, …"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5039.png)
+![Зал реликвий](/building-icons/5039.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-curio-hall)).

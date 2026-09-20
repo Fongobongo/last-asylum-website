@@ -1,11 +1,12 @@
 ---
 title: "Granary: levels, cost and upgrades"
 description: "Granary shields part of the Grain stock from plunder, keeping 225 million of it safe at level 30. Anything above that line an attacker carries off, so spending the surplu…"
+videoTopic: "buildings"
 lang: en
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5023.png)
+![Granary](/building-icons/5023.png)
 
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-granary)).

@@ -1,6 +1,7 @@
 ---
-title: "Ulfrid: skills, upgrades and Might"
+title: "Ulfrid : compétences, build et montée"
 description: "Ulfrid is a UR warlock who plays as tank. Fully upgraded, he reaches 1,033,739 Might, rank 5 of 11 among the game's tanks. Unlocking him takes 10 shards ( Ulfrid Shard), …"
+videoTopic: "heroes"
 lang: fr
 updated: "2026-09-19"
 type: guide

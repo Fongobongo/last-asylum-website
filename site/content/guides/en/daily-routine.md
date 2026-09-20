@@ -1,6 +1,7 @@
 ---
 title: "Daily routine: idle income, ops and arena"
 description: "Daily routine is a short list of what is worth doing every day, ordered by how much you lose when you skip it. The items at the top overflow and stop paying out on their …"
+videoTopic: "tips"
 lang: en
 updated: "2026-09-19"
 type: guide

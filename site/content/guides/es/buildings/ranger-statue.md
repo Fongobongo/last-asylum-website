@@ -1,11 +1,12 @@
 ---
 title: "Ranger Statue: levels, cost and bonus"
 description: "Ranger Statue…"
+videoTopic: "buildings"
 lang: es
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5046.png)
+![Estatua del montaraz](/building-icons/5046.png)
 
 
 **Nombre oficial:** Estatua del montaraz

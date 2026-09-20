@@ -1,6 +1,7 @@
 ---
-title: "Claire (Advanced): skills, upgrades and Might"
+title: "Claire (Advanced): habilidades, build e evolução"
 description: "Claire is a UR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Might, rank 13 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Claire Shar…"
+videoTopic: "heroes"
 lang: pt
 updated: "2026-09-19"
 type: guide

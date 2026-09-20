@@ -1,6 +1,7 @@
 ---
-title: "Cynthia: skills, upgrades and Might"
+title: "Cynthia: 스킬, 빌드, 육성"
 description: "Cynthia is a UR ranger who plays as DPS. Fully upgraded, she reaches 916,153 Might, rank 3 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Cynthia Shar…"
+videoTopic: "cynthia"
 lang: ko
 updated: "2026-09-19"
 type: guide

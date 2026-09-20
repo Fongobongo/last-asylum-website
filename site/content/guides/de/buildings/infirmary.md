@@ -1,11 +1,12 @@
 ---
 title: "Infirmary: levels, cost and upgrades"
 description: "Infirmary takes in severely wounded soldiers instead of losing them, which decides what a lost battle costs. Healing a soldier runs at 30% of recruiting a new one. A rese…"
+videoTopic: "buildings"
 lang: de
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1004.png)
+![Krankenhaus](/building-icons/1004.png)
 
 
 **Offizieller Name:** Krankenhaus

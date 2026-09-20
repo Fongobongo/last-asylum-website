@@ -1,11 +1,12 @@
 ---
 title: "Центр тайных операций: уровни и стоимость"
 description: "Центр тайных операций открывает секретные операции, главный источник опыта героев: 70 заданий, верхнее платит 12 177 000 опыта. Общий фрагмент UR-героя даётся на любом ур…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5029.png)
+![Центр тайных операций](/building-icons/5029.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-black-ops)).

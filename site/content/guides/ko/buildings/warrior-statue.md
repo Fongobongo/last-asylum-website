@@ -1,11 +1,12 @@
 ---
 title: "Warrior Statue: levels, cost and bonus"
 description: "Warrior Statue…"
+videoTopic: "buildings"
 lang: ko
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5044.png)
+![전사 조각상](/building-icons/5044.png)
 
 
 **공식 명칭:** 전사 조각상

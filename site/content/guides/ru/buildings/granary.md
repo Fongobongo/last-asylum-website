@@ -1,11 +1,12 @@
 ---
 title: "Зерновой склад: уровни, стоимость и прокачка"
 description: "Зерновой склад держит под защитой 225 млн зерна на тридцатом уровне, и всё, что накоплено сверху, достаётся нападающему. Излишек выгоднее потратить до выхода в риск. Пост…"
+videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/5023.png)
+![Зерновой склад](/building-icons/5023.png)
 
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/building-granary)).

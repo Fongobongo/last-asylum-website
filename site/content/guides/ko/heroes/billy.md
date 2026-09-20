@@ -1,6 +1,7 @@
 ---
-title: "Billy: skills, upgrades and Might"
+title: "Billy: 스킬, 빌드, 육성"
 description: "Billy is a UR warlock who plays as tank. Fully upgraded, he reaches 980,246 Might, rank 6 of 11 among the game's tanks. Unlocking him takes 10 shards ( Billy Shard), and …"
+videoTopic: "heroes"
 lang: ko
 updated: "2026-09-19"
 type: guide

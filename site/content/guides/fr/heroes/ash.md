@@ -1,6 +1,7 @@
 ---
-title: "Ash: skills, upgrades and Might"
+title: "Ash : compétences, build et montée"
 description: "Ash is an SSR ranger who plays as DPS. Fully upgraded, she reaches 685,873 Might, rank 9 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Ash Shard), an…"
+videoTopic: "heroes"
 lang: fr
 updated: "2026-09-19"
 type: guide

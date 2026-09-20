@@ -1,11 +1,12 @@
 ---
 title: "Gear Workshop: levels, cost and upgrades"
 description: "Gear Workshop forges hero gear, and its level unlocks crafting of the higher qualities, with gear stars arriving at level 20. Levels past the twentieth carry no numeric b…"
+videoTopic: "buildings"
 lang: en
 updated: "2026-09-19"
 type: guide
 ---
-![icon](/building-icons/1008.png)
+![Gear Workshop](/building-icons/1008.png)
 
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-gear-workshop)).

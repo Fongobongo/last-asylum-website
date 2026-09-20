@@ -1,6 +1,7 @@
 ---
-title: "William: skills, upgrades and Might"
+title: "William: 스킬, 빌드, 육성"
 description: "William is an SR warrior who plays as DPS. Fully upgraded, he reaches 524,421 Might, rank 14 of 16 among the game's DPS heroes. Unlocking him takes 10 shards ( William Sh…"
+videoTopic: "heroes"
 lang: ko
 updated: "2026-09-19"
 type: guide
