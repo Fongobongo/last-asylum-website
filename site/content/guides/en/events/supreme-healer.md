@@ -39,7 +39,7 @@ Each day activates an exclusive scoring category. Pay special attention to what 
 | **Day 1** | **Gathering & Stamina** | • 1 Stamina spent = **100 points**<br>• 1 Falcon Mission completed = **1,000 points**<br>• Gathering: 1 pt per 100 Wood/Food, 60 Herbs, or 40 Iron/Gold | ❌ Do NOT burn building or tech speedups.<br>✅ Dump stamina potions on mutants and bosses.<br>✅ Pre-gather: dispatch marches 4–6 hrs before 02:00 UTC. |
 | **Day 2** | **Survivors & Building** | • Survivor Recruitment = **400 points each**<br>• Construction Speedups = **20 points per 1 min**<br>• Building Might = **1 point per +1 Might gained** | ❌ Falcon missions award 0 points today!<br>❌ Do NOT use research or troop speedups. |
 | **Day 3** | **Technology & Research** | • 1 Falcon Mission completed = **1,000 points**<br>• Research Speedups = **20 points per 1 min**<br>• Research/Tech Might = **1 point per +1 Might gained** | ⚠️ **WARNING: NO POINTS FOR BUILDINGS ON DAY 3!**<br>Building speedups and completed constructions grant 0 points! |
-| **Day 4** | **Heroes & Healing** | • Hero Recruitment = **400 points per Ticket**<br>• Skill Badges = **10 points per 1 Badge used**<br>• Spending **universal hero fragments** (star promotion) scores points<br>• Antitoxin spent on **hero leveling** = **1 point per 660 units** | ❌ Falcon missions award 0 points today!<br>✅ Dump stockpiled serum into hero levels.<br>⚠️ **Weapon/gear upgrades do NOT count as hero upgrades** — craft gear any day, no need to wait for Thursday. |
+| **Day 4** | **Heroes** | • Hero Recruitment = **400 points per Ticket**<br>• Skill Badges = **10 points per 1 Badge used**<br>• Spending **universal hero fragments** (star promotion) scores points<br>• Antitoxin spent on **hero leveling** = **1 point per 660 units** | ❌ Falcon missions award 0 points today!<br>✅ Dump stockpiled serum into hero levels.<br>⚠️ **Weapon/gear upgrades do NOT count as hero upgrades** — craft gear any day, no need to wait for Thursday. |
 | **Day 5** | **Total Force & Troops** | • Troops trained/promoted: T1=**5**, T2=**6**, T3=**7**, T4=**13**, T5=**15**, T6=**19**, T7=**22**, T8=**25**, T9=**28**, T10=**31** pts each<br>• 1 Falcon Mission completed = **1,000 points**<br>• All Speedups (Build, Tech, Troops) = **20 pts per 1 min** | ✅ Use the Promotion trick (T1 → T8/T9).<br>✅ Claim held "Frozen Hammer" buildings. |
 | **Day 6** | **Elite Operations** | • UR Caravan completed = **5,000 points**<br>• UR Secret Operation = **2,000 points**<br>• Universal Speedups = **20 points per 1 min**<br>• Healing Speedups = **20 points per 1 min** | ❌ Falcon missions award 0 points today!<br>✅ Reroll caravans & secret ops to gold (UR) tier. |
 | **Day 7** | **Final Chaos (All Categories)** | • **TOTAL SHOWDOWN**: Every category from the week scores!<br>• 1 Falcon Mission = **1,000 points**<br>• 1 Stamina = **100 points**<br>• Any Speedups = **20 points per 1 min**<br>• Hero pulls, antitoxin, troops, gathering | 🔥 Prime day to dump Universal Speedups and push for Top 10 leaderboard rankings. |
@@ -57,7 +57,7 @@ To consistently clear top milestone chests without unnecessary spending, follow 
 |---|---|---|---|
 | **Stamina (Potions / Energy Drinks)** | **Day 1** & **Day 7** | Days 2, 3, 4, 5, 6 | 1x 100-stamina potion = 10,000 immediate event points. |
 | **Falcon Missions (Falcon Tower)** | **Days 1, 3, 5, 7** | **Days 2, 4, 6** | Claim strictly on odd days using the "Red Dot" technique. |
-| **Antitoxin (Healing Serum)** | **Day 4** & **Day 7** | Days 1, 2, 3, 5, 6 | Stockpiled all week in workshop; dumped in Clinic on Day 4. |
+| **Antitoxin (Healing Serum)** | **Day 4** & **Day 7** | Days 1, 2, 3, 5, 6 | Stockpiled all week in workshop; spent on hero levels on Day 4. |
 | **Building Speedups** | **Day 2**, **Day 5**, **Day 7** | **Day 3 (0 points!)**, Days 1, 4, 6 | Match with 4-hour Survival Battle construction windows. |
 | **Research Speedups** | **Day 3**, **Day 5**, **Day 7** | Days 1, 2, 4, 6 | Burn exclusively on high-tier technology branches. |
 | **Training Speedups** | **Day 5** & **Day 7** | Days 1, 2, 3, 4, 6 | Use exclusively with the Promotion technique (T1 → T8/T9). |
@@ -132,7 +132,7 @@ flowchart LR
 
 ## 🧪 Antitoxin Stacking: Scoring Points with Serum {#antitoxin-stacking}
 
-Antitoxin counts when a hero uses it for **leveling up** — it's hero XP stored as a consumable, not healing for residents.
+Antitoxin (serum) is basically bottled hero XP: the event only scores antitoxin spent on **leveling up a hero** in the hero profile screen.
 
 * **Conversion rate:** 1 point per **660 units** of antitoxin spent leveling a hero.
 * **Where it scores:** on hero-task days — **Day 4** (main, guaranteed) and **Day 7** (mixed finale). Spending serum the rest of the week grants 0 points, so hero leveling waits for those days.
