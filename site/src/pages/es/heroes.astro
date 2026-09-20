@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
+import HeroIndex from '../../components/HeroIndex.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import SquadBuilder from '../../components/SquadBuilder.astro';
 import SquadQuiz from '../../components/SquadQuiz.astro';
@@ -12,6 +13,7 @@ const lang: Lang = 'es';
 ---
 <Base lang={lang} path="/es/heroes/" title="Guía de héroes: escuadrones, ruta F2P, habilidades" description="El escuadrón F2P canónico y su calendario completo, los tiempos de facción para Guerreros, Guardabosques y Brujos, prioridades de mejora de habilidades, puntos de inflexión por estrellas y el orden de héroes Despiertos para la Era del Renacimiento.">
   <GuidePage title="Guía de héroes: escuadrones, ruta F2P, habilidades" description="El escuadrón F2P canónico y su calendario completo, los tiempos de facción para Guerreros, Guardabosques y Brujos, prioridades de mejora de habilidades, puntos de inflexión por estrellas y el orden de héroes Despiertos para la Era del Renacimiento." lang={lang}>
+    <HeroIndex lang={lang} showHub={false} />
     <p>Los héroes son el mayor multiplicador de Poder en Last Asylum: Plague — y lo más caro de corregir si se construyen mal. La economía de fragmentos e insignias castiga repartir la inversión, así que la comunidad ha convergido en una ruta gratuita canónica y un orden de operaciones estricto en torno a ella.</p>
     <p>Esta página cubre: qué facción jugar en cada etapa del juego, el escuadrón F2P canónico con su calendario día a día, prioridades de habilidades verificadas por análisis de daño por insignia, los puntos de inflexión por estrellas y el orden de progresión de héroes Despiertos para la temporada Era del Renacimiento.</p>
 

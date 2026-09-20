@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
+import HeroIndex from '../../components/HeroIndex.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import SquadBuilder from '../../components/SquadBuilder.astro';
 import SquadQuiz from '../../components/SquadQuiz.astro';
@@ -12,6 +13,7 @@ const lang: Lang = 'de';
 ---
 <Base lang={lang} path="/de/heroes/" title="Helden-Guide: Trupps, F2P-Weg, Fähigkeiten" description="Der kanonische F2P-Trupp mit kompletter Timeline, Fraktions-Timing für Krieger, Waldläufer und Hexer, Fähigkeits-Upgrade-Prioritäten, Stern-Wendepunkte und die Erwachter-Helden-Reihenfolge für die Ära der Wiedergeburt.">
   <GuidePage title="Helden-Guide: Trupps, F2P-Weg, Fähigkeiten" description="Der kanonische F2P-Trupp mit kompletter Timeline, Fraktions-Timing für Krieger, Waldläufer und Hexer, Fähigkeits-Upgrade-Prioritäten, Stern-Wendepunkte und die Erwachter-Helden-Reihenfolge für die Ära der Wiedergeburt." lang={lang}>
+    <HeroIndex lang={lang} showHub={false} />
     <p>Helden sind der größte Macht-Multiplikator in Last Asylum: Plague — und das Teuerste zu reparieren, wenn falsch gebaut. Die Splitter- und Abzeichen-Ökonomie bestraft verstreute Investitionen, deshalb hat die Community auf einen kanonischen Free-to-Play-Weg und eine strenge Reihenfolge der Operationen darum konvergiert.</p>
     <p>Diese Seite deckt ab: welche Fraktion auf welcher Spielstufe zu reiten ist, der kanonische F2P-Trupp mit seiner Tag-für-Tag-Timeline, per Abzeichen-Schadensanalyse verifizierte Fähigkeits-Prioritäten, Stern-Wendepunkte und die Erwachter-Helden-Fortschrittsreihenfolge für die Ära-der-Wiedergeburt-Saison.</p>
 

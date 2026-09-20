@@ -1,8 +1,8 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import type { Lang } from '../i18n/utils';
 
-const { lang } = Astro.props as { lang: Lang };
+const { lang, showHub = true } = Astro.props as { lang: Lang; showHub?: boolean };
 const entries = (await getCollection('guides'))
   .filter((e) => e.data.lang === lang && e.id.startsWith(`${lang}/heroes/`))
   .map((e) => ({
@@ -19,16 +19,19 @@ const H: Record<string, { h: string; d: string }> = {
 };
 const tt = H[lang] || H.en;
 
-// original hub guide renders below the card grid
-const hub = (await getCollection('guides')).find((e) => e.id.replace(/\.md$/, '') === `${lang}/heroes`);
 let HubContent: any = null;
-if (hub) HubContent = (await hub.render()).Content;
+if (showHub) {
+  const hub = (await getCollection('guides')).find(
+    (e) => e.id.replace(/\.md$/, '') === `${lang}/heroes`,
+  );
+  if (hub) HubContent = (await render(hub)).Content;
+}
 ---
-<section class="py-12">
-  <h1 class="mb-3 text-4xl font-bold text-plague-100">{tt.h}</h1>
-  <p class="mb-10 text-lg text-stone-400">{tt.d}</p>
+<section class={showHub ? 'py-12' : 'pt-2 pb-8'}>
+  {showHub && <h1 class="mb-3 text-4xl font-bold text-plague-100">{tt.h}</h1>}
+  {showHub && <p class="mb-10 text-lg text-stone-400">{tt.d}</p>}
   <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-    {entries.map((e: any) => (
+    {entries.map((e) => (
       <a href={`${base}/heroes/${e.slug}/`} class="group rounded-lg border border-stone-800 bg-stone-900 p-5 transition-colors hover:border-plague-600">
         <h2 class="text-lg font-bold text-plague-200 group-hover:text-plague-100">{e.title}</h2>
         <p class="mt-2 text-sm text-stone-400">{e.desc}</p>

@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
+import HeroIndex from '../../components/HeroIndex.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import SquadBuilder from '../../components/SquadBuilder.astro';
 import SquadQuiz from '../../components/SquadQuiz.astro';
@@ -12,6 +13,7 @@ const lang: Lang = 'ja';
 ---
 <Base lang={lang} path="/ja/heroes/" title="ヒーローガイド：編成、F2Pルート、スキル" description="正統F2P部隊とその全タイムライン、Warrior・Ranger・Warlockの陣営タイミング、スキル強化優先度、星のブレークポイント、そしてEra of Revivalでの覚醒ヒーローの順序。">
   <GuidePage title="ヒーローガイド：編成、F2Pルート、スキル" description="正統F2P部隊とその全タイムライン、Warrior・Ranger・Warlockの陣営タイミング、スキル強化優先度、星のブレークポイント、そしてEra of Revivalでの覚醒ヒーローの順序。" lang={lang}>
+    <HeroIndex lang={lang} showHub={false} />
     <p>ヒーローはLast Asylum: Plague最大の戦力倍率です — そして間違えて育てた時に直すのが最も高いものでもあります。シャードとスキルバッジの経済は分散投資に罰を与えるので、コミュニティは1つの正統な無課金ルートと、その周りの厳格な手順に収束しています。</p>
     <p>このページでは：ゲームの各段階でどの陣営に乗るか、日別タイムライン付きの正統F2P部隊、バッジあたりダメージ分析で検証されたスキル優先度、星のブレークポイント、そしてEra of Revivalシーズンの覚醒ヒーロー進行順序を解説します。</p>
 

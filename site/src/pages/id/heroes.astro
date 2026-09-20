@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
+import HeroIndex from '../../components/HeroIndex.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import SquadBuilder from '../../components/SquadBuilder.astro';
 import SquadQuiz from '../../components/SquadQuiz.astro';
@@ -12,6 +13,7 @@ const lang: Lang = 'id';
 ---
 <Base lang={lang} path="/id/heroes/" title="Panduan Hero: Pasukan, Jalur F2P, Skill" description="Pasukan F2P kanonik beserta garis waktunya, waktu faksi untuk Warriors, Rangers dan Warlocks, prioritas upgrade skill, titik jebol bintang, dan urutan hero Awakened untuk Era Kebangkitan.">
   <GuidePage title="Panduan Hero: Pasukan, Jalur F2P, Skill" description="Pasukan F2P kanonik beserta garis waktunya, waktu faksi untuk Warriors, Rangers dan Warlocks, prioritas upgrade skill, titik jebol bintang, dan urutan hero Awakened untuk Era Kebangkitan." lang={lang}>
+    <HeroIndex lang={lang} showHub={false} />
     <p>Hero adalah pengali kekuatan terbesar di Last Asylum: Plague — dan hal termahal untuk diperbaiki jika salah bangun. Ekonomi shard dan lencana skill menghukum investasi yang tersebar, jadi komunitas menyepakati satu jalur free-to-play kanonik dan urutan operasi ketat di sekelilingnya.</p>
     <p>Halaman ini membahas: faksi mana yang dinaiki di setiap tahap game, pasukan F2P kanonik dengan garis waktunya hari demi hari, prioritas skill yang diverifikasi analisis damage-per-lencana, titik jebol bintang, dan urutan progresi hero Awakened untuk musim Era Kebangkitan.</p>
 

@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
+import HeroIndex from '../../components/HeroIndex.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import SquadBuilder from '../../components/SquadBuilder.astro';
 import SquadQuiz from '../../components/SquadQuiz.astro';
@@ -12,6 +13,7 @@ const lang: Lang = 'ko';
 ---
 <Base lang={lang} path="/ko/heroes/" title="영웅 가이드: 부대, F2P 코스, 스킬" description="정석 F2P 부대와 전체 타임라인, Warrior/Ranger/Warlock 진영 타이밍, 스킬 업그레이드 우선순위, 별 브레이크포인트, 부흥시대의 각성 영웅 순서.">
   <GuidePage title="영웅 가이드: 부대, F2P 코스, 스킬" description="정석 F2P 부대와 전체 타임라인, Warrior/Ranger/Warlock 진영 타이밍, 스킬 업그레이드 우선순위, 별 브레이크포인트, 부흥시대의 각성 영웅 순서." lang={lang}>
+    <HeroIndex lang={lang} showHub={false} />
     <p>영웅은 Last Asylum: Plague에서 가장 큰 전력 배수기입니다 — 그리고 잘못 키우면 고치는 데 가장 비싼 것이기도 합니다. 샤드와 스킬 배지 경제는 분산 투자를 벌하기 때문에, 커뮤니티는 하나의 정석 무과금 코스와 그 주변의 엄격한 작업 순서로 수렴했습니다.</p>
     <p>이 페이지는: 게임의 각 단계에서 어떤 진영을 탈지, 일별 타임라인이 있는 정석 F2P 부대, 배지당 피해량 분석으로 검증된 스킬 우선순위, 별 브레이크포인트, 그리고 부흥시대 시즌의 각성 영웅 진행 순서를 다룹니다.</p>
 

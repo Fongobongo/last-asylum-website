@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
+import HeroIndex from '../../components/HeroIndex.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import SquadBuilder from '../../components/SquadBuilder.astro';
 import SquadQuiz from '../../components/SquadQuiz.astro';
@@ -12,6 +13,7 @@ const lang: Lang = 'fr';
 ---
 <Base lang={lang} path="/fr/heroes/" title="Guide des héros : escouades, parcours F2P, compétences" description="L&apos;escouade F2P canonique et son calendrier complet, le timing de faction pour Guerriers, Éclaireurs et Occultistes, les priorités d&apos;amélioration des compétences, les seuils d&apos;étoiles et l&apos;ordre des héros Éveillés pour l&apos;Ère du Renouveau.">
   <GuidePage title="Guide des héros : escouades, parcours F2P, compétences" description="L&apos;escouade F2P canonique et son calendrier complet, le timing de faction pour Guerriers, Éclaireurs et Occultistes, les priorités d&apos;amélioration des compétences, les seuils d&apos;étoiles et l&apos;ordre des héros Éveillés pour l&apos;Ère du Renouveau." lang={lang}>
+    <HeroIndex lang={lang} showHub={false} />
     <p>Les héros sont le plus grand multiplicateur de Puissance dans Last Asylum: Plague — et la chose la plus chère à corriger si mal construits. L&apos;économie des fragments et insignes punit la dispersion de l&apos;investissement, donc la communauté a convergé vers un parcours free-to-play canonique et un ordre d&apos;opérations strict autour de celui-ci.</p>
     <p>Cette page couvre : quelle faction chevaucher à chaque étape du jeu, l&apos;escouade F2P canonique avec son calendrier jour par jour, les priorités de compétences vérifiées par analyse de dégâts-par-insigne, les seuils d&apos;étoiles, et l&apos;ordre de progression des héros Éveillés pour la saison de l&apos;Ère du Renouveau.</p>
 
