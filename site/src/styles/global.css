@@ -127,6 +127,14 @@ h1, h2, h3, h4, h5, h6 {
 .prose-la table {
   @apply w-full text-left text-sm border-collapse;
 }
+/* Mobile: allow tables to scroll sideways instead of breaking the layout */
+@media (max-width: 640px) {
+  .prose-la table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
 .prose-la thead {
   @apply bg-stone-950/80 border-b border-stone-800 text-plague-200;
 }
