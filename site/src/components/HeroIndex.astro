@@ -20,7 +20,7 @@ const H: Record<string, { h: string; d: string }> = {
 const tt = H[lang] || H.en;
 
 // original hub guide renders below the card grid
-const hub = (await getCollection('guides')).find((e) => e.id === `${lang}/heroes.md`);
+const hub = (await getCollection('guides')).find((e) => e.id.replace(/\.md$/, '') === `${lang}/heroes`);
 let HubContent: any = null;
 if (hub) HubContent = (await hub.render()).Content;
 ---
