@@ -4,7 +4,6 @@ description: "Full 7-day scoring schedule, day-by-day resource allocation, stami
 lang: en
 updated: "2026-09-19"
 videoTopic: supreme_healer
-infographics: ["/infographics/falcon-tower-storage.webp"]
 type: event
 ---
 
@@ -93,8 +92,10 @@ Stamina is one of the most cost-effective F2P scoring engines on **Day 1** and *
 
 In Supreme Healer, Falcon Missions score strictly on **Days 1, 3, 5, and 7** (**1,000 points** per mission). They provide 0 points on Days 2, 4, and 6!
 
+![Falcon Tower incident storage visual guide](/infographics/falcon-tower-storage.webp)
+
 > [!TIP]
-> The complete visual storage guide by `#252 Dalkongss` is attached at the bottom of this page and available in the [Infographics Gallery](/infographics/#falcon-tower-storage).
+> Visual storage cheat-sheet by `#252 Dalkongss`. Also in the [Infographics Gallery](/infographics/#falcon-tower-storage).
 
 ```mermaid
 flowchart LR
@@ -129,18 +130,23 @@ flowchart LR
 
 ---
 
-## 🧪 Antitoxin Stacking (Healing Serum) {#antitoxin-stacking}
+## 🧪 Antitoxin Stacking: Scoring Points with Serum {#antitoxin-stacking}
 
-Antitoxin is a powerhouse scoring lever on **Day 4** (Heroes & Healing) and **Day 7** (Final Chaos):
+Antitoxin counts when a hero uses it for **leveling up** — it's hero XP stored as a consumable, not healing for residents.
 
-* **Point Value:** 1 point per **660 units** of Antitoxin spent **leveling up your heroes** — the event scores hero XP/serum consumption, not healing infected residents.
-* **Common Rookie Mistake:** Spending serum to level up heroes during Days 1–3 as it accumulates. That spending earns zero event points outside scoring days!
-* **Stockpiling & Execution:**
-  1. Keep your Antitoxin Workshop producing serum 24/7 (it has an internal production cap — collect in time).
-  2. Bank serum all through the first part of the week and hold off on hero leveling.
-  3. On **Day 4**, open the Clinic and level your hero squad in a single burst — synced with ticket summons (400 pts/ticket) and Skill Badges (10 pts/badge) for a stacked surge.
+* **Conversion rate:** 1 point per **660 units** of antitoxin spent leveling a hero.
+* **Where it scores:** on hero-task days — **Day 4** (main, guaranteed) and **Day 7** (mixed finale). Spending serum the rest of the week grants 0 points, so hero leveling waits for those days.
+* **The majority mistake:** drip-feeding serum into heroes on Days 1–3, or upgrading weapons/gear instead. Gear and skill badges are separate categories — they don't substitute for antitoxin points, and serum spent outside scoring days is simply lost value.
 
----
+### How to prepare properly:
+
+1. **Keep the Antitoxin Workshop producing without downtime.** It has an internal production cap — collect it regularly so production never stutters.
+2. **Stockpile serum through the first half of the week** — no partial spends.
+3. **On Day 4**, open your hero screen and level your F2P core carry (or whoever you're actually building) with the full stockpile in one go. It stacks with recruitment tickets (400 pts/ticket) and skill badges (10 pts each) — combined, it's the fattest day of the event.
+4. **On Day 7**, dump whatever is left if you're still short of a chest threshold.
+
+> **Worth how much:** exactly 660 units → exactly 1 point. 6,600 → 10 points. 66,000 → 100 points. Linear math, no hidden "big dump" bonus — just the raw points.
+
 
 ## ⏱️ Speedup Preservation: Strict Discipline & Specialization {#speedups-discipline}
 
