@@ -39,7 +39,7 @@ Cada dia ativa uma categoria de pontuação especializada. Abaixo está a matriz
 | **Dia 1** | **Coleta e Energia** | • 1 Energia gasta = **100 pontos**<br>• 1 Missão Falcon concluída = **1.000 pontos**<br>• Coleta: 1 ponto por 100 Madeira/Comida ou 60 Ervas |
 | **Dia 2** | **Sobreviventes e Construção** | • Recrutamento de Sobreviventes = **400 pontos cada**<br>• Aceleradores de Construção = **20 pontos por 1 minuto**<br>• Poder de Construção = **1 ponto por +1 de Poder ganho** |
 | **Dia 3** | **Tecnologia e Pesquisa** | • 1 Missão Falcon concluída = **1.000 pontos**<br>• Aceleradores de Pesquisa = **20 pontos por 1 minuto**<br>• Poder de Tecnologia / Construção = **1 ponto por +1 de Poder ganho** |
-| **Dia 4** | **Heróis e Cura** | • Recrutamento de Heróis = **400 pontos por Ticket**<br>• Insígnias de Habilidade = **10 pontos por 1 Insígnia usada**<br>• Antitoxina consumida = **1 ponto por 660 unidades** |
+| **Dia 4** | **Heróis** | • Recrutamento de Heróis = **400 pontos por Ticket**<br>• Insígnias de Habilidade = **10 pontos por 1 Insígnia usada**<br>• Antitoxina gasta em **subir de nível do herói** = **1 ponto por 660 unidades** |
 | **Dia 5** | **Força Total e Tropas** | • Treinar / Promover tropas (escala por Nível T7–T10)<br>• Todos os Aceleradores (Construção, Pesquisa, Treinamento) = **20 pontos por 1 min** |
 | **Dia 6** | **Operações de Elite** | • Caravana UR concluída = **5.000 pontos**<br>• Operação Secreta UR = **2.000 pontos**<br>• Aceleradores Universais = **20 pontos por 1 min** |
 | **Dia 7** | **Caos Final** | • **MISSÕES TOTAIS**: Todas as tarefas dos dias anteriores concedem pontos!<br>• Quaisquer Aceleradores = **20 pontos por 1 min** |

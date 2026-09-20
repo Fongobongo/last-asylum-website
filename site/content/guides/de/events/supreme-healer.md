@@ -39,7 +39,7 @@ Jeder Tag aktiviert eine spezialisierte Punktekategorie. Unten findest du die vo
 | **Tag 1** | **Sammeln & Ausdauer** | • 1 verbrauchte Ausdauer = **100 Punkte**<br>• 1 abgeschlossene Falcon-Mission = **1.000 Punkte**<br>• Sammeln: 1 Punkt pro 100 Holz/Nahrung oder 60 Kräuter |
 | **Tag 2** | **Überlebende & Bauen** | • Rekrutierung von Überlebenden = **400 Punkte pro Person**<br>• Baubeschleuniger = **20 Punkte pro 1 Minute**<br>• Gebäude-Macht = **1 Punkt pro +1 gewonnene Macht** |
 | **Tag 3** | **Technologie & Forschung** | • 1 abgeschlossene Falcon-Mission = **1.000 Punkte**<br>• Forschungsbeschleuniger = **20 Punkte pro 1 Minute**<br>• Tech-/Gebäude-Macht = **1 Punkt pro +1 gewonnene Macht** |
-| **Tag 4** | **Helden & Heilung** | • Heldenrekrutierung = **400 Punkte pro Ticket**<br>• Skill-Abzeichen = **10 Punkte pro 1 verwendetes Abzeichen**<br>• Antitoxin verbraucht = **1 Punkt pro 660 Einheiten** |
+| **Tag 4** | **Helden** | • Heldenrekrutierung = **400 Punkte pro Ticket**<br>• Skill-Abzeichen = **10 Punkte pro 1 verwendetes Abzeichen**<br>• Antitoxin fürs **Helden-Level-Up** = **1 Punkt pro 660 Einheiten** |
 | **Tag 5** | **Gesamtstärke & Truppen** | • Truppen ausbilden / befördern (skaliert nach Stufe T7–T10)<br>• Alle Beschleuniger (Bau, Forschung, Training) = **20 Punkte pro 1 Min** |
 | **Tag 6** | **Elite-Operationen** | • UR-Karawane abgeschlossen = **5.000 Punkte**<br>• UR-Geheimoperation = **2.000 Punkte**<br>• Universelle Beschleuniger = **20 Punkte pro 1 Min** |
 | **Tag 7** | **Finales Chaos** | • **ALLE MISSIONEN**: Alle Aufgaben der Vortage gewähren Punkte!<br>• Beliebige Beschleuniger = **20 Punkte pro 1 Min** |

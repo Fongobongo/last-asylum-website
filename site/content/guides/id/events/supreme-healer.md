@@ -39,7 +39,7 @@ Setiap hari mengaktifkan kategori skor khusus. Berikut adalah matriks skor haria
 | **Hari 1** | **Pengumpulan & Stamina** | • 1 Stamina digunakan = **100 poin**<br>• 1 Misi Falcon diselesaikan = **1.000 poin**<br>• Pengumpulan: 1 poin per 100 Kayu/Makanan atau 60 Herbal |
 | **Hari 2** | **Penyintas & Bangunan** | • Rekrutmen Penyintas = **400 poin per orang**<br>• Speedup Konstruksi = **20 poin per 1 menit**<br>• Might Bangunan = **1 poin per +1 Might yang didapat** |
 | **Hari 3** | **Teknologi & Riset** | • 1 Misi Falcon diselesaikan = **1.000 poin**<br>• Speedup Riset = **20 poin per 1 menit**<br>• Might Teknologi / Bangunan = **1 poin per +1 Might yang didapat** |
-| **Hari 4** | **Pahlawan & Penyembuhan** | • Rekrutmen Pahlawan = **400 poin per Tiket**<br>• Lencana Skill = **10 poin per 1 Badge yang digunakan**<br>• Antitoxin dikonsumsi = **1 poin per 660 unit** |
+| **Hari 4** | **Pahlawan** | • Rekrutmen Pahlawan = **400 poin per Tiket**<br>• Lencana Skill = **10 poin per 1 Badge yang digunakan**<br>• Antitoxin untuk **naik level pahlawan** = **1 poin per 660 unit** |
 | **Hari 5** | **Kekuatan Total & Pasukan** | • Melatih / Mempromosikan pasukan (berskala berdasarkan Tier T7–T10)<br>• Semua Speedup (Bangunan, Riset, Pelatihan) = **20 poin per 1 menit** |
 | **Hari 6** | **Operasi Elit** | • Karavan UR selesai = **5.000 poin**<br>• Operasi Rahasia UR = **2.000 poin**<br>• Speedup Universal = **20 poin per 1 menit** |
 | **Hari 7** | **Kekacauan Terakhir** | • **MISI TOTAL**: Semua tugas dari hari-hari sebelumnya memberikan poin!<br>• Semua Speedup = **20 poin per 1 menit** |

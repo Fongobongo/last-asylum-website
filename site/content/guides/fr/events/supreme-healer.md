@@ -39,7 +39,7 @@ Chaque jour active une catégorie de score spécialisée. Voici la matrice de sc
 | **Jour 1** | **Collecte & Endurance** | • 1 Endurance dépensée = **100 points**<br>• 1 mission Falcon terminée = **1 000 points**<br>• Collecte : 1 point par 100 Bois/Nourriture ou 60 Herbes |
 | **Jour 2** | **Survivants & Construction** | • Recrutement de survivants = **400 points chacun**<br>• Accélérations de construction = **20 points par minute**<br>• Puissance de bâtiment = **1 point par +1 Puissance gagnée** |
 | **Jour 3** | **Technologie & Recherche** | • 1 mission Falcon terminée = **1 000 points**<br>• Accélérations de recherche = **20 points par minute**<br>• Puissance Tech / Bâtiment = **1 point par +1 Puissance gagnée** |
-| **Jour 4** | **Héros & Soins** | • Recrutement de héros = **400 points par Ticket**<br>• Badges de compétence = **10 points par badge utilisé**<br>• Antitoxine consommée = **1 point par 660 unités** |
+| **Jour 4** | **Héros** | • Recrutement de héros = **400 points par Ticket**<br>• Badges de compétence = **10 points par badge utilisé**<br>• Antitoxine dépensée en **montée de niveau de héros** = **1 point par 660 unités** |
 | **Jour 5** | **Force totale & Troupes** | • Entraînement / Promotion de troupes (selon le rang T7–T10)<br>• Toutes accélérations (Construction, Recherche, Entraînement) = **20 points par 1 min** |
 | **Jour 6** | **Opérations d'élite** | • Caravane UR terminée = **5 000 points**<br>• Opération secrète UR = **2 000 points**<br>• Accélérations universelles = **20 points par 1 min** |
 | **Jour 7** | **Chaos final** | • **MISSIONS TOTALES** : Toutes les tâches des jours précédents rapportent des points !<br>• Toutes accélérations = **20 points par 1 min** |
