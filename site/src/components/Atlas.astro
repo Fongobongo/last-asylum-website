@@ -22,7 +22,7 @@ for (const e of entries) {
   const rel = e.id.replace(new RegExp(`^${lang}/`), '');
   const g = groupOf(e.id);
   const href = base + rel.replace(/\.md$/, '') + '/';
-  groups[g].push({ title: e.data.title, href });
+  groups[g].push({ title: e.data.title, desc: e.data.description || '', href });
 }
 for (const g of Object.values(groups)) g.sort((a, b) => a.title.localeCompare(b.title));
 
@@ -39,14 +39,21 @@ const tt = T[lang] || T.en;
     <section>
       <h2>{tt[g]} <span class="cnt">{groups[g].length}</span></h2>
       <ul>
-        {groups[g].map((i) => <li><a href={i.href}>{i.title}</a></li>)}
+        {groups[g].map((i) => (
+          <li>
+            <a href={i.href}>{i.title}</a>
+            {i.desc && <p>{i.desc}</p>}
+          </li>
+        ))}
       </ul>
     </section>
   ))}
 </nav>
 <style>
   nav.atlas ul { columns: 2; column-gap: 2rem; list-style: none; padding: 0; }
-  nav.atlas li { break-inside: avoid; margin: .3rem 0; }
+  nav.atlas li { break-inside: avoid; margin: .55rem 0; }
+  nav.atlas li p { margin: .1rem 0 0; font-size: .82em; opacity: .65; line-height: 1.35; }
+  nav.atlas li a { font-weight: 600; }
   nav.atlas .cnt { opacity: .5; font-size: .7em; }
   nav.atlas .sub { opacity: .7; }
 </style>
