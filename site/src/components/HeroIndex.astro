@@ -1,5 +1,6 @@
 ---
-import { getCollection, render } from 'astro:content';
+import { getCollection } from 'astro:content';
+import { createMarkdownProcessor } from '@astrojs/markdown-remark';
 import type { Lang } from '../i18n/utils';
 
 const { lang, showHub = true } = Astro.props as { lang: Lang; showHub?: boolean };
@@ -19,17 +20,32 @@ const H: Record<string, { h: string; d: string }> = {
 };
 const tt = H[lang] || H.en;
 
-let HubContent: any = null;
+// General hub info, split into per-section cards
+type Card = { title: string; html: string };
+let hubCards: Card[] = [];
 if (showHub) {
   const hub = (await getCollection('guides')).find(
     (e) => e.id.replace(/\.md$/, '') === `${lang}/heroes`,
   );
-  if (hub) HubContent = (await render(hub)).Content;
+  if (hub) {
+    const md = hub.body || '';
+    // split by h2 headings; keep intro before first h2 as a card-less lead
+    const parts = md.split(/\n(?=## )/);
+    const pro = await createMarkdownProcessor();
+    for (const p of parts) {
+      const m = p.match(/^## (.+?)(?:\s*\{#[^}]+\})?\s*$/m);
+      const title = m ? m[1].replace(/^[📊🦸🎯📋🧮🏗️🛡️⚔️\s]+/, '') : '';
+      const bodyMd = m ? p.replace(/^## .+$/m, '') : p;
+      const { code } = await pro.render(bodyMd);
+      hubCards.push({ title, html: code });
+    }
+  }
 }
+const LBL: Record<string, string> = { ru: 'Общая информация', en: 'General' };
 ---
-<section class={showHub ? 'py-12' : 'pt-2 pb-8'}>
-  {showHub && <h1 class="mb-3 text-4xl font-bold text-plague-100">{tt.h}</h1>}
-  {showHub && <p class="mb-10 text-lg text-stone-400">{tt.d}</p>}
+<section class="py-12">
+  <h1 class="mb-3 text-4xl font-bold text-plague-100">{tt.h}</h1>
+  <p class="mb-10 text-lg text-stone-400">{tt.d}</p>
   <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
     {entries.map((e) => (
       <a href={`${base}/heroes/${e.slug}/`} class="group rounded-lg border border-stone-800 bg-stone-900 p-5 transition-colors hover:border-plague-600">
@@ -38,9 +54,18 @@ if (showHub) {
       </a>
     ))}
   </div>
-  {HubContent && (
-    <article class="mt-12 prose-la max-w-none">
-      <HubContent />
-    </article>
+
+  {hubCards.length > 0 && (
+    <>
+      <h2 class="mt-14 mb-6 text-3xl font-bold text-plague-100">{LBL[lang] || LBL.en}</h2>
+      <div class="grid gap-4 lg:grid-cols-2">
+        {hubCards.map((c) => (
+          <div class="rounded-lg border border-stone-800 bg-stone-900 p-5 prose-la text-sm">
+            {c.title && <h3>{c.title}</h3>}
+            <Fragment set:html={c.html} />
+          </div>
+        ))}
+      </div>
+    </>
   )}
 </section>
