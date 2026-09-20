@@ -6,6 +6,7 @@ export interface GiftCode {
 }
 
 export const giftCodes: GiftCode[] = [
+  { code: 'LAOKT26', date: '2026-10-01', active: true, note: 'October 2026 Community Gift' },
   { code: 'LA30W7F2M', date: '2026-09-14', active: true, note: 'Discord 300k Fans Milestone (Diamonds, Speedups, Resources)' },
   { code: 'LADCEX1223', date: '2026-09-08', active: true, note: '100 Diamonds, 12× Speedups, 15k Grain/Timber (Discord Exclusive)' },
   { code: 'LA25W8CM', date: '2026-08-15', active: true, note: 'Discord 250k Fans (500 Diamonds, 80× Speedups, 60k Resources)' },
