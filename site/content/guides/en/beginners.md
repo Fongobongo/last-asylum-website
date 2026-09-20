@@ -336,3 +336,43 @@ When does the second squad open? At Sanctuary level eight, and the third at twen
 The build calculator assembles the upgrade order from day one: from the building levels it shows what the next Sanctuary level is missing and where to put speedups.
 
 ##
+
+---
+
+## 📚 Other reference sections {#misc-index}
+
+- [Temple Battle: ministers, court posts and king decrees](/temple-battle/)
+- [Surprise Encounter: call reward and boxes](/surprise-encounter/)
+- [Dawn Breakout](/dawn-breakout/)
+- [Hunting: targets, Raven Fruit and rallies](/hunting/)
+- [Raven epigraphs: stars, crafting and start](/epigraphs/)
+- [Curios: upgrading, cost and repeated bonuses](/relics/)
+- [Wandering Phantom: Wandering Blight levels, Kingdom Quests and rewards](/wandering-phantom/)
+- [Trials](/trials/)
+- [Treasure Maps](/treasure-maps/)
+- [City Map: top targets and capture tasks](/cities/)
+- [Campaign: Might per level and hero experience](/campaign/)
+- [Shields: free ones, prices and War Frenzy](/shields/)
+- [Antitoxin: where to get it and what it is for](/antitoxin/)
+- [How the game counts: diamonds and percentages](/formulas/)
+- [Skins: bonuses, durations and the Black Raven Fortress](/skins/)
+- [Daily routine: idle income, ops and arena](/daily-routine/)
+- [Bonus events: Hero Pass, Hero's Trial and Login Rewards](/bonus-events/)
+- [Special events: the nine events of the tab and the day each one arrives](/special-events/)
+- [Era Pass](/era-pass/)
+- [Era of Revival: what stays open, heroes by week and start](/season-era/)
+- [Hunt Battle: Blight waves, difficulties and alliance rewards](/hunt-battle/)
+- [Wishing Wheels: hero and raven](/roulette/)
+- [Bosses: Abyss, weekend and alliance boss](/bosses/)
+- [Exploration Chain: rewards and step types](/exploration/)
+- [Explorer Dungeon](/explorer-dungeon/)
+- [World map: distances, speed and gathering](/world-map/)
+- [Changing server: transfers, server time and new servers](/change-server/)
+- [Sanctuary: hero cap, buildings and clinic](/sanctuary/)
+- [Virus resistance: why, experience and gaps](/virus-resistance/)
+- [Lord's Specialty: levels, branches, points](/lord-job/)
+- [Last Asylum on PC: emulators and moving the account](/pc/)
+- [Hero awakening: gains and breakthrough](/hero-awakening/)
+- [Hero Road](/hero-road/)
+- [Honor levels: conditions, cost and payout](/hero-honor/)
+- [Expedition: arena order and early-server bonus](/expedition/)

@@ -84,7 +84,7 @@ Stamina is one of the most cost-effective F2P scoring engines on **Day 1** and *
    * Never consume inventory energy potions (10, 20, 50, 100 energy drinks) for casual zombie farming on off-days.
    * Buy energy potions consistently from the Alliance Shop and VIP Shop, and hoard daily quest rewards.
 4. **Execution on Day 1 & Day 7:**
-   * At server reset, unleash your full natural energy bar and inventory potions on **high-level mutants**, **Plague Lairs**, and **world bosses**.
+   * At server reset, unleash your full natural energy bar and inventory potions on **high-level mutants**, **Elite Blight lairs**, and **world bosses**.
    * Every 1,000 stamina consumed generates **100,000 event points**, guaranteeing that you clear the initial chest tiers in minutes.
 
 ---

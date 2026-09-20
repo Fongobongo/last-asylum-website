@@ -81,7 +81,7 @@ During the 4-hour Technology Research block, KorpezGaming recommends the followi
 > During Raven radar missions, Survival Battle points are awarded **directly for consuming energy (stamina)** to purge targets! 
 
 * **The Ironclad Korpez Rule:** **NEVER burn Raven Fruits during Survival Battle!** Save all Raven Fruits for Monday (Alliance Duel Phase 1).
-* **How to Clear the Phase:** Clear the Raven phase 100% **purely by hunting monsters, infected, and Plague Lairs using natural stamina and energy potions**. This secures maximum Skill Badges without wasting precious fruit stockpiles.
+* **How to Clear the Phase:** Clear the Raven phase 100% **purely by hunting monsters, infected, and Elite Blight lairs using natural stamina and energy potions**. This secures maximum Skill Badges without wasting precious fruit stockpiles.
 
 ---
 
