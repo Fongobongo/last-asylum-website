@@ -7,7 +7,7 @@ updated: "2026-09-19"
 type: guide
 ---
 
-<img src="/hero-art/nicole.webp" alt="hero art" class="float-right ml-4 rounded-xl" width="220" />
+<img src="/hero-art/nicole.webp" alt="hero art" class="float-right ml-3 mb-3 rounded-xl w-28 sm:w-56" width="220" />
 
 ![icon](/hero-icons/nicole.webp)
 

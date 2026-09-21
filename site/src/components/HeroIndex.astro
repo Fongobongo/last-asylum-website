@@ -1,11 +1,23 @@
 ---
 import { getCollection } from 'astro:content';
-import { createMarkdownProcessor } from '@astrojs/markdown-remark';
 import type { Lang } from '../i18n/utils';
 
 const { lang, showHub = true } = Astro.props as { lang: Lang; showHub?: boolean };
-const entries = (await getCollection('guides'))
-  .filter((e) => e.data.lang === lang && e.id.startsWith(`${lang}/heroes/`))
+
+const SECTION_ORDER: { slug: string; icon: string }[] = [
+  { slug: 'hero-basics', icon: '🧭' },
+  { slug: 'hero-progression', icon: '📈' },
+  { slug: 'hero-awakening-guide', icon: '🔥' },
+  { slug: 'hero-squads-tierlist', icon: '✅' },
+  { slug: 'hero-shards-guide', icon: '🧤' },
+  { slug: 'hero-might-mechanics', icon: '⚙️' },
+];
+
+const all = await getCollection('guides');
+const sectionSlugs = new Set(SECTION_ORDER.map((s) => s.slug));
+
+const entries = all
+  .filter((e) => e.data.lang === lang && e.id.startsWith(`${lang}/heroes/`) && !sectionSlugs.has(e.id.replace(/\.md$/, '').split('/').pop()!))
   .map((e) => ({
     slug: e.id.replace(`${lang}/heroes/`, '').replace(/\.md$/, ''),
     title: e.data.title.split(':')[0].split(',')[0].trim(),
@@ -19,71 +31,20 @@ const H: Record<string, { h: string; d: string }> = {
   en: { h: 'Hero Guides', d: `${entries.length} heroes: skills, builds, leveling, how to unlock, shard sources.` },
 };
 const tt = H[lang] || H.en;
+const LBL: Record<string, string> = { ru: 'Общая информация', en: 'Topics' };
 
-// General hub info, split into per-section cards
-type Card = { title: string; html: string };
-let hubCards: Card[] = [];
-if (showHub) {
-  const hub = (await getCollection('guides')).find(
-    (e) => e.id.replace(/\.md$/, '') === `${lang}/heroes`,
-  );
-  if (hub) {
-    const md = hub.body || '';
-    // split by h2 headings; keep intro before first h2 as a card-less lead
-    const parts = md.split(/\n(?=## )/);
-    const pro = await createMarkdownProcessor();
-
-    const G: [string, string[]][] = lang === 'ru' ? [
-      ['🧭 Основы: фракции и составы', ['faction-timing','f2p-squad','alternatives','mono-faction-meta','wiki-hero-factions']],
-      ['📈 Прокачка: навыки и звёзды', ['skill-priorities','star-breakpoints','wiki-skill-badges','wiki-hero-skills','wiki-hero-stars']],
-      ['🔥 Пробуждение', ['awakened-order','awakening-walkthrough','wiki-awakening-shards']],
-      ['✅ Составы и тир-лист', ['wiki-hero-teams']],
-      ['🧬 Осколки, превращение и рост', ['wiki-hero-conversion','wiki-hero-growth','wiki-hero-shards']],
-      ['⚙️ Мощь, баланс и тайные механики', ['healing-scaling-secret','might-formula','hero-balance-notes']],
-    ] : [
-      ['🧭 Basics: factions & squads', ['faction-timing','f2p-squad','alternatives','mono-faction-meta','wiki-hero-factions']],
-      ['📈 Progression: skills & stars', ['skill-priorities','star-breakpoints','wiki-skill-badges','wiki-hero-skills','wiki-hero-stars']],
-      ['🔥 Awakening', ['awakened-order','awakening-walkthrough','wiki-awakening-shards']],
-      ['✅ Squads & tier list', ['wiki-hero-teams']],
-      ['🧬 Shards, conversion & growth', ['wiki-hero-conversion','wiki-hero-growth','wiki-hero-shards']],
-      ['⚙️ Might, balance & hidden mechanics', ['healing-scaling-secret','might-formula','hero-balance-notes']],
-    ];
-    const anchor2group = new Map<string, number>();
-    G.forEach(([, anchors], gi) => anchors.forEach((a) => anchor2group.set(a, gi)));
-
-    // group small h2 sections into larger thematic cards. Sections without an {#anchor} continue the current group.
-    const buckets: { title: string | null; html: string }[] = [];
-    let introHtml = '';
-    for (const p of parts) {
-      const m = p.match(/^## (.+?)(?:\s*\{#[^}]+\})?\s*$/m);
-      const am = p.match(/\{#([a-z0-9-]+)\}/);
-      const anchor = am ? am[1] : null;
-      if (!m) { introHtml += (await pro.render(p)).code; continue; }
-      const { code } = await pro.render(p);
-      const html = code
-        .replace(/<h([12])([^>]*)>/g, '<h3$2>')
-        .replace(/<\/h[12]>/g, '</h3>')
-        .replace(/<h3[^>]*><\/h3>/g, '');
-      const g = anchor !== null ? (anchor2group.get(anchor) ?? null) : null;
-      if (anchor === 'hero-index') continue; // handled by the card grid above
-      if (g === null) {
-        // continuation of the previous group, or standalone card if nothing assigned yet
-        if (buckets.length > 0) buckets[buckets.length - 1].html += html;
-        else buckets.push({ title: null, html });
-      } else {
-        const existing = buckets.findIndex((b) => b.title === G[g][0]);
-        if (existing >= 0) buckets[existing].html += html;
-        else buckets.push({ title: G[g][0], html });
-      }
-    }
-    hubCards = buckets.filter((b) => b.html.trim());
-  }
-}
-const LBL: Record<string, string> = { ru: 'Общая информация', en: 'General' };
+const sectionCards = showHub
+  ? SECTION_ORDER
+      .map(({ slug, icon }) => {
+        const e = all.find((x) => x.data.lang === lang && x.id.replace(/\.md$/, '') === `${lang}/heroes/${slug}`);
+        return e ? { href: `${base}/heroes/${slug}/`, icon, title: e.data.title, desc: e.data.description || '' } : null;
+      })
+      .filter(Boolean) as { href: string; icon: string; title: string; desc: string }[]
+  : [];
 ---
 <section class="py-12">
-  <h1 class="mb-3 text-4xl font-bold text-plague-100">{tt.h}</h1>
-  <p class="mb-10 text-lg text-stone-400">{tt.d}</p>
+  {showHub && <h1 class="mb-3 text-4xl font-bold text-plague-100">{tt.h}</h1>}
+  {showHub && <p class="mb-10 text-lg text-stone-400">{tt.d}</p>}
   <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
     {entries.map((e) => (
       <a href={`${base}/heroes/${e.slug}/`} class="group flex items-start gap-3 rounded-lg border border-stone-800 bg-stone-900 p-4 transition-colors hover:border-plague-600">
@@ -96,15 +57,15 @@ const LBL: Record<string, string> = { ru: 'Общая информация', en:
     ))}
   </div>
 
-  {hubCards.length > 0 && (
+  {sectionCards.length > 0 && (
     <>
       <h2 class="mt-14 mb-6 text-3xl font-bold text-plague-100">{LBL[lang] || LBL.en}</h2>
-      <div class="grid gap-4 lg:grid-cols-2">
-        {hubCards.map((c) => (
-          <div class="rounded-lg border border-stone-800 bg-stone-900 p-5 prose-la text-sm">
-            {c.title && <h3>{c.title}</h3>}
-            <Fragment set:html={c.html} />
-          </div>
+      <div class="grid gap-4 sm:grid-cols-2">
+        {sectionCards.map((c) => (
+          <a href={c.href} class="group rounded-lg border border-stone-800 bg-stone-900 p-5 transition-colors hover:border-plague-600">
+            <h3 class="text-lg font-bold text-plague-200 group-hover:text-plague-100">{c.icon} {c.title}</h3>
+            <p class="mt-2 text-sm text-stone-400">{c.desc}</p>
+          </a>
         ))}
       </div>
     </>
