@@ -7,6 +7,8 @@ updated: "2026-09-19"
 type: guide
 ---
 
+![icon](/hero-icons/bell.webp)
+
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-bell)).
 
 Bell is a UR ranger who plays as support. Fully upgraded, she reaches 920,570 Might, rank 2 of 5 among the game's support heroes. Unlocking her takes 10 shards ( Bell Shard), and the shards become available once the Ranger Statue reaches level 20. Bell does not appear in the hero list until server day 70.

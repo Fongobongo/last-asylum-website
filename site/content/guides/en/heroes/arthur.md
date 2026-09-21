@@ -7,6 +7,8 @@ updated: "2026-09-19"
 type: guide
 ---
 
+![icon](/hero-icons/arthur.webp)
+
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-arthur)).
 
 Arthur is a UR warrior who plays as tank. Fully upgraded, he reaches 1,052,453 Might, rank 3 of 11 among the game's tanks. Unlocking him takes 10 shards ( Arthur Shard), and the shards become available once the Warrior Statue reaches level 20. Server age does not limit Arthur: he is in the hero list from day one.

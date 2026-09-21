@@ -7,6 +7,8 @@ updated: "2026-09-19"
 type: guide
 ---
 
+![icon](/hero-icons/billy.webp)
+
 **Nama resmi:** Billy
 >
 > Nama terjemahan dari klien game resmi (v1.0.102). Tabel & angka dari klien (v1.0.87) via wiki-last-asylum.com; teks bahasa Inggris di bawah.

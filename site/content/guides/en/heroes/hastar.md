@@ -7,6 +7,8 @@ updated: "2026-09-19"
 type: guide
 ---
 
+![icon](/hero-icons/hastar.webp)
+
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-hastar)).
 
 Hastar is an SSR warlock who plays as tank. Fully upgraded, he reaches 750,047 Might, rank 10 of 11 among the game's tanks. Unlocking him takes 10 shards ( Hastar Shard), and the shards become available once the Warlock Statue reaches level 20.

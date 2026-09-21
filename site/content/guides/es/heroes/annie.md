@@ -7,6 +7,8 @@ updated: "2026-09-19"
 type: guide
 ---
 
+![icon](/hero-icons/annie.webp)
+
 **Nombre oficial:** Annie
 >
 > Los nombres traducidos provienen del cliente oficial (v1.0.102). Tablas y números del cliente (v1.0.87) vía wiki-last-asylum.com; texto en inglés abajo.

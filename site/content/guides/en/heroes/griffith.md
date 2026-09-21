@@ -7,6 +7,8 @@ updated: "2026-09-19"
 type: guide
 ---
 
+![icon](/hero-icons/griffith.webp)
+
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-griffith)).
 
 Griffith is an SSR ranger who plays as tank. Fully upgraded, he reaches 764,263 Might, rank 9 of 11 among the game's tanks. Unlocking him takes 10 shards ( Griffith Shard), and the shards become available once the Ranger Statue reaches level 20.

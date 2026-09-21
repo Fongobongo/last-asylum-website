@@ -7,6 +7,8 @@ updated: "2026-09-19"
 type: guide
 ---
 
+![icon](/hero-icons/harper.webp)
+
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-harper)).
 
 Harper is a UR warrior who plays as support. Fully upgraded, he reaches 920,570 Might, rank 1 of 5 among the game's support heroes. Unlocking him takes 10 shards ( Harper Shard), and the shards become available once the Warrior Statue reaches level 20. Harper does not appear in the hero list until server day 21.

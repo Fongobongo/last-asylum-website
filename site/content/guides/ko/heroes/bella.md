@@ -7,6 +7,8 @@ updated: "2026-09-19"
 type: guide
 ---
 
+![icon](/hero-icons/bella.webp)
+
 **공식 명칭:** 벨라
 >
 > 번역된 이름은 공식 게임 클라이언트(v1.0.102) 기반. 표와 수치는 클라이언트(v1.0.87, wiki-last-asylum.com 경유). 본문은 영어.

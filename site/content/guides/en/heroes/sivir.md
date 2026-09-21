@@ -7,6 +7,8 @@ updated: "2026-09-19"
 type: guide
 ---
 
+![icon](/hero-icons/sivir.webp)
+
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-sivir)).
 
 Sivir is an SSR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Might, rank 11 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Sivir Shard), and the shards become available once the Warrior Statue reaches level 20.

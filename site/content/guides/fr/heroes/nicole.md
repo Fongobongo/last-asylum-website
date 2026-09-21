@@ -7,6 +7,8 @@ updated: "2026-09-19"
 type: guide
 ---
 
+![icon](/hero-icons/nicole.webp)
+
 **Nom officiel:** Nicole
 >
 > Les noms traduits viennent du client officiel (v1.0.102). Tableaux et chiffres du client (v1.0.87) via wiki-last-asylum.com ; texte en anglais ci-dessous.

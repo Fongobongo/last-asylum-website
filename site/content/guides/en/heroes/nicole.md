@@ -7,6 +7,8 @@ updated: "2026-09-19"
 type: guide
 ---
 
+![icon](/hero-icons/nicole.webp)
+
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-nicole)).
 
 Nicole is a UR warlock who plays as support. Fully upgraded, she reaches 920,570 Might, rank 3 of 5 among the game's support heroes. Unlocking her takes 10 shards ( Nicole Shard), and the shards become available once the Warlock Statue reaches level 20. Nicole does not appear in the hero list until server day 98.

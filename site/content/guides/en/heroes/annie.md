@@ -7,6 +7,8 @@ updated: "2026-09-19"
 type: guide
 ---
 
+![icon](/hero-icons/annie.webp)
+
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-annie)).
 
 Annie is a UR warlock who plays as DPS. Fully upgraded, she reaches 916,394 Might, rank 2 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Annie Shard), and the shards become available once the Warlock Statue reaches level 20. Annie does not appear in the hero list until server day 14.

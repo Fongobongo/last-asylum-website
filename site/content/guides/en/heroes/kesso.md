@@ -7,6 +7,8 @@ updated: "2026-09-19"
 type: guide
 ---
 
+![icon](/hero-icons/kesso.webp)
+
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-kesso)).
 
 Kesso is an SSR warrior who plays as DPS. Fully upgraded, he reaches 686,515 Might, rank 8 of 16 among the game's DPS heroes. Unlocking him takes 10 shards ( Kesso Shard), and the shards become available once the Warrior Statue reaches level 20.

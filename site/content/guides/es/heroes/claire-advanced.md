@@ -7,6 +7,8 @@ updated: "2026-09-19"
 type: guide
 ---
 
+![icon](/hero-icons/claire-advanced.webp)
+
 **Nombre oficial:** claire-advanced
 >
 > Los nombres traducidos provienen del cliente oficial (v1.0.102). Tablas y números del cliente (v1.0.87) vía wiki-last-asylum.com; texto en inglés abajo.

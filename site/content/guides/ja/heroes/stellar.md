@@ -7,6 +7,8 @@ updated: "2026-09-19"
 type: guide
 ---
 
+![icon](/hero-icons/stellar.webp)
+
 **公式名:** ステラ
 >
 > 翻訳名は公式ゲームクライアント（v1.0.102）由来。表と数値はクライアント（v1.0.87）由来（wiki-last-asylum.com 経由）。本文は英語。

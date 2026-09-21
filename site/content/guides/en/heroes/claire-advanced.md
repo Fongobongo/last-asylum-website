@@ -7,6 +7,8 @@ updated: "2026-09-19"
 type: guide
 ---
 
+![icon](/hero-icons/claire-advanced.webp)
+
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-claire-advanced)).
 
 Claire is a UR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Might, rank 13 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Claire Shard), and the shards become available once the Warrior Statue reaches level 20. Server age does not limit Claire: she is in the hero list from day one.

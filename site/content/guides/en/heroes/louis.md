@@ -7,6 +7,8 @@ updated: "2026-09-19"
 type: guide
 ---
 
+![icon](/hero-icons/louis.webp)
+
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-louis)).
 
 Louis is a UR ranger who plays as tank. Fully upgraded, he reaches 1,044,341 Might, rank 4 of 11 among the game's tanks. Unlocking him takes 10 shards ( Louis Shard), and the shards become available once the Ranger Statue reaches level 20. Louis does not appear in the hero list until server day 63.

@@ -7,6 +7,8 @@ updated: "2026-09-19"
 type: guide
 ---
 
+![icon](/hero-icons/lucius.webp)
+
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-lucius)).
 
 Lucius is an SSR warrior who plays as tank. Fully upgraded, he reaches 778,239 Might, rank 7 of 11 among the game's tanks. Unlocking him takes 10 shards ( Lucius Shard), and the shards become available once the Warrior Statue reaches level 20.

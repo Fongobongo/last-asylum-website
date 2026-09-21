@@ -7,6 +7,8 @@ updated: "2026-09-19"
 type: guide
 ---
 
+![icon](/hero-icons/robin.webp)
+
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-robin)).
 
 Robin is an SR ranger who plays as DPS. Fully upgraded, he reaches 523,779 Might, rank 15 of 16 among the game's DPS heroes. Unlocking him takes 10 shards ( Robin Shard), and the shards become available once the Ranger Statue reaches level 20.

@@ -7,6 +7,8 @@ updated: "2026-09-19"
 type: guide
 ---
 
+![icon](/hero-icons/ash.webp)
+
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-ash)).
 
 Ash is an SSR ranger who plays as DPS. Fully upgraded, she reaches 685,873 Might, rank 9 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Ash Shard), and the shards become available once the Ranger Statue reaches level 20.

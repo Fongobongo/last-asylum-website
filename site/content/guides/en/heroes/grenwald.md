@@ -7,6 +7,8 @@ updated: "2026-09-19"
 type: guide
 ---
 
+![icon](/hero-icons/grenwald.webp)
+
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-grenwald)).
 
 Grenwald is an SSR warlock who plays as DPS. Fully upgraded, he reaches 690,773 Might, rank 7 of 16 among the game's DPS heroes. Unlocking him takes 10 shards ( Grenwald Shard), and the shards become available once the Warlock Statue reaches level 20.

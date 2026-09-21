@@ -7,6 +7,8 @@ updated: "2026-09-19"
 type: guide
 ---
 
+![icon](/hero-icons/louis.webp)
+
 **Nama resmi:** Louis
 >
 > Nama terjemahan dari klien game resmi (v1.0.102). Tabel & angka dari klien (v1.0.87) via wiki-last-asylum.com; teks bahasa Inggris di bawah.

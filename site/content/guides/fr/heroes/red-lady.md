@@ -7,6 +7,8 @@ updated: "2026-09-19"
 type: guide
 ---
 
+![icon](/hero-icons/red-lady.webp)
+
 **Nom officiel:** Dame Rouge
 >
 > Les noms traduits viennent du client officiel (v1.0.102). Tableaux et chiffres du client (v1.0.87) via wiki-last-asylum.com ; texte en anglais ci-dessous.

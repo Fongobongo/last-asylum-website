@@ -7,6 +7,8 @@ updated: "2026-09-19"
 type: guide
 ---
 
+![icon](/hero-icons/daskal.webp)
+
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-daskal)).
 
 Daskal is a UR warrior who plays as tank. Fully upgraded, he reaches 1,057,192 Might, rank 2 of 11 among the game's tanks. Unlocking him takes 10 shards ( Daskal Shard), and the shards become available once the Warrior Statue reaches level 20. Daskal does not appear in the hero list until server day 28.

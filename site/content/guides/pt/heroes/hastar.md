@@ -7,6 +7,8 @@ updated: "2026-09-19"
 type: guide
 ---
 
+![icon](/hero-icons/hastar.webp)
+
 **Nome oficial:** Hastar
 >
 > Nomes traduzidos do cliente oficial do jogo (v1.0.102). Tabelas e números do cliente (v1.0.87) via wiki-last-asylum.com; texto em inglês abaixo.

@@ -48,9 +48,12 @@ const LBL: Record<string, string> = { ru: 'Общая информация', en:
   <p class="mb-10 text-lg text-stone-400">{tt.d}</p>
   <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
     {entries.map((e) => (
-      <a href={`${base}/heroes/${e.slug}/`} class="group rounded-lg border border-stone-800 bg-stone-900 p-5 transition-colors hover:border-plague-600">
-        <h2 class="text-lg font-bold text-plague-200 group-hover:text-plague-100">{e.title}</h2>
-        <p class="mt-2 text-sm text-stone-400">{e.desc}</p>
+      <a href={`${base}/heroes/${e.slug}/`} class="group flex items-start gap-3 rounded-lg border border-stone-800 bg-stone-900 p-4 transition-colors hover:border-plague-600">
+        <img src={`/hero-icons/${e.slug}.webp`} alt={e.title} loading="lazy" class="h-14 w-14 shrink-0 rounded-lg object-cover" onerror="this.remove()" />
+        <div class="min-w-0">
+          <h2 class="text-lg font-bold text-plague-200 group-hover:text-plague-100">{e.title}</h2>
+          <p class="mt-1 text-sm text-stone-400">{e.desc}</p>
+        </div>
       </a>
     ))}
   </div>

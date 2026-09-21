@@ -7,6 +7,8 @@ updated: "2026-09-19"
 type: guide
 ---
 
+![icon](/hero-icons/ash.webp)
+
 **Offizieller Name:** Ash
 >
 > Übersetzte Namen stammen aus dem offiziellen Game-Client (v1.0.102). Tabellen & Zahlen aus dem Client (v1.0.87) via wiki-last-asylum.com; englischer Text unten.
