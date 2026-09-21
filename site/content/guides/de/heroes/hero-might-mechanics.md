@@ -6,7 +6,7 @@ updated: "2026-10-01"
 videoTopic: heroes
 ---
 
-Wichtige Helden-Balance-Updates {#hero-balance-notes}
+## Wichtige Helden-Balance-Updates {#hero-balance-notes}
 
 Kürzliche Balance-Patches haben mehrere wichtige Helden angepasst:
 

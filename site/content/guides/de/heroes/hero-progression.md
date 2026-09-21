@@ -6,7 +6,7 @@ updated: "2026-10-01"
 videoTopic: heroes
 ---
 
-Prioritäten bei der Verbesserung von Fähigkeiten {#skill-priorities}
+## Prioritäten bei der Verbesserung von Fähigkeiten {#skill-priorities}
 
 Fähigkeiten fressen Abzeichen, und Abzeichen sind knapp. Die unten stehende Reihenfolge ist durch Community-Analysen des Schadens pro Abzeichen verifiziert – es ist kein Gefühl, es ist gemessen.
 

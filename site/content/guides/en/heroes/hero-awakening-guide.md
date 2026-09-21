@@ -6,7 +6,7 @@ updated: "2026-10-01"
 videoTopic: heroes
 ---
 
-Awakened Heroes: The Era Progression Order {#awakened-order}
+## Awakened Heroes: The Era Progression Order {#awakened-order}
 
 In the Era of Revival season, Awakened hero progression follows one fixed order. For your main hero, complete each step before starting the next:
 

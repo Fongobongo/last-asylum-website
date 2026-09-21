@@ -6,7 +6,7 @@ updated: "2026-10-01"
 videoTopic: heroes
 ---
 
-스킬 업그레이드 우선순위 {#skill-priorities}
+## 스킬 업그레이드 우선순위 {#skill-priorities}
 
 스킬에는 배지가 필요하며, 배지는 매우 귀합니다. 아래 순서는 커뮤니티의 '배지당 피해량' 분석을 통해 검증된 결과입니다.
 

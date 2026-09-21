@@ -6,7 +6,7 @@ updated: "2026-10-01"
 videoTopic: heroes
 ---
 
-📚 Справочник: Отряды: составы, тиры и резерв {#wiki-hero-teams}
+## 📚 Справочник: Отряды: составы, тиры и резерв {#wiki-hero-teams}
 
 Источник: [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/hero-teams), клиент v1.0.87.
 

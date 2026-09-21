@@ -6,7 +6,7 @@ updated: "2026-10-01"
 videoTopic: heroes
 ---
 
-Notas de equilibrio de héroes {#hero-balance-notes}
+## Notas de equilibrio de héroes {#hero-balance-notes}
 
 Los parches de equilibrio recientes ajustaron varios héroes clave:
 

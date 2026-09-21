@@ -6,7 +6,7 @@ updated: "2026-10-01"
 videoTopic: heroes
 ---
 
-Prioritas Peningkatan Skill {#skill-priorities}
+## Prioritas Peningkatan Skill {#skill-priorities}
 
 *Skill* memakan *badge*, dan *badge* sangat langka. Urutan di bawah ini diverifikasi oleh analisis *damage-per-badge* komunitas — ini bukan berdasarkan perasaan, melainkan terukur.
 

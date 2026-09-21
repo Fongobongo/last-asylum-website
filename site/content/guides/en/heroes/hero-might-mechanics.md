@@ -6,7 +6,7 @@ updated: "2026-10-01"
 videoTopic: heroes
 ---
 
-Healing Scaling Secret: Bell & Louis (66K → 205K HP) {#healing-scaling-secret}
+## Healing Scaling Secret: Bell & Louis (66K → 205K HP) {#healing-scaling-secret}
 
 > [!IMPORTANT] Counter-Intuitive Scaling: Heals Scale with ATTACK!
 > 99% of players make a fatal mistake: seeing "healer" or "support," they outfit **Bell** strictly in defensive gear (armor, boots, and HP). As a result, her heals output an underwhelming ~66K HP per pulse.

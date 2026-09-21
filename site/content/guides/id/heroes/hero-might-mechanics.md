@@ -6,7 +6,7 @@ updated: "2026-10-01"
 videoTopic: heroes
 ---
 
-Pembaruan Keseimbangan Hero Utama {#hero-balance-notes}
+## Pembaruan Keseimbangan Hero Utama {#hero-balance-notes}
 
 *Patch* keseimbangan baru-baru ini menyesuaikan beberapa hero kunci:
 

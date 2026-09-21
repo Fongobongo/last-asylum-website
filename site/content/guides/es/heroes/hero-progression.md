@@ -6,7 +6,7 @@ updated: "2026-10-01"
 videoTopic: heroes
 ---
 
-Prioridades de mejora de habilidades {#skill-priorities}
+## Prioridades de mejora de habilidades {#skill-priorities}
 
 Las habilidades consumen insignias, y las insignias son escasas. El orden a continuación está verificado por el análisis de daño por insignia de la comunidad; no es una sensación, está medido.
 

@@ -6,7 +6,7 @@ updated: "2026-10-01"
 videoTopic: heroes
 ---
 
-Skill Upgrade Priorities {#skill-priorities}
+## Skill Upgrade Priorities {#skill-priorities}
 
 Skills eat badges, and badges are scarce. The order below is verified by community damage-per-badge analysis — it is not a feel, it is measured.
 

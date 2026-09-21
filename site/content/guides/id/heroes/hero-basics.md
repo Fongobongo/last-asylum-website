@@ -6,7 +6,7 @@ updated: "2026-10-01"
 videoTopic: heroes
 ---
 
-Waktu Transisi Faksi: Warrior di Awal, Ranger di Tengah, Warlock di Akhir {#faction-timing}
+## Waktu Transisi Faksi: Warrior di Awal, Ranger di Tengah, Warlock di Akhir {#faction-timing}
 
 Ketiga faksi tidak setara pada tahap permainan yang sama. Konsensus komunitas mengenai kapan masing-masing faksi mencapai puncaknya:
 

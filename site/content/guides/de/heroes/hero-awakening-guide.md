@@ -6,7 +6,7 @@ updated: "2026-10-01"
 videoTopic: heroes
 ---
 
-Erwachte Helden: Die Ära-Fortschrittsreihenfolge {#awakened-order}
+## Erwachte Helden: Die Ära-Fortschrittsreihenfolge {#awakened-order}
 
 In der Saison „Ära der Wiedergeburt“ folgt der Fortschritt der erwachten Helden einer festen Reihenfolge. Schließe für deinen Haupthelden jeden Schritt ab, bevor du mit dem nächsten beginnst:
 

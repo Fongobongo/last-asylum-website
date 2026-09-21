@@ -6,7 +6,7 @@ updated: "2026-10-01"
 videoTopic: heroes
 ---
 
-Hero Awakened: Urutan Progres Era {#awakened-order}
+## Hero Awakened: Urutan Progres Era {#awakened-order}
 
 Di musim Era of Revival, progres hero *Awakened* mengikuti satu urutan tetap. Untuk hero utama Anda, selesaikan setiap langkah sebelum memulai yang berikutnya:
 

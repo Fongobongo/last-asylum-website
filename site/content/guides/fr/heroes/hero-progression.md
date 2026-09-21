@@ -6,7 +6,7 @@ updated: "2026-10-01"
 videoTopic: heroes
 ---
 
-Priorités d'amélioration des compétences {#skill-priorities}
+## Priorités d'amélioration des compétences {#skill-priorities}
 
 Les compétences consomment des badges, et les badges sont rares. L'ordre ci-dessous est vérifié par l'analyse communautaire des dégâts par badge — ce n'est pas une intuition, c'est mesuré.
 

@@ -6,7 +6,7 @@ updated: "2026-10-01"
 videoTopic: heroes
 ---
 
-ヒーローバランス調整 {#hero-balance-notes}
+## ヒーローバランス調整 {#hero-balance-notes}
 
 最近のパッチによる主な調整:
 

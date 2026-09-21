@@ -6,7 +6,7 @@ updated: "2026-10-01"
 videoTopic: heroes
 ---
 
-Fraktions-Timing: Krieger früh, Waldläufer Mitte, Hexenmeister spät {#faction-timing}
+## Fraktions-Timing: Krieger früh, Waldläufer Mitte, Hexenmeister spät {#faction-timing}
 
 Die drei Fraktionen sind in den verschiedenen Spielphasen nicht gleichwertig. Der Konsens der Community darüber, wann jede ihren Höhepunkt erreicht:
 

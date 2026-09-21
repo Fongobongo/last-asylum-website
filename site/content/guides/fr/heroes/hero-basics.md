@@ -6,7 +6,7 @@ updated: "2026-10-01"
 videoTopic: heroes
 ---
 
-Timing des factions : Guerriers au début, Rangers au milieu, Démonistes à la fin {#faction-timing}
+## Timing des factions : Guerriers au début, Rangers au milieu, Démonistes à la fin {#faction-timing}
 
 Les trois factions ne sont pas égales selon l'étape du jeu. Le consensus communautaire sur leur pic de puissance :
 

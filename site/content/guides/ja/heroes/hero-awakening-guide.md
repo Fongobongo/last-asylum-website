@@ -6,7 +6,7 @@ updated: "2026-10-01"
 videoTopic: heroes
 ---
 
-覚醒ヒーロー: Eraの進行順序 {#awakened-order}
+## 覚醒ヒーロー: Eraの進行順序 {#awakened-order}
 
 「Era of Revival」シーズンでは、覚醒ヒーローの進行は固定された順序に従います。メインヒーローについては、以下のステップを順番に完了させてください:
 

@@ -6,7 +6,7 @@ updated: "2026-10-01"
 videoTopic: heroes
 ---
 
-Héros Éveillés : L'ordre de progression de l'Ère {#awakened-order}
+## Héros Éveillés : L'ordre de progression de l'Ère {#awakened-order}
 
 Dans la saison Ère de la Renaissance, la progression des héros Éveillés suit un ordre fixe. Pour votre héros principal, terminez chaque étape avant de commencer la suivante :
 

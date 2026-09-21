@@ -6,7 +6,7 @@ updated: "2026-10-01"
 videoTopic: heroes
 ---
 
-Héroes Despertados: El orden de progresión de la Era {#awakened-order}
+## Héroes Despertados: El orden de progresión de la Era {#awakened-order}
 
 En la temporada Era del Renacimiento, la progresión de héroes Despertados sigue un orden fijo. Para tu héroe principal, completa cada paso antes de comenzar el siguiente:
 

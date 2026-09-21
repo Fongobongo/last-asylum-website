@@ -6,7 +6,7 @@ updated: "2026-10-01"
 videoTopic: heroes
 ---
 
-📚 Reference: Squads: compositions, tiers and bench {#wiki-hero-teams}
+## 📚 Reference: Squads: compositions, tiers and bench {#wiki-hero-teams}
 
 Source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-teams), client v1.0.87.
 

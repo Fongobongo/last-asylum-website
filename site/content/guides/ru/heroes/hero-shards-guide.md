@@ -6,7 +6,7 @@ updated: "2026-10-01"
 videoTopic: heroes
 ---
 
-📚 Справочник: Превращение героя: что нужно и что получается {#wiki-hero-conversion}
+## 📚 Справочник: Превращение героя: что нужно и что получается {#wiki-hero-conversion}
 
 Источник: [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/hero-conversion), клиент v1.0.87.
 

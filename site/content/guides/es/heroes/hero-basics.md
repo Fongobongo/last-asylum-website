@@ -6,7 +6,7 @@ updated: "2026-10-01"
 videoTopic: heroes
 ---
 
-Tiempos de facción: Guerreros al inicio, Exploradores a mitad, Brujos al final {#faction-timing}
+## Tiempos de facción: Guerreros al inicio, Exploradores a mitad, Brujos al final {#faction-timing}
 
 Las tres facciones no son iguales en la misma etapa del juego. El consenso de la comunidad sobre cuándo alcanza su punto máximo cada una:
 

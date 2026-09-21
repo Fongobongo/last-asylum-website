@@ -6,7 +6,7 @@ updated: "2026-10-01"
 videoTopic: heroes
 ---
 
-Cronograma de Facções: Guerreiros no Início, Rangers no Meio, Bruxos no Final {#faction-timing}
+## Cronograma de Facções: Guerreiros no Início, Rangers no Meio, Bruxos no Final {#faction-timing}
 
 As três facções não são iguais nos mesmos estágios do jogo. O consenso da comunidade sobre quando cada uma atinge o auge:
 

@@ -6,7 +6,7 @@ updated: "2026-10-01"
 videoTopic: heroes
 ---
 
-📚 Reference: Hero conversion: what it takes and gives {#wiki-hero-conversion}
+## 📚 Reference: Hero conversion: what it takes and gives {#wiki-hero-conversion}
 
 Source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-conversion), client v1.0.87.
 

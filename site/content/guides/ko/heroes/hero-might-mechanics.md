@@ -6,7 +6,7 @@ updated: "2026-10-01"
 videoTopic: heroes
 ---
 
-주요 영웅 밸런스 업데이트 {#hero-balance-notes}
+## 주요 영웅 밸런스 업데이트 {#hero-balance-notes}
 
 최근 밸런스 패치로 조정된 주요 영웅:
 

@@ -6,7 +6,7 @@ updated: "2026-10-01"
 videoTopic: heroes
 ---
 
-Faction Timing: Warriors Early, Rangers Mid, Warlocks Late {#faction-timing}
+## Faction Timing: Warriors Early, Rangers Mid, Warlocks Late {#faction-timing}
 
 The three factions are not equal at the same stage of the game. The community consensus on when each one peaks:
 

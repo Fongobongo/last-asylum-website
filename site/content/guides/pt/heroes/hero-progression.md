@@ -6,7 +6,7 @@ updated: "2026-10-01"
 videoTopic: heroes
 ---
 
-Prioridades de Melhoria de Habilidades {#skill-priorities}
+## Prioridades de Melhoria de Habilidades {#skill-priorities}
 
 Habilidades consomem emblemas, e emblemas são escassos. A ordem abaixo é verificada pela análise de dano por emblema da comunidade — não é um palpite, é medido.
 
