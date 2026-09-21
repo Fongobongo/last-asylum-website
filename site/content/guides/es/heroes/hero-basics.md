@@ -60,11 +60,11 @@ Desde que salieron los epígrafes de Raven, ejecutar una sola facción ha pasado
 
 Lo cual es también la razón por la que el escuadrón canónico es todo de Guerreros: la inversión en epígrafes se combina sobre una facción ya apilada. Los escuadrones de facción dividida pagan por epígrafes que solo mejoran a la mitad del equipo.
 
-### Héroes morados: Especialistas en Jefes Mundiales (Ash y Cecilia) {#boss-purples}
+### Héroes morados: Especialistas en Jefes Mundiales (Ash y Celia) {#boss-purples}
 
 Aunque los héroes morados (SSR) se eliminan de las listas principales de combate después de la primera semana, dos excepciones tienen utilidad de JcE de por vida:
 
 * **Ash:** Su habilidad pasiva amplifica directamente el daño total del escuadrón infligido a los **Jefes Mundiales**.
-* **Cecilia:** Aumenta la bonificación de recursos y el botín de eliminación de los Jefes Mundiales.
+* **Celia:** Aumenta la bonificación de recursos y el botín de eliminación de los Jefes Mundiales.
 
 Invierte insignias de habilidad moradas sobrantes en sus habilidades principales; multiplican de manera confiable tu rendimiento semanal en incursiones.

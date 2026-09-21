@@ -60,11 +60,11 @@ Seit Raven-Epigraphen veröffentlicht wurden, ist das Spielen einer einzigen Fra
 
 Das ist auch der Grund, warum der kanonische Trupp nur aus Kriegern besteht: Die Epigraph-Investition verstärkt sich zusätzlich zu einer bereits gestapelten Fraktion. Split-Fraktions-Trupps bezahlen für Epigraphen, die nur die Hälfte des Teams verstärken.
 
-### Lila Helden: Weltboss-Spezialisten (Ash & Cecilia) {#boss-purples}
+### Lila Helden: Weltboss-Spezialisten (Ash & Celia) {#boss-purples}
 
 Während lila (SSR) Helden nach der ersten Woche aus den Hauptkampf-Aufstellungen fliegen, haben zwei Ausnahmen lebenslange PvE-Nützlichkeit:
 
 * **Ash:** Seine passive Fähigkeit verstärkt direkt den gesamten Truppenschaden gegen **Weltbosse**.
-* **Cecilia:** Erhöht Bonus-Ressourcen-Drops und Kill-Beute von Weltbossen.
+* **Celia:** Erhöht Bonus-Ressourcen-Drops und Kill-Beute von Weltbossen.
 
 Stecke überschüssige lila Fähigkeitsabzeichen in ihre Kernfähigkeiten – sie vervielfachen zuverlässig deinen wöchentlichen Raid-Ertrag.

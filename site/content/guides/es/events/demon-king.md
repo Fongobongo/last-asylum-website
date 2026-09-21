@@ -54,9 +54,9 @@ Para maximizar tu clasificación de daño y asegurar los mejores cofres de hitos
 La alineación F2P (disponible desde el día 8):
 
 - **Escuadrón Ranger**: **Cynthia** al frente (es gratuita en la Ruleta de la Suerte del día 8) + **Ash** detrás (+19% de daño a monstruos para 2 rangers con mayor ATK) + **Bestar**.
-- **Escuadrón Guerrero**: Marlena (si compraste el héroe de $2) + Cecilia detrás. F2P puro: usa a Claire SSR/UR en su lugar; ella mejora a 3 guerreros con mayor ATK con daño a monstruos. Funciona hasta aprox. el día 70.
+- **Escuadrón Guerrero**: Marlena (si compraste el héroe de $2) + Celia detrás. F2P puro: usa a Claire SSR/UR en su lugar; ella mejora a 3 guerreros con mayor ATK con daño a monstruos. Funciona hasta aprox. el día 70.
 
-La alineación de endgame es un **escuadrón mono-facción ajustado a la rotación actual del jefe** (Lun/Jue = contraataque de Brujos, Mar/Vie = contraataque de Rangers, Mié/Sáb = contraataque de Guerreros; consulta la tabla de Magos arriba). Un equipo de solo guerreros de endgame (Marlena + Zoya al frente, Harper + Cecilia en medio, Daskal/Ulfrear detrás) con la bonificación de +20% de ataque de facción gana por defecto.
+La alineación de endgame es un **escuadrón mono-facción ajustado a la rotación actual del jefe** (Lun/Jue = contraataque de Brujos, Mar/Vie = contraataque de Rangers, Mié/Sáb = contraataque de Guerreros; consulta la tabla de Magos arriba). Un equipo de solo guerreros de endgame (Marlena + Zoya al frente, Harper + Celia en medio, Daskal/Ulfrear detrás) con la bonificación de +20% de ataque de facción gana por defecto.
 
 Dos trucos previos a la pelea que añaden cientos de miles a tu puntuación:
 

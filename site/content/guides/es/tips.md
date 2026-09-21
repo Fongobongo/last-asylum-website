@@ -231,12 +231,12 @@ Las Piedras de Equipo son severamente limitadas. Distribuirlas en ranuras de equ
 
 ---
 
-## 11. Especialistas en Jefes Mundiales: Ash y Cecilia {#boss-specialists}
+## 11. Especialistas en Jefes Mundiales: Ash y Celia {#boss-specialists}
 
 Aunque los héroes morados (SSR) se eliminan de las alineaciones PvP temprano, dos personajes presentan una utilidad irremplazable para el Jefe Mundial:
 
 * **Ash:** Su habilidad pasiva amplifica directamente el daño total del escuadrón infligido a los **Jefes Mundiales**.
-* **Cecilia:** Aumenta las caídas de recursos adicionales y las recompensas de eliminación de los Jefes Mundiales.
+* **Celia:** Aumenta las caídas de recursos adicionales y las recompensas de eliminación de los Jefes Mundiales.
 * Invertir piedras de habilidad moradas sobrantes en estos dos paga dividendos de por vida en el botín de los jefes.
 
 ---

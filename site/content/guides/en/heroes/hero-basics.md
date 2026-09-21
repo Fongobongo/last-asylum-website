@@ -60,12 +60,12 @@ Since Raven epigraphs shipped, running a single faction has gone from a nice bon
 
 Which is also why the canonical squad is all-Warrior: the epigraph investment compounds on top of an already-stacked faction. Split-faction squads pay for epigraphs that only buff half the team.
 
-### Purple Heroes: World Boss Specialists (Ash & Cecilia) {#boss-purples}
+### Purple Heroes: World Boss Specialists (Ash & Celia) {#boss-purples}
 
 While purple (SSR) heroes are dropped from main combat rosters after week one, two exceptions carry lifelong PvE utility:
 
-* **Ash:** His passive skill directly amplifies total squad damage dealt to **World Bosses**.
-* **Cecilia:** Increases bonus resource drops and kill loot from World Bosses.
+* **Ash:** Her passive «Focus» buffs **monster damage** dealt by the two highest-attack rangers in the team (per client v1.0.102).
+* **Celia:** Increases bonus resource drops and kill loot from World Bosses.
 
 Feed spare purple skill badges into their core abilities — they reliably multiply your weekly raid yield.
 

@@ -66,12 +66,12 @@ Desde que as epígrafes Raven foram lançadas, usar uma única facção deixou d
 
 O que também explica por que o esquadrão canônico é todo de Guerreiros: o investimento em epígrafes se acumula sobre uma facção já empilhada. Esquadrões de facção dividida pagam por epígrafes que fortalecem apenas metade da equipe.
 
-### Heróis Roxos: Especialistas em Chefes Mundiais (Ash & Cecilia) {#boss-purples}
+### Heróis Roxos: Especialistas em Chefes Mundiais (Ash & Celia) {#boss-purples}
 
 Embora heróis roxos (SSR) sejam removidos das listas principais de combate após a primeira semana, duas exceções carregam utilidade vitalícia em PvE:
 
 * **Ash:** Sua habilidade passiva amplifica diretamente o dano total do esquadrão causado aos **Chefes Mundiais**.
-* **Cecilia:** Aumenta o bônus de recursos e espólios de morte de Chefes Mundiais.
+* **Celia:** Aumenta o bônus de recursos e espólios de morte de Chefes Mundiais.
 
 Alimente emblemas de habilidade roxos sobressalentes em suas habilidades principais — eles multiplicam de forma confiável seu rendimento semanal de incursões.
 
@@ -106,7 +106,7 @@ Para cada herói, Korpez analisa todas as habilidades com um nível alvo. Destil
 - **Billy (Tanque Bruxo)** — Fio do Destino protege seus 2 melhores aliados de ATK (25+); sua passiva concede imunidade quase total ao atordoamento da Dama Vermelha.
 - **Nicole** — suporte com cura de nível DPS baseada em seu atributo de ATK; curas são acionadas em inimigos queimando (sinergia com Joker).
 - **Bell** — **suas curas escalam com ATK**, não DEF: ignorar espada+luvas corta sua cura de ~205K para ~66K. Sim — coloque equipamento de dano real no seu "suporte".
-- **Ash & Cecilia (SR)** — os únicos heróis roxos que valem habilidades: Ash = +bônus de dano a monstros, Cecilia = bônus de coleta de recursos. Todo o resto SR permanece na base.
+- **Ash & Celia (SR)** — os únicos heróis roxos que valem habilidades: Ash = +bônus de dano a monstros, Celia = bônus de coleta de recursos. Todo o resto SR permanece na base.
 - Geral: **nunca gaste pontos de habilidade em habilidades de ataque de tanques; nunca na espada de um tanque.**
 
 ## Pontos de Ruptura de Estrelas e Tenacidade {#star-breakpoints}

@@ -37,7 +37,7 @@ Pour chaque héros, Korpez détaille chaque compétence avec un niveau cible. Sy
 - **Billy (Tank Démoniste)** — Fil du Destin protège vos 2 meilleurs alliés en ATQ (25+) ; sa passive accorde une immunité quasi totale à l'étourdissement de Dame Rouge.
 - **Nicole** — soutien avec des soins basés sur sa statistique d'ATQ ; les soins se déclenchent sur les ennemis brûlés (synergie Joker).
 - **Bell** — **ses soins dépendent de l'ATQ**, pas de la DÉF : ignorer l'épée+gants fait chuter ses soins de ~205K à ~66K. Oui — mettez du vrai équipement de dégâts sur votre "soutien".
-- **Ash & Cecilia (SR)** — les seuls héros violets qui valent des compétences : Ash = bonus de dégâts aux monstres, Cecilia = bonus de récolte. Tout le reste en SR reste à la base.
+- **Ash & Celia (SR)** — les seuls héros violets qui valent des compétences : Ash = bonus de dégâts aux monstres, Celia = bonus de récolte. Tout le reste en SR reste à la base.
 - Général : **ne dépensez jamais de points de compétence dans les compétences d'attaque des tanks ; jamais sur l'épée d'un tank.**
 
 ## Paliers d'étoiles et Ténacité {#star-breakpoints}

@@ -54,9 +54,9 @@ Pour maximiser votre classement de dégâts et sécuriser les meilleurs coffres 
 L'escouade F2P (disponible à partir du jour 8) :
 
 - **Escouade Rôdeur** : **Cynthia** devant (elle est gratuite via la Roue de la Fortune du jour 8) + **Ash** derrière (+19 % de dégâts contre les monstres pour les 2 rôdeurs avec le plus d'ATQ) + **Bestar**.
-- **Escouade Guerrier** : Marlena (si vous avez acheté le héros à 2 $) + Cecilia derrière. Pure F2P : utilisez Claire SSR/UR à la place — elle buffe 3 guerriers avec le plus d'ATQ avec des dégâts contre les monstres. Fonctionne jusqu'au ~jour 70.
+- **Escouade Guerrier** : Marlena (si vous avez acheté le héros à 2 $) + Celia derrière. Pure F2P : utilisez Claire SSR/UR à la place — elle buffe 3 guerriers avec le plus d'ATQ avec des dégâts contre les monstres. Fonctionne jusqu'au ~jour 70.
 
-L'escouade endgame est une **escouade mono-faction adaptée à la rotation actuelle du boss** (Lun/Jeu = contre Démonistes, Mar/Ven = contre Rôdeurs, Mer/Sam = contre Guerriers — voir le tableau des Mages ci-dessus). Une pile de guerriers endgame (Marlena + Zoya devant, Harper + Cecilia au milieu, Daskal/Ulfrear derrière) avec le bonus d'attaque de faction de +20 % gagne par défaut.
+L'escouade endgame est une **escouade mono-faction adaptée à la rotation actuelle du boss** (Lun/Jeu = contre Démonistes, Mar/Ven = contre Rôdeurs, Mer/Sam = contre Guerriers — voir le tableau des Mages ci-dessus). Une pile de guerriers endgame (Marlena + Zoya devant, Harper + Celia au milieu, Daskal/Ulfrear derrière) avec le bonus d'attaque de faction de +20 % gagne par défaut.
 
 Deux astuces avant le combat qui ajoutent des centaines de milliers de points à votre score :
 

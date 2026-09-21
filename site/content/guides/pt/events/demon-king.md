@@ -54,9 +54,9 @@ Para maximizar seu ranking de dano e garantir os melhores baús de marco:
 A formação F2P (disponível a partir do dia 8):
 
 - **Esquadrão Ranger**: **Cynthia** na frente (ela é gratuita na Roda da Sorte do Dia 8) + **Ash** atrás (+19% de dano a monstros para 2 rangers de maior ATK) + **Bestar**.
-- **Esquadrão Guerreiro**: Marlena (se você comprou o herói de $2) + Cecilia atrás. F2P puro: use Claire SSR/UR em vez disso — ela fortalece 3 guerreiros de maior ATK com dano a monstros. Funciona até ~dia 70.
+- **Esquadrão Guerreiro**: Marlena (se você comprou o herói de $2) + Celia atrás. F2P puro: use Claire SSR/UR em vez disso — ela fortalece 3 guerreiros de maior ATK com dano a monstros. Funciona até ~dia 70.
 
-A formação de endgame é um **esquadrão de facção única ajustado à rotação atual do chefe** (Seg/Qui = contra-ataque de Warlock, Ter/Sex = contra-ataque de Ranger, Qua/Sáb = contra-ataque de Guerreiro — veja a tabela de Magos acima). Uma pilha de guerreiros de endgame (Marlena + Zoya na frente, Harper + Cecilia no meio, Daskal/Ulfrear atrás) com o bônus de ataque de facção de +20% vence por padrão.
+A formação de endgame é um **esquadrão de facção única ajustado à rotação atual do chefe** (Seg/Qui = contra-ataque de Warlock, Ter/Sex = contra-ataque de Ranger, Qua/Sáb = contra-ataque de Guerreiro — veja a tabela de Magos acima). Uma pilha de guerreiros de endgame (Marlena + Zoya na frente, Harper + Celia no meio, Daskal/Ulfrear atrás) com o bônus de ataque de facção de +20% vence por padrão.
 
 Dois truques pré-luta que adicionam centenas de milhares à sua pontuação:
 

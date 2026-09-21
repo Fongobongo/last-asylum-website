@@ -66,12 +66,12 @@ Sejak *epigraph* Raven dirilis, menjalankan satu faksi telah berubah dari bonus 
 
 Itulah sebabnya skuad kanonik semuanya Warrior: investasi *epigraph* terakumulasi di atas faksi yang sudah ditumpuk. Skuad faksi campuran membayar untuk *epigraph* yang hanya memberikan *buff* pada setengah tim.
 
-### Hero Ungu: Spesialis World Boss (Ashe & Cecilia) {#boss-purples}
+### Hero Ungu: Spesialis World Boss (Ashe & Celia) {#boss-purples}
 
 Meskipun hero ungu (SSR) dikeluarkan dari daftar tempur utama setelah minggu pertama, dua pengecualian memiliki kegunaan PvE seumur hidup:
 
 * **Ashe:** *Skill* pasifnya secara langsung memperkuat total *damage* skuad yang diberikan kepada **World Boss**.
-* **Cecilia:** Meningkatkan *drop* sumber daya bonus dan *loot* dari World Boss.
+* **Celia:** Meningkatkan *drop* sumber daya bonus dan *loot* dari World Boss.
 
 Masukkan *badge skill* ungu cadangan ke kemampuan inti mereka — mereka secara andal melipatgandakan hasil *raid* mingguan Anda.
 
@@ -106,7 +106,7 @@ Untuk setiap hero, Korpez memeriksa setiap *skill* dengan level target. Intisari
 - **Billy (Tank Warlock)** — Fate's Thread melindungi 2 sekutu ATK teratas Anda (25+); pasifnya memberikan kekebalan *stun* Nyonya Merah yang hampir total.
 - **Nicole** — pendukung dengan penyembuhan tingkat DPS dari statistik ATK-nya; penyembuhan dipicu pada musuh yang terbakar (sinergi Joker).
 - **Belle** — **penyembuhannya berskala dengan ATK**, bukan DEF: mengabaikan pedang+sarung tangan memotong penyembuhannya dari ~205K menjadi ~66K. Ya — pasang perlengkapan *damage* nyata pada "pendukung" Anda.
-- **Ashe & Cecilia (SR)** — satu-satunya hero ungu yang layak diberi *skill*: Ashe = +buff *damage* monster, Cecilia = buff pengumpul sumber daya. Yang lain tetap di dasar.
+- **Ashe & Celia (SR)** — satu-satunya hero ungu yang layak diberi *skill*: Ashe = +buff *damage* monster, Celia = buff pengumpul sumber daya. Yang lain tetap di dasar.
 - Umum: **jangan pernah menghabiskan poin *skill* pada *skill* serangan *tank*; jangan pernah pada pedang *tank* sama sekali.**
 
 ## Titik Batas Bintang dan Tenacity {#star-breakpoints}

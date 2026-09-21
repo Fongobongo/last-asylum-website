@@ -66,12 +66,12 @@ Depuis l'arrivée des épigraphes Raven, jouer une seule faction est passé d'un
 
 C'est aussi pourquoi l'escouade canonique est entièrement composée de Guerriers : l'investissement dans les épigraphes se cumule sur une faction déjà optimisée. Les escouades multi-factions paient pour des épigraphes qui n'améliorent que la moitié de l'équipe.
 
-### Héros violets : Spécialistes des Boss mondiaux (Ash & Cecilia) {#boss-purples}
+### Héros violets : Spécialistes des Boss mondiaux (Ash & Celia) {#boss-purples}
 
 Bien que les héros violets (SSR) soient retirés des rosters de combat principaux après la première semaine, deux exceptions conservent une utilité PvE à vie :
 
 * **Ash :** Sa compétence passive amplifie directement les dégâts totaux infligés aux **Boss mondiaux**.
-* **Cecilia :** Augmente les bonus de ressources et le butin obtenus sur les Boss mondiaux.
+* **Celia :** Augmente les bonus de ressources et le butin obtenus sur les Boss mondiaux.
 
 Investissez vos badges de compétence violets excédentaires dans leurs capacités principales — ils multiplient de manière fiable votre rendement hebdomadaire en raid.
 
@@ -106,7 +106,7 @@ Pour chaque héros, Korpez détaille chaque compétence avec un niveau cible. Sy
 - **Billy (Tank Démoniste)** — Fil du Destin protège vos 2 meilleurs alliés en ATQ (25+) ; sa passive accorde une immunité quasi totale à l'étourdissement de Dame Rouge.
 - **Nicole** — soutien avec des soins basés sur sa statistique d'ATQ ; les soins se déclenchent sur les ennemis brûlés (synergie Joker).
 - **Bell** — **ses soins dépendent de l'ATQ**, pas de la DÉF : ignorer l'épée+gants fait chuter ses soins de ~205K à ~66K. Oui — mettez du vrai équipement de dégâts sur votre "soutien".
-- **Ash & Cecilia (SR)** — les seuls héros violets qui valent des compétences : Ash = bonus de dégâts aux monstres, Cecilia = bonus de récolte. Tout le reste en SR reste à la base.
+- **Ash & Celia (SR)** — les seuls héros violets qui valent des compétences : Ash = bonus de dégâts aux monstres, Celia = bonus de récolte. Tout le reste en SR reste à la base.
 - Général : **ne dépensez jamais de points de compétence dans les compétences d'attaque des tanks ; jamais sur l'épée d'un tank.**
 
 ## Paliers d'étoiles et Ténacité {#star-breakpoints}

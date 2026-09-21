@@ -54,9 +54,9 @@ Untuk memaksimalkan peringkat damage Anda dan mendapatkan peti milestone terting
 Lineup F2P (tersedia mulai hari ke-8):
 
 - **Skuad Ranger**: **Cynthia** di depan (gratis dari Lucky Wheel Hari ke-8) + **Ashe** di belakang (+19% damage monster untuk 2 ranger dengan ATK tertinggi) + **Bast**.
-- **Skuad Warrior**: Marlena (jika Anda membeli hero $2) + Cecilia di belakang. F2P murni: gunakan Clea SSR/UR sebagai gantinya — dia memberikan buff damage monster kepada 3 warrior dengan ATK tertinggi. Berfungsi hingga ~hari ke-70.
+- **Skuad Warrior**: Marlena (jika Anda membeli hero $2) + Celia di belakang. F2P murni: gunakan Clea SSR/UR sebagai gantinya — dia memberikan buff damage monster kepada 3 warrior dengan ATK tertinggi. Berfungsi hingga ~hari ke-70.
 
-Lineup endgame adalah **skuad mono-faksi yang disesuaikan dengan rotasi bos saat ini** (Sen/Kam = counter Warlock, Sel/Jum = counter Ranger, Rab/Sab = counter Warrior — lihat bagan Mage di atas). Tumpukan all-warrior endgame (Marlena + Zoya di depan, Harper + Cecilia di tengah, Duskar/Ulfrear di belakang) dengan bonus serangan faksi +20% akan menang secara default.
+Lineup endgame adalah **skuad mono-faksi yang disesuaikan dengan rotasi bos saat ini** (Sen/Kam = counter Warlock, Sel/Jum = counter Ranger, Rab/Sab = counter Warrior — lihat bagan Mage di atas). Tumpukan all-warrior endgame (Marlena + Zoya di depan, Harper + Celia di tengah, Duskar/Ulfrear di belakang) dengan bonus serangan faksi +20% akan menang secara default.
 
 Dua trik sebelum bertarung yang menambah ratusan ribu ke skor Anda:
 

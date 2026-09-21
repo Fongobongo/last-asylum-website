@@ -231,12 +231,12 @@ Gear Stones are severely limited. Spreading them across random equipment slots c
 
 ---
 
-## 11. World Boss Specialists: Ash and Cecilia {#boss-specialists}
+## 11. World Boss Specialists: Ash and Celia {#boss-specialists}
 
 While purple (SSR) heroes are phased out of PvP lineups early, two characters feature irreplaceable World Boss utility:
 
-* **Ash:** His passive skill directly amplifies total squad damage dealt to **World Bosses**.
-* **Cecilia:** Increases bonus resource drops and kill rewards from World Bosses.
+* **Ash:** Her passive «Focus» buffs **monster damage** dealt by the two highest-attack rangers in the team (per client v1.0.102).
+* **Celia:** Increases bonus resource drops and kill rewards from World Bosses.
 * Investing spare purple skill stones into these two pays lifelong dividends in boss loot.
 
 ---

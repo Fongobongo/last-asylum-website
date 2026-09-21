@@ -66,12 +66,12 @@ Desde que salieron los epígrafes de Raven, ejecutar una sola facción ha pasado
 
 Lo cual es también la razón por la que el escuadrón canónico es todo de Guerreros: la inversión en epígrafes se combina sobre una facción ya apilada. Los escuadrones de facción dividida pagan por epígrafes que solo mejoran a la mitad del equipo.
 
-### Héroes morados: Especialistas en Jefes Mundiales (Ash y Cecilia) {#boss-purples}
+### Héroes morados: Especialistas en Jefes Mundiales (Ash y Celia) {#boss-purples}
 
 Aunque los héroes morados (SSR) se eliminan de las listas principales de combate después de la primera semana, dos excepciones tienen utilidad de JcE de por vida:
 
 * **Ash:** Su habilidad pasiva amplifica directamente el daño total del escuadrón infligido a los **Jefes Mundiales**.
-* **Cecilia:** Aumenta la bonificación de recursos y el botín de eliminación de los Jefes Mundiales.
+* **Celia:** Aumenta la bonificación de recursos y el botín de eliminación de los Jefes Mundiales.
 
 Invierte insignias de habilidad moradas sobrantes en sus habilidades principales; multiplican de manera confiable tu rendimiento semanal en incursiones.
 
@@ -106,7 +106,7 @@ Para cada héroe, Korpez revisa cada habilidad con un nivel objetivo. Destilaci�
 - **Billy (Tanque Brujo)** — Hilo del Destino protege a tus 2 mejores aliados de ATQ (25+); su pasiva otorga inmunidad casi total al aturdimiento de Dama Roja.
 - **Nicole** — apoyo con curación de nivel DPS basada en su estadística de ATQ; las curaciones se activan con enemigos en llamas (sinergia con Joker).
 - **Bell** — **sus curaciones escalan con ATQ**, no con DEF: ignorar espada+guantes reduce su curación de ~205K a ~66K. Sí, pon equipo de daño real en tu "apoyo".
-- **Ash y Cecilia (SR)** — los únicos héroes morados que valen la pena para habilidades: Ash = +bono de daño a monstruos, Cecilia = bono de recolección de recursos. Todo lo demás SR se queda en la base.
+- **Ash y Celia (SR)** — los únicos héroes morados que valen la pena para habilidades: Ash = +bono de daño a monstruos, Celia = bono de recolección de recursos. Todo lo demás SR se queda en la base.
 - General: **nunca gastes puntos de habilidad en habilidades de ataque de tanques; nunca en la espada de un tanque.**
 
 ## Puntos de inflexión de estrellas y Tenacidad {#star-breakpoints}

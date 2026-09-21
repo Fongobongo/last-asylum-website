@@ -60,11 +60,11 @@ Depuis l'arrivée des épigraphes Raven, jouer une seule faction est passé d'un
 
 C'est aussi pourquoi l'escouade canonique est entièrement composée de Guerriers : l'investissement dans les épigraphes se cumule sur une faction déjà optimisée. Les escouades multi-factions paient pour des épigraphes qui n'améliorent que la moitié de l'équipe.
 
-### Héros violets : Spécialistes des Boss mondiaux (Ash & Cecilia) {#boss-purples}
+### Héros violets : Spécialistes des Boss mondiaux (Ash & Celia) {#boss-purples}
 
 Bien que les héros violets (SSR) soient retirés des rosters de combat principaux après la première semaine, deux exceptions conservent une utilité PvE à vie :
 
 * **Ash :** Sa compétence passive amplifie directement les dégâts totaux infligés aux **Boss mondiaux**.
-* **Cecilia :** Augmente les bonus de ressources et le butin obtenus sur les Boss mondiaux.
+* **Celia :** Augmente les bonus de ressources et le butin obtenus sur les Boss mondiaux.
 
 Investissez vos badges de compétence violets excédentaires dans leurs capacités principales — ils multiplient de manière fiable votre rendement hebdomadaire en raid.

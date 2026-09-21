@@ -231,12 +231,12 @@ Ausrüstungssteine sind stark begrenzt. Sie über zufällige Ausrüstungsslots z
 
 ---
 
-## 11. Weltboss-Spezialisten: Ash und Cecilia {#boss-specialists}
+## 11. Weltboss-Spezialisten: Ash und Celia {#boss-specialists}
 
 Während lila (SSR) Helden früh aus PvP-Aufstellungen aussortiert werden, bieten zwei Charaktere unersetzlichen Nutzen bei Weltbossen:
 
 * **Ash:** Seine passive Fähigkeit verstärkt direkt den gesamten Truppschaden, der gegen **Weltbosse** verursacht wird.
-* **Cecilia:** Erhöht Bonus-Ressourcen-Drops und Kill-Belohnungen von Weltbossen.
+* **Celia:** Erhöht Bonus-Ressourcen-Drops und Kill-Belohnungen von Weltbossen.
 * Das Investieren von überschüssigen lila Skill-Steinen in diese beiden zahlt sich lebenslang durch Boss-Beute aus.
 
 ---

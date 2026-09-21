@@ -54,9 +54,9 @@ To maximize your damage ranking and secure top milestone chests:
 The F2P lineup (available from day 8):
 
 - **Ranger squad**: **Cynthia** front (she's free from the Day-8 Lucky Wheel) + **Ash** behind (+19% monster damage for 2 top-ATK rangers) + **Bestar**.
-- **Warrior squad**: Marlena (if you bought the $2 hero) + Cecilia behind. Pure F2P: use Claire SSR/UR instead — she buffs 3 top-ATK warriors with monster damage. Works until ~day 70.
+- **Warrior squad**: Marlena (if you bought the $2 hero) + Celia behind. Pure F2P: use Claire SSR/UR instead — she buffs 3 top-ATK warriors with monster damage. Works until ~day 70.
 
-The endgame lineup is a **mono-faction squad tuned to the current boss rotation** (Mon/Thu = Warlock counters, Tue/Fri = Ranger counters, Wed/Sat = Warrior counters — see the Mages chart above). An endgame all-warrior stack (Marlena + Zoya front, Harper + Cecilia mid, Daskal/Ulfrear back) with the +20% faction attack bonus wins by default.
+The endgame lineup is a **mono-faction squad tuned to the current boss rotation** (Mon/Thu = Warlock counters, Tue/Fri = Ranger counters, Wed/Sat = Warrior counters — see the Mages chart above). An endgame all-warrior stack (Marlena + Zoya front, Harper + Celia mid, Daskal/Ulfrear back) with the +20% faction attack bonus wins by default.
 
 Two pre-fight tricks that add hundreds of thousands to your score:
 

@@ -37,7 +37,7 @@ For each hero Korpez goes through every skill with a target level. Distillation:
 - **Billy (Warlock tank)** — Fate's Thread protects your top-2 ATK allies (25+); his passive grants near-total Red Lady stun immunity.
 - **Nicole** — support with DPS-tier healing off her ATK stat; heals trigger on burning enemies (Joker synergy).
 - **Bell** — **her heals scale with ATK**, not DEF: ignoring sword+gloves cuts her healing from ~205K to ~66K. Yes — put real damage gear on your "support".
-- **Ash & Cecilia (SR)** — the only purple heroes worth skills: Ash = +monster damage buff, Cecilia = resource-gather buff. Everything else SR stays at base.
+- **Ash & Celia (SR)** — the only purple heroes worth skills: Ash = +monster damage buff, Celia = resource-gather buff. Everything else SR stays at base.
 - General: **never spend skill points on tanks' attack skills; never on a tank's sword at all.**
 
 ## Star Breakpoints and Tenacity {#star-breakpoints}

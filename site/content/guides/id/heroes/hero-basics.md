@@ -60,11 +60,11 @@ Sejak *epigraph* Raven dirilis, menjalankan satu faksi telah berubah dari bonus 
 
 Itulah sebabnya skuad kanonik semuanya Warrior: investasi *epigraph* terakumulasi di atas faksi yang sudah ditumpuk. Skuad faksi campuran membayar untuk *epigraph* yang hanya memberikan *buff* pada setengah tim.
 
-### Hero Ungu: Spesialis World Boss (Ashe & Cecilia) {#boss-purples}
+### Hero Ungu: Spesialis World Boss (Ashe & Celia) {#boss-purples}
 
 Meskipun hero ungu (SSR) dikeluarkan dari daftar tempur utama setelah minggu pertama, dua pengecualian memiliki kegunaan PvE seumur hidup:
 
 * **Ashe:** *Skill* pasifnya secara langsung memperkuat total *damage* skuad yang diberikan kepada **World Boss**.
-* **Cecilia:** Meningkatkan *drop* sumber daya bonus dan *loot* dari World Boss.
+* **Celia:** Meningkatkan *drop* sumber daya bonus dan *loot* dari World Boss.
 
 Masukkan *badge skill* ungu cadangan ke kemampuan inti mereka — mereka secara andal melipatgandakan hasil *raid* mingguan Anda.

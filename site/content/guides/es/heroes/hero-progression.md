@@ -37,7 +37,7 @@ Para cada héroe, Korpez revisa cada habilidad con un nivel objetivo. Destilaci�
 - **Billy (Tanque Brujo)** — Hilo del Destino protege a tus 2 mejores aliados de ATQ (25+); su pasiva otorga inmunidad casi total al aturdimiento de Dama Roja.
 - **Nicole** — apoyo con curación de nivel DPS basada en su estadística de ATQ; las curaciones se activan con enemigos en llamas (sinergia con Joker).
 - **Bell** — **sus curaciones escalan con ATQ**, no con DEF: ignorar espada+guantes reduce su curación de ~205K a ~66K. Sí, pon equipo de daño real en tu "apoyo".
-- **Ash y Cecilia (SR)** — los únicos héroes morados que valen la pena para habilidades: Ash = +bono de daño a monstruos, Cecilia = bono de recolección de recursos. Todo lo demás SR se queda en la base.
+- **Ash y Celia (SR)** — los únicos héroes morados que valen la pena para habilidades: Ash = +bono de daño a monstruos, Celia = bono de recolección de recursos. Todo lo demás SR se queda en la base.
 - General: **nunca gastes puntos de habilidad en habilidades de ataque de tanques; nunca en la espada de un tanque.**
 
 ## Puntos de inflexión de estrellas y Tenacidad {#star-breakpoints}

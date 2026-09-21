@@ -54,9 +54,9 @@ Um Ihr Schadensranking zu maximieren und die besten Meilenstein-Kisten zu sicher
 Das F2P-Lineup (verfügbar ab Tag 8):
 
 - **Waldläufer-Trupp**: **Cynthia** vorne (sie ist kostenlos über das Glücksrad an Tag 8 erhältlich) + **Ash** hinten (+19% Monsterschaden für 2 Waldläufer mit den höchsten ATK-Werten) + **Bestar**.
-- **Krieger-Trupp**: Marlena (falls Sie den 2$-Helden gekauft haben) + Cecilia hinten. Rein F2P: Verwenden Sie stattdessen Claire SSR/UR – sie bufft 3 Krieger mit den höchsten ATK-Werten mit Monsterschaden. Funktioniert bis ca. Tag 70.
+- **Krieger-Trupp**: Marlena (falls Sie den 2$-Helden gekauft haben) + Celia hinten. Rein F2P: Verwenden Sie stattdessen Claire SSR/UR – sie bufft 3 Krieger mit den höchsten ATK-Werten mit Monsterschaden. Funktioniert bis ca. Tag 70.
 
-Das Endgame-Lineup ist ein **Mono-Fraktions-Trupp, der auf die aktuelle Boss-Rotation abgestimmt ist** (Mo/Do = Hexenmeister-Konter, Di/Fr = Waldläufer-Konter, Mi/Sa = Krieger-Konter – siehe Magier-Tabelle oben). Ein Endgame-Krieger-Stack (Marlena + Zoya vorne, Harper + Cecilia Mitte, Daskal/Ulfrear hinten) mit dem +20% Fraktions-Angriffsbonus gewinnt standardmäßig.
+Das Endgame-Lineup ist ein **Mono-Fraktions-Trupp, der auf die aktuelle Boss-Rotation abgestimmt ist** (Mo/Do = Hexenmeister-Konter, Di/Fr = Waldläufer-Konter, Mi/Sa = Krieger-Konter – siehe Magier-Tabelle oben). Ein Endgame-Krieger-Stack (Marlena + Zoya vorne, Harper + Celia Mitte, Daskal/Ulfrear hinten) mit dem +20% Fraktions-Angriffsbonus gewinnt standardmäßig.
 
 Zwei Tricks vor dem Kampf, die Ihren Punktestand um Hunderttausende erhöhen:
 

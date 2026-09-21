@@ -231,12 +231,12 @@ Batu Gear sangat terbatas. Menyebarkannya ke slot peralatan acak akan melumpuhka
 
 ---
 
-## 11. Spesialis Bos Dunia: Ashe dan Cecilia {#boss-specialists}
+## 11. Spesialis Bos Dunia: Ashe dan Celia {#boss-specialists}
 
 Meskipun pahlawan ungu (SSR) tidak digunakan dalam susunan PvP sejak awal, dua karakter memiliki utilitas Bos Dunia yang tak tergantikan:
 
 * **Ashe:** Keterampilan pasifnya secara langsung memperkuat total kerusakan pasukan yang diberikan kepada **Bos Dunia**.
-* **Cecilia:** Meningkatkan drop sumber daya bonus dan hadiah pembunuhan dari Bos Dunia.
+* **Celia:** Meningkatkan drop sumber daya bonus dan hadiah pembunuhan dari Bos Dunia.
 * Menginvestasikan batu keterampilan ungu cadangan ke dua karakter ini memberikan dividen seumur hidup dalam jarahan bos.
 
 ---

@@ -231,12 +231,12 @@ As Pedras de Equipamento são severamente limitadas. Espalhá-las por slots de e
 
 ---
 
-## 11. Especialistas em Chefes Mundiais: Ash e Cecilia {#boss-specialists}
+## 11. Especialistas em Chefes Mundiais: Ash e Celia {#boss-specialists}
 
 Embora os heróis roxos (SSR) sejam eliminados das formações de PvP cedo, dois personagens apresentam utilidade insubstituível contra Chefes Mundiais:
 
 * **Ash:** Sua habilidade passiva amplifica diretamente o dano total do esquadrão causado aos **Chefes Mundiais**.
-* **Cecilia:** Aumenta as quedas de recursos bônus e recompensas de eliminação dos Chefes Mundiais.
+* **Celia:** Aumenta as quedas de recursos bônus e recompensas de eliminação dos Chefes Mundiais.
 * Investir pedras de habilidade roxas sobressalentes nesses dois paga dividendos vitalícios em espólios de chefes.
 
 ---

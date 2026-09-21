@@ -37,7 +37,7 @@ Für jeden Helden geht Korpez jede Fähigkeit mit einem Ziel-Level durch. Destil
 - **Billy (Hexenmeister-Tank)** — Fate's Thread schützt deine Top-2 ATK-Verbündeten (25+); sein Passiv gewährt fast vollständige Immunität gegen Rote Dame-Betäubung.
 - **Nicole** — Unterstützung mit Heilung auf DPS-Niveau basierend auf ihrem ATK-Wert; Heilungen lösen bei brennenden Gegnern aus (Joker-Synergie).
 - **Bell** — **ihre Heilungen skalieren mit ATK**, nicht mit DEF: Das Ignorieren von Schwert+Handschuhen senkt ihre Heilung von ~205K auf ~66K. Ja – lege echte Schadensausrüstung auf deine "Unterstützung".
-- **Ash & Cecilia (SR)** — die einzigen lila Helden, bei denen sich Fähigkeiten lohnen: Ash = +Monster-Schadensbuff, Cecilia = Ressourcen-Sammelbuff. Alles andere SR bleibt auf Basis.
+- **Ash & Celia (SR)** — die einzigen lila Helden, bei denen sich Fähigkeiten lohnen: Ash = +Monster-Schadensbuff, Celia = Ressourcen-Sammelbuff. Alles andere SR bleibt auf Basis.
 - Allgemein: **Gib niemals Fähigkeitspunkte für Angriffsfähigkeiten von Tanks aus; niemals für das Schwert eines Tanks.**
 
 ## Sternen-Schwellenwerte und Zähigkeit {#star-breakpoints}

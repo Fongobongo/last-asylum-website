@@ -37,7 +37,7 @@ Para cada herói, Korpez analisa todas as habilidades com um nível alvo. Destil
 - **Billy (Tanque Bruxo)** — Fio do Destino protege seus 2 melhores aliados de ATK (25+); sua passiva concede imunidade quase total ao atordoamento da Dama Vermelha.
 - **Nicole** — suporte com cura de nível DPS baseada em seu atributo de ATK; curas são acionadas em inimigos queimando (sinergia com Joker).
 - **Bell** — **suas curas escalam com ATK**, não DEF: ignorar espada+luvas corta sua cura de ~205K para ~66K. Sim — coloque equipamento de dano real no seu "suporte".
-- **Ash & Cecilia (SR)** — os únicos heróis roxos que valem habilidades: Ash = +bônus de dano a monstros, Cecilia = bônus de coleta de recursos. Todo o resto SR permanece na base.
+- **Ash & Celia (SR)** — os únicos heróis roxos que valem habilidades: Ash = +bônus de dano a monstros, Celia = bônus de coleta de recursos. Todo o resto SR permanece na base.
 - Geral: **nunca gaste pontos de habilidade em habilidades de ataque de tanques; nunca na espada de um tanque.**
 
 ## Pontos de Ruptura de Estrelas e Tenacidade {#star-breakpoints}

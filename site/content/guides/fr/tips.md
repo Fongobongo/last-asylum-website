@@ -231,12 +231,12 @@ Les Pierres d'équipement sont sévèrement limitées. Les disperser sur des emp
 
 ---
 
-## 11. Spécialistes des Boss mondiaux : Ash et Cecilia {#boss-specialists}
+## 11. Spécialistes des Boss mondiaux : Ash et Celia {#boss-specialists}
 
 Bien que les héros violets (SSR) soient rapidement écartés des compositions PvP, deux personnages possèdent une utilité irremplaçable pour les Boss mondiaux :
 
 * **Ash :** Sa compétence passive amplifie directement les dégâts totaux de l'escouade infligés aux **Boss mondiaux**.
-* **Cecilia :** Augmente les bonus de ressources et les récompenses de mise à mort des Boss mondiaux.
+* **Celia :** Augmente les bonus de ressources et les récompenses de mise à mort des Boss mondiaux.
 * Investir des pierres de compétence violettes inutilisées dans ces deux personnages rapporte des dividendes à vie en butin de boss.
 
 ---

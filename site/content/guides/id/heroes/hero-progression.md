@@ -37,7 +37,7 @@ Untuk setiap hero, Korpez memeriksa setiap *skill* dengan level target. Intisari
 - **Billy (Tank Warlock)** — Fate's Thread melindungi 2 sekutu ATK teratas Anda (25+); pasifnya memberikan kekebalan *stun* Nyonya Merah yang hampir total.
 - **Nicole** — pendukung dengan penyembuhan tingkat DPS dari statistik ATK-nya; penyembuhan dipicu pada musuh yang terbakar (sinergi Joker).
 - **Belle** — **penyembuhannya berskala dengan ATK**, bukan DEF: mengabaikan pedang+sarung tangan memotong penyembuhannya dari ~205K menjadi ~66K. Ya — pasang perlengkapan *damage* nyata pada "pendukung" Anda.
-- **Ashe & Cecilia (SR)** — satu-satunya hero ungu yang layak diberi *skill*: Ashe = +buff *damage* monster, Cecilia = buff pengumpul sumber daya. Yang lain tetap di dasar.
+- **Ashe & Celia (SR)** — satu-satunya hero ungu yang layak diberi *skill*: Ashe = +buff *damage* monster, Celia = buff pengumpul sumber daya. Yang lain tetap di dasar.
 - Umum: **jangan pernah menghabiskan poin *skill* pada *skill* serangan *tank*; jangan pernah pada pedang *tank* sama sekali.**
 
 ## Titik Batas Bintang dan Tenacity {#star-breakpoints}

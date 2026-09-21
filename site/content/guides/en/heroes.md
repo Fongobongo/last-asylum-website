@@ -66,12 +66,12 @@ Since Raven epigraphs shipped, running a single faction has gone from a nice bon
 
 Which is also why the canonical squad is all-Warrior: the epigraph investment compounds on top of an already-stacked faction. Split-faction squads pay for epigraphs that only buff half the team.
 
-### Purple Heroes: World Boss Specialists (Ash & Cecilia) {#boss-purples}
+### Purple Heroes: World Boss Specialists (Ash & Celia) {#boss-purples}
 
 While purple (SSR) heroes are dropped from main combat rosters after week one, two exceptions carry lifelong PvE utility:
 
-* **Ash:** His passive skill directly amplifies total squad damage dealt to **World Bosses**.
-* **Cecilia:** Increases bonus resource drops and kill loot from World Bosses.
+* **Ash:** Her passive «Focus» buffs **monster damage** dealt by the two highest-attack rangers in the team (per client v1.0.102).
+* **Celia:** Increases bonus resource drops and kill loot from World Bosses.
 
 Feed spare purple skill badges into their core abilities — they reliably multiply your weekly raid yield.
 
@@ -106,7 +106,7 @@ For each hero Korpez goes through every skill with a target level. Distillation:
 - **Billy (Warlock tank)** — Fate's Thread protects your top-2 ATK allies (25+); his passive grants near-total Red Lady stun immunity.
 - **Nicole** — support with DPS-tier healing off her ATK stat; heals trigger on burning enemies (Joker synergy).
 - **Bell** — **her heals scale with ATK**, not DEF: ignoring sword+gloves cuts her healing from ~205K to ~66K. Yes — put real damage gear on your "support".
-- **Ash & Cecilia (SR)** — the only purple heroes worth skills: Ash = +monster damage buff, Cecilia = resource-gather buff. Everything else SR stays at base.
+- **Ash & Celia (SR)** — the only purple heroes worth skills: Ash = +monster damage buff, Celia = resource-gather buff. Everything else SR stays at base.
 - General: **never spend skill points on tanks' attack skills; never on a tank's sword at all.**
 
 ## Healing Scaling Secret: Bell & Louis (66K → 205K HP) {#healing-scaling-secret}
