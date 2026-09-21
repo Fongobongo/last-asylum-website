@@ -32,13 +32,51 @@ if (showHub) {
     // split by h2 headings; keep intro before first h2 as a card-less lead
     const parts = md.split(/\n(?=## )/);
     const pro = await createMarkdownProcessor();
+
+    const G: [string, string[]][] = lang === 'ru' ? [
+      ['🧭 Основы: фракции и составы', ['faction-timing','f2p-squad','alternatives','mono-faction-meta','wiki-hero-factions']],
+      ['📈 Прокачка: навыки и звёзды', ['skill-priorities','star-breakpoints','wiki-skill-badges','wiki-hero-skills','wiki-hero-stars']],
+      ['🔥 Пробуждение', ['awakened-order','awakening-walkthrough','wiki-awakening-shards']],
+      ['✅ Составы и тир-лист', ['wiki-hero-teams']],
+      ['🧬 Осколки, превращение и рост', ['wiki-hero-conversion','wiki-hero-growth','wiki-hero-shards']],
+      ['⚙️ Мощь, баланс и тайные механики', ['healing-scaling-secret','might-formula','hero-balance-notes']],
+    ] : [
+      ['🧭 Basics: factions & squads', ['faction-timing','f2p-squad','alternatives','mono-faction-meta','wiki-hero-factions']],
+      ['📈 Progression: skills & stars', ['skill-priorities','star-breakpoints','wiki-skill-badges','wiki-hero-skills','wiki-hero-stars']],
+      ['🔥 Awakening', ['awakened-order','awakening-walkthrough','wiki-awakening-shards']],
+      ['✅ Squads & tier list', ['wiki-hero-teams']],
+      ['🧬 Shards, conversion & growth', ['wiki-hero-conversion','wiki-hero-growth','wiki-hero-shards']],
+      ['⚙️ Might, balance & hidden mechanics', ['healing-scaling-secret','might-formula','hero-balance-notes']],
+    ];
+    const anchor2group = new Map<string, number>();
+    G.forEach(([, anchors], gi) => anchors.forEach((a) => anchor2group.set(a, gi)));
+
+    // group small h2 sections into larger thematic cards. Sections without an {#anchor} continue the current group.
+    const buckets: { title: string | null; html: string }[] = [];
+    let introHtml = '';
     for (const p of parts) {
       const m = p.match(/^## (.+?)(?:\s*\{#[^}]+\})?\s*$/m);
-      const title = m ? m[1].replace(/^[📊🦸🎯📋🧮🏗️🛡️⚔️\s]+/, '') : '';
-      const bodyMd = m ? p.replace(/^## .+$/m, '') : p;
-      const { code } = await pro.render(bodyMd);
-      hubCards.push({ title, html: code.replace(/<h[12][^>]*><\/h[12]>/g, '') });
+      const am = p.match(/\{#([a-z0-9-]+)\}/);
+      const anchor = am ? am[1] : null;
+      if (!m) { introHtml += (await pro.render(p)).code; continue; }
+      const { code } = await pro.render(p);
+      const html = code
+        .replace(/<h([12])([^>]*)>/g, '<h3$2>')
+        .replace(/<\/h[12]>/g, '</h3>')
+        .replace(/<h3[^>]*><\/h3>/g, '');
+      const g = anchor !== null ? (anchor2group.get(anchor) ?? null) : null;
+      if (anchor === 'hero-index') continue; // handled by the card grid above
+      if (g === null) {
+        // continuation of the previous group, or standalone card if nothing assigned yet
+        if (buckets.length > 0) buckets[buckets.length - 1].html += html;
+        else buckets.push({ title: null, html });
+      } else {
+        const existing = buckets.findIndex((b) => b.title === G[g][0]);
+        if (existing >= 0) buckets[existing].html += html;
+        else buckets.push({ title: G[g][0], html });
+      }
     }
+    hubCards = buckets.filter((b) => b.html.trim());
   }
 }
 const LBL: Record<string, string> = { ru: 'Общая информация', en: 'General' };
