@@ -7,6 +7,8 @@ updated: "2026-09-19"
 type: guide
 ---
 
+<img src="/hero-art/bell.webp" alt="hero art" class="float-right ml-4 rounded-xl" width="220" />
+
 ![icon](/hero-icons/bell.webp)
 
 > Данные и тексты сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/hero-bell)).

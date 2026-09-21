@@ -7,6 +7,8 @@ updated: "2026-09-19"
 type: guide
 ---
 
+<img src="/hero-art/marlena.webp" alt="hero art" class="float-right ml-4 rounded-xl" width="220" />
+
 ![icon](/hero-icons/marlena.webp)
 
 **Nome oficial:** Marlena

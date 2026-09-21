@@ -7,6 +7,8 @@ updated: "2026-09-19"
 type: guide
 ---
 
+<img src="/hero-art/red-lady.webp" alt="hero art" class="float-right ml-4 rounded-xl" width="220" />
+
 ![icon](/hero-icons/red-lady.webp)
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-red-lady)).
