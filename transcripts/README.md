@@ -50,3 +50,11 @@
 | 41 | How to Dominate with Warrior in Last Asylum! (Best Builds & Setup Part 1) | 7:20 | [YouTube](https://www.youtube.com/watch?v=CETuCXXdG-M) | [41_CETuCXXdG-M_How_to_Dominate_with_Warrior_in_Last_Asylum!_(Best_Builds_&.txt](./41_CETuCXXdG-M_How_to_Dominate_with_Warrior_in_Last_Asylum!_(Best_Builds_&.txt) |
 | 42 | Событие Лучший Целитель Стань топом 💪 вместе со мной и ПОДПИШИСЬ 🔥 (JokerKipish Survival) | 8:11 | [YouTube](https://www.youtube.com/watch?v=5sn95_i8fUo) | [42_5sn95_i8fUo_Событие_Лучший_Целитель_Стань_топом_💪_вместе_со_мной_ПОДПИШИСЬ_🔥.txt](./42_5sn95_i8fUo_Событие_Лучший_Целитель_Стань_топом_💪_вместе_со_мной_ПОДПИШИСЬ_🔥.txt) |
 | 43 | Top Healer - 7 Day Event in Last Asylum Plague (Pro Noobs) | 10:53 | [YouTube](https://www.youtube.com/watch?v=2u8ok-VKz_c) | [43_2u8ok-VKz_c_Top_Healer_-_7_Day_Event_in_Last_Asylum_Plague.txt](./43_2u8ok-VKz_c_Top_Healer_-_7_Day_Event_in_Last_Asylum_Plague.txt) |
+
+---
+
+### Другие коллекции транскриптов:
+- 📁 [**Плейлист Pro Noobs: «Guide - Last Asylum: Plague» (11 видео)**](./pronoobs_guides/README.md)
+- 📁 [**20-секундные дипдайвы (21 видео)**](./20sec_deepdives/README.md)
+- 📁 [**Mailbag Monday (10 видео)**](./mailbag_monday/README.md)
+- 📁 [**Hero Guides (9 видео)**](./hero_guides/README.md)
