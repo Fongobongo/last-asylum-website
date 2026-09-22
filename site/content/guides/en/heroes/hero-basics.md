@@ -69,6 +69,56 @@ While purple (SSR) heroes are dropped from main combat rosters after week one, t
 
 Feed spare purple skill badges into their core abilities — they reliably multiply your weekly raid yield.
 
+
+## Beginner Hero Basics: timeline, Might and first squad {#beginner-hero-basics}
+
+## Hero Unlock Timeline {#unlock-timeline}
+
+The game drips its best heroes on a fixed schedule. Knowing the schedule in advance completely changes how you spend diamonds — you stop buying random pulls and start saving for dated targets.
+
+| Timing | What unlocks | What the community does |
+|---|---|---|
+| Day 1-2 | Arthur (UR) — free | Your day-one tank. Claim him immediately. |
+| Day 8 | Cynthia and Shadow — Wishing Wheel | Costs ~1,500 diamonds apiece: 7 free daily spins + milestone reward at 10 spins drops 10 fragments = a full copy. |
+| Day 36 / 43 / 57 / 64 / 72 / 85 | New UR hero events | A diamond-heavy stretch — plan reserves in advance. |
+| Day 1 / Day 66 | Marlena: available immediately for $1 (First Top-Up), appears in Tavern for free on Day 66 | Apex early carry. A $1 spend unlocks her Day 1; 100% F2P players recruit her for free from the Tavern on Day 66. |
+| Day 120+ (Era of Revival) | Daskal (UR tank); Claire SSR-to-UR conversion at Era Day 8 | Daskal is the best tank in the game; time the Claire conversion carefully. |
+
+### Arthur: Day 1-2, Free UR {#arthur-day-one}
+
+Arthur is given to every player in the first two days, he is UR rarity, and he is the best early tank you will ever own. Because he is free, every shard you ever get for him is pure profit — one of the two heroes worth investing from day one.
+
+### Cynthia and Shadow: Day 8 Wishing Wheel {#wishing-wheel-day-8}
+
+Day 8 brings the first Wishing Wheel featuring Cynthia and Shadow. Cynthia, the early-carry UR, costs roughly 1,500 diamonds total: the Wheel runs 7 days with one free spin daily, and the 10-spin milestone grants 10 fragments — the full hero. Two hard rules from the community: save your diamonds until Day 8 instead of spending them earlier, and stop the moment the milestone pays out — extra spins buy fragments you no longer need.
+
+### The UR Event Train: Days 36-85 {#ur-event-train}
+
+A string of new UR hero events arrives at days 36, 43, 57, 64, 72 and 85. Each one is a chance to add UR power — and each one eats diamonds. Knowing the train is coming is the difference between entering day 36 with a plan and entering it broke.
+
+### Marlena: $1 First Top-Up on Day 1 & Free Tavern Recruit on Day 66 {#marlena-day-66}
+
+Marlena is available starting on Day 1 via the $1 first top-up pack — universally hailed as the best value purchase in the game. She serves as the core damage carry of the standard squad, dealing roughly 85% of your total squad damage until Zoya arrives.
+
+For strict 100% F2P players who spend nothing: **on Server Day 66, Marlena enters the standard Tavern recruitment pool**, allowing you to summon her completely free using banked recruitment tickets!
+
+### Day 120+: Era of Revival — Daskal and Claire {#era-daskal-claire}
+
+The seasonal Era of Revival starts around day 120. It brings Daskal, the best tank in the game, and on Era Day 8 the Claire SSR-to-UR conversion opens. Both events change your long-term squad; the timing details are in the [Era of Revival guide](/era/).
+
+## How Hero Might Works {#hero-might}
+
+A hero's might is the sum of four separate investments. Understanding the split tells you exactly where your next resource should go.
+
+- **Level** — EXP from potions and play. The cheapest component early on.
+- **Stars** — shard-fed. The biggest single multiplier: there is a significant power jump after 4 stars.
+- **Skills** — badge-fed. Order matters more than quantity; see the [Heroes guide](/heroes/).
+- **Gear** — crafted in the gear workshops and upgraded with materials.
+
+The 4-star jump is the single most important number in hero planning. Below 4 stars a hero is filling a seat; above it, the same hero starts carrying fights.
+
+And because shards, badges and gear materials are all scarce, the might formula only pays off when concentrated: all resources go into ONE main squad of five, in the order the squad actually fights.
+
 ## 📚 Reference: Hero factions: warriors, warlocks and rangers {#wiki-hero-factions}
 
 Source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-factions), client v1.0.87.
