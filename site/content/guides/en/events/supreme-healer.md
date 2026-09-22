@@ -97,9 +97,9 @@ In Supreme Healer, Falcon Missions score strictly on **Days 1, 3, 5, and 7** (**
 > [!TIP]
 > Visual storage cheat-sheet by `#252 Dalkongss`. Also in the [Infographics Gallery](/infographics/#falcon-tower-storage).
 
-### 1. Incident Storage Mechanics:
-* Inside the **Falcon Tower**, access the mission screen and tap **Incident Storage**.
-* When high-rarity (Purple/Epic or Gold/Legendary) missions appear, tap **Save**.
+### 1. Mission archive (saved missions):
+* Open the **Falcon Tower** mission screen: each mission there has a **Save** button — saved missions go to the archive and wait for scoring days.
+* Save high-rarity (Purple/Epic or Gold/Legendary) missions.
 * **Saved missions never expire!** They remain banked indefinitely until scoring days (Days 1, 3, 5, and 7).
 
 ### 2. The 29/30 Rule (Why NOT 30/30?):
