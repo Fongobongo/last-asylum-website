@@ -11,7 +11,6 @@ type: guide
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-herb-garden)).
 
-## Tools
 
 Herb Garden produces Herb, the resource research burns through, and it comes in 36% slower than Grain and Timber. A fourth Herb Garden opens seven Sanctuary levels later than a fourth Farm, which is why Herb runs short first. The building is available from the start of the game and goes up to level 30. Up to 4 can be built. Levels raise: output/Hour, max Production Time.
 
@@ -50,4 +49,3 @@ The Herb stock is therefore exposed twice over. Even four gardens give 2,103,552
 
 A full upgrade costs 422,532,117 Grain, the same amount of Timber and 134,839,230 Herb, and 121,200,000 Grain of that falls on level 30 alone, which takes 12 days 20 hours to raise. Might at level 30 comes to 114,900, close to the Farm and the Lumberyard, so Might never decides between gathering buildings. A fifth garden is opened by a research node and adds a quarter to output.
 
-##

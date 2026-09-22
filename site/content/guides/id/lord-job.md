@@ -51,4 +51,3 @@ Instant abilities save real hours of waiting, but with cooldowns measured in day
 
 Four more skills in each branch are tied to levels 45 and 50, which do not exist in the current age: lord levels stop at forty. That is groundwork for the next age.
 
-##

@@ -11,7 +11,6 @@ type: guide
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-warlock-statue)).
 
-## Tools
 
 Warlock Statue
 
@@ -67,4 +66,3 @@ Level 20 stands apart. It opens the Honor levels of the Warlocks and is reached 
 
 The statue carries 272,600 Might, the highest of the three faction statues, but its lead over the Warrior Statue and its 272,400 is under a tenth of a percent. A statue is picked by the make-up of the main squad rather than by these figures. A full upgrade also spends 832,324,200 Herb, and the last five levels take 79% of the whole build time.
 
-##

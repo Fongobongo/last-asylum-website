@@ -11,7 +11,6 @@ type: guide
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-arena)).
 
-## Tools
 
 Arena opens one-on-one duels and the arena shop, where a season placement pays diamonds and skill badges. The Might of the training bots shows the price of climbing: between 100th and 300th place it nearly halves. The building unlocks after Sanctuary level 7 and goes up to level 1. Only one can be built.
 
@@ -45,4 +44,3 @@ The season standing is counted separately and pays diamonds: 15,200 for first pl
 
 The Arena never occupies the build queue, and that sets it apart at level 7: three Infirmaries need 299 days 4 hours each and the Research Lab 349 days. It has a single level, so the 840 resources are spent once and never come back to it. The Arena brings 100 Might, a figure that vanishes in the city total next to the 361,000 of the lab.
 
-##

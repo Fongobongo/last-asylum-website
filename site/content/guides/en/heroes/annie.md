@@ -324,4 +324,3 @@ Stars cost the most. The third target of Candy Jar arrives as early as ★10, th
 
 In the best squad of the game Annie stands with Arthur, Billy, Ulfrid and Joker for 131.1M effective HP, 3.2M damage per second and +15% for four warlocks. The burn makes Nicole her natural partner, since Inferno Array adds 45% against burning targets.
 
-##

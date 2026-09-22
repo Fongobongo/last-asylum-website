@@ -8,7 +8,6 @@ type: guide
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hunt-battle)).
 
-## Tools
 
 Hunt Battle pits an alliance against waves of Wandering Blight on its own territory. An R4 or R5 can start it when the alliance has more than 20 members, only once per event, and the difficulty is chosen for the whole battle at once. The reward depends on how many Blights the alliance manages to destroy within the time allowed after each wave appears. The facts come from the event rules and were checked against the game itself on 10 September 2026.
 
@@ -42,4 +41,3 @@ The gap between difficulty one and nine is almost threefold in stones and more t
 - The wave boss pays five times the Alliance Coins of an ordinary Blight and is best finished together.
 - Gearstones from the chests go into strengthening hero gear.
 
-##

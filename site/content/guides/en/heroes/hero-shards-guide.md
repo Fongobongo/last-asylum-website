@@ -36,7 +36,6 @@ The old Claire disappears from the hero list afterwards, and the conversion cann
 
 The conversion consumes a fully starred heroine and returns a UR version with six stars on day one. The decision is made once and cannot be reversed.
 
-##
 
 ---
 
@@ -78,7 +77,6 @@ Gearstones come next at 22,500 per track, and forging materials and supplies arr
 
 Stars are counted whole, and the tracks run from the first star to the eighth, so nothing is asked beyond eight stars.
 
-##
 
 ---
 

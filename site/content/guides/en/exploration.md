@@ -46,4 +46,3 @@ The steps fall into several kinds, and the table shows which of them dominate.
 
 Nearly two thirds of the steps are plague fights, while the rest are hero meetings and finds. The fights are measured by recommended Might, so the chain stalls wherever a squad stops being strong enough and resumes after a round of upgrades.
 
-##

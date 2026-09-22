@@ -292,4 +292,3 @@ Her ceiling rests on levels and stars alone, as SSR heroes get neither awakening
 
 In a squad without UR heroes Ash stands with Stellar, Griffith, Grenwald and Hastar: 7.7M survivability and 1 effectiveness at a +10% bonus. She is more useful alongside Griffith, Bestar, Hastar and Louis: the warlock Hastar does not stop the four rangers from earning a +15% bonus, and the five reach 16.8M of survivability and 5 effectiveness.
 
-##

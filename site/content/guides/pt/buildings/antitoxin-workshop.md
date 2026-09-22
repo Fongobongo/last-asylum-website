@@ -15,7 +15,6 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-antitoxin-workshop)).
 
-## Tools
 
 Antitoxin Workshop produces Antitoxin, and at level 30 yields 259,666 an hour, more than any other production building. No storehouse exists for Antitoxin, so an attacker carries off the entire stock. The building unlocks after Sanctuary level 5 and goes up to level 30. Up to 5 can be built. Levels raise: antitoxin Output/Hour, max Production Time.
 
@@ -54,4 +53,3 @@ Production banks for a limited time: 29,280 seconds at level 1 and 43,200, or 12
 
 Collecting the haul matters for a second reason: no storehouse exists for antitoxin, so a full bank goes to a raider whole. For comparison, stage 10 of the Undead Siege pays out 255,600,000 antitoxin, 197 hours of work for five workshops.
 
-##

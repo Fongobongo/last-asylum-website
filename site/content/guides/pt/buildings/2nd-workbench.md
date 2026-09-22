@@ -15,7 +15,6 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-2nd-workbench)).
 
-## Tools
 
 2nd Workbench adds a second research queue, so two technology nodes make progress at the same time. It requires no subscription, and its level adds research speed exactly as the Research Lab's level does. The building unlocks after Sanctuary level 9 and goes up to level 30. Only one can be built. Levels raise: research Speed.
 
@@ -54,4 +53,3 @@ By resources the workbench is second in the city after the Sanctuary: 4,524,713,
 
 Its Might is second as well: 361,100 against the 384,300 of the Sanctuary and the 361,000 of the lab. The last five levels take 79% of the whole build time, so the workbench is usually kept at a middling level while the second research queue works from the very beginning. Level 30 alone costs 1,360,000,000 Grain and 89 days 19 hours.
 
-##

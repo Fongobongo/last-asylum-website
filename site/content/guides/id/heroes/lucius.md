@@ -299,4 +299,3 @@ Lucius has neither awakening nor an Exclusive Weapon, so levels and stars carry 
 
 The best line-up without a single UR hero is Celia, Lucius, Sivir, Bella and Hastar, worth 9.3M of survivability and +15% for four warriors. With Arthur and Marlena the squad turns pure warrior, the bonus grows to +20% and survivability to 38.8M, and once the UR tanks arrive Lucius pays +10% from the bench.
 
-##

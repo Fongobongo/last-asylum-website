@@ -261,4 +261,3 @@ Kafa's progression stops at skill level 30, as it does for every SR hero, while 
 
 Kafa entered none of the thirty-two squads of the review. From the bench she also gives less than the others. Her Unyielding adds 5% to the squad's ATK, HP and DEF, while the same skill on a UR hero gives 20% and on an SSR hero 10%. Her place opens up as soon as any warlock of a higher rarity arrives.
 
-##

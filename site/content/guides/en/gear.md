@@ -187,7 +187,6 @@ The synthesis chain is lossless both ways, since each step is made of four of th
 
 Its level unlocks four things and no more: forging the three upper rarities and access to stars at level twenty. Levels twenty-one to thirty give Might only.
 
-##
 
 ---
 

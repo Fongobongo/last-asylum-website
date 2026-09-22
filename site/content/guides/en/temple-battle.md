@@ -54,4 +54,3 @@ The battle goals are laid out as point milestones, and the table shows what each
 | 4 | 70,000 |
 | 5 | 100,000 |
 
-##

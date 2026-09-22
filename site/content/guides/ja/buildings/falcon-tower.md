@@ -15,7 +15,6 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-falcon-tower)).
 
-## Tools
 
 Falcon Tower opens the world map, chat and scouting, and with them the Falcon Quests that pay for guarding the area. The difficulty of those quests follows the Sanctuary level rather than the tower. The building unlocks after Sanctuary level 6 and goes up to level 1. Only one can be built.
 
@@ -49,4 +48,3 @@ Without it the world map, the chat and scouting stay shut, and with them every w
 
 The scouting the tower opens works in tandem with the Watchtower, which hides a player's own figures from enemy scouts and unlocks two levels later, at 8. Until then a foreign report on the city is complete while the Falcon Quests already run, so the pause between Sanctuary levels 6 and 8 is best kept short. The tower has a single level, so the 1,440 resources are spent once and never come back to it.
 
-##

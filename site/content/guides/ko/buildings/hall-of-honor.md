@@ -15,7 +15,6 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-hall-of-honor)).
 
-## Tools
 
 Hall of Honor stands as a memorial and takes no part in hero progression, since Honor levels are opened by the faction statues. The Honor screen is entered through those statues rather than through the hall. The building is available from the start of the game and goes up to level 1. Only one can be built.
 
@@ -49,4 +48,3 @@ Honor itself passes the hall by. Honor levels are opened by a faction statue rai
 
 The hall therefore goes up on day one together with the Temple: 42 resources for the pair, 1,000 Might, and not a single day of queue. The hall is never returned to, and against the 384,300 Might of a fully raised Sanctuary its 500 shows only in the first week.
 
-##

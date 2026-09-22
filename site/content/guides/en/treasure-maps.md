@@ -25,4 +25,3 @@ A gold find comes up once in ten. Beside those chances sits a bad-luck counter s
 
 The practical conclusion stays cautious: giving up after a dozen empty runs is premature.
 
-##

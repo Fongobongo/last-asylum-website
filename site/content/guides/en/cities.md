@@ -43,4 +43,3 @@ Almost every city bonus is economic: production, gathering, build and research s
 
 The city war carries 14 tasks in two kinds: personal participation in captures (one to six times) and the number of cities the alliance holds at a given level. The first is within reach of any player who simply shows up; the second depends on the alliance holding ground rather than raiding once.
 
-##

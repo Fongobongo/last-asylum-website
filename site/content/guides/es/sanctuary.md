@@ -10,7 +10,6 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/sanctuary)).
 
-## Tools
 
 The Sanctuary sets the limit on almost everything in the city: hero levels, the levels of the other buildings, and the pace at which new features open. It in turn depends on a Research Lab one level below and on clinic stars, so a construction queue stalls on those far more often than on missing resources. The building itself has its own page, Sanctuary, while this one covers what it limits.
 
@@ -75,4 +74,3 @@ Every upgrade pays a large one-off reward in hero experience: 46M at level twent
 
 What a particular city is missing for the next level and in what order to build it is shown by the build calculator.
 
-##

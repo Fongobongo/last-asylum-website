@@ -286,4 +286,3 @@ Stars cost Claire the most, not in badges but in waiting: 975 shards, while a re
 
 The best squad with Claire and no UR hero is Kesso, Lucius, Sivir, Bella and Claire herself: five warriors, a +20% bonus and 8.1M of survivability. Alongside Arthur and Marlena she joins three of the five best reachable squads, where survivability reaches 38.2M, and the price of the full bonus is 20% extra damage from rangers.
 
-##

@@ -249,4 +249,3 @@ SR heroes have no fifth skill, no awakening and no Exclusive Weapon, so William 
 
 William made it into none of the squads listed in the tables, as the warrior place in the DPS role goes to Sivir and Claire. From the bench he also gives the least: his support skill adds 5% to ATK, HP and DEF, an SSR hero adds 10%, and a UR hero 20% plus 10% skill cooldown speed.
 
-##

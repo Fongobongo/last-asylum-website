@@ -11,7 +11,6 @@ type: guide
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-monument)).
 
-## Tools
 
 Monument gathers development milestones, a board of goals whose selection changes from day to day. The goals point to the key activities, from hero recruiting to covert ops and rallies. The building unlocks after Sanctuary level 9 and goes up to level 1. Only one can be built.
 
@@ -45,4 +44,3 @@ Hence the order: at Sanctuary level 9 the Monument goes up right after Black Ops
 
 The Might of the Monument counts for nothing in the city total: 100 against the 384,300 that a fully raised Sanctuary carries vanishes into rounding. Of the level 9 buildings only the Monument and Black Ops stay out of the queue, and every other hour of that stage belongs to the workbench.
 
-##

@@ -54,4 +54,3 @@ The second table is built the same way and covers the raven wheel.
 
 That wheel hands out almost no hero shards and pays in raven fruit and essence instead, which is the heaviest line of spending in raven development.
 
-##

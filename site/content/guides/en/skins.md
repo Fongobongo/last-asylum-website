@@ -59,4 +59,3 @@ Duration deserves a separate look. Many skins are granted for 7, 15 or 30 days, 
 
 The Black Raven Fortress city skin belongs to the group that gives two bonuses at once: 1% damage to monsters stays for good from the moment it is obtained, and another 5% applies while the skin is equipped. It comes as items for 7, 15, 30 and 60 days and as a permanent one, all under the same name, so the duration has to be read in the item description. No shop in the game sells it: the button on the skin leads to the events window, and events and bundles are the only way to get it.
 
-##

@@ -15,7 +15,6 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-raven-nest)).
 
-## Tools
 
 Raven Nest opens the Raven, the squad's sixth fighter, which strikes the two enemies with the most HP. Part of its stats passes to the heroes. Level 110 is the target, where the last star of its skill arrives. The building unlocks after Sanctuary level 7 and goes up to level 1. Only one can be built.
 
@@ -51,4 +50,3 @@ The stars of the Raven skill open at levels 30, 50, 70, 90 and 110, one level hi
 
 At Sanctuary level 7 only the nest and the Arena leave the builder free. Every other hour there belongs to the Research Lab with its 349 days and to three Infirmaries at 299 days 4 hours each. Its own 100 Might against the lab's 361,000 never registers in the city total.
 
-##

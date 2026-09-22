@@ -11,7 +11,6 @@ type: guide
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-explorer-s-camp)).
 
-## Tools
 
 Explorer's Camp opens the Explorer's Dungeon, an eight-hour store that pays up to 1,750,020 hero EXP an hour at the top steps. Survivors posted at the camp additionally widen the idle income window. The building unlocks after Sanctuary level 4 and goes up to level 1. Only one can be built.
 
@@ -45,4 +44,3 @@ The camp pairs well with survivors: those posted at it widen the idle income win
 
 The same hero EXP also comes out of covert operations, but Black Ops unlocks only at Sanctuary level 9, five levels later than the camp. Until then the dungeon stays the steady source, and 240 resources turn out to be the cheapest purchase of that whole stretch. Instant buildings at Sanctuary level 4 end there: the camp is the only one that never occupies a builder. The eight-hour window closes on its own, so the dungeon has to be visited three times a day.
 
-##

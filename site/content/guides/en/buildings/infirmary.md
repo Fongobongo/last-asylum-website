@@ -11,7 +11,6 @@ type: guide
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-infirmary)).
 
-## Tools
 
 Infirmary takes in severely wounded soldiers instead of losing them, which decides what a lost battle costs. Healing a soldier runs at 30% of recruiting a new one. A research node opens a fourth Infirmary. The building unlocks after Sanctuary level 7 and goes up to level 30. Up to 3 can be built. Levels raise: infirmary Capacity.
 
@@ -52,4 +51,3 @@ Level 10 costs 2,411,368 resources and 12 hours and already holds 1,131 places, 
 
 A research node opens a fourth Infirmary, and the same fork applies to it: level 20 comes in a fortnight, while level 30 asks for another 286 days in return for 391 places and 231,300 Might. A finished Infirmary brings 280,500 Might, slightly more than the 280,200 of the Training Grounds, and three of them come to 841,500 between them.
 
-##

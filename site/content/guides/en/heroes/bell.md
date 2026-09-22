@@ -289,4 +289,3 @@ Stars and Awakening are the expensive part of the queue. 975 shards give 347,824
 
 Bell stands once in the squad review, in a tier B line-up: with Arthur, Louis, Red Lady and Ulfrid the five withstand 125.2M damage at a +5% bonus. Her passive Battle Anthem raises attack by 18% for rangers alone, and there are three of them there, Louis, Red Lady and Bell herself, so a full ranger squad gets more out of her.
 
-##

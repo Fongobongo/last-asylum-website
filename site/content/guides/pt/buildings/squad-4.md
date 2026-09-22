@@ -15,7 +15,6 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-squad-4)).
 
-## Tools
 
 Squad 4 adds a fourth march queue, which works only while the monthly pass subscription is active. It appears early, yet without the subscription the queue stays shut and one free covert-ops dispatch is subtracted. The building unlocks after Sanctuary level 5 and goes up to level 30. Only one can be built. Levels raise: squad March Speed↑.
 
@@ -54,4 +53,3 @@ The subscription adds more than the queue. Simultaneous covert operations are co
 
 Hence the order: without a subscription Squad 4 never occupies the build queue, and with one it is taken to level 20 in 13 days and 6 hours for 10.1% speed and 44,700 Might. The remaining ten levels cost 285 days and 22 hours and add five percentage points, as much as each of the other three squads.
 
-##

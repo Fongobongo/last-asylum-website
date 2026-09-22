@@ -73,7 +73,6 @@ Feed spare purple skill badges into their core abilities — they reliably multi
 
 Source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-factions), client v1.0.87.
 
-## Tools
 
 Hero factions split the whole roster into three groups: warrior, warlock and ranger. A faction decides who the hero hits harder and who hits the hero softer, and it works in a circle: warrior beats warlock, warlock beats ranger, ranger beats warrior. The difference is 20% damage, so a squad matched against the enemy wins against a random one at equal Might.
 

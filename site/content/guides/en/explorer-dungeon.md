@@ -32,4 +32,3 @@ There are 500 secret levels, and each of them pays once. Together they come to 3
 
 Two things could not be confirmed: the size of the production bonus and how far the bank is widened. It is also unclear what fills the production levels that run beyond the secret ones.
 
-##

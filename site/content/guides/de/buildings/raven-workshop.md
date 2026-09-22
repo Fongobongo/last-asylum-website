@@ -15,7 +15,6 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-raven-workshop)).
 
-## Tools
 
 Raven Workshop turns out Lv.1 Raven Gear Chests, the base of the gear worn by the squad's sixth fighter. Production stops after a day, so the workshop is emptied daily, and each gear level costs three items of the level below. The building unlocks after Sanctuary level 15 and goes up to level 30. Only one can be built. Levels raise: raven Gear Chest Production Time, max Production Time.
 
@@ -54,4 +53,3 @@ What that third is worth shows in the gear economy of the Raven: an item of ever
 
 The building brings 168,200 Might, close to the Epigraph Workshop with 168,400 and the Smelting Workshop with 168,300. The last five levels take 79% of the build time and no longer change the daily haul of chests.
 
-##

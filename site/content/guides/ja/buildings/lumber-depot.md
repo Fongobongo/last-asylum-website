@@ -15,7 +15,6 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-lumber-depot)).
 
-## Tools
 
 Lumber Depot keeps part of the Timber stock out of a raider's hands: 225 million at level 30, reached after 299 days of building. Construction eats Timber faster than anything else, so its stock is the one that most often outgrows the protected line. The building unlocks after Sanctuary level 3 and goes up to level 30. Only one can be built. Levels raise: protected Resource.
 
@@ -54,4 +53,3 @@ The Depot itself is paid for in Grain: 3,828,953,759 Grain against 1,267,979,825
 
 All three storages unlock at Sanctuary level 3 and ask 299 days 4 hours each, 897 days together against the 398 days 20 hours of the Sanctuary itself. Building them back to back is unnecessary: their Might is nearly equal, 287,300 against 287,500 and 287,000, so the queue goes to whichever stock actually sits idle.
 
-##

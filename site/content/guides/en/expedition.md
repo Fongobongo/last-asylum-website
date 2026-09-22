@@ -37,4 +37,3 @@ The requirements differ between arenas. At difficulty one the Warrior and Warloc
 
 On a young server the Expedition grants a temporary buff to particular heroes: Arthur HP+50%, Marlena ATK+25%. It lasts only the first two weeks of a server's life, which makes the early difficulties noticeably easier than the same levels later on.
 
-##

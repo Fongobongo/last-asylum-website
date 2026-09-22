@@ -302,4 +302,3 @@ Stars are the bottleneck, because the healing grows with them. Her auto attack a
 
 Nicole completes a warlock squad: five warlocks give +20% to stats, and all five UR heroes of that faction are on hand by then, Ulfrid, Billy, Annie, Joker and Nicole herself. With Annie she shares the burn plan, as Inferno Array hits every enemy for 3,150% and adds 45% against burning targets.
 
-##

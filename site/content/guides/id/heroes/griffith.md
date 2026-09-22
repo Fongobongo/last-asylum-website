@@ -301,4 +301,3 @@ An SSR hero has neither Awakening nor an Exclusive Weapon, so Griffith's ceiling
 
 Griffith appears twice in the squad review, both times beside rangers. With Bestar, Hastar, Ash and Louis the squad gains +15% to its stats and withstands 16.8M damage before it falls. The faction works in his favor as well, since rangers take 20% less damage from warriors.
 
-##

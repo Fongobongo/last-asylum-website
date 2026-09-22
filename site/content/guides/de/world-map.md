@@ -65,4 +65,3 @@ Speed bonuses stack unevenly as well. The Squad building adds to gathering, to a
 
 There is plenty of data on zones, shields and relocation, but independent checking confirmed less than half of it, so the page carries only speed, distances and the ratio of travel times.
 
-##

@@ -15,7 +15,6 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-squad-2)).
 
-## Tools
 
 Squad 2 adds a second march queue, letting the city run two marches at once: gathering and reinforcing an ally, for instance. The number of free covert-ops dispatches counts by squads as well. The building unlocks after Sanctuary level 8 and goes up to level 30. Only one can be built. Levels raise: squad March Speed↑.
 
@@ -54,4 +53,3 @@ Free covert operation dispatches are counted by squads, two per squad, so the se
 
 Squad 4 shows up earlier, at Sanctuary level 5, but its queue stays shut without the monthly pass, while Squad 3 waits for level 20. From level 8 to level 20 Squad 2 remains the only addition to the number of marches. A full upgrade is worth 257,400 Might, as much as Squad 1 carries.
 
-##

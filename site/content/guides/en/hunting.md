@@ -61,4 +61,3 @@ Beyond rallies the map carries heavier targets. Elite Blight tier 5 goes up to 2
 
 For scale, the reference total for a player at Sanctuary 30 is 94,620,000, see Might. The heaviest target on the map thus asks for roughly forty per cent of a fully developed account, and nobody takes such targets alone.
 
-##

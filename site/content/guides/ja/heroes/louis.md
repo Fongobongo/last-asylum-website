@@ -349,4 +349,3 @@ Awakening is the most expensive part of his build: 2,870 shards against the 975 
 
 In the squad ranking Louis holds seven line-ups out of twelve. The best of them, a tier S one with Arthur, Marlena, Daskal and Harper, scores 98 effectiveness at 150.7M survivability, the highest figure in the table.
 
-##

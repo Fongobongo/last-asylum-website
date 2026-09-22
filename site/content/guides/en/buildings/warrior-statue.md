@@ -11,7 +11,6 @@ type: guide
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-warrior-statue)).
 
-## Tools
 
 Warrior Statue
 
@@ -72,4 +71,3 @@ The bonus reaches the whole faction at once, and the game has fourteen Warriors 
 
 By Might the three statues are nearly indistinguishable: 272,400 for the Warrior, 272,600 for the Warlock and 272,500 for the Ranger. The unlock level makes the difference. This one arrives four and five Sanctuary levels earlier and is several levels ahead before its neighbors appear.
 
-##

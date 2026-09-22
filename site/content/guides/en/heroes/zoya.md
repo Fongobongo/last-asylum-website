@@ -310,4 +310,3 @@ Most of Zoya's ceiling comes from the systems tied to season days. The Exclusive
 
 In the squad review Zoya is covered by three tanks and a support: Arthur, Daskal, Billy and Harper keep her alive until the skill comes back, and the line-up withstands 143.4M damage. All of its damage rests on Zoya, and once she falls the five stop killing.
 
-##

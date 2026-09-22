@@ -321,4 +321,3 @@ Awakening costs the most: 2,870 shards for 40 levels against 975 for all 50 star
 
 Daskal stands in two tier S squads. Arthur, Marlena, Daskal, Harper and Louis earn a +15% faction bonus for four warriors, 150.7M of survivability and 98 points out of 100 in the squad review. His shield stacks with Billy's Fate's Thread, which removes 36% of the damage from the squad.
 
-##

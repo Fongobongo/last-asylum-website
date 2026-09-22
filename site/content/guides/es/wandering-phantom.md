@@ -68,4 +68,3 @@ The Kingdom completes quests together, and every Doctor who meets the event cond
 
 First kills of the high levels pay rare survivors, while the kill and participant counters close on their own on a busy server, so even a player who joined a single rally gets something out of the event.
 
-##

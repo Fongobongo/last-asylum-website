@@ -333,4 +333,3 @@ Stars are the bottleneck. The third ally under Fate's Thread arrives at ★35 an
 
 Billy stands in seven line-ups out of twelve. In the best squad of the game, with Arthur, Ulfrid, Annie and Joker, the five reach 131.1M effective HP, 3.2M damage per second and +15% for four warlocks, and in the tier S squad with Arthur, Marlena, Daskal and Ulfrid 147.2M. Without Billy the best squad drops to 98 out of 100.
 
-##

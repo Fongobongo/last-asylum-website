@@ -15,7 +15,6 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-herb-storage)).
 
-## Tools
 
 Herb Storage leaves the raider only the Herb above the protected line, 75 million at level 30, a third of what Grain and Timber get. Herb also comes in slower, which leaves its stock the most exposed. The building unlocks after Sanctuary level 3 and goes up to level 30. Only one can be built. Levels raise: protected Resource.
 
@@ -54,4 +53,3 @@ Herb also comes in more slowly, so the storehouse runs into its protected line s
 
 The storehouse itself costs 1,254,708,000 Herb, sixteen times what it ends up protecting, alongside 2,537,033,678 Grain. It carries 287,000 Might. Of the three storehouses this one is raised last: its own price asks half as much Herb as Grain, while across the whole city construction spends three times more Grain than Herb, and a large herb stock is rarer.
 
-##

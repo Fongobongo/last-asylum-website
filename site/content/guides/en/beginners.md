@@ -259,7 +259,6 @@ Verified values from game client data (v1.0.87), source: [wiki-last-asylum.com](
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/first-days)).
 
-## Tools
 
 Where to start in Last Asylum: Plague on a fresh server comes down to a handful of early decisions that are expensive to undo later. The clinic and the Research Lab have to stay ahead of the Sanctuary, the first hero shards are best saved for Arthur, and the early research branches buy Might more cheaply than anything else. The sections below take those decisions in order and close with a list of what unlocks at each Sanctuary level.
 
@@ -335,7 +334,6 @@ When does the second squad open? At Sanctuary level eight, and the third at twen
 
 The build calculator assembles the upgrade order from day one: from the building levels it shows what the next Sanctuary level is missing and where to put speedups.
 
-##
 
 ---
 

@@ -293,4 +293,3 @@ His progression ends early. SSR heroes receive neither Awakening nor an Exclusiv
 
 The best squad without a single UR hero is built around him: Celia, Lucius, Sivir, Bella and Hastar give +15% to stats and 9.3M effective HP. The second such squad keeps him alongside Grenwald and Stellar. Once Ulfrid and Billy arrive Hastar moves to the bench, where his support skill adds 10% to the squad.
 
-##

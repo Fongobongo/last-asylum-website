@@ -15,7 +15,6 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-sanctuary)).
 
-## Tools
 
 Sanctuary sets the hero level cap at five levels per Sanctuary level and adds hero stats on top. Almost every other building demands a Sanctuary no lower than itself, so the build queue always waits on the main hall, whose own upgrades also require specific buildings and Clinic stars: what every level needs and how long it takes is collected in the table below. The building is available from the start of the game and goes up to level 30. Only one can be built. Levels raise: hero Level Cap, hero HP, hero ATK, hero DEF.
 
@@ -115,4 +114,3 @@ Might, however, is not why the main hall is raised. Every level from the sixth l
 
 Hence the working order: the Research Lab stays one level below the target, and Clinic stars are gathered in advance, from 17 at level 3 to 326 at level 28. Everything else that waits on the main hall is collected on the Sanctuary page.
 
-##

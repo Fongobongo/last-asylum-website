@@ -11,7 +11,6 @@ type: guide
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-watchtower)).
 
-## Tools
 
 Watchtower hides intel from enemy scouts, and from level 5 counter-scouting triggers every single time. From level 9 five fields drop out of the enemy report, and neither figure grows further. The Expedition is entered through the tower. The building unlocks after Sanctuary level 8 and goes up to level 30. Only one can be built. Levels raise: anti-Scout Chance, anti-Scout Hidden Intel, scout Level.
 
@@ -50,4 +49,3 @@ Beyond it twenty one levels raise nothing but the level of the city's own scout,
 
 The Expedition is entered through the tower, yet the Expedition itself appears at Sanctuary level 16, eight levels later than the tower. Its 311,100 Might puts the Watchtower fifth among the city buildings, and that figure is collected by the same levels that add nothing to scouting.
 
-##

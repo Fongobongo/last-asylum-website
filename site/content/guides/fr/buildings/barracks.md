@@ -15,7 +15,6 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-barracks)).
 
-## Tools
 
 Barracks sets the Troop Capacity: how many soldiers the territory keeps at all, apart from what the heroes' CMD leads out. A research node opens a fourth Barracks. The building unlocks after Sanctuary level 6 and goes up to level 30. Up to 3 can be built. Levels raise: troop Capacity.
 
@@ -56,4 +55,3 @@ Three level 30 Barracks give 24,099 Troop Capacity and 688,800 Might, but cost a
 
 The question of how to raise Troop Capacity is answered here alone: the cap comes from the Barracks levels and the fourth Barracks from the research node, while hero CMD does not touch it and only limits the size of a marching squad. Once the cap is reached, only the next Barracks level raises it, and the table above shows how much each level adds.
 
-##

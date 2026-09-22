@@ -15,7 +15,6 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-temple)).
 
-## Tools
 
 Temple holds the plot of the three faction statues and serves as the way in to each of them. While the Warrior, Warlock or Ranger Statue is not yet built, a request for it arrives at the Temple. The building is available from the start of the game and goes up to level 1. Only one can be built.
 
@@ -49,4 +48,3 @@ After that the Temple serves as a plot. The first faction statue unlocks at Sanc
 
 Nothing here needs planning: the Temple has one level, no upgrades, and its 21 resources are spent once. From level 20 the statues open the Honor levels, and the plot stops being only a temple.
 
-##

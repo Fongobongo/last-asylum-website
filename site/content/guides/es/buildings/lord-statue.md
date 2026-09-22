@@ -15,7 +15,6 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-lord-statue)).
 
-## Tools
 
 Lord Statue opens the Lord's specialization: forty levels that raise virus resistance EXP per hour. There are also 44 active skills such as instant research, on cooldowns running from two hours to nearly five days. The building unlocks after Sanctuary level 10 and goes up to level 1. Only one can be built.
 
@@ -49,4 +48,3 @@ The value of the statue is the Lord's specialization: forty levels, each grantin
 
 The price of the statue, 21 resources, matches both stables and the Temple, yet those bring 500 Might each while the Lord Statue brings zero. Raising it for the Might counter is pointless, and no other building in the city can be described that way. What it costs is returned by the first levels of the specialization. The statue itself has a single level that never rises. The forty levels of the specialization are raised with Lord EXP rather than with city resources, so after installation the building asks for nothing more.
 
-##

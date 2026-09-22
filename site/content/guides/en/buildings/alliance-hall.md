@@ -11,7 +11,6 @@ type: guide
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-alliance-hall)).
 
-## Tools
 
 Alliance Hall collects Alliance Help, where every ally who responds shaves a few seconds off a queue. The hall's level raises both the number of helps and the weight of each one. Help applies only to building, research and healing queues. The building unlocks after Sanctuary level 5 and goes up to level 30. Only one can be built. Levels raise: alliance Help Count, alliance Help Duration.
 
@@ -50,4 +49,3 @@ Only building, research and healing accept help, though they accept it daily on 
 
 The hall's bill leans towards Grain: 2,569,804,162 against 852,399,582 Timber. It carries 235,100 Might. Up to level 20 the hall goes up early, for its 12 minutes 15 seconds and 42,200 Might, and the top ten levels drop to the end of the queue: nothing else buys back 190 days 14 hours for seven minutes.
 
-##

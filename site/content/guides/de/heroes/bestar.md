@@ -288,4 +288,3 @@ SSR heroes have no awakening and no Exclusive Weapon, so Bestar's ceiling comes 
 
 Among budget squads Bestar stands in the ranger five with Griffith, Hastar, Ash and Louis: 16.8M survivability, 1.2M damage per second and 5 effectiveness with a +15% bonus. The bleeding from her skills and Ash's ranger buff stack together.
 
-##

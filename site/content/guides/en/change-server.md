@@ -55,4 +55,3 @@ Teleporting with troops to another server works only against the Alliance Duel o
 
 The developers' official answer in the community has been the same since spring 2026: transfers between servers are planned, with no timeline. Rumours of a golden ticket, server merges and a move "with all progress" come from players, not the publisher. Separately, an offer in private messages or Discord to "move to another server because this one is shutting down" is a recruiter's trick for another game, covered on the FAQ page.
 
-##

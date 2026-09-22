@@ -28,4 +28,3 @@ The seven-day epigraph event shows the scale: it hands out 870 SSR fragments ove
 
 Below raven evolution level ten epigraphs are unavailable, and the first blueprint slot opens together with that level at a modest cost. After that, the epigraphs to collect first are the ones that add targets to the raven's skill: three of the thirty-two do that, one per faction, and they change the mechanic itself rather than percentages. The other twenty-nine grant percentages to allied attack, defense and damage.
 
-##

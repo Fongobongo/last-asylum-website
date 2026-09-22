@@ -276,4 +276,3 @@ Kesso has neither awakening nor an Exclusive Weapon: levels give 730,553 HP and 
 
 The best squad with Kesso and no UR hero is built from him, Lucius, Sivir, Bella and Claire: five warriors, the full +20% bonus and 8.1M of survivability. Once the reachable UR heroes arrive he holds two places among the five best such squads, beside Arthur and Marlena, where survivability climbs to 37.3M. Kesso brings no squad-wide skill of his own, so his job in a squad is damage and faction.
 
-##

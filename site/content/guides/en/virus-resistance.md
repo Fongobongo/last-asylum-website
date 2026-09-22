@@ -24,4 +24,3 @@ First clears of elite levels and monster kills both give experience, though the 
 
 The exact formula that turns a resistance gap into damage could not be confirmed. Only the snowballing effect itself and the boundaries of the ranges are given here, without any multipliers.
 
-##

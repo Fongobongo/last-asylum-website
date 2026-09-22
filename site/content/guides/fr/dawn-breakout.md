@@ -33,4 +33,3 @@ The Survivor Recruit Tickets matter most, because they hire the survivors who st
 
 Beyond the fights themselves, the event pays for likes on other players' results, up to 5 a day, which makes it worth opening even without a strong squad.
 
-##

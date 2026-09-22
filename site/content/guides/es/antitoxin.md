@@ -36,4 +36,3 @@ The Antitoxin Workshop unlocks after Sanctuary level 5, up to five can be built,
 
 The publisher's official guide lists the Antitoxin sources without numbers: the workshop and the stable, building upgrade rewards, Falcon Quests, Covert Ops of one's own and plundered ones up to five times a day, caravans, Blight hunting and events such as Cheese Trap, plus paid packs. Upgrade rewards, Falcon Quests, Covert Ops, hunting, events and packs are confirmed by the tables above. Caravans and the Private Stable pay Antitoxin only through Level Supplies. The daily plunder limit and the energy cost of hunting are not verified on this wiki, see the methodology.
 
-##

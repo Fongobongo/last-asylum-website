@@ -8,7 +8,6 @@ type: guide
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/formulas)).
 
-## Tools
 
 How the game counts speed-up prices, resource rates, crit chance and scouting costs is something players normally work out by trial. The page collects the parts of those calculations worth knowing, without deriving anything. Percentages of the same kind add together, while time is divided by the sum, which makes every further point of speed cut less time than the one before it.
 
@@ -58,4 +57,3 @@ The remaining calculations fit into a line each, and they are worth knowing most
 - Morale is clamped between 1 and 2, so it can double a fight at most.
 - Arena points depend on the rating gap: beating a stronger opponent pays more.
 
-##

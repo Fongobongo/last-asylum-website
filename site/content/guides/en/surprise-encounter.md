@@ -63,4 +63,3 @@ Rewards scale with the price, so the size of a bet changes the size of the payou
 
 Measured against every free source in the game, these boxes come first for two scarce items and second for a third: 481,600 skill badges (against 375,000 from hero growth tasks), 101 days of speedups (against 92 from Abyss boss tasks) and 3,096 raven essence (against 400). One activity covers three shortages at once, which is why emblems are not worth hoarding indefinitely.
 
-##

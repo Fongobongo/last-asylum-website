@@ -11,7 +11,6 @@ type: guide
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-walls)).
 
-## Tools
 
 Walls protect the city with defense strength an attacker has to break through, and hold the defending troop. The squad assigned there meets the assault. The strength recovers on its own, and diamonds repair it faster. The building unlocks after Sanctuary level 4 and goes up to level 30. Only one can be built. Levels raise: city DEF, wall DEF Decay Rate↓, wall DEF Recovery Speed↑.
 
@@ -54,4 +53,3 @@ Level 30 brings both rates to 30 percent, and there the difference between an up
 
 Timber runs to 5,145,448,295, more than any other building in the city spends, and the Walls carry 313,300 Might, the most at Sanctuary level 4: the Tavern holds 309,500 and the Gear Workshop 277,600. They are raised for that Might and for Sanctuary requirements; an assault is turned away more reliably by a shield.
 
-##

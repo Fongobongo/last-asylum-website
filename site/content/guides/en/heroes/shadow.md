@@ -323,4 +323,3 @@ Stars cost the most. Shadow Strike's defense reduction reaches 54% only at ★45
 
 The best squads in the game have no room for him, because Arthur and Billy hold the front line with reductions that reach their allies, not only themselves. Shadow is a ranger, though, and a squad of Louis, Cynthia, Red Lady and Bell around him carries the full +20% faction bonus, while rangers take 20% less damage from Warriors.
 
-##

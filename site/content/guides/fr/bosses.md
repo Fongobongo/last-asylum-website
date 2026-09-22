@@ -48,4 +48,3 @@ A separate alliance event: 5 monster waves plus a boss, across 9 difficulty leve
 
 The key detail about difficulty: the reward is identical on all nine levels. Both the shown payout (500 alliance coins per wave, 2,500 for the boss) and the hidden drop set match; only monster damage grows, from 10,000 to 30,000. There is therefore no reason to pick a harder level than the alliance can clear with confidence.
 
-##

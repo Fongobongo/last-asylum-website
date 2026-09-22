@@ -26,4 +26,3 @@ A character lives in the publisher's account, not on the device. Until the accou
 
 Playing on a computer is no different from playing on a phone: the same servers, the same events and the same shop, with purchases going through Google Play. The game rules forbid programs that play on the player's behalf, and neighbours' reports of such activity end in a chat or account block, so the emulator serves as a big screen and a keyboard rather than a substitute for the player. Where to begin on a new server is described on the First days page.
 
-##

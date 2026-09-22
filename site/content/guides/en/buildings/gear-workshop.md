@@ -11,7 +11,6 @@ type: guide
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-gear-workshop)).
 
-## Tools
 
 Gear Workshop forges hero gear, and its level unlocks crafting of the higher qualities, with gear stars arriving at level 20. Levels past the twentieth carry no numeric bonus, so they are raised for Might and for Sanctuary requirements alone. The building unlocks after Sanctuary level 4 and goes up to level 30. Only one can be built.
 
@@ -51,4 +50,3 @@ Five buildings share the queue at Sanctuary level 4, and only one of them is ins
 
 The bill of the workshop leans hard on Timber: 4,526,021,182 against 1,491,682,843 Grain and 464,624,870 Herb, the third largest timber spend in the city. Up to level 20 it sits early in the queue, alongside hero gear itself, and past level 20 it is raised for Sanctuary requirements. One workshop stands to a city, and a second cannot be built.
 
-##

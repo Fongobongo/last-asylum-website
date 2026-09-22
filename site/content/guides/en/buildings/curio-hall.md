@@ -11,7 +11,6 @@ type: guide
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-curio-hall)).
 
-## Tools
 
 Curio Hall shows the Curio collection: 31 artifact structures with permanent bonuses, raised with shards. Several Curios repeat each other in numbers, and five different ones give the identical hero HP bonus. The building unlocks after Sanctuary level 8 and goes up to level 1. Only one can be built.
 
@@ -45,4 +44,3 @@ Hence the timing: the hall goes up before the first large shard spending rather 
 
 The 840-resource price of the hall is not its own: the Monument, the Nomad Trader and the Residence cost exactly as much. The four window buildings share a price and differ only in the Sanctuary level that opens them: 1, 6, 8 and 9. Their order is set by which system is needed earlier, not by the cost. The hall has a single level that cannot be raised: all 200 Might arrive at once, in the minute it is built.
 
-##

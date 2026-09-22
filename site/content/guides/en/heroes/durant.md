@@ -256,4 +256,3 @@ Durant is cheaper to upgrade than the SSR and UR heroes and costs the same as th
 
 Durant is missing from the general squad tables, yet he fills the budget five with Arthur, Lucius, Claire and Marlena: the full +20% faction bonus, 38.2M of survivability and 15 points of effectiveness. From the bench he pays the squad +5% to ATK, HP and DEF, half of what an SSR hero gives.
 
-##

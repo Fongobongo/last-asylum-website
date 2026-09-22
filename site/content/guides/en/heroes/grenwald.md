@@ -288,4 +288,3 @@ Skills are the bottleneck. Each of the four goes up to level 40 for 436,700 badg
 
 Grenwald stands in two of the best squads without a UR hero: with Lucius, Stellar, Bella and Hastar he gives 9.0M effective HP, and with Stellar, Griffith, Hastar and Ash 7.7M. The same squad with Billy in place of Bella raises that to 16.5M, and nothing better can be built around Grenwald with a single UR hero.
 
-##

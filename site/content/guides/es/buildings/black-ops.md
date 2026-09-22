@@ -15,7 +15,6 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-black-ops)).
 
-## Tools
 
 Black Ops opens covert ops, the main source of hero EXP: 70 missions, the top one paying 12,177,000 EXP. A universal UR hero shard drops at every secrecy level. Assisting an ally or intercepting pays a tenth of the reward. The building unlocks after Sanctuary level 9 and goes up to level 1. Only one can be built.
 
@@ -49,4 +48,3 @@ How many operations run at once is counted by squads, two dispatches each. At Sa
 
 The building carries 100 Might and goes unnoticed in the city total, as much as the Arena and the Falcon Tower carry. Its value is measured in hero EXP, and until level 9 the same EXP comes from the dungeon of the Explorer's Camp, five levels earlier. Its maximum level is 1, and it never asks for more than those 840 resources.
 
-##

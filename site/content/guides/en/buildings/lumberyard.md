@@ -11,7 +11,6 @@ type: guide
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-lumberyard)).
 
-## Tools
 
 Lumberyard produces Timber, the resource that construction consumes in larger amounts than any other. Output accumulates in the building and stalls when the store fills, and a research node opens a fifth Lumberyard, cheaper than another level on the ones already standing. The building is available from the start of the game and goes up to level 30. Up to 4 can be built. Levels raise: output/Hour, max Production Time.
 
@@ -50,4 +49,3 @@ Four level 30 Lumberyards give 3,279,168 Timber a day. At that rate the Walls al
 
 A fourth Lumberyard opens at Sanctuary level 12, and a fifth comes from a research node. The fifth building beats another level: it adds a quarter to output, whereas level 30 demands 62,530,000 Timber and 39,900,000 Herb on top of the Grain.
 
-##

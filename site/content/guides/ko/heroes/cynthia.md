@@ -328,4 +328,3 @@ Awakening costs the most. For 2,870 shards it gives 1,490,016 HP and 18,952 DEF,
 
 In a tier A squad Cynthia stands with Arthur, Harper, Louis and Red Lady for 123.7M effective HP and 87 out of 100. She is a ranger, so a five with Shadow, Louis, Red Lady and Bell earns her the +20% bonus to stats, the largest squad multiplier in the game.
 
-##

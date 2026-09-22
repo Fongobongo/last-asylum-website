@@ -284,4 +284,3 @@ Progression for an SSR hero is shorter than for a UR one, with neither Awakening
 
 Sivir appears seven times in the squad review, and all of those line-ups are warrior ones. The strongest, with Arthur, Lucius, Bella and Marlena, withstands 38.8M damage and earns the full +20% faction bonus. She completes the fifth warrior there, and her damage reaches the squad together with that multiplier.
 
-##

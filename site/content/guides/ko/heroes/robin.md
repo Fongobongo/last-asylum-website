@@ -265,4 +265,3 @@ Rarity is the bottleneck. An SR hero's skills go up to level 30 rather than 40, 
 
 Robin appears in none of the thirteen best squads in the game, nor in the best squads built without a UR hero. His place is the first week, while a ranger squad is still incomplete, and afterwards he moves to the bench, where an SR hero's support skill adds 5% to the team against 20% from a UR hero.
 
-##

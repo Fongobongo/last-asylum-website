@@ -316,4 +316,3 @@ Stars cost her more than anything else, because both of her main skills mature a
 
 Her damage carries a tier A squad with Arthur, Harper, Louis and Cynthia: 123.7M survivability, 2.9M damage per second, 87 effectiveness at a +10% bonus for three rangers. In the budget ranger five with Griffith, Bestar and Ash her place went to Louis, whose skills also cut the damage allies take.
 
-##

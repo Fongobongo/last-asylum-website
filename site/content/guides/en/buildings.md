@@ -209,7 +209,6 @@ Once the macro priority above is running, these are the in-tree shortcuts that s
 
 Source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-limits), client v1.0.87.
 
-## Tools
 
 Building limits cap how many buildings of one kind a city may hold, and the real cap sits higher than the building panel suggests. The lab carries nodes that add one more building of each kind, and with them the allowance looks like this.
 
@@ -232,7 +231,6 @@ Hence the feeling that herbs always run out first. The feeling is accurate, and 
 
 How many copies a city can have, Lab nodes included, is shown by the build calculator: every tile is labelled with the Sanctuary level that unlocks it.
 
-##
 
 ---
 
@@ -240,7 +238,6 @@ How many copies a city can have, Lab nodes included, is shown by the build calcu
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/research-priority)).
 
-## Tools
 
 Research runs slowly and costs heavily, so the order of the branches matters more than the list of them. Might comes at wildly different prices across the lab categories, two branches repeat what two others already give, and one category asks for no resources at all. Development and Economy sell Might cheapest, Hero sells it dearest.
 
@@ -281,7 +278,6 @@ Might and bonus values in the tables are cumulative, so a row shows the total at
 
 How the speed, cost and copy-limit nodes change the build queue for a particular city is shown by the build calculator.
 
-##
 
 ---
 

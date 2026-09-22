@@ -15,7 +15,6 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-tavern)).
 
-## Tools
 
 Tavern opens hero and survivor recruiting, including the free recruit that returns on a cooldown. Recruiting and shards are the two ways a roster grows, which is why the Tavern goes up among the first buildings. The building unlocks after Sanctuary level 4 and goes up to level 30. Only one can be built. Levels raise: free Hero Recruit CD, free Survivor Recruit CD.
 
@@ -54,4 +53,3 @@ Counted across an era the gap shows better. Over 56 days a 72-hour cooldown yiel
 
 Level 1 costs 29 Grain and 9 Timber and finishes in under a minute, so the Tavern goes up on the day Sanctuary level 4 opens. From there it is taken to level 20 and 54,000 Might, while the last ten levels and their 309,500 Might wait alongside the Gear Workshop.
 
-##

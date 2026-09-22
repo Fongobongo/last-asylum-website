@@ -327,4 +327,3 @@ Awakening is her most expensive system: 2,870 shards for 40 levels. It also retu
 
 In a tier S squad Marlena stands with Arthur, Daskal, Harper and Louis for 150.7M of survivability and 2.7M damage per second, 98 points out of 100. The pure warrior version, with Zoya in place of Billy, lifts the bonus to +20% and the damage to 3.0M at 72.1M of survivability.
 
-##

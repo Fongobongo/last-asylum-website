@@ -11,7 +11,6 @@ type: guide
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-granary)).
 
-## Tools
 
 Granary shields part of the Grain stock from plunder, keeping 225 million of it safe at level 30. Anything above that line an attacker carries off, so spending the surplus before taking risks costs nothing. The building unlocks after Sanctuary level 3 and goes up to level 30. Only one can be built. Levels raise: protected Resource.
 
@@ -50,4 +49,3 @@ Whether the protection matters depends on how fast the stock builds up. Four lev
 
 Sanctuary level 3 unlocks four buildings at once. The Lumber Depot and the Herb Storage ask the same 299 days 4 hours and carry comparable Might, 287,300 and 287,000 against the 287,500 of the Granary, while the Builder's Hut takes 199 days 10 hours and finishes upgrades shorter than half an hour for free.
 
-##

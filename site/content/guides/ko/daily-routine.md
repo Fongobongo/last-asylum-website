@@ -11,7 +11,6 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/daily-routine)).
 
-## Tools
 
 Daily routine is a short list of what is worth doing every day, ordered by how much you lose when you skip it. The items at the top overflow and stop paying out on their own, while the ones lower down simply cannot be caught up tomorrow. Every entry links to the page that covers it in full.
 
@@ -76,4 +75,3 @@ Rewards count for the first hundred helps a day, see Alliance.
 
 What to put into the build queue between sessions is suggested by the build calculator.
 
-##

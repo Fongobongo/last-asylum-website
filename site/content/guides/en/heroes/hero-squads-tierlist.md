@@ -26,7 +26,6 @@ Pick 5 more. A squad needs five heroes.
 
 Stats are taken at full investment (level and star template, personal growth ratio, awakening and exclusive gear). Over a 30-second fight every skill casts on its cooldown, the first cast at its initial delay. Survivability = (HP + shields + healing) / (1 − damage reduction, capped at 75%). Defense and troops are computed server-side and are outside the model. Index 100 = the best squad built from all heroes in the game.
 
-## Tools
 
 A squad in Last Asylum: Plague is made of five heroes, and how those five are matched matters more than the Might of any one of them. This page ranks all 169,911 possible five-hero squads by tier. They were judged not by total Might but by what they do in a fight: how much the squad withstands and how hard it hits. The calculation itself is explained on How squads are rated; this page keeps to the results and what they mean for a player. The best squad from the heroes actually owned is computed by the squad builder, and the arena team builder checks it against a specific opponent.
 
@@ -595,6 +594,5 @@ Queues open by Sanctuary level, and the fourth one also asks for an active month
 
 The third queue costs the most in time: growing the Sanctuary to level 20 takes a long while, and until then the city keeps two marches outside the walls. Squad 4 is visible as early as level 5, yet the queue stays shut without the subscription, so plans for development are better made without it.
 
-##
 
 ---

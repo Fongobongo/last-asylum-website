@@ -11,7 +11,6 @@ type: guide
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-alliance-stable)).
 
-## Tools
 
 Alliance Stable assembles the alliance caravan: up to twenty members, six wagons and a locomotive, with a two-hour muster. An alliance caravan can be robbed three times, a personal one only twice. The building unlocks after Sanctuary level 11 and goes up to level 1. Only one can be built.
 
@@ -45,4 +44,3 @@ The two stables therefore work as a pair. The Private Stable hauls resources for
 
 The city has four instant buildings worth 500 Might: both stables, the Temple and the Hall of Honor. The rest give 100 or 200, and the Lord Statue gives nothing at all. Against the 272,600 of a faction statue the difference between those figures means little, so a building is never picked for its Might. The alliance caravan musters for up to two hours, so a single run needs twenty people to agree inside that window.
 
-##

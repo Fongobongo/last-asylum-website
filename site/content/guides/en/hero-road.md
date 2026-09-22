@@ -28,4 +28,3 @@ Might climbs from 770,000 at difficulty one to 30 million at nine, with the stee
 
 Extra help is priced by call number rather than by difficulty: 50 diamonds for the first 5 calls and 100 for the rest. The purchase is worth counting only on a difficulty that cannot be cleared otherwise, since the reward does not grow with the number of helps.
 
-##

@@ -35,4 +35,3 @@ Rewards run along three tracks, one free and two paid. The table shows what each
 
 Recruit tickets are the headline reward of the paid tracks, and they are what makes the pass worth buying at all; the rest of the rows are resources and materials that arrive from other sources too.
 
-##

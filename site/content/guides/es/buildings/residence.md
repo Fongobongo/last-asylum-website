@@ -15,7 +15,6 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-residence)).
 
-## Tools
 
 Residence opens the survivor panel: 383 characters collected with shards and posted around the territory for their bonuses. A legendary survivor at full stars gives twice the Might of an epic one for the same outlay. The building is available from the start of the game and goes up to level 1. Only one can be built.
 
@@ -49,4 +48,3 @@ The Residence goes up on the first day together with the temple and the hall of 
 
 Sanctuary level 1 is generous with buildings, but almost all of them are slow: the Soldier's Rest needs 299 days of full upgrade and the Sanctuary itself 398. The Residence, the temple and the hall of honor take minutes next to them, so what they compete for is not the queue but the thin stock of the first day, where 840 resources is a visible sum. The Residence has one level: the 840 resources are spent once, and the survivor panel grows afterwards without the building itself.
 
-##

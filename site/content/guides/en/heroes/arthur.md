@@ -332,4 +332,3 @@ Awakening costs the most: 2,870 shards for 40 levels against 975 for all 50 star
 
 In the best squad of the game Arthur stands with Billy, Ulfrid, Annie and Joker for 131.1M of survivability and 100 points of effectiveness; without him 64 points remain. A squad of five tanks survives longer at 136.6M but falls back to 77 in effectiveness, and with Lucius, Sivir, Bella and Marlena he anchors a budget line-up at the full +20% faction bonus.
 
-##

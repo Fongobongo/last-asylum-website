@@ -15,7 +15,6 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-research-lab)).
 
-## Tools
 
 Research Lab runs research: 348 nodes covering economy, troops and heroes, with combat branches that lift the whole army at once. From level 11 the Sanctuary demands a Research Lab one level below its target, so the lab stays a step ahead. The building unlocks after Sanctuary level 7 and goes up to level 30. Only one can be built. Levels raise: research Speed.
 
@@ -54,4 +53,3 @@ It brings 361,000 Might, the third figure in the city after the 384,300 of the S
 
 Sanctuary level 7 opens, alongside the lab, three Infirmaries at 299 days 4 hours each, the Warrior Statue for as long again, and two instant buildings, the Arena and the Raven Nest. The builder goes to the lab first, because the next Sanctuary level depends on it.
 
-##

@@ -161,7 +161,6 @@ The spread runs from 750 scrolls at the bottom of the lowest league to 3,120 for
 
 Moving up a division nearly doubles the reward, while climbing from rank 100 to rank 10 inside the same alliance adds much less, which makes promotion the more valuable of the two goals.
 
-##
 
 ---
 
@@ -223,7 +222,6 @@ Auto Rally comes first. It has a single level, costs a token 100 herbs and makes
 
 The combat technologies, covering health, attack and defense in rallies and garrisons, add 10% each. They begin to matter once the alliance actually fights, rather than in the first weeks of a server.
 
-##
 
 ---
 
@@ -258,7 +256,6 @@ Damage accumulated over the expedition comes back as a buff: the bonus to damage
 
 The top step needs 25,000,001 damage and grants 10%, five times the lowest one. Skill badges rise from 500 at the first camp to 2,000 at the last rewarding one, and the final camp is a boss that pays no chests.
 
-##
 
 ---
 
@@ -289,4 +286,3 @@ Up to 100 people can dig at once. A spot yields up to 10 gifts, and there are 24
 
 There are 37 kinds of spots with different contents: resources and supplies, Gearstones, skill badges, speed-ups or diamonds.
 
-##

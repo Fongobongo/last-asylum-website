@@ -26,4 +26,3 @@ Version 1.0.87 shows nine tabs, listed below in the order the game shows them.
 
 The names are written the way the game shows them. Pages for the tabs without a description will appear as they are checked.
 
-##

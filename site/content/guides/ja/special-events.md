@@ -43,4 +43,3 @@ Every event has a Sanctuary level from which it shows, and some also have a serv
 
 Survival Battle and Cheese Trap come first, while the Valley and the Canyon only arrive in the third week, once alliances have members to send onto the map. Undead Siege sits on day fifteen, yet it is started by the alliance itself after gathering clues on Falcon Quests, not by the calendar.
 
-##

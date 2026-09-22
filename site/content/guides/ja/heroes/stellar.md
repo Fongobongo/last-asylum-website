@@ -276,4 +276,3 @@ The steps of the heal come with stars: the twentieth adds 25%, the forty-fifth b
 
 Stellar is a warlock, and Wishing Star strengthens adjacent warlocks, which is why she belongs in a warlock line-up. Without UR heroes that is the five with Lucius, Bella, Grenwald and Hastar: 9.0M survivability at a +10% bonus. With one UR hero Billy joins, four warlocks make it +15%, and the squad reaches 16.5M survivability.
 
-##

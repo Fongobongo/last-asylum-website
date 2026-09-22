@@ -281,4 +281,3 @@ Awakening costs him the most: 2,870 shards for 40 levels against 975 for 50 star
 
 Harper stands in 21 of the top 50 squads, and the game's best line-up goes without a support at all. In the strongest squad that fields him he joins Arthur, Marlena, Daskal and Louis for 150.7M of survivability at a +15% bonus and 98 points out of 100. In the warrior version with Zoya the damage reduction reaches 48%, because the 20% of Vitality Bubble stacks with the 35% of Earthshattering.
 
-##

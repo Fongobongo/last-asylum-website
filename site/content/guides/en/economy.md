@@ -442,7 +442,6 @@ Verified values from game client data (v1.0.87), source: [wiki-last-asylum.com](
 
 Source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/spending), client v1.0.87.
 
-## Tools
 
 Spending in this game comes down to diamonds: nearly everything sold for money is bought with them, and offers are compared through them. The general rule is simple, since a bundle at the same price almost always returns the same diamonds and something else besides, which makes plain diamonds a poor purchase. What follows covers the rate, the second currency, one-off purchases such as the permanent build queues, the subscriptions and the places where diamonds go furthest.
 
@@ -526,7 +525,6 @@ Two counters are worth remembering. The cheapest line in the alliance shop is th
 
 Whether a second or third queue is worth it for a particular city is visible in the build calculator: an extra queue is added there with one button and the upgrade order is recomputed.
 
-##
 
 ---
 
@@ -595,4 +593,3 @@ Every VIP level pays out a one-time gift. Only one thing in it carries real valu
 
 The first UR fragment sits at level ten, which already costs 155,000 points. From level sixteen to twenty the gift stops growing in fragments at all, staying at three UR everywhere. The gifts are therefore no reason to chase the top levels, since they only pay off in the middle.
 
-##

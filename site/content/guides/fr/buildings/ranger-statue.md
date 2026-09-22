@@ -15,7 +15,6 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-ranger-statue)).
 
-## Tools
 
 Ranger Statue
 
@@ -71,4 +70,3 @@ There are nine Rangers, five of them UR, and the five-level delay of the statue 
 
 Level 20 opens the Honor levels of the Rangers and takes 13 days of building, the other ten levels take 286 days. The statue carries 272,500 Might, between the 272,400 of the Warrior and the 272,600 of the Warlock, so the order among statues follows the faction of the squad. A full upgrade also needs 815,723,800 Herb, and the last five levels take 79% of the build time.
 
-##

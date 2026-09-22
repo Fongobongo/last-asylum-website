@@ -43,4 +43,3 @@ Two more values sit beside each of those, twice and four times as large: 320 and
 
 There is no choice between stars and honor, because honor opens only after stars and eats the same shards. The real choice comes earlier, at the statue. Until the faction statue reaches level twenty, shards spent on a finished hero sit idle.
 
-##

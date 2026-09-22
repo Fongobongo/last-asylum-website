@@ -245,7 +245,6 @@ Pick 5 more. A squad needs five heroes.
 
 Stats are taken at full investment (level and star template, personal growth ratio, awakening and exclusive gear). Over a 30-second fight every skill casts on its cooldown, the first cast at its initial delay. Survivability = (HP + shields + healing) / (1 − damage reduction, capped at 75%). Defense and troops are computed server-side and are outside the model. Index 100 = the best squad built from all heroes in the game.
 
-## Tools
 
 A squad in Last Asylum: Plague is made of five heroes, and how those five are matched matters more than the Might of any one of them. This page ranks all 169,911 possible five-hero squads by tier. They were judged not by total Might but by what they do in a fight: how much the squad withstands and how hard it hits. The calculation itself is explained on How squads are rated; this page keeps to the results and what they mean for a player. The best squad from the heroes actually owned is computed by the squad builder, and the arena team builder checks it against a specific opponent.
 
@@ -814,7 +813,6 @@ Queues open by Sanctuary level, and the fourth one also asks for an active month
 
 The third queue costs the most in time: growing the Sanctuary to level 20 takes a long while, and until then the city keeps two marches outside the walls. Squad 4 is visible as early as level 5, yet the queue stays shut without the subscription, so plans for development are better made without it.
 
-##
 
 ---
 
@@ -913,7 +911,6 @@ The old Claire disappears from the hero list afterwards, and the conversion cann
 
 The conversion consumes a fully starred heroine and returns a UR version with six stars on day one. The decision is made once and cannot be reversed.
 
-##
 
 ---
 
@@ -921,7 +918,6 @@ The conversion consumes a fully starred heroine and returns a UR version with si
 
 Source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-factions), client v1.0.87.
 
-## Tools
 
 Hero factions split the whole roster into three groups: warrior, warlock and ranger. A faction decides who the hero hits harder and who hits the hero softer, and it works in a circle: warrior beats warlock, warlock beats ranger, ranger beats warrior. The difference is 20% damage, so a squad matched against the enemy wins against a random one at equal Might.
 
@@ -1235,7 +1231,6 @@ Gearstones come next at 22,500 per track, and forging materials and supplies arr
 
 Stars are counted whole, and the tracks run from the first star to the eighth, so nothing is asked beyond eight stars.
 
-##
 
 ---
 

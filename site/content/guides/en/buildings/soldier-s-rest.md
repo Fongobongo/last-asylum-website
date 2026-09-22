@@ -11,7 +11,6 @@ type: guide
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-soldier-s-rest)).
 
-## Tools
 
 Soldier's Rest saves a share of fallen soldiers, and the share climbs from 18% to 40% before stopping at level 23. Later levels add capacity only. Raising a fallen soldier costs the same as healing a wounded one, 30% of recruiting. The building is available from the start of the game and goes up to level 30. Only one can be built. Levels raise: troop Reception Rate, troop Reception Capacity, rest Cooldown, help Accepted.
 
@@ -50,4 +49,3 @@ Might is no argument either. At level 30 the Rest carries 3,000, over the same 2
 
 The value of the Rest sits in the early city. It is available from Sanctuary level 1 while the Infirmary arrives only at level 7, and until then the Rest is the sole guard against permanent losses. Raising a fallen soldier costs the same 30% of recruiting as healing a wounded one.
 
-##

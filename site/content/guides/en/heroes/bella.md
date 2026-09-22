@@ -299,4 +299,3 @@ An SSR hero has no Awakening and no Exclusive Weapon, so everything rests on sta
 
 Bella stands seven times in the squad review, and all of those line-ups are budget ones. The strongest, with Arthur, Lucius, Sivir and Marlena, withstands 38.8M damage at the full +20% faction bonus. All five of them are warriors, and Bella completes that bonus from the front line.
 
-##

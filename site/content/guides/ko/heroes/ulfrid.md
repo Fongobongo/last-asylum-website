@@ -335,4 +335,3 @@ Stars are the bottleneck for him. Lunar Howl reflects the full 162% only past th
 
 The squad table places Ulfrid in six line-ups out of twelve. The best squad of the game, with Arthur, Billy, Annie and Joker, scores 100 effectiveness at 131.1M survivability, and the tier S one with Arthur, Marlena, Daskal and Billy scores 98 at 147.2M. Three warlocks stand beside him in the best squad, Billy, Annie and Joker, and the four of them bring the squad +15% to its stats.
 
-##

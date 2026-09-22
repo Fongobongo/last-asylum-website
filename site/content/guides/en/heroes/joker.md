@@ -312,4 +312,3 @@ The largest single addition comes from Awakening: 2,870 shards give 12,119 ATK, 
 
 The only squad with Joker in the squad review, which is also the best line-up in the game, is built around Billy and Ulfrid. The strongest of them, alongside Arthur, Harper and Annie, withstands 119.8M damage. Billy removes 36% of the energy damage from the three highest-attack allies, and Joker falls inside that trio, so he survives to a second cast of his ultimate.
 
-##

@@ -273,4 +273,3 @@ The main reason to field her grows with stars: Ultimate Hunt adds 4% to the loot
 
 Celia is a warrior, and that is her strongest argument: with Arthur and Marlena she completes the full +20% faction bonus. Two of the five reachable UR squads stand on that five, and the best of them reaches 37.3M survivability and 15 effectiveness.
 
-##

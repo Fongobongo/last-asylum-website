@@ -11,7 +11,6 @@ type: guide
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-smelting-workshop)).
 
-## Tools
 
 Smelting Workshop produces Gearstones, the material that every step of strengthening hero gear consumes. Output stores for up to twelve hours, so the workshops are collected twice a day, and five of them at level 30 yield 310 Gearstones an hour. The building unlocks after Sanctuary level 5 and goes up to level 30. Up to 5 can be built. Levels raise: gearstone Output/Hour, max Production Time.
 
@@ -50,4 +49,3 @@ The Weaving Workshop next door costs the same 99 days 17 hours and carries almos
 
 Sanctuary level 5 opens ten such buildings at once, five smelters and five weavers, and a full upgrade of all ten runs to 997 days. Level 20 on all ten fits into 44 days, which is where the queue here is usually stopped.
 
-##

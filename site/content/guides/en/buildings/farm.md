@@ -11,7 +11,6 @@ type: guide
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-farm)).
 
-## Tools
 
 Farm produces Grain, the main resource for recruiting troops and for construction, and stores it inside the building. Output stalls once the store is full, so it is collected regularly; a research node opens a fifth Farm. The building is available from the start of the game and goes up to level 30. Up to 4 can be built. Levels raise: output/Hour, max Production Time.
 
@@ -50,4 +49,3 @@ Output never repays such levels. Four level 30 Farms give 3,279,168 Grain a day,
 
 A fourth Farm opens at Sanctuary level 12 alongside a fourth Lumberyard, and a fifth comes from a research node. That fifth building adds a quarter to output and costs less than another level on the ones already standing.
 
-##

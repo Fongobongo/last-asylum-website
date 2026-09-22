@@ -187,7 +187,6 @@ infographics: ["/infographics/gear-craft-priority-ru.webp", "/infographics/relic
 
 Её уровень открывает всего четыре вещи: ковку трёх старших качеств и доступ к звёздам на двадцатом уровне. Уровни с двадцать первого по тридцатый дают только мощь.
 
-##
 
 ---
 
@@ -246,4 +245,3 @@ infographics: ["/infographics/gear-craft-priority-ru.webp", "/infographics/relic
 - Красная Леди: Багровый клинок
 - Джокер: Карта иллюзий
 
-##

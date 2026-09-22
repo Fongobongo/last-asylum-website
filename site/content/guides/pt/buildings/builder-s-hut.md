@@ -15,7 +15,6 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-builder-s-hut)).
 
-## Tools
 
 Builder's Hut trims construction with a free completion window: an upgrade shorter than that finishes without a single speedup. The window reaches half an hour at level 30. The paid build queues are unlocked here as well. The building unlocks after Sanctuary level 3 and goes up to level 30. Only one can be built. Levels raise: free Speedup Time.
 
@@ -54,4 +53,3 @@ The window itself catches only short upgrades. Across the whole city 192 upgrade
 
 Past that, time comes off by other means: allied help through the Alliance Hall reaches 19 minutes 40 seconds on a queue, and paid build queues sell from 1.99 dollars. The hut is therefore taken to level 20 early, for its 900 seconds and 37,100 Might, while its top ten levels wait.
 
-##

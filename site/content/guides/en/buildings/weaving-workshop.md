@@ -11,7 +11,6 @@ type: guide
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-weaving-workshop)).
 
-## Tools
 
 Weaving Workshop produces Cloth, the lowest of the five materials that go into crafting and upgrading hero gear. The steps convert four to one in both directions without loss, so one Tempered Steel equals 256 Cloth and stockpiling the low steps costs nothing. The building unlocks after Sanctuary level 5 and goes up to level 30. Up to 5 can be built. Levels raise: cloth Output/Hour, max Production Time.
 
@@ -50,4 +49,3 @@ The workshop brings 31,800 Might at level 20 and 168,200 at level 30. Five at le
 
 The first ten levels take 4 hours 15 minutes and 826,614 resources per workshop, so all five reach level 10 on the day Sanctuary level 5 opens. After that the queue is shared with the smelters, and both sets of five are taken to level 30 last of all.
 
-##

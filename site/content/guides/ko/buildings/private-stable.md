@@ -15,7 +15,6 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-private-stable)).
 
-## Tools
 
 Private Stable sends out personal caravans with resources, where cart quality matters more than the number of runs. The gap between the first and sixth quality is sixfold. A single foreign caravan can be robbed twice at most. The building unlocks after Sanctuary level 11 and goes up to level 1. Only one can be built.
 
@@ -49,4 +48,3 @@ Together with the Alliance Stable the two cost 22 Grain and 9 Timber and bring 1
 
 No other building in the city returns as much Might per unit of resource: 500 for ten Grain against 100 for the 840 that the Monument costs. In the city total that is still small change, yet the stable is the one structure that goes up with an almost empty storehouse, which usually puts it first in the hours after Sanctuary level 11. The stable has one level, and once built it asks for nothing further, neither resources nor builder time.
 
-##

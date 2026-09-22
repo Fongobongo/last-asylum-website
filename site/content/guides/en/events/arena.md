@@ -79,7 +79,6 @@ Ladder mechanics and defense optimization by KorpezGaming ([Last Asylum Players 
 
 Source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/arenas), client v1.0.87.
 
-## Tools
 
 Arenas turn hero Might into steady income: every battle pays Antitoxin, and every season closes with a diamond payout by rank. There are several arenas, differing in entry, battle count and rewards. The lowest one opens almost immediately, while the higher ones ask for a strong rank in hero Might. Nearly all of the income comes from the free battles, and bought ones return far less than they cost.
 
@@ -142,4 +141,3 @@ Not every arena allows top-ups. Where it does, each purchased battle costs more 
 
 Hero Might converts into resources here directly, and a higher rank opens the arenas with the larger rewards. The free battles deliver that income at no cost, which is why they are taken every day, even on days with no appetite for fighting. Which squad to field against a particular opponent from the list is suggested by the arena team builder: a battle simulation runs through the marked heroes and shows the five with the best outcome.
 
-##

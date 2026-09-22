@@ -15,7 +15,6 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-training-grounds)).
 
-## Tools
 
 Training Grounds trains soldiers, and its level unlocks the troop tiers: T4 at level 10, T7 at 20, T10 at 30. The last tier needs more than level 30, since the technology Soldier Lv.10 is required as well. The building unlocks after Sanctuary level 6 and goes up to level 30. Up to 3 can be built. Levels raise: training Capacity, soldier Training Level.
 
@@ -54,4 +53,3 @@ Three Training Grounds may stand, and three full upgrades take 897 days. The Bar
 
 In Might the Training Grounds leads its level: 280,200 against 229,600 for the Barracks and 182,000 for the Scout Squad. It takes 6,085,820,074 resources per copy, and nearly all of that goes on the last five levels.
 
-##

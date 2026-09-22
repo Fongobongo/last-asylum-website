@@ -11,7 +11,6 @@ type: guide
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-squad-3)).
 
-## Tools
 
 Squad 3 adds a third march queue, and it opens much later than any of the other squad buildings. Every queue works every day, so over a long run it returns more than a one-time pile of speedups. The building unlocks after Sanctuary level 20 and goes up to level 30. Only one can be built. Levels raise: squad March Speed↑.
 
@@ -50,4 +49,3 @@ Two more covert operation dispatches come with the queue, since they are counted
 
 Raising all three squads to level 30 costs about 898 days of pure build time, close to two and a half years. Their Might matches as well, 257,400 each, so the order of upgrading is decided by which queue stands idle more often. Level 30 alone costs 740,300,000 Grain, the same amount of Timber and 76 days 23 hours.
 
-##

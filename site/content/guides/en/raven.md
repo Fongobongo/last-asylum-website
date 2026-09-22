@@ -206,4 +206,3 @@ Stockpiling quests pays only for the Alliance Duel: on days one, three and five 
 
 The ceiling of such a stockpile is the visible quests plus the storage, and the storage fills in under a day: 30 hours at tower level one, 18-24 hours from level five on. After that every refresh is wasted, while the tower hands out from 24 quests a day at level one to 52 at level fifteen. Stockpiling longer than a day therefore does not pay: on duel days two and four quests are completed and kept, on days one, three and five everything is handed in, and at the weekend rewards are claimed at once. Stockpiling does not affect the tower level, it only delays it.
 
-##

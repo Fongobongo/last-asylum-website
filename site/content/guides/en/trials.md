@@ -39,4 +39,3 @@ The same trials also earn points, and points open chests holding fragments and s
 
 Skill badges across all trials come to 42,250, a modest figure next to a full skill, yet it arrives on top of progress that was happening anyway.
 
-##

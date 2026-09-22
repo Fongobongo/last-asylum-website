@@ -46,4 +46,3 @@ Idle resources are pleasant, but experience decides the pace: it goes straight i
 
 Before a long break the campaign is worth pushing first, since the gap between collecting at level two hundred and at level four hundred shows up immediately. The bank is still capped, and the details sit on the daily routine page.
 
-##

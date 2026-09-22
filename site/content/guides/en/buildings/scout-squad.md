@@ -11,7 +11,6 @@ type: guide
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-scout-squad)).
 
-## Tools
 
 Scout Squad speeds up scouts, who read an enemy city's garrison and stores before an attack is launched. Movement speed grows with level up to 30%, and the scouting report itself shows the price of a fight in advance. The building unlocks after Sanctuary level 6 and goes up to level 30. Up to 3 can be built. Levels raise: scout Squad Movement Speed.
 
@@ -50,4 +49,3 @@ The squad brings the least Might of its neighbors: 182,000 at level 30 against 2
 
 The sensible stopping point sits lower here than for its neighbors. Level 10 hands over a third of the whole gain in half a day and 1,169,362 resources, level 20 two thirds in a fortnight and 94,165,982 resources, and the Scout Squad reaches level 30 when the rest of the city does: for the 182,000 Might rather than for the scouting speed.
 
-##

@@ -15,7 +15,6 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-squad-1)).
 
-## Tools
 
 Squad 1 opens the first march queue, and without that queue no troops leave the city at all. Idle income depends on the same building, and its level adds march speed to that one queue. The building unlocks after Sanctuary level 4 and goes up to level 30. Only one can be built. Levels raise: squad March Speed↑.
 
@@ -54,4 +53,3 @@ The bonus touches that queue alone rather than every march at once, and in the c
 
 March queues open one at a time and far apart: the second at Sanctuary level 8, the third at level 20, and the fourth only under a subscription. Four squads at level 30 give 1,029,700 Might together and demand 1,196 days of pure construction, so above level 20 they are raised last of all. The squad count also drives covert operations, at two dispatches per squad.
 
-##

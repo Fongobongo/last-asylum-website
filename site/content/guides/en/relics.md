@@ -40,4 +40,3 @@ Curios that look different often give the exact same number: five of them give +
 
 Only five are unique in effect type: construction speed, covert operations queue, damage to monsters, hero damage dealt and command.
 
-##

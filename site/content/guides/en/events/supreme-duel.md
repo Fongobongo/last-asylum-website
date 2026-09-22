@@ -112,4 +112,3 @@ Permanent sources add up to 490 soldiers under one hero, 350 of it from hero lev
 
 The practical conclusion is short. Hero levels are the only real lever on the number, and the faction statue comes second, with everything else rounding the total out.
 
-##

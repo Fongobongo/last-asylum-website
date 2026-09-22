@@ -74,7 +74,6 @@ Hero levels scale base attributes (HP, ATK, DEF) and amplify percentage gear sta
 
 Source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/power), client v1.0.87.
 
-## Tools
 
 Might folds everything a player has built, hired and upgraded into a single number, and it is what players compare each other by. It comes from fourteen sources: soldiers, hero levels, buildings, curios, gear, skills, stars, the raven, technologies, survivors and awakening. Those sources are priced very differently, and the conclusion of this page is that hiring troops buys Might by far the cheapest while holding on to it the worst.
 
@@ -145,7 +144,6 @@ A closer look at that fight:
 
 That is why an opponent's total Might is no reason to avoid a fight: learning the heroes' skills and practising team building pays more. The Arena section helps pick heroes against the opponent's squad.
 
-##
 
 ---
 
@@ -194,4 +192,3 @@ The practical conclusion is simple: there is no need to build a composition bala
 
 Combat technologies from research give percentages to the whole army at once, while a new tier needs Training Ground levels and time to train every soldier again from scratch. Per unit spent, technology almost always wins.
 
-##

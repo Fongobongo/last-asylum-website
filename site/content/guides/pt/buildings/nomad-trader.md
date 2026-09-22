@@ -15,7 +15,6 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-nomad-trader)).
 
-## Tools
 
 Nomad Trader opens the exchange, where diamonds, medals and event currencies turn into the items a player needs. Rates differ markedly between shops, and the best line for Expedition medals is 1,000 Gearstones for 300 medals. The building unlocks after Sanctuary level 6 and goes up to level 1. Only one can be built.
 
@@ -49,4 +48,3 @@ So the trader is built the moment level 6 opens: it costs nothing, and hoarding 
 
 Taking all nine buildings of level 6 to level 30 would run to roughly 2,400 days of pure construction without speed-ups. Against that the trader is not a decision at all: it takes 840 resources and frees the builder the same minute. The trader has one level, and 840 resources stay the only outlay on it for the whole game. Exchange rates do not follow the Sanctuary level, so building it late improves nothing.
 
-##

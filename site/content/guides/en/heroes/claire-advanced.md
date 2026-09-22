@@ -286,4 +286,3 @@ Stars cost the advanced Claire twice what they cost anyone else: 1,950 shards in
 
 Her place in a squad follows from the passive: Call of the Brave raises monster damage by 30% for the three highest-attack warriors, and it works better the more warriors stand beside her. A pure warrior five grants +20% to HP, ATK and DEF, and from the bench Claire pays the same +20% plus 10% cooldown speed.
 
-##
