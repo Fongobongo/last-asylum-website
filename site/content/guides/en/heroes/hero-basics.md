@@ -78,7 +78,7 @@ Hero factions split the whole roster into three groups: warrior, warlock and ran
 
 Factions matter for squad building too. Three heroes of one faction give the whole squad +5% to HP, attack and defense, three plus two of another give +10%, four of one give +15% and all five give +20%. The Teams page covers this in detail.
 
-The publisher's official guide describes the same circle, but its text has the order reversed: there the warrior beats the ranger and the ranger beats the warlock. The hint on the hero screen in the game itself says the opposite: rangers take 20% less damage from warriors, warlocks from rangers and warriors from warlocks. That order is the one used here and in the Squad Builder.
+Counter circle (confirmed by the in-game hero screen hint): **warriors take 20% less damage from warlocks, warlocks take 20% less from rangers, rangers take 20% less from warriors**.
 
 The summary below shows how many heroes each faction holds and which buildings strengthen it.
 
