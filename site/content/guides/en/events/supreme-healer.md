@@ -96,23 +96,11 @@ In Supreme Healer, Falcon Missions score strictly on **Days 1, 3, 5, and 7** (**
 
 > [!TIP]
 > Visual storage cheat-sheet by `#252 Dalkongss`. Also in the [Infographics Gallery](/infographics/#falcon-tower-storage).
+### 1. Mission archive (banked missions):
+* Unfinished Falcon missions sit in a shared pool (limit 30 — see rule in section 4). You do not have to run them right away: hold Purple/Epic and Gold/Legendary missions for Supreme Healer scoring days (Days 1, 3, 5 and 7).
+* **Missions do not expire on their own** until dispatched or dropped. Bank rare missions between weeks and cash them on a scoring day.
 
-### 1. Mission archive (saved missions):
-* Open the **Falcon Tower** mission screen: each mission there has a **Save** button — saved missions go to the archive and wait for scoring days.
-* Save high-rarity (Purple/Epic or Gold/Legendary) missions.
-* **Saved missions never expire!** They remain banked indefinitely until scoring days (Days 1, 3, 5, and 7).
-
-### 2. The 29/30 Rule (Why NOT 30/30?):
-* The Incident Storage cap is exactly 30 missions.
-* ❌ **If capped at 30/30:** the game considers your queue completely full and **freezes automatic mission generation** (1 free incident every 60 minutes). You lose passive free missions!
-* ✅ **If held at 29/30:** the hourly background generation timer continues cycling normally every 60 minutes. Whenever an exceptional mission rolls, complete it or rotate it without forfeiting a single free incident.
-
-### 3. Navigation Compass Preservation:
-* **Navigation Compasses** force-refresh the quest board.
-* Do not waste Compasses casually on Green or Blue incidents during off-days.
-* Hoard your Compasses and burn them during active scoring days (1, 3, 5, 7) to cycle for high-rarity rewards and milestone points.
-
-### 4. The "Red Dot" Hoarding Procedure Before Reset:
+### 2. The "Red Dot" Hoarding Procedure Before Reset:
 * **The Day Before a Scoring Stage** (Sunday before Day 1, Tuesday before Day 3, Thursday before Day 5, Saturday before Day 7):
   1. Dispatch heroes on all available Falcon quests.
   2. As missions complete, **red notification dots** appear over the Falcon Tower and mission log.
@@ -121,6 +109,16 @@ In Supreme Healer, Falcon Missions score strictly on **Days 1, 3, 5, and 7** (**
   5. Immediately dispatch and complete the fresh daily quest pool before the day ends for **double the daily point volume**!
 
 ---
+
+### 3. Navigation Compass Preservation:
+* **Navigation Compasses** force-refresh the quest board.
+* Do not waste Compasses casually on Green or Blue incidents during off-days.
+* Hoard your Compasses and burn them during active scoring days (1, 3, 5, 7) to cycle for high-rarity rewards and milestone points.
+
+### 4. The 29/30 Rule (Why NOT 30/30?):
+* The Incident Storage cap is exactly 30 missions.
+* ❌ **If capped at 30/30:** the game considers your queue completely full and **freezes automatic mission generation** (1 free incident every 60 minutes). You lose passive free missions!
+* ✅ **If held at 29/30:** the hourly background generation timer continues cycling normally every 60 minutes. Whenever an exceptional mission rolls, complete it or rotate it without forfeiting a single free incident.
 
 ## 🧪 Antitoxin Stacking: Scoring Points from Hero Levels {#antitoxin-stacking}
 
