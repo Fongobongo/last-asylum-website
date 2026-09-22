@@ -97,15 +97,6 @@ In Supreme Healer, Falcon Missions score strictly on **Days 1, 3, 5, and 7** (**
 > [!TIP]
 > Visual storage cheat-sheet by `#252 Dalkongss`. Also in the [Infographics Gallery](/infographics/#falcon-tower-storage).
 
-**How it works:**
-
-1. **The day before** (Sun, Tue, Thu, Sat): dispatch all available Falcon missions.
-2. Missions finish — red notification dots light up on ready rewards.
-3. **Golden rule: DO NOT claim** anything until the server reset.
-4. At **00:00 server time (02:00 UTC)** — claim all red dots in 5 seconds.
-5. **+6,000–12,000 points** in the first minute of the day → immediately dispatch the new daily mission pool.
-
-
 ### 1. Incident Storage Mechanics:
 * Inside the **Falcon Tower**, access the mission screen and tap **Incident Storage**.
 * When high-rarity (Purple/Epic or Gold/Legendary) missions appear, tap **Save**.
