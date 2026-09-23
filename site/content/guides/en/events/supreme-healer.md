@@ -123,7 +123,7 @@ Antitoxin is basically bottled hero XP: the event only scores antitoxin spent on
 ### How to prepare properly:
 
 1. **Keep the Antitoxin Workshop producing without downtime.** It has an internal production cap — collect it regularly so production never stutters.
-2. **Stockpile antitoxin through the first half of the week** — no partial spends.
+2. **Stockpile antitoxin through the first half of the week.** Spending is allowed only to close Battle of Survival milestone tasks (antitoxin-spend milepoints) — and nothing more.
 3. **On Day 4**, open your hero screen and level your F2P core carry (or whoever you're actually building) with the full stockpile in one go. It stacks with recruitment tickets (400 pts/ticket) and skill badges (10 pts each) — combined, it's the fattest day of the event.
 4. **On Day 7**, dump whatever is left if you're still short of a chest threshold.
 
