@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
 import GiftCodes from '../../components/GiftCodes.astro';
+import { REDEEM_URL } from '../../data/giftcodes';
 import { t } from '../../i18n/ui';
 import type { Lang } from '../../i18n/utils';
 
@@ -19,7 +20,7 @@ const lang: Lang = 'id';
     <h3 class="mt-6">🤖 Android</h3>
     <p>{t(lang, 'codes.redeem.android')}</p>
     <h3 class="mt-4">🍏 iOS</h3>
-    <p>{t(lang, 'codes.redeem.ios')}</p>
+    <p>{t(lang, 'codes.redeem.ios')} <a class="text-toxic-400 underline break-all" href={REDEEM_URL} target="_blank" rel="noopener noreferrer">{REDEEM_URL} ↗</a></p>
 
     <h2 id="notes">{t(lang, 'codes.note')}</h2>
   </GuidePage>
