@@ -31,4 +31,4 @@ export const giftCodes: GiftCode[] = [
   { code: 'LAPGPOFF', date: '2026-09-08', active: true, note: 'pocketgamer (single source)' },
 ];
 
-export const REDEEM_URL = 'https://www.lastasylumplague.com/redeem';
+export const REDEEM_URL = 'https://gevents.globallap.com/gamecode/index.html?gameId=440';
