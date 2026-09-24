@@ -505,7 +505,7 @@ export const ui = {
     'codes.active': 'Derniers codes',
     'codes.redeem': 'Comment échanger',
     'codes.redeem.android': 'Android / en jeu : touchez votre Avatar (en haut à gauche) → Paramètres → Code cadeau → entrez le code.',
-    'codes.redeem.ios': 'Remarque : connectez-vous sur la page web via l'UID + mot de passe à usage unique — vous les trouvez dans le jeu (Profil → Compte → Espace personnel). Choisissez ensuite le serveur et le personnage et entrez le code.',
+    'codes.redeem.ios': 'Remarque : connectez-vous sur la page web via l’UID + mot de passe à usage unique — vous les trouvez dans le jeu (Profil → Compte → Espace personnel). Choisissez ensuite le serveur et le personnage et entrez le code.',
     'codes.web': 'Page web officielle d’échange',
     'codes.note': 'Les codes sont généralement utilisables une seule fois par compte et limités dans le temps.',
     'patchnotes.title': 'Notes de mise à jour',
