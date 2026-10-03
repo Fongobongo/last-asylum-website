@@ -26,7 +26,7 @@ Les Badges de compétence sont le goulot d'étranglement permanent pour tous les
 | **Entraîner des soldats** | Mettre en file d'attente des recrues au camp d'entraînement et lancer la promotion d'unités existantes vers des niveaux supérieurs (points attribués dès la mise en file d'attente !). |
 | **Rechercher des technologies** | Finaliser les technologies du Laboratoire, augmenter la Puissance scientifique, brûler des minutes d'accélération. |
 | **Construire le territoire** | Terminer des structures, élever le niveau du Sanctuaire, augmenter la Puissance de construction. |
-| **Améliorer les héros** | Invocations de héros (tickets) et montée en niveau avec de l'Antitoxine. Les améliorations de compétences et d'étoiles ne donnent AUCUN point. |
+| **Améliorer les héros** | Invocations de héros (tickets) et montée en niveau avec de l'Antitoxine. Les améliorations de compétences et d'étoiles (fragments) ne donnent AUCUN point — gardez-les pour jeudi (Duel d'alliance, Phase 4 / Meilleur guérisseur). |
 
 ---
 
@@ -63,7 +63,7 @@ Règles tactiques critiques :
 ## 🦅 Missions Raven : Points pour dépenser de l'énergie {#stamina-missions}
 
 > [!IMPORTANT] Les points sont attribués pour l'acte de dépenser de l'énergie !
-> Pendant les missions du Faucon (Tour du Faucon), les points de Bataille de survie sont attribués **directement pour avoir consommé de l'énergie (endurance)** afin d'éliminer des cibles ! Plus vous brûlez d'énergie en accomplissant des tâches du Faucon pendant la phase active, plus vite vous débloquerez les coffres de palier maximum.
+> Pendant les tâches du Faucon (Tour du Faucon), les points de Bataille de survie sont attribués **directement pour avoir consommé de l'énergie (endurance)** afin d'éliminer des cibles ! Plus vous brûlez d'énergie en accomplissant des tâches du Faucon pendant la phase active, plus vite vous débloquerez les coffres de palier maximum.
 
 - **Conservez les potions d'endurance pour des événements comme la Chasse aux voleurs :** Pour la phase Raven, utilisez plutôt la régénération naturelle, les deux recharges d'énergie gratuites quotidiennes et les achats d'énergie en diamants (2× 150, puis 2× 250), ou un mélange. Fruits Raven uniquement pour le lundi.
 - **Brûlez l'énergie sur les missions Raven :** Une fois le bloc de mission Raven en ligne, accomplissez immédiatement vos tâches du Faucon — chaque point d'énergie dépensé se convertit directement en score de Bataille de survie.

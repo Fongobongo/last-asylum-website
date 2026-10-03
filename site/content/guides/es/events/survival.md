@@ -26,7 +26,7 @@ Las Insignias de Habilidad son el cuello de botella permanente en todos los árb
 | **Entrenar Soldados** | Poner reclutas en cola en los cuarteles y comenzar promociones de unidades existentes a niveles superiores (¡los puntos se otorgan al poner en cola!). |
 | **Investigar Tecnología** | Finalizar tecnologías de laboratorio, aumentar el Poder científico, gastar minutos de aceleración. |
 | **Construir Territorio** | Completar estructuras, elevar el nivel del Santuario, aumentar el Poder de construcción. |
-| **Mejorar Héroes** | Invocación de héroes (Boletos de reclutamiento) y subir de nivel con Antitoxina. Las mejoras de habilidades y estrellas NO dan puntos. |
+| **Mejorar Héroes** | Invocación de héroes (Boletos de reclutamiento) y subir de nivel con Antitoxina. Las mejoras de habilidades y estrellas (fragmentos) NO dan puntos — mejor guárdalas para el jueves (Duelo de Alianzas, Fase 4 / Mejor Sanador). |
 
 ---
 
@@ -63,7 +63,7 @@ Reglas tácticas críticas:
 ## 🦅 Misiones de Raven: Puntos por gastar energía {#stamina-missions}
 
 > [!IMPORTANT] ¡Los puntos se otorgan por el acto de gastar energía!
-> Durante las misiones del Halcón (Torre del Halcón), los puntos de la Batalla de Supervivencia se otorgan **directamente por consumir energía (resistencia)** para eliminar objetivos. Cuanta más energía gastes completando las tareas del Halcón durante la fase activa, más rápido desbloquearás los cofres de hitos máximos.
+> Durante las tareas del Halcón (Torre del Halcón), los puntos de la Batalla de Supervivencia se otorgan **directamente por consumir energía (resistencia)** para eliminar objetivos. Cuanta más energía gastes completando las tareas del Halcón durante la fase activa, más rápido desbloquearás los cofres de hitos máximos.
 
 - **Conserva las pociones de resistencia para eventos como la Caza de Ladrones:** Para la fase de Raven usa la regeneración natural, las dos recargas gratuitas diarias de energía y compras de energía con diamantes (2× 150, luego 2× 250), o una combinación. Las Frutas de Raven solo para el lunes.
 - **Gasta energía en misiones de Raven:** Una vez que el bloque de misiones de Raven esté activo, completa tus tareas del Halcón inmediatamente: cada punto de energía gastado se convierte directamente en puntuación de la Batalla de Supervivencia.

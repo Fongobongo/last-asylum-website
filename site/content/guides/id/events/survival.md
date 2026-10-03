@@ -26,7 +26,7 @@ Lencana Skill adalah hambatan permanen di semua pohon keterampilan pahlawan. Pan
 | **Latih Prajurit** | Mengantre rekrutmen di lapangan latih dan memulai promosi unit yang ada ke tingkat yang lebih tinggi (poin diberikan saat mengantre!). |
 | **Riset Teknologi** | Menyelesaikan teknologi Laboratorium, meningkatkan Might ilmiah, menggunakan menit percepatan (speedup). |
 | **Bangun Wilayah** | Menyelesaikan struktur, meningkatkan level Kuil, meningkatkan Might konstruksi. |
-| **Tingkatkan Pahlawan** | Pemanggilan pahlawan (Tiket Rekrutmen) dan menaikkan level dengan Antitoxin. Upgrade skill dan bintang TIDAK memberikan poin. |
+| **Tingkatkan Pahlawan** | Pemanggilan pahlawan (Tiket Rekrutmen) dan menaikkan level dengan Antitoxin. Upgrade skill dan bintang (fragmen) TIDAK memberikan poin — simpan untuk hari Kamis (Pertarungan Guild Fase 4 / Penyembuh Tertinggi). |
 
 ---
 
@@ -63,7 +63,7 @@ Aturan taktis penting:
 ## 🦅 Misi Raven: Poin untuk Menggunakan Energi {#stamina-missions}
 
 > [!IMPORTANT] Poin diberikan untuk tindakan menggunakan energi!
-> Selama misi Falcon (Menara Falcon), poin Pertarungan Bertahan Hidup diberikan **langsung karena mengonsumsi energi (stamina)** untuk membasmi target! Semakin banyak energi yang Anda bakar untuk menyelesaikan tugas Falcon selama fase aktif, semakin cepat Anda membuka peti pencapaian maksimal.
+> Selama tugas Falcon (Menara Falcon), poin Pertarungan Bertahan Hidup diberikan **langsung karena mengonsumsi energi (stamina)** untuk membasmi target! Semakin banyak energi yang Anda bakar untuk menyelesaikan tugas Falcon selama fase aktif, semakin cepat Anda membuka peti pencapaian maksimal.
 
 - **Simpan ramuan stamina untuk event seperti Perburuan Pencuri:** Untuk fase Raven gunakan regenerasi alami, dua isi ulang energi gratis per hari, dan pembelian energi dengan berlian (2× 150, lalu 2× 250), atau kombinasi. Buah Raven hanya untuk hari Senin.
 - **Bakar energi pada misi Raven:** Begitu blok misi Raven aktif, segera selesaikan tugas Falcon Anda — setiap poin energi yang dihabiskan langsung dikonversi menjadi skor Pertarungan Bertahan Hidup.

@@ -26,7 +26,7 @@ Fähigkeitsabzeichen sind der dauerhafte Engpass in allen Helden-Fähigkeitsbäu
 | **Soldaten trainieren** | Rekruten auf dem Trainingsgelände in die Warteschlange einreihen und Beförderungen bestehender Einheiten auf höhere Stufen starten (Punkte werden beim Einreihen vergeben!). |
 | **Technologie erforschen** | Abschluss von Labor-Technologien, Erhöhung der wissenschaftlichen Macht, Verbrauch von Beschleunigungsminuten. |
 | **Territorium ausbauen** | Fertigstellung von Gebäuden, Erhöhung des Zufluchts-Levels, Erhöhung der Konstruktionsmacht. |
-| **Helden verbessern** | Helden beschwören (Rekrutierungstickets) und Helden mit Antitoxin leveln. Fähigkeiten-Upgrades und Sternenaufstieg geben KEINE Punkte. |
+| **Helden verbessern** | Helden beschwören (Rekrutierungstickets) und Helden mit Antitoxin leveln. Fähigkeiten-Upgrades und Sternenaufstieg (Fragmente) geben KEINE Punkte — dafür lieber auf Donnerstag sparen (Allianz-Duell Phase 4 / Bester Heiler). |
 
 ---
 
@@ -63,7 +63,7 @@ Kritische taktische Regeln:
 ## 🦅 Raben-Missionen: Punkte für Energieverbrauch {#stamina-missions}
 
 > [!IMPORTANT] Punkte werden für das Ausgeben von Energie vergeben!
-> Während der Falken-Missionen (Falkenturm) werden Überlebenskampf-Punkte **direkt für den Verbrauch von Energie (Ausdauer)** vergeben, um Ziele zu eliminieren! Je mehr Energie Sie beim Erledigen der Falken-Aufgaben während der aktiven Phase verbrauchen, desto schneller schalten Sie die maximalen Meilenstein-Truhen frei.
+> Während der Falken-Aufgaben (Falkenturm) werden Überlebenskampf-Punkte **direkt für den Verbrauch von Energie (Ausdauer)** vergeben, um Ziele zu eliminieren! Je mehr Energie Sie beim Erledigen der Falken-Aufgaben während der aktiven Phase verbrauchen, desto schneller schalten Sie die maximalen Meilenstein-Truhen frei.
 
 - **Sparen Sie Ausdauer-Tränke für Events wie die Diebesjagd:** Für die Raben-Phase nutzen Sie stattdessen die natürliche Regeneration, die zwei kostenlosen täglichen Energie-Auffüllungen und Energiekäufe mit Diamanten (2× 150, dann 2× 250) — oder eine Kombination. Rabenfrüchte nur für Montag aufheben.
 - **Verbrauchen Sie Energie für Raben-Missionen:** Sobald der Raben-Missionsblock live geht, erledigen Sie sofort Ihre Falken-Aufgaben – jeder Punkt verbrauchter Energie wird direkt in Überlebenskampf-Punkte umgewandelt.

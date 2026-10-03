@@ -26,7 +26,7 @@ Skill Badges are the permanent bottleneck across all hero skill trees. This guid
 | **Train Soldiers** | Queueing recruits at the training grounds and starting promotions of existing units to higher tiers (points awarded upon queueing!). |
 | **Research Tech** | Finalizing Laboratory technologies, increasing scientific Might, burning speedup minutes. |
 | **Build Territory** | Completing structures, elevating Sanctuary level, increasing construction Might. |
-| **Enhance Heroes** | Hero summons (Recruit Tickets) and leveling heroes with Antitoxin. Skill and star upgrades award NO points. |
+| **Enhance Heroes** | Hero summons (Recruit Tickets) and leveling heroes with Antitoxin. Skill and star (fragment) upgrades award NO points — save them for Thursday (Alliance Duel Phase 4 / Supreme Healer). |
 
 ---
 
@@ -76,7 +76,7 @@ During the 4-hour Technology Research block, use the following optimization:
 ## 🦅 Raven Missions: Stamina Only, Never Fruits! {#stamina-missions}
 
 > [!IMPORTANT] Points are awarded for the act of spending energy!
-> During Falcon Tower missions (training the Raven), Survival Battle points are awarded **directly for consuming energy (stamina)** to purge targets! 
+> During Falcon Tower tasks (training the Raven), Survival Battle points are awarded **directly for consuming energy (stamina)** to purge targets! 
 
 * **The Ironclad Rule:** **NEVER burn Raven Fruits during Survival Battle!** Save all Raven Fruits for Monday (Alliance Duel Phase 1).
 * **How to Clear the Phase:** Clear the Raven phase 100% **via natural regen, the two free daily energy refills, and diamond energy purchases (first 2 × 150, next 2 × 250)** — or a combination. Save energy potions for events like Thief Hunt. This secures maximum Skill Badges without wasting precious fruit stockpiles.
@@ -94,7 +94,7 @@ A crucial recommendation for all F2P and low-spender commanders:
 * **The F2P "Golden Trio" of Easy Phases:** Do not try to complete every single 4-hour phase. To consistently claim your **60,000 free Skill Badges** and UR Omni Shards every week, focus on the three easiest, low-cost phases:
   1. **Soldier Training** (via tiered training grounds and quick T1 → T7 promotions).
   2. **Raven Upgrades** (free via stamina and monster hunting).
-  3. **Hero Enhancement** (level one hero with Antitoxin exactly up to the phase threshold, ≈20M; if short on antitoxin, combine with summons or clear via 30 Recruit Tickets alone).
+  3. **Hero Enhancement** (level one hero with Antitoxin exactly up to the phase threshold, ≈20M; if short on antitoxin, combine with summons or clear via 30 Recruit Tickets alone. Skills/star fragments give no points here — save them for Thursday).
 
 ---
 
@@ -144,7 +144,7 @@ The complete video breakdown by creator **KorpezGaming** is embedded below and a
 
 1. Audit your server's unique mission rotation every Monday morning.
 2. Partition resources between Alliance Duel prerequisites and Survival Battle thresholds.
-3. **Spend energy on Falcon Tower missions** strictly during the active Raven phase (ideally Monday, Alliance Duel Phase 1 overlap); never fruits or energy potions here — sources in the Raven section above.
+3. **Spend energy on Falcon Tower tasks** strictly during the active Raven phase (ideally Monday, Alliance Duel Phase 1 overlap); never fruits or energy potions here — sources in the Raven section above.
 5. Take the building theme **only on Tuesday** (to overlap the Duel); skip it on other days.
 6. Queue soldier training **strictly after the training phase has started** (points are awarded upon queueing!).
 7. Use the Promotion trick (T1 → T7) for rapid, ultra-cheap milestone completions.

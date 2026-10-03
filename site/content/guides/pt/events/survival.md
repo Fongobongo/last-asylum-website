@@ -26,7 +26,7 @@ Os Distintivos de Habilidade são o gargalo permanente em todas as árvores de h
 | **Treinar Soldados** | Colocar recrutas na fila dos quartéis e iniciar a promoção de unidades existentes para níveis superiores (pontos concedidos ao colocar na fila!). |
 | **Pesquisar Tecnologia** | Finalizar tecnologias de Laboratório, aumentar o Poder científico, gastar minutos de aceleração. |
 | **Construir Território** | Concluir estruturas, elevar o nível do Santuário, aumentar o Poder de construção. |
-| **Aprimorar Heróis** | Invocações de heróis (Bilhetes de Recrutamento) e subida de nível com Antitoxina. Melhorias de habilidades e estrelas NÃO concedem pontos. |
+| **Aprimorar Heróis** | Invocações de heróis (Bilhetes de Recrutamento) e subida de nível com Antitoxina. Melhorias de habilidades e estrelas (fragmentos) NÃO concedem pontos — guarde-as para quinta-feira (Duelo de Alianças, Fase 4 / Curador Supremo). |
 
 ---
 
@@ -63,7 +63,7 @@ Regras táticas críticas:
 ## 🦅 Missões Raven: Pontos por Gastar Energia {#stamina-missions}
 
 > [!IMPORTANT] Os pontos são concedidos pelo ato de gastar energia!
-> Durante as missões do Falcão (Torre do Falcão), os pontos da Batalha de Sobrevivência são concedidos **diretamente por consumir energia (stamina)** para eliminar alvos! Quanto mais energia você gastar completando tarefas do Falcão durante a fase ativa, mais rápido você desbloqueia os baús de marcos máximos.
+> Durante as tarefas do Falcão (Torre do Falcão), os pontos da Batalha de Sobrevivência são concedidos **diretamente por consumir energia (stamina)** para eliminar alvos! Quanto mais energia você gastar completando tarefas do Falcão durante a fase ativa, mais rápido você desbloqueia os baús de marcos máximos.
 
 - **Guarde poções de stamina para eventos como a Caça aos Ladrões:** Para a fase Raven, use a regeneração natural, as duas recargas de energia gratuitas diárias e compras de energia com diamantes (2× 150, depois 2× 250), ou uma combinação. Frutas Raven só na segunda.
 - **Gaste energia em missões Raven:** Assim que o bloco de missões Raven entrar no ar, conclua suas tarefas do Falcão imediatamente — cada ponto de energia gasto converte-se diretamente na pontuação da Batalha de Sobrevivência.
