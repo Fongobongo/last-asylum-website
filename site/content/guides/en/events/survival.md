@@ -136,6 +136,11 @@ The complete video breakdown by creator **KorpezGaming** is embedded below and a
 
 ---
 
+
+> ℹ️ FYI: buying packs that contain Diamonds also grants event points — 30 points per 1 Diamond in the pack.
+
+---
+
 ## 📋 Weekly Survivor Checklist {#weekly-checklist}
 
 1. Audit your server's unique mission rotation every Monday morning.

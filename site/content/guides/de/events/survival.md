@@ -92,6 +92,11 @@ Ein herausragender, hocheffizienter Meilenstein wird für genau **30 Rekrutierun
 
 ---
 
+
+> ℹ️ Zur Info: Der Kauf von Paketen mit Diamanten bringt ebenfalls Event-Punkte — 30 Punkte pro 1 Diamant im Paket.
+
+---
+
 ## 📋 Wöchentliche Überlebenden-Checkliste {#weekly-checklist}
 
 1. Überprüfen Sie jeden Montagmorgen die einzigartige Missionsrotation Ihres Servers.

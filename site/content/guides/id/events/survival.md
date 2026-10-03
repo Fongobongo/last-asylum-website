@@ -92,6 +92,11 @@ Pencapaian efisiensi tinggi yang menonjol dapat diselesaikan tepat dengan **30 T
 
 ---
 
+
+> ℹ️ Sebagai info: membeli paket berisi Berlian juga memberikan poin event — 30 poin per 1 Berlian dalam paket.
+
+---
+
 ## 📋 Daftar Periksa Penyintas Mingguan {#weekly-checklist}
 
 1. Periksa rotasi misi unik server Anda setiap Senin pagi.

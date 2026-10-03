@@ -92,6 +92,11 @@ Un hito destacado de alta eficiencia se completa exactamente con **30 Boletos de
 
 ---
 
+
+> ℹ️ Para tu información: comprar paquetes que contienen Diamantes también otorga puntos del evento — 30 puntos por cada 1 Diamante del paquete.
+
+---
+
 ## 📋 Lista de verificación semanal del superviviente {#weekly-checklist}
 
 1. Audita la rotación de misiones única de tu servidor cada lunes por la mañana.

@@ -92,6 +92,11 @@ Un palier à haute efficacité se débloque pour exactement **30 Tickets de recr
 
 ---
 
+
+> ℹ️ Pour information : acheter des packs contenant des Diamants rapporte aussi des points d’événement — 30 points par Diamant du pack.
+
+---
+
 ## 📋 Liste de contrôle hebdomadaire du survivant {#weekly-checklist}
 
 1. Vérifiez la rotation unique des missions de votre serveur chaque lundi matin.

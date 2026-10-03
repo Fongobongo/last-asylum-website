@@ -92,6 +92,11 @@ Um marco de alta eficiência que se completa exatamente com **30 Bilhetes de Rec
 
 ---
 
+
+> ℹ️ Para sua informação: comprar pacotes que contêm Diamantes também concede pontos do evento — 30 pontos por cada 1 Diamante do pacote.
+
+---
+
 ## 📋 Lista de Verificação Semanal do Sobrevivente {#weekly-checklist}
 
 1. Audite a rotação de missões exclusiva do seu servidor toda segunda-feira de manhã.
