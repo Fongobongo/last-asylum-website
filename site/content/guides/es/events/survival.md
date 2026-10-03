@@ -63,10 +63,10 @@ Reglas tácticas críticas:
 ## 🦅 Misiones de Raven: Puntos por gastar energía {#stamina-missions}
 
 > [!IMPORTANT] ¡Los puntos se otorgan por el acto de gastar energía!
-> Durante las misiones de radar de Raven, los puntos de la Batalla de Supervivencia se otorgan **directamente por consumir energía (resistencia)** para eliminar objetivos. Cuanta más energía gastes completando tareas de radar de Raven durante la fase activa, más rápido desbloquearás los cofres de hitos máximos.
+> Durante las misiones del Halcón (Torre del Halcón), los puntos de la Batalla de Supervivencia se otorgan **directamente por consumir energía (resistencia)** para eliminar objetivos. Cuanta más energía gastes completando las tareas del Halcón durante la fase activa, más rápido desbloquearás los cofres de hitos máximos.
 
 - **Conserva energía y Frutas de Raven para la fase de Raven:** Evita gastar pociones de resistencia o Frutas de Raven durante los días libres o fases irrelevantes.
-- **Gasta energía en misiones de Raven:** Una vez que el bloque de misiones de Raven esté activo, limpia tu cola de radar inmediatamente: cada punto de energía gastado se convierte directamente en puntuación de la Batalla de Supervivencia.
+- **Gasta energía en misiones de Raven:** Una vez que el bloque de misiones de Raven esté activo, completa tus tareas del Halcón inmediatamente: cada punto de energía gastado se convierte directamente en puntuación de la Batalla de Supervivencia.
 - **Recompensas combinadas:** Gastar energía durante esta fase sube de nivel simultáneamente a tu Guardián de Raven, cultiva cofres de epígrafes y limpia los cofres de la Batalla de Supervivencia.
 
 ---
@@ -83,7 +83,7 @@ Un hito destacado de alta eficiencia se completa exactamente con **30 Boletos de
 
 | Recurso / Acción | Batalla de Supervivencia | Duelo de Alianzas | Estrategia óptima |
 |---|---|---|---|
-| **Energía (Resistencia) y Raven** | Puntos por **gastar energía** en misiones de Raven y Frutas de Raven | Fase 1 (Lunes — Mejorar Raven) | Guarda pociones de resistencia y Frutas de Raven para el lunes. Gasta energía en tareas de radar durante la fase de Raven de 4 horas: ¡doble beneficio de puntos para ambos eventos! |
+| **Energía (Resistencia) y Raven** | Puntos por **gastar energía** en misiones de Raven y Frutas de Raven | Fase 1 (Lunes — Mejorar Raven) | Guarda pociones de resistencia y Frutas de Raven para el lunes. Gasta energía en tareas del Halcón durante la fase de Raven de 4 horas: ¡doble beneficio de puntos para ambos eventos! |
 | **Investigación** | Hito de Insignias | Fase 3 (Miércoles) | Guarda pergaminos para el miércoles; completa la Batalla de Supervivencia usando nodos tecnológicos sin pergaminos. |
 | **Boletos de Reclutamiento** | Hito de 30 boletos | Fase 4 (Jueves) | Gasta exactamente 30 boletos si el hito está activo; canaliza los boletos restantes para el jueves. |
 | **Aceleraciones de entrenamiento** | Hito de entrenamiento | Fase 5 (Viernes) | Pon en cola el reclutamiento y usa aceleraciones el viernes durante las fases coincidentes de "Entrenar Soldados". |

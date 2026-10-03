@@ -23,7 +23,7 @@ Fähigkeitsabzeichen sind der dauerhafte Engpass in allen Helden-Fähigkeitsbäu
 | Kategorie | Wie Punkte verdient werden |
 |---|---|
 | **Energie ausgeben & Raben-Missionen** | Punkte werden **direkt für das Ausgeben von Energie (Ausdauer)** bei Raben-Missionen und der Jagd auf Infizierte vergeben, sowie für das Füttern des Raben-Wächters, den Verbrauch von Rabenfrüchten, das Anwenden von Essenz und das Öffnen von Epigraph-Truhen. |
-| **Soldaten trainieren** | Rekruten in Kasernen in die Warteschlange einreihen und Beförderungen bestehender Einheiten auf höhere Stufen starten (Punkte werden beim Einreihen vergeben!). |
+| **Soldaten trainieren** | Rekruten auf dem Trainingsgelände in die Warteschlange einreihen und Beförderungen bestehender Einheiten auf höhere Stufen starten (Punkte werden beim Einreihen vergeben!). |
 | **Technologie erforschen** | Abschluss von Labor-Technologien, Erhöhung der wissenschaftlichen Macht, Verbrauch von Beschleunigungsminuten. |
 | **Territorium ausbauen** | Fertigstellung von Gebäuden, Erhöhung des Zufluchts-Levels, Erhöhung der Konstruktionsmacht. |
 | **Helden verbessern** | Helden leveln (Antitoxin), Fähigkeiten verbessern (Fähigkeitsabzeichen) und Sternenaufstieg (Omni-Scherben). |
@@ -45,15 +45,15 @@ Die zentrale operative Regel: **Geben Sie niemals wertvolle Ressourcen außerhal
 > [!IMPORTANT] Kernmechanik: Punkte werden BEIM EINREIHEN vergeben!
 > Punkte für das Training von Soldaten werden **in der exakten Sekunde gutgeschrieben, in der Sie auf den "Trainieren"- (oder "Befördern")-Button tippen**, wenn Ressourcen ausgegeben werden und der Warteschlangen-Timer startet.
 > 
-> **Punkte werden NICHT vergeben, wenn der Timer abläuft, und NICHT beim Abholen der Truppen aus der Kaserne!**
+> **Punkte werden NICHT vergeben, wenn der Timer abläuft, und NICHT beim Abholen der Truppen vom Trainingsgelände!**
 
 Kritische taktische Regeln:
 
-1. **Starten Sie das Training NICHT vor der Phase:** Wenn Sie eine Charge 30 Minuten vor Beginn der Trainingsphase starten, werden die Punkte außerhalb des Events gutgeschrieben. Wenn die Phase beginnt und die Charge fertig ist, bringt das Tippen auf die Kaserne zum Abholen **0 Punkte**!
-2. **Tippen Sie "Trainieren" strikt NACHDEM die Trainingsphase aktiv ist:** Warten Sie auf den Phasenwechsel, bestätigen Sie, dass "Soldaten trainieren" die aktive 4-Stunden-Phase ist, und starten Sie erst dann die Rekrutierung in Ihren Kasernen.
+1. **Starten Sie das Training NICHT vor der Phase:** Wenn Sie eine Charge 30 Minuten vor Beginn der Trainingsphase starten, werden die Punkte außerhalb des Events gutgeschrieben. Wenn die Phase beginnt und die Charge fertig ist, bringt das Tippen auf das Trainingsgelände zum Abholen **0 Punkte**!
+2. **Tippen Sie "Trainieren" strikt NACHDEM die Trainingsphase aktiv ist:** Warten Sie auf den Phasenwechsel, bestätigen Sie, dass "Soldaten trainieren" die aktive 4-Stunden-Phase ist, und starten Sie erst dann die Rekrutierung auf Ihrem Trainingsgelände.
 3. **Trainieren Sie Ihre höchste freigeschaltete Stufe (T7–T10):** Die Punkte pro Soldat skalieren stark mit der Stufe. Rekruten niedriger Stufen (T1–T2) bringen vernachlässigbare Punkte.
 4. **Nutzen Sie die Beförderung (Bestehende Truppen aufwerten):** Das Befördern von Truppen niedrigerer Stufen auf Ihre höchste Stufe bringt sofort beim Einreihen Punkte (die Punktdifferenz zwischen den Stufen). Es dauert weitaus weniger Zeit als das Training von Grund auf.
-5. **Halten Sie eine Kaserne bewusst auf einer mittleren Stufe:** Ihre Hauptkaserne reiht 2h/6h-Chargen Ihrer höchsten Stufe ein; die günstige Kaserne hält 2-Stunden-T2–T3-Warteschlangen für Meilensteine am Laufen, bei denen es nur darauf ankommt, *dass* die Warteschlange existiert, nicht auf die Stufe. Maximale Meilensteine bei minimalen Kosten.
+5. **Halten Sie ein Trainingsgelände bewusst auf einer mittleren Stufe:** Ihr Haupt-Trainingsgelände reiht 2h/6h-Chargen Ihrer höchsten Stufe ein; das günstige Trainingsgelände hält 2-Stunden-T2–T3-Warteschlangen für Meilensteine am Laufen, bei denen es nur darauf ankommt, *dass* die Warteschlange existiert, nicht auf die Stufe. Maximale Meilensteine bei minimalen Kosten.
 6. **Doppelt profitieren mit dem Allianz-Duell.** Jeder Forschungs- oder Trainingsmeilenstein, der gleichzeitig ein Tag des Allianz-Duells ist, wandelt dieselben Ressourcen in zwei Auszahlungen um.
 7. **Raben-Meilenstein: nur Ausdauer, niemals Früchte.** Der "Raben verbessern"-Meilenstein akzeptiert den Verbrauch von Früchten – aber Ihre Früchte gehören zum Montag-Raben-Shop-Aktualisieren im Zufluchts-Shop. Erledigen Sie den Raben-Meilenstein durch das reine Grinden von Monster-Kills mit Ausdauer und sparen Sie die Früchte für den kommenden Shop-Restock.
 5. **Verbrauchen Sie Trainingsbeschleuniger INNERHALB des aktiven Fensters:** Um höhere Meilenstein-Truhen zu erreichen, beschleunigen Sie aktuelle Warteschlangen und reihen Sie sofort neue Chargen ein, um für jede Charge Punkte zu erhalten.
@@ -63,10 +63,10 @@ Kritische taktische Regeln:
 ## 🦅 Raben-Missionen: Punkte für Energieverbrauch {#stamina-missions}
 
 > [!IMPORTANT] Punkte werden für das Ausgeben von Energie vergeben!
-> Während Raben-Radar-Missionen werden Überlebenskampf-Punkte **direkt für den Verbrauch von Energie (Ausdauer)** vergeben, um Ziele zu eliminieren! Je mehr Energie Sie beim Erledigen von Raben-Radar-Aufgaben während der aktiven Phase verbrauchen, desto schneller schalten Sie die maximalen Meilenstein-Truhen frei.
+> Während der Falken-Missionen (Falkenturm) werden Überlebenskampf-Punkte **direkt für den Verbrauch von Energie (Ausdauer)** vergeben, um Ziele zu eliminieren! Je mehr Energie Sie beim Erledigen der Falken-Aufgaben während der aktiven Phase verbrauchen, desto schneller schalten Sie die maximalen Meilenstein-Truhen frei.
 
 - **Sparen Sie Energie und Rabenfrüchte für die Raben-Phase:** Vermeiden Sie es, Ausdauer-Tränke oder Rabenfrüchte an Tagen ohne entsprechende Phase oder in irrelevanten Phasen zu verbrauchen.
-- **Verbrauchen Sie Energie für Raben-Missionen:** Sobald der Raben-Missionsblock live geht, leeren Sie sofort Ihre Radar-Warteschlange – jeder Punkt verbrauchter Energie wird direkt in Überlebenskampf-Punkte umgewandelt.
+- **Verbrauchen Sie Energie für Raben-Missionen:** Sobald der Raben-Missionsblock live geht, erledigen Sie sofort Ihre Falken-Aufgaben – jeder Punkt verbrauchter Energie wird direkt in Überlebenskampf-Punkte umgewandelt.
 - **Kombinierte Belohnungen:** Das Ausgeben von Energie während dieser Phase verbessert gleichzeitig Ihren Raben-Wächter, farmt Epigraph-Truhen und leert Überlebenskampf-Truhen.
 
 ---
@@ -83,7 +83,7 @@ Ein herausragender, hocheffizienter Meilenstein wird für genau **30 Rekrutierun
 
 | Ressource / Aktion | Überlebenskampf | Allianz-Duell | Optimale Strategie |
 |---|---|---|---|
-| **Energie (Ausdauer) & Raben** | Punkte für **Energieverbrauch** bei Raben-Missionen & Rabenfrüchten | Phase 1 (Montag — Rabe verbessern) | Sparen Sie Ausdauer-Tränke & Rabenfrüchte für Montag. Verbrauchen Sie Energie für Radar-Aufgaben während der 4-Stunden-Raben-Phase — doppelte Punkte für beide Events! |
+| **Energie (Ausdauer) & Raben** | Punkte für **Energieverbrauch** bei Raben-Missionen & Rabenfrüchten | Phase 1 (Montag — Rabe verbessern) | Sparen Sie Ausdauer-Tränke & Rabenfrüchte für Montag. Verbrauchen Sie Energie für Falken-Aufgaben während der 4-Stunden-Raben-Phase — doppelte Punkte für beide Events! |
 | **Forschung** | Abzeichen-Meilenstein | Phase 3 (Mittwoch) | Sparen Sie Schriftrollen für Mittwoch; erledigen Sie den Überlebenskampf mit technologie-knoten ohne Schriftrollen. |
 | **Rekrutierungstickets** | 30-Ticket-Meilenstein | Phase 4 (Donnerstag) | Geben Sie genau 30 Tickets aus, wenn der Meilenstein aktiv ist; leiten Sie verbleibende Tickets auf Donnerstag um. |
 | **Trainingsbeschleuniger** | Trainings-Meilenstein | Phase 5 (Freitag) | Reihen Sie Rekrutierungen ein und nutzen Sie Beschleuniger am Freitag während der passenden "Soldaten trainieren"-Phasen. |

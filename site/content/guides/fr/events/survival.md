@@ -23,7 +23,7 @@ Les Badges de compétence sont le goulot d'étranglement permanent pour tous les
 | Catégorie | Comment gagner des points |
 |---|---|
 | **Dépenser de l'énergie et missions Raven** | Les points sont attribués **directement pour avoir dépensé de l'énergie (endurance)** dans les missions Raven et la chasse aux infectés, ainsi qu'en nourrissant le Gardien Raven, en consommant des Fruits Raven, en appliquant de l'Essence et en ouvrant des coffres d'Épigraphe. |
-| **Entraîner des soldats** | Mettre en file d'attente des recrues dans les casernes et lancer la promotion d'unités existantes vers des niveaux supérieurs (points attribués dès la mise en file d'attente !). |
+| **Entraîner des soldats** | Mettre en file d'attente des recrues au camp d'entraînement et lancer la promotion d'unités existantes vers des niveaux supérieurs (points attribués dès la mise en file d'attente !). |
 | **Rechercher des technologies** | Finaliser les technologies du Laboratoire, augmenter la Puissance scientifique, brûler des minutes d'accélération. |
 | **Construire le territoire** | Terminer des structures, élever le niveau du Sanctuaire, augmenter la Puissance de construction. |
 | **Améliorer les héros** | Faire monter les héros en niveau (Antitoxine), améliorer les compétences (Badges de compétence) et l'ascension par étoiles (Éclats Omni). |
@@ -45,15 +45,15 @@ La règle opérationnelle centrale : **ne dépensez jamais de ressources de gran
 > [!IMPORTANT] Mécanique centrale : Les points sont attribués LORS DE LA MISE EN FILE D'ATTENTE !
 > Les points pour l'entraînement des soldats sont crédités **à la seconde exacte où vous appuyez sur le bouton "Entraîner" (ou "Promouvoir")**, lorsque les ressources sont dépensées et que le minuteur de la file d'attente démarre.
 > 
-> **Les points ne sont PAS attribués lorsque le minuteur se termine, et ne sont PAS attribués lors de la collecte des troupes dans les casernes !**
+> **Les points ne sont PAS attribués lorsque le minuteur se termine, et ne sont PAS attribués lors de la collecte des troupes au camp d'entraînement !**
 
 Règles tactiques critiques :
 
-1. **NE commencez PAS l'entraînement avant la phase :** Si vous lancez un lot 30 minutes avant le début de la phase d'entraînement, les points sont crédités en dehors de l'événement. Lorsque la phase commence et que le lot se termine, appuyer sur la caserne pour les collecter rapporte **0 point** !
-2. **Appuyez sur "Entraîner" strictement APRÈS le début de la phase d'entraînement :** Attendez le changement de phase, confirmez que "Entraîner des soldats" est la phase active de 4 heures, et lancez seulement alors le recrutement dans vos casernes.
+1. **NE commencez PAS l'entraînement avant la phase :** Si vous lancez un lot 30 minutes avant le début de la phase d'entraînement, les points sont crédités en dehors de l'événement. Lorsque la phase commence et que le lot se termine, appuyer sur le camp d'entraînement pour les collecter rapporte **0 point** !
+2. **Appuyez sur "Entraîner" strictement APRÈS le début de la phase d'entraînement :** Attendez le changement de phase, confirmez que "Entraîner des soldats" est la phase active de 4 heures, et lancez seulement alors le recrutement dans votre camp d'entraînement.
 3. **Entraînez votre niveau débloqué le plus élevé (T7–T10) :** Les points par soldat augmentent considérablement selon le niveau. Les recrues de bas niveau (T1–T2) donnent des points négligeables.
 4. **Utilisez la Promotion (Améliorer les troupes existantes) :** Promouvoir des troupes de bas niveau vers votre niveau le plus élevé rapporte des points instantanément dès la mise en file d'attente (la différence de points entre les niveaux). Cela prend beaucoup moins de temps que l'entraînement à partir de zéro.
-5. **Gardez une caserne délibérément basse à un niveau intermédiaire** (par exemple, une que vous arrêtez d'améliorer volontairement à mi-parcours). Vos casernes principales gèrent des lots de 2h/6h de votre niveau maximum ; la caserne bon marché maintient des files d'attente de 2 heures de T2–T3 pour les paliers qui nécessitent juste *que* la file d'attente existe, pas le niveau. Paliers maximum au coût minimum.
+5. **Gardez un camp d'entraînement délibérément bas à un niveau intermédiaire** (par exemple, une que vous arrêtez d'améliorer volontairement à mi-parcours). Vos camps d'entraînement principaux gèrent des lots de 2h/6h de votre niveau maximum ; le camp bon marché maintient des files d'attente de 2 heures de T2–T3 pour les paliers qui nécessitent juste *que* la file d'attente existe, pas le niveau. Paliers maximum au coût minimum.
 6. **Cumulez avec le Duel d'alliance.** Tout palier de recherche ou d'entraînement qui coïncide avec un jour de Duel d'alliance convertit les mêmes ressources en deux paiements. Si vous êtes bloqué sur un palier, vérifiez le Rush — un temps de recharge de 3 jours réinitialise souvent le tableau des paliers sans dépense supplémentaire.
 7. **Palier Raven : endurance uniquement, jamais de fruits.** Le palier "Améliorer Raven" accepte les dépenses de fruits — mais vos fruits appartiennent au rafraîchissement de la boutique Raven du lundi dans la Boutique du Sanctuaire. Faites le palier Raven en broyant uniquement les monstres avec de l'endurance et laissez les fruits pour le prochain réapprovisionnement de la boutique.
 5. **Brûlez les accélérations d'entraînement DANS la fenêtre active :** Pour atteindre des coffres de palier plus élevés, accélérez les files d'attente actuelles et mettez immédiatement en file d'attente de nouveaux lots pour gagner des points pour chaque lot.
@@ -63,10 +63,10 @@ Règles tactiques critiques :
 ## 🦅 Missions Raven : Points pour dépenser de l'énergie {#stamina-missions}
 
 > [!IMPORTANT] Les points sont attribués pour l'acte de dépenser de l'énergie !
-> Pendant les missions radar Raven, les points de Bataille de survie sont attribués **directement pour avoir consommé de l'énergie (endurance)** afin d'éliminer des cibles ! Plus vous brûlez d'énergie en accomplissant des tâches radar Raven pendant la phase active, plus vite vous débloquerez les coffres de palier maximum.
+> Pendant les missions du Faucon (Tour du Faucon), les points de Bataille de survie sont attribués **directement pour avoir consommé de l'énergie (endurance)** afin d'éliminer des cibles ! Plus vous brûlez d'énergie en accomplissant des tâches du Faucon pendant la phase active, plus vite vous débloquerez les coffres de palier maximum.
 
 - **Conservez l'énergie et les Fruits Raven pour la phase Raven :** Évitez de brûler des potions d'endurance ou des Fruits Raven pendant les jours creux ou les phases non pertinentes.
-- **Brûlez l'énergie sur les missions Raven :** Une fois le bloc de mission Raven en ligne, videz immédiatement votre file d'attente radar — chaque point d'énergie dépensé se convertit directement en score de Bataille de survie.
+- **Brûlez l'énergie sur les missions Raven :** Une fois le bloc de mission Raven en ligne, accomplissez immédiatement vos tâches du Faucon — chaque point d'énergie dépensé se convertit directement en score de Bataille de survie.
 - **Récompenses cumulées :** Dépenser de l'énergie pendant cette phase fait monter simultanément votre Gardien Raven, cultive des coffres d'épigraphe et vide les coffres de Bataille de survie.
 
 ---
@@ -83,7 +83,7 @@ Un palier à haute efficacité se débloque pour exactement **30 Tickets de recr
 
 | Ressource / Action | Bataille de survie | Duel d'alliance | Stratégie optimale |
 |---|---|---|---|
-| **Énergie (Endurance) & Raven** | Points pour **dépenser de l'énergie** sur les missions Raven & Fruits Raven | Phase 1 (Lundi — Améliorer Raven) | Mettez en banque les potions d'endurance & Fruits Raven pour le lundi. Brûlez l'énergie sur les tâches radar pendant la phase Raven de 4 heures — cumulez les points pour les deux événements ! |
+| **Énergie (Endurance) & Raven** | Points pour **dépenser de l'énergie** sur les missions Raven & Fruits Raven | Phase 1 (Lundi — Améliorer Raven) | Mettez en banque les potions d'endurance & Fruits Raven pour le lundi. Brûlez l'énergie sur les tâches du Faucon pendant la phase Raven de 4 heures — cumulez les points pour les deux événements ! |
 | **Recherche** | Palier de Badges | Phase 3 (Mercredi) | Mettez en banque les parchemins pour le mercredi ; videz la Bataille de survie en utilisant des nœuds technologiques sans parchemin. |
 | **Tickets de recrutement** | Palier de 30 tickets | Phase 4 (Jeudi) | Dépensez exactement 30 tickets si le palier est actif ; canalisez les tickets restants vers le jeudi. |
 | **Accélérations d'entraînement** | Palier d'entraînement | Phase 5 (Vendredi) | Mettez en file d'attente le recrutement et utilisez les accélérations le vendredi pendant les phases correspondantes "Entraîner des soldats". |

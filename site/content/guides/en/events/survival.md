@@ -23,7 +23,7 @@ Skill Badges are the permanent bottleneck across all hero skill trees. This guid
 | Category | How Points Are Earned |
 |---|---|
 | **Spend Energy & Raven Missions** | Points are awarded **directly for spending energy (stamina)** on Raven missions and hunting infected, as well as feeding the Raven Guardian, consuming Raven Fruits, applying Essence, and opening Epigraph chests. |
-| **Train Soldiers** | Queueing recruits in barracks and starting promotions of existing units to higher tiers (points awarded upon queueing!). |
+| **Train Soldiers** | Queueing recruits at the training grounds and starting promotions of existing units to higher tiers (points awarded upon queueing!). |
 | **Research Tech** | Finalizing Laboratory technologies, increasing scientific Might, burning speedup minutes. |
 | **Build Territory** | Completing structures, elevating Sanctuary level, increasing construction Might. |
 | **Enhance Heroes** | Leveling heroes (Antitoxin), upgrading skills (Skill Badges), and star ascension (Omni Shards). |
@@ -40,24 +40,24 @@ The central operational rule: **never spend high-value resources outside the act
 
 ---
 
-## 🛡️ Soldier Training: Tiered Barracks Setup & Promotion Mechanics {#training-mechanics}
+## 🛡️ Soldier Training: Tiered Training Grounds Setup & Promotion Mechanics {#training-mechanics}
 
 > [!IMPORTANT] Core Mechanic: Points Are Awarded UPON QUEUEING!
 > Points for training soldiers are credited **the exact second you tap the "Train" (or "Promote") button**, when resources are spent and the queue timer starts.
 > 
-> **Points are NOT awarded when the timer finishes, and NOT awarded when collecting troops from barracks!**
+> **Points are NOT awarded when the timer finishes, and NOT awarded when collecting troops from the training grounds!**
 
-### The Tiered Barracks Setup:
-1. **Tiered Barracks Structure:** Maintain one low-level barracks (for churning out cheap T1 units), one mid-level barracks (T7), and your highest-tier barracks.
+### The Tiered Training Grounds Setup:
+1. **Tiered Training Grounds Structure:** Maintain one low-level training ground (for churning out cheap T1 units), one mid-level training ground (T7), and your highest-tier training ground.
 2. **Short 2-Hour Batches via Promotion:** Instead of burning 12–24 hours of raw training from scratch, train batches of cheap T1 units during downtime.
 3. **Cheap Promotion in Active Windows:** When the 4-hour "Train Soldiers" phase goes live, trigger **Promotion (T1 → T7)** (which only takes around 2 hours).
-4. **The Payout:** You sweep the Gold milestone chest containing Skill Badges and UR Hero Shards for minimal speedup cost! Immediately set the low-level barracks back to training T1s to prep for the next rotation.
+4. **The Payout:** You sweep the Gold milestone chest containing Skill Badges and UR Hero Shards for minimal speedup cost! Immediately set the low-level training ground back to training T1s to prep for the next rotation.
 
 ### Critical Tactical Rules:
 1. **DO NOT start training ahead of the phase:** If you start a batch 30 minutes before the training phase begins, points are credited outside the event.
 2. **Tap "Train" strictly AFTER the training phase is live:** Confirm "Train Soldiers" is active before starting recruitment queues.
 3. **Burn training speedups INSIDE the active window:** To reach higher milestone chests, speed up current queues and immediately queue new batches to earn points for each batch.
-4. **Double-dip with Alliance Duel:** When the training block aligns with Friday (Alliance Duel Phase 5), the same barracks output scores in both major events simultaneously!
+4. **Double-dip with Alliance Duel:** When the training block aligns with Friday (Alliance Duel Phase 5), the same training-ground output scores in both major events simultaneously!
 
 ---
 
@@ -77,7 +77,7 @@ During the 4-hour Technology Research block, use the following optimization:
 ## 🦅 Raven Missions: Stamina Only, Never Fruits! {#stamina-missions}
 
 > [!IMPORTANT] Points are awarded for the act of spending energy!
-> During Raven radar missions, Survival Battle points are awarded **directly for consuming energy (stamina)** to purge targets! 
+> During Falcon Tower missions (training the Raven), Survival Battle points are awarded **directly for consuming energy (stamina)** to purge targets! 
 
 * **The Ironclad Rule:** **NEVER burn Raven Fruits during Survival Battle!** Save all Raven Fruits for Monday (Alliance Duel Phase 1).
 * **How to Clear the Phase:** Clear the Raven phase 100% **purely by hunting monsters, infected, and Elite Blight lairs using natural stamina and energy potions**. This secures maximum Skill Badges without wasting precious fruit stockpiles.
@@ -93,7 +93,7 @@ A crucial recommendation for all F2P and low-spender commanders:
 * **The "Build Territory" Trap:** Clearing the Gold Chest in the 4-hour construction phase burns an immense quantity of construction speedups.
 * **Why You Should Skip It:** Those construction speedups are infinitely more valuable on **Tuesday (Alliance Duel Phase 2)** or **Day 2 of Supreme Healer**, where the King Buff (-60% time) can be stacked to unlock major weekly chests!
 * **The F2P "Golden Trio" of Easy Phases:** Do not try to complete every single 4-hour phase. To consistently claim your **60,000 free Skill Badges** and UR Omni Shards every week, focus on the three easiest, low-cost phases:
-  1. **Soldier Training** (via tiered barracks and quick T1 → T7 promotions).
+  1. **Soldier Training** (via tiered training grounds and quick T1 → T7 promotions).
   2. **Raven Upgrades** (free via stamina and monster hunting).
   3. **Hero Enhancement** (micro-upgrades to hero levels and skills WITHOUT burning your stockpiled antitoxin).
 
@@ -127,7 +127,7 @@ The complete video breakdown by creator **KorpezGaming** is embedded below and a
 ### Key Timestamps & Takeaways:
 * `00:00` — **The 60K Free Skill Badges F2P Foundation:** Why daily Survival Battle is the single most important routine for hero progression.
 * `00:45` — **Interface & 5 Rotating Blocks:** Schedule layout and daily task sequence.
-* `01:20` — **Tiered Barracks & Promotion Trick:** Why keeping a low-tier barracks for T1 and a mid-tier barracks for T7 clears milestone chests in hours.
+* `01:20` — **Tiered Training Grounds & Promotion Trick:** Why keeping a low-tier training ground for T1 and a mid-tier one for T7 clears milestone chests in hours.
 * `02:25` — **Research Block & Micro-Techs:** How to finish the final 200–400 points using 5-minute techs and alliance help clicks with 0 speedups burned.
 * `03:20` — **Raven Phase (Stamina Only):** Why Raven Fruits must never be spent here, and how monster kills clear the stage.
 * `04:20` — **Hero Phase:** Micro-leveling heroes while preserving antitoxin for Thursday.

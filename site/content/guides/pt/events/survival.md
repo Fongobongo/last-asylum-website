@@ -49,11 +49,11 @@ A regra operacional central: **nunca gaste recursos de alto valor fora da fase d
 
 Regras táticas críticas:
 
-1. **NÃO inicie o treinamento antes da fase:** Se você iniciar um lote 30 minutos antes da fase de treinamento começar, os pontos são creditados fora do evento. Quando a fase começar e o lote terminar, tocar no quartel para coletá-los renderá **0 pontos**!
+1. **NÃO inicie o treinamento antes da fase:** Se você iniciar um lote 30 minutos antes da fase de treinamento começar, os pontos são creditados fora do evento. Quando a fase começar e o lote terminar, tocar no campo de treinamento para coletá-los renderá **0 pontos**!
 2. **Toque em "Treinar" estritamente APÓS a fase de treinamento estar ativa:** Aguarde a mudança de fase, confirme se "Treinar Soldados" é a fase ativa de 4 horas e só então inicie o recrutamento em seus quartéis.
 3. **Treine seu nível mais alto desbloqueado (T7–T10):** Os pontos por soldado aumentam drasticamente conforme o nível. Recrutas de nível baixo (T1–T2) dão pontos insignificantes.
 4. **Utilize a Promoção (Melhorar Tropas Existentes):** Promover tropas de nível inferior para o seu nível mais alto concede pontos instantaneamente ao colocar na fila (a diferença de pontos entre os níveis). Leva muito menos tempo do que treinar do zero.
-5. **Mantenha um quartel deliberadamente baixo estacionado em um nível médio** (por exemplo, um que você pare de atualizar no meio do caminho de propósito). Seus quartéis principais mantêm filas de 2h/6h do seu nível máximo; o quartel barato mantém filas de 2 horas de T2–T3 para marcos que apenas precisam *que* a fila exista, não o nível. Marcos máximos com custo mínimo.
+5. **Mantenha um campo de treinamento deliberadamente baixo estacionado em um nível médio** (por exemplo, um que você pare de atualizar no meio do caminho de propósito). Seus campos de treinamento principais mantêm filas de 2h/6h do seu nível máximo; o campo barato mantém filas de 2 horas de T2–T3 para marcos que apenas precisam *que* a fila exista, não o nível. Marcos máximos com custo mínimo.
 6. **Aproveite o Duelo de Alianças.** Qualquer marco de pesquisa ou treinamento que coincida com um dia do Duelo de Alianças converte os mesmos recursos em dois pagamentos. Quando estiver preso em um marco, verifique o "Rush" — um tempo de recarga de 3 dias geralmente redefine o quadro de marcos sem gastos extras.
 7. **Marco Raven: apenas stamina, nunca frutas.** O marco "Aprimorar Raven" aceita gasto de frutas — mas suas frutas pertencem à atualização da loja Raven de segunda-feira na Loja do Santuário. Faça o marco Raven apenas moendo monstros com stamina e deixe as frutas para a próxima reposição da loja.
 8. **Gaste acelerações de treinamento DENTRO da janela ativa:** Para alcançar baús de marcos mais altos, acelere as filas atuais e coloque imediatamente novos lotes na fila para ganhar pontos por cada lote.
@@ -63,10 +63,10 @@ Regras táticas críticas:
 ## 🦅 Missões Raven: Pontos por Gastar Energia {#stamina-missions}
 
 > [!IMPORTANT] Os pontos são concedidos pelo ato de gastar energia!
-> Durante as missões de radar Raven, os pontos da Batalha de Sobrevivência são concedidos **diretamente por consumir energia (stamina)** para eliminar alvos! Quanto mais energia você gastar completando tarefas de radar Raven durante a fase ativa, mais rápido você desbloqueia os baús de marcos máximos.
+> Durante as missões do Falcão (Torre do Falcão), os pontos da Batalha de Sobrevivência são concedidos **diretamente por consumir energia (stamina)** para eliminar alvos! Quanto mais energia você gastar completando tarefas do Falcão durante a fase ativa, mais rápido você desbloqueia os baús de marcos máximos.
 
 - **Economize energia e Frutas Raven para a fase Raven:** Evite gastar poções de stamina ou Frutas Raven durante dias de folga ou fases irrelevantes.
-- **Gaste energia em missões Raven:** Assim que o bloco de missões Raven entrar no ar, limpe sua fila de radar imediatamente — cada ponto de energia gasto converte-se diretamente na pontuação da Batalha de Sobrevivência.
+- **Gaste energia em missões Raven:** Assim que o bloco de missões Raven entrar no ar, conclua suas tarefas do Falcão imediatamente — cada ponto de energia gasto converte-se diretamente na pontuação da Batalha de Sobrevivência.
 - **Recompensas compostas:** Gastar energia durante esta fase aumenta simultaneamente o nível do seu Guardião Raven, cultiva baús de epígrafe e limpa baús da Batalha de Sobrevivência.
 
 ---
@@ -83,7 +83,7 @@ Um marco de alta eficiência que se completa exatamente com **30 Bilhetes de Rec
 
 | Recurso / Ação | Batalha de Sobrevivência | Duelo de Alianças | Estratégia Ideal |
 |---|---|---|---|
-| **Energia (Stamina) & Raven** | Pontos por **gastar energia** em missões Raven & Frutas Raven | Fase 1 (Segunda — Aprimorar Raven) | Guarde poções de stamina & Frutas Raven para segunda-feira. Gaste energia em tarefas de radar durante a fase Raven de 4 horas — ganhe pontos duplos para ambos os eventos! |
+| **Energia (Stamina) & Raven** | Pontos por **gastar energia** em missões Raven & Frutas Raven | Fase 1 (Segunda — Aprimorar Raven) | Guarde poções de stamina & Frutas Raven para segunda-feira. Gaste energia em tarefas do Falcão durante a fase Raven de 4 horas — ganhe pontos duplos para ambos os eventos! |
 | **Pesquisa** | Marco de Distintivos | Fase 3 (Quarta) | Guarde pergaminhos para quarta-feira; limpe a Batalha de Sobrevivência usando nós de tecnologia sem pergaminhos. |
 | **Bilhetes de Recrutamento** | Marco de 30 bilhetes | Fase 4 (Quinta) | Gaste exatamente 30 bilhetes se o marco estiver ativo; direcione os bilhetes restantes para quinta-feira. |
 | **Acelerações de Treinamento** | Marco de Treinamento | Fase 5 (Sexta) | Coloque recrutamento na fila e use acelerações na sexta-feira durante as fases correspondentes de "Treinar Soldados". |
