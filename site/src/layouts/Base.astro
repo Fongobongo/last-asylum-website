@@ -12,6 +12,7 @@ interface Props {
   title?: string;
   description?: string;
   noindex?: boolean;
+  langs?: Lang[];
 }
 
 const { lang, path, title, description, noindex } = Astro.props;
@@ -22,8 +23,8 @@ const site = Astro.site?.toString().replace(/\/$/, '') ?? '';
 const cleanPath = path.replace(/^\/(en|ru|es|pt|fr|de|id|ko|ja)?\/?/, '/') || '/';
 const canonical = site + (lang === 'en' ? (cleanPath === '/' ? '/' : cleanPath) : `/${lang}${cleanPath === '/' ? '/' : cleanPath}`);
 
-// hreflang alternates for this page across all languages
-const alternates = languages.map((l) => ({
+// hreflang alternates for this page across available languages
+const alternates = (Astro.props.langs ?? languages).map((l) => ({
   lang: l,
   href: site + (l === 'en' ? (cleanPath === '/' ? '/' : cleanPath) : `/${l}${cleanPath === '/' ? '/' : cleanPath}`),
 }));
@@ -132,7 +133,7 @@ const umamiSrc = import.meta.env.PUBLIC_UMAMI_SRC ?? '';
     <!-- Reading Progress Bar -->
     <div id="reading-progress" class="fixed top-0 left-0 h-[2.5px] w-0 bg-gradient-to-r from-toxic-500 via-toxic-400 to-plague-400 z-[100] transition-[width] duration-100 ease-out pointer-events-none"></div>
 
-    <Header lang={lang} path={path} />
+    <Header lang={lang} path={path} langs={Astro.props.langs} />
     <main class="mx-auto w-full max-w-7xl px-4">
       <slot />
     </main>

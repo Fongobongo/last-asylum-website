@@ -21,10 +21,10 @@ The beginner section is split into standalone articles — read them in order:
 
 Hero basics now live in the Heroes section, which collects every hero guide:
 
-- **[Hero Unlock Timeline](/heroes/#unlock-timeline)** — when Arthur lands, the Cynthia/Shadow Wishing Wheel, the UR event train of days 36–85, Marlena, Age of Rebirth
-- **[How Hero Might Works](/heroes/#hero-might)** — level, stars (the 4★ jump), skills and gear
-- **[Factions and Counters](/heroes/#wiki-hero-factions)** — +5/+10/+15/+20% stack bonuses and the Warriors > Warlocks > Rangers > Warriors circle
-- **[Your First Lineup](/heroes/#f2p-squad)** — Arthur and Bella up front; Marlena, Claire and Celia in the back (full breakdown with alternatives)
+- **[Hero Unlock Timeline](/heroes/hero-basics/#unlock-timeline)** — when Arthur lands, the Cynthia/Shadow Wishing Wheel, the UR event train of days 36–85, Marlena, Age of Rebirth
+- **[How Hero Might Works](/heroes/hero-basics/#hero-might)** — level, stars (the 4★ jump), skills and gear
+- **[Factions and Counters](/heroes/hero-basics/#wiki-hero-factions)** — +5/+10/+15/+20% stack bonuses and the Warriors > Warlocks > Rangers > Warriors circle
+- **[Your First Lineup](/heroes/hero-basics/#f2p-squad)** — Arthur and Bella up front; Marlena, Claire and Celia in the back (full breakdown with alternatives)
 
 
 ## Community Q&A: Answers That Keep Coming Up {#community-qa}

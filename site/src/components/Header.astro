@@ -2,8 +2,8 @@
 import { languages, langNames, type Lang } from '../i18n/utils';
 import { t } from '../i18n/ui';
 
-interface Props { lang: Lang; path: string; }
-const { lang, path } = Astro.props;
+interface Props { lang: Lang; path: string; langs?: Lang[]; }
+const { lang, path, langs } = Astro.props;
 const navItems: { key: any; href: string; num: string }[] = [
   { key: 'nav.beginners', href: 'beginners', num: '01' },
   { key: 'nav.tips', href: 'tips', num: '02' },
@@ -25,7 +25,7 @@ const navItems: { key: any; href: string; num: string }[] = [
 const cleanPath = path.replace(/^\/(en|ru|es|pt|fr|de|id|ko|ja)?\/?/, '/') || '/';
 const is404 = cleanPath === '/404/' || cleanPath.startsWith('/404');
 const isAdmin = cleanPath === '/admin/' || cleanPath === '/alliance/admin/';
-const langHrefs = languages.map((l) => ({
+const langHrefs = (langs ?? languages).map((l) => ({
   lang: l,
   href: is404
     ? (l === 'en' ? '/' : `/${l}/`)

@@ -1,0 +1,23 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import InfographicGallery from '../../components/InfographicGallery.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'de';
+---
+
+<Base lang={lang} path="/infographics/" title="Infografiken — Last Asylum: Plague" description="Alle Poster, visuellen Schemata und Spickzettel zu Last Asylum: Plague in hoher Auflösung.">
+  <GuidePage
+    title="📊 Infografiken"
+    description="Alle Poster, visuellen Schemata und Spickzettel zu Last Asylum: Plague in hoher Auflösung."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/de/' }, { label: 'Infografiken' }]}
+  >
+    <InfographicGallery lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

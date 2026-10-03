@@ -1,0 +1,23 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import InfographicGallery from '../../components/InfographicGallery.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ko';
+---
+
+<Base lang={lang} path="/infographics/" title="인포그래픽 — Last Asylum: Plague" description="Last Asylum: Plague 포스터, 시각 자료, 치트시트 모음(고해상도).">
+  <GuidePage
+    title="📊 인포그래픽"
+    description="Last Asylum: Plague 포스터, 시각 자료, 치트시트 모음(고해상도)."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/ko/' }, { label: '인포그래픽' }]}
+  >
+    <InfographicGallery lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

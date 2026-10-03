@@ -64,12 +64,14 @@ const entry = await getEntry('guides', entryId);
 if (!entry) return Astro.rewrite('/404');
 const { Content } = await render(entry);
 
+const all = await getCollection('guides');
+const supportedLangs = [...new Set(all.filter(e => e.id.replace(/\.md$/, '').split('/').slice(1).join('/') === slug).map(e => e.id.split('/')[0] as Lang))];
 const data = entry.data as any;
 const path = lang === 'en' ? `/${slug}/` : `/${lang}/${slug}/`;
 const showDiscord = slug !== 'support' && slug !== 'credits';
 ---
 
-<Base lang={lang} path={path} title={data.title} description={data.description}>
+<Base lang={lang} path={path} title={data.title} description={data.description} langs={supportedLangs}>
   {data.noindex && <meta slot="head" name="robots" content="noindex, nofollow" />}
   <GuidePage title={data.title} description={data.description} lang={lang}>
     {data.updated && (

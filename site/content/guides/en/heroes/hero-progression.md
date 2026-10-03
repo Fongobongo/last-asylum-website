@@ -154,11 +154,8 @@ Pages that mention this one. The list is built from the markup, not filled by ha
 
 ## Comments
 
-No approved comments yet.
 
-Sign in to leave a comment.
 
-↑ Back to top
 
 ---
 
@@ -238,10 +235,7 @@ Pages that mention this one. The list is built from the markup, not filled by ha
 
 ## Comments
 
-No approved comments yet.
 
-Sign in to leave a comment.
 
-↑ Back to top
 
 ---

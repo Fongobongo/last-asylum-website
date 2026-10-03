@@ -279,22 +279,7 @@ And because shards, badges and gear materials are all scarce, the might formula 
 
 Source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-teams), client v1.0.87.
 
-Pick the Last Asylum: Plague heroes you own: the builder checks every five-hero squad and shows the best teams, explaining why they work together. Same model as the Squads page: effectiveness = survivability x damage per second over a 30-second reference fight.
-
-Sign in so your roster is saved across devices.
-
-### UR 15
-
-### SSR 12
-
-### SR 4
-
-## Best squads
-
-Pick 5 more. A squad needs five heroes.
-
-Stats are taken at full investment (level and star template, personal growth ratio, awakening and exclusive gear). Over a 30-second fight every skill casts on its cooldown, the first cast at its initial delay. Survivability = (HP + shields + healing) / (1 − damage reduction, capped at 75%). Defense and troops are computed server-side and are outside the model. Index 100 = the best squad built from all heroes in the game.
-
+Mark the heroes you own — the interactive builder will check every five-hero squad and show the best: [Open the squad builder](/heroes/#squad-builder). Index 100 = the best possible squad in the game.
 
 A squad in Last Asylum: Plague is made of five heroes, and how those five are matched matters more than the Might of any one of them. This page ranks all 169,911 possible five-hero squads by tier. They were judged not by total Might but by what they do in a fight: how much the squad withstands and how hard it hits. The calculation itself is explained on How squads are rated; this page keeps to the results and what they mean for a player. The best squad from the heroes actually owned is computed by the squad builder, and the arena team builder checks it against a specific opponent.
 
@@ -923,11 +908,8 @@ Pages that mention this one. The list is built from the markup, not filled by ha
 
 ## Comments
 
-No approved comments yet.
 
-Sign in to leave a comment.
 
-↑ Back to top
 
 ---
 
@@ -1068,11 +1050,8 @@ Pages that mention this one. The list is built from the markup, not filled by ha
 
 ## Comments
 
-No approved comments yet.
 
-Sign in to leave a comment.
 
-↑ Back to top
 
 ---
 
@@ -1151,11 +1130,8 @@ Pages that mention this one. The list is built from the markup, not filled by ha
 
 ## Comments
 
-No approved comments yet.
 
-Sign in to leave a comment.
 
-↑ Back to top
 
 ---
 
@@ -1235,11 +1211,8 @@ Pages that mention this one. The list is built from the markup, not filled by ha
 
 ## Comments
 
-No approved comments yet.
 
-Sign in to leave a comment.
 
-↑ Back to top
 
 ---
 
@@ -1373,11 +1346,8 @@ Pages that mention this one. The list is built from the markup, not filled by ha
 
 ## Comments
 
-No approved comments yet.
 
-Sign in to leave a comment.
 
-↑ Back to top
 
 ---
 
