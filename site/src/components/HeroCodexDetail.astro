@@ -25,7 +25,9 @@ const awakeningHref = lang === 'ru' ? '/ru/heroes/#awakening-walkthrough' : '/he
 const officialData = hero.officialId ? (officialHeroesData as any)[hero.officialId.toString()] : null;
 
 // Localized hero name & details
-const heroDisplayName = officialData?.names?.[lang] || hero.names?.[lang] || hero.name;
+// Claire (Advanced) shares client ID 50020 with base Claire, whose official
+// name has no qualifier — prefer the codex name so the two pages differ.
+const heroDisplayName = hero.slug === 'claire-advanced' ? (hero.names?.[lang] || hero.name) : (officialData?.names?.[lang] || hero.names?.[lang] || hero.name);
 const weaponName = officialData?.weapons?.[lang] || hero.exclusiveWeapon?.[lang];
 const traitName = officialData?.trait?.[lang];
 const previewQuote = officialData?.previewQuote?.[lang];
