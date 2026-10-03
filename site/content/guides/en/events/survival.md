@@ -54,10 +54,9 @@ The central operational rule: **never spend high-value resources outside the act
 4. **The Payout:** You sweep the Gold milestone chest containing Skill Badges and UR Hero Shards for minimal speedup cost! Immediately set the low-level training ground back to training T1s to prep for the next rotation.
 
 ### Critical Tactical Rules:
-1. **DO NOT start training ahead of the phase:** If you start a batch 30 minutes before the training phase begins, points are credited outside the event.
-2. **Tap "Train" strictly AFTER the training phase is live:** Confirm "Train Soldiers" is active before starting recruitment queues.
-3. **Burn training speedups INSIDE the active window:** To reach higher milestone chests, speed up current queues and immediately queue new batches to earn points for each batch.
-4. **Double-dip with Alliance Duel:** When the training block aligns with Friday (Alliance Duel Phase 5), the same training-ground output scores in both major events simultaneously!
+1. **Queue strictly AFTER the phase starts:** batches started before the window earn 0 points — but don't leave the training grounds idle either: if the theme starts in an hour, queue a short session for the remaining time, then fully load once the phase begins.
+2. **Burn training speedups INSIDE the active window:** speed up current queues and immediately queue new batches to earn points per batch (points at queueing — see above).
+3. **Double-dip with Alliance Duel:** When the training block aligns with Friday (Alliance Duel Phase 5), the same training-ground output scores in both major events simultaneously!
 
 ---
 
@@ -91,7 +90,7 @@ During the 4-hour Technology Research block, use the following optimization:
 
 A crucial recommendation for all F2P and low-spender commanders:
 * **The "Build Territory" Trap:** Clearing the Gold Chest in the 4-hour construction phase burns an immense quantity of construction speedups.
-* **Why You Should Skip It:** Those construction speedups are infinitely more valuable on **Tuesday (Alliance Duel Phase 2)** or **Day 2 of Supreme Healer**, where the King Buff (-60% time) can be stacked to unlock major weekly chests!
+* **Why You Should Skip It:** Those construction speedups are infinitely more valuable on **Tuesday (Alliance Duel Phase 2)** or **Day 2 of Supreme Healer** (King's -60% buff, major weekly chests!). So take the building theme **only on Tuesday** via the frozen-hammer trick above; skip it otherwise.
 * **The F2P "Golden Trio" of Easy Phases:** Do not try to complete every single 4-hour phase. To consistently claim your **60,000 free Skill Badges** and UR Omni Shards every week, focus on the three easiest, low-cost phases:
   1. **Soldier Training** (via tiered training grounds and quick T1 → T7 promotions).
   2. **Raven Upgrades** (free via stamina and monster hunting).
@@ -111,12 +110,12 @@ A standout high-efficiency milestone clears for exactly **30 Recruitment Tickets
 
 | Resource / Action | Survival Battle | Alliance Duel | Optimal Strategy |
 |---|---|---|---|
-| **Energy (Stamina) & Raven** | Points for **spending energy** on Raven missions | Phase 1 (Monday — Enhance Raven) | Burn energy during the 4-hour Raven phase — double dip points for both events! Get the energy from regen, the two free daily refills and diamond buys (2×150, then 2×250); bank energy potions for events like Thief Hunt. Hold Raven Fruits for Monday. |
+| **Energy (Stamina) & Raven** | Points for **spending energy** on Raven missions | Phase 1 (Monday — Enhance Raven) | Burn energy during the 4-hour Raven phase — double dip (Battle + Duel). For energy sources and the fruit ban, see the Raven section. |
 | **Research** | Badge milestone | Phase 3 (Wednesday) | Bank scrolls for Wednesday; clear Survival Battle using micro-techs and alliance help. |
 | **Recruit Tickets** | 30-ticket milestone | Phase 4 (Thursday) | Spend exactly 30 tickets if milestone active; funnel remaining tickets to Thursday. |
 | **Training Speedups** | Training milestone | Phase 5 (Friday) | Queue recruitment via Promotion on Friday during matching "Train Soldiers" phases. |
 
-**Golden Rule:** When calendars conflict, prioritize the weekly **60,000 Skill Badges** milestone floor — there is no equivalent renewable badge farm anywhere in the game!
+**Golden Rule:** When calendars conflict, prioritize Alliance Duel over small Battle chests — but keep two tracks straight: **Survival Seals expire daily**, while the weekly leaderboard and ~60K Skill Badges reset weekly.
 
 ---
 
@@ -145,12 +144,11 @@ The complete video breakdown by creator **KorpezGaming** is embedded below and a
 
 1. Audit your server's unique mission rotation every Monday morning.
 2. Partition resources between Alliance Duel prerequisites and Survival Battle thresholds.
-3. **Spend energy on Falcon Tower missions** strictly during the active 4-hour Raven phase: points are awarded directly for stamina expenditure! Never spend Raven Fruits here — and keep energy potions for events like Thief Hunt; use regen, the two free daily refills, and diamond buys (2×150, then 2×250) instead.
-4. Synchronize energy spending with Alliance Duel Phase 1 (Monday) — but don't burn energy potions: save them for events like Thief Hunt.
-5. Skip the territory building phase unless you have excess speedups or it coincides with Tuesday.
+3. **Spend energy on Falcon Tower missions** strictly during the active Raven phase (ideally Monday, Alliance Duel Phase 1 overlap); never fruits or energy potions here — sources in the Raven section above.
+5. Take the building theme **only on Tuesday** (to overlap the Duel); skip it on other days.
 6. Queue soldier training **strictly after the training phase has started** (points are awarded upon queueing!).
 7. Use the Promotion trick (T1 → T7) for rapid, ultra-cheap milestone completions.
-8. Sweep all milestone chests to secure your ~60,000 Skill Badges before the weekly reset (00:00 Server Time / 02:00 UTC).
+8. Sweep the weekly ~60,000 Skill Badges before the weekly reset (00:00 Server Time / 02:00 UTC) — that's the weekly track; daily seals expire every day (item 9).
 
 ---
 
