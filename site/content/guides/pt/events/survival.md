@@ -26,7 +26,7 @@ Os Distintivos de Habilidade são o gargalo permanente em todas as árvores de h
 | **Treinar Soldados** | Colocar recrutas na fila dos quartéis e iniciar a promoção de unidades existentes para níveis superiores (pontos concedidos ao colocar na fila!). |
 | **Pesquisar Tecnologia** | Finalizar tecnologias de Laboratório, aumentar o Poder científico, gastar minutos de aceleração. |
 | **Construir Território** | Concluir estruturas, elevar o nível do Santuário, aumentar o Poder de construção. |
-| **Aprimorar Heróis** | Subir o nível de heróis (Antitoxina), melhorar habilidades (Distintivos de Habilidade) e ascensão de estrelas (Fragmentos Omni). |
+| **Aprimorar Heróis** | Invocações de heróis (Bilhetes de Recrutamento) e subida de nível com Antitoxina. Melhorias de habilidades e estrelas NÃO concedem pontos. |
 
 ---
 
@@ -65,7 +65,7 @@ Regras táticas críticas:
 > [!IMPORTANT] Os pontos são concedidos pelo ato de gastar energia!
 > Durante as missões do Falcão (Torre do Falcão), os pontos da Batalha de Sobrevivência são concedidos **diretamente por consumir energia (stamina)** para eliminar alvos! Quanto mais energia você gastar completando tarefas do Falcão durante a fase ativa, mais rápido você desbloqueia os baús de marcos máximos.
 
-- **Economize energia e Frutas Raven para a fase Raven:** Evite gastar poções de stamina ou Frutas Raven durante dias de folga ou fases irrelevantes.
+- **Guarde poções de stamina para eventos como a Caça aos Ladrões:** Para a fase Raven, use a regeneração natural, as duas recargas de energia gratuitas diárias e compras de energia com diamantes (2× 150, depois 2× 250), ou uma combinação. Frutas Raven só na segunda.
 - **Gaste energia em missões Raven:** Assim que o bloco de missões Raven entrar no ar, conclua suas tarefas do Falcão imediatamente — cada ponto de energia gasto converte-se diretamente na pontuação da Batalha de Sobrevivência.
 - **Recompensas compostas:** Gastar energia durante esta fase aumenta simultaneamente o nível do seu Guardião Raven, cultiva baús de epígrafe e limpa baús da Batalha de Sobrevivência.
 
@@ -83,7 +83,7 @@ Um marco de alta eficiência que se completa exatamente com **30 Bilhetes de Rec
 
 | Recurso / Ação | Batalha de Sobrevivência | Duelo de Alianças | Estratégia Ideal |
 |---|---|---|---|
-| **Energia (Stamina) & Raven** | Pontos por **gastar energia** em missões Raven & Frutas Raven | Fase 1 (Segunda — Aprimorar Raven) | Guarde poções de stamina & Frutas Raven para segunda-feira. Gaste energia em tarefas do Falcão durante a fase Raven de 4 horas — ganhe pontos duplos para ambos os eventos! |
+| **Energia (Stamina) & Raven** | Pontos por **gastar energia** em missões Raven & Frutas Raven | Fase 1 (Segunda — Aprimorar Raven) | Gaste energia em tarefas do Falcão durante a fase Raven de 4 horas — pontos duplos! Energia vinda da regeneração, das duas recargas gratuitas diárias e de compras com diamantes (2×150, depois 2×250); guarde as poções para a Caça aos Ladrões. Frutas Raven só na segunda. |
 | **Pesquisa** | Marco de Distintivos | Fase 3 (Quarta) | Guarde pergaminhos para quarta-feira; limpe a Batalha de Sobrevivência usando nós de tecnologia sem pergaminhos. |
 | **Bilhetes de Recrutamento** | Marco de 30 bilhetes | Fase 4 (Quinta) | Gaste exatamente 30 bilhetes se o marco estiver ativo; direcione os bilhetes restantes para quinta-feira. |
 | **Acelerações de Treinamento** | Marco de Treinamento | Fase 5 (Sexta) | Coloque recrutamento na fila e use acelerações na sexta-feira durante as fases correspondentes de "Treinar Soldados". |
@@ -102,7 +102,7 @@ Um marco de alta eficiência que se completa exatamente com **30 Bilhetes de Rec
 1. Audite a rotação de missões exclusiva do seu servidor toda segunda-feira de manhã.
 2. Divida os recursos entre os pré-requisitos do Duelo de Alianças e os limites da Batalha de Sobrevivência.
 3. **Gaste energia em missões Raven** estritamente durante a fase Raven ativa de 4 horas: os pontos são concedidos diretamente pelo gasto de stamina!
-4. Guarde poções de stamina e Frutas Raven para segunda-feira para sincronizar o gasto de energia com a Fase 1 do Duelo de Alianças.
+4. Sincronize o gasto de energia com a Fase 1 do Duelo de Alianças (segunda) — mas não gaste poções de stamina: guarde-as para eventos como a Caça aos Ladrões.
 5. Gaste acelerações e recursos de construção estritamente dentro da fase ativa de 4 horas correspondente.
 6. Coloque o treinamento de soldados na fila **estritamente após o início da fase de treinamento** (os pontos são concedidos ao colocar na fila!).
 7. Treine o nível mais alto desbloqueado (T7–T10) ou promova tropas existentes.

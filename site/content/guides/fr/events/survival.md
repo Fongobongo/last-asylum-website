@@ -26,7 +26,7 @@ Les Badges de compétence sont le goulot d'étranglement permanent pour tous les
 | **Entraîner des soldats** | Mettre en file d'attente des recrues au camp d'entraînement et lancer la promotion d'unités existantes vers des niveaux supérieurs (points attribués dès la mise en file d'attente !). |
 | **Rechercher des technologies** | Finaliser les technologies du Laboratoire, augmenter la Puissance scientifique, brûler des minutes d'accélération. |
 | **Construire le territoire** | Terminer des structures, élever le niveau du Sanctuaire, augmenter la Puissance de construction. |
-| **Améliorer les héros** | Faire monter les héros en niveau (Antitoxine), améliorer les compétences (Badges de compétence) et l'ascension par étoiles (Éclats Omni). |
+| **Améliorer les héros** | Invocations de héros (tickets) et montée en niveau avec de l'Antitoxine. Les améliorations de compétences et d'étoiles ne donnent AUCUN point. |
 
 ---
 
@@ -65,7 +65,7 @@ Règles tactiques critiques :
 > [!IMPORTANT] Les points sont attribués pour l'acte de dépenser de l'énergie !
 > Pendant les missions du Faucon (Tour du Faucon), les points de Bataille de survie sont attribués **directement pour avoir consommé de l'énergie (endurance)** afin d'éliminer des cibles ! Plus vous brûlez d'énergie en accomplissant des tâches du Faucon pendant la phase active, plus vite vous débloquerez les coffres de palier maximum.
 
-- **Conservez l'énergie et les Fruits Raven pour la phase Raven :** Évitez de brûler des potions d'endurance ou des Fruits Raven pendant les jours creux ou les phases non pertinentes.
+- **Conservez les potions d'endurance pour des événements comme la Chasse aux voleurs :** Pour la phase Raven, utilisez plutôt la régénération naturelle, les deux recharges d'énergie gratuites quotidiennes et les achats d'énergie en diamants (2× 150, puis 2× 250), ou un mélange. Fruits Raven uniquement pour le lundi.
 - **Brûlez l'énergie sur les missions Raven :** Une fois le bloc de mission Raven en ligne, accomplissez immédiatement vos tâches du Faucon — chaque point d'énergie dépensé se convertit directement en score de Bataille de survie.
 - **Récompenses cumulées :** Dépenser de l'énergie pendant cette phase fait monter simultanément votre Gardien Raven, cultive des coffres d'épigraphe et vide les coffres de Bataille de survie.
 
@@ -83,7 +83,7 @@ Un palier à haute efficacité se débloque pour exactement **30 Tickets de recr
 
 | Ressource / Action | Bataille de survie | Duel d'alliance | Stratégie optimale |
 |---|---|---|---|
-| **Énergie (Endurance) & Raven** | Points pour **dépenser de l'énergie** sur les missions Raven & Fruits Raven | Phase 1 (Lundi — Améliorer Raven) | Mettez en banque les potions d'endurance & Fruits Raven pour le lundi. Brûlez l'énergie sur les tâches du Faucon pendant la phase Raven de 4 heures — cumulez les points pour les deux événements ! |
+| **Énergie (Endurance) & Raven** | Points pour **dépenser de l'énergie** sur les missions Raven & Fruits Raven | Phase 1 (Lundi — Améliorer Raven) | Brûlez l'énergie sur les tâches du Faucon pendant la phase Raven de 4 heures — cumulez les points ! Énergie issue de la régénération, des deux recharges quotidiennes gratuites et d'achats en diamants (2×150, puis 2×250) ; gardez les potions pour la Chasse aux voleurs. Fruits Raven uniquement le lundi. |
 | **Recherche** | Palier de Badges | Phase 3 (Mercredi) | Mettez en banque les parchemins pour le mercredi ; videz la Bataille de survie en utilisant des nœuds technologiques sans parchemin. |
 | **Tickets de recrutement** | Palier de 30 tickets | Phase 4 (Jeudi) | Dépensez exactement 30 tickets si le palier est actif ; canalisez les tickets restants vers le jeudi. |
 | **Accélérations d'entraînement** | Palier d'entraînement | Phase 5 (Vendredi) | Mettez en file d'attente le recrutement et utilisez les accélérations le vendredi pendant les phases correspondantes "Entraîner des soldats". |
@@ -102,7 +102,7 @@ Un palier à haute efficacité se débloque pour exactement **30 Tickets de recr
 1. Vérifiez la rotation unique des missions de votre serveur chaque lundi matin.
 2. Répartissez les ressources entre les prérequis du Duel d'alliance et les seuils de la Bataille de survie.
 3. **Dépensez de l'énergie sur les missions Raven** strictement pendant la phase Raven active de 4 heures : les points sont attribués directement pour la dépense d'endurance !
-4. Mettez en banque les potions d'endurance et les Fruits Raven pour le lundi afin de synchroniser la dépense d'énergie avec la Phase 1 du Duel d'alliance.
+4. Synchronisez la dépense d'énergie avec la Phase 1 du Duel d'alliance (lundi) — mais ne brûlez pas de potions d'endurance : gardez-les pour des événements comme la Chasse aux voleurs.
 5. Dépensez les accélérations et les ressources de construction strictement pendant la phase active de 4 heures correspondante.
 6. Mettez en file d'attente l'entraînement des soldats **strictement après le début de la phase d'entraînement** (les points sont attribués lors de la mise en file d'attente !).
 7. Entraînez le niveau débloqué le plus élevé (T7–T10) ou promouvez les troupes existantes.

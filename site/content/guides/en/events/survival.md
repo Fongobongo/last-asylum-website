@@ -26,7 +26,7 @@ Skill Badges are the permanent bottleneck across all hero skill trees. This guid
 | **Train Soldiers** | Queueing recruits at the training grounds and starting promotions of existing units to higher tiers (points awarded upon queueing!). |
 | **Research Tech** | Finalizing Laboratory technologies, increasing scientific Might, burning speedup minutes. |
 | **Build Territory** | Completing structures, elevating Sanctuary level, increasing construction Might. |
-| **Enhance Heroes** | Leveling heroes (Antitoxin), upgrading skills (Skill Badges), and star ascension (Omni Shards). |
+| **Enhance Heroes** | Hero summons (Recruit Tickets) and leveling heroes with Antitoxin. Skill and star upgrades award NO points. |
 
 ---
 
@@ -80,7 +80,7 @@ During the 4-hour Technology Research block, use the following optimization:
 > During Falcon Tower missions (training the Raven), Survival Battle points are awarded **directly for consuming energy (stamina)** to purge targets! 
 
 * **The Ironclad Rule:** **NEVER burn Raven Fruits during Survival Battle!** Save all Raven Fruits for Monday (Alliance Duel Phase 1).
-* **How to Clear the Phase:** Clear the Raven phase 100% **purely by hunting monsters, infected, and Elite Blight lairs using natural stamina and energy potions**. This secures maximum Skill Badges without wasting precious fruit stockpiles.
+* **How to Clear the Phase:** Clear the Raven phase 100% **via natural regen, the two free daily energy refills, and diamond energy purchases (first 2 × 150, next 2 × 250)** — or a combination. Save energy potions for events like Thief Hunt. This secures maximum Skill Badges without wasting precious fruit stockpiles.
 
 ---
 
@@ -95,7 +95,7 @@ A crucial recommendation for all F2P and low-spender commanders:
 * **The F2P "Golden Trio" of Easy Phases:** Do not try to complete every single 4-hour phase. To consistently claim your **60,000 free Skill Badges** and UR Omni Shards every week, focus on the three easiest, low-cost phases:
   1. **Soldier Training** (via tiered training grounds and quick T1 → T7 promotions).
   2. **Raven Upgrades** (free via stamina and monster hunting).
-  3. **Hero Enhancement** (micro-upgrades to hero levels and skills WITHOUT burning your stockpiled antitoxin).
+  3. **Hero Enhancement** (level one hero with Antitoxin exactly up to the phase threshold, ≈20M; if short on antitoxin, combine with summons or clear via 30 Recruit Tickets alone).
 
 ---
 
@@ -111,7 +111,7 @@ A standout high-efficiency milestone clears for exactly **30 Recruitment Tickets
 
 | Resource / Action | Survival Battle | Alliance Duel | Optimal Strategy |
 |---|---|---|---|
-| **Energy (Stamina) & Raven** | Points for **spending energy** on Raven missions | Phase 1 (Monday — Enhance Raven) | Bank stamina potions for Monday. Burn energy during the 4-hour Raven phase — double dip points for both events! Hold Raven Fruits for Monday. |
+| **Energy (Stamina) & Raven** | Points for **spending energy** on Raven missions | Phase 1 (Monday — Enhance Raven) | Burn energy during the 4-hour Raven phase — double dip points for both events! Get the energy from regen, the two free daily refills and diamond buys (2×150, then 2×250); bank energy potions for events like Thief Hunt. Hold Raven Fruits for Monday. |
 | **Research** | Badge milestone | Phase 3 (Wednesday) | Bank scrolls for Wednesday; clear Survival Battle using micro-techs and alliance help. |
 | **Recruit Tickets** | 30-ticket milestone | Phase 4 (Thursday) | Spend exactly 30 tickets if milestone active; funnel remaining tickets to Thursday. |
 | **Training Speedups** | Training milestone | Phase 5 (Friday) | Queue recruitment via Promotion on Friday during matching "Train Soldiers" phases. |
@@ -130,7 +130,7 @@ The complete video breakdown by creator **KorpezGaming** is embedded below and a
 * `01:20` — **Tiered Training Grounds & Promotion Trick:** Why keeping a low-tier training ground for T1 and a mid-tier one for T7 clears milestone chests in hours.
 * `02:25` — **Research Block & Micro-Techs:** How to finish the final 200–400 points using 5-minute techs and alliance help clicks with 0 speedups burned.
 * `03:20` — **Raven Phase (Stamina Only):** Why Raven Fruits must never be spent here, and how monster kills clear the stage.
-* `04:20` — **Hero Phase:** Micro-leveling heroes while preserving antitoxin for Thursday.
+* `04:20` — **Hero Phase:** Level one hero with antitoxin exactly to the milestone threshold (~20M); alternative — 30 recruit tickets.
 * `05:10` — **Why You Should Skip the Building Phase:** Preserving construction speedups for the King Buff on Tuesday.
 * `06:20` — **Weekly Summary & Chest Sweep.**
 
@@ -145,8 +145,8 @@ The complete video breakdown by creator **KorpezGaming** is embedded below and a
 
 1. Audit your server's unique mission rotation every Monday morning.
 2. Partition resources between Alliance Duel prerequisites and Survival Battle thresholds.
-3. **Spend energy on Raven missions** strictly during the active 4-hour Raven phase: points are awarded directly for stamina expenditure! Never spend Raven Fruits here!
-4. Bank stamina potions for Monday to synchronize energy spending with Alliance Duel Phase 1.
+3. **Spend energy on Falcon Tower missions** strictly during the active 4-hour Raven phase: points are awarded directly for stamina expenditure! Never spend Raven Fruits here — and keep energy potions for events like Thief Hunt; use regen, the two free daily refills, and diamond buys (2×150, then 2×250) instead.
+4. Synchronize energy spending with Alliance Duel Phase 1 (Monday) — but don't burn energy potions: save them for events like Thief Hunt.
 5. Skip the territory building phase unless you have excess speedups or it coincides with Tuesday.
 6. Queue soldier training **strictly after the training phase has started** (points are awarded upon queueing!).
 7. Use the Promotion trick (T1 → T7) for rapid, ultra-cheap milestone completions.

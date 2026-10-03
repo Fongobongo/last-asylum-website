@@ -26,7 +26,7 @@ Las Insignias de Habilidad son el cuello de botella permanente en todos los árb
 | **Entrenar Soldados** | Poner reclutas en cola en los cuarteles y comenzar promociones de unidades existentes a niveles superiores (¡los puntos se otorgan al poner en cola!). |
 | **Investigar Tecnología** | Finalizar tecnologías de laboratorio, aumentar el Poder científico, gastar minutos de aceleración. |
 | **Construir Territorio** | Completar estructuras, elevar el nivel del Santuario, aumentar el Poder de construcción. |
-| **Mejorar Héroes** | Subir de nivel a los héroes (Antitoxina), mejorar habilidades (Insignias de Habilidad) y ascensión de estrellas (Fragmentos Omni). |
+| **Mejorar Héroes** | Invocación de héroes (Boletos de reclutamiento) y subir de nivel con Antitoxina. Las mejoras de habilidades y estrellas NO dan puntos. |
 
 ---
 
@@ -65,7 +65,7 @@ Reglas tácticas críticas:
 > [!IMPORTANT] ¡Los puntos se otorgan por el acto de gastar energía!
 > Durante las misiones del Halcón (Torre del Halcón), los puntos de la Batalla de Supervivencia se otorgan **directamente por consumir energía (resistencia)** para eliminar objetivos. Cuanta más energía gastes completando las tareas del Halcón durante la fase activa, más rápido desbloquearás los cofres de hitos máximos.
 
-- **Conserva energía y Frutas de Raven para la fase de Raven:** Evita gastar pociones de resistencia o Frutas de Raven durante los días libres o fases irrelevantes.
+- **Conserva las pociones de resistencia para eventos como la Caza de Ladrones:** Para la fase de Raven usa la regeneración natural, las dos recargas gratuitas diarias de energía y compras de energía con diamantes (2× 150, luego 2× 250), o una combinación. Las Frutas de Raven solo para el lunes.
 - **Gasta energía en misiones de Raven:** Una vez que el bloque de misiones de Raven esté activo, completa tus tareas del Halcón inmediatamente: cada punto de energía gastado se convierte directamente en puntuación de la Batalla de Supervivencia.
 - **Recompensas combinadas:** Gastar energía durante esta fase sube de nivel simultáneamente a tu Guardián de Raven, cultiva cofres de epígrafes y limpia los cofres de la Batalla de Supervivencia.
 
@@ -83,7 +83,7 @@ Un hito destacado de alta eficiencia se completa exactamente con **30 Boletos de
 
 | Recurso / Acción | Batalla de Supervivencia | Duelo de Alianzas | Estrategia óptima |
 |---|---|---|---|
-| **Energía (Resistencia) y Raven** | Puntos por **gastar energía** en misiones de Raven y Frutas de Raven | Fase 1 (Lunes — Mejorar Raven) | Guarda pociones de resistencia y Frutas de Raven para el lunes. Gasta energía en tareas del Halcón durante la fase de Raven de 4 horas: ¡doble beneficio de puntos para ambos eventos! |
+| **Energía (Resistencia) y Raven** | Puntos por **gastar energía** en misiones de Raven y Frutas de Raven | Fase 1 (Lunes — Mejorar Raven) | Gasta energía en tareas del Halcón durante la fase de Raven de 4 horas: ¡doble beneficio! Obtén la energía de la regeneración, las dos recargas diarias gratuitas y compras con diamantes (2×150, luego 2×250); guarda las pociones para la Caza de Ladrones. Frutas de Raven solo el lunes. |
 | **Investigación** | Hito de Insignias | Fase 3 (Miércoles) | Guarda pergaminos para el miércoles; completa la Batalla de Supervivencia usando nodos tecnológicos sin pergaminos. |
 | **Boletos de Reclutamiento** | Hito de 30 boletos | Fase 4 (Jueves) | Gasta exactamente 30 boletos si el hito está activo; canaliza los boletos restantes para el jueves. |
 | **Aceleraciones de entrenamiento** | Hito de entrenamiento | Fase 5 (Viernes) | Pon en cola el reclutamiento y usa aceleraciones el viernes durante las fases coincidentes de "Entrenar Soldados". |
@@ -102,7 +102,7 @@ Un hito destacado de alta eficiencia se completa exactamente con **30 Boletos de
 1. Audita la rotación de misiones única de tu servidor cada lunes por la mañana.
 2. Divide los recursos entre los requisitos previos del Duelo de Alianzas y los umbrales de la Batalla de Supervivencia.
 3. **Gasta energía en misiones de Raven** estrictamente durante la fase activa de Raven de 4 horas: ¡los puntos se otorgan directamente por el gasto de resistencia!
-4. Guarda pociones de resistencia y Frutas de Raven para el lunes para sincronizar el gasto de energía con la Fase 1 del Duelo de Alianzas.
+4. Sincroniza el gasto de energía con la Fase 1 del Duelo de Alianzas (lunes), pero no gastes pociones de resistencia: guárdalas para eventos como la Caza de Ladrones.
 5. Gasta aceleraciones y recursos de construcción estrictamente dentro de la fase activa de 4 horas correspondiente.
 6. Pon en cola el entrenamiento de soldados **estrictamente después de que haya comenzado la fase de entrenamiento** (¡los puntos se otorgan al poner en cola!).
 7. Entrena el nivel desbloqueado más alto (T7–T10) o promociona tropas existentes.

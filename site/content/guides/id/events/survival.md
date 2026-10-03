@@ -26,7 +26,7 @@ Lencana Skill adalah hambatan permanen di semua pohon keterampilan pahlawan. Pan
 | **Latih Prajurit** | Mengantre rekrutmen di lapangan latih dan memulai promosi unit yang ada ke tingkat yang lebih tinggi (poin diberikan saat mengantre!). |
 | **Riset Teknologi** | Menyelesaikan teknologi Laboratorium, meningkatkan Might ilmiah, menggunakan menit percepatan (speedup). |
 | **Bangun Wilayah** | Menyelesaikan struktur, meningkatkan level Kuil, meningkatkan Might konstruksi. |
-| **Tingkatkan Pahlawan** | Menaikkan level pahlawan (Antitoxin), meningkatkan skill (Lencana Skill), dan kenaikan bintang (Omni Shard). |
+| **Tingkatkan Pahlawan** | Pemanggilan pahlawan (Tiket Rekrutmen) dan menaikkan level dengan Antitoxin. Upgrade skill dan bintang TIDAK memberikan poin. |
 
 ---
 
@@ -65,7 +65,7 @@ Aturan taktis penting:
 > [!IMPORTANT] Poin diberikan untuk tindakan menggunakan energi!
 > Selama misi Falcon (Menara Falcon), poin Pertarungan Bertahan Hidup diberikan **langsung karena mengonsumsi energi (stamina)** untuk membasmi target! Semakin banyak energi yang Anda bakar untuk menyelesaikan tugas Falcon selama fase aktif, semakin cepat Anda membuka peti pencapaian maksimal.
 
-- **Hemat energi dan Buah Raven untuk fase Raven:** Hindari membakar ramuan stamina atau Buah Raven selama hari libur atau fase yang tidak relevan.
+- **Simpan ramuan stamina untuk event seperti Perburuan Pencuri:** Untuk fase Raven gunakan regenerasi alami, dua isi ulang energi gratis per hari, dan pembelian energi dengan berlian (2× 150, lalu 2× 250), atau kombinasi. Buah Raven hanya untuk hari Senin.
 - **Bakar energi pada misi Raven:** Begitu blok misi Raven aktif, segera selesaikan tugas Falcon Anda — setiap poin energi yang dihabiskan langsung dikonversi menjadi skor Pertarungan Bertahan Hidup.
 - **Gabungkan hadiah:** Menggunakan energi selama fase ini secara bersamaan meningkatkan level Raven Guardian Anda, menanam peti epigraph, dan membersihkan peti Pertarungan Bertahan Hidup.
 
@@ -83,7 +83,7 @@ Pencapaian efisiensi tinggi yang menonjol dapat diselesaikan tepat dengan **30 T
 
 | Sumber Daya / Tindakan | Pertarungan Bertahan Hidup | Pertarungan Guild | Strategi Optimal |
 |---|---|---|---|
-| **Energi (Stamina) & Raven** | Poin untuk **menggunakan energi** pada misi Raven & Buah Raven | Fase 1 (Senin — Tingkatkan Raven) | Simpan ramuan stamina & Buah Raven untuk hari Senin. Bakar energi pada tugas Falcon selama fase Raven 4 jam — dapatkan poin ganda untuk kedua event! |
+| **Energi (Stamina) & Raven** | Poin untuk **menggunakan energi** pada misi Raven & Buah Raven | Fase 1 (Senin — Tingkatkan Raven) | Bakar energi pada tugas Falcon selama fase Raven 4 jam — poin ganda! Energi dari regenerasi, dua isi ulang gratis harian, dan pembelian berlian (2×150, lalu 2×250); simpan ramuan stamina untuk Perburuan Pencuri. Buah Raven hanya Senin. |
 | **Riset** | Pencapaian Badge | Fase 3 (Rabu) | Simpan scroll untuk hari Rabu; selesaikan Pertarungan Bertahan Hidup menggunakan node teknologi tanpa scroll. |
 | **Tiket Rekrutmen** | Pencapaian 30 tiket | Fase 4 (Kamis) | Gunakan tepat 30 tiket jika pencapaian aktif; alihkan sisa tiket ke hari Kamis. |
 | **Percepatan Pelatihan** | Pencapaian Pelatihan | Fase 5 (Jumat) | Antre rekrutmen dan gunakan percepatan pada hari Jumat selama fase "Latih Prajurit" yang cocok. |
@@ -102,7 +102,7 @@ Pencapaian efisiensi tinggi yang menonjol dapat diselesaikan tepat dengan **30 T
 1. Periksa rotasi misi unik server Anda setiap Senin pagi.
 2. Bagi sumber daya antara prasyarat Pertarungan Guild dan ambang batas Pertarungan Bertahan Hidup.
 3. **Gunakan energi pada misi Raven** hanya selama fase Raven 4 jam yang aktif: poin diberikan langsung untuk pengeluaran stamina!
-4. Simpan ramuan stamina dan Buah Raven untuk hari Senin guna menyinkronkan penggunaan energi dengan Fase 1 Pertarungan Guild.
+4. Sinkronkan penggunaan energi dengan Fase 1 Pertarungan Guild (Senin) — tapi jangan bakar ramuan stamina: simpan untuk event seperti Perburuan Pencuri.
 5. Gunakan percepatan dan sumber daya konstruksi hanya dalam fase 4 jam aktif yang cocok.
 6. Antre pelatihan prajurit **hanya setelah fase pelatihan dimulai** (poin diberikan saat mengantre!).
 7. Latih tingkat tertinggi yang terbuka (T7–T10) atau promosikan pasukan yang ada.

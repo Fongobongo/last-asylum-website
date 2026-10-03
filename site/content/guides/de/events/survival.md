@@ -26,7 +26,7 @@ Fähigkeitsabzeichen sind der dauerhafte Engpass in allen Helden-Fähigkeitsbäu
 | **Soldaten trainieren** | Rekruten auf dem Trainingsgelände in die Warteschlange einreihen und Beförderungen bestehender Einheiten auf höhere Stufen starten (Punkte werden beim Einreihen vergeben!). |
 | **Technologie erforschen** | Abschluss von Labor-Technologien, Erhöhung der wissenschaftlichen Macht, Verbrauch von Beschleunigungsminuten. |
 | **Territorium ausbauen** | Fertigstellung von Gebäuden, Erhöhung des Zufluchts-Levels, Erhöhung der Konstruktionsmacht. |
-| **Helden verbessern** | Helden leveln (Antitoxin), Fähigkeiten verbessern (Fähigkeitsabzeichen) und Sternenaufstieg (Omni-Scherben). |
+| **Helden verbessern** | Helden beschwören (Rekrutierungstickets) und Helden mit Antitoxin leveln. Fähigkeiten-Upgrades und Sternenaufstieg geben KEINE Punkte. |
 
 ---
 
@@ -65,7 +65,7 @@ Kritische taktische Regeln:
 > [!IMPORTANT] Punkte werden für das Ausgeben von Energie vergeben!
 > Während der Falken-Missionen (Falkenturm) werden Überlebenskampf-Punkte **direkt für den Verbrauch von Energie (Ausdauer)** vergeben, um Ziele zu eliminieren! Je mehr Energie Sie beim Erledigen der Falken-Aufgaben während der aktiven Phase verbrauchen, desto schneller schalten Sie die maximalen Meilenstein-Truhen frei.
 
-- **Sparen Sie Energie und Rabenfrüchte für die Raben-Phase:** Vermeiden Sie es, Ausdauer-Tränke oder Rabenfrüchte an Tagen ohne entsprechende Phase oder in irrelevanten Phasen zu verbrauchen.
+- **Sparen Sie Ausdauer-Tränke für Events wie die Diebesjagd:** Für die Raben-Phase nutzen Sie stattdessen die natürliche Regeneration, die zwei kostenlosen täglichen Energie-Auffüllungen und Energiekäufe mit Diamanten (2× 150, dann 2× 250) — oder eine Kombination. Rabenfrüchte nur für Montag aufheben.
 - **Verbrauchen Sie Energie für Raben-Missionen:** Sobald der Raben-Missionsblock live geht, erledigen Sie sofort Ihre Falken-Aufgaben – jeder Punkt verbrauchter Energie wird direkt in Überlebenskampf-Punkte umgewandelt.
 - **Kombinierte Belohnungen:** Das Ausgeben von Energie während dieser Phase verbessert gleichzeitig Ihren Raben-Wächter, farmt Epigraph-Truhen und leert Überlebenskampf-Truhen.
 
@@ -83,7 +83,7 @@ Ein herausragender, hocheffizienter Meilenstein wird für genau **30 Rekrutierun
 
 | Ressource / Aktion | Überlebenskampf | Allianz-Duell | Optimale Strategie |
 |---|---|---|---|
-| **Energie (Ausdauer) & Raben** | Punkte für **Energieverbrauch** bei Raben-Missionen & Rabenfrüchten | Phase 1 (Montag — Rabe verbessern) | Sparen Sie Ausdauer-Tränke & Rabenfrüchte für Montag. Verbrauchen Sie Energie für Falken-Aufgaben während der 4-Stunden-Raben-Phase — doppelte Punkte für beide Events! |
+| **Energie (Ausdauer) & Raben** | Punkte für **Energieverbrauch** bei Raben-Missionen & Rabenfrüchten | Phase 1 (Montag — Rabe verbessern) | Verbrauchen Sie Energie für Falken-Aufgaben während der 4-Stunden-Raben-Phase — doppelte Punkte für beide Events! Energie aus Regeneration, zwei kostenlosen Tages-Auffüllungen und Diamantkäufen (2×150, dann 2×250); Ausdauer-Tränke für die Diebesjagd sparen. Rabenfrüchte nur für Montag. |
 | **Forschung** | Abzeichen-Meilenstein | Phase 3 (Mittwoch) | Sparen Sie Schriftrollen für Mittwoch; erledigen Sie den Überlebenskampf mit technologie-knoten ohne Schriftrollen. |
 | **Rekrutierungstickets** | 30-Ticket-Meilenstein | Phase 4 (Donnerstag) | Geben Sie genau 30 Tickets aus, wenn der Meilenstein aktiv ist; leiten Sie verbleibende Tickets auf Donnerstag um. |
 | **Trainingsbeschleuniger** | Trainings-Meilenstein | Phase 5 (Freitag) | Reihen Sie Rekrutierungen ein und nutzen Sie Beschleuniger am Freitag während der passenden "Soldaten trainieren"-Phasen. |
@@ -102,7 +102,7 @@ Ein herausragender, hocheffizienter Meilenstein wird für genau **30 Rekrutierun
 1. Überprüfen Sie jeden Montagmorgen die einzigartige Missionsrotation Ihres Servers.
 2. Teilen Sie Ressourcen zwischen den Voraussetzungen des Allianz-Duells und den Schwellenwerten des Überlebenskampfes auf.
 3. **Geben Sie Energie für Raben-Missionen** strikt während der aktiven 4-Stunden-Raben-Phase aus: Punkte werden direkt für den Ausdauerverbrauch vergeben!
-4. Sparen Sie Ausdauer-Tränke und Rabenfrüchte für Montag, um den Energieverbrauch mit Phase 1 des Allianz-Duells zu synchronisieren.
+4. Synchronisieren Sie den Energieverbrauch mit Phase 1 des Allianz-Duells (Montag) — aber verbrauchen Sie keine Ausdauer-Tränke: sparen Sie sie für Events wie die Diebesjagd.
 5. Geben Sie Beschleuniger und Konstruktionsressourcen strikt innerhalb der passenden aktiven 4-Stunden-Phase aus.
 6. Reihen Sie das Soldatentraining **strikt nach Beginn der Trainingsphase** ein (Punkte werden beim Einreihen vergeben!).
 7. Trainieren Sie die höchste freigeschaltete Stufe (T7–T10) oder befördern Sie bestehende Truppen.
