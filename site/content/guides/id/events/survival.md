@@ -7,7 +7,7 @@ videoTopic: survival
 type: event
 ---
 
-**Pertarungan Bertahan Hidup** (secara internal disebut `arms_race` dalam kode game) adalah event misi berulang utama di Last Asylum: Plague, yang menjadi fondasi finansial bagi komandan *free-to-play*: **pemain F2P yang rajin secara konsisten mendapatkan sekitar 60.000 Lencana Skill gratis setiap minggu**, beserta Stempel Bertahan Hidup (`arms_race_daily_point_item`).
+**Pertarungan Bertahan Hidup** adalah event misi berulang utama di Last Asylum: Plague, yang menjadi fondasi finansial bagi komandan *free-to-play*: **pemain F2P yang rajin secara konsisten mendapatkan sekitar 60.000 Lencana Skill gratis setiap minggu**, beserta Stempel Bertahan Hidup .
 
 Lencana Skill adalah hambatan permanen di semua pohon keterampilan pahlawan. Panduan ini menguraikan fase rotasi 4 jam, hadiah pencapaian (milestone), dan koordinasi yang mulus dengan fase Pertarungan Guild.
 

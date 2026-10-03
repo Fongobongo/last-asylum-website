@@ -7,7 +7,7 @@ videoTopic: survival
 type: event
 ---
 
-**Überlebenskampf** (intern `arms_race` im Spielcode) ist das wichtigste wiederkehrende Missions-Event in Last Asylum: Plague und dient als finanzielles Fundament für Free-to-Play-Kommandanten: **Fleißige F2P-Spieler erhalten jede Woche konstant etwa 60.000 kostenlose Fähigkeitsabzeichen**, zusammen mit Überlebenssiegeln (`arms_race_daily_point_item`).
+**Überlebenskampf** ist das wichtigste wiederkehrende Missions-Event in Last Asylum: Plague und dient als finanzielles Fundament für Free-to-Play-Kommandanten: **Fleißige F2P-Spieler erhalten jede Woche konstant etwa 60.000 kostenlose Fähigkeitsabzeichen**, zusammen mit Überlebenssiegeln .
 
 Fähigkeitsabzeichen sind der dauerhafte Engpass in allen Helden-Fähigkeitsbäumen. Dieser Leitfaden erläutert die 4-stündigen Rotationsphasen, Meilenstein-Belohnungen und die nahtlose Koordination mit den Phasen des Allianz-Duells.
 

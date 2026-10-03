@@ -7,7 +7,7 @@ videoTopic: survival
 type: event
 ---
 
-La **Bataille de survie** (appelée `arms_race` dans le code du jeu) est l'événement de mission récurrent principal dans Last Asylum: Plague, servant de pilier financier aux commandants jouant gratuitement (F2P) : **les joueurs F2P assidus obtiennent systématiquement environ 60 000 Badges de compétence gratuits chaque semaine**, ainsi que des Sceaux de survie (`arms_race_daily_point_item`).
+La **Bataille de survie** est l'événement de mission récurrent principal dans Last Asylum: Plague, servant de pilier financier aux commandants jouant gratuitement (F2P) : **les joueurs F2P assidus obtiennent systématiquement environ 60 000 Badges de compétence gratuits chaque semaine**, ainsi que des Sceaux de survie .
 
 Les Badges de compétence sont le goulot d'étranglement permanent pour tous les arbres de compétences des héros. Ce guide détaille les phases de rotation de 4 heures, les récompenses par palier et la coordination fluide avec les phases du Duel d'alliance.
 

@@ -7,7 +7,7 @@ videoTopic: survival
 type: event
 ---
 
-A **Batalha de Sobrevivência** (internamente `arms_race` no código do jogo) é o principal evento de missão recorrente em Last Asylum: Plague, servindo como a base financeira para comandantes que jogam de graça (F2P): **jogadores F2P dedicados obtêm consistentemente cerca de 60.000 Distintivos de Habilidade gratuitos toda semana**, além de Selos de Sobrevivência (`arms_race_daily_point_item`).
+A **Batalha de Sobrevivência** é o principal evento de missão recorrente em Last Asylum: Plague, servindo como a base financeira para comandantes que jogam de graça (F2P): **jogadores F2P dedicados obtêm consistentemente cerca de 60.000 Distintivos de Habilidade gratuitos toda semana**, além de Selos de Sobrevivência .
 
 Os Distintivos de Habilidade são o gargalo permanente em todas as árvores de habilidades dos heróis. Este guia detalha as fases de rotação de 4 horas, recompensas de marcos e a coordenação perfeita com as fases do Duelo de Alianças.
 

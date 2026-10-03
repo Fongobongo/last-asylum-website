@@ -7,7 +7,7 @@ videoTopic: survival
 type: event
 ---
 
-La **Batalla de Supervivencia** (internamente `arms_race` en el código del juego) es el principal evento de misiones recurrente en Last Asylum: Plague, sirviendo como la base financiera para los comandantes que juegan gratis (F2P): **los jugadores F2P diligentes obtienen constantemente alrededor de 60,000 Insignias de Habilidad gratis cada semana**, junto con Sellos de Supervivencia (`arms_race_daily_point_item`).
+La **Batalla de Supervivencia** es el principal evento de misiones recurrente en Last Asylum: Plague, sirviendo como la base financiera para los comandantes que juegan gratis (F2P): **los jugadores F2P diligentes obtienen constantemente alrededor de 60,000 Insignias de Habilidad gratis cada semana**, junto con Sellos de Supervivencia .
 
 Las Insignias de Habilidad son el cuello de botella permanente en todos los árboles de habilidades de los héroes. Esta guía detalla las fases rotativas de 4 horas, las recompensas de hitos y la coordinación fluida con las fases del Duelo de Alianzas.
 

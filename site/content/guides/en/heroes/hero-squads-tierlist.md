@@ -596,3 +596,52 @@ The third queue costs the most in time: growing the Sanctuary to level 20 takes 
 
 
 ---
+
+---
+
+## Meta Squads by Faction & Hybrids {#meta-packs}
+
+Proven team compositions: a hero tier list without squads is nearly useless — wins go to teams built around roles, factions and tasks.
+
+### Rangers 5/5 — the strong PvP faction
+
+**Squad:** Shadow, Louis (front) + Red Lady, Bell, Cynthia (backline). +20% bonus.
+
+Red Lady pressures dangerous targets, Cynthia adds damage, Bell supports the team, Shadow and Louis hold the front and counter energy threats. Pros: heavy PvP pressure, tempo control, full bonus. Cons: expensive and late-blooming — not the easiest path for a beginner.
+
+### Warlocks 5/5 — a late-game system
+
+**Squad:** Ulfrid, Billy (front) + Annie, Nicole, Jester (backline). +20% bonus.
+
+Ulfrid and Billy hold the front, Nicole heals and buffs Warlocks, Annie plays through Burning and energy damage, Jester finishes weakened enemies. Pros: strong internal synergy. Cons: Nicole is late, Billy isn't early either — without Nicole the squad loses much of its purpose. Not recommended as a beginner's first goal.
+
+### Hybrid 4+1: when the fifth slot beats the bonus
+
+The 4+1 format gives +15% and works when one off-faction hero brings more than a weak same-faction fifth.
+
+**Warriors 4 + Cynthia:** Arthur, Daskal, Harper, Marlena, Cynthia. One of the most reliable squads. If your Cynthia outgears Zoya or out-damages her in the current meta, losing 5% bonus pays off.
+
+**Warriors 4 + Red Lady:** Arthur, Daskal, Harper, Marlena, Red Lady. For PvP pressure on high-ATK targets, especially against teams whose damage comes from the backline. Downside: Red Lady gets no Warrior buffs, so she must be well-developed.
+
+### Hybrid 3+2 — the most practical format
+
++10% to HP/ATK/DEF, but allows strong hybrids.
+
+**Aggressive energy squad:** Arthur, Daskal, Marlena + Cynthia, Red Lady (3 Warriors + 2 Rangers). Two tanks hold the front, three heroes pour energy damage; no classic support, but heavy burst. Great in PvP and fast fights; weaker in long fights if the front collapses.
+
+**Control PvP squad:** Arthur, Daskal, Marlena + Shadow, Cynthia (3 Warriors + 2 Rangers). Shadow adds defense shred and anti-energy, Marlena and Cynthia exploit the window. Good against tanky teams that survive the first burst; less focused pressure than the Red Lady version.
+
+**Transitional Warlock squad:** Ulfrid, Nicole, Annie + Arthur, Marlena (3 Warlocks + 2 Warriors). Ulfrid fronts, Nicole heals, Annie works through Burning, Arthur is the second frontline, Marlena deals universal damage. Good if you've started Warlocks but 5/5 is far away. Nicole shines more with more Warlocks.
+
+### Free-form execute hybrid
+
+**Arthur + Louis + Marlena + Jester + Red Lady.** Arthur and Louis hold the front, Marlena deals main damage, Red Lady pressures enemy carries, Jester executes low-HP targets. Works if every hero is well-built, but a poor base path for F2P: weaker systemic bonuses, higher reliance on individual investment. Rule: a hybrid is good when it solves a specific task; "deployed all my favorite URs" is not a strategy.
+
+### Choosing a direction: quick summary
+
+- **Safest path:** Warriors 5/5 — Arthur + Daskal + Harper + Marlena + Zoya. Two tanks, a support, two damage dealers, full +20% bonus. Not flashy, but very stable.
+- **Aggressive PvP:** 3+2 energy — Arthur + Daskal + Marlena + Cynthia + Red Lady.
+- **Control PvP:** Arthur + Daskal + Marlena + Shadow + Cynthia.
+- **Late-game goal:** Warlocks 5/5 — Ulfrid + Billy + Nicole + Annie + Jester.
+
+A full 5/5 bonus isn't always stronger than 4+1 or 3+2 if you field a weak or unfitting hero for it.

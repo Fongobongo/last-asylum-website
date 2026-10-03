@@ -7,7 +7,7 @@ videoTopic: survival
 type: event
 ---
 
-**Survival Battle** (internally `arms_race` in game code) is the premier recurring mission event in Last Asylum: Plague, serving as the financial bedrock for free-to-play commanders: **diligent F2P players consistently pull roughly 60,000 free Skill Badges every single week**, along with Survival Seals (`arms_race_daily_point_item`).
+**Survival Battle** is the premier recurring mission event in Last Asylum: Plague, serving as the financial bedrock for free-to-play commanders: **diligent F2P players consistently pull roughly 60,000 free Skill Badges every single week**, along with Survival Seals.
 
 Skill Badges are the permanent bottleneck across all hero skill trees. This guide breaks down the 4-hour rotating phases, milestone rewards, and seamless coordination with Alliance Duel phases.
 
@@ -47,8 +47,7 @@ The central operational rule: **never spend high-value resources outside the act
 > 
 > **Points are NOT awarded when the timer finishes, and NOT awarded when collecting troops from barracks!**
 
-### The Tiered Barracks Setup (KorpezGaming Secret):
-In his video guide, Korpez reveals the primary technique for clearing soldier training milestones with minimal resources:
+### The Tiered Barracks Setup:
 1. **Tiered Barracks Structure:** Maintain one low-level barracks (for churning out cheap T1 units), one mid-level barracks (T7), and your highest-tier barracks.
 2. **Short 2-Hour Batches via Promotion:** Instead of burning 12–24 hours of raw training from scratch, train batches of cheap T1 units during downtime.
 3. **Cheap Promotion in Active Windows:** When the 4-hour "Train Soldiers" phase goes live, trigger **Promotion (T1 → T7)** (which only takes around 2 hours).
@@ -67,7 +66,7 @@ In his video guide, Korpez reveals the primary technique for clearing soldier tr
 > [!TIP]
 > **The "Long Research" Trick:** symmetrically to construction — start a **long research (hours or days)** timed so its timer **finishes inside the 4-hour "Technology" phase**. Completing a tech during the active phase pays points for its entire power gain at once. Plan the start in advance and don't tap Finish before the phase begins!
 
-During the 4-hour Technology Research block, KorpezGaming recommends the following optimization:
+During the 4-hour Technology Research block, use the following optimization:
 * **The Micro-Tech Trick:** Keep 2–3 low-level, basic technologies unresearched in your Lab with base research times of **5–15 minutes** (e.g. initial gathering or defense nodes).
 * If you are 200–400 points short of the Purple or Gold milestone chest, do not burn valuable multi-hour speedups. Simply launch a quick micro-tech and tap **"Alliance Help"**.
 * Alliance member taps will finish the research instantly to **0 seconds with ZERO speedups consumed**, unlocking the milestone chest for free!
@@ -80,17 +79,17 @@ During the 4-hour Technology Research block, KorpezGaming recommends the followi
 > [!IMPORTANT] Points are awarded for the act of spending energy!
 > During Raven radar missions, Survival Battle points are awarded **directly for consuming energy (stamina)** to purge targets! 
 
-* **The Ironclad Korpez Rule:** **NEVER burn Raven Fruits during Survival Battle!** Save all Raven Fruits for Monday (Alliance Duel Phase 1).
+* **The Ironclad Rule:** **NEVER burn Raven Fruits during Survival Battle!** Save all Raven Fruits for Monday (Alliance Duel Phase 1).
 * **How to Clear the Phase:** Clear the Raven phase 100% **purely by hunting monsters, infected, and Elite Blight lairs using natural stamina and energy potions**. This secures maximum Skill Badges without wasting precious fruit stockpiles.
 
 ---
 
-## ⚠️ KorpezGaming Warning: Why You Should SKIP the Building Phase {#skip-building}
+## ⚠️ Why You Should SKIP the Building Phase {#skip-building}
 
 > [!TIP]
 > **The "Frozen Hammer" Trick:** you can (and should) **start construction during the day** — but never **tap the hammer to complete a building** until the 4-hour "Territory Development / Build" phase is open. Finishing a building inside the phase pays points for its full cost at once — stack several nearly-finished structures and click them in a burst during the window.
 
-In his video guide, Korpez makes a crucial recommendation for all F2P and low-spender commanders:
+A crucial recommendation for all F2P and low-spender commanders:
 * **The "Build Territory" Trap:** Clearing the Gold Chest in the 4-hour construction phase burns an immense quantity of construction speedups.
 * **Why You Should Skip It:** Those construction speedups are infinitely more valuable on **Tuesday (Alliance Duel Phase 2)** or **Day 2 of Supreme Healer**, where the King Buff (-60% time) can be stacked to unlock major weekly chests!
 * **The F2P "Golden Trio" of Easy Phases:** Do not try to complete every single 4-hour phase. To consistently claim your **60,000 free Skill Badges** and UR Omni Shards every week, focus on the three easiest, low-cost phases:
@@ -161,14 +160,12 @@ Verified values from game client data (v1.0.87), source: wiki-last-asylum.com. B
 | Action | Points |
 |---|---|
 | Recruit heroes once | 400 |
-| Buy a pack containing Diamonds [1 Diamond] | 30 |
 | For every 1950 Antitoxin consumed | 1 |
 
 **Build Territory**
 
 | Action | Points |
 |---|---|
-| Buy a pack containing Diamonds [1 Diamond] | 30 |
 | Use 1m Construction Speedup | 10 |
 | Increase 1 Building Might | 1 |
 
@@ -176,14 +173,12 @@ Verified values from game client data (v1.0.87), source: wiki-last-asylum.com. B
 
 | Action | Points |
 |---|---|
-| Buy a pack containing Diamonds [1 Diamond] | 30 |
 | Use 1m Training Boost | 10 |
 
 **Research Technology**
 
 | Action | Points |
 |---|---|
-| Buy a pack containing Diamonds [1 Diamond] | 30 |
 | Use 1m Research Speedup | 10 |
 | Increase 1 Tech Might | 1 |
 
@@ -192,7 +187,6 @@ Verified values from game client data (v1.0.87), source: wiki-last-asylum.com. B
 | Action | Points |
 |---|---|
 | Consume 1 Stamina | 100 |
-| Buy a pack containing Diamonds [1 Diamond] | 30 |
 | For every 10 Raven Fruits consumed | 1 |
 
 **Rank rewards**
