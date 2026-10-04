@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import ShopPage from '../../components/ShopPage.astro';
+import SupportContact from '../../components/SupportContact.astro';
 import type { Lang } from '../../i18n/utils';
 
 const lang: Lang = 'ja';
@@ -8,4 +9,5 @@ const lang: Lang = 'ja';
 
 <Base lang={lang} path="/ja/support/" title="ゲームショップ＆チャージ | Last Asylum" description="公式提携パートナーLDShopによるLast Asylum: Plague公式ショップ＆ダイヤチャージ。UID即時チャージ、限定割引、コミュニティ支援。">
   <ShopPage lang={lang} />
+  <SupportContact lang={lang} />
 </Base>

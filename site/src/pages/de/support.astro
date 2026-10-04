@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import ShopPage from '../../components/ShopPage.astro';
+import SupportContact from '../../components/SupportContact.astro';
 import type { Lang } from '../../i18n/utils';
 
 const lang: Lang = 'de';
@@ -8,4 +9,5 @@ const lang: Lang = 'de';
 
 <Base lang={lang} path="/de/support/" title="In-Game-Shop & Aufladen | Last Asylum" description="Offizieller Last Asylum: Plague Shop und Diamanten-Aufladung über den autorisierten Partner LDShop. Sofortige Lieferung per UID, Rabatte und Community-Unterstützung.">
   <ShopPage lang={lang} />
+  <SupportContact lang={lang} />
 </Base>

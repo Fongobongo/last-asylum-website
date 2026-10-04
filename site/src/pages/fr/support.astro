@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import ShopPage from '../../components/ShopPage.astro';
+import SupportContact from '../../components/SupportContact.astro';
 import type { Lang } from '../../i18n/utils';
 
 const lang: Lang = 'fr';
@@ -8,4 +9,5 @@ const lang: Lang = 'fr';
 
 <Base lang={lang} path="/fr/support/" title="Boutique & Recharge | Last Asylum" description="Boutique officielle Last Asylum: Plague et recharge de diamants via le partenaire agréé LDShop. Livraison instantanée par UID et meilleures offres.">
   <ShopPage lang={lang} />
+  <SupportContact lang={lang} />
 </Base>

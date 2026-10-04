@@ -8,6 +8,29 @@ interface Props {
 const { lang = 'en' } = Astro.props;
 const isRu = lang === 'ru';
 
+// UI strings localized for all 9 langs (fallback to EN). Gallery items keep
+// RU titles for ru and EN titles otherwise — image files themselves are
+// mostly RU-sourced, so each card shows an explicit image-language badge
+// instead of rendering silently "empty" for untranslated locales.
+const ui = {
+  all: { en: 'All Posters', ru: 'Все схемы', de: 'Alle Poster', es: 'Todos', fr: 'Tous', id: 'Semua', ja: 'すべて', ko: '전체', pt: 'Todos' },
+  gear: { en: 'Gear & Relics', ru: 'Снаряжение и реликвии', de: 'Ausrüstung', es: 'Equipo', fr: 'Équipement', id: 'Gear', ja: '装備', ko: '장비', pt: 'Equipamento' },
+  events: { en: 'Events & Duels', ru: 'События и Дуэль', de: 'Events & Duelle', es: 'Eventos', fr: 'Événements', id: 'Event', ja: 'イベント', ko: '이벤트', pt: 'Eventos' },
+  era: { en: 'Era of Rebirth', ru: 'Эра Возрождения', de: 'Ära der Wiedergeburt', es: 'Era del Renacer', fr: 'Ère du Renouveau', id: 'Era Kelahiran', ja: '再生の時代', ko: '부활의 시대', pt: 'Era do Renascimento' },
+  base: { en: 'Base & Tech', ru: 'База и наука', de: 'Basis & Tech', es: 'Base', fr: 'Base', id: 'Markas', ja: '基地', ko: '기지', pt: 'Base' },
+  economy: { en: 'Economy & Shop', ru: 'Экономика и магазин', de: 'Wirtschaft', es: 'Economía', fr: 'Économie', id: 'Ekonomi', ja: '経済', ko: '경제', pt: 'Economia' },
+  heroes: { en: 'Heroes & Squads', ru: 'Герои и отряды', de: 'Helden', es: 'Héroes', fr: 'Héros', id: 'Hero', ja: '英雄', ko: '영웅', pt: 'Heróis' },
+  enlarge: { en: 'Enlarge', ru: 'Увеличить', de: 'Vergrößern', es: 'Ampliar', fr: 'Agrandir', id: 'Perbesar', ja: '拡大', ko: '확대', pt: 'Ampliar' },
+  download: { en: 'Download ↗', ru: 'Скачать ↗', de: 'Download ↗', es: 'Descargar ↗', fr: 'Télécharger ↗', id: 'Unduh ↗', ja: 'ダウンロード ↗', ko: '다운로드 ↗', pt: 'Baixar ↗' },
+} as const;
+type UiKey = keyof typeof ui;
+const t = (k: UiKey) => (ui[k] as Record<string, string>)[lang] ?? ui[k].en;
+const imgLang = (src: string) => {
+  if (src.includes('-ru.')) return 'RU';
+  if (src.includes('-en.')) return 'EN';
+  return 'EN';
+};
+
 export interface InfographicItem {
   id: string;
   title: string;
@@ -212,13 +235,13 @@ const gallery: InfographicItem[] = [
 ];
 
 const categories = [
-  { id: 'all', label: isRu ? 'Все схемы' : 'All Posters' },
-  { id: 'gear', label: isRu ? 'Снаряжение и реликвии' : 'Gear & Relics' },
-  { id: 'events', label: isRu ? 'События и Дуэль' : 'Events & Duels' },
-  { id: 'era', label: isRu ? 'Эра Возрождения' : 'Era of Rebirth' },
-  { id: 'base', label: isRu ? 'База и наука' : 'Base & Tech' },
-  { id: 'economy', label: isRu ? 'Экономика и магазин' : 'Economy & Shop' },
-  { id: 'heroes', label: isRu ? 'Герои и отряды' : 'Heroes & Squads' },
+  { id: 'all', label: t('all') },
+  { id: 'gear', label: t('gear') },
+  { id: 'events', label: t('events') },
+  { id: 'era', label: t('era') },
+  { id: 'base', label: t('base') },
+  { id: 'economy', label: t('economy') },
+  { id: 'heroes', label: t('heroes') },
 ];
 ---
 
@@ -244,9 +267,12 @@ const categories = [
           <!-- Thumbnail with Zoom Trigger -->
           <div class="relative overflow-hidden rounded-xl bg-black/60 aspect-[4/3] cursor-zoom-in group-hover:shadow-2xl transition" data-src={item.src} data-title={item.title} data-author={item.author}>
             <img src={item.src} alt={item.title} loading="lazy" class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105" />
+            <span class="absolute left-2 top-2 rounded-md bg-black/75 px-1.5 py-0.5 text-[10px] font-bold text-stone-300 border border-white/15 backdrop-blur-sm">
+              {imgLang(item.src)}
+            </span>
             <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
               <span class="rounded-full bg-black/80 px-3 py-1 text-xs font-semibold text-white border border-white/20 backdrop-blur-sm shadow-xl">
-                🔍 {isRu ? 'Увеличить' : 'Enlarge'}
+                🔍 {t('enlarge')}
               </span>
             </div>
           </div>
@@ -260,7 +286,7 @@ const categories = [
         <div class="mt-4 flex items-center justify-between border-t border-white/5 pt-3 text-[11px] text-stone-500 font-mono">
           <span>© {item.author}</span>
           <a href={item.src} target="_blank" rel="noopener noreferrer" class="hover:text-toxic-300 transition" download>
-            {isRu ? 'Скачать ↗' : 'Download ↗'}
+            {t('download')}
           </a>
         </div>
       </div>

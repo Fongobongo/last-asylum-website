@@ -20,7 +20,7 @@ videoTopic: calendar
 
 ## 🏛️ The Monument: Server Age Chronicle {#monument}
 
-The in-game **Monument** (Sanctuary building ID 5038) records your server's exact timeline and chronicles (Server Age). Unlike recurring weekly rotations, premier game milestones, limited UR hero wheels, and cross-server warfare unlock strictly according to how many days your server has been alive.
+The in-game **Monument** ([building stats](/buildings/monument/), Sanctuary building ID 5038) records your server's exact timeline and chronicles (Server Age). Unlike recurring weekly rotations, premier game milestones, limited UR hero wheels, and cross-server warfare unlock strictly according to how many days your server has been alive.
 
 Use the interactive Monument tool below to **enter your server day** (e.g. Day 14, 29, 66, or 120) to view active milestones, countdowns to upcoming releases, strict hoarding priorities, and linked tactical guides.
 

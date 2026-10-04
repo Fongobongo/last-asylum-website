@@ -1,0 +1,99 @@
+---
+import { getCollection } from 'astro:content';
+import type { Lang } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const prefix = lang === 'en' ? '' : `/${lang}`;
+
+const all = await getCollection('guides');
+const guides = all
+  .filter((e) => e.id.split('/')[0] === lang && !e.id.endsWith('/guides.md'))
+  .map((e) => {
+    const parts = e.id.split('/');
+    const slug = parts.slice(1).join('/').replace(/\.md$/, '');
+    const url = lang === 'en' ? `/${slug}/` : `/${lang}/${slug}/`;
+    return {
+      slug,
+      url,
+      title: (e.data as any).title as string,
+      description: (e.data as any).description as string | undefined,
+      updated: (e.data as any).updated as string | undefined,
+      section: slug.includes('/') ? slug.split('/')[0] : 'guides',
+    };
+  })
+  .sort((a, b) => a.slug.localeCompare(b.slug));
+
+const SECTION_ORDER = [
+  'guides', 'beginners', 'buildings', 'heroes', 'economy', 'alliance',
+  'events', 'era', 'gear', 'might', 'raven', 'tips', 'calendar',
+];
+const sectionLabel: Record<string, Record<string, string>> = {
+  guides: { en: 'All guides', ru: 'Все гайды' },
+  beginners: { en: 'Beginners', ru: 'Новичкам' },
+  buildings: { en: 'Buildings', ru: 'Здания' },
+  heroes: { en: 'Heroes', ru: 'Герои' },
+  economy: { en: 'Economy', ru: 'Экономика' },
+  alliance: { en: 'Alliance', ru: 'Альянс' },
+  events: { en: 'Events', ru: 'События' },
+  era: { en: 'Era of Rebirth', ru: 'Эра Возрождения' },
+  gear: { en: 'Gear', ru: 'Снаряжение' },
+  might: { en: 'Might', ru: 'Мощь' },
+  raven: { en: 'Raven', ru: 'Ворон' },
+  tips: { en: 'Tips', ru: 'Советы' },
+  calendar: { en: 'Calendar', ru: 'Календарь' },
+};
+const labelFor = (s: string) => sectionLabel[s]?.[lang] ?? sectionLabel[s]?.['en'] ?? s;
+
+const groups = new Map<string, typeof guides>();
+for (const g of guides) {
+  const key = SECTION_ORDER.includes(g.section) ? g.section : 'guides';
+  if (!groups.has(key)) groups.set(key, []);
+  groups.get(key)!.push(g);
+}
+const orderedSections = [...groups.keys()].sort(
+  (a, b) => SECTION_ORDER.indexOf(a) - SECTION_ORDER.indexOf(b)
+);
+
+const heading = lang === 'ru' ? 'Все гайды' : 'All guides';
+const sub = lang === 'ru'
+  ? `Все ${guides.length} публикаций в одном месте — хабы, события и справочники.`
+  : `All ${guides.length} publications in one place — hubs, events and references.`;
+---
+
+<div class="not-prose my-8">
+  <p class="text-sm text-stone-400">{sub}</p>
+  {orderedSections.map((section) => (
+    <section class="mt-8">
+      <h2 class="text-lg font-bold text-white flex items-center gap-2">
+        <span class="h-2 w-2 rounded-full bg-toxic-400"></span>
+        {labelFor(section)}
+        <span class="rounded-full bg-stone-800 px-2 py-0.5 text-xs text-stone-400 border border-stone-700">
+          {groups.get(section)!.length}
+        </span>
+      </h2>
+      <div class="mt-4 grid gap-3 sm:grid-cols-2">
+        {groups.get(section)!.map((g) => (
+          <a
+            href={g.url}
+            class="group rounded-2xl border border-white/[0.08] bg-stone-900/60 p-4 hover:border-toxic-500/50 hover:bg-stone-900/90 transition"
+          >
+            <div class="text-sm font-bold text-white group-hover:text-toxic-300 transition line-clamp-1">
+              {g.title}
+            </div>
+            {g.description && (
+              <div class="mt-1 text-xs text-stone-400 line-clamp-2 leading-relaxed">{g.description}</div>
+            )}
+            <div class="mt-2 flex items-center justify-between text-[11px] text-stone-500 font-mono">
+              <span class="truncate">{g.slug}/</span>
+              {g.updated && <span>🗓 {g.updated}</span>}
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  ))}
+</div>

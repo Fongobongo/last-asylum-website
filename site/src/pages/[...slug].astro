@@ -36,21 +36,50 @@ import TierListGrid from '../components/TierListGrid.astro';
 import TroopCalc from '../components/TroopCalc.astro';
 import GearCalc from '../components/GearCalc.astro';
 import HeroCompare from '../components/HeroCompare.astro';
+import GuidesIndex from '../components/GuidesIndex.astro';
 import type { Lang } from '../i18n/utils';
 
 export async function getStaticPaths() {
   const guides = await getCollection('guides');
-  return guides.map((entry) => {
-    const [lang, ...rest] = entry.id.split('/');
-    const slug = rest.join('/').replace(/\.md$/, '');
-    // English is the default language: served at /{slug}/
-    // Others: /{lang}/{slug}/
-    const url = lang === 'en' ? `/${slug}/` : `/${lang}/${slug}/`;
-    return {
-      params: { slug: url.replace(/^\//, '').replace(/\/$/, '') },
-      props: { entryId: entry.id, lang, slug },
-    };
-  });
+  // Static .astro hub pages take precedence over the dynamic [...slug] route
+  // in Astro. Without filtering, every hub + event slug for de/es/fr/id/ja/ko/pt
+  // generates a "conflicting route" warning (~245 duplicates) and builds dead
+  // stub pages shadowed by src/pages/{lang}/*.astro. Skip them here.
+  const STATIC_HUBS = new Set([
+    'alliance', 'beginners', 'buildings', 'calendar', 'compare', 'economy',
+    'era', 'gear', 'heroes', 'might', 'raven', 'status', 'tier-list', 'tips',
+    'codes', 'credits', 'support', 'shop', 'atlas', 'infographics', 'patch-notes',
+  ]);
+  const STATIC_EVENTS = new Set([
+    'alliance-duel', 'arena', 'canyon', 'cheese', 'crystal-cluster', 'dwarven-mine',
+    'elixir', 'final-dawn', 'kvk', 'mythic', 'pandemic-experience', 'path-to-healing',
+    'quiz-of-wisdom', 'royal', 'strike-first', 'supreme-duel', 'supreme-healer',
+    'survival', 'thief', 'undead', 'wagon',
+  ]);
+  const STATIC_LANGS = new Set(['de', 'es', 'fr', 'id', 'ja', 'ko', 'pt']);
+  return guides
+    .filter((entry) => {
+      const [lang, ...rest] = entry.id.split('/');
+      const slug = rest.join('/').replace(/\.md$/, '');
+      if (!STATIC_LANGS.has(lang)) return true;
+      if (STATIC_HUBS.has(slug)) return false;
+      if (slug.startsWith('events/')) {
+        const ev = slug.split('/')[1];
+        if (ev === 'index' || STATIC_EVENTS.has(ev)) return false;
+      }
+      return true;
+    })
+    .map((entry) => {
+      const [lang, ...rest] = entry.id.split('/');
+      const slug = rest.join('/').replace(/\.md$/, '');
+      // English is the default language: served at /{slug}/
+      // Others: /{lang}/{slug}/
+      const url = lang === 'en' ? `/${slug}/` : `/${lang}/${slug}/`;
+      return {
+        params: { slug: url.replace(/^\//, '').replace(/\/$/, '') },
+        props: { entryId: entry.id, lang, slug },
+      };
+    });
 }
 
 interface Props {
@@ -69,11 +98,61 @@ const supportedLangs = [...new Set(all.filter(e => e.id.replace(/\.md$/, '').spl
 const data = entry.data as any;
 const path = lang === 'en' ? `/${slug}/` : `/${lang}/${slug}/`;
 const showDiscord = slug !== 'support' && slug !== 'credits';
+
+// Breadcrumbs: section-aware so /alliance/* reference blocks don't all read «Alliance».
+// Top-level hub -> single crumb; sub-article -> hub + page; events -> Events + page.
+const prefix = lang === 'en' ? '' : `/${lang}`;
+const HUB_LABELS: Record<string, Record<string, string>> = {
+  alliance: { en: 'Alliance', ru: 'Альянс' },
+  beginners: { en: 'Beginners', ru: 'Новичкам' },
+  buildings: { en: 'Buildings', ru: 'Здания' },
+  economy: { en: 'Economy', ru: 'Экономика' },
+  heroes: { en: 'Heroes', ru: 'Герои' },
+  events: { en: 'Events', ru: 'События' },
+  era: { en: 'Era of Rebirth', ru: 'Эра Возрождения' },
+  gear: { en: 'Gear', ru: 'Снаряжение' },
+  might: { en: 'Might', ru: 'Мощь' },
+  raven: { en: 'Raven', ru: 'Ворон' },
+  tips: { en: 'Tips', ru: 'Советы' },
+  calendar: { en: 'Calendar', ru: 'Календарь' },
+  'tier-list': { en: 'Tier List', ru: 'Тир-лист' },
+  guides: { en: 'Guides', ru: 'Гайды' },
+};
+const hubLabel = (hub: string) =>
+  HUB_LABELS[hub]?.[lang] ?? HUB_LABELS[hub]?.['en'] ?? hub;
+const parts = slug.split('/');
+let breadcrumbs: { label: string; href?: string }[] = [];
+if (parts.length === 1) {
+  breadcrumbs = [{ label: hubLabel(parts[0]) }];
+} else if (parts[0] === 'events') {
+  breadcrumbs = [
+    { label: hubLabel('events'), href: `${prefix}/events/` },
+    { label: data.title },
+  ];
+} else if (parts[0] === 'beginners' || parts[0] === 'buildings') {
+  breadcrumbs = [
+    { label: hubLabel(parts[0]), href: `${prefix}/${parts[0]}/` },
+    { label: data.title },
+  ];
+} else {
+  breadcrumbs = [
+    { label: hubLabel(parts[0]), href: `${prefix}/${parts[0]}/` },
+    { label: data.title },
+  ];
+}
+// FAQ hubs: tips always + collective hubs that win from 3-4 Q&A (events, alliance, beginners, calendar)
+const showFaq =
+  slug === 'tips' ||
+  slug === 'alliance' ||
+  slug === 'beginners' ||
+  slug === 'calendar' ||
+  slug === 'heroes' ||
+  slug.startsWith('events/');
 ---
 
 <Base lang={lang} path={path} title={data.title} description={data.description} langs={supportedLangs}>
   {data.noindex && <meta slot="head" name="robots" content="noindex, nofollow" />}
-  <GuidePage title={data.title} description={data.description} lang={lang}>
+  <GuidePage title={data.title} description={data.description} lang={lang} breadcrumbs={breadcrumbs}>
     {data.updated && (
       <p class="mb-4 text-xs text-stone-500">
         🗓 {lang === 'ru' ? 'Обновлено' : 'Updated'}: {data.updated}
@@ -87,6 +166,12 @@ const showDiscord = slug !== 'support' && slug !== 'credits';
     )}
 
     <Content />
+
+    {slug === 'guides' && (
+      <div class="not-prose">
+        <GuidesIndex lang={lang} />
+      </div>
+    )}
 
     {data.calculators?.map((c: string) => <Calculators calc={c as any} lang={lang} />)}
 
@@ -161,7 +246,7 @@ const showDiscord = slug !== 'support' && slug !== 'credits';
       </>
     )}
 
-    {slug === 'tips' && <FaqSection lang={lang} />}
+    {showFaq && <FaqSection lang={lang} />}
 
     {slug === 'heroes' && <ShopPromoBanner variant="marlena" lang={lang} />}
     {slug === 'buildings' && <ShopPromoBanner variant="speedup" lang={lang} />}

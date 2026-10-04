@@ -41,6 +41,7 @@ const pages = [
   'events/quiz-of-wisdom/',
   'alliance/',
   'might/',
+  'guides/',
 ];
 
 // hero codex dynamic routes

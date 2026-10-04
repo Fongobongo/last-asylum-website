@@ -312,7 +312,7 @@ $$\text{Фактическое время} = \frac{\text{Базовое врем
 - [Статуя лорда](/ru/buildings/lord-statue/)
 - [Древесный склад](/ru/buildings/lumber-depot/)
 - [Лесопилка](/ru/buildings/lumberyard/)
-- [Монумент](/ru/buildings/monument/)
+- [Монумент](/ru/buildings/monument/) — параметры здания; хроника событий по дням сервера — в [Календаре](/ru/calendar/#monument)
 - [Кочевой торговец](/ru/buildings/nomad-trader/)
 - [Личная конюшня](/ru/buildings/private-stable/)
 - [Статуя рейнджера](/ru/buildings/ranger-statue/)

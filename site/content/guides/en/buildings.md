@@ -305,7 +305,7 @@ How the speed, cost and copy-limit nodes change the build queue for a particular
 - [Lord Statue](/buildings/lord-statue/)
 - [Lumber Depot](/buildings/lumber-depot/)
 - [Lumberyard](/buildings/lumberyard/)
-- [Monument](/buildings/monument/)
+- [Monument](/buildings/monument/) — building stats; for the server-age event timeline see [Calendar: Monument](/calendar/#monument)
 - [Nomad Trader](/buildings/nomad-trader/)
 - [Private Stable](/buildings/private-stable/)
 - [Ranger Statue](/buildings/ranger-statue/)
