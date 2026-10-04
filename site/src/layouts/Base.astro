@@ -13,6 +13,7 @@ interface Props {
   description?: string;
   noindex?: boolean;
   langs?: Lang[];
+  ogImage?: string;
 }
 
 const { lang, path, title, description, noindex } = Astro.props;
@@ -28,7 +29,26 @@ const alternates = (Astro.props.langs ?? languages).map((l) => ({
   lang: l,
   href: site + (l === 'en' ? (cleanPath === '/' ? '/' : cleanPath) : `/${l}${cleanPath === '/' ? '/' : cleanPath}`),
 }));
-const ogImage = `${site}/og-cover.png` || '/og-cover.png';
+// Per-section OG images (verified files in public/). Derived from the path so
+// content pages AND static hub pages across all 9 langs get them for free.
+const OG_BY_SECTION: Record<string, string> = {
+  beginners: '/infographics/beg-tutorial.jpg',
+  alliance: '/infographics/duel-day-guide.webp',
+  buildings: '/infographics/building-speed-formula-ru.webp',
+  heroes: '/hero-art/marlena.webp',
+  economy: '/infographics/diamond-shop-guide-ru.jpg',
+  gear: '/infographics/gear-craft-priority-ru.webp',
+  era: '/infographics/era-royal-city-ru.webp',
+  might: '/hero-art/cynthia.webp',
+  raven: '/infographics/raven-epigraph-priority-ru.webp',
+  tips: '/infographics/undead-siege-guide.webp',
+  calendar: '/infographics/royal-scramble-ru.webp',
+  'tier-list': '/hero-art/arthur.webp',
+  events: '/infographics/duel-day-guide.webp',
+};
+const section = cleanPath.split('/').filter(Boolean)[0];
+const ogImage = Astro.props.ogImage ?? (section && OG_BY_SECTION[section]) ?? `${site}/og-cover.png`;
+const ogImageUrl = ogImage.startsWith('http') ? ogImage : `${site}${ogImage}`;
 
 // Optional privacy-friendly analytics (set UMAMI_ID or leave empty)
 const umamiId = import.meta.env.PUBLIC_UMAMI_ID ?? '';
@@ -54,12 +74,12 @@ const umamiSrc = import.meta.env.PUBLIC_UMAMI_SRC ?? '';
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={desc} />
     <meta property="og:url" content={canonical} />
-    <meta property="og:image" content={ogImage} />
+    <meta property="og:image" content={ogImageUrl} />
     <meta property="og:locale" content={lang === 'en' ? 'en_US' : lang} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={pageTitle} />
     <meta name="twitter:description" content={desc} />
-    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image" content={ogImageUrl} />
 
     <link rel="icon" href="/favicon.svg" />
     <link rel="manifest" href="/manifest.webmanifest" />

@@ -1,4 +1,5 @@
 import type { APIRoute } from 'astro';
+import { getCollection } from 'astro:content';
 import { giftCodes } from '../data/giftcodes';
 import { patchNotes } from '../data/patchnotes';
 
@@ -8,8 +9,23 @@ function esc(s: string): string {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
-export const GET: APIRoute = () => {
+export const GET: APIRoute = async () => {
+  const guides = (await getCollection('guides'))
+    .filter((e) => e.id.split('/')[0] === 'en' && !(e.data as any).noindex && (e.data as any).updated)
+    .map((e) => {
+      const slug = e.id.split('/').slice(1).join('/');
+      return {
+        title: `Guide: ${(e.data as any).title as string}`,
+        link: `${SITE}/${slug}/`,
+        date: new Date((e.data as any).updated as string),
+        desc: ((e.data as any).description as string | undefined) ?? '',
+      };
+    })
+    .sort((a, b) => b.date.getTime() - a.date.getTime())
+    .slice(0, 15);
+
   const items = [
+    ...guides,
     ...giftCodes
       .filter((c) => c.active)
       .slice(0, 10)
@@ -32,7 +48,7 @@ export const GET: APIRoute = () => {
   <channel>
     <title>Last Asylum: Plague — Fan Hub</title>
     <link>${SITE}</link>
-    <description>Gift codes &amp; game updates</description>
+    <description>Fresh guides, gift codes &amp; game updates</description>
     <language>en</language>
 ${items
   .map(

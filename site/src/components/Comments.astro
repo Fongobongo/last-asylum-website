@@ -1,12 +1,16 @@
 ---
 // Giscus comments (GitHub Discussions). Configure at https://giscus.app
-// TODO: fill in the constants below after creating the public repo with Discussions enabled.
-const GISCUS_REPO = '' // e.g. 'username/last-asylum-site'
-const GISCUS_REPO_ID = ''
+// Status: repo known, but Discussions are DISABLED on the repo, so the
+// category ID can't be issued yet. To enable (2 min, owner only):
+//   1. Repo Settings → General → Features → check "Discussions",
+//      then open the Discussions tab and create e.g. an "Announcements" category.
+//   2. Paste its Category ID below (giscus.app shows it after entering repo+category).
+const GISCUS_REPO = 'Fongobongo/last-asylum-website'
+const GISCUS_REPO_ID = 'R_kgDOUNKeWQ'
 const GISCUS_CATEGORY = 'Announcements'
 const GISCUS_CATEGORY_ID = ''
 
-const enabled = GISCUS_REPO !== '' && GISCUS_REPO_ID !== ''
+const enabled = GISCUS_CATEGORY_ID.length > 0
 ---
 
 {

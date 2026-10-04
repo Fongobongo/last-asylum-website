@@ -6,6 +6,52 @@
 [build.environment]
   NODE_VERSION = "22"
 
+# Guide Atlas merged into /guides/
+[[redirects]]
+  from = "/atlas/"
+  to = "/guides/"
+  status = 301
+
+[[redirects]]
+  from = "/ru/atlas/"
+  to = "/ru/guides/"
+  status = 301
+
+[[redirects]]
+  from = "/de/atlas/"
+  to = "/de/guides/"
+  status = 301
+
+[[redirects]]
+  from = "/es/atlas/"
+  to = "/es/guides/"
+  status = 301
+
+[[redirects]]
+  from = "/fr/atlas/"
+  to = "/fr/guides/"
+  status = 301
+
+[[redirects]]
+  from = "/id/atlas/"
+  to = "/id/guides/"
+  status = 301
+
+[[redirects]]
+  from = "/ja/atlas/"
+  to = "/ja/guides/"
+  status = 301
+
+[[redirects]]
+  from = "/ko/atlas/"
+  to = "/ko/guides/"
+  status = 301
+
+[[redirects]]
+  from = "/pt/atlas/"
+  to = "/pt/guides/"
+  status = 301
+
 # FAQ merged into tips: keep specific redirects ABOVE the /en/* catch-all
 [[redirects]]
   from = "/faq/"
