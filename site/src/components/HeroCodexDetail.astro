@@ -20,7 +20,9 @@ const awakeningBanner = AWAKENED_SLUGS.has(hero.slug)
       ? '🌟 У этого героя есть разблокированное Пробуждение — механика, осколки и что качать: раздел «Awakening» в гайде по героям →'
       : '🌟 This hero has an Awakening tree unlocked — mechanics, shards and what to buy: the Awakening section of the Heroes guide →')
   : null;
-const awakeningHref = lang === 'ru' ? '/ru/heroes/#awakening-walkthrough' : '/heroes/#awakening-walkthrough';
+const awakeningHref = lang === 'en'
+  ? '/heroes/hero-awakening-guide/#awakening-walkthrough'
+  : `/${lang}/heroes/hero-awakening-guide/#awakening-walkthrough`;
 
 const officialData = hero.officialId ? (officialHeroesData as any)[hero.officialId.toString()] : null;
 

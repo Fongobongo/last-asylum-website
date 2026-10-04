@@ -128,6 +128,7 @@ const umamiSrc = import.meta.env.PUBLIC_UMAMI_SRC ?? '';
       />
     )}
     {umamiId && <script is:inline async defer src={`${umamiSrc}`} data-website-id={umamiId}></script>}
+    <slot name="head" />
   </head>
   <body class="min-h-screen antialiased">
     <!-- Reading Progress Bar -->

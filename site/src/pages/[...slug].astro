@@ -37,6 +37,7 @@ import TroopCalc from '../components/TroopCalc.astro';
 import GearCalc from '../components/GearCalc.astro';
 import HeroCompare from '../components/HeroCompare.astro';
 import GuidesIndex from '../components/GuidesIndex.astro';
+import RelatedGuides, { type RelatedItem } from '../components/RelatedGuides.astro';
 import type { Lang } from '../i18n/utils';
 
 export async function getStaticPaths() {
@@ -99,6 +100,45 @@ const data = entry.data as any;
 const path = lang === 'en' ? `/${slug}/` : `/${lang}/${slug}/`;
 const showDiscord = slug !== 'support' && slug !== 'credits';
 
+// "Read next" cross-links: hub-aware picks resolved against the content
+// collection (current lang, EN fallback) so cards never point at a 404.
+const RELATED: Record<string, string[]> = {
+  beginners: ['buildings', 'economy', 'tier-list'],
+  buildings: ['economy', 'might', 'calendar'],
+  alliance: ['events/alliance-duel', 'events/kvk', 'calendar'],
+  economy: ['buildings', 'tips', 'events/wagon'],
+  heroes: ['tier-list', 'gear', 'compare'],
+  gear: ['heroes', 'economy', 'tier-list'],
+  might: ['heroes', 'gear', 'buildings'],
+  raven: ['heroes', 'economy', 'gear'],
+  era: ['calendar', 'events/kvk', 'might'],
+  tips: ['beginners', 'economy', 'events/quiz-of-wisdom'],
+  calendar: ['events/alliance-duel', 'era', 'tips'],
+  'tier-list': ['heroes', 'compare', 'gear'],
+  compare: ['heroes', 'tier-list', 'gear'],
+  'alliance-league': ['alliance', 'events/alliance-duel', 'calendar'],
+  'alliance-tech': ['alliance', 'buildings', 'calendar'],
+  'alliance-expedition': ['alliance', 'calendar', 'tips'],
+  'alliance-dig': ['alliance', 'economy', 'tips'],
+};
+const relatedSlugs =
+  RELATED[slug] ?? (slug.startsWith('events/') ? ['calendar', 'alliance', 'tips'] : ['guides']);
+const relatedItems: RelatedItem[] = relatedSlugs.flatMap((s) => {
+  // Note: collection entry ids carry no .md extension (e.g. "en/economy").
+  const hit =
+    all.find((e) => e.id === `${lang}/${s}`) ?? all.find((e) => e.id === `en/${s}`);
+  if (!hit) return [];
+  const d = hit.data as any;
+  const hitLang = hit.id.split('/')[0];
+  return [
+    {
+      title: d.title as string,
+      url: hitLang === 'en' ? `/${s}/` : `/${hitLang}/${s}/`,
+      description: d.description as string | undefined,
+    },
+  ];
+});
+
 // Breadcrumbs: section-aware so /alliance/* reference blocks don't all read «Alliance».
 // Top-level hub -> single crumb; sub-article -> hub + page; events -> Events + page.
 const prefix = lang === 'en' ? '' : `/${lang}`;
@@ -117,12 +157,22 @@ const HUB_LABELS: Record<string, Record<string, string>> = {
   calendar: { en: 'Calendar', ru: 'Календарь' },
   'tier-list': { en: 'Tier List', ru: 'Тир-лист' },
   guides: { en: 'Guides', ru: 'Гайды' },
+  'alliance-league': { en: 'Alliance League', ru: 'Лига альянсов' },
+  'alliance-tech': { en: 'Alliance Tech', ru: 'Технологии альянса' },
+  'alliance-expedition': { en: 'Alliance Expedition', ru: 'Экспедиция альянса' },
+  'alliance-dig': { en: 'Alliance Digs', ru: 'Раскопки альянса' },
 };
 const hubLabel = (hub: string) =>
   HUB_LABELS[hub]?.[lang] ?? HUB_LABELS[hub]?.['en'] ?? hub;
 const parts = slug.split('/');
+const ALLIANCE_SUBS = new Set(['alliance-league', 'alliance-tech', 'alliance-expedition', 'alliance-dig']);
 let breadcrumbs: { label: string; href?: string }[] = [];
-if (parts.length === 1) {
+if (ALLIANCE_SUBS.has(slug)) {
+  breadcrumbs = [
+    { label: hubLabel('alliance'), href: `${prefix}/alliance/` },
+    { label: data.title },
+  ];
+} else if (parts.length === 1) {
   breadcrumbs = [{ label: hubLabel(parts[0]) }];
 } else if (parts[0] === 'events') {
   breadcrumbs = [
@@ -152,6 +202,22 @@ const showFaq =
 
 <Base lang={lang} path={path} title={data.title} description={data.description} langs={supportedLangs}>
   {data.noindex && <meta slot="head" name="robots" content="noindex, nofollow" />}
+  {!data.noindex && data.updated && (
+    <script
+      slot="head"
+      type="application/ld+json"
+      set:html={JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: data.title,
+        description: data.description,
+        inLanguage: lang,
+        dateModified: data.updated,
+        mainEntityOfPage: { '@type': 'WebPage', '@id': path },
+        publisher: { '@type': 'Organization', name: 'Last Asylum Plague Hub' },
+      })}
+    />
+  )}
   <GuidePage title={data.title} description={data.description} lang={lang} breadcrumbs={breadcrumbs}>
     {data.updated && (
       <p class="mb-4 text-xs text-stone-500">
@@ -252,6 +318,10 @@ const showFaq =
     {slug === 'buildings' && <ShopPromoBanner variant="speedup" lang={lang} />}
     {slug === 'gear' && <ShopPromoBanner variant="gear" lang={lang} />}
     {slug === 'beginners' && <ShopPromoBanner variant="general" lang={lang} />}
+
+    {slug !== 'guides' && relatedItems.length > 0 && (
+      <RelatedGuides lang={lang} items={relatedItems} />
+    )}
 
     {showDiscord && <DiscordBanner lang={lang} />}
   </GuidePage>

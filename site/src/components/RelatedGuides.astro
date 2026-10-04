@@ -1,0 +1,47 @@
+---
+import type { Lang } from '../i18n/utils';
+
+export interface RelatedItem {
+  title: string;
+  url: string;
+  description?: string;
+}
+
+interface Props {
+  lang: Lang;
+  items: RelatedItem[];
+}
+
+const { lang, items } = Astro.props;
+if (!items.length) return null;
+
+const heading =
+  lang === 'ru' ? '📖 Читайте далее'
+  : lang === 'de' ? '📖 Weiterlesen'
+  : lang === 'es' ? '📖 Seguir leyendo'
+  : lang === 'fr' ? '📖 À lire ensuite'
+  : lang === 'id' ? '📖 Baca selanjutnya'
+  : lang === 'ja' ? '📖 次に読む'
+  : lang === 'ko' ? '📖 다음에 읽기'
+  : lang === 'pt' ? '📖 Leia a seguir'
+  : '📖 Read next';
+---
+
+<section class="not-prose mt-10 rounded-3xl border border-white/10 bg-stone-900/40 p-5 sm:p-6">
+  <h2 class="text-base font-bold text-white">{heading}</h2>
+  <div class="mt-4 grid gap-3 sm:grid-cols-3">
+    {items.map((g) => (
+      <a
+        href={g.url}
+        class="group rounded-2xl border border-white/[0.08] bg-black/40 p-4 hover:border-toxic-500/50 hover:bg-black/60 transition"
+      >
+        <div class="text-sm font-bold text-white group-hover:text-toxic-300 transition line-clamp-2">
+          {g.title} <span aria-hidden="true">→</span>
+        </div>
+        {g.description && (
+          <div class="mt-1 text-xs text-stone-400 line-clamp-2 leading-relaxed">{g.description}</div>
+        )}
+      </a>
+    ))}
+  </div>
+</section>

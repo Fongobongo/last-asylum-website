@@ -1,5 +1,6 @@
 ---
 import type { Lang } from '../i18n/utils';
+import { DISCORD_URL, CONTACT_EMAIL } from '../data/community';
 
 interface Props {
   lang: Lang;
@@ -23,9 +24,7 @@ const T = {
   guidesBtn: isRu ? 'Открыть гайды →' : 'Browse guides →',
 };
 
-// Discord invite: community server (same as footer/DiscordBanner).
-const DISCORD_URL = 'https://discord.gg/2PYWRyNtmU';
-const CONTACT_EMAIL = 'support@lastasylum.example';
+// Links come from src/data/community.ts — single source of truth.
 ---
 
 <section class="not-prose mx-auto max-w-5xl mt-12 rounded-3xl border border-white/10 bg-stone-900/60 p-6 sm:p-8">

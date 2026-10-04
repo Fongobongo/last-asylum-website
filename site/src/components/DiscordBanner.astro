@@ -1,5 +1,6 @@
 ---
 import { t } from '../i18n/ui';
+import { DISCORD_URL } from '../data/community';
 import type { Lang } from '../i18n/utils';
 
 interface Props {
@@ -7,7 +8,7 @@ interface Props {
 }
 
 const { lang } = Astro.props;
-const DISCORD_INVITE = 'https://discord.gg/2PYWRyNtmU';
+const DISCORD_INVITE = DISCORD_URL;
 
 const text =
   lang === 'ru'

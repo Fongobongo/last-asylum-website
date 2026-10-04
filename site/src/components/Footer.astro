@@ -1,5 +1,6 @@
 ---
 import { t } from '../i18n/ui';
+import { DISCORD_URL } from '../data/community';
 import type { Lang } from '../i18n/utils';
 
 interface Props {
@@ -45,6 +46,7 @@ const base = lang === 'en' ? '' : `/${lang}`;
           <li><a href={`${base}/gear/`} class="text-stone-400 hover:text-plague-200 transition">{t(lang, 'nav.gear')}</a></li>
           <li><a href={`${base}/tier-list/`} class="text-stone-400 hover:text-plague-200 transition">{t(lang, 'nav.tierlist')}</a></li>
           <li><a href={`${base}/codex/`} class="text-stone-400 hover:text-plague-200 transition">{t(lang, 'nav.codex')}</a></li>
+          <li><a href={`${base}/guides/`} class="text-stone-400 hover:text-plague-200 transition">📚 {t(lang, 'nav.guides')}</a></li>
         </ul>
       </div>
 
@@ -67,7 +69,7 @@ const base = lang === 'en' ? '' : `/${lang}`;
           <li><a href={`${base}/support/`} class="inline-flex items-center gap-1 font-semibold text-toxic-400 hover:text-toxic-300 transition">💎 {t(lang, 'nav.support')}</a></li>
           <li><a href={`${base}/alliance/`} class="text-stone-400 hover:text-plague-200 transition">🛡️ {lang === 'ru' ? 'Информация альянса' : 'Alliance Info'}</a></li>
           <li><a href={`${base}/credits/`} class="text-stone-400 hover:text-plague-200 transition">{t(lang, 'nav.credits')}</a></li>
-          <li><a href="https://discord.gg/2PYWRyNtmU" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-indigo-400 hover:text-indigo-300 transition">Discord ↗</a></li>
+          <li><a href={DISCORD_URL} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-indigo-400 hover:text-indigo-300 transition">Discord ↗</a></li>
         </ul>
       </div>
     </div>

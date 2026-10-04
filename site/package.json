@@ -10,6 +10,7 @@
     "postbuild": "pagefind --site dist --output-path dist/pagefind",
     "preview": "astro preview",
     "astro": "astro",
+    "check:links": "node scripts/check-links.mjs",
     "db:sync": "node scripts/sync-db-articles.mjs",
     "db:seed": "node scripts/seed-supabase.mjs"
   },

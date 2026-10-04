@@ -11,7 +11,7 @@ const prefix = lang === 'en' ? '' : `/${lang}`;
 
 const all = await getCollection('guides');
 const guides = all
-  .filter((e) => e.id.split('/')[0] === lang && !e.id.endsWith('/guides.md'))
+  .filter((e) => e.id.split('/')[0] === lang && !e.id.endsWith('/guides'))
   .map((e) => {
     const parts = e.id.split('/');
     const slug = parts.slice(1).join('/').replace(/\.md$/, '');

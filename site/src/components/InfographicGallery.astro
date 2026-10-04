@@ -262,7 +262,7 @@ const categories = [
   <!-- Cards Grid -->
   <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3" id="ig-grid">
     {gallery.map((item) => (
-      <div class="ig-card group overflow-hidden rounded-2xl border border-white/[0.08] bg-stone-900/60 p-4 transition-all hover:border-toxic-500/50 hover:bg-stone-900/90 shadow-lg flex flex-col justify-between" data-category={item.category}>
+      <div id={item.id} class="ig-card group overflow-hidden rounded-2xl border border-white/[0.08] bg-stone-900/60 p-4 transition-all hover:border-toxic-500/50 hover:bg-stone-900/90 shadow-lg flex flex-col justify-between scroll-mt-24" data-category={item.category}>
         <div>
           <!-- Thumbnail with Zoom Trigger -->
           <div class="relative overflow-hidden rounded-xl bg-black/60 aspect-[4/3] cursor-zoom-in group-hover:shadow-2xl transition" data-src={item.src} data-title={item.title} data-author={item.author}>

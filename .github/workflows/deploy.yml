@@ -35,6 +35,9 @@ jobs:
           SITE_URL: ${{ secrets.SITE_URL }}
           DND_SECRET: ${{ secrets.DND_SECRET }}
 
+      - name: Check internal links
+        run: npm run check:links
+
       - name: Upload artifact
         if: github.event_name == 'push'
         uses: actions/upload-artifact@v4
