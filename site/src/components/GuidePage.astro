@@ -1,5 +1,4 @@
 ---
-import Comments from './Comments.astro';
 import Feedback from './Feedback.astro';
 
 interface Props {
@@ -113,7 +112,6 @@ const tocClose = Astro.props.lang === 'ru' ? 'Закрыть' : 'Close';
 
     <div class="mt-10">
       <Feedback lang={Astro.props.lang} />
-      <Comments />
     </div>
   </article>
 
