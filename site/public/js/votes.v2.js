@@ -80,6 +80,9 @@
       h = (h * 0x01000193) | 0;
     }
     fpCache = ('0000000' + (h >>> 0).toString(16)).slice(-8);
+    try {
+      document.cookie = 'lav_fp=' + fpCache + '; Path=/; SameSite=Lax; Max-Age=31536000';
+    } catch (e) {}
     return fpCache;
   }
 

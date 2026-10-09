@@ -20,6 +20,19 @@ interface GiftCodesDict {
   expiredNote: string;
   worked: string;
   failed: string;
+  sectionNew: string;
+  sectionNewDesc: string;
+  sectionExpired: string;
+  sectionExpiredDesc: string;
+  suggestTitle: string;
+  suggestCodePh: string;
+  suggestNotePh: string;
+  suggestBtn: string;
+  suggestOk: string;
+  suggestDup: string;
+  suggestErr: string;
+  needMore: string;
+  pendingBadge: string;
   webTitle: string;
   iosTip: string;
 }
@@ -36,6 +49,19 @@ const dict: Record<string, GiftCodesDict> = {
     hideExpired: "Скрыть устаревшие коды",
     expiredTitle: "Архив неактивных кодов",
     expiredNote: "Эти коды уже истекли и приведены для справки, чтобы не тратить время на повторный ввод.",
+    sectionNew: "Новое от игроков",
+    sectionNewDesc: "Без проверки — 5 👍 оставят код навсегда.",
+    sectionExpired: "Вероятно истекли",
+    sectionExpiredDesc: "10+ 👍, но 👎 вдвое больше — код, скорее всего, мёртв.",
+    suggestTitle: "Предложить код",
+    suggestCodePh: "Вставьте код…",
+    suggestNotePh: "Что даёт (необязательно)",
+    suggestBtn: "Предложить",
+    suggestOk: "Спасибо! Код на проверке.",
+    suggestDup: "Этот код уже есть в списке.",
+    suggestErr: "Не получилось, попробуйте ещё.",
+    needMore: "Ещё {n} 👍 — и останется",
+    pendingBadge: "На проверке",
     worked: "Сработал",
     failed: "Не сработал",
     webTitle: "Активация через сайт (для iPhone / iOS и Android):",
@@ -52,6 +78,19 @@ const dict: Record<string, GiftCodesDict> = {
     hideExpired: "Hide Expired Codes",
     expiredTitle: "Expired Codes Archive",
     expiredNote: "These codes have expired and are listed for reference so you do not waste time retrying them.",
+    sectionNew: "New from players",
+    sectionNewDesc: "Unverified — 5 👍 keep it permanently.",
+    sectionExpired: "Probably expired",
+    sectionExpiredDesc: "10+ 👍 but twice as many 👎 — likely dead.",
+    suggestTitle: "Suggest a code",
+    suggestCodePh: "Paste code…",
+    suggestNotePh: "Reward note (optional)",
+    suggestBtn: "Suggest",
+    suggestOk: "Thanks! The code is under review.",
+    suggestDup: "This code is already in the list.",
+    suggestErr: "Couldn't submit, try again.",
+    needMore: "{n} more 👍 to keep",
+    pendingBadge: "Unverified",
     worked: "Worked",
     failed: "Didn't work",
     webTitle: "Web redemption (for iPhone / iOS & Android):",
@@ -68,6 +107,19 @@ const dict: Record<string, GiftCodesDict> = {
     hideExpired: "Abgelaufene Codes verbergen",
     expiredTitle: "Archiv abgelaufener Codes",
     expiredNote: "Diese Codes sind abgelaufen und dienen als Referenz, um unnötiges Eintippen zu vermeiden.",
+    sectionNew: "Neu von Spielern",
+    sectionNewDesc: "Ungeprüft — 5 👍 machen ihn permanent.",
+    sectionExpired: "Wahrscheinlich abgelaufen",
+    sectionExpiredDesc: "10+ 👍, aber doppelt so viele 👎.",
+    suggestTitle: "Code vorschlagen",
+    suggestCodePh: "Code einfügen…",
+    suggestNotePh: "Belohnung (optional)",
+    suggestBtn: "Vorschlagen",
+    suggestOk: "Danke! Der Code wird geprüft.",
+    suggestDup: "Dieser Code ist bereits gelistet.",
+    suggestErr: "Fehlgeschlagen, bitte erneut versuchen.",
+    needMore: "Noch {n} 👍 bis er bleibt",
+    pendingBadge: "Ungeprüft",
     worked: "Funktioniert",
     failed: "Funktioniert nicht",
     webTitle: "Einlösung per Website (für iPhone / iOS & Android):",
@@ -84,6 +136,19 @@ const dict: Record<string, GiftCodesDict> = {
     hideExpired: "Ocultar códigos caducados",
     expiredTitle: "Archivo de códigos caducados",
     expiredNote: "Estos códigos ya expiraron y se muestran como referencia para no perder tiempo reingresándolos.",
+    sectionNew: "Novedades de jugadores",
+    sectionNewDesc: "Sin verificar — 5 👍 lo hacen permanente.",
+    sectionExpired: "Probablemente caducados",
+    sectionExpiredDesc: "10+ 👍, pero el doble de 👎.",
+    suggestTitle: "Sugerir un código",
+    suggestCodePh: "Pega el código…",
+    suggestNotePh: "Recompensa (opcional)",
+    suggestBtn: "Sugerir",
+    suggestOk: "¡Gracias! El código está en revisión.",
+    suggestDup: "Este código ya está en la lista.",
+    suggestErr: "No se pudo enviar, inténtalo de nuevo.",
+    needMore: "Faltan {n} 👍 para quedarse",
+    pendingBadge: "Sin verificar",
     worked: "Funcionó",
     failed: "No funcionó",
     webTitle: "Canje vía web (para iPhone / iOS y Android):",
@@ -100,6 +165,19 @@ const dict: Record<string, GiftCodesDict> = {
     hideExpired: "Masquer les codes expirés",
     expiredTitle: "Archive des codes expirés",
     expiredNote: "Ces codes sont expirés et listés à titre indicatif pour éviter de les tester à nouveau.",
+    sectionNew: "Nouveautés des joueurs",
+    sectionNewDesc: "Non vérifié — 5 👍 le rendent permanent.",
+    sectionExpired: "Probablement expirés",
+    sectionExpiredDesc: "10+ 👍, mais deux fois plus de 👎.",
+    suggestTitle: "Proposer un code",
+    suggestCodePh: "Coller le code…",
+    suggestNotePh: "Récompense (optionnel)",
+    suggestBtn: "Proposer",
+    suggestOk: "Merci ! Le code est en cours de vérification.",
+    suggestDup: "Ce code est déjà dans la liste.",
+    suggestErr: "Échec, réessayez.",
+    needMore: "Encore {n} 👍 pour le garder",
+    pendingBadge: "Non vérifié",
     worked: "A fonctionné",
     failed: "N'a pas fonctionné",
     webTitle: "Échange via le web (pour iPhone / iOS et Android) :",
@@ -116,6 +194,19 @@ const dict: Record<string, GiftCodesDict> = {
     hideExpired: "Sembunyikan Kode Kedaluwarsa",
     expiredTitle: "Arsip Kode Kedaluwarsa",
     expiredNote: "Kode-kode ini sudah tidak berlaku dan dicatat sebagai referensi agar Anda tidak membuang waktu mencobanya.",
+    sectionNew: "Baru dari pemain",
+    sectionNewDesc: "Belum diverifikasi — 5 👍 menjadikannya permanen.",
+    sectionExpired: "Mungkin kedaluwarsa",
+    sectionExpiredDesc: "10+ 👍, tetapi 👎 dua kali lipat.",
+    suggestTitle: "Usulkan kode",
+    suggestCodePh: "Tempel kode…",
+    suggestNotePh: "Hadiah (opsional)",
+    suggestBtn: "Usulkan",
+    suggestOk: "Terima kasih! Kode sedang ditinjau.",
+    suggestDup: "Kode ini sudah ada di daftar.",
+    suggestErr: "Gagal, coba lagi.",
+    needMore: "Butuh {n} 👍 lagi",
+    pendingBadge: "Belum diverifikasi",
     worked: "Berhasil",
     failed: "Gagal",
     webTitle: "Penukaran via web (untuk iPhone / iOS & Android):",
@@ -132,6 +223,19 @@ const dict: Record<string, GiftCodesDict> = {
     hideExpired: "期限切れコードを非表示",
     expiredTitle: "期限切れコードのアーカイブ",
     expiredNote: "これらのコードは使用期限が切れており、無駄な再入力を防ぐための参考情報です。",
+    sectionNew: "プレイヤーからの新着",
+    sectionNewDesc: "未検証 — 👍5件で恒久化。",
+    sectionExpired: "期限切れの可能性",
+    sectionExpiredDesc: "👍10件以上、👎はその2倍。",
+    suggestTitle: "コードを提案",
+    suggestCodePh: "コードを入力…",
+    suggestNotePh: "報酬メモ（任意）",
+    suggestBtn: "提案する",
+    suggestOk: "ありがとう！コードを審査中。",
+    suggestDup: "このコードは既にリストにあります。",
+    suggestErr: "送信失敗、もう一度お試しください。",
+    needMore: "あと{n} 👍で残留",
+    pendingBadge: "未検証",
     worked: "使えた",
     failed: "使えなかった",
     webTitle: "ウェブ交換ページ（iPhone / iOS & Android対応）：",
@@ -148,6 +252,19 @@ const dict: Record<string, GiftCodesDict> = {
     hideExpired: "만료된 코드 숨기기",
     expiredTitle: "만료된 코드 아카이브",
     expiredNote: "이 코드들은 이미 만료되었으며, 중복 입력을 방지하기 위한 참고용 목록입니다.",
+    sectionNew: "플레이어 제보",
+    sectionNewDesc: "미검증 — 👍 5개면 정식 등록.",
+    sectionExpired: "만료 가능성",
+    sectionExpiredDesc: "👍 10개 이상인데 👎가 2배.",
+    suggestTitle: "코드 제보",
+    suggestCodePh: "코드 입력…",
+    suggestNotePh: "보상 메모(선택)",
+    suggestBtn: "제보하기",
+    suggestOk: "감사합니다! 코드를 검토 중입니다.",
+    suggestDup: "이 코드는 이미 목록에 있습니다.",
+    suggestErr: "실패, 다시 시도하세요.",
+    needMore: "{n} 👍 더 필요",
+    pendingBadge: "미검증",
     worked: "작동함",
     failed: "작동 안 함",
     webTitle: "웹사이트 교환 (iPhone / iOS 및 Android 공용):",
@@ -164,6 +281,19 @@ const dict: Record<string, GiftCodesDict> = {
     hideExpired: "Ocultar códigos expirados",
     expiredTitle: "Arquivo de códigos expirados",
     expiredNote: "Esses códigos já expiraram e estão listados apenas como referência para evitar tentativas desnecessárias.",
+    sectionNew: "Novidades dos jogadores",
+    sectionNewDesc: "Não verificado — 5 👍 tornam permanente.",
+    sectionExpired: "Provavelmente expirados",
+    sectionExpiredDesc: "10+ 👍, mas o dobro de 👎.",
+    suggestTitle: "Sugerir código",
+    suggestCodePh: "Cole o código…",
+    suggestNotePh: "Recompensa (opcional)",
+    suggestBtn: "Sugerir",
+    suggestOk: "Obrigado! O código está em análise.",
+    suggestDup: "Este código já está na lista.",
+    suggestErr: "Falhou, tente de novo.",
+    needMore: "Faltam {n} 👍",
+    pendingBadge: "Não verificado",
     worked: "Funcionou",
     failed: "Não funcionou",
     webTitle: "Resgate via web (para iPhone / iOS e Android):",
@@ -204,7 +334,7 @@ const allActiveCodesText = activeCodes.map((c) => c.code).join("\n");
   <!-- Active Codes Grid -->
   <div class="grid gap-3.5 sm:grid-cols-2 lg:grid-cols-3" id="codes-active">
     {activeCodes.map((c) => (
-      <div class="group relative flex items-center justify-between gap-3 rounded-xl border border-toxic-500/30 bg-gradient-to-br from-toxic-500/10 to-transparent p-4 shadow-[0_4px_20px_rgba(0,0,0,0.3)] transition-all hover:border-toxic-400/60 hover:shadow-[0_0_24px_rgba(180,255,57,0.15)]">
+      <div data-code-card={c.code} data-home="active" class="group relative flex items-center justify-between gap-3 rounded-xl border border-toxic-500/30 bg-gradient-to-br from-toxic-500/10 to-transparent p-4 shadow-[0_4px_20px_rgba(0,0,0,0.3)] transition-all hover:border-toxic-400/60 hover:shadow-[0_0_24px_rgba(180,255,57,0.15)]">
         <div>
           <div class="flex items-center gap-2">
             <code class="font-mono text-lg font-bold tracking-wider text-toxic-400">{c.code}</code>
@@ -242,6 +372,60 @@ const allActiveCodesText = activeCodes.map((c) => c.code).join("\n");
       </div>
     ))}
   </div>
+
+  <!-- Suggest a code -->
+  <div
+    id="codes-suggest"
+    class="rounded-xl border border-white/10 bg-stone-900/60 p-4"
+    data-msg-ok={labels.suggestOk}
+    data-msg-dup={labels.suggestDup}
+    data-msg-err={labels.suggestErr}
+    data-need-more={labels.needMore}
+    data-pending-badge={labels.pendingBadge}
+    data-label-copy={labels.copy}
+    data-label-copied={labels.copied}
+  >
+    <h3 class="text-sm font-bold text-white">➕ {labels.suggestTitle}</h3>
+    <form id="js-suggest-form" class="mt-3 flex flex-col gap-2 sm:flex-row">
+      <input
+        id="js-suggest-code"
+        type="text"
+        maxlength="24"
+        autocomplete="off"
+        spellcheck="false"
+        placeholder={labels.suggestCodePh}
+        class="w-full sm:w-48 rounded-lg border border-white/10 bg-black/40 px-3 py-2 font-mono text-sm uppercase tracking-wider text-white placeholder:normal-case placeholder:font-sans placeholder:text-stone-500 focus:border-toxic-400/60 focus:outline-none"
+      />
+      <input
+        id="js-suggest-note"
+        type="text"
+        maxlength="140"
+        placeholder={labels.suggestNotePh}
+        class="w-full flex-1 rounded-lg border border-white/10 bg-black/40 px-3 py-2 text-sm text-white placeholder:text-stone-500 focus:border-toxic-400/60 focus:outline-none"
+      />
+      <button
+        type="submit"
+        class="shrink-0 rounded-lg border border-toxic-500/40 bg-toxic-500/15 px-4 py-2 text-xs font-semibold text-toxic-300 hover:bg-toxic-500/25 transition cursor-pointer"
+      >
+        {labels.suggestBtn}
+      </button>
+    </form>
+    <p id="js-suggest-msg" class="mt-2 hidden text-xs text-stone-400"></p>
+  </div>
+
+  <!-- New from players -->
+  <section id="codes-new-wrap" class="hidden">
+    <h3 class="text-sm font-bold text-white">🆕 {labels.sectionNew}</h3>
+    <p class="mt-1 text-xs text-stone-400">{labels.sectionNewDesc}</p>
+    <div class="mt-3 grid gap-3.5 sm:grid-cols-2 lg:grid-cols-3" id="codes-new"></div>
+  </section>
+
+  <!-- Probably expired -->
+  <section id="codes-expired-wrap" class="hidden">
+    <h3 class="text-sm font-bold text-white">⚠️ {labels.sectionExpired}</h3>
+    <p class="mt-1 text-xs text-stone-400">{labels.sectionExpiredDesc}</p>
+    <div class="mt-3 grid gap-3.5 sm:grid-cols-2 lg:grid-cols-3 opacity-80" id="codes-expired"></div>
+  </section>
 
 </div>
 
@@ -364,6 +548,264 @@ const allActiveCodesText = activeCodes.map((c) => c.code).join("\n");
       initGiftCodes();
     }
     document.addEventListener("astro:page-load", initGiftCodes);
+  })();
+</script>
+
+<script is:inline>
+  // Community codes: player suggestions + derived sections.
+  // Active = builtin actives + approved suggestions, minus demoted.
+  // Demoted (probably expired): likes >= 10 AND dislikes >= 2 * likes.
+  (function () {
+    var DEMOTE_LIKES = 10;
+    var PROMOTE_LIKES = 5;
+
+    function cfg() {
+      return document.getElementById('codes-suggest');
+    }
+    function labels() {
+      var el = cfg();
+      return {
+        needMore: (el && el.dataset.needMore) || '{n} more 👍 to keep',
+        pendingBadge: (el && el.dataset.pendingBadge) || 'Unverified',
+        copy: (el && el.dataset.labelCopy) || 'Copy',
+        copied: (el && el.dataset.labelCopied) || '✓ Copied',
+        msgOk: (el && el.dataset.msgOk) || 'Thanks!',
+        msgDup: (el && el.dataset.msgDup) || 'Already listed.',
+        msgErr: (el && el.dataset.msgErr) || 'Failed, try again.',
+      };
+    }
+
+    function countsOf(code) {
+      var V = window.LAVotes;
+      if (!V) return { likes: 0, dislikes: 0, mine: null };
+      return V.read('code:' + code);
+    }
+
+    function isDemoted(code) {
+      var st = countsOf(code);
+      return st.likes >= DEMOTE_LIKES && st.dislikes >= st.likes * 2;
+    }
+
+    function updateNeedMore(card, code) {
+      var el = card.querySelector('.js-need-more');
+      if (!el) return;
+      var st = countsOf(code);
+      var left = Math.max(0, PROMOTE_LIKES - st.likes);
+      el.textContent = left > 0 ? labels().needMore.replace('{n}', String(left)) : '';
+    }
+
+    function layoutCodes() {
+      var active = document.getElementById('codes-active');
+      var fresh = document.getElementById('codes-new');
+      var exp = document.getElementById('codes-expired');
+      if (!active || !fresh || !exp) return;
+      document.querySelectorAll('[data-code-card]').forEach(function (card) {
+        var code = card.getAttribute('data-code-card') || '';
+        var home = card.getAttribute('data-home') || 'active';
+        updateNeedMore(card, code);
+        var target = isDemoted(code) ? exp : home === 'new' ? fresh : active;
+        if (card.parentNode !== target) target.appendChild(card);
+      });
+      var nw = document.getElementById('codes-new-wrap');
+      var ex = document.getElementById('codes-expired-wrap');
+      if (nw) nw.classList.toggle('hidden', fresh.children.length === 0);
+      if (ex) ex.classList.toggle('hidden', exp.children.length === 0);
+    }
+
+    function esc(s) {
+      return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+
+    function cardHtml(s) {
+      var pending = s.status === 'pending';
+      return (
+        '<div>' +
+          '<div class="flex items-center gap-2">' +
+            '<code class="font-mono text-lg font-bold tracking-wider text-toxic-400">' + esc(s.code) + '</code>' +
+            (pending
+              ? '<span class="inline-flex items-center rounded-full bg-amber-400/20 px-2 py-0.5 text-[10px] font-semibold text-amber-300">' + esc(labels().pendingBadge) + '</span>'
+              : '<span class="inline-flex items-center rounded-full bg-toxic-400/20 px-2 py-0.5 text-[10px] font-semibold text-toxic-300">ACTIVE</span>') +
+          '</div>' +
+          (s.note ? '<p class="mt-1 text-xs text-stone-300">' + esc(s.note) + '</p>' : '') +
+          '<p class="js-need-more mt-0.5 text-[11px] font-mono text-amber-300/80"></p>' +
+          '<div class="mt-2 flex items-center gap-1.5" data-code-votes="' + esc(s.code) + '">' +
+            '<button type="button" class="js-code-vote inline-flex items-center gap-1 rounded-lg border border-white/10 bg-white/5 px-2 py-1 text-[11px] font-semibold text-stone-300 transition hover:border-toxic-400/60 hover:text-toxic-300 cursor-pointer" data-vote="yes" title="👍">👍 <span class="js-cv-yes-count font-mono">' + s.likes + '</span></button>' +
+            '<button type="button" class="js-code-vote inline-flex items-center gap-1 rounded-lg border border-white/10 bg-white/5 px-2 py-1 text-[11px] font-semibold text-stone-300 transition hover:border-red-400/60 hover:text-red-300 cursor-pointer" data-vote="no" title="👎">👎 <span class="js-cv-no-count font-mono">' + s.dislikes + '</span></button>' +
+          '</div>' +
+        '</div>' +
+        '<button type="button" class="js-copy inline-flex shrink-0 items-center justify-center rounded-lg border border-white/10 bg-white/5 px-3 py-1.5 text-xs font-semibold text-stone-200 transition hover:bg-toxic-400 hover:text-black hover:border-toxic-400 cursor-pointer" data-code="' + esc(s.code) + '" data-label-copy="' + esc(labels().copy) + '" data-label-copied="' + esc(labels().copied) + '">' + esc(labels().copy) + '</button>'
+      );
+    }
+
+    function upsertCard(s) {
+      var card = document.querySelector('[data-code-card="' + s.code + '"]');
+      var home = s.status === 'pending' ? 'new' : 'active';
+      if (!card) {
+        card = document.createElement('div');
+        card.setAttribute('data-code-card', s.code);
+        card.setAttribute('data-origin', 'suggested');
+        card.className = 'group relative flex items-center justify-between gap-3 rounded-xl border border-amber-400/30 bg-gradient-to-br from-amber-400/10 to-transparent p-4 shadow-[0_4px_20px_rgba(0,0,0,0.3)] transition-all hover:border-amber-300/60';
+        card.innerHTML = cardHtml(s);
+        bindCard(card);
+      } else if (card.getAttribute('data-origin') !== 'suggested') {
+        return card; // builtin card: never re-home from a suggestion row
+      }
+      card.setAttribute('data-home', home);
+      return card;
+    }
+
+    function bindCard(card) {
+      var V = window.LAVotes;
+      var row = card.querySelector('[data-code-votes]');
+      if (V && row && row.dataset.votesBound !== 'true') {
+        row.dataset.votesBound = 'true';
+        var key = 'code:' + (row.getAttribute('data-code-votes') || '');
+        var yesBtn = row.querySelector('[data-vote="yes"]');
+        var noBtn = row.querySelector('[data-vote="no"]');
+        var yesCount = row.querySelector('.js-cv-yes-count');
+        var noCount = row.querySelector('.js-cv-no-count');
+        var render = function (st) {
+          if (yesCount) yesCount.textContent = String(st.likes);
+          if (noCount) noCount.textContent = String(st.dislikes);
+          if (yesBtn) yesBtn.classList.toggle('border-toxic-400', st.mine === 'yes');
+          if (noBtn) noBtn.classList.toggle('border-red-400', st.mine === 'no');
+          layoutCodes();
+        };
+        render(V.read(key));
+        V.subscribe(key, render);
+        V.refresh(key);
+        row.querySelectorAll('.js-code-vote').forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            render(V.vote(key, btn.getAttribute('data-vote')));
+            setTimeout(syncSuggestions, 800);
+          });
+        });
+      }
+      var copyBtn = card.querySelector('.js-copy');
+      if (copyBtn && copyBtn.dataset.bound !== 'true') {
+        copyBtn.dataset.bound = 'true';
+        copyBtn.addEventListener('click', function () {
+          var code = copyBtn.getAttribute('data-code') || '';
+          var done = copyBtn.getAttribute('data-label-copied') || '✓ Copied';
+          var idle = copyBtn.getAttribute('data-label-copy') || 'Copy';
+          var t = document.createElement('textarea');
+          t.value = code;
+          t.style.position = 'fixed';
+          t.style.left = '-9999px';
+          document.body.appendChild(t);
+          t.select();
+          try { document.execCommand('copy'); } catch (e) {}
+          document.body.removeChild(t);
+          copyBtn.textContent = done;
+          setTimeout(function () { copyBtn.textContent = idle; }, 1500);
+        });
+      }
+    }
+
+    function syncSuggestions() {
+      fetch('/api/codes', { cache: 'no-store' })
+        .then(function (r) {
+          if (!r.ok) throw new Error('bad status');
+          return r.json();
+        })
+        .then(function (data) {
+          var list = (data && data.suggestions) || [];
+          list.forEach(upsertCard);
+          // A vote may have promoted a pending card — reconcile homes.
+          // Builtin cards are never re-homed by suggestion rows.
+          document.querySelectorAll('[data-code-card][data-origin="suggested"]').forEach(function (card) {
+            var code = card.getAttribute('data-code-card');
+            var found = list.find(function (s) { return s.code === code; });
+            if (found) card.setAttribute('data-home', found.status === 'pending' ? 'new' : 'active');
+          });
+          layoutCodes();
+        })
+        .catch(function () {});
+    }
+
+    function knownCodes() {
+      var set = {};
+      document.querySelectorAll('[data-code-card]').forEach(function (card) {
+        var c = (card.getAttribute('data-code-card') || '').toUpperCase();
+        if (c) set[c] = true;
+      });
+      return set;
+    }
+
+    function initCommunity() {
+      // Re-layout static cards once server counts arrive.
+      var V = window.LAVotes;
+      if (V) {
+        document.querySelectorAll('[data-code-card]').forEach(function (card) {
+          var code = card.getAttribute('data-code-card') || '';
+          V.subscribe('code:' + code, layoutCodes);
+        });
+      }
+      layoutCodes();
+      syncSuggestions();
+
+      var form = document.getElementById('js-suggest-form');
+      if (form && !form.dataset.bound) {
+        form.dataset.bound = 'true';
+        form.addEventListener('submit', function (ev) {
+          ev.preventDefault();
+          var codeEl = document.getElementById('js-suggest-code');
+          var noteEl = document.getElementById('js-suggest-note');
+          var msg = document.getElementById('js-suggest-msg');
+          var code = ((codeEl && codeEl.value) || '').trim().toUpperCase();
+          var note = ((noteEl && noteEl.value) || '').trim().slice(0, 140);
+          var show = function (text, ok) {
+            if (!msg) return;
+            msg.textContent = text;
+            msg.classList.remove('hidden');
+            msg.classList.toggle('text-toxic-300', !!ok);
+            msg.classList.toggle('text-stone-400', !ok);
+          };
+          if (!/^[A-Z0-9]{3,24}$/.test(code)) {
+            show(labels().msgErr, false);
+            return;
+          }
+          if (knownCodes()[code]) {
+            show(labels().msgDup, false);
+            return;
+          }
+          var fp = '';
+          try {
+            var m = document.cookie.match(/lav_fp=([a-f0-9]{8})/);
+            if (m) fp = m[1];
+          } catch (e) {}
+          fetch('/api/suggest', {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ code: code, note: note, fp: fp }),
+          })
+            .then(function (r) { return r.json().then(function (d) { return { ok: r.ok, d: d }; }); })
+            .then(function (res) {
+              if (!res.ok && !res.d.duplicate) {
+                show(res.d.error === 'too many suggestions, try tomorrow' ? res.d.error : labels().msgErr, false);
+                return;
+              }
+              if (res.d.duplicate) {
+                show(labels().msgDup, false);
+                syncSuggestions();
+                return;
+              }
+              show(labels().msgOk, true);
+              if (codeEl) codeEl.value = '';
+              if (noteEl) noteEl.value = '';
+              syncSuggestions();
+            })
+            .catch(function () { show(labels().msgErr, false); });
+        });
+      }
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initCommunity);
+    } else {
+      initCommunity();
+    }
+    document.addEventListener('astro:page-load', initCommunity);
   })();
 </script>
 
