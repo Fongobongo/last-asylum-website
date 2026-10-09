@@ -1,0 +1,15 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import PatchNotes from '../../components/PatchNotes.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'vi';
+---
+
+<Base lang={lang} path="/vi/patch-notes/" title="Ghi chú cập nhật" description="Mọi thông tin bảo trì và cập nhật máy chủ Last Asylum: Plague, được tóm tắt — mới nhất lên đầu.">
+  <GuidePage title={`📜 ${t(lang, 'patchnotes.title')}`} description={t(lang, 'patchnotes.desc')} lang={lang}>
+    <PatchNotes />
+  </GuidePage>
+</Base>

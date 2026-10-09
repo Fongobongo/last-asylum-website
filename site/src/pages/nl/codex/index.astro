@@ -1,0 +1,27 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import CodexGrid from '../../../components/CodexGrid.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import { heroCodex } from '../../../data/heroCodex';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'nl';
+const base = lang === 'en' ? '' : `/${lang}`;
+---
+
+<Base lang={lang} path="/nl/codex/" title="Hero Codex" description="Elke belangrijke held in Last Asylum: Plague — vaardigheden, builds, teamnotities en hoe je ze kunt krijgen.">
+  <GuidePage
+    title="📖 Hero Codex"
+    description="Vaardigheden, build-prioriteiten en teamnotities voor elke relevante held — samengesteld uit community-gidsen."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/nl/' }, { label: 'Hero Codex' }]}
+  >
+    <p>Elke pagina: rol, hoe je de held krijgt, de vaardigheden die er echt toe doen, build-prioriteiten en de teamcombinaties waarin ze voorkomen. Voor ranglijsten, zie de <a href="/nl/tier-list/">Tierlijst</a>.</p>
+
+    <CodexGrid heroes={heroCodex} lang={lang} base={base} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

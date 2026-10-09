@@ -1,0 +1,38 @@
+---
+import Home from '../../components/Home.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'tr';
+
+const sections = [
+  { href: '/tr/beginners/', icon: '🌱', title: 'Başlangıç Rehberi', key: 'home.sections.beginners.desc', color: 'from-emerald-900/30' },
+  { href: '/tr/tips/', icon: '🧠', title: 'Profesyonel İpuçları ve Sırlar', key: 'home.sections.tips.desc', color: 'from-fuchsia-900/30' },
+  { href: '/tr/buildings/', icon: '🏗️', title: 'Binalar', key: 'home.sections.buildings.desc', color: 'from-amber-900/30' },
+  { href: '/tr/heroes/', icon: '🦸', title: 'Kahramanlar', key: 'home.sections.heroes.desc', color: 'from-red-900/30' },
+  { href: '/tr/economy/', icon: '💎', title: 'Ekonomi', key: 'home.sections.economy.desc', color: 'from-yellow-900/30' },
+  { href: '/tr/raven/', icon: '🐦', title: 'Raven ve Epigraflar', key: 'home.sections.raven.desc', color: 'from-violet-900/30' },
+  { href: '/tr/era/', icon: '🌅', title: 'Era of Revival', key: 'home.sections.era.desc', color: 'from-lime-900/30' },
+  { href: '/tr/codes/', icon: '🎁', title: 'Hediye Kodları', key: 'home.sections.codes.desc', color: 'from-cyan-900/30' },
+  { href: '/tr/patch-notes/', icon: '📝', title: 'Yama Notları', key: 'home.sections.patchnotes.desc', color: 'from-stone-700/30' },
+  { href: '/tr/calendar/', icon: '📅', title: 'Etkinlik Takvimi', key: 'home.sections.calendar.desc', color: 'from-indigo-900/30' },
+  { href: '/tr/tier-list/', icon: '🏆', title: 'Kademe Listesi', key: 'home.sections.tierlist.desc', color: 'from-rose-900/30' },
+  { href: '/tr/codex/', icon: '📖', title: 'Kahraman Kodeksi', key: 'home.sections.codex.desc', color: 'from-sky-900/30' },
+];
+
+const popular = [
+  { href: '/tr/might/', title: 'Güç Formülü ve Gelişim Stratejisi', desc: 'Resmi Discord rehberi: Antitoksin kasma, 60. Seviye ekipman yükseltme ve gerçek savaş gücü.' },
+  { href: '/tr/alliance/', title: 'İttifak Sistemi Rehberi', desc: 'İttifak Yardımı formülleri, teknoloji bağışları, 25. Seviye Hediye Ayrıcalığı ve R4/R5 yetkili rolleri.' },
+  { href: '/tr/events/supreme-duel/', title: 'Supreme Duel Etkinlik Rehberi', desc: '16-Warzone turnuvası: 3-birlik üzerinden 3'te 2 galibiyet, sıfır kayıp, tahmin jetonları ve şampiyon ödülleri.' },
+  { href: '/tr/tips/', title: 'Profesyonel İpuçları ve Gizli Mekanikler', desc: 'Anlık güçlendirmeler (snap-shotting), Hayalet Ralli, hastane kapasite aşımı ve gizli sıfırlama kuralları.' },
+  { href: '/tr/beginners/', title: 'İlk 24 Saatiniz', desc: 'Tüm hesabınızın kaderini belirleyen ilk gün kontrol listesi.' },
+  { href: '/tr/economy/', title: 'Elmas ve Mağaza Öncelikleri', desc: 'Her mağaza için kesin satın alma sırası ve asla satın alınmaması gerekenler.' },
+  { href: '/tr/heroes/', title: 'F2P Kadrosu', desc: 'Arthur, Daskal, Marlena, Harper, Claire — kanonik yol.' },
+  { href: '/tr/events/undead/', title: 'Undead Siege', desc: '9.5M oyuncuyu eleyen gizli 2-birlik dalga mekaniği.' },
+  { href: '/tr/events/alliance-duel/', title: 'Alliance Duel', desc: 'Parşömenleri 3. Aşama için, parçaları 4. Aşama için, hızlandırmaları 5. Aşama için saklayın.' },
+  { href: '/tr/events/dwarven-mine/', title: 'Dwarven Mine', desc: '750 kazma biriktirme kuralı ve 100. Katta MR planı.' },
+  { href: '/tr/events/pandemic-experience/', title: 'Pandemic Experience', desc: '1–9 arası zorluk kademesi, ittifak kilit açmaları ve zayıf kahraman ralli hilesi.' },
+  { href: '/tr/events/crystal-cluster/', title: 'Crystal Cluster Valley', desc: '1.5K puanda kırmızı yaratıklar, dakikada 5K maden — disiplinle F2P oyuncular balinaları geçer.' },
+];
+---
+
+<Home lang={lang} path="/tr/" sections={sections} popular={popular} />

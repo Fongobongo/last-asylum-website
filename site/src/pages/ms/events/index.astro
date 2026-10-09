@@ -1,0 +1,47 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import { t } from '../../../../i18n/ui';
+import type { Lang } from '../../../../i18n/utils';
+
+const lang: Lang = 'ms';
+const events = [
+  { slug: 'alliance-duel', name: 'Alliance Duel', icon: '⚔️', desc: 'Pertandingan pakatan enam hari dengan kategori mata harian, nilai mata tepat dan ekonomi simpan-segalanya.' },
+  { slug: 'elixir', name: 'Elixir Scramble', icon: '🧪', desc: 'Medan perang mata AvA 30 minit di mana kawalan, bukan pembunuhan, yang menentukan kemenangan — Healing Tents, keutamaan istana dan peraturan teleportasi.' },
+  { slug: 'kvk', name: 'Kingdom War (KvK)', icon: '🏰', desc: 'Perang antara pelayan untuk Royal City: serangan menara didahulukan, pertahanan taktik melengahkan masa dan risiko tentera sebenar.' },
+  { slug: 'undead', name: 'Undead Siege', icon: '🧟', desc: 'Pertahanan pakatan terhadap gelombang zombi — mekanik berbilang skuad tersembunyi, HP berterusan dan pencapaian ganjaran.' },
+  { slug: 'cheese', name: 'Cheese Trap', icon: '🧀', desc: 'Rali pakatan menentang tikus gergasi: ganjaran peribadi lima fasa, kolam HP pakatan kongsi dan matematik skala tahap.' },
+  { slug: 'thief', name: 'Thief Hunt', icon: '💰', desc: 'Gunakan stamina untuk memunculkan bos Thief Leader — mekanik kemunculan, teknik bunuh tanpa henti dan keutamaan pertukaran.' },
+  { slug: 'survival', name: 'Survival Battle', icon: '🛡️', desc: 'Acara misi mingguan bernilai ~60,000 Skill Badges percuma — penyelesaian murah dan pertindihan dengan Alliance Duel.' },
+  { slug: 'canyon', name: 'Canyon Conquest', icon: '🏜️', desc: 'Pertempuran geganti tiga lorong di mana ketahanan mengatasi kuasa — strategi keutamaan lorong dalam acara tanpa risiko.' },
+  { slug: 'mythic', name: 'Mythic Treasure', icon: '🗺️', desc: 'Acara lanun tujuh tab yang diterjemahkan untuk F2P: keutamaan pasaran, had 300 ikan dan permainan Buried Treasure.' },
+  { slug: 'royal', name: 'Royal Castle Scramble', icon: '👑', desc: 'Perlumbaan menawan istana mingguan — satu perarakan setiap pemain, 30 slot bantuan dan sistem gelaran Royal City penuh.' },
+  { slug: 'arena', name: 'Triangle Arena', icon: '🔺', desc: 'Tiga barisan, penyerang memilih dua untuk menang — pertahanan seimbang, perlawanan pengorbanan dan skuad perangkap Arena of Fate.' },
+  { slug: 'wagon', name: 'Guild Wagon & Caravans', icon: '🚚', desc: 'Larian wagon percuma harian, peraturan peti Guard, penyegaran Golden Wagon dan ladang serpihan UR karavan.' },
+  { slug: 'supreme-healer', name: 'Supreme Healer', icon: '🩺', desc: 'Jadual pemarkahan kompetitif 7 hari, pengurusan sumber hari demi hari, pengumpulan stamina dan pemasaan Antitoxin.' },
+  { slug: 'strike-first', name: 'Strike First', icon: '⚡', desc: 'Pecutan permulaan pelayan baharu — pencapaian Sanctuary, pembersihan Blight, mobilisasi tentera dan berlian awal.' },
+  { slug: 'final-dawn', name: 'Final Dawn', icon: '🌅', desc: 'Pecutan perkembangan pangkalan 7 hari — 4 fasa (Foundations hingga Final Push), baris gilir keutamaan dan pemasaan pecutan.' },
+  { slug: 'path-to-healing', name: 'Path to Healing', icon: '🕊️', desc: 'Jejak misi onboarding 5 hari — tugasan harian, peraturan wajib buka kunci VIP 5 dan mendapatkan 15 serpihan UR Arthur.' },
+  { slug: 'supreme-duel', name: 'Supreme Duel', icon: '🏆', desc: 'Mod kejohanan rentas zon perang — 16 Warzones, pertempuran maya 3-skuad best-of-3, kedai Prediction Coins dan gelaran Champion.' },
+  { slug: 'quiz-of-wisdom', name: 'Quiz of Wisdom', icon: '🧠', desc: 'Acara trivia dengan helaian jawapan 15/15: carian jawapan segera merangkumi mekanik, bangunan, puak, VIP dan lore.' },
+  { slug: 'demon-king', name: 'Demon King', icon: '👹', desc: 'Bos dunia dua minggu sekali (Selasa & Jumaat) — kelemahan Mage, 10 serangan harian dan helah panggil balik perarakan 30 saat.' },
+  { slug: 'secret-operations', name: 'Secret Operations Center', icon: '🕵️', desc: 'Tugasan sulit harian: peluang pusingan semula (UR 8%, SSR 24%), jaminan peti ke-16 dan peta harta karun 7 serpihan.' },
+  { slug: 'dwarven-mine', name: 'Dwarven Mine', icon: '⛏️', desc: 'Acara perlombongan 7 hari: peraturan mengumpul 750 pickaxe, ganjaran herba vs gearstone dan pelan tindakan MR di Tingkat 100.' },
+  { slug: 'pandemic-experience', name: 'Pandemic Experience', icon: '🧪', desc: 'Tangga kesukaran dua minggu sekali 1–9, buka kunci bos pakatan (40 pembersihan) dan helah rali wira lemah.' },
+  { slug: 'crystal-cluster', name: 'Crystal Cluster Valley', icon: '🔮', desc: 'Pergaduhan peta bermasa: ladang raksasa merah pada 1.5K mata setiap satu, tahan lombong kristal untuk 5K/min dan helah jam randik.' },
+];
+---
+<Base lang={lang} path="/ms/events/" title="Panduan Acara" description="Huraian lengkap setiap acara Last Asylum: Plague: jadual, pemarkahan, strategi, dan kesilapan yang perlu dielakkan.">
+  <section class="py-12">
+    <h1 class="mb-3 text-4xl font-bold text-plague-100">Panduan Acara</h1>
+    <p class="mb-10 text-lg text-stone-400">Huraian lengkap setiap acara Last Asylum: Plague: jadual, pemarkahan, strategi, dan kesilapan yang perlu dielakkan.</p>
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {events.map(e => (
+        <a href={`/ms/events/${e.slug}/`} class="group rounded-lg border border-stone-800 bg-stone-900 p-5 transition-colors hover:border-plague-600">
+          <span class="text-3xl">{e.icon}</span>
+          <h2 class="mt-3 text-lg font-bold text-plague-200 group-hover:text-plague-100">{e.name}</h2>
+          <p class="mt-2 text-sm text-stone-400">{e.desc}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</Base>

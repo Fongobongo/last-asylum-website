@@ -1,0 +1,38 @@
+---
+import Home from '../../components/Home.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'zh';
+
+const sections = [
+  { href: '/zh/beginners/', icon: '🌱', title: '新手指南', key: 'home.sections.beginners.desc', color: 'from-emerald-900/30' },
+  { href: '/zh/tips/', icon: '🧠', title: '进阶技巧与秘籍', key: 'home.sections.tips.desc', color: 'from-fuchsia-900/30' },
+  { href: '/zh/buildings/', icon: '🏗️', title: '建筑', key: 'home.sections.buildings.desc', color: 'from-amber-900/30' },
+  { href: '/zh/heroes/', icon: '🦸', title: '英雄', key: 'home.sections.heroes.desc', color: 'from-red-900/30' },
+  { href: '/zh/economy/', icon: '💎', title: '经济', key: 'home.sections.economy.desc', color: 'from-yellow-900/30' },
+  { href: '/zh/raven/', icon: '🐦', title: '渡鸦与铭文', key: 'home.sections.raven.desc', color: 'from-violet-900/30' },
+  { href: '/zh/era/', icon: '🌅', title: '复兴时代', key: 'home.sections.era.desc', color: 'from-lime-900/30' },
+  { href: '/zh/codes/', icon: '🎁', title: '礼包码', key: 'home.sections.codes.desc', color: 'from-cyan-900/30' },
+  { href: '/zh/patch-notes/', icon: '📝', title: '更新日志', key: 'home.sections.patchnotes.desc', color: 'from-stone-700/30' },
+  { href: '/zh/calendar/', icon: '📅', title: '活动日历', key: 'home.sections.calendar.desc', color: 'from-indigo-900/30' },
+  { href: '/zh/tier-list/', icon: '🏆', title: '强度榜', key: 'home.sections.tierlist.desc', color: 'from-rose-900/30' },
+  { href: '/zh/codex/', icon: '📖', title: '英雄图鉴', key: 'home.sections.codex.desc', color: 'from-sky-900/30' },
+];
+
+const popular = [
+  { href: '/zh/might/', title: '战力公式与成长策略', desc: '官方 Discord 指南：抗毒素刷取、60级装备进阶及真实战力解析。' },
+  { href: '/zh/alliance/', title: '联盟系统指南', desc: '联盟帮助公式、科技捐献、25级礼包特权及 R4/R5 官员职责。' },
+  { href: '/zh/events/supreme-duel/', title: '巅峰对决活动指南', desc: '16战区锦标赛：3队三局两胜制、零伤亡、预测币及冠军奖励。' },
+  { href: '/zh/tips/', title: '进阶技巧与隐藏机制', desc: 'Buff快照、幽灵集结、医院溢出及隐藏重置规则。' },
+  { href: '/zh/beginners/', title: '你的第一个24小时', desc: '决定你整个账号发展的首日清单。' },
+  { href: '/zh/economy/', title: '钻石与商店优先级', desc: '各商店的精确购买顺序，以及绝对不要买的东西。' },
+  { href: '/zh/heroes/', title: 'F2P 平民阵容', desc: 'Arthur, Daskal, Marlena, Harper, Claire —— 经典养成路线。' },
+  { href: '/zh/events/undead/', title: '不死族围城', desc: '导致950万玩家失败的隐藏2队波次机制。' },
+  { href: '/zh/events/alliance-duel/', title: '联盟对决', desc: '第三阶段存卷轴，第四阶段存碎片，第五阶段存加速。' },
+  { href: '/zh/events/dwarven-mine/', title: '矮人矿坑', desc: '750个十字镐囤积规则及100层的 MR 蓝图。' },
+  { href: '/zh/events/pandemic-experience/', title: '瘟疫体验', desc: '难度阶梯1-9、联盟解锁及弱势英雄集结技巧。' },
+  { href: '/zh/events/crystal-cluster/', title: '水晶簇山谷', desc: '红色怪物1.5K积分，矿点5K/分钟 —— F2P 靠纪律超越氪金大佬。' },
+];
+---
+
+<Home lang={lang} path="/zh/" sections={sections} popular={popular} />

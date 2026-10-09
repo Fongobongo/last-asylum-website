@@ -1,0 +1,38 @@
+---
+import Home from '../../components/Home.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ar';
+
+const sections = [
+  { href: '/ar/beginners/', icon: '🌱', title: 'دليل المبتدئين', key: 'home.sections.beginners.desc', color: 'from-emerald-900/30' },
+  { href: '/ar/tips/', icon: '🧠', title: 'نصائح وأسرار المحترفين', key: 'home.sections.tips.desc', color: 'from-fuchsia-900/30' },
+  { href: '/ar/buildings/', icon: '🏗️', title: 'المباني', key: 'home.sections.buildings.desc', color: 'from-amber-900/30' },
+  { href: '/ar/heroes/', icon: '🦸', title: 'الأبطال', key: 'home.sections.heroes.desc', color: 'from-red-900/30' },
+  { href: '/ar/economy/', icon: '💎', title: 'الاقتصاد', key: 'home.sections.economy.desc', color: 'from-yellow-900/30' },
+  { href: '/ar/raven/', icon: '🐦', title: 'Raven والنقوش', key: 'home.sections.raven.desc', color: 'from-violet-900/30' },
+  { href: '/ar/era/', icon: '🌅', title: 'عصر الإحياء (Era of Revival)', key: 'home.sections.era.desc', color: 'from-lime-900/30' },
+  { href: '/ar/codes/', icon: '🎁', title: 'رموز الهدايا', key: 'home.sections.codes.desc', color: 'from-cyan-900/30' },
+  { href: '/ar/patch-notes/', icon: '📝', title: 'ملاحظات التحديث', key: 'home.sections.patchnotes.desc', color: 'from-stone-700/30' },
+  { href: '/ar/calendar/', icon: '📅', title: 'تقويم الفعاليات', key: 'home.sections.calendar.desc', color: 'from-indigo-900/30' },
+  { href: '/ar/tier-list/', icon: '🏆', title: 'قائمة المستويات (Tier List)', key: 'home.sections.tierlist.desc', color: 'from-rose-900/30' },
+  { href: '/ar/codex/', icon: '📖', title: 'سجل الأبطال (Hero Codex)', key: 'home.sections.codex.desc', color: 'from-sky-900/30' },
+];
+
+const popular = [
+  { href: '/ar/might/', title: 'معادلة القوة واستراتيجية النمو', desc: 'دليل Discord الرسمي: زراعة الترياق، ترقية المعدات للمستوى 60، وقوة القتال الحقيقية.' },
+  { href: '/ar/alliance/', title: 'دليل نظام التحالف', desc: 'معادلات مساعدة التحالف، تبرعات التقنية، امتيازات الهدايا للمستوى 25، وأدوار ضباط R4/R5.' },
+  { href: '/ar/events/supreme-duel/', title: 'دليل فعالية المبارزة الكبرى (Supreme Duel)', desc: 'بطولة تضم 16 منطقة: 3 فرق بنظام الأفضل من 3، بدون خسائر، عملات التوقعات، ومكافآت البطل.' },
+  { href: '/ar/tips/', title: 'نصائح المحترفين والآليات الخفية', desc: 'تثبيت التعزيزات (Snap-shotting)، الحشد الوهمي (Ghost Rally)، فيضان المستشفى، وقواعد إعادة التعيين السرية.' },
+  { href: '/ar/beginners/', title: 'أول 24 ساعة لك', desc: 'قائمة المهام لليوم الأول التي تحدد مسار حسابك بالكامل.' },
+  { href: '/ar/economy/', title: 'أولويات الماس والمتجر', desc: 'ترتيب الشراء الدقيق لكل متجر، وما يجب تجنب شرائه نهائياً.' },
+  { href: '/ar/heroes/', title: 'فريق F2P', desc: 'Arthur، Daskal، Marlena، Harper، Claire — المسار الأساسي.' },
+  { href: '/ar/events/undead/', title: 'حصار الموتى (Undead Siege)', desc: 'آلية الموجة الخفية المكونة من فريقين التي تقضي على 9.5 مليون لاعب.' },
+  { href: '/ar/events/alliance-duel/', title: 'مبارزة التحالف (Alliance Duel)', desc: 'احفظ اللفائف للمرحلة 3، الشظايا للمرحلة 4، ومسرعات الوقت للمرحلة 5.' },
+  { href: '/ar/events/dwarven-mine/', title: 'منجم الأقزام (Dwarven Mine)', desc: 'قاعدة تجميع 750 معول ومخطط MR في الطابق 100.' },
+  { href: '/ar/events/pandemic-experience/', title: 'تجربة الوباء (Pandemic Experience)', desc: 'سلم الصعوبة من 1 إلى 9، فتحات التحالف، وخدعة حشد الأبطال الضعفاء.' },
+  { href: '/ar/events/crystal-cluster/', title: 'وادي عنقود الكريستال (Crystal Cluster Valley)', desc: 'الوحوش الحمراء عند 1.5 ألف نقطة، المناجم عند 5 آلاف/دقيقة — لاعبو F2P يتفوقون على الحيتان بالانضباط.' },
+];
+---
+
+<Home lang={lang} path="/ar/" sections={sections} popular={popular} />

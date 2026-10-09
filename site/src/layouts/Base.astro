@@ -21,7 +21,7 @@ const pageTitle = title ? `${title} — ${t(lang, 'site.title')}` : t(lang, 'sit
 const desc = description ?? t(lang, 'site.tagline');
 
 const site = Astro.site?.toString().replace(/\/$/, '') ?? '';
-const cleanPath = path.replace(/^\/(en|ru|es|pt|fr|de|id|ko|ja)?\/?/, '/') || '/';
+const cleanPath = path.replace(/^\/(en|ru|es|pt|fr|de|id|ko|ja|ar|it|ms|nl|th|tr|vi|zh)?\/?/, '/') || '/';
 const canonical = site + (lang === 'en' ? (cleanPath === '/' ? '/' : cleanPath) : `/${lang}${cleanPath === '/' ? '/' : cleanPath}`);
 
 // hreflang alternates for this page across available languages
@@ -56,7 +56,7 @@ const umamiSrc = import.meta.env.PUBLIC_UMAMI_SRC ?? '';
 ---
 
 <!doctype html>
-<html lang={lang}>
+<html lang={lang} dir={lang === 'ar' ? 'rtl' : 'ltr'}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />

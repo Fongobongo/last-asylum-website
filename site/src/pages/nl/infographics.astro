@@ -1,0 +1,25 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import InfographicGallery from '../../components/InfographicGallery.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'nl';
+---
+
+<Base lang={lang} path="/nl/infographics/" title="Infographics & Visuele Spiekbriefjes" description="Alle community-infographics, tactische posters en visuele spiekbriefjes voor Last Asylum: Plague.">
+  <GuidePage
+    title="📊 Infographics & Tactische Posters"
+    description="Visuele spiekbriefjes in hoge resolutie, gevechtsdiagrammen en upgrade-berekeningen, samengesteld door de beste strategen uit de community."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/' }, { label: 'Infographics' }]}
+  >
+    <p>Bekijk, filter en vergroot elk tactisch diagram voor Last Asylum: Plague. Klik op een afbeelding om de weergave op volledige resolutie te openen met zoom- en downloadopties.</p>
+
+    <InfographicGallery lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

@@ -1,0 +1,13 @@
+---
+import Base from '../../layouts/Base.astro';
+import ShopPage from '../../components/ShopPage.astro';
+import SupportContact from '../../components/SupportContact.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'tr';
+---
+
+<Base lang={lang} path="/tr/support/" title="Oyun Mağazası ve Yükleme | Last Asylum" description="İş ortağı platformu LDShop aracılığıyla Last Asylum: Plague elmasları ve paketleri yükleyin. UID ile anında teslimat, en iyi fırsatlar ve topluluk desteği.">
+  <ShopPage lang={lang} />
+  <SupportContact lang={lang} />
+</Base>

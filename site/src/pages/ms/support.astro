@@ -1,0 +1,13 @@
+---
+import Base from '../../layouts/Base.astro';
+import ShopPage from '../../components/ShopPage.astro';
+import SupportContact from '../../components/SupportContact.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ms';
+---
+
+<Base lang={lang} path="/ms/support/" title="Kedai Permainan & Tambah Nilai | Last Asylum" description="Tambah nilai berlian dan pek Last Asylum: Plague melalui platform rakan kongsi LDShop. Penghantaran segera melalui UID, tawaran terbaik, dan sokongan komuniti.">
+  <ShopPage lang={lang} />
+  <SupportContact lang={lang} />
+</Base>

@@ -1,0 +1,25 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import InfographicGallery from '../../components/InfographicGallery.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ar';
+---
+
+<Base lang={lang} path="/ar/infographics/" title="الرسوم البيانية وأوراق الغش المرئية" description="جميع الرسوم البيانية للمجتمع، والملصقات التكتيكية، وأوراق الغش المرئية للعبة Last Asylum: Plague.">
+  <GuidePage
+    title="📊 الرسوم البيانية والملصقات التكتيكية"
+    description="أوراق غش مرئية عالية الدقة، ومخططات معارك، وحسابات تطوير تم تجميعها من كبار استراتيجيي المجتمع."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/' }, { label: 'الرسوم البيانية' }]}
+  >
+    <p>تصفح، وفلتر، وقم بتكبير كل مخطط تكتيكي للعبة Last Asylum: Plague. انقر على أي صورة لفتح العرض عالي الدقة مع خيارات التكبير والتنزيل.</p>
+
+    <InfographicGallery lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

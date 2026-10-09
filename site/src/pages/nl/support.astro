@@ -1,0 +1,13 @@
+---
+import Base from '../../layouts/Base.astro';
+import ShopPage from '../../components/ShopPage.astro';
+import SupportContact from '../../components/SupportContact.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'nl';
+---
+
+<Base lang={lang} path="/nl/support/" title="Game Store & Opwaarderen | Last Asylum" description="Waardeer Last Asylum: Plague diamanten en pakketten op via partnerplatform LDShop. Directe levering via UID, beste deals en community-ondersteuning.">
+  <ShopPage lang={lang} />
+  <SupportContact lang={lang} />
+</Base>

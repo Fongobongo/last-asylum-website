@@ -1,0 +1,38 @@
+---
+import Home from '../../components/Home.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'nl';
+
+const sections = [
+  { href: '/nl/beginners/', icon: '🌱', title: 'Gids voor beginners', key: 'home.sections.beginners.desc', color: 'from-emerald-900/30' },
+  { href: '/nl/tips/', icon: '🧠', title: 'Pro-tips & Geheimen', key: 'home.sections.tips.desc', color: 'from-fuchsia-900/30' },
+  { href: '/nl/buildings/', icon: '🏗️', title: 'Gebouwen', key: 'home.sections.buildings.desc', color: 'from-amber-900/30' },
+  { href: '/nl/heroes/', icon: '🦸', title: 'Helden', key: 'home.sections.heroes.desc', color: 'from-red-900/30' },
+  { href: '/nl/economy/', icon: '💎', title: 'Economie', key: 'home.sections.economy.desc', color: 'from-yellow-900/30' },
+  { href: '/nl/raven/', icon: '🐦', title: 'Raven & Epigrafen', key: 'home.sections.raven.desc', color: 'from-violet-900/30' },
+  { href: '/nl/era/', icon: '🌅', title: 'Era of Revival', key: 'home.sections.era.desc', color: 'from-lime-900/30' },
+  { href: '/nl/codes/', icon: '🎁', title: 'Cadeaucodes', key: 'home.sections.codes.desc', color: 'from-cyan-900/30' },
+  { href: '/nl/patch-notes/', icon: '📝', title: 'Patch-opmerkingen', key: 'home.sections.patchnotes.desc', color: 'from-stone-700/30' },
+  { href: '/nl/calendar/', icon: '📅', title: 'Evenementenkalender', key: 'home.sections.calendar.desc', color: 'from-indigo-900/30' },
+  { href: '/nl/tier-list/', icon: '🏆', title: 'Tierlijst', key: 'home.sections.tierlist.desc', color: 'from-rose-900/30' },
+  { href: '/nl/codex/', icon: '📖', title: 'Helden-codex', key: 'home.sections.codex.desc', color: 'from-sky-900/30' },
+];
+
+const popular = [
+  { href: '/nl/might/', title: 'Krachtformule & Groeistrategie', desc: 'Officiële Discord-gids: Antitoxine farmen, Lv.60 uitrusting promotie en werkelijke gevechtskracht.' },
+  { href: '/nl/alliance/', title: 'Gids voor het Alliantiesysteem', desc: 'Formules voor Alliantiehulp, tech-donaties, Lv.25 Cadeau-privilege en R4/R5 officierrollen.' },
+  { href: '/nl/events/supreme-duel/', title: 'Supreme Duel Evenementgids', desc: 'Toernooi met 16-Warzone: 3-teams best-of-3, nul verliezen, voorspellingsmunten en kampioensbeloningen.' },
+  { href: '/nl/tips/', title: 'Pro-tips & Verborgen mechanieken', desc: 'Snap-shotting van buffs, Ghost Rally, ziekenhuisoverloop en geheime resetregels.' },
+  { href: '/nl/beginners/', title: 'Je eerste 24 uur', desc: 'De checklist voor de eerste dag die je hele account bepaalt.' },
+  { href: '/nl/economy/', title: 'Diamant & Winkelprioriteiten', desc: 'Exacte koopvolgorde voor elke winkel en wat je nooit moet kopen.' },
+  { href: '/nl/heroes/', title: 'Het F2P-team', desc: 'Arthur, Daskal, Marlena, Harper, Claire — het canonieke pad.' },
+  { href: '/nl/events/undead/', title: 'Undead Siege', desc: 'Het verborgen 2-team golfmechanisme dat 9,5 miljoen spelers uitschakelt.' },
+  { href: '/nl/events/alliance-duel/', title: 'Alliance Duel', desc: 'Bewaar rollen voor Fase 3, scherven voor Fase 4, versnellers voor Fase 5.' },
+  { href: '/nl/events/dwarven-mine/', title: 'Dwarven Mine', desc: 'De 750-houweel verzamelregel en het MR-blauwdruk op Verdieping 100.' },
+  { href: '/nl/events/pandemic-experience/', title: 'Pandemic Experience', desc: 'Moeilijkheidsgraad 1–9, alliantie-ontgrendelingen en de zwakke-held rally-truc.' },
+  { href: '/nl/events/crystal-cluster/', title: 'Crystal Cluster Valley', desc: 'Rode mobs op 1,5K punten, mijnen op 5K/min — F2P scoort beter dan whales door discipline.' },
+];
+---
+
+<Home lang={lang} path="/nl/" sections={sections} popular={popular} />

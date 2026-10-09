@@ -1,0 +1,27 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import CodexGrid from '../../../components/CodexGrid.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import { heroCodex } from '../../../data/heroCodex';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'tr';
+const base = lang === 'en' ? '' : `/${lang}`;
+---
+
+<Base lang={lang} path="/tr/codex/" title="Kahraman Kodeksi" description="Last Asylum: Plague oyunundaki her önemli kahraman; yetenekler, dizilimler, takım notları ve nasıl elde edilecekleri.">
+  <GuidePage
+    title="📖 Kahraman Kodeksi"
+    description="Topluluk rehberlerinden derlenen, önemli olan her kahraman için yetenekler, dizilim öncelikleri ve takım notları."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/tr/' }, { label: 'Kahraman Kodeksi' }]}
+  >
+    <p>Her sayfa: rol, kahramanın nasıl elde edileceği, gerçekten önemli olan yetenekler, dizilim öncelikleri ve yer aldıkları takım kompozisyonları. Sıralamalar için şuraya bakın: <a href="/tr/tier-list/">Kademe Listesi</a>.</p>
+
+    <CodexGrid heroes={heroCodex} lang={lang} base={base} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

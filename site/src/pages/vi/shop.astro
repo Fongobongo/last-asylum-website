@@ -1,0 +1,11 @@
+---
+import Base from '../../layouts/Base.astro';
+import ShopPage from '../../components/ShopPage.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'vi';
+---
+
+<Base lang={lang} path="/vi/shop/" title="Cửa hàng & Nạp tiền | Last Asylum" description="Nạp kim cương và các gói vật phẩm Last Asylum: Plague thông qua nền tảng đối tác LDShop. Giao dịch tức thì qua UID, ưu đãi tốt nhất và hỗ trợ cộng đồng.">
+  <ShopPage lang={lang} />
+</Base>

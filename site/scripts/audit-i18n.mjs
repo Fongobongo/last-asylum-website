@@ -56,7 +56,7 @@ for (const slug of enSlugs) {
   }
   // langs entirely absent
   const present = new Set(Object.keys(vers));
-  const absent = ['ru', 'de', 'es', 'fr', 'id', 'ja', 'ko', 'pt'].filter((l) => !present.has(l));
+  const absent = ['ru', 'de', 'es', 'fr', 'id', 'ja', 'ko', 'pt', 'ar', 'it', 'ms', 'nl', 'th', 'tr', 'vi', 'zh'].filter((l) => !present.has(l));
   if (absent.length || staleLangs.length) {
     if (absent.length) missing++;
     if (staleLangs.length) stale++;

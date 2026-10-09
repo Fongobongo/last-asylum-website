@@ -1,0 +1,38 @@
+---
+import Home from '../../components/Home.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ms';
+
+const sections = [
+  { href: '/ms/beginners/', icon: '🌱', title: 'Panduan Pemula', key: 'home.sections.beginners.desc', color: 'from-emerald-900/30' },
+  { href: '/ms/tips/', icon: '🧠', title: 'Tips Pro & Rahsia', key: 'home.sections.tips.desc', color: 'from-fuchsia-900/30' },
+  { href: '/ms/buildings/', icon: '🏗️', title: 'Bangunan', key: 'home.sections.buildings.desc', color: 'from-amber-900/30' },
+  { href: '/ms/heroes/', icon: '🦸', title: 'Hero', key: 'home.sections.heroes.desc', color: 'from-red-900/30' },
+  { href: '/ms/economy/', icon: '💎', title: 'Ekonomi', key: 'home.sections.economy.desc', color: 'from-yellow-900/30' },
+  { href: '/ms/raven/', icon: '🐦', title: 'Raven & Epigraph', key: 'home.sections.raven.desc', color: 'from-violet-900/30' },
+  { href: '/ms/era/', icon: '🌅', title: 'Era of Revival', key: 'home.sections.era.desc', color: 'from-lime-900/30' },
+  { href: '/ms/codes/', icon: '🎁', title: 'Kod Hadiah', key: 'home.sections.codes.desc', color: 'from-cyan-900/30' },
+  { href: '/ms/patch-notes/', icon: '📝', title: 'Nota Tampalan', key: 'home.sections.patchnotes.desc', color: 'from-stone-700/30' },
+  { href: '/ms/calendar/', icon: '📅', title: 'Kalendar Acara', key: 'home.sections.calendar.desc', color: 'from-indigo-900/30' },
+  { href: '/ms/tier-list/', icon: '🏆', title: 'Senarai Tier', key: 'home.sections.tierlist.desc', color: 'from-rose-900/30' },
+  { href: '/ms/codex/', icon: '📖', title: 'Kodex Hero', key: 'home.sections.codex.desc', color: 'from-sky-900/30' },
+];
+
+const popular = [
+  { href: '/ms/might/', title: 'Formula Might & Strategi Pertumbuhan', desc: 'Panduan Discord rasmi: Penternakan Antitoxin, promosi gear Lv.60, dan kuasa tempur sebenar.' },
+  { href: '/ms/alliance/', title: 'Panduan Sistem Alliance', desc: 'Formula Bantuan Alliance, sumbangan teknologi, Keistimewaan Hadiah Lv.25, dan peranan pegawai R4/R5.' },
+  { href: '/ms/events/supreme-duel/', title: 'Panduan Acara Supreme Duel', desc: 'Kejohanan 16-Warzone: 3-skuad best-of-3, sifar korban, syiling ramalan, dan ganjaran juara.' },
+  { href: '/ms/tips/', title: 'Tips Pro & Mekanik Tersembunyi', desc: 'Snap-shotting buff, Ghost Rally, hospital melimpah, dan peraturan tetapan semula rahsia.' },
+  { href: '/ms/beginners/', title: '24 Jam Pertama Anda', desc: 'Senarai semak hari pertama yang menentukan keseluruhan akaun anda.' },
+  { href: '/ms/economy/', title: 'Keutamaan Diamond & Kedai', desc: 'Urutan pembelian tepat untuk setiap kedai, dan apa yang tidak patut dibeli.' },
+  { href: '/ms/heroes/', title: 'Skuad F2P', desc: 'Arthur, Daskal, Marlena, Harper, Claire — laluan kanonik.' },
+  { href: '/ms/events/undead/', title: 'Undead Siege', desc: 'Mekanik gelombang 2-skuad tersembunyi yang membunuh 9.5 juta pemain.' },
+  { href: '/ms/events/alliance-duel/', title: 'Alliance Duel', desc: 'Simpan skrol untuk Fasa 3, shard untuk Fasa 4, speedup untuk Fasa 5.' },
+  { href: '/ms/events/dwarven-mine/', title: 'Dwarven Mine', desc: 'Peraturan mengumpul 750-pickaxe dan pelan tindakan MR di Tingkat 100.' },
+  { href: '/ms/events/pandemic-experience/', title: 'Pandemic Experience', desc: 'Tangga kesukaran 1–9, pembukaan kunci alliance, dan helah rally hero lemah.' },
+  { href: '/ms/events/crystal-cluster/', title: 'Crystal Cluster Valley', desc: 'Red mob pada 1.5K mata, lombong pada 5K/min — F2P mengatasi pemain berbayar melalui disiplin.' },
+];
+---
+
+<Home lang={lang} path="/ms/" sections={sections} popular={popular} />

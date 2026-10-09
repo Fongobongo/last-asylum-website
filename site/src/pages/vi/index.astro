@@ -1,0 +1,38 @@
+---
+import Home from '../../components/Home.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'vi';
+
+const sections = [
+  { href: '/vi/beginners/', icon: '🌱', title: 'Hướng dẫn cho người mới', key: 'home.sections.beginners.desc', color: 'from-emerald-900/30' },
+  { href: '/vi/tips/', icon: '🧠', title: 'Mẹo chuyên nghiệp & Bí mật', key: 'home.sections.tips.desc', color: 'from-fuchsia-900/30' },
+  { href: '/vi/buildings/', icon: '🏗️', title: 'Công trình', key: 'home.sections.buildings.desc', color: 'from-amber-900/30' },
+  { href: '/vi/heroes/', icon: '🦸', title: 'Anh hùng', key: 'home.sections.heroes.desc', color: 'from-red-900/30' },
+  { href: '/vi/economy/', icon: '💎', title: 'Kinh tế', key: 'home.sections.economy.desc', color: 'from-yellow-900/30' },
+  { href: '/vi/raven/', icon: '🐦', title: 'Raven & Văn bia', key: 'home.sections.raven.desc', color: 'from-violet-900/30' },
+  { href: '/vi/era/', icon: '🌅', title: 'Kỷ nguyên hồi sinh', key: 'home.sections.era.desc', color: 'from-lime-900/30' },
+  { href: '/vi/codes/', icon: '🎁', title: 'Mã quà tặng', key: 'home.sections.codes.desc', color: 'from-cyan-900/30' },
+  { href: '/vi/patch-notes/', icon: '📝', title: 'Ghi chú bản cập nhật', key: 'home.sections.patchnotes.desc', color: 'from-stone-700/30' },
+  { href: '/vi/calendar/', icon: '📅', title: 'Lịch sự kiện', key: 'home.sections.calendar.desc', color: 'from-indigo-900/30' },
+  { href: '/vi/tier-list/', icon: '🏆', title: 'Bảng xếp hạng', key: 'home.sections.tierlist.desc', color: 'from-rose-900/30' },
+  { href: '/vi/codex/', icon: '📖', title: 'Từ điển anh hùng', key: 'home.sections.codex.desc', color: 'from-sky-900/30' },
+];
+
+const popular = [
+  { href: '/vi/might/', title: 'Công thức sức mạnh & Chiến lược phát triển', desc: 'Hướng dẫn Discord chính thức: Farm thuốc giải, nâng cấp trang bị cấp 60 và sức mạnh chiến đấu thực tế.' },
+  { href: '/vi/alliance/', title: 'Hướng dẫn hệ thống Liên minh', desc: 'Công thức hỗ trợ liên minh, quyên góp công nghệ, đặc quyền quà tặng cấp 25 và vai trò sĩ quan R4/R5.' },
+  { href: '/vi/events/supreme-duel/', title: 'Hướng dẫn sự kiện Quyết đấu tối cao', desc: 'Giải đấu 16 vùng chiến sự: 3 đội hình đấu 3 thắng 2, không thương vong, xu dự đoán và phần thưởng quán quân.' },
+  { href: '/vi/tips/', title: 'Mẹo chuyên nghiệp & Cơ chế ẩn', desc: 'Chụp nhanh buff, tập hợp ma (Ghost Rally), tràn bệnh viện và các quy tắc đặt lại bí mật.' },
+  { href: '/vi/beginners/', title: '24 giờ đầu tiên của bạn', desc: 'Danh sách kiểm tra ngày đầu tiên quyết định toàn bộ tài khoản của bạn.' },
+  { href: '/vi/economy/', title: 'Ưu tiên Kim cương & Cửa hàng', desc: 'Thứ tự mua chính xác cho mọi cửa hàng và những thứ không bao giờ nên mua.' },
+  { href: '/vi/heroes/', title: 'Đội hình F2P', desc: 'Arthur, Daskal, Marlena, Harper, Claire — lộ trình chuẩn mực.' },
+  { href: '/vi/events/undead/', title: 'Cuộc vây hãm xác sống', desc: 'Cơ chế ẩn 2 đợt đội hình khiến 9,5 triệu người chơi thất bại.' },
+  { href: '/vi/events/alliance-duel/', title: 'Đấu trường liên minh', desc: 'Để dành cuộn cho Giai đoạn 3, mảnh cho Giai đoạn 4, tăng tốc cho Giai đoạn 5.' },
+  { href: '/vi/events/dwarven-mine/', title: 'Mỏ người lùn', desc: 'Quy tắc tích trữ 750 cuốc chim và bản thiết kế MR ở Tầng 100.' },
+  { href: '/vi/events/pandemic-experience/', title: 'Trải nghiệm đại dịch', desc: 'Thang độ khó 1–9, mở khóa liên minh và mẹo tập hợp anh hùng yếu.' },
+  { href: '/vi/events/crystal-cluster/', title: 'Thung lũng cụm pha lê', desc: 'Quái đỏ 1,5K điểm, mỏ 5K/phút — F2P vượt điểm người chơi nạp nhiều nhờ kỷ luật.' },
+];
+---
+
+<Home lang={lang} path="/vi/" sections={sections} popular={popular} />

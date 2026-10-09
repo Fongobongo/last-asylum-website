@@ -1,0 +1,38 @@
+---
+import Home from '../../components/Home.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'it';
+
+const sections = [
+  { href: '/it/beginners/', icon: '🌱', title: 'Guida per principianti', key: 'home.sections.beginners.desc', color: 'from-emerald-900/30' },
+  { href: '/it/tips/', icon: '🧠', title: 'Consigli da pro e segreti', key: 'home.sections.tips.desc', color: 'from-fuchsia-900/30' },
+  { href: '/it/buildings/', icon: '🏗️', title: 'Edifici', key: 'home.sections.buildings.desc', color: 'from-amber-900/30' },
+  { href: '/it/heroes/', icon: '🦸', title: 'Eroi', key: 'home.sections.heroes.desc', color: 'from-red-900/30' },
+  { href: '/it/economy/', icon: '💎', title: 'Economia', key: 'home.sections.economy.desc', color: 'from-yellow-900/30' },
+  { href: '/it/raven/', icon: '🐦', title: 'Raven ed Epigrafi', key: 'home.sections.raven.desc', color: 'from-violet-900/30' },
+  { href: '/it/era/', icon: '🌅', title: 'Era della Rinascita', key: 'home.sections.era.desc', color: 'from-lime-900/30' },
+  { href: '/it/codes/', icon: '🎁', title: 'Codici Regalo', key: 'home.sections.codes.desc', color: 'from-cyan-900/30' },
+  { href: '/it/patch-notes/', icon: '📝', title: 'Note sulla patch', key: 'home.sections.patchnotes.desc', color: 'from-stone-700/30' },
+  { href: '/it/calendar/', icon: '📅', title: 'Calendario eventi', key: 'home.sections.calendar.desc', color: 'from-indigo-900/30' },
+  { href: '/it/tier-list/', icon: '🏆', title: 'Tier List', key: 'home.sections.tierlist.desc', color: 'from-rose-900/30' },
+  { href: '/it/codex/', icon: '📖', title: 'Codex Eroi', key: 'home.sections.codex.desc', color: 'from-sky-900/30' },
+];
+
+const popular = [
+  { href: '/it/might/', title: 'Formula della Potenza e strategia di crescita', desc: 'Guida ufficiale Discord: farming di antitossina, promozione equipaggiamento Lv.60 e potenza di combattimento reale.' },
+  { href: '/it/alliance/', title: 'Guida al sistema di Alleanza', desc: 'Formule di aiuto dell'alleanza, donazioni tecnologiche, privilegio regalo Lv.25 e ruoli ufficiali R4/R5.' },
+  { href: '/it/events/supreme-duel/', title: 'Guida all'evento Duello Supremo', desc: 'Torneo tra 16 zone di guerra: 3 squadre al meglio delle 3, zero perdite, monete di previsione e ricompense per i campioni.' },
+  { href: '/it/tips/', title: 'Consigli da pro e meccaniche nascoste', desc: 'Snap-shotting dei buff, Ghost Rally, overflow dell'ospedale e regole segrete di reset.' },
+  { href: '/it/beginners/', title: 'Le tue prime 24 ore', desc: 'La lista di controllo del primo giorno che determina l'intero futuro del tuo account.' },
+  { href: '/it/economy/', title: 'Priorità per Diamanti e Negozio', desc: 'Ordine di acquisto esatto per ogni negozio e cosa non comprare mai.' },
+  { href: '/it/heroes/', title: 'La squadra F2P', desc: 'Arthur, Daskal, Marlena, Harper, Claire: il percorso canonico.' },
+  { href: '/it/events/undead/', title: 'Assedio dei Non Morti', desc: 'La meccanica nascosta dell'ondata a 2 squadre che elimina 9,5 milioni di giocatori.' },
+  { href: '/it/events/alliance-duel/', title: 'Duello tra Alleanze', desc: 'Risparmia le pergamene per la Fase 3, i frammenti per la Fase 4 e le accelerazioni per la Fase 5.' },
+  { href: '/it/events/dwarven-mine/', title: 'Miniera dei Nani', desc: 'La regola dell'accumulo di 750 picconi e il progetto MR al piano 100.' },
+  { href: '/it/events/pandemic-experience/', title: 'Esperienza Pandemica', desc: 'Scala di difficoltà 1-9, sblocchi dell'alleanza e il trucco del rally con eroi deboli.' },
+  { href: '/it/events/crystal-cluster/', title: 'Valle del Cluster di Cristallo', desc: 'Mob rossi a 1,5K punti, miniere a 5K/min: i giocatori F2P superano i balene grazie alla disciplina.' },
+];
+---
+
+<Home lang={lang} path="/it/" sections={sections} popular={popular} />

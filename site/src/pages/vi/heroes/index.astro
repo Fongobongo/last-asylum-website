@@ -1,0 +1,11 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import SquadBuilder from '../../../../components/SquadBuilder.astro';
+import HeroIndex from '../../../../components/HeroIndex.astro';
+import type { Lang } from '../../../../i18n/utils';
+const lang: Lang = 'vi';
+---
+<Base lang={lang} path="/vi/heroes/" title="Atlas Hướng dẫn: Anh hùng" description="Hướng dẫn anh hùng: kỹ năng, cách xây dựng, thăng cấp, nguồn mảnh.">
+  <HeroIndex lang={lang} />
+  <SquadBuilder lang={lang} />
+</Base>

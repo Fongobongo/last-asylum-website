@@ -1,0 +1,27 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import CodexGrid from '../../../components/CodexGrid.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import { heroCodex } from '../../../data/heroCodex';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'ms';
+const base = lang === 'en' ? '' : `/${lang}`;
+---
+
+<Base lang={lang} path="/ms/codex/" title="Kodex Wira" description="Setiap wira utama dalam Last Asylum: Plague — kemahiran, binaan, nota pasukan dan cara untuk mendapatkannya.">
+  <GuidePage
+    title="📖 Kodex Wira"
+    description="Kemahiran, keutamaan binaan dan nota pasukan untuk setiap wira yang penting — disusun daripada panduan komuniti."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/ms/' }, { label: 'Kodex Wira' }]}
+  >
+    <p>Setiap halaman: peranan, cara untuk mendapatkan wira, kemahiran yang benar-benar penting, keutamaan binaan dan komposisi pasukan di mana mereka muncul. Untuk kedudukan lihat <a href="/ms/tier-list/">Senarai Tier</a>.</p>
+
+    <CodexGrid heroes={heroCodex} lang={lang} base={base} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

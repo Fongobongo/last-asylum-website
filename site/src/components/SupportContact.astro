@@ -9,19 +9,103 @@ interface Props {
 const { lang } = Astro.props;
 const isRu = lang === 'ru';
 
+const STR: Record<string, Record<string, string>> = {
+  ar: {
+    title: 'هل تحتاج إلى مساعدة؟ تواصل معنا',
+    subtitle: 'للأخطاء البرمجية، الروابط المعطلة، أو أسئلة الأدلة — تواصل معنا عبر Discord أو البريد الإلكتروني.',
+    discordDesc: 'للأسئلة السريعة ومناقشة الأدلة',
+    discordBtn: 'افتح Discord ↗',
+    emailDesc: 'للأخطاء البرمجية، حقوق النشر (DMCA)، والشراكات',
+    guidesDesc: 'جميع المنشورات (أكثر من 60) في مكان واحد',
+    guidesBtn: 'تصفح الأدلة →',
+  },
+  it: {
+    title: 'Hai bisogno di aiuto? Contattaci',
+    subtitle: 'Bug, link non funzionanti, domande sulle guide: contattaci tramite Discord o email.',
+    discordDesc: 'Domande rapide e discussione sulle guide',
+    discordBtn: 'Apri Discord ↗',
+    emailDesc: 'Bug, DMCA, partnership',
+    guidesDesc: 'Tutte le oltre 60 pubblicazioni in un unico posto',
+    guidesBtn: 'Sfoglia le guide →',
+  },
+  ms: {
+    title: 'Perlukan bantuan? Hubungi kami',
+    subtitle: 'Pepijat, pautan rosak, soalan panduan — hubungi kami melalui Discord atau e-mel.',
+    discordDesc: 'Soalan pantas & perbincangan panduan',
+    discordBtn: 'Buka Discord ↗',
+    emailDesc: 'Pepijat, DMCA, perkongsian',
+    guidesDesc: 'Kesemua 60+ penerbitan di satu tempat',
+    guidesBtn: 'Lihat panduan →',
+  },
+  nl: {
+    title: 'Hulp nodig? Neem contact met ons op',
+    subtitle: 'Bugs, kapotte links, vragen over gidsen — neem contact op via Discord of e-mail.',
+    discordDesc: 'Snelle vragen & discussie over gidsen',
+    discordBtn: 'Open Discord ↗',
+    emailDesc: 'Bugs, DMCA, samenwerkingen',
+    guidesDesc: 'Alle 60+ publicaties op één plek',
+    guidesBtn: 'Bekijk gidsen →',
+  },
+  th: {
+    title: 'ต้องการความช่วยเหลือ? ติดต่อเรา',
+    subtitle: 'บั๊ก, ลิงก์เสีย, คำถามเกี่ยวกับคู่มือ — ติดต่อเราผ่าน Discord หรืออีเมล',
+    discordDesc: 'สอบถามข้อมูลด่วน & พูดคุยเกี่ยวกับคู่มือ',
+    discordBtn: 'เปิด Discord ↗',
+    emailDesc: 'บั๊ก, DMCA, การเป็นหุ้นส่วน',
+    guidesDesc: 'รวมบทความกว่า 60+ รายการไว้ในที่เดียว',
+    guidesBtn: 'เรียกดูคู่มือ →',
+  },
+  th: {
+    title: 'ต้องการความช่วยเหลือ? ติดต่อเรา',
+    subtitle: 'บั๊ก, ลิงก์เสีย, คำถามเกี่ยวกับคู่มือ — ติดต่อเราผ่าน Discord หรืออีเมล',
+    discordDesc: 'สอบถามข้อมูลด่วน & พูดคุยเกี่ยวกับคู่มือ',
+    discordBtn: 'เปิด Discord ↗',
+    emailDesc: 'บั๊ก, DMCA, การเป็นหุ้นส่วน',
+    guidesDesc: 'รวมบทความกว่า 60+ รายการไว้ในที่เดียว',
+    guidesBtn: 'เรียกดูคู่มือ →',
+  },
+  tr: {
+    title: 'Yardıma mı ihtiyacınız var? Bize ulaşın',
+    subtitle: 'Hatalar, bozuk bağlantılar, rehber soruları — Discord veya e-posta yoluyla bize ulaşın.',
+    discordDesc: 'Hızlı sorular ve rehber tartışmaları',
+    discordBtn: 'Discord\'u aç ↗',
+    emailDesc: 'Hatalar, DMCA, ortaklıklar',
+    guidesDesc: '60\'tan fazla yayının tamamı tek bir yerde',
+    guidesBtn: 'Rehberlere göz at →',
+  },
+  vi: {
+    title: 'Cần trợ giúp? Liên hệ với chúng tôi',
+    subtitle: 'Lỗi, liên kết hỏng, câu hỏi về hướng dẫn — hãy liên hệ qua Discord hoặc email.',
+    discordDesc: 'Câu hỏi nhanh & thảo luận về hướng dẫn',
+    discordBtn: 'Mở Discord ↗',
+    emailDesc: 'Lỗi, DMCA, hợp tác',
+    guidesDesc: 'Tất cả hơn 60 bài viết tại một nơi',
+    guidesBtn: 'Xem hướng dẫn →',
+  },
+  zh: {
+    title: '需要帮助？联系我们',
+    subtitle: '漏洞反馈、链接失效、指南疑问 — 请通过 Discord 或电子邮件联系我们。',
+    discordDesc: '快速提问与指南讨论',
+    discordBtn: '打开 Discord ↗',
+    emailDesc: '漏洞、DMCA、商务合作',
+    guidesDesc: '汇集全部 60+ 篇指南',
+    guidesBtn: '浏览指南 →',
+  },
+};
+const s = (ru: string, en: string, k: string) =>
+  lang === 'ru' ? ru : ((STR as any)[lang]?.[k] ?? en);
+
 const T = {
-  title: isRu ? 'Нужна помощь? Свяжитесь с нами' : 'Need help? Contact us',
-  subtitle: isRu
-    ? 'Баги, битые ссылки, вопросы по гайдам — пишите, отвечаем в Discord и по почте.'
-    : 'Bugs, broken links, guide questions — reach out via Discord or email.',
+  title: s('Нужна помощь? Свяжитесь с нами', 'Need help? Contact us', 'title'),
+  subtitle: s('Баги, битые ссылки, вопросы по гайдам — пишите, отвечаем в Discord и по почте.', 'Bugs, broken links, guide questions — reach out via Discord or email.', 'subtitle'),
   discordTitle: 'Discord',
-  discordDesc: isRu ? 'Быстрые вопросы и обсуждение гайдов' : 'Quick questions & guide discussion',
-  discordBtn: isRu ? 'Открыть Discord ↗' : 'Open Discord ↗',
+  discordDesc: s('Быстрые вопросы и обсуждение гайдов', 'Quick questions & guide discussion', 'discordDesc'),
+  discordBtn: s('Открыть Discord ↗', 'Open Discord ↗', 'discordBtn'),
   emailTitle: 'Email',
-  emailDesc: isRu ? 'Баги, DMCA, сотрудничество' : 'Bugs, DMCA, partnerships',
-  guidesTitle: isRu ? 'Каталог гайдов' : 'Guides index',
-  guidesDesc: isRu ? 'Все 60+ публикаций в одном месте' : 'All 60+ publications in one place',
-  guidesBtn: isRu ? 'Открыть гайды →' : 'Browse guides →',
+  emailDesc: s('Баги, DMCA, сотрудничество', 'Bugs, DMCA, partnerships', 'emailDesc'),
+  guidesTitle: s('Каталог гайдов', 'Guides index', 'guidesTitle'),
+  guidesDesc: s('Все 60+ публикаций в одном месте', 'All 60+ publications in one place', 'guidesDesc'),
+  guidesBtn: s('Открыть гайды →', 'Browse guides →', 'guidesBtn'),
 };
 
 // Links come from src/data/community.ts — single source of truth.

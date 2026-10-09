@@ -1,0 +1,27 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import CodexGrid from '../../../components/CodexGrid.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import { heroCodex } from '../../../data/heroCodex';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'zh';
+const base = lang === 'en' ? '' : `/${lang}`;
+---
+
+<Base lang={lang} path="/zh/codex/" title="英雄图鉴" description="Last Asylum: Plague 中每一位关键英雄的技能、养成方案、队伍建议及获取方式。">
+  <GuidePage
+    title="📖 英雄图鉴"
+    description="汇集社区指南，涵盖所有重要英雄的技能、养成优先级及队伍建议。"
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/zh/' }, { label: '英雄图鉴' }]}
+  >
+    <p>每个页面包含：定位、英雄获取方式、核心技能解析、养成优先级以及适用的队伍阵容。 <a href="/zh/tier-list/">强度榜</a>.</p>
+
+    <CodexGrid heroes={heroCodex} lang={lang} base={base} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

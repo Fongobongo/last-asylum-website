@@ -8,6 +8,14 @@ import { faqId } from '../data/faqId';
 import { faqJa } from '../data/faqJa';
 import { faqKo } from '../data/faqKo';
 import { faqPt } from '../data/faqPt';
+import { faqAr } from '../data/faqAr';
+import { faqIt } from '../data/faqIt';
+import { faqMs } from '../data/faqMs';
+import { faqNl } from '../data/faqNl';
+import { faqTh } from '../data/faqTh';
+import { faqTr } from '../data/faqTr';
+import { faqVi } from '../data/faqVi';
+import { faqZh } from '../data/faqZh';
 import type { Lang } from '../i18n/utils';
 
 interface Props {
@@ -26,6 +34,14 @@ const faqByLang: Record<string, { q: string; a: string }[]> = {
   ja: faqJa,
   ko: faqKo,
   pt: faqPt,
+  ar: faqAr,
+  it: faqIt,
+  ms: faqMs,
+  nl: faqNl,
+  th: faqTh,
+  tr: faqTr,
+  vi: faqVi,
+  zh: faqZh,
 };
 
 const faq = faqByLang[lang] ?? faqEn;
@@ -40,6 +56,14 @@ const headings: Record<string, string> = {
   ja: '❓ FAQ — よくある質問',
   ko: '❓ FAQ — 자주 묻는 질문',
   pt: '❓ FAQ — Perguntas frequentes',
+  ar: '❓ الأسئلة الشائعة',
+  it: '❓ FAQ — Domande frequenti',
+  ms: '❓ FAQ — Soalan Lazim',
+  nl: '❓ FAQ — Veelgestelde vragen',
+  th: '❓ FAQ — คำถามที่พบบ่อย',
+  tr: '❓ FAQ — Sık sorulan sorular',
+  vi: '❓ FAQ — Câu hỏi thường gặp',
+  zh: '❓ FAQ — 常见问题',
 };
 
 const schema = JSON.stringify({

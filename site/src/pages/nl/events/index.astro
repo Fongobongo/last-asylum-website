@@ -1,0 +1,47 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import { t } from '../../../../i18n/ui';
+import type { Lang } from '../../../../i18n/utils';
+
+const lang: Lang = 'nl';
+const events = [
+  { slug: 'alliance-duel', name: 'Alliantieduel', icon: '⚔️', desc: 'Zesdaagse alliantiecompetitie met dagelijkse puntencategorieën, exacte puntwaarden en de 'bewaar-alles'-economie.' },
+  { slug: 'elixir', name: 'Elixir Scramble', icon: '🧪', desc: '30 minuten durend AvA-puntengevecht waarbij controle, niet kills, de winst bepaalt — Genezingstenten, kasteelprioriteit en teleportatieregels.' },
+  { slug: 'kvk', name: 'Kingdom War (KvK)', icon: '🏰', desc: 'Server-tegen-server oorlog om de Royal City: aanvallen op geschutskoepels, verdediging met vertragingstactieken en echt troepenrisico.' },
+  { slug: 'undead', name: 'Undead Siege', icon: '🧟', desc: 'Alliantieverdediging tegen golven geïnfecteerden — het verborgen multi-squad mechanisme, blijvende HP en beloningsmijlpalen.' },
+  { slug: 'cheese', name: 'Cheese Trap', icon: '🧀', desc: 'Alliantie-rally tegen de reuzenrat: persoonlijke beloningen in vijf fasen, gedeelde alliantie-HP-pool en wiskunde voor niveauschaalvergroting.' },
+  { slug: 'thief', name: 'Thief Hunt', icon: '💰', desc: 'Gebruik stamina om Thief Leader-bazen te spawnen — spawnmechanieken, de non-stop kill-techniek en uitwisselingsprioriteiten.' },
+  { slug: 'survival', name: 'Survival Battle', icon: '🛡️', desc: 'Wekelijks missie-evenement ter waarde van ~60.000 gratis Skill Badges — goedkope voltooiingen en de overlap met het Alliantieduel.' },
+  { slug: 'canyon', name: 'Canyon Conquest', icon: '🏜️', desc: 'Relay-gevecht met drie banen waarbij uithoudingsvermogen wint van kracht — strategie voor baanprioriteit in een risicoloos evenement.' },
+  { slug: 'mythic', name: 'Mythic Treasure', icon: '🗺️', desc: 'Het piratenevenement met zeven tabbladen ontcijferd voor F2P: marktprioriteiten, de limiet van 300 vissen en de Buried Treasure-speelstijl.' },
+  { slug: 'royal', name: 'Royal Castle Scramble', icon: '👑', desc: 'Wekelijkse kasteelveroveringsrace — één mars per speler, versterking met 30 slots en het volledige Royal City-tittelsysteem.' },
+  { slug: 'arena', name: 'Triangle Arena', icon: '🔺', desc: 'Drie opstellingen, de aanvaller kiest er twee om te verslaan — evenwichtige verdediging, offer-matchups en het Arena of Fate valstrik-team.' },
+  { slug: 'wagon', name: 'Guild Wagon & Caravans', icon: '🚚', desc: 'Dagelijkse gratis wagonritten, regels voor Guard-kisten, Golden Wagon-verversingen en de caravan UR-shard farm.' },
+  { slug: 'supreme-healer', name: 'Supreme Healer', icon: '🩺', desc: '7-daags competitief puntenschema, dagelijks beheer van grondstoffen, stamina-voorraad en timing van Antitoxine.' },
+  { slug: 'strike-first', name: 'Strike First', icon: '⚡', desc: 'Nieuwe server-startersprint — Sanctuary-mijlpalen, Blight-zuivering, militaire mobilisatie en vroege diamanten.' },
+  { slug: 'final-dawn', name: 'Final Dawn', icon: '🌅', desc: '7-daagse basisvoortgangssprint — de 4 fasen (Foundations tot Final Push), prioriteitswachtrij en timing van versnellingen.' },
+  { slug: 'path-to-healing', name: 'Path to Healing', icon: '🕊️', desc: '5-daags onboarding-missietraject — dagelijkse taken, de verplichte VIP 5-ontgrendelingsregel en het veiligstellen van 15 UR Arthur-fragmenten.' },
+  { slug: 'supreme-duel', name: 'Supreme Duel', icon: '🏆', desc: 'Cross-warzone toernooimodus — 16 Warzones, 3-squad best-of-3 virtuele gevechten, Prediction Coins-winkel en kampioenstitel.' },
+  { slug: 'quiz-of-wisdom', name: 'Quiz of Wisdom', icon: '🧠', desc: 'Trivia-evenement met 15/15 Q&A spiekbriefje: directe antwoorden over mechanieken, gebouwen, facties, VIP en lore.' },
+  { slug: 'demon-king', name: 'Demon King', icon: '👹', desc: 'Tweewekelijkse wereldbas (dinsdag & vrijdag) — Mage-kwetsbaarheid, 10 aanvallen per dag en de 30-seconden mars-terughaal-truc.' },
+  { slug: 'secret-operations', name: 'Secret Operations Center', icon: '🕵️', desc: 'Dagelijkse clandestiene taken: reroll-kansen (UR 8%, SSR 24%), 16e kist-garantie en schatkaarten met 7 fragmenten.' },
+  { slug: 'dwarven-mine', name: 'Dwarven Mine', icon: '⛏️', desc: '7-daags mijnbouwevenement: de 750-houweel-opslagregel, kruiden vs. gearstone-beloningen en de MR-blauwdruk op verdieping 100.' },
+  { slug: 'pandemic-experience', name: 'Pandemic Experience', icon: '🧪', desc: 'Tweewekelijkse moeilijkheidsgraadladder 1–9, alliantie-bas-ontgrendelingen (40 clears) en de zwakke-held rally-truc.' },
+  { slug: 'crystal-cluster', name: 'Crystal Cluster Valley', icon: '🔮', desc: 'Getimed kaartgevecht: farm rode mobs voor 1,5K punten per stuk, houd kristalmijnen voor 5K/min en de stopwatch-truc.' },
+];
+---
+<Base lang={lang} path="/nl/events/" title="Eventgidsen" description="Volledige analyses van elk Last Asylum: Plague-event: schema's, puntentelling, strategie en fouten om te vermijden.">
+  <section class="py-12">
+    <h1 class="mb-3 text-4xl font-bold text-plague-100">Eventgidsen</h1>
+    <p class="mb-10 text-lg text-stone-400">Volledige analyses van elk Last Asylum: Plague-event: schema's, puntentelling, strategie en fouten om te vermijden.</p>
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {events.map(e => (
+        <a href={`/nl/events/${e.slug}/`} class="group rounded-lg border border-stone-800 bg-stone-900 p-5 transition-colors hover:border-plague-600">
+          <span class="text-3xl">{e.icon}</span>
+          <h2 class="mt-3 text-lg font-bold text-plague-200 group-hover:text-plague-100">{e.name}</h2>
+          <p class="mt-2 text-sm text-stone-400">{e.desc}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</Base>

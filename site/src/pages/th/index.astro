@@ -1,0 +1,38 @@
+---
+import Home from '../../components/Home.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'th';
+
+const sections = [
+  { href: '/th/beginners/', icon: '🌱', title: 'คู่มือสำหรับผู้เริ่มต้น', key: 'home.sections.beginners.desc', color: 'from-emerald-900/30' },
+  { href: '/th/tips/', icon: '🧠', title: 'เคล็ดลับและเทคนิคระดับโปร', key: 'home.sections.tips.desc', color: 'from-fuchsia-900/30' },
+  { href: '/th/buildings/', icon: '🏗️', title: 'สิ่งก่อสร้าง', key: 'home.sections.buildings.desc', color: 'from-amber-900/30' },
+  { href: '/th/heroes/', icon: '🦸', title: 'ฮีโร่', key: 'home.sections.heroes.desc', color: 'from-red-900/30' },
+  { href: '/th/economy/', icon: '💎', title: 'เศรษฐกิจ', key: 'home.sections.economy.desc', color: 'from-yellow-900/30' },
+  { href: '/th/raven/', icon: '🐦', title: 'Raven และ Epigraphs', key: 'home.sections.raven.desc', color: 'from-violet-900/30' },
+  { href: '/th/era/', icon: '🌅', title: 'Era of Revival', key: 'home.sections.era.desc', color: 'from-lime-900/30' },
+  { href: '/th/codes/', icon: '🎁', title: 'โค้ดของขวัญ', key: 'home.sections.codes.desc', color: 'from-cyan-900/30' },
+  { href: '/th/patch-notes/', icon: '📝', title: 'บันทึกการอัปเดต', key: 'home.sections.patchnotes.desc', color: 'from-stone-700/30' },
+  { href: '/th/calendar/', icon: '📅', title: 'ปฏิทินกิจกรรม', key: 'home.sections.calendar.desc', color: 'from-indigo-900/30' },
+  { href: '/th/tier-list/', icon: '🏆', title: 'รายการจัดอันดับ (Tier List)', key: 'home.sections.tierlist.desc', color: 'from-rose-900/30' },
+  { href: '/th/codex/', icon: '📖', title: 'สมุดภาพฮีโร่', key: 'home.sections.codex.desc', color: 'from-sky-900/30' },
+];
+
+const popular = [
+  { href: '/th/might/', title: 'สูตรคำนวณพลังและการเติบโต', desc: 'คู่มือจาก Discord ทางการ: การฟาร์มยาแก้พิษ, การอัปเกรดอุปกรณ์เลเวล 60 และพลังต่อสู้ที่แท้จริง' },
+  { href: '/th/alliance/', title: 'คู่มือระบบพันธมิตร', desc: 'สูตรการช่วยเหลือพันธมิตร, การบริจาคเทคโนโลยี, สิทธิพิเศษของขวัญเลเวล 25 และบทบาทเจ้าหน้าที่ R4/R5' },
+  { href: '/th/events/supreme-duel/', title: 'คู่มือกิจกรรม Supreme Duel', desc: 'ทัวร์นาเมนต์ 16-Warzone: จัด 3 กองทัพแบบ Best-of-3, ไม่มีการสูญเสียทหาร, เหรียญทายผล และรางวัลแชมเปี้ยน' },
+  { href: '/th/tips/', title: 'เคล็ดลับและกลไกที่ซ่อนอยู่', desc: 'การทำ Snap-shotting บัฟ, Ghost Rally, การจัดการโรงพยาบาลล้น และกฎการรีเซ็ตลับ' },
+  { href: '/th/beginners/', title: '24 ชั่วโมงแรกของคุณ', desc: 'รายการสิ่งที่ต้องทำในวันแรกที่จะกำหนดทิศทางทั้งบัญชีของคุณ' },
+  { href: '/th/economy/', title: 'ลำดับความสำคัญของเพชรและร้านค้า', desc: 'ลำดับการซื้อที่แม่นยำสำหรับทุกร้านค้า และสิ่งที่ห้ามซื้อเด็ดขาด' },
+  { href: '/th/heroes/', title: 'ทีมสำหรับสาย F2P', desc: 'Arthur, Daskal, Marlena, Harper, Claire — เส้นทางมาตรฐานสำหรับผู้เล่น' },
+  { href: '/th/events/undead/', title: 'Undead Siege', desc: 'กลไกคลื่นศัตรู 2 กองทัพที่ซ่อนอยู่ซึ่งสังหารผู้เล่นไปกว่า 9.5 ล้านคน' },
+  { href: '/th/events/alliance-duel/', title: 'Alliance Duel', desc: 'เก็บม้วนคัมภีร์ไว้ใช้เฟส 3, เศษฮีโร่สำหรับเฟส 4 และไอเทมเร่งความเร็วสำหรับเฟส 5' },
+  { href: '/th/events/dwarven-mine/', title: 'Dwarven Mine', desc: 'กฎการสะสมจอบขุด 750 อัน และพิมพ์เขียว MR ที่ชั้น 100' },
+  { href: '/th/events/pandemic-experience/', title: 'Pandemic Experience', desc: 'ระดับความยาก 1–9, การปลดล็อกของพันธมิตร และเทคนิคการ Rally ด้วยฮีโร่ที่อ่อนแอ' },
+  { href: '/th/events/crystal-cluster/', title: 'Crystal Cluster Valley', desc: 'มอนสเตอร์แดงที่ 1.5K แต้ม, เหมืองที่ 5K/นาที — สาย F2P ก็ทำคะแนนชนะสายเปย์ได้ด้วยวินัย' },
+];
+---
+
+<Home lang={lang} path="/th/" sections={sections} popular={popular} />

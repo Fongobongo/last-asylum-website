@@ -1,0 +1,25 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import InfographicGallery from '../../components/InfographicGallery.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'th';
+---
+
+<Base lang={lang} path="/th/infographics/" title="อินโฟกราฟิกและชีทสรุปข้อมูล" description="รวบรวมอินโฟกราฟิก โปสเตอร์กลยุทธ์ และชีทสรุปข้อมูลทั้งหมดสำหรับ Last Asylum: Plague">
+  <GuidePage
+    title="📊 อินโฟกราฟิกและโปสเตอร์กลยุทธ์"
+    description="สรุปข้อมูลภาพความละเอียดสูง แผนภาพการต่อสู้ และการคำนวณการอัปเกรดที่รวบรวมจากนักวางกลยุทธ์ชั้นนำของชุมชน"
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/' }, { label: 'อินโฟกราฟิก' }]}
+  >
+    <p>เรียกดู กรอง และขยายแผนภาพกลยุทธ์ทั้งหมดสำหรับ Last Asylum: Plague คลิกที่รูปภาพใดก็ได้เพื่อเปิดมุมมองความละเอียดสูงพร้อมตัวเลือกการซูมและดาวน์โหลด</p>
+
+    <InfographicGallery lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

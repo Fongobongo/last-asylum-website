@@ -1,0 +1,13 @@
+---
+import Base from '../../layouts/Base.astro';
+import ShopPage from '../../components/ShopPage.astro';
+import SupportContact from '../../components/SupportContact.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'zh';
+---
+
+<Base lang={lang} path="/zh/support/" title="游戏商店与充值 | Last Asylum" description="通过合作平台 LDShop 为《Last Asylum: Plague》充值钻石和礼包。支持 UID 即时到账，享受最优价格及社区支持。">
+  <ShopPage lang={lang} />
+  <SupportContact lang={lang} />
+</Base>

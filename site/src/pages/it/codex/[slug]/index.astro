@@ -1,0 +1,37 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import HeroCodexDetail from '../../../../components/HeroCodexDetail.astro';
+import { heroCodex } from '../../../../data/heroCodex';
+import type { Lang } from '../../../../i18n/utils';
+import officialHeroesData from '../../../../data/officialHeroes.json';
+
+const lang: Lang = 'it';
+
+export function getStaticPaths() {
+  return heroCodex.map((hero) => ({
+    params: { slug: hero.slug },
+    props: { hero },
+  }));
+}
+
+const { hero } = Astro.props;
+const officialData = hero.officialId ? (officialHeroesData as any)[hero.officialId.toString()] : null;
+const heroDisplayName = officialData?.names?.[lang] || hero.names?.[lang] || hero.name;
+---
+
+<Base
+  lang={lang}
+  path={`/it/codex/${hero.slug}/`}
+  title={`${heroDisplayName} — Guida agli Eroi e Abilità Ufficiali}
+  description={hero.role}
+>
+  <HeroCodexDetail
+    hero={hero}
+    lang={lang}
+    breadcrumbs={[
+      { label: 'Start', href: '/it/' },
+      { label: 'Helden-Kodex', href: '/it/codex/' },
+      { label: heroDisplayName }
+    ]}
+  />
+</Base>

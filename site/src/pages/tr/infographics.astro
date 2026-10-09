@@ -1,0 +1,25 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import InfographicGallery from '../../components/InfographicGallery.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'tr';
+---
+
+<Base lang={lang} path="/tr/infographics/" title="İnfografikler ve Görsel Hile Sayfaları" description="Last Asylum: Plague için tüm topluluk infografikleri, taktik posterleri ve görsel hile sayfaları.">
+  <GuidePage
+    title="📊 İnfografikler ve Taktiksel Posterler"
+    description="Topluluğun en iyi stratejistleri tarafından derlenen yüksek çözünürlüklü görsel kopya kağıtları, savaş diyagramları ve yükseltme hesaplamaları."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/' }, { label: 'İnfografikler' }]}
+  >
+    <p>Last Asylum: Plague için her taktiksel diyagrama göz atın, filtreleyin ve büyütün. Yakınlaştırma ve indirme seçenekleriyle tam çözünürlüklü görünümü açmak için herhangi bir görsele tıklayın.</p>
+
+    <InfographicGallery lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

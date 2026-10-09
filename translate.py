@@ -7,7 +7,7 @@ import os, re, json, time, sys, urllib.request, pathlib
 KEY = os.environ['GEMINI_API_KEY']
 MODELS = ["gemini-3.1-flash-lite"]*4 + ["gemini-2.5-flash-lite", "gemini-2.5-flash"]
 
-LANGS = ['de','es','fr','id','ja','ko','pt']
+LANGS = ['de','es','fr','id','ja','ko','pt','ar','it','ms','nl','th','tr','vi','zh']
 BASER = pathlib.Path('site/content/guides')
 
 GLOSSARY = {
@@ -31,7 +31,7 @@ def call(prompt, text, lang):
         url = "https://generativelanguage.googleapis.com/v1beta/models/%s:generateContent" % model
         req = urllib.request.Request(url + "?key=" + KEY, data=json.dumps(body).encode(), headers={"Content-Type": "application/json"})
         try:
-            with urllib.request.urlopen(req, timeout=300) as r:
+            with urllib.request.urlopen(req, timeout=90) as r:
                 d = json.loads(r.read())
             parts = d['candidates'][0]['content']['parts']
             out = ''.join(p.get('text','') for p in parts)

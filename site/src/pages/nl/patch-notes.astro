@@ -1,0 +1,15 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import PatchNotes from '../../components/PatchNotes.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'nl';
+---
+
+<Base lang={lang} path="/nl/patch-notes/" title="Patch Notes" description="Elk Last Asylum: Plague serveronderhoud en update, samengevat — nieuwste eerst.">
+  <GuidePage title={`📜 ${t(lang, 'patchnotes.title')}`} description={t(lang, 'patchnotes.desc')} lang={lang}>
+    <PatchNotes />
+  </GuidePage>
+</Base>

@@ -1,0 +1,25 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import InfographicGallery from '../../components/InfographicGallery.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'vi';
+---
+
+<Base lang={lang} path="/vi/infographics/" title="Đồ họa thông tin & Bảng hướng dẫn nhanh" description="Tất cả đồ họa thông tin, áp phích chiến thuật và bảng hướng dẫn nhanh trực quan cho Last Asylum: Plague.">
+  <GuidePage
+    title="📊 Đồ họa thông tin & Áp phích chiến thuật"
+    description="Các bảng tóm tắt trực quan độ phân giải cao, sơ đồ chiến đấu và tính toán nâng cấp được tổng hợp từ các chiến lược gia hàng đầu trong cộng đồng."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/' }, { label: 'Đồ họa thông tin' }]}
+  >
+    <p>Duyệt, lọc và phóng to mọi sơ đồ chiến thuật cho Last Asylum: Plague. Nhấp vào bất kỳ hình ảnh nào để mở chế độ xem độ phân giải đầy đủ với các tùy chọn thu phóng và tải xuống.</p>
+
+    <InfographicGallery lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

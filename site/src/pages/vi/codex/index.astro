@@ -1,0 +1,27 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import CodexGrid from '../../../components/CodexGrid.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import { heroCodex } from '../../../data/heroCodex';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'vi';
+const base = lang === 'en' ? '' : `/${lang}`;
+---
+
+<Base lang={lang} path="/vi/codex/" title="Hero Codex" description="Mọi anh hùng chủ chốt trong Last Asylum: Plague — kỹ năng, cách xây dựng, ghi chú đội hình và cách sở hữu họ.">
+  <GuidePage
+    title="📖 Hero Codex"
+    description="Kỹ năng, ưu tiên xây dựng và ghi chú đội hình cho mọi anh hùng quan trọng — được tổng hợp từ các hướng dẫn của cộng đồng."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/vi/' }, { label: 'Hero Codex' }]}
+  >
+    <p>Mỗi trang bao gồm: vai trò, cách sở hữu anh hùng, các kỹ năng thực sự quan trọng, ưu tiên xây dựng và các đội hình mà họ xuất hiện. Để xem xếp hạng, hãy truy cập <a href="/vi/tier-list/">Bảng xếp hạng</a>.</p>
+
+    <CodexGrid heroes={heroCodex} lang={lang} base={base} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

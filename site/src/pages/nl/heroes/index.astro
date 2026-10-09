@@ -1,0 +1,11 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import SquadBuilder from '../../../../components/SquadBuilder.astro';
+import HeroIndex from '../../../../components/HeroIndex.astro';
+import type { Lang } from '../../../../i18n/utils';
+const lang: Lang = 'nl';
+---
+<Base lang={lang} path="/nl/heroes/" title="Gidsatlas: Helden" description="Heldengidsen: vaardigheden, builds, levelen, scherfbronnen.">
+  <HeroIndex lang={lang} />
+  <SquadBuilder lang={lang} />
+</Base>

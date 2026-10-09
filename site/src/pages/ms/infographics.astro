@@ -1,0 +1,25 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import InfographicGallery from '../../components/InfographicGallery.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ms';
+---
+
+<Base lang={lang} path="/ms/infographics/" title="Infografik & Lembaran Rujukan Visual" description="Semua infografik komuniti, poster taktikal, dan lembaran rujukan visual untuk Last Asylum: Plague.">
+  <GuidePage
+    title="📊 Infografik & Poster Taktikal"
+    description="Lembaran nota visual beresolusi tinggi, rajah pertempuran, dan matematik naik taraf yang disusun daripada pakar strategi komuniti terkemuka."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/' }, { label: 'Infografik' }]}
+  >
+    <p>Layari, tapis, dan besarkan setiap rajah taktikal untuk Last Asylum: Plague. Klik mana-mana imej untuk membuka paparan resolusi penuh dengan pilihan zum dan muat turun.</p>
+
+    <InfographicGallery lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

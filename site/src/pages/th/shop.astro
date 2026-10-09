@@ -1,0 +1,11 @@
+---
+import Base from '../../layouts/Base.astro';
+import ShopPage from '../../components/ShopPage.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'th';
+---
+
+<Base lang={lang} path="/th/shop/" title="ร้านค้าเกมและเติมเงิน | Last Asylum" description="เติมเพชรและแพ็กเกจ Last Asylum: Plague ผ่านแพลตฟอร์มพันธมิตร LDShop รับของทันทีผ่าน UID พร้อมดีลที่ดีที่สุดและการสนับสนุนจากชุมชน">
+  <ShopPage lang={lang} />
+</Base>

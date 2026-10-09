@@ -1,0 +1,47 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import { t } from '../../../../i18n/ui';
+import type { Lang } from '../../../../i18n/utils';
+
+const lang: Lang = 'vi';
+const events = [
+  { slug: 'alliance-duel', name: 'Đấu Liên Minh', icon: '⚔️', desc: 'Cuộc thi liên minh kéo dài sáu ngày với các hạng mục điểm hàng ngày, giá trị điểm chính xác và nền kinh tế tiết kiệm mọi thứ.' },
+  { slug: 'elixir', name: 'Tranh Giành Elixir', icon: '🧪', desc: 'Chiến trường AvA 30 phút nơi quyền kiểm soát, chứ không phải số lần tiêu diệt, mới là yếu tố chiến thắng — Lều Hồi Máu, ưu tiên lâu đài và quy tắc dịch chuyển.' },
+  { slug: 'kvk', name: 'Chiến Tranh Vương Quốc (KvK)', icon: '🏰', desc: 'Cuộc chiến giữa các máy chủ để giành Royal City: tấn công tháp trước, phòng thủ chiến thuật trì hoãn và rủi ro quân đội thực sự.' },
+  { slug: 'undead', name: 'Cuộc Vây Hãm Của Xác Sống', icon: '🧟', desc: 'Liên minh phòng thủ trước các đợt lây nhiễm — cơ chế đa đội ẩn, HP duy trì và các cột mốc phần thưởng.' },
+  { slug: 'cheese', name: 'Bẫy Phô Mai', icon: '🧀', desc: 'Liên minh tập hợp chống lại chuột khổng lồ: phần thưởng cá nhân năm giai đoạn, bể HP liên minh chung và toán học theo cấp độ.' },
+  { slug: 'thief', name: 'Săn Kẻ Trộm', icon: '💰', desc: 'Tiêu tốn thể lực để triệu hồi trùm Thief Leader — cơ chế triệu hồi, kỹ thuật tiêu diệt không ngừng và ưu tiên trao đổi.' },
+  { slug: 'survival', name: 'Trận Chiến Sinh Tồn', icon: '🛡️', desc: 'Sự kiện nhiệm vụ hàng tuần trị giá ~60.000 Skill Badges miễn phí — hoàn thành giá rẻ và sự chồng chéo với Đấu Liên Minh.' },
+  { slug: 'canyon', name: 'Chinh Phục Hẻm Núi', icon: '🏜️', desc: 'Trận chiến tiếp sức ba làn đường nơi sức bền đánh bại sức mạnh — chiến lược ưu tiên làn đường trong một sự kiện không rủi ro.' },
+  { slug: 'mythic', name: 'Kho Báu Thần Thoại', icon: '🗺️', desc: 'Sự kiện cướp biển bảy tab được giải mã cho F2P: ưu tiên thị trường, giới hạn 300 con cá và cách chơi Buried Treasure.' },
+  { slug: 'royal', name: 'Tranh Giành Lâu Đài Hoàng Gia', icon: '👑', desc: 'Cuộc đua chiếm lâu đài hàng tuần — một cuộc hành quân mỗi người chơi, tiếp viện 30 vị trí và hệ thống danh hiệu Royal City đầy đủ.' },
+  { slug: 'arena', name: 'Đấu Trường Tam Giác', icon: '🔺', desc: 'Ba đội hình, kẻ tấn công chọn hai để đánh bại — phòng thủ cân bằng, các trận đấu hy sinh và đội hình bẫy Arena of Fate.' },
+  { slug: 'wagon', name: 'Xe Hàng & Đoàn Lữ Hành Liên Minh', icon: '🚚', desc: 'Các chuyến xe hàng miễn phí hàng ngày, quy tắc rương Guard, làm mới Golden Wagon và trang trại mảnh UR đoàn lữ hành.' },
+  { slug: 'supreme-healer', name: 'Bậc Thầy Chữa Trị', icon: '🩺', desc: 'Lịch trình tính điểm cạnh tranh 7 ngày, quản lý tài nguyên theo ngày, tích trữ thể lực và thời điểm dùng Antitoxin.' },
+  { slug: 'strike-first', name: 'Tiên Phát Chế Nhân', icon: '⚡', desc: 'Chạy đà khởi đầu máy chủ mới — các cột mốc Sanctuary, thanh trừng Blight, huy động quân sự và kim cương sớm.' },
+  { slug: 'final-dawn', name: 'Bình Minh Cuối Cùng', icon: '🌅', desc: 'Chạy đà tiến triển căn cứ 7 ngày — 4 giai đoạn (Từ Nền tảng đến Cú hích cuối cùng), hàng đợi ưu tiên và thời gian tăng tốc.' },
+  { slug: 'path-to-healing', name: 'Con Đường Chữa Lành', icon: '🕊️', desc: 'Lộ trình nhiệm vụ giới thiệu 5 ngày — nhiệm vụ hàng ngày, quy tắc mở khóa VIP 5 bắt buộc và đảm bảo 15 mảnh UR Arthur.' },
+  { slug: 'supreme-duel', name: 'Đấu Trường Tối Thượng', icon: '🏆', desc: 'Chế độ giải đấu liên chiến trường — 16 Warzone, các trận chiến ảo 3 đội hình (thắng 2/3), cửa hàng Prediction Coins và danh hiệu Quán quân.' },
+  { slug: 'quiz-of-wisdom', name: 'Câu Đố Trí Tuệ', icon: '🧠', desc: 'Sự kiện đố vui với bảng gian lận 15/15 câu hỏi: tra cứu câu trả lời tức thì bao gồm cơ chế, tòa nhà, phe phái, VIP và cốt truyện.' },
+  { slug: 'demon-king', name: 'Vua Quỷ', icon: '👹', desc: 'Trùm thế giới hai tuần một lần (Thứ Ba & Thứ Sáu) — điểm yếu Mage, 10 đợt tấn công mỗi ngày và mẹo thu hồi quân 30 giây.' },
+  { slug: 'secret-operations', name: 'Trung Tâm Hoạt Động Bí Mật', icon: '🕵️', desc: 'Các nhiệm vụ bí mật hàng ngày: tỷ lệ quay lại (UR 8%, SSR 24%), bảo hiểm rương thứ 16 và bản đồ kho báu 7 mảnh.' },
+  { slug: 'dwarven-mine', name: 'Mỏ Người Lùn', icon: '⛏️', desc: 'Sự kiện khai thác 7 ngày: quy tắc tích trữ 750 cuốc, phần thưởng thảo mộc so với đá bánh răng và bản thiết kế MR ở Tầng 100.' },
+  { slug: 'pandemic-experience', name: 'Trải Nghiệm Đại Dịch', icon: '🧪', desc: 'Thang độ khó 1–9 hai tuần một lần, mở khóa trùm liên minh (40 lần dọn dẹp) và mẹo tập hợp anh hùng yếu.' },
+  { slug: 'crystal-cluster', name: 'Thung Lũng Cụm Tinh Thể', icon: '🔮', desc: 'Cuộc ẩu đả trên bản đồ theo thời gian: farm quái đỏ với 1.5K điểm mỗi con, giữ mỏ tinh thể với 5K/phút và mẹo bấm giờ.' },
+];
+---
+<Base lang={lang} path="/vi/events/" title="Hướng dẫn sự kiện" description="Phân tích chi tiết mọi sự kiện trong Last Asylum: Plague: lịch trình, cách tính điểm, chiến lược và những sai lầm cần tránh.">
+  <section class="py-12">
+    <h1 class="mb-3 text-4xl font-bold text-plague-100">Hướng dẫn sự kiện</h1>
+    <p class="mb-10 text-lg text-stone-400">Phân tích chi tiết mọi sự kiện trong Last Asylum: Plague: lịch trình, cách tính điểm, chiến lược và những sai lầm cần tránh.</p>
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {events.map(e => (
+        <a href={`/vi/events/${e.slug}/`} class="group rounded-lg border border-stone-800 bg-stone-900 p-5 transition-colors hover:border-plague-600">
+          <span class="text-3xl">{e.icon}</span>
+          <h2 class="mt-3 text-lg font-bold text-plague-200 group-hover:text-plague-100">{e.name}</h2>
+          <p class="mt-2 text-sm text-stone-400">{e.desc}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</Base>

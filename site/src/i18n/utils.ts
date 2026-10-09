@@ -1,4 +1,4 @@
-export const languages = ['en', 'ru', 'es', 'pt', 'fr', 'de', 'id', 'ko', 'ja'] as const;
+export const languages = ['en', 'ru', 'es', 'pt', 'fr', 'de', 'id', 'ko', 'ja', 'ar', 'it', 'ms', 'nl', 'th', 'tr', 'vi', 'zh'] as const;
 export type Lang = (typeof languages)[number];
 export const defaultLang: Lang = 'en';
 
@@ -23,4 +23,12 @@ export const langNames: Record<Lang, string> = {
   id: 'Indonesia',
   ko: '한국어',
   ja: '日本語',
+  ar: 'العربية',
+  it: 'Italiano',
+  ms: 'Bahasa Melayu',
+  nl: 'Nederlands',
+  th: 'ไทย',
+  tr: 'Türkçe',
+  vi: 'Tiếng Việt',
+  zh: '中文',
 };

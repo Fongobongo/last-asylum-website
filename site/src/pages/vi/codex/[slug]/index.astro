@@ -1,0 +1,37 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import HeroCodexDetail from '../../../../components/HeroCodexDetail.astro';
+import { heroCodex } from '../../../../data/heroCodex';
+import type { Lang } from '../../../../i18n/utils';
+import officialHeroesData from '../../../../data/officialHeroes.json';
+
+const lang: Lang = 'vi';
+
+export function getStaticPaths() {
+  return heroCodex.map((hero) => ({
+    params: { slug: hero.slug },
+    props: { hero },
+  }));
+}
+
+const { hero } = Astro.props;
+const officialData = hero.officialId ? (officialHeroesData as any)[hero.officialId.toString()] : null;
+const heroDisplayName = officialData?.names?.[lang] || hero.names?.[lang] || hero.name;
+---
+
+<Base
+  lang={lang}
+  path={`/vi/codex/${hero.slug}/`}
+  title={`${heroDisplayName} — Hướng dẫn Tướng & Kỹ năng chính thức}
+  description={hero.role}
+>
+  <HeroCodexDetail
+    hero={hero}
+    lang={lang}
+    breadcrumbs={[
+      { label: 'Start', href: '/vi/' },
+      { label: 'Helden-Kodex', href: '/vi/codex/' },
+      { label: heroDisplayName }
+    ]}
+  />
+</Base>

@@ -1,0 +1,11 @@
+---
+import Base from '../../layouts/Base.astro';
+import ShopPage from '../../components/ShopPage.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'it';
+---
+
+<Base lang={lang} path="/it/shop/" title="Negozio di Gioco e Ricariche | Last Asylum" description="Ricarica diamanti e pacchetti di Last Asylum: Plague tramite la piattaforma partner LDShop. Consegna istantanea tramite UID, le migliori offerte e supporto alla community.">
+  <ShopPage lang={lang} />
+</Base>

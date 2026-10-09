@@ -1,0 +1,27 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import CodexGrid from '../../../components/CodexGrid.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import { heroCodex } from '../../../data/heroCodex';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'th';
+const base = lang === 'en' ? '' : `/${lang}`;
+---
+
+<Base lang={lang} path="/th/codex/" title="Hero Codex" description="ฮีโร่คนสำคัญทุกคนใน Last Asylum: Plague — สกิล, การจัดบิลด์, บันทึกทีม และวิธีได้รับฮีโร่">
+  <GuidePage
+    title="📖 Hero Codex"
+    description="สกิล, ลำดับความสำคัญในการจัดบิลด์ และบันทึกทีมสำหรับฮีโร่ทุกคนที่สำคัญ — รวบรวมจากไกด์ของชุมชน"
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/th/' }, { label: 'Hero Codex' }]}
+  >
+    <p>แต่ละหน้าประกอบด้วย: บทบาท, วิธีได้รับฮีโร่, สกิลที่สำคัญจริงๆ, ลำดับความสำคัญในการจัดบิลด์ และทีมที่ฮีโร่ตัวนั้นปรากฏอยู่ <a href="/th/tier-list/">Tier List</a>.</p>
+
+    <CodexGrid heroes={heroCodex} lang={lang} base={base} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

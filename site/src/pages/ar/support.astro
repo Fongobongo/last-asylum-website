@@ -1,0 +1,13 @@
+---
+import Base from '../../layouts/Base.astro';
+import ShopPage from '../../components/ShopPage.astro';
+import SupportContact from '../../components/SupportContact.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'ar';
+---
+
+<Base lang={lang} path="/ar/support/" title="متجر اللعبة وشحن الرصيد | Last Asylum" description="اشحن جواهر وحزم Last Asylum: Plague عبر منصة LDShop الشريكة. توصيل فوري عبر UID، أفضل العروض، ودعم المجتمع.">
+  <ShopPage lang={lang} />
+  <SupportContact lang={lang} />
+</Base>
