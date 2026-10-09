@@ -11,7 +11,7 @@
 
 1. **РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ**: СЂРµРґР°РєС‚РѕСЂ СЃРѕР·РґР°С‘С‚ GitHub-Р°РєРєР°СѓРЅС‚ Рё РіРѕРІРѕСЂРёС‚ С‚РµР±Рµ СЃРІРѕР№ username
 2. **Р”РѕСЃС‚СѓРї**: РІ РЅР°СЃС‚СЂРѕР№РєР°С… СЂРµРїРѕР·РёС‚РѕСЂРёСЏ в†’ *Collaborators* в†’ *Add people* в†’ РІРІРѕРґРёС€СЊ username в†’ СЂРѕР»СЊ **Write**
-3. Р РµРґР°РєС‚РѕСЂ РѕС‚РєСЂС‹РІР°РµС‚ `https://lastasylum.netlify.app/admin/`, Р»РѕРіРёРЅРёС‚СЃСЏ С‡РµСЂРµР· GitHub (OAuth), РІРёРґРёС‚ РІСЃРµ РєРѕР»Р»РµРєС†РёРё: Guides (EN/RU), Events (EN/RU)
+3. Р РµРґР°РєС‚РѕСЂ РѕС‚РєСЂС‹РІР°РµС‚ `https://lastasylum.pages.dev/admin/`, Р»РѕРіРёРЅРёС‚СЃСЏ С‡РµСЂРµР· GitHub (OAuth), РІРёРґРёС‚ РІСЃРµ РєРѕР»Р»РµРєС†РёРё: Guides (EN/RU), Events (EN/RU)
 4. Р’СЃРµ РµРіРѕ РёР·РјРµРЅРµРЅРёСЏ РёРґСѓС‚ РІРµС‚РєР°РјРё + PR вЂ” С‚С‹ РєРѕРЅС‚СЂРѕР»РёСЂСѓРµС€СЊ РєР°Р¶РґС‹Р№ РјРµСЂР¶
 
 > Р’Р»Р°РґРµР»РµС† (Owner) Рё Р°РґРјРёРЅС‹ РЅРµ РѕРіСЂР°РЅРёС‡РµРЅС‹ Р»РёРјРёС‚РѕРј? РќРµС‚ вЂ” Р»РёРјРёС‚ РґРµР№СЃС‚РІСѓРµС‚ РґР»СЏ РІСЃРµС… Р°РІС‚РѕСЂРѕРІ PR, РєСЂРѕРјРµ `auto-update-bot` Рё `github-actions`. Р•СЃР»Рё РЅСѓР¶РЅРѕ exempt-РїСЂР°РІРёР»Рѕ РґР»СЏ СЃРµР±СЏ, РґРѕР±Р°РІСЊ СЃРІРѕР№ Р»РѕРіРёРЅ РІ СЃРїРёСЃРѕРє РёСЃРєР»СЋС‡РµРЅРёР№ РІ `limit-edits.yml`.
@@ -30,7 +30,7 @@
 Sveltia CMS РЅСѓР¶РЅР° GitHub OAuth-РїСЂРѕРєСЃРё (РЅРµ С…СЂР°РЅРёРј СЃРµРєСЂРµС‚С‹ РЅР° СЃС‚Р°С‚РёРєРµ):
 
 **Р’Р°СЂРёР°РЅС‚ A вЂ” СЃРІРѕР№ РїСЂРѕРєСЃРё (Р±РµСЃРїР»Р°С‚РЅРѕ, 5 РјРёРЅСѓС‚):**
-1. GitHub в†’ Settings в†’ Developer settings в†’ OAuth Apps в†’ New: Homepage `https://lastasylum.netlify.app`, callback `https://<С‚РІРѕР№-РїСЂРѕРєСЃРё>.vercel.app/callback`
+1. GitHub в†’ Settings в†’ Developer settings в†’ OAuth Apps в†’ New: Homepage `https://lastasylum.pages.dev`, callback `https://<С‚РІРѕР№-РїСЂРѕРєСЃРё>.vercel.app/callback`
 2. Р Р°Р·РІРµСЂРЅРё `sveltia/sveltia-cms-auth` РЅР° Vercel/Cloudflare Workers РѕРґРЅРѕР№ РєРЅРѕРїРєРѕР№: https://github.com/sveltia/sveltia-cms-auth вЂ” РІСЃС‚Р°РІСЊ Client ID/Secret
 3. Р’ `site/public/admin/config.yml` РґРѕР±Р°РІСЊ РїРѕРґ `backend:` СЃС‚СЂРѕРєСѓ `base_url: https://<С‚РІРѕР№-РїСЂРѕРєСЃРё>.vercel.app`
 

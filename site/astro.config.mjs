@@ -51,7 +51,7 @@ function rehypeTableWrap() {
 }
 
 // Set to your real domain before deploying; used by sitemap and canonical URLs
-const SITE_URL = process.env.SITE_URL?.trim() ? process.env.SITE_URL.trim() : 'https://lastasylum.netlify.app';
+const SITE_URL = process.env.SITE_URL?.trim() ? process.env.SITE_URL.trim() : 'https://lastasylum.pages.dev';
 
 export default defineConfig({
   site: SITE_URL,

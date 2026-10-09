@@ -6,107 +6,14 @@
 [build.environment]
   NODE_VERSION = "22"
 
-# Guide Atlas merged into /guides/
+# Site moved to Cloudflare Pages — Netlify only redirects everything there.
+# (In-site redirects like /atlas/ -> /guides/ now live in site/public/_redirects
+# for Cloudflare; Netlify just forwards the whole host.)
 [[redirects]]
-  from = "/atlas/"
-  to = "/guides/"
+  from = "/*"
+  to = "https://lastasylum.pages.dev/:splat"
   status = 301
-
-[[redirects]]
-  from = "/ru/atlas/"
-  to = "/ru/guides/"
-  status = 301
-
-[[redirects]]
-  from = "/de/atlas/"
-  to = "/de/guides/"
-  status = 301
-
-[[redirects]]
-  from = "/es/atlas/"
-  to = "/es/guides/"
-  status = 301
-
-[[redirects]]
-  from = "/fr/atlas/"
-  to = "/fr/guides/"
-  status = 301
-
-[[redirects]]
-  from = "/id/atlas/"
-  to = "/id/guides/"
-  status = 301
-
-[[redirects]]
-  from = "/ja/atlas/"
-  to = "/ja/guides/"
-  status = 301
-
-[[redirects]]
-  from = "/ko/atlas/"
-  to = "/ko/guides/"
-  status = 301
-
-[[redirects]]
-  from = "/pt/atlas/"
-  to = "/pt/guides/"
-  status = 301
-
-# FAQ merged into tips: keep specific redirects ABOVE the /en/* catch-all
-[[redirects]]
-  from = "/faq/"
-  to = "/tips/"
-  status = 301
-
-[[redirects]]
-  from = "/en/faq/"
-  to = "/tips/"
-  status = 301
-
-[[redirects]]
-  from = "/ru/faq/"
-  to = "/ru/tips/"
-  status = 301
-
-[[redirects]]
-  from = "/de/faq/"
-  to = "/de/tips/"
-  status = 301
-
-[[redirects]]
-  from = "/es/faq/"
-  to = "/es/tips/"
-  status = 301
-
-[[redirects]]
-  from = "/fr/faq/"
-  to = "/fr/tips/"
-  status = 301
-
-[[redirects]]
-  from = "/id/faq/"
-  to = "/id/tips/"
-  status = 301
-
-[[redirects]]
-  from = "/ja/faq/"
-  to = "/ja/tips/"
-  status = 301
-
-[[redirects]]
-  from = "/ko/faq/"
-  to = "/ko/tips/"
-  status = 301
-
-[[redirects]]
-  from = "/pt/faq/"
-  to = "/pt/tips/"
-  status = 301
-
-[[redirects]]
-  from = "/en/*"
-  to = "/:splat"
-  status = 301
+  force = true
 
 [[headers]]
   for = "/pagefind/*"

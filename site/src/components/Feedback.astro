@@ -33,20 +33,30 @@ const L =
 
 <script>
   function initFeedback() {
-    var V = window.LAVotes;
+    const W = window as any;
+    interface VoteState { likes: number; dislikes: number; mine: string | null }
+    const V = W.LAVotes as
+      | {
+          read(key: string): VoteState;
+          vote(key: string, val: string): VoteState;
+          refresh(key: string): void;
+          subscribe(key: string, fn: (st: VoteState) => void): void;
+        }
+      | undefined;
     if (!V) return;
-    document.querySelectorAll('.js-feedback').forEach(function (sec) {
+    document.querySelectorAll('.js-feedback').forEach((node) => {
+      const sec = node as HTMLElement;
       if (sec.dataset.fbBound === 'true') return;
       sec.dataset.fbBound = 'true';
-      var url = window.location.pathname;
-      var key = 'guide:' + url;
-      var yesBtn = sec.querySelector('.js-fb-yes');
-      var noBtn = sec.querySelector('.js-fb-no');
-      var yesCount = sec.querySelector('.js-fb-yes-count');
-      var noCount = sec.querySelector('.js-fb-no-count');
-      var thanks = sec.querySelector('.js-fb-thanks');
+      const url = window.location.pathname;
+      const key = 'guide:' + url;
+      const yesBtn = sec.querySelector('.js-fb-yes') as HTMLElement | null;
+      const noBtn = sec.querySelector('.js-fb-no') as HTMLElement | null;
+      const yesCount = sec.querySelector('.js-fb-yes-count');
+      const noCount = sec.querySelector('.js-fb-no-count');
+      const thanks = sec.querySelector('.js-fb-thanks');
 
-      var render = function (st) {
+      const render = (st: { likes: number; dislikes: number; mine: string | null }) => {
         if (yesCount) yesCount.textContent = String(st.likes);
         if (noCount) noCount.textContent = String(st.dislikes);
         if (yesBtn) yesBtn.classList.toggle('border-toxic-400', st.mine === 'yes');
@@ -55,15 +65,16 @@ const L =
       };
 
       render(V.read(key));
+      V.subscribe(key, render);
+      V.refresh(key);
 
-      var onVote = function (val) {
-        var st = V.vote(key, val);
+      const onVote = (val: string) => {
+        const st = V.vote(key, val);
         render(st);
-        var w = window;
-        if (w.umami) w.umami.track('guide_feedback', { path: url, value: val });
+        if (W.umami) W.umami.track('guide_feedback', { path: url, value: val });
       };
-      if (yesBtn) yesBtn.addEventListener('click', function () { onVote('yes'); });
-      if (noBtn) noBtn.addEventListener('click', function () { onVote('no'); });
+      if (yesBtn) yesBtn.addEventListener('click', () => onVote('yes'));
+      if (noBtn) noBtn.addEventListener('click', () => onVote('no'));
     });
   }
   if (document.readyState === 'loading') {

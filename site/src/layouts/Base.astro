@@ -148,7 +148,7 @@ const umamiSrc = import.meta.env.PUBLIC_UMAMI_SRC ?? '';
       />
     )}
     {umamiId && <script is:inline async defer src={`${umamiSrc}`} data-website-id={umamiId}></script>}
-    <script src="/js/votes.v1.js?v=1" defer></script>
+    <script src="/js/votes.v2.js?v=2" defer></script>
     <slot name="head" />
   </head>
   <body class="min-h-screen antialiased">

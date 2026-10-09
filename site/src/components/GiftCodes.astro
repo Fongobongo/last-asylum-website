@@ -300,6 +300,8 @@ const allActiveCodesText = activeCodes.map((c) => c.code).join("\n");
             if (noBtn) noBtn.classList.toggle('border-red-400', st.mine === 'no');
           };
           render(V.read(key));
+          V.subscribe(key, render);
+          V.refresh(key);
           row.querySelectorAll('.js-code-vote').forEach(function (btn) {
             btn.addEventListener('click', function () {
               render(V.vote(key, btn.dataset.vote));

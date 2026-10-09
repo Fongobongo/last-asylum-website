@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import { giftCodes } from '../data/giftcodes';
 import { patchNotes } from '../data/patchnotes';
 
-const SITE = (import.meta.env.SITE?.toString().trim() || 'https://lastasylum.netlify.app');
+const SITE = (import.meta.env.SITE?.toString().trim() || 'https://lastasylum.pages.dev');
 
 function esc(s: string): string {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');

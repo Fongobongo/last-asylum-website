@@ -2,7 +2,7 @@ import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 
 export const GET: APIRoute = async ({ site }) => {
-  const base = site?.toString().replace(/\/$/, '') || 'https://lastasylum.netlify.app';
+  const base = site?.toString().replace(/\/$/, '') || 'https://lastasylum.pages.dev';
   const guides = (await getCollection('guides'))
     .filter((e) => e.id.split('/')[0] === 'en' && !(e.data as any).noindex)
     .map((e) => {

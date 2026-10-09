@@ -1,0 +1,25 @@
+# Cloudflare Pages redirects (mirrors netlify.toml for hosts that don't read it).
+# Specific rules first — first match wins.
+
+/atlas/ /guides/ 301
+/ru/atlas/ /ru/guides/ 301
+/de/atlas/ /de/guides/ 301
+/es/atlas/ /es/guides/ 301
+/fr/atlas/ /fr/guides/ 301
+/id/atlas/ /id/guides/ 301
+/ja/atlas/ /ja/guides/ 301
+/ko/atlas/ /ko/guides/ 301
+/pt/atlas/ /pt/guides/ 301
+
+/faq/ /tips/ 301
+/en/faq/ /tips/ 301
+/ru/faq/ /ru/tips/ 301
+/de/faq/ /de/tips/ 301
+/es/faq/ /es/tips/ 301
+/fr/faq/ /fr/tips/ 301
+/id/faq/ /id/tips/ 301
+/ja/faq/ /ja/tips/ 301
+/ko/faq/ /ko/tips/ 301
+/pt/faq/ /pt/tips/ 301
+
+/en/* /:splat 301
