@@ -8,6 +8,8 @@ __pycache__/
 # Node
 site/node_modules/
 site/.astro/
+# Wrangler deployment cache (created at repo root by find-up; safe to drop)
+node_modules/.cache/
 
 # Build output is generated in CI
 site/dist/
