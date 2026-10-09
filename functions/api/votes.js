@@ -1,19 +1,16 @@
 // Cloudflare Pages Function — shared vote totals for guides + gift codes.
 //
 //   Route:  functions/api/votes.js  ->  GET/POST /api/votes
-//   Store:  Workers KV, binding name LA_VOTES_KV — set it in the Pages project:
-//             Dashboard → Pages → lastasylum → Settings → Functions →
-//             KV namespace bindings, variable LA_VOTES_KV,
-//             namespace la-votes (id f2426a17f46e4e1ab6aa9a3640259e47).
-//   (D1 would also fit; the API token in this environment can't manage D1,
-//   but it could create the KV namespace above.)
+//   Store:  D1 (SQLite), binding name LA_VOTES — set it in the Pages project:
+//             Dashboard → Pages → project → Settings → Functions → D1 bindings,
+//             variable LA_VOTES, database last_asylum_db.
 //
 // Duplicate protection, three layers:
 //   1. server: one vote per (IP hash + browser fingerprint) pair;
 //   2. cookie: own pick persisted client-side (see public/js/votes.v2.js);
 //   3. localStorage: offline totals cache.
 // No raw IPs or fingerprints are stored — hashes only.
-// Without the KV binding the API answers 503 and the frontend silently
+// Without the D1 binding the API answers 503 and the frontend silently
 // stays in fully-local mode.
 //
 //   GET  /api/votes?key=guide:/tips/&fp=ab12cd34  -> {likes, dislikes, mine}
@@ -57,13 +54,17 @@ export function applyVote(totals, prev, vote) {
   return { totals: t, mine: next };
 }
 
-async function readTotals(kv, key) {
-  const row = (await kv.get(`t:${key}`, 'json')) || {};
-  return { likes: Math.max(0, row.likes | 0), dislikes: Math.max(0, row.dislikes | 0) };
+async function readTotals(db, key) {
+  const row = await db.prepare('SELECT likes, dislikes FROM totals WHERE key = ?').bind(key).first();
+  return { likes: Math.max(0, (row?.likes ?? 0) | 0), dislikes: Math.max(0, (row?.dislikes ?? 0) | 0) };
 }
 
-async function readMine(kv, key, ident) {
-  const v = await kv.get(`v:${key}:${ident}`, 'text');
+async function readMine(db, key, ident) {
+  const row = await db
+    .prepare('SELECT vote FROM votes WHERE key = ? AND ident = ?')
+    .bind(key, ident)
+    .first();
+  const v = row?.vote;
   return v === 'yes' || v === 'no' ? v : null;
 }
 
@@ -71,7 +72,7 @@ export async function onRequest(context) {
   const { request: req, env } = context;
 
   // Validate before touching the store so bad requests get 400s
-  // even when KV isn't bound.
+  // even when D1 isn't bound.
   let key = '';
   let vote = null;
   let fp = '';
@@ -99,28 +100,48 @@ export async function onRequest(context) {
     return json(405, { error: 'method not allowed' });
   }
 
-  const kv = env?.LA_VOTES_KV;
-  if (!kv) return json(503, { error: 'store unavailable' });
+  const db = env?.LA_VOTES;
+  if (!db) return json(503, { error: 'store unavailable' });
 
   try {
     const ident = `${ipKey(clientIp(req))}:${fp || 'nofp'}`;
 
     if (req.method === 'GET') {
-      const totals = await readTotals(kv, key);
-      const mine = fp ? await readMine(kv, key, ident) : null;
+      const totals = await readTotals(db, key);
+      const mine = fp ? await readMine(db, key, ident) : null;
       return json(200, { likes: totals.likes, dislikes: totals.dislikes, mine });
     }
 
     // POST (validated above)
-    const totals = await readTotals(kv, key);
-    const prev = await readMine(kv, key, ident);
+    const totals = await readTotals(db, key);
+    const prev = await readMine(db, key, ident);
     const { totals: next, mine } = applyVote(totals, prev, vote);
+    const now = Date.now();
     if (mine) {
-      await kv.put(`t:${key}`, JSON.stringify(next));
-      await kv.put(`v:${key}:${ident}`, mine);
+      await db.batch([
+        db
+          .prepare(
+            'INSERT INTO totals (key, likes, dislikes) VALUES (?, ?, ?) ' +
+              'ON CONFLICT(key) DO UPDATE SET likes = excluded.likes, dislikes = excluded.dislikes'
+          )
+          .bind(key, next.likes, next.dislikes),
+        db
+          .prepare(
+            'INSERT INTO votes (key, ident, vote, updated_at) VALUES (?, ?, ?, ?) ' +
+              'ON CONFLICT(key, ident) DO UPDATE SET vote = excluded.vote, updated_at = excluded.updated_at'
+          )
+          .bind(key, ident, mine, now),
+      ]);
     } else {
-      await kv.put(`t:${key}`, JSON.stringify(next));
-      await kv.delete(`v:${key}:${ident}`);
+      await db.batch([
+        db
+          .prepare(
+            'INSERT INTO totals (key, likes, dislikes) VALUES (?, ?, ?) ' +
+              'ON CONFLICT(key) DO UPDATE SET likes = excluded.likes, dislikes = excluded.dislikes'
+          )
+          .bind(key, next.likes, next.dislikes),
+        db.prepare('DELETE FROM votes WHERE key = ? AND ident = ?').bind(key, ident),
+      ]);
     }
     return json(200, { likes: next.likes, dislikes: next.dislikes, mine });
   } catch (e) {
