@@ -18,6 +18,8 @@ interface GiftCodesDict {
   hideExpired: string;
   expiredTitle: string;
   expiredNote: string;
+  worked: string;
+  failed: string;
   webTitle: string;
   iosTip: string;
 }
@@ -34,6 +36,8 @@ const dict: Record<string, GiftCodesDict> = {
     hideExpired: "Скрыть устаревшие коды",
     expiredTitle: "Архив неактивных кодов",
     expiredNote: "Эти коды уже истекли и приведены для справки, чтобы не тратить время на повторный ввод.",
+    worked: "Сработал",
+    failed: "Не сработал",
     webTitle: "Активация через сайт (для iPhone / iOS и Android):",
     iosTip: "Инструкция для iPhone (iOS): в самом приложении на iOS нет кнопки ввода кода из-за правил Apple. Откройте официальную веб-страницу активации по ссылке выше, войдите в привязанный аккаунт, выберите свой сервер и персонажа, введите код — награды сразу поступят на игровую почту.",
   },
@@ -48,6 +52,8 @@ const dict: Record<string, GiftCodesDict> = {
     hideExpired: "Hide Expired Codes",
     expiredTitle: "Expired Codes Archive",
     expiredNote: "These codes have expired and are listed for reference so you do not waste time retrying them.",
+    worked: "Worked",
+    failed: "Didn't work",
     webTitle: "Web redemption (for iPhone / iOS & Android):",
     iosTip: "iPhone / iOS guide: There is no in-app promo code button on iOS devices due to Apple policy. Open the official web redemption page above, sign in with your linked account, select your server and character, submit the code, and claim rewards via your in-game mailbox.",
   },
@@ -62,6 +68,8 @@ const dict: Record<string, GiftCodesDict> = {
     hideExpired: "Abgelaufene Codes verbergen",
     expiredTitle: "Archiv abgelaufener Codes",
     expiredNote: "Diese Codes sind abgelaufen und dienen als Referenz, um unnötiges Eintippen zu vermeiden.",
+    worked: "Funktioniert",
+    failed: "Funktioniert nicht",
     webTitle: "Einlösung per Website (für iPhone / iOS & Android):",
     iosTip: "iPhone / iOS Anleitung: In der iOS-App gibt es aufgrund von Apple-Richtlinien keine Schaltfläche für Geschenkcodes. Öffne die offizielle Einlösungsseite oben, melde dich mit deinem verknüpften Konto an, wähle Server und Charakter, gib den Code ein und hole die Belohnung im Spiel-Postfach ab.",
   },
@@ -76,6 +84,8 @@ const dict: Record<string, GiftCodesDict> = {
     hideExpired: "Ocultar códigos caducados",
     expiredTitle: "Archivo de códigos caducados",
     expiredNote: "Estos códigos ya expiraron y se muestran como referencia para no perder tiempo reingresándolos.",
+    worked: "Funcionó",
+    failed: "No funcionó",
     webTitle: "Canje vía web (para iPhone / iOS y Android):",
     iosTip: "Guía para iPhone (iOS): En iOS no hay botón dentro de la aplicación debido a políticas de Apple. Abre la página oficial de canje arriba, inicia sesión con tu cuenta vinculada, elige servidor y personaje, canjea el código y recoge las recompensas en tu buzón del juego.",
   },
@@ -90,6 +100,8 @@ const dict: Record<string, GiftCodesDict> = {
     hideExpired: "Masquer les codes expirés",
     expiredTitle: "Archive des codes expirés",
     expiredNote: "Ces codes sont expirés et listés à titre indicatif pour éviter de les tester à nouveau.",
+    worked: "A fonctionné",
+    failed: "N'a pas fonctionné",
     webTitle: "Échange via le web (pour iPhone / iOS et Android) :",
     iosTip: "Guide iPhone (iOS) : L'application iOS ne comporte pas de bouton d'échange en raison des règles d'Apple. Ouvrez la page web officielle ci-dessus, connectez-vous avec votre compte lié, choisissez serveur et personnage, saisissez le code et recevez les récompenses par courrier en jeu.",
   },
@@ -104,6 +116,8 @@ const dict: Record<string, GiftCodesDict> = {
     hideExpired: "Sembunyikan Kode Kedaluwarsa",
     expiredTitle: "Arsip Kode Kedaluwarsa",
     expiredNote: "Kode-kode ini sudah tidak berlaku dan dicatat sebagai referensi agar Anda tidak membuang waktu mencobanya.",
+    worked: "Berhasil",
+    failed: "Gagal",
     webTitle: "Penukaran via web (untuk iPhone / iOS & Android):",
     iosTip: "Panduan iPhone / iOS: Tidak ada tombol kode hadiah di dalam aplikasi iOS karena kebijakan Apple. Buka halaman penukaran resmi di atas, masuk dengan akun tertaut Anda, pilih server dan karakter, masukkan kode, lalu ambil hadiah di kotak masuk dalam game.",
   },
@@ -118,6 +132,8 @@ const dict: Record<string, GiftCodesDict> = {
     hideExpired: "期限切れコードを非表示",
     expiredTitle: "期限切れコードのアーカイブ",
     expiredNote: "これらのコードは使用期限が切れており、無駄な再入力を防ぐための参考情報です。",
+    worked: "使えた",
+    failed: "使えなかった",
     webTitle: "ウェブ交換ページ（iPhone / iOS & Android対応）：",
     iosTip: "iPhone / iOS向け手順：Appleの規約により、iOSアプリ内にはコード入力欄がありません。上記の公式ウェブ交換ページを開き、連携済みアカウントでログイン後、サーバーとキャラクターを選択してコードを入力してください。報酬はゲーム内メールに届きます。",
   },
@@ -132,6 +148,8 @@ const dict: Record<string, GiftCodesDict> = {
     hideExpired: "만료된 코드 숨기기",
     expiredTitle: "만료된 코드 아카이브",
     expiredNote: "이 코드들은 이미 만료되었으며, 중복 입력을 방지하기 위한 참고용 목록입니다.",
+    worked: "작동함",
+    failed: "작동 안 함",
     webTitle: "웹사이트 교환 (iPhone / iOS 및 Android 공용):",
     iosTip: "iPhone (iOS) 가이드: Apple 정책으로 인해 iOS 앱 내에는 선물 코드 입력 버튼이 없습니다. 위 공식 웹 교환 페이지를 열고 연동 계정으로 로그인한 뒤, 서버와 캐릭터를 선택하고 코드를 입력하면 게임 내 우편으로 보상이 지급됩니다.",
   },
@@ -146,6 +164,8 @@ const dict: Record<string, GiftCodesDict> = {
     hideExpired: "Ocultar códigos expirados",
     expiredTitle: "Arquivo de códigos expirados",
     expiredNote: "Esses códigos já expiraram e estão listados apenas como referência para evitar tentativas desnecessárias.",
+    worked: "Funcionou",
+    failed: "Não funcionou",
     webTitle: "Resgate via web (para iPhone / iOS e Android):",
     iosTip: "Guia para iPhone / iOS: Não há botão de código dentro do aplicativo iOS devido às regras da Apple. Abra a página oficial de resgate acima, faça login com sua conta vinculada, selecione servidor e personagem, insira o código e colete as recompensas no correio do jogo.",
   },
@@ -192,6 +212,24 @@ const allActiveCodesText = activeCodes.map((c) => c.code).join("\n");
           </div>
           {c.note && <p class="mt-1 text-xs text-stone-300">{c.note}</p>}
           <p class="mt-0.5 text-[11px] font-mono text-stone-500">{c.date}</p>
+          <div class="mt-2 flex items-center gap-1.5" data-code-votes={c.code}>
+            <button
+              type="button"
+              class="js-code-vote inline-flex items-center gap-1 rounded-lg border border-white/10 bg-white/5 px-2 py-1 text-[11px] font-semibold text-stone-300 transition hover:border-toxic-400/60 hover:text-toxic-300 cursor-pointer"
+              data-vote="yes"
+              title={labels.worked}
+            >
+              👍 <span class="js-cv-yes-count font-mono">0</span>
+            </button>
+            <button
+              type="button"
+              class="js-code-vote inline-flex items-center gap-1 rounded-lg border border-white/10 bg-white/5 px-2 py-1 text-[11px] font-semibold text-stone-300 transition hover:border-red-400/60 hover:text-red-300 cursor-pointer"
+              data-vote="no"
+              title={labels.failed}
+            >
+              👎 <span class="js-cv-no-count font-mono">0</span>
+            </button>
+          </div>
         </div>
         <button
           class="js-copy inline-flex shrink-0 items-center justify-center rounded-lg border border-white/10 bg-white/5 px-3 py-1.5 text-xs font-semibold text-stone-200 transition hover:bg-toxic-400 hover:text-black hover:border-toxic-400 cursor-pointer"
@@ -244,6 +282,32 @@ const allActiveCodesText = activeCodes.map((c) => c.code).join("\n");
     }
 
     function initGiftCodes() {
+      // Per-code votes: 👍 = code worked, 👎 = didn't (localStorage, per browser)
+      var V = window.LAVotes;
+      if (V) {
+        document.querySelectorAll('[data-code-votes]').forEach(function (row) {
+          if (row.dataset.votesBound === 'true') return;
+          row.dataset.votesBound = 'true';
+          var key = 'code:' + (row.dataset.codeVotes || '');
+          var yesBtn = row.querySelector('[data-vote="yes"]');
+          var noBtn = row.querySelector('[data-vote="no"]');
+          var yesCount = row.querySelector('.js-cv-yes-count');
+          var noCount = row.querySelector('.js-cv-no-count');
+          var render = function (st) {
+            if (yesCount) yesCount.textContent = String(st.likes);
+            if (noCount) noCount.textContent = String(st.dislikes);
+            if (yesBtn) yesBtn.classList.toggle('border-toxic-400', st.mine === 'yes');
+            if (noBtn) noBtn.classList.toggle('border-red-400', st.mine === 'no');
+          };
+          render(V.read(key));
+          row.querySelectorAll('.js-code-vote').forEach(function (btn) {
+            btn.addEventListener('click', function () {
+              render(V.vote(key, btn.dataset.vote));
+            });
+          });
+        });
+      }
+
       // Individual Code Copy
       document.querySelectorAll(".js-copy").forEach(function(btn) {
         if (btn.dataset.bound === "true") return;

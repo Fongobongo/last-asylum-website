@@ -22,39 +22,54 @@ const L =
   <p class="mb-3 text-sm font-semibold text-stone-300">{L.title}</p>
   <div class="flex gap-2">
     <button class="js-fb-yes rounded-lg border border-stone-700 px-4 py-2 text-sm text-stone-200 hover:border-toxic-500 hover:text-toxic-400" data-value="yes">
-      {L.yes}
+      {L.yes} <span class="js-fb-yes-count ml-1 font-mono text-xs text-stone-500">0</span>
     </button>
     <button class="js-fb-no rounded-lg border border-stone-700 px-4 py-2 text-sm text-stone-200 hover:border-blood-500 hover:text-red-400" data-value="no">
-      {L.no}
+      {L.no} <span class="js-fb-no-count ml-1 font-mono text-xs text-stone-500">0</span>
     </button>
   </div>
   <p class="js-fb-thanks mt-3 hidden text-sm text-toxic-400">{L.thanks}</p>
 </section>
 
 <script>
-  document.querySelectorAll('.js-feedback').forEach((sec) => {
-    const url = window.location.pathname;
-    const track = (val: string) => {
-      const w = window as any;
-      // Umami event if analytics present, else console
-      if (w.umami) w.umami.track('guide_feedback', { path: url, value: val });
-      try {
-        localStorage.setItem(`fb:${url}`, val);
-      } catch {}
-    };
-    const thanks = sec.querySelector('.js-fb-thanks');
-    const voted = (() => {
-      try { return localStorage.getItem(`fb:${url}`); } catch { return null; }
-    })();
-    if (voted && thanks) thanks.classList.remove('hidden');
+  function initFeedback() {
+    var V = window.LAVotes;
+    if (!V) return;
+    document.querySelectorAll('.js-feedback').forEach(function (sec) {
+      if (sec.dataset.fbBound === 'true') return;
+      sec.dataset.fbBound = 'true';
+      var url = window.location.pathname;
+      var key = 'guide:' + url;
+      var yesBtn = sec.querySelector('.js-fb-yes');
+      var noBtn = sec.querySelector('.js-fb-no');
+      var yesCount = sec.querySelector('.js-fb-yes-count');
+      var noCount = sec.querySelector('.js-fb-no-count');
+      var thanks = sec.querySelector('.js-fb-thanks');
 
-    sec.querySelector('.js-fb-yes')?.addEventListener('click', () => {
-      track('yes');
-      if (thanks) thanks.classList.remove('hidden');
+      var render = function (st) {
+        if (yesCount) yesCount.textContent = String(st.likes);
+        if (noCount) noCount.textContent = String(st.dislikes);
+        if (yesBtn) yesBtn.classList.toggle('border-toxic-400', st.mine === 'yes');
+        if (noBtn) noBtn.classList.toggle('border-red-400', st.mine === 'no');
+        if (thanks) thanks.classList.toggle('hidden', !st.mine);
+      };
+
+      render(V.read(key));
+
+      var onVote = function (val) {
+        var st = V.vote(key, val);
+        render(st);
+        var w = window;
+        if (w.umami) w.umami.track('guide_feedback', { path: url, value: val });
+      };
+      if (yesBtn) yesBtn.addEventListener('click', function () { onVote('yes'); });
+      if (noBtn) noBtn.addEventListener('click', function () { onVote('no'); });
     });
-    sec.querySelector('.js-fb-no')?.addEventListener('click', () => {
-      track('no');
-      if (thanks) thanks.classList.remove('hidden');
-    });
-  });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initFeedback);
+  } else {
+    initFeedback();
+  }
+  document.addEventListener('astro:page-load', initFeedback);
 </script>

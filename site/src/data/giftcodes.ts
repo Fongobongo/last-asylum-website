@@ -7,6 +7,7 @@ export interface GiftCode {
 
 // Актуальный список от топ-игроков (перепроверен вручную).
 export const giftCodes: GiftCode[] = [
+  { code: 'LAHD26', date: '2026-10-09', active: true, note: 'October 2026 promo (Discord/community)' },
   { code: 'LAMAU26', date: '2026-10-03', active: true, note: 'October 2026 promo (Discord/community)' },
   { code: 'LACAFE26', date: '2026-10-02', active: true, note: 'October 2026 promo (Discord/community)' },
   { code: 'LAOKT26', date: '2026-10-01', active: true, note: 'October 2026 community gift' },
