@@ -1,6 +1,6 @@
 ---
-title: "Lumberyard: levels, cost and upgrades"
-description: "Lumberyard produces Timber, the resource that construction consumes in larger amounts than any other. Output accumulates in the building and stalls when the store fills, …"
+title: "벌목장: levels, cost and upgrades"
+description: "벌목장 produces Timber, the resource that construction consumes in larger amounts than any other. Output accumulates in the building and stalls when the store fills, …"
 videoTopic: "buildings"
 lang: ko
 updated: "2026-09-19"
@@ -16,7 +16,7 @@ type: guide
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-lumberyard)).
 
 
-Lumberyard produces Timber, the resource that construction consumes in larger amounts than any other. Output accumulates in the building and stalls when the store fills, and a research node opens a fifth Lumberyard, cheaper than another level on the ones already standing. The building is available from the start of the game and goes up to level 30. Up to 4 can be built. Levels raise: output/Hour, max Production Time.
+벌목장 produces Timber, the resource that construction consumes in larger amounts than any other. Output accumulates in the building and stalls when the store fills, and a research node opens a fifth 벌목장, cheaper than another level on the ones already standing. The building is available from the start of the game and goes up to level 30. Up to 4 can be built. Levels raise: output/Hour, max Production Time.
 
 | Stat | Value |
 |---|---|
@@ -45,11 +45,11 @@ Taking the building from level 1 to 30 costs Grain 642,756,614, Timber 214,436,2
 
 ## How to use it
 
-The output curve of a Lumberyard repeats that of a Farm: 144 Timber an hour at level 1 and 34,158 at level 30, with the store growing from 3 hours 30 minutes to 12 hours and holding 409,896 Timber at level 30. Timber leaves the stock faster than any other resource: a full upgrade of the Walls needs 5,145,448,295 Timber and the Granary 3,718,612,170.
+The output curve of a 벌목장 repeats that of a 농장: 144 Timber an hour at level 1 and 34,158 at level 30, with the store growing from 3 hours 30 minutes to 12 hours and holding 409,896 Timber at level 30. Timber leaves the stock faster than any other resource: a full upgrade of the Walls needs 5,145,448,295 Timber and the 식량 창고 3,718,612,170.
 
-The Lumberyard is paid for in Grain, mirroring the Farm: 642,756,614 Grain against 214,436,268 Timber across all thirty levels. Level 1 costs 5 Grain and level 30 costs 187,600,000 plus 12 days 20 hours, while the whole building occupies the queue for 49 days 20 hours and asks a further 137,925,710 Herb.
+The 벌목장 is paid for in Grain, mirroring the 농장: 642,756,614 Grain against 214,436,268 Timber across all thirty levels. Level 1 costs 5 Grain and level 30 costs 187,600,000 plus 12 days 20 hours, while the whole building occupies the queue for 49 days 20 hours and asks a further 137,925,710 Herb.
 
-Four level 30 Lumberyards give 3,279,168 Timber a day. At that rate the Walls alone would take 1,569 days, so Timber is topped up by gathering on the map and by events, and Lumberyard levels are taken for Might: 115,300 from each and 461,200 from four.
+Four level 30 Lumberyards give 3,279,168 Timber a day. At that rate the Walls alone would take 1,569 days, so Timber is topped up by gathering on the map and by events, and 벌목장 levels are taken for Might: 115,300 from each and 461,200 from four.
 
-A fourth Lumberyard opens at Sanctuary level 12, and a fifth comes from a research node. The fifth building beats another level: it adds a quarter to output, whereas level 30 demands 62,530,000 Timber and 39,900,000 Herb on top of the Grain.
+A fourth 벌목장 opens at Sanctuary level 12, and a fifth comes from a research node. The fifth building beats another level: it adds a quarter to output, whereas level 30 demands 62,530,000 Timber and 39,900,000 Herb on top of the Grain.
 

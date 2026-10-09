@@ -1,6 +1,6 @@
 ---
-title: "Squad 4: levels, cost and upgrades"
-description: "Squad 4 adds a fourth march queue, which works only while the monthly pass subscription is active. It appears early, yet without the subscription the queue stays shut and…"
+title: "Truppe 4: levels, cost and upgrades"
+description: "Truppe 4 adds a fourth march queue, which works only while the monthly pass subscription is active. It appears early, yet without the subscription the queue stays shut and…"
 videoTopic: "buildings"
 lang: de
 updated: "2026-09-19"
@@ -16,7 +16,7 @@ type: guide
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-squad-4)).
 
 
-Squad 4 adds a fourth march queue, which works only while the monthly pass subscription is active. It appears early, yet without the subscription the queue stays shut and one free covert-ops dispatch is subtracted. The building unlocks after Sanctuary level 5 and goes up to level 30. Only one can be built. Levels raise: squad March Speed↑.
+Truppe 4 adds a fourth march queue, which works only while the monthly pass subscription is active. It appears early, yet without the subscription the queue stays shut and one free covert-ops dispatch is subtracted. The building unlocks after Sanctuary level 5 and goes up to level 30. Only one can be built. Levels raise: squad March Speed↑.
 
 | Stat | Value |
 |---|---|
@@ -45,11 +45,11 @@ Taking the building from level 1 to 30 costs Grain 2,584,135,519, Timber 2,584,1
 
 ## How to use it
 
-Squad 4 appears at Sanctuary level 5, earlier than Squad 2 at level 8 and Squad 3 at level 20. The fourth march queue, however, runs only while a monthly subscription of 24.99 dollars is active, and without it the building stands idle.
+Truppe 4 appears at Sanctuary level 5, earlier than Truppe 2 at level 8 and Truppe 3 at level 20. The fourth march queue, however, runs only while a monthly subscription of 24.99 dollars is active, and without it the building stands idle.
 
-Its construction is the longest at Sanctuary level 5: 299 days and 4 hours and 5,584,494,328 resources against 199 days and 10 hours for the Alliance Hall and 49 days and 21 hours for the Antitoxin Workshop. March speed grows exactly as it does for Squad 1, from 0.7% to 15.1%, and Might reaches 257,500. Squad 4 asks for more resources than Squad 1 and its 5,459,706,416 over the same thirty levels.
+Its construction is the longest at Sanctuary level 5: 299 days and 4 hours and 5,584,494,328 resources against 199 days and 10 hours for the Allianz-Halle and 49 days and 21 hours for the Gegengiftwerkstatt. March speed grows exactly as it does for Truppe 1, from 0.7% to 15.1%, and Might reaches 257,500. Truppe 4 asks for more resources than Truppe 1 and its 5,459,706,416 over the same thirty levels.
 
 The subscription adds more than the queue. Simultaneous covert operations are counted at two per squad, and without the pass the squad count drops by one, so two dispatches are lost.
 
-Hence the order: without a subscription Squad 4 never occupies the build queue, and with one it is taken to level 20 in 13 days and 6 hours for 10.1% speed and 44,700 Might. The remaining ten levels cost 285 days and 22 hours and add five percentage points, as much as each of the other three squads.
+Hence the order: without a subscription Truppe 4 never occupies the build queue, and with one it is taken to level 20 in 13 days and 6 hours for 10.1% speed and 44,700 Might. The remaining ten levels cost 285 days and 22 hours and add five percentage points, as much as each of the other three squads.
 

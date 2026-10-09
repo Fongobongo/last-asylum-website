@@ -19,7 +19,7 @@ The track does not appear by itself, and the honor screen stays closed until thr
 - The statue of their faction is built and raised to at least level twenty.
 - The hero's personal shards are in stock, the same ones that went into stars.
 
-The honor screen is entered through the statue itself: warriors through the Warrior Statue, warlocks and rangers through theirs.
+The honor screen is entered through the statue itself: warriors through the 전사 조각상, warlocks and rangers through theirs.
 
 ## What it costs
 
@@ -35,7 +35,7 @@ All 600 levels together cost 15,030 shards of a single hero, noticeably more tha
 
 ## What it gives
 
-Honor grants hero HP and nothing else. The bonus is labeled as coming from the Hall of Honor and stacks with every other source, and it scales in proportion to the level: 160 HP at level 1, 64,000 at level 300 and 240,000 at level 600.
+Honor grants hero HP and nothing else. The bonus is labeled as coming from the 영예 강당 and stacks with every other source, and it scales in proportion to the level: 160 HP at level 1, 64,000 at level 300 and 240,000 at level 600.
 
 Later levels cost more and give proportionally more, because the rate holds at 16 HP per shard the whole way. Saving shards for a cheap stretch is pointless, as no such stretch exists.
 

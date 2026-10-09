@@ -26,7 +26,7 @@ Level forty works forty times faster than level one.
 
 ## Two branches
 
-The Lord Statue is what opens the Specialty, and until it stands the track is closed. Room for the statue appears at Sanctuary level 10, while both skill branches open only at Sanctuary level 14.
+The Estátua do Senhor Feudal is what opens the Specialty, and until it stands the track is closed. Room for the statue appears at Sanctuary level 10, while both skill branches open only at Sanctuary level 14.
 
 Handyman covers economy and support: instant production, free minutes of building and research, lower resource costs, help for allies on build speed, research speed and clinic capacity, and a shield for oneself or an ally.
 

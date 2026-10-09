@@ -1,6 +1,6 @@
 ---
-title: "Temple: levels, cost and upgrades"
-description: "Temple holds the plot of the three faction statues and serves as the way in to each of them. While the Warrior, Warlock or Ranger Statue is not yet built, a request for i…"
+title: "Templo: levels, cost and upgrades"
+description: "Templo holds the plot of the three faction statues and serves as the way in to each of them. While the Warrior, Warlock or Estátua do Patrulheiro is not yet built, a request for i…"
 videoTopic: "buildings"
 lang: pt
 updated: "2026-09-19"
@@ -16,7 +16,7 @@ type: guide
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-temple)).
 
 
-Temple holds the plot of the three faction statues and serves as the way in to each of them. While the Warrior, Warlock or Ranger Statue is not yet built, a request for it arrives at the Temple. The building is available from the start of the game and goes up to level 1. Only one can be built.
+Templo holds the plot of the three faction statues and serves as the way in to each of them. While the Warrior, Warlock or Estátua do Patrulheiro is not yet built, a request for it arrives at the Templo. The building is available from the start of the game and goes up to level 1. Only one can be built.
 
 | Stat | Value |
 |---|---|
@@ -40,11 +40,11 @@ This building gives no stat bonus: it unlocks an option rather than percentages.
 
 ## How to use it
 
-The Temple costs 12 Grain and 9 Timber and goes up in seconds, so at Sanctuary level 1 it competes neither for the queue nor for the thin opening-day stock. Everything else unlocked at that level drags on: the Soldier's Rest needs 299 days 4 hours, the Sanctuary itself 398 days 20 hours, a Farm 49 days 20 hours per copy.
+The Templo costs 12 Grain and 9 Timber and goes up in seconds, so at Sanctuary level 1 it competes neither for the queue nor for the thin opening-day stock. Everything else unlocked at that level drags on: the Soldier's Rest needs 299 days 4 hours, the Sanctuary itself 398 days 20 hours, a Fazenda 49 days 20 hours per copy.
 
-The Temple brings 500 Might for 21 resources, and nothing in the city is cheaper: the Residence gives 100 for 840 resources, while the Lord Statue gives nothing at all for the same 12 Grain and 9 Timber. Together with the Hall of Honor the Temple delivers 1,000 Might on day one. The same 500 comes from the Private Stable and the Alliance Stable, yet both unlock only at Sanctuary level 11, ten levels after the Temple.
+The Templo brings 500 Might for 21 resources, and nothing in the city is cheaper: the Residência gives 100 for 840 resources, while the Estátua do Senhor Feudal gives nothing at all for the same 12 Grain and 9 Timber. Together with the Salão da Honra the Templo delivers 1,000 Might on day one. The same 500 comes from the Estábulo Particular and the Estábulo da Aliança, yet both unlock only at Sanctuary level 11, ten levels after the Templo.
 
-After that the Temple serves as a plot. The first faction statue unlocks at Sanctuary level 7, the second at level 11, the third at level 12. Each asks 299 days 4 hours of full construction and carries around 272,500 Might, and all three together 897 days, so the plot is not filled within one season.
+After that the Templo serves as a plot. The first faction statue unlocks at Sanctuary level 7, the second at level 11, the third at level 12. Each asks 299 days 4 hours of full construction and carries around 272,500 Might, and all three together 897 days, so the plot is not filled within one season.
 
-Nothing here needs planning: the Temple has one level, no upgrades, and its 21 resources are spent once. From level 20 the statues open the Honor levels, and the plot stops being only a temple.
+Nothing here needs planning: the Templo has one level, no upgrades, and its 21 resources are spent once. From level 20 the statues open the Honor levels, and the plot stops being only a temple.
 

@@ -29,8 +29,8 @@ The map holds four node types: farms, lumberyards, herb gardens and diamond mine
 
 | Node | Levels | Level one | Top level |
 |---|---|---|---|
-| Farm | 33 | 135,000 stock, 270,000/h | 1,800,000 stock, 10,800,000/h |
-| Lumberyard | 32 | 135,000 stock, 270,000/h | 2,160,000 stock, 10,800,000/h |
+| Ferme | 33 | 135,000 stock, 270,000/h | 1,800,000 stock, 10,800,000/h |
+| Scierie | 32 | 135,000 stock, 270,000/h | 2,160,000 stock, 10,800,000/h |
 | Herb garden | 30 | 67,500 stock, 108,000/h | 864,000 stock, 4,320,000/h |
 | Diamond mine | 31 | 10 diamonds, 360/h | 185 diamonds, 5,400/h |
 

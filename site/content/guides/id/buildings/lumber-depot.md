@@ -1,6 +1,6 @@
 ---
-title: "Lumber Depot: levels, cost and upgrades"
-description: "Lumber Depot keeps part of the Timber stock out of a raider's hands: 225 million at level 30, reached after 299 days of building. Construction eats Timber faster than any…"
+title: "Gudang Kayu: levels, cost and upgrades"
+description: "Gudang Kayu keeps part of the Timber stock out of a raider's hands: 225 million at level 30, reached after 299 days of building. Construction eats Timber faster than any…"
 videoTopic: "buildings"
 lang: id
 updated: "2026-09-19"
@@ -16,7 +16,7 @@ type: guide
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-lumber-depot)).
 
 
-Lumber Depot keeps part of the Timber stock out of a raider's hands: 225 million at level 30, reached after 299 days of building. Construction eats Timber faster than anything else, so its stock is the one that most often outgrows the protected line. The building unlocks after Sanctuary level 3 and goes up to level 30. Only one can be built. Levels raise: protected Resource.
+Gudang Kayu keeps part of the Timber stock out of a raider's hands: 225 million at level 30, reached after 299 days of building. Construction eats Timber faster than anything else, so its stock is the one that most often outgrows the protected line. The building unlocks after Sanctuary level 3 and goes up to level 30. Only one can be built. Levels raise: protected Resource.
 
 | Stat | Value |
 |---|---|
@@ -45,9 +45,9 @@ Taking the building from level 1 to 30 costs Grain 3,828,953,759, Timber 1,267,9
 
 ## How to use it
 
-The protected line of the Lumber Depot repeats that of the Granary: 22,500,181 at the twenty-third level, 117,000,124 at the twenty-eighth and 225,000,183 at the thirtieth. What separates the two storages is how quickly a stock outgrows that line, and both ask the same long 299 days 4 hours.
+The protected line of the Gudang Kayu repeats that of the Gudang Makanan: 22,500,181 at the twenty-third level, 117,000,124 at the twenty-eighth and 225,000,183 at the thirtieth. What separates the two storages is how quickly a stock outgrows that line, and both ask the same long 299 days 4 hours.
 
-Construction spends Timber faster than any other resource. A full upgrade of the Walls needs 5,145,448,295 Timber, the Granary 3,718,612,170, a single Farm 632,990,722. The stock rarely sits still, so the shield serves the days when Timber is saved for one particular level rather than any long hoard, and those days are exactly when a raid costs the most.
+Construction spends Timber faster than any other resource. A full upgrade of the Walls needs 5,145,448,295 Timber, the Gudang Makanan 3,718,612,170, a single Peternakan 632,990,722. The stock rarely sits still, so the shield serves the days when Timber is saved for one particular level rather than any long hoard, and those days are exactly when a raid costs the most.
 
 The Depot itself is paid for in Grain: 3,828,953,759 Grain against 1,267,979,825 Timber. Its own levels swallow 5.6 times more Timber than the building will ever protect, and level 30 alone costs 1,121,000,000 Grain and 366,900,000 Timber while shielding 225,000,183.
 

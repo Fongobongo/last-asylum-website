@@ -1,6 +1,6 @@
 ---
-title: "Shadow: skill, build & leveling"
-description: "Shadow is a UR ranger who plays as tank. Fully upgraded, he reaches 1,075,906 Might, rank 1 of 11 among the game's tanks. Unlocking him takes 10 shards ( Shadow Shard), a…"
+title: "Ying: skill, build & leveling"
+description: "Ying is a UR ranger who plays as tank. Fully upgraded, he reaches 1,075,906 Might, rank 1 of 11 among the game's tanks. Unlocking him takes 10 shards ( Ying Shard), a…"
 videoTopic: "heroes"
 lang: id
 updated: "2026-09-19"
@@ -17,7 +17,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-shadow)).
 
-Shadow is a UR ranger who plays as tank. Fully upgraded, he reaches 1,075,906 Might, rank 1 of 11 among the game's tanks. Unlocking him takes 10 shards ( Shadow Shard), and the shards become available once the Ranger Statue reaches level 20. Shadow does not appear in the hero list until server day 7.
+Ying is a UR ranger who plays as tank. Fully upgraded, he reaches 1,075,906 Might, rank 1 of 11 among the game's tanks. Unlocking him takes 10 shards ( Ying Shard), and the shards become available once the Patung Ranger reaches level 20. Ying does not appear in the hero list until server day 7.
 
 A phantom-like presence capable of neutralizing any strike.
 
@@ -29,8 +29,8 @@ A phantom-like presence capable of neutralizing any strike.
 | Max Might | 1,075,906 |
 | Max stars | 50 |
 | Attack speed | one hit every 0.83 s |
-| Shards to unlock | Shadow Shard × 10 |
-| Faction building | Ranger Statue, level 20 |
+| Shards to unlock | Ying Shard × 10 |
+| Faction building | Patung Ranger, level 20 |
 | Skills | 5, full set |
 | Trait | Steady |
 | Faction advantage | Rangers take 20% less damage from Warriors |
@@ -38,13 +38,13 @@ A phantom-like presence capable of neutralizing any strike.
 | Awakening opens | on day 57 of the season |
 | Exclusive weapon | on day 176 of the season |
 
-Awakening and the Exclusive Weapon follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 57 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Exclusive Weapon becomes available on day 176 of the season.
+Awakening and the Senjata Eksklusif follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 57 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Senjata Eksklusif becomes available on day 176 of the season.
 
 ## Why he matters
 
-Role: The strongest tank in the game by maximum Might, whose Shadow Strike strips 54% of the Defense from the enemies it catches. The blow itself covers an area for 555% of ATK, and the cut holds for three seconds. He helps the squad in a different way, as Shadow Hunt lowers enemy energy damage, while the passive Shadow Veil takes 35% of the energy damage off Shadow himself.
+Role: The strongest tank in the game by maximum Might, whose Ying Strike strips 54% of the Defense from the enemies it catches. The blow itself covers an area for 555% of ATK, and the cut holds for three seconds. He helps the squad in a different way, as Ying Hunt lowers enemy energy damage, while the passive Ying Veil takes 35% of the energy damage off Ying himself.
 
-Worth investing: By maximum Might Shadow ranks first of eleven tanks (1,075,906) and sits in tier S, and among the UR heroes that carry a server age condition he comes first, on day 7, together with Cynthia, while only Arthur and Marlena, who carry no such condition, are available earlier. He still misses the top squads, because he covers no ally at all: Shadow Veil takes 35% of energy damage off Shadow alone, whereas Arthur's Earthshattering takes 35% of physical damage off the allies in range and Billy's Fate's Thread 36% of energy damage off the three highest-attack allies.
+Worth investing: By maximum Might Ying ranks first of eleven tanks (1,075,906) and sits in tier S, and among the UR heroes that carry a server age condition he comes first, on day 7, together with Cynthia, while only Arthur and Marlena, who carry no such condition, are available earlier. He still misses the top squads, because he covers no ally at all: Ying Veil takes 35% of energy damage off Ying alone, whereas Arthur's Earthshattering takes 35% of physical damage off the allies in range and Billy's Fate's Thread 36% of energy damage off the three highest-attack allies.
 
 ## Skills
 
@@ -72,7 +72,7 @@ Value growth by skill level
 | ★25 | 58.8% | 70% | 84% | 168% |
 | ★50 | 88.2% | 105% | 126% | 252% |
 
-### 2. Shadow Hunt
+### 2. Ying Hunt
 
 Ultimate Skill · Physical DMG · Cooldown 7s · Unlocks at: hero level 5
 
@@ -96,7 +96,7 @@ Value growth by skill level
 | ★30 | 387.45% / 11.2% | 461.25% / 12% | 553.5% / 13% | 1,107% / 19% |
 | ★50 | 387.45% / 14.2% | 461.25% / 15% | 553.5% / 16% | 1,107% / 22% |
 
-### 3. Shadow Strike
+### 3. Ying Strike
 
 Active Skill · Physical DMG · Cooldown 5s · Unlocks at: hero level 10
 
@@ -120,7 +120,7 @@ Value growth by skill level
 | ★35 | 194.25% / 27.38% | 231.25% / 28.88% | 277.5% / 30.75% | 555% / 42% |
 | ★45 | 194.25% / 39.38% | 231.25% / 40.88% | 277.5% / 42.75% | 555% / 54% |
 
-### 4. Shadow Veil
+### 4. Ying Veil
 
 Passive Skill · Unlocks at: hero level 20
 
@@ -154,7 +154,7 @@ Support skill: active while the hero is outside the main squad.
 
 ## Compared to other heroes
 
-Below, Shadow is compared with the other heroes of the same role, of which the game has 11 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
+Below, Ying is compared with the other heroes of the same role, of which the game has 11 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
 
 ### Stats
 
@@ -162,16 +162,16 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 
 | Hero | Faction | Rarity | Max Might | HP growth | ATK growth | DEF growth |
 |---|---|---|---|---|---|---|
-| Shadow | Ranger | UR | 1,075,906 | 1.43 | 0.78 | 1.06 |
-| Daskal | Warrior | UR | 1,057,192 | 1.36 | 0.81 | 1.05 |
+| Ying | Ranger | UR | 1,075,906 | 1.43 | 0.78 | 1.06 |
+| Duskar | Warrior | UR | 1,057,192 | 1.36 | 0.81 | 1.05 |
 | Arthur | Warrior | UR | 1,052,453 | 1.34 | 0.82 | 1.05 |
 | Louis | Ranger | UR | 1,044,341 | 1.31 | 0.83 | 1.05 |
-| Ulfrid | Warlock | UR | 1,033,739 | 1.27 | 0.85 | 1.04 |
+| Ulfred | Warlock | UR | 1,033,739 | 1.27 | 0.85 | 1.04 |
 | Billy | Warlock | UR | 980,246 | 1.05 | 0.97 | 1.01 |
 | Lucius | Warrior | SSR | 778,239 | 0.9 | 0.54 | 0.7 |
 | Bella | Warrior | SSR | 773,500 | 0.88 | 0.55 | 0.7 |
 | Griffith | Ranger | SSR | 764,263 | 0.85 | 0.56 | 0.69 |
-| Hastar | Warlock | SSR | 750,047 | 0.79 | 0.59 | 0.69 |
+| Hastur | Warlock | SSR | 750,047 | 0.79 | 0.59 | 0.69 |
 | Durant | Warrior | SR | 596,226 | 0.72 | 0.45 | 0.57 |
 
 ### Skill numbers
@@ -180,39 +180,39 @@ Smoke Cartridge · damage multiplier · rank 11 of 11
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Daskal | Warrior | Battle Will | Auto Attack | 996% | single target |
+| Duskar | Warrior | Battle Will | Auto Attack | 996% | single target |
 | Louis | Ranger | Shackles | Auto Attack | 996% | single target |
-| Ulfrid | Warlock | Sharp Claw | Auto Attack | 996% | single target |
+| Ulfred | Warlock | Sharp Claw | Auto Attack | 996% | single target |
 | Arthur | Warrior | Battle Shield | Auto Attack | 900% | single target |
-| Shadow | Ranger | Smoke Cartridge | Auto Attack | 252% | single target |
+| Ying | Ranger | Smoke Cartridge | Auto Attack | 252% | single target |
 
-Stronger: Daskal, Battle Will hits for 996% of ATK on a single target.
+Stronger: Duskar, Battle Will hits for 996% of ATK on a single target.
 
-Shadow Hunt · damage multiplier · rank 9 of 9
+Ying Hunt · damage multiplier · rank 9 of 9
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Hastar | Warlock | Wrath of Old Gods | Ultimate Skill | 3,623.4% | area |
+| Hastur | Warlock | Wrath of Old Gods | Ultimate Skill | 3,623.4% | area |
 | Billy | Warlock | Truth and Lies | Ultimate Skill | 2,916% | area |
 | Bella | Warrior | Bloody Requiem | Ultimate Skill | 2,886.84% | single target |
 | Lucius | Warrior | Whirlwind Cut | Ultimate Skill | 2,029.2% | single target |
-| Shadow | Ranger | Shadow Hunt | Ultimate Skill | 1,107% | area |
+| Ying | Ranger | Ying Hunt | Ultimate Skill | 1,107% | area |
 
-Stronger: Hastar, Wrath of Old Gods hits for 3,623.4% of ATK in an area.
+Stronger: Hastur, Wrath of Old Gods hits for 3,623.4% of ATK in an area.
 
-Shadow Strike · damage multiplier · rank 7 of 7
+Ying Strike · damage multiplier · rank 7 of 7
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
 | Griffith | Ranger | Venomous Bite | Active Skill | 2,303.4% | single target |
 | Lucius | Warrior | Decapitation | Active Skill | 1,874.4% | single target |
-| Hastar | Warlock | Undercurrent | Active Skill | 1,306.8% | single target |
+| Hastur | Warlock | Undercurrent | Active Skill | 1,306.8% | single target |
 | Durant | Warrior | Leap Slash | Active Skill | 1,057.5% | single target |
-| Shadow | Ranger | Shadow Strike | Active Skill | 555% | area |
+| Ying | Ranger | Ying Strike | Active Skill | 555% | area |
 
 Stronger: Griffith, Venomous Bite hits for 2,303.4% of ATK on a single target.
 
-Shadow Veil · damage taken reduction · rank 6 of 15
+Ying Veil · damage taken reduction · rank 6 of 15
 
 | Hero | Faction | Skill | Skill type | DMG reduction, % | Damage cut for |
 |---|---|---|---|---|---|
@@ -220,13 +220,13 @@ Shadow Veil · damage taken reduction · rank 6 of 15
 | Griffith | Ranger | Serpent Veil | Ultimate Skill | 39% | for allies, monsters only |
 | Louis | Ranger | Force Link | Active Skill | 36% | for allies |
 | Billy | Warlock | Fate's Thread | Active Skill | 36% | for allies |
-| Shadow | Ranger | Shadow Veil | Passive Skill | 35% | for the caster |
+| Ying | Ranger | Ying Veil | Passive Skill | 35% | for the caster |
 
 Stronger: Bella, Crimson Prayer cuts damage by 45% for the caster, monsters only.
 
 ## Upgrade order
 
-Skill priority: Shadow Strike comes first, hitting an area and stripping 54% of the Defense from the enemies it catches for three seconds. Shadow Hunt is next, hitting an area and weakening enemy energy damage. Shadow Veil follows, and the auto attack Smoke Cartridge comes last with the support skill, at 252% with 50 stars, the lowest of the eleven tanks.
+Skill priority: Ying Strike comes first, hitting an area and stripping 54% of the Defense from the enemies it catches for three seconds. Ying Hunt is next, hitting an area and weakening enemy energy damage. Ying Veil follows, and the auto attack Smoke Cartridge comes last with the support skill, at 252% with 50 stars, the lowest of the eleven tanks.
 
 ### What stars and levels unlock
 
@@ -235,22 +235,22 @@ Every threshold of the hero in one list, from the first level to the last stars,
 | Condition | Unlocks |
 |---|---|
 | from the start | Smoke Cartridge |
-| hero level 5 | Shadow Hunt |
-| hero level 10 | Shadow Strike |
-| hero level 20 | Shadow Veil |
+| hero level 5 | Ying Hunt |
+| hero level 10 | Ying Strike |
+| hero level 20 | Ying Veil |
 | ★5 | Smoke Cartridge: Deals 40% extra damage. |
-| ★10 | Shadow Hunt: Effect increases by 3%. |
-| ★15 | Shadow Strike: Effect increases by 4.5%. |
-| ★20 | Shadow Veil: Effect increases by 5%. |
+| ★10 | Ying Hunt: Effect increases by 3%. |
+| ★15 | Ying Strike: Effect increases by 4.5%. |
+| ★20 | Ying Veil: Effect increases by 5%. |
 | ★25 | Smoke Cartridge: Extra damage increases to 100%. |
-| ★30 | Shadow Hunt: Effect increases by 3%. |
-| ★35 | Shadow Strike: Effect increases by 7.5%. |
+| ★30 | Ying Hunt: Effect increases by 3%. |
+| ★35 | Ying Strike: Effect increases by 7.5%. |
 | hero level 30, ★40 | Tenacity |
-| ★45 | Shadow Strike: Effect increases by 12%. |
-| ★45 | Shadow Veil: Effect increases by 5%. |
+| ★45 | Ying Strike: Effect increases by 12%. |
+| ★45 | Ying Veil: Effect increases by 5%. |
 | ★50 | Smoke Cartridge: Extra damage increases to 200%. |
-| ★50 | Shadow Hunt: Effect increases by 3%. |
-| ★50 | Shadow Veil: Effect increases by 5%. |
+| ★50 | Ying Hunt: Effect increases by 3%. |
+| ★50 | Ying Veil: Effect increases by 5%. |
 
 ## Progression
 
@@ -267,7 +267,7 @@ The hero has 150 levels, and reaching the last one costs Antitoxin 5,248,471,500
 
 ### Stars
 
-Reaching 50 stars takes 975 shards ( Shadow Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
+Reaching 50 stars takes 975 shards ( Ying Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
 
 | Stars | HP | ATK | DEF | Cost |
 |---|---|---|---|---|
@@ -290,13 +290,13 @@ Every skill goes up to level 40 with Skill Badge: one skill costs 436,700 of the
 
 ### Awakening
 
-40 levels, 2,870 awakening shards in total (Shadow Awaken Shard). At max it adds:
+40 levels, 2,870 awakening shards in total (Ying Awaken Shard). At max it adds:
 - HP +425,119, ATK +12,119, DEF +3,812
 - DMG RES +5%
 
-### Exclusive Weapon
+### Senjata Eksklusif
 
-“Phantom Dagger”, upgraded to 50 stars. At max it adds:
+“Belati Bayangan”, upgraded to 50 stars. At max it adds:
 - HP +1,251,000, ATK +8,750, DEF +8,750
 - Hero DEF +10%
 - Hero HP +10%
@@ -314,16 +314,16 @@ Gains from each progression system on its own. They show where to invest first:
 | Hero levels | 2,487,358 | 9,690 | 13,169 |
 | Stars | 710,554 | 2,767 | 3,760 |
 | Awakening | 425,119 | 12,119 | 3,812 |
-| Exclusive Weapon | 1,251,000 | 8,750 | 8,750 |
+| Senjata Eksklusif | 1,251,000 | 8,750 | 8,750 |
 | Total | 4,874,031 | 33,326 | 29,491 |
 
 ## How to play
 
-Among the five tier S tanks Shadow leads on HP and trails on damage. His HP growth ratio of 1.43 is the highest in the game, so 150 levels give him 2,487,358 HP against 2,365,599 for Daskal and 2,330,811 for Arthur. His auto attack lands 252% of ATK, while Daskal and Louis reach 747% at fifty stars and 996% with the Exclusive Weapon.
+Among the five tier S tanks Ying leads on HP and trails on damage. His HP growth ratio of 1.43 is the highest in the game, so 150 levels give him 2,487,358 HP against 2,365,599 for Duskar and 2,330,811 for Arthur. His auto attack lands 252% of ATK, while Duskar and Louis reach 747% at fifty stars and 996% with the Senjata Eksklusif.
 
-Shadow enters the hero list on server day 7, ahead of every other UR tank that carries such a condition: Ulfrid waits until day 42, Louis until 63, Billy until 84, while Arthur carries no server age condition at all. His shards come from the Ranger Statue at level 20 and from the guarantee of the third recruit pool, which holds six other heroes besides him. That early access is what makes him the first tank of a squad.
+Ying enters the hero list on server day 7, ahead of every other UR tank that carries such a condition: Ulfred waits until day 42, Louis until 63, Billy until 84, while Arthur carries no server age condition at all. His shards come from the Patung Ranger at level 20 and from the guarantee of the third recruit pool, which holds six other heroes besides him. That early access is what makes him the first tank of a squad.
 
-Stars cost the most. Shadow Strike's defense reduction reaches 54% only at ★45, and forty-five stars take 675 shards out of 975. Awakening opens on season day 57 and adds 425,119 HP, almost six times less than his levels give, so shards and levels come before it.
+Stars cost the most. Ying Strike's defense reduction reaches 54% only at ★45, and forty-five stars take 675 shards out of 975. Awakening opens on season day 57 and adds 425,119 HP, almost six times less than his levels give, so shards and levels come before it.
 
-The best squads in the game have no room for him, because Arthur and Billy hold the front line with reductions that reach their allies, not only themselves. Shadow is a ranger, though, and a squad of Louis, Cynthia, Red Lady and Bell around him carries the full +20% faction bonus, while rangers take 20% less damage from Warriors.
+The best squads in the game have no room for him, because Arthur and Billy hold the front line with reductions that reach their allies, not only themselves. Ying is a ranger, though, and a squad of Louis, Cynthia, Nyonya Merah and Belle around him carries the full +20% faction bonus, while rangers take 20% less damage from Warriors.
 

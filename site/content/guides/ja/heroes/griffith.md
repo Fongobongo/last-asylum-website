@@ -1,6 +1,6 @@
 ---
-title: "Griffith：スキル・ビルド・育成"
-description: "Griffith is an SSR ranger who plays as tank. Fully upgraded, he reaches 764,263 Might, rank 9 of 11 among the game's tanks. Unlocking him takes 10 shards ( Griffith Shard…"
+title: "グリフィス：スキル・ビルド・育成"
+description: "グリフィス is an SSR ranger who plays as tank. Fully upgraded, he reaches 764,263 Might, rank 9 of 11 among the game's tanks. Unlocking him takes 10 shards ( グリフィス Shard…"
 videoTopic: "heroes"
 lang: ja
 updated: "2026-09-19"
@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-griffith)).
 
-Griffith is an SSR ranger who plays as tank. Fully upgraded, he reaches 764,263 Might, rank 9 of 11 among the game's tanks. Unlocking him takes 10 shards ( Griffith Shard), and the shards become available once the Ranger Statue reaches level 20.
+グリフィス is an SSR ranger who plays as tank. Fully upgraded, he reaches 764,263 Might, rank 9 of 11 among the game's tanks. Unlocking him takes 10 shards ( グリフィス Shard), and the shards become available once the レンジャー像 reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -25,17 +25,17 @@ Griffith is an SSR ranger who plays as tank. Fully upgraded, he reaches 764,263 
 | Max Might | 764,263 |
 | Max stars | 50 |
 | Attack speed | one hit every 0.93 s |
-| Shards to unlock | Griffith Shard × 10 |
-| Faction building | Ranger Statue, level 20 |
+| Shards to unlock | グリフィス Shard × 10 |
+| Faction building | レンジャー像, level 20 |
 | Skills | 5, full set |
 | Trait | Diligent |
 | Faction advantage | Rangers take 20% less damage from Warriors |
 
 ## Why he matters
 
-Role: A ranger tank with the hardest-hitting skill of the role, as Venomous Bite lands 2,303.4% of ATK. It ranks first of seven among tank active skills. His ultimate Serpent Veil cuts monster damage by 39%, second only to Bella's Crimson Prayer at 45%.
+Role: A ranger tank with the hardest-hitting skill of the role, as Venomous Bite lands 2,303.4% of ATK. It ranks first of seven among tank active skills. His ultimate Serpent Veil cuts monster damage by 39%, second only to ベラ's Crimson Prayer at 45%.
 
-Worth investing: Griffith ranks ninth of eleven tanks by maximum Might (764,263) and sits in tier B, and his damage reduction is tied to monsters, so it does less against other players. Early investment pays off on hunts and in a ranger squad, after which the front line goes to the UR tanks.
+Worth investing: グリフィス ranks ninth of eleven tanks by maximum Might (764,263) and sits in tier B, and his damage reduction is tied to monsters, so it does less against other players. Early investment pays off on hunts and in a ranger squad, after which the front line goes to the UR tanks.
 
 ## Skills
 
@@ -145,7 +145,7 @@ Support skill: active while the hero is outside the main squad.
 
 ## Compared to other heroes
 
-Below, Griffith is compared with the other heroes of the same role, of which the game has 11 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
+Below, グリフィス is compared with the other heroes of the same role, of which the game has 11 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
 
 ### Stats
 
@@ -153,17 +153,17 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 
 | Hero | Faction | Rarity | Max Might | HP growth | ATK growth | DEF growth |
 |---|---|---|---|---|---|---|
-| Shadow | Ranger | UR | 1,075,906 | 1.43 | 0.78 | 1.06 |
-| Daskal | Warrior | UR | 1,057,192 | 1.36 | 0.81 | 1.05 |
-| Arthur | Warrior | UR | 1,052,453 | 1.34 | 0.82 | 1.05 |
-| Louis | Ranger | UR | 1,044,341 | 1.31 | 0.83 | 1.05 |
-| Ulfrid | Warlock | UR | 1,033,739 | 1.27 | 0.85 | 1.04 |
-| Billy | Warlock | UR | 980,246 | 1.05 | 0.97 | 1.01 |
-| Lucius | Warrior | SSR | 778,239 | 0.9 | 0.54 | 0.7 |
-| Bella | Warrior | SSR | 773,500 | 0.88 | 0.55 | 0.7 |
-| Griffith | Ranger | SSR | 764,263 | 0.85 | 0.56 | 0.69 |
-| Hastar | Warlock | SSR | 750,047 | 0.79 | 0.59 | 0.69 |
-| Durant | Warrior | SR | 596,226 | 0.72 | 0.45 | 0.57 |
+| 影 | Ranger | UR | 1,075,906 | 1.43 | 0.78 | 1.06 |
+| ダスカール | Warrior | UR | 1,057,192 | 1.36 | 0.81 | 1.05 |
+| アーサー | Warrior | UR | 1,052,453 | 1.34 | 0.82 | 1.05 |
+| ルイス | Ranger | UR | 1,044,341 | 1.31 | 0.83 | 1.05 |
+| ウルフレッド | Warlock | UR | 1,033,739 | 1.27 | 0.85 | 1.04 |
+| ビリー | Warlock | UR | 980,246 | 1.05 | 0.97 | 1.01 |
+| ルシウス | Warrior | SSR | 778,239 | 0.9 | 0.54 | 0.7 |
+| ベラ | Warrior | SSR | 773,500 | 0.88 | 0.55 | 0.7 |
+| グリフィス | Ranger | SSR | 764,263 | 0.85 | 0.56 | 0.69 |
+| ハスター | Warlock | SSR | 750,047 | 0.79 | 0.59 | 0.69 |
+| デュラント | Warrior | SR | 596,226 | 0.72 | 0.45 | 0.57 |
 
 ### Skill numbers
 
@@ -171,25 +171,25 @@ Serpent Flute · damage multiplier · rank 6 of 11
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Daskal | Warrior | Battle Will | Auto Attack | 996% | single target |
-| Louis | Ranger | Shackles | Auto Attack | 996% | single target |
-| Ulfrid | Warlock | Sharp Claw | Auto Attack | 996% | single target |
-| Arthur | Warrior | Battle Shield | Auto Attack | 900% | single target |
-| Griffith | Ranger | Serpent Flute | Auto Attack | 554.4% | single target |
+| ダスカール | Warrior | Battle Will | Auto Attack | 996% | single target |
+| ルイス | Ranger | Shackles | Auto Attack | 996% | single target |
+| ウルフレッド | Warlock | Sharp Claw | Auto Attack | 996% | single target |
+| アーサー | Warrior | Battle Shield | Auto Attack | 900% | single target |
+| グリフィス | Ranger | Serpent Flute | Auto Attack | 554.4% | single target |
 
-Stronger: Daskal, Battle Will hits for 996% of ATK on a single target.
+Stronger: ダスカール, Battle Will hits for 996% of ATK on a single target.
 
 Serpent Veil · damage taken reduction · rank 2 of 15
 
 | Hero | Faction | Skill | Skill type | DMG reduction, % | Damage cut for |
 |---|---|---|---|---|---|
-| Bella | Warrior | Crimson Prayer | Active Skill | 45% | for the caster, monsters only |
-| Griffith | Ranger | Serpent Veil | Ultimate Skill | 39% | for allies, monsters only |
-| Louis | Ranger | Force Link | Active Skill | 36% | for allies |
-| Billy | Warlock | Fate's Thread | Active Skill | 36% | for allies |
-| Arthur | Warrior | Earthshattering | Ultimate Skill | 35% | for allies |
+| ベラ | Warrior | Crimson Prayer | Active Skill | 45% | for the caster, monsters only |
+| グリフィス | Ranger | Serpent Veil | Ultimate Skill | 39% | for allies, monsters only |
+| ルイス | Ranger | Force Link | Active Skill | 36% | for allies |
+| ビリー | Warlock | Fate's Thread | Active Skill | 36% | for allies |
+| アーサー | Warrior | Earthshattering | Ultimate Skill | 35% | for allies |
 
-Stronger: Bella, Crimson Prayer cuts damage by 45% for the caster, monsters only.
+Stronger: ベラ, Crimson Prayer cuts damage by 45% for the caster, monsters only.
 
 No counterpart: nobody else in the game does this for allies, monsters only.
 
@@ -197,25 +197,25 @@ Venomous Bite · damage multiplier · rank 1 of 7
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Griffith | Ranger | Venomous Bite | Active Skill | 2,303.4% | single target |
-| Lucius | Warrior | Decapitation | Active Skill | 1,874.4% | single target |
-| Hastar | Warlock | Undercurrent | Active Skill | 1,306.8% | single target |
-| Durant | Warrior | Leap Slash | Active Skill | 1,057.5% | single target |
-| Daskal | Warrior | Deadly Pierce | Active Skill | 924% | single target |
+| グリフィス | Ranger | Venomous Bite | Active Skill | 2,303.4% | single target |
+| ルシウス | Warrior | Decapitation | Active Skill | 1,874.4% | single target |
+| ハスター | Warlock | Undercurrent | Active Skill | 1,306.8% | single target |
+| デュラント | Warrior | Leap Slash | Active Skill | 1,057.5% | single target |
+| ダスカール | Warrior | Deadly Pierce | Active Skill | 924% | single target |
 
-Closest counterpart: Lucius, Decapitation hits for 1,874.4% of ATK on a single target.
+Closest counterpart: ルシウス, Decapitation hits for 1,874.4% of ATK on a single target.
 
 Serpent Resonance · damage taken reduction · rank 12 of 15
 
 | Hero | Faction | Skill | Skill type | DMG reduction, % | Damage cut for |
 |---|---|---|---|---|---|
-| Bella | Warrior | Crimson Prayer | Active Skill | 45% | for the caster, monsters only |
-| Griffith | Ranger | Serpent Veil | Ultimate Skill | 39% | for allies, monsters only |
-| Louis | Ranger | Force Link | Active Skill | 36% | for allies |
-| Billy | Warlock | Fate's Thread | Active Skill | 36% | for allies |
-| Griffith | Ranger | Serpent Resonance | Passive Skill | 24% | for the caster, monsters only |
+| ベラ | Warrior | Crimson Prayer | Active Skill | 45% | for the caster, monsters only |
+| グリフィス | Ranger | Serpent Veil | Ultimate Skill | 39% | for allies, monsters only |
+| ルイス | Ranger | Force Link | Active Skill | 36% | for allies |
+| ビリー | Warlock | Fate's Thread | Active Skill | 36% | for allies |
+| グリフィス | Ranger | Serpent Resonance | Passive Skill | 24% | for the caster, monsters only |
 
-Stronger: Bella, Crimson Prayer cuts damage by 45% for the caster, monsters only.
+Stronger: ベラ, Crimson Prayer cuts damage by 45% for the caster, monsters only.
 
 ## Upgrade order
 
@@ -260,7 +260,7 @@ The hero has 150 levels, and reaching the last one costs Antitoxin 5,248,471,500
 
 ### Stars
 
-Reaching 50 stars takes 975 shards ( Griffith Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
+Reaching 50 stars takes 975 shards ( グリフィス Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
 
 | Stars | HP | ATK | DEF | Cost |
 |---|---|---|---|---|
@@ -293,11 +293,11 @@ Gains from each progression system on its own. They show where to invest first:
 
 ## How to play
 
-Among the four SSR tanks Griffith stands third by maximum Might at 764,263 against 778,239 for Lucius and 773,500 for Bella, with only Hastar below him at 750,047. His Venomous Bite, however, lands 2,303.4% of ATK and beats Lucius's Decapitation with its 1,874.4%, and the same skill returns every 5 seconds.
+Among the four SSR tanks グリフィス stands third by maximum Might at 764,263 against 778,239 for ルシウス and 773,500 for ベラ, with only ハスター below him at 750,047. His Venomous Bite, however, lands 2,303.4% of ATK and beats ルシウス's Decapitation with its 1,874.4%, and the same skill returns every 5 seconds.
 
-Griffith carries no server-age condition and is available from the earliest days, as soon as the Ranger Statue reaches level 20 and opens his shards. The UR ranger tanks arrive much later, Shadow on server day 7 and Louis on day 63, and until then the ranger front line belongs to Griffith, the only tank of his faction below UR rarity.
+グリフィス carries no server-age condition and is available from the earliest days, as soon as the レンジャー像 reaches level 20 and opens his shards. The UR ranger tanks arrive much later, 影 on server day 7 and ルイス on day 63, and until then the ranger front line belongs to グリフィス, the only tank of his faction below UR rarity.
 
-An SSR hero has neither Awakening nor an Exclusive Weapon, so Griffith's ceiling comes from two sources: levels give 1,478,501 HP and stars add 422,357, for 1,900,858 in total against 4,717,490 for Daskal. Skill Badges cost the same as for a UR hero, 436,700 per skill, and Venomous Bite only reaches 2,303.4% at 45 stars.
+An SSR hero has neither Awakening nor an 専用武器, so グリフィス's ceiling comes from two sources: levels give 1,478,501 HP and stars add 422,357, for 1,900,858 in total against 4,717,490 for ダスカール. Skill Badges cost the same as for a UR hero, 436,700 per skill, and Venomous Bite only reaches 2,303.4% at 45 stars.
 
-Griffith appears twice in the squad review, both times beside rangers. With Bestar, Hastar, Ash and Louis the squad gains +15% to its stats and withstands 16.8M damage before it falls. The faction works in his favor as well, since rangers take 20% less damage from warriors.
+グリフィス appears twice in the squad review, both times beside rangers. With ベスター, ハスター, アッシュ and ルイス the squad gains +15% to its stats and withstands 16.8M damage before it falls. The faction works in his favor as well, since rangers take 20% less damage from warriors.
 

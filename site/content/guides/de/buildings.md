@@ -58,7 +58,7 @@ Ein häufiges Missverständnis ist, dass Mauern für jedes einzelne Level erford
 Die wahre Gating-Struktur:
 - **Forschungslabor ist der primäre Engpass:** Für jedes Level von 12 bis 30 muss das Forschungslabor auf `Lv. (Ziel - 1)` sein.
 - **Sekundäres militärisches Gate rotiert:** Ausbildungszentrum (7, 8, 11, 15, 18, 21, 25, 27, 30), Tempel / Kriegerstatue (14, 16, 19, 22, 26), Allianz-Halle (7, 8, 9, 13, 20, 29), Kaserne (17, 28) und Krankenstation (10, 23).
-- **Tertiäres Ressourcen-Gate rotiert:** Holz-/Getreide-/Kräuterspeicher, Antitoxin-Werkstatt, Farm, Holzfäller und Kräutergarten.
+- **Tertiäres Ressourcen-Gate rotiert:** Holz-/Getreide-/Kräuterspeicher, Antitoxin-Werkstatt, Bauernhof, Holzfäller und Kräutergarten.
 
 Unten sind die vollständigen, offiziellen Level-für-Level-Daten, die direkt aus dem Spielclient-Binär extrahiert wurden:
 
@@ -82,7 +82,7 @@ Unten sind die vollständigen, offiziellen Level-für-Level-Daten, die direkt au
 | :---: | :--- | :---: | :--- | :--- |
 | **11** | Ausbildungszentrum 10 + Forschungslabor 7 | 7,2 Std. | 1,9 Mio. / 1,9 Mio. / 601,8K | Marschplatz 2 (Trupp 2 über Labor-Forschung) |
 | **12** | Forschungslabor 11 + Mauer 10 + Antitoxin-Werkstatt 7 | 9,4 Std. | 3,1 Mio. / 3,1 Mio. / 959K | Tiefere Forschungsmöglichkeiten |
-| **13** | Forschungslabor 12 + Allianz-Halle 11 + Farm 7 | 12,2 Std. | 3,5 Mio. / 3,5 Mio. / 1,1 Mio. | Helden-Cap Lv.40 |
+| **13** | Forschungslabor 12 + Allianz-Halle 11 + Bauernhof 7 | 12,2 Std. | 3,5 Mio. / 3,5 Mio. / 1,1 Mio. | Helden-Cap Lv.40 |
 | **14** | Forschungslabor 13 + Kriegerstatue (Tempel) 12 + Holzfäller 7 | 15,9 Std. | 4,9 Mio. / 4,9 Mio. / 1,6 Mio. | **Tier 5 Truppen** (im Ausbildungszentrum Lv.14), Tempel |
 | **15** | Forschungslabor 14 + Ausbildungszentrum 14 + Kräutergarten 7 | 22,3 Std. | 6,5 Mio. / 6,5 Mio. / 2,3 Mio. | Schmelzwerkstatt, Marschplatz 3, Helden-Cap Lv.50 |
 | **16** | Forschungslabor 15 + Kriegerstatue (Tempel) 14 + Getreidespeicher 7 | 1,3 Tage (31,2 Std.) | 11,9 Mio. / 11,9 Mio. / 4,0 Mio. | Kräuterproduktion & Sammel-Skalierung |
@@ -94,7 +94,7 @@ Unten sind die vollständigen, offiziellen Level-für-Level-Daten, die direkt au
 
 | Lv. | Voraussetzungen | Basiszeit | Ressourcen (Getreide / Holz / Kräuter) | Freischaltungen |
 | :---: | :--- | :---: | :--- | :--- |
-| **20** | Forschungslabor 19 + Allianz-Halle 18 + Farm 10 | 5,0 Tage (119,7 Std.) | 60,0 Mio. / 60,0 Mio. / 18,4 Mio. | **GROSSE MEILENSTEIN! Tier 7 Truppen** (Ausbildungszentrum 20), Ausrüstungs-Werkstatt, Marschplatz 4 |
+| **20** | Forschungslabor 19 + Allianz-Halle 18 + Bauernhof 10 | 5,0 Tage (119,7 Std.) | 60,0 Mio. / 60,0 Mio. / 18,4 Mio. | **GROSSE MEILENSTEIN! Tier 7 Truppen** (Ausbildungszentrum 20), Ausrüstungs-Werkstatt, Marschplatz 4 |
 | **21** | Forschungslabor 20 + Ausbildungszentrum 20 + Holzfäller 10 | 6,7 Tage (160,3 Std.) | 85,5 Mio. / 85,5 Mio. / 27,6 Mio. | Helden-Cap Lv.70, Lila Ausrüstungs-Crafting |
 | **22** | Forschungslabor 21 + Kriegerstatue (Tempel) 21 + Kräutergarten 10 | 8,7 Tage (208,4 Std.) | 111,2 Mio. / 111,2 Mio. / 36,7 Mio. | Fraktions-Stat-Erweiterungen |
 | **23** | Forschungslabor 22 + Krankenstation 22 + Getreidespeicher 10 | 11,3 Tage (271,0 Std.) | 145,2 Mio. / 145,2 Mio. / 42,8 Mio. | Goldene Ausrüstungs-Crafting |
@@ -106,7 +106,7 @@ Unten sind die vollständigen, offiziellen Level-für-Level-Daten, die direkt au
 | Lv. | Voraussetzungen | Basiszeit | Ressourcen (Getreide / Holz / Kräuter) | Freischaltungen |
 | :---: | :--- | :---: | :--- | :--- |
 | **26** | Forschungslabor 25 + Kriegerstatue (Tempel) 25 + Antitoxin-Werkstatt 13 | 31,0 Tage (743,5 Std.) | 386,8 Mio. / 386,8 Mio. / 123,5 Mio. | Spitzen-Werkstatt-Ausrüstungs-Meisterschaften |
-| **27** | Forschungslabor 26 + Ausbildungszentrum 26 + Farm 13 | 43,4 Tage (1041,0 Std.) | 548,0 Mio. / 548,0 Mio. / 168,6 Mio. | **Tier 9 Truppen** (im Ausbildungszentrum Lv.27) |
+| **27** | Forschungslabor 26 + Ausbildungszentrum 26 + Bauernhof 13 | 43,4 Tage (1041,0 Std.) | 548,0 Mio. / 548,0 Mio. / 168,6 Mio. | **Tier 9 Truppen** (im Ausbildungszentrum Lv.27) |
 | **28** | Forschungslabor 27 + Kaserne 27 + Holzfäller 13 | 60,7 Tage (1457,3 Std.) | 731,1 Mio. / 731,1 Mio. / 236,5 Mio. | Maximale sichere Lager- & Krankenstation-Kapazitäten |
 | **29** | Forschungslabor 28 + Allianz-Halle 28 + Kräutergarten 13 | 78,9 Tage (1894,5 Std.) | 1,05 Mrd. / 1,05 Mrd. / 316,4 Mio. | Vorbereitung auf T10 |
 | **30** | Forschungslabor 29 + Ausbildungszentrum 29 + Antitoxin-Werkstatt 15 | 102,6 Tage (2462,9 Std.) | 1,36 Mrd. / 1,36 Mrd. / 441,3 Mio. | **ABSOLUTER CAP! Tier 10 Truppen** (Ausbildungszentrum 30 + Tech), Spezial-Tech-Zweig |
@@ -195,7 +195,7 @@ Forschungslabor-Technologien bieten kumulative permanente Multiplikatoren für K
 Sobald die Makro-Priorität oben läuft, sind dies die In-Tree-Abkürzungen, die Wochen an Forschungsbeschleunigern sparen:
 
 -   **Entwicklungsbaum** – eile zum Knoten, der das **zusätzliche Trainingslager** freischaltet. Erhöhe nur Schnelle Bandage auf Level 2 (genug, um fortzufahren); maximiere es nie früh. Fertig in ~7 Tagen mit aktiver Allianz-Hilfe.
--   **Wirtschaftsbaum** – schalte zuerst die zusätzlichen **Farm-Flächen** frei, dann dränge sofort die **Kräuterertrags**-Knoten; lass alles andere bis viel später liegen.
+-   **Wirtschaftsbaum** – schalte zuerst die zusätzlichen **Bauernhof-Flächen** frei, dann dränge sofort die **Kräuterertrags**-Knoten; lass alles andere bis viel später liegen.
 -   **Heldenbäume** – level alle drei Klassenleitern **gleichmäßig auf Lv 3** (die siebentägige Kosten pro Knoten sind ein Bug, den die Entwickler angeblich beheben), dann dränge deine **Hauptklasse auf Lv 5**. Die generischen Heldenknoten darunter (Angriff/Gesundheit/Verteidigung/Schaden) sind das Gold.
 -   **Soldatenbaum** – jeder Standard-Stat-Knoten ist es wert, **außer dem letzten Last-Knoten: ein 9-tägiges Upgrade für +1% Last ist eine Falle; überspringe es.**
 -   **Vollständiger Entwicklungsbaum** (nach Entwicklung) – dränge direkt zu **Soldaten-Todesrate** (−1% → −5% mit Max) – der beste Knoten für KvK. Überspringe Heilgeschwindigkeit; Trainingskapazität kann langsam angegangen werden; Trainingsgeschwindigkeit ist es wert, auf dem Weg mitgenommen zu werden.
@@ -206,49 +206,49 @@ Sobald die Makro-Priorität oben läuft, sind dies die In-Tree-Abkürzungen, die
 
 ## 📖 Gebäude-Guides {#buildings-index}
 
-- [2nd Workbench](/de/buildings/2nd-workbench/)
-- [Alliance Hall](/de/buildings/alliance-hall/)
-- [Alliance Stable](/de/buildings/alliance-stable/)
-- [Antitoxin Workshop](/de/buildings/antitoxin-workshop/)
+- [2. Werkbank](/de/buildings/2nd-workbench/)
+- [Allianz-Halle](/de/buildings/alliance-hall/)
+- [Allianz-Stall](/de/buildings/alliance-stable/)
+- [Gegengiftwerkstatt](/de/buildings/antitoxin-workshop/)
 - [Arena](/de/buildings/arena/)
-- [Barracks](/de/buildings/barracks/)
-- [Black Ops](/de/buildings/black-ops/)
+- [Kaserne](/de/buildings/barracks/)
+- [Verdeckte Operation](/de/buildings/black-ops/)
 - [Builder's Hut](/de/buildings/builder-s-hut/)
-- [Curio Hall](/de/buildings/curio-hall/)
-- [Epigraph Workshop](/de/buildings/epigraph-workshop/)
+- [Kuriositätenhalle](/de/buildings/curio-hall/)
+- [Epigraph-Werkstatt](/de/buildings/epigraph-workshop/)
 - [Explorer's Camp](/de/buildings/explorer-s-camp/)
 - [Falcon Tower](/de/buildings/falcon-tower/)
-- [Farm](/de/buildings/farm/)
-- [Gear Workshop](/de/buildings/gear-workshop/)
-- [Granary](/de/buildings/granary/)
-- [Hall of Honor](/de/buildings/hall-of-honor/)
-- [Herb Garden](/de/buildings/herb-garden/)
-- [Herb Storage](/de/buildings/herb-storage/)
+- [Bauernhof](/de/buildings/farm/)
+- [Ausrüstungswerkstatt](/de/buildings/gear-workshop/)
+- [Kornspeicher](/de/buildings/granary/)
+- [Ehrenhalle](/de/buildings/hall-of-honor/)
+- [Kräutergarten](/de/buildings/herb-garden/)
+- [Kräuterlager](/de/buildings/herb-storage/)
 - [Infirmary](/de/buildings/infirmary/)
 - [Lord Statue](/de/buildings/lord-statue/)
-- [Lumber Depot](/de/buildings/lumber-depot/)
-- [Lumberyard](/de/buildings/lumberyard/)
-- [Monument](/de/buildings/monument/)
-- [Nomad Trader](/de/buildings/nomad-trader/)
-- [Private Stable](/de/buildings/private-stable/)
-- [Ranger Statue](/de/buildings/ranger-statue/)
-- [Raven Nest](/de/buildings/raven-nest/)
-- [Raven Workshop](/de/buildings/raven-workshop/)
+- [Holzlager](/de/buildings/lumber-depot/)
+- [Sägewerk](/de/buildings/lumberyard/)
+- [Denkmal](/de/buildings/monument/)
+- [Nomadenhändler](/de/buildings/nomad-trader/)
+- [Privater Stall](/de/buildings/private-stable/)
+- [Ranger-Statue](/de/buildings/ranger-statue/)
+- [Rabennest](/de/buildings/raven-nest/)
+- [Rabenwerkstatt](/de/buildings/raven-workshop/)
 - [Research Lab](/de/buildings/research-lab/)
-- [Residence](/de/buildings/residence/)
+- [Wohnsitz](/de/buildings/residence/)
 - [Sanctuary](/de/buildings/sanctuary/)
-- [Scout Squad](/de/buildings/scout-squad/)
-- [Smelting Workshop](/de/buildings/smelting-workshop/)
+- [Spähtruppe](/de/buildings/scout-squad/)
+- [Schmelzwerkstatt](/de/buildings/smelting-workshop/)
 - [Soldier's Rest](/de/buildings/soldier-s-rest/)
-- [Squad 1](/de/buildings/squad-1/)
-- [Squad 2](/de/buildings/squad-2/)
-- [Squad 3](/de/buildings/squad-3/)
-- [Squad 4](/de/buildings/squad-4/)
-- [Tavern](/de/buildings/tavern/)
-- [Temple](/de/buildings/temple/)
-- [Training Grounds](/de/buildings/training-grounds/)
+- [Truppe 1](/de/buildings/squad-1/)
+- [Truppe 2](/de/buildings/squad-2/)
+- [Truppe 3](/de/buildings/squad-3/)
+- [Truppe 4](/de/buildings/squad-4/)
+- [Taverne](/de/buildings/tavern/)
+- [Tempel](/de/buildings/temple/)
+- [Trainingsplatz](/de/buildings/training-grounds/)
 - [Walls](/de/buildings/walls/)
-- [Warlock Statue](/de/buildings/warlock-statue/)
-- [Warrior Statue](/de/buildings/warrior-statue/)
-- [Watchtower](/de/buildings/watchtower/)
-- [Weaving Workshop](/de/buildings/weaving-workshop/)
+- [Hexenmeister-Statue](/de/buildings/warlock-statue/)
+- [Krieger-Statue](/de/buildings/warrior-statue/)
+- [Wachturm](/de/buildings/watchtower/)
+- [Weberei](/de/buildings/weaving-workshop/)

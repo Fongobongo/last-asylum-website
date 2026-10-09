@@ -57,11 +57,11 @@ Zusammengestellt aus Anleitungen zur Truppenzusammenstellung, Analysen von Bossk
 
 Im PvP entscheiden Frontlinie, Kontrolle, Burst-Schaden und das Ausschalten gefährlicher Ziele. Nicht immer gewinnt das „dickste" Team — ein Stun, ein Rüstungs-Shred oder ein guter Treffer auf den gegnerischen Carry kann den Kampf entscheiden.
 
-- **S (PvP):** Arthur, Daskal, Marlena, Red Lady, Cynthia, Shadow, Harper
+- **S (PvP):** Arthur, Daskal, Marlena, Rote Dame, Cynthia, Shadow, Harper
 - **A+ (PvP):** Louis, Ulfrid, Bell, Nicole, Annie
 - **A (PvP):** Jester, Zoya, Billy
 
-Warum: Red Lady übt Druck auf Ziele mit hohem Angriff aus — die Hauptschadensquellen des Gegners. Shadow senkt die Verteidigung und bricht Energie-Teams. Marlena und Cynthia liefern starken Energie-Burst. Arthur + Daskal ist die zuverlässigste Frontlinie: Sie gewinnen den Kampf nicht selbst, sondern kaufen der hinteren Reihe Zeit. Harper ist als Teil des Warrior-Kerns wertvoll (Arthur + Daskal + Marlena).
+Warum: Rote Dame übt Druck auf Ziele mit hohem Angriff aus — die Hauptschadensquellen des Gegners. Shadow senkt die Verteidigung und bricht Energie-Teams. Marlena und Cynthia liefern starken Energie-Burst. Arthur + Daskal ist die zuverlässigste Frontlinie: Sie gewinnen den Kampf nicht selbst, sondern kaufen der hinteren Reihe Zeit. Harper ist als Teil des Warrior-Kerns wertvoll (Arthur + Daskal + Marlena).
 
 ## 🗡️ PvE-Tier-Liste {#pve-tier}
 
@@ -69,9 +69,9 @@ PvE folgt anderer Logik: lange Kämpfe, konstanter Schaden, Heilung, Überlebens
 
 - **S (PvE):** Arthur, Marlena, Daskal, Harper, Nicole
 - **A+ (PvE):** Cynthia, Zoya, Annie, Bell, Ulfrid, Louis
-- **A (PvE):** Red Lady, Shadow, Jester, Billy
+- **A (PvE):** Rote Dame, Shadow, Jester, Billy
 
-Nicole ist im PvE höher: Heilung und Unterstützung sind in langen Kämpfen entscheidend. Red Lady ist niedriger als im PvP: Ihre Stärke — Druck auf ATK-starke Ziele und Stuns — ist gegen Bosse weniger wert. Arthur, Daskal und Marlena bleiben in beiden Modi oben: Front und stabiler Schaden werden überall gebraucht.
+Nicole ist im PvE höher: Heilung und Unterstützung sind in langen Kämpfen entscheidend. Rote Dame ist niedriger als im PvP: Ihre Stärke — Druck auf ATK-starke Ziele und Stuns — ist gegen Bosse weniger wert. Arthur, Daskal und Marlena bleiben in beiden Modi oben: Front und stabiler Schaden werden überall gebraucht.
 
 **Tipp:** Kopiere dein PvP-Team nicht automatisch ins PvE. Schau, was das Event verlangt: eine bestimmte Fraktion, einen Schadenstyp oder Überlebensfähigkeit statt Burst.
 
@@ -80,7 +80,7 @@ Nicole ist im PvE höher: Heilung und Unterstützung sind in langen Kämpfen ent
 Die Kernfrage ist nicht „wer ist insgesamt am stärksten", sondern „wen kann ich realistisch ausbauen". Ein UR-Held ohne Fragmente und Sterne stößt schnell an seine Grenze.
 
 - **Sehr hohe Priorität:** Arthur, Marlena, Daskal, Harper, Cynthia
-- **Hohe Priorität:** Red Lady, Shadow, Ulfrid, Annie
+- **Hohe Priorität:** Rote Dame, Shadow, Ulfrid, Annie
 - **Mittlere/späte Priorität:** Bell, Louis, Nicole, Zoya, Jester, Billy
 
 Arthur ist fast immer ein guter Start-Tank. Marlena ist der beste Low-Spend-Schadensboost ($1 Top-up). Daskal ist eine starke zweite Front. Harper macht das Warrior-Team komplett. Cynthia ist der Schritt zu Energie-Hybriden. Nicole ist sehr stark, aber spät — baue deine Startroute nicht um sie herum.
@@ -98,7 +98,7 @@ Ein Held existiert nicht getrennt vom Team: Derselbe Charakter ist in seinem Fra
 - Kommt der Fraktionsbonus zusammen? Ist der Held für PvP oder PvE?
 - Kann ein F2P/Low-Spend-Spieler ihn realistisch ausbauen?
 
-Beispiele: Red Lady ist ein Top-Carry, stirbt aber in einem schwachen Team ohne Front, bevor sie sich entfaltet. Harper glänzt nicht mit Schadenszahlen, ist aber in einem Warrior-Team wichtiger als ein weiterer Damage Dealer. Shadow kann Kämpfe gegen bestimmte Comps entscheiden, muss aber gezielt eingesetzt werden. Bell ist stark im Ranger-Team und schwächer außerhalb; Nicole ist nahe am S-Tier innerhalb der Warlocks, aber ein später Held; Billy ist gut gegen Kontrolle, aber situativer als universelle Tanks.
+Beispiele: Rote Dame ist ein Top-Carry, stirbt aber in einem schwachen Team ohne Front, bevor sie sich entfaltet. Harper glänzt nicht mit Schadenszahlen, ist aber in einem Warrior-Team wichtiger als ein weiterer Damage Dealer. Shadow kann Kämpfe gegen bestimmte Comps entscheiden, muss aber gezielt eingesetzt werden. Bell ist stark im Ranger-Team und schwächer außerhalb; Nicole ist nahe am S-Tier innerhalb der Warlocks, aber ein später Held; Billy ist gut gegen Kontrolle, aber situativer als universelle Tanks.
 
 ---
 
@@ -108,9 +108,9 @@ Bewährte Aufstellungen: Eine Tier-Liste ohne Teams ist fast nutzlos — gewinne
 
 ### Rangers 5/5 — die starke PvP-Fraktion
 
-**Aufstellung:** Shadow, Louis (Front) + Red Lady, Bell, Cynthia (hintere Reihe). +20% Bonus.
+**Aufstellung:** Shadow, Louis (Front) + Rote Dame, Bell, Cynthia (hintere Reihe). +20% Bonus.
 
-Red Lady unter Druck gefährliche Ziele, Cynthia liefert Schaden, Bell unterstützt, Shadow und Louis halten die Front und kontern Energie-Bedrohungen. Vorteile: starker PvP-Druck, Tempokontrolle, voller Bonus. Nachteile: teuer und spät entfaltet — nicht der einfachste Weg für Anfänger.
+Rote Dame unter Druck gefährliche Ziele, Cynthia liefert Schaden, Bell unterstützt, Shadow und Louis halten die Front und kontern Energie-Bedrohungen. Vorteile: starker PvP-Druck, Tempokontrolle, voller Bonus. Nachteile: teuer und spät entfaltet — nicht der einfachste Weg für Anfänger.
 
 ### Warlocks 5/5 — ein spätes System
 
@@ -124,26 +124,26 @@ Ulfrid und Billy halten die Front, Nicole heilt und bufft Warlocks, Annie spielt
 
 **Warriors 4 + Cynthia:** Arthur, Daskal, Harper, Marlena, Cynthia. Eines der zuverlässigsten Teams. Wenn deine Cynthia besser ausgebaut ist als Zoya, lohnt sich der Verlust von 5% Bonus.
 
-**Warriors 4 + Red Lady:** Arthur, Daskal, Harper, Marlena, Red Lady. Für PvP-Druck auf High-ATK-Ziele. Nachteil: Red Lady erhält keine Warrior-Buffs und muss gut entwickelt sein.
+**Warriors 4 + Rote Dame:** Arthur, Daskal, Harper, Marlena, Rote Dame. Für PvP-Druck auf High-ATK-Ziele. Nachteil: Rote Dame erhält keine Warrior-Buffs und muss gut entwickelt sein.
 
 ### Hybrid 3+2 — das praktischste Format
 
 +10% auf HP/ATK/DEF, ermöglicht aber starke Hybride.
 
-**Aggressives Energie-Team:** Arthur, Daskal, Marlena + Cynthia, Red Lady (3 Warriors + 2 Rangers). Zwei Tanks vorne, drei Helden mit Energieschaden; kein klassischer Support, dafür heavy Burst. Stark im PvP und schnellen Kämpfen; schwächer in langen Kämpfen.
+**Aggressives Energie-Team:** Arthur, Daskal, Marlena + Cynthia, Rote Dame (3 Warriors + 2 Rangers). Zwei Tanks vorne, drei Helden mit Energieschaden; kein klassischer Support, dafür heavy Burst. Stark im PvP und schnellen Kämpfen; schwächer in langen Kämpfen.
 
-**Kontroll-PvP-Team:** Arthur, Daskal, Marlena + Shadow, Cynthia (3 Warriors + 2 Rangers). Shadow bringt Defense-Shred und Anti-Energie, Marlena und Cynthia nutzen das Zeitfenster. Gut gegen zähe Teams; weniger fokussierter Druck als mit Red Lady.
+**Kontroll-PvP-Team:** Arthur, Daskal, Marlena + Shadow, Cynthia (3 Warriors + 2 Rangers). Shadow bringt Defense-Shred und Anti-Energie, Marlena und Cynthia nutzen das Zeitfenster. Gut gegen zähe Teams; weniger fokussierter Druck als mit Rote Dame.
 
 **Übergangs-Warlock-Team:** Ulfrid, Nicole, Annie + Arthur, Marlena (3 Warlocks + 2 Warriors). Ulfrid vorne, Nicole heilt, Annie über Burning, Arthur zweite Front, Marlena universeller Schaden. Gut, wenn Warlocks begonnen, aber 5/5 noch weit weg ist.
 
 ### Freier Execute-Hybrid
 
-**Arthur + Louis + Marlena + Jester + Red Lady.** Arthur und Louis halten die Front, Marlena liefert Hauptschaden, Red Lady unter Druck gegnerische Carrys, Jester exekutiert Low-HP-Ziele. Funktioniert bei guter individueller Ausbildung, ist aber kein guter F2P-Basisweg: schwächere Systemboni, höhere Abhängigkeit von Einzelinvestition. Regel: Ein Hybrid ist gut, wenn er eine konkrete Aufgabe löst; „alle Lieblings-URs aufgestellt" ist keine Strategie.
+**Arthur + Louis + Marlena + Jester + Rote Dame.** Arthur und Louis halten die Front, Marlena liefert Hauptschaden, Rote Dame unter Druck gegnerische Carrys, Jester exekutiert Low-HP-Ziele. Funktioniert bei guter individueller Ausbildung, ist aber kein guter F2P-Basisweg: schwächere Systemboni, höhere Abhängigkeit von Einzelinvestition. Regel: Ein Hybrid ist gut, wenn er eine konkrete Aufgabe löst; „alle Lieblings-URs aufgestellt" ist keine Strategie.
 
 ### Richtungswahl: Kurzfassung
 
 - **Sicherster Weg:** Warriors 5/5 — Arthur + Daskal + Harper + Marlena + Zoya. Zwei Tanks, Support, zwei Damage Dealer, voller +20%-Bonus. Nicht spektakulär, aber sehr stabil.
-- **Aggressives PvP:** 3+2 Energie — Arthur + Daskal + Marlena + Cynthia + Red Lady.
+- **Aggressives PvP:** 3+2 Energie — Arthur + Daskal + Marlena + Cynthia + Rote Dame.
 - **Kontroll-PvP:** Arthur + Daskal + Marlena + Shadow + Cynthia.
 - **Spätes Ziel:** Warlocks 5/5 — Ulfrid + Billy + Nicole + Annie + Jester.
 

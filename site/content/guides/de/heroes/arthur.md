@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-arthur)).
 
-Arthur is a UR warrior who plays as tank. Fully upgraded, he reaches 1,052,453 Might, rank 3 of 11 among the game's tanks. Unlocking him takes 10 shards ( Arthur Shard), and the shards become available once the Warrior Statue reaches level 20. Server age does not limit Arthur: he is in the hero list from day one.
+Arthur is a UR warrior who plays as tank. Fully upgraded, he reaches 1,052,453 Might, rank 3 of 11 among the game's tanks. Unlocking him takes 10 shards ( Arthur Shard), and the shards become available once the Krieger-Statue reaches level 20. Server age does not limit Arthur: he is in the hero list from day one.
 
 A living fortress! An indomitable warrior who refuses to fall.
 
@@ -28,14 +28,14 @@ A living fortress! An indomitable warrior who refuses to fall.
 | Max stars | 50 |
 | Attack speed | one hit every 0.9 s |
 | Shards to unlock | Arthur Shard × 10 |
-| Faction building | Warrior Statue, level 20 |
+| Faction building | Krieger-Statue, level 20 |
 | Skills | 5, full set |
 | Trait | Diligent |
 | Faction advantage | Warriors take 20% less damage from Warlocks |
 | Awakening opens | on day 43 of the season |
 | Exclusive weapon | on day 204 of the season |
 
-Awakening and the Exclusive Weapon follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 43 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Exclusive Weapon becomes available on day 204 of the season.
+Awakening and the Exklusive Waffe follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 43 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Exklusive Waffe becomes available on day 204 of the season.
 
 ## Why he matters
 
@@ -303,9 +303,9 @@ Every skill goes up to level 40 with Skill Badge: one skill costs 436,700 of the
 - HP +425,119, ATK +12,119, DEF +3,812
 - DMG RES +5%
 
-### Exclusive Weapon
+### Exklusive Waffe
 
-“Stone Shield”, upgraded to 50 stars. At max it adds:
+“Steinschild”, upgraded to 50 stars. At max it adds:
 - HP +1,251,000, ATK +8,750, DEF +8,750
 - Hero DEF +10%
 - Hero HP +10%
@@ -323,14 +323,14 @@ Gains from each progression system on its own. They show where to invest first:
 | Hero levels | 2,330,811 | 10,187 | 13,045 |
 | Stars | 665,834 | 2,909 | 3,725 |
 | Awakening | 425,119 | 12,119 | 3,812 |
-| Exclusive Weapon | 1,251,000 | 8,750 | 8,750 |
+| Exklusive Waffe | 1,251,000 | 8,750 | 8,750 |
 | Total | 4,672,764 | 33,965 | 29,332 |
 
 ## How to play
 
 Daskal reaches 1,057,192 Might against 1,052,453 for Arthur, and their shields have different recipients: Rock Solid covers Arthur himself for 30% of his HP on a 5 second cooldown, while Daskal's Bloodshed Defense covers his allies. Billy, at 980,246 Might, takes 36% of damage off the squad against 35% from Earthshattering, but only Arthur adds another 9% for allied tanks through Strong Will.
 
-No server age condition applies to Arthur. The pity counter in the standard recruit list pays 10 of his shards every 50 recruits and nobody else's, and a first top-up of any amount hands over 140 more. Awakening, however, waits for season day 43 and the Exclusive Weapon for day 204.
+No server age condition applies to Arthur. The pity counter in the standard recruit list pays 10 of his shards every 50 recruits and nobody else's, and a first top-up of any amount hands over 140 more. Awakening, however, waits for season day 43 and the Exklusive Waffe for day 204.
 
 Awakening costs the most: 2,870 shards for 40 levels against 975 for all 50 stars, returning 425,119 HP and 12,119 ATK. Skills come next at 436,700 badges for each of the four, while the 5,248,471,500 Antitoxin spent on levels accumulates on its own as the game goes.
 

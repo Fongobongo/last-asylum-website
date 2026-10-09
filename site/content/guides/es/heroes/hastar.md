@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-hastar)).
 
-Hastar is an SSR warlock who plays as tank. Fully upgraded, he reaches 750,047 Might, rank 10 of 11 among the game's tanks. Unlocking him takes 10 shards ( Hastar Shard), and the shards become available once the Warlock Statue reaches level 20.
+Hastar is an SSR warlock who plays as tank. Fully upgraded, he reaches 750,047 Might, rank 10 of 11 among the game's tanks. Unlocking him takes 10 shards ( Hastar Shard), and the shards become available once the Estatua del brujo reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -26,7 +26,7 @@ Hastar is an SSR warlock who plays as tank. Fully upgraded, he reaches 750,047 M
 | Max stars | 50 |
 | Attack speed | one hit every 0.9 s |
 | Shards to unlock | Hastar Shard × 10 |
-| Faction building | Warlock Statue, level 20 |
+| Faction building | Estatua del brujo, level 20 |
 | Skills | 5, full set |
 | Trait | Diligent |
 | Faction advantage | Warlocks take 20% less damage from Rangers |
@@ -153,13 +153,13 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 
 | Hero | Faction | Rarity | Max Might | HP growth | ATK growth | DEF growth |
 |---|---|---|---|---|---|---|
-| Shadow | Ranger | UR | 1,075,906 | 1.43 | 0.78 | 1.06 |
+| Sombra | Ranger | UR | 1,075,906 | 1.43 | 0.78 | 1.06 |
 | Daskal | Warrior | UR | 1,057,192 | 1.36 | 0.81 | 1.05 |
-| Arthur | Warrior | UR | 1,052,453 | 1.34 | 0.82 | 1.05 |
-| Louis | Ranger | UR | 1,044,341 | 1.31 | 0.83 | 1.05 |
+| Arturo | Warrior | UR | 1,052,453 | 1.34 | 0.82 | 1.05 |
+| Luis | Ranger | UR | 1,044,341 | 1.31 | 0.83 | 1.05 |
 | Ulfrid | Warlock | UR | 1,033,739 | 1.27 | 0.85 | 1.04 |
 | Billy | Warlock | UR | 980,246 | 1.05 | 0.97 | 1.01 |
-| Lucius | Warrior | SSR | 778,239 | 0.9 | 0.54 | 0.7 |
+| Lucio | Warrior | SSR | 778,239 | 0.9 | 0.54 | 0.7 |
 | Bella | Warrior | SSR | 773,500 | 0.88 | 0.55 | 0.7 |
 | Griffith | Ranger | SSR | 764,263 | 0.85 | 0.56 | 0.69 |
 | Hastar | Warlock | SSR | 750,047 | 0.79 | 0.59 | 0.69 |
@@ -172,9 +172,9 @@ Lash · damage multiplier · rank 7 of 11
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
 | Daskal | Warrior | Battle Will | Auto Attack | 996% | single target |
-| Louis | Ranger | Shackles | Auto Attack | 996% | single target |
+| Luis | Ranger | Shackles | Auto Attack | 996% | single target |
 | Ulfrid | Warlock | Sharp Claw | Auto Attack | 996% | single target |
-| Arthur | Warrior | Battle Shield | Auto Attack | 900% | single target |
+| Arturo | Warrior | Battle Shield | Auto Attack | 900% | single target |
 | Hastar | Warlock | Lash | Auto Attack | 534.6% | single target |
 
 Stronger: Daskal, Battle Will hits for 996% of ATK on a single target.
@@ -186,7 +186,7 @@ Wrath of Old Gods · damage multiplier · rank 1 of 9
 | Hastar | Warlock | Wrath of Old Gods | Ultimate Skill | 3,623.4% | area |
 | Billy | Warlock | Truth and Lies | Ultimate Skill | 2,916% | area |
 | Bella | Warrior | Bloody Requiem | Ultimate Skill | 2,886.84% | single target |
-| Lucius | Warrior | Whirlwind Cut | Ultimate Skill | 2,029.2% | single target |
+| Lucio | Warrior | Whirlwind Cut | Ultimate Skill | 2,029.2% | single target |
 | Ulfrid | Warlock | Throat Bite | Ultimate Skill | 1,806% | single target |
 
 Closest counterpart: Billy, Truth and Lies hits for 2,916% of ATK in an area.
@@ -196,7 +196,7 @@ Undercurrent · damage multiplier · rank 3 of 7
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
 | Griffith | Ranger | Venomous Bite | Active Skill | 2,303.4% | single target |
-| Lucius | Warrior | Decapitation | Active Skill | 1,874.4% | single target |
+| Lucio | Warrior | Decapitation | Active Skill | 1,874.4% | single target |
 | Hastar | Warlock | Undercurrent | Active Skill | 1,306.8% | single target |
 | Durant | Warrior | Leap Slash | Active Skill | 1,057.5% | single target |
 | Daskal | Warrior | Deadly Pierce | Active Skill | 924% | single target |
@@ -207,11 +207,11 @@ Scorn Guard · shield from max HP · rank 3 of 3
 
 | Hero | Faction | Skill | Skill type | Shield, % of HP | Shield for |
 |---|---|---|---|---|---|
-| Arthur | Warrior | Rock Solid | Active Skill | 30% | for the caster |
+| Arturo | Warrior | Rock Solid | Active Skill | 30% | for the caster |
 | Daskal | Warrior | Resolute Fight | Passive Skill | 22.5% | for allies |
 | Hastar | Warlock | Scorn Guard | Passive Skill | 16.2% | for the caster |
 
-Stronger: Arthur, Rock Solid shields for 30% of max HP for the caster.
+Stronger: Arturo, Rock Solid shields for 30% of max HP for the caster.
 
 ## Upgrade order
 
@@ -289,11 +289,11 @@ Gains from each progression system on its own. They show where to invest first:
 
 ## How to play
 
-Among the four SSR tanks Hastar comes last on HP and first on the ultimate. Levels give him 1,374,136 HP against 1,565,472 for Lucius and 1,530,683 for Bella, yet Wrath of Old Gods hits for 3,623.4% of ATK, where Lucius's Whirlwind Cut reaches 2,029.2% and Bella's Bloody Requiem 2,886.84%.
+Among the four SSR tanks Hastar comes last on HP and first on the ultimate. Levels give him 1,374,136 HP against 1,565,472 for Lucio and 1,530,683 for Bella, yet Wrath of Old Gods hits for 3,623.4% of ATK, where Lucio's Whirlwind Cut reaches 2,029.2% and Bella's Bloody Requiem 2,886.84%.
 
-An SSR hero carries no server age condition, so Hastar is available from the first day, and the 10 shards that unlock him come from the Warlock Statue at level 20. He is worth levelling at once, because no other warlock tank exists until server day 42, when Ulfrid arrives, with Billy following on day 84.
+An SSR hero carries no server age condition, so Hastar is available from the first day, and the 10 shards that unlock him come from the Estatua del brujo at level 20. He is worth levelling at once, because no other warlock tank exists until server day 42, when Ulfrid arrives, with Billy following on day 84.
 
-His progression ends early. SSR heroes receive neither Awakening nor an Exclusive Weapon, so he stops at 1,766,680 HP and 9,424 ATK from levels and stars, less than Shadow's levels give on their own. Skills cost him the most: 436,700 badges for each of the four.
+His progression ends early. SSR heroes receive neither Awakening nor an Arma exclusiva, so he stops at 1,766,680 HP and 9,424 ATK from levels and stars, less than Sombra's levels give on their own. Skills cost him the most: 436,700 badges for each of the four.
 
-The best squad without a single UR hero is built around him: Celia, Lucius, Sivir, Bella and Hastar give +15% to stats and 9.3M effective HP. The second such squad keeps him alongside Grenwald and Stellar. Once Ulfrid and Billy arrive Hastar moves to the bench, where his support skill adds 10% to the squad.
+The best squad without a single UR hero is built around him: Celia, Lucio, Sivir, Bella and Hastar give +15% to stats and 9.3M effective HP. The second such squad keeps him alongside Grenwald and Estelar. Once Ulfrid and Billy arrive Hastar moves to the bench, where his support skill adds 10% to the squad.
 

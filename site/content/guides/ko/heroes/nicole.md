@@ -1,6 +1,6 @@
 ---
-title: "Nicole: 스킬, 빌드, 육성"
-description: "Nicole is a UR warlock who plays as support. Fully upgraded, she reaches 920,570 Might, rank 3 of 5 among the game's support heroes. Unlocking her takes 10 shards ( Nicol…"
+title: "니콜: 스킬, 빌드, 육성"
+description: "니콜 is a UR warlock who plays as support. Fully upgraded, she reaches 920,570 Might, rank 3 of 5 among the game's support heroes. Unlocking her takes 10 shards ( Nicol…"
 videoTopic: "heroes"
 lang: ko
 updated: "2026-09-19"
@@ -17,7 +17,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-nicole)).
 
-Nicole is a UR warlock who plays as support. Fully upgraded, she reaches 920,570 Might, rank 3 of 5 among the game's support heroes. Unlocking her takes 10 shards ( Nicole Shard), and the shards become available once the Warlock Statue reaches level 20. Nicole does not appear in the hero list until server day 98.
+니콜 is a UR warlock who plays as support. Fully upgraded, she reaches 920,570 Might, rank 3 of 5 among the game's support heroes. Unlocking her takes 10 shards ( 니콜 Shard), and the shards become available once the 마법사 조각상 reaches level 20. 니콜 does not appear in the hero list until server day 98.
 
 | Stat | Value |
 |---|---|
@@ -27,8 +27,8 @@ Nicole is a UR warlock who plays as support. Fully upgraded, she reaches 920,570
 | Max Might | 920,570 |
 | Max stars | 50 |
 | Attack speed | one hit every 0.83 s |
-| Shards to unlock | Nicole Shard × 10 |
-| Faction building | Warlock Statue, level 20 |
+| Shards to unlock | 니콜 Shard × 10 |
+| Faction building | 마법사 조각상, level 20 |
 | Skills | 5, full set |
 | Trait | Helpful |
 | Faction advantage | Warlocks take 20% less damage from Rangers |
@@ -36,13 +36,13 @@ Nicole is a UR warlock who plays as support. Fully upgraded, she reaches 920,570
 | Awakening opens | on day 169 of the season |
 | Exclusive weapon | on day 92 of the season |
 
-Awakening and the Exclusive Weapon follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 169 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Exclusive Weapon becomes available on day 92 of the season.
+Awakening and the 전용 무기 follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 169 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The 전용 무기 becomes available on day 92 of the season.
 
 ## Why she matters
 
 Role: The only support who heals through ordinary attacks, since her auto attack Ember Dust also heals the weakest ally. That keeps the healing continuous. Her ultimate Inferno Array hits every enemy for 3,150%, more than any other skill in this role, and deals extra damage to burning targets.
 
-Worth investing: Nicole reaches the same maximum Might as Harper and Bell (920,570) and sits in tier A. She appears later than any other UR hero, on server day 98, so investing in her makes sense in a warlock squad and after Harper.
+Worth investing: 니콜 reaches the same maximum Might as 하퍼 and 벨 (920,570) and sits in tier A. She appears later than any other UR hero, on server day 98, so investing in her makes sense in a warlock squad and after 하퍼.
 
 ## Skills
 
@@ -152,7 +152,7 @@ Support skill: active while the hero is outside the main squad.
 
 ## Compared to other heroes
 
-Below, Nicole is compared with the other heroes of the same role, of which the game has 5 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
+Below, 니콜 is compared with the other heroes of the same role, of which the game has 5 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
 
 ### Stats
 
@@ -160,11 +160,11 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 
 | Hero | Faction | Rarity | Max Might | HP growth | ATK growth | DEF growth |
 |---|---|---|---|---|---|---|
-| Harper | Warrior | UR | 920,570 | 0.7 | 1.3 | 0.94 |
-| Bell | Ranger | UR | 920,570 | 0.7 | 1.3 | 0.94 |
-| Nicole | Warlock | UR | 920,570 | 0.7 | 1.3 | 0.94 |
-| Stellar | Warlock | SSR | 695,511 | 0.52 | 0.8 | 0.64 |
-| Celia | Warrior | SSR | 691,655 | 0.5 | 0.82 | 0.63 |
+| 하퍼 | Warrior | UR | 920,570 | 0.7 | 1.3 | 0.94 |
+| 벨 | Ranger | UR | 920,570 | 0.7 | 1.3 | 0.94 |
+| 니콜 | Warlock | UR | 920,570 | 0.7 | 1.3 | 0.94 |
+| 스타더스트 | Warlock | SSR | 695,511 | 0.52 | 0.8 | 0.64 |
+| 실리아 | Warrior | SSR | 691,655 | 0.5 | 0.82 | 0.63 |
 
 ### Skill numbers
 
@@ -172,32 +172,32 @@ Ember Dust · damage multiplier · rank 3 of 5
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Harper | Warrior | Bubble | Auto Attack | 747% | single target |
-| Bell | Ranger | Musical Note | Auto Attack | 747% | single target |
-| Nicole | Warlock | Ember Dust | Auto Attack | 747% | single target |
-| Stellar | Warlock | Meteorite | Auto Attack | 594% | single target |
-| Celia | Warrior | Flying Blade | Auto Attack | 297% | single target |
+| 하퍼 | Warrior | Bubble | Auto Attack | 747% | single target |
+| 벨 | Ranger | Musical Note | Auto Attack | 747% | single target |
+| 니콜 | Warlock | Ember Dust | Auto Attack | 747% | single target |
+| 스타더스트 | Warlock | Meteorite | Auto Attack | 594% | single target |
+| 실리아 | Warrior | Flying Blade | Auto Attack | 297% | single target |
 
-Stronger: Harper, Bubble hits for 747% of ATK on a single target.
+Stronger: 하퍼, Bubble hits for 747% of ATK on a single target.
 
 Inferno Array · damage multiplier · rank 1 of 2
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Nicole | Warlock | Inferno Array | Ultimate Skill | 3,150% | area |
-| Celia | Warrior | Ricochet Blade | Ultimate Skill | 1,956.24% | single target |
+| 니콜 | Warlock | Inferno Array | Ultimate Skill | 3,150% | area |
+| 실리아 | Warrior | Ricochet Blade | Ultimate Skill | 1,956.24% | single target |
 
-Closest counterpart: Celia, Ricochet Blade hits for 1,956.24% of ATK on a single target.
+Closest counterpart: 실리아, Ricochet Blade hits for 1,956.24% of ATK on a single target.
 
 Heartwarming Flame · healing · rank 3 of 3
 
 | Hero | Faction | Skill | Skill type | Healing, % | Heals |
 |---|---|---|---|---|---|
-| Stellar | Warlock | Final Starlight | Passive Skill | 1,320% | for allies |
-| Bell | Ranger | Healing Sound | Active Skill | 540% | for allies |
-| Nicole | Warlock | Heartwarming Flame | Active Skill | 241.8% | for allies |
+| 스타더스트 | Warlock | Final Starlight | Passive Skill | 1,320% | for allies |
+| 벨 | Ranger | Healing Sound | Active Skill | 540% | for allies |
+| 니콜 | Warlock | Heartwarming Flame | Active Skill | 241.8% | for allies |
 
-Stronger: Stellar, Final Starlight heals for 1,320% for allies.
+Stronger: 스타더스트, Final Starlight heals for 1,320% for allies.
 
 ## Upgrade order
 
@@ -242,7 +242,7 @@ The hero has 150 levels, and reaching the last one costs Antitoxin 5,248,471,500
 
 ### Stars
 
-Reaching 50 stars takes 975 shards ( Nicole Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
+Reaching 50 stars takes 975 shards ( 니콜 Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
 
 | Stars | HP | ATK | DEF | Cost |
 |---|---|---|---|---|
@@ -265,13 +265,13 @@ Every skill goes up to level 40 with Skill Badge: one skill costs 436,700 of the
 
 ### Awakening
 
-40 levels, 2,870 awakening shards in total (Nicole Awaken Shard). At max it adds:
+40 levels, 2,870 awakening shards in total (니콜 Awaken Shard). At max it adds:
 - HP +425,119, ATK +12,119, DEF +3,812
 - DMG RES +5%
 
-### Exclusive Weapon
+### 전용 무기
 
-“Flame Cloak”, upgraded to 50 stars. At max it adds:
+“불꽃 망토”, upgraded to 50 stars. At max it adds:
 - HP +1,251,000, ATK +8,750, DEF +8,750
 - Hero DEF +10%
 - Hero HP +10%
@@ -289,16 +289,16 @@ Gains from each progression system on its own. They show where to invest first:
 | Hero levels | 1,217,588 | 16,150 | 11,678 |
 | Stars | 347,824 | 4,612 | 3,335 |
 | Awakening | 425,119 | 12,119 | 3,812 |
-| Exclusive Weapon | 1,251,000 | 8,750 | 8,750 |
+| 전용 무기 | 1,251,000 | 8,750 | 8,750 |
 | Total | 3,241,530 | 41,631 | 27,575 |
 
 ## How to play
 
-The three UR support heroes share the same maximum Might, 920,570, and what separates them is what they do in battle. Nicole heals two allies at once for 330,000 plus 241.8% of ATK, Bell heals one for 540% of ATK, and Harper heals nobody, raising the attack of the whole squad by 34.5% instead.
+The three UR support heroes share the same maximum Might, 920,570, and what separates them is what they do in battle. 니콜 heals two allies at once for 330,000 plus 241.8% of ATK, 벨 heals one for 540% of ATK, and 하퍼 heals nobody, raising the attack of the whole squad by 34.5% instead.
 
-Nicole enters the hero list on server day 98, later than any other UR hero, and her Awakening opens on season day 169. Her guaranteed free shards number 4, the same as Billy, and she is absent from the summon guarantee, so by the time she is unlocked a squad is usually long since built around Harper.
+니콜 enters the hero list on server day 98, later than any other UR hero, and her Awakening opens on season day 169. Her guaranteed free shards number 4, the same as 빌리, and she is absent from the summon guarantee, so by the time she is unlocked a squad is usually long since built around 하퍼.
 
 Stars are the bottleneck, because the healing grows with them. Her auto attack adds 5,000 to the base 10,000 at ★5, then 15,000 at ★25 and 30,000 at ★50, while Heartwarming Flame adds 80,000 at ★15, then 150,000 at ★35 and 250,000 at ★45. Forty-five stars take 675 shards out of 975.
 
-Nicole completes a warlock squad: five warlocks give +20% to stats, and all five UR heroes of that faction are on hand by then, Ulfrid, Billy, Annie, Joker and Nicole herself. With Annie she shares the burn plan, as Inferno Array hits every enemy for 3,150% and adds 45% against burning targets.
+니콜 completes a warlock squad: five warlocks give +20% to stats, and all five UR heroes of that faction are on hand by then, 울프레드, 빌리, 애니, 광대 and 니콜 herself. With 애니 she shares the burn plan, as Inferno Array hits every enemy for 3,150% and adds 45% against burning targets.
 

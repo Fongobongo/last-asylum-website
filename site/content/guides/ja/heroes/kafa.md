@@ -1,6 +1,6 @@
 ---
-title: "Kafa：スキル・ビルド・育成"
-description: "Kafa is an SR warlock who plays as DPS. Fully upgraded, she reaches 523,217 Might, rank 16 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Kafa Shard),…"
+title: "カファ：スキル・ビルド・育成"
+description: "カファ is an SR warlock who plays as DPS. Fully upgraded, she reaches 523,217 Might, rank 16 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( カファ Shard),…"
 videoTopic: "heroes"
 lang: ja
 updated: "2026-09-19"
@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-kafa)).
 
-Kafa is an SR warlock who plays as DPS. Fully upgraded, she reaches 523,217 Might, rank 16 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Kafa Shard), and the shards become available once the Warlock Statue reaches level 20.
+カファ is an SR warlock who plays as DPS. Fully upgraded, she reaches 523,217 Might, rank 16 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( カファ Shard), and the shards become available once the ソーサラー像 reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -25,17 +25,17 @@ Kafa is an SR warlock who plays as DPS. Fully upgraded, she reaches 523,217 Migh
 | Max Might | 523,217 |
 | Max stars | 50 |
 | Attack speed | one hit every 0.83 s |
-| Shards to unlock | Kafa Shard × 10 |
-| Faction building | Warlock Statue, level 20 |
+| Shards to unlock | カファ Shard × 10 |
+| Faction building | ソーサラー像, level 20 |
 | Skills | 4 instead of five: no passive skill |
 | Trait | Steady |
 | Faction advantage | Warlocks take 20% less damage from Rangers |
 
 ## Why she matters
 
-Role: A starting warlock DPS with four skills instead of five and no passive among them, which holds her ceiling down. Kafa stays below the SSR heroes of this role. The work is done by Double Expresso against a single target and Love Infusion across an area.
+Role: A starting warlock DPS with four skills instead of five and no passive among them, which holds her ceiling down. カファ stays below the SSR heroes of this role. The work is done by Double Expresso against a single target and Love Infusion across an area.
 
-Worth investing: By maximum Might Kafa is last of sixteen DPS heroes (523,217) and sits in tier C. She carries the first days until the shards for Grenwald are gathered, and deep investment in her makes little sense, since even from the bench her support skill gives the squad just 5%, a quarter of what any UR hero provides.
+Worth investing: By maximum Might カファ is last of sixteen DPS heroes (523,217) and sits in tier C. She carries the first days until the shards for グリンウォルド are gathered, and deep investment in her makes little sense, since even from the bench her support skill gives the squad just 5%, a quarter of what any UR hero provides.
 
 ## Skills
 
@@ -123,7 +123,7 @@ Support skill: active while the hero is outside the main squad.
 
 ## Compared to other heroes
 
-Below, Kafa is compared with the other heroes of the same role, of which the game has 16 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
+Below, カファ is compared with the other heroes of the same role, of which the game has 16 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
 
 ### Stats
 
@@ -131,18 +131,18 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 
 | Hero | Faction | Rarity | Max Might | HP growth | ATK growth | DEF growth |
 |---|---|---|---|---|---|---|
-| Zoya | Warrior | UR | 918,563 | 0.55 | 1.57 | 0.89 |
-| Annie | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
-| Cynthia | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
-| Marlena | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
-| Red Lady | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
-| Joker | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
-| Grenwald | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
-| Kesso | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
-| Ash | Ranger | SSR | 685,873 | 0.43 | 0.92 | 0.61 |
-| Bestar | Ranger | SSR | 685,793 | 0.4 | 0.97 | 0.61 |
-| Sivir | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
-| Claire | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
+| ゾーヤ | Warrior | UR | 918,563 | 0.55 | 1.57 | 0.89 |
+| アニー | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
+| シンシア | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
+| マレーナ | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
+| レッドレディ | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| ピエロ | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| グリンウォルド | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
+| ケイソ | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
+| アッシュ | Ranger | SSR | 685,873 | 0.43 | 0.92 | 0.61 |
+| ベスター | Ranger | SSR | 685,793 | 0.4 | 0.97 | 0.61 |
+| シヴィア | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
+| クレア | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
 
 ### Skill numbers
 
@@ -150,37 +150,37 @@ Coffee · damage multiplier · rank 15 of 16
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Claire | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
-| Marlena | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
-| Zoya | Warrior | Dagger | Auto Attack | 747% | single target |
-| Cynthia | Ranger | Moon Blade | Auto Attack | 747% | single target |
-| Kafa | Warlock | Coffee | Auto Attack | 297% | single target |
+| クレア | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
+| マレーナ | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
+| ゾーヤ | Warrior | Dagger | Auto Attack | 747% | single target |
+| シンシア | Ranger | 聖なる月刃 | Auto Attack | 747% | single target |
+| カファ | Warlock | Coffee | Auto Attack | 297% | single target |
 
-Stronger: Claire, Holy Banner (advanced) hits for 810% of ATK on a single target.
+Stronger: クレア, Holy Banner (advanced) hits for 810% of ATK on a single target.
 
 Love Infusion · damage multiplier · rank 13 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Joker | Warlock | Joker Ace | Ultimate Skill | 5,047.5% | single target |
-| Red Lady | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
-| Zoya | Warrior | Forest Hunter | Ultimate Skill | 3,669.6% | single target |
-| Annie | Warlock | Candy Jar | Ultimate Skill | 3,553.2% | single target |
-| Kafa | Warlock | Love Infusion | Ultimate Skill | 1,220.4% | area |
+| ピエロ | Warlock | ピエロ Ace | Ultimate Skill | 5,047.5% | single target |
+| レッドレディ | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
+| ゾーヤ | Warrior | Forest Hunter | Ultimate Skill | 3,669.6% | single target |
+| アニー | Warlock | Candy Jar | Ultimate Skill | 3,553.2% | single target |
+| カファ | Warlock | Love Infusion | Ultimate Skill | 1,220.4% | area |
 
-Stronger: Joker, Joker Ace hits for 5,047.5% of ATK on a single target.
+Stronger: ピエロ, ピエロ Ace hits for 5,047.5% of ATK on a single target.
 
 Double Expresso · damage multiplier · rank 12 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Red Lady | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
-| Sivir | Warrior | Shield Strike | Active Skill | 1,887.6% | single target |
-| Grenwald | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
-| Cynthia | Ranger | Lunar Hunt | Active Skill | 1,800% | single target |
-| Kafa | Warlock | Double Expresso | Active Skill | 900% | single target |
+| レッドレディ | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
+| シヴィア | Warrior | Shield Strike | Active Skill | 1,887.6% | single target |
+| グリンウォルド | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
+| シンシア | Ranger | Lunar Hunt | Active Skill | 1,800% | single target |
+| カファ | Warlock | Double Expresso | Active Skill | 900% | single target |
 
-Stronger: Red Lady, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
+Stronger: レッドレディ, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
 
 ## Upgrade order
 
@@ -221,7 +221,7 @@ The hero has 150 levels, and reaching the last one costs Antitoxin 5,248,471,500
 
 ### Stars
 
-Reaching 50 stars takes 975 shards ( Kafa Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
+Reaching 50 stars takes 975 shards ( カファ Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
 
 | Stars | HP | ATK | DEF | Cost |
 |---|---|---|---|---|
@@ -253,11 +253,11 @@ Gains from each progression system on its own. They show where to invest first:
 
 ## How to play
 
-Kafa closes the list of DPS heroes with 523,217 maximum Might, behind Robin at 523,779 and William at 524,421. The gap to the warlocks of her own role is far wider. Grenwald reaches 690,773 Might and Joker 913,583. Her Love Infusion covers an area for 1,220.4%, a quarter of what Joker Ace does at 5,047.5%.
+カファ closes the list of DPS heroes with 523,217 maximum Might, behind ロビン at 523,779 and ウィリアムズ at 524,421. The gap to the warlocks of her own role is far wider. グリンウォルド reaches 690,773 Might and ピエロ 913,583. Her Love Infusion covers an area for 1,220.4%, a quarter of what ピエロ Ace does at 5,047.5%.
 
-Kafa carries no server-age condition, and her shards open with the Warlock Statue at level 20, and ten of them are enough to hire her. She earns her place in the first days, until the shards for Grenwald are gathered: Grenwald opens with the same statue and the same 10 shards, while Joker does not appear until server day 14.
+カファ carries no server-age condition, and her shards open with the ソーサラー像 at level 20, and ten of them are enough to hire her. She earns her place in the first days, until the shards for グリンウォルド are gathered: グリンウォルド opens with the same statue and the same 10 shards, while ピエロ does not appear until server day 14.
 
-Kafa's progression stops at skill level 30, as it does for every SR hero, while SSR and UR heroes reach level 40, and each skill costs 170,200 Skill Badges instead of 436,700. Her three upgradable skills come to 510,600 badges in all against 1,746,800 for a hero with the full set, and the ceiling is just as short, 693,254 HP against 916,885 for Sivir.
+カファ's progression stops at skill level 30, as it does for every SR hero, while SSR and UR heroes reach level 40, and each skill costs 170,200 Skill Badges instead of 436,700. Her three upgradable skills come to 510,600 badges in all against 1,746,800 for a hero with the full set, and the ceiling is just as short, 693,254 HP against 916,885 for シヴィア.
 
-Kafa entered none of the thirty-two squads of the review. From the bench she also gives less than the others. Her Unyielding adds 5% to the squad's ATK, HP and DEF, while the same skill on a UR hero gives 20% and on an SSR hero 10%. Her place opens up as soon as any warlock of a higher rarity arrives.
+カファ entered none of the thirty-two squads of the review. From the bench she also gives less than the others. Her Unyielding adds 5% to the squad's ATK, HP and DEF, while the same skill on a UR hero gives 20% and on an SSR hero 10%. Her place opens up as soon as any warlock of a higher rarity arrives.
 

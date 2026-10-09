@@ -1,6 +1,6 @@
 ---
-title: "Marlena：スキル・ビルド・育成"
-description: "Marlena is a UR warrior who plays as DPS. Fully upgraded, she reaches 914,868 Might, rank 4 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Marlena Sha…"
+title: "マレーナ：スキル・ビルド・育成"
+description: "マレーナ is a UR warrior who plays as DPS. Fully upgraded, she reaches 914,868 Might, rank 4 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( マレーナ Sha…"
 videoTopic: "marlena"
 lang: ja
 updated: "2026-09-19"
@@ -17,7 +17,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-marlena)).
 
-Marlena is a UR warrior who plays as DPS. Fully upgraded, she reaches 914,868 Might, rank 4 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Marlena Shard), and the shards become available once the Warrior Statue reaches level 20. Server age does not limit Marlena: she is in the hero list from day one.
+マレーナ is a UR warrior who plays as DPS. Fully upgraded, she reaches 914,868 Might, rank 4 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( マレーナ Shard), and the shards become available once the ウォーリア像 reaches level 20. Server age does not limit マレーナ: she is in the hero list from day one.
 
 A flashing blade in the dead of night - unrivaled lethality.
 
@@ -29,21 +29,21 @@ A flashing blade in the dead of night - unrivaled lethality.
 | Max Might | 914,868 |
 | Max stars | 50 |
 | Attack speed | one hit every 0.87 s |
-| Shards to unlock | Marlena Shard × 10 |
-| Faction building | Warrior Statue, level 20 |
+| Shards to unlock | マレーナ Shard × 10 |
+| Faction building | ウォーリア像, level 20 |
 | Skills | 5, full set |
 | Trait | Helpful |
 | Faction advantage | Warriors take 20% less damage from Warlocks |
 | Awakening opens | on day one of the season |
 | Exclusive weapon | on day 106 of the season |
 
-This hero's awakening tab is open from day one of the season, while the other fourteen UR heroes get theirs one at a time, one every two weeks. The Exclusive Weapon becomes available on day 106 of the season.
+This hero's awakening tab is open from day one of the season, while the other fourteen UR heroes get theirs one at a time, one every two weeks. The 専用武器 becomes available on day 106 of the season.
 
 ## Why she matters
 
 Role: A warrior DPS who strikes often and across several targets, as her ultimate Peerless Blade sends five whirls at 3,382.5% of ATK. Her auto attack Skybreaker Slash at 783% is the second strongest of any DPS hero, so her damage flows evenly with no gaps between skills.
 
-Worth investing: Marlena ranks fourth of sixteen DPS heroes by maximum Might (914,868), sits in tier A and belongs to two tier S squads. What matters more is that she can be collected for free, around 940 guaranteed shards with 920 of them from development goals, and no server age condition. For a player who does not buy heroes she is worth levelling from day one.
+Worth investing: マレーナ ranks fourth of sixteen DPS heroes by maximum Might (914,868), sits in tier A and belongs to two tier S squads. What matters more is that she can be collected for free, around 940 guaranteed shards with 920 of them from development goals, and no server age condition. For a player who does not buy heroes she is worth levelling from day one.
 
 ## Skills
 
@@ -161,7 +161,7 @@ Support skill: active while the hero is outside the main squad.
 
 ## Compared to other heroes
 
-Below, Marlena is compared with the other heroes of the same role, of which the game has 16 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
+Below, マレーナ is compared with the other heroes of the same role, of which the game has 16 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
 
 ### Stats
 
@@ -169,18 +169,18 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 
 | Hero | Faction | Rarity | Max Might | HP growth | ATK growth | DEF growth |
 |---|---|---|---|---|---|---|
-| Zoya | Warrior | UR | 918,563 | 0.55 | 1.57 | 0.89 |
-| Annie | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
-| Cynthia | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
-| Marlena | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
-| Red Lady | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
-| Joker | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
-| Grenwald | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
-| Kesso | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
-| Ash | Ranger | SSR | 685,873 | 0.43 | 0.92 | 0.61 |
-| Bestar | Ranger | SSR | 685,793 | 0.4 | 0.97 | 0.61 |
-| Sivir | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
-| Claire | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
+| ゾーヤ | Warrior | UR | 918,563 | 0.55 | 1.57 | 0.89 |
+| アニー | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
+| シンシア | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
+| マレーナ | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
+| レッドレディ | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| ピエロ | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| グリンウォルド | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
+| ケイソ | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
+| アッシュ | Ranger | SSR | 685,873 | 0.43 | 0.92 | 0.61 |
+| ベスター | Ranger | SSR | 685,793 | 0.4 | 0.97 | 0.61 |
+| シヴィア | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
+| クレア | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
 
 ### Skill numbers
 
@@ -188,37 +188,37 @@ Skybreaker Slash · damage multiplier · rank 2 of 16
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Claire | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
-| Marlena | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
-| Zoya | Warrior | Dagger | Auto Attack | 747% | single target |
-| Cynthia | Ranger | Moon Blade | Auto Attack | 747% | single target |
-| Red Lady | Ranger | Blood Blade | Auto Attack | 747% | single target |
+| クレア | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
+| マレーナ | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
+| ゾーヤ | Warrior | Dagger | Auto Attack | 747% | single target |
+| シンシア | Ranger | 聖なる月刃 | Auto Attack | 747% | single target |
+| レッドレディ | Ranger | Blood Blade | Auto Attack | 747% | single target |
 
-Stronger: Claire, Holy Banner (advanced) hits for 810% of ATK on a single target.
+Stronger: クレア, Holy Banner (advanced) hits for 810% of ATK on a single target.
 
 Peerless Blade · damage multiplier · rank 6 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Joker | Warlock | Joker Ace | Ultimate Skill | 5,047.5% | single target |
-| Red Lady | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
-| Zoya | Warrior | Forest Hunter | Ultimate Skill | 3,669.6% | single target |
-| Annie | Warlock | Candy Jar | Ultimate Skill | 3,553.2% | single target |
-| Marlena | Warrior | Peerless Blade | Ultimate Skill | 3,382.5% | single target |
+| ピエロ | Warlock | ピエロ Ace | Ultimate Skill | 5,047.5% | single target |
+| レッドレディ | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
+| ゾーヤ | Warrior | Forest Hunter | Ultimate Skill | 3,669.6% | single target |
+| アニー | Warlock | Candy Jar | Ultimate Skill | 3,553.2% | single target |
+| マレーナ | Warrior | Peerless Blade | Ultimate Skill | 3,382.5% | single target |
 
-Stronger: Joker, Joker Ace hits for 5,047.5% of ATK on a single target.
+Stronger: ピエロ, ピエロ Ace hits for 5,047.5% of ATK on a single target.
 
 Crimson Bloom · damage multiplier · rank 9 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Red Lady | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
-| Sivir | Warrior | Shield Strike | Active Skill | 1,887.6% | single target |
-| Grenwald | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
-| Cynthia | Ranger | Lunar Hunt | Active Skill | 1,800% | single target |
-| Marlena | Warrior | Crimson Bloom | Active Skill | 1,462.5% | single target |
+| レッドレディ | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
+| シヴィア | Warrior | Shield Strike | Active Skill | 1,887.6% | single target |
+| グリンウォルド | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
+| シンシア | Ranger | Lunar Hunt | Active Skill | 1,800% | single target |
+| マレーナ | Warrior | Crimson Bloom | Active Skill | 1,462.5% | single target |
 
-Stronger: Red Lady, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
+Stronger: レッドレディ, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
 
 ## Upgrade order
 
@@ -267,7 +267,7 @@ The hero has 150 levels, and reaching the last one costs Antitoxin 5,248,471,500
 
 ### Stars
 
-Reaching 50 stars takes 975 shards ( Marlena Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
+Reaching 50 stars takes 975 shards ( マレーナ Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
 
 | Stars | HP | ATK | DEF | Cost |
 |---|---|---|---|---|
@@ -290,13 +290,13 @@ Every skill goes up to level 40 with Skill Badge: one skill costs 436,700 of the
 
 ### Awakening
 
-40 levels, 2,870 awakening shards in total ( Marlena Awaken Shard). At max it adds:
+40 levels, 2,870 awakening shards in total ( マレーナ Awaken Shard). At max it adds:
 - HP +1,350,327, ATK +12,404, DEF +18,746
 - DMG RES +5%
 
-### Exclusive Weapon
+### 専用武器
 
-“Crimson Sword”, upgraded to 50 stars. At max it adds:
+“クリムゾンソード”, upgraded to 50 stars. At max it adds:
 - HP +1,251,000, ATK +8,750, DEF +8,750
 - Hero DEF +10%
 - Hero HP +10%
@@ -314,16 +314,16 @@ Gains from each progression system on its own. They show where to invest first:
 | Hero levels | 1,008,858 | 18,511 | 11,305 |
 | Stars | 288,197 | 5,286 | 3,228 |
 | Awakening | 1,350,327 | 12,404 | 18,746 |
-| Exclusive Weapon | 1,251,000 | 8,750 | 8,750 |
+| 専用武器 | 1,251,000 | 8,750 | 8,750 |
 | Total | 3,898,382 | 44,951 | 42,030 |
 
 ## How to play
 
-Among the UR DPS heroes Marlena ranks fourth: 914,868 Might against 918,563 for Zoya, 916,394 for Annie and 916,153 for Cynthia. All six share a 15 second ultimate cooldown, so the winner is whoever does more with it, and Peerless Blade sends five whirls at 3,382.5% of ATK while her auto attack fills the gaps at 783%.
+Among the UR DPS heroes マレーナ ranks fourth: 914,868 Might against 918,563 for ゾーヤ, 916,394 for アニー and 916,153 for シンシア. All six share a 15 second ultimate cooldown, so the winner is whoever does more with it, and Peerless Blade sends five whirls at 3,382.5% of ATK while her auto attack fills the gaps at 783%.
 
-Marlena is the only UR hero collected for free: development goals guarantee 920 shards against 10 for the unlock and 975 for a full star build. No server age condition applies to her, her awakening is open from season day one, and the single wait is the Exclusive Weapon, which arrives on day 106.
+マレーナ is the only UR hero collected for free: development goals guarantee 920 shards against 10 for the unlock and 975 for a full star build. No server age condition applies to her, her awakening is open from season day one, and the single wait is the 専用武器, which arrives on day 106.
 
 Awakening is her most expensive system: 2,870 shards for 40 levels. It also returns the most, 1,350,327 HP, 12,404 ATK and 18,746 DEF, while all 150 hero levels give 1,008,858 HP. Skills cost 436,700 badges each, and Peerless Blade is the one to raise first.
 
-In a tier S squad Marlena stands with Arthur, Daskal, Harper and Louis for 150.7M of survivability and 2.7M damage per second, 98 points out of 100. The pure warrior version, with Zoya in place of Billy, lifts the bonus to +20% and the damage to 3.0M at 72.1M of survivability.
+In a tier S squad マレーナ stands with アーサー, ダスカール, ハーパー and ルイス for 150.7M of survivability and 2.7M damage per second, 98 points out of 100. The pure warrior version, with ゾーヤ in place of ビリー, lifts the bonus to +20% and the damage to 3.0M at 72.1M of survivability.
 

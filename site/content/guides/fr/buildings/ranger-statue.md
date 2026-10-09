@@ -1,6 +1,6 @@
 ---
-title: "Ranger Statue: levels, cost and bonus"
-description: "Ranger Statue…"
+title: "Statue de rôdeur: levels, cost and bonus"
+description: "Statue de rôdeur…"
 videoTopic: "buildings"
 lang: fr
 updated: "2026-09-19"
@@ -16,9 +16,9 @@ type: guide
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-ranger-statue)).
 
 
-Ranger Statue
+Statue de rôdeur
 
-Ranger Statue strengthens every hero of the Ranger faction at once: each level of the statue adds HP, ATK, DEF and command to all of them. The building goes up to level 30, and the bonus grows with every step, so the statue of the faction that makes up the main squad pays off faster than any other building with hero bonuses. On top of that, at level 20 the statue unlocks the shards of the heroes of its faction: without it, heroes of that faction cannot be recruited.
+Statue de rôdeur strengthens every hero of the Ranger faction at once: each level of the statue adds HP, ATK, DEF and command to all of them. The building goes up to level 30, and the bonus grows with every step, so the statue of the faction that makes up the main squad pays off faster than any other building with hero bonuses. On top of that, at level 20 the statue unlocks the shards of the heroes of its faction: without it, heroes of that faction cannot be recruited.
 
 ## Levels
 
@@ -54,7 +54,7 @@ Every hero of the faction gets the bonus, including those sitting on the bench.
 - Louis · UR
 - Bell · UR
 - Cynthia · UR
-- Red Lady · UR
+- Dame Rouge · UR
 - Griffith · SSR
 - Ash · SSR
 - Bestar · SSR
@@ -62,9 +62,9 @@ Every hero of the faction gets the bonus, including those sitting on the bench.
 
 ## How to use it
 
-Sanctuary level 12 unlocks nothing except the Ranger Statue, so its 299 days 4 hours of construction argue with nothing in the queue. Of the three faction statues this one comes last: the Warrior at level 7, the Warlock at level 11, the Ranger at level 12.
+Sanctuary level 12 unlocks nothing except the Statue de rôdeur, so its 299 days 4 hours of construction argue with nothing in the queue. Of the three faction statues this one comes last: the Warrior at level 7, the Warlock at level 11, the Ranger at level 12.
 
-It also costs less than its neighbors, 1,238,046,365 Grain and 3,737,863,074 Timber against the 1,276,808,885 Grain of the Warrior Statue. The gap of about three percent changes nothing in the scale of city spending, and the bonus to heroes is the same, 151,500 HP and 100 CMD at level 30.
+It also costs less than its neighbors, 1,238,046,365 Grain and 3,737,863,074 Timber against the 1,276,808,885 Grain of the Statue de guerrier. The gap of about three percent changes nothing in the scale of city spending, and the bonus to heroes is the same, 151,500 HP and 100 CMD at level 30.
 
 There are nine Rangers, five of them UR, and the five-level delay of the statue shows in the Expedition: the Ranger arena at difficulty 1 asks for 1,151,340 squad Might against 350,938 on the Warrior arena, three times more while this statue usually stands several levels below the Warrior one.
 

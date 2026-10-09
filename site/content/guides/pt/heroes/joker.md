@@ -17,7 +17,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-joker)).
 
-Joker is a UR warlock who plays as DPS. Fully upgraded, he reaches 913,583 Might, rank 6 of 16 among the game's DPS heroes. Unlocking him takes 10 shards ( Joker Shard), and the shards become available once the Warlock Statue reaches level 20. Joker does not appear in the hero list until server day 14.
+Joker is a UR warlock who plays as DPS. Fully upgraded, he reaches 913,583 Might, rank 6 of 16 among the game's DPS heroes. Unlocking him takes 10 shards ( Joker Shard), and the shards become available once the Estátua do Bruxo reaches level 20. Joker does not appear in the hero list until server day 14.
 
 It's showtime! Hold the power of life and death in your hands.
 
@@ -30,7 +30,7 @@ It's showtime! Hold the power of life and death in your hands.
 | Max stars | 50 |
 | Attack speed | one hit every 0.83 s |
 | Shards to unlock | Joker Shard × 10 |
-| Faction building | Warlock Statue, level 20 |
+| Faction building | Estátua do Bruxo, level 20 |
 | Skills | 5, full set |
 | Trait | Steady |
 | Faction advantage | Warlocks take 20% less damage from Rangers |
@@ -38,13 +38,13 @@ It's showtime! Hold the power of life and death in your hands.
 | Awakening opens | on day 71 of the season |
 | Exclusive weapon | on day 162 of the season |
 
-Awakening and the Exclusive Weapon follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 71 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Exclusive Weapon becomes available on day 162 of the season.
+Awakening and the Arma Exclusiva follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 71 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Arma Exclusiva becomes available on day 162 of the season.
 
 ## Why he matters
 
 Role: A DPS who finishes off the wounded, since his auto attack and his ultimate both pick the lowest-HP enemies. Joker Ace lands 5,047.5% of ATK, the largest figure of any DPS skill in the game.
 
-Worth investing: Joker shares fifth place of sixteen DPS heroes by maximum Might with Red Lady, both at 913,583, sits in tier A and belongs to the best squad of the game. He opens up early, on server day 14, and he is worth levelling after Zoya, Annie and Cynthia, who stand higher by Might.
+Worth investing: Joker shares fifth place of sixteen DPS heroes by maximum Might with Dama Vermelha, both at 913,583, sits in tier A and belongs to the best squad of the game. He opens up early, on server day 14, and he is worth levelling after Zoya, Annie and Cynthia, who stand higher by Might.
 
 ## Skills
 
@@ -166,7 +166,7 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 | Annie | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
 | Cynthia | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
 | Marlena | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
-| Red Lady | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| Dama Vermelha | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
 | Joker | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
 | Grenwald | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
 | Kesso | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
@@ -184,7 +184,7 @@ Deal Cards · damage multiplier · rank 7 of 16
 | Claire | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
 | Marlena | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
 | Zoya | Warrior | Dagger | Auto Attack | 747% | single target |
-| Cynthia | Ranger | Moon Blade | Auto Attack | 747% | single target |
+| Cynthia | Ranger | Lâmina Lunar | Auto Attack | 747% | single target |
 | Joker | Warlock | Deal Cards | Auto Attack | 747% | single target |
 
 Stronger: Claire, Holy Banner (advanced) hits for 810% of ATK on a single target.
@@ -194,24 +194,24 @@ Joker Ace · damage multiplier · rank 1 of 15
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
 | Joker | Warlock | Joker Ace | Ultimate Skill | 5,047.5% | single target |
-| Red Lady | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
+| Dama Vermelha | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
 | Zoya | Warrior | Forest Hunter | Ultimate Skill | 3,669.6% | single target |
 | Annie | Warlock | Candy Jar | Ultimate Skill | 3,553.2% | single target |
 | Claire | Warrior | Celestial Judgment (advanced) | Ultimate Skill | 3,486.6% | area |
 
-Closest counterpart: Red Lady, Crimson Rose hits for 4,550.4% of ATK on a single target.
+Closest counterpart: Dama Vermelha, Crimson Rose hits for 4,550.4% of ATK on a single target.
 
 Hearthunt Red Card · damage multiplier · rank 5 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Red Lady | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
+| Dama Vermelha | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
 | Sivir | Warrior | Shield Strike | Active Skill | 1,887.6% | single target |
 | Grenwald | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
 | Cynthia | Ranger | Lunar Hunt | Active Skill | 1,800% | single target |
 | Joker | Warlock | Hearthunt Red Card | Active Skill | 1,620% | single target |
 
-Stronger: Red Lady, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
+Stronger: Dama Vermelha, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
 
 ## Upgrade order
 
@@ -283,9 +283,9 @@ Every skill goes up to level 40 with Skill Badge: one skill costs 436,700 of the
 - HP +425,119, ATK +12,119, DEF +3,812
 - DMG RES +5%
 
-### Exclusive Weapon
+### Arma Exclusiva
 
-“Illusion Card”, upgraded to 50 stars. At max it adds:
+“Carta da Ilusão”, upgraded to 50 stars. At max it adds:
 - HP +1,251,000, ATK +8,750, DEF +8,750
 - Hero DEF +10%
 - Hero HP +10%
@@ -303,16 +303,16 @@ Gains from each progression system on its own. They show where to invest first:
 | Hero levels | 1,043,647 | 18,014 | 11,305 |
 | Stars | 298,135 | 5,144 | 3,228 |
 | Awakening | 425,119 | 12,119 | 3,812 |
-| Exclusive Weapon | 1,251,000 | 8,750 | 8,750 |
+| Arma Exclusiva | 1,251,000 | 8,750 | 8,750 |
 | Total | 3,017,900 | 44,027 | 27,096 |
 
 ## How to play
 
-Joker and Red Lady share fifth place with the same 913,583 Might, and both fall 4,980 short of Zoya. In the strength of a single blow Joker leads everyone: Joker Ace lands 5,047.5% of ATK against 4,550.4% for Crimson Rose. It takes 15 seconds to recharge, and the short Hearthunt Red Card at 1,620% works in between.
+Joker and Dama Vermelha share fifth place with the same 913,583 Might, and both fall 4,980 short of Zoya. In the strength of a single blow Joker leads everyone: Joker Ace lands 5,047.5% of ATK against 4,550.4% for Crimson Rose. It takes 15 seconds to recharge, and the short Hearthunt Red Card at 1,620% works in between.
 
-Joker does not appear in the hero list until server day 14, alongside Annie and ahead of every other UR warlock. His shards open with the Warlock Statue at level 20, and hiring him takes 10 of them. Awakening comes on season day 71 while the Exclusive Weapon waits until day 162, which leaves stars as the early investment.
+Joker does not appear in the hero list until server day 14, alongside Annie and ahead of every other UR warlock. His shards open with the Estátua do Bruxo at level 20, and hiring him takes 10 of them. Awakening comes on season day 71 while the Arma Exclusiva waits until day 162, which leaves stars as the early investment.
 
-The largest single addition comes from Awakening: 2,870 shards give 12,119 ATK, more than twice the 5,144 that all fifty stars bring. The Exclusive Weapon adds another 1,251,000 HP and 8,750 ATK, while levels contribute 1,043,647 HP. Stars are still needed first: the full 5,047.5% arrives with the thirtieth, while the fiftieth adds a third target.
+The largest single addition comes from Awakening: 2,870 shards give 12,119 ATK, more than twice the 5,144 that all fifty stars bring. The Arma Exclusiva adds another 1,251,000 HP and 8,750 ATK, while levels contribute 1,043,647 HP. Stars are still needed first: the full 5,047.5% arrives with the thirtieth, while the fiftieth adds a third target.
 
 The only squad with Joker in the squad review, which is also the best line-up in the game, is built around Billy and Ulfrid. The strongest of them, alongside Arthur, Harper and Annie, withstands 119.8M damage. Billy removes 36% of the energy damage from the three highest-attack allies, and Joker falls inside that trio, so he survives to a second cast of his ultimate.
 

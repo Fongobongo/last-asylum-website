@@ -57,21 +57,21 @@ Recopilado a partir de guías de composición de escuadrones, análisis de comba
 
 En PvP deciden la línea frontal, el control, el daño explosivo y la capacidad de desactivar objetivos peligrosos. No siempre gana el equipo más "gordo": un solo aturdimiento, una reducción de defensa o un buen golpe al carry enemigo pueden decidir el combate.
 
-- **S (PvP):** Arthur, Daskal, Marlena, Red Lady, Cynthia, Shadow, Harper
-- **A+ (PvP):** Louis, Ulfrid, Bell, Nicole, Annie
+- **S (PvP):** Arturo, Daskal, Marlena, Dama Roja, Cynthia, Sombra, Harper
+- **A+ (PvP):** Luis, Ulfrid, Bell, Nicole, Annie
 - **A (PvP):** Jester, Zoya, Billy
 
-Por qué: Red Lady presiona objetivos con alto ATQ — los principales dañinos enemigos. Shadow reduce defensa y rompe equipos de energía. Marlena y Cynthia aportan gran burst de energía. Arthur + Daskal es la línea frontal más fiable: no ganan el combate solos, pero dan tiempo a la retaguardia. Harper es valioso como parte del núcleo Warrior (Arthur + Daskal + Marlena).
+Por qué: Dama Roja presiona objetivos con alto ATQ — los principales dañinos enemigos. Sombra reduce defensa y rompe equipos de energía. Marlena y Cynthia aportan gran burst de energía. Arturo + Daskal es la línea frontal más fiable: no ganan el combate solos, pero dan tiempo a la retaguardia. Harper es valioso como parte del núcleo Warrior (Arturo + Daskal + Marlena).
 
 ## 🗡️ Tier List PvE {#pve-tier}
 
 El PvE sigue otra lógica: combates largos, daño sostenido, curación, supervivencia y adecuación a la debilidad del evento. Un equipo con menos poder puede hacer más daño si encaja con el jefe.
 
-- **S (PvE):** Arthur, Marlena, Daskal, Harper, Nicole
-- **A+ (PvE):** Cynthia, Zoya, Annie, Bell, Ulfrid, Louis
-- **A (PvE):** Red Lady, Shadow, Jester, Billy
+- **S (PvE):** Arturo, Marlena, Daskal, Harper, Nicole
+- **A+ (PvE):** Cynthia, Zoya, Annie, Bell, Ulfrid, Luis
+- **A (PvE):** Dama Roja, Sombra, Jester, Billy
 
-Nicole está más alta en PvE: la curación y el apoyo son críticos en combates largos. Red Lady está más baja que en PvP: su fuerza es presionar objetivos de alto ATQ y aturdir, lo que vale menos contra jefes. Arthur, Daskal y Marlena se mantienen altos en ambos modos: el frente y el daño estable se necesitan en todas partes.
+Nicole está más alta en PvE: la curación y el apoyo son críticos en combates largos. Dama Roja está más baja que en PvP: su fuerza es presionar objetivos de alto ATQ y aturdir, lo que vale menos contra jefes. Arturo, Daskal y Marlena se mantienen altos en ambos modos: el frente y el daño estable se necesitan en todas partes.
 
 **Consejo:** no copies tu equipo PvP al PvE automáticamente. Mira lo que pide el evento: una facción concreta, un tipo de daño o supervivencia en lugar de burst.
 
@@ -79,11 +79,11 @@ Nicole está más alta en PvE: la curación y el apoyo son críticos en combates
 
 La pregunta clave no es "¿quién es el más fuerte?" sino "¿a quién puedo desarrollar de verdad?". Un héroe UR sin fragmentos ni estrellas topa rápido con el techo.
 
-- **Prioridad muy alta:** Arthur, Marlena, Daskal, Harper, Cynthia
-- **Prioridad alta:** Red Lady, Shadow, Ulfrid, Annie
-- **Prioridad media/tardía:** Bell, Louis, Nicole, Zoya, Jester, Billy
+- **Prioridad muy alta:** Arturo, Marlena, Daskal, Harper, Cynthia
+- **Prioridad alta:** Dama Roja, Sombra, Ulfrid, Annie
+- **Prioridad media/tardía:** Bell, Luis, Nicole, Zoya, Jester, Billy
 
-Arthur es casi siempre un buen tanque inicial. Marlena es el mejor boost de daño low-spend ($1 top-up). Daskal es un segundo frente fuerte. Harper completa el equipo Warrior. Cynthia es el paso hacia híbridos de energía. Nicole es muy fuerte pero tardía: no construyas tu ruta inicial alrededor de ella.
+Arturo es casi siempre un buen tanque inicial. Marlena es el mejor boost de daño low-spend ($1 top-up). Daskal es un segundo frente fuerte. Harper completa el equipo Warrior. Cynthia es el paso hacia híbridos de energía. Nicole es muy fuerte pero tardía: no construyas tu ruta inicial alrededor de ella.
 
 Los héroes de menor rareza cubren roles temporales: **Bella** — segundo frente, **Celia** — PvE y farmeo, **Claire** — daño/apoyo de transición. Son un puente, no la meta final: no inviertas recursos raros como si fueran a quedarse siempre en el equipo principal.
 
@@ -98,7 +98,7 @@ Un héroe no existe al margen del equipo: el mismo personaje es genial en su equ
 - ¿Se completa el bono de facción? ¿El héroe es para PvP o PvE?
 - ¿Puede un jugador F2P/low-spend desarrollarlo de verdad?
 
-Ejemplos: Red Lady es un carry top, pero en un equipo débil sin frente muere antes de despegar. Harper no brilla en números de daño, pero en un equipo Warrior importa más que otro dañino. Shadow puede decidir combates contra ciertas composiciones, pero hay que colocarlo a propósito. Bell es fuerte en equipo Ranger y más débil fuera; Nicole es casi tier S dentro de Warlocks pero tardía; Billy es bueno contra control pero más situacional que los tanques universales.
+Ejemplos: Dama Roja es un carry top, pero en un equipo débil sin frente muere antes de despegar. Harper no brilla en números de daño, pero en un equipo Warrior importa más que otro dañino. Sombra puede decidir combates contra ciertas composiciones, pero hay que colocarlo a propósito. Bell es fuerte en equipo Ranger y más débil fuera; Nicole es casi tier S dentro de Warlocks pero tardía; Billy es bueno contra control pero más situacional que los tanques universales.
 
 ---
 
@@ -108,9 +108,9 @@ Composiciones probadas: una tier list sin equipos es casi inútil — ganan los 
 
 ### Rangers 5/5 — la facción fuerte de PvP
 
-**Equipo:** Shadow, Louis (frente) + Red Lady, Bell, Cynthia (retaguardia). Bono +20%.
+**Equipo:** Sombra, Luis (frente) + Dama Roja, Bell, Cynthia (retaguardia). Bono +20%.
 
-Red Lady presiona objetivos peligrosos, Cynthia añade daño, Bell apoya al equipo, Shadow y Louis aguantan el frente y contrarrestan amenazas de energía. Pros: fuerte presión PvP, control del ritmo, bono completo. Contras: caro y de desarrollo tardío — no es el camino más fácil para un novato.
+Dama Roja presiona objetivos peligrosos, Cynthia añade daño, Bell apoya al equipo, Sombra y Luis aguantan el frente y contrarrestan amenazas de energía. Pros: fuerte presión PvP, control del ritmo, bono completo. Contras: caro y de desarrollo tardío — no es el camino más fácil para un novato.
 
 ### Warlocks 5/5 — un sistema tardío
 
@@ -122,29 +122,29 @@ Ulfrid y Billy aguantan el frente, Nicole cura y potencia a los Warlocks, Annie 
 
 El formato 4+1 da +15% y funciona cuando un héroe de otra facción aporta más que un quinto débil de la misma.
 
-**Warriors 4 + Cynthia:** Arthur, Daskal, Harper, Marlena, Cynthia. Uno de los equipos más fiables. Si tu Cynthia supera a Zoya, perder el 5% de bono compensa.
+**Warriors 4 + Cynthia:** Arturo, Daskal, Harper, Marlena, Cynthia. Uno de los equipos más fiables. Si tu Cynthia supera a Zoya, perder el 5% de bono compensa.
 
-**Warriors 4 + Red Lady:** Arthur, Daskal, Harper, Marlena, Red Lady. Para presión PvP sobre objetivos de alto ATQ. Pega: Red Lady no recibe buffs Warrior, así que debe estar bien desarrollada.
+**Warriors 4 + Dama Roja:** Arturo, Daskal, Harper, Marlena, Dama Roja. Para presión PvP sobre objetivos de alto ATQ. Pega: Dama Roja no recibe buffs Warrior, así que debe estar bien desarrollada.
 
 ### Híbrido 3+2 — el formato más práctico
 
 +10% a PV/ATQ/DEF, pero permite híbridos potentes.
 
-**Equipo agresivo de energía:** Arthur, Daskal, Marlena + Cynthia, Red Lady (3 Warriors + 2 Rangers). Dos tanques al frente, tres héroes con daño de energía; sin apoyo clásico, pero burst pesado. Bueno en PvP y combates rápidos; más débil en combates largos si el frente cae.
+**Equipo agresivo de energía:** Arturo, Daskal, Marlena + Cynthia, Dama Roja (3 Warriors + 2 Rangers). Dos tanques al frente, tres héroes con daño de energía; sin apoyo clásico, pero burst pesado. Bueno en PvP y combates rápidos; más débil en combates largos si el frente cae.
 
-**Equipo PvP de control:** Arthur, Daskal, Marlena + Shadow, Cynthia (3 Warriors + 2 Rangers). Shadow aporta reducción de defensa y anti-energía; Marlena y Cynthia aprovechan la ventana. Bueno contra equipos duros que aguantan el primer burst; menos presión focalizada que con Red Lady.
+**Equipo PvP de control:** Arturo, Daskal, Marlena + Sombra, Cynthia (3 Warriors + 2 Rangers). Sombra aporta reducción de defensa y anti-energía; Marlena y Cynthia aprovechan la ventana. Bueno contra equipos duros que aguantan el primer burst; menos presión focalizada que con Dama Roja.
 
-**Equipo Warlock de transición:** Ulfrid, Nicole, Annie + Arthur, Marlena (3 Warlocks + 2 Warriors). Ulfrid al frente, Nicole cura, Annie con Burning, Arthur segundo frente, Marlena daño universal. Bueno si empezaste Warlocks pero el 5/5 queda lejos.
+**Equipo Warlock de transición:** Ulfrid, Nicole, Annie + Arturo, Marlena (3 Warlocks + 2 Warriors). Ulfrid al frente, Nicole cura, Annie con Burning, Arturo segundo frente, Marlena daño universal. Bueno si empezaste Warlocks pero el 5/5 queda lejos.
 
 ### Híbrido libre de ejecución
 
-**Arthur + Louis + Marlena + Jester + Red Lady.** Arthur y Louis aguantan el frente, Marlena da el daño principal, Red Lady presiona los carries enemigos, Jester ejecuta objetivos con pocos PV. Funciona si cada héroe está bien desarrollado, pero es mal camino base para F2P: bonos sistémicos peores, mayor dependencia de la inversión individual. Regla: un híbrido es bueno cuando resuelve una tarea concreta; "puse todos mis UR favoritos" no es una estrategia.
+**Arturo + Luis + Marlena + Jester + Dama Roja.** Arturo y Luis aguantan el frente, Marlena da el daño principal, Dama Roja presiona los carries enemigos, Jester ejecuta objetivos con pocos PV. Funciona si cada héroe está bien desarrollado, pero es mal camino base para F2P: bonos sistémicos peores, mayor dependencia de la inversión individual. Regla: un híbrido es bueno cuando resuelve una tarea concreta; "puse todos mis UR favoritos" no es una estrategia.
 
 ### Elegir dirección: resumen rápido
 
-- **Camino más seguro:** Warriors 5/5 — Arthur + Daskal + Harper + Marlena + Zoya. Dos tanques, apoyo, dos dañinos, bono completo +20%. No es llamativo, pero muy estable.
-- **PvP agresivo:** 3+2 energía — Arthur + Daskal + Marlena + Cynthia + Red Lady.
-- **PvP de control:** Arthur + Daskal + Marlena + Shadow + Cynthia.
+- **Camino más seguro:** Warriors 5/5 — Arturo + Daskal + Harper + Marlena + Zoya. Dos tanques, apoyo, dos dañinos, bono completo +20%. No es llamativo, pero muy estable.
+- **PvP agresivo:** 3+2 energía — Arturo + Daskal + Marlena + Cynthia + Dama Roja.
+- **PvP de control:** Arturo + Daskal + Marlena + Sombra + Cynthia.
 - **Meta tardía:** Warlocks 5/5 — Ulfrid + Billy + Nicole + Annie + Jester.
 
 El bono completo 5/5 no siempre es más fuerte que 4+1 o 3+2 si para lograrlo pones un héroe débil o inadecuado.

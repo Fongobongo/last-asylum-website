@@ -7,7 +7,7 @@ videoTopic: supreme_healer
 type: event
 ---
 
-L'événement **Guérisseur Suprême (Top Healer)** est le tournoi compétitif ultime de 7 jours dans Last Asylum: Plague. Il met à l'épreuve votre micro-gestion, votre planification d'inventaire et votre discipline. Contrairement aux sprints classiques basés sur le "pay-to-win", le Guérisseur Suprême est régulièrement remporté par des joueurs F2P (gratuits) et petits dépensiers stratégiques qui accumulent correctement l'Endurance, les missions Falcon, l'Antitoxine et les accélérations de construction.
+L'événement **Guérisseur Suprême (Soigneur d'élite)** est le tournoi compétitif ultime de 7 jours dans Last Asylum: Plague. Il met à l'épreuve votre micro-gestion, votre planification d'inventaire et votre discipline. Contrairement aux sprints classiques basés sur le "pay-to-win", le Guérisseur Suprême est régulièrement remporté par des joueurs F2P (gratuits) et petits dépensiers stratégiques qui accumulent correctement l'Endurance, les missions Falcon, l'Antitoxine et les accélérations de construction.
 
 Ce guide détaille les 7 phases de l'événement, les multiplicateurs de score exacts et les astuces éprouvées par les meilleurs chefs d'alliance.
 

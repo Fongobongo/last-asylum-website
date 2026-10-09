@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-claire-advanced)).
 
-Claire is a UR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Might, rank 13 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Claire Shard), and the shards become available once the Warrior Statue reaches level 20. Server age does not limit Claire: she is in the hero list from day one.
+Claire is a UR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Might, rank 13 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Claire Shard), and the shards become available once the Statue de guerrier reaches level 20. Server age does not limit Claire: she is in the hero list from day one.
 
 Advanced form of Claire: same shards, upgraded versions of the skills.
 
@@ -28,7 +28,7 @@ Advanced form of Claire: same shards, upgraded versions of the skills.
 | Max stars | 50 |
 | Attack speed | one hit every 1 s |
 | Shards to unlock | Claire Shard × 10 |
-| Faction building | Warrior Statue, level 20 |
+| Faction building | Statue de guerrier, level 20 |
 | Skills | 5, full set |
 | Trait | Helpful |
 | Faction advantage | Warriors take 20% less damage from Warlocks |
@@ -159,7 +159,7 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 | Annie | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
 | Cynthia | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
 | Marlena | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
-| Red Lady | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| Dame Rouge | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
 | Joker | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
 | Grenwald | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
 | Kesso | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
@@ -177,8 +177,8 @@ Holy Banner (advanced) · damage multiplier · rank 1 of 16
 | Claire | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
 | Marlena | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
 | Zoya | Warrior | Dagger | Auto Attack | 747% | single target |
-| Cynthia | Ranger | Moon Blade | Auto Attack | 747% | single target |
-| Red Lady | Ranger | Blood Blade | Auto Attack | 747% | single target |
+| Cynthia | Ranger | Lame lunaire | Auto Attack | 747% | single target |
+| Dame Rouge | Ranger | Blood Blade | Auto Attack | 747% | single target |
 
 Closest counterpart: Marlena, Skybreaker Slash hits for 783% of ATK on a single target.
 
@@ -187,7 +187,7 @@ Celestial Judgment (advanced) · damage multiplier · rank 5 of 15
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
 | Joker | Warlock | Joker Ace | Ultimate Skill | 5,047.5% | single target |
-| Red Lady | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
+| Dame Rouge | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
 | Zoya | Warrior | Forest Hunter | Ultimate Skill | 3,669.6% | single target |
 | Annie | Warlock | Candy Jar | Ultimate Skill | 3,553.2% | single target |
 | Claire | Warrior | Celestial Judgment (advanced) | Ultimate Skill | 3,486.6% | area |
@@ -198,13 +198,13 @@ Rain of Arrows (advanced) · damage multiplier · rank 10 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Red Lady | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
+| Dame Rouge | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
 | Sivir | Warrior | Shield Strike | Active Skill | 1,887.6% | single target |
 | Grenwald | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
 | Cynthia | Ranger | Lunar Hunt | Active Skill | 1,800% | single target |
 | Claire | Warrior | Rain of Arrows (advanced) | Active Skill | 938.4% | single target |
 
-Stronger: Red Lady, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
+Stronger: Dame Rouge, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
 
 ## Upgrade order
 
@@ -286,7 +286,7 @@ The maximum Might of the advanced Claire is 685,150 against 918,563 for Zoya and
 
 The advanced Claire is available from server day one and unlocks for the same 10 shards as the plain form. Among the other UR heroes only Arthur and Marlena arrive as early. Celestial Judgment at 3,486.6% recharges in 8 seconds, while every other UR hero of the role needs 15 seconds for an ultimate.
 
-Stars cost the advanced Claire twice what they cost anyone else: 1,950 shards instead of 975, drawn from the same reserve as the plain form. She has neither awakening nor an Exclusive Weapon, so her limit closes on 436,700 badges for each of the four skills and 1,078,435 HP from levels.
+Stars cost the advanced Claire twice what they cost anyone else: 1,950 shards instead of 975, drawn from the same reserve as the plain form. She has neither awakening nor an Arme exclusive, so her limit closes on 436,700 badges for each of the four skills and 1,078,435 HP from levels.
 
 Her place in a squad follows from the passive: Call of the Brave raises monster damage by 30% for the three highest-attack warriors, and it works better the more warriors stand beside her. A pure warrior five grants +20% to HP, ATK and DEF, and from the bench Claire pays the same +20% plus 10% cooldown speed.
 

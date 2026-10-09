@@ -1,6 +1,6 @@
 ---
-title: "Squad 1: levels, cost and upgrades"
-description: "Squad 1 opens the first march queue, and without that queue no troops leave the city at all. Idle income depends on the same building, and its level adds march speed to t…"
+title: "Tim 1: levels, cost and upgrades"
+description: "Tim 1 opens the first march queue, and without that queue no troops leave the city at all. Idle income depends on the same building, and its level adds march speed to t…"
 videoTopic: "buildings"
 lang: id
 updated: "2026-09-19"
@@ -16,7 +16,7 @@ type: guide
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-squad-1)).
 
 
-Squad 1 opens the first march queue, and without that queue no troops leave the city at all. Idle income depends on the same building, and its level adds march speed to that one queue. The building unlocks after Sanctuary level 4 and goes up to level 30. Only one can be built. Levels raise: squad March Speed↑.
+Tim 1 opens the first march queue, and without that queue no troops leave the city at all. Idle income depends on the same building, and its level adds march speed to that one queue. The building unlocks after Sanctuary level 4 and goes up to level 30. Only one can be built. Levels raise: squad March Speed↑.
 
 | Stat | Value |
 |---|---|
@@ -45,7 +45,7 @@ Taking the building from level 1 to 30 costs Grain 2,526,836,493, Timber 2,526,8
 
 ## How to use it
 
-Squad 1 hands over the main thing at level 1: 9 Grain, 9 Timber, under a minute of building, and the first march queue is open. The other twenty-nine levels cost 299 days and 4 hours and 5,459,706,416 resources, and only one such squad may stand.
+Tim 1 hands over the main thing at level 1: 9 Grain, 9 Timber, under a minute of building, and the first march queue is open. The other twenty-nine levels cost 299 days and 4 hours and 5,459,706,416 resources, and only one such squad may stand.
 
 What they buy is march speed for that one queue: 0.7% at level 1, 10.1% at level 20, 15.1% at level 30. Level 15 gives 7.7% and arrives in 2 days and 14 hours, so half the bonus costs under one percent of the full term. Level 20 is reached in 13 days and 6 hours, while the final five percentage points take 285 days and 22 hours.
 

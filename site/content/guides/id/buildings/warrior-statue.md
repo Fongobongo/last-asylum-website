@@ -1,6 +1,6 @@
 ---
-title: "Warrior Statue: levels, cost and bonus"
-description: "Warrior Statue…"
+title: "Patung Fighter: levels, cost and bonus"
+description: "Patung Fighter…"
 videoTopic: "buildings"
 lang: id
 updated: "2026-09-19"
@@ -16,9 +16,9 @@ type: guide
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-warrior-statue)).
 
 
-Warrior Statue
+Patung Fighter
 
-Warrior Statue strengthens every hero of the Warrior faction at once: each level of the statue adds HP, ATK, DEF and command to all of them. The building goes up to level 30, and the bonus grows with every step, so the statue of the faction that makes up the main squad pays off faster than any other building with hero bonuses. On top of that, at level 20 the statue unlocks the shards of the heroes of its faction: without it, heroes of that faction cannot be recruited.
+Patung Fighter strengthens every hero of the Warrior faction at once: each level of the statue adds HP, ATK, DEF and command to all of them. The building goes up to level 30, and the bonus grows with every step, so the statue of the faction that makes up the main squad pays off faster than any other building with hero bonuses. On top of that, at level 20 the statue unlocks the shards of the heroes of its faction: without it, heroes of that faction cannot be recruited.
 
 ## Levels
 
@@ -50,7 +50,7 @@ The price and time of every fifth level. The price grows much faster than the ga
 ## Heroes that get the bonus
 
 Every hero of the faction gets the bonus, including those sitting on the bench.
-- Daskal · UR
+- Duskar · UR
 - Arthur · UR
 - Harper · UR
 - Zoya · UR
@@ -58,20 +58,20 @@ Every hero of the faction gets the bonus, including those sitting on the bench.
 - Lucius · SSR
 - Bella · SSR
 - Celia · SSR
-- Kesso · SSR
+- Kaeso · SSR
 - Sivir · SSR
-- Claire · SSR
-- Claire (Advanced) · UR
+- Clea · SSR
+- Clea (Advanced) · UR
 - Durant · SR
-- William · SR
+- Williams · SR
 
 ## How to use it
 
-The Warrior Statue unlocks at Sanctuary level 7, where the build queue is already taken. The Research Lab needs 349 days of pure build time, the Infirmary another 299, and the statue adds its own 299 days 4 hours on top of them. Only the Arena and the Raven Nest go up instantly at that level, so the statue normally waits until the lab frees the queue. Raising it in full takes 1,276,808,885 Grain, 3,855,230,076 Timber and 813,779,100 Herb.
+The Patung Fighter unlocks at Sanctuary level 7, where the build queue is already taken. The Research Lab needs 349 days of pure build time, the Infirmary another 299, and the statue adds its own 299 days 4 hours on top of them. Only the Arena and the Kediaman Raven go up instantly at that level, so the statue normally waits until the lab frees the queue. Raising it in full takes 1,276,808,885 Grain, 3,855,230,076 Timber and 813,779,100 Herb.
 
 Level 20 deserves separate attention: it opens the Honor levels of the Warriors, and it is reached after 13 days of building, under five percent of the full 299. That step alone costs 14,890,000 Grain and 44,660,000 Timber, and from Sanctuary level 7 it is within reach earlier than for the other two statues. The remaining ten levels take 286 days and raise the HP bonus from 67,200 to 151,500.
 
-The bonus reaches the whole faction at once, and the game has fourteen Warriors against nine Warlocks and nine Rangers. The same 299 days here spread across the longest faction roster, six UR heroes among them, so the Warrior Statue pays back faster than the other two once the main squad is built from Warriors.
+The bonus reaches the whole faction at once, and the game has fourteen Warriors against nine Warlocks and nine Rangers. The same 299 days here spread across the longest faction roster, six UR heroes among them, so the Patung Fighter pays back faster than the other two once the main squad is built from Warriors.
 
 By Might the three statues are nearly indistinguishable: 272,400 for the Warrior, 272,600 for the Warlock and 272,500 for the Ranger. The unlock level makes the difference. This one arrives four and five Sanctuary levels earlier and is several levels ahead before its neighbors appear.
 

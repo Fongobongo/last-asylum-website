@@ -17,7 +17,7 @@ Last Asylum: Plague에서 건설은 장기전입니다. 1레벨에서 30레벨�
 1. **안식처 (성당)** — 항상 최우선입니다. 도시의 다른 모든 건물 레벨, 영웅 레벨 제한, 병종 티어를 결정합니다. 안식처 업그레이드가 가능할 때마다 가장 먼저 대기열에 넣으십시오.
 2. **연구소 (Research Lab)** — 기술 트리를 운영하며, **안식처 11레벨부터 30레벨까지의 필수 선행 조건**입니다. (연구소 레벨이 낮으면 중반 및 후반의 안식처 업그레이드를 시작할 수 없습니다.)
 3. **훈련장 (훈련장)** — 병종 티어(T1–T10)를 해제합니다. **1 Max + 3 Low Split** 전략을 사용하세요: 주력 훈련장 1개만 안식처 레벨에 맞춰 최대치로 올리고, 나머지 3개는 10레벨로 유지하여 승급용 저비용 T4를 대량 생산하십시오. (사이클당 6~7시간과 수백만 자원을 절약할 수 있습니다!)
-4. **병영 (Barracks)** — 병사 수용량입니다. 상비군 규모가 커질수록 투쟁력이 높아지고 행군당 타격력이 강해집니다.
+4. **병영 (병영)** — 병사 수용량입니다. 상비군 규모가 커질수록 투쟁력이 높아지고 행군당 타격력이 강해집니다.
 5. **의료실 (Infirmary)** — 패배 후 부상병을 치료합니다. 의료실 규모가 작으면 전투에서 패배할 때마다 회복할 수 없는 병사 손실이 발생합니다.
 6. **제련 공방 (제련 공방)** — 장비 업그레이드를 위한 장비석(Gear Stones)을 생산하고 정제합니다. 중반부에 휴대 무기 부족 현상을 겪지 않으려면 안식처 레벨이 허용하는 대로 **25레벨**까지 빠르게 올리십시오.
 7. **성벽 (Walls)** — 오직 특정 마일스톤을 위해서만 올립니다. (**안식처 5, 6, 9, 10, 12, 24레벨 달성 시에만 필요**하며, 나머지 24개 레벨에서는 필요하지 않습니다.) **성벽은 전투 스탯을 제공하거나 병사를 피해로부터 보호하지 않습니다!** 오직 도시 방어 내구도를 제공하여 공성 중 화재와 강제 텔레포트에 저항할 뿐입니다.
@@ -36,9 +36,9 @@ Last Asylum: Plague에서 건설은 장기전입니다. 1레벨에서 30레벨�
 | 건설 인부의 집 (Builder's Hut) | 건설 타이머의 무료 완료 시간 범위를 연장합니다. 배치된 생존자들은 추가 보너스를 제공하므로, 더 좋은 생존자를 모집하면 교체하십시오. | 무료 완료 범위를 최대화하기 위해 안식처 15레벨까지는 안식처 레벨과 맞추십시오. |
 | 연구소 (Research Lab) | 경제, 군사, 발전 연구 등 기술 트리를 운영합니다. 연구소 1과 2가 통합되어 두 대기열 모두 최적의 속도 버프를 받습니다. | 우선순위 2순위 — 안식처 11~30레벨의 지속적인 선행 조건입니다. 연맹 대결 트리에서 **슈퍼 보상 1 & 2**를 빠르게 올려 4~9단계 상자를 해제하세요! |
 | 훈련장 (훈련장) | 새로운 병종 티어를 해제하고(Lv.3에 T2, Lv.6에 T3, Lv.10에 T4, Lv.14에 T5, Lv.17에 T6, Lv.20에 T7, Lv.24에 T8, Lv.27에 T9, Lv.30에 T10) 훈련 용량을 늘립니다. | 최고 티어를 위해 1개만 최대 레벨로 올리고, 나머지 3개는 T4 병행 파밍 및 승급을 위해 10레벨로 유지하세요. |
-| 병영 (Barracks) | 도시 내 총 상비군 수용량을 늘립니다. | KvK 및 왕국 전쟁을 위해 대규모 군대를 보유할 수 있도록 업그레이드하세요. |
+| 병영 (병영) | 도시 내 총 상비군 수용량을 늘립니다. | KvK 및 왕국 전쟁을 위해 대규모 군대를 보유할 수 있도록 업그레이드하세요. |
 | 의료실 (Infirmary) | 패배 후 부상당한 병사를 치료합니다. | 의료실 용량 부족 = 패배할 때마다 영구적인 병사 손실 발생. |
-| 항독소 공방 (Antitoxin Workshop) | 영웅 성장에 사용되는 핵심 자원인 항독소(Antidotes / Antitoxin)를 생산합니다. | 10레벨까지 짓고 24시간 내내 생산하십시오. |
+| 항독소 공방 (항독소 작업장) | 영웅 성장에 사용되는 핵심 자원인 항독소(Antidotes / Antitoxin)를 생산합니다. | 10레벨까지 짓고 24시간 내내 생산하십시오. |
 | 장비 / 제련 / 직조 공방 | 파밍한 재료로 영웅 장비를 제작하고 업그레이드합니다. | 꾸준한 장비석 생산을 위해 **제련 공방을 25레벨까지** 올리세요. 장비 공방은 안식처 20레벨에 해제됩니다. |
 | 신전 (전사 조각상) | 통합된 신앙 건물입니다. 선택한 진영에 퍼센트 단위의 스탯 보너스를 제공합니다. | 부대 전투력을 높이고 안식처 선행 조건을 충족하기 위해 업그레이드하세요. |
 | 명예의 전당 (영예 강당) | 영웅 명예 레벨을 표시하고 명예 상점(UR 장비 도면의 핵심 수급처)을 해제합니다. | 후반 장비 성장에 필수적입니다. UR 장비 도면을 우선적으로 구매하세요. |
@@ -206,49 +206,49 @@ $$T = \frac{T_{base}}{100\% + \sum \text{speed buffs}}$$
 
 ## 📖 건물 가이드 {#buildings-index}
 
-- [2nd Workbench](/ko/buildings/2nd-workbench/)
-- [Alliance Hall](/ko/buildings/alliance-hall/)
-- [Alliance Stable](/ko/buildings/alliance-stable/)
-- [Antitoxin Workshop](/ko/buildings/antitoxin-workshop/)
-- [Arena](/ko/buildings/arena/)
-- [Barracks](/ko/buildings/barracks/)
-- [Black Ops](/ko/buildings/black-ops/)
+- [2번째 작업대](/ko/buildings/2nd-workbench/)
+- [길드 연락소](/ko/buildings/alliance-hall/)
+- [길드 마구간](/ko/buildings/alliance-stable/)
+- [항독소 작업장](/ko/buildings/antitoxin-workshop/)
+- [경기장](/ko/buildings/arena/)
+- [병영](/ko/buildings/barracks/)
+- [비밀 작전부](/ko/buildings/black-ops/)
 - [Builder's Hut](/ko/buildings/builder-s-hut/)
-- [Curio Hall](/ko/buildings/curio-hall/)
-- [Epigraph Workshop](/ko/buildings/epigraph-workshop/)
+- [수집관](/ko/buildings/curio-hall/)
+- [룬 공방](/ko/buildings/epigraph-workshop/)
 - [Explorer's Camp](/ko/buildings/explorer-s-camp/)
 - [Falcon Tower](/ko/buildings/falcon-tower/)
-- [Farm](/ko/buildings/farm/)
-- [Gear Workshop](/ko/buildings/gear-workshop/)
-- [Granary](/ko/buildings/granary/)
-- [Hall of Honor](/ko/buildings/hall-of-honor/)
-- [Herb Garden](/ko/buildings/herb-garden/)
-- [Herb Storage](/ko/buildings/herb-storage/)
+- [농장](/ko/buildings/farm/)
+- [장비 공방](/ko/buildings/gear-workshop/)
+- [식량 창고](/ko/buildings/granary/)
+- [영예 강당](/ko/buildings/hall-of-honor/)
+- [약초원](/ko/buildings/herb-garden/)
+- [약재 창고](/ko/buildings/herb-storage/)
 - [Infirmary](/ko/buildings/infirmary/)
-- [Lord Statue](/ko/buildings/lord-statue/)
-- [Lumber Depot](/ko/buildings/lumber-depot/)
-- [Lumberyard](/ko/buildings/lumberyard/)
-- [Monument](/ko/buildings/monument/)
-- [Nomad Trader](/ko/buildings/nomad-trader/)
-- [Private Stable](/ko/buildings/private-stable/)
-- [Ranger Statue](/ko/buildings/ranger-statue/)
-- [Raven Nest](/ko/buildings/raven-nest/)
-- [Raven Workshop](/ko/buildings/raven-workshop/)
+- [영주 조각상](/ko/buildings/lord-statue/)
+- [목재 창고](/ko/buildings/lumber-depot/)
+- [벌목장](/ko/buildings/lumberyard/)
+- [기념비](/ko/buildings/monument/)
+- [유목 상인](/ko/buildings/nomad-trader/)
+- [개인 마구간](/ko/buildings/private-stable/)
+- [레인저 조각상](/ko/buildings/ranger-statue/)
+- [까마귀 거처](/ko/buildings/raven-nest/)
+- [까마귀 공방](/ko/buildings/raven-workshop/)
 - [Research Lab](/ko/buildings/research-lab/)
-- [Residence](/ko/buildings/residence/)
+- [민가](/ko/buildings/residence/)
 - [Sanctuary](/ko/buildings/sanctuary/)
-- [Scout Squad](/ko/buildings/scout-squad/)
-- [Smelting Workshop](/ko/buildings/smelting-workshop/)
+- [정찰 부대](/ko/buildings/scout-squad/)
+- [제련 공방](/ko/buildings/smelting-workshop/)
 - [Soldier's Rest](/ko/buildings/soldier-s-rest/)
-- [Squad 1](/ko/buildings/squad-1/)
-- [Squad 2](/ko/buildings/squad-2/)
-- [Squad 3](/ko/buildings/squad-3/)
-- [Squad 4](/ko/buildings/squad-4/)
-- [Tavern](/ko/buildings/tavern/)
-- [Temple](/ko/buildings/temple/)
-- [Training Grounds](/ko/buildings/training-grounds/)
+- [소대 1](/ko/buildings/squad-1/)
+- [소대 2](/ko/buildings/squad-2/)
+- [소대 3](/ko/buildings/squad-3/)
+- [소대 4](/ko/buildings/squad-4/)
+- [선술집](/ko/buildings/tavern/)
+- [신전](/ko/buildings/temple/)
+- [훈련장](/ko/buildings/training-grounds/)
 - [Walls](/ko/buildings/walls/)
-- [Warlock Statue](/ko/buildings/warlock-statue/)
-- [Warrior Statue](/ko/buildings/warrior-statue/)
-- [Watchtower](/ko/buildings/watchtower/)
-- [Weaving Workshop](/ko/buildings/weaving-workshop/)
+- [마법사 조각상](/ko/buildings/warlock-statue/)
+- [전사 조각상](/ko/buildings/warrior-statue/)
+- [전망대](/ko/buildings/watchtower/)
+- [방직 공방](/ko/buildings/weaving-workshop/)

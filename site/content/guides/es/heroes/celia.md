@@ -13,7 +13,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-celia)).
 
-Celia is an SSR warrior who plays as support. Fully upgraded, she reaches 691,655 Might, rank 5 of 5 among the game's support heroes. Unlocking her takes 10 shards ( Celia Shard), and the shards become available once the Warrior Statue reaches level 20.
+Celia is an SSR warrior who plays as support. Fully upgraded, she reaches 691,655 Might, rank 5 of 5 among the game's support heroes. Unlocking her takes 10 shards ( Celia Shard), and the shards become available once the Estatua del guerrero reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -24,7 +24,7 @@ Celia is an SSR warrior who plays as support. Fully upgraded, she reaches 691,65
 | Max stars | 50 |
 | Attack speed | one hit every 0.5 s |
 | Shards to unlock | Celia Shard × 10 |
-| Faction building | Warrior Statue, level 20 |
+| Faction building | Estatua del guerrero, level 20 |
 | Skills | 5, full set |
 | Trait | Diligent |
 | Faction advantage | Warriors take 20% less damage from Warlocks |
@@ -154,7 +154,7 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 | Harper | Warrior | UR | 920,570 | 0.7 | 1.3 | 0.94 |
 | Bell | Ranger | UR | 920,570 | 0.7 | 1.3 | 0.94 |
 | Nicole | Warlock | UR | 920,570 | 0.7 | 1.3 | 0.94 |
-| Stellar | Warlock | SSR | 695,511 | 0.52 | 0.8 | 0.64 |
+| Estelar | Warlock | SSR | 695,511 | 0.52 | 0.8 | 0.64 |
 | Celia | Warrior | SSR | 691,655 | 0.5 | 0.82 | 0.63 |
 
 ### Skill numbers
@@ -166,7 +166,7 @@ Flying Blade · damage multiplier · rank 5 of 5
 | Harper | Warrior | Bubble | Auto Attack | 747% | single target |
 | Bell | Ranger | Musical Note | Auto Attack | 747% | single target |
 | Nicole | Warlock | Ember Dust | Auto Attack | 747% | single target |
-| Stellar | Warlock | Meteorite | Auto Attack | 594% | single target |
+| Estelar | Warlock | Meteorite | Auto Attack | 594% | single target |
 | Celia | Warrior | Flying Blade | Auto Attack | 297% | single target |
 
 Stronger: Harper, Bubble hits for 747% of ATK on a single target.
@@ -184,10 +184,10 @@ Deadly Lotus · damage multiplier · rank 2 of 2
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Stellar | Warlock | Destructive Comet | Active Skill | 1,930.5% | area |
+| Estelar | Warlock | Destructive Comet | Active Skill | 1,930.5% | area |
 | Celia | Warrior | Deadly Lotus | Active Skill | 1,346.4% | single target |
 
-Stronger: Stellar, Destructive Comet hits for 1,930.5% of ATK in an area.
+Stronger: Estelar, Destructive Comet hits for 1,930.5% of ATK in an area.
 
 ## Upgrade order
 
@@ -265,11 +265,11 @@ Gains from each progression system on its own. They show where to invest first:
 
 ## How to play
 
-Celia is fifth of the five support heroes by maximum Might (691,655), 3,856 behind Stellar and 228,915 behind Harper. She has no heal, but her auto attack lands every 0.5 seconds, twice as often as Stellar's and more often than any other hero's in the game. Her ultimate, Ricochet Blade, hits three targets for 1,956.24%.
+Celia is fifth of the five support heroes by maximum Might (691,655), 3,856 behind Estelar and 228,915 behind Harper. She has no heal, but her auto attack lands every 0.5 seconds, twice as often as Estelar's and more often than any other hero's in the game. Her ultimate, Ricochet Blade, hits three targets for 1,956.24%.
 
 SSR heroes carry no server age condition, so Celia covers the support place from day one. Harper, the hero she eventually gives way to, enters the list only on server day 21, and the recruit guarantee covers those shards. Until then Celia is the only support among the warriors.
 
 The main reason to field her grows with stars: Ultimate Hunt adds 4% to the loot from resource and elite monsters at the twentieth star, 6% at the forty-fifth and 10% at the fiftieth, reaching 60% only at the end of the scale, with squad damage against monsters at 18%. The scale costs 975 shards, and without awakening or a weapon Celia tops out at 1,118,152 HP.
 
-Celia is a warrior, and that is her strongest argument: with Arthur and Marlena she completes the full +20% faction bonus. Two of the five reachable UR squads stand on that five, and the best of them reaches 37.3M survivability and 15 effectiveness.
+Celia is a warrior, and that is her strongest argument: with Arturo and Marlena she completes the full +20% faction bonus. Two of the five reachable UR squads stand on that five, and the best of them reaches 37.3M survivability and 15 effectiveness.
 

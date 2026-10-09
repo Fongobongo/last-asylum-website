@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-robin)).
 
-Robin is an SR ranger who plays as DPS. Fully upgraded, he reaches 523,779 Might, rank 15 of 16 among the game's DPS heroes. Unlocking him takes 10 shards ( Robin Shard), and the shards become available once the Ranger Statue reaches level 20.
+Robin is an SR ranger who plays as DPS. Fully upgraded, he reaches 523,779 Might, rank 15 of 16 among the game's DPS heroes. Unlocking him takes 10 shards ( Robin Shard), and the shards become available once the Statue de rôdeur reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -26,7 +26,7 @@ Robin is an SR ranger who plays as DPS. Fully upgraded, he reaches 523,779 Might
 | Max stars | 50 |
 | Attack speed | one hit every 0.78 s |
 | Shards to unlock | Robin Shard × 10 |
-| Faction building | Ranger Statue, level 20 |
+| Faction building | Statue de rôdeur, level 20 |
 | Skills | 4 instead of five: no passive skill |
 | Trait | Complacent |
 | Faction advantage | Rangers take 20% less damage from Warriors |
@@ -139,7 +139,7 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 | Annie | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
 | Cynthia | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
 | Marlena | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
-| Red Lady | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| Dame Rouge | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
 | Joker | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
 | Grenwald | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
 | Kesso | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
@@ -157,7 +157,7 @@ Aim · damage multiplier · rank 16 of 16
 | Claire | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
 | Marlena | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
 | Zoya | Warrior | Dagger | Auto Attack | 747% | single target |
-| Cynthia | Ranger | Moon Blade | Auto Attack | 747% | single target |
+| Cynthia | Ranger | Lame lunaire | Auto Attack | 747% | single target |
 | Robin | Ranger | Aim | Auto Attack | 279% | single target |
 
 Stronger: Claire, Holy Banner (advanced) hits for 810% of ATK on a single target.
@@ -167,7 +167,7 @@ Rapid Fire · damage multiplier · rank 15 of 15
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
 | Joker | Warlock | Joker Ace | Ultimate Skill | 5,047.5% | single target |
-| Red Lady | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
+| Dame Rouge | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
 | Zoya | Warrior | Forest Hunter | Ultimate Skill | 3,669.6% | single target |
 | Annie | Warlock | Candy Jar | Ultimate Skill | 3,553.2% | single target |
 | Robin | Ranger | Rapid Fire | Ultimate Skill | 261% | single target |
@@ -178,13 +178,13 @@ Arrow of Retribution · damage multiplier · rank 11 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Red Lady | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
+| Dame Rouge | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
 | Sivir | Warrior | Shield Strike | Active Skill | 1,887.6% | single target |
 | Grenwald | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
 | Cynthia | Ranger | Lunar Hunt | Active Skill | 1,800% | single target |
 | Robin | Ranger | Arrow of Retribution | Active Skill | 936% | single target |
 
-Stronger: Red Lady, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
+Stronger: Dame Rouge, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
 
 ## Upgrade order
 
@@ -259,7 +259,7 @@ Gains from each progression system on its own. They show where to invest first:
 
 Among the three starting DPS heroes Robin comes last on attack: 9,319 at level 150 against 10,189 for Kafa and 9,568 for William. The gap to the SSR heroes is wider still, as Ash carries 11,431 ATK and 685,873 Might against 523,779 for Robin. Arrow of Retribution lands 936% of ATK every 5 seconds, while Ash's Eagle Spirit Hunt reaches 2,798.4%.
 
-Robin is available from the first day, and the 10 shards that unlock him come from the Ranger Statue at level 20. Investing in him beyond that unlock pays only until a better ranger shows up: Ash and Bestar are available at once, and Cynthia from server day 7.
+Robin is available from the first day, and the 10 shards that unlock him come from the Statue de rôdeur at level 20. Investing in him beyond that unlock pays only until a better ranger shows up: Ash and Bestar are available at once, and Cynthia from server day 7.
 
 Rarity is the bottleneck. An SR hero's skills go up to level 30 rather than 40, so one skill costs 170,200 badges instead of 436,700, and Robin has three upgradable skills rather than four, as an SR hero never opens a fifth one. The same 975 shards give him 173,912 HP and 2,661 ATK, where Cynthia receives 318,010 and 4,931.
 

@@ -34,7 +34,7 @@ One UR Curio is an exception: the Beacon of the Age has only five levels and 80 
 
 ## What they give
 
-The bonuses are flat and permanent. At maximum the Warrior Seal gives +612,000 hero HP, the Sphinx gives +6,629 ATK and +5% crit damage, and the Twin Dragon Brooch gives +55% construction speed.
+The bonuses are flat and permanent. At maximum the Krieger-Siegel gives +612,000 hero HP, the Sphinx gives +6,629 ATK and +5% crit damage, and the Zwillingsdrachen-Brosche gives +55% construction speed.
 
 ## Half of them are copies
 

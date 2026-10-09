@@ -57,5 +57,5 @@ The remaining calculations fit into a line each, and they are worth knowing most
 - Alliance size starts at 50 and grows by five per level.
 - Scouting costs 1,000 plus a hundred per target level.
 - Morale is clamped between 1 and 2, so it can double a fight at most.
-- Arena points depend on the rating gap: beating a stronger opponent pays more.
+- Arène points depend on the rating gap: beating a stronger opponent pays more.
 

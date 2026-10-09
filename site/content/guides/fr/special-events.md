@@ -15,15 +15,15 @@ Special events live in the Special Event tab on the city screen, on the right ne
 ## What the tab holds
 
 Version 1.0.87 shows nine events in the tab, listed below in the order the game uses.
-- Survival Battle: five daily phases, and only the actions of the running phase score: hero recruitment, construction, training, research and the Raven.
-- Crystal Cluster Valley: a separate map that opens for half an hour, where alliances mine Purified Crystal and seize clusters from each other.
-- Canyon Conquest: an alliance battle across three lanes with no soldier losses, six alliances to a group and five rounds.
-- Wandering Phantom: a day when Wandering Blights roam the map more often and the first-kill reward is paid three times.
-- Cheese Trap: an alliance boss caught in a trap for half an hour and hit with rallies, with difficulty rising by server day.
-- Undead Siege: waves of Blights from a prison against the territories of the whole alliance, and the main source of antitoxin.
-- Quiz of Wisdom: fifteen questions, with diamonds paid even for a wrong answer.
-- Bind for Reward: the window that links the game account to a platform account and pays a reward for the link.
-- Final Dawn: a starting reward track for total Might, eleven thresholds in a row.
+- Combat de survie: five daily phases, and only the actions of the running phase score: hero recruitment, construction, training, research and the Raven.
+- Vallée des Amas Cristallins: a separate map that opens for half an hour, where alliances mine Purified Crystal and seize clusters from each other.
+- Conquête du canyon: an alliance battle across three lanes with no soldier losses, six alliances to a group and five rounds.
+- Fantôme errant: a day when Wandering Blights roam the map more often and the first-kill reward is paid three times.
+- Piège à fromage: an alliance boss caught in a trap for half an hour and hit with rallies, with difficulty rising by server day.
+- Siège des morts-vivants: waves of Blights from a prison against the territories of the whole alliance, and the main source of antitoxin.
+- Quiz de sagesse: fifteen questions, with diamonds paid even for a wrong answer.
+- Lier pour des Récompenses: the window that links the game account to a platform account and pays a reward for the link.
+- Aube ultime: a starting reward track for total Might, eleven thresholds in a row.
 
 ## When each one arrives
 
@@ -31,15 +31,15 @@ Every event has a Sanctuary level from which it shows, and some also have a serv
 
 | Event | Sanctuary | Server day |
 |---|---|---|
-| [[arms-race | Survival Battle]] | 7 |
-| [[black-mine | Crystal Cluster Valley]] | 15 |
-| [[flag-war | Canyon Conquest]] | 10 |
-| [[wandering-phantom | Wandering Phantom]] | 8 |
-| [[cheese-trap | Cheese Trap]] | 6 |
-| [[city-siege | Undead Siege]] | 8 |
-| [[quiz | Quiz of Wisdom]] | 6 |
-| [[bind-reward | Bind for Reward]] | 6 |
-| [[final-dawn | Final Dawn]] | 5 |
+| [[arms-race | Combat de survie]] | 7 |
+| [[black-mine | Vallée des Amas Cristallins]] | 15 |
+| [[flag-war | Conquête du canyon]] | 10 |
+| [[wandering-phantom | Fantôme errant]] | 8 |
+| [[cheese-trap | Piège à fromage]] | 6 |
+| [[city-siege | Siège des morts-vivants]] | 8 |
+| [[quiz | Quiz de sagesse]] | 6 |
+| [[bind-reward | Lier pour des Récompenses]] | 6 |
+| [[final-dawn | Aube ultime]] | 5 |
 
-Survival Battle and Cheese Trap come first, while the Valley and the Canyon only arrive in the third week, once alliances have members to send onto the map. Undead Siege sits on day fifteen, yet it is started by the alliance itself after gathering clues on Falcon Quests, not by the calendar.
+Combat de survie and Piège à fromage come first, while the Valley and the Canyon only arrive in the third week, once alliances have members to send onto the map. Siège des morts-vivants sits on day fifteen, yet it is started by the alliance itself after gathering clues on Falcon Quests, not by the calendar.
 

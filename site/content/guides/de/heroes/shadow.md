@@ -17,7 +17,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-shadow)).
 
-Shadow is a UR ranger who plays as tank. Fully upgraded, he reaches 1,075,906 Might, rank 1 of 11 among the game's tanks. Unlocking him takes 10 shards ( Shadow Shard), and the shards become available once the Ranger Statue reaches level 20. Shadow does not appear in the hero list until server day 7.
+Shadow is a UR ranger who plays as tank. Fully upgraded, he reaches 1,075,906 Might, rank 1 of 11 among the game's tanks. Unlocking him takes 10 shards ( Shadow Shard), and the shards become available once the Ranger-Statue reaches level 20. Shadow does not appear in the hero list until server day 7.
 
 A phantom-like presence capable of neutralizing any strike.
 
@@ -30,7 +30,7 @@ A phantom-like presence capable of neutralizing any strike.
 | Max stars | 50 |
 | Attack speed | one hit every 0.83 s |
 | Shards to unlock | Shadow Shard × 10 |
-| Faction building | Ranger Statue, level 20 |
+| Faction building | Ranger-Statue, level 20 |
 | Skills | 5, full set |
 | Trait | Steady |
 | Faction advantage | Rangers take 20% less damage from Warriors |
@@ -38,7 +38,7 @@ A phantom-like presence capable of neutralizing any strike.
 | Awakening opens | on day 57 of the season |
 | Exclusive weapon | on day 176 of the season |
 
-Awakening and the Exclusive Weapon follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 57 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Exclusive Weapon becomes available on day 176 of the season.
+Awakening and the Exklusive Waffe follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 57 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Exklusive Waffe becomes available on day 176 of the season.
 
 ## Why he matters
 
@@ -294,9 +294,9 @@ Every skill goes up to level 40 with Skill Badge: one skill costs 436,700 of the
 - HP +425,119, ATK +12,119, DEF +3,812
 - DMG RES +5%
 
-### Exclusive Weapon
+### Exklusive Waffe
 
-“Phantom Dagger”, upgraded to 50 stars. At max it adds:
+“Phantomdolch”, upgraded to 50 stars. At max it adds:
 - HP +1,251,000, ATK +8,750, DEF +8,750
 - Hero DEF +10%
 - Hero HP +10%
@@ -314,16 +314,16 @@ Gains from each progression system on its own. They show where to invest first:
 | Hero levels | 2,487,358 | 9,690 | 13,169 |
 | Stars | 710,554 | 2,767 | 3,760 |
 | Awakening | 425,119 | 12,119 | 3,812 |
-| Exclusive Weapon | 1,251,000 | 8,750 | 8,750 |
+| Exklusive Waffe | 1,251,000 | 8,750 | 8,750 |
 | Total | 4,874,031 | 33,326 | 29,491 |
 
 ## How to play
 
-Among the five tier S tanks Shadow leads on HP and trails on damage. His HP growth ratio of 1.43 is the highest in the game, so 150 levels give him 2,487,358 HP against 2,365,599 for Daskal and 2,330,811 for Arthur. His auto attack lands 252% of ATK, while Daskal and Louis reach 747% at fifty stars and 996% with the Exclusive Weapon.
+Among the five tier S tanks Shadow leads on HP and trails on damage. His HP growth ratio of 1.43 is the highest in the game, so 150 levels give him 2,487,358 HP against 2,365,599 for Daskal and 2,330,811 for Arthur. His auto attack lands 252% of ATK, while Daskal and Louis reach 747% at fifty stars and 996% with the Exklusive Waffe.
 
-Shadow enters the hero list on server day 7, ahead of every other UR tank that carries such a condition: Ulfrid waits until day 42, Louis until 63, Billy until 84, while Arthur carries no server age condition at all. His shards come from the Ranger Statue at level 20 and from the guarantee of the third recruit pool, which holds six other heroes besides him. That early access is what makes him the first tank of a squad.
+Shadow enters the hero list on server day 7, ahead of every other UR tank that carries such a condition: Ulfrid waits until day 42, Louis until 63, Billy until 84, while Arthur carries no server age condition at all. His shards come from the Ranger-Statue at level 20 and from the guarantee of the third recruit pool, which holds six other heroes besides him. That early access is what makes him the first tank of a squad.
 
 Stars cost the most. Shadow Strike's defense reduction reaches 54% only at ★45, and forty-five stars take 675 shards out of 975. Awakening opens on season day 57 and adds 425,119 HP, almost six times less than his levels give, so shards and levels come before it.
 
-The best squads in the game have no room for him, because Arthur and Billy hold the front line with reductions that reach their allies, not only themselves. Shadow is a ranger, though, and a squad of Louis, Cynthia, Red Lady and Bell around him carries the full +20% faction bonus, while rangers take 20% less damage from Warriors.
+The best squads in the game have no room for him, because Arthur and Billy hold the front line with reductions that reach their allies, not only themselves. Shadow is a ranger, though, and a squad of Louis, Cynthia, Rote Dame and Bell around him carries the full +20% faction bonus, while rangers take 20% less damage from Warriors.
 

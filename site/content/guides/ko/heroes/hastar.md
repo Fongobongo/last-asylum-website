@@ -1,6 +1,6 @@
 ---
-title: "Hastar: 스킬, 빌드, 육성"
-description: "Hastar is an SSR warlock who plays as tank. Fully upgraded, he reaches 750,047 Might, rank 10 of 11 among the game's tanks. Unlocking him takes 10 shards ( Hastar Shard),…"
+title: "하스터: 스킬, 빌드, 육성"
+description: "하스터 is an SSR warlock who plays as tank. Fully upgraded, he reaches 750,047 Might, rank 10 of 11 among the game's tanks. Unlocking him takes 10 shards ( 하스터 Shard),…"
 videoTopic: "heroes"
 lang: ko
 updated: "2026-09-19"
@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-hastar)).
 
-Hastar is an SSR warlock who plays as tank. Fully upgraded, he reaches 750,047 Might, rank 10 of 11 among the game's tanks. Unlocking him takes 10 shards ( Hastar Shard), and the shards become available once the Warlock Statue reaches level 20.
+하스터 is an SSR warlock who plays as tank. Fully upgraded, he reaches 750,047 Might, rank 10 of 11 among the game's tanks. Unlocking him takes 10 shards ( 하스터 Shard), and the shards become available once the 마법사 조각상 reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -25,8 +25,8 @@ Hastar is an SSR warlock who plays as tank. Fully upgraded, he reaches 750,047 M
 | Max Might | 750,047 |
 | Max stars | 50 |
 | Attack speed | one hit every 0.9 s |
-| Shards to unlock | Hastar Shard × 10 |
-| Faction building | Warlock Statue, level 20 |
+| Shards to unlock | 하스터 Shard × 10 |
+| Faction building | 마법사 조각상, level 20 |
 | Skills | 5, full set |
 | Trait | Diligent |
 | Faction advantage | Warlocks take 20% less damage from Rangers |
@@ -35,7 +35,7 @@ Hastar is an SSR warlock who plays as tank. Fully upgraded, he reaches 750,047 M
 
 Role: A warlock tank who adds damage in an early squad rather than holding its front line, since he carries no damage reduction at all. His Wrath of Old Gods covers an area for 3,623.4% of ATK, rank 1 of 9 among tank ultimates, and Undercurrent also stuns its target for a second. He protects mostly through raw HP, and his shield Scorn Guard is the smallest of the game's three.
 
-Worth investing: By maximum Might Hastar ranks tenth of eleven tanks (750,047), yet that place understates his early value, since in the best squad built without a single UR hero he is the second damage source after Sivir, and that damage rests on Wrath of Old Gods, the strongest ultimate among tanks. He is worth levelling while the UR tanks are out of reach, and after that he serves better from the bench.
+Worth investing: By maximum Might 하스터 ranks tenth of eleven tanks (750,047), yet that place understates his early value, since in the best squad built without a single UR hero he is the second damage source after 시빌, and that damage rests on Wrath of Old Gods, the strongest ultimate among tanks. He is worth levelling while the UR tanks are out of reach, and after that he serves better from the bench.
 
 ## Skills
 
@@ -145,7 +145,7 @@ Support skill: active while the hero is outside the main squad.
 
 ## Compared to other heroes
 
-Below, Hastar is compared with the other heroes of the same role, of which the game has 11 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
+Below, 하스터 is compared with the other heroes of the same role, of which the game has 11 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
 
 ### Stats
 
@@ -153,17 +153,17 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 
 | Hero | Faction | Rarity | Max Might | HP growth | ATK growth | DEF growth |
 |---|---|---|---|---|---|---|
-| Shadow | Ranger | UR | 1,075,906 | 1.43 | 0.78 | 1.06 |
-| Daskal | Warrior | UR | 1,057,192 | 1.36 | 0.81 | 1.05 |
-| Arthur | Warrior | UR | 1,052,453 | 1.34 | 0.82 | 1.05 |
-| Louis | Ranger | UR | 1,044,341 | 1.31 | 0.83 | 1.05 |
-| Ulfrid | Warlock | UR | 1,033,739 | 1.27 | 0.85 | 1.04 |
-| Billy | Warlock | UR | 980,246 | 1.05 | 0.97 | 1.01 |
-| Lucius | Warrior | SSR | 778,239 | 0.9 | 0.54 | 0.7 |
-| Bella | Warrior | SSR | 773,500 | 0.88 | 0.55 | 0.7 |
-| Griffith | Ranger | SSR | 764,263 | 0.85 | 0.56 | 0.69 |
-| Hastar | Warlock | SSR | 750,047 | 0.79 | 0.59 | 0.69 |
-| Durant | Warrior | SR | 596,226 | 0.72 | 0.45 | 0.57 |
+| 섀도우 | Ranger | UR | 1,075,906 | 1.43 | 0.78 | 1.06 |
+| 다스칼 | Warrior | UR | 1,057,192 | 1.36 | 0.81 | 1.05 |
+| 아서 | Warrior | UR | 1,052,453 | 1.34 | 0.82 | 1.05 |
+| 루이스 | Ranger | UR | 1,044,341 | 1.31 | 0.83 | 1.05 |
+| 울프레드 | Warlock | UR | 1,033,739 | 1.27 | 0.85 | 1.04 |
+| 빌리 | Warlock | UR | 980,246 | 1.05 | 0.97 | 1.01 |
+| 루시우스 | Warrior | SSR | 778,239 | 0.9 | 0.54 | 0.7 |
+| 벨라 | Warrior | SSR | 773,500 | 0.88 | 0.55 | 0.7 |
+| 그리피스 | Ranger | SSR | 764,263 | 0.85 | 0.56 | 0.69 |
+| 하스터 | Warlock | SSR | 750,047 | 0.79 | 0.59 | 0.69 |
+| 듀란트 | Warrior | SR | 596,226 | 0.72 | 0.45 | 0.57 |
 
 ### Skill numbers
 
@@ -171,51 +171,51 @@ Lash · damage multiplier · rank 7 of 11
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Daskal | Warrior | Battle Will | Auto Attack | 996% | single target |
-| Louis | Ranger | Shackles | Auto Attack | 996% | single target |
-| Ulfrid | Warlock | Sharp Claw | Auto Attack | 996% | single target |
-| Arthur | Warrior | Battle Shield | Auto Attack | 900% | single target |
-| Hastar | Warlock | Lash | Auto Attack | 534.6% | single target |
+| 다스칼 | Warrior | Battle Will | Auto Attack | 996% | single target |
+| 루이스 | Ranger | Shackles | Auto Attack | 996% | single target |
+| 울프레드 | Warlock | Sharp Claw | Auto Attack | 996% | single target |
+| 아서 | Warrior | Battle Shield | Auto Attack | 900% | single target |
+| 하스터 | Warlock | Lash | Auto Attack | 534.6% | single target |
 
-Stronger: Daskal, Battle Will hits for 996% of ATK on a single target.
+Stronger: 다스칼, Battle Will hits for 996% of ATK on a single target.
 
 Wrath of Old Gods · damage multiplier · rank 1 of 9
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Hastar | Warlock | Wrath of Old Gods | Ultimate Skill | 3,623.4% | area |
-| Billy | Warlock | Truth and Lies | Ultimate Skill | 2,916% | area |
-| Bella | Warrior | Bloody Requiem | Ultimate Skill | 2,886.84% | single target |
-| Lucius | Warrior | Whirlwind Cut | Ultimate Skill | 2,029.2% | single target |
-| Ulfrid | Warlock | Throat Bite | Ultimate Skill | 1,806% | single target |
+| 하스터 | Warlock | Wrath of Old Gods | Ultimate Skill | 3,623.4% | area |
+| 빌리 | Warlock | Truth and Lies | Ultimate Skill | 2,916% | area |
+| 벨라 | Warrior | Bloody Requiem | Ultimate Skill | 2,886.84% | single target |
+| 루시우스 | Warrior | Whirlwind Cut | Ultimate Skill | 2,029.2% | single target |
+| 울프레드 | Warlock | Throat Bite | Ultimate Skill | 1,806% | single target |
 
-Closest counterpart: Billy, Truth and Lies hits for 2,916% of ATK in an area.
+Closest counterpart: 빌리, Truth and Lies hits for 2,916% of ATK in an area.
 
 Undercurrent · damage multiplier · rank 3 of 7
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Griffith | Ranger | Venomous Bite | Active Skill | 2,303.4% | single target |
-| Lucius | Warrior | Decapitation | Active Skill | 1,874.4% | single target |
-| Hastar | Warlock | Undercurrent | Active Skill | 1,306.8% | single target |
-| Durant | Warrior | Leap Slash | Active Skill | 1,057.5% | single target |
-| Daskal | Warrior | Deadly Pierce | Active Skill | 924% | single target |
+| 그리피스 | Ranger | Venomous Bite | Active Skill | 2,303.4% | single target |
+| 루시우스 | Warrior | Decapitation | Active Skill | 1,874.4% | single target |
+| 하스터 | Warlock | Undercurrent | Active Skill | 1,306.8% | single target |
+| 듀란트 | Warrior | Leap Slash | Active Skill | 1,057.5% | single target |
+| 다스칼 | Warrior | Deadly Pierce | Active Skill | 924% | single target |
 
-Stronger: Griffith, Venomous Bite hits for 2,303.4% of ATK on a single target.
+Stronger: 그리피스, Venomous Bite hits for 2,303.4% of ATK on a single target.
 
 Scorn Guard · shield from max HP · rank 3 of 3
 
 | Hero | Faction | Skill | Skill type | Shield, % of HP | Shield for |
 |---|---|---|---|---|---|
-| Arthur | Warrior | Rock Solid | Active Skill | 30% | for the caster |
-| Daskal | Warrior | Resolute Fight | Passive Skill | 22.5% | for allies |
-| Hastar | Warlock | Scorn Guard | Passive Skill | 16.2% | for the caster |
+| 아서 | Warrior | Rock Solid | Active Skill | 30% | for the caster |
+| 다스칼 | Warrior | Resolute Fight | Passive Skill | 22.5% | for allies |
+| 하스터 | Warlock | Scorn Guard | Passive Skill | 16.2% | for the caster |
 
-Stronger: Arthur, Rock Solid shields for 30% of max HP for the caster.
+Stronger: 아서, Rock Solid shields for 30% of max HP for the caster.
 
 ## Upgrade order
 
-Skill priority: Wrath of Old Gods comes first, the best ultimate among tanks and the bulk of Hastar's damage. Undercurrent is next for its stun and its 5 second cooldown. Scorn Guard follows, and the auto attack Lash comes last with the support skill, reaching 534.6% at 50 stars.
+Skill priority: Wrath of Old Gods comes first, the best ultimate among tanks and the bulk of 하스터's damage. Undercurrent is next for its stun and its 5 second cooldown. Scorn Guard follows, and the auto attack Lash comes last with the support skill, reaching 534.6% at 50 stars.
 
 ### What stars and levels unlock
 
@@ -256,7 +256,7 @@ The hero has 150 levels, and reaching the last one costs Antitoxin 5,248,471,500
 
 ### Stars
 
-Reaching 50 stars takes 975 shards ( Hastar Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
+Reaching 50 stars takes 975 shards ( 하스터 Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
 
 | Stars | HP | ATK | DEF | Cost |
 |---|---|---|---|---|
@@ -289,11 +289,11 @@ Gains from each progression system on its own. They show where to invest first:
 
 ## How to play
 
-Among the four SSR tanks Hastar comes last on HP and first on the ultimate. Levels give him 1,374,136 HP against 1,565,472 for Lucius and 1,530,683 for Bella, yet Wrath of Old Gods hits for 3,623.4% of ATK, where Lucius's Whirlwind Cut reaches 2,029.2% and Bella's Bloody Requiem 2,886.84%.
+Among the four SSR tanks 하스터 comes last on HP and first on the ultimate. Levels give him 1,374,136 HP against 1,565,472 for 루시우스 and 1,530,683 for 벨라, yet Wrath of Old Gods hits for 3,623.4% of ATK, where 루시우스's Whirlwind Cut reaches 2,029.2% and 벨라's Bloody Requiem 2,886.84%.
 
-An SSR hero carries no server age condition, so Hastar is available from the first day, and the 10 shards that unlock him come from the Warlock Statue at level 20. He is worth levelling at once, because no other warlock tank exists until server day 42, when Ulfrid arrives, with Billy following on day 84.
+An SSR hero carries no server age condition, so 하스터 is available from the first day, and the 10 shards that unlock him come from the 마법사 조각상 at level 20. He is worth levelling at once, because no other warlock tank exists until server day 42, when 울프레드 arrives, with 빌리 following on day 84.
 
-His progression ends early. SSR heroes receive neither Awakening nor an Exclusive Weapon, so he stops at 1,766,680 HP and 9,424 ATK from levels and stars, less than Shadow's levels give on their own. Skills cost him the most: 436,700 badges for each of the four.
+His progression ends early. SSR heroes receive neither Awakening nor an 전용 무기, so he stops at 1,766,680 HP and 9,424 ATK from levels and stars, less than 섀도우's levels give on their own. Skills cost him the most: 436,700 badges for each of the four.
 
-The best squad without a single UR hero is built around him: Celia, Lucius, Sivir, Bella and Hastar give +15% to stats and 9.3M effective HP. The second such squad keeps him alongside Grenwald and Stellar. Once Ulfrid and Billy arrive Hastar moves to the bench, where his support skill adds 10% to the squad.
+The best squad without a single UR hero is built around him: 실리아, 루시우스, 시빌, 벨라 and 하스터 give +15% to stats and 9.3M effective HP. The second such squad keeps him alongside 그린델왈드 and 스타더스트. Once 울프레드 and 빌리 arrive 하스터 moves to the bench, where his support skill adds 10% to the squad.
 

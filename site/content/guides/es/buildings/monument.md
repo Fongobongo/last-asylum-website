@@ -1,6 +1,6 @@
 ---
-title: "Monument: levels, cost and upgrades"
-description: "Monument gathers development milestones, a board of goals whose selection changes from day to day. The goals point to the key activities, from hero recruiting to covert o…"
+title: "Monumento: levels, cost and upgrades"
+description: "Monumento gathers development milestones, a board of goals whose selection changes from day to day. The goals point to the key activities, from hero recruiting to covert o…"
 videoTopic: "buildings"
 lang: es
 updated: "2026-09-19"
@@ -16,7 +16,7 @@ type: guide
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-monument)).
 
 
-Monument gathers development milestones, a board of goals whose selection changes from day to day. The goals point to the key activities, from hero recruiting to covert ops and rallies. The building unlocks after Sanctuary level 9 and goes up to level 1. Only one can be built.
+Monumento gathers development milestones, a board of goals whose selection changes from day to day. The goals point to the key activities, from hero recruiting to covert ops and rallies. The building unlocks after Sanctuary level 9 and goes up to level 1. Only one can be built.
 
 | Stat | Value |
 |---|---|
@@ -40,11 +40,11 @@ This building gives no stat bonus: it unlocks an option rather than percentages.
 
 ## How to use it
 
-The Monument never competes for the build queue: 480 Grain and 360 Timber are paid at once, and the work itself takes under a minute. Sanctuary level 9 unlocks it alongside Black Ops, which costs exactly the same, and the 2nd Workbench, whose full upgrade takes 349 days of pure build time. The queue at that level belongs to the workbench for months, while the Monument fits into any free gap, so there is no reason to postpone it.
+The Monumento never competes for the build queue: 480 Grain and 360 Timber are paid at once, and the work itself takes under a minute. Sanctuary level 9 unlocks it alongside Operación encubierta, which costs exactly the same, and the 2.º banco de trabajo, whose full upgrade takes 349 days of pure build time. The queue at that level belongs to the workbench for months, while the Monumento fits into any free gap, so there is no reason to postpone it.
 
-The building brings 100 Might, as much as the Explorer's Camp does for 240 resources against the 840 spent here. Measured per resource that is one of the thinnest returns in the city, and the use of the Monument lies elsewhere. Its milestone board gathers into one window the goals a player closes during the day anyway: hero recruiting, covert operations, rallies. The selection changes daily, so the Monument gives more to an account that already has many of those activities open.
+The building brings 100 Might, as much as the Explorer's Camp does for 240 resources against the 840 spent here. Measured per resource that is one of the thinnest returns in the city, and the use of the Monumento lies elsewhere. Its milestone board gathers into one window the goals a player closes during the day anyway: hero recruiting, covert operations, rallies. The selection changes daily, so the Monumento gives more to an account that already has many of those activities open.
 
-Hence the order: at Sanctuary level 9 the Monument goes up right after Black Ops, which supplies part of its goals, while resources and queue time go to the workbench.
+Hence the order: at Sanctuary level 9 the Monumento goes up right after Operación encubierta, which supplies part of its goals, while resources and queue time go to the workbench.
 
-The Might of the Monument counts for nothing in the city total: 100 against the 384,300 that a fully raised Sanctuary carries vanishes into rounding. Of the level 9 buildings only the Monument and Black Ops stay out of the queue, and every other hour of that stage belongs to the workbench.
+The Might of the Monumento counts for nothing in the city total: 100 against the 384,300 that a fully raised Sanctuary carries vanishes into rounding. Of the level 9 buildings only the Monumento and Operación encubierta stay out of the queue, and every other hour of that stage belongs to the workbench.
 

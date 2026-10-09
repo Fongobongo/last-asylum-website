@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-griffith)).
 
-Griffith is an SSR ranger who plays as tank. Fully upgraded, he reaches 764,263 Might, rank 9 of 11 among the game's tanks. Unlocking him takes 10 shards ( Griffith Shard), and the shards become available once the Ranger Statue reaches level 20.
+Griffith is an SSR ranger who plays as tank. Fully upgraded, he reaches 764,263 Might, rank 9 of 11 among the game's tanks. Unlocking him takes 10 shards ( Griffith Shard), and the shards become available once the Patung Ranger reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -26,7 +26,7 @@ Griffith is an SSR ranger who plays as tank. Fully upgraded, he reaches 764,263 
 | Max stars | 50 |
 | Attack speed | one hit every 0.93 s |
 | Shards to unlock | Griffith Shard × 10 |
-| Faction building | Ranger Statue, level 20 |
+| Faction building | Patung Ranger, level 20 |
 | Skills | 5, full set |
 | Trait | Diligent |
 | Faction advantage | Rangers take 20% less damage from Warriors |
@@ -153,16 +153,16 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 
 | Hero | Faction | Rarity | Max Might | HP growth | ATK growth | DEF growth |
 |---|---|---|---|---|---|---|
-| Shadow | Ranger | UR | 1,075,906 | 1.43 | 0.78 | 1.06 |
-| Daskal | Warrior | UR | 1,057,192 | 1.36 | 0.81 | 1.05 |
+| Ying | Ranger | UR | 1,075,906 | 1.43 | 0.78 | 1.06 |
+| Duskar | Warrior | UR | 1,057,192 | 1.36 | 0.81 | 1.05 |
 | Arthur | Warrior | UR | 1,052,453 | 1.34 | 0.82 | 1.05 |
 | Louis | Ranger | UR | 1,044,341 | 1.31 | 0.83 | 1.05 |
-| Ulfrid | Warlock | UR | 1,033,739 | 1.27 | 0.85 | 1.04 |
+| Ulfred | Warlock | UR | 1,033,739 | 1.27 | 0.85 | 1.04 |
 | Billy | Warlock | UR | 980,246 | 1.05 | 0.97 | 1.01 |
 | Lucius | Warrior | SSR | 778,239 | 0.9 | 0.54 | 0.7 |
 | Bella | Warrior | SSR | 773,500 | 0.88 | 0.55 | 0.7 |
 | Griffith | Ranger | SSR | 764,263 | 0.85 | 0.56 | 0.69 |
-| Hastar | Warlock | SSR | 750,047 | 0.79 | 0.59 | 0.69 |
+| Hastur | Warlock | SSR | 750,047 | 0.79 | 0.59 | 0.69 |
 | Durant | Warrior | SR | 596,226 | 0.72 | 0.45 | 0.57 |
 
 ### Skill numbers
@@ -171,13 +171,13 @@ Serpent Flute · damage multiplier · rank 6 of 11
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Daskal | Warrior | Battle Will | Auto Attack | 996% | single target |
+| Duskar | Warrior | Battle Will | Auto Attack | 996% | single target |
 | Louis | Ranger | Shackles | Auto Attack | 996% | single target |
-| Ulfrid | Warlock | Sharp Claw | Auto Attack | 996% | single target |
+| Ulfred | Warlock | Sharp Claw | Auto Attack | 996% | single target |
 | Arthur | Warrior | Battle Shield | Auto Attack | 900% | single target |
 | Griffith | Ranger | Serpent Flute | Auto Attack | 554.4% | single target |
 
-Stronger: Daskal, Battle Will hits for 996% of ATK on a single target.
+Stronger: Duskar, Battle Will hits for 996% of ATK on a single target.
 
 Serpent Veil · damage taken reduction · rank 2 of 15
 
@@ -199,9 +199,9 @@ Venomous Bite · damage multiplier · rank 1 of 7
 |---|---|---|---|---|---|
 | Griffith | Ranger | Venomous Bite | Active Skill | 2,303.4% | single target |
 | Lucius | Warrior | Decapitation | Active Skill | 1,874.4% | single target |
-| Hastar | Warlock | Undercurrent | Active Skill | 1,306.8% | single target |
+| Hastur | Warlock | Undercurrent | Active Skill | 1,306.8% | single target |
 | Durant | Warrior | Leap Slash | Active Skill | 1,057.5% | single target |
-| Daskal | Warrior | Deadly Pierce | Active Skill | 924% | single target |
+| Duskar | Warrior | Deadly Pierce | Active Skill | 924% | single target |
 
 Closest counterpart: Lucius, Decapitation hits for 1,874.4% of ATK on a single target.
 
@@ -293,11 +293,11 @@ Gains from each progression system on its own. They show where to invest first:
 
 ## How to play
 
-Among the four SSR tanks Griffith stands third by maximum Might at 764,263 against 778,239 for Lucius and 773,500 for Bella, with only Hastar below him at 750,047. His Venomous Bite, however, lands 2,303.4% of ATK and beats Lucius's Decapitation with its 1,874.4%, and the same skill returns every 5 seconds.
+Among the four SSR tanks Griffith stands third by maximum Might at 764,263 against 778,239 for Lucius and 773,500 for Bella, with only Hastur below him at 750,047. His Venomous Bite, however, lands 2,303.4% of ATK and beats Lucius's Decapitation with its 1,874.4%, and the same skill returns every 5 seconds.
 
-Griffith carries no server-age condition and is available from the earliest days, as soon as the Ranger Statue reaches level 20 and opens his shards. The UR ranger tanks arrive much later, Shadow on server day 7 and Louis on day 63, and until then the ranger front line belongs to Griffith, the only tank of his faction below UR rarity.
+Griffith carries no server-age condition and is available from the earliest days, as soon as the Patung Ranger reaches level 20 and opens his shards. The UR ranger tanks arrive much later, Ying on server day 7 and Louis on day 63, and until then the ranger front line belongs to Griffith, the only tank of his faction below UR rarity.
 
-An SSR hero has neither Awakening nor an Exclusive Weapon, so Griffith's ceiling comes from two sources: levels give 1,478,501 HP and stars add 422,357, for 1,900,858 in total against 4,717,490 for Daskal. Skill Badges cost the same as for a UR hero, 436,700 per skill, and Venomous Bite only reaches 2,303.4% at 45 stars.
+An SSR hero has neither Awakening nor an Senjata Eksklusif, so Griffith's ceiling comes from two sources: levels give 1,478,501 HP and stars add 422,357, for 1,900,858 in total against 4,717,490 for Duskar. Skill Badges cost the same as for a UR hero, 436,700 per skill, and Venomous Bite only reaches 2,303.4% at 45 stars.
 
-Griffith appears twice in the squad review, both times beside rangers. With Bestar, Hastar, Ash and Louis the squad gains +15% to its stats and withstands 16.8M damage before it falls. The faction works in his favor as well, since rangers take 20% less damage from warriors.
+Griffith appears twice in the squad review, both times beside rangers. With Bast, Hastur, Ashe and Louis the squad gains +15% to its stats and withstands 16.8M damage before it falls. The faction works in his favor as well, since rangers take 20% less damage from warriors.
 

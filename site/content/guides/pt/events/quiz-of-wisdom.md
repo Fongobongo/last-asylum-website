@@ -22,7 +22,7 @@ Use nossa ferramenta de busca interativa abaixo! Basta digitar uma palavra-chave
 ## Visão Geral das Categorias de Perguntas
 
 * **Mecânicas Gerais:** Limites de saque (Caravanas: 4/dia, Operações Secretas: 5/dia), intervalo de coleta de energia (4 horas) e progressão do acampamento de exploradores.
-* **Edifícios e Portões:** Nível de desbloqueio do Equipamento Raven (**Santuário 15**), produção de antitoxina (Antitoxin Workshop) e mecânicas do campo de treinamento.
+* **Edifícios e Portões:** Nível de desbloqueio do Equipamento Raven (**Santuário 15**), produção de antitoxina (Oficina de Antitoxinas) e mecânicas do campo de treinamento.
 * **Facções e Contadores:** O triângulo de contadores pedra-papel-tesoura:
   * **Guerreiro (Warrior) vence Bruxo (Warlock)**
   * **Bruxo (Warlock) vence Patrulheiro (Ranger)**

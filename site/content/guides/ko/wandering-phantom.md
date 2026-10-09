@@ -1,6 +1,6 @@
 ---
-title: "Wandering Phantom: Wandering Blight levels, Kingdom Quests and rewards"
-description: "Wandering Phantom is an event on the world map, and on its day Wandering Blights attack territories more often than usual. Participation opens at Sanctuary level 8. The f…"
+title: "방랑하는 섀도우: 방랑 좀비 levels, Kingdom Quests and rewards"
+description: "방랑하는 섀도우 is an event on the world map, and on its day Wandering Blights attack territories more often than usual. Participation opens at Sanctuary level 8. The f…"
 lang: ko
 updated: "2026-09-19"
 type: guide
@@ -10,7 +10,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/wandering-phantom)).
 
-Wandering Phantom is an event on the world map, and on its day Wandering Blights attack territories more often than usual. Participation opens at Sanctuary level 8. The first-kill reward for a Blight is paid up to 3 times that day instead of once, the whole Kingdom closes kill quests together, and after the event every player receives a mailed reward for their rank by total damage. The same Blight is fought by the alliance in the Hunt Battle, there in waves on its own territory.
+방랑하는 섀도우 is an event on the world map, and on its day Wandering Blights attack territories more often than usual. Participation opens at Sanctuary level 8. The first-kill reward for a Blight is paid up to 3 times that day instead of once, the whole Kingdom closes kill quests together, and after the event every player receives a mailed reward for their rank by total damage. The same Blight is fought by the alliance in the 포위 섬멸전, there in waves on its own territory.
 
 ## How the Blights roam
 
@@ -37,16 +37,16 @@ The Kingdom completes quests together, and every Doctor who meets the event cond
 
 | Quest | Reward |
 |---|---|
-| A Lv.100 Wandering Blight was defeated for the first time on this server. | Survivor (SR) ×1, Timber Level Supply (SSR) ×2, Grain Level Supply (SSR) ×2, Resource Supply (General) ×2 |
-| A Lv.110 Wandering Blight was defeated for the first time on this server. | Survivor (SR) ×1, Timber Level Supply (SSR) ×2, Grain Level Supply (SSR) ×2, Resource Supply (General) ×2 |
-| A Lv.120 Wandering Blight was defeated for the first time on this server. | Survivor (SR) ×1, Timber Level Supply (SSR) ×2, Grain Level Supply (SSR) ×2, Resource Supply (General) ×2 |
-| A Lv.130 Wandering Blight was defeated for the first time on this server. | Survivor (SSR) ×1, Timber Level Supply (SSR) ×2, Grain Level Supply (SSR) ×2, Resource Supply (General) ×2 |
-| A Lv.140 Wandering Blight was defeated for the first time on this server. | Survivor (SSR) ×1, Timber Level Supply (SSR) ×2, Grain Level Supply (SSR) ×2, Resource Supply (General) ×2 |
-| A Lv.150 Wandering Blight was defeated for the first time on this server. | Survivor (SSR) ×1, Timber Level Supply (SSR) ×2, Grain Level Supply (SSR) ×2, Resource Supply (General) ×2 |
-| A Lv.160 Wandering Blight was defeated for the first time on this server. | Survivor (UR) ×1, Timber Level Supply (SSR) ×3, Grain Level Supply (SSR) ×3, Resource Supply (General) ×3 |
-| A Lv.170 Wandering Blight was defeated for the first time on this server. | 50 Stamina ×1, Timber Level Supply (SSR) ×3, Grain Level Supply (SSR) ×3, Resource Supply (General) ×3 |
-| A Lv.180 Wandering Blight was defeated for the first time on this server. | 50 Stamina ×1, Timber Level Supply (SSR) ×3, Grain Level Supply (SSR) ×3, Resource Supply (General) ×3 |
-| A Lv.190 Wandering Blight was defeated for the first time on this server. | 50 Stamina ×1, Timber Level Supply (SSR) ×3, Grain Level Supply (SSR) ×3, Resource Supply (General) ×3 |
+| A Lv.100 방랑 좀비 was defeated for the first time on this server. | Survivor (SR) ×1, Timber Level Supply (SSR) ×2, Grain Level Supply (SSR) ×2, Resource Supply (General) ×2 |
+| A Lv.110 방랑 좀비 was defeated for the first time on this server. | Survivor (SR) ×1, Timber Level Supply (SSR) ×2, Grain Level Supply (SSR) ×2, Resource Supply (General) ×2 |
+| A Lv.120 방랑 좀비 was defeated for the first time on this server. | Survivor (SR) ×1, Timber Level Supply (SSR) ×2, Grain Level Supply (SSR) ×2, Resource Supply (General) ×2 |
+| A Lv.130 방랑 좀비 was defeated for the first time on this server. | Survivor (SSR) ×1, Timber Level Supply (SSR) ×2, Grain Level Supply (SSR) ×2, Resource Supply (General) ×2 |
+| A Lv.140 방랑 좀비 was defeated for the first time on this server. | Survivor (SSR) ×1, Timber Level Supply (SSR) ×2, Grain Level Supply (SSR) ×2, Resource Supply (General) ×2 |
+| A Lv.150 방랑 좀비 was defeated for the first time on this server. | Survivor (SSR) ×1, Timber Level Supply (SSR) ×2, Grain Level Supply (SSR) ×2, Resource Supply (General) ×2 |
+| A Lv.160 방랑 좀비 was defeated for the first time on this server. | Survivor (UR) ×1, Timber Level Supply (SSR) ×3, Grain Level Supply (SSR) ×3, Resource Supply (General) ×3 |
+| A Lv.170 방랑 좀비 was defeated for the first time on this server. | 50 Stamina ×1, Timber Level Supply (SSR) ×3, Grain Level Supply (SSR) ×3, Resource Supply (General) ×3 |
+| A Lv.180 방랑 좀비 was defeated for the first time on this server. | 50 Stamina ×1, Timber Level Supply (SSR) ×3, Grain Level Supply (SSR) ×3, Resource Supply (General) ×3 |
+| A Lv.190 방랑 좀비 was defeated for the first time on this server. | 50 Stamina ×1, Timber Level Supply (SSR) ×3, Grain Level Supply (SSR) ×3, Resource Supply (General) ×3 |
 | 20 Wandering Blights were defeated on this server. | 50 Stamina ×1, 5m Speedup ×5, 5m Research Speedup ×5, Resource Supply (General) ×2 |
 | 30 Wandering Blights were defeated on this server. | Survivor Recruit Ticket ×5, 5m Speedup ×5, 5m Research Speedup ×5, Resource Supply (General) ×2 |
 | 40 Wandering Blights were defeated on this server. | 50 Stamina ×1, 5m Speedup ×5, 5m Research Speedup ×5, Resource Supply (General) ×2 |

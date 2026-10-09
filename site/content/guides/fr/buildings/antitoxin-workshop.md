@@ -1,22 +1,22 @@
 ---
-title: "Antitoxin Workshop: levels, cost and upgrades"
-description: "Antitoxin Workshop produces Antitoxin, and at level 30 yields 259,666 an hour, more than any other production building. No storehouse exists for Antitoxin, so an attacker…"
+title: "Atelier d'antitoxines: levels, cost and upgrades"
+description: "Atelier d'antitoxines produces Antitoxin, and at level 30 yields 259,666 an hour, more than any other production building. No storehouse exists for Antitoxin, so an attacker…"
 videoTopic: "buildings"
 lang: fr
 updated: "2026-09-19"
 type: guide
 ---
-![Atelier d\'antitoxines](/building-icons/1027.png)
+![Atelier d'antitoxines](/building-icons/1027.png)
 
 
-**Nom officiel:** Atelier d\'antitoxines
+**Nom officiel:** Atelier d'antitoxines
 >
 > Les noms traduits viennent du client officiel (v1.0.102). Tableaux et chiffres du client (v1.0.87) via wiki-last-asylum.com ; texte en anglais ci-dessous.
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-antitoxin-workshop)).
 
 
-Antitoxin Workshop produces Antitoxin, and at level 30 yields 259,666 an hour, more than any other production building. No storehouse exists for Antitoxin, so an attacker carries off the entire stock. The building unlocks after Sanctuary level 5 and goes up to level 30. Up to 5 can be built. Levels raise: antitoxin Output/Hour, max Production Time.
+Atelier d'antitoxines produces Antitoxin, and at level 30 yields 259,666 an hour, more than any other production building. No storehouse exists for Antitoxin, so an attacker carries off the entire stock. The building unlocks after Sanctuary level 5 and goes up to level 30. Up to 5 can be built. Levels raise: antitoxin Output/Hour, max Production Time.
 
 | Stat | Value |
 |---|---|
@@ -45,11 +45,11 @@ Taking the building from level 1 to 30 costs Grain 431,397,577, Timber 431,397,5
 
 ## How to use it
 
-The Antitoxin Workshop reaches level 30 in 49 days and 21 hours, faster than anything else at Sanctuary level 5, and five of them may stand at once. Five full workshops cost 249 days and 8 hours and 5,019,294,620 resources.
+The Atelier d'antitoxines reaches level 30 in 49 days and 21 hours, faster than anything else at Sanctuary level 5, and five of them may stand at once. Five full workshops cost 249 days and 8 hours and 5,019,294,620 resources.
 
 Output climbs from 1,556 an hour at level 1 to 259,666 at level 30. Five workshops together yield 1,298,330 an hour, more than idle income at its best with 1,188,000. Level 20 comes in 2 days and 5 hours and yields 108,372 an hour, forty-two percent of the final rate, so all five are taken to level 20 first: that costs 11 days and 2 hours in total.
 
-Production banks for a limited time: 29,280 seconds at level 1 and 43,200, or 12 hours, at level 30. Five workshops hold 15,579,960 antitoxin, and whatever would pile up beyond that is lost. Sanctuary level 5 grants five slots of the same kind to the Smelting Workshop and the Weaving Workshop as well, yet each of those needs 99 days and 17 hours against the 49 days and 21 hours here.
+Production banks for a limited time: 29,280 seconds at level 1 and 43,200, or 12 hours, at level 30. Five workshops hold 15,579,960 antitoxin, and whatever would pile up beyond that is lost. Sanctuary level 5 grants five slots of the same kind to the Atelier de fonderie and the Atelier de tissage as well, yet each of those needs 99 days and 17 hours against the 49 days and 21 hours here.
 
-Collecting the haul matters for a second reason: no storehouse exists for antitoxin, so a full bank goes to a raider whole. For comparison, stage 10 of the Undead Siege pays out 255,600,000 antitoxin, 197 hours of work for five workshops.
+Collecting the haul matters for a second reason: no storehouse exists for antitoxin, so a full bank goes to a raider whole. For comparison, stage 10 of the Siège des morts-vivants pays out 255,600,000 antitoxin, 197 hours of work for five workshops.
 

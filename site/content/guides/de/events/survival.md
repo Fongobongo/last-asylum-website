@@ -88,7 +88,7 @@ Ein herausragender, hocheffizienter Meilenstein wird für genau **30 Rekrutierun
 | **Rekrutierungstickets** | 30-Ticket-Meilenstein | Phase 4 (Donnerstag) | Geben Sie genau 30 Tickets aus, wenn der Meilenstein aktiv ist; leiten Sie verbleibende Tickets auf Donnerstag um. |
 | **Trainingsbeschleuniger** | Trainings-Meilenstein | Phase 5 (Freitag) | Reihen Sie Rekrutierungen ein und nutzen Sie Beschleuniger am Freitag während der passenden "Soldaten trainieren"-Phasen. |
 
-**Goldene Regel:** Wenn sich Kalender überschneiden, priorisieren Sie den wöchentlichen Meilenstein von **60.000 Fähigkeitsabzeichen** — es gibt nirgendwo im Spiel eine vergleichbare erneuerbare Abzeichen-Farm!
+**Goldene Regel:** Wenn sich Kalender überschneiden, priorisieren Sie den wöchentlichen Meilenstein von **60.000 Fähigkeitsabzeichen** — es gibt nirgendwo im Spiel eine vergleichbare erneuerbare Abzeichen-Bauernhof!
 
 ---
 

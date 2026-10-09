@@ -1,6 +1,6 @@
 ---
-title: "2nd Workbench: levels, cost and upgrades"
-description: "2nd Workbench adds a second research queue, so two technology nodes make progress at the same time. It requires no subscription, and its level adds research speed exactly…"
+title: "2번째 작업대: levels, cost and upgrades"
+description: "2번째 작업대 adds a second research queue, so two technology nodes make progress at the same time. It requires no subscription, and its level adds research speed exactly…"
 videoTopic: "buildings"
 lang: ko
 updated: "2026-09-19"
@@ -16,7 +16,7 @@ type: guide
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-2nd-workbench)).
 
 
-2nd Workbench adds a second research queue, so two technology nodes make progress at the same time. It requires no subscription, and its level adds research speed exactly as the Research Lab's level does. The building unlocks after Sanctuary level 9 and goes up to level 30. Only one can be built. Levels raise: research Speed.
+2번째 작업대 adds a second research queue, so two technology nodes make progress at the same time. It requires no subscription, and its level adds research speed exactly as the Research Lab's level does. The building unlocks after Sanctuary level 9 and goes up to level 30. Only one can be built. Levels raise: research Speed.
 
 | Stat | Value |
 |---|---|
@@ -45,7 +45,7 @@ Taking the building from level 1 to 30 costs Grain 4,524,713,384, Timber 4,524,7
 
 ## How to use it
 
-The second research queue opens at the first level of the building, for 89 Grain, 89 Timber and under a minute of work. The workbench asks for no subscription, unlike Squad 4 with its monthly pass, so at Sanctuary level 9 it is put up at once and its levels are added afterwards.
+The second research queue opens at the first level of the building, for 89 Grain, 89 Timber and under a minute of work. The workbench asks for no subscription, unlike 소대 4 with its monthly pass, so at Sanctuary level 9 it is put up at once and its levels are added afterwards.
 
 Research speed grows here exactly as it does at the Research Lab: 0.7% at level 1 and 15.1% at level 30. The second queue itself works from level 1, and two nodes out of the 348 in the technology tree advance at once from the first day. The two bonuses add up and a fully raised pair gives 30.2%, though it costs 349 days of pure build time on each building, close to two years for both.
 

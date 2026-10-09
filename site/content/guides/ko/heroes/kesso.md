@@ -1,6 +1,6 @@
 ---
-title: "Kesso: 스킬, 빌드, 육성"
-description: "Kesso is an SSR warrior who plays as DPS. Fully upgraded, he reaches 686,515 Might, rank 8 of 16 among the game's DPS heroes. Unlocking him takes 10 shards ( Kesso Shard)…"
+title: "케이사: 스킬, 빌드, 육성"
+description: "케이사 is an SSR warrior who plays as DPS. Fully upgraded, he reaches 686,515 Might, rank 8 of 16 among the game's DPS heroes. Unlocking him takes 10 shards ( 케이사 Shard)…"
 videoTopic: "heroes"
 lang: ko
 updated: "2026-09-19"
@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-kesso)).
 
-Kesso is an SSR warrior who plays as DPS. Fully upgraded, he reaches 686,515 Might, rank 8 of 16 among the game's DPS heroes. Unlocking him takes 10 shards ( Kesso Shard), and the shards become available once the Warrior Statue reaches level 20.
+케이사 is an SSR warrior who plays as DPS. Fully upgraded, he reaches 686,515 Might, rank 8 of 16 among the game's DPS heroes. Unlocking him takes 10 shards ( 케이사 Shard), and the shards become available once the 전사 조각상 reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -25,17 +25,17 @@ Kesso is an SSR warrior who plays as DPS. Fully upgraded, he reaches 686,515 Mig
 | Max Might | 686,515 |
 | Max stars | 50 |
 | Attack speed | one hit every 0.9 s |
-| Shards to unlock | Kesso Shard × 10 |
-| Faction building | Warrior Statue, level 20 |
+| Shards to unlock | 케이사 Shard × 10 |
+| Faction building | 전사 조각상, level 20 |
 | Skills | 5, full set |
 | Trait | Diligent |
 | Faction advantage | Warriors take 20% less damage from Warlocks |
 
 ## Why he matters
 
-Role: A DPS for warrior squads whose damage arrives over the length of a fight rather than in one burst. His ultimate, Summon Warhawk, calls an eagle that fights beside him for ten seconds while Kesso keeps hitting on his own. The main blow is Hunting Skills at 1,503% of ATK, rank 8 of 15 among the active skills of the role.
+Role: A DPS for warrior squads whose damage arrives over the length of a fight rather than in one burst. His ultimate, Summon Warhawk, calls an eagle that fights beside him for ten seconds while 케이사 keeps hitting on his own. The main blow is Hunting Skills at 1,503% of ATK, rank 8 of 15 among the active skills of the role.
 
-Worth investing: By maximum Might Kesso is eighth of sixteen DPS heroes (686,515) and sits in tier B, a dependable SSR rather than a contender for the top. Investing in him makes sense while the UR heroes of this role are out of reach, and he stays useful in a warrior squad, where he helps complete the full faction bonus.
+Worth investing: By maximum Might 케이사 is eighth of sixteen DPS heroes (686,515) and sits in tier B, a dependable SSR rather than a contender for the top. Investing in him makes sense while the UR heroes of this role are out of reach, and he stays useful in a warrior squad, where he helps complete the full faction bonus.
 
 ## Skills
 
@@ -67,7 +67,7 @@ Value growth by skill level
 
 Ultimate Skill · Physical DMG · Cooldown 9s · Unlocks at: hero level 5
 
-Blows a whistle to summon a war eagle, which attacks with 105% of Kesso's ATK and 25% HP for 10s.
+Blows a whistle to summon a war eagle, which attacks with 105% of 케이사's ATK and 25% HP for 10s.
 
 Hero stars strengthen the skill, and each threshold changes its effect.
 
@@ -145,7 +145,7 @@ Support skill: active while the hero is outside the main squad.
 
 ## Compared to other heroes
 
-Below, Kesso is compared with the other heroes of the same role, of which the game has 16 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
+Below, 케이사 is compared with the other heroes of the same role, of which the game has 16 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
 
 ### Stats
 
@@ -153,18 +153,18 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 
 | Hero | Faction | Rarity | Max Might | HP growth | ATK growth | DEF growth |
 |---|---|---|---|---|---|---|
-| Zoya | Warrior | UR | 918,563 | 0.55 | 1.57 | 0.89 |
-| Annie | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
-| Cynthia | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
-| Marlena | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
-| Red Lady | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
-| Joker | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
-| Grenwald | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
-| Kesso | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
-| Ash | Ranger | SSR | 685,873 | 0.43 | 0.92 | 0.61 |
-| Bestar | Ranger | SSR | 685,793 | 0.4 | 0.97 | 0.61 |
-| Sivir | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
-| Claire | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
+| 조야 | Warrior | UR | 918,563 | 0.55 | 1.57 | 0.89 |
+| 애니 | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
+| 신시아 | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
+| 말레나 | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
+| 레드 레이디 | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| 광대 | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| 그린델왈드 | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
+| 케이사 | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
+| 애쉬 | Ranger | SSR | 685,873 | 0.43 | 0.92 | 0.61 |
+| 베스트 | Ranger | SSR | 685,793 | 0.4 | 0.97 | 0.61 |
+| 시빌 | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
+| 클레아 | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
 
 ### Skill numbers
 
@@ -172,25 +172,25 @@ Spear Throw · damage multiplier · rank 8 of 16
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Claire | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
-| Marlena | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
-| Zoya | Warrior | Dagger | Auto Attack | 747% | single target |
-| Cynthia | Ranger | Moon Blade | Auto Attack | 747% | single target |
-| Kesso | Warrior | Spear Throw | Auto Attack | 594% | single target |
+| 클레아 | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
+| 말레나 | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
+| 조야 | Warrior | Dagger | Auto Attack | 747% | single target |
+| 신시아 | Ranger | 신성한 달의 검날 | Auto Attack | 747% | single target |
+| 케이사 | Warrior | Spear Throw | Auto Attack | 594% | single target |
 
-Stronger: Claire, Holy Banner (advanced) hits for 810% of ATK on a single target.
+Stronger: 클레아, Holy Banner (advanced) hits for 810% of ATK on a single target.
 
 Hunting Skills · damage multiplier · rank 8 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Red Lady | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
-| Sivir | Warrior | Shield Strike | Active Skill | 1,887.6% | single target |
-| Grenwald | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
-| Cynthia | Ranger | Lunar Hunt | Active Skill | 1,800% | single target |
-| Kesso | Warrior | Hunting Skills | Active Skill | 1,503% | single target |
+| 레드 레이디 | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
+| 시빌 | Warrior | Shield Strike | Active Skill | 1,887.6% | single target |
+| 그린델왈드 | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
+| 신시아 | Ranger | Lunar Hunt | Active Skill | 1,800% | single target |
+| 케이사 | Warrior | Hunting Skills | Active Skill | 1,503% | single target |
 
-Stronger: Red Lady, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
+Stronger: 레드 레이디, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
 
 ## Upgrade order
 
@@ -235,7 +235,7 @@ The hero has 150 levels, and reaching the last one costs Antitoxin 5,248,471,500
 
 ### Stars
 
-Reaching 50 stars takes 975 shards ( Kesso Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
+Reaching 50 stars takes 975 shards ( 케이사 Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
 
 | Stars | HP | ATK | DEF | Cost |
 |---|---|---|---|---|
@@ -268,11 +268,11 @@ Gains from each progression system on its own. They show where to invest first:
 
 ## How to play
 
-Among the SSR DPS heroes Kesso ranks second: 686,515 Might against 690,773 for Grenwald, 685,873 for Ash and 685,150 for Claire. His ultimate recharges in 9 seconds, and the summoned eagle fights for 10 seconds inheriting 500% of his ATK and a quarter of his HP. The main blow comes from Hunting Skills at 1,503% of ATK.
+Among the SSR DPS heroes 케이사 ranks second: 686,515 Might against 690,773 for 그린델왈드, 685,873 for 애쉬 and 685,150 for 클레아. His ultimate recharges in 9 seconds, and the summoned eagle fights for 10 seconds inheriting 500% of his ATK and a quarter of his HP. The main blow comes from Hunting Skills at 1,503% of ATK.
 
-No timing condition applies to Kesso: the unlock costs 10 shards and depends on neither a season day nor server age. He matters in the first weeks, while the UR heroes of the role are out of reach, and gives way once Marlena arrives with her 3,382.5% ultimate.
+No timing condition applies to 케이사: the unlock costs 10 shards and depends on neither a season day nor server age. He matters in the first weeks, while the UR heroes of the role are out of reach, and gives way once 말레나 arrives with her 3,382.5% ultimate.
 
-Kesso has neither awakening nor an Exclusive Weapon: levels give 730,553 HP and 11,680 ATK, stars add 208,694 and 3,335 on top. Skills cost the most, 436,700 badges each and 1,746,800 for all four, the same price the UR heroes of the role pay for theirs.
+케이사 has neither awakening nor an 전용 무기: levels give 730,553 HP and 11,680 ATK, stars add 208,694 and 3,335 on top. Skills cost the most, 436,700 badges each and 1,746,800 for all four, the same price the UR heroes of the role pay for theirs.
 
-The best squad with Kesso and no UR hero is built from him, Lucius, Sivir, Bella and Claire: five warriors, the full +20% bonus and 8.1M of survivability. Once the reachable UR heroes arrive he holds two places among the five best such squads, beside Arthur and Marlena, where survivability climbs to 37.3M. Kesso brings no squad-wide skill of his own, so his job in a squad is damage and faction.
+The best squad with 케이사 and no UR hero is built from him, 루시우스, 시빌, 벨라 and 클레아: five warriors, the full +20% bonus and 8.1M of survivability. Once the reachable UR heroes arrive he holds two places among the five best such squads, beside 아서 and 말레나, where survivability climbs to 37.3M. 케이사 brings no squad-wide skill of his own, so his job in a squad is damage and faction.
 

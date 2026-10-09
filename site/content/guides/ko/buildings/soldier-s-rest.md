@@ -49,7 +49,7 @@ Level 23 of the Soldier's Rest works as a natural stopping point. The share of s
 
 The remainder of the upgrade is out of proportion to its return. Levels 24 to 30 demand 2,293,395,000 Grain, the same amount of Timber and 265 days 21 hours, nine tenths of the entire building, and they add only capacity, from 1,545 to 2,000 fallen, a cooldown shortened from 52 hours to 48, and help raised from 9 to 10.
 
-Might is no argument either. At level 30 the Rest carries 3,000, over the same 299 days 4 hours of construction that the Granary spends on its 287,500. Measured per resource it returns the least of any building in the city.
+Might is no argument either. At level 30 the Rest carries 3,000, over the same 299 days 4 hours of construction that the 식량 창고 spends on its 287,500. Measured per resource it returns the least of any building in the city.
 
 The value of the Rest sits in the early city. It is available from Sanctuary level 1 while the Infirmary arrives only at level 7, and until then the Rest is the sole guard against permanent losses. Raising a fallen soldier costs the same 30% of recruiting as healing a wounded one.
 

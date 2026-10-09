@@ -9,7 +9,7 @@ infographics: []
 type: event
 ---
 
-Gildenwagen und Karawanen sind die täglichen Logistik-Events des Spiels – beides sind **risikofreie Aktivitäten ohne Ausdauerverbrauch**, die von zu vielen Spielern ignoriert werden. Der Wagen ist eine 10-minütige Koordinationsübung; die Karawanen sind eine permanente UR-Splitter-Farm. Da weder Truppen noch echte Verluste entstehen, lautet die einfache Community-Regel: **IMMER mitmachen.**
+Gildenwagen und Karawanen sind die täglichen Logistik-Events des Spiels – beides sind **risikofreie Aktivitäten ohne Ausdauerverbrauch**, die von zu vielen Spielern ignoriert werden. Der Wagen ist eine 10-minütige Koordinationsübung; die Karawanen sind eine permanente UR-Splitter-Bauernhof. Da weder Truppen noch echte Verluste entstehen, lautet die einfache Community-Regel: **IMMER mitmachen.**
 
 Dieser Leitfaden behandelt die Rollen und Kistenregeln für den Wagen, den Goldenen Wagen, die Karawanen-Strategie sowie das serverübergreifende Plündern und die Priorisierung der Kisten.
 

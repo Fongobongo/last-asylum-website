@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-ash)).
 
-Ash is an SSR ranger who plays as DPS. Fully upgraded, she reaches 685,873 Might, rank 9 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Ash Shard), and the shards become available once the Ranger Statue reaches level 20.
+Ash is an SSR ranger who plays as DPS. Fully upgraded, she reaches 685,873 Might, rank 9 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Ash Shard), and the shards become available once the Estátua do Patrulheiro reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -26,7 +26,7 @@ Ash is an SSR ranger who plays as DPS. Fully upgraded, she reaches 685,873 Might
 | Max stars | 50 |
 | Attack speed | one hit every 0.87 s |
 | Shards to unlock | Ash Shard × 10 |
-| Faction building | Ranger Statue, level 20 |
+| Faction building | Estátua do Patrulheiro, level 20 |
 | Skills | 5, full set |
 | Trait | Brave |
 | Faction advantage | Rangers take 20% less damage from Warriors |
@@ -39,7 +39,7 @@ Ash is an SSR ranger who plays as DPS. Fully upgraded, she reaches 685,873 Might
 
 Role: A ranger DPS who strengthens her own kind, as the passive Focus adds 33% monster damage for two rangers at 50 stars. With no stars and no skill levels the bonus is 12.3%, and it goes to the two highest-attack rangers in the squad, so Ash pays off specifically in a ranger line-up. Her own blow, Eagle Spirit Hunt, lands 2,798.4% of ATK on a single target.
 
-Worth investing: Ash ranks ninth of sixteen DPS heroes by maximum Might (685,873) and sits in tier B. She belongs to the best ranger squad built without UR heroes, so early investment pays off, and once Cynthia or Red Lady opens up the place in the first five goes to them.
+Worth investing: Ash ranks ninth of sixteen DPS heroes by maximum Might (685,873) and sits in tier B. She belongs to the best ranger squad built without UR heroes, so early investment pays off, and once Cynthia or Dama Vermelha opens up the place in the first five goes to them.
 
 ## Skills
 
@@ -161,7 +161,7 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 | Annie | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
 | Cynthia | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
 | Marlena | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
-| Red Lady | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| Dama Vermelha | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
 | Joker | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
 | Grenwald | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
 | Kesso | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
@@ -179,7 +179,7 @@ Precision Shot · damage multiplier · rank 11 of 16
 | Claire | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
 | Marlena | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
 | Zoya | Warrior | Dagger | Auto Attack | 747% | single target |
-| Cynthia | Ranger | Moon Blade | Auto Attack | 747% | single target |
+| Cynthia | Ranger | Lâmina Lunar | Auto Attack | 747% | single target |
 | Ash | Ranger | Precision Shot | Auto Attack | 514.8% | single target |
 
 Stronger: Claire, Holy Banner (advanced) hits for 810% of ATK on a single target.
@@ -189,7 +189,7 @@ Eagle Spirit Hunt · damage multiplier · rank 8 of 15
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
 | Joker | Warlock | Joker Ace | Ultimate Skill | 5,047.5% | single target |
-| Red Lady | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
+| Dama Vermelha | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
 | Zoya | Warrior | Forest Hunter | Ultimate Skill | 3,669.6% | single target |
 | Annie | Warlock | Candy Jar | Ultimate Skill | 3,553.2% | single target |
 | Ash | Ranger | Eagle Spirit Hunt | Ultimate Skill | 2,798.4% | single target |
@@ -200,13 +200,13 @@ One Stone Two Birds · damage multiplier · rank 7 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Red Lady | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
+| Dama Vermelha | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
 | Sivir | Warrior | Shield Strike | Active Skill | 1,887.6% | single target |
 | Grenwald | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
 | Cynthia | Ranger | Lunar Hunt | Active Skill | 1,800% | single target |
 | Ash | Ranger | One Stone Two Birds | Active Skill | 1,584% | single target |
 
-Stronger: Red Lady, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
+Stronger: Dama Vermelha, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
 
 ## Upgrade order
 
@@ -286,7 +286,7 @@ Gains from each progression system on its own. They show where to invest first:
 
 Ash carries 685,873 Might, ninth of sixteen and 80 ahead of Bestar. Eagle Spirit Hunt lands 2,798.4% on a single target, the largest ultimate among the SSR heroes of the role, where Claire manages 2,266.29% and Grenwald 2,044.65%. Area damage is what she lacks in return, and One Stone Two Birds strikes two random targets.
 
-SSR heroes carry no server age condition, so Ash is available from day one. She holds her place while the UR rangers are out of reach: Cynthia arrives on server day 7 and Red Lady on day 35. The passive Focus strengthens the two rangers with the highest ATK, so part of its value is lost in a mixed line-up.
+SSR heroes carry no server age condition, so Ash is available from day one. She holds her place while the UR rangers are out of reach: Cynthia arrives on server day 7 and Dama Vermelha on day 35. The passive Focus strengthens the two rangers with the highest ATK, so part of its value is lost in a mixed line-up.
 
 Her ceiling rests on levels and stars alone, as SSR heroes get neither awakening nor a weapon: 961,611 HP and 14,695 ATK, of which stars give 213,663 and 3,264. Focus stands at 24% until the twentieth star, and from there three steps of 3% at the twentieth, forty-fifth and fiftieth star carry it to 33%.
 

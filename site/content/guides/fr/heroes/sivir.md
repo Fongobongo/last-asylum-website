@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-sivir)).
 
-Sivir is an SSR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Might, rank 11 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Sivir Shard), and the shards become available once the Warrior Statue reaches level 20.
+Sivir is an SSR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Might, rank 11 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Sivir Shard), and the shards become available once the Statue de guerrier reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -26,7 +26,7 @@ Sivir is an SSR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Mi
 | Max stars | 50 |
 | Attack speed | one hit every 0.83 s |
 | Shards to unlock | Sivir Shard × 10 |
-| Faction building | Warrior Statue, level 20 |
+| Faction building | Statue de guerrier, level 20 |
 | Skills | 5, full set |
 | Trait | Steady |
 | Faction advantage | Warriors take 20% less damage from Warlocks |
@@ -157,7 +157,7 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 | Annie | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
 | Cynthia | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
 | Marlena | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
-| Red Lady | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| Dame Rouge | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
 | Joker | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
 | Grenwald | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
 | Kesso | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
@@ -175,7 +175,7 @@ Hunt · damage multiplier · rank 12 of 16
 | Claire | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
 | Marlena | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
 | Zoya | Warrior | Dagger | Auto Attack | 747% | single target |
-| Cynthia | Ranger | Moon Blade | Auto Attack | 747% | single target |
+| Cynthia | Ranger | Lame lunaire | Auto Attack | 747% | single target |
 | Sivir | Warrior | Hunt | Auto Attack | 495% | single target |
 
 Stronger: Claire, Holy Banner (advanced) hits for 810% of ATK on a single target.
@@ -185,7 +185,7 @@ Wild Pursuit · damage multiplier · rank 12 of 15
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
 | Joker | Warlock | Joker Ace | Ultimate Skill | 5,047.5% | single target |
-| Red Lady | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
+| Dame Rouge | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
 | Zoya | Warrior | Forest Hunter | Ultimate Skill | 3,669.6% | single target |
 | Annie | Warlock | Candy Jar | Ultimate Skill | 3,553.2% | single target |
 | Sivir | Warrior | Wild Pursuit | Ultimate Skill | 1,503% | single target |
@@ -196,13 +196,13 @@ Shield Strike · damage multiplier · rank 2 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Red Lady | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
+| Dame Rouge | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
 | Sivir | Warrior | Shield Strike | Active Skill | 1,887.6% | single target |
 | Grenwald | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
 | Cynthia | Ranger | Lunar Hunt | Active Skill | 1,800% | single target |
 | Joker | Warlock | Hearthunt Red Card | Active Skill | 1,620% | single target |
 
-Stronger: Red Lady, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
+Stronger: Dame Rouge, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
 
 ## Upgrade order
 
@@ -282,9 +282,9 @@ Gains from each progression system on its own. They show where to invest first:
 
 By maximum Might eleventh place is shared by Sivir and both forms of Claire, all three at 685,150, while Grenwald stands 5,623 ahead. The difference lies in how their damage is spread: Claire's Celestial Judgment hits for 2,266.29% once every 8 seconds, whereas Sivir carries a fight with the short Shield Strike at 1,887.6%, rank two of fifteen, which returns every 5 seconds.
 
-Sivir carries no server-age condition, and her shards open with the Warrior Statue at level 20, and hiring her takes 10 of them. She keeps her place in the squad until the UR heroes of the role arrive: Marlena is there from day one, Cynthia comes on server day 7, and Zoya only on day 56.
+Sivir carries no server-age condition, and her shards open with the Statue de guerrier at level 20, and hiring her takes 10 of them. She keeps her place in the squad until the UR heroes of the role arrive: Marlena is there from day one, Cynthia comes on server day 7, and Zoya only on day 56.
 
-Progression for an SSR hero is shorter than for a UR one, with neither Awakening nor an Exclusive Weapon. Sivir's ceiling stands at 916,885 HP, of which levels give 713,159 and stars add 203,725. Skill Badges cost as much as for a UR hero, 436,700 per skill, and Shield Strike reaches 1,887.6% at 45 stars, which take 975 shards to reach.
+Progression for an SSR hero is shorter than for a UR one, with neither Awakening nor an Arme exclusive. Sivir's ceiling stands at 916,885 HP, of which levels give 713,159 and stars add 203,725. Skill Badges cost as much as for a UR hero, 436,700 per skill, and Shield Strike reaches 1,887.6% at 45 stars, which take 975 shards to reach.
 
 Sivir appears seven times in the squad review, and all of those line-ups are warrior ones. The strongest, with Arthur, Lucius, Bella and Marlena, withstands 38.8M damage and earns the full +20% faction bonus. She completes the fifth warrior there, and her damage reaches the squad together with that multiplier.
 

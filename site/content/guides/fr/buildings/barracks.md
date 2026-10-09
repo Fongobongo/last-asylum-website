@@ -1,6 +1,6 @@
 ---
-title: "Barracks: levels, cost and upgrades"
-description: "Barracks sets the Troop Capacity: how many soldiers the territory keeps at all, apart from what the heroes' CMD leads out. A research node opens a fourth Barracks. The bu…"
+title: "Caserne: levels, cost and upgrades"
+description: "Caserne sets the Troop Capacity: how many soldiers the territory keeps at all, apart from what the heroes' CMD leads out. A research node opens a fourth Caserne. The bu…"
 videoTopic: "buildings"
 lang: fr
 updated: "2026-09-19"
@@ -16,7 +16,7 @@ type: guide
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-barracks)).
 
 
-Barracks sets the Troop Capacity: how many soldiers the territory keeps at all, apart from what the heroes' CMD leads out. A research node opens a fourth Barracks. The building unlocks after Sanctuary level 6 and goes up to level 30. Up to 3 can be built. Levels raise: troop Capacity.
+Caserne sets the Troop Capacity: how many soldiers the territory keeps at all, apart from what the heroes' CMD leads out. A research node opens a fourth Caserne. The building unlocks after Sanctuary level 6 and goes up to level 30. Up to 3 can be built. Levels raise: troop Capacity.
 
 | Stat | Value |
 |---|---|
@@ -45,13 +45,13 @@ Taking the building from level 1 to 30 costs Grain 2,475,813,290, Timber 821,324
 
 ## How to use it
 
-A full upgrade of the Barracks takes 199 days, while the Training Grounds and the Scout Squad from the same Sanctuary level 6 need 299 days each. All three may stand three times over, which makes level 6 the heaviest spot in the build queue of the whole game.
+A full upgrade of the Caserne takes 199 days, while the Champ d'entraînement and the Escouade d'éclaireurs from the same Sanctuary level 6 need 299 days each. All three may stand three times over, which makes level 6 the heaviest spot in the build queue of the whole game.
 
 The payoff, though, is spread unevenly. Level 20 is reached in about nine days of pure build time and gives 6,023 Troop Capacity out of the 8,033 available, three quarters of the total. The remaining ten levels add 2,010 soldiers and cost 190 days. With Might the picture is reversed: at level 20 the barracks holds 41,300 and at level 30 it holds 229,600, so nearly all of it arrives on the slowest levels.
 
-Hence the order: three Barracks go to level 20 first, because Troop Capacity is needed early and comes cheap, and after that the queue belongs to the training grounds, which unlock the troop tiers. The top barracks levels are raised later, for the Might rather than for the soldiers.
+Hence the order: three Caserne go to level 20 first, because Troop Capacity is needed early and comes cheap, and after that the queue belongs to the training grounds, which unlock the troop tiers. The top barracks levels are raised later, for the Might rather than for the soldiers.
 
-Three level 30 Barracks give 24,099 Troop Capacity and 688,800 Might, but cost almost 600 days of pure construction between them. Level 20 on all three takes under a month and already covers 18,069 of that capacity, so the queue past level 20 is better handed to other buildings. A research node opens a fourth Barracks, and the same fork applies to it: level 20 comes quickly, level 30 asks for 190 days. Early levels are nearly free in time: the first ten take under nine hours and already give 4,034 Troop Capacity.
+Three level 30 Caserne give 24,099 Troop Capacity and 688,800 Might, but cost almost 600 days of pure construction between them. Level 20 on all three takes under a month and already covers 18,069 of that capacity, so the queue past level 20 is better handed to other buildings. A research node opens a fourth Caserne, and the same fork applies to it: level 20 comes quickly, level 30 asks for 190 days. Early levels are nearly free in time: the first ten take under nine hours and already give 4,034 Troop Capacity.
 
-The question of how to raise Troop Capacity is answered here alone: the cap comes from the Barracks levels and the fourth Barracks from the research node, while hero CMD does not touch it and only limits the size of a marching squad. Once the cap is reached, only the next Barracks level raises it, and the table above shows how much each level adds.
+The question of how to raise Troop Capacity is answered here alone: the cap comes from the Caserne levels and the fourth Caserne from the research node, while hero CMD does not touch it and only limits the size of a marching squad. Once the cap is reached, only the next Caserne level raises it, and the table above shows how much each level adds.
 

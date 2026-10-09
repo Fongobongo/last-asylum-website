@@ -1,6 +1,6 @@
 ---
-title: "Ulfrid: 스킬, 빌드, 육성"
-description: "Ulfrid is a UR warlock who plays as tank. Fully upgraded, he reaches 1,033,739 Might, rank 5 of 11 among the game's tanks. Unlocking him takes 10 shards ( Ulfrid Shard), …"
+title: "울프레드: 스킬, 빌드, 육성"
+description: "울프레드 is a UR warlock who plays as tank. Fully upgraded, he reaches 1,033,739 Might, rank 5 of 11 among the game's tanks. Unlocking him takes 10 shards ( 울프레드 Shard), …"
 videoTopic: "heroes"
 lang: ko
 updated: "2026-09-19"
@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-ulfrid)).
 
-Ulfrid is a UR warlock who plays as tank. Fully upgraded, he reaches 1,033,739 Might, rank 5 of 11 among the game's tanks. Unlocking him takes 10 shards ( Ulfrid Shard), and the shards become available once the Warlock Statue reaches level 20. Ulfrid does not appear in the hero list until server day 42.
+울프레드 is a UR warlock who plays as tank. Fully upgraded, he reaches 1,033,739 Might, rank 5 of 11 among the game's tanks. Unlocking him takes 10 shards ( 울프레드 Shard), and the shards become available once the 마법사 조각상 reaches level 20. 울프레드 does not appear in the hero list until server day 42.
 
 | Stat | Value |
 |---|---|
@@ -25,8 +25,8 @@ Ulfrid is a UR warlock who plays as tank. Fully upgraded, he reaches 1,033,739 M
 | Max Might | 1,033,739 |
 | Max stars | 50 |
 | Attack speed | one hit every 0.83 s |
-| Shards to unlock | Ulfrid Shard × 10 |
-| Faction building | Warlock Statue, level 20 |
+| Shards to unlock | 울프레드 Shard × 10 |
+| Faction building | 마법사 조각상, level 20 |
 | Skills | 5, full set |
 | Trait | Diligent |
 | Faction advantage | Warlocks take 20% less damage from Rangers |
@@ -34,13 +34,13 @@ Ulfrid is a UR warlock who plays as tank. Fully upgraded, he reaches 1,033,739 M
 | Awakening opens | on day 113 of the season |
 | Exclusive weapon | on day 36 of the season |
 
-Awakening and the Exclusive Weapon follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 113 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Exclusive Weapon becomes available on day 36 of the season.
+Awakening and the 전용 무기 follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 113 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The 전용 무기 becomes available on day 36 of the season.
 
 ## Why he matters
 
-Role: A warlock tank who answers blow for blow, as Lunar Howl returns 162% of incoming damage for four seconds. No other hero has anything like it. His ultimate Throat Bite lands 1,806% and lowers damage for every allied hero, while the passive Wolf Bloodline holds another 24% reduction permanently, or 29% with the Exclusive Weapon.
+Role: A warlock tank who answers blow for blow, as Lunar Howl returns 162% of incoming damage for four seconds. No other hero has anything like it. His ultimate Throat Bite lands 1,806% and lowers damage for every allied hero, while the passive Wolf Bloodline holds another 24% reduction permanently, or 29% with the 전용 무기.
 
-Worth investing: Ulfrid ranks fifth of eleven tanks by maximum Might (1,033,739) and sits in tier S, standing in the best squad of the game alongside Arthur, Billy, Annie and Joker. He follows Arthur and Billy in the investment queue, and he appears in the hero list from server day 42.
+Worth investing: 울프레드 ranks fifth of eleven tanks by maximum Might (1,033,739) and sits in tier S, standing in the best squad of the game alongside 아서, 빌리, 애니 and 광대. He follows 아서 and 빌리 in the investment queue, and he appears in the hero list from server day 42.
 
 ## Skills
 
@@ -158,7 +158,7 @@ Support skill: active while the hero is outside the main squad.
 
 ## Compared to other heroes
 
-Below, Ulfrid is compared with the other heroes of the same role, of which the game has 11 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
+Below, 울프레드 is compared with the other heroes of the same role, of which the game has 11 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
 
 ### Stats
 
@@ -166,17 +166,17 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 
 | Hero | Faction | Rarity | Max Might | HP growth | ATK growth | DEF growth |
 |---|---|---|---|---|---|---|
-| Shadow | Ranger | UR | 1,075,906 | 1.43 | 0.78 | 1.06 |
-| Daskal | Warrior | UR | 1,057,192 | 1.36 | 0.81 | 1.05 |
-| Arthur | Warrior | UR | 1,052,453 | 1.34 | 0.82 | 1.05 |
-| Louis | Ranger | UR | 1,044,341 | 1.31 | 0.83 | 1.05 |
-| Ulfrid | Warlock | UR | 1,033,739 | 1.27 | 0.85 | 1.04 |
-| Billy | Warlock | UR | 980,246 | 1.05 | 0.97 | 1.01 |
-| Lucius | Warrior | SSR | 778,239 | 0.9 | 0.54 | 0.7 |
-| Bella | Warrior | SSR | 773,500 | 0.88 | 0.55 | 0.7 |
-| Griffith | Ranger | SSR | 764,263 | 0.85 | 0.56 | 0.69 |
-| Hastar | Warlock | SSR | 750,047 | 0.79 | 0.59 | 0.69 |
-| Durant | Warrior | SR | 596,226 | 0.72 | 0.45 | 0.57 |
+| 섀도우 | Ranger | UR | 1,075,906 | 1.43 | 0.78 | 1.06 |
+| 다스칼 | Warrior | UR | 1,057,192 | 1.36 | 0.81 | 1.05 |
+| 아서 | Warrior | UR | 1,052,453 | 1.34 | 0.82 | 1.05 |
+| 루이스 | Ranger | UR | 1,044,341 | 1.31 | 0.83 | 1.05 |
+| 울프레드 | Warlock | UR | 1,033,739 | 1.27 | 0.85 | 1.04 |
+| 빌리 | Warlock | UR | 980,246 | 1.05 | 0.97 | 1.01 |
+| 루시우스 | Warrior | SSR | 778,239 | 0.9 | 0.54 | 0.7 |
+| 벨라 | Warrior | SSR | 773,500 | 0.88 | 0.55 | 0.7 |
+| 그리피스 | Ranger | SSR | 764,263 | 0.85 | 0.56 | 0.69 |
+| 하스터 | Warlock | SSR | 750,047 | 0.79 | 0.59 | 0.69 |
+| 듀란트 | Warrior | SR | 596,226 | 0.72 | 0.45 | 0.57 |
 
 ### Skill numbers
 
@@ -184,53 +184,53 @@ Sharp Claw · damage multiplier · rank 3 of 11
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Daskal | Warrior | Battle Will | Auto Attack | 996% | single target |
-| Louis | Ranger | Shackles | Auto Attack | 996% | single target |
-| Ulfrid | Warlock | Sharp Claw | Auto Attack | 996% | single target |
-| Arthur | Warrior | Battle Shield | Auto Attack | 900% | single target |
-| Billy | Warlock | Wooden Frame | Auto Attack | 747% | single target |
+| 다스칼 | Warrior | Battle Will | Auto Attack | 996% | single target |
+| 루이스 | Ranger | Shackles | Auto Attack | 996% | single target |
+| 울프레드 | Warlock | Sharp Claw | Auto Attack | 996% | single target |
+| 아서 | Warrior | Battle Shield | Auto Attack | 900% | single target |
+| 빌리 | Warlock | Wooden Frame | Auto Attack | 747% | single target |
 
-Stronger: Daskal, Battle Will hits for 996% of ATK on a single target.
+Stronger: 다스칼, Battle Will hits for 996% of ATK on a single target.
 
 Throat Bite · damage multiplier · rank 5 of 9
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Hastar | Warlock | Wrath of Old Gods | Ultimate Skill | 3,623.4% | area |
-| Billy | Warlock | Truth and Lies | Ultimate Skill | 2,916% | area |
-| Bella | Warrior | Bloody Requiem | Ultimate Skill | 2,886.84% | single target |
-| Lucius | Warrior | Whirlwind Cut | Ultimate Skill | 2,029.2% | single target |
-| Ulfrid | Warlock | Throat Bite | Ultimate Skill | 1,806% | single target |
+| 하스터 | Warlock | Wrath of Old Gods | Ultimate Skill | 3,623.4% | area |
+| 빌리 | Warlock | Truth and Lies | Ultimate Skill | 2,916% | area |
+| 벨라 | Warrior | Bloody Requiem | Ultimate Skill | 2,886.84% | single target |
+| 루시우스 | Warrior | Whirlwind Cut | Ultimate Skill | 2,029.2% | single target |
+| 울프레드 | Warlock | Throat Bite | Ultimate Skill | 1,806% | single target |
 
-Stronger: Hastar, Wrath of Old Gods hits for 3,623.4% of ATK in an area.
+Stronger: 하스터, Wrath of Old Gods hits for 3,623.4% of ATK in an area.
 
 Throat Bite · damage taken reduction · rank 10 of 15
 
 | Hero | Faction | Skill | Skill type | DMG reduction, % | Damage cut for |
 |---|---|---|---|---|---|
-| Bella | Warrior | Crimson Prayer | Active Skill | 45% | for the caster, monsters only |
-| Griffith | Ranger | Serpent Veil | Ultimate Skill | 39% | for allies, monsters only |
-| Louis | Ranger | Force Link | Active Skill | 36% | for allies |
-| Billy | Warlock | Fate's Thread | Active Skill | 36% | for allies |
-| Ulfrid | Warlock | Throat Bite | Ultimate Skill | 27% | for allies |
+| 벨라 | Warrior | Crimson Prayer | Active Skill | 45% | for the caster, monsters only |
+| 그리피스 | Ranger | Serpent Veil | Ultimate Skill | 39% | for allies, monsters only |
+| 루이스 | Ranger | Force Link | Active Skill | 36% | for allies |
+| 빌리 | Warlock | Fate's Thread | Active Skill | 36% | for allies |
+| 울프레드 | Warlock | Throat Bite | Ultimate Skill | 27% | for allies |
 
-Stronger: Bella, Crimson Prayer cuts damage by 45% for the caster, monsters only.
+Stronger: 벨라, Crimson Prayer cuts damage by 45% for the caster, monsters only.
 
 Wolf Bloodline · damage taken reduction · rank 9 of 15
 
 | Hero | Faction | Skill | Skill type | DMG reduction, % | Damage cut for |
 |---|---|---|---|---|---|
-| Bella | Warrior | Crimson Prayer | Active Skill | 45% | for the caster, monsters only |
-| Griffith | Ranger | Serpent Veil | Ultimate Skill | 39% | for allies, monsters only |
-| Louis | Ranger | Force Link | Active Skill | 36% | for allies |
-| Billy | Warlock | Fate's Thread | Active Skill | 36% | for allies |
-| Ulfrid | Warlock | Wolf Bloodline | Passive Skill | 29% | for the caster |
+| 벨라 | Warrior | Crimson Prayer | Active Skill | 45% | for the caster, monsters only |
+| 그리피스 | Ranger | Serpent Veil | Ultimate Skill | 39% | for allies, monsters only |
+| 루이스 | Ranger | Force Link | Active Skill | 36% | for allies |
+| 빌리 | Warlock | Fate's Thread | Active Skill | 36% | for allies |
+| 울프레드 | Warlock | Wolf Bloodline | Passive Skill | 29% | for the caster |
 
-Stronger: Bella, Crimson Prayer cuts damage by 45% for the caster, monsters only.
+Stronger: 벨라, Crimson Prayer cuts damage by 45% for the caster, monsters only.
 
 ## Upgrade order
 
-Skill priority: Throat Bite comes first, as it both hits hardest and lowers damage for the whole squad. Wolf Bloodline is next for its permanent 24% reduction, 29% with the Exclusive Weapon. Lunar Howl follows, and the auto attack Sharp Claw comes last with the support skill: 50 stars give 747%, and the Exclusive Weapon opens 996%.
+Skill priority: Throat Bite comes first, as it both hits hardest and lowers damage for the whole squad. Wolf Bloodline is next for its permanent 24% reduction, 29% with the 전용 무기. Lunar Howl follows, and the auto attack Sharp Claw comes last with the support skill: 50 stars give 747%, and the 전용 무기 opens 996%.
 
 ### What stars and levels unlock
 
@@ -275,7 +275,7 @@ The hero has 150 levels, and reaching the last one costs Antitoxin 5,248,471,500
 
 ### Stars
 
-Reaching 50 stars takes 975 shards ( Ulfrid Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
+Reaching 50 stars takes 975 shards ( 울프레드 Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
 
 | Stars | HP | ATK | DEF | Cost |
 |---|---|---|---|---|
@@ -298,13 +298,13 @@ Every skill goes up to level 40 with Skill Badge: one skill costs 436,700 of the
 
 ### Awakening
 
-40 levels, 2,870 awakening shards in total (Ulfrid Awaken Shard). At max it adds:
+40 levels, 2,870 awakening shards in total (울프레드 Awaken Shard). At max it adds:
 - HP +425,119, ATK +12,119, DEF +3,812
 - DMG RES +5%
 
-### Exclusive Weapon
+### 전용 무기
 
-“Wolven Claw”, upgraded to 50 stars. At max it adds:
+“늑대의 발톱”, upgraded to 50 stars. At max it adds:
 - HP +1,251,000, ATK +8,750, DEF +8,750
 - Hero DEF +10%
 - Hero HP +10%
@@ -322,16 +322,16 @@ Gains from each progression system on its own. They show where to invest first:
 | Hero levels | 2,209,052 | 10,560 | 12,920 |
 | Stars | 631,052 | 3,015 | 3,690 |
 | Awakening | 425,119 | 12,119 | 3,812 |
-| Exclusive Weapon | 1,251,000 | 8,750 | 8,750 |
+| 전용 무기 | 1,251,000 | 8,750 | 8,750 |
 | Total | 4,516,222 | 34,444 | 29,172 |
 
 ## How to play
 
-Ulfrid carries 1,033,739 Might, 53,493 more than Billy and 18,714 less than Arthur. Their damage reduction skills tell them apart: Throat Bite removes 20% from every allied hero for four seconds on a 7 second cooldown, and 27% with the Exclusive Weapon at ★50. Billy's Fate's Thread removes 36% of energy damage from the three highest-attack allies, and Arthur's Earthshattering 35% of physical damage from the allies in range. In exchange, Wolf Bloodline keeps another 24% on Ulfrid himself, and the full 29% with the Exclusive Weapon at ★30.
+울프레드 carries 1,033,739 Might, 53,493 more than 빌리 and 18,714 less than 아서. Their damage reduction skills tell them apart: Throat Bite removes 20% from every allied hero for four seconds on a 7 second cooldown, and 27% with the 전용 무기 at ★50. 빌리's Fate's Thread removes 36% of energy damage from the three highest-attack allies, and 아서's Earthshattering 35% of physical damage from the allies in range. In exchange, Wolf Bloodline keeps another 24% on 울프레드 himself, and the full 29% with the 전용 무기 at ★30.
 
-Ulfrid enters the hero list on server day 42, between Daskal on day 28 and Louis on day 63. The recruit guarantee never hands out his shards, but his Exclusive Weapon opens on season day 36, earlier than it does for most UR heroes.
+울프레드 enters the hero list on server day 42, between 다스칼 on day 28 and 루이스 on day 63. The recruit guarantee never hands out his shards, but his 전용 무기 opens on season day 36, earlier than it does for most UR heroes.
 
-Stars are the bottleneck for him. Lunar Howl reflects the full 162% only past the forty-fifth of them, the reduction on Throat Bite reaches 20% at the fiftieth, and the whole scale costs 975 shards. Stars also give him less than any other tier S tank: 631,052 HP against 710,554 for Shadow.
+Stars are the bottleneck for him. Lunar Howl reflects the full 162% only past the forty-fifth of them, the reduction on Throat Bite reaches 20% at the fiftieth, and the whole scale costs 975 shards. Stars also give him less than any other tier S tank: 631,052 HP against 710,554 for 섀도우.
 
-The squad table places Ulfrid in six line-ups out of twelve. The best squad of the game, with Arthur, Billy, Annie and Joker, scores 100 effectiveness at 131.1M survivability, and the tier S one with Arthur, Marlena, Daskal and Billy scores 98 at 147.2M. Three warlocks stand beside him in the best squad, Billy, Annie and Joker, and the four of them bring the squad +15% to its stats.
+The squad table places 울프레드 in six line-ups out of twelve. The best squad of the game, with 아서, 빌리, 애니 and 광대, scores 100 effectiveness at 131.1M survivability, and the tier S one with 아서, 말레나, 다스칼 and 빌리 scores 98 at 147.2M. Three warlocks stand beside him in the best squad, 빌리, 애니 and 광대, and the four of them bring the squad +15% to its stats.
 

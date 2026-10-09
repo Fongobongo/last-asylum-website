@@ -1,6 +1,6 @@
 ---
-title: "Celia: 스킬, 빌드, 육성"
-description: "Celia is an SSR warrior who plays as support. Fully upgraded, she reaches 691,655 Might, rank 5 of 5 among the game's support heroes. Unlocking her takes 10 shards ( Celi…"
+title: "실리아: 스킬, 빌드, 육성"
+description: "실리아 is an SSR warrior who plays as support. Fully upgraded, she reaches 691,655 Might, rank 5 of 5 among the game's support heroes. Unlocking her takes 10 shards ( Celi…"
 videoTopic: "heroes"
 lang: ko
 updated: "2026-09-19"
@@ -13,7 +13,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-celia)).
 
-Celia is an SSR warrior who plays as support. Fully upgraded, she reaches 691,655 Might, rank 5 of 5 among the game's support heroes. Unlocking her takes 10 shards ( Celia Shard), and the shards become available once the Warrior Statue reaches level 20.
+실리아 is an SSR warrior who plays as support. Fully upgraded, she reaches 691,655 Might, rank 5 of 5 among the game's support heroes. Unlocking her takes 10 shards ( 실리아 Shard), and the shards become available once the 전사 조각상 reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -23,8 +23,8 @@ Celia is an SSR warrior who plays as support. Fully upgraded, she reaches 691,65
 | Max Might | 691,655 |
 | Max stars | 50 |
 | Attack speed | one hit every 0.5 s |
-| Shards to unlock | Celia Shard × 10 |
-| Faction building | Warrior Statue, level 20 |
+| Shards to unlock | 실리아 Shard × 10 |
+| Faction building | 전사 조각상, level 20 |
 | Skills | 5, full set |
 | Trait | Diligent |
 | Faction advantage | Warriors take 20% less damage from Warlocks |
@@ -33,7 +33,7 @@ Celia is an SSR warrior who plays as support. Fully upgraded, she reaches 691,65
 
 Role: A support for warrior squads who neither heals nor shields, paying off on hunts through extra loot. Her passive Ultimate Hunt raises the squad's damage against monsters and returns more of three resource types from resource and elite monsters: 20.5% with no stars and 60% fully raised. Her own biggest hit is Ricochet Blade at 1,956.24% of ATK.
 
-Worth investing: Celia is last of the five support heroes by maximum Might (691,655) and sits in tier B. She is worth levelling in an early squad, where she fills the support slot and completes the full warrior faction bonus, and once Harper arrives her place in the main squad runs out.
+Worth investing: 실리아 is last of the five support heroes by maximum Might (691,655) and sits in tier B. She is worth levelling in an early squad, where she fills the support slot and completes the full warrior faction bonus, and once 하퍼 arrives her place in the main squad runs out.
 
 ## Skills
 
@@ -143,7 +143,7 @@ Support skill: active while the hero is outside the main squad.
 
 ## Compared to other heroes
 
-Below, Celia is compared with the other heroes of the same role, of which the game has 5 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
+Below, 실리아 is compared with the other heroes of the same role, of which the game has 5 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
 
 ### Stats
 
@@ -151,11 +151,11 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 
 | Hero | Faction | Rarity | Max Might | HP growth | ATK growth | DEF growth |
 |---|---|---|---|---|---|---|
-| Harper | Warrior | UR | 920,570 | 0.7 | 1.3 | 0.94 |
-| Bell | Ranger | UR | 920,570 | 0.7 | 1.3 | 0.94 |
-| Nicole | Warlock | UR | 920,570 | 0.7 | 1.3 | 0.94 |
-| Stellar | Warlock | SSR | 695,511 | 0.52 | 0.8 | 0.64 |
-| Celia | Warrior | SSR | 691,655 | 0.5 | 0.82 | 0.63 |
+| 하퍼 | Warrior | UR | 920,570 | 0.7 | 1.3 | 0.94 |
+| 벨 | Ranger | UR | 920,570 | 0.7 | 1.3 | 0.94 |
+| 니콜 | Warlock | UR | 920,570 | 0.7 | 1.3 | 0.94 |
+| 스타더스트 | Warlock | SSR | 695,511 | 0.52 | 0.8 | 0.64 |
+| 실리아 | Warrior | SSR | 691,655 | 0.5 | 0.82 | 0.63 |
 
 ### Skill numbers
 
@@ -163,31 +163,31 @@ Flying Blade · damage multiplier · rank 5 of 5
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Harper | Warrior | Bubble | Auto Attack | 747% | single target |
-| Bell | Ranger | Musical Note | Auto Attack | 747% | single target |
-| Nicole | Warlock | Ember Dust | Auto Attack | 747% | single target |
-| Stellar | Warlock | Meteorite | Auto Attack | 594% | single target |
-| Celia | Warrior | Flying Blade | Auto Attack | 297% | single target |
+| 하퍼 | Warrior | Bubble | Auto Attack | 747% | single target |
+| 벨 | Ranger | Musical Note | Auto Attack | 747% | single target |
+| 니콜 | Warlock | Ember Dust | Auto Attack | 747% | single target |
+| 스타더스트 | Warlock | Meteorite | Auto Attack | 594% | single target |
+| 실리아 | Warrior | Flying Blade | Auto Attack | 297% | single target |
 
-Stronger: Harper, Bubble hits for 747% of ATK on a single target.
+Stronger: 하퍼, Bubble hits for 747% of ATK on a single target.
 
 Ricochet Blade · damage multiplier · rank 2 of 2
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Nicole | Warlock | Inferno Array | Ultimate Skill | 3,150% | area |
-| Celia | Warrior | Ricochet Blade | Ultimate Skill | 1,956.24% | single target |
+| 니콜 | Warlock | Inferno Array | Ultimate Skill | 3,150% | area |
+| 실리아 | Warrior | Ricochet Blade | Ultimate Skill | 1,956.24% | single target |
 
-Stronger: Nicole, Inferno Array hits for 3,150% of ATK in an area.
+Stronger: 니콜, Inferno Array hits for 3,150% of ATK in an area.
 
 Deadly Lotus · damage multiplier · rank 2 of 2
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Stellar | Warlock | Destructive Comet | Active Skill | 1,930.5% | area |
-| Celia | Warrior | Deadly Lotus | Active Skill | 1,346.4% | single target |
+| 스타더스트 | Warlock | Destructive Comet | Active Skill | 1,930.5% | area |
+| 실리아 | Warrior | Deadly Lotus | Active Skill | 1,346.4% | single target |
 
-Stronger: Stellar, Destructive Comet hits for 1,930.5% of ATK in an area.
+Stronger: 스타더스트, Destructive Comet hits for 1,930.5% of ATK in an area.
 
 ## Upgrade order
 
@@ -232,7 +232,7 @@ The hero has 150 levels, and reaching the last one costs Antitoxin 5,248,471,500
 
 ### Stars
 
-Reaching 50 stars takes 975 shards ( Celia Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
+Reaching 50 stars takes 975 shards ( 실리아 Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
 
 | Stars | HP | ATK | DEF | Cost |
 |---|---|---|---|---|
@@ -265,11 +265,11 @@ Gains from each progression system on its own. They show where to invest first:
 
 ## How to play
 
-Celia is fifth of the five support heroes by maximum Might (691,655), 3,856 behind Stellar and 228,915 behind Harper. She has no heal, but her auto attack lands every 0.5 seconds, twice as often as Stellar's and more often than any other hero's in the game. Her ultimate, Ricochet Blade, hits three targets for 1,956.24%.
+실리아 is fifth of the five support heroes by maximum Might (691,655), 3,856 behind 스타더스트 and 228,915 behind 하퍼. She has no heal, but her auto attack lands every 0.5 seconds, twice as often as 스타더스트's and more often than any other hero's in the game. Her ultimate, Ricochet Blade, hits three targets for 1,956.24%.
 
-SSR heroes carry no server age condition, so Celia covers the support place from day one. Harper, the hero she eventually gives way to, enters the list only on server day 21, and the recruit guarantee covers those shards. Until then Celia is the only support among the warriors.
+SSR heroes carry no server age condition, so 실리아 covers the support place from day one. 하퍼, the hero she eventually gives way to, enters the list only on server day 21, and the recruit guarantee covers those shards. Until then 실리아 is the only support among the warriors.
 
-The main reason to field her grows with stars: Ultimate Hunt adds 4% to the loot from resource and elite monsters at the twentieth star, 6% at the forty-fifth and 10% at the fiftieth, reaching 60% only at the end of the scale, with squad damage against monsters at 18%. The scale costs 975 shards, and without awakening or a weapon Celia tops out at 1,118,152 HP.
+The main reason to field her grows with stars: Ultimate Hunt adds 4% to the loot from resource and elite monsters at the twentieth star, 6% at the forty-fifth and 10% at the fiftieth, reaching 60% only at the end of the scale, with squad damage against monsters at 18%. The scale costs 975 shards, and without awakening or a weapon 실리아 tops out at 1,118,152 HP.
 
-Celia is a warrior, and that is her strongest argument: with Arthur and Marlena she completes the full +20% faction bonus. Two of the five reachable UR squads stand on that five, and the best of them reaches 37.3M survivability and 15 effectiveness.
+실리아 is a warrior, and that is her strongest argument: with 아서 and 말레나 she completes the full +20% faction bonus. Two of the five reachable UR squads stand on that five, and the best of them reaches 37.3M survivability and 15 effectiveness.
 

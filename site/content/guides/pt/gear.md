@@ -68,5 +68,5 @@ Conjuntos de efeitos especiais (Máscara do Corvo Noturno, Capa de Penas do Corv
 
 - **Oficina de Fundição → Nível 25:** Leve a Oficina de Fundição ao Nível 25 assim que seu Santuário permitir. Ela refina e produz as Pedras de Equipamento necessárias para subir o nível dos equipamentos. Ficar para trás neste edifício cria um gargalo intransponível para as armas do seu carry.
 - **Oficina de Equipamentos** — forjar e desmontar; **Oficina de Tecelagem** produz tecido para fundir/forjar.
-- **Farm de Pedras de Equipamento F2P:** O principal gargalo da comunidade são as Pedras de Equipamento — compre-as consistentemente nas lojas do Santuário e da Expedição.
+- **Fazenda de Pedras de Equipamento F2P:** O principal gargalo da comunidade são as Pedras de Equipamento — compre-as consistentemente nas lojas do Santuário e da Expedição.
 - **Projetos de Equipamento (UR) na Loja de Honra:** Gaste suas Moedas de Honra **EXCLUSIVAMENTE em Projetos de Equipamento (UR)**. Ignore Baús de Curiosidades e fragmentos universais — os projetos são o único guardião para promover equipamentos laranja nos níveis 10, 20, 30 e 40.

@@ -24,7 +24,7 @@ Kumpulkan poin dari mob merah sejak awal, beralihlah ke tambang setelah skill An
 ## Rute F2P {#route}
 
 1. **Lakukan pengintaian peta terlebih dahulu.** Sebelum menyerang apa pun, perkecil tampilan (zoom out) dan cari kelompok mob merah terpadat di dekat spawn Anda. Titik awal yang tepat menghemat 5 menit waktu perjalanan di setiap siklus.
-2. **Farm mob merah tanpa henti dengan ~1.500 poin per kill.** Kumpulkan mereka: posisikan pasukan Anda agar setiap kill berlanjut ke target berikutnya dengan waktu tempuh yang hampir nol. Aturan Korpez: jika bar pasukan Anda diam, berarti Anda memilih tempat yang salah.
+2. **Peternakan mob merah tanpa henti dengan ~1.500 poin per kill.** Kumpulkan mereka: posisikan pasukan Anda agar setiap kill berlanjut ke target berikutnya dengan waktu tempuh yang hampir nol. Aturan Korpez: jika bar pasukan Anda diam, berarti Anda memilih tempat yang salah.
 3. **Segera buka skill tree Anda.** Panel skill event Crystal terbuka di sisi layar — masukkan poin ke bonus kill mob merah, lalu kecepatan gerak, kemudian bonus tambang. Jangan menunggu; setiap menit penundaan berarti kehilangan waktu pengganda poin.
 4. **Gunakan stopwatch / aplikasi pengatur waktu untuk jendela tambang.** Menyerang tambang yang diduduki memberikan ~5K per menit selama Anda menahannya; atur timer untuk waktu pembayaran agar Anda bisa merebut tambang tepat saat lawan berpindah.
 5. **Baru setelah itu perebutkan tambang.** Setelah mob merah habis atau skill Anda maksimal, masuklah ke tambang yang diperebutkan di tengah siklus — idealnya tambang yang pemiliknya baru saja pergi untuk mencari kelompok mob merah lainnya.

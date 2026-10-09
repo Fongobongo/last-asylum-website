@@ -68,5 +68,5 @@ Set efek khusus (Topeng Night Raven, Jubah Bulu Raven) aktif pada level yang dit
 
 - **Workshop Peleburan → Level 25:** Tingkatkan Workshop Peleburan ke Level 25 segera setelah Kuil Anda mengizinkan. Workshop ini memurnikan dan menghasilkan Gear Stone yang diperlukan untuk meningkatkan level perlengkapan. Ketinggalan dalam membangun gedung ini akan menciptakan hambatan yang tidak teratasi untuk senjata carry Anda.
 - **Workshop Perlengkapan** — craft & bongkar; **Workshop Tenun** menghasilkan kain untuk menggabungkan/membuat material.
-- **Farm Batu Penguatan Gear F2P:** Hambatan utama komunitas adalah Gear Stone — beli secara konsisten dari toko Kuil dan Expedition.
+- **Peternakan Batu Penguatan Gear F2P:** Hambatan utama komunitas adalah Gear Stone — beli secara konsisten dari toko Kuil dan Expedition.
 - **Blueprint Perlengkapan (UR) di Toko Kehormatan:** Habiskan Koin Kehormatan Anda **KHUSUS untuk Blueprint Perlengkapan (UR)**. Lewati Peti Curio dan shard universal — blueprint adalah satu-satunya gerbang untuk mempromosikan perlengkapan oranye di Lv. 10, 20, 30, dan 40.

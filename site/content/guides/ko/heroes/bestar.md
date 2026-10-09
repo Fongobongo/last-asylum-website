@@ -1,6 +1,6 @@
 ---
-title: "Bestar: 스킬, 빌드, 육성"
-description: "Bestar is an SSR ranger who plays as DPS. Fully upgraded, she reaches 685,793 Might, rank 10 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Bestar Sha…"
+title: "베스트: 스킬, 빌드, 육성"
+description: "베스트 is an SSR ranger who plays as DPS. Fully upgraded, she reaches 685,793 Might, rank 10 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( 베스트 Sha…"
 videoTopic: "heroes"
 lang: ko
 updated: "2026-09-19"
@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-bestar)).
 
-Bestar is an SSR ranger who plays as DPS. Fully upgraded, she reaches 685,793 Might, rank 10 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Bestar Shard), and the shards become available once the Ranger Statue reaches level 20.
+베스트 is an SSR ranger who plays as DPS. Fully upgraded, she reaches 685,793 Might, rank 10 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( 베스트 Shard), and the shards become available once the 레인저 조각상 reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -25,8 +25,8 @@ Bestar is an SSR ranger who plays as DPS. Fully upgraded, she reaches 685,793 Mi
 | Max Might | 685,793 |
 | Max stars | 50 |
 | Attack speed | one hit every 0.87 s |
-| Shards to unlock | Bestar Shard × 10 |
-| Faction building | Ranger Statue, level 20 |
+| Shards to unlock | 베스트 Shard × 10 |
+| Faction building | 레인저 조각상, level 20 |
 | Skills | 5, full set |
 | Trait | Helpful |
 | Faction advantage | Rangers take 20% less damage from Warriors |
@@ -35,11 +35,11 @@ Bestar is an SSR ranger who plays as DPS. Fully upgraded, she reaches 685,793 Mi
 
 Role: A ranger DPS who wins out in long fights, because both of her offensive skills apply bleeding to the target. The passive Bloodstain Tracker adds 45% damage against enemies already bleeding, so her damage builds as the fight goes on. Her one-off numbers are modest, the largest being Sacred Flame Kitty at 1,976.04% across an area.
 
-Worth investing: Bestar ranks tenth of sixteen DPS heroes by maximum Might (685,793) and sits in tier B. She is worth levelling after the leading DPS heroes, and she is most useful in a ranger squad during drawn-out fights against monsters.
+Worth investing: 베스트 ranks tenth of sixteen DPS heroes by maximum Might (685,793) and sits in tier B. She is worth levelling after the leading DPS heroes, and she is most useful in a ranger squad during drawn-out fights against monsters.
 
 ## Skills
 
-### 1. Cat Bell
+### 1. Cat 벨
 
 Auto Attack · Physical DMG
 
@@ -145,7 +145,7 @@ Support skill: active while the hero is outside the main squad.
 
 ## Compared to other heroes
 
-Below, Bestar is compared with the other heroes of the same role, of which the game has 16 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
+Below, 베스트 is compared with the other heroes of the same role, of which the game has 16 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
 
 ### Stats
 
@@ -153,60 +153,60 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 
 | Hero | Faction | Rarity | Max Might | HP growth | ATK growth | DEF growth |
 |---|---|---|---|---|---|---|
-| Zoya | Warrior | UR | 918,563 | 0.55 | 1.57 | 0.89 |
-| Annie | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
-| Cynthia | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
-| Marlena | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
-| Red Lady | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
-| Joker | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
-| Grenwald | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
-| Kesso | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
-| Ash | Ranger | SSR | 685,873 | 0.43 | 0.92 | 0.61 |
-| Bestar | Ranger | SSR | 685,793 | 0.4 | 0.97 | 0.61 |
-| Sivir | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
-| Claire | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
+| 조야 | Warrior | UR | 918,563 | 0.55 | 1.57 | 0.89 |
+| 애니 | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
+| 신시아 | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
+| 말레나 | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
+| 레드 레이디 | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| 광대 | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| 그린델왈드 | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
+| 케이사 | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
+| 애쉬 | Ranger | SSR | 685,873 | 0.43 | 0.92 | 0.61 |
+| 베스트 | Ranger | SSR | 685,793 | 0.4 | 0.97 | 0.61 |
+| 시빌 | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
+| 클레아 | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
 
 ### Skill numbers
 
-Cat Bell · damage multiplier · rank 10 of 16
+Cat 벨 · damage multiplier · rank 10 of 16
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Claire | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
-| Marlena | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
-| Zoya | Warrior | Dagger | Auto Attack | 747% | single target |
-| Cynthia | Ranger | Moon Blade | Auto Attack | 747% | single target |
-| Bestar | Ranger | Cat Bell | Auto Attack | 514.8% | single target |
+| 클레아 | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
+| 말레나 | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
+| 조야 | Warrior | Dagger | Auto Attack | 747% | single target |
+| 신시아 | Ranger | 신성한 달의 검날 | Auto Attack | 747% | single target |
+| 베스트 | Ranger | Cat 벨 | Auto Attack | 514.8% | single target |
 
-Stronger: Claire, Holy Banner (advanced) hits for 810% of ATK on a single target.
+Stronger: 클레아, Holy Banner (advanced) hits for 810% of ATK on a single target.
 
 Sacred Flame Kitty · damage multiplier · rank 11 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Joker | Warlock | Joker Ace | Ultimate Skill | 5,047.5% | single target |
-| Red Lady | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
-| Zoya | Warrior | Forest Hunter | Ultimate Skill | 3,669.6% | single target |
-| Annie | Warlock | Candy Jar | Ultimate Skill | 3,553.2% | single target |
-| Bestar | Ranger | Sacred Flame Kitty | Ultimate Skill | 1,976.04% | area |
+| 광대 | Warlock | 광대 Ace | Ultimate Skill | 5,047.5% | single target |
+| 레드 레이디 | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
+| 조야 | Warrior | Forest Hunter | Ultimate Skill | 3,669.6% | single target |
+| 애니 | Warlock | Candy Jar | Ultimate Skill | 3,553.2% | single target |
+| 베스트 | Ranger | Sacred Flame Kitty | Ultimate Skill | 1,976.04% | area |
 
-Stronger: Joker, Joker Ace hits for 5,047.5% of ATK on a single target.
+Stronger: 광대, 광대 Ace hits for 5,047.5% of ATK on a single target.
 
 Black Cat Messenger · damage multiplier · rank 13 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Red Lady | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
-| Sivir | Warrior | Shield Strike | Active Skill | 1,887.6% | single target |
-| Grenwald | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
-| Cynthia | Ranger | Lunar Hunt | Active Skill | 1,800% | single target |
-| Bestar | Ranger | Black Cat Messenger | Active Skill | 871.2% | single target |
+| 레드 레이디 | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
+| 시빌 | Warrior | Shield Strike | Active Skill | 1,887.6% | single target |
+| 그린델왈드 | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
+| 신시아 | Ranger | Lunar Hunt | Active Skill | 1,800% | single target |
+| 베스트 | Ranger | Black Cat Messenger | Active Skill | 871.2% | single target |
 
-Stronger: Red Lady, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
+Stronger: 레드 레이디, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
 
 ## Upgrade order
 
-Skill priority: Sacred Flame Kitty comes first, her largest hit and the first source of bleeding on the enemy. Black Cat Messenger is next, applying twice the bleed and returning every 5 seconds. Bloodstain Tracker follows, and the auto attack Cat Bell comes last with the support skill: 514.8% at 50 stars and no bleeding at all.
+Skill priority: Sacred Flame Kitty comes first, her largest hit and the first source of bleeding on the enemy. Black Cat Messenger is next, applying twice the bleed and returning every 5 seconds. Bloodstain Tracker follows, and the auto attack Cat 벨 comes last with the support skill: 514.8% at 50 stars and no bleeding at all.
 
 ### What stars and levels unlock
 
@@ -214,21 +214,21 @@ Every threshold of the hero in one list, from the first level to the last stars,
 
 | Condition | Unlocks |
 |---|---|
-| from the start | Cat Bell |
+| from the start | Cat 벨 |
 | hero level 5 | Sacred Flame Kitty |
 | hero level 10 | Black Cat Messenger |
 | hero level 20 | Bloodstain Tracker |
-| ★5 | Cat Bell: Deals 25% extra damage. |
+| ★5 | Cat 벨: Deals 25% extra damage. |
 | ★10 | Sacred Flame Kitty: Deals 25% extra damage. |
 | ★15 | Black Cat Messenger: Deals 25% extra damage. |
 | ★20 | Bloodstain Tracker: Effect increases by 3%. |
-| ★25 | Cat Bell: Extra damage increases to 60%. |
+| ★25 | Cat 벨: Extra damage increases to 60%. |
 | ★30 | Sacred Flame Kitty: Extra damage increases to 60%. |
 | ★35 | Black Cat Messenger: Extra damage increases to 60%. |
 | hero level 30, ★40 | Tenacity |
 | ★45 | Black Cat Messenger: Extra damage increases to 120%. |
 | ★45 | Bloodstain Tracker: Effect increases by 4.5%. |
-| ★50 | Cat Bell: Extra damage increases to 120%. |
+| ★50 | Cat 벨: Extra damage increases to 120%. |
 | ★50 | Sacred Flame Kitty: Extra damage increases to 120%. |
 | ★50 | Bloodstain Tracker: Effect increases by 7.5%. |
 
@@ -247,7 +247,7 @@ The hero has 150 levels, and reaching the last one costs Antitoxin 5,248,471,500
 
 ### Stars
 
-Reaching 50 stars takes 975 shards ( Bestar Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
+Reaching 50 stars takes 975 shards ( 베스트 Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
 
 | Stars | HP | ATK | DEF | Cost |
 |---|---|---|---|---|
@@ -280,11 +280,11 @@ Gains from each progression system on its own. They show where to invest first:
 
 ## How to play
 
-Bestar reaches 685,793 Might, just 80 behind Ash and 722 behind Kesso. Stats are not what separates them: Ash's ultimate lands 2,798.4% while Sacred Flame Kitty manages 1,976.04%. In exchange, both of Bestar's attacks apply bleeding and Bloodstain Tracker adds 45% damage against bleeding enemies, whereas Ash's passive skill gives 33% and works against monsters only.
+베스트 reaches 685,793 Might, just 80 behind 애쉬 and 722 behind 케이사. Stats are not what separates them: 애쉬's ultimate lands 2,798.4% while Sacred Flame Kitty manages 1,976.04%. In exchange, both of 베스트's attacks apply bleeding and Bloodstain Tracker adds 45% damage against bleeding enemies, whereas 애쉬's passive skill gives 33% and works against monsters only.
 
-SSR rarity spares Bestar the server age condition, so she is available from day one, while Cynthia arrives on server day 7 and Red Lady on day 35. Shards come from recruiting, where a hero shard drops in roughly a quarter of summons and UR heroes account for 2.8% of those.
+SSR rarity spares 베스트 the server age condition, so she is available from day one, while 신시아 arrives on server day 7 and 레드 레이디 on day 35. Shards come from recruiting, where a hero shard drops in roughly a quarter of summons and UR heroes account for 2.8% of those.
 
-SSR heroes have no awakening and no Exclusive Weapon, so Bestar's ceiling comes from levels and stars alone: 894,522 HP and 15,494 ATK. Stars contribute 198,756 and 3,441 of that, and they also drive her passive skill, whose 45% arrives in steps at the twentieth, forty-fifth and fiftieth star.
+SSR heroes have no awakening and no 전용 무기, so 베스트's ceiling comes from levels and stars alone: 894,522 HP and 15,494 ATK. Stars contribute 198,756 and 3,441 of that, and they also drive her passive skill, whose 45% arrives in steps at the twentieth, forty-fifth and fiftieth star.
 
-Among budget squads Bestar stands in the ranger five with Griffith, Hastar, Ash and Louis: 16.8M survivability, 1.2M damage per second and 5 effectiveness with a +15% bonus. The bleeding from her skills and Ash's ranger buff stack together.
+Among budget squads 베스트 stands in the ranger five with 그리피스, 하스터, 애쉬 and 루이스: 16.8M survivability, 1.2M damage per second and 5 effectiveness with a +15% bonus. The bleeding from her skills and 애쉬's ranger buff stack together.
 

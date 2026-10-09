@@ -17,7 +17,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-zoya)).
 
-Zoya is a UR warrior who plays as DPS. Fully upgraded, she reaches 918,563 Might, rank 1 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Zoya Shard), and the shards become available once the Warrior Statue reaches level 20. Zoya does not appear in the hero list until server day 56.
+Zoya is a UR warrior who plays as DPS. Fully upgraded, she reaches 918,563 Might, rank 1 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Zoya Shard), and the shards become available once the Statue de guerrier reaches level 20. Zoya does not appear in the hero list until server day 56.
 
 | Stat | Value |
 |---|---|
@@ -28,7 +28,7 @@ Zoya is a UR warrior who plays as DPS. Fully upgraded, she reaches 918,563 Might
 | Max stars | 50 |
 | Attack speed | one hit every 0.83 s |
 | Shards to unlock | Zoya Shard × 10 |
-| Faction building | Warrior Statue, level 20 |
+| Faction building | Statue de guerrier, level 20 |
 | Skills | 5, full set |
 | Trait | Helpful |
 | Faction advantage | Warriors take 20% less damage from Warlocks |
@@ -36,7 +36,7 @@ Zoya is a UR warrior who plays as DPS. Fully upgraded, she reaches 918,563 Might
 | Awakening opens | on day 183 of the season |
 | Exclusive weapon | on day 78 of the season |
 
-Awakening and the Exclusive Weapon follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 183 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Exclusive Weapon becomes available on day 78 of the season.
+Awakening and the Arme exclusive follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 183 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Arme exclusive becomes available on day 78 of the season.
 
 ## Why she matters
 
@@ -164,7 +164,7 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 | Annie | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
 | Cynthia | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
 | Marlena | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
-| Red Lady | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| Dame Rouge | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
 | Joker | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
 | Grenwald | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
 | Kesso | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
@@ -182,8 +182,8 @@ Dagger · damage multiplier · rank 3 of 16
 | Claire | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
 | Marlena | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
 | Zoya | Warrior | Dagger | Auto Attack | 747% | single target |
-| Cynthia | Ranger | Moon Blade | Auto Attack | 747% | single target |
-| Red Lady | Ranger | Blood Blade | Auto Attack | 747% | single target |
+| Cynthia | Ranger | Lame lunaire | Auto Attack | 747% | single target |
+| Dame Rouge | Ranger | Blood Blade | Auto Attack | 747% | single target |
 
 Stronger: Claire, Holy Banner (advanced) hits for 810% of ATK on a single target.
 
@@ -192,7 +192,7 @@ Forest Hunter · damage multiplier · rank 3 of 15
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
 | Joker | Warlock | Joker Ace | Ultimate Skill | 5,047.5% | single target |
-| Red Lady | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
+| Dame Rouge | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
 | Zoya | Warrior | Forest Hunter | Ultimate Skill | 3,669.6% | single target |
 | Annie | Warlock | Candy Jar | Ultimate Skill | 3,553.2% | single target |
 | Claire | Warrior | Celestial Judgment (advanced) | Ultimate Skill | 3,486.6% | area |
@@ -203,13 +203,13 @@ Mountain God Wrath · damage multiplier · rank 14 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Red Lady | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
+| Dame Rouge | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
 | Sivir | Warrior | Shield Strike | Active Skill | 1,887.6% | single target |
 | Grenwald | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
 | Cynthia | Ranger | Lunar Hunt | Active Skill | 1,800% | single target |
 | Zoya | Warrior | Mountain God Wrath | Active Skill | 630% | area |
 
-Stronger: Red Lady, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
+Stronger: Dame Rouge, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
 
 ## Upgrade order
 
@@ -281,9 +281,9 @@ Every skill goes up to level 40 with Skill Badge: one skill costs 436,700 of the
 - HP +425,119, ATK +12,119, DEF +3,812
 - DMG RES +5%
 
-### Exclusive Weapon
+### Arme exclusive
 
-“Forest Blade”, upgraded to 50 stars. At max it adds:
+“Lame sylvestre”, upgraded to 50 stars. At max it adds:
 - HP +1,251,000, ATK +8,750, DEF +8,750
 - Hero DEF +10%
 - Hero HP +10%
@@ -301,16 +301,16 @@ Gains from each progression system on its own. They show where to invest first:
 | Hero levels | 956,676 | 19,505 | 11,057 |
 | Stars | 273,290 | 5,570 | 3,157 |
 | Awakening | 425,119 | 12,119 | 3,812 |
-| Exclusive Weapon | 1,251,000 | 8,750 | 8,750 |
+| Arme exclusive | 1,251,000 | 8,750 | 8,750 |
 | Total | 2,906,085 | 45,943 | 26,776 |
 
 ## How to play
 
 Zoya leads all sixteen DPS heroes with 918,563 maximum Might, ahead of Annie by 2,169 and of Joker by 4,980. Her Forest Hunter lands 3,669.6% of ATK and falls behind Joker Ace at 5,047.5% and Crimson Rose at 4,550.4%, yet her attack growth rate of 1.57 is the highest of the role.
 
-Zoya does not appear in the hero list until server day 56, later than Cynthia on day seven and Annie on day fourteen. Her shards open with the Warrior Statue at level 20, and hiring her takes 10 of them. The Exclusive Weapon arrives on season day 78, while Awakening comes only on day 183, second to last among the fifteen UR heroes.
+Zoya does not appear in the hero list until server day 56, later than Cynthia on day seven and Annie on day fourteen. Her shards open with the Statue de guerrier at level 20, and hiring her takes 10 of them. The Arme exclusive arrives on season day 78, while Awakening comes only on day 183, second to last among the fifteen UR heroes.
 
-Most of Zoya's ceiling comes from the systems tied to season days. The Exclusive Weapon gives 1,251,000 HP, more than all 150 levels with their 956,676, and Awakening adds 425,119 HP together with 12,119 ATK. Stars look modest beside that, 273,290 HP for 975 shards, though without 50 stars Forest Hunter never reaches 3,669.6%.
+Most of Zoya's ceiling comes from the systems tied to season days. The Arme exclusive gives 1,251,000 HP, more than all 150 levels with their 956,676, and Awakening adds 425,119 HP together with 12,119 ATK. Stars look modest beside that, 273,290 HP for 975 shards, though without 50 stars Forest Hunter never reaches 3,669.6%.
 
 In the squad review Zoya is covered by three tanks and a support: Arthur, Daskal, Billy and Harper keep her alive until the skill comes back, and the line-up withstands 143.4M damage. All of its damage rests on Zoya, and once she falls the five stop killing.
 

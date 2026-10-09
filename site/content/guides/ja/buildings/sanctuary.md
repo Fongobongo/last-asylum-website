@@ -74,41 +74,41 @@ Resources are not the only condition: before every upgrade the Sanctuary also ch
 |---|---|---|---|
 | 2 | - | - | under a minute |
 | 3 | - | 17 | under a minute |
-| 4 | Lumber Depot 1, Granary 1, Herb Storage 1 | 19 | 5m |
+| 4 | 木材倉庫 1, 食糧倉庫 1, 薬材倉庫 1 | 19 | 5m |
 | 5 | Walls 3 | 28 | 10m |
 | 6 | Walls 5 | 47 | 34m |
-| 7 | Training Grounds 4, Alliance Hall 3 | 61 | 1h 30m |
-| 8 | Training Grounds 6, Alliance Hall 5 | 80 | 3h 1m |
-| 9 | Walls 8, Alliance Hall 7 | 96 | 4h 16m |
+| 7 | 訓練場 4, ギルド連絡所 3 | 61 | 1h 30m |
+| 8 | 訓練場 6, ギルド連絡所 5 | 80 | 3h 1m |
+| 9 | Walls 8, ギルド連絡所 7 | 96 | 4h 16m |
 | 10 | Walls 9, Infirmary 7 | 112 | 5h 35m |
-| 11 | Training Grounds 10, Research Lab 7 | 142 | 7h 14m |
-| 12 | Research Lab 11, Walls 10, Antitoxin Workshop 7 | 155 | 9h 24m |
-| 13 | Research Lab 12, Alliance Hall 11, Farm 7 | 173 | 12h 13m |
-| 14 | Research Lab 13, Warrior Statue 12, Lumberyard 7 | 193 | 15h 53m |
-| 15 | Research Lab 14, Training Grounds 14, Herb Garden 7 | 201 | 22h 15m |
-| 16 | Research Lab 15, Warrior Statue 14, Granary 7 | 215 | 1d 7h |
-| 17 | Research Lab 16, Barracks 15, Lumber Depot 7 | 225 | 1d 19h |
-| 18 | Research Lab 17, Training Grounds 17, Herb Storage 7 | 231 | 2d 13h |
-| 19 | Research Lab 18, Warrior Statue 17, Antitoxin Workshop 10 | 237 | 3d 13h |
-| 20 | Research Lab 19, Alliance Hall 18, Farm 10 | 247 | 4d 23h |
-| 21 | Research Lab 20, Training Grounds 20, Lumberyard 10 | 254 | 6d 16h |
-| 22 | Research Lab 21, Warrior Statue 21, Herb Garden 10 | 260 | 8d 16h |
-| 23 | Research Lab 22, Infirmary 22, Granary 10 | 270 | 11d 6h |
-| 24 | Research Lab 23, Walls 23, Lumber Depot 10 | 282 | 15d 19h |
-| 25 | Research Lab 24, Training Grounds 24, Herb Storage 10 | 292 | 22d 3h |
-| 26 | Research Lab 25, Warrior Statue 25, Antitoxin Workshop 13 | 304 | 30d 23h |
-| 27 | Research Lab 26, Training Grounds 26, Farm 13 | 314 | 43d 8h |
-| 28 | Research Lab 27, Barracks 27, Lumberyard 13 | 326 | 60d 17h |
-| 29 | Research Lab 28, Alliance Hall 28, Herb Garden 13 | 326 | 78d 22h |
-| 30 | Research Lab 29, Training Grounds 29, Antitoxin Workshop 15 | 326 | 102d 14h |
+| 11 | 訓練場 10, Research Lab 7 | 142 | 7h 14m |
+| 12 | Research Lab 11, Walls 10, 抗毒剤工房 7 | 155 | 9h 24m |
+| 13 | Research Lab 12, ギルド連絡所 11, 農場 7 | 173 | 12h 13m |
+| 14 | Research Lab 13, ウォーリア像 12, 伐採場 7 | 193 | 15h 53m |
+| 15 | Research Lab 14, 訓練場 14, 薬草園 7 | 201 | 22h 15m |
+| 16 | Research Lab 15, ウォーリア像 14, 食糧倉庫 7 | 215 | 1d 7h |
+| 17 | Research Lab 16, 兵営 15, 木材倉庫 7 | 225 | 1d 19h |
+| 18 | Research Lab 17, 訓練場 17, 薬材倉庫 7 | 231 | 2d 13h |
+| 19 | Research Lab 18, ウォーリア像 17, 抗毒剤工房 10 | 237 | 3d 13h |
+| 20 | Research Lab 19, ギルド連絡所 18, 農場 10 | 247 | 4d 23h |
+| 21 | Research Lab 20, 訓練場 20, 伐採場 10 | 254 | 6d 16h |
+| 22 | Research Lab 21, ウォーリア像 21, 薬草園 10 | 260 | 8d 16h |
+| 23 | Research Lab 22, Infirmary 22, 食糧倉庫 10 | 270 | 11d 6h |
+| 24 | Research Lab 23, Walls 23, 木材倉庫 10 | 282 | 15d 19h |
+| 25 | Research Lab 24, 訓練場 24, 薬材倉庫 10 | 292 | 22d 3h |
+| 26 | Research Lab 25, ウォーリア像 25, 抗毒剤工房 13 | 304 | 30d 23h |
+| 27 | Research Lab 26, 訓練場 26, 農場 13 | 314 | 43d 8h |
+| 28 | Research Lab 27, 兵営 27, 伐採場 13 | 326 | 60d 17h |
+| 29 | Research Lab 28, ギルド連絡所 28, 薬草園 13 | 326 | 78d 22h |
+| 30 | Research Lab 29, 訓練場 29, 抗毒剤工房 15 | 326 | 102d 14h |
 
 The clinic star requirement is noticed less often. It appears as early as level three and then climbs at almost every step, so the build queue sometimes stalls on an unfinished clinic rather than on missing resources. Hence the working order: the clinic is kept up from the first days alongside gathering, and the lab stays right behind the Sanctuary, otherwise both conditions meet at one level and the queue stops for a long time.
 
 ## How to use it
 
-A full Sanctuary upgrade takes 398 days 20 hours of pure build time, matching the Walls and exceeding every other building in the city. That time is spread unevenly: the first twenty-five levels fit into 82 days, while the last five take 316. Up to level 25 the Sanctuary rarely holds the queue, and after that it remains the only long construction left. Its neighbors at level 1 are shorter: a Farm takes 49 days 20 hours, the Temple seconds.
+A full Sanctuary upgrade takes 398 days 20 hours of pure build time, matching the Walls and exceeding every other building in the city. That time is spread unevenly: the first twenty-five levels fit into 82 days, while the last five take 316. Up to level 25 the Sanctuary rarely holds the queue, and after that it remains the only long construction left. Its neighbors at level 1 are shorter: a 農場 takes 49 days 20 hours, the 神殿 seconds.
 
-The Might of a thirtieth-level Sanctuary reaches 384,300, more than any other building carries: the Walls give 313,300 and the Watchtower 311,100. The bill comes to 5,031,344,982 Grain, the same amount of Timber and 1,602,346,400 Herb, with 1,356,000,000 Grain of that in the last level alone.
+The Might of a thirtieth-level Sanctuary reaches 384,300, more than any other building carries: the Walls give 313,300 and the 見張り塔 311,100. The bill comes to 5,031,344,982 Grain, the same amount of Timber and 1,602,346,400 Herb, with 1,356,000,000 Grain of that in the last level alone.
 
 Might, however, is not why the main hall is raised. Every level from the sixth lifts the hero cap by five, from 5 at the first level to 150 at the thirtieth, and adds stats to the whole roster: HP from 1,600 to 50,500, ATK and DEF from 25 to 723. No other building strengthens every hero at once.
 

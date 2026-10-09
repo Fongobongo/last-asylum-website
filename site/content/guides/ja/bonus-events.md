@@ -1,5 +1,5 @@
 ---
-title: "Bonus events: Hero Pass, Hero's Trial and Login Rewards"
+title: "Bonus events: 英雄パス, Hero's Trial and ログインボーナス"
 description: "Bonus events live in one window that opens from the Value Event button with a gift icon in the top right corner of the city screen. Its tabs sit in a row at the top and s…"
 lang: ja
 updated: "2026-09-19"
@@ -17,14 +17,14 @@ This is the button that opens the window.
 ## What the tabs hold
 
 Version 1.0.87 shows nine tabs, listed below in the order the game shows them.
-- Hero Pass: a reward track for blessing points with three inner tabs, basic rewards, target tasks and daily tasks, plus a pass chest that opens at 200 points. The track runs on a timer, and four days were left at the time of the check.
+- 英雄パス: a reward track for blessing points with three inner tabs, basic rewards, target tasks and daily tasks, plus a pass chest that opens at 200 points. The track runs on a timer, and four days were left at the time of the check.
 - Artisan's Request: no page yet.
-- Top Up Reward: no page yet.
-- Weekly Special: no page yet.
+- チャージ特典: no page yet.
+- 厳選ウィークリーパック: no page yet.
 - Hero's Trial: fifteen task tracks tied to hero stars that pay skill badges and gear stones. At the time of the check the window held two tabs with this name.
-- Heroes Assemble: no page yet.
-- VIP Offer: bundles with hero shards and VIP points, each limited to a single purchase. The points go into the common VIP scale.
-- Login Rewards: no page yet.
+- 英雄集結: no page yet.
+- VIP特典: bundles with hero shards and VIP points, each limited to a single purchase. The points go into the common VIP scale.
+- ログインボーナス: no page yet.
 
 The names are written the way the game shows them. Pages for the tabs without a description will appear as they are checked.
 

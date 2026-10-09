@@ -1,6 +1,6 @@
 ---
-title: "Sivir: 스킬, 빌드, 육성"
-description: "Sivir is an SSR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Might, rank 11 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Sivir Shar…"
+title: "시빌: 스킬, 빌드, 육성"
+description: "시빌 is an SSR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Might, rank 11 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( 시빌 Shar…"
 videoTopic: "heroes"
 lang: ko
 updated: "2026-09-19"
@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-sivir)).
 
-Sivir is an SSR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Might, rank 11 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Sivir Shard), and the shards become available once the Warrior Statue reaches level 20.
+시빌 is an SSR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Might, rank 11 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( 시빌 Shard), and the shards become available once the 전사 조각상 reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -25,8 +25,8 @@ Sivir is an SSR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Mi
 | Max Might | 685,150 |
 | Max stars | 50 |
 | Attack speed | one hit every 0.83 s |
-| Shards to unlock | Sivir Shard × 10 |
-| Faction building | Warrior Statue, level 20 |
+| Shards to unlock | 시빌 Shard × 10 |
+| Faction building | 전사 조각상, level 20 |
 | Skills | 5, full set |
 | Trait | Steady |
 | Faction advantage | Warriors take 20% less damage from Warlocks |
@@ -35,7 +35,7 @@ Sivir is an SSR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Mi
 
 Role: A warrior DPS whose strength sits in a short skill rather than the ultimate, as Shield Strike lands 1,887.6% of ATK. That is rank 2 of 15 among the active skills of this role, and it returns every 5 seconds. Her ultimate Wild Pursuit is more modest and splits its damage between three random targets.
 
-Worth investing: Sivir ranks eleventh of sixteen DPS heroes by maximum Might (685,150) and sits in tier B. She belongs to the strongest budget warrior squads, so investment pays off right up until the UR heroes of this role become available.
+Worth investing: 시빌 ranks eleventh of sixteen DPS heroes by maximum Might (685,150) and sits in tier B. She belongs to the strongest budget warrior squads, so investment pays off right up until the UR heroes of this role become available.
 
 ## Skills
 
@@ -145,7 +145,7 @@ Support skill: active while the hero is outside the main squad.
 
 ## Compared to other heroes
 
-Below, Sivir is compared with the other heroes of the same role, of which the game has 16 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
+Below, 시빌 is compared with the other heroes of the same role, of which the game has 16 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
 
 ### Stats
 
@@ -153,18 +153,18 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 
 | Hero | Faction | Rarity | Max Might | HP growth | ATK growth | DEF growth |
 |---|---|---|---|---|---|---|
-| Zoya | Warrior | UR | 918,563 | 0.55 | 1.57 | 0.89 |
-| Annie | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
-| Cynthia | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
-| Marlena | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
-| Red Lady | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
-| Joker | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
-| Grenwald | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
-| Kesso | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
-| Ash | Ranger | SSR | 685,873 | 0.43 | 0.92 | 0.61 |
-| Bestar | Ranger | SSR | 685,793 | 0.4 | 0.97 | 0.61 |
-| Sivir | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
-| Claire | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
+| 조야 | Warrior | UR | 918,563 | 0.55 | 1.57 | 0.89 |
+| 애니 | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
+| 신시아 | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
+| 말레나 | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
+| 레드 레이디 | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| 광대 | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| 그린델왈드 | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
+| 케이사 | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
+| 애쉬 | Ranger | SSR | 685,873 | 0.43 | 0.92 | 0.61 |
+| 베스트 | Ranger | SSR | 685,793 | 0.4 | 0.97 | 0.61 |
+| 시빌 | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
+| 클레아 | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
 
 ### Skill numbers
 
@@ -172,37 +172,37 @@ Hunt · damage multiplier · rank 12 of 16
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Claire | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
-| Marlena | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
-| Zoya | Warrior | Dagger | Auto Attack | 747% | single target |
-| Cynthia | Ranger | Moon Blade | Auto Attack | 747% | single target |
-| Sivir | Warrior | Hunt | Auto Attack | 495% | single target |
+| 클레아 | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
+| 말레나 | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
+| 조야 | Warrior | Dagger | Auto Attack | 747% | single target |
+| 신시아 | Ranger | 신성한 달의 검날 | Auto Attack | 747% | single target |
+| 시빌 | Warrior | Hunt | Auto Attack | 495% | single target |
 
-Stronger: Claire, Holy Banner (advanced) hits for 810% of ATK on a single target.
+Stronger: 클레아, Holy Banner (advanced) hits for 810% of ATK on a single target.
 
 Wild Pursuit · damage multiplier · rank 12 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Joker | Warlock | Joker Ace | Ultimate Skill | 5,047.5% | single target |
-| Red Lady | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
-| Zoya | Warrior | Forest Hunter | Ultimate Skill | 3,669.6% | single target |
-| Annie | Warlock | Candy Jar | Ultimate Skill | 3,553.2% | single target |
-| Sivir | Warrior | Wild Pursuit | Ultimate Skill | 1,503% | single target |
+| 광대 | Warlock | 광대 Ace | Ultimate Skill | 5,047.5% | single target |
+| 레드 레이디 | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
+| 조야 | Warrior | Forest Hunter | Ultimate Skill | 3,669.6% | single target |
+| 애니 | Warlock | Candy Jar | Ultimate Skill | 3,553.2% | single target |
+| 시빌 | Warrior | Wild Pursuit | Ultimate Skill | 1,503% | single target |
 
-Stronger: Joker, Joker Ace hits for 5,047.5% of ATK on a single target.
+Stronger: 광대, 광대 Ace hits for 5,047.5% of ATK on a single target.
 
 Shield Strike · damage multiplier · rank 2 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Red Lady | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
-| Sivir | Warrior | Shield Strike | Active Skill | 1,887.6% | single target |
-| Grenwald | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
-| Cynthia | Ranger | Lunar Hunt | Active Skill | 1,800% | single target |
-| Joker | Warlock | Hearthunt Red Card | Active Skill | 1,620% | single target |
+| 레드 레이디 | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
+| 시빌 | Warrior | Shield Strike | Active Skill | 1,887.6% | single target |
+| 그린델왈드 | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
+| 신시아 | Ranger | Lunar Hunt | Active Skill | 1,800% | single target |
+| 광대 | Warlock | Hearthunt Red Card | Active Skill | 1,620% | single target |
 
-Stronger: Red Lady, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
+Stronger: 레드 레이디, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
 
 ## Upgrade order
 
@@ -247,7 +247,7 @@ The hero has 150 levels, and reaching the last one costs Antitoxin 5,248,471,500
 
 ### Stars
 
-Reaching 50 stars takes 975 shards ( Sivir Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
+Reaching 50 stars takes 975 shards ( 시빌 Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
 
 | Stars | HP | ATK | DEF | Cost |
 |---|---|---|---|---|
@@ -280,11 +280,11 @@ Gains from each progression system on its own. They show where to invest first:
 
 ## How to play
 
-By maximum Might eleventh place is shared by Sivir and both forms of Claire, all three at 685,150, while Grenwald stands 5,623 ahead. The difference lies in how their damage is spread: Claire's Celestial Judgment hits for 2,266.29% once every 8 seconds, whereas Sivir carries a fight with the short Shield Strike at 1,887.6%, rank two of fifteen, which returns every 5 seconds.
+By maximum Might eleventh place is shared by 시빌 and both forms of 클레아, all three at 685,150, while 그린델왈드 stands 5,623 ahead. The difference lies in how their damage is spread: 클레아's Celestial Judgment hits for 2,266.29% once every 8 seconds, whereas 시빌 carries a fight with the short Shield Strike at 1,887.6%, rank two of fifteen, which returns every 5 seconds.
 
-Sivir carries no server-age condition, and her shards open with the Warrior Statue at level 20, and hiring her takes 10 of them. She keeps her place in the squad until the UR heroes of the role arrive: Marlena is there from day one, Cynthia comes on server day 7, and Zoya only on day 56.
+시빌 carries no server-age condition, and her shards open with the 전사 조각상 at level 20, and hiring her takes 10 of them. She keeps her place in the squad until the UR heroes of the role arrive: 말레나 is there from day one, 신시아 comes on server day 7, and 조야 only on day 56.
 
-Progression for an SSR hero is shorter than for a UR one, with neither Awakening nor an Exclusive Weapon. Sivir's ceiling stands at 916,885 HP, of which levels give 713,159 and stars add 203,725. Skill Badges cost as much as for a UR hero, 436,700 per skill, and Shield Strike reaches 1,887.6% at 45 stars, which take 975 shards to reach.
+Progression for an SSR hero is shorter than for a UR one, with neither Awakening nor an 전용 무기. 시빌's ceiling stands at 916,885 HP, of which levels give 713,159 and stars add 203,725. Skill Badges cost as much as for a UR hero, 436,700 per skill, and Shield Strike reaches 1,887.6% at 45 stars, which take 975 shards to reach.
 
-Sivir appears seven times in the squad review, and all of those line-ups are warrior ones. The strongest, with Arthur, Lucius, Bella and Marlena, withstands 38.8M damage and earns the full +20% faction bonus. She completes the fifth warrior there, and her damage reaches the squad together with that multiplier.
+시빌 appears seven times in the squad review, and all of those line-ups are warrior ones. The strongest, with 아서, 루시우스, 벨라 and 말레나, withstands 38.8M damage and earns the full +20% faction bonus. She completes the fifth warrior there, and her damage reaches the squad together with that multiplier.
 

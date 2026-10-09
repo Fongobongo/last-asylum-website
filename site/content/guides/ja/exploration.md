@@ -25,8 +25,8 @@ The chain adds up to a solid stock of resources, hero experience and items. The 
 | Resource Supply (General) | 850 |
 | Gearstone | 700 |
 | Recruit Ticket | 145 |
-| Celia Shard | 85 |
-| Claire Shard | 70 |
+| シリア Shard | 85 |
+| クレア Shard | 70 |
 | Tempered Steel | 70 |
 
 Recruit Tickets deserve a mention: 29 steps grant them, 145 in total, the first one at step 4. A ticket costs 398 diamonds in the shop. Only kingdom-war season rewards and paid bundles hand out more.

@@ -1,7 +1,6 @@
 ---
-title: "Semua panduan: katalog lengkap"
-description: "Semua publikasi di satu tempat: pemula, bangunan, hero, ekonomi, aliansi, dan event."
+title: "Semua Panduan: Indeks Lengkap"
+description: "Setiap publikasi di satu tempat: pemula, bangunan, pahlawan, ekonomi, aliansi, acara, dan referensi."
 lang: id
 updated: "2026-10-04"
 ---
-

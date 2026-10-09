@@ -1,6 +1,6 @@
 ---
-title: "William：スキル・ビルド・育成"
-description: "William is an SR warrior who plays as DPS. Fully upgraded, he reaches 524,421 Might, rank 14 of 16 among the game's DPS heroes. Unlocking him takes 10 shards ( William Sh…"
+title: "ウィリアムズ：スキル・ビルド・育成"
+description: "ウィリアムズ is an SR warrior who plays as DPS. Fully upgraded, he reaches 524,421 Might, rank 14 of 16 among the game's DPS heroes. Unlocking him takes 10 shards ( ウィリアムズ Sh…"
 videoTopic: "heroes"
 lang: ja
 updated: "2026-09-19"
@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-william)).
 
-William is an SR warrior who plays as DPS. Fully upgraded, he reaches 524,421 Might, rank 14 of 16 among the game's DPS heroes. Unlocking him takes 10 shards ( William Shard), and the shards become available once the Warrior Statue reaches level 20.
+ウィリアムズ is an SR warrior who plays as DPS. Fully upgraded, he reaches 524,421 Might, rank 14 of 16 among the game's DPS heroes. Unlocking him takes 10 shards ( ウィリアムズ Shard), and the shards become available once the ウォーリア像 reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -25,8 +25,8 @@ William is an SR warrior who plays as DPS. Fully upgraded, he reaches 524,421 Mi
 | Max Might | 524,421 |
 | Max stars | 50 |
 | Attack speed | one hit every 0.87 s |
-| Shards to unlock | William Shard × 10 |
-| Faction building | Warrior Statue, level 20 |
+| Shards to unlock | ウィリアムズ Shard × 10 |
+| Faction building | ウォーリア像, level 20 |
 | Skills | 4 instead of five: no passive skill |
 | Trait | Diligent |
 | Faction advantage | Warriors take 20% less damage from Warlocks |
@@ -35,7 +35,7 @@ William is an SR warrior who plays as DPS. Fully upgraded, he reaches 524,421 Mi
 
 Role: A starting warrior DPS with four skills, no passive and a ceiling below that of any SSR hero of the role. Whirlwind Blade lands 1,111.5% across an area once every 10 seconds, while Twin Wind lands 711% every five, so it gives more damage per second.
 
-Worth investing: William ranks fourteenth of sixteen DPS heroes by maximum Might (524,421) and sits in tier C. He helps out in the first days and then gives way to the SSR and UR heroes, and his support skill contributes just 5% from the bench.
+Worth investing: ウィリアムズ ranks fourteenth of sixteen DPS heroes by maximum Might (524,421) and sits in tier C. He helps out in the first days and then gives way to the SSR and UR heroes, and his support skill contributes just 5% from the bench.
 
 ## Skills
 
@@ -123,7 +123,7 @@ Support skill: active while the hero is outside the main squad.
 
 ## Compared to other heroes
 
-Below, William is compared with the other heroes of the same role, of which the game has 16 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
+Below, ウィリアムズ is compared with the other heroes of the same role, of which the game has 16 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
 
 ### Stats
 
@@ -131,18 +131,18 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 
 | Hero | Faction | Rarity | Max Might | HP growth | ATK growth | DEF growth |
 |---|---|---|---|---|---|---|
-| Zoya | Warrior | UR | 918,563 | 0.55 | 1.57 | 0.89 |
-| Annie | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
-| Cynthia | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
-| Marlena | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
-| Red Lady | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
-| Joker | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
-| Grenwald | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
-| Kesso | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
-| Ash | Ranger | SSR | 685,873 | 0.43 | 0.92 | 0.61 |
-| Bestar | Ranger | SSR | 685,793 | 0.4 | 0.97 | 0.61 |
-| Sivir | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
-| Claire | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
+| ゾーヤ | Warrior | UR | 918,563 | 0.55 | 1.57 | 0.89 |
+| アニー | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
+| シンシア | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
+| マレーナ | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
+| レッドレディ | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| ピエロ | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| グリンウォルド | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
+| ケイソ | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
+| アッシュ | Ranger | SSR | 685,873 | 0.43 | 0.92 | 0.61 |
+| ベスター | Ranger | SSR | 685,793 | 0.4 | 0.97 | 0.61 |
+| シヴィア | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
+| クレア | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
 
 ### Skill numbers
 
@@ -150,29 +150,29 @@ Sword Gale · damage multiplier · rank 14 of 16
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Claire | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
-| Marlena | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
-| Zoya | Warrior | Dagger | Auto Attack | 747% | single target |
-| Cynthia | Ranger | Moon Blade | Auto Attack | 747% | single target |
-| William | Warrior | Sword Gale | Auto Attack | 315% | single target |
+| クレア | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
+| マレーナ | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
+| ゾーヤ | Warrior | Dagger | Auto Attack | 747% | single target |
+| シンシア | Ranger | 聖なる月刃 | Auto Attack | 747% | single target |
+| ウィリアムズ | Warrior | Sword Gale | Auto Attack | 315% | single target |
 
-Stronger: Claire, Holy Banner (advanced) hits for 810% of ATK on a single target.
+Stronger: クレア, Holy Banner (advanced) hits for 810% of ATK on a single target.
 
 Whirlwind Blade · damage multiplier · rank 14 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Joker | Warlock | Joker Ace | Ultimate Skill | 5,047.5% | single target |
-| Red Lady | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
-| Zoya | Warrior | Forest Hunter | Ultimate Skill | 3,669.6% | single target |
-| Annie | Warlock | Candy Jar | Ultimate Skill | 3,553.2% | single target |
-| William | Warrior | Whirlwind Blade | Ultimate Skill | 1,111.5% | area |
+| ピエロ | Warlock | ピエロ Ace | Ultimate Skill | 5,047.5% | single target |
+| レッドレディ | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
+| ゾーヤ | Warrior | Forest Hunter | Ultimate Skill | 3,669.6% | single target |
+| アニー | Warlock | Candy Jar | Ultimate Skill | 3,553.2% | single target |
+| ウィリアムズ | Warrior | Whirlwind Blade | Ultimate Skill | 1,111.5% | area |
 
-Stronger: Joker, Joker Ace hits for 5,047.5% of ATK on a single target.
+Stronger: ピエロ, ピエロ Ace hits for 5,047.5% of ATK on a single target.
 
 ## Upgrade order
 
-Skill priority: Whirlwind Blade comes first as William's only substantial hit. Twin Wind is next, returning every 5 seconds and filling the gaps between ultimates. The auto attack Sword Gale and the support skill come last, with a ceiling of 315% at 50 stars.
+Skill priority: Whirlwind Blade comes first as ウィリアムズ's only substantial hit. Twin Wind is next, returning every 5 seconds and filling the gaps between ultimates. The auto attack Sword Gale and the support skill come last, with a ceiling of 315% at 50 stars.
 
 ### What stars and levels unlock
 
@@ -209,7 +209,7 @@ The hero has 150 levels, and reaching the last one costs Antitoxin 5,248,471,500
 
 ### Stars
 
-Reaching 50 stars takes 975 shards ( William Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
+Reaching 50 stars takes 975 shards ( ウィリアムズ Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
 
 | Stars | HP | ATK | DEF | Cost |
 |---|---|---|---|---|
@@ -241,11 +241,11 @@ Gains from each progression system on its own. They show where to invest first:
 
 ## How to play
 
-William reaches 524,421 Might, the highest among the SR DPS heroes, with Robin 642 behind him and Kafa 1,204 behind. That lead settles little, because Whirlwind Blade hits for 1,111.5% once every 10 seconds, while Sivir's ultimate returns every 8 seconds and she herself reaches 685,150.
+ウィリアムズ reaches 524,421 Might, the highest among the SR DPS heroes, with ロビン 642 behind him and カファ 1,204 behind. That lead settles little, because Whirlwind Blade hits for 1,111.5% once every 10 seconds, while シヴィア's ultimate returns every 8 seconds and she herself reaches 685,150.
 
-William is available from day one and opens for 10 shards, so he takes a squad place through the first weeks with no queue at all. His skills level only to 30, and each one costs 170,200 badges against 436,700 for an SSR hero, so the investment is cheaper and the ceiling is lower with it.
+ウィリアムズ is available from day one and opens for 10 shards, so he takes a squad place through the first weeks with no queue at all. His skills level only to 30, and each one costs 170,200 badges against 436,700 for an SSR hero, so the investment is cheaper and the ceiling is lower with it.
 
-SR heroes have no fifth skill, no awakening and no Exclusive Weapon, so William tops out at 760,343 HP and 12,299 ATK, where Sivir reaches 916,885 and 15,174. Stars still cost the same 975 shards and return 168,943 HP, less than any SSR hero of the role receives.
+SR heroes have no fifth skill, no awakening and no 専用武器, so ウィリアムズ tops out at 760,343 HP and 12,299 ATK, where シヴィア reaches 916,885 and 15,174. Stars still cost the same 975 shards and return 168,943 HP, less than any SSR hero of the role receives.
 
-William made it into none of the squads listed in the tables, as the warrior place in the DPS role goes to Sivir and Claire. From the bench he also gives the least: his support skill adds 5% to ATK, HP and DEF, an SSR hero adds 10%, and a UR hero 20% plus 10% skill cooldown speed.
+ウィリアムズ made it into none of the squads listed in the tables, as the warrior place in the DPS role goes to シヴィア and クレア. From the bench he also gives the least: his support skill adds 5% to ATK, HP and DEF, an SSR hero adds 10%, and a UR hero 20% plus 10% skill cooldown speed.
 

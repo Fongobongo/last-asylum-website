@@ -42,38 +42,38 @@ The third column carries the key point: half of the gain goes to every hero, not
 ## What links here
 
 Pages that mention this one. The list is built from the markup, not filled by hand.
-- Thief Hunt: Gold Thieves, the Thief Leader and the Lion Coin shop
+- 도둑 추격: Gold Thieves, the Thief Leader and the Lion Coin shop
 - Contents: heroes, army, events and spending
 - Awakening shards: where they come from
-- Claire (Advanced): skills, upgrades and Might
-- Nicole: skills, upgrades and Might
-- Joker: skills, upgrades and Might
-- Annie: skills, upgrades and Might
-- Ulfrid: skills, upgrades and Might
-- Billy: skills, upgrades and Might
-- Bell: skills, upgrades and Might
-- Red Lady: skills, upgrades and Might
-- Cynthia: skills, upgrades and Might
-- Louis: skills, upgrades and Might
-- Shadow: skills, upgrades and Might
-- Zoya: skills, upgrades and Might
-- Harper: skills, upgrades and Might
-- Daskal: skills, upgrades and Might
-- Ash: skills, upgrades and Might
-- William: skills, upgrades and Might
-- Durant: skills, upgrades and Might
-- Robin: skills, upgrades and Might
-- Kafa: skills, upgrades and Might
-- Hastar: skills, upgrades and Might
-- Marlena: skills, upgrades and Might
-- Bestar: skills, upgrades and Might
-- Grenwald: skills, upgrades and Might
-- Claire: skills, upgrades and Might
-- Bella: skills, upgrades and Might
-- Sivir: skills, upgrades and Might
-- Griffith: skills, upgrades and Might
-- Stellar: skills, upgrades and Might
-- Lucius: skills, upgrades and Might
-- Celia: skills, upgrades and Might
-- Kesso: skills, upgrades and Might
-- Arthur: skills, upgrades and Might
+- 클레아 (Advanced): skills, upgrades and Might
+- 니콜: skills, upgrades and Might
+- 광대: skills, upgrades and Might
+- 애니: skills, upgrades and Might
+- 울프레드: skills, upgrades and Might
+- 빌리: skills, upgrades and Might
+- 벨: skills, upgrades and Might
+- 레드 레이디: skills, upgrades and Might
+- 신시아: skills, upgrades and Might
+- 루이스: skills, upgrades and Might
+- 섀도우: skills, upgrades and Might
+- 조야: skills, upgrades and Might
+- 하퍼: skills, upgrades and Might
+- 다스칼: skills, upgrades and Might
+- 애쉬: skills, upgrades and Might
+- 윌리엄스: skills, upgrades and Might
+- 듀란트: skills, upgrades and Might
+- 로빈: skills, upgrades and Might
+- 카파: skills, upgrades and Might
+- 하스터: skills, upgrades and Might
+- 말레나: skills, upgrades and Might
+- 베스트: skills, upgrades and Might
+- 그린델왈드: skills, upgrades and Might
+- 클레아: skills, upgrades and Might
+- 벨라: skills, upgrades and Might
+- 시빌: skills, upgrades and Might
+- 그리피스: skills, upgrades and Might
+- 스타더스트: skills, upgrades and Might
+- 루시우스: skills, upgrades and Might
+- 실리아: skills, upgrades and Might
+- 케이사: skills, upgrades and Might
+- 아서: skills, upgrades and Might

@@ -1,6 +1,6 @@
 ---
-title: "Arena: levels, cost and upgrades"
-description: "Arena opens one-on-one duels and the arena shop, where a season placement pays diamonds and skill badges. The Might of the training bots shows the price of climbing: betw…"
+title: "アリーナ: levels, cost and upgrades"
+description: "アリーナ opens one-on-one duels and the arena shop, where a season placement pays diamonds and skill badges. The Might of the training bots shows the price of climbing: betw…"
 videoTopic: "buildings"
 lang: ja
 updated: "2026-09-19"
@@ -16,7 +16,7 @@ type: guide
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-arena)).
 
 
-Arena opens one-on-one duels and the arena shop, where a season placement pays diamonds and skill badges. The Might of the training bots shows the price of climbing: between 100th and 300th place it nearly halves. The building unlocks after Sanctuary level 7 and goes up to level 1. Only one can be built.
+アリーナ opens one-on-one duels and the arena shop, where a season placement pays diamonds and skill badges. The Might of the training bots shows the price of climbing: between 100th and 300th place it nearly halves. The building unlocks after Sanctuary level 7 and goes up to level 1. Only one can be built.
 
 | Stat | Value |
 |---|---|
@@ -40,11 +40,11 @@ This building gives no stat bonus: it unlocks an option rather than percentages.
 
 ## How to use it
 
-The Arena costs 480 Grain and 360 Timber and goes up in under a minute. The Raven Nest, the Curio Hall, Black Ops and the Nomad Trader carry exactly the same price, so 840 resources change nothing at Sanctuary level 7.
+The アリーナ costs 480 Grain and 360 Timber and goes up in under a minute. The レイヴンの小屋, the 収蔵品館, 秘密作戦部 and the 遊牧商人 carry exactly the same price, so 840 resources change nothing at Sanctuary level 7.
 
-The Arena pays for itself faster than any other building in the city. A win at the lowest arena brings 50,000 Antitoxin and a loss 25,000, while five free fights come to 250,000 Antitoxin a day. That first day returns nearly three hundred times the resources it cost, and every day after pays the same.
+The アリーナ pays for itself faster than any other building in the city. A win at the lowest arena brings 50,000 Antitoxin and a loss 25,000, while five free fights come to 250,000 Antitoxin a day. That first day returns nearly three hundred times the resources it cost, and every day after pays the same.
 
 The season standing is counted separately and pays diamonds: 15,200 for first place at the highest arena. Skill badges come from the same standings, up to 21,000 a season. Both payouts come off a building that cost 840 resources and stopped at its first and only level, and none of them exists without it.
 
-The Arena never occupies the build queue, and that sets it apart at level 7: three Infirmaries need 299 days 4 hours each and the Research Lab 349 days. It has a single level, so the 840 resources are spent once and never come back to it. The Arena brings 100 Might, a figure that vanishes in the city total next to the 361,000 of the lab.
+The アリーナ never occupies the build queue, and that sets it apart at level 7: three Infirmaries need 299 days 4 hours each and the Research Lab 349 days. It has a single level, so the 840 resources are spent once and never come back to it. The アリーナ brings 100 Might, a figure that vanishes in the city total next to the 361,000 of the lab.
 

@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-durant)).
 
-Durant is an SR warrior who plays as tank. Fully upgraded, he reaches 596,226 Might, rank 11 of 11 among the game's tanks. Unlocking him takes 10 shards ( Durant Shard), and the shards become available once the Warrior Statue reaches level 20.
+Durant is an SR warrior who plays as tank. Fully upgraded, he reaches 596,226 Might, rank 11 of 11 among the game's tanks. Unlocking him takes 10 shards ( Durant Shard), and the shards become available once the Estatua del guerrero reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -26,7 +26,7 @@ Durant is an SR warrior who plays as tank. Fully upgraded, he reaches 596,226 Mi
 | Max stars | 50 |
 | Attack speed | one hit every 0.87 s |
 | Shards to unlock | Durant Shard × 10 |
-| Faction building | Warrior Statue, level 20 |
+| Faction building | Estatua del guerrero, level 20 |
 | Skills | 4 instead of five: no passive skill |
 | Trait | Steady |
 | Faction advantage | Warriors take 20% less damage from Warlocks |
@@ -35,7 +35,7 @@ Durant is an SR warrior who plays as tank. Fully upgraded, he reaches 596,226 Mi
 
 Role: A starting warrior tank, Durant holds the front line on raw HP alone and has no damage reduction. That is what sets him apart from the other tanks. He hits decently for a starting hero, with Leap Slash at 1,057.5% of ATK ranking fourth of seven among the active skills of the role.
 
-Worth investing: Durant is last of eleven tanks by maximum Might (596,226) and sits in tier C. Even so he makes it into a budget warrior squad alongside Arthur and Marlena, so a modest investment before the SSR and UR tanks arrive is reasonable.
+Worth investing: Durant is last of eleven tanks by maximum Might (596,226) and sits in tier C. Even so he makes it into a budget warrior squad alongside Arturo and Marlena, so a modest investment before the SSR and UR tanks arrive is reasonable.
 
 ## Skills
 
@@ -131,13 +131,13 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 
 | Hero | Faction | Rarity | Max Might | HP growth | ATK growth | DEF growth |
 |---|---|---|---|---|---|---|
-| Shadow | Ranger | UR | 1,075,906 | 1.43 | 0.78 | 1.06 |
+| Sombra | Ranger | UR | 1,075,906 | 1.43 | 0.78 | 1.06 |
 | Daskal | Warrior | UR | 1,057,192 | 1.36 | 0.81 | 1.05 |
-| Arthur | Warrior | UR | 1,052,453 | 1.34 | 0.82 | 1.05 |
-| Louis | Ranger | UR | 1,044,341 | 1.31 | 0.83 | 1.05 |
+| Arturo | Warrior | UR | 1,052,453 | 1.34 | 0.82 | 1.05 |
+| Luis | Ranger | UR | 1,044,341 | 1.31 | 0.83 | 1.05 |
 | Ulfrid | Warlock | UR | 1,033,739 | 1.27 | 0.85 | 1.04 |
 | Billy | Warlock | UR | 980,246 | 1.05 | 0.97 | 1.01 |
-| Lucius | Warrior | SSR | 778,239 | 0.9 | 0.54 | 0.7 |
+| Lucio | Warrior | SSR | 778,239 | 0.9 | 0.54 | 0.7 |
 | Bella | Warrior | SSR | 773,500 | 0.88 | 0.55 | 0.7 |
 | Griffith | Ranger | SSR | 764,263 | 0.85 | 0.56 | 0.69 |
 | Hastar | Warlock | SSR | 750,047 | 0.79 | 0.59 | 0.69 |
@@ -150,9 +150,9 @@ Slash · damage multiplier · rank 10 of 11
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
 | Daskal | Warrior | Battle Will | Auto Attack | 996% | single target |
-| Louis | Ranger | Shackles | Auto Attack | 996% | single target |
+| Luis | Ranger | Shackles | Auto Attack | 996% | single target |
 | Ulfrid | Warlock | Sharp Claw | Auto Attack | 996% | single target |
-| Arthur | Warrior | Battle Shield | Auto Attack | 900% | single target |
+| Arturo | Warrior | Battle Shield | Auto Attack | 900% | single target |
 | Durant | Warrior | Slash | Auto Attack | 315% | single target |
 
 Stronger: Daskal, Battle Will hits for 996% of ATK on a single target.
@@ -164,7 +164,7 @@ Blade Fury · damage multiplier · rank 8 of 9
 | Hastar | Warlock | Wrath of Old Gods | Ultimate Skill | 3,623.4% | area |
 | Billy | Warlock | Truth and Lies | Ultimate Skill | 2,916% | area |
 | Bella | Warrior | Bloody Requiem | Ultimate Skill | 2,886.84% | single target |
-| Lucius | Warrior | Whirlwind Cut | Ultimate Skill | 2,029.2% | single target |
+| Lucio | Warrior | Whirlwind Cut | Ultimate Skill | 2,029.2% | single target |
 | Durant | Warrior | Blade Fury | Ultimate Skill | 1,224% | area |
 
 Stronger: Hastar, Wrath of Old Gods hits for 3,623.4% of ATK in an area.
@@ -174,7 +174,7 @@ Leap Slash · damage multiplier · rank 4 of 7
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
 | Griffith | Ranger | Venomous Bite | Active Skill | 2,303.4% | single target |
-| Lucius | Warrior | Decapitation | Active Skill | 1,874.4% | single target |
+| Lucio | Warrior | Decapitation | Active Skill | 1,874.4% | single target |
 | Hastar | Warlock | Undercurrent | Active Skill | 1,306.8% | single target |
 | Durant | Warrior | Leap Slash | Active Skill | 1,057.5% | single target |
 | Daskal | Warrior | Deadly Pierce | Active Skill | 924% | single target |
@@ -252,11 +252,11 @@ Gains from each progression system on its own. They show where to invest first:
 
 ## How to play
 
-Durant trails the SSR tanks by close to a third: 596,226 Might against 778,239 for Lucius and 750,047 for Hastar. He has four skills instead of five, no passive at all, and no damage reduction for anyone. His output is still decent, as Blade Fury lands two hits of 1,224% of ATK on a 7 second cooldown.
+Durant trails the SSR tanks by close to a third: 596,226 Might against 778,239 for Lucio and 750,047 for Hastar. He has four skills instead of five, no passive at all, and no damage reduction for anyone. His output is still decent, as Blade Fury lands two hits of 1,224% of ATK on a 7 second cooldown.
 
-Durant unlocks for 10 shards and waits for neither a season day nor server age, yet Lucius, Bella and Arthur carry the same conditions, so he arrives no earlier than they do. Investment in him makes sense before the SSR heroes appear and only up to a point: hero level 30 and the 40 stars that open the support skill. After that the shards belong to Lucius or Arthur.
+Durant unlocks for 10 shards and waits for neither a season day nor server age, yet Lucio, Bella and Arturo carry the same conditions, so he arrives no earlier than they do. Investment in him makes sense before the SSR heroes appear and only up to a point: hero level 30 and the 40 stars that open the support skill. After that the shards belong to Lucio or Arturo.
 
 Durant is cheaper to upgrade than the SSR and UR heroes and costs the same as the other SR heroes: his skills stop at level 30 rather than 40 and cost 170,200 badges each, 510,600 for all three, against 1,746,800 for SSR and UR heroes. Stars claim 975 shards and add 357,762 HP against a limit of 1,610,139.
 
-Durant is missing from the general squad tables, yet he fills the budget five with Arthur, Lucius, Claire and Marlena: the full +20% faction bonus, 38.2M of survivability and 15 points of effectiveness. From the bench he pays the squad +5% to ATK, HP and DEF, half of what an SSR hero gives.
+Durant is missing from the general squad tables, yet he fills the budget five with Arturo, Lucio, Claire and Marlena: the full +20% faction bonus, 38.2M of survivability and 15 points of effectiveness. From the bench he pays the squad +5% to ATK, HP and DEF, half of what an SSR hero gives.
 

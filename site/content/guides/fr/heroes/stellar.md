@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-stellar)).
 
-Stellar is an SSR warlock who plays as support. Fully upgraded, she reaches 695,511 Might, rank 4 of 5 among the game's support heroes. Unlocking her takes 10 shards ( Stellar Shard), and the shards become available once the Warlock Statue reaches level 20.
+Stellar is an SSR warlock who plays as support. Fully upgraded, she reaches 695,511 Might, rank 4 of 5 among the game's support heroes. Unlocking her takes 10 shards ( Stellar Shard), and the shards become available once the Statue de démoniste reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -26,7 +26,7 @@ Stellar is an SSR warlock who plays as support. Fully upgraded, she reaches 695,
 | Max stars | 50 |
 | Attack speed | one hit every 1 s |
 | Shards to unlock | Stellar Shard × 10 |
-| Faction building | Warlock Statue, level 20 |
+| Faction building | Statue de démoniste, level 20 |
 | Skills | 5, full set |
 | Trait | Helpful |
 | Faction advantage | Warlocks take 20% less damage from Rangers |

@@ -1,6 +1,6 @@
 ---
-title: "Claire (Advanced): 스킬, 빌드, 육성"
-description: "Claire is a UR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Might, rank 13 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Claire Shar…"
+title: "클레아 (Advanced): 스킬, 빌드, 육성"
+description: "클레아 is a UR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Might, rank 13 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( 클레아 Shar…"
 videoTopic: "heroes"
 lang: ko
 updated: "2026-09-19"
@@ -15,9 +15,9 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-claire-advanced)).
 
-Claire is a UR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Might, rank 13 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Claire Shard), and the shards become available once the Warrior Statue reaches level 20. Server age does not limit Claire: she is in the hero list from day one.
+클레아 is a UR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Might, rank 13 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( 클레아 Shard), and the shards become available once the 전사 조각상 reaches level 20. Server age does not limit 클레아: she is in the hero list from day one.
 
-Advanced form of Claire: same shards, upgraded versions of the skills.
+Advanced form of 클레아: same shards, upgraded versions of the skills.
 
 | Stat | Value |
 |---|---|
@@ -27,17 +27,17 @@ Advanced form of Claire: same shards, upgraded versions of the skills.
 | Max Might | 685,150 |
 | Max stars | 50 |
 | Attack speed | one hit every 1 s |
-| Shards to unlock | Claire Shard × 10 |
-| Faction building | Warrior Statue, level 20 |
+| Shards to unlock | 클레아 Shard × 10 |
+| Faction building | 전사 조각상, level 20 |
 | Skills | 5, full set |
 | Trait | Helpful |
 | Faction advantage | Warriors take 20% less damage from Warlocks |
 
 ## Why she matters
 
-Role: The advanced Claire, a warrior DPS with the strongest auto attack of the role, as Holy Banner lands 810% of ATK, rank 1 of 16. Her main area damage comes from Celestial Judgment (advanced) at 3,486.6%, and her passive raises monster damage for three warriors in the squad.
+Role: The advanced 클레아, a warrior DPS with the strongest auto attack of the role, as Holy Banner lands 810% of ATK, rank 1 of 16. Her main area damage comes from Celestial Judgment (advanced) at 3,486.6%, and her passive raises monster damage for three warriors in the squad.
 
-Worth investing: The advanced Claire carries UR rarity, yet her maximum Might matches the plain version at 685,150, an eleventh place of sixteen shared by both forms of Claire and by Sivir, and tier B. Her value lies elsewhere, as she is available from server day one with no conditions, which makes her worth some investment in an early warrior squad for the sake of the full faction bonus.
+Worth investing: The advanced 클레아 carries UR rarity, yet her maximum Might matches the plain version at 685,150, an eleventh place of sixteen shared by both forms of 클레아 and by 시빌, and tier B. Her value lies elsewhere, as she is available from server day one with no conditions, which makes her worth some investment in an early warrior squad for the sake of the full faction bonus.
 
 ## Skills
 
@@ -147,7 +147,7 @@ Support skill: active while the hero is outside the main squad.
 
 ## Compared to other heroes
 
-Below, Claire is compared with the other heroes of the same role, of which the game has 16 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
+Below, 클레아 is compared with the other heroes of the same role, of which the game has 16 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
 
 ### Stats
 
@@ -155,18 +155,18 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 
 | Hero | Faction | Rarity | Max Might | HP growth | ATK growth | DEF growth |
 |---|---|---|---|---|---|---|
-| Zoya | Warrior | UR | 918,563 | 0.55 | 1.57 | 0.89 |
-| Annie | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
-| Cynthia | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
-| Marlena | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
-| Red Lady | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
-| Joker | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
-| Grenwald | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
-| Kesso | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
-| Ash | Ranger | SSR | 685,873 | 0.43 | 0.92 | 0.61 |
-| Bestar | Ranger | SSR | 685,793 | 0.4 | 0.97 | 0.61 |
-| Sivir | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
-| Claire | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
+| 조야 | Warrior | UR | 918,563 | 0.55 | 1.57 | 0.89 |
+| 애니 | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
+| 신시아 | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
+| 말레나 | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
+| 레드 레이디 | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| 광대 | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| 그린델왈드 | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
+| 케이사 | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
+| 애쉬 | Ranger | SSR | 685,873 | 0.43 | 0.92 | 0.61 |
+| 베스트 | Ranger | SSR | 685,793 | 0.4 | 0.97 | 0.61 |
+| 시빌 | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
+| 클레아 | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
 
 ### Skill numbers
 
@@ -174,37 +174,37 @@ Holy Banner (advanced) · damage multiplier · rank 1 of 16
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Claire | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
-| Marlena | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
-| Zoya | Warrior | Dagger | Auto Attack | 747% | single target |
-| Cynthia | Ranger | Moon Blade | Auto Attack | 747% | single target |
-| Red Lady | Ranger | Blood Blade | Auto Attack | 747% | single target |
+| 클레아 | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
+| 말레나 | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
+| 조야 | Warrior | Dagger | Auto Attack | 747% | single target |
+| 신시아 | Ranger | 신성한 달의 검날 | Auto Attack | 747% | single target |
+| 레드 레이디 | Ranger | Blood Blade | Auto Attack | 747% | single target |
 
-Closest counterpart: Marlena, Skybreaker Slash hits for 783% of ATK on a single target.
+Closest counterpart: 말레나, Skybreaker Slash hits for 783% of ATK on a single target.
 
 Celestial Judgment (advanced) · damage multiplier · rank 5 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Joker | Warlock | Joker Ace | Ultimate Skill | 5,047.5% | single target |
-| Red Lady | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
-| Zoya | Warrior | Forest Hunter | Ultimate Skill | 3,669.6% | single target |
-| Annie | Warlock | Candy Jar | Ultimate Skill | 3,553.2% | single target |
-| Claire | Warrior | Celestial Judgment (advanced) | Ultimate Skill | 3,486.6% | area |
+| 광대 | Warlock | 광대 Ace | Ultimate Skill | 5,047.5% | single target |
+| 레드 레이디 | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
+| 조야 | Warrior | Forest Hunter | Ultimate Skill | 3,669.6% | single target |
+| 애니 | Warlock | Candy Jar | Ultimate Skill | 3,553.2% | single target |
+| 클레아 | Warrior | Celestial Judgment (advanced) | Ultimate Skill | 3,486.6% | area |
 
-Stronger: Joker, Joker Ace hits for 5,047.5% of ATK on a single target.
+Stronger: 광대, 광대 Ace hits for 5,047.5% of ATK on a single target.
 
 Rain of Arrows (advanced) · damage multiplier · rank 10 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Red Lady | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
-| Sivir | Warrior | Shield Strike | Active Skill | 1,887.6% | single target |
-| Grenwald | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
-| Cynthia | Ranger | Lunar Hunt | Active Skill | 1,800% | single target |
-| Claire | Warrior | Rain of Arrows (advanced) | Active Skill | 938.4% | single target |
+| 레드 레이디 | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
+| 시빌 | Warrior | Shield Strike | Active Skill | 1,887.6% | single target |
+| 그린델왈드 | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
+| 신시아 | Ranger | Lunar Hunt | Active Skill | 1,800% | single target |
+| 클레아 | Warrior | Rain of Arrows (advanced) | Active Skill | 938.4% | single target |
 
-Stronger: Red Lady, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
+Stronger: 레드 레이디, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
 
 ## Upgrade order
 
@@ -249,7 +249,7 @@ The hero has 150 levels, and reaching the last one costs Antitoxin 5,248,471,500
 
 ### Stars
 
-Reaching 50 stars takes 1,950 shards ( Claire Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
+Reaching 50 stars takes 1,950 shards ( 클레아 Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
 
 | Stars | HP | ATK | DEF | Cost |
 |---|---|---|---|---|
@@ -282,11 +282,11 @@ Gains from each progression system on its own. They show where to invest first:
 
 ## How to play
 
-The maximum Might of the advanced Claire is 685,150 against 918,563 for Zoya and 914,868 for Marlena, an eleventh place of sixteen she shares with the plain Claire and with Sivir. The number misleads: a full build gives her 1,386,507 HP and 22,679 ATK against 916,885 and 15,174 for the plain form. Her auto attack lands 810% of ATK, first in the role.
+The maximum Might of the advanced 클레아 is 685,150 against 918,563 for 조야 and 914,868 for 말레나, an eleventh place of sixteen she shares with the plain 클레아 and with 시빌. The number misleads: a full build gives her 1,386,507 HP and 22,679 ATK against 916,885 and 15,174 for the plain form. Her auto attack lands 810% of ATK, first in the role.
 
-The advanced Claire is available from server day one and unlocks for the same 10 shards as the plain form. Among the other UR heroes only Arthur and Marlena arrive as early. Celestial Judgment at 3,486.6% recharges in 8 seconds, while every other UR hero of the role needs 15 seconds for an ultimate.
+The advanced 클레아 is available from server day one and unlocks for the same 10 shards as the plain form. Among the other UR heroes only 아서 and 말레나 arrive as early. Celestial Judgment at 3,486.6% recharges in 8 seconds, while every other UR hero of the role needs 15 seconds for an ultimate.
 
-Stars cost the advanced Claire twice what they cost anyone else: 1,950 shards instead of 975, drawn from the same reserve as the plain form. She has neither awakening nor an Exclusive Weapon, so her limit closes on 436,700 badges for each of the four skills and 1,078,435 HP from levels.
+Stars cost the advanced 클레아 twice what they cost anyone else: 1,950 shards instead of 975, drawn from the same reserve as the plain form. She has neither awakening nor an 전용 무기, so her limit closes on 436,700 badges for each of the four skills and 1,078,435 HP from levels.
 
-Her place in a squad follows from the passive: Call of the Brave raises monster damage by 30% for the three highest-attack warriors, and it works better the more warriors stand beside her. A pure warrior five grants +20% to HP, ATK and DEF, and from the bench Claire pays the same +20% plus 10% cooldown speed.
+Her place in a squad follows from the passive: Call of the Brave raises monster damage by 30% for the three highest-attack warriors, and it works better the more warriors stand beside her. A pure warrior five grants +20% to HP, ATK and DEF, and from the bench 클레아 pays the same +20% plus 10% cooldown speed.
 

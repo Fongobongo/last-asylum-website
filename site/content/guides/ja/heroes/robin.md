@@ -1,6 +1,6 @@
 ---
-title: "Robin：スキル・ビルド・育成"
-description: "Robin is an SR ranger who plays as DPS. Fully upgraded, he reaches 523,779 Might, rank 15 of 16 among the game's DPS heroes. Unlocking him takes 10 shards ( Robin Shard),…"
+title: "ロビン：スキル・ビルド・育成"
+description: "ロビン is an SR ranger who plays as DPS. Fully upgraded, he reaches 523,779 Might, rank 15 of 16 among the game's DPS heroes. Unlocking him takes 10 shards ( ロビン Shard),…"
 videoTopic: "heroes"
 lang: ja
 updated: "2026-09-19"
@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-robin)).
 
-Robin is an SR ranger who plays as DPS. Fully upgraded, he reaches 523,779 Might, rank 15 of 16 among the game's DPS heroes. Unlocking him takes 10 shards ( Robin Shard), and the shards become available once the Ranger Statue reaches level 20.
+ロビン is an SR ranger who plays as DPS. Fully upgraded, he reaches 523,779 Might, rank 15 of 16 among the game's DPS heroes. Unlocking him takes 10 shards ( ロビン Shard), and the shards become available once the レンジャー像 reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -25,8 +25,8 @@ Robin is an SR ranger who plays as DPS. Fully upgraded, he reaches 523,779 Might
 | Max Might | 523,779 |
 | Max stars | 50 |
 | Attack speed | one hit every 0.78 s |
-| Shards to unlock | Robin Shard × 10 |
-| Faction building | Ranger Statue, level 20 |
+| Shards to unlock | ロビン Shard × 10 |
+| Faction building | レンジャー像, level 20 |
 | Skills | 4 instead of five: no passive skill |
 | Trait | Complacent |
 | Faction advantage | Rangers take 20% less damage from Warriors |
@@ -39,7 +39,7 @@ Robin is an SR ranger who plays as DPS. Fully upgraded, he reaches 523,779 Might
 
 Role: A starting ranger DPS with four skills and no passive at all, like the other heroes handed out early. His ultimate Rapid Fire splits its damage into seven shots of 261% of ATK, 1,827% per cast, yet it recharges in 10 seconds against 5 for Arrow of Retribution at 936%, so per second the two come out close and the single blow of Arrow of Retribution is larger.
 
-Worth investing: Robin ranks fifteenth of sixteen DPS heroes by maximum Might (523,779) and sits in tier C. He fills the DPS place in the first days and deserves only minimal investment, since even from the bench his support skill gives the squad just 5%.
+Worth investing: ロビン ranks fifteenth of sixteen DPS heroes by maximum Might (523,779) and sits in tier C. He fills the DPS place in the first days and deserves only minimal investment, since even from the bench his support skill gives the squad just 5%.
 
 ## Skills
 
@@ -127,7 +127,7 @@ Support skill: active while the hero is outside the main squad.
 
 ## Compared to other heroes
 
-Below, Robin is compared with the other heroes of the same role, of which the game has 16 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
+Below, ロビン is compared with the other heroes of the same role, of which the game has 16 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
 
 ### Stats
 
@@ -135,18 +135,18 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 
 | Hero | Faction | Rarity | Max Might | HP growth | ATK growth | DEF growth |
 |---|---|---|---|---|---|---|
-| Zoya | Warrior | UR | 918,563 | 0.55 | 1.57 | 0.89 |
-| Annie | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
-| Cynthia | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
-| Marlena | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
-| Red Lady | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
-| Joker | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
-| Grenwald | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
-| Kesso | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
-| Ash | Ranger | SSR | 685,873 | 0.43 | 0.92 | 0.61 |
-| Bestar | Ranger | SSR | 685,793 | 0.4 | 0.97 | 0.61 |
-| Sivir | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
-| Claire | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
+| ゾーヤ | Warrior | UR | 918,563 | 0.55 | 1.57 | 0.89 |
+| アニー | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
+| シンシア | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
+| マレーナ | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
+| レッドレディ | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| ピエロ | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| グリンウォルド | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
+| ケイソ | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
+| アッシュ | Ranger | SSR | 685,873 | 0.43 | 0.92 | 0.61 |
+| ベスター | Ranger | SSR | 685,793 | 0.4 | 0.97 | 0.61 |
+| シヴィア | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
+| クレア | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
 
 ### Skill numbers
 
@@ -154,37 +154,37 @@ Aim · damage multiplier · rank 16 of 16
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Claire | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
-| Marlena | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
-| Zoya | Warrior | Dagger | Auto Attack | 747% | single target |
-| Cynthia | Ranger | Moon Blade | Auto Attack | 747% | single target |
-| Robin | Ranger | Aim | Auto Attack | 279% | single target |
+| クレア | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
+| マレーナ | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
+| ゾーヤ | Warrior | Dagger | Auto Attack | 747% | single target |
+| シンシア | Ranger | 聖なる月刃 | Auto Attack | 747% | single target |
+| ロビン | Ranger | Aim | Auto Attack | 279% | single target |
 
-Stronger: Claire, Holy Banner (advanced) hits for 810% of ATK on a single target.
+Stronger: クレア, Holy Banner (advanced) hits for 810% of ATK on a single target.
 
 Rapid Fire · damage multiplier · rank 15 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Joker | Warlock | Joker Ace | Ultimate Skill | 5,047.5% | single target |
-| Red Lady | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
-| Zoya | Warrior | Forest Hunter | Ultimate Skill | 3,669.6% | single target |
-| Annie | Warlock | Candy Jar | Ultimate Skill | 3,553.2% | single target |
-| Robin | Ranger | Rapid Fire | Ultimate Skill | 261% | single target |
+| ピエロ | Warlock | ピエロ Ace | Ultimate Skill | 5,047.5% | single target |
+| レッドレディ | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
+| ゾーヤ | Warrior | Forest Hunter | Ultimate Skill | 3,669.6% | single target |
+| アニー | Warlock | Candy Jar | Ultimate Skill | 3,553.2% | single target |
+| ロビン | Ranger | Rapid Fire | Ultimate Skill | 261% | single target |
 
-Stronger: Joker, Joker Ace hits for 5,047.5% of ATK on a single target.
+Stronger: ピエロ, ピエロ Ace hits for 5,047.5% of ATK on a single target.
 
 Arrow of Retribution · damage multiplier · rank 11 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Red Lady | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
-| Sivir | Warrior | Shield Strike | Active Skill | 1,887.6% | single target |
-| Grenwald | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
-| Cynthia | Ranger | Lunar Hunt | Active Skill | 1,800% | single target |
-| Robin | Ranger | Arrow of Retribution | Active Skill | 936% | single target |
+| レッドレディ | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
+| シヴィア | Warrior | Shield Strike | Active Skill | 1,887.6% | single target |
+| グリンウォルド | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
+| シンシア | Ranger | Lunar Hunt | Active Skill | 1,800% | single target |
+| ロビン | Ranger | Arrow of Retribution | Active Skill | 936% | single target |
 
-Stronger: Red Lady, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
+Stronger: レッドレディ, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
 
 ## Upgrade order
 
@@ -225,7 +225,7 @@ The hero has 150 levels, and reaching the last one costs Antitoxin 5,248,471,500
 
 ### Stars
 
-Reaching 50 stars takes 975 shards ( Robin Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
+Reaching 50 stars takes 975 shards ( ロビン Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
 
 | Stars | HP | ATK | DEF | Cost |
 |---|---|---|---|---|
@@ -257,11 +257,11 @@ Gains from each progression system on its own. They show where to invest first:
 
 ## How to play
 
-Among the three starting DPS heroes Robin comes last on attack: 9,319 at level 150 against 10,189 for Kafa and 9,568 for William. The gap to the SSR heroes is wider still, as Ash carries 11,431 ATK and 685,873 Might against 523,779 for Robin. Arrow of Retribution lands 936% of ATK every 5 seconds, while Ash's Eagle Spirit Hunt reaches 2,798.4%.
+Among the three starting DPS heroes ロビン comes last on attack: 9,319 at level 150 against 10,189 for カファ and 9,568 for ウィリアムズ. The gap to the SSR heroes is wider still, as アッシュ carries 11,431 ATK and 685,873 Might against 523,779 for ロビン. Arrow of Retribution lands 936% of ATK every 5 seconds, while アッシュ's Eagle Spirit Hunt reaches 2,798.4%.
 
-Robin is available from the first day, and the 10 shards that unlock him come from the Ranger Statue at level 20. Investing in him beyond that unlock pays only until a better ranger shows up: Ash and Bestar are available at once, and Cynthia from server day 7.
+ロビン is available from the first day, and the 10 shards that unlock him come from the レンジャー像 at level 20. Investing in him beyond that unlock pays only until a better ranger shows up: アッシュ and ベスター are available at once, and シンシア from server day 7.
 
-Rarity is the bottleneck. An SR hero's skills go up to level 30 rather than 40, so one skill costs 170,200 badges instead of 436,700, and Robin has three upgradable skills rather than four, as an SR hero never opens a fifth one. The same 975 shards give him 173,912 HP and 2,661 ATK, where Cynthia receives 318,010 and 4,931.
+Rarity is the bottleneck. An SR hero's skills go up to level 30 rather than 40, so one skill costs 170,200 badges instead of 436,700, and ロビン has three upgradable skills rather than four, as an SR hero never opens a fifth one. The same 975 shards give him 173,912 HP and 2,661 ATK, where シンシア receives 318,010 and 4,931.
 
-Robin appears in none of the thirteen best squads in the game, nor in the best squads built without a UR hero. His place is the first week, while a ranger squad is still incomplete, and afterwards he moves to the bench, where an SR hero's support skill adds 5% to the team against 20% from a UR hero.
+ロビン appears in none of the thirteen best squads in the game, nor in the best squads built without a UR hero. His place is the first week, while a ranger squad is still incomplete, and afterwards he moves to the bench, where an SR hero's support skill adds 5% to the team against 20% from a UR hero.
 

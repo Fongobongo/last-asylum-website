@@ -13,7 +13,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-celia)).
 
-Celia is an SSR warrior who plays as support. Fully upgraded, she reaches 691,655 Might, rank 5 of 5 among the game's support heroes. Unlocking her takes 10 shards ( Celia Shard), and the shards become available once the Warrior Statue reaches level 20.
+Celia is an SSR warrior who plays as support. Fully upgraded, she reaches 691,655 Might, rank 5 of 5 among the game's support heroes. Unlocking her takes 10 shards ( Celia Shard), and the shards become available once the Estátua do Guerreiro reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -24,7 +24,7 @@ Celia is an SSR warrior who plays as support. Fully upgraded, she reaches 691,65
 | Max stars | 50 |
 | Attack speed | one hit every 0.5 s |
 | Shards to unlock | Celia Shard × 10 |
-| Faction building | Warrior Statue, level 20 |
+| Faction building | Estátua do Guerreiro, level 20 |
 | Skills | 5, full set |
 | Trait | Diligent |
 | Faction advantage | Warriors take 20% less damage from Warlocks |

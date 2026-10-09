@@ -57,11 +57,11 @@ Compilado a partir de guias de composição de esquadrão, análises de lutas co
 
 No PvP, o que decide é linha de frente, controle, dano explosivo e a capacidade de desligar alvos perigosos. Nem sempre vence o time mais "grosso": um único atordoamento, uma redução de defesa ou um bom golpe no carry inimigo pode decidir a luta.
 
-- **S (PvP):** Arthur, Daskal, Marlena, Red Lady, Cynthia, Shadow, Harper
+- **S (PvP):** Arthur, Daskal, Marlena, Dama Vermelha, Cynthia, Shadow, Harper
 - **A+ (PvP):** Louis, Ulfrid, Bell, Nicole, Annie
 - **A (PvP):** Jester, Zoya, Billy
 
-Por quê: Red Lady pressiona alvos com ATK alto — os principais causadores de dano do inimigo. Shadow reduz defesa e quebra times de energia. Marlena e Cynthia trazem burst de energia pesado. Arthur + Daskal é a linha de frente mais confiável: eles não vencem a luta sozinhos, mas dão tempo à retaguarda. Harper é valioso como parte do núcleo Warrior (Arthur + Daskal + Marlena).
+Por quê: Dama Vermelha pressiona alvos com ATK alto — os principais causadores de dano do inimigo. Shadow reduz defesa e quebra times de energia. Marlena e Cynthia trazem burst de energia pesado. Arthur + Daskal é a linha de frente mais confiável: eles não vencem a luta sozinhos, mas dão tempo à retaguarda. Harper é valioso como parte do núcleo Warrior (Arthur + Daskal + Marlena).
 
 ## 🗡️ Tier List PvE {#pve-tier}
 
@@ -69,9 +69,9 @@ O PvE segue outra lógica: lutas longas, dano constante, cura, sobrevivência e 
 
 - **S (PvE):** Arthur, Marlena, Daskal, Harper, Nicole
 - **A+ (PvE):** Cynthia, Zoya, Annie, Bell, Ulfrid, Louis
-- **A (PvE):** Red Lady, Shadow, Jester, Billy
+- **A (PvE):** Dama Vermelha, Shadow, Jester, Billy
 
-Nicole está mais alto no PvE: cura e suporte são críticos em lutas longas. Red Lady está mais baixa que no PvP: sua força — pressionar alvos de ATK alto e atordoar — vale menos contra chefes. Arthur, Daskal e Marlena se mantêm altos nos dois modos: frente e dano estável são necessários em todo lugar.
+Nicole está mais alto no PvE: cura e suporte são críticos em lutas longas. Dama Vermelha está mais baixa que no PvP: sua força — pressionar alvos de ATK alto e atordoar — vale menos contra chefes. Arthur, Daskal e Marlena se mantêm altos nos dois modos: frente e dano estável são necessários em todo lugar.
 
 **Dica:** não copie seu time de PvP para o PvE automaticamente. Veja o que o evento pede: uma facção específica, um tipo de dano ou sobrevivência em vez de burst.
 
@@ -80,7 +80,7 @@ Nicole está mais alto no PvE: cura e suporte são críticos em lutas longas. Re
 A pergunta-chave não é "quem é o mais forte no geral" e sim "quem consigo desenvolver de verdade". Um herói UR sem fragmentos e estrelas bate no teto rápido.
 
 - **Prioridade muito alta:** Arthur, Marlena, Daskal, Harper, Cynthia
-- **Prioridade alta:** Red Lady, Shadow, Ulfrid, Annie
+- **Prioridade alta:** Dama Vermelha, Shadow, Ulfrid, Annie
 - **Prioridade média/tardia:** Bell, Louis, Nicole, Zoya, Jester, Billy
 
 Arthur é quase sempre um bom tanque inicial. Marlena é o melhor boost de dano low-spend (top-up de $1). Daskal é uma segunda frente forte. Harper completa o time Warrior. Cynthia é o passo para híbridos de energia. Nicole é muito forte, mas tardia — não monte sua rota inicial em volta dela.
@@ -98,7 +98,7 @@ Um herói não existe separado do time: o mesmo personagem é ótimo no time da 
 - O bônus de facção se completa? O herói é para PvP ou PvE?
 - Um jogador F2P/low-spend consegue desenvolvê-lo de verdade?
 
-Exemplos: Red Lady é um carry top, mas num time fraco sem front ela morre antes de deslanchar. Harper não brilha em números de dano, mas num time Warrior ele importa mais que mais um damager. Shadow pode decidir lutas contra certas comps, mas precisa ser posicionado com propósito. Bell é forte no time Ranger e mais fraca fora dele; Nicole é quase tier S dentro dos Warlocks, mas tardia; Billy é bom contra controle, mas mais situacional que tanques universais.
+Exemplos: Dama Vermelha é um carry top, mas num time fraco sem front ela morre antes de deslanchar. Harper não brilha em números de dano, mas num time Warrior ele importa mais que mais um damager. Shadow pode decidir lutas contra certas comps, mas precisa ser posicionado com propósito. Bell é forte no time Ranger e mais fraca fora dele; Nicole é quase tier S dentro dos Warlocks, mas tardia; Billy é bom contra controle, mas mais situacional que tanques universais.
 
 ---
 
@@ -108,9 +108,9 @@ Composições testadas: uma tier list sem times é quase inútil — vence quem 
 
 ### Rangers 5/5 — a facção forte de PvP
 
-**Time:** Shadow, Louis (frente) + Red Lady, Bell, Cynthia (retaguarda). Bônus +20%.
+**Time:** Shadow, Louis (frente) + Dama Vermelha, Bell, Cynthia (retaguarda). Bônus +20%.
 
-Red Lady pressiona alvos perigosos, Cynthia soma dano, Bell dá suporte ao time, Shadow e Louis seguram a frente e contra-atacam ameaças de energia. Prós: forte pressão de PvP, controle de ritmo, bônus completo. Contras: caro e tardio — não é o caminho mais fácil para iniciantes.
+Dama Vermelha pressiona alvos perigosos, Cynthia soma dano, Bell dá suporte ao time, Shadow e Louis seguram a frente e contra-atacam ameaças de energia. Prós: forte pressão de PvP, controle de ritmo, bônus completo. Contras: caro e tardio — não é o caminho mais fácil para iniciantes.
 
 ### Warlocks 5/5 — um sistema de fim de jogo
 
@@ -124,26 +124,26 @@ O formato 4+1 dá +15% e funciona quando um herói de outra facção traz mais q
 
 **Warriors 4 + Cynthia:** Arthur, Daskal, Harper, Marlena, Cynthia. Um dos times mais confiáveis. Se sua Cynthia está mais desenvolvida que Zoya, perder 5% de bônus compensa.
 
-**Warriors 4 + Red Lady:** Arthur, Daskal, Harper, Marlena, Red Lady. Para pressão de PvP em alvos de ATK alto. Contra: Red Lady não recebe buffs de Warrior, então precisa estar bem desenvolvida.
+**Warriors 4 + Dama Vermelha:** Arthur, Daskal, Harper, Marlena, Dama Vermelha. Para pressão de PvP em alvos de ATK alto. Contra: Dama Vermelha não recebe buffs de Warrior, então precisa estar bem desenvolvida.
 
 ### Híbrido 3+2 — o formato mais prático
 
 +10% de HP/ATK/DEF, mas permite híbridos fortes.
 
-**Time agressivo de energia:** Arthur, Daskal, Marlena + Cynthia, Red Lady (3 Warriors + 2 Rangers). Dois tanques na frente, três heróis de dano de energia; sem suporte clássico, mas burst pesado. Bom em PvP e lutas rápidas; mais fraco em lutas longas se a frente cair.
+**Time agressivo de energia:** Arthur, Daskal, Marlena + Cynthia, Dama Vermelha (3 Warriors + 2 Rangers). Dois tanques na frente, três heróis de dano de energia; sem suporte clássico, mas burst pesado. Bom em PvP e lutas rápidas; mais fraco em lutas longas se a frente cair.
 
-**Time de controle PvP:** Arthur, Daskal, Marlena + Shadow, Cynthia (3 Warriors + 2 Rangers). Shadow adiciona redução de defesa e anti-energia; Marlena e Cynthia aproveitam a janela. Bom contra times resistentes que sobrevivem ao primeiro burst; menos pressão focada que a versão com Red Lady.
+**Time de controle PvP:** Arthur, Daskal, Marlena + Shadow, Cynthia (3 Warriors + 2 Rangers). Shadow adiciona redução de defesa e anti-energia; Marlena e Cynthia aproveitam a janela. Bom contra times resistentes que sobrevivem ao primeiro burst; menos pressão focada que a versão com Dama Vermelha.
 
 **Time Warlock de transição:** Ulfrid, Nicole, Annie + Arthur, Marlena (3 Warlocks + 2 Warriors). Ulfrid na frente, Nicole cura, Annie via Burning, Arthur segunda frente, Marlena dano universal. Bom se você já começou os Warlocks mas o 5/5 ainda está longe.
 
 ### Híbrido livre de execução
 
-**Arthur + Louis + Marlena + Jester + Red Lady.** Arthur e Louis seguram a frente, Marlena causa o dano principal, Red Lady pressiona os carries inimigos, Jester executa alvos com HP baixo. Funciona se cada herói estiver bem desenvolvido, mas é um mau caminho base para F2P: bônus sistêmicos piores, forte dependência de investimento individual. Regra: híbrido é bom quando resolve uma tarefa concreta; "coloquei todos os meus UR favoritos" não é estratégia.
+**Arthur + Louis + Marlena + Jester + Dama Vermelha.** Arthur e Louis seguram a frente, Marlena causa o dano principal, Dama Vermelha pressiona os carries inimigos, Jester executa alvos com HP baixo. Funciona se cada herói estiver bem desenvolvido, mas é um mau caminho base para F2P: bônus sistêmicos piores, forte dependência de investimento individual. Regra: híbrido é bom quando resolve uma tarefa concreta; "coloquei todos os meus UR favoritos" não é estratégia.
 
 ### Escolhendo uma direção: resumo
 
 - **Caminho mais seguro:** Warriors 5/5 — Arthur + Daskal + Harper + Marlena + Zoya. Dois tanques, um suporte, dois damagers, bônus completo +20%. Nada chamativo, mas muito estável.
-- **PvP agressivo:** 3+2 energia — Arthur + Daskal + Marlena + Cynthia + Red Lady.
+- **PvP agressivo:** 3+2 energia — Arthur + Daskal + Marlena + Cynthia + Dama Vermelha.
 - **PvP de controle:** Arthur + Daskal + Marlena + Shadow + Cynthia.
 - **Objetivo tardio:** Warlocks 5/5 — Ulfrid + Billy + Nicole + Annie + Jester.
 

@@ -28,7 +28,7 @@ Utilisez l'outil interactif du Monument ci-dessous pour **saisir le jour de votr
 
 - **Chapitre 1 (Jours 1–14)** : Fondation du Sanctuaire, tank UR gratuit de base [Arthur](/fr/codex/arthur/), déblocage de la fonction [Alliance](/fr/alliance/), première roulette de Ranger UR [Cynthia](/fr/codex/cynthia/) (Jour 8), et premier [Siège des Morts-vivants](/fr/events/undead/) (Siège des morts-vivants) de 20 vagues (Jour 14).
 - **Chapitre 2 (Jours 15–28)** : Première qualification pour le [Duel d'Alliance](/fr/events/alliance-duel/) (Top 32 alliances, Jour 15), [Caravane d'Alliance](/fr/events/wagon/) quotidienne (Jour 21), et champs de bataille en équipe dans le [Conflit du Canyon](/fr/events/canyon/) (Canyon Clash).
-- **Chapitre 3 (Jours 29–65)** : Les frontières du serveur éclatent ! La [Guerre des Royaumes (KvK)](/fr/events/kvk/) inter-serveurs commence, le pool de héros s'élargit ([Shadow](/fr/codex/shadow/), Joker, Bella), et [Mêlée d'Élixir](/fr/events/elixir/) (Elixir Scramble) hebdomadaire de 30 minutes.
+- **Chapitre 3 (Jours 29–65)** : Les frontières du serveur éclatent ! La [Guerre des Royaumes (KvK)](/fr/events/kvk/) inter-serveurs commence, le pool de héros s'élargit ([Shadow](/fr/codex/shadow/), Joker, Bella), et [Mêlée d'Élixir](/fr/events/elixir/) (Ruée à l'élixir) hebdomadaire de 30 minutes.
 - **Chapitre 4 (Jours 66–119)** : L'Âge d'Or ! Arrivée gratuite à la Taverne du carry F2P ultime [Marlena](/fr/codex/marlena/) (pour ceux qui n'ont pas acheté son pack à 1 $ au Jour 1), prime océanique quotidienne de 300 poissons dans le [Trésor Mythique](/fr/events/mythic/) (Mythic Treasure), reliques de la Salle des Curiosités (Salle de curiosités), et stockage strict d'Antitoxine.
 - **Chapitre 5 (Jour 120+)** : Lancement de l'épique **« Ère du Renouveau »** (Era of Revival - Ligue des Expéditions) de 55 jours, comprenant l'immunité aux infections virales, les Statues de Lord, les arbres de talents de spécialisation et Zoya.
 
@@ -40,7 +40,7 @@ Utilisez l'outil interactif du Monument ci-dessous pour **saisir le jour de votr
 - 🏆 **Bataille du Château Royal (Royal Castle Scramble)** — Hebdomadaire. Même jour/heure chaque semaine ; bataille de château de 4 heures, une seule marche, renforts ≤ 30.
 - 🎖️ **Missions de Bataille de Survie (Combat de survie)** — Hebdomadaires. Jusqu'à 60 000 insignes de compétence/semaine ; la liste des missions varie selon le serveur.
 - 👑 **Guerre des Royaumes (Guerre du royaume)** — Toutes les deux semaines. Préparation/score tout au long de la semaine, bataille principale le samedi — fenêtre de 4 heures.
-- 🧪 **Mêlée d'Élixir (Elixir Scramble)** — Hebdomadaire. Bataille de points AvA de 30 min — retirez vos escouades du mur avant qu'elle ne commence !
+- 🧪 **Mêlée d'Élixir (Ruée à l'élixir)** — Hebdomadaire. Bataille de points AvA de 30 min — retirez vos escouades du mur avant qu'elle ne commence !
 - ⚒️ **Amélioration d'équipement** — Chaque **samedi et dimanche** (mise à jour du 9 septembre 2026).
 - 🧟 **Siège des Morts-vivants (Siège des morts-vivants)** — Disponible 2 semaines après le lancement du serveur ; se déclenche après 300 000 points d'indices — 20 vagues en solo ; mécanique cachée : 2–3 escouades par vague, les PV persistent.
 - ☣️ **Saison de l'Ère du Renouveau** — 55 jours (Ligue d'Expédition) : Résistance quotidienne, Statues de Lord, arbres de spécialité.

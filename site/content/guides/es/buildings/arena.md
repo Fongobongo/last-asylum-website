@@ -40,7 +40,7 @@ This building gives no stat bonus: it unlocks an option rather than percentages.
 
 ## How to use it
 
-The Arena costs 480 Grain and 360 Timber and goes up in under a minute. The Raven Nest, the Curio Hall, Black Ops and the Nomad Trader carry exactly the same price, so 840 resources change nothing at Sanctuary level 7.
+The Arena costs 480 Grain and 360 Timber and goes up in under a minute. The Nido del Cuervo, the Sala de curiosidades, Operación encubierta and the Comerciante nómada carry exactly the same price, so 840 resources change nothing at Sanctuary level 7.
 
 The Arena pays for itself faster than any other building in the city. A win at the lowest arena brings 50,000 Antitoxin and a loss 25,000, while five free fights come to 250,000 Antitoxin a day. That first day returns nearly three hundred times the resources it cost, and every day after pays the same.
 

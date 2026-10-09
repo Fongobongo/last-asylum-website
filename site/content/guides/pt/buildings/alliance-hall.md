@@ -1,6 +1,6 @@
 ---
-title: "Alliance Hall: levels, cost and upgrades"
-description: "Alliance Hall collects Alliance Help, where every ally who responds shaves a few seconds off a queue. The hall's level raises both the number of helps and the weight of e…"
+title: "Salão da Aliança: levels, cost and upgrades"
+description: "Salão da Aliança collects Alliance Help, where every ally who responds shaves a few seconds off a queue. The hall's level raises both the number of helps and the weight of e…"
 videoTopic: "buildings"
 lang: pt
 updated: "2026-09-19"
@@ -16,7 +16,7 @@ type: guide
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-alliance-hall)).
 
 
-Alliance Hall collects Alliance Help, where every ally who responds shaves a few seconds off a queue. The hall's level raises both the number of helps and the weight of each one. Help applies only to building, research and healing queues. The building unlocks after Sanctuary level 5 and goes up to level 30. Only one can be built. Levels raise: alliance Help Count, alliance Help Duration.
+Salão da Aliança collects Alliance Help, where every ally who responds shaves a few seconds off a queue. The hall's level raises both the number of helps and the weight of each one. Help applies only to building, research and healing queues. The building unlocks after Sanctuary level 5 and goes up to level 30. Only one can be built. Levels raise: alliance Help Count, alliance Help Duration.
 
 | Stat | Value |
 |---|---|
@@ -45,7 +45,7 @@ Taking the building from level 1 to 30 costs Grain 2,569,804,162, Timber 852,399
 
 ## How to use it
 
-The Alliance Hall asks for 199 days and 10 hours, a hundred days less than Squad 4 demands at the same Sanctuary level 5. Help grows through two figures at once: 4 helps of 30 seconds at level 1 come to 2 minutes off a queue, 20 helps of 59 seconds at level 30 to 19 minutes 40 seconds.
+The Salão da Aliança asks for 199 days and 10 hours, a hundred days less than Esquadrão 4 demands at the same Sanctuary level 5. Help grows through two figures at once: 4 helps of 30 seconds at level 1 come to 2 minutes off a queue, 20 helps of 59 seconds at level 30 to 19 minutes 40 seconds.
 
 Most of that gain comes cheaply. Level 20 is taken in 8 days and 20 hours and gives 15 helps of 49 seconds, 12 minutes 15 seconds off a queue, nearly two thirds of the full 19 minutes 40 seconds. The remaining 7 minutes 25 seconds cost 190 days 14 hours. Alliance research adds up to 300 seconds per help, and twenty of them then take nearly two hours off a queue.
 

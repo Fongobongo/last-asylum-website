@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-lucius)).
 
-Lucius is an SSR warrior who plays as tank. Fully upgraded, he reaches 778,239 Might, rank 7 of 11 among the game's tanks. Unlocking him takes 10 shards ( Lucius Shard), and the shards become available once the Warrior Statue reaches level 20.
+Lucius is an SSR warrior who plays as tank. Fully upgraded, he reaches 778,239 Might, rank 7 of 11 among the game's tanks. Unlocking him takes 10 shards ( Lucius Shard), and the shards become available once the Estátua do Guerreiro reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -26,7 +26,7 @@ Lucius is an SSR warrior who plays as tank. Fully upgraded, he reaches 778,239 M
 | Max stars | 50 |
 | Attack speed | one hit every 0.87 s |
 | Shards to unlock | Lucius Shard × 10 |
-| Faction building | Warrior Statue, level 20 |
+| Faction building | Estátua do Guerreiro, level 20 |
 | Skills | 5, full set |
 | Trait | Helpful |
 | Faction advantage | Warriors take 20% less damage from Warlocks |
@@ -295,7 +295,7 @@ Among the SSR tanks Lucius leads by maximum Might: 778,239 against 773,500 for B
 
 Nothing delays Lucius: he is in the hero list from day one, unlocks for 10 shards, and depends neither on a season day nor on server age. Shards arrive from recruiting, where a hero shard drops in roughly 26% of pulls. The limit of any investment is clear from the start, 50 stars and 40 skill levels, with nothing above them.
 
-Lucius has neither awakening nor an Exclusive Weapon, so levels and stars carry the whole limit: 2,012,674 HP, 8,625 ATK and 11,181 DEF. Skills weigh the most at 436,700 badges for one and 1,746,800 for all four, while 50 stars cost 975 shards.
+Lucius has neither awakening nor an Arma Exclusiva, so levels and stars carry the whole limit: 2,012,674 HP, 8,625 ATK and 11,181 DEF. Skills weigh the most at 436,700 badges for one and 1,746,800 for all four, while 50 stars cost 975 shards.
 
 The best line-up without a single UR hero is Celia, Lucius, Sivir, Bella and Hastar, worth 9.3M of survivability and +15% for four warriors. With Arthur and Marlena the squad turns pure warrior, the bonus grows to +20% and survivability to 38.8M, and once the UR tanks arrive Lucius pays +10% from the bench.
 

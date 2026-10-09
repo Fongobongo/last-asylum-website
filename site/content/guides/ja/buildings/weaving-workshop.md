@@ -1,6 +1,6 @@
 ---
-title: "Weaving Workshop: levels, cost and upgrades"
-description: "Weaving Workshop produces Cloth, the lowest of the five materials that go into crafting and upgrading hero gear. The steps convert four to one in both directions without …"
+title: "織物工房: levels, cost and upgrades"
+description: "織物工房 produces Cloth, the lowest of the five materials that go into crafting and upgrading hero gear. The steps convert four to one in both directions without …"
 videoTopic: "buildings"
 lang: ja
 updated: "2026-09-19"
@@ -16,7 +16,7 @@ type: guide
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-weaving-workshop)).
 
 
-Weaving Workshop produces Cloth, the lowest of the five materials that go into crafting and upgrading hero gear. The steps convert four to one in both directions without loss, so one Tempered Steel equals 256 Cloth and stockpiling the low steps costs nothing. The building unlocks after Sanctuary level 5 and goes up to level 30. Up to 5 can be built. Levels raise: cloth Output/Hour, max Production Time.
+織物工房 produces Cloth, the lowest of the five materials that go into crafting and upgrading hero gear. The steps convert four to one in both directions without loss, so one Tempered Steel equals 256 Cloth and stockpiling the low steps costs nothing. The building unlocks after Sanctuary level 5 and goes up to level 30. Up to 5 can be built. Levels raise: cloth Output/Hour, max Production Time.
 
 | Stat | Value |
 |---|---|
@@ -47,7 +47,7 @@ Taking the building from level 1 to 30 costs Grain 829,742,117, Timber 829,742,1
 
 Five Weaving Workshops at level 30 turn out 455 Cloth an hour, that is 10,920 a day. The materials convert four to one and one Tempered Steel equals 256 Cloth, so a day of output from all five comes to about forty-two Tempered Steel. Five workshops at level 20 give 315 an hour, two thirds of the top pace, and cost 22 days of pure build time against 498 days for the full upgrade.
 
-In resources the workshop is the cheapest of its neighbors: 2,065,382,114 against 2,109,698,264 for the Smelting Workshop and 2,101,870,680 for the Epigraph Workshop. The saving is small, but the output pace here is the highest of the level: 91 items an hour against 62 for the smelter.
+In resources the workshop is the cheapest of its neighbors: 2,065,382,114 against 2,109,698,264 for the 製錬工房 and 2,101,870,680 for the ルーン工房. The saving is small, but the output pace here is the highest of the level: 91 items an hour against 62 for the smelter.
 
 The workshop brings 31,800 Might at level 20 and 168,200 at level 30. Five at level 30 gather 841,000 Might, more than the Sanctuary carries with its 384,300, though they also ask for 498 days of building against the 398 of the Sanctuary.
 

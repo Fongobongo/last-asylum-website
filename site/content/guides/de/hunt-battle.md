@@ -1,6 +1,6 @@
 ---
-title: "Hunt Battle: Blight waves, difficulties and alliance rewards"
-description: "Hunt Battle pits an alliance against waves of Wandering Blight on its own territory. An R4 or R5 can start it when the alliance has more than 20 members, only once per ev…"
+title: "Jagd-Kampf: Blight waves, difficulties and alliance rewards"
+description: "Jagd-Kampf pits an alliance against waves of Wandernde Seuche on its own territory. An R4 or R5 can start it when the alliance has more than 20 members, only once per ev…"
 lang: de
 updated: "2026-09-19"
 type: guide
@@ -11,7 +11,7 @@ type: guide
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hunt-battle)).
 
 
-Hunt Battle pits an alliance against waves of Wandering Blight on its own territory. An R4 or R5 can start it when the alliance has more than 20 members, only once per event, and the difficulty is chosen for the whole battle at once. The reward depends on how many Blights the alliance manages to destroy within the time allowed after each wave appears. The facts come from the event rules and were checked against the game itself on 10 September 2026.
+Jagd-Kampf pits an alliance against waves of Wandernde Seuche on its own territory. An R4 or R5 can start it when the alliance has more than 20 members, only once per event, and the difficulty is chosen for the whole battle at once. The reward depends on how many Blights the alliance manages to destroy within the time allowed after each wave appears. The facts come from the event rules and were checked against the game itself on 10 September 2026.
 
 ## How the battle runs
 

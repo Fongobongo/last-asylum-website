@@ -57,21 +57,21 @@ videoTopic: tier_list
 
 PvPを決めるのは前衛、コントロール、バーストダメージ、そして危険なターゲットを無力化する力。一番「硬い」パーティが常に勝つわけではない。一発のスタン、防御デバフ、敵キャリーへの一撃が勝負を分けることもある。
 
-- **S (PvP):** Arthur、Daskal、Marlena、Red Lady、Cynthia、Shadow、Harper
-- **A+ (PvP):** Louis、Ulfrid、Bell、Nicole、Annie
-- **A (PvP):** Jester、Zoya、Billy
+- **S (PvP):** アーサー、ダスカール、マレーナ、レッドレディ、シンシア、影、ハーパー
+- **A+ (PvP):** ルイス、ウルフレッド、ベル、ニコル、アニー
+- **A (PvP):** Jester、ゾーヤ、ビリー
 
-理由: Red Ladyは攻撃力の高いターゲット——敵の主力アタッカー——を圧迫する。Shadowは防御を下げ、エナジーパーティを崩す。MarlenaとCynthiaは強力なエナジーバースト。Arthur + Daskalは最も信頼できる前衛: 自ら勝つのではなく、後衛に時間を稼ぐ。HarperはWarriorコア(Arthur + Daskal + Marlena)の一部として価値が高い。
+理由: Red Ladyは攻撃力の高いターゲット——敵の主力アタッカー——を圧迫する。Shadowは防御を下げ、エナジーパーティを崩す。MarlenaとCynthiaは強力なエナジーバースト。アーサー + Daskalは最も信頼できる前衛: 自ら勝つのではなく、後衛に時間を稼ぐ。HarperはWarriorコア(アーサー + ダスカール + マレーナ)の一部として価値が高い。
 
 ## 🗡️ PvE ティアリスト {#pve-tier}
 
 PvEは別の論理で動く: 長期戦、持続ダメージ、回復、生存力、イベントの弱点への適合。パワーが低いパーティでもボスに合えばダメージは上回る。
 
-- **S (PvE):** Arthur、Marlena、Daskal、Harper、Nicole
-- **A+ (PvE):** Cynthia、Zoya、Annie、Bell、Ulfrid、Louis
-- **A (PvE):** Red Lady、Shadow、Jester、Billy
+- **S (PvE):** アーサー、マレーナ、ダスカール、ハーパー、ニコル
+- **A+ (PvE):** シンシア、ゾーヤ、アニー、ベル、ウルフレッド、ルイス
+- **A (PvE):** レッドレディ、影、Jester、ビリー
 
-PvEでNicoleが上位: 長期戦では回復とサポートが決定的。Red LadyはPvPより低い: 高ATKターゲットへの圧力とスタンが強みだが、ボス戦では価値が下がる。Arthur、Daskal、Marlenaは両モードで上位: 前衛と安定ダメージはどこでも必要。
+PvEでNicoleが上位: 長期戦では回復とサポートが決定的。Red LadyはPvPより低い: 高ATKターゲットへの圧力とスタンが強みだが、ボス戦では価値が下がる。アーサー、ダスカール、Marlenaは両モードで上位: 前衛と安定ダメージはどこでも必要。
 
 **アドバイス:** PvPパーティを自動的にPvEへコピーしないこと。イベントが求めるものを確認: 特定のファクション、ダメージタイプ、バーストより生存力。
 
@@ -79,13 +79,13 @@ PvEでNicoleが上位: 長期戦では回復とサポートが決定的。Red La
 
 重要なのは「総合最強は誰か」ではなく「現実的に誰を育てられるか」。欠片と星がなければUR英雄はすぐ頭打ちになる。
 
-- **最優先:** Arthur、Marlena、Daskal、Harper、Cynthia
-- **高優先:** Red Lady、Shadow、Ulfrid、Annie
-- **中/後半優先:** Bell、Louis、Nicole、Zoya、Jester、Billy
+- **最優先:** アーサー、マレーナ、ダスカール、ハーパー、シンシア
+- **高優先:** レッドレディ、影、ウルフレッド、アニー
+- **中/後半優先:** ベル、ルイス、ニコル、ゾーヤ、Jester、ビリー
 
 Arthurはほぼ常に優秀な初期タンク。Marlenaは微課金最強のダメージブースト($1課金)。Daskalは強力な二枚目の前衛。HarperはWarriorパーティを完成させる。Cynthiaはエナジーハイブリッドへの一歩。Nicoleは非常に強いが後半型——開始ルートの軸にしないこと。
 
-下位レアの英雄は一時的な役割を埋める: **Bella** —二枚目の前衛、**Celia** —PvEとファーム、**Claire** —つなぎのダメージ/サポート。彼らは橋渡しであり最終目標ではない: メインパーティに永久に残る前提でレア資源を注がないこと。
+下位レアの英雄は一時的な役割を埋める: **ベラ** —二枚目の前衛、**シリア** —PvEとファーム、**クレア** —つなぎのダメージ/サポート。彼らは橋渡しであり最終目標ではない: メインパーティに永久に残る前提でレア資源を注がないこと。
 
 **F2P最大の失敗**は全員を均等に育てること。機能する5人パーティを1つ作り、徐々に強化しよう: 今日Warrior、明日Ranger、明後日Warlock = 強いチームが一つもない。1スロットずつ入れ替えてパーティが強くなったか確認する。
 
@@ -108,13 +108,13 @@ Arthurはほぼ常に優秀な初期タンク。Marlenaは微課金最強のダ�
 
 ### Ranger 5/5 — 強力なPvPファクション
 
-**編成:** Shadow、Louis(前衛) + Red Lady、Bell、Cynthia(後衛)。ボーナス+20%。
+**編成:** 影、ルイス(前衛) + レッドレディ、ベル、シンシア(後衛)。ボーナス+20%。
 
 Red Ladyが危険なターゲットを圧迫、Cynthiaがダメージ追加、Bellが支援、ShadowとLouisが前衛を守りエナジー脅威に対抗。長所: 強いPvP圧力、テンポ支配、フルボーナス。短所: 高コストで開花が遅い——初心者には楽な道ではない。
 
 ### Warlock 5/5 — 終盤システム
 
-**編成:** Ulfrid、Billy(前衛) + Annie、Nicole、Jester(後衛)。ボーナス+20%。
+**編成:** ウルフレッド、ビリー(前衛) + アニー、ニコル、Jester(後衛)。ボーナス+20%。
 
 UlfridとBillyが前衛、Nicoleが回復とWarlockバフ、AnnieがBurningとエナジーダメージ、Jesterが弱った敵を仕留める。長所: 内部シナジー良好。短所: Nicoleが後半、Billyも序盤型ではない——Nicoleなしでは意味が半減。初心者の最初の目標には非推奨。
 
@@ -122,29 +122,29 @@ UlfridとBillyが前衛、Nicoleが回復とWarlockバフ、AnnieがBurningと�
 
 4+1は+15%。同ファクションの弱い5人目より、他ファクションの1人が有益な場合に有効。
 
-**Warrior 4 + Cynthia:** Arthur、Daskal、Harper、Marlena、Cynthia。最も信頼できるパーティの一つ。CynthiaがZoyaより育っているなら5%ボーナス喪失はペイする。
+**Warrior 4 + シンシア:** アーサー、ダスカール、ハーパー、マレーナ、シンシア。最も信頼できるパーティの一つ。CynthiaがZoyaより育っているなら5%ボーナス喪失はペイする。
 
-**Warrior 4 + Red Lady:** Arthur、Daskal、Harper、Marlena、Red Lady。高ATKターゲットへのPvP圧力向け。短所: Red LadyはWarriorバフを受けないため、十分な育成が前提。
+**Warrior 4 + レッドレディ:** アーサー、ダスカール、ハーパー、マレーナ、レッドレディ。高ATKターゲットへのPvP圧力向け。短所: Red LadyはWarriorバフを受けないため、十分な育成が前提。
 
 ### ハイブリッド3+2 — 最も実用的なフォーマット
 
 HP/ATK/DEF +10%だが、強力なハイブリッドが可能。
 
-**攻撃的エナジーパーティ:** Arthur、Daskal、Marlena + Cynthia、Red Lady(Warrior 3 + Ranger 2)。タンク2が前衛、3人がエナジーダメージ。古典的サポートなし、バースト重視。PvPや短期決戦に強く、前衛が崩れる長期戦では弱め。
+**攻撃的エナジーパーティ:** アーサー、ダスカール、マレーナ + シンシア、レッドレディ(Warrior 3 + Ranger 2)。タンク2が前衛、3人がエナジーダメージ。古典的サポートなし、バースト重視。PvPや短期決戦に強く、前衛が崩れる長期戦では弱め。
 
-**コントロールPvPパーティ:** Arthur、Daskal、Marlena + Shadow、Cynthia(Warrior 3 + Ranger 2)。Shadowが防御デバフと対エナジーを追加、MarlenaとCynthiaがその隙に畳みかける。初動バーストを耐える堅い相手に有効。Red Lady版より一点圧力は低い。
+**コントロールPvPパーティ:** アーサー、ダスカール、マレーナ + 影、シンシア(Warrior 3 + Ranger 2)。Shadowが防御デバフと対エナジーを追加、MarlenaとCynthiaがその隙に畳みかける。初動バーストを耐える堅い相手に有効。Red Lady版より一点圧力は低い。
 
-**過渡期Warlockパーティ:** Ulfrid、Nicole、Annie + Arthur、Marlena(Warlock 3 + Warrior 2)。Ulfridが前衛、Nicoleが回復、AnnieがBurning、Arthurが二枚目前衛、Marlenaが汎用ダメージ。Warlockを始めたが5/5が遠い場合に。NicoleはWarlockが多いほど輝く。
+**過渡期Warlockパーティ:** ウルフレッド、ニコル、アニー + アーサー、マレーナ(Warlock 3 + Warrior 2)。Ulfridが前衛、Nicoleが回復、AnnieがBurning、Arthurが二枚目前衛、Marlenaが汎用ダメージ。Warlockを始めたが5/5が遠い場合に。NicoleはWarlockが多いほど輝く。
 
 ### 自由型エグゼキュートハイブリッド
 
-**Arthur + Louis + Marlena + Jester + Red Lady。** ArthurとLouisが前衛、Marlenaがメインダメージ、Red Ladyが敵キャリーを圧迫、Jesterが低HPを処刑。各英雄が育てば機能するが、F2Pの基本ルートとしては不向き: システムボーナスが弱く個別投資への依存が高い。原則: 明確な課題を解決するハイブリッドは良い。「好きなURを並べただけ」は戦略ではない。
+**アーサー + ルイス + マレーナ + Jester + レッドレディ。** ArthurとLouisが前衛、Marlenaがメインダメージ、Red Ladyが敵キャリーを圧迫、Jesterが低HPを処刑。各英雄が育てば機能するが、F2Pの基本ルートとしては不向き: システムボーナスが弱く個別投資への依存が高い。原則: 明確な課題を解決するハイブリッドは良い。「好きなURを並べただけ」は戦略ではない。
 
 ### 方向選択: 要約
 
-- **最も安全な道:** Warrior 5/5 — Arthur + Daskal + Harper + Marlena + Zoya。タンク2、サポート1、ダメージ2、フルボーナス+20%。地味だが非常に安定。
-- **攻撃的PvP:** 3+2エナジー — Arthur + Daskal + Marlena + Cynthia + Red Lady。
-- **コントロールPvP:** Arthur + Daskal + Marlena + Shadow + Cynthia。
-- **終盤の目標:** Warlock 5/5 — Ulfrid + Billy + Nicole + Annie + Jester。
+- **最も安全な道:** Warrior 5/5 — アーサー + ダスカール + ハーパー + マレーナ + ゾーヤ。タンク2、サポート1、ダメージ2、フルボーナス+20%。地味だが非常に安定。
+- **攻撃的PvP:** 3+2エナジー — アーサー + ダスカール + マレーナ + シンシア + レッドレディ。
+- **コントロールPvP:** アーサー + ダスカール + マレーナ + 影 + シンシア。
+- **終盤の目標:** Warlock 5/5 — ウルフレッド + ビリー + ニコル + アニー + Jester。
 
 5/5フルボーナスは、弱い・不適切な英雄を置くためなら4+1や3+2より強いとは限らない。

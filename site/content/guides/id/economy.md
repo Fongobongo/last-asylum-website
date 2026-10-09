@@ -134,7 +134,7 @@ Polanya: +1M per kenaikan level Kuil hingga level 20, lalu +2M per level hingga 
 
 Jangan pernah menyerang farm yang sama lebih dari sembilan kali berturut-turut. Serangan kesepuluh akan menghancurkan kota sepenuhnya dan menteleportasi pemiliknya menjauh — Anda kehilangan farm tersebut, dan pemain tersebut kehilangan kota mereka. Sembilan serangan adalah batas maksimal; komunitas menganggapnya sebagai kewajiban, bukan sekadar saran.
 
-### Teknik Lapangan: Mendapatkan Sesi Farm Penuh {#field-technique}
+### Teknik Lapangan: Mendapatkan Sesi Peternakan Penuh {#field-technique}
 
 Prosedur yang telah diuji komunitas untuk sesi penjarahan harian penuh:
 

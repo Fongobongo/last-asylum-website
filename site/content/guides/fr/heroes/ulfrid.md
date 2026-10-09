@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-ulfrid)).
 
-Ulfrid is a UR warlock who plays as tank. Fully upgraded, he reaches 1,033,739 Might, rank 5 of 11 among the game's tanks. Unlocking him takes 10 shards ( Ulfrid Shard), and the shards become available once the Warlock Statue reaches level 20. Ulfrid does not appear in the hero list until server day 42.
+Ulfrid is a UR warlock who plays as tank. Fully upgraded, he reaches 1,033,739 Might, rank 5 of 11 among the game's tanks. Unlocking him takes 10 shards ( Ulfrid Shard), and the shards become available once the Statue de démoniste reaches level 20. Ulfrid does not appear in the hero list until server day 42.
 
 | Stat | Value |
 |---|---|
@@ -26,7 +26,7 @@ Ulfrid is a UR warlock who plays as tank. Fully upgraded, he reaches 1,033,739 M
 | Max stars | 50 |
 | Attack speed | one hit every 0.83 s |
 | Shards to unlock | Ulfrid Shard × 10 |
-| Faction building | Warlock Statue, level 20 |
+| Faction building | Statue de démoniste, level 20 |
 | Skills | 5, full set |
 | Trait | Diligent |
 | Faction advantage | Warlocks take 20% less damage from Rangers |
@@ -34,11 +34,11 @@ Ulfrid is a UR warlock who plays as tank. Fully upgraded, he reaches 1,033,739 M
 | Awakening opens | on day 113 of the season |
 | Exclusive weapon | on day 36 of the season |
 
-Awakening and the Exclusive Weapon follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 113 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Exclusive Weapon becomes available on day 36 of the season.
+Awakening and the Arme exclusive follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 113 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Arme exclusive becomes available on day 36 of the season.
 
 ## Why he matters
 
-Role: A warlock tank who answers blow for blow, as Lunar Howl returns 162% of incoming damage for four seconds. No other hero has anything like it. His ultimate Throat Bite lands 1,806% and lowers damage for every allied hero, while the passive Wolf Bloodline holds another 24% reduction permanently, or 29% with the Exclusive Weapon.
+Role: A warlock tank who answers blow for blow, as Lunar Howl returns 162% of incoming damage for four seconds. No other hero has anything like it. His ultimate Throat Bite lands 1,806% and lowers damage for every allied hero, while the passive Wolf Bloodline holds another 24% reduction permanently, or 29% with the Arme exclusive.
 
 Worth investing: Ulfrid ranks fifth of eleven tanks by maximum Might (1,033,739) and sits in tier S, standing in the best squad of the game alongside Arthur, Billy, Annie and Joker. He follows Arthur and Billy in the investment queue, and he appears in the hero list from server day 42.
 
@@ -230,7 +230,7 @@ Stronger: Bella, Crimson Prayer cuts damage by 45% for the caster, monsters only
 
 ## Upgrade order
 
-Skill priority: Throat Bite comes first, as it both hits hardest and lowers damage for the whole squad. Wolf Bloodline is next for its permanent 24% reduction, 29% with the Exclusive Weapon. Lunar Howl follows, and the auto attack Sharp Claw comes last with the support skill: 50 stars give 747%, and the Exclusive Weapon opens 996%.
+Skill priority: Throat Bite comes first, as it both hits hardest and lowers damage for the whole squad. Wolf Bloodline is next for its permanent 24% reduction, 29% with the Arme exclusive. Lunar Howl follows, and the auto attack Sharp Claw comes last with the support skill: 50 stars give 747%, and the Arme exclusive opens 996%.
 
 ### What stars and levels unlock
 
@@ -302,9 +302,9 @@ Every skill goes up to level 40 with Skill Badge: one skill costs 436,700 of the
 - HP +425,119, ATK +12,119, DEF +3,812
 - DMG RES +5%
 
-### Exclusive Weapon
+### Arme exclusive
 
-“Wolven Claw”, upgraded to 50 stars. At max it adds:
+“Griffe de loup”, upgraded to 50 stars. At max it adds:
 - HP +1,251,000, ATK +8,750, DEF +8,750
 - Hero DEF +10%
 - Hero HP +10%
@@ -322,14 +322,14 @@ Gains from each progression system on its own. They show where to invest first:
 | Hero levels | 2,209,052 | 10,560 | 12,920 |
 | Stars | 631,052 | 3,015 | 3,690 |
 | Awakening | 425,119 | 12,119 | 3,812 |
-| Exclusive Weapon | 1,251,000 | 8,750 | 8,750 |
+| Arme exclusive | 1,251,000 | 8,750 | 8,750 |
 | Total | 4,516,222 | 34,444 | 29,172 |
 
 ## How to play
 
-Ulfrid carries 1,033,739 Might, 53,493 more than Billy and 18,714 less than Arthur. Their damage reduction skills tell them apart: Throat Bite removes 20% from every allied hero for four seconds on a 7 second cooldown, and 27% with the Exclusive Weapon at ★50. Billy's Fate's Thread removes 36% of energy damage from the three highest-attack allies, and Arthur's Earthshattering 35% of physical damage from the allies in range. In exchange, Wolf Bloodline keeps another 24% on Ulfrid himself, and the full 29% with the Exclusive Weapon at ★30.
+Ulfrid carries 1,033,739 Might, 53,493 more than Billy and 18,714 less than Arthur. Their damage reduction skills tell them apart: Throat Bite removes 20% from every allied hero for four seconds on a 7 second cooldown, and 27% with the Arme exclusive at ★50. Billy's Fate's Thread removes 36% of energy damage from the three highest-attack allies, and Arthur's Earthshattering 35% of physical damage from the allies in range. In exchange, Wolf Bloodline keeps another 24% on Ulfrid himself, and the full 29% with the Arme exclusive at ★30.
 
-Ulfrid enters the hero list on server day 42, between Daskal on day 28 and Louis on day 63. The recruit guarantee never hands out his shards, but his Exclusive Weapon opens on season day 36, earlier than it does for most UR heroes.
+Ulfrid enters the hero list on server day 42, between Daskal on day 28 and Louis on day 63. The recruit guarantee never hands out his shards, but his Arme exclusive opens on season day 36, earlier than it does for most UR heroes.
 
 Stars are the bottleneck for him. Lunar Howl reflects the full 162% only past the forty-fifth of them, the reduction on Throat Bite reaches 20% at the fiftieth, and the whole scale costs 975 shards. Stars also give him less than any other tier S tank: 631,052 HP against 710,554 for Shadow.
 

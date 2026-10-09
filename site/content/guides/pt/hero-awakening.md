@@ -42,7 +42,7 @@ The third column carries the key point: half of the gain goes to every hero, not
 ## What links here
 
 Pages that mention this one. The list is built from the markup, not filled by hand.
-- Thief Hunt: Gold Thieves, the Thief Leader and the Lion Coin shop
+- Caça ao Ladrão: Gold Thieves, the Thief Leader and the Lion Coin shop
 - Contents: heroes, army, events and spending
 - Awakening shards: where they come from
 - Claire (Advanced): skills, upgrades and Might
@@ -52,7 +52,7 @@ Pages that mention this one. The list is built from the markup, not filled by ha
 - Ulfrid: skills, upgrades and Might
 - Billy: skills, upgrades and Might
 - Bell: skills, upgrades and Might
-- Red Lady: skills, upgrades and Might
+- Dama Vermelha: skills, upgrades and Might
 - Cynthia: skills, upgrades and Might
 - Louis: skills, upgrades and Might
 - Shadow: skills, upgrades and Might

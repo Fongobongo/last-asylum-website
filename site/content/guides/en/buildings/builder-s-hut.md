@@ -6,7 +6,7 @@ lang: en
 updated: "2026-09-19"
 type: guide
 ---
-![Builder\'s Hut](/building-icons/5031.png)
+![Builder's Hut](/building-icons/5031.png)
 
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-builder-s-hut)).

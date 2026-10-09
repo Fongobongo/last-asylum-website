@@ -20,7 +20,7 @@ It is easy to be off by a whole row here, because the star table holds an unused
 
 ## Crafting
 
-A top-rank epigraph costs 800 UR fragments and needs the Epigraph Workshop at level 20; there are twelve of those. The rank below is built from SSR fragments: nine cost 400 each and three cost 800. Fragments do not carry between ranks, so the right rank has to be saved from the start.
+A top-rank epigraph costs 800 UR fragments and needs the Epigraph-Werkstatt at level 20; there are twelve of those. The rank below is built from SSR fragments: nine cost 400 each and three cost 800. Fragments do not carry between ranks, so the right rank has to be saved from the start.
 
 The seven-day epigraph event shows the scale: it hands out 870 SSR fragments over a week of logins, enough for two cheap epigraphs or one expensive one. It gives no UR fragments at all.
 

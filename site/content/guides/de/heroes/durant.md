@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-durant)).
 
-Durant is an SR warrior who plays as tank. Fully upgraded, he reaches 596,226 Might, rank 11 of 11 among the game's tanks. Unlocking him takes 10 shards ( Durant Shard), and the shards become available once the Warrior Statue reaches level 20.
+Durant is an SR warrior who plays as tank. Fully upgraded, he reaches 596,226 Might, rank 11 of 11 among the game's tanks. Unlocking him takes 10 shards ( Durant Shard), and the shards become available once the Krieger-Statue reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -26,7 +26,7 @@ Durant is an SR warrior who plays as tank. Fully upgraded, he reaches 596,226 Mi
 | Max stars | 50 |
 | Attack speed | one hit every 0.87 s |
 | Shards to unlock | Durant Shard × 10 |
-| Faction building | Warrior Statue, level 20 |
+| Faction building | Krieger-Statue, level 20 |
 | Skills | 4 instead of five: no passive skill |
 | Trait | Steady |
 | Faction advantage | Warriors take 20% less damage from Warlocks |

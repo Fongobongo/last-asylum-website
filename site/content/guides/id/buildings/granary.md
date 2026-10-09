@@ -1,6 +1,6 @@
 ---
-title: "Granary: levels, cost and upgrades"
-description: "Granary shields part of the Grain stock from plunder, keeping 225 million of it safe at level 30. Anything above that line an attacker carries off, so spending the surplu…"
+title: "Gudang Makanan: levels, cost and upgrades"
+description: "Gudang Makanan shields part of the Grain stock from plunder, keeping 225 million of it safe at level 30. Anything above that line an attacker carries off, so spending the surplu…"
 videoTopic: "buildings"
 lang: id
 updated: "2026-09-19"
@@ -16,7 +16,7 @@ type: guide
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-granary)).
 
 
-Granary shields part of the Grain stock from plunder, keeping 225 million of it safe at level 30. Anything above that line an attacker carries off, so spending the surplus before taking risks costs nothing. The building unlocks after Sanctuary level 3 and goes up to level 30. Only one can be built. Levels raise: protected Resource.
+Gudang Makanan shields part of the Grain stock from plunder, keeping 225 million of it safe at level 30. Anything above that line an attacker carries off, so spending the surplus before taking risks costs nothing. The building unlocks after Sanctuary level 3 and goes up to level 30. Only one can be built. Levels raise: protected Resource.
 
 | Stat | Value |
 |---|---|
@@ -47,9 +47,9 @@ Taking the building from level 1 to 30 costs Grain 1,231,666,821, Timber 3,718,6
 
 The protected stock grows unevenly: 1,087 at the first level, 180,176 at the tenth, 9,900,166 at the twentieth and 225,000,183 at the thirtieth. Most of the increase falls on the last five levels, and those same levels take 237 days out of the 299 days 4 hours of full construction.
 
-The Granary is paid for in the resource it does not shield: 3,718,612,170 Timber against 1,231,666,821 Grain across all thirty levels. Its own levels consume three times less Grain, yet its queue competes for Timber with construction across the whole city. Level 30 alone asks 1,053,000,000 Timber and 77 days.
+The Gudang Makanan is paid for in the resource it does not shield: 3,718,612,170 Timber against 1,231,666,821 Grain across all thirty levels. Its own levels consume three times less Grain, yet its queue competes for Timber with construction across the whole city. Level 30 alone asks 1,053,000,000 Timber and 77 days.
 
 Whether the protection matters depends on how fast the stock builds up. Four level 30 Farms give 3,279,168 Grain a day, so 225,000,183 gathers in 69 days of an untouched stock. In practice Grain leaves for construction sooner, and the line is crossed mainly before a large purchase such as level 30 of the Sanctuary with its 1,356,000,000 Grain.
 
-Sanctuary level 3 unlocks four buildings at once. The Lumber Depot and the Herb Storage ask the same 299 days 4 hours and carry comparable Might, 287,300 and 287,000 against the 287,500 of the Granary, while the Builder's Hut takes 199 days 10 hours and finishes upgrades shorter than half an hour for free.
+Sanctuary level 3 unlocks four buildings at once. The Gudang Kayu and the Gudang Obat ask the same 299 days 4 hours and carry comparable Might, 287,300 and 287,000 against the 287,500 of the Gudang Makanan, while the Builder's Hut takes 199 days 10 hours and finishes upgrades shorter than half an hour for free.
 

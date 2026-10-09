@@ -17,7 +17,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-louis)).
 
-Louis is a UR ranger who plays as tank. Fully upgraded, he reaches 1,044,341 Might, rank 4 of 11 among the game's tanks. Unlocking him takes 10 shards ( Louis Shard), and the shards become available once the Ranger Statue reaches level 20. Louis does not appear in the hero list until server day 63.
+Louis is a UR ranger who plays as tank. Fully upgraded, he reaches 1,044,341 Might, rank 4 of 11 among the game's tanks. Unlocking him takes 10 shards ( Louis Shard), and the shards become available once the Ranger-Statue reaches level 20. Louis does not appear in the hero list until server day 63.
 
 | Stat | Value |
 |---|---|
@@ -28,7 +28,7 @@ Louis is a UR ranger who plays as tank. Fully upgraded, he reaches 1,044,341 Mig
 | Max stars | 50 |
 | Attack speed | one hit every 0.83 s |
 | Shards to unlock | Louis Shard × 10 |
-| Faction building | Ranger Statue, level 20 |
+| Faction building | Ranger-Statue, level 20 |
 | Skills | 5, full set |
 | Trait | Steady |
 | Faction advantage | Rangers take 20% less damage from Warriors |
@@ -36,7 +36,7 @@ Louis is a UR ranger who plays as tank. Fully upgraded, he reaches 1,044,341 Mig
 | Awakening opens | on day 127 of the season |
 | Exclusive weapon | on day 22 of the season |
 
-Awakening and the Exclusive Weapon follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 127 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Exclusive Weapon becomes available on day 22 of the season.
+Awakening and the Exklusive Waffe follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 127 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Exklusive Waffe becomes available on day 22 of the season.
 
 ## Why he matters
 
@@ -244,7 +244,7 @@ Stronger: Bella, Crimson Prayer cuts damage by 45% for the caster, monsters only
 
 ## Upgrade order
 
-Skill priority: Cross Whip comes first, since it alone brings damage, healing and a damage cut. Indomitable Spirit is next for its permanent 30% reduction and the save from a lethal hit. Force Link follows, and the auto attack Shackles comes last with the support skill: 50 stars give it 747%, while 996% arrives with the Exclusive Weapon.
+Skill priority: Cross Whip comes first, since it alone brings damage, healing and a damage cut. Indomitable Spirit is next for its permanent 30% reduction and the save from a lethal hit. Force Link follows, and the auto attack Shackles comes last with the support skill: 50 stars give it 747%, while 996% arrives with the Exklusive Waffe.
 
 ### What stars and levels unlock
 
@@ -316,9 +316,9 @@ Every skill goes up to level 40 with Skill Badge: one skill costs 436,700 of the
 - HP +425,119, ATK +12,119, DEF +3,812
 - DMG RES +5%
 
-### Exclusive Weapon
+### Exklusive Waffe
 
-“Thorn Shackles”, upgraded to 50 stars. At max it adds:
+“Dornenfesseln”, upgraded to 50 stars. At max it adds:
 - HP +1,251,000, ATK +8,750, DEF +8,750
 - Hero DEF +10%
 - Hero HP +10%
@@ -336,7 +336,7 @@ Gains from each progression system on its own. They show where to invest first:
 | Hero levels | 2,278,628 | 10,311 | 13,045 |
 | Stars | 650,927 | 2,945 | 3,725 |
 | Awakening | 425,119 | 12,119 | 3,812 |
-| Exclusive Weapon | 1,251,000 | 8,750 | 8,750 |
+| Exklusive Waffe | 1,251,000 | 8,750 | 8,750 |
 | Total | 4,605,674 | 34,125 | 29,332 |
 
 ## How to play
@@ -345,7 +345,7 @@ By maximum Might Louis reaches 1,044,341, which is 31,565 below Shadow and 10,60
 
 Louis enters the hero list on server day 63, later than Shadow, Daskal and Ulfrid, who arrive on days 7, 28 and 42. Unlocking him costs 10 shards, and the recruit guarantee does not hand them over: in the fourth set it is tied to nine heroes, and Louis is not one of them. His shards come in scattered, so saving for him ahead of his day brings little.
 
-Awakening is the most expensive part of his build: 2,870 shards against the 975 that cover all fifty stars, and its tab opens only on season day 127. The Exclusive Weapon, Thorn Shackles, arrives on season day 22 and adds 1,251,000 HP against the 425,119 that awakening brings.
+Awakening is the most expensive part of his build: 2,870 shards against the 975 that cover all fifty stars, and its tab opens only on season day 127. The Exklusive Waffe, Dornenfesseln, arrives on season day 22 and adds 1,251,000 HP against the 425,119 that awakening brings.
 
 In the squad ranking Louis holds seven line-ups out of twelve. The best of them, a tier S one with Arthur, Marlena, Daskal and Harper, scores 98 effectiveness at 150.7M survivability, the highest figure in the table.
 

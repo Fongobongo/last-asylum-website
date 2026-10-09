@@ -19,14 +19,14 @@ Solo targets are taken by a single army, and every one of them costs the same en
 
 | Target | Levels | Energy | Drops |
 |---|---|---|---|
-| Plague Rat Horde | 1-75 | 10 | Recruit Ticket, Grain Level Supply (SSR), Timber Level Supply (SSR) |
-| Grain Blight | 1-30 | 10 | Raven Fruit |
-| Herb Blight | 1-30 | 10 | Raven Fruit |
-| Timber Blight | 1-30 | 10 | Raven Fruit |
-| Gold Thief | 5-5 | 10 | Lion Coin, Raven Fruit |
-| Rat Horde | 1-24 | 10 | Recruit Ticket, Grain Level Supply (SR), Timber Level Supply (SR) |
-| Menacing Giant Rat King | 3-25 | 10 | Recruit Ticket, Grain Level Supply (SR), Timber Level Supply (SR) |
-| Giant Rat King Attack | 1-25 | 10 | Recruit Ticket, Grain Level Supply (SR), Timber Level Supply (SR) |
+| Kawanan Tikus Hitam Wabah | 1-75 | 10 | Recruit Ticket, Grain Level Supply (SSR), Timber Level Supply (SSR) |
+| Ghoul Petani | 1-30 | 10 | Raven Fruit |
+| Ghoul Peracik Obat | 1-30 | 10 | Raven Fruit |
+| Ghoul Penebang | 1-30 | 10 | Raven Fruit |
+| Pencuri Koin | 5-5 | 10 | Lion Coin, Raven Fruit |
+| Kawanan Tikus Hitam | 1-24 | 10 | Recruit Ticket, Grain Level Supply (SR), Timber Level Supply (SR) |
+| Raja Tikus Raksasa Berbahaya | 3-25 | 10 | Recruit Ticket, Grain Level Supply (SR), Timber Level Supply (SR) |
+| Serangan Raja Tikus Raksasa | 1-25 | 10 | Recruit Ticket, Grain Level Supply (SR), Timber Level Supply (SR) |
 
 Recruit tickets are the most valuable thing a solo target can leave behind, and rat hordes and the larger bosses are the ones that hand them out. Plague peasants, lumberjacks and herbalists drop Raven Fruit for the Raven.
 
@@ -40,7 +40,7 @@ Fruit feeds the Raven, and every target that drops it costs the same 10 energy. 
 | Seasonal Age monsters | 1,130 |
 | Plague peasants, lumberjacks, herbalists | 800 |
 
-Seasonal monsters turn out not to be the richest source, since the ordinary Golden Thief pays more for the same energy. With the price fixed, the table rather than the rarity of the target decides where the fruit comes from. Golden Thieves show on the map only during the Thief Hunt event, which also brings their Leader and the Lion Coin shop.
+Seasonal monsters turn out not to be the richest source, since the ordinary Golden Thief pays more for the same energy. With the price fixed, the table rather than the rarity of the target decides where the fruit comes from. Golden Thieves show on the map only during the Memburu Pencuri event, which also brings their Leader and the Lion Coin shop.
 
 ## Rallies
 
@@ -59,7 +59,7 @@ The Might listed in the table is a recommendation rather than a condition of ent
 
 ## The upper end
 
-Beyond rallies the map carries heavier targets. Elite Blight tier 5 goes up to 26,404,000 recommended Might, Wanted Blight tier 5 up to 21,454,000, and Forces of Evil stretch across five hundred levels, from 900,000 to 40,867,200.
+Beyond rallies the map carries heavier targets. Ghoul Elite tier 5 goes up to 26,404,000 recommended Might, Wanted Blight tier 5 up to 21,454,000, and Forces of Evil stretch across five hundred levels, from 900,000 to 40,867,200.
 
 For scale, the reference total for a player at Sanctuary 30 is 94,620,000, see Might. The heaviest target on the map thus asks for roughly forty per cent of a fully developed account, and nobody takes such targets alone.
 

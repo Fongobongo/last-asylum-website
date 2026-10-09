@@ -1,6 +1,6 @@
 ---
-title: "Arthur: habilidades, build y subida"
-description: "Arthur is a UR warrior who plays as tank. Fully upgraded, he reaches 1,052,453 Might, rank 3 of 11 among the game's tanks. Unlocking him takes 10 shards ( Arthur Shard), …"
+title: "Arturo: habilidades, build y subida"
+description: "Arturo is a UR warrior who plays as tank. Fully upgraded, he reaches 1,052,453 Might, rank 3 of 11 among the game's tanks. Unlocking him takes 10 shards ( Arturo Shard), …"
 videoTopic: "heroes"
 lang: es
 updated: "2026-09-19"
@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-arthur)).
 
-Arthur is a UR warrior who plays as tank. Fully upgraded, he reaches 1,052,453 Might, rank 3 of 11 among the game's tanks. Unlocking him takes 10 shards ( Arthur Shard), and the shards become available once the Warrior Statue reaches level 20. Server age does not limit Arthur: he is in the hero list from day one.
+Arturo is a UR warrior who plays as tank. Fully upgraded, he reaches 1,052,453 Might, rank 3 of 11 among the game's tanks. Unlocking him takes 10 shards ( Arturo Shard), and the shards become available once the Estatua del guerrero reaches level 20. Server age does not limit Arturo: he is in the hero list from day one.
 
 A living fortress! An indomitable warrior who refuses to fall.
 
@@ -27,21 +27,21 @@ A living fortress! An indomitable warrior who refuses to fall.
 | Max Might | 1,052,453 |
 | Max stars | 50 |
 | Attack speed | one hit every 0.9 s |
-| Shards to unlock | Arthur Shard × 10 |
-| Faction building | Warrior Statue, level 20 |
+| Shards to unlock | Arturo Shard × 10 |
+| Faction building | Estatua del guerrero, level 20 |
 | Skills | 5, full set |
 | Trait | Diligent |
 | Faction advantage | Warriors take 20% less damage from Warlocks |
 | Awakening opens | on day 43 of the season |
 | Exclusive weapon | on day 204 of the season |
 
-Awakening and the Exclusive Weapon follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 43 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Exclusive Weapon becomes available on day 204 of the season.
+Awakening and the Arma exclusiva follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 43 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Arma exclusiva becomes available on day 204 of the season.
 
 ## Why he matters
 
-Role: A front-line tank and the only hero in the game who cuts incoming damage for allied tanks as well. His Earthshattering takes 35% of physical damage off every ally in range, while Rock Solid grants a shield worth 30% of max HP, the largest self-shield in the game. The passive Strong Will adds another 9% for tanks only, so investing in Arthur also pays off through the squad's second tank.
+Role: A front-line tank and the only hero in the game who cuts incoming damage for allied tanks as well. His Earthshattering takes 35% of physical damage off every ally in range, while Rock Solid grants a shield worth 30% of max HP, the largest self-shield in the game. The passive Strong Will adds another 9% for tanks only, so investing in Arturo also pays off through the squad's second tank.
 
-Worth investing: Arthur is the hardest hero in the game to replace, and the best squad built without him reaches 64 out of 100, while other UR heroes swap out far more easily. By maximum Might he ranks third of eleven tanks (1,052,453) and sits in tier S. He is also in the hero list from server day one and costs less than any other UR for money, so he is worth levelling as soon as he arrives.
+Worth investing: Arturo is the hardest hero in the game to replace, and the best squad built without him reaches 64 out of 100, while other UR heroes swap out far more easily. By maximum Might he ranks third of eleven tanks (1,052,453) and sits in tier S. He is also in the hero list from server day one and costs less than any other UR for money, so he is worth levelling as soon as he arrives.
 
 ## Skills
 
@@ -151,7 +151,7 @@ Support skill: active while the hero is outside the main squad.
 
 ## Compared to other heroes
 
-Below, Arthur is compared with the other heroes of the same role, of which the game has 11 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
+Below, Arturo is compared with the other heroes of the same role, of which the game has 11 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
 
 ### Stats
 
@@ -159,13 +159,13 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 
 | Hero | Faction | Rarity | Max Might | HP growth | ATK growth | DEF growth |
 |---|---|---|---|---|---|---|
-| Shadow | Ranger | UR | 1,075,906 | 1.43 | 0.78 | 1.06 |
+| Sombra | Ranger | UR | 1,075,906 | 1.43 | 0.78 | 1.06 |
 | Daskal | Warrior | UR | 1,057,192 | 1.36 | 0.81 | 1.05 |
-| Arthur | Warrior | UR | 1,052,453 | 1.34 | 0.82 | 1.05 |
-| Louis | Ranger | UR | 1,044,341 | 1.31 | 0.83 | 1.05 |
+| Arturo | Warrior | UR | 1,052,453 | 1.34 | 0.82 | 1.05 |
+| Luis | Ranger | UR | 1,044,341 | 1.31 | 0.83 | 1.05 |
 | Ulfrid | Warlock | UR | 1,033,739 | 1.27 | 0.85 | 1.04 |
 | Billy | Warlock | UR | 980,246 | 1.05 | 0.97 | 1.01 |
-| Lucius | Warrior | SSR | 778,239 | 0.9 | 0.54 | 0.7 |
+| Lucio | Warrior | SSR | 778,239 | 0.9 | 0.54 | 0.7 |
 | Bella | Warrior | SSR | 773,500 | 0.88 | 0.55 | 0.7 |
 | Griffith | Ranger | SSR | 764,263 | 0.85 | 0.56 | 0.69 |
 | Hastar | Warlock | SSR | 750,047 | 0.79 | 0.59 | 0.69 |
@@ -178,9 +178,9 @@ Battle Shield · damage multiplier · rank 4 of 11
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
 | Daskal | Warrior | Battle Will | Auto Attack | 996% | single target |
-| Louis | Ranger | Shackles | Auto Attack | 996% | single target |
+| Luis | Ranger | Shackles | Auto Attack | 996% | single target |
 | Ulfrid | Warlock | Sharp Claw | Auto Attack | 996% | single target |
-| Arthur | Warrior | Battle Shield | Auto Attack | 900% | single target |
+| Arturo | Warrior | Battle Shield | Auto Attack | 900% | single target |
 | Billy | Warlock | Wooden Frame | Auto Attack | 747% | single target |
 
 Stronger: Daskal, Battle Will hits for 996% of ATK on a single target.
@@ -192,8 +192,8 @@ Earthshattering · damage multiplier · rank 6 of 9
 | Hastar | Warlock | Wrath of Old Gods | Ultimate Skill | 3,623.4% | area |
 | Billy | Warlock | Truth and Lies | Ultimate Skill | 2,916% | area |
 | Bella | Warrior | Bloody Requiem | Ultimate Skill | 2,886.84% | single target |
-| Lucius | Warrior | Whirlwind Cut | Ultimate Skill | 2,029.2% | single target |
-| Arthur | Warrior | Earthshattering | Ultimate Skill | 1,689% | area |
+| Lucio | Warrior | Whirlwind Cut | Ultimate Skill | 2,029.2% | single target |
+| Arturo | Warrior | Earthshattering | Ultimate Skill | 1,689% | area |
 
 Stronger: Hastar, Wrath of Old Gods hits for 3,623.4% of ATK in an area.
 
@@ -203,9 +203,9 @@ Earthshattering · damage taken reduction · rank 5 of 15
 |---|---|---|---|---|---|
 | Bella | Warrior | Crimson Prayer | Active Skill | 45% | for the caster, monsters only |
 | Griffith | Ranger | Serpent Veil | Ultimate Skill | 39% | for allies, monsters only |
-| Louis | Ranger | Force Link | Active Skill | 36% | for allies |
+| Luis | Ranger | Force Link | Active Skill | 36% | for allies |
 | Billy | Warlock | Fate's Thread | Active Skill | 36% | for allies |
-| Arthur | Warrior | Earthshattering | Ultimate Skill | 35% | for allies |
+| Arturo | Warrior | Earthshattering | Ultimate Skill | 35% | for allies |
 
 Stronger: Bella, Crimson Prayer cuts damage by 45% for the caster, monsters only.
 
@@ -213,7 +213,7 @@ Rock Solid · shield from max HP · rank 1 of 3
 
 | Hero | Faction | Skill | Skill type | Shield, % of HP | Shield for |
 |---|---|---|---|---|---|
-| Arthur | Warrior | Rock Solid | Active Skill | 30% | for the caster |
+| Arturo | Warrior | Rock Solid | Active Skill | 30% | for the caster |
 | Daskal | Warrior | Resolute Fight | Passive Skill | 22.5% | for allies |
 | Hastar | Warlock | Scorn Guard | Passive Skill | 16.2% | for the caster |
 
@@ -225,9 +225,9 @@ Strong Will · damage taken reduction · rank 15 of 15
 |---|---|---|---|---|---|
 | Bella | Warrior | Crimson Prayer | Active Skill | 45% | for the caster, monsters only |
 | Griffith | Ranger | Serpent Veil | Ultimate Skill | 39% | for allies, monsters only |
-| Louis | Ranger | Force Link | Active Skill | 36% | for allies |
+| Luis | Ranger | Force Link | Active Skill | 36% | for allies |
 | Billy | Warlock | Fate's Thread | Active Skill | 36% | for allies |
-| Arthur | Warrior | Strong Will | Passive Skill | 9% | for allied tanks |
+| Arturo | Warrior | Strong Will | Passive Skill | 9% | for allied tanks |
 
 Stronger: Bella, Crimson Prayer cuts damage by 45% for the caster, monsters only.
 
@@ -276,7 +276,7 @@ The hero has 150 levels, and reaching the last one costs Antitoxin 5,248,471,500
 
 ### Stars
 
-Reaching 50 stars takes 975 shards ( Arthur Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
+Reaching 50 stars takes 975 shards ( Arturo Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
 
 | Stars | HP | ATK | DEF | Cost |
 |---|---|---|---|---|
@@ -299,13 +299,13 @@ Every skill goes up to level 40 with Skill Badge: one skill costs 436,700 of the
 
 ### Awakening
 
-40 levels, 2,870 awakening shards in total (Arthur Awaken Shard). At max it adds:
+40 levels, 2,870 awakening shards in total (Arturo Awaken Shard). At max it adds:
 - HP +425,119, ATK +12,119, DEF +3,812
 - DMG RES +5%
 
-### Exclusive Weapon
+### Arma exclusiva
 
-“Stone Shield”, upgraded to 50 stars. At max it adds:
+“Escudo de piedra”, upgraded to 50 stars. At max it adds:
 - HP +1,251,000, ATK +8,750, DEF +8,750
 - Hero DEF +10%
 - Hero HP +10%
@@ -323,16 +323,16 @@ Gains from each progression system on its own. They show where to invest first:
 | Hero levels | 2,330,811 | 10,187 | 13,045 |
 | Stars | 665,834 | 2,909 | 3,725 |
 | Awakening | 425,119 | 12,119 | 3,812 |
-| Exclusive Weapon | 1,251,000 | 8,750 | 8,750 |
+| Arma exclusiva | 1,251,000 | 8,750 | 8,750 |
 | Total | 4,672,764 | 33,965 | 29,332 |
 
 ## How to play
 
-Daskal reaches 1,057,192 Might against 1,052,453 for Arthur, and their shields have different recipients: Rock Solid covers Arthur himself for 30% of his HP on a 5 second cooldown, while Daskal's Bloodshed Defense covers his allies. Billy, at 980,246 Might, takes 36% of damage off the squad against 35% from Earthshattering, but only Arthur adds another 9% for allied tanks through Strong Will.
+Daskal reaches 1,057,192 Might against 1,052,453 for Arturo, and their shields have different recipients: Rock Solid covers Arturo himself for 30% of his HP on a 5 second cooldown, while Daskal's Bloodshed Defense covers his allies. Billy, at 980,246 Might, takes 36% of damage off the squad against 35% from Earthshattering, but only Arturo adds another 9% for allied tanks through Strong Will.
 
-No server age condition applies to Arthur. The pity counter in the standard recruit list pays 10 of his shards every 50 recruits and nobody else's, and a first top-up of any amount hands over 140 more. Awakening, however, waits for season day 43 and the Exclusive Weapon for day 204.
+No server age condition applies to Arturo. The pity counter in the standard recruit list pays 10 of his shards every 50 recruits and nobody else's, and a first top-up of any amount hands over 140 more. Awakening, however, waits for season day 43 and the Arma exclusiva for day 204.
 
 Awakening costs the most: 2,870 shards for 40 levels against 975 for all 50 stars, returning 425,119 HP and 12,119 ATK. Skills come next at 436,700 badges for each of the four, while the 5,248,471,500 Antitoxin spent on levels accumulates on its own as the game goes.
 
-In the best squad of the game Arthur stands with Billy, Ulfrid, Annie and Joker for 131.1M of survivability and 100 points of effectiveness; without him 64 points remain. A squad of five tanks survives longer at 136.6M but falls back to 77 in effectiveness, and with Lucius, Sivir, Bella and Marlena he anchors a budget line-up at the full +20% faction bonus.
+In the best squad of the game Arturo stands with Billy, Ulfrid, Annie and Joker for 131.1M of survivability and 100 points of effectiveness; without him 64 points remain. A squad of five tanks survives longer at 136.6M but falls back to 77 in effectiveness, and with Lucio, Sivir, Bella and Marlena he anchors a budget line-up at the full +20% faction bonus.
 

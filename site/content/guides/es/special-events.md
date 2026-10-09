@@ -15,31 +15,31 @@ Special events live in the Special Event tab on the city screen, on the right ne
 ## What the tab holds
 
 Version 1.0.87 shows nine events in the tab, listed below in the order the game uses.
-- Survival Battle: five daily phases, and only the actions of the running phase score: hero recruitment, construction, training, research and the Raven.
-- Crystal Cluster Valley: a separate map that opens for half an hour, where alliances mine Purified Crystal and seize clusters from each other.
-- Canyon Conquest: an alliance battle across three lanes with no soldier losses, six alliances to a group and five rounds.
-- Wandering Phantom: a day when Wandering Blights roam the map more often and the first-kill reward is paid three times.
-- Cheese Trap: an alliance boss caught in a trap for half an hour and hit with rallies, with difficulty rising by server day.
-- Undead Siege: waves of Blights from a prison against the territories of the whole alliance, and the main source of antitoxin.
-- Quiz of Wisdom: fifteen questions, with diamonds paid even for a wrong answer.
-- Bind for Reward: the window that links the game account to a platform account and pays a reward for the link.
-- Final Dawn: a starting reward track for total Might, eleven thresholds in a row.
+- Batalla de supervivencia: five daily phases, and only the actions of the running phase score: hero recruitment, construction, training, research and the Raven.
+- Valle de Cúmulos de Cristal: a separate map that opens for half an hour, where alliances mine Purified Crystal and seize clusters from each other.
+- Conquista del cañón: an alliance battle across three lanes with no soldier losses, six alliances to a group and five rounds.
+- Fantasma errante: a day when Wandering Blights roam the map more often and the first-kill reward is paid three times.
+- Trampa de queso: an alliance boss caught in a trap for half an hour and hit with rallies, with difficulty rising by server day.
+- Asedio de no muertos: waves of Blights from a prison against the territories of the whole alliance, and the main source of antitoxin.
+- Prueba de sabiduría: fifteen questions, with diamonds paid even for a wrong answer.
+- Vincúlate para una recompensa: the window that links the game account to a platform account and pays a reward for the link.
+- Amanecer final: a starting reward track for total Might, eleven thresholds in a row.
 
 ## When each one arrives
 
-Every event has a Sanctuary level from which it shows, and some also have a server day: the Monument timeline in the city announces in advance on which day an event comes. For events that follow a weekly schedule, the day depends on the weekday the server opened, and the table gives the range for them.
+Every event has a Sanctuary level from which it shows, and some also have a server day: the Monumento timeline in the city announces in advance on which day an event comes. For events that follow a weekly schedule, the day depends on the weekday the server opened, and the table gives the range for them.
 
 | Event | Sanctuary | Server day |
 |---|---|---|
-| [[arms-race | Survival Battle]] | 7 |
-| [[black-mine | Crystal Cluster Valley]] | 15 |
-| [[flag-war | Canyon Conquest]] | 10 |
-| [[wandering-phantom | Wandering Phantom]] | 8 |
-| [[cheese-trap | Cheese Trap]] | 6 |
-| [[city-siege | Undead Siege]] | 8 |
-| [[quiz | Quiz of Wisdom]] | 6 |
-| [[bind-reward | Bind for Reward]] | 6 |
-| [[final-dawn | Final Dawn]] | 5 |
+| [[arms-race | Batalla de supervivencia]] | 7 |
+| [[black-mine | Valle de Cúmulos de Cristal]] | 15 |
+| [[flag-war | Conquista del cañón]] | 10 |
+| [[wandering-phantom | Fantasma errante]] | 8 |
+| [[cheese-trap | Trampa de queso]] | 6 |
+| [[city-siege | Asedio de no muertos]] | 8 |
+| [[quiz | Prueba de sabiduría]] | 6 |
+| [[bind-reward | Vincúlate para una recompensa]] | 6 |
+| [[final-dawn | Amanecer final]] | 5 |
 
-Survival Battle and Cheese Trap come first, while the Valley and the Canyon only arrive in the third week, once alliances have members to send onto the map. Undead Siege sits on day fifteen, yet it is started by the alliance itself after gathering clues on Falcon Quests, not by the calendar.
+Batalla de supervivencia and Trampa de queso come first, while the Valley and the Canyon only arrive in the third week, once alliances have members to send onto the map. Asedio de no muertos sits on day fifteen, yet it is started by the alliance itself after gathering clues on Falcon Quests, not by the calendar.
 

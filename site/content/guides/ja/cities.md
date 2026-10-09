@@ -32,10 +32,10 @@ The top cities differ from one another the most, and the table rows show where.
 | Lionheart Fortress Lv.6 | Training Speed↑ +5% | 100 |
 | Nightfall Fortress Lv.6 | Research Speed↑ +20% | 100 |
 | Sky Fortress Lv.6 | Building Construction Speed↑ +20% | 100 |
-| Temple of Chaos Lv.5 | Timber Output↑ +20% | 80 |
-| Temple of Nature Lv.5 | Grain Gathering Speed↑ +20% | 80 |
-| Temple of Order Lv.5 | Herb Output↑ +20% | 80 |
-| Temple of War Lv.5 | Grain Output↑ +20% | 80 |
+| 神殿 of Chaos Lv.5 | Timber Output↑ +20% | 80 |
+| 神殿 of Nature Lv.5 | Grain Gathering Speed↑ +20% | 80 |
+| 神殿 of Order Lv.5 | Herb Output↑ +20% | 80 |
+| 神殿 of War Lv.5 | Grain Output↑ +20% | 80 |
 
 One detail is easy to miss: cities of the same level cost the same but pay differently. All three level-six fortresses share HP, garrison and first-capture reward, yet their bonuses are not equal. Two grant 20% to research and build speed while the third grants only 5% training speed, so the target is worth picking by the bonus rather than by the level.
 

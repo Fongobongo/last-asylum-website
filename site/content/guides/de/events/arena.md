@@ -18,7 +18,7 @@ Dieser Guide behandelt die Verteidigungsprinzipien, die Opfer-Regel für Angriff
 - Verteidiger stellen **3 Aufstellungen** auf. Angreifer wählen die Reihenfolge, in der sie diese bekämpfen, und müssen **2 von 3 gewinnen**.
 - **Der Angreifer sieht alle drei deiner Teams** — das ist der Vorteil des Angreifers, und jede der folgenden Verteidigungsregeln existiert, um diesen Vorteil abzuschwächen.
 
-> Du kannst einen stärkeren Spieler nicht davon abhalten, dich zu besiegen. Du kannst aber einen schwächeren Spieler davon abhalten, dich als „Farm-Objekt“ zu benutzen.
+> Du kannst einen stärkeren Spieler nicht davon abhalten, dich zu besiegen. Du kannst aber einen schwächeren Spieler davon abhalten, dich als „Bauernhof-Objekt“ zu benutzen.
 
 ## Verteidigung: Alle drei Teams gleichmäßig halten {#defense-principles}
 

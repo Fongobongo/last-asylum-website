@@ -53,7 +53,7 @@ Penyelesaian penuh Serangan Proaktif memberikan nilai awal yang mengubah permain
 Kesalahan terbesar yang dilakukan pemain baru adalah membuang diamond gratis untuk pull rekrutmen standar. **Jangan lakukan ini.** Pada Hari ke-8 server Anda, **Cynthia's Lucky Wheel** untuk UR Ranger akan tiba — 7 hari dengan satu putaran gratis setiap hari ditambah milestone 10-putaran yang memberikan 10 fragmen — satu copy hero penuh. Tutupi kekurangannya dengan ~1.500 diamond (3 putaran tambahan) dan hero tersebut akan menjadi milik Anda; jangan melakukan pull apa pun sebelum Hari ke-8.
 
 ### 2. Antrean Konstruksi yang Tidak Terorganisir
-Jangan membuang antrean bangunan untuk peningkatan kosmetik atau plot sumber daya yang tidak perlu. Selalu periksa bangunan prasyarat untuk level Kuil berikutnya (biasanya Wall + Research Lab atau Wall + Barracks) dan tingkatkan **secara ketat mengikuti jalur kritis**.
+Jangan membuang antrean bangunan untuk peningkatan kosmetik atau plot sumber daya yang tidak perlu. Selalu periksa bangunan prasyarat untuk level Kuil berikutnya (biasanya Wall + Research Lab atau Wall + Barak) dan tingkatkan **secara ketat mengikuti jalur kritis**.
 
 ### 3. Membuang Stamina di Luar Jendela Event
 Hanya buru monster tier tertentu yang diperlukan untuk memicu penyelesaian milestone. Hemat stamina yang tersisa untuk peluang mendapatkan keuntungan ganda.

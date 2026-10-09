@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-william)).
 
-William is an SR warrior who plays as DPS. Fully upgraded, he reaches 524,421 Might, rank 14 of 16 among the game's DPS heroes. Unlocking him takes 10 shards ( William Shard), and the shards become available once the Warrior Statue reaches level 20.
+William is an SR warrior who plays as DPS. Fully upgraded, he reaches 524,421 Might, rank 14 of 16 among the game's DPS heroes. Unlocking him takes 10 shards ( William Shard), and the shards become available once the Estátua do Guerreiro reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -26,7 +26,7 @@ William is an SR warrior who plays as DPS. Fully upgraded, he reaches 524,421 Mi
 | Max stars | 50 |
 | Attack speed | one hit every 0.87 s |
 | Shards to unlock | William Shard × 10 |
-| Faction building | Warrior Statue, level 20 |
+| Faction building | Estátua do Guerreiro, level 20 |
 | Skills | 4 instead of five: no passive skill |
 | Trait | Diligent |
 | Faction advantage | Warriors take 20% less damage from Warlocks |
@@ -135,7 +135,7 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 | Annie | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
 | Cynthia | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
 | Marlena | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
-| Red Lady | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| Dama Vermelha | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
 | Joker | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
 | Grenwald | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
 | Kesso | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
@@ -153,7 +153,7 @@ Sword Gale · damage multiplier · rank 14 of 16
 | Claire | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
 | Marlena | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
 | Zoya | Warrior | Dagger | Auto Attack | 747% | single target |
-| Cynthia | Ranger | Moon Blade | Auto Attack | 747% | single target |
+| Cynthia | Ranger | Lâmina Lunar | Auto Attack | 747% | single target |
 | William | Warrior | Sword Gale | Auto Attack | 315% | single target |
 
 Stronger: Claire, Holy Banner (advanced) hits for 810% of ATK on a single target.
@@ -163,7 +163,7 @@ Whirlwind Blade · damage multiplier · rank 14 of 15
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
 | Joker | Warlock | Joker Ace | Ultimate Skill | 5,047.5% | single target |
-| Red Lady | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
+| Dama Vermelha | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
 | Zoya | Warrior | Forest Hunter | Ultimate Skill | 3,669.6% | single target |
 | Annie | Warlock | Candy Jar | Ultimate Skill | 3,553.2% | single target |
 | William | Warrior | Whirlwind Blade | Ultimate Skill | 1,111.5% | area |
@@ -245,7 +245,7 @@ William reaches 524,421 Might, the highest among the SR DPS heroes, with Robin 6
 
 William is available from day one and opens for 10 shards, so he takes a squad place through the first weeks with no queue at all. His skills level only to 30, and each one costs 170,200 badges against 436,700 for an SSR hero, so the investment is cheaper and the ceiling is lower with it.
 
-SR heroes have no fifth skill, no awakening and no Exclusive Weapon, so William tops out at 760,343 HP and 12,299 ATK, where Sivir reaches 916,885 and 15,174. Stars still cost the same 975 shards and return 168,943 HP, less than any SSR hero of the role receives.
+SR heroes have no fifth skill, no awakening and no Arma Exclusiva, so William tops out at 760,343 HP and 12,299 ATK, where Sivir reaches 916,885 and 15,174. Stars still cost the same 975 shards and return 168,943 HP, less than any SSR hero of the role receives.
 
 William made it into none of the squads listed in the tables, as the warrior place in the DPS role goes to Sivir and Claire. From the bench he also gives the least: his support skill adds 5% to ATK, HP and DEF, an SSR hero adds 10%, and a UR hero 20% plus 10% skill cooldown speed.
 

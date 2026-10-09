@@ -1,6 +1,6 @@
 ---
-title: "Claire: skill, build & leveling"
-description: "Claire is an SSR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Might, rank 12 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Claire Sh…"
+title: "Clea: skill, build & leveling"
+description: "Clea is an SSR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Might, rank 12 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Clea Sh…"
 videoTopic: "claire"
 lang: id
 updated: "2026-09-19"
@@ -15,9 +15,9 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-claire)).
 
-Claire is an SSR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Might, rank 12 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Claire Shard), and the shards become available once the Warrior Statue reaches level 20.
+Clea is an SSR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Might, rank 12 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Clea Shard), and the shards become available once the Patung Fighter reaches level 20.
 
-This hero has an advanced UR form: Claire (Advanced).
+This hero has an advanced UR form: Clea (Advanced).
 
 | Stat | Value |
 |---|---|
@@ -27,17 +27,17 @@ This hero has an advanced UR form: Claire (Advanced).
 | Max Might | 685,150 |
 | Max stars | 50 |
 | Attack speed | one hit every 1 s |
-| Shards to unlock | Claire Shard × 10 |
-| Faction building | Warrior Statue, level 20 |
+| Shards to unlock | Clea Shard × 10 |
+| Faction building | Patung Fighter, level 20 |
 | Skills | 5, full set |
 | Trait | Helpful |
 | Faction advantage | Warriors take 20% less damage from Warlocks |
 
 ## Why she matters
 
-Role: An area DPS for warrior squads, as Celestial Judgment covers every nearby enemy for 2,266.29% of ATK. The passive Call of the Brave raises monster damage for the three highest-attack warriors in the squad, so Claire strengthens more than herself.
+Role: An area DPS for warrior squads, as Celestial Judgment covers every nearby enemy for 2,266.29% of ATK. The passive Call of the Brave raises monster damage for the three highest-attack warriors in the squad, so Clea strengthens more than herself.
 
-Worth investing: By maximum Might Claire shares eleventh place of sixteen DPS heroes with Sivir and with her own advanced form, all three at 685,150, and she sits in tier B. Rarity by itself adds nothing here, and the plain Claire is worth levelling mainly as a warrior for the full faction bonus.
+Worth investing: By maximum Might Clea shares eleventh place of sixteen DPS heroes with Sivir and with her own advanced form, all three at 685,150, and she sits in tier B. Rarity by itself adds nothing here, and the plain Clea is worth levelling mainly as a warrior for the full faction bonus.
 
 ## Skills
 
@@ -147,7 +147,7 @@ Support skill: active while the hero is outside the main squad.
 
 ## Compared to other heroes
 
-Below, Claire is compared with the other heroes of the same role, of which the game has 16 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
+Below, Clea is compared with the other heroes of the same role, of which the game has 16 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
 
 ### Stats
 
@@ -159,14 +159,14 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 | Annie | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
 | Cynthia | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
 | Marlena | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
-| Red Lady | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| Nyonya Merah | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
 | Joker | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
-| Grenwald | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
-| Kesso | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
-| Ash | Ranger | SSR | 685,873 | 0.43 | 0.92 | 0.61 |
-| Bestar | Ranger | SSR | 685,793 | 0.4 | 0.97 | 0.61 |
+| Grindelwald | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
+| Kaeso | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
+| Ashe | Ranger | SSR | 685,873 | 0.43 | 0.92 | 0.61 |
+| Bast | Ranger | SSR | 685,793 | 0.4 | 0.97 | 0.61 |
 | Sivir | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
-| Claire | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
+| Clea | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
 
 ### Skill numbers
 
@@ -174,23 +174,23 @@ Holy Banner · damage multiplier · rank 9 of 16
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Claire | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
+| Clea | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
 | Marlena | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
 | Zoya | Warrior | Dagger | Auto Attack | 747% | single target |
-| Cynthia | Ranger | Moon Blade | Auto Attack | 747% | single target |
-| Claire | Warrior | Holy Banner | Auto Attack | 594% | single target |
+| Cynthia | Ranger | Pedang Bulan Suci | Auto Attack | 747% | single target |
+| Clea | Warrior | Holy Banner | Auto Attack | 594% | single target |
 
-Stronger: Claire, Holy Banner (advanced) hits for 810% of ATK on a single target.
+Stronger: Clea, Holy Banner (advanced) hits for 810% of ATK on a single target.
 
 Celestial Judgment · damage multiplier · rank 9 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
 | Joker | Warlock | Joker Ace | Ultimate Skill | 5,047.5% | single target |
-| Red Lady | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
+| Nyonya Merah | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
 | Zoya | Warrior | Forest Hunter | Ultimate Skill | 3,669.6% | single target |
 | Annie | Warlock | Candy Jar | Ultimate Skill | 3,553.2% | single target |
-| Claire | Warrior | Celestial Judgment | Ultimate Skill | 2,266.29% | area |
+| Clea | Warrior | Celestial Judgment | Ultimate Skill | 2,266.29% | area |
 
 Stronger: Joker, Joker Ace hits for 5,047.5% of ATK on a single target.
 
@@ -198,13 +198,13 @@ Rain of Arrows · damage multiplier · rank 15 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Red Lady | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
+| Nyonya Merah | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
 | Sivir | Warrior | Shield Strike | Active Skill | 1,887.6% | single target |
-| Grenwald | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
+| Grindelwald | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
 | Cynthia | Ranger | Lunar Hunt | Active Skill | 1,800% | single target |
-| Claire | Warrior | Rain of Arrows | Active Skill | 607.2% | single target |
+| Clea | Warrior | Rain of Arrows | Active Skill | 607.2% | single target |
 
-Stronger: Red Lady, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
+Stronger: Nyonya Merah, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
 
 ## Upgrade order
 
@@ -249,7 +249,7 @@ The hero has 150 levels, and reaching the last one costs Antitoxin 5,248,471,500
 
 ### Stars
 
-Reaching 50 stars takes 975 shards ( Claire Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
+Reaching 50 stars takes 975 shards ( Clea Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
 
 | Stars | HP | ATK | DEF | Cost |
 |---|---|---|---|---|
@@ -282,11 +282,11 @@ Gains from each progression system on its own. They show where to invest first:
 
 ## How to play
 
-Claire and her advanced form share one maximum Might, 685,150, yet they reach it differently. A full build of the plain Claire gives 916,885 HP and 15,174 ATK, the advanced one 1,386,507 and 22,679, because the attack growth multiplier is 0.95 for the first and 1.42 for the second. Celestial Judgment lands 2,266.29% of ATK against 3,486.6%.
+Clea and her advanced form share one maximum Might, 685,150, yet they reach it differently. A full build of the plain Clea gives 916,885 HP and 15,174 ATK, the advanced one 1,386,507 and 22,679, because the attack growth multiplier is 0.95 for the first and 1.42 for the second. Celestial Judgment lands 2,266.29% of ATK against 3,486.6%.
 
-Both forms share one shard: 10 of them unlock the plain Claire, after which the same shards go either into her stars or into the stars of the advanced form. Neither carries a season day or server age condition, so the choice arrives at once, and both ultimates recharge in 8 seconds.
+Both forms share one shard: 10 of them unlock the plain Clea, after which the same shards go either into her stars or into the stars of the advanced form. Neither carries a season day or server age condition, so the choice arrives at once, and both ultimates recharge in 8 seconds.
 
-Stars cost Claire the most, not in badges but in waiting: 975 shards, while a recruit yields a hero shard in roughly 26% of pulls. Skills rise to level 40 at 436,700 badges each and return less: Call of the Brave tops out at 24% monster damage against 30% for the advanced form.
+Stars cost Clea the most, not in badges but in waiting: 975 shards, while a recruit yields a hero shard in roughly 26% of pulls. Skills rise to level 40 at 436,700 badges each and return less: Call of the Brave tops out at 24% monster damage against 30% for the advanced form.
 
-The best squad with Claire and no UR hero is Kesso, Lucius, Sivir, Bella and Claire herself: five warriors, a +20% bonus and 8.1M of survivability. Alongside Arthur and Marlena she joins three of the five best reachable squads, where survivability reaches 38.2M, and the price of the full bonus is 20% extra damage from rangers.
+The best squad with Clea and no UR hero is Kaeso, Lucius, Sivir, Bella and Clea herself: five warriors, a +20% bonus and 8.1M of survivability. Alongside Arthur and Marlena she joins three of the five best reachable squads, where survivability reaches 38.2M, and the price of the full bonus is 20% extra damage from rangers.
 

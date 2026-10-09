@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-kesso)).
 
-Kesso is an SSR warrior who plays as DPS. Fully upgraded, he reaches 686,515 Might, rank 8 of 16 among the game's DPS heroes. Unlocking him takes 10 shards ( Kesso Shard), and the shards become available once the Warrior Statue reaches level 20.
+Kesso is an SSR warrior who plays as DPS. Fully upgraded, he reaches 686,515 Might, rank 8 of 16 among the game's DPS heroes. Unlocking him takes 10 shards ( Kesso Shard), and the shards become available once the Estátua do Guerreiro reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -26,7 +26,7 @@ Kesso is an SSR warrior who plays as DPS. Fully upgraded, he reaches 686,515 Mig
 | Max stars | 50 |
 | Attack speed | one hit every 0.9 s |
 | Shards to unlock | Kesso Shard × 10 |
-| Faction building | Warrior Statue, level 20 |
+| Faction building | Estátua do Guerreiro, level 20 |
 | Skills | 5, full set |
 | Trait | Diligent |
 | Faction advantage | Warriors take 20% less damage from Warlocks |
@@ -157,7 +157,7 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 | Annie | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
 | Cynthia | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
 | Marlena | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
-| Red Lady | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| Dama Vermelha | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
 | Joker | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
 | Grenwald | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
 | Kesso | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
@@ -175,7 +175,7 @@ Spear Throw · damage multiplier · rank 8 of 16
 | Claire | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
 | Marlena | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
 | Zoya | Warrior | Dagger | Auto Attack | 747% | single target |
-| Cynthia | Ranger | Moon Blade | Auto Attack | 747% | single target |
+| Cynthia | Ranger | Lâmina Lunar | Auto Attack | 747% | single target |
 | Kesso | Warrior | Spear Throw | Auto Attack | 594% | single target |
 
 Stronger: Claire, Holy Banner (advanced) hits for 810% of ATK on a single target.
@@ -184,13 +184,13 @@ Hunting Skills · damage multiplier · rank 8 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Red Lady | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
+| Dama Vermelha | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
 | Sivir | Warrior | Shield Strike | Active Skill | 1,887.6% | single target |
 | Grenwald | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
 | Cynthia | Ranger | Lunar Hunt | Active Skill | 1,800% | single target |
 | Kesso | Warrior | Hunting Skills | Active Skill | 1,503% | single target |
 
-Stronger: Red Lady, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
+Stronger: Dama Vermelha, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
 
 ## Upgrade order
 
@@ -272,7 +272,7 @@ Among the SSR DPS heroes Kesso ranks second: 686,515 Might against 690,773 for G
 
 No timing condition applies to Kesso: the unlock costs 10 shards and depends on neither a season day nor server age. He matters in the first weeks, while the UR heroes of the role are out of reach, and gives way once Marlena arrives with her 3,382.5% ultimate.
 
-Kesso has neither awakening nor an Exclusive Weapon: levels give 730,553 HP and 11,680 ATK, stars add 208,694 and 3,335 on top. Skills cost the most, 436,700 badges each and 1,746,800 for all four, the same price the UR heroes of the role pay for theirs.
+Kesso has neither awakening nor an Arma Exclusiva: levels give 730,553 HP and 11,680 ATK, stars add 208,694 and 3,335 on top. Skills cost the most, 436,700 badges each and 1,746,800 for all four, the same price the UR heroes of the role pay for theirs.
 
 The best squad with Kesso and no UR hero is built from him, Lucius, Sivir, Bella and Claire: five warriors, the full +20% bonus and 8.1M of survivability. Once the reachable UR heroes arrive he holds two places among the five best such squads, beside Arthur and Marlena, where survivability climbs to 37.3M. Kesso brings no squad-wide skill of his own, so his job in a squad is damage and faction.
 

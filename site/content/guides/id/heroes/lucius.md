@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-lucius)).
 
-Lucius is an SSR warrior who plays as tank. Fully upgraded, he reaches 778,239 Might, rank 7 of 11 among the game's tanks. Unlocking him takes 10 shards ( Lucius Shard), and the shards become available once the Warrior Statue reaches level 20.
+Lucius is an SSR warrior who plays as tank. Fully upgraded, he reaches 778,239 Might, rank 7 of 11 among the game's tanks. Unlocking him takes 10 shards ( Lucius Shard), and the shards become available once the Patung Fighter reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -26,7 +26,7 @@ Lucius is an SSR warrior who plays as tank. Fully upgraded, he reaches 778,239 M
 | Max stars | 50 |
 | Attack speed | one hit every 0.87 s |
 | Shards to unlock | Lucius Shard × 10 |
-| Faction building | Warrior Statue, level 20 |
+| Faction building | Patung Fighter, level 20 |
 | Skills | 5, full set |
 | Trait | Helpful |
 | Faction advantage | Warriors take 20% less damage from Warlocks |
@@ -153,16 +153,16 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 
 | Hero | Faction | Rarity | Max Might | HP growth | ATK growth | DEF growth |
 |---|---|---|---|---|---|---|
-| Shadow | Ranger | UR | 1,075,906 | 1.43 | 0.78 | 1.06 |
-| Daskal | Warrior | UR | 1,057,192 | 1.36 | 0.81 | 1.05 |
+| Ying | Ranger | UR | 1,075,906 | 1.43 | 0.78 | 1.06 |
+| Duskar | Warrior | UR | 1,057,192 | 1.36 | 0.81 | 1.05 |
 | Arthur | Warrior | UR | 1,052,453 | 1.34 | 0.82 | 1.05 |
 | Louis | Ranger | UR | 1,044,341 | 1.31 | 0.83 | 1.05 |
-| Ulfrid | Warlock | UR | 1,033,739 | 1.27 | 0.85 | 1.04 |
+| Ulfred | Warlock | UR | 1,033,739 | 1.27 | 0.85 | 1.04 |
 | Billy | Warlock | UR | 980,246 | 1.05 | 0.97 | 1.01 |
 | Lucius | Warrior | SSR | 778,239 | 0.9 | 0.54 | 0.7 |
 | Bella | Warrior | SSR | 773,500 | 0.88 | 0.55 | 0.7 |
 | Griffith | Ranger | SSR | 764,263 | 0.85 | 0.56 | 0.69 |
-| Hastar | Warlock | SSR | 750,047 | 0.79 | 0.59 | 0.69 |
+| Hastur | Warlock | SSR | 750,047 | 0.79 | 0.59 | 0.69 |
 | Durant | Warrior | SR | 596,226 | 0.72 | 0.45 | 0.57 |
 
 ### Skill numbers
@@ -171,25 +171,25 @@ Battle Axe · damage multiplier · rank 8 of 11
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Daskal | Warrior | Battle Will | Auto Attack | 996% | single target |
+| Duskar | Warrior | Battle Will | Auto Attack | 996% | single target |
 | Louis | Ranger | Shackles | Auto Attack | 996% | single target |
-| Ulfrid | Warlock | Sharp Claw | Auto Attack | 996% | single target |
+| Ulfred | Warlock | Sharp Claw | Auto Attack | 996% | single target |
 | Arthur | Warrior | Battle Shield | Auto Attack | 900% | single target |
 | Lucius | Warrior | Battle Axe | Auto Attack | 514.8% | single target |
 
-Stronger: Daskal, Battle Will hits for 996% of ATK on a single target.
+Stronger: Duskar, Battle Will hits for 996% of ATK on a single target.
 
 Whirlwind Cut · damage multiplier · rank 4 of 9
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Hastar | Warlock | Wrath of Old Gods | Ultimate Skill | 3,623.4% | area |
+| Hastur | Warlock | Wrath of Old Gods | Ultimate Skill | 3,623.4% | area |
 | Billy | Warlock | Truth and Lies | Ultimate Skill | 2,916% | area |
 | Bella | Warrior | Bloody Requiem | Ultimate Skill | 2,886.84% | single target |
 | Lucius | Warrior | Whirlwind Cut | Ultimate Skill | 2,029.2% | single target |
-| Ulfrid | Warlock | Throat Bite | Ultimate Skill | 1,806% | single target |
+| Ulfred | Warlock | Throat Bite | Ultimate Skill | 1,806% | single target |
 
-Stronger: Hastar, Wrath of Old Gods hits for 3,623.4% of ATK in an area.
+Stronger: Hastur, Wrath of Old Gods hits for 3,623.4% of ATK in an area.
 
 Decapitation · damage multiplier · rank 2 of 7
 
@@ -197,9 +197,9 @@ Decapitation · damage multiplier · rank 2 of 7
 |---|---|---|---|---|---|
 | Griffith | Ranger | Venomous Bite | Active Skill | 2,303.4% | single target |
 | Lucius | Warrior | Decapitation | Active Skill | 1,874.4% | single target |
-| Hastar | Warlock | Undercurrent | Active Skill | 1,306.8% | single target |
+| Hastur | Warlock | Undercurrent | Active Skill | 1,306.8% | single target |
 | Durant | Warrior | Leap Slash | Active Skill | 1,057.5% | single target |
-| Daskal | Warrior | Deadly Pierce | Active Skill | 924% | single target |
+| Duskar | Warrior | Deadly Pierce | Active Skill | 924% | single target |
 
 Stronger: Griffith, Venomous Bite hits for 2,303.4% of ATK on a single target.
 
@@ -291,11 +291,11 @@ Gains from each progression system on its own. They show where to invest first:
 
 ## How to play
 
-Among the SSR tanks Lucius leads by maximum Might: 778,239 against 773,500 for Bella, 764,263 for Griffith and 750,047 for Hastar. He carries his weight through damage: Decapitation lands 1,874.4% of ATK and Whirlwind Cut 2,029.2%. Cover he barely provides, since the 24% reduction of God of War Blessing applies to monsters alone.
+Among the SSR tanks Lucius leads by maximum Might: 778,239 against 773,500 for Bella, 764,263 for Griffith and 750,047 for Hastur. He carries his weight through damage: Decapitation lands 1,874.4% of ATK and Whirlwind Cut 2,029.2%. Cover he barely provides, since the 24% reduction of God of War Blessing applies to monsters alone.
 
 Nothing delays Lucius: he is in the hero list from day one, unlocks for 10 shards, and depends neither on a season day nor on server age. Shards arrive from recruiting, where a hero shard drops in roughly 26% of pulls. The limit of any investment is clear from the start, 50 stars and 40 skill levels, with nothing above them.
 
-Lucius has neither awakening nor an Exclusive Weapon, so levels and stars carry the whole limit: 2,012,674 HP, 8,625 ATK and 11,181 DEF. Skills weigh the most at 436,700 badges for one and 1,746,800 for all four, while 50 stars cost 975 shards.
+Lucius has neither awakening nor an Senjata Eksklusif, so levels and stars carry the whole limit: 2,012,674 HP, 8,625 ATK and 11,181 DEF. Skills weigh the most at 436,700 badges for one and 1,746,800 for all four, while 50 stars cost 975 shards.
 
-The best line-up without a single UR hero is Celia, Lucius, Sivir, Bella and Hastar, worth 9.3M of survivability and +15% for four warriors. With Arthur and Marlena the squad turns pure warrior, the bonus grows to +20% and survivability to 38.8M, and once the UR tanks arrive Lucius pays +10% from the bench.
+The best line-up without a single UR hero is Celia, Lucius, Sivir, Bella and Hastur, worth 9.3M of survivability and +15% for four warriors. With Arthur and Marlena the squad turns pure warrior, the bonus grows to +20% and survivability to 38.8M, and once the UR tanks arrive Lucius pays +10% from the bench.
 

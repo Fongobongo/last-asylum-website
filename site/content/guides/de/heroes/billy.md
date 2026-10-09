@@ -17,7 +17,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-billy)).
 
-Billy is a UR warlock who plays as tank. Fully upgraded, he reaches 980,246 Might, rank 6 of 11 among the game's tanks. Unlocking him takes 10 shards ( Billy Shard), and the shards become available once the Warlock Statue reaches level 20. Billy does not appear in the hero list until server day 84.
+Billy is a UR warlock who plays as tank. Fully upgraded, he reaches 980,246 Might, rank 6 of 11 among the game's tanks. Unlocking him takes 10 shards ( Billy Shard), and the shards become available once the Hexenmeister-Statue reaches level 20. Billy does not appear in the hero list until server day 84.
 
 | Stat | Value |
 |---|---|
@@ -28,7 +28,7 @@ Billy is a UR warlock who plays as tank. Fully upgraded, he reaches 980,246 Migh
 | Max stars | 50 |
 | Attack speed | one hit every 0.83 s |
 | Shards to unlock | Billy Shard × 10 |
-| Faction building | Warlock Statue, level 20 |
+| Faction building | Hexenmeister-Statue, level 20 |
 | Skills | 5, full set |
 | Trait | Helpful |
 | Faction advantage | Warlocks take 20% less damage from Rangers |
@@ -36,7 +36,7 @@ Billy is a UR warlock who plays as tank. Fully upgraded, he reaches 980,246 Migh
 | Awakening opens | on day 141 of the season |
 | Exclusive weapon | on day 64 of the season |
 
-Awakening and the Exclusive Weapon follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 141 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Exclusive Weapon becomes available on day 64 of the season.
+Awakening and the Exklusive Waffe follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 141 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Exklusive Waffe becomes available on day 64 of the season.
 
 ## Why he matters
 
@@ -304,9 +304,9 @@ Every skill goes up to level 40 with Skill Badge: one skill costs 436,700 of the
 - HP +425,119, ATK +12,119, DEF +3,812
 - DMG RES +5%
 
-### Exclusive Weapon
+### Exklusive Waffe
 
-“Puppet Frame”, upgraded to 50 stars. At max it adds:
+“Puppenrahmen”, upgraded to 50 stars. At max it adds:
 - HP +1,251,000, ATK +8,750, DEF +8,750
 - Hero DEF +10%
 - Hero HP +10%
@@ -324,7 +324,7 @@ Gains from each progression system on its own. They show where to invest first:
 | Hero levels | 1,826,381 | 12,051 | 12,548 |
 | Stars | 521,736 | 3,441 | 3,583 |
 | Awakening | 425,119 | 12,119 | 3,812 |
-| Exclusive Weapon | 1,251,000 | 8,750 | 8,750 |
+| Exklusive Waffe | 1,251,000 | 8,750 | 8,750 |
 | Total | 4,024,236 | 36,361 | 28,693 |
 
 ## How to play

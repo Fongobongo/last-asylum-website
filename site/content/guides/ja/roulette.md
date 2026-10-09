@@ -22,14 +22,14 @@ The first table lists every entry on the hero wheel together with its chance.
 | 20.80% | Antitoxin Level Supply (SR) x11 |
 | 13.10% | Skill Badge x110 |
 | 11.40% | Gearstone x180 |
-| 9.97% | Cynthia Shard x1 |
-| 9.97% | Cynthia Shard x1 |
-| 9.96% | Cynthia Shard x1 |
-| 1.00% | Cynthia Shard x5 |
-| 1.00% | Cynthia Shard x2 |
-| 1.00% | Cynthia Shard x2 |
+| 9.97% | シンシア Shard x1 |
+| 9.97% | シンシア Shard x1 |
+| 9.96% | シンシア Shard x1 |
+| 1.00% | シンシア Shard x5 |
+| 1.00% | シンシア Shard x2 |
+| 1.00% | シンシア Shard x2 |
 | 0.20% | UR Sword x1 |
-| 0.10% | Cynthia Shard x100 |
+| 0.10% | シンシア Shard x100 |
 
 Shards come up in about a third of spins, but almost always one at a time, and the larger payouts stay rare.
 

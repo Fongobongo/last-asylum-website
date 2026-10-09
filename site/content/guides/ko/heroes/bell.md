@@ -1,6 +1,6 @@
 ---
-title: "Bell: 스킬, 빌드, 육성"
-description: "Bell is a UR ranger who plays as support. Fully upgraded, she reaches 920,570 Might, rank 2 of 5 among the game's support heroes. Unlocking her takes 10 shards ( Bell Sha…"
+title: "벨: 스킬, 빌드, 육성"
+description: "벨 is a UR ranger who plays as support. Fully upgraded, she reaches 920,570 Might, rank 2 of 5 among the game's support heroes. Unlocking her takes 10 shards ( 벨 Sha…"
 videoTopic: "heroes"
 lang: ko
 updated: "2026-09-19"
@@ -17,7 +17,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-bell)).
 
-Bell is a UR ranger who plays as support. Fully upgraded, she reaches 920,570 Might, rank 2 of 5 among the game's support heroes. Unlocking her takes 10 shards ( Bell Shard), and the shards become available once the Ranger Statue reaches level 20. Bell does not appear in the hero list until server day 70.
+벨 is a UR ranger who plays as support. Fully upgraded, she reaches 920,570 Might, rank 2 of 5 among the game's support heroes. Unlocking her takes 10 shards ( 벨 Shard), and the shards become available once the 레인저 조각상 reaches level 20. 벨 does not appear in the hero list until server day 70.
 
 | Stat | Value |
 |---|---|
@@ -27,8 +27,8 @@ Bell is a UR ranger who plays as support. Fully upgraded, she reaches 920,570 Mi
 | Max Might | 920,570 |
 | Max stars | 50 |
 | Attack speed | one hit every 0.83 s |
-| Shards to unlock | Bell Shard × 10 |
-| Faction building | Ranger Statue, level 20 |
+| Shards to unlock | 벨 Shard × 10 |
+| Faction building | 레인저 조각상, level 20 |
 | Skills | 5, full set |
 | Trait | Diligent |
 | Faction advantage | Rangers take 20% less damage from Warriors |
@@ -36,13 +36,13 @@ Bell is a UR ranger who plays as support. Fully upgraded, she reaches 920,570 Mi
 | Awakening opens | on day 197 of the season |
 | Exclusive weapon | on day 120 of the season |
 
-Awakening and the Exclusive Weapon follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 197 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Exclusive Weapon becomes available on day 120 of the season.
+Awakening and the 전용 무기 follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 197 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The 전용 무기 becomes available on day 120 of the season.
 
 ## Why she matters
 
 Role: A healing support for a ranger squad, whose Healing Sound restores 540% of ATK to the lowest-HP ally. The heal lands every 5 seconds, and the ultimate Inspiration raises the attack of the three strongest allies by 55%, more than any other support provides.
 
-Worth investing: Bell reaches exactly the same maximum Might as Harper and Nicole (920,570), all three sit in tier A and differ only in their skills. She arrives late, on server day 70, and the game's best squad manages without her, so she comes after Harper in the investment queue.
+Worth investing: 벨 reaches exactly the same maximum Might as 하퍼 and 니콜 (920,570), all three sit in tier A and differ only in their skills. She arrives late, on server day 70, and the game's best squad manages without her, so she comes after 하퍼 in the investment queue.
 
 ## Skills
 
@@ -152,7 +152,7 @@ Support skill: active while the hero is outside the main squad.
 
 ## Compared to other heroes
 
-Below, Bell is compared with the other heroes of the same role, of which the game has 5 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
+Below, 벨 is compared with the other heroes of the same role, of which the game has 5 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
 
 ### Stats
 
@@ -160,11 +160,11 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 
 | Hero | Faction | Rarity | Max Might | HP growth | ATK growth | DEF growth |
 |---|---|---|---|---|---|---|
-| Harper | Warrior | UR | 920,570 | 0.7 | 1.3 | 0.94 |
-| Bell | Ranger | UR | 920,570 | 0.7 | 1.3 | 0.94 |
-| Nicole | Warlock | UR | 920,570 | 0.7 | 1.3 | 0.94 |
-| Stellar | Warlock | SSR | 695,511 | 0.52 | 0.8 | 0.64 |
-| Celia | Warrior | SSR | 691,655 | 0.5 | 0.82 | 0.63 |
+| 하퍼 | Warrior | UR | 920,570 | 0.7 | 1.3 | 0.94 |
+| 벨 | Ranger | UR | 920,570 | 0.7 | 1.3 | 0.94 |
+| 니콜 | Warlock | UR | 920,570 | 0.7 | 1.3 | 0.94 |
+| 스타더스트 | Warlock | SSR | 695,511 | 0.52 | 0.8 | 0.64 |
+| 실리아 | Warrior | SSR | 691,655 | 0.5 | 0.82 | 0.63 |
 
 ### Skill numbers
 
@@ -172,27 +172,27 @@ Musical Note · damage multiplier · rank 2 of 5
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Harper | Warrior | Bubble | Auto Attack | 747% | single target |
-| Bell | Ranger | Musical Note | Auto Attack | 747% | single target |
-| Nicole | Warlock | Ember Dust | Auto Attack | 747% | single target |
-| Stellar | Warlock | Meteorite | Auto Attack | 594% | single target |
-| Celia | Warrior | Flying Blade | Auto Attack | 297% | single target |
+| 하퍼 | Warrior | Bubble | Auto Attack | 747% | single target |
+| 벨 | Ranger | Musical Note | Auto Attack | 747% | single target |
+| 니콜 | Warlock | Ember Dust | Auto Attack | 747% | single target |
+| 스타더스트 | Warlock | Meteorite | Auto Attack | 594% | single target |
+| 실리아 | Warrior | Flying Blade | Auto Attack | 297% | single target |
 
-Stronger: Harper, Bubble hits for 747% of ATK on a single target.
+Stronger: 하퍼, Bubble hits for 747% of ATK on a single target.
 
 Healing Sound · healing · rank 2 of 3
 
 | Hero | Faction | Skill | Skill type | Healing, % | Heals |
 |---|---|---|---|---|---|
-| Stellar | Warlock | Final Starlight | Passive Skill | 1,320% | for allies |
-| Bell | Ranger | Healing Sound | Active Skill | 540% | for allies |
-| Nicole | Warlock | Heartwarming Flame | Active Skill | 241.8% | for allies |
+| 스타더스트 | Warlock | Final Starlight | Passive Skill | 1,320% | for allies |
+| 벨 | Ranger | Healing Sound | Active Skill | 540% | for allies |
+| 니콜 | Warlock | Heartwarming Flame | Active Skill | 241.8% | for allies |
 
-Stronger: Stellar, Final Starlight heals for 1,320% for allies.
+Stronger: 스타더스트, Final Starlight heals for 1,320% for allies.
 
 ## Upgrade order
 
-Skill priority: Healing Sound comes first, since healing is the reason Bell holds a place in the squad. Inspiration is next, as an attack bonus for the three strongest allies pays off faster than Bell's own damage. Battle Anthem follows, and the auto attack Musical Note comes last with the support skill: 747% at 50 stars and no healing at all.
+Skill priority: Healing Sound comes first, since healing is the reason 벨 holds a place in the squad. Inspiration is next, as an attack bonus for the three strongest allies pays off faster than 벨's own damage. Battle Anthem follows, and the auto attack Musical Note comes last with the support skill: 747% at 50 stars and no healing at all.
 
 ### What stars and levels unlock
 
@@ -233,7 +233,7 @@ The hero has 150 levels, and reaching the last one costs Antitoxin 5,248,471,500
 
 ### Stars
 
-Reaching 50 stars takes 975 shards ( Bell Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
+Reaching 50 stars takes 975 shards ( 벨 Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
 
 | Stars | HP | ATK | DEF | Cost |
 |---|---|---|---|---|
@@ -256,13 +256,13 @@ Every skill goes up to level 40 with Skill Badge: one skill costs 436,700 of the
 
 ### Awakening
 
-40 levels, 2,870 awakening shards in total (Bell Awaken Shard). At max it adds:
+40 levels, 2,870 awakening shards in total (벨 Awaken Shard). At max it adds:
 - HP +425,119, ATK +12,119, DEF +3,812
 - DMG RES +5%
 
-### Exclusive Weapon
+### 전용 무기
 
-“Tiny Drum”, upgraded to 50 stars. At max it adds:
+“경쾌한 소고”, upgraded to 50 stars. At max it adds:
 - HP +1,251,000, ATK +8,750, DEF +8,750
 - Hero DEF +10%
 - Hero HP +10%
@@ -280,16 +280,16 @@ Gains from each progression system on its own. They show where to invest first:
 | Hero levels | 1,217,588 | 16,150 | 11,678 |
 | Stars | 347,824 | 4,612 | 3,335 |
 | Awakening | 425,119 | 12,119 | 3,812 |
-| Exclusive Weapon | 1,251,000 | 8,750 | 8,750 |
+| 전용 무기 | 1,251,000 | 8,750 | 8,750 |
 | Total | 3,241,530 | 41,631 | 27,575 |
 
 ## How to play
 
-Bell, Harper and Nicole all reach the same maximum Might of 920,570, and only their skills separate them. Bell's Healing Sound returns 540% of ATK to an ally every 5 seconds, while Nicole's Heartwarming Flame heals two allies for 330,000 plus 241.8% of ATK and Harper does not heal at all. The ultimate Inspiration raises the attack of the three strongest allies by 55% against 34.5% for Harper, whose bonus reaches all five instead.
+벨, 하퍼 and 니콜 all reach the same maximum Might of 920,570, and only their skills separate them. 벨's Healing Sound returns 540% of ATK to an ally every 5 seconds, while 니콜's Heartwarming Flame heals two allies for 330,000 plus 241.8% of ATK and 하퍼 does not heal at all. The ultimate Inspiration raises the attack of the three strongest allies by 55% against 34.5% for 하퍼, whose bonus reaches all five instead.
 
-Bell arrives on server day 70, later than Harper on day 21. Her shards open with the Ranger Statue at level 20, and hiring her takes 10 of them. The Exclusive Weapon comes on season day 120, and Awakening opens last of all fifteen UR heroes, on day 197, so Bell reaches her full ceiling later than anyone.
+벨 arrives on server day 70, later than 하퍼 on day 21. Her shards open with the 레인저 조각상 at level 20, and hiring her takes 10 of them. The 전용 무기 comes on season day 120, and Awakening opens last of all fifteen UR heroes, on day 197, so 벨 reaches her full ceiling later than anyone.
 
 Stars and Awakening are the expensive part of the queue. 975 shards give 347,824 HP and 4,612 ATK, while 2,870 awakening shards add 425,119 HP and 12,119 ATK. Healing Sound reaches 540% at 45 stars, and below that threshold the heal is noticeably weaker.
 
-Bell stands once in the squad review, in a tier B line-up: with Arthur, Louis, Red Lady and Ulfrid the five withstand 125.2M damage at a +5% bonus. Her passive Battle Anthem raises attack by 18% for rangers alone, and there are three of them there, Louis, Red Lady and Bell herself, so a full ranger squad gets more out of her.
+벨 stands once in the squad review, in a tier B line-up: with 아서, 루이스, 레드 레이디 and 울프레드 the five withstand 125.2M damage at a +5% bonus. Her passive Battle Anthem raises attack by 18% for rangers alone, and there are three of them there, 루이스, 레드 레이디 and 벨 herself, so a full ranger squad gets more out of her.
 

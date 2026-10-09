@@ -45,11 +45,11 @@ Taking the building from level 1 to 30 costs Grain 851,619,792, Timber 2,566,036
 
 ## How to use it
 
-The Builder's Hut takes 199 days and 10 hours, less than any other building at Sanctuary level 3, where the three storehouses ask 299 days and 4 hours apiece. It carries 210,700 Might against the 287,000 of the Herb Storage, and on that count it trails its neighbors.
+The Builder's Hut takes 199 days and 10 hours, less than any other building at Sanctuary level 3, where the three storehouses ask 299 days and 4 hours apiece. It carries 210,700 Might against the 287,000 of the Botica, and on that count it trails its neighbors.
 
 The value of the hut sits in its free window, which grows unevenly. Level 20 arrives after 8 days and 20 hours and gives 900 seconds, a quarter of an hour. The first five minutes arrive at level 10, after 8 hours 13 minutes. Level 30 stretches the window to 1,800 seconds, and that second quarter of an hour costs another 190 days 14 hours, over twenty times as much as the first.
 
-The window itself catches only short upgrades. Across the whole city 192 upgrade steps out of 974 finish inside half an hour, and they sit on the lower building levels: the hut closes its own steps free up to level 6, the Antitoxin Workshop up to level 8.
+The window itself catches only short upgrades. Across the whole city 192 upgrade steps out of 974 finish inside half an hour, and they sit on the lower building levels: the hut closes its own steps free up to level 6, the Oficina de Antitoxinas up to level 8.
 
-Past that, time comes off by other means: allied help through the Alliance Hall reaches 19 minutes 40 seconds on a queue, and paid build queues sell from 1.99 dollars. The hut is therefore taken to level 20 early, for its 900 seconds and 37,100 Might, while its top ten levels wait.
+Past that, time comes off by other means: allied help through the Salão da Aliança reaches 19 minutes 40 seconds on a queue, and paid build queues sell from 1.99 dollars. The hut is therefore taken to level 20 early, for its 900 seconds and 37,100 Might, while its top ten levels wait.
 

@@ -1,6 +1,6 @@
 ---
-title: "Raven Workshop: levels, cost and upgrades"
-description: "Raven Workshop turns out Lv.1 Raven Gear Chests, the base of the gear worn by the squad's sixth fighter. Production stops after a day, so the workshop is emptied daily, a…"
+title: "レイヴンの工房: levels, cost and upgrades"
+description: "レイヴンの工房 turns out Lv.1 Raven Gear Chests, the base of the gear worn by the squad's sixth fighter. Production stops after a day, so the workshop is emptied daily, a…"
 videoTopic: "buildings"
 lang: ja
 updated: "2026-09-19"
@@ -16,7 +16,7 @@ type: guide
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-raven-workshop)).
 
 
-Raven Workshop turns out Lv.1 Raven Gear Chests, the base of the gear worn by the squad's sixth fighter. Production stops after a day, so the workshop is emptied daily, and each gear level costs three items of the level below. The building unlocks after Sanctuary level 15 and goes up to level 30. Only one can be built. Levels raise: raven Gear Chest Production Time, max Production Time.
+レイヴンの工房 turns out Lv.1 Raven Gear Chests, the base of the gear worn by the squad's sixth fighter. Production stops after a day, so the workshop is emptied daily, and each gear level costs three items of the level below. The building unlocks after Sanctuary level 15 and goes up to level 30. Only one can be built. Levels raise: raven Gear Chest Production Time, max Production Time.
 
 | Stat | Value |
 |---|---|
@@ -45,11 +45,11 @@ Taking the building from level 1 to 30 costs Grain 850,130,415, Timber 850,130,4
 
 ## How to use it
 
-The Raven Workshop is the only building of Sanctuary level 15, and its first level costs 9 Grain and 9 Timber, one of the cheapest purchases in the city. Chest accumulation stops after a day and stays capped at a day across all thirty levels, while only the production speed grows, from 25% at level 1 to 32.97% at level 30.
+The レイヴンの工房 is the only building of Sanctuary level 15, and its first level costs 9 Grain and 9 Timber, one of the cheapest purchases in the city. Chest accumulation stops after a day and stays capped at a day across all thirty levels, while only the production speed grows, from 25% at level 1 to 32.97% at level 30.
 
 A full upgrade takes 99 days 17 hours, three times less than the 299 days of the three faction statues, and costs 850,130,415 Grain, the same amount of Timber and 417,355,260 Herb. Those three months of building add a third to the production speed, so the workshop joins the common queue instead of jumping ahead of other buildings. Level 25 alone takes 5 days 12 hours and 50,020,000 each of Grain and Timber.
 
 What that third is worth shows in the gear economy of the Raven: an item of every level costs three items of the level below, and one gear cell up to level 12 needs 177,147 Lv.1 chests. The daily cap never gives a missed day back, so the workshop is emptied every day.
 
-The building brings 168,200 Might, close to the Epigraph Workshop with 168,400 and the Smelting Workshop with 168,300. The last five levels take 79% of the build time and no longer change the daily haul of chests.
+The building brings 168,200 Might, close to the ルーン工房 with 168,400 and the 製錬工房 with 168,300. The last five levels take 79% of the build time and no longer change the daily haul of chests.
 

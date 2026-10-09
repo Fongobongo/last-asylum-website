@@ -1,6 +1,6 @@
 ---
-title: "Nomad Trader: levels, cost and upgrades"
-description: "Nomad Trader opens the exchange, where diamonds, medals and event currencies turn into the items a player needs. Rates differ markedly between shops, and the best line fo…"
+title: "유목 상인: levels, cost and upgrades"
+description: "유목 상인 opens the exchange, where diamonds, medals and event currencies turn into the items a player needs. Rates differ markedly between shops, and the best line fo…"
 videoTopic: "buildings"
 lang: ko
 updated: "2026-09-19"
@@ -16,7 +16,7 @@ type: guide
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-nomad-trader)).
 
 
-Nomad Trader opens the exchange, where diamonds, medals and event currencies turn into the items a player needs. Rates differ markedly between shops, and the best line for Expedition medals is 1,000 Gearstones for 300 medals. The building unlocks after Sanctuary level 6 and goes up to level 1. Only one can be built.
+유목 상인 opens the exchange, where diamonds, medals and event currencies turn into the items a player needs. Rates differ markedly between shops, and the best line for Expedition medals is 1,000 Gearstones for 300 medals. The building unlocks after Sanctuary level 6 and goes up to level 1. Only one can be built.
 
 | Stat | Value |
 |---|---|
@@ -40,7 +40,7 @@ This building gives no stat bonus: it unlocks an option rather than percentages.
 
 ## How to use it
 
-Sanctuary level 6 is the busiest step in the city: together with the Nomad Trader it unlocks the Barracks, the Training Grounds and the Scout Squad, and each of those three may stand three times over and rise to level 30. A full upgrade of the training grounds and of the scout squad takes 299 days each, the barracks 199 days, and the queue at that level is booked far ahead. Against them the trader costs 480 Grain and 360 Timber and goes up in seconds.
+Sanctuary level 6 is the busiest step in the city: together with the 유목 상인 it unlocks the 병영, the 훈련장 and the 정찰 부대, and each of those three may stand three times over and rise to level 30. A full upgrade of the training grounds and of the scout squad takes 299 days each, the barracks 199 days, and the queue at that level is booked far ahead. Against them the trader costs 480 Grain and 360 Timber and goes up in seconds.
 
 It brings 100 Might, which is invisible in the city total. The trader works as an exchange: diamonds, medals and event currencies turn into the items a player needs, and rates differ several times over between shops. The best line for Expedition medals gives 1,000 Gearstones for 300 medals.
 

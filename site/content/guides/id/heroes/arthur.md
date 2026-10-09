@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-arthur)).
 
-Arthur is a UR warrior who plays as tank. Fully upgraded, he reaches 1,052,453 Might, rank 3 of 11 among the game's tanks. Unlocking him takes 10 shards ( Arthur Shard), and the shards become available once the Warrior Statue reaches level 20. Server age does not limit Arthur: he is in the hero list from day one.
+Arthur is a UR warrior who plays as tank. Fully upgraded, he reaches 1,052,453 Might, rank 3 of 11 among the game's tanks. Unlocking him takes 10 shards ( Arthur Shard), and the shards become available once the Patung Fighter reaches level 20. Server age does not limit Arthur: he is in the hero list from day one.
 
 A living fortress! An indomitable warrior who refuses to fall.
 
@@ -28,14 +28,14 @@ A living fortress! An indomitable warrior who refuses to fall.
 | Max stars | 50 |
 | Attack speed | one hit every 0.9 s |
 | Shards to unlock | Arthur Shard × 10 |
-| Faction building | Warrior Statue, level 20 |
+| Faction building | Patung Fighter, level 20 |
 | Skills | 5, full set |
 | Trait | Diligent |
 | Faction advantage | Warriors take 20% less damage from Warlocks |
 | Awakening opens | on day 43 of the season |
 | Exclusive weapon | on day 204 of the season |
 
-Awakening and the Exclusive Weapon follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 43 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Exclusive Weapon becomes available on day 204 of the season.
+Awakening and the Senjata Eksklusif follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 43 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Senjata Eksklusif becomes available on day 204 of the season.
 
 ## Why he matters
 
@@ -159,16 +159,16 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 
 | Hero | Faction | Rarity | Max Might | HP growth | ATK growth | DEF growth |
 |---|---|---|---|---|---|---|
-| Shadow | Ranger | UR | 1,075,906 | 1.43 | 0.78 | 1.06 |
-| Daskal | Warrior | UR | 1,057,192 | 1.36 | 0.81 | 1.05 |
+| Ying | Ranger | UR | 1,075,906 | 1.43 | 0.78 | 1.06 |
+| Duskar | Warrior | UR | 1,057,192 | 1.36 | 0.81 | 1.05 |
 | Arthur | Warrior | UR | 1,052,453 | 1.34 | 0.82 | 1.05 |
 | Louis | Ranger | UR | 1,044,341 | 1.31 | 0.83 | 1.05 |
-| Ulfrid | Warlock | UR | 1,033,739 | 1.27 | 0.85 | 1.04 |
+| Ulfred | Warlock | UR | 1,033,739 | 1.27 | 0.85 | 1.04 |
 | Billy | Warlock | UR | 980,246 | 1.05 | 0.97 | 1.01 |
 | Lucius | Warrior | SSR | 778,239 | 0.9 | 0.54 | 0.7 |
 | Bella | Warrior | SSR | 773,500 | 0.88 | 0.55 | 0.7 |
 | Griffith | Ranger | SSR | 764,263 | 0.85 | 0.56 | 0.69 |
-| Hastar | Warlock | SSR | 750,047 | 0.79 | 0.59 | 0.69 |
+| Hastur | Warlock | SSR | 750,047 | 0.79 | 0.59 | 0.69 |
 | Durant | Warrior | SR | 596,226 | 0.72 | 0.45 | 0.57 |
 
 ### Skill numbers
@@ -177,25 +177,25 @@ Battle Shield · damage multiplier · rank 4 of 11
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Daskal | Warrior | Battle Will | Auto Attack | 996% | single target |
+| Duskar | Warrior | Battle Will | Auto Attack | 996% | single target |
 | Louis | Ranger | Shackles | Auto Attack | 996% | single target |
-| Ulfrid | Warlock | Sharp Claw | Auto Attack | 996% | single target |
+| Ulfred | Warlock | Sharp Claw | Auto Attack | 996% | single target |
 | Arthur | Warrior | Battle Shield | Auto Attack | 900% | single target |
 | Billy | Warlock | Wooden Frame | Auto Attack | 747% | single target |
 
-Stronger: Daskal, Battle Will hits for 996% of ATK on a single target.
+Stronger: Duskar, Battle Will hits for 996% of ATK on a single target.
 
 Earthshattering · damage multiplier · rank 6 of 9
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Hastar | Warlock | Wrath of Old Gods | Ultimate Skill | 3,623.4% | area |
+| Hastur | Warlock | Wrath of Old Gods | Ultimate Skill | 3,623.4% | area |
 | Billy | Warlock | Truth and Lies | Ultimate Skill | 2,916% | area |
 | Bella | Warrior | Bloody Requiem | Ultimate Skill | 2,886.84% | single target |
 | Lucius | Warrior | Whirlwind Cut | Ultimate Skill | 2,029.2% | single target |
 | Arthur | Warrior | Earthshattering | Ultimate Skill | 1,689% | area |
 
-Stronger: Hastar, Wrath of Old Gods hits for 3,623.4% of ATK in an area.
+Stronger: Hastur, Wrath of Old Gods hits for 3,623.4% of ATK in an area.
 
 Earthshattering · damage taken reduction · rank 5 of 15
 
@@ -214,10 +214,10 @@ Rock Solid · shield from max HP · rank 1 of 3
 | Hero | Faction | Skill | Skill type | Shield, % of HP | Shield for |
 |---|---|---|---|---|---|
 | Arthur | Warrior | Rock Solid | Active Skill | 30% | for the caster |
-| Daskal | Warrior | Resolute Fight | Passive Skill | 22.5% | for allies |
-| Hastar | Warlock | Scorn Guard | Passive Skill | 16.2% | for the caster |
+| Duskar | Warrior | Resolute Fight | Passive Skill | 22.5% | for allies |
+| Hastur | Warlock | Scorn Guard | Passive Skill | 16.2% | for the caster |
 
-Closest counterpart: Daskal, Resolute Fight shields for 22.5% of max HP for allies.
+Closest counterpart: Duskar, Resolute Fight shields for 22.5% of max HP for allies.
 
 Strong Will · damage taken reduction · rank 15 of 15
 
@@ -303,9 +303,9 @@ Every skill goes up to level 40 with Skill Badge: one skill costs 436,700 of the
 - HP +425,119, ATK +12,119, DEF +3,812
 - DMG RES +5%
 
-### Exclusive Weapon
+### Senjata Eksklusif
 
-“Stone Shield”, upgraded to 50 stars. At max it adds:
+“Perisai Batu Kokoh”, upgraded to 50 stars. At max it adds:
 - HP +1,251,000, ATK +8,750, DEF +8,750
 - Hero DEF +10%
 - Hero HP +10%
@@ -323,16 +323,16 @@ Gains from each progression system on its own. They show where to invest first:
 | Hero levels | 2,330,811 | 10,187 | 13,045 |
 | Stars | 665,834 | 2,909 | 3,725 |
 | Awakening | 425,119 | 12,119 | 3,812 |
-| Exclusive Weapon | 1,251,000 | 8,750 | 8,750 |
+| Senjata Eksklusif | 1,251,000 | 8,750 | 8,750 |
 | Total | 4,672,764 | 33,965 | 29,332 |
 
 ## How to play
 
-Daskal reaches 1,057,192 Might against 1,052,453 for Arthur, and their shields have different recipients: Rock Solid covers Arthur himself for 30% of his HP on a 5 second cooldown, while Daskal's Bloodshed Defense covers his allies. Billy, at 980,246 Might, takes 36% of damage off the squad against 35% from Earthshattering, but only Arthur adds another 9% for allied tanks through Strong Will.
+Duskar reaches 1,057,192 Might against 1,052,453 for Arthur, and their shields have different recipients: Rock Solid covers Arthur himself for 30% of his HP on a 5 second cooldown, while Duskar's Bloodshed Defense covers his allies. Billy, at 980,246 Might, takes 36% of damage off the squad against 35% from Earthshattering, but only Arthur adds another 9% for allied tanks through Strong Will.
 
-No server age condition applies to Arthur. The pity counter in the standard recruit list pays 10 of his shards every 50 recruits and nobody else's, and a first top-up of any amount hands over 140 more. Awakening, however, waits for season day 43 and the Exclusive Weapon for day 204.
+No server age condition applies to Arthur. The pity counter in the standard recruit list pays 10 of his shards every 50 recruits and nobody else's, and a first top-up of any amount hands over 140 more. Awakening, however, waits for season day 43 and the Senjata Eksklusif for day 204.
 
 Awakening costs the most: 2,870 shards for 40 levels against 975 for all 50 stars, returning 425,119 HP and 12,119 ATK. Skills come next at 436,700 badges for each of the four, while the 5,248,471,500 Antitoxin spent on levels accumulates on its own as the game goes.
 
-In the best squad of the game Arthur stands with Billy, Ulfrid, Annie and Joker for 131.1M of survivability and 100 points of effectiveness; without him 64 points remain. A squad of five tanks survives longer at 136.6M but falls back to 77 in effectiveness, and with Lucius, Sivir, Bella and Marlena he anchors a budget line-up at the full +20% faction bonus.
+In the best squad of the game Arthur stands with Billy, Ulfred, Annie and Joker for 131.1M of survivability and 100 points of effectiveness; without him 64 points remain. A squad of five tanks survives longer at 136.6M but falls back to 77 in effectiveness, and with Lucius, Sivir, Bella and Marlena he anchors a budget line-up at the full +20% faction bonus.
 

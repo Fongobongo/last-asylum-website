@@ -41,7 +41,7 @@ Server age decides which events already run there and how far the Era of Revival
 | August 2026 | 305-345 | 11-41 |
 | September 2026 | 346 onwards | up to 10 |
 
-The exact server day is easier to read in the game: it shows in the Monument feed and in the event schedule, and what opens on which day is collected on the Events page.
+The exact server day is easier to read in the game: it shows in the Monumen feed and in the event schedule, and what opens on which day is collected on the Events page.
 
 ## Server time
 
@@ -49,9 +49,9 @@ Every event, reset and title queue runs on server time rather than the phone clo
 
 ## Visiting another server
 
-Another server can be viewed from the caravan screen: instead of attacking a caravan the map is scrolled to inspect foreign territories, and a server is found by its number. The second route runs through the Kingdom War: the match information tab lists the group of servers, and its View button moves the camera into a foreign kingdom. Coordinates of a foreign city are saved with the star on it, marked as friend or enemy.
+Another server can be viewed from the caravan screen: instead of attacking a caravan the map is scrolled to inspect foreign territories, and a server is found by its number. The second route runs through the Ekspedisi Lintas Negara: the match information tab lists the group of servers, and its View button moves the camera into a foreign kingdom. Coordinates of a foreign city are saved with the star on it, marked as friend or enemy.
 
-Teleporting with troops to another server works only against the Alliance Duel opponent on raid day and against the Kingdom War opponents, and such a move lasts a day. Plundering caravans and covert operations is allowed only on servers of the same group, and the "exclude own server" checkbox on the caravan screen removes neighbours from the list, which most servers forbid attacking by their own rules.
+Teleporting with troops to another server works only against the Alliance Duel opponent on raid day and against the Ekspedisi Lintas Negara opponents, and such a move lasts a day. Plundering caravans and covert operations is allowed only on servers of the same group, and the "exclude own server" checkbox on the caravan screen removes neighbours from the list, which most servers forbid attacking by their own rules.
 
 ## Whether migration is coming
 

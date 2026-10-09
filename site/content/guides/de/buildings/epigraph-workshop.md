@@ -1,6 +1,6 @@
 ---
-title: "Epigraph Workshop: levels, cost and upgrades"
-description: "Epigraph Workshop crafts Epigraphs, which fit into the Raven's blueprint and strengthen the skill it carries. The top rank needs the workshop at level 20 and 800 fragment…"
+title: "Epigraph-Werkstatt: levels, cost and upgrades"
+description: "Epigraph-Werkstatt crafts Epigraphs, which fit into the Raven's blueprint and strengthen the skill it carries. The top rank needs the workshop at level 20 and 800 fragment…"
 videoTopic: "buildings"
 lang: de
 updated: "2026-09-19"
@@ -16,7 +16,7 @@ type: guide
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-epigraph-workshop)).
 
 
-Epigraph Workshop crafts Epigraphs, which fit into the Raven's blueprint and strengthen the skill it carries. The top rank needs the workshop at level 20 and 800 fragments, and fragments of different ranks are not interchangeable. The building unlocks after Sanctuary level 5 and goes up to level 30. Only one can be built.
+Epigraph-Werkstatt crafts Epigraphs, which fit into the Raven's blueprint and strengthen the skill it carries. The top rank needs the workshop at level 20 and 800 fragments, and fragments of different ranks are not interchangeable. The building unlocks after Sanctuary level 5 and goes up to level 30. Only one can be built.
 
 | Stat | Value |
 |---|---|
@@ -46,11 +46,11 @@ This building gives no stat bonus: it unlocks an option rather than percentages.
 
 ## How to use it
 
-The Epigraph Workshop is needed at level 20: that is where the top epigraph rank opens, the one that costs 800 UR fragments. Level 20 takes 4 days 12 hours of pure build time and 70,470,680 resources, while the remaining ten levels ask for 94 days and another two billion. The crafting rank does not move with them, only the Might: 31,800 at level 20 against 168,400 at level 30.
+The Epigraph-Werkstatt is needed at level 20: that is where the top epigraph rank opens, the one that costs 800 UR fragments. Level 20 takes 4 days 12 hours of pure build time and 70,470,680 resources, while the remaining ten levels ask for 94 days and another two billion. The crafting rank does not move with them, only the Might: 31,800 at level 20 against 168,400 at level 30.
 
-There is no hurry at Sanctuary level 5, where the workshop unlocks. Epigraphs go into the Raven blueprint, and the first blueprint arrives at evolution level 10, while the Raven itself comes from the Raven Nest at Sanctuary level 7, two levels later. The first ten levels take 4 hours and 820,680 resources, so they are raised at once.
+There is no hurry at Sanctuary level 5, where the workshop unlocks. Epigraphs go into the Raven blueprint, and the first blueprint arrives at evolution level 10, while the Raven itself comes from the Rabennest at Sanctuary level 7, two levels later. The first ten levels take 4 hours and 820,680 resources, so they are raised at once.
 
-The neighbors at Sanctuary level 5 weigh more: the Smelting Workshop and the Weaving Workshop need 99 days each and stand five times over, the Alliance Hall 199 days, Squad 4 299 days. Alone among them, the Epigraph Workshop finishes in 98 days 20 hours.
+The neighbors at Sanctuary level 5 weigh more: the Schmelzwerkstatt and the Weberei need 99 days each and stand five times over, the Allianz-Halle 199 days, Truppe 4 299 days. Alone among them, the Epigraph-Werkstatt finishes in 98 days 20 hours.
 
 The building carries no stat bonus at all, so levels above 20 are raised for the Might and only while the queue has nothing better to hold. Those twenty levels take under five percent of the total build time, one of the widest gaps in the city between a working level and the highest.
 

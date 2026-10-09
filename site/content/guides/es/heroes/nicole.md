@@ -17,7 +17,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-nicole)).
 
-Nicole is a UR warlock who plays as support. Fully upgraded, she reaches 920,570 Might, rank 3 of 5 among the game's support heroes. Unlocking her takes 10 shards ( Nicole Shard), and the shards become available once the Warlock Statue reaches level 20. Nicole does not appear in the hero list until server day 98.
+Nicole is a UR warlock who plays as support. Fully upgraded, she reaches 920,570 Might, rank 3 of 5 among the game's support heroes. Unlocking her takes 10 shards ( Nicole Shard), and the shards become available once the Estatua del brujo reaches level 20. Nicole does not appear in the hero list until server day 98.
 
 | Stat | Value |
 |---|---|
@@ -28,7 +28,7 @@ Nicole is a UR warlock who plays as support. Fully upgraded, she reaches 920,570
 | Max stars | 50 |
 | Attack speed | one hit every 0.83 s |
 | Shards to unlock | Nicole Shard × 10 |
-| Faction building | Warlock Statue, level 20 |
+| Faction building | Estatua del brujo, level 20 |
 | Skills | 5, full set |
 | Trait | Helpful |
 | Faction advantage | Warlocks take 20% less damage from Rangers |
@@ -36,7 +36,7 @@ Nicole is a UR warlock who plays as support. Fully upgraded, she reaches 920,570
 | Awakening opens | on day 169 of the season |
 | Exclusive weapon | on day 92 of the season |
 
-Awakening and the Exclusive Weapon follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 169 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Exclusive Weapon becomes available on day 92 of the season.
+Awakening and the Arma exclusiva follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 169 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Arma exclusiva becomes available on day 92 of the season.
 
 ## Why she matters
 
@@ -163,7 +163,7 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 | Harper | Warrior | UR | 920,570 | 0.7 | 1.3 | 0.94 |
 | Bell | Ranger | UR | 920,570 | 0.7 | 1.3 | 0.94 |
 | Nicole | Warlock | UR | 920,570 | 0.7 | 1.3 | 0.94 |
-| Stellar | Warlock | SSR | 695,511 | 0.52 | 0.8 | 0.64 |
+| Estelar | Warlock | SSR | 695,511 | 0.52 | 0.8 | 0.64 |
 | Celia | Warrior | SSR | 691,655 | 0.5 | 0.82 | 0.63 |
 
 ### Skill numbers
@@ -175,7 +175,7 @@ Ember Dust · damage multiplier · rank 3 of 5
 | Harper | Warrior | Bubble | Auto Attack | 747% | single target |
 | Bell | Ranger | Musical Note | Auto Attack | 747% | single target |
 | Nicole | Warlock | Ember Dust | Auto Attack | 747% | single target |
-| Stellar | Warlock | Meteorite | Auto Attack | 594% | single target |
+| Estelar | Warlock | Meteorite | Auto Attack | 594% | single target |
 | Celia | Warrior | Flying Blade | Auto Attack | 297% | single target |
 
 Stronger: Harper, Bubble hits for 747% of ATK on a single target.
@@ -193,11 +193,11 @@ Heartwarming Flame · healing · rank 3 of 3
 
 | Hero | Faction | Skill | Skill type | Healing, % | Heals |
 |---|---|---|---|---|---|
-| Stellar | Warlock | Final Starlight | Passive Skill | 1,320% | for allies |
+| Estelar | Warlock | Final Starlight | Passive Skill | 1,320% | for allies |
 | Bell | Ranger | Healing Sound | Active Skill | 540% | for allies |
 | Nicole | Warlock | Heartwarming Flame | Active Skill | 241.8% | for allies |
 
-Stronger: Stellar, Final Starlight heals for 1,320% for allies.
+Stronger: Estelar, Final Starlight heals for 1,320% for allies.
 
 ## Upgrade order
 
@@ -269,9 +269,9 @@ Every skill goes up to level 40 with Skill Badge: one skill costs 436,700 of the
 - HP +425,119, ATK +12,119, DEF +3,812
 - DMG RES +5%
 
-### Exclusive Weapon
+### Arma exclusiva
 
-“Flame Cloak”, upgraded to 50 stars. At max it adds:
+“Manto de llamas”, upgraded to 50 stars. At max it adds:
 - HP +1,251,000, ATK +8,750, DEF +8,750
 - Hero DEF +10%
 - Hero HP +10%
@@ -289,7 +289,7 @@ Gains from each progression system on its own. They show where to invest first:
 | Hero levels | 1,217,588 | 16,150 | 11,678 |
 | Stars | 347,824 | 4,612 | 3,335 |
 | Awakening | 425,119 | 12,119 | 3,812 |
-| Exclusive Weapon | 1,251,000 | 8,750 | 8,750 |
+| Arma exclusiva | 1,251,000 | 8,750 | 8,750 |
 | Total | 3,241,530 | 41,631 | 27,575 |
 
 ## How to play

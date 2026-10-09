@@ -17,7 +17,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-harper)).
 
-Harper is a UR warrior who plays as support. Fully upgraded, he reaches 920,570 Might, rank 1 of 5 among the game's support heroes. Unlocking him takes 10 shards ( Harper Shard), and the shards become available once the Warrior Statue reaches level 20. Harper does not appear in the hero list until server day 21.
+Harper is a UR warrior who plays as support. Fully upgraded, he reaches 920,570 Might, rank 1 of 5 among the game's support heroes. Unlocking him takes 10 shards ( Harper Shard), and the shards become available once the Estátua do Guerreiro reaches level 20. Harper does not appear in the hero list until server day 21.
 
 Victory lies in the rhythm. Chant to empower the soul.
 
@@ -30,7 +30,7 @@ Victory lies in the rhythm. Chant to empower the soul.
 | Max stars | 50 |
 | Attack speed | one hit every 0.83 s |
 | Shards to unlock | Harper Shard × 10 |
-| Faction building | Warrior Statue, level 20 |
+| Faction building | Estátua do Guerreiro, level 20 |
 | Skills | 5, full set |
 | Trait | Diligent |
 | Faction advantage | Warriors take 20% less damage from Warlocks |
@@ -38,7 +38,7 @@ Victory lies in the rhythm. Chant to empower the soul.
 | Awakening opens | on day 85 of the season |
 | Exclusive weapon | on day 134 of the season |
 
-Awakening and the Exclusive Weapon follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 85 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Exclusive Weapon becomes available on day 134 of the season.
+Awakening and the Arma Exclusiva follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 85 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Arma Exclusiva becomes available on day 134 of the season.
 
 ## Why he matters
 
@@ -252,7 +252,7 @@ Every skill goes up to level 40 with Skill Badge: one skill costs 436,700 of the
 - HP +425,119, ATK +12,119, DEF +3,812
 - DMG RES +5%
 
-### Exclusive Weapon
+### Arma Exclusiva
 
 “Bard's Horn”, upgraded to 50 stars. At max it adds:
 - HP +1,251,000, ATK +8,750, DEF +8,750
@@ -272,14 +272,14 @@ Gains from each progression system on its own. They show where to invest first:
 | Hero levels | 1,217,588 | 16,150 | 11,678 |
 | Stars | 347,824 | 4,612 | 3,335 |
 | Awakening | 425,119 | 12,119 | 3,812 |
-| Exclusive Weapon | 1,251,000 | 8,750 | 8,750 |
+| Arma Exclusiva | 1,251,000 | 8,750 | 8,750 |
 | Total | 3,241,530 | 41,631 | 27,575 |
 
 ## How to play
 
 Three UR support heroes reach the same 920,570 Might, and what they do in battle is all that separates them. Harper's ultimate recharges in 14 seconds like Bell's, Nicole needs 15, and War Flute Sound raises the attack of the whole squad by 34.5%. The SSR heroes of the role, Stellar and Celia, stop at 695,511 and 691,655.
 
-Harper enters the hero list on server day 21, and his shards do not drop before that. Awakening opens on season day 85 and the Exclusive Weapon on day 134, so the first weeks go into levels, stars and skills, while the recruit pity pays him out from the second list onward.
+Harper enters the hero list on server day 21, and his shards do not drop before that. Awakening opens on season day 85 and the Arma Exclusiva on day 134, so the first weeks go into levels, stars and skills, while the recruit pity pays him out from the second list onward.
 
 Awakening costs him the most: 2,870 shards for 40 levels against 975 for 50 stars, returning 425,119 HP, 12,119 ATK and 3,812 DEF. Stars matter more for the fight itself, since the 45th gives Vitality Bubble a second target and the 50th lifts Warrior's Anthem to 18%.
 

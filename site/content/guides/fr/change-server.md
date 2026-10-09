@@ -49,9 +49,9 @@ Every event, reset and title queue runs on server time rather than the phone clo
 
 ## Visiting another server
 
-Another server can be viewed from the caravan screen: instead of attacking a caravan the map is scrolled to inspect foreign territories, and a server is found by its number. The second route runs through the Kingdom War: the match information tab lists the group of servers, and its View button moves the camera into a foreign kingdom. Coordinates of a foreign city are saved with the star on it, marked as friend or enemy.
+Another server can be viewed from the caravan screen: instead of attacking a caravan the map is scrolled to inspect foreign territories, and a server is found by its number. The second route runs through the Guerre du royaume: the match information tab lists the group of servers, and its View button moves the camera into a foreign kingdom. Coordinates of a foreign city are saved with the star on it, marked as friend or enemy.
 
-Teleporting with troops to another server works only against the Alliance Duel opponent on raid day and against the Kingdom War opponents, and such a move lasts a day. Plundering caravans and covert operations is allowed only on servers of the same group, and the "exclude own server" checkbox on the caravan screen removes neighbours from the list, which most servers forbid attacking by their own rules.
+Teleporting with troops to another server works only against the Alliance Duel opponent on raid day and against the Guerre du royaume opponents, and such a move lasts a day. Plundering caravans and covert operations is allowed only on servers of the same group, and the "exclude own server" checkbox on the caravan screen removes neighbours from the list, which most servers forbid attacking by their own rules.
 
 ## Whether migration is coming
 

@@ -132,16 +132,16 @@ Das Muster: +1 Mio. pro Zufluchts-Level bis Level 20, dann +2 Mio. pro Level bis
 
 ## Die Neun-Treffer-Regel {#nine-hit-rule}
 
-Greife dieselbe Farm niemals mehr als neunmal hintereinander an. Der zehnte Treffer zerstört die Stadt vollständig und teleportiert den Besitzer weg – du verlierst die Farm und der Spieler verliert seine Stadt. Neun Treffer sind das Maximum; die Community betrachtet dies als Verpflichtung, nicht als Vorschlag.
+Greife dieselbe Bauernhof niemals mehr als neunmal hintereinander an. Der zehnte Treffer zerstört die Stadt vollständig und teleportiert den Besitzer weg – du verlierst die Bauernhof und der Spieler verliert seine Stadt. Neun Treffer sind das Maximum; die Community betrachtet dies als Verpflichtung, nicht als Vorschlag.
 
-### Feldtechnik: Einen vollständigen Farm-Durchgang absolvieren {#field-technique}
+### Feldtechnik: Einen vollständigen Bauernhof-Durchgang absolvieren {#field-technique}
 
 Von der Community erprobtes Vorgehen für eine vollständige tägliche Plünderungssitzung:
 
 1. **Zuerst ausspähen.** Öffne nach dem Ausspähen deine Post: Der Bericht zeigt genau, wie viel von jeder Ressource das Ziel besitzt. Schau dir 2–3 Kandidaten an und wähle den reichsten – viele Ziele sind mit einer bestimmten Ressourcenart überladen.
 2. **Überspringe Spieler in einer Allianz** – Angriffe auf Allianzmitglieder lösen Kriege aus, für die deine Allianz nicht unterschrieben hat.
 3. **Positioniere dich auf einem angrenzenden Feld.** Sende deinen Trupp zu einem Ressourcenfeld direkt neben dem Ziel; sobald er dort steht, kannst du bis zu ~8 schnelle aufeinanderfolgende Angriffe starten, ohne auf die Marschzeit warten zu müssen.
-4. **Halte sie über 2.000 Stadt-LP.** Darunter teleportieren sie weg und dein Farmspot ist weg – nutze dieselbe Farm morgen wieder, indem du rechtzeitig aufhörst.
+4. **Halte sie über 2.000 Stadt-LP.** Darunter teleportieren sie weg und dein Farmspot ist weg – nutze dieselbe Bauernhof morgen wieder, indem du rechtzeitig aufhörst.
 
 Die **Truppenlast** entscheidet darüber, wie viel du pro Treffer transportierst. Sie steigt um **+200 pro Truppen-Rang** (T6 = 1.400, T7 = 1.600, T8 = 1.800...) und kann durch die Technologie **Lasttraining** im Soldaten-Forschungsbaum weiter erhöht werden. Höherrangige Trupps plündern dasselbe Ziel in weniger Treffern, was Ausdauer spart.
 

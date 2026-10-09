@@ -43,16 +43,16 @@ The Soldier's Rest saves a share of the fallen, 18% at level 1 rising to 40% at 
 
 Infirmary space matters more than it looks, because a wounded soldier is three times cheaper than a dead one. Healing costs 30% of recruitment and takes 30% of the time, and the ratio holds on all ten tiers: 194 resources to recruit a tier 1 soldier against 58 to heal, and 14,054 against 4,216 at tier 10. Anything that does not fit in the infirmary dies outright, and the gap is exactly those seventy percent.
 
-Scouting cuts losses from the other side. The Watchtower gives 100% counter-scouting from level 5 and hides 5 report fields from level 9, with nothing added beyond that.
+Scouting cuts losses from the other side. The Torre de vigilancia gives 100% counter-scouting from level 5 and hides 5 report fields from level 9, with nothing added beyond that.
 
 ## What links here
 
 Pages that mention this one. The list is built from the markup, not filled by hand.
-- Pandemic Experience: difficulties, rallies and the alliance boss
-- Royal City Scramble: rules, the King and rewards
-- Undead Siege: city defense and rewards
+- Experiencia pandémica: difficulties, rallies and the alliance boss
+- Alboroto en la Ciudad Real: rules, the King and rewards
+- Asedio de no muertos: city defense and rewards
 - Contents: heroes, army, events and spending
-- Kingdom War: towers, opponents and rewards
+- Guerra del reino: towers, opponents and rewards
 - World map: distances, speed and gathering
 - Troops: tiers, tier ten and priorities
 - Walls: levels, cost and upgrades

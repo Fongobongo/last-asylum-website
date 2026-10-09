@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-griffith)).
 
-Griffith is an SSR ranger who plays as tank. Fully upgraded, he reaches 764,263 Might, rank 9 of 11 among the game's tanks. Unlocking him takes 10 shards ( Griffith Shard), and the shards become available once the Ranger Statue reaches level 20.
+Griffith is an SSR ranger who plays as tank. Fully upgraded, he reaches 764,263 Might, rank 9 of 11 among the game's tanks. Unlocking him takes 10 shards ( Griffith Shard), and the shards become available once the Estátua do Patrulheiro reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -26,7 +26,7 @@ Griffith is an SSR ranger who plays as tank. Fully upgraded, he reaches 764,263 
 | Max stars | 50 |
 | Attack speed | one hit every 0.93 s |
 | Shards to unlock | Griffith Shard × 10 |
-| Faction building | Ranger Statue, level 20 |
+| Faction building | Estátua do Patrulheiro, level 20 |
 | Skills | 5, full set |
 | Trait | Diligent |
 | Faction advantage | Rangers take 20% less damage from Warriors |
@@ -295,9 +295,9 @@ Gains from each progression system on its own. They show where to invest first:
 
 Among the four SSR tanks Griffith stands third by maximum Might at 764,263 against 778,239 for Lucius and 773,500 for Bella, with only Hastar below him at 750,047. His Venomous Bite, however, lands 2,303.4% of ATK and beats Lucius's Decapitation with its 1,874.4%, and the same skill returns every 5 seconds.
 
-Griffith carries no server-age condition and is available from the earliest days, as soon as the Ranger Statue reaches level 20 and opens his shards. The UR ranger tanks arrive much later, Shadow on server day 7 and Louis on day 63, and until then the ranger front line belongs to Griffith, the only tank of his faction below UR rarity.
+Griffith carries no server-age condition and is available from the earliest days, as soon as the Estátua do Patrulheiro reaches level 20 and opens his shards. The UR ranger tanks arrive much later, Shadow on server day 7 and Louis on day 63, and until then the ranger front line belongs to Griffith, the only tank of his faction below UR rarity.
 
-An SSR hero has neither Awakening nor an Exclusive Weapon, so Griffith's ceiling comes from two sources: levels give 1,478,501 HP and stars add 422,357, for 1,900,858 in total against 4,717,490 for Daskal. Skill Badges cost the same as for a UR hero, 436,700 per skill, and Venomous Bite only reaches 2,303.4% at 45 stars.
+An SSR hero has neither Awakening nor an Arma Exclusiva, so Griffith's ceiling comes from two sources: levels give 1,478,501 HP and stars add 422,357, for 1,900,858 in total against 4,717,490 for Daskal. Skill Badges cost the same as for a UR hero, 436,700 per skill, and Venomous Bite only reaches 2,303.4% at 45 stars.
 
 Griffith appears twice in the squad review, both times beside rangers. With Bestar, Hastar, Ash and Louis the squad gains +15% to its stats and withstands 16.8M damage before it falls. The faction works in his favor as well, since rangers take 20% less damage from warriors.
 

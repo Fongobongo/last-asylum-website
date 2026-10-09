@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-daskal)).
 
-Daskal is a UR warrior who plays as tank. Fully upgraded, he reaches 1,057,192 Might, rank 2 of 11 among the game's tanks. Unlocking him takes 10 shards ( Daskal Shard), and the shards become available once the Warrior Statue reaches level 20. Daskal does not appear in the hero list until server day 28.
+Daskal is a UR warrior who plays as tank. Fully upgraded, he reaches 1,057,192 Might, rank 2 of 11 among the game's tanks. Unlocking him takes 10 shards ( Daskal Shard), and the shards become available once the Estátua do Guerreiro reaches level 20. Daskal does not appear in the hero list until server day 28.
 
 Wield the power of curses to devour all who stand in your way!
 
@@ -28,7 +28,7 @@ Wield the power of curses to devour all who stand in your way!
 | Max stars | 50 |
 | Attack speed | one hit every 0.83 s |
 | Shards to unlock | Daskal Shard × 10 |
-| Faction building | Warrior Statue, level 20 |
+| Faction building | Estátua do Guerreiro, level 20 |
 | Skills | 5, full set |
 | Trait | Helpful |
 | Faction advantage | Warriors take 20% less damage from Warlocks |
@@ -36,11 +36,11 @@ Wield the power of curses to devour all who stand in your way!
 | Awakening opens | on day 155 of the season |
 | Exclusive weapon | on day 8 of the season |
 
-Awakening and the Exclusive Weapon follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 155 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Exclusive Weapon becomes available on day 8 of the season.
+Awakening and the Arma Exclusiva follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 155 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Arma Exclusiva becomes available on day 8 of the season.
 
 ## Why he matters
 
-Role: A front-line tank and the only one of his role whose shield covers the whole squad instead of himself. Bloodshed Defense gives every ally a shield worth 684% of their own Defense at 50 stars, while the other tanks protect themselves alone. His auto attack Battle Will reaches 996% with the Exclusive Weapon, which ties for the highest of eleven tanks with Louis and Ulfrid.
+Role: A front-line tank and the only one of his role whose shield covers the whole squad instead of himself. Bloodshed Defense gives every ally a shield worth 684% of their own Defense at 50 stars, while the other tanks protect themselves alone. His auto attack Battle Will reaches 996% with the Arma Exclusiva, which ties for the highest of eleven tanks with Louis and Ulfrid.
 
 Worth investing: Daskal ranks second of eleven tanks by maximum Might (1,057,192), sits in tier S and belongs to two tier S squads, though the game's best line-up comes together without him. He is worth levelling as soon as he is obtained, though he does not appear in the hero list until server day 28.
 
@@ -220,7 +220,7 @@ No counterpart: nobody else in the game does this for allies.
 
 ## Upgrade order
 
-Skill priority: Bloodshed Defense comes first, since a shield on the whole squad is worth more than any of his hits. Deadly Pierce is next, dealing damage and healing Daskal at the same time. Resolute Fight follows, and the auto attack Battle Will comes last with the support skill: 50 stars carry it to 747%, and the 996% figure comes with the Exclusive Weapon.
+Skill priority: Bloodshed Defense comes first, since a shield on the whole squad is worth more than any of his hits. Deadly Pierce is next, dealing damage and healing Daskal at the same time. Resolute Fight follows, and the auto attack Battle Will comes last with the support skill: 50 stars carry it to 747%, and the 996% figure comes with the Arma Exclusiva.
 
 ### What stars and levels unlock
 
@@ -292,9 +292,9 @@ Every skill goes up to level 40 with Skill Badge: one skill costs 436,700 of the
 - HP +425,119, ATK +12,119, DEF +3,812
 - DMG RES +5%
 
-### Exclusive Weapon
+### Arma Exclusiva
 
-“Crimson Greatsword”, upgraded to 50 stars. At max it adds:
+“Espadão Carmesim”, upgraded to 50 stars. At max it adds:
 - HP +1,251,000, ATK +8,750, DEF +8,750
 - Hero DEF +10%
 - Hero HP +10%
@@ -312,16 +312,16 @@ Gains from each progression system on its own. They show where to invest first:
 | Hero levels | 2,365,599 | 10,063 | 13,045 |
 | Stars | 675,772 | 2,874 | 3,725 |
 | Awakening | 425,119 | 12,119 | 3,812 |
-| Exclusive Weapon | 1,251,000 | 8,750 | 8,750 |
+| Arma Exclusiva | 1,251,000 | 8,750 | 8,750 |
 | Total | 4,717,490 | 33,806 | 29,332 |
 
 ## How to play
 
 Among the eleven tanks Daskal trails only Shadow in maximum Might, 1,057,192 against 1,075,906, and he stands 4,739 ahead of Arthur. What separates them is the cover rather than the totals: Arthur's Rock Solid shields himself alone for 30% of HP, while Bloodshed Defense covers all five heroes for 684% of DEF and returns every 6.4 seconds.
 
-Daskal does not appear in the hero list until server day 28, while Arthur is there at once and Shadow from day seven. His shards open with the Warrior Statue at level 20, and hiring him takes 10 of them. His Exclusive Weapon arrives on season day 8, earlier than for the other fourteen UR heroes, and Awakening waits until day 155.
+Daskal does not appear in the hero list until server day 28, while Arthur is there at once and Shadow from day seven. His shards open with the Estátua do Guerreiro at level 20, and hiring him takes 10 of them. His Arma Exclusiva arrives on season day 8, earlier than for the other fourteen UR heroes, and Awakening waits until day 155.
 
-Awakening costs the most: 2,870 shards for 40 levels against 975 for all 50 stars. The two scales return different things: stars add 675,772 HP and 2,874 ATK, awakening 425,119 HP and 12,119 ATK, four times the attack. Stars still come first, because they bring more HP and lift Bloodshed Defense from 360% to 684%, while 792% comes only with the Exclusive Weapon.
+Awakening costs the most: 2,870 shards for 40 levels against 975 for all 50 stars. The two scales return different things: stars add 675,772 HP and 2,874 ATK, awakening 425,119 HP and 12,119 ATK, four times the attack. Stars still come first, because they bring more HP and lift Bloodshed Defense from 360% to 684%, while 792% comes only with the Arma Exclusiva.
 
 Daskal stands in two tier S squads. Arthur, Marlena, Daskal, Harper and Louis earn a +15% faction bonus for four warriors, 150.7M of survivability and 98 points out of 100 in the squad review. His shield stacks with Billy's Fate's Thread, which removes 36% of the damage from the squad.
 

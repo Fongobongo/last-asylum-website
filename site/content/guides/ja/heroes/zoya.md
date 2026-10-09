@@ -1,6 +1,6 @@
 ---
-title: "Zoya：スキル・ビルド・育成"
-description: "Zoya is a UR warrior who plays as DPS. Fully upgraded, she reaches 918,563 Might, rank 1 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Zoya Shard), a…"
+title: "ゾーヤ：スキル・ビルド・育成"
+description: "ゾーヤ is a UR warrior who plays as DPS. Fully upgraded, she reaches 918,563 Might, rank 1 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( ゾーヤ Shard), a…"
 videoTopic: "heroes"
 lang: ja
 updated: "2026-09-19"
@@ -17,7 +17,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-zoya)).
 
-Zoya is a UR warrior who plays as DPS. Fully upgraded, she reaches 918,563 Might, rank 1 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Zoya Shard), and the shards become available once the Warrior Statue reaches level 20. Zoya does not appear in the hero list until server day 56.
+ゾーヤ is a UR warrior who plays as DPS. Fully upgraded, she reaches 918,563 Might, rank 1 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( ゾーヤ Shard), and the shards become available once the ウォーリア像 reaches level 20. ゾーヤ does not appear in the hero list until server day 56.
 
 | Stat | Value |
 |---|---|
@@ -27,8 +27,8 @@ Zoya is a UR warrior who plays as DPS. Fully upgraded, she reaches 918,563 Might
 | Max Might | 918,563 |
 | Max stars | 50 |
 | Attack speed | one hit every 0.83 s |
-| Shards to unlock | Zoya Shard × 10 |
-| Faction building | Warrior Statue, level 20 |
+| Shards to unlock | ゾーヤ Shard × 10 |
+| Faction building | ウォーリア像, level 20 |
 | Skills | 5, full set |
 | Trait | Helpful |
 | Faction advantage | Warriors take 20% less damage from Warlocks |
@@ -36,13 +36,13 @@ Zoya is a UR warrior who plays as DPS. Fully upgraded, she reaches 918,563 Might
 | Awakening opens | on day 183 of the season |
 | Exclusive weapon | on day 78 of the season |
 
-Awakening and the Exclusive Weapon follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 183 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Exclusive Weapon becomes available on day 78 of the season.
+Awakening and the 専用武器 follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 183 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The 専用武器 becomes available on day 78 of the season.
 
 ## Why she matters
 
 Role: The strongest DPS hero in the game, whose ultimate Forest Hunter throws five daggers for 3,669.6% of ATK each. That is rank 3 of 15 among the ultimates of the role, and the passive Lady of the Forest raises her critical hit chance.
 
-Worth investing: Zoya ranks first of sixteen DPS heroes by maximum Might (918,563) and sits in tier A. She is worth levelling as soon as she is obtained, though the wait is long, since she does not appear in the hero list until server day 56.
+Worth investing: ゾーヤ ranks first of sixteen DPS heroes by maximum Might (918,563) and sits in tier A. She is worth levelling as soon as she is obtained, though the wait is long, since she does not appear in the hero list until server day 56.
 
 ## Skills
 
@@ -152,7 +152,7 @@ Support skill: active while the hero is outside the main squad.
 
 ## Compared to other heroes
 
-Below, Zoya is compared with the other heroes of the same role, of which the game has 16 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
+Below, ゾーヤ is compared with the other heroes of the same role, of which the game has 16 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
 
 ### Stats
 
@@ -160,18 +160,18 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 
 | Hero | Faction | Rarity | Max Might | HP growth | ATK growth | DEF growth |
 |---|---|---|---|---|---|---|
-| Zoya | Warrior | UR | 918,563 | 0.55 | 1.57 | 0.89 |
-| Annie | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
-| Cynthia | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
-| Marlena | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
-| Red Lady | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
-| Joker | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
-| Grenwald | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
-| Kesso | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
-| Ash | Ranger | SSR | 685,873 | 0.43 | 0.92 | 0.61 |
-| Bestar | Ranger | SSR | 685,793 | 0.4 | 0.97 | 0.61 |
-| Sivir | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
-| Claire | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
+| ゾーヤ | Warrior | UR | 918,563 | 0.55 | 1.57 | 0.89 |
+| アニー | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
+| シンシア | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
+| マレーナ | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
+| レッドレディ | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| ピエロ | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| グリンウォルド | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
+| ケイソ | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
+| アッシュ | Ranger | SSR | 685,873 | 0.43 | 0.92 | 0.61 |
+| ベスター | Ranger | SSR | 685,793 | 0.4 | 0.97 | 0.61 |
+| シヴィア | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
+| クレア | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
 
 ### Skill numbers
 
@@ -179,41 +179,41 @@ Dagger · damage multiplier · rank 3 of 16
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Claire | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
-| Marlena | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
-| Zoya | Warrior | Dagger | Auto Attack | 747% | single target |
-| Cynthia | Ranger | Moon Blade | Auto Attack | 747% | single target |
-| Red Lady | Ranger | Blood Blade | Auto Attack | 747% | single target |
+| クレア | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
+| マレーナ | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
+| ゾーヤ | Warrior | Dagger | Auto Attack | 747% | single target |
+| シンシア | Ranger | 聖なる月刃 | Auto Attack | 747% | single target |
+| レッドレディ | Ranger | Blood Blade | Auto Attack | 747% | single target |
 
-Stronger: Claire, Holy Banner (advanced) hits for 810% of ATK on a single target.
+Stronger: クレア, Holy Banner (advanced) hits for 810% of ATK on a single target.
 
 Forest Hunter · damage multiplier · rank 3 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Joker | Warlock | Joker Ace | Ultimate Skill | 5,047.5% | single target |
-| Red Lady | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
-| Zoya | Warrior | Forest Hunter | Ultimate Skill | 3,669.6% | single target |
-| Annie | Warlock | Candy Jar | Ultimate Skill | 3,553.2% | single target |
-| Claire | Warrior | Celestial Judgment (advanced) | Ultimate Skill | 3,486.6% | area |
+| ピエロ | Warlock | ピエロ Ace | Ultimate Skill | 5,047.5% | single target |
+| レッドレディ | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
+| ゾーヤ | Warrior | Forest Hunter | Ultimate Skill | 3,669.6% | single target |
+| アニー | Warlock | Candy Jar | Ultimate Skill | 3,553.2% | single target |
+| クレア | Warrior | Celestial Judgment (advanced) | Ultimate Skill | 3,486.6% | area |
 
-Stronger: Joker, Joker Ace hits for 5,047.5% of ATK on a single target.
+Stronger: ピエロ, ピエロ Ace hits for 5,047.5% of ATK on a single target.
 
 Mountain God Wrath · damage multiplier · rank 14 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Red Lady | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
-| Sivir | Warrior | Shield Strike | Active Skill | 1,887.6% | single target |
-| Grenwald | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
-| Cynthia | Ranger | Lunar Hunt | Active Skill | 1,800% | single target |
-| Zoya | Warrior | Mountain God Wrath | Active Skill | 630% | area |
+| レッドレディ | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
+| シヴィア | Warrior | Shield Strike | Active Skill | 1,887.6% | single target |
+| グリンウォルド | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
+| シンシア | Ranger | Lunar Hunt | Active Skill | 1,800% | single target |
+| ゾーヤ | Warrior | Mountain God Wrath | Active Skill | 630% | area |
 
-Stronger: Red Lady, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
+Stronger: レッドレディ, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
 
 ## Upgrade order
 
-Skill priority: Forest Hunter comes first, carrying nearly all of Zoya's damage. Mountain God Wrath is next, hitting an area for three seconds straight and returning every 5 seconds. Lady of the Forest follows, and the auto attack Dagger comes last with the support skill, at 747% with 50 stars against Forest Hunter's 3,669.6%.
+Skill priority: Forest Hunter comes first, carrying nearly all of ゾーヤ's damage. Mountain God Wrath is next, hitting an area for three seconds straight and returning every 5 seconds. Lady of the Forest follows, and the auto attack Dagger comes last with the support skill, at 747% with 50 stars against Forest Hunter's 3,669.6%.
 
 ### What stars and levels unlock
 
@@ -254,7 +254,7 @@ The hero has 150 levels, and reaching the last one costs Antitoxin 5,248,471,500
 
 ### Stars
 
-Reaching 50 stars takes 975 shards ( Zoya Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
+Reaching 50 stars takes 975 shards ( ゾーヤ Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
 
 | Stars | HP | ATK | DEF | Cost |
 |---|---|---|---|---|
@@ -277,13 +277,13 @@ Every skill goes up to level 40 with Skill Badge: one skill costs 436,700 of the
 
 ### Awakening
 
-40 levels, 2,870 awakening shards in total (Zoya Awaken Shard). At max it adds:
+40 levels, 2,870 awakening shards in total (ゾーヤ Awaken Shard). At max it adds:
 - HP +425,119, ATK +12,119, DEF +3,812
 - DMG RES +5%
 
-### Exclusive Weapon
+### 専用武器
 
-“Forest Blade”, upgraded to 50 stars. At max it adds:
+“森の木刀”, upgraded to 50 stars. At max it adds:
 - HP +1,251,000, ATK +8,750, DEF +8,750
 - Hero DEF +10%
 - Hero HP +10%
@@ -301,16 +301,16 @@ Gains from each progression system on its own. They show where to invest first:
 | Hero levels | 956,676 | 19,505 | 11,057 |
 | Stars | 273,290 | 5,570 | 3,157 |
 | Awakening | 425,119 | 12,119 | 3,812 |
-| Exclusive Weapon | 1,251,000 | 8,750 | 8,750 |
+| 専用武器 | 1,251,000 | 8,750 | 8,750 |
 | Total | 2,906,085 | 45,943 | 26,776 |
 
 ## How to play
 
-Zoya leads all sixteen DPS heroes with 918,563 maximum Might, ahead of Annie by 2,169 and of Joker by 4,980. Her Forest Hunter lands 3,669.6% of ATK and falls behind Joker Ace at 5,047.5% and Crimson Rose at 4,550.4%, yet her attack growth rate of 1.57 is the highest of the role.
+ゾーヤ leads all sixteen DPS heroes with 918,563 maximum Might, ahead of アニー by 2,169 and of ピエロ by 4,980. Her Forest Hunter lands 3,669.6% of ATK and falls behind ピエロ Ace at 5,047.5% and Crimson Rose at 4,550.4%, yet her attack growth rate of 1.57 is the highest of the role.
 
-Zoya does not appear in the hero list until server day 56, later than Cynthia on day seven and Annie on day fourteen. Her shards open with the Warrior Statue at level 20, and hiring her takes 10 of them. The Exclusive Weapon arrives on season day 78, while Awakening comes only on day 183, second to last among the fifteen UR heroes.
+ゾーヤ does not appear in the hero list until server day 56, later than シンシア on day seven and アニー on day fourteen. Her shards open with the ウォーリア像 at level 20, and hiring her takes 10 of them. The 専用武器 arrives on season day 78, while Awakening comes only on day 183, second to last among the fifteen UR heroes.
 
-Most of Zoya's ceiling comes from the systems tied to season days. The Exclusive Weapon gives 1,251,000 HP, more than all 150 levels with their 956,676, and Awakening adds 425,119 HP together with 12,119 ATK. Stars look modest beside that, 273,290 HP for 975 shards, though without 50 stars Forest Hunter never reaches 3,669.6%.
+Most of ゾーヤ's ceiling comes from the systems tied to season days. The 専用武器 gives 1,251,000 HP, more than all 150 levels with their 956,676, and Awakening adds 425,119 HP together with 12,119 ATK. Stars look modest beside that, 273,290 HP for 975 shards, though without 50 stars Forest Hunter never reaches 3,669.6%.
 
-In the squad review Zoya is covered by three tanks and a support: Arthur, Daskal, Billy and Harper keep her alive until the skill comes back, and the line-up withstands 143.4M damage. All of its damage rests on Zoya, and once she falls the five stop killing.
+In the squad review ゾーヤ is covered by three tanks and a support: アーサー, ダスカール, ビリー and ハーパー keep her alive until the skill comes back, and the line-up withstands 143.4M damage. All of its damage rests on ゾーヤ, and once she falls the five stop killing.
 

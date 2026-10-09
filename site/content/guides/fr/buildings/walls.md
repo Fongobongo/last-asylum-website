@@ -55,5 +55,5 @@ Two percentages do grow: wall defense decays more slowly and recovers faster, on
 
 Level 30 brings both rates to 30 percent, and there the difference between an upper wall and a lower one ends. Those rates work after a lost defense: the strength drops to a quarter, and the wall regrows 7,500 of its 10,000 on its own, the faster the higher its level. The city holds a single Wall, and the squad assigned to it gains nothing from its level: 10,000 City DEF and two growing percentages are all the wall brings to a fight.
 
-Timber runs to 5,145,448,295, more than any other building in the city spends, and the Walls carry 313,300 Might, the most at Sanctuary level 4: the Tavern holds 309,500 and the Gear Workshop 277,600. They are raised for that Might and for Sanctuary requirements; an assault is turned away more reliably by a shield.
+Timber runs to 5,145,448,295, more than any other building in the city spends, and the Walls carry 313,300 Might, the most at Sanctuary level 4: the Taverne holds 309,500 and the Atelier d'équipement 277,600. They are raised for that Might and for Sanctuary requirements; an assault is turned away more reliably by a shield.
 

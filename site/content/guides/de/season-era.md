@@ -24,11 +24,11 @@ Hero windows open one per week and last 7 days each, so a missed window waits un
 | Age day | What opens |
 |---|---|
 | 1 | Marlena Awakening |
-| 8 | Daskal Exclusive Weapon |
+| 8 | Daskal Exklusive Waffe |
 | 15 | Cynthia Awakening |
-| 22 | Louis Exclusive Weapon |
+| 22 | Louis Exklusive Waffe |
 | 29 | Annie Awakening |
-| 36 | Ulfrid Exclusive Weapon |
+| 36 | Ulfrid Exklusive Waffe |
 
 Hero Promotion stands apart from that rhythm: it opens on day 8 and runs 49 days, almost to the end of the Age.
 
@@ -48,11 +48,11 @@ The pass lasts 7 days and grants Resistance +250 and March Speed +5% while it is
 
 Pages that mention this one. The list is built from the markup, not filled by hand.
 - Changing server: transfers, server time and new servers
-- Royal City Scramble: rules, the King and rewards
+- Königsstadtkampf: rules, the King and rewards
 - Special events: the nine events of the tab and the day each one arrives
 - Events: competitions, alliance, wars, season
 - Era Pass
 - Contents: heroes, army, events and spending
 - Skins: bonuses, durations and the Black Raven Fortress
-- Crystal Cluster Valley (Crystal Valley): veins, skills and rank rewards
+- Kristallcluster-Tal (Crystal Valley): veins, skills and rank rewards
 - World map: distances, speed and gathering

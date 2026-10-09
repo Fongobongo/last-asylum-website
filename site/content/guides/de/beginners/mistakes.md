@@ -40,4 +40,4 @@ Acht halb gebaute Helden verlieren in jedem wichtigen Kampf gegen zwei fertige, 
 
 Stamina, die am Limit sitzt, ist Einkommen, das du dauerhaft gelöscht hast – das Spiel speichert keinen Overflow. Gib sie für Monster oder Plunder aus, bevor du dich abmeldest, jede Sitzung, von Tag eins an.
 
-Täglich aufrechterhalten, ist Plündern später im Spiel etwa 27 Millionen Ressourcen pro Tag wert. Übersprungen, gibt es keine Make-up-Mechanik – diese Ressourcen sind einfach weg. Greife das reichste Ziel an, das du schlagen kannst, respektiere die täglichen Limit-Schwellenwerte und greife niemals eine Farm zum zehnten Mal an. Das komplette Plunder-Regelwerk findest du im [Wirtschafts-Leitfaden](/de/economy/).
+Täglich aufrechterhalten, ist Plündern später im Spiel etwa 27 Millionen Ressourcen pro Tag wert. Übersprungen, gibt es keine Make-up-Mechanik – diese Ressourcen sind einfach weg. Greife das reichste Ziel an, das du schlagen kannst, respektiere die täglichen Limit-Schwellenwerte und greife niemals eine Bauernhof zum zehnten Mal an. Das komplette Plunder-Regelwerk findest du im [Wirtschafts-Leitfaden](/de/economy/).

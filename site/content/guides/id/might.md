@@ -55,7 +55,7 @@ Level hero meningkatkan atribut dasar (HP, ATK, DEF) dan memperkuat statistik ge
 
 | Sumber | Cara Memaksimalkan |
 |---|---|
-| **Antitoxin Workshop** | Jaga level workshop agar sinkron dengan Kuil Anda. Kumpulkan secara rutin melalui Stable. |
+| **Pusat Antitoksin** | Jaga level workshop agar sinkron dengan Kuil Anda. Kumpulkan secara rutin melalui Stable. |
 | **Upgrade Bangunan** | Setiap upgrade struktur yang selesai memberikan sejumlah Antitoxin instan. |
 | **Misi Menara Raven** | Prioritaskan misi ungu dan emas yang menawarkan vial Antitoxin. |
 | **Covert Ops & Penjarahan Karavan** | Selesaikan rute harian dan jarah karavan saingan (hingga 5 kali per hari). |

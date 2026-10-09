@@ -1,6 +1,6 @@
 ---
-title: "Ash: 스킬, 빌드, 육성"
-description: "Ash is an SSR ranger who plays as DPS. Fully upgraded, she reaches 685,873 Might, rank 9 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Ash Shard), an…"
+title: "애쉬: 스킬, 빌드, 육성"
+description: "애쉬 is an SSR ranger who plays as DPS. Fully upgraded, she reaches 685,873 Might, rank 9 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( 애쉬 Shard), an…"
 videoTopic: "heroes"
 lang: ko
 updated: "2026-09-19"
@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-ash)).
 
-Ash is an SSR ranger who plays as DPS. Fully upgraded, she reaches 685,873 Might, rank 9 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Ash Shard), and the shards become available once the Ranger Statue reaches level 20.
+애쉬 is an SSR ranger who plays as DPS. Fully upgraded, she reaches 685,873 Might, rank 9 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( 애쉬 Shard), and the shards become available once the 레인저 조각상 reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -25,8 +25,8 @@ Ash is an SSR ranger who plays as DPS. Fully upgraded, she reaches 685,873 Might
 | Max Might | 685,873 |
 | Max stars | 50 |
 | Attack speed | one hit every 0.87 s |
-| Shards to unlock | Ash Shard × 10 |
-| Faction building | Ranger Statue, level 20 |
+| Shards to unlock | 애쉬 Shard × 10 |
+| Faction building | 레인저 조각상, level 20 |
 | Skills | 5, full set |
 | Trait | Brave |
 | Faction advantage | Rangers take 20% less damage from Warriors |
@@ -37,9 +37,9 @@ Ash is an SSR ranger who plays as DPS. Fully upgraded, she reaches 685,873 Might
 
 ## Why she matters
 
-Role: A ranger DPS who strengthens her own kind, as the passive Focus adds 33% monster damage for two rangers at 50 stars. With no stars and no skill levels the bonus is 12.3%, and it goes to the two highest-attack rangers in the squad, so Ash pays off specifically in a ranger line-up. Her own blow, Eagle Spirit Hunt, lands 2,798.4% of ATK on a single target.
+Role: A ranger DPS who strengthens her own kind, as the passive Focus adds 33% monster damage for two rangers at 50 stars. With no stars and no skill levels the bonus is 12.3%, and it goes to the two highest-attack rangers in the squad, so 애쉬 pays off specifically in a ranger line-up. Her own blow, Eagle Spirit Hunt, lands 2,798.4% of ATK on a single target.
 
-Worth investing: Ash ranks ninth of sixteen DPS heroes by maximum Might (685,873) and sits in tier B. She belongs to the best ranger squad built without UR heroes, so early investment pays off, and once Cynthia or Red Lady opens up the place in the first five goes to them.
+Worth investing: 애쉬 ranks ninth of sixteen DPS heroes by maximum Might (685,873) and sits in tier B. She belongs to the best ranger squad built without UR heroes, so early investment pays off, and once 신시아 or 레드 레이디 opens up the place in the first five goes to them.
 
 ## Skills
 
@@ -149,7 +149,7 @@ Support skill: active while the hero is outside the main squad.
 
 ## Compared to other heroes
 
-Below, Ash is compared with the other heroes of the same role, of which the game has 16 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
+Below, 애쉬 is compared with the other heroes of the same role, of which the game has 16 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
 
 ### Stats
 
@@ -157,18 +157,18 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 
 | Hero | Faction | Rarity | Max Might | HP growth | ATK growth | DEF growth |
 |---|---|---|---|---|---|---|
-| Zoya | Warrior | UR | 918,563 | 0.55 | 1.57 | 0.89 |
-| Annie | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
-| Cynthia | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
-| Marlena | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
-| Red Lady | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
-| Joker | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
-| Grenwald | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
-| Kesso | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
-| Ash | Ranger | SSR | 685,873 | 0.43 | 0.92 | 0.61 |
-| Bestar | Ranger | SSR | 685,793 | 0.4 | 0.97 | 0.61 |
-| Sivir | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
-| Claire | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
+| 조야 | Warrior | UR | 918,563 | 0.55 | 1.57 | 0.89 |
+| 애니 | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
+| 신시아 | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
+| 말레나 | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
+| 레드 레이디 | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| 광대 | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| 그린델왈드 | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
+| 케이사 | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
+| 애쉬 | Ranger | SSR | 685,873 | 0.43 | 0.92 | 0.61 |
+| 베스트 | Ranger | SSR | 685,793 | 0.4 | 0.97 | 0.61 |
+| 시빌 | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
+| 클레아 | Warrior | SSR | 685,150 | 0.41 | 0.95 | 0.61 |
 
 ### Skill numbers
 
@@ -176,37 +176,37 @@ Precision Shot · damage multiplier · rank 11 of 16
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Claire | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
-| Marlena | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
-| Zoya | Warrior | Dagger | Auto Attack | 747% | single target |
-| Cynthia | Ranger | Moon Blade | Auto Attack | 747% | single target |
-| Ash | Ranger | Precision Shot | Auto Attack | 514.8% | single target |
+| 클레아 | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
+| 말레나 | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
+| 조야 | Warrior | Dagger | Auto Attack | 747% | single target |
+| 신시아 | Ranger | 신성한 달의 검날 | Auto Attack | 747% | single target |
+| 애쉬 | Ranger | Precision Shot | Auto Attack | 514.8% | single target |
 
-Stronger: Claire, Holy Banner (advanced) hits for 810% of ATK on a single target.
+Stronger: 클레아, Holy Banner (advanced) hits for 810% of ATK on a single target.
 
 Eagle Spirit Hunt · damage multiplier · rank 8 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Joker | Warlock | Joker Ace | Ultimate Skill | 5,047.5% | single target |
-| Red Lady | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
-| Zoya | Warrior | Forest Hunter | Ultimate Skill | 3,669.6% | single target |
-| Annie | Warlock | Candy Jar | Ultimate Skill | 3,553.2% | single target |
-| Ash | Ranger | Eagle Spirit Hunt | Ultimate Skill | 2,798.4% | single target |
+| 광대 | Warlock | 광대 Ace | Ultimate Skill | 5,047.5% | single target |
+| 레드 레이디 | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
+| 조야 | Warrior | Forest Hunter | Ultimate Skill | 3,669.6% | single target |
+| 애니 | Warlock | Candy Jar | Ultimate Skill | 3,553.2% | single target |
+| 애쉬 | Ranger | Eagle Spirit Hunt | Ultimate Skill | 2,798.4% | single target |
 
-Stronger: Joker, Joker Ace hits for 5,047.5% of ATK on a single target.
+Stronger: 광대, 광대 Ace hits for 5,047.5% of ATK on a single target.
 
 One Stone Two Birds · damage multiplier · rank 7 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Red Lady | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
-| Sivir | Warrior | Shield Strike | Active Skill | 1,887.6% | single target |
-| Grenwald | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
-| Cynthia | Ranger | Lunar Hunt | Active Skill | 1,800% | single target |
-| Ash | Ranger | One Stone Two Birds | Active Skill | 1,584% | single target |
+| 레드 레이디 | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
+| 시빌 | Warrior | Shield Strike | Active Skill | 1,887.6% | single target |
+| 그린델왈드 | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
+| 신시아 | Ranger | Lunar Hunt | Active Skill | 1,800% | single target |
+| 애쉬 | Ranger | One Stone Two Birds | Active Skill | 1,584% | single target |
 
-Stronger: Red Lady, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
+Stronger: 레드 레이디, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
 
 ## Upgrade order
 
@@ -251,7 +251,7 @@ The hero has 150 levels, and reaching the last one costs Antitoxin 5,248,471,500
 
 ### Stars
 
-Reaching 50 stars takes 975 shards ( Ash Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
+Reaching 50 stars takes 975 shards ( 애쉬 Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
 
 | Stars | HP | ATK | DEF | Cost |
 |---|---|---|---|---|
@@ -284,11 +284,11 @@ Gains from each progression system on its own. They show where to invest first:
 
 ## How to play
 
-Ash carries 685,873 Might, ninth of sixteen and 80 ahead of Bestar. Eagle Spirit Hunt lands 2,798.4% on a single target, the largest ultimate among the SSR heroes of the role, where Claire manages 2,266.29% and Grenwald 2,044.65%. Area damage is what she lacks in return, and One Stone Two Birds strikes two random targets.
+애쉬 carries 685,873 Might, ninth of sixteen and 80 ahead of 베스트. Eagle Spirit Hunt lands 2,798.4% on a single target, the largest ultimate among the SSR heroes of the role, where 클레아 manages 2,266.29% and 그린델왈드 2,044.65%. Area damage is what she lacks in return, and One Stone Two Birds strikes two random targets.
 
-SSR heroes carry no server age condition, so Ash is available from day one. She holds her place while the UR rangers are out of reach: Cynthia arrives on server day 7 and Red Lady on day 35. The passive Focus strengthens the two rangers with the highest ATK, so part of its value is lost in a mixed line-up.
+SSR heroes carry no server age condition, so 애쉬 is available from day one. She holds her place while the UR rangers are out of reach: 신시아 arrives on server day 7 and 레드 레이디 on day 35. The passive Focus strengthens the two rangers with the highest ATK, so part of its value is lost in a mixed line-up.
 
 Her ceiling rests on levels and stars alone, as SSR heroes get neither awakening nor a weapon: 961,611 HP and 14,695 ATK, of which stars give 213,663 and 3,264. Focus stands at 24% until the twentieth star, and from there three steps of 3% at the twentieth, forty-fifth and fiftieth star carry it to 33%.
 
-In a squad without UR heroes Ash stands with Stellar, Griffith, Grenwald and Hastar: 7.7M survivability and 1 effectiveness at a +10% bonus. She is more useful alongside Griffith, Bestar, Hastar and Louis: the warlock Hastar does not stop the four rangers from earning a +15% bonus, and the five reach 16.8M of survivability and 5 effectiveness.
+In a squad without UR heroes 애쉬 stands with 스타더스트, 그리피스, 그린델왈드 and 하스터: 7.7M survivability and 1 effectiveness at a +10% bonus. She is more useful alongside 그리피스, 베스트, 하스터 and 루이스: the warlock 하스터 does not stop the four rangers from earning a +15% bonus, and the five reach 16.8M of survivability and 5 effectiveness.
 

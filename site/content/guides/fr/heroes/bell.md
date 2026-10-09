@@ -17,7 +17,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-bell)).
 
-Bell is a UR ranger who plays as support. Fully upgraded, she reaches 920,570 Might, rank 2 of 5 among the game's support heroes. Unlocking her takes 10 shards ( Bell Shard), and the shards become available once the Ranger Statue reaches level 20. Bell does not appear in the hero list until server day 70.
+Bell is a UR ranger who plays as support. Fully upgraded, she reaches 920,570 Might, rank 2 of 5 among the game's support heroes. Unlocking her takes 10 shards ( Bell Shard), and the shards become available once the Statue de rôdeur reaches level 20. Bell does not appear in the hero list until server day 70.
 
 | Stat | Value |
 |---|---|
@@ -28,7 +28,7 @@ Bell is a UR ranger who plays as support. Fully upgraded, she reaches 920,570 Mi
 | Max stars | 50 |
 | Attack speed | one hit every 0.83 s |
 | Shards to unlock | Bell Shard × 10 |
-| Faction building | Ranger Statue, level 20 |
+| Faction building | Statue de rôdeur, level 20 |
 | Skills | 5, full set |
 | Trait | Diligent |
 | Faction advantage | Rangers take 20% less damage from Warriors |
@@ -36,7 +36,7 @@ Bell is a UR ranger who plays as support. Fully upgraded, she reaches 920,570 Mi
 | Awakening opens | on day 197 of the season |
 | Exclusive weapon | on day 120 of the season |
 
-Awakening and the Exclusive Weapon follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 197 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Exclusive Weapon becomes available on day 120 of the season.
+Awakening and the Arme exclusive follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 197 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Arme exclusive becomes available on day 120 of the season.
 
 ## Why she matters
 
@@ -260,9 +260,9 @@ Every skill goes up to level 40 with Skill Badge: one skill costs 436,700 of the
 - HP +425,119, ATK +12,119, DEF +3,812
 - DMG RES +5%
 
-### Exclusive Weapon
+### Arme exclusive
 
-“Tiny Drum”, upgraded to 50 stars. At max it adds:
+“Tambour minuscule”, upgraded to 50 stars. At max it adds:
 - HP +1,251,000, ATK +8,750, DEF +8,750
 - Hero DEF +10%
 - Hero HP +10%
@@ -280,16 +280,16 @@ Gains from each progression system on its own. They show where to invest first:
 | Hero levels | 1,217,588 | 16,150 | 11,678 |
 | Stars | 347,824 | 4,612 | 3,335 |
 | Awakening | 425,119 | 12,119 | 3,812 |
-| Exclusive Weapon | 1,251,000 | 8,750 | 8,750 |
+| Arme exclusive | 1,251,000 | 8,750 | 8,750 |
 | Total | 3,241,530 | 41,631 | 27,575 |
 
 ## How to play
 
 Bell, Harper and Nicole all reach the same maximum Might of 920,570, and only their skills separate them. Bell's Healing Sound returns 540% of ATK to an ally every 5 seconds, while Nicole's Heartwarming Flame heals two allies for 330,000 plus 241.8% of ATK and Harper does not heal at all. The ultimate Inspiration raises the attack of the three strongest allies by 55% against 34.5% for Harper, whose bonus reaches all five instead.
 
-Bell arrives on server day 70, later than Harper on day 21. Her shards open with the Ranger Statue at level 20, and hiring her takes 10 of them. The Exclusive Weapon comes on season day 120, and Awakening opens last of all fifteen UR heroes, on day 197, so Bell reaches her full ceiling later than anyone.
+Bell arrives on server day 70, later than Harper on day 21. Her shards open with the Statue de rôdeur at level 20, and hiring her takes 10 of them. The Arme exclusive comes on season day 120, and Awakening opens last of all fifteen UR heroes, on day 197, so Bell reaches her full ceiling later than anyone.
 
 Stars and Awakening are the expensive part of the queue. 975 shards give 347,824 HP and 4,612 ATK, while 2,870 awakening shards add 425,119 HP and 12,119 ATK. Healing Sound reaches 540% at 45 stars, and below that threshold the heal is noticeably weaker.
 
-Bell stands once in the squad review, in a tier B line-up: with Arthur, Louis, Red Lady and Ulfrid the five withstand 125.2M damage at a +5% bonus. Her passive Battle Anthem raises attack by 18% for rangers alone, and there are three of them there, Louis, Red Lady and Bell herself, so a full ranger squad gets more out of her.
+Bell stands once in the squad review, in a tier B line-up: with Arthur, Louis, Dame Rouge and Ulfrid the five withstand 125.2M damage at a +5% bonus. Her passive Battle Anthem raises attack by 18% for rangers alone, and there are three of them there, Louis, Dame Rouge and Bell herself, so a full ranger squad gets more out of her.
 

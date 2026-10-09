@@ -34,11 +34,11 @@ Each difficulty is three branches of twenty levels. Clearing a whole difficulty 
 
 ## Claim the free pulls
 
-There are more free pulls than it seems, and all of them come round daily: one free call in Surprise Encounter, one free coin per Wishing Wheel, and one free pull in each of the five recruit pools, each on its own timer.
+There are more free pulls than it seems, and all of them come round daily: one free call in サプライズエンカウント, one free coin per 祈願ルーレット, and one free pull in each of the five recruit pools, each on its own timer.
 
 ## Close the current phase
 
-Survival Battle and Top Healer only score actions from the running phase, so supplies are spent on schedule: speedups in the building phase, energy in the raven phase, recruit pulls in the hero phase.
+サバイバルバトル and 至高の医神 only score actions from the running phase, so supplies are spent on schedule: speedups in the building phase, energy in the raven phase, recruit pulls in the hero phase.
 
 ## What battle passes ask for most
 

@@ -42,38 +42,38 @@ The third column carries the key point: half of the gain goes to every hero, not
 ## What links here
 
 Pages that mention this one. The list is built from the markup, not filled by hand.
-- Thief Hunt: Gold Thieves, the Thief Leader and the Lion Coin shop
+- Memburu Pencuri: Gold Thieves, the Thief Leader and the Lion Coin shop
 - Contents: heroes, army, events and spending
 - Awakening shards: where they come from
-- Claire (Advanced): skills, upgrades and Might
+- Clea (Advanced): skills, upgrades and Might
 - Nicole: skills, upgrades and Might
 - Joker: skills, upgrades and Might
 - Annie: skills, upgrades and Might
-- Ulfrid: skills, upgrades and Might
+- Ulfred: skills, upgrades and Might
 - Billy: skills, upgrades and Might
-- Bell: skills, upgrades and Might
-- Red Lady: skills, upgrades and Might
+- Belle: skills, upgrades and Might
+- Nyonya Merah: skills, upgrades and Might
 - Cynthia: skills, upgrades and Might
 - Louis: skills, upgrades and Might
-- Shadow: skills, upgrades and Might
+- Ying: skills, upgrades and Might
 - Zoya: skills, upgrades and Might
 - Harper: skills, upgrades and Might
-- Daskal: skills, upgrades and Might
-- Ash: skills, upgrades and Might
-- William: skills, upgrades and Might
+- Duskar: skills, upgrades and Might
+- Ashe: skills, upgrades and Might
+- Williams: skills, upgrades and Might
 - Durant: skills, upgrades and Might
 - Robin: skills, upgrades and Might
 - Kafa: skills, upgrades and Might
-- Hastar: skills, upgrades and Might
+- Hastur: skills, upgrades and Might
 - Marlena: skills, upgrades and Might
-- Bestar: skills, upgrades and Might
-- Grenwald: skills, upgrades and Might
-- Claire: skills, upgrades and Might
+- Bast: skills, upgrades and Might
+- Grindelwald: skills, upgrades and Might
+- Clea: skills, upgrades and Might
 - Bella: skills, upgrades and Might
 - Sivir: skills, upgrades and Might
 - Griffith: skills, upgrades and Might
-- Stellar: skills, upgrades and Might
+- Stardust: skills, upgrades and Might
 - Lucius: skills, upgrades and Might
 - Celia: skills, upgrades and Might
-- Kesso: skills, upgrades and Might
+- Kaeso: skills, upgrades and Might
 - Arthur: skills, upgrades and Might

@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-bella)).
 
-Bella is an SSR warrior who plays as tank. Fully upgraded, she reaches 773,500 Might, rank 8 of 11 among the game's tanks. Unlocking her takes 10 shards ( Bella Shard), and the shards become available once the Warrior Statue reaches level 20.
+Bella is an SSR warrior who plays as tank. Fully upgraded, she reaches 773,500 Might, rank 8 of 11 among the game's tanks. Unlocking her takes 10 shards ( Bella Shard), and the shards become available once the Estátua do Guerreiro reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -26,7 +26,7 @@ Bella is an SSR warrior who plays as tank. Fully upgraded, she reaches 773,500 M
 | Max stars | 50 |
 | Attack speed | one hit every 0.87 s |
 | Shards to unlock | Bella Shard × 10 |
-| Faction building | Warrior Statue, level 20 |
+| Faction building | Estátua do Guerreiro, level 20 |
 | Skills | 5, full set |
 | Trait | Aloof |
 | Faction advantage | Warriors take 20% less damage from Warlocks |
@@ -297,9 +297,9 @@ Gains from each progression system on its own. They show where to invest first:
 
 Bella ranks eighth of eleven tanks with 773,500 maximum Might, between Lucius at 778,239 and Griffith at 764,263. Her Crimson Prayer removes 45% of incoming damage against the 39% of Griffith's Serpent Veil, though both skills count monster damage only. The ultimate Bloody Requiem hits for 2,886.84% and lowers enemy attack at the same time.
 
-Bella carries no server-age condition, and her shards open once the Warrior Statue reaches level 20, and hiring her takes 10 of them. Levelling her makes sense while the warrior UR heroes are still out of reach. Arthur is there from day one, Daskal only from server day 28, and until then Bella holds the front line of a budget squad.
+Bella carries no server-age condition, and her shards open once the Estátua do Guerreiro reaches level 20, and hiring her takes 10 of them. Levelling her makes sense while the warrior UR heroes are still out of reach. Arthur is there from day one, Daskal only from server day 28, and until then Bella holds the front line of a budget squad.
 
-An SSR hero has no Awakening and no Exclusive Weapon, so everything rests on stars: 975 shards give 437,264 HP, while levels bring 1,530,683. The sum comes to 1,967,947 against 4,717,490 for Daskal. Skill Badges cost 436,700 per skill, and Crimson Prayer only reaches 45% at 45 stars.
+An SSR hero has no Awakening and no Arma Exclusiva, so everything rests on stars: 975 shards give 437,264 HP, while levels bring 1,530,683. The sum comes to 1,967,947 against 4,717,490 for Daskal. Skill Badges cost 436,700 per skill, and Crimson Prayer only reaches 45% at 45 stars.
 
 Bella stands seven times in the squad review, and all of those line-ups are budget ones. The strongest, with Arthur, Lucius, Sivir and Marlena, withstands 38.8M damage at the full +20% faction bonus. All five of them are warriors, and Bella completes that bonus from the front line.
 

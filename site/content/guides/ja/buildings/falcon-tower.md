@@ -40,11 +40,11 @@ This building gives no stat bonus: it unlocks an option rather than percentages.
 
 ## How to use it
 
-The Falcon Tower is the priciest of the instant buildings: 720 Grain and 720 Timber, twice what the Nomad Trader costs and six times the price of the Explorer's Camp. It brings the same 100 Might all the while, and neither sum registers in the city total.
+The Falcon Tower is the priciest of the instant buildings: 720 Grain and 720 Timber, twice what the 遊牧商人 costs and six times the price of the Explorer's Camp. It brings the same 100 Might all the while, and neither sum registers in the city total.
 
-The tower unlocks at Sanctuary level 6 together with the Barracks, the Training Grounds and the Scout Squad, which rise to level 30 and need between 199 and 299 days of pure build time. The tower goes up in seconds and moves none of those queues.
+The tower unlocks at Sanctuary level 6 together with the 兵営, the 訓練場 and the 偵察隊, which rise to level 30 and need between 199 and 299 days of pure build time. The tower goes up in seconds and moves none of those queues.
 
 Without it the world map, the chat and scouting stay shut, and with them every way out of the territory. Falcon Quests come from the same place, allow 8 hours for completion, and grow harder with the Sanctuary level rather than with the tower. So the tower is the first of the level 6 buildings to be raised: until it stands, the troops from the barracks and the training grounds have nowhere outside the territory to fight.
 
-The scouting the tower opens works in tandem with the Watchtower, which hides a player's own figures from enemy scouts and unlocks two levels later, at 8. Until then a foreign report on the city is complete while the Falcon Quests already run, so the pause between Sanctuary levels 6 and 8 is best kept short. The tower has a single level, so the 1,440 resources are spent once and never come back to it.
+The scouting the tower opens works in tandem with the 見張り塔, which hides a player's own figures from enemy scouts and unlocks two levels later, at 8. Until then a foreign report on the city is complete while the Falcon Quests already run, so the pause between Sanctuary levels 6 and 8 is best kept short. The tower has a single level, so the 1,440 resources are spent once and never come back to it.
 

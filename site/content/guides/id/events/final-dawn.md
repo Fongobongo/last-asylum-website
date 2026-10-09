@@ -26,7 +26,7 @@ Disusun oleh komandan veteran (oψsvge英俊的, Server K250), panduan ini menye
 - **Fokus Utama:** Meningkatkan kekuatan tempur hero, tingkat skill, dan kekuatan militer.
 - Salurkan Antitoxin ke hero carry utama dan tank garis depan Anda (Arthur, Clea, Marlena).
 - Tingkatkan level skill hero dan lengkapi set perlengkapan awal.
-- Targetkan bangunan dengan Might tinggi: Kuil, Barracks, dan Raven Tower.
+- Targetkan bangunan dengan Might tinggi: Kuil, Barak, dan Raven Tower.
 - Berpartisipasi aktif dalam bantuan Aliansi untuk memangkas waktu timer bangunan.
 
 ### Fase 3: Hari 5–6 — Major Push
@@ -51,7 +51,7 @@ Saat mengalokasikan pembangun, speedup, dan material, patuhi urutan ini dengan k
 $$\text{Kuil} \longrightarrow \text{Bangunan Prasyarat} \longrightarrow \text{Riset} \longrightarrow \text{Hero} \longrightarrow \text{Pasukan} \longrightarrow \text{Sumber Daya} \longrightarrow \text{Aliansi}$$
 
 1. **Kuil:** Mendorong batas akun dan memberikan lonjakan Might terbesar.
-2. **Prasyarat:** Wall, Laboratorium, dan Military Barracks.
+2. **Prasyarat:** Wall, Laboratorium, dan Military Barak.
 3. **Riset:** Kekuatan teknologi permanen yang tidak bisa dijarah.
 4. **Hero:** Level, peringkat bintang, dan breakpoint skill aktif untuk skuad pertama Anda.
 5. **Pasukan:** Produksi berkelanjutan dari tingkat tertinggi yang telah Anda buka.

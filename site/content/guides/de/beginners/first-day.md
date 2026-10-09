@@ -31,7 +31,7 @@ Die Mitgliedschaft ist auch Schutz. Spieler, die nach leichter Beute suchen, üb
 
 Wie man eine Allianz vor dem Beitritt beurteilt: Achte auf die jüngste Mitgliederaktivität, ob Hilfeanfragen tatsächlich beantwortet werden und ob die Allianz ihre Events spielt. Wenn du in einem Friedhof mit einer vollen Mitgliederliste und null Logins landest – verlasse sie.
 
-**Ändere zuerst deinen Start-Spitznamen.** Das Spiel weist dir einen automatisch generierten Namen wie `Player_837261` zu – die meisten Rekrutierer lesen diese als Bots, Farm-Accounts oder Spieler, die das Spiel in einer Woche aufgeben werden, und lehnen die Bewerbung einfach ab. Ein echt aussehender Spitzname erhöht deine Chance, in eine aktive Allianz aufgenommen zu werden, dramatisch. Die erste Umbenennung ist kostenlos (Lord-Profil → Bearbeiten-Symbol neben dem Namen).
+**Ändere zuerst deinen Start-Spitznamen.** Das Spiel weist dir einen automatisch generierten Namen wie `Player_837261` zu – die meisten Rekrutierer lesen diese als Bots, Bauernhof-Accounts oder Spieler, die das Spiel in einer Woche aufgeben werden, und lehnen die Bewerbung einfach ab. Ein echt aussehender Spitzname erhöht deine Chance, in eine aktive Allianz aufgenommen zu werden, dramatisch. Die erste Umbenennung ist kostenlos (Lord-Profil → Bearbeiten-Symbol neben dem Namen).
 
 > Eine tote Allianz ist schlimmer als keine Allianz. Verlasse sie ohne Schuldgefühle und tritt noch am selben Tag einer lebendigen bei.
 

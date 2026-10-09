@@ -1,22 +1,22 @@
 ---
-title: "Alliance Stable: levels, cost and upgrades"
-description: "Alliance Stable assembles the alliance caravan: up to twenty members, six wagons and a locomotive, with a two-hour muster. An alliance caravan can be robbed three times, …"
+title: "Écurie d'alliance: levels, cost and upgrades"
+description: "Écurie d'alliance assembles the alliance caravan: up to twenty members, six wagons and a locomotive, with a two-hour muster. An alliance caravan can be robbed three times, …"
 videoTopic: "buildings"
 lang: fr
 updated: "2026-09-19"
 type: guide
 ---
-![Écurie d\'alliance](/building-icons/5052.png)
+![Écurie d'alliance](/building-icons/5052.png)
 
 
-**Nom officiel:** Écurie d\'alliance
+**Nom officiel:** Écurie d'alliance
 >
 > Les noms traduits viennent du client officiel (v1.0.102). Tableaux et chiffres du client (v1.0.87) via wiki-last-asylum.com ; texte en anglais ci-dessous.
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-alliance-stable)).
 
 
-Alliance Stable assembles the alliance caravan: up to twenty members, six wagons and a locomotive, with a two-hour muster. An alliance caravan can be robbed three times, a personal one only twice. The building unlocks after Sanctuary level 11 and goes up to level 1. Only one can be built.
+Écurie d'alliance assembles the alliance caravan: up to twenty members, six wagons and a locomotive, with a two-hour muster. An alliance caravan can be robbed three times, a personal one only twice. The building unlocks after Sanctuary level 11 and goes up to level 1. Only one can be built.
 
 | Stat | Value |
 |---|---|
@@ -40,11 +40,11 @@ This building gives no stat bonus: it unlocks an option rather than percentages.
 
 ## How to use it
 
-The Alliance Stable costs 12 Grain and 9 Timber and brings 500 Might. Almost nothing in the city returns as much per resource: the Monument gives a quarter of that for 840 resources. It goes up instantly, so at Sanctuary level 11 the choice is not between the two stables but around the Warlock Statue, which unlocks at the same level and demands 299 days of building for its 272,600 Might.
+The Écurie d'alliance costs 12 Grain and 9 Timber and brings 500 Might. Almost nothing in the city returns as much per resource: the Monument gives a quarter of that for 840 resources. It goes up instantly, so at Sanctuary level 11 the choice is not between the two stables but around the Statue de démoniste, which unlocks at the same level and demands 299 days of building for its 272,600 Might.
 
 The point of the stable is not Might but the alliance caravan: up to twenty members, six wagons and a locomotive, with a muster of up to two hours. Such a caravan carries more than a personal one, and it is also robbed more often, three times against two.
 
-The two stables therefore work as a pair. The Private Stable hauls resources for a player's own construction and costs 10 Grain, while the alliance one starts paying off once twenty people are ready to gather in a single run. Alone it is useless, and it is worth building for a living alliance rather than for the Sanctuary level itself.
+The two stables therefore work as a pair. The Écurie privée hauls resources for a player's own construction and costs 10 Grain, while the alliance one starts paying off once twenty people are ready to gather in a single run. Alone it is useless, and it is worth building for a living alliance rather than for the Sanctuary level itself.
 
-The city has four instant buildings worth 500 Might: both stables, the Temple and the Hall of Honor. The rest give 100 or 200, and the Lord Statue gives nothing at all. Against the 272,600 of a faction statue the difference between those figures means little, so a building is never picked for its Might. The alliance caravan musters for up to two hours, so a single run needs twenty people to agree inside that window.
+The city has four instant buildings worth 500 Might: both stables, the Temple and the Salle d'honneur. The rest give 100 or 200, and the Statue du seigneur gives nothing at all. Against the 272,600 of a faction statue the difference between those figures means little, so a building is never picked for its Might. The alliance caravan musters for up to two hours, so a single run needs twenty people to agree inside that window.
 

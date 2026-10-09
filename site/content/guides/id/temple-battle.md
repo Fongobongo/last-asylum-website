@@ -1,6 +1,6 @@
 ---
-title: "Temple Battle: ministers, court posts and king decrees"
-description: "Temple Battle decides which kingdom takes the throne, and it opens at Sanctuary level 15. A kingdom that wins hands out court posts, and a post is not decoration: it work…"
+title: "Kuil Battle: ministers, court posts and king decrees"
+description: "Kuil Battle decides which kingdom takes the throne, and it opens at Sanctuary level 15. A kingdom that wins hands out court posts, and a post is not decoration: it work…"
 lang: id
 updated: "2026-09-19"
 type: guide
@@ -10,7 +10,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/temple-battle)).
 
-Temple Battle decides which kingdom takes the throne, and it opens at Sanctuary level 15. A kingdom that wins hands out court posts, and a post is not decoration: it works as a standing bonus in the city of whoever holds it. The Inner Court minister, the Construction minister and the other posts are listed below with their bonuses.
+Kuil Battle decides which kingdom takes the throne, and it opens at Sanctuary level 15. A kingdom that wins hands out court posts, and a post is not decoration: it works as a standing bonus in the city of whoever holds it. The Inner Court minister, the Construction minister and the other posts are listed below with their bonuses.
 
 ## Court posts
 

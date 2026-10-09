@@ -17,7 +17,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-marlena)).
 
-Marlena is a UR warrior who plays as DPS. Fully upgraded, she reaches 914,868 Might, rank 4 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Marlena Shard), and the shards become available once the Warrior Statue reaches level 20. Server age does not limit Marlena: she is in the hero list from day one.
+Marlena is a UR warrior who plays as DPS. Fully upgraded, she reaches 914,868 Might, rank 4 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Marlena Shard), and the shards become available once the Statue de guerrier reaches level 20. Server age does not limit Marlena: she is in the hero list from day one.
 
 A flashing blade in the dead of night - unrivaled lethality.
 
@@ -30,14 +30,14 @@ A flashing blade in the dead of night - unrivaled lethality.
 | Max stars | 50 |
 | Attack speed | one hit every 0.87 s |
 | Shards to unlock | Marlena Shard × 10 |
-| Faction building | Warrior Statue, level 20 |
+| Faction building | Statue de guerrier, level 20 |
 | Skills | 5, full set |
 | Trait | Helpful |
 | Faction advantage | Warriors take 20% less damage from Warlocks |
 | Awakening opens | on day one of the season |
 | Exclusive weapon | on day 106 of the season |
 
-This hero's awakening tab is open from day one of the season, while the other fourteen UR heroes get theirs one at a time, one every two weeks. The Exclusive Weapon becomes available on day 106 of the season.
+This hero's awakening tab is open from day one of the season, while the other fourteen UR heroes get theirs one at a time, one every two weeks. The Arme exclusive becomes available on day 106 of the season.
 
 ## Why she matters
 
@@ -173,7 +173,7 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 | Annie | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
 | Cynthia | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
 | Marlena | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
-| Red Lady | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| Dame Rouge | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
 | Joker | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
 | Grenwald | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
 | Kesso | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
@@ -191,8 +191,8 @@ Skybreaker Slash · damage multiplier · rank 2 of 16
 | Claire | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
 | Marlena | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
 | Zoya | Warrior | Dagger | Auto Attack | 747% | single target |
-| Cynthia | Ranger | Moon Blade | Auto Attack | 747% | single target |
-| Red Lady | Ranger | Blood Blade | Auto Attack | 747% | single target |
+| Cynthia | Ranger | Lame lunaire | Auto Attack | 747% | single target |
+| Dame Rouge | Ranger | Blood Blade | Auto Attack | 747% | single target |
 
 Stronger: Claire, Holy Banner (advanced) hits for 810% of ATK on a single target.
 
@@ -201,7 +201,7 @@ Peerless Blade · damage multiplier · rank 6 of 15
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
 | Joker | Warlock | Joker Ace | Ultimate Skill | 5,047.5% | single target |
-| Red Lady | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
+| Dame Rouge | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
 | Zoya | Warrior | Forest Hunter | Ultimate Skill | 3,669.6% | single target |
 | Annie | Warlock | Candy Jar | Ultimate Skill | 3,553.2% | single target |
 | Marlena | Warrior | Peerless Blade | Ultimate Skill | 3,382.5% | single target |
@@ -212,13 +212,13 @@ Crimson Bloom · damage multiplier · rank 9 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Red Lady | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
+| Dame Rouge | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
 | Sivir | Warrior | Shield Strike | Active Skill | 1,887.6% | single target |
 | Grenwald | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
 | Cynthia | Ranger | Lunar Hunt | Active Skill | 1,800% | single target |
 | Marlena | Warrior | Crimson Bloom | Active Skill | 1,462.5% | single target |
 
-Stronger: Red Lady, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
+Stronger: Dame Rouge, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
 
 ## Upgrade order
 
@@ -294,9 +294,9 @@ Every skill goes up to level 40 with Skill Badge: one skill costs 436,700 of the
 - HP +1,350,327, ATK +12,404, DEF +18,746
 - DMG RES +5%
 
-### Exclusive Weapon
+### Arme exclusive
 
-“Crimson Sword”, upgraded to 50 stars. At max it adds:
+“Épée cramoisie”, upgraded to 50 stars. At max it adds:
 - HP +1,251,000, ATK +8,750, DEF +8,750
 - Hero DEF +10%
 - Hero HP +10%
@@ -314,14 +314,14 @@ Gains from each progression system on its own. They show where to invest first:
 | Hero levels | 1,008,858 | 18,511 | 11,305 |
 | Stars | 288,197 | 5,286 | 3,228 |
 | Awakening | 1,350,327 | 12,404 | 18,746 |
-| Exclusive Weapon | 1,251,000 | 8,750 | 8,750 |
+| Arme exclusive | 1,251,000 | 8,750 | 8,750 |
 | Total | 3,898,382 | 44,951 | 42,030 |
 
 ## How to play
 
 Among the UR DPS heroes Marlena ranks fourth: 914,868 Might against 918,563 for Zoya, 916,394 for Annie and 916,153 for Cynthia. All six share a 15 second ultimate cooldown, so the winner is whoever does more with it, and Peerless Blade sends five whirls at 3,382.5% of ATK while her auto attack fills the gaps at 783%.
 
-Marlena is the only UR hero collected for free: development goals guarantee 920 shards against 10 for the unlock and 975 for a full star build. No server age condition applies to her, her awakening is open from season day one, and the single wait is the Exclusive Weapon, which arrives on day 106.
+Marlena is the only UR hero collected for free: development goals guarantee 920 shards against 10 for the unlock and 975 for a full star build. No server age condition applies to her, her awakening is open from season day one, and the single wait is the Arme exclusive, which arrives on day 106.
 
 Awakening is her most expensive system: 2,870 shards for 40 levels. It also returns the most, 1,350,327 HP, 12,404 ATK and 18,746 DEF, while all 150 hero levels give 1,008,858 HP. Skills cost 436,700 badges each, and Peerless Blade is the one to raise first.
 

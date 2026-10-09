@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-bestar)).
 
-Bestar is an SSR ranger who plays as DPS. Fully upgraded, she reaches 685,793 Might, rank 10 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Bestar Shard), and the shards become available once the Ranger Statue reaches level 20.
+Bestar is an SSR ranger who plays as DPS. Fully upgraded, she reaches 685,793 Might, rank 10 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Bestar Shard), and the shards become available once the Estátua do Patrulheiro reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -26,7 +26,7 @@ Bestar is an SSR ranger who plays as DPS. Fully upgraded, she reaches 685,793 Mi
 | Max stars | 50 |
 | Attack speed | one hit every 0.87 s |
 | Shards to unlock | Bestar Shard × 10 |
-| Faction building | Ranger Statue, level 20 |
+| Faction building | Estátua do Patrulheiro, level 20 |
 | Skills | 5, full set |
 | Trait | Helpful |
 | Faction advantage | Rangers take 20% less damage from Warriors |
@@ -157,7 +157,7 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 | Annie | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
 | Cynthia | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
 | Marlena | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
-| Red Lady | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| Dama Vermelha | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
 | Joker | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
 | Grenwald | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
 | Kesso | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
@@ -175,7 +175,7 @@ Cat Bell · damage multiplier · rank 10 of 16
 | Claire | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
 | Marlena | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
 | Zoya | Warrior | Dagger | Auto Attack | 747% | single target |
-| Cynthia | Ranger | Moon Blade | Auto Attack | 747% | single target |
+| Cynthia | Ranger | Lâmina Lunar | Auto Attack | 747% | single target |
 | Bestar | Ranger | Cat Bell | Auto Attack | 514.8% | single target |
 
 Stronger: Claire, Holy Banner (advanced) hits for 810% of ATK on a single target.
@@ -185,7 +185,7 @@ Sacred Flame Kitty · damage multiplier · rank 11 of 15
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
 | Joker | Warlock | Joker Ace | Ultimate Skill | 5,047.5% | single target |
-| Red Lady | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
+| Dama Vermelha | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
 | Zoya | Warrior | Forest Hunter | Ultimate Skill | 3,669.6% | single target |
 | Annie | Warlock | Candy Jar | Ultimate Skill | 3,553.2% | single target |
 | Bestar | Ranger | Sacred Flame Kitty | Ultimate Skill | 1,976.04% | area |
@@ -196,13 +196,13 @@ Black Cat Messenger · damage multiplier · rank 13 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Red Lady | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
+| Dama Vermelha | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
 | Sivir | Warrior | Shield Strike | Active Skill | 1,887.6% | single target |
 | Grenwald | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
 | Cynthia | Ranger | Lunar Hunt | Active Skill | 1,800% | single target |
 | Bestar | Ranger | Black Cat Messenger | Active Skill | 871.2% | single target |
 
-Stronger: Red Lady, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
+Stronger: Dama Vermelha, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
 
 ## Upgrade order
 
@@ -282,9 +282,9 @@ Gains from each progression system on its own. They show where to invest first:
 
 Bestar reaches 685,793 Might, just 80 behind Ash and 722 behind Kesso. Stats are not what separates them: Ash's ultimate lands 2,798.4% while Sacred Flame Kitty manages 1,976.04%. In exchange, both of Bestar's attacks apply bleeding and Bloodstain Tracker adds 45% damage against bleeding enemies, whereas Ash's passive skill gives 33% and works against monsters only.
 
-SSR rarity spares Bestar the server age condition, so she is available from day one, while Cynthia arrives on server day 7 and Red Lady on day 35. Shards come from recruiting, where a hero shard drops in roughly a quarter of summons and UR heroes account for 2.8% of those.
+SSR rarity spares Bestar the server age condition, so she is available from day one, while Cynthia arrives on server day 7 and Dama Vermelha on day 35. Shards come from recruiting, where a hero shard drops in roughly a quarter of summons and UR heroes account for 2.8% of those.
 
-SSR heroes have no awakening and no Exclusive Weapon, so Bestar's ceiling comes from levels and stars alone: 894,522 HP and 15,494 ATK. Stars contribute 198,756 and 3,441 of that, and they also drive her passive skill, whose 45% arrives in steps at the twentieth, forty-fifth and fiftieth star.
+SSR heroes have no awakening and no Arma Exclusiva, so Bestar's ceiling comes from levels and stars alone: 894,522 HP and 15,494 ATK. Stars contribute 198,756 and 3,441 of that, and they also drive her passive skill, whose 45% arrives in steps at the twentieth, forty-fifth and fiftieth star.
 
 Among budget squads Bestar stands in the ranger five with Griffith, Hastar, Ash and Louis: 16.8M survivability, 1.2M damage per second and 5 effectiveness with a +15% bonus. The bleeding from her skills and Ash's ranger buff stack together.
 

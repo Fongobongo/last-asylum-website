@@ -1,6 +1,6 @@
 ---
-title: "Louis: 스킬, 빌드, 육성"
-description: "Louis is a UR ranger who plays as tank. Fully upgraded, he reaches 1,044,341 Might, rank 4 of 11 among the game's tanks. Unlocking him takes 10 shards ( Louis Shard), and…"
+title: "루이스: 스킬, 빌드, 육성"
+description: "루이스 is a UR ranger who plays as tank. Fully upgraded, he reaches 1,044,341 Might, rank 4 of 11 among the game's tanks. Unlocking him takes 10 shards ( 루이스 Shard), and…"
 videoTopic: "heroes"
 lang: ko
 updated: "2026-09-19"
@@ -17,7 +17,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-louis)).
 
-Louis is a UR ranger who plays as tank. Fully upgraded, he reaches 1,044,341 Might, rank 4 of 11 among the game's tanks. Unlocking him takes 10 shards ( Louis Shard), and the shards become available once the Ranger Statue reaches level 20. Louis does not appear in the hero list until server day 63.
+루이스 is a UR ranger who plays as tank. Fully upgraded, he reaches 1,044,341 Might, rank 4 of 11 among the game's tanks. Unlocking him takes 10 shards ( 루이스 Shard), and the shards become available once the 레인저 조각상 reaches level 20. 루이스 does not appear in the hero list until server day 63.
 
 | Stat | Value |
 |---|---|
@@ -27,8 +27,8 @@ Louis is a UR ranger who plays as tank. Fully upgraded, he reaches 1,044,341 Mig
 | Max Might | 1,044,341 |
 | Max stars | 50 |
 | Attack speed | one hit every 0.83 s |
-| Shards to unlock | Louis Shard × 10 |
-| Faction building | Ranger Statue, level 20 |
+| Shards to unlock | 루이스 Shard × 10 |
+| Faction building | 레인저 조각상, level 20 |
 | Skills | 5, full set |
 | Trait | Steady |
 | Faction advantage | Rangers take 20% less damage from Warriors |
@@ -36,13 +36,13 @@ Louis is a UR ranger who plays as tank. Fully upgraded, he reaches 1,044,341 Mig
 | Awakening opens | on day 127 of the season |
 | Exclusive weapon | on day 22 of the season |
 
-Awakening and the Exclusive Weapon follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 127 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Exclusive Weapon becomes available on day 22 of the season.
+Awakening and the 전용 무기 follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 127 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The 전용 무기 becomes available on day 22 of the season.
 
 ## Why he matters
 
 Role: A ranger tank who survives on his own, without support, as Cross Whip heals him for 150% of ATK. The ultimate also hits an area and, from the thirtieth star, lowers incoming damage for the whole squad, while the passive Indomitable Spirit holds another 30% reduction permanently and once per fight leaves him alive at 1 HP. The active Force Link takes energy damage off the three allies with the highest Defense.
 
-Worth investing: Louis ranks fourth of eleven tanks by maximum Might (1,044,341) and sits in tier S, while the squad table gives him seven line-ups out of twelve, including a tier S one with Arthur, Marlena, Daskal and Harper. That puts him behind Arthur and Billy in the investment queue, all the more so as he does not appear in the hero list until server day 63.
+Worth investing: 루이스 ranks fourth of eleven tanks by maximum Might (1,044,341) and sits in tier S, while the squad table gives him seven line-ups out of twelve, including a tier S one with 아서, 말레나, 다스칼 and 하퍼. That puts him behind 아서 and 빌리 in the investment queue, all the more so as he does not appear in the hero list until server day 63.
 
 ## Skills
 
@@ -160,7 +160,7 @@ Support skill: active while the hero is outside the main squad.
 
 ## Compared to other heroes
 
-Below, Louis is compared with the other heroes of the same role, of which the game has 11 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
+Below, 루이스 is compared with the other heroes of the same role, of which the game has 11 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
 
 ### Stats
 
@@ -168,17 +168,17 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 
 | Hero | Faction | Rarity | Max Might | HP growth | ATK growth | DEF growth |
 |---|---|---|---|---|---|---|
-| Shadow | Ranger | UR | 1,075,906 | 1.43 | 0.78 | 1.06 |
-| Daskal | Warrior | UR | 1,057,192 | 1.36 | 0.81 | 1.05 |
-| Arthur | Warrior | UR | 1,052,453 | 1.34 | 0.82 | 1.05 |
-| Louis | Ranger | UR | 1,044,341 | 1.31 | 0.83 | 1.05 |
-| Ulfrid | Warlock | UR | 1,033,739 | 1.27 | 0.85 | 1.04 |
-| Billy | Warlock | UR | 980,246 | 1.05 | 0.97 | 1.01 |
-| Lucius | Warrior | SSR | 778,239 | 0.9 | 0.54 | 0.7 |
-| Bella | Warrior | SSR | 773,500 | 0.88 | 0.55 | 0.7 |
-| Griffith | Ranger | SSR | 764,263 | 0.85 | 0.56 | 0.69 |
-| Hastar | Warlock | SSR | 750,047 | 0.79 | 0.59 | 0.69 |
-| Durant | Warrior | SR | 596,226 | 0.72 | 0.45 | 0.57 |
+| 섀도우 | Ranger | UR | 1,075,906 | 1.43 | 0.78 | 1.06 |
+| 다스칼 | Warrior | UR | 1,057,192 | 1.36 | 0.81 | 1.05 |
+| 아서 | Warrior | UR | 1,052,453 | 1.34 | 0.82 | 1.05 |
+| 루이스 | Ranger | UR | 1,044,341 | 1.31 | 0.83 | 1.05 |
+| 울프레드 | Warlock | UR | 1,033,739 | 1.27 | 0.85 | 1.04 |
+| 빌리 | Warlock | UR | 980,246 | 1.05 | 0.97 | 1.01 |
+| 루시우스 | Warrior | SSR | 778,239 | 0.9 | 0.54 | 0.7 |
+| 벨라 | Warrior | SSR | 773,500 | 0.88 | 0.55 | 0.7 |
+| 그리피스 | Ranger | SSR | 764,263 | 0.85 | 0.56 | 0.69 |
+| 하스터 | Warlock | SSR | 750,047 | 0.79 | 0.59 | 0.69 |
+| 듀란트 | Warrior | SR | 596,226 | 0.72 | 0.45 | 0.57 |
 
 ### Skill numbers
 
@@ -186,65 +186,65 @@ Shackles · damage multiplier · rank 2 of 11
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Daskal | Warrior | Battle Will | Auto Attack | 996% | single target |
-| Louis | Ranger | Shackles | Auto Attack | 996% | single target |
-| Ulfrid | Warlock | Sharp Claw | Auto Attack | 996% | single target |
-| Arthur | Warrior | Battle Shield | Auto Attack | 900% | single target |
-| Billy | Warlock | Wooden Frame | Auto Attack | 747% | single target |
+| 다스칼 | Warrior | Battle Will | Auto Attack | 996% | single target |
+| 루이스 | Ranger | Shackles | Auto Attack | 996% | single target |
+| 울프레드 | Warlock | Sharp Claw | Auto Attack | 996% | single target |
+| 아서 | Warrior | Battle Shield | Auto Attack | 900% | single target |
+| 빌리 | Warlock | Wooden Frame | Auto Attack | 747% | single target |
 
-Stronger: Daskal, Battle Will hits for 996% of ATK on a single target.
+Stronger: 다스칼, Battle Will hits for 996% of ATK on a single target.
 
 Cross Whip · damage multiplier · rank 7 of 9
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Hastar | Warlock | Wrath of Old Gods | Ultimate Skill | 3,623.4% | area |
-| Billy | Warlock | Truth and Lies | Ultimate Skill | 2,916% | area |
-| Bella | Warrior | Bloody Requiem | Ultimate Skill | 2,886.84% | single target |
-| Lucius | Warrior | Whirlwind Cut | Ultimate Skill | 2,029.2% | single target |
-| Louis | Ranger | Cross Whip | Ultimate Skill | 1,368% | area |
+| 하스터 | Warlock | Wrath of Old Gods | Ultimate Skill | 3,623.4% | area |
+| 빌리 | Warlock | Truth and Lies | Ultimate Skill | 2,916% | area |
+| 벨라 | Warrior | Bloody Requiem | Ultimate Skill | 2,886.84% | single target |
+| 루시우스 | Warrior | Whirlwind Cut | Ultimate Skill | 2,029.2% | single target |
+| 루이스 | Ranger | Cross Whip | Ultimate Skill | 1,368% | area |
 
-Stronger: Hastar, Wrath of Old Gods hits for 3,623.4% of ATK in an area.
+Stronger: 하스터, Wrath of Old Gods hits for 3,623.4% of ATK in an area.
 
 Cross Whip · damage taken reduction · rank 7 of 15
 
 | Hero | Faction | Skill | Skill type | DMG reduction, % | Damage cut for |
 |---|---|---|---|---|---|
-| Bella | Warrior | Crimson Prayer | Active Skill | 45% | for the caster, monsters only |
-| Griffith | Ranger | Serpent Veil | Ultimate Skill | 39% | for allies, monsters only |
-| Louis | Ranger | Force Link | Active Skill | 36% | for allies |
-| Billy | Warlock | Fate's Thread | Active Skill | 36% | for allies |
-| Louis | Ranger | Cross Whip | Ultimate Skill | 30% | for the caster |
+| 벨라 | Warrior | Crimson Prayer | Active Skill | 45% | for the caster, monsters only |
+| 그리피스 | Ranger | Serpent Veil | Ultimate Skill | 39% | for allies, monsters only |
+| 루이스 | Ranger | Force Link | Active Skill | 36% | for allies |
+| 빌리 | Warlock | Fate's Thread | Active Skill | 36% | for allies |
+| 루이스 | Ranger | Cross Whip | Ultimate Skill | 30% | for the caster |
 
-Stronger: Bella, Crimson Prayer cuts damage by 45% for the caster, monsters only.
+Stronger: 벨라, Crimson Prayer cuts damage by 45% for the caster, monsters only.
 
 Force Link · damage taken reduction · rank 3 of 15
 
 | Hero | Faction | Skill | Skill type | DMG reduction, % | Damage cut for |
 |---|---|---|---|---|---|
-| Bella | Warrior | Crimson Prayer | Active Skill | 45% | for the caster, monsters only |
-| Griffith | Ranger | Serpent Veil | Ultimate Skill | 39% | for allies, monsters only |
-| Louis | Ranger | Force Link | Active Skill | 36% | for allies |
-| Billy | Warlock | Fate's Thread | Active Skill | 36% | for allies |
-| Arthur | Warrior | Earthshattering | Ultimate Skill | 35% | for allies |
+| 벨라 | Warrior | Crimson Prayer | Active Skill | 45% | for the caster, monsters only |
+| 그리피스 | Ranger | Serpent Veil | Ultimate Skill | 39% | for allies, monsters only |
+| 루이스 | Ranger | Force Link | Active Skill | 36% | for allies |
+| 빌리 | Warlock | Fate's Thread | Active Skill | 36% | for allies |
+| 아서 | Warrior | Earthshattering | Ultimate Skill | 35% | for allies |
 
-Stronger: Bella, Crimson Prayer cuts damage by 45% for the caster, monsters only.
+Stronger: 벨라, Crimson Prayer cuts damage by 45% for the caster, monsters only.
 
 Indomitable Spirit · damage taken reduction · rank 8 of 15
 
 | Hero | Faction | Skill | Skill type | DMG reduction, % | Damage cut for |
 |---|---|---|---|---|---|
-| Bella | Warrior | Crimson Prayer | Active Skill | 45% | for the caster, monsters only |
-| Griffith | Ranger | Serpent Veil | Ultimate Skill | 39% | for allies, monsters only |
-| Louis | Ranger | Force Link | Active Skill | 36% | for allies |
-| Billy | Warlock | Fate's Thread | Active Skill | 36% | for allies |
-| Louis | Ranger | Indomitable Spirit | Passive Skill | 30% | for the caster |
+| 벨라 | Warrior | Crimson Prayer | Active Skill | 45% | for the caster, monsters only |
+| 그리피스 | Ranger | Serpent Veil | Ultimate Skill | 39% | for allies, monsters only |
+| 루이스 | Ranger | Force Link | Active Skill | 36% | for allies |
+| 빌리 | Warlock | Fate's Thread | Active Skill | 36% | for allies |
+| 루이스 | Ranger | Indomitable Spirit | Passive Skill | 30% | for the caster |
 
-Stronger: Bella, Crimson Prayer cuts damage by 45% for the caster, monsters only.
+Stronger: 벨라, Crimson Prayer cuts damage by 45% for the caster, monsters only.
 
 ## Upgrade order
 
-Skill priority: Cross Whip comes first, since it alone brings damage, healing and a damage cut. Indomitable Spirit is next for its permanent 30% reduction and the save from a lethal hit. Force Link follows, and the auto attack Shackles comes last with the support skill: 50 stars give it 747%, while 996% arrives with the Exclusive Weapon.
+Skill priority: Cross Whip comes first, since it alone brings damage, healing and a damage cut. Indomitable Spirit is next for its permanent 30% reduction and the save from a lethal hit. Force Link follows, and the auto attack Shackles comes last with the support skill: 50 stars give it 747%, while 996% arrives with the 전용 무기.
 
 ### What stars and levels unlock
 
@@ -289,7 +289,7 @@ The hero has 150 levels, and reaching the last one costs Antitoxin 5,248,471,500
 
 ### Stars
 
-Reaching 50 stars takes 975 shards ( Louis Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
+Reaching 50 stars takes 975 shards ( 루이스 Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
 
 | Stars | HP | ATK | DEF | Cost |
 |---|---|---|---|---|
@@ -312,13 +312,13 @@ Every skill goes up to level 40 with Skill Badge: one skill costs 436,700 of the
 
 ### Awakening
 
-40 levels, 2,870 awakening shards in total (Louis Awaken Shard). At max it adds:
+40 levels, 2,870 awakening shards in total (루이스 Awaken Shard). At max it adds:
 - HP +425,119, ATK +12,119, DEF +3,812
 - DMG RES +5%
 
-### Exclusive Weapon
+### 전용 무기
 
-“Thorn Shackles”, upgraded to 50 stars. At max it adds:
+“가시 족쇄”, upgraded to 50 stars. At max it adds:
 - HP +1,251,000, ATK +8,750, DEF +8,750
 - Hero DEF +10%
 - Hero HP +10%
@@ -336,16 +336,16 @@ Gains from each progression system on its own. They show where to invest first:
 | Hero levels | 2,278,628 | 10,311 | 13,045 |
 | Stars | 650,927 | 2,945 | 3,725 |
 | Awakening | 425,119 | 12,119 | 3,812 |
-| Exclusive Weapon | 1,251,000 | 8,750 | 8,750 |
+| 전용 무기 | 1,251,000 | 8,750 | 8,750 |
 | Total | 4,605,674 | 34,125 | 29,332 |
 
 ## How to play
 
-By maximum Might Louis reaches 1,044,341, which is 31,565 below Shadow and 10,602 above Ulfrid. The four leading tanks fall within three percent of one another, so their skills decide between them. Arthur takes 35% of physical damage off the allies in range with Earthshattering, while Cross Whip keeps its 30% on Louis alone until his thirtieth star.
+By maximum Might 루이스 reaches 1,044,341, which is 31,565 below 섀도우 and 10,602 above 울프레드. The four leading tanks fall within three percent of one another, so their skills decide between them. 아서 takes 35% of physical damage off the allies in range with Earthshattering, while Cross Whip keeps its 30% on 루이스 alone until his thirtieth star.
 
-Louis enters the hero list on server day 63, later than Shadow, Daskal and Ulfrid, who arrive on days 7, 28 and 42. Unlocking him costs 10 shards, and the recruit guarantee does not hand them over: in the fourth set it is tied to nine heroes, and Louis is not one of them. His shards come in scattered, so saving for him ahead of his day brings little.
+루이스 enters the hero list on server day 63, later than 섀도우, 다스칼 and 울프레드, who arrive on days 7, 28 and 42. Unlocking him costs 10 shards, and the recruit guarantee does not hand them over: in the fourth set it is tied to nine heroes, and 루이스 is not one of them. His shards come in scattered, so saving for him ahead of his day brings little.
 
-Awakening is the most expensive part of his build: 2,870 shards against the 975 that cover all fifty stars, and its tab opens only on season day 127. The Exclusive Weapon, Thorn Shackles, arrives on season day 22 and adds 1,251,000 HP against the 425,119 that awakening brings.
+Awakening is the most expensive part of his build: 2,870 shards against the 975 that cover all fifty stars, and its tab opens only on season day 127. The 전용 무기, 가시 족쇄, arrives on season day 22 and adds 1,251,000 HP against the 425,119 that awakening brings.
 
-In the squad ranking Louis holds seven line-ups out of twelve. The best of them, a tier S one with Arthur, Marlena, Daskal and Harper, scores 98 effectiveness at 150.7M survivability, the highest figure in the table.
+In the squad ranking 루이스 holds seven line-ups out of twelve. The best of them, a tier S one with 아서, 말레나, 다스칼 and 하퍼, scores 98 effectiveness at 150.7M survivability, the highest figure in the table.
 

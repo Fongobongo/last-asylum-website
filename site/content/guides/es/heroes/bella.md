@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-bella)).
 
-Bella is an SSR warrior who plays as tank. Fully upgraded, she reaches 773,500 Might, rank 8 of 11 among the game's tanks. Unlocking her takes 10 shards ( Bella Shard), and the shards become available once the Warrior Statue reaches level 20.
+Bella is an SSR warrior who plays as tank. Fully upgraded, she reaches 773,500 Might, rank 8 of 11 among the game's tanks. Unlocking her takes 10 shards ( Bella Shard), and the shards become available once the Estatua del guerrero reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -26,7 +26,7 @@ Bella is an SSR warrior who plays as tank. Fully upgraded, she reaches 773,500 M
 | Max stars | 50 |
 | Attack speed | one hit every 0.87 s |
 | Shards to unlock | Bella Shard × 10 |
-| Faction building | Warrior Statue, level 20 |
+| Faction building | Estatua del guerrero, level 20 |
 | Skills | 5, full set |
 | Trait | Aloof |
 | Faction advantage | Warriors take 20% less damage from Warlocks |
@@ -39,7 +39,7 @@ Bella is an SSR warrior who plays as tank. Fully upgraded, she reaches 773,500 M
 
 Role: A warrior tank built for hunting, as Crimson Prayer cuts incoming damage by 45% against monsters only. That figure is the second largest in the game, and the same limit applies to her passive Purity. The ultimate Bloody Requiem hits an area for 2,886.84% and lowers enemy attack at the same time.
 
-Worth investing: Bella ranks eighth of eleven tanks by maximum Might (773,500) and sits in tier B, behind only Lucius among the SSR heroes of the role. She holds the front line in the best budget warrior squads, so investment pays off until the UR tanks arrive, while against other players her damage reduction does nothing at all.
+Worth investing: Bella ranks eighth of eleven tanks by maximum Might (773,500) and sits in tier B, behind only Lucio among the SSR heroes of the role. She holds the front line in the best budget warrior squads, so investment pays off until the UR tanks arrive, while against other players her damage reduction does nothing at all.
 
 ## Skills
 
@@ -157,13 +157,13 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 
 | Hero | Faction | Rarity | Max Might | HP growth | ATK growth | DEF growth |
 |---|---|---|---|---|---|---|
-| Shadow | Ranger | UR | 1,075,906 | 1.43 | 0.78 | 1.06 |
+| Sombra | Ranger | UR | 1,075,906 | 1.43 | 0.78 | 1.06 |
 | Daskal | Warrior | UR | 1,057,192 | 1.36 | 0.81 | 1.05 |
-| Arthur | Warrior | UR | 1,052,453 | 1.34 | 0.82 | 1.05 |
-| Louis | Ranger | UR | 1,044,341 | 1.31 | 0.83 | 1.05 |
+| Arturo | Warrior | UR | 1,052,453 | 1.34 | 0.82 | 1.05 |
+| Luis | Ranger | UR | 1,044,341 | 1.31 | 0.83 | 1.05 |
 | Ulfrid | Warlock | UR | 1,033,739 | 1.27 | 0.85 | 1.04 |
 | Billy | Warlock | UR | 980,246 | 1.05 | 0.97 | 1.01 |
-| Lucius | Warrior | SSR | 778,239 | 0.9 | 0.54 | 0.7 |
+| Lucio | Warrior | SSR | 778,239 | 0.9 | 0.54 | 0.7 |
 | Bella | Warrior | SSR | 773,500 | 0.88 | 0.55 | 0.7 |
 | Griffith | Ranger | SSR | 764,263 | 0.85 | 0.56 | 0.69 |
 | Hastar | Warlock | SSR | 750,047 | 0.79 | 0.59 | 0.69 |
@@ -176,9 +176,9 @@ Swing · damage multiplier · rank 9 of 11
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
 | Daskal | Warrior | Battle Will | Auto Attack | 996% | single target |
-| Louis | Ranger | Shackles | Auto Attack | 996% | single target |
+| Luis | Ranger | Shackles | Auto Attack | 996% | single target |
 | Ulfrid | Warlock | Sharp Claw | Auto Attack | 996% | single target |
-| Arthur | Warrior | Battle Shield | Auto Attack | 900% | single target |
+| Arturo | Warrior | Battle Shield | Auto Attack | 900% | single target |
 | Bella | Warrior | Swing | Auto Attack | 514.8% | single target |
 
 Stronger: Daskal, Battle Will hits for 996% of ATK on a single target.
@@ -190,7 +190,7 @@ Bloody Requiem · damage multiplier · rank 3 of 9
 | Hastar | Warlock | Wrath of Old Gods | Ultimate Skill | 3,623.4% | area |
 | Billy | Warlock | Truth and Lies | Ultimate Skill | 2,916% | area |
 | Bella | Warrior | Bloody Requiem | Ultimate Skill | 2,886.84% | single target |
-| Lucius | Warrior | Whirlwind Cut | Ultimate Skill | 2,029.2% | single target |
+| Lucio | Warrior | Whirlwind Cut | Ultimate Skill | 2,029.2% | single target |
 | Ulfrid | Warlock | Throat Bite | Ultimate Skill | 1,806% | single target |
 
 Stronger: Hastar, Wrath of Old Gods hits for 3,623.4% of ATK in an area.
@@ -201,9 +201,9 @@ Crimson Prayer · damage taken reduction · rank 1 of 15
 |---|---|---|---|---|---|
 | Bella | Warrior | Crimson Prayer | Active Skill | 45% | for the caster, monsters only |
 | Griffith | Ranger | Serpent Veil | Ultimate Skill | 39% | for allies, monsters only |
-| Louis | Ranger | Force Link | Active Skill | 36% | for allies |
+| Luis | Ranger | Force Link | Active Skill | 36% | for allies |
 | Billy | Warlock | Fate's Thread | Active Skill | 36% | for allies |
-| Arthur | Warrior | Earthshattering | Ultimate Skill | 35% | for allies |
+| Arturo | Warrior | Earthshattering | Ultimate Skill | 35% | for allies |
 
 Closest counterpart: Griffith, Serpent Veil cuts damage by 39% for allies, monsters only.
 
@@ -213,7 +213,7 @@ Purity · damage taken reduction · rank 13 of 15
 |---|---|---|---|---|---|
 | Bella | Warrior | Crimson Prayer | Active Skill | 45% | for the caster, monsters only |
 | Griffith | Ranger | Serpent Veil | Ultimate Skill | 39% | for allies, monsters only |
-| Louis | Ranger | Force Link | Active Skill | 36% | for allies |
+| Luis | Ranger | Force Link | Active Skill | 36% | for allies |
 | Billy | Warlock | Fate's Thread | Active Skill | 36% | for allies |
 | Bella | Warrior | Purity | Passive Skill | 24% | for the caster, monsters only |
 
@@ -295,11 +295,11 @@ Gains from each progression system on its own. They show where to invest first:
 
 ## How to play
 
-Bella ranks eighth of eleven tanks with 773,500 maximum Might, between Lucius at 778,239 and Griffith at 764,263. Her Crimson Prayer removes 45% of incoming damage against the 39% of Griffith's Serpent Veil, though both skills count monster damage only. The ultimate Bloody Requiem hits for 2,886.84% and lowers enemy attack at the same time.
+Bella ranks eighth of eleven tanks with 773,500 maximum Might, between Lucio at 778,239 and Griffith at 764,263. Her Crimson Prayer removes 45% of incoming damage against the 39% of Griffith's Serpent Veil, though both skills count monster damage only. The ultimate Bloody Requiem hits for 2,886.84% and lowers enemy attack at the same time.
 
-Bella carries no server-age condition, and her shards open once the Warrior Statue reaches level 20, and hiring her takes 10 of them. Levelling her makes sense while the warrior UR heroes are still out of reach. Arthur is there from day one, Daskal only from server day 28, and until then Bella holds the front line of a budget squad.
+Bella carries no server-age condition, and her shards open once the Estatua del guerrero reaches level 20, and hiring her takes 10 of them. Levelling her makes sense while the warrior UR heroes are still out of reach. Arturo is there from day one, Daskal only from server day 28, and until then Bella holds the front line of a budget squad.
 
-An SSR hero has no Awakening and no Exclusive Weapon, so everything rests on stars: 975 shards give 437,264 HP, while levels bring 1,530,683. The sum comes to 1,967,947 against 4,717,490 for Daskal. Skill Badges cost 436,700 per skill, and Crimson Prayer only reaches 45% at 45 stars.
+An SSR hero has no Awakening and no Arma exclusiva, so everything rests on stars: 975 shards give 437,264 HP, while levels bring 1,530,683. The sum comes to 1,967,947 against 4,717,490 for Daskal. Skill Badges cost 436,700 per skill, and Crimson Prayer only reaches 45% at 45 stars.
 
-Bella stands seven times in the squad review, and all of those line-ups are budget ones. The strongest, with Arthur, Lucius, Sivir and Marlena, withstands 38.8M damage at the full +20% faction bonus. All five of them are warriors, and Bella completes that bonus from the front line.
+Bella stands seven times in the squad review, and all of those line-ups are budget ones. The strongest, with Arturo, Lucio, Sivir and Marlena, withstands 38.8M damage at the full +20% faction bonus. All five of them are warriors, and Bella completes that bonus from the front line.
 

@@ -1,6 +1,6 @@
 ---
-title: "Smelting Workshop: levels, cost and upgrades"
-description: "Smelting Workshop produces Gearstones, the material that every step of strengthening hero gear consumes. Output stores for up to twelve hours, so the workshops are collec…"
+title: "製錬工房: levels, cost and upgrades"
+description: "製錬工房 produces Gearstones, the material that every step of strengthening hero gear consumes. Output stores for up to twelve hours, so the workshops are collec…"
 videoTopic: "buildings"
 lang: ja
 updated: "2026-09-19"
@@ -16,7 +16,7 @@ type: guide
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-smelting-workshop)).
 
 
-Smelting Workshop produces Gearstones, the material that every step of strengthening hero gear consumes. Output stores for up to twelve hours, so the workshops are collected twice a day, and five of them at level 30 yield 310 Gearstones an hour. The building unlocks after Sanctuary level 5 and goes up to level 30. Up to 5 can be built. Levels raise: gearstone Output/Hour, max Production Time.
+製錬工房 produces Gearstones, the material that every step of strengthening hero gear consumes. Output stores for up to twelve hours, so the workshops are collected twice a day, and five of them at level 30 yield 310 Gearstones an hour. The building unlocks after Sanctuary level 5 and goes up to level 30. Up to 5 can be built. Levels raise: gearstone Output/Hour, max Production Time.
 
 | Stat | Value |
 |---|---|
@@ -49,7 +49,7 @@ Five Smelting Workshops may stand at once, and the queue between them splits by 
 
 The second bonus, Max Production Time, grows from 8 hours 8 minutes to 12 hours. At level 20 the store holds 10 hours 40 minutes, so with two collections a day the workshop idles for an hour and twenty minutes, and a full store without waste arrives only at level 30.
 
-The Weaving Workshop next door costs the same 99 days 17 hours and carries almost the same Might, 168,200 against 168,300, yet it turns out 91 items an hour against 62 Gearstones. The gap in pace comes from the goods: Gearstones go into strengthening hero gear, while Cloth serves as the lowest of the five crafting materials.
+The 織物工房 next door costs the same 99 days 17 hours and carries almost the same Might, 168,200 against 168,300, yet it turns out 91 items an hour against 62 Gearstones. The gap in pace comes from the goods: Gearstones go into strengthening hero gear, while Cloth serves as the lowest of the five crafting materials.
 
 Sanctuary level 5 opens ten such buildings at once, five smelters and five weavers, and a full upgrade of all ten runs to 997 days. Level 20 on all ten fits into 44 days, which is where the queue here is usually stopped.
 

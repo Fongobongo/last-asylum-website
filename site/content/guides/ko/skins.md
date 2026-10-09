@@ -41,7 +41,7 @@ The skins that carry bonuses, and what each of them gives, are listed below.
 | Oath's Eye | Raven | Raven ATK 5,100 |
 | Phantom Hunter | Raven | Enemy Troop Death Rate↑ in PvP +5.5% |
 | Raven Guardian | Raven | Hero DMG Taken +5.5% |
-| Shadow Sentinel | Raven | Hero DMG Dealt +2.5% |
+| 섀도우 Sentinel | Raven | Hero DMG Dealt +2.5% |
 | Duel Guardian | Avatar frame | Hero ATK +4% |
 | Duel Supreme | Avatar frame | Hero ATK +5% |
 | Duel Warrior | Avatar frame | Hero ATK +3% |

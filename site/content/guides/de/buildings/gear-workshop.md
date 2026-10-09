@@ -1,6 +1,6 @@
 ---
-title: "Gear Workshop: levels, cost and upgrades"
-description: "Gear Workshop forges hero gear, and its level unlocks crafting of the higher qualities, with gear stars arriving at level 20. Levels past the twentieth carry no numeric b…"
+title: "Ausrüstungswerkstatt: levels, cost and upgrades"
+description: "Ausrüstungswerkstatt forges hero gear, and its level unlocks crafting of the higher qualities, with gear stars arriving at level 20. Levels past the twentieth carry no numeric b…"
 videoTopic: "buildings"
 lang: de
 updated: "2026-09-19"
@@ -16,7 +16,7 @@ type: guide
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-gear-workshop)).
 
 
-Gear Workshop forges hero gear, and its level unlocks crafting of the higher qualities, with gear stars arriving at level 20. Levels past the twentieth carry no numeric bonus, so they are raised for Might and for Sanctuary requirements alone. The building unlocks after Sanctuary level 4 and goes up to level 30. Only one can be built.
+Ausrüstungswerkstatt forges hero gear, and its level unlocks crafting of the higher qualities, with gear stars arriving at level 20. Levels past the twentieth carry no numeric bonus, so they are raised for Might and for Sanctuary requirements alone. The building unlocks after Sanctuary level 4 and goes up to level 30. Only one can be built.
 
 | Stat | Value |
 |---|---|
@@ -46,11 +46,11 @@ This building gives no stat bonus: it unlocks an option rather than percentages.
 
 ## How to use it
 
-The Gear Workshop is one of two thirty-level buildings whose level table holds no numeric bonus at all; the other is the Epigraph Workshop. For 349 days of construction and 6,482,328,895 resources the workshop returns unlocked options and 277,600 Might.
+The Ausrüstungswerkstatt is one of two thirty-level buildings whose level table holds no numeric bonus at all; the other is the Epigraph-Werkstatt. For 349 days of construction and 6,482,328,895 resources the workshop returns unlocked options and 277,600 Might.
 
 Everything it unlocks is finished by level 20: crafting of the three higher qualities and gear stars. Level 20 arrives after 15 days and 11 hours, under five percent of the whole build time. The remaining ten levels cost 333 days and 13 hours and bring 229,900 Might, and nothing besides.
 
-Five buildings share the queue at Sanctuary level 4, and only one of them is instant: the Explorer's Camp at 240 resources. The other four ask 1,396 days between them. A neighbor at that level spends the same stretch differently: the Tavern asks for the same 349 days, yet its free recruit cooldown keeps falling all the way to level 30.
+Five buildings share the queue at Sanctuary level 4, and only one of them is instant: the Explorer's Camp at 240 resources. The other four ask 1,396 days between them. A neighbor at that level spends the same stretch differently: the Taverne asks for the same 349 days, yet its free recruit cooldown keeps falling all the way to level 30.
 
 The bill of the workshop leans hard on Timber: 4,526,021,182 against 1,491,682,843 Grain and 464,624,870 Herb, the third largest timber spend in the city. Up to level 20 it sits early in the queue, alongside hero gear itself, and past level 20 it is raised for Sanctuary requirements. One workshop stands to a city, and a second cannot be built.
 

@@ -152,8 +152,8 @@ There are numerous strategic facilities on the battlefield. Capturing them provi
 Strategic Base II
 After 10 minutes of battle, all remaining strategic bases will be accessible. Capturing them grants a small amount of points over time and combat buffs.
 
-[War Relic] Increases allied Heroes\' ATK, DEF, and HP by 15%.
-[Cursed Altar] Reduces enemy Heroes\' ATK, DEF, and HP by 15%.
+[War Relic] Increases allied Heroes' ATK, DEF, and HP by 15%.
+[Cursed Altar] Reduces enemy Heroes' ATK, DEF, and HP by 15%.
 
 
 ### Occupation Points
@@ -177,7 +177,7 @@ At the 13-minute mark of the battle, camps storing a large amount of herbs will 
 
 ### Hunt
 
-Defeating Blights in the world grants resources and items. Powerful Elite Blights require an alliance to launch an attack. The higher the Blight\'s level, the greater the rewards for defeating it.
+Defeating Blights in the world grants resources and items. Powerful Elite Blights require an alliance to launch an attack. The higher the Blight's level, the greater the rewards for defeating it.
 
 
 ### Falcon Tower
@@ -227,12 +227,12 @@ R4 or R5 can declare war on adjacent cities, allowing alliance members to siege.
 
 ### Defeat the Garrison
 
-During a siege, defeat the city\'s garrison first. The garrison is strong, so proceed with caution.
+During a siege, defeat the city's garrison first. The garrison is strong, so proceed with caution.
 
 
 ### Reduce Durability
 
-After defeating the garrison, deplete the city\'s durability. The more participants, the faster the process.
+After defeating the garrison, deplete the city's durability. The more participants, the faster the process.
 
 
 ### Capture City
@@ -316,7 +316,7 @@ You can obtain Skill Crystals by defeating Plague Rats in the valley. After coll
 
 ### Main city cannot be attacked
 
-In the valley, players cannot launch attacks or scout other players\' main cities. Feel free to attack or gather resource points!
+In the valley, players cannot launch attacks or scout other players' main cities. Feel free to attack or gather resource points!
 
 
 ### Specialty Choice
@@ -348,15 +348,15 @@ Use a Specialty Reset Book to reset your current Specialty and select a differen
 
 ### EXP Overflow
 
-Once your Specialty Level reaches its Cap, you\'ll continue earning Specialty EXP at the end of the era, excess Specialty EXP converts to Items at a 30% rate. Converted Items are sent via Mail and can be used to upgrade your Specialty Level in the next era.
+Once your Specialty Level reaches its Cap, you'll continue earning Specialty EXP at the end of the era, excess Specialty EXP converts to Items at a 30% rate. Converted Items are sent via Mail and can be used to upgrade your Specialty Level in the next era.
 
 
 ### RES Level
 
-RES Level is crucial for battling era Monsters. Upgrading RES Level grants RES attributes, helping you overcome era Monsters with ease. When an era ends, RES Level becomes inactive, and its RES attributes are lost. Upon the next era\'s start, they reactivate.
+RES Level is crucial for battling era Monsters. Upgrading RES Level grants RES attributes, helping you overcome era Monsters with ease. When an era ends, RES Level becomes inactive, and its RES attributes are lost. Upon the next era's start, they reactivate.
 
 
 ### RES Attribute
 
-RES is the sole attribute for battling era Monsters. Each Monster has its own RES attribute. When your RES exceeds the Monster\'s RES, you\'ll defeat them easily; if your RES falls short, you\'ll face disadvantages or even defeat in battle.
+RES is the sole attribute for battling era Monsters. Each Monster has its own RES attribute. When your RES exceeds the Monster's RES, you'll defeat them easily; if your RES falls short, you'll face disadvantages or even defeat in battle.
 

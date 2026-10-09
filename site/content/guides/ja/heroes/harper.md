@@ -1,6 +1,6 @@
 ---
-title: "Harper：スキル・ビルド・育成"
-description: "Harper is a UR warrior who plays as support. Fully upgraded, he reaches 920,570 Might, rank 1 of 5 among the game's support heroes. Unlocking him takes 10 shards ( Harper…"
+title: "ハーパー：スキル・ビルド・育成"
+description: "ハーパー is a UR warrior who plays as support. Fully upgraded, he reaches 920,570 Might, rank 1 of 5 among the game's support heroes. Unlocking him takes 10 shards ( ハーパー…"
 videoTopic: "heroes"
 lang: ja
 updated: "2026-09-19"
@@ -17,7 +17,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-harper)).
 
-Harper is a UR warrior who plays as support. Fully upgraded, he reaches 920,570 Might, rank 1 of 5 among the game's support heroes. Unlocking him takes 10 shards ( Harper Shard), and the shards become available once the Warrior Statue reaches level 20. Harper does not appear in the hero list until server day 21.
+ハーパー is a UR warrior who plays as support. Fully upgraded, he reaches 920,570 Might, rank 1 of 5 among the game's support heroes. Unlocking him takes 10 shards ( ハーパー Shard), and the shards become available once the ウォーリア像 reaches level 20. ハーパー does not appear in the hero list until server day 21.
 
 Victory lies in the rhythm. Chant to empower the soul.
 
@@ -29,8 +29,8 @@ Victory lies in the rhythm. Chant to empower the soul.
 | Max Might | 920,570 |
 | Max stars | 50 |
 | Attack speed | one hit every 0.83 s |
-| Shards to unlock | Harper Shard × 10 |
-| Faction building | Warrior Statue, level 20 |
+| Shards to unlock | ハーパー Shard × 10 |
+| Faction building | ウォーリア像, level 20 |
 | Skills | 5, full set |
 | Trait | Diligent |
 | Faction advantage | Warriors take 20% less damage from Warlocks |
@@ -38,13 +38,13 @@ Victory lies in the rhythm. Chant to empower the soul.
 | Awakening opens | on day 85 of the season |
 | Exclusive weapon | on day 134 of the season |
 
-Awakening and the Exclusive Weapon follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 85 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Exclusive Weapon becomes available on day 134 of the season.
+Awakening and the 専用武器 follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 85 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The 専用武器 becomes available on day 134 of the season.
 
 ## Why he matters
 
 Role: A support who keeps the squad standing without healing, as Vitality Bubble cuts damage on the lowest-HP ally. No other support hero lowers the damage an ally takes, while his ultimate War Flute Sound raises the attack of every hero in the squad by 15.38% with no stars and 34.5% fully raised.
 
-Worth investing: Harper ranks first of the five support heroes by maximum Might (920,570) and sits in tier A, and he stands in 21 of the top fifty line-ups, though the game's best squad goes without a support at all. He is worth levelling the moment he appears in the list, which happens on server day 21.
+Worth investing: ハーパー ranks first of the five support heroes by maximum Might (920,570) and sits in tier A, and he stands in 21 of the top fifty line-ups, though the game's best squad goes without a support at all. He is worth levelling the moment he appears in the list, which happens on server day 21.
 
 ## Skills
 
@@ -76,7 +76,7 @@ Value growth by skill level
 
 Ultimate Skill · Cooldown 14s · Unlocks at: hero level 5
 
-Harper plays a war flute to inspire allies, increasing all allied heroes' ATK by 15.38% for 5s.
+ハーパー plays a war flute to inspire allies, increasing all allied heroes' ATK by 15.38% for 5s.
 
 Hero stars strengthen the skill, and each threshold changes its effect.
 
@@ -100,7 +100,7 @@ Value growth by skill level
 
 Active Skill · Cooldown 5s · Unlocks at: hero level 10
 
-Harper creates a bubble, reducing the damage received by the lowest-HP ally by 8.2% for 4s.
+ハーパー creates a bubble, reducing the damage received by the lowest-HP ally by 8.2% for 4s.
 
 Hero stars strengthen the skill, and each threshold changes its effect.
 
@@ -154,7 +154,7 @@ Support skill: active while the hero is outside the main squad.
 
 ## Compared to other heroes
 
-Below, Harper is compared with the other heroes of the same role, of which the game has 5 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
+Below, ハーパー is compared with the other heroes of the same role, of which the game has 5 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
 
 ### Stats
 
@@ -162,11 +162,11 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 
 | Hero | Faction | Rarity | Max Might | HP growth | ATK growth | DEF growth |
 |---|---|---|---|---|---|---|
-| Harper | Warrior | UR | 920,570 | 0.7 | 1.3 | 0.94 |
-| Bell | Ranger | UR | 920,570 | 0.7 | 1.3 | 0.94 |
-| Nicole | Warlock | UR | 920,570 | 0.7 | 1.3 | 0.94 |
-| Stellar | Warlock | SSR | 695,511 | 0.52 | 0.8 | 0.64 |
-| Celia | Warrior | SSR | 691,655 | 0.5 | 0.82 | 0.63 |
+| ハーパー | Warrior | UR | 920,570 | 0.7 | 1.3 | 0.94 |
+| ベル | Ranger | UR | 920,570 | 0.7 | 1.3 | 0.94 |
+| ニコル | Warlock | UR | 920,570 | 0.7 | 1.3 | 0.94 |
+| ステラ | Warlock | SSR | 695,511 | 0.52 | 0.8 | 0.64 |
+| シリア | Warrior | SSR | 691,655 | 0.5 | 0.82 | 0.63 |
 
 ### Skill numbers
 
@@ -174,13 +174,13 @@ Bubble · damage multiplier · rank 1 of 5
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Harper | Warrior | Bubble | Auto Attack | 747% | single target |
-| Bell | Ranger | Musical Note | Auto Attack | 747% | single target |
-| Nicole | Warlock | Ember Dust | Auto Attack | 747% | single target |
-| Stellar | Warlock | Meteorite | Auto Attack | 594% | single target |
-| Celia | Warrior | Flying Blade | Auto Attack | 297% | single target |
+| ハーパー | Warrior | Bubble | Auto Attack | 747% | single target |
+| ベル | Ranger | Musical Note | Auto Attack | 747% | single target |
+| ニコル | Warlock | Ember Dust | Auto Attack | 747% | single target |
+| ステラ | Warlock | Meteorite | Auto Attack | 594% | single target |
+| シリア | Warrior | Flying Blade | Auto Attack | 297% | single target |
 
-Closest counterpart: Bell, Musical Note hits for 747% of ATK on a single target.
+Closest counterpart: ベル, Musical Note hits for 747% of ATK on a single target.
 
 ## Upgrade order
 
@@ -225,7 +225,7 @@ The hero has 150 levels, and reaching the last one costs Antitoxin 5,248,471,500
 
 ### Stars
 
-Reaching 50 stars takes 975 shards ( Harper Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
+Reaching 50 stars takes 975 shards ( ハーパー Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
 
 | Stars | HP | ATK | DEF | Cost |
 |---|---|---|---|---|
@@ -248,11 +248,11 @@ Every skill goes up to level 40 with Skill Badge: one skill costs 436,700 of the
 
 ### Awakening
 
-40 levels, 2,870 awakening shards in total (Harper Awaken Shard). At max it adds:
+40 levels, 2,870 awakening shards in total (ハーパー Awaken Shard). At max it adds:
 - HP +425,119, ATK +12,119, DEF +3,812
 - DMG RES +5%
 
-### Exclusive Weapon
+### 専用武器
 
 “Bard's Horn”, upgraded to 50 stars. At max it adds:
 - HP +1,251,000, ATK +8,750, DEF +8,750
@@ -272,16 +272,16 @@ Gains from each progression system on its own. They show where to invest first:
 | Hero levels | 1,217,588 | 16,150 | 11,678 |
 | Stars | 347,824 | 4,612 | 3,335 |
 | Awakening | 425,119 | 12,119 | 3,812 |
-| Exclusive Weapon | 1,251,000 | 8,750 | 8,750 |
+| 専用武器 | 1,251,000 | 8,750 | 8,750 |
 | Total | 3,241,530 | 41,631 | 27,575 |
 
 ## How to play
 
-Three UR support heroes reach the same 920,570 Might, and what they do in battle is all that separates them. Harper's ultimate recharges in 14 seconds like Bell's, Nicole needs 15, and War Flute Sound raises the attack of the whole squad by 34.5%. The SSR heroes of the role, Stellar and Celia, stop at 695,511 and 691,655.
+Three UR support heroes reach the same 920,570 Might, and what they do in battle is all that separates them. ハーパー's ultimate recharges in 14 seconds like ベル's, ニコル needs 15, and War Flute Sound raises the attack of the whole squad by 34.5%. The SSR heroes of the role, ステラ and シリア, stop at 695,511 and 691,655.
 
-Harper enters the hero list on server day 21, and his shards do not drop before that. Awakening opens on season day 85 and the Exclusive Weapon on day 134, so the first weeks go into levels, stars and skills, while the recruit pity pays him out from the second list onward.
+ハーパー enters the hero list on server day 21, and his shards do not drop before that. Awakening opens on season day 85 and the 専用武器 on day 134, so the first weeks go into levels, stars and skills, while the recruit pity pays him out from the second list onward.
 
 Awakening costs him the most: 2,870 shards for 40 levels against 975 for 50 stars, returning 425,119 HP, 12,119 ATK and 3,812 DEF. Stars matter more for the fight itself, since the 45th gives Vitality Bubble a second target and the 50th lifts Warrior's Anthem to 18%.
 
-Harper stands in 21 of the top 50 squads, and the game's best line-up goes without a support at all. In the strongest squad that fields him he joins Arthur, Marlena, Daskal and Louis for 150.7M of survivability at a +15% bonus and 98 points out of 100. In the warrior version with Zoya the damage reduction reaches 48%, because the 20% of Vitality Bubble stacks with the 35% of Earthshattering.
+ハーパー stands in 21 of the top 50 squads, and the game's best line-up goes without a support at all. In the strongest squad that fields him he joins アーサー, マレーナ, ダスカール and ルイス for 150.7M of survivability at a +15% bonus and 98 points out of 100. In the warrior version with ゾーヤ the damage reduction reaches 48%, because the 20% of Vitality Bubble stacks with the 35% of Earthshattering.
 

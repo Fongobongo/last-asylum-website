@@ -68,5 +68,5 @@ Spezialeffekt-Sets (Nachtrabenmaske, Rabenfederumhang) werden auf bestimmten Stu
 
 - **Schmelzerei → Stufe 25:** Bringe die Schmelzerei so schnell wie möglich auf Stufe 25, sobald dein Zufluchtsort dies erlaubt. Sie veredelt und produziert die Ausrüstungssteine, die zum Aufleveln der Ausrüstung benötigt werden. Ein Rückstand bei diesem Gebäude erzeugt einen unüberwindbaren Engpass für die Waffen deines Carries.
 - **Ausrüstungswerkstatt** — herstellen & zerlegen; **Weberei** produziert Stoff zum Verschmelzen/Herstellen.
-- **F2P-Farm für Ausrüstungssteine:** Der Hauptengpass der Community sind Ausrüstungssteine – kaufe sie konsequent in den Shops für Zufluchtsort und Expedition.
+- **F2P-Bauernhof für Ausrüstungssteine:** Der Hauptengpass der Community sind Ausrüstungssteine – kaufe sie konsequent in den Shops für Zufluchtsort und Expedition.
 - **Ausrüstungs-Blaupausen (UR) im Ehren-Shop:** Gib deine Ehrenmünzen **AUSSCHLIESSLICH für Ausrüstungs-Blaupausen (UR)** aus. Überspringe Kuriositäten-Truhen und universelle Scherben – Blaupausen sind der einzige Türwächter für die Beförderung oranger Ausrüstung auf Stufe 10, 20, 30 und 40.

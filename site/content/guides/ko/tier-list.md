@@ -57,21 +57,21 @@ videoTopic: tier_list
 
 PvP에서는 전열, 군중 제어, 폭발 딜, 위험한 타겟을 무력화하는 능력이 승부를 가른다. 가장 "두꺼운" 파티가 항상 이기는 것은 아니다. 스턴 한 번, 방어력 감소 한 번, 적 캐리에게 꽂힌 한 방이 승부를 결정하기도 한다.
 
-- **S (PvP):** Arthur, Daskal, Marlena, Red Lady, Cynthia, Shadow, Harper
-- **A+ (PvP):** Louis, Ulfrid, Bell, Nicole, Annie
-- **A (PvP):** Jester, Zoya, Billy
+- **S (PvP):** 아서, 다스칼, 말레나, 레드 레이디, 신시아, 섀도우, 하퍼
+- **A+ (PvP):** 루이스, 울프레드, 벨, 니콜, 애니
+- **A (PvP):** Jester, 조야, 빌리
 
-이유: Red Lady는 공격력 높은 타겟, 즉 적의 주요 딜러를 압박한다. Shadow는 방어력을 깎고 에너지 파티를 무너뜨린다. Marlena와 Cynthia는 강력한 에너지 버스트를 제공한다. Arthur + Daskal은 가장 믿을 수 있는 전열이다. 스스로 이기는 게 아니라 후열에 시간을 벌어준다. Harper는 Warrior 코어(Arthur + Daskal + Marlena)의 일원으로 가치가 높다.
+이유: Red Lady는 공격력 높은 타겟, 즉 적의 주요 딜러를 압박한다. Shadow는 방어력을 깎고 에너지 파티를 무너뜨린다. Marlena와 Cynthia는 강력한 에너지 버스트를 제공한다. 아서 + Daskal은 가장 믿을 수 있는 전열이다. 스스로 이기는 게 아니라 후열에 시간을 벌어준다. Harper는 Warrior 코어(아서 + 다스칼 + 말레나)의 일원으로 가치가 높다.
 
 ## 🗡️ PvE 티어 리스트 {#pve-tier}
 
 PvE는 다른 논리로 움직인다. 긴 전투, 지속 딜, 힐, 생존력, 이벤트 약점에 대한 적합성. 전투력이 낮은 파티도 보스에 맞으면 더 많은 딜을 낸다.
 
-- **S (PvE):** Arthur, Marlena, Daskal, Harper, Nicole
-- **A+ (PvE):** Cynthia, Zoya, Annie, Bell, Ulfrid, Louis
-- **A (PvE):** Red Lady, Shadow, Jester, Billy
+- **S (PvE):** 아서, 말레나, 다스칼, 하퍼, 니콜
+- **A+ (PvE):** 신시아, 조야, 애니, 벨, 울프레드, 루이스
+- **A (PvE):** 레드 레이디, 섀도우, Jester, 빌리
 
-PvE에서 Nicole이 더 높은 이유: 긴 전투에서 힐과 서포트가 결정적이다. Red Lady가 PvP보다 낮은 이유: 고공격력 타겟 압박과 스턴이 강점인데 보스전에서는 가치가 떨어진다. Arthur, Daskal, Marlena는 두 모드 모두 상위. 전열과 안정적인 딜은 어디서나 필요하다.
+PvE에서 Nicole이 더 높은 이유: 긴 전투에서 힐과 서포트가 결정적이다. Red Lady가 PvP보다 낮은 이유: 고공격력 타겟 압박과 스턴이 강점인데 보스전에서는 가치가 떨어진다. 아서, 다스칼, Marlena는 두 모드 모두 상위. 전열과 안정적인 딜은 어디서나 필요하다.
 
 **팁:** PvP 파티를 PvE에 자동으로 복사하지 마라. 이벤트가 요구하는 것을 확인하라. 특정 팩션, 딜 타입, 혹은 버스트 대신 생존력.
 
@@ -79,13 +79,13 @@ PvE에서 Nicole이 더 높은 이유: 긴 전투에서 힐과 서포트가 결�
 
 핵심 질문은 "전체적으로 누가 가장 강한가"가 아니라 "누구를 현실적으로 키울 수 있는가"이다. 조각과 별이 없는 UR 영웅은 금방 한계에 부딪힌다.
 
-- **최우선:** Arthur, Marlena, Daskal, Harper, Cynthia
-- **높은 우선:** Red Lady, Shadow, Ulfrid, Annie
-- **중간/후반 우선:** Bell, Louis, Nicole, Zoya, Jester, Billy
+- **최우선:** 아서, 말레나, 다스칼, 하퍼, 신시아
+- **높은 우선:** 레드 레이디, 섀도우, 울프레드, 애니
+- **중간/후반 우선:** 벨, 루이스, 니콜, 조야, Jester, 빌리
 
 Arthur는 거의 항상 좋은 시작 탱커다. Marlena는 소과금 최고의 딜 부스트($1 충전). Daskal은 강력한 두 번째 전열. Harper는 Warrior 파티를 완성한다. Cynthia는 에너지 하이브리드로 가는 발판. Nicole은 매우 강하지만 후반형이다. 시작 루트를 그녀 중심으로 짜지 마라.
 
-하위 등급 영웅은 임시 역할을 채운다. **Bella** — 두 번째 전열, **Celia** — PvE와 파밍, **Claire** — 과도기 딜/서포트. 이들은 다리이지 최종 목표가 아니다. 메인 파티에 영원히 남을 것처럼 희귀 자원을 투자하지 마라.
+하위 등급 영웅은 임시 역할을 채운다. **벨라** — 두 번째 전열, **실리아** — PvE와 파밍, **클레아** — 과도기 딜/서포트. 이들은 다리이지 최종 목표가 아니다. 메인 파티에 영원히 남을 것처럼 희귀 자원을 투자하지 마라.
 
 **F2P 최대의 실수**는 모두를 한꺼번에 키우는 것이다. 작동하는 5인 파티 하나를 만들어 점진적으로 강화하라. 오늘 Warrior, 내일 Ranger, 모레 Warlock = 강한 팀이 하나도 없다. 한 슬롯씩 교체하며 파티가 강해졌는지 확인하라.
 
@@ -108,43 +108,43 @@ Arthur는 거의 항상 좋은 시작 탱커다. Marlena는 소과금 최고의 
 
 ### Ranger 5/5 — 강력한 PvP 팩션
 
-**편성:** Shadow, Louis(전열) + Red Lady, Bell, Cynthia(후열). 보너스 +20%.
+**편성:** 섀도우, 루이스(전열) + 레드 레이디, 벨, 신시아(후열). 보너스 +20%.
 
 Red Lady가 위험 타겟을 압박하고, Cynthia가 딜을 보태고, Bell이 팀을 지원하며, Shadow와 Louis가 전열을 지키고 에너지 위협에 대응한다. 장점: 강한 PvP 압박, 템포 장악, 풀 보너스. 단점: 비싸고 늦게 개화한다. 초보에게 가장 쉬운 길은 아니다.
 
 ### Warlock 5/5 — 후반 시스템
 
-**편성:** Ulfrid, Billy(전열) + Annie, Nicole, Jester(후열). 보너스 +20%.
+**편성:** 울프레드, 빌리(전열) + 애니, 니콜, Jester(후열). 보너스 +20%.
 
-Ulfrid와 Billy가 전열을 지키고, Nicole이 힐과 Warlock 버프를 하며, Annie가 Burning과 에너지 딜로 플레이하고, Jester가 약해진 적을 마무리한다. 장점: 좋은 내부 시너지. 단점: Nicole이 후반이고 Billy도 초반 영웅이 아니다. Nicole 없이는 파티 의미가 반감된다. 초보의 첫 목표로는 비추천.
+Ulfrid와 Billy가 전열을 지키고, Nicole이 힐과 Warlock 버프를 하며, Annie가 Burning과 에너지 딜로 플레이하고, Jester가 약해진 적을 마무리한다. 장점: 좋은 내부 시너지. 단점: Nicole이 후반이고 Billy도 초반 영웅이 아니다. 니콜 없이는 파티 의미가 반감된다. 초보의 첫 목표로는 비추천.
 
 ### 하이브리드 4+1: 다섯 번째 슬롯이 보너스를 이길 때
 
 4+1은 +15%를 준다. 같은 팩션의 약한 다섯 번째보다 다른 팩션 영웅 하나가 더 유용할 때 유효하다.
 
-**Warrior 4 + Cynthia:** Arthur, Daskal, Harper, Marlena, Cynthia. 가장 믿을 만한 파티 중 하나. Cynthia가 Zoya보다 잘 키워졌다면 5% 보너스 손실은 감수할 가치가 있다.
+**Warrior 4 + 신시아:** 아서, 다스칼, 하퍼, 말레나, 신시아. 가장 믿을 만한 파티 중 하나. Cynthia가 Zoya보다 잘 키워졌다면 5% 보너스 손실은 감수할 가치가 있다.
 
-**Warrior 4 + Red Lady:** Arthur, Daskal, Harper, Marlena, Red Lady. 고공격력 타겟에 대한 PvP 압박용. 단점: Red Lady는 Warrior 버프를 받지 못하므로 충분히 육성되어 있어야 한다.
+**Warrior 4 + 레드 레이디:** 아서, 다스칼, 하퍼, 말레나, 레드 레이디. 고공격력 타겟에 대한 PvP 압박용. 단점: Red Lady는 Warrior 버프를 받지 못하므로 충분히 육성되어 있어야 한다.
 
 ### 하이브리드 3+2 — 가장 실용적인 포맷
 
 HP/공격/방어 +10%지만 강력한 하이브리드가 가능하다.
 
-**공격형 에너지 파티:** Arthur, Daskal, Marlena + Cynthia, Red Lady(Warrior 3 + Ranger 2). 탱커 2명이 전열, 3명이 에너지 딜. 클래식 서포트는 없지만 버스트가 강하다. PvP와 속전속결에 강하고, 전열이 무너지는 장기전에서는 약하다.
+**공격형 에너지 파티:** 아서, 다스칼, 말레나 + 신시아, 레드 레이디(Warrior 3 + Ranger 2). 탱커 2명이 전열, 3명이 에너지 딜. 클래식 서포트는 없지만 버스트가 강하다. PvP와 속전속결에 강하고, 전열이 무너지는 장기전에서는 약하다.
 
-**컨트롤 PvP 파티:** Arthur, Daskal, Marlena + Shadow, Cynthia(Warrior 3 + Ranger 2). Shadow가 방어 감소와 대에너지를 추가하고 Marlena와 Cynthia가 그 틈을 활용한다. 첫 버스트를 버티는 단단한 팀에 좋다. Red Lady 버전보다 집중 압박은 약하다.
+**컨트롤 PvP 파티:** 아서, 다스칼, 말레나 + 섀도우, 신시아(Warrior 3 + Ranger 2). Shadow가 방어 감소와 대에너지를 추가하고 Marlena와 Cynthia가 그 틈을 활용한다. 첫 버스트를 버티는 단단한 팀에 좋다. 레드 레이디 버전보다 집중 압박은 약하다.
 
-**과도기 Warlock 파티:** Ulfrid, Nicole, Annie + Arthur, Marlena(Warlock 3 + Warrior 2). Ulfrid가 전열, Nicole이 힐, Annie가 Burning, Arthur가 두 번째 전열, Marlena가 범용 딜. Warlock을 시작했지만 5/5가 먼 경우에 적합. Nicole은 Warlock이 많을수록 빛난다.
+**과도기 Warlock 파티:** 울프레드, 니콜, 애니 + 아서, 말레나(Warlock 3 + Warrior 2). Ulfrid가 전열, Nicole이 힐, Annie가 Burning, Arthur가 두 번째 전열, Marlena가 범용 딜. Warlock을 시작했지만 5/5가 먼 경우에 적합. Nicole은 Warlock이 많을수록 빛난다.
 
 ### 자유형 처형 하이브리드
 
-**Arthur + Louis + Marlena + Jester + Red Lady.** Arthur와 Louis가 전열을 지키고, Marlena가 메인 딜, Red Lady가 적 캐리 압박, Jester가 저HP 처형. 각 영웅이 잘 키워졌다면 작동하지만 F2P 기본 루트로는 부적합. 시스템 보너스가 약하고 개별 투자 의존도가 높다. 원칙: 특정 과제를 해결하는 하이브리드는 좋다. "좋아하는 UR 다 넣음"은 전략이 아니다.
+**아서 + 루이스 + 말레나 + Jester + 레드 레이디.** Arthur와 Louis가 전열을 지키고, Marlena가 메인 딜, Red Lady가 적 캐리 압박, Jester가 저HP 처형. 각 영웅이 잘 키워졌다면 작동하지만 F2P 기본 루트로는 부적합. 시스템 보너스가 약하고 개별 투자 의존도가 높다. 원칙: 특정 과제를 해결하는 하이브리드는 좋다. "좋아하는 UR 다 넣음"은 전략이 아니다.
 
 ### 방향 선택: 요약
 
-- **가장 안전한 길:** Warrior 5/5 — Arthur + Daskal + Harper + Marlena + Zoya. 탱커 2, 서포트 1, 딜러 2, 풀 보너스 +20%. 화려하진 않지만 매우 안정적.
-- **공격형 PvP:** 3+2 에너지 — Arthur + Daskal + Marlena + Cynthia + Red Lady.
-- **컨트롤 PvP:** Arthur + Daskal + Marlena + Shadow + Cynthia.
-- **후반 목표:** Warlock 5/5 — Ulfrid + Billy + Nicole + Annie + Jester.
+- **가장 안전한 길:** Warrior 5/5 — 아서 + 다스칼 + 하퍼 + 말레나 + 조야. 탱커 2, 서포트 1, 딜러 2, 풀 보너스 +20%. 화려하진 않지만 매우 안정적.
+- **공격형 PvP:** 3+2 에너지 — 아서 + 다스칼 + 말레나 + 신시아 + 레드 레이디.
+- **컨트롤 PvP:** 아서 + 다스칼 + 말레나 + 섀도우 + 신시아.
+- **후반 목표:** Warlock 5/5 — 울프레드 + 빌리 + 니콜 + 애니 + Jester.
 
 5/5 풀 보너스는 약하거나 어울리지 않는 영웅을 억지로 넣는다면 4+1이나 3+2보다 강하지 않다.

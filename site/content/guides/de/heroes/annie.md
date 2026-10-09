@@ -17,7 +17,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-annie)).
 
-Annie is a UR warlock who plays as DPS. Fully upgraded, she reaches 916,394 Might, rank 2 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Annie Shard), and the shards become available once the Warlock Statue reaches level 20. Annie does not appear in the hero list until server day 14.
+Annie is a UR warlock who plays as DPS. Fully upgraded, she reaches 916,394 Might, rank 2 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Annie Shard), and the shards become available once the Hexenmeister-Statue reaches level 20. Annie does not appear in the hero list until server day 14.
 
 Punish your foes with a spark of whimsical ingenuity!
 
@@ -30,7 +30,7 @@ Punish your foes with a spark of whimsical ingenuity!
 | Max stars | 50 |
 | Attack speed | one hit every 0.83 s |
 | Shards to unlock | Annie Shard × 10 |
-| Faction building | Warlock Statue, level 20 |
+| Faction building | Hexenmeister-Statue, level 20 |
 | Skills | 5, full set |
 | Trait | Helpful |
 | Faction advantage | Warlocks take 20% less damage from Rangers |
@@ -38,7 +38,7 @@ Punish your foes with a spark of whimsical ingenuity!
 | Awakening opens | on day 29 of the season |
 | Exclusive weapon | on day 190 of the season |
 
-Awakening and the Exclusive Weapon follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 29 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Exclusive Weapon becomes available on day 190 of the season.
+Awakening and the Exklusive Waffe follow their own schedules, unrelated to when the hero appears. The awakening tab appears on day 29 of the season: it opens for the fifteen UR heroes one at a time, one every two weeks, with the last tab on day 197. The Exklusive Waffe becomes available on day 190 of the season.
 
 ## Why she matters
 
@@ -174,7 +174,7 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 | Annie | Warlock | UR | 916,394 | 0.57 | 1.52 | 0.9 |
 | Cynthia | Ranger | UR | 916,153 | 0.64 | 1.39 | 0.92 |
 | Marlena | Warrior | UR | 914,868 | 0.58 | 1.49 | 0.91 |
-| Red Lady | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
+| Rote Dame | Ranger | UR | 913,583 | 0.6 | 1.45 | 0.91 |
 | Joker | Warlock | UR | 913,583 | 0.6 | 1.45 | 0.91 |
 | Grenwald | Warlock | SSR | 690,773 | 0.35 | 1.09 | 0.59 |
 | Kesso | Warrior | SSR | 686,515 | 0.42 | 0.94 | 0.61 |
@@ -192,7 +192,7 @@ Candy · damage multiplier · rank 6 of 16
 | Claire | Warrior | Holy Banner (advanced) | Auto Attack | 810% | single target |
 | Marlena | Warrior | Skybreaker Slash | Auto Attack | 783% | single target |
 | Zoya | Warrior | Dagger | Auto Attack | 747% | single target |
-| Cynthia | Ranger | Moon Blade | Auto Attack | 747% | single target |
+| Cynthia | Ranger | Mondklinge | Auto Attack | 747% | single target |
 | Annie | Warlock | Candy | Auto Attack | 747% | single target |
 
 Stronger: Claire, Holy Banner (advanced) hits for 810% of ATK on a single target.
@@ -202,7 +202,7 @@ Candy Jar · damage multiplier · rank 4 of 15
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
 | Joker | Warlock | Joker Ace | Ultimate Skill | 5,047.5% | single target |
-| Red Lady | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
+| Rote Dame | Ranger | Crimson Rose | Ultimate Skill | 4,550.4% | single target |
 | Zoya | Warrior | Forest Hunter | Ultimate Skill | 3,669.6% | single target |
 | Annie | Warlock | Candy Jar | Ultimate Skill | 3,553.2% | single target |
 | Claire | Warrior | Celestial Judgment (advanced) | Ultimate Skill | 3,486.6% | area |
@@ -213,13 +213,13 @@ Surprise Gift · damage multiplier · rank 6 of 15
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Red Lady | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
+| Rote Dame | Ranger | Bloodthirsty Slaughter | Active Skill | 2,934% | single target |
 | Sivir | Warrior | Shield Strike | Active Skill | 1,887.6% | single target |
 | Grenwald | Warlock | Heartbreaker Spell | Active Skill | 1,841.4% | single target |
 | Cynthia | Ranger | Lunar Hunt | Active Skill | 1,800% | single target |
 | Annie | Warlock | Surprise Gift | Active Skill | 1,611% | area |
 
-Stronger: Red Lady, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
+Stronger: Rote Dame, Bloodthirsty Slaughter hits for 2,934% of ATK on a single target.
 
 ## Upgrade order
 
@@ -295,9 +295,9 @@ Every skill goes up to level 40 with Skill Badge: one skill costs 436,700 of the
 - HP +1,327,045, ATK +12,654, DEF +18,540
 - DMG RES +5%
 
-### Exclusive Weapon
+### Exklusive Waffe
 
-“Candy Wand”, upgraded to 50 stars. At max it adds:
+“Süßigkeitenstab”, upgraded to 50 stars. At max it adds:
 - HP +1,251,000, ATK +8,750, DEF +8,750
 - Hero DEF +10%
 - Hero HP +10%
@@ -315,14 +315,14 @@ Gains from each progression system on its own. They show where to invest first:
 | Hero levels | 991,464 | 18,884 | 11,181 |
 | Stars | 283,228 | 5,392 | 3,193 |
 | Awakening | 1,327,045 | 12,654 | 18,540 |
-| Exclusive Weapon | 1,251,000 | 8,750 | 8,750 |
+| Exklusive Waffe | 1,251,000 | 8,750 | 8,750 |
 | Total | 3,852,737 | 45,680 | 41,664 |
 
 ## How to play
 
-Among UR DPS heroes only Annie fires an active skill every 4.5 seconds: Surprise Gift returns faster than Zoya's, Joker's and Red Lady's skills at 5 seconds each. Candy Jar gives 3,553.2% against the three highest-attack enemies, less than Joker's 5,047.5%, yet it leaves a burn worth 100% of ATK per second.
+Among UR DPS heroes only Annie fires an active skill every 4.5 seconds: Surprise Gift returns faster than Zoya's, Joker's and Rote Dame's skills at 5 seconds each. Candy Jar gives 3,553.2% against the three highest-attack enemies, less than Joker's 5,047.5%, yet it leaves a burn worth 100% of ATK per second.
 
-Annie enters the hero list on server day 14 together with Joker, and her Awakening opens on season day 29, the third after Marlena and Cynthia. Her Exclusive Weapon waits until season day 190, and only Arthur's weapon opens later than that. Her shards come from the Warlock Statue at level 20, and she stands in the guarantee of the third recruit pool as well.
+Annie enters the hero list on server day 14 together with Joker, and her Awakening opens on season day 29, the third after Marlena and Cynthia. Her Exklusive Waffe waits until season day 190, and only Arthur's weapon opens later than that. Her shards come from the Hexenmeister-Statue at level 20, and she stands in the guarantee of the third recruit pool as well.
 
 Stars cost the most. The third target of Candy Jar arrives as early as ★10, the extra 900% against a burning enemy at ★30, and a further 200% of damage at ★50, that is after all 975 shards. Awakening is generous by comparison, 1,327,045 HP against 425,119 for Zoya and Joker, and it opens early.
 

@@ -1,6 +1,6 @@
 ---
 title: "Temple: levels, cost and upgrades"
-description: "Temple holds the plot of the three faction statues and serves as the way in to each of them. While the Warrior, Warlock or Ranger Statue is not yet built, a request for i…"
+description: "Temple holds the plot of the three faction statues and serves as the way in to each of them. While the Warrior, Warlock or Statue de rôdeur is not yet built, a request for i…"
 videoTopic: "buildings"
 lang: fr
 updated: "2026-09-19"
@@ -16,7 +16,7 @@ type: guide
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-temple)).
 
 
-Temple holds the plot of the three faction statues and serves as the way in to each of them. While the Warrior, Warlock or Ranger Statue is not yet built, a request for it arrives at the Temple. The building is available from the start of the game and goes up to level 1. Only one can be built.
+Temple holds the plot of the three faction statues and serves as the way in to each of them. While the Warrior, Warlock or Statue de rôdeur is not yet built, a request for it arrives at the Temple. The building is available from the start of the game and goes up to level 1. Only one can be built.
 
 | Stat | Value |
 |---|---|
@@ -40,9 +40,9 @@ This building gives no stat bonus: it unlocks an option rather than percentages.
 
 ## How to use it
 
-The Temple costs 12 Grain and 9 Timber and goes up in seconds, so at Sanctuary level 1 it competes neither for the queue nor for the thin opening-day stock. Everything else unlocked at that level drags on: the Soldier's Rest needs 299 days 4 hours, the Sanctuary itself 398 days 20 hours, a Farm 49 days 20 hours per copy.
+The Temple costs 12 Grain and 9 Timber and goes up in seconds, so at Sanctuary level 1 it competes neither for the queue nor for the thin opening-day stock. Everything else unlocked at that level drags on: the Soldier's Rest needs 299 days 4 hours, the Sanctuary itself 398 days 20 hours, a Ferme 49 days 20 hours per copy.
 
-The Temple brings 500 Might for 21 resources, and nothing in the city is cheaper: the Residence gives 100 for 840 resources, while the Lord Statue gives nothing at all for the same 12 Grain and 9 Timber. Together with the Hall of Honor the Temple delivers 1,000 Might on day one. The same 500 comes from the Private Stable and the Alliance Stable, yet both unlock only at Sanctuary level 11, ten levels after the Temple.
+The Temple brings 500 Might for 21 resources, and nothing in the city is cheaper: the Résidence gives 100 for 840 resources, while the Statue du seigneur gives nothing at all for the same 12 Grain and 9 Timber. Together with the Salle d'honneur the Temple delivers 1,000 Might on day one. The same 500 comes from the Écurie privée and the Écurie d'alliance, yet both unlock only at Sanctuary level 11, ten levels after the Temple.
 
 After that the Temple serves as a plot. The first faction statue unlocks at Sanctuary level 7, the second at level 11, the third at level 12. Each asks 299 days 4 hours of full construction and carries around 272,500 Might, and all three together 897 days, so the plot is not filled within one season.
 

@@ -1,6 +1,6 @@
 ---
-title: "Stellar: 스킬, 빌드, 육성"
-description: "Stellar is an SSR warlock who plays as support. Fully upgraded, she reaches 695,511 Might, rank 4 of 5 among the game's support heroes. Unlocking her takes 10 shards ( St…"
+title: "스타더스트: 스킬, 빌드, 육성"
+description: "스타더스트 is an SSR warlock who plays as support. Fully upgraded, she reaches 695,511 Might, rank 4 of 5 among the game's support heroes. Unlocking her takes 10 shards ( St…"
 videoTopic: "heroes"
 lang: ko
 updated: "2026-09-19"
@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-stellar)).
 
-Stellar is an SSR warlock who plays as support. Fully upgraded, she reaches 695,511 Might, rank 4 of 5 among the game's support heroes. Unlocking her takes 10 shards ( Stellar Shard), and the shards become available once the Warlock Statue reaches level 20.
+스타더스트 is an SSR warlock who plays as support. Fully upgraded, she reaches 695,511 Might, rank 4 of 5 among the game's support heroes. Unlocking her takes 10 shards ( 스타더스트 Shard), and the shards become available once the 마법사 조각상 reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -25,17 +25,17 @@ Stellar is an SSR warlock who plays as support. Fully upgraded, she reaches 695,
 | Max Might | 695,511 |
 | Max stars | 50 |
 | Attack speed | one hit every 1 s |
-| Shards to unlock | Stellar Shard × 10 |
-| Faction building | Warlock Statue, level 20 |
+| Shards to unlock | 스타더스트 Shard × 10 |
+| Faction building | 마법사 조각상, level 20 |
 | Skills | 5, full set |
 | Trait | Helpful |
 | Faction advantage | Warlocks take 20% less damage from Rangers |
 
 ## Why she matters
 
-Role: A warlock support with the largest single heal in the game, one that fires only once per fight. Her passive Final Starlight heals the lowest-HP ally for 1,320% of ATK, but only when Stellar takes lethal damage. For the rest of the fight she hits an area with Destructive Comet and raises nearby warlocks' damage against monsters.
+Role: A warlock support with the largest single heal in the game, one that fires only once per fight. Her passive Final Starlight heals the lowest-HP ally for 1,320% of ATK, but only when 스타더스트 takes lethal damage. For the rest of the fight she hits an area with Destructive Comet and raises nearby warlocks' damage against monsters.
 
-Worth investing: Stellar ranks fourth of the five support heroes by maximum Might (695,511) and sits in tier B. Until a UR support appears she fills that role in a warlock squad, and her heal makes early drawn-out fights noticeably calmer.
+Worth investing: 스타더스트 ranks fourth of the five support heroes by maximum Might (695,511) and sits in tier B. Until a UR support appears she fills that role in a warlock squad, and her heal makes early drawn-out fights noticeably calmer.
 
 ## Skills
 
@@ -115,7 +115,7 @@ Value growth by skill level
 
 Passive Skill · Unlocks at: hero level 20
 
-When Stellar takes fatal damage in battle, she expends her final starlight before death, healing the ally with the lowest HP for 210% ATK.
+When 스타더스트 takes fatal damage in battle, she expends her final starlight before death, healing the ally with the lowest HP for 210% ATK.
 
 Hero stars strengthen the skill, and each threshold changes its effect.
 
@@ -145,7 +145,7 @@ Support skill: active while the hero is outside the main squad.
 
 ## Compared to other heroes
 
-Below, Stellar is compared with the other heroes of the same role, of which the game has 5 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
+Below, 스타더스트 is compared with the other heroes of the same role, of which the game has 5 in total. Skill numbers are taken at the final star threshold and the maximum skill level.
 
 ### Stats
 
@@ -153,11 +153,11 @@ The twelve strongest heroes of the role by Might. Growth is the personal multipl
 
 | Hero | Faction | Rarity | Max Might | HP growth | ATK growth | DEF growth |
 |---|---|---|---|---|---|---|
-| Harper | Warrior | UR | 920,570 | 0.7 | 1.3 | 0.94 |
-| Bell | Ranger | UR | 920,570 | 0.7 | 1.3 | 0.94 |
-| Nicole | Warlock | UR | 920,570 | 0.7 | 1.3 | 0.94 |
-| Stellar | Warlock | SSR | 695,511 | 0.52 | 0.8 | 0.64 |
-| Celia | Warrior | SSR | 691,655 | 0.5 | 0.82 | 0.63 |
+| 하퍼 | Warrior | UR | 920,570 | 0.7 | 1.3 | 0.94 |
+| 벨 | Ranger | UR | 920,570 | 0.7 | 1.3 | 0.94 |
+| 니콜 | Warlock | UR | 920,570 | 0.7 | 1.3 | 0.94 |
+| 스타더스트 | Warlock | SSR | 695,511 | 0.52 | 0.8 | 0.64 |
+| 실리아 | Warrior | SSR | 691,655 | 0.5 | 0.82 | 0.63 |
 
 ### Skill numbers
 
@@ -165,36 +165,36 @@ Meteorite · damage multiplier · rank 4 of 5
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Harper | Warrior | Bubble | Auto Attack | 747% | single target |
-| Bell | Ranger | Musical Note | Auto Attack | 747% | single target |
-| Nicole | Warlock | Ember Dust | Auto Attack | 747% | single target |
-| Stellar | Warlock | Meteorite | Auto Attack | 594% | single target |
-| Celia | Warrior | Flying Blade | Auto Attack | 297% | single target |
+| 하퍼 | Warrior | Bubble | Auto Attack | 747% | single target |
+| 벨 | Ranger | Musical Note | Auto Attack | 747% | single target |
+| 니콜 | Warlock | Ember Dust | Auto Attack | 747% | single target |
+| 스타더스트 | Warlock | Meteorite | Auto Attack | 594% | single target |
+| 실리아 | Warrior | Flying Blade | Auto Attack | 297% | single target |
 
-Stronger: Harper, Bubble hits for 747% of ATK on a single target.
+Stronger: 하퍼, Bubble hits for 747% of ATK on a single target.
 
 Destructive Comet · damage multiplier · rank 1 of 2
 
 | Hero | Faction | Skill | Skill type | DMG, % of ATK | Area |
 |---|---|---|---|---|---|
-| Stellar | Warlock | Destructive Comet | Active Skill | 1,930.5% | area |
-| Celia | Warrior | Deadly Lotus | Active Skill | 1,346.4% | single target |
+| 스타더스트 | Warlock | Destructive Comet | Active Skill | 1,930.5% | area |
+| 실리아 | Warrior | Deadly Lotus | Active Skill | 1,346.4% | single target |
 
-Closest counterpart: Celia, Deadly Lotus hits for 1,346.4% of ATK on a single target.
+Closest counterpart: 실리아, Deadly Lotus hits for 1,346.4% of ATK on a single target.
 
 Final Starlight · healing · rank 1 of 3
 
 | Hero | Faction | Skill | Skill type | Healing, % | Heals |
 |---|---|---|---|---|---|
-| Stellar | Warlock | Final Starlight | Passive Skill | 1,320% | for allies |
-| Bell | Ranger | Healing Sound | Active Skill | 540% | for allies |
-| Nicole | Warlock | Heartwarming Flame | Active Skill | 241.8% | for allies |
+| 스타더스트 | Warlock | Final Starlight | Passive Skill | 1,320% | for allies |
+| 벨 | Ranger | Healing Sound | Active Skill | 540% | for allies |
+| 니콜 | Warlock | Heartwarming Flame | Active Skill | 241.8% | for allies |
 
-Closest counterpart: Bell, Healing Sound heals for 540% for allies.
+Closest counterpart: 벨, Healing Sound heals for 540% for allies.
 
 ## Upgrade order
 
-Skill priority: Destructive Comet comes first, her only substantial damage and the best of the support active skills. Final Starlight is next, the largest single heal of the three heroes who heal. Wishing Star follows for warlock squads, and the auto attack Meteorite comes last with the support skill: 594% at 50 stars, and it fires half as often as Celia's.
+Skill priority: Destructive Comet comes first, her only substantial damage and the best of the support active skills. Final Starlight is next, the largest single heal of the three heroes who heal. Wishing Star follows for warlock squads, and the auto attack Meteorite comes last with the support skill: 594% at 50 stars, and it fires half as often as 실리아's.
 
 ### What stars and levels unlock
 
@@ -235,7 +235,7 @@ The hero has 150 levels, and reaching the last one costs Antitoxin 5,248,471,500
 
 ### Stars
 
-Reaching 50 stars takes 975 shards ( Stellar Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
+Reaching 50 stars takes 975 shards ( 스타더스트 Shard). Besides stats, stars unlock stronger versions of the skills, which makes them matter more than levels:
 
 | Stars | HP | ATK | DEF | Cost |
 |---|---|---|---|---|
@@ -268,11 +268,11 @@ Gains from each progression system on its own. They show where to invest first:
 
 ## How to play
 
-Stellar is fourth of the five support heroes (695,511), 3,856 ahead of Celia and 225,059 behind Harper. Of the three heroes who heal, hers is the largest single heal, as Final Starlight restores 1,320% of ATK, yet it fires once and only when Stellar takes lethal damage. Bell's Healing Sound returns every 5 seconds and heals for 540%, while Nicole's heal adds a flat amount to a share of her attack.
+스타더스트 is fourth of the five support heroes (695,511), 3,856 ahead of 실리아 and 225,059 behind 하퍼. Of the three heroes who heal, hers is the largest single heal, as Final Starlight restores 1,320% of ATK, yet it fires once and only when 스타더스트 takes lethal damage. 벨's Healing Sound returns every 5 seconds and heals for 540%, while 니콜's heal adds a flat amount to a share of her attack.
 
-SSR heroes carry no server age condition, so Stellar takes the warlock support place from day one. Nobody replaces her for a long while: Nicole, the only support of the same faction, enters the list on server day 98, later than every other UR hero.
+SSR heroes carry no server age condition, so 스타더스트 takes the warlock support place from day one. Nobody replaces her for a long while: 니콜, the only support of the same faction, enters the list on server day 98, later than every other UR hero.
 
-The steps of the heal come with stars: the twentieth adds 25%, the forty-fifth brings it to 60% and the fiftieth to 120%, while skill levels lift the base value from 210% to 600%, so the full 1,320% waits at the very end of a scale that costs 975 shards. SSR heroes get no awakening and no weapon, and Stellar tops out at 1,162,878 HP and 12,778 ATK, above Celia's 1,118,152.
+The steps of the heal come with stars: the twentieth adds 25%, the forty-fifth brings it to 60% and the fiftieth to 120%, while skill levels lift the base value from 210% to 600%, so the full 1,320% waits at the very end of a scale that costs 975 shards. SSR heroes get no awakening and no weapon, and 스타더스트 tops out at 1,162,878 HP and 12,778 ATK, above 실리아's 1,118,152.
 
-Stellar is a warlock, and Wishing Star strengthens adjacent warlocks, which is why she belongs in a warlock line-up. Without UR heroes that is the five with Lucius, Bella, Grenwald and Hastar: 9.0M survivability at a +10% bonus. With one UR hero Billy joins, four warlocks make it +15%, and the squad reaches 16.5M survivability.
+스타더스트 is a warlock, and Wishing Star strengthens adjacent warlocks, which is why she belongs in a warlock line-up. Without UR heroes that is the five with 루시우스, 벨라, 그린델왈드 and 하스터: 9.0M survivability at a +10% bonus. With one UR hero 빌리 joins, four warlocks make it +15%, and the squad reaches 16.5M survivability.
 

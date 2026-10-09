@@ -15,7 +15,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-hastar)).
 
-Hastar is an SSR warlock who plays as tank. Fully upgraded, he reaches 750,047 Might, rank 10 of 11 among the game's tanks. Unlocking him takes 10 shards ( Hastar Shard), and the shards become available once the Warlock Statue reaches level 20.
+Hastar is an SSR warlock who plays as tank. Fully upgraded, he reaches 750,047 Might, rank 10 of 11 among the game's tanks. Unlocking him takes 10 shards ( Hastar Shard), and the shards become available once the Statue de démoniste reaches level 20.
 
 | Stat | Value |
 |---|---|
@@ -26,7 +26,7 @@ Hastar is an SSR warlock who plays as tank. Fully upgraded, he reaches 750,047 M
 | Max stars | 50 |
 | Attack speed | one hit every 0.9 s |
 | Shards to unlock | Hastar Shard × 10 |
-| Faction building | Warlock Statue, level 20 |
+| Faction building | Statue de démoniste, level 20 |
 | Skills | 5, full set |
 | Trait | Diligent |
 | Faction advantage | Warlocks take 20% less damage from Rangers |
@@ -291,9 +291,9 @@ Gains from each progression system on its own. They show where to invest first:
 
 Among the four SSR tanks Hastar comes last on HP and first on the ultimate. Levels give him 1,374,136 HP against 1,565,472 for Lucius and 1,530,683 for Bella, yet Wrath of Old Gods hits for 3,623.4% of ATK, where Lucius's Whirlwind Cut reaches 2,029.2% and Bella's Bloody Requiem 2,886.84%.
 
-An SSR hero carries no server age condition, so Hastar is available from the first day, and the 10 shards that unlock him come from the Warlock Statue at level 20. He is worth levelling at once, because no other warlock tank exists until server day 42, when Ulfrid arrives, with Billy following on day 84.
+An SSR hero carries no server age condition, so Hastar is available from the first day, and the 10 shards that unlock him come from the Statue de démoniste at level 20. He is worth levelling at once, because no other warlock tank exists until server day 42, when Ulfrid arrives, with Billy following on day 84.
 
-His progression ends early. SSR heroes receive neither Awakening nor an Exclusive Weapon, so he stops at 1,766,680 HP and 9,424 ATK from levels and stars, less than Shadow's levels give on their own. Skills cost him the most: 436,700 badges for each of the four.
+His progression ends early. SSR heroes receive neither Awakening nor an Arme exclusive, so he stops at 1,766,680 HP and 9,424 ATK from levels and stars, less than Shadow's levels give on their own. Skills cost him the most: 436,700 badges for each of the four.
 
 The best squad without a single UR hero is built around him: Celia, Lucius, Sivir, Bella and Hastar give +15% to stats and 9.3M effective HP. The second such squad keeps him alongside Grenwald and Stellar. Once Ulfrid and Billy arrive Hastar moves to the bench, where his support skill adds 10% to the squad.
 

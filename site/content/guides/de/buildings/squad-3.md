@@ -1,6 +1,6 @@
 ---
-title: "Squad 3: levels, cost and upgrades"
-description: "Squad 3 adds a third march queue, and it opens much later than any of the other squad buildings. Every queue works every day, so over a long run it returns more than a on…"
+title: "Truppe 3: levels, cost and upgrades"
+description: "Truppe 3 adds a third march queue, and it opens much later than any of the other squad buildings. Every queue works every day, so over a long run it returns more than a on…"
 videoTopic: "buildings"
 lang: de
 updated: "2026-09-19"
@@ -16,7 +16,7 @@ type: guide
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-squad-3)).
 
 
-Squad 3 adds a third march queue, and it opens much later than any of the other squad buildings. Every queue works every day, so over a long run it returns more than a one-time pile of speedups. The building unlocks after Sanctuary level 20 and goes up to level 30. Only one can be built. Levels raise: squad March Speed↑.
+Truppe 3 adds a third march queue, and it opens much later than any of the other squad buildings. Every queue works every day, so over a long run it returns more than a one-time pile of speedups. The building unlocks after Sanctuary level 20 and goes up to level 30. Only one can be built. Levels raise: squad March Speed↑.
 
 | Stat | Value |
 |---|---|
@@ -45,9 +45,9 @@ Taking the building from level 1 to 30 costs Grain 2,540,862,951, Timber 2,540,8
 
 ## How to use it
 
-Squad 3 unlocks at Sanctuary level 20 and remains the only building of that level. The third march queue arrives with the first level, for 59 Grain and 59 Timber, while a full upgrade to level 30 costs 2,540,862,951 Grain, the same amount of Timber, 417,324,550 Herb and 299 days 4 hours of building.
+Truppe 3 unlocks at Sanctuary level 20 and remains the only building of that level. The third march queue arrives with the first level, for 59 Grain and 59 Timber, while a full upgrade to level 30 costs 2,540,862,951 Grain, the same amount of Timber, 417,324,550 Herb and 299 days 4 hours of building.
 
-The gap from the earlier squads is wide: Squad 1 opens at Sanctuary level 4, Squad 4 at level 5, Squad 2 at level 8. For twelve Sanctuary levels the city lives on two free queues, and the third one arrives when less than half of the road to Sanctuary level 30 is left.
+The gap from the earlier squads is wide: Truppe 1 opens at Sanctuary level 4, Truppe 4 at level 5, Truppe 2 at level 8. For twelve Sanctuary levels the city lives on two free queues, and the third one arrives when less than half of the road to Sanctuary level 30 is left.
 
 Two more covert operation dispatches come with the queue, since they are counted by squads: three squads make six dispatches instead of four. March speed grows to 15.1% at level 30, as much as the first and the second squads give.
 

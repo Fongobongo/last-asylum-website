@@ -1,6 +1,6 @@
 ---
-title: "Surprise Encounter: call reward and boxes"
-description: "Surprise Encounter hands out supplies in exchange for calls: one call a day is free, the daily cap is 200 calls, and the quick button makes 5 of them in a row. Every call…"
+title: "Encuentro sorpresa: call reward and boxes"
+description: "Encuentro sorpresa hands out supplies in exchange for calls: one call a day is free, the daily cap is 200 calls, and the quick button makes 5 of them in a row. Every call…"
 lang: es
 updated: "2026-09-19"
 type: guide
@@ -10,7 +10,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/surprise-encounter)).
 
-Surprise Encounter hands out supplies in exchange for calls: one call a day is free, the daily cap is 200 calls, and the quick button makes 5 of them in a row. Every call pays a reward at once and can also drop boxes, which are opened with surprise emblems.
+Encuentro sorpresa hands out supplies in exchange for calls: one call a day is free, the daily cap is 200 calls, and the quick button makes 5 of them in a row. Every call pays a reward at once and can also drop boxes, which are opened with surprise emblems.
 
 The boxes are what make the event worth the attention, because they beat every other free source in the game for skill badges and speed-ups.
 

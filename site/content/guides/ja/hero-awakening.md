@@ -42,38 +42,38 @@ The third column carries the key point: half of the gain goes to every hero, not
 ## What links here
 
 Pages that mention this one. The list is built from the markup, not filled by hand.
-- Thief Hunt: Gold Thieves, the Thief Leader and the Lion Coin shop
+- 盗賊追跡: Gold Thieves, the Thief Leader and the Lion Coin shop
 - Contents: heroes, army, events and spending
 - Awakening shards: where they come from
-- Claire (Advanced): skills, upgrades and Might
-- Nicole: skills, upgrades and Might
-- Joker: skills, upgrades and Might
-- Annie: skills, upgrades and Might
-- Ulfrid: skills, upgrades and Might
-- Billy: skills, upgrades and Might
-- Bell: skills, upgrades and Might
-- Red Lady: skills, upgrades and Might
-- Cynthia: skills, upgrades and Might
-- Louis: skills, upgrades and Might
-- Shadow: skills, upgrades and Might
-- Zoya: skills, upgrades and Might
-- Harper: skills, upgrades and Might
-- Daskal: skills, upgrades and Might
-- Ash: skills, upgrades and Might
-- William: skills, upgrades and Might
-- Durant: skills, upgrades and Might
-- Robin: skills, upgrades and Might
-- Kafa: skills, upgrades and Might
-- Hastar: skills, upgrades and Might
-- Marlena: skills, upgrades and Might
-- Bestar: skills, upgrades and Might
-- Grenwald: skills, upgrades and Might
-- Claire: skills, upgrades and Might
-- Bella: skills, upgrades and Might
-- Sivir: skills, upgrades and Might
-- Griffith: skills, upgrades and Might
-- Stellar: skills, upgrades and Might
-- Lucius: skills, upgrades and Might
-- Celia: skills, upgrades and Might
-- Kesso: skills, upgrades and Might
-- Arthur: skills, upgrades and Might
+- クレア (Advanced): skills, upgrades and Might
+- ニコル: skills, upgrades and Might
+- ピエロ: skills, upgrades and Might
+- アニー: skills, upgrades and Might
+- ウルフレッド: skills, upgrades and Might
+- ビリー: skills, upgrades and Might
+- ベル: skills, upgrades and Might
+- レッドレディ: skills, upgrades and Might
+- シンシア: skills, upgrades and Might
+- ルイス: skills, upgrades and Might
+- 影: skills, upgrades and Might
+- ゾーヤ: skills, upgrades and Might
+- ハーパー: skills, upgrades and Might
+- ダスカール: skills, upgrades and Might
+- アッシュ: skills, upgrades and Might
+- ウィリアムズ: skills, upgrades and Might
+- デュラント: skills, upgrades and Might
+- ロビン: skills, upgrades and Might
+- カファ: skills, upgrades and Might
+- ハスター: skills, upgrades and Might
+- マレーナ: skills, upgrades and Might
+- ベスター: skills, upgrades and Might
+- グリンウォルド: skills, upgrades and Might
+- クレア: skills, upgrades and Might
+- ベラ: skills, upgrades and Might
+- シヴィア: skills, upgrades and Might
+- グリフィス: skills, upgrades and Might
+- ステラ: skills, upgrades and Might
+- ルシウス: skills, upgrades and Might
+- シリア: skills, upgrades and Might
+- ケイソ: skills, upgrades and Might
+- アーサー: skills, upgrades and Might

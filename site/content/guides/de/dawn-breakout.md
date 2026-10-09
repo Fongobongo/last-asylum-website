@@ -1,6 +1,6 @@
 ---
-title: "Dawn Breakout"
-description: "Dawn Breakout puts a hard cap on the fight: no more than 1,000 soldiers may join it, and each level allows 10 minutes. The event runs 3 attempts of 5 levels, and the troo…"
+title: "Morgengrauen-Ausbruch"
+description: "Morgengrauen-Ausbruch puts a hard cap on the fight: no more than 1,000 soldiers may join it, and each level allows 10 minutes. The event runs 3 attempts of 5 levels, and the troo…"
 lang: de
 updated: "2026-09-19"
 type: guide
@@ -10,7 +10,7 @@ type: guide
 >
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/dawn-breakout)).
 
-Dawn Breakout puts a hard cap on the fight: no more than 1,000 soldiers may join it, and each level allows 10 minutes. The event runs 3 attempts of 5 levels, and the troop cap is the same for everyone.
+Morgengrauen-Ausbruch puts a hard cap on the fight: no more than 1,000 soldiers may join it, and each level allows 10 minutes. The event runs 3 attempts of 5 levels, and the troop cap is the same for everyone.
 
 That cap is the whole point of the event. A battle is usually won by whoever brings more troops, but here the limit is shared, so hero levels, skills and gear settle the outcome. A player with a small army and well-upgraded heroes gets further than one who spent the season stockpiling troops.
 

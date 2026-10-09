@@ -1,6 +1,6 @@
 ---
-title: "Squad 2: levels, cost and upgrades"
-description: "Squad 2 adds a second march queue, letting the city run two marches at once: gathering and reinforcing an ally, for instance. The number of free covert-ops dispatches cou…"
+title: "소대 2: levels, cost and upgrades"
+description: "소대 2 adds a second march queue, letting the city run two marches at once: gathering and reinforcing an ally, for instance. The number of free covert-ops dispatches cou…"
 videoTopic: "buildings"
 lang: ko
 updated: "2026-09-19"
@@ -16,7 +16,7 @@ type: guide
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-squad-2)).
 
 
-Squad 2 adds a second march queue, letting the city run two marches at once: gathering and reinforcing an ally, for instance. The number of free covert-ops dispatches counts by squads as well. The building unlocks after Sanctuary level 8 and goes up to level 30. Only one can be built. Levels raise: squad March Speed↑.
+소대 2 adds a second march queue, letting the city run two marches at once: gathering and reinforcing an ally, for instance. The number of free covert-ops dispatches counts by squads as well. The building unlocks after Sanctuary level 8 and goes up to level 30. Only one can be built. Levels raise: squad March Speed↑.
 
 | Stat | Value |
 |---|---|
@@ -45,11 +45,11 @@ Taking the building from level 1 to 30 costs Grain 2,529,347,669, Timber 2,529,3
 
 ## How to use it
 
-The second march queue arrives with the first level of the building: 59 Grain, 59 Timber and under a minute of work. Everything else Squad 2 gives comes down to march speed, which grows from 0.7% to 15.1% and costs 299 days 4 hours of pure build time. The building therefore goes up on the day Sanctuary level 8 opens, while the levels are added later.
+The second march queue arrives with the first level of the building: 59 Grain, 59 Timber and under a minute of work. Everything else 소대 2 gives comes down to march speed, which grows from 0.7% to 15.1% and costs 299 days 4 hours of pure build time. The building therefore goes up on the day Sanctuary level 8 opens, while the levels are added later.
 
-Level 8 also unlocks the Watchtower with its 350 days of construction and the instant Curio Hall. Squad 2 does not compete with the tower for the queue: its first level closes in under a minute, and by that minute the whole point of a second queue is already in hand. All thirty levels cost 2,529,347,669 Grain, the same amount of Timber and 413,100,420 Herb.
+Level 8 also unlocks the 전망대 with its 350 days of construction and the instant 수집관. 소대 2 does not compete with the tower for the queue: its first level closes in under a minute, and by that minute the whole point of a second queue is already in hand. All thirty levels cost 2,529,347,669 Grain, the same amount of Timber and 413,100,420 Herb.
 
 Free covert operation dispatches are counted by squads, two per squad, so the second queue raises them from two to four. The top operation pays 12,177,000 hero EXP, and doubling the dispatches gives more than the 15.1% of speed at level 30.
 
-Squad 4 shows up earlier, at Sanctuary level 5, but its queue stays shut without the monthly pass, while Squad 3 waits for level 20. From level 8 to level 20 Squad 2 remains the only addition to the number of marches. A full upgrade is worth 257,400 Might, as much as Squad 1 carries.
+소대 4 shows up earlier, at Sanctuary level 5, but its queue stays shut without the monthly pass, while 소대 3 waits for level 20. From level 8 to level 20 소대 2 remains the only addition to the number of marches. A full upgrade is worth 257,400 Might, as much as 소대 1 carries.
 
