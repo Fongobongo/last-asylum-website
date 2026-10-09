@@ -8,16 +8,16 @@ interface Props {
 const { lang } = Astro.props;
 const isRu = lang === 'ru';
 
-// Partner top-up links. LootBar is listed first.
+// Partner top-up links. LDShop is primary, LootBar secondary.
 const LOOTBAR_LINK = 'https://www.lootbar.com/s/fG5O3n';
 const AFF_LINK = 'https://chain.ldshop.gg/T4W43NR9I/last-asylum-plague-gp?aff_short=fan';
 
 const T = {
-  heroBadge: isRu ? 'ОФИЦИАЛЬНОЕ ПОПОЛНЕНИЕ • СКИДКИ ДО 20% • LDSHOP' : 'OFFICIAL TOP-UP • UP TO 20% OFF • LDSHOP',
+  heroBadge: isRu ? 'ПОПОЛНЕНИЕ СО СКИДКОЙ • ДО −20% • LDSHOP' : 'DISCOUNTED TOP-UP • UP TO 20% OFF • LDSHOP',
   title: isRu ? 'Игровой магазин и пополнение баланса' : 'Game Store & Top-Up Portal',
   subtitle: isRu
-    ? 'Официальный магазин внутриигровой валюты и предметов Last Asylum: Plague через авторизованную платформу LDShop. Моментальное начисление по игровому UID, скидки до 20% и поддержка нашего фан-хаба без дополнительных затрат!'
-    : 'Official in-game currency and item store for Last Asylum: Plague powered by authorized partner LDShop. Instant delivery via game UID, discounts up to 20%, and direct support for the fan hub at zero extra cost!',
+    ? 'Пополнение внутриигровой валюты и предметов Last Asylum: Plague через партнёрскую платформу LDShop. Моментальное начисление по игровому UID, скидки до 20% и поддержка нашего фан-хаба без дополнительных затрат!'
+    : 'Top up in-game currency and items for Last Asylum: Plague via partner platform LDShop. Instant delivery via game UID, discounts up to 20%, and direct support for the fan hub at zero extra cost!',
   openStoreBtn: isRu ? 'LootBar: регистрация и 2 купона до $20 ↗' : 'LootBar: sign up & get 2 coupons up to $20 ↗',
   openStoreLdBtn: isRu ? 'LDShop: мгновенная доставка по UID ↗' : 'LDShop: instant delivery via UID ↗',
   howItWorksBtn: isRu ? 'Как пополнить по UID ↓' : 'How to Top-Up via UID ↓',
@@ -78,8 +78,8 @@ const T = {
 
   bannerTitle: isRu ? 'Готовы усилить свой отряд прямо сейчас?' : 'Ready to strengthen your squads right now?',
   bannerDesc: isRu
-    ? 'Перейдите в наш авторизованный магазин LDShop, укажите ваш игровой UID и получите алмазы и наборы за пару минут со скидкой!'
-    : 'Visit our authorized LDShop store, enter your player UID, and receive diamonds and bundles with exclusive discounts in minutes!',
+    ? 'Перейдите в наш партнёрский магазин LDShop, укажите ваш игровой UID и получите алмазы и наборы за пару минут со скидкой!'
+    : 'Visit our partner LDShop store, enter your player UID, and receive diamonds and bundles with exclusive discounts in minutes!',
   bannerBtn: isRu ? 'Открыть магазин Last Asylum на LDShop ↗' : 'Open Last Asylum Shop on LDShop ↗',
 
   howTitle: isRu ? 'Как пополнить счет в игре за 3 простых шага' : 'How to Top-Up in 3 Easy Steps',
@@ -101,11 +101,11 @@ const T = {
 
   guaranteeTitle: isRu ? 'Гарантия безопасности и поддержка фан-хаба' : 'Security Guarantee & Fan Hub Support',
   guaranteeText: isRu
-    ? 'Пополнение осуществляется через официальный защищённый шлюз LDShop без необходимости передавать логин и пароль от аккаунта. Совершая покупки по нашей партнёрской ссылке, вы получаете скидки и бонусы, а наш фан-сайт получает небольшую комиссию на поддержание работы серверов и регулярное написание гайдов без каких-либо дополнительных затрат для вас.'
-    : "Top-ups are processed through LDShop's official secure gateway using UID only — no passwords or account credentials are ever required. When you purchase via our affiliate link, you get best prices and bonuses while helping support server hosting and guide updates at zero additional cost to you.",
+    ? 'Пополнение осуществляется через защищённый шлюз LDShop без необходимости передавать логин и пароль от аккаунта. Совершая покупки по нашей партнёрской ссылке, вы получаете скидки и бонусы, а наш фан-сайт получает небольшую комиссию на поддержание работы серверов и регулярное написание гайдов без каких-либо дополнительных затрат для вас.'
+    : "Top-ups are processed through LDShop's secure gateway using UID only — no passwords or account credentials are ever required. When you purchase via our affiliate link, you get best prices and bonuses while helping support server hosting and guide updates at zero additional cost to you.",
   disclosureNote: isRu
-    ? 'Официальный партнёрский сервис LDShop. Покупки производятся напрямую в игре Last Asylum: Plague через защищенный API.'
-    : 'Official partner service by LDShop. In-game currency is delivered directly to Last Asylum: Plague via secure APIs.',
+    ? 'Партнёрский сервис LDShop. Покупки производятся напрямую в игре Last Asylum: Plague через защищенный API.'
+    : 'Partner service by LDShop. In-game currency is delivered directly to Last Asylum: Plague via secure APIs.',
 };
 ---
 
@@ -131,21 +131,21 @@ const T = {
 
       <div class="flex flex-wrap items-center gap-3 pt-4">
         <a
-          href={LOOTBAR_LINK}
+          href={AFF_LINK}
           target="_blank"
           rel="noopener noreferrer"
           class="btn-glow inline-flex items-center gap-2 rounded-2xl bg-gradient-to-r from-plague-500 via-toxic-400 to-toxic-300 px-6 py-3.5 text-sm sm:text-base font-bold text-black shadow-[0_0_25px_rgba(180,255,57,0.35)] hover:brightness-110 hover:scale-[1.02] active:scale-[0.99] transition"
         >
-          <span>🛒 {T.openStoreBtn}</span>
+          <span>⚡ {T.openStoreLdBtn}</span>
         </a>
 
         <a
-          href={AFF_LINK}
+          href={LOOTBAR_LINK}
           target="_blank"
           rel="noopener noreferrer"
           class="inline-flex items-center gap-2 rounded-2xl border border-stone-700 bg-stone-900/80 px-5 py-3.5 text-sm font-semibold text-stone-200 hover:border-stone-500 hover:text-white transition"
         >
-          <span>⚡ {T.openStoreLdBtn}</span>
+          <span>🛒 {T.openStoreBtn}</span>
         </a>
 
         <a
@@ -422,7 +422,7 @@ const T = {
     <!-- CTA Button to LDShop -->
     <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
       <div class="text-xs text-stone-400 text-center sm:text-left">
-        🛡️ {isRu ? 'Авторизованный партнёр LDShop • Мгновенная доставка на аккаунт по вашему игровому UID' : 'Authorized LDShop partner • Instant delivery to game account by UID'}
+        🛡️ {isRu ? 'Партнёр LDShop • Мгновенная доставка на аккаунт по вашему игровому UID' : 'LDShop partner • Instant delivery to game account by UID'}
       </div>
       <a
         href={AFF_LINK}

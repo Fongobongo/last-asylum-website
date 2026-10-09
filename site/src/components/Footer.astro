@@ -10,6 +10,17 @@ interface Props {
 const { lang } = Astro.props;
 const year = new Date().getFullYear();
 const base = lang === 'en' ? '' : `/${lang}`;
+// Slim cross-link to the top-up section, shown on every page.
+const shopLead =
+  lang === 'ru' ? 'Пополнение со скидкой —'
+  : lang === 'de' ? 'Guthaben mit Rabatt —'
+  : lang === 'es' ? 'Recargas con descuento —'
+  : lang === 'fr' ? 'Recharges à prix réduit —'
+  : lang === 'id' ? 'Top-up diskon —'
+  : lang === 'ja' ? 'お得にチャージ —'
+  : lang === 'ko' ? '할인 충전 —'
+  : lang === 'pt' ? 'Recargas com desconto —'
+  : 'Discounted top-ups —';
 ---
 
 <footer class="relative mt-16 border-t border-stone-800/60 bg-stone-950/50 overflow-hidden">
@@ -74,7 +85,16 @@ const base = lang === 'en' ? '' : `/${lang}`;
       </div>
     </div>
 
-    <div class="mt-8 flex flex-col sm:flex-row items-center justify-between gap-3 border-t border-stone-800/60 pt-6 text-xs text-stone-500">
+    <div class="mt-8 flex flex-col items-center gap-2 border-t border-stone-800/60 pt-5 text-center">
+      <p class="text-xs text-stone-500">
+        💎 {shopLead}{' '}
+        <a href={`${base}/support/`} class="font-semibold text-toxic-400 hover:text-toxic-300 transition">
+          {t(lang, 'nav.support')} →
+        </a>
+      </p>
+    </div>
+
+    <div class="mt-5 flex flex-col sm:flex-row items-center justify-between gap-3 border-t border-stone-800/60 pt-6 text-xs text-stone-500">
       <p>☣️ {t(lang, 'site.title')} — © {year} • Fan-made • <span class="text-stone-600">Not affiliated</span></p>
       <p class="flex items-center gap-2">
         <span class="h-1.5 w-1.5 rounded-full bg-toxic-400 pulse-ring"></span>
