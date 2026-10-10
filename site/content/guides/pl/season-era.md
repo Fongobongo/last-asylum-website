@@ -45,12 +45,12 @@ Przepustka trwa 7 dni i zapewnia +250 do Odporności oraz +5% do Prędkości Mar
 ## Co prowadzi tutaj
 
 Strony, które wspominają tę. Lista jest tworzona na podstawie znaczników, a nie wypełniana ręcznie.
-- [Zmiana serwera: transfery, czas serwera i nowe serwery](/pl/changing-server/)
-- [Starcie o Królewskie Miasto: zasady, Król i nagrody](/pl/royal-city-scramble/)
+- Zmiana serwera: transfery, czas serwera i nowe serwery
+- Starcie o Królewskie Miasto: zasady, Król i nagrody
 - [Wydarzenia specjalne: dziewięć wydarzeń z zakładki i dzień, w którym każde się pojawia](/pl/special-events/)
 - [Wydarzenia: konkurencje, sojusz, wojny, sezon](/pl/events/)
 - [Przepustka Ery](/pl/era-pass/)
-- [Spis treści: bohaterowie, armia, wydarzenia i wydatki](/pl/contents/)
+- Spis treści: bohaterowie, armia, wydarzenia i wydatki
 - [Skórki: bonusy, czas trwania i Twierdza Czarnego Kruka](/pl/skins/)
-- [Dolina Klastra Kryształów (Dolina Kryształów): żyły, umiejętności i nagrody za ranking](/pl/crystal-cluster-valley/)
+- Dolina Klastra Kryształów (Dolina Kryształów): żyły, umiejętności i nagrody za ranking
 - [Mapa świata: odległości, prędkość i zbieranie](/pl/world-map/)
