@@ -7,7 +7,7 @@ import os, re, json, time, sys, urllib.request, pathlib
 KEY = os.environ['GEMINI_API_KEY']
 MODELS = ["gemini-3.1-flash-lite"]*4 + ["gemini-2.5-flash-lite", "gemini-2.5-flash"]
 
-LANGS = ['de','es','fr','id','ja','ko','pt','ar','it','ms','nl','th','tr','vi','zh']
+LANGS = ['de','es','fr','id','ja','ko','pt','ar','it','ms','nl','th','tr','vi','zh','pl']
 BASER = pathlib.Path('site/content/guides')
 
 GLOSSARY = {

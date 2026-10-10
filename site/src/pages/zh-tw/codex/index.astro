@@ -1,0 +1,27 @@
+---
+import Base from '../../../layouts/Base.astro';
+import GuidePage from '../../../components/GuidePage.astro';
+import CodexGrid from '../../../components/CodexGrid.astro';
+import DiscordBanner from '../../../components/DiscordBanner.astro';
+import { heroCodex } from '../../../data/heroCodex';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'zh-tw';
+const base = lang === 'en' ? '' : `/${lang}`;
+---
+
+<Base lang={lang} path="/zh-tw/codex/" title="Helden-Kodex" description="Jeder wichtige Held in Last Asylum: Plague — Skills, Builds, Team-Notizen und wie man ihn bekommt.">
+  <GuidePage
+    title="📖 Helden-Kodex"
+    description="Skills, Build-Prioritäten und Team-Notizen für jeden Helden, der zählt — zusammengestellt aus den Community-Guides."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/zh-tw/' }, { label: 'Helden-Kodex' }]}
+  >
+    <p>每個頁面包含：定位、英雄獲取方式、核心技能解析、養成優先級以及適用的隊伍陣容。 查看排名請訪問 <a href="/zh-tw/tier-list/">強度榜</a>.</p>
+
+    <CodexGrid heroes={heroCodex} lang={lang} base={base} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

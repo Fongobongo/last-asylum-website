@@ -1,0 +1,47 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'pl';
+const events = [
+  { slug: 'alliance-duel', name: 'Pojedynek Sojuszy', icon: '⚔️', desc: 'Sześciodniowa rywalizacja sojuszy z codziennymi kategoriami punktowymi, dokładnymi wartościami punktów i ekonomią oszczędzania wszystkiego.' },
+  { slug: 'elixir', name: 'Wyścig po Eliksir', icon: '🧪', desc: '30-minutowe pole bitwy AvA, w którym liczy się kontrola, a nie zabójstwa — Namioty Medyczne, priorytet zamku i zasady teleportacji.' },
+  { slug: 'kvk', name: 'Wojna Królestw (KvK)', icon: '🏰', desc: 'Wojna serwer-kontra-serwer o Królewskie Miasto: ataki na wieże, defensywa oparta na opóźnianiu i realne ryzyko utraty wojsk.' },
+  { slug: 'undead', name: 'Oblężenie Nieumarłych', icon: '🧟', desc: 'Obrona sojuszu przed falami zainfekowanych — ukryta mechanika wielu oddziałów, stałe HP i kamienie milowe nagród.' },
+  { slug: 'cheese', name: 'Pułapka na Szczura', icon: '🧀', desc: 'Rajd sojuszu na gigantycznego szczura: pięciofazowe nagrody osobiste, wspólna pula HP sojuszu i matematyka skalowania poziomów.' },
+  { slug: 'thief', name: 'Polowanie na Złodzieja', icon: '💰', desc: 'Wydawaj staminę, aby przywołać bossów Przywódców Złodziei — mechanika spawnowania, technika ciągłego zabijania i priorytety wymiany.' },
+  { slug: 'survival', name: 'Bitwa o Przetrwanie', icon: '🛡️', desc: 'Cotygodniowe wydarzenie misyjne warte ~60 000 darmowych Odznak Umiejętności — tanie ukończenie i nakładanie się z Pojedynkiem Sojuszy.' },
+  { slug: 'canyon', name: 'Podbój Kanionu', icon: '🏜️', desc: 'Trzypasmowa bitwa sztafetowa, w której wytrzymałość wygrywa z siłą — strategia priorytetów pasów w wydarzeniu bez ryzyka.' },
+  { slug: 'mythic', name: 'Mityczny Skarb', icon: '🗺️', desc: 'Siedmiozakładkowe wydarzenie pirackie rozpracowane dla F2P: priorytety rynku, limit 300 ryb i gra o Zakopany Skarb.' },
+  { slug: 'royal', name: 'Wyścig o Królewski Zamek', icon: '👑', desc: 'Cotygodniowy wyścig o przejęcie zamku — jeden marsz na gracza, 30 miejsc na posiłki i pełny system tytułów Królewskiego Miasta.' },
+  { slug: 'arena', name: 'Arena Trójkąta', icon: '🔺', desc: 'Trzy składy, atakujący wybiera dwa do pokonania — wyrównana obrona, poświęcanie składów i pułapka Areny Przeznaczenia.' },
+  { slug: 'wagon', name: 'Wóz Gildii i Karawany', icon: '🚚', desc: 'Codzienne darmowe kursy wozów, zasady skrzyń Straży, odświeżanie Złotego Wozu i farmienie odłamków UR z karawan.' },
+  { slug: 'supreme-healer', name: 'Najwyższy Uzdrowiciel', icon: '🩺', desc: '7-dniowy harmonogram punktacji, codzienne zarządzanie zasobami, gromadzenie staminy i czas użycia Antytoksyny.' },
+  { slug: 'strike-first', name: 'Pierwsze Uderzenie', icon: '⚡', desc: 'Sprint startowy na nowym serwerze — kamienie milowe Sanktuarium, oczyszczanie Zarazy, mobilizacja wojskowa i wczesne diamenty.' },
+  { slug: 'final-dawn', name: 'Ostateczny Świt', icon: '🌅', desc: '7-dniowy sprint rozwoju bazy — 4 fazy (od Fundamentów do Ostatecznego Pchnięcia), kolejka priorytetów i czas przyspieszaczy.' },
+  { slug: 'path-to-healing', name: 'Ścieżka Uzdrowienia', icon: '🕊️', desc: '5-dniowa ścieżka misji wprowadzających — codzienne zadania, obowiązkowa zasada odblokowania VIP 5 i zdobycie 15 odłamków UR Arthur.' },
+  { slug: 'supreme-duel', name: 'Najwyższy Pojedynek', icon: '🏆', desc: 'Turniej między strefami wojennymi — 16 stref, bitwy 3-składowe do dwóch zwycięstw, sklep za Monety Przewidywań i tytuł Mistrza.' },
+  { slug: 'quiz-of-wisdom', name: 'Quiz Mądrości', icon: '🧠', desc: 'Wydarzenie z ciekawostkami z gotowcem 15/15 pytań i odpowiedzi: natychmiastowe wyszukiwanie obejmujące mechanikę, budynki, frakcje, VIP i lore.' },
+  { slug: 'demon-king', name: 'Król Demonów', icon: '👹', desc: 'Cotygodniowy boss światowy (wtorki i piątki) — podatność na Magów, 10 ataków dziennie i trik z wycofaniem marszu w 30 sekund.' },
+  { slug: 'secret-operations', name: 'Centrum Tajnych Operacji', icon: '🕵️', desc: 'Codzienne tajne zadania: szanse na przerzut (UR 8%, SSR 24%), gwarancja 16. skrzyni i mapy skarbów z 7 odłamkami.' },
+  { slug: 'dwarven-mine', name: 'Kopalnia Krasnoludów', icon: '⛏️', desc: '7-dniowe wydarzenie górnicze: zasada gromadzenia 750 kilofów, nagrody ziół kontra kamieni sprzętu i schemat MR na 100. piętrze.' },
+  { slug: 'pandemic-experience', name: 'Doświadczenie Pandemii', icon: '🧪', desc: 'Dwutygodniowa drabina trudności 1–9, odblokowania bossa sojuszu (40 wyczyszczeń) i trik z rajdem słabym bohaterem.' },
+  { slug: 'crystal-cluster', name: 'Dolina Kryształowych Skupisk', icon: '🔮', desc: 'Czasowa bójka na mapie: farmienie czerwonych mobów po 1,5 tys. pkt każdy, utrzymywanie kopalni kryształów za 5 tys./min i trik ze stoperem.' },
+];
+---
+<Base lang={lang} path="/pl/events/" title="Poradniki do wydarzeń" description="Kompletne zestawienia każdego wydarzenia w Last Asylum: Plague: harmonogramy, punktacja, strategie i błędy, których należy unikać.">
+  <section class="py-12">
+    <h1 class="mb-3 text-4xl font-bold text-plague-100">Poradniki do wydarzeń</h1>
+    <p class="mb-10 text-lg text-stone-400">Kompletne zestawienia każdego wydarzenia w Last Asylum: Plague: harmonogramy, punktacja, strategie i błędy, których należy unikać.</p>
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {events.map(e => (
+        <a href={`/pl/events/${e.slug}/`} class="group rounded-lg border border-stone-800 bg-stone-900 p-5 transition-colors hover:border-plague-600">
+          <span class="text-3xl">{e.icon}</span>
+          <h2 class="mt-3 text-lg font-bold text-plague-200 group-hover:text-plague-100">{e.name}</h2>
+          <p class="mt-2 text-sm text-stone-400">{e.desc}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</Base>

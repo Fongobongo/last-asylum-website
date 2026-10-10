@@ -16,6 +16,8 @@ import { faqTh } from '../data/faqTh';
 import { faqTr } from '../data/faqTr';
 import { faqVi } from '../data/faqVi';
 import { faqZh } from '../data/faqZh';
+import { faqZhTW } from '../data/faqZhTW';
+import { faqPl } from '../data/faqPl';
 import type { Lang } from '../i18n/utils';
 
 interface Props {
@@ -42,6 +44,8 @@ const faqByLang: Record<string, { q: string; a: string }[]> = {
   tr: faqTr,
   vi: faqVi,
   zh: faqZh,
+  'zh-tw': faqZhTW,
+  pl: faqPl,
 };
 
 const faq = faqByLang[lang] ?? faqEn;
@@ -63,7 +67,9 @@ const headings: Record<string, string> = {
   th: '❓ FAQ — คำถามที่พบบ่อย',
   tr: '❓ FAQ — Sık sorulan sorular',
   vi: '❓ FAQ — Câu hỏi thường gặp',
-  zh: '❓ FAQ — 常见问题',
+  zh: '❓ FAQ — 常见问题', 'zh-tw': '❓ FAQ — 常見問題',
+  'zh-tw': '❓ FAQ — 常見問題',
+  pl: '❓ FAQ — Częste pytania',
 };
 
 const schema = JSON.stringify({

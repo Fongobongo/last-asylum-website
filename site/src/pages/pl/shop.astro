@@ -1,0 +1,11 @@
+---
+import Base from '../../layouts/Base.astro';
+import ShopPage from '../../components/ShopPage.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'pl';
+---
+
+<Base lang={lang} path="/pl/shop/" title="Sklep gry i doładowania | Last Asylum" description="Doładuj diamenty i pakiety do Last Asylum: Plague przez platformę partnerską LDShop. Natychmiastowa dostawa przez UID, najlepsze oferty i wsparcie społeczności.">
+  <ShopPage lang={lang} />
+</Base>

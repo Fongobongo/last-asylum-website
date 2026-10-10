@@ -15,7 +15,8 @@
       "th": "ดูแรนต์",
       "tr": "Durant",
       "vi": "Durant",
-      "zh": "杜兰特"
+      "zh": "杜兰特",
+      "pl": "Durant"
     },
     "weapons": {},
     "story": {
@@ -57,7 +58,8 @@
       "th": "วิลเลียมส์",
       "tr": "William",
       "vi": "William",
-      "zh": "威廉姆斯"
+      "zh": "威廉姆斯",
+      "pl": "William"
     },
     "weapons": {},
     "story": {
@@ -99,7 +101,8 @@
       "th": "โรบิน",
       "tr": "Robin",
       "vi": "Robin",
-      "zh": "罗宾"
+      "zh": "罗宾",
+      "pl": "Robin"
     },
     "weapons": {},
     "story": {
@@ -141,7 +144,8 @@
       "th": "คาฟา",
       "tr": "Kafa",
       "vi": "Caffa",
-      "zh": "卡法"
+      "zh": "卡法",
+      "pl": "Kafa"
     },
     "weapons": {},
     "story": {
@@ -183,7 +187,8 @@
       "th": "ซีเลีย",
       "tr": "Celia",
       "vi": "Celia",
-      "zh": "希莉亚"
+      "zh": "希莉亚",
+      "pl": "Celia"
     },
     "weapons": {},
     "story": {
@@ -225,7 +230,8 @@
       "th": "แคลร์",
       "tr": "Claire",
       "vi": "Claire",
-      "zh": "克蕾雅"
+      "zh": "克蕾雅",
+      "pl": "Claire"
     },
     "weapons": {},
     "story": {
@@ -267,7 +273,8 @@
       "th": "เบลล่า",
       "tr": "Bella",
       "vi": "Bella",
-      "zh": "贝拉"
+      "zh": "贝拉",
+      "pl": "Bella"
     },
     "weapons": {},
     "story": {
@@ -309,7 +316,8 @@
       "th": "ไคโซ",
       "tr": "Kesso",
       "vi": "Kesso",
-      "zh": "凯索"
+      "zh": "凯索",
+      "pl": "Kesso"
     },
     "weapons": {},
     "story": {
@@ -351,7 +359,8 @@
       "th": "ลูเซียส",
       "tr": "Lucius",
       "vi": "Lucius",
-      "zh": "卢修斯"
+      "zh": "卢修斯",
+      "pl": "Lucius"
     },
     "weapons": {},
     "story": {
@@ -393,7 +402,8 @@
       "th": "ซิเวียร์",
       "tr": "Sivir",
       "vi": "Sivir",
-      "zh": "希维尔"
+      "zh": "希维尔",
+      "pl": "Sivir"
     },
     "weapons": {},
     "story": {
@@ -435,7 +445,8 @@
       "th": "กริฟฟิธ",
       "tr": "Griffith",
       "vi": "Griffith",
-      "zh": "格里菲斯"
+      "zh": "格里菲斯",
+      "pl": "Griffith"
     },
     "weapons": {},
     "story": {
@@ -477,7 +488,8 @@
       "th": "ซิงจุย",
       "tr": "Stellar",
       "vi": "Stellar",
-      "zh": "星缀"
+      "zh": "星缀",
+      "pl": "Stellar"
     },
     "weapons": {},
     "story": {
@@ -519,7 +531,8 @@
       "th": "แอช",
       "tr": "Ash",
       "vi": "Ash",
-      "zh": "艾希"
+      "zh": "艾希",
+      "pl": "Ash"
     },
     "weapons": {},
     "story": {
@@ -561,7 +574,8 @@
       "th": "ฮัสเทอร์",
       "tr": "Hastar",
       "vi": "Hastar",
-      "zh": "哈斯塔"
+      "zh": "哈斯塔",
+      "pl": "Hastar"
     },
     "weapons": {},
     "story": {
@@ -603,7 +617,8 @@
       "th": "เบสต์",
       "tr": "Bestar",
       "vi": "Bestar",
-      "zh": "贝斯特"
+      "zh": "贝斯特",
+      "pl": "Bestar"
     },
     "weapons": {},
     "story": {
@@ -645,7 +660,8 @@
       "th": "กรินเดลวัลด์",
       "tr": "Grenwald",
       "vi": "Grenwald",
-      "zh": "格林德沃"
+      "zh": "格林德沃",
+      "pl": "Grenwald"
     },
     "weapons": {},
     "story": {
@@ -687,7 +703,8 @@
       "th": "อาร์เธอร์",
       "tr": "Arthur",
       "vi": "Arthur",
-      "zh": "亚瑟"
+      "zh": "亚瑟",
+      "pl": "Arthur"
     },
     "weapons": {
       "en": "Stone Shield",
@@ -1153,7 +1170,8 @@
       "th": "มาเลน่า",
       "tr": "Marlena",
       "vi": "Marlena",
-      "zh": "玛莲娜"
+      "zh": "玛莲娜",
+      "pl": "Marlena"
     },
     "weapons": {
       "en": "Crimson Sword",
@@ -1628,7 +1646,8 @@
       "th": "เงา",
       "tr": "Gölge",
       "vi": "Ảnh",
-      "zh": "影"
+      "zh": "影",
+      "pl": "Cień"
     },
     "weapons": {
       "en": "Phantom Dagger",
@@ -2105,7 +2124,8 @@
       "th": "ซินเธีย",
       "tr": "Cynthia",
       "vi": "Xynthia",
-      "zh": "辛西娅"
+      "zh": "辛西娅",
+      "pl": "Cynthia"
     },
     "weapons": {
       "en": "Moon Blade",
@@ -2581,7 +2601,8 @@
       "th": "แอนนี่",
       "tr": "Annie",
       "vi": "Annie",
-      "zh": "安妮"
+      "zh": "安妮",
+      "pl": "Annie"
     },
     "weapons": {
       "en": "Candy Wand",
@@ -3056,7 +3077,8 @@
       "th": "โจ๊กเกอร์",
       "tr": "Joker",
       "vi": "Hề",
-      "zh": "小丑"
+      "zh": "小丑",
+      "pl": "Joker"
     },
     "weapons": {
       "en": "Illusion Card",
@@ -3531,7 +3553,8 @@
       "th": "ฮาร์เปอร์",
       "tr": "Harper",
       "vi": "Harper",
-      "zh": "哈珀"
+      "zh": "哈珀",
+      "pl": "Harper"
     },
     "weapons": {
       "en": "Bard\\'s Horn",
@@ -3986,7 +4009,8 @@
       "th": "ดัสคาล",
       "tr": "Daskal",
       "vi": "Daskal",
-      "zh": "达斯卡尔"
+      "zh": "达斯卡尔",
+      "pl": "Daskal"
     },
     "weapons": {
       "en": "Crimson Greatsword",
@@ -4508,7 +4532,8 @@
       "th": "มาดามเรด",
       "tr": "Kızıl Hanım",
       "vi": "Bà Đỏ",
-      "zh": "红夫人"
+      "zh": "红夫人",
+      "pl": "Czerwona Dama"
     },
     "weapons": {
       "en": "Crimson Edge",
@@ -4984,7 +5009,8 @@
       "th": "วูล์ฟเรด",
       "tr": "Ulfrid",
       "vi": "Ulfred",
-      "zh": "乌尔弗雷德"
+      "zh": "乌尔弗雷德",
+      "pl": "Ulfrid"
     },
     "weapons": {
       "en": "Wolven Claw",
@@ -5505,7 +5531,8 @@
       "th": "โซยา",
       "tr": "Zoya",
       "vi": "Trác Nhã",
-      "zh": "卓雅"
+      "zh": "卓雅",
+      "pl": "Zoya"
     },
     "weapons": {
       "en": "Forest Blade",
@@ -5969,7 +5996,8 @@
       "th": "หลุยส์",
       "tr": "Louis",
       "vi": "Luis",
-      "zh": "路易斯"
+      "zh": "路易斯",
+      "pl": "Louis"
     },
     "weapons": {
       "en": "Thorn Shackles",
@@ -6480,7 +6508,8 @@
       "th": "เบลล์",
       "tr": "Bell",
       "vi": "Bell",
-      "zh": "贝尔"
+      "zh": "贝尔",
+      "pl": "Bell"
     },
     "weapons": {
       "en": "Tiny Drum",
@@ -6924,7 +6953,8 @@
       "th": "บิลลี่",
       "tr": "Billy",
       "vi": "Billy",
-      "zh": "比利"
+      "zh": "比利",
+      "pl": "Billy"
     },
     "weapons": {
       "en": "Puppet Frame",
@@ -7389,7 +7419,8 @@
       "th": "นิโคล",
       "tr": "Nicole",
       "vi": "Nicole",
-      "zh": "妮可"
+      "zh": "妮可",
+      "pl": "Nicole"
     },
     "weapons": {
       "en": "Flame Cloak",
@@ -7844,7 +7875,8 @@
       "th": "แคลร์",
       "tr": "Claire",
       "vi": "Claire",
-      "zh": "克蕾雅"
+      "zh": "克蕾雅",
+      "pl": "Claire"
     },
     "weapons": {},
     "story": {
@@ -8298,7 +8330,8 @@
       "th": "มาเลน่า",
       "tr": "Marlena",
       "vi": "Marlena",
-      "zh": "玛莲娜"
+      "zh": "玛莲娜",
+      "pl": "Marlena"
     },
     "weapons": {}
   },
@@ -8318,7 +8351,8 @@
       "th": "มาเลน่า",
       "tr": "Marlena",
       "vi": "Marlena",
-      "zh": "玛莲娜"
+      "zh": "玛莲娜",
+      "pl": "Marlena"
     },
     "weapons": {}
   },
@@ -8338,7 +8372,8 @@
       "th": "ดูแรนต์",
       "tr": "Durant",
       "vi": "Durant",
-      "zh": "杜兰特"
+      "zh": "杜兰特",
+      "pl": "Durant"
     },
     "weapons": {}
   },
@@ -8358,7 +8393,8 @@
       "th": "วิลเลียมส์",
       "tr": "William",
       "vi": "William",
-      "zh": "威廉姆斯"
+      "zh": "威廉姆斯",
+      "pl": "William"
     },
     "weapons": {}
   },
@@ -8378,7 +8414,8 @@
       "th": "โรบิน",
       "tr": "Robin",
       "vi": "Robin",
-      "zh": "罗宾"
+      "zh": "罗宾",
+      "pl": "Robin"
     },
     "weapons": {}
   },
@@ -8398,7 +8435,8 @@
       "th": "แอนนี่",
       "tr": "Annie",
       "vi": "Annie",
-      "zh": "安妮"
+      "zh": "安妮",
+      "pl": "Annie"
     },
     "weapons": {}
   },
@@ -8418,7 +8456,8 @@
       "th": "ซีเลีย",
       "tr": "Celia",
       "vi": "Celia",
-      "zh": "希莉亚"
+      "zh": "希莉亚",
+      "pl": "Celia"
     },
     "weapons": {}
   },
@@ -8438,7 +8477,8 @@
       "th": "แคลร์",
       "tr": "Claire",
       "vi": "Claire",
-      "zh": "克蕾雅"
+      "zh": "克蕾雅",
+      "pl": "Claire"
     },
     "weapons": {}
   },
@@ -8458,7 +8498,8 @@
       "th": "เบลล่า",
       "tr": "Bella",
       "vi": "Bella",
-      "zh": "贝拉"
+      "zh": "贝拉",
+      "pl": "Bella"
     },
     "weapons": {}
   },
@@ -8478,7 +8519,8 @@
       "th": "ไคโซ",
       "tr": "Kesso",
       "vi": "Kesso",
-      "zh": "凯索"
+      "zh": "凯索",
+      "pl": "Kesso"
     },
     "weapons": {}
   },
@@ -8498,7 +8540,8 @@
       "th": "ลูเซียส",
       "tr": "Lucius",
       "vi": "Lucius",
-      "zh": "卢修斯"
+      "zh": "卢修斯",
+      "pl": "Lucius"
     },
     "weapons": {}
   },
@@ -8518,7 +8561,8 @@
       "th": "ซิเวียร์",
       "tr": "Sivir",
       "vi": "Sivir",
-      "zh": "希维尔"
+      "zh": "希维尔",
+      "pl": "Sivir"
     },
     "weapons": {}
   },
@@ -8538,7 +8582,8 @@
       "th": "กริฟฟิธ",
       "tr": "Griffith",
       "vi": "Griffith",
-      "zh": "格里菲斯"
+      "zh": "格里菲斯",
+      "pl": "Griffith"
     },
     "weapons": {}
   },
@@ -8558,7 +8603,8 @@
       "th": "ซิงจุย",
       "tr": "Stellar",
       "vi": "Stellar",
-      "zh": "星缀"
+      "zh": "星缀",
+      "pl": "Stellar"
     },
     "weapons": {}
   },
@@ -8578,7 +8624,8 @@
       "th": "แอช",
       "tr": "Ash",
       "vi": "Ash",
-      "zh": "艾希"
+      "zh": "艾希",
+      "pl": "Ash"
     },
     "weapons": {}
   },
@@ -8598,7 +8645,8 @@
       "th": "ฮัสเทอร์",
       "tr": "Hastar",
       "vi": "Hastar",
-      "zh": "哈斯塔"
+      "zh": "哈斯塔",
+      "pl": "Hastar"
     },
     "weapons": {}
   },
@@ -8618,7 +8666,8 @@
       "th": "เบสต์",
       "tr": "Bestar",
       "vi": "Bestar",
-      "zh": "贝斯特"
+      "zh": "贝斯特",
+      "pl": "Bestar"
     },
     "weapons": {}
   },
@@ -8638,7 +8687,8 @@
       "th": "กรินเดลวัลด์",
       "tr": "Grenwald",
       "vi": "Grenwald",
-      "zh": "格林德沃"
+      "zh": "格林德沃",
+      "pl": "Grenwald"
     },
     "weapons": {}
   },
@@ -8658,7 +8708,8 @@
       "th": "อาร์เธอร์",
       "tr": "Arthur",
       "vi": "Arthur",
-      "zh": "亚瑟"
+      "zh": "亚瑟",
+      "pl": "Arthur"
     },
     "weapons": {}
   },
@@ -8678,7 +8729,8 @@
       "th": "มาเลน่า",
       "tr": "Marlena",
       "vi": "Marlena",
-      "zh": "玛莲娜"
+      "zh": "玛莲娜",
+      "pl": "Marlena"
     },
     "weapons": {}
   },
@@ -8698,7 +8750,8 @@
       "th": "เงา",
       "tr": "Gölge",
       "vi": "Ảnh",
-      "zh": "影"
+      "zh": "影",
+      "pl": "Cień"
     },
     "weapons": {}
   },
@@ -8718,7 +8771,8 @@
       "th": "ซินเธีย",
       "tr": "Cynthia",
       "vi": "Xynthia",
-      "zh": "辛西娅"
+      "zh": "辛西娅",
+      "pl": "Cynthia"
     },
     "weapons": {}
   },
@@ -8738,7 +8792,8 @@
       "th": "แอนนี่",
       "tr": "Annie",
       "vi": "Annie",
-      "zh": "安妮"
+      "zh": "安妮",
+      "pl": "Annie"
     },
     "weapons": {}
   },
@@ -8758,7 +8813,8 @@
       "th": "โจ๊กเกอร์",
       "tr": "Joker",
       "vi": "Hề",
-      "zh": "小丑"
+      "zh": "小丑",
+      "pl": "Joker"
     },
     "weapons": {}
   },
@@ -8778,7 +8834,8 @@
       "th": "ฮาร์เปอร์",
       "tr": "Harper",
       "vi": "Harper",
-      "zh": "哈珀"
+      "zh": "哈珀",
+      "pl": "Harper"
     },
     "weapons": {}
   },
@@ -8798,7 +8855,8 @@
       "th": "ดัสคาล",
       "tr": "Daskal",
       "vi": "Daskal",
-      "zh": "达斯卡尔"
+      "zh": "达斯卡尔",
+      "pl": "Daskal"
     },
     "weapons": {}
   },
@@ -8818,7 +8876,8 @@
       "th": "มาดามเรด",
       "tr": "Kızıl Hanım",
       "vi": "Bà Đỏ",
-      "zh": "红夫人"
+      "zh": "红夫人",
+      "pl": "Czerwona Dama"
     },
     "weapons": {}
   },
@@ -8838,7 +8897,8 @@
       "th": "วูล์ฟเรด",
       "tr": "Ulfrid",
       "vi": "Ulfred",
-      "zh": "乌尔弗雷德"
+      "zh": "乌尔弗雷德",
+      "pl": "Ulfrid"
     },
     "weapons": {}
   },
@@ -8858,7 +8918,8 @@
       "th": "โซยา",
       "tr": "Zoya",
       "vi": "Trác Nhã",
-      "zh": "卓雅"
+      "zh": "卓雅",
+      "pl": "Zoya"
     },
     "weapons": {}
   },
@@ -8878,7 +8939,8 @@
       "th": "หลุยส์",
       "tr": "Louis",
       "vi": "Luis",
-      "zh": "路易斯"
+      "zh": "路易斯",
+      "pl": "Louis"
     },
     "weapons": {}
   },
@@ -8898,7 +8960,8 @@
       "th": "เบลล์",
       "tr": "Bell",
       "vi": "Bell",
-      "zh": "贝尔"
+      "zh": "贝尔",
+      "pl": "Bell"
     },
     "weapons": {}
   },
@@ -8918,7 +8981,8 @@
       "th": "บิลลี่",
       "tr": "Billy",
       "vi": "Billy",
-      "zh": "比利"
+      "zh": "比利",
+      "pl": "Billy"
     },
     "weapons": {}
   },
@@ -8938,7 +9002,8 @@
       "th": "นิโคล",
       "tr": "Nicole",
       "vi": "Nicole",
-      "zh": "妮可"
+      "zh": "妮可",
+      "pl": "Nicole"
     },
     "weapons": {}
   },
@@ -8958,7 +9023,8 @@
       "th": "ดูแรนต์",
       "tr": "Durant",
       "vi": "Durant",
-      "zh": "杜兰特"
+      "zh": "杜兰特",
+      "pl": "Durant"
     },
     "weapons": {}
   },
@@ -8978,7 +9044,8 @@
       "th": "วิลเลียมส์",
       "tr": "William",
       "vi": "William",
-      "zh": "威廉姆斯"
+      "zh": "威廉姆斯",
+      "pl": "William"
     },
     "weapons": {}
   },
@@ -8998,7 +9065,8 @@
       "th": "โรบิน",
       "tr": "Robin",
       "vi": "Robin",
-      "zh": "罗宾"
+      "zh": "罗宾",
+      "pl": "Robin"
     },
     "weapons": {}
   },
@@ -9018,7 +9086,8 @@
       "th": "แอนนี่",
       "tr": "Annie",
       "vi": "Annie",
-      "zh": "安妮"
+      "zh": "安妮",
+      "pl": "Annie"
     },
     "weapons": {}
   },
@@ -9038,7 +9107,8 @@
       "th": "ซีเลีย",
       "tr": "Celia",
       "vi": "Celia",
-      "zh": "希莉亚"
+      "zh": "希莉亚",
+      "pl": "Celia"
     },
     "weapons": {}
   },
@@ -9058,7 +9128,8 @@
       "th": "แคลร์",
       "tr": "Claire",
       "vi": "Claire",
-      "zh": "克蕾雅"
+      "zh": "克蕾雅",
+      "pl": "Claire"
     },
     "weapons": {}
   },
@@ -9078,7 +9149,8 @@
       "th": "เบลล่า",
       "tr": "Bella",
       "vi": "Bella",
-      "zh": "贝拉"
+      "zh": "贝拉",
+      "pl": "Bella"
     },
     "weapons": {}
   },
@@ -9098,7 +9170,8 @@
       "th": "ไคโซ",
       "tr": "Kesso",
       "vi": "Kesso",
-      "zh": "凯索"
+      "zh": "凯索",
+      "pl": "Kesso"
     },
     "weapons": {}
   },
@@ -9118,7 +9191,8 @@
       "th": "ลูเซียส",
       "tr": "Lucius",
       "vi": "Lucius",
-      "zh": "卢修斯"
+      "zh": "卢修斯",
+      "pl": "Lucius"
     },
     "weapons": {}
   },
@@ -9138,7 +9212,8 @@
       "th": "ซิเวียร์",
       "tr": "Sivir",
       "vi": "Sivir",
-      "zh": "希维尔"
+      "zh": "希维尔",
+      "pl": "Sivir"
     },
     "weapons": {}
   },
@@ -9158,7 +9233,8 @@
       "th": "กริฟฟิธ",
       "tr": "Griffith",
       "vi": "Griffith",
-      "zh": "格里菲斯"
+      "zh": "格里菲斯",
+      "pl": "Griffith"
     },
     "weapons": {}
   },
@@ -9178,7 +9254,8 @@
       "th": "ซิงจุย",
       "tr": "Stellar",
       "vi": "Stellar",
-      "zh": "星缀"
+      "zh": "星缀",
+      "pl": "Stellar"
     },
     "weapons": {}
   },
@@ -9198,7 +9275,8 @@
       "th": "แอช",
       "tr": "Ash",
       "vi": "Ash",
-      "zh": "艾希"
+      "zh": "艾希",
+      "pl": "Ash"
     },
     "weapons": {}
   },
@@ -9218,7 +9296,8 @@
       "th": "ฮัสเทอร์",
       "tr": "Hastar",
       "vi": "Hastar",
-      "zh": "哈斯塔"
+      "zh": "哈斯塔",
+      "pl": "Hastar"
     },
     "weapons": {}
   },
@@ -9238,7 +9317,8 @@
       "th": "เบสต์",
       "tr": "Bestar",
       "vi": "Bestar",
-      "zh": "贝斯特"
+      "zh": "贝斯特",
+      "pl": "Bestar"
     },
     "weapons": {}
   },
@@ -9258,7 +9338,8 @@
       "th": "กรินเดลวัลด์",
       "tr": "Grenwald",
       "vi": "Grenwald",
-      "zh": "格林德沃"
+      "zh": "格林德沃",
+      "pl": "Grenwald"
     },
     "weapons": {}
   },
@@ -9278,7 +9359,8 @@
       "th": "อาร์เธอร์",
       "tr": "Arthur",
       "vi": "Arthur",
-      "zh": "亚瑟"
+      "zh": "亚瑟",
+      "pl": "Arthur"
     },
     "weapons": {}
   },
@@ -9298,7 +9380,8 @@
       "th": "มาเลน่า",
       "tr": "Marlena",
       "vi": "Marlena",
-      "zh": "玛莲娜"
+      "zh": "玛莲娜",
+      "pl": "Marlena"
     },
     "weapons": {}
   },
@@ -9318,7 +9401,8 @@
       "th": "เงา",
       "tr": "Gölge",
       "vi": "Ảnh",
-      "zh": "影"
+      "zh": "影",
+      "pl": "Cień"
     },
     "weapons": {}
   },
@@ -9338,7 +9422,8 @@
       "th": "ซินเธีย",
       "tr": "Cynthia",
       "vi": "Xynthia",
-      "zh": "辛西娅"
+      "zh": "辛西娅",
+      "pl": "Cynthia"
     },
     "weapons": {}
   },
@@ -9358,7 +9443,8 @@
       "th": "แอนนี่",
       "tr": "Annie",
       "vi": "Annie",
-      "zh": "安妮"
+      "zh": "安妮",
+      "pl": "Annie"
     },
     "weapons": {}
   },
@@ -9378,7 +9464,8 @@
       "th": "โจ๊กเกอร์",
       "tr": "Joker",
       "vi": "Hề",
-      "zh": "小丑"
+      "zh": "小丑",
+      "pl": "Joker"
     },
     "weapons": {}
   },
@@ -9398,7 +9485,8 @@
       "th": "ฮาร์เปอร์",
       "tr": "Harper",
       "vi": "Harper",
-      "zh": "哈珀"
+      "zh": "哈珀",
+      "pl": "Harper"
     },
     "weapons": {}
   },
@@ -9418,7 +9506,8 @@
       "th": "ดัสคาล",
       "tr": "Daskal",
       "vi": "Daskal",
-      "zh": "达斯卡尔"
+      "zh": "达斯卡尔",
+      "pl": "Daskal"
     },
     "weapons": {}
   },
@@ -9438,7 +9527,8 @@
       "th": "มาดามเรด",
       "tr": "Kızıl Hanım",
       "vi": "Bà Đỏ",
-      "zh": "红夫人"
+      "zh": "红夫人",
+      "pl": "Czerwona Dama"
     },
     "weapons": {}
   },
@@ -9458,7 +9548,8 @@
       "th": "วูล์ฟเรด",
       "tr": "Ulfrid",
       "vi": "Ulfred",
-      "zh": "乌尔弗雷德"
+      "zh": "乌尔弗雷德",
+      "pl": "Ulfrid"
     },
     "weapons": {}
   },
@@ -9478,7 +9569,8 @@
       "th": "โซยา",
       "tr": "Zoya",
       "vi": "Trác Nhã",
-      "zh": "卓雅"
+      "zh": "卓雅",
+      "pl": "Zoya"
     },
     "weapons": {}
   },
@@ -9498,7 +9590,8 @@
       "th": "หลุยส์",
       "tr": "Louis",
       "vi": "Luis",
-      "zh": "路易斯"
+      "zh": "路易斯",
+      "pl": "Louis"
     },
     "weapons": {}
   },
@@ -9518,7 +9611,8 @@
       "th": "เบลล์",
       "tr": "Bell",
       "vi": "Bell",
-      "zh": "贝尔"
+      "zh": "贝尔",
+      "pl": "Bell"
     },
     "weapons": {}
   },
@@ -9538,7 +9632,8 @@
       "th": "บิลลี่",
       "tr": "Billy",
       "vi": "Billy",
-      "zh": "比利"
+      "zh": "比利",
+      "pl": "Billy"
     },
     "weapons": {}
   },
@@ -9558,7 +9653,8 @@
       "th": "นิโคล",
       "tr": "Nicole",
       "vi": "Nicole",
-      "zh": "妮可"
+      "zh": "妮可",
+      "pl": "Nicole"
     },
     "weapons": {}
   },
@@ -9578,7 +9674,8 @@
       "th": "หลุยส์",
       "tr": "Louis",
       "vi": "Luis",
-      "zh": "路易斯"
+      "zh": "路易斯",
+      "pl": "Louis"
     },
     "weapons": {}
   },
@@ -9598,7 +9695,8 @@
       "th": "หลุยส์",
       "tr": "Louis",
       "vi": "Luis",
-      "zh": "路易斯"
+      "zh": "路易斯",
+      "pl": "Louis"
     },
     "weapons": {}
   },
@@ -9618,7 +9716,8 @@
       "th": "หลุยส์",
       "tr": "Louis",
       "vi": "Luis",
-      "zh": "路易斯"
+      "zh": "路易斯",
+      "pl": "Louis"
     },
     "weapons": {}
   },
@@ -9638,7 +9737,8 @@
       "th": "หลุยส์",
       "tr": "Louis",
       "vi": "Luis",
-      "zh": "路易斯"
+      "zh": "路易斯",
+      "pl": "Louis"
     },
     "weapons": {}
   },
@@ -9658,7 +9758,8 @@
       "th": "หลุยส์",
       "tr": "Louis",
       "vi": "Luis",
-      "zh": "路易斯"
+      "zh": "路易斯",
+      "pl": "Louis"
     },
     "weapons": {}
   },
@@ -9678,7 +9779,8 @@
       "th": "หลุยส์",
       "tr": "Louis",
       "vi": "Luis",
-      "zh": "路易斯"
+      "zh": "路易斯",
+      "pl": "Louis"
     },
     "weapons": {}
   },
@@ -9698,7 +9800,8 @@
       "th": "หลุยส์",
       "tr": "Louis",
       "vi": "Luis",
-      "zh": "路易斯"
+      "zh": "路易斯",
+      "pl": "Louis"
     },
     "weapons": {}
   },
@@ -9718,7 +9821,8 @@
       "th": "หลุยส์",
       "tr": "Louis",
       "vi": "Luis",
-      "zh": "路易斯"
+      "zh": "路易斯",
+      "pl": "Louis"
     },
     "weapons": {}
   },
@@ -9738,7 +9842,8 @@
       "th": "หลุยส์",
       "tr": "Louis",
       "vi": "Luis",
-      "zh": "路易斯"
+      "zh": "路易斯",
+      "pl": "Louis"
     },
     "weapons": {}
   },
@@ -9758,7 +9863,8 @@
       "th": "หลุยส์",
       "tr": "Louis",
       "vi": "Luis",
-      "zh": "路易斯"
+      "zh": "路易斯",
+      "pl": "Louis"
     },
     "weapons": {}
   },
@@ -9778,7 +9884,8 @@
       "th": "หลุยส์",
       "tr": "Louis",
       "vi": "Luis",
-      "zh": "路易斯"
+      "zh": "路易斯",
+      "pl": "Louis"
     },
     "weapons": {}
   },
@@ -9798,7 +9905,8 @@
       "th": "หลุยส์",
       "tr": "Louis",
       "vi": "Luis",
-      "zh": "路易斯"
+      "zh": "路易斯",
+      "pl": "Louis"
     },
     "weapons": {}
   },
@@ -9818,7 +9926,8 @@
       "th": "หลุยส์",
       "tr": "Louis",
       "vi": "Luis",
-      "zh": "路易斯"
+      "zh": "路易斯",
+      "pl": "Louis"
     },
     "weapons": {}
   },
@@ -9838,7 +9947,8 @@
       "th": "หลุยส์",
       "tr": "Louis",
       "vi": "Luis",
-      "zh": "路易斯"
+      "zh": "路易斯",
+      "pl": "Louis"
     },
     "weapons": {}
   },
@@ -9858,7 +9968,8 @@
       "th": "หลุยส์",
       "tr": "Louis",
       "vi": "Luis",
-      "zh": "路易斯"
+      "zh": "路易斯",
+      "pl": "Louis"
     },
     "weapons": {}
   },
@@ -9878,7 +9989,8 @@
       "th": "หนูดำฉายเดี่ยว",
       "tr": "Yalnız Sıçan",
       "vi": "Chuột Đen Đơn Độc",
-      "zh": "独行黑鼠"
+      "zh": "独行黑鼠",
+      "pl": "Samotny Szczur"
     },
     "weapons": {}
   },
@@ -9898,7 +10010,8 @@
       "th": "หนูดำฉายเดี่ยว",
       "tr": "Yalnız Sıçan",
       "vi": "Chuột Đen Đơn Độc",
-      "zh": "独行黑鼠"
+      "zh": "独行黑鼠",
+      "pl": "Samotny Szczur"
     },
     "weapons": {}
   },
@@ -9918,7 +10031,8 @@
       "th": "หนูดำฉายเดี่ยว",
       "tr": "Yalnız Sıçan",
       "vi": "Chuột Đen Đơn Độc",
-      "zh": "独行黑鼠"
+      "zh": "独行黑鼠",
+      "pl": "Samotny Szczur"
     },
     "weapons": {}
   },
@@ -9938,7 +10052,8 @@
       "th": "หนูดำฉายเดี่ยว",
       "tr": "Yalnız Sıçan",
       "vi": "Chuột Đen Đơn Độc",
-      "zh": "独行黑鼠"
+      "zh": "独行黑鼠",
+      "pl": "Samotny Szczur"
     },
     "weapons": {}
   },
@@ -9958,7 +10073,8 @@
       "th": "หนูดำฉายเดี่ยว",
       "tr": "Yalnız Sıçan",
       "vi": "Chuột Đen Đơn Độc",
-      "zh": "独行黑鼠"
+      "zh": "独行黑鼠",
+      "pl": "Samotny Szczur"
     },
     "weapons": {}
   },
@@ -9978,7 +10094,8 @@
       "th": "หนูดำฉายเดี่ยว",
       "tr": "Yalnız Sıçan",
       "vi": "Chuột Đen Đơn Độc",
-      "zh": "独行黑鼠"
+      "zh": "独行黑鼠",
+      "pl": "Samotny Szczur"
     },
     "weapons": {}
   },
@@ -9998,7 +10115,8 @@
       "th": "หนูดำฉายเดี่ยว",
       "tr": "Yalnız Sıçan",
       "vi": "Chuột Đen Đơn Độc",
-      "zh": "独行黑鼠"
+      "zh": "独行黑鼠",
+      "pl": "Samotny Szczur"
     },
     "weapons": {}
   },
@@ -10018,7 +10136,8 @@
       "th": "หนูดำคู่",
       "tr": "Çift Sıçanlar",
       "vi": "Đôi Chuột Đen",
-      "zh": "成对黑鼠"
+      "zh": "成对黑鼠",
+      "pl": "Sparowane Szczury"
     },
     "weapons": {}
   },
@@ -10038,7 +10157,8 @@
       "th": "หนูดำคู่",
       "tr": "Çift Sıçanlar",
       "vi": "Đôi Chuột Đen",
-      "zh": "成对黑鼠"
+      "zh": "成对黑鼠",
+      "pl": "Sparowane Szczury"
     },
     "weapons": {}
   },
@@ -10058,7 +10178,8 @@
       "th": "หนูดำคู่",
       "tr": "Çift Sıçanlar",
       "vi": "Đôi Chuột Đen",
-      "zh": "成对黑鼠"
+      "zh": "成对黑鼠",
+      "pl": "Sparowane Szczury"
     },
     "weapons": {}
   },
@@ -10078,7 +10199,8 @@
       "th": "หนูดำคู่",
       "tr": "Çift Sıçanlar",
       "vi": "Đôi Chuột Đen",
-      "zh": "成对黑鼠"
+      "zh": "成对黑鼠",
+      "pl": "Sparowane Szczury"
     },
     "weapons": {}
   },
@@ -10098,7 +10220,8 @@
       "th": "หนูดำคู่",
       "tr": "Çift Sıçanlar",
       "vi": "Đôi Chuột Đen",
-      "zh": "成对黑鼠"
+      "zh": "成对黑鼠",
+      "pl": "Sparowane Szczury"
     },
     "weapons": {}
   },
@@ -10118,7 +10241,8 @@
       "th": "หนูดำคู่",
       "tr": "Çift Sıçanlar",
       "vi": "Đôi Chuột Đen",
-      "zh": "成对黑鼠"
+      "zh": "成对黑鼠",
+      "pl": "Sparowane Szczury"
     },
     "weapons": {}
   },
@@ -10138,7 +10262,8 @@
       "th": "หนูดำคู่",
       "tr": "Çift Sıçanlar",
       "vi": "Đôi Chuột Đen",
-      "zh": "成对黑鼠"
+      "zh": "成对黑鼠",
+      "pl": "Sparowane Szczury"
     },
     "weapons": {}
   },
@@ -10158,7 +10283,8 @@
       "th": "หนูดำคู่",
       "tr": "Çift Sıçanlar",
       "vi": "Đôi Chuột Đen",
-      "zh": "成对黑鼠"
+      "zh": "成对黑鼠",
+      "pl": "Sparowane Szczury"
     },
     "weapons": {}
   },
@@ -10178,7 +10304,8 @@
       "th": "หนูดำคู่",
       "tr": "Çift Sıçanlar",
       "vi": "Đôi Chuột Đen",
-      "zh": "成对黑鼠"
+      "zh": "成对黑鼠",
+      "pl": "Sparowane Szczury"
     },
     "weapons": {}
   },
@@ -10197,7 +10324,8 @@
       "nl": "Gekoppelde ratten",
       "th": "หนูดำคู่",
       "tr": "Çift Sıçanlar",
-      "vi": "Đôi Chuột Đen"
+      "vi": "Đôi Chuột Đen",
+      "pl": "Sparowane Szczury"
     },
     "weapons": {}
   },
@@ -10217,7 +10345,8 @@
       "th": "ผีดิบคนตัดไม้",
       "tr": "Vebalı Oduncu",
       "vi": "Zombie thợ đốn gỗ",
-      "zh": "伐木男尸鬼"
+      "zh": "伐木男尸鬼",
+      "pl": "Skażony drwal"
     },
     "weapons": {}
   },
@@ -10237,7 +10366,8 @@
       "th": "ผีดิบคนตัดไม้",
       "tr": "Vebalı Oduncu",
       "vi": "Zombie thợ đốn gỗ",
-      "zh": "伐木男尸鬼"
+      "zh": "伐木男尸鬼",
+      "pl": "Skażony drwal"
     },
     "weapons": {}
   },
@@ -10257,7 +10387,8 @@
       "th": "ผีดิบคนตัดไม้",
       "tr": "Vebalı Oduncu",
       "vi": "Zombie thợ đốn gỗ",
-      "zh": "伐木男尸鬼"
+      "zh": "伐木男尸鬼",
+      "pl": "Skażony drwal"
     },
     "weapons": {}
   },
@@ -10277,7 +10408,8 @@
       "th": "ผีดิบคนตัดไม้",
       "tr": "Vebalı Oduncu",
       "vi": "Zombie thợ đốn gỗ",
-      "zh": "伐木男尸鬼"
+      "zh": "伐木男尸鬼",
+      "pl": "Skażony drwal"
     },
     "weapons": {}
   },
@@ -10297,7 +10429,8 @@
       "th": "ผีดิบคนตัดไม้",
       "tr": "Vebalı Oduncu",
       "vi": "Zombie thợ đốn gỗ",
-      "zh": "伐木男尸鬼"
+      "zh": "伐木男尸鬼",
+      "pl": "Skażony drwal"
     },
     "weapons": {}
   },
@@ -10317,7 +10450,8 @@
       "th": "ผีดิบคนตัดไม้",
       "tr": "Vebalı Oduncu",
       "vi": "Zombie thợ đốn gỗ",
-      "zh": "伐木男尸鬼"
+      "zh": "伐木男尸鬼",
+      "pl": "Skażony drwal"
     },
     "weapons": {}
   },
@@ -10337,7 +10471,8 @@
       "th": "ผีดิบคนตัดไม้",
       "tr": "Vebalı Oduncu",
       "vi": "Zombie thợ đốn gỗ",
-      "zh": "伐木男尸鬼"
+      "zh": "伐木男尸鬼",
+      "pl": "Skażony drwal"
     },
     "weapons": {}
   },
@@ -10357,7 +10492,8 @@
       "th": "แม่ชี",
       "tr": "Rahibe",
       "vi": "Sơ",
-      "zh": "修女"
+      "zh": "修女",
+      "pl": "Zakonnica"
     },
     "weapons": {}
   },
@@ -10377,7 +10513,8 @@
       "th": "แม่ชี",
       "tr": "Rahibe",
       "vi": "Sơ",
-      "zh": "修女"
+      "zh": "修女",
+      "pl": "Zakonnica"
     },
     "weapons": {}
   },
@@ -10397,7 +10534,8 @@
       "th": "แม่ชี",
       "tr": "Rahibe",
       "vi": "Sơ",
-      "zh": "修女"
+      "zh": "修女",
+      "pl": "Zakonnica"
     },
     "weapons": {}
   },
@@ -10417,7 +10555,8 @@
       "th": "แม่ชี",
       "tr": "Rahibe",
       "vi": "Sơ",
-      "zh": "修女"
+      "zh": "修女",
+      "pl": "Zakonnica"
     },
     "weapons": {}
   },
@@ -10437,7 +10576,8 @@
       "th": "แม่ชี",
       "tr": "Rahibe",
       "vi": "Sơ",
-      "zh": "修女"
+      "zh": "修女",
+      "pl": "Zakonnica"
     },
     "weapons": {}
   },
@@ -10457,7 +10597,8 @@
       "th": "แม่ชี",
       "tr": "Rahibe",
       "vi": "Sơ",
-      "zh": "修女"
+      "zh": "修女",
+      "pl": "Zakonnica"
     },
     "weapons": {}
   },
@@ -10477,7 +10618,8 @@
       "th": "แม่ชี",
       "tr": "Rahibe",
       "vi": "Sơ",
-      "zh": "修女"
+      "zh": "修女",
+      "pl": "Zakonnica"
     },
     "weapons": {}
   },
@@ -10497,7 +10639,8 @@
       "th": "หญิงชาวบ้าน",
       "tr": "Kadın",
       "vi": "Phụ nữ",
-      "zh": "妇女"
+      "zh": "妇女",
+      "pl": "Kobieta"
     },
     "weapons": {}
   },
@@ -10517,7 +10660,8 @@
       "th": "หญิงชาวบ้าน",
       "tr": "Kadın",
       "vi": "Phụ nữ",
-      "zh": "妇女"
+      "zh": "妇女",
+      "pl": "Kobieta"
     },
     "weapons": {}
   },
@@ -10537,7 +10681,8 @@
       "th": "หญิงชาวบ้าน",
       "tr": "Kadın",
       "vi": "Phụ nữ",
-      "zh": "妇女"
+      "zh": "妇女",
+      "pl": "Kobieta"
     },
     "weapons": {}
   },
@@ -10557,7 +10702,8 @@
       "th": "หญิงชาวบ้าน",
       "tr": "Kadın",
       "vi": "Phụ nữ",
-      "zh": "妇女"
+      "zh": "妇女",
+      "pl": "Kobieta"
     },
     "weapons": {}
   },
@@ -10577,7 +10723,8 @@
       "th": "หญิงชาวบ้าน",
       "tr": "Kadın",
       "vi": "Phụ nữ",
-      "zh": "妇女"
+      "zh": "妇女",
+      "pl": "Kobieta"
     },
     "weapons": {}
   },
@@ -10597,7 +10744,8 @@
       "th": "หญิงชาวบ้าน",
       "tr": "Kadın",
       "vi": "Phụ nữ",
-      "zh": "妇女"
+      "zh": "妇女",
+      "pl": "Kobieta"
     },
     "weapons": {}
   },
@@ -10617,7 +10765,8 @@
       "th": "หญิงชาวบ้าน",
       "tr": "Kadın",
       "vi": "Phụ nữ",
-      "zh": "妇女"
+      "zh": "妇女",
+      "pl": "Kobieta"
     },
     "weapons": {}
   },
@@ -10637,7 +10786,8 @@
       "th": "ชาวนา",
       "tr": "Çiftçi",
       "vi": "Nông Dân",
-      "zh": "农夫"
+      "zh": "农夫",
+      "pl": "Rolnik"
     },
     "weapons": {}
   },
@@ -10657,7 +10807,8 @@
       "th": "ชาวนา",
       "tr": "Çiftçi",
       "vi": "Nông Dân",
-      "zh": "农夫"
+      "zh": "农夫",
+      "pl": "Rolnik"
     },
     "weapons": {}
   },
@@ -10677,7 +10828,8 @@
       "th": "ชาวนา",
       "tr": "Çiftçi",
       "vi": "Nông Dân",
-      "zh": "农夫"
+      "zh": "农夫",
+      "pl": "Rolnik"
     },
     "weapons": {}
   },
@@ -10697,7 +10849,8 @@
       "th": "ชาวนา",
       "tr": "Çiftçi",
       "vi": "Nông Dân",
-      "zh": "农夫"
+      "zh": "农夫",
+      "pl": "Rolnik"
     },
     "weapons": {}
   },
@@ -10717,7 +10870,8 @@
       "th": "ชาวนา",
       "tr": "Çiftçi",
       "vi": "Nông Dân",
-      "zh": "农夫"
+      "zh": "农夫",
+      "pl": "Rolnik"
     },
     "weapons": {}
   },
@@ -10737,7 +10891,8 @@
       "th": "ชาวนา",
       "tr": "Çiftçi",
       "vi": "Nông Dân",
-      "zh": "农夫"
+      "zh": "农夫",
+      "pl": "Rolnik"
     },
     "weapons": {}
   },
@@ -10757,7 +10912,8 @@
       "th": "ชาวนา",
       "tr": "Çiftçi",
       "vi": "Nông Dân",
-      "zh": "农夫"
+      "zh": "农夫",
+      "pl": "Rolnik"
     },
     "weapons": {}
   },
@@ -10777,7 +10933,8 @@
       "th": "ผีดิบหมอยา",
       "tr": "Vebalı Aktar",
       "vi": "Zombie Nhà Thảo Dược",
-      "zh": "药农尸鬼"
+      "zh": "药农尸鬼",
+      "pl": "Skażony zielarz"
     },
     "weapons": {}
   },
@@ -10797,7 +10954,8 @@
       "th": "ผีดิบหมอยา",
       "tr": "Vebalı Aktar",
       "vi": "Zombie Nhà Thảo Dược",
-      "zh": "药农尸鬼"
+      "zh": "药农尸鬼",
+      "pl": "Skażony zielarz"
     },
     "weapons": {}
   },
@@ -10817,7 +10975,8 @@
       "th": "ผีดิบหมอยา",
       "tr": "Vebalı Aktar",
       "vi": "Zombie Nhà Thảo Dược",
-      "zh": "药农尸鬼"
+      "zh": "药农尸鬼",
+      "pl": "Skażony zielarz"
     },
     "weapons": {}
   },
@@ -10837,7 +10996,8 @@
       "th": "ผีดิบหมอยา",
       "tr": "Vebalı Aktar",
       "vi": "Zombie Nhà Thảo Dược",
-      "zh": "药农尸鬼"
+      "zh": "药农尸鬼",
+      "pl": "Skażony zielarz"
     },
     "weapons": {}
   },
@@ -10857,7 +11017,8 @@
       "th": "ผีดิบหมอยา",
       "tr": "Vebalı Aktar",
       "vi": "Zombie Nhà Thảo Dược",
-      "zh": "药农尸鬼"
+      "zh": "药农尸鬼",
+      "pl": "Skażony zielarz"
     },
     "weapons": {}
   },
@@ -10877,7 +11038,8 @@
       "th": "ผีดิบหมอยา",
       "tr": "Vebalı Aktar",
       "vi": "Zombie Nhà Thảo Dược",
-      "zh": "药农尸鬼"
+      "zh": "药农尸鬼",
+      "pl": "Skażony zielarz"
     },
     "weapons": {}
   },
@@ -10897,7 +11059,8 @@
       "th": "ผีดิบหมอยา",
       "tr": "Vebalı Aktar",
       "vi": "Zombie Nhà Thảo Dược",
-      "zh": "药农尸鬼"
+      "zh": "药农尸鬼",
+      "pl": "Skażony zielarz"
     },
     "weapons": {}
   },
@@ -10917,7 +11080,8 @@
       "th": "สตรี2",
       "tr": "Kadın 2",
       "vi": "Phụ Nữ 2",
-      "zh": "妇女2"
+      "zh": "妇女2",
+      "pl": "Kobieta 2"
     },
     "weapons": {}
   },
@@ -10937,7 +11101,8 @@
       "th": "สตรี2",
       "tr": "Kadın 2",
       "vi": "Phụ Nữ 2",
-      "zh": "妇女2"
+      "zh": "妇女2",
+      "pl": "Kobieta 2"
     },
     "weapons": {}
   },
@@ -10957,7 +11122,8 @@
       "th": "สตรี2",
       "tr": "Kadın 2",
       "vi": "Phụ Nữ 2",
-      "zh": "妇女2"
+      "zh": "妇女2",
+      "pl": "Kobieta 2"
     },
     "weapons": {}
   },
@@ -10977,7 +11143,8 @@
       "th": "สตรี2",
       "tr": "Kadın 2",
       "vi": "Phụ Nữ 2",
-      "zh": "妇女2"
+      "zh": "妇女2",
+      "pl": "Kobieta 2"
     },
     "weapons": {}
   },
@@ -10997,7 +11164,8 @@
       "th": "สตรี2",
       "tr": "Kadın 2",
       "vi": "Phụ Nữ 2",
-      "zh": "妇女2"
+      "zh": "妇女2",
+      "pl": "Kobieta 2"
     },
     "weapons": {}
   },
@@ -11017,7 +11185,8 @@
       "th": "สตรี2",
       "tr": "Kadın 2",
       "vi": "Phụ Nữ 2",
-      "zh": "妇女2"
+      "zh": "妇女2",
+      "pl": "Kobieta 2"
     },
     "weapons": {}
   },
@@ -11037,7 +11206,8 @@
       "th": "สตรี2",
       "tr": "Kadın 2",
       "vi": "Phụ Nữ 2",
-      "zh": "妇女2"
+      "zh": "妇女2",
+      "pl": "Kobieta 2"
     },
     "weapons": {}
   },
@@ -11057,7 +11227,8 @@
       "th": "สุนัขผีดิบกลายพันธุ์",
       "tr": "Mutant Vebalı Tazı",
       "vi": "Chó Zombie Đột Biến",
-      "zh": "变异尸狗"
+      "zh": "变异尸狗",
+      "pl": "Zmutowany skażony ogar"
     },
     "weapons": {}
   },
@@ -11077,7 +11248,8 @@
       "th": "สุนัขผีดิบกลายพันธุ์",
       "tr": "Mutant Vebalı Tazı",
       "vi": "Chó Zombie Đột Biến",
-      "zh": "变异尸狗"
+      "zh": "变异尸狗",
+      "pl": "Zmutowany skażony ogar"
     },
     "weapons": {}
   },
@@ -11097,7 +11269,8 @@
       "th": "สุนัขผีดิบกลายพันธุ์",
       "tr": "Mutant Vebalı Tazı",
       "vi": "Chó Zombie Đột Biến",
-      "zh": "变异尸狗"
+      "zh": "变异尸狗",
+      "pl": "Zmutowany skażony ogar"
     },
     "weapons": {}
   },
@@ -11117,7 +11290,8 @@
       "th": "สุนัขผีดิบกลายพันธุ์",
       "tr": "Mutant Vebalı Tazı",
       "vi": "Chó Zombie Đột Biến",
-      "zh": "变异尸狗"
+      "zh": "变异尸狗",
+      "pl": "Zmutowany skażony ogar"
     },
     "weapons": {}
   },
@@ -11137,7 +11311,8 @@
       "th": "สุนัขผีดิบกลายพันธุ์",
       "tr": "Mutant Vebalı Tazı",
       "vi": "Chó Zombie Đột Biến",
-      "zh": "变异尸狗"
+      "zh": "变异尸狗",
+      "pl": "Zmutowany skażony ogar"
     },
     "weapons": {}
   },
@@ -11157,7 +11332,8 @@
       "th": "ผีดิบชั้นยอด",
       "tr": "Seçkin Vebalı",
       "vi": "Zombie Tinh Anh",
-      "zh": "精英尸鬼"
+      "zh": "精英尸鬼",
+      "pl": "Elitarny skażony"
     },
     "weapons": {}
   },
@@ -11177,7 +11353,8 @@
       "th": "ผีดิบชั้นยอด",
       "tr": "Seçkin Vebalı",
       "vi": "Zombie Tinh Anh",
-      "zh": "精英尸鬼"
+      "zh": "精英尸鬼",
+      "pl": "Elitarny skażony"
     },
     "weapons": {}
   },
@@ -11197,7 +11374,8 @@
       "th": "ผีดิบชั้นยอด",
       "tr": "Seçkin Vebalı",
       "vi": "Zombie Tinh Anh",
-      "zh": "精英尸鬼"
+      "zh": "精英尸鬼",
+      "pl": "Elitarny skażony"
     },
     "weapons": {}
   },
@@ -11217,7 +11395,8 @@
       "th": "ผีดิบชั้นยอด",
       "tr": "Seçkin Vebalı",
       "vi": "Zombie Tinh Anh",
-      "zh": "精英尸鬼"
+      "zh": "精英尸鬼",
+      "pl": "Elitarny skażony"
     },
     "weapons": {}
   },
@@ -11237,7 +11416,8 @@
       "th": "ผีดิบชั้นยอด",
       "tr": "Seçkin Vebalı",
       "vi": "Zombie Tinh Anh",
-      "zh": "精英尸鬼"
+      "zh": "精英尸鬼",
+      "pl": "Elitarny skażony"
     },
     "weapons": {}
   },
@@ -11257,7 +11437,8 @@
       "th": "ผีดิบขุนนาง",
       "tr": "Asil Vebalı",
       "vi": "Zombie Quý Tộc",
-      "zh": "贵族尸鬼"
+      "zh": "贵族尸鬼",
+      "pl": "Szlachetny skażony"
     },
     "weapons": {}
   },
@@ -11277,7 +11458,8 @@
       "th": "ผีดิบขุนนาง",
       "tr": "Asil Vebalı",
       "vi": "Zombie Quý Tộc",
-      "zh": "贵族尸鬼"
+      "zh": "贵族尸鬼",
+      "pl": "Szlachetny skażony"
     },
     "weapons": {}
   },
@@ -11297,7 +11479,8 @@
       "th": "ผีดิบขุนนาง",
       "tr": "Asil Vebalı",
       "vi": "Zombie Quý Tộc",
-      "zh": "贵族尸鬼"
+      "zh": "贵族尸鬼",
+      "pl": "Szlachetny skażony"
     },
     "weapons": {}
   },
@@ -11317,7 +11500,8 @@
       "th": "ผีดิบขุนนาง",
       "tr": "Asil Vebalı",
       "vi": "Zombie Quý Tộc",
-      "zh": "贵族尸鬼"
+      "zh": "贵族尸鬼",
+      "pl": "Szlachetny skażony"
     },
     "weapons": {}
   },
@@ -11337,7 +11521,8 @@
       "th": "ผีดิบขุนนาง",
       "tr": "Asil Vebalı",
       "vi": "Zombie Quý Tộc",
-      "zh": "贵族尸鬼"
+      "zh": "贵族尸鬼",
+      "pl": "Szlachetny skażony"
     },
     "weapons": {}
   },
@@ -11357,7 +11542,8 @@
       "th": "ผีดิบผู้พิทักษ์",
       "tr": "Vebalı Muhafız",
       "vi": "Zombie Hộ Vệ",
-      "zh": "护卫尸鬼"
+      "zh": "护卫尸鬼",
+      "pl": "Skażony Strażnik"
     },
     "weapons": {}
   },
@@ -11377,7 +11563,8 @@
       "th": "ผีดิบผู้พิทักษ์",
       "tr": "Vebalı Muhafız",
       "vi": "Zombie Hộ Vệ",
-      "zh": "护卫尸鬼"
+      "zh": "护卫尸鬼",
+      "pl": "Skażony Strażnik"
     },
     "weapons": {}
   },
@@ -11397,7 +11584,8 @@
       "th": "ผีดิบผู้พิทักษ์",
       "tr": "Vebalı Muhafız",
       "vi": "Zombie Hộ Vệ",
-      "zh": "护卫尸鬼"
+      "zh": "护卫尸鬼",
+      "pl": "Skażony Strażnik"
     },
     "weapons": {}
   },
@@ -11417,7 +11605,8 @@
       "th": "ผีดิบผู้พิทักษ์",
       "tr": "Vebalı Muhafız",
       "vi": "Zombie Hộ Vệ",
-      "zh": "护卫尸鬼"
+      "zh": "护卫尸鬼",
+      "pl": "Skażony Strażnik"
     },
     "weapons": {}
   },
@@ -11437,7 +11626,8 @@
       "th": "ผีดิบผู้พิทักษ์",
       "tr": "Vebalı Muhafız",
       "vi": "Zombie Hộ Vệ",
-      "zh": "护卫尸鬼"
+      "zh": "护卫尸鬼",
+      "pl": "Skażony Strażnik"
     },
     "weapons": {}
   },
@@ -11457,7 +11647,8 @@
       "th": "ผีดิบพเนจร",
       "tr": "Vebalı Gezgin",
       "vi": "Zombie Lang Thang",
-      "zh": "流浪尸鬼"
+      "zh": "流浪尸鬼",
+      "pl": "Wędrująca Plaga"
     },
     "weapons": {}
   },
@@ -11477,7 +11668,8 @@
       "th": "ผีดิบพเนจร",
       "tr": "Vebalı Gezgin",
       "vi": "Zombie Lang Thang",
-      "zh": "流浪尸鬼"
+      "zh": "流浪尸鬼",
+      "pl": "Wędrująca Plaga"
     },
     "weapons": {}
   },
@@ -11497,7 +11689,8 @@
       "th": "ผีดิบพเนจร",
       "tr": "Vebalı Gezgin",
       "vi": "Zombie Lang Thang",
-      "zh": "流浪尸鬼"
+      "zh": "流浪尸鬼",
+      "pl": "Wędrująca Plaga"
     },
     "weapons": {}
   },
@@ -11517,7 +11710,8 @@
       "th": "ผีดิบพเนจร",
       "tr": "Vebalı Gezgin",
       "vi": "Zombie Lang Thang",
-      "zh": "流浪尸鬼"
+      "zh": "流浪尸鬼",
+      "pl": "Wędrująca Plaga"
     },
     "weapons": {}
   },
@@ -11537,7 +11731,8 @@
       "th": "ผีดิบพเนจร",
       "tr": "Vebalı Gezgin",
       "vi": "Zombie Lang Thang",
-      "zh": "流浪尸鬼"
+      "zh": "流浪尸鬼",
+      "pl": "Wędrująca Plaga"
     },
     "weapons": {}
   },
@@ -11557,7 +11752,8 @@
       "th": "ผีดิบบุกรุก",
       "tr": "Vebalı İstilası",
       "vi": "Zombie Tấn Công",
-      "zh": "尸鬼侵袭"
+      "zh": "尸鬼侵袭",
+      "pl": "Inwazja skażonych"
     },
     "weapons": {}
   },
@@ -11577,7 +11773,8 @@
       "th": "ผีดิบบุกรุก",
       "tr": "Vebalı İstilası",
       "vi": "Zombie Tấn Công",
-      "zh": "尸鬼侵袭"
+      "zh": "尸鬼侵袭",
+      "pl": "Inwazja skażonych"
     },
     "weapons": {}
   },
@@ -11597,7 +11794,8 @@
       "th": "ผีดิบบุกรุก",
       "tr": "Vebalı İstilası",
       "vi": "Zombie Tấn Công",
-      "zh": "尸鬼侵袭"
+      "zh": "尸鬼侵袭",
+      "pl": "Inwazja skażonych"
     },
     "weapons": {}
   },
@@ -11617,7 +11815,8 @@
       "th": "ผีดิบบุกรุก",
       "tr": "Vebalı İstilası",
       "vi": "Zombie Tấn Công",
-      "zh": "尸鬼侵袭"
+      "zh": "尸鬼侵袭",
+      "pl": "Inwazja skażonych"
     },
     "weapons": {}
   },
@@ -11637,7 +11836,8 @@
       "th": "ผีดิบบุกรุก",
       "tr": "Vebalı İstilası",
       "vi": "Zombie Tấn Công",
-      "zh": "尸鬼侵袭"
+      "zh": "尸鬼侵袭",
+      "pl": "Inwazja skażonych"
     },
     "weapons": {}
   },
@@ -11657,7 +11857,8 @@
       "th": "พยาบาลนรก",
       "tr": "Cehennem Hemşiresi",
       "vi": "Y Tá Địa Ngục",
-      "zh": "地狱护士"
+      "zh": "地狱护士",
+      "pl": "Piekielna Pielęgniarka"
     },
     "weapons": {}
   },
@@ -11677,7 +11878,8 @@
       "th": "พยาบาลนรก",
       "tr": "Cehennem Hemşiresi",
       "vi": "Y Tá Địa Ngục",
-      "zh": "地狱护士"
+      "zh": "地狱护士",
+      "pl": "Piekielna Pielęgniarka"
     },
     "weapons": {}
   },
@@ -11697,7 +11899,8 @@
       "th": "พยาบาลนรก",
       "tr": "Cehennem Hemşiresi",
       "vi": "Y Tá Địa Ngục",
-      "zh": "地狱护士"
+      "zh": "地狱护士",
+      "pl": "Piekielna Pielęgniarka"
     },
     "weapons": {}
   },
@@ -11717,7 +11920,8 @@
       "th": "พยาบาลนรก",
       "tr": "Cehennem Hemşiresi",
       "vi": "Y Tá Địa Ngục",
-      "zh": "地狱护士"
+      "zh": "地狱护士",
+      "pl": "Piekielna Pielęgniarka"
     },
     "weapons": {}
   },
@@ -11737,7 +11941,8 @@
       "th": "พยาบาลนรก",
       "tr": "Cehennem Hemşiresi",
       "vi": "Y Tá Địa Ngục",
-      "zh": "地狱护士"
+      "zh": "地狱护士",
+      "pl": "Piekielna Pielęgniarka"
     },
     "weapons": {}
   },
@@ -11757,7 +11962,8 @@
       "th": "ผีดิบสาวก",
       "tr": "Veba Müridi",
       "vi": "Zombie Tín Đồ",
-      "zh": "信徒尸鬼"
+      "zh": "信徒尸鬼",
+      "pl": "Uczeń Skażenia"
     },
     "weapons": {}
   },
@@ -11777,7 +11983,8 @@
       "th": "ผีดิบสาวก",
       "tr": "Veba Müridi",
       "vi": "Zombie Tín Đồ",
-      "zh": "信徒尸鬼"
+      "zh": "信徒尸鬼",
+      "pl": "Uczeń Skażenia"
     },
     "weapons": {}
   },
@@ -11797,7 +12004,8 @@
       "th": "ผีดิบสาวก",
       "tr": "Veba Müridi",
       "vi": "Zombie Tín Đồ",
-      "zh": "信徒尸鬼"
+      "zh": "信徒尸鬼",
+      "pl": "Uczeń Skażenia"
     },
     "weapons": {}
   },
@@ -11817,7 +12025,8 @@
       "th": "ผีดิบสาวก",
       "tr": "Veba Müridi",
       "vi": "Zombie Tín Đồ",
-      "zh": "信徒尸鬼"
+      "zh": "信徒尸鬼",
+      "pl": "Uczeń Skażenia"
     },
     "weapons": {}
   },
@@ -11837,7 +12046,8 @@
       "th": "ผีดิบสาวก",
       "tr": "Veba Müridi",
       "vi": "Zombie Tín Đồ",
-      "zh": "信徒尸鬼"
+      "zh": "信徒尸鬼",
+      "pl": "Uczeń Skażenia"
     },
     "weapons": {}
   },
@@ -11857,7 +12067,8 @@
       "th": "ราชาหนูยักษ์",
       "tr": "Fare Kralı",
       "vi": "Vua Chuột Khổng Lồ",
-      "zh": "巨鼠王"
+      "zh": "巨鼠王",
+      "pl": "Szczurzy Król"
     },
     "weapons": {}
   },
@@ -11877,7 +12088,8 @@
       "th": "ราชาหนูยักษ์",
       "tr": "Fare Kralı",
       "vi": "Vua Chuột Khổng Lồ",
-      "zh": "巨鼠王"
+      "zh": "巨鼠王",
+      "pl": "Szczurzy Król"
     },
     "weapons": {}
   },
@@ -11897,7 +12109,8 @@
       "th": "ราชาหนูยักษ์",
       "tr": "Fare Kralı",
       "vi": "Vua Chuột Khổng Lồ",
-      "zh": "巨鼠王"
+      "zh": "巨鼠王",
+      "pl": "Szczurzy Król"
     },
     "weapons": {}
   },
@@ -11917,7 +12130,8 @@
       "th": "ราชาหนูยักษ์",
       "tr": "Fare Kralı",
       "vi": "Vua Chuột Khổng Lồ",
-      "zh": "巨鼠王"
+      "zh": "巨鼠王",
+      "pl": "Szczurzy Król"
     },
     "weapons": {}
   },
@@ -11937,7 +12151,8 @@
       "th": "องครักษ์เขี้ยวหมาป่า",
       "tr": "Diş Muhafızı",
       "vi": "Lang Nha Hộ Vệ",
-      "zh": "狼牙护卫"
+      "zh": "狼牙护卫",
+      "pl": "Kłowa Straż"
     },
     "weapons": {}
   },
@@ -11957,7 +12172,8 @@
       "th": "องครักษ์เขี้ยวหมาป่า",
       "tr": "Diş Muhafızı",
       "vi": "Lang Nha Hộ Vệ",
-      "zh": "狼牙护卫"
+      "zh": "狼牙护卫",
+      "pl": "Kłowa Straż"
     },
     "weapons": {}
   },
@@ -11977,7 +12193,8 @@
       "th": "องครักษ์เขี้ยวหมาป่า",
       "tr": "Diş Muhafızı",
       "vi": "Lang Nha Hộ Vệ",
-      "zh": "狼牙护卫"
+      "zh": "狼牙护卫",
+      "pl": "Kłowa Straż"
     },
     "weapons": {}
   },
@@ -11997,7 +12214,8 @@
       "th": "ผีดิบดูดวิญญาณ",
       "tr": "Ruh Hırsızı Vebalı",
       "vi": "Nhiếp Hồn Zombie",
-      "zh": "摄魂尸鬼"
+      "zh": "摄魂尸鬼",
+      "pl": "Skażony Złodziej Dusz"
     },
     "weapons": {}
   },
@@ -12017,7 +12235,8 @@
       "th": "ผีดิบดูดวิญญาณ",
       "tr": "Ruh Hırsızı Vebalı",
       "vi": "Nhiếp Hồn Zombie",
-      "zh": "摄魂尸鬼"
+      "zh": "摄魂尸鬼",
+      "pl": "Skażony Złodziej Dusz"
     },
     "weapons": {}
   },
@@ -12037,7 +12256,8 @@
       "th": "ผีดิบดูดวิญญาณ",
       "tr": "Ruh Hırsızı Vebalı",
       "vi": "Nhiếp Hồn Zombie",
-      "zh": "摄魂尸鬼"
+      "zh": "摄魂尸鬼",
+      "pl": "Skażony Złodziej Dusz"
     },
     "weapons": {}
   },
@@ -12057,7 +12277,8 @@
       "th": "แพทย์นรก",
       "tr": "Cehennem Doktoru",
       "vi": "Bác Sĩ Địa Ngục",
-      "zh": "地狱医生"
+      "zh": "地狱医生",
+      "pl": "Piekielny lekarz"
     },
     "weapons": {}
   },
@@ -12077,7 +12298,8 @@
       "th": "แพทย์นรก",
       "tr": "Cehennem Doktoru",
       "vi": "Bác Sĩ Địa Ngục",
-      "zh": "地狱医生"
+      "zh": "地狱医生",
+      "pl": "Piekielny lekarz"
     },
     "weapons": {}
   },
@@ -12097,7 +12319,8 @@
       "th": "แพทย์นรก",
       "tr": "Cehennem Doktoru",
       "vi": "Bác Sĩ Địa Ngục",
-      "zh": "地狱医生"
+      "zh": "地狱医生",
+      "pl": "Piekielny lekarz"
     },
     "weapons": {}
   },
@@ -12117,7 +12340,8 @@
       "th": "ภัยพิบัติหนูคลั่ง",
       "tr": "Fare Vebası",
       "vi": "Nạn chuột cuồng",
-      "zh": "狂鼠之灾"
+      "zh": "狂鼠之灾",
+      "pl": "Szczurza Plaga"
     },
     "weapons": {}
   },
@@ -12137,7 +12361,8 @@
       "th": "ภัยพิบัติหนูคลั่ง",
       "tr": "Fare Vebası",
       "vi": "Nạn chuột cuồng",
-      "zh": "狂鼠之灾"
+      "zh": "狂鼠之灾",
+      "pl": "Szczurza Plaga"
     },
     "weapons": {}
   },
@@ -12157,7 +12382,8 @@
       "th": "ภัยพิบัติหนูคลั่ง",
       "tr": "Fare Vebası",
       "vi": "Nạn chuột cuồng",
-      "zh": "狂鼠之灾"
+      "zh": "狂鼠之灾",
+      "pl": "Szczurza Plaga"
     },
     "weapons": {}
   },
@@ -12177,7 +12403,8 @@
       "th": "ดาบใหญ่ภัยพิบัติหนูคลั่ง",
       "tr": "Veba Sıçanı Kılıcı",
       "vi": "Đại đao Nạn chuột cuồng",
-      "zh": "狂鼠之灾大刀"
+      "zh": "狂鼠之灾大刀",
+      "pl": "Wielki Miecz Szczurzej Plagi"
     },
     "weapons": {}
   },
@@ -12197,7 +12424,8 @@
       "th": "ดาบใหญ่ภัยพิบัติหนูคลั่ง",
       "tr": "Veba Sıçanı Kılıcı",
       "vi": "Đại đao Nạn chuột cuồng",
-      "zh": "狂鼠之灾大刀"
+      "zh": "狂鼠之灾大刀",
+      "pl": "Wielki Miecz Szczurzej Plagi"
     },
     "weapons": {}
   },
@@ -12217,7 +12445,8 @@
       "th": "ดาบใหญ่ภัยพิบัติหนูคลั่ง",
       "tr": "Veba Sıçanı Kılıcı",
       "vi": "Đại đao Nạn chuột cuồng",
-      "zh": "狂鼠之灾大刀"
+      "zh": "狂鼠之灾大刀",
+      "pl": "Wielki Miecz Szczurzej Plagi"
     },
     "weapons": {}
   },
@@ -12237,7 +12466,8 @@
       "th": "ดาบใหญ่ภัยพิบัติหนูคลั่ง",
       "tr": "Veba Sıçanı Kılıcı",
       "vi": "Đại đao Nạn chuột cuồng",
-      "zh": "狂鼠之灾大刀"
+      "zh": "狂鼠之灾大刀",
+      "pl": "Wielki Miecz Szczurzej Plagi"
     },
     "weapons": {}
   },
@@ -12257,7 +12487,8 @@
       "th": "ดาบใหญ่ภัยพิบัติหนูคลั่ง",
       "tr": "Veba Sıçanı Kılıcı",
       "vi": "Đại đao Nạn chuột cuồng",
-      "zh": "狂鼠之灾大刀"
+      "zh": "狂鼠之灾大刀",
+      "pl": "Wielki Miecz Szczurzej Plagi"
     },
     "weapons": {}
   },
@@ -12277,7 +12508,8 @@
       "th": "ดาบใหญ่ภัยพิบัติหนูคลั่ง",
       "tr": "Veba Sıçanı Kılıcı",
       "vi": "Đại đao Nạn chuột cuồng",
-      "zh": "狂鼠之灾大刀"
+      "zh": "狂鼠之灾大刀",
+      "pl": "Wielki Miecz Szczurzej Plagi"
     },
     "weapons": {}
   },
@@ -12297,7 +12529,8 @@
       "th": "ดาบใหญ่ภัยพิบัติหนูคลั่ง",
       "tr": "Veba Sıçanı Kılıcı",
       "vi": "Đại đao Nạn chuột cuồng",
-      "zh": "狂鼠之灾大刀"
+      "zh": "狂鼠之灾大刀",
+      "pl": "Wielki Miecz Szczurzej Plagi"
     },
     "weapons": {}
   },
@@ -12317,7 +12550,8 @@
       "th": "ดาบใหญ่ภัยพิบัติหนูคลั่ง",
       "tr": "Veba Sıçanı Kılıcı",
       "vi": "Đại đao Nạn chuột cuồng",
-      "zh": "狂鼠之灾大刀"
+      "zh": "狂鼠之灾大刀",
+      "pl": "Wielki Miecz Szczurzej Plagi"
     },
     "weapons": {}
   },
@@ -12337,7 +12571,8 @@
       "th": "ดาบใหญ่ภัยพิบัติหนูคลั่ง",
       "tr": "Veba Sıçanı Kılıcı",
       "vi": "Đại đao Nạn chuột cuồng",
-      "zh": "狂鼠之灾大刀"
+      "zh": "狂鼠之灾大刀",
+      "pl": "Wielki Miecz Szczurzej Plagi"
     },
     "weapons": {}
   },
@@ -12357,7 +12592,8 @@
       "th": "รถม้าภัยพิบัติหนูคลั่ง",
       "tr": "Veba Sıçanı Arabası",
       "vi": "Xe ngựa Nạn chuột cuồng",
-      "zh": "狂鼠之灾马车"
+      "zh": "狂鼠之灾马车",
+      "pl": "Wóz Szczurzej Plagi"
     },
     "weapons": {}
   },
@@ -12377,7 +12613,8 @@
       "th": "รถม้าภัยพิบัติหนูคลั่ง",
       "tr": "Veba Sıçanı Arabası",
       "vi": "Xe ngựa Nạn chuột cuồng",
-      "zh": "狂鼠之灾马车"
+      "zh": "狂鼠之灾马车",
+      "pl": "Wóz Szczurzej Plagi"
     },
     "weapons": {}
   },
@@ -12397,7 +12634,8 @@
       "th": "รถม้าภัยพิบัติหนูคลั่ง",
       "tr": "Veba Sıçanı Arabası",
       "vi": "Xe ngựa Nạn chuột cuồng",
-      "zh": "狂鼠之灾马车"
+      "zh": "狂鼠之灾马车",
+      "pl": "Wóz Szczurzej Plagi"
     },
     "weapons": {}
   },
@@ -12417,7 +12655,8 @@
       "th": "ราชาผีดิบนักรบ",
       "tr": "Savaşçı Vebalı Kral",
       "vi": "Chiến Binh Zombie Vua",
-      "zh": "战士尸鬼王"
+      "zh": "战士尸鬼王",
+      "pl": "Król Skażonych Wojowników"
     },
     "weapons": {}
   },
@@ -12437,7 +12676,8 @@
       "th": "ราชาผีดิบนักรบ",
       "tr": "Savaşçı Vebalı Kral",
       "vi": "Chiến Binh Zombie Vua",
-      "zh": "战士尸鬼王"
+      "zh": "战士尸鬼王",
+      "pl": "Król Skażonych Wojowników"
     },
     "weapons": {}
   },
@@ -12457,7 +12697,8 @@
       "th": "ราชาผีดิบนักรบ",
       "tr": "Savaşçı Vebalı Kral",
       "vi": "Chiến Binh Zombie Vua",
-      "zh": "战士尸鬼王"
+      "zh": "战士尸鬼王",
+      "pl": "Król Skażonych Wojowników"
     },
     "weapons": {}
   },
@@ -12477,7 +12718,8 @@
       "th": "ราชาผีดิบจอมเวท",
       "tr": "Büyücü Vebalı Kral",
       "vi": "Pháp Sư Zombie Vua",
-      "zh": "术士尸鬼王"
+      "zh": "术士尸鬼王",
+      "pl": "Król Skażonych Czarnoksiężników"
     },
     "weapons": {}
   },
@@ -12497,7 +12739,8 @@
       "th": "ราชาผีดิบจอมเวท",
       "tr": "Büyücü Vebalı Kral",
       "vi": "Pháp Sư Zombie Vua",
-      "zh": "术士尸鬼王"
+      "zh": "术士尸鬼王",
+      "pl": "Król Skażonych Czarnoksiężników"
     },
     "weapons": {}
   },
@@ -12517,7 +12760,8 @@
       "th": "ราชาผีดิบจอมเวท",
       "tr": "Büyücü Vebalı Kral",
       "vi": "Pháp Sư Zombie Vua",
-      "zh": "术士尸鬼王"
+      "zh": "术士尸鬼王",
+      "pl": "Król Skażonych Czarnoksiężników"
     },
     "weapons": {}
   },
@@ -12537,7 +12781,8 @@
       "th": "ราชาผีดิบเรนเจอร์",
       "tr": "Korucu Vebalı Kral",
       "vi": "Du Hiệp Zombie Vua",
-      "zh": "游侠尸鬼王"
+      "zh": "游侠尸鬼王",
+      "pl": "Król Skażonych Łowców"
     },
     "weapons": {}
   },
@@ -12557,7 +12802,8 @@
       "th": "ราชาผีดิบเรนเจอร์",
       "tr": "Korucu Vebalı Kral",
       "vi": "Du Hiệp Zombie Vua",
-      "zh": "游侠尸鬼王"
+      "zh": "游侠尸鬼王",
+      "pl": "Król Skażonych Łowców"
     },
     "weapons": {}
   },
@@ -12577,7 +12823,8 @@
       "th": "ราชาผีดิบเรนเจอร์",
       "tr": "Korucu Vebalı Kral",
       "vi": "Du Hiệp Zombie Vua",
-      "zh": "游侠尸鬼王"
+      "zh": "游侠尸鬼王",
+      "pl": "Król Skażonych Łowców"
     },
     "weapons": {}
   },
@@ -12599,7 +12846,8 @@
       "th": "BOSS-11",
       "tr": "BOSS-11",
       "vi": "BOSS-11",
-      "zh": "BOSS-11"
+      "zh": "BOSS-11",
+      "pl": "BOSS-11"
     },
     "weapons": {}
   },
@@ -12621,7 +12869,8 @@
       "th": "BOSS-11",
       "tr": "BOSS-11",
       "vi": "BOSS-11",
-      "zh": "BOSS-11"
+      "zh": "BOSS-11",
+      "pl": "BOSS-11"
     },
     "weapons": {}
   },
@@ -12643,7 +12892,8 @@
       "th": "BOSS-11",
       "tr": "BOSS-11",
       "vi": "BOSS-11",
-      "zh": "BOSS-11"
+      "zh": "BOSS-11",
+      "pl": "BOSS-11"
     },
     "weapons": {}
   },
@@ -12663,7 +12913,8 @@
       "th": "ผีดิบสังฆราช",
       "tr": "\\",
       "vi": "Zombie Giáo hoàng",
-      "zh": "“教皇”尸鬼"
+      "zh": "“教皇”尸鬼",
+      "pl": "„Papież\\"
     },
     "weapons": {}
   },
@@ -12683,7 +12934,8 @@
       "th": "ผีดิบสังฆราช",
       "tr": "\\",
       "vi": "Zombie Giáo hoàng",
-      "zh": "“教皇”尸鬼"
+      "zh": "“教皇”尸鬼",
+      "pl": "„Papież\\"
     },
     "weapons": {}
   },
@@ -12703,7 +12955,8 @@
       "th": "ผีดิบสังฆราช",
       "tr": "\\",
       "vi": "Zombie Giáo hoàng",
-      "zh": "“教皇”尸鬼"
+      "zh": "“教皇”尸鬼",
+      "pl": "„Papież\\"
     },
     "weapons": {}
   },
@@ -12723,7 +12976,8 @@
       "th": "นักรบขวานยักษ์",
       "tr": "Dev Baltalı Savaşçı",
       "vi": "Chiến binh rìu khổng lồ",
-      "zh": "巨斧战士"
+      "zh": "巨斧战士",
+      "pl": "Gigantyczny Wojownik z Toporem"
     },
     "weapons": {}
   },
@@ -12743,7 +12997,8 @@
       "th": "นักรบขวานยักษ์",
       "tr": "Dev Baltalı Savaşçı",
       "vi": "Chiến binh rìu khổng lồ",
-      "zh": "巨斧战士"
+      "zh": "巨斧战士",
+      "pl": "Gigantyczny Wojownik z Toporem"
     },
     "weapons": {}
   },
@@ -12763,7 +13018,8 @@
       "th": "นักรบขวานยักษ์",
       "tr": "Dev Baltalı Savaşçı",
       "vi": "Chiến binh rìu khổng lồ",
-      "zh": "巨斧战士"
+      "zh": "巨斧战士",
+      "pl": "Gigantyczny Wojownik z Toporem"
     },
     "weapons": {}
   },

@@ -22,7 +22,7 @@ const navItems: { key: any; href: string; num: string }[] = [
   { key: 'nav.patchnotes', href: 'patch-notes', num: '15' },
   { key: 'nav.guides', href: 'guides', num: '16' },
 ];
-const cleanPath = path.replace(/^\/(en|ru|es|pt|fr|de|id|ko|ja|ar|it|ms|nl|th|tr|vi|zh)(?=\/|$)\/?/, '/') || '/';
+const cleanPath = path.replace(/^\/(en|ru|es|pt|fr|de|id|ko|ja|ar|it|ms|nl|th|tr|vi|zh|pl|zh-tw)(?=\/|$)\/?/, '/') || '/';
 const is404 = cleanPath === '/404/' || cleanPath.startsWith('/404');
 const isAdmin = cleanPath.startsWith('/admin/');
 const langHrefs = (langs ?? languages).map((l) => ({

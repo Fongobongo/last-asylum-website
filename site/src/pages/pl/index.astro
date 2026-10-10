@@ -1,0 +1,38 @@
+---
+import Home from '../../components/Home.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'pl';
+
+const sections = [
+  { href: '/pl/beginners/', icon: '🌱', title: 'Poradnik dla początkujących', key: 'home.sections.beginners.desc', color: 'from-emerald-900/30' },
+  { href: '/pl/tips/', icon: '🧠', title: 'Pro porady i sekrety', key: 'home.sections.tips.desc', color: 'from-fuchsia-900/30' },
+  { href: '/pl/buildings/', icon: '🏗️', title: 'Budynki', key: 'home.sections.buildings.desc', color: 'from-amber-900/30' },
+  { href: '/pl/heroes/', icon: '🦸', title: 'Bohaterowie', key: 'home.sections.heroes.desc', color: 'from-red-900/30' },
+  { href: '/pl/economy/', icon: '💎', title: 'Ekonomia', key: 'home.sections.economy.desc', color: 'from-yellow-900/30' },
+  { href: '/pl/raven/', icon: '🐦', title: 'Raven i Epigrafy', key: 'home.sections.raven.desc', color: 'from-violet-900/30' },
+  { href: '/pl/era/', icon: '🌅', title: 'Era Odrodzenia', key: 'home.sections.era.desc', color: 'from-lime-900/30' },
+  { href: '/pl/codes/', icon: '🎁', title: 'Kody podarunkowe', key: 'home.sections.codes.desc', color: 'from-cyan-900/30' },
+  { href: '/pl/patch-notes/', icon: '📝', title: 'Informacje o aktualizacji', key: 'home.sections.patchnotes.desc', color: 'from-stone-700/30' },
+  { href: '/pl/calendar/', icon: '📅', title: 'Kalendarz wydarzeń', key: 'home.sections.calendar.desc', color: 'from-indigo-900/30' },
+  { href: '/pl/tier-list/', icon: '🏆', title: 'Lista rankingowa (Tier List)', key: 'home.sections.tierlist.desc', color: 'from-rose-900/30' },
+  { href: '/pl/codex/', icon: '📖', title: 'Kodeks bohaterów', key: 'home.sections.codex.desc', color: 'from-sky-900/30' },
+];
+
+const popular = [
+  { href: '/pl/might/', title: 'Formuła potęgi i strategia rozwoju', desc: 'Oficjalny poradnik z Discord: farmienie antytoksyn, awans sprzętu na 60 poziom i rzeczywista siła bojowa.' },
+  { href: '/pl/alliance/', title: 'Przewodnik po systemie sojuszy', desc: 'Formuły pomocy sojuszu, darowizny na technologię, przywilej prezentów 25 poziomu oraz role oficerów R4/R5.' },
+  { href: '/pl/events/supreme-duel/', title: 'Przewodnik po wydarzeniu Supreme Duel', desc: 'Turniej 16 stref: 3 oddziały, system best-of-3, zero strat, monety do obstawiania i nagrody dla mistrzów.' },
+  { href: '/pl/tips/', title: 'Pro porady i ukryte mechaniki', desc: 'Snap-shotting wzmocnień, Ghost Rally, przepełnienie szpitala i sekretne zasady resetu.' },
+  { href: '/pl/beginners/', title: 'Twoje pierwsze 24 godziny', desc: 'Lista zadań na pierwszy dzień, która decyduje o całym twoim koncie.' },
+  { href: '/pl/economy/', title: 'Diamenty i priorytety w sklepie', desc: 'Dokładna kolejność zakupów w każdym sklepie oraz przedmioty, których nigdy nie należy kupować.' },
+  { href: '/pl/heroes/', title: 'Oddział F2P', desc: 'Arthur, Daskal, Marlena, Harper, Claire — kanoniczna ścieżka rozwoju.' },
+  { href: '/pl/events/undead/', title: 'Undead Siege', desc: 'Ukryta mechanika fal 2 oddziałów, która eliminuje 9,5 mln graczy.' },
+  { href: '/pl/events/alliance-duel/', title: 'Alliance Duel', desc: 'Zachowaj zwoje na fazę 3, odłamki na fazę 4, a przyspieszacze na fazę 5.' },
+  { href: '/pl/events/dwarven-mine/', title: 'Dwarven Mine', desc: 'Zasada gromadzenia 750 kilofów i schemat MR na 100. piętrze.' },
+  { href: '/pl/events/pandemic-experience/', title: 'Pandemic Experience', desc: 'Drabina trudności 1–9, odblokowania sojuszu i trik z rajdem słabym bohaterem.' },
+  { href: '/pl/events/crystal-cluster/', title: 'Crystal Cluster Valley', desc: 'Czerwone moby za 1,5 tys. pkt, kopalnie za 5 tys./min — F2P wygrywa z płacącymi dzięki dyscyplinie.' },
+];
+---
+
+<Home lang={lang} path="/pl/" sections={sections} popular={popular} />

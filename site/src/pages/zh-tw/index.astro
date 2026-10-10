@@ -1,0 +1,38 @@
+---
+import Home from '../../components/Home.astro';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'zh-tw';
+
+const sections = [
+  { href: '/zh-tw/beginners/', icon: '🌱', title: '新手指南', key: 'home.sections.beginners.desc', color: 'from-emerald-900/30' },
+  { href: '/zh-tw/tips/', icon: '🧠', title: '進階技巧與祕籍', key: 'home.sections.tips.desc', color: 'from-fuchsia-900/30' },
+  { href: '/zh-tw/buildings/', icon: '🏗️', title: '建築', key: 'home.sections.buildings.desc', color: 'from-amber-900/30' },
+  { href: '/zh-tw/heroes/', icon: '🦸', title: '英雄', key: 'home.sections.heroes.desc', color: 'from-red-900/30' },
+  { href: '/zh-tw/economy/', icon: '💎', title: '經濟', key: 'home.sections.economy.desc', color: 'from-yellow-900/30' },
+  { href: '/zh-tw/raven/', icon: '🐦', title: '渡鴉與銘文', key: 'home.sections.raven.desc', color: 'from-violet-900/30' },
+  { href: '/zh-tw/era/', icon: '🌅', title: '復興時代', key: 'home.sections.era.desc', color: 'from-lime-900/30' },
+  { href: '/zh-tw/codes/', icon: '🎁', title: '禮包碼', key: 'home.sections.codes.desc', color: 'from-cyan-900/30' },
+  { href: '/zh-tw/patch-notes/', icon: '📝', title: '更新日誌', key: 'home.sections.patchnotes.desc', color: 'from-stone-700/30' },
+  { href: '/zh-tw/calendar/', icon: '📅', title: '活動日曆', key: 'home.sections.calendar.desc', color: 'from-indigo-900/30' },
+  { href: '/zh-tw/tier-list/', icon: '🏆', title: '強度榜', key: 'home.sections.tierlist.desc', color: 'from-rose-900/30' },
+  { href: '/zh-tw/codex/', icon: '📖', title: '英雄圖鑑', key: 'home.sections.codex.desc', color: 'from-sky-900/30' },
+];
+
+const popular = [
+  { href: '/zh-tw/might/', title: '戰力公式與成長策略', desc: '官方 Discord 指南：抗毒素刷取、60級裝備進階及真實戰力解析。' },
+  { href: '/zh-tw/alliance/', title: '聯盟系統指南', desc: '聯盟幫助公式、科技捐獻、25級禮包特權及 R4/R5 官員職責。' },
+  { href: '/zh-tw/events/supreme-duel/', title: '巔峯對決活動指南', desc: '16戰區錦標賽：3隊三局兩勝制、零傷亡、預測幣及冠軍獎勵。' },
+  { href: '/zh-tw/tips/', title: '進階技巧與隱藏機制', desc: 'Buff快照、幽靈集結、醫院溢出及隱藏重置規則。' },
+  { href: '/zh-tw/beginners/', title: '你的第一個24小時', desc: '決定你整個賬號發展的首日清單。' },
+  { href: '/zh-tw/economy/', title: '鑽石與商店優先級', desc: '各商店的精確購買順序，以及絕對不要買的東西。' },
+  { href: '/zh-tw/heroes/', title: 'F2P 平民陣容', desc: 'Arthur, Daskal, Marlena, Harper, Claire —— 經典養成路線。' },
+  { href: '/zh-tw/events/undead/', title: '不死族圍城', desc: '導致950萬玩家失敗的隱藏2隊波次機制。' },
+  { href: '/zh-tw/events/alliance-duel/', title: '聯盟對決', desc: '第三階段存卷軸，第四階段存碎片，第五階段存加速。' },
+  { href: '/zh-tw/events/dwarven-mine/', title: '矮人礦坑', desc: '750個十字鎬囤積規則及100層的 MR 藍圖。' },
+  { href: '/zh-tw/events/pandemic-experience/', title: '瘟疫體驗', desc: '難度階梯1-9、聯盟解鎖及弱勢英雄集結技巧。' },
+  { href: '/zh-tw/events/crystal-cluster/', title: '水晶簇山谷', desc: '紅色怪物1.5K積分，礦點5K/分鐘 —— F2P 靠紀律超越氪金大佬。' },
+];
+---
+
+<Home lang={lang} path="/zh-tw/" sections={sections} popular={popular} />

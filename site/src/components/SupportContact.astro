@@ -91,6 +91,15 @@ const STR: Record<string, Record<string, string>> = {
     guidesDesc: '汇集全部 60+ 篇指南',
     guidesBtn: '浏览指南 →',
   },
+  'zh-tw': {
+    title: '需要幫助？聯繫我們',
+    subtitle: '漏洞反饋、鏈接失效、指南疑問 — 請通過 Discord 或電子郵件聯繫我們。',
+    discordDesc: '快速提問與指南討論',
+    discordBtn: '打開 Discord ↗',
+    emailDesc: '漏洞、DMCA、商務合作',
+    guidesDesc: '彙集全部 60+ 篇指南',
+    guidesBtn: '瀏覽指南 →',
+  },
 };
 const s = (ru: string, en: string, k: string) =>
   lang === 'ru' ? ru : ((STR as any)[lang]?.[k] ?? en);

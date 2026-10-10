@@ -1,0 +1,25 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import InfographicGallery from '../../components/InfographicGallery.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'pl';
+---
+
+<Base lang={lang} path="/pl/infographics/" title="Infografiki i wizualne ściągi" description="Wszystkie infografiki społeczności, plakaty taktyczne i wizualne ściągi do Last Asylum: Plague.">
+  <GuidePage
+    title="📊 Infografiki i plakaty taktyczne"
+    description="Wizualne ściągi w wysokiej rozdzielczości, schematy bitewne i obliczenia ulepszeń opracowane przez najlepszych strategów społeczności."
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/' }, { label: 'Infografiki' }]}
+  >
+    <p>Przeglądaj, filtruj i powiększaj każdy schemat taktyczny dla Last Asylum: Plague. Kliknij dowolny obraz, aby otworzyć widok w pełnej rozdzielczości z opcjami powiększania i pobierania.</p>
+
+    <InfographicGallery lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

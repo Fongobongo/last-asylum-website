@@ -1,0 +1,15 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import PatchNotes from '../../components/PatchNotes.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'zh-tw';
+---
+
+<Base lang={lang} path="/zh-tw/patch-notes/" title="更新日誌" description="《Last Asylum: Plague》歷次服務器維護與更新彙總——按最新時間排序。">
+  <GuidePage title={`📜 ${t(lang, 'patchnotes.title')}`} description={t(lang, 'patchnotes.desc')} lang={lang}>
+    <PatchNotes />
+  </GuidePage>
+</Base>

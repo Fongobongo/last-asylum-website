@@ -1,0 +1,25 @@
+---
+import Base from '../../layouts/Base.astro';
+import GuidePage from '../../components/GuidePage.astro';
+import InfographicGallery from '../../components/InfographicGallery.astro';
+import DiscordBanner from '../../components/DiscordBanner.astro';
+import { t } from '../../i18n/ui';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'zh-tw';
+---
+
+<Base lang={lang} path="/zh-tw/infographics/" title="信息圖與視覺速查表" description="《Last Asylum: Plague》的所有社區信息圖、戰術海報及視覺速查表。">
+  <GuidePage
+    title="📊 信息圖與戰術海報"
+    description="由頂級社區戰略家整理的高分辨率視覺速查表、戰鬥圖解和升級計算。"
+    lang={lang}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/' }, { label: '信息圖' }]}
+  >
+    <p>瀏覽、篩選並放大《Last Asylum: Plague》的每一張戰術圖解。點擊任意圖片即可打開全分辨率視圖，支持縮放和下載。</p>
+
+    <InfographicGallery lang={lang} />
+
+    <DiscordBanner lang={lang} />
+  </GuidePage>
+</Base>

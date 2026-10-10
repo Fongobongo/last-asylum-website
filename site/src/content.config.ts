@@ -6,7 +6,7 @@ const guides = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string().optional(),
-    lang: z.enum(['en', 'ru', 'es', 'pt', 'fr', 'de', 'id', 'ko', 'ja', 'ar', 'it', 'ms', 'nl', 'th', 'tr', 'vi', 'zh']),
+    lang: z.enum(['en', 'ru', 'es', 'pt', 'fr', 'de', 'id', 'ko', 'ja', 'ar', 'it', 'ms', 'nl', 'th', 'tr', 'vi', 'zh', 'pl', 'zh-tw']),
     slug: z.string().optional(), // for events: the URL slug
     type: z.enum(['guide', 'event']).default('guide'),
     videoTopic: z.string().optional(),

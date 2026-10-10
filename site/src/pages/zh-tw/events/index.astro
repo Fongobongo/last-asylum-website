@@ -1,0 +1,47 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
+
+const lang: Lang = 'zh-tw';
+const events = [
+  { slug: 'alliance-duel', name: '聯盟對決', icon: '⚔️', desc: '爲期六天的聯盟競賽，包含每日積分類別、精確積分數值以及“囤積一切”的資源管理經濟學。' },
+  { slug: 'elixir', name: '藥劑爭奪戰', icon: '🧪', desc: '30分鐘的AvA積分戰場，勝負取決於控制而非擊殺——涵蓋治療帳篷、城堡優先級及傳送規則。' },
+  { slug: 'kvk', name: '王國戰爭 (KvK)', icon: '🏰', desc: '爭奪王城的服務器對戰：優先攻擊炮塔、防守拖延戰術以及真實的部隊損耗風險。' },
+  { slug: 'undead', name: '亡靈圍城', icon: '🧟', desc: '抵禦感染者浪潮的聯盟防守戰——包含隱藏的多隊機制、持續的HP設定及獎勵里程碑。' },
+  { slug: 'cheese', name: '奶酪陷阱', icon: '🧀', desc: '聯盟集結挑戰巨鼠：五個階段的個人獎勵、共享的聯盟HP池以及等級縮放計算。' },
+  { slug: 'thief', name: '盜賊狩獵', icon: '💰', desc: '消耗體力召喚盜賊首領——涵蓋召喚機制、不間斷擊殺技巧及兌換優先級。' },
+  { slug: 'survival', name: '生存之戰', icon: '🛡️', desc: '每週任務活動，價值約60,000個免費技能徽章——低成本完成技巧及與聯盟對決的重疊策略。' },
+  { slug: 'canyon', name: '峽谷征服', icon: '🏜️', desc: '三路接力戰鬥，持久力勝過戰力——零風險活動中的分路優先級策略。' },
+  { slug: 'mythic', name: '神話寶藏', icon: '🗺️', desc: '爲F2P玩家解析七標籤海盜活動：市場優先級、300條魚的上限及埋藏寶藏玩法。' },
+  { slug: 'royal', name: '王城爭奪戰', icon: '👑', desc: '每週城堡爭奪競賽——每位玩家限一次行軍、30個增援槽位及完整的王城頭銜系統。' },
+  { slug: 'arena', name: '三角競技場', icon: '🔺', desc: '三套陣容，進攻方選二以剋制對手——均衡防守、犧牲對位及競技場命運陷阱陣容。' },
+  { slug: 'wagon', name: '公會貨車與商隊', icon: '🚚', desc: '每日免費貨車運行、守衛寶箱規則、黃金貨車刷新及商隊UR碎片獲取。' },
+  { slug: 'supreme-healer', name: '至高治療者', icon: '🩺', desc: '7天競爭性評分日程，每日資源管理、體力囤積及抗毒素使用時機。' },
+  { slug: 'strike-first', name: '先發制人', icon: '⚡', desc: '新服衝刺活動——避難所里程碑、清除枯萎、軍事動員及早期鑽石獲取。' },
+  { slug: 'final-dawn', name: '最終黎明', icon: '🌅', desc: '7天基地發展衝刺——四個階段（從基礎到最終衝刺）、優先級隊列及加速使用時機。' },
+  { slug: 'path-to-healing', name: '治癒之路', icon: '🕊️', desc: '5天新手任務軌道——每日任務、強制VIP 5解鎖規則及獲取15個UR Arthur碎片。' },
+  { slug: 'supreme-duel', name: '至高對決', icon: '🏆', desc: '跨戰區錦標賽模式——16個戰區、3隊制三局兩勝虛擬戰鬥、預測幣商店及冠軍頭銜。' },
+  { slug: 'quiz-of-wisdom', name: '智慧問答', icon: '🧠', desc: '包含15/15問答速查表的答題活動：涵蓋機制、建築、陣營、VIP及背景故事的即時答案查詢。' },
+  { slug: 'demon-king', name: '魔王降臨', icon: '👹', desc: '雙週世界BOSS（週二及週五）——法師弱點、每日10次攻擊及30秒行軍召回技巧。' },
+  { slug: 'secret-operations', name: '祕密行動中心', icon: '🕵️', desc: '每日祕密任務：重置概率（UR 8%, SSR 24%）、第16個寶箱保底機制及7碎片藏寶圖。' },
+  { slug: 'dwarven-mine', name: '矮人礦坑', icon: '⛏️', desc: '7天挖礦活動：750個鎬頭囤積規則、草藥與齒輪石獎勵對比，以及100層的MR藍圖。' },
+  { slug: 'pandemic-experience', name: '大流行體驗', icon: '🧪', desc: '雙週難度階梯1–9、聯盟BOSS解鎖（40次通關）及弱勢英雄集結技巧。' },
+  { slug: 'crystal-cluster', name: '水晶簇山谷', icon: '🔮', desc: '限時地圖亂鬥：擊殺紅色怪物獲取1.5K積分/只，佔領水晶礦獲取5K/分鐘，以及秒錶計時技巧。' },
+];
+---
+<Base lang={lang} path="/zh-tw/events/" title="活動攻略" description="《Last Asylum: Plague》各項活動的詳細解析：時間表、積分規則、策略及避坑指南。">
+  <section class="py-12">
+    <h1 class="mb-3 text-4xl font-bold text-plague-100">活動攻略</h1>
+    <p class="mb-10 text-lg text-stone-400">《Last Asylum: Plague》各項活動的詳細解析：時間表、積分規則、策略及避坑指南。</p>
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {events.map(e => (
+        <a href={`/zh-tw/events/${e.slug}/`} class="group rounded-lg border border-stone-800 bg-stone-900 p-5 transition-colors hover:border-plague-600">
+          <span class="text-3xl">{e.icon}</span>
+          <h2 class="mt-3 text-lg font-bold text-plague-200 group-hover:text-plague-100">{e.name}</h2>
+          <p class="mt-2 text-sm text-stone-400">{e.desc}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</Base>

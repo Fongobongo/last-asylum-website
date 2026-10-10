@@ -1,0 +1,11 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SquadBuilder from '../../../components/SquadBuilder.astro';
+import HeroIndex from '../../../components/HeroIndex.astro';
+import type { Lang } from '../../../i18n/utils';
+const lang: Lang = 'zh-tw';
+---
+<Base lang={lang} path="/zh-tw/heroes/" title="指南圖集：英雄" description="英雄指南：技能、養成、升級、碎片獲取途徑。">
+  <HeroIndex lang={lang} />
+  <SquadBuilder lang={lang} />
+</Base>
