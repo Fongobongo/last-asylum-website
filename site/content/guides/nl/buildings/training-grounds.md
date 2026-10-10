@@ -1,18 +1,18 @@
 ---
-title: "Training Grounds: levels, kosten en verbeteringen"
-description: "In de Training Grounds worden soldaten getraind en het niveau ontgrendelt de troepentiers: T4 op niveau 10, T7 op 20, T10 op 30. De laatste tier vereist meer dan niveau 30, aangezien ook de technologie Soldier Lv.10 nodig is..."
+title: "Oefenterrein: levels, kosten en verbeteringen"
+description: "In de Oefenterrein worden soldaten getraind en het niveau ontgrendelt de troepentiers: T4 op niveau 10, T7 op 20, T10 op 30. De laatste tier vereist meer dan niveau 30, aangezien ook de technologie Soldier Lv.10 nodig is..."
 videoTopic: "buildings"
 lang: nl
 updated: "2026-09-19"
 type: guide
 ---
-![Training Grounds](/building-icons/1020.png)
+![Oefenterrein](/building-icons/1020.png)
 
 
 > Gegevens geverifieerd in de gameclient (v1.0.87, bron: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-training-grounds)).
 
 
-In de Training Grounds worden soldaten getraind en het niveau ontgrendelt de troepentiers: T4 op niveau 10, T7 op 20, T10 op 30. De laatste tier vereist meer dan niveau 30, aangezien ook de technologie Soldier Lv.10 nodig is. Het gebouw wordt ontgrendeld na Heiligdom (Sanctuary) niveau 6 en kan tot niveau 30 worden opgewaardeerd. Er kunnen er maximaal 3 worden gebouwd. Niveaus verhogen: trainingscapaciteit en soldaat-trainingsniveau.
+In de Oefenterrein worden soldaten getraind en het niveau ontgrendelt de troepentiers: T4 op niveau 10, T7 op 20, T10 op 30. De laatste tier vereist meer dan niveau 30, aangezien ook de technologie Soldier Lv.10 nodig is. Het gebouw wordt ontgrendeld na Heiligdom (Sanctuary) niveau 6 en kan tot niveau 30 worden opgewaardeerd. Er kunnen er maximaal 3 worden gebouwd. Niveaus verhogen: trainingscapaciteit en soldaat-trainingsniveau.
 
 | Statistiek | Waarde |
 |---|---|
@@ -41,10 +41,10 @@ Het gebouw van niveau 1 naar 30 brengen kost Graan (Grain) 2.516.087.037, Hout (
 
 ## Hoe te gebruiken
 
-Het niveau van de Training Grounds ontgrendelt de troepentiers, en de stappen zijn ongelijkmatig. T4 verschijnt op niveau 10, wat neerkomt op 12 uur aan pure bouwtijd, T7 op niveau 20 na 13 dagen en 6 uur, en T10 op niveau 30 na 299 dagen en 4 uur. Bovendien vereist de laatste tier meer dan alleen het gebouw: het onderzoeksknooppunt Soldier Lv.10 kost 973.834.000 grondstoffen.
+Het niveau van de Oefenterrein ontgrendelt de troepentiers, en de stappen zijn ongelijkmatig. T4 verschijnt op niveau 10, wat neerkomt op 12 uur aan pure bouwtijd, T7 op niveau 20 na 13 dagen en 6 uur, en T10 op niveau 30 na 299 dagen en 4 uur. Bovendien vereist de laatste tier meer dan alleen het gebouw: het onderzoeksknooppunt Soldier Lv.10 kost 973.834.000 grondstoffen.
 
 De trainingscapaciteit groeit gelijkmatiger: 33 op het eerste niveau, dan 475 op niveau 20 en 573 op niveau 30. De laatste tien niveaus voegen 98 plaatsen toe en kosten 286 dagen, terwijl de eerste twintig 475 plaatsen opleveren in veertien dagen. De eerste tien kosten 2.387.374 grondstoffen: een halve dag bouwen levert al T4 en 371 plaatsen op.
 
-Er kunnen drie Training Grounds worden geplaatst en drie volledige upgrades kosten 897 dagen. De Barracks van dezelfde Heiligdom (Sanctuary) niveau 6 vereist 199 dagen, de Scout Squad 299. De gebruikelijke volgorde plaatst eerst drie Barracks op niveau 20 voor de troepencapaciteit, en daarna de Training Grounds voor de tiers, omdat een tier verandert hoe sterk een soldaat is, terwijl capaciteit alleen verandert hoeveel er kunnen zijn.
+Er kunnen drie Oefenterrein worden geplaatst en drie volledige upgrades kosten 897 dagen. De Kazerne van dezelfde Heiligdom (Sanctuary) niveau 6 vereist 199 dagen, de Verkennings\nteam 299. De gebruikelijke volgorde plaatst eerst drie Kazerne op niveau 20 voor de troepencapaciteit, en daarna de Oefenterrein voor de tiers, omdat een tier verandert hoe sterk een soldaat is, terwijl capaciteit alleen verandert hoeveel er kunnen zijn.
 
-Qua Macht (Might) leidt de Training Grounds binnen zijn niveau: 280.200 tegenover 229.600 voor de Barracks en 182.000 voor de Scout Squad. Het kost 6.085.820.074 grondstoffen per exemplaar, en bijna al dat werk zit in de laatste vijf niveaus.
+Qua Macht (Might) leidt de Oefenterrein binnen zijn niveau: 280.200 tegenover 229.600 voor de Kazerne en 182.000 voor de Verkennings\nteam. Het kost 6.085.820.074 grondstoffen per exemplaar, en bijna al dat werk zit in de laatste vijf niveaus.

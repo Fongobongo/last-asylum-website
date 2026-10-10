@@ -6,7 +6,7 @@ lang: tr
 updated: "2026-09-19"
 type: guide
 ---
-![Scout Squad](/building-icons/5033.png)
+![Keşif Birliği](/building-icons/5033.png)
 
 
 > Veriler oyun istemcisi üzerinden doğrulanmıştır (v1.0.87, kaynak: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-scout-squad)).
@@ -43,8 +43,8 @@ Binayı 1. seviyeden 30. seviyeye çıkarmak 1.274.715.571 Tahıl, 1.274.715.571
 
 Keşif Birliği, keşif birliklerine hareket hızından başka bir şey eklemez ve kazanç eşittir: 1. seviyede %1, 10. seviyede %10, 20. seviyede %20, 30. seviyede %30. 10. seviyeye 11 saat 33 dakikalık saf inşa süresinde, 20. seviyeye 13 gün 5 saatte ulaşılır ve son on yüzde puanı 286 güne mal olur.
 
-Kaynaklar açısından, Sığınak 6. seviyedeki uzun binalar arasında en hafif olanıdır: Eğitim Alanları (Training Grounds) için gereken 6.085.820.074'e karşılık 2.754.731.982. Ot (Herb) cinsinden fark en genişidir; 1.053.646.000'e karşılık 205.300.840 ile yaklaşık beşte biri kadardır. Ancak inşa süresi her ikisi için de aynı 299 gündür ve bu, kuyruktaki her üç Keşif Birliği için de geçerlidir.
+Kaynaklar açısından, Sığınak 6. seviyedeki uzun binalar arasında en hafif olanıdır: Eğitim Alanları (Eğitim Alanı) için gereken 6.085.820.074'e karşılık 2.754.731.982. Ot (Herb) cinsinden fark en genişidir; 1.053.646.000'e karşılık 205.300.840 ile yaklaşık beşte biri kadardır. Ancak inşa süresi her ikisi için de aynı 299 gündür ve bu, kuyruktaki her üç Keşif Birliği için de geçerlidir.
 
-Birlik, komşularına göre en az Güç (Might) getirisini sağlar: Kışla (Barracks) için 229.600 ve Eğitim Alanları (Training Grounds) için 280.200'e karşılık 30. seviyede 182.000. Ne Birlik Kapasitesi (Troop Capacity) ne de birlik kademeleri sağlar, bu nedenle 6. seviye kuyruğunda son sırada yer alır.
+Birlik, komşularına göre en az Güç (Might) getirisini sağlar: Kışla (Kışla) için 229.600 ve Eğitim Alanları (Eğitim Alanı) için 280.200'e karşılık 30. seviyede 182.000. Ne Birlik Kapasitesi (Troop Capacity) ne de birlik kademeleri sağlar, bu nedenle 6. seviye kuyruğunda son sırada yer alır.
 
 Mantıklı durma noktası burada komşularına göre daha düşüktür. 10. seviye, tüm kazancın üçte birini yarım günde ve 1.169.362 kaynak karşılığında sunar; 20. seviye, üçte ikisini iki haftada ve 94.165.982 kaynak karşılığında verir ve Keşif Birliği 30. seviyeye şehrin geri kalanıyla birlikte ulaşır: keşif hızından ziyade 182.000 Güç (Might) için.

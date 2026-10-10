@@ -35,7 +35,7 @@ Ash là một xạ thủ SSR đóng vai trò là tướng Gây Sát Thương (DP
 
 Vai trò: Một xạ thủ gây sát thương (DPS) hỗ trợ cho đồng đội cùng loại, vì nội tại Tập Trung bổ sung 33% sát thương quái vật cho hai xạ thủ ở mốc 50 sao. Ở mức không có sao và chưa nâng cấp kỹ năng, tiền thưởng này là 12,3%, và nó áp dụng cho hai xạ thủ có chỉ số tấn công cao nhất trong đội hình, vì vậy Ash phát huy tối đa hiệu quả trong đội hình thuần xạ thủ. Đòn đánh của riêng cô, Săn Linh Hồn Đại Bàng, gây 2.798,4% sát thương ATK lên một mục tiêu duy nhất.
 
-Đầu tư đáng giá: Ash xếp thứ chín trong số mười sáu tướng DPS tính theo Sức Mạnh tối đa (685.873) và nằm ở bậc B. Cô ấy thuộc về đội hình xạ thủ tốt nhất có thể xây dựng mà không cần tướng UR, vì vậy việc đầu tư từ giai đoạn đầu mang lại hiệu quả cao, và một khi Cynthia hoặc Red Lady xuất hiện, vị trí trong top 5 sẽ được nhường lại cho họ.
+Đầu tư đáng giá: Ash xếp thứ chín trong số mười sáu tướng DPS tính theo Sức Mạnh tối đa (685.873) và nằm ở bậc B. Cô ấy thuộc về đội hình xạ thủ tốt nhất có thể xây dựng mà không cần tướng UR, vì vậy việc đầu tư từ giai đoạn đầu mang lại hiệu quả cao, và một khi Xynthia hoặc Bà Đỏ xuất hiện, vị trí trong top 5 sẽ được nhường lại cho họ.
 
 ## Kỹ năng
 
@@ -153,12 +153,12 @@ Mười hai tướng mạnh nhất trong vai trò tính theo Sức Mạnh. Hệ 
 
 | Tướng | Phe phái | Độ hiếm | Sức mạnh tối đa | Tăng trưởng HP | Tăng trưởng ATK | Tăng trưởng DEF |
 |---|---|---|---|---|---|---|
-| Zoya | Chiến Binh | UR | 918.563 | 0,55 | 1,57 | 0,89 |
+| Trác Nhã | Chiến Binh | UR | 918.563 | 0,55 | 1,57 | 0,89 |
 | Annie | Pháp Sư | UR | 916.394 | 0,57 | 1,52 | 0,9 |
-| Cynthia | Xạ Thủ | UR | 916.153 | 0,64 | 1,39 | 0,92 |
+| Xynthia | Xạ Thủ | UR | 916.153 | 0,64 | 1,39 | 0,92 |
 | Marlena | Chiến Binh | UR | 914.868 | 0,58 | 1,49 | 0,91 |
-| Red Lady | Xạ Thủ | UR | 913.583 | 0,6 | 1,45 | 0,91 |
-| Joker | Pháp Sư | UR | 913.583 | 0,6 | 1,45 | 0,91 |
+| Bà Đỏ | Xạ Thủ | UR | 913.583 | 0,6 | 1,45 | 0,91 |
+| Hề | Pháp Sư | UR | 913.583 | 0,6 | 1,45 | 0,91 |
 | Grenwald | Pháp Sư | SSR | 690.773 | 0,35 | 1,09 | 0,59 |
 | Kesso | Chiến Binh | SSR | 686.515 | 0,42 | 0,94 | 0,61 |
 | Ash | Xạ Thủ | SSR | 685.873 | 0,43 | 0,92 | 0,61 |
@@ -174,8 +174,8 @@ Phát Bắn Chuẩn Xác · hệ số sát thương · hạng 11 trên 16
 |---|---|---|---|---|---|
 | Claire | Chiến Binh | Thánh Kỳ (nâng cao) | Đánh Thường | 810% | một mục tiêu duy nhất |
 | Marlena | Chiến Binh | Nhát Chém Phá Không | Đánh Thường | 783% | một mục tiêu duy nhất |
-| Zoya | Chiến Binh | Dao Găm | Đánh Thường | 747% | một mục tiêu duy nhất |
-| Cynthia | Xạ Thủ | Nguyệt Đao | Đánh Thường | 747% | một mục tiêu duy nhất |
+| Trác Nhã | Chiến Binh | Dao Găm | Đánh Thường | 747% | một mục tiêu duy nhất |
+| Xynthia | Xạ Thủ | Nguyệt Đao | Đánh Thường | 747% | một mục tiêu duy nhất |
 | Ash | Xạ Thủ | Phát Bắn Chuẩn Xác | Đánh Thường | 514,8% | một mục tiêu duy nhất |
 
 Mạnh hơn: Claire, Thánh Kỳ (nâng cao) gây 810% sát thương ATK lên một mục tiêu duy nhất.
@@ -184,25 +184,25 @@ Săn Linh Hồn Đại Bàng · hệ số sát thương · hạng 8 trên 15
 
 | Tướng | Phe phái | Kỹ năng | Loại kỹ năng | Sát thương, % ATK | Vùng ảnh hưởng |
 |---|---|---|---|---|---|
-| Joker | Pháp Sư | Át Chủ Bài Joker | Kỹ năng Tối Thượng | 5.047,5% | một mục tiêu duy nhất |
-| Red Lady | Xạ Thủ | Hoa Hồng Đỏ Thẫm | Kỹ năng Tối Thượng | 4.550,4% | một mục tiêu duy nhất |
-| Zoya | Chiến Binh | Thợ Săn Rừng Sâu | Kỹ năng Tối Thượng | 3.669,6% | một mục tiêu duy nhất |
+| Hề | Pháp Sư | Át Chủ Bài Hề | Kỹ năng Tối Thượng | 5.047,5% | một mục tiêu duy nhất |
+| Bà Đỏ | Xạ Thủ | Hoa Hồng Đỏ Thẫm | Kỹ năng Tối Thượng | 4.550,4% | một mục tiêu duy nhất |
+| Trác Nhã | Chiến Binh | Thợ Săn Rừng Sâu | Kỹ năng Tối Thượng | 3.669,6% | một mục tiêu duy nhất |
 | Annie | Pháp Sư | Hũ Kẹo | Kỹ năng Tối Thượng | 3.553,2% | một mục tiêu duy nhất |
 | Ash | Xạ Thủ | Săn Linh Hồn Đại Bàng | Kỹ năng Tối Thượng | 2.798,4% | một mục tiêu duy nhất |
 
-Mạnh hơn: Joker, Át Chủ Bài Joker gây 5.047,5% sát thương ATK lên một mục tiêu duy nhất.
+Mạnh hơn: Hề, Át Chủ Bài Hề gây 5.047,5% sát thương ATK lên một mục tiêu duy nhất.
 
 Một Mũi Tên Trúng Hai Con Chim · hệ số sát thương · hạng 7 trên 15
 
 | Tướng | Phe phái | Kỹ năng | Loại kỹ năng | Sát thương, % ATK | Vùng ảnh hưởng |
 |---|---|---|---|---|---|
-| Red Lady | Xạ Thủ | Cuộc Tàn Sát Khát Máu | Kỹ năng Chủ Động | 2.934% | một mục tiêu duy nhất |
+| Bà Đỏ | Xạ Thủ | Cuộc Tàn Sát Khát Máu | Kỹ năng Chủ Động | 2.934% | một mục tiêu duy nhất |
 | Sivir | Chiến Binh | Khiên Kích | Kỹ năng Chủ Động | 1.887,6% | một mục tiêu duy nhất |
 | Grenwald | Pháp Sư | Bùa Chú Tan Vỡ Trái Tim | Kỹ năng Chủ Động | 1.841,4% | một mục tiêu duy nhất |
-| Cynthia | Xạ Thủ | Săn Lùng Ánh Trăng | Kỹ năng Chủ Động | 1.800% | một mục tiêu duy nhất |
+| Xynthia | Xạ Thủ | Săn Lùng Ánh Trăng | Kỹ năng Chủ Động | 1.800% | một mục tiêu duy nhất |
 | Ash | Xạ Thủ | Một Mũi Tên Trúng Hai Con Chim | Kỹ năng Chủ Động | 1.584% | một mục tiêu duy nhất |
 
-Mạnh hơn: Red Lady, Cuộc Tàn Sát Khát Máu gây 2.934% sát thương ATK lên một mục tiêu duy nhất.
+Mạnh hơn: Bà Đỏ, Cuộc Tàn Sát Khát Máu gây 2.934% sát thương ATK lên một mục tiêu duy nhất.
 
 ## Thứ tự nâng cấp
 
@@ -282,8 +282,8 @@ Chỉ số gia tăng từ mỗi hệ thống tiến trình riêng lẻ. Chúng c
 
 Ash sở hữu 685.873 Sức Mạnh, xếp thứ chín trong tổng số mười sáu và hơn Bestar 80 điểm. Săn Linh Hồn Đại Bàng gây 2.798,4% sát thương lên một mục tiêu duy nhất, là kỹ năng tối thượng mạnh nhất trong số các tướng SSR cùng vai trò (trong khi Claire đạt 2.266,29% và Grenwald đạt 2.044,65%). Đổi lại, sát thương diện rộng là điểm yếu của cô, và Một Mũi Tên Trúng Hai Con Chim chỉ tấn công hai mục tiêu ngẫu nhiên.
 
-Các tướng SSR không bị ràng buộc bởi điều kiện độ tuổi của máy chủ, vì vậy Ash có sẵn ngay từ ngày đầu tiên. Cô giữ vững vị trí của mình trong lúc các xạ thủ UR vẫn chưa thể với tới: Cynthia xuất hiện vào ngày thứ 7 của máy chủ và Red Lady vào ngày thứ 35. Nội tại Tập Trung tăng cường sức mạnh cho hai xạ thủ có chỉ số ATK cao nhất, vì vậy một phần giá trị của nó sẽ bị giảm bớt trong một đội hình pha trộn.
+Các tướng SSR không bị ràng buộc bởi điều kiện độ tuổi của máy chủ, vì vậy Ash có sẵn ngay từ ngày đầu tiên. Cô giữ vững vị trí của mình trong lúc các xạ thủ UR vẫn chưa thể với tới: Xynthia xuất hiện vào ngày thứ 7 của máy chủ và Bà Đỏ vào ngày thứ 35. Nội tại Tập Trung tăng cường sức mạnh cho hai xạ thủ có chỉ số ATK cao nhất, vì vậy một phần giá trị của nó sẽ bị giảm bớt trong một đội hình pha trộn.
 
 Giới hạn của cô chỉ phụ thuộc vào cấp độ và số sao, vì tướng SSR không có tính năng thức tỉnh cũng như vũ khí: 961.611 HP và 14.695 ATK, trong đó số sao đóng góp 213.663 và 3.264. Tập Trung dừng ở mức 24% cho đến mốc ngôi sao thứ hai mươi, và từ đó qua ba bước tăng 3% tại mốc ngôi sao thứ hai mươi, thứ bốn mươi lăm và thứ năm mươi để đưa nó lên 33%.
 
-Trong một đội hình không có tướng UR, Ash đứng cùng Stellar, Griffith, Grenwald và Hastar: 7,7 triệu khả năng sống sót và 1 điểm hiệu quả với mức tiền thưởng +10%. Cô phát huy tác dụng tốt hơn khi đi cùng Griffith, Bestar, Hastar và Louis: pháp sư Hastar không cản trở bốn xạ thủ nhận phần thưởng +15%, và cả năm đạt 16,8 triệu khả năng sống sót cùng 5 điểm hiệu quả.
+Trong một đội hình không có tướng UR, Ash đứng cùng Stellar, Griffith, Grenwald và Hastar: 7,7 triệu khả năng sống sót và 1 điểm hiệu quả với mức tiền thưởng +10%. Cô phát huy tác dụng tốt hơn khi đi cùng Griffith, Bestar, Hastar và Luis: pháp sư Hastar không cản trở bốn xạ thủ nhận phần thưởng +15%, và cả năm đạt 16,8 triệu khả năng sống sót cùng 5 điểm hiệu quả.

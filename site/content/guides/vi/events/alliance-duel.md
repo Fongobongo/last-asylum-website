@@ -11,13 +11,13 @@ type: event
 
 Quyết Đấu Liên Minh (Alliance Duel) là sự kiện trọng tâm của cả tuần: sáu ngày cạnh tranh với một liên minh đối thủ tương đương, mỗi ngày có một danh mục điểm số riêng biệt và trận chung kết PvP vào Thứ Bảy. Đây cũng là sự kiện quyết định thời điểm bạn nên tiêu xài kho tài nguyên tích trữ — mảnh tướng, vé, huy hiệu và tăng tốc đều có ngày quyết đấu riêng, nơi chúng có giá trị gấp đôi hoặc hơn thế nữa.
 
-Hướng dẫn này bao gồm các yêu cầu tham gia, cơ chế từng giai đoạn với điểm số chính xác, chiến lược tích trữ hàng ngày, tích lũy Nhiệm Vụ Chim Ưng (Falcon Quest), và cách sự kiện này liên kết với Chiến Tranh Vương Quốc (Kingdom War).
+Hướng dẫn này bao gồm các yêu cầu tham gia, cơ chế từng giai đoạn với điểm số chính xác, chiến lược tích trữ hàng ngày, tích lũy Nhiệm Vụ Chim Ưng (Falcon Quest), và cách sự kiện này liên kết với Chiến Tranh Vương Quốc (Viễn Chinh Liên Quốc).
 
 ## Quyết Đấu Liên Minh Là Gì? {#what-it-is}
 
 Quyết Đấu Liên Minh là một **cuộc thi liên minh kéo dài 6 ngày** được chia thành các giai đoạn từ 1 đến 6, diễn ra từ Thứ Hai đến Thứ Bảy. Mỗi ngày có danh mục điểm số riêng — một tập hợp các hành động cụ thể để kiếm điểm quyết đấu — và liên minh nào ghi được nhiều điểm hơn trong danh mục ngày hôm đó sẽ thắng giai đoạn đó. Thứ Bảy (Giai đoạn 6) là **trận chung kết PvP**, nơi hai liên minh cuối cùng cũng trực tiếp giao chiến với nhau.
 
-Ngoài ra còn có một định dạng rút gọn: **Trận Chiến Sinh Tồn (Survival Battle)**, phiên bản quyết đấu kéo dài 4 giờ dành cho các liên minh muốn có sự cạnh tranh tương tự mà không cần kéo dài cả tuần. Cơ chế và logic tính điểm hoàn toàn giống nhau — chỉ có thời gian là thay đổi.
+Ngoài ra còn có một định dạng rút gọn: **Trận Chiến Sinh Tồn (Chiến Sinh Tồn)**, phiên bản quyết đấu kéo dài 4 giờ dành cho các liên minh muốn có sự cạnh tranh tương tự mà không cần kéo dài cả tuần. Cơ chế và logic tính điểm hoàn toàn giống nhau — chỉ có thời gian là thay đổi.
 
 > Quyết Đấu không được định đoạt trong ngày. Nó được quyết định bởi ai đã tích trữ đúng tài nguyên cho đúng giai đoạn.
 
@@ -162,7 +162,7 @@ Các liên minh có tổ chức sẽ lên lịch "Giờ Vàng" trong 2 giờ đ�
 * Lãnh đạo liên minh kích hoạt các bùa lợi chiến đấu (Tấn công, Phòng thủ, Tốc độ hành quân).
 * Các thành viên tập trung trên kênh thoại hoặc chat Discord/Telegram, phối hợp các đợt tấn công tập trung vào các mục tiêu giá trị cao.
 
-### 7. Farm Điểm T1 Tương Tác Hai Chiều
+### 7. Nông Trại Điểm T1 Tương Tác Hai Chiều
 Nếu kết quả trận đấu đã được định đoạt hoặc cả hai liên minh chỉ đơn giản muốn đảm bảo mốc Rương 9 cá nhân, các thủ lĩnh sẽ đàm phán farm điểm tương hỗ trên các ô tài nguyên trung lập:
 * Cả hai bên đều cử các đoàn quân đầy ắp **lính Bậc 1** tấn công lẫn nhau.
 * Cả hai người chơi đều kiếm được hàng trăm nghìn điểm tiêu diệt với chi phí chữa trị tối thiểu và không rủi ro mất đơn vị cấp cao.
@@ -221,7 +221,7 @@ Tiền thưởng quyết đấu đến từ hai lớp:
 - **Rương mốc** — mục tiêu của liên minh luôn là rương tối đa. Mọi thứ khác chỉ là phụ.
 - **Thăng hạng và xếp hạng đóng góp** — phần thưởng cá nhân tỷ lệ thuận với sự đóng góp cá nhân của bạn, đó là lý do tại sao việc tích trữ đơn độc mà không bao giờ tiêu pha sẽ chẳng giúp ích được gì cho ai.
 
-Và quyết đấu không phải là một sự kiện biệt lập: nó cung cấp trực tiếp vào **Chiến Tranh Vương Quốc (Kingdom War)**. [KvK](/vi/events/kvk/) và trận quyết đấu chia sẻ các nguồn ghi điểm — **Chiến Dịch Mật và Xe Hàng đều tính điểm cho cả hai**. Hãy chạy chúng mỗi ngày và cùng một nỗ lực sẽ mang lại phần thưởng gấp đôi. Tuyến đường xe hàng đầy đủ được đề cập trong [hướng dẫn Xe Hàng và Vận Chuyển Liên Minh](/vi/events/wagon/).
+Và quyết đấu không phải là một sự kiện biệt lập: nó cung cấp trực tiếp vào **Chiến Tranh Vương Quốc (Viễn Chinh Liên Quốc)**. [KvK](/vi/events/kvk/) và trận quyết đấu chia sẻ các nguồn ghi điểm — **Chiến Dịch Mật và Xe Hàng đều tính điểm cho cả hai**. Hãy chạy chúng mỗi ngày và cùng một nỗ lực sẽ mang lại phần thưởng gấp đôi. Tuyến đường xe hàng đầy đủ được đề cập trong [hướng dẫn Xe Hàng và Vận Chuyển Liên Minh](/vi/events/wagon/).
 
 ## 🎬 Hướng Dẫn Video: Phân Tích Chiến Lược KorpezGaming {#video-guide}
 
@@ -349,8 +349,8 @@ Giá trị được xác thực từ dữ liệu máy khách trò chơi (v1.0.87
 
 | Công nghệ | Cấp độ | Ở mức tối đa | Chi phí |
 |---|---|---|---|
-| Chuyên gia Đấu trường (Arena Expert) | 20 | +100% | 3.800 |
-| Bậc thầy Đấu trường (Arena Master) | 10 | +50% | 7.200 |
+| Chuyên gia Đấu trường (Đấu Trường Expert) | 20 | +100% | 3.800 |
+| Bậc thầy Đấu trường (Đấu Trường Master) | 10 | +50% | 7.200 |
 | Điểm Chim Ưng | 10 | +50% | 1.200 |
 | Điểm Tuyển Mộ | 10 | +50% | 1.200 |
 | Điểm Tuyển Mộ Người Sống Sót | 10 | +50% | 4.520 |

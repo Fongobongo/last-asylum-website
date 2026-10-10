@@ -45,6 +45,6 @@ Aynı anda beş Ergitme Atölyesi bulunabilir ve aralarındaki sıra tek bir kur
 
 İkinci bonus olan Maksimum Üretim Süresi, 8 saat 8 dakikadan 12 saate çıkar. 20. seviyede depo 10 saat 40 dakika tutar, bu nedenle günde iki toplama ile atölye bir saat yirmi dakika boşa çalışır ve israfsız tam bir depo ancak 30. seviyede elde edilir.
 
-Yan taraftaki Dokuma Atölyesi (Weaving Workshop) aynı 99 gün 17 saate mal olur ve 168.300'e karşı 168.200 ile neredeyse aynı Gücü sağlar, ancak 62 Dişitaşına karşılık saatte 91 ürün üretir. Hızdaki bu fark üretilen üründen kaynaklanır: Dişitaşı kahraman ekipmanlarını güçlendirmek için kullanılırken, Kumaş (Cloth) beş üretim malzemesinden en temel olanıdır.
+Yan taraftaki Dokuma Atölyesi (Dokuma Atölyesi) aynı 99 gün 17 saate mal olur ve 168.300'e karşı 168.200 ile neredeyse aynı Gücü sağlar, ancak 62 Dişitaşına karşılık saatte 91 ürün üretir. Hızdaki bu fark üretilen üründen kaynaklanır: Dişitaşı kahraman ekipmanlarını güçlendirmek için kullanılırken, Kumaş (Cloth) beş üretim malzemesinden en temel olanıdır.
 
 Sığınak 5. seviye, beş ergitici ve beş dokumacı olmak üzere aynı anda on bu tür binayı açar ve on binanın tamamının tam yükseltmesi 997 günü bulur. On binanın hepsinde 20. seviye 44 güne sığar ve inşaat kuyruğu genellikle burada durdurulur.

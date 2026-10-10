@@ -21,7 +21,7 @@ videoTopic: beginner
 
 英雄基础知识现已归入“英雄”部分，其中汇总了所有英雄指南：
 
-- **[英雄解锁时间线](/zh/heroes/hero-basics/#unlock-timeline)** — Arthur何时登场、Cynthia/Shadow的幸运转盘、第36–85天的UR活动列车、Marlena、复兴时代
+- **[英雄解锁时间线](/zh/heroes/hero-basics/#unlock-timeline)** — Arthur何时登场、辛西娅/Shadow的幸运转盘、第36–85天的UR活动列车、玛莲娜、复兴时代
 - **[英雄战力机制](/zh/heroes/hero-basics/#hero-might)** — 等级、星级（4星质变）、技能与装备
 - **[阵营与克制](/zh/heroes/hero-basics/#wiki-hero-factions)** — +5/+10/+15/+20%的阵营加成，以及战士 > 术士 > 游侠 > 战士的克制循环
 - **[你的首发阵容](/zh/heroes/hero-basics/#f2p-squad)** — 前排Arthur和Bella；后排Marlena、Claire和Celia（包含详细解析及替代方案）
@@ -129,7 +129,7 @@ videoTopic: beginner
 
 ## 新手小队
 
-官方指南建议首发五人组为前排Arthur和Bella，后排Marlena、Claire和Celia，优先培养Marlena，并将4星视为第一个大目标。这五人均为战士，因此小队可获得完整的+20%阵营加成。在团队模型中，这套阵容在所有可能的组合中排名第26,493位（共169,911种可能），但在除Arthur和Marlena外没有其他UR英雄的小队中，它仅比最优阵容落后约4%：最优阵容（Arthur、Lucius、Sivir、Bella和Marlena）仅有两名英雄不同。关于Marlena的建议符合她是唯一可以免费积累的UR英雄这一事实，详见平民阵容。4星阈值在本维基中尚未验证。
+官方指南建议首发五人组为前排Arthur和Bella，后排Marlena、Claire和Celia，优先培养Marlena，并将4星视为第一个大目标。这五人均为战士，因此小队可获得完整的+20%阵营加成。在团队模型中，这套阵容在所有可能的组合中排名第26,493位（共169,911种可能），但在除Arthur和Marlena外没有其他UR英雄的小队中，它仅比最优阵容落后约4%：最优阵容（亚瑟、卢修斯、希维尔、Bella和Marlena）仅有两名英雄不同。关于Marlena的建议符合她是唯一可以免费积累的UR英雄这一事实，详见平民阵容。4星阈值在本维基中尚未验证。
 
 ## 早期收益最高的项目
 
@@ -167,7 +167,7 @@ videoTopic: beginner
 
 什么时候需要研究实验室？首次在避难所11级时，详见“让实验室领先一步”。
 
-第一批英雄碎片给谁？Arthur，详见“碎片该给谁”。
+第一批英雄碎片给谁？亚瑟，详见“碎片该给谁”。
 
 什么时候开启第二小队？避难所8级，第三小队在20级，详见“早期收益最高的项目”。
 

@@ -49,7 +49,7 @@ Mọi anh hùng thuộc phe phái đều nhận được phần thưởng, kể 
 - Daskal · UR
 - Arthur · UR
 - Harper · UR
-- Zoya · UR
+- Trác Nhã · UR
 - Marlena · UR
 - Lucius · SSR
 - Bella · SSR

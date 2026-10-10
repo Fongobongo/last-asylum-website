@@ -75,7 +75,7 @@ Kervanlar, vagonla birlikte çalışan günlük kervan etkinliğidir:
 
 - **Başarısız saldırılar bir hakkı TÜKETMEZ!** Yeni başlayanlar için en kritik çıkarım: Düşman kervanına yaptığınız saldırı başarısız olursa, **4 günlük yağma hakkınız %100 sağlam kalır**. Günlük bir seferi boşa harcama korkusu olmadan savunucu gücünü güvenle test edebilirsiniz.
 - **Yalnızca ganimet önizlemesinde görünen 2+ UR parçası taşıyan kervanlara saldırın.** 2 parçalı bir taşıyıcı genellikle vuruş başına 1 parça düşürür; 3-4 parçalı hedefler daha nadirdir ve iki vuruşa değer. UR parçası göstermeyen her şeyi atlayın.
-- **Kendi kervanlarınızı yoğun olmayan saatlerde ve kesinlikle teker teker gönderin.** Rakip krallıklar uyurken yollar tamamen güvenlidir. Birincil **Birlik 1 (Squad 1)** birliğinizle her zaman eskortluk yaparak sevkıyatlarınızı birer birer kademelendirin.
+- **Kendi kervanlarınızı yoğun olmayan saatlerde ve kesinlikle teker teker gönderin.** Rakip krallıklar uyurken yollar tamamen güvenlidir. Birincil **Birlik 1 (1. Takım)** birliğinizle her zaman eskortluk yaparak sevkıyatlarınızı birer birer kademelendirin.
 - **UR kademeli kervan yenilemelerini İttifak Düellosu günlerine saklayın** — görev onay kutusu yalnızca o zaman önemlidir; standart günlerde mor veya doğal altın kervanlarla devam edin.
 - **Yağma raporlarını ittifak sohbetinde paylaşın** — kervan raporları Doğrudan Kayıtlar sekmesinden paylaşılabilir, böylece müttefikler aynı sulu hedeflere atlayabilir.
 

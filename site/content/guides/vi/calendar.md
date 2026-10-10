@@ -26,20 +26,20 @@ Sử dụng công cụ Tượng đài tương tác bên dưới để **nhập s
 
 ### Các mốc Tượng đài chính:
 
-- **Chương 1 (Ngày 1–14)**: Thành lập Sanctuary, tướng chống chịu UR miễn phí cốt lõi [Arthur](/vi/codex/arthur/), mở khóa tính năng [Liên minh (Alliance)](/vi/alliance/), vòng quay Thợ săn (Ranger) UR đầu tiên [Cynthia](/vi/codex/cynthia/) (Ngày 8), và [Cuộc vây hãm Undead](/vi/events/undead/) 20 đợt đầu tiên (Ngày 14).
+- **Chương 1 (Ngày 1–14)**: Thành lập Sanctuary, tướng chống chịu UR miễn phí cốt lõi [Arthur](/vi/codex/arthur/), mở khóa tính năng [Liên minh (Alliance)](/vi/alliance/), vòng quay Thợ săn (Ranger) UR đầu tiên [Xynthia](/vi/codex/cynthia/) (Ngày 8), và [Cuộc vây hãm Undead](/vi/events/undead/) 20 đợt đầu tiên (Ngày 14).
 - **Chương 2 (Ngày 15–28)**: Vòng loại [Đại chiến Liên minh (Alliance Duel)](/vi/events/alliance-duel/) đầu tiên (Top 32 liên minh, Ngày 15), [Đoàn xe Liên minh (Alliance Caravan)](/vi/events/wagon/) hàng ngày (Ngày 21), và chiến trường đồng đội trong [Tranh đoạt Hẻm núi (Canyon Clash)](/vi/events/canyon/).
-- **Chương 3 (Ngày 29–65)**: Biên giới máy chủ tan vỡ! [Đại chiến Vương quốc (KvK)](/vi/events/kvk/) liên máy chủ bắt đầu, bể anh hùng mở rộng ([Shadow](/vi/codex/shadow/), Joker, Bella), và sự kiện [Tranh giành Elixir](/vi/events/elixir/) 30 phút hàng tuần.
-- **Chương 4 (Ngày 66–119)**: Thời kỳ hoàng kim! Sự xuất hiện tại Quán rượu miễn phí của tướng gánh F2P đỉnh cao [Marlena](/vi/codex/marlena/) (dành cho những ai chưa mua gói $1 Ngày 1 của cô ấy), phần thưởng đại dương 300 cá hàng ngày trong [Kho báu Thần thoại (Mythic Treasure)](/vi/events/mythic/), thánh tích Sảnh Cổ vật (Curio Hall), và việc tích trữ thuốc giải độc (Antitoxin) nghiêm ngặt.
-- **Chương 5 (Ngày 120+)**: Ra mắt **«Thời kỳ hồi sinh»** (Era of Revival) hoành tráng kéo dài 55 ngày (Liên đoàn Viễn chinh) có tính năng miễn nhiễm nhiễm virus, Tượng Chúa công (Lord Statues), cây tài năng chuyên môn và Zoya.
+- **Chương 3 (Ngày 29–65)**: Biên giới máy chủ tan vỡ! [Đại chiến Vương quốc (KvK)](/vi/events/kvk/) liên máy chủ bắt đầu, bể anh hùng mở rộng ([Ảnh](/vi/codex/shadow/), Hề, Bella), và sự kiện [Tranh giành Elixir](/vi/events/elixir/) 30 phút hàng tuần.
+- **Chương 4 (Ngày 66–119)**: Thời kỳ hoàng kim! Sự xuất hiện tại Quán rượu miễn phí của tướng gánh F2P đỉnh cao [Marlena](/vi/codex/marlena/) (dành cho những ai chưa mua gói $1 Ngày 1 của cô ấy), phần thưởng đại dương 300 cá hàng ngày trong [Kho báu Thần thoại (Mythic Treasure)](/vi/events/mythic/), thánh tích Sảnh Cổ vật (Sảnh Sưu Tập), và việc tích trữ thuốc giải độc (Antitoxin) nghiêm ngặt.
+- **Chương 5 (Ngày 120+)**: Ra mắt **«Thời kỳ hồi sinh»** (Era of Revival) hoành tráng kéo dài 55 ngày (Liên đoàn Viễn chinh) có tính năng miễn nhiễm nhiễm virus, Tượng Chúa công (Lord Statues), cây tài năng chuyên môn và Trác Nhã.
 
 ## Đặt lại & Lịch trình định kỳ {#recurring}
 
 - 🔄 **Đặt lại giới hạn cướp bóc** — Hàng ngày lúc 02:00 UTC. Bộ đếm cướp bóc hàng ngày đặt lại (các mốc 100% → 15% → 5% bắt đầu lại từ đầu).
 - 🐑 **Đoàn xe Bang hội (Guild Wagon)** — Hàng ngày. Một xe hàng miễn phí cho mỗi liên minh mỗi ngày (đặt lại vào khoảng 11:00 KST).
-- 🐟 **Giới hạn cá biển (trong Kho báu Thần thoại)** — Hàng ngày. 300 con cá/ngày — dừng câu khi đạt giới hạn, nộp cho Đại tiệc (Grand Feast).
+- 🐟 **Giới hạn cá biển (trong Kho báu Thần thoại)** — Hàng ngày. 300 con cá/ngày — dừng câu khi đạt giới hạn, nộp cho Đại tiệc (Tiệc Lễ Hội).
 - 🏆 **Tranh đoạt Lâu đài Hoàng gia** — Hàng tuần. Cùng ngày trong tuần/giờ mỗi tuần; trận chiến lâu đài 4 tiếng, một đội hình hành quân, viện binh ≤30.
 - 🎖️ **Nhiệm vụ Chiến đấu Sinh tồn** — Hàng tuần. Lên đến 60K huy hiệu kỹ năng/tuần; danh sách nhiệm vụ thay đổi theo máy chủ.
-- 👑 **Đại chiến Vương quốc (Kingdom War)** — Hai tuần một lần. Chuẩn bị/tính điểm trong tuần, trận chiến chính vào Thứ Bảy — cửa sổ 4 tiếng.
+- 👑 **Đại chiến Vương quốc (Viễn Chinh Liên Quốc)** — Hai tuần một lần. Chuẩn bị/tính điểm trong tuần, trận chiến chính vào Thứ Bảy — cửa sổ 4 tiếng.
 - 🧪 **Tranh giành Elixir** — Hàng tuần. Trận chiến điểm AvA 30 phút — rút các đội hình khỏi tường thành trước khi bắt đầu!
 - ⚒️ **Nâng cấp Trang bị** — Mỗi **Thứ Bảy & Chủ Nhật** (Cập nhật ngày 9 tháng 9 năm 2026).
 - 🧟 **Cuộc vây hãm Undead** — Có sẵn 2 tuần sau khi ra mắt máy chủ; kích hoạt sau 300K điểm manh mối — 20 đợt đơn; cơ chế ẩn: 2–3 đội hình mỗi đợt, HP được giữ lại.

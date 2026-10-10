@@ -49,11 +49,11 @@ Pagina's die naar deze verwijzen. De lijst is opgebouwd vanuit de opmaak, niet m
 - Annie: vaardigheden, upgrades en Kracht
 - Ulfrid: vaardigheden, upgrades en Kracht
 - Billy: vaardigheden, upgrades en Kracht
-- Bell: vaardigheden, upgrades en Kracht
-- Red Lady: vaardigheden, upgrades en Kracht
+- Bel: vaardigheden, upgrades en Kracht
+- Rode Dame: vaardigheden, upgrades en Kracht
 - Cynthia: vaardigheden, upgrades en Kracht
 - Louis: vaardigheden, upgrades en Kracht
-- Shadow: vaardigheden, upgrades en Kracht
+- Schaduw: vaardigheden, upgrades en Kracht
 - Zoya: vaardigheden, upgrades en Kracht
 - Harper: vaardigheden, upgrades en Kracht
 - Daskal: vaardigheden, upgrades en Kracht

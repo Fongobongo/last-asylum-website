@@ -50,10 +50,10 @@ Bu sayfadan bahseden sayfalar. Liste elle doldurulmaz, işaretlemeden oluşturul
 - Ulfrid: beceriler, yükseltmeler ve Güç
 - Billy: beceriler, yükseltmeler ve Güç
 - Bell: beceriler, yükseltmeler ve Güç
-- Red Lady: beceriler, yükseltmeler ve Güç
+- Kızıl Hanım: beceriler, yükseltmeler ve Güç
 - Cynthia: beceriler, yükseltmeler ve Güç
 - Louis: beceriler, yükseltmeler ve Güç
-- Shadow: beceriler, yükseltmeler ve Güç
+- Gölge: beceriler, yükseltmeler ve Güç
 - Zoya: beceriler, yükseltmeler ve Güç
 - Harper: beceriler, yükseltmeler ve Güç
 - Daskal: beceriler, yükseltmeler ve Güç

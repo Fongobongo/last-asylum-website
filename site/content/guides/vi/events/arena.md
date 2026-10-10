@@ -9,9 +9,9 @@ infographics: []
 type: event
 ---
 
-Đấu trường Tam giác (Triangle Arena) là trận đấu đội hình 3v3: bạn thiết lập **ba đội hình phòng thủ**, và mọi kẻ tấn công sẽ **chọn một trong các đội hình của bạn để chiến đấu** — họ phải **thắng 2 trên 3** để đánh bại bạn. Có một quy tắc định hình toàn bộ sự kiện này trước mọi thứ khác: **kẻ tấn công THẤY rõ các thiết lập của bạn**. Phòng thủ trong trò chơi này không phải là trở nên bất bại; mà là không để bị nắm thớt.
+Đấu trường Tam giác (Triangle Đấu Trường) là trận đấu đội hình 3v3: bạn thiết lập **ba đội hình phòng thủ**, và mọi kẻ tấn công sẽ **chọn một trong các đội hình của bạn để chiến đấu** — họ phải **thắng 2 trên 3** để đánh bại bạn. Có một quy tắc định hình toàn bộ sự kiện này trước mọi thứ khác: **kẻ tấn công THẤY rõ các thiết lập của bạn**. Phòng thủ trong trò chơi này không phải là trở nên bất bại; mà là không để bị nắm thớt.
 
-Hướng dẫn này bao gồm các nguyên tắc phòng thủ, quy tắc hy sinh khi tấn công, các trận đấu khắc chế, tiền thưởng phe phái, và chiến thuật đội hình bẫy ở Đấu trường Định mệnh (Arena of Fate).
+Hướng dẫn này bao gồm các nguyên tắc phòng thủ, quy tắc hy sinh khi tấn công, các trận đấu khắc chế, tiền thưởng phe phái, và chiến thuật đội hình bẫy ở Đấu trường Định mệnh (Đấu Trường of Fate).
 
 ## Thể thức và Ý nghĩa của nó {#format}
 
@@ -59,12 +59,12 @@ Kết quả được xác nhận từ những người chơi chạy hệ thống
 - Biến thể đấu trường đặc biệt áp dụng cùng thể thức 2-thắng-3 — và lối chơi **"Đội hình bẫy" (Trap Squad)** khai thác lợi thế tầm nhìn của kẻ tấn công theo hướng ngược lại: nhử những đội hình trông có vẻ cân bằng nhưng lại có sức mạnh vượt trội so với vẻ bề ngoài.
 - Nếu làm tốt, nó sẽ **rinh về phần thưởng bậc cao, bao gồm cả mảnh UR** — nguồn UR miễn phí hiếm hoi trong nội dung PvP.
 - **Lỗi đã biết: một số người chơi bị kẹt không có hạng ở máy chủ mới** — nếu hạng của bạn không bao giờ hiển thị trong một mùa Định mệnh, đó là do lỗi, không phải do cách chơi của bạn. Hãy báo cáo và chờ đợi.
-- **Biến thể tham lam (Korpez):** xây dựng ba đội hình theo dạng *chính mạnh / mồi nhử / bẫy* — **đội hình bẫy hiển thị Lực chiến (Might) rất nhỏ trong khi ẩn đi tướng chủ lực 10★ của bạn** (Marlena, Cynthia). Hầu hết người chơi quét các con số Lực chiến, không kiểm tra thành phần, vì vậy họ lãng phí lượt tấn công vào ô "dễ" và phải ăn trọn sát thương từ chủ lực. Phiên bản cực đoan: **chạy đội hình 4 người** với một tank bị lược bỏ — sự sụt giảm sức mạnh thấy rõ sẽ nhử ngay cả những người chơi tầm trung vào tấn công.
+- **Biến thể tham lam (Korpez):** xây dựng ba đội hình theo dạng *chính mạnh / mồi nhử / bẫy* — **đội hình bẫy hiển thị Lực chiến (Might) rất nhỏ trong khi ẩn đi tướng chủ lực 10★ của bạn** (Marlena, Xynthia). Hầu hết người chơi quét các con số Lực chiến, không kiểm tra thành phần, vì vậy họ lãng phí lượt tấn công vào ô "dễ" và phải ăn trọn sát thương từ chủ lực. Phiên bản cực đoan: **chạy đội hình 4 người** với một tank bị lược bỏ — sự sụt giảm sức mạnh thấy rõ sẽ nhử ngay cả những người chơi tầm trung vào tấn công.
 - "Đội hình bẫy + bỏ tank" đã đưa Korpez và đồng minh của anh ấy từ hạng ~160 vào top 50 mà không cần tốn thêm tiền. Tầm nhìn về sức mạnh anh hùng quan trọng hơn Lực chiến hiển thị.
 
 ## Phân tích video: Bí mật đấu trường & Đội hình bẫy (KorpezGaming) {#video-breakdown-arena}
 
-Cơ chế leo tháp và tối ưu hóa phòng thủ bởi KorpezGaming ([Last Asylum Players DO NOT KNOW This Arena Secret!](https://youtu.be/OGyohKhAHFE)):
+Cơ chế leo tháp và tối ưu hóa phòng thủ bởi KorpezGaming ([Last Asylum Players DO NOT KNOW This Đấu Trường Secret!](https://youtu.be/OGyohKhAHFE)):
 
 | Mốc thời gian | Chủ đề | Bài học thực tế |
 |---|---|---|

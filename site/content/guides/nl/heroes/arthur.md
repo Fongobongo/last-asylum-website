@@ -155,7 +155,7 @@ De twaalf sterkste helden van de rol op basis van Kracht. Groei is de persoonlij
 
 | Held | Factie | Zeldzaamheid | Max. Kracht | HP-groei | ATK-groei | DEF-groei |
 |---|---|---|---|---|---|---|
-| Shadow | Verkenner | UR | 1.075.906 | 1,43 | 0,78 | 1,06 |
+| Schaduw | Verkenner | UR | 1.075.906 | 1,43 | 0,78 | 1,06 |
 | Daskal | Strijder | UR | 1.057.192 | 1,36 | 0,81 | 1,05 |
 | Arthur | Strijder | UR | 1.052.453 | 1,34 | 0,82 | 1,05 |
 | Louis | Verkenner | UR | 1.044.341 | 1,31 | 0,83 | 1,05 |

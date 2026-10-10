@@ -155,7 +155,7 @@ Güce göre rolün en güçlü on iki kahramanı. Büyüme, seviye başına ista
 
 | Kahraman | Sınıf | Nadirlik | Maks. Güç | HP büyümesi | ATK büyümesi | DEF büyümesi |
 |---|---|---|---|---|---|---|---|
-| Shadow | Avcı (Ranger) | UR | 1.075.906 | 1,43 | 0,78 | 1,06 |
+| Gölge | Avcı (Ranger) | UR | 1.075.906 | 1,43 | 0,78 | 1,06 |
 | Daskal | Savaşçı | UR | 1.057.192 | 1,36 | 0,81 | 1,05 |
 | Arthur | Savaşçı | UR | 1.052.453 | 1,34 | 0,82 | 1,05 |
 | Louis | Avcı (Ranger) | UR | 1.044.341 | 1,31 | 0,83 | 1,05 |
@@ -301,7 +301,7 @@ Her yetenek Yetenek Rozeti ile 40. seviyeye kadar yükselir: bir yetenek 436.700
 
 ### Özel Silah
 
-50 yıldıza yükseltilmiş "Taş Kalkan" (Stone Shield). Maksimumda ekledikleri:
+50 yıldıza yükseltilmiş "Taş Kalkan" (Taş Kalkan). Maksimumda ekledikleri:
 - HP +1.251.000, ATK +8.750, DEF +8.750
 - Kahraman DEF +%10
 - Kahraman HP +%10

@@ -49,4 +49,4 @@ Bệnh xá yêu cầu lượng Lương thực gấp ba lần Gỗ: 3.870.994.192
 
 Cấp 10 tốn 2.411.368 tài nguyên và 12 giờ, đã chứa được 1.131 chỗ, vì vậy những ngày đầu tiên sau khi mở khóa Thánh địa cấp 7 gần như được hoàn thành miễn phí.
 
-Một nút nghiên cứu sẽ mở khóa Bệnh xá thứ tư, và quy luật tương tự cũng áp dụng cho nó: cấp 20 đạt được trong hai tuần, trong khi cấp 30 yêu cầu thêm 286 ngày để đổi lấy 391 chỗ và 231.300 Sức mạnh. Một Bệnh xá hoàn thiện mang lại 280.500 Sức mạnh, nhỉnh hơn một chút so với 280.200 của Khu Huấn luyện (Training Grounds), và ba Bệnh xá cộng lại sẽ là 841.500 Sức mạnh.
+Một nút nghiên cứu sẽ mở khóa Bệnh xá thứ tư, và quy luật tương tự cũng áp dụng cho nó: cấp 20 đạt được trong hai tuần, trong khi cấp 30 yêu cầu thêm 286 ngày để đổi lấy 391 chỗ và 231.300 Sức mạnh. Một Bệnh xá hoàn thiện mang lại 280.500 Sức mạnh, nhỉnh hơn một chút so với 280.200 của Khu Huấn luyện (Sân Huấn Luyện), và ba Bệnh xá cộng lại sẽ là 841.500 Sức mạnh.

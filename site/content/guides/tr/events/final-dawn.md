@@ -7,7 +7,7 @@ videoTopic: final_dawn
 type: event
 ---
 
-**Son Şafak** (Final Dawn) etkinliği, Last Asylum: Plague oyunundaki erken aşama yolculuğunuzun en belirleyici 7 günlük gelişim kilometre taşıdır. Temel odak noktası, Sığınak Gücünüzü hızla artırmak ve kademeli aşama ödüllerinin kilidini düzenli olarak açmaktır: evrensel hızlandırıcılar, devasa kaynak kasaları, kahraman parçaları ve temel teçhizatlar.
+**Son Şafak** (Son Şafak) etkinliği, Last Asylum: Plague oyunundaki erken aşama yolculuğunuzun en belirleyici 7 günlük gelişim kilometre taşıdır. Temel odak noktası, Sığınak Gücünüzü hızla artırmak ve kademeli aşama ödüllerinin kilidini düzenli olarak açmaktır: evrensel hızlandırıcılar, devasa kaynak kasaları, kahraman parçaları ve temel teçhizatlar.
 
 Kıdemli komutanlar (oψsvge英俊的, Sunucu K250) tarafından hazırlanan bu rehber, 7 günlük sürecin tamamı için aşama aşama taktiksel bir plan sunar.
 

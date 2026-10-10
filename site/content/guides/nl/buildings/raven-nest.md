@@ -1,18 +1,18 @@
 ---
-title: "Raven Nest: levels, kosten en verbeteringen"
-description: "Het Raven Nest ontgrendelt de Raaf, de zesde vechter van het squad, die de twee vijanden met de meeste HP aanvalt. Een deel van zijn stats gaat naar de heroes. Level 110 is het doel, wh…"
+title: "Ravennest: levels, kosten en verbeteringen"
+description: "Het Ravennest ontgrendelt de Raaf, de zesde vechter van het squad, die de twee vijanden met de meeste HP aanvalt. Een deel van zijn stats gaat naar de heroes. Level 110 is het doel, wh…"
 videoTopic: "buildings"
 lang: nl
 updated: "2026-09-19"
 type: guide
 ---
-![Raven Nest](/building-icons/5036.png)
+![Ravennest](/building-icons/5036.png)
 
 
 > Gegevens geverifieerd tegen de gameclient (v1.0.87, bron: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-raven-nest)).
 
 
-Het Raven Nest ontgrendelt de Raaf, de zesde vechter van het squad, die de twee vijanden met de meeste HP aanvalt. Een deel van zijn stats gaat naar de heroes. Level 110 is het doel, waar de laatste ster van zijn vaardigheid verschijnt. Het gebouw ontgrendelt na Sanctuary level 7 en gaat tot level 1. Er kan er maar één worden gebouwd.
+Het Ravennest ontgrendelt de Raaf, de zesde vechter van het squad, die de twee vijanden met de meeste HP aanvalt. Een deel van zijn stats gaat naar de heroes. Level 110 is het doel, waar de laatste ster van zijn vaardigheid verschijnt. Het gebouw ontgrendelt na Sanctuary level 7 en gaat tot level 1. Er kan er maar één worden gebouwd.
 
 | Stat | Waarde |
 |---|---|
@@ -36,9 +36,9 @@ Dit gebouw geeft geen stat bonus: het ontgrendelt een optie in plaats van percen
 
 ## Hoe te gebruiken
 
-Het Raven Nest kost 480 Grain en 360 Timber en is in minder dan een minuut klaar, maar het ontgrendelt een hele upgrade-lijn: de Raaf, de zesde vechter van het squad. Deze valt de twee vijanden met de meeste HP aan met een cooldown van 13 seconden, en een deel van zijn stats wordt doorgegeven aan de heroes.
+Het Ravennest kost 480 Grain en 360 Timber en is in minder dan een minuut klaar, maar het ontgrendelt een hele upgrade-lijn: de Raaf, de zesde vechter van het squad. Deze valt de twee vijanden met de meeste HP aan met een cooldown van 13 seconden, en een deel van zijn stats wordt doorgegeven aan de heroes.
 
-De volgorde van ontgrendelingen is hier omgedraaid. De Epigraph Workshop verschijnt bij Sanctuary level 5, twee levels vóór het nest, maar blijft inactief totdat de Raaf evolutielevel 10 bereikt, en de volledige upgrade duurt 98 dagen en 20 uur. De Raven Workshop komt juist laat, pas bij Sanctuary level 15.
+De volgorde van ontgrendelingen is hier omgedraaid. De Inscriptiewerkplaats verschijnt bij Sanctuary level 5, twee levels vóór het nest, maar blijft inactief totdat de Raaf evolutielevel 10 bereikt, en de volledige upgrade duurt 98 dagen en 20 uur. De Raven\nwerkplaats komt juist laat, pas bij Sanctuary level 15.
 
 Level 110 is het doel: de laatste ster van de vaardigheid verschijnt daar en de schade-multiplier bereikt 1.894% van de aanval tegenover 1.184% bij de eerste ster. Het nest heeft slechts één level, dus de 840 grondstoffen worden eenmalig besteed.
 

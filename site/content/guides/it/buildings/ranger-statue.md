@@ -47,10 +47,10 @@ Il prezzo e il tempo di ogni quinto livello. Il prezzo cresce molto più velocem
 
 Ogni eroe della fazione riceve il bonus, inclusi quelli in panchina.
 - Shadow · UR
-- Louis · UR
+- Luigi · UR
 - Bell · UR
 - Cynthia · UR
-- Red Lady · UR
+- Dama Rossa · UR
 - Griffith · SSR
 - Ash · SSR
 - Bestar · SSR

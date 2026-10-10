@@ -1,13 +1,13 @@
 ---
-title: "Crystal Cluster Valley: F2P Punt-Landingsroute"
-description: "Crystal Cluster Valley evenementgids: rode mobs farmen (elk 1,5K punten), mijnovernames voor 5K punten/min, vaardigheidstiming en de stopwatch-truc voor de maximale puntenopbrengst."
+title: "Kristalkluster Vallei: F2P Punt-Landingsroute"
+description: "Kristalkluster Vallei evenementgids: rode mobs farmen (elk 1,5K punten), mijnovernames voor 5K punten/min, vaardigheidstiming en de stopwatch-truc voor de maximale puntenopbrengst."
 lang: nl
 updated: "2026-09-16"
 videoTopic: crystal
 type: event
 ---
 
-**Crystal Cluster Valley** is een getimed battle-royale-achtig evenement: je brengt een vaste sessie door op een gedeelde kaart om rode neutrale mobs te verslaan en kristallen te mijnen, waarbij je score — niet het doden van andere spelers — je beloningscategorie bepaalt. F2P'ers en betalende spelers (whales) beginnen op gelijke hoogte; discipline wint van de portemonnee.
+**Kristalkluster Vallei** is een getimed battle-royale-achtig evenement: je brengt een vaste sessie door op een gedeelde kaart om rode neutrale mobs te verslaan en kristallen te mijnen, waarbij je score — niet het doden van andere spelers — je beloningscategorie bepaalt. F2P'ers en betalende spelers (whales) beginnen op gelijke hoogte; discipline wint van de portemonnee.
 
 ## De Wiskunde van het Scorebord {#scoring}
 
@@ -24,7 +24,7 @@ Verzamel roden vroeg, schakel over op mijnen zodra je vaardigheden hoog zijn, en
 ## De F2P-route {#route}
 
 1. **Verken eerst de kaart.** Voordat je iets aanvalt, zoom je uit en zoek je de dichtstbijzijnde cluster rode mobs bij je spawn. De juiste startlocatie bespaart elke cyclus 5 minuten aan maarttijd.
-2. **Farm roden meedogenloos voor ~1.500 pt per kill.** Groepeer ze: parkeer je mars zodat elke kill overgaat in de volgende met vrijwel nul reistijd. De regel van Korpez: als de marsbalk ooit stationair staat, heb je de verkeerde plek gekozen.
+2. **Boerderij roden meedogenloos voor ~1.500 pt per kill.** Groepeer ze: parkeer je mars zodat elke kill overgaat in de volgende met vrijwel nul reistijd. De regel van Korpez: als de marsbalk ooit stationair staat, heb je de verkeerde plek gekozen.
 3. **Ontgrendel je vaardighedenboom onmiddellijk.** Het vaardigheidspaneel van het Crystal-evenement opent aan de zijkant van het scherm — stop punten in bonussen voor rode kills, dan bewegingssnelheid en daarna mijnbonussen. Wacht niet; elke minuut vertraging is verloren vermenigvuldigingstijd.
 4. **Gebruik een stopwatch / timerep voor mijnvensters.** Het aanvallen van een bezette mijn levert ~5K op per minuut dat je hem bezit; stel vooraf een timer in voor de uitbetalingstics zodat je mijnen kunt pakken op het moment dat je tegenstanders ervan wegdraaien.
 5. **Betwist pas daarna mijnen.** Zodra je roden zijn opgeruimd of je vaardigheden maximaal zijn, spring je midden in de cyclus op een betwiste mijn — idealiter een waarvan de eigenaar net is vertrokken naar een ander rood pakket.
@@ -62,9 +62,9 @@ Geverifieerde waarden uit game-clientgegevens (v1.0.87), bron: wiki-last-asylum.
 | Vaardigheid | Effect | Kosten |
 |---|---|---|
 | Crystal Surge | Ontvang periodiek 1080 Gezuiverde Kristallen | 200 |
-| Plague Rat Hunter | Ontvang 1500 extra Kristallen wanneer je een Pestrat verslaat | 200 |
+| Plaagrat Hunter | Ontvang 1500 extra Kristallen wanneer je een Pestrat verslaat | 200 |
 | Force Expansion | Capaciteit van Maart met Enkele Held +50 | 500 |
-| Swift March | Troepenmars-snelheid in Crystal Cluster Valley +25% | 500 |
+| Swift March | Troepenmars-snelheid in Kristalkluster Vallei +25% | 500 |
 | Valley Plunder | Ontvang 5000 extra Gezuiverde Kristallen wanneer je een Ader verovert. CD: 60s | 900 |
 | Valley Vigil | Ontvang 5000 extra Gezuiverde Kristallen als het niet lukt om een Ader te veroveren. CD: 60s | 900 |
 | Crystal Mining | Verzwaarsnelheid van Crystal Cluster verhoogt met 15% | 1.500 |

@@ -121,7 +121,7 @@ Un traguardo eccezionale di alta efficienza si sblocca esattamente con **30 Bigl
 
 ## 🎬 Guida Video: Analisi della Battaglia di Sopravvivenza di KorpezGaming {#video-guide}
 
-La videoanalisi completa realizzata dal creatore **KorpezGaming** è incorporata di seguito ed è accessibile all'indirizzo [The Secret to 60K FREE Skill Badges | Ultimate Survival Battle Guide](https://youtu.be/akt3OGeHXgY).
+La videoanalisi completa realizzata dal creatore **KorpezGaming** è incorporata di seguito ed è accessibile all'indirizzo [The Secret to 60K FREE Skill Badges | Ultimate Battaglia di sopravvivenza Guide](https://youtu.be/akt3OGeHXgY).
 
 ### Punti Chiave e Tempistiche:
 * `00:00` — **Le Basi F2P dei 60K Distintivi Abilità Gratuiti:** Perché la Battaglia di Sopravvivenza giornaliera è la routine singola più importante per la progressione degli eroi.
@@ -203,5 +203,5 @@ Valori verificati dai dati del client di gioco (v1.0.87), fonte: wiki-last-asylu
 | 6-20 | Scorte Livello Grano (SR) x3, Scorte Livello Legname (SR) x3, Scorte Livello Erba (SR) x3 |
 
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How long is each Survival Battle phase?", "acceptedAnswer": {"@type": "Answer", "text": "Each phase lasts 4 hours; there are five themed phases: heroes, territory, troops, tech and raven."}}, {"@type": "Question", "name": "When are troop training points awarded?", "acceptedAnswer": {"@type": "Answer", "text": "The moment you press Train/Promote and resources are deducted — not when the timer finishes."}}]}
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How long is each Battaglia di sopravvivenza phase?", "acceptedAnswer": {"@type": "Answer", "text": "Each phase lasts 4 hours; there are five themed phases: heroes, territory, troops, tech and raven."}}, {"@type": "Question", "name": "When are troop training points awarded?", "acceptedAnswer": {"@type": "Answer", "text": "The moment you press Train/Promote and resources are deducted — not when the timer finishes."}}]}
 </script>

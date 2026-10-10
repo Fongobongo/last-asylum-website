@@ -33,7 +33,7 @@ Toplam 600 seviyenin tamamı tek bir kahraman için 15.030 parçaya mal olur; bu
 
 ## Ne kazandırır?
 
-Onur, kahramana sadece HP (can) kazandırır, başka hiçbir şey vermez. Bonus, Onur Salonu'ndan (Hall of Honor) geliyormuş gibi etiketlenir ve diğer tüm kaynaklarla toplanarak birikir; ayrıca seviyeyle orantılı olarak artar: 1. seviyede 160 HP, 300. seviyede 64.000 ve 600. seviyede 240.000 HP.
+Onur, kahramana sadece HP (can) kazandırır, başka hiçbir şey vermez. Bonus, Onur Salonu'ndan (Onur Salonu) geliyormuş gibi etiketlenir ve diğer tüm kaynaklarla toplanarak birikir; ayrıca seviyeyle orantılı olarak artar: 1. seviyede 160 HP, 300. seviyede 64.000 ve 600. seviyede 240.000 HP.
 
 Daha yüksek seviyeler daha fazla maliyetlidir ve orantılı olarak daha çok kazandırır, çünkü oran baştan sona her parça başına 16 HP olarak sabit kalır. Parçaları ucuz bir aralık için saklamak mantıksızdır, çünkü böyle bir aralık mevcut değildir.
 

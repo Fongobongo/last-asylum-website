@@ -47,4 +47,4 @@ Sản lượng tăng từ 1.556 mỗi giờ ở cấp 1 lên 259.666 ở cấp 3
 
 Sản xuất được tích lũy trong một khoảng thời gian giới hạn: 29.280 giây ở cấp 1 và 43.200 giây (tức 12 giờ) ở cấp 30. Năm xưởng chứa được 15.579.960 thuốc giải độc, và bất kỳ lượng nào vượt quá con số đó sẽ bị mất. Thánh địa cấp 5 cũng cấp năm vị trí tương tự cho Xưởng Luyện kim và Xưởng Dệt, tuy nhiên mỗi xưởng đó cần tới 99 ngày 17 giờ so với 49 ngày 21 giờ ở đây.
 
-Việc thu hoạch rất quan trọng vì lý do thứ hai: không có nhà kho cho thuốc giải độc, vì vậy kẻ cướp sẽ lấy sạch toàn bộ số lượng đang tích trữ. Để so sánh, giai đoạn 10 của Cuộc vây hãm Xác sống (Undead Siege) trả thưởng 255.600.000 thuốc giải độc, tương đương 197 giờ làm việc của năm xưởng.
+Việc thu hoạch rất quan trọng vì lý do thứ hai: không có nhà kho cho thuốc giải độc, vì vậy kẻ cướp sẽ lấy sạch toàn bộ số lượng đang tích trữ. Để so sánh, giai đoạn 10 của Cuộc vây hãm Xác sống (Zombie Vây Thành) trả thưởng 255.600.000 thuốc giải độc, tương đương 197 giờ làm việc của năm xưởng.

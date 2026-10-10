@@ -11,13 +11,13 @@ type: event
 
 İttifak Düellosu, tüm haftanın üzerine kurulduğu etkinliktir: Eşleşilen rakip bir ittifaka karşı altı günlük rekabet; her gün farklı bir puan kategorisi ve Cumartesi günü bir PvP finali sunar. Aynı zamanda bu etkinlik, zulanızdaki parçaları, biletleri, rozetleri ve hızlandırmaları ne zaman harcamanız gerektiğine karar verir — bunların hepsinin değerinin iki katına (veya daha fazlasına) çıktığı bir düellodan günü vardır.
 
-Bu rehber; katılım gereksinimlerini, tam puan değerleriyle aşama mekaniklerini, günlük biriktirme stratejisini, Falcon Görevi biriktirmeyi ve düellonun Krallık Savaşı'na (Kingdom War) nasıl bağlandığını kapsar.
+Bu rehber; katılım gereksinimlerini, tam puan değerleriyle aşama mekaniklerini, günlük biriktirme stratejisini, Falcon Görevi biriktirmeyi ve düellonun Krallık Savaşı'na (Krallık Savaşı) nasıl bağlandığını kapsar.
 
 ## İttifak Düellosu Nedir? {#what-it-is}
 
 İttifak Düellosu, Pazartesi'den Cumartesi'ye kadar süren, 1'den 6'ya kadar aşamalara bölünmüş **6 günlük bir ittifak rekabetidir**. Her günün kendi puan kategorisi (düellot puanı kazandıran belirli bir eylem seti) vardır ve günlük kategoride daha yüksek puan alan ittifak o aşamayı kazanır. Cumartesi günü olan 6. Aşama, iki ittifakın sonunda doğrudan birbirleriyle savaştığı **PvP finalidir**.
 
-Ayrıca sıkıştırılmış bir format da bulunur: **Hayatta Kalma Savaşı (Survival Battle)**, tam bir hafta istemeden aynı rekabeti yaşamak isteyen ittifaklar için 4 saatlik bir düello versiyonudur. Mekanikler ve puanlama mantığı aynıdır; yalnızca süre değişir.
+Ayrıca sıkıştırılmış bir format da bulunur: **Hayatta Kalma Savaşı (Hayatta Kalma Savaşı)**, tam bir hafta istemeden aynı rekabeti yaşamak isteyen ittifaklar için 4 saatlik bir düello versiyonudur. Mekanikler ve puanlama mantığı aynıdır; yalnızca süre değişir.
 
 > Düello o gün kazanılmaz. Doğru kaynakları doğru aşama için biriktirenler tarafından kazanılır.
 
@@ -221,7 +221,7 @@ Düello ödemeleri iki katman halinde gelir:
 - **Kilometre taşı sandıkları** — ittifak hedefi her zaman maksimum sandıktır. Geri kalan her şey ikincil önemdedir.
 - **Terfiler ve katkı sıralaması** — bireysel ödüller kişisel katkınızla ölçeklenir; bu nedenle asla harcanmayan solo zulalama kimseye yardımcı olmaz.
 
-Ve düello izole bir etkinlik değildir: doğrudan **Krallık Savaşı'na (Kingdom War)** besleme yapar. [KvK](/tr/events/kvk/) ve düello puanlama kaynaklarını paylaşır — **Gizli Operasyonlar ve Kervanlar her ikisi için de puan kazandırır**. Bunları her gün çalıştırın ve aynı çaba iki kez ödeme yapsın. Tam kervan rotası [Lonca Vagonu ve Kervanları rehberinde](/tr/events/wagon/) ele alınmıştır.
+Ve düello izole bir etkinlik değildir: doğrudan **Krallık Savaşı'na (Krallık Savaşı)** besleme yapar. [KvK](/tr/events/kvk/) ve düello puanlama kaynaklarını paylaşır — **Gizli Operasyonlar ve Kervanlar her ikisi için de puan kazandırır**. Bunları her gün çalıştırın ve aynı çaba iki kez ödeme yapsın. Tam kervan rotası [Lonca Vagonu ve Kervanları rehberinde](/tr/events/wagon/) ele alınmıştır.
 
 ## 🎬 Video Rehberi: KorpezGaming Strateji Dökümü {#video-guide}
 

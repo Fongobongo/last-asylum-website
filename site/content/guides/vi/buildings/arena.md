@@ -6,7 +6,7 @@ lang: vi
 updated: "2026-09-19"
 type: guide
 ---
-![Arena](/building-icons/5010.png)
+![Đấu Trường](/building-icons/5010.png)
 
 
 > Dữ liệu được xác minh dựa trên client trò chơi (v1.0.87, nguồn: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-arena)).
@@ -36,7 +36,7 @@ Công trình này không cung cấp chỉ số thưởng: nó mở khóa một t
 
 ## Cách sử dụng
 
-Đấu trường tốn 480 Ngũ cốc và 360 Gỗ và hoàn thành trong dưới một phút. Tổ Quạ (Raven Nest), Sảnh Đồ Cổ (Curio Hall), Black Ops và Thương nhân Du mục (Nomad Trader) có cùng mức giá, vì vậy 840 tài nguyên không tạo ra khác biệt gì ở Thánh địa cấp 7.
+Đấu trường tốn 480 Ngũ cốc và 360 Gỗ và hoàn thành trong dưới một phút. Tổ Quạ (Tổ Quạ), Sảnh Đồ Cổ (Sảnh Sưu Tập), Cục Bí Mật và Thương nhân Du mục (Nhà Buôn Du Mục) có cùng mức giá, vì vậy 840 tài nguyên không tạo ra khác biệt gì ở Thánh địa cấp 7.
 
 Đấu trường hoàn vốn nhanh hơn bất kỳ công trình nào khác trong thành phố. Một trận thắng ở đấu trường thấp nhất mang lại 50.000 Thuốc giải (Antitoxin) và một trận thua là 25.000, trong khi năm trận đấu miễn phí mỗi ngày mang lại 250.000 Thuốc giải. Ngày đầu tiên đó mang lại lợi nhuận gấp gần ba trăm lần chi phí bỏ ra, và mỗi ngày sau đó đều mang lại lợi nhuận tương tự.
 

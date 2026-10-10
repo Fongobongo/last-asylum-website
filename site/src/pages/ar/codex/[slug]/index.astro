@@ -2,6 +2,7 @@
 import Base from '../../../../layouts/Base.astro';
 import HeroCodexDetail from '../../../../components/HeroCodexDetail.astro';
 import { heroCodex } from '../../../../data/heroCodex';
+import { t } from '../../../../i18n/ui';
 import type { Lang } from '../../../../i18n/utils';
 import officialHeroesData from '../../../../data/officialHeroes.json';
 
@@ -22,15 +23,15 @@ const heroDisplayName = officialData?.names?.[lang] || hero.names?.[lang] || her
 <Base
   lang={lang}
   path={`/ar/codex/${hero.slug}/`}
-  title={`${heroDisplayName} — دليل الأبطال والمهارات الرسمية}
+  title={`${heroDisplayName} — دليل الأبطال والمهارات الرسمية`}
   description={hero.role}
 >
   <HeroCodexDetail
     hero={hero}
     lang={lang}
     breadcrumbs={[
-      { label: 'Start', href: '/ar/' },
-      { label: 'Helden-Kodex', href: '/ar/codex/' },
+      { label: t(lang, 'nav.home'), href: '/ar/' },
+      { label: 'سجل الأبطال', href: '/ar/codex/' },
       { label: heroDisplayName }
     ]}
   />

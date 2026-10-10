@@ -20,7 +20,7 @@ Veba ile boğuşan **Last Asylum: Plague** topraklarında, tek başına hayatta 
 2. Rastgele "Açık" başlangıç loncalarına katılmaktan kaçının. Rekabetçi ve organize ittifaklar her zaman başvuru incelemesi (Apply) gerektirir.
 3. **Temel Seçim Kriterleri:**
    * **Güç Sıralaması:** Sunucunuzdaki ilk 1 ila 3 arasındaki loncalara girmeye çalışın. Kraliyet Kalesi'ne hükmederler, Yönetici Lonca unvanını ellerinde tutarlar ve aktif üyelerden binlerce hediye sandığı üretirler.
-   * **Saat Dilimi & Sohbet Aktivitesi:** Loncanın ana baskın saatlerinin, Peynir Tuzağı (Cheese Trap) ve Ölümsüz Kuşatması (Undead Siege) rallileri için programınızla uyumlu olduğundan emin olun.
+   * **Saat Dilimi & Sohbet Aktivitesi:** Loncanın ana baskın saatlerinin, Peynir Tuzağı (Peynir Tuzağı) ve Ölümsüz Kuşatması (Ölümsüz Kuşatması) rallileri için programınızla uyumlu olduğundan emin olun.
    * **Hediye Seviyesi:** Daha yüksek ittifak hediye kademeleri; ücretsiz elmaslar, işe alım biletleri ve hızlandırmalar içeren daha iyi dönüm noktası sandıkları düşürür.
 
 ---

@@ -6,7 +6,7 @@ lang: vi
 updated: "2026-09-19"
 type: guide
 ---
-![Warlock Statue](/building-icons/5045.png)
+![Tượng Thuật Sĩ](/building-icons/5045.png)
 
 
 > Dữ liệu được xác thực dựa trên client của trò chơi (v1.0.87, nguồn: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-warlock-statue)).
@@ -46,22 +46,22 @@ Giá cả và thời gian của mỗi năm cấp độ. Giá tăng nhanh hơn nh
 ## Anh hùng nhận được phần thưởng
 
 Mọi anh hùng thuộc phe này đều nhận được phần thưởng, kể cả những người đang ngồi dự bị.
-- Ulfrid · UR
+- Ulfred · UR
 - Billy · UR
 - Nicole · UR
 - Annie · UR
-- Joker · UR
+- Hề · UR
 - Hastar · SSR
 - Stellar · SSR
 - Grenwald · SSR
-- Kafa · SR
+- Caffa · SR
 
 ## Cách sử dụng
 
-Cấp độ Thánh địa (Sanctuary) 11 mở khóa ba công trình, trong đó hai công trình hoàn thành tức thì là Chuồng ngựa Riêng (Private Stable) với 10 Lương thực và Chuồng ngựa Liên minh (Alliance Stable) với 21 tài nguyên. Tượng Phù Thủy là công trình duy nhất chiếm hàng chờ, và nó chiếm chỗ trong một thời gian rất dài: 299 ngày 4 giờ, 1.253.641.685 Lương thực và 3.784.783.300 Gỗ để đạt cấp độ 30.
+Cấp độ Thánh địa (Sanctuary) 11 mở khóa ba công trình, trong đó hai công trình hoàn thành tức thì là Chuồng ngựa Riêng (Chuồng Ngựa Riêng) với 10 Lương thực và Chuồng ngựa Liên minh (Chuồng Ngựa Công Hội) với 21 tài nguyên. Tượng Phù Thủy là công trình duy nhất chiếm hàng chờ, và nó chiếm chỗ trong một thời gian rất dài: 299 ngày 4 giờ, 1.253.641.685 Lương thực và 3.784.783.300 Gỗ để đạt cấp độ 30.
 
 Trò chơi có chín Phù Thủy, trong đó có năm tướng UR, so với mười bốn Chiến Binh. Danh sách này ngắn hơn, tuy nhiên phần thưởng ở cấp độ 30 là giống hệt nhau trên cả ba bức tượng: 151.500 HP, 723 ATK và 723 DEF, cùng 100 CMD cho mọi anh hùng trong phe, kể cả những người được giữ ở tuyến dự bị.
 
 Cấp độ 20 có sự khác biệt. Nó mở ra các cấp độ Danh Vọng (Honor) của các Phù Thủy và đạt được sau 13 ngày xây dựng. Chỉ riêng bước đó đã tốn 14.250.000 Lương thực và 42.760.000 Gỗ, và trước cấp độ Thánh địa 11, bức tượng thậm chí không xuất hiện trong thành phố. Khi bức tượng ở dưới cấp độ 20, các mảnh vỡ của một Phù Thủy đã đạt tối đa năm mươi sao sẽ không có chỗ để dùng, và hệ thống Danh Vọng tiêu tốn chính những mảnh vỡ đó, 15.030 mảnh cho toàn bộ 600 cấp độ.
 
-Bức tượng mang lại 272.600 Sức mạnh, mức cao nhất trong số ba bức tượng phe phái, nhưng khoảng cách dẫn trước Tượng Chiến Binh (Warrior Statue) với 272.400 Sức mạnh là chưa đầy một phần mười phần trăm. Một bức tượng được chọn dựa trên cấu thành của đội hình chính hơn là dựa vào những con số này. Việc nâng cấp hoàn toàn cũng tiêu tốn 832.324.200 Thảo mộc, và năm cấp độ cuối cùng chiếm tới 79% tổng thời gian xây dựng.
+Bức tượng mang lại 272.600 Sức mạnh, mức cao nhất trong số ba bức tượng phe phái, nhưng khoảng cách dẫn trước Tượng Chiến Binh (Tượng Chiến Binh) với 272.400 Sức mạnh là chưa đầy một phần mười phần trăm. Một bức tượng được chọn dựa trên cấu thành của đội hình chính hơn là dựa vào những con số này. Việc nâng cấp hoàn toàn cũng tiêu tốn 832.324.200 Thảo mộc, và năm cấp độ cuối cùng chiếm tới 79% tổng thời gian xây dựng.

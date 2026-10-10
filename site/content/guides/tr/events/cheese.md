@@ -9,7 +9,7 @@ infographics: ["/infographics/cheese-trap.webp", "/infographics/cheese-rewards.w
 type: event
 ---
 
-Peynir Tuzağı (Cheese Trap), dev bir fareye karşı düzenlenen bir **ittifak PvE baskın (rally) etkinliğidir**. Verdiğiniz kişisel hasar beş aşamada kişisel ödüller kazandırırken, ittifakın toplam hasarı ayrı ittifak ödülleri kazandırır. Saf bir güç etkinliği gibi görünür — ancak aslında bir planlama etkinliğidir ve aradaki fark birkaç ödül kademesine eşittir.
+Peynir Tuzağı (Peynir Tuzağı), dev bir fareye karşı düzenlenen bir **ittifak PvE baskın (rally) etkinliğidir**. Verdiğiniz kişisel hasar beş aşamada kişisel ödüller kazandırırken, ittifakın toplam hasarı ayrı ittifak ödülleri kazandırır. Saf bir güç etkinliği gibi görünür — ancak aslında bir planlama etkinliğidir ve aradaki fark birkaç ödül kademesine eşittir.
 
 Bu rehber iki ödül kulvarını, durma noktası kuralını, seviye ölçeklendirmesini ve ittifakınız bir fareye karar vermeden önce sıralamaları nasıl okumanız gerektiğini kapsar.
 

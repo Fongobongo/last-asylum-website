@@ -53,7 +53,7 @@ videoTopic: compare
 |---|---|---|
 | **Danno personale** | 9★ UR ≈ 1,70× SSR maxata; 10★ ≈ 2,20× | — |
 | **Buff di squadra** | Scende dal 16% al 10% a 6★ (perdita reale di un paio di punti percentuali) | — |
-| **Salta il calo** | Accumula nella Hall of Honor: Lv.60→8★, Lv.100→9★, Lv.160→10★ istantaneo | — |
+| **Salta il calo** | Accumula nella Sala d'onore: Lv.60→8★, Lv.100→9★, Lv.160→10★ istantaneo | — |
 | **PvP** | Tenacia avan. a 8★ = +20% ATT/HP/DIF +10% CDR | — |
 | **Costo** | 1.600 frammenti SSR al doppio del prezzo (6★→10★) | — |
 
@@ -77,7 +77,7 @@ videoTopic: compare
 | | | |
 |---|---|---|
 | **Ruolo** | Tank con riflessione del danno (rinominato da Brian) | Tank anti-CC e debuffer |
-| **Abilità Chiave** | Riflessione del danno + sopravvivenza | Immunità agli stordimenti (contrasta Red Lady) + −8% danno da energia subito |
+| **Abilità Chiave** | Riflessione del danno + sopravvivenza | Immunità agli stordimenti (contrasta Dama Rossa) + −8% danno da energia subito |
 | **Debuff** | Riduzione del danno contro i mostri | Debuff +danno subito applicato a 3 nemici casuali (Verità e Menzogne) |
 | **Fonte** | Evocazione UR / Banner del Giorno 43 | Pass Eroe / Offerta giornaliera del Giorno 85 |
 | **Verdetto** | La spina dorsale della prima linea dei mono-Warlock | Obbligatorio in PvP contro il controllo folla dei Ranger |

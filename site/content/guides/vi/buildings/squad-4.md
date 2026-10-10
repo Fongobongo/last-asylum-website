@@ -43,7 +43,7 @@ Nâng cấp công trình từ cấp 1 lên 30 tiêu tốn Lương thực 2,584,1
 
 Đội 4 xuất hiện tại Khu bảo tồn cấp 5, sớm hơn Đội 2 ở cấp 8 và Đội 3 ở cấp 20. Tuy nhiên, hàng đợi hành quân thứ tư chỉ hoạt động khi gói đăng ký hàng tháng trị giá 24.99 đô la đang hiệu lực, nếu không có nó, công trình sẽ không hoạt động.
 
-Việc xây dựng nó là lâu nhất tại Khu bảo tồn cấp 5: 299 ngày 4 giờ và 5,584,494,328 tài nguyên, so với 199 ngày 10 giờ cho Hội quán Liên minh (Alliance Hall) và 49 ngày 21 giờ cho Xưởng thuốc giải (Antitoxin Workshop). Tốc độ hành quân tăng giống hệt như Đội 1, từ 0.7% lên 15.1%, và Sức mạnh đạt 257,500. Đội 4 yêu cầu nhiều tài nguyên hơn Đội 1 với 5,459,706,416 tài nguyên qua cùng ba mươi cấp độ.
+Việc xây dựng nó là lâu nhất tại Khu bảo tồn cấp 5: 299 ngày 4 giờ và 5,584,494,328 tài nguyên, so với 199 ngày 10 giờ cho Hội quán Liên minh (Trạm Liên Lạc Công Hội) và 49 ngày 21 giờ cho Xưởng thuốc giải (Xưởng Kháng Độc). Tốc độ hành quân tăng giống hệt như Đội 1, từ 0.7% lên 15.1%, và Sức mạnh đạt 257,500. Đội 4 yêu cầu nhiều tài nguyên hơn Đội 1 với 5,459,706,416 tài nguyên qua cùng ba mươi cấp độ.
 
 Gói đăng ký mang lại nhiều lợi ích hơn là chỉ hàng đợi. Các hoạt động đặc nhiệm đồng thời được tính là hai cho mỗi đội, và nếu không có gói đăng ký, số lượng đội giảm đi một, đồng nghĩa với việc mất đi hai lượt điều động.
 

@@ -47,4 +47,4 @@ Bản thân tốc độ tăng rất chậm: 0.7% ở cấp 1, 10.1% ở cấp 20
 
 Nó mang lại 361,000 Sức Mạnh, con số lớn thứ ba trong thành phố sau 384,300 của Thánh Địa và 361,100 của Bàn Làm Việc (Workbench) cấp 2. Tổng tài nguyên cần thiết là 10,356,094,530, và chỉ có hai công trình kể trên mới tiêu tốn nhiều hơn thế. Cấp 10 tốn 4,076,430 tài nguyên và 13 giờ 41 phút, vì vậy một phần ba đầu tiên của thang tốc độ có thể hoàn thành chỉ trong một buổi tối.
 
-Thánh Địa cấp 7 mở khóa, cùng với phòng thí nghiệm, ba Bệnh Xá (Infirmary) với mỗi cái tốn 299 ngày 4 giờ, Tượng Chiến Binh (Warrior Statue) với thời gian tương tự, và hai công trình xây dựng tức thì là Đấu Trường (Arena) và Tổ Quạ (Raven Nest). Thợ xây sẽ ưu tiên Phòng Nghiên Cứu trước, bởi vì cấp độ tiếp theo của Thánh Địa phụ thuộc vào nó.
+Thánh Địa cấp 7 mở khóa, cùng với phòng thí nghiệm, ba Bệnh Xá (Infirmary) với mỗi cái tốn 299 ngày 4 giờ, Tượng Chiến Binh (Tượng Chiến Binh) với thời gian tương tự, và hai công trình xây dựng tức thì là Đấu Trường (Đấu Trường) và Tổ Quạ (Tổ Quạ). Thợ xây sẽ ưu tiên Phòng Nghiên Cứu trước, bởi vì cấp độ tiếp theo của Thánh Địa phụ thuộc vào nó.

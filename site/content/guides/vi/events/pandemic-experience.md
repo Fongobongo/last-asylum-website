@@ -7,7 +7,7 @@ videoTopic: pandemic
 type: event
 ---
 
-**Kinh nghiệm Đại dịch** (Pandemic Experience) là một sự kiện chiến đấu định kỳ hai tuần một lần: bạn chiến đấu chống lại các đợt "Y tá Địa ngục" (Hell Nurses) có độ khó tăng dần — từ **Cấp độ 1 đến Cấp độ 9** — và cả bạn lẫn **liên minh của bạn** cùng nhau leo thang. Liên minh tiến càng sâu, càng nhiều trùm được mở khóa. Phần thưởng tăng theo độ khó: Mảnh vạn năng UR (UR Omni Shards), Tinh hoa Raven (Raven Essence) và Kim cương.
+**Kinh nghiệm Đại dịch** (Xông Pha Đại Dịch) là một sự kiện chiến đấu định kỳ hai tuần một lần: bạn chiến đấu chống lại các đợt "Y tá Địa ngục" (Hell Nurses) có độ khó tăng dần — từ **Cấp độ 1 đến Cấp độ 9** — và cả bạn lẫn **liên minh của bạn** cùng nhau leo thang. Liên minh tiến càng sâu, càng nhiều trùm được mở khóa. Phần thưởng tăng theo độ khó: Mảnh vạn năng UR (UR Omni Shards), Tinh hoa Raven (Raven Essence) và Kim cương.
 
 ## Tiến trình hoạt động như thế nào {#progression}
 

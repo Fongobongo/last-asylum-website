@@ -7,7 +7,7 @@ videoTopic: path_to_healing
 type: event
 ---
 
-**Con đường Chữa lành (Path to Healing)** là sự kiện tân thủ quan trọng kéo dài 5 ngày dành cho mọi người sống sót mới trong Last Asylum: Plague. Hoàn thành chuỗi nhiệm vụ này đảm bảo bạn nhận được **15 Mảnh Anh hùng UR Arthur** — tướng đỡ đòn hàng đầu không thể tranh cãi cho giai đoạn đầu đến giữa game — và **30 Mảnh SSR Celia**, giúp củng cố nền tảng vững chắc cho đội hình chính của bạn.
+**Con đường Chữa lành (Con Đường Cứu Rỗi)** là sự kiện tân thủ quan trọng kéo dài 5 ngày dành cho mọi người sống sót mới trong Last Asylum: Plague. Hoàn thành chuỗi nhiệm vụ này đảm bảo bạn nhận được **15 Mảnh Anh hùng UR Arthur** — tướng đỡ đòn hàng đầu không thể tranh cãi cho giai đoạn đầu đến giữa game — và **30 Mảnh SSR Celia**, giúp củng cố nền tảng vững chắc cho đội hình chính của bạn.
 
 Tuy nhiên, sự kiện này có một điều kiện tiên quyết nghiêm ngặt, không thể thương lượng mà nhiều người mới chơi thường bỏ qua: **Cổng cấp độ VIP**.
 

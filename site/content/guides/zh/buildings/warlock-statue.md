@@ -6,7 +6,7 @@ lang: zh
 updated: "2026-09-19"
 type: guide
 ---
-![Warlock Statue](/building-icons/5045.png)
+![术士雕像](/building-icons/5045.png)
 
 
 > 数据已通过游戏客户端验证（v1.0.87，来源：[wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-warlock-statue)）。
@@ -46,19 +46,19 @@ type: guide
 ## 获得加成的英雄
 
 该阵营的所有英雄都可以获得加成，包括处于替补席上的英雄。
-- Ulfrid · UR
-- Billy · UR
-- Nicole · UR
-- Annie · UR
-- Joker · UR
-- Hastar · SSR
-- Stellar · SSR
-- Grenwald · SSR
-- Kafa · SR
+- 乌尔弗雷德 · UR
+- 比利 · UR
+- 妮可 · UR
+- 安妮 · UR
+- 小丑 · UR
+- 哈斯塔 · SSR
+- 星缀 · SSR
+- 格林德沃 · SSR
+- 卡法 · SR
 
 ## 如何使用
 
-避难所（Sanctuary）11 级会解锁三个建筑，其中有两个是瞬间完成的，即消耗 10 粮食的私人马厩（Private Stable）和消耗 21 资源 的联盟马厩（Alliance Stable）。术士雕像是唯一占用建造队列的建筑，并且会占用很长一段时间：要升到 30 级，总共需要 299 天 4 小时、1,253,641,685 粮食和 3,784,783,300 木材。
+避难所（Sanctuary）11 级会解锁三个建筑，其中有两个是瞬间完成的，即消耗 10 粮食的私人马厩（个人马厩）和消耗 21 资源 的联盟马厩（公会马厩）。术士雕像是唯一占用建造队列的建筑，并且会占用很长一段时间：要升到 30 级，总共需要 299 天 4 小时、1,253,641,685 粮食和 3,784,783,300 木材。
 
 游戏中有九名术士英雄（其中五个是 UR），而战士英雄有十四名。虽然术士的花名册较短，但三座阵营雕像在 30 级时的加成是完全相同的：为该阵营的每个英雄（包括处于预备役的英雄）提供 151,500 点生命值、723 点攻击力、723 点防御力和 100 点带兵上限。
 

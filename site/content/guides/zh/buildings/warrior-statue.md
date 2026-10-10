@@ -6,7 +6,7 @@ lang: zh
 updated: "2026-09-19"
 type: guide
 ---
-![Warrior Statue](/building-icons/5044.png)
+![战士雕像](/building-icons/5044.png)
 
 
 > 数据已通过游戏客户端验证（v1.0.87，来源：[wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-warrior-statue)）。
@@ -46,20 +46,20 @@ type: guide
 ## 获得加成的英雄
 
 阵营中的每一个英雄都能获得加成，包括那些处于替补席上的英雄。
-- Daskal · UR
-- Arthur · UR
-- Harper · UR
-- Zoya · UR
-- Marlena · UR
-- Lucius · SSR
-- Bella · SSR
-- Celia · SSR
-- Kesso · SSR
-- Sivir · SSR
-- Claire · SSR
-- Claire (Advanced) · UR
-- Durant · SR
-- William · SR
+- 达斯卡尔 · UR
+- 亚瑟 · UR
+- 哈珀 · UR
+- 卓雅 · UR
+- 玛莲娜 · UR
+- 卢修斯 · SSR
+- 贝拉 · SSR
+- 希莉亚 · SSR
+- 凯索 · SSR
+- 希维尔 · SSR
+- 克蕾雅 · SSR
+- 克蕾雅 (Advanced) · UR
+- 杜兰特 · SR
+- 威廉姆斯 · SR
 
 ## 如何使用
 

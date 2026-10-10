@@ -7,7 +7,7 @@ videoTopic: final_dawn
 type: event
 ---
 
-Sự kiện **Bình minh cuối cùng** (Final Dawn) là cột mốc phát triển trong 7 ngày mang tính quyết định cho hành trình giai đoạn đầu của bạn trong Last Asylum: Plague. Trọng tâm chính của sự kiện là đẩy nhanh Sức mạnh Thánh địa và liên tục mở khóa các phần thưởng mốc tiến trình theo cấp độ: vật phẩm tăng tốc đa năng, rương tài nguyên lớn, mảnh anh hùng và trang bị thiết yếu.
+Sự kiện **Bình minh cuối cùng** (Bình Minh Cuối Cùng) là cột mốc phát triển trong 7 ngày mang tính quyết định cho hành trình giai đoạn đầu của bạn trong Last Asylum: Plague. Trọng tâm chính của sự kiện là đẩy nhanh Sức mạnh Thánh địa và liên tục mở khóa các phần thưởng mốc tiến trình theo cấp độ: vật phẩm tăng tốc đa năng, rương tài nguyên lớn, mảnh anh hùng và trang bị thiết yếu.
 
 Được đúc kết bởi các chỉ huy kỳ cựu (oψsvge英俊的, Server K250), hướng dẫn này cung cấp một bản thiết kế chiến thuật theo từng giai đoạn cho toàn bộ lịch trình 7 ngày.
 

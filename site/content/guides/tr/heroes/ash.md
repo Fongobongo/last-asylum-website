@@ -35,7 +35,7 @@ Ash, DPS rolünü üstlenen bir SSR menzilli kahramandır. Tamamen geliştirildi
 
 Rol: Pasif yeteneği "Odaklanma" (Focus) 50 yıldızda iki menzilli kahraman için canavar hasarını %33 artırdığından, kendi türünü güçlendiren bir menzilli DPS'tir. Yıldızsız ve yetenek seviyesiz halde bonus %12,3'tür ve bu bonus takımdaki en yüksek saldırı gücüne sahip iki menzilli kahruamana gider; bu nedenle Ash özellikle menzilli kadrolarında karşılığını verir. Kendi vuruşu olan "Kartal Ruhu Avı" (Eagle Spirit Hunt), tek bir hedefe ATK'nin %2.798,4'ü kadar hasar verir.
 
-Yatırım yapmaya değer mi: Ash, maksimum Güç (685.873) bakımından on altı DPS kahramanı arasında dokuzuncu sırada yer alır ve B kademesindedir. UR kahramanlar olmadan kurulan en iyi menzilli kadroda yer alır, bu yüzden erken yatırım yapmak karşılığını verir. Cynthia veya Red Lady açıldığında ise ilk beş sıradaki yer onlara devredilir.
+Yatırım yapmaya değer mi: Ash, maksimum Güç (685.873) bakımından on altı DPS kahramanı arasında dokuzuncu sırada yer alır ve B kademesindedir. UR kahramanlar olmadan kurulan en iyi menzilli kadroda yer alır, bu yüzden erken yatırım yapmak karşılığını verir. Cynthia veya Kızıl Hanım açıldığında ise ilk beş sıradaki yer onlara devredilir.
 
 ## Yetenekler
 
@@ -157,7 +157,7 @@ Güç bakımından bu rolün en güçlü on iki kahramanı. Büyüme (Growth), s
 | Annie | Büyücü | UR | 916.394 | 0,57 | 1,52 | 0,9 |
 | Cynthia | Menzilli | UR | 916.153 | 0,64 | 1,39 | 0,92 |
 | Marlena | Savaşçı | UR | 914.868 | 0,58 | 1,49 | 0,91 |
-| Red Lady | Menzilli | UR | 913.583 | 0,6 | 1,45 | 0,91 |
+| Kızıl Hanım | Menzilli | UR | 913.583 | 0,6 | 1,45 | 0,91 |
 | Joker | Büyücü | UR | 913.583 | 0,6 | 1,45 | 0,91 |
 | Grenwald | Büyücü | SSR | 690.773 | 0,35 | 1,09 | 0,59 |
 | Kesso | Savaşçı | SSR | 686.515 | 0,42 | 0,94 | 0,61 |
@@ -185,7 +185,7 @@ Kartal Ruhu Avı · hasar çarpanı · 15 üzerinden 8. sıra
 | Kahraman | Sınıf / Grup | Yetenek | Yetenek Türü | Hasar, ATK %'si | Etki Alanı |
 |---|---|---|---|---|---|
 | Joker | Büyücü | Joker Ası | Nihai Yetenek | %5.047,5 | tek hedef |
-| Red Lady | Menzilli | Kızıl Gül | Nihai Yetenek | %4.550,4 | tek hedef |
+| Kızıl Hanım | Menzilli | Kızıl Gül | Nihai Yetenek | %4.550,4 | tek hedef |
 | Zoya | Savaşçı | Orman Avcısı | Nihai Yetenek | %3.669,6 | tek hedef |
 | Annie | Büyücü | Şeker Kavanozu | Nihai Yetenek | %3.553,2 | tek hedef |
 | Ash | Menzilli | Kartal Ruhu Avı | Nihai Yetenek | %2.798,4 | tek hedef |
@@ -196,13 +196,13 @@ Bir Taşla İki Kuş · hasar çarpanı · 15 üzerinden 7. sıra
 
 | Kahraman | Sınıf / Grup | Yetenek | Yetenek Türü | Hasar, ATK %'si | Etki Alanı |
 |---|---|---|---|---|---|
-| Red Lady | Menzilli | Kana Susamış Katliam | Aktif Yetenek | %2.934 | tek hedef |
+| Kızıl Hanım | Menzilli | Kana Susamış Katliam | Aktif Yetenek | %2.934 | tek hedef |
 | Sivir | Savaşçı | Kalkan Vuruşu | Aktif Yetenek | %1.887,6 | tek hedef |
 | Grenwald | Büyücü | Kalp Kıran Büyü | Aktif Yetenek | %1.841,4 | tek hedef |
 | Cynthia | Menzilli | Ay Avı | Aktif Yetenek | %1.800 | tek hedef |
 | Ash | Menzilli | Bir Taşla İki Kuş | Aktif Yetenek | %1.584 | tek hedef |
 
-Daha güçlü: Red Lady, Kana Susamış Katliam tek bir hedefe ATK'nin %2.934'ü kadar hasar verir.
+Daha güçlü: Kızıl Hanım, Kana Susamış Katliam tek bir hedefe ATK'nin %2.934'ü kadar hasar verir.
 
 ## Geliştirme Sırası
 
@@ -282,7 +282,7 @@ Her ilerleme sisteminin tek başına sağladığı kazançlar. Bunlar, ilk olara
 
 Ash, 685.873 Güç taşır; bu değer 16 kahraman arasında dokuzuncudur ve Bestar'ın 80 puan önündedir. Kartal Ruhu Avı tek bir hedefe %2.798,4 hasar verir; bu, bu roldeki SSR kahramanlar arasındaki en yüksek nihai yetenektir (Claire %2.266,29, Grenwald ise %2.044,65 oranına sahiptir). Buna karşılık alan hasarından yoksundur ve Bir Taşla İki Kuş rastgele iki hedefe saldırır.
 
-SSR kahramanların sunucu yaşı koşulu yoktur, bu nedenle Ash ilk günden itibaren kullanılabilir. UR menzilli kahramanlar henüz erişilebilir değilken yerini korur: Cynthia sunucunun 7. gününde, Red Lady ise 35. gününde gelir. Pasif Odaklanma yeteneği en yüksek ATK'ye sahip iki menzilli kahramanı güçlendirir, bu nedenle karma bir kadroda bu değerin bir kısmı boşa gider.
+SSR kahramanların sunucu yaşı koşulu yoktur, bu nedenle Ash ilk günden itibaren kullanılabilir. UR menzilli kahramanlar henüz erişilebilir değilken yerini korur: Cynthia sunucunun 7. gününde, Kızıl Hanım ise 35. gününde gelir. Pasif Odaklanma yeteneği en yüksek ATK'ye sahip iki menzilli kahramanı güçlendirir, bu nedenle karma bir kadroda bu değerin bir kısmı boşa gider.
 
 Üst sınırı yalnızca seviyelere ve yıldızlara dayanır çünkü SSR kahramanların ne uyanışı ne de özel silahı vardır: 961.611 HP ve 14.695 ATK (bunun 213.663 HP ve 3.264 ATK'si yıldızlardan gelir). Odaklanma yeteneği yirminci yıldıza kadar %24'te kalır ve oradan sonra sırasıyla yirminci, kırk beşinci ve ellinci yıldızdaki üç adet %3'lük artışla %33'e ulaşır.
 

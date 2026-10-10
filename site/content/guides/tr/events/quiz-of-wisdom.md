@@ -7,7 +7,7 @@ updated: "2026-09-14"
 videoTopic: beginner
 ---
 
-**Bilgelik Sınavı (Quiz of Wisdom)**, **Last Asylum: Plague** oyununda komutanların oyun mekanikleri, hikaye, bina önkoşulları, birlik zayıflıkları (faktör karşıtlıkları) ve kahraman yetenekleri hakkındaki bilgilerinin test edildiği tekrarlayan bir topluluk trivia etkinliğidir.
+**Bilgelik Sınavı (Bilgelik Sınavı)**, **Last Asylum: Plague** oyununda komutanların oyun mekanikleri, hikaye, bina önkoşulları, birlik zayıflıkları (faktör karşıtlıkları) ve kahraman yetenekleri hakkındaki bilgilerinin test edildiği tekrarlayan bir topluluk trivia etkinliğidir.
 
 15 sorunun tümünü doğru yanıtlamak; ücretsiz elmaslar, işe alım biletleri, hızlandırmalar ve değerli ilerleme materyalleriyle dolu maksimum aşama dönüm noktası sandıkları kazandırır.
 
@@ -61,12 +61,12 @@ Oyun istemcisi verilerinden (v1.0.87) doğrulanan değerler, kaynak: wiki-last-a
 | Her gün iki Dayanıklılık talep etme fırsatı arasındaki zaman aralığı ne kadardır? | 4 Saat |
 | Bir yürüyüş kuyruğu aynı anda kaç Gizli Operasyon yürütebilir? | 2 |
 | Oyundaki her Hayatta Kalma Savaşı kaç saat sürer? | 4 |
-| İksir Kapışması (Elixir Scramble) kaç dakika sürer? | 30 Dakika |
+| İksir Kapışması (İksir Savaşı) kaç dakika sürer? | 30 Dakika |
 | İttifak üyesi olmayanların Gizli Operasyonları günde kaç kez yağmalanabilir? | 5 |
 | İttifak üyelerinin Gizli Operasyonları tamamlamasına günde kaç kez yardım edebilirsiniz? | 5 |
 | Başkalarının Ticaret Kervanı'nı günde kaç kez yağmalayabilirsiniz? | 4 |
 | İksir Kapışması'nda ilk ücretsiz yer değiştirme aralığı (dakika olarak) nedir? | 2 Dakika |
-| Oyuncular hangi binada kurtulanları hızlı bir şekilde sevk edebilir? | Konut (Residence) |
+| Oyuncular hangi binada kurtulanları hızlı bir şekilde sevk edebilir? | Konut (Konut) |
 | İttifak Düellosu etkinliği hangi günler mevcut değildir? | Pazar |
 | İttifak Düellosu teknolojisini araştırmak, İttifak Düellosu başına kazanılan puanları artırabilir. | Doğru |
 | Asker sayısında bir sınır yoktur. | Yanlış |
@@ -82,7 +82,7 @@ Oyun istemcisi verilerinden (v1.0.87) doğrulanan değerler, kaynak: wiki-last-a
 | Bina/teknoloji geliştirmeleri için kaynak eksik olduğunda ne yapabilirsiniz? | Yukarıdakilerin hepsi |
 | Gizli Operasyonların Yıldız seviyesi arttığında ne değişir? | Yukarıdakilerin hepsi |
 | Arthur'un Aktif Yeteneğinin etkileri nelerdir? | Kalkan ekle |
-| Shadow'un oyundaki rolü nedir? | Tank |
+| Gölge'un oyundaki rolü nedir? | Tank |
 | Kervan slotu ne ile ilgilidir? | Birlik Sayısı |
 | Oyunda daha yüksek seviyeli Kışlaya sahip olmanın faydası nedir? | Asker kapasitesi artırıldı |
 | Antitoksinin işlevi nedir? | Kahramanı güçlendirir veya yükseltir |

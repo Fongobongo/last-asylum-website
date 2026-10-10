@@ -11,13 +11,13 @@ type: event
 
 Het Alliantie-duel is het evenement waar de hele week om draait: zes dagen competitie tegen een evenwichtig geselecteerde rivaliserende alliantie, met elke dag een andere puntencategorie en een PvP-finale op zaterdag. Het is ook het evenement dat bepaalt hoeveel van je voorraad je ooit zou moeten uitgeven — scherven, tickets, badges en versnellers hebben allemaal een dueldag waarop ze het dubbele of meer waard zijn.
 
-Deze gids behandelt de deelnamevereisten, de fasemechanieken met exacte puntewaarden, de dagelijkse bespaarstrategie, het stapelen van Valkenpeuringen (Falcon Quests) en hoe het duel bijdraagt aan de Oorlog om het Koninkrijk (Kingdom War).
+Deze gids behandelt de deelnamevereisten, de fasemechanieken met exacte puntewaarden, de dagelijkse bespaarstrategie, het stapelen van Valkenpeuringen (Falcon Quests) en hoe het duel bijdraagt aan de Oorlog om het Koninkrijk (Koninkrijksstrijd).
 
 ## Wat het Alliantie-duel is {#what-it-is}
 
 Het Alliantie-duel is een **alliantiecompetitie van 6 dagen**, opgedeeld in fasen 1 tot en met 6, die loopt van maandag tot en met zaterdag. Elke dag heeft zijn eigen puntencategorie — een specifieke set acties die duelpunten oplevert — en de alliantie die de meeste punten scoort in de dagelijkse categorie wint die fase. Zaterdag, Fase 6, is de **PvP-finale** waarin de twee allianties het eindelijk direct tegen elkaar opnemen.
 
-Er is ook een ingekort formaat: **Overlevingsstrijd (Survival Battle)**, een versie van het duel van 4 uur voor allianties die dezelfde competitie willen zonder de volledige week. De mechanieken en scorelogica zijn identiek — alleen de klok verandert.
+Er is ook een ingekort formaat: **Overlevingsstrijd (Overlevingsstrijd)**, een versie van het duel van 4 uur voor allianties die dezelfde competitie willen zonder de volledige week. De mechanieken en scorelogica zijn identiek — alleen de klok verandert.
 
 > Het duel wordt niet gewonnen op de dag zelf. Het wordt gewonnen door degene die de juiste grondstoffen voor de juiste fase heeft bewaard.
 

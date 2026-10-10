@@ -7,7 +7,7 @@ videoTopic: path_to_healing
 type: event
 ---
 
-**İyileştirme Yolu (Path to Healing)**, Last Asylum: Plague oyunundaki her yeni hayatta kalan için kritik öneme sahip 5 günlük bir başlangıç etkinliğidir. Bu etkinlik görevlerinin tamamlanması, erken-orta aşamada tartışmasız en iyi ön hat tankı olan **15 adet UR Arthur Kahraman Parçası** ile ana kadronuz için dayanıklı bir temel oluşturan **30 adet SSR Celia Parçası** kazandırır.
+**İyileştirme Yolu (Şifa Yolu)**, Last Asylum: Plague oyunundaki her yeni hayatta kalan için kritik öneme sahip 5 günlük bir başlangıç etkinliğidir. Bu etkinlik görevlerinin tamamlanması, erken-orta aşamada tartışmasız en iyi ön hat tankı olan **15 adet UR Arthur Kahraman Parçası** ile ana kadronuz için dayanıklı bir temel oluşturan **30 adet SSR Celia Parçası** kazandırır.
 
 Ancak etkinlik, birçok yeni oyuncunun hazırlıksız yakalandığı katı ve tavizsiz bir uygunluk ön koşuluna sahiptir: **VIP Seviye Sınırı**.
 

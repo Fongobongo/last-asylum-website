@@ -1,5 +1,5 @@
 ---
-title: "Kingdom War (KvK): Overleving & Score"
+title: "Koninkrijksstrijd (KvK): Overleving & Score"
 description: "Server-tegen-serveroorlog om de Koninklijke Stad: het tweewekelijkse schema, de strategie van geschutskoepels eerst voor aanvallers, vertragingstactieken voor verdedigers, troepen- en grondstoffenrisico's en de score-overlap met het Alliantieduel."
 lang: nl
 updated: "2026-09-03"
@@ -9,7 +9,7 @@ infographics: []
 type: event
 ---
 
-Kingdom War is de **server-tegen-serveroorlog** van het spel: twee koninkrijken vallen een gedeelde kaart binnen en vechten om de **Koninklijke Stad**. Het vindt **tweewekelijks** plaats, met score- en voorbereidingstaken gedurende de week en het hoofdgevecht samengeperst in een enkel venster. Je wint door de Koninklijke Stad te controleren wanneer de rook optrekt.
+Koninkrijksstrijd is de **server-tegen-serveroorlog** van het spel: twee koninkrijken vallen een gedeelde kaart binnen en vechten om de **Koninklijke Stad**. Het vindt **tweewekelijks** plaats, met score- en voorbereidingstaken gedurende de week en het hoofdgevecht samengeperst in een enkel venster. Je wint door de Koninklijke Stad te controleren wanneer de rook optrekt.
 
 Deze gids behandelt het schema, de strategie voor aanvallers en verdedigers, universele regels, de fouten die oorlogen doen verliezen, en de economieregels die je account door de strijd heen slepen.
 
@@ -55,9 +55,9 @@ Aan welke kant je ook staat, dezelfde regels zijn van toepassing:
 
 ## KvK-economie: troepen, grondstoffen en schilden {#economy-rules}
 
-Kingdom War is een van de weinige evenementen met echte risico's voor je account:
+Koninkrijksstrijd is een van de weinige evenementen met echte risico's voor je account:
 
-- **Je KUNT troepen en grondstoffen verliezen wanneer je wordt aangevallen** — dit is geen evenement zonder risico's zoals [Canyon Conquest](/nl/events/canyon/).
+- **Je KUNT troepen en grondstoffen verliezen wanneer je wordt aangevallen** — dit is geen evenement zonder risico's zoals [Ravijnverovering](/nl/events/canyon/).
 - **Activeer een schild** tijdens het oorlogstvenster. Een niet-beschermde stad tijdens KvK is een grondsptoffenpiñata voor de vijandelijke server.
 - **Verliezen schalen mee met je muur en onderzoek** — een gemaximaliseerde muur en verdedigend onderzoek veranderen een bloedbad in een schermutseling.
 - **Bewaar upgrades en versnellingen voor de scorenamedagen** — dezelfde dubbele waarde-logica die geldt voor het [Alliantieduel](/nl/events/alliance-duel/) is van toepassing op KvK-scoretaken. Het besteden van een grote upgrade op een neutrale dag levert de helft op.

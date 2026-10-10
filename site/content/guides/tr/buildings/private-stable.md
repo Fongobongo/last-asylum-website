@@ -6,7 +6,7 @@ lang: tr
 updated: "2026-09-19"
 type: guide
 ---
-![Private Stable](/building-icons/5051.png)
+![Özel Ahır](/building-icons/5051.png)
 
 
 > Veriler oyun istemcisi üzerinden doğrulanmıştır (v1.0.87, kaynak: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-private-stable)).
@@ -40,6 +40,6 @@ Bu bina herhangi bir istatistik bonusu vermez: yüzdelerden ziyade bir seçeneğ
 
 Kişisel kervan, oyuncunun kendi inşası için kaynak taşır ve yük miktarı, sefer sayısından çok araba kalitesine bağlıdır: birinci ve altıncı kalite arasındaki fark altı kattır. Başka birinin kişisel kervanı en fazla iki kez, bir ittifak kervanı ise üç kez yağmalanabilir; bu nedenle kişisel seferler yalnızca daha ucuz değil, aynı zamanda daha güvenlidir.
 
-İttifak Ahırı (Alliance Stable) ile birlikte ikisinin toplam maliyeti 22 Tahıl ve 9 Odundur ve aralarında 1.000 Güç (Might) getirir. Sığınak 11. seviyeden hemen sonra her ikisini birden tek seferde inşa etmek mantıklıdır; kaynakları ve kuyruk süresini, şehirdeki tüm anlık binaların toplamından daha fazla Güç (Might) taşıyan grup heykeline bırakır.
+İttifak Ahırı (İttifak Ahırı) ile birlikte ikisinin toplam maliyeti 22 Tahıl ve 9 Odundur ve aralarında 1.000 Güç (Might) getirir. Sığınak 11. seviyeden hemen sonra her ikisini birden tek seferde inşa etmek mantıklıdır; kaynakları ve kuyruk süresini, şehirdeki tüm anlık binaların toplamından daha fazla Güç (Might) taşıyan grup heykeline bırakır.
 
-Şehirde kaynak birimi başına bundan daha fazla Güç (Might) veren başka hiçbir bina yoktur: Anıtın (Monument) maliyeti olan 840 kaynak için 100 Güç verirken, on Tahıl için 500 Güç verir. Şehir toplamında bu hâlâ küçük bir miktardır, ancak ahır, neredeyse boş bir depo ile bile yükseltilebilen tek yapıdır; bu da onu genellikle Sığınak 11. seviyeden sonraki ilk saatlerde öncelikli hale getirir. Ahır tek bir seviyeye sahiptir ve bir kez inşa edildiğinde ne başka bir kaynak ne de inşaatçı süresi talep eder.
+Şehirde kaynak birimi başına bundan daha fazla Güç (Might) veren başka hiçbir bina yoktur: Anıtın (Anıt) maliyeti olan 840 kaynak için 100 Güç verirken, on Tahıl için 500 Güç verir. Şehir toplamında bu hâlâ küçük bir miktardır, ancak ahır, neredeyse boş bir depo ile bile yükseltilebilen tek yapıdır; bu da onu genellikle Sığınak 11. seviyeden sonraki ilk saatlerde öncelikli hale getirir. Ahır tek bir seviyeye sahiptir ve bir kez inşa edildiğinde ne başka bir kaynak ne de inşaatçı süresi talep eder.

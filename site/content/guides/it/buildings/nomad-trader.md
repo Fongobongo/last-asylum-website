@@ -6,7 +6,7 @@ lang: it
 updated: "2026-09-19"
 type: guide
 ---
-![Nomad Trader](/building-icons/5040.png)
+![Mercante nomade](/building-icons/5040.png)
 
 
 > Dati verificati tramite il client di gioco (v1.0.87, fonte: [wiki-last-asylum.com](https://wiki-last-asylum.com/it/wiki/building-nomad-trader)).

@@ -7,7 +7,7 @@ videoTopic: survival
 type: event
 ---
 
-**Hayatta Kalma Savaşı (Survival Battle)**, Last Asylum: Plague oyunundaki en önemli yinelenen görev etkinliğidir ve ücretsiz (F2P) komutanlar için finansal temel oluşturur: **çalışkan F2P oyuncular her hafta düzenli olarak yaklaşık 60.000 ücretsiz Yetenek Rozeti (Skill Badge)** ve Hayatta Kalma Mührü (Survival Seal) elde eder.
+**Hayatta Kalma Savaşı (Hayatta Kalma Savaşı)**, Last Asylum: Plague oyunundaki en önemli yinelenen görev etkinliğidir ve ücretsiz (F2P) komutanlar için finansal temel oluşturur: **çalışkan F2P oyuncular her hafta düzenli olarak yaklaşık 60.000 ücretsiz Yetenek Rozeti (Skill Badge)** ve Hayatta Kalma Mührü (Survival Seal) elde eder.
 
 Yetenek Rozetleri, tüm kahraman yetenek ağaçlarındaki kalıcı darboğazdır. Bu rehber; 4 saatlik dönen fazları, aşama (milestone) ödüllerini ve İttifak Düellosu fazlarıyla kusursuz koordinasyonu açıklamaktadır.
 
@@ -121,7 +121,7 @@ Tüm F2P ve az harcama yapan komutanlar için çok önemli bir öneri:
 
 ## 🎬 Video Rehberi: KorpezGaming'den Hayatta Kalma Savaşı İncelemesi {#video-guide}
 
-Yaratıcı **KorpezGaming** tarafından hazırlanan tam video incelemesi aşağıya gömülmüştür ve [The Secret to 60K FREE Skill Badges | Ultimate Survival Battle Guide](https://youtu.be/akt3OGeHXgY) adresinden erişilebilir.
+Yaratıcı **KorpezGaming** tarafından hazırlanan tam video incelemesi aşağıya gömülmüştür ve [The Secret to 60K FREE Skill Badges | Ultimate Hayatta Kalma Savaşı Guide](https://youtu.be/akt3OGeHXgY) adresinden erişilebilir.
 
 ### Önemli Zaman Damgaları ve Çıkarımlar:
 * `00:00` — **60 Bin Ücretsiz Yetenek Rozeti F2P Temeli:** Günlük Hayatta Kalma Savaşı'nın kahraman gelişimi için neden tek en önemli rutin olduğu.

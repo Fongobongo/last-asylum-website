@@ -45,6 +45,6 @@ Cấp độ của Bãi Huấn Luyện mở khóa các bậc lính, và các mố
 
 Sức Chứa Huấn Luyện tăng đều hơn: 33 ở cấp đầu tiên, sau đó là 475 ở cấp 20 và 573 ở cấp 30. Mười cấp độ cuối cùng cộng thêm 98 chỗ và tốn 286 ngày, trong khi hai mươi cấp độ đầu tiên cung cấp 475 chỗ trong nửa tháng. Mười cấp đầu tiên tốn 2.387.374 tài nguyên: nửa ngày xây dựng là đã có thể mang lại T4 và 371 chỗ.
 
-Có thể xây dựng ba Bãi Huấn Luyện, và việc nâng cấp tối đa cả ba sẽ tốn 897 ngày. Doanh Trại (Barracks) từ cùng cấp Thánh Địa 6 cần 199 ngày, Đội Trinh Sát (Scout Squad) cần 299 ngày. Thứ tự thông thường là đặt ba Doanh Trại lên cấp 20 trước để lấy Sức Chứa Lính, sau đó mới đến Bãi Huấn Luyện để lấy các bậc lính, bởi vì bậc lính thay đổi sức mạnh của binh lính trong khi sức chứa chỉ thay đổi số lượng.
+Có thể xây dựng ba Bãi Huấn Luyện, và việc nâng cấp tối đa cả ba sẽ tốn 897 ngày. Doanh Trại (Doanh Trại) từ cùng cấp Thánh Địa 6 cần 199 ngày, Đội Trinh Sát (Đội Trinh Sát) cần 299 ngày. Thứ tự thông thường là đặt ba Doanh Trại lên cấp 20 trước để lấy Sức Chứa Lính, sau đó mới đến Bãi Huấn Luyện để lấy các bậc lính, bởi vì bậc lính thay đổi sức mạnh của binh lính trong khi sức chứa chỉ thay đổi số lượng.
 
 Về mặt Sức Mạnh, Bãi Huấn Luyện dẫn đầu so với các công trình cùng cấp: 280.200 so với 229.600 của Doanh Trại và 182.000 của Đội Trinh Sát. Nó tốn 6.085.820.074 tài nguyên cho mỗi bản sao, và gần như toàn bộ số đó dành cho năm cấp độ cuối cùng.

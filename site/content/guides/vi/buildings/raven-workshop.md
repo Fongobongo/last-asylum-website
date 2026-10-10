@@ -47,4 +47,4 @@ Nâng cấp toàn diện mất 99 ngày 17 giờ, ít hơn ba lần so với 299
 
 Giá trị của một phần ba đó được thể hiện trong nền kinh tế trang bị của Raven: một vật phẩm ở mỗi cấp độ sẽ tốn ba vật phẩm ở cấp dưới đó, và một ô trang bị lên đến cấp 12 cần tới 177.147 rương Cấp 1. Giới hạn hàng ngày không bao giờ bù lại những ngày bạn bỏ lỡ, vì vậy xưởng cần được dọn sạch mỗi ngày.
 
-Tòa nhà mang lại 168.200 Lực Chiến, gần bằng Xưởng Văn Bia (Epigraph Workshop) với 168.400 và Xưởng Luyện Kim (Smelting Workshop) với 168.300. Năm cấp cuối cùng chiếm tới 79% thời gian xây dựng và không còn làm thay đổi lượng rương thu hoạch hàng ngày nữa.
+Tòa nhà mang lại 168.200 Lực Chiến, gần bằng Xưởng Văn Bia (Xưởng Khắc Ấn) với 168.400 và Xưởng Luyện Kim (Xưởng Luyện Kim) với 168.300. Năm cấp cuối cùng chiếm tới 79% thời gian xây dựng và không còn làm thay đổi lượng rương thu hoạch hàng ngày nữa.

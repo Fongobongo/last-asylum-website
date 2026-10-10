@@ -47,4 +47,4 @@ Thời gian hồi chiêu chiêu mộ miễn phí giảm từ 259.200 giây, tứ
 
 Tính theo một giai đoạn (era), khoảng cách này thể hiện rõ hơn. Trong vòng 56 ngày, thời gian hồi chiêu 72 giờ mang lại 18 lượt chiêu mộ anh hùng miễn phí và thời gian hồi chiêu 48 giờ mang lại 28 lượt. Lượt chiêu mộ người sống sót miễn phí cũng hồi lại với tần suất tương tự: cả hai thời gian hồi chiêu của Quán Rượu đều chạy trên cùng một số liệu chính xác.
 
-Cấp 1 tốn 29 Lương thực và 9 Gỗ và hoàn thành trong vòng chưa đầy một phút, vì vậy Quán Rượu được xây dựng ngay vào ngày Thánh Điện cấp 4 mở khóa. Từ đó, công trình được đưa lên cấp 20 và 54.000 Sức Mạnh, trong khi mười cấp độ cuối cùng cùng 309.500 Sức Mạnh của chúng sẽ chờ cùng với Xưởng Trang Bị (Gear Workshop).
+Cấp 1 tốn 29 Lương thực và 9 Gỗ và hoàn thành trong vòng chưa đầy một phút, vì vậy Quán Rượu được xây dựng ngay vào ngày Thánh Điện cấp 4 mở khóa. Từ đó, công trình được đưa lên cấp 20 và 54.000 Sức Mạnh, trong khi mười cấp độ cuối cùng cùng 309.500 Sức Mạnh của chúng sẽ chờ cùng với Xưởng Trang Bị (Xưởng Trang Bị).

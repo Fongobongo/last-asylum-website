@@ -6,7 +6,7 @@ lang: tr
 updated: "2026-09-19"
 type: guide
 ---
-![Nomad Trader](/building-icons/5040.png)
+![Göçebe Tüccar](/building-icons/5040.png)
 
 > Veriler oyun istemcisine göre doğrulanmıştır (v1.0.87, kaynak: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-nomad-trader)).
 

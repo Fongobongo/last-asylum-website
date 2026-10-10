@@ -31,11 +31,11 @@ Le basi sugli eroi si trovano ora nella sezione Eroi, che raccoglie tutte le gui
 
 Risposte brevi alle domande che arrivano continuamente a Korpez: la maggior parte di queste ti riguarderà nelle settimane 2–4.
 
-- **Quando la mia squadra di Ranger è pronta a sostituire i Guerrieri?** Non solo in base al numero di stelle: controlla tre requisiti: ogni ranger almeno a 8★ (Cynthia e Red Lady a 10★, Louis a 8★, Bell a 9–10★), il Tempio/Statua dei Ranger a ~22+ e la ricerca degli eroi allo stesso stadio del ramo dei Guerrieri. Regola empirica del sito: il cambio avviene quando la squadra di Ranger raggiunge ~18M di potenza contro una squadra esistente di 60M di Guerrieri, potenziata quando tutti e quattro i flag sono sbloccati.
+- **Quando la mia squadra di Ranger è pronta a sostituire i Guerrieri?** Non solo in base al numero di stelle: controlla tre requisiti: ogni ranger almeno a 8★ (Cynthia e Dama Rossa a 10★, Luigi a 8★, Bell a 9–10★), il Tempio/Statua dei Ranger a ~22+ e la ricerca degli eroi allo stesso stadio del ramo dei Guerrieri. Regola empirica del sito: il cambio avviene quando la squadra di Ranger raggiunge ~18M di potenza contro una squadra esistente di 60M di Guerrieri, potenziata quando tutti e quattro i flag sono sbloccati.
 - **Zoya o Claire: chi vince?** Zoya è il vero tank PvP (a pagamento); **Claire UR è una specialista PvE/mostri per sempre** — la sua passiva rimane bloccata sul danno ai mostri anche in forma UR. Tieni Claire per i boss mondiali, Pandemic e gli zombie KvK; sostituiscila con Zoya non appena disponibile per il PvP.
 - **Posso evitare di tenere truppe sul muro per salvare vite?** No. Indipendentemente dalla scelta della guarnigione, una difesa perdente perde comunque le stesse truppe. Metti le truppe ogni volta che puoi contrastare l'attaccante; **evacua e teletrasportati solo quando l'attaccante è imbattibile**. Attiva lo scudo prima di ogni KvK, sempre: "non serve uno scudo in KvK" è un mito.
 - **Riposo del Soldato: resuscitare i morti?** Sì, ma il tempo di recupero è lungo e aumenta con l'aiuto dell'alleanza: trattalo come una riserva da svuotare dopo il KvK, non come una comodità quotidiana. Non sprecarlo per la caccia ai mostri in solitaria.
-- **Spada di Cynthia a 10★: il prossimo progetto su di lei o su Red Lady?** Korpez: guanti, non una seconda spada. Scelta di preferenza tra Cynthia e Red Lady: Cynthia ha più AoE, Red Lady colpisce più forte sui bersagli singoli. Una spada rossa + guanti rossi sullo stesso carry battono due spade divise su due DPS.
+- **Spada di Cynthia a 10★: il prossimo progetto su di lei o su Dama Rossa?** Korpez: guanti, non una seconda spada. Scelta di preferenza tra Cynthia e Dama Rossa: Cynthia ha più AoE, Dama Rossa colpisce più forte sui bersagli singoli. Una spada rossa + guanti rossi sullo stesso carry battono due spade divise su due DPS.
 - **Freya o Elena (coloni a pagamento)?** Se spendi qualcosa: **prima Freya** (il pagamento della Falcon Quest è un reddito giornaliero a vita); Elena (+comando/ATK) è un puro sfoggio da "balena" che un giocatore che spende poco dovrebbe evitare.
 - **La mia seconda squadra: stregoni o ranger?** Risposta di Korpez: **stregoni**, sempre: il limite massimo del gioco è lì; i ranger vanno bene per i F2P all'inizio/metà gioco, ma gli stregoni dominano alla fine. [Tier List](/it/tier-list/).
 
@@ -79,8 +79,8 @@ Valori verificati dai dati del client di gioco (v1.0.87), fonte: [wiki-last-asyl
 | Santuario livello 10 | Regali |
 | Santuario livello 15 | Equipaggiamento Raven |
 | Sala Alleanza livello 1 | Alleanza |
-| Black Ops livello 1 | Operazioni segrete |
-| Black Ops livello 1 | Incursioni operazioni segrete |
+| Operazione segreta livello 1 | Operazioni segrete |
+| Operazione segreta livello 1 | Incursioni operazioni segrete |
 | Laboratorio Epigrafi livello 1 | Evoluzione Raven |
 | Torre Falcon livello 1 | Chat |
 | Torre Falcon livello 1 | Mappa del mondo |

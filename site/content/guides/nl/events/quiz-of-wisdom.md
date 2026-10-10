@@ -82,7 +82,7 @@ Geverifieerde waarden uit spelclientgegevens (v1.0.87), bron: wiki-last-asylum.c
 | Wat kun je doen als je middelen mist voor gebouw-/technologie-upgrades? | Alle bovenstaande |
 | Wat verandert er wanneer het sterniveau van Geheime operaties stijgt? | Alle bovenstaande |
 | Welke effecten heeft de actieve vaardigheid van Arthur? | Schild toevoegen |
-| Wat is de rol van Shadow in het spel? | Tank |
+| Wat is de rol van Schaduw in het spel? | Tank |
 | Waar is het karavaanslot aan gerelateerd? | Aantal pelotons |
 | Wat is het voordeel van kazerne van een hoger niveau in het spel? | Capaciteit voor soldaten vergroot |
 | Wat is de functie van Antitoxine? | Versterkt of upgrade held |

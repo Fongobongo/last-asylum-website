@@ -4,7 +4,7 @@ description: "Uitgebreide gids voor Geheime Operaties in Last Asylum: Plague: re
 lang: nl
 updated: "2026-09-15"
 videoTopic: secret_operations
-type: type
+type: event
 ---
 
 Het **Geheime Operatiecentrum** (Secret Operations Center) is een permanent hoofdkwartiergebouw en een essentiële dagelijkse bron voor gratis diamanten, Gouden Rekruteertickets, Schatkaartfragmenten en ontwikkelingsbronnen in **Last Asylum: Plague**.

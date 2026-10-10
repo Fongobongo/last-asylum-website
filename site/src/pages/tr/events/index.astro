@@ -1,7 +1,7 @@
 ---
-import Base from '../../../../layouts/Base.astro';
-import { t } from '../../../../i18n/ui';
-import type { Lang } from '../../../../i18n/utils';
+import Base from '../../../layouts/Base.astro';
+import { t } from '../../../i18n/ui';
+import type { Lang } from '../../../i18n/utils';
 
 const lang: Lang = 'tr';
 const events = [
@@ -21,7 +21,7 @@ const events = [
   { slug: 'strike-first', name: 'İlk Vuruş', icon: '⚡', desc: 'Yeni sunucu başlangıç sprinti — Sığınak kilometre taşları, Salgın temizliği, askeri seferberlik ve erken elmaslar.' },
   { slug: 'final-dawn', name: 'Son Şafak', icon: '🌅', desc: '7 günlük üs geliştirme sprinti — 4 aşama (Temellerden Son Hamleye), öncelik sırası ve hızlandırma zamanlaması.' },
   { slug: 'path-to-healing', name: 'İyileşme Yolu', icon: '🕊️', desc: '5 günlük başlangıç görev takibi — günlük görevler, zorunlu VIP 5 kilidi açma kuralı ve 15 adet UR Arthur parçası kazanma.' },
-  { slug: 'supreme-duel', name: 'Yüce Düello', icon: '🏆', desc: 'Savaş bölgesi arası turnuva modu — 16 Savaş Bölgesi, 3 kadrolu 3'te 2 galibiyetli sanal savaşlar, Tahmin Parası dükkanı ve Şampiyon unvanı.' },
+  { slug: 'supreme-duel', name: 'Yüce Düello', icon: '🏆', desc: 'Savaş bölgesi arası turnuva modu — 16 Savaş Bölgesi, 3 kadrolu 3\'te 2 galibiyetli sanal savaşlar, Tahmin Parası dükkanı ve Şampiyon unvanı.' },
   { slug: 'quiz-of-wisdom', name: 'Bilgelik Sınavı', icon: '🧠', desc: '15/15 Soru-Cevap kopya kağıdı içeren bilgi yarışması: mekanikler, binalar, gruplar, VIP ve hikaye hakkında anında cevap arama.' },
   { slug: 'demon-king', name: 'İblis Kral', icon: '👹', desc: 'İki haftada bir düzenlenen dünya patronu (Salı ve Cuma) — Büyücü zayıflığı, günlük 10 saldırı ve 30 saniyelik yürüyüş geri çağırma hilesi.' },
   { slug: 'secret-operations', name: 'Gizli Operasyonlar Merkezi', icon: '🕵️', desc: 'Günlük gizli görevler: yeniden zar atma oranları (UR %8, SSR %24), 16. sandık acıma garantisi ve 7 parçalı hazine haritaları.' },

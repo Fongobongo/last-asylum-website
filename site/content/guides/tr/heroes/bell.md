@@ -258,7 +258,7 @@ Her yetenek Yetenek Rozeti (Skill Badge) ile 40. seviyeye kadar yükselir: bir y
 
 ### Özel Silah
 
-50 yıldıza yükseltilen "Küçük Davul" (Tiny Drum). Maksimumda şunları ekler:
+50 yıldıza yükseltilen "Küçük Davul" (Minik Davul). Maksimumda şunları ekler:
 - HP +1.251.000, ATK +8.750, DEF +8.750
 - Kahraman DEF +%10
 - Kahraman HP +%10
@@ -287,4 +287,4 @@ Bell, 21. günde gelen Harper'dan daha geç olacak şekilde sunucunun 70. günü
 
 Yıldızlar ve Uyanış, sıradaki pahalı kısımdır. 975 parça 347.824 HP ve 4.612 ATK sağlarken, 2.870 uyanış parçası 425.119 HP ve 12.119 ATK ekler. Şifa Sesi 45 yıldızda %540'a ulaşır ve bu eşiğin altında iyileştirme belirgin şekilde daha zayıftır.
 
-Bell, B kadro düzeninde bir kez birlik incelemesinde yer alır: Arthur, Louis, Red Lady ve Ulfrid ile birlikte beşli, +%5 bonusla 125,2M hasara dayanır. Pasif yeteneği Savaş Marşı, tek başına menzilliler için saldırıyı %18 artırır ve orada Louis, Red Lady ve Bell'in kendisi olmak üzere üç menzilli vardır, bu nedenle tam bir menzil birliği ondan daha fazla fayda sağlar.
+Bell, B kadro düzeninde bir kez birlik incelemesinde yer alır: Arthur, Louis, Kızıl Hanım ve Ulfrid ile birlikte beşli, +%5 bonusla 125,2M hasara dayanır. Pasif yeteneği Savaş Marşı, tek başına menzilliler için saldırıyı %18 artırır ve orada Louis, Kızıl Hanım ve Bell'in kendisi olmak üzere üç menzilli vardır, bu nedenle tam bir menzil birliği ondan daha fazla fayda sağlar.

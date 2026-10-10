@@ -7,7 +7,7 @@ videoTopic: dwarven
 type: event
 ---
 
-De **Dwergmijn** (Dwarven Mine) is een terugkerend mijnevenement van 7 dagen: je besteedt **Houwelen** (Pickaxes) om tegels te graven, vindt jackpots om verdiepingen te stijgen, en de speler die binnen het evenement **100 verdiepingen** wist te voltooien pakt de hoofdprijs — een **MR-uitrustingsblauwdruk** (een uitrustingsstuk van de max-tier). Het hele evenement is al beslist voordat het begint: wie houwelen heeft gehamsterd wint, wie met lege handen begint betaalt echt geld om in te lopen.
+De **Dwergmijn** (Dwergenmijn) is een terugkerend mijnevenement van 7 dagen: je besteedt **Houwelen** (Pickaxes) om tegels te graven, vindt jackpots om verdiepingen te stijgen, en de speler die binnen het evenement **100 verdiepingen** wist te voltooien pakt de hoofdprijs — een **MR-uitrustingsblauwdruk** (een uitrustingsstuk van de max-tier). Het hele evenement is al beslist voordat het begint: wie houwelen heeft gehamsterd wint, wie met lege handen begint betaalt echt geld om in te lopen.
 
 Deze gids behandelt de inkomsten van houwelen, het F2P-hamsterdoel, de strategie voor beloningskeuzes en waar de geldkraan openstaat.
 
@@ -52,7 +52,7 @@ Elke klim laat je kiezen tussen twee beloningslijnen:
 
 ## Video-uitleg: Verspil je houwelen niet! (KorpezGaming) {#video-breakdown-dwarf}
 
-Tactieken voor verdiepingsvoortgang en de wiskunde achter houwelen door KorpezGaming ([DON'T Waste Your Pickaxes! Dwarven Mine Guide](https://youtu.be/WCIfyqH0vz0)):
+Tactieken voor verdiepingsvoortgang en de wiskunde achter houwelen door KorpezGaming ([DON'T Waste Your Pickaxes! Dwergenmijn Guide](https://youtu.be/WCIfyqH0vz0)):
 
 | Tijdstip | Onderwerp | Praktisch Afhaalpunt |
 |---|---|---|

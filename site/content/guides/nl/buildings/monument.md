@@ -36,10 +36,10 @@ Dit gebouw geeft geen stat-bonus: het ontgrendelt een optie in plaats van percen
 
 ## Hoe te gebruiken
 
-Het Monument concurreert nooit voor de bouwrij: 480 Graan en 360 Hout worden in één keer betaald, en het werk zelf duurt minder dan een minuut. Heiligdom niveau 9 ontgrendelt het samen met Black Ops, wat precies hetzelfde kost, en de 2e Werkbank, waarvan de volledige upgrade 349 dagen pure bouwtijd kost. De rij op dat niveau behoort maandenlang toe aan de werkbank, terwijl het Monument in elke vrije opening past, dus er is geen reden om het uit te stellen.
+Het Monument concurreert nooit voor de bouwrij: 480 Graan en 360 Hout worden in één keer betaald, en het werk zelf duurt minder dan een minuut. Heiligdom niveau 9 ontgrendelt het samen met Geheime Operaties, wat precies hetzelfde kost, en de 2e Werkbank, waarvan de volledige upgrade 349 dagen pure bouwtijd kost. De rij op dat niveau behoort maandenlang toe aan de werkbank, terwijl het Monument in elke vrije opening past, dus er is geen reden om het uit te stellen.
 
 Het gebouw brengt 100 Kracht, net zoveel als het Ontdekkerskamp voor 240 grondstoffen tegen de 840 die hier worden uitgegeven. Gemeten per grondstof is dit een van de dunste rendementen in de stad, en het gebruik van het Monument ligt elders. Het mijlpalenbord verzamelt in één venster de doelen die een speler toch al gedurende de dag sluit: helden rekruteren, heimelijke operaties, rally's. De selectie verandert dagelijks, dus het Monument geeft meer aan een account dat al veel van die activiteiten open heeft.
 
-Vandaar de volgorde: op Heiligdom niveau 9 gaat het Monument direct na Black Ops omhoog, die een deel van zijn doelen levert, terwijl grondstoffen en rijtijd naar de werkbank gaan.
+Vandaar de volgorde: op Heiligdom niveau 9 gaat het Monument direct na Geheime Operaties omhoog, die een deel van zijn doelen levert, terwijl grondstoffen en rijtijd naar de werkbank gaan.
 
-De Kracht van het Monument telt voor niets mee in het stadstotaal: 100 tegen de 384.300 die een volledig verhoogd Heiligdom draagt, verdwijnt in afronding. Van de niveau 9 gebouwen blijven alleen het Monument en Black Ops buiten de rij, en elk ander uur van die fase behoort toe aan de werkbank.
+De Kracht van het Monument telt voor niets mee in het stadstotaal: 100 tegen de 384.300 die een volledig verhoogd Heiligdom draagt, verdwijnt in afronding. Van de niveau 9 gebouwen blijven alleen het Monument en Geheime Operaties buiten de rij, en elk ander uur van die fase behoort toe aan de werkbank.

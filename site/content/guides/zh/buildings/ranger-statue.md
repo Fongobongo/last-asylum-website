@@ -6,7 +6,7 @@ lang: zh
 updated: "2026-09-19"
 type: guide
 ---
-![Ranger Statue](/building-icons/5046.png)
+![游侠雕像](/building-icons/5046.png)
 
 
 > 数据已根据游戏客户端（v1.0.87，来源：[wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-ranger-statue)) 验证。
@@ -46,15 +46,15 @@ type: guide
 ## 获得加成的英雄
 
 阵营中的所有英雄都会获得加成，包括替补席上的英雄。
-- Shadow · UR
-- Louis · UR
-- Bell · UR
-- Cynthia · UR
-- Red Lady · UR
-- Griffith · SSR
-- Ash · SSR
-- Bestar · SSR
-- Robin · SR
+- 影 · UR
+- 路易斯 · UR
+- 贝尔 · UR
+- 辛西娅 · UR
+- 红夫人 · UR
+- 格里菲斯 · SSR
+- 艾希 · SSR
+- 贝斯特 · SSR
+- 罗宾 · SR
 
 ## 如何使用
 

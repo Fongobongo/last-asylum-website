@@ -9,7 +9,7 @@ infographics: []
 type: event
 ---
 
-Săn Kẻ Trộm (Thief Hunt) là **sự kiện thể lực liên minh**: bạn tiêu tốn thể lực để tấn công kẻ trộm trên bản đồ, và các mạng tiêu diệt kẻ trộm sẽ có cơ hội xuất hiện **boss Thủ Lĩnh Kẻ Trộm (Thief Leader)** để toàn bộ liên minh cùng tập kích. Sự kiện này chuyển đổi thể lực dư thừa của bạn thành các vật phẩm trong cửa hàng đổi thưởng — một trong những cửa hàng có giá trị tốt nhất trong game nếu bạn mua theo đúng thứ tự.
+Săn Kẻ Trộm (Truy bắt Kẻ trộm) là **sự kiện thể lực liên minh**: bạn tiêu tốn thể lực để tấn công kẻ trộm trên bản đồ, và các mạng tiêu diệt kẻ trộm sẽ có cơ hội xuất hiện **boss Thủ Lĩnh Kẻ Trộm (Thief Leader)** để toàn bộ liên minh cùng tập kích. Sự kiện này chuyển đổi thể lực dư thừa của bạn thành các vật phẩm trong cửa hàng đổi thưởng — một trong những cửa hàng có giá trị tốt nhất trong game nếu bạn mua theo đúng thứ tự.
 
 Hướng dẫn này bao gồm cơ chế xuất hiện boss, kỹ thuật triệu hồi boss cấp độ cao, danh sách ưu tiên đổi thưởng và đội hình đánh boss.
 
@@ -78,7 +78,7 @@ Và một quy tắc kiểm kê: **giới hạn cuộn giấy được chuyển t
 - **Tiêu diệt boss của chính liên minh bạn trước** — nếu bạn chần chừ, một liên minh láng giềng sẽ dọn dẹp boss của bạn và cướp mất phần thưởng chia sẻ sát thương của cả đội. Một kết cục thua-thua mà bạn lại tự chọn.
 - **Boss quá tầm? Kêu gọi chi viện.** Gửi đường link boss lên khung chat liên minh — một người chơi nạp lớn (whale) hoặc người chơi tầm trung cận lớn sẽ giải quyết mạng đó, và bạn vẫn giữ được phần thưởng rơi ra. Đừng bao giờ để một Thủ Lĩnh Kẻ Trộm cấp cao tự biến mất.
 - **Giữ lại một đội ở nhà vĩnh viễn để tham gia tập kích của đồng minh** — việc tham gia tốn không tốn chút thể lực nào, nhưng bạn vẫn nhận đủ phần thưởng chia sẻ. Loot miễn phí mà không tốn tài nguyên. Đây là mẹo hay nhất: đừng bỏ lỡ nó.
-- Một giờ cày cuốc có mục tiêu quy đổi ra khoảng 4K Xu Kẻ Trộm, 250K Quả Quạ và ~65M tài nguyên lúa + gỗ + thảo mộc — đó là lý do sự kiện này vượt trội hơn **Mỏ Người Lùn (Dwarven Mine)** về thu nhập thô hàng tuần đối với hầu hết người chơi.
+- Một giờ cày cuốc có mục tiêu quy đổi ra khoảng 4K Xu Kẻ Trộm, 250K Quả Quạ và ~65M tài nguyên lúa + gỗ + thảo mộc — đó là lý do sự kiện này vượt trội hơn **Mỏ Người Lùn (Mỏ Người Lùn)** về thu nhập thô hàng tuần đối với hầu hết người chơi.
 
 ## Đội Hình Tập Kích Boss {#boss-squad}
 
@@ -87,7 +87,7 @@ Và một quy tắc kiểm kê: **giới hạn cuộn giấy được chuyển t
 | Hàng | Anh Hùng | Vai Trò |
 |---|---|---|
 | Trước | Arthur + Bella | Sinh tồn lâu hơn — mỗi giây sống sót thêm sẽ tích lũy thêm nhiều sát thương |
-| Sau | Marlena + Shadow + Claire | Động cơ gây sát thương ở tuyến sau |
+| Sau | Marlena + Ảnh + Claire | Động cơ gây sát thương ở tuyến sau |
 
 Lý do: **sống sót lâu hơn = tích lũy nhiều sát thương hơn**. Trận chiến boss không phải là bài kiểm tra dồn sát thương (burst check) — đội hình trụ lại lâu nhất sẽ gây ra lượng sát thương lớn nhất, vì vậy hãy ưu tiên khả năng sinh tồn hơn là chỉ số tấn công thuần túy. Chi tiết đầy đủ về anh hùng có trong [hướng dẫn Anh Hùng](/vi/heroes/).
 

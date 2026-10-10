@@ -58,7 +58,7 @@ Elke held van de factie krijgt de bonus, inclusief degene die op de bank zitten.
 
 ## Hoe te gebruiken
 
-Sanctuary level 11 ontgrendelt drie gebouwen, waarvan er twee instant zijn: de Private Stable voor 10 Graan en de Alliance Stable voor 21 grondstoffen. Het Warlock-standbeeld is de enige die de wachtrij bezet, en dat doet hij voor een lange tijd: 299 dagen en 4 uur, 1.253.641.685 Graan en 3.784.783.300 Hout tot level 30.
+Sanctuary level 11 ontgrendelt drie gebouwen, waarvan er twee instant zijn: de Privéstal voor 10 Graan en de Alliantiestal voor 21 grondstoffen. Het Warlock-standbeeld is de enige die de wachtrij bezet, en dat doet hij voor een lange tijd: 299 dagen en 4 uur, 1.253.641.685 Graan en 3.784.783.300 Hout tot level 30.
 
 De game heeft negen Warlocks, waarvan er vijf UR zijn, tegenover veertien Warriors. De selectie is korter, maar de bonus op level 30 is identiek over alle drie de standbeelden: 151.500 HP, 723 ATK en 723 DEF, en 100 CMD voor elke held van de factie, inclusief degene in de reserve.
 

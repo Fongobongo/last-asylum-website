@@ -13,7 +13,7 @@ type: guide
 
 > Dữ liệu được xác thực với client trò chơi (v1.0.87, nguồn: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-bell)).
 
-Bell là một tướng tầm xa UR đóng vai trò hỗ trợ. Khi được nâng cấp tối đa, cô đạt 920.570 Sức mạnh (Might), xếp hạng 2 trong số 5 tướng hỗ trợ của game. Để mở khóa cô ấy cần 10 mảnh (Mảnh Bell), và các mảnh này sẽ có sẵn khi Tượng Tầm Xa (Ranger Statue) đạt cấp 20. Bell không xuất hiện trong danh sách tướng cho đến ngày thứ 70 của máy chủ.
+Bell là một tướng tầm xa UR đóng vai trò hỗ trợ. Khi được nâng cấp tối đa, cô đạt 920.570 Sức mạnh (Might), xếp hạng 2 trong số 5 tướng hỗ trợ của game. Để mở khóa cô ấy cần 10 mảnh (Mảnh Bell), và các mảnh này sẽ có sẵn khi Tượng Tầm Xa (Tượng Lãng Khách) đạt cấp 20. Bell không xuất hiện trong danh sách tướng cho đến ngày thứ 70 của máy chủ.
 
 | Chỉ số | Giá trị |
 |---|---|
@@ -258,7 +258,7 @@ Mỗi kỹ năng tăng lên đến cấp 40 bằng Huy Hiệu Kỹ Năng (Skill 
 
 ### Vũ khí Độc quyền
 
-“Trống Nhỏ” (Tiny Drum), được nâng cấp lên 50 sao. Ở mức tối đa, nó cộng thêm:
+“Trống Nhỏ” (Trống Nhỏ Linh Động), được nâng cấp lên 50 sao. Ở mức tối đa, nó cộng thêm:
 - HP +1.251.000, Tấn công +8.750, Phòng thủ +8.750
 - Phòng thủ Tướng +10%
 - HP Tướng +10%
@@ -287,4 +287,4 @@ Bell xuất hiện vào ngày thứ 70 của máy chủ, muộn hơn Harper vào
 
 Sao và Thức tỉnh là phần tốn kém trong hàng chờ. 975 mảnh cho 347.824 HP và 4.612 Tấn công, trong khi 2.870 mảnh thức tỉnh cộng thêm 425.119 HP và 12.119 Tấn công. Âm Hưởng Hồi Phục đạt 540% ở 45 sao, và dưới ngưỡng đó, khả năng hồi máu yếu hơn đáng kể.
 
-Bell xuất hiện một lần trong phần đánh giá đội hình, trong một đội hình bậc B: với Arthur, Louis, Red Lady và Ulfrid, năm người chịu đựng 125,2 triệu sát thương ở mức thưởng +5%. Kỹ năng bị động Quốc Hùng Chiến Đấu của cô tăng tấn công thêm 18% chỉ riêng cho các tướng tầm xa, và có ba người trong số họ ở đó, Louis, Red Lady và chính Bell, vì vậy một đội hình toàn tầm xa tận dụng được nhiều hơn từ cô ấy.
+Bell xuất hiện một lần trong phần đánh giá đội hình, trong một đội hình bậc B: với Arthur, Luis, Bà Đỏ và Ulfred, năm người chịu đựng 125,2 triệu sát thương ở mức thưởng +5%. Kỹ năng bị động Quốc Hùng Chiến Đấu của cô tăng tấn công thêm 18% chỉ riêng cho các tướng tầm xa, và có ba người trong số họ ở đó, Luis, Bà Đỏ và chính Bell, vì vậy một đội hình toàn tầm xa tận dụng được nhiều hơn từ cô ấy.

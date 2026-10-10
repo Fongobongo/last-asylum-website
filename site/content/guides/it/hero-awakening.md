@@ -50,9 +50,9 @@ Pagine che menzionano questa. L'elenco è generato dai markup e non compilato a 
 - Ulfrid: abilità, potenziamenti e Potenza
 - Billy: abilità, potenziamenti e Potenza
 - Bell: abilità, potenziamenti e Potenza
-- Red Lady: abilità, potenziamenti e Potenza
+- Dama Rossa: abilità, potenziamenti e Potenza
 - Cynthia: abilità, potenziamenti e Potenza
-- Louis: abilità, potenziamenti e Potenza
+- Luigi: abilità, potenziamenti e Potenza
 - Shadow: abilità, potenziamenti e Potenza
 - Zoya: abilità, potenziamenti e Potenza
 - Harper: abilità, potenziamenti e Potenza

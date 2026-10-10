@@ -1,6 +1,6 @@
 ---
-title: "Bell: Vaardigheden, Build en Levelen"
-description: "Bell is een UR-ranger die als ondersteuning speelt. Volledig geüpgraded bereikt ze 920.570 Kracht, rang 2 van de 5 onder de ondersteuningshelden van het spel. Om haar te ontgrendelen heb je 10 scherven (Bell-scherf) nodig..."
+title: "Bel: Vaardigheden, Build en Levelen"
+description: "Bel is een UR-ranger die als ondersteuning speelt. Volledig geüpgraded bereikt ze 920.570 Kracht, rang 2 van de 5 onder de ondersteuningshelden van het spel. Om haar te ontgrendelen heb je 10 scherven (Bel-scherf) nodig..."
 videoTopic: "heroes"
 lang: nl
 updated: "2026-09-19"
@@ -13,7 +13,7 @@ type: guide
 
 > Gegevens geverifieerd tegen de gameclient (v1.0.87, bron: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-bell)).
 
-Bell is een UR-ranger die als ondersteuning speelt. Volledig geüpgraded bereikt ze 920.570 Kracht, rang 2 van de 5 onder de ondersteuningshelden van het spel. Om haar te ontgrendelen heb je 10 scherven (Bell-scherf) nodig, en de scherven worden beschikbaar zodra het Ranger-standbeeld niveau 20 bereikt. Bell verschijnt pas in de heldenlijst vanaf serverdag 70.
+Bel is een UR-ranger die als ondersteuning speelt. Volledig geüpgraded bereikt ze 920.570 Kracht, rang 2 van de 5 onder de ondersteuningshelden van het spel. Om haar te ontgrendelen heb je 10 scherven (Bel-scherf) nodig, en de scherven worden beschikbaar zodra het Ranger-standbeeld niveau 20 bereikt. Bel verschijnt pas in de heldenlijst vanaf serverdag 70.
 
 | Statistiek | Waarde |
 |---|---|
@@ -23,7 +23,7 @@ Bell is een UR-ranger die als ondersteuning speelt. Volledig geüpgraded bereikt
 | Max. Kracht | 920.570 |
 | Max. sterren | 50 |
 | Aanvalssnelheid | één treffer elke 0,83 s |
-| Scherven om te ontgrendelen | Bell-scherf × 10 |
+| Scherven om te ontgrendelen | Bel-scherf × 10 |
 | Factiegebouw | Ranger-standbeeld, niveau 20 |
 | Vaardigheden | 5, volledige set |
 | Eigenschap | IJverig |
@@ -38,7 +38,7 @@ Ontwaken en het Exclusieve Wapen volgen hun eigen schema's, los van wanneer de h
 
 Rol: Een genezende ondersteuning voor een ranger-eenheid, wiens Healing Sound 540% van de ATK herstelt naar de bondgenoot met de laagste HP. De genezing landt elke 5 seconden, en de ultieme Inspiration verhoogt de aanval van de drie sterkste bondgenoten met 55%, meer dan welke andere ondersteuning dan ook biedt.
 
-Investering waard: Bell bereikt precies dezelfde maximale Kracht als Harper en Nicole (920.570), alle drie zitten in categorie A en verschillen alleen in hun vaardigheden. Ze arriveert laat, op serverdag 70, en de beste eenheid van het spel redt zich zonder haar, dus komt ze na Harper in de investeringswachtrij.
+Investering waard: Bel bereikt precies dezelfde maximale Kracht als Harper en Nicole (920.570), alle drie zitten in categorie A en verschillen alleen in hun vaardigheden. Ze arriveert laat, op serverdag 70, en de beste eenheid van het spel redt zich zonder haar, dus komt ze na Harper in de investeringswachtrij.
 
 ## Vaardigheden
 
@@ -148,7 +148,7 @@ Ondersteuningsvaardigheid: actief terwijl de held buiten de hoofdeenheid is.
 
 ## Vergeleken met andere helden
 
-Hieronder wordt Bell vergeleken met de andere helden van dezelfde rol, waarvan het spel er in totaal 5 heeft. Vaardigheidsnummers zijn genomen op de uiteindelijke sterdrempel en het maximale vaardigheidsniveau.
+Hieronder wordt Bel vergeleken met de andere helden van dezelfde rol, waarvan het spel er in totaal 5 heeft. Vaardigheidsnummers zijn genomen op de uiteindelijke sterdrempel en het maximale vaardigheidsniveau.
 
 ### Statistieken
 
@@ -157,7 +157,7 @@ De twaalf sterkste helden van de rol op basis van Kracht. Groei is de persoonlij
 | Held | Factie | Zeldzaamheid | Max. Kracht | HP-groei | ATK-groei | DEF-groei |
 |---|---|---|---|---|---|---|
 | Harper | Warrior | UR | 920.570 | 0,7 | 1,3 | 0,94 |
-| Bell | Ranger | UR | 920.570 | 0,7 | 1,3 | 0,94 |
+| Bel | Ranger | UR | 920.570 | 0,7 | 1,3 | 0,94 |
 | Nicole | Warlock | UR | 920.570 | 0,7 | 1,3 | 0,94 |
 | Stellar | Warlock | SSR | 695.511 | 0,52 | 0,8 | 0,64 |
 | Celia | Warrior | SSR | 691.655 | 0,5 | 0,82 | 0,63 |
@@ -169,7 +169,7 @@ Musical Note · schadevermenigvuldiger · rang 2 van 5
 | Held | Factie | Vaardigheid | Vaardigheidstype | DMG, % van ATK | Gebied |
 |---|---|---|---|---|---|
 | Harper | Warrior | Bubble | Automatische aanval | 747% | enkel doelwit |
-| Bell | Ranger | Musical Note | Automatische aanval | 747% | enkel doelwit |
+| Bel | Ranger | Musical Note | Automatische aanval | 747% | enkel doelwit |
 | Nicole | Warlock | Ember Dust | Automatische aanval | 747% | enkel doelwit |
 | Stellar | Warlock | Meteorite | Automatische aanval | 594% | enkel doelwit |
 | Celia | Warrior | Flying Blade | Automatische aanval | 297% | enkel doelwit |
@@ -181,14 +181,14 @@ Healing Sound · genezing · rang 2 van 3
 | Held | Factie | Vaardigheid | Vaardigheidstype | Genezing, % | Geneest |
 |---|---|---|---|---|---|
 | Stellar | Warlock | Final Starlight | Passieve vaardigheid | 1.320% | voor bondgenoten |
-| Bell | Ranger | Healing Sound | Actieve vaardigheid | 540% | voor bondgenoten |
+| Bel | Ranger | Healing Sound | Actieve vaardigheid | 540% | voor bondgenoten |
 | Nicole | Warlock | Heartwarming Flame | Actieve vaardigheid | 241,8% | voor bondgenoten |
 
 Sterker: Stellar, Final Starlight geneest voor 1.320% voor bondgenoten.
 
 ## Upgradevolgorde
 
-Vaardigheidsprioriteit: Healing Sound komt eerst, aangezien genezing de reden is dat Bell een plaats inneemt in de eenheid. Inspiration volgt als volgende, aangezien een aanvalsbonus voor de drie sterkste bondgenoten sneller loont dan Bells eigen schade. Battle Anthem volgt, en de automatische aanval Musical Note komt als laatst samen met de ondersteuningsvaardigheid: 747% bij 50 sterren en helemaal geen genezing.
+Vaardigheidsprioriteit: Healing Sound komt eerst, aangezien genezing de reden is dat Bel een plaats inneemt in de eenheid. Inspiration volgt als volgende, aangezien een aanvalsbonus voor de drie sterkste bondgenoten sneller loont dan Bells eigen schade. Battle Anthem volgt, en de automatische aanval Musical Note komt als laatst samen met de ondersteuningsvaardigheid: 747% bij 50 sterren en helemaal geen genezing.
 
 ### Wat sterren en niveaus ontgrendelen
 
@@ -229,7 +229,7 @@ De held heeft 150 niveaus en het bereiken van de laatste kost Antitoxin 5.248.47
 
 ### Sterren
 
-Het bereiken van 50 sterren kost 975 scherven (Bell-scherf). Naast statistieken ontgrendelen sterren sterkere versies van de vaardigheden, wat ze belangrijker maakt dan niveaus:
+Het bereiken van 50 sterren kost 975 scherven (Bel-scherf). Naast statistieken ontgrendelen sterren sterkere versies van de vaardigheden, wat ze belangrijker maakt dan niveaus:
 
 | Sterren | HP | ATK | DEF | Kosten |
 |---|---|---|---|---|
@@ -252,13 +252,13 @@ Elke vaardigheid gaat tot niveau 40 met Skill Badge: één vaardigheid kost er 4
 
 ### Ontwaken
 
-40 niveaus, in totaal 2.870 ontwaakscherven (Bell Awaken Shard). Op max voegt dit toe:
+40 niveaus, in totaal 2.870 ontwaakscherven (Bel Awaken Shard). Op max voegt dit toe:
 - HP +425.119, ATK +12.119, DEF +3.812
 - DMG RES +5%
 
 ### Exclusief wapen
 
-“Tiny Drum”, geüpgraded naar 50 sterren. Op max voegt dit toe:
+“Miniatuurtrommel”, geüpgraded naar 50 sterren. Op max voegt dit toe:
 - HP +1.251.000, ATK +8.750, DEF +8.750
 - Held DEF +10%
 - Held HP +10%
@@ -281,10 +281,10 @@ Winst uit elk voortgangssysteem op zichzelf. Ze tonen waarin als eerste te inves
 
 ## Hoe te spelen
 
-Bell, Harper en Nicole bereiken alle drie dezelfde maximale Kracht van 920.570, en alleen hun vaardigheden scheiden hen. Bells Healing Sound brengt elke 5 seconden 540% van de ATK terug naar een bondgenoot, terwijl Nicoles Heartwarming Flame twee bondgenoten geneest voor 330.000 plus 241,8% van de ATK en Harper helemaal niet geneest. De ultieme Inspiration verhoogt de aanval van de drie sterkste bondgenoten met 55% tegenover 34,5% voor Harper, wiens bonus daarentegen alle vijf bereikt.
+Bel, Harper en Nicole bereiken alle drie dezelfde maximale Kracht van 920.570, en alleen hun vaardigheden scheiden hen. Bells Healing Sound brengt elke 5 seconden 540% van de ATK terug naar een bondgenoot, terwijl Nicoles Heartwarming Flame twee bondgenoten geneest voor 330.000 plus 241,8% van de ATK en Harper helemaal niet geneest. De ultieme Inspiration verhoogt de aanval van de drie sterkste bondgenoten met 55% tegenover 34,5% voor Harper, wiens bonus daarentegen alle vijf bereikt.
 
-Bell arriveert op serverdag 70, later dan Harper op dag 21. Haar scherven openen met het Ranger-standbeeld op niveau 20, en haar inhuren kost er 10 van. Het Exclusieve Wapen komt op seizoensdag 120, en Ontwaken opent als laatste van alle vijftien UR-helden op dag 197, dus Bell bereikt haar volledige plafond later dan wie dan ook.
+Bel arriveert op serverdag 70, later dan Harper op dag 21. Haar scherven openen met het Ranger-standbeeld op niveau 20, en haar inhuren kost er 10 van. Het Exclusieve Wapen komt op seizoensdag 120, en Ontwaken opent als laatste van alle vijftien UR-helden op dag 197, dus Bel bereikt haar volledige plafond later dan wie dan ook.
 
 Sterren en Ontwaken vormen het dure deel van de wachtrij. 975 scherven leveren 347.824 HP en 4.612 ATK op, terwijl 2.870 ontwaakscherven 425.119 HP en 12.119 ATK toevoegen. Healing Sound bereikt 540% bij 45 sterren, en onder die drempel is de genezing merkbaar zwakker.
 
-Bell staat één keer in het heldenoverzicht, in een categorie B-opstelling: met Arthur, Louis, Red Lady en Ulfrid weerstaan de vijf 125,2M schade bij een bonus van +5%. Haar passieve Battle Anthem verhoogt de aanval met 18% uitsluitend voor rangers, en er zijn er daar drie van, Louis, Red Lady en Bell zelf, dus een volledige ranger-eenheid haalt er meer uit.
+Bel staat één keer in het heldenoverzicht, in een categorie B-opstelling: met Arthur, Louis, Rode Dame en Ulfrid weerstaan de vijf 125,2M schade bij een bonus van +5%. Haar passieve Battle Anthem verhoogt de aanval met 18% uitsluitend voor rangers, en er zijn er daar drie van, Louis, Rode Dame en Bel zelf, dus een volledige ranger-eenheid haalt er meer uit.

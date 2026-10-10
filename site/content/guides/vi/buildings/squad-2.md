@@ -6,7 +6,7 @@ lang: vi
 updated: "2026-09-19"
 type: guide
 ---
-![Squad 2](/building-icons/5014.png)
+![Đội 2](/building-icons/5014.png)
 
 
 > Dữ liệu đã được xác minh với client game (v1.0.87, nguồn: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-squad-2)).
@@ -43,7 +43,7 @@ Các cấp độ tham khảo của tòa nhà: những gì nó mang lại, lượ
 
 Hàng chờ hành quân thứ hai sẽ có ngay khi tòa nhà đạt cấp độ đầu tiên: 59 Lương Thực, 59 Gỗ và dưới một phút thi công. Tất cả những gì Đội Hình 2 mang lại sau đó đều là tốc độ hành quân, tăng từ 0.7% lên 15.1% và tiêu tốn 299 ngày 4 giờ thời gian xây dựng thuần túy. Do đó, tòa nhà này nên được xây dựng ngay khi Thánh Địa (Sanctuary) đạt cấp 8, còn các cấp độ tiếp theo sẽ được nâng cấp sau.
 
-Cấp 8 cũng mở khóa Tháp Canh (Watchtower) với 350 ngày xây dựng và Sảnh Cổ Vật (Curio Hall) tức thì. Đội Hình 2 không cạnh tranh với Tháp Canh về hàng chờ: cấp độ đầu tiên của nó hoàn thành trong vòng chưa đầy một phút, và trong phút đó, mục đích chính của hàng chờ thứ hai đã đạt được. Tất cả ba mươi cấp độ tiêu tốn 2.529.347.669 Lương Thực, cùng lượng Gỗ và 413.100.420 Thảo Dược.
+Cấp 8 cũng mở khóa Tháp Canh (Tháp Canh) với 350 ngày xây dựng và Sảnh Cổ Vật (Sảnh Sưu Tập) tức thì. Đội Hình 2 không cạnh tranh với Tháp Canh về hàng chờ: cấp độ đầu tiên của nó hoàn thành trong vòng chưa đầy một phút, và trong phút đó, mục đích chính của hàng chờ thứ hai đã đạt được. Tất cả ba mươi cấp độ tiêu tốn 2.529.347.669 Lương Thực, cùng lượng Gỗ và 413.100.420 Thảo Dược.
 
 Số lượt điều động hoạt động bí mật miễn phí được tính theo đội hình, hai lượt mỗi đội hình, vì vậy hàng chờ thứ hai sẽ tăng chúng từ hai lên bốn. Hoạt động hàng đầu trả 12.177.000 EXP anh hùng, và việc tăng gấp đôi số lượt điều động mang lại nhiều lợi ích hơn 15.1% tốc độ ở cấp 30.
 

@@ -31,11 +31,11 @@ Her zorluk derecesi yirmi seviyeden oluşan üç daldan oluşur. Tüm zorluk der
 
 ## Ücretsiz çekilişleri alın
 
-Göründüğünden daha fazla ücretsiz çekiliş vardır ve hepsi her gün yenilenir: Sürpriz Karşılaşma'da (Surprise Encounter) bir ücretsiz arama, Dilek Çarkı'nda (Wishing Wheel) jeton başına bir ücretsiz çekiliş ve her biri kendi zamanlayıcısına sahip beş ordu alım havuzunun her birinde bir ücretsiz çekiliş.
+Göründüğünden daha fazla ücretsiz çekiliş vardır ve hepsi her gün yenilenir: Sürpriz Karşılaşma'da (Sürpriz Karşılaşma) bir ücretsiz arama, Dilek Çarkı'nda (Dilek Çarkı) jeton başına bir ücretsiz çekiliş ve her biri kendi zamanlayıcısına sahip beş ordu alım havuzunun her birinde bir ücretsiz çekiliş.
 
 ## Mevcut aşamayı kapatın
 
-Hayatta Kalma Savaşı (Survival Battle) ve En İyi İyileştirici (Top Healer) yalnızca devam eden aşamadaki eylemleri puanlar; bu nedenle malzemeler programa göre harcanır: bina aşamasında hızlandırmalar, kuzgun aşamasında enerji, kahraman aşamasında alım çekilişleri.
+Hayatta Kalma Savaşı (Hayatta Kalma Savaşı) ve En İyi İyileştirici (En İyi Şifacı) yalnızca devam eden aşamadaki eylemleri puanlar; bu nedenle malzemeler programa göre harcanır: bina aşamasında hızlandırmalar, kuzgun aşamasında enerji, kahraman aşamasında alım çekilişleri.
 
 ## Savaş biletlerinin en çok istediği şeyler
 

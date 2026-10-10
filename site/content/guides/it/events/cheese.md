@@ -9,7 +9,7 @@ infographics: ["/infographics/cheese-trap.webp", "/infographics/cheese-rewards.w
 type: event
 ---
 
-La Trappola per topi (Cheese Trap) è un **evento raduno PvE dell'alleanza** contro un ratto gigante. Il tuo danno personale ti fa guadagnare ricompense personali divise in cinque fasi, mentre il danno totale dell'alleanza fa guadagnare ricompense d'alleanza separate. Sembra un evento basato puramente sulla potenza, ma in realtà è un evento di pianificazione, e la differenza vale parecchi livelli di ricompensa.
+La Trappola per topi (Trappola di formaggio) è un **evento raduno PvE dell'alleanza** contro un ratto gigante. Il tuo danno personale ti fa guadagnare ricompense personali divise in cinque fasi, mentre il danno totale dell'alleanza fa guadagnare ricompense d'alleanza separate. Sembra un evento basato puramente sulla potenza, ma in realtà è un evento di pianificazione, e la differenza vale parecchi livelli di ricompensa.
 
 Questa guida copre i due percorsi di ricompensa, la regola del punto d'arresto, la scalatura del livello e come leggere le classifiche prima che la tua alleanza si impegni ad affrontare un ratto.
 

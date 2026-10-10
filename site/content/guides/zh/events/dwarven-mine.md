@@ -7,7 +7,7 @@ videoTopic: dwarven
 type: event
 ---
 
-**矮人矿洞（Dwarven Mine）**是一个周期性的7天挖矿活动：你消耗**镐头**来挖掘地块，寻找大奖以晋升层数，而在活动期间清除**100层**的玩家将夺得头奖——一张 **MR 装备图纸**（最高阶装备部件）。整个活动的胜负在开始前就已经决定：谁囤积了镐头谁就赢，而开局两手空空的玩家只能花真金白银去追赶。
+**矮人矿洞（矮人矿坑）**是一个周期性的7天挖矿活动：你消耗**镐头**来挖掘地块，寻找大奖以晋升层数，而在活动期间清除**100层**的玩家将夺得头奖——一张 **MR 装备图纸**（最高阶装备部件）。整个活动的胜负在开始前就已经决定：谁囤积了镐头谁就赢，而开局两手空空的玩家只能花真金白银去追赶。
 
 本指南将涵盖镐头获取来源、零氪囤积目标、奖励选择策略以及氪金陷阱所在。
 
@@ -52,7 +52,7 @@ type: event
 
 ## 视频解析：别浪费你的镐头！（KorpezGaming） {#video-breakdown-dwarf}
 
-由 KorpezGaming 带来的层数推进战术与镐头计算（[DON'T Waste Your Pickaxes! Dwarven Mine Guide](https://youtu.be/WCIfyqH0vz0)）：
+由 KorpezGaming 带来的层数推进战术与镐头计算（[DON'T Waste Your Pickaxes! 矮人矿坑 Guide](https://youtu.be/WCIfyqH0vz0)）：
 
 | 时间戳 | 主题 | 实用要点 |
 |---|---|---|

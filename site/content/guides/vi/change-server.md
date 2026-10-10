@@ -39,7 +39,7 @@ Tuổi của máy chủ quyết định các sự kiện nào đang diễn ra v�
 | Tháng 8/2026 | 305-345 | 11-41 |
 | Tháng 9/2026 | 346 trở đi | tối đa 10 |
 
-Ngày chính xác của máy chủ có thể xem dễ dàng hơn trong trò chơi: nó hiển thị trong bảng tin Tượng đài (Monument) và lịch sự kiện, và những gì mở ra vào ngày nào được tổng hợp trên trang Sự kiện (Events).
+Ngày chính xác của máy chủ có thể xem dễ dàng hơn trong trò chơi: nó hiển thị trong bảng tin Tượng đài (Tượng Đài) và lịch sự kiện, và những gì mở ra vào ngày nào được tổng hợp trên trang Sự kiện (Events).
 
 ## Giờ máy chủ
 
@@ -47,7 +47,7 @@ Mọi sự kiện, thời gian đặt lại (reset) và hàng đợi danh hiệu
 
 ## Ghé thăm máy chủ khác
 
-Bạn có thể xem máy chủ khác từ màn hình đoàn xe (caravan): thay vì tấn công đoàn xe, bản đồ được cuộn để kiểm tra các vùng lãnh thổ nước ngoài, và máy chủ được tìm thấy bằng số thứ tự của nó. Cách thứ hai là thông qua Chiến tranh Vương quốc (Kingdom War): tab thông tin trận đấu liệt kê nhóm các máy chủ, và nút Xem (View) sẽ di chuyển camera vào một vương quốc nước ngoài. Tọa độ của một thành phố nước ngoài được lưu lại bằng dấu sao, được đánh dấu là bạn hoặc thù.
+Bạn có thể xem máy chủ khác từ màn hình đoàn xe (caravan): thay vì tấn công đoàn xe, bản đồ được cuộn để kiểm tra các vùng lãnh thổ nước ngoài, và máy chủ được tìm thấy bằng số thứ tự của nó. Cách thứ hai là thông qua Chiến tranh Vương quốc (Viễn Chinh Liên Quốc): tab thông tin trận đấu liệt kê nhóm các máy chủ, và nút Xem (View) sẽ di chuyển camera vào một vương quốc nước ngoài. Tọa độ của một thành phố nước ngoài được lưu lại bằng dấu sao, được đánh dấu là bạn hoặc thù.
 
 Việc dịch chuyển quân đội sang máy chủ khác chỉ hoạt động khi đối đầu với đối thủ trong Đấu trường Liên minh (Alliance Duel) vào ngày đột kích và đối với các đối thủ trong Chiến tranh Vương quốc, và việc di chuyển như vậy chỉ kéo dài một ngày. Việc cướp bóc đoàn xe và các hoạt động bí mật chỉ được phép thực hiện trên các máy chủ cùng nhóm, và hộp kiểm "loại trừ máy chủ của chính mình" trên màn hình đoàn xe sẽ loại bỏ các hàng xóm khỏi danh sách, những người mà hầu hết các máy chủ đều cấm tấn công theo quy tắc riêng của họ.
 

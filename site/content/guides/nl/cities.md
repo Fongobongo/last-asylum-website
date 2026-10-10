@@ -30,10 +30,10 @@ De topsteden verschillen het meest van elkaar, en de rijen in de tabel tonen waa
 | Leeuwenhart-vesting (Lionheart Fortress) Lv.6 | Trainingssnelheid↑ +5% | 100 |
 | Nachtval-vesting (Nightfall Fortress) Lv.6 | Onderzoekssnelheid↑ +20% | 100 |
 | Hemelvesting (Sky Fortress) Lv.6 | Bouwsnelheid↑ +20% | 100 |
-| Tempel der Chaos (Temple of Chaos) Lv.5 | Houtproductie↑ +20% | 80 |
-| Tempel der Natuur (Temple of Nature) Lv.5 | Graanverzamelingssnelheid↑ +20% | 80 |
-| Tempel der Orde (Temple of Order) Lv.5 | Kruidenproductie↑ +20% | 80 |
-| Oorlogstempel (Temple of War) Lv.5 | Graanproductie↑ +20% | 80 |
+| Tempel der Chaos (Tempel of Chaos) Lv.5 | Houtproductie↑ +20% | 80 |
+| Tempel der Natuur (Tempel of Nature) Lv.5 | Graanverzamelingssnelheid↑ +20% | 80 |
+| Tempel der Orde (Tempel of Order) Lv.5 | Kruidenproductie↑ +20% | 80 |
+| Oorlogstempel (Tempel of War) Lv.5 | Graanproductie↑ +20% | 80 |
 
 Eén detail is gemakkelijk over het hoofd te zien: steden van hetzelfde niveau kosten evenveel, maar leveren verschillend op. Alle drie de vestingen van niveau zes delen HP, garnizoen en de beloning voor de eerste verovering, maar hun bonussen zijn niet gelijk. Twee geven 20% onderzoeks- en bouwsnelheid, terwijl de derde slechts 5% trainingssnelheid geeft. Het doelwit is dus de moeite waard om te kiezen op basis van de bonus in plaats van het niveau.
 

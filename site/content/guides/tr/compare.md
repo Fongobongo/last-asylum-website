@@ -59,9 +59,9 @@ videoTopic: compare
 
 <!-- video: -9Nysk8pcns -->
 
-## Shadow vs Lucius — ikinci tank {#shadow-vs-lucius}
+## Gölge vs Lucius — ikinci tank {#shadow-vs-lucius}
 
-**✓ Lucius artık ücretsiz; Kahraman Geçidi'ni alıyorsanız Shadow**
+**✓ Lucius artık ücretsiz; Kahraman Geçidi'ni alıyorsanız Gölge**
 
 | | | |
 |---|---|---|

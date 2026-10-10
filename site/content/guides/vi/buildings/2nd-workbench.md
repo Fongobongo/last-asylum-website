@@ -12,7 +12,7 @@ type: guide
 > Dữ liệu đã được xác minh với client trò chơi (v1.0.87, nguồn: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-2nd-workbench)).
 
 
-Bàn làm việc thứ 2 (2nd Workbench) bổ sung hàng đợi nghiên cứu thứ hai, cho phép hai nút công nghệ tiến triển cùng lúc. Nó không yêu cầu đăng ký, và cấp độ của nó tăng tốc độ nghiên cứu chính xác như cấp độ của Phòng Nghiên cứu (Research Lab). Công trình này mở khóa sau khi Thánh địa (Sanctuary) đạt cấp 9 và có thể nâng cấp lên tối đa cấp 30. Chỉ có thể xây dựng một công trình duy nhất. Các cấp độ giúp tăng: Tốc độ nghiên cứu.
+Bàn làm việc thứ 2 (Bàn Làm Việc 2) bổ sung hàng đợi nghiên cứu thứ hai, cho phép hai nút công nghệ tiến triển cùng lúc. Nó không yêu cầu đăng ký, và cấp độ của nó tăng tốc độ nghiên cứu chính xác như cấp độ của Phòng Nghiên cứu (Research Lab). Công trình này mở khóa sau khi Thánh địa (Sanctuary) đạt cấp 9 và có thể nâng cấp lên tối đa cấp 30. Chỉ có thể xây dựng một công trình duy nhất. Các cấp độ giúp tăng: Tốc độ nghiên cứu.
 
 | Chỉ số | Giá trị |
 |---|---|
@@ -41,7 +41,7 @@ Nâng cấp công trình từ cấp 1 lên 30 tiêu tốn Lương thực 4,524,7
 
 ## Cách sử dụng
 
-Hàng đợi nghiên cứu thứ hai mở ra ngay tại cấp độ 1 của công trình, với chi phí 89 Lương thực, 89 Gỗ và dưới một phút thi công. Bàn làm việc không yêu cầu đăng ký, không giống như Đội 4 (Squad 4) với gói đăng ký hàng tháng, vì vậy tại Thánh địa cấp 9, bạn nên xây dựng nó ngay lập tức và nâng cấp dần sau đó.
+Hàng đợi nghiên cứu thứ hai mở ra ngay tại cấp độ 1 của công trình, với chi phí 89 Lương thực, 89 Gỗ và dưới một phút thi công. Bàn làm việc không yêu cầu đăng ký, không giống như Đội 4 (Đội 4) với gói đăng ký hàng tháng, vì vậy tại Thánh địa cấp 9, bạn nên xây dựng nó ngay lập tức và nâng cấp dần sau đó.
 
 Tốc độ nghiên cứu ở đây tăng chính xác như tại Phòng Nghiên cứu: 0.7% ở cấp 1 và 15.1% ở cấp 30. Bản thân hàng đợi thứ hai hoạt động từ cấp 1, và hai trong số 348 nút trong cây công nghệ sẽ tiến triển cùng lúc ngay từ ngày đầu tiên. Hai phần thưởng này cộng dồn lại và khi nâng cấp tối đa cả hai công trình, bạn sẽ nhận được 30.2%, mặc dù tiêu tốn 349 ngày xây dựng thuần túy cho mỗi công trình, tổng cộng gần hai năm cho cả hai.
 

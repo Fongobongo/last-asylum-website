@@ -21,7 +21,7 @@ De beginnerssectie is opgesplitst in losse artikelen — lees ze in deze volgord
 
 De basisprincipes van helden staan nu in de sectie Helden, waar alle heldengidsen zijn verzameld:
 
-- **[Tijdlijn voor het ontgrendelen van helden](/nl/heroes/hero-basics/#unlock-timeline)** — wanneer Arthur arriveert, het Cynthia/Shadow Wishing Wheel, de UR-evenemententrein van dag 36–85, Marlena, Age of Rebirth
+- **[Tijdlijn voor het ontgrendelen van helden](/nl/heroes/hero-basics/#unlock-timeline)** — wanneer Arthur arriveert, het Cynthia/Schaduw Wensrad, de UR-evenemententrein van dag 36–85, Marlena, Age of Rebirth
 - **[Hoe heldenmacht werkt](/nl/heroes/hero-basics/#hero-might)** — niveau, sterren (de 4★ sprong), vaardigheden en uitrusting
 - **[Facties en counters](/nl/heroes/hero-basics/#wiki-hero-factions)** — +5/+10/+15/+20% stack-bonussen en de cirkel Warriors > Warlocks > Rangers > Warriors
 - **[Je eerste opstelling](/nl/heroes/hero-basics/#f2p-squad)** — Arthur en Bella voorin; Marlena, Claire en Celia achterin (volledige analyse met alternatieven)
@@ -31,11 +31,11 @@ De basisprincipes van helden staan nu in de sectie Helden, waar alle heldengidse
 
 Korte antwoorden op vragen die Korpez' mailbox blijven bereiken — de meeste zul je tegenkomen in week 2–4.
 
-- **Wanneer is mijn Ranger-team klaar om Warriors te vervangen?** Niet alleen op basis van het aantal sterren — controleer drie muren: elke ranger minimaal op 8★ (Cynthia en Red Lady op 10★, Louis op 8★, Bell op 9–10★), de Ranger Temple/Statue op ~22+, en heldenonderzoek op hetzelfde niveau als je Warriors-tak. Vuistregel van de site: de switch vindt plaats wanneer het Ranger-team ~18M macht bereikt tegenover een bestaand 60M Warriors-team, versterkt wanneer alle vier de vlaggen zijn vrijgespeeld.
+- **Wanneer is mijn Ranger-team klaar om Warriors te vervangen?** Niet alleen op basis van het aantal sterren — controleer drie muren: elke ranger minimaal op 8★ (Cynthia en Rode Dame op 10★, Louis op 8★, Bel op 9–10★), de Ranger Tempel/Statue op ~22+, en heldenonderzoek op hetzelfde niveau als je Warriors-tak. Vuistregel van de site: de switch vindt plaats wanneer het Ranger-team ~18M macht bereikt tegenover een bestaand 60M Warriors-team, versterkt wanneer alle vier de vlaggen zijn vrijgespeeld.
 - **Zoya vs Claire — wie wint er?** Zoya is de echte PvP-tank (betaald); **UR Claire is voor altijd een PvE/monster-specialist** — haar passieve vaardigheid blijft gericht op monsterschade, zelfs in haar UR-vorm. Houd Claire voor wereld-bazen, Pandemic en KvK-zombies; wissel Zoya in zodra ze beschikbaar is voor PvP.
 - **Kan ik troepen van mijn muur halen om levens te sparen?** Nee. Ongeacht je keuze voor het garnizoen, verlies je bij een verloren verdediging sowieso dezelfde troepen. Plaats troepen wanneer je de aanvaller kunt uitdagen; **evacueer en teleporteer alleen als de aanvaller onverslaanbaar is**. Gebruik vóór elke KvK altijd een schild — "je hebt geen schild nodig in KvK" is een mythe.
-- **Soldier's Rest: doden reanimeren?** Ja, maar de cooldown is lang en je kunt deze verkorten met hulp van de alliantie — zie het als een reserve die je na KvK leegmaakt, niet als een dagelijks gemak. Verspil het niet aan solo monsterjachten.
-- **Cynthia-zwaard op 10★ — volgende blauwdruk in haar of Red Lady?** Korpez: handschoenen, geen tweede zwaard. Het is een persoonlijke keuze tussen Cynthia en Red Lady — Cynthia heeft meer AoE, Red Lady doet meer schade op enkelvoudige doelen. Eén rood zwaard + één rode handschoen op dezelfde carry is beter dan twee zwaarden verspreid over twee DPS-helden.
+- **Herstelkwartier: doden reanimeren?** Ja, maar de cooldown is lang en je kunt deze verkorten met hulp van de alliantie — zie het als een reserve die je na KvK leegmaakt, niet als een dagelijks gemak. Verspil het niet aan solo monsterjachten.
+- **Cynthia-zwaard op 10★ — volgende blauwdruk in haar of Rode Dame?** Korpez: handschoenen, geen tweede zwaard. Het is een persoonlijke keuze tussen Cynthia en Rode Dame — Cynthia heeft meer AoE, Rode Dame doet meer schade op enkelvoudige doelen. Eén rood zwaard + één rode handschoen op dezelfde carry is beter dan twee zwaarden verspreid over twee DPS-helden.
 - **Freya of Elena (betaalde settlers)?** Als je geld uitgeeft: **eerst Freya** (de Falcon Quest-uitbetaling is dagelijks inkomen voor de rest van het spel); Elena (+commando/ATK) is puur voor 'whales' en een gemiddelde speler kan haar overslaan.
 - **Mijn tweede team — warlocks of rangers?** Het antwoord van Korpez: **warlocks**, altijd — daar ligt het plafond voor de endgame; rangers zijn goed voor vroege tot midden-fase F2P, maar warlocks zijn superieur in de late fase. [Tierlijst](/nl/tier-list/).
 
@@ -78,19 +78,19 @@ Geverifieerde waarden uit game-clientdata (v1.0.87), bron: [wiki-last-asylum.com
 | Sanctuary niveau 10 | Escorte |
 | Sanctuary niveau 10 | Cadeaus |
 | Sanctuary niveau 15 | Raven-uitrusting |
-| Alliance Hall niveau 1 | Alliantie |
-| Black Ops niveau 1 | Covert ops |
-| Black Ops niveau 1 | Covert ops raiding |
-| Epigraph Workshop niveau 1 | Raven-evolutie |
+| Alliantiehal niveau 1 | Alliantie |
+| Geheime Operaties niveau 1 | Covert ops |
+| Geheime Operaties niveau 1 | Covert ops raiding |
+| Inscriptiewerkplaats niveau 1 | Raven-evolutie |
 | Falcon Tower niveau 1 | Chat |
 | Falcon Tower niveau 1 | Wereldkaart |
-| Raven Nest niveau 1 | Raven-uitrusting |
+| Ravennest niveau 1 | Raven-uitrusting |
 | Research Lab niveau 1 | Onderzoek |
-| Residence niveau 1 | Dagelijkse beloning |
-| Squad 1 niveau 1 | Idle inkomen |
-| Squad 4 niveau 1 | Kaartbouw-wachtrij |
-| Tavern niveau 1 | Helden rekruteren |
-| Watchtower niveau 1 | Alarm bij mars |
+| Woning niveau 1 | Dagelijkse beloning |
+| Team 1 niveau 1 | Idle inkomen |
+| Team 4 niveau 1 | Kaartbouw-wachtrij |
+| Taveerne niveau 1 | Helden rekruteren |
+| Wachttoren niveau 1 | Alarm bij mars |
 
 ---
 
@@ -178,13 +178,13 @@ De bouwcalculator stelt de upgradevolgorde samen vanaf dag één: op basis van d
 
 ## 📚 Andere referentiesecties {#misc-index}
 
-- [Temple Battle: ministers, hofposten en koningsdecreten](/nl/temple-battle/)
-- [Surprise Encounter: oproepbeloning en dozen](/nl/surprise-encounter/)
-- [Dawn Breakout](/nl/dawn-breakout/)
+- [Tempel Battle: ministers, hofposten en koningsdecreten](/nl/temple-battle/)
+- [Onverwachte ontmoeting: oproepbeloning en dozen](/nl/surprise-encounter/)
+- [Dageraaduitbraak](/nl/dawn-breakout/)
 - [Jagen: doelen, Raven Fruit en rallies](/nl/hunting/)
 - [Raven epigrafen: sterren, craften en start](/nl/epigraphs/)
 - [Curios: upgraden, kosten en herhaalde bonussen](/nl/relics/)
-- [Wandering Phantom: Wandering Blight-niveaus, Kingdom Quests en beloningen](/nl/wandering-phantom/)
+- [Dwaalgeest: Zwervende plaagling-niveaus, Kingdom Quests en beloningen](/nl/wandering-phantom/)
 - [Trials](/nl/trials/)
 - [Schatkaarten](/nl/treasure-maps/)
 - [Stadskaart: topdoelen en veroveringstaken](/nl/cities/)
@@ -194,11 +194,11 @@ De bouwcalculator stelt de upgradevolgorde samen vanaf dag één: op basis van d
 - [Hoe het spel telt: diamanten en percentages](/nl/formulas/)
 - [Skins: bonussen, duur en het Black Raven Fortress](/nl/skins/)
 - [Dagelijkse routine: idle inkomen, ops en arena](/nl/daily-routine/)
-- [Bonus-evenementen: Hero Pass, Hero's Trial en inlogbeloningen](/nl/bonus-events/)
+- [Bonus-evenementen: Heldenpas, Heldenbeproeving en inlogbeloningen](/nl/bonus-events/)
 - [Speciale evenementen: de negen evenementen van het tabblad en de dag waarop elk arriveert](/nl/special-events/)
 - [Era Pass](/nl/era-pass/)
 - [Era of Revival: wat blijft open, helden per week en start](/nl/season-era/)
-- [Hunt Battle: Blight-golven, moeilijkheidsgraden en alliantiebeloningen](/nl/hunt-battle/)
+- [Jachtstrijd: Blight-golven, moeilijkheidsgraden en alliantiebeloningen](/nl/hunt-battle/)
 - [Wishing Wheels: held en raven](/nl/roulette/)
 - [Bazen: Abyss, weekend en alliantiebaas](/nl/bosses/)
 - [Verkenningsketen: beloningen en staptypes](/nl/exploration/)

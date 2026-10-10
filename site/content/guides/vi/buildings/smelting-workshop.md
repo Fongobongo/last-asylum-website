@@ -6,7 +6,7 @@ lang: vi
 updated: "2026-09-19"
 type: guide
 ---
-![Smelting Workshop](/building-icons/5042.png)
+![Xưởng Luyện Kim](/building-icons/5042.png)
 
 
 > Dữ liệu đã được xác minh với client trò chơi (v1.0.87, nguồn: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-smelting-workshop)).
@@ -45,6 +45,6 @@ Có thể xây dựng năm Xưởng Luyện Kim cùng lúc, và hàng đợi gi�
 
 Phần thưởng thứ hai, Thời gian Sản xuất Tối đa, tăng từ 8 giờ 8 phút lên 12 giờ. Ở cấp 20, kho chứa được 10 giờ 40 phút, vì vậy với hai lần thu thập mỗi ngày, xưởng sẽ nhàn rỗi trong một giờ hai mươi phút, và kho đầy đủ không lãng phí chỉ đạt được ở cấp 30.
 
-Xưởng Dệt (Weaving Workshop) bên cạnh cũng tốn 99 ngày 17 giờ và mang lại gần như cùng Lực chiến, 168.200 so với 168.300, nhưng nó sản xuất 91 vật phẩm mỗi giờ so với 62 Đá Trang Bị. Sự khác biệt về tốc độ đến từ loại hàng hóa: Đá Trang Bị dùng để tăng cường trang bị anh hùng, trong khi Vải (Cloth) là nguyên liệu chế tạo thấp nhất trong năm loại.
+Xưởng Dệt (Xưởng Dệt) bên cạnh cũng tốn 99 ngày 17 giờ và mang lại gần như cùng Lực chiến, 168.200 so với 168.300, nhưng nó sản xuất 91 vật phẩm mỗi giờ so với 62 Đá Trang Bị. Sự khác biệt về tốc độ đến từ loại hàng hóa: Đá Trang Bị dùng để tăng cường trang bị anh hùng, trong khi Vải (Cloth) là nguyên liệu chế tạo thấp nhất trong năm loại.
 
 Thánh Địa cấp 5 mở khóa mười tòa nhà như vậy cùng lúc, năm xưởng luyện kim và năm xưởng dệt, và việc nâng cấp hoàn chỉnh cả mười tòa nhà mất 997 ngày. Cấp 20 cho cả mười tòa nhà hoàn thành trong 44 ngày, đây là nơi hàng đợi thường được dừng lại.

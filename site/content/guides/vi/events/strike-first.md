@@ -50,7 +50,7 @@ Hoàn thành toàn bộ Tấn Công Trước mang lại giá trị khởi đầu
 ## ⚠️ 4 Sai Lầm Chết Người Người Mới Cần Tránh {#mistakes}
 
 ### 1. Lãng Phí Kim Cương Miễn Phí Vào Các Lượt Chiêu Mộ Tiêu Chuẩn
-Sai lầm lớn nhất mà người chơi mới mắc phải là đổ kim cương miễn phí vào các lượt chiêu mộ tiêu chuẩn. **Đừng làm điều này.** Vào Ngày 8 của máy chủ, Vòng Quay May Mắn của UR Xạ Thủ **Cynthia** sẽ xuất hiện — 7 ngày với một lượt quay miễn phí hàng ngày cộng với một mốc 10 lượt quay sẽ trao 10 mảnh — một bản sao hoàn chỉnh. Bù đắp khoảng trống với khoảng 1.500 kim cương (3 lượt quay thêm) và tướng sẽ là của bạn; đừng quay gì trước Ngày 8.
+Sai lầm lớn nhất mà người chơi mới mắc phải là đổ kim cương miễn phí vào các lượt chiêu mộ tiêu chuẩn. **Đừng làm điều này.** Vào Ngày 8 của máy chủ, Vòng Quay May Mắn của UR Xạ Thủ **Xynthia** sẽ xuất hiện — 7 ngày với một lượt quay miễn phí hàng ngày cộng với một mốc 10 lượt quay sẽ trao 10 mảnh — một bản sao hoàn chỉnh. Bù đắp khoảng trống với khoảng 1.500 kim cương (3 lượt quay thêm) và tướng sẽ là của bạn; đừng quay gì trước Ngày 8.
 
 ### 2. Hàng Chờ Xây Dựng Không Có Tổ Chức
 Đừng lãng phí hàng chờ xây dựng vào các nâng cấp trang trí hoặc các ô tài nguyên không cần thiết. Luôn kiểm tra các công trình tiên quyết cho cấp độ Thánh Địa tiếp theo (thường là Tường + Phòng Nghiên Cứu hoặc Tường + Doanh Trại) và nâng cấp **nghiêm ngặt theo lộ trình quan trọng**.

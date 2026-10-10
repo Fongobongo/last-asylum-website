@@ -31,7 +31,7 @@ type: event
 > Blight Ranger vốn dĩ **bị khắc chế bởi các anh hùng thuộc hệ Pháp Sư / Warlock**. Pháp Sư gây ra lượng sát thương được khuếch đại đáng kể trong suốt trận đấu.
 
 Để tối đa hóa thứ hạng sát thương của bạn và giành các rương cột mốc hàng đầu:
-1. **Xây Dựng Đội Hình Warlock Chuyên Dụng:** Ưu tiên đội hình Warlock mạnh nhất của bạn (ví dụ: [Joker](/vi/codex/joker/), [Annie](/vi/codex/annie/), [Nicole](/vi/codex/nicole/), [Billy](/vi/codex/billy/), [Ulfrid](/vi/codex/ulfrid/) tùy theo sẵn có).
+1. **Xây Dựng Đội Hình Warlock Chuyên Dụng:** Ưu tiên đội hình Warlock mạnh nhất của bạn (ví dụ: [Hề](/vi/codex/joker/), [Annie](/vi/codex/annie/), [Nicole](/vi/codex/nicole/), [Billy](/vi/codex/billy/), [Ulfred](/vi/codex/ulfrid/) tùy theo sẵn có).
 2. **Cộng Hưởng Phe Phái:** Triển khai 5 anh hùng cùng phe phái để kích hoạt phần thưởng đội hình tối đa (**+20% Máu / Tấn Công / Phòng Thủ**).
 3. **Tập Trung Mục Tiêu Đơn:** Trang bị và kỹ năng cho các anh hùng có khả năng dồn sát thương đơn mục tiêu mạnh thay vì các kỹ năng diện rộng (AoE).
 
@@ -53,10 +53,10 @@ type: event
 
 Đội hình F2P (có sẵn từ ngày 8):
 
-- **Đội hình Xạ Thủ (Ranger)**: **Cynthia** hàng đầu (cô ấy miễn phí từ Vòng Quay May Mắn Ngày 8) + **Ash** phía sau (+19% sát thương quái vật cho 2 xạ thủ có ATK cao nhất) + **Bestar**.
+- **Đội hình Xạ Thủ (Ranger)**: **Xynthia** hàng đầu (cô ấy miễn phí từ Vòng Quay May Mắn Ngày 8) + **Ash** phía sau (+19% sát thương quái vật cho 2 xạ thủ có ATK cao nhất) + **Bestar**.
 - **Đội hình Chiến Binh (Warrior)**: Marlena (nếu bạn đã mua anh hùng giá $2) + Celia phía sau. F2P thuần túy: sử dụng Claire SSR/UR thay thế — cô ấy tăng sức mạnh cho 3 chiến binh có ATK cao nhất với sát thương quái vật. Hoạt động tốt cho đến khoảng ngày 70.
 
-Đội hình giai đoạn cuối là **đội hình đơn phe phái được tinh chỉnh theo vòng quay trùm hiện tại** (Thứ Hai/Thứ Năm = khắc chế Warlock, Thứ Ba/Thứ Sáu = khắc chế Ranger, Thứ Tư/Thứ Bảy = khắc chế Warrior — xem biểu đồ Pháp Sư ở trên). Một dàn chiến binh toàn lực ở giai đoạn cuối (Marlena + Zoya hàng đầu, Harper + Celia giữa, Daskal/Ulfrear phía sau) với phần thưởng tấn công phe phái +20% sẽ thắng theo mặc định.
+Đội hình giai đoạn cuối là **đội hình đơn phe phái được tinh chỉnh theo vòng quay trùm hiện tại** (Thứ Hai/Thứ Năm = khắc chế Warlock, Thứ Ba/Thứ Sáu = khắc chế Ranger, Thứ Tư/Thứ Bảy = khắc chế Warrior — xem biểu đồ Pháp Sư ở trên). Một dàn chiến binh toàn lực ở giai đoạn cuối (Marlena + Trác Nhã hàng đầu, Harper + Celia giữa, Daskal/Ulfrear phía sau) với phần thưởng tấn công phe phái +20% sẽ thắng theo mặc định.
 
 Hai mẹo trước trận đấu giúp cộng thêm hàng trăm nghìn điểm vào điểm số của bạn:
 

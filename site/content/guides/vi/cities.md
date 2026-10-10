@@ -30,10 +30,10 @@ Các thành phố hàng đầu có sự khác biệt rõ rệt nhất với nhau
 | Lionheart Fortress Lv.6 | Tốc độ huấn luyện↑ +5% | 100 |
 | Nightfall Fortress Lv.6 | Tốc độ nghiên cứu↑ +20% | 100 |
 | Sky Fortress Lv.6 | Tốc độ xây dựng công trình↑ +20% | 100 |
-| Temple of Chaos Lv.5 | Sản lượng gỗ↑ +20% | 80 |
-| Temple of Nature Lv.5 | Tốc độ thu thập lương thực↑ +20% | 80 |
-| Temple of Order Lv.5 | Sản lượng thảo dược↑ +20% | 80 |
-| Temple of War Lv.5 | Sản lượng lương thực↑ +20% | 80 |
+| Miếu Thần of Chaos Lv.5 | Sản lượng gỗ↑ +20% | 80 |
+| Miếu Thần of Nature Lv.5 | Tốc độ thu thập lương thực↑ +20% | 80 |
+| Miếu Thần of Order Lv.5 | Sản lượng thảo dược↑ +20% | 80 |
+| Miếu Thần of War Lv.5 | Sản lượng lương thực↑ +20% | 80 |
 
 Có một chi tiết rất dễ bị bỏ qua: các thành phố cùng cấp độ có chi phí giống nhau nhưng mang lại lợi ích khác nhau. Cả ba pháo đài cấp sáu đều có chung lượng HP, quân đồn trú và phần thưởng lần đầu chiếm giữ, nhưng phần thưởng của chúng không bằng nhau. Hai pháo đài cấp 20% tốc độ nghiên cứu và xây dựng trong khi pháo đài thứ ba chỉ cấp 5% tốc độ huấn luyện, vì vậy mục tiêu nên được lựa chọn dựa trên phần thưởng thay vì cấp độ.
 

@@ -56,28 +56,28 @@ Sai lầm lớn nhất về trang bị mà những người chơi mới thườn
 
 - **Giáp Ngực UR** cung cấp phòng thủ và **Kháng Sát Thương Vật Lý**.
 - **Giày UR** cung cấp phòng thủ, HP, và **Kháng Sát Thương Năng Lượng**.
-- **Bẫy Meta:** Phần lớn các tướng chủ lực gây sát thương hàng đầu trong Last Asylum (**Marlena, Cynthia, Annie**, và toàn bộ phe Warlock) gây **Sát Thương Năng Lượng** thông qua kỹ năng tối thượng và kỹ năng cốt lõi của họ. Chỉ có Joker và Raven là gây Sát Thương Vật Lý đáng kể.
+- **Bẫy Meta:** Phần lớn các tướng chủ lực gây sát thương hàng đầu trong Last Asylum (**Marlena, Xynthia, Annie**, và toàn bộ phe Warlock) gây **Sát Thương Năng Lượng** thông qua kỹ năng tối thượng và kỹ năng cốt lõi của họ. Chỉ có Hề và Raven là gây Sát Thương Vật Lý đáng kể.
 - Thăng cấp Giày lên **2 Sao** sẽ mở khóa mức **Kháng Sát Thương Năng Lượng +30%** cực kỳ lớn, bảo vệ chủ lực và hàng trước của bạn khỏi việc bốc hơi ngay lập tức trong PvP và Đấu Trường. Ngược lại, Giáp Ngực cung cấp khả năng phòng thủ chiến đấu tối thiểu trước meta hiện tại — hãy giữ giáp ở Cấp 40 để lấy chỉ số cơ bản, nhưng tuyệt đối đừng lãng phí bản vẽ khan hiếm để dồn sao cho nó từ sớm.
 
 ## Lộ Trình 3 Giai Đoạn Bản Vẽ & Sao: 45 Bản Vẽ (Korpez) {#three-stage-gear-plan}
 
 Bản Vẽ Trang Bị (UR) là nút thắt tiến độ hiếm nhất trong trò chơi. Để tránh lãng phí chúng vào các món đồ ít tác động, hãy tuân theo lộ trình bản vẽ 3 giai đoạn chuẩn của cộng đồng (kéo dài khoảng 6 tháng tiến độ F2P tập trung). Việc trang bị đầy đủ cho đội hình chính của bạn đòi hỏi chính xác **45 bản vẽ**:
 
-### Giai Đoạn 1: Chủ Lực Chính (Marlena / Cynthia / Annie)
+### Giai Đoạn 1: Chủ Lực Chính (Marlena / Xynthia / Annie)
 Kẻ gây sát thương chính của bạn phải sống sót qua sát thương bộc phát để gánh trận đấu.
 1. **Kiếm → 3 Sao** (cấp độ cao nhất có thể): Mang lại bước nhảy vọt thay đổi cục diện về Tấn Công và Tỷ Lệ Chí Mạng.
 2. **Giày → 2 Sao**: Mở khóa **Kháng Sát Thương Năng Lượng +30%** giúp chủ lực sống sót trước các đòn dồn sát thương tuyến sau của đối thủ.
 3. **Găng tay → 2 Sao**: Mở khóa **Kháng Toàn Bộ Sát Thương +2%** và lượng Tấn Công tăng đáng kể.
 4. **Giáp ngực → 0 Sao**: Nâng cấp lên cấp 40 bằng đá trang bị để lấy HP cơ bản thô, nhưng KHÔNG dùng bản vẽ để nâng sao.
 
-### Giai Đoạn 2: Tank Chính (Billy / Duskoll / Arthur / Louis)
+### Giai Đoạn 2: Tank Chính (Billy / Duskoll / Arthur / Luis)
 Mục đích duy nhất của hàng trước là thu hút hỏa lực (aggro) và gánh chịu đòn đánh.
 1. **Giáp ngực → Cấp 40, 0 Sao**: Lấy hoàn toàn cho Giáp và HP cơ bản.
 2. **Giày → Cấp 20, 2 Sao**: Mang lại Kháng Sát Thương Năng Lượng +30% để ngăn tank bị tan chảy trước các đợt bùng nổ phép thuật và năng lượng.
 3. **Kiếm → 0 Sao, 0 Đá**: Tank gây sát thương đánh thường không đáng kể; việc dùng đá hoặc bản vẽ cho vũ khí của tank hoàn toàn là sức mạnh lãng phí.
-> **Ngoại lệ quan trọng — Louis:** Khả năng tự hồi phục và duy trì của Louis tỷ lệ trực tiếp với **sức mạnh Tấn công** của anh ta! Nếu tank chính của bạn là Louis, anh ta là trường hợp đặc biệt được hưởng lợi từ găng tay và kiếm được nâng cấp.
+> **Ngoại lệ quan trọng — Luis:** Khả năng tự hồi phục và duy trì của Luis tỷ lệ trực tiếp với **sức mạnh Tấn công** của anh ta! Nếu tank chính của bạn là Luis, anh ta là trường hợp đặc biệt được hưởng lợi từ găng tay và kiếm được nâng cấp.
 
-### Giai Đoạn 3: Chủ Lực Phụ / Bán Hỗ Trợ (Joker / Zoya / Red Lady)
+### Giai Đoạn 3: Chủ Lực Phụ / Bán Hỗ Trợ (Hề / Trác Nhã / Bà Đỏ)
 Tướng chủ lực phụ của bạn dọn dẹp phần còn sót lại và áp dụng hiệu ứng bất lợi.
 1. **Kiếm → 2 Sao**
 2. **Găng tay → 2 Sao**
@@ -97,7 +97,7 @@ Bản phân tích chi tiết về chế tạo, hợp nhất nguyên liệu, chuy
 | **4:17** | Mẹo Găng Tay SSR trong PvE | Giữ găng tay SSR Cấp 30 cho Trùm Thế Giới (+12% sát thương quái vật), sau đó đổi lại thành găng tay UR cho PvP. |
 | **5:32** | Bẫy Giáp vs Giày | Giáp kháng sát thương vật lý (hiếm trong meta), trong khi Giày kháng sát thương năng lượng (+30% Kháng Năng Lượng). |
 | **8:13** | Giai đoạn 1: Chủ lực chính | Kiếm 3★, Giày 2★ (+30% Kháng Năng Lượng), Găng tay 2★. |
-| **9:20** | Giai đoạn 2: Tank & Bí mật của Louis | Không dùng đá cho kiếm tank, 2★ cho giày. Louis là ngoại lệ duy nhất cần găng tay để hồi máu. |
+| **9:20** | Giai đoạn 2: Tank & Bí mật của Luis | Không dùng đá cho kiếm tank, 2★ cho giày. Luis là ngoại lệ duy nhất cần găng tay để hồi máu. |
 | **10:40** | Giai đoạn 3: Chủ lực phụ (45 Bản vẽ) | Thiết lập chủ lực phụ (kiếm, găng tay, giày 2★). Kinh tế bản vẽ chính xác cho F2P. |
 
 ## Trang bị đánh trùm (Vua Quỷ) {#boss-gear}
@@ -118,7 +118,7 @@ Các bộ hiệu ứng đặc biệt (Mặt Nạ Hắc Dạ, Áo Choàng Lông R
 
 - **Xưởng Luyện → Cấp 25:** Đẩy Xưởng Luyện lên Cấp 25 ngay khi Căn cứ của bạn cho phép. Nó tinh luyện và sản xuất Đá Trang Bị cần thiết để nâng cấp trang bị. Bị tụt hậu về công trình này sẽ tạo ra một nút thắt không thể vượt qua đối với vũ khí của chủ lực bạn.
 - **Xưởng Trang Bị** — chế tạo & phân tách; **Xưởng Dệt** sản xuất vải để hợp nhất/chế tạo.
-- **Farm đá trang bị F2P:** Nút thắt chính của cộng đồng là Đá Trang Bị — hãy mua chúng đều đặn từ cửa hàng Căn cứ và Viễn Chinh.
+- **Nông Trại đá trang bị F2P:** Nút thắt chính của cộng đồng là Đá Trang Bị — hãy mua chúng đều đặn từ cửa hàng Căn cứ và Viễn Chinh.
 - **Bản Vẽ Trang Bị (UR) trong Cửa Hàng Vinh Dự:** Dành Xu Vinh Dự của bạn **ĐỘC QUYỀN cho Bản Vẽ Trang Bị (UR)**. Bỏ qua Rương Đồ Cổ và mảnh vạn năng — bản vẽ là cánh cổng duy nhất để thăng cấp trang bị cam ở Cấp 10, 20, 30 và 40.
 
 ---
@@ -229,21 +229,21 @@ Các chỉ số tăng thuần túy đến một cách mượt mà, trong khi ph�
 ## Ai sở hữu nó
 
 Mỗi chủ sở hữu mang một vũ khí khác nhau, với tên riêng và bộ tiền thưởng riêng.
-- Shadow: Đoản Đao Ảo Ảnh
+- Ảnh: Đoản Đao Ảo Ảnh
 - Daskal: Đại Kiếm Đỏ Rực
 - Arthur: Khiên Đá
-- Louis: Xiềng Xích Gai
-- Ulfrid: Vuốt Sói
+- Luis: Xiềng Xích Gai
+- Ulfred: Vuốt Sói
 - Billy: Khung Rối
 - Harper: Kèn Hát Của Bard
 - Bell: Trống Nhỏ
 - Nicole: Áo Choàng Lửa
-- Zoya: Kiếm Rừng
+- Trác Nhã: Kiếm Rừng
 - Annie: Đũa Kẹo
-- Cynthia: Kiếm Trăng
+- Xynthia: Kiếm Trăng
 - Marlena: Kiếm Đỏ
-- Red Lady: Lưỡi Kiếm Đỏ
-- Joker: Thẻ Bài Ảo Thuật
+- Bà Đỏ: Lưỡi Kiếm Đỏ
+- Hề: Thẻ Bài Ảo Thuật
 
 ## Các trang liên kết đến đây
 
@@ -253,23 +253,23 @@ Các trang đề cập đến trang này. Danh sách được xây dựng từ m
 - Trang bị tướng: độ hiếm, ô và Sức Chiến Đấu
 - Claire (Nâng cao): kỹ năng, nâng cấp và Sức Chiến Đấu
 - Nicole: kỹ năng, nâng cấp và Sức Chiến Đấu
-- Joker: kỹ năng, nâng cấp và Sức Chiến Đấu
+- Hề: kỹ năng, nâng cấp và Sức Chiến Đấu
 - Annie: kỹ năng, nâng cấp và Sức Chiến Đấu
-- Ulfrid: kỹ năng, nâng cấp và Sức Chiến Đấu
+- Ulfred: kỹ năng, nâng cấp và Sức Chiến Đấu
 - Billy: kỹ năng, nâng cấp và Sức Chiến Đấu
 - Bell: kỹ năng, nâng cấp và Sức Chiến Đấu
-- Red Lady: kỹ năng, nâng cấp và Sức Chiến Đấu
-- Cynthia: kỹ năng, nâng cấp và Sức Chiến Đấu
-- Louis: kỹ năng, nâng cấp và Sức Chiến Đấu
-- Shadow: kỹ năng, nâng cấp và Sức Chiến Đấu
-- Zoya: kỹ năng, nâng cấp và Sức Chiến Đấu
+- Bà Đỏ: kỹ năng, nâng cấp và Sức Chiến Đấu
+- Xynthia: kỹ năng, nâng cấp và Sức Chiến Đấu
+- Luis: kỹ năng, nâng cấp và Sức Chiến Đấu
+- Ảnh: kỹ năng, nâng cấp và Sức Chiến Đấu
+- Trác Nhã: kỹ năng, nâng cấp và Sức Chiến Đấu
 - Harper: kỹ năng, nâng cấp và Sức Chiến Đấu
 - Daskal: kỹ năng, nâng cấp và Sức Chiến Đấu
 - Ash: kỹ năng, nâng cấp và Sức Chiến Đấu
 - William: kỹ năng, nâng cấp và Sức Chiến Đấu
 - Durant: kỹ năng, nâng cấp và Sức Chiến Đấu
 - Robin: kỹ năng, nâng cấp và Sức Chiến Đấu
-- Kafa: kỹ năng, nâng cấp và Sức Chiến Đấu
+- Caffa: kỹ năng, nâng cấp và Sức Chiến Đấu
 - Hastar: kỹ năng, nâng cấp và Sức Chiến Đấu
 - Marlena: kỹ năng, nâng cấp và Sức Chiến Đấu
 - Bestar: kỹ năng, nâng cấp và Sức Chiến Đấu

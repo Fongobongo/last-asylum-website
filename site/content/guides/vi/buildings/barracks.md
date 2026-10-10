@@ -41,7 +41,7 @@ Nâng cấp công trình từ cấp 1 lên 30 tiêu tốn Lương thực 2.475.8
 
 ## Cách sử dụng
 
-Việc nâng cấp toàn diện một Doanh trại mất 199 ngày, trong khi Bãi huấn luyện (Training Grounds) và Đội trinh sát (Scout Squad) từ cùng cấp độ Thánh địa 6 cần tới 299 ngày mỗi loại. Cả ba loại công trình này đều có thể xây dựng nhiều lần, khiến cấp độ 6 trở thành giai đoạn "nặng nề" nhất trong hàng chờ xây dựng của cả trò chơi.
+Việc nâng cấp toàn diện một Doanh trại mất 199 ngày, trong khi Bãi huấn luyện (Sân Huấn Luyện) và Đội trinh sát (Đội Trinh Sát) từ cùng cấp độ Thánh địa 6 cần tới 299 ngày mỗi loại. Cả ba loại công trình này đều có thể xây dựng nhiều lần, khiến cấp độ 6 trở thành giai đoạn "nặng nề" nhất trong hàng chờ xây dựng của cả trò chơi.
 
 Tuy nhiên, lợi ích mang lại không đồng đều. Cấp độ 20 đạt được trong khoảng chín ngày xây dựng thuần túy và cung cấp 6.023 Sức chứa quân trong tổng số 8.033, chiếm ba phần tư tổng số. Mười cấp độ còn lại chỉ tăng thêm 2.010 lính nhưng tiêu tốn tới 190 ngày. Với Sức mạnh, tình hình lại ngược lại: ở cấp 20, doanh trại cung cấp 41.300 Sức mạnh và ở cấp 30 là 229.600, vì vậy gần như toàn bộ Sức mạnh đều đến từ các cấp độ chậm nhất.
 

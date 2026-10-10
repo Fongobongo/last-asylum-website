@@ -20,7 +20,7 @@ Tính năng Liên minh được mở khóa ở **Cấp độ Thánh địa 5**.
 2. Tránh tham gia các bang hội "Mở" ngẫu nhiên dành cho người mới. Các liên minh cạnh tranh, có tổ chức luôn yêu cầu xem xét đơn đăng ký (Apply).
 3. **Tiêu chí lựa chọn chính:**
    * **Xếp hạng Lực chiến:** Hãy cố gắng gia nhập bang hội Top 1 đến Top 3 trên server của bạn. Họ thống trị Lâu đài Hoàng gia, giữ danh hiệu Bang hội Thống trị và tạo ra hàng nghìn rương quà từ các thành viên tích cực.
-   * **Múi giờ & Hoạt động trò chuyện:** Đảm bảo giờ đi săn cao điểm của bang hội phù hợp với lịch trình của bạn cho các cuộc tập kết Cheese Trap và Undead Siege.
+   * **Múi giờ & Hoạt động trò chuyện:** Đảm bảo giờ đi săn cao điểm của bang hội phù hợp với lịch trình của bạn cho các cuộc tập kết Bẫy Phô Mai và Zombie Vây Thành.
    * **Cấp độ Quà tặng:** Các cấp quà tặng liên minh cao hơn sẽ rơi ra các rương cột mốc tốt hơn, chứa kim cương miễn phí, vé chiêu mộ và tăng tốc.
 
 ---

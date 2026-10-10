@@ -15,7 +15,7 @@ videoTopic: compare
 | **Beschikbaarheid** | Dag 1 via opwaardering van $1, Dag 66 gratis in de Taverne | Alleen betaald (10 fragmenten om te beginnen) |
 | **Schade-aandeel** | ~85% van de groepschade in haar eentje | Deelt ~50/50 met een gemaxte Marlena |
 | **Schadetype** | Fysieke/energiemix per build | Energiewervelwind — heeft energie-supports nodig |
-| **Synergie** | 4× gebuffed in de standaard comp (Harper ult + Bell + Claire passief) | Stapelt niet met fysieke Joker |
+| **Synergie** | 4× gebuffed in de standaard comp (Harper ult + Bel + Claire passief) | Stapelt niet met fysieke Joker |
 | **F2P-oordeel** | De hoofd-carry van het gehele F2P-pad | Wissel Claire alleen in als je Zoya veel sterren heeft |
 
 <!-- video: XktNJ6u4sWo -->
@@ -59,9 +59,9 @@ videoTopic: compare
 
 <!-- video: -9Nysk8pcns -->
 
-## Shadow vs Lucius — tweede tank {#shadow-vs-lucius}
+## Schaduw vs Lucius — tweede tank {#shadow-vs-lucius}
 
-**✓ Lucius nu gratis; Shadow als je de Heldenpas koopt**
+**✓ Lucius nu gratis; Schaduw als je de Heldenpas koopt**
 
 | | | |
 |---|---|---|
@@ -77,7 +77,7 @@ videoTopic: compare
 | | | |
 |---|---|---|
 | **Rol** | Schade-reflectietank (omgedoopt van Brian) | Anti-CC tank en debuffer |
-| **Belangrijkste vaardigheid** | Schadereflectie + overlevingskansen | Stun-immuniteit (telt Red Lady tegen) + −8% opgelopen energieschade |
+| **Belangrijkste vaardigheid** | Schadereflectie + overlevingskansen | Stun-immuniteit (telt Rode Dame tegen) + −8% opgelopen energieschade |
 | **Debuff** | Monsterschadevermindering | +Ontvangen schade debuff toegepast op 3 willekeurige vijanden (Waarheid en Leugen) |
 | **Bron** | UR-oproep / Dag 43-banner | Heldenpas / Dag 85 Dagelijkse Aanbieding |
 | **Oordeel** | Ruggengraat frontlinie van mono-Warlocks | Verplicht in PvP tegen Ranger-crowdcontrol |

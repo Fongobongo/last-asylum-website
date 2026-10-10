@@ -14,7 +14,7 @@ type: guide
 
 Statua del Guerriero
 
-La Statua del Guerriero (Warrior Statue) potenzia contemporaneamente ogni eroe della fazione dei Guerrieri: ogni livello della statua aggiunge HP, ATK, DEF e comando a tutti loro. L'edificio arriva fino al livello 30 e il bonus cresce a ogni passaggio, quindi la statua della fazione che costituisce la squadra principale ripaga l'investimento più velocemente di qualsiasi altro edificio con bonus per gli eroi. Inoltre, al livello 20 la statua sblocca i frammenti degli eroi della sua fazione: senza di essa, gli eroi di quella fazione non possono essere reclutati.
+La Statua del Guerriero (Statua del guerriero) potenzia contemporaneamente ogni eroe della fazione dei Guerrieri: ogni livello della statua aggiunge HP, ATK, DEF e comando a tutti loro. L'edificio arriva fino al livello 30 e il bonus cresce a ogni passaggio, quindi la statua della fazione che costituisce la squadra principale ripaga l'investimento più velocemente di qualsiasi altro edificio con bonus per gli eroi. Inoltre, al livello 20 la statua sblocca i frammenti degli eroi della sua fazione: senza di essa, gli eroi di quella fazione non possono essere reclutati.
 
 ## Livelli
 

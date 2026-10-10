@@ -11,7 +11,7 @@ type: event
 
 三角竞技场是一个 3v3 的阵型决斗玩法：你需要设置**三个防御阵容**，而每个进攻方可以**挑选你的其中两个阵容进行战斗**——他们必须**赢得 3 场中的 2 场**才能击败你。在其他所有规则之前，有一条规则决定了整个赛事的走向：**进攻方能看清你的布阵**。在这个游戏中，防守的意义不在于做到无懈可击，而在于不被对方一眼看穿。
 
-本指南将介绍防守原则、进攻的田忌赛马规则、克制关系、阵营加成，以及命运竞技场（Arena of Fate）的陷阱队伍策略。
+本指南将介绍防守原则、进攻的田忌赛马规则、克制关系、阵营加成，以及命运竞技场（竞技场 of Fate）的陷阱队伍策略。
 
 ## 赛制及其含义 {#format}
 
@@ -64,7 +64,7 @@ type: event
 
 ## 视频解析：竞技场秘密与陷阱队伍 (KorpezGaming) {#video-breakdown-arena}
 
-由 KorpezGaming 带来的天梯机制与防守优化解析（[Last Asylum Players DO NOT KNOW This Arena Secret!](https://youtu.be/OGyohKhAHFE)）：
+由 KorpezGaming 带来的天梯机制与防守优化解析（[Last Asylum Players DO NOT KNOW This 竞技场 Secret!](https://youtu.be/OGyohKhAHFE)）：
 
 | 时间戳 | 主题 | 核心收获 |
 |---|---|---|

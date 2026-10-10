@@ -2,6 +2,7 @@
 import Base from '../../../../layouts/Base.astro';
 import HeroCodexDetail from '../../../../components/HeroCodexDetail.astro';
 import { heroCodex } from '../../../../data/heroCodex';
+import { t } from '../../../../i18n/ui';
 import type { Lang } from '../../../../i18n/utils';
 import officialHeroesData from '../../../../data/officialHeroes.json';
 
@@ -22,15 +23,15 @@ const heroDisplayName = officialData?.names?.[lang] || hero.names?.[lang] || her
 <Base
   lang={lang}
   path={`/th/codex/${hero.slug}/`}
-  title={`${heroDisplayName} — คู่มือฮีโร่และสกิลอย่างเป็นทางการ}
+  title={`${heroDisplayName} — คู่มือฮีโร่และสกิลอย่างเป็นทางการ`}
   description={hero.role}
 >
   <HeroCodexDetail
     hero={hero}
     lang={lang}
     breadcrumbs={[
-      { label: 'Start', href: '/th/' },
-      { label: 'Helden-Kodex', href: '/th/codex/' },
+      { label: t(lang, 'nav.home'), href: '/th/' },
+      { label: 'Hero Codex', href: '/th/codex/' },
       { label: heroDisplayName }
     ]}
   />

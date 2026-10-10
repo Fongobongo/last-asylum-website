@@ -9,7 +9,7 @@ infographics: ["/infographics/cheese-trap.webp", "/infographics/cheese-rewards.w
 type: event
 ---
 
-Kazenval (Cheese Trap) is een **alliantie PvE-rally-evenement** tegen een gigantische rat. Je persoonlijke schade levert persoonlijke beloningen op verspreid over vijf fasen, en de totale schade van de alliantie levert afzonderlijke alliantiebeloningen op. Het lijkt een puur krachtevenement — het is in werkelijkheid een planningsevenement, en dat verschil is enkele beloningslagen waard.
+Kazenval (Kaasval) is een **alliantie PvE-rally-evenement** tegen een gigantische rat. Je persoonlijke schade levert persoonlijke beloningen op verspreid over vijf fasen, en de totale schade van de alliantie levert afzonderlijke alliantiebeloningen op. Het lijkt een puur krachtevenement — het is in werkelijkheid een planningsevenement, en dat verschil is enkele beloningslagen waard.
 
 Deze gids behandelt de twee beloningssporen, de stop-puntsregel, level-schaling en hoe je de ranglijsten leest voordat je alliantie zich vastlegt op een rat.
 

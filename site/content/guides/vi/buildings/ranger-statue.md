@@ -46,11 +46,11 @@ Chi phí và thời gian của mỗi cấp độ chia hết cho 5. Chi phí tăn
 ## Anh hùng nhận được thuộc tính cộng thêm
 
 Mỗi anh hùng thuộc phe này đều nhận được thuộc tính cộng thêm, kể cả những người đang dự bị.
-- Shadow · UR
-- Louis · UR
+- Ảnh · UR
+- Luis · UR
 - Bell · UR
-- Cynthia · UR
-- Red Lady · UR
+- Xynthia · UR
+- Bà Đỏ · UR
 - Griffith · SSR
 - Ash · SSR
 - Bestar · SSR

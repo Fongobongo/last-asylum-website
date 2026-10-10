@@ -59,7 +59,7 @@ Cuộc thi diễn ra qua 5 giai đoạn riêng biệt:
 
 ## 3. Quy tắc Chiến đấu: Định dạng BO3 3 Đội hình
 
-Cơ chế chiến đấu phản ánh **Đấu trường Tam giác (Triangle Arena)**, được nâng tầm lên sân khấu liên server:
+Cơ chế chiến đấu phản ánh **Đấu trường Tam giác (Triangle Đấu Trường)**, được nâng tầm lên sân khấu liên server:
 
 * **3 Đội hình Độc lập:** Bạn đưa ra Đội hình 1, Đội hình 2 và Đội hình 3 mà không trùng lặp tướng.
 * **Loạt trận BO3:** Người chơi đầu tiên giành được 2 chiến thắng đội hình sẽ thắng trận đấu.

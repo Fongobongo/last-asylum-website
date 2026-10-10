@@ -6,13 +6,13 @@ lang: tr
 updated: "2026-09-19"
 type: guide
 ---
-![Ranger Statue](/building-icons/5046.png)
+![Korucu Heykeli](/building-icons/5046.png)
 
 
 > Veriler oyun istemcisi üzerinden doğrulanmıştır (v1.0.87, kaynak: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-ranger-statue)).
 
 
-Korucu Heykeli (Ranger Statue)
+Korucu Heykeli (Korucu Heykeli)
 
 Korucu Heykeli, Korucu (Ranger) fraksiyonundaki tüm kahramanları aynı anda güçlendirir: heykelin her seviyesi hepsine HP, ATK, DEF ve komuta (command) kazandırır. Bina 30. seviyeye kadar yükselir ve bonus her adımda artar; bu nedenle ana birliği oluşturan fraksiyonun heykeli, kahraman bonusu veren diğer tüm binalardan daha hızlı geri dönüş sağlar. Ek olarak, 20. seviyede heykel kendi fraksiyonundaki kahramanların parça kilitlerini açar; bu olmadan o fraksiyonun kahramanları işe alınamaz.
 
@@ -46,11 +46,11 @@ Her beş seviyenin fiyatı ve süresi. Fiyat, kazançlardan çok daha hızlı ar
 ## Bonus alan kahramanlar
 
 Yedekte bekleyenler dahil olmak üzere fraksiyonun her kahramanı bonusu alır.
-- Shadow · UR
+- Gölge · UR
 - Louis · UR
 - Bell · UR
 - Cynthia · UR
-- Red Lady · UR
+- Kızıl Hanım · UR
 - Griffith · SSR
 - Ash · SSR
 - Bestar · SSR

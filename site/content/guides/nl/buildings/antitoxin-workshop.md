@@ -47,4 +47,4 @@ De output stijgt van 1.556 per uur op niveau 1 naar 259.666 op niveau 30. Vijf w
 
 De productie wordt voor een beperkte tijd opgeslagen: 29.280 seconden op niveau 1 en 43.200, oftewel 12 uur, op niveau 30. Vijf werkplaatsen houden 15.579.960 antitoxine vast, en alles wat daarbovenop zou komen, gaat verloren. Sanctuary niveau 5 geeft ook vijf slots van hetzelfde type aan de Smeltwerkplaats en de Weverij, maar elk daarvan heeft 99 dagen en 17 uur nodig tegenover de 49 dagen en 21 uur hier.
 
-Het ophalen van de buit is om een tweede reden belangrijk: er is geen opslagplaats voor antitoxine, dus een volle voorraad gaat in zijn geheel naar een plunderaar. Ter vergelijking: fase 10 van de Undead Siege levert 255.600.000 antitoxine op, 197 uur werk voor vijf werkplaatsen.
+Het ophalen van de buit is om een tweede reden belangrijk: er is geen opslagplaats voor antitoxine, dus een volle voorraad gaat in zijn geheel naar een plunderaar. Ter vergelijking: fase 10 van de Ondodenbelegering levert 255.600.000 antitoxine op, 197 uur werk voor vijf werkplaatsen.

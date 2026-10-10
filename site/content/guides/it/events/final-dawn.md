@@ -1,13 +1,13 @@
 ---
-title: "Final Dawn: Sprint di progressione della base in 7 giorni"
-description: "Guida completa al fondamentale evento 'Final Dawn' (Alba Finale) nelle prime fasi di Last Asylum: Plague: 4 fasi progressive (Fondamentali, Spinta alla Potenza, Spinta Maggiore, Spinta Finale), matrice di priorità e conservazione delle accelerazioni."
+title: "Alba finale: Sprint di progressione della base in 7 giorni"
+description: "Guida completa al fondamentale evento 'Alba finale' (Alba Finale) nelle prime fasi di Last Asylum: Plague: 4 fasi progressive (Fondamentali, Spinta alla Potenza, Spinta Maggiore, Spinta Finale), matrice di priorità e conservazione delle accelerazioni."
 lang: it
 updated: "2026-09-14"
 videoTopic: final_dawn
 type: event
 ---
 
-L'evento **Final Dawn** (Alba Finale) rappresenta la tappa di sviluppo fondamentale di 7 giorni nelle prime fasi del tuo viaggio in Last Asylum: Plague. Il suo obiettivo principale è accelerare la potenza del tuo Santuario e sbloccare costantemente ricompense milestone a livelli: accelerazioni universali, enormi casse di risorse, frammenti di eroi ed equipaggiamento essenziale.
+L'evento **Alba finale** (Alba Finale) rappresenta la tappa di sviluppo fondamentale di 7 giorni nelle prime fasi del tuo viaggio in Last Asylum: Plague. Il suo obiettivo principale è accelerare la potenza del tuo Santuario e sbloccare costantemente ricompense milestone a livelli: accelerazioni universali, enormi casse di risorse, frammenti di eroi ed equipaggiamento essenziale.
 
 Formulata da comandanti veterani (oψsvge英俊的, Server K250), questa guida fornisce un piano tattico fase per fase per l'intera durata di 7 giorni.
 
@@ -38,10 +38,10 @@ Formulata da comandanti veterani (oψsvge英俊的, Server K250), questa guida f
 
 ### Fase 4: Giorno 7 — SPINTA FINALE 🔥
 - **Obiettivo principale:** Controllo dei traguardi e riscossione di tutte le ricompense rimanenti.
-- Controlla la schermata dell'evento Final Dawn per identificare le soglie di traguardo non ancora raggiunte.
+- Controlla la schermata dell'evento Alba finale per identificare le soglie di traguardo non ancora raggiunte.
 - Liquidare le accelerazioni rimanenti, l'EXP degli Eroi, i materiali dei Corvi e le riserve di risorse.
 - Completa i miglioramenti specifici che offrono il maggior valore di Potenza al minuto.
-- **IMPORTANTE:** Riscatta ogni singolo forziere traguardo di Final Dawn prima del reset del server (00:00 ora del server / 02:00 UTC)!
+- **IMPORTANTE:** Riscatta ogni singolo forziere traguardo di Alba finale prima del reset del server (00:00 ora del server / 02:00 UTC)!
 
 ---
 

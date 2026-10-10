@@ -7,7 +7,7 @@ videoTopic: era
 calculators: ["claire-shards"]
 ---
 
-Tijdperk van Heropleving is de seizoensgebonden laag die rond dag 120 arriveert — een cyclus van ongeveer twee maanden die zijn eigen voortgangssystemen toevoegt bovenop het basisspel: het Lord-standbeeld (Weerstand en Lord-evolutie), specialisatiebomen en Elite Blight.
+Tijdperk van Heropleving is de seizoensgebonden laag die rond dag 120 arriveert — een cyclus van ongeveer twee maanden die zijn eigen voortgangssystemen toevoegt bovenop het basisspel: het Lord-standbeeld (Weerstand en Lord-evolutie), specialisatiebomen en Elite-plaagling.
 
 Het seizoen beloont focus en straft afleiding harder af dan het basisspel doet. Deze pagina behandelt wat je dagelijks moet prioriteren, welke specialisatieboom past bij jouw bestedingsniveau, wat je moet hamsteren voordat het seizoen begint en de complete wiskunde van de Claire SSR-naar-UR-conversie.
 
@@ -17,7 +17,7 @@ Eén seizoen (Expeditie-liga) duurt **55 dagen** (verkort van 56 dagen in de upd
 
 - **Lord-standbeeld** — Weerstand en Lord-evolutie. De ruggengraat van het seizoen; zie het [gedeelte over Lord-standbeelden](#lord-statues).
 - **Specialisatiebomen** — rolbepalende bonussen, opgesplitst tussen groei- en oorlogspaden.
-- **Elite Blight** — groepscontent met op Weerstand gebaseerde moeilijkheidsgraad.
+- **Elite-plaagling** — groepscontent met op Weerstand gebaseerde moeilijkheidsgraad.
 
 ## Weerstand: De #1 dagelijkse prioriteit {#resistance-first}
 
@@ -26,7 +26,7 @@ Vanaf dag 1 van het seizoen is Weerstand de allerhoogste dagelijkse prioriteit �
 Twee praktische regels voor het pushen van Weerstand:
 
 - **Val monsters aan, zelfs bij een schadepenalty van 30%.** Het gevecht is vaak nog steeds te winnen — en de Weerstand-XP stroomt hoe dan ook binnen.
-- **Houd een Elite Blight-rally met een bondgenoot die een hogere Weerstand heeft.** De moeilijkheidsgraad voor groepen schaalt mee met de deelnemers; een sterkere bondgenoot trekt jouw overwinning erdoorheen.
+- **Houd een Elite-plaagling-rally met een bondgenoot die een hogere Weerstand heeft.** De moeilijkheidsgraad voor groepen schaalt mee met de deelnemers; een sterkere bondgenoot trekt jouw overwinning erdoorheen.
 
 Eén gratis extraatje dat je direct moet pakken: de **huid van de Groene Schuilplaats geeft +100 Weerstand-XP**. Claim hem, pas hem toe en laat hem elke dag van het seizoen zijn vruchten afwerpen — dat is 100 XP per dag waar je niet voor hoeft te vechten. De Era Shop bevat ook de permanente kasteelhuid **Kasteel van Heropleving**.
 
@@ -56,7 +56,7 @@ Je begint het seizoen met ongeveer 40 specialisatiepunten. Dit zijn de twee gete
 
 **Legioencommandant (PvP-pad)** — Op maat gemaakt voor rallyleiders en zware betalers. Focus op **hospitaallimiet + (16, 12, 14, 18 ×500)**, **+3% genezingssnelheid**, **marcheersnelheid voor verzamel-/boomknooppunten**, en daarna aanvalsknooppunten: **aanval leidend 1–3%**, **schermutseling leidende schade**, en actieve vaardigheden: **Belegorlogemlag (+100 vernietiging gedurende 30 min, 24u afkoeltijd)**, **Gifzakje**, **Vuurwerker**, **Snelheidsleraar**, **Gebonden Schild**, **Oorlogsrazernij (leiderschapsaanvalsbuff)** en **All-terrain tactieken**.
 
-**Oorlogsrazernij-truc**: het aanvallen van **willekeurige** spelerssteden (zelfs een lege) activeert Oorlogsrazernij — de buff is ook van toepassing op wereldgazen en het [Pandemic Experience](/events/pandemic-experience/)-evenement. Goedkope buff voor het bevechten van bazen.
+**Oorlogsrazernij-truc**: het aanvallen van **willekeurige** spelerssteden (zelfs een lege) activeert Oorlogsrazernij — de buff is ook van toepassing op wereldgazen en het [Pandemie-ervaring](/events/pandemic-experience/)-evenement. Goedkope buff voor het bevechten van bazen.
 
 ## Video-uitleg: Handlanger OF Legioencommandant? (KorpezGaming) {#video-breakdown-era}
 

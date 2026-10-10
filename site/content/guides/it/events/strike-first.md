@@ -7,7 +7,7 @@ videoTopic: strike_first
 type: event
 ---
 
-L'evento **Colpisci per primo** (Strike First) è il principale sprint di inserimento per i nuovi server e i comandanti principianti in Last Asylum: Plague. Attivato immediatamente alla creazione dell'account, funge da acceleratore di crescita primario durante la Settimana 1: il completamento dei traguardi fondamentali assegna un'abbondanza di diamanti gratuiti, acceleratori, biglietti di reclutamento e frammenti di eroe.
+L'evento **Colpisci per primo** (Primo colpo) è il principale sprint di inserimento per i nuovi server e i comandanti principianti in Last Asylum: Plague. Attivato immediatamente alla creazione dell'account, funge da acceleratore di crescita primario durante la Settimana 1: il completamento dei traguardi fondamentali assegna un'abbondanza di diamanti gratuiti, acceleratori, biglietti di reclutamento e frammenti di eroe.
 
 ---
 

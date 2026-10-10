@@ -7,7 +7,7 @@ videoTopic: survival
 type: event
 ---
 
-**Trận Chiến Sinh Tồn (Survival Battle)** là sự kiện nhiệm vụ định kỳ hàng đầu trong Last Asylum: Plague, đóng vai trò là nền tảng tài chính cho các chỉ huy cày chay (F2P): **những người chơi F2P chăm chỉ có thể đều đặn nhận được khoảng 60.000 Huy Hiệu Kỹ Năng (Skill Badges) miễn phí mỗi tuần**, cùng với các Ấn Sinh Tồn (Survival Seals).
+**Trận Chiến Sinh Tồn (Chiến Sinh Tồn)** là sự kiện nhiệm vụ định kỳ hàng đầu trong Last Asylum: Plague, đóng vai trò là nền tảng tài chính cho các chỉ huy cày chay (F2P): **những người chơi F2P chăm chỉ có thể đều đặn nhận được khoảng 60.000 Huy Hiệu Kỹ Năng (Skill Badges) miễn phí mỗi tuần**, cùng với các Ấn Sinh Tồn (Survival Seals).
 
 Huy Hiệu Kỹ Năng là nút thắt cổ chai vĩnh viễn trong tất cả các cây kỹ năng của anh hùng. Hướng dẫn này sẽ phân tích chi tiết các pha xoay vòng 4 tiếng, phần thưởng mốc và sự phối hợp nhịp nhàng với các pha của Đấu Trường Liên Minh (Alliance Duel).
 
@@ -15,7 +15,7 @@ Huy Hiệu Kỹ Năng là nút thắt cổ chai vĩnh viễn trong tất cả c�
 
 ## ⚙️ Cơ Chế Sự Kiện & Danh Mục Nhiệm Vụ {#how-it-works}
 
-- Trận Chiến Sinh Tồn diễn ra liên tục theo các **pha 4 tiếng** (được xác nhận trực tiếp từ câu hỏi trong game Quiz of Wisdom: *"Mỗi Trận Chiến Sinh Tồn trong game kéo dài mấy tiếng? — 4 Tiếng"*).
+- Trận Chiến Sinh Tồn diễn ra liên tục theo các **pha 4 tiếng** (được xác nhận trực tiếp từ câu hỏi trong game Đố Vui Trí Tuệ: *"Mỗi Trận Chiến Sinh Tồn trong game kéo dài mấy tiếng? — 4 Tiếng"*).
 - Cứ sau mỗi 4 tiếng trong ngày, một lộ trình phát triển mới sẽ được kích hoạt.
 - **LƯU Ý QUAN TRỌNG:** Thứ tự xoay vòng và lịch trình nhiệm vụ chính xác sẽ **khác nhau tùy theo máy chủ**, vì vậy hãy luôn kiểm tra tab sự kiện đang hoạt động của bạn.
 - Sự kiện xoay quanh 5 danh mục phát triển cốt lõi:
@@ -79,7 +79,7 @@ Trong khối Nghiên Cứu Công Nghệ 4 tiếng, hãy áp dụng mẹo tối �
 > Trong các nhiệm vụ Tháp Falcon (huấn luyện Quạ), điểm Trận Chiến Sinh Tồn được thưởng **trực tiếp khi tiêu thụ thể lực (stamina)** để tiêu diệt mục tiêu! 
 
 * **Quy Tắc Thép:** **TUYỆT ĐỐI KHÔNG đốt Quả Quạ (Raven Fruits) trong Trận Chiến Sinh Tồn!** Hãy để dành tất cả Quả Quạ cho ngày Thứ Hai (Pha 1 Đấu Trường Liên Minh).
-* **Cách Vượt Qua Pha Này:** Hoàn thành pha Quạ 100% **thông qua hồi phục tự nhiên, hai lần hồi thể lực miễn phí hàng ngày và mua thể lực bằng kim cương (2 lần đầu × 150, 2 lần tiếp theo × 250)** — hoặc kết hợp. Hãy để dành bình thể lực cho các sự kiện như Sử Ký Đạo Tặc (Thief Hunt). Điều này đảm bảo tối đa hóa Huy Hiệu Kỹ Năng mà không làm lãng phí kho quả quý giá.
+* **Cách Vượt Qua Pha Này:** Hoàn thành pha Quạ 100% **thông qua hồi phục tự nhiên, hai lần hồi thể lực miễn phí hàng ngày và mua thể lực bằng kim cương (2 lần đầu × 150, 2 lần tiếp theo × 250)** — hoặc kết hợp. Hãy để dành bình thể lực cho các sự kiện như Sử Ký Đạo Tặc (Truy bắt Kẻ trộm). Điều này đảm bảo tối đa hóa Huy Hiệu Kỹ Năng mà không làm lãng phí kho quả quý giá.
 
 ---
 

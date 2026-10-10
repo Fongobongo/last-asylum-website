@@ -45,23 +45,23 @@ Các trang có nhắc đến trang này. Danh sách này được xây dựng t�
 - Mảnh thức tỉnh: chúng đến từ đâu
 - Claire (Nâng cao): kỹ năng, nâng cấp và Lực chiến
 - Nicole: kỹ năng, nâng cấp và Lực chiến
-- Joker: kỹ năng, nâng cấp và Lực chiến
+- Hề: kỹ năng, nâng cấp và Lực chiến
 - Annie: kỹ năng, nâng cấp và Lực chiến
-- Ulfrid: kỹ năng, nâng cấp và Lực chiến
+- Ulfred: kỹ năng, nâng cấp và Lực chiến
 - Billy: kỹ năng, nâng cấp và Lực chiến
 - Bell: kỹ năng, nâng cấp và Lực chiến
-- Red Lady: kỹ năng, nâng cấp và Lực chiến
-- Cynthia: kỹ năng, nâng cấp và Lực chiến
-- Louis: kỹ năng, nâng cấp và Lực chiến
-- Shadow: kỹ năng, nâng cấp và Lực chiến
-- Zoya: kỹ năng, nâng cấp và Lực chiến
+- Bà Đỏ: kỹ năng, nâng cấp và Lực chiến
+- Xynthia: kỹ năng, nâng cấp và Lực chiến
+- Luis: kỹ năng, nâng cấp và Lực chiến
+- Ảnh: kỹ năng, nâng cấp và Lực chiến
+- Trác Nhã: kỹ năng, nâng cấp và Lực chiến
 - Harper: kỹ năng, nâng cấp và Lực chiến
 - Daskal: kỹ năng, nâng cấp và Lực chiến
 - Ash: kỹ năng, nâng cấp và Lực chiến
 - William: kỹ năng, nâng cấp và Lực chiến
 - Durant: kỹ năng, nâng cấp và Lực chiến
 - Robin: kỹ năng, nâng cấp và Lực chiến
-- Kafa: kỹ năng, nâng cấp và Lực chiến
+- Caffa: kỹ năng, nâng cấp và Lực chiến
 - Hastar: kỹ năng, nâng cấp và Lực chiến
 - Marlena: kỹ năng, nâng cấp và Lực chiến
 - Bestar: kỹ năng, nâng cấp và Lực chiến

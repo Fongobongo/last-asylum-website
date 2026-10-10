@@ -36,10 +36,10 @@ Bu bina herhangi bir istatistik bonusu vermez: yüzdelik değerler yerine bir se
 
 ## Nasıl kullanılır
 
-Falcon Tower, anlık binaların en pahalısıdır: 720 Tahıl ve 720 Kereste; bu, Nomad Trader'ın maliyetinin iki katı, Explorer's Camp'in ise altı katıdır. Aynı 100 Gücü getirir ve bu miktarların hiçbiri şehir toplamında kayda değer bir yer tutmaz.
+Falcon Tower, anlık binaların en pahalısıdır: 720 Tahıl ve 720 Kereste; bu, Göçebe Tüccar'ın maliyetinin iki katı, Kâşif Kampı'in ise altı katıdır. Aynı 100 Gücü getirir ve bu miktarların hiçbiri şehir toplamında kayda değer bir yer tutmaz.
 
-Kule, Sanctuary 6. seviyede Barracks, Training Grounds ve Scout Squad ile birlikte açılır; bunlar 30. seviyeye kadar yükselir ve 199 ile 299 gün arasında saf inşa süresi gerektirir. Kule ise saniyeler içinde yükselir ve bu kuyrukların hiçbirini etkilemez.
+Kule, Sanctuary 6. seviyede Kışla, Eğitim Alanı ve Keşif Birliği ile birlikte açılır; bunlar 30. seviyeye kadar yükselir ve 199 ile 299 gün arasında saf inşa süresi gerektirir. Kule ise saniyeler içinde yükselir ve bu kuyrukların hiçbirini etkilemez.
 
-Kule olmadan dünya haritası, sohbet ve keşif kapalı kalır; bununla birlikte bölge dışına çıkmanın tüm yolları da kapalıdır. Falcon Görevleri aynı yerden gelir, tamamlanması için 8 saat süre tanır ve kulenin seviyesiyle değil, Sanctuary seviyesiyle birlikte zorlaşır. Bu nedenle kule, 6. seviye binalar arasında ilk inşa edilmesi gerekendir: o dikilene kadar, Barracks ve Training Grounds'tan çıkan birliklerin bölge dışında savaşacakları hiçbir yer yoktur.
+Kule olmadan dünya haritası, sohbet ve keşif kapalı kalır; bununla birlikte bölge dışına çıkmanın tüm yolları da kapalıdır. Falcon Görevleri aynı yerden gelir, tamamlanması için 8 saat süre tanır ve kulenin seviyesiyle değil, Sanctuary seviyesiyle birlikte zorlaşır. Bu nedenle kule, 6. seviye binalar arasında ilk inşa edilmesi gerekendir: o dikilene kadar, Kışla ve Eğitim Alanı'tan çıkan birliklerin bölge dışında savaşacakları hiçbir yer yoktur.
 
-Kulenin açtığı keşif özelliği, düşman gözcülerinden oyuncunun kendi verilerini gizleyen ve iki seviye sonra, 8. seviyede açılan Watchtower ile birlikte çalışır. O zamana kadar, Falcon Görevleri zaten devam ederken şehre dair yabancı bir rapor eksiksiz olacaktır, bu yüzden Sanctuary 6. ve 8. seviyeler arasındaki duraklama süresini kısa tutmak en iyisidir. Kulenin tek bir seviyesi vardır, bu yüzden 1.440 kaynak bir kez harcanır ve bir daha ona geri dönülmez.
+Kulenin açtığı keşif özelliği, düşman gözcülerinden oyuncunun kendi verilerini gizleyen ve iki seviye sonra, 8. seviyede açılan Gözetleme Kulesi ile birlikte çalışır. O zamana kadar, Falcon Görevleri zaten devam ederken şehre dair yabancı bir rapor eksiksiz olacaktır, bu yüzden Sanctuary 6. ve 8. seviyeler arasındaki duraklama süresini kısa tutmak en iyisidir. Kulenin tek bir seviyesi vardır, bu yüzden 1.440 kaynak bir kez harcanır ve bir daha ona geri dönülmez.

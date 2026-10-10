@@ -16,7 +16,7 @@ Bu listeyi sırayla uygulayın. Oyundaki diğer her şey, bu altı madde tamamla
 
 1. **Hemen aktif bir ittifaka katılın.** İttifak yardımı sürelerinizi kısaltır, ittifak etkinlikleri ücretsiz ödüller kazandırır ve üyelik saldırganları caydırır. Ölü bir ittifak size bunların hiçbirini vermez.
 2. **Sığınağınızı (Sanctuary) geliştirin.** Sığınak seviyesi gerçek oyuncu seviyenizdir; kahraman seviye sınırlarını, bina kilitlerini ve birlik kademelerini belirler.
-3. **Sığınak 15'e kadar İnşaatçı Kulübesi'ni (Builder's Hut) Sığınak seviyesinde tutun.** Bu, inşaat sürelerindeki ücretsiz tamamlama penceresini genişletir (uzun yükseltmelerden saatler düşürür) ve oyundaki en büyük erken hızlandırıcıdır.
+3. **Sığınak 15'e kadar İnşaatçı Kulübesi'ni (İnşaatçı Kulübesi) Sığınak seviyesinde tutun.** Bu, inşaat sürelerindeki ücretsiz tamamlama penceresini genişletir (uzun yükseltmelerden saatler düşürür) ve oyundaki en büyük erken hızlandırıcıdır.
 4. **Sadece iki veya üç kahraman seçin.** Dağıttığınız her parça (shard), yetenek rozeti ve EXP iksiri, ana kadronuzun asla göremeyeceği kaynaklardır.
 5. **Hızlandırıcıları harcamadan önce etkinlik takvimini kontrol edin.** Birçok etkinlik, zaten yapacağınız şeyler için ödül verir; çifte kazanç sağlayın.
 6. **İlk günden yağmaya başlayın.** Yağma geliri birikir; oyunun ilerleyen dönemlerinde kaçırılan bir günlük saldırı yaklaşık 27 milyon kaynak kaybı demektir.
@@ -41,8 +41,8 @@ Sığınak, büyük merkezi binadır ve oyunda oyuncu seviyesine en yakın şeyd
 
 - Bina seviyeleri — şehrinizdeki hiçbir şey ilgili Sığınak sınırını aşamaz.
 - Kahraman seviye sınırı — kahramanlarınız Sığınağınızdan daha yüksek seviyeye çıkamaz.
-- Birlik kademeleri — daha yüksek kademeler, Sığınak tarafından kısıtlanan Eğitim Sahaları (Training Grounds) aracılığıyla açılır.
-- Özellik kilitleri — atölyeler, Tavern, ittifak özellikleri ve etkinlik modlarının tümü belirli Sığınak seviyelerinde açılır.
+- Birlik kademeleri — daha yüksek kademeler, Sığınak tarafından kısıtlanan Eğitim Sahaları (Eğitim Alanı) aracılığıyla açılır.
+- Özellik kilitleri — atölyeler, Meyhane, ittifak özellikleri ve etkinlik modlarının tümü belirli Sığınak seviyelerinde açılır.
 
 Bu nedenle, Sığınak yükseltmeleri inşaat öncelik listesinin en üstünde kalıcı olarak yer alır. Yol haritasının tamamı [Binalar rehberinde](/tr/buildings/) bulunur.
 

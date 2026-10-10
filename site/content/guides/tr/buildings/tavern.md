@@ -47,4 +47,4 @@ Meyhane, bekleme süresiyle yenilenen ücretsiz alım dahil olmak üzere kahrama
 
 Bir çağ boyunca hesaplandığında fark daha net görülür. 56 gün boyunca 72 saatlik bir bekleme süresi 18 ücretsiz kahraman alımı sağlarken, 48 saatlik bir süre 28 alım sağlar. Ücretsiz kurtulan alımı da aynı sıklıkta yenilenir: Meyhane'nin her iki bekleme süresi de tam olarak aynı değerlerde çalışır.
 
-1. seviye 29 Tahıl ve 9 Kereste maliyetine sahiptir ve bir dakikadan kısa sürede tamamlanır, bu nedenle Meyhane Sığınak 4. seviye açıldığı gün inşa edilir. Buradan 20. seviyeye ve 54.000 Güç değerine yükseltilirken, son on seviye ve bu seviyelerin 309,500 Güç değeri Ekipman Atölyesi (Gear Workshop) ile birlikte bekletilir.
+1. seviye 29 Tahıl ve 9 Kereste maliyetine sahiptir ve bir dakikadan kısa sürede tamamlanır, bu nedenle Meyhane Sığınak 4. seviye açıldığı gün inşa edilir. Buradan 20. seviyeye ve 54.000 Güç değerine yükseltilirken, son on seviye ve bu seviyelerin 309,500 Güç değeri Ekipman Atölyesi (Teçhizat Atölyesi) ile birlikte bekletilir.

@@ -11,7 +11,7 @@ type: guide
 
 > Dữ liệu được xác thực với game client (v1.0.87, nguồn: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/hero-arthur)).
 
-Arthur là một tướng Chiến binh UR đảm nhận vai trò chống chịu (tank). Khi được nâng cấp tối đa, anh đạt 1.052.453 Sức chiến đấu, đứng hạng 3 trong tổng số 11 tướng chống chịu của game. Mở khóa anh tốn 10 mảnh (Mảnh Arthur), và các mảnh này có sẵn ngay khi Tượng Chiến Binh (Warrior Statue) đạt cấp 20. Độ tuổi máy chủ không giới hạn Arthur: anh nằm trong danh sách tướng ngay từ ngày đầu tiên.
+Arthur là một tướng Chiến binh UR đảm nhận vai trò chống chịu (tank). Khi được nâng cấp tối đa, anh đạt 1.052.453 Sức chiến đấu, đứng hạng 3 trong tổng số 11 tướng chống chịu của game. Mở khóa anh tốn 10 mảnh (Mảnh Arthur), và các mảnh này có sẵn ngay khi Tượng Chiến Binh (Tượng Chiến Binh) đạt cấp 20. Độ tuổi máy chủ không giới hạn Arthur: anh nằm trong danh sách tướng ngay từ ngày đầu tiên.
 
 Một pháo đài sống! Một chiến binh bất khuất từ chối gục ngã.
 
@@ -155,11 +155,11 @@ Mười hai tướng mạnh nhất trong vai trò xét theo Sức chiến đấu
 
 | Tướng | Phe phái | Độ hiếm | Sức chiến đấu tối đa | Tăng trưởng HP | Tăng trưởng SĐTC | Tăng trưởng SĐPH |
 |---|---|---|---|---|---|---|
-| Shadow | Thám tử (Ranger) | UR | 1.075.906 | 1,43 | 0,78 | 1,06 |
+| Ảnh | Thám tử (Ranger) | UR | 1.075.906 | 1,43 | 0,78 | 1,06 |
 | Daskal | Chiến binh | UR | 1.057.192 | 1,36 | 0,81 | 1,05 |
 | Arthur | Chiến binh | UR | 1.052.453 | 1,34 | 0,82 | 1,05 |
-| Louis | Thám tử | UR | 1.044.341 | 1,31 | 0,83 | 1,05 |
-| Ulfrid | Phù thủy (Warlock) | UR | 1.033.739 | 1,27 | 0,85 | 1,04 |
+| Luis | Thám tử | UR | 1.044.341 | 1,31 | 0,83 | 1,05 |
+| Ulfred | Phù thủy (Warlock) | UR | 1.033.739 | 1,27 | 0,85 | 1,04 |
 | Billy | Phù thủy | UR | 980.246 | 1,05 | 0,97 | 1,01 |
 | Lucius | Chiến binh | SSR | 778.239 | 0,9 | 0,54 | 0,7 |
 | Bella | Chiến binh | SSR | 773.500 | 0,88 | 0,55 | 0,7 |
@@ -174,8 +174,8 @@ Khiên Chiến Đấu · hệ số nhân sát thương · hạng 4 trên 11
 | Tướng | Phe phái | Kỹ năng | Loại kỹ năng | SĐ, % SĐTC | Vùng ảnh hưởng |
 |---|---|---|---|---|---|
 | Daskal | Chiến binh | Ý Chí Chiến Đấu | Đánh thường | 996% | mục tiêu đơn |
-| Louis | Thám tử | Xiềng Xích | Đánh thường | 996% | mục tiêu đơn |
-| Ulfrid | Phù thủy | Vuốt Nhọn | Đánh thường | 996% | mục tiêu đơn |
+| Luis | Thám tử | Xiềng Xích | Đánh thường | 996% | mục tiêu đơn |
+| Ulfred | Phù thủy | Vuốt Nhọn | Đánh thường | 996% | mục tiêu đơn |
 | Arthur | Chiến binh | Khiên Chiến Đấu | Đánh thường | 900% | mục tiêu đơn |
 | Billy | Phù thủy | Khung Gỗ | Đánh thường | 747% | mục tiêu đơn |
 
@@ -199,7 +199,7 @@ Chấn Động Địa Cầu · giảm sát thương phải nhận · hạng 5 tr
 |---|---|---|---|---|---|
 | Bella | Chiến binh | Lời Nguyện Đỏ | Kỹ năng chủ động | 45% | cho bản thân, chỉ quái vật |
 | Griffith | Thám tử | Màn Sương Mãng Cầu | Kỹ năng tối thượng | 39% | cho đồng minh, chỉ quái vật |
-| Louis | Thám tử | Liên Kết Sức Mạnh | Kỹ năng chủ động | 36% | cho đồng minh |
+| Luis | Thám tử | Liên Kết Sức Mạnh | Kỹ năng chủ động | 36% | cho đồng minh |
 | Billy | Phù thủy | Sợi Chỉ Định Mệnh | Kỹ năng chủ động | 36% | cho đồng minh |
 | Arthur | Chiến binh | Chấn Động Địa Cầu | Kỹ năng tối thượng | 35% | cho đồng minh |
 
@@ -221,7 +221,7 @@ Tương đương gần nhất: Daskal, Chiến Đấu Kiên Quyết tạo khiên
 |---|---|---|---|---|---|
 | Bella | Chiến binh | Lời Nguyện Đỏ | Kỹ năng chủ động | 45% | cho bản thân, chỉ quái vật |
 | Griffith | Thám tử | Màn Sương Mãng Cầu | Kỹ năng tối thượng | 39% | cho đồng minh, chỉ quái vật |
-| Louis | Thám tử | Liên Kết Sức Mạnh | Kỹ năng chủ động | 36% | cho đồng minh |
+| Luis | Thám tử | Liên Kết Sức Mạnh | Kỹ năng chủ động | 36% | cho đồng minh |
 | Billy | Phù thủy | Sợi Chỉ Định Mệnh | Kỹ năng chủ động | 36% | cho đồng minh |
 | Arthur | Chiến binh | Ý Chí Kiên Định | Kỹ năng bị động | 9% | cho tướng chống chịu đồng minh |
 
@@ -301,7 +301,7 @@ Mỗi kỹ năng tăng đến cấp 40 bằng Huy hiệu kỹ năng (Skill Badge
 
 ### Vũ khí độc quyền
 
-“Khiên Đá” (Stone Shield), được nâng cấp lên 50 sao. Ở mức tối đa, nó cộng thêm:
+“Khiên Đá” (Khiên Đá Vững Chắc), được nâng cấp lên 50 sao. Ở mức tối đa, nó cộng thêm:
 - HP +1.251.000, SĐTC +8.750, SĐPH +8.750
 - SĐPH tướng +10%
 - HP tướng +10%
@@ -330,4 +330,4 @@ Không có điều kiện độ tuổi máy chủ nào áp dụng cho Arthur. B�
 
 Thức tỉnh tốn kém nhất: 2.870 mảnh cho 40 cấp độ so với 975 cho toàn bộ 50 sao, mang lại 425.119 HP và 12.119 SĐTC. Tiếp theo là các kỹ năng với 436.700 huy hiệu cho mỗi kỹ năng trong số bốn kỹ năng, trong khi 5.248.471.500 Thuốc giải độc chi tiêu cho các cấp độ sẽ tự tích lũy theo quá trình chơi.
 
-Trong đội hình tốt nhất của game, Arthur đứng cùng Billy, Ulfrid, Annie và Joker để đạt 131,1M khả năng sinh tồn và 100 điểm hiệu quả; nếu không có anh, chỉ còn lại 64 điểm. Đội hình gồm năm tướng chống chịu sống sót lâu hơn ở mức 136,6M nhưng giảm xuống 77 điểm hiệu quả, và cùng với Lucius, Sivir, Bella và Marlena, anh làm trụ cột cho đội hình kinh tế đạt mức thưởng phe phái +20% đầy đủ.
+Trong đội hình tốt nhất của game, Arthur đứng cùng Billy, Ulfred, Annie và Hề để đạt 131,1M khả năng sinh tồn và 100 điểm hiệu quả; nếu không có anh, chỉ còn lại 64 điểm. Đội hình gồm năm tướng chống chịu sống sót lâu hơn ở mức 136,6M nhưng giảm xuống 77 điểm hiệu quả, và cùng với Lucius, Sivir, Bella và Marlena, anh làm trụ cột cho đội hình kinh tế đạt mức thưởng phe phái +20% đầy đủ.

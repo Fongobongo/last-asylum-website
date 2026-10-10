@@ -10,7 +10,7 @@ infographics: ["/infographics/skill-scaling.webp"]
 ## De gulden regels {#cardinal-rules}
 
 - **Maak alleen UR (oranje).** Groene en blauwe uitrusting valt gratis te verkrijgen — verspil nooit materialen aan het upgraden hiervan. Demonteer verouderde uitrusting van lagere kwaliteit.
-- **Één squad tegelijk.** Voor een snelle voortgang richt je alleen Squad 1 volledig in — zwaarden en handschoenen voor schadesdealers (carries), borstplaten en laarzen voor tanks.
+- **Één squad tegelijk.** Voor een snelle voortgang richt je alleen Team 1 volledig in — zwaarden en handschoenen voor schadesdealers (carries), borstplaten en laarzen voor tanks.
 - **UR-helden vóór SSR-helden** bij het verdelen van uitrusting.
 - Kwaliteitsladder: **Goud (UR) > Paars (SSR) > Blauw (SR) > Groen (R) > Grijs**.
 
@@ -77,14 +77,14 @@ Het enige doel van de frontlinie is het vasthouden van aggro en het opvangen van
 3. **Zwaard → 0 sterren, 0 stenen**: Tanks richten te verwaarlozen basisschade aan; stenen of blauwdrukken verspillen aan het wapen van een tank is puur verspilde kracht.
 > **Belangrijke uitzondering — Louis:** Louis' zelfgenezing en uithoudingsvermogen schalen direct op zijn **Aanvalskracht**! Als je hoofdtank Louis is, profiteert hij uniek van geüpgradede handschoenen en zwaard.
 
-### Stap 3: Secundaire schadesdealer / Semi-ondersteuning (Joker / Zoya / Red Lady)
+### Stap 3: Secundaire schadesdealer / Semi-ondersteuning (Joker / Zoya / Rode Dame)
 Je secundaire schadesdealer ruimt achterblijvers op en brengt debuffs aan.
 1. **Zwaard → 2 sterren**
 2. **Handschoenen → 2 sterren**
 3. **Laarzen → 2 sterren** (Energiebescherming)
 4. **Borstplaat → 0 sterren**
 
-Over alle drie de fasen verbruikt dit stappenplan precies **45 blauwdrukken**. Het voltooien van dit plan bouwt een veerkrachtige Squad 1 die ver boven zijn zichtbare gevechtskracht kan presteren.
+Over alle drie de fasen verbruikt dit stappenplan precies **45 blauwdrukken**. Het voltooien van dit plan bouwt een veerkrachtige Team 1 die ver boven zijn zichtbare gevechtskracht kan presteren.
 
 ## Videobespreking: Stop met het verspillen van blauwdrukken! (KorpezGaming) {#video-breakdown-gear}
 
@@ -229,20 +229,20 @@ Gewone statistiekwinsten arriveren soepel, terwijl percentages en extra vaardigh
 ## Wie het heeft
 
 Elke eigenaar draagt een ander wapen, met zijn eigen naam en zijn eigen set bonussen.
-- Shadow: Fantoomdolk
+- Schaduw: Fantoomdolk
 - Daskal: Karmozijnrode grote zwaard
 - Arthur: Stenen schild
 - Louis: Doornboeien
 - Ulfrid: Wolvenklauw
 - Billy: Poppenframe
 - Harper: Bardenhoorn
-- Bell: Kleine trommel
+- Bel: Kleine trommel
 - Nicole: Vuurmantel
 - Zoya: Bosmes
 - Annie: Snoepstok
 - Cynthia: Maanzwaard
 - Marlena: Karmozijnrood zwaard
-- Red Lady: Karmozijnrode rand
+- Rode Dame: Karmozijnrode rand
 - Joker: Illusiekaart
 
 ## Wat hier naar linkt
@@ -257,11 +257,11 @@ Pagina's die deze noemen. De lijst is opgebouwd uit de opmaak, niet met de hand 
 - Annie: vaardigheden, upgrades en Kracht
 - Ulfrid: vaardigheden, upgrades en Kracht
 - Billy: vaardigheden, upgrades en Kracht
-- Bell: vaardigheden, upgrades en Kracht
-- Red Lady: vaardigheden, upgrades en Kracht
+- Bel: vaardigheden, upgrades en Kracht
+- Rode Dame: vaardigheden, upgrades en Kracht
 - Cynthia: vaardigheden, upgrades en Kracht
 - Louis: vaardigheden, upgrades en Kracht
-- Shadow: vaardigheden, upgrades en Kracht
+- Schaduw: vaardigheden, upgrades en Kracht
 - Zoya: vaardigheden, upgrades en Kracht
 - Harper: vaardigheden, upgrades en Kracht
 - Daskal: vaardigheden, upgrades en Kracht

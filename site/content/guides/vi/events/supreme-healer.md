@@ -7,7 +7,7 @@ videoTopic: supreme_healer
 type: event
 ---
 
-Sự kiện **Bậc thầy chữa trị (Top Healer)** là giải đấu cạnh tranh 7 ngày hàng đầu trong Last Asylum: Plague. Sự kiện này kiểm tra khả năng quản lý vi mô, lập kế hoạch kho đồ và sự kiên nhẫn với tài nguyên của bạn. Không giống như các chặng đua trả phí để thắng thông thường, Bậc thầy chữa trị thường xuyên thuộc về những người chơi F2P và nạp ít có chiến lược, những người biết tích trữ khôn ngoan Thể lực, nhiệm vụ Falcon, Chất giải độc, đồng thời cẩn thận bảo lưu và phân bổ các tăng tốc vào đúng những ngày phù hợp.
+Sự kiện **Bậc thầy chữa trị (Bác Sĩ Hàng Đầu)** là giải đấu cạnh tranh 7 ngày hàng đầu trong Last Asylum: Plague. Sự kiện này kiểm tra khả năng quản lý vi mô, lập kế hoạch kho đồ và sự kiên nhẫn với tài nguyên của bạn. Không giống như các chặng đua trả phí để thắng thông thường, Bậc thầy chữa trị thường xuyên thuộc về những người chơi F2P và nạp ít có chiến lược, những người biết tích trữ khôn ngoan Thể lực, nhiệm vụ Falcon, Chất giải độc, đồng thời cẩn thận bảo lưu và phân bổ các tăng tốc vào đúng những ngày phù hợp.
 
 Hướng dẫn này cung cấp lịch trình 7 ngày hoàn chỉnh, ma trận phân bổ tài nguyên chính xác theo từng ngày, cơ chế tích lũy nâng cao và cách kết hợp kép với Sinh tử chiến để nhận các hòm mốc quan trọng bậc nhất.
 
@@ -189,15 +189,15 @@ Mỗi khối chứa 3 hòm mốc. Hoàn thành Hòm vàng số 3 sẽ thưởng 
 
 ### Cách căn chỉnh các khối để nhận phần thưởng tối đa:
 1. **Ngày 2 (Xây dựng):**
-   * Đợi khối Sinh tử chiến 4 giờ có chủ đề **"Xây dựng lãnh thổ / Build Territory"**.
+   * Đợi khối Sinh tử chiến 4 giờ có chủ đề **"Xây dựng lãnh thổ / Xây Lãnh Địa"**.
    * Xả tăng tốc xây dựng và nhấp vào búa công trình đã hoàn thành độc quyền trong khung 4 giờ này.
 2. **Ngày 3 (Công nghệ):**
    * Đợi khối Sinh tử chiến có chủ đề **"Nghiên cứu công nghệ / Research Tech"**.
    * Áp dụng tăng tốc nghiên cứu để ghi điểm đồng thời ở cả hai sự kiện.
 3. **Ngày 4 (Tướng):**
-   * Mở số vé chiêu mộ đã tích trữ của bạn (150–250+) và Huy hiệu kỹ năng độc quyền trong khối **"Cường hóa tướng / Enhance Heroes"**.
+   * Mở số vé chiêu mộ đã tích trữ của bạn (150–250+) và Huy hiệu kỹ năng độc quyền trong khối **"Cường hóa tướng / Nâng Cấp Tướng"**.
 4. **Ngày 5 (Lính):**
-   * Thực hiện Thăng cấp đơn vị hàng loạt trong khối **"Huấn luyện lính / Train Soldiers"**.
+   * Thực hiện Thăng cấp đơn vị hàng loạt trong khối **"Huấn luyện lính / Huấn Luyện Lính"**.
    * ⚠️ **QUY TẮC QUAN TRỌNG:** Trong Sinh tử chiến, điểm huấn luyện lính được trao **ngay tại thời điểm bạn nhấn nút Huấn luyện / Thăng cấp** (khi tài nguyên bị trừ), KHÔNG phải khi đồng hồ đếm ngược kết thúc! Không bao giờ bắt đầu hàng đợi lính trước khi khối 4 giờ được chỉ định bắt đầu.
 5. **Ngày 7 (Cuối cùng):**
    * Bất kỳ khối Sinh tử chiến nào đang hoạt động đều cung cấp tiến độ sự kiện kép vì Ngày 7 tính điểm mọi hành động.

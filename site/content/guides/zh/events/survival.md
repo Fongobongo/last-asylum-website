@@ -7,7 +7,7 @@ videoTopic: survival
 type: event
 ---
 
-**生存之战（Survival Battle）**是《Last Asylum: Plague》中最主要的循环任务活动，也是零氪（F2P）指挥官的资源基石：**勤奋的 F2P 玩家每周稳定能拿到大约 60,000 个免费技能徽章**，以及生存印章。
+**生存之战（生存之战）**是《Last Asylum: Plague》中最主要的循环任务活动，也是零氪（F2P）指挥官的资源基石：**勤奋的 F2P 玩家每周稳定能拿到大约 60,000 个免费技能徽章**，以及生存印章。
 
 技能徽章是所有英雄技能树中永久的瓶颈。本指南将详细解析 4 小时循环阶段、里程碑奖励，以及与同盟对决（Alliance Duel）阶段的无缝配合。
 
@@ -121,7 +121,7 @@ type: event
 
 ## 🎬 视频指南：KorpezGaming 的生存之战解析 {#video-guide}
 
-由创作者 **KorpezGaming** 制作的完整视频解析内嵌于下方，也可访问 [The Secret to 60K FREE Skill Badges | Ultimate Survival Battle Guide](https://youtu.be/akt3OGeHXgY) 观看。
+由创作者 **KorpezGaming** 制作的完整视频解析内嵌于下方，也可访问 [The Secret to 60K FREE Skill Badges | Ultimate 生存之战 Guide](https://youtu.be/akt3OGeHXgY) 观看。
 
 ### 关键时间点与要点：
 * `00:00` — **6K 免费技能徽章 F2P 基石：** 为什么每日生存之战是英雄进阶最重要的日常。
@@ -203,5 +203,5 @@ type: event
 | 6-20 | 粮食高级补给 (SR) x3, 木材高级补给 (SR) x3, 草药高级补给 (SR) x3 |
 
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How long is each Survival Battle phase?", "acceptedAnswer": {"@type": "Answer", "text": "Each phase lasts 4 hours; there are five themed phases: heroes, territory, troops, tech and raven."}}, {"@type": "Question", "name": "When are troop training points awarded?", "acceptedAnswer": {"@type": "Answer", "text": "The moment you press Train/Promote and resources are deducted — not when the timer finishes."}}]}
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How long is each 生存之战 phase?", "acceptedAnswer": {"@type": "Answer", "text": "Each phase lasts 4 hours; there are five themed phases: heroes, territory, troops, tech and raven."}}, {"@type": "Question", "name": "When are troop training points awarded?", "acceptedAnswer": {"@type": "Answer", "text": "The moment you press Train/Promote and resources are deducted — not when the timer finishes."}}]}
 </script>

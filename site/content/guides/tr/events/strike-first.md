@@ -7,7 +7,7 @@ videoTopic: strike_first
 type: event
 ---
 
-**Önce Vur** (Strike First) etkinliği, Last Asylum: Plague oyunundaki yeni sunucular ve yeni komutanlar için birincil başlangıç sprintidir. Hesap oluşturulur oluşturulmaz tetiklenen bu etkinlik, 1. Hafta boyunca ana büyüme hızlandırıcınız olarak hizmet eder: temel aşamaları tamamlamak bol miktarda ücretsiz elmas, hızlandırıcı, işe alım biletleri ve kahraman parçaları kazandırır.
+**Önce Vur** (İlk Vuruş) etkinliği, Last Asylum: Plague oyunundaki yeni sunucular ve yeni komutanlar için birincil başlangıç sprintidir. Hesap oluşturulur oluşturulmaz tetiklenen bu etkinlik, 1. Hafta boyunca ana büyüme hızlandırıcınız olarak hizmet eder: temel aşamaları tamamlamak bol miktarda ücretsiz elmas, hızlandırıcı, işe alım biletleri ve kahraman parçaları kazandırır.
 
 ---
 

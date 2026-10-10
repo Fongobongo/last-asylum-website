@@ -6,7 +6,7 @@ lang: zh
 updated: "2026-09-19"
 type: guide
 ---
-![Weaving Workshop](/building-icons/5043.png)
+![纺织工坊](/building-icons/5043.png)
 
 
 > 数据已通过游戏客户端验证（v1.0.87，来源：[wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-weaving-workshop)）。

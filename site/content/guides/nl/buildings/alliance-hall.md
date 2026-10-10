@@ -41,7 +41,7 @@ Het gebouw van niveau 1 naar 30 brengen kost Graan 2.569.804.162, Hout 852.399.5
 
 ## Hoe te gebruiken
 
-De Alliantiehal vraagt om 199 dagen en 10 uur, honderd dagen minder dan Squad 4 vereist op hetzelfde Heiligdom niveau 5. Hulp groeit via twee cijfers tegelijk: 4 hulpacties van 30 seconden op niveau 1 zorgen voor 2 minuten van een wachtrij, 20 hulpacties van 59 seconden op niveau 30 voor 19 minuten en 40 seconden.
+De Alliantiehal vraagt om 199 dagen en 10 uur, honderd dagen minder dan Team 4 vereist op hetzelfde Heiligdom niveau 5. Hulp groeit via twee cijfers tegelijk: 4 hulpacties van 30 seconden op niveau 1 zorgen voor 2 minuten van een wachtrij, 20 hulpacties van 59 seconden op niveau 30 voor 19 minuten en 40 seconden.
 
 Het grootste deel van die winst komt goedkoop. Niveau 20 wordt behaald in 8 dagen en 20 uur en geeft 15 hulpacties van 49 seconden, 12 minuten en 15 seconden van een wachtrij, bijna twee derde van de volledige 19 minuten en 40 seconden. De resterende 7 minuten en 25 seconden kosten 190 dagen en 14 uur. Alliantieonderzoek voegt tot 300 seconden per hulpactie toe, en twintig daarvan halen dan bijna twee uur van een wachtrij af.
 

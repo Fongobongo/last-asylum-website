@@ -48,7 +48,7 @@ Taken worden opeenvolgend dagelijks ontgrendeld, maar alle eerder ontgrendelde d
 ### 🟡 Dag 4
 - **Onderzoek:** Technologieknooppunten voltooien in het Onderzoekslaboratorium.
 - **Magic Raven:** De Beschermraaf voeden en versterken.
-- **Rekruteren:** Normale en Geavanceerde Rekruteringskaarten inzetten in de Tavern.
+- **Rekruteren:** Normale en Geavanceerde Rekruteringskaarten inzetten in de Taveerne.
 
 ### 🟡 Dag 5
 - **Ghoels elimineren:** Rondzwervende geïnfecteerde mobs op de wilderniskaart zuiveren.

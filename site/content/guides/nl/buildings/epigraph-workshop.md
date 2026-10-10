@@ -46,6 +46,6 @@ De Epigraafwerkplaats is nodig op niveau 20: daar opent de hoogste epigraaf-rang
 
 Er is geen haast bij Heiligdom niveau 5, waar de werkplaats ontgrendelt. Epigrafen gaan in het Raaf-blauwdruk, en het eerste blauwdruk komt aan bij evolutieniveau 10, terwijl de Raaf zelf uit het Raafnest komt bij Heiligdom niveau 7, twee niveaus later. De eerste tien niveaus kosten 4 uur en 820.680 grondstoffen, dus die worden direct verhoogd.
 
-De buren op Heiligdom niveau 5 wegen zwaarder: de Smeltwerkplaats en de Weefwerkplaats hebben elk 99 dagen nodig en staan vijf keer, de Alliantiehal 199 dagen, Squad 4 299 dagen. Als enige onder hen is de Epigraafwerkplaats klaar in 98 dagen en 20 uur.
+De buren op Heiligdom niveau 5 wegen zwaarder: de Smeltwerkplaats en de Weefwerkplaats hebben elk 99 dagen nodig en staan vijf keer, de Alliantiehal 199 dagen, Team 4 299 dagen. Als enige onder hen is de Epigraafwerkplaats klaar in 98 dagen en 20 uur.
 
 Het gebouw draagt helemaal geen stat-bonus, dus niveaus boven 20 worden verhoogd voor de Macht en alleen wanneer de wachtrij niets beters te doen heeft. Die twintig niveaus nemen minder dan vijf procent van de totale bouwtijd in beslag, een van de grootste verschillen in de stad tussen een werkend niveau en het hoogste niveau.

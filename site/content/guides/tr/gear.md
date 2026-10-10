@@ -27,7 +27,7 @@ infographics: ["/infographics/skill-scaling.webp"]
 
 ## Eritme Atölyeleri: 25 tatlı noktası {#smelters}
 
-Beş Eritme Atölyesi (Smelting Workshop), pasif ekipman taşı gelir kaynağınızdır.
+Beş Eritme Atölyesi (Eritme Atölyesi), pasif ekipman taşı gelir kaynağınızdır.
 
 - Her atölye **23–25. seviyeye** yükseltilmelidir. 25. seviye tatlı noktadır: bu seviyenin ötesinde maliyet eğrisi keskin bir şekilde artarken kazançlar düzleşir.
 - 25. seviyede 5 atölye ≈ **265 taş/saat ≈ 6K/gün ≈ 44K/hafta pasif gelir**.
@@ -77,7 +77,7 @@ Birincil hasar vericiniz, savaşları taşımak için ani patlama hasarından (b
 3. **Kılıç → 0 Yıldız, 0 Taş**: Tanklar ihmal edilebilir düzeyde temel hasar verir; bir tankın silahına taş veya plan harcamak tamamen boşa harcanmış güçtür.
 > **Önemli İstisna — Louis:** Louis'in kendini iyileştirme ve ayakta kalma özellikleri doğrudan **Saldırı gücüne** bağlıdır! Ana tankınız Louis ise, kendisi eldiven ve kılıç yükseltmelerinden benzersiz bir şekilde faydalanır.
 
-### Aşama 3: İkincil Taşıyıcı / Yarı Destek (Joker / Zoya / Red Lady)
+### Aşama 3: İkincil Taşıyıcı / Yarı Destek (Joker / Zoya / Kızıl Hanım)
 Yan taşıyıcınız arta kalanları temizler ve zayıflatma (debuff) uygular.
 1. **Kılıç → 2 Yıldız**
 2. **Eldiven → 2 Yıldız**
@@ -117,7 +117,7 @@ Raven'ın kendine ait bir ekipman seti vardır (sol taraf: Can/kritik hasar azal
 ## Malzemeler nereden geliyor {#materials}
 
 - **Eritme Atölyesi → Seviye 25:** Sığınağınız izin verir vermez Eritme Atölyesini 25. Seviyeye yükseltin. Ekipmanı yükseltmek için gereken Ekipman Taşlarını arıtıp üretir. Bu binada geride kalmak, taşıyıcınızın silahları için aşılması imkansız bir darboğaz yaratır.
-- **Ekipman Atölyesi** — üret ve sök; **Dokuma Atölyesi (Weaving Workshop)** birleştirme/üretim için kumaş üretir.
+- **Ekipman Atölyesi** — üret ve sök; **Dokuma Atölyesi (Dokuma Atölyesi)** birleştirme/üretim için kumaş üretir.
 - **Ekipman Taşı F2P çiftliği:** Topluluğun ana darboğazı Ekipman Taşlarıdır — bunları Sığınak ve Keşif dükkanlarından sürekli olarak satın alın.
 - **Onur Dükkanındaki Ekipman Planları (UR):** Onur Paralarınızı **ÖZEL OLARAK Ekipman Planlarına (UR)** harcayın. Merak Sandıkları (Curio Chest) ve evrensel parçaları pas geçin — planlar, turuncu ekipmanları 10, 20, 30 ve 40. seviyelerde terfi ettirmenin tek bekçisidir.
 
@@ -229,21 +229,21 @@ Düz istatistik kazançları sorunsuz bir şekilde gelirken, yüzdeler ve ekstra
 ## Kimde var?
 
 Her sahibin kendi adına ve kendi bonus setine sahip farklı bir silahı vardır.
-- Shadow: Phantom Dagger (Hayalet Hançer)
-- Daskal: Crimson Greatsword (Kızıl Büyük Kılıç)
-- Arthur: Stone Shield (Taş Kalkan)
-- Louis: Thorn Shackles (Dikenli Prangalar)
-- Ulfrid: Wolven Claw (Kurt Pençesi)
-- Billy: Puppet Frame (Kukla İskeleti)
-- Harper: Bard's Horn (Ozanın Boynuzu)
-- Bell: Tiny Drum (Küçük Davul)
-- Nicole: Flame Cloak (Alev Pelerini)
-- Zoya: Forest Blade (Orman Kılıcı)
-- Annie: Candy Wand (Şeker Asa)
-- Cynthia: Moon Blade (Ay Kılıcı)
-- Marlena: Crimson Sword (Kızıl Kılıç)
-- Red Lady: Crimson Edge (Kızıl Keskin)
-- Joker: Illusion Card (İllüzyon Kartı)
+- Gölge: Hayalet Hançer (Hayalet Hançer)
+- Daskal: Kızıl Büyük Kılıç (Kızıl Büyük Kılıç)
+- Arthur: Taş Kalkan (Taş Kalkan)
+- Louis: Dikenli Prangalar (Dikenli Prangalar)
+- Ulfrid: Kurt Pençesi (Kurt Pençesi)
+- Billy: Kukla İskeleti (Kukla İskeleti)
+- Harper: Ozan Borazanı (Ozanın Boynuzu)
+- Bell: Minik Davul (Küçük Davul)
+- Nicole: Alev Pelerini (Alev Pelerini)
+- Zoya: Orman Kılıcı (Orman Kılıcı)
+- Annie: Şeker Asası (Şeker Asa)
+- Cynthia: Ay Kılıcı (Ay Kılıcı)
+- Marlena: Kızıl Kılıç (Kızıl Kılıç)
+- Kızıl Hanım: Kızıl Bıçak (Kızıl Keskin)
+- Joker: İllüzyon Kartı (İllüzyon Kartı)
 
 ## Buraya ne bağlanır?
 
@@ -258,10 +258,10 @@ Buna değinen sayfalar. Liste biçimlendirmeden oluşturulmuştur, elle doldurul
 - Ulfrid: beceriler, yükseltmeler ve Güç
 - Billy: beceriler, yükseltmeler ve Güç
 - Bell: beceriler, yükseltmeler ve Güç
-- Red Lady: beceriler, yükseltmeler ve Güç
+- Kızıl Hanım: beceriler, yükseltmeler ve Güç
 - Cynthia: beceriler, yükseltmeler ve Güç
 - Louis: beceriler, yükseltmeler ve Güç
-- Shadow: beceriler, yükseltmeler ve Güç
+- Gölge: beceriler, yükseltmeler ve Güç
 - Zoya: beceriler, yükseltmeler ve Güç
 - Harper: beceriler, yükseltmeler ve Güç
 - Daskal: beceriler, yükseltmeler ve Güç

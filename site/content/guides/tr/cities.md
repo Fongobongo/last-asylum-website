@@ -30,10 +30,10 @@ En iyi şehirler birbirlerinden en çok bu yönleriyle ayrılır ve tablo satır
 | Lionheart Fortress Lv.6 | Eğitim Hızı↑ +%5 | 100 |
 | Nightfall Fortress Lv.6 | Araştırma Hızı↑ +%20 | 100 |
 | Sky Fortress Lv.6 | Bina İnşaat Hızı↑ +%20 | 100 |
-| Temple of Chaos Lv.5 | Kereste Üretimi↑ +%20 | 80 |
-| Temple of Nature Lv.5 | Tahıl Toplama Hızı↑ +%20 | 80 |
-| Temple of Order Lv.5 | Ot Üretimi↑ +%20 | 80 |
-| Temple of War Lv.5 | Tahıl Üretimi↑ +%20 | 80 |
+| Tapınak of Chaos Lv.5 | Kereste Üretimi↑ +%20 | 80 |
+| Tapınak of Nature Lv.5 | Tahıl Toplama Hızı↑ +%20 | 80 |
+| Tapınak of Order Lv.5 | Ot Üretimi↑ +%20 | 80 |
+| Tapınak of War Lv.5 | Tahıl Üretimi↑ +%20 | 80 |
 
 Gözden kaçırması kolay olan bir detay vardır: aynı seviyedeki şehirlerin maliyeti aynıdır ancak sağladıkları kazançlar farklıdır. Altıncı seviye kalelerin üçü de HP, garnizon ve ilk ele geçirme ödülünü paylaşır, ancak bonusları eşit değildir. İkisi araştırma ve inşaat hızına %20 bonus sağlarken, üçüncüsü yalnızca %5 eğitim hızı sağlar; bu yüzden hedefi seviyesine göre değil, sağladığı bonusa göre seçmek mantıklıdır.
 

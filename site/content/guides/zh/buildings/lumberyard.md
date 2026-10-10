@@ -6,7 +6,7 @@ lang: zh
 updated: "2026-09-19"
 type: guide
 ---
-![Lumberyard](/building-icons/1017.png)
+![伐木场](/building-icons/1017.png)
 
 > 数据已根据游戏客户端（v1.0.87，来源：[wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-lumberyard)）进行验证。
 

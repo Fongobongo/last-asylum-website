@@ -6,7 +6,7 @@ lang: th
 updated: "2026-09-19"
 type: guide
 ---
-![Squad 1](/building-icons/5013.png)
+![ทีม 1](/building-icons/5013.png)
 
 
 > ข้อมูลได้รับการยืนยันจากไคลเอนต์เกม (v1.0.87, ที่มา: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-squad-1)).

@@ -11,14 +11,14 @@ const lang: Lang = 'zh';
 const base = lang === 'en' ? '' : `/${lang}`;
 ---
 
-<Base lang={lang} path="/zh/codex/" title="英雄图鉴" description="Last Asylum: Plague 中每一位关键英雄的技能、养成方案、队伍建议及获取方式。">
+<Base lang={lang} path="/zh/codex/" title="Helden-Kodex" description="Jeder wichtige Held in Last Asylum: Plague — Skills, Builds, Team-Notizen und wie man ihn bekommt.">
   <GuidePage
-    title="📖 英雄图鉴"
-    description="汇集社区指南，涵盖所有重要英雄的技能、养成优先级及队伍建议。"
+    title="📖 Helden-Kodex"
+    description="Skills, Build-Prioritäten und Team-Notizen für jeden Helden, der zählt — zusammengestellt aus den Community-Guides."
     lang={lang}
-    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/zh/' }, { label: '英雄图鉴' }]}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/zh/' }, { label: 'Helden-Kodex' }]}
   >
-    <p>每个页面包含：定位、英雄获取方式、核心技能解析、养成优先级以及适用的队伍阵容。 <a href="/zh/tier-list/">强度榜</a>.</p>
+    <p>每个页面包含：定位、英雄获取方式、核心技能解析、养成优先级以及适用的队伍阵容。 查看排名请访问 <a href="/zh/tier-list/">强度榜</a>.</p>
 
     <CodexGrid heroes={heroCodex} lang={lang} base={base} />
 

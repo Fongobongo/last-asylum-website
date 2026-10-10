@@ -9,7 +9,7 @@ infographics: ["/infographics/cheese-trap.webp", "/infographics/cheese-rewards.w
 type: event
 ---
 
-Bẫy Phô Mai (Cheese Trap) là một **sự kiện tập kích PvE liên minh** chống lại một con chuột khổng lồ. Sát thương cá nhân của bạn sẽ mang lại phần thưởng cá nhân qua năm giai đoạn, và tổng sát thương của liên minh sẽ mang lại phần thưởng liên minh riêng biệt. Trông có vẻ là một sự kiện thiên về sức mạnh thuần túy — nhưng thực tế đây là một sự kiện mang tính chiến thuật, và sự khác biệt đó đáng giá bằng vài bậc phần thưởng.
+Bẫy Phô Mai (Bẫy Phô Mai) là một **sự kiện tập kích PvE liên minh** chống lại một con chuột khổng lồ. Sát thương cá nhân của bạn sẽ mang lại phần thưởng cá nhân qua năm giai đoạn, và tổng sát thương của liên minh sẽ mang lại phần thưởng liên minh riêng biệt. Trông có vẻ là một sự kiện thiên về sức mạnh thuần túy — nhưng thực tế đây là một sự kiện mang tính chiến thuật, và sự khác biệt đó đáng giá bằng vài bậc phần thưởng.
 
 Hướng dẫn này bao gồm hai lộ trình phần thưởng, quy tắc điểm dừng, tỉ lệ cấp độ, và cách đọc bảng xếp hạng trước khi liên minh của bạn quyết định chọn con chuột nào.
 

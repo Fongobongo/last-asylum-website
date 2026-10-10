@@ -12,7 +12,7 @@ type: guide
 > Dữ liệu đã được xác minh với client trò chơi (v1.0.87, nguồn: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-gear-workshop)).
 
 
-Xưởng Chế Tạo Trang Bị (Gear Workshop) dùng để rèn trang bị cho anh hùng, và cấp độ của nó mở khóa khả năng chế tạo các phẩm chất cao hơn, với sao trang bị xuất hiện ở cấp 20. Các cấp độ sau cấp 20 không mang lại chỉ số cộng thêm, vì vậy chúng chỉ được nâng cấp để lấy Sức mạnh (Might) và đáp ứng yêu cầu của Khu Trú Ẩn (Sanctuary). Công trình này mở khóa sau khi Khu Trú Ẩn đạt cấp 4 và có thể nâng tối đa lên cấp 30. Chỉ có thể xây dựng một công trình duy nhất.
+Xưởng Chế Tạo Trang Bị (Xưởng Trang Bị) dùng để rèn trang bị cho anh hùng, và cấp độ của nó mở khóa khả năng chế tạo các phẩm chất cao hơn, với sao trang bị xuất hiện ở cấp 20. Các cấp độ sau cấp 20 không mang lại chỉ số cộng thêm, vì vậy chúng chỉ được nâng cấp để lấy Sức mạnh (Might) và đáp ứng yêu cầu của Khu Trú Ẩn (Sanctuary). Công trình này mở khóa sau khi Khu Trú Ẩn đạt cấp 4 và có thể nâng tối đa lên cấp 30. Chỉ có thể xây dựng một công trình duy nhất.
 
 | Chỉ số | Giá trị |
 |---|---|
@@ -42,10 +42,10 @@ Công trình này không mang lại chỉ số cộng thêm: nó mở khóa các
 
 ## Cách sử dụng
 
-Xưởng Chế Tạo Trang Bị là một trong hai công trình có 30 cấp độ mà bảng cấp độ không mang lại bất kỳ chỉ số cộng thêm nào; công trình còn lại là Xưởng Văn Bia (Epigraph Workshop). Với 349 ngày xây dựng và 6.482.328.895 tài nguyên, xưởng mang lại các tùy chọn đã mở khóa và 277.600 Sức mạnh.
+Xưởng Chế Tạo Trang Bị là một trong hai công trình có 30 cấp độ mà bảng cấp độ không mang lại bất kỳ chỉ số cộng thêm nào; công trình còn lại là Xưởng Văn Bia (Xưởng Khắc Ấn). Với 349 ngày xây dựng và 6.482.328.895 tài nguyên, xưởng mang lại các tùy chọn đã mở khóa và 277.600 Sức mạnh.
 
 Mọi thứ nó mở khóa đều hoàn tất ở cấp 20: chế tạo ba phẩm chất cao hơn và sao trang bị. Cấp 20 đạt được sau 15 ngày 11 giờ, chưa đến năm phần trăm tổng thời gian xây dựng. Mười cấp độ còn lại tiêu tốn 333 ngày 13 giờ và chỉ mang lại 229.900 Sức mạnh, không có gì khác.
 
-Có năm công trình chia sẻ hàng đợi tại Khu Trú Ẩn cấp 4, và chỉ một trong số đó là tức thì: Trại Thám Hiểm (Explorer's Camp) với 240 tài nguyên. Bốn công trình còn lại yêu cầu tổng cộng 1.396 ngày. Một công trình lân cận ở cấp độ đó tiêu tốn thời gian tương tự theo cách khác: Quán Rượu (Tavern) yêu cầu đúng 349 ngày, nhưng thời gian hồi chiêu chiêu mộ miễn phí của nó tiếp tục giảm cho đến tận cấp 30.
+Có năm công trình chia sẻ hàng đợi tại Khu Trú Ẩn cấp 4, và chỉ một trong số đó là tức thì: Trại Thám Hiểm (Trại Thám Hiểm) với 240 tài nguyên. Bốn công trình còn lại yêu cầu tổng cộng 1.396 ngày. Một công trình lân cận ở cấp độ đó tiêu tốn thời gian tương tự theo cách khác: Quán Rượu (Quán Rượu) yêu cầu đúng 349 ngày, nhưng thời gian hồi chiêu chiêu mộ miễn phí của nó tiếp tục giảm cho đến tận cấp 30.
 
 Chi phí của xưởng phụ thuộc rất nhiều vào Gỗ: 4.526.021.182 so với 1.491.682.843 Lương thực và 464.624.870 Thảo dược, đây là khoản tiêu tốn gỗ lớn thứ ba trong thành phố. Cho đến cấp 20, nó nằm ở giai đoạn đầu của hàng đợi, cùng với chính trang bị anh hùng, và sau cấp 20, nó được nâng cấp để đáp ứng các yêu cầu của Khu Trú Ẩn. Mỗi thành phố chỉ có một xưởng và không thể xây thêm cái thứ hai.

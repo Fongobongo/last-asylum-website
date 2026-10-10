@@ -20,7 +20,7 @@ De Alliantie-functie wordt ontgrendeld op **Sanctuary Level 5**.
 2. Vermijd het lid worden van willekeurige "Open" beginnersgilden. Competitieve, georganiseerde allianties vereisen altijd een sollicitatie (Apply).
 3. **Belangrijkste selectiecriteria:**
    * **Might Ranking:** Streef ernaar om lid te worden van een Top 1 tot Top 3 gilde op je server. Zij domineren het Royal Castle, bezitten de titel van Ruling Guild en genereren duizenden cadeau-kisten van actieve leden.
-   * **Tijdzone & Chat-activiteit:** Zorg ervoor dat de belangrijkste raid-uren van het gilde overeenkomen met jouw schema voor Cheese Trap en Undead Siege rallies.
+   * **Tijdzone & Chat-activiteit:** Zorg ervoor dat de belangrijkste raid-uren van het gilde overeenkomen met jouw schema voor Kaasval en Ondodenbelegering rallies.
    * **Gift Level:** Hogere alliantie-cadeauniveaus geven betere mijlpaalkisten met gratis diamanten, rekruteringskaarten en versnellers.
 
 ---
@@ -33,7 +33,7 @@ Elke keer dat je een gebouwupgrade, laboratoriumonderzoek of ziekenhuisbehandeli
 > **Formule voor hulpvermindering:**
 > Elke hulp-tik van een bondgenoot verkort het resterende aftellen met **1% van de totale basistijd OF 1 minuut** (afhankelijk van wat groter is).
 
-* Het maximale aantal keren dat je hulp kunt ontvangen wordt bepaald door het niveau van je **Alliance Hall**. Op niveau 25 kun je 30 keer hulp ontvangen, wat tot **30% van je totale bouwtijd** gratis wegneemt!
+* Het maximale aantal keren dat je hulp kunt ontvangen wordt bepaald door het niveau van je **Alliantiehal**. Op niveau 25 kun je 30 keer hulp ontvangen, wat tot **30% van je totale bouwtijd** gratis wegneemt!
 * **Etiquetteregel:** Tik regelmatig op "Help All" in je alliantie-interface. Elke assistentie levert je **Alliance Honor Points** op, die worden gebruikt om essentiële voorraden te kopen in de Alliance Shop.
 
 ---
@@ -56,7 +56,7 @@ Alliantieonderzoek biedt passieve buffs aan elk lid op het gebied van militaire 
 
 ## 4. Alliantiecadeaus & Het Level 25 Privilege
 
-Wanneer een alliantiegenoot een Thief Leader verslaat, een Elite Blight-monster verslaat of een pakket koopt, ontvangt **elk lid een Gift Chest**.
+Wanneer een alliantiegenoot een Thief Leader verslaat, een Elite-plaagling-monster verslaat of een pakket koopt, ontvangt **elk lid een Gift Chest**.
 
 * **Gift XP:** Het openen van kisten verhoogt je Alliance Gift Level.
 * **Level 25 Privilege (September-update):**
@@ -105,7 +105,7 @@ Alliance Honor die is verdiend door dagelijkse donaties en hulp moet zorgvuldig 
 
 Diepgaande referentietabellen staan in losse gidsen:
 
-- [Alliance League: beloningen per divisie en rang](/nl/alliance-league/)
+- [Alliantieliga: beloningen per divisie en rang](/nl/alliance-league/)
 - [Alliance Technologies: volledige tech-tabellen](/nl/alliance-tech/)
-- [Alliance Expedition: kampen en schadebonus](/nl/alliance-expedition/)
+- [Alliantie-expeditie: kampen en schadebonus](/nl/alliance-expedition/)
 - [Alliance Digs: graafsnelheid en beloningen](/nl/alliance-dig/)

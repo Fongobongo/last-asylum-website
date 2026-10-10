@@ -1,5 +1,5 @@
 ---
-title: "Kingdom War (KvK): Sinh tồn & Tính điểm"
+title: "Viễn Chinh Liên Quốc (KvK): Sinh tồn & Tính điểm"
 description: "Chiến tranh giữa các máy chủ để tranh giành Thành Hoàng Gia: lịch trình hai tuần một lần, chiến thuật ưu tiên tháp pháo cho phe tấn công, chiến thuật trì hoãn cho phe phòng thủ, rủi ro về lính và tài nguyên, cùng phần điểm số trùng lặp với Đấu Trường Liên Minh."
 lang: vi
 updated: "2026-09-03"
@@ -9,7 +9,7 @@ infographics: []
 type: event
 ---
 
-Kingdom War (Chiến tranh Vương quốc) là **cuộc chiến giữa các máy chủ** trong trò chơi: hai vương quốc xâm chiếm một bản đồ chung và chiến đấu để tranh giành **Thành Hoàng Gia**. Sự kiện diễn ra **hai tuần một lần**, với các nhiệm vụ tính điểm và chuẩn bị diễn ra xuyên suốt trong tuần, trong khi trận chiến chính được cô đọng trong một khung thời gian duy nhất. Giành chiến thắng bằng cách kiểm soát Thành Hoàng Gia khi khói lửa chiến tranh lắng xuống.
+Viễn Chinh Liên Quốc (Chiến tranh Vương quốc) là **cuộc chiến giữa các máy chủ** trong trò chơi: hai vương quốc xâm chiếm một bản đồ chung và chiến đấu để tranh giành **Thành Hoàng Gia**. Sự kiện diễn ra **hai tuần một lần**, với các nhiệm vụ tính điểm và chuẩn bị diễn ra xuyên suốt trong tuần, trong khi trận chiến chính được cô đọng trong một khung thời gian duy nhất. Giành chiến thắng bằng cách kiểm soát Thành Hoàng Gia khi khói lửa chiến tranh lắng xuống.
 
 Hướng dẫn này bao gồm lịch trình, chiến thuật cho phe tấn công và phòng thủ, các quy tắc chung, những sai lầm khiến bạn thua trận, và các quy tắc kinh tế giúp tài khoản của bạn sống sót qua sự kiện.
 
@@ -55,7 +55,7 @@ Dù bạn ở phe nào, các quy tắc sau đây vẫn luôn được áp dụng
 
 ## Kinh tế KvK: Lính, Tài nguyên và Khiên bảo vệ {#economy-rules}
 
-Kingdom War là một trong số ít các sự kiện có rủi ro thực tế đối với tài khoản của bạn:
+Viễn Chinh Liên Quốc là một trong số ít các sự kiện có rủi ro thực tế đối với tài khoản của bạn:
 
 - **Bạn CÓ THỂ mất lính và tài nguyên khi bị tấn công** — đây không phải là một sự kiện không rủi ro như [Chinh Phục Hẻm Núi](/events/canyon/).
 - **Hãy bật khiên** trong thời gian diễn ra chiến tranh. Một thành phố không bật khiên trong KvK giống như một chiếc túi mù tài nguyên cho máy chủ địch.

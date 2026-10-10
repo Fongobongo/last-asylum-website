@@ -87,7 +87,7 @@ Zamanla hasar odaklı oluşturulmuş topluluk patron birliği:
 | Sıra | Kahramanlar | Rol |
 |---|---|---|
 | Ön | Arthur + Bella | Daha uzun süre hayatta kalma — hayatta kalınan her ekstra saniye daha fazla hasar biriktirir |
-| Arka | Marlena + Shadow + Claire | Ön safların arkasındaki hasar motoru |
+| Arka | Marlena + Gölge + Claire | Ön safların arkasındaki hasar motoru |
 
 Mantık: **daha uzun hayatta kalma = daha fazla biriken hasar**. Patron savaşı bir anlık patlama kontrolü değildir — en uzun süre ayakta kalan birlik en çok hasarı verir, bu yüzden ham saldırı yerine hayatta kalmaya öncelik verin. Kahramanların tüm detayları [Kahramanlar rehberindedir](/tr/heroes/).
 

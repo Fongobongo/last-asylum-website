@@ -47,4 +47,4 @@ Tam bir yükseltme 99 gün 17 saat sürer (bu, üç birlik heykelinin 299 günl�
 
 Bu üçte birlik artışın değeri Kuzgun'un teçhizat ekonomisinde görülür: her seviyenin bir öğesi bir alttaki seviyeden üç öğe gerektirir ve 12. seviyeye kadar olan tek bir teçhizat yuvası 177.147 adet 1. Seviye sandık ister. Günlük sınır, kaçırılan bir günü asla geri getirmez, bu nedenle atölye her gün boşaltılmalıdır.
 
-Bina, 168.400 Güç sunan Epigraf Atölyesi (Epigraph Workshop) ve 168.300 Güç sunan Ergitme Atölyesi (Smelting Workshop) ile yakın bir değerde, 168.200 Güç sağlar. Son beş seviye, inşa süresinin %79'unu alır ancak günlük sandık kazancını artık değiştirmez.
+Bina, 168.400 Güç sunan Epigraf Atölyesi (Yazıt Atölyesi) ve 168.300 Güç sunan Ergitme Atölyesi (Eritme Atölyesi) ile yakın bir değerde, 168.200 Güç sağlar. Son beş seviye, inşa süresinin %79'unu alır ancak günlük sandık kazancını artık değiştirmez.

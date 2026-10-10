@@ -6,7 +6,7 @@ lang: th
 updated: "2026-09-19"
 type: guide
 ---
-![Raven Workshop](/building-icons/5034.png)
+![โรงฝึกอีกาแม่มด](/building-icons/5034.png)
 
 
 > ข้อมูลได้รับการยืนยันจากไคลเอนต์เกม (v1.0.87, ที่มา: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-raven-workshop)).

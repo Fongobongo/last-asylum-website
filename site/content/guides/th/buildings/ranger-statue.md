@@ -1,13 +1,12 @@
-```json
-{
-  "title": "รูปปั้นพลซุ่มยิง: ระดับ, ค่าใช้จ่ายและโบนัส",
-  "description": "รูปปั้นพลซุ่มยิง...",
-  "videoTopic": "buildings",
-  "lang": "th",
-  "updated": "2026-09-19",
-  "type": "guide"
-}
-```
+---
+title: "รูปปั้นพลซุ่มยิง: ระดับ, ค่าใช้จ่ายและโบนัส"
+description: "รูปปั้นพลซุ่มยิง..."
+videoTopic: "buildings"
+lang: "th"
+updated: "2026-09-19"
+type: "guide"
+---
+
 ![รูปปั้นพลซุ่มยิง](/building-icons/5046.png)
 
 > ข้อมูลตรวจสอบกับไคลเอนต์เกม (เวอร์ชัน 1.0.87, แหล่งที่มา: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-ranger-statue))
@@ -46,15 +45,15 @@
 ## ฮีโร่ที่ได้รับโบนัส
 
 ฮีโร่ทุกตัวในฝ่ายจะได้รับโบนัส รวมถึงฮีโร่ที่นั่งสำรองอยู่ด้วย
-- Shadow · UR
-- Louis · UR
-- Bell · UR
-- Cynthia · UR
-- Red Lady · UR
-- Griffith · SSR
-- Ash · SSR
-- Bestar · SSR
-- Robin · SR
+- เงา · UR
+- หลุยส์ · UR
+- เบลล์ · UR
+- ซินเธีย · UR
+- มาดามเรด · UR
+- กริฟฟิธ · SSR
+- แอช · SSR
+- เบสต์ · SSR
+- โรบิน · SR
 
 ## วิธีใช้งาน
 

@@ -170,7 +170,7 @@ Rolün Güç açısından en güçlü on iki kahramanı. Büyü, seviye başına
 | Annie | Büyücü | UR | 916.394 | 0,57 | 1,52 | 0,9 |
 | Cynthia | Korucu | UR | 916.153 | 0,64 | 1,39 | 0,92 |
 | Marlena | Savaşçı | UR | 914.868 | 0,58 | 1,49 | 0,91 |
-| Red Lady | Korucu | UR | 913.583 | 0,6 | 1,45 | 0,91 |
+| Kızıl Hanım | Korucu | UR | 913.583 | 0,6 | 1,45 | 0,91 |
 | Joker | Büyücü | UR | 913.583 | 0,6 | 1,45 | 0,91 |
 | Grenwald | Büyücü | SSR | 690.773 | 0,35 | 1,09 | 0,59 |
 | Kesso | Savaşçı | SSR | 686.515 | 0,42 | 0,94 | 0,61 |
@@ -198,7 +198,7 @@ Daha güçlü: Claire, Kutsal Sancak (gelişmiş) tek bir hedefe %810 ATK vurur.
 | Kahraman | Sınıf | Yetenek | Yetenek tipi | Hasar, ATK yüzdesi | Alan |
 |---|---|---|---|---|---|
 | Joker | Büyücü | Joker As | Nihai Yetenek | %5.047,5 | tek hedef |
-| Red Lady | Korucu | Kırmızı Gül | Nihai Yetenek | %4.550,4 | tek hedef |
+| Kızıl Hanım | Korucu | Kırmızı Gül | Nihai Yetenek | %4.550,4 | tek hedef |
 | Zoya | Savaşçı | Orman Avcısı | Nihai Yetenek | %3.669,6 | tek hedef |
 | Annie | Büyücü | Şeker Kavanozu | Nihai Yetenek | %3.553,2 | tek hedef |
 | Claire | Savaşçı | Göksel Yargı (gelişmiş) | Nihai Yetenek | %3.486,6 | alan |
@@ -209,13 +209,13 @@ Sürpriz Hediye · hasar çarpanı · 15'te 6. sıra
 
 | Kahraman | Sınıf | Yetenek | Yetenek tipi | Hasar, ATK yüzdesi | Alan |
 |---|---|---|---|---|---|
-| Red Lady | Korucu | Kan Susamış Katliam | Aktif Yetenek | %2.934 | tek hedef |
+| Kızıl Hanım | Korucu | Kan Susamış Katliam | Aktif Yetenek | %2.934 | tek hedef |
 | Sivir | Savaşçı | Kalkan Vuruşu | Aktif Yetenek | %1.887,6 | tek hedef |
 | Grenwald | Büyücü | Kalp Kıran Büyü | Aktif Yetenek | %1.841,4 | tek hedef |
 | Cynthia | Korucu | Ay Avı | Aktif Yetenek | %1.800 | tek hedef |
 | Annie | Büyücü | Sürpriz Hediye | Aktif Yetenek | %1.611 | alan |
 
-Daha güçlü: Red Lady, Kan Susamış Katliam tek bir hedefe %2.934 ATK vurur.
+Daha güçlü: Kızıl Hanım, Kan Susamış Katliam tek bir hedefe %2.934 ATK vurur.
 
 ## Yükseltme sırası
 
@@ -316,7 +316,7 @@ Her ilerleme sisteminin kendi başına sağladığı kazançlar. İlk olarak ner
 
 ## Nasıl oynanır?
 
-UR DPS kahramanları arasında yalnızca Annie her 4,5 saniyede bir aktif yetenek ateşler: Sürpriz Hediye, Zoya, Joker ve Red Lady'nin her biri 5 saniye süren yeteneklerinden daha hızlı yenilenir. Şeker Kavanozu, en yüksek saldırı gücüne sahip üç düşmana karşı Joker'in %5.047,5'inden daha az olmak üzere %3.553,2 hasar verir, ancak saniyede %100 ATK değerinde bir yanma bırakır.
+UR DPS kahramanları arasında yalnızca Annie her 4,5 saniyede bir aktif yetenek ateşler: Sürpriz Hediye, Zoya, Joker ve Kızıl Hanım'nin her biri 5 saniye süren yeteneklerinden daha hızlı yenilenir. Şeker Kavanozu, en yüksek saldırı gücüne sahip üç düşmana karşı Joker'in %5.047,5'inden daha az olmak üzere %3.553,2 hasar verir, ancak saniyede %100 ATK değerinde bir yanma bırakır.
 
 Annie, sunucunun 14. gününde Joker ile birlikte kahraman listesine girer ve Uyanış'ı, Marlena ve Cynthia'dan sonra üçüncüsü olarak sezonun 29. gününde açılır. Özel Silahı sezonun 190. gününe kadar bekler ve yalnızca Arthur'un silahı bundan daha geç açılır. Parçaları Büyücü Heykeli 20. seviyeden gelir ve ayrıca üçüncü işe alım havuzunun garanti havuzunda da yer alır.
 

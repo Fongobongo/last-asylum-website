@@ -18,7 +18,7 @@ Rất dễ bị nhầm lẫn trọn một hàng ở đây, vì bảng sao có ch
 
 ## Chế tạo
 
-Một chữ khắc cấp cao nhất tốn 800 mảnh UR và yêu cầu Xưởng Chữ Khắc (Epigraph Workshop) cấp 20; có mười hai chữ khắc loại này. Cấp thấp hơn được chế tạo từ mảnh SSR: chín cái tốn 400 mảnh mỗi cái và ba cái tốn 800 mảnh. Các mảnh không được chuyển đổi giữa các cấp bậc, vì vậy bạn phải tích lũy đúng cấp bậc ngay từ đầu.
+Một chữ khắc cấp cao nhất tốn 800 mảnh UR và yêu cầu Xưởng Chữ Khắc (Xưởng Khắc Ấn) cấp 20; có mười hai chữ khắc loại này. Cấp thấp hơn được chế tạo từ mảnh SSR: chín cái tốn 400 mảnh mỗi cái và ba cái tốn 800 mảnh. Các mảnh không được chuyển đổi giữa các cấp bậc, vì vậy bạn phải tích lũy đúng cấp bậc ngay từ đầu.
 
 Sự kiện chữ khắc bảy ngày cho thấy quy mô của nó: sự kiện này trao tặng 870 mảnh SSR trong một tuần đăng nhập, đủ cho hai chữ khắc giá rẻ hoặc một chữ khắc đắt đỏ. Sự kiện hoàn toàn không cho mảnh UR nào cả.
 

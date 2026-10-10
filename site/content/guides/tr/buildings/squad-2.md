@@ -43,7 +43,7 @@ Binayı 1. seviyeden 30. seviyeye getirmek 2.529.347.669 Tahıl, 2.529.347.669 K
 
 İkinci yürüyüş kuyruğu binanın ilk seviyesiyle birlikte gelir: 59 Tahıl, 59 Kereste ve bir dakikadan kısa süren bir inşaat. Müfreze 2'nin sağladığı diğer her şey, yürüyüş hızıyla ilgilidir; bu hız %0.7'den %15.1'e çıkar ve 299 gün 4 saatlik saf inşa süresine mal olur. Bu nedenle bina, Sığınak seviye 8'in açıldığı gün inşa edilir, seviyeleri ise daha sonra artırılır.
 
-Seviye 8 ayrıca 350 günlük inşa süresine sahip Gözetleme Kulesi'nin (Watchtower) ve anında açılan Merak Eserleri Salonu'nun (Curio Hall) kilidini açar. Müfreze 2, kuyruk için kuleyle rekabet etmez: ilk seviyesi bir dakikadan kısa sürede tamamlanır ve bu bir dakika içinde ikinci bir kuyruğun tüm amacı zaten elde edilmiş olur. Otuz seviyenin tamamı 2.529.347.669 Tahıl, aynı miktarda Kereste ve 413.100.420 Bitki mal olur.
+Seviye 8 ayrıca 350 günlük inşa süresine sahip Gözetleme Kulesi'nin (Gözetleme Kulesi) ve anında açılan Merak Eserleri Salonu'nun (Nadide Salonu) kilidini açar. Müfreze 2, kuyruk için kuleyle rekabet etmez: ilk seviyesi bir dakikadan kısa sürede tamamlanır ve bu bir dakika içinde ikinci bir kuyruğun tüm amacı zaten elde edilmiş olur. Otuz seviyenin tamamı 2.529.347.669 Tahıl, aynı miktarda Kereste ve 413.100.420 Bitki mal olur.
 
 Ücretsiz gizli operasyon sevkıyatları müfreze başına iki adet olmak üzere müfrezelere göre sayılır, dolayısıyla ikinci kuyruk bunları ikiden dörde çıkarır. En üst düzey operasyon 12.177.000 kahraman EXP'si (deneyim puanı) kazandırır ve sevkıyatları iki katına çıkarmak, 30. seviyedeki %15.1'lik hızdan daha fazlasını sağlar.
 

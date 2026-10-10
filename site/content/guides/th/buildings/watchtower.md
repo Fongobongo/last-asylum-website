@@ -6,7 +6,7 @@ lang: th
 updated: "2026-09-19"
 type: guide
 ---
-![Watchtower](/building-icons/5049.png)
+![หอสังเกตการณ์](/building-icons/5049.png)
 
 
 > ข้อมูลได้รับการตรวจสอบกับไคลเอนต์เกม (v1.0.87, แหล่งที่มา: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-watchtower))

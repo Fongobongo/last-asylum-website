@@ -43,7 +43,7 @@ Het gebouw van level 1 naar 30 brengen kost Graan 829.742.117, Timber 829.742.11
 
 Vijf Weefateliers op level 30 produceren 455 Stof per uur, dat is 10.920 per dag. De materialen converteren vier op één en één Gehard Staal is gelijk aan 256 Stof, dus een dag productie van alle vijf komt neer op ongeveer tweeënveertig Gehard Staal. Vijf ateliers op level 20 geven 315 per uur, tweederde van het maximumtempo, en kosten 22 dagen aan pure bouwtijd tegenover 498 dagen voor de volledige upgrade.
 
-Qua grondstoffen is het atelier het goedkoopst van zijn buren: 2.065.382.114 tegenover 2.109.698.264 voor de Smeltwerkplaats (Smelting Workshop) en 2.101.870.680 voor de Inscriptiewerkplaats (Epigraph Workshop). De besparing is klein, maar het outputtempo is hier het hoogst van het niveau: 91 items per uur tegenover 62 voor de smelterij.
+Qua grondstoffen is het atelier het goedkoopst van zijn buren: 2.065.382.114 tegenover 2.109.698.264 voor de Smeltwerkplaats (Smelterij) en 2.101.870.680 voor de Inscriptiewerkplaats (Inscriptiewerkplaats). De besparing is klein, maar het outputtempo is hier het hoogst van het niveau: 91 items per uur tegenover 62 voor de smelterij.
 
 Het atelier brengt 31.800 Macht op bij level 20 en 168.200 bij level 30. Vijf op level 30 verzamelen 841.000 Macht, meer dan het Heiligdom met zijn 384.300 biedt, hoewel ze ook om 498 dagen aan bouwtijd vragen tegenover 398 voor het Heiligdom.
 

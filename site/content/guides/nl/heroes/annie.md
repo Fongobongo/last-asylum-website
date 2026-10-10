@@ -170,7 +170,7 @@ De twaalf sterkste helden van de rol op basis van Macht. Groei is de persoonlijk
 | Annie | Warlock | UR | 916.394 | 0,57 | 1,52 | 0,9 |
 | Cynthia | Ranger | UR | 916.153 | 0,64 | 1,39 | 0,92 |
 | Marlena | Warrior | UR | 914.868 | 0,58 | 1,49 | 0,91 |
-| Red Lady | Ranger | UR | 913.583 | 0,6 | 1,45 | 0,91 |
+| Rode Dame | Ranger | UR | 913.583 | 0,6 | 1,45 | 0,91 |
 | Joker | Warlock | UR | 913.583 | 0,6 | 1,45 | 0,91 |
 | Grenwald | Warlock | SSR | 690.773 | 0,35 | 1,09 | 0,59 |
 | Kesso | Warrior | SSR | 686.515 | 0,42 | 0,94 | 0,61 |
@@ -198,7 +198,7 @@ Snoeppot · schademultiplicator · rang 4 van 15
 | Held | Faction | Vaardigheid | Type vaardigheid | Schade, % van ATK | Gebied |
 |---|---|---|---|---|---|
 | Joker | Warlock | Joker Aas | Ultieme vaardigheid | 5.047,5% | enkel doelwit |
-| Red Lady | Ranger | Scharlaken Roos | Ultieme vaardigheid | 4.550,4% | enkel doelwit |
+| Rode Dame | Ranger | Scharlaken Roos | Ultieme vaardigheid | 4.550,4% | enkel doelwit |
 | Zoya | Warrior | Bosjager | Ultieme vaardigheid | 3.669,6% | enkel doelwit |
 | Annie | Warlock | Snoeppot | Ultieme vaardigheid | 3.553,2% | enkel doelwit |
 | Claire | Warrior | Hemels Oordeel (geavanceerd) | Ultieme vaardigheid | 3.486,6% | gebied |
@@ -209,13 +209,13 @@ Verrassingscadeau · schademultiplicator · rang 6 van 15
 
 | Held | Faction | Vaardigheid | Type vaardigheid | Schade, % van ATK | Gebied |
 |---|---|---|---|---|---|
-| Red Lady | Ranger | Bloeddorstige Slachtpartij | Actieve vaardigheid | 2.934% | enkel doelwit |
+| Rode Dame | Ranger | Bloeddorstige Slachtpartij | Actieve vaardigheid | 2.934% | enkel doelwit |
 | Sivir | Warrior | Schildslag | Actieve vaardigheid | 1.887,6% | enkel doelwit |
 | Grenwald | Warlock | Hartenbreker-spreuk | Actieve vaardigheid | 1.841,4% | enkel doelwit |
 | Cynthia | Ranger | Maanjacht | Actieve vaardigheid | 1.800% | enkel doelwit |
 | Annie | Warlock | Verrassingscadeau | Actieve vaardigheid | 1.611% | gebied |
 
-Sterker: Red Lady, Bloeddorstige Slachtpartij raakt voor 2.934% van ATK op een enkel doelwit.
+Sterker: Rode Dame, Bloeddorstige Slachtpartij raakt voor 2.934% van ATK op een enkel doelwit.
 
 ## Upgradevolgorde
 
@@ -316,7 +316,7 @@ Winst uit elk voortgangssysteem op zichzelf. Ze laten zien waarin je als eerste 
 
 ## Hoe te spelen
 
-Van alle UR DPS-helden vuurt alleen Annie elke 4,5 seconde een actieve vaardigheid af: Verrassingscadeau keert sneller terug dan de vaardigheden van Zoya, Joker en Red Lady die elk 5 seconden duren. Snoeppot geeft 3.553,2% tegen de drie vijanden met de hoogste aanvalskracht, minder dan de 5.047,5% van Joker, maar het laat wel een brandwond achter ter waarde van 100% ATK per seconde.
+Van alle UR DPS-helden vuurt alleen Annie elke 4,5 seconde een actieve vaardigheid af: Verrassingscadeau keert sneller terug dan de vaardigheden van Zoya, Joker en Rode Dame die elk 5 seconden duren. Snoeppot geeft 3.553,2% tegen de drie vijanden met de hoogste aanvalskracht, minder dan de 5.047,5% van Joker, maar het laat wel een brandwond achter ter waarde van 100% ATK per seconde.
 
 Annie komt op serverdag 14 samen met Joker in de heldenlijst, en haar ontwaken opent op seizoensdag 29, de derde na Marlena en Cynthia. Haar exclusieve wapen wacht tot seizoensdag 190, en alleen het wapen van Arthur opent later dan dat. Haar fragmenten zijn afkomstig van het Warlock-standbeeld op level 20, en ze bevindt zich ook in de garantie van de derde rekruteringspoule.
 

@@ -109,7 +109,7 @@ Geverifieerde waarden uit de gameklantgegevens (v1.0.87), bron: wiki-last-asylum
 ## Officiële in-game regels (client v1.0.102) {#official-rules}
 
 
-### Elixir Scramble
+### Elixerstrijd
 
 Terwijl de plaag zich over de wereld verspreidt, is de schaarsste hulpbron altijd het geneesmiddel voor ziekten. Volgens oude teksten groeien er mysterieuze kruiden in een land dat alleen opent op de nacht van de Bloedmaan.
 Er wordt gezegd dat een grote hoeveelheid elixirs verborgen ligt in het legendarische Elixir-kasteel, en deze elixirs kunnen verschillende ziekten effectief behandelen, wat velen aantrekt om erom te strijden...

@@ -20,7 +20,7 @@ La funzione Alleanza si sblocca al **Livello Santuario 5**.
 2. Evita di unirti a gilde "Aperte" casuali per principianti. Le alleanze competitive e organizzate richiedono sempre una revisione della candidatura (Applica).
 3. **Criteri di selezione chiave:**
    * **Classifica Potenza:** Punta a entrare in una delle prime 3 gilde del tuo server. Dominano il Castello Reale, detengono il titolo di Gilda Dominante e generano migliaia di forzieri regalo dai membri attivi.
-   * **Fuso orario e attività in chat:** Assicurati che gli orari di punta della gilda per i raid si allineino con i tuoi impegni per le adunate di Cheese Trap e Assedio dei Non Morti.
+   * **Fuso orario e attività in chat:** Assicurati che gli orari di punta della gilda per i raid si allineino con i tuoi impegni per le adunate di Trappola di formaggio e Assedio dei Non Morti.
    * **Livello Regalo:** I livelli regalo dell'alleanza più alti offrono forzieri traguardo migliori contenenti diamanti gratuiti, biglietti di reclutamento e accelerazioni.
 
 ---

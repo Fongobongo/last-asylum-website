@@ -7,7 +7,7 @@ updated: "2026-09-14"
 videoTopic: beginner
 ---
 
-**Trắc nghiệm Thông thái** (Quiz of Wisdom) là một sự kiện đố vui cộng đồng định kỳ trong **Last Asylum: Plague**, nơi các chỉ huy được kiểm tra kiến thức về cơ chế trò chơi, cốt truyện, điều kiện tiên quyết của công trình, khắc chế phe phái và kỹ năng anh hùng.
+**Trắc nghiệm Thông thái** (Đố Vui Trí Tuệ) là một sự kiện đố vui cộng đồng định kỳ trong **Last Asylum: Plague**, nơi các chỉ huy được kiểm tra kiến thức về cơ chế trò chơi, cốt truyện, điều kiện tiên quyết của công trình, khắc chế phe phái và kỹ năng anh hùng.
 
 Trả lời đúng tất cả 15 câu hỏi sẽ thưởng các rương mốc phần thưởng bậc cao nhất chứa đầy kim cương miễn phí, vé chiêu mộ, tăng tốc và các vật liệu tiến trình quý giá.
 
@@ -22,7 +22,7 @@ Sử dụng công cụ tìm kiếm tương tác của chúng tôi bên dưới! 
 ## Tổng Quan Các Danh Mục Câu Hỏi Chính
 
 * **Cơ chế Chung:** Giới hạn cướp bóc (Đoàn lữ hành: 4 lần/ngày, Hoạt động ngầm: 5 lần/ngày), khoảng thời gian nhận thể lực (4 tiếng), và tiến trình trại thám hiểm.
-* **Công trình & Cổng:** Cấp độ mở khóa Trang bị Quạ (**Căn cứ 15** - Sanctuary 15), sản xuất thuốc giải độc (Xưởng Thuốc Giải Độc - Antitoxin Workshop), và cơ chế bãi huấn luyện.
+* **Công trình & Cổng:** Cấp độ mở khóa Trang bị Quạ (**Căn cứ 15** - Sanctuary 15), sản xuất thuốc giải độc (Xưởng Thuốc Giải Độc - Xưởng Kháng Độc), và cơ chế bãi huấn luyện.
 * **Phe phái & Khắc chế:** Tam giác khắc chế kéo-búa-bao:
   * **Chiến binh (Warrior) khắc chế Phù thủy (Warlock)**
   * **Phù thủy (Warlock) khắc chế Kỵ xạ (Ranger)**
@@ -53,7 +53,7 @@ Các giá trị đã được xác thực từ dữ liệu máy khách trò chơ
 | Hoạt động Ngầm có chiếm hàng đợi hành quân không? | Không |
 | Căn bệnh đã thâm nhập vào thị trấn bằng cách nào? | Vết cắn của bọ chét hoặc chuột |
 | Làm thế nào để nâng cao sức chiến đấu của đội hình sau một lần thám hiểm thất bại? | Cả hai |
-| Làm thế nào để tăng phần thưởng nhận được từ Trại Thám Hiểm (Explorer's Camp)? | Vượt qua nhiều màn chơi hơn |
+| Làm thế nào để tăng phần thưởng nhận được từ Trại Thám Hiểm (Trại Thám Hiểm)? | Vượt qua nhiều màn chơi hơn |
 | Làm thế nào để có được những người sống sót? | Cả hai đáp án trên |
 | Làm thế nào để nâng sao cho Bệnh xá? | Nâng cấp các công trình trong Bệnh xá |
 | Làm thế nào để chọn anh hùng nhằm tối đa hóa sát thương tổng thể khi xây dựng đội hình anh hùng? | 5 thành viên cùng phe phái |
@@ -82,7 +82,7 @@ Các giá trị đã được xác thực từ dữ liệu máy khách trò chơ
 | Bạn có thể làm gì khi thiếu tài nguyên để nâng cấp công trình/công nghệ? | Tất cả các đáp án trên |
 | Điều gì thay đổi khi cấp độ Sao của Hoạt động Ngầm tăng lên? | Tất cả các đáp án trên |
 | Kỹ năng Chủ động của Arthur có những hiệu ứng gì? | Thêm Lá Chắn |
-| Vai trò của Shadow trong trò chơi là gì? | Đỡ đòn (Tank) |
+| Vai trò của Ảnh trong trò chơi là gì? | Đỡ đòn (Tank) |
 | Khe cắm Đoàn lữ hành liên quan đến điều gì? | Số lượng Đội hình |
 | Lợi ích của việc có Trại lính cấp độ cao hơn trong trò chơi là gì? | Tăng sức chứa binh lính |
 | Chức năng của Thuốc giải độc là gì? | Cường hóa hoặc nâng cấp anh hùng |

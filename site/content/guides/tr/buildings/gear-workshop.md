@@ -46,6 +46,6 @@ Ekipman Atölyesi, seviye tablosunda hiçbir sayısal bonus bulunmayan iki otuz 
 
 Kilidini açtığı her şey 20. seviyede tamamlanır: üç yüksek kalitenin üretimi ve ekipman yıldızları. 20. seviyeye, tüm inşa süresinin yüzde beşinden az bir süre olan 15 gün 11 saatte ulaşılır. Kalan on seviye 333 gün 13 saate mal olur ve 277.600 Güç dışında hiçbir şey getirmez.
 
-Sığınak 4. seviyede beş bina sırayı paylaşır ve bunlardan sadece biri anlıktır: 240 kaynak ile Kaşif Kampı. Diğer dördü toplamda 1.396 gün ister. Aynı seviyedeki bir komşu, aynı süreyi farklı şekilde harcar: Tavern da aynı 349 günü ister, ancak ücretsiz asker toplama bekleme süresi 30. seviyeye kadar düşmeye devam eder.
+Sığınak 4. seviyede beş bina sırayı paylaşır ve bunlardan sadece biri anlıktır: 240 kaynak ile Kaşif Kampı. Diğer dördü toplamda 1.396 gün ister. Aynı seviyedeki bir komşu, aynı süreyi farklı şekilde harcar: Meyhane da aynı 349 günü ister, ancak ücretsiz asker toplama bekleme süresi 30. seviyeye kadar düşmeye devam eder.
 
 Atölyenin faturası büyük ölçüde Kereste'ye dayanır: 1.491.682.843 Tahıl ve 464.624.870 Bitki'ye karşılık 4.526.021.182 Kereste; bu, şehirdeki en büyük üçüncü kereste harcamasıdır. 20. seviyeye kadar kahraman ekipmanlarıyla birlikte inşa sırasında erken yer alır ve 20. seviyeden sonra Sığınak gereksinimleri için yükseltilir. Bir şehirde bir atölye bulunur ve ikincisi inşa edilemez.

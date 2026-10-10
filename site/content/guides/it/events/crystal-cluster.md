@@ -7,7 +7,7 @@ videoTopic: crystal
 type: event
 ---
 
-La **Valle dei Cluster di Cristallo** (Crystal Cluster Valley) è un evento a tempo in stile battle royale: trascorri una sessione fissa su una mappa condivisa uccidendo mob neutrali rossi e minando cristalli, e il tuo punteggio — non le kill sugli altri giocatori — decide la fascia di ricompensa. Giocatori F2P e balene iniziano la mappa sullo stesso piano; la disciplina batte il portafoglio.
+La **Valle dei Cluster di Cristallo** (Valle dei Grappoli di Cristalli) è un evento a tempo in stile battle royale: trascorri una sessione fissa su una mappa condivisa uccidendo mob neutrali rossi e minando cristalli, e il tuo punteggio — non le kill sugli altri giocatori — decide la fascia di ricompensa. Giocatori F2P e balene iniziano la mappa sullo stesso piano; la disciplina batte il portafoglio.
 
 ## La matematica del punteggio {#scoring}
 

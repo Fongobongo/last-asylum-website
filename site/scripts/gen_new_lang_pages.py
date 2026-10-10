@@ -18,6 +18,10 @@ MI = json.load(open(PART / 'misc.json'))
 SRC = json.load(open('/tmp/batch2_src.json'))['static']
 
 
+def sq(s):
+    return s.replace('\\', '\\\\').replace("'", "\\'")
+
+
 def write(path, text):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding='utf-8')
@@ -45,10 +49,10 @@ for lang in LANGS:
     # ---------- index ----------
     t = (SITE / 'src/pages/index.astro').read_text(encoding='utf-8')
     for s_en, s_lo in zip(SRC['home_sections'], ho['sections']):
-        t = t.replace(f"title: '{s_en['title']}'", f"title: '{s_lo['title']}'", 1)
+        t = t.replace(f"title: '{s_en['title']}'", f"title: '{sq(s_lo['title'])}'", 1)
     for p_en, p_lo in zip(SRC['home_popular'], ho['popular']):
         t = t.replace(f"title: '{p_en['title']}', desc: '{p_en['desc']}'",
-                      f"title: '{p_lo['title']}', desc: '{p_lo['desc']}'", 1)
+                      f"title: '{sq(p_lo['title'])}', desc: '{sq(p_lo['desc'])}'", 1)
     t = base_of(t, lang, 2)
     t = re.sub(r"href: '/", f"href: '/{lang}/", t)
     t = t.replace('path="/"', f'path="/{lang}/"')
@@ -117,8 +121,8 @@ for lang in LANGS:
                   pg["desc"])
     # events array: match EN entries positionally
     for e_en, e_lo in zip(SRC['events'], ev['events']):
-        t = t.replace(f"name: '{e_en['name']}', icon:", f"name: '{e_lo['name']}', icon:", 1)
-        t = t.replace(f"desc: '{e_en['desc']}'", f"desc: '{e_lo['desc']}'", 1)
+        t = t.replace(f"name: '{e_en['name']}', icon:", f"name: '{sq(e_lo['name'])}', icon:", 1)
+        t = t.replace(f"desc: '{e_en['desc']}'", f"desc: '{sq(e_lo['desc'])}'", 1)
     write(root / 'events' / 'index.astro', t)
 
     # ---------- heroes/index ----------

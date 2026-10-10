@@ -21,7 +21,7 @@ Phần dành cho người mới bắt đầu được chia thành các bài vi�
 
 Kiến thức cơ bản về anh hùng hiện nằm trong phần Anh hùng, nơi tập hợp mọi hướng dẫn về anh hùng:
 
-- **[Dòng thời gian mở khóa anh hùng](/vi/heroes/hero-basics/#unlock-timeline)** — khi nào Arthur xuất hiện, Vòng quay may mắn Cynthia/Shadow, chuỗi sự kiện UR từ ngày 36–85, Marlena, Kỷ nguyên tái sinh (Age of Rebirth)
+- **[Dòng thời gian mở khóa anh hùng](/vi/heroes/hero-basics/#unlock-timeline)** — khi nào Arthur xuất hiện, Vòng quay may mắn Xynthia/Ảnh, chuỗi sự kiện UR từ ngày 36–85, Marlena, Kỷ nguyên tái sinh (Age of Rebirth)
 - **[Cách hoạt động của Sức mạnh anh hùng](/vi/heroes/hero-basics/#hero-might)** — cấp độ, sao (bước nhảy 4★), kỹ năng và trang bị
 - **[Phe phái và Khắc chế](/vi/heroes/hero-basics/#wiki-hero-factions)** — tiền thưởng cộng dồn +5/+10/+15/+20% và vòng tròn khắc chế Chiến binh > Pháp sư > Xạ thủ > Chiến binh
 - **[Đội hình đầu tiên của bạn](/vi/heroes/hero-basics/#f2p-squad)** — Arthur và Bella ở hàng trước; Marlena, Claire và Celia ở hàng sau (phân tích đầy đủ cùng các lựa chọn thay thế)
@@ -31,11 +31,11 @@ Kiến thức cơ bản về anh hùng hiện nằm trong phần Anh hùng, nơi
 
 Các câu trả lời ngắn gọn cho những câu hỏi mà hòm thư của Korpez liên tục nhận được — hầu hết những điều này sẽ xảy ra với bạn trong tuần 2–4.
 
-- **Khi nào đội hình Xạ thủ của tôi sẵn sàng thay thế Chiến binh?** Không chỉ dựa vào số sao — hãy kiểm tra ba rào cản: mọi xạ thủ tối thiểu 8★ (Cynthia và Red Lady ở 10★, Louis ở 8★, Bell ở 9–10★), Đền thờ/Tượng Xạ thủ ở cấp ~22+, và nghiên cứu anh hùng ở cùng giai đoạn với nhánh Chiến binh của bạn. Quy tắc chung của trang: việc chuyển đổi diễn ra khi đội hình Xạ thủ đạt ~18M sức mạnh so với đội hình 60M Chiến binh hiện có, được tăng cường khi cả bốn cờ đều mở.
-- **Zoya hay Claire — ai thắng?** Zoya là tanker PvP thực thụ (trả phí); **UR Claire là chuyên gia PvE/quái vật mãi mãi** — nội tại của cô ấy vẫn khóa ở sát thương quái vật ngay cả khi ở dạng UR. Hãy giữ Claire cho các boss thế giới, Pandemic và zombie KvK; đổi Zoya vào ngay khi cô ấy khả dụng cho PvP.
+- **Khi nào đội hình Xạ thủ của tôi sẵn sàng thay thế Chiến binh?** Không chỉ dựa vào số sao — hãy kiểm tra ba rào cản: mọi xạ thủ tối thiểu 8★ (Xynthia và Bà Đỏ ở 10★, Luis ở 8★, Bell ở 9–10★), Đền thờ/Tượng Xạ thủ ở cấp ~22+, và nghiên cứu anh hùng ở cùng giai đoạn với nhánh Chiến binh của bạn. Quy tắc chung của trang: việc chuyển đổi diễn ra khi đội hình Xạ thủ đạt ~18M sức mạnh so với đội hình 60M Chiến binh hiện có, được tăng cường khi cả bốn cờ đều mở.
+- **Trác Nhã hay Claire — ai thắng?** Trác Nhã là tanker PvP thực thụ (trả phí); **UR Claire là chuyên gia PvE/quái vật mãi mãi** — nội tại của cô ấy vẫn khóa ở sát thương quái vật ngay cả khi ở dạng UR. Hãy giữ Claire cho các boss thế giới, Pandemic và zombie KvK; đổi Trác Nhã vào ngay khi cô ấy khả dụng cho PvP.
 - **Tôi có thể không để quân trên tường thành để bảo toàn tính mạng không?** Không. Bất kể bạn chọn quân phòng thủ nào, một trận thua vẫn sẽ mất cùng một lượng quân. Hãy đưa quân lên bất cứ khi nào bạn có thể đối đầu với kẻ tấn công; **chỉ sơ tán và dịch chuyển khi kẻ tấn công không thể đánh bại**. Luôn dùng khiên trước mỗi trận KvK — "bạn không cần khiên trong KvK" là một huyền thoại sai lầm.
-- **Nghỉ ngơi của binh lính (Soldier's Rest): hồi sinh quân chết?** Có, nhưng thời gian hồi chiêu rất lâu và hãy phát triển nó với sự giúp đỡ của liên minh — hãy coi đó là nguồn dự trữ bạn dùng sau KvK, không phải sự tiện lợi hàng ngày. Đừng lãng phí nó cho các cuộc săn quái vật đơn lẻ.
-- **Kiếm của Cynthia ở 10★ — bản thiết kế tiếp theo cho cô ấy hay Red Lady?** Korpez: găng tay, không phải thanh kiếm thứ hai. Lựa chọn tùy thích giữa Cynthia và Red Lady — Cynthia mang lại nhiều sát thương diện rộng (AoE) hơn, Red Lady đánh mạnh hơn vào các mục tiêu đơn lẻ. Một kiếm đỏ + một găng tay đỏ trên cùng một tướng chủ lực tốt hơn là hai kiếm đỏ chia cho hai tướng DPS.
+- **Nghỉ ngơi của binh lính (Trại Nghỉ Ngơi Của Lính): hồi sinh quân chết?** Có, nhưng thời gian hồi chiêu rất lâu và hãy phát triển nó với sự giúp đỡ của liên minh — hãy coi đó là nguồn dự trữ bạn dùng sau KvK, không phải sự tiện lợi hàng ngày. Đừng lãng phí nó cho các cuộc săn quái vật đơn lẻ.
+- **Kiếm của Xynthia ở 10★ — bản thiết kế tiếp theo cho cô ấy hay Bà Đỏ?** Korpez: găng tay, không phải thanh kiếm thứ hai. Lựa chọn tùy thích giữa Xynthia và Bà Đỏ — Xynthia mang lại nhiều sát thương diện rộng (AoE) hơn, Bà Đỏ đánh mạnh hơn vào các mục tiêu đơn lẻ. Một kiếm đỏ + một găng tay đỏ trên cùng một tướng chủ lực tốt hơn là hai kiếm đỏ chia cho hai tướng DPS.
 - **Freya hay Elena (người định cư trả phí)?** Nếu bạn có chi tiêu: **Freya trước** (phần thưởng Nhiệm vụ Chim ưng là thu nhập trọn đời hàng ngày); Elena (+chỉ huy/tấn công) là sự thể hiện của "cá voi" (người nạp nhiều) mà người chi tiêu trung bình nên bỏ qua.
 - **Đội hình thứ hai của tôi — pháp sư hay xạ thủ?** Câu trả lời của Korpez: **pháp sư**, luôn luôn là vậy — giới hạn cuối game nằm ở đó; xạ thủ cho giai đoạn đầu-giữa của người chơi miễn phí (F2P) nhưng pháp sư sẽ áp đảo về sau. [Bảng xếp hạng](/vi/tier-list/).
 
@@ -79,8 +79,8 @@ Các giá trị đã xác minh từ dữ liệu khách hàng trò chơi (v1.0.87
 | Sanctuary cấp 10 | Quà tặng |
 | Sanctuary cấp 15 | Trang bị Raven |
 | Hội trường liên minh cấp 1 | Liên minh |
-| Black Ops cấp 1 | Tác chiến bí mật |
-| Black Ops cấp 1 | Đột kích tác chiến bí mật |
+| Cục Bí Mật cấp 1 | Tác chiến bí mật |
+| Cục Bí Mật cấp 1 | Đột kích tác chiến bí mật |
 | Xưởng Epigraph cấp 1 | Tiến hóa Raven |
 | Tháp Falcon cấp 1 | Trò chuyện |
 | Tháp Falcon cấp 1 | Bản đồ thế giới |
@@ -180,11 +180,11 @@ Máy tính xây dựng tập hợp thứ tự nâng cấp từ ngày đầu tiê
 
 - [Trận chiến đền thờ: bộ trưởng, chức vụ tòa án và sắc lệnh vua](/vi/temple-battle/)
 - [Cuộc gặp gỡ bất ngờ: phần thưởng cuộc gọi và hộp](/vi/surprise-encounter/)
-- [Dawn Breakout](/vi/dawn-breakout/)
+- [Đột phá Lê minh](/vi/dawn-breakout/)
 - [Săn bắn: mục tiêu, Raven Fruit và tập hợp](/vi/hunting/)
 - [Raven epigraphs: sao, chế tạo và bắt đầu](/vi/epigraphs/)
 - [Curios: nâng cấp, chi phí và tiền thưởng lặp lại](/vi/relics/)
-- [Wandering Phantom: cấp độ Wandering Blight, Nhiệm vụ vương quốc và phần thưởng](/vi/wandering-phantom/)
+- [U linh lang thang: cấp độ Zombie Lang Thang, Nhiệm vụ vương quốc và phần thưởng](/vi/wandering-phantom/)
 - [Thử thách](/vi/trials/)
 - [Bản đồ kho báu](/vi/treasure-maps/)
 - [Bản đồ thành phố: mục tiêu hàng đầu và nhiệm vụ chiếm đóng](/vi/cities/)
@@ -194,11 +194,11 @@ Máy tính xây dựng tập hợp thứ tự nâng cấp từ ngày đầu tiê
 - [Cách trò chơi tính toán: kim cương và tỷ lệ phần trăm](/vi/formulas/)
 - [Giao diện: tiền thưởng, thời hạn và Black Raven Fortress](/vi/skins/)
 - [Thói quen hàng ngày: thu nhập nhàn rỗi, tác chiến và đấu trường](/vi/daily-routine/)
-- [Sự kiện thưởng: Hero Pass, Hero's Trial và Phần thưởng đăng nhập](/vi/bonus-events/)
+- [Sự kiện thưởng: Thẻ Tướng, Thí Luyện Tướng và Phần thưởng đăng nhập](/vi/bonus-events/)
 - [Sự kiện đặc biệt: chín sự kiện của tab và ngày mỗi sự kiện đến](/vi/special-events/)
 - [Era Pass](/vi/era-pass/)
 - [Kỷ nguyên tái sinh: những gì vẫn mở, anh hùng theo tuần và bắt đầu](/vi/season-era/)
-- [Hunt Battle: làn sóng Blight, độ khó và phần thưởng liên minh](/vi/hunt-battle/)
+- [Trận Vây Bắt: làn sóng Blight, độ khó và phần thưởng liên minh](/vi/hunt-battle/)
 - [Vòng quay may mắn: anh hùng và raven](/vi/roulette/)
 - [Boss: Abyss, cuối tuần và boss liên minh](/vi/bosses/)
 - [Chuỗi khám phá: phần thưởng và loại bước](/vi/exploration/)

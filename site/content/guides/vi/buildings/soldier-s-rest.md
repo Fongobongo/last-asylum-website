@@ -12,7 +12,7 @@ type: guide
 > Dữ liệu được xác minh với client trò chơi (v1.0.87, nguồn: [wiki-last-asylum.com](https://wiki-last-asylum.com/vi/wiki/building-soldier-s-rest)).
 
 
-Nơi Nghỉ Của Binh Sĩ (Soldier's Rest) cứu một phần binh sĩ đã tử trận, và tỷ lệ này tăng từ 18% lên 40% trước khi dừng lại ở cấp 23. Các cấp độ sau chỉ tăng thêm sức chứa. Việc hồi sinh một binh sĩ tử trận tốn chi phí tương đương với việc chữa trị một binh sĩ bị thương, bằng 30% chi phí chiêu mộ. Công trình này có sẵn ngay từ đầu trò chơi và có thể nâng tối đa lên cấp 30. Chỉ có thể xây dựng một công trình này. Các cấp độ sẽ tăng: Tỷ lệ Tiếp nhận Binh sĩ, Sức chứa Tiếp nhận Binh sĩ, Thời gian hồi phục, Số lượt Trợ giúp được chấp nhận.
+Nơi Nghỉ Của Binh Sĩ (Trại Nghỉ Ngơi Của Lính) cứu một phần binh sĩ đã tử trận, và tỷ lệ này tăng từ 18% lên 40% trước khi dừng lại ở cấp 23. Các cấp độ sau chỉ tăng thêm sức chứa. Việc hồi sinh một binh sĩ tử trận tốn chi phí tương đương với việc chữa trị một binh sĩ bị thương, bằng 30% chi phí chiêu mộ. Công trình này có sẵn ngay từ đầu trò chơi và có thể nâng tối đa lên cấp 30. Chỉ có thể xây dựng một công trình này. Các cấp độ sẽ tăng: Tỷ lệ Tiếp nhận Binh sĩ, Sức chứa Tiếp nhận Binh sĩ, Thời gian hồi phục, Số lượt Trợ giúp được chấp nhận.
 
 | Chỉ số | Giá trị |
 |---|---|
@@ -45,6 +45,6 @@ Cấp 23 của Nơi Nghỉ Của Binh Sĩ hoạt động như một điểm dừ
 
 Phần nâng cấp còn lại không tương xứng với hiệu quả mang lại. Các cấp từ 24 đến 30 yêu cầu tới 2.293.395.000 Lương thực, một lượng Gỗ tương đương và 265 ngày 21 giờ (chiếm chín phần mười tổng thời gian của toàn bộ công trình), nhưng chúng chỉ tăng thêm sức chứa từ 1.545 lên 2.000 binh sĩ tử trận, rút ngắn thời gian hồi phục từ 52 giờ xuống 48 giờ, và tăng số lượt trợ giúp từ 9 lên 10.
 
-Lực chiến cũng không phải là một lý do thuyết phục. Ở cấp 30, Nơi Nghỉ Của Binh Sĩ chỉ mang lại 3.000 Lực chiến, trong khi cùng với 299 ngày 4 giờ xây dựng đó, Kho Thóc (Granary) mang lại tới 287.500 Lực chiến. Nếu tính trên mỗi tài nguyên tiêu tốn, công trình này mang lại hiệu quả thấp nhất so với bất kỳ công trình nào trong thành phố.
+Lực chiến cũng không phải là một lý do thuyết phục. Ở cấp 30, Nơi Nghỉ Của Binh Sĩ chỉ mang lại 3.000 Lực chiến, trong khi cùng với 299 ngày 4 giờ xây dựng đó, Kho Thóc (Kho Lương) mang lại tới 287.500 Lực chiến. Nếu tính trên mỗi tài nguyên tiêu tốn, công trình này mang lại hiệu quả thấp nhất so với bất kỳ công trình nào trong thành phố.
 
 Giá trị của Nơi Nghỉ Của Binh Sĩ nằm ở giai đoạn đầu phát triển thành phố. Nó có sẵn từ Căn cứ cấp 1 trong khi Bệnh Xá (Infirmary) chỉ xuất hiện ở cấp 7, và cho đến lúc đó, Nơi Nghỉ Của Binh Sĩ là lá chắn duy nhất chống lại tổn thất binh lực vĩnh viễn. Việc hồi sinh một binh sĩ tử trận tốn chi phí tương đương 30% chi phí chiêu mộ, giống như việc chữa trị cho một binh sĩ bị thương.

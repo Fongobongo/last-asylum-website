@@ -7,7 +7,7 @@ videoTopic: pandemic
 type: event
 ---
 
-**Pandemi Deneyimi (Pandemic Experience)**, iki haftada bir tekrarlanan bir savaş mücadelesidir: Artan zorluk derecelerine sahip "Cehennem Hemşireleri" dalgalarıyla ( **Seviye 1'den Seviye 9'a** kadar) savaşırsınız ve hem siz *hem de ittifakınız* birlikte yükselirsiniz. İttifakınız ne kadar derine inerse, o kadar çok patronun kilidi açılır. Ödüller zorluk derecesine göre ölçeklenir: UR Omni Parçaları (UR Omni Shards), Kuzgun Özü (Raven Essence) ve elmaslar.
+**Pandemi Deneyimi (Salgın Deneyimi)**, iki haftada bir tekrarlanan bir savaş mücadelesidir: Artan zorluk derecelerine sahip "Cehennem Hemşireleri" dalgalarıyla ( **Seviye 1'den Seviye 9'a** kadar) savaşırsınız ve hem siz *hem de ittifakınız* birlikte yükselirsiniz. İttifakınız ne kadar derine inerse, o kadar çok patronun kilidi açılır. Ödüller zorluk derecesine göre ölçeklenir: UR Omni Parçaları (UR Omni Shards), Kuzgun Özü (Raven Essence) ve elmaslar.
 
 ## İlerleme Nasıl Çalışır? {#progression}
 

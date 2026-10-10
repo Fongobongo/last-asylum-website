@@ -9,7 +9,7 @@ infographics: ["/infographics/undead-siege-guide-2.webp", "/infographics/undead-
 type: event
 ---
 
-Cuộc vây hãm thây ma (Undead Siege) là sự kiện phòng thủ liên minh: toàn bộ liên minh của bạn sẽ chiến đấu chống lại **các đợt xác sống**, với các anh hùng ở trên tường thành để giao chiến. Có hai quy tắc quyết định mọi thứ ngay từ đầu: **khiên không có tác dụng**, và đây **không phải là sự kiện tính điểm** — mục tiêu là phòng thủ qua càng nhiều đợt càng tốt.
+Cuộc vây hãm thây ma (Zombie Vây Thành) là sự kiện phòng thủ liên minh: toàn bộ liên minh của bạn sẽ chiến đấu chống lại **các đợt xác sống**, với các anh hùng ở trên tường thành để giao chiến. Có hai quy tắc quyết định mọi thứ ngay từ đầu: **khiên không có tác dụng**, và đây **không phải là sự kiện tính điểm** — mục tiêu là phòng thủ qua càng nhiều đợt càng tốt.
 
 Hướng dẫn này đề cập cách mở khóa các cuộc vây hãm, bậc độ khó, cơ chế nhiều đội quân ẩn có thể quét sạch những liên minh chưa chuẩn bị kỹ, phần thưởng và bảy sai lầm lớn nhất.
 

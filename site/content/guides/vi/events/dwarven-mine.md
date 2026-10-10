@@ -7,7 +7,7 @@ videoTopic: dwarven
 type: event
 ---
 
-**Mỏ Người Lùng (Dwarven Mine)** là một sự kiện đào mỏ diễn ra định kỳ trong 7 ngày: bạn sử dụng **Cuốc (Pickaxes)** để đào các ô, tìm ô đặc biệt (jackpot) để leo tầng, và người chơi vượt qua **100 tầng** trong sự kiện sẽ giành được phần thưởng cao nhất — **bản vẽ trang bị MR** (món trang bị cấp cao nhất). Toàn bộ sự kiện đã được định đoạt trước khi nó bắt đầu: ai tích trữ cuốc sẽ thắng, ai bắt đầu với tay trắng sẽ phải chi tiền thật để đuổi kịp.
+**Mỏ Người Lùng (Mỏ Người Lùn)** là một sự kiện đào mỏ diễn ra định kỳ trong 7 ngày: bạn sử dụng **Cuốc (Pickaxes)** để đào các ô, tìm ô đặc biệt (jackpot) để leo tầng, và người chơi vượt qua **100 tầng** trong sự kiện sẽ giành được phần thưởng cao nhất — **bản vẽ trang bị MR** (món trang bị cấp cao nhất). Toàn bộ sự kiện đã được định đoạt trước khi nó bắt đầu: ai tích trữ cuốc sẽ thắng, ai bắt đầu với tay trắng sẽ phải chi tiền thật để đuổi kịp.
 
 Hướng dẫn này bao gồm nguồn thu nhập cuốc, mục tiêu tích trữ cho F2P, chiến lược lựa chọn phần thưởng và cạm bẫy hút máu nằm ở đâu.
 
@@ -52,7 +52,7 @@ Mỗi lần leo tầng cho phép bạn chọn giữa hai dòng phần thưởng:
 
 ## Phân Tích Video: Đừng Lãng Phí Cuốc Của Bạn! (KorpezGaming) {#video-breakdown-dwarf}
 
-Chiến thuật tiến độ tầng và toán học về cuốc từ KorpezGaming ([DON'T Waste Your Pickaxes! Dwarven Mine Guide](https://youtu.be/WCIfyqH0vz0)):
+Chiến thuật tiến độ tầng và toán học về cuốc từ KorpezGaming ([DON'T Waste Your Pickaxes! Mỏ Người Lùn Guide](https://youtu.be/WCIfyqH0vz0)):
 
 | Mốc thời gian | Chủ đề | Bài học thực tế |
 |---|---|---|

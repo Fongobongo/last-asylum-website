@@ -156,7 +156,7 @@ I dodici eroi più forti del ruolo per Potenza. La crescita è il moltiplicatore
 | Shadow | Esploratore | UR | 1.075.906 | 1,43 | 0,78 | 1,06 |
 | Daskal | Guerriero | UR | 1.057.192 | 1,36 | 0,81 | 1,05 |
 | Arthur | Guerriero | UR | 1.052.453 | 1,34 | 0,82 | 1,05 |
-| Louis | Esploratore | UR | 1.044.341 | 1,31 | 0,83 | 1,05 |
+| Luigi | Esploratore | UR | 1.044.341 | 1,31 | 0,83 | 1,05 |
 | Ulfrid | Negromante | UR | 1.033.739 | 1,27 | 0,85 | 1,04 |
 | Billy | Negromante | UR | 980.246 | 1,05 | 0,97 | 1,01 |
 | Lucius | Guerriero | SSR | 778.239 | 0,9 | 0,54 | 0,7 |
@@ -172,7 +172,7 @@ Colpo d'Ascia · moltiplicatore di danno · 9º posto su 11
 | Eroe | Fazione | Abilità | Tipo di abilità | Danno, % dell'ATK | Area |
 |---|---|---|---|---|---|
 | Daskal | Guerriero | Volontà di Battaglia | Attacco Automatico | 996% | bersaglio singolo |
-| Louis | Esploratore | Catene | Attacco Automatico | 996% | bersaglio singolo |
+| Luigi | Esploratore | Catene | Attacco Automatico | 996% | bersaglio singolo |
 | Ulfrid | Negromante | Artiglio Affilato | Attacco Automatico | 996% | bersaglio singolo |
 | Arthur | Guerriero | Scudo da Battaglia | Attacco Automatico | 900% | bersaglio singolo |
 | Bella | Guerriero | Colpo d'Ascia | Attacco Automatico | 514,8% | bersaglio singolo |
@@ -197,7 +197,7 @@ Preghiera Cremisi · riduzione danni subiti · 1º posto su 15
 |---|---|---|---|---|---|
 | Bella | Guerriero | Preghiera Cremisi | Abilità Attiva | 45% | chi la lancia, solo mostri |
 | Griffith | Esploratore | Velo del Serpente | Abilità Definitiva | 39% | alleati, solo mostri |
-| Louis | Esploratore | Vincolo di Forza | Abilità Attiva | 36% | alleati |
+| Luigi | Esploratore | Vincolo di Forza | Abilità Attiva | 36% | alleati |
 | Billy | Negromante | Filo del Destino | Abilità Attiva | 36% | alleati |
 | Arthur | Guerriero | Sconquassatore | Abilità Definitiva | 35% | alleati |
 
@@ -209,7 +209,7 @@ Purezza · riduzione danni subiti · 13º posto su 15
 |---|---|---|---|---|---|
 | Bella | Guerriero | Preghiera Cremisi | Abilità Attiva | 45% | chi la lancia, solo mostri |
 | Griffith | Esploratore | Velo del Serpente | Abilità Definitiva | 39% | alleati, solo mostri |
-| Louis | Esploratore | Vincolo di Forza | Abilità Attiva | 36% | alleati |
+| Luigi | Esploratore | Vincolo di Forza | Abilità Attiva | 36% | alleati |
 | Billy | Negromante | Filo del Destino | Abilità Attiva | 36% | alleati |
 | Bella | Guerriero | Purezza | Abilità Passiva | 24% | chi la lancia, solo mostri |
 

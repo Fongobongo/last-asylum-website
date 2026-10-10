@@ -7,7 +7,7 @@ videoTopic: era
 calculators: ["claire-shards"]
 ---
 
-Diriliş Dönemi (Era of Revival), yaklaşık 120. günde gelen mevsimsel katmandır; temel oyunun üzerine kendi gelişim sistemlerini ekleyen yaklaşık iki aylık bir döngüdür: Lord Heykeli (Direnç ve Lord Evrimi), Uzmanlık ağaçları ve Elit Bela (Elite Blight).
+Diriliş Dönemi (Era of Revival), yaklaşık 120. günde gelen mevsimsel katmandır; temel oyunun üzerine kendi gelişim sistemlerini ekleyen yaklaşık iki aylık bir döngüdür: Lord Heykeli (Direnç ve Lord Evrimi), Uzmanlık ağaçları ve Elit Bela (Seçkin Vebalı).
 
 Sezon odaklanmayı ödüllendirir ve dikkatsizliği temel oyundan daha sert cezalandırır. Bu sayfa, günlük olarak neye öncelik vermeniz gerektiğini, harcama seviyenize hangi uzmanlık ağacının uyduğunu, sezon başlamadan önce neyi stoklamanız gerektiğini ve Claire SSR-UR dönüşümünün tüm matematiğini kapsar.
 
@@ -144,7 +144,7 @@ Tuzak: dönüştürdüğünüzde pasif takım buff'ı düşer. SSR'ın maksimuma
 
 ### Düşüşü Atlamak: Onur Salonu Stratejisi {#skip-the-dip}
 
-Dönüştürmeden **önce** Onur Salonu (Hall of Honor) seviyelerini hazırlayarak düşüşü tamamen atlayabilirsiniz:
+Dönüştürmeden **önce** Onur Salonu (Onur Salonu) seviyelerini hazırlayarak düşüşü tamamen atlayabilirsiniz:
 
 | Onur Salonu seviyesi | Dönüşüm sonucu |
 |---|---|

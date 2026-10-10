@@ -7,7 +7,7 @@ videoTopic: crystal
 type: event
 ---
 
-**Thung lũng Cụm Tinh thể** (Crystal Cluster Valley) là một sự kiện sinh tồn theo thời gian: bạn dành một khoảng thời gian cố định trên bản đồ chung để tiêu diệt các quái trung lập màu đỏ và khai thác tinh thể. Điểm số của bạn — chứ không phải số mạng hạ gục người chơi khác — mới quyết định hạng phần thưởng. Người chơi F2P (miễn phí) và đại gia nạp tiền (whales) xuất phát trên cùng một vạch đích; kỷ luật sẽ đánh bại ví tiền.
+**Thung lũng Cụm Tinh thể** (Thung Lũng Tinh Thể) là một sự kiện sinh tồn theo thời gian: bạn dành một khoảng thời gian cố định trên bản đồ chung để tiêu diệt các quái trung lập màu đỏ và khai thác tinh thể. Điểm số của bạn — chứ không phải số mạng hạ gục người chơi khác — mới quyết định hạng phần thưởng. Người chơi F2P (miễn phí) và đại gia nạp tiền (whales) xuất phát trên cùng một vạch đích; kỷ luật sẽ đánh bại ví tiền.
 
 ## Toán học Bảng điểm {#scoring}
 

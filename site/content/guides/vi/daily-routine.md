@@ -32,11 +32,11 @@ Mỗi độ khó gồm ba nhánh với hai mươi cấp độ. Hoàn thành toà
 
 ## Nhận lượt quay miễn phí
 
-Có nhiều lượt quay miễn phí hơn bạn tưởng, và tất cả đều làm mới hàng ngày: một lần gọi miễn phí trong Cuộc Chạm Trán Bất Ngờ (Surprise Encounter), một đồng xu miễn phí cho Vòng Quay May Mắn (Wishing Wheel), và một lượt quay miễn phí trong mỗi năm bể chiêu mộ, mỗi bể có bộ đếm thời gian riêng.
+Có nhiều lượt quay miễn phí hơn bạn tưởng, và tất cả đều làm mới hàng ngày: một lần gọi miễn phí trong Cuộc Chạm Trán Bất Ngờ (Cuộc Gặp Bất Ngờ), một đồng xu miễn phí cho Vòng Quay May Mắn (Vòng quay Kì nguyện), và một lượt quay miễn phí trong mỗi năm bể chiêu mộ, mỗi bể có bộ đếm thời gian riêng.
 
 ## Hoàn thành giai đoạn hiện tại
 
-Trận Chiến Sinh Tồn (Survival Battle) và Thầy Thuốc Hàng Đầu (Top Healer) chỉ tính điểm các hành động từ giai đoạn đang diễn ra, vì vậy tài nguyên được sử dụng theo lịch trình: tăng tốc trong giai đoạn xây dựng, năng lượng trong giai đoạn quạ, lượt quay chiêu mộ trong giai đoạn anh hùng.
+Trận Chiến Sinh Tồn (Chiến Sinh Tồn) và Thầy Thuốc Hàng Đầu (Bác Sĩ Hàng Đầu) chỉ tính điểm các hành động từ giai đoạn đang diễn ra, vì vậy tài nguyên được sử dụng theo lịch trình: tăng tốc trong giai đoạn xây dựng, năng lượng trong giai đoạn quạ, lượt quay chiêu mộ trong giai đoạn anh hùng.
 
 ## Các nhiệm vụ chiến lệnh (battle pass) yêu cầu nhiều nhất
 

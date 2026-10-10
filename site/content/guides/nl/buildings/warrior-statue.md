@@ -63,7 +63,7 @@ Elke held van de fractie krijgt de bonus, inclusief degene die op de bank zitten
 
 ## Hoe te gebruiken
 
-Het Krijgersstandbeeld wordt ontgrendeld op Heiligdom-niveau 7 (Sanctuary level 7), waar de bouwrij al bezet is. Het Onderzoekslab (Research Lab) heeft 349 dagen aan pure bouwtijd nodig, de Ziekenboeg (Infirmary) nog eens 299, en het standbeeld voegt daar nog eens 299 dagen en 4 uur aan toe. Alleen de Arena en het Ravenwoud (Raven Nest) gaan direct omhoog op dat niveau, dus het standbeeld wacht meestal tot het lab de rij vrijgeeft. Het volledig upgraden kost in totaal 1.276.808.885 Graan, 3.855.230.076 Hout en 813.779.100 Kruid.
+Het Krijgersstandbeeld wordt ontgrendeld op Heiligdom-niveau 7 (Sanctuary level 7), waar de bouwrij al bezet is. Het Onderzoekslab (Research Lab) heeft 349 dagen aan pure bouwtijd nodig, de Ziekenboeg (Infirmary) nog eens 299, en het standbeeld voegt daar nog eens 299 dagen en 4 uur aan toe. Alleen de Arena en het Ravenwoud (Ravennest) gaan direct omhoog op dat niveau, dus het standbeeld wacht meestal tot het lab de rij vrijgeeft. Het volledig upgraden kost in totaal 1.276.808.885 Graan, 3.855.230.076 Hout en 813.779.100 Kruid.
 
 Niveau 20 verdient speciale aandacht: het opent de Honorniveaus van de Krijgers en wordt bereikt na 13 dagen bouwen, minder dan vijf procent van de volledige 299. Alleen al die stap kost 14.890.000 Graan en 44.660.000 Hout, en vanaf Heiligdom-niveau 7 is dit eerder binnen bereik dan bij de andere twee standbeelden. De resterende tien niveaus kosten 286 dagen en verhogen de HP-bonus van 67.200 naar 151.500.
 

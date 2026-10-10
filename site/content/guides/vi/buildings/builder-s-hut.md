@@ -45,6 +45,6 @@ Lán Xây Dựng mất 199 ngày 10 giờ để hoàn thành, ít hơn bất k�
 
 Giá trị của lán nằm ở khoảng thời gian miễn phí, vốn tăng không đều. Cấp 20 đạt được sau 8 ngày 20 giờ và cung cấp 900 giây, tức một phần tư giờ. Năm phút đầu tiên đạt được ở cấp 10, sau 8 giờ 13 phút. Cấp 30 kéo dài khoảng thời gian này lên 1.800 giây, và một phần tư giờ đó tiêu tốn thêm 190 ngày 14 giờ, gấp hơn hai mươi lần so với lần đầu tiên.
 
-Bản thân khoảng thời gian này chỉ áp dụng cho các nâng cấp ngắn. Trên toàn thành phố, 192 bước nâng cấp trong tổng số 974 bước hoàn thành trong vòng nửa giờ, và chúng nằm ở các cấp độ công trình thấp: lán tự hoàn thành miễn phí các bước của chính nó lên đến cấp 6, Xưởng Giải độc (Antitoxin Workshop) lên đến cấp 8.
+Bản thân khoảng thời gian này chỉ áp dụng cho các nâng cấp ngắn. Trên toàn thành phố, 192 bước nâng cấp trong tổng số 974 bước hoàn thành trong vòng nửa giờ, và chúng nằm ở các cấp độ công trình thấp: lán tự hoàn thành miễn phí các bước của chính nó lên đến cấp 6, Xưởng Giải độc (Xưởng Kháng Độc) lên đến cấp 8.
 
-Sau đó, thời gian được rút ngắn bằng các phương tiện khác: sự trợ giúp từ đồng minh thông qua Hội Liên Minh (Alliance Hall) đạt 19 phút 40 giây cho một hàng chờ, và các hàng chờ xây dựng trả phí được bán từ 1,99 đô la. Do đó, lán thường được nâng lên cấp 20 sớm để lấy 900 giây và 37.100 Sức mạnh, trong khi mười cấp độ cuối cùng sẽ để lại sau.
+Sau đó, thời gian được rút ngắn bằng các phương tiện khác: sự trợ giúp từ đồng minh thông qua Hội Liên Minh (Trạm Liên Lạc Công Hội) đạt 19 phút 40 giây cho một hàng chờ, và các hàng chờ xây dựng trả phí được bán từ 1,99 đô la. Do đó, lán thường được nâng lên cấp 20 sớm để lấy 900 giây và 37.100 Sức mạnh, trong khi mười cấp độ cuối cùng sẽ để lại sau.

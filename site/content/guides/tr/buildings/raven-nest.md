@@ -1,18 +1,18 @@
 ---
-title: "Raven Nest: seviyeler, maliyet ve yükseltmeler"
-description: "Raven Nest, takımın altıncı savaşçısı olan ve en yüksek HP'ye sahip iki düşmana saldıran Raven'ı açar. İstatistiklerinin bir kısmı kahramanlara geçer. Seviye 110 hedeftir, becerisinin son yıldızı buraya gelir..."
+title: "Kuzgun Yuvası: seviyeler, maliyet ve yükseltmeler"
+description: "Kuzgun Yuvası, takımın altıncı savaşçısı olan ve en yüksek HP'ye sahip iki düşmana saldıran Raven'ı açar. İstatistiklerinin bir kısmı kahramanlara geçer. Seviye 110 hedeftir, becerisinin son yıldızı buraya gelir..."
 videoTopic: "buildings"
 lang: tr
 updated: "2026-09-19"
 type: guide
 ---
-![Raven Nest](/building-icons/5036.png)
+![Kuzgun Yuvası](/building-icons/5036.png)
 
 
 > Veriler oyun istemcisine göre doğrulanmıştır (v1.0.87, kaynak: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-raven-nest)).
 
 
-Raven Nest, takımın altıncı savaşçısı olan ve en yüksek HP'ye sahip iki düşmana saldıran Raven'ı açar. İstatistiklerinin bir kısmı kahramanlara geçer. Seviye 110 hedeftir, becerisinin son yıldızı buraya gelir. Bina, Sanctuary seviye 7'den sonra açılır ve seviye 1'e kadar yükselir. Yalnızca bir tane inşa edilebilir.
+Kuzgun Yuvası, takımın altıncı savaşçısı olan ve en yüksek HP'ye sahip iki düşmana saldıran Raven'ı açar. İstatistiklerinin bir kısmı kahramanlara geçer. Seviye 110 hedeftir, becerisinin son yıldızı buraya gelir. Bina, Sanctuary seviye 7'den sonra açılır ve seviye 1'e kadar yükselir. Yalnızca bir tane inşa edilebilir.
 
 | İstatistik | Değer |
 |---|---|
@@ -36,7 +36,7 @@ Bu bina herhangi bir istatistik bonusu vermez: yüzdeler yerine bir seçenek sun
 
 ## Nasıl kullanılır
 
-Raven Nest, 480 Tahıl ve 360 Odun maliyetlidir ve bir dakikanın altında yükselir, ancak tüm bir yükseltme hattını açar: takımın altıncı savaşçısı olan Raven. 13 saniyelik bir bekleme süresiyle en yüksek HP'ye sahip iki düşmana saldırır ve istatistiklerinin bir kısmı kahramanlara geçer.
+Kuzgun Yuvası, 480 Tahıl ve 360 Odun maliyetlidir ve bir dakikanın altında yükselir, ancak tüm bir yükseltme hattını açar: takımın altıncı savaşçısı olan Raven. 13 saniyelik bir bekleme süresiyle en yüksek HP'ye sahip iki düşmana saldırır ve istatistiklerinin bir kısmı kahramanlara geçer.
 
 Buradaki açılışların sırası tersine çevrilmiştir. Epigraph Atölyesi, yuvanın iki seviye öncesinde, Sanctuary seviye 5'te görünür, ancak Raven evrim seviye 10'a ulaşana ve kendi tam yükseltmesi 98 gün 20 saat sürene kadar boşta kalır. Raven Atölyesi ise geç gelir, Sanctuary seviye 15'te.
 

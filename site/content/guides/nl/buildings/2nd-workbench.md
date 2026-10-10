@@ -41,7 +41,7 @@ Het gebouw van niveau 1 naar 30 brengen kost Graan 4.524.713.384, Hout 4.524.713
 
 ## Hoe het te gebruiken
 
-De tweede onderzoeksrij opent op het eerste niveau van het gebouw, voor 89 Graan, 89 Hout en minder dan een minuut werk. De werkbank vraagt geen abonnement, in tegenstelling tot Squad 4 met zijn maandelijkse pas, dus op Heiligdom niveau 9 wordt deze direct geplaatst en de niveaus worden daarna toegevoegd.
+De tweede onderzoeksrij opent op het eerste niveau van het gebouw, voor 89 Graan, 89 Hout en minder dan een minuut werk. De werkbank vraagt geen abonnement, in tegenstelling tot Team 4 met zijn maandelijkse pas, dus op Heiligdom niveau 9 wordt deze direct geplaatst en de niveaus worden daarna toegevoegd.
 
 De onderzoekssnelheid groeit hier precies zoals bij het Onderzoekslaboratorium: 0,7% op niveau 1 en 15,1% op niveau 30. De tweede rij zelf werkt vanaf niveau 1, en twee van de 348 knooppunten in de technologieboom vorderen vanaf de eerste dag tegelijkertijd. De twee bonussen tellen bij elkaar op en een volledig uitgebouwd paar geeft 30,2%, hoewel het 349 dagen aan pure bouwtijd per gebouw kost, bijna twee jaar voor beide.
 

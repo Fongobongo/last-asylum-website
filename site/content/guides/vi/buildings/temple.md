@@ -6,7 +6,7 @@ lang: vi
 updated: "2026-09-19"
 type: guide
 ---
-![Temple](/building-icons/5053.png)
+![Miếu Thần](/building-icons/5053.png)
 
 
 > Dữ liệu được xác minh từ client trò chơi (v1.0.87, nguồn: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-temple)).

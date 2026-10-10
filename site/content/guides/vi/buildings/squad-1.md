@@ -6,7 +6,7 @@ lang: vi
 updated: "2026-09-19"
 type: guide
 ---
-![Squad 1](/building-icons/5013.png)
+![Đội 1](/building-icons/5013.png)
 
 
 > Dữ liệu đã được xác thực với client trò chơi (v1.0.87, nguồn: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-squad-1)).

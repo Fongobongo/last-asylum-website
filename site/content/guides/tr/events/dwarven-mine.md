@@ -7,7 +7,7 @@ videoTopic: dwarven
 type: event
 ---
 
-**Cüce Madeni (Dwarven Mine)**, yinelenen 7 günlük bir madencilik etkinliğidir: karoları kazmak için **Kazma (Pickaxes)** harcarsınız, kat atlamak için jackpot'lar bulursunuz ve etkinlik süresince **100 katı** temizleyen oyuncu en büyük ödülü alır — bir **MR donanım taslağı (MR gear blueprint)** (maksimum seviye donanım parçası). Tüm etkinlik başlamadan önce belirlenir: kim kazma biriktirdiyse kazanır, kim boş başlarsa yetişmek için gerçek para öder.
+**Cüce Madeni (Cüce Madeni)**, yinelenen 7 günlük bir madencilik etkinliğidir: karoları kazmak için **Kazma (Pickaxes)** harcarsınız, kat atlamak için jackpot'lar bulursunuz ve etkinlik süresince **100 katı** temizleyen oyuncu en büyük ödülü alır — bir **MR donanım taslağı (MR gear blueprint)** (maksimum seviye donanım parçası). Tüm etkinlik başlamadan önce belirlenir: kim kazma biriktirdiyse kazanır, kim boş başlarsa yetişmek için gerçek para öder.
 
 Bu rehber kazma kazancını, F2P biriktirme hedefini, ödül seçim stratejisini ve para tuzağının nerede olduğunu kapsar.
 
@@ -52,7 +52,7 @@ Her tırmanış, iki ödül çizgisi arasında seçim yapmanıza izin verir:
 
 ## Video İncelemesi: Kazmalarınızı Boşa Harcamayın! (KorpezGaming) {#video-breakdown-dwarf}
 
-KorpezGaming'den kat ilerleme taktikleri ve kazma matematiği ([DON'T Waste Your Pickaxes! Dwarven Mine Guide](https://youtu.be/WCIfyqH0vz0)):
+KorpezGaming'den kat ilerleme taktikleri ve kazma matematiği ([DON'T Waste Your Pickaxes! Cüce Madeni Guide](https://youtu.be/WCIfyqH0vz0)):
 
 | Zaman Damgası | Konu | Pratik Çıkarım |
 |---|---|---|

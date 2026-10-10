@@ -52,7 +52,7 @@ Các công nghệ thuộc nhánh này, giới hạn cấp độ và hiệu quả
 | Rally Defense | +10% | Tăng phòng thủ của Anh hùng khi tham gia tập kết cho các thành viên liên minh. |
 | Rally HP | +10% | Tăng HP của Anh hùng khi tham gia tập kết cho các thành viên liên minh. |
 | Troop Load | +10% | Tăng sức chứa quân cho các thành viên liên minh. |
-| Barracks Expansion | +5% | Tăng sức chứa doanh trại cho các thành viên liên minh. |
+| Doanh Trại Expansion | +5% | Tăng sức chứa doanh trại cho các thành viên liên minh. |
 | Coordinated Training | +5% | Giảm chi phí tài nguyên huấn luyện lính cho các thành viên liên minh. |
 | Fast Training | +5% | Tăng tốc độ huấn luyện lính cho các thành viên liên minh. |
 | Heal Aid | +5% | Giảm chi phí tài nguyên hồi phục quân cho các thành viên liên minh. |

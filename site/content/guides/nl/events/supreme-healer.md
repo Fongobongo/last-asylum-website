@@ -7,7 +7,7 @@ videoTopic: supreme_healer
 type: event
 ---
 
-Het evenement **Opperste Genezer (Top Healer)** is het voornaamste competitieve 7-daagse toernooi in Last Asylum: Plague. Het test je micromanagement, inventarisplanning en geduld met grondstoffen. In tegenstelling tot standaard pay-to-win sprints, wordt Opperste Genezer regelmatig gewonnen door strategische F2P- en low-spender-spelers die uithoudingsvermogen (Stamina), Valkenburg-missies (Falcon) en antigif goed oppotten, en versnellingen zorgvuldig bewaren en toewijzen aan de bijbehorende dagen.
+Het evenement **Opperste Genezer (Topgenezer)** is het voornaamste competitieve 7-daagse toernooi in Last Asylum: Plague. Het test je micromanagement, inventarisplanning en geduld met grondstoffen. In tegenstelling tot standaard pay-to-win sprints, wordt Opperste Genezer regelmatig gewonnen door strategische F2P- en low-spender-spelers die uithoudingsvermogen (Stamina), Valkenburg-missies (Falcon) en antigif goed oppotten, en versnellingen zorgvuldig bewaren en toewijzen aan de bijbehorende dagen.
 
 Deze gids bevat het volledige schema van 7 dagen, de exacte matrix voor de toewijzing van grondstoffen per dag, geavanceerde stapelmechanieken en hoe je dubbel kunt scoren met Overlevingsstrijd voor de beste mijlpaalkisten.
 

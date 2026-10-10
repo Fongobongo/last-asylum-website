@@ -170,7 +170,7 @@ I dodici eroi più forti del ruolo in base alla Potenza. La crescita è il molti
 | Annie | Mago | UR | 916.394 | 0,57 | 1,52 | 0,9 |
 | Cynthia | Ranger | UR | 916.153 | 0,64 | 1,39 | 0,92 |
 | Marlena | Guerriero | UR | 914.868 | 0,58 | 1,49 | 0,91 |
-| Red Lady | Ranger | UR | 913.583 | 0,6 | 1,45 | 0,91 |
+| Dama Rossa | Ranger | UR | 913.583 | 0,6 | 1,45 | 0,91 |
 | Joker | Mago | UR | 913.583 | 0,6 | 1,45 | 0,91 |
 | Grenwald | Mago | SSR | 690.773 | 0,35 | 1,09 | 0,59 |
 | Kesso | Guerriero | SSR | 686.515 | 0,42 | 0,94 | 0,61 |
@@ -198,7 +198,7 @@ Barattolo di caramelle · moltiplicatore di danno · 4° posto su 15
 | Eroe | Fazione | Abilità | Tipo di abilità | Danni, % di ATK | Area |
 |---|---|---|---|---|---|
 | Joker | Mago | asso di Joker | Abilità definitiva | 5.047,5% | bersaglio singolo |
-| Red Lady | Ranger | Rosa Cremisi | Abilità definitiva | 4.550,4% | bersaglio singolo |
+| Dama Rossa | Ranger | Rosa Cremisi | Abilità definitiva | 4.550,4% | bersaglio singolo |
 | Zoya | Guerriero | Cacciatore della Foresta | Abilità definitiva | 3.669,6% | bersaglio singolo |
 | Annie | Mago | Barattolo di caramelle | Abilità definitiva | 3.553,2% | bersaglio singolo |
 | Claire | Guerriero | Giudizio Celeste (avanzato) | Abilità definitiva | 3.486,6% | area |
@@ -209,13 +209,13 @@ Regalo a sorpresa · moltiplicatore di danno · 6° posto su 15
 
 | Eroe | Fazione | Abilità | Tipo di abilità | Danni, % di ATK | Area |
 |---|---|---|---|---|---|
-| Red Lady | Ranger | Massacro Sanguinario | Abilità attiva | 2.934% | bersaglio singolo |
+| Dama Rossa | Ranger | Massacro Sanguinario | Abilità attiva | 2.934% | bersaglio singolo |
 | Sivir | Guerriero | Colpo di Scudo | Abilità attiva | 1.887,6% | bersaglio singolo |
 | Grenwald | Mago | Incantesimo Spezzacuore | Abilità attiva | 1.841,4% | bersaglio singolo |
 | Cynthia | Ranger | Caccia Lunare | Abilità attiva | 1.800% | bersaglio singolo |
 | Annie | Mago | Regalo a sorpresa | Abilità attiva | 1.611% | area |
 
-Più forte: Red Lady, Massacro Sanguinario infligge il 2.934% dell'ATK su un bersaglio singolo.
+Più forte: Dama Rossa, Massacro Sanguinario infligge il 2.934% dell'ATK su un bersaglio singolo.
 
 ## Ordine di potenziamento
 
@@ -316,7 +316,7 @@ Guadagni derivanti da ciascun sistema di progressione preso singolarmente. Indic
 
 ## Come giocare
 
-Tra gli eroi DPS di rarità UR, solo Annie attiva un'abilità attiva ogni 4,5 secondi: Regalo a sorpresa si ricarica più rapidamente rispetto alle abilità di Zoya, Joker e Red Lady, che richiedono 5 secondi ciascuna. Barattolo di caramelle infligge il 3.553,2% contro i tre nemici con l'attacco più alto, un valore inferiore al 5.047,5% di Joker, ma lascia una scia di bruciatura pari al 100% dell'ATK al secondo.
+Tra gli eroi DPS di rarità UR, solo Annie attiva un'abilità attiva ogni 4,5 secondi: Regalo a sorpresa si ricarica più rapidamente rispetto alle abilità di Zoya, Joker e Dama Rossa, che richiedono 5 secondi ciascuna. Barattolo di caramelle infligge il 3.553,2% contro i tre nemici con l'attacco più alto, un valore inferiore al 5.047,5% di Joker, ma lascia una scia di bruciatura pari al 100% dell'ATK al secondo.
 
 Annie entra a far parte dell'elenco degli eroi il 14° giorno del server insieme a Joker, mentre il suo Risveglio si sblocca il 29° giorno della stagione, il terzo in ordine di tempo dopo Marlena e Cynthia. La sua Arma Esclusiva deve attendere il 190° giorno della stagione, e solo l'arma di Arthur si apre in un momento successivo. I suoi frammenti si ottengono dalla Statua del Mago al livello 20, ed è inoltre garantita nel terzo gruppo di reclutamento.
 

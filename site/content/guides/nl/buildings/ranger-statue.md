@@ -46,11 +46,11 @@ De prijs en tijd van elk vijfde level. De prijs groeit veel sneller dan de winst
 ## Helden die de bonus ontvangen
 
 Elke held van de fractie krijgt de bonus, inclusief degenen op de reservebank.
-- Shadow · UR
+- Schaduw · UR
 - Louis · UR
-- Bell · UR
+- Bel · UR
 - Cynthia · UR
-- Red Lady · UR
+- Rode Dame · UR
 - Griffith · SSR
 - Ash · SSR
 - Bestar · SSR

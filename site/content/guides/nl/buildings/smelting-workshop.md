@@ -1,18 +1,18 @@
 ---
-title: "Smelting Workshop: levels, kosten en verbeteringen"
-description: "De Smelting Workshop produceert Gearstones, het materiaal dat nodig is voor elke stap in het versterken van heldenuitrusting. De opslag kan tot twaalf uur…"
+title: "Smelterij: levels, kosten en verbeteringen"
+description: "De Smelterij produceert Gearstones, het materiaal dat nodig is voor elke stap in het versterken van heldenuitrusting. De opslag kan tot twaalf uur…"
 videoTopic: "buildings"
 lang: nl
 updated: "2026-09-19"
 type: guide
 ---
-![Smelting Workshop](/building-icons/5042.png)
+![Smelterij](/building-icons/5042.png)
 
 
 > Gegevens geverifieerd tegen de gameclient (v1.0.87, bron: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-smelting-workshop)).
 
 
-De Smelting Workshop produceert Gearstones, het materiaal dat nodig is voor elke stap in het versterken van heldenuitrusting. De output wordt tot twaalf uur lang opgeslagen, dus de workshops worden tweemaal per dag geleegd. Vijf workshops op niveau 30 leveren samen 310 Gearstones per uur op. Het gebouw wordt ontgrendeld na Sanctuary niveau 5 en kan tot niveau 30 worden verbeterd. Er kunnen er maximaal 5 worden gebouwd. Levels verhogen: Gearstone-output per uur en maximale productietijd.
+De Smelterij produceert Gearstones, het materiaal dat nodig is voor elke stap in het versterken van heldenuitrusting. De output wordt tot twaalf uur lang opgeslagen, dus de workshops worden tweemaal per dag geleegd. Vijf workshops op niveau 30 leveren samen 310 Gearstones per uur op. Het gebouw wordt ontgrendeld na Sanctuary niveau 5 en kan tot niveau 30 worden verbeterd. Er kunnen er maximaal 5 worden gebouwd. Levels verhogen: Gearstone-output per uur en maximale productietijd.
 
 | Statistiek | Waarde |
 |---|---|
@@ -45,6 +45,6 @@ Er kunnen tegelijkertijd vijf Smelting Workshops staan, en de bouwtijd ertussen 
 
 De tweede bonus, Maximale productietijd, groeit van 8 uur en 8 minuten naar 12 uur. Op niveau 20 slaat de opslag 10 uur en 40 minuten op, dus bij twee keer per dag legen staat de workshop een uur en twintig minuten stil. Een volledig vol opslag zonder verlies wordt pas op niveau 30 bereikt.
 
-De Weaving Workshop hiernaast kost dezelfde 99 dagen en 17 uur en levert bijna dezelfde Macht op (168.200 tegenover 168.300), maar produceert 91 items per uur tegenover 62 Gearstones. Dit tempoverschil komt door de goederen: Gearstones worden gebruikt voor het versterken van heldenuitrusting, terwijl stof dient als het laagste van de vijf crafting-materialen.
+De Weverij hiernaast kost dezelfde 99 dagen en 17 uur en levert bijna dezelfde Macht op (168.200 tegenover 168.300), maar produceert 91 items per uur tegenover 62 Gearstones. Dit tempoverschil komt door de goederen: Gearstones worden gebruikt voor het versterken van heldenuitrusting, terwijl stof dient als het laagste van de vijf crafting-materialen.
 
 Sanctuary niveau 5 ontgrendelt tien van dergelijke gebouwen tegelijk, vijf smelterijen en vijf weverijen, en een volledige upgrade van alle tien kost in totaal 997 dagen. Niveau 20 op alle tien past binnen 44 dagen, wat het punt is waarop de upgrade-wachtrij hier meestal wordt gestopt.

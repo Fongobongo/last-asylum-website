@@ -6,7 +6,7 @@ lang: it
 updated: "2026-09-19"
 type: guide
 ---
-![Squad 1](/building-icons/5013.png)
+![Squadra 1](/building-icons/5013.png)
 
 
 > Dati verificati con il client di gioco (v1.0.87, fonte: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-squad-1)).

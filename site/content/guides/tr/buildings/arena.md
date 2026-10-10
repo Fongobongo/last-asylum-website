@@ -36,7 +36,7 @@ Bu bina herhangi bir istatistik bonusu vermez: yüzdeler yerine bir seçenek sun
 
 ## Nasıl kullanılır
 
-Arena 480 Tahıl ve 360 Kereste maliyetindedir ve bir dakikadan kısa sürede tamamlanır. Kuzgun Yuvası (Raven Nest), Merak Salonu (Curio Hall), Kara Operasyonlar (Black Ops) ve Göçebe Tüccar (Nomad Trader) tam olarak aynı fiyata sahiptir, bu nedenle Sığınak 7. seviyede 840 kaynak hiçbir şeyi değiştirmez.
+Arena 480 Tahıl ve 360 Kereste maliyetindedir ve bir dakikadan kısa sürede tamamlanır. Kuzgun Yuvası (Kuzgun Yuvası), Merak Salonu (Nadide Salonu), Kara Operasyonlar (Gizli Operasyon) ve Göçebe Tüccar (Göçebe Tüccar) tam olarak aynı fiyata sahiptir, bu nedenle Sığınak 7. seviyede 840 kaynak hiçbir şeyi değiştirmez.
 
 Arena, şehirdeki diğer tüm binalardan daha hızlı bir şekilde kendini amorti eder. En düşük arenada bir galibiyet 50.000 Antitoksin, bir mağlubiyet ise 25.000 Antitoksin getirir; beş ücretsiz dövüş ise günde 250.000 Antitoksin eder. O ilk gün, maliyetinin neredeyse üç yüz katı kadar kaynak geri getirir ve sonraki her gün aynı ödemeyi yapar.
 

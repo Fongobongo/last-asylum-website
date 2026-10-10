@@ -36,10 +36,10 @@ Dit gebouw geeft geen stat-bonus: het ontgrendelt een optie in plaats van percen
 
 ## Hoe te gebruiken
 
-De Falcon Tower is de duurste van de instant-gebouwen: 720 Graan en 720 Hout, twee keer zoveel als de Nomad Trader kost en zes keer de prijs van het Explorer's Camp. Het brengt dezelfde 100 Might op, en geen van beide bedragen telt mee in het totaal van de stad.
+De Falcon Tower is de duurste van de instant-gebouwen: 720 Graan en 720 Hout, twee keer zoveel als de Nomaden\nhandelaar kost en zes keer de prijs van het Verkenners\nkamp. Het brengt dezelfde 100 Might op, en geen van beide bedragen telt mee in het totaal van de stad.
 
-De toren ontgrendelt op Sanctuary-niveau 6 samen met de Barracks, de Training Grounds en de Scout Squad, die tot niveau 30 stijgen en tussen de 199 en 299 dagen aan pure bouwtijd nodig hebben. De toren staat in seconden en beïnvloedt geen van die wachtrijen.
+De toren ontgrendelt op Sanctuary-niveau 6 samen met de Kazerne, de Oefenterrein en de Verkennings\nteam, die tot niveau 30 stijgen en tussen de 199 en 299 dagen aan pure bouwtijd nodig hebben. De toren staat in seconden en beïnvloedt geen van die wachtrijen.
 
 Zonder de toren blijven de wereldkaart, de chat en verkenning gesloten, en daarmee elke uitgang van het territorium. Falcon Quests komen van dezelfde plek, geven 8 uur de tijd voor voltooiing, en worden moeilijker naarmate het Sanctuary-niveau stijgt in plaats van met de toren. De toren is dus het eerste van de niveau 6-gebouwen dat moet worden gebouwd: totdat deze staat, hebben de troepen uit de barracks en de training grounds nergens buiten het territorium om te vechten.
 
-De verkenning die de toren opent, werkt samen met de Watchtower, die de eigen eenheden van een speler verbergt voor vijandelijke verkenners en twee niveaus later ontgrendelt, op 8. Tot die tijd is een buitenlands rapport over de stad volledig terwijl de Falcon Quests al lopen, dus de pauze tussen Sanctuary-niveaus 6 en 8 kan het beste kort worden gehouden. De toren heeft slechts één niveau, dus de 1.440 grondstoffen worden eenmalig uitgegeven en komen nooit meer terug naar dit gebouw.
+De verkenning die de toren opent, werkt samen met de Wachttoren, die de eigen eenheden van een speler verbergt voor vijandelijke verkenners en twee niveaus later ontgrendelt, op 8. Tot die tijd is een buitenlands rapport over de stad volledig terwijl de Falcon Quests al lopen, dus de pauze tussen Sanctuary-niveaus 6 en 8 kan het beste kort worden gehouden. De toren heeft slechts één niveau, dus de 1.440 grondstoffen worden eenmalig uitgegeven en komen nooit meer terug naar dit gebouw.

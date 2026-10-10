@@ -10,14 +10,14 @@ videoTopic: beginner
 
 Ervaren spelers wijzen op zeven kritieke vroege fouten die een account maanden kunnen vertragen:
 
-1. **Valstrikken in de Honor Shop (Honor Coins)**: Koop NOOIT curio-kisten of universele scherven in de Hall of Honor. **100% van je Honor Coins moet exclusief worden bewaard voor Gear Blueprints (UR)**. Blueprints zijn de ultieme barrière voor het promoten van oranje uitrusting, en de Honor Shop is hun enige betrouwbare gratis bron.
+1. **Valstrikken in de Honor Shop (Honor Coins)**: Koop NOOIT curio-kisten of universele scherven in de Erehal. **100% van je Honor Coins moet exclusief worden bewaard voor Gear Blueprints (UR)**. Blueprints zijn de ultieme barrière voor het promoten van oranje uitrusting, en de Honor Shop is hun enige betrouwbare gratis bron.
 2. **Ster-prioriteit: Marlena vóór Arthur**: Verspil geen vroege universele UR-scherven aan Arthur. Arthur functioneert prima op basissterren als defensieve tank. Marlena brengt ~85% van de totale AoE-gifschade van je team toe; haar naar rode sterren pushen versnelt de voortgang in de campagne exponentieel.
-3. **Smelting Workshop naar niveau 25 rushen**: De Smelting Workshop produceert en verfijnt Gear Stones. Als je het upgraden uitstelt, zullen je helden vastlopen in groene/blauwe uitrusting. Upgrade het onmiddellijk samen met het Sanctuary.
+3. **Smelterij naar niveau 25 rushen**: De Smelterij produceert en verfijnt Gear Stones. Als je het upgraden uitstelt, zullen je helden vastlopen in groene/blauwe uitrusting. Upgrade het onmiddellijk samen met het Sanctuary.
 4. **Focus op uitrustingsslots per rol**: Verdeel Gear Stones nooit gelijkmatig over alle 4 de slots!
    - Voor Carries (DPS): Maximaliseer **Wapen** (Zwaard) en **Handschoenen** voor Aanval en Crit. Laat Pantser op basisniveau.
    - Voor Tanks: Maximaliseer **Pantser** en **Laarzen** voor HP en Verdediging. **Verfijn nooit het wapen van een tank** (dit verhoogt de valse Might zonder hen te helpen overleven).
 5. **Behoud van Skill Badges**: Skill badges worden na week twee extreem schaars. Upgrade de vaardigheden van secundaire helden niet voorbij niveau 4. Investeer badges eerst in de ultimate en kern-passives van je hoofd-carry.
-6. **Training Grounds splitsing (1 Max + 3 Lv.10)**: Upgrade niet alle vier de Training Grounds naar het maximum! Maximaliseer slechts 1 ground voor je hoogste tier (T9/T10) en houd de andere 3 op niveau 10. Produceer in massa goedkope T4 op de 3 ondersteunende grounds en promoot ze op de hoofd-ground — dit bespaart 6–7 uur per trainingscyclus en miljoenen aan bouwkosten.
+6. **Oefenterrein splitsing (1 Max + 3 Lv.10)**: Upgrade niet alle vier de Oefenterrein naar het maximum! Maximaliseer slechts 1 ground voor je hoogste tier (T9/T10) en houd de andere 3 op niveau 10. Produceer in massa goedkope T4 op de 3 ondersteunende grounds en promoot ze op de hoofd-ground — dit bespaart 6–7 uur per trainingscyclus en miljoenen aan bouwkosten.
 7. **Alliance Duel Chest Lock (Super Reward 1 & 2)**: In het Research Lab zijn Duel-kisten tiers 4–6 en 7–9 fysiek vergrendeld totdat je *Super Reward 1* en *Super Reward 2* onderzoekt. Geef prioriteit aan deze tak direct na de basis Development-technologie.
 
 ## Veelvoorkomende vroege fouten {#mistakes}

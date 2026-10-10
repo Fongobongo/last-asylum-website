@@ -6,7 +6,7 @@ lang: nl
 updated: "2026-09-19"
 type: guide
 ---
-![Nomad Trader](/building-icons/5040.png)
+![Nomaden\nhandelaar](/building-icons/5040.png)
 
 
 > Gegevens geverifieerd tegen de gameklgetClient (v1.0.87, bron: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-nomad-trader)).

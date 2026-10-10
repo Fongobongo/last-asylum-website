@@ -60,9 +60,9 @@ Cá Biển kiếm được từ các mục tiêu hàng ngày thông thường c�
 
 - Tháp Falcon
 - Quái Vật Tài Nguyên
-- Quái vật Đột Biến Tinh Lực (Elite Blight)
-- Nhiệm Vụ Đen (Black Ops)
-- Quái vật Đột Biến Lang Thang (Wandering Blight)
+- Quái vật Đột Biến Tinh Lực (Zombie Tinh Anh)
+- Nhiệm Vụ Đen (Cục Bí Mật)
+- Quái vật Đột Biến Lang Thang (Zombie Lang Thang)
 
 Con số quan trọng: **GIỚI HẠN MỖI NGÀY 300 con cá**. Cày quá con số đó nghĩa là bạn đang đánh quái vô ích — bộ đếm sẽ dừng lại. Đạt 300 con, dừng lại, giữ lại thời gian. Số cá này dùng để cung cấp cho Đại Yến Tiệc, đó là lý do tại sao hai tab này kết hợp lại là cốt lõi F2P của toàn bộ sự kiện.
 

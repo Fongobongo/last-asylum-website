@@ -9,12 +9,12 @@ type: event
 
 **Yüce İyileştirici (Supreme Healer)** etkinliği, Last Asylum: Plague oyunundaki en büyük 7 günlük rekabetçi turnuvadır. Mikro yönetiminizi, envanter planlamanızı ve kaynak sabrınızı test eder. Standart öde-kazan sprintlerinin aksine Yüce İyileştirici, Dayanıklılık, Falcon görevleri, Antitoksin biriktiren ve hızlandırmaları eşleşen günlere dikkatle saklayıp tahsis eden F2P (ücretsiz oynayan) ve düşük bütçeli oyuncular tarafından rutin olarak kazanılır.
 
-Bu rehber, eksiksiz 7 günlük takvimi, tam günden güne kaynak dağılımı matrisini, gelişmiş biriktirme mekaniklerini ve en üst düzey dönüm noktası sandıkları için Hayatta Kalma Savaşı (Survival Battle) ile nasıl çift puan (double dip) kazanılacağını açıklar.
+Bu rehber, eksiksiz 7 günlük takvimi, tam günden güne kaynak dağılımı matrisini, gelişmiş biriktirme mekaniklerini ve en üst düzey dönüm noktası sandıkları için Hayatta Kalma Savaşı (Hayatta Kalma Savaşı) ile nasıl çift puan (double dip) kazanılacağını açıklar.
 
 > [!NOTE]
 > Etkinlik **Sığınak (Sanctuary) 6. seviyede** kilidi açılır ve arka arkaya gerçekleşen **7 ayrı yarışmadan** oluşur — her biri yalnızca kendi eylemlerini puanlar. Eylemlerin puan değerleri çok düzensizdir, bu yüzden önemli olan şey, şu anda devam eden yarışmadaki bir eylemin maliyetidir. **Elmas içeren paketler satın almak, yedi yarışmanın tamamında her 1 Elmas için 30 puan verir** — her zaman sayılan tek eylem budur. **Başlangıç:** Yeni sunucularda etkinlik, **sunucunun ömrünün ikinci Pazartesi günü** başlar ve 7 gün sürer (sunucu gençken her hafta tekrarlanır).
 >
-> Bu etkinliğin ikinci bir varyantı "Kaynak Toplama"nın yerini **"Kuzgun Geliştirme" (Raven Enhancement)** ile değiştirir: Bir Falcon görevi **1.350 puan** değerindedir ve **Kuzgun Özü (Raven Essence)** harcamak **300 puan** verir. Ödül eşikleri **180.000 puana** kadar çıkar (en üst eşik: 5 işe alım bileti).
+> Bu etkinliğin ikinci bir varyantı "Kaynak Toplama"nın yerini **"Kuzgun Geliştirme" (Kuzgun Geliştirme)** ile değiştirir: Bir Falcon görevi **1.350 puan** değerindedir ve **Kuzgun Özü (Raven Essence)** harcamak **300 puan** verir. Ödül eşikleri **180.000 puana** kadar çıkar (en üst eşik: 5 işe alım bileti).
 
 ---
 
@@ -195,9 +195,9 @@ Her blok 3 dönüm noktası sandığı içerir. Altın Sandık #3'ü temizlemek 
    * **"Teknoloji Araştır / Research Tech"** içeren Hayatta Kalma Savaşı bloğunu bekleyin.
    * Her iki etkinlikte de aynı anda puan kazanmak için araştırma hızlandırmalarını uygulayın.
 3. **4. Gün (Kahramanlar):**
-   * Biriktirdiğiniz işe alım biletlerini (150–250+) ve Beceri Rozetlerini kesinlikle **"Kahramanları Geliştir / Enhance Heroes"** bloğu sırasında açın.
+   * Biriktirdiğiniz işe alım biletlerini (150–250+) ve Beceri Rozetlerini kesinlikle **"Kahramanları Geliştir / Kahramanları Güçlendir"** bloğu sırasında açın.
 4. **5. Gün (Birlikler):**
-   * **"Asker Eğit / Train Soldiers"** bloğu sırasında toplu birim Terfileri gerçekleştirin.
+   * **"Asker Eğit / Asker Eğit"** bloğu sırasında toplu birim Terfileri gerçekleştirin.
    * ⚠️ **KRİTİK KURAL:** Hayatta Kalma Savaşında birlik eğitim puanları, süreölçer bittiğinde değil, **Eğit / Terfi et düğmesine dokunduğunuz tam anda** (kaynaklar düşüldüğünde) verilir! Belirlenen 4 saatlik pencere başlamadan asla birlik kuyruğu başlatmayın.
 5. **7. Gün (Final):**
    * 7. gün her eylemi puanladığı için aktif olan herhangi bir Hayatta Kalma Savaşı bloğu ikili etkinlik ilerlemesi sağlar.

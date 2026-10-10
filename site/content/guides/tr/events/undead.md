@@ -9,7 +9,7 @@ infographics: ["/infographics/undead-siege-guide-2.webp", "/infographics/undead-
 type: event
 ---
 
-Ölümsüz Kuşatması (Undead Siege), ittifak savunma etkinliğidir: Bütün ittifakınız **infekte dalgalarına** karşı saf tutar ve surlardaki kahramanlar savaşır. Her şeyden önce bu etkinliği belirleyen iki kural vardır: **kalkanlar işe yaramaz** ve bu **bir puan etkinliği değildir** — amaç savunabildiğiniz kadar çok dalga savunmaktır.
+Ölümsüz Kuşatması (Ölümsüz Kuşatması), ittifak savunma etkinliğidir: Bütün ittifakınız **infekte dalgalarına** karşı saf tutar ve surlardaki kahramanlar savaşır. Her şeyden önce bu etkinliği belirleyen iki kural vardır: **kalkanlar işe yaramaz** ve bu **bir puan etkinliği değildir** — amaç savunabildiğiniz kadar çok dalga savunmaktır.
 
 Bu rehber; kuşatmaların kilidinin nasıl açıldığını, zorluk merdivenini, hazırlıksız ittifakları yerle bir eden gizli çoklu birlik mekaniğini, ödülleri ve en yaygın yedi hatayı ele almaktadır.
 

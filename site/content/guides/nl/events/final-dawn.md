@@ -1,13 +1,13 @@
 ---
-title: "Final Dawn: 7-daagse basisvoortgangssprint"
-description: "Uitgebreide gids voor het cruciale 'Final Dawn'-evenement in de vroege game van Last Asylum: Plague: 4 opeenvolgende fasen (Fundamenten, Krachtsimulatie, Grote Push, Finale Push), prioriteitenmatrix en het bewaren van versnellers."
+title: "Laatste dageraad: 7-daagse basisvoortgangssprint"
+description: "Uitgebreide gids voor het cruciale 'Laatste dageraad'-evenement in de vroege game van Last Asylum: Plague: 4 opeenvolgende fasen (Fundamenten, Krachtsimulatie, Grote Push, Finale Push), prioriteitenmatrix en het bewaren van versnellers."
 lang: nl
 updated: "2026-09-14"
 videoTopic: final_dawn
 type: event
 ---
 
-Het **Final Dawn**-evenement is de definitieve ontwikkelingsmijlpaal van 7 dagen tijdens je vroege avontuur in Last Asylum: Plague. De primaire focus ligt op het versnellen van de kracht van je Toevluchtsoord en het gestaag ontgrendelen van gelaagde mijlpaalbeloningen: universele versnellers, enorme grondstofkisten, heldenfragmenten en essentiële uitrusting.
+Het **Laatste dageraad**-evenement is de definitieve ontwikkelingsmijlpaal van 7 dagen tijdens je vroege avontuur in Last Asylum: Plague. De primaire focus ligt op het versnellen van de kracht van je Toevluchtsoord en het gestaag ontgrendelen van gelaagde mijlpaalbeloningen: universele versnellers, enorme grondstofkisten, heldenfragmenten en essentiële uitrusting.
 
 Deze gids, opgesteld door veteraan-commandanten (oψsvge英俊的, Server K250), biedt een tactisch blauwdruk per fase voor het volledige tijdsschema van 7 dagen.
 
@@ -38,10 +38,10 @@ Deze gids, opgesteld door veteraan-commandanten (oψsvge英俊的, Server K250),
 
 ### Fase 4: Dag 7 — FINALE PUSH 🔥
 - **Kernfocus:** Mijlpalen controleren en alle resterende beloningen binnenhalen.
-- Controleer het dashboard van het Final Dawn-evenement om niet-behaalde mijlpaalgrenzen te identificeren.
+- Controleer het dashboard van het Laatste dageraad-evenement om niet-behaalde mijlpaalgrenzen te identificeren.
 - Maak resterende versnellers, Helden-EXP, Raaf-materialen en grondstofreserves te gelde.
 - Voltooi de specifieke upgrades die de meeste kracht per minuut opleveren.
-- **BELANGRIJK:** Claim elke afzonderlijke Final Dawn-mijlpaalkist voor de serverreset (00:00 Servertijd / 02:00 UTC)!
+- **BELANGRIJK:** Claim elke afzonderlijke Laatste dageraad-mijlpaalkist voor de serverreset (00:00 Servertijd / 02:00 UTC)!
 
 ---
 

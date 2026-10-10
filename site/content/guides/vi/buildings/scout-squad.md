@@ -6,7 +6,7 @@ lang: vi
 updated: "2026-09-19"
 type: guide
 ---
-![Scout Squad](/building-icons/5033.png)
+![Đội Trinh Sát](/building-icons/5033.png)
 
 
 > Dữ liệu được xác minh dựa trên client game (v1.0.87, nguồn: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-scout-squad)).

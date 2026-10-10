@@ -11,14 +11,14 @@ const lang: Lang = 'th';
 const base = lang === 'en' ? '' : `/${lang}`;
 ---
 
-<Base lang={lang} path="/th/codex/" title="Hero Codex" description="ฮีโร่คนสำคัญทุกคนใน Last Asylum: Plague — สกิล, การจัดบิลด์, บันทึกทีม และวิธีได้รับฮีโร่">
+<Base lang={lang} path="/th/codex/" title="Helden-Kodex" description="Jeder wichtige Held in Last Asylum: Plague — Skills, Builds, Team-Notizen und wie man ihn bekommt.">
   <GuidePage
-    title="📖 Hero Codex"
-    description="สกิล, ลำดับความสำคัญในการจัดบิลด์ และบันทึกทีมสำหรับฮีโร่ทุกคนที่สำคัญ — รวบรวมจากไกด์ของชุมชน"
+    title="📖 Helden-Kodex"
+    description="Skills, Build-Prioritäten und Team-Notizen für jeden Helden, der zählt — zusammengestellt aus den Community-Guides."
     lang={lang}
-    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/th/' }, { label: 'Hero Codex' }]}
+    breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/th/' }, { label: 'Helden-Kodex' }]}
   >
-    <p>แต่ละหน้าประกอบด้วย: บทบาท, วิธีได้รับฮีโร่, สกิลที่สำคัญจริงๆ, ลำดับความสำคัญในการจัดบิลด์ และทีมที่ฮีโร่ตัวนั้นปรากฏอยู่ <a href="/th/tier-list/">Tier List</a>.</p>
+    <p>แต่ละหน้าประกอบด้วย: บทบาท, วิธีได้รับฮีโร่, สกิลที่สำคัญจริงๆ, ลำดับความสำคัญในการจัดบิลด์ และทีมที่ฮีโร่ตัวนั้นปรากฏอยู่ สำหรับอันดับดูได้ที่ <a href="/th/tier-list/">Tier List</a>.</p>
 
     <CodexGrid heroes={heroCodex} lang={lang} base={base} />
 

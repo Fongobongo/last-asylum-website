@@ -7,7 +7,7 @@ videoTopic: survival
 type: event
 ---
 
-**Overlevingsstrijd** (Survival Battle) is het belangrijkste terugkerende missie-evenement in Last Asylum: Plague en dient als de financieel fundament voor gratis spelers (F2P): **ijverige F2P-spelers halen consistent wekelijks ongeveer 60.000 gratis Vaardigheidsbadges (Skill Badges)** op, samen met Overlevingszegels (Survival Seals).
+**Overlevingsstrijd** (Overlevingsstrijd) is het belangrijkste terugkerende missie-evenement in Last Asylum: Plague en dient als de financieel fundament voor gratis spelers (F2P): **ijverige F2P-spelers halen consistent wekelijks ongeveer 60.000 gratis Vaardigheidsbadges (Skill Badges)** op, samen met Overlevingszegels (Survival Seals).
 
 Vaardigheidsbadges vormen de permanente flessenhals in alle vaardigheidsbomen van helden. Deze gids behandelt de roterende fases van 4 uur, mijlpaalbeloningen en de naadloze coördinatie met de fases van het Alliantieduel.
 
@@ -79,7 +79,7 @@ Gebruik de volgende optimalisatie tijdens het 4-uurs blok voor Technologisch Ond
 > Tijdens Falcon Tower-taken (het trainen van de raaf) worden punten voor de Overlevingsstrijd **rechtstreeks toegekend voor het consumeren van energie (uithoudingsvermogen)** om doelwitten uit te schakelen! 
 
 * **De IJzeren Regel:** **Verbrand NOOIT Raafvruchten tijdens de Overlevingsstrijd!** Bewaar alle Raafvruchten voor maandag (Alliantieduel Fase 1).
-* **Hoe je de fase voltooit:** Voltooi de Raaf-fase 100% **via natuurlijke regeneratie, de twee gratis dagelijkse energierefills en energie-aankopen met diamanten (eerste 2 × 150, volgende 2 × 250)** — of een combinatie hiervan. Bewaar energiepotiondranken voor evenementen zoals Diefjacht (Thief Hunt). Dit zorgt voor maximale Vaardigheidsbadges zonder kostbare voorraden vruchten te verspillen.
+* **Hoe je de fase voltooit:** Voltooi de Raaf-fase 100% **via natuurlijke regeneratie, de twee gratis dagelijkse energierefills en energie-aankopen met diamanten (eerste 2 × 150, volgende 2 × 250)** — of een combinatie hiervan. Bewaar energiepotiondranken voor evenementen zoals Diefjacht (Dievenjacht). Dit zorgt voor maximale Vaardigheidsbadges zonder kostbare voorraden vruchten te verspillen.
 
 ---
 
@@ -121,7 +121,7 @@ Een opvallende mijlpaal met een hoog rendement levert precies op bij **30 Rekrut
 
 ## 🎬 Videogids: Overlevingsstrijd Uiteengezet door KorpezGaming {#video-guide}
 
-De complete video-uitleg door maker **KorpezGaming** is hieronder ingesloten en toegankelijk via [The Secret to 60K FREE Skill Badges | Ultimate Survival Battle Guide](https://youtu.be/akt3OGeHXgY).
+De complete video-uitleg door maker **KorpezGaming** is hieronder ingesloten en toegankelijk via [The Secret to 60K FREE Skill Badges | Ultimate Overlevingsstrijd Guide](https://youtu.be/akt3OGeHXgY).
 
 ### Belangrijkste Tijdstempels & Inzichten:
 * `00:00` — **De F2P-basis van 60K Gratis Vaardigheidsbadges:** Waarom dagelijkse Overlevingsstrijd de belangrijkste routine is voor de voortgang van helden.

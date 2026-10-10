@@ -35,7 +35,7 @@ Ash is een SSR-ranger die als DPS speelt. Volledig geüpgraded bereikt ze 685.87
 
 Rol: Een ranger-DPS die haar gelijken versterkt, aangezien de passieve vaardigheid Focus 33% monsterprijsschade toevoegt voor twee rangers bij 50 sterren. Zonder sterren en vaardigheidslevels is de bonus 12,3%, en deze gaat naar de twee rangers met de hoogste aanvalskracht in het team, waardoor Ash met name loont in een ranger-opstelling. Haar eigen slag, Adelaarsgeestjacht, brengt 2.798,4% van de ATK toe aan een enkel doelwit.
 
-Investering waard: Ash staat op de negende plaats van de zestien DPS-helden qua maximale Kracht (685.873) en bevindt zich in tier B. Ze behoort tot het beste ranger-team dat zonder UR-helden kan worden gebouwd, dus vroege investering loont, en zodra Cynthia of Red Lady beschikbaar komt, gaat de plek in de eerste vijf naar hen.
+Investering waard: Ash staat op de negende plaats van de zestien DPS-helden qua maximale Kracht (685.873) en bevindt zich in tier B. Ze behoort tot het beste ranger-team dat zonder UR-helden kan worden gebouwd, dus vroege investering loont, en zodra Cynthia of Rode Dame beschikbaar komt, gaat de plek in de eerste vijf naar hen.
 
 ## Vaardigheden
 
@@ -157,7 +157,7 @@ De twaalf sterkste helden van de rol op basis van Kracht. Groei is de persoonlij
 | Annie | Warlock | UR | 916.394 | 0,57 | 1,52 | 0,9 |
 | Cynthia | Ranger | UR | 916.153 | 0,64 | 1,39 | 0,92 |
 | Marlena | Warrior | UR | 914.868 | 0,58 | 1,49 | 0,91 |
-| Red Lady | Ranger | UR | 913.583 | 0,6 | 1,45 | 0,91 |
+| Rode Dame | Ranger | UR | 913.583 | 0,6 | 1,45 | 0,91 |
 | Joker | Warlock | UR | 913.583 | 0,6 | 1,45 | 0,91 |
 | Grenwald | Warlock | SSR | 690.773 | 0,35 | 1,09 | 0,59 |
 | Kesso | Warrior | SSR | 686.515 | 0,42 | 0,94 | 0,61 |
@@ -185,7 +185,7 @@ Adelaarsgeestjacht · schademultiplicator · rang 8 van 15
 | Held | Faction | Vaardigheid | Vaardigheidstype | DMG, % van ATK | Gebied |
 |---|---|---|---|---|---|
 | Joker | Warlock | Joker Aas | Ultieme vaardigheid | 5.047,5% | enkel doelwit |
-| Red Lady | Ranger | Bloeddorstige Slachting | Ultieme vaardigheid | 4.550,4% | enkel doelwit |
+| Rode Dame | Ranger | Bloeddorstige Slachting | Ultieme vaardigheid | 4.550,4% | enkel doelwit |
 | Zoya | Warrior | Bosjager | Ultieme vaardigheid | 3.669,6% | enkel doelwit |
 | Annie | Warlock | Snoeppot | Ultieme vaardigheid | 3.553,2% | enkel doelwit |
 | Ash | Ranger | Adelaarsgeestjacht | Ultieme vaardigheid | 2.798,4% | enkel doelwit |
@@ -196,13 +196,13 @@ Twee vliegen in één klap · schademultiplicator · rang 7 van 15
 
 | Held | Faction | Vaardigheid | Vaardigheidstype | DMG, % van ATK | Gebied |
 |---|---|---|---|---|---|
-| Red Lady | Ranger | Bloeddorstige Slachting | Actieve vaardigheid | 2.934% | enkel doelwit |
+| Rode Dame | Ranger | Bloeddorstige Slachting | Actieve vaardigheid | 2.934% | enkel doelwit |
 | Sivir | Warrior | Schildeval | Actieve vaardigheid | 1.887,6% | enkel doelwit |
 | Grenwald | Warlock | Hartbreker-spreuk | Actieve vaardigheid | 1.841,4% | enkel doelwit |
 | Cynthia | Ranger | Maanjacht | Actieve vaardigheid | 1.800% | enkel doelwit |
 | Ash | Ranger | Twee vliegen in één klap | Actieve vaardigheid | 1.584% | enkel doelwit |
 
-Sterker: Red Lady, Bloeddorstige Slachting raakt voor 2.934% van de ATK op een enkel doelwit.
+Sterker: Rode Dame, Bloeddorstige Slachting raakt voor 2.934% van de ATK op een enkel doelwit.
 
 ## Upgradevolgorde
 
@@ -282,7 +282,7 @@ Winst uit elk voortgangssysteem op zichzelf. Dit toont aan waar je als eerste in
 
 Ash draagt 685.873 Kracht, de negende van zestien en 80 meer dan Bestar. Adelaarsgeestjacht brengt 2.798,4% toe op een enkel doelwit, de grootste ultieme vaardigheid onder de SSR-helden van de rol, waar Claire 2.266,29% en Grenwald 2.044,65% haalt. Schade in een gebied is wat ze daarentegen mist, en Twee vliegen in één klap treft twee willekeurige doelwitten.
 
-SSR-helden hebben geen leeftijdsvereiste voor de server, dus Ash is vanaf dag één beschikbaar. Ze behoudt haar plek zolang de UR-rangers buiten bereik zijn: Cynthia arriveert op serverdag 7 en Red Lady op dag 35. De passieve Focus versterkt de twee rangers met de hoogste ATK, dus een deel van de waarde gaat verloren in een gemengde opstelling.
+SSR-helden hebben geen leeftijdsvereiste voor de server, dus Ash is vanaf dag één beschikbaar. Ze behoudt haar plek zolang de UR-rangers buiten bereik zijn: Cynthia arriveert op serverdag 7 en Rode Dame op dag 35. De passieve Focus versterkt de twee rangers met de hoogste ATK, dus een deel van de waarde gaat verloren in een gemengde opstelling.
 
 Haar plafond rust puur op levels en sterren, aangezien SSR-helden geen ontwaking of wapen krijgen: 961.611 HP en 14.695 ATK, waarvan sterren 213.663 en 3.264 bijdragen. Focus staat op 24% tot de twintigste ster, en vanaf daar brengen drie stappen van 3% bij de twintigste, vijfenveertigste en vijftigste ster het naar 33%.
 

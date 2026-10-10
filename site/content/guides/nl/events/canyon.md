@@ -1,5 +1,5 @@
 ---
-title: "Canyon Conquest: Baanstrategie"
+title: "Ravijnverovering: Baanstrategie"
 description: "De estafettegevechten over drie banen waarin uithoudingsvermogen wint van pure kracht: de estafetteregels, de limiet van 3 gevechten, de baanprioriteitsstrategie, bekende bugs en waarom dit het beste evenement zonder risico in de game is."
 lang: nl
 updated: "2026-09-03"
@@ -9,7 +9,7 @@ infographics: []
 type: event
 ---
 
-Canyon Conquest is de **alliantie-baanstrijd**: drie banen, en de alliantie die **2 van de 3 banen** wint, pakt de overwinning. Maar het format is een **estafette** — de zwakste spelers vechten als eerste, en een speler **blijft in de baan tot hij verliest**. Begrijpen wat die estafette doet met je opstellingsstrategie is de kern van het hele evenement.
+Ravijnverovering is de **alliantie-baanstrijd**: drie banen, en de alliantie die **2 van de 3 banen** wint, pakt de overwinning. Maar het format is een **estafette** — de zwakste spelers vechten als eerste, en een speler **blijft in de baan tot hij verliest**. Begrijpen wat die estafette doet met je opstellingsstrategie is de kern van het hele evenement.
 
 Deze gids behandelt de estafetteregels, de beloningsstructuur, de baanprioriteitsstrategie met de belangrijkste varianten, de bekende bugs en waarom dit het veiligste evenement in de game is.
 
@@ -60,7 +60,7 @@ Geen enkele opstelling is fout in een vacuüm. De juiste inschatting: **kijk wie
 
 ## Waarom dit het beste evenement zonder risico is {#why-zero-risk}
 
-Canyon Conquest kent **geen troepenverlies, geen resourcerisico en geen echte uithoudingsvermogenkosten** — in tegenstelling tot [KvK](/nl/events/kvk/), waar een onbeschermde stad brandt. Je vecht met geleende toernooikracht, je echte leger blijft onbeschadigd thuis. Dat maakt dit een van de **beste evenementen voor veilige beloningen** in de game: kom opdagen, registreer, vecht je drie gevechten, innen maar.
+Ravijnverovering kent **geen troepenverlies, geen resourcerisico en geen echte uithoudingsvermogenkosten** — in tegenstelling tot [KvK](/nl/events/kvk/), waar een onbeschermde stad brandt. Je vecht met geleende toernooikracht, je echte leger blijft onbeschadigd thuis. Dat maakt dit een van de **beste evenementen voor veilige beloningen** in de game: kom opdagen, registreer, vecht je drie gevechten, innen maar.
 
 De enige echte kosten zijn aandacht voor de opstelling — en de estafetteregels hierboven vormen de hele opstellingsmeta.
 

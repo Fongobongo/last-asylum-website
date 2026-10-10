@@ -123,7 +123,7 @@ Eğer katılım gösterirseniz, ücretsiz oynayanlar için epigraf geliri gerçe
 2. **Cynthia Dilek Çarkı için 8. güne kadar biriktirin** — 7 ücretsiz günlük çevirme + 10'lu çevirme dönüm noktası (10 parça = tam kopya) gerçek maliyetin ek çevirmelerde ~1.500 elmas olduğu anlamına gelir. Dönüm noktasından sonra durun.
 3. **15. günden sonra Joker'in çarkı için biriktirin** — UR PvP bitirici etkinliği. Orta oyun elmas rezervi bunun için var.
 4. **Asla standart işe alıma elmas dökmeyin.** Oran artışı afişlerini bekleyin — aynı para birimi, daha iyi kahramanlar.
-5. **Deep Sea's Gift gibi kümülatif elmas harcama dönüm noktalarını kovalamayın.** Sırf bir ödül eşiğini geçmek için elmas harcamak, değeri değil dönüm noktasını satın almaktır.
+5. **Derin Denizin Hediyesi gibi kümülatif elmas harcama dönüm noktalarını kovalamayın.** Sırf bir ödül eşiğini geçmek için elmas harcamak, değeri değil dönüm noktasını satın almaktır.
 
 ### En İyi Paketler ($20-200 Aralığı) {#best-packs}
 

@@ -20,7 +20,7 @@ infographics: ["/infographics/skill-scaling.webp"]
 |---|---|---|---|
 | 输出 (DPS) | 武器 (剑) | 手套 | 攻击力 + 暴击率提升伤害；胸甲可以保持低等级（战力回报低） |
 | 坦克 | 胸甲 | 靴子 | 生命值/防御力保持前排生存；**切勿在坦克的武器上花费装备石** |
-| 输出顺序 (Annie / Joker) | 剑 → 手套 → 靴子 → 护甲 | | DPS 输出角色的社区共识顺序 |
+| 输出顺序 (安妮 / 小丑) | 剑 → 手套 → 靴子 → 护甲 | | DPS 输出角色的社区共识顺序 |
 
 > [!WARNING] 坦克武器陷阱（虚战力）
 > 用装备石精炼坦克的剑会虚增你档案中的可见战力，但在**实际战斗中几乎没有任何实质帮助**。坦克靠生存和承伤赢得战斗，而不是靠普攻挥砍。不要把稀缺的装备石浪费在坦克武器上——把它们直接用在输出英雄的剑和手套上！同理，也不要过度投资输出英雄的胸甲——微薄的防御提升无法拯救脆皮。
@@ -56,28 +56,28 @@ infographics: ["/infographics/skill-scaling.webp"]
 
 - **UR 胸甲**提供防御力和**物理伤害减免**。
 - **UR 靴子**提供防御力、生命值和**能量伤害减免**。
-- **版本陷阱：** 《Last Asylum》中绝大多数顶级输出英雄（**Marlena、Cynthia、Annie** 以及整个术士阵营）主要通过其终极技能和核心技能造成**能量伤害**。只有 Joker 和 Raven 能造成可观的物理伤害。
+- **版本陷阱：** 《Last Asylum》中绝大多数顶级输出英雄（**玛莲娜、辛西娅、安妮** 以及整个术士阵营）主要通过其终极技能和核心技能造成**能量伤害**。只有 小丑 和 Raven 能造成可观的物理伤害。
 - 将靴子进阶到 **2 星**会解锁高达 **+30% 的能量伤害减免**，在 PvP 和竞技场中保护你的输出和前排免遭秒杀。相比之下，胸甲在当前版本环境下提供的战斗防御微乎其微——将护甲保留在 40 级以获取基础属性即可，切勿浪费稀缺的图纸在早期为其升星。
 
 ## 三阶段图纸与星级规划：45 张图纸 (Korpez) {#three-stage-gear-plan}
 
 UR 装备图纸是游戏中最为稀缺的进度瓶颈。为了避免将它们浪费在低收益的部件上，请遵循社区标准的 3 阶段图纸规划（大致跨越 6 个月的专注零氪成长周期）。完美武装你的主力行军队列总共需要正好 **45 张图纸**：
 
-### 第 1 阶段：主力输出 (Marlena / Cynthia / Annie)
+### 第 1 阶段：主力输出 (玛莲娜 / 辛西娅 / 安妮)
 你的核心伤害制造者必须在爆发伤害中存活下来才能carry战斗。
 1. **武器 (剑) → 3 星**（尽可能高的等级）：带来改变战局的攻击力和暴击率暴涨。
 2. **靴子 → 2 星**：解锁 **+30% 能量伤害减免**，使你的输出英雄在面对敌方后排核爆时存活。
 3. **手套 → 2 星**：解锁 **+2% 全伤害减免** 和可观的攻击力提升。
 4. **胸甲 → 0 星**：用装备石升到 40 级以获取纯粹的基础生命值，但切勿在上面花费图纸升星。
 
-### 第 2 阶段：主力坦克 (Billy / Duskoll / Arthur / Louis)
+### 第 2 阶段：主力坦克 (比利 / Duskoll / 亚瑟 / 路易斯)
 前排的唯一职责是吸引仇恨和吸收伤害。
 1. **胸甲 → 40 级，0 星**：严格为了基础护甲和生命值而穿戴。
 2. **靴子 → 20 级，2 星**：提供 +30% 能量伤害减免，防止坦克在面对魔法和能量爆发时被瞬间融化。
 3. **武器 (剑) → 0 星，0 石头**：坦克造成的普攻伤害微乎其微；在坦克的武器上花费石头或图纸纯粹是浪费战力。
-> **关键例外 — Louis：** Louis 的自我治疗和续航能力直接根据他的**攻击力**进行缩放！如果你的主力坦克是 Louis，他会独特地受益于升级后的手套和剑。
+> **关键例外 — 路易斯：** 路易斯 的自我治疗和续航能力直接根据他的**攻击力**进行缩放！如果你的主力坦克是 路易斯，他会独特地受益于升级后的手套和剑。
 
-### 第 3 阶段：副输出 / 半辅助 (Joker / Zoya / Red Lady)
+### 第 3 阶段：副输出 / 半辅助 (小丑 / 卓雅 / 红夫人)
 你的副输出负责收割残局并施加减益效果。
 1. **剑 → 2 星**
 2. **手套 → 2 星**
@@ -97,7 +97,7 @@ KorpezGaming 带来的关于装备打造、材料熔合、淬炼钢转化以及�
 | **4:17** | SSR 手套 PvE 技巧 | 保留 30 级 SSR 手套用于世界首领（+12% 怪物伤害），随后在 PvP 时切回 UR 手套。 |
 | **5:32** | 护甲 vs 靴子陷阱 | 护甲抵抗物理伤害（版本中罕见），而靴子抵抗能量伤害（+30% 能量抗性）。 |
 | **8:13** | 第 1 阶段：主力输出 | 3星剑，2星靴（+30% 能量抗性），2星手套。 |
-| **9:20** | 第 2 阶段：坦克与 Louis 秘密 | 坦克剑不放石头，靴子 2 星。Louis 是唯一需要手套来支撑治疗的例外。 |
+| **9:20** | 第 2 阶段：坦克与 路易斯 秘密 | 坦克剑不放石头，靴子 2 星。路易斯 是唯一需要手套来支撑治疗的例外。 |
 | **10:40** | 第 3 阶段：副输出（45 张图纸） | 副输出配置（2星剑、手套、靴子）。零氪的精确图纸经济学。 |
 
 ## Boss 战装备（恶魔之王） {#boss-gear}
@@ -229,21 +229,21 @@ KorpezGaming 带来的关于装备打造、材料熔合、淬炼钢转化以及�
 ## 谁拥有它
 
 每位拥有者携带不同的武器，拥有其专属的名字和专属的加成组合。
-- Shadow: 幻影匕首 (Phantom Dagger)
-- Daskal: 赤红巨剑 (Crimson Greatsword)
-- Arthur: 石质之盾 (Stone Shield)
-- Louis: 荆棘镣铐 (Thorn Shackles)
-- Ulfrid: 狼神之爪 (Wolven Claw)
-- Billy: 木偶骨架 (Puppet Frame)
-- Harper: 吟游诗人之角 (Bard's Horn)
-- Bell: 微型战鼓 (Tiny Drum)
-- Nicole: 烈焰披风 (Flame Cloak)
-- Zoya: 森林之刃 (Forest Blade)
-- Annie: 糖果法杖 (Candy Wand)
-- Cynthia: 月光之刃 (Moon Blade)
-- Marlena: 赤红之剑 (Crimson Sword)
-- Red Lady: 赤红锋刃 (Crimson Edge)
-- Joker: 幻术卡牌 (Illusion Card)
+- 影: 幻影匕首 (虚影匕首)
+- 达斯卡尔: 赤红巨剑 (鲜血巨刃)
+- 亚瑟: 石质之盾 (磐石坚盾)
+- 路易斯: 荆棘镣铐 (荆棘镣铐)
+- 乌尔弗雷德: 狼神之爪 (狼族利爪)
+- 比利: 木偶骨架 (提线木架)
+- 哈珀: 吟游诗人之角 (吟游号角)
+- 贝尔: 微型战鼓 (灵动小鼓)
+- 妮可: 烈焰披风 (烈焰斗篷)
+- 卓雅: 森林之刃 (森林木刀)
+- 安妮: 糖果法杖 (糖果魔杖)
+- 辛西娅: 月光之刃 (圣洁月刃)
+- 玛莲娜: 赤红之剑 (猩红佩剑)
+- 红夫人: 赤红锋刃 (赤红利刃)
+- 小丑: 幻术卡牌 (幻术卡牌)
 
 ## 链接至此的页面
 
@@ -251,35 +251,35 @@ KorpezGaming 带来的关于装备打造、材料熔合、淬炼钢转化以及�
 - 试炼 (/zh/trials/)
 - 内容：英雄、军队、活动与消耗 (/zh/contents/)
 - 英雄装备：品质、部位与战力 (/zh/wiki/hero-gear/)
-- Claire (Advanced): 技能、升级与战力 (/zh/heroes/claire-advanced/)
-- Nicole: 技能、升级与战力 (/zh/heroes/nicole/)
-- Joker: 技能、升级与战力 (/zh/heroes/joker/)
-- Annie: 技能、升级与战力 (/zh/heroes/annie/)
-- Ulfrid: 技能、升级与战力 (/zh/heroes/ulfrid/)
-- Billy: 技能、升级与战力 (/zh/heroes/billy/)
-- Bell: 技能、升级与战力 (/zh/heroes/bell/)
-- Red Lady: 技能、升级与战力 (/zh/heroes/red-lady/)
-- Cynthia: 技能、升级与战力 (/zh/heroes/cynthia/)
-- Louis: 技能、升级与战力 (/zh/heroes/louis/)
-- Shadow: 技能、升级与战力 (/zh/heroes/shadow/)
-- Zoya: 技能、升级与战力 (/zh/heroes/zoya/)
-- Harper: 技能、升级与战力 (/zh/heroes/harper/)
-- Daskal: 技能、升级与战力 (/zh/heroes/daskal/)
-- Ash: 技能、升级与战力 (/zh/heroes/ash/)
-- William: 技能、升级与战力 (/zh/heroes/william/)
-- Durant: 技能、升级与战力 (/zh/heroes/durant/)
-- Robin: 技能、升级与战力 (/zh/heroes/robin/)
-- Kafa: 技能、升级与战力 (/zh/heroes/kafa/)
-- Hastar: 技能、升级与战力 (/zh/heroes/hastar/)
-- Marlena: 技能、升级与战力 (/zh/heroes/marlena/)
-- Bestar: 技能、升级与战力 (/zh/heroes/bestar/)
-- Grenwald: 技能、升级与战力 (/zh/heroes/grenwald/)
-- Claire: 技能、升级与战力 (/zh/heroes/claire/)
-- Bella: 技能、升级与战力 (/zh/heroes/bella/)
-- Sivir: 技能、升级与战力 (/zh/heroes/sivir/)
-- Griffith: 技能、升级与战力 (/zh/heroes/griffith/)
-- Stellar: 技能、升级与战力 (/zh/heroes/stellar/)
-- Lucius: 技能、升级与战力 (/zh/heroes/lucius/)
-- Celia: 技能、升级与战力 (/zh/heroes/celia/)
-- Kesso: 技能、升级与战力 (/zh/heroes/kesso/)
-- Arthur: 技能、升级与战力 (/zh/heroes/arthur/)
+- 克蕾雅 (Advanced): 技能、升级与战力 (/zh/heroes/claire-advanced/)
+- 妮可: 技能、升级与战力 (/zh/heroes/nicole/)
+- 小丑: 技能、升级与战力 (/zh/heroes/joker/)
+- 安妮: 技能、升级与战力 (/zh/heroes/annie/)
+- 乌尔弗雷德: 技能、升级与战力 (/zh/heroes/ulfrid/)
+- 比利: 技能、升级与战力 (/zh/heroes/billy/)
+- 贝尔: 技能、升级与战力 (/zh/heroes/bell/)
+- 红夫人: 技能、升级与战力 (/zh/heroes/red-lady/)
+- 辛西娅: 技能、升级与战力 (/zh/heroes/cynthia/)
+- 路易斯: 技能、升级与战力 (/zh/heroes/louis/)
+- 影: 技能、升级与战力 (/zh/heroes/shadow/)
+- 卓雅: 技能、升级与战力 (/zh/heroes/zoya/)
+- 哈珀: 技能、升级与战力 (/zh/heroes/harper/)
+- 达斯卡尔: 技能、升级与战力 (/zh/heroes/daskal/)
+- 艾希: 技能、升级与战力 (/zh/heroes/ash/)
+- 威廉姆斯: 技能、升级与战力 (/zh/heroes/william/)
+- 杜兰特: 技能、升级与战力 (/zh/heroes/durant/)
+- 罗宾: 技能、升级与战力 (/zh/heroes/robin/)
+- 卡法: 技能、升级与战力 (/zh/heroes/kafa/)
+- 哈斯塔: 技能、升级与战力 (/zh/heroes/hastar/)
+- 玛莲娜: 技能、升级与战力 (/zh/heroes/marlena/)
+- 贝斯特: 技能、升级与战力 (/zh/heroes/bestar/)
+- 格林德沃: 技能、升级与战力 (/zh/heroes/grenwald/)
+- 克蕾雅: 技能、升级与战力 (/zh/heroes/claire/)
+- 贝拉: 技能、升级与战力 (/zh/heroes/bella/)
+- 希维尔: 技能、升级与战力 (/zh/heroes/sivir/)
+- 格里菲斯: 技能、升级与战力 (/zh/heroes/griffith/)
+- 星缀: 技能、升级与战力 (/zh/heroes/stellar/)
+- 卢修斯: 技能、升级与战力 (/zh/heroes/lucius/)
+- 希莉亚: 技能、升级与战力 (/zh/heroes/celia/)
+- 凯索: 技能、升级与战力 (/zh/heroes/kesso/)
+- 亚瑟: 技能、升级与战力 (/zh/heroes/arthur/)

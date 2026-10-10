@@ -6,7 +6,7 @@ lang: zh
 updated: "2026-09-19"
 type: guide
 ---
-![Monument](/building-icons/5038.png)
+![纪念碑](/building-icons/5038.png)
 
 > 数据已根据游戏客户端（v1.0.87，来源：[wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-monument)）进行验证。
 

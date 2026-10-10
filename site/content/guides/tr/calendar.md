@@ -28,8 +28,8 @@ Aktif dönüm noktalarını, gelecek güncellemelerin geri sayımlarını, katı
 
 - **1. Bölüm (1–14. Günler)**: Sığınak kuruluşu, ücretsiz temel UR tankı [Arthur](/tr/codex/arthur/), [İttifak](/tr/alliance/) özelliği kilidinin açılması, ilk UR Keskin Nişancı çarkı [Cynthia](/tr/codex/cynthia/) (8. Gün) ve ilk 20 dalgalı [Ölümsüz Kuşatması](/tr/events/undead/) (14. Gün).
 - **2. Bölüm (15–28. Günler)**: İlk [İttifak Düellosu](/tr/events/alliance-duel/) elemeleri (En iyi 32 ittifak, 15. Gün), günlük [İttifak Kervanı](/tr/events/wagon/) (21. Gün) ve [Kanyon Çatışması](/tr/events/canyon/) içindeki takım savaş alanları.
-- **3. Bölüm (29–65. Günler)**: Sunucu sınırları yıkılıyor! Sunucular arası [Krallık Savaşı (KvK)](/tr/events/kvk/) başlar, kahraman havuzu genişler ([Shadow](/tr/codex/shadow/), Joker, Bella) ve haftalık 30 dakikalık [İksir Kapışması](/tr/events/elixir/).
-- **4. Bölüm (66–119. Günler)**: Altın Çağ! F2P (ücretsiz) ana taşıyıcısı [Marlena](/tr/codex/marlena/)'nın Han'a ücretsiz gelmesi (1 dolarlık 1. Gün paketini satın almayanlar için), [Mitolojik Hazine](/tr/events/mythic/)'de günlük 300 balıklık okyanus ödülü, Merak Salonu (Curio Hall) kalıntıları ve sıkı Anti-Toksin biriktirme süreci.
+- **3. Bölüm (29–65. Günler)**: Sunucu sınırları yıkılıyor! Sunucular arası [Krallık Savaşı (KvK)](/tr/events/kvk/) başlar, kahraman havuzu genişler ([Gölge](/tr/codex/shadow/), Joker, Bella) ve haftalık 30 dakikalık [İksir Kapışması](/tr/events/elixir/).
+- **4. Bölüm (66–119. Günler)**: Altın Çağ! F2P (ücretsiz) ana taşıyıcısı [Marlena](/tr/codex/marlena/)'nın Han'a ücretsiz gelmesi (1 dolarlık 1. Gün paketini satın almayanlar için), [Mitolojik Hazine](/tr/events/mythic/)'de günlük 300 balıklık okyanus ödülü, Merak Salonu (Nadide Salonu) kalıntıları ve sıkı Anti-Toksin biriktirme süreci.
 - **5. Bölüm (120+ Gün)**: Viral enfeksiyon bağışıklığı, Lord Heykelleri, uzmanlık yetenek ağaçları ve Zoya'yı içeren destansı 55 günlük **«Diriliş Çağı»** (Seferler Ligi) başlangıcı.
 
 ## Sıfırlamalar ve tekrarlayan programlar {#recurring}

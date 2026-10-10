@@ -47,4 +47,4 @@ Antitoksin Atölyesi, Sığınak 5. seviyedeki diğer her şeyden daha hızlı b
 
 Üretim sınırlı bir süre için birikir: 1. seviyede 29.280 saniye ve 30. seviyede 43.200 saniye (yani 12 saat). Beş atölye toplamda 15.579.960 antitoksin tutabilir ve bunun üzerinde biriken her şey kaybolur. Sığınak 5. seviye, Eritme Atölyesi ve Dokuma Atölyesi için de beşer yuva sağlar, ancak bunların her biri buradaki 49 gün 21 saate kıyasla 99 gün 17 saat gerektirir.
 
-Toplanan miktarı düzenli almak ikinci bir nedenden dolayı önemlidir: antitoksin için bir depo yoktur, bu yüzden dolu bir stok bir yağmacıya tamamen kaptırılabilir. Karşılaştırma yapmak gerekirse, Ölümsüz Kuşatması'nın (Undead Siege) 10. aşaması 255.600.000 antitoksin verir; bu, beş atölye için 197 saatlik çalışmaya eşittir.
+Toplanan miktarı düzenli almak ikinci bir nedenden dolayı önemlidir: antitoksin için bir depo yoktur, bu yüzden dolu bir stok bir yağmacıya tamamen kaptırılabilir. Karşılaştırma yapmak gerekirse, Ölümsüz Kuşatması'nın (Ölümsüz Kuşatması) 10. aşaması 255.600.000 antitoksin verir; bu, beş atölye için 197 saatlik çalışmaya eşittir.

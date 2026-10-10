@@ -47,4 +47,4 @@ Hız artışı yavaş gerçekleşir: 1. seviyede %0,7, 20. seviyede %10,1, 30. s
 
 361.000 Güç sağlar; bu değer, Sığınak'ın 384.300'ü ve 2. Çalışma Tezgahı'nın (Workbench) 361.100'ünden sonra şehirdeki en yüksek üçüncü rakamdır. Kaynaklar toplamda 10.356.094.530'u bulur ve yalnızca bahsi geçen o iki bina bundan daha fazlasını harcar. 10. seviye 4.076.430 kaynağa ve 13 saat 41 dakikaya mal olur, böylece hız ölçeğinin ilk üçte biri tek bir akşamda tamamlanır.
 
-Sığınak seviye 7, laboratuvarın yanı sıra her biri 299 gün 4 süren üç İnfirmari (Hastane), bir o kadar süren Savaşçı Heykeli (Warrior Statue) ve Arena ile Kuzgun Yuvası (Raven Nest) gibi anında kurulan iki binayı açar. İnşaatçı önce laboratuvara gider, çünkü bir sonraki Sığınak seviyesi buna bağlıdır.
+Sığınak seviye 7, laboratuvarın yanı sıra her biri 299 gün 4 süren üç İnfirmari (Hastane), bir o kadar süren Savaşçı Heykeli (Savaşçı Heykeli) ve Arena ile Kuzgun Yuvası (Kuzgun Yuvası) gibi anında kurulan iki binayı açar. İnşaatçı önce laboratuvara gider, çünkü bir sonraki Sığınak seviyesi buna bağlıdır.

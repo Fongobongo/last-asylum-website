@@ -46,6 +46,6 @@ Epigraf Atölyesi'nin 20. seviyede olması gerekir: 800 UR parçası gerektiren 
 
 Atölyenin açıldığı Sığınak 5. seviyede acele etmeye gerek yoktur. Epigraflar Raven planına yerleştirilir ve ilk plan evrim 10. seviyede gelir; Raven'ın kendisi ise iki seviye sonra, Sığınak 7. seviyede Raven Yuvası'ndan elde edilir. İlk on seviye 4 saat ve 820.680 kaynak sürer, bu yüzden hemen yükseltilebilirler.
 
-Sığınak 5. seviyedeki komşular daha ağırdır: Eritme Atölyesi ve Dokuma Atölyesi'nin her biri 99 gün sürer ve beşer adet inşa edilebilir; İttifak Salonu 199 gün, 4. Birlik (Squad 4) 299 gün sürer. Bunların arasında Epigraf Atölyesi 98 gün 20 saat ile en kısa sürede tamamlanır.
+Sığınak 5. seviyedeki komşular daha ağırdır: Eritme Atölyesi ve Dokuma Atölyesi'nin her biri 99 gün sürer ve beşer adet inşa edilebilir; İttifak Salonu 199 gün, 4. Birlik (4. Takım) 299 gün sürer. Bunların arasında Epigraf Atölyesi 98 gün 20 saat ile en kısa sürede tamamlanır.
 
 Bina hiçbir istatistik bonusu sağlamadığından, 20. seviyenin üzerindeki yükseltmeler sadece Güç için ve inşa kuyruğunda daha iyi bir seçenek yoksa yapılmalıdır. Bu yirmi seviye, toplam inşa süresinin yüzde beşinden azını oluşturur; bu da şehirdeki işlevsel seviye ile en yüksek seviye arasındaki en büyük uçurumlardan biridir.

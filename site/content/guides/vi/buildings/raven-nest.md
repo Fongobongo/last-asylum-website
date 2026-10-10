@@ -6,7 +6,7 @@ lang: vi
 updated: "2026-09-19"
 type: guide
 ---
-![Raven Nest](/building-icons/5036.png)
+![Tổ Quạ](/building-icons/5036.png)
 
 
 > Dữ liệu được xác minh dựa trên client game (v1.0.87, nguồn: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-raven-nest)).
@@ -38,10 +38,10 @@ Tòa nhà này không cung cấp bất kỳ chỉ số thưởng nào: nó mở 
 
 Tổ Quạ tốn 480 Lúa và 360 Gỗ, hoàn thành trong chưa đầy một phút, nhưng nó mở ra một dòng nâng cấp hoàn chỉnh: Quạ, chiến binh thứ sáu của đội. Nó tấn công hai kẻ địch có HP cao nhất với thời gian hồi chiêu 13 giây, và một phần chỉ số của nó được chuyển cho các anh hùng.
 
-Thứ tự mở khóa ở đây bị đảo ngược. Xưởng Khắc Chữ (Epigraph Workshop) xuất hiện ở Thánh Địa cấp 5, hai cấp trước Tổ Quạ, nhưng vẫn không hoạt động cho đến khi Quạ đạt cấp tiến hóa 10, và việc nâng cấp hoàn chỉnh của nó mất 98 ngày 20 giờ. Xưởng Quạ (Raven Workshop) thay vào đó lại đến muộn, ở Thánh Địa cấp 15.
+Thứ tự mở khóa ở đây bị đảo ngược. Xưởng Khắc Chữ (Xưởng Khắc Ấn) xuất hiện ở Thánh Địa cấp 5, hai cấp trước Tổ Quạ, nhưng vẫn không hoạt động cho đến khi Quạ đạt cấp tiến hóa 10, và việc nâng cấp hoàn chỉnh của nó mất 98 ngày 20 giờ. Xưởng Quạ (Xưởng Quạ) thay vào đó lại đến muộn, ở Thánh Địa cấp 15.
 
 Cấp độ 110 là mục tiêu: ngôi sao cuối cùng của kỹ năng xuất hiện ở đó và hệ số sát thương đạt 1.894% sát thương tấn công so với 1.184% ở ngôi sao đầu tiên. Tổ Quạ chỉ có một cấp độ, vì vậy 840 tài nguyên của nó chỉ được chi tiêu một lần.
 
 Các ngôi sao của kỹ năng Quạ mở khóa ở cấp độ 30, 50, 70, 90 và 110, một cấp độ cao hơn trước lần tiến hóa đầu tiên. Dòng nâng cấp đó kéo dài hơn bất kỳ công trình nào trong thành phố, và bắt đầu với một tòa nhà chỉ mất một phút.
 
-Ở Thánh Địa cấp 7, chỉ có Tổ Quạ và Đấu Trường (Arena) là không chiếm dụng thợ xây. Mọi giờ khác đều thuộc về Phòng Thí Nghiệm (Research Lab) với 349 ngày và ba Bệnh Xá (Infirmaries) với 299 ngày 4 giờ mỗi cái. 100 Sức Mạnh của nó so với 361.000 của phòng thí nghiệm không bao giờ được ghi nhận vào tổng số của thành phố.
+Ở Thánh Địa cấp 7, chỉ có Tổ Quạ và Đấu Trường (Đấu Trường) là không chiếm dụng thợ xây. Mọi giờ khác đều thuộc về Phòng Thí Nghiệm (Research Lab) với 349 ngày và ba Bệnh Xá (Infirmaries) với 299 ngày 4 giờ mỗi cái. 100 Sức Mạnh của nó so với 361.000 của phòng thí nghiệm không bao giờ được ghi nhận vào tổng số của thành phố.

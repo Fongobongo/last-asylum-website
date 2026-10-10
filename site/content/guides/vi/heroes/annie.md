@@ -40,7 +40,7 @@ Thức tỉnh và Vũ khí độc quyền tuân theo lịch trình riêng của 
 
 Vai trò: Một Warlock DPS thiêu đốt mục tiêu của cô ấy, khi Hũ Kẹo và Quà Bất Ngờ để lại hiệu ứng bỏng trị giá 100% Tấn công mỗi giây. Sát thương tiếp tục đếm sau cú đánh đó. Trong khi đó, kỹ năng tối thượng chọn ra ba kẻ địch có tấn công cao nhất và tấn công chúng với 3.553,2%.
 
-Đáng đầu tư: Annie đứng thứ hai trong số mười sáu tướng DPS tính theo Lực chiến tối đa (916.394), nằm ở bậc A và thuộc đội hình mạnh nhất của game cùng với Arthur, Billy, Ulfrid và Joker. Cô ấy mở khóa sớm vào ngày thứ 14 của máy chủ, vì vậy cô ấy rất đáng để nâng cấp ngay khi có được.
+Đáng đầu tư: Annie đứng thứ hai trong số mười sáu tướng DPS tính theo Lực chiến tối đa (916.394), nằm ở bậc A và thuộc đội hình mạnh nhất của game cùng với Arthur, Billy, Ulfred và Hề. Cô ấy mở khóa sớm vào ngày thứ 14 của máy chủ, vì vậy cô ấy rất đáng để nâng cấp ngay khi có được.
 
 ## Kỹ năng
 
@@ -166,12 +166,12 @@ Mười hai tướng mạnh nhất của vai trò tính theo Lực chiến. Tăn
 
 | Tướng | Phe phái | Độ hiếm | Lực chiến tối đa | Tăng trưởng HP | Tăng trưởng ATK | Tăng trưởng DEF |
 |---|---|---|---|---|---|---|
-| Zoya | Warrior | UR | 918.563 | 0,55 | 1,57 | 0,89 |
+| Trác Nhã | Warrior | UR | 918.563 | 0,55 | 1,57 | 0,89 |
 | Annie | Warlock | UR | 916.394 | 0,57 | 1,52 | 0,9 |
-| Cynthia | Ranger | UR | 916.153 | 0,64 | 1,39 | 0,92 |
+| Xynthia | Ranger | UR | 916.153 | 0,64 | 1,39 | 0,92 |
 | Marlena | Warrior | UR | 914.868 | 0,58 | 1,49 | 0,91 |
-| Red Lady | Ranger | UR | 913.583 | 0,6 | 1,45 | 0,91 |
-| Joker | Warlock | UR | 913.583 | 0,6 | 1,45 | 0,91 |
+| Bà Đỏ | Ranger | UR | 913.583 | 0,6 | 1,45 | 0,91 |
+| Hề | Warlock | UR | 913.583 | 0,6 | 1,45 | 0,91 |
 | Grenwald | Warlock | SSR | 690.773 | 0,35 | 1,09 | 0,59 |
 | Kesso | Warrior | SSR | 686.515 | 0,42 | 0,94 | 0,61 |
 | Ash | Ranger | SSR | 685.873 | 0,43 | 0,92 | 0,61 |
@@ -187,8 +187,8 @@ Kẹo · hệ số nhân sát thương · hạng 6 trong 16
 |---|---|---|---|---|---|
 | Claire | Warrior | Biểu ngữ Thánh (nâng cao) | Đánh thường | 810% | mục tiêu đơn |
 | Marlena | Warrior | Nhát Chém Phá Trời | Đánh thường | 783% | mục tiêu đơn |
-| Zoya | Warrior | Dao găm | Đánh thường | 747% | mục tiêu đơn |
-| Cynthia | Ranger | Lưỡi Kiếm Mặt Trăng | Đánh thường | 747% | mục tiêu đơn |
+| Trác Nhã | Warrior | Dao găm | Đánh thường | 747% | mục tiêu đơn |
+| Xynthia | Ranger | Lưỡi Kiếm Mặt Trăng | Đánh thường | 747% | mục tiêu đơn |
 | Annie | Warlock | Kẹo | Đánh thường | 747% | mục tiêu đơn |
 
 Mạnh hơn: Claire, Biểu ngữ Thánh (nâng cao) đánh 810% Tấn công lên một mục tiêu đơn.
@@ -197,25 +197,25 @@ Hũ Kẹo · hệ số nhân sát thương · hạng 4 trong 15
 
 | Tướng | Phe phái | Kỹ năng | Loại kỹ năng | Sát thương, % Tấn công | Vùng |
 |---|---|---|---|---|---|
-| Joker | Warlock | Át Chủ Bài Joker | Kỹ năng Tối thượng | 5.047,5% | mục tiêu đơn |
-| Red Lady | Ranger | Hoa Hồng Đỏ Thẫm | Kỹ năng Tối thượng | 4.550,4% | mục tiêu đơn |
-| Zoya | Warrior | Thợ Săn Rừng Sâu | Kỹ năng Tối thượng | 3.669,6% | mục tiêu đơn |
+| Hề | Warlock | Át Chủ Bài Hề | Kỹ năng Tối thượng | 5.047,5% | mục tiêu đơn |
+| Bà Đỏ | Ranger | Hoa Hồng Đỏ Thẫm | Kỹ năng Tối thượng | 4.550,4% | mục tiêu đơn |
+| Trác Nhã | Warrior | Thợ Săn Rừng Sâu | Kỹ năng Tối thượng | 3.669,6% | mục tiêu đơn |
 | Annie | Warlock | Hũ Kẹo | Kỹ năng Tối thượng | 3.553,2% | mục tiêu đơn |
 | Claire | Warrior | Phán Quyết Thiên Thượng (nâng cao) | Kỹ năng Tối thượng | 3.486,6% | khu vực |
 
-Mạnh hơn: Joker, Át Chủ Bài Joker đánh 5.047,5% Tấn công lên một mục tiêu đơn.
+Mạnh hơn: Hề, Át Chủ Bài Hề đánh 5.047,5% Tấn công lên một mục tiêu đơn.
 
 Quà Bất Ngờ · hệ số nhân sát thương · hạng 6 trong 15
 
 | Tướng | Phe phái | Kỹ năng | Loại kỹ năng | Sát thương, % Tấn công | Vùng |
 |---|---|---|---|---|---|
-| Red Lady | Ranger | Cuộc Tàn Sát Khát Máu | Kỹ năng Chủ động | 2.934% | mục tiêu đơn |
+| Bà Đỏ | Ranger | Cuộc Tàn Sát Khát Máu | Kỹ năng Chủ động | 2.934% | mục tiêu đơn |
 | Sivir | Warrior | Đòn Khiên | Kỹ năng Chủ động | 1.887,6% | mục tiêu đơn |
 | Grenwald | Warlock | Bùa Tan Vỡ Trái Tim | Kỹ năng Chủ động | 1.841,4% | mục tiêu đơn |
-| Cynthia | Ranger | Săn Bắn Mặt Trăng | Kỹ năng Chủ động | 1.800% | mục tiêu đơn |
+| Xynthia | Ranger | Săn Bắn Mặt Trăng | Kỹ năng Chủ động | 1.800% | mục tiêu đơn |
 | Annie | Warlock | Quà Bất Ngờ | Kỹ năng Chủ động | 1.611% | khu vực |
 
-Mạnh hơn: Red Lady, Cuộc Tàn Sát Khát Máu đánh 2.934% Tấn công lên một mục tiêu đơn.
+Mạnh hơn: Bà Đỏ, Cuộc Tàn Sát Khát Máu đánh 2.934% Tấn công lên một mục tiêu đơn.
 
 ## Thứ tự nâng cấp
 
@@ -316,10 +316,10 @@ Gia tăng từ mỗi hệ thống tiến trình độc lập. Chúng cho thấy 
 
 ## Cách chơi
 
-Trong số các tướng UR DPS, chỉ có Annie tung ra một kỹ năng chủ động sau mỗi 4,5 giây: Quà Bất Ngờ hồi lại nhanh hơn các kỹ năng của Zoya, Joker và Red Lady với mỗi kỹ năng là 5 giây. Hũ Kẹo cho 3.553,2% chống lại ba kẻ địch có tấn công cao nhất, ít hơn 5.047,5% của Joker, tuy nhiên nó để lại hiệu ứng bỏng trị giá 100% Tấn công mỗi giây.
+Trong số các tướng UR DPS, chỉ có Annie tung ra một kỹ năng chủ động sau mỗi 4,5 giây: Quà Bất Ngờ hồi lại nhanh hơn các kỹ năng của Trác Nhã, Hề và Bà Đỏ với mỗi kỹ năng là 5 giây. Hũ Kẹo cho 3.553,2% chống lại ba kẻ địch có tấn công cao nhất, ít hơn 5.047,5% của Hề, tuy nhiên nó để lại hiệu ứng bỏng trị giá 100% Tấn công mỗi giây.
 
-Annie gia nhập danh sách tướng vào ngày thứ 14 của máy chủ cùng với Joker, và Thức tỉnh của cô mở ra vào ngày thứ 29 của mùa giải, ngày thứ ba sau Marlena và Cynthia. Vũ khí độc quyền của cô chờ đến ngày thứ 190 của mùa giải, và chỉ có vũ khí của Arthur mới mở muộn hơn thế. Các mảnh của cô đến từ Tượng Warlock ở cấp 20, và cô ấy cũng đứng trong nhóm bảo đảm của hồ chiêu mộ thứ ba.
+Annie gia nhập danh sách tướng vào ngày thứ 14 của máy chủ cùng với Hề, và Thức tỉnh của cô mở ra vào ngày thứ 29 của mùa giải, ngày thứ ba sau Marlena và Xynthia. Vũ khí độc quyền của cô chờ đến ngày thứ 190 của mùa giải, và chỉ có vũ khí của Arthur mới mở muộn hơn thế. Các mảnh của cô đến từ Tượng Warlock ở cấp 20, và cô ấy cũng đứng trong nhóm bảo đảm của hồ chiêu mộ thứ ba.
 
-Sao tốn kém nhất. Mục tiêu thứ ba của Hũ Kẹo đến sớm nhất là ở ★10, thêm 900% chống lại kẻ địch đang cháy ở ★30, và thêm 200% sát thương ở ★50, đó là sau tất cả 975 mảnh. Thức tỉnh hào phóng hơn khi so sánh, 1.327.045 HP so với 425.119 của Zoya và Joker, và nó mở ra sớm.
+Sao tốn kém nhất. Mục tiêu thứ ba của Hũ Kẹo đến sớm nhất là ở ★10, thêm 900% chống lại kẻ địch đang cháy ở ★30, và thêm 200% sát thương ở ★50, đó là sau tất cả 975 mảnh. Thức tỉnh hào phóng hơn khi so sánh, 1.327.045 HP so với 425.119 của Trác Nhã và Hề, và nó mở ra sớm.
 
-Trong đội hình mạnh nhất của trò chơi, Annie đứng cùng với Arthur, Billy, Ulfrid và Joker để đạt 131,1M HP hiệu quả, 3,2M sát thương mỗi giây và +15% cho bốn warlock. Hiệu ứng bỏng khiến Nicole trở thành đối tác tự nhiên của cô ấy, vì Mảng Địa Ngục (Inferno Array) cộng thêm 45% chống lại các mục tiêu đang cháy.
+Trong đội hình mạnh nhất của trò chơi, Annie đứng cùng với Arthur, Billy, Ulfred và Hề để đạt 131,1M HP hiệu quả, 3,2M sát thương mỗi giây và +15% cho bốn warlock. Hiệu ứng bỏng khiến Nicole trở thành đối tác tự nhiên của cô ấy, vì Mảng Địa Ngục (Inferno Array) cộng thêm 45% chống lại các mục tiêu đang cháy.

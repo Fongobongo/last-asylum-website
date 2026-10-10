@@ -45,6 +45,6 @@ Eğitim Alanı'nın seviyesi birlik kademelerinin kilidini açar ve adımlar dü
 
 Eğitim Kapasitesi daha dengeli bir şekilde büyür: ilk seviyede 33, ardından 20. seviyede 475 ve 30. seviyede 573. Son on seviye 98 yer ekler ve 286 güne mal olururken, ilk yirmi seviye iki haftada 475 yer sağlar. İlk on seviyenin maliyeti 2.387.374 kaynaktır: yarım günlük bir inşaat şimdiden T4 ve 371 yer kazandırır.
 
-Üç Eğitim Alanı kurulabilir ve üçünün tam yükseltilmesi 897 gün sürer. Aynı Sığınak seviyesi 6'dan Kışla (Barracks) 199 gün, Keşif Ekibi (Scout Squad) 299 gün gerektirir. Olağan sıra, birlik kapasitesi için önce üç Kışlayı 20. seviyeye getirmek ve ardından kademeler için Eğitim Alanı'nı inşa etmektir, çünkü bir kademe bir askerin ne kadar güçlü olduğunu değiştirirken, kapasite yalnızca kaç tane olabileceğini değiştirir.
+Üç Eğitim Alanı kurulabilir ve üçünün tam yükseltilmesi 897 gün sürer. Aynı Sığınak seviyesi 6'dan Kışla (Kışla) 199 gün, Keşif Ekibi (Keşif Birliği) 299 gün gerektirir. Olağan sıra, birlik kapasitesi için önce üç Kışlayı 20. seviyeye getirmek ve ardından kademeler için Eğitim Alanı'nı inşa etmektir, çünkü bir kademe bir askerin ne kadar güçlü olduğunu değiştirirken, kapasite yalnızca kaç tane olabileceğini değiştirir.
 
 Güç bakımından Eğitim Alanı kendi seviyesinde öncüdür: Kışla için 229.600 ve Keşif Ekibi için 182.000'e karşılık 280.200. Kopya başına 6.085.820.074 kaynak harcanır ve neredeyse bunun tamamı son beş seviyeye gider.

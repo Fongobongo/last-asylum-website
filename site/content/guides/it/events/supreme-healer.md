@@ -7,7 +7,7 @@ videoTopic: supreme_healer
 type: event
 ---
 
-L'evento **Guaritore Supremo (Top Healer)** è il torneo competitivo di 7 giorni per eccellenza in Last Asylum: Plague. Mette alla prova la tua microgestione, la pianificazione dell'inventario e la pazienza con le risorse. A differenza delle solite corse pay-to-win, il Guaritore Supremo viene regolarmente vinto da giocatori F2P e low-spender strategici che accumulano correttamente Stamina, missioni del Falco, Antitossina e conservano e allocano attentamente gli acceleratori per i giorni corrispondenti.
+L'evento **Guaritore Supremo (Guaritore d'élite)** è il torneo competitivo di 7 giorni per eccellenza in Last Asylum: Plague. Mette alla prova la tua microgestione, la pianificazione dell'inventario e la pazienza con le risorse. A differenza delle solite corse pay-to-win, il Guaritore Supremo viene regolarmente vinto da giocatori F2P e low-spender strategici che accumulano correttamente Stamina, missioni del Falco, Antitossina e conservano e allocano attentamente gli acceleratori per i giorni corrispondenti.
 
 Questa guida fornisce il programma completo di 7 giorni, la matrice esatta di allocazione delle risorse giorno per giorno, le meccaniche avanzate di accumulo e come ottenere il doppio guadagno con la Battaglia di Sopravvivenza per ottenere casse milestone di alto livello.
 

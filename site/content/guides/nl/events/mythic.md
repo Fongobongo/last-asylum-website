@@ -17,25 +17,25 @@ Deze gids behandelt alle zeven tabbladen met de gecorrigeerde marktprioriteit, d
 
 | Tabblad | Wat het is | F2P-oordeel |
 |---|---|---|
-| 1. Pirate's Mythic Treasure | Gevechtspas | Alleen gratis spoor |
-| 2. Pirate's Game | Gokautomaat | Alleen gratis trekkingen, jaag er nooit achter aan |
-| 3. Pirate Market | Ankeremunt-winkel | Koop dagelijks UR-fragmenten |
-| 4. Grand Feast | Serverbreed visevenement | Een van de beste F2P-onderdelen — doen |
-| 5. Delicious Hunt | Zeevis farmen | Farm tot de dagelijkse limiet van 300 |
-| 6. Deep Sea's Gift | Geld-opwaardeerbeloningen | Overslaan als F2P |
-| 7. Buried Treasure | Minigame | 5 gratis pogingen + de zelfmoordtactiek |
+| 1. Mythische piratenschat | Gevechtspas | Alleen gratis spoor |
+| 2. Piratenspel | Gokautomaat | Alleen gratis trekkingen, jaag er nooit achter aan |
+| 3. Piratenmarkt | Ankeremunt-winkel | Koop dagelijks UR-fragmenten |
+| 4. Groots feestmaal | Serverbreed visevenement | Een van de beste F2P-onderdelen — doen |
+| 5. Smuljacht | Zeevis farmen | Boerderij tot de dagelijkse limiet van 300 |
+| 6. Diepzeecadeau | Geld-opwaardeerbeloningen | Overslaan als F2P |
+| 7. Begraven schat | Minigame | 5 gratis pogingen + de zelfmoordtactiek |
 
-## Tabblad 1: Pirate's Mythic Treasure (Gevechtspas) {#tab-1-pass}
+## Tabblad 1: Mythische piratenschat (Gevechtspas) {#tab-1-pass}
 
 De belangrijkste gevechtspas. Het **geavanceerde spoor kost 499** en betaalt uit in **Ankeremunten, Piratengoud en exclusieve kisten**. Als ergens geld aan uitgeeft in dit evenement, is dit de kandidaat — maar het gratis spoor levert ook op, en al het onderstaande werkt ook zonder de pas.
 
-## Tabblad 2: Pirate's Game (Gokautomaat) {#tab-2-slots}
+## Tabblad 2: Piratenspel (Gokautomaat) {#tab-2-slots}
 
 - Betaalde spins leveren **Ankeremunten** op, en er is een optie voor een **5X-trekking**.
 - Het is **puur RNG (willekeur) — jaag er niet achter aan.** De gokautomaat is het slechtste waardedoel in het evenement en is zo ontworpen dat het bijna aanvoelt alsof je iets tegoed hebt.
 - Neem elke dag de **gratis trekkingen** en loop weg. Dat is het hele tabblad.
 
-## Tabblad 3: Pirate Market — Gecorrigeerde prioriteit {#tab-3-market}
+## Tabblad 3: Piratenmarkt — Gecorrigeerde prioriteit {#tab-3-market}
 
 De markt accepteert Ankeremunten, en de volgorde waarin je koopt is hier belangrijker dan waar dan ook in het evenement:
 
@@ -50,27 +50,27 @@ En de twee harde NEE's:
 
 Nog een valkuil om te kennen: de **scheepsskin van 4.000 ankers bestaat**. Hij is mooi. **Offer er geen gegarandeerde beloningen voor op** — vier duizend ankers is de volledige fragmentopbrengst van de hele markt voor het evenement.
 
-## Tabblad 4: Grand Feast {#tab-4-grand-feast}
+## Tabblad 4: Groots feestmaal {#tab-4-grand-feast}
 
-Het serverbrede banket: lever **10 Zeevissen in voor 1 Banket-EXP**, met **top 50-beloningen** voor de grootste bijdragers. Het oordeel van de community is direct — **"een van de beste F2P-onderdelen"** van het evenement. Het kost niets behalve de vissen die je toch al farmd (zie [Delicious Hunt](#tab-5-fish)), en het levert op de server zichtbare beloningen op. Dien dagelijks in, elke dag, zonder uitzondering.
+Het serverbrede banket: lever **10 Zeevissen in voor 1 Banket-EXP**, met **top 50-beloningen** voor de grootste bijdragers. Het oordeel van de community is direct — **"een van de beste F2P-onderdelen"** van het evenement. Het kost niets behalve de vissen die je toch al farmd (zie [Smuljacht](#tab-5-fish)), en het levert op de server zichtbare beloningen op. Dien dagelijks in, elke dag, zonder uitzondering.
 
-## Tabblad 5: Delicious Hunt (Zeevis farmen) {#tab-5-fish}
+## Tabblad 5: Smuljacht (Zeevis farmen) {#tab-5-fish}
 
 Zeevissen komen van je normale dagelijkse doelen:
 
 - Falcon Tower (Valkentoren)
 - Grondstoffenmonsters
-- Elite Blight (Elite Plaag)
-- Black Ops (Zwarte Operaties)
-- Wandering Blight (Dwalende Plaag)
+- Elite-plaagling (Elite Plaag)
+- Geheime Operaties (Zwarte Operaties)
+- Zwervende plaagling (Dwalende Plaag)
 
-Het cruciale getal: **DAGELIJKSE LIMIET 300 vissen**. Farm je daarboven, dan versla je mobs voor niets — de teller stopt. Tik de 300 aan, stop, en bewaar je tijd. De vissen voeden het Grand Feast, en daarom vormen deze twee tabbladen samen de F2P-kern van het hele evenement.
+Het cruciale getal: **DAGELIJKSE LIMIET 300 vissen**. Boerderij je daarboven, dan versla je mobs voor niets — de teller stopt. Tik de 300 aan, stop, en bewaar je tijd. De vissen voeden het Groots feestmaal, en daarom vormen deze twee tabbladen samen de F2P-kern van het hele evenement.
 
-## Tabblad 6: Deep Sea's Gift {#tab-6-deep-sea}
+## Tabblad 6: Diepzeecadeau {#tab-6-deep-sea}
 
 Één verduidelijking die je diamanten bespaart: dit tabblad beloont **geldopwaarderingen, GEEN diamantuitgaven**. In tegenstelling tot een evenement met mijlpalen voor het uitgeven van diamanten, kan een F2P-account hier niets doen. Sla dit tabblad volledig over — het is niet op jou gericht.
 
-## Tabblad 7: Buried Treasure (De F2P-minigame) {#tab-7-buried}
+## Tabblad 7: Begraven schat (De F2P-minigame) {#tab-7-buried}
 
 De match-minigame en het meest misverstane tabblad:
 
@@ -91,12 +91,12 @@ Versnellingen zijn de troostprijs, niet het doel (zie de [marktprioriteit](#tab-
 
 ## De dagelijkse F2P-checklist {#f2p-checklist}
 
-1. Farm **300 Zeevissen** ( Delicious Hunt ) en stop bij de limiet.
-2. Dien vissen in bij het **Grand Feast**.
-3. Speel de **5 pogingen van Buried Treasure** — match beloningen, pleeg zelfmoord, herhaal.
-4. Neem de **gratis Pirate's Game-trekkingen**.
+1. Boerderij **300 Zeevissen** ( Smuljacht ) en stop bij de limiet.
+2. Dien vissen in bij het **Groots feestmaal**.
+3. Speel de **5 pogingen van Begraven schat** — match beloningen, pleeg zelfmoord, herhaal.
+4. Neem de **gratis Piratenspel-trekkingen**.
 5. Geef ankers uit aan de gegarandeerde waarde — **eerst UR-fragmenten**.
 
 ## Oordeel van de community {#community-verdict}
 
-Mythic Treasure heeft een **sterke P2W-smaak** (Pay-to-Win) — de pas, de gokautomaten en het opwaardeertabblad zijn allemaal gebouwd voor betalende spelers. Maar de F2P-onderdelen — **Grand Feast, Buried Treasure en het vis farmen** — zijn het waard om elke dag van het evenement te doen. Grind die, negeer de rest en laat niets liggen wanneer de winkel sluit.
+Mythic Treasure heeft een **sterke P2W-smaak** (Pay-to-Win) — de pas, de gokautomaten en het opwaardeertabblad zijn allemaal gebouwd voor betalende spelers. Maar de F2P-onderdelen — **Groots feestmaal, Begraven schat en het vis farmen** — zijn het waard om elke dag van het evenement te doen. Grind die, negeer de rest en laat niets liggen wanneer de winkel sluit.

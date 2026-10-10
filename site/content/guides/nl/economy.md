@@ -205,7 +205,7 @@ Geverifieerde waarden uit de spelcliëntgegevens (v1.0.87), bron: [wiki-last-asy
 |---|---|---|
 | gebouw-upgrades | 15.365.510.570 | 199.000.000 |
 | rally's | 1.322.896.191 | 5.048.000 |
-| Ondode Beleg (Undead Siege) | 1.104.884.000 | 41.800.000 |
+| Ondode Beleg (Ondodenbelegering) | 1.104.884.000 | 41.800.000 |
 | levelvoorraden | 1.094.961.240 | 38.136.000 |
 | Heldpad alliantiebaas | 572.191.000 | 105.000.000 |
 | campagne inactieve beloningen | 383.146.640 | 1.188.000 |

@@ -1,5 +1,5 @@
 ---
-title: "Undead Siege: Volledige Gids"
+title: "Ondodenbelegering: Volledige Gids"
 description: "Alliantieverdediging tegen geïnfecteerde golven: de aanwijzingenbalk van 300.000, moeilijkheidsgraden van 2,4M tot 24,5M vijandelijke kracht (Might), het verborgen multi-squad-mechanisme dat 9,5M spelers uitschakelt, en volledige beloningstabellen."
 lang: nl
 updated: "2026-09-03"
@@ -9,7 +9,7 @@ infographics: ["/infographics/undead-siege-guide.webp", "/infographics/undead-si
 type: event
 ---
 
-Undead Siege (Undead-belegering) is het alliantieverdedigingsevent: je hele alliantie neemt het op tegen **golven geïnfecteerden**, waarbij helden op de muur het gevecht aangaan. Twee regels bepalen het event boven al het andere: **schilden werken niet**, en het is **geen puntenevent** — het doel is om zoveel mogelijk golven te verdedigen.
+Ondodenbelegering (Undead-belegering) is het alliantieverdedigingsevent: je hele alliantie neemt het op tegen **golven geïnfecteerden**, waarbij helden op de muur het gevecht aangaan. Twee regels bepalen het event boven al het andere: **schilden werken niet**, en het is **geen puntenevent** — het doel is om zoveel mogelijk golven te verdedigen.
 
 Deze gids behandelt hoe belegeringen ontgrendelen, de moeilijkheidsgraad, het verborgen multi-squad-mechanisme dat onvoorbereide allianties wegvaagt, beloningen en de zeven grootste fouten.
 

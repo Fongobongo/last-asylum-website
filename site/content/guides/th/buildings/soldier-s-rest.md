@@ -6,7 +6,7 @@ lang: th
 updated: "2026-09-19"
 type: guide
 ---
-![Soldier's Rest](/building-icons/5055.png)
+![ที่พักฟื้นทหาร](/building-icons/5055.png)
 
 
 > ข้อมูลได้รับการยืนยันจากไคลเอนต์เกม (v1.0.87, แหล่งที่มา: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/building-soldier-s-rest))

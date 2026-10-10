@@ -36,9 +36,9 @@ Dit gebouw geeft geen statistiekenbonus: het ontgrendelt een optie in plaats van
 
 ## Hoe te gebruiken
 
-De Tempel kost 12 Graan en 9 Hout en is binnen enkele seconden klaar, dus op Heiligdom niveau 1 concurreert deze noch om de wachtrij, noch om de weinige grondstoffen op de openingsdag. Al het andere dat op dat niveau wordt ontgrendeld duurt lang: de Soldatenrust (Soldier's Rest) heeft 299 dagen en 4 uur nodig, het Heiligdom zelf 398 dagen en 20 uur, een Boerderij 49 dagen en 20 uur per stuk.
+De Tempel kost 12 Graan en 9 Hout en is binnen enkele seconden klaar, dus op Heiligdom niveau 1 concurreert deze noch om de wachtrij, noch om de weinige grondstoffen op de openingsdag. Al het andere dat op dat niveau wordt ontgrendeld duurt lang: de Soldatenrust (Herstelkwartier) heeft 299 dagen en 4 uur nodig, het Heiligdom zelf 398 dagen en 20 uur, een Boerderij 49 dagen en 20 uur per stuk.
 
-De Tempel brengt 500 Kracht (Might) op voor 21 grondstoffen, en niets in de stad is goedkoper: de Residentie levert 100 op voor 840 grondstoffen, terwijl het Heerstandbeeld (Lord Statue) helemaal niets oplevert voor dezelfde 12 Graan en 9 Hout. Samen met de Erehal (Hall of Honor) levert de Tempel 1.000 Kracht op dag één. Dezelfde 500 komt van de Privéstal en de Allitiantiestal, maar beide ontgrendelen pas op Heiligdom niveau 11, tien niveaus na de Tempel.
+De Tempel brengt 500 Kracht (Might) op voor 21 grondstoffen, en niets in de stad is goedkoper: de Residentie levert 100 op voor 840 grondstoffen, terwijl het Heerstandbeeld (Heer Standbeeld) helemaal niets oplevert voor dezelfde 12 Graan en 9 Hout. Samen met de Erehal (Erehal) levert de Tempel 1.000 Kracht op dag één. Dezelfde 500 komt van de Privéstal en de Allitiantiestal, maar beide ontgrendelen pas op Heiligdom niveau 11, tien niveaus na de Tempel.
 
 Daarna dient de Tempel als plot. Het eerste factiestandbeeld ontgrendelt op Heiligdom niveau 7, het tweede op niveau 11, het derde op niveau 12. Elk vraagt 299 dagen en 4 uur volledige constuctietijd en brengt ongeveer 272.500 Kracht met zich mee, en alle drie samen 897 dagen, dus het plot wordt niet binnen één seizoen gevuld.
 

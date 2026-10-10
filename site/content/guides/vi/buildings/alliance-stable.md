@@ -36,7 +36,7 @@ Công trình này không cung cấp chỉ số thưởng: nó mở khóa một t
 
 ## Cách sử dụng
 
-Chuồng Ngựa Liên Minh tốn 12 Ngũ cốc và 9 Gỗ, mang lại 500 Sức mạnh. Hầu như không có công trình nào trong thành phố mang lại hiệu quả tương đương trên mỗi tài nguyên: Tượng đài chỉ cung cấp một phần tư số đó với chi phí 840 tài nguyên. Nó được xây dựng ngay lập tức, vì vậy ở cấp Thánh Địa 11, sự lựa chọn không nằm giữa hai loại chuồng ngựa mà là xung quanh Tượng Pháp Sư (Warlock Statue), công trình mở khóa cùng cấp độ và đòi hỏi 299 ngày xây dựng để đạt 272.600 Sức mạnh.
+Chuồng Ngựa Liên Minh tốn 12 Ngũ cốc và 9 Gỗ, mang lại 500 Sức mạnh. Hầu như không có công trình nào trong thành phố mang lại hiệu quả tương đương trên mỗi tài nguyên: Tượng đài chỉ cung cấp một phần tư số đó với chi phí 840 tài nguyên. Nó được xây dựng ngay lập tức, vì vậy ở cấp Thánh Địa 11, sự lựa chọn không nằm giữa hai loại chuồng ngựa mà là xung quanh Tượng Pháp Sư (Tượng Thuật Sĩ), công trình mở khóa cùng cấp độ và đòi hỏi 299 ngày xây dựng để đạt 272.600 Sức mạnh.
 
 Mục đích của chuồng ngựa không phải là Sức mạnh mà là đoàn xe liên minh: tối đa hai mươi thành viên, sáu xe kéo và một đầu máy, với thời gian tập hợp lên đến hai giờ. Một đoàn xe như vậy chở được nhiều hơn đoàn xe cá nhân, và cũng bị cướp thường xuyên hơn, ba lần so với hai lần.
 

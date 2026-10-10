@@ -9,7 +9,7 @@ infographics: ["/infographics/elixir-guide.webp", "/infographics/elixir-strategy
 type: event
 ---
 
-Tranh Đoạt Tiên Dược (Elixir Scramble) là **chiến trường liên minh đối đầu trong 30 phút**, nơi chiến thắng được định đoạt bằng điểm số chứ không phải số lượng lính tiêu diệt. Những liên minh coi đây là chiến trường tử chiến sẽ luôn thua cuộc trước những liên minh coi đó là trò chơi kiểm soát bản đồ.
+Tranh Đoạt Tiên Dược (Tranh Đoạt Thuốc Lạ) là **chiến trường liên minh đối đầu trong 30 phút**, nơi chiến thắng được định đoạt bằng điểm số chứ không phải số lượng lính tiêu diệt. Những liên minh coi đây là chiến trường tử chiến sẽ luôn thua cuộc trước những liên minh coi đó là trò chơi kiểm soát bản đồ.
 
 Hướng dẫn này bao gồm năm giai đoạn của sự kiện, nguồn điểm thực tế, quy tắc dịch chuyển, logic phòng thủ và một sai lầm chết người có thể kết thúc cuộc chơi ngay từ khi chưa bắt đầu.
 

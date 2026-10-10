@@ -21,7 +21,7 @@ Yeni başlayanlar bölümü bağımsız makalelere ayrılmıştır — bunları 
 
 Kahraman temelleri artık her kahraman rehberini toplayan Kahramanlar bölümünde yer almaktadır:
 
-- **[Kahraman Kilit Açma Zaman Çizelgesi](/tr/heroes/hero-basics/#unlock-timeline)** — Arthur'un gelişi, Cynthia/Shadow Dilek Çarkı, 36–85. günler arası UR etkinlik treni, Marlena, Yeniden Doğuş Çağı (Age of Rebirth)
+- **[Kahraman Kilit Açma Zaman Çizelgesi](/tr/heroes/hero-basics/#unlock-timeline)** — Arthur'un gelişi, Cynthia/Gölge Dilek Çarkı, 36–85. günler arası UR etkinlik treni, Marlena, Yeniden Doğuş Çağı (Age of Rebirth)
 - **[Kahraman Gücü Nasıl Çalışır](/tr/heroes/hero-basics/#hero-might)** — seviye, yıldızlar (4★ sıçraması), beceriler ve ekipman
 - **[Fraksiyonlar ve Karşıtlıklar](/tr/heroes/hero-basics/#wiki-hero-factions)** — +5/+10/+15/+20% yığın bonusları ve Savaşçılar > Büyücüler > Korucular > Savaşçılar döngüsü
 - **[İlk Kadronuz](/tr/heroes/hero-basics/#f2p-squad)** — ön safta Arthur ve Bella; arka safta Marlena, Claire ve Celia (alternatifleriyle birlikte tam döküm)
@@ -31,11 +31,11 @@ Kahraman temelleri artık her kahraman rehberini toplayan Kahramanlar bölümün
 
 Korpez'in posta kutusuna sürekli gelen soruların kısa yanıtları — bunların çoğu 2. ve 4. haftalar arasında karşınıza çıkacaktır.
 
-- **Korucu kadrom Savaşçıların yerini almaya ne zaman hazır olur?** Sadece yıldız sayısıyla değil — üç duvarı kontrol edin: her korucu en az 8★ (Cynthia ve Red Lady 10★, Louis 8★, Bell 9–10★), Korucu Tapınağı/Heykeli ~22+ seviye ve kahraman araştırmaları Savaşçı dalınızla aynı aşamada olmalı. Site kuralı: Korucu kadrosu, mevcut 60M'lik Savaşçı kadrosuna karşı ~18M güce ulaştığında ve dört bayrağın tamamı açıldığında geçiş yapılır.
+- **Korucu kadrom Savaşçıların yerini almaya ne zaman hazır olur?** Sadece yıldız sayısıyla değil — üç duvarı kontrol edin: her korucu en az 8★ (Cynthia ve Kızıl Hanım 10★, Louis 8★, Bell 9–10★), Korucu Tapınağı/Heykeli ~22+ seviye ve kahraman araştırmaları Savaşçı dalınızla aynı aşamada olmalı. Site kuralı: Korucu kadrosu, mevcut 60M'lik Savaşçı kadrosuna karşı ~18M güce ulaştığında ve dört bayrağın tamamı açıldığında geçiş yapılır.
 - **Zoya mı, Claire mi — kim kazanır?** Zoya gerçek PvP tankıdır (ücretli); **UR Claire sonsuza kadar bir PvE/canavar uzmanıdır** — pasif yeteneği UR formunda bile canavar hasarına kilitli kalır. Dünya bossları, Pandemi ve KvK zombileri için Claire'i tutun; PvP için Zoya mevcut olur olmaz onu kadroya alın.
 - **Can kaybetmemek için askerleri duvarımda tutmasam olur mu?** Hayır. Garnizon seçiminiz ne olursa olsun, kaybedilen bir savunma aynı askerleri kaybettirir. Saldırganla mücadele edebildiğiniz her an askerleri yerleştirin; **sadece saldırgan yenilmez olduğunda tahliye edin ve ışınlanın**. Her KvK öncesi mutlaka kalkanınızı açın — "KvK'da kalkana ihtiyacın yok" bir efsanedir.
-- **Asker Dinlenme Yeri (Soldier's Rest): ölüleri diriltmeli mi?** Evet, ancak bekleme süresi uzundur ve ittifak yardımıyla büyütülür — bunu günlük bir kolaylık olarak değil, KvK sonrası temizlediğiniz bir yedek olarak görün. Bunu tek başınıza canavar avlarında harcamayın.
-- **10★ Cynthia kılıcı — bir sonraki planı ona mı yoksa Red Lady'ye mi vermeliyim?** Korpez: ikinci bir kılıç değil, eldiven. Cynthia ve Red Lady arasında zevk meselesi — Cynthia daha fazla alan hasarı (AoE) taşır, Red Lady tek hedeflere daha sert vurur. Aynı taşıyıcıda bir kırmızı kılıç + bir kırmızı eldiven, iki DPS'ye dağıtılmış çift kılıçtan daha iyidir.
+- **Asker Dinlenme Yeri (Asker Dinlenme Kampı): ölüleri diriltmeli mi?** Evet, ancak bekleme süresi uzundur ve ittifak yardımıyla büyütülür — bunu günlük bir kolaylık olarak değil, KvK sonrası temizlediğiniz bir yedek olarak görün. Bunu tek başınıza canavar avlarında harcamayın.
+- **10★ Cynthia kılıcı — bir sonraki planı ona mı yoksa Kızıl Hanım'ye mi vermeliyim?** Korpez: ikinci bir kılıç değil, eldiven. Cynthia ve Kızıl Hanım arasında zevk meselesi — Cynthia daha fazla alan hasarı (AoE) taşır, Kızıl Hanım tek hedeflere daha sert vurur. Aynı taşıyıcıda bir kırmızı kılıç + bir kırmızı eldiven, iki DPS'ye dağıtılmış çift kılıçtan daha iyidir.
 - **Freya mı yoksa Elena mı (ücretli yerleşimciler)?** Eğer harcama yapıyorsanız: **Önce Freya** (Falcon Görevi ödemesi günlük ömür boyu gelirdir); Elena (+komuta/ATK) orta seviye harcama yapanların pas geçmesi gereken saf bir balina esnekliğidir.
 - **İkinci kadrom — büyücüler mi yoksa korucular mı?** Korpez'in cevabı: **büyücüler**, her zaman — oyun sonu tavanı oradadır; korucular erken-orta seviye F2P (ücretsiz oyuncular) içindir ancak büyücüler geç aşamada ezer geçer. [Kademe Listesi](/tr/tier-list/).
 
@@ -78,7 +78,7 @@ Oyun istemcisi verilerinden (v1.0.87) doğrulanmış değerler, kaynak: [wiki-la
 | Sığınak seviye 10 | Hediyeler |
 | Sığınak seviye 15 | Kuzgun (Raven) ekipmanı |
 | İttifak Salonu seviye 1 | İttifak |
-| Kara Operasyonlar (Black Ops) seviye 1 | Gizli operasyonlar |
+| Kara Operasyonlar (Gizli Operasyon) seviye 1 | Gizli operasyonlar |
 | Kara Operasyonlar seviye 1 | Gizli operasyon baskını |
 | Epigraf Atölyesi seviye 1 | Kuzgun evrimi |
 | Falcon Kulesi seviye 1 | Sohbet |
@@ -88,7 +88,7 @@ Oyun istemcisi verilerinden (v1.0.87) doğrulanmış değerler, kaynak: [wiki-la
 | Konut seviye 1 | Günlük ödül |
 | Kadro 1 seviye 1 | Boşta gelir |
 | Kadro 4 seviye 1 | Kart oluşturma sırası |
-| Tavern seviye 1 | Kahraman alımı |
+| Meyhane seviye 1 | Kahraman alımı |
 | Gözetleme Kulesi seviye 1 | Yürüyüş alarmı |
 
 ---
@@ -181,7 +181,7 @@ Araştırma Laboratuvarı ne zaman gereklidir? İlk olarak Sığınak seviye on 
 - [Avlanma: hedefler, Kuzgun Meyvesi ve ralliler](/tr/hunting/)
 - [Kuzgun epigrafları: yıldızlar, üretim ve başlangıç](/tr/epigraphs/)
 - [Meraklar (Curios): yükseltme, maliyet ve tekrarlanan bonuslar](/tr/relics/)
-- [Gezgin Hayalet (Wandering Phantom): Gezgin Bela seviyeleri, Krallık Görevleri ve ödüller](/tr/wandering-phantom/)
+- [Gezgin Hayalet (Gezgin Hayalet): Gezgin Bela seviyeleri, Krallık Görevleri ve ödüller](/tr/wandering-phantom/)
 - [Denemeler (Trials)](/tr/trials/)
 - [Hazine Haritaları](/tr/treasure-maps/)
 - [Şehir Haritası: en iyi hedefler ve ele geçirme görevleri](/tr/cities/)

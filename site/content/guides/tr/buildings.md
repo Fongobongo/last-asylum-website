@@ -16,10 +16,10 @@ Aynı anda birkaç bina mevcut olduğunda, topluluğun belirlediği sıra sabitt
 
 1. **Sığınak (Sanctuary)** — her zaman ilk sıradadır. Şehirdeki diğer tüm seviyeleri, kahraman seviye sınırını ve birlik kademelerini sınırlar. Ne zaman bir Sığınak yükseltmesi uygun olursa, ilk olarak kuyruğa girer.
 2. **Araştırma Laboratuvarı (Research Lab)** — teknoloji ağacınızı yönetir ve **11 ile 30 arasındaki Sığınak seviyeleri için zorunlu ön koşul** görevi görür (seviyesi yükseltilmiş bir Laboratuvar olmadan, orta/ileri oyun Sığınak yükseltmelerini başlatamazsınız).
-3. **Eğitim Sahası (Training Grounds)** — birlik kademelerinin kilidini açar (T1–T10). **1 Maks + 3 Düşük Bölünmesi** stratejisini kullanın: Sığınak kademe sınırınıza uyacak şekilde yalnızca 1 ana sahayı maksimuma çıkarın ve terfi için ucuz T4'ü seri üretmek amacıyla diğer 3'ünü 10. Seviyede tutun (her döngüde 6–7 saat ve milyonlarca kaynak tasarrufu sağlar!).
-4. **Kışla (Barracks)** — asker kapasitesi. Daha büyük bir düzenli ordu, daha fazla güç ve sefer başına daha fazla darbe demektir.
+3. **Eğitim Sahası (Eğitim Alanı)** — birlik kademelerinin kilidini açar (T1–T10). **1 Maks + 3 Düşük Bölünmesi** stratejisini kullanın: Sığınak kademe sınırınıza uyacak şekilde yalnızca 1 ana sahayı maksimuma çıkarın ve terfi için ucuz T4'ü seri üretmek amacıyla diğer 3'ünü 10. Seviyede tutun (her döngüde 6–7 saat ve milyonlarca kaynak tasarrufu sağlar!).
+4. **Kışla (Kışla)** — asker kapasitesi. Daha büyük bir düzenli ordu, daha fazla güç ve sefer başına daha fazla darbe demektir.
 5. **Hastane (Infirmary)** — mağlubiyetlerden sonra yaralılarınızı iyileştirir. Küçük bir hastane, kaybedilen her savaşın geri alamayacağınız birliklerin kan kaybına yol açması demektir.
-6. **Ergitme Atölyesi (Smelting Workshop)** — ekipman yükseltmeleri için Dişli Taşı (Gear Stones) üretir ve arıtır. Taşıma silahlarında bir orta oyun darboğazından kaçınmak için Sığınağınız izin verir vermez **25. Seviyeye** ulaştırın.
+6. **Ergitme Atölyesi (Eritme Atölyesi)** — ekipman yükseltmeleri için Dişli Taşı (Gear Stones) üretir ve arıtır. Taşıma silahlarında bir orta oyun darboğazından kaçınmak için Sığınağınız izin verir vermez **25. Seviyeye** ulaştırın.
 7. **Surlar (Walls)** — katı bir şekilde kilometre taşı sınırları için seviyelendirilir (**yalnızca 5, 6, 9, 10, 12 ve 24 numaralı Sığınak seviyeleri için gereklidir**; diğer 24 seviye için asla gerekmez). **Surlar savaş istatistikleri SAĞLAMAZ veya birlikleri hasardan korumaz!** Yalnızca kuşatmalar sırasında yangına ve zorla ışınlanmaya karşı direnç göstermek için Şehir Savunması dayanıklılığı sağlarlar.
 8. **Kaynak Binaları ve Depolar** — Sığınak ön koşulları için kesinlikle gerektiği kadar yükseltilir (Kereste, Tahıl Ambarı ve Bitki Depoları).
 
@@ -33,19 +33,19 @@ Aslında dokunacağınız binalar için hızlı bir başvuru kılavuzu. Çeviril
 |---|---|---|
 | Sığınak (Sanctuary) | Diğer tüm bina seviyelerini sınırlar, kahraman seviye sınırını belirler, yükseltme başına DENEYİM kazandırır ve seviyesi arttıkça binaların ve özelliklerin kilidini açar. | Bekleme süresinde (cooldown) yükseltin. Gerçek oyuncu seviyenizdir. |
 | Surlar (Walls) | Şehir Savunması dayanıklılığı sağlar ve kuşatma sırasında savunma düşüş oranını azaltır. **Saptaki birlikleri korumaz ve savaş istatistikleri SAĞLAMAZ!** | Kesinlikle 5, 6, 9, 10, 12 ve 24. seviyelerde bir ön koşul olarak seviyelendirin. Aksi takdirde inşaatçıları boşa harcamayın. |
-| İnşaatçı Kulübesi (Builder's Hut) | İnşaat sürelerinde ücretsiz tamamlama penceresini uzatır (ücretsiz hızlandırma süresi). İçine yerleştirilen kurtulanlar ekstra bonuslar verir — onları işe aldıkça daha iyi kurtulanlarla değiştirin. | Maksimum ücretsiz tamamlama penceresi için Sığınak 15'e kadar Sığınak seviyesinde tutun. |
+| İnşaatçı Kulübesi (İnşaatçı Kulübesi) | İnşaat sürelerinde ücretsiz tamamlama penceresini uzatır (ücretsiz hızlandırma süresi). İçine yerleştirilen kurtulanlar ekstra bonuslar verir — onları işe aldıkça daha iyi kurtulanlarla değiştirin. | Maksimum ücretsiz tamamlama penceresi için Sığınak 15'e kadar Sığınak seviyesinde tutun. |
 | Araştırma Laboratuvarı (Research Lab) | Teknoloji ağacınızı yönetir: ekonomi, askerî ve gelişim araştırmaları. Birleştirilmiş Araştırma Laboratuvarı 1 ve 2: her iki kuyruk da optimum Hızlandırma Bonuslarından yararlanır. | Öncelik #2 — Sığınak 11–30 için sürekli ön koşul. 4–9. sandık kademelerinin kilidini açmak için İttifak Düellosu ağacındaki **Süper Ödül 1 ve 2**'ye acele edin! |
-| Eğitim Sahası (Training Grounds) | Yeni birlik kademelerinin kilidini açar (3. Seviyede T2, 6. Seviyede T3, 10. Seviyede T4, 14. Seviyede T5, 17. Seviyede T6, 20. Seviyede T7, 24. Seviyede T8, 27. Seviyede T9, 30. Seviyede T10) ve eğitim kapasitesini artırır. | En üst kademe için 1 sahayı maksimuma çıkarın; T4 paralel tarımı ve terfisi için diğer 3'ünü 10. Seviyede tutun (her döngüde 6–7 saat tasarruf sağlar). |
-| Kışla (Barracks) | Şehrinizdeki toplam düzenli ordu kapasitesini artırır. | KvK ve Krallık Savaşları için devasa bir ordu barındıracak şekilde yükseltin. |
+| Eğitim Sahası (Eğitim Alanı) | Yeni birlik kademelerinin kilidini açar (3. Seviyede T2, 6. Seviyede T3, 10. Seviyede T4, 14. Seviyede T5, 17. Seviyede T6, 20. Seviyede T7, 24. Seviyede T8, 27. Seviyede T9, 30. Seviyede T10) ve eğitim kapasitesini artırır. | En üst kademe için 1 sahayı maksimuma çıkarın; T4 paralel tarımı ve terfisi için diğer 3'ünü 10. Seviyede tutun (her döngüde 6–7 saat tasarruf sağlar). |
+| Kışla (Kışla) | Şehrinizdeki toplam düzenli ordu kapasitesini artırır. | KvK ve Krallık Savaşları için devasa bir ordu barındıracak şekilde yükseltin. |
 | Hastane (Infirmary) | Mağlubiyetten sonra yaralı askerleri iyileştirir. | Yetersiz boyuttaki hastane = kaybedilen her savaştan sonra kalıcı birlik kayıpları. |
-| Antitoksin Atölyesi (Antitoxin Workshop) | Antidot / Antitoksin üretir — kahraman ilerleme sistemlerinde kullanılan temel kahraman kaynağı. | 10. Seviyede inşa edin ve 7/24 üretmeye devam edin. |
+| Antitoksin Atölyesi (Antitoksin Atölyesi) | Antidot / Antitoksin üretir — kahraman ilerleme sistemlerinde kullanılan temel kahraman kaynağı. | 10. Seviyede inşa edin ve 7/24 üretmeye devam edin. |
 | Ekipman / Ergitme / Dokuma Atölyeleri | Toplanan malzemelerden kahraman ekipmanı üretir ve yükseltir. | İstikrarlı Dişli Taşı üretimi için **Ergitme Atölyesini 25. Seviyeye taşıyın**; Ekipman Atölyesi Sığınak 20'de açılır. |
 | Tapınak (Savaşçı Heykeli) | Birleştirilmiş kült binası (eski Savaşçı, Korucu ve Büyücü Heykellerini birleştirir). Seçtiğiniz gruba yüzde bazında istatistik bonusları sağlar. | Birlik gücünü artırmak ve Sığınak ön koşullarını karşılamak için yükseltin. |
-| Onur Salonu (Hall of Honor) | Kahraman onur seviyelerini gösterir ve Onur Mağazasının kilidini açar (UR Ekipman Planlarının ana kaynağı). | Oyunun ilerleyen aşamalarındaki ekipman gelişimi için esastır. Yalnızca UR Ekipman Planları satın alın. |
-| Merak Salonu (Curio Hall) | Binalara, ekonomiye ve birlik savaş gücüne pasif bonuslar sağlayan toplanan Merak Unsurlarını barındırır. | Kalıcı hesap genelinde artışlar için Merak Ünitesi yıldız seviyelerini yükseltin. |
-| Meyhane (Tavern) | Kahraman alımı — banner ve çekiliş sistemi burada bulunur. | Elmasları buraya boşaltmak yerine tarihe bağlı UR etkinlikleri için saklayın. |
+| Onur Salonu (Onur Salonu) | Kahraman onur seviyelerini gösterir ve Onur Mağazasının kilidini açar (UR Ekipman Planlarının ana kaynağı). | Oyunun ilerleyen aşamalarındaki ekipman gelişimi için esastır. Yalnızca UR Ekipman Planları satın alın. |
+| Merak Salonu (Nadide Salonu) | Binalara, ekonomiye ve birlik savaş gücüne pasif bonuslar sağlayan toplanan Merak Unsurlarını barındırır. | Kalıcı hesap genelinde artışlar için Merak Ünitesi yıldız seviyelerini yükseltin. |
+| Meyhane (Meyhane) | Kahraman alımı — banner ve çekiliş sistemi burada bulunur. | Elmasları buraya boşaltmak yerine tarihe bağlı UR etkinlikleri için saklayın. |
 | Şahin Kulesi (Falcon Tower) | Elmaslar, hızlandırmalar, kahraman parçaları ve antitoksin ödüllendiren günlük görevler üretir. 8. Seviye tek dokunuşla toplamayı açar. | Tamamlanan görevleri çift puanlı günler için bankaya koymak üzere "Maksimumdan 1 Eksiği İstifle" stratejisini kullanın. |
-| İttifak Salonu (Alliance Hall) | Alabileceğiniz İttifak Yardımı sayısını artırır. Garnizonu veya toplanmaları etkilemez! | Daha yüksek seviye = müttefiklerden daha fazla yardım (25. Seviyede 30 yardıma kadar, herhangi bir zamanlayıcıdan ücretsiz olarak yaklaşık %30 kazandırır). Hızlandırma tasarrufu için çok önemlidir ve Sığınak 7, 8, 9, 13, 20 ve 29 için zorunlu bir ön koşuldur. |
+| İttifak Salonu (İttifak Salonu) | Alabileceğiniz İttifak Yardımı sayısını artırır. Garnizonu veya toplanmaları etkilemez! | Daha yüksek seviye = müttefiklerden daha fazla yardım (25. Seviyede 30 yardıma kadar, herhangi bir zamanlayıcıdan ücretsiz olarak yaklaşık %30 kazandırır). Hızlandırma tasarrufu için çok önemlidir ve Sığınak 7, 8, 9, 13, 20 ve 29 için zorunlu bir ön koşuldur. |
 
 ### Kışla ve Eğitim Sahası — İsimlendirme Tuzağı {#barracks-vs-training}
 
@@ -106,7 +106,7 @@ Aşağıda doğrudan oyun istemcisi ikilisinden çıkarılan eksiksiz, resmi sev
 | Sev. | Ön Koşullar | Temel Süre | Kaynaklar (Tahıl / Kereste / Bitki) | Kilidi Açılanlar |
 | :---: | :--- | :---: | :--- | :--- |
 | **26** | Araştırma Laboratuvarı 25 + Savaşçı Heykeli (Tapınak) 25 + Antitoksin Atölyesi 13 | 31.0 gün (743.5 sa) | 386.8M / 386.8M / 123.5M | En üst düzey atölye ekipman ustalığı |
-| **27** | Araştırma Laboratuvarı 26 + Eğitim Sahası 26 + Farm 13 | 43.4 gün (1041.0 sa) | 548.0M / 548.0M / 168.6M | **9. Kademe Birlikler** (Eğitim Sahası Sev.27'de) |
+| **27** | Araştırma Laboratuvarı 26 + Eğitim Sahası 26 + Çiftlik 13 | 43.4 gün (1041.0 sa) | 548.0M / 548.0M / 168.6M | **9. Kademe Birlikler** (Eğitim Sahası Sev.27'de) |
 | **28** | Araştırma Laboratuvarı 27 + Kışla 27 + Kereste Fabrikası 13 | 60.7 gün (1457.3 sa) | 731.1M / 731.1M / 236.5M | Maksimum güvenli depolama ve Hastane kapasiteleri |
 | **29** | Araştırma Laboratuvarı 28 + İttifak Salonu 28 + Bitki Bahçesi 13 | 78.9 gün (1894.5 sa) | 1.05 B / 1.05 B / 316.4M | T10 öncesi hazırlık |
 | **30** | Araştırma Laboratuvarı 29 + Eğitim Sahası 29 + Antitoksin Atölyesi 15 | 102.6 gün (2462.9 sa) | 1.36 B / 1.36 B / 441.3M | **MUTLAK SINIR! 10. Kademe Birlikler** (ES 30 + Teknoloji), Uzmanlık Teknoloji dalı |
@@ -213,12 +213,12 @@ Bina limitleri bir şehrin aynı türden kaç bina barındırabileceğini sını
 
 | Bina | Toplam izin verilen |
 |---|---|
-| Çiftlik (Farm) | 5 |
-| Kereste Fabrikası (Lumberyard) | 5 |
+| Çiftlik (Çiftlik) | 5 |
+| Kereste Fabrikası (Kereste Deposu) | 5 |
 | Bitki Bahçesi (Herb garden) | 5 |
 | Eğitim Sahası (Training ground) | 4 |
 | Hastane (Infirmary) | 4 |
-| Kışla (Barracks) | 4 |
+| Kışla (Kışla) | 4 |
 
 Beşinci bir üretim binası, kaynağının çıktısına dörtte bir oranında katkıda bulunur ve halihazırda ayakta duran binalarda başka bir seviyeden daha az maliyetlidir. Bunu öğrenmek işin zor kısmıdır, çünkü düğüm bina panelinde değil araştırma ağacında saklanır.
 

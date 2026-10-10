@@ -11,7 +11,7 @@ type: event
 
 Efsanevi Hazine (Mythic Treasure), korsan temalı büyük bir etkinliktir ve bir huni şeklinde tasarlanmıştır: yedi sekme, bunlardan altısı para harcamaya odaklanmıştır ve içinde gerçekten ücretsiz birkaç değer gizlidir. F2P (ücretsiz) oyuncunun yapması gereken, hangi sekmelerin kazandırdığını ve hangilerinin sizi cezbetmek için var olduğunu tam olarak bilmek ve ardından ücretsiz olanları her gün oynamaktır.
 
-Bu rehber, düzeltilmiş pazar önceliği, balık ekonomisi, Gömülü Hazine (Buried Treasure) stratejisi ve herkesi hazırlıksız yakalayan çapa-para (anchor coin) son kullanma kuralı ile birlikte yedi sekmenin tamamını ele almaktadır.
+Bu rehber, düzeltilmiş pazar önceliği, balık ekonomisi, Gömülü Hazine (Gömülü Hazine) stratejisi ve herkesi hazırlıksız yakalayan çapa-para (anchor coin) son kullanma kuralı ile birlikte yedi sekmenin tamamını ele almaktadır.
 
 ## Bir Bakışta Yedi Sekme {#the-7-tabs}
 
@@ -60,9 +60,9 @@ Deniz Balıkları normal günlük hedeflerinizden gelir:
 
 - Şahin Kulesi (Falcon Tower)
 - Kaynak Canavarları (Resource Monsters)
-- Elit Veba (Elite Blight)
-- Gizli Operasyonlar (Black Ops)
-- Gezici Veba (Wandering Blight)
+- Elit Veba (Seçkin Vebalı)
+- Gizli Operasyonlar (Gizli Operasyon)
+- Gezici Veba (Vebalı Gezgin)
 
 Kritik sayı: **GÜNLÜK LİMİT 300 balık**. Bunun ötesinde kasarsanız çeteleri boşuna öldürüyorsunuz demektir — sayaç durur. 300'e ulaşın, durun, zamanınızı saklayın. Balıklar Büyük Ziyafet'i besler, bu yüzden iki sekme birlikte tüm etkinliğin F2P çekirdeğini oluşturur.
 

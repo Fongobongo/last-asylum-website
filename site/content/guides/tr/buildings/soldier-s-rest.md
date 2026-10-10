@@ -45,6 +45,6 @@ Askerin Dinlenme Yeri'nin 23. seviyesi doğal bir durak noktası görevi görür
 
 Yükseltmenin geri kalanı, sağladığı getiriyle orantılı değildir. 24 ile 30 arasındaki seviyeler 2.293.395.000 Tahıl, aynı miktarda Kereste ve 265 gün 21 saat (tüm binanın dokuz onda biri) gerektirir ve yalnızca kapasiteyi 1.545'ten 2.000 düşen askere çıkarır, bekleme süresini 52 saatten 48'e kısaltır ve yardımı 9'dan 10'a yükseltir.
 
-Güç (Might) de bir gerekçe olamaz. 30. seviyede Dinlenme Yeri 3.000 güç sağlar; aynı 299 gün 4 saatlik inşaat süresinde Tahıl Ambarı (Granary) 287.500 güç sağlar. Kaynak başına ölçüldüğünde, şehirdeki diğer tüm binalardan daha az getiri sağlar.
+Güç (Might) de bir gerekçe olamaz. 30. seviyede Dinlenme Yeri 3.000 güç sağlar; aynı 299 gün 4 saatlik inşaat süresinde Tahıl Ambarı (Tahıl Ambarı) 287.500 güç sağlar. Kaynak başına ölçüldüğünde, şehirdeki diğer tüm binalardan daha az getiri sağlar.
 
 Dinlenme Yeri'nin değeri oyunun başındaki şehir aşamasında yatar. Sığınak seviye 1'den itibaren kullanılabilir durumdayken, Hastane (Infirmary) yalnızca 7. seviyede açılır ve o zamana kadar Dinlenme Yeri kalıcı kayıplara karşı tek korumadır. Düşen bir askeri diriltmek, yaralı birini iyileştirmekle aynı maliyete (askere alım maliyetinin %30'u) sahiptir.

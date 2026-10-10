@@ -36,7 +36,7 @@ Dit gebouw geeft geen stat-bonus: het ontgrendelt een optie in plaats van percen
 
 ## Hoe te gebruiken
 
-De Arena kost 480 Graan en 360 Hout en is in minder dan een minuut klaar. Het Raven Nest, de Curio Hall, Black Ops en de Nomad Trader hebben precies dezelfde prijs, dus 840 grondstoffen veranderen niets op Heiligdom niveau 7.
+De Arena kost 480 Graan en 360 Hout en is in minder dan een minuut klaar. Het Ravennest, de Curiozaal, Geheime Operaties en de Nomaden\nhandelaar hebben precies dezelfde prijs, dus 840 grondstoffen veranderen niets op Heiligdom niveau 7.
 
 De Arena verdient zichzelf sneller terug dan enig ander gebouw in de stad. Een overwinning in de laagste arena levert 50.000 Antitoxine op en een verlies 25.000, terwijl vijf gratis gevechten per dag 250.000 Antitoxine opleveren. Die eerste dag levert bijna driehonderd keer de grondstoffen op die het kostte, en elke dag daarna levert hetzelfde op.
 

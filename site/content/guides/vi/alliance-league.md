@@ -10,7 +10,7 @@ updated: "2026-09-14"
 
 Nguồn: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/alliance-league), client v1.0.87.
 
-Giải đấu Liên minh (Alliance League) là một cuộc thi theo mùa giữa các liên minh với cơ chế thăng hạng qua các phân hạng, và phần thưởng phụ thuộc vào hai thứ hạng cùng lúc: thứ hạng của liên minh khi kết thúc giải và thứ hạng của người chơi trong liên minh đó. Việc chỉ nằm trong một liên minh mạnh là chưa đủ, vì vị trí cá nhân sẽ quyết định hàng nào trong bảng phần thưởng được áp dụng. Phần thưởng chủ yếu là Cuộn Nghiên cứu (Study Scrolls).
+Giải đấu Liên minh (Liên Đấu Công Hội) là một cuộc thi theo mùa giữa các liên minh với cơ chế thăng hạng qua các phân hạng, và phần thưởng phụ thuộc vào hai thứ hạng cùng lúc: thứ hạng của liên minh khi kết thúc giải và thứ hạng của người chơi trong liên minh đó. Việc chỉ nằm trong một liên minh mạnh là chưa đủ, vì vị trí cá nhân sẽ quyết định hàng nào trong bảng phần thưởng được áp dụng. Phần thưởng chủ yếu là Cuộn Nghiên cứu (Study Scrolls).
 
 Mỗi giải đấu có bảng phần thưởng riêng, và một hàng sẽ được chọn dựa trên thứ hạng liên minh kết hợp với thứ hạng của người chơi bên trong liên minh đó.
 

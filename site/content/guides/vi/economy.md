@@ -120,10 +120,10 @@ Thu nhập bi ký dành cho người chơi cày chay là hoàn toàn có thật 
 ## Quy tắc Kim cương: Vòng quay, Banner và Mốc thưởng {#diamond-rules}
 
 1. **Nhìn tổng thể thay vì chi tiết nhỏ: 10.000 kim cương → VIP Hàng tháng.** Bất chấp mọi tính toán về vòng quay, khoản đầu tư kim cương đơn lẻ tốt nhất trong trò chơi chính là 10K VIP Hàng tháng — không bàn cãi.
-2. **Tiết kiệm đến ngày thứ 8** cho Vòng quay May mắn Cynthia — 7 lượt quay miễn phí hàng ngày + mốc 10 lượt quay (10 mảnh = nhận đủ tướng) đồng nghĩa với việc chi phí thực tế chỉ khoảng ~1.500 kim cương cho các lượt quay bổ sung. Dừng lại ngay sau khi đạt mốc.
-3. **Sau ngày 15, hãy để dành cho vòng quay của Joker** — sự kiện kết liễu PvP tướng UR. Dự trữ kim cương giai đoạn giữa game tồn tại là vì mục đích này.
+2. **Tiết kiệm đến ngày thứ 8** cho Vòng quay May mắn Xynthia — 7 lượt quay miễn phí hàng ngày + mốc 10 lượt quay (10 mảnh = nhận đủ tướng) đồng nghĩa với việc chi phí thực tế chỉ khoảng ~1.500 kim cương cho các lượt quay bổ sung. Dừng lại ngay sau khi đạt mốc.
+3. **Sau ngày 15, hãy để dành cho vòng quay của Hề** — sự kiện kết liễu PvP tướng UR. Dự trữ kim cương giai đoạn giữa game tồn tại là vì mục đích này.
 4. **Đừng bao giờ đổ kim cương vào chiêu mộ tiêu chuẩn.** Hãy chờ các banner tăng tỷ lệ — cùng một loại tiền tệ, nhưng tướng ngon hơn.
-5. **Đừng cố đạt các mốc tiêu xài kim cương tích lũy** như Quà của Biển sâu (Deep Sea's Gift). Việc tiêu kim cương chỉ để vượt qua ngưỡng phần thưởng giống như mua mốc thưởng chứ không phải mua giá trị.
+5. **Đừng cố đạt các mốc tiêu xài kim cương tích lũy** như Quà của Biển sâu (Quà Tặng Đại Dương). Việc tiêu kim cương chỉ để vượt qua ngưỡng phần thưởng giống như mua mốc thưởng chứ không phải mua giá trị.
 
 ### Gói Tốt nhất (Khoảng giá $20-200) {#best-packs}
 
@@ -164,7 +164,7 @@ Quy luật: +1M cho mỗi cấp Trụ sở lên đến cấp 20, sau đó +2M m�
 
 Không bao giờ tấn công cùng một "nông trại" (farm) quá chín lần liên tiếp. Cú đánh thứ mười sẽ phá hủy hoàn toàn thành phố và dịch chuyển chủ nhân của nó đi nơi khác — bạn mất đi nguồn farm, và người chơi đó mất thành phố của họ. Chín lần đánh là trần giới hạn; cộng đồng coi đó là một nghĩa vụ bắt buộc chứ không phải một lời gợi ý.
 
-### Kỹ thuật Thực chiến: Thực hiện một Vòng Farm Trọn vẹn {#field-technique}
+### Kỹ thuật Thực chiến: Thực hiện một Vòng Nông Trại Trọn vẹn {#field-technique}
 
 Quy trình đã được cộng đồng kiểm chứng cho một phiên cướp bóc hàng ngày hoàn hảo:
 
@@ -205,7 +205,7 @@ Các giá trị đã được xác minh từ dữ liệu khách hàng trò chơi
 |---|---|---|
 | nâng cấp công trình | 15,365,510,570 | 199,000,000 |
 | tập kích (rallies) | 1,322,896,191 | 5,048,000 |
-| Cuộc vây hãm Thây ma (Undead Siege) | 1,104,884,000 | 41,800,000 |
+| Cuộc vây hãm Thây ma (Zombie Vây Thành) | 1,104,884,000 | 41,800,000 |
 | tiếp tế cấp độ | 1,094,961,240 | 38,136,000 |
 | trùm liên minh Con đường Tướng (Hero Road) | 572,191,000 | 105,000,000 |
 | phần thưởng treo máy chiến dịch | 383,146,640 | 1,188,000 |
@@ -230,7 +230,7 @@ Các giá trị đã được xác minh từ dữ liệu khách hàng trò chơi
 | Nguồn | Tổng cộng | Lượng rớt lớn nhất |
 |---|---|---|
 | gói nạp tiền | 1,342,050 | 52,000 |
-| hòm Gặp gỡ Bất ngờ (Surprise Encounter) | 481,600 | 80,000 |
+| hòm Gặp gỡ Bất ngờ (Cuộc Gặp Bất Ngờ) | 481,600 | 80,000 |
 | nhiệm vụ phát triển tướng | 375,000 | 4,500 |
 | nhiệm vụ trùm vực thẳm | 317,000 | 50,000 |
 | phần thưởng mùa đấu trường | 263,800 | 21,000 |

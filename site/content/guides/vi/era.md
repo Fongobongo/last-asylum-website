@@ -7,7 +7,7 @@ videoTopic: era
 calculators: ["claire-shards"]
 ---
 
-Kỷ nguyên hồi sinh (Era of Revival) là lớp nội dung theo mùa xuất hiện vào khoảng ngày 120 — chu kỳ kéo dài khoảng hai tháng, bổ sung hệ thống tiến trình riêng bên trên trò chơi cơ bản: Tượng Chúa công (Kháng cự và Tiến hóa Chúa công), bảng Chuyên môn (Specialty trees) và Dịch bệnh Tinh nhuệ (Elite Blight).
+Kỷ nguyên hồi sinh (Era of Revival) là lớp nội dung theo mùa xuất hiện vào khoảng ngày 120 — chu kỳ kéo dài khoảng hai tháng, bổ sung hệ thống tiến trình riêng bên trên trò chơi cơ bản: Tượng Chúa công (Kháng cự và Tiến hóa Chúa công), bảng Chuyên môn (Specialty trees) và Dịch bệnh Tinh nhuệ (Zombie Tinh Anh).
 
 Phần thưởng mùa giải đòi hỏi sự tập trung, và nó sẽ trừng phạt sự xao nhãng nặng nề hơn so với trò chơi cơ bản. Trang này đề cập đến những việc cần ưu tiên hàng ngày, bảng chuyên môn nào phù hợp với mức chi tiêu của bạn, những gì cần tích trữ trước khi mùa giải bắt đầu, và toán học hoàn chỉnh của việc chuyển đổi Claire từ SSR lên UR.
 
@@ -144,7 +144,7 @@ Cạm bẫy: buff đội bị động của cô ấy sẽ giảm đi khi bạn c
 
 ### Tránh sự sụt giảm: Chiến lược Điện Danh Dự {#skip-the-dip}
 
-Bạn có thể bỏ qua hoàn toàn sự sụt giảm này bằng cách chuẩn bị các cấp độ Điện Danh Dự (Hall of Honor) **trước khi** chuyển đổi:
+Bạn có thể bỏ qua hoàn toàn sự sụt giảm này bằng cách chuẩn bị các cấp độ Điện Danh Dự (Hội Trường Vinh Quang) **trước khi** chuyển đổi:
 
 | Cấp độ Điện Danh Dự | Kết quả chuyển đổi |
 |---|---|

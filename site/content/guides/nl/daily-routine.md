@@ -32,11 +32,11 @@ Elke moeilijkheidsgraad bestaat uit drie takken van twintig levels. Het voltooie
 
 ## Claim de gratis trekkingen
 
-Er zijn meer gratis trekkingen dan het lijkt, en ze komen allemaal dagelijks terug: één gratis oproep bij Verrassingsontmoeting (Surprise Encounter), één gratis munt per Wenswiel (Wishing Wheel), en één gratis trekking in elk van de vijf rekruteringspools, elk met een eigen timer.
+Er zijn meer gratis trekkingen dan het lijkt, en ze komen allemaal dagelijks terug: één gratis oproep bij Verrassingsontmoeting (Onverwachte ontmoeting), één gratis munt per Wenswiel (Wensrad), en één gratis trekking in elk van de vijf rekruteringspools, elk met een eigen timer.
 
 ## Sluit de huidige fase af
 
-Overlevingsgevecht (Survival Battle) en Topgenezer (Top Healer) tellen alleen acties van de lopende fase mee, dus voorraden worden volgens planning besteed: versnellingen in de bouwfase, energie in de ravensfase, rekruteringstrekkingen in de heldenfase.
+Overlevingsgevecht (Overlevingsstrijd) en Topgenezer (Topgenezer) tellen alleen acties van de lopende fase mee, dus voorraden worden volgens planning besteed: versnellingen in de bouwfase, energie in de ravensfase, rekruteringstrekkingen in de heldenfase.
 
 ## Waar gevechtspassen het vaakst om vragen
 

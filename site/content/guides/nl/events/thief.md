@@ -87,7 +87,7 @@ De community baassamenstelling, gebouwd voor schade over tijd:
 | Rij | Helden | Rol |
 |---|---|---|
 | Voorste | Arthur + Bella | Overleef langer — elke extra seconde overleving stapelt meer schade |
-| Achterste | Marlena + Shadow + Claire | Schademachine achter de frontlinie |
+| Achterste | Marlena + Schaduw + Claire | Schademachine achter de frontlinie |
 
 De logica: **langer overleven = meer gestapelde schade**. Een baasgevecht is geen burst-check — het team dat het langst standhoudt, doet de meeste schade, dus geef prioriteit aan overleven boven pure aanval. Volledige heldendetails staan in de [Heldengids](/nl/heroes/).
 

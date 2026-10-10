@@ -16,7 +16,7 @@ Hãy thực hiện danh sách này theo thứ tự. Mọi thứ khác trong trò
 
 1. **Tham gia một liên minh tích cực ngay lập tức.** Sự trợ giúp xây dựng giúp giảm thời gian chờ, các sự kiện liên minh mang lại phần thưởng miễn phí, và việc có liên minh giúp ngăn chặn kẻ tấn công. Một liên minh chết không mang lại cho bạn bất kỳ lợi ích nào.
 2. **Đẩy cấp Sanctuary của bạn.** Cấp độ Sanctuary chính là cấp độ người chơi thực sự của bạn — nó giới hạn cấp độ tối đa của anh hùng, mở khóa công trình và cấp bậc quân đội.
-3. **Giữ Builder's Hut (Lều thợ xây) ở cấp độ Sanctuary cho đến khi đạt Sanctuary 15.** Nó mở rộng cửa sổ hoàn thành miễn phí cho các bộ đếm thời gian xây dựng (giúp cắt giảm hàng giờ chờ đợi cho các nâng cấp dài), đây là yếu tố tăng tốc đầu game lớn nhất trong trò chơi.
+3. **Giữ Lán Xây Dựng (Lều thợ xây) ở cấp độ Sanctuary cho đến khi đạt Sanctuary 15.** Nó mở rộng cửa sổ hoàn thành miễn phí cho các bộ đếm thời gian xây dựng (giúp cắt giảm hàng giờ chờ đợi cho các nâng cấp dài), đây là yếu tố tăng tốc đầu game lớn nhất trong trò chơi.
 4. **Chỉ chọn hai hoặc ba anh hùng.** Mỗi mảnh (shard), huy hiệu kỹ năng và bình EXP mà bạn phân tán ra đều là thứ mà đội hình chính của bạn sẽ không bao giờ nhận được.
 5. **Kiểm tra lịch sự kiện trước khi sử dụng tăng tốc (speedups).** Nhiều sự kiện trả thưởng cho những việc bạn vốn dĩ sẽ làm — hãy tận dụng tối đa.
 6. **Bắt đầu cướp bóc ngay từ ngày đầu.** Thu nhập từ cướp bóc sẽ tích lũy; về sau trong trò chơi, một ngày bỏ lỡ việc tấn công đồng nghĩa với việc mất đi khoảng 27 triệu tài nguyên.
@@ -41,12 +41,12 @@ Sanctuary là công trình trung tâm lớn và là thứ gần giống với c�
 
 - Cấp độ công trình — không gì trong thành phố của bạn có thể vượt quá giới hạn của Sanctuary tương ứng.
 - Giới hạn cấp độ anh hùng — anh hùng của bạn không thể vượt cấp Sanctuary.
-- Cấp bậc quân đội — các cấp bậc cao hơn được mở khóa thông qua Training Grounds (Sân huấn luyện), vốn cũng bị giới hạn bởi Sanctuary.
-- Mở khóa tính năng — xưởng, Tavern (Quán rượu), các tính năng liên minh và chế độ sự kiện đều xuất hiện ở các cấp độ Sanctuary cố định.
+- Cấp bậc quân đội — các cấp bậc cao hơn được mở khóa thông qua Sân Huấn Luyện (Sân huấn luyện), vốn cũng bị giới hạn bởi Sanctuary.
+- Mở khóa tính năng — xưởng, Quán Rượu (Quán rượu), các tính năng liên minh và chế độ sự kiện đều xuất hiện ở các cấp độ Sanctuary cố định.
 
 Vì lý do đó, nâng cấp Sanctuary luôn nằm ở vị trí ưu tiên hàng đầu trong danh sách xây dựng. Lộ trình đầy đủ nằm trong [Hướng dẫn công trình](/vi/buildings/).
 
-Một quy tắc dành riêng cho người mới: giữ Builder's Hut ở cấp độ Sanctuary hiện tại cho đến khi bạn đạt Sanctuary 15. Nó mở rộng cửa sổ hoàn thành miễn phí cho các bộ đếm thời gian (xây dựng mà bạn có thể hoàn thành miễn phí ở cuối), và sự mở rộng đó là thứ giúp bạn tiếp tục đẩy cấp Sanctuary mà không cần đốt cháy các tăng tốc đã tích lũy.
+Một quy tắc dành riêng cho người mới: giữ Lán Xây Dựng ở cấp độ Sanctuary hiện tại cho đến khi bạn đạt Sanctuary 15. Nó mở rộng cửa sổ hoàn thành miễn phí cho các bộ đếm thời gian (xây dựng mà bạn có thể hoàn thành miễn phí ở cuối), và sự mở rộng đó là thứ giúp bạn tiếp tục đẩy cấp Sanctuary mà không cần đốt cháy các tăng tốc đã tích lũy.
 
 ## Chỉ chọn hai hoặc ba anh hùng {#pick-heroes}
 

@@ -36,10 +36,10 @@ Bu bina herhangi bir istatistik bonusu vermez: yüzdeler yerine bir seçenek sun
 
 ## Nasıl kullanılır
 
-İttifak Ahırı 12 Tahıl ve 9 Kereste maliyetindedir ve 500 Güç sağlar. Şehirdeki neredeyse hiçbir şey kaynak başına bu kadar getiri sağlamaz: Anıt, 840 kaynak karşılığında bunun dörtte birini verir. Anında yükselir, bu yüzden Sığınak 11. seviyede seçim iki ahır arasında değil, aynı seviyede açılan ve 272.600 Güç için 299 günlük inşaat süresi gerektiren Warlock Statue (Büyücü Heykeli) etrafında yapılır.
+İttifak Ahırı 12 Tahıl ve 9 Kereste maliyetindedir ve 500 Güç sağlar. Şehirdeki neredeyse hiçbir şey kaynak başına bu kadar getiri sağlamaz: Anıt, 840 kaynak karşılığında bunun dörtte birini verir. Anında yükselir, bu yüzden Sığınak 11. seviyede seçim iki ahır arasında değil, aynı seviyede açılan ve 272.600 Güç için 299 günlük inşaat süresi gerektiren Büyücü Heykeli (Büyücü Heykeli) etrafında yapılır.
 
 Ahırın amacı Güç değil, ittifak kervanıdır: yirmi üyeye, altı vagona ve bir lokomotife kadar, iki saate varan toplanma süresiyle. Böyle bir kervan kişisel olandan daha fazlasını taşır ve aynı zamanda daha sık, ikiye karşı üç kez soyulabilir.
 
-Bu nedenle iki ahır bir çift olarak çalışır. Private Stable (Özel Ahır), oyuncunun kendi inşaatı için kaynak taşır ve 10 Tahıl maliyetindedir; ittifak ahırı ise yirmi kişi tek bir seferde toplanmaya hazır olduğunda kazanç sağlamaya başlar. Tek başına kullanışsızdır ve Sığınak seviyesinin kendisinden ziyade aktif bir ittifak için inşa etmeye değerdir.
+Bu nedenle iki ahır bir çift olarak çalışır. Özel Ahır (Özel Ahır), oyuncunun kendi inşaatı için kaynak taşır ve 10 Tahıl maliyetindedir; ittifak ahırı ise yirmi kişi tek bir seferde toplanmaya hazır olduğunda kazanç sağlamaya başlar. Tek başına kullanışsızdır ve Sığınak seviyesinin kendisinden ziyade aktif bir ittifak için inşa etmeye değerdir.
 
 Şehirde 500 Güç değerinde dört anlık bina bulunur: her iki ahır, Tapınak ve Onur Salonu. Geri kalanlar 100 veya 200 verir, Lord Heykeli ise hiçbir şey vermez. Bir fraksiyon heykelinin 272.600 Gücü karşısında bu rakamlar arasındaki fark pek bir anlam ifade etmez, bu yüzden bir bina asla Gücü için seçilmez. İttifak kervanı iki saate kadar toplanır, bu nedenle tek bir seferin gerçekleşmesi için yirmi kişinin bu süre zarfında anlaşması gerekir.

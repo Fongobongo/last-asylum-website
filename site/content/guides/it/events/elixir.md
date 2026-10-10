@@ -9,7 +9,7 @@ infographics: ["/infographics/elixir-guide.webp", "/infographics/elixir-strategy
 type: event
 ---
 
-Il Mischiuccio di Elisir (Elixir Scramble) è un **campo di battaglia alleanza contro alleanza di 30 minuti** in cui a vincere sono i punti, non chi elimina più truppe. Le alleanze che lo affrontano come un deathmatch perdono regolarmente contro quelle che lo trattano come un gioco di controllo della mappa.
+Il Mischiuccio di Elisir (Corsa all'elisir) è un **campo di battaglia alleanza contro alleanza di 30 minuti** in cui a vincere sono i punti, non chi elimina più truppe. Le alleanze che lo affrontano come un deathmatch perdono regolarmente contro quelle che lo trattano come un gioco di controllo della mappa.
 
 Questa guida copre le cinque fasi dell'evento, da dove arrivano realmente i punti, le regole di teletrasporto, la logica di difesa e l'unico errore che compromette una partita prima ancora che inizi.
 
