@@ -8,14 +8,103 @@ interface Props {
 const { lang = 'en' } = Astro.props;
 const isRu = lang === 'ru';
 
+const T = (k: string): string => {
+  const table: Record<string, string> | undefined = (STR as any)[lang] ?? STR.en;
+  return table?.[k] ?? (STR.en as any)[k] ?? k;
+};
+const STR: Record<string, Record<string, string>> = {
+  ru: {
+    s0: 'Установить приложение LA: Plague Hub',
+    s1: 'Быстрый доступ к гайдам, калькуляторам и таймкодам даже офлайн.',
+    s2: 'Установить',
+    s3: 'Понятно',
+    s4: 'Для установки на iPhone: нажмите «Поделиться» (иконка квадрата со стрелкой) внизу Safari и выберите «На экран «Домой»» 📲',
+  },
+  en: {
+    s0: 'Install LA: Plague Hub App',
+    s1: 'Quick offline access to guides, calculators, and tools.',
+    s2: 'Install',
+    s3: 'Got it',
+    s4: 'To install on iPhone: tap Share in Safari and choose "Add to Home Screen" 📲',
+  },
+  de: {
+    s0: 'LA: Plague Hub App installieren',
+    s1: 'Schneller Offline-Zugriff auf Guides, Rechner und Tools.',
+    s2: 'Installieren',
+    s3: 'Verstanden',
+    s4: 'Zur Installation auf dem iPhone: tippe auf Teilen in Safari und wähle „Zum Home-Bildschirm hinzufügen“ 📲',
+  },
+  es: {
+    s0: 'Instalar la aplicación LA: Plague Hub',
+    s1: 'Acceso rápido sin conexión a guías, calculadoras y herramientas.',
+    s2: 'Instalar',
+    s3: 'Entendido',
+    s4: 'Para instalar en iPhone: toca Compartir en Safari y elige "Añadir a la pantalla de inicio" 📲',
+  },
+  pt: {
+    s0: 'Instalar o aplicativo LA: Plague Hub',
+    s1: 'Acesso offline rápido a guias, calculadoras e ferramentas.',
+    s2: 'Instalar',
+    s3: 'Entendido',
+    s4: 'Para instalar no iPhone: toque em Compartilhar no Safari e escolha "Adicionar à Tela de Início" 📲',
+  },
+  fr: {
+    s0: 'Installer l\'application LA: Plague Hub',
+    s1: 'Accès hors ligne rapide aux guides, calculateurs et outils.',
+    s2: 'Installer',
+    s3: 'Compris',
+    s4: 'Pour installer sur iPhone : touchez Partager dans Safari et choisissez "Sur l\'écran d\'accueil" 📲',
+  },
+  id: {
+    s0: 'Instal Aplikasi LA: Plague Hub',
+    s1: 'Akses offline cepat ke panduan, kalkulator, dan alat.',
+    s2: 'Instal',
+    s3: 'Mengerti',
+    s4: 'Untuk menginstal di iPhone: ketuk Bagikan di Safari dan pilih "Tambahkan ke Layar Utama" 📲',
+  },
+  ko: {
+    s0: 'Last Asylum: Plague Hub 앱 설치',
+    s1: '가이드, 계산기, 도구에 빠르게 오프라인으로 액세스하세요.',
+    s2: '설치',
+    s3: '확인',
+    s4: 'iPhone에 설치 방법: 사파리(Safari)에서 공유를 누르고 "홈 화면에 추가"를 선택하세요 📲',
+  },
+  ja: {
+    s0: 'Last Asylum: Plague Hubアプリをインストール',
+    s1: 'ガイド、計算機、ツールにオフラインで素早くアクセス。',
+    s2: 'インストール',
+    s3: '了解',
+    s4: 'iPhoneにインストールするには：Safariで「共有」をタップし、「ホーム画面に追加」を選択してください 📲',
+  },
+  ar: {
+    s0: 'تثبيت تطبيق LA: Plague Hub',
+    s1: 'وصول سريع دون اتصال بالإنترنت إلى الأدلة والآلات الحاسبة والأدوات.',
+    s2: 'تثبيت',
+    s3: 'فهمت',
+    s4: 'للتثبيت على iPhone: اضغط على مشاركة في Safari واختر "إضافة إلى الشاشة الرئيسية" 📲',
+  },
+  it: {
+    s0: 'Installa l\'App LA: Plague Hub',
+    s1: 'Accesso rapido offline a guide, calcolatori e strumenti.',
+    s2: 'Installa',
+    s3: 'Capito',
+    s4: 'Per installare su iPhone: tocca Condividi in Safari e seleziona "Aggiungi a Home" 📲',
+  },
+  th: {
+    s0: 'ติดตั้งแอป LA: Plague Hub',
+    s1: 'เข้าถึงคู่มือ เครื่องคำนวณ และเครื่องมือแบบออฟไลน์ได้อย่างรวดเร็ว',
+    s2: 'ติดตั้ง',
+    s3: 'เข้าใจแล้ว',
+    s4: 'วิธีติดตั้งบน iPhone: แตะแชร์ใน Safari แล้วเลือก "เพิ่มไปยังหน้าจอโฮม" 📲',
+  },
+};
+
 const dict = {
-  title: isRu ? 'Установить приложение LA: Plague Hub' : 'Install LA: Plague Hub App',
-  desc: isRu ? 'Быстрый доступ к гайдам, калькуляторам и таймкодам даже офлайн.' : 'Quick offline access to guides, calculators, and tools.',
-  btnInstall: isRu ? 'Установить' : 'Install',
-  iosHint: isRu 
-    ? 'Для установки на iPhone: нажмите «Поделиться» (иконка квадрата со стрелкой) внизу Safari и выберите «На экран «Домой»» 📲' 
-    : 'To install on iPhone: tap Share in Safari and choose "Add to Home Screen" 📲',
-  gotIt: isRu ? 'Понятно' : 'Got it',
+  title: T('s0'),
+  desc: T('s1'),
+  btnInstall: T('s2'),
+  iosHint: T('s4'),
+  gotIt: T('s3'),
 };
 ---
 

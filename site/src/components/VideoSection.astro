@@ -21,6 +21,107 @@ interface Props {
 }
 
 const { topic, lang } = Astro.props;
+const STR: Record<string, Record<string, string>> = {
+  ru: {
+    v0: 'Текстовая расшифровка',
+    v1: 'Таймкоды:',
+    v2: 'Расшифровка:',
+  },
+  en: {
+    v0: 'Text Transcript',
+    v1: 'Timestamps:',
+    v2: 'Full Transcript:',
+  },
+  de: {
+    v0: 'Textprotokoll',
+    v1: 'Zeitstempel:',
+    v2: 'Vollständiges Protokoll:',
+  },
+  es: {
+    v0: 'Transcripción de texto',
+    v1: 'Marcas de tiempo:',
+    v2: 'Transcripción completa:',
+  },
+  pt: {
+    v0: 'Transcrição de Texto',
+    v1: 'Carimbos de Data/Hora:',
+    v2: 'Transcrição Completa:',
+  },
+  fr: {
+    v0: 'Transcription textuelle',
+    v1: 'Horodatages :',
+    v2: 'Transcription complète :',
+  },
+  id: {
+    v0: 'Transkrip Teks',
+    v1: 'Stempel Waktu:',
+    v2: 'Transkrip Lengkap:',
+  },
+  ko: {
+    v0: '텍스트 대본',
+    v1: '타임스탬프:',
+    v2: '전체 대본:',
+  },
+  ja: {
+    v0: 'テキスト文字起こし',
+    v1: 'タイムスタンプ：',
+    v2: '完全な文字起こし：',
+  },
+  ar: {
+    v0: 'نص الحوار',
+    v1: 'الطوابع الزمنية:',
+    v2: 'الحوار الكامل:',
+  },
+  it: {
+    v0: 'Trascrizione del testo',
+    v1: 'Timestamp:',
+    v2: 'Trascrizione completa:',
+  },
+  ms: {
+    v0: 'Transkrip Teks',
+    v1: 'Masa:',
+    v2: 'Transkrip Penuh:',
+  },
+  nl: {
+    v0: 'Teksttranscript',
+    v1: 'Tijdstempels:',
+    v2: 'Volledig transcript:',
+  },
+  th: {
+    v0: 'ถอดข้อความ',
+    v1: 'เวลา:',
+    v2: 'ถอดข้อความฉบับเต็ม:',
+  },
+  tr: {
+    v0: 'Metin Dökümü',
+    v1: 'Zaman Damgaları:',
+    v2: 'Tam Döküm:',
+  },
+  vi: {
+    v0: 'Bản Ghi Văn Bản',
+    v1: 'Mốc Thời Gian:',
+    v2: 'Bản Ghi Đầy Đủ:',
+  },
+  zh: {
+    v0: '文本记录',
+    v1: '时间戳：',
+    v2: '完整记录：',
+  },
+  pl: {
+    v0: 'Transkrypcja tekstowa',
+    v1: 'Znaczniki czasu:',
+    v2: 'Pełna transkrypcja:',
+  },
+  'zh-tw': {
+    v0: '逐字稿',
+    v1: '時間戳記：',
+    v2: '完整逐字稿：',
+  },
+};
+const T = (k: string): string => {
+  const table: Record<string, string> | undefined = (STR as any)[lang] ?? STR.en;
+  return table?.[k] ?? (STR.en as any)[k] ?? k;
+};
 const vids = videosFor(topic, lang);
 const topicName = getTopicName(topic, lang);
 const ytSearchUrl = getYouTubeSearchUrl(topic, lang);
@@ -117,7 +218,7 @@ const langBadges: Record<string, string> = {
                   <summary class="flex cursor-pointer select-none items-center justify-between px-3 py-2 text-toxic-400/90 hover:text-toxic-300 font-medium transition">
                     <span class="flex items-center gap-1.5">
                       <span>📝</span>
-                      <span>{lang === 'ru' ? 'Текстовая расшифровка' : 'Text Transcript'}</span>
+                      <span>{T('v0')}</span>
                       {tr.duration && <span class="rounded bg-stone-800 px-1.5 py-0.2 text-[10px] font-mono text-stone-400">{tr.duration}</span>}
                     </span>
                     <span class="text-stone-500 text-[10px] group-open/tr:rotate-180 transition-transform">▼</span>
@@ -127,7 +228,7 @@ const langBadges: Record<string, string> = {
                     {tr.timestamps.length > 0 && (
                       <div>
                         <div class="text-[10px] font-mono uppercase tracking-wider text-stone-400 mb-1.5">
-                          {lang === 'ru' ? 'Таймкоды:' : 'Timestamps:'}
+                          {T('v1')}
                         </div>
                         <div class="flex flex-wrap gap-1">
                           {tr.timestamps.map((ts) => (
@@ -149,7 +250,7 @@ const langBadges: Record<string, string> = {
                     {lines && lines.length > 0 && (
                       <div>
                         <div class="text-[10px] font-mono uppercase tracking-wider text-stone-400 mb-1.5">
-                          {lang === 'ru' ? 'Расшифровка:' : 'Full Transcript:'}
+                          {T('v2')}
                         </div>
                         <div class="max-h-52 overflow-y-auto space-y-1.5 pr-1 text-stone-300 text-[12px] leading-relaxed font-sans">
                           {lines.map((l) => (

@@ -7,6 +7,527 @@ interface Props {
 
 const { lang = 'en' } = Astro.props;
 const isRu = lang === 'ru';
+
+const T = (k: string): string => {
+  const table: Record<string, string> | undefined = (STR as any)[lang] ?? STR.en;
+  return table?.[k] ?? (STR.en as any)[k] ?? k;
+};
+const STR: Record<string, Record<string, string>> = {
+  ru: {
+    s0: 'Калькулятор Дуэли Альянсов (Дни 1–6)',
+    s1: 'Рассчитайте свои запасы и проверьте, откроете ли вы 9-й сундук (7.2M очков):',
+    s2: 'День 1: Радар',
+    s3: 'День 2: Стройка',
+    s4: 'День 3: Наука',
+    s5: 'День 4: Герои',
+    s6: 'День 5: Войска',
+    s7: 'День 6: Финал',
+    s8: 'Заданий радара завершено (×25,000)',
+    s9: 'Собрано ресурсов, млн (×100,000)',
+    s10: 'Строительных ускорений, минут (×1,000)',
+    s11: 'Прирост мощи зданий (×100)',
+    s12: 'Ускорений исследований, минут (×1,000)',
+    s13: 'Прирост мощи науки (×150)',
+    s14: 'UR-осколки героев (×20,000)',
+    s15: 'SSR-осколки героев (×7,000)',
+    s16: 'Билеты призыва (×3,450)',
+    s17: 'Значки навыков (×20)',
+    s18: 'SR-осколки героев (×2,000)',
+    s19: 'Ускорений тренировки, мин (×1,000)',
+    s20: 'Обучено солдат T8–T9 (×75)',
+    s21: 'Универсальных ускорений, мин (×1,000)',
+    s22: 'Уничтожено вражеских войск (очки мощи)',
+    s23: 'Очков за день:',
+    s24: 'Сундук 1: 100K • Сундук 6: 2M • Сундук 9: 7.2M',
+  },
+  en: {
+    s0: 'Alliance Duel Points Calculator (Days 1–6)',
+    s1: 'Calculate your stockpiles and check if you hit Chest 9 (7.2M points):',
+    s2: 'Day 1: Radar',
+    s3: 'Day 2: Build',
+    s4: 'Day 3: Tech',
+    s5: 'Day 4: Heroes',
+    s6: 'Day 5: Troops',
+    s7: 'Day 6: Kill Event',
+    s8: 'Radar tasks completed (×25,000)',
+    s9: 'Resources gathered, M (×100,000)',
+    s10: 'Building speedups, min (×1,000)',
+    s11: 'Building might gained (×100)',
+    s12: 'Research speedups, min (×1,000)',
+    s13: 'Tech might gained (×150)',
+    s14: 'UR Hero Shards (×20,000)',
+    s15: 'SSR Hero Shards (×7,000)',
+    s16: 'Recruitment Tickets (×3,450)',
+    s17: 'Skill Badges (×20)',
+    s18: 'SR Hero Shards (×2,000)',
+    s19: 'Training speedups, min (×1,000)',
+    s20: 'Troops T8–T9 trained (×75)',
+    s21: 'Universal speedups, min (×1,000)',
+    s22: 'Enemy power killed (might points)',
+    s23: 'Estimated Day Score:',
+    s24: 'Chest 1: 100K • Chest 6: 2M • Chest 9: 7.2M',
+  },
+  de: {
+    s0: 'Allianz-Duell Punkte-Rechner (Tag 1–6)',
+    s1: 'Berechne deine Vorräte und prüfe, ob du Truhe 9 (7,2 Mio. Punkte) erreichst:',
+    s2: 'Tag 1: Radar',
+    s3: 'Tag 2: Bauen',
+    s4: 'Tag 3: Forschung',
+    s5: 'Tag 4: Helden',
+    s6: 'Tag 5: Truppen',
+    s7: 'Tag 6: Kill-Event',
+    s8: 'Radar-Aufgaben abgeschlossen (×25.000)',
+    s9: 'Ressourcen gesammelt, Mio. (×100.000)',
+    s10: 'Baubeschleuniger, Min. (×1.000)',
+    s11: 'Gebäude-Stärke gewonnen (×100)',
+    s12: 'Forschungsbeschleuniger, Min. (×1.000)',
+    s13: 'Tech-Stärke gewonnen (×150)',
+    s14: 'UR Helden-Splitter (×20.000)',
+    s15: 'SSR Helden-Splitter (×7.000)',
+    s16: 'Rekrutierungstickets (×3.450)',
+    s17: 'Fähigkeitsabzeichen (×20)',
+    s18: 'SR Helden-Splitter (×2.000)',
+    s19: 'Ausbildungsbeschleuniger, Min. (×1.000)',
+    s20: 'Truppen T8–T9 ausgebildet (×75)',
+    s21: 'Universelle Beschleuniger, Min. (×1.000)',
+    s22: 'Feindliche Stärke vernichtet (Stärkepunkte)',
+    s23: 'Geschätzte Punktzahl für den Tag:',
+    s24: 'Truhe 1: 100K • Truhe 6: 2M • Truhe 9: 7,2M',
+  },
+  es: {
+    s0: 'Calculadora de puntos del Duelo de Alianzas (Días 1–6)',
+    s1: 'Calcula tus reservas y comprueba si alcanzas el Cofre 9 (7.2M de puntos):',
+    s2: 'Día 1: Radar',
+    s3: 'Día 2: Construcción',
+    s4: 'Día 3: Tecnología',
+    s5: 'Día 4: Héroes',
+    s6: 'Día 5: Tropas',
+    s7: 'Día 6: Evento de bajas',
+    s8: 'Tareas de radar completadas (×25,000)',
+    s9: 'Recursos recolectados, M (×100,000)',
+    s10: 'Aceleradores de construcción, min (×1,000)',
+    s11: 'Poder de construcción ganado (×100)',
+    s12: 'Aceleradores de investigación, min (×1,000)',
+    s13: 'Poder de tecnología ganado (×150)',
+    s14: 'Fragmentos de héroe UR (×20,000)',
+    s15: 'Fragmentos de héroe SSR (×7,000)',
+    s16: 'Tickets de reclutamiento (×3,450)',
+    s17: 'Insignias de habilidad (×20)',
+    s18: 'Fragmentos de héroe SR (×2,000)',
+    s19: 'Aceleradores de entrenamiento, min (×1,000)',
+    s20: 'Tropas T8–T9 entrenadas (×75)',
+    s21: 'Aceleradores universales, min (×1,000)',
+    s22: 'Poder enemigo eliminado (puntos de poder)',
+    s23: 'Puntuación estimada del día:',
+    s24: 'Cofre 1: 100K • Cofre 6: 2M • Cofre 9: 7.2M',
+  },
+  pt: {
+    s0: 'Calculadora de Pontos do Duelo de Alianças (Dias 1–6)',
+    s1: 'Calcule seus estoques e verifique se você atingiu o Baú 9 (7,2M de pontos):',
+    s2: 'Dia 1: Radar',
+    s3: 'Dia 2: Construção',
+    s4: 'Dia 3: Tecnologia',
+    s5: 'Dia 4: Heróis',
+    s6: 'Dia 5: Tropas',
+    s7: 'Dia 6: Evento de Eliminação',
+    s8: 'Tarefas do Radar concluídas (×25.000)',
+    s9: 'Recursos coletados, M (×100.000)',
+    s10: 'Acelerações de construção, min (×1.000)',
+    s11: 'Poder de construção ganho (×100)',
+    s12: 'Acelerações de pesquisa, min (×1.000)',
+    s13: 'Poder de tecnologia ganho (×150)',
+    s14: 'Fragmentos de Herói UR (×20.000)',
+    s15: 'Fragmentos de Herói SSR (×7.000)',
+    s16: 'Tickets de Recrutamento (×3.450)',
+    s17: 'Emblemas de Habilidade (×20)',
+    s18: 'Fragmentos de Herói SR (×2.000)',
+    s19: 'Acelerações de treinamento, min (×1.000)',
+    s20: 'Tropas T8–T9 treinadas (×75)',
+    s21: 'Acelerações universais, min (×1.000)',
+    s22: 'Poder inimigo eliminado (pontos de poder)',
+    s23: 'Pontuação estimada do dia:',
+    s24: 'Baú 1: 100K • Baú 6: 2M • Baú 9: 7,2M',
+  },
+  fr: {
+    s0: 'Calculateur de points du Duel d\'Alliance (Jours 1 à 6)',
+    s1: 'Calculez vos stocks et vérifiez si vous atteignez le Coffre 9 (7,2M de points) :',
+    s2: 'Jour 1 : Radar',
+    s3: 'Jour 2 : Construction',
+    s4: 'Jour 3 : Technologie',
+    s5: 'Jour 4 : Héros',
+    s6: 'Jour 5 : Troupes',
+    s7: 'Jour 6 : Kill Event',
+    s8: 'Tâches Radar terminées (×25 000)',
+    s9: 'Ressources collectées, M (×100 000)',
+    s10: 'Accélérations de construction, min (×1 000)',
+    s11: 'Puissance de construction gagnée (×100)',
+    s12: 'Accélérations de recherche, min (×1 000)',
+    s13: 'Puissance technologique gagnée (×150)',
+    s14: 'Fragments de héros UR (×20 000)',
+    s15: 'Fragments de héros SSR (×7 000)',
+    s16: 'Tickets de recrutement (×3 450)',
+    s17: 'Badges de compétence (×20)',
+    s18: 'Fragments de héros SR (×2 000)',
+    s19: 'Accélérations d\'entraînement, min (×1 000)',
+    s20: 'Troupes T8–T9 entraînées (×75)',
+    s21: 'Accélérations universelles, min (×1 000)',
+    s22: 'Puissance ennemie tuée (points de puissance)',
+    s23: 'Score estimé du jour :',
+    s24: 'Coffre 1 : 100K • Coffre 6 : 2M • Coffre 9 : 7,2M',
+  },
+  id: {
+    s0: 'Kalkulator Poin Alliance Duel (Hari 1–6)',
+    s1: 'Hitung stok Anda dan periksa apakah Anda mencapai Peti 9 (7,2 Juta poin):',
+    s2: 'Hari 1: Radar',
+    s3: 'Hari 2: Membangun',
+    s4: 'Hari 3: Teknologi',
+    s5: 'Hari 4: Hero',
+    s6: 'Hari 5: Pasukan',
+    s7: 'Hari 6: Kill Event',
+    s8: 'Tugas radar selesai (×25.000)',
+    s9: 'Sumber daya dikumpulkan, Juta (×100.000)',
+    s10: 'Speedup bangunan, menit (×1.000)',
+    s11: 'Might bangunan yang diperoleh (×100)',
+    s12: 'Speedup riset, menit (×1.000)',
+    s13: 'Might teknologi yang diperoleh (×150)',
+    s14: 'Shard Hero UR (×20.000)',
+    s15: 'Shard Hero SSR (×7.000)',
+    s16: 'Tiket Perekrutan (×3.450)',
+    s17: 'Lencana Skill (×20)',
+    s18: 'Shard Hero SR (×2.000)',
+    s19: 'Speedup pelatihan, menit (×1.000)',
+    s20: 'Pasukan T8–T9 dilatih (×75)',
+    s21: 'Speedup universal, menit (×1.000)',
+    s22: 'Power musuh yang dibunuh (poin might)',
+    s23: 'Estimasi Skor Hari Ini:',
+    s24: 'Peti 1: 100K • Peti 6: 2M • Peti 9: 7,2M',
+  },
+  ko: {
+    s0: '얼라이언스 결투 포인트 계산기 (1~6일차)',
+    s1: '보유 자원을 계산하고 9단계 상자(720만 포인트) 달성 여부를 확인하세요:',
+    s2: '1일차: 레이더',
+    s3: '2일차: 건설',
+    s4: '3일차: 기술',
+    s5: '4일차: 영웅',
+    s6: '5일차: 병력',
+    s7: '6일차: 킬 이벤트',
+    s8: '완료한 레이더 임무 (×25,000)',
+    s9: '채집한 자원, M (×100,000)',
+    s10: '건설 가속, 분 (×1,000)',
+    s11: '획득한 건설 전투력 (×100)',
+    s12: '연구 가속, 분 (×1,000)',
+    s13: '획득한 기술 전투력 (×150)',
+    s14: 'UR 영웅 조각 (×20,000)',
+    s15: 'SSR 영웅 조각 (×7,000)',
+    s16: '모집 티켓 (×3,450)',
+    s17: '스킬 배지 (×20)',
+    s18: 'SR 영웅 조각 (×2,000)',
+    s19: '훈련 가속, 분 (×1,000)',
+    s20: '훈련한 T8~T9 병력 (×75)',
+    s21: '범용 가속, 분 (×1,000)',
+    s22: '처치한 적군 전투력 (전투력 포인트)',
+    s23: '예상 일일 점수:',
+    s24: '1단계 상자: 100K • 6단계 상자: 2M • 9단계 상자: 7.2M',
+  },
+  ja: {
+    s0: 'アライアンス決闘ポイント計算機 (1日目～6日目)',
+    s1: '備蓄量を計算して、チェスト9（720万ポイント）に到達できるか確認しましょう：',
+    s2: '1日目：レーダー',
+    s3: '2日目：建設',
+    s4: '3日目：技術',
+    s5: '4日目：ヒーロー',
+    s6: '5日目：兵士',
+    s7: '6日目：キルイベント',
+    s8: '完了したレーダー任務 (×25,000)',
+    s9: '収集した資源、M (×100,000)',
+    s10: '建設スピードアップ、分 (×1,000)',
+    s11: '獲得した建設戦力 (×100)',
+    s12: '研究スピードアップ、分 (×1,000)',
+    s13: '獲得した技術戦力 (×150)',
+    s14: 'URヒーローの破片 (×20,000)',
+    s15: 'SSRヒーローの破片 (×7,000)',
+    s16: '募集チケット (×3,450)',
+    s17: 'スキルバッジ (×20)',
+    s18: 'SRヒーローの破片 (×2,000)',
+    s19: '訓練スピードアップ、分 (×1,000)',
+    s20: '訓練したT8～T9兵士 (×75)',
+    s21: '汎用スピードアップ、分 (×1,000)',
+    s22: '撃破した敵の戦力 (戦力ポイント)',
+    s23: '推定デイリースコア：',
+    s24: 'チェスト1：100K • チェスト6：2M • チェスト9：7.2M',
+  },
+  ar: {
+    s0: 'حاسبة نقاط Alliance Duel (الأيام 1–6)',
+    s1: 'احسب مخزونك وتحقق مما إذا كنت ستصل إلى الصندوق 9 (7.2 مليون نقطة):',
+    s2: 'اليوم 1: الرادار',
+    s3: 'اليوم 2: البناء',
+    s4: 'اليوم 3: التكنولوجيا',
+    s5: 'اليوم 4: الأبطال',
+    s6: 'اليوم 5: القوات',
+    s7: 'اليوم 6: حدث القتل',
+    s8: 'مهام الرادار المكتملة (×25,000)',
+    s9: 'الموارد التي تم جمعها، مليون (×100,000)',
+    s10: 'تسريعات البناء، دقيقة (×1,000)',
+    s11: 'قوة البناء المكتسبة (×100)',
+    s12: 'تسريعات البحث، دقيقة (×1,000)',
+    s13: 'قوة التكنولوجيا المكتسبة (×150)',
+    s14: 'شظايا بطل UR (×20,000)',
+    s15: 'شظايا بطل SSR (×7,000)',
+    s16: 'تذاكر التجنيد (×3,450)',
+    s17: 'شارات المهارة (×20)',
+    s18: 'شظايا بطل SR (×2,000)',
+    s19: 'تسريعات التدريب، دقيقة (×1,000)',
+    s20: 'قوات T8–T9 التي تم تدريبها (×75)',
+    s21: 'تسريعات عامة، دقيقة (×1,000)',
+    s22: 'قوة العدو التي تم القضاء عليها (نقاط القوة)',
+    s23: 'النتيجة التقديرية لليوم:',
+    s24: 'الصندوق 1: 100 ألف • الصندوق 6: 2 مليون • الصندوق 9: 7.2 مليون',
+  },
+  it: {
+    s0: 'Calcolatore Punti Duello Alleanza (Giorni 1–6)',
+    s1: 'Calcola le tue scorte e controlla se raggiungi il Forziere 9 (7,2M di punti):',
+    s2: 'Giorno 1: Radar',
+    s3: 'Giorno 2: Costruzione',
+    s4: 'Giorno 3: Tecnologia',
+    s5: 'Giorno 4: Eroi',
+    s6: 'Giorno 5: Truppe',
+    s7: 'Giorno 6: Evento Uccisioni',
+    s8: 'Missioni Radar completate (×25.000)',
+    s9: 'Risorse raccolte, M (×100.000)',
+    s10: 'Accelerazioni costruzione, min (×1.000)',
+    s11: 'Potenza di costruzione ottenuta (×100)',
+    s12: 'Accelerazioni ricerca, min (×1.000)',
+    s13: 'Potenza tecnologica ottenuta (×150)',
+    s14: 'Frammenti Eroe UR (×20.000)',
+    s15: 'Frammenti Eroe SSR (×7.000)',
+    s16: 'Biglietti Reclutamento (×3.450)',
+    s17: 'Distintivi Abilità (×20)',
+    s18: 'Frammenti Eroe SR (×2.000)',
+    s19: 'Accelerazioni addestramento, min (×1.000)',
+    s20: 'Truppe T8–T9 addestrate (×75)',
+    s21: 'Accelerazioni universali, min (×1.000)',
+    s22: 'Potenza nemica eliminata (punti potenza)',
+    s23: 'Punteggio stimato del giorno:',
+    s24: 'Forziere 1: 100K • Forziere 6: 2M • Forziere 9: 7,2M',
+  },
+  ms: {
+    s0: 'Kalkulator Mata Alliance Duel (Hari 1–6)',
+    s1: 'Kira stok anda dan semak sama ada anda mencapai Peti 9 (7.2M mata):',
+    s2: 'Hari 1: Radar',
+    s3: 'Hari 2: Bina',
+    s4: 'Hari 3: Teknologi',
+    s5: 'Hari 4: Hero',
+    s6: 'Hari 5: Pasukan',
+    s7: 'Hari 6: Acara Bunuh',
+    s8: 'Tugasan Radar selesai (×25,000)',
+    s9: 'Sumber dikumpul, M (×100,000)',
+    s10: 'Pecutan membina, min (×1,000)',
+    s11: 'Might membina diperoleh (×100)',
+    s12: 'Pecutan penyelidikan, min (×1,000)',
+    s13: 'Might teknologi diperoleh (×150)',
+    s14: 'Serpihan Hero UR (×20,000)',
+    s15: 'Serpihan Hero SSR (×7,000)',
+    s16: 'Tiket Rekrut (×3,450)',
+    s17: 'Lencana Kemahiran (×20)',
+    s18: 'Serpihan Hero SR (×2,000)',
+    s19: 'Pecutan latihan, min (×1,000)',
+    s20: 'Pasukan T8–T9 dilatih (×75)',
+    s21: 'Pecutan universal, min (×1,000)',
+    s22: 'Power musuh dibunuh (mata might)',
+    s23: 'Anggaran Skor Hari:',
+    s24: 'Peti 1: 100K • Peti 6: 2M • Peti 9: 7.2M',
+  },
+  nl: {
+    s0: 'Alliantie Duel Punten Calculator (Dagen 1–6)',
+    s1: 'Bereken je voorraden en controleer of je Kist 9 (7,2M punten) haalt:',
+    s2: 'Dag 1: Radar',
+    s3: 'Dag 2: Bouwen',
+    s4: 'Dag 3: Technologie',
+    s5: 'Dag 4: Helden',
+    s6: 'Dag 5: Troepen',
+    s7: 'Dag 6: Kill Event',
+    s8: 'Radartaken voltooid (×25.000)',
+    s9: 'Grondstoffen verzameld, M (×100.000)',
+    s10: 'Bouwversnellers, min (×1.000)',
+    s11: 'Bouwkracht verkregen (×100)',
+    s12: 'Onderzoeksversnellers, min (×1.000)',
+    s13: 'Technologiekracht verkregen (×150)',
+    s14: 'UR Heldenfragmenten (×20.000)',
+    s15: 'SSR Heldenfragmenten (×7.000)',
+    s16: 'Rekruteringskaarten (×3.450)',
+    s17: 'Vaardigheidsbadges (×20)',
+    s18: 'SR Heldenfragmenten (×2.000)',
+    s19: 'Trainingsversnellers, min (×1.000)',
+    s20: 'Troepen T8–T9 getraind (×75)',
+    s21: 'Universele versnellers, min (×1.000)',
+    s22: 'Vijandelijke kracht gedood (krachtpunten)',
+    s23: 'Geschatte dagscore:',
+    s24: 'Kist 1: 100K • Kist 6: 2M • Kist 9: 7,2M',
+  },
+  th: {
+    s0: 'เครื่องคำนวณคะแนน Alliance Duel (วันที่ 1–6)',
+    s1: 'คำนวณทรัพยากรที่คุณสะสมไว้และตรวจสอบว่าคุณถึงหีบสมบัติระดับ 9 (7.2 ล้านคะแนน) หรือไม่:',
+    s2: 'วันที่ 1: เรดาร์',
+    s3: 'วันที่ 2: ก่อสร้าง',
+    s4: 'วันที่ 3: เทคโนโลยี',
+    s5: 'วันที่ 4: ฮีโร่',
+    s6: 'วันที่ 5: ทหาร',
+    s7: 'วันที่ 6: กิจกรรมสังหาร (Kill Event)',
+    s8: 'ภารกิจเรดาร์ที่ทำสำเร็จ (×25,000)',
+    s9: 'ทรัพยากรที่รวบรวมได้, ล้าน (×100,000)',
+    s10: 'เร่งความเร็วก่อสร้าง, นาที (×1,000)',
+    s11: 'พลังที่ได้รับจากการก่อสร้าง (×100)',
+    s12: 'เร่งความเร็ววิจัย, นาที (×1,000)',
+    s13: 'พลังที่ได้รับจากเทคโนโลยี (×150)',
+    s14: 'เศษชิ้นส่วนฮีโร่ UR (×20,000)',
+    s15: 'เศษชิ้นส่วนฮีโร่ SSR (×7,000)',
+    s16: 'ตั๋วรับสมัคร (×3,450)',
+    s17: 'ตราทักษะ (×20)',
+    s18: 'เศษชิ้นส่วนฮีโร่ SR (×2,000)',
+    s19: 'เร่งความเร็วฝึกทหาร, นาที (×1,000)',
+    s20: 'ทหาร T8–T9 ที่ฝึกเสร็จ (×75)',
+    s21: 'เร่งความเร็วทั่วไป, นาที (×1,000)',
+    s22: 'พลังศัตรูที่สังหารได้ (คะแนนพลัง)',
+    s23: 'คะแนนโดยประมาณของวัน:',
+    s24: 'หีบ 1: 100K • หีบ 6: 2M • หีบ 9: 7.2M',
+  },
+  tr: {
+    s0: 'İttifak Düellosu Puan Hesaplayıcı (1–6. Günler)',
+    s1: 'Stoklarınızı hesaplayın ve 9. Sandığa (7,2M puan) ulaşıp ulaşmadığınızı kontrol edin:',
+    s2: '1. Gün: Radar',
+    s3: '2. Gün: İnşaat',
+    s4: '3. Gün: Teknoloji',
+    s5: '4. Gün: Kahramanlar',
+    s6: '5. Gün: Birlikler',
+    s7: '6. Gün: Öldürme Etkinliği',
+    s8: 'Tamamlanan radar görevleri (×25.000)',
+    s9: 'Toplanan kaynaklar, M (×100.000)',
+    s10: 'İnşaat hızlandırmaları, dk (×1.000)',
+    s11: 'Kazanılan inşaat gücü (×100)',
+    s12: 'Araştırma hızlandırmaları, dk (×1.000)',
+    s13: 'Kazanılan teknoloji gücü (×150)',
+    s14: 'UR Kahraman Parçaları (×20.000)',
+    s15: 'SSR Kahraman Parçaları (×7.000)',
+    s16: 'İşe Alım Biletleri (×3.450)',
+    s17: 'Yetenek Rozetleri (×20)',
+    s18: 'SR Kahraman Parçaları (×2.000)',
+    s19: 'Eğitim hızlandırmaları, dk (×1.000)',
+    s20: 'Eğitilen T8–T9 Birlikler (×75)',
+    s21: 'Evrensel hızlandırmalar, dk (×1.000)',
+    s22: 'Öldürülen düşman gücü (güç puanı)',
+    s23: 'Tahmini Günlük Skor:',
+    s24: '1. Sandık: 100K • 6. Sandık: 2M • 9. Sandık: 7,2M',
+  },
+  vi: {
+    s0: 'Công cụ tính điểm Alliance Duel (Ngày 1–6)',
+    s1: 'Tính toán kho dự trữ của bạn và kiểm tra xem bạn đã đạt Rương 9 (7,2M điểm) chưa:',
+    s2: 'Ngày 1: Radar',
+    s3: 'Ngày 2: Xây dựng',
+    s4: 'Ngày 3: Công nghệ',
+    s5: 'Ngày 4: Anh hùng',
+    s6: 'Ngày 5: Quân đội',
+    s7: 'Ngày 6: Sự kiện tiêu diệt (Kill Event)',
+    s8: 'Nhiệm vụ Radar đã hoàn thành (×25.000)',
+    s9: 'Tài nguyên đã thu thập, M (×100.000)',
+    s10: 'Tăng tốc xây dựng, phút (×1.000)',
+    s11: 'Sức mạnh xây dựng đạt được (×100)',
+    s12: 'Tăng tốc nghiên cứu, phút (×1.000)',
+    s13: 'Sức mạnh công nghệ đạt được (×150)',
+    s14: 'Mảnh anh hùng UR (×20.000)',
+    s15: 'Mảnh anh hùng SSR (×7.000)',
+    s16: 'Vé chiêu mộ (×3.450)',
+    s17: 'Huy hiệu kỹ năng (×20)',
+    s18: 'Mảnh anh hùng SR (×2.000)',
+    s19: 'Tăng tốc huấn luyện, phút (×1.000)',
+    s20: 'Quân đội T8–T9 đã huấn luyện (×75)',
+    s21: 'Tăng tốc đa năng, phút (×1.000)',
+    s22: 'Sức mạnh kẻ địch đã tiêu diệt (điểm sức mạnh)',
+    s23: 'Điểm dự kiến trong ngày:',
+    s24: 'Rương 1: 100K • Rương 6: 2M • Rương 9: 7,2M',
+  },
+  zh: {
+    s0: '联盟对决积分计算器（第1-6天）',
+    s1: '计算您的储备并检查是否达到第9个宝箱（720万积分）：',
+    s2: '第1天：雷达',
+    s3: '第2天：建筑',
+    s4: '第3天：科技',
+    s5: '第4天：英雄',
+    s6: '第5天：部队',
+    s7: '第6天：杀敌活动',
+    s8: '已完成雷达任务（×25,000）',
+    s9: '已采集资源，百万（×100,000）',
+    s10: '建筑加速，分钟（×1,000）',
+    s11: '获得的建筑战力（×100）',
+    s12: '研究加速，分钟（×1,000）',
+    s13: '获得的科技战力（×150）',
+    s14: 'UR英雄碎片（×20,000）',
+    s15: 'SSR英雄碎片（×7,000）',
+    s16: '招募券（×3,450）',
+    s17: '技能徽章（×20）',
+    s18: 'SR英雄碎片（×2,000）',
+    s19: '训练加速，分钟（×1,000）',
+    s20: '已训练T8-T9部队（×75）',
+    s21: '通用加速，分钟（×1,000）',
+    s22: '击杀敌方战力（战力积分）',
+    s23: '预计当日得分：',
+    s24: '宝箱1：10万 • 宝箱6：200万 • 宝箱9：720万',
+  },
+  pl: {
+    s0: 'Kalkulator punktów Pojedynku Sojuszy (Dni 1–6)',
+    s1: 'Oblicz swoje zapasy i sprawdź, czy osiągniesz 9. Skrzynię (7,2 mln punktów):',
+    s2: 'Dzień 1: Radar',
+    s3: 'Dzień 2: Budowa',
+    s4: 'Dzień 3: Technologia',
+    s5: 'Dzień 4: Bohaterowie',
+    s6: 'Dzień 5: Wojska',
+    s7: 'Dzień 6: Wydarzenie Kill Event',
+    s8: 'Ukończone zadania radaru (×25 000)',
+    s9: 'Zgromadzone zasoby, mln (×100 000)',
+    s10: 'Przyspieszacze budowy, min (×1 000)',
+    s11: 'Zdobyta potęga z budowy (×100)',
+    s12: 'Przyspieszacze badań, min (×1 000)',
+    s13: 'Zdobyta potęga z technologii (×150)',
+    s14: 'Odłamki bohatera UR (×20 000)',
+    s15: 'Odłamki bohatera SSR (×7 000)',
+    s16: 'Bilety rekrutacji (×3 450)',
+    s17: 'Odznaki umiejętności (×20)',
+    s18: 'Odłamki bohatera SR (×2 000)',
+    s19: 'Przyspieszacze szkolenia, min (×1 000)',
+    s20: 'Wytrenowane wojska T8–T9 (×75)',
+    s21: 'Uniwersalne przyspieszacze, min (×1 000)',
+    s22: 'Potęga pokonanych wrogów (punkty potęgi)',
+    s23: 'Szacowany wynik dnia:',
+    s24: 'Skrzynia 1: 100 tys. • Skrzynia 6: 2 mln • Skrzynia 9: 7,2 mln',
+  },
+  'zh-tw': {
+    s0: '聯盟對決積分計算器（第 1–6 天）',
+    s1: '計算您的庫存並確認是否達到寶箱 9（720 萬積分）：',
+    s2: '第 1 天：雷達',
+    s3: '第 2 天：建築',
+    s4: '第 3 天：科技',
+    s5: '第 4 天：英雄',
+    s6: '第 5 天：部隊',
+    s7: '第 6 天：殺敵活動',
+    s8: '已完成雷達任務（×25,000）',
+    s9: '已採集資源，單位：百萬（×100,000）',
+    s10: '建築加速，單位：分鐘（×1,000）',
+    s11: '獲得建築戰力（×100）',
+    s12: '研究加速，單位：分鐘（×1,000）',
+    s13: '獲得科技戰力（×150）',
+    s14: 'UR 英雄碎片（×20,000）',
+    s15: 'SSR 英雄碎片（×7,000）',
+    s16: '招募券（×3,450）',
+    s17: '技能徽章（×20）',
+    s18: 'SR 英雄碎片（×2,000）',
+    s19: '訓練加速，單位：分鐘（×1,000）',
+    s20: '已訓練 T8–T9 部隊（×75）',
+    s21: '通用加速，單位：分鐘（×1,000）',
+    s22: '擊殺敵方戰力（戰力積分）',
+    s23: '預估當日積分：',
+    s24: '寶箱 1：10 萬 • 寶箱 6：200 萬 • 寶箱 9：720 萬',
+  },
+};
+
 ---
 
 <div class="ad-calc not-prose my-10 rounded-2xl border border-toxic-500/30 bg-stone-900/80 p-6 shadow-2xl backdrop-blur-xl" id="ad-calculator">
@@ -15,11 +536,11 @@ const isRu = lang === 'ru';
       <div class="flex items-center gap-2">
         <span class="text-2xl">⚔️</span>
         <h3 class="text-xl font-bold text-white tracking-tight">
-          {isRu ? 'Калькулятор Дуэли Альянсов (Дни 1–6)' : 'Alliance Duel Points Calculator (Days 1–6)'}
+          {T('s0')}
         </h3>
       </div>
       <p class="mt-1 text-xs sm:text-sm text-stone-400">
-        {isRu ? 'Рассчитайте свои запасы и проверьте, откроете ли вы 9-й сундук (7.2M очков):' : 'Calculate your stockpiles and check if you hit Chest 9 (7.2M points):'}
+        {T('s1')}
       </p>
     </div>
     <span class="self-start rounded-full bg-toxic-500/20 px-3 py-1 font-mono text-xs font-bold text-toxic-300 border border-toxic-400/30">
@@ -30,22 +551,22 @@ const isRu = lang === 'ru';
   <!-- Day Tabs -->
   <div class="flex flex-wrap gap-1.5 mb-6" id="ad-days-tabs">
     <button type="button" data-day="1" class="ad-tab rounded-xl border border-white/10 px-3 py-2 text-xs font-semibold transition hover:bg-white/10">
-      {isRu ? 'День 1: Радар' : 'Day 1: Radar'}
+      {T('s2')}
     </button>
     <button type="button" data-day="2" class="ad-tab rounded-xl border border-white/10 px-3 py-2 text-xs font-semibold transition hover:bg-white/10">
-      {isRu ? 'День 2: Стройка' : 'Day 2: Build'}
+      {T('s3')}
     </button>
     <button type="button" data-day="3" class="ad-tab rounded-xl border border-white/10 px-3 py-2 text-xs font-semibold transition hover:bg-white/10">
-      {isRu ? 'День 3: Наука' : 'Day 3: Tech'}
+      {T('s4')}
     </button>
     <button type="button" data-day="4" class="ad-tab active rounded-xl border border-toxic-400 bg-toxic-500/20 px-3 py-2 text-xs font-bold text-toxic-300 transition shadow-[0_0_12px_rgba(180,255,57,0.2)]">
-      {isRu ? 'День 4: Герои' : 'Day 4: Heroes'}
+      {T('s5')}
     </button>
     <button type="button" data-day="5" class="ad-tab rounded-xl border border-white/10 px-3 py-2 text-xs font-semibold transition hover:bg-white/10">
-      {isRu ? 'День 5: Войска' : 'Day 5: Troops'}
+      {T('s6')}
     </button>
     <button type="button" data-day="6" class="ad-tab rounded-xl border border-white/10 px-3 py-2 text-xs font-semibold transition hover:bg-white/10">
-      {isRu ? 'День 6: Финал' : 'Day 6: Kill Event'}
+      {T('s7')}
     </button>
   </div>
 
@@ -54,11 +575,11 @@ const isRu = lang === 'ru';
     <!-- Day 1 Inputs -->
     <div class="ad-day-form hidden grid gap-3 sm:grid-cols-2" id="ad-form-1">
       <div>
-        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'Заданий радара завершено (×25,000)' : 'Radar tasks completed (×25,000)'}</label>
+        <label class="block text-xs text-stone-400 mb-1">{T('s8')}</label>
         <input type="number" data-factor="25000" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
       </div>
       <div>
-        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'Собрано ресурсов, млн (×100,000)' : 'Resources gathered, M (×100,000)'}</label>
+        <label class="block text-xs text-stone-400 mb-1">{T('s9')}</label>
         <input type="number" data-factor="100000" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
       </div>
     </div>
@@ -66,11 +587,11 @@ const isRu = lang === 'ru';
     <!-- Day 2 Inputs -->
     <div class="ad-day-form hidden grid gap-3 sm:grid-cols-2" id="ad-form-2">
       <div>
-        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'Строительных ускорений, минут (×1,000)' : 'Building speedups, min (×1,000)'}</label>
+        <label class="block text-xs text-stone-400 mb-1">{T('s10')}</label>
         <input type="number" data-factor="1000" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
       </div>
       <div>
-        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'Прирост мощи зданий (×100)' : 'Building might gained (×100)'}</label>
+        <label class="block text-xs text-stone-400 mb-1">{T('s11')}</label>
         <input type="number" data-factor="100" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
       </div>
     </div>
@@ -78,11 +599,11 @@ const isRu = lang === 'ru';
     <!-- Day 3 Inputs -->
     <div class="ad-day-form hidden grid gap-3 sm:grid-cols-2" id="ad-form-3">
       <div>
-        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'Ускорений исследований, минут (×1,000)' : 'Research speedups, min (×1,000)'}</label>
+        <label class="block text-xs text-stone-400 mb-1">{T('s12')}</label>
         <input type="number" data-factor="1000" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
       </div>
       <div>
-        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'Прирост мощи науки (×150)' : 'Tech might gained (×150)'}</label>
+        <label class="block text-xs text-stone-400 mb-1">{T('s13')}</label>
         <input type="number" data-factor="150" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
       </div>
     </div>
@@ -90,23 +611,23 @@ const isRu = lang === 'ru';
     <!-- Day 4 Inputs (Default Active) -->
     <div class="ad-day-form grid gap-3 sm:grid-cols-2 lg:grid-cols-3" id="ad-form-4">
       <div>
-        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'UR-осколки героев (×20,000)' : 'UR Hero Shards (×20,000)'}</label>
+        <label class="block text-xs text-stone-400 mb-1">{T('s14')}</label>
         <input type="number" data-factor="20000" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
       </div>
       <div>
-        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'SSR-осколки героев (×7,000)' : 'SSR Hero Shards (×7,000)'}</label>
+        <label class="block text-xs text-stone-400 mb-1">{T('s15')}</label>
         <input type="number" data-factor="7000" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
       </div>
       <div>
-        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'Билеты призыва (×3,450)' : 'Recruitment Tickets (×3,450)'}</label>
+        <label class="block text-xs text-stone-400 mb-1">{T('s16')}</label>
         <input type="number" data-factor="3450" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
       </div>
       <div>
-        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'Значки навыков (×20)' : 'Skill Badges (×20)'}</label>
+        <label class="block text-xs text-stone-400 mb-1">{T('s17')}</label>
         <input type="number" data-factor="20" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
       </div>
       <div>
-        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'SR-осколки героев (×2,000)' : 'SR Hero Shards (×2,000)'}</label>
+        <label class="block text-xs text-stone-400 mb-1">{T('s18')}</label>
         <input type="number" data-factor="2000" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
       </div>
     </div>
@@ -114,11 +635,11 @@ const isRu = lang === 'ru';
     <!-- Day 5 Inputs -->
     <div class="ad-day-form hidden grid gap-3 sm:grid-cols-2" id="ad-form-5">
       <div>
-        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'Ускорений тренировки, мин (×1,000)' : 'Training speedups, min (×1,000)'}</label>
+        <label class="block text-xs text-stone-400 mb-1">{T('s19')}</label>
         <input type="number" data-factor="1000" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
       </div>
       <div>
-        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'Обучено солдат T8–T9 (×75)' : 'Troops T8–T9 trained (×75)'}</label>
+        <label class="block text-xs text-stone-400 mb-1">{T('s20')}</label>
         <input type="number" data-factor="75" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
       </div>
     </div>
@@ -126,11 +647,11 @@ const isRu = lang === 'ru';
     <!-- Day 6 Inputs -->
     <div class="ad-day-form hidden grid gap-3 sm:grid-cols-2" id="ad-form-6">
       <div>
-        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'Универсальных ускорений, мин (×1,000)' : 'Universal speedups, min (×1,000)'}</label>
+        <label class="block text-xs text-stone-400 mb-1">{T('s21')}</label>
         <input type="number" data-factor="1000" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
       </div>
       <div>
-        <label class="block text-xs text-stone-400 mb-1">{isRu ? 'Уничтожено вражеских войск (очки мощи)' : 'Enemy power killed (might points)'}</label>
+        <label class="block text-xs text-stone-400 mb-1">{T('s22')}</label>
         <input type="number" data-factor="1" class="ad-input w-full rounded-lg border border-white/10 bg-stone-900 px-3 py-2 text-sm text-white font-mono outline-none focus:border-toxic-400" placeholder="0" min="0" />
       </div>
     </div>
@@ -141,14 +662,14 @@ const isRu = lang === 'ru';
     <div class="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2">
       <div>
         <span class="text-xs font-mono uppercase text-stone-500 tracking-wider">
-          {isRu ? 'Очков за день:' : 'Estimated Day Score:'}
+          {T('s23')}
         </span>
         <div class="text-3xl sm:text-4xl font-mono font-extrabold text-white tracking-tight" id="ad-total-points">
           0
         </div>
       </div>
       <div class="text-xs text-stone-400 font-mono" id="ad-target-status">
-        {isRu ? 'Сундук 1: 100K • Сундук 6: 2M • Сундук 9: 7.2M' : 'Chest 1: 100K • Chest 6: 2M • Chest 9: 7.2M'}
+        {T('s24')}
       </div>
     </div>
 

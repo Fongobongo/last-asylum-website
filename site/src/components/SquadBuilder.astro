@@ -8,6 +8,544 @@ interface Props {
 
 const { lang = 'en' } = Astro.props;
 const isRu = lang === 'ru';
+const STR: Record<string, Record<string, string>> = {
+  ru: {
+    s0: 'Интерактивный конструктор отрядов',
+    s1: 'Расставьте 5 героев по слотам и проверьте классовые синергии и бонусы ауры:',
+    s2: 'F2P Воины',
+    s3: 'Рейнджеры',
+    s4: 'Колдуны',
+    s5: 'Очистить',
+    s6: 'Поделиться',
+    s7: 'Фронт (2 слота — Танки / Выживание)',
+    s8: 'Слот 1: Танк',
+    s9: 'Нажмите для выбора',
+    s10: 'Слот 2: Офф-танк',
+    s11: 'Нажмите для выбора',
+    s12: 'Тыл (3 слота — Керри / Урон / Саппорт)',
+    s13: 'Слот 3: Главный Керри',
+    s14: 'Нажмите для выбора',
+    s15: 'Слот 4: Саппорт / Бафф',
+    s16: 'Нажмите для выбора',
+    s17: 'Слот 5: Саб-ДД / Контроль',
+    s18: 'Нажмите для выбора',
+    s19: 'Классовая аура отряда:',
+    s20: 'Выберите 5 героев',
+    s21: 'Состав классов:',
+    s22: 'Моно-класс (5 одного типа) дает максимальный бонус +20%',
+    s23: 'Скопировать ссылку на отряд',
+    s24: 'Сохраняет текущую расстановку',
+    s25: 'Выберите героя в слот',
+  },
+  en: {
+    s0: 'Interactive Squad Builder',
+    s1: 'Place 5 heroes into tactical formation and calculate synergy aura bonuses:',
+    s2: 'F2P Warriors',
+    s3: 'Rangers',
+    s4: 'Sorcerers',
+    s5: 'Clear',
+    s6: 'Share Squad',
+    s7: 'Frontline (2 Slots — Tanks & Frontline)',
+    s8: 'Slot 1: Main Tank',
+    s9: 'Click to select',
+    s10: 'Slot 2: Off-Tank',
+    s11: 'Click to select',
+    s12: 'Backline (3 Slots — Carries, DPS & Support)',
+    s13: 'Slot 3: Main Carry',
+    s14: 'Click to select',
+    s15: 'Slot 4: Support / Buffer',
+    s16: 'Click to select',
+    s17: 'Slot 5: Sub-DPS / Control',
+    s18: 'Click to select',
+    s19: 'Squad Class Aura:',
+    s20: 'Select 5 heroes',
+    s21: 'Class Distribution:',
+    s22: 'Mono-class (5 of same type) grants max +20% bonus',
+    s23: 'Copy Squad Link',
+    s24: 'Encodes current formation into URL',
+    s25: 'Choose hero for slot',
+  },
+  de: {
+    s0: 'Interaktiver Trupp-Baukasten',
+    s1: 'Platziere 5 Helden in einer taktischen Formation und berechne die Synergie-Aura-Boni:',
+    s2: 'F2P-Krieger',
+    s3: 'Waldläufer',
+    s4: 'Zauberer',
+    s5: 'Zurücksetzen',
+    s6: 'Trupp teilen',
+    s7: 'Frontlinie (2 Plätze — Tanks & Frontkämpfer)',
+    s8: 'Platz 1: Haupt-Tank',
+    s9: 'Klicken zum Auswählen',
+    s10: 'Platz 2: Off-Tank',
+    s11: 'Klicken zum Auswählen',
+    s12: 'Hintere Reihe (3 Plätze — Carries, DPS & Support)',
+    s13: 'Platz 3: Haupt-Carry',
+    s14: 'Klicken zum Auswählen',
+    s15: 'Platz 4: Support / Buffer',
+    s16: 'Klicken zum Auswählen',
+    s17: 'Platz 5: Sub-DPS / Kontrolle',
+    s18: 'Klicken zum Auswählen',
+    s19: 'Trupp-Klassen-Aura:',
+    s20: 'Wähle 5 Helden aus',
+    s21: 'Klassenverteilung:',
+    s22: 'Mono-Klasse (5 vom selben Typ) gewährt maximal +20% Bonus',
+    s23: 'Trupp-Link kopieren',
+    s24: 'Kodiert die aktuelle Formation in eine URL',
+    s25: 'Held für Platz auswählen',
+  },
+  es: {
+    s0: 'Constructor de escuadrones interactivo',
+    s1: 'Coloca 5 héroes en formación táctica y calcula los bonos de aura de sinergia:',
+    s2: 'Guerreros F2P',
+    s3: 'Rangers',
+    s4: 'Hechiceros',
+    s5: 'Limpiar',
+    s6: 'Compartir escuadrón',
+    s7: 'Primera línea (2 espacios — Tanques y vanguardia)',
+    s8: 'Espacio 1: Tanque principal',
+    s9: 'Haz clic para seleccionar',
+    s10: 'Espacio 2: Tanque secundario',
+    s11: 'Haz clic para seleccionar',
+    s12: 'Línea trasera (3 espacios — Carries, DPS y apoyo)',
+    s13: 'Espacio 3: Carry principal',
+    s14: 'Haz clic para seleccionar',
+    s15: 'Espacio 4: Apoyo / Buffer',
+    s16: 'Haz clic para seleccionar',
+    s17: 'Espacio 5: Sub-DPS / Control',
+    s18: 'Haz clic para seleccionar',
+    s19: 'Aura de clase del escuadrón:',
+    s20: 'Selecciona 5 héroes',
+    s21: 'Distribución de clases:',
+    s22: 'Mono-clase (5 del mismo tipo) otorga un bono máximo del +20%',
+    s23: 'Copiar enlace del escuadrón',
+    s24: 'Codifica la formación actual en la URL',
+    s25: 'Elige un héroe para el espacio',
+  },
+  pt: {
+    s0: 'Construtor de Esquadrão Interativo',
+    s1: 'Coloque 5 heróis em formação tática e calcule os bônus de aura de sinergia:',
+    s2: 'Guerreiros F2P',
+    s3: 'Rangers',
+    s4: 'Feiticeiros',
+    s5: 'Limpar',
+    s6: 'Compartilhar Esquadrão',
+    s7: 'Linha de Frente (2 Espaços — Tanques e Linha de Frente)',
+    s8: 'Espaço 1: Tanque Principal',
+    s9: 'Clique para selecionar',
+    s10: 'Espaço 2: Tanque Secundário',
+    s11: 'Clique para selecionar',
+    s12: 'Linha de Trás (3 Espaços — Carries, DPS e Suporte)',
+    s13: 'Espaço 3: Carry Principal',
+    s14: 'Clique para selecionar',
+    s15: 'Espaço 4: Suporte / Buffer',
+    s16: 'Clique para selecionar',
+    s17: 'Espaço 5: Sub-DPS / Controle',
+    s18: 'Clique para selecionar',
+    s19: 'Aura de Classe do Esquadrão:',
+    s20: 'Selecione 5 heróis',
+    s21: 'Distribuição de Classe:',
+    s22: 'Mono-classe (5 do mesmo tipo) concede bônus máximo de +20%',
+    s23: 'Copiar Link do Esquadrão',
+    s24: 'Codifica a formação atual na URL',
+    s25: 'Escolha o herói para o espaço',
+  },
+  fr: {
+    s0: 'Constructeur d\'escouade interactif',
+    s1: 'Placez 5 héros dans une formation tactique et calculez les bonus d\'aura de synergie :',
+    s2: 'Guerriers F2P',
+    s3: 'Rangers',
+    s4: 'Sorciers',
+    s5: 'Effacer',
+    s6: 'Partager l\'escouade',
+    s7: 'Ligne de front (2 emplacements — Tanks et ligne de front)',
+    s8: 'Emplacement 1 : Tank principal',
+    s9: 'Cliquez pour sélectionner',
+    s10: 'Emplacement 2 : Tank secondaire',
+    s11: 'Cliquez pour sélectionner',
+    s12: 'Ligne arrière (3 emplacements — Carries, DPS et Soutien)',
+    s13: 'Emplacement 3 : Carry principal',
+    s14: 'Cliquez pour sélectionner',
+    s15: 'Emplacement 4 : Soutien / Buffer',
+    s16: 'Cliquez pour sélectionner',
+    s17: 'Emplacement 5 : Sous-DPS / Contrôle',
+    s18: 'Cliquez pour sélectionner',
+    s19: 'Aura de classe de l\'escouade :',
+    s20: 'Sélectionnez 5 héros',
+    s21: 'Répartition des classes :',
+    s22: 'La mono-classe (5 du même type) accorde un bonus max de +20%',
+    s23: 'Copier le lien de l\'escouade',
+    s24: 'Encode la formation actuelle dans l\'URL',
+    s25: 'Choisir un héros pour l\'emplacement',
+  },
+  id: {
+    s0: 'Pembangun Pasukan Interaktif',
+    s1: 'Tempatkan 5 hero ke dalam formasi taktis dan hitung bonus aura sinergi:',
+    s2: 'Pejuang F2P',
+    s3: 'Ranger',
+    s4: 'Sorcerer',
+    s5: 'Bersihkan',
+    s6: 'Bagikan Pasukan',
+    s7: 'Garis Depan (2 Slot — Tank & Garis Depan)',
+    s8: 'Slot 1: Tank Utama',
+    s9: 'Klik untuk memilih',
+    s10: 'Slot 2: Off-Tank',
+    s11: 'Klik untuk memilih',
+    s12: 'Garis Belakang (3 Slot — Carry, DPS & Support)',
+    s13: 'Slot 3: Carry Utama',
+    s14: 'Klik untuk memilih',
+    s15: 'Slot 4: Support / Buffer',
+    s16: 'Klik untuk memilih',
+    s17: 'Slot 5: Sub-DPS / Kontrol',
+    s18: 'Klik untuk memilih',
+    s19: 'Aura Kelas Pasukan:',
+    s20: 'Pilih 5 hero',
+    s21: 'Distribusi Kelas:',
+    s22: 'Mono-kelas (5 tipe yang sama) memberikan bonus maksimal +20%',
+    s23: 'Salin Tautan Pasukan',
+    s24: 'Mengodekan formasi saat ini ke dalam URL',
+    s25: 'Pilih hero untuk slot',
+  },
+  ko: {
+    s0: '인터랙티브 스쿼드 빌더',
+    s1: '5명의 영웅을 전술 대형에 배치하고 시너지 오라 보너스를 계산하세요:',
+    s2: 'F2P 워리어',
+    s3: '레인저',
+    s4: '소서러',
+    s5: '초기화',
+    s6: '스쿼드 공유',
+    s7: '전열 (2 슬롯 — 탱커 및 전열)',
+    s8: '슬롯 1: 메인 탱커',
+    s9: '클릭하여 선택',
+    s10: '슬롯 2: 서브 탱커',
+    s11: '클릭하여 선택',
+    s12: '후열 (3 슬롯 — 캐리, DPS 및 서포터)',
+    s13: '슬롯 3: 메인 캐리',
+    s14: '클릭하여 선택',
+    s15: '슬롯 4: 서포터 / 버퍼',
+    s16: '클릭하여 선택',
+    s17: '슬롯 5: 서브 DPS / 제어',
+    s18: '클릭하여 선택',
+    s19: '스쿼드 클래스 오라:',
+    s20: '영웅 5명 선택',
+    s21: '클래스 분포:',
+    s22: '모노 클래스(동일 타입 5명)는 최대 +20% 보너스 부여',
+    s23: '스쿼드 링크 복사',
+    s24: '현재 대형을 URL로 인코딩',
+    s25: '슬롯에 배치할 영웅 선택',
+  },
+  ja: {
+    s0: 'インタラクティブ・スクワッド・ビルダー',
+    s1: '5人のヒーローをタクティカルフォーメーションに配置し、シナジーオーラのボーナスを計算します：',
+    s2: 'F2Pウォリアー',
+    s3: 'レンジャー',
+    s4: 'ソーサラー',
+    s5: 'クリア',
+    s6: 'スクワッドを共有',
+    s7: 'フロントライン（2スロット — タンク＆フロントライン）',
+    s8: 'スロット1：メインタンク',
+    s9: 'クリックして選択',
+    s10: 'スロット2：サブタンク',
+    s11: 'クリックして選択',
+    s12: 'バックライン（3スロット — キャリー、DPS＆サポート）',
+    s13: 'スロット3：メインキャリー',
+    s14: 'クリックして選択',
+    s15: 'スロット4：サポート / バッファー',
+    s16: 'クリックして選択',
+    s17: 'スロット5：サブDPS / コントロール',
+    s18: 'クリックして選択',
+    s19: 'スクワッドクラスオーラ：',
+    s20: 'ヒーローを5人選択してください',
+    s21: 'クラス分布：',
+    s22: 'モノクラス（同タイプ5人）で最大+20%のボーナス',
+    s23: 'スクワッドリンクをコピー',
+    s24: '現在のフォーメーションをURLにエンコードします',
+    s25: 'スロットのヒーローを選択',
+  },
+  ar: {
+    s0: 'أداة بناء الفريق التفاعلية',
+    s1: 'ضع 5 أبطال في تشكيلة تكتيكية واحسب مكافآت هالة التآزر:',
+    s2: 'محاربو F2P',
+    s3: 'Rangers',
+    s4: 'Sorcerers',
+    s5: 'مسح',
+    s6: 'مشاركة الفريق',
+    s7: 'خط المواجهة (فتحتان — الدبابات وخط المواجهة)',
+    s8: 'الفتحة 1: الدبابة الرئيسية',
+    s9: 'انقر للاختيار',
+    s10: 'الفتحة 2: الدبابة الثانوية',
+    s11: 'انقر للاختيار',
+    s12: 'الخط الخلفي (3 فتحات — المهاجمون، DPS والدعم)',
+    s13: 'الفتحة 3: المهاجم الرئيسي',
+    s14: 'انقر للاختيار',
+    s15: 'الفتحة 4: الدعم / التعزيز',
+    s16: 'انقر للاختيار',
+    s17: 'الفتحة 5: DPS فرعي / التحكم',
+    s18: 'انقر للاختيار',
+    s19: 'هالة فئة الفريق:',
+    s20: 'اختر 5 أبطال',
+    s21: 'توزيع الفئات:',
+    s22: 'الفئة الموحدة (5 من نفس النوع) تمنح مكافأة قصوى قدرها +20%',
+    s23: 'نسخ رابط الفريق',
+    s24: 'يقوم بتشفير التشكيلة الحالية في رابط URL',
+    s25: 'اختر بطلاً للفتحة',
+  },
+  it: {
+    s0: 'Costruttore di Squadra Interattivo',
+    s1: 'Posiziona 5 eroi in formazione tattica e calcola i bonus dell\'aura di sinergia:',
+    s2: 'Guerrieri F2P',
+    s3: 'Ranger',
+    s4: 'Stregoni',
+    s5: 'Cancella',
+    s6: 'Condividi Squadra',
+    s7: 'Prima linea (2 Slot — Tank e Prima linea)',
+    s8: 'Slot 1: Tank Principale',
+    s9: 'Clicca per selezionare',
+    s10: 'Slot 2: Off-Tank',
+    s11: 'Clicca per selezionare',
+    s12: 'Retrovia (3 Slot — Carry, DPS e Supporto)',
+    s13: 'Slot 3: Carry Principale',
+    s14: 'Clicca per selezionare',
+    s15: 'Slot 4: Supporto / Buffer',
+    s16: 'Clicca per selezionare',
+    s17: 'Slot 5: Sub-DPS / Controllo',
+    s18: 'Clicca per selezionare',
+    s19: 'Aura di Classe della Squadra:',
+    s20: 'Seleziona 5 eroi',
+    s21: 'Distribuzione delle Classi:',
+    s22: 'Mono-classe (5 dello stesso tipo) garantisce un bonus massimo del +20%',
+    s23: 'Copia Link Squadra',
+    s24: 'Codifica la formazione attuale nell\'URL',
+    s25: 'Scegli l\'eroe per lo slot',
+  },
+  ms: {
+    s0: 'Pembina Skuad Interaktif',
+    s1: 'Letakkan 5 wira ke dalam formasi taktikal dan kira bonus aura sinergi:',
+    s2: 'Pahlawan F2P',
+    s3: 'Renjer',
+    s4: 'Penyihir',
+    s5: 'Kosongkan',
+    s6: 'Kongsi Skuad',
+    s7: 'Barisan Hadapan (2 Slot — Tank & Barisan Hadapan)',
+    s8: 'Slot 1: Tank Utama',
+    s9: 'Klik untuk memilih',
+    s10: 'Slot 2: Tank Sampingan',
+    s11: 'Klik untuk memilih',
+    s12: 'Barisan Belakang (3 Slot — Carry, DPS & Sokongan)',
+    s13: 'Slot 3: Carry Utama',
+    s14: 'Klik untuk memilih',
+    s15: 'Slot 4: Sokongan / Penampan',
+    s16: 'Klik untuk memilih',
+    s17: 'Slot 5: Sub-DPS / Kawalan',
+    s18: 'Klik untuk memilih',
+    s19: 'Aura Kelas Skuad:',
+    s20: 'Pilih 5 wira',
+    s21: 'Taburan Kelas:',
+    s22: 'Mono-kelas (5 jenis yang sama) memberikan bonus maksimum +20%',
+    s23: 'Salin Pautan Skuad',
+    s24: 'Mengekod formasi semasa ke dalam URL',
+    s25: 'Pilih wira untuk slot',
+  },
+  nl: {
+    s0: 'Interactieve Squad Builder',
+    s1: 'Plaats 5 helden in een tactische formatie en bereken synergie-aura bonussen:',
+    s2: 'F2P Warriors',
+    s3: 'Rangers',
+    s4: 'Sorcerers',
+    s5: 'Wissen',
+    s6: 'Squad delen',
+    s7: 'Frontlinie (2 slots — Tanks & Frontlinie)',
+    s8: 'Slot 1: Main Tank',
+    s9: 'Klik om te selecteren',
+    s10: 'Slot 2: Off-Tank',
+    s11: 'Klik om te selecteren',
+    s12: 'Achterlinie (3 slots — Carries, DPS & Support)',
+    s13: 'Slot 3: Main Carry',
+    s14: 'Klik om te selecteren',
+    s15: 'Slot 4: Support / Buffer',
+    s16: 'Klik om te selecteren',
+    s17: 'Slot 5: Sub-DPS / Control',
+    s18: 'Klik om te selecteren',
+    s19: 'Squad Klasse Aura:',
+    s20: 'Selecteer 5 helden',
+    s21: 'Klasseverdeling:',
+    s22: 'Mono-klasse (5 van hetzelfde type) geeft maximaal +20% bonus',
+    s23: 'Squad-link kopiëren',
+    s24: 'Codeert huidige formatie in URL',
+    s25: 'Kies held voor slot',
+  },
+  th: {
+    s0: 'เครื่องมือจัดทีมแบบอินเทอร์แอคทีฟ',
+    s1: 'วางฮีโร่ 5 ตัวลงในตำแหน่งเชิงกลยุทธ์และคำนวณโบนัสออร่าประสานพลัง:',
+    s2: 'นักรบสาย F2P',
+    s3: 'เรนเจอร์',
+    s4: 'ซอเรอเรอร์',
+    s5: 'ล้างข้อมูล',
+    s6: 'แชร์ทีม',
+    s7: 'แนวหน้า (2 ช่อง — แทงค์และแนวหน้า)',
+    s8: 'ช่องที่ 1: แทงค์หลัก',
+    s9: 'คลิกเพื่อเลือก',
+    s10: 'ช่องที่ 2: แทงค์รอง',
+    s11: 'คลิกเพื่อเลือก',
+    s12: 'แนวหลัง (3 ช่อง — แครี่, ดาเมจ และซัพพอร์ต)',
+    s13: 'ช่องที่ 3: แครี่หลัก',
+    s14: 'คลิกเพื่อเลือก',
+    s15: 'ช่องที่ 4: ซัพพอร์ต / บัฟเฟอร์',
+    s16: 'คลิกเพื่อเลือก',
+    s17: 'ช่องที่ 5: ดาเมจรอง / ควบคุม',
+    s18: 'คลิกเพื่อเลือก',
+    s19: 'ออร่าคลาสของทีม:',
+    s20: 'เลือกฮีโร่ 5 ตัว',
+    s21: 'การกระจายคลาส:',
+    s22: 'คลาสเดียวล้วน (ประเภทเดียวกัน 5 ตัว) จะได้รับโบนัสสูงสุด +20%',
+    s23: 'คัดลอกลิงก์ทีม',
+    s24: 'เข้ารหัสการจัดทีมปัจจุบันลงใน URL',
+    s25: 'เลือกฮีโร่สำหรับช่องนี้',
+  },
+  tr: {
+    s0: 'İnteraktif Takım Oluşturucu',
+    s1: 'Taktiksel dizilime 5 kahraman yerleştirin ve sinerji aura bonuslarını hesaplayın:',
+    s2: 'F2P Savaşçıları',
+    s3: 'Rangers',
+    s4: 'Sorcerers',
+    s5: 'Temizle',
+    s6: 'Takımı Paylaş',
+    s7: 'Ön Hat (2 Yuva — Tanklar ve Ön Hat)',
+    s8: '1. Yuva: Ana Tank',
+    s9: 'Seçmek için tıkla',
+    s10: '2. Yuva: İkincil Tank',
+    s11: 'Seçmek için tıkla',
+    s12: 'Arka Hat (3 Yuva — Taşıyıcılar, DPS ve Destek)',
+    s13: '3. Yuva: Ana Taşıyıcı',
+    s14: 'Seçmek için tıkla',
+    s15: '4. Yuva: Destek / Güçlendirici',
+    s16: 'Seçmek için tıkla',
+    s17: '5. Yuva: Alt-DPS / Kontrol',
+    s18: 'Seçmek için tıkla',
+    s19: 'Takım Sınıf Aurası:',
+    s20: '5 kahraman seçin',
+    s21: 'Sınıf Dağılımı:',
+    s22: 'Mono-sınıf (5 aynı tip) maksimum +%20 bonus sağlar',
+    s23: 'Takım Bağlantısını Kopyala',
+    s24: 'Mevcut dizilimi URL\'ye kodlar',
+    s25: 'Yuva için kahraman seçin',
+  },
+  vi: {
+    s0: 'Trình xây dựng đội hình tương tác',
+    s1: 'Đặt 5 anh hùng vào đội hình chiến thuật và tính toán tiền thưởng hào quang cộng hưởng:',
+    s2: 'Chiến binh F2P',
+    s3: 'Cung thủ',
+    s4: 'Pháp sư',
+    s5: 'Xóa',
+    s6: 'Chia sẻ đội hình',
+    s7: 'Tiền tuyến (2 vị trí — Đỡ đòn & Tiền tuyến)',
+    s8: 'Vị trí 1: Đỡ đòn chính',
+    s9: 'Nhấp để chọn',
+    s10: 'Vị trí 2: Đỡ đòn phụ',
+    s11: 'Nhấp để chọn',
+    s12: 'Hậu tuyến (3 vị trí — Chủ lực, DPS & Hỗ trợ)',
+    s13: 'Vị trí 3: Chủ lực chính',
+    s14: 'Nhấp để chọn',
+    s15: 'Vị trí 4: Hỗ trợ / Tăng chỉ số',
+    s16: 'Nhấp để chọn',
+    s17: 'Vị trí 5: DPS phụ / Khống chế',
+    s18: 'Nhấp để chọn',
+    s19: 'Hào quang lớp nhân vật:',
+    s20: 'Chọn 5 anh hùng',
+    s21: 'Phân bổ lớp nhân vật:',
+    s22: 'Đơn lớp (5 nhân vật cùng loại) nhận tối đa +20% tiền thưởng',
+    s23: 'Sao chép liên kết đội hình',
+    s24: 'Mã hóa đội hình hiện tại vào URL',
+    s25: 'Chọn anh hùng cho vị trí',
+  },
+  zh: {
+    s0: '互动小队构建器',
+    s1: '放置 5 名英雄至战术阵型并计算协同光环加成：',
+    s2: 'F2P 战士',
+    s3: '游侠',
+    s4: '法师',
+    s5: '清除',
+    s6: '分享小队',
+    s7: '前排（2 个槽位 — 坦克与前排）',
+    s8: '槽位 1：主坦克',
+    s9: '点击选择',
+    s10: '槽位 2：副坦克',
+    s11: '点击选择',
+    s12: '后排（3 个槽位 — 核心、输出与辅助）',
+    s13: '槽位 3：主核心',
+    s14: '点击选择',
+    s15: '槽位 4：辅助 / 增益',
+    s16: '点击选择',
+    s17: '槽位 5：副输出 / 控制',
+    s18: '点击选择',
+    s19: '小队职业光环：',
+    s20: '选择 5 名英雄',
+    s21: '职业分布：',
+    s22: '单职业（5 名同类型）可获得最高 +20% 加成',
+    s23: '复制小队链接',
+    s24: '将当前阵型编码至 URL',
+    s25: '为槽位选择英雄',
+  },
+  pl: {
+    s0: 'Interaktywny kreator drużyny',
+    s1: 'Umieść 5 bohaterów w formacji taktycznej i oblicz bonusy aury synergii:',
+    s2: 'Wojownicy F2P',
+    s3: 'Łowcy',
+    s4: 'Czarodzieje',
+    s5: 'Wyczyść',
+    s6: 'Udostępnij drużynę',
+    s7: 'Linia frontu (2 miejsca — Tanki i Front)',
+    s8: 'Miejsce 1: Główny tank',
+    s9: 'Kliknij, aby wybrać',
+    s10: 'Miejsce 2: Drugorzędny tank',
+    s11: 'Kliknij, aby wybrać',
+    s12: 'Linia tyłów (3 miejsca — Carries, DPS i Wsparcie)',
+    s13: 'Miejsce 3: Główny carry',
+    s14: 'Kliknij, aby wybrać',
+    s15: 'Miejsce 4: Wsparcie / Buffer',
+    s16: 'Kliknij, aby wybrać',
+    s17: 'Miejsce 5: Sub-DPS / Kontrola',
+    s18: 'Kliknij, aby wybrać',
+    s19: 'Aura klasy drużyny:',
+    s20: 'Wybierz 5 bohaterów',
+    s21: 'Rozkład klas:',
+    s22: 'Mono-klasa (5 tego samego typu) daje maksymalny bonus +20%',
+    s23: 'Skopiuj link do drużyny',
+    s24: 'Koduje obecną formację w adresie URL',
+    s25: 'Wybierz bohatera dla tego miejsca',
+  },
+  'zh-tw': {
+    s0: '互動式隊伍建構器',
+    s1: '放入 5 位英雄進行戰術編隊，並計算陣容光環加成：',
+    s2: 'F2P 戰士',
+    s3: '遊俠',
+    s4: '法師',
+    s5: '清除',
+    s6: '分享隊伍',
+    s7: '前排（2 個欄位 — 坦克與前排）',
+    s8: '欄位 1：主坦',
+    s9: '點擊以選擇',
+    s10: '欄位 2：副坦',
+    s11: '點擊以選擇',
+    s12: '後排（3 個欄位 — 核心輸出、DPS 與輔助）',
+    s13: '欄位 3：主輸出',
+    s14: '點擊以選擇',
+    s15: '欄位 4：輔助 / 增益',
+    s16: '點擊以選擇',
+    s17: '欄位 5：副 DPS / 控制',
+    s18: '點擊以選擇',
+    s19: '隊伍職業光環：',
+    s20: '選擇 5 位英雄',
+    s21: '職業分佈：',
+    s22: '單一職業（5 位相同類型）可獲得最高 +20% 加成',
+    s23: '複製隊伍連結',
+    s24: '將當前編隊編碼至 URL',
+    s25: '為此欄位選擇英雄',
+  },
+};
+const T = (k: string): string => {
+  const table: Record<string, string> | undefined = (STR as any)[lang] ?? STR.en;
+  return table?.[k] ?? (STR.en as any)[k] ?? k;
+};
 ---
 
 <div class="squad-builder not-prose my-10 rounded-3xl border border-white/10 bg-stone-900/80 p-6 sm:p-8 backdrop-blur-xl shadow-2xl" id="squad-builder">
@@ -19,10 +557,10 @@ const isRu = lang === 'ru';
         </span>
         <div>
           <h3 class="text-xl sm:text-2xl font-bold text-white tracking-tight">
-            {isRu ? 'Интерактивный конструктор отрядов' : 'Interactive Squad Builder'}
+            {T('s0')}
           </h3>
           <p class="text-xs text-stone-400 mt-0.5">
-            {isRu ? 'Расставьте 5 героев по слотам и проверьте классовые синергии и бонусы ауры:' : 'Place 5 heroes into tactical formation and calculate synergy aura bonuses:'}
+            {T('s1')}
           </p>
         </div>
       </div>
@@ -31,20 +569,20 @@ const isRu = lang === 'ru';
     <!-- Quick Meta Presets -->
     <div class="flex flex-wrap gap-1.5 self-start sm:self-auto">
       <button type="button" data-preset="f2p-warrior" class="sb-preset-btn rounded-lg border border-rose-500/30 bg-rose-950/20 px-2.5 py-1 text-xs font-semibold text-rose-300 hover:bg-rose-900/40 transition">
-        🛡️ {isRu ? 'F2P Воины' : 'F2P Warriors'}
+        🛡️ {T('s2')}
       </button>
       <button type="button" data-preset="ranger-burst" class="sb-preset-btn rounded-lg border border-emerald-500/30 bg-emerald-950/20 px-2.5 py-1 text-xs font-semibold text-emerald-300 hover:bg-emerald-900/40 transition">
-        🏹 {isRu ? 'Рейнджеры' : 'Rangers'}
+        🏹 {T('s3')}
       </button>
       <button type="button" data-preset="sorcerer-cc" class="sb-preset-btn rounded-lg border border-indigo-500/30 bg-indigo-950/20 px-2.5 py-1 text-xs font-semibold text-indigo-300 hover:bg-indigo-900/40 transition">
-        🔮 {isRu ? 'Колдуны' : 'Sorcerers'}
+        🔮 {T('s4')}
       </button>
       <button type="button" id="sb-btn-clear" class="rounded-lg border border-white/10 bg-white/5 px-2.5 py-1 text-xs font-semibold text-stone-400 hover:text-white transition cursor-pointer">
-        ✕ {isRu ? 'Очистить' : 'Clear'}
+        ✕ {T('s5')}
       </button>
       <button type="button" id="sb-btn-share" class="rounded-lg border border-toxic-500/40 bg-toxic-500/10 px-2.5 py-1 text-xs font-semibold text-toxic-300 hover:bg-toxic-500/20 hover:border-toxic-400 transition cursor-pointer flex items-center gap-1">
         <span>🔗</span>
-        <span id="sb-share-label">{isRu ? 'Поделиться' : 'Share Squad'}</span>
+        <span id="sb-share-label">{T('s6')}</span>
       </button>
     </div>
   </div>
@@ -55,14 +593,14 @@ const isRu = lang === 'ru';
     <div>
       <div class="flex items-center gap-2 mb-2 text-xs font-mono uppercase text-stone-400">
         <span class="h-2 w-2 rounded-full bg-red-400"></span>
-        <span>{isRu ? 'Фронт (2 слота — Танки / Выживание)' : 'Frontline (2 Slots — Tanks & Frontline)'}</span>
+        <span>{T('s7')}</span>
       </div>
       <div class="grid grid-cols-2 gap-4 max-w-lg mx-auto">
         <div class="squad-slot group relative flex flex-col items-center justify-center rounded-2xl border-2 border-dashed border-white/15 bg-black/40 p-4 transition-all hover:border-toxic-400 hover:bg-toxic-500/5 cursor-pointer min-h-[140px]" data-slot="0">
           <div class="slot-empty text-center">
             <span class="text-2xl text-stone-600 block mb-1">🛡️</span>
-            <span class="text-xs font-medium text-stone-400">{isRu ? 'Слот 1: Танк' : 'Slot 1: Main Tank'}</span>
-            <span class="block text-[10px] text-stone-600 mt-0.5">{isRu ? 'Нажмите для выбора' : 'Click to select'}</span>
+            <span class="text-xs font-medium text-stone-400">{T('s8')}</span>
+            <span class="block text-[10px] text-stone-600 mt-0.5">{T('s9')}</span>
           </div>
           <div class="slot-filled hidden w-full text-center"></div>
         </div>
@@ -70,8 +608,8 @@ const isRu = lang === 'ru';
         <div class="squad-slot group relative flex flex-col items-center justify-center rounded-2xl border-2 border-dashed border-white/15 bg-black/40 p-4 transition-all hover:border-toxic-400 hover:bg-toxic-500/5 cursor-pointer min-h-[140px]" data-slot="1">
           <div class="slot-empty text-center">
             <span class="text-2xl text-stone-600 block mb-1">🛡️</span>
-            <span class="text-xs font-medium text-stone-400">{isRu ? 'Слот 2: Офф-танк' : 'Slot 2: Off-Tank'}</span>
-            <span class="block text-[10px] text-stone-600 mt-0.5">{isRu ? 'Нажмите для выбора' : 'Click to select'}</span>
+            <span class="text-xs font-medium text-stone-400">{T('s10')}</span>
+            <span class="block text-[10px] text-stone-600 mt-0.5">{T('s11')}</span>
           </div>
           <div class="slot-filled hidden w-full text-center"></div>
         </div>
@@ -82,14 +620,14 @@ const isRu = lang === 'ru';
     <div>
       <div class="flex items-center gap-2 mb-2 text-xs font-mono uppercase text-stone-400">
         <span class="h-2 w-2 rounded-full bg-toxic-400"></span>
-        <span>{isRu ? 'Тыл (3 слота — Керри / Урон / Саппорт)' : 'Backline (3 Slots — Carries, DPS & Support)'}</span>
+        <span>{T('s12')}</span>
       </div>
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
         <div class="squad-slot group relative flex flex-col items-center justify-center rounded-2xl border-2 border-dashed border-white/15 bg-black/40 p-4 transition-all hover:border-toxic-400 hover:bg-toxic-500/5 cursor-pointer min-h-[140px]" data-slot="2">
           <div class="slot-empty text-center">
             <span class="text-2xl text-stone-600 block mb-1">⚔️</span>
-            <span class="text-xs font-medium text-stone-400">{isRu ? 'Слот 3: Главный Керри' : 'Slot 3: Main Carry'}</span>
-            <span class="block text-[10px] text-stone-600 mt-0.5">{isRu ? 'Нажмите для выбора' : 'Click to select'}</span>
+            <span class="text-xs font-medium text-stone-400">{T('s13')}</span>
+            <span class="block text-[10px] text-stone-600 mt-0.5">{T('s14')}</span>
           </div>
           <div class="slot-filled hidden w-full text-center"></div>
         </div>
@@ -97,8 +635,8 @@ const isRu = lang === 'ru';
         <div class="squad-slot group relative flex flex-col items-center justify-center rounded-2xl border-2 border-dashed border-white/15 bg-black/40 p-4 transition-all hover:border-toxic-400 hover:bg-toxic-500/5 cursor-pointer min-h-[140px]" data-slot="3">
           <div class="slot-empty text-center">
             <span class="text-2xl text-stone-600 block mb-1">💚</span>
-            <span class="text-xs font-medium text-stone-400">{isRu ? 'Слот 4: Саппорт / Бафф' : 'Slot 4: Support / Buffer'}</span>
-            <span class="block text-[10px] text-stone-600 mt-0.5">{isRu ? 'Нажмите для выбора' : 'Click to select'}</span>
+            <span class="text-xs font-medium text-stone-400">{T('s15')}</span>
+            <span class="block text-[10px] text-stone-600 mt-0.5">{T('s16')}</span>
           </div>
           <div class="slot-filled hidden w-full text-center"></div>
         </div>
@@ -106,8 +644,8 @@ const isRu = lang === 'ru';
         <div class="squad-slot group relative flex flex-col items-center justify-center rounded-2xl border-2 border-dashed border-white/15 bg-black/40 p-4 transition-all hover:border-toxic-400 hover:bg-toxic-500/5 cursor-pointer min-h-[140px]" data-slot="4">
           <div class="slot-empty text-center">
             <span class="text-2xl text-stone-600 block mb-1">🔮</span>
-            <span class="text-xs font-medium text-stone-400">{isRu ? 'Слот 5: Саб-ДД / Контроль' : 'Slot 5: Sub-DPS / Control'}</span>
-            <span class="block text-[10px] text-stone-600 mt-0.5">{isRu ? 'Нажмите для выбора' : 'Click to select'}</span>
+            <span class="text-xs font-medium text-stone-400">{T('s17')}</span>
+            <span class="block text-[10px] text-stone-600 mt-0.5">{T('s18')}</span>
           </div>
           <div class="slot-filled hidden w-full text-center"></div>
         </div>
@@ -121,10 +659,10 @@ const isRu = lang === 'ru';
       <!-- Synergy Aura -->
       <div>
         <span class="text-[11px] font-mono uppercase text-stone-500 block mb-1">
-          {isRu ? 'Классовая аура отряда:' : 'Squad Class Aura:'}
+          {T('s19')}
         </span>
         <div class="text-lg font-bold text-white flex items-center gap-2" id="sb-aura-title">
-          <span class="text-stone-500">⚪ {isRu ? 'Выберите 5 героев' : 'Select 5 heroes'}</span>
+          <span class="text-stone-500">⚪ {T('s20')}</span>
         </div>
         <div class="text-xs text-stone-400 mt-1" id="sb-aura-bonus">
           +0% ATK / +0% HP
@@ -134,7 +672,7 @@ const isRu = lang === 'ru';
       <!-- Class Breakdown -->
       <div>
         <span class="text-[11px] font-mono uppercase text-stone-500 block mb-1">
-          {isRu ? 'Состав классов:' : 'Class Distribution:'}
+          {T('s21')}
         </span>
         <div class="flex items-center gap-3 text-xs font-mono" id="sb-classes-count">
           <span class="text-rose-300 font-bold">🛡️ <span id="sb-cnt-warrior">0</span></span>
@@ -142,7 +680,7 @@ const isRu = lang === 'ru';
           <span class="text-indigo-300 font-bold">🔮 <span id="sb-cnt-sorcerer">0</span></span>
         </div>
         <p class="text-[11px] text-stone-500 mt-1">
-          {isRu ? 'Моно-класс (5 одного типа) дает максимальный бонус +20%' : 'Mono-class (5 of same type) grants max +20% bonus'}
+          {T('s22')}
         </p>
       </div>
 
@@ -154,10 +692,10 @@ const isRu = lang === 'ru';
           class="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl bg-toxic-400 px-5 py-2.5 text-xs font-bold text-black hover:bg-toxic-300 transition shadow-[0_0_15px_rgba(180,255,57,0.2)] cursor-pointer"
         >
           <span>🔗</span>
-          <span id="sb-share-label">{isRu ? 'Скопировать ссылку на отряд' : 'Copy Squad Link'}</span>
+          <span id="sb-share-label">{T('s23')}</span>
         </button>
         <span class="text-[10px] text-stone-500 mt-1 text-center sm:text-right">
-          {isRu ? 'Сохраняет текущую расстановку' : 'Encodes current formation into URL'}
+          {T('s24')}
         </span>
       </div>
     </div>
@@ -168,7 +706,7 @@ const isRu = lang === 'ru';
     <div class="relative w-full max-w-2xl max-h-[85vh] overflow-hidden rounded-3xl border border-white/10 bg-stone-900 shadow-2xl flex flex-col">
       <div class="flex items-center justify-between border-b border-white/10 p-4 sm:p-5">
         <h4 class="text-base sm:text-lg font-bold text-white flex items-center gap-2">
-          <span>{isRu ? 'Выберите героя в слот' : 'Choose hero for slot'}</span>
+          <span>{T('s25')}</span>
           <span class="rounded bg-toxic-500/20 px-2 py-0.5 font-mono text-xs text-toxic-300" id="sb-modal-slot-label">Slot 1</span>
         </h4>
         <button type="button" id="sb-modal-close" class="h-8 w-8 rounded-full bg-white/10 hover:bg-white hover:text-black text-sm font-bold text-stone-300 transition">✕</button>

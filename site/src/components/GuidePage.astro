@@ -9,6 +9,165 @@ interface Props {
 }
 
 const { title, description, breadcrumbs = [] } = Astro.props;
+const lang: string = (Astro.props as any).lang ?? 'en';
+const GPS: Record<string, Record<string, string>> = {
+  ru: {
+    toc: 'На этой странице',
+    close: 'Закрыть',
+    share: 'Поделиться',
+    copylink: 'Скопировать ссылку на гайд',
+    bookmark: 'В закладки',
+    bookmarked: 'В закладках',
+  },
+  en: {
+    toc: 'On this page',
+    close: 'Close',
+    share: 'Share',
+    copylink: 'Copy guide link',
+    bookmark: 'Bookmark',
+    bookmarked: 'Bookmarked',
+  },
+  de: {
+    toc: 'Auf dieser Seite',
+    close: 'Schließen',
+    share: 'Teilen',
+    copylink: 'Guide-Link kopieren',
+    bookmark: 'Lesezeichen',
+    bookmarked: 'Als Lesezeichen gespeichert',
+  },
+  es: {
+    toc: 'En esta página',
+    close: 'Cerrar',
+    share: 'Compartir',
+    copylink: 'Copiar enlace de la guía',
+    bookmark: 'Guardar en marcadores',
+    bookmarked: 'Guardado en marcadores',
+  },
+  pt: {
+    toc: 'Nesta página',
+    close: 'Fechar',
+    share: 'Compartilhar',
+    copylink: 'Copiar link do guia',
+    bookmark: 'Salvar nos favoritos',
+    bookmarked: 'Salvo nos favoritos',
+  },
+  fr: {
+    toc: 'Sur cette page',
+    close: 'Fermer',
+    share: 'Partager',
+    copylink: 'Copier le lien du guide',
+    bookmark: 'Ajouter aux signets',
+    bookmarked: 'Ajouté aux signets',
+  },
+  id: {
+    toc: 'Di halaman ini',
+    close: 'Tutup',
+    share: 'Bagikan',
+    copylink: 'Salin tautan panduan',
+    bookmark: 'Simpan',
+    bookmarked: 'Tersimpan',
+  },
+  ko: {
+    toc: '이 페이지의 내용',
+    close: '닫기',
+    share: '공유',
+    copylink: '가이드 링크 복사',
+    bookmark: '북마크',
+    bookmarked: '북마크됨',
+  },
+  ja: {
+    toc: 'このページの内容',
+    close: '閉じる',
+    share: 'シェア',
+    copylink: 'ガイドのリンクをコピー',
+    bookmark: 'ブックマーク',
+    bookmarked: 'ブックマーク済み',
+  },
+  ar: {
+    toc: 'في هذه الصفحة',
+    close: 'إغلاق',
+    share: 'مشاركة',
+    copylink: 'نسخ رابط الدليل',
+    bookmark: 'إشارة مرجعية',
+    bookmarked: 'تمت إضافة إشارة مرجعية',
+  },
+  it: {
+    toc: 'In questa pagina',
+    close: 'Chiudi',
+    share: 'Condividi',
+    copylink: 'Copia link alla guida',
+    bookmark: 'Segna nei preferiti',
+    bookmarked: 'Nei preferiti',
+  },
+  ms: {
+    toc: 'Pada halaman ini',
+    close: 'Tutup',
+    share: 'Kongsi',
+    copylink: 'Salin pautan panduan',
+    bookmark: 'Tanda halaman',
+    bookmarked: 'Ditanda halaman',
+  },
+  nl: {
+    toc: 'Op deze pagina',
+    close: 'Sluiten',
+    share: 'Delen',
+    copylink: 'Gidslink kopieëren',
+    bookmark: 'Bladwijzer',
+    bookmarked: 'Bladwijzer toegevoegd',
+  },
+  th: {
+    toc: 'ในหน้านี้',
+    close: 'ปิด',
+    share: 'แชร์',
+    copylink: 'คัดลอกลิงก์คู่มือ',
+    bookmark: 'บุ๊กมาร์ก',
+    bookmarked: 'บุ๊กมาร์กแล้ว',
+  },
+  tr: {
+    toc: 'Bu sayfada',
+    close: 'Kapat',
+    share: 'Paylaş',
+    copylink: 'Rehber bağlantısını kopyala',
+    bookmark: 'Yer İşareti Ekle',
+    bookmarked: 'Yer İşaretlerine Eklendi',
+  },
+  vi: {
+    toc: 'Trên trang này',
+    close: 'Đóng',
+    share: 'Chia sẻ',
+    copylink: 'Sao chép liên kết hướng dẫn',
+    bookmark: 'Đánh dấu trang',
+    bookmarked: 'Đã đánh dấu trang',
+  },
+  zh: {
+    toc: '本页目录',
+    close: '关闭',
+    share: '分享',
+    copylink: '复制指南链接',
+    bookmark: '加入书签',
+    bookmarked: '已加入书签',
+  },
+  pl: {
+    toc: 'Na tej stronie',
+    close: 'Zamknij',
+    share: 'Udostępnij',
+    copylink: 'Skopiuj link do poradnika',
+    bookmark: 'Dodaj do zakładek',
+    bookmarked: 'Dodano do zakładek',
+  },
+  'zh-tw': {
+    toc: '本頁目錄',
+    close: '關閉',
+    share: '分享',
+    copylink: '複製指南連結',
+    bookmark: '加入書籤',
+    bookmarked: '已加入書籤',
+  },
+};
+const G = (k: string): string => {
+  const table: Record<string, string> | undefined = (GPS as any)[lang] ?? GPS.en;
+  return table?.[k] ?? (GPS.en as any)[k] ?? k;
+};
 
 const slots = await Astro.slots.render('default');
 const re = /<(h[23])[^>]*id="([^"]+)"[^>]*>(.*?)<\/\1>/g;
@@ -22,8 +181,6 @@ while ((m = re.exec(slots)) !== null) {
   });
 }
 
-const tocLabel = Astro.props.lang === 'ru' ? 'На этой странице' : 'On this page';
-const tocClose = Astro.props.lang === 'ru' ? 'Закрыть' : 'Close';
 ---
 
 <div class:list={[toc.length > 2 && 'lg:grid lg:grid-cols-[1fr_280px] lg:gap-8 xl:gap-10']}>
@@ -68,10 +225,10 @@ const tocClose = Astro.props.lang === 'ru' ? 'Закрыть' : 'Close';
             id="btn-page-share"
             type="button"
             class="inline-flex items-center gap-1.5 rounded-xl border border-stone-800 bg-stone-900/80 px-3 py-1.5 text-xs font-semibold text-stone-300 hover:text-white hover:border-toxic-500/50 transition cursor-pointer"
-            title={Astro.props.lang === 'ru' ? 'Скопировать ссылку на гайд' : 'Copy guide link'}
+            title={G('copylink')}
           >
             <span id="share-icon">🔗</span>
-            <span id="share-label">{Astro.props.lang === 'ru' ? 'Поделиться' : 'Share'}</span>
+            <span id="share-label">{G('share')}</span>
           </button>
 
           <button
@@ -81,7 +238,7 @@ const tocClose = Astro.props.lang === 'ru' ? 'Закрыть' : 'Close';
             data-title={title}
           >
             <span id="bm-icon">☆</span>
-            <span id="bm-label">{Astro.props.lang === 'ru' ? 'В закладки' : 'Bookmark'}</span>
+            <span id="bm-label">{G('bookmark')}</span>
           </button>
         </div>
       </div>
@@ -91,7 +248,7 @@ const tocClose = Astro.props.lang === 'ru' ? 'Закрыть' : 'Close';
       toc.length > 2 && (
         <details class="mb-6 overflow-hidden rounded-2xl border border-stone-800 bg-stone-900/40 lg:hidden">
           <summary class="flex cursor-pointer select-none items-center justify-between px-4 py-3 text-sm font-medium text-stone-200">
-            <span class="inline-flex items-center gap-2">☰ {tocLabel} <span class="rounded-full bg-stone-800 px-2 py-0.5 text-xs text-stone-400 border border-stone-700">{toc.length}</span></span>
+            <span class="inline-flex items-center gap-2">☰ {G('toc')} <span class="rounded-full bg-stone-800 px-2 py-0.5 text-xs text-stone-400 border border-stone-700">{toc.length}</span></span>
             <span class="text-stone-500">▾</span>
           </summary>
           <nav class="border-t border-stone-800 px-2 py-2 text-sm">
@@ -121,7 +278,7 @@ const tocClose = Astro.props.lang === 'ru' ? 'Закрыть' : 'Close';
         <div class="rounded-2xl border border-stone-800/80 bg-stone-900/40 backdrop-blur-xl p-4 shadow-xl">
           <p class="mb-3 text-[11px] font-semibold uppercase tracking-widest text-stone-500 flex items-center gap-2">
             <span class="h-1.5 w-1.5 rounded-full bg-toxic-400"></span>
-            {tocLabel}
+            {G('toc')}
           </p>
           <nav class="space-y-1 text-[13.5px]">
             {toc.map((item) => (

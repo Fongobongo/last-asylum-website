@@ -29,9 +29,26 @@ const base = lang === 'en' ? '' : `/${lang}`;
 const H: Record<string, { h: string; d: string }> = {
   ru: { h: 'Гайды по героям', d: `${entries.length} героев: навыки, билды, прокачка, получение и осколки.` },
   en: { h: 'Hero Guides', d: `${entries.length} heroes: skills, builds, leveling, how to unlock, shard sources.` },
+  de: { h: 'Helden-Guides', d: `${entries.length} Helden: Fähigkeiten, Builds, Levelaufstieg, Freischaltung, Splitterquellen.` },
+  es: { h: 'Guías de Héroes', d: `${entries.length} héroes: habilidades, builds, subida de nivel, cómo desbloquear, fuentes de fragmentos.` },
+  pt: { h: 'Guias de Heróis', d: `${entries.length} heróis: habilidades, builds, evolução, como desbloquear, fontes de fragmentos.` },
+  fr: { h: 'Guides des héros', d: `${entries.length} héros : compétences, builds, amélioration, méthodes de déblocage, sources de fragments.` },
+  id: { h: 'Panduan Pahlawan', d: `${entries.length} pahlawan: keterampilan, build, peningkatan level, cara membuka, sumber pecahan.` },
+  ko: { h: '영웅 가이드', d: `${entries.length}명의 영웅: 스킬, 빌드, 육성, 해제 방법, 조각 수급처.` },
+  ja: { h: 'ヒーローガイド', d: `${entries.length}人のヒーロー：スキル、ビルド、育成、解放方法、破片の入手先。` },
+  ar: { h: 'أدلة الأبطال', d: `أبطال ${entries.length}: المهارات، التصميمات، الارتقاء بالمستوى، طريقة الفتح، مصادر الشظايا.` },
+  it: { h: 'Guide degli Eroi', d: `${entries.length} eroi: abilità, build, crescita, come sbloccare, fonti di frammenti.` },
+  ms: { h: 'Panduan Hero', d: `${entries.length} hero: kemahiran, binaan, penaiktarafan, cara buka kunci, sumber shard.` },
+  nl: { h: 'Heldengidsen', d: `${entries.length} helden: vaardigheden, builds, level omhoog, ontgrendelen, scherfbronnen.` },
+  th: { h: 'คู่มือฮีโร่', d: `ฮีโร่ ${entries.length} ตัว: ทักษะ, แนวทางการสร้าง, การอัปเลเวล, วิธีปลดล็อก, แหล่งที่มาของชิ้นส่วน` },
+  tr: { h: 'Kahraman Rehberleri', d: `${entries.length} kahraman: beceriler, dizilimler, seviye atlatma, nasıl açılır, parça kaynakları.` },
+  vi: { h: 'Hướng dẫn Tướng', d: `${entries.length} tướng: kỹ năng, xây dựng, tăng cấp, cách mở khóa, nguồn mảnh.` },
+  zh: { h: '英雄攻略', d: `${entries.length} 名英雄：技能、加点、升级、解锁方式及碎片获取途径。` },
+  pl: { h: 'Poradniki do bohaterów', d: `${entries.length} bohaterów: umiejętności, buildy, rozwój, jak odblokować, źródła odłamków.` },
+  'zh-tw': { h: '英雄攻略', d: `${entries.length} 位英雄：技能、配點、升級、解鎖方式、碎片來源。` },
 };
 const tt = H[lang] || H.en;
-const LBL: Record<string, string> = { ru: 'Общая информация', en: 'Topics' };
+const LBL: Record<string, string> = { ru: 'Общая информация', en: 'Topics', de: 'Themen', es: 'Temas', pt: 'Tópicos', fr: 'Sujets', id: 'Topik', ko: '주제', ja: 'トピック', ar: 'المواضيع', it: 'Argomenti', ms: 'Topik', nl: 'Onderwerpen', th: 'หัวข้อ', tr: 'Konular', vi: 'Chủ đề', zh: '主题', pl: 'Tematy', 'zh-tw': '主題' };
 
 const sectionCards = showHub
   ? SECTION_ORDER

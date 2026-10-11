@@ -5,7 +5,7 @@ Preserves markdown, frontmatter keys, code blocks, links, component comments.
 import os, re, json, time, sys, urllib.request, pathlib
 
 KEY = os.environ['GEMINI_API_KEY']
-MODELS = ["gemini-3.1-flash-lite"]*4 + ["gemini-2.5-flash-lite", "gemini-2.5-flash"]
+MODELS = ["gemini-2.5-flash", "gemini-3.5-flash", "gemini-3.5-flash-lite", "gemini-flash-lite-latest", "gemini-3.1-flash-lite", "gemini-2.5-flash-lite"]
 
 LANGS = ['de','es','fr','id','ja','ko','pt','ar','it','ms','nl','th','tr','vi','zh','pl']
 BASER = pathlib.Path('site/content/guides')
