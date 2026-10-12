@@ -2,7 +2,7 @@
 title: "Kingdom War (KvK): Survival & Scoring"
 description: "Server-versus-server war for the Royal City: the biweekly schedule, turret-first strategy for attackers, stall tactics for defenders, troop and resource risk, and the scoring overlap with Alliance Duel."
 lang: en
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: kvk
 calculators: []
 infographics: []
@@ -90,3 +90,85 @@ Verified values from game client data (v1.0.87), source: wiki-last-asylum.com. B
 | 50 | 10 | 45 | 8,000 | 1,200 |
 | 100 | 5 | 40 | 7,000 | 1,000 |
 | Below | 3 | 30 | 5,000 | 600 |
+
+## Practical KvK: Roles, Survival, and Smart Fights {#practical-kvk}
+
+KvK exposes the gap between account power and playing skill fast. Whaled mega-squads set the ceiling, but every strength tier has real jobs: tops fight for the castle and towers, mid players distract and pick open fortresses, and the weakest do more good preserving their army and scoring through safe mechanics than donating it in two minutes.
+
+### First: which war is it going to be? {#server-rules}
+
+Kings and server leadership often **negotiate the rules of engagement** — e.g. no burning of ordinary Sanctuaries, fight over towers and the central castle only. When both sides honor it, the battle stays organized. When the other server says "we defend however we want," pretty formations die in thirty seconds and you get burned before the fight starts. **Read the kingdom mail and leadership chat before KvK**: calm objective fight or full Sanctuary war changes everything — where to stand, whether you need a shield, how many troops to bring, how aggressive to play.
+
+### Preparation checklist: troops, healing, energy, teleports {#kvk-prep}
+
+A week of savings can evaporate in minutes — soldiers, healing, speedups, and energy all run out at once. Check all four before the war, with **army stock first**: a few bad minutes can leave you a decorative fortress for the rest of the event.
+
+Set the wall deliberately: **one strong Squad 1 that can actually repel an attack**, not all three squads on autopilot — weak squads 2–3 on the wall just inflate losses. And if an absolute monster is inbound, **pull everything off and let them burn an empty Sanctuary**. Less heroic; soldiers stay yours.
+
+### Three squads of thinking: tops, mid, weak {#player-roles}
+
+Not everyone storms the castle. If your Squad 1 is several times weaker than the thrones' defenders, running at it repeatedly is pointless:
+
+- **Tops** hold towers and the castle — absorb several attacks, keep reinforcements flowing, anchor objectives.
+- **Mid players** work around the main fight — burn reachable fortresses, catch opponents with their main squad out, harass attackers off objectives.
+- **Weak players** must above all **not gift free points**. Score safely through tiles and side activities, scout the map, spot reachable targets, keep the army. A small personal score beats a two-minute army donation — no shame in it.
+
+![Player roles in KvK: tops, mid, and weak](/img/dtf/kvk/01.jpg)
+
+### Attackers: distance is part of the fight {#attacker-distance}
+
+Defenders are home: they place players around objectives, relocate between positions, and react fast. Attackers must first **find somewhere to stand** — and burned-out fortress craters near the castle gradually clog the space, pushing new attackers' teleports further out. Never teleport "wherever it lands" for a serious fight: while your main squad runs for thirty seconds, the enemy slips behind you and burns your fortress. Check **march time, not just the target**, before every teleport.
+
+![Crater tactics around burned fortresses](/img/dtf/kvk/02.jpg)
+
+![Defending the central castle and towers](/img/dtf/kvk/03.jpg)
+
+### Do not turn into food {#dont-feed}
+
+The classic losing loop: attack the held center, lose, heal, attack, lose, attack a third time expecting a miracle. If the power gap is huge and you barely scratch the defender, **change the task, not the attempt count** — flank into reachable targets and score there. KvK is not a duel of honor: walk around an impassable wall.
+
+When the center becomes a meat grinder, **tiles are boring but rational**: score from a safe shielded spot while the server fails to anchor objectives or your account has no business in the central brawl. Nobody applauds three gathering squads — but they beat evaporating at a top donor's feet.
+
+![Scoring KvK points through tiles from a safe zone](/img/dtf/kvk/04.jpg)
+
+### The shield button can flip your whole fight {#shield-trap}
+
+Standing shielded, scoring, deciding to reinforce an ally — **the shield drops**. Seconds later half the enemy server takes an interest in you. Before any helpful action, check whether it strips protection. If the shield falls, change tactics immediately: back to safety or full mobile PvP (fly in, hit, leave, heal, wait for teleport, return). Worst option: sit still hoping nobody notices. On KvK, they notice fast.
+
+![Fortress shield in KvK: losing protection after an active move](/img/dtf/kvk/05.jpg)
+
+### Hit-and-run: the mid player's best scheme {#hit-and-run}
+
+If you cannot hold a tower against tops, you can still make them look away:
+
+1. Pick an opponent at or slightly below your level.
+2. Move closer, hit, and **leave the moment hunters converge**.
+3. Heal, restore energy, wait for the next window.
+
+Three or four chasers off the castle is team value: one mid player never beats a top server, but ten mobile players manufacture permanent chaos while your strongest work the objectives.
+
+![Mobile PvP strike during KvK](/img/dtf/kvk/06.jpg)
+
+### Strike when the enemy main squad leaves {#empty-fortress}
+
+A top player is near-unbreakable with Squad 1 home — but it must fight the war. The squad leaves for a tower or the castle, and the Sanctuary behind it turns interesting. You do not even need a full burn: **starting the attack often recalls the main squad**, and a recalled top squad no longer helps the objective. That is already a win. Mirror rule: do not teleport so far from your victim that your own empty fortress gets burned while the main squad is still on the road — seconds matter.
+
+Let a strong wall farm for you: if weak squads keep breaking on your Squad 1, **stay home and let them repeat the mistake** — points arrive by themselves. But watch who comes next; when a genuinely stronger player lines up, leave before they prove it on your whole army.
+
+### The reinforcement trap {#reinforcement-trap}
+
+Reinforcement looks like obvious help — until a weak reinforcement dies instantly and converts into enemy points. In one cited fight the attacker lost under 300 soldiers while the other side lost nearly 9,000: a weak reinforcing squad fed the attacker a huge PvP-point banquet. **Do not reinforce for the sake of helping** — if the squad is clearly below the war's level, keep it home. Strong holders need troops that extend the hold, not a free feast.
+
+### Low army? Stop trading {#low-army}
+
+At two or three thousand soldiers left, flying into the center "because KvK is on" is dubious — there are no longer three real squads, sometimes not even a second. Switch modes: reachable targets only, point collection, map watch, intel help. Once personal rewards are claimed (one cited run closed everything at 2.8M+ personal points), every new fight must justify its risk to the server, not to the highlight reel.
+
+### Tops anchor, towers are not secondary {#tops-towers}
+
+The strongest players should be **anchors on key objectives, not hunters of random fortresses**. One 34M-power Squad 1 that cannot be dislodged from a tower is the textbook case: build reinforcement and mid-player screens around it while it holds what decides the result. Never send all top strength at the castle alone — partial tower control pressures the center and splits the defenders, so assign alliances to directions **before** the start.
+
+Even a lost KvK pays: a weaker server that keeps raiding, holds a tower here, catches weak targets there, and drags enemy tops home learns target evaluation, timing, and retreats — and sees exactly what the main squad lacks (tank, healing, troops, energy, recovery speed) for next time.
+
+![What top players should do during KvK](/img/dtf/kvk/07.jpg)
+
+> Source: [Война Королевств в Last Asylum: Plague - советы по КВК](https://dtf.ru/howto/5340999-voyna-korolevstv-last-asylum-plague-sovety-po-kvk) by Гейм-Знаток on DTF.

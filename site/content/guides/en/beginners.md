@@ -2,7 +2,7 @@
 title: "Beginner Guides: Hub"
 description: "Your first 24 hours: active alliance, Sanctuary push, two-three focus heroes, events before speedups, plundering from day one."
 lang: en
-updated: "2026-10-03"
+updated: "2026-10-12"
 videoTopic: beginner
 ---
 
@@ -213,3 +213,201 @@ The build calculator assembles the upgrade order from day one: from the building
 - [Hero Road](/hero-road/)
 - [Honor levels: conditions, cost and payout](/hero-honor/)
 - [Expedition: arena order and early-server bonus](/expedition/)
+
+---
+
+## Start Lean: Focus, Hospital, Warehouses, One Squad {#dtf-start-focus}
+
+![Full start guide for Last Asylum: Plague](/img/dtf/beginners/01.jpg)
+
+The classic start feels busy — a building here, a hero there, a research tap — but resources scatter in every direction while power stands still. The fix is sequencing, not effort: **first the base into shape, then the heroes into content-clearing shape, and only then everything else.** Strengthening everything a little strengthens nothing.
+
+![Starting tips that keep progress from stalling](/img/dtf/beginners/02.jpg)
+
+### The Sanctuary is the compass
+
+The Sanctuary gates buildings, mechanics and upgrades: while it stands still, you stall; while it builds, you move. Stop guessing what to upgrade — open the next Sanctuary level's requirements and work strictly to them. Miss it once and the game simply says "no further" after you already burned the time elsewhere.
+
+![The Sanctuary — the center of the whole base](/img/dtf/beginners/03.jpg)
+
+### Follow the quests early
+
+Quests are not a tutorial to outgrow — they are the main progress tool: resources, speedups, diamonds, and new mechanics unlock through them. Use them as a compass: when in doubt, do what moves the quest line. Ignoring them means doing the same things slower.
+
+### The hospital is a conveyor, not a chore
+
+The hospital is one of the main resource engines: patient in, cured, reward out, next patient. If it runs slow, everything stalls.
+
+![Hospital: the doctor treats patients and new wards open](/img/dtf/beginners/04.jpg)
+
+- **Open new wards** — patient flow grows.
+- **Hire workers** — the manual routine disappears.
+- **Pre-craft potions** — a patient without the right potion occupies a bed and halts the line; with stock on hand, curing is instant and the bed frees up.
+
+![Stocking potions in advance keeps hospital beds cycling](/img/dtf/beginners/05.jpg)
+
+Running around as the doctor yourself works only at the very start. The moment automation (workers, auto-treatment) is available, take it: without it progress stops every time you log out; with it resources accumulate while you are away.
+
+![Manual patient treatment early in the game](/img/dtf/beginners/06.jpg)
+
+### Stable economy before expansion
+
+Early income feels generous, then the bill arrives: every new building raises consumption without raising output. The rule is boring but works — stable food and materials first, expansion second. And progress is not only what you gather but what you keep: warehouses raise storage caps and shield part of the stock from raids, so one lost battle does not erase an upgrade you already saved for.
+
+![Gathering resources and developing the base](/img/dtf/beginners/07.jpg)
+
+![Resource warehouses raise storage and protect stock](/img/dtf/beginners/08.jpg)
+
+### Keep squads working, skip early caravans
+
+A squad earns only while marching; an idle returned squad is invisible downtime that compounds into a real gap. Match march length to your schedule: short expeditions while online, long ones before logging out.
+
+![Caravans on the world map](/img/dtf/beginners/09.jpg)
+
+Caravans look tempting but pay unstably at the start for the attention they cost — ignore them early and farm through plain expeditions.
+
+### The base is a foundation — the map is the point
+
+Squads are not just fetchers of food, timber and herbs: they open nodes, hold outposts, retake infected ruins and contest key cities. With server-scale formats like Kingdom Clash on the horizon, every player's contribution feeds the shared result — a start built around a living economy, a real hero pack and working squads arrives at the map as a participant, not a spectator.
+
+![The world map: outposts, ruins and contested cities](/img/dtf/beginners/10.jpg)
+
+### Defense is routing, not towers
+
+Enemies take the shortest open path, so a straight wall of towers underperforms: build long winding corridors through turns and chokepoints, concentrate towers where enemies linger longest, add slows — and the same towers deal far more damage. Good defense is a longer enemy path, not more towers.
+
+![Defense mode: towers covering a long winding enemy route](/img/dtf/beginners/11.jpg)
+
+### One working five, not a roster of averages
+
+Scattering fragments across every new pull produces a list of mediocre heroes and dragged-out fights. Pick one five and feed it everything — levels, skills, gear:
+
+- **Arthur** — front-line tank, buys the team time;
+- **Marlena** — main damage that ramps through the fight;
+- **Claire** — buffs everyone, not just herself;
+- **Stellar** — extra pressure, strong in mass combat;
+- **Celia or Bella** — support that closes the remaining gaps.
+
+![A working five-hero squad with clear roles](/img/dtf/beginners/12.jpg)
+
+![A balanced hero team for the early game](/img/dtf/beginners/13.jpg)
+
+Strength comes from roles working as a unit, not from rarity counts or headcounts. New pull? Check whether it improves the current five — if not, it waits.
+
+### Arena currency goes to universal fragments
+
+The arena shop is a trap of tempting one-offs. The priority that compounds: **universal hero fragments** — they fit any hero, push star upgrades and grow the team permanently. One strong late purchase beats ten useless early ones.
+
+![The Arena and its prize shop](/img/dtf/beginners/14.jpg)
+
+### Lab: Development first, help before speedups
+
+The Lab gives no instant power spike, which is why it gets postponed — and then timers balloon. Priorities: construction speed, research speed, troop training — the Development branch accelerates literally everything — plus the alliance-duel points bonus that pays extra rewards for the same actions. Lock one branch and finish it; spraying scrolls everywhere moves nothing. And always press alliance Help before spending speedups — free timer cuts first.
+
+![Research Lab interface](/img/dtf/beginners/15.jpg)
+
+![The Development research branch that speeds up everything](/img/dtf/beginners/16.jpg)
+
+![Alliance help cutting construction timers](/img/dtf/beginners/17.jpg)
+
+### Gear: skip blue, dismantle, feed purple wisely
+
+Upgrade materials are always scarcer than buttons to press. Blue gear gets replaced by purple anyway and refunds nothing — dismantle it into materials for the next stage instead of upgrading it. Purple is a fair temporary step (later dismantled without catastrophe); feed it first to the key hero — usually the tank holding the line, Arthur. Temporary item, trial hero, glowing red dot alone: almost always a bad spend.
+
+![Blue gear not worth upgrading](/img/dtf/beginners/18.jpg)
+
+![Gear priority on Arthur and the core team](/img/dtf/beginners/19.jpg)
+
+![Dismantling spare gear into upgrade materials](/img/dtf/beginners/20.jpg)
+
+### Diamonds are a reserve, not comfort
+
+Early diamonds burn fast on comfort — and days later the hero roulette opens, demanding a real stock, not a couple hundred. A short extra worker in the first hours is a fair boost; after that, hold. Treat diamonds as a fund for a concrete goal, and only spend to close a specific gap you already understand.
+
+![Earning diamonds by completing quests](/img/dtf/beginners/21.jpg)
+
+> Source: [Last Asylum: Plague - полный гайд для старта: как не слить ресурсы и быстро выйти в топ](https://dtf.ru/howto/4920845-last-asylum-plague-gayd-po-startu-sovety-po-optimizatsii-resursov) by Гейм-Знаток on DTF.
+
+---
+
+## First Seven Days: Fresh State to Second Squad {#dtf-first-week}
+
+![Best-start guide for new players](/img/dtf/beginners/22.jpg)
+
+Week one needs exactly three things: a fast-growing base, one strong main squad, and an active alliance. Everything else builds around them — the goal is to finish day seven without wanting to reroll.
+
+### Start on a fresh state
+
+Your state is effectively your server: on a fresh one everyone starts together, while on a days-old one the active core has already pulled ahead into strong alliances with more content open. Do not chase a specific state number — that advice expires faster than a construction timer — and do not pick an old server just because the game highlights "recommended". A state opened a few hours ago is perfectly fine.
+
+![Choosing a fresh state for a new account](/img/dtf/beginners/23.jpg)
+
+### Tutorial first, then Sanctuary 8 with a living economy
+
+Play the tutorial properly for the first half hour — it beats experimenting, especially experiments starting with "I wonder what this gold button does". Then push the Sanctuary: it sets the development ceiling, caps hero levels and opens features. The working target is a fast run to level 8 **without leaving a dead economy behind** — if the next level needs Walls or the Alliance Hall, build them; if herbs run dry, fix herbs; if healing stalls, check medicine production. Note that past level 10 the Lab becomes a permanent fixture in the requirements.
+
+![Sanctuary levels and what each one unlocks](/img/dtf/beginners/24.jpg)
+
+Before launching each Sanctuary upgrade, check what the *next* level will demand and start preparing that building while the Sanctuary timer runs — this alone removes a lot of idle waiting. Spending to cross an important Sanctuary threshold and open a new system is sensible; spending to shave five idle minutes is not.
+
+### Build-queue habits
+
+Never leave builders idle — an hour of debating heroes while timers sit empty is lost growth. While online, queue short upgrades; before sleep, launch multi-hour ones, and run production on the same rhythm. Watch the herb-to-medicine chain in particular: herbs look ordinary until a battle streak leaves you with nothing to heal with. And do not level every production building evenly "for beauty" — feed what is actually running short, because resources sunk into non-driving buildings stall the account.
+
+### Formation: tanks front, damage back
+
+Two heroes hold the front, three work the back: the tanks absorb damage and buy time, the back line carries the main damage-dealer, a secondary attacker and a support. Never post your strongest damage-dealer up front just because it shows the biggest Might number — its job is dealing damage from the back row while the tanks hold.
+
+![Correct formation: two tanks in front, three heroes behind](/img/dtf/beginners/25.jpg)
+
+### After defeat, diagnose — then keep feeding one squad
+
+If the tanks collapse instantly, reinforce the front; if the tanks hold but enemies survive, invest in the main and secondary damage. The second squad unlocks at Sanctuary 8 and the third only at 20 — neither means splitting resources in half. The first squad still clears the hard content; the second gathers, runs errands and grows on leftovers until the main five confidently clears content.
+
+### The starter five and how to split resources
+
+A proven early core: **Arthur and Bella up front; Marlena, Claire and Celia behind** — all Warriors, so the squad banks the full +20% faction bonus from day one.
+
+- **Arthur** becomes the main tank. He is the first UR to appear in the Tavern on a young state, and 50 summons guarantee 10 of his fragments — claim him into the main five early, then start saving tickets for events that score summon points.
+- **Bella** holds the second front slot so no damage-dealer has to stand there.
+- **Marlena** is the main long-term damage carry — the prime candidate for extended investment.
+- **Claire** shreds monsters and amplifies strong Warriors — and she is no throwaway SSR: in the Era of Rebirth she advances from SSR to UR, so early investment keeps paying.
+- **Celia** shines in PvE, farming resource and elite monsters, rounding out the team until a full UR five exists.
+
+Split unevenly: Marlena, Arthur and Claire are the long-term trio; Bella and Celia do starter jobs well but should not receive universal UR fragments, best blueprints or the rarest materials. While upgrades are cheap, keep the five roughly level; as costs climb, the trio takes priority. The same logic governs skill badges. Gear follows roles: tanks want armor and boots to hold the front longer; damage-dealers want sword and gloves to end fights faster. And never upgrade an item just because a red dot appeared next to it — the red dot does not know your plan.
+
+### Skills: PvP or monsters?
+
+Many skills aim at PvP, others at monsters and PvE — Claire hits monsters harder and boosts Warriors against them, Celia can raise resource and elite monster loot. So the question is never "how rare is this hero" but **"where am I taking them right now?"** That matters doubly for the second roster: five expensive cards do not sort out tank, support and passenger roles by themselves.
+
+### Factions without fetish
+
+The triangle runs Warriors → Warlocks → Rangers → Warriors with a 20% edge, and the same-faction build bonus scales 3 heroes +5%, 3+2 +10%, four +15%, full five +20% to attack, HP and defense.
+
+![Same-faction squad bonus up to +20%](/img/dtf/beginners/26.jpg)
+
+But on day one, never bench a good tank for a weak filler just to complete a 5/5 picture: the team must work first, then grow into a full mono squad. For an early Warrior core this is convenient — Arthur tanks, Marlena deals, Claire boosts PvE — and further URs slot in over time. Saving rules follow the same plan: universal UR fragments go to Marlena first (Arthur farms his own fragments through the Tavern and other sources), and among SSRs Claire is the top universal-fragment candidate.
+
+### Alliance: good beats top
+
+Join a good alliance as soon as the feature opens — and "good" matters more than "top". Check whether chat answers, members press Help, events get played, leadership exists. Alliance help cuts construction and research timers every day, so an active community literally accelerates the account; twenty people helping daily compounds constantly, while a dead chat with an absent leader is a signal to move on.
+
+![A newcomer joining an active alliance](/img/dtf/beginners/27.jpg)
+
+### Rat Swarm as a squad diagnostic
+
+The Rat Swarm is not just an early wave-defense mode — it tells you what the main squad lacks. Tanks dying instantly means the front; calmly reaching the boss but leaving the Rat King at high HP means damage; towers standing far from the main paths means consolidating into fewer working points instead of upgrading the whole field evenly. Hold active skills manually for the boss rather than firing everything just before the Rat King spawns, and secure confident clears of normal waves before pushing the next boss.
+
+![Rat Swarm wave battle early in the game](/img/dtf/beginners/28.jpg)
+
+### Spend speedups and diamonds on timing
+
+Once the mid-first-week game starts, it matters not only what you spend but when. Speedups pressed on a construction-scoring event day buy both the building level and the event rewards; the same logic spreads to research, heroes and troops — especially after the Alliance Duel opens, when hoarders of speedups out-earn impulsive spenders from the same stock. The stealthiest newbie drain is micro-speedups: three minutes here, ten there, and thousands of diamonds evaporate by evening. Hold diamonds for tangible goals — an important event, a needed threshold, a genuinely good offer. For low spenders, long-effect picks come first (a first-top-up hero, a useful pass, a pack for a hero you are actually building); speedups and plain resources come after.
+
+### The week-one rhythm
+
+Do not try to open and upgrade everything in seven days. Raise the Sanctuary, assemble one strong main squad, join an active alliance, and keep rare materials unspent. Day one especially must never leave construction and production idle; then the Tavern, Arena, events, second squad and faction bonuses plug in gradually while the main five keeps receiving the resources. By week's end the loop should read: collect production, launch construction, check events, spend where it scores extra, then head to the map or the Arena.
+
+![First-week action plan](/img/dtf/beginners/29.jpg)
+
+> Source: [Last Asylum: Plague - актуальный топовый старт: что делать в первые 7 дней. Советы, секреты, рабочая тактика игры](https://dtf.ru/howto/5265655-last-asylum-plague-startovyy-gayd-dlya-novichkov) by Гейм-Знаток on DTF.

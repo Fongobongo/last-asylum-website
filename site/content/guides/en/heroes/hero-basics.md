@@ -2,7 +2,7 @@
 title: "Basics: factions & squads"
 description: "Раздел гайда по героям: basics: factions & squads."
 lang: en
-updated: "2026-10-01"
+updated: "2026-10-12"
 videoTopic: heroes
 ---
 
@@ -227,3 +227,172 @@ Pages that mention this one. The list is built from the markup, not filled by ha
 
 
 ---
+
+## Which Tank to Build: Arthur, Daskal, Brian or Louis {#dtf-tank-choice}
+
+Everyone wants big carry numbers first, but if the front falls in the opening seconds the carry never shows what it can do. A good tank holds the first hit, buys the cast time, cuts incoming damage — sometimes with shields, self-heal or protection against a specific damage type. Arthur, Daskal, Brian and Louis all do this differently.
+
+![Arthur, Daskal, Brian and Louis: the four tanks compared](/img/dtf/hero-basics/01.jpg)
+
+![What each tank does: Arthur, Daskal, Brian and Louis](/img/dtf/hero-basics/02.jpg)
+
+### Arthur: the safest tank for most accounts {#dtf-arthur-safe}
+
+Arthur is the universal front. He does not demand a perfect five around him — he steps forward and works in PvP, PvE, early and transition phases.
+
+- **Battle Shield** — basic physical hit on one target.
+- **Earthshattering** — area hit that helps allies take less physical damage.
+- **Rock Solid** — personal shield tied to Arthur's max HP.
+- **Strong Will** — passively reduces damage taken by allied tanks.
+- **Tenacity** — raises ATK, HP, DEF and speeds up skill cooldowns.
+
+Result: stability rather than highlights. He is the tank you can build first without locking yourself into one narrow scheme.
+
+![Arthur the universal tank for PvP, PvE and F2P](/img/dtf/hero-basics/03.jpg)
+
+### Daskal: dense front and shields {#dtf-daskal-shields}
+
+Daskal plays through shields, survivability and self-recovery. If Arthur is the stone pillar, Daskal is the extra armored door.
+
+- **Battle Will** — basic physical hit.
+- **Bloodshed Defense** — team shield tied to DEF.
+- **Deadly Pierce** — damage plus HP restore for Daskal.
+- **Resolute Fight** — opening shield on allied tanks.
+- **Tenacity** — ATK/HP/DEF plus faster cooldowns.
+
+He shines next to Arthur (universal stability + shields and self-heal) and in Warrior squads that need a dense front so the carry works calmly. Take him when Arthur already exists and you need a second strong tank, or when the team sags at the start.
+
+![Daskal: shields, self-heal and team survivability](/img/dtf/hero-basics/04.jpg)
+
+### Brian: the long-fight tank {#dtf-brian-long}
+
+Brian is not about big shields. He dampens enemy pressure and stays useful in drawn-out battles.
+
+- **Sharp Claw** — basic physical hit.
+- **Threat Bite** — damage plus reduced damage taken for all allies.
+- **Lunar Howl** — reflects part of the damage received.
+- **Wolf Bloodline** — passively reduces all damage taken.
+- **Tenacity** — standard ATK/HP/DEF and cooldown gain.
+
+Best in long PvE fights, sturdy front lines and Warlock direction — a later, deliberate pick once you know your factions and modes, not a chaotic-start hero.
+
+![Brian: damage reduction for long battles](/img/dtf/hero-basics/05.jpg)
+
+### Louis: anti-burst and anti-energy specialist {#dtf-louis-anti-burst}
+
+Louis is the most situational of the four — and the answer to fast compositions that delete a target in seconds or press with energy damage.
+
+- **Shackles** — basic attack.
+- **Cross Whip** — damage, Louis self-heal, plus reduced incoming damage.
+- **Force Link** — cuts energy damage to nearby allies.
+- **Indomitable Spirit** — heavy incoming-damage reduction and help against a lethal hit.
+- **Tenacity** — attack, HP, defense and cooldown speed.
+
+Not the first brick in the foundation, but the special tool for fast enemy metas once the front is otherwise closed.
+
+![Louis: counter to burst and energy pressure](/img/dtf/hero-basics/06.jpg)
+
+### Who is better in PvP and PvE {#dtf-tank-pvp-pve}
+
+PvP order: **Arthur → Daskal → Louis → Brian**. Arthur's stability and first-exchange value lead; Daskal's shields buy carry time; Louis climbs past Brian because surviving the opening burst decides PvP; Brian's strengths need longer pressure.
+
+PvE order: **Arthur → Brian → Daskal → Louis**. Arthur stays on top as the universal pick; Brian rises on long fights and damage reduction; Daskal follows with shields and density; Louis narrows to matchups with real burst or energy pressure.
+
+![Tank comparison in PvP and PvE](/img/dtf/hero-basics/07.jpg)
+
+### F2P order and tank mistakes {#dtf-tank-f2p}
+
+F2P and low-spend rule: **Arthur → Daskal → situational**. One strong tank beats four half-built ones. Common errors: building a tank without a squad plan (Brian with no Warlock direction, Louis with no energy-pressure meta); raising all four at once; forgetting the carry (a wall with no damage loses slowly); copying someone else's squad without their conditions.
+
+![Tank priority for F2P and low-spend](/img/dtf/hero-basics/08.jpg)
+
+Personal shorthand: nothing yet → Arthur; Arthur done and the front must become a wall → Daskal; late systemic squad for long fights → Brian; fast enemy comps delete heroes in seconds → Louis.
+
+![Arthur, Daskal, Brian or Louis: the verdict](/img/dtf/hero-basics/09.jpg)
+
+> Source: [Last Asylum: Plague: Артур, Даскал, Брайан или Луис - какого танка качать](https://dtf.ru/howto/5104617-kakogo-tanka-kachat-v-last-asylum-plague) by Гейм-Знаток on DTF.
+
+## Formation: Two Tanks Up Front, Carry in the Middle {#dtf-formation}
+
+Might alone misleads. An expensive squad loses when its carry stands in front, its tank hides in the back, and its best sword sits on the wrong hero.
+
+![Best hero formation guide](/img/dtf/hero-basics/10.jpg)
+
+### Factions first, then one-faction bonus {#dtf-faction-bonus}
+
+Warriors beat Warlocks, Warlocks beat Rangers, Rangers beat Warriors. Most players assemble a Warrior core first because its good heroes arrive earlier; on a Warrior-heavy server, Rangers become a strong second direction — even a slightly weaker Ranger team surprises Warriors through the faction edge.
+
+![Warrior, Ranger and Warlock factions](/img/dtf/hero-basics/11.jpg)
+
+Five heroes of one faction give **+20% HP, attack and defense** (four give 15%). That is why three gold plus two good purple Warriors of one system routinely beat five random golds: check the squad bonus before admiring a single hero's Might.
+
+### Who stands in front {#dtf-front-roles}
+
+Heroes have a role as well as a faction: shield = tank, and tanks take the first hits.
+
+![Hero faction and role icons](/img/dtf/hero-basics/12.jpg)
+
+The normal base: **two tanks in front, damage and support behind**. A strong carry in front dies before casting — the best damage dealer must survive to use skills, not die heroically first.
+
+![Tanks in front, damage behind](/img/dtf/hero-basics/13.jpg)
+
+### Working Warrior layout: Arthur, Bella, Marlena, Claire, Harper {#dtf-warrior-formation}
+
+Build by roles, not by total power:
+
+- Front: **Arthur (left), Bella (right)** — hold the line as long as possible.
+- Back: **Marlena center** (main damage source gets the most time in even fights), **Claire** on one side as second damage, **Harper** on the other as support.
+
+![Full formation example on the field](/img/dtf/hero-basics/14.jpg)
+
+Scout the enemy before the fight: if an awkward target sits across from Marlena, swap her with Claire — but start with Marlena in the middle.
+
+### Equal Might means little {#dtf-equal-might}
+
+Arena pairs with near-identical Might fight differently because the number folds in heroes, formation, gear, main-carry development — and troops (T1–T10, with T10 a separate late goal through Training Grounds and research). Two similar-Might squads can differ purely on troop tier.
+
+![Squad vs Training Grounds with T9 troops](/img/dtf/hero-basics/15.jpg)
+
+### Always open the battle report {#dtf-battle-report}
+
+After a loss to an equal opponent, check who dealt the damage, who died first, and which heroes hold the best gear. Two level-135 Marlenas are not the same hero when stars, skills and swords differ — the report shows it.
+
+![Reading the post-battle report](/img/dtf/hero-basics/16.jpg)
+
+### Gear must match the role {#dtf-gear-by-role}
+
+Tanks like Arthur want armor and boots first; the main carry wants the strongest sword and attack pieces. A great sword on a tank while Marlena runs a level-20 weapon helps both items and neither fight. With scarce materials, one real attack set on the main carry beats five equally pretty heroes.
+
+![Tank and carry gear after an Arena fight](/img/dtf/hero-basics/17.jpg)
+
+Up to about level 20, several heroes can be lifted together. Past that, costs jump — focus the two heroes that carry squad one (main damage dealer plus main tank, e.g. Marlena's sword and Arthur's protection) and leave the rest on a working base.
+
+### Who to push first, and what second {#dtf-first-focus}
+
+For a Warrior first squad: **Marlena deals the damage, Arthur buys her the time** — then second tank, Claire, Harper and the rest. Finish one important upgrade instead of spraying antitoxin and shards across every new pull.
+
+![Marlena and Arthur: the Warrior core](/img/dtf/hero-basics/18.jpg)
+
+Paid heroes help — early access is a real advantage while others wait — but they still need faction, position, stars, skills and gear. Treat faster progress as a way to remove one concrete bottleneck.
+
+Once the Warrior march stands, build **Rangers second** on Warrior-heavy servers: same 2-tanks-front template, five of one faction for the full bonus, damage behind (a second damage dealer can stand in temporarily without support). Do not rush to equalize both marches — the first keeps solving the hardest tasks while the second becomes an anti-Warrior specialist.
+
+![Ranger squad vs Warriors](/img/dtf/hero-basics/19.jpg)
+
+Do not stuff every gold hero into squad one: sometimes three gold plus two purple of one faction for the first team, with the remaining golds starting a real second march, builds a healthier account (one main, one anti-faction, one for the rest) than five best in front and leftovers anywhere.
+
+### Thursday and the shops {#dtf-thursday-shops}
+
+If your alliance runs Duels, hold serious hero spending (antitoxin, shards, skill badges, summon tickets) for **Thursday** — hero day plus event points for the same action. In shops: Honor = gear blueprints first; Expedition = universal hero shards, summon tickets, antitoxin; Sanctuary = available shards. Buy for one current deficit (Marlena stars, Arthur gear), not everything that looks useful.
+
+![What to buy in the game shops](/img/dtf/hero-basics/20.jpg)
+
+### Defeat checklist and zero-to-ready plan {#dtf-defeat-checklist}
+
+After a loss: formation (carry in front?) → faction bonus (broken for one stronger hero?) → gear (best sword on the tank?) → stars and skills. That order finds the cause before the next million resources go in.
+
+![Squad development order from zero](/img/dtf/hero-basics/21.jpg)
+
+Zero-to-ready: one full faction five → two tanks front, best carry middle-back → base gold gear to ~20, stop leveling everything → expensive resources into main-carry weapon and first-tank defense → second faction (Rangers on Warrior servers) → third team only afterwards.
+
+> Source: [Last Asylum: Plague - гайд по лучшей расстановке героев](https://dtf.ru/howto/5245716-last-asylum-plague-sovety-po-rasstanovke-geroev) by Гейм-Знаток on DTF.

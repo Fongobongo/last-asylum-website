@@ -2,7 +2,7 @@
 title: "Elixir Scramble: How to Win"
 description: "A 30-minute alliance-versus-alliance point battlefield: five stages, control-based scoring, Healing Tent priority, teleport rules, and the wall mistake that ends your run in 10 minutes."
 lang: en
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: elixir
 calculators: []
 infographics: ["/infographics/elixir-guide.webp", "/infographics/elixir-strategy.webp"]
@@ -359,4 +359,67 @@ RES Level is crucial for battling era Monsters. Upgrading RES Level grants RES a
 ### RES Attribute
 
 RES is the sole attribute for battling era Monsters. Each Monster has its own RES attribute. When your RES exceeds the Monster's RES, you'll defeat them easily; if your RES falls short, you'll face disadvantages or even defeat in battle.
+
+---
+
+## Field Tactics: Squads, Buildings, and Map Awareness {#field-tactics}
+
+Power matters in Elixir Scramble, but it decides far less than organization. A stronger alliance loses to a weaker one that holds the Migration Gates, collects dropped points, and never parks heroes on one tent. The event runs on **Fridays**; alliance leadership usually assigns roles in advance — Gates, tents, alchemy, center — and the plan mail is worth actually reading. An active player beats a registered no-show every time: empty buildings and double-duty teammates follow no-shows around.
+
+![Alliance battle plan for the Elixir Scramble](/img/dtf/elixir/01.jpg)
+
+### Set up three squads by role, not just by power {#squad-roles}
+
+- **Squad 1 is always the strongest** — the main lineup that knocks out strong opponents and holds key buildings.
+- **Squads 2 and 3 can be light technical squads — down to a single hero.** Knock the enemy out with the main force, then park a cheap squad on the point and free Squad 1 for the next attack. If the weak holder gets knocked out, losses are far smaller.
+- One fights, one holds, one covers or takes extra points.
+
+![Setting up first, second, and third squads before the race](/img/dtf/elixir/02.jpg)
+
+### Wall check — and the scout-bait trick {#wall-scout-trick}
+
+Open fortress defense before the fight: **leave only the strongest squad on the wall, take squads 2–3 off.** Against a stronger attacker, weak wall squads are free losses — a couple thousand gone here and there, then Squad 2 exists spiritually rather than physically. Against weaker opponents the Squad 1 wall wins by itself. And if an unstoppable monster is incoming, **take everything off and let them burn an empty fortress** — keeping the army beats keeping the position.
+
+![Wall squad placement](/img/dtf/elixir/03.jpg)
+
+Scout trick: if enemy reconnaissance is inbound, **pull Squad 1 off the wall for a few seconds** so the report shows an empty fortress, then put it back. An impulsive attacker launches straight into a full defense. Not magic — veterans see through it — but it works beautifully on auto-attackers.
+
+### Building priority from experience {#building-priority}
+
+Do not try to hold everything with eight active players and eleven points — hold the key ones:
+
+- **Migration Gates — defend from the start.** −50% relocation cooldown means arriving to help on time, retaking lost buildings, escaping bad attacks, and teleporting behind someone who marched everything out. Put a strong player on Gates; if they must leave, leave at least a weak technical holder. Worst case: win a five-minute Gates fight, then both strong players fly off and leave it empty.
+- **Healing Tents (4 total) — hold at least two by mid-battle.** 15 wounded per 10 seconds (claimed via a button) feels small until both sides have traded wipes and Squad 2 has nobody left to send. Heal in small batches to control speedup costs.
+- **Alchemy Workshops — steady income, no buffs** (~50 points/sec each). Good once the main points are held and the team has spare people — never worth trading Gates or the center for.
+- **Observatory — +10% income from held buildings.** Scales with map control: great at half the map, weak at two points out of ten.
+- **Center (opens ~minute 10): Elixir Castle + War Relic + Cursed Altar.** The Castle is the richest point on the map (~80 points/sec) — prep strong players for this moment. The Relic buffs your side, the Altar weakens the enemy (check exact percentages in-game, balance shifts). Aim for Castle plus one combat point — **without abandoning everything**: a pretty center capture while the enemy takes Gates, two tents, alchemy, and Observatory still shows as a loss on the scoreboard.
+
+![Elixir Castle, War Relic, and Cursed Altar after the center opens](/img/dtf/elixir/04.jpg)
+
+### The points lying on the ground {#dropped-points}
+
+After a capture, **medkits accumulate next to the building** (starting after ~a minute, growing while held). If the point flips, the stockpile **scatters and anyone can pick it up** — including you. Five to nine thousand points lying around a building can decide a close match:
+
+- Watch the stockpile under your buildings; if you are about to lose the point, get ready to come back and collect the drop.
+- An enemy building with a fat pile and a beatable owner becomes a priority target.
+- **Fast scouts are point collectors**: idle holders should scan for yellow drops and race scouts to them (yours vs theirs is visible by color). Scout speed upgrades pay for themselves here.
+
+![Collecting medkits and points around captured buildings](/img/dtf/elixir/05.jpg)
+
+### Mid-fight habits that win matches {#mid-fight-habits}
+
+- **Strong squad fights, weak squad holds.** Never leave the best army guarding an uncontested room for ten minutes — rotate it back when a serious enemy approaches the weak holder.
+- **Catch the emptied fortress.** When all three enemy squads march out, teleport in and hit the hollow home — even forcing the main squad to return is a win.
+- **Scout far targets first.** A long march into an unknown fortress that evaporates is a wasted trip; if one player keeps beating you, swap targets with an ally instead of proving a point for the twentieth time.
+- **Out of soldiers? Stay in the event.** Late **camps pay ~5 points/sec each** — three camps is 15/sec, which beats zero. Keep collecting medkits, scouting, and taking empty points with technical squads; near-armyless players have topped collection charts this way.
+- **Read chat.** Short callouts ("gates empty", "need center", "can't break", "grab medkits") are part of the tactics — ask for a swap early instead of feeding a stronger opponent for ten minutes.
+- **Check the after-battle report, not just your rank.** Kill counts mislead; the player who quietly took free points and collected drops often outscores the brawler. Participation also pays **Honor Medals**, spendable in the event shop (materials, gear blueprints) — review the stats before closing the window.
+
+![Gathering points from camps late in the battle](/img/dtf/elixir/06.jpg)
+
+![Post-battle results: collection, captures, and fights](/img/dtf/elixir/07.jpg)
+
+Common mistakes to skip: ignoring the plan mail, defending with weak wall squads, abandoning old points for the center all at once, and forgetting the ground loot. Watch points-per-second all game — you can burn five players beautifully and still lose the event.
+
+> Source: [Гонка за эликсиром в Last Asylum: Plague - тактика и стратегии](https://dtf.ru/howto/5338769-gonka-za-eliksirom-v-last-asylum-plague-taktika-i-strategii) by Гейм-Знаток on DTF.
 

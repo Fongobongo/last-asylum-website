@@ -2,7 +2,7 @@
 title: "Building Priorities & Sanctuary Roadmap"
 description: "Sanctuary roadmap to level 30, the build priority order, what every building does, and how to stack construction speed buffs the correct consecutive way."
 lang: en
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: buildings
 ---
 
@@ -329,3 +329,85 @@ How the speed, cost and copy-limit nodes change the build queue for a particular
 - [Warrior Statue](/buildings/warrior-statue/)
 - [Watchtower](/buildings/watchtower/)
 - [Weaving Workshop](/buildings/weaving-workshop/)
+
+---
+
+## 🧱 Beginner building tactics {#dtf-beginner-tactics}
+
+Even upgrades spread evenly across the fortress stall the account: resources run dry exactly when the Sanctuary, Lab, Training Grounds or Antitoxin Workshops need them. This section is the beginner's walkthrough — what each building is for and in what order to touch it.
+
+![Beginner building guide overview](/img/dtf/buildings/01.jpg)
+
+### Sanctuary first, heroes capped by it {#dtf-sanctuary-first}
+
+The Sanctuary sets the ceiling for everything: hero levels (roughly +5 per Sanctuary level — e.g. Sanctuary 28 allows heroes up to 140) and all other buildings. If the main five hit the cap, extra antitoxin won't help — only the next Sanctuary level lifts it. Every Sanctuary level also demands several prerequisite buildings (Lab, Training Grounds, Barracks, statues), so open the requirements early and prepare the whole chain. Don't wait until all heroes are capped — start the next Sanctuary level in advance.
+
+![Sanctuary level and the hero level cap](/img/dtf/buildings/02.jpg)
+
+### Two builders, two roles {#dtf-two-builders}
+
+The temporary second-builder slot (500 diamonds) should do a different job than the first: the long slot takes the Sanctuary, Lab or another multi-day mandatory building, while the free builder closes short upgrades — farms, lumber mills, gardens, antitoxin workshops and the intermediate prerequisites for the next Sanctuary level. Two builders on long projects means no slot for sudden requirements; two on small jobs means the main building lags forever.
+
+Time big completions for the Alliance Duel construction day: a finished building doesn't have to be claimed at once — leave the hammer over it and tap after the event phase rolls over, scoring points for already-done work. The building keeps occupying the slot, so hold the hammer only over large projects. Take all alliance help first, then spend speedups, then claim.
+
+![Claiming finished construction on Alliance Duel build day](/img/dtf/buildings/03.jpg)
+
+### Resource buildings can lag behind {#dtf-resource-lag}
+
+Farms, lumber mills and herb gardens supply grain, timber and herbs — but they don't need to match the Sanctuary. A gap of five to six levels stays comfortable. While the second builder sits on the Sanctuary, the first gradually raises resource buildings, and antitoxin workshops most of all: antitoxin is consumed constantly by hero leveling.
+
+![Farms, lumber mills and herb gardens](/img/dtf/buildings/04.jpg)
+
+Storages (lumber, grain, herb) only raise the protected amount attackers can't loot. They unlock no levels, techs or troops, so keep them noticeably behind unless a Sanctuary requirement names them. The safest strategy: keep material packs unopened in the inventory and open them right before construction — then even weak storages lose almost nothing.
+
+![Lumber, grain and herb storages](/img/dtf/buildings/05.jpg)
+
+### Tavern, Temple and Research Lab {#dtf-tavern-temple-lab}
+
+The Tavern recruits heroes and survivors, and leveling it shortens the free-hire cooldown — but only by about an hour after several levels. Upgrade it on Sanctuary requirements or build day; far more important is actually tapping the ready free hires. The first 50 pulls run toward guaranteed Arthur fragments.
+
+![Tavern hero and survivor summons](/img/dtf/buildings/06.jpg)
+
+The Temple's Warrior, Ranger and Warlock statues give direct faction ATK/HP/DEF. Start with your Squad 1 faction, but don't over-skew: the other statues enter Sanctuary requirements, and squads 2–3 need them for expeditions.
+
+![Warrior, Ranger and Warlock statues in the Temple](/img/dtf/buildings/07.jpg)
+
+After the Sanctuary, the Research Lab is the top building — economy, hero, troop and development techs all live there. Run Alliance Duel-tree research on Wednesdays so the same speedups score event points, and don't burn all universal speedups on buildings: part of the stock must cover research, especially pricey army techs.
+
+![Research Lab](/img/dtf/buildings/08.jpg)
+
+### Army: Training Grounds, Barracks, Infirmary {#dtf-army-buildings}
+
+Higher Training Grounds unlock stronger troop ranks (T1–T10). Don't level all grounds evenly: keep one at max and use the rest to mass-train cheap troops, then promote them on the main ground — comparable resource cost, far less time. The main ground must track the Sanctuary since new tiers and Sanctuary requirements both depend on it.
+
+Barracks hold the trained army, and capacity binds fast: thief-hunt assaults and Friday/Saturday fights burn thousands of soldiers. If the Barracks are full, grounds idle and marches leave incomplete — level them alongside the main ground. The Infirmary's capacity and healing speed decide how much of a beating the account can take: if one battle fills it, it's upgrade time. Undersized infirmaries turn wounded into permanent losses.
+
+### Builder's Hut, Alliance Hall and Walls {#dtf-support-defense}
+
+The Builder's Hut shortens every future project, so the investment compounds across the whole account. The Alliance Hall scales ally help (more taps, more minutes per tap) — always request help the moment a long timer starts and spend speedups only after allies finish, or free time is wasted.
+
+![Ally help through the Alliance Hall](/img/dtf/buildings/09.jpg)
+
+Three defensive squads stand on the Walls, alongside fortifications and the extinguish button. To rearrange them, all marches must be home. Watch the defense checkboxes: enabled, heroes and soldiers join the defense — against a stronger attacker that means heavy losses, so many players uncheck during inter-server wars to save the army, but the boxes must be back on before the Undead Siege or the waves won't be stopped. Wall levels also raise march speed for Blight attacks, gathering and returns.
+
+![Walls and defense setup](/img/dtf/buildings/10.jpg)
+
+### Research Camp, Watchtower, Falcon Tower {#dtf-activity-buildings}
+
+The Research Camp (battle pass) fights cost no soldiers — the perfect lab for testing formations and comparing heroes — plus hourly passive income (grain, timber, herbs, antitoxin) and chests every few stages. The Watchtower runs faction expeditions (one faction per mode, refreshing roughly every 3 days): don't pick max stars "for growth" — a stuck mid run scores worse than a full clear one star lower.
+
+The Falcon Tower issues daily quests (new ones roughly every 6 hours; ~11 available on a developed tower but only 9 fit the board, the rest queue — overflow quests vanish). Quests cost energy and pay resources, antitoxin and Raven items among others. Level the tower only if quests are actually cleared daily.
+
+![Falcon Tower daily quests](/img/dtf/buildings/11.jpg)
+
+### Gear district and what to defer {#dtf-gear-defer}
+
+The Smelting Workshop makes Gear Stones (a single high-level sword can want 20,000+ stones per upgrade — develop it early), the Weaving Workshop makes cloth later synthesized into steel for gold gear, and the Gear Workshop crafts the pieces. A full gold set for squad 1 takes a long time, so production should never idle — a good carry sword and tank armor beat several random levels elsewhere.
+
+Defer when resources bind: Scout Squad (faster scouting, no development speed), storages above requirements, Tavern above requirements. The Raven Workshop can be leveled on build day for duel points. Arena, Raven Nest, Black Ops Center and Curio Hall don't level at all — use them regularly, they cost no construction resources.
+
+Beginner order in one line: Sanctuary on the long slot → Lab → main Training Ground, Barracks, Infirmary, main-faction statue → Builder's Hut and Alliance Hall steadily → resource buildings ~5–6 below Sanctuary → gear district → extra grounds and secondary buildings → storages, Tavern, scouts by requirement or surplus.
+
+![Correct building upgrade order](/img/dtf/buildings/12.jpg)
+
+> Source: [Здания Last Asylum: Plague - гайд для новичков](https://dtf.ru/howto/5238649-gaid-po-zdaniyam-last-asylum-plague-dlya-novichkov) by Гейм-Знаток on DTF.

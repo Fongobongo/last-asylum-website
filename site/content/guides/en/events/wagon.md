@@ -2,7 +2,7 @@
 title: "Guild Wagon & Caravans"
 description: "Daily free wagon runs, the Wagon Master and Guard chest rules, Golden Wagon refreshes, the caravan UR-shard strategy, cross-server plunder, and the gold-purple-blue box priority."
 lang: en
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: wagon
 calculators: []
 infographics: []
@@ -144,3 +144,55 @@ Verified values from game client data (v1.0.87), source: wiki-last-asylum.com. B
 | Extra Caravan | one more daily run | 5,000 |
 | Countermeasures | one player may raid at most 3 times | 20,000 |
 | Pumpkin Carriage | unlocks the Golden Caravan | 20,000 |
+
+## Coachman Playbook: Gold Runs, VIPs, and Defense {#coachman-playbook}
+
+The alliance caravan runs **once a day**. R4/R5 appoints the **coachman** (кучер); ordinary members cannot take the seat themselves. After appointment the caravan does not leave at once — a **4-hour preparation stage** follows, during which the coachman upgrades the caravan, passengers take seats, the VIP is assigned, and defense is set. A caravan can be **plundered up to 3 times per run**, with part of the cargo genuinely at risk — this is about delivery, not just rewards.
+
+### Why the coachman seat matters
+
+The coachman is the run's big winner: on top of the four standard wagons there is a **hidden lead wagon**, so the coachman collects roughly **five wagons of rewards** instead of one. Keep the rotation transparent — a queue, activity rewards, or Duel-of-Alliance ranking all work; a permanent unexplained coachman breeds resentment.
+
+### Rule one: make it golden
+
+After appointment, the coachman's first job is refreshing the caravan. **5 refreshes × 5 caravan tickets = 25 tickets** for a guaranteed **Golden Caravan**. The coachman does not have to pay it all alone: passengers boarding the caravan can contribute tickets, and the healthy alliance norm is **2–3 tickets per person** rather than one. Once the fifth refresh lands, stop — do not turn the caravan into a roulette wheel chasing a cosmic roll. There is another caravan tomorrow.
+
+![Players contributing tickets toward a Golden Caravan](/img/dtf/wagon/01.jpg)
+
+![Five caravan refreshes to gold quality](/img/dtf/wagon/02.jpg)
+
+### Passenger discipline: watch the headcount, not just the loot
+
+Each ordinary wagon seats **only 5 people**. Overflow is resolved by the game itself — and the kicked passenger is often the one who sat down first. A slightly worse wagon with 3–4 calm riders beats a jackpot wagon with eight people piled in. Seats can be switched freely during the 4 hours, so **check back shortly before departure**.
+
+![Picking a wagon: overcrowded slots can kick you out](/img/dtf/wagon/03.jpg)
+
+### VIP passenger: two wagons, chosen by the coachman
+
+At **Alliance Gift Lv. 20** the caravan unlocks a **VIP passenger**: instead of one wagon, the VIP takes **two wagons picked by the coachman**. Agree on the VIP in advance — the invitation hangs for **60 minutes**, and a missed accept means waiting or re-inviting. After accepting, the coachman hand-picks the two wagons (ask the player which two they want). The VIP **cannot be kicked** like an ordinary passenger, and cannot switch back to a normal seat — rarely a sacrifice at two wagons.
+
+![Assigning the VIP passenger and picking wagons](/img/dtf/wagon/04.jpg)
+
+### Guards: only if genuinely stronger
+
+A guard posts their squads for defense but **takes a cut of the coachman's rewards**. If your own squads are already stronger than the candidate guard's, there is no point — you pay cargo for nothing. Rule: invite a guard **only if clearly stronger than the coachman**; otherwise take the VIP and keep the rewards whole.
+
+![Guard and VIP passenger slots](/img/dtf/wagon/05.jpg)
+
+### Refresh your defense squads — and their epigraphs
+
+The three defense squads must be **re-saved after every serious account upgrade**: new heroes, new damage, new raven, new gear mean nothing if the caravan still defends with last month's lineup. Check that the right **epigraphs sit on the right squads** — a misplaced epigraph loses fights.
+
+### Gift level, 24-hour rule, and the second golden run
+
+- Caravan **boosts** (faster movement, fewer plunder attempts, core defense, VIP unlock) come from the gift track — open that tab more than once. At **gift Lv. 25**, ordinary wagons gain **extra passenger capacity**, which matters for big active alliances.
+- Level the Alliance Gift itself: active Blight farming plus extra points from advanced summons raise it, compounding into a faster, harder-to-rob caravan.
+- **New members must spend 24 hours in the alliance** before joining the caravan — remember this after a transfer.
+- During preparation, collect **trade agreements** (they arrive by mail if forgotten). Passengers boarding also drop the coachman **likes** — small, but the coachman's day is the people's-love day.
+- A **second golden caravan per day exists but costs extra every time**. It is for big alliances whose first caravan overflows — not a must-have for a half-empty run.
+
+![Leveling the Alliance Gift, helped by Blight farming](/img/dtf/wagon/06.jpg)
+
+A good caravan is when everyone thinks a little: the coachman golds the run, checks defense, and places the VIP; passengers watch their wagon; the alliance agrees on rules instead of improvising nightly.
+
+> Source: [Last Asylum: Plague - полный гайд по Каравану](https://dtf.ru/howto/5303398-last-asylum-plague-karavan-gayd) by Гейм-Знаток on DTF.

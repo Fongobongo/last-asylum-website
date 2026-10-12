@@ -3,7 +3,7 @@ title: "Claire: Skills, Build & Leveling"
 description: "Claire is an SSR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Might, rank 12 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Claire Sh…"
 videoTopic: "claire"
 lang: en
-updated: "2026-09-19"
+updated: "2026-10-12"
 type: guide
 ---
 
@@ -285,4 +285,36 @@ Both forms share one shard: 10 of them unlock the plain Claire, after which the 
 Stars cost Claire the most, not in badges but in waiting: 975 shards, while a recruit yields a hero shard in roughly 26% of pulls. Skills rise to level 40 at 436,700 badges each and return less: Call of the Brave tops out at 24% monster damage against 30% for the advanced form.
 
 The best squad with Claire and no UR hero is Kesso, Lucius, Sivir, Bella and Claire herself: five warriors, a +20% bonus and 8.1M of survivability. Alongside Arthur and Marlena she joins three of the five best reachable squads, where survivability reaches 38.2M, and the price of the full bonus is 20% extra damage from rangers.
+
+---
+
+## ✦ Gold (UR) Claire: conversion mechanics and verdict {#dtf-gold-claire}
+
+Raising Claire's rarity turns the purple SSR into a UR version — and the mechanics are kinder, then pricier, than they look. Levels carry over, stars don't.
+
+### What survives the transformation {#dtf-claire-conversion}
+
+After conversion the hero does **not** fall back to level 1: all 150 levels stay. Stars reset differently — gold Claire arrives at **six stars**, with part of the invested resources refunded as fragments and skill badges to redistribute into the improved form. The unpleasant surprise: further stars cost noticeably more — roughly twice the fragments of the old form. So don't rush all ten stars back the same day. The priority is **8★**, which unlocks the fifth skill and already gives a very complete kit; the last two stars can close gradually through her own shop fragments and available sources.
+
+![Claire's rarity upgrade to gold](/img/dtf/daskal-claire/05.jpg)
+
+![Gold Claire after conversion](/img/dtf/daskal-claire/06.jpg)
+
+The upgrade is not a recolor: base stats genuinely jump, especially HP and ATK on the same account's numbers.
+
+![Gold vs purple Claire stat comparison](/img/dtf/daskal-claire/07.jpg)
+
+![UR vs old Claire stat comparison](/img/dtf/daskal-claire/08.jpg)
+
+### Strong — but PvE-shaped {#dtf-claire-pve-focus}
+
+Don't call gold Claire a universal replacement for any UR DPS. She stays heavily tuned for PvE and monsters: Call of the Brave boosts the damage of the team's three highest-ATK Warriors specifically against monsters, so on the Demon King and other PvE content she excels while part of her kit idles in PvP. If the need is primarily war against players, Zoya reads more universal.
+
+![Claire tuned for PvE and monsters](/img/dtf/daskal-claire/09.jpg)
+
+![Claire vs Marlena, Arthur and Harper at level 150](/img/dtf/daskal-claire/10.jpg)
+
+Verdict: gold Claire superbly strengthens Warrior PvE without automatically becoming the best pick for every mode. Anchor her at eight stars, farm the last two slowly, and keep her where her monster bonus applies.
+
+> Source: [Даскал и золотая Клэр в Last Asylum: Plague - как правильно прокачивать героев](https://dtf.ru/howto/5317537-daskal-i-zolotaya-kler-v-last-asylum-prokachka-geroev) by Гейм-Знаток on DTF.
 

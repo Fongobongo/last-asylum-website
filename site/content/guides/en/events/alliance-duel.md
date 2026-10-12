@@ -2,7 +2,7 @@
 title: "Alliance Duel: Complete Guide"
 description: "Six days of point categories, a Saturday PvP finale, phase-by-phase mechanics with exact point values, Falcon Quest stacking, and the save-everything economy that wins the top chest."
 lang: en
-updated: "2026-09-18"
+updated: "2026-10-12"
 videoTopic: alliance_duel
 calculators: []
 infographics: ["/infographics/duel-day-guide.webp", "/infographics/duel-savings.webp", "/infographics/falcon-tower-storage.webp"]
@@ -361,3 +361,65 @@ Verified values from game client data (v1.0.87), source: wiki-last-asylum.com. B
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does the Alliance Duel research tree do?", "acceptedAnswer": {"@type": "Answer", "text": "It multiplies event points (Arena Expert +100%, Arena Master +50%) and unlocks the tier 7–9 chests with top rewards."}}, {"@type": "Question", "name": "What is the single highest-value action in Alliance Duel?", "acceptedAnswer": {"@type": "Answer", "text": "Dispatching a UR trade caravan for 100,000 points on Phases 2 and 6, then a UR covert op for 75,000."}}]}
 </script>
+
+---
+
+## Alliance Duel Day-by-Day: Field Calendar (DTF) {#dtf-calendar}
+
+The duel runs almost the whole week with rotating scoring: Monday energy/resources, Tuesday construction, Wednesday research, Thursday heroes, Friday army training, Saturday KvK. The beginner mistake is spending everything on receipt — Falcon quests claimed Sunday, Raven chests opened Tuesday, antitoxin burned Monday, mass training mid-week. The account grows, but the duel gets almost nothing. Bank by day instead.
+
+![Alliance Duel day-by-day guide](/img/dtf/alliance-duel/01.jpg)
+
+### Duel tech first {#dtf-tech}
+
+The Lab's duel branch multiplies points inside the event, cheapening every future week. Best developed on **Wednesday**, when research speedups, scrolls and tech-might growth score together. Build duel tech first, then Elite Troops and Caravan Transport if they also need special scrolls — one such research scores scrolls + speedups + might at once (e.g. 1,280 scrolls at ~750 pts ≈ 960,000 before speedups and might). A full branch won't close in a week, but even a few levels pull personal chests closer and save speedups.
+
+### Monday: Falcon, energy, gathering, Raven {#dtf-monday}
+
+Falcon quests done Sunday stay unclaimed: a developed Falcon Tower holds dozens of finished orders plus the on-screen stash, so Monday opens with a big ready-made batch (at ~30,000 pts each, 40–50 banked quests are a serious head start — but don't overflow storage or new orders won't save). Main march burns natural energy first on Blight/thieves/map targets, then bottles, then cheap diamond refills — check the gap to the next chest before buying out the shop. Other marches gather grain/lumber/herbs from map tiles; fortress production doesn't count, only map deliveries do.
+
+![Banked Falcon quests before the duel](/img/dtf/alliance-duel/02.jpg)
+
+Save antitoxin for Thursday; spend a little Monday only to tip a chest. Hoard Raven Fruit and Essence through the week and spend Monday — Raven stat upgrades plus Epigraph chests close a big chunk. Leave Raven gear chests for Wednesday. After weekly reset check the Honor shop for blueprints plus Essence and speedups.
+
+### Tuesday: buildings, caravans, survivors {#dtf-tuesday}
+
+Points come from construction speedups (~150/min) but the jackpot is ready-made buildings left with the hammer icon: a finished building's might gain (e.g. 5,300 might at 30 pts ≈ 159,000) credits on click, so claim prepped Sanctuary/Lab/grounds/barracks Tuesday morning. Prioritize expensive buildings. Don't freeze the whole economy: a finished farm/sawmill/flowerbed can't be collected while hammered, so leave one of each type (and one manual workshop) unblocked to keep production flowing.
+
+![Building might gains on Tuesday](/img/dtf/alliance-duel/03.jpg)
+
+Grab the **Minister of Construction** title before long upgrades (big timer cut on high Sanctuary; queue early on contested servers). Roll caravans and covert ops to gold with free refreshes first, then crystals — one good caravan ≈ 300,000. Hire survivors in the Tavern (not hero summons — different mechanic and reward line).
+
+### Wednesday: research and Raven gear {#dtf-wednesday}
+
+Research speedups, tech might, special scrolls and Raven gear chests. Leave Tuesday's Falcon quests unclaimed to open Wednesday with a ready batch.
+
+![Wednesday research and Raven gear](/img/dtf/alliance-duel/04.jpg)
+
+Priority: duel branch, then Elite Troops / Caravan Transport — scroll-costing techs pay best. Collect Raven gear chests all week and open Wednesday; higher quality pays more, then mass-merge Raven gear for chest points plus gear might. Never open them on receipt.
+
+![Spending scrolls on Wednesday research](/img/dtf/alliance-duel/05.jpg)
+
+### Thursday: summons and hero growth {#dtf-thursday}
+
+Points for Tavern summon tickets, fragments, star-ups, skill badges and antitoxin. Bank tickets, personal fragments, skill badges and antitoxin for this day. Tavern pulls give heroes plus personal fragments of the pulled heroes — not universal fragments, which must come from events/shops. Pull in tens when tickets allow. Order: **stars on main heroes → skill badges → antitoxin for levels**. Feed the first squad, not the whole roster; spend personal fragments on the working team and save universals for strong/rare heroes.
+
+![Star-ups and hero skills on Thursday](/img/dtf/alliance-duel/06.jpg)
+
+Check Survival Battle's hero stage first — same fragments/badges/antitoxin can pay in both events. Thursday usually closes fastest: summon, grow the main team, collect.
+
+### Friday: troops plus Royal Rumble {#dtf-friday}
+
+Training and rank-ups, with Royal Rumble the same day — the army must score and fight. Claim Thursday's banked Falcon quests in the morning, then focus grounds. Leave construction/research speedups for next week unless a chest is points away. Take the **Minister of War** title; use weak grounds to mass-produce mid-tier troops (e.g. big T6 batch) then re-train to T9 on the main ground — sometimes faster than raw T9s. Stock weak troops and training speedups in advance; starting Friday is too late for big promotions.
+
+![Friday troop training and Royal Rumble](/img/dtf/alliance-duel/07.jpg)
+
+### Saturday: KvK, healing, shields {#dtf-saturday}
+
+KvK opens: teleport to the enemy kingdom, hit fortresses, kill troops for battle points. Attacks on the duel rival usually pay best, but other KvK fights count. Pre-flight: main march, teleports, infirmary space, shield stock — Saturday pays most and zeroes fastest. Healing speedups score too, so wounded parked before Saturday can wait for the stage — but never overflow the infirmary, overflow troops die. Shield up Friday evening: after your own attack the shield drops and re-activates only after the battle timer, so keep a spare shield plus teleports, retreat to alliance ground or random-teleport, and expect a re-entry lockout of a few minutes after leaving the raid zone.
+
+![Shield use before Saturday KvK](/img/dtf/alliance-duel/08.jpg)
+
+Team points: Monday is usually cheapest, Tuesday–Friday heavier, Saturday can decide the week. A lost Monday means nothing — clean research, heroes, troops and KvK flip the total. Check the duel detail window for per-day scores.
+
+> Source: [Дуэль альянсов в Last Asylum: Plague - гайд по дням](https://dtf.ru/howto/5238861-duel-alyansov-last-asylum-plague-strategii-i-sovety) by Гейм-Знаток on DTF.

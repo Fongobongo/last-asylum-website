@@ -2,7 +2,7 @@
 title: "Raven & Epigraph System"
 description: "Raven levels and plans, gear strategy, epigraph rarities and promotion order, and the mono-faction rules that decide which epigraphs are worth upgrading at all."
 lang: en
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: raven
 infographics: ["/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
 ---
@@ -205,4 +205,44 @@ The Falcon Tower refreshes every 6 hours: a new batch of quests lands in storage
 Stockpiling quests pays only for the Alliance Duel: on days one, three and five every Falcon Quest handed in brings 10 000 points. Players complete a quest but leave the reward unclaimed, and it stays in the visible list with a red dot until the right day. By player observation a completed quest never burns, an uncompleted one disappears after 8 hours, and Wandering Blight quests do not count against storage.
 
 The ceiling of such a stockpile is the visible quests plus the storage, and the storage fills in under a day: 30 hours at tower level one, 18-24 hours from level five on. After that every refresh is wasted, while the tower hands out from 24 quests a day at level one to 52 at level fifteen. Stockpiling longer than a day therefore does not pay: on duel days two and four quests are completed and kept, on days one, three and five everything is handed in, and at the weekend rewards are claimed at once. Stockpiling does not affect the tower level, it only delays it.
+
+---
+
+## Raven Leveling Without Mistakes: Workshop, Nest, Epigraphs, Routine {#raven-dtf-leveling}
+
+Field notes from the DTF leveling guide: the Raven lives in three places, not one — and order matters more than speed.
+
+**The three buildings.** The Raven Workshop is background production: it generates materials over time with no flashy payoff, but progress sags without it. The Raven Nest is the main screen — level, evolution, new stages and squad bindings. The Epigraph Workshop is where most wrong choices happen: one bad craft or slot decision either lives with you as a weak boost or costs a reset.
+
+![Raven system overview](/img/dtf/raven/01.jpg)
+
+**Levels vs evolution.** The Raven levels on Raven Fruit and evolves on Raven Essence, with an evolution step every 10 levels unlocking the next layer of progress. Essence is the binding constraint: Fruit arrives steadily through routine play, Essence always feels tight. Watch the next evolution threshold first — levels without their evolution step hit a ceiling fast.
+
+![Raven hero screen](/img/dtf/raven/02.jpg)
+
+**Gear: build the base, then sharpen.** Do not open chests and slam upgrades as they drop. Assemble the full set evenly first, then merge duplicates and raise gear deliberately. Some upgrades are sequence-gated — other slots must reach a level before a piece opens — so maxing one slot early leaves holes elsewhere. Treat gear as a kit, not a lottery.
+
+![Raven gear screen](/img/dtf/raven/03.jpg)
+
+**Daily sources.** Check every day: Alliance shop (assorted Raven materials), VIP shop (Essence and chests for diamonds), Expedition shop (higher-level Raven chests), Honor shop (rare late-stage chests), Sanctuary shop (Essence on rotation). Buy only what closes your current task — sweeping every item labeled "Raven" produces inventory without progress. Name the shortage explicitly before spending: Epigraph Workshop materials, or duplicates for merging.
+
+**Epigraph thresholds.** Purple epigraphs open at Epigraph Workshop level 15 — before that you are not really in the system. UR epigraphs come later, on the next workshop stage with more expensive materials. Epigraph bonuses apply only to the matching squad type: if your main squad is Warriors, crafting Ranger epigraphs "for the future" burns scarce materials for zero current return. Pick the faction you actually field, fill one set, and leave side sets alone until the core is done. Inside a set the slots differ (attack / defense / support / general center) — fix the faction first, then tune by need: lacking damage means pushing the attack slot, a collapsing squad means defense, and the general slot means an even boost.
+
+![Epigraphs as the strongest and most dangerous part of the system](/img/dtf/raven/04.jpg)
+
+![Epigraph slots for Warriors, Rangers and Sorcerers](/img/dtf/raven/05.jpg)
+
+**Duplicates are fuel.** A second copy of the right epigraph is not a bad drop — identical epigraphs raise stars on the existing piece, and for UR pieces exact duplicates of the right item are the most valuable resource in the line. Wrong-type duplicates wait or go through reset redistribution; right-type duplicates get starred.
+
+![Duplicate epigraphs as fuel for growth](/img/dtf/raven/06.jpg)
+
+**Evolution opens squads.** Evolution is not just stats: it unlocks additional squad slots. You start with only the first squad, the second slot opens at the next evolution stage, and requirements keep rising. That is another reason to commit to your strongest squad early — there is physically nowhere to spread at the start.
+
+![Squad slots unlocked by Raven evolution](/img/dtf/raven/07.jpg)
+
+**Reset exists.** Bad crafts are recoverable: reset rolls back an upgrade and returns the materials for redistribution. It is most useful when you switch main squad class, outgrow a temporary squad, or picked the wrong epigraph at the start. It lowers the cost of a mistake; it does not make blind crafting free.
+
+**Daily routine.** Check the shops, keep the next evolution in mind, develop only the epigraph type of your main squad, and reset mistakes instead of living with them. Played as a daily loop the Raven compounds; played in bursts it feels expensive and vague.
+
+> Source: [Last Asylum: Plague - полный гайд по Ворону. Как качать без ошибок, что делать с эпиграфами.](https://dtf.ru/howto/5016737-last-asylum-plague-gayd-po-prokachke-vorona) by Гейм-Знаток on DTF.
 

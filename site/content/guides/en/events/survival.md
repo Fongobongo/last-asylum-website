@@ -2,7 +2,7 @@
 title: "Survival Battle: 60K Free Badges & 4-Hour Phase Rotation"
 description: "Weekly mission event yielding ~60,000 free Skill Badges: 5 task categories, 4-hour rotation phases, queue-based soldier training scoring, and synchronization with Alliance Duel."
 lang: en
-updated: "2026-09-15"
+updated: "2026-10-12"
 videoTopic: survival
 type: event
 ---
@@ -205,3 +205,51 @@ Verified values from game client data (v1.0.87), source: wiki-last-asylum.com. B
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How long is each Survival Battle phase?", "acceptedAnswer": {"@type": "Answer", "text": "Each phase lasts 4 hours; there are five themed phases: heroes, territory, troops, tech and raven."}}, {"@type": "Question", "name": "When are troop training points awarded?", "acceptedAnswer": {"@type": "Answer", "text": "The moment you press Train/Promote and resources are deducted — not when the timer finishes."}}]}
 </script>
+
+---
+
+## Survival Battle Daily Loop: Seals, Energy and Duel Overlap (DTF) {#dtf-daily-loop}
+
+The event runs daily through five rotating themes — troop training, tech research, Raven upgrades, hero growth, territory development. You don't need all five: **18 Survival Seals take the three daily chests**, i.e. three fully cleared themes. The real win is overlap with Alliance Duel — build Tuesday, research Wednesday, train Friday — so the same speedups pay twice.
+
+![Five Survival themes and 18 seals for three chests](/img/dtf/survival/02.jpg)
+
+### How seals and ranks work {#dtf-seals}
+
+Order rotates daily with no fixed timetable — open the event before spending and check the active plus next theme. Each theme has **4 stages paying 1+1+2+2 = 6 seals**; 18 seals = three themes done. Stage rewards (skill badges, speedups, resources) stack on top. Clearing all five themes yields roughly **8,000 skill badges a day**, up to ~9,600 if a returning training theme repeats. A daily leaderboard pays a base resource prize for any score and better prizes higher up — keep going past 18 only when the theme matches planned growth; burning the speedup stock just for rank rarely pays.
+
+![Survival ranking rewards](/img/dtf/survival/03.jpg)
+
+Cheapest daily trio for most accounts: **Raven (energy) + Heroes (antitoxin) + the duel-day theme** (Tuesday territory, Wednesday research, Friday troops; Saturday — whatever is cheapest in stock). After the golden chest at 18, stop unless the next theme is already-planned growth.
+
+### Troops, research, Raven, heroes, territory {#dtf-themes}
+
+**Training:** score from training speedups and army growth on the most developed ground (max tier), with other grounds loaded or prepping lower tiers for promotion. If training starts in an hour and a batch nearly finishes, queue only the remaining time, then fully load after the theme opens — no idle ground, but the bulk lands in-window. Best day is Friday with the duel training stage.
+
+![Troop training inside the theme window](/img/dtf/survival/04.jpg)
+
+**Research:** points for research speedups plus tech-might gain — time the finish inside the window, then start the next, collect alliance help, then decide what to speed. If one tech gives clearly more might and the next stage needs only a little, finishing it beats spreading speedups across small ones; no need to fully close a long tech once the threshold is banked. Best day Wednesday with duel research.
+
+![Tech research and might scoring](/img/dtf/survival/06.jpg)
+
+**Raven — daily workhorse:** two ways to score, fruit development or energy spend. Save fruits for Monday's duel Raven stage; on other days spend **energy** on Blight/thieves/bosses/Falcon quests — normal daily activity, no dedicated cost. About **300 energy** fully closes the theme (4 rewards, 6 seals). Pair with Thief Hunt: weak march finds small gold thieves and opens bosses, strong march hits big targets. Shortcut: send a squad at a nearer resource tile first, then redirect onto the monster as it passes — trims many marches a day.
+
+![Raven upgrades via energy and Thief Hunt](/img/dtf/survival/08.jpg)
+
+**Heroes — fastest theme:** Tavern summons plus antitoxin; one right-sized level-up often closes all four stages. Open several heroes, pick the one whose next-level cost sits closest to the final threshold — don't dump 100M antitoxin where 20M closed it. Save mass summons for Thursday's duel hero day; antitoxin usually closes Survival cheaper.
+
+![Hero growth with antitoxin](/img/dtf/survival/10.jpg)
+
+**Territory:** construction speedups plus building-might gains. Take a finishing big build inside the window when available (no waiting 15–30 days for Sanctuary/Lab); otherwise spend speedups in bigger batches (e.g. 5-minute) after collecting alliance help. Best day Tuesday with duel construction.
+
+![Territory development with construction speedups](/img/dtf/survival/11.jpg)
+
+### Overlap, ministers and seals discipline {#dtf-overlap}
+
+Monday: duel grows Raven — spend hoarded fruits inside the Raven theme for double credit. Tuesday: territory — take prepped buildings plus construction speedups. Wednesday: research — scrolls plus long techs. Thursday: heroes — tickets, fragments, antitoxin, badges. Friday: troops — grounds during the training theme. Saturday: free pick by stock. Don't tune the account to the event; tune the event to planned growth.
+
+Before big upgrades take the matching minister title, and watch the queue: on full 50/50 lists requests hang in waiting — applying at **49/50** lands the working queue more often. Plan titles ahead on build/research days.
+
+Seals **reset daily** — 17 today plus "one more tomorrow" is zero tomorrow. If one stage from 18, take the cheapest-to-close theme; never stockpile seals hoping to ease tomorrow.
+
+> Source: [Last Asylum: Plague - гайд по Битве на выживание](https://dtf.ru/howto/5240960-last-asylum-plague-gajd-po-bitve-na-vyzhivanie) by Гейм-Знаток on DTF.

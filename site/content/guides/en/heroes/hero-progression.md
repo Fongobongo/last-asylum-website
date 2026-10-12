@@ -2,7 +2,7 @@
 title: "Progression: skills & stars"
 description: "Раздел гайда по героям: progression: skills & stars."
 lang: en
-updated: "2026-10-01"
+updated: "2026-10-12"
 videoTopic: heroes
 ---
 
@@ -239,3 +239,96 @@ Pages that mention this one. The list is built from the markup, not filled by ha
 
 
 ---
+
+## Investment Order: Damage → Front → Support {#dtf-investment-order}
+
+A hero is a role before it is a portrait. The working squad template in this practice guide is **2 tanks + 2 damage dealers + 1 support**: two tanks buy survival time, two damage dealers create pressure, one support multiplies a core that already exists.
+
+![Guide cover: how to level heroes correctly](/img/dtf/hero-progression/01.jpg)
+
+### How to read a role {#dtf-roles}
+
+- **Shield — tank.** Takes the hit, holds the front, protects the cast with defensive skills and damage reduction.
+- **Fire — damage dealer (carry).** Removes enemies fast; a short fight deals less damage back to your team.
+- **Bottle — support.** Buffs, sustain, resource help. Almost always scales with how strong the rest of the squad already is.
+
+Spreading resources evenly builds five average heroes. Concentrating them builds one squad that clears content.
+
+![Hero roles: tank, damage dealer, support](/img/dtf/hero-progression/02.jpg)
+
+### The order that moves progress {#dtf-carry-first}
+
+1. **Main damage dealer** — fastest progress through campaign, PvE and events.
+2. **Main tank** — without a front, the carry never gets its cast off.
+3. **Second damage dealer, second tank, then support.**
+
+Buffing a weak carry with an early support is a turbine on a shopping cart: loud, but it goes nowhere.
+
+### Main carry first: Marlena as the example {#dtf-marlena-carry}
+
+In a Warrior direction the example is Marlena. Three things matter for the main damage dealer: **hero level, damage gear, and the key damage skill** (for Marlena, the passive that raises energy damage — not a little of everything).
+
+![Marlena as the main damage dealer](/img/dtf/hero-progression/03.jpg)
+
+Gear priority for a carry is **sword, then gloves**. Armor and boots are not useless, but protection-first on a carry means both teams stay alive longer. Skills follow the same logic: raise the effect that raises the main damage type before side upgrades.
+
+![Level heroes in order: carry first, then tank and support](/img/dtf/hero-progression/04.jpg)
+
+### Second damage dealer: after the first has a base {#dtf-second-carry}
+
+The second damage dealer adds tempo, finishes targets and insures the main carry — but only after the first has level, key skill, sword and gloves. Splitting everything 50/50 too early produces two average hitters whose targets stay alive.
+
+Pick the hero that actually stands in your main five now, not a "maybe later" project.
+
+### Tank second: Arthur holds the line {#dtf-arthur-tank}
+
+After the carry, the front must catch up. Arthur as the main tank needs levels, defensive gear and team-protection skills. Gear order is **armor, then boots** (armor against physical hits, boots for energy survivability and defensive thresholds).
+
+![Leveling Arthur: armor, boots and defensive skills](/img/dtf/hero-progression/05.jpg)
+
+What to raise on a tank: first the ultimate (Arthur's reduces physical damage taken by allies in the zone), then passives that cut incoming damage or keep the second tank alive. An immortal front with no damage behind it just loses slowly and heroically.
+
+### Support third: Celia early, Harper later {#dtf-harper-support}
+
+Celia can hold the support slot early, but her value leans toward resources rather than direct battle power. Harper (attack buffs to allies, especially Warriors, via passive and ultimate) fits a Warrior battle squad far better — once there is something worth buffing.
+
+![Harper: attack support for Warrior heroes](/img/dtf/hero-progression/06.jpg)
+
+Do not swap Harper in at level 1 just because he appeared. Transition gradually, and plan his resources ahead: the buff pays off when Marlena and Arthur plus a second damage dealer already stand.
+
+Practical sequence: main damage dealer → main tank → second damage dealer → second tank → support when the core is ready.
+
+### Gear and skills by role, not by favorite {#dtf-gear-skills-by-role}
+
+- Carry: **sword → gloves** first.
+- Tank: **armor → boots** first.
+- Support: protection if it dies and drops buffs, otherwise later.
+- Never hand the best sword to the tank while the main carry lacks damage, and never max a carry's armor before its damage pieces.
+
+For skills, read the description: carry = damage and energy-or-physical amplifiers; tank = incoming-damage reduction, ally protection, front sustain; support = attack buff, faction buff, working team bonuses. At Marlena the damage gain matters, at Arthur team defense, at Harper the ally attack buff.
+
+### F2P discipline {#dtf-f2p-discipline}
+
+1. Pick a faction direction.
+2. Name the main damage dealer.
+3. Max it first, then the main tank, second damage dealer, second tank, support last.
+4. Do not chase every new pull; one finished squad beats a collection of half-built cards.
+
+The same five-role search works in any faction: find *your* main carry, second carry, two tanks and support, then run damage → front → support. A strong hero without its faction, roles and team bonuses around it underperforms.
+
+![Main-squad leveling scheme: damage dealers, tanks, support](/img/dtf/hero-progression/07.jpg)
+
+### Six classic mistakes {#dtf-progression-mistakes}
+
+1. Leveling everyone a little — a weak foundation.
+2. Leveling support before the carry.
+3. Forgetting tanks — a dead carry deals zero.
+4. Same gear for every role — role first, item second.
+5. Rebuilding the squad for each new pull — new does not mean better.
+6. Spending without a plan — the most expensive resource is a wrong decision.
+
+Diagnose with battle reports: tank dies instantly → front problem; long fight with no kills → damage problem; carry lives but underperforms → skills and gear check. Keep a 1–2 week plan (who now, who next, which item, which skills).
+
+![How to level heroes without wasting resources](/img/dtf/hero-progression/08.jpg)
+
+> Source: [Last Asylum: Plague - как правильно качать героев и не слить ресурсы впустую](https://dtf.ru/howto/5138522-last-asylum-plague-prokachka-geroev) by Гейм-Знаток on DTF.

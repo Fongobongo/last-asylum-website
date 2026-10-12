@@ -2,7 +2,7 @@
 title: "Undead Siege: Complete Guide"
 description: "Alliance defense against infected waves: the 300,000 clue bar, difficulty levels from 2.4M to 24.5M Enemy Might, the hidden multi-squad mechanic that kills 9.5M players, and full reward tables."
 lang: en
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: undead
 calculators: []
 infographics: ["/infographics/undead-siege-guide.webp", "/infographics/undead-siege-guide-2.webp"]
@@ -118,3 +118,61 @@ Verified values from game client data (v1.0.87), source: wiki-last-asylum.com. B
 | 8 | 25-28 | 17,411,540 | 196,300,000 |
 | 9 | 26-29 | 20,155,943 | 202,600,000 |
 | 10 | 27-30 | 24,471,960 | 255,600,000 |
+
+---
+
+## Undead Siege Field Notes: Clues, 20 Waves and Overseers {#dtf-field-notes}
+
+The siege is an alliance exam in organization, not a one-strong-player event: Falcon quests fill the bar, the wall squad holds, online members heal, strong players reinforce the weak. Launched blind, half the alliance burns mid-way and the chat fills with "why didn't the shield work" and "who pressed start".
+
+![Undead Siege guide cover](/img/dtf/undead/01.jpg)
+
+### Clues come from Falcon quests {#dtf-clues}
+
+The alliance needs **clues** to fill the launch bar, and they come from Falcon quests — above all kill quests against **estates, Wandering Blights and the Blight Legion**, worth about **300 fragments each**. If members ignore those quests, the siege sits half-built.
+
+![Clues for the siege come from Falcon quests](/img/dtf/undead/03.jpg)
+
+The tension: many players hoard Falcon quests for Alliance Duel (Sunday/Tuesday/Thursday stacking). That's fine normally, but when the alliance needs clues, the needed kill quests should be run and claimed daily. Officers should name the targets explicitly — estates, wandering blight, blight legion — not just "do Falcon".
+
+### Who launches and when {#dtf-launch}
+
+At 100% clues, **R4/R5 launch** and pick time plus difficulty. Never launch because "I'm online now" — half the alliance will be offline, walls unset, reinforcements unsent. Schedule for peak evening online, warn in chat plus Telegram/Discord, and run a 5-minute check: who is online, who is weak and needs reinforcements, who can send 2nd/3rd squads, who has the main march on the wall, what difficulty the roster can actually hold.
+
+![Siege participation requirements](/img/dtf/undead/04.jpg)
+
+Entry gates: **Sanctuary level** (about 14 on difficulty 1 up to ~27 on difficulty 10), **48+ hours in the alliance** (no last-minute jumps for rewards), and **no 72h+ offline** staleness. Review the roster before launch — newcomers and sleepers don't help a 20-wave event.
+
+### Difficulties, waves and the 20-player rule {#dtf-difficulty}
+
+Difficulties unlock sequentially — no jumping to 10. Total alliance waves for max rewards scale from roughly **300 on difficulty 1 to ~1,200 on difficulty 10**. To step up, **at least 20 members must clear all 20 waves** — not one top, not five tops. Abandoned weak players who die on wave 8–10 can block the whole alliance, so reinforcing mid players beats admiring top power.
+
+![Difficulty levels and 20 waves for max rewards](/img/dtf/undead/05.jpg)
+
+Personal rewards scale with waves survived — **all 20 for the max**. If a wave burns you, participation ends at that wave's tier with no re-entry. Pre-start checklist: strongest march on the wall, enough troops, healing ready with resources and speedups, online at start, reinforcement requested early if weak. Most failures are the obvious things: wrong march, empty wall, shield hope, a "5-minute" AFK into smoke.
+
+### Shield does nothing, wall does everything {#dtf-shield}
+
+Shields **do not stop siege waves**. Once launched, waves come regardless. The wall must hold a real squad: strongest defensive or main combat march — good tank, carry, support — never a gather march or a "will swap later" placeholder. Weak players should ask for help early; a timely "I need reinforcement" helps the alliance, silence plus a mid-event wipe doesn't.
+
+![Shields do not stop siege waves](/img/dtf/undead/06.jpg)
+
+Strong players reinforce the weak with **2nd and 3rd squads while keeping the main march home**. A weak city isn't lazy, it's just weaker — with help it survives more waves, earns more personal rewards, and adds alliance waves. Assign helpers before start; mid-wave chaos (healing, chat, misclicks) makes late help late.
+
+![Reinforcing allies during the siege](/img/dtf/undead/07.jpg)
+
+### Healing, cooldown and overseers {#dtf-healing}
+
+Killed troops land in the **infirmary** — stay online, heal between waves, refresh help when allies take damage. Check before start: healing resources, speedups, free infirmary space, willingness to sit through the waves. A full infirmary plus no resources turns the event into scenery.
+
+![Siege run plan](/img/dtf/undead/08.jpg)
+
+After all waves comes about a **2-day cooldown**, but clues can be farmed during it — keep running Falcon quests so the next difficulty launches faster. Cycle: gather, launch, 20 waves, rewards, cooldown, gather again.
+
+On **difficulties 9 and 10, every 4th wave has a 20% chance to become an Overseer** with bonus rewards, and the Overseer has a **30% chance to turn into an Enraged Overseer** with better loot. Don't chase them early: if the alliance barely holds normal waves, heroics cost the stable rewards first.
+
+![Overseer and Enraged Overseer](/img/dtf/undead/09.jpg)
+
+Pick difficulty by evidence, not pride: how many cleared 20/20, who died early, who needed help, whether healing lasted, whether max waves closed, whether chat panicked. A confident clear moves up; a borderline clear stays. For officers: announce early, assign weak→strong pairs, keep difficulty honest, and explain to newcomers that shields don't save and the wall march is manual.
+
+> Source: [Last Asylum: Plague - гайд по событию Осада нежити. Как пройти 20 волн, не сгореть и помочь альянсу](https://dtf.ru/howto/5189978-osada-nezhiti-last-asylum-plague) by Гейм-Знаток on DTF.

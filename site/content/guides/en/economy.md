@@ -2,7 +2,7 @@
 title: "Economy: Diamonds, Shops, Plunder"
 description: "Where every diamond goes: VIP shop priorities, the restock schedule, per-shop buy orders, Wishing Wheel budgets, and the complete plunder mechanics with daily limits by Sanctuary level."
 lang: en
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: economy
 infographics: ["/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
 ---
@@ -592,4 +592,49 @@ Every VIP level pays out a one-time gift. Only one thing in it carries real valu
 | Level supplies of each kind | 210 |
 
 The first UR fragment sits at level ten, which already costs 155,000 points. From level sixteen to twenty the gift stops growing in fragments at all, staying at three UR everywhere. The gifts are therefore no reason to chase the top levels, since they only pay off in the middle.
+
+---
+
+## Smart Spending: Aim Every Purchase {#smart-spending}
+
+![Planned spending strategy in Last Asylum](/img/dtf/economy/01.jpg)
+
+Early on the game carries you by itself — tap, collect, unlock — but past the first stretch the same routine stops converting into power: PvP losses pile up, upgrades stretch for hours, sessions stall on empty energy. Trying to brute-force through it with more logins changes almost nothing. Spending starts helping only when it stops being random. The rule experienced players converge on is simple: **it is not how much you put in, but exactly where**. Every purchase should answer one question: *what am I strengthening right now?*
+
+Around the mid-levels the pressure comes from all sides: there seem to be more resources, yet something specific is always missing — materials for a hero or time for the base — while rivals already look stronger. That is where the familiar urge to "buy just a little" leads to the classic mistakes: lucky-dip packs, collecting random heroes, flip-flopping between PvP and PvE. The result is an account that grows but is strong nowhere: no damage in PvP, no stability in PvE. The turning point is focus on a single goal — arena or content — so that every investment works toward it and the game starts "answering back" with steadier wins.
+
+### The priority ladder
+
+- **Starter and special packs first.** The fastest way to feel the difference: a strong hero plus base resources at once makes PvE stable immediately, with no repeated stalls on ordinary stages.
+- **Energy second.** It looks minor at first, but energy decides how much you actually play — farming, missions, base growth. With enough of it, progress turns from accidental into regular.
+- **Subscriptions and daily bonuses third.** This is about stability: a baseline of resources every login, easier upgrade planning, no dropping out of tempo.
+- **Mid-game: rare heroes and gear-upgrade materials.** Exactly the things that move both PvE and PvP noticeably.
+- **Late game: seasonal packs and speedups.** They keep you at the top where ordinary farming no longer pulls its weight.
+
+![Steady, sensible spending that speeds up progress](/img/dtf/economy/02.jpg)
+
+### What to skip
+
+- **Cosmetics** — zero effect on combat.
+- **Random chests** — occasional luck, mostly filler that creates an illusion of progress with no real gain.
+- **Small short-lived boosts** — a real effect for one evening, nearly invisible over a month.
+- **Duplicate heroes that feed nothing** — if they do not strengthen the roster, they are decoration.
+
+Cutting these removes the scatter: spending gets even and controllable, and every investment is felt.
+
+### Events are the growth point
+
+Events hold the rewards that are hardest to farm by standard means — rare materials, useful items, sometimes strong heroes. The approach that pays off: prepare in advance instead of walking in cold, do not cap your own attempts (bring the tickets), finish quests fully rather than halfway, and claim all key rewards. Timed this way, spending squeezes the maximum out of a specific moment instead of merely "speeding something up".
+
+![Timing spending with events for maximum rewards](/img/dtf/economy/03.jpg)
+
+### Smart-spending checklist
+
+1. Starter packs and energy first — a strong hero and a steady resource flow.
+2. Mid-game, aim at rare heroes and gear materials.
+3. Late game, seasonal packs and speedups for the top.
+4. Save on trifles: cosmetics, random chests, micro-boosts.
+5. Plan around events — the maximum return per investment lands there.
+
+> Source: [Last Asylum: Plague - как донатить с умом и ускорить прогресс в 2026](https://dtf.ru/moneysaver/4850017-last-asylum-plague-kak-effektivno-donatit-i-uskorit-progress) by Гейм-Знаток on DTF.
 

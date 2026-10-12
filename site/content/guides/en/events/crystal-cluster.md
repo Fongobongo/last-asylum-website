@@ -2,7 +2,7 @@
 title: "Crystal Cluster Valley: F2P Point-Farming Route"
 description: "Crystal Cluster Valley event guide: red-mob farming (1.5K points each), mine hits at 5K points/min, skill-timing discipline and the stopwatch trick for squeezing maximum points."
 lang: en
-updated: "2026-09-16"
+updated: "2026-10-12"
 videoTopic: crystal
 type: event
 ---
@@ -71,3 +71,94 @@ Verified values from game client data (v1.0.87), source: wiki-last-asylum.com. B
 | Iron Will | Reduces the duration of debuffs received by 30s | 1,500 |
 | Valley Awakening | Increases Hero DMG by 15% for 60s. CD: 300s | 2,300 |
 | Crystal Resonance | Temporarily increases Crystal Cluster Gathering Speed by 50% for 60s. CD: 300s | 2,300 |
+
+---
+
+## Crystal Valley Deep Dive: Timing, Teleports and Skill Picks {#dtf-deep-dive}
+
+Solo 30-minute points race on a separate map: gather crystals, hold tiles, kill rats, level temporary skills. Inattention is punished fast — a bad start position, one overlong march, or a missed instant-crystal window hands points to everyone else. Strength helps near the throne and tier-3 tiles, but a regular player on stable farm routinely outscores a distracted whale.
+
+![Crystal Valley event map with Russian interface](/img/dtf/crystal-cluster/02.jpg)
+
+### Format and army rules {#dtf-format}
+
+- **Solo event, not alliance.** You compete even against your own clanmates inside the valley. Don't sabotage allies, but expect no one to yield tiles.
+- **30 minutes, three time slots, one attempt.** You can only play in one of the slots — watch the calendar so you don't miss it. Older servers only; if your server has no valley yet, it hasn't reached the stage.
+- **Troops follow event rules.** Headcount scales with barracks capacity, tier is your highest unlocked. Losses stay inside the event and don't touch your permanent army.
+- **Healing costs speedups only** (healing or universal). Constant brawling drains the same speedups your base and research need — F2P should avoid pointless fights.
+- **No city attacks.** Fights are only for resource tiles: knock the holder off, take the spot, collect.
+
+![Valley rules: 30-minute duration and solo format](/img/dtf/crystal-cluster/03.jpg)
+
+### Opening 2 minutes and teleports {#dtf-teleports}
+
+After entry you get **2 minutes of prep** on a random spawn. Check before moving: tier-2 tiles nearby, rats spawning close, no cluster of strong players, short march distances, room to maneuver. The classic mistake is jumping straight at the center — off-meta players get evicted and spend the run marching instead of farming.
+
+![Choosing a start position during the prep phase](/img/dtf/crystal-cluster/04.jpg)
+
+- **Free teleport refreshes every 6 minutes.** Use it when the spot dies (strong neighbors, contested tiles, no rats, constant knock-offs).
+- **Paid teleports escalate: 1, 2, 3, 4, then 5 per jump.** Only jump at a concrete target (free zone with good tiles and rats), never on "feels better over there" — everyone else farms while you fly.
+
+![Paid teleport cost escalation](/img/dtf/crystal-cluster/06.jpg)
+
+### Tiles and throne {#dtf-tiles}
+
+| Tile | Yield | Who it's for |
+|---|---|---|
+| Tier 1 | lowest, calm | learning the event, zero-fight runs |
+| Tier 2 | solid, moderate contest | default for most non-whale players |
+| Tier 3 (near throne) | best rate, heavy contest | strong accounts that can hold it |
+
+If you can't hold tier 3, it pays less than a quiet tier-2 tile: occupy, get knocked off, march back, repeat. Thirty minutes of stable tier-2 farm beats thirty minutes of proving things to the top.
+
+![Tier 1, 2 and 3 resource tiles](/img/dtf/crystal-cluster/07.jpg)
+
+- **Throne battle opens 23 minutes after start and lasts 7 minutes.** For strong accounts with army, heroes and appetite for war it's the logical target. For F2P/low-spend, don't make it the plan: while tops fight in the center, ordinary tiles often go quiet and farmable. Most points come before the throne anyway — tiles, gathering, rats, scattered crystals.
+
+![Throne opens 23 minutes after start](/img/dtf/crystal-cluster/08.jpg)
+
+### Rats and the early split {#dtf-rats}
+
+Rat kills give **event-skill XP** — higher rat level, more XP. The earlier skills unlock, the longer they pay. Don't put every march on gather at the start: with 3 marches run **1 gather + 2 rats**; with 4 marches, 1 gather + 2–3 rats and reactions. A 4th march is a real edge here. Rats get sniped fast, but ignoring them forfeits most of the event's potential.
+
+![Rats grant XP for event skills](/img/dtf/crystal-cluster/09.jpg)
+
+### Skill tree picks {#dtf-skills}
+
+Temporary for one run, then reset. Two branches, five levels, one pick per level. First four are passive; the 5th is active with a **5-minute cooldown**. Pick for your playstyle, not the bigger number.
+
+- **Level 1:** left — periodic **1,080 crystals** free income; right — **1,500 per rat kill**. Right pays only with dense rats and fast clears; left is the safe income when rats are scarce or contested.
+
+![Level 1 skills: steady crystals vs rat bonus](/img/dtf/crystal-cluster/10.jpg)
+
+- **Level 2:** left — march +50 warriors; right — **+25% march speed**. Speed usually wins: faster to rats, tiles and loose crystals. Capacity never fixes the valley's real resource — the 30-minute clock.
+
+![Level 2 skills: hero march capacity vs troop speed](/img/dtf/crystal-cluster/11.jpg)
+
+- **Level 3:** left — **5,000 crystals per successful tile capture** (max once per minute); right — 5,000 when your squad wipes on a tile. For normal play take the capture bonus; don't build around losing, especially when healing costs speedups.
+
+![Level 3 skill: 5,000 crystals per tile capture](/img/dtf/crystal-cluster/12.jpg)
+
+- **Level 4:** left — **+15% tile gather speed**; right — faster debuff cleanse on wiped heroes. Gatherers take left; throne fighters take right.
+- **Level 5 (active):** left — **+100% hero stats for 60s**; right — **+50% tile gather for 60s**. Fighters take left, farmers right — and fire it at a real moment (before a fight, a key hold, a rich gather), not on cooldown.
+
+![Level 4 skills: gather speed vs debuff cleanse](/img/dtf/crystal-cluster/13.jpg)
+
+![Active skills: hero buff vs gather surge](/img/dtf/crystal-cluster/14.jpg)
+
+### PvP and instant crystals {#dtf-instant}
+
+- **No points for killing the tile holder itself.** A good attack is one that gains position + crystals: the victim drops gathered crystals scattered around the tile, which you scoop, plus you take the spot. Attack only with upside (weaker holder, long-sitting gatherer, quick pickup nearby). Also grab visible loose crystals near others' tiles — fast, near-riskless points.
+- **Instant crystals spawn around minutes 10, 11, 12, 20, 21 and 22.** They gather fast and pay well. Keep part of your marches ready near those marks — sometimes pull a squad off a normal tile to contest them. Best F2P catch-up mechanic: no throne fight needed.
+
+![Scattered crystals after a tile fight](/img/dtf/crystal-cluster/15.jpg)
+
+![Instant crystals spawn at minutes 10, 11, 12, 20, 21, 22](/img/dtf/crystal-cluster/16.jpg)
+
+### Simple run plan and where points leak {#dtf-run-plan}
+
+Start: scout in prep, avoid center, anchor near tier-2 tiles with rats. After start: 1 march gathers, rest hunt rats for fast skill unlocks. Mid: hold a decent spot, keep every march busy, prep for 10/11/12, then 20/21/22; after minute 23, non-throne players just keep farming. F2P rules: tier-2 tiles, rats for skills, instant windows, no random paid teleports, no speedup-burning brawls. Strong accounts add tier-3 tiles and the throne — but still farm, skill up and hit instant windows before minute 23.
+
+Points leak from: slow start picks, long marches to distant rats, missed instant windows, no-upside fights, random paid teleports, and clinging to an unholdable tile. Every action should score or improve position — otherwise skip it.
+
+> Source: [Last Asylum: Plague - гайд по Долине кристальных скоплений. Секреты, советы и тактика от новичка до топа.](https://dtf.ru/howto/5054749-dolina-kristalnykh-skopleniy-last-asylum) by Гейм-Знаток on DTF.

@@ -2,7 +2,7 @@
 title: "Triangle Arena: Defense & Attack"
 description: "Three lineups, attacker picks two to beat: the even-defense principle, the sacrifice matchup rule, counter-based attacking, faction bonuses, and the Arena of Fate trap-squad play for UR shards."
 lang: en
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: arena
 calculators: []
 infographics: []
@@ -140,4 +140,58 @@ Not every arena allows top-ups. Where it does, each purchased battle costs more 
 ## What it means in practice
 
 Hero Might converts into resources here directly, and a higher rank opens the arenas with the larger rewards. The free battles deliver that income at no cost, which is why they are taken every day, even on days with no appetite for fighting. Which squad to field against a particular opponent from the list is suggested by the arena team builder: a battle simulation runs through the marked heroes and shows the five with the best outcome.
+
+---
+
+## Triangle Arena Field Notes: Might Lies, Factions and Journals (DTF) {#dtf-field-notes}
+
+You can lose to a weaker player and beat someone millions stronger minutes later: three squads fight, two wins take it. Sometimes the best move is never touching the enemy's best squad; sometimes one hero outweighs a million might; sometimes five gold frames collapse because the main carry has a hollow sword.
+
+![Triangle Arena tips and secrets](/img/dtf/arena/01.jpg)
+
+### Defense stays even, attack reshuffles every fight {#dtf-defense}
+
+Stacking everything expensive (top tank, carry, support, second DD) into squad 1 gifts the attacker two free wins: they feed the weak squad and take the other two 2:1. Spread so no free wins exist — a strong Marlena doesn't need every best Warrior beside her; moving one star (e.g. Harper to squad 3, Celia covering support elsewhere) denies the easy 2. Re-check defense after every big upgrade so squad 1 doesn't bloat while the tail starves.
+
+![Three defensive squads on Triangle Arena](/img/dtf/arena/03.jpg)
+
+Defense is set-and-hold; **attack rebuilds almost every serious fight**. First read the enemy board: with them at 18/13/12M and you at ~13–15M, don't fight the 18M — feed it your weakest squad and win 13 and 12. Chasing all three wastes attempts.
+
+![Three battles with 2-of-3 win condition](/img/dtf/arena/04.jpg)
+
+### Might is a hint, factions flip close fights {#dtf-might}
+
+A 12M team with developed Marlena/Arthur, a real carry, skills and faction fit routinely beats a 14M pile of tanks and support that kills nothing. Always check who the number is made of — especially Marlena, who solo-carries games — before feeding a "10M" team your second squad.
+
+![Might vs composition comparison](/img/dtf/arena/05.jpg)
+
+Then check factions: **Rangers > Warriors > Warlocks > Rangers**, about **+20%** for the counter — enough to eat a solid might gap (your slightly stronger Warriors into Rangers is their fight, not yours; vs strong Rangers try Warlocks). Glance at faction icons every fight when the gap is under a million. But don't assemble a Frankenstein for the bonus: a counter is good only as a working team of that faction — three factions inside one squad with no formation bonus already lost its author a might-up matchup once.
+
+### Post-battle compare, gear and trap numbers {#dtf-compare}
+
+Always open the post-fight development compare — heroes, troops, tech, Raven, relics, Hall of Honor and more. A lopsided bar names the fix (better heroes and troops but lagging Raven/Hall means the next upgrade is obvious; one author's gap was Hall 31 vs 45). Gold frames kill nobody: a strong hero with a weak sword, low skills and hollow gear loses to a properly built carry. Marlena and Zoe show it most — one maxed Zoe decided a game alone, while several half-built attackers achieved nothing. Rule: **one real DD over three almost-DDs**; if Marlena carries, her attacking gear (e.g. sword toward 60, 4-star) eats first, not a showcase sword on a level-30 Arthur. Grow one main DD per key faction rather than nine medium attackers.
+
+![Post-battle compare across heroes, troops, tech, Raven, relics](/img/dtf/arena/07.jpg)
+
+Never auto-mark the weakest number as free: a 10–12M squad hiding Marlena + Arthur is a trap — every squad looks weaker on paper yet two fights lose on heroes, factions and inner growth. Same for troops: good heroes with paid faces but **T8 into T9** is already a visible gap, and sometimes the next army tier beats another hero star.
+
+![Weak-looking squad hiding Marlena](/img/dtf/arena/08.jpg)
+
+![T8 troops vs T9](/img/dtf/arena/09.jpg)
+
+The mirror: an opponent with ~20M in squad 1 and two weak tails should be ignored at squad 1 entirely — take the two tails and beat a scarier total. Even defense beats one super-squad for exactly this reason.
+
+![Opponent with one super-squad and two weak tails](/img/dtf/arena/10.jpg)
+
+### Journal, pacing, matchmaking and freebies {#dtf-journal}
+
+The **Journal** shows incoming (blue) vs outgoing (red) attacks — free defense testing. Compare same-might attackers: one farms your two weak squads, another loses at equal power through bad splits. If defense keeps donating the same two squads, the problem is found.
+
+![Defense journal](/img/dtf/arena/11.jpg)
+
+Don't burn all attempts in the morning: ranks drift as others attack (170 → 400+ in hours is normal). Take dailies to your rough ceiling, then re-climb in the evening with saved attempts. Early-week matchmaking is odd before ratings settle (30M, then 52M, then someone weak) — it keys on rating coins (105 meeting 108, 216 meeting 217), not real power, so use day one for experiments. Dailies: **3 and 5 wins** needn't be streaks and pay Glory Medals; ranked/alliance rewards include building skins (e.g. +5% hero attack); **likes pay 30 diamonds** (up to 180/day across two arenas) — never skip free diamonds.
+
+Every fight: find the most dangerous enemy squad, pick two real targets, re-check factions and hidden carries (a pumped Marlena in the "weak" slot resets the math), shuffle Bella/Harper/Claire/Celia between squads, and only then look at might. Slower, and that's why it's interesting.
+
+> Source: [Треугольная арена Last Asylum: Plague - советы и тактика](https://dtf.ru/howto/5253651-sovety-po-treugolnoy-arene-last-asylum-plague) by Гейм-Знаток on DTF.
 

@@ -3,7 +3,7 @@ title: "Daskal: Skills, Build & Leveling"
 description: "Daskal is a UR warrior who plays as tank. Fully upgraded, he reaches 1,057,192 Might, rank 2 of 11 among the game's tanks. Unlocking him takes 10 shards ( Daskal Shard), …"
 videoTopic: "heroes"
 lang: en
-updated: "2026-09-19"
+updated: "2026-10-12"
 type: guide
 ---
 
@@ -320,4 +320,78 @@ Daskal does not appear in the hero list until server day 28, while Arthur is the
 Awakening costs the most: 2,870 shards for 40 levels against 975 for all 50 stars. The two scales return different things: stars add 675,772 HP and 2,874 ATK, awakening 425,119 HP and 12,119 ATK, four times the attack. Stars still come first, because they bring more HP and lift Bloodshed Defense from 360% to 684%, while 792% comes only with the Exclusive Weapon.
 
 Daskal stands in two tier S squads. Arthur, Marlena, Daskal, Harper and Louis earn a +15% faction bonus for four warriors, 150.7M of survivability and 98 points out of 100 in the squad review. His shield stacks with Billy's Fate's Thread, which removes 36% of the damage from the squad.
+
+---
+
+## 🔄 Rebuilding the main squad around Daskal {#dtf-daskal-rebuild}
+
+Getting the hero is only the start: he needs antitoxin, stars, skills, gear, a squad slot — and then Arena, Walls and every saved lineup must learn about him. This is the full rebuild walkthrough: pulling Daskal, maxing him 1→150, and slotting him into the first Warrior squad in place of Bella.
+
+![Daskal and gold Claire hero progression guide](/img/dtf/daskal-claire/01.jpg)
+
+### Spend big on hero Thursday {#dtf-hero-thursday}
+
+Never burn hire tickets, universal fragments, skill badges and antitoxin stockpiles on a random day. Thursday runs the Alliance Duel hero stage, and nearly everything in this rebuild scores points — summons, fragment spending, badge and antitoxin consumption. One progression push works twice: a stronger account plus duel rewards. Approach Thursday prepared.
+
+![Alliance Duel phase 4 hero development missions](/img/dtf/daskal-claire/02.jpg)
+
+In this case the goal was exact: Daskal. Roughly 250 tickets went in the week before without him dropping, then the free summons plus fresh attempts — first ten a miss, second ten a hit. The key moment is knowing when to stop: once the hero is owned, further tickets buy fragments and skill badges, not the pull itself.
+
+![Pulling Daskal from hero summons](/img/dtf/daskal-claire/03.jpg)
+
+### Grass tip: don't skip the thieves {#dtf-thieves-grass}
+
+While the thieves event runs, it patches the herb stock that big research drains to zero. A large personal target pays over a million herbs, small ones a few hundred thousand each — exact numbers vary with activity, but as an emergency herb refill during an active event it works well.
+
+![Thieves event](/img/dtf/daskal-claire/04.jpg)
+
+### Daskal 1→150: where the antitoxin goes {#dtf-daskal-leveling}
+
+Daskal arrives at level 1, and the antitoxin stockpile was saved specifically for him — correctly, because the cost is enormous. Up to ~100 it still looks harmless, levels flying up with no panic. Then the real fun starts: the closer to 150, the more each level costs. The full 1→150 path takes **5,248,471,500 antitoxin — just over 5.2 billion**. Anyone planning the same zero-to-max run should stockpile beyond five billion, not two or three. Antitoxin comes from workshops, rewards and banked bag items — so don't crack the jars early for no reason; let them wait for the hero that matters.
+
+![Leveling Daskal from 1 to 150 with antitoxin](/img/dtf/daskal-claire/11.jpg)
+
+### Why Daskal belongs in squad 1 {#dtf-why-daskal}
+
+Daskal is a Warrior UR tank whose kit does exactly what a frontline must: his ultimate shields all allies, his active deals physical damage while healing Daskal himself, and a passive effect grants shields to allied tanks early in battle. He survives damage and helps the rest of the team survive it.
+
+Replacing Bella here is the logical move — and Bella doesn't retire. She moves to squad 3, which is exactly missing a good frontliner. One new hero strengthens two squads at once.
+
+### Strip Bella's gear first {#dtf-gear-transfer}
+
+Before finalizing the swap, move the good set from the old tank onto the new one — otherwise the result is a level-150 starred UR running in slippers. There was no signature weapon for Daskal here, so available gear went on him, the rest of Bella's set transferred over, and Bella received the displaced squad-3 hero's items as she moved there.
+
+![Transferring Bella's gear to Daskal](/img/dtf/daskal-claire/12.jpg)
+
+![Upgrading Daskal](/img/dtf/daskal-claire/13.jpg)
+
+### How many stars Daskal needs right now {#dtf-daskal-stars}
+
+After levels, fragments hurt most. The temptation is upgrading everything — rangers waiting, another UR asking for a star. But the main squad is Warriors, so if Daskal joins it, universal gold fragments earn the most on him. Day one closed in on **6★** (which further boosts his team shield), with the rest farmable later. Six stars is not arbitrary — and the next big goal is **8★**, unlocking Tenacity: +20% ATK/HP/DEF plus +10% skill cooldown speed. So don't scatter universal fragments across three squads: bring the main-squad hero to a genuinely useful checkpoint first, then look further.
+
+![Daskal stars and skills for the main squad](/img/dtf/daskal-claire/14.jpg)
+
+### Don't forget the Hall of Honor {#dtf-hall-of-honor}
+
+Along the way a blue hero finally reached Hall of Honor condition — not trivia either. Regular hero progression there steadily boosts the account, and blue heroes specifically raise soldier load capacity: troops carry more resources per march. No combat monster bonus, but over distance the extra capacity pays. Don't ignore blue heroes just because they'll never make squad 1.
+
+![Hall of Honor](/img/dtf/daskal-claire/15.jpg)
+
+### New hero placed — the job isn't done {#dtf-update-modes}
+
+Squad 1's might grew after swapping Bella for Daskal — but the game stores lineups per mode. After any serious reshuffle, open the Arena and refresh the defense, then check the Walls, then Conquest Canyon and save the fresh comp there. Otherwise the Arena keeps fielding Bella for days. The same rule applies after big gear, epigraph or Raven upgrades: if a mode uses a saved lineup, verify it manually.
+
+### The three squads after the rebuild {#dtf-final-squads}
+
+Squad 1 turns fully Warrior: **Daskal, Arthur, Marlena, gold Claire and Harper**, around **19.5M might**. Daskal and Arthur hold the front, Marlena carries the damage, Claire boosts PvE, Harper buffs Warriors.
+
+![First squad: Daskal, Arthur, Marlena, Claire and Harper at 19.5M might](/img/dtf/daskal-claire/16.jpg)
+
+Squad 2 stays Ranger: Shadow, Griffith, Cynthia, Ash and Red Lady (~13.32M). Squad 3 goes mixed: Bella moves in to fix the frontline alongside Hastar, Joker, Annie and Celia (~13.65M).
+
+![Third mixed squad after the hero rebuild](/img/dtf/daskal-claire/17.jpg)
+
+The best result isn't one strong hero: Daskal upgraded squad 1, freed Bella improved squad 3, gold Claire found new PvE life, and good gear moved between characters instead of gathering dust. Prep for the next hero Thursday the same way: stockpile tickets, bank antitoxin for the next real 150-push, keep gold universals aimed at the main squad — Daskal toward a confident 6★ then 8★, gold Claire anchored at eight stars with the last two farmed gradually — and only then return to the rangers. One genuinely strong first squad beats three half-built ones.
+
+> Source: [Даскал и золотая Клэр в Last Asylum: Plague - как правильно прокачивать героев](https://dtf.ru/howto/5317537-daskal-i-zolotaya-kler-v-last-asylum-prokachka-geroev) by Гейм-Знаток on DTF.
 
