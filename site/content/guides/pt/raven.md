@@ -2,7 +2,7 @@
 title: "Sistema de Corvo e Epígrafes"
 description: "Níveis e planos do Corvo, estratégia de equipamentos, raridades de epígrafes e ordem de promoção, além das regras de mono-facção que decidem quais epígrafes valem a pena melhorar."
 lang: pt
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: raven
 infographics: ["/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
 ---
@@ -107,3 +107,41 @@ A conclusão não é que o roxo é secretamente o melhor nível — é que uma e
 Um mal-entendido comum que vale a pena eliminar cedo: você **não pode melhorar uma epígrafe SSR para uma UR**. O que você melhora é o Plano — o espaço onde a epígrafe se encaixa. Epígrafes SSR são substitutos nessa progressão, não embriões.
 
 O que leva ao erro de Corvo mais comum no jogo: jogadores acumulam epígrafes de facções que não são a principal em vez de alimentá-las ao Corvo via **Adição Rápida** — e depois se perguntam por que seu Corvo está preso no nível 1. Epígrafes de outras facções e de baixa raridade são comida para o Corvo. Use a Adição Rápida; é para isso que servem.
+
+## Comoevoluir o Raven Sem Erros: Oficina, Ninho, Epígrafes, Rotina {#raven-dtf-leveling}
+
+Anotações de campo do guia de progressão do DTF: o Raven vive em três lugares, não em um — e a ordem importa mais do que a velocidade.
+
+**Os três edifícios.** A Oficina do Raven é a produção de fundo: ela gera materiais ao longo do tempo sem grandes recompensas visuais, mas o progresso empaca sem ela. O Ninho do Raven é a tela principal — nível, evolução, novos estágios e vínculos de tropas. A Oficina de Epígrafes é onde a maioria das escolhas erradas acontece: uma fabricação ruim ou decisão de encaixe ou acompanha você como um bônus fraco ou custa um reset.
+
+![Visão geral do sistema Raven](/img/dtf/raven/01.jpg)
+
+**Níveis vs evolução.** O Raven sobe de nível com Frutas do Raven e evolui com Essência do Raven, com uma etapa de evolução a cada 10 níveis desbloqueando a próxima camada de progresso. A Essência é o fator limitante: a Fruta chega de forma constante através da rotina de jogo, enquanto a Essência sempre parece escassa. Fique de olho no próximo limite de evolução primeiro — níveis sem a etapa de evolução batem em um teto rapidamente.
+
+![Tela do herói Raven](/img/dtf/raven/02.jpg)
+
+**Equipamento: construa a base, depois afie.** Não abra baús e gaste melhorias conforme elas caem. Monte o conjunto completo de forma equilibrada primeiro, depois combine duplicatas e aumente o nível do equipamento de forma deliberada. Algumas melhorias dependem de sequência — outros espaços devem atingir um nível antes que uma peça seja liberada — então maximizar um espaço cedo deixa lacunas em outros lugares. Trate o equipamento como um kit, não como uma loteria.
+
+![Tela de equipamentos do Raven](/img/dtf/raven/03.jpg)
+
+**Fontes diárias.** Verifique todos os dias: loja da Aliança (vários materiais do Raven), loja VIP (Essência e baús por diamantes), loja de Expedição (baús do Raven de nível superior), loja de Honra (baús raros de fases avançadas), loja do Santuário (Essência em rotação). Compre apenas o que resolve sua tarefa atual — varrer todos os itens rotulados como "Raven" gera inventário sem progresso. Nomeie a escassez explicitamente antes de gastar: materiais da Oficina de Epígrafes ou duplicatas para mesclagem.
+
+**Limites de epígrafes.** Epígrafes roxas são desbloqueadas no nível 15 da Oficina de Epígrafes — antes disso, você não está realmente participando do sistema. Epígrafes UR vêm mais tarde, no próximo estágio da oficina com materiais mais caros. Os bônus de epígrafe se aplicam apenas ao tipo de tropa correspondente: se sua tropa principal for de Guerreiros, fabricar epígrafes de Patrulheiro "para o futuro" queima materiais escassos por zero retorno atual. Escolha a facção que você realmente usa em campo, preencha um conjunto e deixe os conjuntos secundários de lado até que o principal esteja pronto. Dentro de um conjunto, os espaços diferem (ataque / defesa / suporte / centro geral) — acerte a facção primeiro, depois ajuste conforme a necessidade: falta de dano significa investir no espaço de ataque, uma tropa entrando em colapso significa defesa, e o espaço geral significa um bônus equilibrado.
+
+![Epígrafes como a parte mais forte e perigosa do sistema](/img/dtf/raven/04.jpg)
+
+![Espaços de epígrafe para Guerreiros, Rangers e Feiticeiros](/img/dtf/raven/05.jpg)
+
+**Duplicatas são combustível.** Uma segunda cópia da epígrafe certa não é uma queda ruim — epígrafes idênticas aumentam as estrelas da peça existente e, para peças UR, duplicatas exatas do item correto são o recurso mais valioso da linha. Duplicatas do tipo errado esperam ou passam por redistribuição de reset; duplicatas do tipo certo ganham estrelas.
+
+![Epígrafes duplicadas como combustível para o crescimento](/img/dtf/raven/06.jpg)
+
+**A evolução desbloqueia tropas.** A evolução não se resume apenas a atributos: ela desbloqueia espaços adicionais para tropas. Você começa apenas com a primeira tropa, o segundo espaço é desbloqueado no próximo estágio de evolução, e os requisitos continuam aumentando. Esse é outro motivo para se comprometer com sua tropa mais forte desde o início — fisicamente não há para onde se espalhar no começo.
+
+![Espaços de esquadrão desbloqueados pela evolução do Raven](/img/dtf/raven/07.jpg)
+
+**O reset existe.** Fabricações ruins podem ser recuperadas: o reset reverte uma melhoria e devolve os materiais para redistribuição. É mais útil quando você muda a classe da tropa principal, supera uma tropa temporária ou escolheu a epígrafe errada no início. Ele reduz o custo de um erro; não torna a fabricação às cegas gratuita.
+
+**Rotina diária.** Confira as lojas, mantenha a próxima evolução em mente, desenvolva apenas o tipo de epígrafe da sua tropa principal e redefina os erros em vez de conviver com eles. Jogado como um ciclo diário, o Raven acumula vantagens; jogado em rajadas, ele parece caro e vago.
+
+> Fonte: [Last Asylum: Plague - полный гайд по Ворону. Как качать без ошибок, что делать с эпиграфами.](https://dtf.ru/howto/5016737-last-asylum-plague-gayd-po-prokachke-vorona) por Гейм-Знаток no DTF.

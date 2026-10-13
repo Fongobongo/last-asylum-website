@@ -2,7 +2,7 @@
 title: "Kemajuan: Kemahiran & Bintang"
 description: "Bahagian panduan wira: kemajuan: kemahiran & bintang."
 lang: ms
-updated: "2026-10-01"
+updated: "2026-10-12"
 videoTopic: heroes
 ---
 
@@ -234,3 +234,96 @@ Halaman yang menyebut halaman ini. Senarai ini dibina daripada markup, bukan dii
 - Arthur: kemahiran, naik taraf dan Kuasa (Might)
 
 ## Komen
+
+## Urutan Pelaburan: Kerosakan → Barisan Depan → Sokongan {#dtf-investment-order}
+
+Seorang wira adalah tentang peranannya sebelum menjadi potret. Templat skuad kerja dalam panduan praktikal ini ialah **2 kebal (tank) + 2 penyerang (damage dealer) + 1 sokongan**: dua kebal membeli masa untuk bertahan, dua penyerang mencipta tekanan, satu sokongan melipatgandakan teras yang sedia ada.
+
+![Kulit panduan: cara menaik taraf wira dengan betul](/img/dtf/hero-progression/01.jpg)
+
+### Cara memahami peranan {#dtf-roles}
+
+- **Perisai — kebal (tank).** Menerima serangan, menguasai barisan hadapan, melindungi pasukan dengan kemahiran pertahanan dan pengurangan kerosakan.
+- **Api — penyerang (carry).** Menumpaskan musuh dengan pantas; pertarungan yang singkat bermaksud kurang kerosakan yang dikenakan semula kepada pasukan anda.
+- **Botol — sokongan.** Buff, pemulihan (sustain), bantuan sumber. Hampir selalu berskala mengikut kekuatan seluruh skuad yang lain.
+
+Menyebarkan sumber secara sekata hanya menghasilkan lima wira yang biasa-biasa sahaja. Menumpukannya membina satu skuad yang mampu merentasi kandungan permainan.
+
+![Peranan wira: kebal, penyerang, sokongan](/img/dtf/hero-progression/02.jpg)
+
+### Urutan yang mendorong kemajuan {#dtf-carry-first}
+
+1. **Penyerang utama** — kemajuan terpantas melalui kempen, PvE dan acara.
+2. **Kebal utama** — tanpa barisan hadapan, penyerang tidak akan dapat melancarkan kebolehannya.
+3. **Penyerang kedua, kebal kedua, kemudian sokongan.**
+
+Memberikan buff kepada penyerang yang lemah menggunakan sokongan awal ibarat memasang turbin pada troli pasar raya: bising, tetapi tidak ke mana-mana.
+
+### Penyerang utama dahulu: Marlena sebagai contoh {#dtf-marlena-carry}
+
+Dalam haluan Pahlawan (Warrior), contohnya ialah Marlena. Tiga perkara penting untuk penyerang utama: **taraf wira, gear kerosakan, dan kemahiran kerosakan utama** (untuk Marlena, kemahiran pasif yang meningkatkan kerosakan tenaga — bukan sedikit untuk setiap perkara).
+
+![Marlena sebagai penyerang utama](/img/dtf/hero-progression/03.jpg)
+
+Keutamaan gear untuk penyerang ialah **pedang, kemudian sarung tangan**. Perisai badan (armor) dan kasut bukannya tidak berguna, tetapi mengutamakan perlindungan pada penyerang bermaksud kedua-dua pasukan akan bertahan lebih lama. Kemahiran mengikut logik yang sama: tingkatkan kesan yang menaikkan jenis kerosakan utama sebelum peningkatan sampingan.
+
+![Tarafkan wira mengikut urutan: penyerang dahulu, kemudian kebal dan sokongan](/img/dtf/hero-progression/04.jpg)
+
+### Penyerang kedua: selepas yang pertama mempunyai asas {#dtf-second-carry}
+
+Penyerang kedua menambah tempo, menyudahkan sasaran dan menjadi insurans kepada penyerang utama — tetapi hanya selepas penyerang pertama mempunyai tahap, kemahiran utama, pedang dan sarung tangan. Membahagikan segala-galanya kepada 50/50 terlalu awal menghasilkan dua pemukul purata yang sedia ada sasarannya terus bernyawa.
+
+Pilih wira yang benar-benar berada dalam lima barisan utama anda sekarang, bukannya projek "mungkin kemudian".
+
+### Kebal kedua: Arthur mengawal barisan {#dtf-arthur-tank}
+
+Selepas penyerang, barisan hadapan mesti mengejar ketinggalan. Arthur sebagai kebal utama memerlukan tahap, gear pertahanan dan kemahiran perlindungan pasukan. Urutan gear ialah **perisai badan, kemudian kasut** (perisai badan untuk serangan fizikal, kasut untuk daya tahan tenaga dan ambang pertahanan).
+
+![Menaik taraf Arthur: perisai badan, kasut dan kemahiran pertahanan](/img/dtf/hero-progression/05.jpg)
+
+Apa yang perlu dinaikkan pada kebal: mula-mula kemahiran ultimate (kemahiran Arthur mengurangkan kerosakan fizikal yang diterima oleh sekutu di dalam zon), kemudian kemahiran pasif yang mengurangkan kerosakan masuk atau memastikan kebal kedua terus hidup. Barisan hadapan yang kebal tetapi tiada kerosakan di belakangnya hanya akan tewas secara perlahan-lahan dan heroik.
+
+### Sokongan ketiga: Celia pada mulanya, Harper kemudian {#dtf-harper-support}
+
+Celia boleh memegang slot sokongan pada peringkat awal, tetapi nilainya lebih cenderung kepada sumber berbanding kuasa pertempuran langsung. Harper (buff serangan kepada sekutu, terutamanya Pahlawan, melalui kemahiran pasif dan ultimate) lebih sesuai untuk skuad pertempuran Pahlawan — setelah ada sesuatu yang berbaloi untuk diberi buff.
+
+![Harper: sokongan serangan untuk wira Pahlawan](/img/dtf/hero-progression/06.jpg)
+
+Jangan terus menukar Harper pada tahap 1 hanya kerana dia muncul. Lakukan peralihan secara beransur-ansur, dan rancang sumbernya lebih awal: buff tersebut membuahkan hasil apabila Marlena dan Arthur serta penyerang kedua sudah sedia berdiri.
+
+Urutan praktikal: penyerang utama → kebal utama → penyerang kedua → kebal kedua → sokongan apabila teras sudah bersedia.
+
+### Gear dan kemahiran mengikut peranan, bukan kegemaran {#dtf-gear-skills-by-role}
+
+- Penyerang: **pedang → sarung tangan** dahulu.
+- Kebal: **perisai badan → kasut** dahulu.
+- Sokongan: perlindungan jika ia mati dan menjatuhkan buff, jika tidak lakukan kemudian.
+- Jangan sekali-kali memberikan pedang terbaik kepada kebal sementara penyerang utama kekurangan kerosakan, dan jangan pernah maksima perisai badan penyerang sebelum bahagian kerosakannya.
+
+Untuk kemahiran, baca penerangan: penyerang = kerosakan dan penguat tenaga atau fizikal; kebal = pengurangan kerosakan masuk, perlindungan sekutu, pemulihan barisan hadapan; sokongan = buff serangan, buff faksi, bonus pasukan kerja. Pada Marlena penambahan kerosakan adalah penting, pada Arthur pertahanan pasukan, pada Harper buff serangan sekutu.
+
+### Disiplin F2P {#dtf-f2p-discipline}
+
+1. Pilih haluan faksi.
+2. Namakan penyerang utama.
+3. Maksima ia dahulu, kemudian kebal utama, penyerang kedua, kebal kedua, dan akhir sekali sokongan.
+4. Jangan kejar setiap tarikan (pull) baharu; satu skuad yang siap dibina mengalahkan koleksi kad separuh siap.
+
+Carian lima peranan yang sama berfungsi dalam mana-mana faksi: cari penyerang utama *anda*, penyerang kedua, dua kebal dan sokongan, kemudian jalankan kerosakan → barisan hadapan → sokongan. Wira yang kuat tanpa faksi, peranan dan bonus pasukan di sekelilingnya akan menunjukkan prestasi yang merosot.
+
+![Skema peningkatan skuad utama: penyerang, kebal, sokongan](/img/dtf/hero-progression/07.jpg)
+
+### Enam kesilapan klasik {#dtf-progression-mistakes}
+
+1. Menaik taraf semua orang sedikit-sedikit — asas yang lemah.
+2. Menaik taraf sokongan sebelum penyerang.
+3. Melupakan kebal — penyerang yang mati menghasilkan sifar kerosakan.
+4. Gear yang sama untuk setiap peranan — peranan diutamakan, item kemudian.
+5. Membina semula skuad untuk setiap tarikan baharu — baharu tidak bermaksud lebih baik.
+6. Berbelanja tanpa pelan — sumber paling mahal adalah keputusan yang salah.
+
+Buat diagnosis menggunakan laporan pertempuran: kebal mati serta-merta → masalah barisan hadapan; pertarungan panjang tanpa sebarang pembunuhan → masalah kerosakan; penyerang hidup tetapi prestasi merosot → semak kemahiran dan gear. Kekalkan pelan 1–2 minggu (siapa sekarang, siapa seterusnya, item yang mana, kemahiran yang mana).
+
+![Cara menaik taraf wira tanpa membazirkan sumber](/img/dtf/hero-progression/08.jpg)
+
+> Sumber: [Last Asylum: Plague - как правильно качать героев и не слить ресурсы впустую](https://dtf.ru/howto/5138522-last-asylum-plague-prokachka-geroev) oleh Гейм-Знаток di DTF.

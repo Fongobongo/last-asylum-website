@@ -2,7 +2,7 @@
 title: "🏆 Tier List des Héros"
 description: "Classements basés sur le consensus de la communauté, pondérés pour une progression typique F2P / petit budget. Le contexte du palier est important : un SSR 'B' que vous possédez aujourd'hui vaut mieux qu'un UR 'S' que vous aurez dans trois mois."
 lang: fr
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: tier_list
 ---
 
@@ -148,3 +148,110 @@ Le format 4+1 donne +15 % et fonctionne quand un héros d'une autre faction appo
 - **Objectif tardif :** Warlocks 5/5 — Ulfrid + Billy + Nicole + Annie + Jester.
 
 Le bonus complet 5/5 n'est pas toujours plus fort qu'un 4+1 ou un 3+2 s'il faut pour cela aligner un héros faible ou inadapté.
+
+## 🛡️ Guide des escouades : lire les paliers à travers les compositions {#dtf-squad-guide}
+
+Un héros ne vit pas isolé de son équipe : le même personnage est excellent dans son escouade de faction, médiocre dans un mélange aléatoire et presque inutile dans le mauvais rôle. Cette section analyse la liste des paliers (tier list) par le biais des escouades — qui tient la première ligne, qui inflige des dégâts, qui applique des bonus, et quelles compositions construire réellement.
+
+![Aperçu de la tier list des héros et des meilleures escouades](/img/dtf/tier-list/01.jpg)
+
+### Bonus de faction et formats hybrides {#dtf-faction-bonus}
+
+Les bonus de faction augmentent avec l'investissement :
+
+- **3 héros d'une même faction** — +5 % PV/ATK/DEF.
+- **Répartition 3 + 2** — +10 % PV/ATK/DEF.
+- **4 héros d'une même faction** — +15 % PV/ATK/DEF.
+- **5 héros d'une même faction** — +20 % PV/ATK/DEF.
+
+![Tier list des héros UR par faction : Guerriers, Rôdeurs et Démonistes](/img/dtf/tier-list/02.jpg)
+
+![Bonus de faction pour 3, 3+2, 4 et 5 héros d'une même faction](/img/dtf/tier-list/03.jpg)
+
+Sur le papier, 20 % semble être l'option idéale, mais du 5/5 n'est pas toujours plus fort : si le cinquième héros ne sert qu'à remplir l'emplacement pour le bonus, une composition 4+1 ou 3+2 avec les rôles appropriés s'avère plus efficace. Exemple : quatre Guerriers puissants plus une Cynthia bien développée peuvent battre une escouade 100 % Guerriers dont le cinquième membre n'apporte rien.
+
+Les contres de faction comptent beaucoup en JcJ : **les Guerriers subissent 20 % de dégâts en moins de la part des Démonistes, les Rôdeurs subissent 20 % de dégâts en moins de la part des Guerriers, et les Démonistes subissent 20 % de dégâts en moins de la part des Rôdeurs.** Ne basez pas tout votre compte sur le contre-pick (la première ligne, les dégâts et le soutien passent avant tout), mais l'affrontement influence réellement les résultats sur les serveurs dominés par une seule composition.
+
+### Les 15 héros UR par rôle {#dtf-ur-roster}
+
+**Guerriers :** Arthur (tank — tient la première ligne, protège l'équipe avec des boucliers), Daskal (tank — boucliers, auto-soin, seconde ligne aux côtés d'Arthur), Marlena (carry — dégâts d'énergie, souvent le principal DPS), Harper (soutien — bonus d'ATK, complète le noyau de Guerriers), Zoya (carry — dégâts d'énergie, coups critiques, pression multi-cibles).
+
+**Rôdeurs :** Red Lady (carry — cible les ennemis dangereux à haute ATK, dégâts d'énergie, étourdissements), Cynthia (carry — lames d'énergie, critique, multi-cibles), Bell (soutien — soins et bonus d'ATK qui soudent l'escouade de Rôdeurs), Shadow (tank/affaiblisseur — réduit la défense ennemie, contre les compositions basées sur l'énergie), Louis (tank — auto-soin et réduction des dégâts, efficace contre les dégâts subits ou l'énergie).
+
+**Démonistes :** Ulfrid (tank — réduction des dégâts et renvoi ; nommé Brian dans les anciens guides, renommé en juillet 2026), Billy (tank — anti-contrôle, protège les alliés clés, utile contre l'énergie), Joker (carry — exécute les cibles à faible PV ; nommé Jester dans les articles précédents), Annie (carry — Brûlure et dégâts d'énergie), Nicole (soutien — soins, dégâts de zone, bonus de Démoniste).
+
+Les Guerriers constituent la faction la plus complète (deux tanks, un soutien, deux carrys). Les Rôdeurs forment une faction JcJ redoutable axée sur la pression exercée sur les cibles dangereuses. Les Démonistes sont puissants mais se révèlent tardivement — en particulier une fois que Nicole arrive.
+
+![Les 15 héros UR par faction, rôle et fonction](/img/dtf/tier-list/04.jpg)
+
+### Paliers de valeur globale des UR {#dtf-overall-tiers}
+
+Il s'agit d'un classement de valeur pratique (à quelle fréquence un héros trouve sa place dans des escouades viables) et non d'un simulateur de duel :
+
+- **S :** Arthur, Daskal, Marlena, Red Lady, Cynthia, Harper, Shadow.
+- **A+ :** Bell, Nicole, Ulfrid, Annie, Louis.
+- **A :** Zoya, Joker, Billy.
+
+Pourquoi le palier S : Arthur représente la première ligne la plus facile à développer — si la première ligne s'effondre rapidement, la ligne arrière ne inflige aucun dégât. Daskal placé aux côtés d'Arthur rend la première ligne extrêmement robuste. Marlena apporte des dégâts d'énergie qui modifient le rythme d'un combat, tant dans les compositions de Guerriers que dans les hybrides énergétiques. Red Lady exerce une pression sur les principaux donneurs de dégâts ennemis. Cynthia s'associe à Marlena et Red Lady dans de puissantes compositions hybrides. Harper arrive rarement en tête des tableaux de dégâts, mais peut s'avérer être l'élément clé au sein d'une escouade de Guerriers. Shadow remporte les combats en annihilant la stratégie adverse — réduction de défense et technologie anti-énergie.
+
+Les paliers A+ et A ne regroupent pas des héros faibles, mais des héros de système. Bell excelle au sein des Rôdeurs et s'avère plus faible en dehors. Nicole frôle le palier S chez les Démonistes mais intervient tardivement — ne planifiez jamais un parcours de départ autour d'elle. Ulfrid est un solide tank Démoniste, plus inféodé à sa faction qu'Arthur ou Daskal. Annie requiert la synergie des Démonistes plutôt qu'un mélange aléatoire. Louis est un bon tank Rôdeur, mais moins universel qu'Arthur. Zoya joue généralement le rôle de deuxième DPS Guerrier plutôt que de protagoniste du compte. Joker a besoin d'une équipe qui affaiblit rapidement les cibles. Billy contre le contrôle et les dégâts d'énergie, mais reste situationnel.
+
+![Tier list globale des héros UR avec Arthur, Marlena, Red Lady et Shadow au palier S](/img/dtf/tier-list/05.jpg)
+
+### Analyses JcJ vs JcE {#dtf-pvp-pve-reads}
+
+**JcJ S :** Arthur, Daskal, Marlena, Red Lady, Cynthia, Shadow, Harper. **A+ :** Louis, Ulfrid, Bell, Nicole, Annie. **A :** Joker, Zoya, Billy. Red Lady et Shadow obtiennent les notes les plus élevées ici : Red Lady élimine les cibles à haute ATK, tandis que Shadow réduit la défense et perturbe les escouades d'énergie. Le duo Arthur + Daskal constitue la première ligne la plus fiable — ils achètent du temps plutôt que de remporter les combats seuls. Harper s'intègre comme élément du noyau Guerrier (Arthur + Daskal + Marlena).
+
+![Tier list des héros en JcJ avec tanks, carrys et soutiens](/img/dtf/tier-list/06.jpg)
+
+**JcE S :** Arthur, Marlena, Daskal, Harper, Nicole. **A+ :** Cynthia, Zoya, Annie, Bell, Ulfrid, Louis. **A :** Red Lady, Shadow, Joker, Billy. Nicole grimpe dans le classement car les soins et le soutien font gagner les combats longs ; Red Lady chute car la pression sur les cibles à haute ATK et les étourdissements importent moins face aux boss. Arthur, Daskal et Marlena restent au sommet dans les deux modes — une première ligne et des dégâts stables sont indispensables partout. Ne copiez jamais aveuglément une escouade JcJ en JcE : vérifiez les exigences de l'événement (faction, type de dégâts, survie plutôt que burst).
+
+![Tier list des héros en JcE pour les boss et les combats longs](/img/dtf/tier-list/07.jpg)
+
+### Priorités pour les joueurs F2P et à faible budget {#dtf-f2p-priorities}
+
+La question n'est pas « qui est le plus fort » mais « qui puis-je réellement développer » — un héros UR sans fragments ni étoiles atteint rapidement son plafond :
+
+- **Très élevé :** Arthur, Marlena, Daskal, Harper, Cynthia.
+- **Élevé :** Red Lady, Shadow, Ulfrid, Annie.
+- **Moyen / Fin de jeu :** Bell, Louis, Nicole, Zoya, Joker, Billy.
+
+Arthur est le tank de départ par défaut. Marlena offre le meilleur boost de dégâts pour un faible investissement. Daskal sert de seconde ligne. Harper complète les Guerriers. Cynthia ouvre l'accès aux hybrides énergétiques. Les héros de rareté inférieure comblent l'écart : Bella en tant que seconde ligne, Celia pour le JcE et l'agriculture de ressources, Claire comme source de dégâts/soutien de transition — un pont, et non la destination finale, évitez donc d'y investir des ressources rares comme s'ils restaient définitivement. L'erreur classique du joueur F2P consiste à améliorer tout le monde : constituez une équipe de cinq personnages viables et améliorez-la emplacement par emplacement.
+
+![Parcours de progression F2P, des héros de départ à une escouade UR](/img/dtf/tier-list/08.jpg)
+
+### Meilleures escouades 5/5 {#dtf-best-5-5}
+
+**Guerriers 5/5 — l'escouade de faction la plus complète.** Arthur, Daskal, Harper, Marlena, Zoya. Première ligne : Arthur + Daskal. Ligne arrière : Marlena + Harper + Zoya. Deux tanks, un soutien et deux donneurs de dégâts, ce qui fait que le bonus complet de +20 % n'est jamais rompu. Stable et évidente à comprendre ; si Zoya ou Harper sont sous-développés, une composition 4+1 avec Cynthia ou Red Lady peut s'avérer meilleure.
+
+![Meilleure escouade de Guerriers : Arthur, Daskal, Harper, Marlena et Zoya](/img/dtf/tier-list/09.jpg)
+
+**Rôdeurs 5/5 — l'escouade JcJ.** Shadow, Louis, Bell, Red Lady, Cynthia. Première ligne : Shadow + Louis. Ligne arrière : Red Lady + Bell + Cynthia. Red Lady fait pression sur les cibles dangereuses, Cynthia ajoute des dégâts, Bell apporte son soutien, et la première ligne résiste aux menaces énergétiques. Rythme et contrôle solides, bonus maximal — mais coûteuse et orientée vers la fin de jeu, ce n'est pas un parcours pour débutant.
+
+![Escouade de Rôdeurs : Shadow, Louis, Bell, Red Lady et Cynthia](/img/dtf/tier-list/10.jpg)
+
+**Démonistes 5/5 — l'escouade de système de fin de jeu.** Ulfrid, Billy, Nicole, Annie, Joker. Première ligne : Ulfrid + Billy. Ligne arrière : Annie + Nicole + Joker. Bonne synergie interne (Brûlure, soins, exécutions), mais Nicole et Billy arrivent tardivement — sans Nicole, la composition perd une grande partie de son intérêt. Ce n'est pas un premier objectif pour les nouveaux joueurs.
+
+![Escouade de Démonistes : Ulfrid, Billy, Nicole, Annie et Joker](/img/dtf/tier-list/11.jpg)
+
+### Meilleures escouades 4+1 et 3+2 {#dtf-hybrid-squads}
+
+Le format 4+1 fonctionne lorsqu'un solide noyau de faction associé à un personnage extérieur surpasse un cinquième héros médiocre de la même faction :
+
+- **Mur de la mort (4 Guerriers + Cynthia, +15 %).** Arthur, Daskal, Harper, Marlena, Cynthia. L'une des compositions les plus fiables du jeu : la première ligne et le noyau de Guerriers combinés à la pression énergétique de Cynthia. Si votre Cynthia est plus développée que votre Zoya, la perte du bonus de 5 % est largement compensée.
+
+![Escouade d'énergie : Arthur, Daskal, Marlena, Cynthia et Red Lady](/img/dtf/tier-list/12.jpg)
+
+- **Noyau de Guerriers + Red Lady (4G + 1R, +15 %).** Arthur, Daskal, Harper, Marlena, Red Lady. Reprend la base des Guerriers et y ajoute la pression JcJ de Red Lady sur les cibles à haute ATK — idéal contre les équipes axées sur un carry en ligne arrière. Elle ne reçoit aucun bonus de Guerrier, elle doit donc être suffisamment développée pour justifier sa place.
+
+Le format 3+2 (+10 %) constitue le format hybride pratique pour des héros puissants et déjà développés :
+
+- **Domination énergétique pure.** Arthur, Daskal, Marlena, Cynthia, Red Lady (3G + 2R). Burst d'énergie agressif pour le JcJ et les combats rapides ; plus faible dans les combats longs si la première ligne ne peut tenir sans un soutien classique.
+- **Contrôle + Effondrement.** Arthur, Daskal, Marlena, Shadow, Cynthia (3G + 2R). Shadow apporte une réduction de défense et un contrôle anti-énergie permettant à Marlena et Cynthia de convertir cette fenêtre de tir en dégâts — plus efficace contre les équipes denses qui survivent au premier burst, avec une pression moins chirurgicale que la version avec Red Lady.
+- **Pression des Démonistes.** Ulfrid, Nicole, Annie, Arthur, Marlena (3 Démonistes + 2 Guerriers). Une composition de transition de Démonistes pour les comptes qui s'orientent déjà dans cette direction ; Nicole brille davantage lorsqu'elle est entourée de plus de Démonistes.
+
+Un hybride sans bonus idéal convient lorsqu'il répond à une tâche spécifique (par exemple, une première ligne Arthur + Louis avec Marlena, Red Lady et Joker pour achever les ennemis). Ce n'est pas une stratégie s'il s'agit simplement de cinq héros UR favoris sans répartition des rôles. Ordre de construction suggéré à partir de zéro : Arthur → Marlena → Daskal → Harper → Cynthia ou Red Lady (DPS d'énergie stable vs pression JcJ) → Shadow → Nicole. Option la plus sûre par défaut : Guerriers 5/5. JcJ agressif : Arthur + Daskal + Marlena + Cynthia + Red Lady. JcJ de contrôle : Arthur + Daskal + Marlena + Shadow + Cynthia. Démonistes de fin de jeu : Ulfrid + Billy + Nicole + Annie + Joker.
+
+![Tier list complète des héros : factions, rôles, JcJ, JcE, priorités F2P et meilleures escouades](/img/dtf/tier-list/13.jpg)
+
+> Source : [Last Asylum: Plague - актуальный тир-лист героев и лучшие пачки](https://dtf.ru/howto/5095947-last-asylum-plague-tir-list-geroev-i-luchshie-pachki) par Гейм-Знаток sur DTF.

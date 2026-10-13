@@ -2,7 +2,7 @@
 title: "Prioridades de Construcción y Hoja de Ruta del Santuario"
 description: "Hoja de ruta del Santuario hasta el nivel 30, el orden de prioridad de construcción, qué hace cada edificio y cómo acumular las mejoras de velocidad de construcción de la manera consecutiva correcta."
 lang: es
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: buildings
 ---
 
@@ -252,3 +252,85 @@ Una vez que la macro prioridad anterior esté en marcha, estos son los atajos de
 - [Estatua del guerrero](/es/buildings/warrior-statue/)
 - [Torre de vigilancia](/es/buildings/watchtower/)
 - [Taller de tejido](/es/buildings/weaving-workshop/)
+
+---
+
+## 🧱 Tácticas de construcción para principiantes {#dtf-beginner-tactics}
+
+Las mejoras repartidas uniformemente por la fortaleza estancan la cuenta: los recursos se agotan exactamente cuando el Santuario, el Laboratorio, los Campos de entrenamiento o los Talleres de antitoxina los necesitan. Esta sección es la guía para principiantes sobre para qué sirve cada edificio y en qué orden tocarlo.
+
+![Guía general de edificios para principiantes](/img/dtf/buildings/01.jpg)
+
+### Santuario primero, los héroes limitados por él {#dtf-sanctuary-first}
+
+El Santuario establece el límite máximo para todo: los niveles de los héroes (aproximadamente +5 por nivel de Santuario; por ejemplo, el Santuario 28 permite héroes hasta el 140) y todos los demás edificios. Si los cinco principales alcanzan el límite, la antitoxina extra no servirá de nada; solo el siguiente nivel del Santuario lo elevará. Cada nivel del Santuario también exige varios edificios previos (Laboratorio, Campos de entrenamiento, Cuarteles, estatuas), así que abre los requisitos con antelación y prepara toda la cadena. No esperes a que todos los héroes alcancen el límite; comienza el siguiente nivel del Santuario con tiempo.
+
+![Nivel del Santuario y el límite de nivel de los héroes](/img/dtf/buildings/02.jpg)
+
+### Dos constructores, dos funciones {#dtf-two-builders}
+
+La ranura temporal del segundo constructor (500 diamantes) debe cumplir una función distinta a la del primero: la ranura larga se ocupa del Santuario, el Laboratorio u otro edificio obligatorio de varios días, mientras que el constructor libre cierra las mejoras cortas (granjas, aserraderos, huertos, talleres de antitoxina y los requisitos intermedios para el siguiente nivel del Santuario). Tener dos constructores en proyectos largos significa que no hay ranura para necesidades imprevistas; tener dos en tareas pequeñas significa que el edificio principal se retrasa eternamente.
+
+Programa las grandes finalizaciones para el día de construcción del Duelo de la Alianza: un edificio terminado no tiene por qué reclamarse de inmediato; deja el martillo sobre él y toca después de que cambie la fase del evento, sumando puntos por el trabajo ya realizado. El edificio sigue ocupando la ranura, así que mantén el martillo solo sobre proyectos grandes. Pide toda la ayuda de la alianza primero, luego gasta aceleradores y finalmente reclama.
+
+![Reclamar la construcción terminada en el día de construcción del Duelo de la Alianza](/img/dtf/buildings/03.jpg)
+
+### Los edificios de recursos pueden retrasarse {#dtf-resource-lag}
+
+Las granjas, los aserraderos y los huertos de hierbas suministran grano, madera y hierbas, pero no necesitan estar al nivel del Santuario. Una diferencia de cinco a seis niveles sigue siendo cómoda. Mientras el segundo constructor se ocupa del Santuario, el primero eleva gradualmente los edificios de recursos, y sobre todo los talleres de antitoxina: la antitoxina se consume constantemente al subir de nivel a los héroes.
+
+![Granjas, aserraderos y huertos de hierbas](/img/dtf/buildings/04.jpg)
+
+Los almacenes (de madera, grano y hierbas) solo aumentan la cantidad protegida que los atacantes no pueden saquear. No desbloquean niveles, tecnologías ni tropas, así que manténlos notablemente retrasados a menos que los requisitos del Santuario los exijan. La estrategia más segura: mantén los paquetes de materiales sin abrir en el inventario y ábrelos justo antes de construir; así, incluso los almacenes débiles apenas perderán nada.
+
+![Almacenes de madera, grano y hierbas](/img/dtf/buildings/05.jpg)
+
+### Taberna, Templo y Laboratorio de investigación {#dtf-tavern-temple-lab}
+
+La Taberna recluta héroes y supervivientes, y subirla de nivel acorta el tiempo de reutilización de la contratación gratuita, aunque solo una hora aproximadamente después de varios niveles. Súbela según los requisitos del Santuario o en el día de construcción; mucho más importante es pulsar realmente las contrataciones gratuitas disponibles. Las primeras 50 tiradas garantizan fragmentos de Arthur.
+
+![Invocaciones de héroes y supervivientes en la Taberna](/img/dtf/buildings/06.jpg)
+
+Las estatuas de Guerrero, Explorador y Brujo del Templo otorgan bonificaciones directas de ATQ/PV/DEF de facción. Comienza con la facción de tu escuadrón 1, pero no te excedas: las demás estatuas forman parte de los requisitos del Santuario y los escuadrones 2 y 3 las necesitan para las expediciones.
+
+![Estatuas de Guerrero, Explorador y Brujo en el Templo](/img/dtf/buildings/07.jpg)
+
+Después del Santuario, el Laboratorio de investigación es el edificio más importante: la economía, los héroes, las tropas y las tecnologías de desarrollo se encuentran allí. Realiza investigaciones del árbol del Duelo de la Alianza los miércoles para que los mismos aceleradores sumen puntos para el evento, y no gastes todos los aceleradores universales en edificios: parte de las reservas debe cubrir las investigación, especialmente las costosas tecnologías militares.
+
+![Laboratorio de investigación](/img/dtf/buildings/08.jpg)
+
+### Ejército: Campos de entrenamiento, Cuarteles, Enfermería {#dtf-army-buildings}
+
+Unos Campos de entrenamiento de mayor nivel desbloquean rangos de tropas más fuertes (T1–T10). No niveles todos los campos por igual: mantén uno al máximo y utiliza el resto para entrenar en masa tropas baratas, para luego ascenderlas en el campo principal (coste de recursos comparable, mucho menos tiempo). El campo principal debe seguir el ritmo del Santuario, ya que los nuevos niveles y los requisitos del Santuario dependen de él.
+
+Los Cuarteles albergan al ejército entrenado y la capacidad se agota rápidamente: los asaltos de caza de ladrones y los combates de viernes y sábado queman a miles de soldados. Si los cuarteles están llenos, los campos se quedan inactivos y las marchas salen incompletas; súbelos al mismo tiempo que el campo principal. La capacidad y la velocidad de curación de la enfermería determinan cuánto castigo puede soportar la cuenta: si una batalla la llena, es hora de mejorarla. Las enfermerías pequeñas convierten a los heridos en bajas permanentes.
+
+### Cabaña del constructor, Salón de la alianza y Murallas {#dtf-support-defense}
+
+La Cabaña del constructor acorta todos los futuros proyectos, por lo que la inversión se acumula en toda la cuenta. El Salón de la alianza amplía la ayuda de los aliados (más toques, más minutos por toque): solicita ayuda siempre en el momento en que comience un temporizador largo y gasta aceleradores solo después de que los aliados terminen, o el tiempo libre se desperdiciará.
+
+![Ayuda de aliados a través del Salón de la alianza](/img/dtf/buildings/09.jpg)
+
+Tres escuadrones defensivos se sitúan en las murallas, junto con las fortificaciones y el botón de extinción. Para reorganizarlos, todas las marchas deben estar en casa. Vigila las casillas de verificación de defensa: si están activadas, los héroes y los soldados se unen a la defensa; contra un atacante más fuerte, esto significa grandes pérdidas, por lo que muchos jugadores las desmarcan durante las guerras entre servidores para salvar al ejército, pero las casillas deben volver a marcarse antes del Asedio de los no-muertos o las oleadas no se detendrán. Los niveles de las murallas también aumentan la velocidad de marcha para los ataques de la Plaga, la recolección y los regresos.
+
+![Murallas y configuración de defensa](/img/dtf/buildings/10.jpg)
+
+### Campamento de investigación, Torre de vigilancia, Torre Falcon {#dtf-activity-buildings}
+
+El Campamento de investigación (pase de batalla) no cuesta soldados en sus combates, lo que lo convierte en el laboratorio perfecto para probar formaciones y comparar héroes, además de ofrecer ingresos pasivos por hora (grano, madera, hierbas, antitoxina) y cofres cada pocas etapas. La Torre de vigilancia realiza expediciones de facción (una facción por modo, que se actualiza cada 3 días aproximadamente): no elijas el máximo de estrellas "para crecer"; una mitad de recorrido atascada puntúa peor que una limpieza completa una estrella más baja.
+
+La Torre Falcon emite misiones diarias (nuevas cada 6 horas aprox.; hay unas 11 disponibles en una torre desarrollada, pero solo 9 caben en el panel; el resto pasa a la cola y las misiones sobrantes desaparecen). Las misiones cuestan energía y otorgan recursos, antitoxina y objetos de Raven, entre otros. Sube de nivel la torre solo si las misiones se completan realmente a diario.
+
+![Misiones diarias de la Torre Falcon](/img/dtf/buildings/11.jpg)
+
+### Distrito de equipamiento y qué posponer {#dtf-gear-defer}
+
+El Taller de fundición fabrica piedras de equipamiento (una sola espada de alto nivel puede requerir más de 20 000 piedras por mejora; desarróllalo pronto), el Taller de tejido fabrica tela que luego se sintetiza en acero para equipamiento dorado, y el Taller de equipamiento elabora las piezas. Un conjunto dorado completo para el escuadrón 1 lleva mucho tiempo, por lo que la producción nunca debe detenerse; una buena espada principal y una armadura de tanque superan a varios niveles aleatorios en otros lugares.
+
+Posponlo cuando escaseen los recursos: escuadrón de reconocimiento (exploración más rápida, sin velocidad de desarrollo), almacenes por encima de los requisitos, taberna por encima de los requisitos. El Taller de Raven se puede subir de nivel el día de construcción para conseguir puntos de duelo. La Arena, el Nido de cuervos, el Centro de operaciones secretas y la Sala de curiosidades no suben de nivel en absoluto; utilízalos con regularidad, ya que no cuestan recursos de construcción.
+
+Orden para principiantes en una sola línea: Santuario en la ranura larga → Laboratorio → campo de entrenamiento principal, cuarteles, enfermería, estatua de la facción principal → Cabaña del constructor y Salón de la alianza de forma constante → edificios de recursos ~5–6 niveles por debajo del Santuario → distrito de equipamiento → campos adicionales y edificios secundarios → almacenes, taberna, exploradores por requisito o excedente.
+
+![Orden correcto de mejora de edificios](/img/dtf/buildings/12.jpg)
+
+> Fuente: [Здания Last Asylum: Plague - гайд для новичков](https://dtf.ru/howto/5238649-gaid-po-zdaniyam-last-asylum-plague-dlya-novichkov) por Гейм-Знаток en DTF.

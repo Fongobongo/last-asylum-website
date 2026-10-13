@@ -3,7 +3,7 @@ title: "Claire : compétences, build et montée"
 description: "Claire is an SSR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Might, rank 12 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Claire Sh…"
 videoTopic: "claire"
 lang: fr
-updated: "2026-09-19"
+updated: "2026-10-12"
 type: guide
 ---
 
@@ -290,3 +290,35 @@ Stars cost Claire the most, not in badges but in waiting: 975 shards, while a re
 
 The best squad with Claire and no UR hero is Kesso, Lucius, Sivir, Bella and Claire herself: five warriors, a +20% bonus and 8.1M of survivability. Alongside Arthur and Marlena she joins three of the five best reachable squads, where survivability reaches 38.2M, and the price of the full bonus is 20% extra damage from rangers.
 
+
+---
+
+## ✦ Claire dorée (UR) : mécanique de conversion et verdict {#dtf-gold-claire}
+
+Augmenter la rareté de Claire transforme la version SSR violette en une version UR — et les mécaniques se révèlent plus clémentes, puis plus coûteuses, qu'il n'y paraît. Les niveaux sont conservés, les étoiles non.
+
+### Ce qui survit à la transformation {#dtf-claire-conversion}
+
+Après la conversion, le héraut ne retombe **pas** au niveau 1 : les 150 niveaux sont conservés. La réinitialisation des étoiles fonctionne différemment — Claire dorée arrive à **six étoiles**, une partie des ressources investies étant remboursée sous forme de fragments et de badges de compétences à redistribué dans sa forme améliorée. La mauvaise surprise : les étoiles suivantes coûtent nettement plus cher — environ deux fois plus de fragments que pour l'ancienne forme. Ne vous pressez donc pas de remonter les dix étoiles le même jour. La priorité est à **8★**, ce qui débloque la cinquième compétence et offre déjà un kit très complet ; les deux dernières étoiles peuvent être complétées progressivement grâce à ses propres fragments de boutique et aux sources disponibles.
+
+![Amélioration de la rareté de Claire en version dorée](/img/dtf/daskal-claire/05.jpg)
+
+![Claire dorée après conversion](/img/dtf/daskal-claire/06.jpg)
+
+L'amélioration n'est pas un simple changement de couleur : les statistiques de base font un véritable bond, en particulier les PV et l'ATK pour les chiffres d'un même compte.
+
+![Comparaison des statistiques de Claire dorée par rapport à la violette](/img/dtf/daskal-claire/07.jpg)
+
+![Comparaison des statistiques UR par rapport à l'ancienne Claire](/img/dtf/daskal-claire/08.jpg)
+
+### Forte — mais orientée PvE {#dtf-claire-pve-focus}
+
+Ne qualifiez pas Claire dorée de remplaçante universelle pour n'importe quel DPS UR. Elle reste fortement axée sur le PvE et les monstres : Appel des braves augmente les dégâts des trois Guerriers ayant l'ATK la plus élevée de l'équipe spécifiquement contre les monstres. Par conséquent, elle excelle sur le Roi démon et dans d'autres contenus PvE, tandis qu'une partie de son kit reste inactive en PvP. Si votre besoin principal est la guerre contre les joueurs, Zoya apparaît plus universelle.
+
+![Claire optimisée pour le PvE et les monstres](/img/dtf/daskal-claire/09.jpg)
+
+![Claire face à Marlena, Arthur et Harper au niveau 150](/img/dtf/daskal-claire/10.jpg)
+
+Verdict : Claire dorée renforce superbement le PvE des Guerriers sans devenir automatiquement le meilleur choix pour tous les modes. Fixez-la à huit étoiles, farmez les deux dernières lentement et maintenez-la là où son bonus contre les monstres s'applique.
+
+> Source : [Даскал и золотая Клэр в Last Asylum: Plague - как правильно прокачивать героев](https://dtf.ru/howto/5317537-daskal-i-zolotaya-kler-v-last-asylum-prokachka-geroev) par Гейм-Знаток sur DTF.

@@ -3,7 +3,7 @@ title: "Claire: habilidades, build y subida"
 description: "Claire is an SSR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Might, rank 12 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Claire Sh…"
 videoTopic: "claire"
 lang: es
-updated: "2026-09-19"
+updated: "2026-10-12"
 type: guide
 ---
 
@@ -290,3 +290,35 @@ Stars cost Claire the most, not in badges but in waiting: 975 shards, while a re
 
 The best squad with Claire and no UR hero is Kesso, Lucio, Sivir, Bella and Claire herself: five warriors, a +20% bonus and 8.1M of survivability. Alongside Arturo and Marlena she joins three of the five best reachable squads, where survivability reaches 38.2M, and the price of the full bonus is 20% extra damage from rangers.
 
+
+---
+
+## ✦ Claire dorada (UR): mecánicas de conversión y veredicto {#dtf-gold-claire}
+
+Subir la rareza de Claire convierte la versión SSR morada en una UR, y las mecánicas son más benevolentes, y luego más costosas, de lo que parecen. Los niveles se transfieren, las estrellas no.
+
+### Qué sobrevive a la transformación {#dtf-claire-conversion}
+
+Tras la conversión, la heroína **no** vuelve al nivel 1: los 150 niveles se mantienen. Las estrellas se reinician de otra forma: la Claire dorada llega a **seis estrellas**, y una parte de los recursos invertidos se reembolsa en forma de fragmentos y medallas de habilidad para redistribuirlas en su nueva forma mejorada. La sorpresa desagradable: las estrellas siguientes cuestan bastante más, aproximadamente el doble de fragmentos que en la forma anterior. Así que no te apresures a recuperar las diez estrellas el mismo día. La prioridad son las **8★**, que desbloquean la quinta habilidad y ya ofrecen un kit muy completo; las últimas dos estrellas se pueden conseguir poco a poco a través de los fragmentos de su propia tienda y las fuentes disponibles.
+
+![Mejora de rareza de Claire a dorada](/img/dtf/daskal-claire/05.jpg)
+
+![Claire dorada tras la conversión](/img/dtf/daskal-claire/06.jpg)
+
+La mejora no es un simple cambio de color: las estadísticas base aumentan de verdad, especialmente los PS y el ATK con los números de la misma cuenta.
+
+![Comparativa de estadísticas de Claire dorada frente a morada](/img/dtf/daskal-claire/07.jpg)
+
+![Comparativa de estadísticas de Claire UR frente a la antigua](/img/dtf/daskal-claire/08.jpg)
+
+### Fuerte, pero orientada al JcE {#dtf-claire-pve-focus}
+
+No llames a la Claire dorada un reemplazo universal para cualquier DPS UR. Sigue estando muy enfocada al JcE y a los monstruos: el Llamado de los Valientes aumenta el daño de los tres Guerreros con mayor ATK del equipo específicamente contra monstruos, por lo que destaca contra el Rey Demonio y en otro contenido de JcE, mientras que una parte de su kit queda inactiva en JcJ. Si la necesidad principal es la guerra contra jugadores, Zoya resulta más universal.
+
+![Claire adaptada para JcE y monstruos](/img/dtf/daskal-claire/09.jpg)
+
+![Claire frente a Marlena, Arthur y Harper al nivel 150](/img/dtf/daskal-claire/10.jpg)
+
+Veredicto: la Claire dorada mejora magníficamente el JcE de los Guerreros sin convertirse automáticamente en la mejor opción para todos los modos. Déjala en ocho estrellas, consigue las últimas dos lentamente y mantenla donde su bonificación contra monstruos surta efecto.
+
+> Fuente: [Даскал и золотая Клэр в Last Asylum: Plague - как правильно прокачивать героев](https://dtf.ru/howto/5317537-daskal-i-zolotaya-kler-v-last-asylum-prokachka-geroev) por Гейм-Знаток en DTF.

@@ -2,7 +2,7 @@
 title: "🧠 Consejos Pro, Mecánicas Ocultas y Secretos"
 description: "La enciclopedia completa de mecánicas ocultas en Last Asylum: Plague — instantánea de bonificaciones de construcción, tácticas de defensa con 'Ghost Reunión', mecánica de desbordamiento del hospital, trampas de conversión de Claire, pre-cultivo de casillas y secretos de la economía de diamantes."
 lang: es
-updated: "2026-09-04"
+updated: "2026-10-12"
 videoTopic: tips
 ---
 
@@ -280,3 +280,86 @@ Tras 7 meses de juego en la cuenta principal, cinco errores que los veteranos si
 3. **Ignorar los Talleres de Fundición.** Cinco de ellos en nivel 23–25 = 44K piedras de equipo/semana pasivas. Empujarlos tarde es lo que bloquea cada punto de ruptura de nivel 40 más adelante.
 4. **Goteo de piedras de equipo en equipo morado (SSR).** Equipo correcto para el héroe correcto solamente: espada+guantes+botas para DPS, pecho+botas para tanques, todo lo demás en cero hasta UR.
 5. **Mejorar habilidades de ataque en tanques.** El ataque de un tanque no hace nada; sus habilidades funcionan escalando DEF/HP en su lugar.
+
+## Guía de inicio rápido: El tiempo supera al farmeo {#dtf-fast-start}
+
+![Diecisiete consejos que aceleran el juego temprano](/img/dtf/tips/01.jpg)
+
+Si te sientes permanentemente ocupado pero sin la seguridad de estar volviéndote más fuerte, es normal: el juego te abruma con acciones desde el primer minuto y apenas explica cuáles te hacen avanzar. El atajo probado que verás a continuación no es un plan complicado; es la lógica que hace crecer tu poder más rápido sin quemar recursos. La idea principal: **el juego no trata de farmear, trata de sincronización.** Las mismas acciones rinden varias veces más cuando se ejecutan el día correcto, en el evento correcto y con el requisito de nivel correcto.
+
+### El Santuario marca la dirección, la construcción marca la velocidad
+
+Todo se bloquea en el Santuario: los niveles de los edificios, las mecánicas, el crecimiento de tropas y el límite de nivel de los héroes. Así que el bucle se simplifica: revisa los requisitos del siguiente nivel del Santuario y trabaja estrictamente en ellos; si necesitas un muro, construye el muro; si necesitas la rama del Doctor, ve allí. Todo lo demás es secundario.
+
+![Mejora del Santuario y sus requisitos para el siguiente nivel](/img/dtf/tips/02.jpg)
+
+El ritmo de construcción decide qué tan rápido recorres ese camino. El hábito que distingue a las cuentas rápidas: **en cuanto termina una mejora, empieza la siguiente**, no en cinco minutos, inmediatamente. ¿No hay una mejora ideal disponible? Cualquier cosa útil es mejor que un espacio vacío; no hay ninguna situación en la que no construir nada sea mejor. Revisa la construcción primero en cada inicio de sesión, incluso si es de un minuto.
+
+![Preparación de la siguiente mejora de edificio por adelantado](/img/dtf/tips/03.jpg)
+
+### Supervivientes y aceleradores: pasivos siempre, estallidos a propósito
+
+Dos aceleradores funcionan mejor en pareja. Los supervivientes son mejoras pasivas y gratuitas para la construcción, los recursos y la investigación; una configuración básica más el "despacho rápido" toma segundos y rinde frutos diariamente; revísalos después de cada nuevo superviviente o edificio. Los aceleradores son lo opuesto: la mayoría de los jugadores los sobrevaloran y los gastan demasiado pronto. Agota primero todo lo gratuito (misiones, eventos, arena, correo) y gasta aceleradores solo cuando estés realmente atascado esperando; concéntralos en un solo objetivo, por ejemplo, un nivel del Santuario, nunca los repartas entre tareas. Pequeño truco de optimización: divide la curación de la enfermería en lotes cortos para que tus aliados puedan tocar la Ayuda más rápido en lugar de una sola cola larga.
+
+![Asignación de supervivientes con despacho rápido](/img/dtf/tips/04.jpg)
+
+### Juega con el calendario, acumula eventos, ahorra en ciclos cortos
+
+Cada día favorece acciones específicas —construye en el día de construcción, entrena héroes en el día de héroes— y seguir ese ritmo multiplica las recompensas por el mismo esfuerzo. El siguiente nivel es la acumulación: la mejora de un edificio puede cerrar simultáneamente una fase de evento, otorgar recursos adicionales y sumar puntos para la alianza. Una sola acción, múltiples pagos.
+
+![Calendario de eventos semanales](/img/dtf/tips/05.jpg)
+
+Eso hace que ahorrar sea racional, pero en ciclos cortos, no de semanas. Guarda aceleradores, recursos y objetos de mejora durante uno o dos días, y luego úsalos en el día rentable: varias fases de eventos se cierran a la vez y el poder da un salto. Gastar un poco todos los días no logra nada de eso.
+
+![Consejos para el juego temprano que mantienen el progreso estable](/img/dtf/tips/06.jpg)
+
+### Servidor nuevo, primer día intenso
+
+En un servidor con días de antigüedad, empiezas como el perseguidor: bases mejoradas, mecánicas abiertas y alianzas establecidas. En un servidor nuevo, todos empiezan desde cero y prestar atención a las prioridades se traduce inmediatamente en rango, eventos y una alianza fuerte. Luego, aprovecha el día más barato en la vida de tu cuenta: la construcción es rápida, la investigación casi instantánea y las mejoras económicas. Haz que los temporizadores se reinicien todo el día; las sesiones cortas de recolocación rápida superan a una sola tarde larga y sin concentración, porque el tiempo inactivo al principio es el que más duele.
+
+![Elección de un servidor nuevo para condiciones de inicio iguales](/img/dtf/tips/07.jpg)
+
+### Alianza primero, aceleración después
+
+En solitario, todo depende de tus propios temporizadores; en una alianza activa, los miembros tocan Ayuda y los temporizadores se reducen horas, los cofres de la alianza otorgan recursos y aceleradores, y los eventos adicionales pagan por participar. Evita los chats muertos; busca alianzas activas, idealmente de las principales una vez que se abran las clasificaciones, y presiona Ayuda para los demás tú mismo: toma segundos y fomenta la actividad de la que te beneficias.
+
+![Miembros de la alianza acelerando la construcción con ayuda](/img/dtf/tips/08.jpg)
+
+### Las misiones de Falcon alimentan el calendario
+
+No es necesario reclamar las misiones de Falcon al instante; se acumulan hasta el límite y luego se cobran en masa los días de puntuación para obtener puntos de evento y recompensas de fase. Ejecuta un día, cobra el siguiente, en rotación, sin alcanzar el tope. (Combina esto con las reglas completas de acumulación de la Torre Falcon en la sección 3 anterior; es la misma mecánica vista desde el ángulo de los días de evento).
+
+![Misiones de Falcon acumuladas para cobrarlas en el día del evento](/img/dtf/tips/09.jpg)
+
+### Un solo escuadrón, puestos correctos, tickets tempranos
+
+Un héroe nuevo no es motivo para invertir: una alineación de personajes a medio construir pierde en todas partes. Elige una base de cinco, invierte únicamente en ella (niveles, habilidades, equipamiento) y juzga a los recién llegados según si mejoran o no tu alineación actual. La plantilla funcional: dos tanques al frente (Arthur, Bella) aguantando el daño, tres atrás (Marlena, Claire, Celia) infligiendo daño y apoyando; y **no guardes los tickets de invocación "para más adelante"**: armar rápido a los cinco principales importa más que ahorrar, ya que todo lo posterior depende de ello.
+
+![Un equipo principal de héroes en lugar de mejoras dispersas](/img/dtf/tips/10.jpg)
+
+![Escuadrón construido alrededor de Arthur, Bella y la retaguardia](/img/dtf/tips/11.jpg)
+
+### Guerreros primero: millas más baratas
+
+El equilibrio entre ramas no es igual al principio: investigar y mejorar a los Guerreros es más barato y ofrece un ritmo estable, mientras que las ramas costosas como los Brujos cuestan más para obtener prácticamente el mismo resultado a un ritmo más lento. Toma el camino simple y eficaz para arrancar; experimenta una vez que tengas la base, los recursos y la comprensión del juego.
+
+![Comparación de ramas de héroes](/img/dtf/tips/12.jpg)
+
+![Comparación de costes de mejora de las ramas de héroes](/img/dtf/tips/13.jpg)
+
+### Laboratorio: la velocidad de todo
+
+El Laboratorio nunca parece urgente, y ese es el error. Lo que realmente acelera la cuenta: velocidad de construcción, velocidad de investigación, velocidad de entrenamiento de tropas, es decir, todo lo que afecta a los procesos de la base, además del bono de la rama de duelos de la alianza que otorga puntos extra por las mismas acciones. Elige una prioridad y cúmplela; termina los aceleradores de la base antes de fortalecer cualquier otra cosa.
+
+![Prioridades de investigación del laboratorio: velocidad de construcción y desarrollo](/img/dtf/tips/14.jpg)
+
+### Equipamiento, tropas, tiendas, mapa: las minucias que se acumulan
+
+- **Equipamiento:** viste a los cinco principales con lo básico primero, eleva todo ligeramente a un nivel inicial y luego impulsa las piezas clave (ataque y salud primero, ya que se notan más rápido en JcE y JcJ). El equipo morado es un buen paso temporal (se desmantela más tarde sin problema); el dorado se vuelve importante con el tiempo, en parte porque también funciona en JcJ: caravanas, duelos, intercambios en el mapa.
+- **Tropas:** nunca dejes que el entrenamiento se detenga; termina una cola y empieza otra de inmediato. Los puntos de evento se otorgan al *comenzar* la cola, por lo que una mayor capacidad en el polígono significa más puntos por lanzamiento; las mejoras del polígono y de la tecnología de tropas son multiplicadores de eventos, no un adorno.
+- **Tiendas:** compra solo lo que impulse tu progreso actual, no "para más adelante", ni "por si acaso". Gastar de acuerdo al evento, calcular el valor y omitir lo brillante: así es como los recursos empiezan a ser suficientes.
+- **Eventos de mapa:** asedios, trampas, actividades; una fuente constante de recursos, aceleradores y objetos que muchos pasan por alto al principio. No vivas en ellos, pero tampoco los ignores.
+
+Mantén la línea: enfoque en el Santuario, gastos sincronizados con los eventos, sin dispersión, alianza en juego, y el progreso se estabiliza rápidamente. El inicio premia el sistema, no las prisas.
+
+> Fuente: [Last Asylum: Plague - 17 советов, которые реально ускоряют старт](https://dtf.ru/howto/5000405-last-asylum-sovety-dlya-bystrogo-starta) por Гейм-Знаток en DTF.

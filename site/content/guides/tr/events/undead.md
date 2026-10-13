@@ -2,7 +2,7 @@
 title: "Ölümsüz Kuşatması: Kapsamlı Rehber"
 description: "İnfekte dalgalarına karşı ittifak savunması: 300.000 ipucu çubuğu, 2,4M ile 24,5M Düşman Gücü arasındaki zorluk seviyeleri, 9,5M gücündeki oyuncuları avlayan gizli çoklu birlik mekaniği ve tam ödül tabloları."
 lang: tr
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: undead
 calculators: []
 infographics: ["/infographics/undead-siege-guide-2.webp", "/infographics/undead-siege-guide.webp"]
@@ -118,3 +118,61 @@ Oyun istemcisi verilerinden doğrulanmış değerler (v1.0.87), kaynak: wiki-las
 | 8 | 25-28 | 17,411,540 | 196,300,000 |
 | 9 | 26-29 | 20,155,943 | 202,600,000 |
 | 10 | 27-30 | 24,471,960 | 255,600,000 |
+
+---
+
+## Ölümsüz Kuşatması Saha Notları: İpuçları, 20 Dalga ve Gözeticiler {#dtf-field-notes}
+
+Kuşatma, tek bir güçlü oyuncunun katılabileceği bir etkinlik değil, ittifakın organizasyon sınavıdır: Falcon görevleri barı doldurur, duvar mangası savunmayı tutar, çevrim içi üyeler iyileştirme yapar, güçlü oyuncular zayıf olanlara takviye gönderir. Körlemesine başlatıldığında ittifakın yarısı yarı yolda yanar ve sohbet penceresi "kalkan neden çalışmadı" ve "başlata kim bastı" sorularıyla dolup taşar.
+
+![Ölümsüz Kuşatması rehber kapağı](/img/dtf/undead/01.jpg)
+
+### İpuçları Falcon görevlerinden gelir {#dtf-clues}
+
+İttifakın başlangıç barını doldurmak için **ipuçlarına** ihtiyacı vardır ve bunlar Falcon görevlerinden — her şeyden önce **üsler, Gezinen Vebalar ve Veba Lejyonu**na karşı yapılan ve her biri yaklaşık **300 parça** değerinde olan imha görevlerinden — gelir. Üyeler bu görevleri görmezden gelirse, kuşatma yarıda kalır.
+
+![Kuşatma için ipuçları Falcon görevlerinden gelir](/img/dtf/undead/03.jpg)
+
+Buradaki gerilim şudur: Birçok oyuncu Falcon görevlerini İttifak Düellosu için (Pazar/Salı/Perşembe günleri biriktirerek) saklar. Normalde bu sorun değildir, ancak ittifakın ipuçlarına ihtiyaç duyduğu durumlarda gereken imha görevleri yapılmalı ve ödülleri günlük olarak alınmalıdır. Subaylar hedefleri sadece "Falcon yapın" diyerek değil, üsler, gezinen veba, veba lejyonu şeklinde açıkça belirtmelidir.
+
+### Kim, ne zaman başlatır {#dtf-launch}
+
+İpuçları %100 olduğunda, **R4/R5 başlatır** ve zaman ile zorluk derecesini seçer. Asla "şu an çevrim yîçindeyim" diye başlatmayın — ittifakın yarısı çevrim dışı olur, duvarlar ayarlanmamıştır, takviyeler gönderilmemiştir. Akşam saatlerindeki en yoğun çevrim içi döneme planlayın, sohbet ile birlikte Telegram/Discord üzerinden uyarın ve 5 dakikalık bir kontrol gerçekleştirin: kim çevrim içi, kim zayıf ve takviyeye ihtiyacı var, kim 2. veya 3. mangasını gönderebilir, ana yürüyüş birimi duvarda kimin var, kadro hangi zorluk seviyesini gerçekten kaldırabilir.
+
+![Kuşatma katılım gereksinimleri](/img/dtf/undead/04.jpg)
+
+Giriş kapıları: **Sığınak seviyesi** (1. zorlukta yaklaşık 14'ten 10. zorlukta ~27'ye kadar), **ittifakta 48+ saat** (ödüller için son dakika geçişleri yok) ve **72 saatten fazla çevrim dışı** olmama durumu. Başlatmadan önce kadroyu gözden geçirin — yeni gelenler ve uykudakiler 20 dalgalı bir etkinlikte yardımcı olmaz.
+
+### Zorluklar, dalgalar ve 20 oyuncu kuralı {#dtf-difficulty}
+
+Zorluklar sırayla açılır — 10. seviyeye atlanamaz. Maksimum ödüller için toplam ittifak dalgaları, **1. zorlukta yaklaşık 300'den 10. zorlukta ~1.200'e** kadar ölçeklenir. Seviye atlamak için, **en az 20 üyenin 20 dalganın tamamını temizlemesi gerekir** — tek bir güçlü veya en iyi beş oyuncu yetmez. 8-10. dalgalarda ölen zayıf oyuncuları kaderine terk etmek bütün ittifakı tıkayabilir, bu nedenle orta seviyedeki oyunculara takviye göndermek, en üst düzey güce hayran olmaktan daha iyidir.
+
+![Maksimum ödüller için zorluk seviyeleri ve 20 dalga](/img/dtf/undead/05.jpg)
+
+Kişisel ödüller, hayatta kalınan dalgalara göre ölçeklenir — **maksimumu için hepsi 20 dalga**. Bir dalga sizi yakarsa, katılım o dalganın kademesinde sona erer ve yeniden giriş yapılamaz. Başlangıç ​​öncesi kontrol listesi: duvarda en güçlü yürüyüş birimi, yeterli birlik, kaynaklar ve hızlandırmalarla iyileştirmeye hazır olun, başlangıçta çevrim içi olun, zayıfsanız takviyeyi erken isteyin. Çoğu başarısızlık bariz durumlardan kaynaklanır: yanlış yürüyüş birimi, boş duvar, kalkan umudu, "5 dakikalığına" duman altı olan AFK'lar.
+
+### Kalkan hiçbir işe yaramaz, duvar her şeyi yapar {#dtf-shield}
+
+Kalkanlar **kuşatma dalgalarını durdurmaz**. Başlatıldıktan sonra dalgalar ne olursa olsun gelir. Duvar gerçek bir mangayı tutmalıdır: iyi bir tank, taşıyıcı ve destek içeren en güçlü savunma veya ana muharebe yürüyüş birimi — asla bir toplama mangası veya "sonra değiştiririm" yedek birimi olmamalıdır. Zayıf oyuncular erken yardım istemelidir; zamanında yapılan bir "takviyeye ihtiyacım var" çağrısı ittifaka yardımcı olur, sessizlik ve etkinlik ortasında yok olmak yardımcı olmaz.
+
+![Kalkanlar kuşatma dalgalarını durdurmaz](/img/dtf/undead/06.jpg)
+
+Güçlü oyuncular, **ana yürüyüş birimini evde tutarak 2nd ve 3rd mangalarla** zayıf olanlara takviye gönderir. Zayıf bir şehir tembel değildir, sadece daha zayıftır — yardım ile daha fazla dalgada hayatta kalır, daha fazla kişisel ödül kazanır ve ittifak dalgalarına katkıda bulunur. Başlamadan önce yardımcıları atayın; dalga ortasındaki kaos (iyileştirme, sohbet, yanlış tıklamalar) geç gelen yardımı daha da geciktirir.
+
+![Kuşatma sırasında müttefiklere takviye gönderme](/img/dtf/undead/07.jpg)
+
+### İyileştirme, bekleme süresi ve gözeticiler {#dtf-healing}
+
+Öldürülen birlikler **infirmary (hastane)** birimine düşer — çevrim içi kalın, dalgalar arasında iyileştirme yapın, müttefikler hasar aldığında yardımı yenileyin. Başlamadan önce kontrol edin: iyileştirme kaynakları, hızlandırmalar, boş hastane alanı, dalgalar boyunca oturma isteği. Dolu bir hastane ve sıfır kaynak, etkinliği sadece izlenecek bir manzaraya dönüştürür.
+
+![Kuşatma yürütme planı](/img/dtf/undead/08.jpg)
+
+Tüm dalgalardan sonra yaklaşık **2 günlük bir bekleme süresi** gelir, ancak bu sırada ipuçları toplanabilir — sonraki zorluğun daha hızlı başlaması için Falcon görevlerini yapmaya devam edin. Döngü: topla, başlat, 20 dalga, ödüller, bekleme süresi, tekrar topla.
+
+**9. ve 10. zorluklarda, her 4. dalganın bonus ödüller içeren bir Gözeticiye dönüşme şansı %20'dir** ve Gözeticinin daha iyi ganimetlerle **Öfkeli Gözeticiye dönüşme şansı %30'dur**. Onları erkenden kovalamayın: ittifak normal dalgaları zorlukla tutuyorsa, kahramanca hamleler önce istikrarlı ödüllere mal olur.
+
+![Gözetici ve Öfkeli Gözetici](/img/dtf/undead/09.jpg)
+
+Zorluğu gurura göre değil kanıta göre seçin: kaç kişi 20/20'yi tamamladı, kim erken öldü, kimin yardıma ihtiyacı oldu, iyileştirme yetti mi, maksimum dalgalar kapandı mı, sohbet paniğe kapıldı mı. Kendinden emin bir temizlik üst seviyeye taşır; sınırda bir temizlik aynı seviyede kalır. Subaylar için: erken duyuru yapın, zayıf→güçlü eşleşmeleri atayın, zorluğu dürüst tutun ve yeni gelenlere kalkanların kurtarmadığını ve duvar yürüyüşünün manuel olduğunu açıklayın.
+
+> Kaynak: [Last Asylum: Plague - гайд по событию Осада нежити. Как пройти 20 волн, не сгореть и помочь альянсу](https://dtf.ru/howto/5189978-osada-nezhiti-last-asylum-plague) - Гейм-Знаток, DTF.

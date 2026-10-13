@@ -2,7 +2,7 @@
 title: "Lonca Vagonu ve Kervanları"
 description: "Günlük ücretsiz vagon seferleri, Vagon Sorumlusu ve Muhafız sandık kuralları, Altın Vagon yenilemeleri, kervan UR parça stratejisi, sunucular arası yağma ve altın-mor-mavi sandık önceliği."
 lang: tr
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: wagon
 calculators: []
 infographics: []
@@ -144,3 +144,55 @@ Oyun istemcisi verilerinden (v1.0.87) doğrulanmış değerler, kaynak: wiki-las
 | Ekstra Kervan | bir günlük sefer daha | 5.000 |
 | Karşı Tedbirler | bir oyuncu en fazla 3 kez yağma yapabilir | 20.000 |
 | Bal Kabağı At Arabası | Altın Kervan'ın kilidini açar | 20.000 |
+
+## Arabacı Rehberi: Altın Seferler, VIP'ler ve Savunma {#coachman-playbook}
+
+İttifak kervanı **günde bir kez** hareket eder. R4/R5 **arabacıyı** (кучер) atar; sıradan üyeler koltuğa kendileri oturtulamaz. Atamadan sonra kervan hemen hareket etmez — kervanın yükseltildiği, yolcuların koltuklarına oturduğu, VIP'nin atandığı ve savunmanın ayarlandığı **4 saatlik bir hazırlık aşaması** takip eder. Bir kervan **sefer başına 3 defaya kadar yağmalanabilir** ve yükün bir kısmı gerçekten de tehlike altındadır — bu sadece ödüllerle ilgili değil, teslimatla ilgilidir.
+
+### Arabacı koltuğu neden önemlidir?
+
+Arabacı, seferin büyük kazananıdır: Dört standart vagonun üstünde bir de **gizli lider vagon** bulunur, bu yüzden arabacı bir tane yerine yaklaşık **beş vagon dolusu ödül** toplar. Rotasyonu şeffaf tutun — bir sıra, etkinlik ödülleri veya İttifak Düellosu sıralaması işe yarar; açıklanamayan kalıcı bir arabacı kırgınlık yaratır.
+
+### Birinci kural: Altın yapın
+
+Atamadan sonra arabacının ilk işi kervanı yenilemektir. Garantili bir **Altın Kervan** için **5 yenileme × 5 kervan bileti = 25 bilet** gerekir. Arabacının bunu tek başına ödemesi gerekmez: kervana binen yolcular bilet katkısında bulunabilir ve sağlıklı ittifak normu kişi başı bir tane yerine **kişi başı 2–3 bilet** olmasıdır. Beşinci yenileme yapıldığında durun — kervanı kozmik bir zar atışı kovalayan bir rulet çarkına dönüştürmeyin. Yarın başka bir kervan var.
+
+![Oyuncuların Altın Kervan için bilet katkısında bulunması](/img/dtf/wagon/01.jpg)
+
+![Altın kalitesine ulaşmak için beş kervan yenilemesi](/img/dtf/wagon/02.jpg)
+
+### Yolcu disiplini: Sadece ganimete değil, kişi sayısına da dikkat edin
+
+Her sıradan vagon **sadece 5 kişi** alabilir. Fazlalık oyunun kendisi tarafından çözülür — ve atılan yolcu genellikle ilk oturan kişi olur. 3-4 sakin yolcusu olan biraz daha kötü bir vagon, sekiz kişinin tıkıştırdığı jackpot vagonundan iyidir. Koltuklar 4 saatlik süre boyunca serbestçe değiştirilebilir, bu yüzden **kalkıştan kısa süre önce tekrar kontrol edin**.
+
+![Bir vagon seçmek: Aşırı kalabalık slotlar sizi dışarı atabilir](/img/dtf/wagon/03.jpg)
+
+### VIP yolcu: Arabacı tarafından seçilen iki vagon
+
+**İttifak Hediyesi Seviye 20**'de kervan bir **VIP yolcu**'nun kilidini açar: VIP, tek bir vagon yerine **arabacı tarafından seçilen iki vagonu** alır. VIP konusunda önceden anlaşın — davet **60 dakika** boyunca askıda kalır ve kaçırılan bir onay, beklemek veya yeniden davet etmek anlamına gelir. Kabul edildikten sonra arabacı iki vagonu bizzat seçer (oyuncuya hangi ikisini istediklerini sorun). VIP, sıradan bir yolcu gibi **atlamaz** ve normal bir koltuğa geri dönemez — iki vagon için nadiren bir fedakarlıktır.
+
+![VIP yolcunun atanması ve vagonların seçilmesi](/img/dtf/wagon/04.jpg)
+
+### Muhafızlar: Yalnızca gerçekten daha güçlülerse
+
+Bir muhafız savunma için birliklerini yerleştirir ancak **arabacının ödüllerinden bir pay alır**. Kendi birlikleriniz aday muhafızınkinden zaten daha güçlüyse, bunun bir anlamı yoktur — karşılıksız olarak kargo ödersiniz. Kural: Yalnızca **arabacıdan açıkça daha güçlüyse** bir muhafız davet edin; aksi takdirde VIP'yi alın ve ödülleri tam tutun.
+
+![Muhafız ve VIP yolcu slotları](/img/dtf/wagon/05.jpg)
+
+### Savunma birliklerinizi ve epifraflarını yenileyin
+
+Üç savunma birliği, **her ciddi hesap yükseltmesinden sonra yeniden kaydedilmelidir**: yeni kahramanlar, yeni hasar, yeni kuzgun, yeni ekipman, kervan hâlâ geçen ayın kadrosuyla savunma yapıyorsa hiçbir şey ifade etmez. Doğru **epifrafların doğru birliklerde olduğundan** emin olun — yanlış yerleştirilmiş bir epigraf dövüşleri kaybettirir.
+
+### Hediye seviyesi, 24 saat kuralı ve ikinci altın sefer
+
+- Kervan **güçlendirmeleri** (daha hızlı hareket, daha az yağmalama denemesi, çekirdek savunma, VIP kilidi açma) hediye yolundan gelir — o sekmeyi birden fazla açın. **Hediye Sev. 25**'te sıradan vagonlar, büyük aktif ittifaklar için önemli olan **ek yolcu kapasitesi** kazanır.
+- İttifak Hediyesinin kendisini yükseltin: Aktif Afet (Blight) tarımı artı gelişmiş çağrılardan gelen ekstra puanlar onu yükseltir ve daha hızlı, soyulması daha zor bir kervana dönüşmesini sağlar.
+- **Yeni üyeler kervana katılmadan önce ittifakta 24 saat geçirmelidir** — transferden sonra bunu unutmayın.
+- Hazırlık sırasında **ticaret anlaşmalarını** toplayın (unutulursa posta yoluyla gelirler). Binen yolcular ayrıca arabacıya **beğeni** bırakır — küçük ama arabacının günü halkın sevgisi günüdür.
+- **Günde ikinci bir altın kervan vardır ancak her seferinde fazladan maliyet getirir.** Bu, ilk kervanı taşan büyük ittifaklar içindir — yarı boş bir sefer için olmazsa olmaz değildir.
+
+![Afet tarımıyla desteklenen İttifak Hediyesini yükseltme](/img/dtf/wagon/06.jpg)
+
+İyi bir kervan, herkesin biraz düşündüğü kervandır: arabacı seferi altınlaştırır, savunmayı kontrol eder ve VIP'yi yerleştirir; yolcular vagonlarını izler; ittifak her gece doğaçlama yapmak yerine kurallarda anlaşır.
+
+> Kaynak: [Last Asylum: Plague - полный гайд по Каравану](https://dtf.ru/howto/5303398-last-asylum-plague-karavan-gayd) / Гейм-Знаток tarafından DTF üzerinde.

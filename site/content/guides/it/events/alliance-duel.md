@@ -2,7 +2,7 @@
 title: "Duello tra Alleanze: Guida Completa"
 description: "Sei giorni di categorie di punti, un finale PvP il sabato, meccaniche fase per fase con valori di punti esatti, accumulo delle Missioni Falcon e l'economia del risparmio totale per vincere il forziere migliore."
 lang: it
-updated: "2026-09-18"
+updated: "2026-10-12"
 videoTopic: alliance_duel
 calculators: []
 infographics: ["/infographics/duel-day-guide.webp", "/infographics/duel-savings.webp", "/infographics/falcon-tower-storage.webp"]
@@ -361,3 +361,65 @@ Valori verificati dai dati del client di gioco (v1.0.87), fonte: wiki-last-asylu
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "A cosa serve l'albero di ricerca del Duello tra Alleanze?", "acceptedAnswer": {"@type": "Answer", "text": "Moltiplica i punti dell'evento (Esperto dell'Arena +100%, Maestro dell'Arena +50%) e sblocca i forzieri dei livelli 7–9 con ricompense top."}}, {"@type": "Question", "name": "Qual è l'azione dal valore più alto in assoluto nel Duello tra Alleanze?", "acceptedAnswer": {"@type": "Answer", "text": "Inviare una carovana commerciale UR per 100.000 punti nelle Fasi 2 e 6, seguita da un'operazione segreta UR per 75.000."}}]}
 </script>
+
+---
+
+## Duello tra alleanze giorno per giorno: Calendario del campo (DTF) {#dtf-calendar}
+
+Il duello si protrae quasi per tutta la settimana con punteggi a rotazione: lunedì energia/risorse, martedì costruzione, mercoledì ricerca, giovedì eroi, venerdì addestramento dell'esercito, sabato KvK. L'errore del principiante è spendere tutto appena ricevuto — missioni di Falcon riscattate la domenica, forzieri di Raven aperti il martedì, antitossina consumata il lunedì, addestramento di massa a metà settimana. L'account cresce, ma il duello non ottiene quasi nulla. Accumula invece in base al giorno.
+
+![Guida giorno per giorno al duello tra alleanze](/img/dtf/alliance-duel/01.jpg)
+
+### Prima la tecnologia del duello {#dtf-tech}
+
+Il ramo del duello del Laboratorio moltiplica i punti all'interno dell'evento, rendendo più economico ogni futuro fine settimana. È meglio svilupparlo di **mercoledì**, quando acceleramenti di ricerca, pergamene e aumento della potenza tecnologica fruttano punti insieme. Costruisci prima la tecnologia del duello, poi Truppe d'Élite e Trasporto Carovane se richiedono anch'essi pergamene speciali — una ricerca del genere assegna pergamene + acceleramenti + potenza in una sola volta (ad es. 1.280 pergamene a ~750 pt ≈ 960.000 prima di acceleramenti e potenza). Un intero ramo non si completerà in una settimana, ma anche pochi livelli avvicinano i forzieri personali e fanno risparmiare acceleramenti.
+
+### Lunedì: Falcon, energia, raccolta, Raven {#dtf-monday}
+
+Le missioni di Falcon completate la domenica rimangono non riscosse: una Torre di Falcon sviluppata contiene decine di ordini completati più la scorta a schermo, quindi il lunedì si apre con un grosso lotto già pronto (~30.000 pt ciascuno, 40-50 missioni accumulate rappresentano un serio vantaggio iniziale, ma non riempire oltre il limite l'archivio altrimenti i nuovi ordini non si salveranno). La marcia principale consuma prima l'energia naturale su Blight/ladri/obiettivi della mappa, poi le bottiglie, poi i ricaricamenti economici in diamanti — controlla la distanza dal forziere successivo prima di svuotare il negozio. Le altre marce raccolgono grano/legname/erbe dalle tessere della mappa; la produzione della fortezza non conta, contano solo le consegne dalla mappa.
+
+![Missioni di Falcon accumulate prima del duello](/img/dtf/alliance-duel/02.jpg)
+
+Conserva l'antitossina per giovedì; spendine poca lunedì solo per sbloccare un forziere. Accumula Frutti di Raven ed Essenza per tutta la settimana e spendili lunedì — i miglioramenti delle statistiche di Raven più i forzieri Epigrafe chiudono una grossa fetta. Lascia i forzieri di equipaggiamento di Raven per mercoledì. Dopo il reset settimanale controlla il negozio d'Onore per progetti, Essenza e acceleramenti.
+
+### Martedì: edifici, carovane, sopravvissuti {#dtf-tuesday}
+
+I punti provengono dagli acceleramenti di costruzione (~150/min), ma il jackpot sono gli edifici già pronti lasciati con l'icona del martello: l'aumento di potenza di un edificio completato (ad es. 5.300 di potenza a 30 pt ≈ 159.000) si accredita al clic, quindi riscatta Santuario/Laboratorio/terreni/caserme preparati martedì mattina. Dai priorità agli edifici costosi. Non bloccare l'intera economia: una fattoria/segheria/aiuola completata non può essere raccolta mentre è sotto l'effetto del martello, quindi lascia un esemplare di ogni tipo (e un'officina manuale) sbloccato per mantenere fluida la produzione.
+
+![Aumenti di potenza degli edifici di martedì](/img/dtf/alliance-duel/03.jpg)
+
+Prendi il titolo di **Ministro della Costruzione** prima di miglioramenti lunghi (grande riduzione del timer su Santuario alto; mettiti in coda in anticipo sui server combattuti). Fai girare carovane e operazioni segrete prima con gli aggiornamenti gratuiti all'oro, poi con i cristalli — una buona carovana ≈ 300.000. Assumi sopravvissuti nella Taverna (non evocazioni di eroi: meccanica e linea di ricompensa diverse).
+
+### Mercoledì: ricerca ed equipaggiamento di Raven {#dtf-wednesday}
+
+Acceleramenti di ricerca, potenza tecnologica, pergamene speciali e forzieri di equipaggiamento di Raven. Lascia le missioni di Falcon di martedì non riscosse per aprire il mercoledì con un lotto pronto.
+
+![Ricerca ed equipaggiamento di Raven di mercoledì](/img/dtf/alliance-duel/04.jpg)
+
+Priorità: ramo del duello, poi Truppe d'Élite / Trasporto Carovane — le tecnologie che costano pergamene rendono di più. Raccogli i forzieri di equipaggiamento di Raven per tutta la settimana e apribili di mercoledì; la qualità superiore paga di più, poi fondi in massa l'equipaggiamento di Raven per ottenere punti forziere più potenza dell'equipaggiamento. Non aprirli mai appena ricevuti.
+
+![Spesa di pergamene per la ricerca di mercoledì](/img/dtf/alliance-duel/05.jpg)
+
+### Giovedì: evocazioni e crescita degli eroi {#dtf-thursday}
+
+Punti per biglietti di evocazione della Taverna, frammenti, aumenti di stelle, distintivi abilità e antitossina. Accumula biglietti, frammenti personali, distintivi abilità e antitossina per questo giorno. Le estrazioni della Taverna offrono eroi più frammenti personali degli eroi estratti — non frammenti universali, che devono provenire da eventi/negozi. Evoca a decine quando i biglietti lo consentono. Ordine: **stelle sugli eroi principali → distintivi abilità → antitossina per i livelli**. Sfama la prima squadra, non l'intero roster; spendi i frammenti personali sul team operativo e salva quelli universali per gli eroi forti/rari.
+
+![Aumenti di stelle e abilità degli eroi di giovedì](/img/dtf/alliance-duel/06.jpg)
+
+Controlla prima la fase degli eroi di Battaglia di Sopravvivenza — gli stessi frammenti/distinti/antitossina possono pagare in entrambi gli eventi. Il giovedì di solito si chiude più velocemente: evoca, fai crescere il team principale, riscatta.
+
+### Venerdì: truppe più Royal Rumble {#dtf-friday}
+
+Addestramento e promozioni di grado, con la Royal Rumble lo stesso giorno — l'esercito deve fare punti e combattere. Riscatta le missioni di Falcon accumulate giovedì mattina, poi concentrati sui campi d'addestramento. Lascia gli acceleramenti di costruzione/ricerca per la settimana prossima a meno che un forziere non sia a pochi punti di distanza. Prendi il titolo di **Ministro della Guerra**; usa campi deboli per produrre in massa truppe di livello medio (ad es. un grosso lotto di T6) e poi riaddestrarle a T9 nel campo principale — a volte è più veloce che fare T9 puri. Fai scorta di truppe deboli e acceleramenti di addestramento in anticipo; iniziare venerdì è troppo tardi per grandi promozioni.
+
+![Addestramento truppe e Royal Rumble di venerdì](/img/dtf/alliance-duel/07.jpg)
+
+### Sabato: KvK, cure, scudi {#dtf-saturday}
+
+Si apre il KvK: teletrasportati nel regno nemico, colpisci le fortezze, uccidi truppe per i punti battaglia. Gli attacchi al rivale del duello di solito pagano di più, ma contano anche altri combattimenti KvK. Pre-volo: marcia principale, teletrasporti, spazio in infermeria, scorte di scudi — il sabato rende di più e azzera più velocemente. Anche gli acceleramenti di guarigione fanno punti, quindi i feriti parcheggiati prima di sabato possono aspettare la fase — ma non riempire oltre il limite l'infermeria, le truppe in eccesso muoiono. Metti lo scudo venerdì sera: dopo il tuo attacco lo scudo scende e si riattiva solo dopo il timer della battaglia, quindi tieni uno scudo di riserva più i teletrasporti, ritirati sul terreno dell'alleanza o usa un teletrasporto casuale, e aspettati un blocco di rientrabilità di qualche minuto dopo aver lasciato la zona d'incursione.
+
+![Uso dello scudo prima del KvK di sabato](/img/dtf/alliance-duel/08.jpg)
+
+Punti di squadra: il lunedì di solito è il più economico, da martedì a venerdì è più pesante, il sabato può decidere la settimana. Un lunedì perso non significa nulla — ricerca pulita, eroi, truppe e KvK ribaltano il totale. Controlla la finestra dei dettagli del duello per i punteggi giornalieri.
+
+> Fonte: [Дуэль альянсов в Last Asylum: Plague - гайд по дням](https://dtf.ru/howto/5238861-duel-alyansov-last-asylum-plague-strategii-i-sovety) di Гейм-Знаток su DTF..

@@ -2,7 +2,7 @@
 title: "Bouwprioriteiten & Sanctuary-roadmap"
 description: "Sanctuary-roadmap naar level 30, de bouwprioriteitsvolgorde, wat elk gebouw doet en hoe je bouwsnelheidsbuffs op de juiste opeenvolgende manier stapelt."
 lang: nl
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: buildings
 ---
 
@@ -329,3 +329,85 @@ Hoe de snelheid-, kosten- en kopielimietknooppunten de bouwwachtrij voor een spe
 - [Krijgers\nstandbeeld](/nl/buildings/warrior-statue/)
 - [Wachttoren](/nl/buildings/watchtower/)
 - [Weverij](/nl/buildings/weaving-workshop/)
+
+---
+
+## 🧱 Beginnersbouwtactieken {#dtf-beginner-tactics}
+
+Gelijkmatige verbeteringen verspreid over de vesting vertragen het account: grondstoffen raken precies op wanneer het Heiligdom, het Lab, de Trainingsvelden of de Antitoxis-werkplaatsen ze nodig hebben. Dit gedeelte is de gids voor beginners — waar elk gebouw voor dient en in welke volgorde je eraan moet sleutelen.
+
+![Overzicht van de bouwgids voor beginners](/img/dtf/buildings/01.jpg)
+
+### Eerst het Heiligdom, helden worden daardoor begrensd {#dtf-sanctuary-first}
+
+Het Heiligdom bepaalt de limiet voor alles: heldenniveaus (ongeveer +5 per Heiligdomniveau — bijv. Heiligdom 28 staat helden toe tot niveau 140) en alle andere gebouwen. Als de hoofdgroep van vijf de limiet bereikt, helpt extra antitoxis niet — alleen het volgende Heiligdomniveau heft dit op. Elk Heiligdomniveau vereist ook verschillende voorvereiste gebouwen (Lab, Trainingsvelden, Kazernes, standbeelden), dus open de vereisten vroeg en bereid de hele keten voor. Wacht niet tot alle helden hun limiet bereiken — start het volgende Heiligdomniveau van tevoren.
+
+![Heiligdomniveau en de heldenniveaulimiet](/img/dtf/buildings/02.jpg)
+
+### Twee bouwers, twee rollen {#dtf-two-builders}
+
+Het tijdelijke tweede-bouwer-slot (500 diamanten) moet een andere taak vervullen dan de eerste: het lange slot pakt het Heiligdom, het Lab of een ander meerdaags verplicht gebouw, terwijl de vrije bouwer korte upgrades afhandelt — boerderijen, zagerijen, tuinen, antitoxis-werkplaatsen en de tussenliggende voorvereisten voor het volgende Heiligdomniveau. Twee bouwers op lange projecten betekent geen slot voor plotselinge vereisten; twee op kleine klussen betekent dat het hoofdgebouw eeuwig achterloopt.
+
+Plan grote voltooiingen voor de bouwdag van het Alliantieduel: een voltooid gebouw hoeft niet meteen te worden geclaimd — laat de hamer erboven hangen en tik nadat de evenementenfase is omgeslagen, zodat je punten scoort voor reeds uitgevoerd werk. Het gebouw blijft het slot bezetten, dus houd de hamer alleen vast boven grote projecten. Accepteer eerst alle alliantiehulp, geef dan versnellingen uit en claim pas dan.
+
+![Claimen van voltooide bouw op de bouwdag van het Alliantieduel](/img/dtf/buildings/03.jpg)
+
+### Grondstoffengebouwen kunnen achterlopen {#dtf-resource-lag}
+
+Boerderijen, zagerijen en kruidentuinen leveren graan, hout en kruiden op — maar ze hoeven geen gelijke tred te houden met het Heiligdom. Een gat van vijf tot zes niveaus blijft comfortabel. Terwijl de tweede bouwer op het Heiligdom zit, verhoogt de eerste geleidelijk de grondstoffengebouwen, en de antitoxis-werkplaatsen nog wel het meest: antitoxis wordt constant verbruikt voor het levelen van helden.
+
+![Boerderijen, zagerijen en kruidentuinen](/img/dtf/buildings/04.jpg)
+
+Opslagplaatsen (hout, graan, kruiden) verhogen alleen de beschermde hoeveelheid die aanvallers niet kunnen plunderen. Ze ontgrendelen geen niveaus, technologieën of troepen, dus houd ze merkbaar achter tenzij een Heiligdomvereiste ze noemt. De veiligste strategie: houd materiaalpakketten ongeopend in de inventaris en open ze vlak voor de bouw — dan verliezen zelfs zwakke opslagplaatsen vrijwel niets.
+
+![Hout-, graan- en kruidenopslagplaatsen](/img/dtf/buildings/05.jpg)
+
+### Taverne, Tempel en Onderzoekslab {#dtf-tavern-temple-lab}
+
+De Taverne rekruteert helden en overlevenden, en het levelen ervan verkort de afkoeltijd voor gratis rekruteren — maar slechts met ongeveer een uur na verschillende niveaus. Upgrade deze op basis van Heiligdomvereisten of bouwdag; het is vele malen belangrijker om daadwerkelijk op de gereedstaande gratis rekruteringen te tikken. De eerste 50 trekkingen gaan richting gegarandeerde Arthur-fragmenten.
+
+![Taverne-held en overlevendenoproepen](/img/dtf/buildings/06.jpg)
+
+De Krijger-, Ranger- en Warlock-standbeelden van de Tempel geven directe factie-ATK/HP/DEF. Begin met de factie van je Selectie 1, maar overdrijf de scheefgroei niet: de andere standbeelden komen voor in Heiligdomvereisten, en selecties 2–3 hebben ze nodig voor expedities.
+
+![Krijger-, Ranger- en Warlock-standbeelden in de Tempel](/img/dtf/buildings/07.jpg)
+
+Na het Heiligdom is het Onderzoekslab het belangrijkste gebouw — economie-, helden-, troepen- en ontwikkelingstechnologieën bevinden zich allemaal daar. Voer op woensdag onderzoek uit in de Alliantieduel-boom, zodat dezelfde versnellingen evenementenpunten scoren, en verspil niet al je universele versnellingen aan gebouwen: een deel van de voorraad moet onderzoek dekken, met name dure legerechnologieën.
+
+![Onderzoekslab](/img/dtf/buildings/08.jpg)
+
+### Leger: Trainingsvelden, Kazernes, Ziekenboeg {#dtf-army-buildings}
+
+Hogere Trainingsvelden ontgrendelen sterkere troepenrangen (T1–T10). Level niet alle velden even gelijkmatig: houd er één maximaal en gebruik de rest om massaal goedkope troepen te trainen, om ze vervolgens op het hoofdveld te promoveren — vergelijkbare grondstoffenkosten, aanzienlijk minder tijd. Het hoofdveld moet het Heiligdom volgen, aangezien zowel nieuwe tiers als Heiligdomvereisten hiervan afhangen.
+
+Kazernes herbergen het getrainde leger, en de capaciteit bindt snel: dievenjachtaanvallen en gevechten op vrijdag/zaterdag verbranden duizenden soldaten. Als de Kazernes vol zijn, staan de velden stil en vertrekken marches onvolledig — level ze gelijk op met het hoofdveld. De capaciteit en genezingssnelheid van de Ziekenboeg bepalen hoeveel klappen het account kan opvangen: als één gevecht deze vult, is het tijd voor een upgrade. Te kleine ziekenboegen veranderen gewonden in permanente verliezen.
+
+### Bouwershut, Alliantiehal en Muren {#dtf-support-defense}
+
+De Bouwershut verkort elk toekomstig project, dus de investering verdubbelt zich over het gehele account. De Alliantiehal schaalt alliantiehulp (meer tikken, meer minuten per tik) — vraag altijd om hulp zodra een lange timer start en besteed versnellingen pas nadat bondgenoten klaar zijn, anders wordt de vrije tijd verspild.
+
+![Alliantiehulp via de Alliantiehal](/img/dtf/buildings/09.jpg)
+
+Drie verdedigingsselecties staan op de Muren, naast versterkingen en de blusknop. Om deze te herschikken, moeten alle marches thuis zijn. Let op de verdedigingsvakjes: indien ingeschakeld, sluiten helden en soldaten zich aan bij de verdediging — tegen een sterkere aanvaller betekent dit zware verliezen, dus veel spelers vinken dit uit tijdens interserveroorlogen om het leger te sparen, maar de vakjes moeten weer aan voor de Undead Siege, anders worden de golven niet gestopt. Muurniveaus verhogen ook de marchesnelheid voor Blight-aanvallen, verzamelen en terugkeer.
+
+![Muren en verdedigingsopstelling](/img/dtf/buildings/10.jpg)
+
+### Onderzoekskamp, Wachttoren, Valkurentoren {#dtf-activity-buildings}
+
+Gevechten in het Onderzoekskamp (battle pass) kosten geen soldaten — het perfecte lab om formaties te testen en helden te vergelijken — plus een uurlijks passief inkomen (graan, hout, kruiden, antitoxis) en kisten na elke paar stadia. De Wachttoren voert factie-expedities uit (één factie per modus, vernieuwt ongeveer elke 3 dagen): kies niet de maximale sterren "voor de groei" — een vastgelopen halverwege-run scoort slechter dan een volledig voltooide run één ster lager.
+
+De Valkurentoren geeft dagelijkse speurtochten uit (nieuwe ongeveer elke 6 uur; ~11 beschikbaar op een ontwikkelde toren, maar slechts 9 passen op het bord, de rest komt in de wachtrij — overloop-speurtochten verdwijnen). Speurtochten kosten energie en betalen onder andere grondstoffen, antitoxis en Raven-items. Level de toren alleen als speurtochten daadwerkelijk dagelijks worden voltooid.
+
+![Dagelijkse speurtochten van de Valkurentoren](/img/dtf/buildings/11.jpg)
+
+### Uitrustingsdistrict en wat je kunt uitstellen {#dtf-gear-defer}
+
+De Smeltwerkplaats maakt uitrustingsstenen (een enkel zwaard van hoog niveau kan wel 20.000+ ststenen per upgrade verlangen — ontwikkel dit vroeg), de Weefwerkplaats maakt stof die later wordt gesynthetiseerd tot staal voor gouden uitrusting, en de Uitrustingswerkplaats vervaardigt de stukken. Een volledige gouden set voor selectie 1 kost veel tijd, dus de productie mag nooit stilvallen — een goed draagzwaard en tankpantser verslaan meerdere willekeurige niveaus elders.
+
+Stel uit wanneer grondstoffen schaars zijn: Verkennersselectie (snellere verkenning, geen ontwikkelingssnelheid), opslagplaatsen boven vereisten, Taverne boven vereisten. De Raven-werkplaats kan op de bouwdag worden geliveld voor duelpunten. Arena, Ravennest, Black Ops-centrum en Curio-hal levelen helemaal niet — gebruik ze regelmatig, ze kosten geen bouwgrondstoffen.
+
+Beginnersvolgorde in één lijn: Heiligdom op het lange slot → Lab → hoofd-Trainingsveld, Kazernes, Ziekenboeg, standbeeld van hoofdfactie → Bouwershut en Alliantiehal gestaag → grondstoffengebouwen ~5–6 onder Heiligdom → uitrustingsdistrict → extra velden en secundaire gebouwen → opslagplaatsen, Taverne, verkenners op basis van vereiste of overschot.
+
+![Juiste volgorde van gebouwupgrades](/img/dtf/buildings/12.jpg)
+
+> Bron: [Здания Last Asylum: Plague - гайд для новичков](https://dtf.ru/howto/5238649-gaid-po-zdaniyam-last-asylum-plague-dlya-novichkov) door Гейм-Знаток op DTF.

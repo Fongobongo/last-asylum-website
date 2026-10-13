@@ -2,7 +2,7 @@
 title: "Raven & Epigraph-System"
 description: "Raven-Level und -Pläne, Ausrüstungsstrategie, Epigraph-Seltenheiten und Beförderungsreihenfolge sowie die Mono-Fraktions-Regeln, die entscheiden, welche Epigraphen ein Upgrade überhaupt wert sind."
 lang: de
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: raven
 infographics: ["/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
 ---
@@ -107,3 +107,43 @@ Die Erkenntnis ist nicht, dass Lila heimlich die beste Stufe ist – sondern das
 Ein häufiges Missverständnis, das man früh ausräumen sollte: Du **kannst einen SSR-Epigraphen nicht zu einem UR aufwerten**. Was du aufwertest, ist der Plan – der Platz, in dem der Epigraph sitzt. SSR-Epigraphen sind Platzhalter in diesem Fortschritt, keine Embryos.
 
 Was zum häufigsten Raven-Fehler im Spiel führt: Spieler horten Epigraphen anderer Fraktionen, anstatt sie dem Raven über **Schnell hinzufügen** zu füttern – und wundern sich dann, warum ihr Raven auf Stufe 1 feststeckt. Epigraphen anderer Fraktionen und niedriger Seltenheit sind Raven-Futter. Nutze "Schnell hinzufügen"; genau dafür sind sie da.
+
+---
+
+## Raven-Level ohne Fehler: Werkstatt, Nest, Epigraphen, Routine {#raven-dtf-leveling}
+
+Feldbereitschaftsnotizen aus dem DTF-Leveling-Guide: Der Raven lebt an drei Orten, nicht an einem — und die Reihenfolge ist wichtiger als die Geschwindigkeit.
+
+**Die drei Gebäude.** Die Raven-Werkstatt ist die Hintergrundproduktion: Sie generiert im Laufe der Zeit Materialien ohne auffälligen Sofortnutzen, aber ohne sie gerät der Fortschritt ins Stocken. Das Raven-Nest ist der Hauptbildschirm – Level, Entwicklung, neue Stufen und Truppenbindungen. Die Epigraphen-Werkstatt ist der Ort, an dem die meisten falschen Entscheidungen getroffen werden: Eine schlechte Herstellung oder eine falsche Slot-Entscheidung bleibt entweder als schwacher Bonus bestehen oder kostet einen Reset.
+
+![Übersicht über das Raven-System](/img/dtf/raven/01.jpg)
+
+**Level vs. Entwicklung.** Der Raven levelt mit Raven-Früchten und entwickelt sich mit Raven-Essenz, wobei alle 10 Level ein Entwicklungsschritt die nächste Fortschrittsstufe freischaltet. Essenz ist der limitierende Faktor: Früchte kommen durch die tägliche Routine stetig rein, während Essenz sich immer knapp anfühlt. Achten Sie zuerst auf den nächsten Entwicklungsschwellenwert – Level ohne den dazugehörigen Entwicklungsschritt stoßen schnell an eine Decke.
+
+![Raven-Helden-Bildschirm](/img/dtf/raven/02.jpg)
+
+**Ausrüstung: Fundament legen, dann schärfen.** Öffnen Sie nicht einfach Kisten und hauen Sie Upgrades raus, sobald sie droppen. Stellen Sie stattdessen erst das vollständige Set gleichmäßig zusammen, verschmelzen Sie dann Duplikate und erhöhen Sie die Ausrüstung gezielt. Einige Upgrades sind sequenziell gesperrt – andere Slots müssen ein bestimmtes Level erreichen, bevor ein Teil freigeschaltet wird –, sodass das verfrühte Maximmen eines Slots Lücken an anderer Stelle hinterlässt. Betrachten Sie Ausrüstung als Kit, nicht als Lotterie.
+
+![Raven-Ausrüstungs-Bildschirm](/img/dtf/raven/03.jpg)
+
+**Tägliche Quellen.** Täglich prüfen: Allianz-Shop (verschiedene Raven-Materialien), VIP-Shop (Essenz und Kisten für Diamanten), Expeditions-Shop (höherstufige Raven-Kisten), Ehren-Shop (seltene Kisten für späte Phasen), Zufluchts-Shop (Essenz im Rotationsprinzip). Kaufen Sie nur das, was Ihre aktuelle Aufgabe löst – das Leerkaufen jedes Gegenstands mit der Aufschrift „Raven“ erzeugt Inventar ohne Fortschritt. Benennen Sie den Mangel konkret, bevor Sie ausgeben: Materialien für die Epigraphen-Werkstatt oder Duplikate zum Verschmelzen.
+
+**Epigraphen-Schwellenwerte.** Lila Epigraphen werden ab Stufe 15 der Epigraphen-Werkstatt freigeschaltet – vorher sind Sie nicht wirklich Teil dieses Systems. UR-Epigraphen kommen später, in der nächsten Werkstattstufe mit teureren Materialien. Epigraphen-Boni gelten nur für den passenden Truppentyp: Wenn Ihre Haupttruppe aus Kriegern besteht, verbrennt das Herstellen von Ranger-Epigraphen „für die Zukunft“ knappe Materialien für null aktuellen Ertrag. Wählen Sie die Fraktion, die Sie tatsächlich einsetzen, füllen Sie ein Set und lassen Sie Nebensets in Ruhe, bis der Kern fertig ist. Innerhalb eines Sets unterscheiden sich die Slots (Angriff / Verteidigung / Unterstützung / allgemeines Zentrum) – bringen Sie zuerst die Fraktion in Ordnung und stimmen Sie es dann nach Bedarf ab: Wenn Schaden fehlt, wird der Angriffsslot gepusht, bei einem kollabierenden Trupp die Verteidigung, und der allgemeine Slot sorgt für einen gleichmäßigen Boost.
+
+![Epigraphen als der stärkste und gefährlichste Teil des Systems](/img/dtf/raven/04.jpg)
+
+![Epigraphen-Plätze für Krieger, Waldläufer und Zauberer](/img/dtf/raven/05.jpg)
+
+**Duplikate sind Treibstoff.** Eine zweite Kopie des richtigen Epigraphen ist kein schlechter Drop – identische Epigraphen erhöhen die Sterne des bestehenden Teils, und für UR-Teile sind exakte Duplikate des richtigen Gegenstands die wertvollste Ressource in dieser Reihe. Falsche Duplikate warten oder werden über die Reset-Verteilung umgewandelt; richtige Duplikate werden mit Sternen versehen.
+
+![Doppelte Epigraphen als Treibstoff für Wachstum](/img/dtf/raven/06.jpg)
+
+**Die Entwicklung schaltet Trupps frei.** Die Entwicklung ist nicht nur Statistik: Sie schaltet zusätzliche Truppen-Slots frei. Sie beginnen nur mit dem ersten Trupp, der zweite Slot öffnet sich in der nächsten Entwicklungsstufe, und die Anforderungen steigen weiter. Das ist ein weiterer Grund, sich frühzeitig auf Ihre stärkste Truppe festzulegen – zu Beginn gibt es physisch keinen Raum, um sich breiter aufzustellen.
+
+![Trupp-Plätze durch Raven-Evolution freigeschaltet](/img/dtf/raven/07.jpg)
+
+**Es gibt einen Reset.** Schlechte Herstellungen können rückgängig gemacht werden: Ein Reset setzt ein Upgrade zurück und gibt die Materialien zur Neuzuverteilung zurück. Dies ist am nützlichsten, wenn Sie die Haupttruppenklasse wechseln, aus einem temporären Trupp herauswachsen oder zu Beginn den falschen Epigraphen gewählt haben. Es senkt die Kosten für einen Fehler, macht blindes Herstellen aber nicht kostenlos.
+
+**Tägliche Routine.** Überprüfen Sie die Shops, behalten Sie die nächste Entwicklung im Auge, entwickeln Sie nur den Epigraphentyp Ihrer Haupttruppe und setzen Sie Fehler zurück, anstatt mit ihnen zu leben. Als tägliche Schleife gespielt, potenziert sich der Raven; in Schüben gespielt, fühlt er sich teuer und vage an.
+
+> Quelle: [Last Asylum: Plague - полный гайд по Ворону. Как качать без ошибок, что делать с эпиграфами.](https://dtf.ru/howto/5016737-last-asylum-plague-gayd-po-prokachke-vorona) von Гейм-Знаток auf DTF.

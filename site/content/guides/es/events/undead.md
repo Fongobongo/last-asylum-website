@@ -2,7 +2,7 @@
 title: "Asedio de los No Muertos: Guía Completa"
 description: "Defensa de la alianza contra oleadas de infectados: la barra de 300,000 pistas, niveles de dificultad desde 2.4M hasta 24.5M de Poder Enemigo, la mecánica oculta de escuadrones múltiples que elimina a jugadores de 9.5M, y tablas de recompensas completas."
 lang: es
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: undead
 calculators: []
 infographics: ["/infographics/undead-siege-guide.webp", "/infographics/undead-siege-guide-2.webp"]
@@ -95,3 +95,61 @@ El récord histórico es de **1,193 oleadas** en un solo asedio.
 7. **Desconectarse sin una defensa preestablecida**: la defensa sin conexión funciona, pero **solo si fue preestablecida**. Configúrala y luego descansa.
 
 Ejecuta el evento con estos siete puntos corregidos y tu alianza defenderá cerca de su límite máximo. La configuración de héroes para el muro y la composición de escuadrones se tratan en la [guía de Héroes](/es/heroes/).
+
+---
+
+## Notas de campo de la Asedio de No Muertos: Pistas, 20 oleadas y Supervisores {#dtf-field-notes}
+
+El asedio es un examen de organización para la alianza, no un evento para un solo jugador fuerte: las misiones de Falcon llenan la barra, el escuadrón del muro aguanta, los miembros conectados curan y los jugadores fuertes refuerzan a los débiles. Si se lanza a ciegas, la mitad de la alianza se quema a mitad de camino y el chat se llena de "¿por qué no funcionó el escudo?" y "¿quién le dio a iniciar?".
+
+![Guía de la Asedio de No Muertos - Portada](/img/dtf/undead/01.jpg)
+
+### Las pistas provienen de las misiones de Falcon {#dtf-clues}
+
+La alianza necesita **pistas** para llenar la barra de lanzamiento, y estas provienen de las misiones de Falcon; sobre todo, misiones de eliminación contra **asentamientos, Plagas errantes y la Legión de la Plaga**, que otorgan unos **300 fragmentos cada una**. Si los miembros ignoran esas misiones, el asedio se queda a medio construir.
+
+![Las pistas para el asedio provienen de las misiones de Falcon](/img/dtf/undead/03.jpg)
+
+La tensión: muchos jugadores acumulan misiones de Falcon para el Duelo de la Alianza (acumulando para domingo/martes/jueves). Eso está bien en circunstancias normales, pero cuando la alianza necesita pistas, las misiones de eliminación requeridas deben realizarse y reclamarse a diario. Los oficiales deben nombrar los objetivos explícitamente —asentamientos, plaga errante, legión de la plaga— y no limitarse a decir "hagan Falcon".
+
+### Quién lanza y cuándo {#dtf-launch}
+
+Al 100% de pistas, **R4/R5 lanzan** y eligen la hora y la dificultad. Nunca lo lancen porque "estoy conectado ahora"; la mitad de la alianza estará desconectada, los muros sin configurar y los refuerzos sin enviar. Prográmalo para las horas pico de actividad nocturna, advierte en el chat además de en Telegram/Discord, y haz una revisión de 5 minutos: quién está conectado, quién es débil y necesita refuerzos, quién puede enviar su 2.º o 3.º escuadrón, quién tiene la marcha principal en el muro y qué dificultad puede aguantar realmente la alineación.
+
+![Requisitos de participación en el asedio](/img/dtf/undead/04.jpg)
+
+Puertas de entrada: **Nivel del Santuario** (alrededor de 14 en la dificultad 1 hasta ~27 en la dificultad 10), **más de 48 horas en la alianza** (sin saltos de última hora por recompensas) y **sin inactividad de más de 72 h**. Revisa la alineación antes de iniciar; los recién llegados y los inactivos no ayudan en un evento de 20 oleadas.
+
+### Dificultades, oleadas y la regla de los 20 jugadores {#dtf-difficulty}
+
+Las dificultades se desbloquean secuencialmente; no se puede saltar a la 10. El total de oleadas de la alianza para obtener las máximas recompensas escala desde aproximadamente **300 en la dificultad 1 hasta ~1200 en la dificultad 10**. Para subir de nivel, **al menos 20 miembros deben superar las 20 oleadas**, no un solo jugador top, ni cinco tops. Abandonar a los jugadores débiles que mueren en las oleadas 8–10 puede bloquear a toda la alianza, por lo que reforzar a los jugadores de nivel medio es mejor que limitarse a admirar el poder de los tops.
+
+![Niveles de dificultad y 20 oleadas para las máximas recompensas](/img/dtf/undead/05.jpg)
+
+Las recompensas personales escalan según las oleadas sobreividas; **las 20 para el máximo**. Si una oleada te quema, la participación termina en el nivel de esa oleada sin posibilidad de volver a entrar. Lista de verificación previa al inicio: la marcha más fuerte en el muro, suficientes tropas, curación lista con recursos y aceleradores, conexión al inicio, refuerzos solicitados con anticipación si se es débil. La mayoría de los fracasos se deben a cosas obvias: marcha incorrecta, muro vacío, esperanza en el escudo, o un AFK de "5 minutos" que termina mal.
+
+### El escudo no hace nada, el muro lo hace todo {#dtf-shield}
+
+Los escudos **no detienen las oleadas del asedio**. Una vez lanzado, las oleadas llegan sin importar qué. El muro debe contener un escuadrón real: la marcha defensiva o de combate principal más fuerte (buen tanque, daño principal, apoyo), nunca una marcha de recolección o un comodín de "luego lo cambio". Los jugadores débiles deben pedir ayuda con antelación; un oportuno "necesito refuerzos" ayuda a la alianza, mientras que el silencio seguido de una aniquilación a mitad del evento no sirve de nada.
+
+![Los escudos no detienen las oleadas del asedio](/img/dtf/undead/06.jpg)
+
+Los jugadores fuertes refuerzan a los débiles con **su 2.º y 3.º escuadrón mientras mantienen su marcha principal en casa**. Una ciudad débil no es perezosa, simplemente es más débil; con ayuda sobrevive a más oleadas, gana más recompensas personales y suma oleadas para la alianza. Asigna ayudantes antes de empezar; el caos a mitad de las oleadas (curación, chat, clics erróneos) hace que la ayuda tardía llegue tarde.
+
+![Reforzando a los aliados durante el asedio](/img/dtf/undead/07.jpg)
+
+### Curación, tiempo de recuperación y supervisores {#dtf-healing}
+
+Las tropas caídas aterrizan en la **enfermería**; mantente conectado, cúrate entre oleadas y renueva la ayuda cuando los aliados sufran daños. Revisa antes de empezar: recursos de curación, aceleradores, espacio libre en la enfermería y la disposición a aguantar todas las oleadas. Una enfermería llena sin recursos convierte el evento en un adorno.
+
+![Plan de desarrollo del asedio](/img/dtf/undead/08.jpg)
+
+Después de todas las oleadas hay un **periodo de recuperación de unos 2 días**, pero se pueden farmear pistas durante el mismo; sigue haciendo misiones de Falcon para que la siguiente dificultad se lance más rápido. Ciclo: recolectar, lanzar, 20 oleadas, recompensas, recuperación, recolectar de nuevo.
+
+En las **dificultades 9 y 10, cada 4.ª oleada tiene un 20% de probabilidad de convertirse en un Supervisor** con recompensas de bonificación, y el Supervisor tiene un **30% de probabilidad de transformarse en un Supervisor Enraged (Furioso)** con un botín mejor. No los persigas al principio: si la alianza apenas aguanta las oleadas normales, las heroicas ponen en riesgo las recompensas estables primero.
+
+![Supervisor y Supervisor Furioso](/img/dtf/undead/09.jpg)
+
+Elige la dificultad basándote en evidencias, no en el orgullo: cuántos superaron el 20/20, quién murió temprano, quién necesitó ayuda, si la curación fue suficiente, si se completaron las máximas oleadas, si el chat entró en pánico. Una victoria segura permite subir; una victoria justa hace que se mantenga. Para los oficiales: anuncien con tiempo, asignen parejas de débil a fuerte, mantengan la dificultad realista y expliquen a los recién llegados que los escudos no salvan y que la marcha del muro es manual.
+
+> Fuente: [Last Asylum: Plague - гайд по событию Осада нежити. Как пройти 20 волн, не сгореть и помочь альянсу](https://dtf.ru/howto/5189978-osada-nezhiti-last-asylum-plague) por Гейм-Знаток en DTF.

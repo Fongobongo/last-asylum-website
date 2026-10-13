@@ -3,7 +3,7 @@ title: "Daskal: Umiejętności, build i rozwój"
 description: "Daskal to wojownik rangi UR, który pełni rolę tanka. Po pełnym ulepszeniu osiąga 1 057 192 Mocy, zajmując 2. miejsce na 11 wśród tanków w grze. Odblokowanie go wymaga 10 odłamków (Odłamek Daskala), …"
 videoTopic: "heroes"
 lang: pl
-updated: "2026-09-19"
+updated: "2026-10-12"
 type: guide
 ---
 
@@ -320,3 +320,77 @@ Daskal nie pojawia się na liście bohaterów do 28. dnia serwera, podczas gdy A
 Przebudzenie kosztuje najwięcej: 2 870 odłamków za 40 poziomów wobec 975 za wszystkie 50 gwiazdek. Obie ścieżki rozwoju dają różne korzyści: gwiazdki dodają 675 772 HP i 2 874 ATK, a przebudzenie 425 119 HP i 12 119 ATK, czyli czterokrotnie więcej ataku. Gwiazdki nadal są pierwsze, ponieważ dają więcej HP i podnoszą Krwawą Obronę z 360% do 684%, podczas gdy wynik 792% pojawia się tylko z Unikalną Bronią.
 
 Daskal znajduje się w dwóch składach tieru S. Arthur, Marlena, Daskal, Harper i Louis zapewniają +15% bonusu frakcyjnego za czterech wojowników, 150,7 mln przeżywalności i 98 punktów na 100 w ocenie składu. Jego tarcza łączy się z Nitką Przeznaczenia Billy'ego, która usuwa 36% obrażeń z oddziału.
+
+---
+
+## 🔄 Przebudowa głównego oddziału wokół Daskala {#dtf-daskal-rebuild}
+
+Zdobycie bohatera to dopiero początek: potrzebuje on antytoksyny, gwiazdek, umiejętności, ekwipunku, miejsca w oddziale — a potem Arena, Mury i każdy zapisany skład muszą się o nim dowiedzieć. Oto kompletny poradnik przebudowy: pozyskanie Daskala, wyciągnięcie go na maxa 1→150 i wstawienie do pierwszego oddziału Wojowników na miejsce Belli.
+
+![Przewodnik po awansie bohatera Daskal i złota Claire](/img/dtf/daskal-claire/01.jpg)
+
+### Wydawaj mnóstwo w czwartek bohaterów {#dtf-hero-thursday}
+
+Nigdy nie marnuj biletów rekrutacji, uniwersalnych fragmentów, odznak umiejętności i zapasów antytoksyny w losowy dzień. W czwartek odbywa się etap bohaterów Pojedynku Sojuszy, a niemal wszystko w tej przebudowie daje punkty — przywołania, wydawanie fragmentów, zużycie odznak i antytoksyny. Jeden postęp działa podwójnie: silniejsze konto plus nagrody w pojedynku. Podejdź do czwartku przygotowany.
+
+![Misje rozwoju bohaterów w fazie 4 Pojedynku Sojuszy](/img/dtf/daskal-claire/02.jpg)
+
+W tym przypadku cel był precyzyjny: Daskal. W tygodniu poprzedzającym poszło około 250 biletów bez jego trafienia, potem darmowe przywołania plus świeże próby — pierwsza dziesiątka pudło, druga dziesiątka trafienie. Kluczowym momentem jest wiedza, kiedy przestać: gdy bohater jest już w posiadaniu, kolejne bilety kupują fragmenty i odznaki umiejętności, a nie samo losowanie.
+
+![Zdobycie Daskala z przywołań bohaterów](/img/dtf/daskal-claire/03.jpg)
+
+### Porada dotycząca trawy: nie pomijaj złodziei {#dtf-thieves-grass}
+
+Podczas trwania wydarzenia ze złodziejami uzupełnia ono zapasy ziół, które duże badania wysysają do zera. Duży cel osobisty daje ponad milion ziół, małe po kilkaset tysięcy każdy — dokładne liczby różnią się w zależności od aktywności, ale jako awaryjne uzupełnienie ziół podczas aktywnego wydarzenia sprawdza się to świetnie.
+
+![Wydarzenie ze złodziejami](/img/dtf/daskal-claire/04.jpg)
+
+### Daskal 1→150: dokąd wędruje antytoksyna {#dtf-daskal-leveling}
+
+Daskal pojawia się na 1. poziomie, a zapasy antytoksyny były trzymane specjalnie dla niego — słusznie, ponieważ koszt jest ogromny. Do poziomu ~100 wciąż wygląda to nieszkodliwie, poziomy lecą w górę bez paniki. Wtedy zaczyna się prawdziwa zabawa: im bliżej 150, tym więcej kosztuje każdy poziom. Cała ścieżka 1→150 wymaga **5 248 471 500 antytoksyny — nieco ponad 5,2 miliarda**. Każdy, kto planuje taki sam bieg od zera do maksu, powinien zgromadzić ponad pięć miliardów, a nie dwa czy trzy. Antytoksyna pochodzi z warsztatów, nagród i zdeponowanych w plecaku przedmiotów — więc nie otwieraj słojów wcześnie bez powodu; pozwól im poczekać na bohatera, który ma znaczenie.
+
+![Wbijanie poziomów Daskalowi od 1 do 150 za pomocą antytoksyny](/img/dtf/daskal-claire/11.jpg)
+
+### Dlaczego Daskal należy do oddziału 1 {#dtf-why-daskal}
+
+Daskal to tank UR typu Wojownik, którego zestaw umiejętności robi dokładnie to, co musi robić pierwsza linia: jego umiejętność ostateczna osłania wszystkich sojuszników, jego aktywna umiejętność zadaje obrażenia fizyczne, jednocześnie leczącego samego Daskala, a efekt pasywny zapewnia tarcze sojuszniczym tankom na początku bitwy. Przetrwa obrażenia i pomaga reszcie drużyny w ich przetrwaniu.
+
+Zastąpienie tu Belli jest logicznym krokiem — a Bella nie odchodzi na emeryturę. Przenosi się do oddziału 3, któremu brakuje właśnie dobrego obrońcy pierwszej linii. Jeden nowy bohater wzmacnia dwa oddziały naraz.
+
+### Najpierw zdejmij ekwipunek Belli {#dtf-gear-transfer}
+
+Przed sfinalizowaniem zamiany przenieś dobry zestaw ze starego tanka na nowego — w przeciwnym razie wynikiem będzie 150-poziomowy UR z gwiazdkami biegający w kapciach. Nie było tutaj unikalnej broni dla Daskala, więc dostępny ekwipunek trafił na niego, reszta zestawu Belli została przeniesiona, a Bella otrzymała przedmioty zastąpionego bohatera z oddziału 3, gdy tam przeszła.
+
+![Przenoszenie ekwipunku Belli na Daskala](/img/dtf/daskal-claire/12.jpg)
+
+![Ulepszanie Daskala](/img/dtf/daskal-claire/13.jpg)
+
+### Ile gwiazdek Daskal potrzebuje teraz {#dtf-daskal-stars}
+
+Po poziomach najbardziej bolą fragmenty. Pokusa ulepszania wszystkiego jest wielka — zwiadowcy czekają, inny UR prosi się o gwiazdkę. Jednak główny oddział to Wojownicy, więc jeśli Daskal do niego dołącza, uniwersalne złote fragmenty dają najwięcej właśnie na nim. Pierwszy dzień zbliżył się do **6★** (co dodatkowo wzmacnia jego tarczę drużynową), a resztę można wymaksować później. Sześć gwiazdek nie jest przypadkowe — a kolejnym wielkim celem jest **8★**, odblokowujące Nieustępliwość: +20% do ATK/HP/DEF plus +10% szybkości odnawiania umiejętności. Nie rozpraszaj więc uniwersalnych fragmentów na trzy oddziały: doprowadź bohatera głównego oddziału do realnie użytecznego punktu kontrolnego, a dopiero potem patrz dalej.
+
+![Gwiazdki i umiejętności Daskala dla głównego oddziału](/img/dtf/daskal-claire/14.jpg)
+
+### Nie zapomnij o Sali Honorowej {#dtf-hall-of-honor}
+
+Po drodze niebieski bohater w końcu osiągnął warunek Sali Honorowej — i nie jest to błahostka. Regularny postęp bohaterów w tym miejscu stale wzmacnia konto, a konkretnie niebiescy bohaterowie zwiększają ładowność żołnierzy: oddziały noszą więcej zasobów na marsz. Żadnego bonusu potwora bojowego, ale na dystansie dodatkowa pojemność się opłaca. Nie ignoruj niebieskich bohaterów tylko dlatego, że nigdy nie trafią do 1. oddziału.
+
+![Sala Honorowa](/img/dtf/daskal-claire/15.jpg)
+
+### Nowy bohater umieszczony — praca nie jest skończona {#dtf-update-modes}
+
+Potęga oddziału 1 wzrosła po zamianie Belli na Daskala — ale gra przechowuje składy dla każdego trybu. Po każdej poważnej przebudowie otwórz Arenę i odśwież obronę, potem sprawdź Mury, a następnie Kanion Podboju i zapisz tam świeży skład. W przeciwnym razie Arena będzie wystawiać Bellę przez dni. Ta sama zasada dotyczy sytuacji po dużych ulepszeniach ekwipunku, epigrafów czy Ravena: jeśli tryb używa zapisanego składu, zweryfikuj go ręcznie.
+
+### Trzy oddziały po przebudowie {#dtf-final-squads}
+
+Oddział 1 staje się w pełni Wojownikami: **Daskal, Arthur, Marlena, złota Claire i Harper**, około **19,5M potęgi**. Daskal i Arthur trzymają front, Marlena odpowiada za obrażenia, Claire wspiera PvE, Harper wzmacnia Wojowników.
+
+![Pierwszy oddział: Daskal, Arthur, Marlena, Claire i Harper przy 19,5M potęgi](/img/dtf/daskal-claire/16.jpg)
+
+Oddział 2 pozostaje Zwiadowcami: Shadow, Griffith, Cynthia, Ash i Red Lady (~13,32M). Oddział 3 staje się mieszany: Bella wchodzi, aby naprawić front wespół z Hastarem, Jokerem, Annie i Celią (~13,65M).
+
+![Trzeci mieszany oddział po przebudowie bohaterów](/img/dtf/daskal-claire/17.jpg)
+
+Najlepszym wynikiem nie jest jeden silny bohater: Daskal ulepszył oddział 1, uwolniona Bella poprawiła oddział 3, złota Claire znalazła nowe życie w PvE, a dobry ekwipunek został przeniesiony między postaciami zamiast zbierać kurz. Przygotuj się na kolejny czwartek bohaterów w ten sam sposób: zgromadź bilety, zmagazynuj antytoksynę na kolejny prawdziwy rajd do 150 poziomu, trzymaj złote uniwersalne fragmenty wymierzone w główny oddział — Daskala w stronę pewnych 6★, a potem 8★, złotą Claire zakotwiczoną na ośmiu gwiazdkach z ostatnimi dwoma wyfarmionymi stopniowo — i dopiero wtedy wracaj do zwiadowców. Jeden naprawdę silny pierwszy oddział bije trzy budowane na pół gwizdka.
+
+> Źródło: [Даскал и золотая Клэр в Last Asylum: Plague - как правильно прокачивать героев](https://dtf.ru/howto/5317537-daskal-i-zolotaya-kler-v-last-asylum-prokachka-geroev) , autor Гейм-Знаток (DTF).

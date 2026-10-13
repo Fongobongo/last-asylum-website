@@ -2,7 +2,7 @@
 title: "Bataille de survie : 60 000 Badges gratuits et rotation de phase de 4 heures"
 description: "Événement de mission hebdomadaire rapportant environ 60 000 Badges de compétence gratuits : 5 catégories de tâches, phases de rotation de 4 heures, score basé sur la mise en file d'attente de l'entraînement des soldats et synchronisation avec le Duel d'alliance."
 lang: fr
-updated: "2026-09-15"
+updated: "2026-10-12"
 videoTopic: survival
 type: event
 ---
@@ -107,3 +107,49 @@ Un palier à haute efficacité se débloque pour exactement **30 Tickets de recr
 6. Mettez en file d'attente l'entraînement des soldats **strictement après le début de la phase d'entraînement** (les points sont attribués lors de la mise en file d'attente !).
 7. Entraînez le niveau débloqué le plus élevé (T7–T10) ou promouvez les troupes existantes.
 8. Videz tous les coffres de palier pour sécuriser vos ~60 000 Badges de compétence avant la réinitialisation hebdomadaire (00:00 Heure du serveur / 02:00 UTC).
+
+## Boucle quotidienne de la Bataille de survie : Sceaux, Énergie et Chevauchement des Duels (DTF) {#dtf-daily-loop}
+
+L'événement se déroule chaque jour autour de cinq thèmes rotatifs : entraînement des troupes, recherche technologique, améliorations de Raven, croissance des héros et développement du territoire. Vous n'avez pas besoin des cinq : **18 sceaux de survie permettent d'obtenir les trois coffres quotidiens**, c'est-à-dire trois thèmes entièrement validés. Le véritable avantage réside dans le chevauchement avec le Duel d'alliance — construction le mardi, recherche le mercredi, entraînement le vendredi — afin que les mêmes accélérateurs rapportent deux fois.
+
+![Cinq thèmes de survie et 18 sceaux pour trois coffres](/img/dtf/survival/02.jpg)
+
+### Fonctionnement des sceaux et des classements {#dtf-seals}
+
+L'ordre tourne chaque jour sans calendrier fixe : ouvrez l'événement avant de dépenser et vérifiez le thème actif ainsi que le suivant. Chaque thème comporte **4 étapes rapportant 1 + 1 + 2 + 2 = 6 sceaux** ; 18 sceaux équivalent à trois thèmes accomplis. Les récompenses d'étape (insignes de compétence, accélérateurs, ressources) s'ajoutent à cela. Terminer les cinq thèmes rapporte environ **8 000 insignes de compétence par jour**, et jusqu'à près de 9 600 si un thème d'entraînement récurrent se répète. Un classement quotidien octroie un prix de base en ressources pour tout score, et de meilleures récompenses plus on monte dans le classement — continuez au-delà de 18 uniquement lorsque le thème correspond à la croissance prévue ; brûler son stock d'accélérateurs juste pour le rang en vaut rarement la peine.
+
+![Récompenses du classement de survie](/img/dtf/survival/03.jpg)
+
+Le trio quotidien le plus économique pour la plupart des comptes : **Raven (énergie) + Héros (antitoxine) + le thème du jour de duel** (territoire le mardi, recherche le mercredi, troupes le vendredi ; samedi — ce qui est le moins cher en stock). Après le coffre doré à 18, arrêtez-vous à moins que le thème suivant ne corresponde à une croissance déjà planifiée.
+
+### Troupes, recherche, Raven, héros, territoire {#dtf-themes}
+
+**Entraînement :** points rapportés par les accélérateurs d'entraînement et la croissance de l'armée sur le terrain le plus développé (palier max), les autres terrains étant chargés ou préparant des paliers inférieurs en vue d'une promotion. Si l'entraînement commence dans une heure et qu'un lot est presque terminé, ne mettez en file d'attente que le temps restant, puis chargez complètement après l'ouverture du thème — aucun terrain ne doit rester inactif, mais le gros arrive dans la fenêtre. Le meilleur jour est le vendredi avec l'étape d'entraînement du duel.
+
+![Entraînement des troupes pendant la fenêtre du thème](/img/dtf/survival/04.jpg)
+
+**Recherche :** points pour les accélérateurs de recherche et le gain de puissance technologique — programmez la fin pour qu'elle tombe dans la fenêtre, puis lancez la suivante, récupérez l'aide de l'alliance et décidez quoi accélérer. Si une technologie apporte nettement plus de puissance et que l'étape suivante n'en demande qu'un peu, la terminer est préférable à l'éparpillement d'accélérateurs sur des petites ; inutile de terminer entièrement une longue technologie une fois le seuil atteint. Le meilleur jour est le mercredi avec la recherche du duel.
+
+![Recherche technologique et calcul de la puissance](/img/dtf/survival/06.jpg)
+
+**Raven — l'infatigable du quotidien :** deux façons de marquer des points, le développement de fruits ou la dépense d'énergie. Conservez les fruits pour l'étape Raven du duel le lundi ; les autres jours, dépensez de **l'énergie** pour les quêtes de Fléau/voleurs/boss/Falcon — activité quotidienne normale, sans coût spécifique. Environ **300 énergies** permettent de valider complètement le thème (4 récompenses, 6 sceaux). À associer avec la Chasse aux voleurs : une marche faible trouve les petits voleurs d'or et ouvre les boss, une marche forte frappe les grosses cibles. Raccourci : envoyez d'abord une escouade vers une tuile de ressource proche, puis déviez-la vers le monstre au passage — cela réduit le nombre de marches quotidiennes.
+
+![Améliorations de Raven via l'énergie et la Chasse aux voleurs](/img/dtf/survival/08.jpg)
+
+**Héros — le thème le plus rapide :** invocations à la Taverne plus antitoxine ; une montée de niveau bien ciblée suffit souvent à valider les quatre étapes. Ouvrez plusieurs héros, choisissez celui dont le coût pour le niveau suivant est le plus proche du seuil final — n'injectez pas 100M d'antitoxine là où 20M suffisaient. Conservez les invocations de masse pour le jour des héros du duel le jeudi ; l'antitoxine permet généralement de valider la Survie à moindre coût.
+
+![Croissance des héros avec l'antitoxine](/img/dtf/survival/10.jpg)
+
+**Territoire :** accélérateurs de construction et gains de puissance de bâtiment. Récupérez la fin d'une grande construction dans la fenêtre si disponible (inutile d'attendre 15 à 30 jours pour le Sanctuaire ou le Labo) ; sinon, dépensez les accélérateurs par lots plus importants (ex. 5 minutes) après avoir collecté l'aide de l'alliance. Le meilleur jour est le mardi avec la construction du duel.
+
+![Développement du territoire avec les accélérateurs de construction](/img/dtf/survival/11.jpg)
+
+### Chevauchement, ministres et discipline des sceaux {#dtf-overlap}
+
+Lundi : le duel fait progresser Raven — dépensez les fruits accumulés dans le thème Raven pour un double crédit. Mardi : territoire — récupérez les bâtiments préparés et utilisez les accélérateurs de construction. Mercredi : recherche — parchemins et longues technologies. Jeudi : héros — tickets, fragments, antitoxine, insignes. Vendredi : troupes — les terrains pendant le thème d'entraînement. Samedi : choix libre selon les stocks. N'adaptez pas le compte à l'événement, adaptez l'événement à votre croissance prévue.
+
+Avant les grosses améliorations, obtenez le titre de ministre correspondant et surveillez la file d'attente : dans les listes pleines à 50/50, les requêtes restent en attente — postuler à **49/50** permet plus souvent d'intégrer la file active. Planifiez les titres à l'avance les jours de construction/recherche.
+
+Les sceaux **s'réinitialisent chaque jour** — 17 aujourd'hui plus « un de plus demain » font zéro demain. S'il ne manque qu'une étape pour atteindre 18, prenez le thème le plus économique à fermer ; ne stockez jamais de sceaux dans l'espoir de vous faciliter la journée de demain.
+
+> Source : [Last Asylum: Plague - гайд по Битве на выживание](https://dtf.ru/howto/5240960-last-asylum-plague-gajd-po-bitve-na-vyzhivanie) par Гейм-Знаток sur DTF.

@@ -2,7 +2,7 @@
 title: "Pertarungan Bertahan Hidup: 60K Lencana Skill Gratis & Rotasi Fase 4 Jam"
 description: "Event misi mingguan yang menghasilkan ~60.000 Lencana Skill gratis: 5 kategori tugas, fase rotasi 4 jam, poin berdasarkan antrean pelatihan prajurit, dan sinkronisasi dengan Pertarungan Guild."
 lang: id
-updated: "2026-09-15"
+updated: "2026-10-12"
 videoTopic: survival
 type: event
 ---
@@ -107,3 +107,51 @@ Pencapaian efisiensi tinggi yang menonjol dapat diselesaikan tepat dengan **30 T
 6. Antre pelatihan prajurit **hanya setelah fase pelatihan dimulai** (poin diberikan saat mengantre!).
 7. Latih tingkat tertinggi yang terbuka (T7–T10) atau promosikan pasukan yang ada.
 8. Bersihkan semua peti pencapaian untuk mengamankan ~60.000 Lencana Skill Anda sebelum reset mingguan (00:00 Waktu Server / 02:00 UTC).
+
+---
+
+## Siklus Harian Pertempuran Bertahan Hidup: Segel, Energi, dan Tumpang Tindih Duel (DTF) {#dtf-daily-loop}
+
+Acara ini berjalan setiap hari melalui lima tema bergantian — pelatihan pasukan, penelitian teknologi, peningkatan Raven, pertumbuhan hero, pengembangan wilayah. Anda tidak memerlukan kelima tema tersebut: **18 Segel Bertahan Hidup menghasilkan tiga peti harian**, yaitu tiga tema yang diselesaikan sepenuhnya. Kemenangan sesungguhnya adalah tumpang tindih dengan Duel Aliansi — membangun pada hari Selasa, meneliti pada hari Rabu, melatih pada hari Jumat — sehingga percepatan (speedup) yang sama menghasilkan dua kali lipat.
+
+![Lima tema bertahan hidup dan 18 segel untuk tiga peti](/img/dtf/survival/02.jpg)
+
+### Cara kerja segel dan peringkat {#dtf-seals}
+
+Urutan berotasi setiap hari tanpa jadwal tetap — buka acara sebelum menghabiskan sumber daya dan periksa tema aktif serta tema berikutnya. Setiap tahap memiliki **4 tahap yang menghasilkan 1+1+2+2 = 6 segel**; 18 segel = tiga tema selesai. Hadiah tahap (lencana keterampilan, percepatan, sumber daya) terakumulasi di atasnya. Menyelesaikan kelima tema menghasilkan sekitar **8.000 lencana keterampilan sehari**, hingga sekitar ~9,600 jika tema pelatihan yang berulang muncul kembali. Papan peringkat harian memberikan hadiah sumber daya dasar untuk skor apa pun dan hadiah yang lebih baik untuk posisi yang lebih tinggi — teruskan melampaui 18 hanya jika tema tersebut cocok dengan pertumbuhan yang direncanakan; menghabiskan stok percepatan hanya untuk peringkat jarang membuahkan hasil.
+
+![Hadiah peringkat bertahan hidup](/img/dtf/survival/03.jpg)
+
+Tigaan harian paling hemat untuk sebagian besar akun: **Raven (energi) + Hero (antitoksin) + tema hari duel** (wilayah hari Selasa, penelitian hari Rabu, pasukan hari Jumat; Sabtu — apa pun yang paling murah dalam stok). Setelah peti emas pada 18, berhenti kecuali tema berikutnya adalah pertumbuhan yang memang sudah direncanakan.
+
+### Pasukan, penelitian, Raven, hero, wilayah {#dtf-themes}
+
+**Pelatihan:** skor dari percepatan pelatihan dan pertumbuhan pasukan di tanah yang paling berkembang (tingkat maks), dengan tanah lain yang dimuat atau mempersiapkan tingkat lebih rendah untuk promosi. Jika pelatihan dimulai dalam satu jam dan satu batch hampir selesai, antrekan hanya sisa waktu tersebut, lalu muat sepenuhnya setelah acara dibuka — tidak ada tanah yang menganggur, tetapi sebagian besar masuk dalam batas waktu. Hari terbaik adalah hari Jumat dengan tahap pelatihan duel.
+
+![Pelatihan pasukan dalam jendela tema](/img/dtf/survival/04.jpg)
+
+**Penelitian:** poin untuk percepatan penelitian ditambah perolehan kekuatan (might) teknologi — atur waktu penyelesaian di dalam jendela, lalu mulai yang berikutnya, kumpulkan bantuan aliansi, kemudian tentukan apa yang akan dipercepat. Jika satu teknologi memberikan kekuatan yang jauh lebih jelas dan tahap berikutnya hanya membutuhkan sedikit, menyelesaikannya lebih baik daripada menyebarkan percepatan ke teknologi kecil; tidak perlu menyelesaikan sepenuhnya teknologi yang panjang setelah ambang batas tercapai. Hari terbaik adalah hari Rabu dengan penelitian duel.
+
+![Penelitian teknologi dan perolehan kekuatan](/img/dtf/survival/06.jpg)
+
+**Raven — pekerja harian andalan:** dua cara untuk mencetak skor, pengembangan buah atau penggunaan energi. Simpan buah untuk tahap Raven duel hari Senin; pada hari lain habiskan **energi** untuk pencarian Blight/pencuri/bos/Falcon — aktivitas harian normal, tanpa biaya khusus. Sekitar **300 energi** sepenuhnya menyelesaikan tema (4 hadiah, 6 segel). Pasangkan dengan Perburuan Pencuri: pasukan yang lemah menemukan pencuri emas kecil dan membuka bos, pasukan yang kuat menyerang target besar. Pintasan: kirim skuad ke petak sumber daya yang lebih dekat terlebih dahulu, lalu arahkan kembali ke monster saat lewat — memangkas banyak perjalanan baris dalam sehari.
+
+![Peningkatan Raven melalui energi dan Perburuan Pencuri](/img/dtf/survival/08.jpg)
+
+**Hero — tema tercepat:** Pemanggilan Tavern ditambah antitoksin; satu peningkatan level dengan ukuran yang tepat sering kali menyelesaikan keempat tahap. Buka beberapa hero, pilih yang biaya level berikutnya paling dekat dengan ambang batas akhir — jangan membuang 100 juta antitoksin jika 20 juta sudah menyelesaikannya. Simpan pemanggilan massal untuk hari hero duel hari Kamis; antitoksin biasanya menyelesaikan Pertahanan Hidup dengan lebih murah.
+
+![Pertumbuhan hero dengan antitoksin](/img/dtf/survival/10.jpg)
+
+**Wilayah:** percepatan konstruksi ditambah perolehan kekuatan bangunan. Ambil bangunan besar yang hampir selesai di dalam jendela saat tersedia (tidak perlu menunggu 15–30 hari untuk Sanctuary/Lab); jika tidak, habiskan percepatan dalam batch yang lebih besar (misalnya, 5 menit) setelah mengumpulkan bantuan aliansi. Hari terbaik adalah hari Selasa dengan konstruksi duel.
+
+![Pengembangan wilayah dengan percepatan konstruksi](/img/dtf/survival/11.jpg)
+
+### Tumpang tindih, menteri, dan disiplin segel {#dtf-overlap}
+
+Senin: duel menumbuhkan Raven — habiskan buah yang ditimbun di dalam tema Raven untuk kredit ganda. Selasa: wilayah — ambil bangunan yang telah disiapkan ditambah percepatan konstruksi. Rabu: penelitian — gulungan (scroll) plus teknologi panjang. Kamis: hero — tiket, fragmen, antitoksin, lencana. Jumat: pasukan — tanah selama tema pelatihan. Sabtu: pilihan bebas berdasarkan stok. Jangan menyesuaikan akun dengan acara; sesuaikan acara dengan pertumbuhan yang direncanakan.
+
+Sebelum peningkatan besar, ambil gelar menteri yang cocok, dan perhatikan antrean: pada daftar 50/50 penuh, permintaan akan tertahan dalam daftar tunggu — mendaftar pada **49/50** lebih sering memasukkan antrean kerja. Rencanakan gelar terlebih dahulu pada hari pembangunan/penelitian.
+
+Segel **diatur ulang setiap hari** — 17 hari ini ditambah "satu lagi besok" menjadi nol besok. Jika tinggal satu tahap lagi dari 18, ambil tema yang paling murah untuk diselesaikan; jangan pernah menimbun segel dengan harapan mempermudah hari esok.
+
+> Sumber: [Last Asylum: Plague - гайд по Битве на выживание](https://dtf.ru/howto/5240960-last-asylum-plague-gajd-po-bitve-na-vyzhivanie) oleh Гейм-Знаток di DTF.

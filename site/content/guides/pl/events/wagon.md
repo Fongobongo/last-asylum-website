@@ -2,7 +2,7 @@
 title: "Wóz Gildii i Karawany"
 description: "Codzienne darmowe przejazdy wozem, zasady dotyczące skrzyń Mistrza Wozu i Strażników, odświeżanie Złotego Wozu, strategia zdobywania odłamków UR z karawan, plądrowanie międzysewerowe oraz priorytety złotych, fioletowych i niebieskich skrzynek."
 lang: pl
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: wagon
 calculators: []
 infographics: []
@@ -144,3 +144,55 @@ Zweryfikowane wartości z danych klienta gry (w1.0.87), źródło: wiki-last-asy
 | Dodatkowa Karawana | jeszcze jeden codzienne przejazd | 5 000 |
 | Środki Zaradcze | jeden gracz może splądrować maksymalnie 3 razy | 20 000 |
 | Dyniowy Powóz | odblokowuje Złotą Karawanę | 20 000 |
+
+## Poradnik woźnicy: Złote rajdy, VIP-y i obrona {#coachman-playbook}
+
+Karawana sojuszu kursuje **raz dziennie**. R4/R5 wyznacza **woźnicę** (кучер); zwykli członkowie nie mogą sami zająć tego miejsca. Po wyznaczeniu karawana nie rusza od razu — następuje **4-godzinny etap przygotowawczy**, podczas którego woźnica ulepsza karawanę, pasażerowie zajmują miejsca, przydzielany jest VIP i ustalana jest obrona. Karawana może zostać **oplądrowana maksymalnie 3 razy na kurs**, przy czym część ładunku jest realnie zagrożona — chodzi tu o dowóz, a nie tylko o nagrody.
+
+### Dlaczego stanowisko woźnicy ma znaczenie
+
+Woźnica jest największym zwycięzcą rajdu: oprócz czterech standardowych wozów istnieje **ukryty wóz prowadzący**, więc woźnica zgarnia mniej więcej **pięć wozów nagród** zamiast jednego. Utrzymuj rotację w sposób przejrzysty — kolejka, nagrody za aktywność lub ranking Pojedynek Sojuszy będą w porządku; stały, niewyjaśniony woźnica rodzi niechęć.
+
+### Zasada pierwsza: zrób to na złoto
+
+Po mianowaniu pierwszym zadaniem woźnicy jest odświeżenie karawany. **5 odświeżeń × 5 biletów karawany = 25 biletów** gwarantuje **Złotą Karawanę**. Woźnica nie musi płacić za wszystko sam: pasażerowie wsiadający do karawany mogą dołożyć bilety, a zdrową normą sojuszu są **2–3 bilety na osobę** zamiast jednego. Gdy pojawi się piąte odświeżenie, przestań — nie zamieniaj karawany w koło fortuny w pogoni za kosmicznym rzutem. Jutro będzie kolejna karawana.
+
+![Gracze przekazujący bilety na Złotą Karawanę](/img/dtf/wagon/01.jpg)
+
+![Pięć odświeżeń karawany do jakości złotej](/img/dtf/wagon/02.jpg)
+
+### Dyscyplina pasażerów: patrz na liczebność, a nie tylko na łupy
+
+W każdym zwykłym wozie mieści się **tylko 5 osób**. Przepełnienie jest rozwiązywane przez samą grę — a wyrzuconym pasażerem jest często ten, kto usiadł jako pierwszy. Nieco gorszy wóz z 3–4 spokojnymi pasażerami jest lepszy niż wóz z jackpotem, w którym stłoczyło się osiem osób. Miejsca można swobodnie zmieniać w ciągu tych 4 godzin, więc **sprawdź to ponownie tuż przed odjazdem**.
+
+![Wybór wozu: przepełnione miejsca mogą Cię wyrzucić](/img/dtf/wagon/03.jpg)
+
+### Pasażer VIP: dwa wozy wybrane przez woźnicę
+
+Na **20. poziomie daru sojuszu** karawana odblokowuje **pasażera VIP**: zamiast jednego wozu, VIP zajmuje **dwa wozy wybrane przez woźnicę**. Uzgodnijcie VIP-a z wyprzedzeniem — zaproszenie wisi przez **60 minut**, a przegapione przyjęcie oznacza czekanie lub ponowne zapraszanie. Po zaakceptowaniu woźnica własnoręcznie wybiera dwa wozy (zapytaj gracza, które dwa chce). VIP-a **nie można wyrzucić** jak zwykłego pasażera i nie może on wrócić do zwykłego miejsca — rzadko jest to poświęcenie przy dwóch wozach.
+
+![Przydzielanie pasażera VIP i wybieranie wozów](/img/dtf/wagon/04.jpg)
+
+### Strażnicy: tylko jeśli są autentycznie silniejsi
+
+Strażnik wystawia swoje oddziały do obrony, ale **pobiera część nagród woźnicy**. Jeśli twoje własne oddziały są już silniejsze niż kandydat na strażnika, nie ma to sensu — płacisz ładunkiem za nic. Zasada: zapraszaj strażnika **tylko wtedy, gdy jest wyraźnie silniejszy od woźnicy**; w przeciwnym razie weź VIP-a i zachowaj pełne nagrody.
+
+![Miejsca strażnika i pasażera VIP](/img/dtf/wagon/05.jpg)
+
+### Odśwież swoje oddziały obronne — oraz ich epigrafy
+
+Trzy oddziały obronne muszą zostać **zapisane ponownie po każdym poważnym ulepszeniu konta**: nowi bohaterowie, nowe obrażenia, nowy kruk, nowy ekwipunek nic nie znaczą, jeśli karawana nadal broni się zeszłomiesięcznym składem. Sprawdź, czy odpowiednie **epigrafy znajdują się na odpowiednich oddziałach** — źle umieszczony epigraf przegrywa walki.
+
+### Poziom darów, zasada 24 godzin i drugi złoty rajd
+
+- **Wzmocnienia** karawany (szybszy ruch, mniej prób plądrowania, obrona rdzenia, odblokowanie VIP-a) pochodzą z zakładki darów — zaglądaj tam częściej niż raz. Na **25. poziomie darów** zwykłe wozy zyskują **dodatkową pojemność pasażerów**, co ma znaczenie dla dużych, aktywnych sojuszy.
+- Rozwijaj sam Dar Sojuszu: aktywne farmowanie Plagi plus dodatkowe punkty z zaawansowanych przywozów podnoszą go, co przekłada się na szybszą, trudniejszą do ograbienia karawanę.
+- **Nowi członkowie muszą spędzić 24 godziny w sojuszu** przed dołączeniem do karawany — pamiętaj o tym po transferze.
+- Podczas przygotowań zbieraj **umowy handlowe** (przychodzą pocztą, jeśli zapomnisz). Wsiadający pasażerowie zostawiają też woźnicy **polubienia** — to drobiazg, ale dzień woźnicy to dzień miłości ludu.
+- **Druga złota karawana dziennie istnieje, ale za każdym razem kosztuje dodatkowo**. Jest przeznaczona dla dużych sojuszy, których pierwsza karawana pęka w szwach — to nie jest obowiązkowy element w połowę pustym rajdzie.
+
+![Rozwój Daru Sojuszu, wspomagany farmowaniem Plagi](/img/dtf/wagon/06.jpg)
+
+Dobra karawana to taka, w której każdy trochę myśli: woźnica robi rajd złotym, sprawdza obronę i umieszcza VIP-a; pasażerowie pilnują swojego wozu; sojusz ustala zasady zamiast improwizować co wieczór.
+
+> Źródło: [Last Asylum: Plague - полный гайд по Каравану](https://dtf.ru/howto/5303398-last-asylum-plague-karavan-gayd), autor Гейм-Знаток (DTF).

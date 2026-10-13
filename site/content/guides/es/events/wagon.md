@@ -2,7 +2,7 @@
 title: "Caravana de la Alianza y Caravanas"
 description: "Ejecuciones diarias gratuitas de caravanas, reglas de los cofres del Maestro de Caravana y los Guardias, refrescos de Caravana Dorada, estrategia de fragmentos UR, saqueo entre servidores y prioridad de cajas oro-morado-azul."
 lang: es
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: wagon
 calculators: []
 infographics: []
@@ -99,3 +99,57 @@ Cuando estás mirando un mapa extranjero lleno de caravanas, el orden de objetiv
 
 - **Comprueba la calificación de estrellas y las recompensas antes de atacar**: la vista previa muestra lo que paga la caja.
 - **Mejor color + más estrellas = mejores recompensas.** Color primero, estrellas como desempate.
+
+---
+
+## Guía del Cochero: Carreras Doradas, VIPs y Defensa {#coachman-playbook}
+
+La caravana de la alianza se realiza **una vez al día**. Los rangos R4/R5 designan al **cochero** (кучер); los miembros comunes no pueden ocupar el asiento por sí mismos. Tras el diseño, la caravana no parte de inmediato; le sigue una **fase de preparación de 4 horas**, durante la cual el cochero mejora la caravana, los pasajeros toman sus asientos, se asigna el VIP y se establece la defensa. Una caravana puede ser **saqueada hasta 3 veces por viaje**, y una parte de la carga corre un peligro real; esto trata sobre entregas, no solo sobre recompensas.
+
+### Por qué importa el asiento del cochero
+
+El cochero es el gran ganador del viaje: además de los cuatro vagones estándar, hay un **vagon líder oculto**, por lo que el cochero acumula aproximadamente **cinco vagones de recompensas** en lugar de uno. Mantén la rotación transparente —sirve una cola, recompensas por actividad o la clasificación del Duelo de Alianzas—; un cochero fijo sin explicación genera resentimiento.
+
+### Regla número uno: hazla dorada
+
+Tras la designación, el primer trabajo del cochero es actualizar la caravana. **5 actualizaciones × 5 tiquetes de caravana = 25 tiquetes** para asegurar una **Caravana Dorada**. El cochero no tiene por qué pagarlo todo solo: los pasajeros que abordan la caravana pueden aportar tiquetes, y la norma saludable en una alianza es de **2 a 3 tiquetes por persona** en lugar de uno. Una vez que se logre la quinta actualización, detente; no conviertas la caravana en una ruleta persiguiendo una tirada cósmica. Mañana hay otra caravana.
+
+![Jugadores aportando tiquetes para una Caravana Dorada](/img/dtf/wagon/01.jpg)
+
+![Cinco actualizaciones de caravana a calidad dorada](/img/dtf/wagon/02.jpg)
+
+### Disciplina de los pasajeros: vigila el recuento de personas, no solo el botín
+
+Cada vagón ordinario tiene espacio para **solo 5 personas**. El exceso de cupo lo resuelve el propio juego, y el pasajero expulsado suele ser el primero en sentarse. Un vagón ligeramente peor con 3 o 4 pasajeros tranquilos supera a un vagón con premio mayor y ocho personas amontonadas. Los asientos se pueden cambiar libremente durante las 4 horas, así que **revisa poco antes de la salida**.
+
+![Eligiendo un vagón: los espacios superpoblados pueden expulsarte](/img/dtf/wagon/03.jpg)
+
+### Pasajero VIP: dos vagones, elegidos por el cochero
+
+En el **Nivel de Obsequio de Alianza 20**, la caravana desbloquea un **pasajero VIP**: en lugar de un vagón, el VIP ocupa **dos vagones elegidos por el cochero**. Acuerden el VIP de antemano —la invitación dura **60 minutos**, y no aceptar a tiempo significa esperar o reinvitar—. Tras aceptar, el cochero selecciona manualmente los dos vagones (pregúntale al jugador cuáles prefiere). El VIP **no puede ser expulsado** como un pasajero común, ni puede volver a un asiento normal; rara vez es un sacrificio teniendo dos vagones.
+
+![Asignación del pasajero VIP y elección de vagones](/img/dtf/wagon/04.jpg)
+
+### Guardianes: solo si son genuinamente más fuertes
+
+Un guardián posiciona sus escuadrones para la defensa, pero **se lleva una parte de las recompensas del cochero**. Si tus propios escuadrones ya son más fuertes que los del candidato a guardián, no tiene sentido: pagas carga a cambio de nada. Regla: invita a un guardián **solo si es claramente más fuerte que el cochero**; de lo contrario, toma al VIP y quédate con las recompensas completas.
+
+![Espacios para el guardián y el pasajero VIP](/img/dtf/wagon/05.jpg)
+
+### Actualiza tus escuadrones de defensa, y sus epígrafes
+
+Los tres escuadrones de defensa deben **volverse a guardar después de cada mejora importante de la cuenta**: nuevos héroes, nuevo daño, nuevo cuervo y nuevo equipo no sirven de nada si la caravana sigue defendiendo con la alineación del mes pasado. Comprueba que los **epígrafes correctos estén en los escuadrones correctos**; un epígrafe mal colocado hace perder peleas.
+
+### Nivel de obsequio, regla de las 24 horas y la segunda carrera dorada
+
+- Las **mejoras** de la caravana (movimiento más rápido, menos intentos de saqueo, defensa principal, desbloqueo de VIP) provienen de la ruta de obsequios; abre esa pestaña más de una vez. En el **Nivel de obsequio 25**, los vagones ordinarios obtienen **capacidad de pasajeros adicional**, lo cual importa para las grandes alianzas activas.
+- Sube de nivel el Obsequio de Alianza en sí: la agricultura activa de Blight junto con puntos extra de invocaciones avanzadas lo elevan, lo que se traduce en una caravana más rápida y difícil de robar.
+- **Los nuevos miembros deben pasar 24 horas en la alianza** antes de unirse a la caravana; recuerda esto tras una transferencia.
+- Durante la preparación, recoge los **acuerdos comerciales** (llegan por correo si se olvidan). Los pasajeros que abordan también le dan **"me gusta"** al cochero; es poco, pero el día del cochero es el día del amor del pueblo.
+- **Existe una segunda caravana dorada al día, pero cuesta más cada vez**. Es para alianzas grandes cuya primera caravana se desborda, no es algo obligatorio para un viaje a medio llenar.
+
+![Subiendo de nivel el Obsequio de Alianza, ayudado por la agricultura de Blight](/img/dtf/wagon/06.jpg)
+
+Una buena caravana es aquella en la que todos piensan un poco: el cochero hace dorada la carrera, revisa la defensa y coloca al VIP; los pasajeros vigilan su vagón; la alianza acuerda las reglas en lugar de improvisar cada noche.
+
+> Fuente: [Last Asylum: Plague - полный гайд по Каравану](https://dtf.ru/howto/5303398-last-asylum-plague-karavan-gayd) por Гейм-Знаток en DTF.

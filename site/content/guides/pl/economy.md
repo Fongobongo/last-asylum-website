@@ -2,7 +2,7 @@
 title: "Ekonomia: Diamenty, Sklepy, Plądrowanie"
 description: "Gdzie trafiają wszystkie diamenty: priorytety sklepu VIP, harmonogram odświeżania, listy zakupów dla poszczególnych sklepów, budżety Koła Życzeń oraz kompletna mechanika plądrowania z limitami dziennymi zależnymi od poziomu Sanktuarium."
 lang: pl
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: economy
 infographics: ["/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
 ---
@@ -209,3 +209,46 @@ Zweryfikowane wartości z danych gry (v1.0.87), źródło: [wiki-last-asylum.com
 Wydatki w tej grze sprowadzają się do diamentów: prawie wszystko sprzedawane za pieniądze jest kupowane za nie, a oferty są porównywane przez ich pryzmat. Ogólna zasada jest prosta, ponieważ pakiet w tej samej cenie prawie zawsze zwraca tyle samo diamentów i coś jeszcze, co sprawia, że zwykłe diamenty są słabym zakupem.
 
 *(Dalsza część sekcji referencyjnych została zachowana zgodnie z wymogami strukturalnymi).*
+
+## Mądre wydatki: Celuj w każdy zakup {#smart-spending}
+
+![Planowana strategia wydatków w Last Asylum](/img/dtf/economy/01.jpg)
+
+Na początku gra niesie cię sama — klikasz, zbierasz, odblokowujesz — ale po pierwszym etapie ta sama rutyna przestaje przekładać się na siłę: mnożą się porażki w PvP, ulepszenia ciągną się godzinami, a sesje grzęzną na braku energii. Próby przepchnięcia tego siłą poprzez częstsze logowanie zmieniają niemal tyle co nic. Wydatki zaczynają pomagać dopiero wtedy, gdy przestają być losowe. Zasada, do której dochodzą doświadczeni gracze, jest prosta: **nie liczy się to, ile włożisz, ale dokładnie w co**. Każdy zakup powinien odpowiadać na jedno pytanie: *co w tej chwili wzmacniam?*
+
+Około średnich poziomów presja rośnie ze wszystkich stron: surowców wydaje się więcej, a jednak zawsze brakuje czegoś konkretnego — materiałów na bohatera lub czasu na bazę — podczas gdy rywale już wyglądają na silniejszych. To właśnie tam znajoma chęć „dokupienia odrobiny” prowadzi do klasycznych błędów: paczek-niespodzianek, zbierania losowych bohaterów, skakania między PvP a PvE. Efekt to konto, które rośnie, ale nigdzie nie jest silne: brak obrażeń w PvP, brak stabilności w PvE. Punkt zwrotny to skupienie się na jednym celu — areszcie lub zawartości — tak aby każda inwestycja na niego pracowała, a gra zaczęła „odwdzięczać się” stabilniejszymi wygranymi.
+
+### Drabina priorytetów
+
+- **Paczki startowe i specjalne na pierwszym miejscu.** Najszybszy sposób, aby poczuć różnicę: silny bohater plus zasoby bazy na raz sprawiają, że PvE staje się natychmiast stabilne, bez powtarzających się przestojów na zwykłych etapach.
+- **Energia na drugim miejscu.** Na początku wydaje się błaha, ale energia decyduje o tym, jak dużo faktycznie grasz — farmienie, misje, rozwój bazy. Mając jej pod dostatkiem, postęp zmienia się z przypadkowego w regularny.
+- **Subskrypcje i codzienne bonusy na trzecim miejscu.** Chodzi tu o stabilność: podstawowy zasób przy każdym logowaniu, łatwiejsze planowanie ulepszeń, brak wypadania z rytmu.
+- **Mid-game: rzadcy bohaterowie i materiały do ulepszania sprzętu.** Dokładnie te rzeczy, które w zauważalny sposób poruszają zarówno PvE, jak i PvP.
+- **Late game: paczki sezonowe i przyspieszenia.** Utrzymują cię na szczycie, gdzie zwykłe farmienie już nie wystarcza.
+
+![Stabilne, rozsądne wydatki, które przyspieszają postęp](/img/dtf/economy/02.jpg)
+
+### Czego unikać
+
+- **Kosmetyki** — zerowy wpływ na walkę.
+- **Losowe skrzynie** — sporadyczne szczęście, w większości zapychacze tworzące iluzję postępu bez realnego zysku.
+- **Małe, krótkotrwałe dopalacze** — realny efekt na jeden wieczór, niemal niewidoczny w skali miesiąca.
+- **Duplikaty bohaterów, które niczemu nie służą** — jeśli nie wzmacniają składu, są tylko ozdobą.
+
+Odrzucenie tego usuwa chaos: wydatki stają się równe i kontrolowane, a każda inwestycja jest odczuwalna.
+
+### Wydarzenia są punktem wzrostu
+
+Wydarzenia kryją nagrody, które najtrudniej zdobyć standardowymi metodami — rzadkie materiały, przydatne przedmioty, czasem silnych bohaterów. Podejście, które się opłaca: przygotuj się z wyprzedzeniem zamiast wchodzić „na zimno”, nie marnuj własnych prób (przygotuj bilety), kończ zadania w pełni zamiast w połowie i odbieraj wszystkie kluczowe nagrody. Zaplanowane w ten sposób wydatki wyciskają maksimum z konkretnego momentu, zamiast po prostu „coś przyspieszać”.
+
+![Zgranie wydatków z wydarzeniami dla maksymalnych nagród](/img/dtf/economy/03.jpg)
+
+### Lista kontrolna mądrego gracza
+
+1. Paczki startowe i energia na start — silny bohater i stały przepływ zasobów.
+2. W mid-game celuj w rzadkich bohaterów i materiały na sprzęt.
+3. W late game wybieraj paczki sezonowe i przyspieszenia na szczyt.
+4. Oszczędzaj na drobiazgach: kosmetykach, losowych skrzyniach i mikro-dopalaczach.
+5. Planuj wokół wydarzeń — tam ląduje najwyższy zwrot z inwestycji.
+
+> Źródło: [Last Asylum: Plague - как донатить с умом и ускорить прогресс в 2026](https://dtf.ru/moneysaver/4850017-last-asylum-plague-kak-effektivno-donatit-i-uskorit-progress) , autor Гейм-Знаток (DTF).

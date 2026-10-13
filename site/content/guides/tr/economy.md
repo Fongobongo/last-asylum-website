@@ -2,7 +2,7 @@
 title: "Ekonomi: Elmaslar, Mağazalar, Yağma"
 description: "Her elmasın gittiği yer: VIP mağazası öncelikleri, yenilenme takvimi, mağazalara göre satın alma emirleri, Dilek Çarkı bütçeleri ve Sığınak seviyesine göre günlük limitleriyle eksiksiz yağma mekanikleri."
 lang: tr
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: economy
 infographics: ["/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
 ---
@@ -593,3 +593,48 @@ Her VIP seviyesi tek seferlik bir hediye öder. İçindeki geriye kalan her şey
 | Her türden seviye ikmali | 210 |
 
 İlk UR parçası, şimdiden 155.000 puana mal olan onuncu seviyede yer alır. On altıncı seviyeden yirminci seviyeye kadar hediye hiç parça olarak büyümeyi durdurur ve her yerde üç UR'de kalır. Bu nedenle hediyeler üst seviyeleri kovalamak için bir neden değildir, çünkü yalnızca ortada karşılığını verirler.
+
+---
+
+## Akıllı Harcama: Her Satın Alımı Hedefleyin {#smart-spending}
+
+![Last Asylum oyununda planlı harcama stratejisi](/img/dtf/economy/01.jpg)
+
+Oyunun başlarında sistem sizi kendi kendine taşır — dokun, topla, kilidi aç — ancak ilk aşama geçildikten sonra aynı rutin güce dönüşmeyi bırakır: PvP mağlubiyetleri birikir, geliştirmeler saatler sürer, oturumlar boş enerji nedeniyle tıkanır. Daha fazla giriş yaparak bunu kaba kuvvetle çözmeye çalışmak neredeyse hiçbir şeyi değiştirmez. Harcamalar ancak rastgele olmaktan çıktığında yardımcı olmaya başlar. Deneyimli oyuncuların üzerinde uzlaştığı kural basittir: **ne kadar yatırdığınız değil, tam olarak nereye yatırdığınız.** Her satın alma şu sorudan birine yanıt vermelidir: *şu anda neyi güçlendiriyorum?*
+
+Orta seviyelerde baskı her yönden gelir: kaynaklar daha fazla gibi görünür, ancak her zaman belirli bir şey eksiktir — bir kahraman için malzemeler veya üs için zaman — ve rakipler şimdiden daha güçlü görünmektedir. İşte "sadece biraz satın alayım" şeklindeki tanıdık dürtü klasik hatalara yol açar: şans kutusu paketleri, rastgele kahramanlar toplamak, PvP ve PvE arasında mekik dokumak. Sonuç, büyüyen ancak hiçbir yerde güçlü olmayan bir hesaptır: PvP'de hasar yok, PvE'de istikrar yok. Dönüm noktası, tek bir hedefe — arenaya veya içeriğe — odaklanmaktır; böylece her yatırım bu amaca yönelik çalışır ve oyun daha istikrarlı galibiyetlerle "karşılık vermeye" başlar.
+
+### Öncelik merdiveni
+
+- **Önce başlangıç ve özel paketler.** Farkı hissetmenin en hızlı yolu: güçlü bir kahraman artı aynı anda üs kaynakları, sıradan aşamalarda sürekli tıkanıklıklar yaşamadan PvE'yi hemen istikrarlı hale getirir.
+- **İkinci olarak enerji.** İlk başta önemsiz görünür, ancak enerji gerçekte ne kadar oynadığınızı belirler — çiftçilik (farming), görevler, üs büyümesi. Yeterli olduğunda, ilerleme tesadüften düzenliye dönüşür.
+- **Üçüncü olarak abonelikler ve günlük bonuslar.** Bu istikrarla ilgilidir: her girişte temel bir kaynak akışı, daha kolay yükseltme planlaması, tempodan düşmeme.
+- **Orta oyun: nadir kahramanlar ve ekipman yükseltme malzemeleri.** Hem PvE'yi hem de PvP'yi fark edilir şekilde ileri taşıyan tam olarak bu şeylerdir.
+- **Geç oyun: sezonluk paketler ve hızlandırıcılar.** Sıradan çiftçiliğin artık yeterli olmadığı zirvede kalmanızı sağlarlar.
+
+![İlerlemeyi hızlandıran istikrarlı ve mantıklı harcama](/img/dtf/economy/02.jpg)
+
+### Neleri atlamalısınız
+
+- **Kozmetikler** — savaş üzerinde sıfır etki.
+- **Rastgele sandıklar** — ara sıra şans, çoğunlukla gerçek bir kazanç sağlamadan ilerleme illüzyonu yaratan dolgu malzemeleri.
+- **Küçük kısa ömürlü takviyeler** — bir akşam için gerçek bir etki, bir ay boyunca neredeyse görünmez.
+- **Hiçbir şeyi beslemeyen kopya kahramanlar** — kadroyu güçlendirmiyorlarsa, sadece süstür.
+
+Bunları kesip atmak dağınıklığı ortadan kaldırır: harcamalar dengeli ve kontrol edilebilir hale gelir ve yapılan her yatırım hissedilir.
+
+### Etkinlikler büyüme noktasıdır
+
+Etkinlikler, standart yollarla edinilmesi en zor olan ödülleri barındırır — nadir malzemeler, faydalı eşyalar, bazen güçlü kahramanlar. Karşılığını veren yaklaşım şudur: hazırlıksız girmek yerine önceden hazırlık yapın, denemelerinizi sınırlamayın (biletleri getirin), görevleri yarıda bırakmak yerine tamamen bitirin ve tüm ana ödülleri alın. Bu şekilde zamanlanan harcamalar, yalnızca "bir şeyi hızlandırmak" yerine belirli bir andan maksimum verimi sıkıştırıp çıkarır.
+
+![Maksimum ödüller için harcamaları etkinliklerle zamanlamak](/img/dtf/economy/03.jpg)
+
+### Akıllı harcama kontrol listesi
+
+1. Önce başlangıç paketleri ve enerji — güçlü bir kahraman ve istikrarlı bir kaynak akışı.
+2. Orta oyunda, nadir kahramanları ve ekipman malzemelerini hedefleyin.
+3. Geç oyunda, zirve için sezonluk paketler ve hızlandırıcılar.
+4. Ufak tefek şeylerden tasarruf edin: kozmetikler, rastgele sandıklar, mikro takviyeler.
+5. Etkinliklere göre plan yapın — yatırım başına maksimum getiri orada elde edilir.
+
+> Kaynak: [Last Asylum: Plague - как донатить с умом и ускорить прогресс в 2026](https://dtf.ru/moneysaver/4850017-last-asylum-plague-kak-effektivno-donatit-i-uskorit-progress) - Гейм-Знаток, DTF.

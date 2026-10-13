@@ -3,7 +3,7 @@ title: "클레아: 스킬, 빌드, 육성"
 description: "클레아 is an SSR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Might, rank 12 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( 클레아 Sh…"
 videoTopic: "claire"
 lang: ko
-updated: "2026-09-19"
+updated: "2026-10-12"
 type: guide
 ---
 
@@ -290,3 +290,35 @@ Stars cost 클레아 the most, not in badges but in waiting: 975 shards, while a
 
 The best squad with 클레아 and no UR hero is 케이사, 루시우스, 시빌, 벨라 and 클레아 herself: five warriors, a +20% bonus and 8.1M of survivability. Alongside 아서 and 말레나 she joins three of the five best reachable squads, where survivability reaches 38.2M, and the price of the full bonus is 20% extra damage from rangers.
 
+
+---
+
+## ✦ 골드(UR) Claire: 전환 메커니즘 및 최종 평가 {#dtf-gold-claire}
+
+Claire의 희귀도를 높이면 보라색 SSR이 UR 버전으로 진화합니다. 이 과정의 메커니즘은 얼핏 보이는 것보다 처음에는 더 너그럽지만, 나중에는 더 비용이 많이 듭니다. 레벨은 유지되지만, 성급은 유지되지 않습니다.
+
+### 전환 시 유지되는 요소 {#dtf-claire-conversion}
+
+전환 후 영웅은 레벨 1로 초기화되지 않고 150레벨이 모두 유지됩니다. 성급은 다르게 초기화됩니다. 골드 등급 Claire는 **6성**으로 등장하며, 투자했던 자원의 일부는 조각과 스킬 배지로 환급되어 개선된 형태에 다시 분배할 수 있습니다. 불청객 같은 소식은 추가 성급을 올리는 데 드는 비용이 눈에 띄게 증가한다는 점입니다. 대략 이전 형태의 두 배에 달하는 조각이 필요합니다. 따라서 첫날부터 무리해서 10성을 모두 찍으려 하지 마세요. 우선순위는 **8성**으로, 이를 달성하면 5번째 스킬이 해제되고 이미 매우 완성도 높은 세팅이 갖춰집니다. 마지막 두 성급은 전용 상점 조각과 가용한 수급처를 통해 천천히 채워나갈 수 있습니다.
+
+![Claire의 골드 등급 업그레이드](/img/dtf/daskal-claire/05.jpg)
+
+![전환 후의 골드 Claire](/img/dtf/daskal-claire/06.jpg)
+
+이번 업그레이드는 단순한 색놀이가 아닙니다. 동일 계정의 수치 기준으로 HP와 ATK를 중심으로 기본 능력치가 확실하게 상승합니다.
+
+![골드 Claire와 보라색 Claire 능력치 비교](/img/dtf/daskal-claire/07.jpg)
+
+![UR과 기존 Claire 능력치 비교](/img/dtf/daskal-claire/08.jpg)
+
+### 강력하지만 PvE에 특화된 성능 {#dtf-claire-pve-focus}
+
+골드 Claire를 어떤 UR 딜러를 대체하는 만능 카드라고 부를 수는 없습니다. 그녀는 여전히 PvE와 몬스터 상대로 강력하게 조율되어 있습니다. '용감한 자의 부름(Call of the Brave)'은 부대 내 공격력이 가장 높은 워리어 3명의 피해량을 특히 몬스터 상대로 증가시키므로, 데몬 킹이나 기타 PvE 콘텐츠에서는 맹활약하는 반면 PvP에서는 스킬의 일부가 활용되지 못합니다. 만약 유저 간의 전쟁이 주 목적이라면 Zoya가 더 범용성 있게 느껴질 것입니다.
+
+![PvE 및 몬스터에 특화된 Claire](/img/dtf/daskal-claire/09.jpg)
+
+![150레벨 기준 Claire와 Marlena, Arthur, Harper 비교](/img/dtf/daskal-claire/10.jpg)
+
+최종 평가: 골드 Claire는 모든 모드에서 자동으로 최고의 선택지가 되는 것은 아니지만, 워리어의 PvE 능력을 뛰어난 수준으로 강화해 줍니다. 8성에서 멈추고 마지막 두 성급은 천천히 파밍하며, 그녀의 몬스터 보너스가 적용되는 곳에 배치하세요.
+
+> 출처: Гейм-Знаток의 DTF 기사 [Даскал и золотая Клэр в Last Asylum: Plague - как правильно прокачивать героев](https://dtf.ru/howto/5317537-daskal-i-zolotaya-kler-v-last-asylum-prokachka-geroev).

@@ -2,7 +2,7 @@
 title: "Đấu trường Tam giác: Thủ & Công"
 description: "Ba đội hình, người tấn công chọn hai để đánh bại: nguyên tắc phòng thủ cân bằng, quy tắc hy sinh khắc chế, tấn công dựa trên khắc chế, tiền thưởng phe phái, và chiến thuật đội hình bẫy ở Đấu trường Định mệnh để lấy mảnh UR."
 lang: vi
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: arena
 calculators: []
 infographics: []
@@ -139,3 +139,57 @@ Không phải đấu trường nào cũng cho phép mua thêm lượt. Ở nhữ
 ## Ý nghĩa trong thực tế
 
 Lực chiến anh hùng được quy đổi trực tiếp thành tài nguyên ở đây, và thứ hạng cao hơn sẽ mở khóa các đấu trường có phần thưởng lớn hơn. Các trận chiến miễn phí đem lại nguồn thu nhập đó mà không tốn kém gì, đó là lý do tại sao chúng luôn được thực hiện mỗi ngày, ngay cả vào những ngày lười chiến đấu. Đội hình nào nên được triển khai để chống lại một đối thủ cụ thể trong danh sách sẽ được gợi ý bởi tính năng xây dựng đội hình đấu trường: mô phỏng trận đấu sẽ chạy qua các anh hùng được đánh dấu và hiển thị năm người mang lại kết quả tốt nhất.
+
+---
+
+## Ghi chú Đấu trường Tam giác: Sức mạnh là ảo, Phe phái và Nhật ký (DTF) {#dtf-field-notes}
+
+Bạn có thể thua một người chơi yếu hơn và thắng một người mạnh hơn hàng triệu lực chiến chỉ vài phút sau đó: ba đội hình giao tranh, ai thắng hai trận sẽ giành chiến thắng. Đôi khi nước đi hay nhất là không bao giờ đụng đến đội hình mạnh nhất của kẻ địch; đôi khi một anh hùng đánh bại cả triệu lực chiến; đôi khi năm khung vàng sụp đổ chỉ vì tướng chủ lực cầm một thanh kiếm rỗng ruột.
+
+![Mẹo và bí quyết Đấu trường Tam giác](/img/dtf/arena/01.jpg)
+
+### Thủ giữ nguyên, công xáo trộn mỗi trận đánh {#dtf-defense}
+
+Dồn mọi thứ đắt giá (tướng đỡ đòn top đầu, chủ lực, hỗ trợ, tướng gây sát thương thứ hai) vào đội hình 1 sẽ biếu không cho kẻ địch hai trận thắng dễ dàng: chúng dùng mồi nhử cho đội yếu và thắng 2-1 ở hai đội hình còn lại. Hãy dàn đều để không có trận thắng miễn phí nào — một Marlena mạnh không cần mọi Chiến Binh xuất sắc nhất đứng cạnh; di chuyển một ngôi sao (ví dụ: Harper sang đội hình 3, Celia hỗ trợ chỗ khác) sẽ tước đi cơ hội ăn 2 dễ dàng. Kiểm tra lại phòng thủ sau mỗi lần nâng cấp lớn để đội hình 1 không bị phình to trong khi phần đuôi bị đói lực chiến.
+
+![Ba đội hình phòng thủ trên Đấu trường Tam giác](/img/dtf/arena/03.jpg)
+
+Phòng thủ là thiết lập-và-giữ; **tấn công được xây dựng lại gần như trong mọi trận chiến nghiêm trọng**. Đầu tiên, hãy đọc bảng của kẻ địch: khi chúng ở mức 18/13/12M còn bạn ở khoảng ~13–15M, đừng đánh vào 18M — hãy cho đội hình yếu nhất của bạn làm mồi nhử và thắng ở mức 13 và 12. Cố đuổi theo cả ba chỉ phí hoài lượt đánh.
+
+![Ba trận chiến với điều kiện thắng 2 trên 3](/img/dtf/arena/04.jpg)
+
+### Lực chiến chỉ là gợi ý, phe phái định đoạt những trận đấu sít sao {#dtf-might}
+
+Một đội 12M với Marlena/Arthur được đầu tư tốt, một chủ lực thực thụ, kỹ năng và khắc chế phe phái thường xuyên đánh bại một đống 14M toàn tướng đỡ đòn và hỗ trợ nhưng chẳng hạ gục được ai. Luôn kiểm tra xem con số đó đến từ đâu — đặc biệt là Marlena, vị tướng tự gánh đội — trước khi cống nạp đội hình thứ hai của bạn cho một đội "10M".
+
+![So sánh lực chiến và đội hình](/img/dtf/arena/05.jpg)
+
+Sau đó kiểm tra phe phái: **Thợ Săn > Chiến Binh > Thuật Sĩ > Thợ Săn**, khoảng **+20%** cho phe khắc chế — đủ để san lấp khoảng cách lực chiến đáng kể (Chiến Binh mạnh hơn một chút của bạn gặp Thợ Săn là trận đấu của họ, không phải của bạn; đối đầu Thợ Săn mạnh hãy thử dùng Thuật Sĩ). Hãy lướt qua biểu tượng phe phái trong mỗi trận đấu khi khoảng cách dưới một triệu. Nhưng đừng lắp ráp một cỗ máy Frankenstein chỉ vì chỉ số thưởng: một sự khắc chế chỉ tốt khi đó là một đội hình hoạt động trơn tru thuộc phe đó — ba phe bên trong một đội hình mà không có phần thưởng đội hình từng khiến một tác giả thua một kèo đấu trên cơ lực chiến.
+
+### So sánh sau trận chiến, trang bị và bẫy chỉ số {#dtf-compare}
+
+Luôn mở phần so sánh phát triển sau trận đấu — tướng, lính, công nghệ, Raven, di vật, Sảnh Danh Vọng và nhiều thứ khác. Một thanh tiến trình lệch lạc sẽ chỉ ra cách khắc phục (tướng và lính tốt hơn nhưng Raven/Sảnh Danh Vọng bị bỏ lại phía sau có nghĩa là bản nâng cấp tiếp theo là hiển nhiên; khoảng cách của một tác giả là Sảnh Danh Vọng 31 so với 45). Khung vàng chẳng giết được ai: một tướng mạnh với thanh kiếm yếu, kỹ năng thấp và trang bị rỗng ruột sẽ thua một chủ lực được xây dựng đúng cách. Marlena và Zoe thể hiện rõ nhất điều này — một Zoe đạt tối đa sức mạnh quyết định cả ván đấu một mình, trong khi vài kẻ tấn công nửa vời chẳng đạt được gì. Quy tắc: **một tướng gây sát thương thực thụ hơn ba kẻ gần-như-gây-sát-thương**; nếu Marlena gánh đội, trang bị tấn công của cô ấy (ví dụ: kiếm hướng tới cấp 60, 4 sao) phải được ưu tiên trước, chứ không phải thanh kiếm trưng bày trên một Arthur cấp 30. Hãy nuôi một chủ lực chính cho mỗi phe phái quan trọng thay vì chín kẻ tấn công tàng tàng.
+
+![So sánh sau trận chiến giữa các tướng, lính, công nghệ, Raven, di vật](/img/dtf/arena/07.jpg)
+
+Đừng bao giờ tự động coi con số yếu nhất là miễn phí: đội hình 10–12M ẩn chứa Marlena + Arthur là một cái bẫy — mọi đội hình trông có vẻ yếu hơn trên giấy tờ nhưng lại thua hai trận do tướng, phe phái và sự phát triển bên trong. Tương tự với lính: tướng giỏi với khuôn mặt được trả phí nhưng **lính T8 đánh với T9** đã là một khoảng cách nhìn thấy rõ, và đôi khi bậc quân đội tiếp theo còn đánh bại cả một ngôi sao tướng.
+
+![Đội hình trông có vẻ yếu ẩn chứa Marlena](/img/dtf/arena/08.jpg)
+
+![Lính T8 so với T9](/img/dtf/arena/09.jpg)
+
+Gương chiếu hậu: đối thủ có ~20M ở đội hình 1 và hai phần đuôi yếu ớt nên bị phớt lờ hoàn toàn ở đội hình 1 — hãy lấy hai phần đuôi và đánh bại một tổng lực chiến đáng sợ hơn. Phòng thủ dàn đều đánh bại một siêu đội hình chính xác vì lý do này.
+
+![Đối thủ với một siêu đội hình và hai phần đuôi yếu](/img/dtf/arena/10.jpg)
+
+### Nhật ký, nhịp độ, ghép trận và quà miễn phí {#dtf-journal}
+
+Mục **Nhật ký** hiển thị các cuộc tấn công đến (màu xanh dương) và đi (màu đỏ) — thử nghiệm phòng thủ miễn phí. So sánh những kẻ tấn công có cùng lực chiến: người này farm hai đội hình yếu của bạn, người kia thua ở mức sức mạnh ngang ngửa do chia bài tồi. Nếu phòng thủ tiếp tục biếu không hai đội hình giống nhau, vấn đề đã được tìm ra.
+
+![Nhật ký phòng thủ](/img/dtf/arena/11.jpg)
+
+Đừng đốt hết lượt vào buổi sáng: thứ hạng trôi đi khi những người khác tấn công (từ 170 lên 400+ trong vài giờ là chuyện bình thường). Hãy hoàn thành nhiệm vụ hàng ngày đến ngưỡng tầm trung của bạn, sau đó leo hạng lại vào buổi tối với số lượt đã để dành. Việc ghép trận đầu tuần có vẻ kỳ lạ trước khi điểm số ổn định (30M, sau đó 52M, rồi đến một người yếu) — nó dựa trên điểm xếp hạng (105 gặp 108, 216 gặp 217), chứ không phải sức mạnh thực tế, vì vậy hãy tận dụng ngày đầu tiên để thử nghiệm. Nhiệm vụ hàng ngày: **3 và 5 trận thắng** không cần phải là chuỗi thắng và thưởng Huy Chương Vinh Quang; phần thưởng xếp hạng/liên minh bao gồm skin công trình (ví dụ: +5% tấn công tướng); **thả like thưởng 30 kim cương** (lên tới 180/ngày qua hai đấu trường) — đừng bao giờ bỏ lỡ kim cương miễn phí.
+
+Mọi trận chiến: tìm đội hình kẻ địch nguy hiểm nhất, chọn hai mục tiêu thực sự, kiểm tra lại phe phái và chủ lực ẩn (một Marlena được bơm max ở ô "yếu" sẽ làm thiết lập toán học đảo lộn), xáo trộn Bella/Harper/Claire/Celia giữa các đội hình, và chỉ sau đó mới nhìn đến lực chiến. Chậm hơn, và đó là lý do tại sao nó thú vị.
+
+> Nguồn: [Треугольная арена Last Asylum: Plague - советы и тактика](https://dtf.ru/howto/5253651-sovety-po-treugolnoy-arene-last-asylum-plague) bởi Гейм-Знаток trên DTF.

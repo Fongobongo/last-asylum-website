@@ -2,7 +2,7 @@
 title: "Panduan Pemula: Hub"
 description: "24 jam pertama anda: pakatan aktif, dorongan Sanctuary, fokus dua-tiga wira, acara sebelum penggunaan speedup, merompak dari hari pertama."
 lang: ms
-updated: "2026-10-03"
+updated: "2026-10-12"
 videoTopic: beginner
 ---
 
@@ -210,3 +210,199 @@ Kalkulator binaan menyusun urutan naik taraf dari hari pertama: daripada tahap b
 - [Jalan Wira](/ms/hero-road/)
 - [Tahap Kehormatan: syarat, kos dan pembayaran](/ms/hero-honor/)
 - [Ekspedisi: urutan arena dan bonus pelayan awal](/ms/expedition/)
+
+## Mula Ringkas: Fokus, Hospital, Gudang, Satu Skuad {#dtf-start-focus}
+
+![Panduan permulaan penuh untuk Last Asylum: Plague](/img/dtf/beginners/01.jpg)
+
+Permulaan klasik terasa sibuk — satu bangunan di sini, satu wira di sana, satu ketikan penyelidikan — tetapi sumber bertaburan ke semua arah manakala kuasa kekal di takuk lama. Penyelesaiannya ialah penjujukan, bukan usaha: **pertama bentuk pangkalan, kemudian bentuk wira untuk menyelesaikan kandungan, dan barulah segala-galanya.** Memperkukuhkan semuanya sedikit demi sedikit tidak akan memperkukuhkan apa-apa.
+
+![Petua permulaan yang menghalang kemajuan daripada tergendala](/img/dtf/beginners/02.jpg)
+
+### Sanctuary adalah kompas
+
+Sanctuary mengunci bangunan, mekanik dan naik taraf: selagi ia tidak bergerak, anda akan tergendala; selagi ia dibina, anda akan maju. Berhenti meneka apa yang perlu dinaik taraf — buka keperluan tahap Sanctuary seterusnya dan bekerja secara ketat mengikutnya. Terlepas sekali dan permainan hanya akan berkata "tiada lagi" selepas anda menghabiskan masa di tempat lain.
+
+![Sanctuary — pusat keseluruhan pangkalan](/img/dtf/beginners/03.jpg)
+
+### Ikuti pencarian pada awal permainan
+
+Pencarian bukanlah tutorial yang boleh diabaikan — ia adalah alat kemajuan utama: sumber, pemecut, berlian, dan mekanik baharu dibuka melalui pencarian. Gunakannya sebagai kompas: apabila ragu-ragu, lakukan apa yang menggerakkan garis pencarian. Mengabaikannya bermaksud melakukan perkara yang sama dengan lebih perlahan.
+
+### Hospital adalah konveyor, bukan tugas leceh
+
+Hospital ialah salah satu enjin sumber utama: pesakit masuk, sembuh, ganjaran keluar, pesakit seterusnya. Jika ia berjalan perlahan, semuanya akan tergendala.
+
+![Hospital: doktor merawat pesakit dan wad baharu dibuka](/img/dtf/beginners/04.jpg)
+
+- **Buka wad baharu** — aliran pesakit berkembang.
+- **Upah pekerja** — rutin manual hilang.
+- **Pra-sedia ramuan** — pesakit tanpa ramuan yang betul akan mengisi katil dan menghentikan barisan; dengan stok di tangan, penyembuhan berlaku serta-merta dan katil dikosongkan.
+
+![Menyimpan stok ramuan lebih awal memastikan katil hospital sentiasa berpusar](/img/dtf/beginners/05.jpg)
+
+Berlari ke sana sini sebagai doktor sendiri hanya berkesan pada permulaan sahaja. Sebaik sahaja automasi (pekerja, rawatan auto) tersedia, ambilnya: tanpa automasi, kemajuan berhenti setiap kali anda log keluar; dengannya, sumber terkumpul semasa anda tiada.
+
+![Rawatan pesakit manual pada awal permainan](/img/dtf/beginners/06.jpg)
+
+### Ekonomi yang stabil sebelum peluasan
+
+Pendapatan awal terasa lumayan, kemudian bil tiba: setiap bangunan baharu meningkatkan penggunaan tanpa menaikkan output. Peraturannya membosankan tetapi berkesan — makanan dan bahan yang stabil diutamakan, peluasan kemudian. Dan kemajuan bukan sahaja apa yang anda kumpul tetapi apa yang anda simpan: gudang menaikkan had simpanan dan melindungi sebahagian daripada stok daripada serbuan, jadi satu pertempuran yang kalah tidak memadamkan naik taraf yang telah anda simpan.
+
+![Mengumpul sumber dan membangunkan pangkalan](/img/dtf/beginners/07.jpg)
+
+![Gudang sumber menaikkan simpanan dan melindungi stok](/img/dtf/beginners/08.jpg)
+
+### Pastikan skuad sentiasa bekerja, abaikan karavan awal
+
+Skuad hanya menjana pendapatan semasa berarak; skuad kembali yang melahu adalah masa henti tidak kelihatan yang terkumpul menjadi jurang sebenar. Padankan panjang perarakan dengan jadual anda: ekspedisi pendek semasa dalam talian, ekspedisi panjang sebelum log keluar.
+
+![Karavan pada peta dunia](/img/dtf/beginners/09.jpg)
+
+Karavan nampak menarik tetapi memberikan pulangan yang tidak stabil pada permulaan berbanding perhatian yang diperlukan — abaikan mereka pada permulaan dan ladang melalui ekspedisi biasa.
+
+### Pangkalan adalah asas — peta adalah tujuannya
+
+Skuad bukan sekadar pengambil makanan, kayu dan herba: mereka membuka nod, memegang pos pengawal, menawan semula reruntuhan yang dijangkiti dan merebut bandar utama. Dengan format berskala pelayan seperti Kingdom Clash di ambang pintu, sumbangan setiap pemain menyuap hasil bersama — permulaan yang dibina di sekitar ekonomi hidup, pek wira sebenar dan skuad yang berfungsi tiba di peta sebagai peserta, bukan penonton.
+
+![Peta dunia: pos pengawal, reruntuhan dan bandar yang dipertandingkan](/img/dtf/beginners/10.jpg)
+
+### Pertahanan adalah laluan, bukan menara
+
+Musuh mengambil laluan terbuka terpendek, jadi dinding menara lurus kurang berkesan: bina koridor berliku panjang melalui selekoh dan tempat penumpuan, tumpukan menara di tempat musuh paling lama berada, tambahkan kesan perlahan — dan menara yang sama mendatangkan lebih banyak kerosakan. Pertahanan yang baik ialah laluan musuh yang lebih panjang, bukan lebih banyak menara.
+
+![Mod pertahanan: menara melindungi laluan musuh yang berliku panjang](/img/dtf/beginners/11.jpg)
+
+### Satu skuad berlima yang berfungsi, bukan senarai purata
+
+Menaburkan serpihan merentas setiap tarikan baharu menghasilkan senarai wira biasa-biasa sahaja dan pertarungan yang berlarutan. Pilih satu pasukan berlima dan berikan segalanya kepada mereka — tahap, kemahiran, peralatan:
+
+- **Arthur** — kebal barisan hadapan, membeli masa untuk pasukan;
+- **Marlena** — kerosakan utama yang meningkat sepanjang pertarungan;
+- **Claire** — mengenakan buff kepada semua orang, bukan dirinya sahaja;
+- **Stellar** — tekanan tambahan, kuat dalam pertempuran besar-besaran;
+- **Celia atau Bella** — sokongan yang menutup baki jurang.
+
+![Skuad lima wira yang berfungsi dengan peranan yang jelas](/img/dtf/beginners/12.jpg)
+
+![Pasukan wira yang seimbang untuk permulaan permainan](/img/dtf/beginners/13.jpg)
+
+Kekuatan datang daripada peranan yang berfungsi sebagai satu unit, bukannya daripada kiraan jarang atau kiraan kepala. Tarikan baharu? Semak sama ada ia menambah baik lima wira semasa — jika tidak, ia tunggu.
+
+### Mata wang Arena pergi kepada serpihan universal
+
+Kedai arena adalah perangkap barangan sekali beli yang menarik. Keutamaan yang bertambah nilai: **serpihan wira universal** — ia sesuai dengan mana-mana wira, menolak naik taraf bintang dan mengembangkan pasukan secara kekal. Satu pembelian lewat yang kukuh mengalahkan sepuluh pembelian awal yang tidak berguna.
+
+![Arena dan kedai hadiahnya](/img/dtf/beginners/14.jpg)
+
+### Makmal: Pembangunan diutamakan, bantuan sebelum pemecut
+
+Makmal tidak memberikan lonjakan kuasa segera, itulah sebabnya ia ditangguhkan — dan kemudian pemasa melambung tinggi. Keutamaan: kelajuan pembinaan, kelajuan penyelidikan, latihan tentera — cawangan Pembangunan mempercepatkan secara literal segala-galanya — ditambah bonus mata pertubuhan perikatan (alliance-duel) yang membayar ganjaran tambahan untuk tindakan yang sama. Kunci satu cawangan dan selesaikannya; menyembur skrol di mana-mana tidak memajukan apa-apa. Dan sentiasa tekan Bantuan perikatan sebelum menghabiskan pemecut — potongan pemasa percuma didahulukan.
+
+![Antara muka Makmal Penyelidikan](/img/dtf/beginners/15.jpg)
+
+![Cawangan penyelidikan Pembangunan yang mempercepatkan segala-galanya](/img/dtf/beginners/16.jpg)
+
+![Bantuan perikatan memotong pemasa pembinaan](/img/dtf/beginners/17.jpg)
+
+### Peralatan: abaikan biru, leraikan, beri makan kepada ungu dengan bijak
+
+Bahan naik taraf sentiasa lebih terhad daripada butang untuk ditekan. Peralatan biru tetap akan diganti dengan ungu dan tidak memulangkan apa-apa — leraikannya menjadi bahan untuk peringkat seterusnya daripada menaik tarafnya. Ungu adalah langkah sementara yang adil (kemudian dileraikan tanpa bencana); berikannya dahulu kepada wira utama — biasanya kebal yang menahan barisan, Arthur. Item sementara, wira percubaan, titik merah bersinar sendirian: hampir selalu perbelanjaan yang buruk.
+
+![Peralatan biru tidak berbaloi untuk dinaik taraf](/img/dtf/beginners/18.jpg)
+
+![Keutamaan peralatan pada Arthur dan pasukan teras](/img/dtf/beginners/19.jpg)
+
+![Meleraikan peralatan simpanan kepada bahan naik taraf](/img/dtf/beginners/20.jpg)
+
+### Berlian adalah simpanan, bukan keselesaan
+
+Berlian awal hangus dengan cepat untuk keselesaan — dan beberapa hari kemudian rolet wira dibuka, menuntut stok sebenar, bukan sekadar beberapa ratus. Pekerja tambahan singkat pada jam pertama adalah dorongan yang adil; selepas itu, simpan. Anggap berlian sebagai dana untuk matlamat konkrit, dan hanya berbelanja untuk menutup jurang tertentu yang telah anda fahami.
+
+![Menjana berlian dengan melengkapkan pencarian](/img/dtf/beginners/21.jpg)
+
+> Sumber: [Last Asylum: Plague - полный гайд для старта: как не слить ресурсы и быстро выйти в топ](https://dtf.ru/howto/4920845-last-asylum-plague-gayd-po-startu-sovety-po-optimizatsii-resursov) oleh Гейм-Знаток pada DTF.
+
+---
+
+## Tujuh Hari Pertama: Negeri Baharu kepada Skuad Kedua {#dtf-first-week}
+
+![Panduan permulaan terbaik untuk pemain baharu](/img/dtf/beginners/22.jpg)
+
+Minggu pertama memerlukan tepat tiga perkara: pangkalan yang berkembang pesat, satu skuad utama yang kuat, dan perikatan yang aktif. Segala-galanya dibina di sekitar mereka — matlamatnya adalah untuk menamatkan hari ketujuh tanpa rasa ingin mengulangi tetapan (reroll).
+
+### Mulakan pada negeri baharu
+
+Negeri anda sebenarnya adalah pelayan (server) anda: pada negeri baharu semua orang bermula bersama, manakala pada negeri yang sudah berumur beberapa hari, teras aktif telah pun mendahului ke dalam perikatan yang kuat dengan lebih banyak kandungan dibuka. Jangan kejar nombor negeri tertentu — nasihat itu luput lebih cepat daripada pemasa pembinaan — dan jangan pilih pelayan lama hanya kerana permainan menyerlahkan "disyorkan". Negeri yang dibuka beberapa jam lalu adalah sangat baik.
+
+![Memilih negeri baharu untuk akaun baharu](/img/dtf/beginners/23.jpg)
+
+### Tutorial didahulukan, kemudian Sanctuary 8 dengan ekonomi yang hidup
+
+Mainkan tutorial dengan betul untuk separuh jam pertama — ia lebih baik daripada mencuba-cuba, terutamanya percubaan yang bermula dengan "saya tertanya-tanya apa butang emas ini buat". Kemudian tingkatkan Sanctuary: ia menetapkan siling pembangunan, mengehadkan tahap wira dan membuka ciri. Sasaran kerja ialah larian pantas ke tahap 8 **tanpa meninggalkan ekonomi yang mati di belakang** — jika tahap seterusnya memerlukan Tembok atau Dewan Perikatan, binanya; jika herba habis, betulkan herba; jika penyembuhan tergendala, semak pengeluaran ubat. Perhatikan bahawa melepasi tahap 10, Makmal menjadi kelengkapan kekal dalam keperluan.
+
+![Tahap Sanctuary dan apa yang dibuka oleh setiap satu](/img/dtf/beginners/24.jpg)
+
+Sebelum melancarkan setiap naik taraf Sanctuary, semak apa yang akan dituntut oleh tahap *seterusnya* dan mula sediakan bangunan itu semasa pemasa Sanctuary berjalan — ini sahaja mengurangkan banyak masa menunggu yang terbiar. Berbelanja untuk melepasi ambang Sanctuary yang penting dan membuka sistem baharu adalah wajar; berbelanja untuk memotong lima minit masa terbiar adalah tidak wajar.
+
+### Tabiat barisan gilir binaan
+
+Jangan biarkan pembina melahu — sejam perbincangan wira sementara pemasa dibiarkan kosong adalah pertumbuhan yang hilang. Semasa dalam talian, gilirkannya kepada naik taraf pendek; sebelum tidur, lancarkan naik taraf berbilang jam, dan jalankan pengeluaran pada irama yang sama. Perhatikan rantaian herba-kepada-ubat secara khusus: herba kelihatan biasa sehingga satu siri pertempuran meninggalkan anda tanpa apa-apa untuk merawat. Dan jangan tingkatkan setiap bangunan pengeluaran secara sama rata "untuk kecantikan" — bekalkan apa yang sebenarnya kekurangan, kerana sumber yang tenggelam ke dalam bangunan bukan pemacu akan melumpuhkan akaun.
+
+### Formasi: kebal di depan, kerosakan di belakang
+
+Dua wira memegang barisan hadapan, tiga mengendali barisan belakang: kebal menyerap kerosakan dan membeli masa, barisan belakang membawa pemberi-kerosakan utama, penyerang sekunder dan penyokong. Jangan sesekali meletakkan pemberi-kerosakan terkuat anda di barisan hadapan hanya kerana ia menunjukkan nombor Kuasa (Might) terbesar — tugasnya adalah memberikan kerosakan dari barisan belakang sementara kebal menahan.
+
+![Formasi betul: dua kebal di depan, tiga wira di belakang](/img/dtf/beginners/25.jpg)
+
+### Selepas kekalahan, buat diagnosis — kemudian teruskan memberi makan kepada satu skuad
+
+Jika kebal tumbang serta-merta, kukuhkan barisan hadapan; jika kebal bertahan tetapi musuh terselamat, melabur dalam kerosakan utama dan sekunder. Skuad kedua dibuka pada Sanctuary 8 dan ketiga hanya pada 20 — tiada satu pun bermaksud membahagikan sumber kepada dua. Skuad pertama masih menyelesaikan kandungan sukar; skuad kedua mengumpul, menjalankan tugas dan berkembang dengan baki sumber sehinggakan kumpulan lima wira utama dengan yakin menyelesaikan kandungan.
+
+### Lima wira permulaan dan cara membahagikan sumber
+
+Teras awal yang terbukti: **Arthur dan Bella di barisan hadapan; Marlena, Claire dan Celia di belakang** — kesemuanya Pahlawan (Warriors), jadi skuad menyimpan penuh bonus puak +20% dari hari pertama.
+
+- **Arthur** menjadi kebal utama. Beliau adalah UR pertama yang muncul di Tavern pada negeri muda, dan 50 panggilan (summons) menjamin 10 serpihannya — tuntut beliau ke dalam lima wira utama awal, kemudian mula simpan tiket untuk acara yang menjaringkan mata panggilan.
+- **Bella** memegang slot barisan hadapan kedua supaya tiada pemberi-kerosakan terpaksa berdiri di situ.
+- **Marlena** ialah pembawa kerosakan jangka panjang utama — calon utama untuk pelaburan lanjutan.
+- **Claire** merobek raksasa dan menguatkan Pahlawan yang kuat — dan beliau bukan SSR buangan: dalam Era Kebangkitan (Era of Rebirth) beliau maju daripada SSR kepada UR, jadi pelaburan awal terus membuahkan hasil.
+- **Celia** bersinar dalam PvE, meladang sumber dan raksasa elit, melengkapkan pasukan sehingga pasukan lima UR penuh wujud.
+
+Bahagikan secara tidak saksama: Marlena, Arthur dan Claire adalah trio jangka panjang; Bella dan Celia menjalankan tugas permulaan dengan baik tetapi tidak seharusnya menerima serpihan UR universal, pelan tindakan (blueprints) terbaik atau bahan paling jarang. Semasa naik taraf adalah murah, pastikan kelima-limanya berada pada tahap yang hampir sama; apabila kos meningkat, trio mengambil keutamaan. Logik yang sama mentadbir lencana kemahiran. Peralatan mengikut peranan: kebal mahukan perisai dan but untuk menahan barisan hadapan lebih lama; pemberi-kerosakan mahukan pedang dan sarung tangan untuk menamatkan pertarungan dengan lebih cepat. Dan jangan sesekali menaik taraf item hanya kerana titik merah muncul di sebelahnya — titik merah tidak tahu rancangan anda.
+
+### Kemahiran: PvP atau raksasa?
+
+Banyak kemahiran menyasarkan PvP, yang lain pada raksasa dan PvE — Claire memukul raksasa lebih kuat dan meningkatkan Pahlawan terhadap mereka, Celia boleh menaikkan rampasan sumber dan raksasa elit. Jadi persoalannya tidak pernah "betapa jarangnya wira ini" tetapi **"ke manakah saya membawa mereka sekarang?"** Itu penting berganda untuk senarai kedua: lima kad mahal tidak menyelesaikan peranan kebal, sokongan dan penumpang dengan sendiri.
+
+### Puak tanpa fetisy
+
+Segitiga berjalan Pahlawan (Warriors) → Warlock → Renjer (Rangers) → Pahlawan dengan kelebihan 20%, dan bonus binaan puak yang sama berskala 3 wira +5%, 3+2 +10%, empat +15%, penuh lima +20% kepada serangan, HP dan pertahanan.
+
+![Bonus skuad puak sama sehingga +20%](/img/dtf/beginners/26.jpg)
+
+Tetapi pada hari pertama, jangan sesekali meletakkan kebal yang baik di bangku simpanan demi pengisi lemah hanya untuk melengkapkan gambar 5/5: pasukan mesti berfungsi terlebih dahulu, kemudian berkembang menjadi skuad mono penuh. Untuk teras Pahlawan awal ini adalah mudah — Arthur menahan, Marlena merosakkan, Claire menguatkan PvE — dan UR lanjut menyusul dari semasa ke semasa. Peraturan penyimpanan mengikut rancangan yang sama: serpihan UR universal pergi kepada Marlena dahulu (Arthur meladang serpihannya sendiri melalui Tavern dan sumber lain), dan di kalangan SSR, Claire adalah calon teratas serpihan universal.
+
+### Perikatan: yang baik mengatasi yang teratas
+
+Sertai perikatan yang baik sebaik sahaja ciri itu dibuka — dan "baik" lebih penting daripada "teratas". Semak sama ada sembang menjawab, ahli menekan Bantuan, acara dimainkan, kepimpinan wujud. Bantuan perikatan memotong pemasa pembinaan dan penyelidikan setiap hari, jadi komuniti aktif secara literal mempercepatkan akaun; dua puluh orang membantu setiap hari bertambah secara berterusan, manakala sembang mati dengan pemimpin yang tiada adalah isyarat untuk meneruskan langkah.
+
+![Pendatang baharu menyertai perikatan yang aktif](/img/dtf/beginners/27.jpg)
+
+### Rat Swarm sebagai diagnosis skuad
+
+Rat Swarm bukan sekadar mod pertahanan gelombang awal — ia memberitahu anda apa yang kurang pada skuad utama. Kebal mati serta-merta bermaksud barisan hadapan; dengan tenang mencapai bos tetapi meninggalkan Rat King pada HP tinggi bermaksud kerosakan; menara berdiri jauh dari laluan utama bermaksud menyatukan ke dalam beberapa titik kerja berbanding menaik taraf seluruh medan secara sama rata. Pegang kemahiran aktif secara manual untuk bos berbanding melepaskan semuanya sejauh sebelum Rat King muncul, dan pastikan kejelasan gelombang biasa yang yakin sebelum menolak bos seterusnya.
+
+![Pertempuran gelombang Rat Swarm pada awal permainan](/img/dtf/beginners/28.jpg)
+
+### Belanjakan pemecut dan berlian pada masa yang tepat
+
+Sebaik sahaja permainan pertengahan minggu pertama bermula, bukan sahaja apa yang anda belanjakan yang penting tetapi bilanya. Pemecut yang ditekan pada hari acara pemarkahan pembinaan membeli tahap bangunan dan ganjaran acara; logik yang sama tersebar kepada penyelidikan, wira dan tentera — terutamanya selepas Pertandingan Perikatan (Alliance Duel) dibuka, apabila pengumpul pemecut mengalahkan pembelanja impulsif dari stok yang sama. Saliran pendatang baharu yang paling tersembunyi ialah pem-pemecut mikro: tiga minit di sini, sepuluh di sana, dan ribuan berlian tersejat menjelang petang. Simpan berlian untuk matlamat ketara — acara penting, ambang yang diperlukan, tawaran yang benar-benar baik. Untuk pembelanja rendah, pilihan kesan panjang didahulukan (wira tambah-nilai pertama, pas berguna, pek untuk wira yang sebenarnya anda bina); pemecut dan sumber biasa menyusul kemudian.
+
+### Irama minggu pertama
+
+Jangan cuba buka dan tingkatkan semuanya dalam tujuh hari. Tingkatkan Sanctuary, kumpulkan satu skuad utama yang kuat, sertai perikatan aktif, dan pastikan bahan jarang tidak dibelanjakan. Hari pertama terutamanya tidak boleh membiarkan pembinaan dan pengeluaran melahu; kemudian Tavern, Arena, acara, skuad kedua dan bonus puak dipasang secara beransur-ansur sementara lima wira utama terus menerima sumber. Menjelang akhir minggu gelung sepatutnya berbunyi: kumpul pengeluaran, lancarkan pembinaan, semak acara, belanjakan di tempat yang mendapat markah tambahan, kemudian pergi ke peta atau Arena.
+
+![Pelan tindakan tindakan minggu pertama](/img/dtf/beginners/29.jpg)
+
+> Sumber: [Last Asylum: Plague - актуальный топовый старт: что делать в первые 7 дней. Советы, секреты, рабочая тактика игры](https://dtf.ru/howto/5265655-last-asylum-plague-startovyy-gayd-dlya-novichkov) oleh Гейм-Знаток pada DTF.

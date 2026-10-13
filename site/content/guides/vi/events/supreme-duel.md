@@ -3,7 +3,7 @@ title: "🏆 Hướng dẫn Sự kiện Đại Quyết Đấu"
 description: "Làm chủ giải đấu đấu trường Đại Quyết Đấu liên server trong Last Asylum: Plague — lịch trình Kỷ nguyên Ngày 58, 5 giai đoạn giải đấu, meta 3 đội hình BO3, cửa hàng xu dự đoán và phần thưởng nhà vô địch."
 lang: vi
 type: event
-updated: "2026-09-14"
+updated: "2026-10-12"
 videoTopic: arena
 ---
 
@@ -111,3 +111,59 @@ Sáu nguồn vĩnh viễn cung cấp khả năng chỉ huy, và đóng góp củ
 Các nguồn vĩnh viễn cộng lại lên tới 490 binh lính dưới quyền một tướng, trong đó 350 lính đến từ riêng cấp độ tướng. Tượng cung cấp 100, công nghệ 20 và việc chiếm mỏ đen cộng thêm 50 miễn là liên minh giữ được nó.
 
 Kết luận thực tế rất ngắn gọn. Cấp độ tướng là đòn bẩy thực sự duy nhất cho con số này, và tượng phe phái đứng thứ hai, với mọi thứ khác làm tròn tổng số.
+
+---
+
+## Hướng dẫn Đấu trường Tối cao: Điểm Chiến đấu, Trả thù và Dự đoán {#dtf-field-guide}
+
+Thể mạc này trông giống như Đấu trường Tam giác — ba đội hình đấu ba, hai trận thắng là giành chiến thắng — nhưng thói quen "hy sinh một, thắng hai" không phải lúc nào cũng hiệu quả ở đây. **Điểm Chiến đấu (Battle Points)** quyết định giai đoạn đầu: thắng 2:1 với một đội quân tả tơi có thể mang lại ít điểm hơn đối thủ có những trận đánh sạch sẽ hơn. F2P vẫn có thể kiếm lời thông qua dự đoán, pháo hoa và phần thưởng vương quốc mà không bao giờ cần phải chạm tay ngai vàng.
+
+![Đấu trường Tối cao trong Last Asylum Plague](/img/dtf/supreme-duel/01.jpg)
+
+### Khai mạc, đăng ký và ba đội hình thực sự {#dtf-opening}
+
+Liên kết với Kỷ nguyên Hồi sinh (Era of Revival): xuất hiện vào **ngày thứ 58 của mùa giải**, kéo dài **27 ngày**, yêu cầu **Thánh địa cấp 20+**, gộp chung **16 vùng chiến sự**. Chưa thấy nút bấm nghĩa là kỷ nguyên của bạn chưa đến ngày đó — không phải lỗi. Đăng ký được thực hiện thủ công với **thời hạn 5 ngày**: bỏ lỡ nút bấm là bạn chỉ có thể đứng xem từ khán đài.
+
+![Quy tắc và thông tin cơ bản về Đấu trường Tối cao](/img/dtf/supreme-duel/02.jpg)
+
+Vòng loại sử dụng hình thức **tử chiến 3v3**: các đội hình lần lượt bước vào và đội thắng sẽ tiếp tục chiến đấu với đội đối phương tiếp theo bằng số lính còn sống cho đến khi một bên thua cả ba đội. Một siêu đội hình cộng với hai đội hình "thừa thãi" phía sau sẽ hoạt động kém hiệu quả — một đội hình chiến thắng sống sót lành lặn sẽ liên tiếp chuỗi sang trận đấu tiếp theo, và một đội hình yếu ở đuôi sẽ dâng cơ hội đó cho đối thủ. Hãy xây dựng ba đội hình có thể dùng được (mỗi đội gồm tuyến đầu + sát thương), thay vì một đội hình hoàn hảo duy nhất; hãy kiểm tra xe tăng và tướng chủ lực chính (một Marlena/Zoe tối đa với toàn bộ trang phục trong khi đội 2–3 không thể đánh thủng thì việc phân phối lại trang phục sẽ giúp ích nhiều hơn là lên thêm một cấp cho đội 1).
+
+![Tử chiến 3v3 và thứ tự đội hình](/img/dtf/supreme-duel/04.jpg)
+
+### Công thức Điểm Chiến đấu {#dtf-points}
+
+Điểm số tính toán hai yếu tố: lính địch bị hạ gục và lính của bạn còn sống sót. Với mỗi lính địch bậc N: **(1 + N) × 6** (lính nhẹ, lính nặng và lính mất hoàn toàn đều được tính). Với mỗi lính sống sót của bạn cùng bậc đó: **(1 + N) × 9**. Vì vậy, quy tắc vòng loại là **chiến thắng sạch sẽ ưu tiên hơn chiến thắng tổn thất** — một đội hình giành chiến thắng trong khi giữ lại phần lớn quân đội của mình và chuỗi tiến lên phía trước là hàng cao cấp. Xe tăng, khả năng sinh tồn và sự cân bằng giữa ba đội hình đánh bại một con số tổng lực chiến lớn.
+
+![Quy tắc tính điểm Điểm Chiến đấu](/img/dtf/supreme-duel/08.jpg)
+
+Tin vui: quân lính thực tế không bao giờ chết và bỏ qua khu thương binh — trò chơi cung cấp lính, vì vậy việc thử nghiệm là hoàn toàn miễn phí. Nhưng bậc lính của họ chính là **bậc cao nhất bạn đã mở khóa** (T9 so với T8 ở các tướng tương tự đã là một lợi thế). Trước khi khóa đội hình, hãy hoàn thành một bậc lính sắp hoàn thành — nó sẽ tăng sức mạnh cho cả ba đội — sau đó phân phối lại trang phục từ đội 1 đang thắng sẵn sang xe tăng/chủ lực của đội 2 và 3. Thứ tự ưu tiên khi tài nguyên khan hiếm: bậc lính → xe tăng yếu → chủ lực đội yếu → trang phục.
+
+### Vòng loại, trả thù, vòng playoff {#dtf-stages}
+
+Việc xếp hạt giống trước vòng đấu sẽ phân bổ **top 8 theo bảng xếp hạng Lực chiến (Might)** của mỗi vương quốc vào các bảng khác nhau để những "quái vật" không phải gặp nhau ngay vòng đầu — điều này tốt cho toàn bộ vương quốc vì đi sâu hơn có nghĩa là có thêm nhiều phần thưởng chia sẻ. Vòng sơ loại tự động ghép cặp **8 đối thủ tương đương trong 4 ngày**, top 8 có Điểm Chiến đấu cao nhất sẽ đi tiếp.
+
+![Các giai đoạn giải đấu](/img/dtf/supreme-duel/05.jpg)
+
+![Người chơi được xếp hạt giống và vòng sơ loại](/img/dtf/supreme-duel/07.jpg)
+
+**Trả thù (cơ hội thứ hai):** 2 đối thủ mỗi ngày trong 3 ngày đầu tiên, sau đó là 1 đối thủ mỗi ngày; đấu vòng tròn tính điểm trong bảng, không được "cày cuốc" một đối thủ dễ tính nào đó. Chiến đấu vẫn giữ nguyên thể thức 3 đội/2 trận thắng. **Top 2 mỗi bảng lọt vào vòng playoff**, và từ đây một trận thua sẽ kết thúc hành trình. Xây dựng lại đội hình cho mỗi loạt trận — một thiết lập dùng chung cho toàn bộ giải đấu là một điểm yếu; hãy trinh sát phe phái, tướng, Raven, trang phục và đặt đội hình giành chiến thắng sạch sẽ nhất vào nơi nó có thể thắng gọn gàng nhất.
+
+**Vòng Playoff:** loạt trận chạm 2 trận thắng (tối đa 3 trận); **chung kết chạm 3 trận thắng (tối đa 5 trận)**. Điểm Chiến đấu vòng loại và số lính sống sót không còn quan trọng nữa — số trận thắng trong loạt trận mới quyết định, vì vậy hãy tinh chỉnh kỹ hơn để đối phó với đối thủ cụ thể bằng cách khắc chế phe phái và phân bổ tướng.
+
+### Dự đoán, pháo hoa và phần thưởng dùng để làm gì {#dtf-predictions}
+
+Việc bị loại không kết thúc sự kiện: các giai đoạn sau mở ra tính năng **Dự đoán** — chọn những người chiến thắng dự kiến để nhận **Xu Dự đoán (Prediction Coins)** trong một cửa hàng riêng biệt. Tối đa **5 dự đoán một ngày**; đừng trông chờ vào việc được hoàn tiền tự động cho các dự đoán sai. Giá trị thuần túy cho F2P: đoán đúng sẽ rẻ hơn là trở thành người chiến thắng.
+
+Sự kiện song song **Đại lễ hội (Grand Celebration)** sử dụng **Pháo hoa Tối cao (Supreme Fireworks)** trên một đường hỗ trợ kèm rương: tăng tốc nghiên cứu, mảnh UR vạn năng, sách nghiên cứu, gói tài nguyên UR, cùng với Xu Ẩn sĩ (Hermit Coins) (ví dụ: 200/400/600 xuyên suốt các phần thưởng). Hãy tiêu chúng bên trong sự kiện, đừng giữ làm quà lưu niệm — và hãy nhận trước khi chuyển sang giai đoạn vòng loại, vì phần thưởng lễ hội sẽ được đặt lại vào giai đoạn tiếp theo.
+
+![Phần thưởng giai đoạn Đại lễ hội](/img/dtf/supreme-duel/09.jpg)
+
+Phần thưởng bắt đầu từ sớm: tham gia vòng loại ở mốc **1, 2, 3, 5 và 10 trận thắng** cùng với bảng xếp hạng (**1, 2–3, 4–8, 9–20, 21–50**), do đó tiếp tục chơi dù không có cơ hội vào top 8 vẫn mang lại phần thưởng. **Phần thưởng vương quốc** tỷ lệ thuận với thành tích tốt nhất của vương quốc — những người chơi có thành tích cá nhân yếu vẫn có thể nhận quà khi đồng hương tiến sâu. Phần thưởng trả thù được nâng cấp với **mảnh Thức tỉnh Tướng vạn năng (universal Hero Awakening shards)** cho vị trí 1st/2nd/3–8th. Vòng playoff và chung kết chứa những chiến lợi phẩm quý hiếm nhất: **khung avatar** nhà vô địch, **emoji động và Lễ đăng quang (Coronation)** cộng với tài nguyên.
+
+![Phần thưởng vòng loại, trả thù và vòng playoff](/img/dtf/supreme-duel/11.jpg)
+
+Danh sách chuẩn bị: cả ba đội hình đều có tuyến đầu + sát thương (không có đội thứ ba "thừa thãi"), bậc lính đã hoàn thành, cân bằng lại trang phục, tinh chỉnh khả năng sống sót ở vòng loại (lính sống sót tính điểm cao hơn số mạng hạ gục), sau đó là xây dựng chiến thuật khắc chế trả thù/playoff cho từng đối thủ.
+
+![Kế hoạch chuẩn bị cho Đấu trường Tối cao](/img/dtf/supreme-duel/14.jpg)
+
+> Source: [Last Asylum: Plague - Верховная дуэль: полный гайд. Советы, секреты, тактика.](https://dtf.ru/howto/5270517-verhovnaya-duel-v-last-asylum-plague-sovety-i-taktika) by Гейм-Знаток on DTF.

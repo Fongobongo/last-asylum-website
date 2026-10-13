@@ -2,7 +2,7 @@
 title: "⚔️ Guide de l'équipement : Fabriquer, Promouvoir, Prioriser"
 description: "Les règles de la communauté concernant le système d'équipement — quoi fabriquer, quoi sacrifier, quoi ignorer, et d'où proviennent les matériaux."
 lang: fr
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: gear
 infographics: ["/infographics/skill-scaling.webp"]
 ---
@@ -70,3 +70,95 @@ Les ensembles à effets spéciaux (Masque de Night Raven, Cape de plumes de Rave
 - **Atelier d'équipement** — fabriquer & démonter ; **Atelier de tissage** produit du tissu pour la fusion/fabrication.
 - **Ferme de pierres d'équipement F2P :** Le principal goulot d'étranglement de la communauté est constitué par les Pierres d'équipement — achetez-les régulièrement dans les boutiques du Sanctuaire et de l'Expédition.
 - **Plans d'équipement (UR) dans la Boutique d'honneur :** Dépensez vos Pièces d'honneur **EXCLUSIVEMENT dans les Plans d'équipement (UR)**. Ignorez les coffres de curiosités et les éclats universels — les plans sont le seul gardien pour promouvoir l'équipement orange aux niveaux 10, 20, 30 et 40.
+
+---
+
+## Ordre de fabrication communautaire (Méthode DTF) {#dtf-craft-order}
+
+Ce guide pratique la fabrication par rôle, et non par portrait : un DPS principal, un deuxième DPS, un tank principal, un deuxième tank et un soutien. Qui occupe exactement chaque poste dépend du compte (Marlena, Red Lady ou un autre carry ; Arthur, Daskal, Louis ou un autre tank) — c’est la fonction qui détermine l'objet.
+
+![Guide d'équipement : qui obtient quoi en premier](/img/dtf/gear/01.jpg)
+
+### L'équipement violet n'est pas bon à jeter {#dtf-purple-base}
+
+Ne considérez pas l'équipement violet comme de la pacotille tant qu'un équivalent doré n'existe pas. La règle est simple : **les cinq principaux doivent toujours être équipés** — pas parfaitement, pas instantanément en doré, mais sans aucun emplacement vide, car un emplacement vide représente des statistiques perdues qui se traduisent rapidement par un « pourquoi est-ce que j'ai encore perdu ». Les deuxième et troisième escouades peuvent garder les objets violets ; les ressources dorées restent réservées à l'escouade principale jusqu'à ce qu'elle tienne la route.
+
+![Équipement violet et doré des héros](/img/dtf/gear/02.jpg)
+
+### Rôles des escouades pour ce chapitre {#dtf-squad-roles}
+
+1. DPS principal — la majeure partie des dégâts. 2. Deuxième DPS — achève les cibles et met la pression sur la ligne arrière. 3. Tank principal — encaisse les coups. 4. Deuxième tank — empêche la première ligne de s'effondrer. 5. Soutien — soigne, buffe, protège.
+
+![Escouade principale avec les rôles](/img/dtf/gear/03.jpg)
+
+### Premier objet doré : l'épée du carry principal {#dtf-swords-first}
+
+La première erreur courante est de commencer par le tank. Sans dégâts, le tank se contente d'assister à une défaite plus longue. Le premier objet est donc une **épée dorée pour le principal infligeur de dégâts** : elle amplifie toutes les stats du carry ainsi que ses critiques, et les combats se décident souvent par celui qui parvient à briser la ligne arrière ennemie en premier — et non par le bouclier le plus épais.
+
+![Épée dorée pour le carry principal comme premier craft](/img/dtf/gear/04.jpg)
+
+Le deuxième objet reste axé sur les dégâts : **l'épée du deuxième infligeur de dégâts**. Un carry peut être neutralisé ; deux apportent de la stabilité, une capacité d'achèvement et de la valeur en combat.
+
+### Ensuite : les gants pour les deux infligeurs de dégâts {#dtf-gloves-next}
+
+Les objets trois et quatre sont **les gants (pour le principal, puis pour le deuxième)** — du potentiel d'attaque ainsi que des bonus d'étape utiles qui se cumulent avec ce que les épées procurent déjà. Deux épées et deux gants forment la première véritable structure offensive.
+
+![Épée au niveau 20 et gants au niveau 10 pour les infligeurs de dégâts](/img/dtf/gear/05.jpg)
+
+### Pourquoi l'armure va aux infligeurs de dégâts avant les tanks {#dtf-armor-dd-first}
+
+Les tanks possèdent plus de PV et de défense de base ; les infligeurs de dégâts fragiles meurent avant de pouvoir lancer leur compétence clé. Les objets cinq et six sont donc **l'armure pour le DPS principal et le deuxième DPS** (survivre pour lancer ses sorts, infliger des critiques et déchirer la cible), et seulement ensuite l'armure pour les deux tanks (sept, huit). La première ligne compte, mais les dégâts doivent avoir leur chance en premier.
+
+### Bottes : résistance aux dégâts énergétiques pour les quatre piliers {#dtf-boots-energy}
+
+À des niveaux clés, les bottes confèrent **une résistance aux dégâts énergétiques**, ce que les rapports de combat montrent ciblant à la fois la ligne arrière et la ligne avant à cause des compétences des carrys ennemis. Ordre de fabrication : bottes pour le DPS principal, le deuxième DPS, le tank principal, puis le deuxième tank (de neuf à douze).
+
+![Armure et bottes SSR pour la protection](/img/dtf/gear/06.jpg)
+
+### Puis les gants et les épées de tank {#dtf-tank-gloves-swords}
+
+Une fois que les quatre piliers ont leurs bottes : les gants pour les deux tanks (treize, quatorze), puis les épées pour les deux tanks (quinze, seizième). Les épées de tank ne sont pas prioritaires, mais elles ne sont pas inutiles en fin de partie — les statistiques comptent en fin de jeu, et certaines compétences de tank dépendent des dégâts ou de la récupération.
+
+### Le soutien en dernier — mais pas le moins important {#dtf-support-last}
+
+Le soutien ne court pas après la première épée car son rôle est de survivre, d'incanter et de buffer. Ordre : **armure → bottes → gants → épée** (de dix-sept à vingt). L'armure et les bottes le maintiennent en vie, les gants ajoutent des paramètres, et l'épée est la touche finale une fois que les quatre piliers sont équipés.
+
+![Ordre de fabrication de l'équipement basé sur les rôles](/img/dtf/gear/07.jpg)
+
+### Seuils de niveau : 20 d'abord, puis 40 {#dtf-level-thresholds}
+
+La fabrication n'est que le début. Premier véritable obstacle : **l'épée du carry principal au niveau 20** (bonus de critique pour lequel tout le projet d'épée existe), puis les gants principaux au niveau 10 ; répétez l'opération pour le deuxième carry (épée niveau 20, gants niveau 10) — c'est le minimum offensif requis. Ne vous dispersez pas en chemin vers l'armure de tank, les bottes de soutien et les épées du deuxième tank, sous peine de voir votre progression stagner.
+
+La survie suivante provient des **bottes au niveau 20** (résistance énergétique) dans l'ordre suivant : DPS principal → deuxième DPS → tank principal → deuxième tank → soutien. Ensuite, **l'armure au niveau 20** (tank principal, deuxième tank, DPS principal, deuxième DPS, soutien — à ajuster selon les rapports : si la ligne arrière meurt trop vite → armure de DPS plus tôt ; si la ligne avant fond → tanks en premier).
+
+Puis vient la phase avancée : les épées des carrys vers la limite actuelle d'étoiles (le principal d'abord, puis le second), suivies des gants des DPS, puis de la défense. **Les bottes des quatre piliers au niveau 40** constituent l'une des meilleures mesures défensives contre les méta énergétiques — les héros survivent pour lancer une compétence de plus, ce qui peut décider de l'issue du combat. Ensuite, **l'armure des tanks au niveau 40** (bonus physiques pour la première ligne), l'armure des DPS (niveau 30 pour les stats de base et les PV en chemin, niveau 40 en perspective). Pour le soutien : les bottes à 20/40, l'armure à 20/40, les gants, et l'épée en dernier.
+
+### Étoiles : là où les vraies difficultés commencent {#dtf-star-order}
+
+Les étoiles se débloquent lorsque l'atelier d'équipement atteint le niveau 20 et nécessitent des plans : 1 étoile = 5, 2 étoiles = +10, 3 étoiles = +15, 4 étoiles = +20 (**50 plans bleus par objet pour atteindre 4 étoiles**) ; la 5e étoile nécessite des plans rouges — un projet de luxe réservé aux objets qui resteront longtemps sur le héros principal (le DPS principal en premier, puis le deuxième DPS, suivi de la défense de l'équipe).
+
+![Atelier et plans de la boutique d'honneur](/img/dtf/gear/08.jpg)
+
+Ordre des étoiles : **2 étoiles sur l'épée du carry principal** (gain de puissance et relèvement de la limite) → 1 étoile sur les gants principaux → 2 étoiles sur l'épée du deuxième carry → 1 étoile sur les deuxièmes gants → épée principale vers 4 étoiles → bottes des quatre piliers à 2 étoiles → gants et armure des DPS, tanks, puis clés pour 5 étoiles. Les effets des épées augmentent les dégâts en combat ; l'armure aide contre les critiques ; les bottes réduisent les dégâts critiques ; les gants ajoutent des dégâts et de la résistance — mais les objets rouges ne sont pas à distribuer à la légère.
+
+### D'où viennent les plans {#dtf-blueprint-sources}
+
+Les plans sont liés à la boutique d'honneur et aux événements de médailles (Arène, Élixir, Guerre du Royaume, Canyon, Vallée de Cristal). Ne ratez jamais les événements de la monnaie d'honneur, même lorsque vous avez l'impression de ne pas avoir besoin de plans — ils deviendront le goulet d'étranglement le plus critique plus tard. Choisissez d'abord l'objet, puis rassemblez les ressources nécessaires.
+
+### Une escouade forte vaut mieux que deux à moitié bâties {#dtf-one-squad}
+
+Trône, tour, château, Arène, Élixir, Canyon, Vallée de Cristal : la première escouade doit anéantir l'adversaire, et une seconde escouade moyenne ne sauvera pas la mise. Maximisez d'abord l'escouade principale, puis la seconde, et enfin la troisième. Aide-mémoire pour la fabrication, les niveaux et les étoiles :
+
+Fabrication : épée DPS principal → épée deuxième DPS → gants principal → gants deuxième → armure DPS principal → armure deuxième DPS → armure tank principal → armure deuxième tank → bottes ×4 → gants de tank ×2 → épées de tank ×2 → armure/bottes/gants/épée du soutien.
+
+![Schéma de fabrication de l'équipement doré pour cinq héros](/img/dtf/gear/09.jpg)
+
+Niveaux : épée principal au niveau 20 → gants principal au niveau 10 → épée deuxième au niveau 20 → gants deuxième au niveau 10 → bottes des quatre piliers au niveau 20 → armure des tanks et DPS au niveau 20 → épées des DPS au maximum → bottes des quatre piliers au niveau 40 → armure des tanks au niveau 40 → gants/armure des DPS en cours → soutien en dernier.
+
+![Aide-mémoire des niveaux](/img/dtf/gear/10.jpg)
+
+Étoiles : 2★ épée principal → 1★ gants principal → 2★ épée deuxième → 1★ gants deuxième → épée principal à 4★ → bottes des quatre piliers à 2★ → gants, armure, tanks, clés 5★ des DPS.
+
+En cas de doute : est-ce que cela augmente mes dégâts principaux ou aide l'escouade principale à survivre pour lancer ses compétences ? Un point rougeoyant n'est pas votre patron.
+
+> Source : [Last Asylum: Plague - гайд по снаряжению героев](https://dtf.ru/howto/5113955-last-asylum-plague-kak-pravilno-prokachat-snarjazhenie-geroev) par Гейм-Знаток sur DTF.

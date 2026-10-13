@@ -3,7 +3,7 @@ title: "🏆 Gids voor het Evenement Supreme Duel"
 description: "Beheers het cross-server Supreme Duel-arenatoernooi in Last Asylum: Plague — schema van het Era van Dag 58, 5 toernooifases, de meta met 3 squadrons (best-of-3), de voorspellingsmuntenwinkel en kampioensbeloningen."
 lang: nl
 type: event
-updated: "2026-09-14"
+updated: "2026-10-12"
 videoTopic: arena
 ---
 
@@ -111,3 +111,59 @@ Zes permanente bronnen voeden het leiderschap en hun bijdragen zijn alles behalv
 Permanente bronnen tellen op tot 490 soldaten onder één held, waarvan 350 alleen al door heldenniveaus. Standbeelden geven 100, technologieën 20, en het bezitten van de zwarte mijn voegt 50 toe zolang de alliantie deze behoudt.
 
 De praktische conclusie is kort. Heldenniveaus zijn de enige echte hefboom voor het aantal, en het factiestandbeeld komt op de tweede plaats, waarbij al het andere het totaal afrondt.
+
+---
+
+## Supreme Duel-veldhandleiding: Gevechtspunten, Wraak en Voorspellingen {#dtf-field-guide}
+
+Het formaat lijkt op de Driehoek Arena — drie squads tegen drie, twee overwinningen beslissen de match — maar de gewoonte van "offer er één op, win er twee" werkt hier niet altijd. **Gevechtspunten** bepalen de vroege fasen: 2:1 winnen met een gehavend leger levert soms minder punten op dan een tegenstander met schonere gevechten. F2P-spelers kunnen nog steeds profiteren via voorspellingen, vuurwerk en koninkrijkbeloningen zonder ooit de troon te ruiken.
+
+![Opperste Duel in Last Asylum Plague](/img/dtf/supreme-duel/01.jpg)
+
+### Opening, registratie en drie echte squads {#dtf-opening}
+
+Gekoppeld aan het Tijdperk van de Heropleving (Era of Revival): verschijnt op **dag 58 van het seizoen**, duurt **27 dagen**, vereist **Sanctuarium 20+**, brengt **16 oorlogszones** samen. Geen knop betekent dat jouw tijdperk die dag nog niet heeft bereikt — geen bug. Registratie is handig met een **venster van 5 dagen**: mis je de knop, dan kijk je toe vanaf de tribune.
+
+![Supreme Duel regels en basis](/img/dtf/supreme-duel/02.jpg)
+
+Kwalificatiewedstrijden gebruiken een **3v3 deathmatch**: squads betreden om de beurt het veld en het winnende squad vecht door tegen het volgende vijandelijke squad met de overlevende soldaten totdat één kant al zijn drie teams verliest. Eén supersquad plus twee overgebleven restteams presteert ondermaats — een winnend squad dat schoon overleeft ketent door naar het volgende gevecht, en een zwakke staart voert precies dezelfde truc uit voor de tegenstander. Bouw drie bruikbare squads (elk met front + schade), niet één perfecte; controleer tanks en hoofd-carries (een gemaxte Marlena/Zoe met alle uitrusting terwijl squad 2–3 er niet doorheen komt betekent dat uitrusting herverdelen meer helpt dan nog een level voor squad 1).
+
+![3v3 deathmatch en squadvolgorde](/img/dtf/supreme-duel/04.jpg)
+
+### Gevechtspuntenformule {#dtf-points}
+
+Punten tellen twee dingen: uitgeschakelde vijandelijke soldaten en je eigen overlevende soldaten. Per vijandelijke soldaat van tier N: **(1 + N) × 6** (licht, zwaar en volledig verloren tellen allemaal mee). Per overlevende soldaat van dezelfde tier aan jouw kant: **(1 + N) × 9**. De kwalificatieregel is dus **schone overwinningen boven vuile overwinningen** — een squad dat wint met behoud van het grootste deel van het leger en doorschakelt is goud waard. Tanks, overlevingskracht en balans over drie squads verslaan een hoog totaalcijfer voor macht.
+
+![Puntentellingsregels voor gevechtspunten](/img/dtf/supreme-duel/08.jpg)
+
+Goed nieuws: echte troepen sterven nooit en slaan de ziekenboeg over — de game levert soldaten, dus experimenteren is gratis. Maar hun tier is je **hoogst ontgrendelde tier** (T9 versus T8 bij vergelijkbare helden is al een voorsprong). Voordat je de squads vergrendelt, dien je een bijna voltooid troepentier af te ronden — dit geeft alle drie de teams een buff — en vervolgens de uitrusting te herverdelen van een al winnend squad 1 naar de tanks/carries van 2 en 3. Prioriteit bij schaarse middelen: troepentier → zwakke tank → zwakke squad-carry → uitrusting.
+
+### Kwalificatiewedstrijden, wraak en play-offs {#dtf-stages}
+
+Plaatsing voor de knock-outs verspreidt de **top-8 op basis van machtsranglijst (Might)** van elk koninkrijk over groepen, zodat monsters elkaar niet in de eerste ronde ontmoeten — goed voor het hele koninkrijk aangezien een diepere run meer gedeelde beloningen oplevert. Voorrondes matchen automatisch **8 vergelijkbare tegenstanders over 4 dagen**, de top 8 op basis van Gevechtspunten gaat door.
+
+![Toernooifasen](/img/dtf/supreme-duel/05.jpg)
+
+![Geplaatste spelers en voorrondes](/img/dtf/supreme-duel/07.jpg)
+
+**Wraak (tweede kans):** 2 tegenstanders per dag voor de eerste 3 dagen, daarna 1 per dag; een competitie binnen de groep, geen gefarm op één comfortabele rivaal. Gevechten blijven 3 teams / 2 overwinningen. **Top 2 per groep bereikt de play-offs**, en vanaf hier betekent een verloren wedstrijd dat de run erop zit. Herbouw opstellingen per serie — één universele setup voor het hele toernooi is een lek; verken facties, helden, Raven, uitrusting en plaats het squad met de schoonste overwinning waar het het schoonst wint.
+
+**Play-off:** series tot 2 overwinningen (maximaal 3 wedstrijden); **finale tot 3 overwinningen (maximaal 5)**. Kwalificatie-Gevechtspunten en overlevenden doen er niet meer toe — series-overwinningen wel, dus pas je tactiek harder aan op de specifieke tegenstander met factietellers en de toewijzing van helden.
+
+### Voorspellingen, vuurwerk en waar de prijzen voor dienen {#dtf-predictions}
+
+Eliminatie beëindigt het evenement niet: latere fasen openen **Voorspellingen** — kies verwachte winnaars voor **Voorspellingsmunten** in een aparte winkel. Maximaal **5 voorspellingen per dag**; vertrouw niet op automatische terugbetalingen voor fout aangeduide winnaars. Pure F2P-waarde: goed gokken is goedkoper dan de winnaar worden.
+
+Het parallelle **Grote Feest (Grand Celebration)** besteedt **Supreme Vuurwerk** aan een ondersteuningsspoor met kisten: versnellingen voor onderzoek, universele UR-scherven, studierollen, UR-bronnenpakketten plus Kluizenaarsmunten (Hermit Coins, bijv. 200/400/600 over beloningen). Geef ze uit binnen het evenement, niet als souvenirs — en claim ze voor de kwalificatie-overgang, aangezien feestbeloningen gereset worden bij de volgende fase.
+
+![Beloningen van de fase Grote Feest](/img/dtf/supreme-duel/09.jpg)
+
+Prijzen beginnen vroeg: kwalificatiedeelname bij **1, 2, 3, 5 en 10 overwinningen** plus een ranglijsttabel (**1, 2–3, 4–8, 9–20, 21–50**), dus doorspelen zonder kans op de top-8 levert nog steeds iets op. **Koninkrijkbeloningen** schalen mee met de beste runs van het koninkrijk — zwakke persoonlijke resultaten incasseren alsnog wanneer landgenoten ver komen. Wraakprijzen worden opgevoerd met **universele Held-ontwaking scherven** voor de 1e/2e/3e-8e plaats. Play-offs en de finale bevatten de zeldzaamstebuit: kampioen **avatarframe, geanimeerde emoji en Kroning** plus grondstoffen.
+
+![Beloningen voor kwalificatie, wraak en play-off](/img/dtf/supreme-duel/11.jpg)
+
+Voorbereidingschecklist: alle drie de squads met front + schade (geen "overgebleven" derde), troepentier afgerond, uitrusting opnieuw in balans gebracht, kwalificatie-overleving afgestemd (overlevenden leveren meer punten op dan kills), daarna wraak-/play-off-tegenstrategieën per tegenstander bouwen.
+
+![Voorbereidingsplan voor Supreme Duel](/img/dtf/supreme-duel/14.jpg)
+
+> Bron: [Last Asylum: Plague - Верховная дуэль: полный гайд. Советы, секреты, тактика.](https://dtf.ru/howto/5270517-verhovnaya-duel-v-last-asylum-plague-sovety-i-taktika) door Гейм-Знаток op DTF.

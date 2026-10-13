@@ -2,7 +2,7 @@
 title: "Viễn Chinh Liên Quốc (KvK): Sinh tồn & Tính điểm"
 description: "Chiến tranh giữa các máy chủ để tranh giành Thành Hoàng Gia: lịch trình hai tuần một lần, chiến thuật ưu tiên tháp pháo cho phe tấn công, chiến thuật trì hoãn cho phe phòng thủ, rủi ro về lính và tài nguyên, cùng phần điểm số trùng lặp với Đấu Trường Liên Minh."
 lang: vi
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: kvk
 calculators: []
 infographics: []
@@ -90,3 +90,86 @@ Các giá trị đã được xác minh từ dữ liệu client trò chơi (v1.0
 | 50 | 10 | 45 | 8.000 | 1.200 |
 | 100 | 5 | 40 | 7.000 | 1.000 |
 | Thấp hơn | 3 | 30 | 5.000 | 600 |
+
+---
+## KvK thực chiến: Vai trò, Sinh tồn và Giao tranh Thông minh {#practical-kvk}
+
+KvK phơi bày khoảng cách giữa sức mạnh tài khoản và kỹ năng chơi game một cách nhanh chóng. Các siêu đội hình "cá voi" áp đặt giới hạn đỉnh cao, nhưng mọi bậc sức mạnh đều có việc thực tế để làm: top đầu chiến đấu vì lâu đài và tháp, người chơi tầm trung gây phân tâm và hạ gục các pháo đài sơ hở, còn những người yếu hơn sẽ hữu ích hơn nhiều bằng cách bảo tồn quân đội và ghi điểm thông qua các cơ chế an toàn thay vì cống nạp quân số chỉ trong hai phút.
+
+### Đầu tiên: đây sẽ là loại chiến tranh nào? {#server-rules}
+
+Các vị vua và lãnh đạo server thường **đàm phán các quy tắc giao tranh** — ví dụ: không đốt các Thánh địa thông thường, chỉ chiến đấu vì các tháp và lâu đài trung tâm. Khi cả hai bên tôn trọng điều đó, trận chiến sẽ giữ được trật tự. Khi server kia nói "chúng tôi phòng thủ theo bất kỳ cách nào chúng tôi muốn", đội hình đẹp sẽ tan rã trong ba mươi giây và bạn sẽ bị đốt cháy trước khi trận chiến bắt đầu. **Đọc thư vương quốc và chat lãnh đạo trước KvK**: chiến đấu theo mục tiêu bình tĩnh hay chiến tranh Thánh địa toàn diện thay đổi mọi thứ — đứng ở đâu, có cần khiên hay không, mang theo bao nhiêu quân, chơi hổ báo đến mức nào.
+
+### Danh sách chuẩn bị: quân lính, hồi phục, năng lượng, dịch chuyển tức thời {#kvk-prep}
+
+Một tuần tiết kiệm có thể bốc hơi trong vài phút — lính, hồi phục, tăng tốc và năng lượng đều cạn kiệt cùng lúc. Kiểm tra cả bốn yếu tố trước khi chiến tranh, trong đó **kho quân đội đặt lên hàng đầu**: vài phút tồi tệ có thể biến bạn thành một pháo đài mang tính trang trí cho phần còn lại của sự kiện.
+
+Thiết lập tường thành một cách có chủ đích: **một Đội 1 mạnh thực sự có thể đẩy lùi một cuộc tấn công**, chứ không phải cả ba đội đều bật tự động — đội 2–3 yếu trên tường thành chỉ làm thổi phồng tổn thất. Và nếu một "quái vật" thực thụ đang lao đến, **hút toàn bộ quân về và để họ đốt một Thánh địa trống**. Ít anh hùng hơn; binh lính vẫn là của bạn.
+
+### Ba đội hình tư duy: top, trung bình, yếu {#player-roles}
+
+Không phải ai cũng xông vào lâu đài. Nếu Đội 1 của bạn yếu hơn nhiều lần so với những kẻ phòng thủ ngai vàng, việc lao vào đó liên tục là vô nghĩa:
+
+- **Top đầu** giữ tháp và lâu đài — hấp thụ vài đợt tấn công, duy trì dòng viện quân liên tục, làm mỏneo cho các mục tiêu.
+- **Người chơi tầm trung** hoạt động xung quanh trận chiến chính — đốt các pháo đài trong tầm với, bắt bài đối thủ khi đội hình chính của họ đi vắng, quấy rối kẻ địch khỏi các mục tiêu.
+- **Người chơi yếu** trên hết là **không được tặng điểm miễn phí**. Ghi điểm an toàn thông qua các ô tài nguyên và hoạt động phụ, do thám bản đồ, phát hiện các mục tiêu trong tầm với, giữ lại quân đội. Điểm cá nhân nhỏ tốt hơn việc cống hiến quân đội trong hai phút — không có gì phải xấu hổ cả.
+
+![Vai trò của người chơi trong KvK: top, trung bình và yếu](/img/dtf/kvk/01.jpg)
+
+### Kẻ tấn công: khoảng cách là một phần của trận chiến {#attacker-distance}
+
+Phe phòng thủ đang ở nhà: họ bố trí người chơi xung quanh các mục tiêu, di chuyển giữa các vị trí và phản ứng nhanh chóng. Kẻ tấn công trước tiên phải **tìm một nơi để đứng** — và các miệng hố pháo đài bị thiêu rụi gần lâu đài sẽ dần làm tắc nghẽn không gian, đẩy các điểm dịch chuyển của kẻ tấn công mới ra xa hơn. Không bao giờ dịch chuyển "đến bất cứ đâu nó hạ xuống" cho một trận chiến nghiêm túc: trong khi đội hình chính của bạn chạy trong ba mươi giây, kẻ địch sẽ lẻn ra sau lưng bạn và đốt pháo đài của bạn. Kiểm tra **thời gian hành quân, không chỉ mục tiêu**, trước mỗi lần dịch chuyển.
+
+![Chiến thuật miệng hố xung quanh các pháo đài bị cháy](/img/dtf/kvk/02.jpg)
+
+![Phòng thủ lâu đài trung tâm và các tháp](/img/dtf/kvk/03.jpg)
+
+### Đừng biến thành "thức ăn" {#dont-feed}
+
+Vòng lặp thua cuộc kinh điển: tấn công trung tâm đang bị chiếm giữ, thua, hồi máu, tấn công, thua, tấn công lần thứ ba với mong đợi phép màu. Nếu khoảng cách sức mạnh quá lớn và bạn hầu như không làm sứt mẻ gì phe phòng thủ, **hãy thay đổi nhiệm vụ, thay vì số lần thử** — đánh tạt sườn vào các mục tiêu trong tầm với và ghi điểm ở đó. KvK không phải là một trận đấu danh dự: hãy đi vòng qua một bức tường không thể vượt qua.
+
+Khi trung tâm trở thành một cỗ máy xay thịt, **các ô tài nguyên thì nhàm chán nhưng hợp lý**: ghi điểm từ một vị trí có khiên an toàn trong khi server không thể giữ mục tiêu hoặc tài khoản của bạn không có việc gì làm trong cuộc hỗn chiến trung tâm. Không ai vỗ tay cho ba đội thu thập tài nguyên — nhưng chúng vẫn tốt hơn là bốc hơi dưới chân của một "nhà tài trợ" top đầu.
+
+![Ghi điểm KvK thông qua các ô tài nguyên từ một vùng an toàn](/img/dtf/kvk/04.jpg)
+
+### Nút khiên có thể lật ngược toàn bộ trận chiến của bạn {#shield-trap}
+
+Đang đứng trong khiên, ghi điểm, quyết định viện trợ cho đồng minh — **khiên biến mất**. Vài giây sau, một nửa server địch bắt đầu quan tâm đến bạn. Trước bất kỳ hành động hữu ích nào, hãy kiểm tra xem nó có làm mất bảo vệ hay không. Nếu khiên rơi xuống, hãy thay đổi chiến thuật ngay lập tức: quay lại nơi an toàn hoặc PvP cơ động toàn diện (bay vào, đánh, rời đi, hồi máu, chờ dịch chuyển, quay lại). Lựa chọn tồi tệ nhất: ngồi yên hy vọng không ai chú ý. Trên KvK, họ chú ý rất nhanh.
+
+![Khiên pháo đài trong KvK: mất bảo vệ sau một hành động chủ động](/img/dtf/kvk/05.jpg)
+
+### Đánh và chạy: chiến lược tốt nhất của người chơi tầm trung {#hit-and-run}
+
+Nếu bạn không thể giữ một tháp trước các top đầu, bạn vẫn có thể khiến họ phải quay đi:
+
+1. Chọn một đối thủ ngang tầm hoặc thấp hơn bạn một chút.
+2. Di chuyển lại gần, đánh và **rời đi ngay khi những kẻ săn đuổi tụ tập**.
+3. Hồi máu, phục hồi năng lượng, chờ cơ hội tiếp theo.
+
+Ba hoặc bốn kẻ đuổi theo rời khỏi lâu đài là giá trị đội: một người chơi tầm trung không bao giờ đánh bại được một server top, nhưng mười người chơi cơ động tạo ra sự hỗn loạn liên tục trong khi những thành viên mạnh nhất của bạn xử lý các mục tiêu.
+
+![Đòn tấn công PvP cơ động trong KvK](/img/dtf/kvk/06.jpg)
+
+### Tấn công khi đội hình chính của địch rời đi {#empty-fortress}
+
+Một người chơi top gần như không thể bị đánh bại khi Đội 1 ở nhà — nhưng họ phải tham gia chiến đấu. Đội xuất phát đến tháp hoặc lâu đài, và Thánh địa phía sau trở nên thú vị hơn. Bạn thậm chí không cần thiêu rụi hoàn toàn: **bắt đầu cuộc tấn công thường khiến đội chính phải quay về**, và đội top đã quay về sẽ không còn hỗ trợ cho mục tiêu nữa. Đó đã là một chiến thắng. Quy tắc đối xứng: đừng dịch chuyển quá xa nạn nhân đến mức pháo đài trống của chính bạn bị thiêu rụi khi đội chính vẫn đang trên đường — từng giây đều có giá trị.
+
+Hãy để một bức tường mạnh mẽ cày cuốc giúp bạn: nếu các đội yếu liên tục gục ngã trước Đội 1 của bạn, **hãy ở nhà và để họ lặp lại sai lầm đó** — điểm số sẽ tự động bay về. Nhưng hãy chú ý xem ai là người tiếp theo đến; khi một người chơi thực sự mạnh hơn xếp hàng, hãy rời đi trước khi họ chứng minh điều đó lên toàn bộ quân đội của bạn.
+
+### Cái bẫy viện quân {#reinforcement-trap}
+
+Viện quân trông có vẻ là sự trợ giúp hiển nhiên — cho đến khi một đội viện quân yếu chết ngay lập tức và biến thành điểm số cho kẻ địch. Trong một trận chiến được dẫn chứng, kẻ tấn công mất chưa đầy 300 lính trong khi phía bên kia mất gần 9.000: một đội viện quân yếu đã dâng cho kẻ tấn công một "bữa tiệc" điểm PvP khổng lồ. **Đừng viện quân chỉ vì muốn giúp đỡ** — nếu đội đó rõ ràng không đủ trình độ của cuộc chiến, hãy giữ họ ở lại nhà. Những người giữ thành mạnh cần quân lính giúp kéo dài thời gian giữ chân, chứ không phải một bữa tiệc miễn phí.
+
+### Quân số thấp? Dừng giao tranh {#low-army}
+
+Khi chỉ còn hai hoặc ba nghìn lính, việc bay vào trung tâm "vì KvK đang diễn ra" là điều đáng ngờ — khi đó không còn ba đội thực thụ nữa, đôi khi thậm chí không có cả đội thứ hai. Hãy chuyển chế độ: chỉ nhắm vào các mục tiêu có thể với tới, thu thập điểm, canh bản đồ, hỗ trợ thông tin tình báo. Một khi phần thưởng cá nhân đã được nhận (một lần chạy được dẫn chứng đã hoàn thành mọi thứ ở mốc 2,8M+ điểm cá nhân), mọi trận chiến mới phải chứng minh được rủi ro của nó đối với server, chứ không phải vì bảng thành tích nổi bật.
+
+### Top làm mỏ neo, tháp không phải là thứ yếu {#tops-towers}
+
+Những người chơi mạnh nhất nên là **mỏ neo tại các mục tiêu cốt lõi, không phải thợ săn các pháo đài ngẫu nhiên**. Một Đội 1 có sức mạnh 34M không thể bị đánh bật khỏi tháp là một trường hợp kinh điển: hãy xây dựng lực lượng viện quân và lớp chắn người chơi tầm trung xung quanh nó trong khi nó giữ vững thứ quyết định kết quả. Không bao giờ gửi toàn bộ sức mạnh top vào một mình lâu đài — việc kiểm soát một phần tháp gây áp lực lên trung tâm và làm phân tán lực lượng phòng thủ, vì vậy hãy phân công liên minh theo các hướng **trước** khi trận chiến bắt đầu.
+
+Ngay cả một trận KvK thất bại cũng mang lại bài học: một server yếu hơn nhưng vẫn liên tục cướp bóc, giữ được một tháp ở đây, bắt được các mục tiêu yếu ở kia, và kéo các top của địch về nhà sẽ học được cách đánh giá mục tiêu, thời điểm và rút lui — đồng thời thấy rõ chính xác những gì đội chính còn thiếu (xe tăng, hồi máu, quân lính, năng lượng, tốc độ hồi phục) cho lần sau.
+
+![Người chơi top nên làm gì trong KvK](/img/dtf/kvk/07.jpg)
+
+> Source: [Война Королевств в Last Asylum: Plague - советы по КВК](https://dtf.ru/howto/5340999-voyna-korolevstv-last-asylum-plague-sovety-po-kvk) by Гейм-Знаток on DTF.

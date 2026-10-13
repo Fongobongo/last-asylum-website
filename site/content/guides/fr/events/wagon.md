@@ -2,7 +2,7 @@
 title: "Chariot de Guilde & Caravanes"
 description: "Runs quotidiennes gratuites de chariots, règles des coffres du Maître de chariot et des gardes, rafraîchissements du Chariot doré, stratégie des fragments UR des caravanes, pillage inter-serveurs et priorité des coffres or-violet-bleu."
 lang: fr
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: wagon
 calculators: []
 infographics: []
@@ -99,3 +99,57 @@ Lorsque vous regardez une carte étrangère pleine de caravanes, l'ordre des cib
 
 - **Vérifiez le nombre d'étoiles et les récompenses avant d'attaquer** — l'aperçu montre ce que le coffre rapporte.
 - **Meilleure couleur + plus d'étoiles = meilleures récompenses.** La couleur d'abord, les étoiles pour départager.
+
+---
+
+## Guide du cocher : courses en or, VIP et défense {#coachman-playbook}
+
+La caravane de l'alliance roule **une fois par jour**. Le R4/R5 nomme le **cocher** (кучер) ; les membres ordinaires ne peuvent pas prendre place d'eux-mêmes. Après la nomination, la caravane ne part pas tout de suite : une **phase de préparation de 4 heures** s'ensuit, durant laquelle le cocher amélore la caravane, les passagers prennent place, le VIP est assigné et la défense est configurée. Une caravane peut être **pillée jusqu'à 3 fois par course**, avec une partie de la cargaison réellement en jeu — il s'agit d'une livraison, pas seulement de récompenses.
+
+### Pourquoi le rôle de cocher est important
+
+Le cocher est le grand gagnant de la course : en plus des quatre chariots standard, il y a un **chariot de tête caché**, si bien que le cocher récolte environ **cinq chariots de récompenses** au lieu d'un. Maintenez une rotation transparente — une file d'attente, des récompenses d'activité ou le classement du Duel d'alliance fonctionnent tous ; un cocher permanent sans explication engendre du ressentiment.
+
+### Première règle : rendez-la dorée
+
+Après sa nomination, la première tâche du cocher est de rafraîchir la caravane. **5 rafraîchissements × 5 tickets de caravane = 25 tickets** pour une **Caravane dorée** garantie. Le cocher n'a pas à tout payer seul : les passagers qui embarquent dans la caravane peuvent contribuer avec des tickets, et la norme saine au sein de l'alliance est de **2 à 3 tickets par personne** plutôt qu'un seul. Une fois le cinquième rafraîchissement obtenu, arrêtez-vous — ne transformez pas la caravane en roulette en cherchant un jet cosmique. Il y a une autre caravane demain.
+
+![Des joueurs contribuant avec des tickets pour une Caravane dorée](/img/dtf/wagon/01.jpg)
+
+![Cinq rafraîchissements de caravane pour atteindre la qualité dorée](/img/dtf/wagon/02.jpg)
+
+### Discipline des passagers : surveillez l'effectif, pas seulement le magot
+
+Chaque chariot ordinaire ne peut contenir **que 5 personnes**. Le trop-plein est géré par le jeu lui-même — et le passager éjecté est souvent celui qui s'est assis le premier. Un chariot un peu moins bon avec 3 ou 4 passagers calmes vaut mieux qu'un chariot jackpot surchargé de huit personnes. Les places peuvent être changées librement pendant les 4 heures, alors **revérifiez peu de temps avant le départ**.
+
+![Choisir un chariot : les emplacements surpeuplés peuvent vous expulser](/img/dtf/wagon/03.jpg)
+
+### Passager VIP : deux chariots, choisis par le cocher
+
+Au **Niveau de Don d'alliance 20**, la caravane débloque un **passager VIP** : au lieu d'un seul chariot, le VIP en prend **deux choisis par le cocher**. Mettez-vous d'accord sur le VIP à l'avance — l'invitation reste active pendant **60 minutes**, et un refus ou un oubli signifie qu'il faut attendre ou réinviter. Après l'acceptation, le cocher sélectionne manuellement les deux chariots (demandez au joueur lesquels il souhaite). Le VIP **ne peut pas être expulsé** comme un passager ordinaire, et ne peut pas revenir à une place normale — ce qui est rarement un sacrifice avec deux chariots.
+
+![Assigner le passager VIP et choisir les chariots](/img/dtf/wagon/04.jpg)
+
+### Gardes : uniquement si nettement plus forts
+
+Un garde poste ses troupes pour la défense mais **prend une part des récompenses du cocher**. Si vos propres troupes sont déjà plus fortes que celles du garde candidat, cela n'a aucun sens — vous payez de la cargaison pour rien. Règle : n'invitez un garde **que s'il est clairement plus fort que le cocher** ; sinon, prenez le VIP et gardez toutes les récompenses.
+
+![Emplacements de garde et de passager VIP](/img/dtf/wagon/05.jpg)
+
+### Actualisez vos troupes de défense — et leurs épigraphes
+
+Les trois troupes de défense doivent être **sauvegardées à nouveau après chaque amélioration majeure du compte** : de nouveaux héros, de nouveaux dégâts, un nouveau corbeau ou de nouvel équipement ne servent à rien si la caravane défend toujours avec la composition du mois dernier. Vérifiez que les bonnes **épigraphes sont attribuées aux bonnes troupes** — une épigraphe mal placée fait perdre des combats.
+
+### Niveau de don, règle des 24 heures et seconde course dorée
+
+- Les **bonus** de caravane (mouvement plus rapide, moins de tentatives de pillage, défense de base, déblocage VIP) proviennent de l'onglet des dons — consultez cet onglet plus d'une fois. Au **Niveau de don 25**, les chariots ordinaires gagnent une **capacité de passagers supplémentaire**, ce qui compte pour les grandes alliances actives.
+- Améliorez le Don d'alliance lui-même : l'agriculture active de Fléau (Blight) ainsi que les points supplémentaires des invocations avancées l'augmentent, ce qui se traduit par une caravane plus rapide et plus difficile à piller.
+- **Les nouveaux membres doivent passer 24 heures dans l'alliance** avant de pouvoir rejoindre la caravane — n'oubliez pas cela après un transfert.
+- Pendant la préparation, récupérez vos **accords commerciaux** (ils arrivent par courrier si vous les oubliez). Les passagers qui embarquent laissent également des **j'aime** au cocher — c'est peu, mais le jour du cocher est le jour de l'amour du peuple.
+- Une **seconde caravane dorée par jour existe mais coûte plus cher à chaque fois**. Elle est destinée aux grandes alliances dont la première caravane déborde — ce n'est pas un impératif pour une course à moitié vide.
+
+![Amélioration du Don d'alliance, aidée par l'agriculture de Fléau](/img/dtf/wagon/06.jpg)
+
+Une bonne caravane, c'est quand tout le monde y met un peu du sien : le cocher rend la course dorée, vérifie la défense et place le VIP ; les passagers surveillent leur chariot ; l'alliance se met d'accord sur des règles au lieu d'improviser tous les soirs.
+
+> Source : [Last Asylum: Plague - полный гайд по Каравану](https://dtf.ru/howto/5303398-last-asylum-plague-karavan-gayd) par Гейм-Знаток sur DTF.

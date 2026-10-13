@@ -2,7 +2,7 @@
 title: "Duel Aliansi: Panduan Lengkap"
 description: "Enam hari kategori poin, final PvP hari Sabtu, mekanisme fase demi fase dengan nilai poin yang tepat, penumpukan Misi Menara Raven, dan ekonomi hemat segalanya yang memenangkan peti tertinggi."
 lang: id
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: alliance_duel
 calculators: []
 infographics: ["/infographics/duel-day-guide.webp", "/infographics/duel-savings.webp"]
@@ -152,3 +152,65 @@ Dan duel bukanlah acara yang terisolasi: duel berkontribusi langsung ke **Perang
 5. Melewatkan riset Hadiah Super 1 dan 2 di Lab — membiarkan tier 4–9 terkunci sepenuhnya meskipun memiliki poin.
 6. Membiarkan papan quest membeku pada kapasitas penuh alih-alih menahannya satu slot di bawah maksimal.
 7. Mengabaikan hari reset hari Minggu dan memasuki siklus berikutnya tanpa persiapan.
+
+---
+
+## Duel Alians Hari ke Hari: Kalender Lapangan (DTF) {#dtf-calendar}
+
+Duel berlangsung hampir sepanjang minggu dengan sistem poin yang berotasi: Senin energi/sumber daya, Selasa konstruksi, Rabu penelitian, Kamis hero, Jumat pelatihan pasukan, Sabtu KvK. Kesalahan pemula adalah menghabiskan semuanya saat didapatkan — misi Falcon diklaim hari Minggu, peti Raven dibuka hari Selasa, antitoksin dihabiskan hari Senin, pelatihan massal di tengah minggu. Akun memang berkembang, tetapi duel hampir tidak mendapatkan apa-apa. Simpanlah sumber daya berdasarkan hari.
+
+![Panduan hari ke-hari Duel Alians](/img/dtf/alliance-duel/01.jpg)
+
+### Teknologi duel sebagai prioritas {#dtf-tech}
+
+Cabang penelitian duel di Lab melipatgandakan poin di dalam event, membuat setiap minggu berikutnya menjadi lebih hemat. Waktu terbaik untuk mengembangkannya adalah pada hari **Rabu**, saat kecepatan penelitian, gulungan (scroll), dan peningkatan kekuatan teknologi memberikan skor secara bersamaan. Bangun teknologi duel terlebih dahulu, lalu Pasukan Elite dan Transportasi Karavan jika keduanya juga memerlukan gulungan khusus — satu penelitian semacam itu menghasilkan gulungan + kecepatan + kekuatan sekaligus (misalnya 1.280 gulungan dengan ~750 poin ≈ 960.000 sebelum kecepatan dan kekuatan). Satu cabang penuh tidak akan selesai dalam seminggu, tetapi beberapa level saja sudah mendekatkan peti personal dan menghemat item kecepatan.
+
+### Senin: Falcon, energi, pengumpulan, Raven {#dtf-monday}
+
+Misi Falcon yang diselesaikan pada hari Minggu dibiarkan tidak diklaim: Menara Falcon yang berkembang menyimpan puluhan pesanan yang sudah selesai ditambah cadangan di layar, sehingga hari Senin dimulai dengan tumpukan besar yang siap saji (dengan ~30.000 poin masing-masing, 40–50 misi yang disimpan adalah awal yang sangat baik — tetapi jangan sampai penyimpanan penuh atau pesanan baru tidak akan tersimpan). Barisan utama menghabiskan energi alami terlebih dahulu untuk Blight/pencuri/target peta, lalu botol, lalu isi ulang berlian murah — periksa selisih poin ke peti berikutnya sebelum membeli habis isi toko. Barisan lainnya mengumpulkan gandum/kayu/ramuan dari petak peta; produksi benteng tidak dihitung, hanya pengiriman dari peta yang dihitung.
+
+![Misi Falcon yang disimpan sebelum duel](/img/dtf/alliance-duel/02.jpg)
+
+Simpan antitoksin untuk hari Kamis; habiskan sedikit saja pada hari Senin sekadar untuk mencapai target peti. Timbun Buah Raven dan Esensi sepanjang minggu lalu habiskan pada hari Senin — peningkatan atribut Raven ditambah peti Epigraf menghasilkan poin yang besar. Biarkan peti perlengkapan Raven untuk hari Rabu. Setelah reset mingguan, periksa toko Kehormatan untuk cetak biru (blueprint) serta Esensi dan kecepatan.
+
+### Selasa: bangunan, karavan, penyintas {#dtf-tuesday}
+
+Poin berasal dari kecepatan konstruksi (~150/menit) namun hadiah utamanya adalah bangunan siap selesai yang masih menyisakan ikon palu: perolehan kekuatan dari bangunan yang sudah selesai (misalnya 5.300 kekuatan pada 30 poin ≈ 159.000) masuk saat diklik, jadi klaim Tempat Perlindungan/Lab/tanah/barak yang sudah disiapkan pada Selasa pagi. Prioritaskan bangunan yang mahal. Jangan membekukan seluruh ekonomi: pertanian/gergaji kayu/petak bunga yang sudah selesai tidak dapat dikumpulkan saat sedang dalam status palu, jadi tinggalkan satu dari setiap jenis (dan satu bengkel manual) yang tidak diblokir agar produksi tetap berjalan.
+
+![Perolehan kekuatan bangunan pada hari Selasa](/img/dtf/alliance-duel/03.jpg)
+
+Ambil gelar **Menteri Konstruksi** sebelum melakukan peningkatan yang lama (pengurangan waktu besar pada Tempat Perlindungan tingkat tinggi; antre lebih awal di server yang kompetitif). Jalankan karavan dan operasi rahasia hingga tingkat emas dengan penyegaran gratis terlebih dahulu, lalu kristal — satu karavan yang bagus ≈ 300.000. Rekrut penyintas di Tavern (bukan rekrut hero — mekanisme dan jalur hadiahnya berbeda).
+
+### Rabu: penelitian dan perlengkapan Raven {#dtf-wednesday}
+
+Kecepatan penelitian, kekuatan teknologi, gulungan khusus, dan peti perlengkapan Raven. Biarkan misi Falcon hari Selasa tidak diklaim untuk membuka hari Rabu dengan tumpukan yang siap.
+
+![Penelitian dan perlengkapan Raven hari Rabu](/img/dtf/alliance-duel/04.jpg)
+
+Prioritas: cabang duel, lalu Pasukan Elite / Transportasi Karavan — teknologi yang membutuhkan gulungan memberikan hasil terbaik. Kumpulkan peti perlengkapan Raven sepanjang minggu dan buka pada hari Rabu; kualitas yang lebih tinggi memberikan hasil lebih banyak, lalu gabungkan secara massal perlengkapan Raven untuk mendapatkan poin peti dan kekuatan perlengkapan. Jangan pernah membukanya saat baru didapatkan.
+
+![Menghabiskan gulungan untuk penelitian hari Rabu](/img/dtf/alliance-duel/05.jpg)
+
+### Kamis: rekrutmen dan pertumbuhan hero {#dtf-thursday}
+
+Poin untuk tiket rekrutmen Tavern, fragmen, peningkatan bintang, lencana keahlian, dan antitoksin. Simpan tiket, fragmen personal, lencana keahlian, dan antitoksin untuk hari ini. Tarikan Tavern memberikan hero beserta fragmen personal dari hero yang ditarik — bukan fragmen universal, yang harus didapatkan dari event/toko. Tarik dalam jumlah puluhan saat tiket memungkinkan. Urutan: **bintang pada hero utama → lencana keahlian → antitoksin untuk level**. Beri makan skuad pertama, bukan seluruh daftar hero; habiskan fragmen personal pada tim yang aktif dan simpan fragmen universal untuk hero yang kuat/langka.
+
+![Peningkatan bintang dan keahlian hero pada hari Kamis](/img/dtf/alliance-duel/06.jpg)
+
+Periksa tahap hero Survival Battle terlebih dahulu — fragmen/lencana/antitoksin yang sama dapat dihitung di kedua event tersebut. Hari Kamis biasanya selesai paling cepat: rekrut, kembangkan tim utama, kumpulkan.
+
+### Jumat: pasukan plus Royal Rumble {#dtf-friday}
+
+Pelatihan dan peningkatan pangkat, dengan Royal Rumble pada hari yang sama — pasukan harus mencetak poin dan bertempur. Klaim misi Falcon hari Kamis yang disimpan pada pagi hari, lalu fokus pada area latihan (grounds). Sisakan kecepatan konstruksi/penelitian untuk minggu depan kecuali ada peti yang hanya berjarak beberapa poin lagi. Ambil gelar **Menteri Perang**; gunakan area latihan lemah untuk memproduksi pasukan tingkat menengah secara massal (misalnya batch T6 yang besar) lalu latih ulang ke T9 di area latihan utama — terkadang lebih cepat daripada melatih T9 langsung. Sediakan pasukan lemah dan kecepatan pelatihan terlebih dahulu; memulai hari Jumat sudah terlalu terlambat untuk promosi besar-besaran.
+
+![Pelatihan pasukan dan Royal Rumble hari Jumat](/img/dtf/alliance-duel/07.jpg)
+
+### Sabtu: KvK, penyembuhan, perisai {#dtf-saturday}
+
+KvK dibuka: pindah teleport ke kerajaan musuh, serang benteng, bunuh pasukan untuk mendapatkan poin pertempuran. Serangan terhadap rival duel biasanya memberikan hasil terbaik, namun pertempuran KvK lainnya tetap dihitung. Persiapan sebelum berangkat: barisan utama, teleport, kapasitas rumah sakit, stok perisai — hari Sabtu memberikan poin terbanyak dan paling cepat membuat kota nol (hancur). Kecepatan penyembuhan juga menghasilkan poin, jadi pasukan terluka yang diparkir sebelum hari Sabtu dapat menunggu tahap ini — tetapi jangan pernah membiarkan rumah sakit kelebihan kapasitas, pasukan yang meluap akan mati. Nyalakan perisai pada Jumat malam: setelah melakukan serangan sendiri, perisai akan turun dan aktif kembali hanya setelah pengatur waktu pertempuran selesai, jadi simpan cadangan perisai plus teleport, mundur ke tanah aliansi atau gunakan teleport acak, dan bersiaplah menghadapi jeda waktu masuk kembali selama beberapa menit setelah meninggalkan zona pertempuran.
+
+![Penggunaan perisai sebelum KvK hari Sabtu](/img/dtf/alliance-duel/08.jpg)
+
+Poin tim: Senin biasanya paling murah, Selasa–Jumat lebih berat, Sabtu dapat menentukan hasil minggu tersebut. Kehilangan hari Senin tidak ada artinya — penelitian yang bersih, hero, pasukan, dan KvK dapat membalikkan total skor. Periksa jendela detail duel untuk melihat skor per hari.
+
+> Source: [Дуэль альянсов в Last Asylum: Plague - гайд по дням](https://dtf.ru/howto/5238861-duel-alyansov-last-asylum-plague-strategii-i-sovety) oleh Гейм-Знаток di DTF.

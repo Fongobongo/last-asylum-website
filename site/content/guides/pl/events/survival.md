@@ -2,7 +2,7 @@
 title: "Bitwa o przetrwanie: 60 tys. darmowych odznak i 4-godzinne rotacje faz"
 description: "Tygodniowe wydarzenie misji zapewniające ok. 60 000 darmowych Odznak Umiejętności: 5 kategorii zadań, 4-godzinne fazy rotacji, naliczanie punktów za szkolenie żołnierzy w kolejce oraz synchronizacja z Pojedynkiem Sojuszy."
 lang: pl
-updated: "2026-09-15"
+updated: "2026-10-12"
 videoTopic: survival
 type: event
 ---
@@ -205,3 +205,51 @@ Zweryfikowane wartości z danych klienta gry (w1.0.87), źródło: wiki-last-asy
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Jak długo trwa każda faza Bitwy o przetrwanie?", "acceptedAnswer": {"@type": "Answer", "text": "Każda faza trwa 4 godziny; istnieje pięć faz tematycznych: bohaterowie, terytorium, wojsko, technologia i kruk."}}, {"@type": "Question", "name": "Kiedy przyznawane są punkty za szkolenie wojsk?", "acceptedAnswer": {"@type": "Answer", "text": "W momencie, gdy naciśniesz Szkol/Awansuj i zasoby zostaną pobrane — a nie po zakończeniu odliczania."}}]}
 </script>
+
+---
+
+## Codzienna pętla Bitwy o przetrwanie: pieczęcie, energia i pokrywanie się z Pojedynkiem (DTF) {#dtf-daily-loop}
+
+Wydarzenie odbywa się codziennie w ramach pięciu rotacyjnych motywów — trening wojsk, badania technologiczne, ulepszanie Raven, rozwój bohaterów, rozwój terytorium. Nie potrzebujesz wszystkich pięciu: **18 Pieczęci Przetrwania zapewnia trzy codzienne skrzynie**, tzn. trzy w pełni ukończone motywy. Prawdziwą wygraną jest pokrycie się z Pojedynkiem Sojuszu — budowa we wtorek, badania w środę, trening w piątek — dzięki czemu te same przyspieszenia dają korzyści dwukrotnie.
+
+![Pięć motywów przetrwania i 18 pieczęci na trzy skrzynie](/img/dtf/survival/02.jpg)
+
+### Jak działają pieczęcie i rankingi {#dtf-seals}
+
+Kolejność rotuje codziennie bez stałego harmonogramu — otwórz wydarzenie przed wydatkami i sprawdź aktywny oraz następny motyw. Każdy motyw ma **4 etapy dające 1+1+2+2 = 6 pieczęci**; 18 pieczęci oznacza ukończenie trzech motywów. Nagrody za etapy (odznaki umiejętności, przyspieszenia, surowce) dochodzą dodatkowo. Ukończenie wszystkich pięciu motywów daje około **8 000 odznak umiejętności dziennie**, do ~9 600, jeśli powtarza się powracający motyw treningu. Codzienna tabela liderów daje bazową nagrodę w surowcach za każdy wynik oraz lepsze nagrody wyżej — idź dalej niż 18 tylko wtedy, gdy motyw pokrywa się z planowanym rozwojem; spalanie zapasów przyspieszeń tylko dla rankingu rzadko się opłaca.
+
+![Nagrody za ranking w Przetrwaniu](/img/dtf/survival/03.jpg)
+
+Najtańsze codzienne trio dla większości kont: **Raven (energia) + Bohaterowie (antyoksydant) + motyw dnia pojedynków** (wtorek – terytorium, środa – badania, piątek – wojska; sobota – cokolwiek najtańszego w zapasach). Po złotej skrzyni na 18 zatrzymaj się, chyba że następny motyw to zaplanowany wcześniej rozwój.
+
+### Wojska, badania, Raven, bohaterowie, terytorium {#dtf-themes}
+
+**Trening:** punkty ze przyspieszeń treningu i wzrostu armii na najlepiej rozwiniętym terenie (maks. tier), z innymi terenami załadowanymi lub przygotowującymi niższe tiery do awansu. Jeśli trening zaczyna się za godzinę, a partia prawie się kończy, w kolejce ustaw tylko pozostały czas, a po otwarciu motywu załaduj ją w pełni – brak bezczynnego terenu, ale większość wpada w oknie. Najlepszym dniem jest piątek z etapem treningu w pojedynku.
+
+![Trening wojsk w oknie motywu](/img/dtf/survival/04.jpg)
+
+**Badania:** punkty za przyspieszenia badań oraz wzrost potęgi technologii — zgraj zakończenie w czasie okna, potem zacznij następne, odbierz pomoc sojuszu, a następnie zdecyduj, co przyspieszyć. Jeśli jedna technologia daje wyraźnie większą potęgę, a następny etap wymaga tylko trochę, jej ukończenie przewyższa rozpraszanie przyspieszeń na małe; nie trzeba w pełni zamykać długiej technologii, gdy próg jest już zdobyty. Najlepszym dniem jest środa z badaniami w pojedynku.
+
+![Badania technologiczne a punktacja potęgi](/img/dtf/survival/06.jpg)
+
+**Raven — codzienny koń pociągowy:** dwa sposoby na zdobywanie punktów: rozwój owoców lub wydawanie energii. Zachowaj owoce na poniedziałkowy etap Raven w pojedynku; w inne dni wydawaj **energię** na Blight/złodzieji/bossów/zadania Falcona — normalna codzienna aktywność, bez dedykowanego kosztu. Około **300 energii** w pełni zamyka motyw (4 nagrody, 6 pieczęci). Połącz z Polowaniem na Złodzieji: słaby marsz znajduje małych złotych złodzieji i otwiera bossów, silny marsz uderza w duże cele. Skrót: wyślij najpierw oddział do bliższego pola surowców, a następnie przekieruj go na potwora, gdy obok niego przechodzi — to oszczędza wiele marszów dziennie.
+
+![Ulepszanie Raven poprzez energię i Polowanie na Złodzieji](/img/dtf/survival/08.jpg)
+
+**Bohaterowie — najszybszy motyw:** przywołania w tawernie plus antyoksydant; jeden dobrze dobrany awans poziomu często zamyka wszystkie czetery etapy. Otwórz kilku bohaterów, wybierz tego, którego koszt kolejnego poziomu jest najbliżej ostatecznego progu — nie wrzucaj 100M antyoksydanta tam, gdzie 20M go zamknęło. Zachowaj masowe przywołania na czwartkowy dzień bohaterów w pojedynku; antyoksydant zazwyczaj zamyka Przetrwanie taniej.
+
+![Rozwój bohaterów za pomocą antyoksydantu](/img/dtf/survival/10.jpg)
+
+**Terytorium:** przyspieszenia budowy oraz wzrost potęgi budynków. Odbierz kończący się duży budynek w oknie, gdy jest dostępny (bez czekania 15–30 dni na Sanktuarium/Lab); w przeciwnym razie wydawaj przyspieszenia w większych partiach (np. 5-minutowych) po odebraniu pomocy sojuszu. Najlepszym dniem jest wtorek z budową w pojedynku.
+
+![Rozwój terytorium za pomocą przyspieszeń budowy](/img/dtf/survival/11.jpg)
+
+### Pokrywanie się, ministrza i dyscyplina pieczęci {#dtf-overlap}
+
+Poniedziałek: pojedynek rozwija Raven — wydaj zgromadzone owoce w ramach motywu Raven dla podwójnych punktów. Wtorek: terytorium — odbierz przygotowane budynki wraz z przyspieszeniami budowy. Środa: badania — zwoje plus długie technologie. Czwartek: bohaterowie — bilety, fragmenty, antyoksydant, odznaki. Piątek: wojska — tereny podczas motywu treningu. Sobota: wolny wybór według zapasów. Nie dostosowuj konta do wydarzenia; dostosuj wydarzenie do planowanego rozwoju.
+
+Przed dużymi ulepszeniami obejmij pasujący tytuł ministra i obserwuj kolejkę: na pełnych listach 50/50 prośby wiszą w oczekiwaniu — aplikowanie przy **49/50** częściej trafia do aktywnej kolejki. Zaplanuj tytuły z wyprzedzeniem w dniach budowy/badań.
+
+Pieczęcie **resetują się codziennie** — 17 dzisiaj plus „jedna kolejna jutro” daje zero jutro. Jeśli brakuje jednego etapu do 18, weź najtańszy do zamknięcia motyw; nigdy nie gromadź pieczęci z nadzieją na ułatwienie sobie jutra.
+
+> Źródło: [Last Asylum: Plague - гайд по Битве на выживание](https://dtf.ru/howto/5240960-last-asylum-plague-gajd-po-bitve-na-vyzhivanie) , autor Гейм-Знаток (DTF).

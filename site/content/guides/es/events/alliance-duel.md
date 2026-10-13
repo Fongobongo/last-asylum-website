@@ -2,7 +2,7 @@
 title: "Duelo de Alianzas: Guía completa"
 description: "Seis días de categorías de puntos, una final de JcJ el sábado, mecánicas fase por fase con valores exactos, acumulación de Misiones de Halcón y la economía de ahorro que permite ganar el cofre máximo."
 lang: es
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: alliance_duel
 calculators: []
 infographics: ["/infographics/duel-day-guide.webp", "/infographics/duel-savings.webp"]
@@ -152,3 +152,65 @@ Y el duelo no es un evento aislado: se alimenta directamente de la **Guerra de R
 5. Omitir la investigación de Superrecompensa 1 y 2 en el Laboratorio, dejando los niveles 4–9 completamente bloqueados a pesar de tener los puntos.
 6. Dejar que el tablero de misiones se congele al alcanzar su capacidad en lugar de mantenerlo un espacio por debajo del máximo.
 7. Ignorar el día de reinicio del domingo y entrar al siguiente ciclo sin preparación.
+
+---
+
+## Duelo de alianzas día a día: Calendario de campo (DTF) {#dtf-calendar}
+
+El duelo dura casi toda la semana con puntuación rotativa: lunes energía/recursos, martes construcción, miércoles investigación, jueves héroes, viernes entrenamiento de tropas, sábado KvK. El error del principiante es gastar todo al recibirlo: misiones de Falcon reclamadas el domingo, cofres de Raven abiertos el martes, antitoxina quemada el lunes, entrenamiento masivo a mitad de semana. La cuenta crece, pero el duelo no obtiene casi nada. En su lugar, acumula por días.
+
+![Guía día a día del Duelo de alianzas](/img/dtf/alliance-duel/01.jpg)
+
+### Primero la tecnología de duelo {#dtf-tech}
+
+La rama de duelo del Laboratorio multiplica los puntos dentro del evento, abaratando cada semana futura. Se desarrolla mejor el **miércoles**, cuando las aceleraciones de investigación, los pergaminos y el aumento de poder tecnológico suman puntos juntos. Desarrolla primero la tecnología de duelo, luego Tropas de élite y Transporte de caravanas si también necesitan pergaminos especiales: una investigación de este tipo otorga pergaminos, aceleraciones y poder a la vez (p. ej., 1280 pergaminos a ~750 pts ≈ 960 000 antes de aceleraciones y poder). Una rama completa no se cerrará en una semana, pero incluso unos pocos niveles acercan los cofres personales y ahorran aceleraciones.
+
+### Lunes: Falcon, energía, recolección, Raven {#dtf-monday}
+
+Las misiones de Falcon hechas el domingo se quedan sin reclamar: una torre de Falcon desarrollada contiene docenas de encargos terminados más la reserva en pantalla, por lo que el lunes comienza con un gran lote listo (a ~30 000 pts cada una, 40-50 misiones guardadas son una gran ventaja inicial; pero no satures el almacenamiento o los nuevos encargos no se guardarán). La marcha principal gasta primero la energía natural en plaga, ladrones y objetivos del mapa, luego botellas y después recargas baratas de diamantes; revisa la brecha hasta el siguiente cofre antes de comprar toda la tienda. Otras marchas recolectan grano/madera/hierba de las casillas del mapa; la producción de la fortaleza no cuenta, solo las entregas del mapa.
+
+![Misiones de Falcon guardadas antes del duelo](/img/dtf/alliance-duel/02.jpg)
+
+Guarda la antitoxina para el jueves; gasta un poco el lunes solo para alcanzar un cofre. Acumula Fruta de cuervo y Esencia durante la semana y gástalas el lunes; las mejoras de estadísticas de Raven más los cofres de epígrafes cierran una gran parte. Deja los cofres de equipo de Raven para el miércoles. Después del reinicio semanal, revisa la tienda de honor para conseguir planos, esencia y aceleraciones.
+
+### Martes: edificios, caravanas, supervivientes {#dtf-tuesday}
+
+Los puntos provienen de las aceleraciones de construcción (~150/min), pero el premio gordo son los edificios listos que se quedaron con el icono del martillo: la ganancia de poder de un edificio terminado (p. ej., 5300 de poder a 30 pts ≈ 159 000) se acredita al hacer clic, así que reclama el Santuario/Laboratorio/terrenos/cuarteles preparados el martes por la mañana. Prioriza los edificios caros. No congeles toda la economía: una granja/aserradero/cantero de flores terminado no se puede recolectar mientras tenga el martillo, así que deja uno de cada tipo (y un taller manual) sin bloquear para mantener la producción fluyendo.
+
+![Ganancias de poder de construcción el martes](/img/dtf/alliance-duel/03.jpg)
+
+Consigue el título de **Ministro de construcción** antes de las mejoras largas (gran reducción de temporizador en santuarios de nivel alto; haz cola temprano en servidores disputados). Mueve las caravanas y las operaciones encubiertas a oro usando primero las actualizaciones gratuitas y luego los cristales; una buena caravana ≈ 300 000. Contrata supervivientes en la taberna (no invocaciones de héroes; es una mecánica y línea de recompensas diferente).
+
+### Miércoles: investigación y equipo de Raven {#dtf-wednesday}
+
+Aceleraciones de investigación, poder tecnológico, pergaminos especiales y cofres de equipo de Raven. Deja las misiones de Falcon del martes sin reclamar para abrir el miércoles con un lote listo.
+
+![Investigación y equipo de Raven del miércoles](/img/dtf/alliance-duel/04.jpg)
+
+Prioridad: rama de duelo, luego Tropas de élite / Transporte de caravanas; las tecnologías que cuestan pergaminos pagan mejor. Recoge cofres de equipo de Raven toda la semana y ábrelos el miércoles; mayor calidad paga más, luego fusiona en masa el equipo de Raven para obtener puntos de cofre y poder de equipo. Nunca los abras al recibirlos.
+
+![Gasto de pergaminos en la investigación del miércoles](/img/dtf/alliance-duel/05.jpg)
+
+### Jueves: invocaciones y crecimiento de héroes {#dtf-thursday}
+
+Puntos por tiquetes de invocación de la taberna, fragmentos, mejoras de estrellas, insignias de habilidad y antitoxina. Guarda tiquetes, fragmentos personales, insignias de habilidad y antitoxina para este día. Las tiradas de la taberna otorgan héroes más fragmentos personales de los héroes invocados (no fragmentos universales, que deben conseguirse en eventos/tiendas). Invoca de diez en diez cuando los tiquetes lo permitan. Orden: **estrellas en los héroes principales → insignias de habilidad → antitoxina para niveles**. Alimenta al primer escuadrón, no a todo el plantel; gasta fragmentos personales en el equipo activo y guarda los universales para héroes fuertes o raros.
+
+![Mejoras de estrellas y habilidades de héroes el jueves](/img/dtf/alliance-duel/06.jpg)
+
+Revisa primero la fase de héroes de Batalla de supervivencia; los mismos fragmentos/insignias/antitoxina pueden sumar en ambos eventos. El jueves suele cerrarse más rápido: invoca, haz crecer el equipo principal, recolecta.
+
+### Viernes: tropas y Royal Rumble {#dtf-friday}
+
+Entrenamiento y ascensos de rango, con el Royal Rumble el mismo día; el ejército debe puntuar y luchar. Reclama por la mañana las misiones de Falcon guardadas del jueves y luego céntrate en los campos de entrenamiento. Deja las aceleraciones de construcción/investigación para la semana que viene a menos que estés a unos puntos de un cofre. Toma el título de **Ministro de guerra**; usa campos de entrenamiento débiles para producir en masa tropas de nivel medio (p. ej., un lote grande de T6) y luego reentrénalas a T9 en el campo principal (a veces es más rápido que hacer T9 directas). Abastece tropas débiles y aceleraciones de entrenamiento de antemano; empezar el viernes es demasiado tarde para grandes ascensos.
+
+![Entrenamiento de tropas y Royal Rumble del viernes](/img/dtf/alliance-duel/07.jpg)
+
+### Sábado: KvK, curación, escudos {#dtf-saturday}
+
+Se abre el KvK: teletransórtate al reino enemigo, ataca fortalezas y mata tropas para conseguir puntos de batalla. Los ataques al rival del duelo suelen pagar mejor, pero otras peleas de KvK cuentan. Antes del vuelo: marcha principal, teletransporte, espacio en la enfermería, reserva de escudos (el sábado es cuando más puntos da y más rápido pone a cero). Las aceleraciones de curación también puntúan, por lo que los heridos estacionados antes del sábado pueden esperar a la fase, pero nunca satures la enfermería; las tropas que sobran mueren. Pon el escudo el viernes por la noche: después de tu propio ataque, el escudo cae y se reactiva solo tras el temporizador de batalla, así que mantén un escudo de repuesto y teletransporte, retírate al territorio de la alianza o usa un teletransporte aleatorio, y espera un bloqueo de reentrada de unos pocos minutos tras abandonar la zona de incursión.
+
+![Uso de escudos antes del KvK del sábado](/img/dtf/alliance-duel/08.jpg)
+
+Puntos de equipo: el lunes suele ser el más barato, de martes a viernes es más pesado, el sábado puede decidir la semana. Un lunes perdido no significa nada: una investigación limpia, héroes, tropas y el KvK le dan la vuelta al total. Revisa la ventana de detalles del duelo para ver las puntuaciones por día.
+
+> Fuente: [Дуэль альянсов в Last Asylum: Plague - гайд по дням](https://dtf.ru/howto/5238861-duel-alyansov-last-asylum-plague-strategii-i-sovety) por Гейм-Знаток en DTF.

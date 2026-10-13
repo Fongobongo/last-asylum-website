@@ -2,7 +2,7 @@
 title: "Cơ bản: phe phái & đội hình"
 description: "Phần hướng dẫn về tướng: cơ bản: phe phái & đội hình."
 lang: vi
-updated: "2026-10-01"
+updated: "2026-10-12"
 videoTopic: heroes
 ---
 
@@ -227,3 +227,174 @@ Các trang đề cập đến trang này. Danh sách được xây dựng từ m
 
 
 ---
+
+## Nên Xây Dựng Tướng Đỡ Đòn Nào: Arthur, Daskal, Brian hay Louis {#dtf-tank-choice}
+
+Ai cũng muốn những con số gây sát thương khủng trước tiên, nhưng nếu tuyến đầu sụp đổ trong những giây đầu tiên thì sát thương chủ lực sẽ chẳng bao giờ thể hiện được gì. Một tướng đỡ đòn giỏi sẽ chịu đòn đánh đầu tiên, câu giờ để tung chiêu, giảm sát thương gánh chịu — đôi khi bằng khiên, tự hồi máu hoặc bảo vệ chống lại một loại sát thương cụ thể. Arthur, Daskal, Brian và Louis đều làm điều này theo những cách khác nhau.
+
+![Arthur, Daskal, Brian và Louis: so sánh bốn tướng đỡ đòn](/img/dtf/hero-basics/01.jpg)
+
+![Vai trò của từng tướng đỡ đòn: Arthur, Daskal, Brian và Louis](/img/dtf/hero-basics/02.jpg)
+
+### Arthur: tướng đỡ đòn an toàn nhất cho hầu hết tài khoản {#dtf-arthur-safe}
+
+Arthur là tuyến đầu đa dụng. Anh ta không đòi hỏi một đội hình hoàn hảo xung quanh mình — anh ta bước lên và phát huy hiệu quả trong PvP, PvE, giai đoạn đầu và giai đoạn chuyển giao.
+
+- **Khiên Chiến Đấu** — đòn đánh vật lý cơ bản vào một mục tiêu.
+- **Chấn Động Địa Cầu** — đòn đánh diện rộng giúp đồng minh chịu ít sát thương vật lý hơn.
+- **Vững Như Thạch** — khiên cá nhân gắn liền với HP tối đa của Arthur.
+- **Ý Chí Kiên Định** — nội tại giảm sát thương gánh chịu cho các tướng đỡ đòn đồng minh.
+- **Kiên Cường** — tăng Tấn Công, HP, Phòng Thủ và đẩy nhanh tốc độ hồi chiêu.
+
+Kết quả: sự ổn định thay vì những khoảnh khắc bùng nổ. Anh ta là tướng đỡ đòn bạn có thể xây dựng trước tiên mà không tự bó buộc mình vào một chiến lược quá hẹp.
+
+![Arthur, tướng đỡ đòn đa dụng cho PvP, PvE và F2P](/img/dtf/hero-basics/03.jpg)
+
+### Daskal: tuyến đầu dày dặn và khiên bảo vệ {#dtf-daskal-shields}
+
+Daskal chiến đấu dựa vào khiên, khả năng sinh tồn và tự hồi phục. Nếu Arthur là trụ đá, thì Daskal là lớp cửa bọc thép bổ sung.
+
+- **Ý Chí Chiến Đấu** — đòn đánh vật lý cơ bản.
+- **Phòng Thủ Đẫm Máu** — khiên toàn đội gắn liền với Phòng Thủ.
+- **Xuyên Thấu Tử Thần** — gây sát thương cộng thêm hồi HP cho bản thân Daskal.
+- **Chiến Đấu Kiên Quyết** — khiên khởi đầu cho các tướng đỡ đòn đồng minh.
+- **Kiên Cường** — Tấn Công/HP/Phòng Thủ cộng thêm tốc độ hồi chiêu nhanh hơn.
+
+Anh ta tỏa sáng khi đứng cạnh Arthur (sự ổn định đa dụng + khiên và tự hồi máu) và trong các đội hình Chiến Binh cần một tuyến đầu vững chắc để chủ lực hoạt động bình tĩnh. Hãy chọn anh ta khi Arthur đã xuất hiện và bạn cần một tướng đỡ đòn mạnh thứ hai, hoặc khi đội hình bị chùng xuống ở giai đoạn đầu trận.
+
+![Daskal: khiên, tự hồi máu và khả năng sinh tồn của đội](/img/dtf/hero-basics/04.jpg)
+
+### Brian: tướng đỡ đòn cho trận chiến kéo dài {#dtf-brian-long}
+
+Brian không chuyên về các lớp khiên lớn. Anh ta làm giảm sức ép từ kẻ địch và duy trì sự hữu ích trong những trận chiến kéo dài.
+
+- **Vuốt Sắc** — đòn đánh vật lý cơ bản.
+- **Cắn Xé Uy Hiếp** — gây sát thương cộng thêm giảm sát thương gánh chịu cho toàn bộ đồng minh.
+- **Tiếng Hú Ánh Trăng** — phản lại một phần sát thương nhận phải.
+- **Dòng Máu Sói** — nội tại giảm toàn bộ sát thương gánh chịu.
+- **Kiên Cường** — Tấn Công/HP/Phòng Thủ tiêu chuẩn và gia tăng hồi chiêu.
+
+Phù hợp nhất trong các trận PvE kéo dài, tuyến đầu cứng cáp và hướng đi Pháp Sư — một lựa chọn có tính toán và đến muộn hơn khi bạn đã nắm rõ các phe phái và chế độ chơi, không phải là một vị tướng cho giai đoạn đầu hỗn loạn.
+
+![Brian: giảm sát thương cho các trận chiến kéo dài](/img/dtf/hero-basics/05.jpg)
+
+### Louis: chuyên gia khắc chế dồn sát thương và năng lượng {#dtf-louis-anti-burst}
+
+Louis là vị tướng mang tính tình huống cao nhất trong bốn người — và là lời giải cho các đội hình tấn công chớp nhoáng có thể tiêu diệt mục tiêu trong vài giây hoặc gây áp lực bằng sát thương năng lượng.
+
+- **Xiềng Xích** — đòn đánh cơ bản.
+- **Roi Chéo** — gây sát thương, Louis tự hồi máu, cộng thêm giảm sát thương gánh chịu.
+- **Liên Kết Sức Mạnh** — cắt giảm sát thương năng lượng nhắm vào đồng minh gần đó.
+- **Tinh Thần Bất Khuất** — giảm mạnh sát thương gánh chịu và hỗ trợ chống lại đòn đánh chí mạng.
+- **Kiên Cường** — tấn công, HP, phòng thủ và tốc độ hồi chiêu.
+
+Không phải là viên gạch đầu tiên xây nền móng, nhưng là công cụ đặc biệt để đối phó với các meta địch đánh nhanh khi tuyến đầu đã được bịt kín.
+
+![Louis: khắc chế dồn sát thương và áp lực năng lượng](/img/dtf/hero-basics/06.jpg)
+
+### Ai mạnh hơn trong PvP và PvE {#dtf-tank-pvp-pve}
+
+Thứ tự PvP: **Arthur → Daskal → Louis → Brian**. Sự ổn định và giá trị trong pha giao tranh đầu tiên của Arthur dẫn đầu; các lớp khiên của Daskal câu thời gian cho chủ lực; Louis vượt lên trên Brian vì khả năng sống sót qua đợt dồn sát thương mở màn quyết định kết quả PvP; điểm mạnh của Brian cần áp lực kéo dài hơn.
+
+Thứ tự PvE: **Arthur → Brian → Daskal → Louis**. Arthur tiếp tục giữ vị trí hàng đầu nhờ tính đa dụng; Brian vươn lên trong các trận đấu kéo dài và giảm sát thương; Daskal theo sau với khiên và độ dày dặn; Louis thu hẹp phạm vi áp dụng cho các trận đấu có sát thương dồn hoặc áp lực năng lượng thực sự.
+
+![So sánh tướng đỡ đòn trong PvP và PvE](/img/dtf/hero-basics/07.jpg)
+
+### Thứ tự cho F2P và những sai lầm với tướng đỡ đòn {#dtf-tank-f2p}
+
+Quy tắc cho F2P và người nạp ít: **Arthur → Daskal → tùy tình huống**. Một tướng đỡ đòn mạnh vẫn hơn bốn tướng mới xây dựng được nửa vời. Những lỗi phổ biến: xây dựng tướng đỡ đòn mà không có kế hoạch đội hình (Brian đi kèm không có hướng Pháp Sư, Louis đi kèm không có meta áp lực năng lượng); nuôi cả bốn tướng cùng lúc; quên mất chủ lực (một bức tường không có sát thương sẽ thua trận một cách chậm chạp); sao chép đội hình của người khác mà không có các điều kiện tương tự.
+
+![Ưu tiên tướng đỡ đòn cho F2P và người nạp ít](/img/dtf/hero-basics/08.jpg)
+
+Tóm tắt nhanh cá nhân: chưa có gì cả → Arthur; đã có Arthur và tuyến đầu phải biến thành bức tường → Daskal; đội hình hệ thống về sau cho các trận chiến kéo dài → Brian; đội hình địch đánh nhanh tiêu diệt tướng trong vài giây → Louis.
+
+![Arthur, Daskal, Brian hay Louis: kết luận](/img/dtf/hero-basics/09.jpg)
+
+> Source: [Last Asylum: Plague: Артур, Даскал, Брайан или Луис - какого танка качать](https://dtf.ru/howto/5104617-kakogo-tanka-kachat-v-last-asylum-plague) by Гейм-Знаток on DTF.
+
+## Đội Hình: Hai Tướng Đỡ Đòn Phía Trước, Chủ Lực Ở Giữa {#dtf-formation}
+
+Sức mạnh thuần túy dễ đánh lừa người chơi. Một đội hình đắt đỏ sẽ thua cuộc khi chủ lực đứng ở tuyến đầu, tướng đỡ đòn ẩn mình phía sau, và thanh kiếm mạnh nhất lại được trao nhầm tướng.
+
+![Hướng dẫn đội hình tướng tốt nhất](/img/dtf/hero-basics/10.jpg)
+
+### Ưu tiên phe phái trước, sau đó là phần thưởng đồng phe {#dtf-faction-bonus}
+
+Warriors đánh bại Warlocks, Warlocks đánh bại Rangers, Rangers đánh bại Warriors. Hầu hết người chơi đều xây dựng đội hình cốt lõi Warrior trước vì các tướng giỏi của hệ này xuất hiện sớm hơn; trên một máy chủ nhiều Warrior, Rangers sẽ trở thành hướng đi thứ hai vững chắc — thậm chí một đội Ranger yếu hơn một chút vẫn có thể tạo bất ngờ trước Warriors nhờ lợi thế phe phái.
+
+![Phe phái Warrior, Ranger và Warlock](/img/dtf/hero-basics/11.jpg)
+
+Năm anh hùng thuộc cùng một phe sẽ cho **+20% HP, tấn công và phòng thủ** (bốn tướng cho 15%). Đó là lý do tại sao ba tướng vàng cộng với hai tướng tím Warrior ngon cùng hệ thường xuyên đánh bại năm tướng vàng ngẫu nhiên: hãy kiểm tra tiền thưởng đội hình trước khi ngưỡng mộ lực chiến của một anh hùng đơn lẻ.
+
+### Ai đứng hàng trước {#dtf-front-roles}
+
+Các anh hùng có vai trò cũng như phe phái: khiên = tướng đỡ đòn (tank), và tank là những người nhận những đòn tấn công đầu tiên.
+
+![Biểu tượng phe phái và vai trò của anh hùng](/img/dtf/hero-basics/12.jpg)
+
+Đội hình cơ bản bình thường: **hai tank ở hàng trước, sát thương và hỗ trợ ở hàng sau**. Một carry mạnh ở hàng trước sẽ chết trước khi kịp tung chiêu — kẻ gây sát thương tốt nhất phải sống sót để sử dụng kỹ năng, chứ không phải chết anh dũng từ đầu.
+
+![Tank ở hàng trước, sát thương ở hàng sau](/img/dtf/hero-basics/13.jpg)
+
+### Bố trí đội hình Warrior hiệu quả: Arthur, Bella, Marlena, Claire, Harper {#dtf-warrior-formation}
+
+Xây dựng theo vai trò, không phải theo tổng lực chiến:
+
+- Hàng trước: **Arthur (trái), Bella (phải)** — giữ vững trận địa càng lâu càng tốt.
+- Hàng sau: **Marlena ở giữa** (nguồn sát thương chính có nhiều thời gian nhất trong các trận chiến cân bằng), **Claire** ở một bên làm sát thương phụ, **Harper** ở bên kia làm hỗ trợ.
+
+![Ví dụ đội hình hoàn chỉnh trên chiến trường](/img/dtf/hero-basics/14.jpg)
+
+Trinh sát kẻ địch trước trận đấu: nếu một mục tiêu khó chịu đối đầu với Marlena, hãy đổi chỗ cô ấy với Claire — nhưng hãy bắt đầu với Marlena ở giữa.
+
+### Lực chiến ngang nhau không nói lên nhiều điều {#dtf-equal-might}
+
+Đấu trường (Arena) ghép cặp với những lực chiến gần như tương đồng nhưng diễn biến chiến đấu lại khác nhau vì chỉ số này gộp chung cả tướng, đội hình, trang bị, sự phát triển của carry chính — và lính (T1–T10, với T10 là mục tiêu giai đoạn cuối riêng thông qua Trấn Huấn Luyện và nghiên cứu). Hai đội có lực chiến tương đương có thể khác biệt hoàn toàn chỉ vì bậc lính.
+
+![Đội hình so với Trấn Huấn Luyện với lính T9](/img/dtf/hero-basics/15.jpg)
+
+### Luôn mở báo cáo trận đấu {#dtf-battle-report}
+
+Sau khi thua một đối thủ ngang tầm, hãy kiểm tra xem ai gây ra sát thương, ai chết trước và tướng nào đang mang trang bị tốt nhất. Hai Marlena cấp 135 không phải là một khi số sao, kỹ năng và kiếm khác nhau — báo cáo chiến đấu sẽ cho thấy điều đó.
+
+![Đọc báo cáo sau trận đấu](/img/dtf/hero-basics/16.jpg)
+
+### Trang bị phải phù hợp với vai trò {#dtf-gear-by-role}
+
+Các tank như Arthur cần giáp và giày trước; carry chính cần thanh kiếm mạnh nhất và các món tăng tấn công. Một thanh kiếm tuyệt vời trên một tank trong khi Marlena dùng vũ khí cấp 20 sẽ làm phí phạm cả hai món đồ và chẳng giúp ích gì cho trận chiến. Với nguyên liệu khan hiếm, một bộ trang bị tấn công thực thụ cho carry chính sẽ mạnh hơn năm anh hùng có vẻ ngoài lung linh ngang nhau.
+
+![Trang bị của tank và carry sau trận Đấu trường](/img/dtf/hero-basics/17.jpg)
+
+Cho đến khoảng cấp 20, một số anh hùng có thể được nâng cấp cùng nhau. Vượt qua mốc đó, chi phí sẽ tăng vọt — hãy tập trung vào hai tướng gánh đội hình một (thêm tướng gây sát thương chính cộng với tank chính, ví dụ: kiếm của Marlena và khiên của Arthur) và để phần còn lại ở mức cơ bản đủ dùng.
+
+### Ai cần ưu tiên nâng cấp trước, ai sau {#dtf-first-focus}
+
+Đối với đội hình Warrior đầu tiên: **Marlena gây sát thương, Arthur mua thời gian cho cô ấy** — sau đó đến tank thứ hai, Claire, Harper và những người còn lại. Hãy hoàn thành một nâng cấp quan trọng thay vì rải thuốc giải độc và mảnh tướng ra cho mọi lượt triệu hồi mới.
+
+![Marlena và Arthur: cốt lõi của Warrior](/img/dtf/hero-basics/18.jpg)
+
+Tướng nạp tiền rất hữu ích — việc tiếp cận sớm là một lợi thế thực sự trong lúc người khác phải chờ đợi — nhưng họ vẫn cần phe phái, vị trí, số sao, kỹ năng và trang bị. Hãy coi tiến độ nhanh hơn là cách để tháo gỡ một điểm nghẽn cụ thể.
+
+Khi đội hình xuất phát Warrior đã vững vàng, hãy xây dựng **Rangers thứ hai** trên các máy chủ nhiều Warrior: vẫn giữ mẫu 2 tank hàng trước, 5 tướng cùng phe để nhận trọn buff, sát thương ở hàng sau (tướng sát thương thứ hai có thể đứng tạm vào mà không cần hỗ trợ). Đừng vội cân bằng cả hai đội hình — đội hình đầu tiên tiếp tục giải quyết các nhiệm vụ khó nhất trong khi đội hình thứ hai trở thành chuyên gia khắc chế Warrior.
+
+![Đội hình Ranger đấu với Warriors](/img/dtf/hero-basics/19.jpg)
+
+Đừng nhồi nhét mọi tướng vàng vào đội hình một: đôi khi ba tướng vàng cộng hai tướng tím cùng phe cho đội đầu tiên, với số tướng vàng còn lại bắt đầu một đội hình thứ hai thực thụ, sẽ giúp tài khoản phát triển lành mạnh hơn (một đội chính, một đội khắc chế phe phái, một đội cho phần còn lại) thay vì năm tướng mạnh nhất đứng trước và phần thừa thãi vứt bừa bãi đâu đó.
+
+### Ngày Thứ Năm và các cửa hàng {#dtf-thursday-shops}
+
+Nếu liên minh của bạn tổ chức Đấu Trường (Duels), hãy giữ lại các tài nguyên nâng cấp tướng quan trọng (thuốc giải độc, mảnh tướng, huy hiệu kỹ năng, vé triệu hồi) cho **ngày Thứ Năm** — ngày của tướng cộng với điểm sự kiện cho cùng một hành động. Trong các cửa hàng: Vinh quang (Honor) = bản vẽ trang bị trước; Viễn chinh (Expedition) = mảnh tướng vạn năng, vé triệu hồi, thuốc giải độc; Thánh địa (Sanctuary) = các mảnh tướng có sẵn. Hãy mua để bù đắp cho sự thiếu hụt hiện tại (mảnh sao cho Marlena, trang bị cho Arthur), chứ không mua mọi thứ trông có vẻ hữu ích.
+
+![Nên mua gì trong các cửa hàng của trò chơi](/img/dtf/hero-basics/20.jpg)
+
+### Danh sách kiểm tra thất bại và kế hoạch từ con số không đến sẵn sàng {#dtf-defeat-checklist}
+
+Sau một trận thua: đội hình (carry ở hàng trước?) → buff phe phái (bị phá vỡ vì một tướng mạnh hơn?) → trang bị (kiếm xịn nhất nằm trên tank?) → sao và kỹ năng. Thứ tự đó giúp tìm ra nguyên nhân trước khi hàng triệu tài nguyên tiếp theo bị ném vào.
+
+![Thứ tự phát triển đội hình từ con số không](/img/dtf/hero-basics/21.jpg)
+
+Từ con số không đến sẵn sàng: một đội hình đủ 5 tướng cùng phe → hai tank hàng trước, carry mạnh nhất ở giữa hàng sau → trang bị vàng cơ bản lên cấp ~20, ngừng nâng cấp tràn lan → tài nguyên đắt đỏ dồn vào vũ khí của carry chính và đồ phòng thủ của tank chính → phe phái thứ hai (Rangers trên máy chủ Warrior) → đội thứ ba chỉ tính đến sau đó.
+
+> Nguồn: [Last Asylum: Guide to Heroes and Squads](https://dtf.ru/games/333333-last-asylum-plague) bởi AI Translator trên DTF.
+
+> Source: [Last Asylum: Plague - гайд по лучшей расстановке героев](https://dtf.ru/howto/5245716-last-asylum-plague-sovety-po-rasstanovke-geroev) bởi Гейм-Знаток trên DTF.

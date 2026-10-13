@@ -3,7 +3,7 @@ title: "Claire: Abilità, Build e Livelli"
 description: "Claire è un guerriero SSR che ricopre il ruolo di DPS. Completamente potenziata, raggiunge 685.150 di Potenza, posizionandosi al 12° posto su 16 tra gli eroi DPS del gioco. Per sbloccarla servono 10 frammenti (Frammento di Claire)..."
 videoTopic: "claire"
 lang: it
-updated: "2026-09-19"
+updated: "2026-10-12"
 type: guide
 ---
 
@@ -285,3 +285,35 @@ Entrambe le forme condividono lo stesso frammento: 10 di essi sbloccano la Clair
 Le stelle richiedono l'investimento maggiore per Claire, non in termini di distintivi ma di attesa: 975 frammenti, mentre un reclutamento fornisce un frammento di eroe in circa il 26% delle estrazioni. Le abilità salgono al livello 40 richiedendo 436.700 distintivi ciascuna e offrono rendimenti inferiori: Richiamo del Coraggioso raggiunge un massimo del 24% di danni contro i mostri rispetto al 30% della forma avanzata.
 
 La migliore squadra con Claire e nessun eroe UR è composta da Kesso, Lucius, Sivir, Bella e la stessa Claire: cinque guerrieri, un bonus del +20% e 8,1M di sopravvivenza. Insieme ad Arthur e Marlena entra a far parte di tre delle cinque migliori squadre ottenibili, dove la sopravvivenza raggiunge i 38,2M, e il prezzo da pagare per il bonus completo è un 20% di danni extra subiti dai ranger.
+
+---
+
+## ✦ Claire Oro (UR): meccaniche di conversione e verdetto {#dtf-gold-claire}
+
+Aumentare la rarità di Claire trasforma la versione SSR viola in una versione UR, e le meccaniche si rivelano più clementi, ma al contempo più costose, di quanto sembri. I livelli vengono mantenuti, le stelle no.
+
+### Cosa sopravvive alla trasformazione {#dtf-claire-conversion}
+
+Dopo la conversione, l'eroe **non** torna al livello 1: tutti i 150 livelli rimangono. Le stelle si resettano in modo diverso: la Claire d'oro arriva a **sei stelle**, mentre una parte delle risorse investite viene rimborsata sotto forma di frammenti e badge di abilità da ridistribuire nella forma migliorata. La brutta sorpresa: le stelle successive costano notevolmente di più, circa il doppio dei frammenti rispetto alla vecchia forma. Quindi non abbiate fretta di riportarla a dieci stelle nello stesso giorno. La priorità è **8★**, che sblocca la quinta abilità e offre già un kit molto completo; le ultime due stelle possono essere ottenute gradualmente tramite i frammenti del suo negozio personale e le fonti disponibili.
+
+![Aggiornamento della rarità di Claire in oro](/img/dtf/daskal-claire/05.jpg)
+
+![Claire d'oro dopo la conversione](/img/dtf/daskal-claire/06.jpg)
+
+Il potenziamento non è un semplice cambio di colore: le statistiche base subiscono un vero e proprio salto in avanti, in particolare i PS e l'ATT a parità di numeri sull'account.
+
+![Confronto delle statistiche tra Claire d'oro e viola](/img/dtf/daskal-claire/07.jpg)
+
+![Confronto delle statistiche tra Claire UR e vecchia Claire](/img/dtf/daskal-claire/08.jpg)
+
+### Forte, ma orientata al PvE {#dtf-claire-pve-focus}
+
+Non definite la Claire d'oro una sostituta universale per qualsiasi DPS UR. Rimane fortemente ottimizzata per il PvE e i mostri: "Richiamo del Coraggioso" potenzia i danni dei tre Guerrieri con l'ATT più alto della squadra specificamente contro i mostri, quindi sul Re Demone e in altri contenuti PvE eccelle, mentre parte del suo kit resta inutilizzata in PvP. Se la priorità è la guerra contro i giocatori, Zoya risulta più universale.
+
+![Claire ottimizzata per PvE e mostri](/img/dtf/daskal-claire/09.jpg)
+
+![Claire contro Marlena, Arthur e Harper al livello 150](/img/dtf/daskal-claire/10.jpg)
+
+Verdetto: la Claire d'oro potenzia in modo superbo il PvE dei Guerrieri senza diventare automaticamente la scelta migliore per ogni modalità. Fermatela a otto stelle, accumulate le ultime due lentamente e schieratela dove il suo bonus contro i mostri trova applicazione.
+
+> Fonte: [Даскал и золотая Клэр в Last Asylum: Plague - как правильно прокачивать героев](https://dtf.ru/howto/5317537-daskal-i-zolotaya-kler-v-last-asylum-prokachka-geroev) di Гейм-Знаток su DTF.

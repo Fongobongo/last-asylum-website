@@ -2,7 +2,7 @@
 title: "Ekonomi: Berlian, Kedai, Penjarahan"
 description: "Ke mana setiap berlian pergi: keutamaan kedai VIP, jadual stok semula, pesanan beli setiap kedai, bajet Roda Harapan, dan mekanik penjarahan lengkap dengan had harian mengikut tahap Suaka (Sanctuary)."
 lang: ms
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: economy
 infographics: ["/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
 ---
@@ -578,7 +578,7 @@ Peratusan tempur, bermaksud HP, ATK dan DEF hero, tidak muncul langsung sehingga
 
 ## VIP untuk berlian
 
-Status VIP itu sendiri dilanjutkan dengan berlian tanpa menghiraukan tahap: 30 hari berharga 10,000 berlian dan 7 hari 3,000, tiada had pembelian, and satu bulan berfungsi satu perempat lebih murah daripada empat minggu. Pemain yang tidak membeli sebarang pek memastikan VIP berjalan dengan cara ini dan memanggilnya penggunaan berlian terbaik, kerana kelajuan binaan dan penyelidikan terpakai untuk setiap projek. Kad bulanan dari kedai, sebagai perbandingan, membawa 30 hari status yang sama dan empat bonus kad di atas 2,500 berlian dan 2,500 mata VIP.
+Status VIP itu sendiri dilanjutkan dengan berlian tanpa menghiraukan tahap: 30 hari berharga 10,000 berlian dan 7 hari 3,000, tiada had pembelian, dan satu bulan berfungsi satu perempat lebih murah daripada empat minggu. Pemain yang tidak membeli sebarang pek memastikan VIP berjalan dengan cara ini dan memanggilnya penggunaan berlian terbaik, kerana kelajuan binaan dan penyelidikan terpakai untuk setiap projek. Kad bulanan dari kedai, sebagai perbandingan, membawa 30 hari status yang sama dan empat bonus kad di atas 2,500 berlian dan 2,500 mata VIP.
 
 ## Hadiah tahap
 
@@ -592,3 +592,48 @@ Setiap tahap VIP membayar satu hadiah sekali sahaja. Hanya satu perkara di dalam
 | Bekalan tahap bagi setiap jenis | 210 |
 
 Serpihan UR pertama berada pada tahap sepuluh, yang sudah menelan belanja 155,000 mata. Dari tahap enam belas hingga dua puluh hadiah berhenti membesar dalam serpihan sama sekali, kekal pada tiga UR di mana-mana. Oleh itu, hadiah bukanlah sebab untuk mengejar tahap teratas, kerana ia hanya membalas di peringkat pertengahan.
+
+---
+
+## Perbelanjaan Bijak: Sasarkan Setiap Pembelian {#smart-spending}
+
+![Strategi perbelanjaan terancang dalam Last Asylum](/img/dtf/economy/01.jpg)
+
+Pada permulaan permainan, anda akan dibimbing secara automatik — ketik, kumpul, buka kunci — tetapi selepas peringkat awal, rutin yang sama berhenti memberikan kuasa: kekalahan PvP bertimbun, peningkatan memakan masa berjam-jam, sesi terhenti kerana kekurangan tenaga. Mencuba untuk meredahnya secara paksa dengan lebih banyak log masuk hampir tidak mengubah apa-apa. Pembelian mula membantu hanya apabila ia berhenti menjadi rawak. Peraturan yang dipersetujui oleh pemain berpengalaman adalah mudah: **bukan berapa banyak yang anda masukkan, tetapi tepatnya ke mana**. Setiap pembelian harus menjawab satu soalan: *apakah yang sedang saya kuatkan sekarang?*
+
+Sekitar peringkat pertengahan, tekanan datang dari pelbagai sudut: sumber kelihatan lebih banyak, namun sentiasa ada sesuatu yang khusus kekurangan — bahan untuk hero atau masa untuk pengkalan — manakala pesaing sudah kelihatan lebih kuat. Di situlah dorongan biasa untuk "beli sikit sahaja" membawa kepada kesilapan klasik: pek bertuah, mengumpul hero secara rawak, bertukar-tukar antara PvP dan PvE. Hasilnya ialah akaun yang berkembang tetapi tidak kuat di mana-mana: tiada kerosakan dalam PvP, tiada kestabilan dalam PvE. Titik pusingannya adalah tumpuan pada satu matlamat tunggal — arena atau kandungan — supaya setiap pelaburan berfungsi ke arah itu dan permainan mula "membalas" dengan kemenangan yang lebih konsisten.
+
+### Tangga keutamaan
+
+- **Pek permulaan dan pek istimewa dahulu.** Cara pantas untuk merasai perbezaannya: hero yang kuat berserta sumber pengkalan sekali gus menjadikan PvE stabil serta-merta, tanpa sekatan berulang pada peringkat biasa.
+- **Tenaga di tempat kedua.** Ia kelihatan remeh pada mulanya, tetapi tenaga menentukan sejauh mana anda benar-benar bermain — pertanian (farming), misi, pertumbuhan pengkalan. Dengan tenaga yang mencukupi, kemajuan bertukar daripada tidak sengaja kepada teratur.
+- **Langganan dan bonus harian di tempat ketiga.** Ini mengenai kestabilan: asas sumber setiap kali log masuk, perancangan peningkatan yang lebih mudah, tiada keciciran tempo.
+- **Permainan pertengahan: hero jarang (rare) dan bahan peningkatan gear.** Tepat-tepat perkara yang menggerakkan PvE dan PvP dengan ketara.
+- **Permainan lewat: pek bermusim dan alat mempercepat (speedups).** Ia mengekalkan anda di tangga teratas di mana pertanian biasa tidak lagi mampu memberikan hasil yang lumayan.
+
+![Perbelanjaan yang konsisten dan berhemah yang mempercepatkan kemajuan](/img/dtf/economy/02.jpg)
+
+### Apa yang perlu diabaikan
+
+- **Kosmetik** — tiada kesan langsung pada pertempuran.
+- **Kotak rawak (random chests)** — kadang-kadang bernasib baik, tetapi kebanyakannya pengisi yang mewujudkan ilusi kemajuan tanpa sebarang keuntungan sebenar.
+- **Peningkatan kecil jangka pendek** — kesan sebenar hanya untuk satu malam, hampir tidak kelihatan sepanjang sebulan.
+- **Hero bertindih yang tidak menyumbang apa-apa** — jika mereka tidak mengukuhkan barisan, mereka hanyalah hiasan.
+
+Memotong perkara ini menghilangkan kekalutan: perbelanjaan menjadi sekata dan boleh dikawal, serta setiap pelaburan dapat dirasai.
+
+### Acara adalah titik pertumbuhan
+
+Acara memegang ganjaran yang paling sukar diperoleh melalui cara biasa — bahan jarang, item berguna, kadangkala hero yang kuat. Pendekatan yang membuahkan hasil: bersedia terlebih dahulu daripada masuk tanpa persiapan, jangan hadkan percubaan anda (bawa tiket), selesaikan pencarian sepenuhnya dan bukannya separuh jalan, dan tuntut semua ganjaran utama. Dengan merancang masa seperti ini, perbelanjaan memerah hasil maksimum daripada saat tertentu dan bukannya sekadar "mempercepatkan sesuatu".
+
+![Menyelaraskan perbelanjaan dengan acara untuk ganjaran maksimum](/img/dtf/economy/03.jpg)
+
+### Senarai semak perbelanjaan bijak
+
+1. Pek permulaan dan tenaga didahulukan — hero yang kuat dan aliran sumber yang stabil.
+2. Permainan pertengahan, sasarkan hero jarang dan bahan gear.
+3. Permainan lewat, pek bermusim dan alat mempercepat untuk kedudukan teratas.
+4. Jimat pada perkara remeh: kosmetik, kotak rawak, peningkatan mikro.
+5. Rancang sekitar acara — pulangan maksimum bagi setiap pelaburan ada di situ.
+
+> Sumber: [Last Asylum: Plague - как донатить с умом и ускорить прогресс в 2026](https://dtf.ru/moneysaver/4850017-last-asylum-plague-kak-effektivno-donatit-i-uskorit-progress) oleh Гейм-Знаток di DTF.

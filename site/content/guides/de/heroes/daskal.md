@@ -3,7 +3,7 @@ title: "Daskal: Skills, Build & Leveling"
 description: "Daskal is a UR warrior who plays as tank. Fully upgraded, he reaches 1,057,192 Might, rank 2 of 11 among the game's tanks. Unlocking him takes 10 shards ( Daskal Shard), …"
 videoTopic: "heroes"
 lang: de
-updated: "2026-09-19"
+updated: "2026-10-12"
 type: guide
 ---
 
@@ -325,3 +325,77 @@ Awakening costs the most: 2,870 shards for 40 levels against 975 for all 50 star
 
 Daskal stands in two tier S squads. Arthur, Marlena, Daskal, Harper and Louis earn a +15% faction bonus for four warriors, 150.7M of survivability and 98 points out of 100 in the squad review. His shield stacks with Billy's Fate's Thread, which removes 36% of the damage from the squad.
 
+
+---
+
+## 🔄 Den Haupttrupp um Daskal herum neu aufbauen {#dtf-daskal-rebuild}
+
+Den Helden zu bekommen ist erst der Anfang: Er braucht Antitoxin, Sterne, Fähigkeiten, Ausrüstung, einen Truppenplatz — und dann müssen Arena, Mauern und jede gespeicherte Aufstellung von ihm erfahren. Dies ist die vollständige Anleitung zum Neuaufbau: Daskal ziehen, ihn auf 1→150 maximieren und ihn anstelle von Bella in den ersten Krieger-Trupp stecken.
+
+![Helden-Fortschritts-Leitfaden für Daskal und goldene Claire](/img/dtf/daskal-claire/01.jpg)
+
+### Gross rausgehen am Helden-Donnerstag {#dtf-hero-thursday}
+
+Niemals Rekrutierungstickets, universelle Fragmente, Fähigkeitsabzeichen und Antitoxin-Vorräte an einem zufälligen Tag verheizen. Am Donnerstag läuft die Helden-Etage des Allianz-Duells, und fast alles in diesem Neuaufbau bringt Punkte ein — Beschwörungen, Fragment-Ausgabe, Abzeichen- und Antitoxin-Verbrauch. Ein Fortschrittsschub wirkt doppelt: ein stärkerer Account plus Duell-Belohnungen. Gehe vorbereitet an den Donnerstag heran.
+
+![Missions des Allianz-Duells Phase 4 zur Heldenentwicklung](/img/dtf/daskal-claire/02.jpg)
+
+In diesem Fall war das Ziel genau definiert: Daskal. Ungefähr 250 Tickets flossen in der Woche zuvor ein, ohne dass er auftauchte, dann die kostenlosen Beschwörungen plus frische Versuche — die ersten zehn ein Fehlschlag, die zweiten zehn ein Treffer. Der Schlüsselmoment ist zu wissen, wann man aufhören muss: Sobald man den Helden besitzt, kaufen weitere Tickets Fragmente und Fähigkeitsabzeichen, nicht den Zug selbst.
+
+![Daskal aus Heldenbeschwörungen ziehen](/img/dtf/daskal-claire/03.jpg)
+
+### Gras-Tipp: Die Diebe nicht überspringen {#dtf-thieves-grass}
+
+Solange das Diebe-Event läuft, füllt es den Kräutervorrat auf, den die grosse Forschung auf null senkt. Ein grosses persönliches Ziel wirft über eine Million Kräuter ab, kleine jeweils ein paar hunderttausend — die genauen Zahlen variieren je nach Aktivität, aber als Notfall-Kräuterauffüllung während eines aktiven Events funktioniert es hervorragend.
+
+![Diebe-Event](/img/dtf/daskal-claire/04.jpg)
+
+### Daskal 1→150: Wohin das Antitoxin fliesst {#dtf-daskal-leveling}
+
+Daskal kommt auf Stufe 1 an, und der Antitoxin-Vorrat wurde speziell für ihn aufgespart — völlig zu Recht, denn die Kosten sind enorm. Bis ca. 100 sieht es noch harmlos aus, die Stufen fliegen ohne Panik vorbei. Dann beginnt der echte Spaß: Je näher an 150, desto mehr kostet jede Stufe. Der gesamte Weg von 1 bis 150 verschlingt **5.248.471.500 Antitoxin — knapp über 5,2 Milliarden**. Wer denselben Run von null auf Maximum plant, sollte mehr als fünf Milliarden einlagern, nicht zwei oder drei. Antitoxin stammt aus Werkstätten, Belohnungen und eingelagerten Taschengegenständen — knacken Sie die Gläser also nicht vorzeitig ohne Grund; lassen Sie sie auf den Helden warten, der zählt.
+
+![Daskal mit Antitoxin von 1 auf 150 leveln](/img/dtf/daskal-claire/11.jpg)
+
+### Warum Daskal in Trupp 1 gehört {#dtf-why-daskal}
+
+Daskal ist ein Krieger-UR-Tank, dessen Ausrüstung genau das tut, was eine Frontlinie muss: Seine Ultimative schützt alle Verbündeten, seine aktive Fähigkeit verursacht physischen Schaden und heilt Daskal gleichzeitig, und ein passiver Effekt gewährt verbündeten Tanks zu Beginn des Kampfes Schilde. Er überlebt Schaden und hilft dem Rest des Teams, ihn ebenfalls zu überleben.
+
+Bella hier zu ersetzen ist der logische Schritt — und Bella geht nicht in Rente. Sie wechselt zu Trupp 3, dem genau ein guter Frontkämpfer fehlt. Ein neuer Held stärkt zwei Trupps gleichzeitig.
+
+### Bellas Ausrüstung zuerst ablegen {#dtf-gear-transfer}
+
+Bevor der Tausch finalisiert wird, muss das gute Set vom alten Tank auf den neuen übertragen werden — sonst läuft das Ergebnis auf eine mit Sternen versehene UR auf Stufe 150 hinaus, die in Hausschuhen kämpft. Es gab hier keine Signature-Waffe für Daskal, also kam die verfügbare Ausrüstung auf ihn, der Rest von Bellas Set wurde übertragen, und Bella erhielt die Gegenstände des verdrängten Trupp-3-Helden, als sie dorthin wechselte.
+
+![Bellas Ausrüstung auf Daskal übertragen](/img/dtf/daskal-claire/12.jpg)
+
+![Daskal verbessern](/img/dtf/daskal-claire/13.jpg)
+
+### Wie viele Sterne Daskal jetzt braucht {#dtf-daskal-stars}
+
+Nach den Stufen schmerzen die Fragmente am meisten. Die Versuchung ist gross, alles zu verbessern — Waldläufer warten, eine andere UR verlangt nach einem Stern. Aber der Haupttrupp besteht aus Kriegern; wenn sich Daskal ihm anschliesst, bringen universelle Goldfragmente bei ihm den meisten Nutzen. Tag eins näherte sich der **6★** (was seinen Teamschild weiter verstärkt), während der Rest später farmbar ist. Sechs Sterne sind nicht willkürlich — und das nächste grosse Ziel ist **8★**, wodurch Zähigkeit freigeschaltet wird: +20% ATK/HP/DEF plus +10% Abklingzeit-Geschwindigkeit für Fähigkeiten. Verstreuen Sie universelle Fragmente also nicht auf drei Trupps: Bringen Sie den Helden des Haupttrupps zuerst auf einen wirklich nützlichen Checkpoint und schauen Sie dann weiter.
+
+![Daskal-Sterne und -Fähigkeiten für den Haupttrupp](/img/dtf/daskal-claire/14.jpg)
+
+### Vergessen Sie nicht die Halle der Ehre {#dtf-hall-of-honor}
+
+Unterwegs erreichte ein blauer Held endlich die Bedingung für die Halle der Ehre — und das ist keine Tritthilfe. Der reguläre Heldenfortschritt dort stärkt den Account kontinuierlich, und blaue Helden erhöhen speziell die Ladekapazität der Soldaten: Truppen tragen mehr Ressourcen pro Marsch. Kein Kampfmonster-Bonus, aber auf die Distanz zahlt sich die zusätzliche Kapazität aus. Ignorieren Sie blaue Helden nicht nur, weil sie es nie in Trupp 1 schaffen werden.
+
+![Halle der Ehre](/img/dtf/daskal-claire/15.jpg)
+
+### Neuer Held platziert — die Arbeit ist noch nicht getan {#dtf-update-modes}
+
+Die Kampfkraft von Trupp 1 stieg nach dem Tausch von Bella gegen Daskal — aber das Spiel speichert Aufstellungen pro Modus. Öffnen Sie nach jeder grösseren Umgruppierung die Arena und aktualisieren Sie die Verteidigung, überprüfen Sie dann die Mauern sowie den Eroberungs-Canyon und speichern Sie dort die frische Zusammenstellung. Andernfalls stellt die Arena tagelang weiterhin Bella auf. Dieselbe Regel gilt nach grossen Ausrüstungs-, Epigraphen- oder Raven-Upgrades: Wenn ein Modus eine gespeicherte Aufstellung verwendet, überprüfen Sie diese manuell.
+
+### Die drei Trupps nach dem Neuaufbau {#dtf-final-squads}
+
+Trupp 1 wird vollständig zu Kriegern: **Daskal, Arthur, Marlena, goldene Claire und Harper**, ca. **19,5M Kampfkraft**. Daskal und Arthur halten die Front, Marlena sorgt für den Schaden, Claire steigert das PvE, Harper bufft die Krieger.
+
+![Erster Trupp: Daskal, Arthur, Marlena, Claire und Harper mit 19,5M Kampfkraft](/img/dtf/daskal-claire/16.jpg)
+
+Trupp 2 bleibt bei Waldläufern: Shadow, Griffith, Cynthia, Ash und Red Lady (~13,32M). Trupp 3 wird gemischt: Bella zieht ein, um die Frontlinie zusammen mit Hastar, Joker, Annie und Celia zu stabilisieren (~13,65M).
+
+![Dritter gemischter Trupp nach dem Helden-Neuaufbau](/img/dtf/daskal-claire/17.jpg)
+
+Das beste Ergebnis ist nicht nur ein starker Held: Daskal hat Trupp 1 aufgewertet, die freigewordene Bella hat Trupp 3 verbessert, die goldene Claire hat ein neues PvE-Leben gefunden, und gute Ausrüstung wurde zwischen Charakteren verschoben, anstatt Staub anzusetzen. Bereiten Sie den nächsten Helden-Donnerstag genauso vor: Tickets horten, Antitoxin für den nächsten echten 150er-Push zurücklegen, goldene Universals auf den Haupttrupp ausgerichtet lassen — Daskal in Richtung zuversichtlicher 6★ und dann 8★, goldene Claire bei acht Sternen verankert, wobei die letzten beiden schrittweise gefarmt werden — und erst dann zu den Waldläufern zurückkehren. Ein wirklich starker erster Trupp schlägt drei halbfertige.
+
+> Quelle: [Даскал и золотая Клэр в Last Asylum: Plague - как правильно прокачивать героев](https://dtf.ru/howto/5317537-daskal-i-zolotaya-kler-v-last-asylum-prokachka-geroev) von Гейм-Знаток auf DTF.

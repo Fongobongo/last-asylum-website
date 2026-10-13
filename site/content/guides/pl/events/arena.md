@@ -2,7 +2,7 @@
 title: "Arena Trójkątów: Obrona i Atak"
 description: "Trzy składy, z których atakujący wybiera dwa do pokonania: zasada równej obrony, reguła poświęcenia zestawu, atakowanie kontrami, premie frakcyjne oraz strategia pułapki w Arenie Przeznaczenia po odłamki UR."
 lang: pl
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: arena
 calculators: []
 infographics: []
@@ -140,3 +140,57 @@ Nie każda arena pozwala na doładowania. Tam, gdzie to możliwe, każda kupiona
 ## Co to oznacza w praktyce
 
 Potęga bohaterów przekłada się tutaj bezpośrednio na zasoby, a wyższa rangą otwiera areny z większymi nagrodami. Darmowe bitwy dostarczają ten dochód bezkosztowo, dlatego rozgrywa się je codziennie, nawet w dniach bez ochoty na walkę. Jaki skład wystawić przeciwko konkretnemu przeciwnikowi z listy, podpowiada kreator drużyny areny: symulacja bitwy przechodzi przez zaznaczonych bohaterów i pokazuje pięciu z najlepszym wynikiem.
+
+---
+
+## Notatki polowe z Areny Trójkąta: Potęga, Frakcje i Dzienniki (DTF) {#dtf-field-notes}
+
+Możesz przegrać ze słabszym graczem i pokonać kogoś silniejszego o miliony kilka minut później: walczą trzy oddziały, do dwóch wygranych. Czasami najlepszym posunięciem jest niedotykanie najlepszego oddziału wroga; czasami jeden bohater przeważa milion potęgi; czasami pięć złotych ramek rozpada się, ponieważ główny carry ma pusty miecz.
+
+![Porady i sekrety dotyczące Areny Trójkąta](/img/dtf/arena/01.jpg)
+
+### Obrona pozostaje równa, atak zmienia się przy każdej walce {#dtf-defense}
+
+Pakowanie wszystkiego, co drogie (główny tank, carry, support, drugi DD) w oddział 1 daje atakującemu dwie darmowe wygrane: karmią słaby oddział i biorą pozostałe dwa w stosunku 2:1. Rozłóż siły tak, aby nie było darmowych wygranych — silna Marlena nie potrzebuje każdego najlepszego Wojownika u swojego boku; przesunięcie jednej gwiazdki (np. Harper do oddziału 3, Celia zapewniająca wsparcie gdzie indziej) uniemożliwia łatwe 2:0. Sprawdzaj obronę ponownie po każdym dużym ulepszeniu, aby oddział 1 nie urósł nadmiernie, podczas gdy tyły cierpią na niedobór zasobów.
+
+![Trzy oddziały obronne na Arenie Trójkąta](/img/dtf/arena/03.jpg)
+
+Obronę ustawia się raz i trzyma; **atak jest przebudowywany prawie przed każdą poważną walką**. Najpierw przeanalizuj planszę wroga: jeśli mają 18/13/12M, a Ty ok. 13–15M, nie walcz z 18M — rzuć na niego swój najsłabszy oddział, a wygraj 13 i 12. Pogoń za wszystkimi trzema marnuje próby.
+
+![Trzy bitwy z warunkiem wygrania 2 z 3](/img/dtf/arena/04.jpg)
+
+### Potęga to tylko wskazówka, frakcje rozstrzygają wyrównane walki {#dtf-might}
+
+Zespół mający 12M z rozwiniętą Marleną/Arthurem, prawdziwym carry, umiejętnościami i dopasowaniem frakcyjnym rutynowo pokonuje stertę 14M złożoną z tanków i wsparcia, która nic nie zabija. Zawsze sprawdzaj, z kogo składa się ta liczba — zwłaszcza w przypadku Marleny, która solo wygrywa mecze — zanim podasz zespołowi o „10M” swój drugi oddział.
+
+![Porównanie potęgi i składu](/img/dtf/arena/05.jpg)
+
+Następnie sprawdź frakcje: **Rangi > Wojownicy > Czarnoksiężnicy > Rangi**, co daje około **+20%** premii za kontrę — wystarczająco, by zniwelować sporą różnicę potęgi (twoi nieco silniejsi Wojownicy przeciwko Rangom to ich walka, nie twoja; przeciwko silnym Rangom spróbuj Czarnoksiężników). Rzuć okiem na ikony frakcji w każdej walce, gdy różnica wynosi poniżej miliona. Nie składaj jednak Frankensteina dla samej premii: kontra jest dobra tylko wtedy, gdy stanowi działający zespół tej frakcji — trzy frakcje w jednym oddziale bez bonusu za formację już raz kosztowały autora przegraną w starciu z wyższą potęgą.
+
+### Porównanie po bitwie, ekwipunek i liczby-pułapki {#dtf-compare}
+
+Zawsze otwieraj porównanie rozwoju po bitwie — bohaterowie, wojsko, technologia, Kruk (Raven), relikwie, Sala Honoru i inne. Nierówny pasek wskazuje rozwiązanie (lepsi bohaterowie i wojsko, ale zacofany Kruk/Sala oznaczają, że kolejne ulepszenie jest oczywiste; u jednego z autorów różnica wynosiła Sala 31 kontra 45). Złote ramki nikogo nie zabijają: silny bohater ze słabym mieczem, niskimi umiejętnościami i pustym ekwipunkiem przegrywa z odpowiednio zbudowanym carry. Najlepiej widać to na Marlenie i Zoe — jedna wymaksowana Zoe zadecydowała o losach meczu w pojedynkę, podczas gdy kilku częściowo zbudowanych atakujących nie osiągnęło nic. Zasada: **jeden prawdziwy DD ponad trzech quasi-DD**; jeśli Marlena robi carry, jej ekwipunek atakujący (np. miecz zbliżający się do 60, 4-gwiazdkowy) dostaje zasoby w pierwszej kolejności, a nie pokazowy miecz na 30-poziomowym Arthurze. Rozwijaj jednego głównego DD dla każdej kluczowej frakcji zamiast dziewięciu średnich atakujących.
+
+![Porównanie po bitwie: bohaterowie, wojsko, technologia, Kruk, relikwie](/img/dtf/arena/07.jpg)
+
+Nigdy nie oznaczaj automatycznie najmniejszej liczby jako darmowej wygranej: oddział 10–12M ukrywający Marlenę + Arthura to pułapka — każdy oddział na papierze wygląda na słabszy, a mimo to w dwóch walkach przegrywa się przez bohaterów, frakcje i ukryty rozwój. To samo dotyczy wojska: dobrich bohaterów z płatnymi twarzami, ale z **T8 zamiast T9**, dzieli już widoczna przepaść, a czasami kolejny poziom armii wygrywa z kolejną gwiazdką bohatera.
+
+![Słabo wyglądający oddział ukrywający Marlenę](/img/dtf/arena/08.jpg)
+
+![Wojska T8 kontra T9](/img/dtf/arena/09.jpg)
+
+Lustrzane odbicie: przeciwnika z ~20M w oddział 1 i dwoma słabymi ogonami należy całkowicie zignorować na oddziale 1 — zgarnij dwa ogony i pokonaj straszniejszą sumę. Nawet obrona wygrywa z jednym super-oddziałem dokładnie z tego powodu.
+
+![Przeciwnik z jednym super-oddziałem i dwoma słabymi ogonami](/img/dtf/arena/10.jpg)
+
+### Dziennik, tempo, dobieranie przeciwników i darmowe nagrody {#dtf-journal}
+
+**Dziennik** pokazuje nadchodzące (niebieske) i wychodzące (czerwone) ataki — to darmowe testowanie obrony. Porównaj atakujących o tej samej potęgi: jeden farmie twoje dwa słabe oddziały, inny przegrywa przy równej sile przez zły podział. Jeśli obrona bez przerwy oddaje te same dwa oddziały, problem został zlokalizowany.
+
+![Dziennik obrony](/img/dtf/arena/11.jpg)
+
+Nie przepalaj wszystkich prób rano: rangi driftują, gdy inni atakują (skok ze 170 do 400+ w ciągu kilku godzin jest normą). Zrób codzienne zadania do swojego przybliżonego sufitu, a potem wspinaj się ponownie wieczorem z zachowanymi próbami. Dobieranie przeciwników na początku tygodnia jest dziwne, zanim rankingi się ustabilizują (30M, potem 52M, potem ktoś słaby) — opiera się na punktach rankingu (105 spotyka 108, 216 spotyka 217), a nie prawdziwej sile, więc wykorzystaj pierwszy dzień na eksperymenty. Codzienne zadania: **3 i 5 wygranych** nie muszą być serią i dają Medale Chwały; nagrody rankingowe/sojuszu obejmują skórki budynków (np. +5% ataku bohatera); **lajki dają 30 diamentów** (do 180 dziennie na dwóch arenach) — nigdy nie pomijaj darmowych diamentów.
+
+Każda walka: znajdź najbardziej niebezpieczny oddział wroga, wybierz dwa prawdziwe cele, sprawdź ponownie frakcje i ukrytych carry (przepompowana Marlena w „słabym” slocie resetuje matematykę), przetasuj Bellę/Harper/Claire/Celię między oddziałami, a dopiero potem spójrz na potęgę. Wolniej, i właśnie dlatego to jest interesujące.
+
+> Źródło: [Треугольная арена Last Asylum: Plague - советы и тактика](https://dtf.ru/howto/5253651-sovety-po-treugolnoy-arene-last-asylum-plague) , autor Гейм-Знаток (DTF).

@@ -2,7 +2,7 @@
 title: "Triangle Arena: Verteidigung & Angriff"
 description: "Drei Aufstellungen, der Angreifer wählt zwei zum Sieg: das Prinzip der gleichmäßigen Verteidigung, die Opfer-Regel, konterbasierte Angriffe, Fraktionsboni und die Arena des Schicksals: Fallen-Trupp-Taktik für UR-Splitter."
 lang: de
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: arena
 calculators: []
 infographics: []
@@ -61,3 +61,57 @@ Verifizierte Ergebnisse von Spielern, die dieses System nutzen: **konstante Plat
 - **Bekannter Fehler: Manche Spieler bleiben auf neuen Servern ohne Rang hängen** — wenn dein Rang in einer Schicksals-Saison nie erscheint, ist das ein Bug, kein Fehler deiner Spielweise. Melde es und warte ab.
 - **Die gierige Variante (Korpez):** Baue drei Trupps als *starker Haupttrupp / Köder / Falle* — der **Fallen-Trupp zeigt eine winzige sichtbare Stärke (Might), während er deinen 10★-Carry (Marlena, Cynthia) versteckt**. Die meisten Spieler scannen nur die Stärke-Zahlen, prüfen nicht die Zusammensetzungen und verschwenden ihren Angriff auf den „einfachen“ Slot, um dann vom Carry vernichtet zu werden. Extreme Version: **Nutze eine 4-Mann-Formation** ohne Tank — der scheinbare Stärkeabfall lockt selbst mittelmäßige Spieler zum Angriff.
 - „Fallen-Trupp + entfernter Tank“ brachte Korpez und seinen Verbündeten von Rang ~160 in die Top 50, ohne zusätzliche Ausgaben. Die Sichtbarkeit der Heldenstärke überwiegt die angezeigte Might.
+
+---
+
+## Triangle Arena-Feldnotizen: Macht lügt, Fraktionen und Journals (DTF) {#dtf-field-notes}
+
+Man kann gegen einen schwächeren Spieler verlieren und Minuten später jemanden schlagen, der Millionen stärker ist: Drei Trupps kämpfen, zwei Siege zählen. Manchmal ist der beste Zug, niemals den besten Trupp des Feindes zu berühren; manchmal wiegt ein Held mehr als eine Million Macht; manchmal brechen fünf Goldrahmen zusammen, weil der Hauptschadensverursacher eine hohle Klinge hat.
+
+![Triangle Arena-Tipps und Geheimnisse](/img/dtf/arena/01.jpg)
+
+### Die Verteidigung bleibt gleichmäßig, der Angriff stellt sich bei jedem Kampf neu auf {#dtf-defense}
+
+Alles Teure (Top-Tank, Carry, Support, zweiter DD) in Trupp 1 zu stapeln, schenkt dem Angreifer zwei freie Siege: Sie füttern den schwachen Trupp und holen die anderen beiden mit 2:1. Verteile die Einheiten so, dass es keine freien Siege gibt — eine starke Marlena braucht nicht jeden besten Krieger an ihrer Seite; einen Stern zu verschieben (z. B. Harper zu Trupp 3, Celia deckt anderswo den Support ab) verhindert das einfache 2:0. Überprüfe die Verteidigung nach jedem großen Upgrade neu, damit Trupp 1 nicht aufbläht, während das Ende darbt.
+
+![Drei Verteidigungstrupps in der Triangle Arena](/img/dtf/arena/03.jpg)
+
+Die Verteidigung wird einmal eingestellt und gehalten; **der Angriff wird fast bei jedem ernsthaften Kampf neu aufgebaut**. Lies zuerst das gegnerische Spielfeld: Wenn sie bei 18/13/12M stehen und du bei ca. 13–15M, kämpfe nicht gegen die 18M — füttere sie mit deinem schwächsten Trupp und gewinne 13 und 12. Allen dreien hinterherzulaufen verschwendet Versuche.
+
+![Drei Kämpfe mit 2-aus-3-Siegbedingung](/img/dtf/arena/04.jpg)
+
+### Macht ist ein Hinweis, Fraktionen kippen knappe Kämpfe {#dtf-might}
+
+Ein 12M-Team mit entwickelter Marlena/Arthur, einem echten Carry, Skills und passenden Fraktionen schlägt routinemäßig einen 14M-Haufen aus Tanks und Support, der nichts tötet. Überprüfe immer, woraus die Zahl besteht — besonders Marlena, die Spiele im Alleingang trägt —, bevor du einem „10M“-Team deinen zweiten Trupp zum Fraß vorwirfst.
+
+![Macht- vs. Zusammesetzungsvergleich](/img/dtf/arena/05.jpg)
+
+Überprüfe dann die Fraktionen: **Ranger > Krieger > Hexenmeister > Ranger**, etwa **+20%** für den Konter — genug, um eine solide Machtlücke zu fressen (deine etwas stärkeren Krieger gegen Ranger sind ihr Kampf, nicht deiner; gegen starke Ranger versuche Hexenmeister). Wirf bei jedem Kampf einen Blick auf die Fraktionssymbole, wenn die Lücke unter einer Million liegt. Aber baue kein Frankenstein-Monster für den Bonus zusammen: Ein Konter ist nur als funktionierendes Team dieser Fraktion gut — drei Fraktionen in einem Trupp ohne Formationsbonus haben ihrem Autor bereits einmal ein Match-up gekostet, bei dem er eigentlich im Vorteil war.
+
+### Kampfvergleich, Ausrüstung und Fallen-Zahlen {#dtf-compare}
+
+Öffne immer den Entwicklungsvergleich nach dem Kampf — Helden, Truppen, Technologie, Rabe, Relikte, Halle der Ehre und mehr. Ein unausgewogener Balken benennt die Lösung (bessere Helden und Truppen, aber zurückbleibender Rabe/Halle bedeutet, dass das nächste Upgrade offensichtlich ist; die Lücke bei einem Autor betrug Halle 31 zu 45). Goldrahmen töten niemanden: Ein starker Held mit einer schwachen Klinge, niedrigen Skills und leerer Ausrüstung verliert gegen einen ordentlich aufgebauten Carry. Marlena und Zoe zeigen das am deutlichsten — eine maxed-out Zoe hat ein Spiel alleine entschieden, während mehrere halbfertige Angreifer nichts erreicht haben. Regel: **Ein echter DD ist besser als drei Fast-DDs**; wenn Marlena den Schaden trägt, frisst ihre Angriffsausrüstung (z. B. Schwert Richtung 60, 4 Sterne) zuerst die Ressourcen und kein Vorzeige-Schwert auf einem Stufe-30-Arthur. Züchte lieber einen Haupt-DD pro Schlüsselfraktion anstelle von neun mittleren Angreifern.
+
+![Kampfvergleich über Helden, Truppen, Technologie, Rabe, Relikte](/img/dtf/arena/07.jpg)
+
+Markiere niemals automatisch die schwächste Zahl als frei: Ein 10–12M-Trupp, der Marlena + Arthur versteckt, ist eine Falle — jeder Trupp sieht auf dem Papier schwächer aus, doch zwei Kämpfe gehen wegen Helden, Fraktionen und innerem Wachstum verloren. Gilt auch für Truppen: Gute Helden mit gekauften Gesichtern, aber **T8 gegen T9** ist bereits eine sichtbare Lücke, und manchmal schlägt die nächste Armeestufe einen weiteren Heldenstern.
+
+![Ein schwach aussehender Trupp, der Marlena versteckt](/img/dtf/arena/08.jpg)
+
+![T8-Truppen gegen T9](/img/dtf/arena/09.jpg)
+
+Das Spiegelbild: Ein Gegner mit ca. 20M in Trupp 1 und zwei schwachen Enden sollte bei Trupp 1 komplett ignoriert werden — schnapp dir die zwei Enden und schlage eine beängstigendere Gesamtsumme. Genau aus diesem Grund schlägt eine ausgeglichene Verteidigung einen Super-Trupp.
+
+![Gegner mit einem Super-Trupp und zwei schwachen Enden](/img/dtf/arena/10.jpg)
+
+### Journal, Pacing, Matchmaking und Gratis-Boni {#dtf-journal}
+
+Das **Journal** zeigt eingehende (blaue) gegen ausgehende (rote) Angriffe — kostenlose Verteidigungstests. Vergleiche Angreifer gleicher Macht: Der eine farmt deine zwei schwachen Trupps, ein anderer verliert bei gleicher Stärke durch schlechte Aufteilung. Wenn die Verteidigung immer dieselben zwei Trupps spendet, ist das Problem gefunden.
+
+![Verteidigungsjournal](/img/dtf/arena/11.jpg)
+
+Verschwende nicht alle Versuche am Morgen: Die Ränge driften, während andere angreifen (170 → 400+ in wenigen Stunden ist normal). Bring die Dailies auf dein grobes Limit und klettere abends mit aufgesparten Versuchen wieder nach oben. Das Matchmaking zu Beginn der Woche ist seltsam, bevor sich die Wertungen einpendeln (30M, dann 52M, dann jemand Schwaches) — es richtet sich nach den Wertungsmünzen (105 trifft auf 108, 216 trifft auf 217), nicht nach echter Macht, also nutze den ersten Tag für Experimente. Tägliche Aufgaben: **3 und 5 Siege** müssen keine Siegesserien sein und bringen Ruhmesmedaillen; Ranglisten-/Allianzbelohnungen beinhalten Gebäudeskins (z. B. +5% Heldenangriff); **Likes bringen 30 Diamanten** (bis zu 180/Tag über zwei Arenen hinweg) — verpasse nie kostenlose Diamanten.
+
+Bei jedem Kampf: Finde den gefährlichsten feindlichen Trupp, wähle zwei echte Ziele, überprüfe Fraktionen und versteckte Carrys (eine hochgezogene Marlena im „schwachen“ Slot setzt die Mathematik zurück), tausche Bella/Harper/Claire/Celia zwischen Trupps aus und schaue erst danach auf die Macht. Langsamer, und genau deshalb ist es interessant.
+
+> Quelle: [Треугольная арена Last Asylum: Plague - советы и тактика](https://dtf.ru/howto/5253651-sovety-po-treugolnoy-arene-last-asylum-plague) von Гейм-Знаток auf DTF.

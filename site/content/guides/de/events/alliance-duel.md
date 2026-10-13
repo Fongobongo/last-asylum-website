@@ -2,7 +2,7 @@
 title: "Allianz-Duell: Vollständiger Leitfaden"
 description: "Sechs Tage mit Punktkategorien, ein PvP-Finale am Samstag, Phasen-Mechaniken mit exakten Punktwerten, Falcon-Quest-Stacking und die „Alles-sparen“-Wirtschaft, die die höchste Belohnungskiste sichert."
 lang: de
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: alliance_duel
 calculators: []
 infographics: ["/infographics/duel-day-guide.webp", "/infographics/duel-savings.webp"]
@@ -152,3 +152,65 @@ Und das Duell ist kein isoliertes Ereignis: Es fließt direkt in den **Königrei
 5. Die Forschung für Super-Belohnung 1 und 2 im Labor überspringen — wodurch die Stufen 4–9 trotz erreichter Punkte komplett gesperrt bleiben.
 6. Das Quest-Board bei voller Kapazität einfrieren lassen, anstatt es einen Platz unter dem Maximum zu halten.
 7. Den Sonntag als Reset-Tag ignorieren und unvorbereitet in den nächsten Zyklus gehen.
+
+---
+
+## Allianz-Duell Tag für Tag: Feldkalender (DTF) {#dtf-calendar}
+
+Das Duell läuft fast die ganze Woche mit rotierender Punktevergabe: Montag Energie/Ressourcen, Dienstag Gebäude, Mittwoch Forschung, Donnerstag Helden, Freitag Truppentraining, Samstag KvK. Der Anfängerfehler ist es, alles sofort auszugeben — Falken-Quests am Sonntag abgeholt, Raben-Truhen am Dienstag geöffnet, Antitoxin am Montag verbrannt, Massentraining Mitte der Woche. Der Account wächst, aber das Duell bekommt fast nichts. Spare stattdessen nach Tagen auf.
+
+![Allianz-Duell Tag-für-Tag-Leitfaden](/img/dtf/alliance-duel/01.jpg)
+
+### Zuerst Duell-Forschung {#dtf-tech}
+
+Der Duell-Zweig des Labors multipliziert die Punkte im Event und macht jede kommende Woche günstiger. Am besten entwickelt man ihn am **Mittwoch**, wenn Forschungstempo-Boni, Schriftrollen und Tech-Macht-Zuwachs zusammen punkten. Erforsche zuerst die Duell-Forschung, dann Elitetruppen und Karawanentransport, wenn diese ebenfalls spezielle Schriftrollen benötigen — solche Forschungen bringen gleichzeitig Schriftrollen + Tempo-Boni + Macht (z. B. 1.280 Schriftrollen bei ca. 750 Pkt. ≈ 960.000 vor Tempo-Boni und Macht). Ein kompletter Zweig schließt sich nicht in einer Woche, aber schon ein paar Stufen bringen persönliche Truhen näher und sparen Tempo-Boni.
+
+### Montag: Falken, Energie, Sammeln, Raven {#dtf-monday}
+
+Am Sonntag erledigte Falken-Quests bleiben unangetastet: Ein ausgebauter Falkenturm hält Dutzende fertige Aufträge sowie den Vorrat auf dem Bildschirm bereit, sodass der Montag mit einer großen, fertigen Ladung beginnt (bei ca. 30.000 Pkt. pro Stück sind 40–50 aufgesparte Quests ein ernsthafter Vorsprung — aber lass das Lager nicht überlaufen, sonst werden keine neuen Aufträge gespeichert). Der Hauptmarsch verbrennt zuerst natürliche Energie bei Seuchenherden/Dieben/Karten-Zielen, dann Flaschen, dann günstige Diamanten-Auffüllungen — prüfe die Lücke zur nächsten Truhe, bevor du den Shop leeraufkaufst. Andere Märsche sammeln Getreide/Holz/Kräuter von Kartenfeldern; die Festungsproduktion zählt nicht, nur Kartenlieferungen.
+
+![Aufgesparte Falken-Quests vor dem Duell](/img/dtf/alliance-duel/02.jpg)
+
+Hebe Antitoxin für den Donnerstag auf; gib am Montag nur ein wenig aus, um eine Truhe zu kippen. Hammere Rabenfrüchte und Essenzen über die Woche an und gib sie am Montag aus — Raben-Werteverbesserungen plus Epigraph-Truhen bringen einen großen Schub ein. Lass Raben-Ausrüstungstruhen für Mittwoch liegen. Überprüfe nach dem wöchentlichen Reset den Ehrenshop auf Blaupausen sowie Essenzen und Tempo-Boni.
+
+### Dienstag: Gebäude, Karawanen, Überlebende {#dtf-tuesday}
+
+Punkte kommen durch Bautempo-Boni (~150/Min.), aber der Hauptgewinn sind fertige Gebäude mit dem Hammereymbol: der Machtzuwachs eines fertiggestellten Gebäudes (z. B. 5.300 Macht bei 30 Pkt. ≈ 159.000) zählt beim Klick, also hol dir vorbereitete Zufluchten/Labore/Plätze/Kasernen am Dienstagmorgen ab. Priorisiere teure Gebäude. Lege nicht die ganze Wirtschaft lahm: Eine fertige Farm/Sägemühle/Blumeneebet kann nicht eingesammelt werden, solange der Hammer kreist, also lass von jedem Typ (und einer manuellen Werkstatt) eines unblockiert, damit die Produktion weiterfließt.
+
+![Gebäudemacht-Zuwächse am Dienstag](/img/dtf/alliance-duel/03.jpg)
+
+Hol dir den Titel **Minister für Bauwesen** vor langen Aufwertungen (große Zeiteinsparung bei hoher Zuflucht; reihe dich auf umkämpften Servern früh in die Warteschlange ein). Drehe Karawanen und verdeckte Operationen zuerst mit kostenlosen Aktualisierungen auf Gold, dann Kristalle — eine gute Karawane ≈ 300.000. Heuere Überlebende in der Taverne an (keine Heldenbeschwörungen — andere Mechanik und Belohnungslinie).
+
+### Mittwoch: Forschung und Raben-Ausrüstung {#dtf-wednesday}
+
+Forschungstempo-Boni, Tech-Macht, spezielle Schriftrollen und Raben-Ausrüstungstruhen. Lass die Falken-Quests vom Dienstag unangetastet, um den Mittwoch mit einer fertigen Ladung zu beginnen.
+
+![Mittwoch-Forschung und Raben-Ausrüstung](/img/dtf/alliance-duel/04.jpg)
+
+Priorität: Duell-Zweig, dann Elitetruppen / Karawanentransport — Technologien, die Schriftrollen kosten, zahlen sich am besten aus. Sammle die ganze Woche über Raben-Ausrüstungstruhen und öffne sie am Mittwoch; höhere Qualität zahlt mehr, verschmelze danach massenhaft Raben-Ausrüstung für Truhenpunkte plus Ausrüstungsmacht. Öffne sie niemals sofort bei Erhalt.
+
+![Schriftrollen für die Mittwochsforschung ausgeben](/img/dtf/alliance-duel/05.jpg)
+
+### Donnerstag: Beschwörungen und Heldenentwicklung {#dtf-thursday}
+
+Punkte für Tavernen-Beschwörungstickets, Fragmente, Sternaufstiege, Skill-Abzeichen und Antitoxin. Spare Tickets, persönliche Fragmente, Skill-Abzeichen und Antitoxin für diesen Tag auf. Tavernen-Züge gewähren Helden sowie persönliche Fragmente der gezogenen Helden — keine Universalsfragmente, die aus Events/Shops stammen müssen. Ziehe in Zehner-Schritten, wenn es die Tickets erlauben. Reihenfolge: **Sterne für Haupthelden → Skill-Abzeichen → Antitoxin für Stufen**. Füttere den ersten Trupp, nicht den gesamten Kader; gib persönliche Fragmente für das aktive Team aus und spare Universals für starke/seltene Helden.
+
+![Sternaufstiege und Heldenfähigkeiten am Donnerstag](/img/dtf/alliance-duel/06.jpg)
+
+Überprüfe zuerst die Heldenstufe im Überlebenskampf — dieselben Fragmente/Abzeichen/Antitoxine können in beiden Events zählen. Der Donnerstag ist meistens am schnellsten abgeschlossen: beschwören, Hauptteam entwickeln, abholen.
+
+### Freitag: Truppen plus Royal Rumble {#dtf-friday}
+
+Training und Ränge-Aufstieg, wobei der Royal Rumble am selben Tag stattfindet — die Armee muss punkten und kämpfen. Hole am Morgen die am Donnerstag aufgesparten Falken-Quests ab und konzentriere dich dann auf die Übungsplätze. Hebe Bau-/Forschungsbeschleunigungen für nächste Woche auf, es sei denn, eine Truhe ist nur noch wenige Punkte entfernt. Nimm den Titel **Kriegsminister**; nutze schwache Übungsplätze, um massenhaft Truppen mittlerer Stufe zu produzieren (z. B. einen großen T6-Schub) und bilde sie dann auf dem Hauptplatz zu T9 um — das ist manchmal schneller als rohe T9. Lege schwache Truppen und Trainingstempo-Boni im Voraus an; am Freitag anzufangen ist zu spät für große Beförderungen.
+
+![Freitag Truppentraining und Royal Rumble](/img/dtf/alliance-duel/07.jpg)
+
+### Samstag: KvK, Heilung, Schilde {#dtf-saturday}
+
+KvK öffnet: Teleportiere in das feindliche Königreich, greife Festungen an, töte Truppen für Kampfpunkte. Angriffe auf den Duell-Rivalen zahlen sich meistens am besten aus, aber auch andere KvK-Kämpfe zählen. Vor dem Flug: Hauptmarsch, Teleports, Lazarettkapazität, Schildvorrat — der Samstag bringt die meisten Punkte und nullt am schnellsten. Heilungstempo-Boni bringen ebenfalls Punkte, weshalb vor Samstag abgestellte Verwundete auf die Phase warten können — aber lass das Lazarett niemals überlaufen, überlaufende Truppen sterben. Schilde hoch am Freitagabend: Nach dem eigenen Angriff fällt der Schild herunter und reaktiviert sich erst nach dem Kampftimer. Halte also einen Ersatzschild plus Teleports bereit, ziehe dich auf Allianzgelände zurück oder nutze einen Zufallsteleport, und erwarte nach dem Verlassen der Raid-Zone eine Wiedereinreisesperre von wenigen Minuten.
+
+![Schildnutzung vor dem Samstag-KvK](/img/dtf/alliance-duel/08.jpg)
+
+Teampunkte: Der Montag ist meistens am günstigsten, Dienstag bis Freitag schwerer, der Samstag kann die Woche entscheiden. Ein verlorener Montag bedeutet nichts — saubere Forschung, Helden, Truppen und KvK drehen das Gesamtergebnis. Überprüfe das Duell-Detailfenster für die Punkte pro Tag.
+
+> Quelle: [Дуэль альянсов в Last Asylum: Plague - гайд по дням](https://dtf.ru/howto/5238861-duel-alyansov-last-asylum-plague-strategii-i-sovety) von Гейм-Знаток auf DTF.

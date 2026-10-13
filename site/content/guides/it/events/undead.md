@@ -2,7 +2,7 @@
 title: "Assedio dei Non Morti: Guida Completa"
 description: "Difesa dell'alleanza contro le ondate di infetti: la barra degli indizi di 300.000, livelli di difficoltà da 2,4M a 24,5M di Potenza Nemica, la meccanica nascosta multi-squadra che distrugge i giocatori da 9,5M e tabelle delle ricompense complete."
 lang: it
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: undead
 calculators: []
 infographics: ["/infographics/undead-siege-guide-2.webp", "/infographics/undead-siege-guide.webp"]
@@ -118,3 +118,61 @@ Valori verificati dai dati del client di gioco (v1.0.87), fonte: wiki-last-asylu
 | 8 | 25-28 | 17.411.540 | 196.300.000 |
 | 9 | 26-29 | 20.155.943 | 202.600.000 |
 | 10 | 27-30 | 24.471.960 | 255.600.000 |
+
+---
+
+## Note sul campo dell'Assedio dei Non Morti: Indizi, 20 Ondate e Sovrintendenti {#dtf-field-notes}
+
+L'assedio è un esame di organizzazione per l'alleanza, non un evento per singoli giocatori forti: le missioni di Falcon riempiono la barra, la squadra sulle mura regge, i membri online curano, i giocatori forti aiutano i più deboli. Se avviato alla cieca, metà alleanza brucia a metà evento e la chat si riempie di "perché lo scudo non ha funzionato" e "chi ha premuto avvia".
+
+![Guida all'Assedio dei Non Morti copertina](/img/dtf/undead/01.jpg)
+
+### Gli indizi provengono dalle missioni di Falcon {#dtf-clues}
+
+L'alleanza ha bisogno di **indizi** per riempire la barra di lancio, e questi provengono dalle missioni di Falcon — soprattutto missioni di eliminazione contro **insediamenti, Piaghe Vaganti e Legione della Piaga**, che valgono circa **300 frammenti l'una**. Se i membri ignorano tali missioni, l'assedio rimane a metà sviluppo.
+
+![Gli indizi per l'assedio provengono dalle missioni di Falcon](/img/dtf/undead/03.jpg)
+
+La tensione: molti giocatori accumulano le missioni di Falcon per il Duello dell'Alleanza (accumulando per domenica/martedì/giovedì). Di norma va bene, ma quando l'alleanza ha bisogno di indizi, le missioni di eliminazione richieste dovrebbero essere completate e riscosse giornalmente. Gli ufficiali dovrebbero indicare chiaramente i bersagli — insediamenti, piaga vagante, legione della piaga — e non limitarsi a dire "fate Falcon".
+
+### Chi avvia e quando {#dtf-launch}
+
+Al 100% degli indizi, **R4/R5 avviano l'evento** scegliendo orario e difficoltà. Non avviate mai solo perché "sono online adesso" — metà alleanza sarà offline, le mura impreparate, i rinforzi non inviati. Programmate per il picco di attività serale, avvisate in chat oltre che su Telegram/Discord, e fate un controllo di 5 minuti: chi è online, chi è debole e ha bisogno di rinforzi, chi può inviare la 2ª/3ª squadra, chi ha lo schieramento principale sulle mura, quale difficoltà il roster può effettivamente sostenere.
+
+![Requisiti di partecipazione all'assedio](/img/dtf/undead/04.jpg)
+
+Cancelli d'accesso: **livello del Santuario** (circa 14 alla difficoltà 1 fino a ~27 alla difficoltà 10), **oltre 48 ore nell'alleanza** (niente ingressi dell'ultimo minuto per le ricompense), e **nessuna inattività di oltre 72 ore** offline. Controllate il roster prima del lancio: i nuovi arrivati e i dormienti non aiutano un evento a 20 ondate.
+
+### Difficoltà, ondate e la regola dei 20 giocatori {#dtf-difficulty}
+
+Le difficoltà si sbloccano in sequenza — niente salti alla 10. Le ondate totali dell'alleanza per le ricompense massime variano da circa **300 alla difficoltà 1 fino a ~1.200 alla difficoltà 10**. Per salire di livello, **almeno 20 membri devono completare tutte le 20 ondate** — non un top player, non cinque. Abbandonare i giocatori deboli che muoiono all'ondata 8-10 può bloccare l'intera alleanza, quindi rinforzare i giocatori medi è meglio che ammirare la potenza dei primi in classifica.
+
+![Livelli di difficoltà e 20 ondate per le ricompense massime](/img/dtf/undead/05.jpg)
+
+Le ricompense personali scalano in base alle ondate sopravvissute — **tutte e 20 per il massimo**. Se un'ondata vi incenerisce, la partecipazione termina al livello di quell'ondata senza possibilità di rientrare. Lista di controllo pre-partenza: schieramento più forte sulle mura, truppe sufficienti, cure pronte con risorse e accelerazioni, online all'inizio, richiesta di rinforzi anticipata in caso di debolezza. La maggior parte dei fallimenti è dovuta a cose ovvie: schieramento sbagliato, mura vuote, speranza nello scudo, un AFK di "5 minuti" finito nel dimenticatoio.
+
+### Lo scudo non serve a nulla, le mura fanno tutto {#dtf-shield}
+
+Gli scudi **non fermano le ondate dell'assedio**. Una volta avviate, le ondate arrivano indipendentemente. Le mura devono contenere una squadra vera: il miglior schieramento difensivo o da combattimento principale — buon tank, carry, supporto — mai una squadra di raccolta o un segnaposto "da cambiare dopo". I giocatori deboli dovrebbero chiedere aiuto in anticipo; un tempestivo "ho bisogno di rinforzi" aiuta l'alleanza, il silenzio unito a una disfatta a metà evento no.
+
+![Gli scudi non fermano le ondate dell'assedio](/img/dtf/undead/06.jpg)
+
+I giocatori forti rinforzano i più deboli con la **2ª e la 3ª squadra, tenendo lo schieramento principale a casa**. Una città debole non è pigra, è semplicemente più debole: con un aiuto sopravvive a più ondate, guadagna più ricompense personali e contribuisce alle ondate dell'alleanza. Assegnate gli aiutanti prima dell'inizio; il caos a metà ondata (cure, chat, clic errati) rende tardivo l'aiuto tardivo.
+
+![Rinforzare gli alleati durante l'assedio](/img/dtf/undead/07.jpg)
+
+### Cure, tempo di recupero e sovrintendenti {#dtf-healing}
+
+Le truppe uccise finiscono nell' **infermeria** — rimanete online, curate tra un'ondata e l'altra, rinnovate gli aiuti quando gli alleati subiscono danni. Controllate prima di iniziare: risorse per le cure, accelerazioni, spazio libero in infermeria, disponibilità a seguire tutte le ondate. Un'infermeria piena senza risorse trasforma l'evento in un semplice panorama.
+
+![Piano di svolgimento dell'assedio](/img/dtf/undead/08.jpg)
+
+Dopo tutte le ondate c'è un **tempo di recupero di circa 2 giorni**, ma è possibile accumulare indizi durante questo periodo — continuate a completare le missioni di Falcon affinché la difficoltà successiva si avvii più velocemente. Ciclo: raccolta, avvio, 20 ondate, ricompense, tempo di recupero, nuova raccolta.
+
+Alle **difficoltà 9 e 10, ogni 4ª ondata ha una probabilità del 20% di diventare un Sovrintendente** con ricompense bonus, e il Sovrintendente ha una **probabilità del 30% di trasformarsi in un Sovrintendente Infuriato** con un bottino migliore. Non inseguiteli subito: se l'alleanza riesce a malapena a reggere le ondate normali, le sfide eroiche compromettono prima le ricompense stabili.
+
+![Sovrintendente e Sovrintendente Infuriato](/img/dtf/undead/09.jpg)
+
+Scegliete la difficoltà in base ai fatti, non all'orgoglio: quanti hanno completato 20/20, chi è morto presto, chi ha avuto bisogno di aiuto, se le cure sono bastate, se sono state raggiunte le ondate massime, se la chat è andata nel panico. Una vittoria convincente fa salire di livello; una vittoria al limite fa rimanere allo stesso livello. Per gli ufficiali: annunciate per tempo, assegnate coppie debole-forte, mantenete la difficoltà onesta e spiegate ai nuovi arrivati che gli scudi non salvano e lo schieramento sulle mura va gestito manualmente.
+
+> Fonte: [Last Asylum: Plague - гайд по событию Осада нежити. Как пройти 20 волн, не сгореть и помочь альянсу](https://dtf.ru/howto/5189978-osada-nezhiti-last-asylum-plague) di Гейм-Знаток su DTF.

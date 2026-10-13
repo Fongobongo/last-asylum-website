@@ -3,7 +3,7 @@ title: "Daskal: Yetenekler, Dizilim & Seviye Atlama"
 description: "Daskal, tank rolünde oynayan bir UR savaşçıdır. Tamamen yükseltildiğinde 1.057.192 Güce ulaşır ve oyunun tankları arasında 11 üzerinden 2. sıradadır. Kilidini açmak 10 parça (Daskal Parçası) gerektirir, …"
 videoTopic: "heroes"
 lang: tr
-updated: "2026-09-19"
+updated: "2026-10-12"
 type: guide
 ---
 
@@ -320,3 +320,77 @@ Daskal, sunucu 28. güne gelene kadar kahraman listesinde görünmez, Arthur ise
 Uyanış en maliyetlisidir: 50 yıldızın tamamı için 975 parçaya karşılık 40 seviye için 2.870 parça. İki ölçek farklı şeyler döndürür: yıldızlar 675.772 HP ve 2.874 ATK eklerken, uyanış 425.119 HP ve 12.119 ATK (saldırının dört katı) ekler. Yıldızlar yine de önce gelir, çünkü daha fazla HP sağlarlar ve Kanlı Savunma'yı %360'tan %684'e çıkarırlar; %792 değeri ise sadece Özel Silah ile gelir.
 
 Daskal iki S kademesi takımda yer alır. Arthur, Marlena, Daskal, Harper ve Louis dört savaşçı için +%15 fraksiyon bonusu, 150,7M hayatta kalma gücü ve takım incelemesinde 100 üzerinden 98 puan kazandırır. Kalkanı, takımdan alınan hasarın %36'sını kaldıran Billy'nin Kader İpliği (Fate's Thread) ile birleşir.
+
+---
+
+## 🔄 Ana kadroyu Daskal etrafında yeniden kurmak {#dtf-daskal-rebuild}
+
+Kahramanı elde etmek sadece bir başlangıçtır; antitoksine, yıldızlara, yeteneklere, ekipmana ve bir birlik slotuna ihtiyacı var — ve ardından Arena, Surlar ile kayıtlı tüm dizilimlerin onun hakkında bilgi sahibi olması gerekir. Bu, tam bir yeniden yapılandırma rehberidir: Daskal'ı çekmek, onu 1'den 150'ye fullemek ve Bella'nın yerine ilk Savaşçı birliğine yerleştirmek.
+
+![Daskal ve altın Claire kahraman gelişim rehberi](/img/dtf/daskal-claire/01.jpg)
+
+### Kahraman Perşembe'si için büyük harcama yapın {#dtf-hero-thursday}
+
+İşe alım biletlerini, evrensel parçaları, yetenek rozetlerini ve antitoksin stoklarını rastgele bir günde asla harcamayın. Perşembe günleri İttifak Düellosu kahraman aşaması gerçekleşir ve bu yeniden yapılanmadaki neredeyse her şey puan kazandırır — çağrılar, parça harcamaları, rozet ve antitoksin tüketimi. Tek bir gelişim hamlesi iki kez işe yarar: daha güçlü bir hesap artı düello ödülleri. Perşembe gününe hazırlıklı yaklaşın.
+
+![İttifak Düellosu aşama 4 kahraman geliştirme görevleri](/img/dtf/daskal-claire/02.jpg)
+
+Bu durumda hedef baştan belliydi: Daskal. Kendisi çıkmadan önceki hafta yaklaşık 250 bilet harcandı, ardından ücretsiz çağrılar ve taze denemeler — ilk on çekişte çıkmadı, ikinci on çekişte isabet etti. Önemli an, ne zaman durulacağını bilmektir: kahraman elde edildikten sonra, daha fazla bilet çekilişin kendisini değil, parçaları ve yetenek rozetlerini satın alır.
+
+![Kahraman çağrılarından Daskal'ı çekmek](/img/dtf/daskal-claire/03.jpg)
+
+### Çimen ipucu: hırsızları atlamayın {#dtf-thieves-grass}
+
+Hırsızlar etkinliği devam ederken, büyük araştırmaların sıfıra indirdiği ot stoğunu onarır. Büyük bir kişisel hedef bir milyon otun üzerinde kazandırırken, küçük olanlar her biri birkaç yüz bin kazandırır — kesin sayılar aktiviteye göre değişir, ancak aktif bir etkinlik sırasında acil bir ot takviyesi olarak gayet iyi iş çıkarır.
+
+![Hırsızlar etkinliği](/img/dtf/daskal-claire/04.jpg)
+
+### Daskal 1→150: antitoksin nereye gidiyor {#dtf-daskal-leveling}
+
+Daskal 1. seviyede gelir ve antitoksin stoğu özellikle onun için saklanmıştır — ki bu doğrudur, çünkü maliyeti devasa düzeydedir. ~100 seviyeye kadar hâl래 zararsız görünür, panik yapmadan seviyeler hızla yükselir. Asıl eğlence o zaman başlar: 150'ye ne kadar yaklaşılırsa, her seviyenin maliyeti o kadar artar. Toplam 1→150 yolu **5.248.471.500 antitoksin — 5.2 milyardan biraz fazla** gerektirir. Aynı sıfırdan maksimuma koşusunu planlayan herkes iki veya üç değil, beş milyardan fazla stok yapmalıdır. Antitoksin atölyelerden, ödüllerden ve biriktirilmiş çanta eşyalarından gelir — bu yüzden kavanozları erken bir sebepten ötürü açmayın; önemli olan kahraman için beklesinler.
+
+![Antitoksin ile Daskal'ı 1'den 150'ye seviye atlatmak](/img/dtf/daskal-claire/11.jpg)
+
+### Daskal neden 1. birlikte yer almalı {#dtf-why-daskal}
+
+Daskal, kit'i tam olarak ön safların yapması gerekenleri yapan bir Savaşçı UR tankıdır: nihai yeteneği tüm müttefikleri kalkanlar, aktif yeteneği Daskal'ın kendisini iyileştirirken fiziksel hasar verir ve pasif bir efekt savaşın başlarında müttefik tanklara kalkan sağlar. Hasara karşı hayatta kalır ve takımın geri kalanının da hayatta kalmasına yardımcı olur.
+
+Burada Bella'nın yerini almak mantıklı hamledir — ve Bella emekliye ayrılmaz. İyi bir ön saftan yoksun olan 3. birliğe taşınır. Yeni bir kahraman aynı anda iki birliği güçlendirir.
+
+### Önce Bella'nın ekipmanını soyun {#dtf-gear-transfer}
+
+Değişimi sonlandırmadan önce, eski tankın üzerindeki iyi seti yeni olana taşıyın — aksi takdirde sonuç, terliklerle koşan 150. seviye yıldızlı bir UR olur. Burada Daskal için özel bir imza silahı yoktu, bu yüzden mevcut ekipmanlar üzerine giydirildi, Bella'nın setinin geri kalanı aktarıldı ve oraya taşınırken Bella da 3. birlik kahramanının yer değiştiren eşyalarını aldı.
+
+![Bella'nın ekipmanını Daskal'a aktarmak](/img/dtf/daskal-claire/12.jpg)
+
+![Daskal'ı yükseltmek](/img/dtf/daskal-claire/13.jpg)
+
+### Daskal'ın şu anda kaç yıldıza ihtiyacı var {#dtf-daskal-daskal-stars}
+
+Seviyelerden sonra en çok canı parçalar yakar. Her şeyi yükseltme isteği caziptir — bekleyen korucular, bir yıldız isteyen başka bir UR. Ancak ana birlik Savaşçılardır, bu yüzden Daskal buraya katılırsa, evrensel altın parçalar en çok ona kazandırır. İlk gün **6★** seviyesine yaklaştı (bu da takım kalkanını daha da artırır), geri kalanı daha sonra çiftlenebilir. Altı yıldız rastgele değildir — ve bir sonraki büyük hedef, Azim'in kilidini açan **8★**'dir: +%20 ATK/HP/DEF artı +%10 yetenek bekleme süresi hızı. Bu yüzden evrensel parçaları üç birlik arasında dağıtmayın: ana birlik kahramanını önce gerçekten yararlı bir kontrol noktasına getirin, ardından daha ilerisine bakın.
+
+![Ana birlik için Daskal yıldızları ve yetenekleri](/img/dtf/daskal-claire/14.jpg)
+
+### Onur Salonu'nu unutmayın {#dtf-dtf-hall-of-honor}
+
+Süreç boyunca mavi bir kahraman nihayet Onur Salonu koşuluna ulaştı — bu da önemsiz bir detay değil. Oradaki düzenli kahraman gelişimi hesabı sürekli olarak güçlendirir ve özellikle mavi kahramanlar asker taşıma kapasitesini artırır: birlikler yürüyüş başına daha fazla kaynak taşır. Savaş canavarı bonusu yoktur, ancak mesafe kat edildikçe ekstra kapasite karşılığını verir. Mavi kahramanları asla 1. birlik olamayacaklar diye göz ardı etmeyin.
+
+![Onur Salonu](/img/dtf/daskal-claire/15.jpg)
+
+### Yeni kahraman yerleştirildi — iş bitmedi {#dtf-update-modes}
+
+Bella Daskal ile değiştirildikten sonra 1. birliğin gücü arttı — ancak oyun dizilimleri moda göre saklar. Herhangi bir ciddi yeniden düzenlemeden sonra, Arena'yı açın ve savunmayı yenileyin, ardından Surları kontrol edin, ardından Fetih Kanyonu'nu kontrol edin ve yeni dizilimi orada kaydedin. Aksi takdirde Arena günlerce Bella'yı sürmeye devam eder. Aynı kural büyük ekipman, epigraf veya Raven yükseltmelerinden sonra da geçerlidir: bir mod kaydedilmiş bir dizilim kullanıyorsa, bunu manuel olarak doğrulayın.
+
+### Yeniden yapılanmadan sonraki üç birlik {#dtf-final-squads}
+
+1. Birlik tamamen Savaşçıya dönüşür: **Daskal, Arthur, Marlena, altın Claire ve Harper**, yaklaşık **19.5M güç**. Daskal ve Arthur ön safları tutar, Marlena hasarı sırtlar, Claire PvE'yi güçlendirir, Harper Savaşçıları destekler.
+
+![İlk birlik: 19.5M güçte Daskal, Arthur, Marlena, Claire ve Harper](/img/dtf/daskal-claire/16.jpg)
+
+2. Birlik Korucu olarak kalır: Shadow, Griffith, Cynthia, Ash ve Red Lady (~13.32M). 3. Birlik karma olur: Bella, Hastar, Joker, Annie ve Celia ile birlikte ön safları düzeltmek için katılır (~13.65M).
+
+![Kahraman yeniden yapılanmasından sonraki üçüncü karma birlik](/img/dtf/daskal-claire/17.jpg)
+
+En iyi sonuç tek bir güçlü kahraman değildir: Daskal 1. birliği yükseltti, serbest kalan Bella 3. birliği geliştirdi, altın Claire yeni bir PvE hayatı buldu ve toz toplamak yerine karakterler arasında iyi ekipmanlar taşındı. Bir sonraki Kahraman Perşembe'sine aynı şekilde hazırlanın: biletleri stoklayın, bir sonraki gerçek 150 çıkışı için antitoksin biriktirin, altın evrenselleri ana birliğe odaklanmış tutun — Daskal'ı güven dolu bir 6★'e ve ardından 8★'e doğru ilerletin, altın Claire'i son ikisi kademeli olarak çiftlenmiş şekilde sekiz yıldızda sabitleyin — ve ancak o zaman koruculara geri dönün. Gerçekten güçlü tek bir birinci birlik, yarı inşa edilmiş üç birlikten daha iyidir.
+
+> Kaynak: [Даскал и золотая Клэр в Last Asylum: Plague - как правильно прокачивать героев](https://dtf.ru/howto/5317537-daskal-i-zolotaya-kler-v-last-asylum-prokachka-geroev) - Гейм-Знаток, DTF.

@@ -2,7 +2,7 @@
 title: "Sistem Raven & Epigraph"
 description: "Level dan rencana Raven, strategi gear, kelangkaan epigraph dan urutan promosi, serta aturan mono-faksi yang menentukan epigraph mana yang layak ditingkatkan."
 lang: id
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: raven
 infographics: ["/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
 ---
@@ -107,3 +107,43 @@ Kesimpulannya bukan bahwa ungu diam-diam adalah tingkatan terbaik — melainkan 
 Kesalahpahaman umum yang perlu dihilangkan sejak dini: Anda **tidak bisa meningkatkan epigraph SSR menjadi UR**. Yang Anda tingkatkan adalah Rencana (Plan) — slot tempat epigraph berada. Epigraph SSR adalah pengganti dalam perkembangan itu, bukan embrio.
 
 Hal ini mengarah pada kesalahan Raven yang paling umum dalam game: pemain menimbun epigraph faksi non-utama alih-alih memberikannya ke Raven melalui **Tambah Cepat (Quick Add)** — lalu bertanya-tanya mengapa Raven mereka terjebak di level 1. Epigraph faksi lain dan kelangkaan rendah adalah makanan Raven. Gunakan Tambah Cepat; itulah kegunaannya.
+
+---
+
+## Leveling Raven Tanpa Kesalahan: Workshop, Nest, Epigraph, Rutinitas {#raven-dtf-leveling}
+
+Catatan lapangan dari panduan leveling DTF: Raven hidup di tiga tempat, bukan satu — dan urutan lebih penting daripada kecepatan.
+
+**Tiga bangunan.** Raven Workshop adalah produksi latar belakang: bangunan ini menghasilkan material seiring waktu tanpa hasil yang mencolok, tetapi progres akan melambat tanpanya. Raven Nest adalah layar utama — level, evolusi, tahap baru, dan ikatan pasukan. Epigraph Workshop adalah tempat sebagian besar pilihan keliru dibuat: satu keputusan *crafting* atau *slot* yang buruk akan membuat Anda terjebak dengan peningkatan yang lemah atau mengharuskan biaya *reset*.
+
+![Tinjauan sistem Raven](/img/dtf/raven/01.jpg)
+
+**Level vs evolusi.** Raven naik level menggunakan Raven Fruit dan berevolusi menggunakan Raven Essence, dengan tahap evolusi setiap 10 level yang membuka lapisan progres berikutnya. Essence adalah batas utama: Fruit datang secara stabil melalui rutinitas permainan, sementara Essence selalu terasa langka. Perhatikan ambang batas evolusi berikutnya terlebih dahulu — level tanpa tahap evolusinya akan cepat mencapai batas maksimal.
+
+![Layar pahlawan Raven](/img/dtf/raven/02.jpg)
+
+**Perlengkapan: bangun dasarnya, lalu tajamkan.** Jangan membuka peti dan langsung melakukan peningkatan begitu item didapat. Kumpulkan seluruh set secara merata terlebih dahulu, lalu gabungkan duplikat dan tingkatkan perlengkapan dengan sengaja. Beberapa peningkatan dibatasi oleh urutan — slot lain harus mencapai level tertentu sebelum suatu bagian terbuka — jadi memaksimalkan satu slot lebih awal akan meninggalkan celah di tempat lain. Perlakukan perlengkapan sebagai satu kesatuan set, bukan undian.
+
+![Layar perlengkapan Raven](/img/dtf/raven/03.jpg)
+
+**Sumber harian.** Periksa setiap hari: Toko Aliansi (berbagai material Raven), Toko VIP (Essence dan peti untuk berlian), Toko Ekspedisi (peti Raven level lebih tinggi), Toko Kehormatan (peti langka tahap akhir), Toko Sanctuary (Essence secara bergiliran). Beli hanya yang menyelesaikan tugas Anda saat ini — menyapu setiap item bertuliskan "Raven" hanya menghasilkan inventaris tanpa progres. Tentukan kekurangan secara spesifik sebelum berbelanja: material Epigraph Workshop, atau duplikat untuk digabungkan.
+
+**Ambang batas Epigraph.** Epigraph ungu terbuka pada Epigraph Workshop level 15 — sebelum itu Anda belum benar-benar masuk ke dalam sistem. Epigraph UR hadir belakangan, pada tahap workshop berikutnya dengan material yang lebih mahal. Bonus Epigraph hanya berlaku untuk jenis pasukan yang cocok: jika pasukan utama Anda adalah Warriors, membuat Epigraph Ranger "untuk masa depan" akan menghabiskan material langka tanpa hasil saat ini. Pilih faksi yang benar-benar Anda terjunkan, isi satu set, dan biarkan set sampingan hingga inti selesai. Di dalam satu set, slotnya berbeda (serangan / pertahanan / dukungan / tengah umum) — perbaiki faksi terlebih dahulu, lalu sesuaikan berdasarkan kebutuhan: kekurangan damage berarti mendorong slot serangan, pasukan yang mulai runtuh berarti pertahanan, dan slot umum berarti peningkatan yang merata.
+
+![Epigraph sebagai bagian terkuat dan paling berbahaya dari sistem](/img/dtf/raven/04.jpg)
+
+![Slot Epigraph untuk Warriors, Rangers, dan Sorcerers](/img/dtf/raven/05.jpg)
+
+**Duplikat adalah bahan bakar.** Salinan kedua dari epigraph yang tepat bukanlah *drop* yang buruk — epigraph identik menaikkan bintang pada bagian yang ada, dan untuk bagian UR, duplikat persis dari item yang tepat adalah sumber daya paling berharga dalam lini tersebut. Duplikat jenis yang salah harus menunggu atau melalui redistribusi *reset*; duplikat jenis yang tepat akan diberi bintang.
+
+![Duplikat epigraph sebagai bahan bakar untuk pertumbuhan](/img/dtf/raven/06.jpg)
+
+**Evolusi membuka pasukan.** Evolusi bukan sekadar statistik: evolusi membuka slot pasukan tambahan. Anda mulai hanya dengan pasukan pertama, slot kedua terbuka pada tahap evolusi berikutnya, dan persyaratannya terus meningkat. Itulah alasan lain untuk berkomitmen pada pasukan terkuat Anda sejak dini — secara fisik tidak ada tempat untuk menyebar di awal.
+
+![Slot pasukan yang terbuka oleh evolusi Raven](/img/dtf/raven/07.jpg)
+
+**Reset tersedia.** *Crafting* yang buruk dapat dipulihkan: *reset* akan mengembalikan peningkatan dan mengembalikan material untuk didistribusikan ulang. Fitur ini paling berguna saat Anda beralih kelas pasukan utama, melampaui pasukan sementara, atau salah memilih epigraph di awal. Fitur ini menurunkan biaya dari sebuah kesalahan; fitur ini tidak membuat *crafting* buta menjadi gratis.
+
+**Rutinitas harian.** Periksa toko, ingat evolusi berikutnya, kembangkan hanya jenis epigraph dari pasukan utama Anda, dan *reset* kesalahan alih-alih menerimanya begitu saja. Dimainkan sebagai siklus harian, Raven akan berkembang pesat; dimainkan secara sesekali, sistem ini akan terasa mahal dan tidak jelas.
+
+> Sumber: [Last Asylum: Plague - полный гайд по Ворону. Как качать без ошибок, что делать с эпиграфами.](https://dtf.ru/howto/5016737-last-asylum-plague-gayd-po-prokachke-vorona) oleh Гейм-Знаток di DTF.

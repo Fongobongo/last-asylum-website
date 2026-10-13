@@ -2,7 +2,7 @@
 title: "Rozwój: umiejętności i gwiazdki"
 description: "Sekcja poradnika dotycząca bohaterów: rozwój: umiejętności i gwiazdki."
 lang: pl
-updated: "2026-10-01"
+updated: "2026-10-12"
 videoTopic: heroes
 ---
 
@@ -234,3 +234,96 @@ Strony, które wspominają tę. Lista jest zbudowana ze znacznika, a nie wypełn
 - Arthur: umiejętności, ulepszenia i Moc
 
 ## Komentarze
+
+## Kolejność inwestycji: Obrażenia → Front → Wsparcie {#dtf-investment-order}
+
+Bohater to najpierw rola, a dopiero potem portret. Schemat roboczego oddziału w tym poradniku to **2 czołgi + 2 zadających obrażenia + 1 wsparcie**: dwa czołgi kupują czas na przeżycie, dwaj zadający obrażenia generują presję, jedno wsparcie potęguje rdzeń, który już istnieje.
+
+![Okładka poradnika: jak poprawnie rozwijać bohaterów](/img/dtf/hero-progression/01.jpg)
+
+### Jak odczytywać rolę {#dtf-roles}
+
+- **Tarcza — czołg.** Przyjmuje ciosy, trzyma front, chroni drużynę za pomocą umiejętności defensywnych i redukcji obrażeń.
+- **Ogień — zadający obrażenia (carry).** Szybko eliminuje wrogów; krótka walka oznacza mniej obrażeń zwróconych w stronę Twojego zespołu.
+- **Butelka — wsparcie.** Wzmocnienia (buffy), leczenie/utrzymanie, pomoc zasobowa. Prawie zawsze skaluje się wraz z siłą reszty drużyny.
+
+Równomierne rozdzielanie zasobów buduje pięciu przeciętnych bohaterów. Ich koncentracja buduje jeden oddział, który radzi sobie z zawartością gry.
+
+![Role bohaterów: czołg, zadający obrażenia, wsparcie](/img/dtf/hero-progression/02.jpg)
+
+### Kolejność, która napędza postępy {#dtf-carry-first}
+
+1. **Główny zadający obrażenia** — najszybszy postęp w kampanii, trybie PvE i wydarzeniach.
+2. **Główny czołg** — bez frontu carry nigdy nie zdoła w pełni wykorzystać swoich umiejętności.
+3. **Drugi zadający obrażenia, drugi czołg, a na końcu wsparcie.**
+
+Wzmacnianie słabego carry wczesnym wsparciem to jak montowanie turbiny w wózku zakupowym: hałasuje, ale nigdzie nie jedzie.
+
+### Najpierw główny carry: Marlena jako przykład {#dtf-marlena-carry}
+
+W kierunku Wojownika dobrym przykładem jest Marlena. Dla głównego zadającego obrażenia liczą się trzy rzeczy: **poziom bohatera, ekwipunek pod obrażenia oraz kluczowa umiejętność zadająca obrażenia** (w przypadku Marleny pasywka zwiększająca obrażenia od energii — a nie od wszystkiego po trochu).
+
+![Marlena jako główny zadający obrażenia](/img/dtf/hero-progression/03.jpg)
+
+Priorytet ekwipunku dla carry to **miecz, a następnie rękawice**. Pancerz i buty nie są bezużyteczne, ale stawianie ochrony na pierwszym miejscu u carry oznacza, że obie drużyny przeżyją dłużej. Umiejętności kierują się tą samą logiką: rozwijaj efekt zwiększający główny typ obrażeń przed ulepszeniami pobocznymi.
+
+![Rozwijaj bohaterów w odpowiedniej kolejności: najpierw carry, potem czołg i wsparcie](/img/dtf/hero-progression/04.jpg)
+
+### Drugi zadający obrażenia: gdy pierwszy ma już fundament {#dtf-second-carry}
+
+Drugi zadający obrażenia dodaje tempo, dobija cele i stanowi ubezpieczenie głównego carry — ale dopiero wtedy, gdy pierwszy ma poziom, kluczową umiejętność, miecz i rękawice. Zbyt wczesny podział wszystkiego 50/50 daje dwóch przeciętnych napastników, których cele pozostają przy życiu.
+
+Wybierz bohatera, który faktycznie znajduje się w Twojej obecnej głównej piątce, a nie projekt typu „może kiedyś”.
+
+### Czołg jako drugi: Arthur trzyma linię {#dtf-arthur-tank}
+
+Po carry musi nadrabiać front. Arthur jako główny czołg potrzebuje poziomów, ekwipunku defensywnego i umiejętności chroniących drużynę. Kolejność ekwipunku to **pancerz, a potem buty** (pancerz przeciwko uderzeniom fizycznym, buty dla przeżywalności przeciwko energii i progów obronnych).
+
+![Rozwój Arthura: pancerz, buty i umiejętności defensywne](/img/dtf/hero-progression/05.jpg)
+
+Co rozwijać u czołgu: najpierw umiejętność ostateczną (ultimate Arthura redukuje obrażenia fizyczne otrzymywane przez sojuszników w strefie), potem umiejętności pasywne, które obniżają nadchodzące obrażenia lub utrzymują przy życiu drugi czołg. Nieśmiertelny front bez zadających obrażenia z tyłu po prostu przegrywa powoli i heroicznie.
+
+### Wsparcie jako trzecie: Celia na początku, Harper później {#dtf-harper-support}
+
+Celia może zajmować slot wsparcia na wczesnym etapie, ale jej wartość skłania się ku zasobom, a nie bezpośredniej sile bojowej. Harper (wzmocnienia ataku dla sojuszników, zwłaszcza Wojowników, poprzez pasywkę i ultimate) pasuje do oddziału bojowego Wojowników znacznie lepiej — gdy tylko pojawi się coś, co warto wzmocnić.
+
+![Harper: wsparcie ataku dla bohaterów typu Wojownik](/img/dtf/hero-progression/06.jpg)
+
+Nie wrzucaj Harpera do składu na 1. poziomie tylko dlatego, że się pojawił. Przechodź na niego stopniowo i planuj jego zasoby z wyprzedzeniem: buff przynosi efekty, gdy w drużynie stoją już Marlena, Arthur oraz drugi zadający obrażenia.
+
+Praktyczna sekwencja: główny zadający obrażenia → główny czołg → drugi zadający obrażenia → drugi czołg → wsparcie, gdy rdzeń jest gotowy.
+
+### Ekwipunek i umiejętności według roli, nie ulubieńców {#dtf-gear-skills-by-role}
+
+- Carry: najpierw **miecz → rękawice**.
+- Czołg: najpierw **pancerz → buty**.
+- Wsparcie: ochrona, jeśli ginie i traci buffy, w przeciwnym razie później.
+- Nigdy nie oddawaj najlepszego miecza czołgowi, dopóki główny carry cierpi na brak obrażeń, i nigdy nie maksymalizuj pancerza carry przed jego elementami ofensywnymi.
+
+Jeśli chodzi o umiejętności, czytaj opisy: carry = obrażenia i wzmacniacze energii lub fizyczne; czołg = redukcja otrzymywanych obrażeń, ochrona sojuszników, utrzymanie frontu; wsparcie = buff ataku, buff frakcji, użyteczne premie drużynowe. U Marleny liczy się przyrost obrażeń, u Arthura obrona drużyny, u Harpera buff ataku sojuszników.
+
+### Dyscyplina F2P {#dtf-f2p-discipline}
+
+1. Wybierz kierunek frakcji.
+2. Wyznacz głównego zadającego obrażenia.
+3. Wymaksuj go jako pierwszego, potem główny czołg, drugiego zadającego obrażenia, drugi czołg, a na końcu wsparcie.
+4. Nie gonić za każdym nowym trafieniem; jeden ukochany (ukończony) oddział pokonuje kolecję na wpół zbudowanych kart.
+
+Wyszukiwanie pięciu ról działa w każdej frakcji: znajdź *swojego* głównego carry, drugiego carry, dwa czołgi i wsparcie, a następnie realizuj schemat obrażenia → front → wsparcie. Silny bohater bez pasującej frakcji, ról i premii drużynowych radzi sobie gorzej.
+
+![Schemat rozwoju głównego oddziału: zadający obrażenia, czołgi, wsparcie](/img/dtf/hero-progression/07.jpg)
+
+### Sześć klasycznych błędów {#dtf-progression-mistakes}
+
+1. Podnoszenie poziomu wszystkiego po trochu — słaby fundament.
+2. Rozwijanie wsparcia przed carry.
+3. Zapominanie o czołgach — martwy carry zadaje zero obrażeń.
+4. Ten sam ekwipunek dla każdej roli — najpierw rola, potem przedmiot.
+5. Przebudowywanie składu pod każde nowe losowanie — nowe nie oznacza lepsze.
+6. Wydawanie bez planu — najbardziej kosztownym zasobem jest błędna decyzja.
+
+Diagnozuj za pomocą raportów z bitew: czołg ginie natychmiast → problem z frontem; długa walka bez zabójств (zabójств / zabójstw) → problem z obrażeniami; carry żyje, ale radzi sobie słabo → sprawdź umiejętności i ekwipunek. Trzymaj się planu na 1–2 tygodnie (kto teraz, kto następny, który przedmiot, które umiejętności).
+
+![Jak rozwijać bohaterów bez marnowania zasobów](/img/dtf/hero-progression/08.jpg)
+
+> Źródło: [Last Asylum: Plague - как правильно качать героев и не слить ресурсы впустую](https://dtf.ru/howto/5138522-last-asylum-plague-prokachka-geroev), autor Гейм-Знаток (DTF).

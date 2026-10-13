@@ -3,7 +3,7 @@ title: "Claire: Umiejętności, rozwój i build"
 description: "Claire to wojowniczka SSR pełniąca rolę DPS. W pełni ulepszona osiąga 685 150 Potęgi, zajmując 12. miejsce na 16 bohaterów DPS w grze. Odblokowanie jej wymaga 10 odłamków ( Odłamek Claire)..."
 videoTopic: "claire"
 lang: pl
-updated: "2026-09-19"
+updated: "2026-10-12"
 type: guide
 ---
 
@@ -285,3 +285,35 @@ Obie formy dzielą ten sam odłamek: 10 z nich odblokowuje zwykłą Claire, po c
 Gwiazdki kosztują Claire najwięcej, nie w odznakach, a w oczekiwaniu: 975 odłamków, podczas gdy rekrutacja daje odłamek bohatera w około 26% losowań. Umiejętności rosną do 40. poziomu za 436 700 odznak każda i dają mniejszy zwrot: Zew Odważnych osiąga maks. 24% obrażeń potworów wobec 30% w formie zaawansowanej.
 
 Najlepszy oddział z Claire bez bohatera UR to Kesso, Lucius, Sivir, Bella i sama Claire: pięciu wojowników, premia +20% i 8,1 mln przeżywalności. Wraz z Arthur i Marlena dołącza do trzech z pięciu najlepszych osiągalnych oddziałów, w których przeżywalność sięga 38,2 mln, a cena pełnej premii to 20% dodatkowych obrażeń od zwiadowców.
+
+---
+
+## ✦ Złota (UR) Claire: mechanika konwersji i werdykt {#dtf-gold-claire}
+
+Podniesienie rzadszości Claire zmienia fioletową postać SSR w wersję UR — a mechanika ta okazuje się łagodniejsza, a następnie droższa, niż się wydaje. Poziomy zostają zachowane, gwiazdki już nie.
+
+### Co przetrwa transformację {#dtf-claire-conversion}
+
+Po konwersji bohaterka **nie** wraca do 1. poziomu: wszystkie 150 poziomów zostaje. Gwiazdki resetują się w inny sposób — złota Claire trafia do nas na **sześciu gwiazdkach**, a część zainwestowanych zasobów jest zwracana w postaci fragmentów i odznak umiejętności, które można ponownie rozdzielić w ulepszonej formie. Nie miła niespodzianka: kolejne gwiazdki kosztują zauważalnie więcej — w przybliżeniu dwa razy więcej fragmentów niż w starej formie. Nie ma więc co spieszyć się z odzyskaniem wszystkich dziesięciu gwiazdek tego samego dnia. Priorytetem jest **8★**, która odblokowuje piątą umiejętność i daje już bardzo kompletny zestaw; ostatnie dwie gwiazdki można powoli domykać za pomocą fragmentów z jej własnego sklepu oraz dostępnych źródeł.
+
+![Ulepszenie rzadkości Claire do złotej](/img/dtf/daskal-claire/05.jpg)
+
+![Złota Claire po konwersji](/img/dtf/daskal-claire/06.jpg)
+
+Ulepszenie to nie tylko zmiana koloru: podstawowe statystyki faktycznie rosną, zwłaszcza PŻ i Atak przy tych samych liczbach na koncie.
+
+![Porównanie statystyk złotej i fioletowej Claire](/img/dtf/daskal-claire/07.jpg)
+
+![Porównanie statystyk UR i starej Claire](/img/dtf/daskal-claire/08.jpg)
+
+### Silna — ale stworzona pod PvE {#dtf-claire-pve-focus}
+
+Nie należy nazywać złotej Claire uniwersalnym zamiennikiem dla każdego UR DPS-a. Pozostaje ona mocno dostosowana do PvE i potworów: „Wezwanie Odważnych” zwiększa obrażenia trzech Wojowników drużyny z najwyższym atakiem konkretnie przeciwko potworom, więc na Królu Demonów i innej zawartości PvE radzi sobie znakomicie, podczas gdy część jej zestawu umiejętności w PvP jest bezużyteczna. Jeśli priorytetem jest wojna przeciwko graczon, Zoya wydaje się bardziej uniwersalna.
+
+![Claire dostosowana do PvE i potworów](/img/dtf/daskal-claire/09.jpg)
+
+![Claire w porównaniu z Marlena, Arthur i Harper na 150. poziomie](/img/dtf/daskal-claire/10.jpg)
+
+Werdykt: złota Claire znakomicie wzmacnia Wojowników w PvE, nie stając się automatycznie najlepszym wyborem do każdego trybu. Zatrzymaj ją na ośmiu gwiazdkach, powoli farm ostatnie dwie i trzymaj ją tam, gdzie działa jej bonus przeciwko potworom.
+
+> Źródło: [Даскал и золотая Клэр в Last Asylum: Plague - как правильно прокачивать героев](https://dtf.ru/howto/5317537-daskal-i-zolotaya-kler-v-last-asylum-prokachka-geroev), autor Гейм-Знаток (DTF).

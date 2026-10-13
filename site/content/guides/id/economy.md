@@ -2,7 +2,7 @@
 title: "Ekonomi: Diamond, Toko, Penjarahan"
 description: "Ke mana setiap diamond pergi: prioritas toko VIP, jadwal restock, urutan pembelian per toko, anggaran Roda Permohonan, dan mekanik penjarahan lengkap dengan batas harian berdasarkan level Kuil."
 lang: id
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: economy
 infographics: ["/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
 ---
@@ -161,3 +161,48 @@ Karavan dan Covert Ops adalah sistem yang terpisah dari penjarahan, dan mereka m
 
 - **Karavan** — pendapatan perdagangan otomatis Anda. Pastikan mereka terus bergerak.
 - **Covert Ops** — Anda dapat menjarah hingga 5 Covert Ops pemain lain per hari. Covert Ops Emas memberikan hadiah terbaik — selalu ambil yang emas jika Anda melihatnya.
+
+---
+
+## Pengeluaran Cerdas: Tentukan Sasaran Setiap Pembelian {#smart-spending}
+
+![Strategi pengeluaran terencana di Last Asylum](/img/dtf/economy/01.jpg)
+
+Di awal permainan, Anda akan dibimbing secara otomatis — ketuk, kumpulkan, buka kunci —, namun setelah tahap awal tersebut, rutinitas yang sama berhenti memberikan peningkatan kekuatan: kekalahan PvP menumpuk, peningkatan memakan waktu berjam-jam, dan sesi permainan terhenti karena kehabisan energi. Mencoba menerobosnya secara paksa dengan lebih sering masuk permainan hampir tidak mengubah apa pun. Pembelian baru mulai membantu ketika berhenti dilakukan secara acak. Aturan yang disepakati oleh para pemain berpengalaman sangat sederhana: **bukan seberapa banyak yang Anda masukkan, melainkan tepatnya di mana**. Setiap pembelian harus menjawab satu pertanyaan: *apa yang sedang saya perkuat saat ini?*
+
+Sekitar level menengah, tekanan datang dari segala arah: sumber daya tampak lebih banyak, tetapi selalu ada saja hal spesifik yang kurang — material untuk hero atau waktu untuk markas — sementara rival sudah terlihat lebih kuat. Di sinilah dorongan akrab untuk "beli sedikit saja" mengarah pada kesalahan klasik: paket undian beruntung, mengumpulkan hero acak, dan mondar-mandir antara PvP dan PvE. Hasilnya adalah akun yang berkembang tetapi tidak kuat di mana pun: tidak ada damage dalam PvP, tidak ada stabilitas dalam PvE. Titik baliknya adalah fokus pada satu tujuan — arena atau konten — sehingga setiap investasi mengarah ke sana dan permainan mulai "merespons" dengan kemenangan yang lebih konsisten.
+
+### Tangga prioritas
+
+- **Paket pemula dan spesial terlebih dahulu.** Cara tercepat untuk merasakan perbedaannya: hero yang kuat ditambah sumber daya markas secara sekaligus membuat PvE langsung stabil, tanpa hambatan berulang pada tahap biasa.
+- **Energi di urutan kedua.** Hal ini tampak kecil di awal, tetapi energi menentukan seberapa sering Anda benar-benar bermain — farming, misi, pertumbuhan markas. Dengan energi yang cukup, progres berubah dari kebetulan menjadi rutin.
+- **Langganan dan bonus harian di urutan ketiga.** Ini tentang stabilitas: pasokan dasar sumber daya setiap kali masuk permainan, perencanaan peningkatan yang lebih mudah, tanpa tertinggal tempo.
+- **Pertengahan game: hero langka dan material peningkatan perlengkapan.** Tepatnya hal-hal yang mendorong kemajuan PvE dan PvP secara signifikan.
+- **Akhir game: paket musiman dan item percepatan.** Hal-hal ini membuat Anda tetap berada di puncak ketika farming biasa tidak lagi cukup diandalkan.
+
+![Pengeluaran yang stabil dan masuk akal untuk mempercepat progres](/img/dtf/economy/02.jpg)
+
+### Hal yang sebaiknya dilewati
+
+- **Kosmetik** — tidak ada efek sama sekali pada pertarungan.
+- **Peti acak** — sesekali beruntung, tetapi sebagian besar hanya pengisi yang menciptakan ilusi progres tanpa keuntungan nyata.
+- **Peningkatan kecil berdurasi singkat** — efeknya terasa nyata hanya untuk satu malam, tetapi hampir tidak terlihat selama sebulan penuh.
+- **Duplikat hero yang tidak berguna** — jika tidak memperkuat daftar hero, mereka hanyalah pajangan.
+
+Menghilangkan hal-hal ini akan menyaring gangguan: pengeluaran menjadi terarah dan terkontrol, serta setiap investasi dapat dirasakan hasilnya.
+
+### Event adalah titik pertumbuhan
+
+Event menyimpan hadiah yang paling sulit didapatkan melalui cara standar — material langka, item berguna, dan terkadang hero yang kuat. Pendekatan yang membuahkan hasil: bersiaplah terlebih dahulu alih-alih masuk tanpa persiapan, jangan batasi percobaan Anda (bawa tiketnya), selesaikan misi sepenuhnya alih-alih setengah-setengah, dan klaim semua hadiah utama. Dengan pengaturan waktu seperti ini, pengeluaran akan memaksimalkan hasil dari momen tertentu alih-alih sekadar "mempercepat sesuatu".
+
+![Menyesuaikan waktu pengeluaran dengan event untuk hadiah maksimal](/img/dtf/economy/03.jpg)
+
+### Daftar periksa pengeluaran cerdas
+
+1. Paket pemula dan energi terlebih dahulu — hero yang kuat dan aliran sumber daya yang stabil.
+2. Di pertengahan game, bidik hero langka dan material perlengkapan.
+3. Di akhir game, gunakan paket musiman dan item percepatan untuk mencapai puncak.
+4. Berhemat pada hal-hal sepele: kosmetik, peti acak, dan peningkatan mikro.
+5. Rencanakan berdasarkan event — pengembalian maksimum per investasi ada di sana.
+
+> Sumber: [Last Asylum: Plague - как донатить с умом и ускорить прогресс в 2026](https://dtf.ru/moneysaver/4850017-last-asylum-plague-kak-effektivno-donatit-i-uskorit-progress) oleh Гейм-Знаток di DTF.

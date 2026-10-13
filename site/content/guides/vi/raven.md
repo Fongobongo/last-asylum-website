@@ -2,7 +2,7 @@
 title: "Hệ thống Raven & Epigraph"
 description: "Các cấp độ và kế hoạch của Raven, chiến lược trang bị, độ hiếm và thứ tự nâng cấp Epigraph, cùng các quy tắc đơn phe phái quyết định Epigraph nào đáng để nâng cấp."
 lang: vi
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: raven
 infographics: ["/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
 ---
@@ -205,3 +205,43 @@ Tháp Falcon làm mới mỗi 6 giờ: một loạt nhiệm vụ mới sẽ vào
 Tích trữ nhiệm vụ chỉ có lợi cho Alliance Duel: vào ngày một, ba và năm, mỗi Nhiệm vụ Falcon được nộp sẽ mang lại 10.000 điểm. Người chơi hoàn thành nhiệm vụ nhưng để phần thưởng chưa nhận, và nó vẫn nằm trong danh sách hiển thị với một dấu chấm đỏ cho đến ngày thích hợp. Theo quan sát của người chơi, một nhiệm vụ đã hoàn thành không bao giờ mất đi, một nhiệm vụ chưa hoàn thành sẽ biến mất sau 8 giờ, và các nhiệm vụ Zombie Lang Thang không tính vào kho lưu trữ.
 
 Giới hạn của việc tích trữ như vậy là các nhiệm vụ hiển thị cộng với kho lưu trữ, và kho lưu trữ đầy trong chưa đầy một ngày: 30 giờ ở cấp tháp một, 18-24 giờ từ cấp năm trở đi. Sau đó, mỗi lần làm mới đều bị lãng phí, trong khi tháp đưa ra từ 24 nhiệm vụ một ngày ở cấp một đến 52 ở cấp mười lăm. Do đó, tích trữ lâu hơn một ngày không mang lại lợi ích: vào ngày duel hai và bốn, các nhiệm vụ được hoàn thành và giữ lại, vào ngày một, ba và năm, mọi thứ được nộp, và vào cuối tuần, phần thưởng được nhận cùng lúc. Tích trữ không ảnh hưởng đến cấp độ tháp, nó chỉ trì hoãn nó.
+
+---
+
+## Nâng cấp Raven không sai sót: Xưởng, Ổ, Biểu ký, Thường nhật {#raven-dtf-leveling}
+
+Ghi chú thực địa từ hướng dẫn nâng cấp DTF: Raven xuất hiện ở ba nơi chứ không phải một — và thứ tự quan trọng hơn tốc độ.
+
+**Ba công trình.** Xưởng Raven là nơi sản xuất nền tảng: nó tạo ra nguyên liệu theo thời gian mà không có phần thưởng hào nhoáng nào, nhưng tiến độ sẽ chững lại nếu thiếu nó. Ổ Raven là màn hình chính — cấp độ, tiến hóa, các giai đoạn mới và liên kết đội hình. Xưởng Biểu ký là nơi xảy ra nhiều lựa chọn sai lầm nhất: một quyết định chế tạo hoặc chọn ô tồi tệ sẽ gắn liền với bạn như một sự gia tăng yếu kém hoặc tiêu tốn chi phí làm lại.
+
+![Tổng quan hệ thống Raven](/img/dtf/raven/01.jpg)
+
+**Cấp độ so với Tiến hóa.** Raven tăng cấp bằng Trái cây Raven và tiến hóa bằng Tinh chất Raven, với mỗi mốc tiến hóa sau mỗi 10 cấp độ sẽ mở khóa lớp tiến độ tiếp theo. Tinh chất là yếu tố hạn chế mang tính ràng buộc: Trái cây đến đều đặn qua lối chơi thông thường, trong khi Tinh chất luôn mang lại cảm giác khan hiếm. Hãy chú ý đến ngưỡng tiến hóa tiếp theo trước tiên — cấp độ mà không có bước tiến hóa sẽ nhanh chóng chạm trần.
+
+![Màn hình tướng Raven](/img/dtf/raven/02.jpg)
+
+**Trang bị: xây dựng nền tảng, sau đó tinh chỉnh.** Đừng mở rương và dồn nâng cấp ngay khi chúng rớt ra. Hãy lắp ráp toàn bộ bộ trang bị một cách đồng đều trước, sau đó ghép các bản trùng lặp và nâng cấp trang bị một cách có chủ đích. Một số nâng cấp bị giới hạn bởi thứ tự — các ô khác phải đạt đến một cấp độ nhất định trước khi một món đồ được mở khóa — vì vậy việc tối đa hóa một ô quá sớm sẽ để lại khoảng trống ở những nơi khác. Hãy đối xử với trang bị như một bộ đồ nghề, không phải vé xổ số.
+
+![Màn hình trang bị Raven](/img/dtf/raven/03.jpg)
+
+**Nguồn tài nguyên hàng ngày.** Kiểm tra mỗi ngày: Cửa hàng Liên minh (các vật liệu Raven hỗn hợp), cửa hàng VIP (Tinh chất và rương đổi bằng kim cương), cửa hàng Thám hiểm (rương Raven cấp cao hơn), cửa hàng Danh dự (rương hiếm giai đoạn cuối), cửa hàng Khu thánh địa (Tinh chất xoay vòng). Chỉ mua những thứ phục vụ cho nhiệm vụ hiện tại của bạn — càn quét mọi vật phẩm dán nhãn "Raven" sẽ chỉ tạo ra kho chứa đồ mà không có tiến triển. Hãy nêu rõ sự thiếu hụt trước khi tiêu dùng: Nguyên liệu Xưởng Biểu ký, hoặc các bản trùng lặp để ghép nối.
+
+**Ngưỡng Biểu ký.** Biểu ký Tím mở ở cấp độ Xưởng Biểu ký 15 — trước đó bạn chưa thực sự tham gia hệ thống. Biểu ký UR xuất hiện sau đó, ở giai đoạn xưởng tiếp theo với nguyên liệu đắt đỏ hơn. Các chỉ số cộng thêm của Biểu ký chỉ áp dụng cho loại đội hình tương ứng: nếu đội hình chính của bạn là Chiến Binh, việc chế tạo Biểu ký Xạ Thủ "cho tương lai" sẽ đốt cháy nguyên liệu quý hiếm mà không mang lại lợi ích gì ở hiện tại. Hãy chọn phe phái mà bạn thực sự sử dụng, hoàn thành một bộ và để yên các bộ phụ cho đến khi bộ lõi hoàn tất. Bên trong một bộ, các ô có sự khác biệt (tấn công / phòng thủ / hỗ trợ / trung tâm chung) — hãy cố định phe phái trước, sau đó điều chỉnh theo nhu cầu: thiếu sát thương thì đẩy mạnh ô tấn công, đội hình dễ sụp đổ thì chọn phòng thủ, và ô chung sẽ mang lại mức tăng đều.
+
+![Biểu ký là phần mạnh nhất và nguy hiểm nhất của hệ thống](/img/dtf/raven/04.jpg)
+
+![Các ô biểu ký cho Chiến Binh, Xạ Thủ và Phù Thủy](/img/dtf/raven/05.jpg)
+
+**Bản trùng lặp là nhiên liệu.** Bản sao thứ hai của một biểu ký phù hợp không phải là một món đồ rớt tồi — các biểu ký giống hệt nhau sẽ tăng sao cho món đồ hiện có, và đối với các món UR, các bản sao chính xác của đúng vật phẩm đó là tài nguyên quý giá nhất trong dòng này. Bản trùng lặp sai loại sẽ phải chờ hoặc được phân phối lại qua tính năng làm lại; bản trùng lặp đúng loại sẽ được tăng sao.
+
+![Biểu ký trùng lặp làm nhiên liệu phát triển](/img/dtf/raven/06.jpg)
+
+**Tiến hóa mở ra các đội hình.** Tiến hóa không chỉ là chỉ số: nó mở khóa các ô đội hình bổ sung. Bạn bắt đầu chỉ với đội hình đầu tiên, ô thứ hai mở ra ở giai đoạn tiến hóa tiếp theo và các yêu cầu cứ thế tăng dần. Đó là một lý do khác để cam kết với đội hình mạnh nhất của bạn từ sớm — thực tế là không có chỗ để phân tán lực lượng ở giai đoạn đầu.
+
+![Các ô đội hình được mở khóa bằng tiến hóa Raven](/img/dtf/raven/07.jpg)
+
+**Tính năng Làm lại tồn tại.** Những lần chế tạo tồi có thể khôi phục được: tính năng làm lại sẽ hoàn tác nâng cấp và trả lại nguyên liệu để phân phối lại. Nó hữu ích nhất khi bạn chuyển đổi lớp đội hình chính, vượt qua một đội hình tạm thời, hoặc chọn nhầm biểu ký lúc ban đầu. Nó làm giảm chi phí cho một sai lầm; nó không làm cho việc chế tạo mù quáng trở nên miễn phí.
+
+**Hoạt động thường nhật.** Kiểm tra các cửa hàng, ghi nhớ mốc tiến hóa tiếp theo, chỉ phát triển loại biểu ký của đội hình chính và làm lại các sai lầm thay vì sống chung với chúng. Được chơi như một vòng lặp hàng ngày, Raven sẽ tích lũy theo thời gian; chơi ngắt quãng sẽ khiến nó trở nên đắt đỏ và mơ hồ.
+
+> Nguồn: [Last Asylum: Plague - полный гайд по Ворону. Как качать без ошибок, что делать с эпиграфами.](https://dtf.ru/howto/5016737-last-asylum-plague-gayd-po-prokachke-vorona) thực hiện bởi Гейм-Знаток trên DTF.

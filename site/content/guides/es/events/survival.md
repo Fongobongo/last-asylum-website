@@ -2,7 +2,7 @@
 title: "Batalla de Supervivencia: 60K Insignias gratis y rotación de fases de 4 horas"
 description: "Evento de misiones semanales que otorga ~60,000 Insignias de Habilidad gratis: 5 categorías de tareas, rotación de fases de 4 horas, puntuación basada en colas de entrenamiento de soldados y sincronización con el Duelo de Alianzas."
 lang: es
-updated: "2026-09-15"
+updated: "2026-10-12"
 videoTopic: survival
 type: event
 ---
@@ -107,3 +107,51 @@ Un hito destacado de alta eficiencia se completa exactamente con **30 Boletos de
 6. Pon en cola el entrenamiento de soldados **estrictamente después de que haya comenzado la fase de entrenamiento** (¡los puntos se otorgan al poner en cola!).
 7. Entrena el nivel desbloqueado más alto (T7–T10) o promociona tropas existentes.
 8. Limpia todos los cofres de hitos para asegurar tus ~60,000 Insignias de Habilidad antes del reinicio semanal (00:00 hora del servidor / 02:00 UTC).
+
+---
+
+## Ciclo diario de Batalla de Supervivencia: Sellos, energía y superposición de Duelos (DTF) {#dtf-daily-loop}
+
+El evento se realiza diariamente a través de cinco temas rotativos: entrenamiento de tropas, investigación tecnológica, mejoras de Raven, crecimiento de héroes y desarrollo de territorio. No necesitas los cinco: **18 Sellos de Supervivencia otorgan los tres cofres diarios**, es decir, tres temas completados por completo. La verdadera victoria es la superposición con el Duelo de la Alianza —construir el martes, investigar el miércoles, entrenar el viernes— para que los mismos aceleradores rindan el doble.
+
+![Cinco temas de Supervivencia y 18 sellos para tres cofres](/img/dtf/survival/02.jpg)
+
+### Cómo funcionan los sellos y rangos {#dtf-seals}
+
+El orden rota a diario sin un horario fijo; abre el evento antes de gastar y verifica el tema activo y el siguiente. Cada tema tiene **4 etapas que otorgan 1+1+2+2 = 6 sellos**; 18 sellos = tres temas completados. Las recompensas de etapa (insignias de habilidad, aceleradores, recursos) se acumulan encima. Completar los cinco temas otorga aproximadamente **8 000 insignias de habilidad al día**, hasta ~9 600 si se repite un tema de entrenamiento que regresa. La tabla de clasificación diaria otorga un premio base de recursos por cualquier puntuación y mejores premios cuanto más alto sea el puesto; continúa más allá de 18 solo cuando el tema coincida con tu crecimiento planeado; gastar reservas de aceleradores solo por el rango casi nunca es rentable.
+
+![Recompensas de clasificación de Supervivencia](/img/dtf/survival/03.jpg)
+
+El trío diario más económico para la mayoría de las cuentas: **Raven (energía) + Héroes (antitoxina) + el tema del día de duelo** (territorio el martes, investigación el miércoles, tropas el viernes; sábado — lo que sea más económico en stock). Después del cofre dorado en 18, detente a menos que el siguiente tema sea un crecimiento ya planeado.
+
+### Tropas, investigación, Raven, héroes, territorio {#dtf-themes}
+
+**Entrenamiento:** puntuación a partir de aceleradores de entrenamiento y crecimiento del ejército en el terreno más desarrollado (nivel máximo), con otros terrenos cargados o preparando niveles inferiores para la promoción. Si el entrenamiento comienza en una hora y un lote está a punto de terminar, pon en cola solo el tiempo restante y luego cárgalo por completo después de que se abra el tema; ningún terreno debe estar inactivo, pero la mayor parte cae dentro de la ventana. El mejor día es el viernes con la etapa de entrenamiento del duelo.
+
+![Entrenamiento de tropas dentro de la ventana del tema](/img/dtf/survival/04.jpg)
+
+**Investigación:** puntos por aceleradores de investigación más ganancia de poder tecnológico; programa la finalización dentro de la ventana, luego inicia la siguiente, recolecta ayuda de la alianza y decide qué acelerar. Si una tecnología otorga claramente más poder y la siguiente etapa necesita solo un poco, terminarla es mejor que repartir aceleradores entre las pequeñas; no es necesario cerrar por completo una tecnología larga una vez que se ha alcanzado el umbral. El mejor día es el miércoles con la investigación de duelo.
+
+![Investigación tecnológica y puntuación de poder](/img/dtf/survival/06.jpg)
+
+**Raven: la herramienta diaria de trabajo:** dos formas de puntuar, desarrollo de frutos o gasto de energía. Guarda los frutos para la etapa de duelo de Raven del lunes; en otros días gasta **energía** en Plaga/ladrones/jefes/misiones de Falcon — actividad diaria normal, sin costo dedicado. Alrededor de **300 de energía** cierra por completo el tema (4 recompensas, 6 sellos). Combínalo con la Cacería de ladrones: una marcha débil encuentra ladrones de oro pequeños y abre jefes, una marcha fuerte golpea objetivos grandes. Atajo: envía primero un escuadrón a una casilla de recursos cercana y luego redirícelo al monstruo a medida que pasa; esto reduce muchas marchas al día.
+
+![Mejoras de Raven a través de energía y Cacería de ladrones](/img/dtf/survival/08.jpg)
+
+**Héroes: el tema más rápido:** invocaciones de taberna más antitoxina; una subida de nivel del tamaño adecuado a menudo cierra las cuatro etapas. Abre varios héroes, elige aquel cuyo costo para el siguiente nivel se encuentre más cerca del umbral final; no desperdicies 100M de antitoxina donde 20M eran suficientes. Guarda las invocaciones masivas para el día de héroes del duelo del jueves; la antitoxina suele cerrar Supervivencia de forma más económica.
+
+![Crecimiento de héroes con antitoxina](/img/dtf/survival/10.jpg)
+
+**Territorio:** aceleradores de construcción más ganancias de poder de construcción. Aprovecha una construcción grande que esté por terminar dentro de la ventana cuando esté disponible (sin esperar de 15 a 30 días para el Santuario/Laboratorio); de lo contrario, gasta aceleradores en lotes más grandes (por ejemplo, de 5 minutos) después de recolectar ayuda de la alianza. El mejor día es el martes con la construcción de duelo.
+
+![Desarrollo de territorio con aceleradores de construcción](/img/dtf/survival/11.jpg)
+
+### Superposición, ministros y disciplina de sellos {#dtf-overlap}
+
+Lunes: el duelo hace crecer a Raven — gasta los frutos acumulados dentro del tema de Raven para obtener doble crédito. Martes: territorio — aprovecha los edificios preparados más aceleradores de construcción. Miércoles: investigación — pergaminos más tecnologías largas. Jueves: héroes — tiques, fragmentos, antitoxina, insignias. Viernes: tropas — terrenos durante el tema de entrenamiento. Sábado: elección libre según el inventario. No adaptes la cuenta al evento; adapta el evento al crecimiento planeado.
+
+Antes de realizar mejoras importantes, obtén el título de ministro correspondiente y vigila la cola: en listas completas de 50/50, las solicitudes quedan en espera; aplicar con **49/50** hace que la cola de trabajo entre con más frecuencia. Planifica los títulos con anticipación en los días de construcción/investigación.
+
+Los sellos **se reinician diariamente**: 17 hoy más "uno más mañana" son cero mañana. Si te falta una etapa para llegar a 18, toma el tema más económico de cerrar; nunca acumules sellos con la esperanza de facilitar el día de mañana.
+
+> Fuente: [Last Asylum: Plague - гайд по Битве на выживание](https://dtf.ru/howto/5240960-last-asylum-plague-gajd-po-bitve-na-vyzhivanie) por Гейм-Знаток en DTF.

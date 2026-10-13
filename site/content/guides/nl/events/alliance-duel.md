@@ -2,7 +2,7 @@
 title: "Alliantie-duel: Complete Gids"
 description: "Zes dagen aan puntencategorieën, een PvP-finale op zaterdag, fase-per-fase mechanieken met exacte puntewaarden, het stapelen van Valkenpeuringen en de 'alles-bewaren'-economie waarmee je de topkist wint."
 lang: nl
-updated: "2026-09-18"
+updated: "2026-10-12"
 videoTopic: alliance_duel
 calculators: []
 infographics: ["/infographics/duel-day-guide.webp", "/infographics/duel-savings.webp", "/infographics/falcon-tower-storage.webp"]
@@ -361,3 +361,65 @@ Geverifieerde waarden uit spelcliëntgegevens (v1.0.87), bron: wiki-last-asylum.
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Wat doet de onderzoekboom van het Alliantie-duel?", "acceptedAnswer": {"@type": "Answer", "text": "Het vermenigvuldigt evenementpunten (Arena Expert +100%, Arena Master +50%) en ontgrendelt de kisten van tier 7–9 met topbeloningen."}}, {"@type": "Question", "name": "Wat is de actie met de hoogste waarde in het Alliantie-duel?", "acceptedAnswer": {"@type": "Answer", "text": "Het uitsturen van een UR-handelskaravaan voor 100.000 punten op fasen 2 en 6, gevolgd door een UR geheime operatie voor 75.000."}}]}
 </script>
+
+---
+
+## Alliantieduel van Dag tot Dag: Veldkalender (DTF) {#dtf-calendar}
+
+Het duel duurt bijna de hele week met roterende puntentellingen: maandag energie/grondstoffen, dinsdag bouw, woensdag onderzoek, donderdag helden, vrijdag troepentraining, zaterdag KvK. De beginnersfout is alles meteen uitgeven — Falcon-opdrachten geclaimd op zondag, Raven-kisten geopend op dinsdag, antitoxine opgebruikt op maandag, massale training mid-week. Het account groeit, maar het duel krijgt bijna niets. Spaar in plaats daarvan per dag.
+
+![Alliantieduel dag-tot-dag gids](/img/dtf/alliance-duel/01.jpg)
+
+### Duel-technologie op de eerste plaats {#dtf-tech}
+
+De dueltak van het lab vermenigvuldigt de punten binnen het evenement, wat elke toekomstige week goedkoper maakt. Kan het beste worden ontwikkeld op **woensdag**, wanneer onderzoeksversnellers, boekrollen en de groei van technologische macht samen punten opleveren. Bouw eerst de duel-technologie, daarna Elite Troepen en Caravan Transport als die ook speciale boekrollen nodig hebben — één zo'n onderzoek levert tegelijkertijd boekrollen + versnellers + macht op (bijv. 1.280 boekrollen op ~750 ptn ≈ 960.000 vóór versnellers en macht). Een volledige tak sluit je niet in één week, maar zelfs een paar levels brengen persoonlijke kisten dichterbij en besparen versnellers.
+
+### Maandag: Falcon, energie, verzamelen, Raven {#dtf-monday}
+
+Falcon-opdrachten die op zondag zijn voltooid, blijven onengeclaimd: een ontwikkelde Falcon-toren bevat tientallen voltooide orders plus de voorraad op het scherm, dus maandag begint met een grote kant-en-klare batch (bij ~30.000 ptn elk zijn 40-50 opgespaarde opdrachten een serieuze voorsprong — maar laat de opslag niet overlopen, anders worden nieuwe orders niet opgeslagen). De hoofdmarched verbruikt eerst natuurlijke energie aan Blight/dieven/kaartdoelen, dan flessen, en daarna goedkope diamantbijvullingen — controleer het gat naar de volgende kist voordat je de winkel leegkoopt. Andere marches verzamelen graan/hout/kruiden van kaarttegels; vestingproductie telt niet mee, alleen kaartleveringen.
+
+![Opgespaarde Falcon-opdrachten vóór het duel](/img/dtf/alliance-duel/02.jpg)
+
+Bewaar antitoxine voor donderdag; geef maandag slechts een beetje uit om net een kist te halen. Sla Raven Fruit en Essence op gedurende de week en geef ze maandag uit — Raven-stat-upgrades plus Epigraph-kisten leveren een flink aantal punten op. Laat Raven-uitrustingskisten voor woensdag staan. Controleer na de wekelijkse reset de Ereshop voor blauwdrukken plus Essence en versnellers.
+
+### Dinsdag: gebouwen, caravans, overlevenden {#dtf-tuesday}
+
+Punten komen van bouwversnellers (~150/min), maar de hoofdprijs zijn kant-en-klare gebouwen die zijn achtergelaten met het hamerpictogram: de machtstoename van een voltooid gebouw (bijv. 5.300 macht bij 30 ptn ≈ 159.000) telt bij een klik, dus claim voorbereide Sanctuary/Lab/terreinen/kazernes op dinsdagochtend. Geef prioriteit aan dure gebouwen. Leg de hele economie niet plat: een voltooide boerderij/zagerij/bloemperk kan niet worden geoogst terwijl de hamer erop staat, dus laat van elk type één (en één handmatige werkplaats) ongeblokkeerd om de productie draaiende te houden.
+
+![Machtstoename van gebouwen op dinsdag](/img/dtf/alliance-duel/03.jpg)
+
+Claim de titel **Minister of Construction** vóór lange upgrades (grote timerverkorting op een hoog Sanctuary; zet op drukke servers op tijd in de wachtrij). Laat caravans en covert ops rollen naar goud met eerst gratis vernieuwingen, daarna kristallen — één goede caravan ≈ 300.000. Huur overlevenden in de Tavern (geen heldenoproepen — andere mechaniek en beloningslijn).
+
+### Woensdag: onderzoek en Raven-uitrusting {#dtf-wednesday}
+
+Onderzoeksversnellers, technologische macht, speciale boekrollen en Raven-uitrustingskisten. Laat de Falcon-opdrachten van dinsdag ongeclaimd om woensdag te beginnen met een kant-en-klare batch.
+
+![Woensdag onderzoek en Raven-uitrusting](/img/dtf/alliance-duel/04.jpg)
+
+Prioriteit: duel-tak, daarna Elite Troepen / Caravan Transport — technologieën die boekrollen kosten betalen het best. Verzamel de hele week Raven-uitrustingskisten en open ze op woensdag; hogere kwaliteit levert meer op, en voeg daarna massaal Raven-uitrusting samen voor kistpunten plus uitrustingsmacht. Open ze nooit zodra je ze ontvangt.
+
+![Boekrollen uitgeven aan woensdagonderzoek](/img/dtf/alliance-duel/05.jpg)
+
+### Donderdag: oproepen en heldengroei {#dtf-thursday}
+
+Punten voor Tavern-oproeptickets, fragmenten, sterren-upgrades, vaardigheidsbadges en antitoxine. Spaar tickets, persoonlijke fragmenten, vaardigheidsbadges en antitoxine voor deze dag. Tavern-trekkingen geven helden plus persoonlijke fragmenten van de getrokken helden — geen universele fragmenten, die moeten uit evenementen/winkels komen. Trek in tientallen tegelijk wanneer de tickets dat toelaten. Volgorde: **sterren op hoofdhelden → vaardigheidsbadges → antitoxine voor levels**. Voed het eerste peloton, niet de hele selectie; geef persoonlijke fragmenten uit aan het werkende team en bewaar universele voor sterke/zeldzame helden.
+
+![Sterren-upgrades en heldenvaardigheden op donderdag](/img/dtf/alliance-duel/06.jpg)
+
+Controleer eerst het heldengedeelte van de Survival Battle — dezelfde fragmenten/badges/antitoxine kunnen in beide evenementen punten opleveren. Donderdag is meestal het snelst klaar: oproepen, het hoofdteam laten groeien, verzamelen.
+
+### Vrijdag: troepen plus Royal Rumble {#dtf-friday}
+
+Training en rangverbeteringen, met op dezelfde dag de Royal Rumble — het leger moet punten scoren en vechten. Claim donderdag opgespaarde Falcon-opdrachten in de ochtend en concentreer je daarna op de terreinen. Bewaar bouw-/onderzoeksversnellers voor volgende week, tenzij je nog maar een paar punten van een kist verwijderd bent. Pak de titel **Minister of War**; gebruik zwakke terreinen om massaal troepen van een mid-tier te produceren (bijv. grote T6-batch) en train ze daarna om naar T9 op het hoofdterrein — soms sneller dan direct T9's maken. Leg zwakke troepen en trainingsversnellers van tevoren aan; pas op vrijdag beginnen is te laat voor grote promoties.
+
+![Vrijdag troepentraining en Royal Rumble](/img/dtf/alliance-duel/07.jpg)
+
+### Zaterdag: KvK, genezing, schilden {#dtf-saturday}
+
+KvK opent: teleporteer naar het vijandelijke koninkrijk, val vestingen aan, versla troepen voor gevechtspunten. Aanvallen op de duelrivalen leveren meestal de meeste punten op, maar ook andere KvK-gevechten tellen mee. Vluchtvoorbereiding: hoofdmarche, teleports, ziekenhuiskuimte, schildvoorraad — zaterdag levert het meeste op en zorgt voor de snelste verliezen. Genezingsversnellers leveren ook punten op, dus gewonden die vóór zaterdag zijn geparkeerd kunnen wachten op dit onderdeel — maar laat het ziekenhuis nooit overlopen, overgelopen troepen sterven. Activeer vrijdagavond je schild: na je eigen aanval valt het schild weg en wordt het pas weer geactiveerd na de gevechtstimer, dus houd een reserve-schild plus teleports bij de hand, trek je terug naar alliantiegrond of gebruik een willekeurige teleport, en houd rekening met een korte wachttijd van een paar minuten voordat je de raid-zone weer kunt betreden.
+
+![Schildgebruik vóór zaterdag KvK](/img/dtf/alliance-duel/08.jpg)
+
+Teampunten: maandag is meestal het goedkoopst, dinsdag t/m vrijdag zwaarder, zaterdag kan de week beslissen. Een verloren maandag betekent niets — schoon onderzoek, helden, troepen en KvK gooien het totaal om. Controleer het dueldetailvenster voor de scores per dag.
+
+> Bron: [Дуэль альянсов в Last Asylum: Plague - гайд по дням](https://dtf.ru/howto/5238861-duel-alyansov-last-asylum-plague-strategii-i-sovety) door Гейм-Знаток op DTF.

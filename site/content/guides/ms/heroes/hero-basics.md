@@ -2,7 +2,7 @@
 title: "Asas: Faksi & Skuad"
 description: "Bahagian panduan wira: asas: faksi & skuad."
 lang: ms
-updated: "2026-10-01"
+updated: "2026-10-12"
 videoTopic: heroes
 ---
 
@@ -220,3 +220,172 @@ Halaman yang menyebut halaman ini. Senarai ini dibina daripada markup, bukan dii
 - Arthur: kemahiran, naik taraf dan Might
 
 ## Komen
+
+## Tank Mana Yang Mana Perlu Dibina: Arthur, Daskal, Brian atau Louis {#dtf-tank-choice}
+
+Semua orang mengutamakan angka *carry* yang tinggi pada mulanya, tetapi jika barisan hadapan rebah pada saat-saat awal, *carry* tidak akan dapat menunjukkan potensinya. Tank yang baik menahan serangan pertama, membeli masa untuk tempoh *cast*, dan mengurangkan kerosakan yang diterima — kadangkala melalui perisai, penyembuhan diri, atau perlindungan terhadap jenis kerosakan tertentu. Arthur, Daskal, Brian, dan Louis melakukan tugas ini dengan cara yang berbeza.
+
+![Arthur, Daskal, Brian dan Louis: perbandingan keempat-empat tank](/img/dtf/hero-basics/01.jpg)
+
+![Peranan setiap tank: Arthur, Daskal, Brian dan Louis](/img/dtf/hero-basics/02.jpg)
+
+### Arthur: tank paling selamat untuk kebanyakan akaun {#dtf-arthur-safe}
+
+Arthur adalah barisan hadapan yang universal. Dia tidak memerlukan barisan lima wira yang sempurna di sekelilingnya — dia melangkah ke hadapan dan berkesan dalam mod PvP, PvE, serta pada peringkat awal dan peralihan.
+
+- **Battle Shield** — serangan fizikal asas pada satu sasaran.
+- **Earthshattering** — serangan kawasan yang membantu sekutu menerima kerosakan fizikal yang lebih sedikit.
+- **Rock Solid** — perisai peribadi yang bergantung pada HP maksimum Arthur.
+- **Strong Will** — secara pasif mengurangkan kerosakan yang diterima oleh tank sekutu.
+- **Tenacity** — meningkatkan ATK, HP, DEF, dan mempercepatkan masa cooldown kemahiran.
+
+Hasilnya: kestabilan berbanding sorotan aksi hebat. Dia adalah tank yang boleh anda bina terlebih dahulu tanpa mengehadkan diri anda kepada satu skema yang sempit.
+
+![Arthur sebagai tank universal untuk PvP, PvE dan F2P](/img/dtf/hero-basics/03.jpg)
+
+### Daskal: barisan hadapan yang ampuh dan perisai {#dtf-daskal-shields}
+
+Daskal bertarung menggunakan perisai, kebolehtahanan hidup, dan keupayaan pemulihan diri. Jika Arthur adalah tiang batu, Daskal pula adalah pintu kebal berperisai tambahan.
+
+- **Battle Will** — serangan fizikal asas.
+- **Bloodshed Defense** — perisai pasukan yang bergantung pada DEF.
+- **Deadly Pierce** — kerosakan berserta pemulihan HP untuk Daskal.
+- **Resolute Fight** — perisai pembukaan pada tank sekutu.
+- **Tenacity** — ATK/HP/DEF berserta cooldown yang lebih pantas.
+
+Dia amat menyerlah di sebelah Arthur (kestabilan universal + perisai dan penyembuhan diri) dan dalam skuad Warrior yang memerlukan barisan hadapan yang ampuh supaya *carry* dapat bertindak dengan tenang. Ambil dia apabila Arthur sudah ada dan anda memerlukan tank kedua yang kukuh, atau apabila pasukan mula lemah pada permulaan pertempuran.
+
+![Daskal: perisai, penyembuhan diri dan kebolehtahanan hidup pasukan](/img/dtf/hero-basics/04.jpg)
+
+### Brian: tank untuk pertempuran jangka panjang {#dtf-brian-long}
+
+Brian bukan tentang perisai besar. Dia meredakan tekanan musuh dan kekal berguna dalam pertempuran yang berlarutan.
+
+- **Sharp Claw** — serangan fizikal asas.
+- **Threat Bite** — kerosakan berserta pengurangan kerosakan yang diterima untuk semua sekutu.
+- **Lunar Howl** — memantulkan sebahagian daripada kerosakan yang diterima.
+- **Wolf Bloodline** — secara pasif mengurangkan semua kerosakan yang diterima.
+- **Tenacity** — ATK/HP/DEF standard dan peningkatan cooldown.
+
+Terbaik dalam pertarungan PvE yang panjang, barisan hadapan yang tegap, dan hala tuju Warlock — pilihan lewat yang disengajakan sebaik sahaja anda mengenali puak dan mod anda, bukannya wira untuk permulaan yang kacau-bilau.
+
+![Brian: pengurangan kerosakan untuk pertempuran jangka panjang](/img/dtf/hero-basics/05.jpg)
+
+### Louis: pakar anti-*burst* dan anti-tenaga {#dtf-louis-anti-burst}
+
+Louis adalah wira yang paling mengikut situasi antara keempat-empat mereka — dan jawapan kepada komposisi pantas yang menghapuskan sasaran dalam beberapa saat atau mendesak dengan kerosakan tenaga.
+
+- **Shackles** — serangan asas.
+- **Cross Whip** — kerosakan, penyembuhan diri Louis, berserta pengurangan kerosakan yang diterima.
+- **Force Link** — mengurangkan kerosakan tenaga kepada sekutu berhampiran.
+- **Indomitable Spirit** — pengurangan kerosakan masuk yang ketara dan bantuan terhadap serangan maut.
+- **Tenacity** — serangan, HP, pertahanan, dan kelajuan cooldown.
+
+Bukan batu asas pertama, tetapi alat khas untuk meta musuh yang pantas apabila barisan hadapan sudah ditutup dengan cara lain.
+
+![Louis: penentang kepada burst dan tekanan tenaga](/img/dtf/hero-basics/06.jpg)
+
+### Siapa yang lebih baik dalam PvP dan PvE {#dtf-tank-pvp-pve}
+
+Urutan PvP: **Arthur → Daskal → Louis → Brian**. Kestabilan Arthur dan nilainya dalam pertukaran pertama mendahului; perisai Daskal membeli masa untuk *carry*; Louis memotong kedudukan Brian kerana bertahan daripada *burst* permulaan menentukan kemenangan PvP; kekuatan Brian memerlukan tekanan yang lebih panjang.
+
+Urutan PvE: **Arthur → Brian → Daskal → Louis**. Arthur kekal di puncak sebagai pilihan universal; Brian meningkat dalam pertempuran panjang dan pengurangan kerosakan; Daskal menyusul dengan perisai dan ketahanan; Louis dikecilkan kepada pertarungan yang melibatkan *burst* sebenar atau tekanan tenaga.
+
+![Perbandingan tank dalam PvP dan PvE](/img/dtf/hero-basics/07.jpg)
+
+### Urutan F2P dan kesilapan tank {#dtf-tank-f2p}
+
+Peraturan untuk F2P dan pembelanja kecil: **Arthur → Daskal → ikut situasi**. Satu tank yang kuat mengalahkan empat tank yang separuh siap. Kesilapan biasa: membina tank tanpa pelan skuad (Brian tanpa hala tuju Warlock, Louis tanpa meta tekanan tenaga); menaikkan keempat-empatnya sekaligus; mengabaikan *carry* (tembok tanpa kerosakan kalah perlahan-lahan); menyalin skuad orang lain tanpa mengikut syarat mereka.
+
+![Keutamaan tank untuk F2P dan pembelanja kecil](/img/dtf/hero-basics/08.jpg)
+
+Nota ringkas peribadi: belum ada apa-apa lagi → Arthur; Arthur siap dan barisan hadapan mesti menjadi tembok → Daskal; skuad sistemik lewat untuk pertempuran panjang → Brian; skuad musuh yang pantas memusnahkan wira dalam beberapa saat → Louis.
+
+![Arthur, Daskal, Brian atau Louis: keputusan akhir](/img/dtf/hero-basics/09.jpg)
+
+> Sumber: [Last Asylum: Plague: Артур, Даскал, Брайан или Луис - какого танка качать](https://dtf.ru/howto/5104617-kakogo-tanka-kachat-v-last-asylum-plague) oleh Гейм-Знаток di DTF.
+
+## Formasi: Dua Tank di Hadapan, Carry di Tengah {#dtf-formation}
+
+Kekuatan semata-mata boleh memesongkan. Skuad yang mahal akan tewas apabila *carry* berdiri di hadapan, tank bersembunyi di belakang, dan pedang terbaiknya diletakkan pada wira yang salah.
+
+![Panduan formasi wira terbaik](/img/dtf/hero-basics/10.jpg)
+
+### Utamakan puak, barulah bonus satu puak {#dtf-faction-bonus}
+
+Warrior mengalahkan Warlock, Warlock mengalahkan Ranger, Ranger mengalahkan Warrior. Kebanyakan pemain mengumpulkan teras Warrior terlebih dahulu kerana wira yang baik tiba lebih awal; pada pelayan yang didominasi Warrior, Ranger menjadi hala tuju kedua yang kuat — malah pasukan Ranger yang sedikit lemah pun boleh mengejutkan Warrior melalui kelebihan puak.
+
+![Puak Warrior, Ranger dan Warlock](/img/dtf/hero-basics/11.jpg)
+
+Lima wira dari puak yang sama memberikan **+20% HP, serangan, dan pertahanan** (empat wira memberikan 15%). Inilah sebabnya mengapa tiga wira emas ditambah dua wira ungu yang baik dari sistem yang sama secara rutin mengalahkan lima wira emas yang rawak: semak bonus skuad sebelum mengagumi Kekuatan (Might) wira individu.
+
+### Siapa yang berdiri di hadapan {#dtf-front-roles}
+
+Wira mempunyai peranan serta puak: perisai = tank, dan tank mengambil pukulan pertama.
+
+![Ikon puak dan peranan wira](/img/dtf/hero-basics/12.jpg)
+
+Asas biasa: **dua tank di hadapan, kerosakan dan sokongan di belakang**. *Carry* yang kuat di hadapan akan mati sebelum sempat menggunakan kemahiran — pemberi kerosakan terbaik mesti bertahan untuk menggunakan kemahiran, bukannya mati secara heroik di awal pertempuran.
+
+![Tank di hadapan, pemberi kerosakan di belakang](/img/dtf/hero-basics/13.jpg)
+
+### Susunan Warrior yang berkesan: Arthur, Bella, Marlena, Claire, Harper {#dtf-warrior-formation}
+
+Bina mengikut peranan, bukan jumlah kuasa keseluruhan:
+
+- Hadapan: **Arthur (kiri), Bella (kanan)** — kekalkan barisan selama mungkin.
+- Belakang: **Marlena di tengah** (sumber kerosakan utama mendapat masa paling banyak dalam pertarungan seimbang), **Claire** di satu sisi sebagai kerosakan kedua, **Harper** di sisi satu lagi sebagai sokongan.
+
+![Contoh formasi penuh di medan perang](/img/dtf/hero-basics/14.jpg)
+
+Tinjau pihak musuh sebelum pertempuran: jika sasaran yang sukar berada di hadapan Marlena, tukar kedudukannya dengan Claire — tetapi mulakan dengan Marlena di tengah.
+
+### Kekuatan yang sama tidak membawa erti besar {#dtf-equal-might}
+
+Padanan Arena dengan Kekuatan yang hampir sama bertempur secara berbeza kerana angka tersebut merangkumi wira, formasi, peralatan, perkembangan *carry* utama — dan tentera (T1–T10, dengan T10 sebagai matlamat lewat yang berasingan melalui Padang Latihan dan penyelidikan). Dua skuad yang mempunyai Kekuatan serupa boleh berbeza semata-mata kerana aras tentera.
+
+![Skuad menentang Padang Latihan dengan tentera T9](/img/dtf/hero-basics/15.jpg)
+
+### Sentiasa buka laporan pertempuran {#dtf-battle-report}
+
+Selepas tewas kepada pihak lawan yang sepadan, semak siapa yang memberikan kerosakan, siapa yang mati dahulu, dan wira yang manakah memegang peralatan terbaik. Dua Marlena tahap-135 bukanlah wira yang sama apabila bintang, kemahiran, dan pedang mereka berbeza — laporan akan menunjukkannya.
+
+![Membaca laporan selepas pertempuran](/img/dtf/hero-basics/16.jpg)
+
+### Peralatan mesti sepadan dengan peranan {#dtf-gear-by-role}
+
+Tank seperti Arthur mengutamakan perisai dan but dahulu; *carry* utama mahukan pedang dan barang serangan terkuat. Pedang hebat pada tank sementara Marlena menggunakan senjata tahap-20 hanya membantu kedua-dua item tersebut tetapi tidak membantu pertempuran. Dengan bahan yang terhad, satu set serangan sebenar pada *carry* utama mengalahkan lima wira yang kelihatan sama cantik.
+
+![Peralatan tank dan carry selepas pertempuran Arena](/img/dtf/hero-basics/17.jpg)
+
+Sehingga sekitar tahap 20, beberapa wira boleh dinaikkan bersama-sama. Selepas itu, kos akan melonjak — tumpukan pada dua wira yang menerajui skuad pertama (pemberi kerosakan utama ditambah tank utama, cth. pedang Marlena dan perlindungan Arthur) dan biarkan yang lain pada asas yang berfungsi.
+
+### Siapa yang perlu diutamakan dahulu, dan apa yang kedua {#dtf-first-focus}
+
+Untuk skuad pertama Warrior: **Marlena memberikan kerosakan, Arthur membelikannya masa** — kemudian tank kedua, Claire, Harper, dan selebihnya. Selesaikan satu peningkatan penting daripada menabur antitoksin dan serpihan ke atas setiap wira baharu yang ditarik.
+
+![Marlena dan Arthur: teras Warrior](/img/dtf/hero-basics/18.jpg)
+
+Wira berbayar memang membantu — akses awal adalah kelebihan sebenar sementara yang lain menunggu — tetapi mereka tetap memerlukan puak, kedudukan, bintang, kemahiran, dan peralatan. Anggap kemajuan yang lebih pantas sebagai cara untuk menyelesaikan satu halangan konkrit.
+
+Sebaik sahaja barisan Warrior siap, bina **Ranger sebagai pilihan kedua** pada pelayan yang dipenuhi Warrior: menggunakan templat 2-tank-di-hadapan yang sama, lima wira dari puak yang sama untuk bonus penuh, kerosakan di belakang (pemberi kerosakan kedua boleh berdiri sementara tanpa sokongan). Jangan terburu-buru menyamakan kedua-dua pasukan — pasukan pertama terus menyelesaikan tugas paling sukar manakala pasukan kedua menjadi pakar anti-Warrior.
+
+![Skuad Ranger menentang Warrior](/img/dtf/hero-basics/19.jpg)
+
+Jangan sumbatkan setiap wira emas ke dalam skuad pertama: kadangkala tiga wira emas ditambah dua wira ungu dari puak yang sama untuk pasukan pertama, dengan wira emas yang selebihnya memulakan pasukan kedua sebenar, membina akaun yang lebih sihat (satu utama, satu anti-puak, satu untuk selebihnya) daripada meletakkan lima yang terbaik di hadapan dan baki wira di merata tempat.
+
+### Hari Khamis dan kedai {#dtf-thursday-shops}
+
+Jika perikatan anda menjalankan Duel, simpan perbelanjaan wira yang serius (antitoksin, serpihan, lencana kemahiran, tiket seruan) untuk **Hari Khamis** — hari wira berserta mata acara untuk tindakan yang sama. Di kedai: Kehormat = pelan tindakan peralatan dahulu; Ekspedisi = serpihan wira universal, tiket seruan, antitoksin; Sanctuary = serpihan yang tersedia. Beli untuk satu kekurangan semasa (bintang Marlena, peralatan Arthur), bukan semua benda yang kelihatan berguna.
+
+![Apa yang perlu dibeli di kedai permainan](/img/dtf/hero-basics/20.jpg)
+
+### Senarai semak kekalahan dan pelan dari sifar kepada bersedia {#dtf-defeat-checklist}
+
+Selepas kekalahan: formasi (*carry* di hadapan?) → bonus puak (rosak demi wira yang lebih kuat?) → peralatan (pedang terbaik pada tank?) → bintang dan kemahiran. Urutan itu mencari punca sebelum jutaan sumber seterusnya dilaburkan.
+
+![Urutan pembangunan skuad dari sifar](/img/dtf/hero-basics/21.jpg)
+
+Dari sifar kepada bersedia: satu kumpulan lima wira puak penuh → dua tank di hadapan, *carry* terbaik di tengah-belakang → peralatan emas asas ke tahap ~20, berhenti menaikkan aras segala-galanya → sumber bernilai tinggi ke dalam senjata *carry* utama dan pertahanan tank pertama → puak kedua (Ranger pada pelayan Warrior) → pasukan ketiga hanya selepas itu.
+
+> Sumber: [Last Asylum: Plague - гайд по лучшей расстановке героев](https://dtf.ru/howto/5245716-last-asylum-plague-sovety-po-rasstanovke-geroev) oleh Гейм-Знаток di DTF.

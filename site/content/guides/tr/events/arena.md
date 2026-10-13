@@ -2,7 +2,7 @@
 title: "Üçgen Arena: Savunma ve Saldırı"
 description: "Üç kadro, saldırganın yenecek iki tanesini seçmesi: eşit savunma prensibi, fedakarlık eşleşme kuralı, sayaç (counter) tabanlı saldırı, grup bonusları ve UR parçaları için Kader Arenası tuzak kadro taktiği."
 lang: tr
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: arena
 calculators: []
 infographics: []
@@ -140,3 +140,55 @@ Her arena takviyeye izin vermez. İzin verdiği yerlerde, satın alınan her sav
 ## Pratikte Ne Anlama Geliyor?
 
 Kahraman Gücü burada doğrudan kaynaklara dönüşür ve daha yüksek bir sıralama, daha büyük ödüllere sahip alanları açar. Ücretsiz savaşlar bu geliri hiçbir maliyet olmadan sunar, bu yüzden savaşma isteğinin olmadığı günlerde bile her gün alınırlar. Listeden belirli bir rakibe karşı hangi kadronun sahaya sürüleceği arena takım oluşturucusu tarafından önerilir: bir savaş simülasyonu işaretlenen kahramanları tara ve en iyi sonucu veren beş tanesini gösterir.
+
+## Üçgen Arena Saha Notları: Güç Yanıltır, İttifaklar ve Günlükler (DTF) {#dtf-field-notes}
+
+Daha zayıf bir oyuncuya yenilebilir ve dakikalar sonra milyonlarca güçlü birini yenebilirsiniz: üç birlik savaşır, iki galibiyet alan kazanır. Bazen yapılacak en iyi hamle düşmanın en iyi birliğine asla dokunmamaktır; bazen tek bir kahraman bir milyon gücün önüne geçer; bazen ana taşıyıcıda (carry) içi boş bir kılıç olduğu için beş altın çerçeve çöker.
+
+![Üçgen Arena ipuçları ve sirlari](/img/dtf/arena/01.jpg)
+
+### Savunma sabit kalır, saldırı her savaşta yeniden şekillenir {#dtf-defense}
+
+Her şeyi pahalı olan (en iyi tank, taşıyıcı, destek, ikinci DD) 1. birlikte toplamak, saldırgana iki bedava galibiyet hediye eder: zayıf birliği yem eder ve diğer ikisini 2:1 kazanırlar. Bedava galibiyet olmayacak şekilde dağılın — güçlü bir Marlena yanındaki en iyi her Savaşçıya ihtiyaç duymaz; bir yıldızı hareket ettirmek (örn. Harper'ı 3. birliğe taşımak, Celia'nın başka bir yerde desteği üstlenmesi) kolay 2'yi engeller. 1. birlik kuyruk aç kalırken şişmemesi için her büyük yükseltmeden sonra savunmayı tekrar kontrol edin.
+
+![Üçgen Arena'daki üç savunma birligi](/img/dtf/arena/03.jpg)
+
+Savunma yerleştir-ve-tut mantığıyla çalışır; **saldırı neredeyse her ciddi savaşta yeniden kurulur**. Önce düşman tahtasını okuyun: onlar 18/13/12M ve siz ~13–15M iken, 18M ile savaşmayın — ona en zayıf birliğinizi yem edin ve 13 ile 12'yi kazanın. Üçünün de peşinden koşmak denemeleri boşa harcar.
+
+![2'de 2 galibiyet kosullu uc savas](/img/dtf/arena/04.jpg)
+
+### Güç yalnızca bir ipucudur, dengeyi yakın savaşlarda ittifaklar (faction) değiştirir {#dtf-might}
+
+Gelişmiş Marlena/Arthur'a, gerçek bir taşıyıcıya, becerilere ve uyumlu bir ittifaka sahip 12M'lik bir takım, hiçbir şeyi öldüremeyen 14M'lik bir tank ve destek yığınını rutin olarak yener. "10M"lik bir takıma 2. birliğinizi yem etmeden önce —özellikle oyunları tek başına taşıyan Marlena başta olmak üzere— sayının kimden oluştuğunu her zaman kontrol edin.
+
+![Güç ve kompozisyon karsilastirmasi](/img/dtf/arena/05.jpg)
+
+Ardından ittifakları kontrol edin: **Avcılar > Savaşçılar > Büyücüler > Avcılar**, sayaç için yaklaşık **+%20** — sağlam bir güç farkını yutmaya yeter (biraz daha güçlü Savaşçılarla Avcılara saldırmak onların savaşıdır, sizin değil; güçlü Avcılara karşı Büyücüleri deneyin). Fark bir milyondan az olduğunda her savaşta ittifak simgelerine bir göz atın. Ancak bonus için bir Frankenstein canavarı yaratmayın: bir sayaç yalnızca o ittifakın çalışan bir takımı olarak iyidir — formasyon bonusu olmayan tek bir birlik içindeki üç ittifak, yazarına daha önce güç farkı olan bir eşleşmeyi kaybettirmiştir.
+
+### Savaş sonrası karşılaştırma, ekipman ve tuzak sayılar {#dtf-compare}
+
+Savaş sonrası gelişim karşılaştırmasını her zaman açın — kahramanlar, birlikler, teknoloji, Kuzgun (Raven), kalıntılar, Onur Salonu (Hall of Honor) ve daha fazlası. Orantısız bir çubuk sorunun ne olduğunu gösterir (daha iyi kahramanlar ve birlikler var ancak Kuzgun/Salon geride kalmışsa bir sonraki yükseltme apaçık ortadadır; bir yazarın aradaki farkı Salon 31'e karşı 45'ti). Altın çerçeveler kimsecikleri öldürmez: zayıf bir kılıca, düşük becerilere ve içi boş ekipmanlara sahip güçlü bir kahraman, düzgün kurulmuş bir taşıyıcıya yenilir. Marlena ve Zoe bunu en çok gösterir: sonuna kadar geliştirilmiş tek bir Zoe oyunu tek başına belirlerken, yarı yapılı birkaç saldırgan hiçbir şey başaramadı. Kural: **üç yarı-DD yerine bir gerçek DD**; eğer Marlena taşıyorsa, 30. seviye bir Arthur üzerindeki gösterişli bir kılıç değil, onun saldırı ekipmanı (örn. 60'a doğru giden kılıç, 4 yıldız) önceliklidir. Dokuz orta düzey saldırgan yerine kilit her ittifak için bir ana DD büyütün.
+
+![Kahramanlar, birlikler, teknoloji, Kuzgun, kalıntılar uzerinden savas sonrasi karsilastirma](/img/dtf/arena/07.jpg)
+
+En zayıf sayıyı asla otomatik olarak bedava olarak işaretlemeyin: Marlena + Arthur'u saklayan 10–12M'lik bir birlik bir tuzaktır — her birlik kağıt üzerinde daha zayıf görünür ancak iki savaş kahramanlar, ittifaklar ve içsel gelişim yüzünden kaybedilir. Birlikler için de aynı şey geçerli: paralı yüzleri olan iyi kahramanlar ama **T8'e karşı T9** zaten görünür bir farktır ve bazen bir sonraki ordu kademesi başka bir kahraman yıldızını alt eder.
+
+![Marlena'yi gizleyen zayıf görünümlü birlik](/img/dtf/arena/08.jpg)
+
+![T8 birliklerine karsı T9 birlikleri](/img/dtf/arena/09.jpg)
+
+Aynadaki görüntü: 1. birlikte ~20M güce ve iki zayıf kuyruğa sahip bir rakip, 1. birlikte tamamen göz ardı edilmelidir — iki kuyruğu alın ve daha korkutucu görünen bir toplamı alt edin. Tam da bu nedenle, dengeli savunma süper bir birliği alt eder.
+
+![Tek süper birlige ve iki zayıf kuyruga sahip rakip](/img/dtf/arena/10.jpg)
+
+### Günlük, tempo, eşleştirme ve ücretsiz ödüller {#dtf-journal}
+
+**Günlük (Journal)** gelen (mavi) ile giden (kırmızı) saldırıları gösterir — ücretsiz savunma testi. Aynı güce sahip saldırganları karşılaştırın: biri iki zayıf birliğinizi çiftler, diğeri eşit güçte kötü dağılımlar yüzünden kaybeder. Savunma aynı iki birliği bağışlamaya devam ederse, sorun bulunmuştur.
+
+![Savunma gunlugu](/img/dtf/arena/11.jpg)
+
+Tüm denemelerinizi sabah harcamayın: diğerleri saldırdıkça sıralamalar kayar (saatler içinde 170 → 400+ olması normaldir). Günlükleri kabaca üst sınırınıza kadar taşıyın, ardından akşam kaydedilen denemelerle yeniden tırmanın. Dereceler oturmadan önce haftanın başındaki eşleştirme tuhaftır (30M, ardından 52M, ardından zayıf biri) — gerçek güce değil, derece jetonlarına (105 ile 108'in karşılaşması, 216 ile 217'nin karşılaşması) göre çalışır, bu yüzden ilk günü denemeler için kullanın. Günlükler: **3 ve 5 galibiyet** seri olmak zorunda değildir ve Zafer Madalyaları (Glory Medals) kazandırır; dereceli/ittifak ödülleri bina kaplamalarını (örn. +%5 kahraman saldırısı) içerir; **beğeniler 30 elmas kazandırır** (iki arenada günde 180'e kadar) — ücretsiz elmasları asla es geçmeyin.
+
+Her savaşta: en tehlikeli düşman birliğini bulun, iki gerçek hedef seçin, ittifakları ve gizli taşıyıcıları yeniden kontrol edin ("zayıf" yuvadaki güçlendirilmiş bir Marlena tüm matematiği altüst eder), Bella/Harper/Claire/Celia'yı birlikler arasında yer değiştirin ve ancak o zaman güce bakın. Daha yavaş, zaten bu yüzden ilginç.
+
+> Kaynak: Гейм-Знаток tarafından DTF üzerinde yayınlanan [Треугольная арена Last Asylum: Plague - советы и тактика](https://dtf.ru/howto/5253651-sovety-po-treugolnoy-arene-last-asylum-plague) yazısı.

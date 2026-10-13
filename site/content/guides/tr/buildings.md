@@ -2,7 +2,7 @@
 title: "İnşaat Öncelikleri ve Sığınak Yol Haritası"
 description: "30. seviyeye giden Sığınak yol haritası, inşaat öncelik sırası, her binanın ne işe yaradığı ve inşaat hızı bonuslarının doğru ardışık şekilde nasıl istifleneceği."
 lang: tr
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: buildings
 ---
 
@@ -326,3 +326,85 @@ Hız, maliyet ve kopya-limit düğümlerinin belirli bir şehir için inşaat ku
 - [Savaşçı Heykeli](/tr/buildings/warrior-statue/)
 - [Gözetleme Kulesi](/tr/buildings/watchtower/)
 - [Dokuma Atölyesi](/tr/buildings/weaving-workshop/)
+
+---
+
+## 🧱 Yeni Başlayanlar İçin Bina Taktikleri {#dtf-beginner-tactics}
+
+Sığınak, Laboratuvar, Eğitim Alanları veya Antitoksin Atölyelerinin bunlara ihtiyaç duyduğu anda kaynakların tam anlamıyla tükenmesi, kalenin genelinde eşit şekilde dağıtılmayan seviye atlatmalarının hesabı sekteye uğratmasına neden olur. Bu bölüm, her binanın ne işe yaradığını ve hangi sırayla dokunulması gerektiğini anlatan yeni başlayanlar için bir rehberdir.
+
+![Yeni başlayanlar için bina rehberi genel bakışı](/img/dtf/buildings/01.jpg)
+
+### Önce Sığınak, kahramanlar onunla sınırlandırılır {#dtf-sanctuary-first}
+
+Sığınak her şey için üst sınırı belirler: kahraman seviyeleri (Sığınak seviyesi başına yaklaşık +5 — örn. Sığınak 28, 140. seviyeye kadar kahramanlara izin verir) ve diğer tüm binalar. Ana beşli sınıra ulaştığında, ekstra antitoksin yardımcı olmaz — bunu yalnızca bir sonraki Sığınak seviyesi yükseltir. Her Sığınak seviyesi ayrıca birkaç ön koşul bina gerektirir (Laboratuvar, Eğitim Alanları, Kışla, heykeller), bu nedenle gereksinimleri erkenden açın ve tüm zinciri hazırlayın. Tüm kahramanların sınırına ulaşmasını beklemeyin — bir sonraki Sığınak seviyesini önceden başlatın.
+
+![Sığınak seviyesi ve kahraman seviye sınırı](/img/dtf/buildings/02.jpg)
+
+### İki inşaatçı, iki rol {#dtf-two-builders}
+
+Geçici ikinci inşaatçı slotu (500 elmas), birincisinden farklı bir iş yapmalıdır: uzun slot Sığınak, Laboratuvar veya çok gün süren başka bir zorunlu binayı alırken, ücretsiz inşaatçı kısa yükseltmeleri kapatır — tarlalar, kereste fabrikaları, bahçeler, antitoksin atölyeleri ve bir sonraki Sığınak seviyesi için ara ön koşullar. Uzun projelerde iki inşaatçının olması ani gereksinimler için boş slot kalmaması demektir; küçük işlerde iki inşaatçının olması ise ana binanın sonsuza kadar geride kalması anlamına gelir.
+
+Büyük tamamlanmaları İttifak Düellosu inşaat gününe denk getirin: bitmiş bir binanın hemen talep edilmesi gerekmez — üzerinde çekiç bırakın ve etkinlik aşaması değiştikten sonra dokunarak halihazırda yapılmış iş için puan kazanın. Bina slotu meşgul etmeye devam eder, bu nedenle çekici yalnızca büyük projelerin üzerinde tutun. Önce tüm ittifak yardımını alın, ardından hızlandırıcıları harcayın, son olarak ödülü talep edin.
+
+![İttifak Düellosu bina gününde tamamlanan inşaatı talep etme](/img/dtf/buildings/03.jpg)
+
+### Kaynak binaları geride kalabilir {#dtf-resource-lag}
+
+Tarlalar, kereste fabrikaları ve bitki bahçeleri tahıl, kereste ve bitki sağlar — ancak Sığınak ile aynı seviyede olmaları gerekmez. Beş ila altı seviyelik bir fark makul kalır. İkinci inşaatçı Sığınak üzerinde çalışırken, birinci inşaatçı kademeli olarak kaynak binalarını ve hepsinden öte antitoksin atölyelerini yükseltir: antitoksin, kahraman seviyesi atlarken sürekli olarak tüketilir.
+
+![Çiftlikler, kereste fabrikaları ve ot bahçeleri](/img/dtf/buildings/04.jpg)
+
+Depolar (kereste, tahıl, bitki) yalnızca saldırganların yağmalayamayacağı korunan miktarı artırır. Hiçbir seviye, teknoloji veya birlik kilidi açmazlar; bu nedenle bir Sığınak gereksinimi özellikle adını almadığı sürece onları bariz bir şekilde geride tutun. En güvenli strateji: malzeme paketlerini envanterde açılmamış olarak saklayın ve inşaattan hemen önce açın — o zaman zayıf depolar bile neredeyse hiçbir şey kaybetmez.
+
+![Odun, tahıl ve ot depoları](/img/dtf/buildings/05.jpg)
+
+### Tavern, Tapınak ve Araştırma Laboratuvarı {#dtf-tavern-temple-lab}
+
+Taverna kahramanları ve kurtulanları işe alır ve burayı yükseltmek ücretsiz işe alım bekleme süresini kısaltır — ancak birkaç seviyeden sonra yalnızca yaklaşık bir saat kadar. Sığınak gereksinimlerinde veya inşaat gününde burayı yükseltin; bundan çok daha önemlisi, hazır olan ücretsiz işe alımlara gerçekten dokunmaktır. İlk 50 çekiliş garantili Arthur parçalarına doğru ilerler.
+
+![Meyhane kahramanı ve hayatta kalan çağırma](/img/dtf/buildings/06.jpg)
+
+Tapınağın Savaşçı, Korucu ve Büyücü heykelleri doğrudan birlik Saldırı/Can/Savunma (ATK/HP/DEF) verir. 1. Birlik fraksiyonunuzla başlayın, ancak aşırıya kaçmayın: diğer heykeller Sığınak gereksinimlerine girer ve 2-3. birlikler keşifler için bunlara ihtiyaç duyar.
+
+![Tapınaktaki Savaşçı, Korucu ve Büyücü heykelleri](/img/dtf/buildings/07.jpg)
+
+Sığınak'tan sonra Araştırma Laboratuvarı en önemli binadır — ekonomi, kahraman, birlik ve gelişim teknolojilerinin hepsi burada yer alır. Aynı hızlandırıcıların etkinlik puanı kazandırması için çarşamba günleri İttifak Düellosu ağacı araştırmalarını çalıştırın ve tüm evrensel hızlandırıcıları binalar için harcamayın: stokun bir kısmı araştırmaları, özellikle de pahalı ordu teknolojilerini kapsamalıdır.
+
+![Araştırma Laboratuvarı](/img/dtf/buildings/08.jpg)
+
+### Ordu: Eğitim Alanları, Kışla, Hastane {#dtf-army-buildings}
+
+Daha yüksek Eğitim Alanları daha güçlü birlik rütbelerinin (T1–T10) kilidini açar. Tüm alanları eşit şekilde seviyelendirmeyin: birini son seviyede tutun ve geri kalanını ucuz birlikleri toplu olarak eğitmek için kullanın, ardından bunları ana alanda terfi ettirin — karşılaştırılabilir kaynak maliyeti, çok daha az zaman. Yeni kademeler ve Sığınak gereksinimlerinin her ikisi de buna bağlı olduğundan, ana alan Sığınak'ı takip etmelidir.
+
+Kışla eğitilen orduyu barındırır ve kapasite hızla sınır oluşturur: hırsız avı saldırıları ve Cuma/Cumartesi dövüşleri binlerce asker yakar. Kışla doluysa, alanlar boşta kalır ve yürüyüşler eksik ayrılır — onları ana alanla birlikte yükseltin. Hastanenin kapasitesi ve iyileştirme hızı, hesabın ne kadar darbe alabileceğine karar verir: eğer tek bir savaş burayı doldurursa, yükseltme zamanı gelmiştir. Boyutundan küçük hastaneler yaralıları kalıcı kayıplara dönüştürür.
+
+### İnşaatçı Kulübesi, İttifak Salonu ve Surlar {#dtf-support-defense}
+
+İnşaatçı Kulübesi gelecekteki her projeyi kısaltır, böylece yatırım tüm hesap genelinde katlanarak artar. İttifak Salonu müttefik yardımını ölçeklendirir (daha fazla dokunma, dokunma başına daha fazla dakika) — uzun bir zamanlayıcı başlar başlamaz her zaman yardım isteyin ve hızlandırıcıları yalnızca müttefikler bitirdikten sonra harcayın, aksi takdirde boşta geçen süre boşa gider.
+
+![İttifak Salonu aracılığıyla müttefik yardımı](/img/dtf/buildings/09.jpg)
+
+Surlarda, tahkimatların ve söndürme düğmesinin yanında üç savunma birimi durur. Bunları yeniden düzenlemek için tüm birlik yürüyüşlerinin evde olması gerekir. Savunma onay kutularını izleyin: etkinleştirildiğinde, kahramanlar ve askerler savunmaya katılır — daha güçlü bir saldırgana karşı bu ağır kayıplar anlamına gelir, bu nedenle birçok oyuncu orduyu kurtarmak içinler arası savaşlar sırasında bu kutucukları işaretlemez, ancak Ölümsüz Kuşatması'ndan önce kutular tekrar işaretlenmelidir, aksi takdirde dalgalar durdurulamaz. Sur seviyeleri ayrıca Blight saldırıları, toplama ve dönüşler için yürüyüş hızını artırır.
+
+![Surlar ve savunma düzeni](/img/dtf/buildings/10.jpg)
+
+### Araştırma Kampı, Gözetleme Kulesi, Şahin Kulesi {#dtf-activity-buildings}
+
+Araştırma Kampı (savaş bileşiği) savaşlarında hiçbir asker harcanmaz — formasyonları test etmek ve kahramanları karşılaştırmak için mükemmel bir laboratuvar — ayrıca saatlik pasif gelir (tahıl, kereste, bitki, antitoksin) ve her birkaç aşamada bir sandıklar sunar. Gözetleme Kulesi fraksiyon keşiflerini çalıştırır (mod başına bir fraksiyon, kabaca her 3 günde bir yenilenir): "gelişme için" maksimum yıldızları seçmeyin — takılıp kalınan orta düzey bir tur, bir yıldız daha düşük tam bir temizlemeden daha kötü puan kazandırır.
+
+Şahin Kulesi günlük görevler verir (yaklaşık her 6 saatte bir yenileri; gelişmiş bir kulede ~11 tane mevcuttur ancak yalnızca 9 tanesi panoya sığar, geri kalanı sıraya girer — taşma görevleri kaybolur). Görevler enerjiye mal olur ve diğer şeylerin yanı sıra kaynaklar, antitoksin ve Kuzgun eşyaları kazandırır. Kuleyi yalnızca görevler her gün gerçekten tamamlanıyorsa yükseltin.
+
+![Şahin Kulesi günlük görevleri](/img/dtf/buildings/11.jpg)
+
+### Teçhizat bölgesi ve ertelenmesi gerekenler {#dtf-gear-defer}
+
+Ergitme Atölyesi Teçhizat Taşları üretir (tek bir yüksek seviyeli kılıç yükseltme başına 20.000'den fazla taş isteyebilir — erkenden geliştirin), Dokuma Atölyesi daha sonra altın teçhizat için çeliğe dönüştürülecek kumaşı üretir ve Teçhizat Atölyesi parçaları üretir. 1. birlik için tam bir altın set uzun zaman alır, bu nedenle üretim asla boşta kalmamalıdır — iyi bir taşıyıcı kılıç ve tank zırhı, başka yerlerdeki birkaç rastgele seviyeyi alt eder.
+
+Kaynaklar kısıtlandığında erteleyin: Keşif Birimi (daha hızlı keşif, geliştirme hızı yok), gereksinimlerin üzerindeki depolar, gereksinimlerin üzerindeki Taverna. Kuzgun Atölyesi düello puanları için inşaat gününde yükseltilebilir. Arena, Kuzgun Yuvası, Gizli Operasyonlar Merkezi ve Antika Salonu hiç seviye atlamaz — bunları düzenli olarak kullanın, hiçbir inşaat kaynağı maliyetleri yoktur.
+
+Tek satırda yeni başlayan sırası: Uzun slotta Sığınak → Laboratuvar → ana Eğitim Alanı, Kışla, Hastane, ana fraksiyon heykeli → İnşaatçı Kulübesi ve İttifak Salonu istikrarlı bir şekilde → Sığınak'ın ~5–6 altında kaynak binaları → teçhizat bölgesi → ekstra alanlar ve ikincil binalar → depolar, Taverna, gereksinime veya fazlalığa göre keşif birimleri.
+
+![Doğru bina yükseltme sırası](/img/dtf/buildings/12.jpg)
+
+> Kaynak: DTF üzerinde Гейм-Знаток tarafından yazılan [Здания Last Asylum: Plague - гайд для новичков](https://dtf.ru/howto/5238649-gaid-po-zdaniyam-last-asylum-plague-dlya-novichkov) makalesi.

@@ -3,7 +3,7 @@ title: "Daskal: Vaardigheden, Build en Levelen"
 description: "Daskal is een UR-krijger die als tank fungeert. Volledig geüpgraded bereikt hij 1.057.192 Macht, goed voor de 2e plaats van de 11 tanks in het spel. Je ontgrendelt hem met 10 scherven (Daskal-scherf), …"
 videoTopic: "heroes"
 lang: nl
-updated: "2026-09-19"
+updated: "2026-10-12"
 type: guide
 ---
 
@@ -320,3 +320,77 @@ Daskal verschijnt pas in de heldenlijst vanaf serverdag 28, terwijl Arthur er me
 Ontwaken kost het meeste: 2.870 scherven voor 40 levels tegenover 975 voor alle 50 sterren. De twee schalen leveren verschillende dingen op: sterren voegen 675.772 HP en 2.874 ATK toe, ontwaken voegt 425.119 HP en 12.119 ATK toe, wat viervoudig de aanvalskracht is. Sterren komen nog steeds op de eerste plaats, omdat ze meer HP opleveren en Bloedbad-verdediging verhogen van 360% naar 684%, terwijl 792% alleen met het Exclusieve Wapen wordt bereikt.
 
 Daskal bevindt zich in twee tier S-eenheden. Arthur, Marlena, Daskal, Harper en Louis verdienen een factionbonus van +15% voor vier krijgers, 150,7M aan overlevingskracht en 98 punten van de 100 in de eenheidsbeoordeling. Zijn schild stapelt met Billy's Lotdraad, wat 36% van de schade van de eenheid wegneemt.
+
+---
+
+## 🔄 Het herbouwen van het hoofdteam rondom Daskal {#dtf-daskal-rebuild}
+
+Het bemachtigen van de held is nog maar het begin: hij heeft antitoxine, sterren, vaardigheden, uitrusting en een teamslot nodig — en vervolgens moeten de Arena, Muren en elke opgeslagen opstelling van zijn komst op de hoogte worden gebracht. Dit is de volledige herbouwgids: Daskal binnenhalen, hem maximeren van 1 naar 150, en hem plaatsen in het eerste Krijger-team ter vervanging van Bella.
+
+![Daskal en gouden Claire heldenvoortgangsgids](/img/dtf/daskal-claire/01.jpg)
+
+### Geef flink uit op heldendonderdag {#dtf-hero-thursday}
+
+Verbras huurtickets, universele fragmenten, vaardigheidsbadges en antitoxinevoorraden nooit op een willekeurige dag. Donderdag vindt de heldenfase van het Alliantieduel plaats, en bijna alles in deze herbouw levert punten op — oproepen, het besteden van fragmenten, en het verbruiken van badges en antitoxine. Eén voortgangspuls werkt dubbel zo hard: een sterker account plus duelbeloningen. Begin goed voorbereid aan donderdag.
+
+![Alliantieduel fase 4 heldenontwikkelingsmissies](/img/dtf/daskal-claire/02.jpg)
+
+In dit geval was het doel heel specifiek: Daskal. Ongeveer 250 tickets gingen er in de week ervoor doorheen zonder dat hij viel, en toen kwamen de gratis oproepen plus verse pogingen — de eerste tien een misser, de tweede tien raak. Het sleutelmoment is weten wanneer je moet stoppen: zodra je de held bezit, kopen verdere tickets fragmenten en vaardigheidsbadges, en niet de oproep zelf.
+
+![Daskal trekken uit heldenoproepen](/img/dtf/daskal-claire/03.jpg)
+
+### Gras-tip: sla de dieven niet over {#dtf-thieves-grass}
+
+Tijdens het dievenevenement vult het de kruidenvoorraad aan die door grootschalig onderzoek tot nul wordt gereduceerd. Een groot persoonlijk doel levert meer dan een miljoen kruiden op, kleine doelen elk een paar honderdduizend — exacte getallen variëren per activiteit, maar als noodaanvulling voor kruiden tijdens een actief evenement werkt dit uitstekend.
+
+![Dievenevenement](/img/dtf/daskal-claire/04.jpg)
+
+### Daskal 1→150: waar de antitoxine naartoe gaat {#dtf-daskal-leveling}
+
+Daskal arriveert op niveau 1, en de antitoxinevoorraad was specifiek voor hem opgespaard — terecht, want de kosten zijn enorm. Tot ongeveer niveau ~100 ziet het er nog onschuldig uit, waarbij de levels voorbijkomen zonder paniek. Dan begint het echte werk: hoe dichter bij 150, hoe meer elk niveau kost. Het volledige pad van 1 naar 150 kost **5.248.471.500 antitoxine — net iets meer dan 5,2 miljard**. Iedereen die dezelfde run van nul naar maximaal plant, moet een voorraad aanleggen van ruim boven de vijf miljard, en geen twee of drie. Antitoxine is afkomstig van werkplaatsen, beloningen en bewaarde potjes uit je inventaris — open de potten dus niet vroegtijdig zonder reden; laat ze wachten op de held die er toe doet.
+
+![Daskal naar een hoger niveau brengen van 1 naar 150 met antitoxine](/img/dtf/daskal-claire/11.jpg)
+
+### Waarom Daskal thuis hoort in team 1 {#dtf-why-daskal}
+
+Daskal is een Krijger UR-tank wiens vaardighedenset precies doet wat een frontlinie moet doen: zijn ultieme vaardigheid geeft schilden aan alle bondgenoten, zijn actieve vaardigheid brengt fysieke schade toe terwijl hij Daskal zelf geneest, en een passieve vaardigheid verleent schilden aan geallieerde tanks vroeg in het gevecht. Hij overleeft schade en helpt de rest van het team om dat ook te doen.
+
+Het vervangen van Bella is hier de logische stap — en Bella gaat niet met pensioen. Ze verhuist naar team 3, waar precies een goede frontlinieheld ontbreekt. Eén nieuwe held versterkt twee teams tegelijk.
+
+### Strip eerst Bella's uitrusting {#dtf-gear-transfer}
+
+Voordat je de wissel definitief maakt, verplaats je de goede set van de oude tank naar de nieuwe — anders is het resultaat een UR op niveau 150 met sterren die op pantoffels loopt. Er was hier geen kenmerkend wapen voor Daskal, dus de beschikbare uitrusting ging naar hem toe, de rest van Bella's set werd overgedragen, en Bella ontving de items van de verplaatste held uit team 3 toen ze daarheen verhuisde.
+
+![Bella's uitrusting overdragen aan Daskal](/img/dtf/daskal-claire/12.jpg)
+
+![Daskal upgraden](/img/dtf/daskal-claire/13.jpg)
+
+### Hoeveel sterren Daskal nu nodig heeft {#dtf-daskal-stars}
+
+Na niveaus doen fragmenten de meeste pijn. De verleiding is groot om alles te upgraden — rangers die wachten, een andere UR die om een ster vraagt. Maar het hoofdteam bestaat uit Krijgers, dus als Daskal zich daarbij aansluit, leveren universele gouden fragmenten het meeste op bij hem. Dag één kwam dicht in de buurt van **6★** (wat zijn teamschild verder vergroot), waarbij de rest later te farmen is. Zes sterren is niet willekeurig — en het volgende grote doel is **8★**, waarmee Hardnekkigheid wordt ontgrendeld: +20% ATK/HP/DEF plus +10% vaardigheidscooldownsnelheid. Verspreid universele fragmenten dus niet over drie teams: breng de held van het hoofdteam eerst naar een echt nuttig controlepunt en kijk dan verder.
+
+![Daskal-sterren en -vaardigheden voor het hoofdteam](/img/dtf/daskal-claire/14.jpg)
+
+### Vergeet de Erehal niet {#dtf-daskal-stars}
+
+Onderweg bereikte een blauwe held eindelijk de voorwaarden voor de Erehal — en dat is geen onbelangrijk weetje. Reguliere heldenvoortgang daar versterkt het account gestaag, en blauwe helden verhogen specifiek de laadcapaciteit van soldaten: troepen dragen meer grondstoffen per mars. Geen gevechtsmonsterbonus, maar over een lange afstand betaalt die extra capaciteit zich uit. Negeer blauwe helden niet alleen omdat ze team 1 nooit zullen halen.
+
+![Erehal](/img/dtf/daskal-claire/15.jpg)
+
+### Nieuwe held geplaatst — de klus is nog niet geklaard {#dtf-update-modes}
+
+De kracht van team 1 groeide na het ruilen van Bella voor Daskal — maar het spel slaat opstellingen per modus op. Open na elke serieuze verschuiving de Arena en vernieuw de verdediging, controleer vervolgens de Muren, daarna de Veroveringsklojon en sla de verse opstelling daar op. Anders blijft de Arena dagenlang Bella inzetten. Dezelfde regel geldt na grote upgrades van uitrusting, epichanten of Raven: als een modus een opgeslagen opstelling gebruikt, verifieer deze dan handmatig.
+
+### De drie teams na de herbouw {#dtf-final-squads}
+
+Team 1 verandert volledig in Krijgers: **Daskal, Arthur, Marlena, gouden Claire en Harper**, rond **19,5M kracht**. Daskal en Arthur houden de frontlinie vast, Marlena levert de schade, Claire stimuleert PvE, en Harper bufft Krijgers.
+
+![Eerste team: Daskal, Arthur, Marlena, Claire en Harper op 19,5M kracht](/img/dtf/daskal-claire/16.jpg)
+
+Team 2 blijft Ranger: Shadow, Griffith, Cynthia, Ash en Red Lady (~13,32M). Team 3 wordt een mix: Bella komt erbij om de frontlinie te versterken naast Hastar, Joker, Annie en Celia (~13,65M).
+
+![Derde gemengde team na de heldenherbouw](/img/dtf/daskal-claire/17.jpg)
+
+Het beste resultaat is niet één sterke held: Daskal heeft team 1 geüpgraded, de vrijgekomen Bella heeft team 3 verbeterd, gouden Claire vond een nieuw leven in PvE, en goede uitrusting verhuisde tussen personages in plaats van stof te vangen. Bereid de volgende heldendonderdag op dezelfde manier voor: leg een voorraad tickets aan, bewaar antitoxine voor de volgende echte push naar niveau 150, zorg dat gouden universele fragmenten op het hoofdteam gericht blijven — Daskal richting een zelfverzekerde 6★ en dan 8★, gouden Claire verankerd op acht sterren waarbij de laatste twee geleidelijk worden gefarmd — en keer pas daarna terug naar de rangers. Eén echt sterk eerste team verslaat drie halfgebouwde teams.
+
+> Bron: [Даскал и золотая Клэр в Last Asylum: Plague - как правильно прокачивать героев](https://dtf.ru/howto/5317537-daskal-i-zolotaya-kler-v-last-asylum-prokachka-geroev) door Гейм-Знаток op DTF.

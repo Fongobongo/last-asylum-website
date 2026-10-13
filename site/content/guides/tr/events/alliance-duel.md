@@ -2,7 +2,7 @@
 title: "İttifak Düellosu: Kapsamlı Rehber"
 description: "Altı günlük puan kategorileri, Cumartesi günü PvP finali, tam puan değerleriyle aşama aşama mekanikler, Falcon Görevi biriktirme ve en üst sandığı kazandıran her şeyi biriktirme ekonomisi."
 lang: tr
-updated: "2026-09-18"
+updated: "2026-10-12"
 videoTopic: alliance_duel
 calculators: []
 infographics: ["/infographics/duel-day-guide.webp", "/infographics/duel-savings.webp", "/infographics/falcon-tower-storage.webp"]
@@ -361,3 +361,63 @@ Oyun istemcisi verilerinden (v1.0.87) doğrulanmış değerler, kaynak: wiki-las
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "İttifak Düellosu araştırma ağacı ne işe yarar?", "acceptedAnswer": {"@type": "Answer", "text": "Etkinlik puanlarını katlar (Arena Uzmanı +%100, Arena Üstadı +%50) ve en üst düzey ödüllere sahip 7–9. seviye sandıkların kilidini açar."}}, {"@type": "Question", "name": "İttifak Düellosu'ndaki tek en yüksek değere sahip eylem nedir?", "acceptedAnswer": {"@type": "Answer", "text": "2. ve 6. aşamalarda 100.000 puan için bir UR ticaret kervanı sevk etmek, ardından 75.000 puan için bir UR gizli operasyon yürütmektir."}}]}
 </script>
+
+## İttifak Düellosu Gün Gün Takvim (DTF) {#dtf-calendar}
+
+Düello, puanlama değişerek neredeyse tüm hafta boyunca sürer: Pazartesi enerji/kaynaklar, Salı inşaat, Çarşamba araştırmalar, Perşembe kahramanlar, Cuma asker eğitimi, Cumartesi KvK. Yeni başlayanların yaptığı hata her şeyi elde edildiği gibi harcamaktır — Pazar günü alınan Falcon görevleri, Salı günü açılan Raven sandıkları, Pazartesi yakılan antitoksin, hafta ortasında yapılan toplu eğitimler. Hesap büyür ama düello neredeyse hiç puan almaz. Bunun yerine günlere göre biriktirin (banka yapın).
+
+![İttifak Düellosu gün gün rehberi](/img/dtf/alliance-duel/01.jpg)
+
+### Önce düello teknolojisi {#dtf-tech}
+
+Laboratuvarın düello dalı, etkinlik içindeki puanları katlayarak gelecekteki her haftayı daha ucuz hale getirir. Araştırma hızlandırmaları, parşömenler ve teknoloji gücü büyümesinin birlikte puan kazandırdığı **Çarşamba** günü geliştirilmesi en iyisidir. Önce düello teknolojisini, ardından özel parşömenlere de ihtiyaç duyuyorlarsa Elit Birliklerin ve Karavan Taşımacılığının araştırmasını yapın — böyle bir araştırma aynı anda parşömen + hızlandırma + güç kazandırır (örn. hızlandırmalar ve güçten önce ~750 puan ≈ 960.000 değerinde 1.280 parşömen). Tam bir dal bir haftada bitmez, ancak birkaç seviye bile kişisel sandıkları yaklaştırır ve hızlandırma tasarrufu sağlar.
+
+### Pazartesi: Falcon, enerji, toplama, Raven {#dtf-monday}
+
+Pazar günü tamamlanan Falcon görevleri alınmadan bekletilir: geliştirilmiş bir Falcon Kulesi, ekrandaki zulaya ek olarak düzinelerce tamamlanmış emir tutar, böylece Pazartesi büyük ve hazır bir partiyle başlar (her biri ~30.000 puan olan bankadaki 40–50 görev ciddi bir başlangıç avantajıdır — ancak depoyu taşımayın, aksi takdirde yeni emirler kaydedilmez). Ana ordu önce Blight/hırsızlar/harita hedefleri üzerinde doğal enerjiyi tüketir, ardından şişeleri, sonra ucuz elmas yenilemelerini kullanır — dükkanı bitirmeden önce bir sonraki sandığa olan boşluğu kontrol edin. Diğer ordular harita karolarından tahıl/odun/ot toplar; kale üretimi sayılmaz, yalnızca harita teslimatları sayılır.
+
+![Düellodan önce bankaya atılmış Falcon görevleri](/img/dtf/alliance-duel/02.jpg)
+
+Antitoksinleri Perşembe günü için saklayın; Pazartesi günü yalnızca bir sandığı tamamlamak için biraz harcayın. Hafta boyunca Raven Meyvesi ve Özü biriktirin ve Pazartesi günü harcayın — Raven istatistik yükseltmeleri ve Epigraf sandıkları büyük bir kısmı tamamlar. Raven ekipman sandıklarını Çarşamba gününe saklayın. Haftalık sıfırlamadan sonra Onur dükkanını planlar, Öz ve hızlandırmalar için kontrol edin.
+
+### Salı: binalar, karavanlar, hayatta kalanlar {#dtf-tuesday}
+
+Puanlar inşaat hızlandırmalarından gelir (~150/dk) ancak asıl büyük ödül çekiç simgesiyle bırakılmış hazır binalardır: bitmiş bir binanın güç kazancı (örn. 30 puanda 5.300 güç ≈ 159.000) tıklamayla işlenir, bu yüzden Salı sabahı hazırlanan Sığınak/Laboratuvar/arsalar/kışlalar toplanır. Pahalı binalara öncelik verin. Tüm ekonomiyi dondurmayın: bitmiş bir çiftlik/kereste fabrikası/çiçek tarhı çekiç altındayken toplanamaz, bu yüzden üretimin akmaya devam etmesi için her türden birini (ve bir manuel atölyeyi) engellenmemiş bırakın.
+
+![Salı günü bina güç kazançları](/img/dtf/alliance-duel/03.jpg)
+
+Uzun yükseltmelerden önce **İnşaat Bakanı** unvanını alın (yüksek Sığınakta büyük süre kısaltması; çekişmeli sunucularda sıraya erken girin). Karavanları ve gizli operasyonları önce ücretsiz yenilemelerle altına, ardından kristallere dönüştürün — iyi bir karavan ≈ 300.000'dir. Meyhanede hayatta kalanları işe alın (kahraman çağrıları değil — farklı bir mekanik ve ödül çizgisi).
+
+### Çarşamba: araştırmalar ve Raven ekipmanları {#dtf-wednesday}
+
+Araştırma hızlandırmaları, teknoloji gücü, özel parşömenler ve Raven ekipman sandıkları. Çarşamba gününe hazır bir partiyle başlamak için Salı günkü Falcon görevlerini alınmamış bırakın.
+
+![Çarşamba günü araştırma ve Raven ekipmanları](/img/dtf/alliance-duel/04.jpg)
+
+Öncelik: düello dalı, ardından Elit Birlikler / Karavan Taşımacılığı — parşömen maliyeti olan teknolojiler en iyi karşılığı verir. Tüm hafta boyunca Raven ekipman sandıklarını toplayın ve Çarşamba günü açın; daha yüksek kalite daha çok kazandırır, ardından sandık puanları ve ekipman gücü için toplu Raven ekipmanı birleştirin. Asla alındığı gibi açmayın.
+
+![Çarşamba araştırmalarında parşömen harcama](/img/dtf/alliance-duel/05.jpg)
+
+### Perşembe: çağrılar ve kahraman gelişimi {#dtf-thursday}
+
+Meyhane çağrı biletleri, parçaçıklar, yıldız yükseltmeleri, beceri rozetleri ve antitoksin için puanlar. Biletleri, kişisel parçaçıkları, beceri rozetlerini ve antitoksinleri bu gün için bankaya atın. Meyhane çekilişleri kahramanların yanı sıra çekilen kahramanların kişisel parçaçıklarını verir — etkinliklerden/dükkanlardan gelmesi gereken evrensel parçaçıkları vermez. Biletler izin verdiğinde onlu gruplar halinde çekin. Sıralama: **ana kahramanlarda yıldızlar → beceri rozetleri → seviyeler için antitoksin**. Tüm kadroyu değil, ilk birliği besleyin; çalışan takıma kişisel parçaçıklar harcayın ve evrensel olanları güçlü/nadir kahramanlar için saklayın.
+
+![Perşembe günü yıldız yükseltmeleri ve kahraman becerileri](/img/dtf/alliance-duel/06.jpg)
+
+Önce Hayatta Kalma Savaşı'nın kahraman aşamasını kontrol edin — aynı parçaçıklar/rozetler/antitoksin her iki etkinlikte de kazandırabilir. Perşembe genellikle en hızlı şekilde tamamlanır: çağır, ana takımı büyüt, topla.
+
+### Cuma: birlikler ve Kraliyet Dalaveresi (Royal Rumble) {#dtf-friday}
+
+Aynı gün Kraliyet Dalaveresi (Royal Rumble) ile birlikte eğitim ve rütbe atlamaları — ordu puan toplamalı ve savaşmalıdır. Sabahleyin Perşembe gününün bankadaki Falcon görevlerini alın, ardından arsalara odaklanın. Bir sandığa puanlar kalmadığı sürece inşaat/araştırma hızlandırmalarını gelecek haftaya saklayın. **Savaş Bakanı** unvanını alın; orta kademe birlikleri toplu olarak üretmek için zayıf arsaları kullanın (örn. büyük T6 partisi) ardından ana arsada T9'a yeniden eğitin — bazen saf T9'lardan daha hızlıdır. Zayıf birlikleri ve eğitim hızlandırmalarını önceden stoklayın; Cuma günü başlamak büyük terfiler için çok geçtir.
+
+![Cuma günü birlik eğitimi ve Kraliyet Dalaveresi](/img/dtf/alliance-duel/07.jpg)
+
+### Cumartesi: KvK, iyileştirme, kalkanlar {#dtf-saturday}
+
+KvK açılır: düşman krallığına ışınlanın, kalelere vurun, savaş puanları için birlik öldürün. Düello rakibine yapılan saldırılar genellikle en iyi karşılığı verir, ancak diğer KvK dövüşleri de sayılır. Uçuş öncesi: ana ordu, ışınlanmalar, hastane alanı, kalkan stoğu — Cumartesi en çok puanı verir ve en hızlı sıfırlar. İyileştirme hızlandırmaları da puan kazandırır, bu yüzden Cumartesi gününden önce park edilen yaralılar aşama için bekleyebilir — ancak hastaneyi asla taşımayın, taşan birlikler ölür. Cuma akşamı kalkanı açın: kendi saldırınızdan sonra kalkan düşer ve yalnızca savaş zamanlayıcısından sonra yeniden etkinleşir, bu yüzden yedek bir kalkan ve ışınlanma bulundurun, ittifak bölgesine çekilin veya rastgele ışınlanın ve baskın bölgesinden ayrıldıktan sonra birkaç dakikalık bir yeniden giriş kilitlenmesi bekleyin.
+
+![Cumartesi KvK'dan önce kalkan kullanımı](/img/dtf/alliance-duel/08.jpg)
+
+Takım puanları: Pazartesi genellikle en ucuzudur, Salı–Cuma arası daha ağırdır, Cumartesi haftanın kaderini belirleyebilir. Kaybedilen bir Pazartesi hiçbir şey ifade etmez — temiz araştırmalar, kahramanlar, birlikler ve KvK toplamı tersine çevirir. Günlük puanlar için düello detay penceresini kontrol edin.
+
+> Kaynak: [Дуэль альянсов в Last Asylum: Plague - гайд по дням](https://dtf.ru/howto/5238861-duel-alyansov-last-asylum-plague-strategii-i-sovety) - Гейм-Знаток, DTF.

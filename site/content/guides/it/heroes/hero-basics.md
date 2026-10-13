@@ -2,7 +2,7 @@
 title: "Basi: fazioni e squadre"
 description: "Sezione della guida agli eroi: basi: fazioni e squadre."
 lang: it
-updated: "2026-10-01"
+updated: "2026-10-12"
 videoTopic: heroes
 ---
 
@@ -222,3 +222,172 @@ Pagine che menzionano questa. L'elenco è generato dal markup, non compilato a m
 - Arthur: abilità, potenziamenti e Potenza
 
 ## Commenti
+
+## Quale Tank Scegliere: Arthur, Daskal, Brian o Louis {#dtf-tank-choice}
+
+Tutti vogliono numeri di danno elevati (carry) per primi, ma se la prima linea crolla nei secondi iniziali, il carry non riuscirà mai a mostrare il suo potenziale. Un buon tank regge il primo colpo, guadagna il tempo di lancio, riduce i danni in arrivo — a volte con scudi, autorigenerazione o protezione contro uno specifico tipo di danno. Arthur, Daskal, Brian e Louis fanno tutto questo in modo diverso.
+
+![Arthur, Daskal, Brian e Louis: confronto tra i quattro tank](/img/dtf/hero-basics/01.jpg)
+
+![Cosa fa ciascun tank: Arthur, Daskal, Brian e Louis](/img/dtf/hero-basics/02.jpg)
+
+### Arthur: il tank più sicuro per la maggior parte degli account {#dtf-arthur-safe}
+
+Arthur è la prima linea universale. Non richiede una formazione perfetta di cinque elementi attorno a sé: si fa avanti e funziona in PvP, PvE, nelle fasi iniziali e di transizione.
+
+- **Scudo da Battaglia** — attacco fisico base su un bersaglio.
+- **Sismico** — attacco ad area che aiuta gli alleati a subire meno danni fisici.
+- **Roccioso** — scudo personale legato ai HP massimi di Arthur.
+- **Forte Volontà** — riduce passivamente i danni subiti dai tank alleati.
+- **Tenacia** — aumenta ATK, HP, DEF e velocizza i tempi di ricarica delle abilità.
+
+Risultato: stabilità piuttosto che picchi di rilievo. È il tank che puoi sviluppare per primo senza vincolarti a uno schema troppo rigido.
+
+![Arthur, il tank universale per PvP, PvE e F2P](/img/dtf/hero-basics/03.jpg)
+
+### Daskal: prima linea solida e scudi {#dtf-daskal-shields}
+
+Daskal si basa su scudi, sopravvivenza e autorigenerazione. Se Arthur è il pilastro di pietra, Daskal è una porta blindata supplementare.
+
+- **Volontà di Combattimento** — attacco fisico base.
+- **Difesa Sanguinaria** — scudo di squadra legato alla DEF.
+- **Affondo Letale** — danno più ripristino di HP per Daskal.
+- **Lotta Resolute** — scudo iniziale sui tank alleati.
+- **Tenacia** — ATK/HP/DEF più tempi di ricarica più rapidi.
+
+Splende accanto ad Arthur (stabilità universale + scudi e autorigenerazione) e nelle squadre di Guerrieri che necessitano di una prima linea densa affinché il carry possa operare con calma. Sceglilo quando Arthur esiste già e hai bisogno di un secondo tank forte, o quando la squadra cede all'inizio.
+
+![Daskal: scudi, autorigenerazione e sopravvivenza della squadra](/img/dtf/hero-basics/04.jpg)
+
+### Brian: il tank per i combattimenti lunghi {#dtf-brian-long}
+
+Brian non punta sui grandi scudi. Smorza la pressione nemica e rimane utile negli scontri prolungati.
+
+- **Artiglio Affilato** — attacco fisico base.
+- **Morso Minaccioso** — danno più riduzione dei danni subiti per tutti gli alleati.
+- **Ululato Lunare** — riflette parte dei danni ricevuti.
+- **Stirpe del Lupo** — riduce passivamente tutti i danni subiti.
+- **Tenacia** — ATK/HP/DEF standard e riduzione dei tempi di ricarica.
+
+Ottimo nelle lunghe battaglie PvE, in prime linee resistenti e nella direzione degli Stregoni: una scelta successiva e ponderata una volta che conosci le tue fazioni e modalità, non un eroe da inizio caotico.
+
+![Brian: riduzione del danno per battaglie lunghe](/img/dtf/hero-basics/05.jpg)
+
+### Louis: specialista anti-raffica e anti-energia {#dtf-louis-anti-burst}
+
+Louis è il più situazionale dei quattro, nonché la risposta alle composizioni rapide che eliminano un bersaglio in pochi secondi o premono con danni da energia.
+
+- **Ceppi** — attacco base.
+- **Frusta Incrociata** — danno, autorigenerazione di Louis e riduzione dei danni in arrivo.
+- **Legame di Forza** — riduce i danni da energia per gli alleati vicini.
+- **Spirito Indomito** — forte riduzione dei danni in arrivo e supporto contro un colpo letale.
+- **Tenacia** — attacco, HP, difesa e velocità di ricarica.
+
+Non è il primo mattone delle fondamenta, ma lo strumento speciale contro le meta nemiche veloci una volta che la prima linea è altrimenti coperta.
+
+![Louis: contrasto alla raffica e alla pressione energetica](/img/dtf/hero-basics/06.jpg)
+
+### Chi è migliore in PvP e PvE {#dtf-tank-pvp-pve}
+
+Ordine PvP: **Arthur → Daskal → Louis → Brian**. La stabilità di Arthur e il valore del primo scambio guidano la classifica; gli scudi di Daskal comprano tempo per il carry; Louis supera Brian perché sopravvivere alla raffica iniziale decide il PvP; i punti di forza di Brian richiedono una pressione prolungata.
+
+Ordine PvE: **Arthur → Brian → Daskal → Louis**. Arthur rimane in cima come scelta universale; Brian sale nei combattimenti lunghi e nella riduzione del danno; Daskal segue con scudi e densità; Louis si restringe agli scontri con reali raffiche o pressione energetica.
+
+![Confronto tra i tank in PvP e PvE](/img/dtf/hero-basics/07.jpg)
+
+### Ordine F2P ed errori con i tank {#dtf-tank-f2p}
+
+Regola per F2P e giocatori con basse spese: **Arthur → Daskal → situazionale**. Un tank forte batte quattro tank sviluppati a metà. Errori comuni: costruire un tank senza un piano di squadra (Brian senza una direzione Stregone, Louis senza una meta basata sulla pressione energetica); potenziare tutti e quattro contemporaneamente; dimenticarsi del carry (un muro senza danno perde lentamente); copiare la squadra di qualcun altro senza le loro stesse condizioni.
+
+![Priorità dei tank per F2P e basse spese](/img/dtf/hero-basics/08.jpg)
+
+Promemoria personale: niente finora → Arthur; Arthur completato e la prima linea deve diventare un muro → Daskal; squadra sistemica avanzata per combattimenti lunghi → Brian; formazioni nemiche rapide che eliminano gli eroi in pochi secondi → Louis.
+
+![Arthur, Daskal, Brian o Louis: il verdetto](/img/dtf/hero-basics/09.jpg)
+
+> Fonte: [Last Asylum: Plague: Артур, Даскал, Брайан или Луис - какого танка качать](https://dtf.ru/howto/5104617-kakogo-tanka-kachat-v-last-asylum-plague) di Гейм-Знаток su DTF.
+
+## Formazione: Due Tank Davanti, Carry al Centro {#dtf-formation}
+
+La sola Potenza (Might) inganna. Una squadra costosa perde quando il suo carry si trova davanti, il suo tank si nasconde dietro e la sua spada migliore è assegnata all'eroe sbagliato.
+
+![Guida alla migliore formazione degli eroi](/img/dtf/hero-basics/10.jpg)
+
+### Prima le fazioni, poi il bonus di fazione singola {#dtf-faction-bonus}
+
+I Guerrieri battono gli Stregoni, gli Stregoni battono i Ranger, i Ranger battono i Guerrieri. La maggior parte dei giocatori assembla prima un nucleo di Guerrieri poiché i loro eroi validi arrivano prima; in un server dominato dai Guerrieri, i Ranger diventano una seconda forte direzione — persino una squadra di Ranger leggermente più debole sorprende i Guerrieri grazie al vantaggio di fazione.
+
+![Fazioni di Guerrieri, Ranger e Stregoni](/img/dtf/hero-basics/11.jpg)
+
+Cinque eroi di una stessa fazione forniscono **+20% di HP, attacco e difesa** (quattro offrono il 15%). Ecco perché tre eroi dorati più due buoni viola della stessa fazione battono regolarmente cinque eroi dorati casuali: controlla il bonus di squadra prima di ammirare la Potenza del singolo eroe.
+
+### Chi sta davanti {#dtf-front-roles}
+
+Gli eroi hanno un ruolo oltre a una fazione: scudo = tank, e i tank subiscono i primi colpi.
+
+![Icone di fazione e ruolo degli eroi](/img/dtf/hero-basics/12.jpg)
+
+La base normale: **due tank davanti, danni e supporto dietro**. Un carry forte in avantí muore prima di lanciare le abilità: il miglior damage dealer deve sopravvivere per usare le abilità, non morire eroicamente per primo.
+
+![Tank davanti, danni dietro](/img/dtf/hero-basics/13.jpg)
+
+### Disposizione Guerrieri funzionante: Arthur, Bella, Marlena, Claire, Harper {#dtf-warrior-formation}
+
+Costruisci in base ai ruoli, non alla potenza totale:
+
+- Fronte: **Arthur (sinistra), Bella (destra)** — trattengono la linea il più a lungo possibile.
+- Retro: **Marlena al centro** (la fonte di danno principale ottiene più tempo negli scontri equilibrati), **Claire** su un lato come secondo danno, **Harper** sull'altro come supporto.
+
+![Esempio di formazione completa sul campo](/img/dtf/hero-basics/14.jpg)
+
+Esplora il nemico prima della battaglia: se un bersaglio scomodo si trova di fronte a Marlena, scambiala con Claire, ma inizia con Marlena al centro.
+
+### La Potenza pari conta poco {#dtf-equal-might}
+
+L'Arena abbina avversari con Potenza quasi identica che combattono in modo diverso perché il valore riassume eroi, formazione, equipaggiamento, sviluppo del carry principale e truppe (da T1 a T10, con i T10 come obiettivo avanzato separato tramite Campi di Addestramento e ricerca). Due squadre con Potenza simile possono differire puramente per il livello delle truppe.
+
+![Squadra vs Campi di Addestramento con truppe T9](/img/dtf/hero-basics/15.jpg)
+
+### Apri sempre il rapporto di battaglia {#dtf-battle-report}
+
+Dopo una sconfitta contro un avversario alla pari, controlla chi ha inflitto i danni, chi è morto per primo e quali eroi possiedono l'equipaggiamento migliore. Due Marlena di livello 135 non sono lo stesso eroe quando stelle, abilità e spade differiscono: il rapporto lo mostra.
+
+![Lettura del rapporto post-battaglia](/img/dtf/hero-basics/16.jpg)
+
+### L'equipaggiamento deve corrispondere al ruolo {#dtf-gear-by-role}
+
+I tank come Arthur desiderano armature e stivali per primi; il carry principale vuole la spada e i pezzi d'attacco più forti. Una grande spada su un tank mentre Marlena impugna un'arma di livello 20 aiuta entrambi gli oggetti ma nessuna battaglia. Con materiali scarsi, un vero set d'attacco sul carry principale batte cinque eroi esteticamente ugualmente belli.
+
+![Equipaggiamento di tank e carry dopo un combattimento nell'Arena](/img/dtf/hero-basics/17.jpg)
+
+Fino al livello 20 circa, diversi eroi possono essere potenziati insieme. Oltre quel punto, i costi aumentano: concentrati sui due eroi che sostengono la prima squadra (il damage dealer principale più il tank principale, es. la spada di Marlena e la protezione di Arthur) e lascia il resto su una base funzionante.
+
+### Chi potenziare prima e cosa dopo {#dtf-first-focus}
+
+Per una prima squadra di Guerrieri: **Marlena infligge i danni, Arthur le compra tempo** — poi il secondo tank, Claire, Harper e il resto. Completa un potenziamento importante invece di spargere antitossina e frammenti su ogni nuova estrazione.
+
+![Marlena e Arthur: il nucleo dei Guerrieri](/img/dtf/hero-basics/18.jpg)
+
+Gli eroi a pagamento aiutano — l'accesso anticipato è un vero vantaggio mentre gli altri aspettano — ma richiedono comunque fazione, posizione, stelle, abilità ed equipaggiamento. Considera i progressi più rapidi come un modo per eliminare un collo di bottiglia concreto.
+
+Una volta che la marcia dei Guerrieri è solida, costruisci i **Ranger per secondi** nei server dominato dai Guerrieri: stesso schema a 2 tank davanti, cinque della stessa fazione per il bonus completo, danni dietro (un secondo damage dealer può temporaneamente schierarsi senza supporto). Non avere fretta di livellare entrambe le marce allo stesso modo: la prima continua a risolvere i compiti più difficili mentre la seconda diventa uno specialista anti-Guerriero.
+
+![Squadra di Ranger contro Guerrieri](/img/dtf/hero-basics/19.jpg)
+
+Non inserire ogni eroe dorato nella prima squadra: a volte tre eroi dorati più due viola della stessa fazione per la prima squadra, con i restanti dorati che avviano una vera seconda marcia, creano un account più sano (uno principale, uno anti-fazione, uno per il resto) rispetto ai cinque migliori davanti e gli scarti ovunque.
+
+### Giovedì e i negozi {#dtf-thursday-shops}
+
+Se la tua alleanza organizza i Duelli, conserva la spesa seria per gli eroi (antitossina, frammenti, distintivi di abilità, biglietti di evocazione) per il **Giovedì** — il giorno degli eroi unito ai punti evento per la stessa azione. Nei negozi: Onore = progetti di equipaggiamento per primi; Spedizione = frammenti di eroi universali, biglietti di evocazione, antitossina; Santuario = frammenti disponibili. Acquista per colmare una carenza attuale (stelle di Marlena, equipaggiamento di Arthur), non tutto ciò che sembra utile.
+
+![Cosa comprare nei negozi di gioco](/img/dtf/hero-basics/20.jpg)
+
+### Checklist delle sconfitte e piano da zero a pronto {#dtf-defeat-checklist}
+
+Dopo una sconfitta: formazione (il carry è davanti?) → bonus di fazione (interrotto per un eroe più forte?) → equipaggiamento (la spada migliore è sul tank?) → stelle e abilità. Quest'ordine individua la causa prima di investire un altro milione di risorse.
+
+![Ordine di sviluppo della squadra da zero](/img/dtf/hero-basics/21.jpg)
+
+Da zero a pronto: una fazione completa da cinque → due tank davanti, il miglior carry al centro-retro → equipaggiamento dorato base fino a ~20, smetti di livellare tutto → risorse costose nell'arma del carry principale e nella difesa del primo tank → seconda fazione (Ranger sui server di Guerrieri) → terza squadra solo successivamente.
+
+> Fonte: [Last Asylum: Plague - гайд по лучшей расстановке героев](https://dtf.ru/howto/5245716-last-asylum-plague-sovety-po-rasstanovke-geroev) di Гейм-Знаток su DTF..

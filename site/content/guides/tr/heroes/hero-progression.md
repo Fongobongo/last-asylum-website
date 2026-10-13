@@ -2,7 +2,7 @@
 title: "Gelişim: yetenekler ve yıldızlar"
 description: "Kahramanlar rehberinin bir bölümü: gelişim: yetenekler ve yıldızlar."
 lang: tr
-updated: "2026-10-01"
+updated: "2026-10-12"
 videoTopic: heroes
 ---
 
@@ -233,3 +233,96 @@ Bu sayfadan bahseden sayfalar. Liste işaretlemeden oluşturulmuştur, elle dold
 ## Yorumlar
 
 ---
+
+## Yatırım Sırası: Hasar → Ön Saf → Destek {#dtf-investment-order}
+
+Bir kahraman, portresinden önce bir roldür. Bu uygulama kılavuzundaki çalışan kadro şablonu **2 tank + 2 hasar verici + 1 destek** şeklindedir: iki tank hayatta kalma süresi satın alır, iki hasar verici baskı oluşturur, bir destek ise halihazırda var olan çekirdeği katlar.
+
+![Kılavuz kapağı: kahramanlar nasıl doğru şekilde seviyelendirilir](/img/dtf/hero-progression/01.jpg)
+
+### Bir rol nasıl okunur {#dtf-roles}
+
+- **Kalkan — tank.** Darbeyi alır, ön safta durur, savunma yetenekleri ve hasar azaltma ile grubu korur.
+- **Ateş — hasar verici (taşıyıcı).** Düşmanları hızlıca ortadan kaldırır; kısa bir dövüş takımınıza geri daha az hasar verir.
+- **Şişe — destek.** Güçlendirmeler (buff), dayanıklılık (sustain), kaynak yardımı. Neredeyse her zaman kadronun geri kalanının halihazırda ne kadar güçlü olduğuyla ölçeklenir.
+
+Kaynakları eşit olarak dağıtmak beş ortalama kahraman üretir. Onları odaklamak ise içerik temizleyen tek bir kadro kurar.
+
+![Kahraman rolleri: tank, hasar verici, destek](/img/dtf/hero-progression/02.jpg)
+
+### İlerlemeyi sağlayan sıra {#dtf-carry-first}
+
+1. **Ana hasar verici** — kampanya, PvE ve etkinliklerde en hızlı ilerleme.
+2. **Ana tank** — ön saf olmadan, taşıyıcı asla yeteneklerini kullanamaz.
+3. **İkinci hasar verici, ikinci tank, ardından destek.**
+
+Zayıf bir taşıyıcıyı erken bir destekle güçlendirmek, alışveriş arabasına türbin takmak gibidir: gürültülüdür ama hiçbir yere varmaz.
+
+### Önce ana taşıyıcı: Örnek olarak Marlena {#dtf-marlena-carry}
+
+Savaşçı yöneliminde örnek Marlena'dır. Ana hasar verici için üç şey önemlidir: **kahraman seviyesi, hasar teçhizatı ve kilit hasar yeteneği** (Marlena için enerji hasarını artıran pasif — her şeyden biraz değil).
+
+![Ana hasar verici olarak Marlena](/img/dtf/hero-progression/03.jpg)
+
+Bir taşıyıcı için teçhizat önceliği **kılıç, ardından eldivendir**. Zırh ve botlar işe yaramaz değildir, ancak bir taşıyıcıda koruma öncelikli olmak her iki takımın da daha uzun süre hayatta kalması anlamına gelir. Yetenekler de aynı mantığı izler: yan yükseltmelerden önce ana hasar türünü artıran etkiyi yükseltin.
+
+![Kahramanları sırayla seviyelendirin: önce taşıyıcı, sonra tank ve destek](/img/dtf/hero-progression/04.jpg)
+
+### İkincil hasar verici: Birincinin temeli oluştuktan sonra {#dtf-second-carry}
+
+İkinci hasar verici tempo ekler, hedefleri bitirir ve ana taşıyıcıyı sigortalar — ancak yalnızca birincisi seviyeye, kilit yeteneğe, kılıca ve eldivene sahip olduktan sonra. Her şeyi çok erken 50/50 bölmek, hedefleri hayatta kalan iki ortalama vuruşçu üretir.
+
+"Belki sonra" projesi değil, şu anda ana beşlinizde gerçekten yer alan kahramanı seçin.
+
+### İkinci tank: Arthur hattı tutar {#dtf-arthur-tank}
+
+Taşıyıcıdan sonra ön saf yetişmelidir. Ana tank olarak Arthur'un seviyelere, savunma teçhizatına ve takım koruma yeteneklerine ihtiyacı vardır. Teçhizat sırası **zırh, ardından bot** şeklindedir (fiziksel vuruşlara karşı zırh, enerji hayatta kalabilirliği ve savunma eşikleri için botlar).
+
+![Arthur'u seviyelendirmek: zırh, botlar ve savunma yetenekleri](/img/dtf/hero-progression/05.jpg)
+
+Bir tankta ne yükseltilmeli: önce nihai yetenek (Arthur'unkisi, alandaki müttefiklerin aldığı fiziksel hasarı azaltır), ardından gelen hasarı kesen veya ikinci tankı hayatta arkasında tutan pasifler. Arkasında hasar olmayan ölümsüz bir ön saf sadece yavaşça ve kahramanca kaybeder.
+
+### Üçüncü destek: Erken aşamada Celia, sonra Harper {#dtf-harper-support}
+
+Celia erken aşamada destek slotunu tutabilir, ancak değeri doğrudan savaş gücünden ziyade kaynaklara yöneliktir. Harper (müttefiklere, özellikle Savaşçılara pasif ve nihai yetenek yoluyla saldırı güçlendirmeleri) bir Savaşçı savaş kadrosuna çok daha iyi uyar — tabii ki güçlendirmeye değer bir şey olduğunda.
+
+![Harper: Savaşçı kahramanlar için saldırı desteği](/img/dtf/hero-progression/06.jpg)
+
+Harper'ı sırf ortaya çıktı diye 1. seviyede kadroya almayın. Geçişi kademeli yapın ve kaynaklarını önceden planlayın: güçlendirme, Marlena ve Arthur artı ikinci bir hasar verici halihazırda ayaktayken karşılığını verir.
+
+Pratik sıra: ana hasar verici → ana tank → ikinci hasar verici → ikinci tank → çekirdek hazır olduğunda destek.
+
+### Favoriye göre değil, role göre teçhizat ve yetenekler {#dtf-gear-skills-by-role}
+
+- Taşıyıcı: Önce **kılıç → eldiven**.
+- Tank: Önce **zırh → bot**.
+- Destek: Ölüp güçlendirmeler bırakıyorsa koruma, aksi takdirde daha sonra.
+- Ana taşıyıcı hasardan yoksunken asla en iyi kılıcı tanka vermeyin ve bir taşıyıcının zırhını asla hasar parçalarından önce fullemeyin.
+
+Yetenekler için açıklamayı okuyun: taşıyıcı = hasar ve enerji veya fiziksel artırıcılar; tank = gelen hasar azaltma, müttefik koruması, ön saf dayanıklılığı; destek = saldırı güçlendirmesi, grup (faction) güçlendirmesi, çalışan takım bonusları. Marlena'da hasar kazancı önemlidir, Arthur'da takım savunması, Harper'da müttefik saldırı güçlendirmesi.
+
+### F2P disiplini {#dtf-f2p-discipline}
+
+1. Bir grup (faction) yönü seçin.
+2. Ana hasar vericiyi belirleyin.
+3. Önce onu maxlayın, ardından ana tankı, ikinci hasar vericiyi, ikinci tankı, en son desteği.
+4. Her yeni çıkan karakterin peşinden koşmayın; bitmiş tek bir kadro, yarı yapılı kart koleksiyonunu yener.
+
+Aynı beş rol arayışı herhangi bir grupta da çalışır: *kendi* ana taşıyıcınızı, ikinci taşıyıcınızı, iki tankınızı ve desteğinizi bulun, ardından hasar → ön saf → destek sırasını izleyin. Çevresinde grubu, rolleri ve takım bonusları olmayan güçlü bir kahraman düşük performans gösterir.
+
+![Ana kadro seviyelendirme şeması: hasar vericiler, tanklar, destek](/img/dtf/hero-progression/07.jpg)
+
+### Altı klasik hata {#dtf-progression-mistakes}
+
+1. Herkesi biraz seviyelendirmek — zayıf bir temel.
+2. Desteği taşıyıcıdan önce seviyelendirmek.
+3. Tankları unutmak — ölü bir taşıyıcı sıfır hasar verir.
+4. Her rol için aynı teçhizat — önce rol, sonra eşya.
+5. Her yeni karakter için kadroyu yeniden kurmak — yeni demek daha iyi demek değildir.
+6. Plansız harcama — en pahalı kaynak yanlış bir karardır.
+
+Savaş raporlarıyla teşhis koyun: tank anında ölüyor → ön saf sorunu; öfkesiz uzun dövüş → hasar sorunu; taşıyıcı yaşıyor ama düşük performans gösteriyor → yetenekler ve teçhizat kontrolü. 1-2 haftalık bir plan yapın (şimdi kim, sonra kim, hangi eşya, hangi yetenekler).
+
+![Kaynakları boşa harcamadan kahramanlar nasıl seviyelendirilir](/img/dtf/hero-progression/08.jpg)
+
+> Kaynak: Гейм-Знаток tarafından DTF üzerinde yayınlanan [Last Asylum: Plague - как правильно качать героев и не слить ресурсы впустую](https://dtf.ru/howto/5138522-last-asylum-plague-prokachka-geroev) başlıklı makale.

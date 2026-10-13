@@ -2,7 +2,7 @@
 title: "Mischiuccio di Elisir: Come Vincere"
 description: "Un campo di battaglia di 30 minuti tra alleanze basato sui punti: cinque fasi, punteggio basato sul controllo, priorità della Tenda di Cura, regole di teletrasporto e l'errore alle mura che rovina la partita in 10 minuti."
 lang: it
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: elixir
 calculators: []
 infographics: ["/infographics/elixir-guide.webp", "/infographics/elixir-strategy.webp"]
@@ -359,3 +359,66 @@ Il Livello RES è fondamentale per combattere i mostri dell'era. Aumentarlo conf
 ### Attributo RES
 
 La RES è l'unico attributo per affrontare i mostri dell'era. Ciascun mostro possiede il proprio attributo RES. Se la tua RES supera quella del mostro, lo sconfiggerai facilmente; se risulta inferiore, affronterai svantaggi o persino la sconfitta in battaglia.
+
+---
+
+## Tattiche sul campo: Squadre, Edifici e Consapevolezza della Mappa {#field-tactics}
+
+La potenza conta in Elixir Scramble, ma decide molto meno dell'organizzazione. Un'alleanza più forte perde contro una più debole che controlla i Gate di migrazione, raccoglie i punti lasciati a terra e non parcheggia mai gli eroi su una singola tenda. L'evento si tiene di **venerdì**; la leadership dell'alleanza di solito assegna i ruoli in anticipo — Gate, tende, alchimia, centro — e vale davvero la pena leggere l'email con il piano. Un giocatore attivo batte ogni volta una non-presentazione registrata: edifici vuoti e compagni di squadra con doppio incarico seguono i assenti ovunque.
+
+![Piano di battaglia dell'alleanza per l'Elixir Scramble](/img/dtf/elixir/01.jpg)
+
+### Configura tre squadre in base al ruolo, non solo alla potenza {#squad-roles}
+
+- **La Squadra 1 è sempre la più forte** — la formazione principale che sbaraglia gli avversari forti e difende gli edifici chiave.
+- **Le Squadre 2 e 3 possono essere leggere e tecniche — fino a un singolo eroe.** Metti fuori combattimento il nemico con la forza principale, poi parcheggia una squadra economica sul punto e libera la Squadra 1 per il prossimo attacco. Se il difensore debole viene eliminato, le perdite sono molto minori.
+- Una combatte, una difende, una copre o prende punti extra.
+
+![Configurazione di prima, seconda e terza squadra prima della gara](/img/dtf/elixir/02.jpg)
+
+### Controllo del muro — e il trucco dell'esca per ricognizione {#wall-scout-trick}
+
+Apri la difesa della fortezza prima del combattimento: **lascia sul muro solo la squadra più forte, rimuovi le squadre 2–3.** Contro un attaccante più forte, le squadre deboli sul muro sono perdite gratuite: un paio di migliaia perse qua e là, e poi la Squadra 2 esiste più nello spirito che nella realtà. Contro avversari più deboli, la Squadra 1 sul muro vince da sola. E se si avvicina un mostro inarrestabile, **rimuovi tutto e lasciali bruciare una fortezza vuota** — mantenere l'esercito batte il mantenere la posizione.
+
+![Posizionamento della squadra sul muro](/img/dtf/elixir/03.jpg)
+
+Trucco della ricognizione: se è in arrivo una ricognizione nemica, **ritira la Squadra 1 dal muro per pochi secondi** in modo che il report mostri una fortezza vuota, poi rimettila a posto. Un attaccante impulsivo lancerà l'attacco direttamente in una difesa completa. Non è magia — i veterani se ne accorgono — ma funziona splendidamente sugli attaccanti automatici.
+
+### Priorità degli edifici basata sull'esperienza {#building-priority}
+
+Non cercare di mantenere tutto con otto giocatori attivi e undici punti: mantieni quelli chiave:
+
+- **Gate di migrazione — difendi dall'inizio.** Il −50% di tempo di ricarica per il trasferimento significa arrivare in tempo per aiutare, riconquistare edifici perduti, sfuggire a brutti attacchi e teletrasportarsi dietro a qualcuno che ha marciato con tutto fuori. Metti un giocatore forte sui Gate; se deve andarsene, lascia almeno un difensore tecnico debole. Nel peggiore dei casi: vinci una battaglia di cinque minuti sui Gate, poi entrambi i giocatori forti volano via lasciandolo vuoto.
+- **Tende di guarigione (4 in totale) — mantieni almeno due a metà battaglia.** 15 feriti ogni 10 secondi (riscattati tramite un pulsante) sembrano pochi finché entrambe le parti non si sono scambiate eliminazioni totali e la Squadra 2 non ha più nessuno da mandare. Cura in piccoli lotti per controllare i costi di accelerazione.
+- **Officine di alchimia — reddito costante, nessun potenziamento** (~50 punti/sec ciascuna). Buone una volta che i punti principali sono controllati e la squadra ha persone in eccesso — non valgono mai la pena di scambiare i Gate o il centro.
+- **Osservatorio — +10% di reddito dagli edifici controllati.** Scala con il controllo della mappa: ottimo a metà mappa, debole a due punti su dieci.
+- **Centro (si apre a ~minuto 10): Castello dell'Elisir + Reliquia di Guerra + Altare Maledetto.** Il Castello è il punto più ricco sulla mappa (~80 punti/sec) — prepara i giocatori forti per questo momento. La Reliquia potenzia la tua fazione, l'Altare indebolisce il nemico (controlla le percentuali esatte in-game, l'equilibrio si sposta). Mira al Castello più un punto di combattimento — **senza abbandonare tutto**: una bella cattura del centro mentre il nemico prende i Gate, due tende, l'alchimia e l'Osservatorio viene comunque mostrata come una sconfitta sul tabellone segnapunti.
+
+![Castello dell'Elisir, Reliquia di Guerra e Altare Maledetto dopo l'apertura del centro](/img/dtf/elixir/04.jpg)
+
+### I punti sparsi a terra {#dropped-points}
+
+Dopo una cattura, **i kit medici si accumulano vicino all'edificio** (iniziando dopo ~un minuto, crescendo mentre viene controllato). Se il punto cambia proprietario, la scorta **si disperde e chiunque può raccoglierla** — incluso te. Da cinquemila a novemila punti sparsi intorno a un edificio possono decidere una partita combattuta:
+
+- Tieni d'occhio la scorta sotto i tuoi edifici; se stai per perdere il punto, preparati a tornare a raccogliere il bottino.
+- Un edificio nemico con un mucchio cospicuo e un proprietario vulnerabile diventa un bersaglio prioritario.
+- **Gli esploratori veloci sono raccoglitori di punti**: i difensori inattivi dovrebbero scansionare alla ricerca di gocce gialle e gareggiare con gli esploratori per prenderle (le tue contro le loro sono visibili per colore). I potenziamenti della velocità degli esploratori si ripagano qui.
+
+![Raccolta di kit medici e punti attorno agli edifici catturati](/img/dtf/elixir/05.jpg)
+
+### Abitudini di metà battaglia che fanno vincere le partite {#mid-fight-habits}
+
+- **La squadra forte combatte, la squadra debole difende.** Non lasciare mai il miglior esercito a guardia di una stanza non contestata per dieci minuti — fallo tornare quando un nemico serio si avvicina al difensore debole.
+- **Cogli la fortezza svuotata.** Quando tutte e tre le squadre nemiche escono in marcia, teletrasportati dentro e colpisci la casa vuota — anche solo costringere la squadra principale a tornare è una vittoria.
+- **Esplora prima i bersagli lontani.** Una lunga marcia verso una fortezza sconosciuta che svanisce nel nulla è un viaggio sprecato; se un giocatore continua a sconfiggerti, scambia il bersaglio con un alleato invece di dimostrare qualcosa per la ventesima volta.
+- **Senza soldati? Rimani nell'evento.** I **campi avanzati rendono ~5 punti/sec ciascuno** — tre campi fanno 15/sec, che batte lo zero. Continua a raccogliere kit medici, esplorare e prendere punti vuoti con squadre tecniche; i giocatori quasi senza esercito hanno scalato le classifiche di raccolta in questo modo.
+- **Leggi la chat.** Brevi chiamate ("gate vuoti", "serve il centro", "non si sfonda", "prendete i kit medici") fanno parte delle tattiche — chiedi uno scambio in anticipo invece di alimentare un avversario più forte per dieci minuti.
+- **Controlla il report post-battaglia, non solo il tuo grado.** Il numero di uccisioni inganna; il giocatore che ha silenziosamente preso punti gratuiti e raccolto bottini spesso supera il rissoso nei punteggi. La partecipazione ripaga anche con **Medaglie d'onore**, spendibili nel negozio dell'evento (materiali, progetti di equipaggiamento) — rivedi le statistiche prima di chiudere la finestra.
+
+![Raccolta di punti dai campi nelle fasi finali della battaglia](/img/dtf/elixir/06.jpg)
+
+![Risultati post-battaglia: raccolta, catture e scontri](/img/dtf/elixir/07.jpg)
+
+Errori comuni da evitare: ignorare l'email del piano, difendere con squadre deboli sul muro, abbandonare tutti insieme i vecchi punti per il centro e dimenticare il bottino a terra. Tieni d'occhio i punti al secondo per tutta la partita — puoi incenerire cinque giocatori splendidamente e perdere comunque l'evento.
+
+> Fonte: [Гонка за эликсиром в Last Asylum: Plague - тактика и стратегии](https://dtf.ru/howto/5338769-gonka-za-eliksirom-v-last-asylum-plague-taktika-i-strategii) di Гейм-Знаток su DTF.

@@ -2,7 +2,7 @@
 title: "Oblężenie Nieumarłych: Kompletny poradnik"
 description: "Obrona sojuszu przed falami zainfekowanych: pasek wskazówek 300 000, poziomy trudności od 2,4 mln do 24,5 mln Potęgi Wrogów, ukryta mechanika wielu oddziałów, która niszczy graczy z 9,5 mln, oraz pełne tabele nagród."
 lang: pl
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: undead
 calculators: []
 infographics: ["/infographics/undead-siege-guide.webp", "/infographics/undead-siege-guide-2.webp"]
@@ -118,3 +118,61 @@ Zweryfikowane wartości z danych klienta gry (v1.0.87), źródło: wiki-last-asy
 | 8 | 25-28 | 17 411 540 | 196 300 000 |
 | 9 | 26-29 | 20 155 943 | 202 600 000 |
 | 10 | 27-30 | 24 471 960 | 255 600 000 |
+
+---
+
+## Notatki polowe z Oblężenia nieumarłych: Wskazówki, 20 fal i Nadzorcy {#dtf-field-notes}
+
+Oblężenie to dla sojuszu sprawdzian organizacji, a nie wydarzenie dla jednego silnego gracza: zadania Falcona zapełniają pasek, oddział na murze trzyma linię, aktywni członkowie leczą rannych, a silni gracze posiłkują słabszych. Uruchomione w ciemno – połowa sojuszu płonie w połowie drogi, a czat zapełnia się pytaniami „czemu tarcza nie zadziałała” i „kto to włączył”.
+
+![Przewodnik po Oblężeniu nieumarłych — okładka](/img/dtf/undead/01.jpg)
+
+### Wskazówki pochodzą z zadań Falcona {#dtf-clues}
+
+Sojusz potrzebuje **wskazówek**, aby zapełnić pasek startowy, a pochodzą one z zadań Falcona – przede wszystkim zadań na eliminację **siedzib, Wędrujących Zaraz i Legionu Zarazy**, wartych około **300 fragmentów każde**. Jeśli członkowie ignorują te zadania, oblężenie utknie w martwym punkcie z napełnionym w połowie paskiem.
+
+![Wskazówki do oblężenia pochodzą z zadań Falcona](/img/dtf/undead/03.jpg)
+
+Napięcie polega na tym, że wielu graczy gromadzi zadania Falcona na Pojedynek Sojuszy (kumulowanie w niedzielę/wtorek/czwartek). Normalnie jest to w porządku, ale gdy sojusz potrzebuje wskazówek, wymagane zadania na eliminację powinny być wykonywane i odbierane codziennie. Oficerowie powinny jasno wskazywać cele – siedziby, wędrującą zarazę, legion zarazy – zamiast rzucać ogólne „róbcie Falcona”.
+
+### Kto i kiedy uruchamia wydarzenie {#dtf-launch}
+
+Przy 100% wskazówek, **R4/R5 uruchamiają** wydarzenie i wybierają czas oraz poziom trudności. Nigdy nie uruchamiaj go z hasłem „bo akurat jestem online” – połowa sojuszu będzie offline, mury nieobsadzone, posiłki niewysłane. Zaplanuj start na szczyt aktywności wieczornej, ostrzeż na czacie oraz przez Telegram/Discord i przeprowadź 5-minutową odprawę: kto jest online, kto jest słaby i potrzebuje posiłków, kto może wysłać 2. lub 3. oddział, kto ma główny marsz na murze, jaki poziom trudności skład jest w stanie faktycznie utrzymać.
+
+![Wymagania uczestnictwa w oblężeniu](/img/dtf/undead/04.jpg)
+
+Bramki wejściowe: **poziom Sanktuarium** (około 14 na 1. poziomie trudności do ~27 na 10. poziomie), **48+ godzin w sojuszu** (bez wskakiwania w ostatniej chwili po nagrody) oraz **brak bezczynności 72h+** (offline). Sprawdź listę członków przed startem – nowicjusze i osoby śpiące nie pomogą w wydarzeniu mającym 20 fal.
+
+### Poziomy trudności, fale i zasada 20 graczy {#dtf-difficulty}
+
+Poziomy trudności odblokowują się sekwencyjnie – brak skoków od razu na 10. Łączna liczba fal sojuszu wymaganych do maksymalnych nagród skaluje się od około **300 na 1. poziomie trudności do ~1200 na 10. poziomie**. Aby wejść wyżej, **co najmniej 20 członków musi przetrwać wszystkie 20 fal** – a nie jeden topowy gracz czy pięciu najlepszych. Porzucenie słabszych graczy, którzy padają na falach 8–10, może zablokować cały sojusz, dlatego wspieranie średniaków daje lepsze rezultaty niż podziwianie najwyższej potęgi.
+
+![Poziomy trudności i 20 fal dla maksymalnych nagród](/img/dtf/undead/05.jpg)
+
+Nagrody osobiste skalują się wraz z przetrwanymi falami – **wszystkie 20 daje maksimum**. Jeśli jakaś fala cię spali, udział kończy się na progu tej fali bez możliwości ponownego dołączenia. Lista kontrolna przed startem: najsilniejszy marsz na murze, dość wojska, gotowe leczenie z zasobami i przyspieszeniami, obecność online przy starcie, wcześnie poproszone posiłki w razie słabości. Większość porażek wynika z oczywistych rzeczy: zły marsz, pusty mur, nadzieja na tarczę, odejście na „5 minut” AFK z dymkiem w tle.
+
+### Tarcza nic nie daje, mur robi wszystko {#dtf-shield}
+
+Tarcze **nie zatrzymują fal oblężenia**. Po uruchomieniu fale nadciągają bez względu na wszystko. Mur musi utrzymać prawdziwy oddział: najsilniejszy marsz obronny lub główny bojowy (dobry tank, główny zadający obrażenia, wsparcie) – nigdy marsz zbieracki ani zastępcza jednostka na zasadzie „podmienię później”. Słabi gracze powinni wcześnie prosić o pomoc; w porę rzucone „potrzebuję posiłků” pomaga sojuszowi, a cisza połączona z wymazaniem bazy w trakcie wydarzenia – już nie.
+
+![Tarcze nie zatrzymują fal oblężenia](/img/dtf/undead/06.jpg)
+
+Silni gracze posiłkują słabszych za pomocą **2. i 3. oddziału, trzymając główny marsz w bazie**. Słabe miasto nie jest leniwe, jest po prostu słabsze – z pomocą przetrwa więcej fal, zdobędzie więcej nagród osobistych i dołoży fal do puli sojuszu. Wyznacz pomocników przed startem; chaos w środku fali (leczenie, czat, błędne kliknięcia) sprawia, że spóźniona pomoc staje się bezużyteczna.
+
+![Wspieranie sojuszników podczas oblężenia](/img/dtf/undead/07.jpg)
+
+### Leczenie, czas odnowienia i nadzorcy {#dtf-healing}
+
+Poległe wojsko ląduje w **szpitalu** – bądź online, leć rannych między falami, odświeżaj pomoc, gdy sojusznicy odnotowują straty. Sprawdź przed startem: zasoby na leczenie, przyspieszenia, wolne miejsce w szpitalu, gotowość do wysiedzenia przez wszystkie fale. Pełny szpital i brak zasobów zamieniają wydarzenie w bezczynny spektakl tła.
+
+![Plan przebiegu oblężenia](/img/dtf/undead/08.jpg)
+
+Po wszystkich falach następuje około **2-dniowy czas odnowienia**, ale w jego trakcie można farmić wskazówki – kontynuuj zadania Falcona, aby kolejny poziom trudności uruchomił się szybciej. Cykl: zbieranie, start, 20 fal, nagrody, czas odnowienia, ponowne zbieranie.
+
+Na **9. i 10. poziomie trudności każda 4. fala ma 20% szans na pojawienie się Nadzorcy** z dodatkowymi nagrodami, a Nadzorca ma **30% szans na przemianę w Wściekłego Nadzorcę** z lepszym łupem. Nie uganiaj się za nimi zbyt wcześnie: jeśli sojusz ledwo utrzymuje zwykłe fale, próby bohaterskie kosztują najpierw stabilne nagrody.
+
+![Nadzorca i Wściekły Nadzorca](/img/dtf/undead/09.jpg)
+
+Wybieraj poziom trudności na podstawie dowodów, a nie dumy: ilu graczy przeszło 20/20, kto odpadł wcześnie, kto potrzebował pomocy, czy leczenie wystarczyło, czy zamknięto maksymalną liczbę fal, czy na czacie wybuchła panika. Pewne przejście pozwala iść w górę; wątpliwe – nakazuje pozostać na obecnym poziomie. Wskazówki dla oficerów: ogłaszajcie wcześnie, dobierajcie pary słaby–silny, mierzcie siły na zamiary z poziomem trudności i tłumaczcie nowicjuszom, że tarcze nie ratują, a marsz na mur obsługuje się ręcznie.
+
+> Źródło: [Last Asylum: Plague - гайд по событию Осада нежити. Как пройти 20 волн, не сгореть и помочь альянсу](https://dtf.ru/howto/5189978-osada-nezhiti-last-asylum-plague) , autor Гейм-Знаток (DTF).

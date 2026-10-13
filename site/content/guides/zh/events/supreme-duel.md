@@ -3,7 +3,7 @@ title: "🏆 至尊决斗活动指南"
 description: "掌握《Last Asylum: Plague》跨服至尊决斗竞技场锦标赛 — 复苏纪元第58天赛程、5个锦标赛阶段、3小队三局两胜制机制、预测币商店以及冠军奖励。"
 lang: zh
 type: event
-updated: "2026-09-14"
+updated: "2026-10-12"
 videoTopic: arena
 ---
 
@@ -111,3 +111,59 @@ videoTopic: arena
 永久途径总共可以为一个英雄叠加490名士兵，其中350名仅来自英雄等级。雕像提供100名，科技提供20名，只要联盟一直占有黑矿，持有黑矿就能增加50名。
 
 实际的结论很简单。英雄等级是影响该数值的唯一真正杠杆，阵营雕像位居第二，其余所有途径只是对总数起到了补充作用。
+
+---
+
+## 至尊决斗场指南：战斗积分、复仇与预测 {#dtf-field-guide}
+
+The format looks like Triangle Arena — three squads vs three, two wins take the match — but the "sacrifice one, win two" habit doesn't always work here. **Battle Points** rule the early stages: winning 2:1 with a wrecked army can score less than an opponent with cleaner fights. F2P can still profit through predictions, fireworks and kingdom rewards without ever smelling the throne.
+
+![Last Asylum Plague 中的 Supreme Duel](/img/dtf/supreme-duel/01.jpg)
+
+### 开局、报名与三支真实队伍 {#dtf-opening}
+
+Tied to Era of Revival: appears on **day 58 of the season**, runs **27 days**, needs **Sanctuary 20+**, pools **16 warzones**. No button yet means your era hasn't reached the day — not a bug. Registration is manual with a **5-day window**: miss the button and you watch from the stands.
+
+![Supreme Duel 规则与基础知识](/img/dtf/supreme-duel/02.jpg)
+
+Qualifiers use a **3v3 deathmatch**: squads enter in turn and the winning squad keeps fighting the next enemy squad with its surviving soldiers until one side loses all three teams. One super-squad plus two leftover teams underperforms — a winning squad that survives cleanly chains into the next fight, and a weak tail feeds the same trick to the opponent. Build three serviceable squads (front + damage each), not one perfect one; check tanks and main carries (a maxed Marlena/Zoe with all the gear while squads 2–3 can't punch through means redistributing gear helps more than another level on squad 1).
+
+![3v3 死亡竞赛与小队顺序](/img/dtf/supreme-duel/04.jpg)
+
+### 战斗积分公式 {#dtf-points}
+
+Points count two things: enemy soldiers disabled and your own soldiers surviving. Per enemy soldier of tier N: **(1 + N) × 6** (light, heavy and fully lost all count). Per your surviving soldier of the same tier: **(1 + N) × 9**. So the qualifier rule is **clean wins over dirty wins** — a squad that wins while keeping most of its army and chains forward is premium. Tanks, survivability and balance across three squads beat a big total-might number.
+
+![Battle Points 积分规则](/img/dtf/supreme-duel/08.jpg)
+
+Good news: real troops never die and skip the infirmary — the game issues soldiers, so experimenting is free. But their tier is your **highest unlocked** (T9 vs T8 at similar heroes is already an edge). Before locking squads, finish a near-done troop tier — it buffs all three teams — then redistribute gear from an already-winning squad 1 to the tanks/carries of 2 and 3. Priority with thin resources: troop tier → weak tank → weak squad carry → gear.
+
+### 预选赛、复仇、季后赛 {#dtf-stages}
+
+Pre-bracket seeding spreads each kingdom's **top-8 by Might ranking** across groups so monsters don't meet round one — good for the whole kingdom since deeper runs mean more shared rewards. Preliminaries auto-match **8 comparable opponents over 4 days**, top 8 by Battle Points advance.
+
+![赛事阶段](/img/dtf/supreme-duel/05.jpg)
+
+![种子选手与预选赛](/img/dtf/supreme-duel/07.jpg)
+
+**Revenge (second chance):** 2 opponents a day for the first 3 days, then 1 a day; round-robin inside the group, no farming one comfy rival. Combat stays 3-team/2-wins. **Top 2 per group reach the playoff**, and from here a lost match ends the run. Rebuild lineups per series — one universal setup all tournament is a leak; scout factions, heroes, Raven, gear and put the cleanest-win squad where it wins cleanest.
+
+**Playoff:** series to 2 wins (max 3 matches); **final to 3 wins (max 5)**. Qualifier Battle Points and survivors no longer matter — series wins do, so tailor harder to the specific opponent with faction counters and hero allocation.
+
+### 预测、烟花与奖励用途 {#dtf-predictions}
+
+Elimination doesn't end the event: late stages open **Predictions** — pick expected winners for **Prediction Coins** in a separate shop. Up to **5 predictions a day**; don't bank on automatic refunds for wrong picks. Pure F2P value: guessing right is cheaper than becoming the winner.
+
+The parallel **Grand Celebration** spends **Supreme Fireworks** on a support track with chests: research speedups, universal UR shards, study scrolls, UR resource packs, plus Hermit Coins (e.g. 200/400/600 across rewards). Spend them inside the event, not as souvenirs — and claim before the qualifier transition, because celebration rewards reset at the next stage.
+
+![Grand Celebration 阶段奖励](/img/dtf/supreme-duel/09.jpg)
+
+Prizes start early: qualifier participation at **1, 2, 3, 5 and 10 wins** plus a ranking table (**1, 2–3, 4–8, 9–20, 21–50**), so playing on without top-8 chances still pays. **Kingdom rewards** scale with the kingdom's best runs — weak personal showings still collect when compatriots go deep. Revenge prizes step up with **universal Hero Awakening shards** for 1st/2nd/3–8th. Playoff and final hold the rarest loot: champion **avatar frame, animated emoji and Coronation** plus resources.
+
+![预选赛、复仇赛与季后赛奖励](/img/dtf/supreme-duel/11.jpg)
+
+Prep checklist: all three squads with front + damage (no "leftovers" third), troop tier finished, gear rebalanced, qualifier survival tuned (survivors outscore kills), then revenge/playoff counter-building per opponent.
+
+![Supreme Duel 备战计划](/img/dtf/supreme-duel/14.jpg)
+
+> 来源：[Last Asylum: Plague - Верховная дуэль: полный гайд. Советы, секреты, тактика.](https://dtf.ru/howto/5270517-verhovnaya-duel-v-last-asylum-plague-sovety-i-taktika)，作者：Гейм-Знаток，DTF。

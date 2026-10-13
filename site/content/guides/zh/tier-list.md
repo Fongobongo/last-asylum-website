@@ -2,7 +2,7 @@
 title: "🏆 英雄强度榜"
 description: "社区共识排名，针对典型的免费（F2P）/微氪玩家成长路径进行了权重调整。评级背景很重要：你今天拥有的 'B' 级 SSR，胜过三个月后才能拥有的 'S' 级 UR。"
 lang: zh
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: tier_list
 ---
 
@@ -199,3 +199,110 @@ PvE 遵循不同的逻辑：战斗时间长、持续伤害、治疗、生存能�
 - F2P / 微氪玩家能否切实将其培养成型？
 
 示例：红夫人 是顶级输出，但在没有前排的弱势阵容中，她还没启动就会阵亡。哈珀 的伤害数据并不亮眼，但在战士阵容中，他的重要性超过了另一个纯输出手。影 可以在对阵特定阵容时决定战局，但必须摆对位置。贝尔 在游侠阵容中很强，局外则较为逊色；妮可 在术士阵营中接近 S 级，但属于后期英雄；比利 克制控制能力极强，但比通用坦克更具情境局限性。
+
+## 🛡️ 阵容指南：通过队伍组合解读强度梯队 {#dtf-squad-guide}
+
+英雄绝非独立于团队存在：同一个角色在阵营专属队伍中表现出彩，在随机混编中平平无奇，而在错误的位置上则几乎毫无用处。本节将从队伍组合的角度解读强度梯队——谁来承伤前排、谁来打出伤害、谁来提供增援，以及究竟该构建哪些实战阵容。
+
+![英雄强度梯队与最佳阵容总览](/img/dtf/tier-list/01.jpg)
+
+### 阵营加成与混编格式 {#dtf-faction-bonus}
+
+阵营加成随投入深度而提升：
+
+- **3名同阵营英雄** — +5% 生命值/攻击力/防御力。
+- **3 + 2 混编** — +10% 生命值/攻击力/防御力。
+- **4名同阵营英雄** — +15% 生命值/攻击力/防御力。
+- **5名同阵营英雄** — +20% 生命值/攻击力/防御力。
+
+![UR英雄按阵营强度梯队：战士、游侠与术士](/img/dtf/tier-list/02.jpg)
+
+![3名、3+2、4名和5名同阵营英雄的阵营加成](/img/dtf/tier-list/03.jpg)
+
+纸面上看20%似乎最优，但5/5阵容并非总是最强：如果第五名英雄仅仅是为了凑加成而占位，那么搭配正确职责的4+1或3+2阵容往往更好。例如：四个强力战士加上一个培养良好的Cynthia（辛西娅），其战斗力就能超过一个第五人毫无贡献的全战士队伍。
+
+阵营克制对PVP至关重要：**战士受到术士的伤害降低20%，游侠受到战士的伤害降低20%，术士受到游侠的伤害降低20%。** 切勿为了克制而将整个账号死板定位——前排、输出和辅助永远是第一位的——但在被某种特定阵容统治的服务器中，克制关系确实能扭转战局。
+
+### 按职责划分的全部15位UR英雄 {#dtf-ur-roster}
+
+**战士（Warriors）：** Arthur（亚瑟，坦克——承伤前排，为队伍提供护盾）、Daskal（达斯卡——坦克，护盾、自我治疗，作为亚瑟身边的第二前排）、Marlena（玛琳娜，核心输出——能量伤害，通常是主力DPS）、Harper（哈珀，辅助——攻击力增益，补全战士核心）、Zoya（佐伊，核心输出——能量伤害、暴击、多目标压制）。
+
+**游侠（Rangers）：** Red Lady（红衣女，核心输出——打击高攻击力的危险目标、能量伤害、眩晕）、Cynthia（辛西娅，核心输出——能量之刃、暴击、多目标）、Bell（贝尔，辅助——治疗与攻击力增益，将游侠阵容凝聚在一起）、Shadow（暗影，坦克/削弱者——撕裂敌人防御、克制能量体系）、Louis（路易——坦克，自我治疗和减伤，擅长应对爆发/能量伤害）。
+
+**术士（Warlocks）：** Ulfrid（乌尔弗里德，坦克——减伤与反弹；在旧版指南中名为Brian，2026年7月更名）、Billy（比利，坦克——抗控、保护关键队友、对抗能量体系）、Joker（小 Joker，核心输出——斩杀低血量目标；在旧文章中名为Jester）、Annie（安妮，核心输出——燃烧与能量伤害）、Nicole（妮可，辅助——治疗、范围伤害、术士增益）。
+
+战士是最完整的阵营（双坦克、一辅助、双输出）。游侠是围绕压制危险目标构建的强力PVP阵营。术士虽然强大但需要后期发力——尤其是Nicole（妮可）登场之后。
+
+![按阵营、职责和功能划分的全部15位UR英雄](/img/dtf/tier-list/04.jpg)
+
+### 总体UR价值梯队 {#dtf-overall-tiers}
+
+这是一个实用的价值排名（即英雄在实用阵容中的出场频率），而非单纯的决斗模拟器：
+
+- **S级：** Arthur、Daskal、Marlena、Red Lady、Cynthia、Harper、Shadow。
+- **A+级：** Bell、Nicole、Ulfrid、Annie、Louis。
+- **A级：** Zoya、Joker、Billy。
+
+为什么位列S级：Arthur是最好培养的前排——如果前排迅速倒地，后排将永远打不出伤害。Daskal与Arthur并肩作战能让前排极其坚固。Marlena带来的能量伤害能够在战士及混编能量队伍中改变战斗节奏。Red Lady能对敌方主力输出造成压制。Cynthia在强力混编中可与Marlena和Red Lady完美搭配。Harper虽然很少在伤害面板上登顶，但却是战士阵容中的关键拼图。Shadow能够通过瓦解对手的战术来赢得战斗——兼具防御撕裂与抗能量科技。
+
+A+和A级并非弱势英雄，而是体系英雄。Bell在游侠阵容内部表现极佳，但在外部较弱。Nicole在术士阵容中接近S级但属于后期英雄——切勿围绕她构建开荒路线。Ulfrid是强力的术士坦克，比Arthur或Daskal更依赖阵营。Annie需要术士协同，而非随机混编。Louis是优秀的游侠坦克，但泛用性不如Arthur。Zoya通常扮演第二战士DPS，而非账号主角。Joker需要一个能快速削减目标血量的团队。Billy能够应对控制和能量伤害，但具有一定局限性。
+
+![总体UR英雄强度梯队，Arthur、Marlena、Red Lady和Shadow位列S级](/img/dtf/tier-list/05.jpg)
+
+### PVP与PVE环境对比 {#dtf-pvp-pve-reads}
+
+**PVP S级：** Arthur、Daskal、Marlena、Red Lady、Cynthia、Shadow、Harper。**A+级：** Louis、Ulfrid、Bell、Nicole、Annie。**A级：** Joker、Zoya、Billy。Red Lady和Shadow在此评级最高：Red Lady能点杀高攻击力目标，Shadow能撕裂防御并干扰能量队伍。Arthur + Daskal是最稳健的前排组合——他们负责争取时间而非单纯赢得战斗。Harper作为战士核心（Arthur + Daskal + Marlena）的一部分登场。
+
+![PVP英雄强度梯队，包含坦克、输出与辅助](/img/dtf/tier-list/06.jpg)
+
+**PVE S级：** Arthur、Marlena、Daskal、Harper、Nicole。**A+级：** Cynthia、Zoya、Annie、Bell、Ulfrid、Louis。**A级：** Red Lady、Shadow、Joker、Billy。Nicole排名上升是因为治疗与支援能赢得持久战；Red Lady排名下降是因为在面对首领时，点杀高攻击力目标和眩晕的效果不那么重要。Arthur、Daskal和Marlena在两种模式下都保持高位——前排和稳定的伤害在任何地方都是必需的。切勿盲目将PVP阵容复制到PVE中：请根据活动需求调整（阵营、伤害类型、生存能力优于爆发）。
+
+![适用于首领战与持久战的PVE英雄强度梯队](/img/dtf/tier-list/07.jpg)
+
+### F2P（零氪）与微氪优先级 {#dtf-f2p-priorities}
+
+核心问题不是“谁最强”，而是“我能切实培养谁”——缺乏碎片和星级的UR英雄上限提升极快：
+
+- **极高：** Arthur、Marlena、Daskal、Harper、Cynthia。
+- **高：** Red Lady、Shadow、Ulfrid、Annie。
+- **中/后期：** Bell、Louis、Nicole、Zoya、Joker、Billy。
+
+Arthur是默认的初始坦克。Marlena是性价比最高低氪伤害增幅。Daskal是第二前排。Harper补全了战士阵容。Cynthia开启了能量混编。低稀有度英雄可以填补过渡期：Bella（贝拉）作为第二前排，Celia（西莉亚）用于PVE和刷资源，Claire（克莱尔）作为过渡伤害/辅助——她是一座桥梁而非终点站，因此不要把稀有资源无节制地倾注在她们身上。F2P常见的错误是给所有人升级：只培养一支成型的五人小队，然后按位置逐一提升。
+
+![从初始英雄到UR阵容的F2P成长路径](/img/dtf/tier-list/08.jpg)
+
+### 最佳 5/5 纯阵营阵容 {#dtf-best-5-5}
+
+**战士 5/5 —— 最完整的阵营阵容。** Arthur、Daskal、Harper、Marlena、Zoya。前排：Arthur + Daskal。后排：Marlena + Harper + Zoya. 双坦克、一辅助加双输出，完整的+20%加成永不失效。稳定且直观；如果Zoya或Harper培养不足，搭配Cynthia或Red Lady的4+1阵容可能会更好。
+
+![最佳战士阵容：Arthur、Daskal、Harper、Marlena和Zoya](/img/dtf/tier-list/09.jpg)
+
+**游侠 5/5 —— PVP阵容。** Shadow、Louis、Bell、Red Lady、Cynthia。前排：Shadow + Louis。后排：Red Lady + Bell + Cynthia。Red Lady压制危险目标，Cynthia补充伤害，Bell提供支援，前排能够抵御能量威胁。节奏紧凑且控制力强，享受完整加成——但成本高且成型晚，不适合新手开荒。
+
+![游侠阵容：Shadow、Louis、Bell、Red Lady和Cynthia](/img/dtf/tier-list/10.jpg)
+
+**术士 5/5 —— 后期体系阵容。** Ulfrid、Billy、Nicole、Annie、Joker。前排：Ulfrid + Billy。后排：Annie + Nicole + Joker。具备良好的内部协同（燃烧、治疗、斩杀），但Nicole和Billy成型较晚——没有Nicole，这套阵容会失去很大意义。不建议作为新玩家的首要目标。
+
+![术士阵容：Ulfrid、Billy、Nicole、Annie和Joker](/img/dtf/tier-list/11.jpg)
+
+### 最佳 4+1 与 3+2 混编阵容 {#dtf-hybrid-squads}
+
+当强大的阵营核心加上一个外援能够击败弱势的同阵营第五人时，4+1混编便是不错的选择：
+
+- **死亡之墙（4战士 + Cynthia，+15%）。** Arthur、Daskal、Harper、Marlena、Cynthia。游戏中最稳健的阵容之一：战士前排与核心搭配Cynthia的能量压制。如果你的Cynthia练度超过Zoya，损失的5%加成完全可以通过强度弥补。
+
+![能量阵容：Arthur、Daskal、Marlena、Cynthia和Red Lady](/img/dtf/tier-list/12.jpg)
+
+- **战士核心 + Red Lady（4战 + 1游，+15%）。** Arthur、Daskal, Harper、Marlena、Red Lady。以战士为基础，加入Red Lady对高攻击力目标的PVP压制——是应对后排输出队的理想选择。她无法享受战士加成，因此必须具备足够练度来支撑其位置。
+
+3+2（+10%）是针对高练度英雄的实用混编模式：
+
+- **纯能量统治。** Arthur、Daskal、Marlena、Cynthia、Red Lady（3战 + 2游）。适合PVP与快节奏战斗的激进能量爆发；如果前排在没有传统辅助的情况下无法支撑，长线作战能力较弱。
+- **控制与崩解。** Arthur、Daskal、Marlena、Shadow、Cynthia（3战 + 2游）。Shadow提供防御撕裂与抗能量控制，让Marlena和Cynthia将输出窗口转化为伤害——比Red Lady版本更擅长应对扛过首轮爆发的密集敌方阵容，但点对点压制力略低。
+- **术士压制。** Ulfrid、Nicole、Annie、Arthur、Marlena（3术士 + 2战士）。适合正朝着该方向培养账号的过渡型术士阵容；Nicole在周围有更多术士时会大放异彩。
+
+当混编阵容能够解决特定任务时（例如由Arthur + Louis担任前排，搭配Marlena、Red Lady和Joker负责收割），即使没有完美的加成也完全可行。如果只是盲目凑出五个最喜欢的UR却完全不考虑职责分工，那就不能称之为策略。推荐的从零构建顺序：Arthur → Marlena → Daskal → Harper → Cynthia 或 Red Lady（稳定的能量DPS与PVP压制二选一）→ Shadow → Nicole。最安全的默认选择：战士 5/5。激进PVP：Arthur + Daskal + Marlena + Cynthia + Red Lady。控制PVP：Arthur + Daskal + Marlena + Shadow + Cynthia。后期术士：Ulfrid + Billy + Nicole + Annie + Joker。
+
+![完整英雄强度梯队：阵营、职责、PVP、PVE、F2P优先级与最佳阵容](/img/dtf/tier-list/13.jpg)
+
+> 来源：[Last Asylum: Plague - актуальный тир-лист героев и лучшие пачки](https://dtf.ru/howto/5095947-last-asylum-plague-tir-list-geroev-i-luchshie-pachki)，作者为 DTF 上的 Гейм-Знаток。

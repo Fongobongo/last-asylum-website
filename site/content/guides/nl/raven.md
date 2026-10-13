@@ -2,7 +2,7 @@
 title: "Raven- en epigraafsysteem"
 description: "Raven-niveaus en plannen, uitrustingsstrategie, zeldzaamheden en promotievolgorde van epigraven, en de regels voor één enkele factie die bepalen welke epigraven het waard zijn om te upgraden."
 lang: nl
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: raven
 infographics: ["/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
 ---
@@ -205,3 +205,43 @@ De Valkentoren wordt elke 6 uur vernieuwd: er komt een nieuwe batch speurtochten
 Het hamsteren van speurtochten loont alleen voor het Alliantieduel: op dag één, drie en vijf levert elke ingeleverde Valken-speurtocht 10.000 punten op. Spelers voltooien een speurtocht maar laten de beloning onbehaald, en deze blijft in de zichtbare lijst staan met een rode stip tot de juiste dag. Volgens observaties van spelers vervalt een voltooide speurtocht nooit, verdwijnt een onvoltooide na 8 uur, en tellen de speurtochten van rondzwervende vervuiling niet mee voor de opslag.
 
 De limiet van dergelijke hamsterpraktijken is de zichtbare speurtochten plus de opslag, en de opslag vult zich in minder dan een dag: 30 uur op torenniveau één, 18-24 uur vanaf niveau vijf. Daarna wordt elke vernieuwing verspild, terwijl de toren van 24 speurtochten per dag op niveau één tot 52 op niveau vijftien uitdeelt. Langer dan een dag hamsteren loont daarom niet: op dueldagen twee en vier worden speurtochten voltooid en bewaard, op dag één, drie en vijf wordt alles ingeleverd, en in het weekend worden beloningen in één keer geclaimd. Hamsteren heeft geen invloed op het torenniveau, het vertraagt het alleen maar.
+
+---
+
+## Raven Leveling Without Mistakes: Workshop, Nest, Epigraphs, Routine {#raven-dtf-leveling}
+
+Veldnotities uit de DTF-levelinggids: de Raven leeft op drie plekken, niet één — en volgorde is belangrijker dan snelheid.
+
+**De drie gebouwen.** De Raven Workshop is achtergrondproductie: het genereert materialen over tijd zonder spectaculaire uitbetaling, maar de voortgang stokt zonder. Het Raven Nest is het hoofdscherm — level, evolutie, nieuwe fasen en squad-bindingen. De Epigraph Workshop is waar de meeste verkeerde keuzes worden gemaakt: één slechte craft- of slotbeslissing blijft ofwel bij je als een zwakke bonus of kost een reset.
+
+![Overzicht van het Ravensysteem](/img/dtf/raven/01.jpg)
+
+**Levels versus evolutie.** De Raven stijgt in level op Raven Fruit en evolueert op Raven Essence, waarbij een evolutiestap elke 10 levels de volgende voortgangslaag ontgrendelt. Essence is de beperkende factor: Fruit komt gestaag binnen via routinematig spelen, Essence voelt altijd krap aan. Houd de volgende evolutiedrempel goed in de gaten — levels zonder hun evolutiestap lopen al snel tegen een plafond aan.
+
+![Raven-heldenscherm](/img/dtf/raven/02.jpg)
+
+**Gear: bouw de basis, versterk dan.** Open geen kisten en stamp upgrades niet erin zodra ze vallen. Stel eerst de volledige set gelijkmatig samen, voeg dan duplicaten samen en verhoog de gear weloverwogen. Sommige upgrades zijn afhankelijk van een volgorde — andere slots moeten een bepaald level bereiken voordat een stuk opent — dus één slot vroeg maxten laat gaten achter op andere plekken. Beschouw gear als een uitrusting, niet als een loterij.
+
+![Raven-gearscherm](/img/dtf/raven/03.jpg)
+
+**Dagelijkse bronnen.** Controleer elke dag: Alliantiewinkel (allerlei Raven-materialen), VIP-winkel (Essence en kisten voor diamanten), Expeditiewinkel (hogere Raven-kisten), Erewinkel (zeldzame laat-fase kisten), Heiligdomwinkel (Essence op rotatie). Koop alleen wat je huidige taak oplost — alles vegen met het label "Raven" levert inventaris op zonder voortgang. Benoem het tekort expliciet voordat je iets uitgeeft: materialen voor de Epigraph Workshop of duplicaten om samen te voegen.
+
+**Epigraph-drempels.** Paarse epigraphs ontgrendelen bij Epigraph Workshop level 15 — daarvoor zit je niet echt in het systeem. UR epigraphs komen later, in de volgende workshopfase met duurdere materialen. Epigraph-bonussen zijn alleen van toepassing op het bijbehorende squadtype: als je hoofdsquad Warriors zijn, kost het craften van Ranger-epigraphs "voor de toekomst" schaarse materialen voor nul directe opbrengst. Kies de fractie die je daadwerkelijk inzet, vul één set en laat andere sets met rust totdat de kern klaar is. Binnen een set verschillen de slots (aanval / verdediging / ondersteuning / algemeen midden) — los eerst de fractie op en pas daarna aan op behoefte: een gebrek aan schade betekent de aanvalsloot pushen, een instortende squad betekent verdediging, en de algemene slot betekent een gelijkmatige boost.
+
+![Epigraphs als het sterkste en gevaarlijkste onderdeel van het systeem](/img/dtf/raven/04.jpg)
+
+![Epigraph-slots voor Warriors, Rangers en Sorcerers](/img/dtf/raven/05.jpg)
+
+**Duplicaten zijn brandstof.** Een tweede kopie van de juiste epigraph is geen slechte drop — identieke epigraphs verhogen de sterren van het bestaande stuk, en voor UR-stukken zijn exacte duplicaten van het juiste item de waardevollingste bron in de reeks. Duplicaten van het verkeerde type wachten of gaan door de reset-herverdeling; duplicaten van het juiste type krijgen sterren.
+
+![Dubbele epigraphs als brandstof voor groei](/img/dtf/raven/06.jpg)
+
+**Evolutie ontgrendelt squads.** Evolutie is niet alleen statistieken: het ontgrendelt extra squad-slots. Je begint met slechts de eerste squad, het tweede slot opent bij de volgende evolutiefase en de vereisten blijven stijgen. Dat is nog een reden om vroeg te kiezen voor je sterkste squad — er is fysiek nergens ruimte om te spreiden aan het begin.
+
+![Squad-slots ontgrendeld door Raven-evolutie](/img/dtf/raven/07.jpg)
+
+**Reset bestaat.** Slechte crafts zijn herstelbaar: reset draait een upgrade terug en geeft de materialen terug voor herverdeling. Dit is het handigst wanneer je van hoofdsquad-klasse wisselt, uit een tijdelijke squad groeit of in het begin de verkeerde epigraph hebt gekozen. Het verlaagt de kosten van een fout; het maakt blind craften niet gratis.
+
+**Dagelijkse routine.** Controleer de winkels, houd de volgende evolutie in gedachten, ontwikkel alleen het epigraph-type van je hoofdsquad en reset fouten in plaats ermee te leven. Als dagelijkse loop versterkt de Raven zichzelf; gespeeld in spurts voelt het duur en vaag aan.
+
+> Bron: [Last Asylum: Plague - полный гайд по Ворону. Как качать без ошибок, что делать с эпиграфами.](https://dtf.ru/howto/5016737-last-asylum-plague-gayd-po-prokachke-vorona) door Гейм-Знаток op DTF.

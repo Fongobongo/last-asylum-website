@@ -2,7 +2,7 @@
 title: "Economia: Diamantes, Lojas, Saque"
 description: "Para onde vai cada diamante: prioridades da loja VIP, cronograma de reposição, ordens de compra por loja, orçamentos da Roda dos Desejos e as mecânicas completas de saque com limites diários por nível de Santuário."
 lang: pt
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: economy
 infographics: ["/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
 ---
@@ -161,3 +161,46 @@ Caravanas e Operações Secretas são sistemas separados do saque e evitam todas
 
 - **Caravanas** — sua renda de troca automatizada. Mantenha-as em movimento.
 - **Operações Secretas** — você pode saquear as Operações Secretas de até 5 outros jogadores por dia. Operações Secretas Douradas pagam as melhores recompensas — sempre pegue uma dourada quando vir uma.
+
+## Gastos Inteligentes: Mire Cada Compra {#smart-spending}
+
+![Estratégia de gastos planejados em Last Asylum](/img/dtf/economy/01.jpg)
+
+No início, o jogo leva você sozinho — toque, colete, desbloqueie —, mas passado o primeiro trecho, a mesma rotina para de se converter em poder: as derrotas no PvP se acumulam, os melhoramentos se estendem por horas, as sessões travam por falta de energia. Tentar resolver isso na força bruta com mais logins quase não muda nada. Os gastos começam a ajudar apenas quando deixam de ser aleatórios. A regra em que os jogadores experientes concordam é simples: **não é o quanto você investe, mas exatamente onde**. Cada compra deve responder a uma pergunta: *o que estou fortalecendo agora?*
+
+Por volta dos níveis intermediários, a pressão vem de todos os lados: parece haver mais recursos, mas algo específico está sempre faltando — materiais para um herói ou tempo para a base — enquanto os rivais já parecem mais fortes. É aí que a conhecida vontade de "comprar só um pouquinho" leva aos erros clássicos: pacotes de sorte, colecionar heróis aleatórios, alternar entre PvP e PvE. O resultado é uma conta que cresce, mas não é forte em lugar nenhum: sem dano no PvP, sem estabilidade no PvE. O ponto de virada é o foco em um único objetivo — arena ou conteúdo —, para que cada investimento trabalhe em direção a ele e o jogo comece a "responder" com vitórias mais constantes.
+
+### A escada de prioridades
+
+- **Pacotes iniciais e especiais primeiro.** A maneira mais rápida de sentir a diferença: um herói forte mais recursos para a base de uma só vez tornam o PvE estável imediatamente, sem travamentos repetidos em fases comuns.
+- **Energia em segundo lugar.** Parece pouco importante no início, mas a energia decide o quanto você realmente joga — farm, missões, crescimento da base. Com o suficiente dela, o progresso deixa de ser acidental e passa a ser regular.
+- **Assinaturas e bônus diários em terceiro.** Trata-se de estabilidade: uma base de recursos a cada login, planejamento de melhorias mais fácil, sem perda de ritmo.
+- **Meio de jogo: heróis raros e materiais de melhoria de equipamentos.** Exatamente as coisas que impulsionam visivelmente tanto o PvE quanto o PvP.
+- **Fim de jogo: pacotes de temporada e aceleradores.** Eles mantêm você no topo, onde o farm comum já não é suficiente.
+
+![Gastos constantes e sensatos que aceleram o progresso](/img/dtf/economy/02.jpg)
+
+### O que pular
+
+- **Cosméticos** — efeito zero em combate.
+- **Baús aleatórios** — sorte ocasional, principalmente itens de preenchimento que criam uma ilusão de progresso sem ganho real.
+- **Pequenos bônus de curta duração** — um efeito real por uma noite, quase invisível ao longo de um mês.
+- **Heróis duplicados que não alimentam nada** — se eles não fortalecem o elenco, são apenas decoração.
+
+Cortar isso elimina a dispersão: os gastos tornam-se equilibrados e controláveis, e cada investimento é perceptível.
+
+### Os eventos são o ponto de crescimento
+
+Os eventos contêm as recompensas mais difíceis de farmar por meios normais — materiais raros, itens úteis e, às vezes, heróis fortes. A abordagem que compensa: prepare-se com antecedência em vez de ir às cegas, não limite suas próprias tentativas (traga os bilhetes), conclua as missões totalmente em vez de pela metade e reivindique todas as recompensas principais. Cronometrados dessa forma, os gastos espremem o máximo de um momento específico em vez de apenas "acelerar alguma coisa".
+
+![Cronometrar os gastos com eventos para obter o máximo de recompensas](/img/dtf/economy/03.jpg)
+
+### Lista de verificação para gastos inteligentes
+
+1. Pacotes iniciais e energia primeiro — um herói forte e um fluxo constante de recursos.
+2. No meio de jogo, mire em heróis raros e materiais de equipamentos.
+3. No fim de jogo, pacotes de temporada e aceleradores para o topo.
+4. Economize em bobagens: cosméticos, baús aleatórios, microbônus.
+5. Planeje-se em torno dos eventos — o retorno máximo por investimento acontece lá.
+
+> Fonte: [Last Asylum: Plague - как донатить с умом и ускорить прогресс в 2026](https://dtf.ru/moneysaver/4850017-last-asylum-plague-kak-effektivno-donatit-i-uskorit-progress) por Гейм-Знаток no DTF.

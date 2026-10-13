@@ -2,7 +2,7 @@
 title: "Tranh Đoạt Tiên Dược: Bí Quyết Giành Chiến Thắng"
 description: "Chiến trường liên minh đối đầu kéo dài 30 phút: năm giai đoạn, tính điểm dựa trên việc chiếm giữ, ưu tiên Lều Hồi Mục, quy tắc dịch chuyển và sai lầm chết người ở tường thành khiến bạn thua sạch chỉ trong 10 phút."
 lang: vi
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: elixir
 calculators: []
 infographics: ["/infographics/elixir-guide.webp", "/infographics/elixir-strategy.webp"]
@@ -359,3 +359,66 @@ Cấp Kháng rất quan trọng để chiến đấu với Quái Vật kỷ nguy
 ### Thuộc Tính Kháng (RES Attribute)
 
 Kháng (RES) là thuộc tính duy nhất để chiến đấu với Quái Vật kỷ nguyên. Mỗi Quái Vật có thuộc tính kháng riêng của nó. Khi chỉ số kháng của bạn vượt quá kháng của Quái Vật, bạn sẽ đánh bại chúng một cách dễ dàng; nếu chỉ số kháng của bạn thiếu hụt, bạn sẽ phải đối mặt với bất lợi hoặc thậm chí thất bại trong trận chiến.
+
+---
+
+## Chiến thuật thực chiến: Đội hình, Công trình và Nhận thức Bản đồ {#field-tactics}
+
+Sức mạnh rất quan trọng trong Elixir Scramble, nhưng nó quyết định ít hơn nhiều so với việc tổ chức. Một liên minh mạnh hơn sẽ thua một liên minh yếu hơn nhưng biết kiểm soát Cổng Di Dời (Migration Gates), thu thập điểm rơi và không bao giờ để dồn tướng vào một lều duy nhất. Sự kiện diễn ra vào các ngày **Thứ Sáu**; ban lãnh đạo liên minh thường phân công vai trò trước — Cổng, lều, giả kim, trung tâm — và thư kế hoạch thực sự rất đáng đọc. Một người chơi năng nổ luôn đánh bại một người vắng mặt đã đăng ký: các công trình trống và đồng đội làm việc đúp sẽ bám theo những người vắng mặt.
+
+![Kế hoạch trận chiến liên minh cho Elixir Scramble](/img/dtf/elixir/01.jpg)
+
+### Thiết lập ba đội hình theo vai trò, không chỉ theo sức mạnh {#squad-roles}
+
+- **Đội hình 1 luôn là mạnh nhất** — đội hình chính tiêu diệt các đối thủ mạnh và giữ các công trình quan trọng.
+- **Đội hình 2 và 3 có thể là đội hình kỹ thuật nhẹ — chỉ với một tướng duy nhất.** Đánh bật kẻ địch bằng lực lượng chính, sau đó đỗ một đội hình giá rẻ tại điểm đó và giải phóng Đội hình 1 cho đợt tấn công tiếp theo. Nếu chủ sở hữu yếu bị đánh bật, tổn thất sẽ nhỏ hơn rất nhiều.
+- Một bên chiến đấu, một bên giữ, một bên hỗ trợ hoặc chiếm thêm điểm.
+
+![Thiết lập đội hình thứ nhất, thứ hai và thứ ba trước cuộc đua](/img/dtf/elixir/02.jpg)
+
+### Kiểm tra tường thành — và mẹo nhử trinh sát {#wall-scout-trick}
+
+Mở phòng thủ pháo đài trước trận đấu: **chỉ để lại đội hình mạnh nhất trên tường, rút Đội hình 2–3 xuống.** Chống lại kẻ tấn công mạnh hơn, các đội hình tường yếu là những tổn thất miễn phí — vài nghìn lính biến mất ở đây và ở đó, sau đó Đội hình 2 tồn tại về mặt tinh thần hơn là thể xác. Chống lại đối thủ yếu hơn, tường của Đội hình 1 tự chiến thắng. Và nếu một cỗ máy không thể cản phá đang tiến đến, **hãy rút tất cả ra và để chúng đốt cháy một pháo đài trống** — giữ lại quân đội quan trọng hơn giữ vị trí.
+
+![Bố trí đội hình tường thành](/img/dtf/elixir/03.jpg)
+
+Mẹo trinh sát: nếu trinh sát của địch đang đến, **hãy rút Đội hình 1 khỏi tường trong vài giây** để báo cáo hiển thị một pháo đài trống, sau đó đặt lại. Một kẻ tấn công bốc đồng sẽ lao thẳng vào hàng phòng thủ đầy đủ. Không phải phép thuật — những cựu chiến binh nhìn thấu nó — nhưng nó hoạt động rất hiệu quả với những kẻ tự động tấn công.
+
+### Ưu tiên công trình từ kinh nghiệm {#building-priority}
+
+Đừng cố giữ mọi thứ với tám người chơi hoạt động và mười một điểm — hãy giữ những điểm chính:
+
+- **Cổng Di Dời (Migration Gates) — phòng thủ từ đầu.** Hồi chiêu di chuyển tức thời −50% có nghĩa là đến hỗ trợ đúng giờ, chiếm lại các công trình bị mất, thoát khỏi các cuộc tấn công tồi tệ và dịch chuyển tức thời ra phía sau ai đó đã di chuyển toàn bộ quân đội ra ngoài. Đặt một người chơi mạnh vào Cổng; nếu họ phải rời đi, hãy để lại ít nhất một người giữ kỹ thuật yếu. Trường hợp xấu nhất: thắng trận chiến Cổng trong năm phút, sau đó cả hai người chơi mạnh đều bay đi và bỏ trống nó.
+- **Lều Chữa Bệnh (Healing Tents - tổng cộng 4) — giữ ít nhất hai lều vào giữa trận.** 15 lính bị thương mỗi 10 giây (nhận qua nút bấm) có vẻ nhỏ cho đến khi cả hai bên đã đổi chỗ cho nhau và Đội hình 2 không còn ai để cử đi. Chữa bệnh theo đợt nhỏ để kiểm soát chi phí tăng tốc.
+- **Xưởng Giả Kim (Alchemy Workshops) — thu nhập ổn định, không có bùa lợi** (~50 điểm/giây mỗi xưởng). Tốt một khi các điểm chính đã được giữ và đội có thêm người — không bao giờ đáng để đánh đổi Cổng hoặc trung tâm.
+- **Đài Thiên Văn (Observatory) — +10% thu nhập từ các công trình được giữ.** Tỷ lệ thuận với việc kiểm soát bản đồ: tuyệt vời ở nửa bản đồ, yếu ở hai trên mười điểm.
+- **Trung tâm (mở cửa khoảng phút thứ 10): Lâu đài Elixir + Thánh vật Chiến tranh + Bàn thờ Nguyền rủa.** Lâu đài là điểm phong phú nhất trên bản đồ (~80 điểm/giây) — chuẩn bị cho những người chơi mạnh khoảnh khắc này. Thánh vật bùa lợi cho phe bạn, Bàn thờ làm suy yếu kẻ thù (kiểm tra tỷ lệ phần trăm chính xác trong trò chơi, sự cân bằng thay đổi). Nhắm đến Lâu đài cộng với một điểm chiến đấu — **mà không bỏ rơi mọi thứ**: việc chiếm trung tâm đẹp mắt trong khi kẻ thù chiếm Cổng, hai lều, giả kim và Đài thiên văn vẫn hiển thị là thua trên bảng tỷ số.
+
+![Lâu đài Elixir, Thánh vật Chiến tranh và Bàn thờ Nguyền rủa sau khi trung tâm mở cửa](/img/dtf/elixir/04.jpg)
+
+### Các điểm nằm trên mặt đất {#dropped-points}
+
+Sau khi chiếm giữ, **hộp cứu thương tích tụ cạnh công trình** (bắt đầu sau ~một phút, tăng lên khi được giữ). Nếu điểm lật, kho dự trữ sẽ **phân tán và bất kỳ ai cũng có thể nhặt được** — bao gồm cả bạn. Năm đến chín nghìn điểm nằm xung quanh một công trình có thể quyết định một trận đấu sít sao:
+
+- Theo dõi kho dự trữ dưới các công trình của bạn; nếu bạn sắp mất điểm, hãy sẵn sàng quay lại và thu thập phần rơi ra.
+- Một công trình của kẻ địch có đống điểm lớn và chủ sở hữu có thể đánh bại trở thành mục tiêu ưu tiên.
+- **Trinh sát nhanh là những người thu thập điểm**: những người giữ điểm nhàn rỗi nên quét tìm các giọt màu vàng và chạy đua với trinh sát đến đó (của bạn so với của họ có thể nhìn thấy bằng màu sắc). Nâng cấp tốc độ trinh sát tự trả giá ở đây.
+
+![Thu thập hộp cứu thương và điểm xung quanh các công trình đã chiếm](/img/dtf/elixir/05.jpg)
+
+### Thói quen giữa trận giúp chiến thắng các trận đấu {#mid-fight-habits}
+
+- **Đội hình mạnh chiến đấu, đội hình yếu giữ.** Không bao giờ để quân đội giỏi nhất canh gác một căn phòng không bị tranh chấp trong mười phút — hãy đưa nó quay lại khi một kẻ địch nghiêm trọng tiếp cận người giữ yếu.
+- **Bắt pháo đài bị làm trống.** Khi cả ba đội hình địch hành quân ra ngoài, hãy dịch chuyển tức thời vào và đánh vào ngôi nhà trống rỗng — ngay cả việc ép đội hình chính quay lại cũng là một chiến thắng.
+- **Trinh sát các mục tiêu xa trước.** Một cuộc hành quân dài vào một pháo đài chưa biết biến mất là một chuyến đi lãng phí; nếu một người chơi cứ đánh bại bạn, hãy đổi mục tiêu với đồng minh thay vì chứng minh một điểm lần thứ hai mươi.
+- **Hết lính? Vẫn ở lại trong sự kiện.** Các **trại muộn trả ~5 điểm/giây mỗi trại** — ba trại là 15/sec, tốt hơn là không có gì. Tiếp tục thu thập hộp cứu thương, trinh sát và chiếm các điểm trống bằng các đội hình kỹ thuật; những người chơi gần như không có quân đội đã đứng đầu bảng xếp hạng thu thập theo cách này.
+- **Đọc trò chuyện.** Các cuộc gọi ngắn ("cổng trống", "cần trung tâm", "không thể phá vỡ", "lấy hộp cứu thương") là một phần của chiến thuật — hãy yêu cầu đổi chỗ sớm thay vì nuôi kẻ địch mạnh hơn trong mười phút.
+- **Kiểm tra báo cáo sau trận đấu, không chỉ thứ hạng của bạn.** Số lượng tiêu diệt gây hiểu lầm; người chơi lặng lẽ lấy điểm miễn phí và thu thập đồ rơi thường vượt qua kẻ cãi lộn. Tham gia cũng trả **Huy chương Danh dự**, có thể tiêu trong cửa hàng sự kiện (nguyên liệu, bản thiết kế trang bị) — xem lại số liệu thống kê trước khi đóng cửa sổ.
+
+![Thu thập điểm từ các trại muộn trong trận chiến](/img/dtf/elixir/06.jpg)
+
+![Kết quả sau trận chiến: thu thập, chiếm giữ và chiến đấu](/img/dtf/elixir/07.jpg)
+
+Những sai lầm phổ biến cần tránh: bỏ qua thư kế hoạch, phòng thủ bằng đội hình tường yếu, bỏ các điểm cũ để lấy trung tâm cùng một lúc và quên đi chiến lợi phẩm trên mặt đất. Theo dõi điểm số trên giây trong suốt trận đấu — bạn có thể đốt cháy năm người chơi một cách đẹp mắt và vẫn thua sự kiện.
+
+> Nguồn: [Гонка за эликсиром в Last Asylum: Plague - тактика и стратегии](https://dtf.ru/howto/5338769-gonka-za-eliksirom-v-last-asylum-plague-taktika-i-strategii) bởi Гейм-Знаток trên DTF.

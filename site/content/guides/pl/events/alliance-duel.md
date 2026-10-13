@@ -2,7 +2,7 @@
 title: "Pojedynek Sojuszu: Kompletny przewodnik"
 description: "Sześć dni kategorii punktowych, sobotni finał PvP, mechanika poszczególnych faz z dokładnymi wartościami punktowymi, kumulowanie zadań Sokoła oraz oszczędzanie wszystkiego, co pozwala zdobyć najwyższą skrzynię."
 lang: pl
-updated: "2026-09-18"
+updated: "2026-10-12"
 videoTopic: alliance_duel
 calculators: []
 infographics: ["/infographics/duel-day-guide.webp", "/infographics/duel-savings.webp", "/infographics/falcon-tower-storage.webp"]
@@ -361,3 +361,65 @@ Zweryfikowane wartości z danych klienta gry (w1.0.87), źródło: wiki-last-asy
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does the Alliance Duel research tree do?", "acceptedAnswer": {"@type": "Answer", "text": "It multiplies event points (Arena Expert +100%, Arena Master +50%) and unlocks the tier 7–9 chests with top rewards."}}, {"@type": "Question", "name": "What is the single highest-value action in Alliance Duel?", "acceptedAnswer": {"@type": "Answer", "text": "Dispatching a UR trade caravan for 100,000 points on Phases 2 and 6, then a UR covert op for 75,000."}}]}
 </script>
+
+---
+
+## Pojedynek Sojuszy dzień po dniu: Kalendarz polowy (DTF) {#dtf-calendar}
+
+Pojedynek trwa prawie cały tydzień ze zmiennym systemem naliczania punktów: poniedziałek – energia/zasoby, wtorek – budowa, środa – badania, czwartek – bohaterowie, piątek – szkolenie wojska, sobota – KvK. Błędem początkujących jest wydawanie wszystkiego w momencie otrzymania – zadania Falcona odbierane w niedzielę, skrzynie Ravena otwierane we wtorek, antytoksyna spalana w poniedziałek, masowe szkolenie w środku tygodnia. Konto rośnie, ale pojedynek prawie z tego nic nie dostaje. Zamiast tego gromadź zasoby na dany dzień.
+
+![Poradnik Pojedynek Sojuszy dzień po dniu](/img/dtf/alliance-duel/01.jpg)
+
+### Najpierw technologia pojedynku {#dtf-tech}
+
+Gałąź pojedynku w Laboratorium mnoży punkty wewnątrz wydarzenia, co taniej kosztuje w każdym przyszłym tygodniu. Najlepiej rozwijać ją w **środę**, kiedy przyspieszenia badań, zwoje i przyrost potęgi technologii dają punkty jednocześnie. W pierwszej kolejności buduj technologie pojedynku, a następnie Elitarne Wojska i Transport Karawaniarski, jeśli również wymagają specjalnych zwojów – jedno takie badanie daje punkty za zwoje + przyspieszenia + potęgę naraz (np. 1280 zwojów przy ~750 pkt ≈ 960 000 przed przyspieszeniami i potęgą). Całej gałęzi nie zamkniesz w tydzień, ale nawet kilka poziomów przybliża osobiste skrzynie i oszczędza przyspieszenia.
+
+### Poniedziałek: Falcon, energia, zbieranie, Raven {#dtf-monday}
+
+Zadania Falcona wykonane w niedzielę pozostają nieodebrane: rozwinięta Wieża Falcona mieści dziesiątki ukończonych zleceń plus zapasy na ekranie, więc poniedziałek zaczyna się od dużej, gotowej partii (przy ~30 000 pkt za każde, 40–50 zgromadzonych zadań to poważny start – ale nie przepełniaj magazynu, bo nowe zlecenia się nie zapiszą). Główny marsz spala najpierw naturalną energię na Zarazie/złodziejach/celach z mapy, potem butelki, a na koniec tanie odnowienia za diamenty – sprawdź lukę do następnej skrzyni przed wykupieniem sklepu. Pozostałe marsze zbierają zboże/drewno/zioła z pól na mapie; produkcja w twierdzy się nie liczy, liczą się tylko dostawy z mapy.
+
+![Zgromadzone zadania Falcona przed pojedynkiem](/img/dtf/alliance-duel/02.jpg)
+
+Zostaw antytoksynę na czwartek; wydaj w poniedziałek tylko tyle, żeby dobić do skrzyni. Magazynuj Owoce Ravena i Esencję przez cały tydzień i wydaj je w poniedziałek – ulepszenia statystyk Ravena oraz skrzynie Epigrafu dają sporą pulę punktów. Zostaw skrzynie ze sprzętem Ravena na środę. Po cotygodniowym resecie sprawdź sklep Honoru pod kątem schematów, Esencji i przyspieszeń.
+
+### Wtorek: budynki, karawany, ocaleni {#dtf-tuesday}
+
+Punkty pochodzą z przyspieszeń budowy (~150/min), ale główną wygraną są gotowe budynki pozostawione z ikoną młotka: przyrost potęgi ukończonego budynku (np. 5300 potęgi przy 30 pkt ≈ 159 000) punktuje po kliknięciu, więc odbierz przygotowane Sanktuarium/Laboratorium/placyki/koszary we wtorek rano. Priorytetowo traktuj drogie budynki. Nie zamrażaj całej gospodarki: ukończonej farmy/tartaku/klombu nie można zebrać, gdy są pod młotkiem, więc zostaw po jednym z każdego typu (oraz jeden warsztat manualny) zablokowanym, aby produkcja szła dalej.
+
+![Przyrosty potęgi budynków we wtorek](/img/dtf/alliance-duel/03.jpg)
+
+Zdobądź tytuł **Ministra Budownictwa** przed długimi ulepszeniami (duże skrócenie czasu przy wysokim Sanktuarium; kolejka na start na zatłoczonych serwerach). Puszczaj karawany i tajne operacje na złoto, najpierw za darmowe odnowienia, a potem za kryształy – jedna dobra karawana ≈ 300 000. Zatrudniaj ocalonych w Tawiźnie (nie przywołania bohaterów – to inna mechanika i linia nagród).
+
+### Środa: badania i sprzęt Ravena {#dtf-wednesday}
+
+Przyspieszenia badań, potęga technologii, specjalne zwoje i skrzynie ze sprzętem Ravena. Zostaw wtorkowe zadania Falcona nieodebrane, aby zacząć środę z gotową partią.
+
+![Środowe badania i sprzęt Ravena](/img/dtf/alliance-duel/04.jpg)
+
+Priorytet: gałąź pojedynku, potem Elitarne Wojska / Transport Karawaniarski – technologie kosztujące zwoje płacą najlepiej. Zbieraj skrzynie ze sprzętem Ravena przez cały tydzień i otwórz je w środę; wyższa jakość daje więcej punktów, a potem masowo łącz sprzęt Ravena, aby zyskać punkty ze skrzynek i potęgę sprzętu. Nigdy nie otwieraj ich od razu po otrzymaniu.
+
+![Wydawanie zwojów na środowe badania](/img/dtf/alliance-duel/05.jpg)
+
+### Czwartek: przywołania i rozwój bohaterów {#dtf-thursday}
+
+Punkty za bilety przywołań w Tawernie, fragmenty, awanse gwiazdek, odznaki umiejętności i antytoksynę. Gromadź bilety, osobiste fragmenty, odznaki umiejętności i antytoksynę na ten dzień. Losowania w Tawernie dają bohaterów oraz osobiste fragmenty wylosowanych bohaterów – nie uniwersalne fragmenty, które muszą pochodzić z wydarzeń/sklepów. Losuj dziesiątkami, gdy pozwalają na to bilety. Kolejność: **gwiazdki u głównych bohaterów → odznaki umiejętności → antytoksyna na poziomy**. Karm pierwszy oddział, a nie cały skład; wydawaj osobiste fragmenty na główną drużynę i oszczędzaj uniwersalne dla silnych/rzadkich bohaterów.
+
+![Awansowanie gwiazdek i umiejętności bohaterów w czwartek](/img/dtf/alliance-duel/06.jpg)
+
+Najpierw sprawdź etap bohaterów w Bitwie o Przetrwanie – te same fragmenty/odznaki/antytoksyna mogą dawać punkty w obu wydarzeniach. Czwartek zazwyczaj zamyka się najszybciej: przywołaj, rozwinij główny skład, odbierz nagrody.
+
+### Piątek: wojsko oraz Królewska Awantura {#dtf-friday}
+
+Szkolenie i awanse, a tego samego dnia Królewska Awantura – armia musi zdobywać punkty i walczyć. Odbierz poranne, zachowane z czwartku zadania Falcona, a potem skup się na placach. Zostaw przyspieszenia budowy/badań na następny tydzień, chyba że do skrzyni brakuje punktów. Weź tytuł **Ministra Wojny**; użyj słabych placów do masowej produkcji wojsk średniego poziomu (np. duża partia T6), a następnie przeszkol je na T9 na głównym placu – czasami wychodzi to szybciej niż czyste T9. Zgromadź wcześniej słabe wojska i przyspieszenia szkolenia; zaczynanie w piątek to za późno na duże awanse.
+
+![Piątkowe szkolenie wojsk i Królewska Awantura](/img/dtf/alliance-duel/07.jpg)
+
+### Sobota: KvK, leczenie, tarcze {#dtf-saturday}
+
+Otwiera się KvK: teleportuj się do wrogiego królestwa, uderzaj w twierdze, zabijaj wojska dla punktów bitewnych. Ataki na rywala z pojedynku zazwyczaj dają najwięcej, ale liczą się też inne walki w KvK. Przed wylotem: główny marsz, teleports, miejsce w szpitalu, zapasy tarcz – sobota płaci najwięcej i najszybciej zeruje konto. Przyspieszenia leczenia również dają punkty, więc ranni odstawieni przed sobotą mogą poczekać na ten etap – ale nigdy nie przepełniaj szpitala, przepełnione wojska giną. Włącz tarcze w piątek wieczorem: po Twoim własnym ataku tarcza spada i aktywuje się ponownie dopiero po zakończeniu timera bitwy, więc miej w zapasie dodatkową tarcz plus teleportery, wycofaj się na teren sojuszu lub użyj losowego teleporter, spodziewaj się też kilkuminutowej blokady ponownego wejścia po opuszczeniu strefy najazdów.
+
+![Użycie tarcz przed sobotnim KvK](/img/dtf/alliance-duel/08.jpg)
+
+Punkty drużynowe: poniedziałek jest zazwyczaj najtańszy, wtorek–piątek trudniejsze, sobota może zdecydować o całym tygodniu. Stracony poniedziałek nic nie znaczy – czyste badania, bohaterowie, wojsko i KvK odwrócą wynik. Sprawdź okno szczegółów pojedynku, aby zobaczyć wyniki dzień po dniu.
+
+> Źródło: [Дуэль альянсов в Last Asylum: Plague - гайд по дням](https://dtf.ru/howto/5238861-duel-alyansov-last-asylum-plague-strategii-i-sovety), autor Гейм-Знаток (DTF).

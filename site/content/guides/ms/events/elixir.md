@@ -2,7 +2,7 @@
 title: "Perebutan Eliksir: Cara Menang"
 description: "Medan perang mata 30 minit antara persekutuan: lima peringkat, pemarkahan berasaskan pengawalan, keutamaan Khemah Penyembuhan, peraturan pindah alih, dan kesilapan pada tembok yang boleh merosakkan permainan anda dalam masa 10 minit."
 lang: ms
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: elixir
 calculators: []
 infographics: ["/infographics/elixir-guide.webp", "/infographics/elixir-strategy.webp"]
@@ -359,3 +359,64 @@ Tahap RES adalah penting untuk menentang Raksasa era. Menaik taraf Tahap RES mem
 ### Atribut RES
 
 RES ialah satu-satunya atribut untuk menentang Raksasa era. Setiap Raksasa mempunyai atribut RESnya sendiri. Apabila RES anda melebihi RES Raksasa, anda akan menumpaskan mereka dengan mudah; jika RES anda tidak mencukupi, anda akan menghadapi kerugian atau bahkan tewas dalam pertempuran.
+
+## Taktik Medan: Skuad, Bangunan, dan Kesedaran Peta {#field-tactics}
+
+Kekuatan adalah penting dalam Elixir Scramble, tetapi ia kurang menentukan berbanding organisasi. Persekutuan yang lebih kuat tewas kepada persekutuan yang lebih lemah yang mengawal Gerbang Migrasi (Migration Gates), mengumpul mata yang tercicir, dan tidak pernah meletakkan wira di satu khemah sahaja. Acara ini diadakan pada hari **Jumaat**; kepimpinan persekutuan biasanya menetapkan peranan lebih awal — Gerbang, khemah, alkimia, pusat — dan e-mel rancangan itu sememangnya berbaloi untuk dibaca. Pemain yang aktif mengalahkan pemain yang tidak hadir setiap masa: bangunan kosong dan ahli sepasukan yang memikul tugas berkembar akan mengikuti pemain yang tidak hadir ke mana sahaja.
+
+![Pelan pertempuran persekutuan untuk Elixir Scramble](/img/dtf/elixir/01.jpg)
+
+### Sediakan tiga skuad mengikut peranan, bukan sekadar mengikut kekuatan {#squad-roles}
+
+- **Skuad 1 sentiasa yang terkuat** — barisan utama yang menumpaskan pihak lawan yang kuat dan mengawal bangunan penting.
+- **Skuad 2 dan 3 boleh menjadi skuad teknikal ringan — serendah wira tunggal.** Tumpaskan pihak musuh dengan pasukan utama, kemudian letakkan skuad murah di titik tersebut dan bebaskan Skuad 1 untuk serangan seterusnya. Jika penahan yang lemah itu tewas, kerugian adalah jauh lebih kecil.
+- Satu bertempur, satu bertahan, satu mengawal atau mengambil mata tambahan.
+
+![Menetapkan skuad pertama, kedua, dan ketiga sebelum perlumbaan](/img/dtf/elixir/02.jpg)
+
+### Pemeriksaan dinding — dan trik umpan peninjau {#wall-scout-trick}
+
+Buka pertahanan benteng sebelum pertempuran: **tinggalkan hanya skuad terkuat di dinding, keluarkan skuad 2–3.** Menentang penyerang yang lebih kuat, skuad dinding yang lemah adalah kekalahan percuma — beberapa ribu hilang di sana sini, kemudian Skuad 2 wujud secara rohani dan bukannya fizikal. Menentang pihak lawan yang lebih lemah, dinding Skuad 1 menang dengan sendirinya. Dan jika raksasa yang tidak dapat dihentikan sedang menghampiri, **keluarkan semuanya dan biarkan mereka membakar benteng yang kosong** — mengekalkan tentera lebih baik daripada mengekalkan kedudukan.
+
+![Penempatan skuad dinding](/img/dtf/elixir/03.jpg)
+
+Trik peninjau: jika peninjauan musuh sedang masuk, **keluarkan Skuad 1 dari dinding selama beberapa saat** supaya laporan menunjukkan benteng yang kosong, kemudian letakkan kembali. Penyerang yang bertindak mengikut nafsu akan terus melancarkan serangan ke arah pertahanan penuh. Bukan sihir — pemain veteran dapat melihat melaluinya — tetapi ia berfungsi dengan sangat baik ke atas penyerang auto.
+
+### Keutamaan bangunan daripada pengalaman {#building-priority}
+
+Jangan cuba mengawal segala-galanya dengan lapan pemain aktif dan sebelas titik — kawal titik yang penting:
+
+- **Gerbang Migrasi (Migration Gates) — pertahankan dari awal.** Masa cooldown penempatan semula −50% bermaksud tiba untuk membantu tepat pada masanya, menawan semula bangunan yang hilang, melarikan diri dari serangan buruk, dan berteleportasi ke belakang seseorang yang telah mengerahkan tenteranya keluar. Letakkan pemain yang kuat di Gerbang; jika mereka mesti pergi, tinggalkan sekurang-kurangnya penahan teknikal yang lemah. Senario terburuk: menangi pertarungan Gerbang selama lima minit, kemudian kedua-dua pemain yang kuat terbang pergi dan membiarkannya kosong.
+- **Khemah Penyembuhan (Healing Tents) (4 kesemuanya) — kawal sekurang-kurangnya dua menjelang pertengahan pertempuran.** 15 askar yang cedera setiap 10 saat (dituntut melalui butang) terasa sedikit sehinggalah kedua-dua pihak selesai berbalas kepupusan dan Skuad 2 tiada sesiapa lagi yang tinggal untuk dihantar. Sembuhkan dalam kelompok kecil untuk mengawal kos pecutan.
+- **Bengkel Alkimia (Alchemy Workshops) — pendapatan stabil, tiada buff** (~50 mata/saat setiap satu). Bagus apabila mata utama dikawal dan pasukan mempunyai orang tambahan — tidak pernah berbaloi untuk menukar Gerbang atau pusat demi tempat ini.
+- **Observatori (Observatory) — +10% pendapatan daripada bangunan yang dikawal.** Berskala dengan kawalan peta: hebat pada separuh peta, lemah pada dua titik daripada sepuluh.
+- **Pusat (dibuka ~minit ke-10): Istana Elixir (Elixir Castle) + Peninggalan Perang (War Relic) + Altar Terkutuk (Cursed Altar).** Istana adalah titik terkaya di peta (~80 mata/saat) — bersediakan pemain yang kuat untuk detik ini. Peninggalan memberi buff kepada pihak anda, Altar melemahkan musuh (semak peratusan tepat dalam permainan, imbangan berubah). Sasarkan Istana berserta satu titik pertempuran — **tanpa meninggalkan semuanya**: penawanan pusat yang cantik sementara musuh mengambil Gerbang, dua khemah, alkimia, dan Observatori masih akan dipaparkan sebagai kekalahan pada papan skor.
+
+![Istana Elixir, Peninggalan Perang, dan Altar Terkutuk selepas pusat dibuka](/img/dtf/elixir/04.jpg)
+
+### Mata yang bertaburan di atas tanah {#dropped-points}
+
+Selepas penawanan, **peti perubatan terkumpul di sebelah bangunan** (bermula selepas ~seminit, bertambah semasa dikawal). Jika titik tersebut beralih tangan, timbunan itu akan **tersebar dan sesiapa sahaja boleh mengambilnya** — termasuk anda. Lima hingga sembilan ribu mata yang bertaburan di sekeliling bangunan boleh menentukan perlawanan yang sengit:
+
+- Perhatikan timbunan di bawah bangunan anda; jika anda hampir kehilangan titik tersebut, bersiap sedia untuk kembali dan mengumpul titik yang tercicir itu.
+- Bangunan musuh dengan timbunan yang banyak dan pemilik yang boleh ditewaskan menjadi sasaran keutamaan.
+- **Peninjau pantas adalah pengumpul mata**: pemegang yang terbiar harus mengimbas titisan kuning dan berlumba dengan peninjau ke arahnya (punya anda lawan punya mereka kelihatan mengikut warna). Naik taraf kelajuan peninjau berbaloi di sini.
+
+![Mengumpul peti perubatan dan mata di sekeliling bangunan yang ditawan](/img/dtf/elixir/05.jpg)
+
+### Tabiat pertengahan pertempuran yang memenangi perlawanan {#mid-fight-habits}
+
+- **Skuad kuat bertempur, skuad lemah bertahan.** Jangan biarkan tentera terbaik mengawal bilik yang tidak dipertandingkan selama sepuluh minit — putar balik apabila musuh serius menghampiri penahan yang lemah.
+- **Tangkap benteng yang dikosongkan.** Apabila ketiga-dua skuad musuh keluar berarak, berteleportasilah masuk dan serang rumah kosong itu — memaksa skuad utama kembali pun sudah dikira sebagai kemenangan.
+- **Tinjau sasaran jauh dahulu.** Perjalanan yang jauh ke dalam benteng tidak dikenali yang lenyap adalah perjalanan yang sia-sia; jika seorang pemain terus mengalahkan anda, tukar sasaran dengan sekutu dan bukannya membuktikan sesuatu buat kali kedua puluh.
+- **Kehabisan askar? Kekal dalam acara.** Kem lewat **membayar ~5 mata/saat setiap satu** — tiga kem bermaksud 15/saat, yang lebih baik daripada kosong. Teruskan mengumpul peti perubatan, meninjau, dan mengambil titik kosong dengan skuad teknikal; pemain yang hampir kehabisan tentera pernah mendahului carta pengumpulan dengan cara ini.
+- **Baca sembang (chat).** Panggilan ringkas ("gerbang kosong", "perlukan pusat", "tidak dapat tembus", "ambil peti perubatan") adalah sebahagian daripada taktik — minta pertukaran lebih awal daripada terus memberi makan kepada pihak lawan yang lebih kuat selama sepuluh minit.
+- **Semak laporan selepas pertempuran, bukan sekadar kedudukan anda.** Bilangan pembunuhan boleh memesongkan keadaan; pemain yang secara senyap mengambil titik percuma dan mengumpul titisan sering kali mendapat skor lebih tinggi daripada pejuang bertenaga. Penyertaan juga membayar **Pingat Kehormatan (Honor Medals)**, yang boleh dibelanjakan di kedai acara (bahan, pelan cetak gear) — semak statistik sebelum menutup tingkap.
+
+![Mengumpul mata dari kem lewat dalam pertempuran](/img/dtf/elixir/06.jpg)
+
+![Keputusan selepas pertempuran: pengumpulan, penawanan, dan pertempuran](/img/dtf/elixir/07.jpg)
+
+Kesilapan biasa yang harus dielakkan: mengabaikan e-mel pelan, bertahan dengan skuad dinding yang lemah, meninggalkan titik lama demi pusat serentak, dan melupakan barang loot di atas tanah. Perhatikan mata-saat sepanjang permainan — anda boleh membakar lima pemain dengan hebat dan masih kalah dalam acara tersebut.
+
+> Sumber: [Гонка за эликсиром в Last Asylum: Plague - тактика и стратегии](https://dtf.ru/howto/5338769-gonka-za-eliksirom-v-last-asylum-plague-taktika-i-strategii) oleh Гейм-Знаток di DTF.

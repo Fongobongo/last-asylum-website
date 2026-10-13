@@ -2,7 +2,7 @@
 title: "Economia: Diamanti, Negozi, Razzi"
 description: "Dove va a finire ogni diamante: priorità del negozio VIP, programma di rifornimento, ordini d'acquisto per negozio, budget per la Ruota dei Desideri e le meccaniche complete di razzo con limiti giornalieri in base al livello del Santuario."
 lang: it
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: economy
 infographics: ["/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
 ---
@@ -592,3 +592,48 @@ Ogni livello VIP assegna un regalo una tantum. Una sola cosa al suo interno ha u
 | Rifornimenti di livello di ogni tipo | 210 |
 
 Il primo frammento UR si trova al livello dieci, che costa già 155.000 punti. Dal livello sedici al venti il regalo smette completamente di crescere nei frammenti, fermandosi a tre UR ovunque. I regali non sono quindi un motivo per inseguire i livelli più alti, poiché ripagano solo nella fascia media.
+
+---
+
+## Spese intelligenti: mira a ogni acquisto {#smart-spending}
+
+![Strategia di spesa pianificata in Last Asylum](/img/dtf/economy/01.jpg)
+
+All'inizio il gioco ti guida da solo — tocca, raccogli, sblocca —, ma superata la prima fase la stessa routine smette di tradursi in potenza: le sconfitte in PvP si accumulano, i potenziamenti richiedono ore, le sessioni si bloccano per mancanza di energia. Cercare di forzare la situazione effettuando più accessi non cambia quasi nulla. La spesa inizia ad aiutare solo quando smette di essere casuale. La regola su cui convergono i giocatori esperti è semplice: **non conta quanto ci metti, ma esattamente dove**. Ogni acquisto dovrebbe rispondere a una domanda: *cosa sto potenziando in questo momento?*
+
+Intorno ai livelli intermedi la pressione arriva da ogni lato: sembrano esserci più risorse, eppure manca sempre qualcosa di specifico — materiali per un eroe o tempo per la base —, mentre i rivali sembrano già più forti. È lì che il familiare impulso di "comperare giusto qualcosina" porta ai classici errori: pacchetti a sorpresa, raccolta di eroi casuali, oscillazioni continue tra PvP e PvE. Il risultato è un account che cresce ma non è forte da nessuna parte: nessun danno nel PvP, nessuna stabilità nel PvE. Il punto di svolta è la concentrazione su un unico obiettivo — arena o contenuti —, in modo che ogni investimento funzioni per quello e il gioco inizi a "rispondere" con vittorie più stabili.
+
+### La scala delle priorità
+
+- **Prima i pacchetti iniziali e speciali.** Il modo più veloce per sentire la differenza: un eroe forte unito a risorse per la base rende il PvE immediatamente stabile, senza ripetuti blocchi nei livelli ordinari.
+- **Seconda l'energia.** All'ombra sembra una cosa da poco, ma l'energia decide quanto giochi effettivamente: farming, missioni, crescita della base. Con una quantità sufficiente, i progressi passano dall'essere casuali a regolari.
+- **Terzi abbonamenti e bonus giornalieri.** Si tratta di stabilità: una base di risorse a ogni accesso, una pianificazione dei potenziamenti più semplice, nessun calo di ritmo.
+- **Mid-game: eroi rari e materiali per il potenziamento dell'equipaggiamento.** Esattamente le cose che fanno avanzare in modo sensibile sia il PvE che il PvP.
+- **Late game: pacchetti stagionali e accelerazioni.** Ti mantengono al vertice dove il farming ordinario non basta più.
+
+![Spese costanti e ragionate che accelerano i progressi](/img/dtf/economy/02.jpg)
+
+### Cosa evitare
+
+- **Cosmetici** — nessun effetto in combattimento.
+- **Bauli casuali** — fortuna occasionale, per lo più riempitivo che crea l'illusione di progresso senza un guadagno reale.
+- **Piccoli potenziamenti di breve durata** — un effetto reale per una sera, quasi invisibile nell'arco di un mese.
+- **Eroi duplicati che non alimentano nulla** — se non rafforzano il roster, sono solo decorazioni.
+
+Tagliare questi elementi elimina la dispersione: la spesa diventa uniforme e controllabile, e ogni investimento si fa sentire.
+
+### Gli eventi sono il punto di crescita
+
+Gli eventi contengono le ricompense più difficili da ottenere tramite il farming standard — materiali rari, oggetti utili e talvolta eroi forti. L'approccio che ripaga: prepararsi in anticipo invece di presentarsi a mani vuote, non limitare i propri tentativi (portare i biglietti), completare le missioni fino in fondo anziché a metà e reclamare tutte le ricompense chiave. Cronometrata in questo modo, la spesa estrae il massimo da un momento specifico invece di limitarsi a "velocizzare qualcosa".
+
+![Tempismo negli acquisti in base agli eventi per ottenere ricompense massime](/img/dtf/economy/03.jpg)
+
+### Checklist per le spese intelligenti
+
+1. Prima pacchetti iniziali ed energia — un eroe forte e un flusso costante di risorse.
+2. Nel mid-game, punta a eroi rari e materiali per l'equipaggiamento.
+3. Nel late game, pacchetti stagionali e accelerazioni per il vertice.
+4. Risparmia sulle sciocchezze: cosmetici, bauli casuali, micro-potenziamenti.
+5. Pianifica in base agli eventi: lì si ottiene il massimo rendimento per ogni investimento.
+
+> Fonte: [Last Asylum: Plague - как донатить с умом и ускорить прогресс в 2026](https://dtf.ru/moneysaver/4850017-last-asylum-plague-kak-effektivno-donatit-i-uskorit-progress) di Гейм-Знаток su DTF.

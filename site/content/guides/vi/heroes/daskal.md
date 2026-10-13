@@ -3,7 +3,7 @@ title: "Daskal: Kỹ Năng, Cách Xây Dựng & Nâng Cấp"
 description: "Daskal là một chiến binh UR đóng vai trò tank. Khi được nâng cấp tối đa, anh ta đạt 1.057.192 Sức Mạnh, xếp hạng 2 trong số 11 tank của trò chơi. Mở khóa anh ta cần 10 mảnh (Mảnh Daskal), ..."
 videoTopic: "heroes"
 lang: vi
-updated: "2026-09-19"
+updated: "2026-10-12"
 type: guide
 ---
 
@@ -320,3 +320,77 @@ Daskal không xuất hiện trong danh sách tướng cho đến ngày máy ch�
 Thức Tỉnh tốn kém nhất: 2.870 mảnh cho 40 cấp độ so với 975 mảnh cho tất cả 50 sao. Hai hệ thống này mang lại những điều khác nhau: sao thêm 675.772 HP và 2.874 Tấn Công, thức tỉnh thêm 425.119 HP và 12.119 Tấn Công, gấp bốn lần tấn công. Sao vẫn được ưu tiên trước, vì chúng mang lại nhiều HP hơn và nâng Phòng Thủ Đẫm Máu (Bloodshed Defense) từ 360% lên 684%, trong khi 792% chỉ có được với Vũ Khí Độc Quyền.
 
 Daskal nằm trong hai đội hình bậc S. Arthur, Marlena, Daskal, Harper và Luis nhận được +15% tiền thưởng phe cho bốn chiến binh, 150,7 triệu khả năng sống sót và 98 điểm trên 100 trong đánh giá đội hình. Lá chắn của anh ta cộng dồn với Sợi Chỉ Định Mệnh (Fate's Thread) của Billy, giúp loại bỏ 36% sát thương khỏi đội hình.
+
+---
+
+## 🔄 Xây dựng lại đội hình chính xung quanh Daskal {#dtf-daskal-rebuild}
+
+Có được vị tướng mới chỉ là khởi điểm: anh ấy cần thuốc giải độc, sao, kỹ năng, trang bị, một ô trong đội hình — và sau đó Đấu trường, Tường thành cùng mọi đội hình đã lưu phải làm quen với anh ấy. Đây là hướng dẫn xây dựng lại toàn diện: chiêu mộ Daskal, đưa anh ấy lên tối đa từ 1→150, và xếp vào đội hình Chiến binh đầu tiên thay cho Bella.
+
+![Hướng dẫn tiến trình phát triển tướng Daskal và Claire vàng](/img/dtf/daskal-claire/01.jpg)
+
+### Dồn tài nguyên lớn vào Thứ Năm của Tướng {#dtf-hero-thursday}
+
+Đừng bao giờ lãng phí vé chiêu mộ, mảnh vạn năng, huy hiệu kỹ năng và kho dự trữ thuốc giải độc vào một ngày ngẫu nhiên. Ngày Thứ Năm diễn ra sự kiện giai đoạn tướng trong Cuộc chiến Liên minh, và hầu như mọi thứ trong quá trình xây dựng lại này đều tính điểm — triệu hồi, tiêu thụ mảnh, sử dụng huy hiệu và thuốc giải độc. Một lần đẩy mạnh tiến trình mang lại lợi ích kép: tài khoản mạnh hơn cộng với phần thưởng đấu trường. Hãy tiếp cận ngày Thứ Năm trong trạng thái đã chuẩn bị kỹ càng.
+
+![Nhiệm vụ phát triển tướng giai đoạn 4 trong Cuộc chiến Liên minh](/img/dtf/daskal-claire/02.jpg)
+
+Trong trường hợp này, mục tiêu rất rõ ràng: Daskal. Khoảng 250 vé đã được dùng trong tuần trước mà không ra tướng, sau đó là các lượt triệu hồi miễn phí cùng những lần thử mới — mười lần đầu trượt, mười lần thứ hai trúng. Chốt chặn quan trọng là biết khi nào nên dừng lại: một khi đã sở hữu tướng, các vé tiếp theo chỉ dùng để mua mảnh và huy hiệu kỹ năng, chứ không phải để quay tướng nữa.
+
+![Chiêu mộ Daskal từ vòng quay tướng](/img/dtf/daskal-claire/03.jpg)
+
+### Mẹo về cỏ: đừng bỏ qua bọn trộm {#dtf-thieves-grass}
+
+Khi sự kiện trộm diễn ra, nó sẽ bù đắp lại lượng dự trữ thảo dược bị cạn kiệt do quá trình nghiên cứu lớn. Một mục tiêu cá nhân lớn mang lại hơn một triệu thảo dược, các mục tiêu nhỏ hơn mang lại vài trăm nghìn thảo dược mỗi cái — con số chính xác thay đổi tùy theo hoạt động, nhưng đây là cách bổ sung thảo dược khẩn cấp rất hiệu quả trong một sự kiện đang hoạt động.
+
+![Sự kiện trộm](/img/dtf/daskal-claire/04.jpg)
+
+### Daskal 1→150: Nơi thuốc giải độc tiêu tốn vào đâu {#dtf-daskal-leveling}
+
+Daskal xuất hiện ở cấp độ 1, và kho dự trữ thuốc giải độc đã được để dành riêng cho anh ấy — hoàn toàn chính xác, bởi vì chi phí là vô cùng lớn. Cho đến mốc ~100 thì mọi thứ có vẻ vô hại, các cấp độ tăng vọt mà không phải lo lắng gì. Sau đó, trò chơi thực sự bắt đầu: càng tiến gần đến mốc 150, chi phí cho mỗi cấp độ càng tốn kém hơn. Toàn bộ hành trình từ 1→150 ngốn **5.248.471.500 thuốc giải độc — tức là hơn 5,2 tỷ**. Bất kỳ ai lên kế hoạch chạy đua từ số không đến tối đa tương tự nên tích trữ vượt mức năm tỷ, thay vì hai hoặc ba tỷ. Thuốc giải độc đến từ xưởng chế tạo, phần thưởng và các vật phẩm túi dự trữ — vì vậy đừng mở sớm các hũ mà không có lý do; hãy để dành chúng cho vị tướng thực sự quan trọng.
+
+![Nâng cấp Daskal từ cấp 1 lên 150 bằng thuốc giải độc](/img/dtf/daskal-claire/11.jpg)
+
+### Tại sao Daskal thuộc về đội hình 1 {#dtf-why-daskal}
+
+Daskal là một tướng phòng thủ (tank) hệ Chiến binh UR có bộ kỹ năng thực hiện chính xác những gì tuyến đầu cần: chiêu cuối của anh ấy tạo khiên cho tất cả đồng minh, kỹ năng chủ động gây sát thương vật lý đồng thời hồi máu cho chính Daskal, và nội hiệu bị động cấp khiên cho các tướng phòng thủ đồng minh ngay từ đầu trận đấu. Anh ấy vừa sống sót trước sát thương vừa giúp phần còn lại của đội sống sót theo.
+
+Việc thay thế Bella ở đây là bước đi hợp lý — và Bella không hề nghỉ hưu. Cô ấy chuyển sang đội hình 3, nơi đang thiếu một tướng tuyến đầu chất lượng. Một vị tướng mới củng cố sức mạnh cho hai đội hình cùng một lúc.
+
+### Tháo trang bị của Bella trước {#dtf-gear-transfer}
+
+Trước khi hoàn tất việc thay thế, hãy chuyển bộ trang bị xịn từ tướng phòng thủ cũ sang tướng mới — nếu không, kết quả sẽ là một UR 150 sao chạy đi chân đất. Không có vũ khí độc quyền nào cho Daskal ở đây, vì vậy các trang bị có sẵn đã được mặc lên người anh ấy, phần còn lại của bộ đồ của Bella được chuyển qua, và Bella nhận lại các món đồ từ tướng đội hình 3 bị thay thế khi cô ấy chuyển đến đó.
+
+![Chuyển trang bị của Bella sang Daskal](/img/dtf/daskal-claire/12.jpg)
+
+![Nâng cấp Daskal](/img/dtf/daskal-claire/13.jpg)
+
+### Daskal cần bao nhiêu sao lúc này {#dtf-daskal-stars}
+
+Sau cấp độ, các mảnh tướng là thứ gây đau đầu nhất. Cám dỗ lớn nhất là nâng cấp mọi thứ — các tướng tầm xa đang chờ đợi, một UR khác đang đòi sao. Nhưng đội hình chính là Chiến binh, vì vậy nếu Daskal gia nhập đội, những mảnh vàng vạn năng sẽ mang lại giá trị cao nhất khi dùng cho anh ấy. Ngày đầu tiên đã tiệm cận mốc **6★** (giúp tăng cường thêm khiên đồng đội), phần còn lại có thể cày cuốc sau. Sáu sao không phải là con số ngẫu nhiên — và mục tiêu lớn tiếp theo là **8★**, mở khóa kỹ năng Bền Bỉ (Tenacity): +20% Tấn công/HP/Phòng thủ cộng với +10% tốc độ hồi chiêu kỹ năng. Do đó, đừng rải rác mảnh vạn năng qua ba đội hình: hãy đưa tướng đội hình chính đạt đến cột mốc thực sự hữu ích trước, rồi mới tính tiếp.
+
+![Sao và kỹ năng của Daskal cho đội hình chính](/img/dtf/daskal-claire/14.jpg)
+
+### Đừng quên Sảnh Danh Vọng {#dtf-hall-of-honor}
+
+Trên chặng đường đó, một vị tướng xanh cuối cùng đã đạt điều kiện vào Sảnh Danh Vọng — cũng không phải chuyện vặt đâu. Tiến trình phát triển tướng thông thường tại đó liên tục thúc đẩy tài khoản, và các tướng màu xanh lam nói riêng giúp tăng sức chứa tải trọng của lính: quân lính mang theo nhiều tài nguyên hơn trên mỗi lần hành quân. Không có phần thưởng quái vật chiến đấu nào cả, nhưng xét về lâu dài, lượng sức chứa phụ trội đó rất đáng giá. Đừng phớt lờ các tướng xanh chỉ vì họ sẽ không bao giờ lọt vào đội hình 1.
+
+![Sảnh Danh Vọng](/img/dtf/daskal-claire/15.jpg)
+
+### Đã xếp tướng mới — công việc vẫn chưa kết thúc {#dtf-update-modes}
+
+Sức mạnh của Đội hình 1 đã tăng lên sau khi đổi Bella lấy Daskal — nhưng trò chơi lưu các đội hình theo từng chế độ riêng biệt. Sau bất kỳ đợt sắp xếp lại nghiêm túc nào, hãy mở Đấu trường và làm mới lại đội hình phòng thủ, sau đó kiểm tra Tường thành, tiếp đến là Hẻm núi Chinh phạt (Conquest Canyon) và lưu đội hình mới vào đó. Nếu không, Đấu trường sẽ vẫn tiếp tục dùng Bella trong nhiều ngày. Quy tắc tương tự cũng áp dụng sau khi nâng cấp lớn về trang bị, ký tự khắc (epigraph) hay Raven: nếu một chế độ sử dụng đội hình đã lưu, hãy xác minh lại bằng tay.
+
+### Ba đội hình sau khi xây dựng lại {#dtf-final-squads}
+
+Đội hình 1 chuyển hoàn toàn sang hệ Chiến binh: **Daskal, Arthur, Marlena, Claire vàng và Harper**, đạt khoảng **19,5 triệu lực chiến**. Daskal và Arthur giữ tuyến đầu, Marlena gánh sát thương, Claire hỗ trợ PvE, Harper buff cho Chiến binh.
+
+![Đội hình đầu tiên: Daskal, Arthur, Marlena, Claire và Harper đạt 19,5M lực chiến](/img/dtf/daskal-claire/16.jpg)
+
+Đội hình 2 giữ nguyên hệ Tầm xa (Ranger): Shadow, Griffith, Cynthia, Ash và Red Lady (~13,32 triệu). Đội hình 3 chuyển sang hỗn hợp: Bella chuyển đến để gia cố tuyến đầu cùng Hastar, Joker, Annie và Celia (~13,65 triệu).
+
+![Đội hình hỗn hợp thứ ba sau khi xây dựng lại tướng](/img/dtf/daskal-claire/17.jpg)
+
+Kết quả tuyệt vời nhất không phải là một vị tướng mạnh đơn lẻ: Daskal đã nâng cấp đội hình 1, giải phóng Bella để cải thiện đội hình 3, Claire vàng tìm thấy nguồn sống mới trong PvE, và trang bị tốt được luân chuyển giữa các nhân vật thay vì bám bụi. Hãy chuẩn bị cho Thứ Năm của Tướng tiếp theo theo cách tương tự: tích trữ vé, để dành thuốc giải độc cho lần bứt phá cấp 150 thực sự tiếp theo, hướng các mảnh vạn năng vàng về phía đội hình chính — đưa Daskal tiến tới mốc tự tin 6★ rồi 8★, neo giữ Claire vàng ở tám sao và dần cày cuốc hai sao cuối cùng — và chỉ khi đó mới quay lại với hệ tầm xa. Một đội hình đầu tiên thực sự mạnh mẽ sẽ đánh bại ba đội hình xây dựng nửa vời.
+
+> Nguồn: [Даскал и золотая Клэр в Last Asylum: Plague - как правильно прокачивать героев](https://dtf.ru/howto/5317537-daskal-i-zolotaya-kler-v-last-asylum-prokachka-geroev) bởi Гейм-Знаток trên DTF.

@@ -2,7 +2,7 @@
 title: "Économie : Diamants, Boutiques, Pillage"
 description: "Où vont tous les diamants : priorités de la boutique VIP, calendrier de réapprovisionnement, commandes d'achat par boutique, budgets de la Roue des Souhaits et mécanique complète du pillage avec limites quotidiennes par niveau de Sanctuaire."
 lang: fr
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: economy
 infographics: ["/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
 ---
@@ -161,3 +161,48 @@ Les Caravanes et les Opérations Clandestines sont des systèmes distincts du pi
 
 - **Caravanes** — votre revenu commercial automatisé. Gardez-les en mouvement.
 - **Opérations Clandestines** — vous pouvez piller jusqu'à 5 Opérations Clandestines d'autres joueurs par jour. Les Opérations Clandestines Dorées rapportent les meilleures récompenses — attrapez toujours une dorée quand vous en voyez une.
+
+---
+
+## Dépenses intelligentes : Ciblez chaque achat {#smart-spending}
+
+![Stratégie de dépenses planifiées dans Last Asylum](/img/dtf/economy/01.jpg)
+
+Au début, le jeu vous porte tout seul — touchez, récupérez, débloquez — mais passé le premier cap, la même routine cesse de se convertir en puissance : les défaites en JcJ s'accumulent, les améliorations s'étirent sur des heures, et les sessions bloquent par manque d'énergie. Essayer de forcer le passage en vous connectant plus souvent ne change presque rien. Les dépenses ne commencent à aider que lorsqu'elles cessent d'être aléatoires. La règle sur laquelle s'accordent les joueurs expérimentés est simple : **ce n'est pas le montant que vous y mettez qui compte, mais exactement où**. Chaque achat doit répondre à une question : *qu'est-ce que je renforce en ce moment ?*
+
+Aux niveaux intermédiaires, la pression vient de toutes parts : il semble y avoir plus de ressources, mais il manque toujours quelque chose de précis — des matériaux pour un héros ou du temps pour la base — tandis que les rivaux ont déjà l'air plus forts. C'est là que l'irrésistible envie de « n'acheter qu'un tout petit peu » mène aux erreurs classiques : packs de loterie, collection de héros au hasard, hésitations permanentes entre le JcJ et le JvE. Le résultat est un compte qui progresse mais n'est fort nulle part : aucun dégât en JcJ, aucune stabilité en JvE. Le tournant consiste à se concentrer sur un seul objectif — l'arène ou le contenu — afin que chaque investissement y contribue et que le jeu commence à « répondre » par des victoires plus régulières.
+
+### L'échelle des priorités
+
+- **Packs de démarrage et spéciaux en premier.** Le moyen le plus rapide de ressentir la différence : un héros fort plus des ressources de base en même temps stabilisent immédiatement le JvE, sans blocages répétés sur les niveaux ordinaires.
+- **L'énergie en second.** Cela semble mineur au début, mais l'énergie détermine le temps de jeu réel — agriculture (farming), missions, croissance de la base. Avec suffisamment d'énergie, la progression passe du stade accidentel au stade régulier.
+- **Les abonnements et bonus quotidiens en troisième.** Il s'agit ici de stabilité : un revenu de base en ressources à chaque connexion, une planification des améliorations facilitée, et pas de perte de rythme.
+- **Mi-partie : héros rares et matériaux d'amélioration d'équipement.** Précisément les éléments qui font progresser de manière perceptible le JvE et le JcJ.
+- **Fin de partie : packs saisonniers et accélérations.** Ils vous maintiennent au sommet là où l'agriculture ordinaire ne suffit plus.
+
+![Dépenses régulières et judicieuses qui accélèrent la progression](/img/dtf/economy/02.jpg)
+
+### Ce qu'il faut éviter
+
+- **Les cosmétiques** — aucun effet sur le combat.
+- **Les coffres aléatoires** — un peu de chance occasionnelle, mais surtout du remplissage qui crée une illusion de progression sans réel gain.
+- **Les petits boosts de courte durée** — un effet réel le temps d'une soirée, presque invisible sur un mois.
+- **Les doublons de héros qui ne servent à rien** — s'ils ne renforcent pas la liste, ils ne sont que de la décoration.
+
+Éliminer ces éléments supprime le gaspillage : les dépenses deviennent régulières et maîtrisables, et chaque investissement se fait ressentir.
+
+### Les événements sont le point de croissance
+
+Les événements rapportent les récompenses les plus difficiles à farmer par des moyens classiques — matériaux rares, objets utiles, et parfois de theros puissants. L'approche qui s'avère payante : préparez-vous à l'avance au lieu d'y aller les mains dans les poches, ne limitez pas vos propres tentatives (apportez les tickets), terminez les quêtes entièrement plutôt qu'à moitié, et récupérez toutes les récompenses clés. Planifiées de cette manière, les dépenses tirent le maximum d'un moment précis au lieu de se contenter « d'accélérer quelque chose ».
+
+![Synchroniser les dépenses avec les événements pour un maximum de récompenses](/img/dtf/economy/03.jpg)
+
+### Liste de contrôle pour des dépenses intelligentes
+
+1. Packs de démarrage et énergie en premier — un héros fort et un flux de ressources régulier.
+2. En milieu de partie, visez les héros rares et les matériaux d'équipement.
+3. En fin de partie, privilégiez les packs saisonniers et les accélérations pour atteindre le sommet.
+4. Économisez sur les futilités : cosmétiques, coffres aléatoires, micro-boosts.
+5. Planifiez autour des événements — c'est là que le retour sur investissement est maximal.
+
+> Source : [Last Asylum: Plague - как донатить с умом и ускорить прогресс в 2026](https://dtf.ru/moneysaver/4850017-last-asylum-plague-kak-effektivno-donatit-i-uskorit-progress) par Гейм-Знаток sur DTF.

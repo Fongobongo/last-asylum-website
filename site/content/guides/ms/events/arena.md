@@ -2,7 +2,7 @@
 title: "Arena Segitiga: Pertahanan & Serangan"
 description: "Tiga susunan barisan, penyerang memilih dua untuk ditewaskan: prinsip pertahanan seimbang, peraturan padanan berkorban, serangan berasaskan kaunter, bonus puak, dan permainan skuad perangkap Arena Takdir untuk serpihan UR."
 lang: ms
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: arena
 calculators: []
 infographics: []
@@ -140,3 +140,57 @@ Tidak semua arena membenarkan tambah nilai. Di mana ia membenarkan, setiap perte
 ## Apa maksudnya dalam amalan
 
 Might wira bertukar menjadi sumber di sini secara langsung, dan ranking yang lebih tinggi membuka arena dengan ganjaran yang lebih besar. Pertempuran percuma menyampaikan pendapatan itu tanpa kos, itulah sebabnya ia diambil setiap hari, walaupun pada hari yang tiada selera untuk berlawan. Skuad mana yang harus diturunkan menentang lawan tertentu daripada senarai dicadangkan oleh pembina pasukan arena: simulasi pertempuran berjalan melalui wira yang ditandakan dan menunjukkan lima dengan hasil terbaik.
+
+---
+
+## Nota Lapangan Arena Segitiga: Kepentingan Kuasa, Faksi dan Jurnal (DTF) {#dtf-field-notes}
+
+Anda boleh tewas kepada pemain yang lebih lemah dan menewaskan seseorang yang berjutaan kuasa lebih kuat beberapa minit kemudian: tiga skuad berlawan, dua kemenangan menentukannya. Kadangkala langkah terbaik adalah tidak menyentuh langsung skuad terkuat musuh; kadangkala seorang wira mengatasi sejuta kuasa; kadangkala lima bingkai emas tumbang kerana pembawa utama (carry) mempunyai pedang kosong.
+
+![Petua dan rahsia Arena Segitiga](/img/dtf/arena/01.jpg)
+
+### Pertahanan kekal seimbang, serangan disusun semula setiap pertarungan {#dtf-defense}
+
+Menumpukan segala yang mahal (tank teratas, carry, sokongan, DD kedua) ke dalam skuad 1 memberi musuh dua kemenangan percuma: mereka memberi makan kepada skuad yang lemah dan mengambil dua lagi dengan 2:1. Agihkan supaya tiada kemenangan percuma wujud — Marlena yang kuat tidak memerlukan setiap Pahlawan (Warrior) terbaik di sisinya; mengalihkan satu bintang (cth. Harper ke skuad 3, Celia melindungi sokongan di tempat lain) menafikan kemenangan mudah 2:1. Semak semula pertahanan selepas setiap peningkatan besar supaya skuad 1 tidak menjadi terlalu gemuk manakala bahagian ekor kekurangan sumber.
+
+![Tiga skuad pertahanan pada Arena Segitiga](/img/dtf/arena/03.jpg)
+
+Pertahanan ditetapkan dan dikunci; **serangan dibina semula hampir setiap pertarungan serius**. Pertama, baca papan musuh: apabila mereka berada pada 18/13/12M dan anda pada ~13–15M, jangan lawan skuad 18M — berikan skuad paling lemah anda kepadanya dan menangi 13 serta 12. Mengejar kesemua tiga-tiganya hanya membazirkan percubaan.
+
+![Tiga pertarungan dengan syarat menang 2 daripada 3](/img/dtf/arena/04.jpg)
+
+### Kuasa hanyalah petunjuk, faksi mengubah pertarungan yang sengit {#dtf-might}
+
+Pasukan 12M dengan Marlena/Arthur yang dibangunkan, carry sebenar, kemahiran dan keserasian faksi secara rutin menewaskan bertompok-tompok tank dan sokongan 14M yang tidak membunuh apa-apa. Sentiasa semak siapa di disebalik angka tersebut — terutamanya Marlena, yang membawa permainan secara solo — sebelum anda menghantar skuad kedua anda kepada pasukan "10M".
+
+![Perbandingan Kuasa lawan Komposisi](/img/dtf/arena/05.jpg)
+
+Kemudian semak faksi: **Renjer (Rangers) > Pahlawan (Warriors) > Warlock > Renjer (Rangers)**, sekitar **+20%** untuk kaunter — cukup untuk mengatasi jurang kuasa yang ketara (Pahlawan anda yang sedikit lebih kuat menentang Renjer adalah perlawanan anda, bukan mereka; lawan Renjer yang kuat cuba gunakan Warlock). Imbas ikon faksi setiap kali berlawan apabila jurang di bawah sejuta. Tetapi jangan bina pasukan Frankenmyvi demi bonus: kaunter hanya bagus sebagai pasukan yang berfungsi dari faksi tersebut — tiga faksi dalam satu skuad tanpa bonus formasi pernah menyebabkan pengarangnya tewas dalam perlawanan yang kuasanya lebih tinggi sebelum ini.
+
+### Perbandingan pasca-pertarungan, peralatan dan angka perangkap {#dtf-compare}
+
+Sentiasa buka perbandingan pembangunan pasca-pertarungan — wira, tentera, teknologi, Raven, relik, Dewan Kehormatan (Hall of Honor) dan banyak lagi. Bar yang tidak seimbang menamakan penyelesaiannya (wira dan tentera yang lebih baik tetapi Raven/Dewan yang ketinggalan bermakna peningkatan seterusnya adalah jelas; jurang bagi seorang pengarang ialah Dewan 31 lawan 45). Bingkai emas tidak membunuh sesiapa: wira yang kuat dengan pedang yang lemah, kemahiran rendah dan peralatan kosong akan tewas kepada carry yang dibina dengan betul. Marlena dan Zoe paling jelas menunjukkannya — seorang Zoe yang dimaksimumkan memutuskan satu permainan secara bersendirian, manakala beberapa penyerang separuh siap tidak mencapai apa-apa. Peraturan: **satu DD sebenar lebih baik daripada tiga separa-DD**; jika Marlena yang membawa pasukan, peralatan menyerangnya (cth. pedang ke arah 60, 4-bintang) didahulukan, bukan pedang pameran pada Arthur tahap 30. Tingkatkan satu DD utama bagi setiap faksi penting daripada sembilan penyerang sederhana.
+
+![Perbandingan pasca-pertarungan merentasi wira, tentera, teknologi, Raven, relik](/img/dtf/arena/07.jpg)
+
+Jangan sesekali auto-tanda angka paling lemah sebagai percuma: skuad 10–12M yang menyembunyikan Marlena + Arthur adalah perangkap — setiap skuad kelihatan lebih lemah atas kertas namun dua pertarungan tewas kerana wira, faksi dan pertumbuhan dalaman. Begitu juga dengan tentera: wira yang bagus dengan wajah berbayar tetapi **T8 melawan T9** sudah menjadi jurang yang ketara, dan kadangkala tier tentera seterusnya mengatasi bintang wira yang lain.
+
+![Skuad kelihatan lemah menyembunyikan Marlena](/img/dtf/arena/08.jpg)
+
+![Tentera T8 lawan T9](/img/dtf/arena/09.jpg)
+
+Sebaliknya: lawan dengan ~20M dalam skuad 1 dan dua bahagian ekor yang lemah harus diabaikan pada skuad 1 sepenuhnya — ambil dua bahagian ekor tersebut dan tewas jumlah keseluruhan yang lebih menakutkan. Pertahanan yang seimbang mengatasi satu skuad super atas sebab ini tepat.
+
+![Lawan dengan satu skuad super dan dua bahagian ekor yang lemah](/img/dtf/arena/10.jpg)
+
+### Jurnal, rentak, pemadanan dan barangan percuma {#dtf-journal}
+
+**Jurnal** menunjukkan serangan masuk (biru) berbanding serangan keluar (merah) — ujian pertahanan percuma. Bandingkan penyerang yang sama kuasa: satu mengusahakan dua skuad lemah anda, seorang lagi tewas pada kuasa yang sama melalui pembahagian yang buruk. Jika pertahanan terus menderma dua skuad yang sama, masalahnya telah ditemui.
+
+![Jurnal pertahanan](/img/dtf/arena/11.jpg)
+
+Jangan habiskan semua percubaan pada waktu pagi kerana ranking akan beranjak apabila pemain lain menyerang (170 → 400+ dalam masa beberapa jam adalah perkara biasa). Capai sasaran harian pada tahap kasar anda, kemudian panjat semula pada waktu petang dengan percubaan yang disimpan. Pemadanan awal minggu agak pelik sebelum rating ditetapkan (30M, kemudian 52M, kemudian seseorang yang lemah) — ia berdasarkan syiling rating (105 bertemu 108, 216 bertemu 217), bukan kuasa sebenar, jadi gunakan hari pertama untuk eksperimen. Harian: **3 dan 5 kemenangan** tidak perlu berturut-turut dan membayar Pingat Kehormatan (Glory Medals); ganjaran ranked/perikatan merangkumi kulit bangunan (cth. +5% serangan wira); **tanda suka membayar 30 berlian** (sehingga 180/hari merentasi dua arena) — jangan sesekali lepaskan berlian percuma.
+
+Setiap pertarungan: cari skuad musuh yang paling berbahaya, pilih dua sasaran sebenar, semak semula faksi dan carry tersembunyi (Marlena yang diperkasa di slot "lemah" menetapkan semula pengiraan), susun semula Bella/Harper/Claire/Celia antara skuad, dan barulah lihat pada kuasa. Lebih perlahan, dan itulah sebabnya ia menarik.
+
+> Sumber: [Треугольная арена Last Asylum: Plague - советы и тактика](https://dtf.ru/howto/5253651-sovety-po-treugolnoy-arene-last-asylum-plague) oleh Гейм-Знаток pada DTF.

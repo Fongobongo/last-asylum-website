@@ -2,7 +2,7 @@
 title: "Duel Perikatan: Panduan Lengkap"
 description: "Enam hari kategori mata, penamat PvP pada hari Sabtu, mekanik fasa demi fasa dengan nilai mata tepat, penyusunan Misi Falcon, dan ekonomi simpan-segala-galanya yang memenangi peti teratas."
 lang: ms
-updated: "2026-09-18"
+updated: "2026-10-12"
 videoTopic: alliance_duel
 calculators: []
 infographics: ["/infographics/duel-day-guide.webp", "/infographics/duel-savings.webp", "/infographics/falcon-tower-storage.webp"]
@@ -361,3 +361,66 @@ Nilai disahkan daripada data pelanggan permainan (v1.0.87), sumber: wiki-last-as
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Apakah fungsi pokok penyelidikan Duel Perikatan?", "acceptedAnswer": {"@type": "Answer", "text": "Ia menggandakan mata acara (Pakar Arena +100%, Master Arena +50%) dan membuka peti peringkat 7–9 dengan ganjaran teratas."}}, {"@type": "Question", "name": "Apakah tindakan bernilai tertinggi tunggal dalam Duel Perikatan?", "acceptedAnswer": {"@type": "Answer", "text": "Menghantar karavan perdagangan UR untuk 100,000 mata pada Fasa 2 dan 6, kemudian ops rahsia UR untuk 75,000."}}]}
 </script>
+
+---
+
+## Duel Per-Hari Alliance: Kalendar Medan (DTF) {#dtf-calendar}
+
+Duel ini berlangsung hampir sepanjang minggu dengan pemarkahan yang bersilih ganti: Isnin tenaga/sumber daya, Selasa pembinaan, Rabu penyelidikan, Khamis wira, Jumaat latihan tentera, Sabtu KvK. Kesilapan pemula adalah membelanjakan segala-galanya semasa menerimanya — pencapaian Falcon dituntut pada hari Ahad, peti Raven dibuka pada hari Selasa, antitoksin dibakar pada hari Isnin, latihan besar-besaran pada pertengahan minggu. Akaun memang berkembang, tetapi duel hampir tidak mendapat apa-apa. Sebaliknya, kumpul dan simpan mengikut hari.
+
+![Panduan hari demi hari Duel Alliance](/img/dtf/alliance-duel/01.jpg)
+
+### Teknologi duel diutamakan {#dtf-tech}
+
+Cawangan duel di Lab menggandakan mata di dalam acara, menjadikan setiap minggu masa depan lebih murah. Paling baik dibangunkan pada hari **Rabu**, apabila pecutan penyelidikan, skrol, dan pertumbuhan kekuatan (might) teknologi mendapat markah bersama. Bina teknologi duel dahulu, kemudian Pasukan Elit (Elite Troops) dan Pengangkutan Kafilah (Caravan Transport) jika mereka juga memerlukan skrol khas — satu penyelidikan sedemikian memberikan mata skrol + pecutan + kekuatan sekaligus (cth. 1,280 skrol pada ~750 pts ≈ 960,000 sebelum pecutan dan kekuatan). Cawangan penuh tidak akan siap dalam seminggu, tetapi beberapa tahap sahaja pun sudah mendekatkan peti peribadi dan menjimatkan pecutan.
+
+### Isnin: Falcon, tenaga, pengumpulan, Raven {#dtf-monday}
+
+Pencapaian Falcon yang disiapkan pada hari Ahad dibiarkan tidak dituntut: Menara Falcon yang maju memegang berpuluh-puluh pesanan siap berserta simpanan di skrin, jadi hari Isnin bermula dengan kumpulan besar yang sedia ada (pada ~30,000 pts setiap satu, 40–50 pencapaian yang disimpan adalah permulaan yang serius — tetapi jangan penuhi storan melebihi had atau pesanan baharu tidak akan disimpan). Perarakan utama membakar tenaga semula jadi dahulu pada Blight/pencuri/sasaran peta, kemudian botol, kemudian pembelian semula berlian murah — semak jurang ke peti seterusnya sebelum membeli habis kedai tersebut. Perarakan lain mengumpul bijirin/kayu/herba daripada jubin peta; pengeluaran benteng tidak dikira, hanya penghantaran peta sahaja yang dikira.
+
+![Pencapaian Falcon yang disimpan sebelum duel](/img/dtf/alliance-duel/02.jpg)
+
+Simpan antitoksin untuk hari Khamis; belanjakan sedikit sahaja pada hari Isnin untuk melengkapkan peti. Simpan Buah Raven (Raven Fruit) dan Pati (Essence) sepanjang minggu dan belanjakannya pada hari Isnin — peningkatan stat Raven ditambah peti Epigraph merangkumi sebahagian besar mata. Tinggalkan peti peralatan Raven untuk hari Rabu. Selepas menetapkan semula mingguan, semak kedai Kehormatan (Honor shop) untuk pelan tindakan (blueprints) berserta Pati dan pecutan.
+
+### Selasa: bangunan, kafilah, mangsa terselamat {#dtf-tuesday}
+
+Mata diperoleh daripada pecutan pembinaan (~150/min) tetapi habuannya adalah bangunan siap yang ditinggalkan dengan ikon tukul: keuntungan kekuatan bangunan yang siap (cth. 5,300 kekuatan pada 30 pts ≈ 159,000) dikreditkan semasa diklik, jadi tuntut Sanctuary/Lab/tapak latihan/barrak yang telah disediakan pada pagi Selasa. Utamakan bangunan yang mahal. Jangan bekukan keseluruhan ekonomi: ladang/kilang papan/petak bunga yang siap tidak boleh dikutip semasa bertukul, jadi tinggalkan satu jenis bagi setiap kategori (dan satu bengkel manual) tidak disekat untuk memastikan pengeluaran terus berjalan.
+
+![Keuntungan kekuatan bangunan pada hari Selasa](/img/dtf/alliance-duel/03.jpg)
+
+Dapatkan gelaran **Minister of Construction** sebelum naik taraf yang lama (pengurangan pemasa yang besar pada Sanctuary tinggi; beratur lebih awal pada pelayan yang bersaing). Putar kafilah dan operasi rahsia kepada emas menggunakan penyegaran percuma terlebih dahulu, kemudian kristal — satu kafilah yang baik ≈ 300,000. Upah mangsa terselamat di Taun (Tavern) (bukan seruan wira — mekanik dan barisan ganjaran yang berbeza).
+
+### Rabu: penyelidikan dan peralatan Raven {#dtf-wednesday}
+
+Pecutan penyelidikan, kekuatan teknologi, skrol khas, dan peti peralatan Raven. Tinggalkan pencapaian Falcon hari Selasa yang tidak dituntut untuk membuka hari Rabu dengan kelompok yang sedia ada.
+
+![Penyelidikan hari Rabu dan peralatan Raven](/img/dtf/alliance-duel/04.jpg)
+
+Keutamaan: cawangan duel, kemudian Pasukan Elit / Pengangkutan Kafilah — teknologi yang memerlukan kos skrol memberikan pulangan terbaik. Kumpul peti peralatan Raven sepanjang minggu dan buka pada hari Rabu; kualiti yang lebih tinggi membayar lebih banyak, kemudian gabungkan secara besar-besaran peralatan Raven untuk mata peti berserta kekuatan peralatan. Jangan sekali-kali membukanya semasa diterima.
+
+![Membelanjakan skrol untuk penyelidikan hari Rabu](/img/dtf/alliance-duel/05.jpg)
+
+### Khamis: seruan dan pertumbuhan wira {#dtf-thursday}
+
+Mata untuk tiket seruan Taun, serpihan, peningkatan bintang, lencana kemahiran, dan antitoksin. Simpan tiket, serpihan peribadi, lencana kemahiran, dan antitoksin untuk hari ini. Tarikan Taun memberikan wira berserta serpihan peribadi wira yang ditarik — bukan serpihan universal, yang mesti diperoleh daripada acara/kedai. Tarik dalam puluhan apabila tiket mencukupi. Urutan: **bintang pada wira utama → lencana kemahiran → antitoksin untuk tahap**. Beri makan kepada skuad pertama, bukan keseluruhan senarai; belanjakan serpihan peribadi pada pasukan yang aktif dan simpan yang universal untuk wira yang kuat/jarang ditemui.
+
+![Peningkatan bintang dan kemahiran wira pada hari Khamis](/img/dtf/alliance-duel/06.jpg)
+
+Semak peringkat wira Pertempuran Kelangsungan Hidup (Survival Battle) terlebih dahulu — serpihan/lencana/antitoksin yang sama boleh membayar dalam kedua-dua acara. Hari Khamis biasanya ditutup paling cepat: seru, kembangkan pasukan utama, kumpul.
+
+### Jumaat: tentera berserta Royal Rumble {#dtf-friday}
+
+Latihan dan peningkatan pangkat, dengan Royal Rumble pada hari yang sama — tentera mesti menjaringkan mata dan bertempur. Tuntutan pencapaian Falcon hari Khamis yang disimpan pada waktu pagi, kemudian fokus pada tapak latihan. Tinggalkan pecutan pembinaan/penyelidikan untuk minggu depan melainkan satu peti lagi diperlukan untuk mendapatkan mata. Ambil gelaran **Minister of War**; gunakan tapak latihan lemah untuk menghasilkan tentera peringkat pertengahan secara besar-besaran (cth. kelompok T6 yang besar) kemudian latih semula ke T9 pada tapak latihan utama — kadangkala lebih pantas daripada T9 mentah. Simpan tentera lemah dan pecutan latihan terlebih dahulu; bermula pada hari Jumaat adalah terlalu lewat untuk kenaikan pangkat yang besar.
+
+![Latihan tentera hari Jumaat dan Royal Rumble](/img/dtf/alliance-duel/07.jpg)
+
+### Sabtu: KvK, penyembuhan, perisai (shields) {#dtf-saturday}
+
+KvK dibuka: pindah teleport ke kerajaan musuh, serang benteng, bunuh tentera untuk mata pertempuran. Serangan ke atas saingan duel biasanya memberikan pulangan terbaik, tetapi pertempuran KvK yang lain tetap dikira. Pra-penerbangan: perarakan utama, teleport, ruang wad, stok perisai — hari Sabtu memberikan bayaran paling banyak dan paling cepat menjadi sifar. Pecutan penyembuhan juga mendapat mata, jadi tentera cedera yang diletakkan sebelum hari Sabtu boleh menunggu peringkat tersebut — tetapi jangan sekali-kali memenuhi wad melebihi had, tentera yang berlebihan akan mati. Pasang perisai pada petang Jumaat: selepas serangan anda sendiri, perisai akan jatuh dan aktif semula hanya selepas pemasa pertempuran, jadi simpan perisai tambahan berserta teleport, berundur ke tanah perikatan atau teleport rawak, dan jangkakan sekatan kemasukan semula selama beberapa minit selepas meninggalkan zon serbuan.
+
+![Penggunaan perisai sebelum KvK hari Sabtu](/img/dtf/alliance-duel/08.jpg)
+
+Mata pasukan: Isnin biasanya paling murah, Selasa–Sabtu lebih berat, Sabtu boleh menentukan keputusan minggu tersebut. Hari Isnin yang kalah tidak membawa apa-apa — penyelidikan yang bersih, wira, tentera, dan KvK akan mengubah jumlah keseluruhan. Semak tetingkap terperinci duel untuk skor setiap hari.
+
+---
+> Sumber: [Дуэль альянсов в Last Asylum: Plague - гайд по дням](https://dtf.ru/howto/5238861-duel-alyansov-last-asylum-plague-strategii-i-sovety) oleh Гейм-Знаток di DTF.

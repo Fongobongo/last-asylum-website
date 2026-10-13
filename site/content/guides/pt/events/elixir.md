@@ -2,7 +2,7 @@
 title: "Luta pelo Elixir: Como Vencer"
 description: "Um campo de batalha de aliança contra aliança de 30 minutos: cinco estágios, pontuação baseada em controle, prioridade para a Tenda de Cura, regras de teletransporte e o erro no muro que acaba com sua partida em 10 minutos."
 lang: pt
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: elixir
 calculators: []
 infographics: ["/infographics/elixir-guide.webp", "/infographics/elixir-strategy.webp"]
@@ -336,3 +336,66 @@ O Nível de RES é essencial para enfrentar Monstros da era. Aumentá-lo concede
 
 RES é o único atributo para combater Monstros da era. Cada Monstro possui seu próprio atributo de RES. Quando seu RES supera o do Monstro, você o derrota com facilidade; caso contrário, enfrentará desvantagens ou até a derrota em batalha.
 
+
+---
+
+## Táticas de Campo: Esquadrões, Edifícios e Consciência do Mapa {#field-tactics}
+
+O poder importa no Elixir Scramble, mas decide muito menos do que a organização. Uma aliança mais forte perde para uma mais fraca que controla os Portões de Migração (Migration Gates), coleta pontos caídos e nunca estaciona heróis em uma única tenda. O evento acontece às **sextas-feiras**; a liderança da aliança geralmente atribui funções com antecedência — Portões, tendas, alquimia, centro — e o e-mail com o plano realmente vale a pena ser lido. Um jogador ativo vence um ausente registrado todas as vezes: edifícios vazios e companheiros de equipe com função dupla seguem os ausentes por toda parte.
+
+![Plano de batalha da aliança para o Elixir Scramble](/img/dtf/elixir/01.jpg)
+
+### Configure três esquadrões por função, não apenas por poder {#squad-roles}
+
+- **O Esquadrão 1 é sempre o mais forte** — a escalação principal que derruba oponentes fortes e segura edifícios-chave.
+- **Os Esquadrões 2 e 3 podem ser esquadrões técnicos leves — até mesmo com um único herói.** Derrote o inimigo com a força principal, depois posicione um esquadrão barato no ponto e libere o Esquadrão 1 para o próximo ataque. Se o detentor fraco for derrotado, as perdas serão muito menores.
+- Um luta, um segura, um cobre ou pega pontos extras.
+
+![Configurando o primeiro, segundo e terceiro esquadrões antes da corrida](/img/dtf/elixir/02.jpg)
+
+### Verificação de muralha — e o truque da Isca de Reconhecimento {#wall-scout-trick}
+
+Abra a defesa da fortaleza antes da luta: **deixe apenas o esquadrão mais forte na muralha, retire os esquadrões 2 e 3.** Contra um atacante mais forte, esquadrões fracos na muralha são derrotas gratuitas — alguns milhares de soldados perdidos aqui e ali, e então o Esquadrão 2 existe espiritualmente em vez de fisicamente. Contra oponentes mais fracos, a muralha do Esquadrão 1 vence sozinha. E se um monstro imparável estiver se aproximando, **tire tudo e deixe-os queimar uma fortaleza vazia** — manter o exército é melhor do que manter a posição.
+
+![Posicionamento dos esquadrões na muralha](/img/dtf/elixir/03.jpg)
+
+Truque de reconhecimento: se o reconhecimento inimigo estiver a caminho, **retire o Esquadrão 1 da muralha por alguns segundos** para que o relatório mostre uma fortaleza vazia, e então coloque-o de volta. Um atacante impulsivo ataca diretamente em uma defesa completa. Não é magia — os veteranos percebem —, mas funciona muito bem contra atacantes automáticos.
+
+### Prioridade de edifícios baseada na experiência {#building-priority}
+
+Não tente segurar tudo com oito jogadores ativos e onze pontos — segure os principais:
+
+- **Portões de Migração (Migration Gates) — defenda desde o início.** O recuo de −50% no tempo de recarga de alocação significa chegar para ajudar na hora certa, retomar edifícios perdidos, escapar de ataques ruins e se teleportar para trás de alguém que marchou com tudo para fora. Coloque um jogador forte nos Portões; se ele precisar sair, deixe pelo menos um detentor técnico fraco. Pior cenário: vencer uma luta de cinco minutos nos Portões, e então ambos os jogadores fortes voarem para longe e deixarem o local vazio.
+- **Tendas de Cura (Healing Tents - 4 no total) — segure pelo menos duas em meados da batalha.** 15 feridos a cada 10 segundos (reivindicados por meio de um botão) parecem poucos até que ambos os lados tenham trocado limpezas e o Esquadrão 2 não tenha mais ninguém para enviar. Cure em pequenos lotes para controlar os custos de aceleração.
+- **Oficinas de Alquimia (Alchemy Workshops) — renda constante, sem bônus** (~50 pontos/seg cada). Bom assim que os principais pontos forem controlados e a equipe tiver pessoas sobrando — nunca vale a pena trocar os Portões ou o centro por elas.
+- **Observatório — +10% de renda dos edifícios controlados.** Escala com o controle do mapa: ótimo com metade do mapa, fraco com dois pontos em dez.
+- **Centro (abre ~minuto 10): Castelo de Elixir + Relíquia de Guerra + Altar Amaldiçoado.** O Castelo é o ponto mais rico do mapa (~80 pontos/seg) — prepare jogadores fortes para este momento. A Relíquia fortalece o seu lado, o Altar enfraquece o inimigo (verifique as porcentagens exatas no jogo, o equilíbrio muda). Mire no Castelo mais um ponto de combate — **sem abandonar tudo**: uma captura bonita do centro enquanto o inimigo toma os Portões, duas tendas, a alquimia e o Observatório ainda aparecerá como derrota no placar.
+
+![Castelo de Elixir, Relíquia de Guerra e Altar Amaldiçoado após a abertura do centro](/img/dtf/elixir/04.jpg)
+
+### Os pontos caídos no chão {#dropped-points}
+
+Após uma captura, **kits médicos se acumulam ao lado do edifício** (começando após ~um minuto, crescendo enquanto é controlado). Se o ponto mudar de mãos, o estoque **se espalha e qualquer um pode pegá-lo** — incluindo você. De cinco a nove mil pontos espalhados ao redor de um edifício podem decidir uma partida acirrada:
+
+- Fique de olho no estoque sob seus edifícios; se estiver prestes a perder o ponto, prepare-se para voltar e coletar os itens caídos.
+- Um edifício inimigo com uma pilha grande e um dono derrotável se torna um alvo prioritário.
+- **Batedores rápidos são coletores de pontos**: detentores ociosos devem procurar por gotas amarelas e correr com os batedores até elas (as suas vs. as deles são visíveis por cor). As melhorias de velocidade dos batedores se pagam aqui.
+
+![Coletando kits médicos e pontos ao redor de edifícios capturados](/img/dtf/elixir/05.jpg)
+
+### Hábitos no meio da batalha que vencem partidas {#mid-fight-habits}
+
+- **Esquadrão forte luta, esquadrão fraco segura.** Nunca deixe o melhor exército guardando uma sala não contestada por dez minutos — faça um rodízio trazendo-o de volta quando um inimigo sério se aproximar do detentor fraco.
+- **Capture a fortaleza esvaziada.** Quando todos os três esquadrões inimigos marcharem para fora, teletransporte-se e atinja a base vazia — até mesmo forçar o esquadrão principal a retornar já é uma vitória.
+- **Inspecione alvos distantes primeiro.** Uma longa marcha em direção a uma fortaleza desconhecida que evapora é uma viagem desperdiçada; se um jogador continuar te derrotando, troque de alvo com um aliado em vez de tentar provar um ponto pela vigésima vez.
+- **Ficou sem soldados? Continue no evento.** Acampamentos tardios **rendem ~5 pontos/seg cada** — três acampamentos dão 15/seg, o que é melhor do que zero. Continue coletando kits médicos, fazendo reconhecimento e tomando pontos vazios com esquadrões técnicos; jogadores quase sem exército já lideraram tabelas de coleta dessa forma.
+- **Leia o chat.** Avisos curtos ("portões vazios", "preciso do centro", "não consigo romper", "peguem os kits médicos") fazem parte das táticas — peça uma troca cedo em vez de alimentar um oponente mais forte por dez minutos.
+- **Verifique o relatório pós-batalha, não apenas a sua classificação.** Contagens de abates enganam; o jogador que silenciosamente pegou pontos livres e coletou itens caídos frequentemente pontua mais do que o brawler. A participação também rende **Medalhas de Honra**, que podem ser gastas na loja do evento (materiais, projetos de equipamentos) — revise as estatísticas antes de fechar a janela.
+
+![Reunindo pontos de acampamentos no final da batalha](/img/dtf/elixir/06.jpg)
+
+![Resultados pós-batalha: coleta, capturas e lutas](/img/dtf/elixir/07.jpg)
+
+Erros comuns a evitar: ignorar o e-mail do plano, defender com esquadrões fracos na muralha, abandonar pontos antigos para ir ao centro de uma só vez e esquecer os espólios no chão. Monitore os pontos por segundo durante todo o jogo — você pode queimar cinco jogadores lindamente e ainda assim perder o evento.
+
+> Fonte: [Гонка за эликсиром в Last Asylum: Plague - тактика и стратегии](https://dtf.ru/howto/5338769-gonka-za-eliksirom-v-last-asylum-plague-taktika-i-strategii) por Гейм-Знаток no DTF.

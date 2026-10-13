@@ -2,7 +2,7 @@
 title: "Priorités de construction et feuille de route du Sanctuaire"
 description: "Feuille de route du Sanctuaire jusqu'au niveau 30, l'ordre de priorité des constructions, le rôle de chaque bâtiment et comment cumuler correctement les bonus de vitesse de construction."
 lang: fr
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: buildings
 ---
 
@@ -252,3 +252,83 @@ Une fois que la macro-priorité ci-dessus est en place, voici les raccourcis dan
 - [Statue de guerrier](/fr/buildings/warrior-statue/)
 - [Tour de guet](/fr/buildings/watchtower/)
 - [Atelier de tissage](/fr/buildings/weaving-workshop/)
+
+## 🧱 Tactiques de construction pour débutants {#dtf-beginner-tactics}
+
+Des améliorations réparties uniformément dans toute la forteresse bloquent le compte : les ressources s'épuisent exactement au moment où le Sanctuaire, le Labo, les Terrains d'entraînement ou les Ateliers d'antitoxine en ont besoin. Cette section est le guide du débutant — à quoi sert chaque bâtiment et dans quel ordre s'en occuper.
+
+![Aperçu du guide de construction pour débutant](/img/dtf/buildings/01.jpg)
+
+### Le Sanctuaire d'abord, les héros limités par celui-ci {#dtf-sanctuary-first}
+
+Le Sanctuaire définit le plafond de tout : les niveaux des héros (environ +5 par niveau de Sanctuaire — par ex., le Sanctuaire 28 permet d'atteindre le niveau 140 pour les héros) et de tous les autres bâtiments. Si les cinq principaux atteignent la limite, de l'antitoxine supplémentaire n'aidera pas — seul le niveau de Sanctuaire suivant la relèvera. Chaque niveau de Sanctuaire exige également plusieurs bâtiments préalables (Labo, Terrains d'entraînement, Casernes, statues), alors consultez les prérequis en avance et préparez toute la chaîne. N'attendez pas que tous les héros soient au maximum — commencez le niveau de Sanctuaire suivant à l'avance.
+
+![Niveau du Sanctuaire et limite de niveau des héros](/img/dtf/buildings/02.jpg)
+
+### Deux bâtisseurs, deux rôles {#dtf-two-builders}
+
+L'emplacement temporaire du second bâtisseur (500 diamants) doit remplir une tâche différente du premier : l'emplacement long s'occupe du Sanctuaire, du Labo ou d'un autre bâtiment obligatoire de plusieurs jours, tandis que le bâtisseur libre boucle les améliorations courtes — fermes, scieries, jardins, ateliers d'antitoxine et les prérequis intermédiaires pour le prochain Sanctuaire. Deux bâtisseurs sur de grands projets signifient aucun emplacement pour des besoins soudains ; deux sur de petites tâches signifient que le bâtiment principal prend un retard infini.
+
+Planifiez les grandes fins de chantier pour le jour de construction du Duel d'alliance : un bâtiment terminé n'a pas besoin d'être récupéré tout de suite — laissez le marteau au-dessus et touchez-le après le basculement de la phase de l'événement, marquant des points pour un travail déjà accompli. Le bâtiment continue d'occuper l'emplacement, ne gardez donc le marteau qu'au-dessus des grands projets. Prenez d'abord toute l'aide de l'alliance, puis dépensez les accélérations, puis récupérez.
+
+![Récupération d'une construction terminée lors du jour de construction du Duel d'alliance](/img/dtf/buildings/03.jpg)
+
+### Les bâtiments de ressources peuvent accuser du retard {#dtf-resource-lag}
+
+Fermes, scieries et jardins d'herbes fournissent céréales, bois et herbes — mais ils n'ont pas besoin d'égaler le Sanctuaire. Un écart de cinq à six niveaux reste confortable. Pendant que le second bâtisseur s'affaire sur le Sanctuaire, le premier élève progressivement les bâtiments de ressources, et par-dessus tout les ateliers d'antitoxine : l'antitoxine est consommée en permanence pour faire monter les héros en niveau.
+
+![Fermes, scieries et jardins d'herbes](/img/dtf/buildings/04.jpg)
+
+Les entrepôts (bois, céréales, herbes) augmentent seulement la quantité protégée que les attaquants ne peuvent pas piller. Ils ne débloquent aucun niveau, technologie ou troupe, alors maintenez-les nettement en retrait à moins qu'un prérequis du Sanctuaire ne les nomme. La stratégie la plus sûre : gardez les packs de matériaux non ouverts dans l'inventaire et ouvrez-les juste avant la construction — ainsi, même des entrepôts faibles ne perdent presque rien.
+
+![Entrepôts de bois, de céréales et d'herbes](/img/dtf/buildings/05.jpg)
+
+### Taverne, Temple et Laboratoire de recherche {#dtf-tavern-temple-lab}
+
+La Taverne recrute des héros et des survivants, et l'améliorer raccourcit le temps de recharge du recrutement gratuit — mais seulement d'environ une heure après plusieurs niveaux. Améliorez-la selon les exigences du Sanctuaire ou le jour de construction ; il est bien plus important de penser à utiliser les recrutements gratuits disponibles. Les 50 premiers tirages mènent à des fragments d'Arthur garantis.
+
+![Invocations de héros et de survivants à la Taverne](/img/dtf/buildings/06.jpg)
+
+Les statues de Guerrier, de Rôdeur et de Sorcier du Temple confèrent directement des stats d'ATQ/PV/DÉF de faction. Commencez par la faction de votre escouade 1, mais ne déséquilibrez pas trop : les autres statues entrent dans les prérequis du Sanctuaire, et les escouades 2 à 3 en ont besoin pour les expéditions.
+
+![Statues de Guerrier, de Rôdeur et de Sorcier dans le Temple](/img/dtf/buildings/07.jpg)
+
+Après le Sanctuaire, le Laboratoire de recherche est le bâtiment primordial — technologies économiques, de héros, de troupes et de développement s'y trouvent toutes. Lancez les recherches de l'arbre du Duel d'alliance les mercredis afin que les mêmes accélérations rapportent des points d'événement, et ne brûlez pas toutes vos accélérations universelles sur les bâtiments : une partie du stock doit couvrir la recherche, en particulier les technologies militaires onéreuses.
+
+![Laboratoire de recherche](/img/dtf/buildings/08.jpg)
+
+### Armée : Terrains d'entraînement, Casernes, Infirmerie {#dtf-army-buildings}
+
+Des Terrains d'entraînement de plus haut niveau débloquent des rangs de troupes plus puissants (T1 à T10). N'améliorez pas tous les terrains de façon égale : gardez-en un au maximum et utilisez les autres pour entraîner massivement des troupes bon marché, puis promouvez-les sur le terrain principal — coût en ressources comparable, temps infiniment moindre. Le terrain principal doit suivre le rythme du Sanctuaire puisque les nouveaux rangs et les prérequis du Sanctuaire en dépendent tous deux.
+
+Les Casernes abritent l'armée entraînée, et la capacité s'ature vite : les assauts de chasse aux voleurs et les combats des vendredi/samedi consument des milliers de soldats. Si les Casernes sont pleines, les terrains tournent au ralenti et les marches partent incomplètes — améliorez-les en même temps que le terrain principal. La capacité et la vitesse de guérison de l'Infirmerie déterminent les coups que le compte peut encaisser : si une seule bataille la remplit, il est temps de l'améliorer. Des infirmeries sous-dimensionnées transforment les blessés en pertes permanentes.
+
+### Cabane du bâtisseur, Hall de l'alliance et Murailles {#dtf-support-defense}
+
+La Cabane du bâtisseur raccourcit tous les projets futurs, l'investissement se répercute donc sur tout le compte. Le Hall de l'alliance améliore l'aide des alliés (plus de clics, plus de minutes par clic) — demandez toujours de l'aide dès qu'un long chrono démarre et ne dépensez des accélérations qu'une fois que les alliés ont fini, sous peine de gaspiller du temps gratuit.
+
+![Aide des alliés via le Hall de l'alliance](/img/dtf/buildings/09.jpg)
+
+Trois escouades défensives se tiennent sur les Murailles, aux côtés des fortifications et du bouton d'extinction. Pour les réorganiser, toutes les marches doivent être à la base. Surveillez les cases à cocher de défense : si elles sont activées, les héros et les soldats rejoignent la défense — face à un attaquant plus fort, cela signifie de lourdes pertes, c'est pourquoi de nombreux joueurs les décochent pendant les guerres inter-serveurs pour préserver l'armée, mais les cases doivent impérativement être recochées avant le Siège des morts-vivants sous peine de voir les vagues passer. Les niveaux des Murailles augmentent également la vitesse de marche pour les attaques de Fléau (Blight), la collecte et les retours.
+
+![Murailles et configuration de la défense](/img/dtf/buildings/10.jpg)
+
+### Camp de recherche, Tour de guet, Tour Faucon {#dtf-activity-buildings}
+
+Le Camp de recherche (passe de combat) ne coûte aucun soldat — le labo idéal pour tester des formations et comparer des héros — plus un revenu passif horaire (céréales, bois, herbes, antitoxine) et des coffres tous les quelques paliers. La Tour de guet gère les expéditions de faction (une faction par mode, se réinitialisant tous les 3 jours environ) : ne choisissez pas le maximum d'étoiles « pour la progression » — un run intermédiaire bloqué rapporte moins qu'un clear complet une étoile plus bas.
+
+La Tour Faucon émet des quêtes quotidiennes (de nouvelles toutes les 6 heures environ ; ~11 disponibles sur une tour développée mais seulement 9 tiennent sur le tableau, le reste fait la queue — les quêtes en excédent disparaissent). Les quêtes coûtent de l'énergie et rapportent des ressources, de l'antitoxine et des objets de Raven entre autres. N'améliorez la tour que si les quêtes sont réellement accomplies chaque jour.
+
+![Quêtes quotidiennes de la Tour Faucon](/img/dtf/buildings/11.jpg)
+
+### Quartier de l'équipement et ce qu'il faut reporter {#dtf-gear-defer}
+
+L'Atelier de fonte fabrique des Pierres d'équipement (une seule épée de haut niveau peut nécessiter plus de 20 000 pierres par amélioration — développez-le tôt), l'Atelier de tissage fabrique du tissu ensuite synthétisé en acier pour l'équipement doré, et l'Atelier d'équipement forge les pièces. Un ensemble doré complet pour l'escouade 1 prend beaucoup de temps, la production ne doit donc jamais être au point mort — une bonne épée de porteur et une armure de tank surpassent plusieurs niveaux aléatoires ailleurs.
+
+À reporter lorsque les ressources se font rares : Escouade de reconnaissance (reconnaissance plus rapide, pas de vitesse de développement), entrepôts au-dessus des prérequis, Taverne au-dessus des prérequis. L'Atelier de Raven peut être amélioré le jour de construction pour des points de duel. L'Arène, le Nid de Raven, le Centre d'opérations spéciales et la Salle des curiosités ne montent pas du tout en niveau — utilisez-les régulièrement, ils ne coûtent aucune ressource de construction.
+
+Ordre des débutants en une ligne : Sanctuaire sur l'emplacement long → Labo → Terrain d'entraînement principal, Casernes, Infirmerie, statue de la faction principale → Cabane du bâtisseur et Hall de l'alliance régulièrement → bâtiments de ressources ~5–6 niveaux sous le Sanctuaire → quartier de l'équipement → terrains supplémentaires et bâtiments secondaires → entrepôts, Taverne, éclaireurs selon les prérequis ou l'excédent.
+
+![Bon ordre d'amélioration des bâtiments](/img/dtf/buildings/12.jpg)
+
+> Source : [Здания Last Asylum: Plague - гайд для новичков](https://dtf.ru/howto/5238649-gaid-po-zdaniyam-last-asylum-plague-dlya-novichkov) par Гейм-Знаток sur DTF.

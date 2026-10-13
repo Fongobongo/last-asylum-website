@@ -3,7 +3,7 @@ title: "Clea: skill, build & leveling"
 description: "Clea is an SSR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Might, rank 12 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Clea Sh…"
 videoTopic: "claire"
 lang: id
-updated: "2026-09-19"
+updated: "2026-10-12"
 type: guide
 ---
 
@@ -290,3 +290,35 @@ Stars cost Clea the most, not in badges but in waiting: 975 shards, while a recr
 
 The best squad with Clea and no UR hero is Kaeso, Lucius, Sivir, Bella and Clea herself: five warriors, a +20% bonus and 8.1M of survivability. Alongside Arthur and Marlena she joins three of the five best reachable squads, where survivability reaches 38.2M, and the price of the full bonus is 20% extra damage from rangers.
 
+
+---
+
+## ✦ Claire Emas (UR): mekanika konversi dan kesimpulan {#dtf-gold-claire}
+
+Meningkatkan kelangkaan Claire mengubah versi SSR ungu menjadi versi UR — dan mekanikannya ternyata lebih ramah, lalu lebih mahal dari yang terlihat. Level terbawa, bintang tidak.
+
+### Apa yang bertahan dari transformasi ini {#dtf-claire-conversion}
+
+Setelah konversi, hero **tidak** kembali ke level 1: semua 150 level tetap ada. Bintang diatur ulang secara berbeda — Claire emas tiba di **enam bintang**, dengan sebagian sumber daya yang diinvestasikan dikembalikan sebagai fragmen dan lencana keahlian untuk didistribusikan kembali ke bentuk yang ditingkatkan. Kejutan yang kurang menyenangkan: bintang berikutnya membutuhkan biaya yang jauh lebih mahal — kira-kira dua kali lipat fragmen dari bentuk lamanya. Jadi, jangan terburu-buru mengembalikan kesepuluh bintang pada hari yang sama. Prioritasnya adalah **8★**, yang membuka keahlian kelima dan sudah memberikan kit yang sangat lengkap; dua bintang terakhir dapat diselesaikan secara bertahap melalui fragmen toko miliknya sendiri dan sumber yang tersedia.
+
+![Peningkatan kelangkaan Claire menjadi emas](/img/dtf/daskal-claire/05.jpg)
+
+![Claire emas setelah konversi](/img/dtf/daskal-claire/06.jpg)
+
+Peningkatan ini bukan sekadar perubahan warna: statistik dasar benar-benar melonjak, terutama HP dan ATK pada angka akun yang sama.
+
+![Perbandingan statistik Claire emas vs ungu](/img/dtf/daskal-claire/07.jpg)
+
+![Perbandingan statistik Claire UR vs lama](/img/dtf/daskal-claire/08.jpg)
+
+### Kuat — tetapi berfokus pada PvE {#dtf-claire-pve-focus}
+
+Jangan sebut Claire emas sebagai pengganti universal untuk DPS UR apa pun. Ia tetap disetel khusus untuk PvE dan monster: Call of the Brave meningkatkan damage dari tiga Warrior dengan ATK tertinggi di tim secara khusus terhadap monster, jadi pada Demon King dan konten PvE lainnya ia sangat unggul sementara sebagian dari kitnya tidak aktif di PvP. Jika kebutuhan utamanya adalah perang melawan pemain, Zoya terasa lebih universal.
+
+![Claire disetel untuk PvE dan monster](/img/dtf/daskal-claire/09.jpg)
+
+![Claire vs Marlena, Arthur, dan Harper pada level 150](/img/dtf/daskal-claire/10.jpg)
+
+Kesimpulan: Claire emas sangat memperkuat PvE Warrior tanpa secara otomatis menjadi pilihan terbaik untuk setiap mode. Pertahankan ia di delapan bintang, kumpulkan dua bintang terakhir secara perlahan, dan tempatkan ia di mana bonus monsternya berlaku.
+
+> Sumber: [Даскал и золотая Клэр в Last Asylum: Plague - как правильно прокачивать героев](https://dtf.ru/howto/5317537-daskal-i-zolotaya-kler-v-last-asylum-prokachka-geroev) oleh Гейм-Знаток di DTF.

@@ -3,7 +3,7 @@ title: "Claire: Yetenekler, Dizilim ve Seviye Atlatma"
 description: "Claire, DPS rolünü üstlenen bir SSR savaşçıdır. Tamamen geliştirildiğinde 685.150 Güce ulaşır ve oyunun DPS kahramanları arasında 16'da 12. sıradadır. Kilidini açmak 10 parça (Claire Parçası) gerektirir…"
 videoTopic: "claire"
 lang: tr
-updated: "2026-09-19"
+updated: "2026-10-12"
 type: guide
 ---
 
@@ -285,3 +285,35 @@ Her iki form da aynı parçayı paylaşır: 10 tanesi düz Claire'in kilidini a�
 Yıldızlar Claire için rozet olarak değil ama bekleme süresi olarak en büyük maliyettir: 975 parça gerekir ve bir işe alım (recruit) çekilişlerin yaklaşık %26'sında kahraman parçası verir. Yetenekler her biri 436.700 rozetle 40. seviyeye yükselir ve daha az geri dönüş sağlar: Call of the Brave gelişmiş formdaki %30'a kıyasla en fazla %24 canavar hasarı verir.
 
 Claire'i içeren ve UR kahraman barındırmayan en iyi birlik; Kesso, Lucius, Sivir, Bella ve Claire'in kendisidir: beş savaşçı, +%20 bonus ve 8,1M hayatta kalabilirlik. Arthur ve Marlena ile birlikte, hayatta kalabilirliğin 38,2M'e ulaştığı ve tam bonusun bedelinin ranger'lardan alınan %20 ekstra hasar olduğu, erişilebilen en iyi beş birlikten üçüne katılır.
+
+---
+
+## ✦ Altın (UR) Claire: dönüştürme mekanikleri ve karar {#dtf-gold-claire}
+
+Claire'in nadirliğini yükseltmek mor SSR sürümünü bir UR sürümüne dönüştürür; mekanikler ilk bakışta göründüğünden önce daha insaflı, ardından daha maliyetlidir. Seviyeler taşınır, yıldızlar taşınmaz.
+
+### Dönüşümden sağ çıkanlar {#dtf-claire-conversion}
+
+Dönüşümden sonra kahraman **1. seviyeye** gerilemez: 150 seviyenin tümü kalır. Yıldızlar farklı şekilde sıfırlanır — altın Claire **altı yıldızla** gelir; yatırılan kaynakların bir kısmı, gelişmiş formda yeniden dağıtılmak üzere parça ve beceri rozeti olarak iade edilir. Hoş olmayan sürpriz ise şudur: sonraki yıldızlar belirgin şekilde daha pahalıya mal olur — eski formun yaklaşık iki katı parça gerektirir. Bu yüzden aynı gün içinde her on yıldızı birden aceleyle açmayın. Öncelik, beşinci beceriyi açan ve halihazırda çok eksiksiz bir set sunan **8★**'dir; son iki yıldız, kendi dükkan parçaları ve mevcut kaynaklar aracılığıyla kademeli olarak kapatılabilir.
+
+![Claire'in altın nadirliğine yükseltilmesi](/img/dtf/daskal-claire/05.jpg)
+
+![Dönüşüm sonrası altın Claire](/img/dtf/daskal-claire/06.jpg)
+
+Bu yükseltme sadece bir renk değişimi değildir: temel istatistikler, özellikle de aynı hesabın sayıları üzerindeki HP ve ATK gerçek anlamda sıçrama yapar.
+
+![Altın ve mor Claire istatistik karşılaştırması](/img/dtf/daskal-claire/07.jpg)
+
+![UR ve eski Claire istatistik karşılaştırması](/img/dtf/daskal-claire/08.jpg)
+
+### Güçlü — ancak PvE odaklı {#dtf-claire-pve-focus}
+
+Altın Claire'i herhangi bir UR DPS için evrensel bir yedek olarak nitelendirmeyin. Kendisi PvE ve canavarlar için yoğun bir şekilde ayarlanmış olarak kalır: Cesaretin Çağrısı (Call of the Brave), takımın en yüksek ATK'ye sahip üç Savaşçısının hasarını özellikle canavarlara karşı artırır; bu nedenle İblis Kral ve diğer PvE içeriklerinde parıldarken, yetenek setinin bir kısmı PvP'de boşta kalır. Öncelikli ihtiyaç oyunculara karşı savaşsa, Zoya daha evrensel durur.
+
+![PvE ve canavarlar için ayarlanmış Claire](/img/dtf/daskal-claire/09.jpg)
+
+![150. seviyede Claire, Marlena, Arthur ve Harper karşılaştırması](/img/dtf/daskal-claire/10.jpg)
+
+Karar: Altın Claire, her mod için otomatik olarak en iyi seçim haline gelmeden Savaşçı PvE'sini muazzam bir şekilde güçlendirir. Onu sekiz yıldızda sabitleyin, son ikisini yavaşça kasın ve canavar bonusunun geçerli olduğu yerde tutun.
+
+> Kaynak: [Даскал и золотая Клэр в Last Asylum: Plague - как правильно прокачивать героев](https://dtf.ru/howto/5317537-daskal-i-zolotaya-kler-v-last-asylum-prokachka-geroev) - Гейм-Знаток, DTF.

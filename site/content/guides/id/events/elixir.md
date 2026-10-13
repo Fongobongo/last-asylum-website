@@ -2,7 +2,7 @@
 title: "Perebutan Ramuan Rahasia: Cara Menang"
 description: "Medan perang aliansi-lawan-aliansi berdurasi 30 menit: lima tahap, skor berbasis kendali, prioritas Healing Tent, aturan teleportasi, dan kesalahan pada tembok yang akan mengakhiri permainan Anda dalam 10 menit."
 lang: id
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: elixir
 calculators: []
 infographics: ["/infographics/elixir-guide.webp", "/infographics/elixir-strategy.webp"]
@@ -337,3 +337,66 @@ Level RES adalah inti untuk melawan Monster era. Naikkan Level Level RES untuk m
 
 RES adalah satu-satunya atribut untuk melawan Monster era. Setiap Monster memiliki atribut RES sendiri. Jika RES Anda lebih tinggi dari RES Monster, Anda dapat mengalahkannya dengan mudah. Jika RES Anda lebih rendah dari RES Monster, Anda akan berada dalam posisi tidak menguntungkan bahkan bisa kalah dalam pertempuran.
 
+
+---
+
+## Taktik Lapangan: Pasukan, Bangunan, dan Kesadaran Peta {#field-tactics}
+
+Kekuatan memang penting dalam Elixir Scramble, tetapi organisasi jauh lebih menentukan. Aliansi yang lebih kuat akan kalah dari aliansi yang lebih lemah namun menguasai Gerbang Migrasi (Migration Gates), mengumpulkan poin yang terjatuh, dan tidak pernah memarkirkan hero di satu tenda saja. Acara ini diadakan setiap hari **Jumat**; kepemimpinan aliansi biasanya membagikan peran terlebih dahulu — Gerbang, tenda, alkimia, pusat — dan pesan rencana tersebut benar-benar layak untuk dibaca. Pemain yang aktif selalu mengalahkan pemain terdaftar yang mangkir: bangunan yang kosong dan rekan setim yang merangkap tugas ganda selalu menguntungkan para pemain yang mangkir.
+
+![Rencana pertempuran aliansi untuk Elixir Scramble](/img/dtf/elixir/01.jpg)
+
+### Siapkan tiga skuad berdasarkan peran, bukan hanya berdasarkan kekuatan {#squad-roles}
+
+- **Skuad 1 selalu yang terkuat** — susunan utama yang melumpuhkan musuh kuat dan menguasai bangunan-bangunan penting.
+- **Skuad 2 dan 3 bisa berupa skuad teknis ringan — cukup dengan satu hero saja.** Lumpuhkan musuh dengan kekuatan utama, lalu parkirkan skuad murah di titik tersebut dan bebaskan Skuad 1 untuk serangan berikutnya. Jika penjaga yang lemah itu dikalahkan, kerugiannya jauh lebih kecil.
+- Satu bertarung, satu bertahan, satu mengamankan atau mengambil poin tambahan.
+
+![Mengatur skuad pertama, kedua, dan ketiga sebelum pertandingan](/img/dtf/elixir/02.jpg)
+
+### Pemeriksaan tembok — dan trik umpan pengintai {#wall-scout-trick}
+
+Buka pertahanan benteng sebelum pertempuran: **sisakan hanya skuad terkuat di tembok, tarik keluar skuad 2–3.** Menghadapi penyerang yang lebih kuat, skuad tembok yang lemah adalah kerugian cuma-cuma — ribuan pasukan melayang di sana-sini, lalu Skuad 2 hanya ada dalam angan, bukan secara fisik. Menghadapi lawan yang lebih lemah, tembok Skuad 1 akan menang dengan sendirinya. Dan jika monster yang tak terbendung sedang datang, **tarik semuanya dan biarkan mereka membakar benteng yang kosong** — mempertahankan pasukan jauh lebih baik daripada mempertahankan posisi.
+
+![Penempatan skuad tembok](/img/dtf/elixir/03.jpg)
+
+Trik pengintai: jika pengintaian musuh sedang dalam perjalanan, **tarik Skuad 1 dari tembok selama beberapa detik** sehingga laporan menunjukkan benteng kosong, lalu pasang kembali. Penyerang yang gegabah akan langsung meluncur ke pertahanan penuh. Ini bukan sihir — para veteran bisa melihatnya — tetapi ini bekerja sangat baik pada penyerang otomatis.
+
+### Prioritas bangunan berdasarkan pengalaman {#building-priority}
+
+Jangan mencoba menguasai segalanya dengan delapan pemain aktif dan sebelas titik — kuasai titik-titik kuncinya saja:
+
+- **Gerbang Migrasi (Migration Gates) — pertahankan sejak awal.** Cooldown relokasi -50% berarti dapat tiba untuk membantu tepat waktu, merebut kembali bangunan yang hilang, melarikan diri dari serangan buruk, dan berteleportasi ke belakang musuh yang memindahkan seluruh pasukannya. Tempatkan pemain kuat di Gerbang; jika mereka harus pergi, tinggalkan setidaknya satu penjaga teknis yang lemah. Skenario terburuk: menenangkan pertarungan Gerbang selama lima menit, lalu kedua pemain kuat terbang pergi dan membiarkannya kosong.
+- **Tenda Penyembuhan (Healing Tents) (total 4) — kuasai setidaknya dua di pertengahan pertempuran.** 15 yang terluka per 10 detik (diklaim melalui tombol) terasa sedikit hingga kedua kubu saling menghancurkan dan Skuad 2 tidak punya siapa pun lagi untuk dikirim. Sembuhkan dalam kelompok kecil untuk mengendalikan biaya percepatan.
+- **Bengkel Alkimia (Alchemy Workshops) — pendapatan stabil, tanpa buff** (~50 poin/detik masing-masing). Bagus setelah titik utama dikuasai dan tim memiliki kelebihan orang — tidak pernah sepadan jika harus menukar Gerbang atau pusat demi ini.
+- **Observatorium (Observatory) — +10% pendapatan dari bangunan yang dikuasai.** Berskala dengan pengontrolan peta: sangat bagus saat menguasai separuh peta, lemah saat hanya menguasai dua dari sepuluh titik.
+- **Pusat (buka sekitar menit ke-10): Kastil Elixir (Elixir Castle) + Relik Perang (War Relic) + Altar Terkutuk (Cursed Altar).** Kastil adalah titik terkaya di peta (~80 poin/detik) — persiapkan pemain kuat untuk momen ini. Relik memberi buff pada pihakmu, Altar melemahkan musuh (cek persentase pastinya di dalam game, keseimbangan terus bergeser). Incar Kastil ditambah satu titik pertempuran — **tanpa mengabaikan segalanya**: kemenangan merebut pusat yang indah sementara musuh merebut Gerbang, dua tenda, alkimia, dan Observatorium tetap akan terlihat sebagai kekalahan di papan skor.
+
+![Kastil Elixir, Relik Perang, dan Altar Terkutuk setelah pusat terbuka](/img/dtf/elixir/04.jpg)
+
+### Poin yang berserakan di tanah {#dropped-points}
+
+Setelah perebutan, **medkit menumpuk di sebelah bangunan** (mulai terkumpul setelah ~satu menit, bertambah selama dikuasai). Jika titik tersebut direbut pihak lain, tumpukan tersebut **akan berserakan dan siapa pun dapat mengambilnya** — termasuk kamu. Lima hingga sembilan ribu poin yang berserakan di sekitar bangunan dapat menentukan hasil pertandingan yang ketat:
+
+- Awasi tumpukan di bawah bangunanmu; jika kamu akan kehilangan titik tersebut, bersiaplah untuk kembali dan mengambil jatuhan poin tersebut.
+- Bangunan musuh dengan tumpukan yang banyak dan pemilik yang bisa dikalahkan menjadi target prioritas.
+- **Pengintai cepat adalah pengumpul poin**: penjaga yang nganggur harus memindai tetesan berwarna kuning dan berpacu dengan pengintai lain untuk mendapatkannya (milikmu vs milik mereka terlihat dari warnanya). Peningkatan kecepatan pengintai sangat sepadan di sini.
+
+![Mengumpulkan medkit dan poin di sekitar bangunan yang dikuasai](/img/dtf/elixir/05.jpg)
+
+### Kebiasaan di tengah pertempuran yang memenangkan pertandingan {#mid-fight-habits}
+
+- **Skuad kuat bertarung, skuad lemah bertahan.** Jangan pernah membiarkan pasukan terbaik menjaga ruangan yang tidak diperebutkan selama sepuluh menit — rotasikan kembali saat musuh yang serius mendekati penjaga yang lemah.
+- **Tangkap benteng yang kosong.** Ketika ketiga skuad musuh keluar berbaris, berteleportasilah dan serang markas yang kosong — bahkan memaksa skuad utama untuk kembali saja sudah merupakan sebuah kemenangan.
+- **intai target yang jauh terlebih dahulu.** Perjalanan panjang ke benteng tak dikenal yang ternyata kosong adalah perjalanan yang sia-sia; jika satu pemain terus mengalahkanmu, tukar target dengan sekutu daripada membuktikan diri untuk kedua puluh kalinya.
+- **Kehabisan prajurit? Tetap ikuti event.** **Kamp-kamp akhir menghasilkan ~5 poin/detik masing-masing** — tiga kamp berarti 15/detik, yang lebih baik daripada nol. Terus kumpulkan medkit, lakukan pengintaian, dan ambil titik kosong dengan skuad teknis; pemain yang hampir kehabisan pasukan sering kali memuncaki tangga lagu pengumpulan dengan cara ini.
+- **Baca obrolan.** Panggilan singkat ("gerbang kosong", "butuh pusat", "tidak bisa menembus", "ambil medkit") adalah bagian dari taktik — mintalah pertukaran lebih awal daripada terus memberi makan lawan yang lebih kuat selama sepuluh menit.
+- **Periksa laporan setelah pertempuran, bukan hanya peringkatmu.** Jumlah pembunuhan bisa mengecoh; pemain yang diam-diam mengambil poin gratis dan mengumpulkan jatuhan sering kali mencetak skor lebih tinggi daripada si petarung. Partisipasi juga menghasilkan **Medali Kehormatan (Honor Medals)**, yang dapat dibelanjakan di toko acara (material, cetak biru perlengkapan) — tinjau statistiknya sebelum menutup jendela.
+
+![Mengumpulkan poin dari kamp di akhir pertempuran](/img/dtf/elixir/06.jpg)
+
+![Hasil pasca-pertempuran: pengumpulan, perebutan, dan pertempuran](/img/dtf/elixir/07.jpg)
+
+Kesalahan umum yang harus dihindari: mengabaikan pesan rencana, bertahan dengan skuad tembok yang lemah, meninggalkan titik lama demi pusat secara bersamaan, dan melupakan jarahan di tanah. Awasi poin per detik sepanjang permainan — kamu bisa membakar lima pemain dengan gemilang namun tetap kalah dalam event tersebut.
+
+> Sumber: [Гонка за эликсиром в Last Asylum: Plague - тактика и стратегии](https://dtf.ru/howto/5338769-gonka-za-eliksirom-v-last-asylum-plague-taktika-i-strategii) oleh Гейм-Знаток di DTF.

@@ -3,7 +3,7 @@ title: "Daskal: habilidades, build e evolução"
 description: "Daskal is a UR warrior who plays as tank. Fully upgraded, he reaches 1,057,192 Might, rank 2 of 11 among the game's tanks. Unlocking him takes 10 shards ( Daskal Shard), …"
 videoTopic: "heroes"
 lang: pt
-updated: "2026-09-19"
+updated: "2026-10-12"
 type: guide
 ---
 
@@ -325,3 +325,75 @@ Awakening costs the most: 2,870 shards for 40 levels against 975 for all 50 star
 
 Daskal stands in two tier S squads. Arthur, Marlena, Daskal, Harper and Louis earn a +15% faction bonus for four warriors, 150.7M of survivability and 98 points out of 100 in the squad review. His shield stacks with Billy's Fate's Thread, which removes 36% of the damage from the squad.
 
+
+## 🔄 Reconstruindo o esquadrão principal em torno de Daskal {#dtf-daskal-rebuild}
+
+Conseguir o herói é apenas o começo: ele precisa de antitoxina, estrelas, habilidades, equipamentos, um espaço no esquadrão — e então a Arena, as Muralhas e todas as formações salvas devem conhecê-lo. Este é o passo a passo completo da reconstrução: puxar Daskal, levá-lo ao máximo de 1→150 e encaixá-lo no primeiro esquadrão de Guerreiros no lugar da Bella.
+
+![Guia de progressão dos heróis Daskal e Claire dourada](/img/dtf/daskal-claire/01.jpg)
+
+### Gaste alto na quinta-feira de heróis {#dtf-hero-thursday}
+
+Nunca queime tickets de contratação, fragmentos universais, emblemas de habilidade e estoques de antitoxina em um dia aleatório. A quinta-feira realiza a etapa de heróis do Duelo da Aliança, e quase tudo nesta reconstrução pontua — invocações, gastos de fragmentos, consumo de emblemas e antitoxina. Um impulso de progressão funciona duas vezes: uma conta mais forte somada a recompensas de duelo. Aborde a quinta-feira preparado.
+
+![Missões de desenvolvimento de heróis da fase 4 do Duelo da Aliança](/img/dtf/daskal-claire/02.jpg)
+
+Neste caso, o objetivo era exato: Daskal. Cerca de 250 tickets foram gastos na semana anterior sem que ele aparecesse, depois as invocações gratuitas mais novas tentativas — as primeiras dez erraram, as segundas dez acertaram. O momento-chave é saber quando parar: uma vez que o herói é obtido, tickets adicionais compram fragmentos e emblemas de habilidade, não a própria invocação.
+
+![Invocando Daskal nas invocações de heróis](/img/dtf/daskal-claire/03.jpg)
+
+### Dica de grama: não pule os ladrões {#dtf-thieves-grass}
+
+Enquanto o evento dos ladrões estiver ativo, ele complementa o estoque de ervas que a pesquisa avançada esgota até zerar. Um alvo pessoal grande paga mais de um milhão de ervas, os pequenos algumas centenas de milhares cada — os números exatos variam com a atividade, mas como uma recarga de emergência de ervas durante um evento ativo, funciona muito bem.
+
+![Evento de ladrões](/img/dtf/daskal-claire/04.jpg)
+
+### Daskal 1→150: para onde vai a antitoxina {#dtf-daskal-leveling}
+
+Daskal chega no nível 1, e o estoque de antitoxina foi guardado especificamente para ele — corretamente, porque o custo é enlouquecedor. Até ~100 ainda parece inofensivo, com os níveis subindo voando sem pânico. Então a verdadeira diversão começa: quanto mais perto de 150, mais cada nível custa. O caminho completo de 1→150 leva **5.248.471.500 de antitoxina — pouco mais de 5,2 bilhões**. Qualquer um planejando a mesma corrida do zero ao máximo deve acumular além de cinco bilhões, não dois ou três. A antitoxina vem de oficinas, recompensas e itens de inventário guardados — então não abra os potes cedo sem motivo; deixe-os esperar pelo herói que importa.
+
+![Subindo o nível de Daskal de 1 a 150 com antitoxina](/img/dtf/daskal-claire/11.jpg)
+
+### Por que Daskal pertence ao esquadrão 1 {#dtf-why-daskal}
+
+Daskal é um tanque UR Guerreiro cujo kit faz exatamente o que a linha de frente precisa: sua ultimate protege todos os aliados, sua ativa causa dano físico enquanto cura o próprio Daskal, e um efeito passivo concede escudos aos tanques aliados no início da batalha. Ele sobrevive ao dano e ajuda o resto da equipe a sobreviver a ele.
+
+Substituir a Bella aqui é a jogabilidade lógica — e a Bella não se aposenta. Ela vai para o esquadrão 3, que está justamente precisando de um bom tanque de linha de frente. Um novo herói fortalece dois esquadrões de uma só vez.
+
+### Remova os equipamentos da Bella primeiro {#dtf-gear-transfer}
+
+Antes de finalizar a troca, mova o bom conjunto do tanque antigo para o novo — caso contrário, o resultado será um UR com estrelas no nível 150 correndo de pantufas. Não havia arma exclusiva para Daskal aqui, então os equipamentos disponíveis foram colocados nele, o restante do conjunto da Bella foi transferido, e a Bella recebeu os itens do herói deslocado do esquadrão 3 conforme se mudava para lá.
+
+![Transferindo os equipamentos da Bella para Daskal](/img/dtf/daskal-claire/12.jpg)
+
+![Melhorando Daskal](/img/dtf/daskal-claire/13.jpg)
+
+### Quantas estrelas Daskal precisa agora {#dtf-daskal-stars}
+
+Depois dos níveis, os fragmentos machucam mais. A tentação é melhorar tudo — rangers esperando, outro UR pedindo uma estrela. Mas o esquadrão principal é de Guerreiros, então se Daskal se junta a ele, os fragmentos de ouro universais rendem mais nele. O primeiro dia encerrou perto de **6★** (o que aumenta ainda mais o escudo de sua equipe), com o restante cultivável mais tarde. Seis estrelas não é arbitrário — e o próximo grande objetivo é **8★**, desbloqueando Tenacidade: +20% de ATQ/HP/DEF mais +10% de velocidade de recarga de habilidade. Então não espalhe fragmentos universais por três esquadrões: traga o herói do esquadrão principal para um ponto de verificação genuinamente útil primeiro, depois olhe mais adiante.
+
+![Estrelas e habilidades de Daskal para o esquadrão principal](/img/dtf/daskal-claire/14.jpg)
+
+### Não se esqueça do Salão da Honra {#dtf-hall-of-honor}
+
+Ao longo do caminho, um herói azul finalmente alcançou a condição do Salão da Honra — e não é insignificante. A progressão regular de heróis lá impulsiona constantemente a conta, e os heróis azuis especificamente aumentam a capacidade de carga dos soldados: as tropas carregam mais recursos por marcha. Nenhum bônus de monstro de combate, mas a distância, a capacidade extra compensa. Não ignore heróis azuis só porque eles nunca farão parte do esquadrão 1.
+
+![Salão da Honra](/img/dtf/daskal-claire/15.jpg)
+
+### Novo herói posicionado — o trabalho não acabou {#dtf-update-modes}
+
+O poder do esquadrão 1 cresceu após trocar a Bella por Daskal — mas o jogo armazena formações por modo. Após qualquer realinhamento sério, abra a Arena e atualize a defesa, depois verifique as Muralhas, depois o Cânion da Conquista e salve a nova composição lá. Caso contrário, a Arena continuará escalando a Bella por dias. A mesma regra se aplica após grandes melhorias de equipamentos, epígrafes ou Corvo: se um modo usa uma formação salva, verifique-a manualmente.
+
+### Os três esquadrões após a reconstrução {#dtf-final-squads}
+
+O esquadrão 1 torna-se totalmente de Guerreiros: **Daskal, Arthur, Marlena, Claire dourada e Harper**, em torno de **19,5M de poder**. Daskal e Arthur seguram a frente, Marlena carrega o dano, Claire impulsiona o PvE, Harper fortalece os Guerreiros.
+
+![Primeiro esquadrão: Daskal, Arthur, Marlena, Claire e Harper com 19,5M de poder](/img/dtf/daskal-claire/16.jpg)
+
+O esquadrão 2 continua de Rangers: Shadow, Griffith, Cynthia, Ash e Red Lady (~13,32M). O esquadrão 3 fica misto: Bella entra para consertar a linha de frente junto com Hastar, Joker, Annie e Celia (~13,65M).
+
+![Terceiro esquadrão misto após a reconstrução de heróis](/img/dtf/daskal-claire/17.jpg)
+
+O melhor resultado não é um único herói forte: Daskal melhorou o esquadrão 1, a Bella liberada melhorou o esquadrão 3, Claire dourada encontrou nova vida no PvE, e bons equipamentos se moveram entre os personagens em vez de juntar poeira. Prepare-se para a próxima quinta-feira de heróis da mesma maneira: estoque tickets, guarde antitoxina para o próximo avanço real até o 150, mantenha os universais de ouro focados no esquadrão principal — Daskal em direção a confiáveis 6★ e depois 8★, Claire dourada ancorada em oito estrelas com as duas últimas cultivadas gradualmente — e só então retorne aos rangers. Um primeiro esquadrão genuinamente forte supera três construídos pela metade.
+
+> Fonte: [Даскал и золотая Клэр в Last Asylum: Plague - как правильно прокачивать героев](https://dtf.ru/howto/5317537-daskal-i-zolotaya-kler-v-last-asylum-prokachka-geroev) por Гейм-Знаток no DTF.

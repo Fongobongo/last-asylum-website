@@ -2,7 +2,7 @@
 title: "Kruk i system epigrafów"
 description: "Poziomy i plany Kruka, strategia dotycząca ekwipunku, rzadkości epigrafów i kolejność ich awansowania oraz zasady jednej frakcji, które decydują o tym, czy dany epigraf w ogóle warto ulepszać."
 lang: pl
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: raven
 infographics: ["/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
 ---
@@ -205,3 +205,45 @@ Wieża Sokoła odświeża się co 6 godzin: nowa porcja zadań trafia do magazyn
 Gromadzenie zadań opłaca się tylko w przypadku Pojedynku Sojuszu: w dniach pierwszym, trzecim i piątym każde oddane Zadanie Sokoła przynosi 10 000 punktów. Gracze kończą zadanie, ale pozostawiają nagrodę nieodebraną, a ona pozostaje na widocznej liście z czerwoną kropką aż do odpowiedniego dnia. Z obserwacji graczy wynika, że ukończone zadanie nigdy nie przepada, nieukończone znika po 8 godzinach, a zadania Wędrującej Zarazy nie wliczają się do limitu magazynu.
 
 Górnym limitem takiego gromadzenia są widoczne zadania plus magazyn, a magazyn zapełnia się w niecały dzień: 30 godzin na pierwszym poziomie wieży, 18–24 godziny od piątego poziomu wzwyż. Po tym czasie każde odświeżenie jest marnowane, podczas gdy wieża wydaje od 24 zadań dziennie na pierwszym poziomie do 52 na piętnastym. Gromadzenie zapasów dłużej niż przez jeden dzień zatem się nie opłaca: w dniach pojedynek 2 i 4 zadania są wykonywane i przetrzymywane, w dniach 1, 3 i 5 wszystko jest oddawane, a w weekend nagrody są odbierane naraz. Gromadzenie zapasów nie wpływa na poziom wieży, a jedynie go opóźnia.
+
+---
+
+## Rozwój Ravena bez błędów: Warsztat, Gniazdo, Epigrafy, Rutyna {#raven-dtf-leveling}
+
+Notatki polowe z poradnika dotyczącego rozwoju z DTF: Raven żyje w trzech miejscach, a nie w jednym — a kolejność ma większe znaczenie niż szybkość.
+
+**Trzy budynki.** Warsztat Ravena to produkcja w tle: generuje materiały z upływem czasu bez natychmiastowych efektów wizualnych, ale bez niego postępy zwalniają. Gniazdo Ravena to główny ekran — poziom, ewolucja, nowe etapy i przypisanie do oddziałów. Warsztat Epigrafów to miejsce, w którym popełnia się najwięcej błędów: jeden zły wybór w zakresie wytwarzania lub slotu albo pozostanie z Tobą jako słabe wzmocnienie, albo będzie kosztować reset.
+
+![Przegląd systemu Ravena](/img/dtf/raven/01.jpg)
+
+**Poziomy a ewolucja.** Raven zdobywa poziomy dzięki Owoicom Ravena, a ewoluuje za pomocą Esencji Ravena, przy czym etap ewolucji występuje co 10 poziomów, odblokowując kolejny warstwa postępu. Esencja jest czynnikiem ograniczającym: Owoce pojawiają się regularnie podczas rutynowej rozgrywki, podczas gdy Esencja zawsze wydaje się towarem deficytowym. Najpierw obserwuj kolejny próg ewolucji — poziomy bez odpowiadającego im etapu ewolucji szybko natrafiają na ścianę.
+
+![Ekran bohatera Ravena](/img/dtf/raven/02.jpg)
+
+**Ekwipunek: zbuduj podstawy, a potem udoskonalaj.** Nie otwieraj skrzyni i nie ulepszaj sprzętu od razu, gdy tylko wypadnie. Najpierw skompletuj równomiernie cały zestaw, następnie łącz duplikaty i rozwijaj ekwipunek w sposób przemyślany. Niektóre ulepszenia są blokowane przez sekwencję — inne sloty muszą osiągnąć określony poziom, zanim odblokuje się dany element — więc maksymalne ulepszenie jednego slotu na wczesnym etapie pozostawia dziury gdzie indziej. Traktuj ekwipunek jak zestaw, a nie jak loterię.
+
+![Ekran ekwipunku Ravena](/img/dtf/raven/03.jpg)
+
+**Codzienne źródła.** Sprawdzaj codziennie: sklep Sojuszu (różnorodne materiały Ravena), sklep VIP (Esencja i skrzynie za diamenty), sklep Ekspedycji (skrzynie Ravena wyższego poziomu), sklep Honorowy (rzadkie skrzynie z późniejszych etapów), sklep Sanktuarium (Esencja w rotacji). Kupuj tylko to, co pozwala rozwiązać Twoje obecne zadanie — zgarnianie każdego przedmiotu z etykietą "Raven" generuje ekwipunek bez postępów. Określ precyzyjnie brakujący zasób przed wydaniem waluty: materiały do Warsztatu Epigrafów lub duplikaty do łączenia.
+
+**Próg epigrafów.** Fioletowe epigrafy odblokowują się na 15. poziomie Warsztatu Epigrafów — wcześniej tak naprawdę nie uczestniczysz w tym systemie. Epigrafy klasy UR pojawiają się później, na kolejnym etapie warsztatu, z droższymi materiałami. Bonusy z epigrafów dotyczą tylko pasującego typu oddziału: jeśli Twoim głównym oddziałem są Wojownicy, wytwarzanie epigrafów Strzelców „na przyszłość” marnuje rzadkie materiały bez żadnego natychmiastowego zysku. Wybierz frakcję, którą faktycznie wystawiasz do walki, zapełnij jeden zestaw, a zestawy poboczne zostaw w spokoju, dopóki rdzeń nie zostanie ukończony. Wewnątrz zestawu sloty się różnią (atak / obrona / wsparcie / centrum ogólne) — najpierw uporządkuj frakcję, a potem dostosowuj według potrzeb: brak obrażeń oznacza rozwijanie slotu ataku, załamujący się oddział to obrona, zaś slot ogólny zapewnia zbalansowane wzmocnienie.
+
+![Epigrafy jako najsilniejsza i najbardziej niebezpieczna część systemu](/img/dtf/raven/04.jpg)
+
+![Sloty epigrafów dla Wojowników, Strzelców i Magów](/img/dtf/raven/05.jpg)
+
+![Przegląd epigrafów i ich synergii](/img/dtf/raven/05.jpg)
+
+**Duplikaty to paliwo.** Drugi egzemplarz właściwego epigrafu to nie jest zły drop — identyczne epigrafy podnoszą liczbę gwiazdek na istniejącym przedmiocie, a w przypadku elementów UR dokładne duplikaty właściwego przedmiotu są najcenniejszym zasobem w tej linii. Duplikaty niewłaściwego typu czekają na swoją kolej lub przechodzą przez redystrybucję z resetu; duplikaty właściwego typu zyskują gwiazdki.
+
+![Duplikaty epigrafów jako paliwo do rozwoju](/img/dtf/raven/06.jpg)
+
+**Ewolucja odblokowuje oddziały.** Ewolucja to nie tylko statystyki: odblokowuje ona dodatkowe sloty oddziałów. Zaczynasz tylko z pierwszym oddziałem, drugi slot otwiera się na kolejnym etapie ewolucji, a wymagania stale rosną. To kolejny powód, aby wcześnie zdecydować się na swój najsilniejszy oddział — na początku fizycznie nie ma miejsca na rozpraszanie zasobów.
+
+![Sloty oddziałów odblokowane poprzez ewolucję Ravena](/img/dtf/raven/07.jpg)
+
+**Istnieje funkcja resetu.** Błędy w wytwarzaniu można naprawić: reset cofa ulepszenie i zwraca materiały do ponownej redystrybucji. Jest to najbardziej przydatne, gdy zmieniasz klasę głównego oddziału, wyrastasz z tymczasowego oddziału lub na początku wybrałeś zły epigraf. Obniża to koszt popełnienia błędu, ale nie sprawia, że ​​ślepe wytwarzanie staje się darmowe.
+
+**Codzienna rutyna.** Sprawdzaj sklepy, miej na uwadze kolejną ewolucję, rozwijaj tylko typ epigrafów swojego głównego oddziału i resetuj błędy zamiast z nimi żyć. Rozgrywany jako codzienna pętla Raven przynosi kumulujące się korzyści; grany zrywowo wydaje się kosztowny i niejasny.
+
+> Źródło: [Last Asylum: Plague - полный гайд по Ворону. Как качать без ошибок, что делать с эпиграфами.](https://dtf.ru/howto/5016737-last-asylum-plague-gayd-po-prokachke-vorona), autor Гейм-Знаток (DTF).

@@ -2,7 +2,7 @@
 title: "Gebäudeprioritäten & Zufluchts-Roadmap"
 description: "Zufluchts-Roadmap bis Level 30, die Reihenfolge der Gebäudeprioritäten, was jedes Gebäude tut und wie man Baugeschwindigkeits-Boni korrekt hintereinander stapelt."
 lang: de
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: buildings
 ---
 
@@ -252,3 +252,83 @@ Sobald die Makro-Priorität oben läuft, sind dies die In-Tree-Abkürzungen, die
 - [Krieger-Statue](/de/buildings/warrior-statue/)
 - [Wachturm](/de/buildings/watchtower/)
 - [Weberei](/de/buildings/weaving-workshop/)
+
+## 🧱 Anfänger-Bautaktiken {#dtf-beginner-tactics}
+
+Gleichmäßig über die Festung verteilte Gebäude-Aufwertungen bremsen den Account aus: Die Ressourcen gehen genau dann zur Neige, wenn das Sanktuarium, das Labor, die Trainingsplätze oder die Antitoxin-Werkstätten sie brauchen. Dieser Abschnitt ist der Anfänger-Leitfaden – wofür jedes Gebäude da ist und in welcher Reihenfolge man es angehen sollte.
+
+![Übersicht über den Anfänger-Gebäudeleitfaden](/img/dtf/buildings/01.jpg)
+
+### Zuerst das Sanktuarium, Helden-Stufen sind daran gekoppelt {#dtf-sanctuary-first}
+
+Das Sanktuarium setzt die Obergrenze für alles: Heldenstufen (ca. +5 pro Sanktuariumstufe – z. B. Sanktuarium 28 erlaubt Helden bis Stufe 140) und alle anderen Gebäude. Wenn die ersten fünf das Limit erreichen, hilft zusätzliches Antitoxin nicht weiter – nur die nächste Sanktuariumstufe hebt es an. Jede Sanktuariumstufe erfordert außerdem mehrere Voraussetzungen (Labor, Trainingsplätze, Kasernen, Statuen), öffnet die Anforderungen also frühzeitig und bereitet die gesamte Kette vor. Wartet nicht, bis alle Helden das Limit erreicht haben – startet die nächste Sanktuariumstufe im Voraus.
+
+![Zuflucht-Stufe und das Helden-Stufenlimit](/img/dtf/buildings/02.jpg)
+
+### Zwei Baumeister, zwei Rollen {#dtf-two-builders}
+
+Der temporäre zweite Baumeister-Slot (500 Diamanten) sollte eine andere Aufgabe erfüllen als der erste: Der lange Slot übernimmt das Sanktuarium, das Labor oder ein anderes mehrtägiges Pflichtgebäude, während der freie Baumeister kurze Aufwertungen abschließt – Farmen, Sägewerke, Gärten, Antitoxin-Werkstätten und die Zwischenvoraussetzungen für die nächste Sanktuariumstufe. Zwei Baumeister für lange Projekte bedeuten keinen Slot für plötzliche Anforderungen; zwei für kleine Jobs bedeuten, dass das Hauptgebäude ewig hinterherhinkt.
+
+Taktet große Fertigstellungen für den Bautag des Allianzkampfs: Ein fertiges Gebäude muss nicht sofort eingefordert werden – lasst den Hammer darüber und tippt erst nach dem Wechsel der Event-Phase, um Punkte für bereits erledigte Arbeit zu sammeln. Das Gebäude belegt weiterhin den Slot, haltet den Hammer also nur bei großen Projekten zurück. Nehmt zuerst alle Allianz-Hilfen an, setzt dann Beschleuniger ein und holt es schließlich ab.
+
+![Abholen fertiger Konstruktionen am Allianenduell-Bautag](/img/dtf/buildings/03.jpg)
+
+### Ressourcengebäude können hinterherhinken {#dtf-resource-lag}
+
+Farmen, Sägewerke und Kräutergärten liefern Getreide, Holz und Kräuter – sie müssen jedoch nicht mit dem Sanktuarium Schritt halten. Ein Abstand von fünf bis sechs Stufen bleibt bequem. Während der zweite Baumeister am Sanktuarium sitzt, zieht der erste schrittweise die Ressourcengebäude hoch, und vor allem die Antitoxin-Werkstätten: Antitoxin wird durch das Aufleveln von Helden ständig verbraucht.
+
+![Farmen, Sägewerke und Kräutergärten](/img/dtf/buildings/04.jpg)
+
+Lager (Holz, Getreide, Kräuter) erhöhen lediglich die geschützte Menge, die Angreifer nicht plündern können. Sie schalten keine Stufen, Forschungen oder Truppen frei, haltet sie also merklich zurück, es sei denn, eine Sanktuarium-Anforderung verlangt sie. Die sicherste Strategie: Lasst Materialpakete ungeöffnet im Inventar und öffnet sie kurz vor dem Bau – selbst schwache Lager verlieren dann fast nichts.
+
+![Holz-, Getreide- und Kräuterlager](/img/dtf/buildings/05.jpg)
+
+### Taverne, Tempel und Forschungslabor {#dtf-tavern-temple-lab}
+
+Die Taverne rekrutiert Helden und Überlebende, und das Aufleveln verkürzt die Abklingzeit für die kostenlose Rekrutierung – allerdings nach mehreren Stufen nur um etwa eine Stunde. Wertet sie für Sanktuarium-Anforderungen oder den Bautag auf; viel wichtiger ist es tatsächlich, die fertigen kostenlosen Rekrutierungen abzuholen. Die ersten 50 Ziehungen bringen garantierte Arthur-Fragmente.
+
+![Tavernen-Helden- und Überlebenden-Beschwörung](/img/dtf/buildings/06.jpg)
+
+Die Krieger-, Waldläufer- und Hexenmeister-Statuen des Tempels verleihen direkte Fraktions-ATK/HP/DEF. Beginnt mit der Fraktion eures Trupps 1, aber übertriebt es nicht: Die anderen Statuen fließen in Sanktuarium-Anforderungen ein, und die Trupps 2–3 benötigen sie für Expeditionen.
+
+![Krieger-, Waldläufer- und Hexenmeister-Statuen im Tempel](/img/dtf/buildings/07.jpg)
+
+Nach dem Sanktuarium ist das Forschungslabor das wichtigste Gebäude – Wirtschafts-, Helden-, Truppen- und Entwicklungstechnologien finden sich dort alle. Führt Forschungen des Allianzkampf-Baums mittwochs durch, damit dieselben Beschleuniger Eventpunkte einbringen, und verpulvert nicht alle universellen Beschleuniger für Gebäude: Ein Teil des Vorrats muss für Forschungen, insbesondere teure Armeetechnologien, zurückgelegt werden.
+
+![Forschungslabor](/img/dtf/buildings/08.jpg)
+
+### Armee: Trainingsplätze, Kasernen, Krankenstation {#dtf-army-buildings}
+
+Höhere Trainingsplätze schalten stärkere Truppenränge frei (T1–T10). Levelt nicht alle Plätze gleichmäßig hoch: Lasst einen auf Maximum und nutzt den Rest, um billige Truppen in Massen zu trainieren, und befördert sie dann auf dem Hauptplatz – vergleichbare Ressourcenkosten, deutlich weniger Zeit. Der Hauptplatz muss mit dem Sanktuarium Schritt halten, da sowohl neue Stufen als auch Sanktuarium-Anforderungen davon abhängen.
+
+Kasernen beherbergen die trainierte Armee, und die Kapazität wird schnell zum Engpass: Die Jagd auf Diebe und die Kämpfe am Freitag/Samstag verbrennen Tausende von Soldaten. Wenn die Kasernen voll sind, stehen die Plätze still und Märsche starten unvollständig – levelt sie parallel zum Hauptplatz. Die Kapazität und Heilungsgeschwindigkeit der Krankenstation bestimmen, wie viel Einstecken der Account verkraften kann: Wenn ein Kampf sie füllt, ist es Zeit für ein Upgrade. Unterdimensionierte Krankenstationen verwandeln Verwundete in dauerhafte Verluste.
+
+### Baumeisterhütte, Allianz-Halle und Mauern {#dtf-support-defense}
+
+Die Baumeisterhütte verkürzt jedes zukünftige Projekt, wodurch sich die Investition über den gesamten Account auszahlt. Die Allianz-Halle skaliert die Hilfe von Verbündeten (mehr Antippen, mehr Minuten pro Antippen) – fordert immer in dem Moment Hilfe an, in dem ein langer Timer startet, und setzt Beschleuniger erst ein, wenn Verbündete fertig sind, da sonst freie Zeit verschwendet wird.
+
+![Verbündeten-Hilfe über die Allianzfesthalle](/img/dtf/buildings/09.jpg)
+
+Drei Verteidigungstrupps stehen an den Mauern, neben Befestigungen und dem Lösch-Button. Um sie neu anzuordnen, müssen alle Märsche zu Hause sein. Achtet auf die Verteidigungs-Checkboxen: Wenn sie aktiviert sind, nehmen Helden und Soldaten an der Verteidigung teil – gegen einen stärkeren Angreifer bedeutet das schwere Verluste, weshalb viele Spieler sie während serverübergreifender Kriege deaktivieren, um die Armee zu retten, aber die Haken müssen vor der Untoten-Belagerung wieder drin sein, sonst werden die Wellen nicht gestoppt. Mauerstufen erhöhen auch die Marschgeschwindigkeit für Seuchen-Angriffe, das Sammeln und Rückkehrer.
+
+![Mauern und Verteidigungsaufbau](/img/dtf/buildings/10.jpg)
+
+### Forschungslager, Wachturm, Falkenturm {#dtf-activity-buildings}
+
+Die Kämpfe im Forschungslager (Battle Pass) kosten keine Soldaten – das perfekte Labor zum Testen von Formationen und Vergleichen von Helden –, plus stündliches passives Einkommen (Getreide, Holz, Kräuter, Antitoxin) und Truhen nach einigen Stufen. Der Wachturm führt Fraktionsexpeditionen durch (eine Fraktion pro Modus, die sich alle ~3 Tage aktualisiert): Wählt nicht "des Wachstums wegen" max. Sterne – ein feststeckender mittlerer Durchgang bringt weniger Punkte als ein kompletter Durchlauf einen Stern niedriger.
+
+Der Falkenturm vergibt tägliche Quests (neue ca. alle 6 Stunden; ~11 verfügbar bei einem ausgebauten Turm, aber nur 9 passen auf die Tafel, der Rest wartet in der Warteschlange – überlaufende Quests verschwinden). Quests kosten Energie und bringen unter anderem Ressourcen, Antitoxin und Raben-Gegenstände. Levelt den Turm nur, wenn Quests tatsächlich täglich abgeschlossen werden.
+
+![Falkenturm-Tägliche Quests](/img/dtf/buildings/11.jpg)
+
+### Ausrüstungs-Bezirk und was aufgeschoben werden kann {#dtf-gear-defer}
+
+Die Schmelz-Werkstatt stellt Ausrüstungssteine her (ein einziges hochstufiges Schwert kann über 20.000 Steine pro Aufwertung erfordern – entwickelt sie früh), die Web-Werkstatt stellt Stoff her, der später zu Stahl für goldene Ausrüstung synthetisiert wird, und die Ausrüstungs-Werkstatt fertigt die Teile. Ein vollständiges goldenes Set für Trupp 1 dauert lange, daher sollte die Produktion nie stillstehen – ein gutes Carry-Schwert und eine Tank-Rüstung schlagen mehrere zufällige Stufen anderswo.
+
+Schoben Sie es auf, wenn Ressourcen knapp werden: Spähtrupp (schnelleres Spähen, keine Entwicklungsgeschwindigkeit), Lager über den Anforderungen, Taverne über den Anforderungen. Die Raben-Werkstatt kann am Bautag für Duellpunkte gelevelt werden. Arena, Rabennest, Geheimdienstzentrum und Kuriositätenkabinett werden überhaupt nicht gelevelt – nutzt sie regelmäßig, sie kosten keine Bau-Ressourcen.
+
+Anfänger-Reihenfolge in einer Zeile: Sanktuarium im langen Slot → Labor → Haupt-Trainingsplatz, Kasernen, Krankenstation, Hauptfraktions-Statue → Baumeisterhütte und Allianz-Halle stetig → Ressourcengebäude ~5–6 unter dem Sanktuarium → Ausrüstungs-Bezirk → zusätzliche Plätze und sekundäre Gebäude → Lager, Taverne, Späher nach Anforderung oder Überschuss.
+
+![Richtige Gebäude-Aufwertungsreihenfolge](/img/dtf/buildings/12.jpg)
+
+> Quelle: [Здания Last Asylum: Plague - гайд для новичков](https://dtf.ru/howto/5238649-gaid-po-zdaniyam-last-asylum-plague-dlya-novichkov) von Гейм-Знаток auf DTF.

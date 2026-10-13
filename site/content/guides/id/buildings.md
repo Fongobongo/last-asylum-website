@@ -2,7 +2,7 @@
 title: "Prioritas Bangunan & Peta Jalan Kuil"
 description: "Peta jalan Kuil hingga level 30, urutan prioritas pembangunan, fungsi setiap bangunan, dan cara menumpuk buff kecepatan konstruksi dengan urutan yang benar."
 lang: id
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: buildings
 ---
 
@@ -252,3 +252,85 @@ Setelah prioritas makro di atas berjalan, berikut adalah jalan pintas dalam poho
 - [Patung Fighter](/id/buildings/warrior-statue/)
 - [Menara Pengawas](/id/buildings/watchtower/)
 - [Bengkel Tenun](/id/buildings/weaving-workshop/)
+
+---
+
+## 🧱 Taktik bangunan pemula {#dtf-beginner-tactics}
+
+Peningkatan yang tersebar merata di seluruh benteng justru akan menghambat perkembangan akun: sumber daya habis tepat saat Sanctuary, Lab, Training Grounds, atau Antitoxin Workshop membutuhkannya. Bagian ini adalah panduan bagi pemula — apa fungsi setiap bangunan dan urutan yang tepat untuk meningkatkannya.
+
+![Panduan umum bangunan pemula](/img/dtf/buildings/01.jpg)
+
+### Sanctuary terlebih dahulu, batas level hero ditentukan olehnya {#dtf-sanctuary-first}
+
+Sanctuary menetapkan batas maksimum untuk segalanya: level hero (sekitar +5 per level Sanctuary — misalnya Sanctuary 28 memungkinkan hero hingga level 140) dan semua bangunan lainnya. Jika lima hero utama mencapai batas maksimal, antitoxin tambahan tidak akan membantu — hanya level Sanctuary berikutnya yang dapat menaikkannya. Setiap level Sanctuary juga memerlukan beberapa bangunan prasyarat (Lab, Training Grounds, Barracks, patuh), jadi buka persyaratan sejak dini dan persiapkan seluruh rantainya. Jangan menunggu hingga semua hero mencapai batas maksimal — mulailah meningkatkan level Sanctuary berikutnya terlebih dahulu.
+
+![Level Sanctuary dan batas level hero](/img/dtf/buildings/02.jpg)
+
+### Dua pembangun, dua peran {#dtf-two-builders}
+
+Slot pembangun kedua sementara (500 diamond) harus melakukan pekerjaan yang berbeda dari yang pertama: slot durasi panjang mengambil Sanctuary, Lab, atau bangunan wajib berdurasi multi-hari lainnya, sementara pembangun gratis menyelesaikan peningkatan pendek — pertanian, pabrik kayu, kebun, antitoxin workshop, dan prasyarat perantara untuk level Sanctuary berikutnya. Dua pembangun pada proyek berdurasi panjang berarti tidak ada slot untuk kebutuhan mendadak; dua pembangun pada pekerjaan kecil berarti bangunan utama akan tertinggal selamanya.
+
+Jadwalkan penyelesaian besar bertepatan dengan hari konstruksi Alliance Duel: bangunan yang sudah selesai tidak harus langsung diklaim — biarkan palu berada di atasnya dan ketuk setelah fase event bergulir, untuk mendapatkan poin dari pekerjaan yang sudah selesai. Bangunan tersebut tetap menempati slot, jadi tahan palu hanya untuk proyek-proyek besar. Ambil semua bantuan aliansi terlebih dahulu, lalu gunakan item percepatan (speedup), baru kemudian klaim.
+
+![Mengklaim konstruksi selesai pada hari pembangunan Alliance Duel](/img/dtf/buildings/03.jpg)
+
+### Bangunan sumber daya bisa tertinggal {#dtf-resource-lag}
+
+Pertanian, pabrik kayu, dan kebun rempah menyediakan biji-bijian, kayu, dan rempah-rempah — tetapi bangunan tersebut tidak harus menyamai level Sanctuary. Selisih lima hingga enam level masih tergolong wajar. Saat pembangun kedua mengerjakan Sanctuary, pembangun pertama secara bertahap menaikkan level bangunan sumber daya, dan terutama antitoxin workshop: antitoxin dikonsumsi secara terus-menerus untuk menaikkan level hero.
+
+![Pertanian, pabrik kayu, dan kebun rempah](/img/dtf/buildings/04.jpg)
+
+Storage (penyimpanan kayu, biji-bijian, rempah-rempah) hanya meningkatkan jumlah perlindungan yang tidak dapat dijarah oleh penyerang. Storage tidak membuka level, teknologi, atau pasukan baru, jadi biarkan levelnya tertinggal jauh kecuali persyaratan Sanctuary mewajibkannya. Strategi paling aman: biarkan paket material tetap tertutup di dalam inventaris dan buka tepat sebelum konstruksi — dengan cara ini bahkan storage yang lemah pun hampir tidak kehilangan apa pun.
+
+![Penyimpanan kayu, biji-bijian, dan rempah-rempah](/img/dtf/buildings/05.jpg)
+
+### Tavern, Temple, dan Research Lab {#dtf-tavern-temple-lab}
+
+Tavern merekrut hero dan survivor, serta meningkatkan levelnya akan memperpendek waktu tunggu rekrutmen gratis — tetapi hanya sekitar satu jam setelah beberapa level. Tingkatkan bangunan ini berdasarkan persyaratan Sanctuary atau pada hari pembangunan; yang jauh lebih penting adalah benar-benar mengetuk tombol rekrutmen gratis yang sudah siap. 50 penarikan pertama memberikan jaminan fragmen Arthur.
+
+![Pemanggilan hero dan survivor di Tavern](/img/dtf/buildings/06.jpg)
+
+Patuh Warrior, Ranger, dan Warlock di Temple memberikan ATK/HP/DEF faksi secara langsung. Mulailah dengan faksi Pasukan 1 Anda, tetapi jangan terlalu berat sebelah: patung-patung faksi lainnya masuk dalam persyaratan Sanctuary, dan pasukan 2–3 membutuhkannya untuk ekspedisi.
+
+![Patung Warrior, Ranger, dan Warlock di Temple](/img/dtf/buildings/07.jpg)
+
+Setelah Sanctuary, Research Lab adalah bangunan terpenting — teknologi ekonomi, hero, pasukan, dan pengembangan semuanya ada di sana. Lakukan penelitian pohon Alliance Duel pada hari Rabu sehingga item percepatan yang sama menghasilkan poin event, dan jangan habiskan semua item percepatan universal untuk bangunan: sebagian stok harus dialokasikan untuk penelitian, terutama teknologi pasukan yang mahal.
+
+![Research Lab](/img/dtf/buildings/08.jpg)
+
+### Pasukan: Training Grounds, Barracks, Infirmary {#dtf-army-buildings}
+
+Training Grounds yang lebih tinggi membuka pangkat pasukan yang lebih kuat (T1–T10). Jangan tingkatkan semua tempat pelatihan secara merata: pertahankan satu pada level maksimum dan gunakan yang lain untuk melatih pasukan murah secara massal, kemudian promosikan mereka di tempat pelatihan utama — biaya sumber daya sebanding, dengan waktu yang jauh lebih sedikit. Tempat pelatihan utama harus mengikuti level Sanctuary karena tingkat tier baru dan persyaratan Sanctuary sama-sama bergantung padanya.
+
+Barracks menampung pasukan yang telah dilatih, dan kapasitas cepat terisi: serangan berburu pencuri dan pertempuran Jumat/Sabtu menghabiskan ribuan prajurit. Jika Barracks penuh, tempat pelatihan akan menganggur dan barisan pawai (march) menjadi tidak lengkap — tingkatkan levelnya bersamaan dengan bangunan utama. Kapasitas dan kecepatan penyembuhan Infirmary menentukan seberapa besar gempuran yang dapat ditanggung oleh akun: jika satu pertempuran langsung memenuhinya, saatnya untuk melakukan peningkatan. Infirmary yang terlalu kecil akan mengubah prajurit yang terluka menjadi kerugian permanen.
+
+### Builder's Hut, Alliance Hall, dan Walls {#dtf-support-defense}
+
+Builder's Hut memperpendek durasi setiap proyek di masa mendatang, sehingga investasinya akan terakumulasi di seluruh akun. Alliance Hall menskalakan bantuan sekutu (lebih banyak ketukan, lebih banyak menit per ketukan) — selalu minta bantuan begitu pengatur waktu yang panjang dimulai dan gunakan item percepatan hanya setelah sekutu selesai, atau waktu gratis akan terbuang sia-sia.
+
+![Bantuan sekutu melalui Alliance Hall](/img/dtf/buildings/09.jpg)
+
+Tiga pasukan pertahanan berdiri di atas Walls, di samping benteng pertahanan dan tombol pemadam api. Untuk mengatur ulang posisi mereka, semua pasukan yang pawai harus sudah kembali. Perhatikan kotak centang pertahanan: jika diaktifkan, hero dan prajurit akan bergabung dalam pertahanan — melawan penyerang yang lebih kuat, ini berarti kerugian besar, sehingga banyak pemain menghapus centang selama perang antar-server untuk menyelamatkan pasukan, tetapi kotak centang tersebut harus diaktifkan kembali sebelum Undead Siege atau gelombang musuh tidak akan dapat dihentikan. Level Walls juga meningkatkan kecepatan pawai untuk serangan Blight, pengumpulan sumber daya (gathering), dan kepulangan.
+
+![Walls dan pengaturan pertahanan](/img/dtf/buildings/10.jpg)
+
+### Research Camp, Watchtower, Falcon Tower {#dtf-activity-buildings}
+
+Pertempuran di Research Camp (battle pass) tidak mengorbankan prajurit — laboratorium yang sempurna untuk menguji formasi dan membandingkan hero — ditambah pendapatan pasif per jam (biji-bijian, kayu, rempah-rempah, antitoxin) dan peti di setiap beberapa tahap. Watchtower menjalankan ekspedisi faksi (satu faksi per mode, disegarkan setiap ~3 hari): jangan pilih bintang maksimum "demi pertumbuhan" — penyelesaian menengah yang macet memberikan skor yang lebih buruk daripada penyelesaian penuh dengan satu bintang lebih rendah.
+
+Falcon Tower mengeluarkan misi harian (misi baru muncul setiap ~6 jam; ~11 misi tersedia pada menara yang sudah berkembang tetapi hanya 9 yang pas di papan, sisanya masuk antrean — misi yang meluap akan hilang). Misi memerlukan energi dan memberikan hadiah berupa sumber daya, antitoxin, dan item Raven di antaranya. Tingkatkan menara ini hanya jika misi benar-benar diselesaikan setiap hari.
+
+![Misi harian Falcon Tower](/img/dtf/buildings/11.jpg)
+
+### Distrik perlengkapan dan hal yang dapat ditunda {#dtf-gear-defer}
+
+Smelting Workshop membuat Gear Stones (satu pedang level tinggi dapat membutuhkan 20.000+ batu per peningkatan — kembangkan sejak dini), Weaving Workshop membuat kain yang nantinya disintesis menjadi baja untuk perlengkapan emas, dan Gear Workshop membuat potongan perlengkapannya. Satu set emas lengkap untuk pasukan 1 membutuhkan waktu lama, jadi produksi tidak boleh menganggur — pedang andalan dan armor tank yang bagus jauh lebih baik daripada beberapa peningkatan acak di tempat lain.
+
+Tunda peningkatan saat sumber daya terbatas: Scout Squad (pengintaian lebih cepat, tidak ada kecepatan pengembangan), storage di atas persyaratan, Tavern di atas persyaratan. Raven Workshop dapat ditingkatkan pada hari pembangunan untuk mendapatkan poin duel. Arena, Raven Nest, Black Ops Center, dan Curio Hall tidak memiliki level — gunakan secara rutin, bangunan tersebut tidak memerlukan sumber daya konstruksi.
+
+Urutan pemula dalam satu kalimat: Sanctuary pada slot panjang → Lab → Training Ground utama, Barracks, Infirmary, patung faksi utama → Builder's Hut dan Alliance Hall secara stabil → bangunan sumber daya ~5–6 di bawah Sanctuary → distrik perlengkapan → tempat pelatihan tambahan dan bangunan sekunder → storage, Tavern, pengintai berdasarkan persyaratan atau kelebihan.
+
+![Urutan peningkatan bangunan yang benar](/img/dtf/buildings/12.jpg)
+
+> Sumber: [Здания Last Asylum: Plague - гайд для новичков](https://dtf.ru/howto/5238649-gaid-po-zdaniyam-last-asylum-plague-dlya-novichkov) oleh Гейм-Знаток di DTF.

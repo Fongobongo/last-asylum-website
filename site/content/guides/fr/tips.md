@@ -2,7 +2,7 @@
 title: "🧠 Conseils de pro, mécaniques cachées et secrets"
 description: "L'encyclopédie complète des mécaniques cachées dans Last Asylum: Plague — snapshot des bonus de construction, tactiques de défense par « Ghost Ralliement », gestion du débordement de l'hôpital, pièges de conversion de Claire, pré-farming de tuiles et secrets de l'économie de diamants."
 lang: fr
-updated: "2026-09-04"
+updated: "2026-10-12"
 videoTopic: tips
 ---
 
@@ -280,3 +280,86 @@ Après 7 mois de jeu sur mon compte principal, voici cinq erreurs que les vété
 3. **Ignorer les Ateliers de fusion.** Cinq d'entre eux au niveau 23–25 = 44K pierres d'équipement/semaine passive. Les pousser tardivement est ce qui bloque chaque palier de niveau 40 plus tard.
 4. **Disperser les pierres d'équipement sur l'équipement violet (SSR).** Le bon équipement pour le bon héros uniquement : épée+gants+bottes pour le DPS, plastron+bottes pour les tanks, tout le reste à zéro jusqu'à l'UR.
 5. **Améliorer les compétences d'attaque sur les tanks.** L'attaque d'un tank ne sert à rien ; leurs compétences fonctionnent sur la mise à l'échelle DÉF/PV à la place.
+
+## Guide de démarrage rapide : Le timing prime sur le grind {#dtf-fast-start}
+
+![Dix-sept astuces pour accélérer le début de partie](/img/dtf/tips/01.jpg)
+
+Si vous avez l'impression d'être constamment occupé tout en doutant de devenir plus fort, c'est tout à fait normal : le jeu vous submerge d'actions dès la première minute tout en expliquant à peine lesquelles vous font réellement progresser. Le raccourci testé ci-dessous n'est pas une combine compliquée — c'est la logique qui permet de développer sa puissance plus rapidement sans gaspiller de ressources. L'idée clé : **le jeu ne repose pas sur le farm, mais sur le timing.** Les mêmes actions ont un impact plusieurs fois supérieur lorsqu'elles sont exécutées le bon jour, pendant le bon événement et en atteignant le niveau requis.
+
+### Le Sanctuaire définit la direction, la construction donne le rythme
+
+Tout converge vers le Sanctuaire : les niveaux de bâtiments, les mécaniques, la croissance des troupes et la limite de niveau des héros. La boucle est donc simplifiée : consultez les prérequis du prochain niveau de Sanctuaire et travaillez exclusivement dans ce sens ; s'il faut un mur, construisez le mur ; s'il faut progresser dans la branche du Médecin, foncez-y. Tout le reste est secondaire.
+
+![Amélioration du Sanctuaire et prérequis pour le niveau suivant](/img/dtf/tips/02.jpg)
+
+Le rythme de construction détermine ensuite la vitesse à laquelle vous avancez sur cette voie. L'habitude qui différencie les comptes performants : **dès qu'une amélioration se termine, la suivante commence** — pas dans cinq minutes, immédiatement. Aucune amélioration idéale disponible ? N'importe quelle action utile vaut mieux qu'un emplacement vide ; il n'y a aucune situation où ne rien construire est préférable. Vérifiez les constructions dès votre connexion, même pour une minute.
+
+![Préparation de la prochaine amélioration de bâtiment à l'avance](/img/dtf/tips/03.jpg)
+
+### Survivants et accélérateurs : le passif en continu, les bonus ciblés
+
+Ces deux accélérateurs fonctionnent au mieux lorsqu'ils sont combinés. Les survivants offrent des bonus permanents gratuits pour la construction, les ressources et la recherche — une configuration de base associée à « l'envoi rapide » prend quelques secondes et se cumule chaque jour ; revoyez cela après chaque nouveau survivant ou bâtiment. Les accélérateurs, c'est l'inverse : la plupart des joueurs les surévaluent et les utilisent trop tôt. Épuisez d'abord tout ce qui est gratuit (quêtes, événements, arène, courrier), et ne dépensez les accélérateurs qu'en cas de blocage prolongé — concentrés sur un seul objectif, par exemple un niveau de Sanctuaire, et jamais dispersés entre plusieurs tâches. Petite astuce d'optimisation : divisez les guérisons de l'infirmerie en de courtes sessions pour que vos alliés puissent cliquer sur Aide plus rapidement au lieu d'une seule longue file d'attente.
+
+![Affectation des survivants avec l'envoi rapide](/img/dtf/tips/04.jpg)
+
+### Jouez avec le calendrier, cumulez les événements, stockez par cycles courts
+
+Chaque jour favorise des actions spécifiques — construisez le jour de la construction, entraînez des héros le jour des héros — et respecter ce rythme multiplie les récompenses pour un effort identique. L'étape suivante consiste à tout cumuler : une seule amélioration de bâtiment peut simultanément valider une étape d'événement, octroyer des ressources bonus et rapporter des points d'alliance. Une seule action, plusieurs gains.
+
+![Calendrier des événements hebdomadaires](/img/dtf/tips/05.jpg)
+
+Cela rend le stockage logique — mais sur des cycles courts, pas sur des semaines. Conservez accélérateurs, ressources et objets d'amélioration pendant un jour ou deux, puis utilisez-les le jour propice : plusieurs étapes d'événements se valident d'un coup, et la puissance fait un bond. Dépenser un tout petit peu chaque jour ne permet d'obtenir aucun de ces résultats.
+
+![Astuces de début de partie pour maintenir une progression stable](/img/dtf/tips/06.jpg)
+
+### Nouveau serveur, premier jour intense
+
+Sur un serveur ouvert depuis plusieurs jours, vous commencez avec un train de retard — bases développées, mécaniques débloquées, alliances formées. Sur un serveur récent, tout le monde part de zéro et l'attention portée aux priorités se traduit immédiatement par du classement, des événements et une alliance solide. Profitez alors du jour le plus avantageux de la vie de votre compte : la construction est rapide, la recherche quasi instantanée et les améliorations bon marché. Veillez à ce que les comptes à rebours ne s'arrêtent pas de la journée — de courtes sessions de relance rapide valent mieux qu'une longue soirée sans fil conducteur, car le temps d'attente inutile en début de partie est ce qui pénalise le plus.
+
+![Choix d'un nouveau serveur pour des conditions de départ égales](/img/dtf/tips/07.jpg)
+
+### L'alliance d'abord, l'accélération ensuite
+
+En solo, tout repose sur vos propres minuteurs ; dans une alliance active, les membres cliquent sur Aide et les minuteurs se réduisent de plusieurs heures, les coffres de l'alliance distribuent des ressources et des accélérateurs, et des événements supplémentaires récompensent la participation. Évitez les chats inactifs — visez des alliances vivantes, idéalement parmi les meilleures une fois les classements ouverts — et pensez vous-même à cliquer sur Aide pour les autres : cela ne prend que quelques secondes et stimule l'activité dont vous profitez en retour.
+
+![Des membres de l'alliance accélèrent la construction grâce à l'aide](/img/dtf/tips/08.jpg)
+
+### Les missions Falcon alimentent le calendrier
+
+Il n'est pas nécessaire de récupérer les missions Falcon instantanément — elles s'accumulent jusqu'à la limite, puis sont validées en bloc les jours de notation pour obtenir des points d'événement et des récompenses d'étape. Accomplissez-les un jour, encaissez-les le lendemain, par rotation, sans atteindre le plafond. (Associez cela aux règles de cumul de la tour Falcon du §3 ci-dessus — il s'agit de la même mécanique vue sous l'angle du jour d'événement.)
+
+![Missions Falcon cumulées pour être validées le jour de l'événement](/img/dtf/tips/09.jpg)
+
+### Une seule escouade, les bons postes, des tickets rapidement
+
+Un nouveau héro n'est pas une raison pour investir : une équipe composée de personnages à moitié développés perd partout. Choisissez cinq personnages de base, financez uniquement ceux-là (niveaux, compétences, équipement), et jugez les nouveaux venus selon leur capacité à améliorer la composition actuelle. Le modèle fonctionnel : deux tanks à l'avant (Arthur, Bella) pour encaisser les dégâts, trois à l'arrière (Marlena, Claire, Celia) pour infliger des dégâts et soutenir — et **ne stockez pas vos tickets d'invocation « pour plus tard »** : composer rapidement votre équipe de base est bien plus important que d'économiser, puisque tout ce qui suit en découle.
+
+![Une seule équipe de héros principale au lieu d'améliorations éparpillées](/img/dtf/tips/10.jpg)
+
+![Escouade construite autour d'Arthur, Bella et la ligne arrière](/img/dtf/tips/11.jpg)
+
+### Les guerriers d'abord — des progrès plus économiques
+
+L'équilibre des branches n'est pas égal au début : la recherche et les améliorations des Guerriers coûtent moins cher et offrent un rythme stable, tandis que les branches coûteuses comme les Démonistes demandent plus d'investissements pour un résultat globalement équivalent, mais à un rythme plus lent. Empruntez la voie simple et efficace pour démarrer, et expérimentez une fois que la base, les ressources et la compréhension du jeu seront acquises.
+
+![Comparaison des branches de héros](/img/dtf/tips/12.jpg)
+
+![Comparaison des coûts d'amélioration des branches de héros](/img/dtf/tips/13.jpg)
+
+### Le Laboratoire : la vitesse de tout
+
+Le Laboratoire ne donne jamais l'impression d'être urgent — et c'est là l'erreur. Ce qui accélère réellement le compte : la vitesse de construction, la vitesse de recherche, la vitesse d'entraînement des troupes, c'est-à-dire tout ce qui affecte les processus de la base, ainsi que le bonus de la branche de duel d'alliance qui rapporte des points supplémentaires pour les mêmes actions. Définissez votre priorité et suivez-la ; terminez les accélérateurs de base avant de renforcer tout le reste.
+
+![Priorités de recherche au laboratoire : vitesse de construction et de développement](/img/dtf/tips/14.jpg)
+
+### Équipement, troupes, boutiques, carte : les détails qui s'accumulent
+
+- **Équipement :** équipez d'abord tout le groupe principal avec des bases, montez légèrement le tout vers un niveau de départ, puis poussez les pièces clés — attaque et santé en premier, car ce sont elles qui se font le plus ressentir en PvE et PvP. L'équipement violet constitue une excellente étape intermédiaire (qui pourra être démantelé plus tard sans problème) ; l'équipement doré devient important avec le temps, notamment parce qu'il fonctionne aussi en PvP — caravanes, duels, échanges sur la carte.
+- **Troupes :** ne stoppez jamais l'entraînement — dès qu'une file d'attente se termine, lancez-la immédiatement. Les points d'événement sont attribués au *démarrage* de la file, donc une plus grande capacité de polygone signifie plus de points par lancement ; les améliorations du polygone et des technologies de troupes sont des multiplicateur d'événements, pas de simples accessoires.
+- **Boutiques :** n'achetez que ce qui stimule la progression actuelle — pas « pour plus tard », pas « au cas où ». Dépenser en fonction de l'événement, calculer la valeur et ignorer le superflu : c'est à ce moment-là que les ressources commencent à devenir suffisantes.
+- **Événements de la carte :** sièges, pièges, activités — une source constante de ressources, d'accélérateurs et d'objets que beaucoup négligent au début. N'y passez pas tout votre temps, mais ne les ignorez pas non plus.
+
+Tenez bon — concentration sur le Sanctuaire, dépenses calées sur les événements, pas de dispersion, alliance active — et la progression se stabilisera rapidement. Le début récompense la méthode, pas l'agitation.
+
+> Source : [Last Asylum: Plague - 17 советов, которые реально ускоряют старт](https://dtf.ru/howto/5000405-last-asylum-sovety-dlya-bystrogo-starta) par Гейм-Знаток sur DTF.

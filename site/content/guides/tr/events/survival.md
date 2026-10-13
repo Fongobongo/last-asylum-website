@@ -2,7 +2,7 @@
 title: "Hayatta Kalma Savaşı: 60 Bin Ücretsiz Rozet ve 4 Saatlik Faz Döngüsü"
 description: "Haftalık yaklaşık 60.000 ücretsiz Yetenek Rozeti kazandıran görev etkinliği: 5 görev kategorisi, 4 saatlik döngü fazları, kuyruk tabanlı asker eğitimi puanlaması ve İttifak Düellosu ile senkronizasyon."
 lang: tr
-updated: "2026-09-15"
+updated: "2026-10-12"
 videoTopic: survival
 type: event
 ---
@@ -205,3 +205,51 @@ Oyun istemcisi verilerinden doğrulanmış değerler (v1.0.87), kaynak: wiki-las
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Her Hayatta Kalma Savaşı fazı ne kadar sürer?", "acceptedAnswer": {"@type": "Answer", "text": "Her faz 4 saat sürer; kahramanlar, bölge, birlikler, teknoloji ve kuzgun olmak üzere beş temalı faz vardır."}}, {"@type": "Question", "name": "Birlik eğitimi puanları ne zaman verilir?", "acceptedAnswer": {"@type": "Answer", "text": "Süreç sayacı bittiğinde değil, Eğit/Terfi tuşuna bastığınız ve kaynakların düşüldüğü anda verilir."}}]}
 </script>
+
+---
+
+## Hayatta Kalma Savaşı Günlük Döngüsü: Mühürler, Enerji ve Düello Çakışması (DTF) {#dtf-daily-loop}
+
+Etkinlik, her gün dönen beş tema ile gerçekleşir — birlik eğitimi, teknoloji araştırması, Raven yükseltmeleri, kahraman gelişimi, bölge geliştirme. Beşine de ihtiyacınız yok: **18 Hayatta Kalma Mührü üç günlük sandığı açar**, yani tamamen tamamlanmış üç tema. Asıl kazanç, İttifak Düellosu ile olan çakışmadır — Salı günü inşaat, Çarşamba günü araştırma, Cuma günü eğitim — böylece aynı hızlandırmalar iki kez kazandırır.
+
+![Beş Hayatta Kalma teması ve üç sandık için 18 mühür](/img/dtf/survival/02.jpg)
+
+### Mühürler ve sıralamalar nasıl çalışır {#dtf-seals}
+
+Sıralama sabit bir zaman tablosu olmadan günlük olarak döner — harcama yapmadan önce etkinliği açın ve aktif ile sonraki temayı kontrol edin. Her temanın **1+1+2+2 = 6 mühür veren 4 aşaması** vardır; 18 mühür = üç tema tamamlandı demektir. Aşama ödülleri (beceri rozetleri, hızlandırmalar, kaynaklar) üstüne eklenir. Beş temanın tümünü temizlemek günde yaklaşık **8.000 beceri rozeti** kazandırır, eğer geri dönen bir eğitim teması tekrarlanırsa ~9.600'e kadar çıkabilir. Günlük bir liderlik tablosu her skor için temel bir kaynak ödülü ve üst sıralar için daha iyi ödüller verir; 18'den sonra devam etmeyi yalnızca tema planlanan gelişimle eşleştiğinde yapın; sadece sıralama için hızlandırma stoğunu yakmak nadiren karşılığını verir.
+
+![Hayatta Kalma sıralama ödülleri](/img/dtf/survival/03.jpg)
+
+Çoğu hesap için en ucuz günlük üçlü: **Raven (enerji) + Kahramanlar (antitoksin) + düello günü teması** (Salı bölge, Çarşamba araştırma, Cuma birlikler; Cumartesi — stokta ne ucuzsa). 18'deki altın sandıktan sonra, sonraki tema önceden planlanmış bir gelişim değilse durun.
+
+### Birlikler, araştırma, Raven, kahramanlar, bölge {#dtf-themes}
+
+**Eğitim:** en gelişmiş zeminde (maksimum kademe) eğitim hızlandırmaları ve ordu büyümesinden elde edilen skor; diğer zeminler dolu veya alt kademeleri terfi için hazırlıkta olur. Eğitim bir saat içinde başlayacak ve bir parti neredeyse bitecekse, sadece kalan süreyi sıraya koyun, ardından tema açıldıktan sonra tamamen doldurun — boşta zemin kalmaz, ancak büyük kısım pencere içinde düşer. En iyi gün düello eğitim aşamasıyla birlikte Cuma günüdür.
+
+![Tema penceresi içinde birlik eğitimi](/img/dtf/survival/04.jpg)
+
+**Araştırma:** araştırma hızlandırmaları artı teknoloji gücü kazancı için puanlar — bitişi pencere içinde zamanlayın, ardından sonrakini başlatın, ittifak yardımını toplayın ve neyi hızlandıracağınıza karar verin. Bir teknoloji açıkça daha fazla güç veriyorsa ve sonraki aşama sadece biraz gerektiriyorsa, bunu bitirmek hızlandırmaları küçükler arasında dağıtmaktan daha iyidir; eşik biriktikten sonra uzun bir teknolojiyi tamamen kapatmaya gerek yoktur. En iyi gün düello araştırmasıyla birlikte Çarşamba günüdür.
+
+![Teknoloji araştırması ve güç puanlaması](/img/dtf/survival/06.jpg)
+
+**Raven — günlük iş atı:** puan kazanmanın iki yolu, meyve geliştirme veya enerji harcama. Meyveleri Pazartesi günkü düello Raven aşaması için saklayın; diğer günlerde **enerji**yi Kirlilik/hırsızlar/boss'lar/Falcon görevlerine harcayın — normal günlük aktivite, özel bir maliyet yok. Yaklaşık **300 enerji** temayı tamamen kapatır (4 ödül, 6 mühür). Hırsız Avı ile eşleştirin: zayıf yürüyüş küçük altın hırsızlarını bulur ve boss'ları açar, güçlü yürüyüş büyük hedeflere vurur. Kısayol: önce daha yakın bir kaynak karosuna bir müfreze gönderin, ardından geçerken canavarın üzerine yönlendirin — günde birçok yürüyüşü kısaltır.
+
+![Enerji ve Hırsız Avı yoluyla Raven yükseltmeleri](/img/dtf/survival/08.jpg)
+
+**Kahramanlar — en hızlı tema:** Tavernadan çağırma artı antitoksin; doğru boyutta bir seviye atlatma genellikle dört aşamayı da kapatır. Birkaç kahraman açın, bir sonraki seviye maliyeti nihai eşiğe en yakın olanı seçin — 20M'in kapattığı yere 100M antitoksin dökmeyin. Toplu çağrıları Perşembe günkü düello kahraman günü için saklayın; antitoksin genellikle Hayatta Kalma'yı daha ucuza kapatır.
+
+![Antitoksin ile kahraman gelişimi](/img/dtf/survival/10.jpg)
+
+**Bölge:** inşaat hızlandırmaları artı bina gücü kazançları. Müsait olduğunda pencere içinde biten büyük bir inşaatı alın (Sığınak/Laboratuvar için 15–30 gün beklemek yok); aksi takdirde hızlandırmaları ittifak yardımı toplandıktan sonra daha büyük partiler halinde (örn. 5 dakikalık) harcayın. En iyi gün düello inşaatıyla birlikte Salı günüdür.
+
+![İnşaat hızlandırmaları ile bölge geliştirme](/img/dtf/survival/11.jpg)
+
+### Çakışma, bakanlar ve mühür disiplini {#dtf-overlap}
+
+Pazartesi: düello Raven'ı büyütür — çift kredi için Raven teması içinde biriktirilen meyveleri harcayın. Salı: bölge — hazırlanmış binaları ve inşaat hızlandırmalarını alın. Çarşamba: araştırma — parşömenler artı uzun teknolojiler. Perşembe: kahramanlar — biletler, parçalar, antitoksin, rozetler. Cuma: birlikler — eğitim teması sırasında zeminler. Cumartesi: stoktan ücretsiz seçim. Hesabı etkinliğe göre ayarlamayın; etkinliği planlanan gelişime göre ayarlayın.
+
+Büyük yükseltmelerden önce eşleşen bakan unvanını alın ve sırayı izleyin: tamamen 50/50 olan listelerde istekler beklemede kalır — **49/50**'de başvurmak çalışma sırasını daha sık tutturur. İnşaat/araştırma günlerinde unvanları önceden planlayın.
+
+Mühürler **her gün sıfırlanır** — bugün 17 artı "yarın bir tane daha" yarın sıfır yapar. 18'e bir aşama kalmışsa, kapatılması en ucuz olan temayı alın; yarını kolaylaştırmayı umarak asla mühür stoklamayın.
+
+> Kaynak: Гейм-Знаток tarafından [Last Asylum: Plague - гайд по Битве на выживание](https://dtf.ru/howto/5240960-last-asylum-plague-gajd-po-bitve-na-vyzhivanie) adresinde yayınlanmıştır (DTF).

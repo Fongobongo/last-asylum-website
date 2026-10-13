@@ -2,7 +2,7 @@
 title: "Gild Wagon & Karavansen"
 description: "Dagelijkse gratis wagonritten, regels voor Wagonmeester- en Gardekisten, Gouden Wagon-vernieuwingen, de karavaan UR-scherviestrategie, interserverplunderingen en de prioriteit van goud-paars-blauwe kisten."
 lang: nl
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: wagon
 calculators: []
 infographics: []
@@ -144,3 +144,55 @@ Geverifieerde waarden uit game-clientdata (v1.0.87), bron: wiki-last-asylum.com.
 | Extra Caravan | nog een dagelijkse rit | 5.000 |
 | Countermeasures (Tegenmaatregelen) | één speler mag maximaal 3 keer raiden | 20.000 |
 | Pumpkin Carriage (Pompoenrijtuig) | ontgrendelt de Gouden Karavaan | 20.000 |
+
+## Coachman-handboek: Gouden ritten, VIP's en verdediging {#coachman-playbook}
+
+De alliantiecaravaan rijdt **één keer per dag**. R4/R5 wijst de **coachman** (koetsier) aan; gewone leden kunnen niet zelf op de bok gaan zitten. Na de aanwijzing vertrekt de caravaan niet meteen — er volgt een **voorbereidingsfase van 4 uur**, waarin de coachman de caravaan upgradet, passagiers plaatsnemen, de VIP wordt toegewezen en de verdediging wordt ingesteld. Een caravaan kan **tot 3 keer per rit worden geplunderd**, waarbij een deel van de lading daadwerkelijk gevaar loopt — het gaat hier om de levering, niet alleen om de beloningen.
+
+### Waarom de coachman-stoel belangrijk is
+
+De coachman is de grote winnaar van de rit: bovenop de vier standaardwagens is er een **verborgen voorste wagen**, waardoor de coachman ongeveer **vijf wagens aan beloningen** verzamelt in plaats van één. Houd de rotatie transparant — een wachtrij, activiteitsbeloningen of een ranglijst van het Alliantieduel werken allemaal; een permanente, onverklaarde coachman wekt wrok op.
+
+### Regel één: maak hem goud
+
+Na de aanwijzing is de eerste taak van de coachman het vernieuwen van de caravaan. **5 vernieuwingen × 5 caravaantickets = 25 tickets** voor een gegarandeerde **Gouden Caravaan**. De coachman hoeft dit niet helemaal in zijn eentje te betalen: passagiers die instappen kunnen tickets bijdragen, en de gezonde alliantienorm is **2–3 tickets per persoon** in plaats van één. Zodra de vijfde vernieuwing binnen is, stop je — maak geen roulette van de caravaan in de hoop op een kosmische worp. Er is morgen weer een caravaan.
+
+![Spelers die tickets bijdragen voor een Gouden Caravaan](/img/dtf/wagon/01.jpg)
+
+![Vijf caravaanvernieuwingen naar de goud-kwaliteit](/img/dtf/wagon/02.jpg)
+
+### Passagiersdiscipline: let op het aantal hoofden, niet alleen op de buit
+
+Elke gewone wagen biedt plaats aan **slechts 5 personen**. Overbezetting wordt door het spel zelf opgelost — en de weggestuurde passagier is vaak degene die als eerste ging zitten. Een iets slechtere wagen met 3–4 rustige passagiers is beter dan een jackpotwagen waar acht mensen op elkaar gepakt zitten. Stoelen kunnen tijdens de 4 uur vrij worden gewisseld, dus **controleer het kort voor vertrek nog eens**.
+
+![Een wagen kiezen: overvolle plekken kunnen je eruit schoppen](/img/dtf/wagon/03.jpg)
+
+### VIP-passagier: twee wagens, gekozen door de coachman
+
+Bij **Alliantiegeschenk Lv. 20** ontgrendelt de caravaan een **VIP-passagier**: in plaats van één wagen neemt de VIP **twee wagens in beslag die door de coachman worden gekozen**. Stem de VIP van tevoren af — de uitnodiging blijft **60 minuten** geldig, en een gemiste acceptatie betekent wachten of opnieuw uitnodigen. Na acceptatie kiest de coachman handmatig de twee wagens uit (vraag de speler welke twee ze willen). De VIP **kan niet worden weggestuurd** zoals een gewone passagier en kan niet terugkeren naar een normale stoel — zelden een opoffering bij twee wagens.
+
+![De VIP-passagier toewijzen en wagens kiezen](/img/dtf/wagon/04.jpg)
+
+### Bewakers: alleen als ze echt sterker zijn
+
+Een bewaker stelt zijn troepen op ter verdediging, maar **pikt een graantje mee van de beloningen van de coachman**. Als je eigen troepen al sterker zijn dan die van de kandidaat-bewaker, heeft het geen zin — je betaalt lading voor niets. Regel: nodig een bewaker **alleen uit als deze duidelijk sterker is dan de coachman**; neem anders de VIP en hou de beloningen compleet.
+
+![Plekken voor bewaker en VIP-passagier](/img/dtf/wagon/05.jpg)
+
+### Vernieuw je verdedigingstroepen — en hun epagrafen
+
+De drie verdedigingstroepen moeten **opnieuw worden opgeslagen na elke serieuze accountupgrade**: nieuwe helden, nieuwe schade, nieuwe raaf, nieuwe uitrusting hebben geen zin als de caravaan nog steeds verdedigd wordt met de opstelling van vorige maand. Controleer of de juiste **epagrafen op de juiste troepen zitten** — een verkeerd geplaatste epagraaf verliest gevechten.
+
+### Geschenklevel, 24-uursregel en de tweede gouden rit
+
+- Caravaan**boosts** (snellere beweging, minder plunderingen, kernverdediging, VIP-ontgrendeling) komen van het geschenkentraject — open dat tabblad meer dan eens. Bij **geschenk Lv. 25** krijgen gewone wagens **extra passagierscapaciteit**, wat belangrijk is voor grote, actieve allianties.
+- Level het Alliantiegeschenk zelf: actieve Blight-farming plus extra punten van geavanceerde oproepen verhogen het, wat resulteert in een snellere, moeilijker te plunderen caravaan.
+- **Nieuwe leden moeten 24 uur in de alliantie zijn** voordat ze kunnen meedoen met de caravaan — onthoud dit na een transfer.
+- Verzamel tijdens de voorbereiding **handelsovereenkomsten** (deze komen per post als je ze vergeet). Instappende passagiers geven de coachman ook **likes** — klein, maar de dag van de coachman is de dag van de volksliefde.
+- Een **tweede gouden caravaan per dag bestaat, maar kost elke keer extra**. Dit is voor grote allianties waarvan de eerste caravaan overstroomt — geen must voor een halfvolle rit.
+
+![Het Alliantiegeschenk levelen, geholpen door Blight-farming](/img/dtf/wagon/06.jpg)
+
+Een goede caravaan is wanneer iedereen een beetje nadenkt: de coachman maakt de rit goud, controleert de verdediging en plaatst de VIP; passagiers letten op hun wagen; de alliantie spreekt regels af in plaats van elke nacht te improviseren.
+
+> Bron: [Last Asylum: Plague - полный гайд по Каравану](https://dtf.ru/howto/5303398-last-asylum-plague-karavan-gayd) door Гейм-Знаток op DTF.

@@ -3,7 +3,7 @@ title: "Daskal: Kemahiran, Bina & Naik Taraf"
 description: "Daskal ialah pahlawan UR yang bermain sebagai pelindung. Setelah dinaik taraf sepenuhnya, dia mencapai 1,057,192 Kekuatan, kedudukan 2 daripada 11 dalam kalangan pelindung permainan. Membuka kuncinya memerlukan 10 serpihan (Serpihan Daskal), …"
 videoTopic: "heroes"
 lang: ms
-updated: "2026-09-19"
+updated: "2026-10-12"
 type: guide
 ---
 
@@ -320,3 +320,77 @@ Daskal tidak muncul dalam senarai pahlawan sehingga hari ke-28 pelayan, manakala
 Kebangkitan memerlukan kos paling tinggi: 2,870 serpihan untuk 40 tahap berbanding 975 untuk semua 50 bintang. Kedua-dua skala mengembalikan perkara yang berbeza: bintang menambah 675,772 HP dan 2,874 ATK, kebangkitan 425,119 HP dan 12,119 ATK, empat kali ganda serangan. Bintang masih diutamakan, kerana ia memberikan lebih banyak HP dan meningkatkan Pertahanan Darah Daging daripada 360% kepada 684%, manakala 792% hanya datang dengan Senjata Eksklusif.
 
 Daskal berada dalam dua skuad peringkat S. Arthur, Marlena, Daskal, Harper dan Louis memperoleh bonus faksi +15% untuk empat pahlawan, 150.7M keupayaan bertahan dan 98 mata daripada 100 dalam semakan skuad. Perisainya bertindan dengan Benang Takdir Billy, yang menghilangkan 36% kerosakan daripada skuad.
+
+---
+
+## 🔄 Membina semula skuad utama di sekitar Daskal {#dtf-daskal-rebuild}
+
+Mendapatkan hero hanyalah permulaan: dia memerlukan antitoksin, bintang, kemahiran, gear, slot skuad — dan kemudian Arena, Tembok, serta setiap susunan barisan yang disimpan mesti mengenalinya. Ini adalah panduan lengkap pembinaan semula: menarik Daskal, menaikkan tahapnya hingga maksimum 1→150, dan menempatkannya ke dalam skuad Pahlawan (Warrior) pertama bagi menggantikan Bella.
+
+![Panduan perkembangan hero Daskal dan Claire emas](/img/dtf/daskal-claire/01.jpg)
+
+### Belanja besar pada hari Khamis hero {#dtf-hero-thursday}
+
+Jangan sekali-kali membazirkan tiket pengambilan (hire tickets), serpihan universal, lencana kemahiran, dan stok antitoksin pada hari biasa. Hari Khamis menampilkan peringkat duel perikatan (Alliance Duel), dan hampir semua perkara dalam pembinaan semula ini memberi mata — seruan (summons), perbelanjaan serpihan, serta penggunaan lencana dan antitoksin. Satu dorongan perkembangan berfungsi dua kali ganda: akaun yang lebih kuat berserta ganjaran duel. Hadapi hari Khamis dengan persediaan rapi.
+
+![Misi pembangunan hero Fasa 4 Duel Perikatan](/img/dtf/daskal-claire/02.jpg)
+
+Dalam kes ini, matlamatnya adalah tepat: Daskal. Sekitar 250 tiket digunakan pada minggu sebelumnya tanpa dia muncul, kemudian seruan percuma berserta percubaan baharu — sepuluh yang pertama terlepas, sepuluh yang kedua berhasil. Kunci kejayaan adalah mengetahui bila masanya untuk berhenti: sebaik sahaja hero dimiliki, tiket seterusnya membeli serpihan dan lencana kemahiran, bukannya tarikan hero itu sendiri.
+
+![Mendapatkan Daskal daripada seruan hero](/img/dtf/daskal-claire/03.jpg)
+
+### Petua rumput: jangan abaikan pencuri {#dtf-thieves-grass}
+
+Semasa acara pencuri berlangsung, ia menampung stok herba yang disedut habis oleh penyelidikan besar. Sasaran peribadi yang besar membayar lebih sejuta herba, manakala sasaran kecil menghasilkan beberapa ratus ribu setiap satu — jumlah sebenar berbeza mengikut aktiviti, tetapi sebagai bekalan herba kecemasan semasa acara aktif, ia berfungsi dengan baik.
+
+![Acara pencuri](/img/dtf/daskal-claire/04.jpg)
+
+### Daskal 1→150: ke mana perginya antitoksin {#dtf-daskal-leveling}
+
+Daskal tiba pada tahap 1, dan stok antitoksin disimpan khusus untuknya — tindakan yang tepat, kerana kosnya sangat besar. Sehingga tahap ~100 ia masih kelihatan tidak berbahaya, dengan tahap naik pantas tanpa panik. Kemudian keseronokan sebenar bermula: semakin hampir dengan tahap 150, semakin tinggi kos setiap tahap. Keseluruhan laluan 1→150 memerlukan **5,248,471,500 antitoksin — lebih sedikit daripada 5.2 bilion**. Sesiapa yang merancang larian sifar-ke-maksimum yang sama harus mengumpul stok melebihi lima bilion, bukan dua atau tiga. Antitoksin diperoleh daripada bengkel, ganjaran, dan item beg yang disimpan — jadi jangan buka balang itu terlalu awal tanpa sebab; biarkan ia menanti hero yang benar-benar penting.
+
+![Menaikkan tahap Daskal dari 1 hingga 150 dengan antitoksin](/img/dtf/daskal-claire/11.jpg)
+
+### Mengapa Daskal layak berada dalam skuad 1 {#dtf-why-daskal}
+
+Daskal ialah tangki UR Pahlawan yang kit kemahirannya melakukan tepat seperti yang diperlukan oleh barisan hadapan: kemahiran ultimate-nya memberikan perisai kepada semua sekutu, kemahiran aktifnya mengenakan kerosakan fizikal sambil menyembuhkan Daskal sendiri, dan kesan pasif memberikan perisai kepada tangki sekutu pada awal pertempuran. Dia bertahan daripada kerosakan dan membantu seluruh pasukan untuk terus bertahan.
+
+Menggantikan Bella di sini adalah langkah yang logik — dan Bella tidak bersara. Dia berpindah ke skuad 3, yang sedang ketanduan barisan hadapan yang baik. Satu hero baharu mengukuhkan dua skuad sekaligus.
+
+### Tanggalkan gear Bella dahulu {#dtf-gear-transfer}
+
+Sebelum memuktamadkan pertukaran, pindahkan set gear yang bagus daripada tangki lama kepada yang baharu — jika tidak, hasilnya adalah UR bertaraf bintang tahap 150 yang hanya memakai selipar. Tiada senjata khas untuk Daskal di sini, jadi gear yang tersedia dipakaikan kepadanya, seluruh set Bella dipindahkan, dan Bella menerima item hero skuad 3 yang digantikannya semasa dia berpindah ke sana.
+
+![Memindahkan gear Bella kepada Daskal](/img/dtf/daskal-claire/12.jpg)
+
+![Menaiktaraf Daskal](/img/dtf/daskal-claire/13.jpg)
+
+### Berapa banyak bintang yang diperlukan Daskal sekarang {#dtf-daskal-stars}
+
+Selepas tahap, serpihan adalah yang paling membebankan. Godaan untuk menaikkan segalanya memang tinggi — renjer menunggu, UR lain meminta bintang. Tetapi skuad utama ialah Pahlawan, jadi jika Daskal menyertainya, serpihan emas universal memberikan pulangan terbaik kepadanya. Hari pertama hampir mencecah **6★** (yang seterusnya meningkatkan perisai pasukannya), manakala bakinya boleh dituai kemudian. Enam bintang bukanlah satu kebetulan — dan matlamat besar seterusnya adalah **8★**, membuka kunci Ketabahan (Tenacity): +20% ATK/HP/DEF berserta +10% kelajuan penyejukan kemahiran (cooldown speed). Jadi jangan taburkan serpihan universal merentas tiga skuad: bawa hero skuad utama ke tahap pemeriksaan yang benar-benar berguna terlebih dahulu, barulah lihat aspek seterusnya.
+
+![Bintang dan kemahiran Daskal untuk skuad utama](/img/dtf/daskal-claire/14.jpg)
+
+### Jangan lupa Dewan Kehormatan {#dtf-hall-of-honor}
+
+Sepanjang perjalanan, seorang hero biru akhirnya mencapai syarat Dewan Kehormatan — dan ini bukanlah perkara remeh. Perkembangan hero biasa di situ secara konsisten mengukuhkan akaun, dan hero biru secara khusus meningkatkan kapasiti muatan tentera: pasukan membawa lebih banyak sumber setiap perarakan. Tiada bonus raksasa tempur, tetapi merentasi jarak, kapasiti tambahan itu amat berguna. Jangan abaikan hero biru hanya kerana mereka tidak akan pernah masuk ke skuad 1.
+
+![Dewan Kehormatan](/img/dtf/daskal-claire/15.jpg)
+
+### Hero baharu ditempatkan — tugas belum selesai {#dtf-update-modes}
+
+Kekuatan Skuad 1 meningkat selepas menukar Bella dengan Daskal — tetapi permainan menyimpan susunan barisan mengikut mod. Selepas sebarang penyusunan semula yang serius, buka Arena dan muat semula pertahanan, kemudian semak Tembok, diikuti Conquest Canyon dan simpan formasi baharu di sana. Jika tidak, Arena akan terus menurunkan Bella selama beberapa hari. Peraturan yang sama terpakai selepas peningkatan besar pada gear, epigraf, atau Raven: jika sesuatu mod menggunakan susunan barisan yang disimpan, sahkan ia secara manual.
+
+### Tiga skuad selepas pembinaan semula {#dtf-final-squads}
+
+Skuad 1 bertukar sepenuhnya menjadi Pahlawan: **Daskal, Arthur, Marlena, Claire emas, dan Harper**, sekitar **19.5M kekuatan**. Daskal dan Arthur mengawal barisan hadapan, Marlena membawa kerosakan, Claire meningkatkan PvE, manakala Harper mengenakan buff kepada Pahlawan.
+
+![Skuad pertama: Daskal, Arthur, Marlena, Claire dan Harper pada kekuatan 19.5M](/img/dtf/daskal-claire/16.jpg)
+
+Skuad 2 kekal sebagai Renjer: Shadow, Griffith, Cynthia, Ash, dan Red Lady (~13.32M). Skuad 3 bertukar menjadi campuran: Bella masuk untuk memperkemaskan barisan hadapan di samping Hastar, Joker, Annie, dan Celia (~13.65M).
+
+![Skuad campuran ketiga selepas pembinaan semula hero](/img/dtf/daskal-claire/17.jpg)
+
+Hasil terbaik bukanlah seorang hero yang kuat semata-mata: Daskal menaikkan taraf skuad 1, pelepasan Bella menambah baik skuad 3, Claire emas menemui kehidupan PvE baharu, dan gear yang bagus berpindah antara karakter berbanding mengumpul habuk. Bersedia untuk Khamis hero seterusnya dengan cara yang sama: kumpul stok tiket, simpan antitoksin untuk lonjakan tahap 150 yang sebenar seterusnya, pastikan serpihan universal emas disasarkan kepada skuad utama — Daskal menuju ke arah keyakinan 6★ kemudian 8★, Claire emas dikukuhkan pada lapan bintang dengan dua bintang terakhir dituai secara beransur-ansur — dan barulah kembali kepada renjer. Satu skuad pertama yang benar-benar kuat adalah jauh lebih baik daripada tiga skuad separuh siap.
+
+> Sumber: [Даскал и золотая Клэр в Last Asylum: Plague - как правильно прокачивать героев](https://dtf.ru/howto/5317537-daskal-i-zolotaya-kler-v-last-asylum-prokachka-geroev) oleh Гейм-Знаток di DTF.

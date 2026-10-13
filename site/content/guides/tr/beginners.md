@@ -2,7 +2,7 @@
 title: "Başlangıç Rehberleri: Merkez"
 description: "İlk 24 saatiniz: aktif ittifak, Sığınak (Sanctuary) ilerlemesi, iki-üç odak kahraman, hızlandırıcılardan önce etkinlikler, ilk günden yağma."
 lang: tr
-updated: "2026-10-03"
+updated: "2026-10-12"
 videoTopic: beginner
 ---
 
@@ -210,3 +210,199 @@ Araştırma Laboratuvarı ne zaman gereklidir? İlk olarak Sığınak seviye on 
 - [Kahraman Yolu](/tr/hero-road/)
 - [Onur seviyeleri: koşullar, maliyet ve ödeme](/tr/hero-honor/)
 - [Sefer (Expedition): arena sırası ve erken sunucu bonusu](/tr/expedition/)
+
+## Yalın Başla: Odaklanma, Hastane, Depolar, Tek Takım {#dtf-start-focus}
+
+![Last Asylum: Plague için tam başlangıç ​​rehberi](/img/dtf/beginners/01.jpg)
+
+Klasik başlangıç oldukça yoğun hissettirir — burada bir bina, orada bir kahraman, araştırmaya bir dokunuş — ancak güç yerinde sayarken kaynaklar her yöne saçılır. Buradaki çözüm çaba göstermek değil, sıralamadır: **önce üssü düzene sokun, sonra kahramanları içerik temizleyebilecek duruma getirin ve ancak bundan sonra diğer her şeyi yapın.** Her şeyi biraz güçlendirmek hiçbir şeyi güçlendirmez.
+
+![İlerlemenin durmasını önleyen başlangıç ipuçları](/img/dtf/beginners/02.jpg)
+
+### Sığınak bir pusuladır
+
+Sığınak; binaların, mekaniklerin ve yükseltmelerin kilidini açar: o yerinde sayarken siz de duraklarsınız; o gelişirken siz de ilerlersiniz. Neyi yükselteceğinizi tahmin etmeyi bırakın — bir sonraki Sığınak seviyesinin gereksinimlerini açın ve katı bir şekilde bunlara odaklanın. Bir kez kaçırırsanız, zamanı başka yerlerde harcadıktan sonra oyun sadece "daha ileri yok" der.
+
+![Sığınak — tüm üssün merkezi](/img/dtf/beginners/03.jpg)
+
+### Erken aşamada görevleri takip edin
+
+Görevler dışına çıkılacak bir rehber değil, ana ilerleme aracıdır: kaynaklar, hızlandırmalar, elmaslar ve yeni mekanikler bunların üzerinden açılır. Bunları bir pusula olarak kullanın: şüpheye düştüğünüzde, görev çizgisini ne ilerletiyorsa onu yapın. Görevleri görmezden gelmek, aynı şeyleri daha yavaş yapmak demektir.
+
+### Hastane bir zahmet değil, bir konveyördür
+
+Hastane ana kaynak motorlarından biridir: hasta girer, iyileşir, ödül çıkar, sıradaki hasta. Eğer yavaş çalışırsa her şey duraklar.
+
+![Hastane: doktor hastaları tedavi eder ve yeni koğuşlar açılır](/img/dtf/beginners/04.jpg)
+
+- **Yeni koğuşlar açın** — hasta akışı büyür.
+- **İşçi alın** — manuel rutin ortadan kalkar.
+- **İksirleri önceden üretin** — doğru iksiri olmayan bir hasta yatağı işgal eder ve hattı durdurur; elinizde stok olduğunda iyileştirme anlıktır ve yatak boşa çıkar.
+
+![İksirleri önceden stoklamak hastane yataklarının dönmesini sağlar](/img/dtf/beginners/05.jpg)
+
+Doktor olarak etrafta kendiniz koşturmanız yalnızca en başta işe yarar. Otomasyon (işçiler, otomatik tedavi) kullanılabilir olduğu anda onu edinin: o olmadan her oyundan çıkışınızda ilerleme durur; onunla birlikte siz uzaktayken kaynaklar birikir.
+
+![Oyunda erken aşamada manuel hasta tedavisi](/img/dtf/beginners/06.jpg)
+
+### Genişlemeden önce istikrarlı bir ekonomi
+
+Erken gelir cömert hissettirir, ardından fatura gelir: her yeni bina, çıktıyı artırmadan tüketimi artırır. Kural sıkıcıdır ama işe yarar — önce istikrarlı gıda ve malzemeler, ikinci olarak genişleme. Ve ilerleme sadece topladığınız şey değil, elinizde tuttuğunuz şeydir: depolar, depolama sınırlarını yükseltir ve stokların bir kısmını baskınlardan korur, böylece kaybedilen tek bir savaş, daha önceden biriktirdiğiniz bir yükseltmeyi yok etmez.
+
+![Kaynak toplama ve üssü geliştirme](/img/dtf/beginners/07.jpg)
+
+![Kaynak depoları kapasiteyi artırır ve stoğu korur](/img/dtf/beginners/08.jpg)
+
+### Birlikleri çalışır durumda tutun, erken kervanları atlayın
+
+Bir birlik yalnızca yürürken kazanç sağlar; boşta dönen bir birlik, gerçek bir açığa dönüşen görünmez bir kesinti süresidir. Yürüyüş uzunluğunu programınıza göre ayarlayın: çevrimiçiyken kısa keşifler, oturumu kapatmadan önce uzun olanlar.
+
+![Dünya haritasındaki kervanlar](/img/dtf/beginners/09.jpg)
+
+Kervanlar cazip görünür ancak mal oldukları ilgiye kıyasla başlangıçta istikrarsız ödeme yapar — onları erken aşamada görmezden gelin ve normal keşifler yoluyla kasın.
+
+### Üs bir temeldir — harita ise asıl amaçtır
+
+Birlikler yalnızca yiyecek, kereste ve ot taşıyıcıları değildir: düğüm noktalarını açarlar, karakolları tutarlar, enfekte harabeleri yeniden ele geçirirler ve çekişmeli şehirleri rekabete açarlar. Ufukta Kingdom Clash gibi sunucu ölçeğinde formatlar varken, her oyuncunun katkısı ortak sonuca beslenir — yaşayan bir ekonomiye, gerçek bir kahraman kadrosuna ve çalışan birliklere göre kurulmuş bir başlangıç, haritaya bir izleyici olarak değil, bir katılımcı olarak varır.
+
+![Dünya haritası: karakollar, harabeler ve çekişmeli şehirler](/img/dtf/beginners/10.jpg)
+
+### Savunma kuleler değil, rota belirlemedir
+
+Düşmanlar en kısa açık yolu izler, bu nedenle düz bir kule duvarı yetersiz performans gösterir: dönüşler ve dar boğazlar boyunca uzun kıvrımlı koridorlar inşa edin, kuleleri düşmanların en uzun süre takıldığı yerde yoğunlaştırın, yavaşlatmalar ekleyin — ve aynı kuleler çok daha fazla hasar versin. İyi bir savunma daha fazla kule değil, daha uzun bir düşman yoludur.
+
+![Savunma modu: uzun ve kıvrımlı bir düşman rotasını kaplayan kuleler](/img/dtf/beginners/11.jpg)
+
+### Ortalama bir kadro yerine çalışan bir beşli
+
+Parçaları her yeni çekilişe saçmak, sıradan kahramanların listesini ve uzayan dövüşleri ortaya çıkarır. Bir beşli seçin ve her şeyi ona verin — seviyeler, beceriler, teçhizat:
+
+- **Arthur** — ön hat tankı, takıma zaman kazandırır;
+- **Marlena** — savaş boyunca artan ana hasar kaynağı;
+- **Claire** — sadece kendini değil herkesi güçlendirir;
+- **Stellar** — ekstra baskı, toplu savaşlarda güçlü;
+- **Celia veya Bella** — kalan boşlukları kapatan destek.
+
+![Net rollere sahip çalışan beş kahramanlı bir takım](/img/dtf/beginners/12.jpg)
+
+![Erken oyun için dengeli bir kahraman takımı](/img/dtf/beginners/13.jpg)
+
+Güç, nadirlik sayılarından veya kafa sayılarından değil, bir ekip olarak çalışan rollerden gelir. Yeni çekiliş mi? Mevcut beşliyi geliştirip geliştirmediğini kontrol edin — eğer geliştirmiyorsa bekler.
+
+### Arena para birimi evrensel parçalara gider
+
+Arena dükkânı, cazip tek seferlik ürünlerin bir tuzağıdır. Bileşik olarak artan öncelik: **evrensel kahraman parçaları** — herhangi bir kahramana uyar, yıldız yükseltmelerini iter ve ekibi kalıcı olarak büyütür. Güçlü geç oyun alımı, erken dönemdeki on işe yaramaz alımı yener.
+
+![Arena ve ödül dükkanı](/img/dtf/beginners/14.jpg)
+
+### Laboratuvar: Önce gelişim, hızlandırmalardan önce yardım
+
+Laboratuvar anlık bir güç artışı sağlamaz, bu yüzden ertelenir — ve sonrasında zamanlayıcılar şişer. Öncelikler: inşaat hızı, araştırma hızı, birlik eğitimi — Gelişim dalı kelimenin tam anlamıyla her şeyi hızlandırır — ayrıca aynı eylemler için ekstra ödüller ödeyen ittifak düellosu puanları bonusu. Bir dalı kilitleyin ve bitirin; parşömenleri her yere saçmak hiçbir şeyi ilerletmez. Ve hızlandırma harcamadan önce her zaman ittifak Yardımına basın — önce ücretsiz zamanlayıcı kesintileri.
+
+![Araştırma Laboratuvarı arayüzü](/img/dtf/beginners/15.jpg)
+
+![Her şeyi hızlandıran Geliştirme araştırma kolu](/img/dtf/beginners/16.jpg)
+
+![İnşaat sürelerini kısaltan ittifak yardımı](/img/dtf/beginners/17.jpg)
+
+### Teçhizat: maviyi atlayın, sökün, moru akıllıca besleyin
+
+Yükseltme materyalleri her zaman basılacak düğmelerden daha kıttır. Mavi teçhizat nasıl olsa morla değiştirilir ve hiçbir şey iade etmez — yükseltmek yerine bir sonraki aşama için materyallere sökün. Mor geçici adil bir adımdır (daha sonra felaket olmadan sökülür); ilk olarak ana kahramana besleyin — genellikle hattı tutan tank, Arthur. Geçici eşya, deneme kahramanı, tek başına parlayan kırmızı nokta: neredeyse her zaman kötü bir harcama.
+
+![Yükseltmeye değmeyen mavi ekipman](/img/dtf/beginners/18.jpg)
+
+![Arthur ve ana takımda ekipman önceliği](/img/dtf/beginners/19.jpg)
+
+![Yedek ekipmanı yükseltme malzemelerine dönüştürme](/img/dtf/beginners/20.jpg)
+
+### Elmaslar bir konfor değil, bir rezervdir
+
+Erken elmaslar konfor uğruna hızla tükenir — ve günler sonra kahraman ruleti açılır, bir çift yüz değil gerçek bir stok talep eder. İlk saatlerde kısa bir ekstra işçi adil bir destektir; bundan sonra tutun. Elmasları somut bir hedef için bir fon olarak düşünün ve yalnızca zaten anladığınız belirli bir boşluğu kapatmak için harcayın.
+
+![Görevleri tamamlayarak elmas kazanma](/img/dtf/beginners/21.jpg)
+
+> Kaynak: [Last Asylum: Plague - полный гайд для старта: как не слить ресурсы и быстро выйти в топ](https://dtf.ru/howto/4920845-last-asylum-plague-gayd-po-startu-sovety-po-optimizatsii-resursov) - Гейм-Знаток, DTF.
+
+---
+
+## İlk Yedi Gün: Taze Eyaletten İkinci Takıma {#dtf-first-week}
+
+![Yeni oyuncular için en iyi başlangıç rehberi](/img/dtf/beginners/22.jpg)
+
+İlk hafta tam olarak üç şeye ihtiyaç duyar: hızlı büyüyen bir üs, güçlü bir ana birlik ve aktif bir ittifak. Başka her şey bunların etrafında inşa edilir — amaç, yedinci günü yeniden oynamak istemeden bitirmektir.
+
+### Yeni bir eyalette başlayın
+
+Eyaletiniz etkili bir şekilde sunucunuzdur: yenisinde herkes birlikte başlar, günlerce eski bir sunucuda ise aktif çekirdek çoktan daha fazla içeriğin açık olduğu güçlü ittifaklara doğru öne geçmiştir. Belirli bir eyalet numarasını kovalamayın — bu tavsiye bir inşaat zamanlayıcısından daha hızlı eskimektedir — ve oyun "önerilen" diye eski bir sunucu seçmeyin. Birkaç saat önce açılmış bir eyalet son derece uygundur.
+
+![Yeni bir hesap için taze bir eyalet seçme](/img/dtf/beginners/23.jpg)
+
+### Önce öğretici, ardından yaşayan bir ekonomiyle Sığınak 8
+
+İlk yarım saati düzgün bir şekilde öğreticiyi oynayarak geçirin — özellikle "acaba bu altın düğme ne işe yarıyor" diye başlayan denemelerden ziyade bunu yapmak daha iyidir. Ardından Sığınak'ı zorlayın: gelişim tavanını belirler, kahraman seviyelerini sınırlandırır ve özelliklerin açılmasını sağlar. Çalışma hedefi, **arkada ölü bir ekonomi bırakmadan** 8. seviyeye hızlı bir koşudur — bir sonraki seviye Duvarlar veya İttifak Salonu gerektiriyorsa onları inşa edin; otlar tükeniyorsa otları düzeltin; iyileştirme duraklıyorsa tıp üretimini kontrol edin. 10. seviyeden sonra Laboratuvarın gereksinimlerde kalıcı bir demirbaş haline geldiğini unutmayın.
+
+![Sığınak seviyeleri ve her birinin ne所以在in kilidini açtığı](/img/dtf/beginners/24.jpg)
+
+Her Sığınak yükseltmesini başlatmadan önce, *bir sonraki* seviyenin ne talep edeceğini kontrol edin ve Sığınak zamanlayıcısı çalışırken o binayı hazırlamaya başlayın — bu tek başına çok fazla boşta bekleme süresini ortadan kaldırır. Önemli bir Sığınak eşiğini geçmek ve yeni bir sistem açmak için harcama yapmak mantıklıdır; boşta geçen beş dakikayı kırpıp atmak için harcama yapmak mantıklı değildir.
+
+### İnşaat kuyruğu alışkanlıkları
+
+İnşaatçıları asla boşta bırakmayın — zamanlayıcılar boş dururken kahramanları tartışarak geçen bir saatlik süre kaybedilmiş büyümedir. Çevrimiçiyken kısa yükseltmeleri sıraya koyun; uyumadan önce çok saatlik olanları başlatın ve üretimi aynı ritimde çalıştırın. Özellikle ot-ilaç zincirini izleyin: bir savaş serisi sizi hiçbir şeyle iyileştiremeyecek şekilde bırakana kadar otlar sıradan görünür. Ve her üretim binasını "güzellik olsun diye" eşit şekilde seviye atlatmayın — gerçekten eksik olanı besleyin, çünkü yönlendirilmeyen binalara batırılan kaynaklar hesabı duraklatır.
+
+### Formasyon: önde tanklar, arkada hasar
+
+İki kahraman ön tarafı tutar, üçü arkada çalışır: tanklar hasarı emer ve zaman kazandırır, arka hat ana hasar vericiyi, ikincil bir saldırganı ve bir desteği taşır. En güçlü hasar vericinizi sırf en yüksek Güç numarasını gösteriyor diye asla ön tarafa koymayın — onun görevi tanklar tutarken arka sıradan hasar vermektir.
+
+![Doğru formasyon: önde iki tank, arkada üç kahraman](/img/dtf/beginners/25.jpg)
+
+### Yenilgiden sonra teşhis koyun — ardından tek bir birliği beslemeye devam edin
+
+Tanklar anında çöküyorsa ön tarafı güçlendirin; tanklar tutuyor ancak düşmanlar hayatta kalıyorsa, ana ve ikincil hasara yatırım yapın. İkinci birlik Sığınak 8'de, üçüncüsü ise yalnızca 20'de açılır — ikisi de kaynakları yarı yarıya bölmek anlamına gelmez. İlk birlik zor içeriği temizlemeye devam eder; ikinci birlik toplar, işleri yürütür ve ana beşli içeriği güvenle temizleyene kadar artakalanlarla büyür.
+
+### Başlangıç beşlisi ve kaynaklar nasıl bölüştürülür
+
+Kanıtlanmış erken dönem çekirdeği: **Önde Arthur ve Bella; arkada Marlena, Claire ve Celia** — hepsi Savaşçı, böylece birlik ilk günden itibaren tam +20% fraksiyon bonusunu cebe atar.
+
+- **Arthur** ana tank olur. Genç bir eyalette Tavernada görünen ilk UR'dir ve 50 çağrı onun 10 parçasını garanti eder — onu erken aşamada ana beşliye dahil edin, ardından çağrı puanları kazandıran etkinlikler için bilet biriktirmeye başlayın.
+- **Bella** ikinci ön slotu tutar, böylece hiçbir hasar vericinin orada durması gerekmez.
+- **Marlena** uzun vadeli ana hasar taşıyıcısıdır — uzun süreli yatırım için baş numaralı adaydır.
+- **Claire** canavarları paramparça eder ve güçlü Savaşçıları güçlendirir — ve o atılabilir bir SSR değildir: Yeniden Doğuş Çağında SSR'den UR'ye yükselir, bu nedenle erken yatırım karşılığını vermeye devam eder.
+- **Celia** PvE'de parlar, kaynak ve elit canavarlar kasar, tam bir UR beşlisi var olana kadar takımı tamamlar.
+
+Eşitsiz bir şekilde bölün: Marlena, Arthur ve Claire uzun vadeli üçlüdür; Bella ve Celia başlangıç işlerini iyi yapar ancak evrensel UR parçalarını, en iyi taslakları veya en nadir materyalleri almamalıdır. Yükseltmeler ucuzken, beşliği yaklaşık olarak aynı seviyede tutun; maliyetler tırmandıkça üçlü öncelik alır. Aynı mantık beceri rozetlerini de yönetir. Teçhizat rolleri takip eder: tanklar önü daha uzun süre tutmak için zırh ve bot ister; hasar vericiler savaşları daha hızlı bitirmek için kılıç ve eldiven ister. Ve sırf yanında kırmızı bir nokta belirdi diye asla bir eşyayı yükseltmeyin — kırmızı nokta sizin planınızı bilmez.
+
+### Beceriler: PvP mi yoksa canavarlar mı?
+
+Becerilerin birçoğu PvP'yi hedeflerken, diğerleri canavarları ve PvE'yi hedefler — Claire canavarlara daha sert vurur ve onlara karşı Savaşçıları güçlendirir, Celia kaynak ve elit canavar ganimetini artırabilir. Dolayısıyla soru asla "bu kahraman ne kadar nadir" değil, **"onları şu anda tam olarak nereye götürüyorum?"** şeklindedir. Bu durum ikinci kadro için iki kat daha önemlidir: beş pahalı kart kendi başına tank, destek ve yolcu rollerini çözemez.
+
+### Fetişizmsiz fraksiyonlar
+
+Üçgen; Savaşçılar → Warlocker → Korucular → Savaşçılar şeklinde %20'lik bir avantajla çalışır ve aynı fraksiyondan bina bonusu saldırı, HP ve savunmaya 3 kahraman +5%, 3+2 +10%, dört +15%, tam beşli +20% olarak ölçeklenir.
+
+![+20%'ye varan aynı grup birliği bonusu](/img/dtf/beginners/26.jpg)
+
+Ancak ilk günde, sırf 5/5'lik bir resmi tamamlamak için asla iyi bir tankı zayıf bir dolgu maddesi uğruna yedek kulübesine çekmeyin: takım önce çalışmalı, ardından tam bir mono birliğe dönüşmelidir. Erken dönem Savaşçı çekirdeği için bu uygundur — Arthur tanklar, Marlena vurur, Claire PvE'yi güçlendirir — ve zamanla diğer UR'ler yerini alır. Biriktirme kuralları aynı planı izler: evrensel UR parçaları önce Marlena'ya gider (Arthur kendi parçalarını Tavernadan ve diğer kaynaklardan kasar) ve SSR'ler arasında Claire en iyi evrensel parça adaydır.
+
+### İttifak: iyi olan, en iyi olandan iyidir
+
+Özellik açılır açılmaz iyi bir ittifaka katılın — ve "iyi" olmak "en iyi" olmaktan daha önemlidir. Sohbetin yanıt verip vermediğini, üyelerin Yardıma basıp basmadığını, etkinliklerin oynatılıp oynatılmadığını, liderliğin var olup olmadığını kontrol edin. İttifak yardımı inşaat ve araştırma sürelerini her gün kısaltır, bu nedenle aktif bir topluluk kelimenin tam anlamıyla hesabı hızlandırır; günlük olarak yardımcı olan yirmi insan sürekli olarak katlanırken, kayıp bir liderin olduğu ölü bir sohbet yola devam etmek için bir sinyaldir.
+
+![Aktif bir ittifaka katılan yeni bir oyuncu](/img/dtf/beginners/27.jpg)
+
+### Birlik teşhisi olarak Sıçan Sürüsü
+
+Sıçan Sürüsü sadece erken dönem dalga savunma modu değildir — ana birliğin ne eksik olduğunu size söyler. Tankların anında ölmesi ön taraf anlamına gelir; boss'a sakince ulaşıp Sıçan Kral'ı yüksek HP'de bırakmak hasar anlamına gelir; kulelerin ana yollardan uzakta durması, tüm alanı eşit şekilde yükseltmek yerine daha az çalışan noktada birleşmek demektir. Sıçan Kral doğmadan hemen önce her şeyi ateşlemek yerine boss için aktif becerileri manuel olarak saklı tutun ve sonraki boss'u zorlamadan önce normal dalgaların güvenli bir şekilde temizlendiğinden emin olun.
+
+![Oyunda erken aşamada Sıçan Sürüsü dalga savaşı](/img/dtf/beginners/28.jpg)
+
+### Hızlandırmaları ve elmasları zamanlamaya harcayın
+
+İlk haftanın ortasındaki oyun başladığında, yalnızca ne harcadığınız değil, ne zaman harcadığınız da önemlidir. Bir inşaat puanı etkinlik gününde basılan hızlandırmalar hem bina seviyesini hem de etkinlik ödüllerini satın alır; aynı mantık araştırmalara, kahramanlara ve birliklere yayılır — özellikle İttifak Düellosu açıldıktan sonra, hızlandırma biriktirenler aynı stoktan dürtüsel harcama yapanlardan daha çok kazanır. En sinsi çaylak tuzağı mikro hızlandırmalardır: burada üç dakika, orada on dakika ve akşam saatlerinde binlerce elmas buharlaşır. Elmasları somut hedefler için saklayın — önemli bir etkinlik, gerekli bir eşik, gerçekten iyi bir teklif. Düşük harcama yapanlar için uzun etkili seçimler önce gelir (ilk yükleme kahramanı, yararlı bir pas, gerçekten inşa ettiğiniz bir kahraman için paket); hızlandırmalar ve düz kaynaklar sonradan gelir.
+
+### İlk hafta ritmi
+
+Yedi gün içinde her şeyi açmaya ve yükseltmeye çalışmayın. Sığınak'ı yükseltin, güçlü bir ana birlik kurun, aktif bir ittifaka katılın ve nadir materyalleri harcanmamış halde tutun. Özellikle birinci gün asla inşaat ve üretimi boşta bırakmamalıdır; ardından Ana Beşli kaynak almaya devam ederken Tavernası, Arenası, etkinlikleri, ikinci birliği ve fraksiyon bonusları kademeli olarak devreye girer. Haftanın sonunda döngü şu şekilde okunmalıdır: üretimi topla, inşaatı başlat, etkinlikleri kontrol et, ekstra puan getiren yerlerde harca, ardından haritaya veya Arenaya git.
+
+![İlk hafta eylem planı](/img/dtf/beginners/29.jpg)
+
+> Kaynak: [Last Asylum: Plague - актуальный топовый старт: что делать в первые 7 дней. Советы, секреты, рабочая тактика игры](https://dtf.ru/howto/5265655-last-asylum-plague-startovyy-gayd-dlya-novichkov) - Гейм-Знаток, DTF.

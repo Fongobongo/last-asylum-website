@@ -2,7 +2,7 @@
 title: "🏆 영웅 티어 리스트"
 description: "일반적인 무과금/중소과금 유저의 성장 경로를 고려한 커뮤니티 합의 기반 순위입니다. 티어의 맥락이 중요합니다: 3개월 뒤에 얻을 'S' 등급 UR보다 지금 당장 보유한 'B' 등급 SSR이 더 좋습니다."
 lang: ko
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: tier_list
 ---
 
@@ -148,3 +148,112 @@ HP/공격/방어 +10%지만 강력한 하이브리드가 가능하다.
 - **후반 목표:** Warlock 5/5 — 울프레드 + 빌리 + 니콜 + 애니 + Jester.
 
 5/5 풀 보너스는 약하거나 어울리지 않는 영웅을 억지로 넣는다면 4+1이나 3+2보다 강하지 않다.
+
+---
+
+## 🛡️ 스쿼드 가이드: 조합을 통한 티어 이해 {#dtf-squad-guide}
+
+영웅은 팀과 따로 존재하지 않습니다. 같은 캐릭터라도 팩션 스쿼드에서는 훌륭하고, 무작위 조합에서는 평범하며, 잘못된 역할군에서는 거의 쓸모가 없습니다. 이 섹션에서는 스쿼드를 통해 티어 리스트를 분석합니다. 누가 전방을 지키고, 누가 피해를 입히며, 누가 버프를 제공하고, 어떤 조합을 실제로 구성해야 하는지 알아봅니다.
+
+![영웅 티어 리스트 및 최고 스쿼드 개요](/img/dtf/tier-list/01.jpg)
+
+### 팩션 보너스 및 하이브리드 포맷 {#dtf-faction-bonus}
+
+팩션 보너스는 투자한 만큼 증가합니다:
+
+- **동일 팩션 영웅 3명** — HP/공격력/방어력 +5%.
+- **3 + 2 분할** — HP/공격력/방어력 +10%.
+- **동일 팩션 영웅 4명** — HP/공격력/방어력 +15%.
+- **동일 팩션 영웅 5명** — HP/공격력/방어력 +20%.
+
+![팩션별 UR 영웅 티어 리스트: 워리어, 레인저, 워락](/img/dtf/tier-list/02.jpg)
+
+![동일 팩션 영웅 3명, 3+2명, 4명 및 5명에 대한 팩션 보너스](/img/dtf/tier-list/03.jpg)
+
+이론상으로는 20%가 가장 좋아 보이지만, 5/5가 항상 더 강한 것은 아닙니다. 5번째 영웅이 오직 보너스를 채우기 위한 용도라면, 올바른 역할군을 갖춘 4+1이나 3+2 조합이 더 뛰어난 성능을 띱니다. 예시: 강력한 워리어 4명과 잘 육성된 Cynthia의 조합은 5번째 멤버가 아무런 기여를 하지 못하는 완전한 워리어 스쿼드를 상대로 승리할 수 있습니다.
+
+PvP에서는 팩션 상성이 중요합니다: **워리어는 워락에게 20% 감소된 피해를 받고, 레인저는 워리어에게 20% 감소된 피해를 받으며, 워락은 레인저에게 20% 감소된 피해를 받습니다.** 카운터픽을 위해 계정 전체를 구성할 필요는 없습니다. 전방, 피해, 서포터가 우선입니다. 하지만 특정 조합이 지배하는 서버에서는 상성이 실제로 승패를 뒤집습니다.
+
+### 역할별 15종의 UR 영웅 전체 목록 {#dtf-ur-roster}
+
+**워리어:** Arthur (탱커 — 전방 유지, 팀 보호막), Daskal (탱커 — 보호막, 자가 치유, Arthur 옆의 두 번째 전방), Marlena (딜러 — 에너지 피해, 주로 메인 DPS 담당), Harper (서포터 — 공격력 버프, 워리어 코어 완성), Zoya (딜러 — 에너지 피해, 치명타, 광역 압박).
+
+**레인저:** Red Lady (딜러 — 위험한 고공격력 타겟 타격, 에너지 피해, 기절), Cynthia (딜러 — 에너지 블레이드, 치명타, 광역), Bell (서포터 — 레인저 스쿼드를 하나로 묶어주는 치유 및 공격력 버프), Shadow (탱커/디버퍼 — 적 방어력 감소, 에너지 조합 카운터), Louis (탱커 — 자가 치유 및 피해 감소, 폭딜/에너지 조합에 유용).
+
+**워락:** Ulfrid (탱커 — 피해 감소 및 반사; 구버전 가이드에서는 Brian으로 불렸으며 2026년 7월에 이름 변경), Billy (탱커 — 제어 효과 면역, 핵심 아군 보호, 에너지 조합 대응 보조), Joker (딜러 — 저체력 타겟 처형; 구 게시물에서는 Jester로 불림), Annie (딜러 — 화상 및 에너지 피해), Nicole (서포터 — 치유, 광역 피해, 워락 버프).
+
+워리어가 가장 완성도 높은 팩션입니다 (탱커 2명, 서포터 1명, 딜러 2명). 레인저는 위험한 타겟 압박을 중심으로 구축된 강력한 PvP 팩션입니다. 워락은 강력하지만 후반에 진가를 발휘하며, 특히 Nicole이 합류한 이후에 그렇습니다.
+
+![팩션, 역할, 기능별 15종의 UR 영웅 전체 목록](/img/dtf/tier-list/04.jpg)
+
+### 전체 UR 가치 티어 {#dtf-overall-tiers}
+
+결투 시뮬레이터가 아닌, 영웅이 실제 작동하는 스쿼드에 얼마나 자주 기용되는지에 따른 실용적인 가치 순위입니다:
+
+- **S:** Arthur, Daskal, Marlena, Red Lady, Cynthia, Harper, Shadow.
+- **A+:** Bell, Nicole, Ulfrid, Annie, Louis.
+- **A:** Zoya, Joker, Billy.
+
+S티어인 이유: Arthur는 가장 육성하기 좋은 최전방 영웅입니다. 전방이 너무 빨리 무너지면 후방은 절대 피해를 줄 수 없습니다. Arthur 옆의 Daskal은 전방을 극도로 단단하게 만들어 줍니다. Marlena는 워리어 및 하이브리드 에너지 조합 모두에서 전투의 호흡을 바꾸는 에너지 피해를 선사합니다. Red Lady는 적의 핵심 딜러를 압박합니다. Cynthia는 강력한 하이브리드 조합에서 Marlena 및 Red Lady와 조화를 이룹니다. Harper는 데미지 미터기 최상단을 차지하는 경우는 드물지만 워리어 스쿼드 내에서 핵심 조각 역할을 합니다. Shadow는 상대의 계획을 무너뜨려 전투를 승리로 이끕니다(방어력 감소 및 반에너지 기술).
+
+A+와 A는 약한 영웅이 아니라 시스템 영웅들입니다. Bell은 레인저 조합 안에서는 탁월하지만 그 외에서는 약합니다. Nicole은 워락 조합 안에서는 S티어에 가깝지만 후반형 영웅이므로 절대 그녀를 중심으로 초기 육성 경로를 짜지 마십시오. Ulfrid는 Arthur나 Daskal보다 팩션 의존도가 더 높은 강력한 워락 탱커입니다. Annie는 무작위 조합이 아닌 워락 시너지를 원합니다. Louis는 훌륭한 레인저 탱커이지만 Arthur만큼 범용적이진 않습니다. Zoya는 보통 계정의 주인공보다는 두 번째 워리어 DPS로 활약합니다. Joker는 타겟의 체력을 빠르게 깎는 팀이 필요합니다. Billy는 제어 및 에너지 피해에 대응하지만 상황을 많이 탑니다.
+
+![Arthur, Marlena, Red Lady, Shadow가 S티어에 포함된 전체 UR 영웅 티어 리스트](/img/dtf/tier-list/05.jpg)
+
+### PvP 대 PvE 분석 {#dtf-pvp-pve-reads}
+
+**PvP S:** Arthur, Daskal, Marlena, Red Lady, Cynthia, Shadow, Harper. **A+:** Louis, Ulfrid, Bell, Nicole, Annie. **A:** Joker, Zoya, Billy. Red Lady와 Shadow가 여기서 가장 높은 평가를 받습니다. Red Lady는 고공격력 타겟을 삭제하고, Shadow는 방어력을 깎으며 에너지 조합을 방해합니다. Arthur + Daskal 조합은 가장 신뢰할 수 있는 전방이며, 전투에서 승리하기보다는 시간을 벌어줍니다. Harper는 워리어 코어(Arthur + Daskal + Marlena)의 일원으로 슬롯을 차지합니다.
+
+![탱커, 딜러, 서포터가 포함된 PvP 영웅 티어 리스트](/img/dtf/tier-list/06.jpg)
+
+**PvE S:** Arthur, Marlena, Daskal, Harper, Nicole. **A+:** Cynthia, Zoya, Annie, Bell, Ulfrid, Louis. **A:** Red Lady, Shadow, Joker, Billy. 치유와 서포터가 장기전을 승리로 이끌기 때문에 Nicole의 순위가 상승합니다. 반면 고공격력 타겟 압박과 기절은 보스전에서 중요성이 떨어지므로 Red Lady의 순위는 하락합니다. Arthur, Daskal, Marlena는 두 모드 모두에서 높은 순위를 유지합니다. 전방 유지력과 안정적인 피해량은 어디서나 필요하기 때문입니다. PvP 스쿼드를 PvE에 맹목적으로 복사하지 마십시오. 이벤트가 요구하는 조건(팩션, 피해 유형, 폭딜보다는 생존력)을 확인해야 합니다.
+
+![보스전 및 장기전을 위한 PvE 영웅 티어 리스트](/img/dtf/tier-list/07.jpg)
+
+### 무과금 및 소과금 우선순위 {#dtf-f2p-priorities}
+
+핵심은 "누가 가장 강한가"가 아니라 "내가 현실적으로 누구를 육성할 수 있는가"입니다. 조각과 별이 없는 UR은 한계가 빠르게 찾아옵니다:
+
+- **매우 높음:** Arthur, Marlena, Daskal, Harper, Cynthia.
+- **높음:** Red Lady, Shadow, Ulfrid, Annie.
+- **중간/후반:** Bell, Louis, Nicole, Zoya, Joker, Billy.
+
+Arthur는 기본 스타터 탱커입니다. Marlena는 소과금 유저를 위한 최고의 피해량 증가 요소입니다. Daskal은 두 번째 전방입니다. Harper는 워리어를 완성합니다. Cynthia는 에너지 하이브리드를 열어줍니다. 등급이 낮은 영웅들은 공백을 메워줍니다: Bella는 두 번째 전방, Celia는 PvE 및 파밍용, Claire는 과도기적 피해/서포터 역할을 합니다. 이들은 목적지가 아닌 다리(징검다리)이므로 영원히 쓸 것처럼 희귀 자원을 쏟아붓지 마십시오. 전형적인 무과금의 실수는 모든 영웅의 레벨을 올리는 것입니다. 잘 작동하는 5인 조합 하나를 만들어 슬롯별로 업그레이드하십시오.
+
+![스타터 영웅부터 UR 스쿼드까지의 무과금 진행 경로](/img/dtf/tier-list/08.jpg)
+
+### 최고의 5/5 스쿼드 {#dtf-best-5-5}
+
+**워리어 5/5 — 가장 완성도 높은 팩션 스쿼드.** Arthur, Daskal, Harper, Marlena, Zoya. 전방: Arthur + Daskal. 후방: Marlena + Harper + Zoya. 탱커 2명, 서포터 1명, 딜러 2명으로 구성되어 완전한 +20% 보너스가 절대 깨지지 않습니다. 안정적이고 직관적입니다. Zoya나 Harper의 육성이 부족하다면 Cynthia나 Red Lady를 섞은 4+1 조합이 더 나을 수 있습니다.
+
+![최고의 워리어 스쿼드: Arthur, Daskal, Harper, Marlena, Zoya](/img/dtf/tier-list/09.jpg)
+
+**레인저 5/5 — PvP 스쿼드.** Shadow, Louis, Bell, Red Lady, Cynthia. 전방: Shadow + Louis. 후방: Red Lady + Bell + Cynthia. Red Lady가 위험한 타겟을 압박하고, Cynthia가 피해를 더하며, Bell이 지원하고, 전방이 에너지 위협에 맞서 버팁니다. 강력한 템포와 제어력, 풀 보너스를 챙기지만 비용이 많이 들고 후반 지향적이므로 초보자용로는 적합하지 않습니다.
+
+![레인저 스쿼드: Shadow, Louis, Bell, Red Lady, Cynthia](/img/dtf/tier-list/10.jpg)
+
+**워락 5/5 — 후반 시스템 스쿼드.** Ulfrid, Billy, Nicole, Annie, Joker. 전방: Ulfrid + Billy. 후방: Annie + Nicole + Joker. 뛰어난 내부 시너지(화상, 치유, 처형)를 갖추고 있으나 Nicole과 Billy는 후반 영웅입니다. Nicole이 없으면 조합의 의미가 많이 퇴색되므로 신규 플레이어의 첫 번째 목표로는 적합하지 않습니다.
+
+![워락 스쿼드: Ulfrid, Billy, Nicole, Annie, Joker](/img/dtf/tier-list/11.jpg)
+
+### 최고의 4+1 및 3+2 스쿼드 {#dtf-hybrid-squads}
+
+4+1 조합은 강력한 팩션 코어에 아웃사이더 1명을 더한 것이 약한 5번째 동맹 팩션 영웅보다 뛰어날 때 효과적입니다:
+
+- **죽음의 벽 (워리어 4명 + Cynthia, +15%).** Arthur, Daskal, Harper, Marlena, Cynthia. 게임 내에서 가장 신뢰할 수 있는 조합 중 하나입니다. 워리어 전방 및 코어에 Cynthia의 에너지 압박이 더해집니다. Cynthia의 육성 상태가 Zoya보다 앞선다면 잃어버린 5%의 보너스는 충분히 상쇄되고도 남습니다.
+
+![에너지 스쿼드: Arthur, Daskal, Marlena, Cynthia, Red Lady](/img/dtf/tier-list/12.jpg)
+
+- **워리어 코어 + Red Lady (워리어 4명 + 레인저 1명, +15%).** Arthur, Daskal, Harper, Marlena, Red Lady. 워리어 기반에 고공격력 타겟을 향한 Red Lady의 PvP 압박을 추가한 조합입니다. 후방 딜러 위주의 팀을 상대할 때 이상적입니다. 워리어 버프를 받지 못하므로 슬롯 값을 할 수 있도록 충분히 육성해야 합니다.
+
+3+2 (+10%)는 이미 육성된 강력한 영웅들을 활용하기 위한 실용적인 하이브리드 포맷입니다:
+
+- **순수 에너지 지배력.** Arthur, Daskal, Marlena, Cynthia, Red Lady (워리어 3명 + 레인저 2명). PvP와 빠른 전투를 위한 공격적인 에너지 폭딜 조합입니다. 클래식 서포터 없이 전방이 버티지 못하는 장기전에서는 약세를 보입니다.
+- **제어 + 붕괴.** Arthur, Daskal, Marlena, Shadow, Cynthia (워리어 3명 + 레인저 2명). Shadow가 방어력 감소와 반에너지 제어 효과를 추가하여 Marlena와 Cynthia가 해당 타이밍에 피해를 극대화할 수 있도록 돕습니다. 첫 폭딜을 버텨내는 단단한 팀을 상대하기 좋으며 Red Lady 버전에 비해 단일 타겟 집중 압박은 떨어집니다.
+- **워락 압박.** Ulfrid, Nicole, Annie, Arthur, Marlena (워락 3명 + 워리어 2명). 해당 방향으로 육성 중인 계정을 위한 과도기적 워락 조합입니다. Nicole은 주변에 워락이 많을수록 더 빛을 발합니다.
+
+이상적인 보너스가 없더라도 특정 임무를 수행하는 데 유용하다면 하이브리드 조합도 훌륭합니다(예: Arthur + Louis 전방에 Marlena, Red Lady, Joker의 마무리 조합). 역할군 분담 없이 단순히 좋아하는 UR 5명을 모아둔 것은 전략이 아닙니다. 추천하는 처음부터의 육성 순서: Arthur → Marlena → Daskal → Harper → Cynthia 또는 Red Lady (안정적인 에너지 DPS 대 PvP 압박) → Shadow → Nicole. 가장 안전한 기본 조합: 워리어 5/5. 공격적인 PvP: Arthur + Daskal + Marlena + Cynthia + Red Lady. 제어형 PvP: Arthur + Daskal + Marlena + Shadow + Cynthia. 후반 워락: Ulfrid + Billy + Nicole + Annie + Joker.
+
+![전체 영웅 티어 리스트: 팩션, 역할, PvP, PvE, 무과금 우선순위, 최고의 스쿼드](/img/dtf/tier-list/13.jpg)
+
+> 출처: DTF의 Гейм-Знаток 작성 [Last Asylum: Plague - актуальный тир-лист героев и лучшие пачки](https://dtf.ru/howto/5095947-last-asylum-plague-tir-list-geroev-i-luchshie-pachki).

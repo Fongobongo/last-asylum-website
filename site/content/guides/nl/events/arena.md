@@ -2,7 +2,7 @@
 title: "Driehoek-Arena: Verdediging & Aanval"
 description: "Drie opstellingen, de aanvaller kiest er twee om te verslaan: het gelijkmatige-verdedigingsprincipe, de offermatchup-regel, op counters gebaseerd aanvallen, factiebonussen en de Arena des Doods-val-teamtactiek voor UR-scherven."
 lang: nl
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: arena
 calculators: []
 infographics: []
@@ -140,3 +140,57 @@ Niet elke arena staat opwaarderingen toe. Waar dat wel kan, kost elk gekocht gev
 ## Wat het in de praktijk betekent
 
 Helden-Macht wordt hier direct omgezet in grondstoffen, en een hogere rang opent de arena's met de grotere beloningen. De gratis gevechten leveren dat inkomen zonder kosten op, en daarom worden ze elke dag gespeeld, zelfs op dagen zonder zin om te vechten. Welk squad je opstelt tegen een bepaalde tegenstander uit de lijst wordt gesuggereerd door de arena-teambuilder: een gevechtssimulatie doorloopt de gemarkeerde helden en toont de vijf met het beste resultaat.
+
+---
+
+## Veldnotities van de Driehoek Arena: Gevechtskracht liegt, Fracties en Dagboeken (DTF) {#dtf-field-notes}
+
+Je kunt verliezen van een zwakkere speler en enkele minuten later winnen van iemand die miljoenen sterker is: drie squads strijden, twee overwinningen beslissen de ronde. Soms is de beste zet om de beste squad van de vijand nooit aan te raken; soms weegt één held zwaarder dan een miljoen aan gevechtskracht; soms storten vijf gouden randen in omdat de hoofd-carry een hol zwaard heeft.
+
+![Tips en geheimen van de Driehoek Arena](/img/dtf/arena/01.jpg)
+
+### Verdediging blijft gelijk, aanval wordt elk gevecht herschikt {#dtf-defense}
+
+Alles wat duur is (top tank, carry, support, tweede DD) in squad 1 stoppen geeft de aanvaller twee gratis overwinningen: ze voeden de zwakke squad en winnen de andere twee met 2:1. Spreid je krachten zodat er geen gratis overwinningen bestaan — een sterke Marlena heeft niet elke beste Warrior naast zich nodig; het verplaatsen van één ster (bijv. Harper naar squad 3, Celia die de support elders dekt) ontneemt de makkelijke 2. Controleer de verdediging opnieuw na elke grote upgrade zodat squad 1 niet opzwelt terwijl de achterhoede verhongert.
+
+![Drie verdedigende squads in de Driehoek Arena](/img/dtf/arena/03.jpg)
+
+Verdediging staat vast en houdt stand; **aanval wordt bij elk serieus gevecht bijna herbouwd**. Bekijk eerst het bord van de vijand: als zij op 18/13/12M zitten en jij op ~13–15M, vecht dan niet tegen de 18M — voer die je zwakste squad en win 13 en 12. Alle drie achternajaren verspilt pogingen.
+
+![Drie gevechten met een 2-uit-3 winstconditie](/img/dtf/arena/04.jpg)
+
+### Gevechtskracht is een hint, fracties bepalen close gevechten {#dtf-might}
+
+Een team van 12M met een ontwikkelde Marlena/Arthur, een echte carry, vaardigheden en fractie-synergie verslaat regelmatig een hoopje van 14M aan tanks en supports dat niets doodt. Controleer altijd wie dat getal vormt — vooral Marlena, die games eigenhandig draagt — voordat je je tweede squad voert aan een team van "10M".
+
+![Vergelijking tussen gevechtskracht en samenstelling](/img/dtf/arena/05.jpg)
+
+Controleer daarna de fracties: **Rangers > Warriors > Warlocks > Rangers**, ongeveer **+20%** voor de counter — genoeg om een stevig gevechtskrachtgat te overbruggen (jouw iets sterke Warriors tegen Rangers is hun gevecht, niet het jouwe; probeer Warlocks tegen sterke Rangers). Werp bij elk gevecht een blik op de fractiepictogrammen als het verschil kleiner is dan een miljoen. Maar stel geen Frankenstein samen voor de bonus: een counter is alleen goed als een werkend team van die fractie — drie fracties in één squad zonder formatiebonus kostte een auteur ooit al een match waarin hij qua kracht in het voordeel was.
+
+### Nabeschouwing, uitrusting en valstrikgetallen {#dtf-compare}
+
+Open altijd de ontwikkelingsvergelijking na het gevecht — helden, troepen, technologie, Raven, relikwieën, Erehal en meer. Een scheve balk wijst direct de oplossing aan (beter helden en troepen maar achterlopende Raven/Erehal betekent dat de volgende upgrade overduidelijk is; het gat bij de ene auteur was Erehal 31 tegen 45). Gouden randen doden niemand: een sterke held met een zwak zwaard, lage vaardigheden en holle uitrusting verliest van een goed opgebouwde carry. Marlena en Zoe laten dit het sterkst zien — één gemaxte Zoe besliste een game in haar eentje, terwijl verschillende halfgebogen aanvallers niets bereikten. Regel: **één echte DD boven drie bijna-DD's**; als Marlena de carry is, krijgt haar aanvalsuitrusting (bijv. zwaard richting 60, 4-sterren) als eerste prioriteit, niet een pronkzwaard op een Arthur van niveau 30. Kweek één hoofd-DD per sleutelfractie in plaats van negen gemiddelde aanvallers.
+
+![Nabeschouwingsvergelijking tussen helden, troepen, technologie, Raven, relikwieën](/img/dtf/arena/07.jpg)
+
+Markeer het zwakste getal nooit automatisch als gratis: een squad van 10–12M die Marlena + Arthur verborgen houdt is een valstrik — elke squad oogt op papier zwakker, maar na twee gevechten verlies je op helden, fracties en interne groei. Hetzelfde geldt voor troepen: goede helden met betaalde gezichten maar **T8 tegenover T9** is al een zichtbaar gat, en soms verslaat de volgende legertier weer een heldenster.
+
+![Zwak oogende squad met een verborgen Marlena](/img/dtf/arena/08.jpg)
+
+![T8-troepen versus T9](/img/dtf/arena/09.jpg)
+
+De tegenhanger: een tegenstander met ~20M in squad 1 en twee zwakke staarten moet bij squad 1 volledig worden genegeerd — pak die twee staarten en versla een angstaanjagender totaal. Zelfs de verdediging verslaat om precies deze reden één supersquad.
+
+![Tegenstander met één supersquad en twee zwakke staarten](/img/dtf/arena/10.jpg)
+
+### Dagboek, tempo, matchmaking en extra's {#dtf-journal}
+
+Het **Dagboek** toont inkomende (blauwe) versus uitgaande (rode) aanvallen — gratis verdedigingstests. Vergelijk aanvallers met dezelfde gevechtskracht: de een farmt jouw twee zwakke squads, de ander verliest bij gelijke kracht door slechte splitsingen. Als de verdediging steeds dezelfde twee squads blijft weggeven, is het probleem gevonden.
+
+![Verdedigingsdagboek](/img/dtf/arena/11.jpg)
+
+Verbrand al je pogingen niet 's ochtends: rangen verschuiven naarmate anderen aanvallen (170 → 400+ in enkele uren is normaal). Breng je dagelijkse pogingen naar je ruwe plafond en klim 's avonds weer omhoog met bewaarde pogingen. De matchmaking vroeg in de week is vreemd voordat ranglijsten zich settelen (30M, dan 52M, dan iemand die zwak is) — het draait om rangmunten (105 ontmoet 108, 216 ontmoet 217), niet om echte macht, dus gebruik dag één voor experimenten. Dagelijkse taken: **3 en 5 overwinningen** hoeven geen reeksen te zijn en leveren Gloriemedailles op; ranglijst-/alliantiebeloningen omvatten gebouwskins (bijv. +5% heldenaanval); **likes betalen 30 diamanten** (tot 180/dag over twee arena's) — sla gratis diamanten nooit over.
+
+Elk gevecht: zoek de gevaarlijkste vijandelijke squad, kies twee echte doelen, controleer de fracties en verborgen carries opnieuw (een opgepompte Marlena in het "zwakke" slot reset de berekening), schud Bella/Harper/Claire/Celia door elkaar tussen squads, en kijk pas daarna naar de gevechtskracht. Langzamer, en dat is waarom het interessant is.
+
+> Bron: [Треугольная арена Last Asylum: Plague - советы и тактика](https://dtf.ru/howto/5253651-sovety-po-treugolnoy-arene-last-asylum-plague) door Гейм-Знаток op DTF.

@@ -2,7 +2,7 @@
 title: "Trận Chiến Sinh Tồn: 60N Huy Hiệu Miễn Phí & Chu Kỳ Pha 4 Tiếng"
 description: "Sự kiện nhiệm vụ hàng tuần mang lại khoảng 60.000 Huy Hiệu Kỹ Năng miễn phí: 5 danh mục nhiệm vụ, các pha xoay vòng 4 tiếng, tính điểm huấn luyện lính theo hàng đợi và đồng bộ với Đấu Trường Liên Minh."
 lang: vi
-updated: "2026-09-15"
+updated: "2026-10-12"
 videoTopic: survival
 type: event
 ---
@@ -205,3 +205,51 @@ Các giá trị đã được xác minh từ dữ liệu client game (v1.0.87), 
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Mỗi pha Trận Chiến Sinh Tồn kéo dài bao lâu?", "acceptedAnswer": {"@type": "Answer", "text": "Mỗi pha kéo dài 4 tiếng; có năm pha theo chủ đề: anh hùng, lãnh thổ, quân đội, công nghệ và quạ."}}, {"@type": "Question", "name": "Điểm huấn luyện quân được tính khi nào?", "acceptedAnswer": {"@type": "Answer", "text": "Vào khoảnh khắc bạn bấm Huấn Luyện/Thăng Cấp và tài nguyên bị trừ — không phải khi bộ đếm kết thúc."}}]}
 </script>
+
+---
+
+## Vòng lặp hàng ngày trong Trận chiến Sinh tồn: Ấn ký, Năng lượng và Trùng khớp Đấu trường (DTF) {#dtf-daily-loop}
+
+Sự kiện diễn ra hàng ngày qua năm chủ đề xoay vòng — huấn luyện quân đội, nghiên cứu công nghệ, nâng cấp Raven, phát triển tướng, phát triển lãnh thổ. Bạn không cần cả năm: **18 Ấn ký Sinh tồn sẽ mang lại ba rương hàng ngày**, tức là ba chủ đề được hoàn thành đầy đủ. Điểm mấu chốt thực sự là sự trùng khớp với Đấu trường Liên minh — xây dựng vào thứ Ba, nghiên cứu vào thứ Tư, huấn luyện vào thứ Sáu — để các vật phẩm tăng tốc mang lại giá trị gấp đôi.
+
+![Năm chủ đề Sinh tồn và 18 ấn ký cho ba rương](/img/dtf/survival/02.jpg)
+
+### Ấn ký và thứ hạng hoạt động ra sao {#dtf-seals}
+
+Thứ tự xoay vòng hàng ngày không có lịch trình cố định — hãy mở sự kiện trước khi tiêu nguyên liệu và kiểm tra chủ đề hiện tại cùng chủ đề tiếp theo. Mỗi chủ đề có **4 giai đoạn mang lại 1+1+2+2 = 6 ấn ký**; 18 ấn ký = hoàn thành ba chủ đề. Phần thưởng theo giai đoạn (huy hiệu kỹ năng, vật phẩm tăng tốc, tài nguyên) được cộng dồn bên trên. Hoàn thành cả năm chủ đề mang lại khoảng **8.000 huy hiệu kỹ năng một ngày**, lên tới ~9.600 nếu chủ đề huấn luyện lặp lại. Bảng xếp hạng hàng ngày trao thưởng tài nguyên cơ bản cho mọi điểm số và phần thưởng tốt hơn ở các thứ hạng cao hơn — tiếp tục vượt mốc 18 chỉ khi chủ đề trùng khớp với kế hoạch phát triển; việc đốt kho vật phẩm tăng tốc chỉ để lấy hạng hiếm khi mang lại hiệu quả.
+
+![Phần thưởng xếp hạng Sinh tồn](/img/dtf/survival/03.jpg)
+
+Bộ ba hàng ngày tiết kiệm nhất cho hầu hết tài khoản: **Raven (năng lượng) + Tướng (thuốc giải độc) + chủ đề ngày đấu trường** (lãnh thổ thứ Ba, nghiên cứu thứ Tư, quân đội thứ Sáu; thứ Bảy — bất kỳ chủ đề nào có sẵn kho tiết kiệm nhất). Sau rương vàng ở mốc 18, hãy dừng lại trừ khi chủ đề tiếp theo nằm trong kế hoạch phát triển đã định sẵn.
+
+### Quân đội, nghiên cứu, Raven, tướng, lãnh thổ {#dtf-themes}
+
+**Huấn luyện:** tính điểm từ vật phẩm tăng tốc huấn luyện và sự phát triển của quân đội trên khu huấn luyện phát triển nhất (cấp độ tối đa), với các khu khác đang nạp hoặc chuẩn bị các cấp thấp hơn để thăng cấp. Nếu việc huấn luyện bắt đầu trong một giờ và một mẻ gần hoàn thành, chỉ xếp hàng phần thời gian còn lại, sau đó nạp đầy đủ sau khi chủ đề mở ra — không để khu huấn luyện nào trống, nhưng phần lớn lượng quân sẽ hoàn thành trong khung thời gian. Ngày tốt nhất là thứ Sáu với giai đoạn huấn luyện đấu trường.
+
+![Huấn luyện quân đội trong khung thời gian sự kiện](/img/dtf/survival/04.jpg)
+
+**Nghiên cứu:** điểm số từ vật phẩm tăng tốc nghiên cứu cộng với điểm sức mạnh công nghệ nhận được — tính toán thời gian hoàn thành nằm trong khung thời gian, sau đó bắt đầu nghiên cứu tiếp theo, nhận hỗ trợ từ liên minh, rồi quyết định tăng tốc cái gì. Nếu một công nghệ mang lại nhiều sức mạnh rõ rệt và giai đoạn tiếp theo chỉ cần một chút nữa, việc hoàn thành nó sẽ tốt hơn là rải đều vật phẩm tăng tốc cho các công nghệ nhỏ; không cần thiết phải hoàn thành hẳn một công nghệ dài một khi ngưỡng điểm đã đạt được. Ngày tốt nhất là thứ Tư với nghiên cứu đấu trường.
+
+![Nghiên cứu công nghệ và tính điểm sức mạnh](/img/dtf/survival/06.jpg)
+
+**Raven — cỗ máy làm việc hàng ngày:** hai cách để ghi điểm, phát triển trái cây hoặc tiêu hao năng lượng. Hãy để dành trái cây cho giai đoạn Raven của đấu trường ngày Thứ Hai; vào các ngày khác, hãy tiêu hao **năng lượng** cho các nhiệm vụ Tiêu diệt Blight/kẻ trộm/trùm/Falcon — hoạt động hàng ngày bình thường, không tốn chi phí riêng. Khoảng **300 năng lượng** là đủ hoàn thành chủ đề (4 phần thưởng, 6 ấn ký). Kết hợp với Săn kẻ trộm: đội hình yếu tìm kẻ trộm vàng nhỏ và mở trùm, đội hình mạnh đánh mục tiêu lớn. Lối tắt: cử một đội đến ô tài nguyên gần hơn trước, sau đó đổi hướng tấn công vào quái vật khi đi ngang qua — cắt giảm được rất nhiều lượt di chuyển mỗi ngày.
+
+![Nâng cấp Raven qua năng lượng và Săn kẻ trộm](/img/dtf/survival/08.jpg)
+
+**Tướng — chủ đề nhanh nhất:** Triệu hồi Quán rượu cộng với thuốc giải độc; chỉ một lần thăng cấp đúng mức thường hoàn thành cả bốn giai đoạn. Mở một vài tướng, chọn tướng có chi phí lên cấp tiếp theo gần nhất với ngưỡng cuối cùng — đừng đổ 100M thuốc giải độc vào nơi chỉ cần 20M là xong. Hãy để dành số lượt triệu hồi lớn cho ngày tướng đấu trường vào thứ Năm; thuốc giải độc thường hoàn thành sự kiện Sinh tồn với chi phí rẻ hơn.
+
+![Phát triển tướng với thuốc giải độc](/img/dtf/survival/10.jpg)
+
+**Lãnh thổ:** vật phẩm tăng tốc xây dựng cộng với điểm sức mạnh xây dựng. Hãy hoàn thành một công trình lớn sắp xong trong khung thời gian khi có thể (không cần đợi 15–30 ngày cho Thánh địa/Phòng thí nghiệm); mặt khác, hãy dùng vật phẩm tăng tốc theo các mẻ lớn hơn (ví dụ: 5 phút) sau khi nhận hỗ trợ từ liên minh. Ngày tốt nhất là thứ Ba với xây dựng đấu trường.
+
+![Phát triển lãnh thổ với vật phẩm tăng tốc xây dựng](/img/dtf/survival/11.jpg)
+
+### Trùng khớp, bộ trưởng và kỷ luật ấn ký {#dtf-overlap}
+
+Thứ Hai: đấu trường tăng trưởng Raven — sử dụng trái cây tích trữ trong chủ đề Raven để được tính điểm gấp đôi. Thứ Ba: lãnh thổ — hoàn thành các công trình đã chuẩn bị sẵn cộng với vật phẩm tăng tốc xây dựng. Thứ Tư: nghiên cứu — cuộn giấy cộng với công nghệ dài hạn. Thứ Năm: tướng — vé, mảnh vỡ, thuốc giải độc, huy hiệu. Thứ Sáu: quân đội — các khu huấn luyện trong chủ đề huấn luyện. Thứ Bảy: tự do lựa chọn theo kho có sẵn. Đừng điều chỉnh tài khoản theo sự kiện; hãy điều chỉnh sự kiện theo kế hoạch phát triển.
+
+Trước các nâng cấp lớn, hãy nhận danh hiệu bộ trưởng phù hợp, và theo dõi hàng chờ: trong danh sách đầy 50/50, các yêu cầu thường bị treo ở trạng thái chờ — nộp đơn khi đạt **49/50** sẽ giúp đưa vào hàng chờ xử lý thường xuyên hơn. Lên kế hoạch trước cho các danh hiệu vào những ngày xây dựng/nghiên cứu.
+
+Ấn ký **làm mới hàng ngày** — 17 cái hôm nay cộng với "một cái nữa vào ngày mai" sẽ thành con số không vào ngày mai. Nếu thiếu một giai đoạn nữa là đạt mốc 18, hãy chọn chủ đề có chi phí hoàn thành rẻ nhất; tuyệt đối không tích trữ ấn ký với hy vọng ngày mai sẽ nhàn hơn.
+
+> Nguồn: [Last Asylum: Plague - гайд по Битве на выживание](https://dtf.ru/howto/5240960-last-asylum-plague-gajd-po-bitve-na-vyzhivanie) thực hiện bởi Гейм-Знаток trên DTF.

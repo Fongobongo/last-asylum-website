@@ -3,7 +3,7 @@ title: "クレア：スキル・ビルド・育成"
 description: "クレア is an SSR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Might, rank 12 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( クレア Sh…"
 videoTopic: "claire"
 lang: ja
-updated: "2026-09-19"
+updated: "2026-10-12"
 type: guide
 ---
 
@@ -290,3 +290,35 @@ Stars cost クレア the most, not in badges but in waiting: 975 shards, while a
 
 The best squad with クレア and no UR hero is ケイソ, ルシウス, シヴィア, ベラ and クレア herself: five warriors, a +20% bonus and 8.1M of survivability. Alongside アーサー and マレーナ she joins three of the five best reachable squads, where survivability reaches 38.2M, and the price of the full bonus is 20% extra damage from rangers.
 
+
+---
+
+## ✦ ゴールド (UR) Claire：変換メカニクスと評価 {#dtf-gold-claire}
+
+Claireのレアリティを上げると、紫色のSSRがURバージョンに変化します。このメカニクスは、見た目ほど厳しくなく、最初は優しいものの、後からコストがかかる仕様になっています。レベルは引き継がれますが、星は引き継がれません。
+
+### 変換後も引き継がれる要素 {#dtf-claire-conversion}
+
+変換後、ヒーローがレベル1に戻ることは**ありません**。150レベルすべてが維持されます。星の引き継ぎ仕様は異なり、ゴールドのClaireは**6つ星**で登場します。投資したリソースの一部は断片やスキルバッジとして払い戻され、強化された形態に再分配することができます。思わぬ落とし穴として、さらなる星のアップグレードにはかなりのコストがかかり、従来の形態の約2倍の断片が必要になります。そのため、同じ日に一気に10つ星まで急ぐ必要はありません。優先すべきは**8★**で、これにより5つ目のスキルが解放され、非常に完成度の高い構成が整います。最後の2つ星は、自身のショップの断片や入手可能なリソースを使って徐々に上げていけばよいでしょう。
+
+![Claireのゴールドへのレアリティアップ](/img/dtf/daskal-claire/05.jpg)
+
+![変換後のゴールドClaire](/img/dtf/daskal-claire/06.jpg)
+
+このアップグレードは単なる色の変更ではなく、基礎ステータス、特に同じアカウントの数値におけるHPとATKが着実に向上します。
+
+![ゴールドとパープルのClaireのステータス比較](/img/dtf/daskal-claire/07.jpg)
+
+![URと旧Claireのステータス比較](/img/dtf/daskal-claire/08.jpg)
+
+### 強力——ただしPvE特化 {#dtf-claire-pve-focus}
+
+ゴールドClaireを、あらゆるUR DPSの万能な代替品と呼ぶべきではありません。彼女はPvEやモンスター戦向けに高度に調整されています。「Call of the Brave」は、チーム内で最もATKが高い3人のWarriorのダメージを特に対モンスター戦で上昇させるため、魔王などのPvEコンテンツでは圧倒的な強さを誇る一方、PvPではスキルの一部が機能しません。プレイヤー同士の戦いが主な目的であれば、Zoyaの方がより万能と言えます。
+
+![PvEとモンスター向けに調整されたClaire](/img/dtf/daskal-claire/09.jpg)
+
+![レベル150時点でのClaireとMarlena、Arthur、Harperの比較](/img/dtf/daskal-claire/10.jpg)
+
+評価：ゴールドClaireはWarriorのPvEを素晴らしく強化しますが、すべてのモードで自動的に最適解になるわけではありません。8つ星でいったん止め、残りの2つ星はゆっくり育成し、モンスターに対するボーナスが活きる場所で起用しましょう。
+
+> Source: [Даскал и золотая Клэр в Last Asylum: Plague - как правильно прокачивать героев](https://dtf.ru/howto/5317537-daskal-i-zolotaya-kler-v-last-asylum-prokachka-geroev) by Гейм-Знаток on DTF.

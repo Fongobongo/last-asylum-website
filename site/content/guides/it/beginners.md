@@ -2,7 +2,7 @@
 title: "Guide per principianti: Hub"
 description: "Le tue prime 24 ore: alleanza attiva, spinta al Santuario, focus su due-tre eroi, eventi prima degli acceleratori, saccheggi fin dal primo giorno."
 lang: it
-updated: "2026-10-03"
+updated: "2026-10-12"
 videoTopic: beginner
 ---
 
@@ -213,3 +213,201 @@ Il calcolatore di costruzione assembla l'ordine di aggiornamento dal primo giorn
 - [Strada dell'eroe](/it/hero-road/)
 - [Livelli d'onore: condizioni, costo e pagamento](/it/hero-honor/)
 - [Spedizione: ordine arena e bonus server iniziale](/it/expedition/)
+
+---
+
+## Inizia con il piede giusto: Focus, Ospedale, Magazzini, Una sola Squadra {#dtf-start-focus}
+
+![Guida completa all'inizio per Last Asylum: Plague](/img/dtf/beginners/01.jpg)
+
+L'inizio classico dà un'impressione di grande fermento — un edificio qui, un eroe là, una ricerca avviata — ma le risorse si disperdono in ogni direzione mentre la potenza ristagna. La soluzione non è l'impegno, ma la sequenza: **prima la base in sesto, poi gli eroi pronti a sgomberare i contenuti, e solo dopo tutto il resto.** Rafforzare tutto un po' significa non rafforzare nulla.
+
+![Consigli iniziali per evitare che i progressi si blocchino](/img/dtf/beginners/02.jpg)
+
+### Il Santuario è la bussola
+
+Il Santuario sblocca edifici, meccaniche e miglioramenti: finché è fermo, ristagni; finché cresce, ti muovi. Smetti di tirare ad indovinare cosa potenziare: apri i requisiti del livello successivo del Santuario e lavora strettamente su di essi. Se lo manchi una volta, il gioco ti dirà semplicemente "non puoi procedere" dopo che avrai già sprecato tempo altrove.
+
+![Il Santuario — il centro dell'intera base](/img/dtf/beginners/03.jpg)
+
+### Segui le missioni all'inizio
+
+Le missioni non sono un tutorial da superare in fretta, ma il principale strumento di progressione: sbloccano risorse, acceleratori, diamanti e nuove meccaniche. Usale come bussola: nel dubbio, fai ciò che fa avanzare la linea delle missioni. Ignorarle significa fare le stesse cose più lentamente.
+
+### L'ospedale è una catena di montaggio, non una seccatura
+
+L'ospedale è uno dei principali motori di risorse: paziente in entrata, curato, ricompensa in uscita, paziente successivo. Se va a rilento, tutto si blocca.
+
+![Ospedale: il medico cura i pazienti e si aprono nuovi reparti](/img/dtf/beginners/04.jpg)
+
+- **Apri nuovi reparti** — il flusso di pazienti aumenta.
+- **Assumi lavoratori** — la routine manuale scompare.
+- **Prepara pozioni in anticipo** — un paziente senza la pozione giusta occupa un letto e blocca la fila; con scorte a portata di mano, la cura è istantanea e il letto si libera.
+
+![Fare scorta di pozioni in anticipo mantiene i letti dell'ospedale in rotazione](/img/dtf/beginners/05.jpg)
+
+Girovagare nei panni del medico funziona solo all'inizio. Nel momento in cui l'automazione (lavoratori, auto-cura) diventa disponibile, attivala: senza di essa i progressi si fermano ogni volta che ti disconnetti; con essa le risorse si accumulano mentre sei via.
+
+![Trattamento manuale dei pazienti all'inizio del gioco](/img/dtf/beginners/06.jpg)
+
+### Economia stabile prima dell'espansione
+
+All'inizio il reddito sembra generoso, poi arriva il conto: ogni nuovo edificio aumenta il consumo senza incrementare la produzione. La regola è noiosa ma funziona: prima cibo e materiali stabili, poi l'espansione. Inoltre, i progressi non sono solo ciò che raccogli, ma ciò che conservi: i magazzini aumentano i limiti di stoccaggio e proteggono parte delle scorte dai raid, così una battaglia persa non cancella un miglioramento per cui avevi già risparmiato.
+
+![Raccolta delle risorse e sviluppo della base](/img/dtf/beginners/07.jpg)
+
+![I magazzini di risorse aumentano la capacità di stoccaggio e proteggono le scorte](/img/dtf/beginners/08.jpg)
+
+### Mantieni le squadre attive, salta le carovane iniziali
+
+Una squadra guadagna solo mentre marcia; una squadra di ritorno rimasta inattiva rappresenta un tempo morto invisibile che si accumula creando un divario reale. Adatta la durata delle marce al tuo programma: brevi spedizioni quando sei online, lunghe prima di disconnetterti.
+
+![Carovane sulla mappa del mondo](/img/dtf/beginners/09.jpg)
+
+Le carovane sembrano allettanti ma all'inizio offrono ricompense instabili rispetto all'attenzione che richiedono: ignorale nelle prime fasi e datti al farming tramite le semplici spedizioni.
+
+### La base è le fondamenta, la mappa è il vero obiettivo
+
+Le squadre non servono solo a recuperare cibo, legname ed erbe: aprono nodi, mantengono avamposti, riconquistano rovine infette e contendono città chiave. Con formati su scala di server come il Kingdom Clash all'orizzonte, il contributo di ogni giocatore alimenta il risultato condiviso: un inizio costruito attorno a un'economia dinamica, a un solido gruppo di eroi e a squadre efficienti arriva sulla mappa da protagonista, non da spettatore.
+
+![La mappa del mondo: avamposti, rovine e città contese](/img/dtf/beginners/10.jpg)
+
+### La difesa si basa sui percorsi, non sulle torri
+
+I nemici prendono il percorso libero più breve, quindi un muro dritto di torri rende meno del dovuto: costruisci lunghi corridoi serpeggianti fatti di curve e colli di bottiglia, concentra le torri dove i nemici ristagnano più a lungo, aggiungi rallentamenti e le stesse torri infliggeranno molti più danni. Una buona difesa allunga il percorso del nemico, non aumenta il numero di torri.
+
+![Modalità difesa: torri che coprono un lungo percorso nemico tortuoso](/img/dtf/beginners/11.jpg)
+
+### Un quintetto efficiente batte un roster mediocre
+
+Disperdere i frammenti su ogni nuova evocazione produce una lista di eroi mediocri e combattimenti tirati per le lunghe. Scegli un quintetto e investi tutto su di esso — livelli, abilità, equipaggiamento:
+
+- **Arthur** — tank da prima linea, guadagna tempo per la squadra;
+- **Marlena** — principale fonte di danni che crescono durante il combattimento;
+- **Claire** — potenzia tutti, non solo se stessa;
+- **Stellar** — pressione extra, forte nei combattimenti di massa;
+- **Celia o Bella** — supporto che colma i vuoti rimanenti.
+
+![Una squadra di cinque eroi efficiente con ruoli chiari](/img/dtf/beginners/12.jpg)
+
+![Una squadra di eroi bilanciata per le prime fasi di gioco](/img/dtf/beginners/13.jpg)
+
+La forza deriva dall'interazione dei ruoli come un'unità, non dal conteggio della rarità o dal numero di teste. Nuova evocazione? Verifica se migliora il quintetto attuale; in caso contrario, aspetta.
+
+### La valuta dell'arena va spesa in frammenti universali
+
+Il negozio dell'arena è una trappola piena di offerte allettanti ma isolate. La priorità che dà i suoi frutti a lungo termine: **frammenti di eroe universali** — vanno bene per qualsiasi eroe, sbloccano miglioramenti di stelle e fanno crescere la squadra in modo permanente. Un forte acquisto tardivo vale più di dieci acquisti iniziali inutili.
+
+![L'Arena e il suo negozio dei premi](/img/dtf/beginners/14.jpg)
+
+### Laboratorio: prima lo sviluppo, l'aiuto prima degli acceleratori
+
+Il Laboratorio non offre alcun picco di potenza immediato, motivo per cui viene posticipato, facendo poi lievitare i timer. Priorità: velocità di costruzione, velocità di ricerca, addestramento delle truppe — il ramo dello Sviluppo accelera letteralmente tutto — oltre al bonus punti per i duelli dell'alleanza che offre ricompense extra per le stesse azioni. Focalizzati su un ramo e portalo a termine; spargere pergamene ovunque non porta a nulla. E premi sempre l'Aiuto dell'alleanza prima di spendere acceleratori: sfrutta prima i tagli gratuiti dei timer.
+
+![Interfaccia del laboratorio di ricerca](/img/dtf/beginners/15.jpg)
+
+![Il ramo di ricerca dello Sviluppo che accelera tutto](/img/dtf/beginners/16.jpg)
+
+![L'aiuto dell'alleanza che riduce i tempi di costruzione](/img/dtf/beginners/17.jpg)
+
+### Equipaggiamento: salta il blu, smantella, alimenta il viola con criterio
+
+I materiali di potenziamento sono sempre più scarsi dei pulsanti da premere. L'equipaggiamento blu viene comunque sostituito da quello viola e non rimborsa nulla: smantellalo per ottenere materiali per la fase successiva invece di potenziarlo. Il viola è un buon passo intermedio (che in seguito potrà essere smantellato senza catastrofi); assegnalo prima all'eroe chiave — di solito il tank che regge la linea, Arthur. Oggetto temporaneo, eroe di prova, puntino rosso solitario: quasi sempre una spesa sbagliata.
+
+![Equipaggiamento blu non degno di essere potenziato](/img/dtf/beginners/18.jpg)
+
+![Priorità dell'equipaggiamento su Arthur e sul team principale](/img/dtf/beginners/19.jpg)
+
+![Smantellamento dell'equipaggiamento in eccesso per ottenere materiali di potenziamento](/img/dtf/beginners/20.jpg)
+
+### I diamanti sono una riserva, non una comodità
+
+All'inizio i diamanti si esauriscono rapidamente per questioni di comodità, e giorni dopo si apre la roulette degli eroi, che richiede una scorta reale e non un paio d'centinaia. Un lavoratore extra a breve termine nelle prime ore è un boost accettabile; dopodiché, trattieniti. Considera i diamanti come un fondo per un obiettivo concreto e spendili solo per colmare una lacuna specifica che hai già compreso.
+
+![Guadagnare diamanti completando le missioni](/img/dtf/beginners/21.jpg)
+
+> Fonte: [Last Asylum: Plague - полный гайд для старта: как не слить ресурсы и быстро выйти в топ](https://dtf.ru/howto/4920845-last-asylum-plague-gayd-po-startu-sovety-po-optimizatsii-resursov) di Гейм-Знаток su DTF.
+
+---
+
+## Primi Sette Giorni: da uno Stato fresco alla seconda squadra {#dtf-first-week}
+
+![Guida al miglior inizio per i nuovi giocatori](/img/dtf/beginners/22.jpg)
+
+La prima settimana richiede esattamente tre cose: una base in rapida crescita, una squadra principale forte e un'alleanza attiva. Tutto il resto ruota attorno a loro: l'obiettivo è finire il settimo giorno senza desiderare di ripartire da capo.
+
+### Inizia su uno stato fresco
+
+Il tuo stato è di fatto il tuo server: in uno fresco tutti partono insieme, mentre in uno vecchio di giorni il nucleo attivo è già andato avanti in alleanze forti con più contenuti sbloccati. Non inseguire un numero di stato specifico — quel consiglio scade più in fretta di un timer di costruzione — e non scegliere un vecchio server solo perché il gioco evidenzia la dicitura "consigliato". Uno stato aperto poche ore prima va benissimo.
+
+![Scelta di uno stato fresco per un nuovo account](/img/dtf/beginners/23.jpg)
+
+### Prima il tutorial, poi il Santuario 8 con un'economia attiva
+
+Gioca correttamente il tutorial per la prima mezz'ora: è meglio che fare esperimenti, specialmente quelli che iniziano con "chissà a cosa serve questo pulsante dorato". Poi spingi sul Santuario: definisce il tetto dello sviluppo, limita il livello degli eroi e sblocca le funzionalità. L'obiettivo operativo è una corsa rapida al livello 8 **senza lasciare un'economia morta alle spalle** — se il livello successivo richiede le Mura o la Sala dell'Alleanza, costruiscile; se le erbe scarseggiano, sistema le erbe; se le cure si bloccano, controlla la produzione di medicine. Nota che oltre il livello 10 il Laboratorio diventa una presenza fissa nei requisiti.
+
+![Livelli del Santuario e cosa sblocca ciascuno di essi](/img/dtf/beginners/24.jpg)
+
+Prima di avviare ogni potenziamento del Santuario, verifica cosa richiederà il livello *successivo* e inizia a preparare quell'edificio mentre il timer del Santuario scorre: questo accorgimento da solo elimina gran parte dell'attesa a vuoto. Spendere per superare un'importante soglia del Santuario e sbloccare un nuovo sistema ha senso; spendere per tagliare cinque minuti morti no.
+
+### Abitudini della coda di costruzione
+
+Non lasciare mai i costruttori inattivi: un'ora passata a discutere di eroi mentre i timer rimangono vuoti è crescita persa. Quando sei online, metti in coda miglioramenti brevi; prima di andare a dormire, avvia quelli di più ore, e gestisci la produzione con lo stesso ritmo. Tieni d'occhio in particolare la catena erbe-medicina: le erbe sembrano comuni finché una serie di battaglie non ti lascia senza nulla con cui curare le truppe. E non potenziare ogni edificio di produzione in modo uniforme "per estetica": alimenta ciò che sta effettivamente scarseggiando, perché le risorse affondate in edifici non essenziali bloccano l'account.
+
+### Formazione: tank davanti, danni dietro
+
+Due eroi reggono la prima linea, tre lavorano nella retroguardia: i tank assorbono i danni e guadagnano tempo, la linea posteriore ospita il principale e il secondario distributore di danni, oltre a un supporto. Non schierare mai il tuo damager più forte in prima linea solo perché mostra il valore di Potenza più alto: il suo compito è infliggere danni dalla seconda fila mentre i tank reggono l'urto.
+
+![Formazione corretta: due tank davanti, tre eroi dietro](/img/dtf/beginners/25.jpg)
+
+### Dopo una sconfitta, analizza la situazione, poi continua a nutrire una sola squadra
+
+Se i tank crollano all'istante, rinforza la prima linea; se i tank reggono ma i nemici sopravvivono, investi sui danni principali e secondari. La seconda squadra si sblocca al Santuario 8 e la terza solo al 20: nessuna delle due giustifica la divisione delle risorse a metà. La prima squadra continua a superare i contenuti difficili; la seconda raccoglie, sbriga commissioni e cresce con gli avanzi finché il quintetto principale non affronta i contenuti con sicurezza.
+
+### I cinque iniziali e come dividere le risorse
+
+Un nucleo iniziale collaudato: **Arthur e Bella davanti; Marlena, Claire e Celia dietro** — tutti Guerrieri, così la squadra ottiene l'intero bonus di fazione del +20% fin dal primo giorno.
+
+- **Arthur** diventa il tank principale. È il primo UR che appare nella Taverna su uno stato giovane, e 50 evocazioni garantiscono 10 dei suoi frammenti: inseriscilo presto nel quintetto principale, poi inizia a risparmiare i biglietti per gli eventi che assegnano punti evocazione.
+- **Bella** occupa il secondo slot in prima linea in modo che nessun damager debba esporsi.
+- **Marlena** è il principale portatore di danni a lungo termine: la candidata ideale per investimenti prolungati.
+- **Claire** distrugge i mostri e potenzia i Guerrieri forti, e non è un SSR da buttare: nell'Era della Rinascita passa da SSR a UR, quindi l'investimento iniziale continua a dare i suoi frutti.
+- **Celia** brilla nel PvE, raccogliendo risorse e affrontando mostri d'élite, completando la squadra finché non esisterà un quintetto interamente UR.
+
+Dividi le risorse in modo non uniforme: Marlena, Arthur e Claire sono il trio a lungo termine; Bella e Celia fanno bene i lavori iniziali ma non dovrebbero ricevere frammenti UR universali, progetti migliori o i materiali più rari. Finché i miglioramenti sono economici, mantieni i cinque all'incirca allo stesso livello; man mano che i costi salgono, il trio ha la priorità. La stessa logica governa i badge delle abilità. L'equipaggiamento segue i ruoli: i tank vogliono armatura e stivali per reggere più a lungo la prima linea; i damager vogliono spada e guanti per chiudere i combattimenti più velocemente. E non potenziare mai un oggetto solo perché è comparso un puntino rosso accanto ad esso: il puntino rosso non conosce i tuoi piani.
+
+### Abilità: PvP o mostri?
+
+Molte abilità mirano al PvP, altre ai mostri e al PvE: Claire colpisce i mostri più duramente e potenzia i Guerrieri contro di essi, Celia può aumentare il bottino di risorse e mostri d'élite. Quindi la domanda non è mai "quanto è raro questo eroe" ma **"dove lo sto portando in questo momento?"** Questo vale il doppio per il secondo roster: cinque carte costose non risolvono da sole i ruoli di tank, supporto e passeggero.
+
+### Fazioni senza feticismi
+
+Il triangolo funziona così: Guerrieri → Warlock → Ranger → Guerrieri con un vantaggio del 20%, e il bonus di costruzione della stessa fazione scala con 3 eroi +5%, 3+2 +10%, quattro +15%, cinque interi +20% ad attacco, HP e difesa.
+
+![Bonus squadra della stessa fazione fino a +20%](/img/dtf/beginners/26.jpg)
+
+Ma il primo giorno, non mettere mai in panchina un buon tank per un riempitivo debole solo per completare un'immagine 5/5: la squadra deve prima funzionare, poi evolversi in una fazione mono completa. Per un nucleo iniziale di Guerrieri questo è conveniente: Arthur fa da tank, Marlena infligge danni, Claire potenzia il PvE — e ulteriori UR si inseriscono nel tempo. Le regole di risparmio seguono lo stesso piano: i frammenti UR universali vanno prima a Marlena (Arthur raccoglie i propri frammenti attraverso la Taverna e altre fonti), e tra gli SSR Claire è la principale candidata per i frammenti universali.
+
+### Alleanza: meglio una buona che una al top
+
+Unisciti a una buona alleanza non appena la funzione si sblocca — e l'aggettivo "buona" conta più di "top". Verifica se la chat risponde, se i membri premono Aiuto, se gli eventi vengono giocati, se esiste una leadership. L'aiuto dell'alleanza riduce ogni giorno i tempi di costruzione e ricerca, quindi una comunità attiva accelera letteralmente l'account; venti persone che aiutano ogni giorno fanno accumulare vantaggi costanti, mentre una chat morta con un leader assente è un segnale per cambiare aria.
+
+![Un nuovo arrivato che si unisce a un'alleanza attiva](/img/dtf/beginners/27.jpg)
+
+### Sciame di ratti come test diagnostico della squadra
+
+Lo Sciame di ratti non è solo una modalità di difesa iniziale contro le ondate: ti dice cosa manca alla squadra principale. I tank che muoiono all'istante indicano un problema in prima linea; raggiungere tranquillamente il boss ma lasciare il Re dei Ratti con molti HP indica un problema di danni; le torri posizionate lontano dai percorsi principali indicano la necessità di concentrarsi su un minor numero di punti di lavoro invece di potenziare l'intero campo in modo uniforme. Conserva le abilità attive manualmente per il boss anziché sparare tutto subito prima che il Re dei Ratti appaia, e assicurati di completare con sicurezza le ondate normali prima di spingerti verso il boss successivo.
+
+![Battaglia contro le ondate dello Sciame di ratti all'inizio del gioco](/img/dtf/beginners/28.jpg)
+
+### Spendi acceleratori e diamanti sul tempismo
+
+Una volta iniziata la metà della prima settimana di gioco, non conta solo ciò che spendi, ma quando lo fai. Gli acceleratori attivati in un giorno di eventi incentrati sulla costruzione fanno guadagnare sia il livello dell'edificio che le ricompense dell'evento; la stessa logica si estende a ricerca, eroi e truppe — specialmente dopo l'apertura del Duello dell'Alleanza, quando chi accumula acceleratori guadagna più di chi spende impulsivamente attingendo alle stesse scorte. La trappola più insidiosa per i neofiti sono i micro-acceleratori: tre minuti qui, dieci là, e migliaia di diamanti evaporano entro sera. Conserva i diamanti per obiettivi tangibili: un evento importante, una soglia necessaria, un'offerta genuinamente buona. Per i giocatori che spendono poco, le scelte a lungo effetto vengono prima (un eroe del primo acquisto, un pass utile, un pacchetto per un eroe che stai effettivamente sviluppando); acceleratori e risorse semplici arrivano dopo.
+
+### Il ritmo della prima settimana
+
+Non cercare di aprire e potenziare tutto in sette giorni. Fai crescere il Santuario, assembla una squadra principale forte, unisciti a un'alleanza attiva e tieni i materiali rari non spesi. Il primo giorno in particolare non deve mai lasciare costruzioni e produzione inattive; poi la Taverna, l'Arena, gli eventi, la seconda squadra e i bonus di fazione si inseriscono gradualmente mentre i cinque principali continuano a ricevere risorse. Entro la fine della settimana il ciclo dovrebbe essere: raccogliere la produzione, avviare la costruzione, controllare gli eventi, spendere dove si ottengono punteggi extra, quindi dirigersi verso la mappa o l'Arena.
+
+![Piano d'azione per la prima settimana](/img/dtf/beginners/29.jpg)
+
+> Fonte: [Last Asylum: Plague - актуальный топовый старт: что делать в первые 7 дней. Советы, секреты, рабочая тактика игры](https://dtf.ru/howto/5265655-last-asylum-plague-startovyy-gayd-dlya-novichkov) di Гейм-Знаток su DTF.

@@ -2,7 +2,7 @@
 title: "Basis: Facties & Teams"
 description: "Sectie van de heldengids: basis: facties & teams."
 lang: nl
-updated: "2026-10-01"
+updated: "2026-10-12"
 videoTopic: heroes
 ---
 
@@ -220,3 +220,172 @@ Pagina's die naar deze verwijzen. De lijst is opgebouwd vanuit de opmaak, niet m
 - Arthur: vaardigheden, upgrades en Kracht
 
 ## Reacties
+
+## Welke tank bouwen: Arthur, Daskal, Brian of Louis {#dtf-tank-choice}
+
+Iedereen wil eerst hoge carry-nummers, maar als de frontlinie in de eerste seconden valt, laat de carry nooit zien wat hij kan. Een goede tank vangt de eerste klap op, koopt casttijd, vermindert inkomende schade — soms met schilden, genezing of bescherming tegen een specifiek schadelelement. Arthur, Daskal, Brian en Louis doen dit allemaal op een andere manier.
+
+![Arthur, Daskal, Brian en Louis: de vier tanks vergeleken](/img/dtf/hero-basics/01.jpg)
+
+![Wat elke tank doet: Arthur, Daskal, Brian en Louis](/img/dtf/hero-basics/02.jpg)
+
+### Arthur: de veiligste tank voor de meeste accounts {#dtf-arthur-safe}
+
+Arthur is de universele frontlinie. Hij vereist geen perfecte opstelling van vijfen om zich heen — hij stapt naar voren en werkt in PvP, PvE, vroege fasen en de overgangsfase.
+
+- **Gevechtsschild** — fysieke basisaanval op één doelwit.
+- **Aardschok** — gebiedsaanval die bondgenoten helpt minder fysieke schade teincasseren.
+- **Rotsvast** — persoonlijk schild gekoppeld aan Arthurs maximale HP.
+- **Sterke Wil** — vermindert passief de opgelopen schade van bondgenoot-tanks.
+- **Taaiheid** — verhoogt ATK, HP, DEF en versnelt vaardigheidscooldowns.
+
+Resultaat: stabiliteit in plaats van uitschieters. Hij is de tank die je als eerste kunt bouwen zonder jezelf vast te zetten in één nauw kader.
+
+![Arthur de universele tank voor PvP, PvE en F2P](/img/dtf/hero-basics/03.jpg)
+
+### Daskal: hechte frontlinie en schilden {#dtf-daskal-shields}
+
+Daskal speelt via schilden, overlevingskracht en zelfherstel. Als Arthur de stenen pilaar is, is Daskal de extra gepantserde deur.
+
+- **Strijdwil** — fysieke basisaanval.
+- **Bloedbad-Verdediging** — teamschild gekoppeld aan DEF.
+- **Dodelijke Doordringing** — schade plus HP-herstel voor Daskal.
+- **Vastberaden Gevecht** — openingsschild op bondgenoot-tanks.
+- **Taaiheid** — ATK/HP/DEF plus snellere cooldowns.
+
+Hij schittert naast Arthur (universele stabiliteit + schilden en zelfherstel) en in Krijger-teams die een dichte frontlinie nodig hebben zodat de carry rustig kan werken. Kies hem wanneer Arthur al bestaat en je een tweede sterke tank nodig hebt, of wanneer het team aan het begin wegzakt.
+
+![Daskal: schilden, zelfherstel en overlevingskracht van het team](/img/dtf/hero-basics/04.jpg)
+
+### Brian: de tank voor langdurige gevechten {#dtf-brian-long}
+
+Brian draait niet om grote schilden. Hij dempt de vijandelijke druk en blijft nuttig in langdurige gevechten.
+
+- **Scherpe Klauw** — fysieke basisaanval.
+- **Bedreigende Beten** — schade plus verminderde opgelopen schade voor alle bondgenoten.
+- **Maanhuil** — kaatst een deel van de ontvangen schade terug.
+- **Wolfsbloedlijn** — vermindert passief alle opgelopen schade.
+- **Taaiheid** — standaard ATK/HP/DEF en cooldownwinst.
+
+Het beste in lange PvE-gevechten, stevige frontlinies en de Warlock-richting — een latere, weloverwogen keuze zodra je je Faction en modi kent, geen held voor een chaotische start.
+
+![Brian: schadevermindering voor lange gevechten](/img/dtf/hero-basics/05.jpg)
+
+### Louis: anti-burst- en anti-energiaspecialist {#dtf-louis-anti-burst}
+
+Louis is de meest situationele van de vier — en het antwoord op snelle samenstellingen die een doelwit binnen seconden uitwissen of drukken met energieschade.
+
+- **Boeien** — basisaanval.
+- **Kruiszweep** — schade, zelfherstel voor Louis, plus verminderde inkomende schade.
+- **Krachtkoppeling** — vermindert energieschade aan nabije bondgenoten.
+- **Onverzettelijksheid** — zware vermindering van inkomende schade en hulp tegen een dodelijke klap.
+- **Taaiheid** — aanval, HP, verdediging en cooldownsnelheid.
+
+Niet de eerste baksteen in het fundament, maar het speciale gereedschap voor snelle vijandelijke meta's zodra het front voor de rest gesloten is.
+
+![Louis: tegenmaatregel voor burst- en energiedruk](/img/dtf/hero-basics/06.jpg)
+
+### Wie is beter in PvP en PvE {#dtf-tank-pvp-pve}
+
+PvP-volgorde: **Arthur → Daskal → Louis → Brian**. Arthurs stabiliteit en waarde in de eerste uitwisseling voeren de boventoon; Daskals schilden kopen carrytijd; Louis stijgt voorbij Brian omdat het overleven van de openingsburst PvP beslist; Brians sterke punten hebben langere druk nodig.
+
+PvE-volgorde: **Arthur → Brian → Daskal → Louis**. Arthur blijft bovenaan als de universele keuze; Brian stijgt bij lange gevechten en schadevermindering; Daskal volgt met schilden en dichtheid; Louis spitst zich toe op matchups met echte burst- of energiedruk.
+
+![Tankvergelijking in PvP en PvE](/img/dtf/hero-basics/07.jpg)
+
+### F2P-volgorde en tankfouten {#dtf-tank-f2p}
+
+F2P- en low-spend-regel: **Arthur → Daskal → situationeel**. Één sterke tank verslaat vier halfgebouwde tanks. Veelgemaakte fouten: een tank bouwen zonder teamplan (Brian zonder Warlock-richting, Louis zonder energie-drukmeta); alle vier tegelijk optillen; de carry vergeten (een muur zonder schade verliest langzaam); de samenstelling van iemand anders kopiëren zonder diens voorwaarden.
+
+![Tankprioriteit voor F2P en low-spend](/img/dtf/hero-basics/08.jpg)
+
+Persoonlijke vuistregel: nog niets → Arthur; Arthur klaar en het front moet een muur worden → Daskal; laat systeemteam voor lange gevechten → Brian; snelle vijandelijke teams wissen helden in seconden uit → Louis.
+
+![Arthur, Daskal, Brian of Louis: het oordeel](/img/dtf/hero-basics/09.jpg)
+
+> Bron: [Last Asylum: Plague: Артур, Даскал, Брайан или Луис - какого танка качать](https://dtf.ru/howto/5104617-kakogo-tanka-kachat-v-last-asylum-plague) door Гейм-Знаток op DTF.
+
+## Formatie: Twee Tanks vooraan, Carry in het midden {#dtf-formation}
+
+Kracht alleen misleidt. Een duur team verliest wanneer zijn carry vooraan staat, zijn tank zich achterin verstopt en zijn beste zwaard op de verkeerde held terechtkomt.
+
+![Gids voor de beste heldenformatie](/img/dtf/hero-basics/10.jpg)
+
+### Eerst Factions, dan één-Faction-bonus {#dtf-faction-bonus}
+
+Warriors verslaan Warlocks, Warlocks verslaan Rangers, Rangers verslaan Warriors. De meeste spelers stellen eerst een Warrior-kern samen omdat hun goede helden eerder arriveren; op een Warrior-zware server worden Rangers een sterke tweede richting — zelfs een iets zwakker Ranger-team verrast Warriors dankzij het Faction-voordeel.
+
+![Warrior-, Ranger- en Warlock-factions](/img/dtf/hero-basics/11.jpg)
+
+Vijf helden van dezelfde Faction geven **+20% HP, aanval en verdediging** (vier geven 15%). Daarom verslaan drie gouden plus twee goede paarse Warriors van één systeem routinematig vijf willekeurige gouden helden: controleer de teambonus voordat je de kracht van één enkele held bewondert.
+
+### Wie staat vooraan {#dtf-front-roles}
+
+Helden hebben zowel een rol als een Faction: schild = tank, en tanks vangen de eerste klappen op.
+
+![Pictogrammen van helden-factions en -rollen](/img/dtf/hero-basics/12.jpg)
+
+De normale basis: **twee tanks vooraan, schade en ondersteuning achteraan**. Een sterke carry vooraan sterft voordat hij zijn vaardigheden kan gebruiken — de beste schadeverrichter moet overleven om vaardigheden in te zetten, en niet als eerste heldhaftig sterven.
+
+![Tanks vooraan, schade achteraan](/img/dtf/hero-basics/13.jpg)
+
+### Werkende Warrior-opstelling: Arthur, Bella, Marlena, Claire, Harper {#dtf-warrior-formation}
+
+Bouw op basis van rollen, niet op totale kracht:
+
+- Front: **Arthur (links), Bella (rechts)** — houd de linie zo lang mogelijk vast.
+- Achterkant: **Marlena in het midden** (hoofdschadebron krijgt de meeste tijd in gelijke gevechten), **Claire** aan de ene kant als tweede schadebron, **Harper** aan de andere als ondersteuning.
+
+![Volledig formatievoorbeeld op het veld](/img/dtf/hero-basics/14.jpg)
+
+Verken de vijand vóór het gevecht: als er een onhandig doelwit tegenover Marlena staat, wissel haar dan om met Claire — maar begin met Marlena in het midden.
+
+### Gelijke kracht zegt weinig {#dtf-equal-might}
+
+Arena-matches met bijna identieke kracht verlopen verschillend omdat het getal rekening houdt met helden, formatie, uitrusting, ontwikkeling van de hoofd-carry — en troepen (T1–T10, waarbij T10 een afzonderlijk laat doel is via Trainingsgronden en onderzoek). Twee teams met vergelijkbare kracht kunnen puur verschillen door hun troepentier.
+
+![Team vs Trainingsgronden met T9-troepen](/img/dtf/hero-basics/15.jpg)
+
+### Open altijd het gevechtsrapport {#dtf-battle-report}
+
+Controleer na een verlies tegen een gelijke tegenstander wie de meeste schade heeft aangericht, wie als eerste stierf en welke helden de beste uitrusting dragen. Twee Marlena's op niveau 135 zijn niet dezelfde held als sterren, vaardigheden en zwaarden verschillen — het rapport laat dit zien.
+
+![Het gevechtsrapport achteraf lezen](/img/dtf/hero-basics/16.jpg)
+
+### Uitrusting moet bij de rol passen {#dtf-gear-by-role}
+
+Tanks zoals Arthur willen eerst pantser en laarzen; de hoofd-carry wil het sterkste zwaard en aanvalsdelen. Een geweldig zwaard op een tank terwijl Marlena met een wapen van niveau 20 rondloopt, helpt beide items niet en het gevecht al helemaal niet. Met schaarse materialen verslaat één echte aanvalsset op de hoofd-carry vijf even mooie helden.
+
+![Tank- en carry-uitrusting na een Arena-gevecht](/img/dtf/hero-basics/17.jpg)
+
+Tot ongeveer niveau 20 kunnen meerdere helden tegelijk worden opgetild. Daarboven schieten de kosten omhoog — focus op de twee helden die het eerste team dragen (hoofdschadeverrichter plus hoofdtank, bijv. Marlena's zwaard en Arthurs verdediging) en laat de rest op een werkende basis.
+
+### Wie als eerste pushen, en wat als tweede {#dtf-first-focus}
+
+Voor een eerste Warrior-team: **Marlena deelt de schade uit, Arthur koopt haar de tijd** — daarna de tweede tank, Claire, Harper en de rest. Voltooi één belangrijke upgrade in plaats van antitoxine en scherven te verspreiden over elke nieuwe trekking.
+
+![Marlena en Arthur: de Warrior-kern](/img/dtf/hero-basics/18.jpg)
+
+Betaalde helden helpen — vroege toegang is een echt voordeel terwijl anderen wachten — maar ze hebben nog steeds Faction, positie, sterren, vaardigheden en uitrusting nodig. Beschouw snellere vooruitgang als een manier om één concreet knelpunt weg te nemen.
+
+Zodra de Warrior-mars staat, bouw je **Rangers als tweede** op Warrior-zware servers: hetzelfde sjabloon van 2 tanks vooraan, vijf van één Faction voor de volledige bonus, schade achteraan (een tweede schadeverrichter kan tijdelijk vooraan staan zonder ondersteuning). Haast je niet om beide marsen gelijk te trekken — de eerste blijft de zwaarste taken oplossen terwijl de tweede een anti-Warrior-specialist wordt.
+
+![Ranger-team vs Warriors](/img/dtf/hero-basics/19.jpg)
+
+Stop niet elke gouden held in het eerste team: soms levert drie gouden plus twee paarse helden van één Faction voor het eerste team, waarbij de resterende gouden helden een echte tweede mars starten, een gezonder account op (één hoofdteam, één anti-Faction-team, één voor de rest) dan vijf van de besten vooraan en restanten op willekeurige plekken.
+
+### Donderdag en de winkels {#dtf-thursday-shops}
+
+Als je alliantie Duels draait, bewaar serieuze heldenuitgaven (antitoxine, scherven, vaardigheidsbadges, oproeptickets) dan voor **donderdag** — heldendag plus evenementpunten voor dezelfde actie. In winkels: Eer = eerst uitrustingsblauwdrukken; Expeditie = universele heldenscherven, oproeptickets, antitoxine; Heiligdom = beschikbare scherven. Koop voor één huidig tekort (Marlena-sterren, Arthur-uitrusting), niet alles wat nuttig lijkt.
+
+![Wat te kopen in de game-winkels](/img/dtf/hero-basics/20.jpg)
+
+### Checklist bij verlies en nul-tot-klaar-plan {#dtf-defeat-checklist}
+
+Na een verlies: formatie (carry vooraan?) → Faction-bonus (verbroken voor één sterkere held?) → uitrusting (beste zwaard op de tank?) → sterren en vaardigheden. Die volgorde vindt de oorzaak voordat er weer een miljoen grondstoffen in verdwijnt.
+
+![Ontwikkelingsvolgorde van team vanaf nul](/img/dtf/hero-basics/21.jpg)
+
+Van nul tot klaar: één volledige Faction-vijftal → twee tanks vooraan, beste carry midden-achteraan → basis gouden uitrusting tot ~20, stop met alles te levelen → duurzame grondstoffen in het wapen van de hoofd-carry en verdediging van de eerste tank → tweede Faction (Rangers op Warrior-servers) → derde team pas daarna.
+
+> Bron: [Last Asylum: Plague - гайд по лучшей расстановке героев](https://dtf.ru/howto/5245716-last-asylum-plague-sovety-po-rasstanovke-geroev) door Гейм-Знаток op DTF.

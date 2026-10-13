@@ -3,7 +3,7 @@ title: "Daskal: habilidades, build y subida"
 description: "Daskal is a UR warrior who plays as tank. Fully upgraded, he reaches 1,057,192 Might, rank 2 of 11 among the game's tanks. Unlocking him takes 10 shards ( Daskal Shard), …"
 videoTopic: "heroes"
 lang: es
-updated: "2026-09-19"
+updated: "2026-10-12"
 type: guide
 ---
 
@@ -325,3 +325,75 @@ Awakening costs the most: 2,870 shards for 40 levels against 975 for all 50 star
 
 Daskal stands in two tier S squads. Arturo, Marlena, Daskal, Harper and Luis earn a +15% faction bonus for four warriors, 150.7M of survivability and 98 points out of 100 in the squad review. His shield stacks with Billy's Fate's Thread, which removes 36% of the damage from the squad.
 
+
+## 🔄 Reconstruyendo el escuadrón principal en torno a Daskal {#dtf-daskal-rebuild}
+
+Conseguir al héroe es solo el principio: necesita antitoxina, estrellas, habilidades, equipo, un espacio en el escuadrón y, después, la Arena, los Muros y cada alineación guardada deben enterarse de su llegada. Esta es la guía completa de reconstrucción: invocar a Daskal, subirlo al máximo de 1 a 150 y colocarlo en el primer escuadrón de Guerreros en lugar de Bella.
+
+![Daskal y la guía de progresión de la heroína Claire dorada](/img/dtf/daskal-claire/01.jpg)
+
+### Gasta a lo grande en el jueves de héroes {#dtf-hero-thursday}
+
+Nunca desperdicies tickets de contratación, fragmentos universales, insignias de habilidad y reservas de antitoxina en un día aleatorio. El jueves se celebra la fase de héroes del Duelo de la Alianza, y casi todo en esta reconstrucción otorga puntos: invocaciones, gasto de fragmentos y consumo de insignias y antitoxinas. Un impulso de progresión funciona por partida doble: una cuenta más fuerte más las recompensas del duelo. Afronta el jueves bien preparado.
+
+![Misiones de desarrollo de héroes de la fase 4 del Duelo de la Alianza](/img/dtf/daskal-claire/02.jpg)
+
+En este caso, el objetivo era exacto: Daskal. Se usaron unos 250 tickets la semana anterior sin que apareciera, luego llegaron las invocaciones gratuitas junto con nuevos intentos: los primeros diez fallaron, los segundos diez dieron en el blanco. El momento clave es saber cuándo parar: una vez que posees al héroe, los tickets adicionales sirven para comprar fragmentos e insignias de habilidad, no para la invocación en sí.
+
+![Invocando a Daskal en las invocaciones de héroes](/img/dtf/daskal-claire/03.jpg)
+
+### Consejo sobre hierbas: no te saltes a los ladrones {#dtf-thieves-grass}
+
+Mientras dure el evento de los ladrones, este parcha las reservas de hierbas que la gran investigación reduce a cero. Un objetivo personal grande otorga más de un millón de hierbas, y los pequeños unos cientos de miles cada uno; las cifras exactas varían según la actividad, pero como reabastecimiento de emergencia de hierbas durante un evento activo funciona muy bien.
+
+![Evento de ladrones](/img/dtf/daskal-claire/04.jpg)
+
+### Daskal de 1 a 150: a dónde va a parar la antitoxina {#dtf-daskal-leveling}
+
+Daskal llega al nivel 1, y la reserva de antitoxina se guardó específicamente para él; con razón, porque el coste es descomunal. Hasta el nivel 100 más o menos todavía parece inofensivo, con los niveles subiendo sin pánico. Entonces empieza la verdadera diversión: cuanto más cerca del 150, más cuesta cada nivel. Todo el recorrido de 1 a 150 requiere **5.248.471.500 de antitoxina, un poco más de 5.2 mil millones**. Cualquiera que planee la misma carrera de cero a máximo debería acumular más de cinco mil millones, no dos o tres. La antitoxina proviene de los talleres, las recompensas y los objetos guardados en la bolsa, así que no abras los tarros antes de tiempo sin motivo; déjalos para el héroe que importa.
+
+![Subiendo de nivel a Daskal del 1 al 150 con antitoxina](/img/dtf/daskal-claire/11.jpg)
+
+### Por qué Daskal pertenece al escuadrón 1 {#dtf-why-daskal}
+
+Daskal es un tanque UR de tipo Guerrero cuyo kit hace exactamente lo que debe hacer la primera línea: su habilidad definitiva otorga escudos a todos los aliados, su habilidad activa inflige daño físico mientras se cura a sí mismo y un efecto pasivo otorga escudos a los tanques aliados al principio de la batalla. Sobrevive al daño y ayuda a que el resto del equipo también lo haga.
+
+Reemplazar a Bella aquí es el movimiento lógico, y Bella no se retira. Se muda al escuadrón 3, al cual le falta exactamente un buen tanque de primera línea. Un nuevo héroe fortalece dos escuadrones a la vez.
+
+### Despoja primero el equipo de Bella {#dtf-gear-transfer}
+
+Antes de finalizar el cambio, traslada el buen conjunto del viejo tanque al nuevo; de lo contrario, el resultado será un UR de nivel 150 con estrellas corriendo en zapatillas. Aquí no había un arma distintiva para Daskal, así que el equipo disponible fue para él, el resto del conjunto de Bella se transfirió y Bella recibió los objetos del héroe desplazado del escuadrón 3 a medida que se mudaba allí.
+
+![Transfiriendo el equipo de Bella a Daskal](/img/dtf/daskal-claire/12.jpg)
+
+![Mejorando a Daskal](/img/dtf/daskal-claire/13.jpg)
+
+### Cuántas estrellas necesita Daskal ahora mismo {#dtf-daskal-stars}
+
+Después de los niveles, los fragmentos son lo que más duele. La tentación es mejorar todo: exploradores esperando, otro UR pidiendo una estrella. Pero el escuadrón principal es de Guerreros, así que si Daskal se une a él, los fragmentos de oro universales rinden más en él. El primer día rozó las **6★** (lo que potencia aún más su escudo de equipo), y el resto se puede cultivar más adelante. Seis estrellas no es algo arbitrario, y el próximo gran objetivo son las **8★**, que desbloquean Tenacidad: +20% de ATK/HP/DEF más un +10% de velocidad de enfriamiento de habilidades. Así que no repartas fragmentos universales entre tres escuadrones: lleva primero al héroe del escuadrón principal a un punto decontrol verdaderamente útil y luego mira más allá.
+
+![Estrellas y habilidades de Daskal para el escuadrón principal](/img/dtf/daskal-claire/14.jpg)
+
+### No olvides el Salón del Honor {#dtf-hall-of-honor}
+
+Por el camino, un héroe azul finalmente alcanzó los requisitos para el Salón del Honor, y no es un dato menor. La progresión regular de los héroes allí impulsa constantemente la cuenta, y los héroes azules específicamente aumentan la capacidad de carga de los soldados: las tropas llevan más recursos por marcha. No hay bonificación de monstruo de combate, pero a la larga la capacidad adicional da sus frutos. No ignores a los héroes azules solo porque nunca formarán parte del escuadrón 1.
+
+![Salón del Honor](/img/dtf/daskal-claire/15.jpg)
+
+### Nuevo héroe colocado: el trabajo no ha terminado {#dtf-update-modes}
+
+El poder del escuadrón 1 creció tras cambiar a Bella por Daskal, pero el juego almacena las alineaciones por modo. Después de cualquier reorganización seria, abre la Arena y actualiza la defensa, luego revisa los Muros, después el Cañón de la Conquista y guarda la nueva composición allí. De lo contrario, la Arena seguirá desplegando a Bella durante días. La misma regla se aplica después de grandes mejoras de equipo, epígrafes o mejoras de Cuervo: si un modo utiliza una alineación guardada, verifícala manualmente.
+
+### Los tres escuadrones tras la reconstrucción {#dtf-final-squads}
+
+El escuadrón 1 se vuelve totalmente de Guerreros: **Daskal, Arthur, Marlena, Claire dorada y Harper**, con alrededor de **19.5M de poder**. Daskal y Arthur aguantan la primera línea, Marlena aporta el daño, Claire potencia el JcE y Harper bufa a los Guerreros.
+
+![Primer escuadrón: Daskal, Arthur, Marlena, Claire y Harper con 19.5M de poder](/img/dtf/daskal-claire/16.jpg)
+
+El escuadrón 2 se mantiene como explorador: Shadow, Griffith, Cynthia, Ash y Red Lady (~13.32M). El escuadrón 3 pasa a ser mixto: Bella se incorpora para arreglar la primera línea junto a Hastar, Joker, Annie y Celia (~13.65M).
+
+![Tercer escuadrón mixto tras la reconstrucción de héroes](/img/dtf/daskal-claire/17.jpg)
+
+El mejor resultado no es un único héroe fuerte: Daskal mejoró el escuadrón 1, liberar a Bella mejoró el escuadrón 3, la Claire dorada encontró una nueva vida en JcE y el buen equipo se movió entre personajes en lugar de acumular polvo. Prepárate para el próximo jueves de héroes de la misma manera: acumula tickets, guarda antitoxina para el próximo impulso real hasta el 150, mantén los universales de oro dirigidos al escuadrón principal —Daskal hacia unas confiadas 6★ y luego 8★, con la Claire dorada anclada en ocho estrellas y las últimas dos cultivadas gradualmente— y solo entonces vuelve a los exploradores. Un primer escuadrón verdaderamente fuerte supera a tres construidos a medias.
+
+> Fuente: [Даскал и золотая Клэр в Last Asylum: Plague - как правильно прокачивать героев](https://dtf.ru/howto/5317537-daskal-i-zolotaya-kler-v-last-asylum-prokachka-geroev) por Гейм-Знаток en DTF.

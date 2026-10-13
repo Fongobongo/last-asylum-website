@@ -2,7 +2,7 @@
 title: "Arena del Triangolo: Difesa e Attacco"
 description: "Tre schieramenti, l'attaccante ne sceglie due da battere: il principio della difesa equilibrata, la regola del matchup di sacrificio, gli attacchi basati sui contromisura, i bonus di fazione e la strategia della squadra-trappola nell'Arena del Destino per ottenere frammenti UR."
 lang: it
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: arena
 calculators: []
 infographics: []
@@ -140,3 +140,57 @@ Non tutte le arene consentono le ricariche. Dove è possibile, ogni battaglia ac
 ## Cosa significa in pratica
 
 La Potenza degli eroi si converte direttamente in risorse qui, e un grado più alto apre le arene con le ricompense maggiori. Le battaglie gratuite forniscono quel reddito a costo zero, motivo per cui vengono affrontate ogni giorno, anche nei giorni senza voglia di combattere. Quale squadra schierare contro un particolare avversario della lista è suggerito dal generatore di squadre dell'arena: una simulazione di battaglia analizza gli eroi contrassegnati e mostra i cinque con il risultato migliore.
+
+---
+
+## Note di campo dell'Arena Triangolare: la potenza è un'illusione, fazioni e diari (DTF) {#dtf-field-notes}
+
+Puoi perdere contro un giocatore più debole e battere qualcuno con milioni di potenza in più minuti dopo: tre squadre si scontrano, chi vince due volte si aggiudica l'incontro. A volte la mossa migliore è non toccare mai la squadra migliore del nemico; a volte un eroe supera un milione di potenza; a volte cinque cornici dorate crollano perché il carry principale ha una spada vuota.
+
+![Consigli e segreti dell'Arena Triangolare](/img/dtf/arena/01.jpg)
+
+### La difesa rimane bilanciata, l'attacco si ridistribuisce a ogni scontro {#dtf-defense}
+
+Concentrare tutto ciò che è costoso (tank principale, carry, supporto, secondo DD) nella squadra 1 regala all'attaccante due vittorie facili: loro nutrono la squadra debole e si prendono le altre due per 2:1. Distribuisci le forze in modo che non ci siano vittorie gratis: una Marlena forte non ha bisogno di ogni migliore Guerriero accanto a sé; spostare una stella (es. Harper nella squadra 3, con Celia a coprire il supporto altrove) nega il facile 2 a 0. Ricontrolla la difesa dopo ogni grande potenziamento affinché la squadra 1 non si gonfi mentre la coda muore di fame.
+
+![Tre squadre difensive nell'Arena Triangolare](/img/dtf/arena/03.jpg)
+
+La difesa è fissa e resistente; **l'attacco viene ricostruito quasi a ogni scontro serio**. Prima leggi la plancia nemica: con loro a 18/13/12M e tu a circa 13–15M, non combattere i 18M — dagli in pasto la tua squadra più debole e vinci la 13 e la 12. Inseguire tutte e tre spreca tentativi.
+
+![Tre battaglie con condizione di vittoria 2 su 3](/img/dtf/arena/04.jpg)
+
+### La potenza è un indizio, le fazioni ribaltano gli scontri equilibrati {#dtf-might}
+
+Una squadra da 12M con Marlena/Arthur sviluppati, un vero carry, abilità e affinità di fazione batte regolarmente un mucchio da 14M di tank e supporto che non uccidono nulla. Controlla sempre da chi è composto quel numero — specialmente Marlena, che trasporta le partite da sola — prima di dare in pasto la tua seconda squadra a una squadra da "10M".
+
+![Confronto tra potenza e composizione](/img/dtf/arena/05.jpg)
+
+Poi controlla le fazioni: **Ranger > Guerrieri > Stregoni > Ranger**, con circa **+20%** per il bonus di counter — abbastanza per colmare un solido divario di potenza (i tuoi Guerrieri leggermente più forti contro i Ranger sono il loro scontro, non il tuo; contro forti Ranger prova gli Stregoni). Dai un'occhiata alle icone delle fazioni a ogni scontro quando il divario è inferiore a un milione. Ma non assemblare un Frankenstein per il bonus: un counter è buono solo come squadra funzionante di quella fazione — tre fazioni all'interno di una singola squadra senza bonus di formazione hanno già fatto perdere all'autore uno scontro con vantaggio di potenza in passato.
+
+### Confronto post-battaglia, equipaggiamento e numeri trappola {#dtf-compare}
+
+Apri sempre il confronto di sviluppo post-scontro: eroi, truppe, tecnologia, Raven, reliquie, Sala dell'Onore e altro ancora. Una barra sbilanciata indica il problema da risolvere (eroi e truppe migliori ma Raven/Sala in ritardo significano che il prossimo potenziamento è ovvio; il divario di un autore era Sala 31 contro 45). Le cornici dorate non uccidono nessuno: un eroe forte con una spada debole, abilità basse e equipaggiamento vuoto perde contro un carry costruito correttamente. Marlena e Zoe lo dimostrano di più: una Zoe al massimo ha deciso una partita da sola, mentre diversi attaccanti a metà sviluppo non hanno ottenuto nulla. Regola: **un vero DD batte tre quasi-DD**; se Marlena fa da carry, il suo equipaggiamento d'attacco (es. spada verso il 60, a 4 stelle) ha la priorità, non una spada da esposizione su un Arthur di livello 30. Fai crescere un DD principale per ogni fazione chiave invece di nove attaccanti medi.
+
+![Confronto post-battaglia tra eroi, truppe, tecnologia, Raven, reliquie](/img/dtf/arena/07.jpg)
+
+Non contrassegnare mai automaticamente il numero più basso come gratuito: una squadra da 10–12M che nasconde Marlena + Arthur è una trappola — ogni squadra sembra più debole sulla carta eppure due scontri si perdono a causa di eroi, fazioni e crescita interna. Lo stesso vale per le truppe: buoni eroi con volti a pagamento ma **T8 contro T9** rappresentano già un divario visibile, e a volte il livello dell'esercito successivo batte un'altra stella dell'eroe.
+
+![Squadra dall'aspetto debole che nasconde Marlena](/img/dtf/arena/08.jpg)
+
+![Truppe T8 contro T9](/img/dtf/arena/09.jpg)
+
+Il contrario: un avversario con circa 20M nella squadra 1 e due code deboli dovrebbe essere completamente ignorato sulla squadra 1 — prendi le due code e batti un totale più spaventoso. Persino la difesa batte una super-squadra esattamente per questo motivo.
+
+![Avversario con una super-squadra e due code deboli](/img/dtf/arena/10.jpg)
+
+### Diario, ritmo, matchmaking e omaggi {#dtf-journal}
+
+Il **Diario** mostra gli attacchi in arrivo (blu) rispetto a quelli in uscita (rossi) — test di difesa gratuiti. Confronta attaccanti con la stessa potenza: uno ara le tue due deboli squadre, un altro perde a parità di potenza a causa di divisioni pessime. Se la difesa continua a regalare le stesse due squadre, il problema è stato trovato.
+
+![Diario di difesa](/img/dtf/arena/11.jpg)
+
+Non bruciare tutti i tentativi la mattina: i ranghi oscillano man mano che gli altri attaccano (da 170 a oltre 400 in poche ore è normale). Porta le giornaliere al tuo tetto massimo approssimativo, poi risali la china la sera con i tentativi salvati. Il matchmaking all'inizio della settimana è strano prima che le valutazioni si stabilizzino (30M, poi 52M, poi qualcuno di debole) — si basa sui punti di valutazione (105 incontra 108, 216 incontra 217), non sulla vera potenza, quindi usa il primo giorno per gli esperimenti. Giornaliere: **3 e 5 vittorie** non devono essere consecutive e assegnano Medaglie di Gloria; le ricompense classificate/di alleanza includono skin per edifici (es. +5% attacco eroe); **i "mi piace" pagano 30 diamanti** (fino a 180 al giorno tra due arene) — non saltare mai i diamanti gratuiti.
+
+Ogni scontro: trova la squadra nemica più pericolosa, scegli due veri bersagli, ricontrolla fazioni e carry nascosti (una Marlena potenziata nello slot "debole" ricalcola la matematica), sposta Bella/Harper/Claire/Celia tra le squadre e solo allora guarda alla potenza. È più lento, ed è per questo che è interessante.
+
+> Fonte: [Треугольная арена Last Asylum: Plague - советы и тактика](https://dtf.ru/howto/5253651-sovety-po-treugolnoy-arene-last-asylum-plague) di Гейм-Знаток su DTF..

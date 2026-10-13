@@ -3,7 +3,7 @@ title: "Claire: Skills, Build & Leveling"
 description: "Claire is an SSR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Might, rank 12 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Claire Sh…"
 videoTopic: "claire"
 lang: de
-updated: "2026-09-19"
+updated: "2026-10-12"
 type: guide
 ---
 
@@ -290,3 +290,35 @@ Stars cost Claire the most, not in badges but in waiting: 975 shards, while a re
 
 The best squad with Claire and no UR hero is Kesso, Lucius, Sivir, Bella and Claire herself: five warriors, a +20% bonus and 8.1M of survivability. Alongside Arthur and Marlena she joins three of the five best reachable squads, where survivability reaches 38.2M, and the price of the full bonus is 20% extra damage from rangers.
 
+
+---
+
+## ✦ Goldene (UR) Claire: Umwandlungsmechanik und Fazit {#dtf-gold-claire}
+
+Wenn man Claires Seltenheit erhöht, wird aus der lila SSR-Version eine UR-Version – und die Mechanik ist anfangs gnädiger und später teurer, als sie aussieht. Level werden übernommen, Sterne nicht.
+
+### Was die Transformation überlebt {#dtf-claire-conversion}
+
+Nach der Umwandlung fällt der Held **nicht** auf Stufe 1 zurück: Alle 150 Stufen bleiben erhalten. Sterne werden anders zurückgesetzt: Die goldene Claire landet bei **sechs Sternen**, wobei ein Teil der investierten Ressourcen als Fragmente und Fähigkeitsabzeichen erstattet wird, um sie auf die verbesserte Form zu verteilen. Die unangenehme Überraschung: Weitere Sterne kosten merklich mehr – ungefähr doppelt so viele Fragmente wie bei der alten Form. Versuche also nicht, alle zehn Sterne am selben Tag wiederzuholen. Die Priorität liegt auf **8★**, wodurch die fünfte Fähigkeit freigeschaltet wird und sie bereits ein sehr vollständiges Set erhält; die letzten beiden Sterne können nach und nach über ihre eigenen Shop-Fragmente und verfügbare Quellen geschlossen werden.
+
+![Claires Seltenheits-Upgrade auf Gold](/img/dtf/daskal-claire/05.jpg)
+
+![Goldene Claire nach der Umwandlung](/img/dtf/daskal-claire/06.jpg)
+
+Das Upgrade ist kein einfaches Umfärben: Die Basiswerte steigen spürbar an, insbesondere HP und ATK bei denselben Account-Werten.
+
+![Vergleich der Werte von goldener und lila Claire](/img/dtf/daskal-claire/07.jpg)
+
+![Vergleich der Werte von UR- und alter Claire](/img/dtf/daskal-claire/08.jpg)
+
+### Stark – aber auf PvE ausgelegt {#dtf-claire-pve-focus}
+
+Nenne die goldene Claire keinen universellen Ersatz für jeden UR-DPS. Sie bleibt stark auf PvE und Monster ausgerichtet: „Ruf des Mutes“ erhöht den Schaden der drei Krieger mit den höchsten Angriffswerten des Teams gezielt gegen Monster. Beim Dämonenkönig und anderen PvE-Inhalten glänzt sie daher, während ein Teil ihrer Fähigkeiten im PvP ungenutzt bleibt. Wenn der Fokus hauptsächlich auf Kriegen gegen Spieler liegt, ist Zoya die universellere Wahl.
+
+![Claire auf PvE und Monster abgestimmt](/img/dtf/daskal-claire/09.jpg)
+
+![Claire im Vergleich mit Marlena, Arthur und Harper auf Stufe 150](/img/dtf/daskal-claire/10.jpg)
+
+Fazit: Die goldene Claire stärkt das Krieger-PvE hervorragend, ohne automatisch die beste Wahl für jeden Modus zu sein. Bringe sie auf acht Sterne, farme die letzten beiden langsam nach und setze sie dort ein, wo ihr Monsterbonus greift.
+
+> Quelle: [Даскал и золотая Клэр в Last Asylum: Plague - как правильно прокачивать героев](https://dtf.ru/howto/5317537-daskal-i-zolotaya-kler-v-last-asylum-prokachka-geroev) von Гейм-Знаток auf DTF.

@@ -2,7 +2,7 @@
 title: "Système de Corbeau et Épigraphes"
 description: "Niveaux et plans du Corbeau, stratégie d'équipement, raretés des épigraphes et ordre de promotion, ainsi que les règles de mono-faction qui déterminent quels épigraphes valent la peine d'être améliorés."
 lang: fr
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: raven
 infographics: ["/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
 ---
@@ -107,3 +107,43 @@ La conclusion n'est pas que le violet est secrètement le meilleur palier — c'
 Un malentendu courant qu'il vaut mieux tuer tôt : vous **ne pouvez pas améliorer un épigraphe SSR en UR**. Ce que vous améliorez, c'est le Plan — l'emplacement où se trouve l'épigraphe. Les épigraphes SSR sont des espaces réservés dans cette progression, pas des embryons.
 
 Ce qui mène à l'erreur de Corbeau la plus courante dans le jeu : les joueurs accumulent des épigraphes hors-faction au lieu de les donner au Corbeau via l'**Ajout Rapide** — et se demandent ensuite pourquoi leur Corbeau est bloqué au niveau 1. Les épigraphes hors-faction et de faible rareté sont de la nourriture pour le Corbeau. Utilisez l'Ajout Rapide ; c'est à cela qu'ils servent.
+
+---
+
+## Améliorer Raven sans commettre d'erreurs : Atelier, Nid, Épigraphes, Routine {#raven-dtf-leveling}
+
+Notes de terrain du guide de progression DTF : le Raven vit à trois endroits, pas un seul — et l'ordre compte plus que la vitesse.
+
+**Les trois bâtiments.** L'Atelier du Raven est la production de fond : il génère des matériaux au fil du temps sans effet spectaculaire, mais la progression stagne sans lui. Le Nid du Raven est l'écran principal — niveau, évolution, nouveaux paliers et liaisons d'escouade. L'Atelier d'épigraphes est l'endroit où la plupart des mauvais choix sont faits : une mauvaise fabrication ou décision d'emplacement vous laisse soit un bonus faible, soit un coût de réinitialisation.
+
+![Aperçu du système du Raven](/img/dtf/raven/01.jpg)
+
+**Niveaux vs évolution.** Le Raven monte de niveau grâce aux Fruits de Raven et évolue avec l'Essence de Raven, avec une étape d'évolution tous les 10 niveaux qui débloque la couche de progression suivante. L'Essence est la contrainte principale : les Fruits arrivent régulièrement au fil de la routine, tandis que l'Essence semble toujours rare. Surveillez d'abord le prochain seuil d'évolution — les niveaux sans leur étape d'évolution atteignent rapidement un plafond.
+
+![Écran de héros du Raven](/img/dtf/raven/02.jpg)
+
+**Équipement : consolidez la base, puis affinez.** N'ouvrez pas les coffres pour lancer des améliorations dès qu'elles tombent. Assemblez d'abord l'ensemble complet de manière homogène, puis fusionnez les doublons et améliorez l'équipement consciemment. Certaines améliorations dépendent d'une séquence — d'autres emplacements doivent atteindre un certain niveau avant qu'une pièce ne se débloque — donc maximiser un emplacement trop tôt laisse des lacunes ailleurs. Traitez l'équipement comme un kit, pas comme une loterie.
+
+![Écran d'équipement du Raven](/img/dtf/raven/03.jpg)
+
+**Sources quotidiennes.** Vérifiez chaque tour : boutique de l'Alliance (matériaux divers pour Raven), boutique VIP (Essence et coffres contre des diamants), boutique d'Expédition (coffres de Raven de plus haut niveau), boutique d'Honneur (coffres rares de fin de partie), boutique du Sanctuaire (Essence en rotation). N'achetez que ce qui comble votre tâche actuelle — tout acheter sous l'étiquette « Raven » remplit l'inventaire sans faire progresser. Identifiez précisément la pénurie avant de dépenser : matériaux de l'Atelier d'épigraphes ou doublons pour la fusion.
+
+**Seuils des épigraphes.** Les épigraphes violettes se débloquent au niveau 15 de l'Atelier d'épigraphes — avant cela, vous n'interagissez pas vraiment avec le système. Les épigraphes UR arrivent plus tard, au stade suivant de l'atelier avec des matériaux plus coûteux. Les bonus d'épigraphe s'appliquent uniquement au type d'escouade correspondant : si votre escouade principale est composée de Guerriers, fabriquer des épigraphes de Rôdeur « pour plus tard » brûle des matériaux rares pour un rendement actuel nul. Choisissez la faction que vous déployez réellement, remplissez un ensemble et laissez les ensembles secondaires de côté tant que le noyau n'est pas terminé. Au sein d'un ensemble, les emplacements diffèrent (attaque / défense / soutien / centre général) — fixez d'abord la faction, puis ajustez selon les besoins : un manque de dégâts signifie qu'il faut pousser l'emplacement d'attaque, une escouade qui s'effondre demande de la défense, et l'emplacement général offre un bonus équilibré.
+
+![Les épigraphes comme la partie la plus forte et la plus dangereuse du système](/img/dtf/raven/04.jpg)
+
+![Emplacements d'épigraphes pour les Guerriers, Rôdeurs et Sorciers](/img/dtf/raven/05.jpg)
+
+**Les doublons sont du carburant.** Un deuxième exemplaire de la bonne épigraphe n'est pas un mauvais tirage — des épigraphes identiques augmentent les étoiles de la pièce existante, et pour les pièces UR, les doublons exacts du bon article sont la ressource la plus précieuse de la gamme. Les doublons du mauvais type attendent ou passent par une redistribution via la réinitialisation ; les doublons du bon type reçoivent des étoiles.
+
+![Les doublons d'épigraphes comme carburant pour la croissance](/img/dtf/raven/06.jpg)
+
+**L'évolution débloque des escouades.** L'évolution ne se limite pas aux statistiques : elle débloque des emplacements d'escouade supplémentaires. Vous commencez avec une seule escouade, le deuxième emplacement s'ouvre au stade d'évolution suivant, et les exigences continuent d'augmenter. C'est une autre raison de vous engager tôt envers votre escouade la plus forte — il n'y a physiquement nulle part où s'éparpiller au début.
+
+![Emplacements d'escouade débloqués par l'évolution du Raven](/img/dtf/raven/07.jpg)
+
+**La réinitialisation existe.** Les mauvaises fabrications sont récupérables : la réinitialisation annule une amélioration et restitue les matériaux pour une redistribution. C'est très utile lorsque vous changez de classe d'escouade principale, que vous dépassez une escouade temporaire ou que vous avez choisi la mauvaise épigraphe au début. Cela réduit le coût d'une erreur ; cela ne rend pas la fabrication à l'aveugle gratuite.
+
+**Routine quotidienne.** Vérifiez les boutiques, gardez la prochaine évolution à l'esprit, développez uniquement le type d'épigraphe de votre escouade principale et réinitialisez les erreurs au lieu de les subir. Joué comme une boucle quotidienne, le Raven se bonifie ; joué par intermittence, il semble coûteux et abstrait.
+
+> Source : [Last Asylum: Plague - полный гайд по Ворону. Как качать без ошибок, что делать с эпиграфами.](https://dtf.ru/howto/5016737-last-asylum-plague-gayd-po-prokachke-vorona) par Гейм-Знаток sur DTF.

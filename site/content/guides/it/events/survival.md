@@ -2,7 +2,7 @@
 title: "Battaglia di Sopravvivenza: 60K Distintivi Gratuiti e Rotazione delle Fasi di 4 Ore"
 description: "Evento di missioni settimanali che garantisce circa 60.000 Distintivi Abilità gratuiti: 5 categorie di compiti, fasi a rotazione di 4 ore, punteggi per l'addestramento dei soldati basati sulla coda e sincronizzazione con il Duello dell'Alleanza."
 lang: it
-updated: "2026-09-15"
+updated: "2026-10-12"
 videoTopic: survival
 type: event
 ---
@@ -205,3 +205,51 @@ Valori verificati dai dati del client di gioco (v1.0.87), fonte: wiki-last-asylu
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How long is each Battaglia di sopravvivenza phase?", "acceptedAnswer": {"@type": "Answer", "text": "Each phase lasts 4 hours; there are five themed phases: heroes, territory, troops, tech and raven."}}, {"@type": "Question", "name": "When are troop training points awarded?", "acceptedAnswer": {"@type": "Answer", "text": "The moment you press Train/Promote and resources are deducted — not when the timer finishes."}}]}
 </script>
+
+---
+
+## Ciclo giornaliero della Battaglia di sopravvivenza: Sigilli, Energia e Sovrapposizione dei Duelli (DTF) {#dtf-daily-loop}
+
+L'evento si svolge quotidianamente attraverso cinque temi a rotazione: addestramento truppe, ricerca tecnologica, potenziamento di Raven, crescita degli eroi, sviluppo del territorio. Non servono tutti e cinque: **18 Sigilli di sopravvivenza ottengono le tre cassette giornaliere**, ossia tre temi completati al massimo. La vera vittoria è la sovrapposizione con il Duello dell'Alleanza — costruzione di martedì, ricerca di mercoledì, addestramento di venerdì — in modo che le stesse accelerazioni valgano il doppio.
+
+![Cinque temi di sopravvivenza e 18 sigilli per tre casse](/img/dtf/survival/02.jpg)
+
+### Come funzionano sigilli e gradi {#dtf-seals}
+
+L'ordine ruota giornalmente senza un orario fisso: aprite l'evento prima di spendere e controllate il tema attivo più il successivo. Ciascun tema ha **4 fasi che fruttano 1+1+2+2 = 6 sigilli**; 18 sigilli equivalgono a tre temi completati. Le ricompense di fase (distinzioni abilità, accelerazioni, risorse) si sommano. Completare tutti e cinque i temi frutta circa **8.000 distinzioni abilità al giorno**, fino a ~9.600 se si ripete un tema di addestramento ricorrente. Una classifica giornaliera assegna un premio base in risorse per qualsiasi punteggio e premi migliori salendo di posizione; continuate oltre i 18 solo quando il tema coincide con la crescita pianificata: bruciare scorte di accelerazioni solo per la classifica raramente conviene.
+
+![Ricompense della classifica di sopravvivenza](/img/dtf/survival/03.jpg)
+
+Il trio giornaliero più economico per la maggior parte degli account: **Raven (energia) + Eroi (antitossina) + il tema del giorno del duello** (territorio di martedì, ricerca di mercoledì, truppe di venerdì; sabato — ciò che costa meno tra le scorte). Dopo la cassa d'oro a 18, fermatevi a meno che il tema successivo non faccia già parte di una crescita pianificata.
+
+### Truppe, ricerca, Raven, eroi, territorio {#dtf-themes}
+
+**Addestramento:** punteggio ottenuto dalle accelerazioni di addestramento e dalla crescita dell'esercito sul terreno più sviluppato (livello massimo), con gli altri terreni caricati o che preparano livelli inferiori per la promozione. Se l'addestramento inizia tra un'ora e un lotto sta quasi per finire, mettete in coda solo il tempo rimanente, poi caricate completamente dopo l'apertura del tema: nessun terreno inattivo, ma il grosso cade all'interno della finestra. Il giorno migliore è venerdì con la fase di addestramento del duello.
+
+![Addestramento truppe all'interno della finestra dell'evento](/img/dtf/survival/04.jpg)
+
+**Ricerca:** punti per le accelerazioni di ricerca e aumento della potenza tecnologica. Programmate la conclusione all'interno della finestra, poi avviate la successiva, raccogliete l'aiuto dell'alleanza e decidete cosa accelerare. Se una tecnologia offre chiaramente più potenza e la fase successiva richiede poco, terminarla è meglio che distribuire le accelerazioni su quelle piccole; non serve completare del tutto una tecnologia lunga una volta raggiunto la soglia. Il giorno migliore è mercoledì con la ricerca del duello.
+
+![Ricerca tecnologica e punteggio di potenza](/img/dtf/survival/06.jpg)
+
+**Raven — il cavallo di battaglia giornaliero:** due modi per fare punti, sviluppo di frutti o spesa di energia. Conservate i frutti per la fase di Raven del duello di lunedì; negli altri giorni spendete **energia** su Blight/ladri/boss/missioni di Falcon — normale attività giornaliera, nessun costo dedicato. Circa **300 di energia** completano il tema (4 ricompense, 6 sigilli). Abbinate alla caccia ai ladri: una marcia debole trova piccoli ladri d'oro e apre i boss, una marcia forte colpisce bersagli grandi. Scorciatoia: mandate prima una squadra su una tessera di risorse vicina, poi reindirizzatela sul mostro mentre passa — riduce molte marce al giorno.
+
+![Potenziamenti di Raven tramite energia e caccia ai ladri](/img/dtf/survival/08.jpg)
+
+**Eroi — il tema più veloce:** evocazioni alla taverna più antitossina; un aumento di livello adeguato spesso chiude tutte e quattro le fasi. Aprite diversi eroi, scegliete quello il cui costo per il livello successivo si trova più vicino alla soglia finale — non sprecate 100M di antitossina dove ne bastavano 20M. Conservate le evocazioni di massa per il giorno degli eroi del duello di giovedì; l'antitossina di solito chiude la sopravvivenza a minor costo.
+
+![Crescita degli eroi con l'antitossina](/img/dtf/survival/10.jpg)
+
+**Territorio:** accelerazioni di costruzione più aumenti di potenza degli edifici. Sfruttate una grande costruzione che sta per finire all'interno della finestra quando disponibile (senza aspettare 15–30 giorni per il Santuario/Laboratorio); altrimenti spendete le accelerazioni in lotti più grandi (es. 5 minuti) dopo aver raccolto l'aiuto dell'alleanza. Il giorno migliore è martedì con la costruzione del duello.
+
+![Sviluppo del territorio con le accelerazioni di costruzione](/img/dtf/survival/11.jpg)
+
+### Sovrapposizione, ministri e disciplina dei sigilli {#dtf-overlap}
+
+Lunedì: il duello fa crescere Raven — spendete i frutti accumulati all'interno del tema di Raven per ottenere il doppio dei crediti. Martedì: territorio — sfruttate gli edifici preparati più le accelerazioni di costruzione. Mercoledì: ricerca — pergamene e tecnologie lunghe. Giovedì: eroi — biglietti, frammenti, antitossina, distinzioni. Venerdì: truppe — terreni durante il tema di addestramento. Sabato: scelta libera in base alle scorte. Non adattate l'account all'evento, adattate l'evento alla crescita pianificata.
+
+Prima dei grandi potenziamenti, ottenete il titolo di ministro corrispondente e controllate la coda: nelle liste piene 50/50 le richieste rimangono in attesa — fare domanda a **49/50** fa entrare più spesso nella coda attiva. Pianificate i titoli in anticipo nei giorni di costruzione/ricerca.
+
+I sigilli **si azzerano ogni giorno** — 17 oggi più "uno domani" fa zero domani. Se vi manca una fase per arrivare a 18, prendete il tema più economico da completare; non accumulate mai sigilli sperando di facilitare il giorno dopo.
+
+> Fonte: [Last Asylum: Plague - гайд по Битве на выживание](https://dtf.ru/howto/5240960-last-asylum-plague-gajd-po-bitve-na-vyzhivanie) di Гейм-Знаток su DTF.

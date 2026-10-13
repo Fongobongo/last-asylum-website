@@ -3,7 +3,7 @@ title: "🏆 Guide de l'événement Duel Suprême"
 description: "Maîtrisez le tournoi d'arène inter-serveurs Duel Suprême dans Last Asylum: Plague — Calendrier de l'ère du jour 58, 5 phases de tournoi, méta en 3 escouades (best-of-3), boutique de jetons de prédiction et récompenses de champion."
 lang: fr
 type: event
-updated: "2026-09-14"
+updated: "2026-10-12"
 videoTopic: arena
 ---
 
@@ -88,3 +88,59 @@ Pendant les étapes de repêchage et de playoffs, chaque joueur sur chaque serve
 * **Cadre d'avatar de champion exclusif :** Un symbole de statut animé prestigieux visible par tout le serveur.
 * **Déclaration du champion :** Le vainqueur écrit un slogan de victoire personnalisé affiché bien en vue dans l'interface du tournoi.
 * **Coffres de jalons de palier :** Diamants, badges de compétence d'élite et ressources accordés à chaque palier de tableau franchi.
+
+---
+
+## Guide du Champ de Bataille de la Duel suprême : Points de combat, Revanche et Pronostics {#dtf-field-guide}
+
+Le format ressemble à celui de l'Arène triangulaire — trois escouades contre trois, deux victoires pour remporter le match — mais l'habitude « en sacrifier une, en gagner deux » ne fonctionne pas toujours ici. Les **Points de combat** dictent les premières étapes : gagner 2:1 avec une armée décimée peut rapporter moins de points qu'un adversaire ayant mené des combats plus propres. Les joueurs F2P peuvent tout de même en tirer profit grâce aux pronostics, aux feux d'artifice et aux récompenses du royaume, et ce, sans jamais frôler le trône.
+
+![Duel suprême dans Last Asylum Plague](/img/dtf/supreme-duel/01.jpg)
+
+### Ouverture, inscription et trois vraies escouades {#dtf-opening}
+
+Lié à l'Ère du renouveau : apparaît au **58e jour de la saison**, dure **27 jours**, nécessite un **Sanctuaire niveau 20+** et regroupe **16 zones de guerre**. Si le bouton n'apparaît pas, c'est que votre ère n'a pas atteint ce jour-là — ce n'est pas un bug. L'inscription est manuelle avec une **fenêtre de 5 jours** : si vous ratez le bouton, vous regarderez depuis les tribunes.
+
+![Règles et bases du Duel suprême](/img/dtf/supreme-duel/02.jpg)
+
+Les qualifications utilisent un **match à mort en 3v3** : les escouades entrent à tour de rôle et l'escouade victorieuse continue de combattre l'escouade ennemie suivante avec ses soldats survivants, jusqu'à ce qu'un camp perde ses trois équipes. Une super-escouade combinée à deux équipes de reste est moins performante — une escouade victorieuse qui survit proprement s'enchaîne dans le combat suivant, et une fin d'équipe faible sert le même tournant à l'adversaire. Formez trois escouades viables (avec une première ligne et des dégâts pour chacune) plutôt qu'une seule parfaite ; vérifiez les tanks et les principaux carrys (si une Marlena/Zoe maxée avec tout son équipement domine tandis que les escouades 2 et 3 ne percent rien, redistribuer l'équipement aidera bien plus qu'un niveau supplémentaire sur l'escouade 1).
+
+![Match à mort 3v3 et ordre des escouades](/img/dtf/supreme-duel/04.jpg)
+
+### Formule des Points de combat {#dtf-points}
+
+Les points comptent deux éléments : les soldats ennemis neutralisés et vos propres soldats survivants. Par soldat ennemi de niveau N : **(1 + N) × 6** (les soldats légers, lourds et totalement perdus comptent tous). Par soldat survivant de votre côté pour le même niveau : **(1 + N) × 9**. La règle de qualification est donc de **privilégier les victoires nettes aux victoires brouillonnes** — une escouade qui l'emporte tout en conservant la majeure partie de son armée et qui enchaîne est une valeur sûre. Les tanks, la résistance et l'équilibre entre les trois escouades l'emportent sur un gros score de puissance totale.
+
+![Règles de calcul des Points de combat](/img/dtf/supreme-duel/08.jpg)
+
+Bonne nouvelle : les vraies troupes ne meurent jamais et évitent l'infirmerie — le jeu fournit des soldats, l'expérimentation est donc gratuite. Cependant, leur niveau correspond à **votre niveau le plus élevé débloqué** (avoir des T9 face à des T8 avec des héros similaires constitue déjà un avantage). Avant de verrouiller vos escouades, terminez l'amélioration d'un palier de troupes presque achevé (cela confère des bonus aux trois équipes), puis redistribuez l'équipement d'une escouade 1 déjà victorieuse vers les tanks et carrys des escouades 2 et 3. Priorité avec des ressources limitées : niveau de troupe → tank faible → carry d'escouade faible → équipement.
+
+### Qualifications, revanche, phases finales {#dtf-stages}
+
+Le classement préliminaire répartit les **8 meilleurs joueurs de chaque royaume (selon leur Puissance)** dans différents groupes afin que les monstres ne s'affrontent pas dès le premier tour — ce qui profite à tout le royaume, car plus le parcours est long, plus les récompenses partagées sont importantes. Les phases préliminaires associent automatiquement **8 adversaires comparables sur 4 jours**, et les 8 meilleurs selon les Points de combat accèdent à la suite.
+
+![Étapes du tournoi](/img/dtf/supreme-duel/05.jpg)
+
+![Joueurs têtes de série et préliminaires](/img/dtf/supreme-duel/07.jpg)
+
+**Revanche (seconde chance) :** 2 adversaires par jour pendant les 3 premiers jours, puis 1 par jour ; un système de matchs aller-retour au sein du groupe, sans pouvoir farmer un rival facile. Les combats restent en 3 équipes / 2 victoires. **Les 2 meilleurs de chaque groupe atteignent les phases finales**, et à partir de là, un match perdu met fin au parcours. Reconstruisez vos compositions pour chaque série — conserver une configuration universelle pour tout le tournoi est une faiblesse ; observez les factions, les héros, Corbeau, l'équipement et placez l'escouade aux victoires les plus nettes là où elle remportera la mise le plus proprement.
+
+**Phases finales :** séries au meilleur des 2 victoires (3 matchs max) ; **finale au meilleur des 3 victoires (5 matchs max)**. Les points de combat des qualifications et les survivants ne comptent plus — seules les victoires en série priment, adaptez-vous donc davantage à l'adversaire spécifique en utilisant les contres de faction et l'attribution des héros.
+
+### Pronostics, feux d'artifice et utilité des récompenses {#dtf-predictions}
+
+L'élimination ne met pas fin à l'événement : les phases avancées ouvrent les **Pronostics** — devinez les vainqueurs potentiels pour remporter des **Pièces de pronostic** dans une boutique dédiée. Jusqu'à **5 pronostics par jour** ; ne comptez pas sur des remboursements automatiques en cas d'erreur. C'est tout bénef pour les F2P : deviner juste coûte moins cher que de devenir le champion.
+
+Le **Grand festival** se déroule en parallèle et permet de dépenser des **Feux d'artifice suprêmes** sur une piste de soutien contenant des coffres : accélérations de recherche, éclats universels UR, parchemins d'étude, packs de ressources UR, ainsi que des Pièces d'ermite (par ex. 200/400/600 selon les récompenses). Dépensez-les pendant l'événement et non comme souvenirs — et réclamez-les avant la transition vers les qualifications, car les récompenses du festival sont réinitialisées à l'étape suivante.
+
+![Récompenses de l'étape du Grand festival](/img/dtf/supreme-duel/09.jpg)
+
+Les prix tombent tôt : participation aux qualifications à **1, 2, 3, 5 et 10 victoires**, ainsi qu'un classement (**1er, 2–3e, 4–8e, 9–20e, 21–50e**), ce qui fait que continuer à jouer même sans chance d'atteindre le top 8 reste rentable. Les **récompenses du royaume** sont proportionnelles aux meilleurs parcours de celui-ci — les performances personnelles modestes permettent tout de même de récolter des gains si vos compatriotes vont loin. Les prix de la revanche s'intensifient avec des **éclats d'éveil de héros universels** pour les 1er, 2e et 3–8e places. Les phases finales et la finale réservent le magot le plus rare : **cadre d'avatar, émoji animé et Couronnement** pour le champion, en plus des ressources.
+
+![Récompenses des qualifications, de la revanche et des phases finales](/img/dtf/supreme-duel/11.jpg)
+
+Liste de contrôle pour la préparation : trois escouades composées d'une première ligne et de dégâts (pas de troisième équipe "de reste"), niveau de troupes achevé, équipement rééquilibré, taux de survie des qualifications optimisé (les survivants rapportent plus de points que les éliminations), puis adaptation des contres face à chaque adversaire pour la revanche et les phases finales.
+
+![Plan de préparation du Duel suprême](/img/dtf/supreme-duel/14.jpg)
+
+> Source : [Last Asylum: Plague - Верховная дуэль: полный гайд. Советы, секреты, тактика.](https://dtf.ru/howto/5270517-verhovnaya-duel-v-last-asylum-plague-sovety-i-taktika) par Гейм-Знаток sur DTF.

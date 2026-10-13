@@ -3,7 +3,7 @@ title: "Claire: Vaardigheden, Build & Leveling"
 description: "Claire is een SSR-krijger die als DPS speelt. Volledig geüpgraded bereikt ze 685.150 Might, rang 12 van de 16 onder de DPS-helden van het spel. Om haar te ontgrendelen heb je 10 shards nodig (Claire Shard)..."
 videoTopic: "claire"
 lang: nl
-updated: "2026-09-19"
+updated: "2026-10-12"
 type: guide
 ---
 
@@ -285,3 +285,35 @@ Beide vormen delen één shard: 10 ervan ontgrendelen de gewone Claire, waarna d
 Sterren kosten Claire het meest, niet in badges maar in wachten: 975 shards, terwijl een werving een heldenshard oplevert in ongeveer 26% van de pogingen. Vaardigheden stijgen naar niveau 40 met 436.700 badges per stuk en leveren minder op: Roep van de Dappere bereikt een maximum van 24% monsterschade tegen 30% voor de geavanceerde vorm.
 
 De beste squad met Claire en geen UR-held is Kesso, Lucius, Sivir, Bella en Claire zelf: vijf krijgers, een +20% bonus en 8,1M overlevingsvermogen. Naast Arthur en Marlena voegt ze zich bij drie van de vijf best bereikbare squads, waar het overlevingsvermogen 38,2M bereikt, en de prijs van de volledige bonus is 20% extra schade van rangers.
+
+---
+
+## ✦ Gouden (UR) Claire: conversiemechanieken en eindoordeel {#dtf-gold-claire}
+
+Het verhogen van Claire's zeldzaamheid verandert de paarse SSR in een UR-versie — en de mechanieken zijn vriendelijker, maar tegelijk duurder dan ze lijken. Levels worden overgedragen, sterren niet.
+
+### Wat de transformatie overleeft {#dtf-claire-conversion}
+
+Na de conversie valt de held **niet** terug naar level 1: alle 150 levels blijven behouden. Sterren worden anders gereset — de gouden Claire arriveert op **zes sterren**, waarbij een deel van de geïnvesteerde grondstoffen wordt terugbetaald als fragmenten en vaardigheidsbadges om opnieuw te verdelen in de verbeterde vorm. De vervelende verrassing: verdere sterren kosten merkbaar meer — ongeveer twee keer zoveel fragmenten als de oude vorm. Haast je dus niet om alle tien sterren op dezelfde dag terug te krijgen. De prioriteit ligt bij **8★**, wat de vijfde vaardigheid ontgrendelt en al een zeer complete set oplevert; de laatste twee sterren kunnen geleidelijk worden voltooid via haar eigen winkelfragmenten en beschikbare bronnen.
+
+![Claire's zeldzaamheidsupgrade naar goud](/img/dtf/daskal-claire/05.jpg)
+
+![Gouden Claire na conversie](/img/dtf/daskal-claire/06.jpg)
+
+De upgrade is geen re-color: de basisstatistieken stijgen daadwerkelijk, vooral HP en ATK op de cijfers van hetzelfde account.
+
+![Vergelijking statistieken gouden versus paarse Claire](/img/dtf/daskal-claire/07.jpg)
+
+![Vergelijking statistieken UR versus oude Claire](/img/dtf/daskal-claire/08.jpg)
+
+### Sterk — maar gericht op PvE {#dtf-claire-pve-focus}
+
+Noem gouden Claire geen universele vervanger voor elke UR DPS. Ze blijft sterk afgestemd op PvE en monsters: Call of the Brave vergroot de schade van de drie Warriors van het team met de hoogste ATK specifiek tegen monsters, dus op de Demon King en andere PvE-content blinkt ze uit, terwijl een deel van haar set nutteloos is in PvP. Als het vooral om oorlog tegen spelers gaat, oogt Zoya universeler.
+
+![Claire afgestemd op PvE en monsters](/img/dtf/daskal-claire/09.jpg)
+
+![Claire versus Marlena, Arthur en Harper op level 150](/img/dtf/daskal-claire/10.jpg)
+
+Eindoordeel: gouden Claire versterkt Warrior PvE uitstekend zonder automatisch de beste keuze te worden voor elke spelmodus. Zet haar vast op acht sterren, farm de laatste twee langzaam en houd haar waar haar monsterbonus van toepassing is.
+
+> Bron: [Даскал и золотая Клэр в Last Asylum: Plague - как правильно прокачивать героев](https://dtf.ru/howto/5317537-daskal-i-zolotaya-kler-v-last-asylum-prokachka-geroev) door Гейм-Знаток op DTF.

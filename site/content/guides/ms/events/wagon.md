@@ -2,7 +2,7 @@
 title: "Kereta Persatuan & Kafilah"
 description: "Larian kereta percuma harian, peraturan peti Master Kereta dan Pengawal, kocokan Kereta Emas, strategi serpihan UR kafilah, rompakan rentas pelayan, dan keutamaan kotak emas-ungu-biru."
 lang: ms
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: wagon
 calculators: []
 infographics: []
@@ -144,3 +144,55 @@ Nilai disahkan daripada data pelanggan permainan (v1.0.87), sumber: wiki-last-as
 | Kafilah Tambahan | satu lagi larian harian | 5,000 |
 | Langkah Balas | seorang pemain boleh menyerang paling banyak 3 kali | 20,000 |
 | Kereta Labu | membuka kunci Kafilah Emas | 20,000 |
+
+## Panduan Coachman: Larian Emas, VIP, dan Pertahanan {#coachman-playbook}
+
+Kafilah perikatan berjalan **sekali sehari**. R4/R5 melantik **coachman** (кучер); ahli biasa tidak boleh mengambil tempat duduk itu sendiri. Selepas pelantikan, kafilah tidak terus bertolak — **peringkat persediaan selama 4 jam** menyusul, di mana coachman menaik taraf kafilah, penumpang mengambil tempat duduk, VIP ditetapkan, dan pertahanan disediakan. Sebuah kafilah boleh **dirampas sehingga 3 kali setiap larian**, dengan sebahagian kargo benar-benar berisiko — ini adalah mengenai penghantaran, bukan sekadar ganjaran.
+
+### Mengapa kerusi coachman penting
+
+Coachman ialah pemenang besar dalam larian ini: di atas empat wagon standard, terdapat **wagon utama tersembunyi**, jadi coachman mengumpul kira-kira **lima wagon ganjaran** berbanding satu. Pastikan penggiliran telus — giliran, ganjaran aktiviti, atau kedudukan Duel-of-Alliance semuanya boleh digunakan; coachman tetap tanpa penjelasan akan memupuk rasa tidak puas hati.
+
+### Peraturan pertama: jadikan ia emas
+
+Selepas pelantikan, tugas pertama coachman adalah menyegarkan (refresh) kafilah. **5 kali penyegaran × 5 tiket kafilah = 25 tiket** untuk jaminan **Kafilah Emas**. Coachman tidak perlu membayar semuanya sendiri: penumpang yang menaiki kafilah boleh menyumbangkan tiket, dan norma perikatan yang sihat adalah **2–3 tiket seorang** berbanding satu. Sebaik sahaja penyegaran kelima mendarat, berhenti — jangan jadikan kafilah itu seperti roda roulet yang mengejar lambakan kosmik. Ada satu lagi kafilah esok.
+
+![Pemain menyumbangkan tiket ke arah Kafilah Emas](/img/dtf/wagon/01.jpg)
+
+![Lima kali penyegaran kafilah kepada kualiti emas](/img/dtf/wagon/02.jpg)
+
+### Disiplin penumpang: perhatikan bilangan kepala, bukan sekadar harta rampasan
+
+Setiap wagon biasa hanya memuatkan **5 orang sahaja**. Lebihan akan diselesaikan oleh permainan itu sendiri — dan penumpang yang ditendang selalunya adalah orang yang duduk paling awal. Wagon yang sedikit teruk dengan 3–4 penumpang yang tenang adalah lebih baik daripada wagon jompot (jackpot) dengan lapan orang bertimbun di dalamnya. Tempat duduk boleh ditukar secara bebas semasa tempoh 4 jam tersebut, jadi **semak semula sejurus sebelum perlepasan**.
+
+![Memilih wagon: slot yang terlalu sesak boleh menendang anda keluar](/img/dtf/wagon/03.jpg)
+
+### Penumpang VIP: dua wagon, dipilih oleh coachman
+
+Pada **Tahap Hadiah Perikatan 20 (Alliance Gift Lv. 20)**, kafilah membuka kunci **penumpang VIP**: bukannya satu wagon, VIP mengambil **dua wagon yang dipilih oleh coachman**. Bersetuju mengenai VIP terlebih dahulu — jemputan kekal selama **60 minit**, dan penerimaan yang terlepas bermaksud perlu menunggu atau menjemput semula. Selepas menerima, coachman memilih sendiri dua wagon tersebut (tanya pemain wagon mana yang mereka mahu). VIP **tidak boleh ditendang** seperti penumpang biasa, dan tidak boleh bertukar kembali ke tempat duduk biasa — jarang sekali menjadi pengorbanan pada dua wagon.
+
+![Menetapkan penumpang VIP dan memilih wagon](/img/dtf/wagon/04.jpg)
+
+### Pengawal: hanya jika benar-benar lebih kuat
+
+Seorang pengawal meletakkan skuad mereka untuk pertahanan tetapi **mengambil sebahagian daripada ganjaran coachman**. Jika skuad anda sendiri sudah lebih kuat daripada calon pengawal tersebut, tiada gunanya — anda membayar kargo secara sia-sia. Peraturan: jemput pengawal **hanya jika jelas lebih kuat daripada coachman**; jika tidak, ambil VIP dan kekalkan ganjaran sepenuhnya.
+
+![Slot pengawal dan penumpang VIP](/img/dtf/wagon/05.jpg)
+
+### Segarkan semula skuad pertahanan anda — dan epigraf mereka
+
+Tiga skuad pertahanan mesti **disimpan semula selepas setiap peningkatan akaun yang serius**: hero baharu, kerosakan baharu, raven baharu, gear baharu tidak membawa erti jika kafilah masih bertahan dengan barisan bulan lepas. Pastikan **epigraf yang betul berada pada skuad yang betul** — epigraf yang tersalah letak akan kalah dalam pertarungan.
+
+### Tahap hadiah, peraturan 24 jam, dan larian emas kedua
+
+- **Peningkatan** kafilah (pergerakan lebih pantas, kurang percubaan rampasan, pertahanan teras, buka kunci VIP) datang dari laluan hadiah — buka tab itu lebih daripada sekali. Pada **Tahap Hadiah 25**, wagon biasa mendapat **kapasiti penumpang tambahan**, yang penting untuk perikatan aktif yang besar.
+- Tingkatkan Hadiah Perikatan itu sendiri: pertanian Blight yang aktif berserta mata tambahan daripada seruan lanjutan (advanced summons) akan menaikkannya, menghasilkan kafilah yang lebih pantas dan lebih sukar untuk dirompak.
+- **Ahli baharu mesti meluangkan masa 24 jam dalam perikatan** sebelum menyertai kafilah — ingat perkara ini selepas pertukaran.
+- Semasa persediaan, kumpul **perjanjian perdagangan** (ia tiba melalui mel jika terlepas). Penumpang yang menaiki turut memberikan **tanda suka (likes)** kepada coachman — kecil, tetapi hari coachman adalah hari kasih sayang rakyat.
+- **Kafilah emas kedua sehari wujud tetapi kosnya lebih tinggi setiap kali**. Ia untuk perikatan besar yang kafilah pertamanya melimpah — bukan satu keperluan untuk larian separuh kosong.
+
+![Menaikkan Tahap Hadiah Perikatan, dibantu oleh pertanian Blight](/img/dtf/wagon/06.jpg)
+
+Kafilah yang baik adalah apabila semua orang berfikir sedikit: coachman menjadikan larian itu beremas, menyemak pertahanan, dan menempatkan VIP; penumpang memerhatikan wagon mereka; perikatan bersetuju mengenai peraturan dan bukannya berimprovisasi setiap malam.
+
+> Sumber: [Last Asylum: Plague - полный гайд по Каравану](https://dtf.ru/howto/5303398-last-asylum-plague-karavan-gayd) oleh Гейм-Знаток di DTF.

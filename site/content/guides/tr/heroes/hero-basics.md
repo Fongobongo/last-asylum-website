@@ -2,7 +2,7 @@
 title: "Temel Bilgiler: Faksiyonlar ve Birlikler"
 description: "Kahramanlar rehberi bölümü: temel bilgiler: faksiyonlar ve birlikler."
 lang: tr
-updated: "2026-10-01"
+updated: "2026-10-12"
 videoTopic: heroes
 ---
 
@@ -220,3 +220,174 @@ Buna değinen sayfalar. Liste elle doldurulmaz, biçimlendirmeden oluşturulur.
 - Arthur: yetenekler, yükseltmeler ve Güç
 
 ## Yorumlar
+
+---
+
+## Hangi Tankı Geliştirmeli: Arthur, Daskal, Brian veya Louis {#dtf-tank-choice}
+
+Herkes önce yüksek taşıma sayıları ister, ancak ön cephe ilk saniyelerde düşerse taşıyıcı yeteneklerini gösteremez. İyi bir tank ilk darbeyi tutar, bekleme süresi kazandırır, gelen hasarı keser — bazen kalkanlarla, kendi iyileştirmesiyle veya belirli bir hasar türüne karşı korumayla. Arthur, Daskal, Brian ve Louis bunu farklı şekillerde yaparlar.
+
+![Arthur, Daskal, Brian ve Louis: dört tankın karşılaştırması](/img/dtf/hero-basics/01.jpg)
+
+![Her tankın ne yaptığı: Arthur, Daskal, Brian ve Louis](/img/dtf/hero-basics/02.jpg)
+
+### Arthur: Çoğu hesap için en güvenli tank {#dtf-arthur-safe}
+
+Arthur evrensel ön cephedir. Mükemmel bir beşli gerektirmez — öne çıkar ve PvP, PvE, erken ve geçiş aşamalarında işe yarar.
+
+- **Savaş Kalkanı** — tek hedefe temel fiziksel darbe.
+- **Yıkıcı Yer Sarsıntısı** — müttefiklerin daha az fiziksel hasar almasına yardımcı olan alan hasarı.
+- **Sağlam Kaya** — Arthur'un maksimum HP'sine bağlı kişisel kalkan.
+- **Güçlü İrade** — pasif olarak müttefik tankların aldığı hasarı azaltır.
+- **Dayanıklılık** — ATK, HP, DEF'i yükseltir ve yetenek bekleme sürelerini hızlandırır.
+
+Sonuç: parlaklık yerine istikrar. Sizi dar bir şemaya kilitlemeden ilk geliştirebileceğiniz tanktır.
+
+![Arthur, PvP, PvE ve F2P için evrensel tank](/img/dtf/hero-basics/03.jpg)
+
+### Daskal: Yoğun ön cephe ve kalkanlar {#dtf-daskal-shields}
+
+Daskal kalkanlar, hayatta kalma ve kendi kendine iyileşme yoluyla oynar. Arthur taş sütunsa, Daskal ekstra zırhlı kapıdır.
+
+- **Savaş İradesi** — temel fiziksel darbe.
+- **Kan Dökme Savunması** — DEF'e bağlı takım kalkanı.
+- **Ölümcül Delme** — Daskal için hasar artı HP yenileme.
+- **Kararlı Savaş** — müttefik tanklarda açılış kalkanı.
+- **Dayanıklılık** — ATK/HP/DEF artı daha hızlı bekleme süreleri.
+
+Arthur'un yanında (evrensel istikrar + kalkanlar ve kendi kendine iyileşme) ve taşıyıcının sakin çalışması için yoğun bir ön cepheye ihtiyaç duyan Savaşçı ekiplerinde parlar. Arthur zaten mevcutken ve ikinci güçlü bir tanka ihtiyacınız olduğunda veya takım başlangıçta zayıfladığında onu alın.
+
+![Daskal: kalkanlar, kendi kendine iyileşme ve takım hayatta kalması](/img/dtf/hero-basics/04.jpg)
+
+### Brian: Uzun savaş tankı {#dtf-brian-long}
+
+Brian büyük kalkanlarla ilgili değil. Düşman baskısını azaltır ve uzun süren savaşlarda faydalı kalır.
+
+- **Keskin Pençe** — temel fiziksel darbe.
+- **Tehdit Isırığı** — tüm müttefikler için hasar artı alınan hasarın azalması.
+- **Ay Kükremesi** — alınan hasarın bir kısmını yansıtır.
+- **Kurt Soyu** — pasif olarak alınan tüm hasarı azaltır.
+- **Dayanıklılık** — standart ATK/HP/DEF ve bekleme süresi kazanımı.
+
+Uzun PvE savaşları, sağlam ön cepheler ve Warlock yönü için en iyisi — kendi gruplarınızı ve modlarınızı bildikten sonra, kaotik bir başlangıç kahramanı değil, daha sonra bilinçli bir seçim.
+
+![Brian: uzun savaşlar için hasar azaltma](/img/dtf/hero-basics/05.jpg)
+
+### Louis: Patlama karşıtı ve enerji karşıtı uzmanı {#dtf-louis-anti-burst}
+
+Louis dördü arasında en durumsal olanıdır — ve saniyeler içinde bir hedefi yok eden veya enerji hasarıyla baskı yapan hızlı kompozisyonlara cevaptır.
+
+- **Kelepçeler** — temel saldırı.
+- **Çapraz Kırbaç** — hasar, Louis kendi kendine iyileşme artı gelen hasarın azalması.
+- **Güç Bağlantısı** — yakındaki müttefiklere gelen enerji hasarını keser.
+- **Yıkılmaz Ruh** — ağır gelen hasar azaltma ve ölümcül bir darbeye karşı yardım.
+- **Dayanıklılık** — saldırı, HP, savunma ve bekleme süresi hızı.
+
+Temelin ilk tuğlası değil, ön cephe başka şekilde kapandığında hızlı düşman metalarına karşı özel araçtır.
+
+![Louis: patlama ve enerji baskısına karşı koyma](/img/dtf/hero-basics/06.jpg)
+
+### PvP ve PvE'de Kim Daha İyi {#dtf-tank-pvp-pve}
+
+PvP sırası: **Arthur → Daskal → Louis → Brian**. Arthur'un istikrarı ve ilk değişim değeri önde; Daskal'ın kalkanları taşıyıcıya zaman kazandırır; Louis, Brian'ın önüne geçer çünkü ilk patlamadan kurtulmak PvP'yi belirler; Brian'ın güçlü yönleri daha uzun baskı gerektirir.
+
+PvE sırası: **Arthur → Brian → Daskal → Louis**. Arthur evrensel seçim olarak zirvede kalır; Brian uzun savaşlarda ve hasar azaltmada yükselir; Daskal kalkanlar ve yoğunlukla takip eder; Louis, gerçek patlama veya enerji baskısı olan eşleşmelere daralır.
+
+![PvP ve PvE'de Tank Karşılaştırması](/img/dtf/hero-basics/07.jpg)
+
+### F2P sırası ve tank hataları {#dtf-tank-f2p}
+
+F2P ve düşük harcama kuralı: **Arthur → Daskal → durumsal**. Bir güçlü tank, dört yarı yapılmış tanktan iyidir. Yaygın hatalar: bir takım planı olmadan tank geliştirmek (Warlock yönü olmayan Brian, enerji baskısı metası olmayan Louis); dördünü birden yükseltmek; taşıyıcıyı unutmak (hasarı olmayan bir duvar yavaşça kaybeder); başkasının takımını kendi koşulları olmadan kopyalamak.
+
+![F2P ve düşük harcama için tank önceliği](/img/dtf/hero-basics/08.jpg)
+
+Kişisel kısaltma: henüz hiçbir şey yok → Arthur; Arthur bitti ve ön cephe bir duvara dönüşmeli → Daskal; uzun savaşlar için geç sistemik takım → Brian; hızlı düşman kompozisyonları saniyeler içinde kahramanları yok eder → Louis.
+
+![Arthur, Daskal, Brian veya Louis: karar](/img/dtf/hero-basics/09.jpg)
+
+> Kaynak: [Last Asylum: Plague: Артур, Даскал, Брайан или Луис - какого танка качать](https://dtf.ru/howto/5104617-kakogo-tanka-kachat-v-last-asylum-plague) tarafından Гейм-Знаток on DTF.
+
+## Diziliş: Önde İki Tank, Ortada Taşıyıcı {#dtf-formation}
+
+Sadece güç yanıltıcı olabilir. Pahalı bir takım, taşıyıcısı önde durduğunda, tankı arkada saklandığında ve en iyi kılıcı yanlış kahramanda oturduğunda kaybeder.
+
+![En iyi kahraman diziliş rehberi](/img/dtf/hero-basics/10.jpg)
+
+### Önce Gruplar, Sonra Tek Grup Bonusu {#dtf-faction-bonus}
+
+Warriors beat Warlocks, Warlocks beat Rangers, Rangers beat Warriors. Most players assemble a Warrior core first because its good heroes arrive earlier; on a Warrior-heavy server, Rangers become a strong second direction — even a slightly weaker Ranger team surprises Warriors through the faction edge.
+
+![Savaşçı, Avcı ve Büyücü fraksiyonları](/img/dtf/hero-basics/11.jpg)
+
+Five heroes of one faction give **+20% HP, attack and defense** (four give 15%). That is why three gold plus two good purple Warriors of one system routinely beat five random golds: check the squad bonus before admiring a single hero's Might.
+
+### Önde kim duruyor {#dtf-front-roles}
+
+Heroes have a role as well as a faction: shield = tank, and tanks take the first hits.
+
+![Kahraman fraksiyonu ve rol simgeleri](/img/dtf/hero-basics/12.jpg)
+
+The normal base: **two tanks in front, damage and support behind**. A strong carry in front dies before casting — the best damage dealer must survive to use skills, not die heroically first.
+
+![Önde tanklar, arkada hasar verenler](/img/dtf/hero-basics/13.jpg)
+
+### Çalışan Savaşçı yerleşimi: Arthur, Bella, Marlena, Claire, Harper {#dtf-warrior-formation}
+
+Build by roles, not by total power:
+
+- Front: **Arthur (left), Bella (right)** — hold the line as long as possible.
+- Back: **Marlena center** (main damage source gets the most time in even fights), **Claire** on one side as second damage, **Harper** on the other as support.
+
+![Sahan üzerindeki tam dizilim örneği](/img/dtf/hero-basics/14.jpg)
+
+Scout the enemy before the fight: if an awkward target sits across from Marlena, swap her with Claire — but start with Marlena in the middle.
+
+### Eşit Güç çok şey ifade etmez {#dtf-equal-might}
+
+Arena pairs with near-identical Might fight differently because the number folds in heroes, formation, gear, main-carry development — and troops (T1–T10, with T10 a separate late goal through Training Grounds and research). Two similar-Might squads can differ purely on troop tier.
+
+![T9 birliklerle Birlik ve Eğitim Sahası karşılaştırması](/img/dtf/hero-basics/15.jpg)
+
+### Her savaş raporunu her zaman aç {#dtf-battle-report}
+
+After a loss to an equal opponent, check who dealt the damage, who died first, and which heroes hold the best gear. Two level-135 Marlenas are not the same hero when stars, skills and swords differ — the report shows it.
+
+![Savaş sonrası raporunu okumak](/img/dtf/hero-basics/16.jpg)
+
+### Ekipman rolüyle uyuşmalı {#dtf-gear-by-role}
+
+Tanks like Arthur want armor and boots first; the main carry wants the strongest sword and attack pieces. A great sword on a tank while Marlena runs a level-20 weapon helps both items and neither fight. With scarce materials, one real attack set on the main carry beats five equally pretty heroes.
+
+![Arena savaşı sonrası tank ve taşıyıcı ekipmanları](/img/dtf/hero-basics/17.jpg)
+
+Up to about level 20, several heroes can be lifted together. Past that, costs jump — focus the two heroes that carry squad one (main damage dealer plus main tank, e.g. Marlena's sword and Arthur's protection) and leave the rest on a working base.
+
+### Önce kimi, sonra kimi kasmalı {#dtf-first-focus}
+
+For a Warrior first squad: **Marlena deals the damage, Arthur buys her the time** — then second tank, Claire, Harper and the rest. Finish one important upgrade instead of spraying antitoxin and shards across every new pull.
+
+![Marlena ve Arthur: Savaşçı çekirdeği](/img/dtf/hero-basics/18.jpg)
+
+Paid heroes help — early access is a real advantage while others wait — but they still need faction, position, stars, skills and gear. Treat faster progress as a way to remove one concrete bottleneck.
+
+Once the Warrior march stands, build **Rangers second** on Warrior-heavy servers: same 2-tanks-front template, five of one faction for the full bonus, damage behind (a second damage dealer can stand in temporarily without support). Do not rush to equalize both marches — the first keeps solving the hardest tasks while the second becomes an anti-Warrior specialist.
+
+![Avcı birliği, Savaşçılara karşı](/img/dtf/hero-basics/19.jpg)
+
+Do not stuff every gold hero into squad one: sometimes three gold plus two purple of one faction for the first team, with the remaining golds starting a real second march, builds a healthier account (one main, one anti-faction, one for the rest) than five best in front and leftovers anywhere.
+
+### Perşembe ve dükkanlar {#dtf-thursday-shops}
+
+If your alliance runs Duels, hold serious hero spending (antitoxin, shards, skill badges, summon tickets) for **Thursday** — hero day plus event points for the same action. In shops: Honor = gear blueprints first; Expedition = universal hero shards, summon tickets, antitoxin; Sanctuary = available shards. Buy for one current deficit (Marlena stars, Arthur gear), not everything that looks useful.
+
+![Oyun mağazalarından ne satın almalı](/img/dtf/hero-basics/20.jpg)
+
+### Yenilgi kontrol listesi ve sıfırdan hazıra planı {#dtf-defeat-checklist}
+
+After a loss: formation (carry in front?) → faction bonus (broken for one stronger hero?) → gear (best sword on the tank?) → stars and skills. That order finds the cause before the next million resources go in.
+
+![Sıfırdan birliğin gelişim sırası](/img/dtf/hero-basics/21.jpg)
+
+Zero-to-ready: one full faction five → two tanks front, best carry middle-back → base gold gear to ~20, stop leveling everything → expensive resources into main-carry weapon and first-tank defense → second faction (Rangers on Warrior servers) → third team only afterwards.
+
+> Kaynak: Гейм-Знаток tarafından DTF platformunda yayınlanan [Last Asylum: Plague - гайд по лучшей расстановке героев](https://dtf.ru/howto/5245716-last-asylum-plague-sovety-po-rasstanovke-geroev) yazısı.

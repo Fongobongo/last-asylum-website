@@ -2,7 +2,7 @@
 title: "Carriola della Gilda e Carovane"
 description: "Giri giornalieri gratuiti con la carriola, regole dei forzieri per il Capo Carriola e le Guardie, aggiornamenti della Carriola d'Oro, strategia dei frammenti UR delle carovane, saccheggio inter-server e priorità delle casse oro-viola-blu."
 lang: it
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: wagon
 calculators: []
 infographics: []
@@ -144,3 +144,55 @@ Valori verificati dai dati del client di gioco (v1.0.87), fonte: wiki-last-asylu
 | Carovana Extra | un ulteriore giro giornaliero | 5.000 |
 | Contromisure | un giocatore può saccheggiare al massimo 3 volte | 20.000 |
 | Carro di Zucca | sblocca la Carovana d'Oro | 20.000 |
+
+## Guida del Coachman: Corsa all'oro, VIP e Difesa {#coachman-playbook}
+
+La carovana dell'alleanza parte **una volta al giorno**. Gli ufficiali R4/R5 nominano il **coachman** (кучер); i membri ordinari non possono sedersi autonomamente. Dopo la nomina, la carovana non parte immediatamente: segue una **fase di preparazione di 4 ore**, durante la quale il coachman potenzia la carovana, i passeggeri prendono posto, viene assegnato il VIP e viene impostata la difesa. Una carovana può essere **depredata fino a 3 volte per corsa**, con una parte del carico realmente a rischio: si tratta di una consegna, non solo di ricompense.
+
+### Perché il ruolo di coachman è importante
+
+Il coachman è il grande vincitore della corsa: oltre ai quattro carri standard, c'è un **carro di testa nascosto**, quindi il coachman raccoglie circa **cinque carri di ricompense** invece di uno. Mantieni la rotazione trasparente (una coda, ricompense di attività o la classifica del Duello d'Alleanza vanno bene tutti); un coachman permanente senza spiegazioni genera risentimento.
+
+### Regola numero uno: renderla d'oro
+
+Dopo la nomina, il primo compito del coachman è aggiornare la carovana. **5 aggiornamenti × 5 biglietti della carovana = 25 biglietti** per una **Carovana d'Oro** garantita. Il coachman non deve pagare tutto da solo: i passeggeri che salgono sulla carovana possono contribuire con i biglietti, e la norma sana per l'alleanza è di **2-3 biglietti a persona** anziché uno. Una volta ottenuto il quinto aggiornamento, fermati: non trasformare la carovana in una roulette russa inseguendo un lancio cosmico. C'è un'altra carovana domani.
+
+![Giocatori che contribuiscono con i biglietti per una Carovana d'Oro](/img/dtf/wagon/01.jpg)
+
+![Cinque aggiornamenti della carovana per raggiungere la qualità d'oro](/img/dtf/wagon/02.jpg)
+
+### Disciplina dei passeggeri: controlla i posti, non solo il bottino
+
+Ogni carro ordinario può ospitare **solo 5 persone**. L'eccesso di passeggeri viene risolto dal gioco stesso, e il passeggero espulso è spesso quello che si è seduto per primo. Un carro leggermente peggiore con 3-4 passeggeri tranquilli batte un carro da jackpot con otto persone ammassate. I posti possono essere cambiati liberamente durante le 4 ore, quindi **controlla poco prima della partenza**.
+
+![Scelta del carro: gli slot sovraffollati possono farti espellere](/img/dtf/wagon/03.jpg)
+
+### Passeggero VIP: due carri, scelti dal coachman
+
+Al **Livello Dono Alleanza 20**, la carovana sblocca un **passeggero VIP**: invece di un solo carro, il VIP ne occupa **due scelti dal coachman**. Concordate il VIP in anticipo: l'invito rimane valido per **60 minuti** e una mancata accettazione significa dover aspettare o reinvitare. Dopo aver accettato, il coachman sceglie manualmente i due carri (chiedi al giocatore quali preferisce). Il **VIP non può essere espulso** come un passeggero ordinario e non può tornare a un posto normale (raramente un sacrificio, trattandosi di due carri).
+
+![Assegnazione del passeggero VIP e scelta dei carri](/img/dtf/wagon/04.jpg)
+
+### Guardie: solo se nettamente più forti
+
+Una guardia schiera le proprie squadre in difesa ma **prende una percentuale delle ricompense del coachman**. Se le tue stesse squadre sono già più forti di quelle del candidato guardia, non ha senso: paghi carico per nulla. Regola: invita una guardia **solo se è chiaramente più forte del coachman**; altrimenti prendi il VIP e mantieni intatte le ricompense.
+
+![Slot per guardia e passeggero VIP](/img/dtf/wagon/05.jpg)
+
+### Aggiorna le tue squadre di difesa e i relativi epigrafi
+
+Le tre squadre di difesa devono essere **salvate nuovamente dopo ogni potenziamento importante dell'account**: nuovi eroi, nuovi danni, nuovo corvo e nuovo equipaggiamento non servono a nulla se la carovana difende ancora con la formazione del mese scorso. Controlla che i giusti **epigrafi siano assegnati alle squadre corrette**: un epigrafe fuori posto fa perdere gli scontri.
+
+### Livello dono, regola delle 24 ore e la seconda corsa d'oro
+
+- I **potenziamenti** della carovana (movimento più veloce, minor numero di tentativi di furto, difesa centrale, sblocco VIP) provengono dalla barra dei doni: apri quella scheda più di una volta. Al **Livello Dono 25**, i carri ordinari ottengono **capacità di passeggeri extra**, fattore importante per le grandi alleanze attive.
+- Fai salire di livello il Dono dell'Alleanza: il farming attivo di Blight più i punti extra derivati dalle invocazioni avanzate lo aumentano, traducendosi in una carovana più veloce e difficile da saccheggiare.
+- **I nuovi membri devono trascorrere 24 ore nell'alleanza** prima di potersi unire alla carovana: ricordatelo dopo un trasferimento.
+- Durante la preparazione, raccogli gli **accordi commerciali** (se dimenticati, arrivano per posta). I passeggeri che salgono a bordo lasciano anche dei **"mi piace"** al coachman: poca roba, ma il giorno del coachman è il giorno dell'amore popolare.
+- Esiste una **seconda carovana d'oro al giorno, ma costa di più ogni volta**. È pensata per le grandi alleanze la cui prima carovana trabocca, non è un obbligo per una corsa semivuota.
+
+![Aumento di livello del Dono dell'Alleanza, facilitato dal farming di Blight](/img/dtf/wagon/06.jpg)
+
+Una buona carovana è quando tutti ci mettono un po' del loro: il coachman rende d'oro la corsa, controlla la difesa e posiziona il VIP; i passeggeri tengono d'occhio il loro carro; l'alleanza concorda le regole anziché improvvisare ogni sera.
+
+> Fonte: [Last Asylum: Plague - полный гайд по Каравану](https://dtf.ru/howto/5303398-last-asylum-plague-karavan-gayd) di Гейм-Знаток su DTF.

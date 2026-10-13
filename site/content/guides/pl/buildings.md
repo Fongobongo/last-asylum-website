@@ -2,7 +2,7 @@
 title: "Priorytety budowy i harmonogram Sanktuarium"
 description: "Harmonogram rozwoju Sanktuarium do poziomu 30, kolejność priorytetów budowy, działanie każdego budynku oraz sposób na poprawne kumulowanie bonusów prędkości budowy."
 lang: pl
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: buildings
 ---
 
@@ -329,3 +329,85 @@ To, jak węzły prędkości, kosztów i limitów kopii zmieniają kolejkę budow
 - [Posąg Wojownika](/pl/buildings/warrior-statue/)
 - [Wieża Obserwacyjna](/pl/buildings/watchtower/)
 - [Warsztat Tkacki](/pl/buildings/weaving-workshop/)
+
+---
+
+## 🧱 Taktyka budowy dla początkujących {#dtf-beginner-tactics}
+
+Nawet równomiernie rozłożone ulepszenia w całej bazie hamują rozwój konta: surowce kończą się dokładnie wtedy, gdy Sanctuary (Sanktuarium), Lab (Laboratorium), Training Grounds (Plac treningowy) lub Antitoxin Workshops (Warsztaty antywirusowe) ich potrzebują. Ta sekcja to poradnik dla początkujących — do czego służy każdy budynek i w jakiej kolejności w niego inwestować.
+
+![Przegląd poradnika budowania dla początkujących](/img/dtf/buildings/01.jpg)
+
+### Najpierw Sanktuarium, poziom bohaterów zależy od niego {#dtf-sanctuary-first}
+
+Sanktuarium wyznacza górny limit dla wszystkiego: poziomu bohaterów (w przybliżeniu +5 za każdy poziom Sanktuarium — np. Sanktuarium 28 pozwala na bohaterów do poziomu 140) oraz wszystkich innych budynków. Jeśli główna piątka osiągnie limit, dodatkowa antywirusowa substancja nie pomoże — podniesie go tylko kolejny poziom Sanktuarium. Każdy poziom Sanktuarium wymaga również kilku budynków wstępnych (Laboratorium, Placu treningowego, Koszar, posągów), więc sprawdź wymagania z wyprzedzeniem i przygotuj cały łańcuch. Nie czekaj, aż wszyscy bohaterowie osiągną limit — zacznij ulepszać Sanktuarium z wyprzedzeniem.
+
+![Poziom Sanktuarium a limit poziomu bohatera](/img/dtf/buildings/02.jpg)
+
+### Dwóch budowniczych, dwie role {#dtf-two-builders}
+
+Tymczasowy slot drugiego budowniczego (500 diamentów) powinien pełnić inną funkcję niż pierwszy: długi slot zajmuje Sanktuarium, Laboratorium lub inny wielodniowy budynek obowiązkowy, podczas gdy darmowy budowniczy zamyka krótkie ulepszenia — farmy, tartaki, ogrody, warsztaty antywirusowe i pośrednie wymagania pod kolejne Sanktuarium. Dwóch budowniczych przy długich projektach oznacza brak wolnego miejsca na nagłe wymagania; dwóch przy małych zadaniach sprawia, że budynek główny pozostaje w tyle.
+
+Zsynchronizuj ukończenie dużych projektów z dniem budowy w pojedynku sojuszy (Alliance Duel): gotowego budynku nie trzeba odbierać od razu — zostaw nad nim młotek i kliknij po zmianie fazy wydarzenia, zdobywając punkty za już wykonaną pracę. Budynek nadal zajmuje slot, więc trzymaj młotek tylko nad dużymi projektami. Najpierw skorzystaj z pomocy sojuszu, potem użyj przyspieszaczy, a na końcu odbierz nagrodę.
+
+![Odbieranie ukończonej budowy w dniu budowy w pojedynku sojuszy](/img/dtf/buildings/03.jpg)
+
+### Budynki surowcowe mogą pozostać w tyle {#dtf-resource-lag}
+
+Farmy, tartaki i ogrody ziołowe dostarczają zboże, drewno i zioła — ale nie muszą dorównywać poziomem Sanktuarium. Różnica pięciu do sześciu poziomów jest w pełni akceptowalna. Gdy drugi budowniczy zajmuje się Sanktuarium, pierwszy stopniowo podnosi budynki surowcowe, a ze wszystkich najbardziej warsztaty antywirusowe: antywirus jest nieustannie zużywany na rozwijanie bohaterów.
+
+![Farmy, tartaki i ogrody ziołowe](/img/dtf/buildings/04.jpg)
+
+Magazyny (drewna, zboża, ziół) zwiększają jedynie chronioną ilość surowców, których atakujący nie mogą zrabować. Nie odblokowują żadnych poziomów, technologii ani wojska, więc trzymaj je zauważalnie z tyłu, chyba że wymagania Sanktuarium wyraźnie ich żądają. Najbezpieczniejsza strategia: trzymaj paczki surowców w ekwipunku i otwieraj je tuż przed rozpoczęciem budowy — wtedy nawet słabe magazyny stracą niemalże nic.
+
+![Magazyny drewna, zboża i ziół](/img/dtf/buildings/05.jpg)
+
+### Tawerna, Świątynia i Laboratorium Badawcze {#dtf-tavern-temple-lab}
+
+Tawerna rekrutuje bohaterów i ocalałych, a jej ulepszanie skraca czas odnowienia darmowego werbunku — choć po kilku poziomach o zaledwie około godzinę. Ulepszaj ją zgodnie z wymaganiami Sanktuarium lub w dniu budowy; znacznie ważniejsze jest po prostu klikanie gotowych darmowych rekrutów. Pierwsze 50 losowań gwarantuje zdobycie fragmentów Arthura.
+
+![Przyzywanie bohaterów i ocalałych w Tawernie](/img/dtf/buildings/06.jpg)
+
+Posągi Wojownika, Zwiadowcy i Czarnoksiężnika w Świątyni zapewniają bezpośrednie premie ATK/HP/DEF dla frakcji. Zacznij od frakcji swojego 1. oddziału, ale nie przesadzaj ze skrajnościami: pozostałe posągi są wymagane przez Sanktuarium, a oddziały 2–3 potrzebują ich do ekspedycji.
+
+![Posągi Wojownika, Zwiadowcy i Czarnoksiężnika w Świątyni](/img/dtf/buildings/07.jpg)
+
+Po Sanktuarium najważniejszym budynkiem jest Laboratorium Badawcze — to tam znajdują się technologie ekonomiczne, bohaterów, wojsk i rozwoju. Badania z drzewka pojedynku sojuszy przeprowadzaj w środy, aby te same przyspieszacze przynosiły punkty w wydarzeniu, i nie przepalaj wszystkich uniwersalnych przyspieszaczy na budynki: część zapasów musi pokryć badania, zwłaszcza kosztowne technologie militarne.
+
+![Laboratorium Badawcze](/img/dtf/buildings/08.jpg)
+
+### Wojsko: Plac treningowy, Koszary, Szpital {#dtf-army-buildings}
+
+Wyższe poziomy placów treningowych odblokowują silniejsze rangi wojsk (T1–T10). Nie ulepszaj wszystkich placów równomiernie: jeden trzymaj na maks., a resztę wykorzystuj do masowego szkolenia tanich wojsk, a następnie awansuj je na głównym placu — koszt surowców jest porównywalny, a czas znacznie krótszy. Główny plac musi nadążać za Sanktuarium, ponieważ nowe tiery oraz wymagania Sanktuarium od niego zależą.
+
+W Koszarach stacjonuje wyszkolona armia, a ich pojemność szybko staje się wąskim gardłem: polowania na złodziejskie obozy oraz piątkowe i sobotnie walki pochłaniają tysiące żołnierzy. Jeśli Koszary są pełne, place bezczynnie stoją, a marsze wyruszają niekompletne — ulepszaj je równocześnie z głównym placem. Pojemność Szpitala i szybkość leczenia decydują o tym, jak wielkie baty konto jest w stanie przyjąć: jeśli jedna bitwy zapełnia go całkowicie, czas na ulepszenie. Zbyt małe szpitale zamieniają rannych w trwałe straty.
+
+### Chata budowniczego, Hala sojuszu i Mury {#dtf-support-defense}
+
+Chata budowniczego skraca każdy przyszły projekt, więc inwestycja ta procentuje na całym koncie. Hala sojuszu zwiększa skuteczność pomocy sojuszników (więcej kliknięć, więcej minut za każde kliknięcie) — zawsze proś o pomoc w momencie rozpoczęcia długiego odliczania i wydawaj przyspieszacze dopiero, gdy sojusznicy skończą pomagać, w przeciwnym razie darmowy czas zostanie zmarnowany.
+
+![Pomoc sojuszników przez Halę sojuszu](/img/dtf/buildings/09.jpg)
+
+Na Murach stają trzy oddziały obronne, obok fortyfikacji i przycisku gaszenia. Aby je przestawić, wszystkie marsze muszą wrócić do bazy. Obserwuj pola wyboru obrony: jeśli są włączone, bohaterowie i żołnierze biorą udział w obronie — przeciwko silniejszemu atakowi oznacza to ciężkie straty, dlatego wielu graczy odznacza je podczas wojen międzyserwerowych, aby oszczędzić armię, ale pola te muszą zostać z powrotem zaznaczone przed Oblężeniem Umarłych, inaczej fale nie zostaną zatrzymane. Poziomy Murów zwiększają również prędkość marszu na ataki Zniszczenia (Blight), zbieranie surowców i powroty.
+
+![Mury i konfiguracja obrony](/img/dtf/buildings/10.jpg)
+
+### Obozowisko badawcze, Wieża obserwacyjna, Wieża Sokoła {#dtf-activity-buildings}
+
+Obozowisko badawcze (karnet bojowy) nie traci żołnierzy w walkach — to idealne laboratorium do testowania formacji i porównywania bohaterów — oferuje także godzinny pasywny dochód (zboże, drewno, zioła, antywirus) oraz skrzynie co kilka etapów. Wieża obserwacyjna prowadzi ekspedycje frakcyjne (jedna frakcja na tryb, odnawiająca się w przybliżeniu co 3 dni): nie wybieraj maksymalnych gwiazdek „dla rozwoju” — utknięcie w połowie trasy daje gorszy wynik niż pełne przejście o jedną gwiazdkę niżej.
+
+Wieża Sokoła wydaje codzienne zadania (nowe pojawiają się co około 6 godzin; ~11 dostępnych przy rozwiniętej wieży, ale na tablicy mieści się tylko 9, a reszta trafia do kolejki — nadliczbowe zadania znikają). Zadania kosztują energię i nagradzają surowcami, antywirusem oraz m.in. przedmiotami Kruków (Raven). Ulepszaj wieżę tylko wtedy, gdy zadania są faktycznie wykonywane codziennie.
+
+![Codzienne zadania w Wieży Sokoła](/img/dtf/buildings/11.jpg)
+
+### Dzielnica rynsztunku i to, co można odłożyć na później {#dtf-gear-defer}
+
+Warsztat przetapiania (Smelting Workshop) produkuje kamienie wyposażenia (Gear Stones) — pojedynczy miecz wysokiego poziomu może wymagać ponad 20 000 kamieni na ulepszenie, rozwijaj go wcześnie. Warsztat tkacki (Weaving Workshop) produkuje tkaninę przerabianą później na stal pod złoty ekwipunek, a Warsztat rynsztunku (Gear Workshop) wytwarza same elementy. Kompletny złoty zestaw dla 1. oddziału zajmuje dużo czasu, więc produkcja nigdy nie powinna stać w miejscu — dobry miecz zadający obrażenia i zbroja dla tanka są lepsze niż kilka losowych ulepszeń gdzie indziej.
+
+Odłóż na później, gdy surowce są ograniczone: Oddział zwiadowców (szybsze zwiady, brak wpływu na szybkość rozwoju), magazyny powyżej wymaganych poziomów, Tawernę powyżej wymagań. Warsztat Kruków można ulepszać w dniu budowy dla punktów pojedynku. Arena, Gniazdo Kruków, Centrum tajnych operacji (Black Ops Center) i Hala Osobliwości (Curio Hall) nie wymagają ulepszania — korzystaj z nich regularnie, nie kosztują zasobów budowlanych.
+
+Kolejność dla początkujących w jednym zdaniu: Sanktuarium na długim slocie → Laboratorium → główny Plac treningowy, Koszary, Szpital, posąg głównej frakcji → Chata budowniczego i Hala sojuszu na bieżąco → budynki surowcowe ~5–6 poziomów poniżej Sanktuarium → dzielnica rynsztunku → dodatkowe place i budynki pomocnicze → magazyny, Tawerna, zwiadowcy według wymagań lub nadwyżek.
+
+![Prawidłowa kolejność ulepszania budynków](/img/dtf/buildings/12.jpg)
+
+> Źródło: [Здания Last Asylum: Plague - гайд для новичков](https://dtf.ru/howto/5238649-gaid-po-zdaniyam-last-asylum-plague-dlya-novichkov) , autor Гейм-Знаток (DTF).

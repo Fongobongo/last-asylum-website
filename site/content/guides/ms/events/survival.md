@@ -2,7 +2,7 @@
 title: "Pertempuran Kelangsungan Hidup: 60K Lencana Percuma & Giliran Fasa 4 Jam"
 description: "Acara misi mingguan yang menghasilkan kira-kira 60,000 Lencana Kemahiran percuma: 5 kategori tugasan, fasa giliran 4 jam, pemarkahan latihan askar berasaskan giliran, dan penyelarasan dengan Duel Persekutuan."
 lang: ms
-updated: "2026-09-15"
+updated: "2026-10-12"
 videoTopic: survival
 type: event
 ---
@@ -205,3 +205,51 @@ Nilai disahkan daripada data pelanggan permainan (v1.0.87), sumber: wiki-last-as
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Berapa lamakah setiap fasa Pertempuran Kelangsungan Hidup?", "acceptedAnswer": {"@type": "Answer", "text": "Setiap fasa berlangsung selama 4 jam; terdapat lima fasa bertema: wira, wilayah, tentera, teknologi dan raven."}}, {"@type": "Question", "name": "Bilakah mata latihan tentera dianugerahkan?", "acceptedAnswer": {"@type": "Answer", "text": "Pada detik anda menekan Latih/Promosi dan sumber ditolak — bukan apabila pemasa selesai."}}]}
 </script>
+
+---
+
+## Gelung Harian Pertempuran Kelangsungan Hidup: Meterai, Tenaga dan Bertindih Duel (DTF) {#dtf-daily-loop}
+
+Acara ini berlangsung setiap hari melalui lima tema yang berputar — latihan tentara, penyelidikan teknologi, naik taraf Raven, pertumbuhan wira, pembangunan wilayah. Anda tidak perlukan kesemua lima tema: **18 Meterai Kelangsungan Hidup melengkapkan tiga peti harian**, iaitu tiga tema yang diselesaikan sepenuhnya. Kemenangan sebenar adalah apabila ia bertindih dengan Duel Perikatan (Alliance Duel) — membina pada hari Selasa, menyelidik pada hari Rabu, melatih pada hari Jumaat — supaya pecutan masa yang sama memberi pulangan dua kali ganda.
+
+![Lima tema Kelangsungan Hidup dan 18 meterai untuk tiga peti](/img/dtf/survival/02.jpg)
+
+### Cara meterai dan kedudukan berfungsi {#dtf-seals}
+
+Susunan berputar setiap hari tanpa jadual tetap — buka acara sebelum membelanjakan sumber dan semak tema aktif berserta tema seterusnya. Setiap tema mempunyai **4 peringkat yang memberikan 1+1+2+2 = 6 meterai**; 18 meterai = tiga tema selesai. Ganjaran peringkat (lencana kemahiran, pecutan masa, sumber) terkumpul sebagai bonus. Menyelesaikan kelima-lima tema menghasilkan kira-kira **8,000 lencana kemahiran sehari**, sehingga ~9,600 jika tema latihan yang berulang muncul semula. Papan pendahulu harian membayar hadiah asas sumber untuk sebarang markah dan hadiah yang lebih baik untuk kedudukan tinggi — teruskan melebihi 18 hanya apabila tema sepadan dengan perancangan pertumbuhan; membazirkan stok pecutan masa semata-mata untuk kedudukan jarang sekali mendatangkan faedah.
+
+![Ganjaran kedudukan Kelangsungan Hidup](/img/dtf/survival/03.jpg)
+
+Tigaan harian paling murah untuk kebanyakan akaun: **Raven (tenaga) + Wira (antitoksin) + tema hari duel** (wilayah hari Selasa, penyelidikan hari Rabu, tentara hari Jumat; Sabtu — mengikut apa sahaja yang paling murah dalam stok). Selepas peti emas pada 18, berhenti melainkan tema seterusnya adalah pertumbuhan yang memang telah dirancang.
+
+### Tentara, penyelidikan, Raven, wira, wilayah {#dtf-themes}
+
+**Latihan:** markah diperoleh daripada pecutan masa latihan dan pertumbuhan tentara di tanah yang paling dibangunkan (tier maksimum), dengan tanah lain dimuatkan atau menyediakan tier lebih rendah untuk dinaik pangkat. Jika latihan bermula dalam masa sejam dan satu kelompok hampir selesai, beratur untuk baki masa itu sahaja, kemudian muatkan sepenuhnya selepas acara dibuka — tiada tanah terbiar, tetapi sebahagian besar unit siap dalam tempoh masa acara. Hari terbaik adalah pada hari Jumaat dengan peringkat latihan duel.
+
+![Latihan tentara di dalam tempoh masa tema](/img/dtf/survival/04.jpg)
+
+**Penyelidikan:** mata diperoleh melalui pecutan masa penyelidikan serta peningkatan kekuatan teknologi — tetapkan masa penyiapan di dalam tempoh masa acara, kemudian mulakan penyelidikan seterusnya, kumpul bantuan perikatan, dan barulah tentukan apa yang perlu dipercepatkan. Jika satu teknologi memberikan kekuatan yang ketara dan peringkat seterusnya hanya memerlukan sedikit masa, menyelesaikannya adalah lebih baik daripada menaburkan pecutan masa pada teknologi kecil; tidak perlu menghabiskan teknologi yang panjang sepenuhnya sebaik sahaja ambang (threshold) tercapai. Hari terbaik adalah hari Rabu dengan penyelidikan duel.
+
+![Penyelidikan teknologi dan pemarkahan kekuatan](/img/dtf/survival/06.jpg)
+
+**Raven — kuda beban harian:** dua cara untuk mendapatkan markah, pembangunan buah (fruit) atau penggunaan tenaga. Simpan buah untuk peringkat Raven duel pada hari Isnin; pada hari-hari lain, belanjakan **tenaga** untuk pencarian Blight/pencuri/bos/Falcon — aktiviti harian biasa, tiada kos khusus. Kira-kira **300 tenaga** melengkapkan tema ini sepenuhnya (4 ganjaran, 6 meterai). Padankan dengan Pemburuan Pencuri (Thief Hunt): barisan pergerakan (march) yang lemah mencari pencuri emas kecil dan membuka bos, manakala barisan pergerakan yang kuat menyerang sasaran besar. Jalan pintas: hantar skuad ke jubin sumber berdekatan terlebih dahulu, kemudian alihkan ke arah raksasa semasa ia melintas — menjimatkan banyak masa pergerakan sehari.
+
+![Naik taraf Raven melalui tenaga dan Pemburuan Pencuri](/img/dtf/survival/08.jpg)
+
+**Wira — tema terpantas:** serahan Tavern berserta antitoksin; satu kenaikan tahap yang disasarkan dengan betul selalunya melengkapkan keempat-empat peringkat. Buka beberapa wira, pilih wira yang kos kenaikan tahap seterusnya paling hampir dengan ambang akhir — jangan ⁠habiskan 100M antitoksin di tempat yang sebenarnya hanya memerlukan 20M untuk selesai. Simpan serahan beramai-ramai untuk hari wira duel pada hari Khamis; antitoksin biasanya melengkapkan Kelangsungan Hidup dengan kos yang lebih murah.
+
+![Pertumbuhan wira dengan antitoksin](/img/dtf/survival/10.jpg)
+
+**Wilayah:** pecutan masa binaan serta kenaikan kekuatan bangunan. Ambil binaan besar yang hampir siap di dalam tempoh masa acara apabila ada (tidak perlu menunggu 15–30 hari untuk Sanctuary/Lab); jika tidak, belanjakan pecutan masa dalam kelompok yang lebih besar (cth. 5 minit) selepas mengumpul bantuan perikatan. Hari terbaik adalah hari Selasa dengan binaan duel.
+
+![Pembangunan wilayah dengan pecutan masa pembinaan](/img/dtf/survival/11.jpg)
+
+### Pertindihan, menteri dan disiplin meterai {#dtf-overlap}
+
+Isnin: duel mengembangkan Raven — belanjakan buah yang disimpan di dalam tema Raven untuk kredit berkembar. Selasa: wilayah — ambil bangunan yang telah disediakan berserta pecutan masa binaan. Rabu: penyelidikan — skrol berserta teknologi panjang. Khamis: wira — tiket, serpihan, antitoksin, lencana. Jumaat: tentara — tanah semasa tema latihan. Sabtu: pilihan bebas mengikut stok. Jangan ubah suai akaun mengikut acara; ubah suai acara mengikut pertumbuhan yang dirancang.
+
+Sebelum melakukan naik taraf besar, ambil gelaran menteri yang sepadan, dan pantau senarai giliran: pada senarai 50/50 yang penuh, permintaan akan tertangguh — memohon pada **49/50** selalunya lebih kerap memasukkan tugasan ke dalam giliran aktif. Merancang gelaran lebih awal pada hari membina/menyelidik.
+
+Meterai **ditetapkan semula setiap hari** — 17 hari ini ditambah "satu lagi esok" bermakna sifar esok. Jika tertinggal satu peringkat daripada 18, ambil tema yang paling murah untuk diselesaikan; jangan simpan meterai dengan harapan untuk memudahkan hari esok.
+
+> Sumber: [Last Asylum: Plague - гайд по Битве на выживание](https://dtf.ru/howto/5240960-last-asylum-plague-gajd-po-bitve-na-vyzhivanie) oleh Гейм-Знаток di DTF.

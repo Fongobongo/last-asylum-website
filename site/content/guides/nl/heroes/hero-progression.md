@@ -2,7 +2,7 @@
 title: "Voortgang: vaardigheden & sterren"
 description: "Sectie van de heldengids: voortgang: vaardigheden & sterren."
 lang: nl
-updated: "2026-10-01"
+updated: "2026-10-12"
 videoTopic: heroes
 ---
 
@@ -234,3 +234,96 @@ Pagina's die deze vermelden. De lijst is opgebouwd uit de markup, niet handmatig
 - Arthur: vaardigheden, upgrades en Kracht
 
 ## Opmerkingen
+
+## Investeringsvolgorde: Schade → Voorhoede → Ondersteuning {#dtf-investment-order}
+
+Een held is een rol voordat het een portret is. Het werkende selectietemplate in deze praktijkgids is **2 tanks + 2 schade-dealers + 1 ondersteuning**: twee tanks kopen overlevingstijd, twee schade-dealers creëren druk, één ondersteuning vermenigvuldigt een kern die al bestaat.
+
+![Handleiding: hoe je helden correct levelt](/img/dtf/hero-progression/01.jpg)
+
+### Hoe je een rol leest {#dtf-roles}
+
+- **Schild — tank.** Incasseert de klap, houdt de frontlinie vast, beschermt het team met verdedigende vaardigheden en schadereductie.
+- **Vuur — schade-dealer (carry).** Verwijdert vijanden snel; een kort gevecht brengt minder schade terug naar je team.
+- **Fles — ondersteuning.** Buffs, duurzaamheid, hulp met grondstoffen. Schaal bijna altijd mee met hoe sterk de rest van de selectie al is.
+
+Grondstoffen gelijkmatig verspreiden bouwt vijf gemiddelde helden op. Ze concentreren bouwt één selectie die content doorloopt.
+
+![Heldrollen: tank, schade-dealer, ondersteuning](/img/dtf/hero-progression/02.jpg)
+
+### De volgorde die vooruitgang boekt {#dtf-carry-first}
+
+1. **Hoofdschade-dealer** — snelste voortgang door campagne, PvE en evenementen.
+2. **Hoofdtank** — zonder een voorhoede krijgt de carry diens spreuken/aanvallen nooit op tijd los.
+3. **Tweede schade-dealer, tweede tank, dan ondersteuning.**
+
+Een zwakke carry buffen met een vroege ondersteuning is een turbine op een winkelwagentje: luid, maar het komt nergens.
+
+### Hoofd-carry eerst: Marlena als voorbeeld {#dtf-marlena-carry}
+
+In een Krijger-richting is Marlena het voorbeeld. Drie dingen zijn belangrijk voor de hoofdschade-dealer: **heldniveau, schade-uitrusting en de belangrijkste schadevaardigheid** (voor Marlena de passieve vaardigheid die energieschade verhoogt — niet van alles een beetje).
+
+![Marlena als de hoofdschade-dealer](/img/dtf/hero-progression/03.jpg)
+
+Uitrustingsprioriteit voor een carry is **zwaard, dan handschoenen**. Harnas en laarzen zijn niet nutteloos, maar prioriteit geven aan bescherming op een carry betekent dat beide teams langer in leven blijven. Vaardigheden volgen dezelfde logica: verhoog het effect dat het hoofdschadetype vergroot vóór nevenupgrades.
+
+![Level helden in volgorde: carry eerst, dan tank en ondersteuning](/img/dtf/hero-progression/04.jpg)
+
+### Tweede schade-dealer: nadat de eerste een basis heeft {#dtf-second-carry}
+
+De tweede schade-dealer voegt tempo toe, werkt doelen af en verzekert de hoofd-carry — maar pas nadat de eerste niveau, hoofdsvaardigheid, zwaard en handschoenen heeft. Alles te vroeg 50/50 verdelen levert twee gemiddelde slagmensen op wiens doelen in leven blijven.
+
+Kies de held die nu daadwerkelijk in je hoofdvijftal staat, geen "misschien later"-project.
+
+### Tank als tweede: Arthur houdt de linie vast {#dtf-arthur-tank}
+
+Na de carry moet de frontlinie inhalen. Arthur als hoofdtank heeft niveaus, verdedigende uitrusting en team-beschermingsvaardigheden nodig. Uitrustingsvolgorde is **harnas, dan laarzen** (harnas tegen fysieke klappen, laarzen voor energie-overleefbaarheid en verdedigende drempels).
+
+![Arthur levelen: harnas, laarzen en verdedigende vaardigheden](/img/dtf/hero-progression/05.jpg)
+
+Wat te verhogen op een tank: eerst de ultieme vaardigheid (Arthurs vermindert fysieke schade opgelopen door bondgenoten in de zone), dan passieve vaardigheden die inkomende schade verlagen of de tweede tank in leven houden. Een onsterfelijke voorhoede zonder schade erachter verliest gewoon langzaam en heroïsch.
+
+### Ondersteuning als derde: Celia vroeg, Harper later {#dtf-harper-support}
+
+Celia kan het ondersteuningsslot vroeg bezetten, maar haar waarde neigt meer naar grondstoffen dan naar directe gevechtskracht. Harper (aanvals-buffs voor bondgenoten, vooral Krijgers, via passieve en ultieme vaardigheden) past veel beter bij een Krijger-gevechtsteam — zodra er iets is dat het waard is om te buffen.
+
+![Harper: aanvalsondersteuning voor Krijger-helden](/img/dtf/hero-progression/06.jpg)
+
+Wissel Harper niet op niveau 1 in alleen omdat hij is verschenen. Ga geleidelijk over en plan zijn grondstoffen vooruit: de buff werpt zijn vruchten af wanneer Marlena en Arthur plus een tweede schade-dealer al klaarstaan.
+
+Praktische volgorde: hoofdschade-dealer → hoofdtank → tweede schade-dealer → tweede tank → ondersteuning wanneer de kern klaar is.
+
+### Uitrusting en vaardigheden per rol, niet per favoriet {#dtf-gear-skills-by-role}
+
+- Carry: **zwaard → handschoenen** eerst.
+- Tank: **harnas → laarzen** eerst.
+- Ondersteuning: bescherming als deze sterft en buffs achterlaat, anders later.
+- Geef nooit het beste zwaard aan de tank zolang de hoofd-carry schade tekortkomt, en maximaliseer nooit het harnas van een carry vóór zijn schade-onderdelen.
+
+Lees voor vaardigheden de beschrijving: carry = schade en energie-of-fysieke versterkers; tank = inkomende-schadereductie, bondgenootbescherming, voorhoededuurzaamheid; ondersteuning = aanvals-buff, factie-buff, werkende teambonussen. Bij Marlena is de schadewinst belangrijk, bij Arthur teamverdediging, bij Harper de aanvals-buff voor bondgenoten.
+
+### F2P-discipline {#dtf-f2p-discipline}
+
+1. Kies een factierichting.
+2. Noem de hoofdschade-dealer.
+3. Maximaliseer deze eerst, dan de hoofdtank, tweede schade-dealer, tweede tank, ondersteuning als laatste.
+4. Jaag niet achter elke nieuwe pull aan; één voltooide selectie verslaat een verzameling halfgebouwde kaarten.
+
+De zoektocht naar dezelfde vijf rollen werkt in elke factie: vind *jouw* hoofd-carry, tweede carry, twee tanks en ondersteuning, en voer dan schade → voorhoede → ondersteuning uit. Een sterke held presteert ondermaats zonder zijn factie, rollen en teambonussen eromheen.
+
+![Niveauschema hoofdemploeg: schade-dealers, tanks, ondersteuning](/img/dtf/hero-progression/07.jpg)
+
+### Zes klassieke fouten {#dtf-progression-mistakes}
+
+1. Iedereen een beetje levelen — een zwakke fundering.
+2. Ondersteuning levelen vóór de carry.
+3. Tanks vergeten — een dode carry doet nul schade.
+4. Dezelfde uitrusting voor elke rol — rol eerst, item als tweede.
+5. De selectie herbouwen voor elke nieuwe pull — nieuw betekent niet beter.
+6. Uitgeven zonder plan — de duurste grondstof is een verkeerde beslissing.
+
+Diagnosticeer met gevechtsrapporten: tank sterft onmiddellijk → voorhoedeprobleem; lang gevecht zonder kills → schadeprobleem; carry leeft maar presteert ondermaats → controleer vaardigheden en uitrusting. Houd een plan van 1–2 weken aan (wie nu, wie hierna, welk item, welke vaardigheden).
+
+![Hoe helden te levelen zonder grondstoffen te verspillen](/img/dtf/hero-progression/08.jpg)
+
+> Bron: [Last Asylum: Plague - как правильно качать героев и не слить ресурсы впустую](https://dtf.ru/howto/5138522-last-asylum-plague-prokachka-geroev) door Гейм-Знаток op DTF.

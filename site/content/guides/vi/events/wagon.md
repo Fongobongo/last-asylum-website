@@ -2,7 +2,7 @@
 title: "Xe Vận Tải Bang Hội & Đoàn Xe"
 description: "Các chuyến xe miễn phí hằng ngày, quy tắc rương của Quản Trưởng và Hộ Vệ, làm mới Xe Vận Tải Vàng, chiến lược mảnh UR của đoàn xe, cướp bóc liên server và thứ tự ưu tiên hộp."
 lang: vi
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: wagon
 calculators: []
 infographics: []
@@ -144,3 +144,55 @@ Số liệu đã được xác thực từ dữ liệu client game (v1.0.87), ng
 | Đoàn Xe Phụ | thêm một lượt chạy hằng ngày | 5,000 |
 | Biện Pháp Đối Phó | một người chơi có thể cướp tối đa 3 lần | 20,000 |
 | Xe Bí Ngô | mở khóa Đoàn Xe Vận Tải Vàng | 20,000 |
+
+## Cẩm nang Người đánh xe: Chạy vàng, VIP và Phòng thủ {#coachman-playbook}
+
+Đoàn xe thương vụ của liên minh diễn ra **mỗi ngày một lần**. Cấp R4/R5 sẽ chỉ định **người đánh xe** (кучер); thành viên thông thường không thể tự ngồi vào vị trí này. Sau khi được bổ nhiệm, đoàn xe không xuất phát ngay — có một **giai đoạn chuẩn bị kéo dài 4 tiếng**, trong đó người đánh xe nâng cấp đoàn xe, hành khách lên ghế, gán VIP và thiết lập phòng thủ. Đoàn xe có thể **bị cướp tối đa 3 lần mỗi chuyến**, và một phần hàng hóa sẽ thực sự gặp rủi ro — đây là vấn đề về việc giao hàng, không chỉ là phần thưởng.
+
+### Tại sao ghế người đánh xe lại quan trọng
+
+Người đánh xe là người chiến thắng lớn nhất của chuyến đi: ngoài bốn chiếc xe ngựa tiêu chuẩn, còn có một **xe dẫn đầu ẩn**, vì vậy người đánh xe thu về khoảng **năm xe ngựa phần thưởng** thay vì một. Hãy giữ cho việc xoay vòng được minh bạch — danh sách chờ, phần thưởng hoạt động, hoặc thứ hạng Quyết đấu Liên minh đều được; một người đánh xe cố định không rõ lý do sẽ sinh ra sự bất mãn.
+
+### Quy tắc số một: Biến nó thành vàng
+
+Sau khi được bổ nhiệm, công việc đầu tiên của người đánh xe là làm mới đoàn xe. **5 lần làm mới × 5 vé đoàn xe = 25 vé** để đảm bảo chắc chắn có **Đoàn xe Vàng**. Người đánh xe không phải tự trả tất cả: hành khách lên xe có thể đóng góp vé, và mức độ chung của liên minh lành mạnh là **2–3 vé mỗi người** thay vì chỉ một người. Ngay khi lần làm mới thứ năm xuất hiện, hãy dừng lại — đừng biến đoàn xe thành bàn quay roulette để đuổi theo một lượt quay may mắn tối tân. Ngày mai vẫn còn một đoàn xe khác.
+
+![Người chơi đóng góp vé để hướng tới Đoàn xe Vàng](/img/dtf/wagon/01.jpg)
+
+![Năm lần làm mới đoàn xe lên chất lượng vàng](/img/dtf/wagon/02.jpg)
+
+### Kỷ luật hành khách: Chú ý số lượng người, không chỉ chiến lợi phẩm
+
+Mỗi chiếc xe ngựa thông thường **chỉ có 5 chỗ ngồi**. Tình trạng tràn chỗ sẽ do chính trò chơi giải quyết — và hành khách bị đá ra thường là người ngồi xuống đầu tiên. Một chiếc xe ngựa kém hơn một chút với 3–4 hành khách điềm tĩnh sẽ tốt hơn một chiếc xe trúng thưởng với tám người chen chúc. Các chỗ ngồi có thể được đổi tự do trong suốt 4 giờ, vì vậy **hãy kiểm tra lại ngay trước khi khởi hành**.
+
+![Chọn xe ngựa: các ô quá tải có thể đá bạn ra ngoài](/img/dtf/wagon/03.jpg)
+
+### Hành khách VIP: Hai xe ngựa, do người đánh xe chọn
+
+Ở cấp **Quà tặng Liên minh Lv. 20**, đoàn xe mở khóa một **hành khách VIP**: thay vì một xe ngựa, VIP sẽ nhận **hai xe ngựa do người đánh xe chọn**. Thống nhất về VIP trước — lời mời sẽ hiển thị trong **60 phút**, và nếu bỏ lỡ việc chấp nhận, bạn sẽ phải đợi hoặc mời lại. Sau khi chấp nhận, người đánh xe tự tay chọn hai chiếc xe ngựa (hỏi người chơi xem họ muốn hai chiếc nào). VIP **không thể bị đá** giống như hành khách thông thường, và không thể chuyển đổi lại ghế bình thường — hiếm khi là sự hy sinh ở mức hai xe ngựa.
+
+![Chỉ định hành khách VIP và chọn xe ngựa](/img/dtf/wagon/04.jpg)
+
+### Hộ vệ: Chỉ khi thực sự mạnh hơn
+
+Hộ vệ cử các đội quân của họ để phòng thủ nhưng **sẽ lấy một phần phần thưởng của người đánh xe**. Nếu đội quân của chính bạn đã mạnh hơn đội quân ứng viên hộ vệ, thì không có ý nghĩa gì — bạn đang mất hàng hóa vô ích. Quy tắc: chỉ mời hộ vệ **nếu rõ ràng mạnh hơn người đánh xe**; nếu không, hãy nhận VIP và giữ trọn vẹn phần thưởng.
+
+![Các ô hộ vệ và hành khách VIP](/img/dtf/wagon/05.jpg)
+
+### Làm mới đội quân phòng thủ của bạn — và các minh văn của họ
+
+Ba đội quân phòng thủ phải được **lưu lại sau mỗi lần nâng cấp tài khoản nghiêm túc**: anh hùng mới, sát thương mới, quạ mới, trang bị mới sẽ trở nên vô nghĩa nếu đoàn xe vẫn phòng thủ với đội hình của tháng trước. Kiểm tra xem **minh văn nào nằm ở đúng đội quân đó** — một minh văn đặt nhầm chỗ sẽ làm thua trận.
+
+### Cấp độ quà tặng, quy tắc 24 giờ và chuyến xe vàng thứ hai
+
+- Các khoản **tăng cường** đoàn xe (di chuyển nhanh hơn, ít lần bị cướp hơn, phòng thủ cốt lõi, mở khóa VIP) đến từ thanh tiến trình quà tặng — hãy mở tab đó nhiều hơn một lần. Ở cấp **Quà tặng Lv. 25**, các xe ngựa thông thường nhận được **sức chứa hành khách bổ sung**, điều này rất quan trọng đối với các liên minh lớn hoạt động tích cực.
+- Nâng cấp chính Quà tặng Liên minh: hoạt động cày Blight tích cực cộng với điểm thưởng từ các lần triệu hồi nâng cao sẽ nâng cấp nó, tổng hợp thành một đoàn xe nhanh hơn và khó bị cướp hơn.
+- **Thành viên mới phải dành 24 giờ trong liên minh** trước khi tham gia đoàn xe — hãy nhớ điều này sau khi chuyển liên minh.
+- Trong quá trình chuẩn bị, hãy thu thập **thỏa thuận thương mại** (chúng sẽ đến qua thư nếu quên). Hành khách lên xe cũng để lại cho người đánh xe các **lượt thích** — nhỏ thôi, nhưng ngày của người đánh xe chính là ngày tình yêu của mọi người.
+- Một **đoàn xe vàng thứ hai mỗi ngày có tồn tại nhưng tốn thêm phí mỗi lần**. Nó dành cho các liên minh lớn có đoàn xe đầu tiên bị tràn — không phải là thứ bắt buộc đối với một chuyến chạy nửa vời.
+
+![Nâng cấp Quà tặng Liên minh, được hỗ trợ bởi việc cày Blight](/img/dtf/wagon/06.jpg)
+
+Một đoàn xe tốt là khi mọi người cùng suy nghĩ một chút: người đánh xe làm vàng chuyến đi, kiểm tra phòng thủ và sắp xếp VIP; hành khách chú ý đến xe ngựa của họ; liên minh thống nhất các quy tắc thay vì ứng biến hàng đêm.
+
+> Nguồn: [Last Asylum: Plague - полный гайд по Каравану](https://dtf.ru/howto/5303398-last-asylum-plague-karavan-gayd) bởi Гейм-Знаток trên DTF.

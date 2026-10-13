@@ -3,7 +3,7 @@ title: "Claire: habilidades, build e evolução"
 description: "Claire is an SSR warrior who plays as DPS. Fully upgraded, she reaches 685,150 Might, rank 12 of 16 among the game's DPS heroes. Unlocking her takes 10 shards ( Claire Sh…"
 videoTopic: "claire"
 lang: pt
-updated: "2026-09-19"
+updated: "2026-10-12"
 type: guide
 ---
 
@@ -290,3 +290,33 @@ Stars cost Claire the most, not in badges but in waiting: 975 shards, while a re
 
 The best squad with Claire and no UR hero is Kesso, Lucius, Sivir, Bella and Claire herself: five warriors, a +20% bonus and 8.1M of survivability. Alongside Arthur and Marlena she joins three of the five best reachable squads, where survivability reaches 38.2M, and the price of the full bonus is 20% extra damage from rangers.
 
+
+## ✦ Claire de Ouro (UR): mecânicas de conversão e veredito {#dtf-gold-claire}
+
+Elevar a raridade da Claire transforma a versão roxa SSR em uma versão UR — e as mecânicas são mais gentiles, depois mais caras, do que parecem. Os níveis são mantidos, as estrelas não.
+
+### O que sobrevive à transformação {#dtf-claire-conversion}
+
+Após a conversão, a heroína **não** retorna ao nível 1: todos os 150 níveis são mantidos. As estrelas são redefinidas de forma diferente — a Claire de ouro chega com **seis estrelas**, com parte dos recursos investidos reembolsada na forma de fragmentos e emblemas de habilidade para redistribuir na forma melhorada. A surpresa desagradável: as estrelas seguintes custam visivelmente mais — aproximadamente o dobro de fragmentos da forma antiga. Portanto, não tenha pressa para recuperar todas as dez estrelas no mesmo dia. A prioridade é **8★**, que desbloqueia a quinta habilidade e já oferece um kit muito completo; as duas últimas estrelas podem ser conquistadas gradualmente através dos fragmentos da loja dela e fontes disponíveis.
+
+![Atualização de raridade da Claire para ouro](/img/dtf/daskal-claire/05.jpg)
+
+![Claire de ouro após a conversão](/img/dtf/daskal-claire/06.jpg)
+
+A melhoria não é apenas uma recoloração: os atributos base aumentam genuinamente, especialmente o HP e o ATK nos números da mesma conta.
+
+![Comparação de atributos entre Claire de ouro e roxa](/img/dtf/daskal-claire/07.jpg)
+
+![Comparação de atributos entre Claire UR e a antiga](/img/dtf/daskal-claire/08.jpg)
+
+### Forte — mas voltada para o PvE {#dtf-claire-pve-focus}
+
+Não chame a Claire de ouro de substituta universal para qualquer DPS UR. Ela continua fortemente otimizada para PvE e monstros: Chamado dos Bravos aumenta o dano dos três Guerreiros com maior ATK da equipe especificamente contra monstros, então no Rei Demônio e em outros conteúdos de PvE ela se destaca, enquanto parte do seu kit fica ociosa no PvP. Se a necessidade principal for guerra contra jogadores, Zoya se mostra mais universal.
+
+![Claire otimizada para PvE e monstros](/img/dtf/daskal-claire/09.jpg)
+
+![Claire vs Marlena, Arthur e Harper no nível 150](/img/dtf/daskal-claire/10.jpg)
+
+Veredito: a Claire de ouro fortalece superbem o PvE de Guerreiro sem se tornar automaticamente a melhor escolha para todos os modos. Deixe-a em oito estrelas, colete as últimas duas lentamente e mantenha-a onde o bônus contra monstros se aplica.
+
+> Fonte: [Даскал и золотая Клэр в Last Asylum: Plague - как правильно прокачивать героев](https://dtf.ru/howto/5317537-daskal-i-zolotaya-kler-v-last-asylum-prokachka-geroev) por Гейм-Знаток no DTF.

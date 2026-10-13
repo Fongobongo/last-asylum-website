@@ -2,7 +2,7 @@
 title: "Quyết Đấu Liên Minh: Hướng Dẫn Toàn Tập"
 description: "Sáu ngày tính điểm theo danh mục, trận chung kết PvP vào Thứ Bảy, cơ chế từng giai đoạn kèm giá trị điểm chính xác, tích lũy Nhiệm Vấn Chim Ưng và nền kinh tế 'để dành tất cả' giúp giành rương cấp cao nhất."
 lang: vi
-updated: "2026-09-18"
+updated: "2026-10-12"
 videoTopic: alliance_duel
 calculators: []
 infographics: ["/infographics/duel-day-guide.webp", "/infographics/duel-savings.webp", "/infographics/falcon-tower-storage.webp"]
@@ -361,3 +361,65 @@ Giá trị được xác thực từ dữ liệu máy khách trò chơi (v1.0.87
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Cây nghiên cứu Quyết Đấu Liên Minh có tác dụng gì?", "acceptedAnswer": {"@type": "Answer", "text": "Nó nhân điểm sự kiện (Chuyên gia Đấu trường +100%, Bậc thầy Đấu trường +50%) và mở khóa các rương cấp 7–9 với các phần thưởng hàng đầu."}}, {"@type": "Question", "name": "Hành động nào có giá trị điểm cao nhất trong Quyết Đấu Liên Minh?", "acceptedAnswer": {"@type": "Answer", "text": "Điều động xe hàng thương mại UR cho 100.000 điểm vào Giai đoạn 2 và 6, sau đó là chiến dịch mật UR cho 75.000 điểm."}}]}
 </script>
+
+---
+
+## Lịch trình Đại chiến Liên minh theo ngày (DTF) {#dtf-calendar}
+
+Cuộc đại chiến diễn ra gần như cả tuần với hệ thống tính điểm xoay vòng: Thứ Hai năng lượng/tài nguyên, Thứ Ba xây dựng, Thứ Tư nghiên cứu, Thứ Năm anh hùng, Thứ Sáu huấn luyện quân, Thứ Bảy KvK. Sai lầm của người mới là tiêu xài mọi thứ ngay khi nhận — nhiệm vụ Falcon trả vào Chủ Nhật, rương Raven mở vào Thứ Ba, thuốc giải độc đốt vào Thứ Hai, huấn luyện hàng loạt giữa tuần. Tài khoản lớn lên, nhưng đại chiến thì gần như chẳng nhận được gì. Thay vào đó, hãy tích lũy theo ngày.
+
+![Hướng dẫn Đại chiến Liên minh theo ngày](/img/dtf/alliance-duel/01.jpg)
+
+### Ưu tiên công nghệ đại chiến trước {#dtf-tech}
+
+Nhánh đại chiến của Phòng thí nghiệm nhân hệ thống điểm trong sự kiện, giúp tiết kiệm cho mọi tuần tiếp theo trong tương lai. Phát triển tốt nhất vào **Thứ Tư**, khi tốc độ nghiên cứu, cuộn giấy và điểm lực chiến công nghệ cùng mang lại điểm số. Hãy xây dựng công nghệ đại chiến trước, sau đó đến Quân đội Tinh nhuệ và Vận chuyển Caravan nếu chúng cũng cần cuộn giấy đặc biệt — một nghiên cứu như vậy sẽ tính điểm cuộn giấy + tốc độ + lực chiến cùng lúc (ví dụ: 1.280 cuộn ở mức ~750 điểm ≈ 960.000 trước khi tính tốc độ và lực chiến). Một nhánh đầy đủ sẽ không thể hoàn thành trong một tuần, nhưng ngay cả vài cấp độ cũng giúp đưa các rương cá nhân đến gần hơn và tiết kiệm tốc độ.
+
+### Thứ Hai: Falcon, năng lượng, thu thập, Raven {#dtf-monday}
+
+Nhiệm vụ Falcon hoàn thành vào Chủ Nhật được giữ lại chưa nhận: Tháp Falcon đã phát triển chứa hàng chục đơn vị lệnh đã hoàn thành cộng với kho trên màn hình, vì vậy Thứ Hai mở đầu bằng một loạt nhiệm vụ có sẵn lớn (với ~30.000 điểm mỗi nhiệm vụ, 40–50 nhiệm vụ được tích lũy là một khởi đầu vô cùng thuận lợi — nhưng đừng để tràn kho nếu không các lệnh mới sẽ không được lưu). Đội hành quân chính đốt năng lượng tự nhiên trước vào Blight/kẻ trộm/mục tiêu trên bản đồ, sau đó là bình năng lượng, rồi đến mua lại bằng kim cương giá rẻ — hãy kiểm tra khoảng cách đến rương tiếp theo trước khi mua sạch cửa hàng. Các đội hành quân khác thu thập lúa mì/gỗ/thảo mộc từ các ô trên bản đồ; sản xuất của pháo đài không được tính, chỉ các chuyến vận chuyển từ bản đồ mới được tính.
+
+![Nhiệm vụ Falcon được tích lũy trước đại chiến](/img/dtf/alliance-duel/02.jpg)
+
+Hãy để dành thuốc giải độc cho Thứ Sáu; chỉ tiêu một ít vào Thứ Hai để đủ mở rương. Tích trữ Quả Raven và Tinh chất trong suốt tuần và tiêu vào Thứ Hai — nâng cấp chỉ số Raven cộng với rương Biểu ký giúp hoàn thành một lượng điểm lớn. Để dành rương trang bị Raven cho Thứ Tư. Sau khi đặt lại hàng tuần, hãy kiểm tra cửa hàng Danh dự để lấy bản vẽ cộng với Tinh chất và tốc độ.
+
+### Thứ Ba: công trình, caravan, người sống sót {#dtf-tuesday}
+
+Điểm số đến từ tốc độ xây dựng (~150/phút) nhưng giải thưởng lớn chính là các công trình đã hoàn thành còn để lại biểu tượng cái búa: lượng lực chiến tăng thêm của một công trình hoàn thành (ví dụ: 5.300 lực chiến ở mức 30 điểm ≈ 159.000) sẽ được cộng khi nhấp chuột, vì vậy hãy nhận phần thưởng từ Khu thánh địa/Phòng thí nghiệm/bãi tập/trại lính đã chuẩn bị sẵn vào sáng Thứ Ba. Ưu tiên các công trình đắt đỏ. Đừng đóng băng toàn bộ nền kinh tế: một trang trại/xưởng gỗ/luống hoa đã hoàn thành không thể thu hoạch khi đang có biểu tượng cái búa, vì vậy hãy để lại một cái cho mỗi loại (và một xưởng thủ công thủ công) không bị khóa để duy trì dòng sản xuất.
+
+![Điểm lực chiến công trình vào Thứ Ba](/img/dtf/alliance-duel/03.jpg)
+
+Nhận danh hiệu **Bộ trưởng Xây dựng** trước khi tiến hành nâng cấp dài ngày (giảm thời gian lớn trên Khu thánh địa cấp cao; xếp hàng sớm ở các máy chủ cạnh tranh). Quay caravan và các chiến dịch ngầm về vàng bằng lượt làm mới miễn phí trước, sau đó dùng tinh thể — một caravan tốt ≈ 300.000. Thuê người sống sót trong Quán rượu (không phải triệu hồi anh hùng — cơ chế và dòng phần thưởng khác nhau).
+
+### Thứ Tư: nghiên cứu và trang bị Raven {#dtf-wednesday}
+
+Tốc độ nghiên cứu, lực chiến công nghệ, cuộn giấy đặc biệt và rương trang bị Raven. Hãy để dành các nhiệm vụ Falcon của Thứ Ba chưa nhận để mở đầu Thứ Tư với một loạt nhiệm vụ có sẵn.
+
+![Nghiên cứu và trang bị Raven vào Thứ Tư](/img/dtf/alliance-duel/04.jpg)
+
+Ưu tiên: nhánh đại chiến, sau đó là Quân đội Tinh nhuệ / Vận chuyển Caravan — các công nghệ tốn cuộn giấy mang lại điểm số cao nhất. Thu thập rương trang bị Raven suốt cả tuần và mở vào Thứ Tư; chất lượng càng cao điểm càng nhiều, sau đó tiến hành hợp nhất hàng loạt trang bị Raven để lấy điểm rương cộng với lực chiến trang bị. Không bao giờ mở chúng ngay khi nhận được.
+
+![Tiêu cuộn giấy cho nghiên cứu vào Thứ Tư](/img/dtf/alliance-duel/05.jpg)
+
+### Thứ Năm: triệu hồi và phát triển anh hùng {#dtf-thursday}
+
+Điểm số cho vé triệu hồi Quán rượu, mảnh anh hùng, tăng sao, huy hiệu kỹ năng và thuốc giải độc. Hãy tích trữ vé, mảnh cá nhân, huy hiệu kỹ năng và thuốc giải độc cho ngày này. Quay Quán rượu sẽ cho anh hùng cộng với mảnh cá nhân của những anh hùng được quay ra — không phải mảnh vạn năng, loại này phải lấy từ sự kiện/cửa hàng. Quay theo chục khi có đủ vé. Thứ tự: **tăng sao cho anh hùng chính → huy hiệu kỹ năng → thuốc giải độc để tăng cấp**. Nuôi dưỡng đội hình đầu tiên, không phải toàn bộ danh sách; tiêu mảnh cá nhân cho đội hình chính và để dành mảnh vạn năng cho các anh hùng mạnh/hiếm.
+
+![Tăng sao và kỹ năng anh hùng vào Thứ Năm](/img/dtf/alliance-duel/06.jpg)
+
+Kiểm tra giai đoạn anh hùng trong Trận chiến Sinh tồn trước — cùng một lượng mảnh/huy hiệu/thuốc giải độc có thể được tính điểm ở cả hai sự kiện. Thứ Năm thường là ngày hoàn thành nhanh nhất: triệu hồi, phát triển đội hình chính, thu thập điểm.
+
+### Thứ Sáu: quân đội kết hợp Cuộc chiến Hoàng gia {#dtf-friday}
+
+Huấn luyện và thăng cấp, với Cuộc chiến Hoàng gia diễn ra cùng ngày — quân đội vừa phải ghi điểm vừa phải chiến đấu. Nhận các nhiệm vụ Falcon đã tích lũy từ Thứ Sáu vào buổi sáng, sau đó tập trung vào bãi tập. Để dành tốc độ xây dựng/nghiên cứu cho tuần tới trừ khi còn thiếu điểm để đạt rương. Nhận danh hiệu **Bộ trưởng Chiến tranh**; sử dụng bãi tập yếu để sản xuất hàng loạt quân cấp trung (ví dụ: một đợt lính T6 lớn) sau đó huấn luyện lại thành T9 trên bãi tập chính — đôi khi nhanh hơn là luyện thẳng T9. Dự trữ lính yếu và tốc độ huấn luyện trước; bắt đầu vào Thứ Sáu là quá muộn để thăng cấp số lượng lớn.
+
+![Huấn luyện quân và Cuộc chiến Hoàng gia vào Thứ Sáu](/img/dtf/alliance-duel/07.jpg)
+
+### Thứ Bảy: KvK, hồi phục, khiên bảo vệ {#dtf-saturday}
+
+KvK khai mạc: dịch chuyển đến vương quốc địch, tấn công pháo đài, tiêu diệt quân địch để lấy điểm chiến đấu. Các cuộc tấn công vào đối thủ đại chiến thường mang lại nhiều điểm nhất, nhưng các trận chiến KvK khác cũng được tính. Chuẩn bị trước trận: đội hành quân chính, lượt dịch chuyển, sức chứa bệnh xá, kho khiên — Thứ Bảy mang lại nhiều điểm nhất và cũng dễ bị xóa sổ nhanh nhất. Tốc độ hồi phục thương binh cũng mang lại điểm, vì vậy lính bị thương được đưa vào trước Thứ Bảy có thể chờ đến giai đoạn này — nhưng tuyệt đối không để tràn bệnh xá, lính tràn bệnh xá sẽ chết. Bật khiên vào tối Thứ Sáu: sau khi bạn tấn công, khiên sẽ biến mất và chỉ tự động kích hoạt lại sau thời gian hồi chiêu của trận chiến, vì vậy hãy giữ một chiếc khiên dự phòng cộng với lượt dịch chuyển, rút quân về vùng liên minh hoặc dịch chuyển ngẫu nhiên, và hãy chuẩn bị tinh thần cho việc bị khóa thời gian nhập lại vài phút sau khi rời khỏi vùng đột kích.
+
+![Sử dụng khiên trước KvK ngày Thứ Bảy](/img/dtf/alliance-duel/08.jpg)
+
+Điểm đồng đội: Thứ Hai thường là ngày ít tốn kém nhất, Thứ Ba–Thứ Sáu tốn nhiều tài nguyên hơn, Thứ Bảy có thể quyết định cả tuần. Một ngày Thứ Hai thất bại không có nghĩa lý gì — nghiên cứu sạch sẽ, anh hùng, quân đội và KvK sẽ lật ngược tổng số điểm. Kiểm tra cửa sổ chi tiết đại chiến để xem điểm số từng ngày.
+
+> Source: [Дуэль альянсов в Last Asylum: Plague - гайд по дням](https://dtf.ru/howto/5238861-duel-alyansov-last-asylum-plague-strategii-i-sovety) bởi Гейм-Знаток trên DTF.

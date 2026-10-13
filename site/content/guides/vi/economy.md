@@ -2,7 +2,7 @@
 title: "Kinh tế: Kim cương, Cửa hàng, Cướp bóc"
 description: "Mỗi viên kim cương đi về đâu: Thứ tự ưu tiên cửa hàng VIP, lịch làm mới, thứ tự mua sắm theo từng cửa hàng, ngân sách Vòng quay May mắn và cơ chế cướp bóc toàn diện kèm giới hạn hàng ngày theo cấp độ Trụ sở (Sanctuary)."
 lang: vi
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: economy
 infographics: ["/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
 ---
@@ -592,3 +592,48 @@ Mỗi cấp độ VIP trao tặng một món quà một lần duy nhất. Chỉ 
 | Tiếp tế cấp độ mỗi loại | 210 |
 
 Mảnh UR đầu tiên xuất hiện ở cấp mười, vốn đã tiêu tốn 155.000 điểm. Từ cấp mười sáu đến hai mươi, phần quà ngừng tăng số lượng mảnh hoàn toàn, dừng lại ở mức ba mảnh UR ở mọi cấp. Do đó, các phần quà không phải là lý do để theo đuổi các cấp độ cao nhất, vì chúng chỉ thực sự mang lại lợi ích ở phân khúc giữa.
+
+---
+
+## Chi tiêu thông minh: Nhắm đến mục tiêu trong từng khoản mua {#smart-spending}
+
+![Chiến lược chi tiêu có kế hoạch trong Last Asylum](/img/dtf/economy/01.jpg)
+
+Giai đoạn đầu, game tự dẫn dắt bạn đi — chạm, thu thập, mở khóa — nhưng qua chặng đầu tiên, lối mòn đó ngừng chuyển hóa thành sức mạnh: các trận thua PvP chồng chất, thời gian nâng cấp kéo dài hàng giờ, các phiên chơi chững lại vì cạn năng lượng. Cố gắng vượt qua bằng cách đăng nhập nhiều hơn hầu như chẳng thay đổi được gì. Việc nạp tiền chỉ bắt đầu phát huy tác dụng khi nó không còn ngẫu nhiên nữa. Quy tắc mà những người chơi kỳ cựu đúc kết được rất đơn giản: **không quan trọng bạn bỏ vào bao nhiêu, mà là chính xác vào đâu**. Mỗi khoản mua phải trả lời được một câu hỏi: *tôi đang cường hóa cái gì ngay lúc này?*
+
+Khoảng các cấp độ giữa, áp lực đến từ mọi phía: dường như có nhiều tài nguyên hơn, nhưng một thứ cụ thể nào đó luôn bị thiếu — nguyên liệu cho tướng hoặc thời gian cho căn cứ — trong khi đối thủ đã tỏ ra mạnh hơn. Đó là lúc cảm giác quen thuộc "muốn mua một chút thôi" dẫn đến những sai lầm kinh điển: gói nhân phẩm (gacha), thu thập tướng ngẫu nhiên, dao động qua lại giữa PvP và PvE. Kết quả là một tài khoản phát triển nhưng chẳng mạnh ở đâu cả: không có sát thương trong PvP, không có sự ổn định trong PvE. Bước ngoặt nằm ở sự tập trung vào một mục tiêu duy nhất — đấu trường hoặc nội dung cốt truyện — để mọi khoản đầu tư đều hướng về đó và trò chơi bắt đầu "đáp lại" bằng những chiến thắng đều đặn hơn.
+
+### Thang ưu tiên
+
+- **Gói tân thủ và gói đặc biệt lên đầu.** Cách nhanh nhất để cảm thấy sự khác biệt: một vị tướng mạnh cộng với tài nguyên căn cứ ngay lập tức giúp PvE ổn định, không còn tình trạng khựng lại liên tục ở các màn chơi thông thường.
+- **Năng lượng xếp thứ hai.** Thoạt nhìn có vẻ nhỏ nhặt, nhưng năng lượng quyết định thời gian bạn thực sự chơi — cày cuốc, làm nhiệm vụ, phát triển căn cứ. Khi có đủ năng lượng, tiến trình sẽ chuyển từ ngẫu nhiên thành đều đặn.
+- **Gói đăng ký và thưởng hàng ngày xếp thứ ba.** Đây là về sự ổn định: nguồn tài nguyên cơ bản mỗi lần đăng nhập, dễ dàng lên kế hoạch nâng cấp, không bị hụt nhịp.
+- **Giai đoạn giữa game: tướng hiếm và nguyên liệu nâng cấp trang bị.** Chính là những thứ thúc đẩy cả PvE và PvP tiến lên rõ rệt.
+- **Giai đoạn cuối game: gói theo mùa và bùa tăng tốc.** Chúng giữ bạn ở top đầu nơi việc cày cuốc thông thường không còn đủ sức nặng.
+
+![Chi tiêu ổn định, hợp lý giúp tăng tốc tiến trình](/img/dtf/economy/02.jpg)
+
+### Những thứ nên bỏ qua
+
+- **Vật phẩm trang trí (Cosmetics)** — hoàn toàn không có tác dụng trong chiến đấu.
+- **Rương ngẫu nhiên** — may mắn thỉnh thoảng xuất hiện, phần lớn là rác tạo ảo tưởng tiến trình nhưng không có lợi ích thực sự.
+- **Bùa tăng tốc nhỏ thời gian ngắn** — có tác dụng thực sự trong một buổi tối, gần như vô hình trong suốt một tháng.
+- **Tướng trùng lặp không dùng để làm gì** — nếu chúng không cường hóa đội hình, chúng chỉ là đồ trang trí.
+
+Cắt bỏ những thứ này sẽ loại bỏ sự lan man: việc chi tiêu trở nên đều đặn, có thể kiểm soát, và mọi khoản đầu tư đều mang lại cảm giác rõ rệt.
+
+### Sự kiện là điểm bùng nổ tăng trưởng
+
+Sự kiện chứa đựng phần thưởng khó cày cuốc nhất bằng các phương1 thức thông thường — nguyên liệu hiếm, vật phẩm hữu ích, đôi khi là tướng mạnh. Cách tiếp cận mang lại hiệu quả: chuẩn bị trước thay vì bước vào tay trắng, đừng giới hạn lượt thử của bạn (mang theo vé), hoàn thành nhiệm vụ đầy đủ thay vì chỉ một nửa, và nhận tất cả các phần thưởng chính. Được định thời gian theo cách này, việc chi tiêu sẽ vắt kiệt tối đa hiệu quả từ một thời điểm cụ thể thay vì chỉ đơn thuần là "làm gì đó nhanh hơn".
+
+![Đồng bộ hóa việc chi tiêu với sự kiện để nhận phần thưởng tối đa](/img/dtf/economy/03.jpg)
+
+### Danh sách kiểm tra chi tiêu thông minh
+
+1. Gói tân thủ và năng lượng lên đầu — tướng mạnh và dòng tài nguyên ổn định.
+2. Giai đoạn giữa game, nhắm đến tướng hiếm và nguyên liệu trang bị.
+3. Giai đoạn cuối game, gói theo mùa và tăng tốc để vươn lên top đầu.
+4. Tiết kiệm vào những thứ vụn vặt: trang trí, rương ngẫu nhiên, vi-bùa tăng tốc.
+5. Lên kế hoạch quanh các sự kiện — mức hoàn trả tối đa trên mỗi khoản đầu tư nằm ở đó.
+
+> Nguồn: [Last Asylum: Plague - как донатить с умом и ускорить прогресс в 2026](https://dtf.ru/moneysaver/4850017-last-asylum-plague-kak-effektivno-donatit-i-uskorit-progress) bởi Гейм-Знаток trên DTF.

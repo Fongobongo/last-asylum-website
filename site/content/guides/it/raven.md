@@ -2,7 +2,7 @@
 title: "Sistema del Corvo e delle Epigrafi"
 description: "Livelli e piani del Corvo, strategia per l'equipaggiamento, rarità delle epigrafi e ordine di promozione, oltre alle regole mono-fazione che decidono quali epigrafi valga la pena potenziare."
 lang: it
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: raven
 infographics: ["/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
 ---
@@ -205,3 +205,41 @@ La Torre del Falco si aggiorna ogni 6 ore: un nuovo lotto di missioni arriva in 
 Accumulare missioni conviene solo per il Duello dell'Alleanza: nei giorni uno, tre e cinque ogni Missione del Falco consegnata frutta 10.000 punti. I giocatori completano una missione ma lasciano la ricompensa non riscossa, e questa rimane nell'elenco visibile con un punto rosso fino al giorno giusto. Secondo l'osservazione dei giocatori, una missione completata non scade mai, una non completata scompare dopo 8 ore e le missioni del Ruggito Errante non contengono limiti di memoria.
 
 Il limite massimo di tale accumulo è dato dalle missioni visibili più la memoria, e la memoria si riempie in meno di un giorno: 30 ore al livello torre uno, 18-24 ore dal livello cinque in poi. Dopodiché ogni aggiornamento viene sprecato, mentre la torre distribuisce da 24 missioni al giorno al livello uno a 52 al livello quindici. Accumulare per più di un giorno non conviene quindi: nei giorni di duello due e quattro le missioni vengono completate e conservate, nei giorni uno, tre e cinque tutto viene consegnato e nel fine settimana le ricompense vengono riscosse tutte insieme. L'accumulo non influisce sul livello della torre, ne ritarda solo la progressione.
+
+---
+
+## Crescita di Raven senza errori: Officina, Nido, Epigrafi, Routine {#raven-dtf-leveling}
+
+Note sul campo dalla guida alla progressione di DTF: il Raven vive in tre luoghi, non uno, e l'ordine conta più della velocità.
+
+**I tre edifici.** L'Officina del Raven è la produzione in background: genera materiali nel tempo senza ricompense immediate, ma i progressi rallentano senza di essa. Il Nido del Raven è la schermata principale (livello, evoluzione, nuove fasi e abbinamenti di truppe). L'Officina delle Epigrafi è il luogo in cui si commettono la maggior parte delle scelte sbagliate: una creazione errata o una decisione sugli slot sbagliata vi rimarrà come bonus debole o vi costringerà a un reset.
+
+![Panoramica del sistema Raven](/img/dtf/raven/01.jpg)
+
+**Livelli ed evoluzione.** Il Raven sale di livello con i Frutti di Raven ed evolve con l'Essenza di Raven, con una fase di evoluzione ogni 10 livelli che sblocca il livello successivo di progressione. L'Essenza è il vincolo principale: i Frutti arrivano costantemente attraverso la normale routine di gioco, l'Essenza sembra sempre scarsa. Controllate prima la soglia di evoluzione successiva: i livelli privi della loro fase di evoluzione raggiungono rapidamente un limite massimo.
+
+![Schermata dell'eroe Raven](/img/dtf/raven/02.jpg)
+
+**Equipaggiamento: costruisci la base, poi affina.** Non aprite i forzieri e non applicate miglioramenti man mano che cadono. Assemblate prima l'intero set in modo uniforme, quindi unite i duplicati e aumentate l'equipaggiamento in modo deliberato. Alcuni miglioramenti sono bloccati in sequenza (altri slot devono raggiungere un livello prima che un pezzo si sblocchi), quindi massimizzare uno slot in anticipo lascia vuoti altrove. Trattate l'equipaggiamento come un kit, non come una lotteria.
+
+![Schermata dell'equipaggiamento del Raven](/img/dtf/raven/03.jpg)
+
+**Fonti giornaliere.** Controllate ogni giorno: Negozio dell'Alleanza (materiali vari per Raven), Negozio VIP (Essenza e forzieri per diamanti), Negozio delle Spedizioni (forzieri di Raven di livello superiore), Negozio d'Onore (forzieri rari di fine gioco), Negozio del Santuario (Essenza a rotazione). Acquistate solo ciò che risolve il vostro compito attuale: accumulare ogni oggetto etichettato come "Raven" produce inventario senza progressi. Nominate esplicitamente la carenza prima di spendere: materiali dell'Officina delle Epigrafi o duplicati per la fusione.
+
+![Soglie delle epigrafi](/img/dtf/raven/04.jpg)
+
+![Slot delle epigrafi per Guerrieri, Ranger e Stregoni](/img/dtf/raven/05.jpg)
+
+**I duplicati sono carburante.** Una seconda copia dell'epigrafe giusta non è un brutto drop: epigrafi identiche aumentano le stelle sul pezzo esistente e, per i pezzi UR, i duplicati esatti dell'oggetto giusto sono la risorsa più preziosa della linea. I duplicati del tipo sbagliato aspettano o passano attraverso la ridistribuzione del reset; i duplicati del tipo giusto ricevono stelle.
+
+![Epigrafi duplicate come carburante per la crescita](/img/dtf/raven/06.jpg)
+
+**L'evoluzione sblocca le truppe.** L'evoluzione non riguarda solo le statistiche: sblocca slot di truppe aggiuntivi. Iniziate solo con la prima truppa, il secondo slot si apre alla fase di evoluzione successiva e i requisiti continuano ad aumentare. Questo è un altro motivo per impegnarsi con la vostra truppa più forte fin dall'inizio: fisicamente non c'è spazio per disperdersi all'inizio.
+
+![Slot di truppe sbloccati dall'evoluzione di Raven](/img/dtf/raven/07.jpg)
+
+**Il reset esiste.** Le creazioni sbagliate sono recuperabili: il reset ripristina un miglioramento e restituisce i materiali per la ridistribuzione. È più utile quando cambiate la classe della truppa principale, superate una truppa temporanea o avete scelto l'epigrafe sbagliata all'inizio. Riduce il costo di un errore; non rende la creazione alla cieca gratuita.
+
+**Routine giornaliera.** Controllate i negozi, tenete a mente l'evoluzione successiva, sviluppate solo il tipo di epigrafe della vostra truppa principale e resettate gli errori invece di conviverci. Giocato come un ciclo giornaliero, il Raven si sviluppa costantemente; giocato a raffiche, risulta costoso e vago.
+
+> Fonte: [Last Asylum: Plague - полный гайд по Ворону. Как качать без ошибок, что делать с эпиграфами.](https://dtf.ru/howto/5016737-last-asylum-plague-gayd-po-prokachke-vorona) di Гейм-Знаток su DTF..

@@ -2,7 +2,7 @@
 title: "Thứ tự ưu tiên xây dựng & Lộ trình Căn cứ"
 description: "Lộ trình Căn cứ lên cấp 30, thứ tự ưu tiên xây dựng, chức năng của từng công trình và cách cộng dồn các buff tốc độ xây dựng theo đúng thứ tự."
 lang: vi
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: buildings
 ---
 
@@ -329,3 +329,85 @@ Hàng đợi xây dựng cho một thành phố cụ thể thay đổi như th�
 - [Tượng Chiến binh](/vi/buildings/warrior-statue/)
 - [Tháp canh](/vi/buildings/watchtower/)
 - [Xưởng dệt](/vi/buildings/weaving-workshop/)
+
+---
+
+## 🧱 Chiến thuật xây dựng cho người mới {#dtf-beginner-tactics}
+
+Việc nâng cấp trải đều khắp pháo đài sẽ làm tài khoản bị đình trệ: tài nguyên cạn kiệt ngay lúc Cấm Khư (Sanctuary), Phòng Thí Nghiệm, Khu Huấn Luyện hoặc Xưởng Giải Độc cần đến chúng. Phần này là hướng dẫn dành cho người mới — mỗi công trình dùng để làm gì và nên chạm vào theo thứ tự nào.
+
+![Tổng quan hướng dẫn xây dựng cho người mới](/img/dtf/buildings/01.jpg)
+
+### Ưu tiên Cấm Khư trước, cấp độ anh hùng bị giới hạn bởi nó {#dtf-sanctuary-first}
+
+Cấm Khư thiết lập mức trần cho mọi thứ: cấp độ anh hùng (khoảng +5 cho mỗi cấp Cấm Khư — ví dụ Cấm Khư 28 cho phép anh hùng đạt tới 140) và tất cả các công trình khác. Nếu đội hình chính đạt giới hạn, thuốc giải độc dư thừa cũng sẽ vô ích — chỉ có cấp Cấm Khư tiếp theo mới nâng giới hạn đó lên. Mỗi cấp Cấm Khư cũng yêu cầu một số công trình điều kiện tiên quyết (Phòng Thí Nghiệm, Khu Huấn Luyện, Trại Lính, tượng), vì vậy hãy mở các yêu cầu từ sớm và chuẩn bị toàn bộ chuỗi công trình. Đừng đợi đến khi tất cả anh hùng đạt giới hạn — hãy bắt đầu cấp Cấm Khư tiếp theo từ trước.
+
+![Cấp độ Cấm Khư và giới hạn cấp độ anh hùng](/img/dtf/buildings/02.jpg)
+
+### Hai thợ xây, hai vai trò {#dtf-two-builders}
+
+Khe thợ xây thứ hai tạm thời (500 kim cương) nên làm công việc khác với thợ xây đầu tiên: khe dài đảm nhận Cấm Khư, Phòng Thí Nghiệm hoặc một công trình bắt buộc kéo dài nhiều ngày khác, trong khi thợ xây tự do hoàn thành các nâng cấp ngắn — nông trại, xưởng gỗ, khu vườn, xưởng giải độc và các điều kiện trung gian cho cấp Cấm Khư tiếp theo. Hai thợ xây cho các dự án dài có nghĩa là không có khe cho các yêu cầu bất ngờ; hai thợ xây cho công việc nhỏ có nghĩa là công trình chính bị bỏ lại phía sau mãi mãi.
+
+Hãy canh thời gian hoàn thành lớn cho ngày sự kiện Đấu Trường Liên Minh (Alliance Duel): một công trình hoàn thành không nhất thiết phải nhận thưởng ngay — hãy để chiếc búa lơ lửng bên trên và chạm sau khi giai đoạn sự kiện chuyển sang vòng mới, ghi điểm cho công việc đã hoàn thành từ trước. Công trình tiếp tục chiếm khe, vì vậy chỉ giữ chiếc búa trên các dự án lớn. Hãy nhận tất cả sự trợ giúp từ liên minh trước, sau đó dùng vật phẩm tăng tốc, rồi mới nhận thưởng.
+
+![Nhận thưởng công trình hoàn thành vào ngày xây dựng Đấu Trường Liên Minh](/img/dtf/buildings/03.jpg)
+
+### Công trình tài nguyên có thể chậm lại {#dtf-resource-lag}
+
+Nông trại, xưởng gỗ và vườn thảo mộc cung cấp lương thực, gỗ và thảo mộc — nhưng chúng không cần phải bắt kịp Cấm Khư. Khoảng cách từ năm đến sáu cấp vẫn là mức thoải mái. Trong khi thợ xây thứ hai bận rộn với Cấm Khư, thợ xây đầu tiên sẽ dần nâng các công trình tài nguyên, và quan trọng nhất là xưởng giải độc: thuốc giải độc được tiêu thụ liên tục để nâng cấp anh hùng.
+
+![Nông trại, xưởng gỗ và vườn thảo mộc](/img/dtf/buildings/04.jpg)
+
+Kho chứa (gỗ, lương thực, thảo mộc) chỉ làm tăng lượng tài nguyên được bảo vệ mà kẻ địch không thể cướp. Chúng không mở khóa cấp độ, công nghệ hay lính nào, vì vậy hãy giữ chúng ở mức thấp hơn đáng kể trừ khi yêu cầu Cấm Khư gọi tên chúng. Chiến lược an toàn nhất: giữ các gói nguyên liệu chưa mở trong kho và mở chúng ngay trước khi xây dựng — khi đó ngay cả kho chứa yếu cũng hầu như không thất thoát gì.
+
+![Kho chứa gỗ, lương thực và thảo mộc](/img/dtf/buildings/05.jpg)
+
+### Quán Rượu, Đền Thờ và Phòng Thí Nghiệm Nghiên Cứu {#dtf-tavern-temple-lab}
+
+Quán Rượu tuyển mộ anh hùng và người sống sót, việc nâng cấp nó sẽ rút ngắn thời gian hồi chiêu tuyển mộ miễn phí — nhưng chỉ khoảng một giờ sau vài cấp. Hãy nâng cấp nó theo yêu cầu Cấm Khư hoặc ngày xây dựng; quan trọng hơn nhiều là thực sự chạm vào các lượt tuyển mộ miễn phí đã sẵn sàng. 50 lần quay đầu tiên sẽ đảm bảo nhận mảnh Arthur.
+
+![Triệu hồi anh hùng và người sống sót ở Quán Rượu](/img/dtf/buildings/06.jpg)
+
+Các bức tượng Chiến Binh, Thợ Săn và Phù Thủy của Đền Thờ cung cấp trực tiếp Tấn Công/HP/Phòng Thủ phe phái. Hãy bắt đầu với phe của Đội 1 (Squad 1), nhưng đừng quá thiên vị: các bức tượng khác cũng nằm trong yêu cầu Cấm Khư, và các đội 2–3 cần chúng cho các chuyến thám hiểm.
+
+![Tượng Chiến Binh, Thợ Săn và Phù Thủy trong Đền Thờ](/img/dtf/buildings/07.jpg)
+
+Sau Cấm Khư, Phòng Thí Nghiệm Nghiên Cứu là công trình hàng đầu — công nghệ kinh tế, anh hùng, lính và phát triển đều ở đó. Hãy thực hiện nghiên cứu cây sự kiện Đấu Trường Liên Minh vào các ngày Thứ Tư để cùng lượng tăng tốc ghi điểm sự kiện, và đừng đốt hết các vật phẩm tăng tốc chung cho việc xây dựng: một phần dự trữ phải dành cho nghiên cứu, đặc biệt là các công nghệ quân đội tốn kém.
+
+![Phòng Thí Nghiệm Nghiên Cứu](/img/dtf/buildings/08.jpg)
+
+### Quân đội: Khu Huấn Luyện, Trại Lính, Trạm Y Tế {#dtf-army-buildings}
+
+Khu Huấn Luyện cấp cao hơn mở khóa các bậc lính mạnh hơn (T1–T10). Đừng nâng tất cả các khu huấn luyện đều nhau: hãy giữ một khu ở mức tối đa và dùng các khu còn lại để huấn luyện hàng loạt lính giá rẻ, sau đó thăng cấp chúng ở khu chính — chi phí tài nguyên tương đương, tốn ít thời gian hơn rất nhiều. Khu chính phải theo sát Cấm Khư vì cả cấp bậc mới lẫn yêu cầu Cấm Khư đều phụ thuộc vào nó.
+
+Trại Lính chứa quân đội đã huấn luyện, và sức chứa bị giới hạn nhanh chóng: các cuộc săn trộm và trận chiến Thứ Sáu/Thứ Bảy thiêu rụi hàng nghìn binh lính. Nếu Trại Lính đầy, các khu huấn luyện sẽ đình trệ và các cuộc hành quân bị thiếu hụt — hãy nâng cấp chúng song song với khu chính. Sức chứa và tốc độ hồi phục của Trạm Y Tế quyết định tài khoản có thể chịu đòn đến mức nào: nếu một trận chiến làm đầy nó, đó là lúc cần nâng cấp. Trạm y tế quá nhỏ sẽ biến lính bị thương thành tổn thất vĩnh viễn.
+
+### Lều Thợ Xây, Sảnh Liên Minh và Tường Thành {#dtf-support-defense}
+
+Lều Thợ Xây rút ngắn mọi dự án trong tương lai, vì vậy khoản đầu tư này sẽ tích lũy theo cấp số nhân trên toàn bộ tài khoản. Sảnh Liên Minh tăng cường sự trợ giúp từ đồng minh (chạm nhiều hơn, nhiều phút hơn cho mỗi lần chạm) — luôn yêu cầu giúp đỡ ngay khi bộ đếm thời gian dài bắt đầu và chỉ dùng vật phẩm tăng tốc sau khi đồng minh hoàn thành, nếu không thời gian miễn phí sẽ bị lãng phí.
+
+![Sự trợ giúp từ đồng minh thông qua Sảnh Liên Minh](/img/dtf/buildings/09.jpg)
+
+Ba đội phòng thủ đứng trên Tường Thành, cùng với các công sự và nút dập lửa. Để sắp xếp lại họ, tất cả các cuộc hành quân phải đang ở nhà. Theo dõi các hộp kiểm phòng thủ: khi được bật, anh hùng và binh lính sẽ tham gia phòng thủ — chống lại kẻ địch mạnh hơn có nghĩa là tổn thất nặng nề, vì vậy nhiều người chơi bỏ chọn trong các cuộc chiến liên server để cứu quân đội, nhưng các hộp kiểm này phải được bật lại trước Cuộc Bao Vây Undead (Undead Siege) nếu không các đợt tấn công sẽ không thể bị chặn lại. Các cấp Tường Thành cũng tăng tốc độ hành quân cho các cuộc tấn công Blight, thu thập và quay về.
+
+![Tường Thành và thiết lập phòng thủ](/img/dtf/buildings/10.jpg)
+
+### Trại Nghiên Cứu, Tháp Canh, Tháp Falcon {#dtf-activity-buildings}
+
+Trại Nghiên Cứu (battle pass) chiến đấu không tốn lính — phòng thí nghiệm hoàn hảo để thử nghiệm đội hình và so sánh anh hùng — cộng với thu nhập thụ động hàng giờ (lương thực, gỗ, thảo mộc, thuốc giải) và rương sau mỗi vài giai đoạn. Tháp Canh thực hiện các chuyến thám hiểm phe phái (mỗi phe một chế độ, làm mới khoảng mỗi 3 ngày): đừng chọn tối đa sao "vì sự tiến bộ" — một lượt giữa chừng bị kẹt sẽ cho điểm tệ hơn một lần vượt ải hoàn toàn thấp hơn một sao.
+
+Tháp Falcon cấp nhiệm vụ hàng ngày (nhiệm vụ mới khoảng mỗi 6 tiếng; ~11 nhiệm vụ có sẵn trên tháp đã phát triển nhưng chỉ 9 nhiệm vụ vừa bảng, phần còn lại xếp hàng chờ — nhiệm vụ tràn kho sẽ biến mất). Nhiệm vụ tốn năng lượng và trả lại tài nguyên, thuốc giải độc cùng vật phẩm Raven, v.v. Chỉ nâng cấp tháp nếu các nhiệm vụ thực sự được hoàn thành hàng ngày.
+
+![Nhiệm vụ hàng ngày của Tháp Falcon](/img/dtf/buildings/11.jpg)
+
+### Khu vực trang bị và những gì nên hoãn lại {#dtf-gear-defer}
+
+Xưởng Luyện Kim chế tạo Đá Trang Bị (một thanh kiếm cấp cao duy nhất có thể cần hơn 20.000 viên đá cho mỗi lần nâng cấp — hãy phát triển nó sớm), Xưởng Dệt tạo ra vải sau đó được tổng hợp thành thép cho trang bị vàng, và Xưởng Trang Bị chế tạo các món đồ. Một bộ đồ vàng hoàn chỉnh cho đội 1 mất rất nhiều thời gian, vì vậy quá trình sản xuất không bao giờ được ngưng trệ — một thanh kiếm mang sát thương tốt và giáp chống chịu tốt hơn vài cấp độ ngẫu nhiên ở nơi khác.
+
+Hãy hoãn lại khi tài nguyên bị ràng buộc: Đội Trinh Sát (trinh sát nhanh hơn, không có tốc độ phát triển), kho chứa vượt mức yêu cầu, Quán Rượu vượt mức yêu cầu. Xưởng Raven có thể được nâng cấp vào ngày xây dựng để lấy điểm đấu trường. Đấu Trường, Tổ Raven, Trung tâm Tác chiến Đen và Sảnh Đồ Cổ không nâng cấp chút nào — hãy sử dụng chúng thường xuyên, chúng không tốn tài nguyên xây dựng.
+
+Thứ tự cho người mới trong một dòng: Cấm Khư ở khe dài → Phòng Thí Nghiệm → Khu Huấn Luyện chính, Trại Lính, Trạm Y Tế, tượng phe chính → Lều Thợ Xây và Sảnh Liên Minh đều đặn → công trình tài nguyên thấp hơn Cấm Khư khoảng ~5–6 cấp → khu vực trang bị → các khu huấn luyện phụ và công trình phụ — kho chứa, Quán Rượu, trinh sát theo yêu cầu hoặc lượng dư thừa.
+
+![Thứ tự nâng cấp công trình chính xác](/img/dtf/buildings/12.jpg)
+
+> Nguồn: [Здания Last Asylum: Plague - гайд для новичков](https://dtf.ru/howto/5238649-gaid-po-zdaniyam-last-asylum-plague-dlya-novichkov) bởi Гейм-Знаток trên DTF.

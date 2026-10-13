@@ -3,7 +3,7 @@ title: "Duskar: skill, build & leveling"
 description: "Duskar is a UR warrior who plays as tank. Fully upgraded, he reaches 1,057,192 Might, rank 2 of 11 among the game's tanks. Unlocking him takes 10 shards ( Duskar Shard), …"
 videoTopic: "heroes"
 lang: id
-updated: "2026-09-19"
+updated: "2026-10-12"
 type: guide
 ---
 
@@ -325,3 +325,77 @@ Awakening costs the most: 2,870 shards for 40 levels against 975 for all 50 star
 
 Duskar stands in two tier S squads. Arthur, Marlena, Duskar, Harper and Louis earn a +15% faction bonus for four warriors, 150.7M of survivability and 98 points out of 100 in the squad review. His shield stacks with Billy's Fate's Thread, which removes 36% of the damage from the squad.
 
+
+---
+
+## 🔄 Membangun ulang skuad utama di sekitar Daskal {#dtf-daskal-rebuild}
+
+Mendapatkan hero hanyalah permulaan: ia membutuhkan antitoksin, bintang, skill, perlengkapan, slot skuad — dan kemudian Arena, Tembok, serta setiap formasi yang disimpan harus menyesuaikannya. Ini adalah panduan pembangunan ulang secara lengkap: merekrut Daskal, memaksimalkannya dari 1→150, dan memasukkannya ke skuad Warrior pertama untuk menggantikan Bella.
+
+![Panduan progres hero Daskal dan Claire emas](/img/dtf/daskal-claire/01.jpg)
+
+### Berbelanja besar di hari Kamis hero {#dtf-hero-thursday}
+
+Jangan pernah menghabiskan tiket rekrutmen, fragmen universal, lencana skill, dan stok antitoksin pada hari yang sembarangan. Hari Kamis mengadakan tahap hero Duel Aliansi, dan hampir semua hal dalam pembangunan ulang ini menghasilkan poin — pemanggilan, penggunaan fragmen, serta konsumsi lencana dan antitoksin. Satu dorongan progres menghasilkan dua keuntungan: akun yang lebih kuat ditambah hadiah duel. Datanglah ke hari Kamis dengan persiapan.
+
+![Misi pengembangan hero tahap 4 Duel Aliansi](/img/dtf/daskal-claire/02.jpg)
+
+Dalam kasus ini, tujuannya sangat jelas: Daskal. Sekitar 250 tiket dihabiskan pada minggu sebelumnya tanpa dia muncul, lalu pemanggilan gratis ditambah percobaan baru — sepuluh undian pertama meleset, sepuluh undian kedua berhasil. Kunci utamanya adalah tahu kapan harus berhenti: begitu hero sudah dimiliki, tiket berikutnya hanya akan membelikan fragmen dan lencana skill, bukan hero itu sendiri.
+
+![Mendapatkan Daskal dari pemanggilan hero](/img/dtf/daskal-claire/03.jpg)
+
+### Tips rumput: jangan abaikan para pencuri {#dtf-thieves-grass}
+
+Selama event pencuri berlangsung, event ini menambal stok rempah/herbal yang terkuras habis oleh penelitian tingkat lanjut. Target pribadi yang besar memberikan lebih dari satu juta herbal, sementara target kecil memberikan beberapa ratus ribu masing-masing — jumlah persisnya bervariasi tergantung keaktifan, tetapi sebagai pengisian ulang herbal darurat selama event aktif, cara ini sangat efektif.
+
+![Event pencuri](/img/dtf/daskal-claire/04.jpg)
+
+### Daskal 1→150: ke mana antitoksin pergi {#dtf-daskal-leveling}
+
+Daskal datang pada level 1, dan stok antitoksin disimpan khusus untuknya — tindakan yang tepat, karena biayanya sangat besar. Hingga sekitar level 100, kondisinya masih terlihat aman, level naik dengan cepat tanpa panik. Kemudian keseruan sesungguhnya dimulai: semakin mendekati level 150, semakin mahal biaya setiap levelnya. Seluruh jalur dari 1→150 membutuhkan **5.248.471.500 antitoksin — sedikit di atas 5,2 miliar**. Siapa pun yang merencanakan lari nol-ke-maksimal yang sama harus menimbun lebih dari lima miliar, bukan dua atau tiga miliar. Antitoksin berasal dari bengkel, hadiah, dan item tas yang disimpan — jadi jangan membuka jar antitoksin lebih awal tanpa alasan; biarkan mereka menunggu hero yang benar-benar penting.
+
+![Menaikkan level Daskal dari 1 ke 150 dengan antitoksin](/img/dtf/daskal-claire/11.jpg)
+
+### Mengapa Daskal pantas berada di skuad 1 {#dtf-why-daskal}
+
+Daskal adalah tank Warrior UR yang skill-nya melakukan tepat seperti yang dibutuhkan garis depan: skill ultimatenya memberikan perisai ke semua sekutu, skill aktifnya memberikan damage fisik sekaligus menyembuhkan Daskal sendiri, dan efek pasifnya memberikan perisai kepada tank sekutu di awal pertempuran. Ia mampu bertahan dari damage dan membantu sisa tim untuk bertahan hidup.
+
+Menggantikan Bella di sini adalah langkah yang logis — dan Bella tidak pensiun. Ia pindah ke skuad 3, yang saat ini kekurangan hero garis depan yang bagus. Satu hero baru memperkuat dua skuad sekaligus.
+
+### Lepaskan perlengkapan Bella terlebih dahulu {#dtf-gear-transfer}
+
+Sebelum menyelesaikan pertukaran, pindahkan set perlengkapan yang bagus dari tank lama ke tank yang baru — jika tidak, hasilnya adalah UR berbintang level 150 yang berjalan tanpa alas kaki. Tidak ada senjata khusus untuk Daskal di sini, jadi perlengkapan yang tersedia dipakaikan kepadanya, sisa set Bella ditransfer, dan Bella menerima item dari hero skuad-3 yang digantikannya saat ia pindah ke sana.
+
+![Mentransfer perlengkapan Bella ke Daskal](/img/dtf/daskal-claire/12.jpg)
+
+![Meningkatkan Daskal](/img/dtf/daskal-claire/13.jpg)
+
+### Berapa banyak bintang yang dibutuhkan Daskal sekarang {#dtf-daskal-stars}
+
+Setelah level, fragmen adalah hal yang paling sulit. Godaan untuk meningkatkan segalanya sangat besar — ranger menunggu, UR lain meminta bintang. Namun, skuad utama adalah Warrior, jadi jika Daskal bergabung di dalamnya, fragmen emas universal akan memberikan hasil paling optimal jika digunakan padanya. Hari pertama mendekati **6★** (yang semakin meningkatkan perisai timnya), dengan sisa yang bisa di farm nanti. Enam bintang bukanlah angka yang dipilih sembarangan — dan target besar berikutnya adalah **8★**, yang membuka Tenacity: +20% ATK/HP/DEF plus +10% kecepatan cooldown skill. Jadi, jangan menyebarkan fragmen universal ke tiga skuad: bawa hero skuad utama ke pos pemeriksaan yang benar-benar berguna terlebih dahulu, baru lihat langkah selanjutnya.
+
+![Bintang dan skill Daskal untuk skuad utama](/img/dtf/daskal-claire/14.jpg)
+
+### Jangan lupakan Hall of Honor {#dtf-hall-of-honor}
+
+Di sepanjang perjalanan, seorang hero biru akhirnya mencapai syarat Hall of Honor — dan ini bukan hal sepele. Progres hero reguler di sana secara konsisten meningkatkan akun, dan hero biru secara khusus meningkatkan kapasitas muatan prajurit: pasukan membawa lebih banyak sumber daya perbaris. Memang tidak ada bonus monster tempur, tetapi dalam jarak jauh, kapasitas ekstra tersebut sangat berguna. Jangan abaikan hero biru hanya karena mereka tidak akan pernah masuk ke skuad 1.
+
+![Hall of Honor](/img/dtf/daskal-claire/15.jpg)
+
+### Hero baru ditempatkan — tugas belum selesai {#dtf-update-modes}
+
+Kekuatan Skuad 1 meningkat setelah menukar Bella dengan Daskal — tetapi game menyimpan formasi per mode. Setelah melakukan perombakan besar, buka Arena dan perbarui pertahanan, lalu periksa Tembok, kemudian Conquest Canyon dan simpan formasi baru di sana. Jika tidak, Arena akan terus menurunkan Bella selama beberapa hari. Aturan yang sama berlaku setelah peningkatan perlengkapan, epigraph, atau Raven yang besar: jika suatu mode menggunakan formasi yang disimpan, verifikasi secara manual.
+
+### Tiga skuad setelah pembangunan ulang {#dtf-final-squads}
+
+Skuad 1 berubah sepenuhnya menjadi Warrior: **Daskal, Arthur, Marlena, Claire emas, dan Harper**, dengan kekuatan sekitar **19,5 Juta**. Daskal dan Arthur menahan garis depan, Marlena menghasilkan damage, Claire meningkatkan PvE, dan Harper memberikan buff pada Warrior.
+
+![Skuad pertama: Daskal, Arthur, Marlena, Claire, dan Harper dengan kekuatan 19,5M](/img/dtf/daskal-claire/16.jpg)
+
+Skuad 2 tetap menjadi Ranger: Shadow, Griffith, Cynthia, Ash, dan Red Lady (~13,32M). Skuad 3 menjadi campuran: Bella masuk untuk memperkuat garis depan bersama Hastar, Joker, Annie, dan Celia (~13,65M).
+
+![Skuad campuran ketiga setelah pembangunan ulang hero](/img/dtf/daskal-claire/17.jpg)
+
+Hasil terbaik bukanlah satu hero yang kuat: Daskal meningkatkan skuad 1, Bella yang dibebaskan memperbaiki skuad 3, Claire emas menemukan kehidupan PvE baru, dan perlengkapan bagus berpindah antar karakter alih-alih berdebu. Bersiaplah untuk hari Kamis hero berikutnya dengan cara yang sama: kumpulkan tiket, simpan antitoksin untuk dorongan level 150 yang sebenarnya berikutnya, arahkan fragmen universal emas ke skuad utama — Daskal menuju 6★ yang andal lalu 8★, Claire emas berlabuh di delapan bintang dengan dua bintang terakhir di-farm secara bertahap — dan barulah kembali ke para ranger. Satu skuad pertama yang benar-benar kuat jauh lebih baik daripada tiga skuad yang setengah jadi.
+
+> Sumber: [Даскал и золотая Клэр в Last Asylum: Plague - как правильно прокачивать героев](https://dtf.ru/howto/5317537-daskal-i-zolotaya-kler-v-last-asylum-prokachka-geroev) oleh Гейм-Знаток di DTF.

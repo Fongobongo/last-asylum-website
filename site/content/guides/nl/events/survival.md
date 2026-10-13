@@ -2,7 +2,7 @@
 title: "Overlevingsstrijd: 60K Gratis Badges & 4-Uurs Faserotatie"
 description: "Wekelijks missie-evenement dat circa 60.000 gratis Vaardigheidsbadges oplevert: 5 taakcategorieën, rotatiefases van 4 uur, op wachtrij gebaseerde scores voor soldatentraining en synchronisatie met Alliantieduel."
 lang: nl
-updated: "2026-09-15"
+updated: "2026-10-12"
 videoTopic: survival
 type: event
 ---
@@ -205,3 +205,51 @@ Geverifieerde waarden uit gameklientgegevens (v1.0.87), bron: wiki-last-asylum.c
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Hoe lang duurt elke fase van de Overlevingsstrijd?", "acceptedAnswer": {"@type": "Answer", "text": "Elke fase duurt 4 uur; er zijn vijf gethematiseerde fases: helden, grondgebied, troepen, tech en raaf."}}, {"@type": "Question", "name": "Wanneer worden troepentrainingspunten toegekend?", "acceptedAnswer": {"@type": "Answer", "text": "Op het moment dat je op Trainen/Promoveren drukt en grondstoffen worden afgeschreven — niet wanneer de timer afloopt."}}]}
 </script>
+
+---
+
+## Dagelijkse Survival Battle-lus: zegels, energie en dueloverlap (DTF) {#dtf-daily-loop}
+
+Het evenement loopt dagelijks met vijf roterende thema's — troepen trainen, technologisch onderzoek, Raven-upgrades, heldengroei en gebiedsontwikkeling. Je hebt alle vijf niet nodig: **18 Survival-zegels leveren de drie dagelijkse kisten op**, oftewel drie volledig voltooid thema's. De echte winst zit in de overlapping met het Alliantieduel — bouwen op dinsdag, onderzoeken op woensdag, trainen op vrijdag —, zodat dezelfde versnellers twee keer renderen.
+
+![Vijf Survival-thema's en 18 zegels voor drie kisten](/img/dtf/survival/02.jpg)
+
+### Hoe zegels en rangen werken {#dtf-seals}
+
+De volgorde roteert dagelijks zonder vast schema — open het evenement voordat je iets uitgeeft en controleer het actieve en het volgende thema. Elk thema heeft **4 fasen die 1+1+2+2 = 6 zegels opleveren**; 18 zegels = drie voltooide thema's. Beloningen per fase (vaardigheidsbadges, versnellers, grondstoffen) komen erbovenop. Het voltooien van alle vijf de thema's levert ruwweg **8.000 vaardigheidsbadges per dag** op, oplopend tot ca. 9,600 als een herhalend trainingsthema terugkeert. Een dagelijks klassement levert een basisbeloning aan grondstoffen op voor elkescore en betere prijzen hoger op de lijst — ga na de 18 alleen door als het thema overeenkomt met de geplande groei; je voorraad versnellers opmaken puur voor een hogere rang loont zelden.
+
+![Beloningen op de Survival-ranglijst](/img/dtf/survival/03.jpg)
+
+Het goedkoopste dagelijkse trio voor de meeste accounts: **Raven (energie) + Helden (tegengif) + het dueldag-thema** (dinsdag gebiedsontwikkeling, woensdag onderzoek, vrijdag troepen; zaterdag — wat er maar het goedkoopst in voorraad is). Stop na de gouden kist op 18, tenzij het volgende thema al geplande groei betreft.
+
+### Troepen, onderzoek, Raven, helden en territorium {#dtf-themes}
+
+**Training:** score op basis van trainingsversnellers en legergroei op het meest ontwikkelde terrein (max. niveau), waarbij andere terreinen gevuld zijn of lagere niveaus voorbereiden voor promotie. Als de training over een uur begint en een batch bijna klaar is, wacht dan tot alleen de resterende tijd overblijft en start de rest pas nadat het thema is geopend — geen leeg terrein, maar het leeuwendeel valt binnen het venster. De beste dag is vrijdag tijdens de dueltrainingsfase.
+
+![Troepentraining binnen het themavenster](/img/dtf/survival/04.jpg)
+
+**Onderzoek:** punten voor onderzoeksversnellers plus toename in technologische macht — zorg dat de voltooiing binnen het venster valt, start daarna de volgende, verzamel alliantiehulp en beslis dan wat je wilt versnellen. Als de ene technologie duidelijk meer macht oplevert en de volgende fase slechts een beetje nodig heeft, is het voltooien daarvan beter dan versnellers verspreiden over kleine; het is niet nodig om een lange technologie volledig af te ronden zodra de drempel is gehaald. De beste dag is woensdag tijdens het duelonderzoek.
+
+![Technologieonderzoek en machtsscore](/img/dtf/survival/06.jpg)
+
+**Raven — dagelijks werkpaard:** twee manieren om punten te scoren, fruitontwikkeling of energie verbruiken. Bewaar fruit voor de Raven-duelfase op maandag; geef op andere dagen **energie** uit aan Plagen/dieven/bazen/Falcon-speurtochten — normale dagelijkse activiteiten, geen extra kosten. Ongeveer **300 energie** voltooit het thema volledig (4 beloningen, 6 zegels). Combineer met Dievenjacht: een zwakke mars vindt kleine goudendieven en ontgrendelt bazen, een sterke mars treft grote doelen. Snelle route: stuur eerst een eenheid naar een dichterbij gelegen grondstoftegel en stuur deze daarna bij naar het monster terwijl hij passeert — dit scheelt dagelijks vele marsen.
+
+![Raven-upgrades via energie en Dievenjacht](/img/dtf/survival/08.jpg)
+
+**Helden — het snelste thema:** taverne-oproepen plus tegengif; één goed getimed level-up is vaak genoeg om alle vier de fasen te voltooien. Ontgrendel meerdere helden en kies degene waarvan de kosten voor het volgende niveau het dichtst bij de einddrempel liggen — verspil geen 100M tegengif als 20M al voldoende was. Bewaar massale oproepen voor de heldendueldag op donderdag; tegengif is voor Survival meestal goedkoper om te voltooien.
+
+![Heldengroei met tegengif](/img/dtf/survival/10.jpg)
+
+**Gebiedsontwikkeling:** bouwversnellers plus winst in bouwkracht. Voltooi een bijna klaar groot gebouw binnen het venster indien beschikbaar (wacht niet 15–30 dagen op het Heiligdom/Lab); geef anders versnellers uit in grotere batches (bijv. 5 minuten) na het verzamelen van alliantiehulp. De beste dag is dinsdag tijdens het duel om te bouwen.
+
+![Gebiedsontwikkeling met bouwversnellers](/img/dtf/survival/11.jpg)
+
+### Overlap, ministers en zegeldiscipline {#dtf-overlap}
+
+Maandag: duel laat Raven groeien — geef opgespaard fruit uit binnen het Raventhema voor dubbele punten. Dinsdag: gebiedsontwikkeling — pak voorbereide gebouwen plus bouwversnellers. Woensdag: onderzoek — boekrollen plus lange technologieën. Donderdag: helden — tickets, fragmenten, tegengif, badges. Vrijdag: troepen — terreinen tijdens het trainingsthema. Zaterdag: vrije keuze op basis van voorraad. Pas je account niet aan op het evenement; pas het evenement aan op je geplande groei.
+
+Claim de bijbehorende ministertitel vóór grote upgrades en houd de wachtrij in de gaten: bij een volle lijst van 50/50 blijven aanvragen in de wacht staan — solliciteren bij **49/50** zorgt er vaker voor dat je direct in de actieve wachtrij komt. Plan titels vooruit op bouw- en onderzoeksdagen.
+
+Zegels **worden dagelijks gereset** — 17 vandaag plus "één extra morgen" is morgen gewoon nul. Mocht je één fase tekortkomen voor 18, pak dan het thema dat het goedkoopst te voltooien is; ga nooit zegels opsparen in de hoop het morgen makkelijker te maken.
+
+> Bron: [Last Asylum: Plague - гайд по Битве на выживание](https://dtf.ru/howto/5240960-last-asylum-plague-gajd-po-bitve-na-vyzhivanie) door Гейм-Знаток op DTF.

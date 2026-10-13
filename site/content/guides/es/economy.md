@@ -2,7 +2,7 @@
 title: "Economía: Diamantes, Tiendas, Saqueo"
 description: "Dónde va cada diamante: prioridades de la tienda VIP, el calendario de reabastecimiento, órdenes de compra por tienda, presupuestos de la Rueda de los Deseos y la mecánica completa de saqueo con límites diarios por nivel de Santuario."
 lang: es
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: economy
 infographics: ["/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
 ---
@@ -161,3 +161,48 @@ Las Caravanas y las Operaciones Encubiertas son sistemas separados del saqueo y 
 
 - **Caravanas**: tus ingresos comerciales automatizados. Mantenlas en movimiento.
 - **Operaciones Encubiertas**: puedes saquear hasta 5 Operaciones Encubiertas de otros jugadores al día. Las Operaciones Encubiertas doradas pagan las mejores recompensas; aprovecha siempre una dorada cuando la veas.
+
+---
+
+## Gasto inteligente: dirige cada compra {#smart-spending}
+
+![Estrategia de gasto planeado en Last Asylum](/img/dtf/economy/01.jpg)
+
+Al principio, el juego te lleva de la mano (toca, recolecta, desbloquea), pero pasada la primera etapa, esa misma rutina deja de traducirse en poder: se acumulan las derrotas en JcJ, las mejoras se extienden durante horas y las sesiones se detienen por falta de energía. Intentar resolverlo a la fuerza conectándose más veces no cambia casi nada. El gasto empieza a ayudar solo cuando deja de ser aleatorio. La regla en la que coinciden los jugadores experimentados es simple: **no importa cuánto inviertes, sino exactamente dónde**. Cada compra debe responder a una pregunta: *¿qué estoy fortaleciendo ahora mismo?*
+
+Alrededor de los niveles medios, la presión llega por todos lados: parece haber más recursos, pero siempre falta algo específico —materiales para un héroe o tiempo para la base—, mientras que los rivales ya se ven más fuertes. Ahí es donde surge el conocido impulso de «comprar solo un poco», que lleva a los errores clásicos: paquetes de lotería, colección de héroes al azar, cambios constantes entre JcJ y JcE. El resultado es una cuenta que crece pero no es fuerte en ninguna parte: ni daño en JcJ ni estabilidad en JcE. El punto de inflexión es centrarse en un solo objetivo (la arena o el contenido) para que cada inversión trabaje en pro de este y el juego empiece a «responder» con victorias más constantes.
+
+### La escalera de prioridades
+
+- **Primero los paquetes de inicio y especiales.** La manera más rápida de notar la diferencia: un héroe fuerte junto con recursos para la base de golpe estabiliza el JcE de inmediato, sin parones repetidos en fases normales.
+- **La energía en segundo lugar.** Al principio parece menor, pero la energía determina cuánto juegas realmente: farmeo, misiones, crecimiento de la base. Con la suficiente, el progreso pasa de ser accidental a regular.
+- **Suscripciones y bonificaciones diarias en tercer lugar.** Esto trata sobre estabilidad: una base de recursos en cada inicio de sesión, una planificación de mejoras más sencilla y evitar perder el ritmo.
+- **Mitad del juego: héroes raros y materiales de mejora de equipo.** Exactamente aquello que impulsa notablemente tanto el JcE como el JcJ.
+- **Fase tardía: paquetes de temporada y aceleradores.** Te mantienen en la cima cuando el farmeo ordinario ya no es suficiente.
+
+![Gasto constante y sensato que acelera el progreso](/img/dtf/economy/02.jpg)
+
+### Qué evitar
+
+- **Coséticos**: efecto cero en el combate.
+- **Cajas aleatorias**: suerte ocasional, en su mayoría relleno que crea una ilusión de progreso sin beneficio real.
+- **Impulsos pequeños y efímeros**: un efecto real durante una tarde, casi imperceptible a lo largo de un mes.
+- **Héroes duplicados que no alimentan nada**: si no fortalecen el plantel, son solo decoración.
+
+Eliminar esto reduce la dispersión: el gasto se vuelve uniforme y controlable, y cada inversión se nota.
+
+### Los eventos son el punto de crecimiento
+
+Los eventos contienen las recompensas que más cuesta farmear por medios habituales: materiales raros, objetos útiles y, a veces, héroes fuertes. La estrategia que da frutos: prepárate de antemano en lugar de ir a ciegas, no limites tus propios intentos (trae los tiques), completa las misiones por completo en lugar de a medias y reclama todas las recompensas clave. Cronometrado de este modo, el gasto exprime al máximo un momento específico en lugar de limitarse a «acelerar algo».
+
+![Sincronización del gasto con eventos para obtener las máximas recompensas](/img/dtf/economy/03.jpg)
+
+### Lista de comprobación para un gasto inteligente
+
+1. Paquetes de inicio y energía primero: un héroe fuerte y un flujo constante de recursos.
+2. En la mitad del juego, apunta a héroes raros y materiales de equipo.
+3. En la fase tardía, paquetes de temporada y aceleradores para la cima.
+4. Ahorra en nimiedades: cosméticos, cajas aleatorias, microimpulsos.
+5. Planifica en torno a los eventos: el rendimiento máximo por inversión se obtiene allí.
+
+> Fuente: [Last Asylum: Plague - как донатить с умом и ускорить прогресс в 2026](https://dtf.ru/moneysaver/4850017-last-asylum-plague-kak-effektivno-donatit-i-uskorit-progress) por Гейм-Знаток en DTF.

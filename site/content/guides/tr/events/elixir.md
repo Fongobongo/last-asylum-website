@@ -2,7 +2,7 @@
 title: "İksir Kapışması: Nasıl Kazanılır?"
 description: "30 dakikalık ittifaka karşı ittifak puan savaş alanı: beş aşama, kontrol tabanlı puanlama, İyileştirme Çadırı önceliği, ışınlanma kuralları ve koşunuzu 10 dakikada bitiren sur hatası."
 lang: tr
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: elixir
 calculators: []
 infographics: ["/infographics/elixir-guide.webp", "/infographics/elixir-strategy.webp"]
@@ -359,3 +359,66 @@ RES Seviyesi çağ Canavarlarıyla savaşmak için çok önemlidir. RES Seviyesi
 ### Direnç (RES) Niteliği
 
 RES, çağ Canavarlarıyla savaşmak için tek niteliktir. Her Canavarın kendi RES niteliği vardır. RES'iniz Canavarın RES'ini aştığında onları kolayca alt edersiniz; RES'iniz yetersiz kalırsa, dezavantajlarla hatta savaşta yenilgiyle karşılaşırsınız.
+
+---
+
+## Saha Taktikleri: Birlikler, Binalar ve Harita Farkındalığı {#field-tactics}
+
+Elixir Scramble'da güç önemlidir, ancak organizasyondan çok daha az şeyi belirler. Daha güçlü bir ittifak; Göç Kapıları'nı elinde tutan, düşen puanları toplayan ve hiçbir zaman kahramanları tek bir çadıra park etmeyen daha zayıf bir ittifaka karşı kaybeder. Etkinlik **Cuma günleri** gerçekleşir; ittifak yönetimi genellikle önceden roller atar (Kapılar, çadırlar, simya, merkez) ve plan postasını gerçekten okumaya değerdir. Aktif bir oyuncu her seferinde kayıtlı bir gelmeyeni yener: boş binalar ve çift görevli takım arkadaşları gelmeyenlerin peşinden ayrılmaz.
+
+![Elixir Scramble için ittifak savaş planı](/img/dtf/elixir/01.jpg)
+
+### Sadece güce göre değil, role göre üç birlik kurun {#squad-roles}
+
+- **1. Birlik her zaman en güçlüsüdür** — güçlü rakipleri alt eden ve kilit binaları elinde tutan ana dizilimdir.
+- **2. ve 3. Birlikler hafif teknik birlikler olabilir — tek bir kahramana kadar inebilir.** Düşmanı ana kuvvetle etkisiz hale getirin, ardından noktaya ucuz bir birlik park edin ve 1. Birliği bir sonraki saldırı için serbest bırakın. Zayıf savunucu etkisiz hale getirilirse, kayıplar çok daha az olur.
+- Biri savaşır, biri tutar, biri destek olur veya ekstra puanları alır.
+
+![Yarıştan önce birinci, ikinci ve üçüncü birlikleri kurma](/img/dtf/elixir/02.jpg)
+
+### Sığınak duvarı kontrolü ve keşif yemi hilesi {#wall-scout-trick}
+
+Savaştan önce kale savunmasını açın: **duvarda yalnızca en güçlü birliği bırakın, 2–3. birlikleri çekin.** Daha güçlü bir saldırgana karşı, zayıf duvar birlikleri bedava kayıplardır; şurada burada birkaç bin kaybolur, ardından 2. Birlik fiziksel olarak değil ruhen var olur. Daha zayıf rakiplere karşı ise 1. Birlik duvarı tek başına kazanır. Ve durdurulamaz bir canavar geliyorsa, **her şeyi kaldırın ve boş bir kuleyi yakmasına izin verin** — orduyu korumak, pozisyonu korumaktan üstündür.
+
+![Duvar birliği yerleşimi](/img/dtf/elixir/03.jpg)
+
+Keşif hilesi: düşman keşfi yoldaysa, raporun boş bir kale göstermesi için **1. Birliği birkaç saniyeliğine duvardan çekin**, ardından tekrar yerine koyun. Düşüncesiz bir saldırgan doğrudan tam bir savunmanın içine dalar. Bu bir sihir değildir — kıdemliler durumu anlar — ancak otomatik saldırganlarda harika çalışır.
+
+### Deneyimlere göre bina önceliği {#building-priority}
+
+Sekiz aktif oyuncu ve on bir noktayla her şeyi elinizde tutmaya çalışmayın — kilit olanları tutun:
+
+- **Göç Kapıları — baştan beri savunun.** −50% yer değiştirme bekleme süresi, yardım için zamanında varma, kaybedilen binaları yeniden ele geçirme, kötü saldırılardan kaçma ve ordusunu dışarı yürütmüş birinin arkasına ışınlanma anlamına gelir. Kapılara güçlü bir oyuncu yerleştirin; ayrılmaları gerekiyorsa, en azından zayıf bir teknik tutucu bırakın. En kötü senaryo: beş dakikalık bir Kapı savaşını kazanın, ardından her iki güçlü oyuncu da uçup giderek burayı boş bırakır.
+- **İyileştirme Çadırları (toplam 4 tane) — savaşın ortasına kadar en az ikisini tutun.** Her 10 saniyede bir 15 yaralı (bir düğmeyle alınır), her iki taraf da karşılıklı olarak birbirini silene ve 2. Birliğin gönderecek kimsesi kalmayana kadar küçük hissedilir. Hızlandırma maliyetlerini kontrol etmek için küçük partiler halinde iyileştirin.
+- **Simya Atölyeleri — istikrarlı gelir, meraklısı yok** (her biri ~50 puan/sn). Ana noktalar tutulduğunda ve ekibin boş insanları olduğunda iyidir — asla Kapıları veya merkezi takas etmeye değer değildir.
+- **Gözlemevi — tutulan binalardan +10% gelir.** Harita kontrolüyle ölçeklenir: haritanın yarısında harika, on noktadan ikisinde zayıftır.
+- **Merkez (~10. dakikada açılır): İksir Kalesi + Savaş Kalıntısı + Lanetli Sunak.** Kale, haritadaki en zengin noktadır (~80 puan/sn) — bu an için güçlü oyuncuları hazırlayın. Kalıntı tarafınızı güçlendirir, Sunak düşmanı zayıflatır (oyun içindeki kesin yüzdeleri kontrol edin, denge değişir). Kale artı bir savaş noktasını hedefleyin — **her şeyi bırakmadan**: düşman Kapıları, iki çadırı, simyayı ve Gözlemevi'ni alırken yapılan süslü bir merkez ele geçirmesi hala skor tablosunda mağlubiyet olarak görünür.
+
+![Merkez açıldıktan sonra İksir Kalesi, Savaş Kalıntısı ve Lanetli Sunak](/img/dtf/elixir/04.jpg)
+
+### Yerde yatan puanlar {#dropped-points}
+
+Bir ele geçirmeden sonra, **binanın yanında medkit'ler birikir** (~bir dakika sonra başlar, elde tutuldukça büyür). Nokta el değiştirirse, stok **dağılır ve herkes bunu alabilir** — siz de dahil. Bir binanın etrafında yatan beş ila dokuz bin puan yakın bir maçı belirleyebilir:
+
+- Binalarınızın altındaki stoğu izleyin; noktayı kaybetmek üzereyseniz, geri gelmeye ve düşeni toplamaya hazır olun.
+- Şişkin bir yığına ve yenilebilir bir sahibine sahip düşman binası öncelikli hedef haline gelir.
+- **Hızlı keşif birlikleri puan toplayıcıdır**: boşta duran tutucular sarı düşüşleri taramalı ve keşif birlikleriyle onlarla yarışmalıdır (sizinki ve onlarınki renklerine göre görünür). Keşif hızı yükseltmeleri burada kendi masrafını çıkarır.
+
+![Ele geçirilen binaların çevresindeki medkit'leri ve puanları toplama](/img/dtf/elixir/05.jpg)
+
+### Maç kazandıran orta savaş alışkanlıkları {#mid-fight-habits}
+
+- **Güçlü birlik savaşır, zayıf birlik tutar.** En iyi ordunuzu asla çekişmeli olmayan bir odada on dakika boyunca koruması için bırakmayın; zayıf tutucuya ciddi bir düşman yaklaştığında geri çağırın.
+- **Boşaltılmış kaleyi yakalayın.** Düşman birliklerinin üçü de dışarı yürüdüğünde, içeri ışınlanın ve boş evi vurun — ana birliği bile geri dönmeye zorlamak bir zaferdir.
+- **Önce uzak hedefleri keşfedin.** Yok olan bilinmeyen bir kaleye doğru uzun bir yürüyüş boşa harcanmış bir adımdır; bir oyuncu sizi sürekli yeniyorsa, yirminci kez bir noktayı kanıtlamak yerine bir müttefikle hedef değiştirin.
+- **Askeriniz kalmadı mı? Etkinlikte kalın.** Geç **kamplar her biri ~5 puan/sn kazandırır** — üç kamp 15/sn demektir, bu da sıfırdan iyidir. Medkit'leri toplamaya, keşif yapmaya ve teknik birliklerle boş noktaları almaya devam edin; neredeyse ordusuz oyuncular toplama listelerinin zirvesine bu şekilde çıkmıştır.
+- **Sohbeti okuyun.** Kısa çağrılar ("kapılar boş", "merkez lazım", "kırılamıyor", "medkit'leri kapın") taktiklerin bir parçasıdır — daha güçlü bir rakibi on dakika boyunca beslemek yerine erkenden takas isteyin.
+- **Sadece sıralamanızı değil, savaş sonrası raporunu da kontrol edin.** Öldürme sayıları yanıltır; sessizce bedava puanları alan ve düşenleri toplayan oyuncu genellikle kavgacıdan daha yüksek puan alır. Katılım ayrıca etkinlik dükkanında harcanabilen (malzemeler, teçhizat planları) **Onur Madalyaları** kazandırır — pencereyi kapatmadan önce istatistikleri gözden geçirin.
+
+![Savaşın sonlarında kamplardan puan toplama](/img/dtf/elixir/06.jpg)
+
+![Savaş sonrası sonuçlar: toplama, ele geçirmeler ve savaşlar](/img/dtf/elixir/07.jpg)
+
+Kaçınılması gereken yaygın hatalar: plan postasını görmezden gelmek, zayıf duvar birlikleriyle savunma yapmak, eski noktaları merkez için aynı anda terk etmek ve yer ganimetini unutmak. Oyun boyunca saniye başına puanları izleyin — beş oyuncuyu harika bir şekilde yakıp yine de etkinliği kaybedebilirsiniz.
+
+> Kaynak: [Гонка за эликсиром в Last Asylum: Plague - тактика и стратегии](https://dtf.ru/howto/5338769-gonka-za-eliksirom-v-last-asylum-plague-taktika-i-strategii) yazan: Гейм-Знаток, DTF.

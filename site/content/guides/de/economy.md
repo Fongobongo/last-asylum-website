@@ -2,7 +2,7 @@
 title: "Wirtschaft: Diamanten, Shops, Plünderungen"
 description: "Wohin jeder Diamant fließt: VIP-Shop-Prioritäten, der Auffüllplan, Kaufreihenfolge pro Shop, Budgets für das Wunschrad und die komplette Plünderungsmechanik mit täglichen Limits nach Zufluchts-Level."
 lang: de
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: economy
 infographics: ["/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
 ---
@@ -161,3 +161,48 @@ Karawanen und Geheimoperationen sind von der Plünderung getrennte Systeme und u
 
 - **Karawanen** – dein automatisiertes Handelseinkommen. Halte sie in Bewegung.
 - **Geheimoperationen** – du kannst pro Tag bis zu 5 Geheimoperationen anderer Spieler plündern. Goldene Geheimoperationen bieten die besten Belohnungen – schnapp dir immer eine goldene, wenn du eine siehst.
+
+---
+
+## Smart Spending: Jeden Kauf gezielt einsetzen {#smart-spending}
+
+![Planungsstrategie für Ausgaben in Last Asylum](/img/dtf/economy/01.jpg)
+
+Zu Beginn trägt das Spiel dich von selbst — tippen, einsammeln, freischalten —, aber nach der ersten Phase führt dieselbe Routine nicht mehr zu mehr Macht: PvP-Niederlagen häufen sich, Upgrades ziehen sich über Stunden hin, Spielsitzungen stocken an leerer Energie. Zu versuchen, das Problem durch noch häufigere Logins mit roher Gewalt zu lösen, ändert fast nichts. Ausgaben helfen erst dann, wenn sie nicht mehr zufällig erfolgen. Die Regel, auf die sich erfahrene Spieler einigen, ist einfach: **Es kommt nicht darauf an, wie viel man investiert, sondern genau worin.** Jeder Kauf sollte eine Frage beantworten: *Was stärke ich genau in diesem Moment?*
+
+Um die mittleren Level herum kommt der Druck von allen Seiten: Es gibt scheinbar mehr Ressourcen, aber irgendetwas Bestimmtes fehlt immer — Materialien für einen Helden oder Zeit für die Basis —, während Rivalen bereits stärker wirken. Genau hier führt der vertraute Drang, „nur ein bisschen zu kaufen“, zu den klassischen Fehlern: Glücksspiel-Pakete, das Sammeln zufälliger Helden, das Hin und Her zwischen PvP und PvE. Das Ergebnis ist ein Account, der wächst, aber nirgendwo stark ist: kein Schaden im PvP, keine Stabilität im PvE. Der Wendepunkt ist die Konzentration auf ein einziges Ziel — Arena oder PvE-Inhalte —, sodass jede Investition darauf ausgerichtet ist und das Spiel mit stabileren Siegen „zurückzuschlagen“ beginnt.
+
+### Die Prioritätenleiter
+
+- **Starter- und Spezialpakete zuerst.** Der schnellste Weg, den Unterschied zu spüren: Ein starker Helden plus sofortige Basisressourcen machen PvE sofort stabil, ohne wiederholte Stillstände in gewöhnlichen Phasen.
+- **Energie an zweiter Stelle.** Das wirkt anfangs nebensächlich, aber Energie entscheidet darüber, wie viel du tatsächlich spielst — Farmen, Missionen, Basiswachstum. Mit genug davon wird der Fortschritt von zufällig zu regelmäßig.
+- **Abonnements und tägliche Boni an dritter Stelle.** Hier geht es um Stabilität: eine Ressourcen-Grundlage bei jedem Login, einfachere Upgrade-Planung, kein Abfallen beim Spieltempo.
+- **Mid-Game: Seltene Helden und Materialien für Ausrüstungs-Upgrades.** Genau die Dinge, die sowohl PvE als auch PvP spürbar voranbringen.
+- **Late-Game: Saisonpakete und Beschleuniger.** Sie halten dich an der Spitze, wo normales Farmen nicht mehr ausreicht.
+
+![Konstante, sinnvolle Ausgaben, die den Fortschritt beschleunigen](/img/dtf/economy/02.jpg)
+
+### Was du überspringen solltest
+
+- **Kosmetika** — null Effekt auf den Kampf.
+- **Zufällige Truhen** — gelegentliches Glück, meistens Füllmaterial, das die Illusion von Fortschritt erzeugt, ohne echten Gewinn.
+- **Kleine, kurzlebige Boosts** — ein echter Effekt für einen Abend, über einen Monat hinweg fast unsichtbar.
+- **Duplikate von Helden, die nichts nähren** — wenn sie den Kader nicht stärken, sind sie Dekoration.
+
+Das Streichen dieser Punkte beseitigt den Ballast: Die Ausgaben werden gleichmäßig und kontrollierbar, und jede Investition ist spürbar.
+
+### Events sind der Wachstumspunkt
+
+Events bieten die Belohnungen, die auf normalem Wege am schwersten zu farmen sind — seltene Materialien, nützliche Gegenstände, manchmal starke Helden. Der Ansatz, der sich auszahlt: Bereite dich im Voraus vor, statt unvorbereitet hineinzugehen, decktele den eigenen Versuchen keine Obergrenze (bringe die Tickets mit), schließe Quests vollständig statt nur zur Hälfte ab und hol dir alle Schlüsselbelohnungen. Auf diese Weise timen, holen die Ausgaben das Maximum aus einem bestimmten Moment heraus, anstatt nur „etwas zu beschleunigen“.
+
+![Ausgaben mit Events timen für maximale Belohnungen](/img/dtf/economy/03.jpg)
+
+### Checkliste für Smart Spending
+
+1. Starter-Pakete und Energie zuerst — ein starker Held und ein stetiger Ressourcenfluss.
+2. Im Mid-Game auf seltene Helden und Ausrüstungsmaterialien abzielen.
+3. Im Late-Game Saisonpakete und Beschleuniger für die Spitze nutzen.
+4. Bei Kleinigkeiten sparen: Kosmetika, Zufallstruhen, Mikro-Boosts.
+5. Rund um Events planen — dort gibt es die höchste Rendite pro Investition.
+
+> Quelle: [Last Asylum: Plague - как донатить с умом и ускорить прогресс в 2026](https://dtf.ru/moneysaver/4850017-last-asylum-plague-kak-effektivno-donatit-i-uskorit-progress) von Гейм-Знаток auf DTF.

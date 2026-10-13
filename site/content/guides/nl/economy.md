@@ -2,7 +2,7 @@
 title: "Economie: Diamanten, Winkels, Plunderen"
 description: "Waar elke diamanten naartoe gaat: VIP-winkelprioriteiten, het herbevoorradingsschema, aankooporders per winkel, wenswielbudgetten en de volledige plundermecanics met dagelijkse limieten per Heiligdom-niveau."
 lang: nl
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: economy
 infographics: ["/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
 ---
@@ -592,3 +592,48 @@ Elk VIP-niveau betaalt een eenmalig geschenk uit. Slechts één ding daarin heef
 | Levelvoorraden van elk type | 210 |
 
 Het eerste UR-fragment bevindt zich op niveau tien, dat al 155.000 punten kost. Vanaf niveau zestien tot twintig stopt het geschenk helemaal met groeien in fragmenten en blijft het overal op drie UR hangen. De geschenken vormen dus geen reden om de topniveaus achterna te jagen, aangezien ze alleen in het midden renderen.
+
+---
+
+## Slim uitgeven: gericht aankopen doen {#smart-spending}
+
+![Geplande uitgavenstrategie in Last Asylum](/img/dtf/economy/01.jpg)
+
+In het begin draagt de game je vanzelf — tikken, verzamelen, ontgrendelen — maar na de eerste fase vertaalt dezelfde routine zich niet meer in kracht: PvP-verliezen stapelen zich op, upgrades duren uren en sessies lopen vast door een lege energiebalk. Proberen om dit te doorbreken door simpelweg vaker in te loggen verandert vrijwel niets. Uitgaven beginnen pas te helpen wanneer ze niet langer willekeurig zijn. De regel waar ervaren spelers het over eens zijn is simpel: **het gaat er niet om hoeveel je erin stopt, maar precies waar**. Elke aankoop moet één vraag beantwoorden: *wat ben ik op dit moment aan het versterken?*
+
+Rond de middlevels komt de druk van alle kanten: er lijkt meer grondstoffen te zijn, maar er ontbreekt altijd wel iets specifieks — materialen voor een held of tijd voor de basis — terwijl rivalen er al sterker uitzien. Dat is het moment waarop de bekende neiging om "gewoon een klein beetje te kopen" leidt tot de klassieke fouten: gokpakketten, het verzamelen van willekeurige helden, en het switchen tussen PvP en PvE. Het resultaat is een account dat wel groeit, maar nergens echt sterk is: geen schade in PvP, geen stabiliteit in PvE. Het scharnierpunt is focus op één enkel doel — arena of content — zodat elke investering daaraan bijdraagt en de game "terug begint te praten" met stabielere overwinningen.
+
+### De prioriteitenladder
+
+- **Starter- en speciale pakketten eerst.** De snelste manier om het verschil te voelen: een sterke held plus basisbronnen tegelijk maakt PvE onmiddellijk stabiel, zonder herhaalde vertragingen bij gewone levels.
+- **Energie als tweede.** Het lijkt in het begin minimaal, maar energie bepaalt hoeveel je daadwerkelijk speelt — farmen, missies, basisgroei. Met genoeg energie verandert vooruitgang van toevallig in regelmatig.
+- **Abonnementen en dagelijkse bonussen als derde.** Dit draait om stabiliteit: een basisvoorraad aan grondstoffen bij elke login, eenvoudiger plannen van upgrades en geen tempoverlies.
+- **Mid-game: zeldzame helden en upgrade-materialen voor uitrusting.** Precies de dingen die zowel PvE als PvP merkbaar vooruithelpen.
+- **Late game: seizoensgebonden pakketten en versnellingen.** Hiermee blijf je aan de top waar gewoon farmen niet meer genoeg zoden aan de dijk zet.
+
+![Solide, verstandige uitgaven die de voortgang versnellen](/img/dtf/economy/02.jpg)
+
+### Wat je kunt overslaan
+
+- **Cosmetica** — nul effect op gevechten.
+- **Willekeurige kisten** — af en toe geluk, maar grotendeels opvulling die de illusie van vooruitgang wekt zonder echte winst.
+- **Kleine, kortstondige boosts** — een echt effect voor één avond, bijna onzichtbaar over een hele maand.
+- **Dubbele helden die niets toevoegen** — als ze de selectie niet versterken, zijn ze slechts decoratie.
+
+Het schrappen hiervan verwijdert de versnippering: uitgaven worden gelijkmatig en beheersbaar, en elke investering is merkbaar.
+
+### Evenementen zijn het groeipunt
+
+Evenementen bevatten de beloningen die het moeilijkst te farmen zijn via standaardmiddelen — zeldzame materialen, nuttige voorwerpen en soms sterke helden. De aanpak die loont: bereid je van tevoren voor in plaats van onvoorbereid binnen te stappen, verspil je pogingen niet (breng de tickets mee), voltooi quests volledig in plaats van half, en claim alle belangrijke beloningen. Op deze manier getimed, halen uitgaven het maximum uit een specifiek moment in plaats van simpelweg "iets te versnellen".
+
+![Uitgaven timen met evenementen voor maximale beloningen](/img/dtf/economy/03.jpg)
+
+### Checklist voor slim uitgeven
+
+1. Starterspakketten en energie eerst — een sterke held en een gestage grondstoffenstroom.
+2. Richt je in de mid-game op zeldzame helden en uitrustingsmaterialen.
+3. Laat in de late game seizoensgebonden pakketten en versnellingen inzetten voor de top.
+4. Bespaar op kleinigheden: cosmetica, willekeurige kisten, micro-boosts.
+5. Plan rond evenementen — daar behaal je het maximale rendement per investering.
+
+> Bron: [Last Asylum: Plague - как донатить с умом и ускорить прогресс в 2026](https://dtf.ru/moneysaver/4850017-last-asylum-plague-kak-effektivno-donatit-i-uskorit-progress) door Гейм-Знаток op DTF.

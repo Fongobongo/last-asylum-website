@@ -2,7 +2,7 @@
 title: "Triangle Arena: Pertahanan & Penyerangan"
 description: "Tiga formasi, penyerang memilih dua untuk menang: prinsip pertahanan seimbang, aturan matchup pengorbanan, penyerangan berbasis counter, bonus faksi, dan strategi skuad jebakan Arena of Fate untuk shard UR."
 lang: id
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: arena
 calculators: []
 infographics: []
@@ -61,3 +61,57 @@ Hasil terverifikasi dari pemain yang menjalankan sistem ini: **finis secara kons
 - **Bug yang diketahui: beberapa pemain terjebak tanpa peringkat di server baru** — jika peringkat Anda tidak pernah muncul di musim Fate, itu adalah bug, bukan permainan Anda. Laporkan dan tunggu perbaikannya.
 - **Varian serakah (Korpez):** bangun tiga skuad sebagai *utama kuat / umpan / jebakan* — **skuad jebakan menunjukkan Might (kekuatan) yang sangat kecil sambil menyembunyikan carry 10★ Anda** (Marlena, Cynthia). Kebanyakan pemain memindai angka Might, tidak memeriksa komposisi, jadi mereka membuang serangan mereka pada slot "mudah" dan terkena serangan penuh dari carry Anda. Versi ekstrem: **jalankan formasi 4-orang** dengan satu tank dilepas — penurunan kekuatan yang terlihat memancing bahkan pemain tingkat menengah untuk menyerang.
 - "Skuad jebakan + tank dilepas" membawa Korpez dan sekutunya dari peringkat ~160 ke top 50 tanpa pengeluaran tambahan. Visibilitas kekuatan hero mengalahkan angka Might yang ditampilkan.
+
+---
+
+## Catatan Lapangan Triangle Arena: Kekuatan Adalah Kebohongan, Faksi, dan Jurnal (DTF) {#dtf-field-notes}
+
+Anda bisa kalah dari pemain yang lebih lemah dan mengalahkan seseorang yang jutaan kali lebih kuat beberapa menit kemudian: tiga skuad bertarung, dua kemenangan menjadi penentu. Terkadang langkah terbaik adalah tidak pernah menyentuh skuad terbaik musuh; terkadang satu hero mengalahkan kekuatan jutaan; terkadang lima bingkai emas runtuh karena *carry* utama memiliki pedang yang kosong.
+
+![Tips dan rahasia Triangle Arena](/img/dtf/arena/01.jpg)
+
+### Pertahanan tetap merata, serangan diatur ulang setiap pertarungan {#dtf-defense}
+
+Menumpuk semua hal yang mahal (tank papan atas, *carry*, *support*, DD kedua) ke skuad 1 memberi cuma-cuma dua kemenangan bagi penyerang: mereka memberi umpan pada skuad yang lemah dan merebut dua sisanya dengan skor 2:1. Sebar kekuatan agar tidak ada kemenangan gratis — Marlena yang kuat tidak memerlukan setiap Warrior terbaik di sampingnya; memindahkan satu bintang (misal: Harper ke skuad 3, Celia mencakup *support* di tempat lain) mencegah kekalahan mudah dengan skor 2. Periksa ulang pertahanan setelah setiap peningkatan besar agar skuad 1 tidak membengkak sementara bagian ekornya kekurangan.
+
+![Tiga skuad pertahanan di Triangle Arena](/img/dtf/arena/03.jpg)
+
+Pertahanan bersifat pasif dan bertahan; **serangan dibangun kembali hampir di setiap pertarungan serius**. Pertama, baca papan musuh: saat mereka berada di 18/13/12M dan Anda berada di kisaran ~13–15M, jangan lawan yang 18M — berikan umpan skuad terlemah Anda ke sana dan menangkan 13 serta 12. Mengejar ketiganya hanya akan membuang-buang percobaan.
+
+![Tiga pertempuran dengan kondisi menang 2 dari 3](/img/dtf/arena/04.jpg)
+
+### Kekuatan hanyalah petunjuk, faksi membalikkan pertarungan yang seimbang {#dtf-might}
+
+Tim 12M dengan Marlena/Arthur yang berkembang, *carry* yang sesungguhnya, *skill*, dan kecocokan faksi secara rutin mengalahkan tim tumpukan tank dan *support* 14M yang tidak bisa membunuh apa pun. Selalu periksa dari mana angka tersebut berasal — terutama Marlena, yang menggendong permainan sendirian — sebelum memberi umpan tim "10M" ke skuad kedua Anda.
+
+![Perbandingan kekuatan vs komposisi](/img/dtf/arena/05.jpg)
+
+Kemudian periksa faksi: **Rangers > Warriors > Warlocks > Rangers**, dengan keunggulan sekitar **+20%** untuk penangkalnya — cukup untuk menutupi kesenjangan kekuatan yang solid (Warrior Anda yang sedikit lebih kuat melawan Rangers adalah pertempuran mereka, bukan Anda; vs Rangers yang kuat, cobalah Warlocks). Perhatikan sekilas ikon faksi di setiap pertarungan ketika selisihnya di bawah satu juta. Namun, jangan merakit tim Frankenstein demi bonus: counter hanya bagus sebagai tim yang berfungsi dari faksi tersebut — tiga faksi di dalam satu skuad tanpa bonus formasi pernah membuat pembuatnya kalah dalam pertandingan adu kekuatan.
+
+### Perbandingan pasca-pertarungan, perlengkapan, dan angka jebakan {#dtf-compare}
+
+Selalu buka perbandingan perkembangan pasca-pertarungan — hero, pasukan, teknologi, Raven, peninggalan (relic), Hall of Honor, dan banyak lagi. Batang grafik yang timpang menunjukkan letak perbaikannya (hero dan pasukan lebih baik tetapi Raven/Hall tertinggal berarti peningkatan berikutnya sudah jelas; kesenjangan salah satu penulis adalah Hall 31 vs 45). Bingkai emas tidak membunuh siapa pun: hero yang kuat dengan pedang lemah, *skill* rendah, dan perlengkapan kosong akan kalah dari *carry* yang dibangun dengan benar. Marlena dan Zoe adalah contoh paling nyata — satu Zoe maksimal memutuskan jalannya permainan sendirian, sementara beberapa penyerang setengah jadi tidak menghasilkan apa-apa. Aturan: **satu DD sesungguhnya lebih baik daripada tiga calon DD**; jika Marlena menjadi *carry*, perlengkapan menyerangnya (misal: pedang menuju 60, bintang-bintang 4) didahulukan, bukan pedang pameran pada Arthur level-30. Kembangkan satu DD utama per faksi kunci daripada sembilan penyerang menengah.
+
+![Perbandingan pasca-pertarungan lintas hero, pasukan, teknologi, Raven, peninggalan](/img/dtf/arena/07.jpg)
+
+Jangan pernah otomatis menandai angka terlemah sebagai mangsa mudah: skuad 10–12M yang menyembunyikan Marlena + Arthur adalah sebuah jebakan — setiap skuad terlihat lebih lemah di atas kertas, namun dua pertarungan kalah karena hero, faksi, dan pertumbuhan internal. Begitu pula dengan pasukan: hero bagus dengan wajah berbayar tetapi **T8 melawan T9** sudah menjadi celah yang terlihat, dan terkadang tingkatan pasukan berikutnya mengalahkan bintang hero lainnya.
+
+![Skuad berpenampilan lemah yang menyembunyikan Marlena](/img/dtf/arena/08.jpg)
+
+![Pasukan T8 vs T9](/img/dtf/arena/09.jpg)
+
+Sebaliknya: lawan dengan ~20M di skuad 1 dan dua ekor yang lemah harus diabaikan di skuad 1 sepenuhnya — ambil dua bagian ekor tersebut dan menangkan total kekuatan yang lebih menakutkan. Pertahanan yang merata bahkan bisa mengalahkan satu skuad super persis karena alasan ini.
+
+![Lawan dengan satu skuad super dan dua ekor lemah](/img/dtf/arena/10.jpg)
+
+### Jurnal, tempo, perjodohan (matchmaking), dan hadiah gratis {#dtf-journal}
+
+**Jurnal** menunjukkan serangan masuk (biru) versus serangan keluar (merah) — pengujian pertahanan gratis. Bandingkan penyerang dengan kekuatan yang sama: satu memanen dua skuad lemah Anda, yang lain kalah pada kekuatan yang sama karena pembagian yang buruk. Jika pertahanan terus mendonasikan dua skuad yang sama, masalahnya telah ditemukan.
+
+![Jurnal pertahanan](/img/dtf/arena/11.jpg)
+
+Jangan habiskan semua percobaan di pagi hari: peringkat bergeser saat pemain lain menyerang (170 → 400+ dalam hitungan jam adalah hal biasa). Capai misi harian hingga batas perkiraan Anda, lalu naik peringkat lagi di malam hari dengan sisa percobaan yang disimpan. Perjodohan awal minggu terasa aneh sebelum peringkat stabil (30M, lalu 52M, lalu seseorang yang lemah) — hal ini didasarkan pada koin peringkat (105 bertemu 108, 216 bertemu 217), bukan kekuatan asli, jadi gunakan hari pertama untuk eksperimen. Misi harian: **3 dan 5 kemenangan** tidak harus berupa kemenangan beruntun dan menghasilkan Glory Medals; hadiah peringkat/aliansi mencakup *skin* bangunan (misal: +5% serangan hero); ***likes* menghasilkan 30 diamond** (hingga 180/hari di dua arena) — jangan pernah lewatkan diamond gratis.
+
+Setiap pertarungan: temukan skuad musuh yang paling berbahaya, pilih dua target nyata, periksa ulang faksi dan *carry* tersembunyi (Marlena yang dipompa di slot "lemah" mengatur ulang perhitungan), tukar posisi Bella/Harper/Claire/Celia antar skuad, dan barulah lihat kekuatannya. Lebih lambat, dan itulah mengapa hal ini menarik.
+
+여자 Source: [Треугольная арена Last Asylum: Plague - советы и тактика](https://dtf.ru/howto/5253651-sovety-po-treugolnoy-arene-last-asylum-plague) oleh Гейм-Знаток di DTF.

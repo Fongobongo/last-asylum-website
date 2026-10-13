@@ -2,7 +2,7 @@
 title: "Ruée à l'élixir : Comment gagner"
 description: "Un champ de bataille alliance contre alliance de 30 minutes : cinq étapes, un score basé sur le contrôle, la priorité aux Tentes de soin, les règles de téléportation et l'erreur sur le mur qui met fin à votre partie en 10 minutes."
 lang: fr
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: elixir
 calculators: []
 infographics: ["/infographics/elixir-guide.webp", "/infographics/elixir-strategy.webp"]
@@ -337,3 +337,64 @@ Le niveau de RÉS est essentiel pour affronter les monstres d'ère. L'améliorat
 
 La RÉS est le seul attribut à prendre en compte pour affronter les monstres d'ère. Chaque monstre possède son propre attribut de RÉS. Si votre RÉS dépasse celle du monstre, vous les vaincrez facilement. Si votre RÉS est insuffisante, vous subirez des désavantages, voire une défaite au combat.
 
+
+## Tactique de terrain : Escouades, bâtiments et connaissance de la carte {#field-tactics}
+
+La puissance compte dans Elixir Scramble, mais elle pèse bien moins que l'organisation. Une alliance plus forte perdra contre une autre plus faible qui détient les Portes de migration, ramasse les points au sol et ne gare jamais ses héros sur une seule tente. L'événement a lieu le **vendredi** ; la direction de l'alliance attribue généralement les rôles à l'avance — Portes, tentes, alchimie, centre — et le message de planification mérite vraiment d'être lu. Un joueur actif bat à chaque coup un absent enregistré : les bâtiments vides et les coéquipiers aux tâches multiples suivent partout les absents.
+
+![Plan de bataille de l'alliance pour Elixir Scramble](/img/dtf/elixir/01.jpg)
+
+### Configurez trois escouades par rôle, et non uniquement par puissance {#squad-roles}
+
+- **L'escouade 1 est toujours la plus forte** — la formation principale qui élimine les adversaires coriaces et détient les bâtiments clés.
+- **Les escouades 2 et 3 peuvent être des escouades techniques légères — réduites à un seul héros.** Éliminez l'ennemi avec la force principale, puis stationnez une escouade bon marché sur le point et libérez l'escouade 1 pour la prochaine attaque. Si le faible détenteur se fait éliminer, les pertes sont bien moindres.
+- L'une combat, l'autre tient, la dernière couvre ou prend des points supplémentaires.
+
+![Configuration des première, deuxième et troisième escouades avant la course](/img/dtf/elixir/02.jpg)
+
+### Vérification du mur — et l'astuce de l'appât pour éclaireur {#wall-scout-trick}
+
+Ouvrez la défense de la forteresse avant le combat : **ne laissez que l'escouade la plus forte sur le mur, retirez les escouades 2 et 3.** Face à un attaquant plus fort, de faibles escouades de mur constituent des pertes gratuites — quelques milliers de troupes en moins ici et là, puis l'escouade 2 existe spirituellement plutôt que physiquement. Face à des adversaires plus faibles, le mur de l'escouade 1 gagne tout seul. Et si un monstre inarrêtable approche, **retirez tout et laissez-le brûler une forteresse vide** — conserver l'armée l'emporte sur conserver la position.
+
+![Placement des escouades sur le mur](/img/dtf/elixir/03.jpg)
+
+Astuce d'éclaireur : si une reconnaissance ennemie se profile, **retirez l'escouade 1 du mur pendant quelques secondes** pour que le rapport indique une forteresse vide, puis remettez-la. Un attaquant impulsif fonce directement dans une défense complète. Ce n'est pas magique — les vétérans voient clair dans le jeu — mais cela fonctionne à merveille sur les auto-attaquants.
+
+### Priorité des bâtiments selon l'expérience {#building-priority}
+
+N'essayez pas de tout tenir avec huit joueurs actifs et onze points — tenez les plus importants :
+
+- **Portes de migration — à défendre dès le début.** Un temps de recharge de relocalisation de −50 % signifie arriver pour aider à temps, reprendre des bâtiments perdus, échapper à de mauvais combats et se téléporter derrière quelqu'un qui a fait marcher toute son armée hors de sa base. Placez un joueur fort sur les Portes ; s'il doit partir, laissez au moins un détenteur technique faible. Pire scénario : remporter un combat de cinq minutes aux Portes, puis voir les deux joueurs forts s'envoler et laisser l'endroit vide.
+- **Tentes de soins (4 au total) — tenez-en au moins deux au milieu de la bataille.** 15 blessés toutes les 10 secondes (récupérés via un bouton) semblent dérisoires jusqu'à ce que les deux camps s'entretuent et que l'escouade 2 n'ait plus personne à envoyer. Soignez par petits lots pour contrôler les coûts d'accélération.
+- **Ateliers d'alchimie — revenu régulier, pas de bonus** (~50 points/sec chacun). Utiles une fois que les points principaux sont tenus et que l'équipe a du personnel en réserve — ne vaut jamais la peine d'échanger les Portes ou le centre.
+- **Observatoire — +10 % de revenus provenant des bâtiments détenus.** Évolue avec le contrôle de la carte : excellent à la moitié de la carte, faible pour deux points sur dix.
+- **Centre (s'ouvre vers la 10e minute) : Château d'élixir + Relique de guerre + Autel maudit.** Le château est le point le plus riche de la carte (~80 points/sec) — préparez des joueurs forts pour ce moment. La Relique donne des bonus à votre camp, l'Autel affaiblit l'ennemi (vérifiez les pourcentages exacts en jeu, l'équilibre change). Visez le château plus un point de combat — **sans tout abandonner** : une jolie capture du centre alors que l'ennemi s'empare des Portes, de deux tentes, de l'alchimie et de l'Observatoire reste affichée comme une défaite au tableau des scores.
+
+![Château d'élixir, Relique de guerre et Autel maudit après l'ouverture du centre](/img/dtf/elixir/04.jpg)
+
+### Les points qui traînent par terre {#dropped-points}
+
+Après une capture, **les trousses de secours s'accumulent à côté du bâtiment** (commençant après environ une minute, augmentant tant qu'il est détenu). Si le point change de camp, le stock **se disperse et n'importe qui peut le ramasser** — y compris vous. Cinq à neuf mille points qui traînent autour d'un bâtiment peuvent décider d'un match serré :
+
+- Surveillez le stock sous vos bâtiments ; si vous êtes sur le point de perdre le point, préparez-vous à revenir pour ramasser le butin.
+- Un bâtiment ennemi avec un gros tas et un propriétaire vulnérable devient une cible prioritaire.
+- **Les éclaireurs rapides sont des ramasseurs de points** : les détenteurs inactifs doivent scruter les gouttes jaunes et faire la course avec les éclaireurs (les vôtres par rapport aux leurs sont visibles par couleur). Les améliorations de vitesse des éclaireurs sont rentabilisées ici.
+
+![Récupération de trousses de secours et de points autour des bâtiments capturés](/img/dtf/elixir/05.jpg)
+
+### Habitudes de milieu de combat qui font gagner les matchs {#mid-fight-habits}
+
+- **L'escouade forte combat, l'escouade faible tient.** Ne laissez jamais la meilleure armée garder une pièce non contestée pendant dix minutes — faites-la revenir lorsqu'un ennemi sérieux s'approche du détenteur faible.
+- **Attrapez la forteresse vidée.** Lorsque les trois escouades ennemies sortent en marche, téléportez-vous et frappez la maison creuse — même forcer l'escouade principale à revenir est une victoire.
+- **Examinez d'abord les cibles éloignées.** Une longue marche vers une forteresse inconnue qui s'évapore est un voyage gâché ; si un joueur continue de vous battre, échangez de cible avec un allié au lieu de vouloir prouver quelque chose pour la vingtième fois.
+- **À court de soldats ? Restez dans l'événement.** Les camps tardifs **rapportent environ 5 points/sec chacun** — trois camps font 15/sec, ce qui bat zéro. Continuez à ramasser les trousses de secours, à faire de la reconnaissance et à prendre des points vides avec des escouades techniques ; des joueurs presque sans armée ont dominé les classements de collecte de cette façon.
+- **Lisez le chat.** De courts appels (« portes vides », « besoin du centre », « impossible de percer », « prenez les trousses ») font partie de la tactique — demandez un échange tôt au lieu de nourrir un adversant plus fort pendant dix minutes.
+- **Vérifiez le rapport d'après-combat, pas seulement votre rang.** Le nombre de frags trompe ; le joueur qui a tranquillement pris des points gratuits et ramassé les largages surpasse souvent le bagarreur. La participation rapporte également des **médailles d'honneur**, dépensables dans la boutique de l'événement (matériaux, plans d'équipement) — examinez les statistiques avant de fermer la fenêtre.
+
+![Collecte de points dans les camps tard dans la bataille](/img/dtf/elixir/06.jpg)
+
+![Résultats post-bataille : collecte, captures et combats](/img/dtf/elixir/07.jpg)
+
+Erreurs courantes à éviter : ignorer le message de planification, défendre avec de faibles escouades de mur, abandonner les anciens points pour le centre en même temps, et oublier le butin au sol. Surveillez les points par seconde tout au long de la partie — vous pouvez brûler cinq joueurs à la perfection et quand même perdre l'événement.
+
+> Source : [Гонка за эликсиром в Last Asylum: Plague - тактика и стратегии](https://dtf.ru/howto/5338769-gonka-za-eliksirom-v-last-asylum-plague-taktika-i-strategii) par Гейм-Знаток sur DTF.

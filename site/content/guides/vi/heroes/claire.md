@@ -3,7 +3,7 @@ title: "Claire: Kỹ năng, Cách nâng cấp & Xây dựng"
 description: "Claire là một chiến binh SSR đảm nhận vai trò DPS. Khi nâng cấp tối đa, cô đạt 685.150 Lực chiến, xếp hạng 12/16 trong số các tướng DPS của trò chơi. Việc mở khóa cô mất 10 mảnh (Mảnh Claire)…"
 videoTopic: "claire"
 lang: vi
-updated: "2026-09-19"
+updated: "2026-10-12"
 type: guide
 ---
 
@@ -285,3 +285,35 @@ Cả hai dạng đều dùng chung một loại mảnh: 10 mảnh sẽ mở khó
 Sao tiêu tốn của Claire nhiều nhất không phải ở huy hiệu mà là ở thời gian chờ đợi: 975 mảnh, trong khi một lượt chiêu mộ chỉ mang lại mảnh tướng trong khoảng 26% số lần quay. Các kỹ năng tăng lên cấp 40 tốn 436.700 huy hiệu cho mỗi kỹ năng và đem lại giá trị ít hơn: Call of the Brave đạt tối đa 24% sát thương quái vật so với 30% của dạng nâng cao.
 
 Đội hình tốt nhất với Claire mà không có tướng UR là Kesso, Lucius, Sivir, Bella và chính Claire: 5 chiến binh, nhận thưởng +20% và 8,1M khả năng sinh tồn. Cùng với Arthur và Marlena, cô gia nhập ba trong năm đội hình tốt nhất có thể tiếp cận, nơi khả năng sinh tồn đạt tới 38,2M, và cái giá phải trả cho toàn bộ hiệu ứng thưởng là chịu thêm 20% sát thương từ các Ranger.
+
+---
+
+## ✦ Claire Vàng (UR): Cơ chế chuyển đổi và đánh giá {#dtf-gold-claire}
+
+Việc nâng cấp độ hiếm của Claire biến phiên bản SSR tím thành phiên bản UR — và cơ chế này dễ chịu hơn, nhưng sau đó tốn kém hơn so với vẻ bề ngoài của nó. Cấp độ được giữ lại, số sao thì không.
+
+### Những gì được giữ lại sau khi chuyển đổi {#dtf-claire-conversion}
+
+Sau khi chuyển đổi, anh hùng sẽ **không** bị tụt về cấp độ 1: toàn bộ 150 cấp độ đều được giữ lại. Số sao được thiết lập lại theo một cách khác — Claire vàng sẽ đạt **sáu sao**, với một phần tài nguyên đã đầu tư được hoàn trả dưới dạng mảnh tướng và huy hiệu kỹ năng để phân phối lại vào dạng nâng cấp mới. Điểm bất ngờ không mấy dễ chịu: các mốc sao tiếp theo tốn kém hơn đáng kể — gấp khoảng hai lần số mảnh so với dạng cũ. Vì vậy, đừng vội đưa cả mười sao trở lại ngay trong cùng một ngày. Ưu tiên là **8★**, giúp mở khóa kỹ năng thứ năm và đã mang lại một bộ kỹ năng rất hoàn chỉnh; hai ngôi sao cuối cùng có thể dần hoàn thiện thông qua các mảnh tướng trong cửa hàng của cô ấy và các nguồn có sẵn.
+
+![Nâng cấp độ hiếm của Claire lên vàng](/img/dtf/daskal-claire/05.jpg)
+
+![Claire vàng sau khi chuyển đổi](/img/dtf/daskal-claire/06.jpg)
+
+Bản nâng cấp không chỉ là đổi màu: chỉ số cơ bản thực sự tăng vọt, đặc biệt là HP và ATK trên cùng số liệu của tài khoản.
+
+![So sánh chỉ số Claire vàng và tím](/img/dtf/daskal-claire/07.jpg)
+
+![So sánh chỉ số UR và Claire cũ](/img/dtf/daskal-claire/08.jpg)
+
+### Mạnh mẽ — nhưng chuyên biệt cho PvE {#dtf-claire-pve-focus}
+
+Đừng gọi Claire vàng là sự thay thế toàn diện cho bất kỳ tướng sát thương (DPS) UR nào. Cô ấy vẫn được tinh chỉnh mạnh mẽ cho PvE và quái vật: Kỹ năng Tiếng gọi của Dũng giả (Call of the Brave) giúp tăng sát thương cho ba Chiến binh có chỉ số ATK cao nhất trong đội đặc biệt là khi chống lại quái vật, vì vậy trong sự kiện Vua Quỷ (Demon King) và các nội dung PvE khác, cô ấy tỏa sáng trong khi một phần bộ kỹ năng của cô ấy không phát huy tác dụng trong PvP. Nếu nhu cầu chính là chiến đấu chống lại người chơi, Zoya tỏ ra toàn diện hơn.
+
+![Claire được tinh chỉnh cho PvE và quái vật](/img/dtf/daskal-claire/09.jpg)
+
+![Claire so với Marlena, Arthur và Harper ở cấp độ 150](/img/dtf/daskal-claire/10.jpg)
+
+Đánh giá: Claire vàng củng cố tuyệt vời cho lớp Chiến binh trong PvE mà không tự động trở thành lựa chọn tốt nhất cho mọi chế độ. Hãy dừng cô ấy lại ở mức tám sao, từ từ cày cuốc hai sao cuối cùng, và giữ cô ấy ở những nơi mà phần thưởng chống quái vật của cô ấy phát huy tác dụng.
+
+> Nguồn: [Даскал и золотая Клэр в Last Asylum: Plague - как правильно прокачивать героев](https://dtf.ru/howto/5317537-daskal-i-zolotaya-kler-v-last-asylum-prokachka-geroev) bởi Гейм-Знаток trên DTF.

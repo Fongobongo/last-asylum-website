@@ -2,7 +2,7 @@
 title: "Pengepungan Mayat Hidup: Panduan Lengkap"
 description: "Pertahanan perikatan terhadap gelombang yang dijangkiti: bar petunjuk 300,000, tahap kesukaran dari 2.4M hingga 24.5M Kekuatan Musuh, mekanik skuad berbilang tersembunyi yang membunuh pemain 9.5M, dan jadual ganjaran penuh."
 lang: ms
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: undead
 calculators: []
 infographics: ["/infographics/undead-siege-guide-2.webp", "/infographics/undead-siege-guide.webp"]
@@ -118,3 +118,61 @@ Nilai disahkan daripada data pelanggan permainan (v1.0.87), sumber: wiki-last-as
 | 8 | 25-28 | 17,411,540 | 196,300,000 |
 | 9 | 26-29 | 20,155,943 | 202,600,000 |
 | 10 | 27-30 | 24,471,960 | 255,600,000 |
+
+---
+
+## Nota Lapangan Pengepungan Mayat Hidup: Petunjuk, 20 Gelombang dan Pengawas {#dtf-field-notes}
+
+Pengepungan ialah ujian organisasi untuk persekutuan, bukan acara pemain gagah seorang diri: pencarian Falcon mengisi bar, skuad dinding menahan, ahli yang dalam talian merawat, pemain kuat mengukuhkan yang lemah. Jika dilancarkan tanpa persiapan, separuh persekutuan terbakar di tengah jalan dan ruangan sembang dipenuhi dengan "mengapa perisai tidak berfungsi" dan "siapa yang menekan butang mula".
+
+![Panduan kulit muka Pengepungan Mayat Hidup](/img/dtf/undead/01.jpg)
+
+### Petunjuk datang daripada pencarian Falcon {#dtf-clues}
+
+Persekutuan memerlukan **petunjuk** untuk mengisi bar pelancaran, dan ia datang daripada pencarian Falcon — terutamanya pencarian pembunuhan terhadap **estet, Wandering Blight dan Blight Legion**, bernilai kira-kira **300 serpihan setiap satu**. Jika ahli mengabaikan pencarian tersebut, pengepungan itu terbiar separuh siap.
+
+![Petunjuk untuk pengepungan datang daripada pencarian Falcon](/img/dtf/undead/03.jpg)
+
+Ketegangannya: ramai pemain menyimpan pencarian Falcon untuk Duel Persekutuan (penyusunan Ahad/Selasa/Khamis). Itu biasa-biasa sahaja, tetapi apabila persekutuan memerlukan petunjuk, pencarian pembunuhan yang diperlukan harus dijalankan dan dituntut setiap hari. Pegawai harus menamakan sasaran secara jelas — estet, wandering blight, blight legion — bukan sekadar "buat Falcon".
+
+### Siapa yang melancarkan dan bila {#dtf-launch}
+
+Pada 100% petunjuk, **R4/R5 melancarkan** dan memilih masa berserta kesukaran. Jangan sesekali melancarkan kerana "saya dalam talian sekarang" — separuh persekutuan akan berada di luar talian, dinding tidak ditetapkan, bantuan bala tidak dihantar. Jadualkan untuk waktu kemuncak dalam talian pada waktu petang, beri amaran dalam sembang serta Telegram/Discord, dan jalankan semakan 5 minit: siapa yang dalam talian, siapa yang lemah dan memerlukan bantuan bala, siapa yang boleh menghantar skuad ke-2/ke-3, siapa yang mempunyai perarakan utama di dinding, tahap kesukaran apa yang sebenarnya mampu ditahan oleh senarai anggota.
+
+![Syarat penyertaan pengepungan](/img/dtf/undead/04.jpg)
+
+Pintu masuk: **Tahap Sanctuary** (kira-kira 14 pada kesukaran 1 sehingga ~27 pada kesukaran 10), **48+ jam dalam persekutuan** (tiada lompatan saat akhir untuk ganjaran), dan **tiada kelembapan luar talian 72j+**. Semak senarai anggota sebelum pelancaran — pendatang baharu dan pemain yang tidur tidak membantu acara 20 gelombang.
+
+### Kesukaran, gelombang dan peraturan 20 pemain {#dtf-difficulty}
+
+Kesukaran dibuka secara berurutan — tiada lompatan ke tahap 10. Jumlah gelombang persekutuan untuk ganjaran maksimum berskala daripada kira-kira **300 pada kesukaran 1 hingga ~1,200 pada kesukaran 10**. Untuk meningkat naik, **sekurang-kurangnya 20 ahli mesti melepasi kesemua 20 gelombang** — bukan seorang pemain teratas, bukan lima pemain teratas. Pemain lemah terbiar yang mati pada gelombang 8–10 boleh menyekat seluruh persekutuan, jadi mengukuhkan pemain pertengahan adalah lebih baik daripada mengagumi kuasa teratas.
+
+![Tahap kesukaran dan 20 gelombang untuk ganjaran maksimum](/img/dtf/undead/05.jpg)
+
+Ganjaran peribadi berskala mengikut gelombang yang terselamat — **kesemua 20 untuk maksimum**. Jika sesuatu gelombang membakar anda, penyertaan tamat pada peringkat gelombang itu tanpa kemasukan semula. Senarai semak pra-mula: perarakan terkuat di dinding, tentera yang mencukupi, penyembuhan sedia dengan sumber dan pecutan, dalam talian semasa mula, permintaan bantuan bala diminta lebih awal jika lemah. Kebanyakan kegagalan adalah perkara yang jelas: perarakan salah, dinding kosong, harapan perisai, AFK "5 minit" hilang di ditiup angin.
+
+### Perisai tidak melakukan apa-apa, dinding melakukan segalanya {#dtf-shield}
+
+Perisai **tidak menghentikan gelombang pengepungan**. Sebaik sahaja dilancarkan, gelombang akan datang tanpa mengira keadaan. Dinding mesti menahan skuad sebenar: perarakan pertahanan atau tempur utama terkuat — kebal yang baik, pembawa, sokongan — bukan perarakan pengumpulan atau tempat letak "akan tukar nanti". Pemain lemah harus meminta bantuan lebih awal; "Saya perlukan bantuan bala" yang tepat pada masanya membantu persekutuan, kediaman dalam senyap berserta kemusnahan pertengahan acara tidak membantu.
+
+![Perisai tidak menghentikan gelombang pengepungan](/img/dtf/undead/06.jpg)
+
+Pemain kuat mengukuhkan yang lemah dengan **skuad ke-2 dan ke-3 sambil mengekalkan perarakan utama di rumah**. Bandar yang lemah bukanlah malas, ia cuma lebih lemah — dengan bantuan ia bertahan lebih banyak gelombang, memperoleh lebih banyak ganjaran peribadi, dan menambah gelombang persekutuan. Tetapkan pembantu sebelum mula; kekacauan pertengahan gelombang (penyembuhan, sembang, salah klik) menjadikan bantuan lewat bertambah lewat.
+
+![Mengukuhkan sekutu semasa pengepungan](/img/dtf/undead/07.jpg)
+
+### Penyembuhan, tempoh bertenang dan pengawas {#dtf-healing}
+
+Tentera yang terkorban mendarat di **infirmari** — kekal dalam talian, sembuhkan antara gelombang, muat semula bantuan apabila sekutu mengalami kerosakan. Semak sebelum mula: sumber penyembuhan, pecutan, ruang infirmari percuma, kesanggupan duduk melalui gelombang tersebut. Infirmari yang penuh berserta tiada sumber menukar acara itu menjadi pemandangan hiasan sahaja.
+
+![Pelan larian pengepungan](/img/dtf/undead/08.jpg)
+
+Selepas semua gelombang tamat, terdapat kira-kira **2 hari tempoh bertenang**, tetapi petunjuk boleh diternak semasa tempoh ini — teruskan menjalankan pencarian Falcon supaya kesukaran seterusnya dilancarkan dengan lebih cepat. Kitaran: kumpul, lancarkan, 20 gelombang, ganjaran, tempoh bertenang, kumpul semula.
+
+Pada **kesukaran 9 dan 10, setiap gelombang ke-4 mempunyai peluang 20% untuk menjadi Overseer** dengan ganjaran bonus, dan Overseer tersebut mempunyai **peluang 30% untuk bertukar menjadi Enraged Overseer** dengan barangan rampasan yang lebih baik. Jangan mengejar mereka terlalu awal: jika persekutuan hampir tidak mampu menahan gelombang biasa, wira akan merugikan ganjaran yang stabil terlebih dahulu.
+
+![Overseer dan Enraged Overseer](/img/dtf/undead/09.jpg)
+
+Pilih kesukaran berdasarkan bukti, bukan kebanggaan: berapa ramai yang melepasi 20/20, siapa yang mati awal, siapa yang memerlukan bantuan, sama ada penyembuhan bertahan, sama ada gelombang maksimum ditutup, sama ada sembang menjadi panik. Pembersihan yang yakin bergerak ke atas; pembersihan yang meragukan kekal. Untuk pegawai: umumkan lebih awal, tetapkan pasangan lemah→kuat, kekalkan kesukaran yang jujur, dan jelaskan kepada pendatang baharu bahawa perisai tidak menyelamatkan dan perarakan dinding adalah manual.
+
+> Sumber: [Last Asylum: Plague - гайд по событию Осада нежити. Как пройти 20 волн, не сгореть и помочь альянсу](https://dtf.ru/howto/5189978-osada-nezhiti-last-asylum-plague) oleh Гейм-Знаток di DTF.

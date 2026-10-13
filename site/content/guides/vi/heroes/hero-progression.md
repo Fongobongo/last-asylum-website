@@ -2,7 +2,7 @@
 title: "Tiến trình: Kỹ năng & Sao"
 description: "Phần hướng dẫn về anh hùng: tiến trình kỹ năng và sao."
 lang: vi
-updated: "2026-10-01"
+updated: "2026-10-12"
 videoTopic: heroes
 ---
 
@@ -234,3 +234,96 @@ Các trang có nhắc đến trang này. Danh sách này được xây dựng t�
 - Arthur: kỹ năng, nâng cấp và Lực chiến
 
 ## Bình luận
+
+## Thứ tự đầu tư: Sát thương → Tuyến đầu → Hỗ trợ {#dtf-investment-order}
+
+Một anh hùng được định nghĩa bởi vai trò trước khi xét đến chân dung. Mẫu đội hình làm việc trong cẩm nang thực chiến này là **2 tướng đỡ đòn + 2 tướng gây sát thương + 1 tướng hỗ trợ**: hai tướng đỡ đòn mua thời gian sống sót, hai tướng gây sát thương tạo áp lực, một tướng hỗ trợ nhân bản cỗ máy cốt lõi đã tồn tại sẵn.
+
+![Ảnh bìa hướng dẫn: cách nâng cấp anh hùng chính xác](/img/dtf/hero-progression/01.jpg)
+
+### Cách đọc vai trò {#dtf-roles}
+
+- **Khiên — tướng đỡ đòn.** Hứng chịu đòn tấn công, giữ tuyến đầu, bảo vệ đội hình bằng các kỹ năng phòng thủ và giảm sát thương.
+- **Lửa — tướng gây sát thương (chủ lực).** Tiêu diệt kẻ địch nhanh chóng; một trận chiến ngắn sẽ gây ít sát thương trả đũa lên đội của bạn hơn.
+- **Bình thuốc — tướng hỗ trợ.** Hiệu ứng có lợi, duy trì sinh lực, hỗ trợ tài nguyên. Hầu như luôn tỷ lệ thuận với sức mạnh sẵn có của phần còn lại trong đội hình.
+
+Phân bổ tài nguyên đồng đều sẽ tạo ra năm anh hùng tầm thường. Tập trung tài nguyên sẽ tạo ra một đội hình phá đảo nội dung game.
+
+![Vai trò anh hùng: đỡ đòn, gây sát thương, hỗ trợ](/img/dtf/hero-progression/02.jpg)
+
+### Thứ tự thúc đẩy tiến trình {#dtf-carry-first}
+
+1. **Tướng gây sát thương chính** — tiến độ vượt chiến dịch, PvE và sự kiện nhanh nhất.
+2. **Tướng đỡ đòn chính** — thiếu tuyến đầu, chủ lực sẽ không bao giờ tung được chiêu thức.
+3. **Tướng gây sát thương thứ hai, tướng đỡ đòn thứ hai, rồi đến tướng hỗ trợ.**
+
+Buff một chủ lực yếu kém bằng tướng hỗ trợ từ sớm chẳng khác nào lắp tuabin vào xe đẩy siêu thị: ồn ào, nhưng chẳng đi đến đâu.
+
+### Chủ lực chính trước tiên: Lấy Marlena làm ví dụ {#dtf-marlena-carry}
+
+Theo hướng Chiến Binh (Warrior), ví dụ điển hình là Marlena. Ba yếu tố quan trọng đối với tướng gây sát thương chính: **cấp độ anh hùng, trang bị sát thương và kỹ năng sát thương cốt lõi** (đối với Marlena, đó là nội tại tăng sát thương năng lượng — chứ không phải tăng đều mọi thứ một chút).
+
+![Marlena trong vai trò tướng gây sát thương chính](/img/dtf/hero-progression/03.jpg)
+
+Ưu tiên trang bị cho chủ lực là **kiếm, sau đó đến găng tay**. Giáp và giày không phải là vô dụng, nhưng việc ưu tiên phòng thủ cho chủ lực đồng nghĩa với việc cả hai đội sẽ sống sót lâu hơn. Các kỹ năng tuân theo quy luật tương tự: nâng cấp hiệu ứng làm tăng loại sát thương chính trước khi nâng cấp phụ trợ.
+
+![Nâng cấp anh hùng theo thứ tự: chủ lực trước, sau đó đến đỡ đòn và hỗ trợ](/img/dtf/hero-progression/04.jpg)
+
+### Tướng gây sát thương thứ hai: sau khi người đầu tiên đã có nền tảng vững chắc {#dtf-second-carry}
+
+Tướng gây sát thương thứ hai gia tăng nhịp độ, kết liễu mục tiêu và làm bảo hiểm cho chủ lực chính — nhưng chỉ sau khi người thứ nhất đã có cấp độ, kỹ năng chủ chốt, kiếm và găng tay. Việc chia đều 50/50 mọi thứ quá sớm sẽ tạo ra hai kẻ đánh đòn tầm thường mà mục tiêu của họ vẫn sống nhăn.
+
+Hãy chọn anh hùng thực sự đứng trong đội hình 5 người chính của bạn lúc này, chứ không phải một dự án "có thể tính sau".
+
+### Tướng đỡ đòn thứ hai: Arthur giữ vững chiến tuyến {#dtf-arthur-tank}
+
+Sau chủ lực, tuyến đầu phải bắt kịp tiến độ. Arthur trong vai trò tướng đỡ đòn chính cần cấp độ, trang bị phòng thủ và các kỹ năng bảo vệ đồng đội. Thứ tự trang bị là **giáp, sau đó đến giày** (giáp chống sát thương vật lý, giày để sinh tồn trước sát thương năng lượng và các mốc phòng thủ).
+
+![Nâng cấp Arthur: giáp, giày và kỹ năng phòng thủ](/img/dtf/hero-progression/05.jpg)
+
+Cần nâng gì ở tướng đỡ đòn: đầu tiên là kỹ năng tối thượng (chiêu cuối của Arthur làm giảm sát thương vật lý gánh chịu bởi đồng minh trong vùng ảnh hưởng), tiếp theo là các nội tại cắt giảm sát thương gánh chịu hoặc giúp tướng đỡ đòn thứ hai sống sót. Một tuyến đầu bất tử nhưng không có sát thương ở phía sau thì chỉ có thể thua chậm và đầy anh dũng.
+
+### Tướng hỗ trợ thứ ba: Celia thời điểm đầu, Harper về sau {#dtf-harper-support}
+
+Celia có thể đảm nhận vị trí hỗ trợ trong giai đoạn đầu, nhưng giá trị của cô ấy nghiêng về tài nguyên hơn là sức mạnh chiến đấu trực tiếp. Harper (tăng buff tấn công cho đồng minh, đặc biệt là hệ Chiến Binh, thông qua nội tại và chiêu cuối) phù hợp với đội hình chiến đấu Chiến Binh hơn rất nhiều — một khi đã có thứ gì đó đáng để buff.
+
+![Harper: hỗ trợ tấn công cho các anh hùng hệ Chiến Binh](/img/dtf/hero-progression/06.jpg)
+
+Đừng đổi Harper vào đội hình ngay ở cấp độ 1 chỉ vì hắn vừa xuất hiện. Hãy chuyển giao dần dần, và lên kế hoạch tài nguyên cho hắn trước: hiệu ứng buff chỉ phát huy tác dụng khi Marlena và Arthur cùng một tướng gây sát thương thứ hai đã đứng vững.
+
+Trình tự thực tế: tướng gây sát thương chính → tướng đỡ đòn chính → tướng gây sát thương thứ hai → tướng đỡ đòn thứ hai → tướng hỗ trợ khi lõi đội hình đã sẵn sàng.
+
+### Trang bị và kỹ năng theo vai trò, không theo sở thích cá nhân {#dtf-gear-skills-by-role}
+
+- Chủ lực: **kiếm → găng tay** trước.
+- Đỡ đòn: **giáp → giày** trước.
+- Hỗ trợ: trang bị phòng thủ nếu nó dễ chết và làm mất buff, ngược lại thì để sau.
+- Không bao giờ giao thanh kiếm tốt nhất cho tướng đỡ đòn khi chủ lực chính còn thiếu sát thương, và không bao giờ tối đa hóa giáp của chủ lực trước các món trang bị sát thương của nó.
+
+Về kỹ năng, hãy đọc kỹ mô tả: chủ lực = sát thương và bộ khuếch đại năng lượng hoặc vật lý; đỡ đòn = giảm sát thương gánh chịu, bảo vệ đồng minh, duy trì tuyến đầu; hỗ trợ = buff tấn công, buff phe phái, phần thưởng đội hình làm việc. Với Marlena, việc gia tăng sát thương là quan trọng; với Arthur là phòng thủ đội hình; với Harper là buff tấn công đồng minh.
+
+### Kỷ luật của dân cày chay (F2P) {#dtf-f2p-discipline}
+
+1. Chọn một hướng phe phái.
+2. Xác định rõ tướng gây sát thương chính.
+3. Tối đa hóa sức mạnh cho nó trước, sau đó đến tướng đỡ đòn chính, tướng gây sát thương thứ hai, tướng đỡ đòn thứ thứ hai, và cuối cùng mới là hỗ trợ.
+4. Đừng chạy theo mọi lượt triệu hồi mới; một đội hình hoàn thiện sẽ đánh bại một bộ sưu tập thẻ bài mới xây dựng một nửa.
+
+Công thức tìm kiếm 5 vai trò tương tự hoạt động hiệu quả ở bất kỳ phe phái nào: tìm ra chủ lực chính, chủ lực thứ hai, hai tướng đỡ đòn và hỗ trợ của *chính bạn*, sau đó triển khai theo thứ tự sát thương → tuyến đầu → hỗ trợ. Một anh hùng mạnh mẽ nhưng thiếu đi phe phái, vai trò và các phần thưởng đội hình xung quanh sẽ thi đấu kém hiệu quả.
+
+![Sơ đồ nâng cấp đội hình chính: tướng gây sát thương, tướng đỡ đòn, hỗ trợ](/img/dtf/hero-progression/07.jpg)
+
+### Sáu sai lầm kinh điển {#dtf-progression-mistakes}
+
+1. Nâng cấp mọi người một chút — nền tảng yếu kém.
+2. Nâng cấp hỗ trợ trước chủ lực.
+3. Quên mất tướng đỡ đòn — chủ lực đã chết thì gây ra được con số không tròn trĩnh.
+4. Dùng chung một bộ trang bị cho mọi vai trò — vai trò đặt lên hàng đầu, trang bị tính sau.
+5. Xây dựng lại đội hình cho mỗi lần triệu hồi tướng mới — mới không có nghĩa là tốt hơn.
+6. Tiêu xài không có kế hoạch — tài nguyên đắt đỏ nhất chính là một quyết định sai lầm.
+
+Chẩn đoán qua báo cáo chiến trận: tướng đỡ đòn chết ngay lập tức → vấn đề tuyến đầu; chiến đấu kéo dài mà không hạ gục được ai → vấn đề sát thương; chủ lực sống sót nhưng thi đấu kém hiệu quả → kiểm tra kỹ năng và trang bị. Hãy duy trì kế hoạch 1–2 tuần (ai hiện tại, ai tiếp theo, món đồ nào, kỹ năng nào).
+
+![Cách nâng cấp anh hùng mà không lãng phí tài nguyên](/img/dtf/hero-progression/08.jpg)
+
+> Nguồn: [Last Asylum: Plague - как правильно качать героев и не слить ресурсы впустую](https://dtf.ru/howto/5138522-last-asylum-plague-prokachka-geroev) bởi Гейм-Знаток trên DTF.

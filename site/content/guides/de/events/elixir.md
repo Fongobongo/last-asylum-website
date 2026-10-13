@@ -2,7 +2,7 @@
 title: "Elixier-Gerangel: Wie man gewinnt"
 description: "Ein 30-minütiges Allianz-gegen-Allianz-Punkteschlachtfeld: fünf Phasen, kontrollbasierte Wertung, Priorität für Heilzelte, Teleportregeln und der Mauer-Fehler, der deinen Run in 10 Minuten beendet."
 lang: de
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: elixir
 calculators: []
 infographics: ["/infographics/elixir-guide.webp", "/infographics/elixir-strategy.webp"]
@@ -336,3 +336,66 @@ Das WID Level ist entscheidend für den Kampf gegen Ära-Monster. Das Verbessern
 
 WID ist das einzige Attribut für den Kampf gegen Ära-Monster. Jedes Monster hat sein eigenes WID-Attribut. Wenn dein WID das WID des Monsters übersteigt, besiegst du es leicht; falls dein WID zu niedrig ist, wirst du Nachteile haben oder sogar im Kampf besiegt werden.
 
+
+---
+
+## Feldtaktik: Trupps, Gebäude und Kartenübersicht {#field-tactics}
+
+Macht ist bei „Elixir Scramble“ wichtig, aber sie entscheidet viel weniger als Organisation. Eine stärkere Allianz verliert gegen eine schwächere, die die Migrationsstore hält, gefallene Punkte aufsammelt und niemals Helden an nur einem Zelt parkt. Das Event findet freitags statt; die Allianzführung weist in der Regel im Voraus Rollen zu – Tore, Zelte, Alchemie, Mitte – und es lohnt sich tatsächlich, die Planungsnachricht zu lesen. Ein aktiver Spieler schlägt jedes Mal einen angemeldeten Abwesenden: Leere Gebäude und doppelt beschäftigte Teamkollegen folgen Abwesenden auf Schritt und Tritt.
+
+![Allianz-Schlachtplan für Elixir Scramble](/img/dtf/elixir/01.jpg)
+
+### Stelle drei Trupps nach Rolle auf, nicht nur nach Macht {#squad-roles}
+
+- **Trupp 1 ist immer der stärkste** – die Hauptaufstellung, die starke Gegner ausschaltet und Schlüsselgebäude hält.
+- **Trupp 2 und 3 können leichte technische Trupps sein – herunter bis zu einem einzigen Helden.** Schalte den Feind mit der Hauptstreitmacht aus, parke dann einen billigen Trupp am Punkt und mache Trupp 1 für den nächsten Angriff frei. Falls der schwache Halter ausgeschaltet wird, sind die Verluste wesentlich geringer.
+- Einer kämpft, einer hält, einer deckt ab oder holt zusätzliche Punkte.
+
+![Einrichten des ersten, zweiten und dritten Trupps vor dem Rennen](/img/dtf/elixir/02.jpg)
+
+### Wall-Check und der Späher-Köder-Trick {#wall-scout-trick}
+
+Öffne die Festungsverteidigung vor dem Kampf: **Lass nur den stärksten Trupp auf der Mauer, nimm Trupp 2–3 herunter.** Gegen einen stärkeren Angreifer sind schwache Mauertrupps kostenlose Verluste – ein paar Tausend Einheiten verschwinden hier und da, und schon existiert Trupp 2 eher auf spirituelle als auf physische Weise. Gegen schwächere Gegner gewinnt die Mauer von Trupp 1 von allein. Und wenn ein unaufhaltsames Monster im Anmarsch ist, **nimm alles herunter und lass sie eine leere Festung niederbrennen** – die Armee zu behalten ist wichtiger, als die Position zu halten.
+
+![Platzierung der Mauertrupps](/img/dtf/elixir/03.jpg)
+
+Späher-Trick: Wenn feindliche Aufklärung im Anmarsch ist, **ziehe Trupp 1 für ein paar Sekunden von der Mauer ab**, damit der Bericht eine leere Festung anzeigt, und setze ihn dann wieder zurück. Ein impulsiver Angreifer stürzt sich direkt in eine volle Verteidigung. Keine Magie – Veteranen durchschauen das –, aber es funktioniert wunderbar bei Auto-Angreifern.
+
+### Gebäudepriorität aus Erfahrung {#building-priority}
+
+Versuche nicht, mit acht aktiven Spielern und elf Punkten alles zu halten – halte die Schlüsselpunkte:
+
+- **Migrationsstore (Migration Gates) – von Anfang an verteidigen.** −50 % Abklingzeit für die Verlegung bedeutet, rechtzeitig zur Hilfe zu kommen, verloren gegangene Gebäude zurückzuerobern, schlechten Angriffen zu entkommen und sich hinter jemanden zu teleportieren, der seine gesamte Armee weggeschickt hat. Setze einen starken Spieler an die Tore; falls er gehen muss, hinterlasse mindestens einen schwachen technischen Halter. Schlimmstenfalls: Gewinne einen fünfminütigen Tor-Kampf, und danach fliegen beide starken Spieler weg und lassen es leer zurück.
+- **Heilzelte (Healing Tents, insgesamt 4) – halte mindestens zwei bis zur Mitte des Kampfes.** 15 Verwundete alle 10 Sekunden (über einen Button beansprucht) fühlen sich wenig an, bis beide Seiten Auslöschungen getauscht haben und Trupp 2 niemanden mehr hat, den er losschicken könnte. Heile in kleinen Chargen, um die Kosten für Beschleunigungen zu kontrollieren.
+- **Alchemieworkshops (Alchemy Workshops) – stetiges Einkommen, keine Buffs** (~50 Punkte/Sek. pro Werkstatt). Gut, sobald die Hauptpunkte gehalten werden und das Team übrige Leute hat – es ist niemals wert, dafür die Tore oder die Mitte zu opfern.
+- **Observatorium – +10 % Einkommen von gehaltenen Gebäuden.** Skaliert mit der Kartenkontrolle: großartig bei der Hälfte der Karte, schwach bei zwei von zehn Punkten.
+- **Mitte (öffnet sich ca. bei Minute 10): Elixierschloss (Elixir Castle) + Kriegsrelikt (War Relic) + Verfluchter Altar (Cursed Altar).** Das Schloss ist der reichster Punkt auf der Karte (~80 Punkte/Sek.) – bereite starke Spieler auf diesen Moment vor. Das Relikt bufft deine Seite, der Altar schwächt den Feind (überprüfe die genauen Prozentsätze im Spiel, das Gleichgewicht verschiebt sich). Strebe das Schloss plus einen Kampfpunkt an – **ohne alles andere aufzugeben**: Eine hübsche Einnahme der Mitte, während der Feind die Tore, zwei Zelte, die Alchemie und das Observatorium einnimmt, wird auf der Anzeigetafel immer noch als Niederlage gewertet.
+
+![Elixierschloss, Kriegsrelikt und Verfluchter Altar nach dem Öffnen der Mitte](/img/dtf/elixir/04.jpg)
+
+### Die Punkte, die auf dem Boden liegen {#dropped-points}
+
+Nach einer Eroberung **sammeln sich Medipacks neben dem Gebäude an** (beginnen nach ca. einer Minute und wachsen, solange es gehalten wird). Wenn der Punkt kippt, **verstreut sich der Vorrat und jeder kann ihn aufsammeln** – einschließlich dir. Fünf bis neuntausend Punkte, die um ein Gebäude herumliegen, können ein enges Match entscheiden:
+
+- Behalte den Vorrat unter deinen Gebäuden im Auge; wenn du den Punkt gleich verlierst, mach dich bereit, zurückzukehren und die Beute einzusammeln.
+- Ein feindliches Gebäude mit einem fetten Stapel und einem schlagbaren Besitzer wird zu einem vorrangigen Ziel.
+- **Schnelle Späher sind Punktesammler:** Untätige Halter sollten nach gelben Drops Ausschau halten und mit Spähern darum wettstreiten (deine gegen ihre sind an der Farbe erkennbar). Upgrades der Spähergeschwindigkeit machen sich hier bezahlt.
+
+![Das Einsammeln von Medipacks und Punkten um eingenommene Gebäude herum](/img/dtf/elixir/05.jpg)
+
+### Gewohnheiten mitten im Kampf, die Matches gewinnen {#mid-fight-habits}
+
+- **Starker Trupp kämpft, schwacher Trupp hält.** Lass niemals die beste Armee zehn Minuten lang einen umkämpften Raum bewachen – rotiere sie zurück, wenn sich ein ernsthafter Feind dem schwachen Halter nähert.
+- **Erwische die geleerte Festung.** Wenn alle drei feindlichen Trupps ausrücken, teleportere dich hinein und schlage in das leere Zuhause ein – selbst das Zwingen des Haupttrupps zur Rückkehr ist ein Sieg.
+- **Spähe ferne Ziele zuerst aus.** Ein langer Marsch in eine unbekannte Festung, die sich in Luft auflöst, ist eine verschwendete Reise; wenn dich ein Spieler ständig besiegt, tausche das Ziel lieber mit einem Verbündeten, anstatt zwanzig Mal einen Punkt beweisen zu wollen.
+- **Keine Soldaten mehr? Bleibe im Event.** Spätere **Camps bringen jeweils ca. 5 Punkte/Sek.** – drei Camps sind 15/Sek., was besser ist als Null. Sammle weiterhin Medipacks, spähe aus und nimm leere Punkte mit technischen Trupps ein; Spieler, die fast keine Armee mehr hatten, haben auf diese Weise die Sammlungsränge angeführt.
+- **Lies den Chat.** Kurze Ansagen („Tore leer“, „brauche Mitte“, „kann nicht durchbrechen“, „Medipacks einsammeln“) sind Teil der Taktik – frage früh nach einem Tausch, anstatt einen stärkeren Gegner zehn Minuten lang zu füttern.
+- **Überprüfe den Nachkampfbericht, nicht nur deinen Rang.** Kill-Zahlen täuschen; der Spieler, der still und leise freie Punkte mitgenommen und Drops eingesammelt hat, übertrifft den Schläger oft. Die Teilnahme bringt zudem **Ehrenmedaillen (Honor Medals)** ein, die im Event-Shop ausgegeben werden können (Materialien, Ausrüstungsbaupläne) – überprüfe die Statistiken, bevor du das Fenster schließt.
+
+![Punkte sammeln in Lagern spät im Kampf](/img/dtf/elixir/06.jpg)
+
+![Ergebnisse nach dem Kampf: Sammlung, Eroberungen und Kämpfe](/img/dtf/elixir/07.jpg)
+
+Häufige Fehler, die man vermeiden sollte: Die Planungsnachricht ignorieren, mit schwachen Mauertrupps verteidigen, alte Punkte zugunsten der Mitte alle auf einmal aufgeben und die Bodenbeute vergessen. Behalte die Punkte pro Sekunde das ganze Spiel über im Auge – du kannst fünf Spieler wunderbar vernichten und das Event trotzdem verlieren.
+
+> Quelle: [Гонка за эликсиром в Last Asylum: Plague - тактика и стратегии](https://dtf.ru/howto/5338769-gonka-za-eliksirom-v-last-asylum-plague-taktika-i-strategii) von Гейм-Знаток auf DTF.

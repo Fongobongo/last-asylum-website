@@ -2,7 +2,7 @@
 title: "Cerco aos Mortos-Vivos: Guia Completo"
 description: "Defesa da aliança contra ondas de infectados: a barra de 300.000 pistas, níveis de dificuldade de 2,4M a 24,5M de Poder Inimigo, a mecânica oculta de esquadrões múltiplos que elimina jogadores de 9,5M e tabelas completas de recompensas."
 lang: pt
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: undead
 calculators: []
 infographics: ["/infographics/undead-siege-guide.webp", "/infographics/undead-siege-guide-2.webp"]
@@ -95,3 +95,61 @@ O recorde de todos os tempos é de **1.193 ondas** em um único cerco.
 7. **Deslogar sem defesa predefinida** — a defesa offline funciona, mas **apenas se tiver sido predefinida**. Configure, depois durma.
 
 Execute o evento com esses sete pontos corrigidos e sua aliança defenderá perto do seu limite máximo. A configuração de heróis para a muralha e a composição de esquadrão são abordadas no [guia de Heróis](/pt/heroes/).
+
+---
+
+## Notas de Campo do Cerco dos Mortos-Vivos: Pistas, 20 Ondas e Guardiões {#dtf-field-notes}
+
+O cerco é um teste de organização para a aliança, não um evento para um único jogador forte: as missões do Falcon preenchem a barra, o esquadrão do muro segura as pontas, os membros online curam, os jogadores fortes reforçam os fracos. Iniciado às cegas, metade da aliança pega fogo no meio do caminho e o chat se enche de "por que o escudo não funcionou" e "quem apertou o start".
+
+![Guia do Cerco dos Mortos-Vivos - Capa](/img/dtf/undead/01.jpg)
+
+### As pistas vêm das missões do Falcon {#dtf-clues}
+
+A aliança precisa de **pistas** para preencher a barra de lançamento, e elas vêm das missões do Falcon — acima de tudo, missões de eliminação contra **estates, Wandering Blights e a Blight Legion**, que valem cerca de **300 fragmentos cada**. Se os membros ignorarem essas missões, o cerco fica pela metade.
+
+![As pistas para o cerco vêm das missões do Falcon](/img/dtf/undead/03.jpg)
+
+A tensão: muitos jogadores guardam as missões do Falcon para o Duelo da Aliança (acumulando para domingo/terça/quinta). Isso é normal no dia a dia, mas quando a aliança precisa de pistas, as missões de eliminação necessárias devem ser feitas e resgatadas diariamente. Os oficiais devem citar os alvos explicitamente — estates, wandering blight, blight legion — em vez de apenas dizer "façam o Falcon".
+
+### Quem inicia e quando {#dtf-launch}
+
+Com 100% das pistas, **R4/R5 iniciam** e escolhem o horário e a dificuldade. Nunca inicie só porque "eu estou online agora" — metade da aliança estará offline, muros sem tropas, reforços não enviados. Agende para o pico de atividade à noite, avise no chat e também no Telegram/Discord, e faça uma checagem de 5 minutos: quem está online, quem está fraco e precisa de reforços, quem pode enviar o 2º/3º esquadrões, quem está com a marcha principal no muro, e qual dificuldade o grupo realmente consegue aguentar.
+
+![Requisitos de participação no cerco](/img/dtf/undead/04.jpg)
+
+Requisitos de entrada: **Nível do Sanctuary** (cerca de 14 na dificuldade 1 até ~27 na dificuldade 10), **mais de 48 horas na aliança** (sem entradas de última hora apenas para recompensas) e **nenhuma inatividade de 72h+** offline. Revise a lista de membros antes de iniciar — novatos e inativos não ajudam em um evento de 20 ondas.
+
+### Dificuldades, ondas e a regra dos 20 jogadores {#dtf-difficulty}
+
+As dificuldades são desbloqueadas sequencialmente — sem pular direto para o 10. O total de ondas da aliança para obter as recompensas máximas varia de aproximadamente **300 na dificuldade 1 até ~1.200 na dificuldade 10**. Para subir de nível, **pelo menos 20 membros devem concluir todas as 20 ondas** — não apenas um jogador topo, nem cinco. Abandonar jogadores fracos que morrem nas ondas 8 a 10 pode bloquear a aliança inteira, então reforçar os jogadores medianos é melhor do que apenas admirar o poder dos mais fortes.
+
+![Níveis de dificuldade e 20 ondas para recompensas máximas](/img/dtf/undead/05.jpg)
+
+As recompensas pessoais aumentam conforme as ondas sobrevividas — **todas as 20 para o máximo**. Se uma onda destruir você, a participação termina no tier daquela onda, sem possibilidade de retorno. Lista de verificação pré-inicio: marcha mais forte no muro, tropas suficientes, curas prontas com recursos e aceleradores, estar online no início, pedir reforço cedo caso seja fraco. A maioria das falhas acontece por bobeira: marcha errada, muro vazio, esperança no escudo, ou um AFK de "5 minutos" que se distrai.
+
+### O escudo não faz nada, o muro faz tudo {#dtf-shield}
+
+Os escudos **não param as ondas do cerco**. Uma vez iniciadas, as ondas vêm de qualquer maneira. O muro precisa conter um esquadrão de verdade: a marcha de defesa ou de combate principal mais forte (bom tank, carry, suporte) — nunca uma marcha de coleta ou um espaço reservado para "trocar depois". Jogadores fracos devem pedir ajuda com antecedência; um oportuno "preciso de reforço" ajuda a aliança, enquanto o silêncio seguido de uma eliminação no meio do evento não ajuda em nada.
+
+![Os escudos não param as ondas do cerco](/img/dtf/undead/06.jpg)
+
+Jogadores fortes reforçam os fracos com o **2º e 3º esquadrões, mantendo a marcha principal em casa**. Uma cidade fraca não é preguiçosa, é apenas mais fraca — com ajuda, ela sobrevive a mais ondas, ganha mais recompensas pessoais e soma ondas para a aliança. Defina quem ajuda antes de começar; o caos no meio das ondas (cura, chat, cliques errados) faz com que a ajuda tardia chegue tarde demais.
+
+![Reforçando aliados durante o cerco](/img/dtf/undead/07.jpg)
+
+### Cura, tempo de recarga e guardiões {#dtf-healing}
+
+As tropas eliminadas vão para a **enfermaria** — fique online, cure entre as ondas, renove a ajuda quando os aliados sofrerem danos. Verifique antes de começar: recursos de cura, aceleradores, espaço livre na enfermaria e disposição para acompanhar todas as ondas. Uma enfermaria cheia sem recursos transforma o evento em mero cenário.
+
+![Plano de execução do cerco](/img/dtf/undead/08.jpg)
+
+Após todas as ondas, há um **tempo de recarga de cerca de 2 dias**, mas as pistas podem ser farmadas durante esse período — continue fazendo as missões do Falcon para que a próxima dificuldade seja iniciada mais rápido. Ciclo: juntar, iniciar, 20 ondas, recompensas, recarga, juntar de novo.
+
+Nas **dificuldades 9 e 10, a cada 4ª onda há uma chance de 20% de se tornar um Guardião (Overseer)** com recompensas bônus, e o Guardião tem **30% de chance de se transformar em um Guardião Enraivecido (Enraged Overseer)** com espólios melhores. Não vá atrás deles cedo demais: se a aliança mal aguenta as ondas normais, as tentativas heroicas comprometem as recompensas estáveis primeiro.
+
+![Guardião e Guardião Enraivecido](/img/dtf/undead/09.jpg)
+
+Escolha a dificuldade com base em evidências, não em orgulho: quantos concluíram as 20/20, quem morreu cedo, quem precisou de ajuda, se a cura foi suficiente, se as ondas máximas foram fechadas, se o chat entrou em pânico. Uma vitória confiante permite subir de nível; uma vitória apertada faz permanecer na mesma. Para os oficiais: anunciem cedo, definam duplas de fraco/forte, mantenham a dificuldade realista e expliquem aos novatos que os escudos não salvam e que a marcha no muro é manual.
+
+> Fonte: [Last Asylum: Plague - гайд по событию Осада нежити. Как пройти 20 волн, не сгореть и помочь альянсу](https://dtf.ru/howto/5189978-osada-nezhiti-last-asylum-plague) por Гейм-Знаток no DTF.

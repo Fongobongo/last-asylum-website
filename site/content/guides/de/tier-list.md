@@ -2,7 +2,7 @@
 title: "🏆 Helden-Rangliste"
 description: "Community-Konsens-Rankings, gewichtet für einen typischen F2P- / Mid-Spender-Fortschrittspfad. Der Kontext der Stufe ist wichtig: Ein 'B'-SSR, den du heute besitzt, schlägt einen 'S'-UR, den du erst in drei Monaten haben wirst."
 lang: de
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: tier_list
 ---
 
@@ -148,3 +148,110 @@ Ulfrid und Billy halten die Front, Nicole heilt und bufft Warlocks, Annie spielt
 - **Spätes Ziel:** Warlocks 5/5 — Ulfrid + Billy + Nicole + Annie + Jester.
 
 Der volle 5/5-Bonus ist nicht immer stärker als 4+1 oder 3+2, wenn man dafür einen schwachen oder unpassenden Helden aufstellt.
+
+## 🛡️ Truppenguide: Tiers durch Teams verstehen {#dtf-squad-guide}
+
+Ein Held lebt nicht isoliert vom Team: Derselbe Charakter ist großartig in seinem Fraktionsteam, mittelmäßig in einer zufälligen Mischung und fast nutzlos in der falschen Rolle. Dieser Abschnitt betrachtet die Rangliste aus der Perspektive von Trupps — wer hält die vorderste Linie, wer verursacht Schaden, wer bufft und welche Teams man tatsächlich bauen sollte.
+
+![Helden-Tier-list und Übersicht der besten Trupps](/img/dtf/tier-list/01.jpg)
+
+### Fraktionsboni und Hybridformate {#dtf-faction-bonus}
+
+Fraktionsboni skalieren mit dem Engagement:
+
+- **3 Helden einer Fraktion** — +5 % HP/ATK/DEF.
+- **3 + 2 Aufteilung** — +10 % HP/ATK/DEF.
+- **4 Helden einer Fraktion** — +15 % HP/ATK/DEF.
+- **5 Helden einer Fraktion** — +20 % HP/ATK/DEF.
+
+![UR-Helden-Tier-List nach Fraktion: Krieger, Waldläufer und Hexer](/img/dtf/tier-list/02.jpg)
+
+![Fraktionsboni für 3, 3+2, 4 und 5 Helden einer Fraktion](/img/dtf/tier-list/03.jpg)
+
+Auf dem Papier sehen 20 % am besten aus, aber 5/5 ist nicht immer stärker: Wenn der fünfte Held nur den Platz für den Bonus einnimmt, spielt sich ein 4+1 oder 3+2 mit den richtigen Rollen besser. Beispiel: Vier starke Krieger plus eine gut ausgebaute Cynthia können einen vollen Kriegertrupp schlagen, dessen fünftes Mitglied keinen Beitrag leistet.
+
+Fraktionskonter sind wichtig für PvP: **Krieger erleiden 20 % weniger Schaden von Hexern, Waldläufer erleiden 20 % weniger von Kriegern, Hexer erleiden 20 % weniger von Waldläufern.** Richte deinen Account nicht nur auf das Kontern aus — Front, Schaden und Unterstützung stehen an erster Stelle —, aber das Matchup entscheidet in von einer Komposition dominierten Servern spürbar über die Ergebnisse.
+
+### Alle 15 UR-Helden nach Rolle {#dtf-ur-roster}
+
+**Krieger:** Arthur (Tank — hält die Front, schützt das Team mit Schilden), Daskal (Tank — Schilde, Selbstheilung, zweite Front neben Arthur), Marlena (Carry — Energieschaden, oft der Haupt-DPS), Harper (Support — ATK-Buffs, vervollständigt den Kriegerkern), Zoya (Carry — Energieschaden, Krits, Mehrfachziel-Druck).
+
+**Waldläufer:** Red Lady (Carry — trifft gefährliche Ziele mit hohem Angriff, Energieschaden, Betäubungen), Cynthia (Carry — Energieklingen, Krit, Mehrfachziele), Bell (Support — Heilung und ATK-Buffs, die den Waldläufertrupp zusammenhalten), Shadow (Tank/Debuffer — zerschreddert gegnerische Verteidigung, kontert Energieteams), Louis (Tank — Selbstheilung und Schadensreduktion, gut gegen Burst/Energie).
+
+**Hexer:** Ulfrid (Tank — Schadensreduktion und Rückwurf; in älteren Guides Brian genannt, im Juli 2026 umbenannt), Billy (Tank — Antikontrolle, schützt Schlüsselverbündete, hilft gegen Energie), Joker (Carry — Hinrichtung von Zielen mit wenig HP; in älteren Beiträgen Jester genannt), Annie (Carry — Brennen und Energieschaden), Nicole (Support — Heilung, Flächenschaden, Hexer-Buffs).
+
+Krieger sind die vollständigste Fraktion (zwei Tanks, ein Support, zwei Carries). Waldläufern ist eine starke PvP-Fraktion, die darauf ausgelegt ist, gefährliche Ziele unter Druck zu setzen. Hexer sind mächtig, entfalten sich aber spät — besonders sobald Nicole eintrifft.
+
+![Alle 15 UR-Helden nach Fraktion, Rolle und Funktion](/img/dtf/tier-list/04.jpg)
+
+### Allgemeine UR-Wertetiers {#dtf-overall-tiers}
+
+Dies ist eine praktische Werterangliste — wie oft ein Held in funktionierenden Trupps landet — und kein Duellsimulator:
+
+- **S:** Arthur, Daskal, Marlena, Red Lady, Cynthia, Harper, Shadow.
+- **A+:** Bell, Nicole, Ulfrid, Annie, Louis.
+- **A:** Zoya, Joker, Billy.
+
+Warum S-Tier: Arthur ist die am besten aufbaubare Frontlinie — wenn die Front schnell stirbt, verursacht die hintere Reihe niemals Schaden. Daskal neben Arthur macht die Front extrem dicht. Marlena bringt Energieschaden, der das Tempo eines Kampfes sowohl in Krieger- als auch in Hybrid-Energieteams verändert. Red Lady setzt die Hauptschadensverursacher des Gegners unter Druck. Cynthia paart sich mit Marlena und Red Lady in starken Hybriden. Harper landet selten ganz oben auf den Schadensanzeigen, kann aber das Schlüsselelement in einem Kriegertrupp sein. Shadow gewinnt Kämpfe, indem er den Plan des Gegners durchkreuzt — Verteidigungsschredder plus Anti-Energie-Tech.
+
+A+ und A sind keine schwachen Helden — sie sind Systemhelden. Bell ist hervorragend innerhalb von Waldläufern und schwächer außerhalb von ihnen. Nicole ist nahe am S-Tier innerhalb von Hexern, aber spät dran — baue niemals eine Startroute um sie herum. Ulfrid ist ein starker Hexer-Tank, stärker an die Fraktion gebunden als Arthur oder Daskal. Annie verlangt nach Hexer-Synergie und keinem zufälligen Mix. Louis ist ein guter Waldläufertrupp-Tank, aber weniger universell als Arthur. Zoya spielt normalerweise den zweiten Krieger-DPS statt des Account-Protagonisten. Joker benötigt ein Team, das Ziele schnell weichklopft. Billy kontert Kontrolle und Energieschaden, ist aber situativ.
+
+![Gesamt-Tier-List der UR-Helden mit Arthur, Marlena, Red Lady und Shadow im S-Tier](/img/dtf/tier-list/05.jpg)
+
+### PvP- vs. PvE-Einschätzungen {#dtf-pvp-pve-reads}
+
+**PvP S:** Arthur, Daskal, Marlena, Red Lady, Cynthia, Shadow, Harper. **A+:** Louis, Ulfrid, Bell, Nicole, Annie. **A:** Joker, Zoya, Billy. Red Lady und Shadow werden hier am höchsten bewertet: Red Lady löscht Ziele mit hohem Angriff aus, Shadow schreddert Verteidigung und stört Energieteams. Arthur + Daskal ist die zuverlässigste Front — sie erkaufen Zeit, anstatt Kämpfe zu gewinnen. Harper reiht sich als Teil des Kriegerkerns ein (Arthur + Daskal + Marlena).
+
+![PvP-Helden-Tier-List mit Tanks, Carries und Supports](/img/dtf/tier-list/06.jpg)
+
+**PvE S:** Arthur, Marlena, Daskal, Harper, Nicole. **A+:** Cynthia, Zoya, Annie, Bell, Ulfrid, Louis. **A:** Red Lady, Shadow, Joker, Billy. Nicole steigt auf, weil Heilung und Support lange Kämpfe gewinnen; Red Lady fällt ab, da das Unter Druck setzen von Hoch-ATK-Zielen und Betäubungen gegen Bosse weniger wichtig sind. Arthur, Daskal und Marlena bleiben in beiden Modi weit oben — Frontlinie und stabiler Schaden werden überall benötigt. Kopiere niemals blind einen PvP-Trupp ins PvE: Prüfe, was das Event erfordert (Fraktion, Schadensart, Überlebensfähigkeit vor Burst).
+
+![PvE-Helden-Tier-List für Bosse und lange Kämpfe](/img/dtf/tier-list/07.jpg)
+
+### F2P- und Low-Spend-Prioritäten {#dtf-f2p-priorities}
+
+Die Frage lautet nicht „Wer ist am stärksten?“, sondern „Wen kann ich realistisch aufbauen?“ — ein UR ohne Fragmente und Sterne stoppt schnell an der Decke:
+
+- **Sehr hoch:** Arthur, Marlena, Daskal, Harper, Cynthia.
+- **Hoch:** Red Lady, Shadow, Ulfrid, Annie.
+- **Mittel/Spät:** Bell, Louis, Nicole, Zoya, Joker, Billy.
+
+Arthur ist der Standard-Starter-Tank. Marlena ist der beste Low-Spend-Schadensboost. Daskal ist die zweite Front. Harper komplettiert die Krieger. Cynthia eröffnet Energiehybriden. Helden mit niedrigerer Seltenheit überbrücken die Lücke: Bella als zweite Front, Celia für PvE und Farming, Claire als Übergangs-Schaden/Support — eine Brücke, nicht das Ziel, verschwende also keine seltenen Ressourcen an sie, als würden sie für immer bleiben. Der klassische F2P-Fehler ist es, jeden zu leveln: Baue eine funktionierende Fünfergruppe auf und verbessere sie Slot für Slot.
+
+![F2P-Fortschrittspfad von Starter-Helden zu einem UR-Trupp](/img/dtf/tier-list/08.jpg)
+
+### Die besten 5/5-Trupps {#dtf-best-5-5}
+
+**Krieger 5/5 — der vollständigste Fraktionstrupp.** Arthur, Daskal, Harper, Marlena, Zoya. Front: Arthur + Daskal. Hintere Reihe: Marlena + Harper + Zoya. Zwei Tanks, ein Support und zwei Schadensverursacher, sodass der volle +20%-Bonus das Team niemals bricht. Stabil und selbsterklärend; wenn Zoya oder Harper unterentwickelt sind, kann ein 4+1 mit Cynthia oder Red Lady besser sein.
+
+![Bester Kriegertrupp: Arthur, Daskal, Harper, Marlena und Zoya](/img/dtf/tier-list/09.jpg)
+
+**Waldläufer 5/5 — der PvP-Trupp.** Shadow, Louis, Bell, Red Lady, Cynthia. Front: Shadow + Louis. Hintere Reihe: Red Lady + Bell + Cynthia. Red Lady bedrängt gefährliche Ziele, Cynthia fügt Schaden hinzu, Bell unterstützt, die Front hält gegen Energiebedrohungen. Starkes Tempo und Kontrolle, voller Bonus — aber teuer und spät, kein Anfängerpfad.
+
+![Waldläufertrupp: Shadow, Louis, Bell, Red Lady und Cynthia](/img/dtf/tier-list/10.jpg)
+
+**Hexer 5/5 — der späte Systemtrupp.** Ulfrid, Billy, Nicole, Annie, Joker. Front: Ulfrid + Billy. Hintere Reihe: Annie + Nicole + Joker. Gute interne Synergie (Brennen, Heilung, Hinrichtungen), aber Nicole und Billy kommen spät — ohne Nicole verliert die Komposition viel von ihrem Sinn. Kein Erstrundenziel für neue Spieler.
+
+![Hexertrupp: Ulfrid, Billy, Nicole, Annie und Joker](/img/dtf/tier-list/11.jpg)
+
+### Die besten 4+1- und 3+2-Trupps {#dtf-hybrid-squads}
+
+4+1 funktioniert, wenn ein starker Fraktionskern plus ein Außenseiter einen schwachen fünften Held derselben Fraktion schlägt:
+
+- **Wand des Todes (4 Krieger + Cynthia, +15%).** Arthur, Daskal, Harper, Marlena, Cynthia. Einer der zuverlässigsten Trupps im Spiel: Die Kriegerfront und der Kern plus Cynthias Energiedruck. Wenn deine Cynthia deine Zoya im Aufbau übertrifft, gleicht der verlorene 5%-Bonus sich selbst aus.
+
+![Energietrupp: Arthur, Daskal, Marlena, Cynthia und Red Lady](/img/dtf/tier-list/12.jpg)
+
+- **Kriegerkern + Red Lady (4K + 1W, +15%).** Arthur, Daskal, Harper, Marlena, Red Lady. Nimmt die Kriegerbasis und fügt Red Ladys PvP-Druck auf Ziele mit hohem Angriff hinzu — ideal gegen Teams mit Carries in der hinteren Reihe. Sie erhält keine Krieger-Buffs, muss also stark genug aufgebaut sein, um den Slot zu rechtfertigen.
+
+3+2 (+10%) ist das praktische Hybridformat für starke, bereits ausgebaute Helden:
+
+- **Reine Energiedominanz.** Arthur, Daskal, Marlena, Cynthia, Red Lady (3K + 2W). Aggressiver Energie-Burst für PvP und schnelle Kämpfe; schwächer in langen Kämpfen, wenn die Front ohne einen klassischen Support nicht standhalten kann.
+- **Kontrolle + Kollaps.** Arthur, Daskal, Marlena, Shadow, Cynthia (3K + 2W). Shadow fügt einen Verteidigungsschredder und Anti-Energie-Kontrolle hinzu, damit Marlena und Cynthia das Zeitfenster in Schaden umwandeln — besser gegen dichte Teams, die den ersten Burst überleben, mit weniger punktuellem Druck als die Red Lady-Version.
+- **Hexerdruck.** Ulfrid, Nicole, Annie, Arthur, Marlena (3 Hexer + 2 Krieger). Ein Übergangs-Hexertrupp für Accounts, die diese Richtung bereits einschlagen; Nicole glänzt mehr, wenn mehr Hexer um sie herum sind.
+
+Ein Hybrid ohne optimalen Bonus ist in Ordnung, wenn er eine spezifische Aufgabe erfüllt (z. B. Arthur + Louis als Front mit Marlena, Red Lady und Joker für das Aufräumen). Es ist keine Strategie, wenn es einfach nur fünf Lieblings-URs ohne abgedeckte Rollen sind. Empfohlene Aufbau-Reihenfolge von Null: Arthur → Marlena → Daskal → Harper → Cynthia oder Red Lady (stabiler Energie-DPS vs. PvP-Druck) → Shadow → Nicole. Sicherster Standard: Krieger 5/5. Aggressives PvP: Arthur + Daskal + Marlena + Cynthia + Red Lady. Kontroll-PvP: Arthur + Daskal + Marlena + Shadow + Cynthia. Späte Hexer: Ulfrid + Billy + Nicole + Annie + Joker.
+
+![Komplette Helden-Tier-List: Fraktionen, Rollen, PvP, PvE, F2P-Prioritäten und beste Trupps](/img/dtf/tier-list/13.jpg)
+
+> Quelle: [Last Asylum: Plague - актуальный тир-лист героев и лучшие пачки](https://dtf.ru/howto/5095947-last-asylum-plague-tir-list-geroev-i-luchshie-pachki) von Гейм-Знаток auf DTF.

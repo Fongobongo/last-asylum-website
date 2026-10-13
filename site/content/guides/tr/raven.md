@@ -2,7 +2,7 @@
 title: "Kuzgun ve Epigraf Sistemi"
 description: "Kuzgun seviyeleri ve planları, ekipman stratejisi, epigraf nadirlikleri ve geliştirme sırası ile hangi epigrafın yükseltmeye değer olduğunu belirleyen tek-faction (tek grup) kuralları."
 lang: tr
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: raven
 infographics: ["/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
 ---
@@ -204,3 +204,43 @@ Doğan Kulesi her 6 saatte bir yenilenir: yeni bir görev grubu depoya düşer v
 Görev stoklamak yalnızca İttifak Düellosu için karşılık verir: birinci, üçüncü ve beşinci günlerde teslim edilen her Doğan Görevi 10.000 puan getirir. Oyuncular bir görevi tamamlar ancak ödülü almadan bırakırlar; böylece görev doğru güne kadar kırmızı bir noktayla görünür listede kalır. Oyuncu gözlemlerine göre tamamlanmış bir görev asla yanmaz, tamamlanmamış olan bir görev 8 saat sonra kaybolur ve Gezen Kırım görevleri depolama sınırına etki etmez.
 
 Böyle bir stoğun tavanı, görünür görevler artı depolamadır ve depolama bir günden kısa sürede dolar: 1. kule seviyesinde 30 saat, beşinci seviyeden itibaren 18-24 saat. Ondan sonra her yenileme boşa harcanır; kule ise 1. seviyede günde 24 görevden on beşinci seviyede 52 göreve kadar dağıtım yapar. Dolayısıyla bir günden uzun süre stok yapmak karşılığını vermez: düellonun ikinci ve dördüncü günlerinde görevler tamamlanır ve tutulur, birinci, üçüncü ve beşinci günlerde her şey teslim edilir ve hafta sonu ödüller tek seferde alınır. Stok yapmak kule seviyesini etkilemez, yalnızca geciktirir.
+
+---
+
+## Hatasız Raven Seviye Atlatma: Atölye, Yuva, Epigraflar, Rutin {#raven-dtf-leveling}
+
+DTF seviye atlatma rehberinden saha notları: Raven tek bir yerde değil, üç farklı yerde yaşar — ve sıra, hızdan daha önemlidir.
+
+**Üç bina.** Raven Atölyesi arka planda üretim yapar: göz alıcı bir karşılığı olmadan zamanla malzeme üretir, ancak ilerleme onsuz aksar. Raven Yuvası ana ekrandır — seviye, evrim, yeni aşamalar ve birlik bağları. Epigraf Atölyesi ise en çok yanlış seçimin yapıldığı yerdir: kötü bir üretim veya yuva kararı ya zayıf bir bonus olarak sizinle kalır ya da bir sıfırlamaya mal olur.
+
+![Raven sistem genel bakışı](/img/dtf/raven/01.jpg)
+
+**Seviyeler ve evrim.** Raven, Raven Meyvesi ile seviye atlar ve Raven Özü ile evrim geçirir; her 10 seviyedeki bir evrim adımı ilerlemenin bir sonraki katmanını açar. Öz, sınırlayıcı kısıttır: Meyve rutin oyunla istikrarlı bir şekilde gelir, Öz ise her zaman kıt hissettirir. Önce bir sonraki evrim eşiğini göz önünde bulundurun — evrim adımı olmayan seviyeler hızla bir duvara çarpar.
+
+![Raven kahraman ekranı](/img/dtf/raven/02.jpg)
+
+**Ekipman: temeli kurun, sonra bileyin.** Sandıkları açıp eşyalar düştükçe aceleyle geliştirmeler yapmayın. Önce tüm seti dengeli bir şekilde birleştirin, ardından kopyaları birleştirin ve ekipmanı bilinçli olarak yükseltin. Bazı geliştirmeler sıraya bağlıdır — bir parça açılmadan önce diğer yuvaların belirli bir seviyeye ulaşması gerekir — bu nedenle bir yuvyı erkenden son seviyeye getirmek başka yerlerde boşluklar bırakır. Ekipmanı bir piyango bileti olarak değil, bir set olarak ele alın.
+
+![Raven ekipman ekranı](/img/dtf/raven/03.jpg)
+
+**Günlük kaynaklar.** Her gün kontrol edin: İttifak dükkanı (çeşitli Raven malzemeleri), VIP dükkanı (elmas karşılığı Öz ve sandıklar), Sefer dükkanı (daha yüksek seviyeli Raven sandıkları), Onur dükkanı (nadir geç aşama sandıkları), Sığınak dükkanı (dönüşümlü olarak Öz). Yalnızca mevcut görevinizi tamamlayacak şeyleri satın alın — "Raven" etiketli her kalemi toplamak, ilerleme kaydetmeden envanter doldurur. Harcama yapmadan önce eksikliği açıkça adlandırın: Epigraf Atölyesi malzemeleri veya birleştirme için kopyalar.
+
+**Epigraf eşikleri.** Mor epigraflar Epigraf Atölyesi seviye 15'te açılır — bundan önce sistemin içinde sayılmazsınız. UR epigraflar daha sonra, daha pahalı malzemeler içeren bir sonraki atölye aşamasında gelir. Epigraf bonusları yalnızca eşleşen birlik türüne uygulanır: ana birliğiniz Savaşçılar ise, "gelecek için" Korucu epigrafları üretmek kıt malzemeleri anlık sıfır getiri için harcar. Gerçekten sahaya sürdüğünüz sınıfı seçin, bir seti doldurun ve çekirdek tamamlanana kadar yan setlere dokunmayın. Bir set içindeki yuvalar farklıdır (saldırı / savunma / destek / genel merkez) — önce sınıfı sabitleyin, ardından ihtiyaca göre ince ayar yapın: eksik hasar saldırı yuvasını zorlamayı gerektirir, çöken bir birlik savunmayı, genel yuva ise dengeli bir artışı gerektirir.
+
+![Sistemin en güçlü ve en tehlikeli kısmı olarak Epigraflar](/img/dtf/raven/04.jpg)
+
+![Savaşçılar, Korucular ve Büyücüler için Epigraf yuvaları](/img/dtf/raven/05.jpg)
+
+**Kopyalar yakıttır.** Doğru epigrafın ikinci bir kopyası kötü bir düşüş değildir — aynı epigraflar mevcut parçanın yıldızlarını yükseltir ve UR parçalar için doğru eşyanın birebir kopyaları serideki en değerli kaynaktır. Yanlış türdeki kopyalar bekler veya sıfırlama dağıtımından geçer; doğru türdeki kopyalar yıldızlandırılır.
+
+![Gelişme için yakıt olarak yinelenen epigraf lar](/img/dtf/raven/06.jpg)
+
+**Evrim birlikleri açar.** Evrim sadece istatistiklerden ibaret değildir: ek birlik yuvalarının kilidini açar. Yalnızca ilk birlikle başlarsınız, ikinci yuva bir sonraki evrim aşamasında açılır ve gereksinimler artmaya devam eder. Bu, en güçlü birliğinize erkenden bağlanmak için başka bir nedendir — başlangıçta yayılacak fiziksel bir yer yoktur.
+
+![Kuzgun evrimiyle açılan birlik slotları](/img/dtf/raven/07.jpg)
+
+**Sıfırlama seçeneği vardır.** Kötü üretimler geri alınabilir: sıfırlama, bir geliştirmeyi geri alır ve malzemeleri yeniden dağıtım için iade eder. En çok ana birlik sınıfınızı değiştirdiğinizde, geçici bir birliği geride bıraktığınızda veya başlangıçta yanlış epigrafı seçtiğinizde yararlıdır. Bir hatanın maliyetini düşürür; körlemesine üretimi ücretsiz yapmaz.
+
+**Günlük rutin.** Dükkanları kontrol edin, bir sonraki evrimi aklınızda tutun, yalnızca ana birliğinizin epigraf türünü geliştirin ve hatalarla yaşamak yerine onları sıfırlayın. Günlük bir döngü olarak oynandığında Raven birikerek büyür; patlamalar halinde oynandığında pahalı ve belirsiz hissettirir.
+
+> Kaynak: [Last Asylum: Plague - полный гайд по Ворону. Как качать без ошибок, что делать с эпиграфами.](https://dtf.ru/howto/5016737-last-asylum-plague-gayd-po-prokachke-vorona) (Yazar: Гейм-Знаток, DTF).

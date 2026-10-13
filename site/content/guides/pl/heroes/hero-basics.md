@@ -2,7 +2,7 @@
 title: "Podstawy: frakcje i oddziały"
 description: "Sekcja poradnika dotycząca bohaterów: podstawy: frakcje i oddziały."
 lang: pl
-updated: "2026-10-01"
+updated: "2026-10-12"
 videoTopic: heroes
 ---
 
@@ -220,3 +220,172 @@ Strony, które wspominają o tej. Lista jest zbudowana z znaczników, nie wypeł
 - Arthur: umiejętności, ulepszenia i Potęga
 
 ## Komentarze
+
+## Jakiego tanka wybrać: Arthur, Daskal, Brian czy Louis {#dtf-tank-choice}
+
+Każdy chce najpierw oglądać duże liczby obrażeń u swojego carry, ale jeśli pierwsza linia padnie w pierwszych sekundach, carry nigdy nie pokaże swojego potencjału. Dobry tank przyjmuje pierwsze uderzenie, kupuje czas na rzucenie umiejętności, ogranicza nadchodzące obrażenia — czasami za pomocą tarcz, leczenia własnego lub ochrony przed określonym rodzajem obrażeń. Arthur, Daskal, Brian i Louis radzą sobie z tym na różne sposoby.
+
+![Arthur, Daskal, Brian i Louis: porównanie czterech tanków](/img/dtf/hero-basics/01.jpg)
+
+![Co robi każdy tank: Arthur, Daskal, Brian i Louis](/img/dtf/hero-basics/02.jpg)
+
+### Arthur: najbezpieczniejszy tank dla większości kont {#dtf-arthur-safe}
+
+Arthur to uniwersalna pierwsza linia. Nie wymaga idealnej piątki wokół siebie — wychodzi na przód i sprawdza się w PvP, PvE, we wczesnej fazie oraz w okresie przejściowym.
+
+- **Tarcza bojowa** — podstawowy atak fizyczny w jeden cel.
+- **Wstrząs ziemi** — atak obszarowy, który pomaga sojusznikom otrzymywać mniej obrażeń fizycznych.
+- **Niezłomność** — osobista tarcza powiązana z maksymalnym zdrowiem Arthura.
+- **Silna wola** — pasywnie zmniejsza obrażenia otrzymywane przez sojusznicze tanki.
+- **Wytrzymałość** — zwiększa atak, zdrowie, obronę i przyspiesza odnawianie umiejętności.
+
+Wynik: stabilność zamiast efektownych błysków. To tank, którego możesz zbudować jako pierwszego, bez zamykania sobie drogi w jednym sztywnym schemacie.
+
+![Arthur, uniwersalny tank do PvP, PvE i dla graczy F2P](/img/dtf/hero-basics/03.jpg)
+
+### Daskal: solidna pierwsza linia i tarcze {#dtf-daskal-shields}
+
+Daskal gra tarczami, przeżywalnością i samoleczeniem. Jeśli Arthur jest kamiennym filarem, to Daskal jest dodatkowymi pancernymi drzwiami.
+
+- **Wola walki** — podstawowy atak fizyczny.
+- **Krwawa obrona** — tarcza drużynowa powiązana z obroną.
+- **Zabójcze przebicie** — obrażenia plus odnowienie zdrowia dla Daskala.
+- **Zdecydowana walka** — tarcza początkowa na sojusznicze tanki.
+- **Wytrzymałość** — ataki/zdrowie/obrona plus szybsze odnawianie umiejętności.
+
+Błyszczy obok Arthura (uniwersalna stabilność + tarcze i samoleczenie) oraz w oddziałach Wojowników, które potrzebują gęstej pierwszej linii, aby carry mogło działać spokojnie. Wybierz go, gdy masz już Arthura i potrzebujesz drugiego silnego tanka lub gdy drużyna słabnie na początku.
+
+![Daskal: tarcze, samoleczenie i przeżywalność drużyny](/img/dtf/hero-basics/04.jpg)
+
+### Brian: tank na długie walki {#dtf-brian-long}
+
+Brian nie polega na wielkich tarczach. Tłumi presję wroga i pozostaje użyteczny w przeciągających się bitwach.
+
+- **Ostry pazur** — podstawowy atak fizyczny.
+- **Ugryzienie zagrożenia** — obrażenia plus zmniejszenie otrzymywanych obrażeń dla wszystkich sojuszników.
+- **Księżycowe wycie** — odbija część otrzymanych obrażeń.
+- **Wczyta wilka** — pasywnie zmniejsza wszystkie otrzymywane obrażenia.
+- **Wytrzymałość** — standardowy atak/zdrowie/obrona oraz przyspieszenie odnawiania.
+
+Najlepszy w długich walkach PvE, solidnych pierwszych liniach oraz w kierunku Warlocka — to późniejszy, przemyślany wybór, gdy znasz już swoje frakcje i tryby, a nie bohater na chaotyczny start.
+
+![Brian: redukcja obrażeń w długich bitwach](/img/dtf/hero-basics/05.jpg)
+
+### Louis: specjalista kontra burst i energia {#dtf-louis-anti-burst}
+
+Louis jest najbardziej sytuacyjny z całej czwórki — i stanowi odpowiedź na szybkie kompozycje, które w kilka sekund usuwają cel lub naciskają obrażeniami od energii.
+
+- **Kajdany** — atak podstawowy.
+- **Bicz krzyżowy** — obrażenia, samoleczenie Louisa oraz zmniejszenie otrzymywanych obrażeń.
+- **Więź siły** — ogranicza obrażenia od energii zadawane pobliższym sojusznikom.
+- **Nieugięty duch** — silna redukcja otrzymywanych obrażeń i pomoc przeciwko śmiertelnemu uderzeniu.
+- **Wytrzymałość** — atak, zdrowie, obrona i prędkość odnawiania.
+
+Nie jest pierwszą cegiełką w fundamencie, lecz specjalnym narzędziem przeciwko szybkim metom wroga, gdy pierwsza linia jest już w inny sposób zabezpieczona.
+
+![Louis: kontratak na burst i presję energetyczną](/img/dtf/hero-basics/06.jpg)
+
+### Kto jest lepszy w PvP i PvE {#dtf-tank-pvp-pve}
+
+Kolejność w PvP: **Arthur → Daskal → Louis → Brian**. Stabilność Arthura i jego wartość w pierwszej wymianie biorą górę; tarcze Daskala kupują czas dla carry; Louis wyprzedza Briana, ponieważ przetrwanie początkowego burstu decyduje w PvP; mocne strony Briana wymagają dłuższego nacisku.
+
+Kolejność w PvE: **Arthur → Brian → Daskal → Louis**. Arthur pozostaje na szczycie jako uniwersalny wybór; Brian rośnie w długich walkach i przy redukcji obrażeń; Daskal plasuje się tuż za nim dzięki tarczom i gęstości; Louis ogranicza się do starć z prawdziwym burstem lub presją energetyczną.
+
+![Porównanie tanków w PvP i PvE](/img/dtf/hero-basics/07.jpg)
+
+### Kolejność dla F2P i błędy z tankami {#dtf-tank-f2p}
+
+Zasada dla F2P i graczy mało wydających: **Arthur → Daskal → sytuacyjnie**. Jeden silny tank wygrywa z czterema na wpół zbudowanymi. Częste błędy: budowanie tanka bez planu na oddział (Brian bez kierunku Warlocka, Louis bez mety na presję energetyczną); podnoszenie wszystkich czterech naraz; zapominanie o carry (ściana bez obrażeń przegrywa powoli); kopiowanie cudzego oddziału bez spełnienia jego warunków.
+
+![Priorytety tanków dla graczy F2P i niskobudżetowych](/img/dtf/hero-basics/08.jpg)
+
+Osobisty skrót myślowy: jeszcze nic nie ma → Arthur; Arthur gotowy, a pierwsza linia musi stać się ścianą → Daskal; późny systemowy oddział na długie walki → Brian; szybkie kompozycje wroga usuwają bohaterów w sekundy → Louis.
+
+![Arthur, Daskal, Brian czy Louis: werdykt](/img/dtf/hero-basics/09.jpg)
+
+> Źródło: [Last Asylum: Plague: Артур, Даскал, Брайан или Луис - какого танка качать](https://dtf.ru/howto/5104617-kakogo-tanka-kachat-v-last-asylum-plague) , autor Гейм-Знаток (DTF).
+
+## Formacja: Dwa tanky z przodu, carry w środku {#dtf-formation}
+
+Same punkty potęgi wprowadzają w błąd. Drogi oddział przegrywa, gdy jego carry stoi z przodu, tank chowa się z tyłu, a najlepszy miecz trafia do niewłaściwego bohatera.
+
+![Przewodnik po najlepszej formacji bohaterów](/img/dtf/hero-basics/10.jpg)
+
+### Najpierw frakcje, potem bonus jednofrakcyjny {#dtf-faction-bonus}
+
+Wojownicy pokonują Warlocków, Warlocki pokonują Rangerów, Rangerzy pokonują Wojowników. Większość graczy najpierw składa rdzeń z Wojowników, ponieważ ich dobrzy bohaterowie pojawiają się wcześniej; na serwerze zdominowanym przez Wojowników, Rangerzy stają się silnym drugim kierunkiem — nawet nieco słabsza drużyna Rangerów zaskakuje Wojowników dzięki przewadze frakcyjnej.
+
+![Frakcje Wojowników, Rangerów i Warlocków](/img/dtf/hero-basics/11.jpg)
+
+Pięciu bohaterów jednej frakcji daje **+20% do zdrowia, ataku i obrony** (czwarto daje 15%). Właśnie dlatego trzech złotych plus dwóch dobrych fioletowych Wojowników z jednego systemu rutynowo pokonuje pięciu losowych złotych: sprawdź bonus oddziału, zanim zachwycisz się potęgą pojedynczego bohatera.
+
+### Kto stoi z przodu {#dtf-front-roles}
+
+Bohaterowie mają zarówno rolę, jak i frakcję: tarcza = tank, a tanki przyjmują pierwsze uderzenia.
+
+![Ikony frakcji i ról bohaterów](/img/dtf/hero-basics/12.jpg)
+
+Normalna baza: **dwa tanki z przodu, obrażenia i wsparcie z tyłu**. Silne carry z przodu ginie przed rzuceniem umiejętności — najlepszy zadający obrażenia musi przeżyć, by użyć umiejętności, a nie zginąć heroicznie jako pierwszy.
+
+![Tanki z przodu, obrażenia z tyłu](/img/dtf/hero-basics/13.jpg)
+
+### Działający układ Wojowników: Arthur, Bella, Marlena, Claire, Harper {#dtf-warrior-formation}
+
+Buduj według ról, a nie całkowitej potęgi:
+
+- Przód: **Arthur (lewa), Bella (prawa)** — trzymają linię tak długo, jak to możliwe.
+- Tył: **Marlena w środku** (główne źródło obrażeń dostaje najwięcej czasu w wyrównanych walkach), **Claire** po jednej stronie jako drugie obrażenia, **Harper** po drugiej jako wsparcie.
+
+![Przykład pełnej formacji na polu bitwy](/img/dtf/hero-basics/14.jpg)
+
+Zwiadowaj wroga przed walką: jeśli naprzeciwko Marleny siedzi niewygodny cel, zamień ją miejscami z Claire — ale zacznij od Marleny w środku.
+
+### Równa potęga niewiele znaczy {#dtf-equal-might}
+
+Pojedynki na Arenie o niemal identycznej potęgi przebiegają inaczej, ponieważ ta liczba uwzględnia bohaterów, formację, ekwipunek, rozwój głównego carry — oraz oddziały (T1–T10, przy czym T10 to oddzielny późny cel osiągany poprzez Tereny Treningowe i badania). Dwa oddziały o podobnej potęgi mogą się różnić wyłącznie tierem wojsk.
+
+![Oddział kontra Tereny Treningowe z wojskami T9](/img/dtf/hero-basics/15.jpg)
+
+### Zawsze otwieraj raport z bitwy {#dtf-battle-report}
+
+Po porażce z równym przeciwnikiem sprawdź, kto zadawał obrażenia, kto zginął jako pierwszy i którzy bohaterowie mają najlepszy sprzęt. Dwie Marleny na 135. poziomie nie są tym samym bohaterem, gdy różnią się gwiazdki, umiejętności i miecze — raport to obnaża.
+
+![Czytanie raportu po bitwie](/img/dtf/hero-basics/16.jpg)
+
+### Ekwipunek musi pasować do roli {#dtf-gear-by-role}
+
+Tanki takie jak Arthur chcą najpierw pancerza i butów; główne carry pragnie najsilniejszego miecza i elementów atakujących. Świetny miecz na tanku, podczas gdy Marlena biega z bronią 20. poziomu, pomaga obu przedmiotom, ale w niczym w walce. Przy ograniczonych materiałach jeden prawdziwy zestaw ataku na głównym carry wygrywa z pięcioma równie ładnymi bohaterami.
+
+![Sprzęt tanka i carry po walce na Arenie](/img/dtf/hero-basics/17.jpg)
+
+Do około 20. poziomu można podnosić kilku bohaterów naraz. Po tym koszty gwałtownie rosną — skup się na dwóch bohaterach, którzy niosą pierwszy oddział (główny zadający obrażenia plus główny tank, np. miecz Marleny i ochrona Arthura), a resztę pozostaw na działającej bazie.
+
+### Kto do rozwoju w pierwszej kolejności, a kto w drugiej {#dtf-first-focus}
+
+Dla pierwszego oddziału Wojowników: **Marlena zadaje obrażenia, Arthur kupuje jej czas** — potem drugi tank, Claire, Harper i reszta. Dokończ jedno ważne ulepszenie zamiast rozpraszać antytoksynę i odłamki na każde nowe losowanie.
+
+![Marlena i Arthur: rdzeń Wojowników](/img/dtf/hero-basics/18.jpg)
+
+Płatni bohaterowie pomagają — wczesny dostęp to prawdziwa przewaga, gdy inni czekają — ale nadal potrzebują frakcji, pozycji, gwiazdek, umiejętności i sprzętu. Traktuj szybszy postęp jako sposób na usunięcie jednego konkretnego wąskiego gardła.
+
+Gdy marsz Wojowników stoi stabilnie, zbuduj **Rangerów jako drugich** na serwerach zdominowanych przez Wojowników: ten sam szablon 2 tanków z przodu, pięciu z jednej frakcji dla pełnego bonusu, obrażenia z tyłu (drugi zadający obrażenia może stać tymczasowo bez wsparcia). Nie śpiesz się z wyrównywaniem obu marszów — pierwszy nadal rozwiązuje najtrudniejsze zadania, podczas gdy drugi staje się specjalistą od kontrowania Wojowników.
+
+![Oddział Rangerów kontra Wojownicy](/img/dtf/hero-basics/19.jpg)
+
+Nie pakuj każdego złotego bohatera do pierwszego oddziału: czasami trzech złotych plus dwóch fioletowych z jednej frakcji dla pierwszej drużyny, przy czym pozostali złoci rozpoczynają prawdziwy drugi marsz, buduje zdrowsze konto (jedno główne, jedno antyfrakcyjne, jedno do reszty) niż pięciu najlepszych z przodu i resztki gdzie popadnie.
+
+### Czwartek i sklepy {#dtf-thursday-shops}
+
+Jeśli twój sojusz organizuje Pojedynki, wstrzymaj poważne wydatki na bohaterów (antytoksyna, odłamki, odznaki umiejętności, bilety przywołania) na **czwartek** — dzień bohaterów oraz punkty wydarzenia za tę samą czynność. W sklepach: Honor = najpierw plany ekwipunku; Wyprawa = uniwersalne odłamki bohaterów, bilety przywołania, antytoksyna; Sanktuarium = dostępne odłamki. Kupuj pod kątem jednego aktualnego braku (gwiazdki Marleny, sprzęt Arthura), a nie wszystkiego, co wygląda na użyteczne.
+
+![Co kupować w sklepach gry](/img/dtf/hero-basics/20.jpg)
+
+### Lista kontrolna porażki i plan przejścia od zera do gotowości {#dtf-defeat-checklist}
+
+Po porażce: formacja (carry z przodu?) → bonus frakcyjny (zniszczony dla jednego silniejszego bohatera?) → ekwipunek (najlepszy miecz na tanku?) → gwiazdki i umiejętności. Ta kolejność znajduje przyczynę, zanim w grę pójdzie kolejny milion zasobów.
+
+![Kolejność rozwoju oddziału od zera](/img/dtf/hero-basics/21.jpg)
+
+Od zera do gotowości: pełna piątkowa frakcja → dwa tanki z przodu, najlepsze carry w środku/z tyłu → podstawowy złoty ekwipunek do ~20 poziomu, przestań ulepszać wszystko → drogie zasoby w broń głównego carry i obronę pierwszego tanka → druga frakcja (Rangerzy na serwerach Wojowników) → trzecia drużyna dopiero potem.
+
+> Źródło: [Last Asylum: Plague - гайд по лучшей расстановке героев](https://dtf.ru/howto/5245716-last-asylum-plague-sovety-po-rasstanovke-geroev) , autor Гейм-Знаток (DTF).

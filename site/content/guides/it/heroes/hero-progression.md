@@ -2,7 +2,7 @@
 title: "Progressione: abilità e stelle"
 description: "Sezione della guida agli eroi: progressione: abilità e stelle."
 lang: it
-updated: "2026-10-01"
+updated: "2026-10-12"
 videoTopic: heroes
 ---
 
@@ -234,3 +234,96 @@ Pagine che menzionano questa. L'elenco è generato dal markup e non compilato a 
 - Arthur: abilità, potenziamenti e Potenza
 
 ## Commenti
+
+## Ordine di investimento: Danni → Frontline → Supporto {#dtf-investment-order}
+
+Un eroe è un ruolo prima di essere un ritratto. Il modello di squadra funzionante in questa guida pratica è **2 tank + 2 damage dealer + 1 supporto**: due tank comprano tempo di sopravvivenza, due damage dealer creano pressione, un supporto potenzia un nucleo che esiste già.
+
+![Copertina della guida: come livellare correttamente gli eroi](/img/dtf/hero-progression/01.jpg)
+
+### Come interpretare un ruolo {#dtf-roles}
+
+- **Shield — tank.** Incassa i colpi, tiene la prima linea, protegge il team con abilità difensive e riduzione dei danni.
+- **Fire — damage dealer (carry).** Elimina i nemici velocemente; uno scontro breve infligge meno danni di ritorno alla tua squadra.
+- **Bottle — supporto.** Buff, sustain, aiuto con le risorse. Quasi sempre scala in base a quanto è già forte il resto della squadra.
+
+Distribuire le risorse in modo uniforme crea cinque eroi mediocri. Concentrarle crea una squadra in grado di completare i contenuti.
+
+![Ruoli degli eroi: tank, damage dealer, supporto](/img/dtf/hero-progression/02.jpg)
+
+### L'ordine che fa avanzare i progressi {#dtf-carry-first}
+
+1. **Damage dealer principale** — progressione più rapida attraverso campagna, PvE ed eventi.
+2. **Tank principale** — senza una prima linea, il carry non riesce mai a lanciare le sue abilità.
+3. **Secondo damage dealer, secondo tank e infine supporto.**
+
+Potenziare un carry debole con un supporto precoce è come mettere una turbina su un carrello della spesa: fa rumore, ma non va da nessuna parte.
+
+### Prima il carry principale: Marlena come esempio {#dtf-marlena-carry}
+
+Nella direzione dei Guerrieri l'esempio è Marlena. Tre cose contano per il damage dealer principale: **livello dell'eroe, equipaggiamento offensivo e abilità di danno chiave** (per Marlena, la passiva che aumenta i danni da energia, non un po' di tutto).
+
+![Marlena come damage dealer principale](/img/dtf/hero-progression/03.jpg)
+
+La priorità dell'equipaggiamento per un carry è **spada, poi guanti**. Armatura e stivali non sono inutili, ma dare priorità alla protezione su un carry significa fare in modo che entrambe le squadre sopravvivano più a lungo. Le abilità seguono la stessa logica: aumenta l'effetto che potenzia il tipo di danno principale prima dei miglioramenti secondari.
+
+![Livella gli eroi in ordine: prima il carry, poi tank e supporto](/img/dtf/hero-progression/04.jpg)
+
+### Secondo damage dealer: dopo che il primo ha una base solida {#dtf-second-carry}
+
+Il secondo damage dealer aggiunge ritmo, finisce i bersagli e fa da assicurazione al carry principale, ma solo dopo che il primo ha ottenuto livello, abilità chiave, spada e guanti. Dividere tutto 50/50 troppo presto produce due attaccanti mediocri i cui bersagli rimangono in vita.
+
+Scegli l'eroe che fa effettivamente parte della tua squadra principale attuale, non un progetto per il "futuro".
+
+### Secondo tank: Arthur tiene la linea {#dtf-arthur-tank}
+
+Dopo il carry, la prima linea deve mettersi in pari. Arthur come tank principale ha bisogno di livelli, equipaggiamento difensivo e abilità di protezione per la squadra. L'ordine dell'equipaggiamento è **armatura, poi stivali** (armatura contro i colpi fisici, stivali per la sopravvivenza contro l'energia e le soglie difensive).
+
+![Livellare Arthur: armatura, stivali e abilità difensive](/img/dtf/hero-progression/05.jpg)
+
+Cosa potenziare su un tank: prima la mossa finale (quella di Arthur riduce i danni fisici subiti dagli alleati nella zona), poi le passive che riducono i danni in entrata o mantengono in vita il secondo tank. Una prima linea immortale senza danni alle spalle perde solo lentamente e in modo eroico.
+
+### Terzo il supporto: Celia all'inizio, Harper dopo {#dtf-harper-support}
+
+Celia può occupare lo slot di supporto nelle fasi iniziali, ma il suo valore è più orientato alle risorse che alla potenza di combattimento diretta. Harper (buff di attacco agli alleati, specialmente Guerrieri, tramite passiva e mossa finale) si adatta molto meglio a una squadra di combattimento di Guerrieri, una volta che c'è qualcosa che vale la pena potenziare.
+
+![Harper: supporto d'attacco per gli eroi Guerrieri](/img/dtf/hero-progression/06.jpg)
+
+Non inserire Harper al livello 1 solo perché è appena uscito. Fai una transizione graduale e pianifica le sue risorse in anticipo: il buff ripaga quando Marlena, Arthur e un secondo damage dealer sono già schierati.
+
+Sequenza pratica: damage dealer principale → tank principale → secondo damage dealer → secondo tank → supporto quando il nucleo è pronto.
+
+### Equipaggiamento e abilità per ruolo, non per preferenza {#dtf-gear-skills-by-role}
+
+- Carry: prima **spada → guanti**.
+- Tank: prima **armatura → stivali**.
+- Supporto: protezione se muore e perde i buff, altrimenti più avanti.
+- Non dare mai la spada migliore al tank mentre al carry principale manca il danno, e non massimizzare mai l'armatura di un carry prima dei suoi pezzi offensivi.
+
+Per le abilità, leggi la descrizione: carry = amplificatori di danno e di energia o fisici; tank = riduzione dei danni in entrata, protezione degli alleati, sustain della prima linea; supporto = buff di attacco, buff di fazione, bonus di squadra attivi. Per Marlena conta l'aumento di danno, per Arthur la difesa della squadra, per Harper il buff di attacco agli alleati.
+
+### Disciplina F2P {#dtf-f2p-discipline}
+
+1. Scegli una direzione di fazione.
+2. Annota il damage dealer principale.
+3. Massimizzalo per primo, poi il tank principale, il secondo damage dealer, il secondo tank e infine il supporto.
+4. Non inseguire ogni nuova evocazione; una squadra completata vale più di una collezione di carte sviluppate a metà.
+
+La stessa ricerca dei cinque ruoli funziona in qualsiasi fazione: trova *il tuo* carry principale, il secondo carry, due tank e un supporto, quindi procedi con danni → frontline → supporto. Un eroe forte senza la sua fazione, i suoi ruoli e i suoi bonus di squadra intorno rende al di sotto delle aspettative.
+
+![Schema di livellamento della squadra principale: damage dealer, tank, supporto](/img/dtf/hero-progression/07.jpg)
+
+### Sei errori classici {#dtf-progression-mistakes}
+
+1. Livellare tutti un poco — una base debole.
+2. Livellare il supporto prima del carry.
+3. Dimenticarsi dei tank — un carry morto infligge zero danni.
+4. Stesso equipaggiamento per ogni ruolo — prima il ruolo, poi l'oggetto.
+5. Ricostruire la squadra per ogni nuova evocazione — nuovo non significa migliore.
+6. Spendere senza un piano — la risorsa più costosa è una decisione sbagliata.
+
+Fai una diagnosi tramite i report di battaglia: il tank muore all'istante → problema di prima linea; scontro lungo senza uccisioni → problema di danni; il carry sopravvive ma rende poco → controlla abilità ed equipaggiamento. Mantieni un piano di 1-2 settimane (chi potenziare adesso, chi dopo, quale oggetto, quali abilità).
+
+![Come livellare gli eroi senza sprecare risorse](/img/dtf/hero-progression/08.jpg)
+
+> Fonte: [Last Asylum: Plague - как правильно качать героев и не слить ресурсы впустую](https://dtf.ru/howto/5138522-last-asylum-plague-prokachka-geroev) di Гейм-Знаток su DTF.

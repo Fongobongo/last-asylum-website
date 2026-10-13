@@ -2,7 +2,7 @@
 title: "Pengepungan Ghoul: Panduan Lengkap"
 description: "Pertahanan aliansi melawan gelombang terinfeksi: bar petunjuk 300.000, tingkat kesulitan dari 2,4 Juta hingga 24,5 Juta Enemy Might, mekanik multi-pasukan tersembunyi yang menghancurkan pemain 9,5 Juta, dan tabel hadiah lengkap."
 lang: id
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: undead
 calculators: []
 infographics: ["/infographics/undead-siege-guide.webp", "/infographics/undead-siege-guide-2.webp"]
@@ -95,3 +95,61 @@ Rekor sepanjang masa mencapai **1.193 gelombang** dalam satu pengepungan.
 7. **Log off tanpa mengatur pertahanan** — pertahanan offline berfungsi, tetapi **hanya jika sudah diatur sebelumnya**. Atur, lalu tidurlah.
 
 Jalankan acara dengan tujuh hal tersebut diperbaiki dan aliansi Anda akan bertahan mendekati batas maksimalnya. Pengaturan pahlawan untuk tembok dan komposisi pasukan dibahas dalam [panduan Pahlawan](/id/heroes/).
+
+---
+
+## Catatan Lapangan Pengepungan Mayat Hidup: Petunjuk, 20 Gelombang, dan Pengawas {#dtf-field-notes}
+
+Pengepungan adalah ujian organisasi bagi aliansi, bukan acara untuk satu pemain kuat saja: misi Falcon mengisi bilah kemajuan, pasukan tembok bertahan, anggota yang online menyembuhkan, pemain kuat memperkuat yang lemah. Jika diluncurkan tanpa persiapan, separuh aliansi akan terbakar di tengah jalan dan obrolan dipenuhi dengan "kenapa perisai tidak berfungsi" dan "siapa yang menekan tombol mulai".
+
+![Panduan Pengepungan Mayat Hidup](/img/dtf/undead/01.jpg)
+
+### Petunjuk berasal dari misi Falcon {#dtf-clues}
+
+Aliansi membutuhkan **petunjuk** untuk mengisi bilah peluncuran, dan petunjuk tersebut berasal dari misi Falcon — terutama misi pembunuhan terhadap **markas, Wandering Blight, dan Blight Legion**, yang bernilai sekitar **300 fragmen masing-masing**. Jika anggota mengabaikan misi tersebut, pengepungan tidak akan terbangun sepenuhnya.
+
+![Petunjuk untuk pengepungan berasal dari misi Falcon](/img/dtf/undead/03.jpg)
+
+Ketegangannya: banyak pemain menimbun misi Falcon untuk Duel Aliansi (penumpukan hari Minggu/Selasa/Kamis). Itu wajar dalam kondisi normal, tetapi ketika aliansi membutuhkan petunjuk, misi pembunuhan yang diperlukan harus dijalankan dan diklaim setiap hari. Perwira harus menyebutkan target secara spesifik — markas, wandering blight, blight legion — bukan sekadar "kerjakan Falcon".
+
+### Siapa yang meluncurkan dan kapan {#dtf-launch}
+
+Pada petunjuk 100%, **R4/R5 meluncurkan** acara serta memilih waktu dan tingkat kesulitan. Jangan pernah meluncurkan hanya karena "saya sedang online sekarang" — separuh aliansi mungkin sedang offline, tembok belum diatur, bala bantuan belum dikirim. Jadwalkan pada waktu puncak online di malam hari, berikan peringatan di obrolan serta Telegram/Discord, dan lakukan pemeriksaan 5 menit: siapa yang online, siapa yang lemah dan butuh bala bantuan, siapa yang bisa mengirim pasukan ke-2/ke-3, siapa yang memiliki pasukan utama di tembok, tingkat kesulitan apa yang sebenarnya dapat ditahan oleh roster.
+
+![Persyaratan partisipasi pengepungan](/img/dtf/undead/04.jpg)
+
+Gerbang masuk: **Level Sanctuary** (sekitar 14 pada tingkat kesulitan 1 hingga ~27 pada tingkat kesulitan 10), **48+ jam di dalam aliansi** (tidak ada perpindahan menit akhir demi hadiah), dan **tidak ada status tidak aktif 72j+**. Tinjau roster sebelum peluncuran — anggota baru dan pemain yang tidur tidak membantu acara 20 gelombang.
+
+### Tingkat kesulitan, gelombang, dan aturan 20 pemain {#dtf-difficulty}
+
+Tingkat kesulitan terbuka secara berurutan — tidak bisa langsung melompat ke 10. Total gelombang aliansi untuk hadiah maksimal berskala dari sekitar **300 pada tingkat kesulitan 1 hingga ~1.200 pada tingkat kesulitan 10**. Untuk naik tingkat, **setidaknya 20 anggota harus menyelesaikan ke-20 gelombang** — bukan hanya satu pemain teratas, bukan lima pemain teratas. Pemain lemah yang terabaikan dan mati pada gelombang 8–10 dapat memblokir seluruh aliansi, jadi memperkuat pemain tingkat menengah jauh lebih baik daripada mengagumi kekuatan papan atas.
+
+![Tingkat kesulitan dan 20 gelombang untuk hadiah maksimal](/img/dtf/undead/05.jpg)
+
+Hadiah pribadi berskala sesuai gelombang yang bertahan — **semua 20 gelombang untuk hadiah maksimal**. Jika suatu gelombang membakar Anda, partisipasi berakhir pada tingkat gelombang tersebut tanpa opsi masuk kembali. Daftar periksa sebelum mulai: pasukan terkuat di tembok, pasukan yang cukup, pemulihan siap dengan sumber daya dan percepatan, online saat mulai, permintaan bala bantuan diajukan lebih awal jika lemah. Sebagian besar kegagalan disebabkan hal-hal yang sepele: pasukan salah, tembok kosong, berharap pada perisai, atau AFK "5 menit" hingga ditinggal pergi.
+
+### Perisai tidak berguna, tembok adalah segalanya {#dtf-shield}
+
+Perisai **tidak menghentikan gelombang pengepungan**. Begitu diluncurkan, gelombang akan datang apa pun kondisinya. Tembok harus menahan pasukan yang sebenarnya: pasukan pertahanan atau tempur utama terkuat — tank yang baik, carry, dukungan — jangan pernah menggunakan pasukan pengumpul atau penampung "nanti ditukar". Pemain yang lemah harus meminta bantuan lebih awal; "Saya butuh bala bantuan" yang tepat waktu membantu aliansi, sedangkan sikap diam ditambah kekalahan di tengah acara tidak akan membantu apa pun.
+
+![Perisai tidak menghentikan gelombang pengepungan](/img/dtf/undead/06.jpg)
+
+Pemain kuat memperkuat yang lemah dengan **pasukan ke-2 dan ke-3 sementara pasukan utama tetap berada di rumah**. Kota yang lemah bukan berarti malas, mereka hanya lebih lemah — dengan bantuan, kota tersebut dapat bertahan lebih banyak gelombang, mendapatkan lebih banyak hadiah pribadi, dan menambah gelombang aliansi. Tentukan penolong sebelum mulai; kekacauan di tengah gelombang (pemulihan, obrolan, salah klik) membuat bantuan terlambat tiba.
+
+![Memperkuat sekutu selama pengepungan](/img/dtf/undead/07.jpg)
+
+### Pemulihan, jeda waktu (cooldown), dan pengawas {#dtf-healing}
+
+Pasukan yang gugur akan masuk ke **infirmary** (rumah sakit) — tetap online, lakukan pemulihan di antara gelombang, perbarui bantuan saat sekutu menerima kerusakan. Periksa sebelum mulai: sumber daya pemulihan, percepatan, ruang kosong di infirmary, kesiapan untuk mengikuti seluruh gelombang. Infirmary yang penuh tanpa sumber daya akan membuat acara ini sia-sia.
+
+![Rencana lari pengepungan](/img/dtf/undead/08.jpg)
+
+Setelah semua gelombang selesai, akan ada **jeda waktu sekitar 2 hari**, tetapi petunjuk dapat diternakkan selama masa ini — terus jalankan misi Falcon agar tingkat kesulitan berikutnya dapat diluncurkan lebih cepat. Siklus: kumpulkan, luncurkan, 20 gelombang, hadiah, jeda waktu, kumpulkan lagi.
+
+Pada **tingkat kesulitan 9 dan 10, setiap gelombang ke-4 memiliki peluang 20% untuk menjadi Overseer** dengan hadiah bonus, dan Overseer tersebut memiliki **peluang 30% untuk berubah menjadi Enraged Overseer** dengan jarahan yang lebih baik. Jangan mengejar mereka terlalu awal: jika aliansi hampir tidak bisa menahan gelombang normal, tindakan heroik hanya akan mengorbankan hadiah yang stabil terlebih dahulu.
+
+![Overseer dan Enraged Overseer](/img/dtf/undead/09.jpg)
+
+Pilih tingkat kesulitan berdasarkan bukti nyata, bukan kebanggaan: berapa banyak yang menyelesaikan 20/20, siapa yang mati lebih awal, siapa yang butuh bantuan, apakah pemulihan mencukupi, apakah target gelombang maksimal tercapai, apakah obrolan menjadi panik. Kemenangan yang meyakinkan berarti naik tingkat; kemenangan yang pas-pasan berarti bertahan. Untuk para perwira: umumkan lebih awal, pasangkan pemain lemah dan kuat, jaga tingkat kesulitan agar realistis, dan jelaskan kepada pendatang baru bahwa perisai tidak menyelamatkan dan pasukan tembok harus dikendalikan secara manual.
+
+> Source: [Last Asylum: Plague - гайд по событию Осада нежити. Как пройти 20 волн, не сгореть и помочь альянсу](https://dtf.ru/howto/5189978-osada-nezhiti-last-asylum-plague) oleh Гейм-Знаток di DTF.

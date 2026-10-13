@@ -2,7 +2,7 @@
 title: "Sistem Raven & Epigraph"
 description: "Tahap dan pelan Raven, strategi gear, tahap kelangkaan epigraph dan susunan promosi, serta peraturan mono-faksi yang menentukan epigraph mana yang berbaloi untuk dinaik taraf."
 lang: ms
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: raven
 infographics: ["/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
 ---
@@ -205,3 +205,44 @@ Menara Falcon disegarkan setiap 6 jam: sekumpulan pencarian baharu mendarat dala
 Menyimpan pencarian hanya berbaloi untuk Alliance Duel: pada hari satu, tiga dan lima setiap Pencarian Falcon yang diserahkan membawa 10 000 mata. Pemain melengkapkan pencarian tetapi membiarkan ganjaran tidak dituntut, dan ia kekal dalam senarai yang kelihatan dengan titik merah sehingga hari yang betul. Mengikut pemerhatian pemain, pencarian yang lengkap tidak pernah terbakar, yang tidak lengkap hilang selepas 8 jam, dan pencarian Wandering Blight tidak dikira terhadap storan.
 
 Had penyimpanan sedemikian ialah pencarian yang kelihatan ditambah storan, dan storan penuh dalam masa kurang dari sehari: 30 jam pada tahap menara satu, 18-24 jam dari tahap lima dan seterusnya. Selepas itu setiap penyegaran dibazirkan, sementara menara memberikan dari 24 pencarian sehari pada tahap satu hingga 52 pada tahap lima belas. Oleh itu, menyimpan lebih lama daripada sehari tidak berbaloi: pada hari duel dua dan empat pencarian dilengkapkan dan disimpan, pada hari satu, tiga dan lima segala-galanya diserahkan, dan pada hujung minggu ganjaran dituntut sekaligus. Menyimpan tidak menjejaskan tahap menara, ia hanya melambatkannya.
+
+---
+
+## Naik Taraf Raven Tanpa Kesilapan: Bengkel, Sarang, Epigraf, Rutin {#raven-dtf-leveling}
+
+Nota lapangan daripada panduan naik taraf DTF: Raven tinggal di tiga tempat, bukan satu — dan urutan lebih penting daripada kelajuan.
+
+**Tiga bangunan.** Bengkel Raven ialah pengeluaran latar belakang: ia menghasilkan bahan dari semasa ke semasa tanpa pulangan yang mencolok, tetapi kemajuan akan merosot tanpa kehadirannya. Sarang Raven ialah skrin utama — tahap, evolusi, peringkat baharu dan ikatan skuad. Bengkel Epigraf ialah tempat di mana kebanyakan pilihan salah berlaku: satu keputusan kraf atau slot yang buruk sama ada kekal bersama anda sebagai peningkatan yang lemah atau menelan kos tetapan semula.
+
+![Gambaran keseluruhan sistem Raven](/img/dtf/raven/01.jpg)
+
+**Tahap lwn evolusi.** Raven naik tahap menggunakan Buah Raven dan berevolusi menggunakan Pati Raven, dengan langkah evolusi setiap 10 tahap membuka lapisan kemajuan seterusnya. Pati ialah kekangan utama: Buah tiba secara berterusan melalui permainan rutin, manakala Pati sentiasa terasa terhad. Perhatikan ambang evolusi seterusnya terlebih dahulu — tahap tanpa langkah evolusi akan menghadapi halangan dengan cepat.
+
+![Skrin wira Raven](/img/dtf/raven/02.jpg)
+
+**Peralatan: bina asas, kemudian tajamkan.** Jangan buka peti dan tingkatkan naik taraf sewenang-wenangnya apabila ia jatuh. Kumpul set penuh secara sekata terlebih dahulu, kemudian cantumkan duplikatkan dan tinggalkan peralatan dengan sengaja. Sesetengah peningkatan dihadkan oleh urutan — slot lain mesti mencapai tahap sebelum sesuatu bahagian dibuka — jadi memaksimumkan satu slot lebih awal akan meninggalkan lompang di tempat lain. Anggap peralatan sebagai satu kit, bukan loteri.
+
+![Skrin peralatan Raven](/img/dtf/raven/03.jpg)
+
+**Sumber harian.** Semak setiap hari: Kedai Perikatan (pelbagai bahan Raven), kedai VIP (Pati dan peti untuk berlian), kedai Ekspedisi (peti Raven tahap lebih tinggi), kedai Kehormat (peti peringkat lewat yang jarang ditemui), kedai Tempat Perlindungan (Pati mengikut giliran). Beli hanya apa yang menyelesaikan tugasan semasa anda — menyapu setiap item berlabel "Raven" hanya menghasilkan inventori tanpa kemajuan. Nyatakan kekurangan dengan jelas sebelum berbelanja: bahan Bengkel Epigraf, atau duplikat untuk dicantumkan.
+
+**Ambang epigraf.** Epigraf ungu dibuka pada Bengkel Epigraf tahap 15 — sebelum itu anda tidak benar-benar berada dalam sistem. Epigraf UR datang kemudian, pada peringkat bengkel seterusnya dengan bahan yang lebih mahal. Bonus epigraf hanya terpakai pada jenis skuad yang sepadan: jika skuad utama anda ialah Pahlawan, menghasilkan epigraf Renjer "untuk masa depan" akan membakar bahan yang terhad untuk pulangan semasa sebanyak sifar. Pilih faksi yang sebenarnya anda gunakan, isi satu set, dan biarkan set sisi sahaja sehingga teras selesai. Di dalam sesebuah set, slotnya berbeza (serangan / pertahanan / sokongan / pusat am) — betulkan faksi dahulu, kemudian sesuaikan mengikut keperluan: kekurangan kerosakan bermakna menolak slot serangan, skuad yang hampir tumpas bermakna pertahanan, dan slot am bermakna peningkatan yang sekata.
+
+![Epigraf sebagai bahagian sistem yang paling kuat dan paling berbahaya](/img/dtf/raven/04.jpg)
+
+![Slot epigraf untuk Pahlawan, Renjer dan Penyihir](/img/dtf/raven/05.jpg)
+
+**Duplikat ialah bahan api.** Salinan kedua bagi epigraf yang betul bukanlah titisan yang buruk — epigraf seiras menaikkan bintang pada bahagian sedia ada, dan untuk bahagian UR, duplikat yang tepat bagi item yang betul adalah sumber paling bernilai dalam barisan itu. Duplikat jenis salah perlu menunggu atau melalui pengagihan semula tetapan semula; duplikat jenis betul akan diberi bintang.
+
+![Epigraf duplikat sebagai bahan api untuk pertumbuhan](/img/dtf/raven/06.jpg)
+
+**Evolusi membuka skuad.** Evolusi bukan sekadar statistik: ia membuka kunci slot skuad tambahan. Anda bermula dengan skuad pertama sahaja, slot kedua dibuka pada peringkat evolusi seterusnya, dan syarat terus meningkat. Itulah satu lagi sebab untuk komited kepada skuad terkuat anda lebih awal — secara fizikal tiada ruang untuk disebarkan pada permulaan.
+
+![Slot skuad dibuka melalui evolusi Raven](/img/dtf/raven/07.jpg)
+
+**Tetapan semula wujud.** Kraf yang buruk boleh dipulihkan: tetapan semula mengundurkan peningkatan dan mengembalikan bahan untuk diagihkan semula. Ia paling berguna apabila anda menukar kelas skuad utama, mengatasi skuad sementara, atau memilih epigraf yang salah pada permulaan. Ia mengurangkan kos kesilapan; ia tidak menjadikan kraf buta sebagai percuma.
+
+**Rutin harian.** Semak kedai, pastikan evolusi seterusnya dalam fikiran, kembangkan hanya jenis epigraf skuad utama anda, dan tetapkan semula kesilapan daripada terus hidup dengannya. Dimainkan sebagai lingkaran harian, Raven akan bertambah baik; dimainkan secara berterusan ia terasa mahal dan kabur.
+
+---
+> Sumber: [Last Asylum: Plague - полный гайд по Ворону. Как качать без ошибок, что делать с эпиграфами.](https://dtf.ru/howto/5016737-last-asylum-plague-gayd-po-prokachke-vorona) oleh Гейм-Знаток di DTF.

@@ -3,7 +3,7 @@ title: "Claire: Kemahiran, Binaan & Peningkatan Tahap"
 description: "Claire ialah pahlawan SSR yang berperanan sebagai DPS. Apabila dinaik taraf sepenuhnya, dia mencapai 685,150 Might, kedudukan ke-12 daripada 16 antara wira DPS dalam permainan. Membuka kunci beliau memerlukan 10 serpihan (Claire Shard)…"
 videoTopic: "claire"
 lang: ms
-updated: "2026-09-19"
+updated: "2026-10-12"
 type: guide
 ---
 
@@ -285,3 +285,35 @@ Kedua-dua bentuk berkongsi satu serpihan: 10 daripadanya membuka kunci Claire bi
 Bintang paling banyak memakan kos Claire, bukan dalam badge tetapi dalam menunggu: 975 serpihan, manakala pengambilan menghasilkan serpihan wira dalam kira-kira 26% daripada tarikan. Kemahiran meningkat ke tahap 40 pada 436,700 badge setiap satu dan memberikan pulangan yang kurang: Call of the Brave memuncak pada 24% kerosakan raksasa berbanding 30% untuk bentuk lanjutan.
 
 Skuad terbaik dengan Claire dan tiada wira UR ialah Kesso, Lucius, Sivir, Bella dan Claire sendiri: lima warrior, bonus +20% dan 8.1M kebolehan hidup. Bersama Arthur dan Marlena, beliau menyertai tiga daripada lima skuad terbaik yang boleh dicapai, di mana kebolehan hidup mencapai 38.2M, dan harga bonus penuh ialah 20% kerosakan tambahan daripada ranger.
+
+---
+
+## ✦ Claire Emas (UR): mekanik penukaran dan keputusan {#dtf-gold-claire}
+
+Menaikkan tahap jarang Claire menukarkan versi SSR ungu kepada versi UR — dan mekaniknya lebih mesra, kemudian lebih mahal, daripada yang kelihatan. Tahap dikehendaki, bintang tidak.
+
+### Apa yang dikehendaki selepas transformasi {#dtf-claire-conversion}
+
+Selepas penukaran, wira **tidak** kembali ke tahap 1: kesemua 150 tahap kekal. Bintang diset semula secara berbeza — Claire emas tiba pada **enam bintang**, dengan sebahagian daripada sumber yang dilaburkan dikembalikan sebagai serpihan dan lencana kemahiran untuk diagihkan semula kepada bentuk yang dipertingkatkan. Kejutan yang kurang menyenangkan: bintang seterusnya kosnya jauh lebih mahal — kira-kira dua kali ganda serpihan daripada bentuk lama. Jadi jangan terburu-buru mendapatkan kesemua sepuluh bintang pada hari yang sama. Keutamaannya ialah **8★**, yang membuka kunci kemahiran kelima dan sudah memberikan kit yang sangat lengkap; dua bintang terakhir boleh diselesaikan secara beransur-ansur melalui serpihan kedai sendiri dan sumber yang tersedia.
+
+![Peningkatan tahap jarang Claire kepada emas](/img/dtf/daskal-claire/05.jpg)
+
+![Claire emas selepas penukaran](/img/dtf/daskal-claire/06.jpg)
+
+Peningkatan ini bukan sekadar penukaran warna: statistik asas melonjak dengan ketara, terutamanya HP dan ATK pada nombor akaun yang sama.
+
+![Perbandingan statistik Claire emas vs ungu](/img/dtf/daskal-claire/07.jpg)
+
+![Perbandingan statistik UR vs Claire lama](/img/dtf/daskal-claire/08.jpg)
+
+### Kuat — tetapi khusus untuk PvE {#dtf-claire-pve-focus}
+
+Jangan anggap Claire emas sebagai pengganti universal untuk sebarang DPS UR. Dia kekal disesuaikan khusus untuk PvE dan raksasa: Call of the Brave meningkatkan kerosakan tiga Pahlawan (Warrior) dengan ATK tertinggi dalam pasukan khusus terhadap raksasa, jadi pada Demon King dan kandungan PvE lain dia cemerlang manakala sebahagian daripada kitnya terbiar dalam PvP. Jika keperluan utamanya adalah perang terhadap pemain, Zoya kelihatan lebih universal.
+
+![Claire disesuaikan untuk PvE dan raksasa](/img/dtf/daskal-claire/09.jpg)
+
+![Claire vs Marlena, Arthur dan Harper pada tahap 150](/img/dtf/daskal-claire/10.jpg)
+
+Keputusan: Claire emas mengukuhkan Pahlawan PvE dengan cemerlang tanpa secara automatik menjadi pilihan terbaik untuk setiap mod. Tetapkan dia pada lapan bintang, kumpul dua yang terakhir secara perlahan-lahan, dan letakkan dia di tempat bonus raksasanya berkesan.
+
+> Sumber: [Даскал и золотая Клэр в Last Asylum: Plague - как правильно прокачивать героев](https://dtf.ru/howto/5317537-daskal-i-zolotaya-kler-v-last-asylum-prokachka-geroev) oleh Гейм-Знаток di DTF.

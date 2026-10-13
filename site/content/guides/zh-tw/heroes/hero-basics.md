@@ -2,7 +2,7 @@
 title: "基礎知識：陣營與小隊"
 description: "英雄指南板塊：基礎知識：陣營與小隊。"
 lang: zh-tw
-updated: "2026-10-01"
+updated: "2026-10-12"
 videoTopic: heroes
 ---
 
@@ -220,3 +220,173 @@ videoTopic: heroes
 - 亞瑟：技能、升級與戰力
 
 ## 評論
+
+## 應該培養哪個坦克：Arthur、Daskal、Brian 還是 Louis {#dtf-tank-choice}
+
+每個人都想先追求極高的輸出數據，但如果前排在開局幾秒鐘就倒下，輸出位就永遠無法發揮作用。一個優秀的坦克能抗住第一波攻擊、爭取技能施放時間、削減受到的傷害——有時通過護盾、自我治療或針對特定傷害類型的防禦來實現。Arthur、Daskal、Brian 和 Louis 實現這一點的方式各不相同。
+
+![Arthur、Daskal、Brian 和 Louis：四位坦克對比](/img/dtf/hero-basics/01.jpg)
+
+![每位坦克的職責：Arthur、Daskal、Brian 和 Louis](/img/dtf/hero-basics/02.jpg)
+
+### Arthur：大多數賬號最穩妥的坦克 {#dtf-arthur-safe}
+
+Arthur 是萬能前排。他不需要身邊有完美的五人陣容——他能衝在前面，在 PvP、PvE、早期以及過渡階段都能發揮作用。
+
+- **Battle Shield**（戰鬥護盾）——對單個目標的普通物理攻擊。
+- **Earthshattering**（地動山搖）——範圍攻擊，可幫助盟友受到的物理傷害降低。
+- **Rock Solid**（穩如磐石）——與 Arthur 最大生命值掛鉤的個人護盾。
+- **Strong Will**（堅強意志）——被動降低友方坦克受到的傷害。
+- **Tenacity**（堅韌）——提升攻擊力（ATK）、生命值（HP）、防禦力（DEF）並加快技能冷卻。
+
+結果：帶來的是穩定性，而非高光時刻。他是你可以優先培養而不會讓自己侷限於單一狹隘套路的坦克。
+
+![適用於 PvP、PvE 和平民玩家（F2P）的萬能坦克 Arthur](/img/dtf/hero-basics/03.jpg)
+
+### Daskal：厚實的前排與護盾 {#dtf-daskal-shields}
+
+Daskal 主要依靠護盾、生存能力和自我恢復。如果 Arthur 是石柱，那麼 Daskal 就是額外的裝甲門。
+
+- **Battle Will**（戰意）——普通物理攻擊。
+- **Bloodshed Defense**（浴血防禦）——與防禦力（DEF）掛鉤的團隊護盾。
+- **Deadly Pierce**（致命穿刺）——造成傷害併爲 Daskal 恢復生命值（HP）。
+- **Resolute Fight**（堅決戰鬥）——爲友方坦克提供開局護盾。
+- **Tenacity**（堅韌）——攻擊力/生命值/防禦力提升以及更快的冷卻速度。
+
+他在 Arthur 身邊（萬能穩定性 + 護盾和自我治療）以及需要厚實前排以確保輸出位安心輸出的戰士（Warrior）陣容中大放異彩。當隊伍中已經有了 Arthur，並且你需要第二個強力坦克，或者隊伍在開局時表現疲軟時，選擇他。
+
+![Daskal：護盾、自我治療和團隊生存能力](/img/dtf/hero-basics/04.jpg)
+
+### Brian：持久戰坦克 {#dtf-brian-long}
+
+Brian 不以大護盾見長。他能壓制敵人的攻勢，並在拉鋸戰中持續發揮作用。
+
+- **Sharp Claw**（利爪）——普通物理攻擊。
+- **Threat Bite**（威嚇撕咬）——造成傷害併爲所有盟友降低受到的傷害。
+- **Lunar Howl**（月影長嚎）——反彈部分受到的傷害。
+- **Wolf Bloodline**（狼族血脈）——被動降低所有受到的傷害。
+- **Tenacity**（堅韌）——標準的攻擊力/生命值/防禦力及冷卻縮減。
+
+最適合長局 PvE 戰鬥、堅固前線以及術士（Warlock）流派方向——這是一個在你知道自己的陣營和模式後做出的後期深思熟慮的選擇，而不是一個開局混亂時選的英雄。
+
+![Brian：爲持久戰提供減傷效果](/img/dtf/hero-basics/05.jpg)
+
+### Louis：防爆發與防能量專家 {#dtf-louis-anti-burst}
+
+Louis 是四者中最具侷限性、最看陣容的——他是應對能在幾秒鐘內秒殺目標或以能量傷害壓制對手的快攻陣容的最佳答案。
+
+- **Shackles**（束縛）——普通攻擊。
+- **Cross Whip**（十字鞭笞）——造成傷害，Louis 自我治療，並降低受到的傷害。
+- **Force Link**（原力鏈接）——削減附近盟友受到的能量傷害。
+- **Indomitable Spirit**（不屈精神）——大幅降低受到的傷害，並提供抵禦致命一擊的幫助。
+- **Tenacity**（堅韌）——攻擊力、生命值、防禦力和冷卻速度。
+
+他不是地基裏的第一塊磚，但在前排已經成型的情況下，他是應對敵方快攻版本的特種工具。
+
+![Louis：爆發與能量壓制的剋星](/img/dtf/hero-basics/06.jpg)
+
+### 誰在 PvP 和 PvE 中更強 {#dtf-tank-pvp-pve}
+
+PvP 順序：**Arthur → Daskal → Louis → Brian**。Arthur 的穩定性和首輪交鋒價值領先；Daskal 的護盾爲輸出爭取了時間；Louis 的排名超過 Brian，因爲在 PvP 中活過開局爆發是決定勝負的關鍵；Brian 的優勢需要更長時間的持續壓制。
+
+PvE 順序：**Arthur → Brian → Daskal → Louis**。Arthur 憑藉萬能之選穩居榜首；Brian 隨着持久戰和減傷需求而崛起；Daskal 緊隨其後，提供護盾和前排厚度；Louis 的適用範圍則縮窄至面對真正爆發或能量壓制的特定對局。
+
+![PvP 和 PvE 中的坦克對比](/img/dtf/hero-basics/07.jpg)
+
+### 平民玩家（F2P）培養順序與坦克誤區 {#dtf-tank-f2p}
+
+平民和微氪玩家規則：**Arthur → Daskal → 視情況而定**。一個強力坦克勝過四個半成品的坦克。常見錯誤：在沒有陣容規劃的情況下培養坦克（沒有術士方向的 Brian，沒有抗能量壓制環境的 Louis）；同時培養全部四個坦克；忽視了輸出位（一個沒有傷害的肉盾只會慢慢輸掉比賽）；在不具備他人條件的情況下盲目複製別人的陣容。
+
+![平民及微氪玩家的坦克優先級](/img/dtf/hero-basics/08.jpg)
+
+個人簡明總結：尚無坦克 → Arthur；Arthur 已養成且前排需要化爲銅牆鐵壁 → Daskal；用於持久戰的後期成型陣容 → Brian；敵方快攻陣容能在幾秒鐘內消滅英雄 → Louis。
+
+![Arthur、Daskal、Brian 還是 Louis：最終結論](/img/dtf/hero-basics/09.jpg)
+
+> 來源：[Last Asylum: Plague: Артур, Даскал, Брайан или Луис - какого танка качать](https://dtf.ru/howto/5104617-kakogo-tanka-kachat-v-last-asylum-plague)，作者：Гейм-Знаток，DTF。
+## 陣型：前排雙坦，中置輸出 {#dtf-formation}
+
+僅憑戰力高低容易產生誤導。如果一個昂貴的陣容讓輸出位站在前面、坦克躲在後面，最好的武器又給錯了英雄，那它必然會失敗。
+
+![最佳英雄陣型指南](/img/dtf/hero-basics/10.jpg)
+
+### 陣營優先，隨後激活單陣營加成 {#dtf-faction-bonus}
+
+Warriors beat Warlocks, Warlocks beat Rangers, Rangers beat Warriors. Most players assemble a Warrior core first because its good heroes arrive earlier; on a Warrior-heavy server, Rangers become a strong second direction — even a slightly weaker Ranger team surprises Warriors through the faction edge.
+
+![戰士、遊俠和術士陣營](/img/dtf/hero-basics/11.jpg)
+
+Five heroes of one faction give **+20% HP, attack and defense** (four give 15%). That is why three gold plus two good purple Warriors of one system routinely beat five random golds: check the squad bonus before admiring a single hero's Might.
+
+### 誰站在前面 {#dtf-front-roles}
+
+Heroes have a role as well as a faction: shield = tank, and tanks take the first hits.
+
+![英雄陣營與定位圖標](/img/dtf/hero-basics/12.jpg)
+
+The normal base: **two tanks in front, damage and support behind**. A strong carry in front dies before casting — the best damage dealer must survive to use skills, not die heroically first.
+
+![前排坦克，後排輸出](/img/dtf/hero-basics/13.jpg)
+
+### 實用戰士佈陣：Arthur、Bella、Marlena、Claire、Harper {#dtf-warrior-formation}
+
+Build by roles, not by total power:
+
+- Front: **Arthur (left), Bella (right)** — hold the line as long as possible.
+- Back: **Marlena center** (main damage source gets the most time in even fights), **Claire** on one side as second damage, **Harper** on the other as support.
+
+![場上的完整陣型示例](/img/dtf/hero-basics/14.jpg)
+
+Scout the enemy before the fight: if an awkward target sits across from Marlena, swap her with Claire — but start with Marlena in the middle.
+
+### 戰力相當意義不大 {#dtf-equal-might}
+
+Arena pairs with near-identical Might fight differently because the number folds in heroes, formation, gear, main-carry development — and troops (T1–T10, with T10 a separate late goal through Training Grounds and research). Two similar-Might squads can differ purely on troop tier.
+
+![擁有T9士兵的部隊與訓練場對比](/img/dtf/hero-basics/15.jpg)
+
+### 始終打開戰鬥報告 {#dtf-battle-report}
+
+After a loss to an equal opponent, check who dealt the damage, who died first, and which heroes hold the best gear. Two level-135 Marlenas are not the same hero when stars, skills and swords differ — the report shows it.
+
+![查看戰後戰報](/img/dtf/hero-basics/16.jpg)
+
+### 裝備必須與定位相匹配 {#dtf-gear-by-role}
+
+Tanks like Arthur want armor and boots first; the main carry wants the strongest sword and attack pieces. A great sword on a tank while Marlena runs a level-20 weapon helps both items and neither fight. With scarce materials, one real attack set on the main carry beats five equally pretty heroes.
+
+![競技場戰鬥後的坦克與輸出裝備](/img/dtf/hero-basics/17.jpg)
+
+Up to about level 20, several heroes can be lifted together. Past that, costs jump — focus the two heroes that carry squad one (main damage dealer plus main tank, e.g. Marlena's sword and Arthur's protection) and leave the rest on a working base.
+
+### 先培養誰，後培養誰 {#dtf-first-focus}
+
+For a Warrior first squad: **Marlena deals the damage, Arthur buys her the time** — then second tank, Claire, Harper and the rest. Finish one important upgrade instead of spraying antitoxin and shards across every new pull.
+
+![瑪蓮娜與亞瑟：戰士核心](/img/dtf/hero-basics/18.jpg)
+
+Paid heroes help — early access is a real advantage while others wait — but they still need faction, position, stars, skills and gear. Treat faster progress as a way to remove one concrete bottleneck.
+
+Once the Warrior march stands, build **Rangers second** on Warrior-heavy servers: same 2-tanks-front template, five of one faction for the full bonus, damage behind (a second damage dealer can stand in temporarily without support). Do not rush to equalize both marches — the first keeps solving the hardest tasks while the second becomes an anti-Warrior specialist.
+
+![遊俠部隊對陣戰士部隊](/img/dtf/hero-basics/19.jpg)
+
+Do not stuff every gold hero into squad one: sometimes three gold plus two purple of one faction for the first team, with the remaining golds starting a real second march, builds a healthier account (one main, one anti-faction, one for the rest) than five best in front and leftovers anywhere.
+
+### 週四與商店 {#dtf-thursday-shops}
+
+If your alliance runs Duels, hold serious hero spending (antitoxin, shards, skill badges, summon tickets) for **Thursday** — hero day plus event points for the same action. In shops: Honor = gear blueprints first; Expedition = universal hero shards, summon tickets, antitoxin; Sanctuary = available shards. Buy for one current deficit (Marlena stars, Arthur gear), not everything that looks useful.
+
+![在遊戲商店中購買物品](/img/dtf/hero-basics/20.jpg)
+
+### 失敗檢查清單與零基礎就緒計劃 {#dtf-defeat-checklist}
+
+After a loss: formation (carry in front?) → faction bonus (broken for one stronger hero?) → gear (best sword on the tank?) → stars and skills. That order finds the cause before the next million resources go in.
+
+![從零開始的部隊培養順序](/img/dtf/hero-basics/21.jpg)
+
+Zero-to-ready: one full faction five → two tanks front, best carry middle-back → base gold gear to ~20, stop leveling everything → expensive resources into main-carry weapon and first-tank defense → second faction (Rangers on Warrior servers) → third team only afterwards.
+
+---
+
+> 來源：[Last Asylum: Plague - гайд по лучшей расстановке героев](https://dtf.ru/howto/5245716-last-asylum-plague-sovety-po-rasstanovke-geroev), автор Гейм-Знаток на DTF.

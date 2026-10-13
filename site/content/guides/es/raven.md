@@ -2,7 +2,7 @@
 title: "Sistema de Cuervo y Epígrafes"
 description: "Niveles y planes de Cuervo, estrategia de equipo, rarezas de epígrafes y orden de promoción, además de las reglas de facción única que deciden qué epígrafes vale la pena mejorar."
 lang: es
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: raven
 infographics: ["/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
 ---
@@ -107,3 +107,41 @@ La conclusión no es que el morado sea secretamente el mejor nivel, sino que un 
 Un malentendido común que vale la pena eliminar pronto: **no puedes mejorar un epígrafe SSR a UR**. Lo que mejoras es el Plan: el espacio donde se coloca el epígrafe. Los epígrafes SSR son marcadores de posición en esa progresión, no embriones.
 
 Lo que lleva al error de Cuervo más común en el juego: los jugadores acumulan epígrafes de facciones que no son la principal en lugar de alimentarlos al Cuervo mediante **Añadir rápido**, y luego se preguntan por qué su Cuervo está estancado en el nivel 1. Los epígrafes de otras facciones y de baja rareza son comida para el Cuervo. Usa "Añadir rápido"; para eso están.
+
+---
+
+## Subida de nivel de Raven sin errores: Taller, Nido, Epígrafes, Rutina {#raven-dtf-leveling}
+
+Notas de campo de la guía de mejora de DTF: el Raven vive en tres lugares, no en uno, y el orden importa más que la velocidad.
+
+**Los tres edificios.** El Taller de Raven es la producción de fondo: genera materiales con el tiempo sin recompensas llamativas, pero el progreso se estanca sin él. El Nido de Raven es la pantalla principal: nivel, evolución, nuevas etapas y vinculación de escuadrones. El Taller de Epígrafes es donde ocurren la mayoría de las elecciones incorrectas: una mala fabricación o decisión de ranura se queda contigo como un aumento débil o cuesta un reinicio.
+
+![Vista general del sistema de Raven](/img/dtf/raven/01.jpg)
+
+**Niveles frente a evolución.** El Raven sube de nivel con Fruta de Raven y evoluciona con Esencia de Raven, con un paso de evolución cada 10 niveles que desbloquea la siguiente capa de progreso. La Esencia es la limitación principal: la Fruta llega de manera constante mediante el juego rutinario, mientras que la Esencia siempre se siente escasa. Vigila primero el siguiente umbral de evolución; los niveles sin su paso de evolución alcanzan un límite rápidamente.
+
+![Pantalla de héroe de Raven](/img/dtf/raven/02.jpg)
+
+**Equipamiento: construye la base y luego afina.** No abras cofres y apliques mejoras a medida que caen. Primero monta el conjunto completo de manera uniforme, luego fusiona duplicados y sube el equipo deliberadamente. Algunas mejoras están bloqueadas por secuencia (otras ranuras deben alcanzar un nivel antes de que se abra una pieza), por lo que maximizar una ranura antes de tiempo deja huecos en otros lugares. Trata el equipo como un kit, no como una lotería.
+
+![Pantalla de equipo de Raven](/img/dtf/raven/03.jpg)
+
+**Fuentes diarias.** Comprueba todos los días: Tienda de la Alianza (varios materiales de Raven), Tienda VIP (Esencia y cofres por diamantes), Tienda de Expedición (cofres de Raven de mayor nivel), Tienda de Honor (cofres raros de etapas avanzadas), Tienda del Santuario (Esencia en rotación). Compra solo lo que cierre tu tarea actual; barrer cada objeto etiquetado como "Raven" produce inventario sin progreso. Nombra la escasez explícitamente antes de gastar: materiales del Taller de Epígrafes o duplicados para fusionar.
+
+**Umbrales de epígrafes.** Los epígrafes morados se desbloquean en el nivel 15 del Taller de Epígrafes; antes de eso, no estás realmente en el sistema. Los epígrafes UR llegan más tarde, en la siguiente etapa del taller con materiales más caros. Las bonificaciones de los epígrafes se aplican solo al tipo de escuadrón correspondiente: si tu escuadrón principal es de Guerreros, fabricar epígrafes de Exploradores «para el futuro» quema materiales escasos para obtener un rendimiento actual nulo. Elige la facción que realmente despliegues, llena un conjunto y deja los conjuntos secundarios en paz hasta que el núcleo esté listo. Dentro de un conjunto, las ranuras difieren (ataque / defensa / apoyo / centro general): soluciona primero la facción y luego ajusta según la necesidad; la falta de daño significa impulsar la ranura de ataque, un escuadrón que colapsa significa defensa, y la ranura general significa un aumento uniforme.
+
+![Epígrafes como la parte más fuerte y peligrosa del sistema](/img/dtf/raven/04.jpg)
+
+![Ranuras de epígrafe para Guerreros, Exploradores y Hechiceros](/img/dtf/raven/05.jpg)
+
+![Epígrafes como combustible para el crecimiento](/img/dtf/raven/06.jpg)
+
+**La evolución desbloquea escuadrones.** La evolución no son solo estadísticas: desbloquea ranuras de escuadrón adicionales. Empiezas solo con el primer escuadrón, la segunda ranura se abre en la siguiente etapa de evolución y los requisitos siguen aumentando. Esa es otra razón para comprometerte con tu escuadrón más fuerte desde el principio; físicamente no hay dónde expandirse al principio.
+
+![Ranuras de escuadrón desbloqueadas por la evolución de Raven](/img/dtf/raven/07.jpg)
+
+**El reinicio existe.** Las malas fabricaciones se pueden recuperar: el reinicio revierte una mejora y devuelve los materiales para su redistribución. Es más útil cuando cambias de clase de escuadrón principal, superas un escuadrón temporal o elegiste el epígrafe incorrecto al principio. Reduce el coste de un error; no hace que la fabricación a ciegas sea gratuita.
+
+**Rutina diaria.** Revisa las tiendas, ten en cuenta la siguiente evolución, desarrolla solo el tipo de epígrafe de tu escuadrón principal y reinicia los errores en lugar de vivir con ellos. Jugado como un bucle diario, el Raven se acumula; jugado a ráfagas, se siente caro y vago.
+
+> Fuente: [Last Asylum: Plague - полный гайд по Ворону. Как качать без ошибок, что делать с эпиграфами.](https://dtf.ru/howto/5016737-last-asylum-plague-gayd-po-prokachke-vorona) por Гейм-Знаток en DTF.

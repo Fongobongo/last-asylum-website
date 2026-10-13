@@ -2,7 +2,7 @@
 title: "Eliks Zadyma: Jak wygrać"
 description: "30-minutowe starcie sojuszu z sojuszem o punkty: pięć etapów, punkty za kontrolę, priorytet Namiotów Medycznych, zasady teleportacji i błąd z murem, który kończy grę w 10 minut."
 lang: pl
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: elixir
 calculators: []
 infographics: ["/infographics/elixir-guide.webp", "/infographics/elixir-strategy.webp"]
@@ -359,3 +359,64 @@ Poziom RES jest kluczowy w walce z potworami ery. Podnoszenie poziomu RES przyzn
 ### Atrybut RES
 
 RES to jedyny atrybut do walki z potworami ery. Każdy potwór posiada własny atrybut RES. Kiedy twój RES przewyższa RES potwora, pokonasz go z łatwością; jeśli twój RES jest niewystarczający, napotkasz trudności, a nawet poniesiesz porażkę w walce.
+
+## Taktyka polowa: Oddziały, budynki i orientacja na mapie {#field-tactics}
+
+Siła ma znaczenie w Elixir Scramble, ale decyduje o wiele mniej niż organizacja. Silniejszy sojusz przegrywa ze słabszym, który przejmuje Bramy Migracji, zbiera porzucone punkty i nigdy nie parkuje bohaterów w jednym namiocie. Wydarzenie odbywa się w **piątki**; kierownictwo sojuszu zazwyczaj z góry przydziela role (Bramy, namioty, alchemia, środek), a wiadomość z planem naprawdę warto przeczytać. Aktywny gracz za każdym razem wygrywa z zarejestrowanym nieobecnym: opuszczone budynki i członkowie drużyny wykonujący podwójne zadania chodzą za nieobecnymi krok w krok.
+
+![Plan bitwy sojuszu dla Elixir Scramble](/img/dtf/elixir/01.jpg)
+
+### Ustaw trzy oddziały według roli, a nie tylko siły {#squad-roles}
+
+- **Oddział 1 jest zawsze najsilniejszy** – to główny skład, który eliminuje silnych przeciwników i utrzymuje kluczowe budynki.
+- **Oddziały 2 i 3 mogą być lekkimi oddziałami technicznymi – nawet z jednym bohaterem.** Wyrzuć wroga za pomocą głównej siły, a następnie zaparkuj tani oddział w punkcie i zwolnij Oddział 1 do następnego ataku. Jeśli słaby obrońca zostanie pokonany, straty będą znacznie mniejsze.
+- Jeden walczy, jeden utrzymuje, jeden ubezpiecza lub przejmuje dodatkowe punkty.
+
+![Konfigurowanie pierwszego, drugiego i trzeciego oddziału przed wyścigiem](/img/dtf/elixir/02.jpg)
+
+### Kontrola muru oraz sztuczka z przynętą na zwiadowcę {#wall-scout-trick}
+
+Otwórz obronę fortu przed walką: **zostaw na murze tylko najsilniejszy oddział, zdejm oddziały 2–3.** Przeciwko silniejszemu atakującemu słabe oddziały na murze to darmowe straty – tu i tam przepada kilka tysięcy, a wtedy Oddział 2 istnieje bardziej duchowo niż fizycznie. Przeciwko słabszym przeciwnikom mur Oddziału 1 wygrywa sam. A jeśli zbliża się niepowstrzymany potwór, **zdejmij wszystko i pozwól mu spalić pustą twierdzę** – utrzymanie armii jest ważniejsze niż utrzymanie pozycji.
+
+![Rozmieszczenie oddziałów na murze](/img/dtf/elixir/03.jpg)
+
+Sztuczka ze zwiadowcą: jeśli nadchodzi zwiwiad wróg, **wycofaj Oddział 1 z muru na kilka sekund**, aby raport pokazał pustą twierdzę, a następnie postaw go z powrotem. Impulsywny atakujący uderza prosto w pełną obronę. To nie magia – weterani to przejrzą, ale na graczy atakujących z autoamtu działa znakomitu.
+
+### Priorytety budynków na podstawie doświadczenia {#building-priority}
+
+Nie próbuj utrzymać wszystkiego z ośmioma aktywnymi graczeniami i jedenastoma punktami – utrzymaj te kluczowe:
+
+- **Bramy Migracji – bron od samego początku.** −50% czasu odnowienia relokacji oznacza dotarcie z pomocą na czas, odbijanie utraconych budynków, ucieczkę przed złymi atakami i teleportację za plecy kogoś, kto wyprowadził cały marsz. Umieść silnego gracza na Bramach; jeśli musi odejść, zostaw przynajmniej słabego posiadacza technicznego. Najgorszy scenariusz: wygranie pięciominutowej walki o Bramy, po czym obaj silni gracze odlatują i zostawiają je puste.
+- **Namioty Medyczne (łącznie 4) – utrzymaj przynajmniej dwa w połowie bitwy.** 15 rannych co 10 sekund (odbieranych za pomocą przycisku) wydaje się małą wartością, dopóki obie strony nie wymieniły się wyczyszczeniami i Oddział 2 nie ma już nikogo do wysłania. Lecza w małych partiach, aby kontrolować koszty przyspieszeń.
+- **Warsztaty Alchemiczne – stały dochód, brak buffów** (~50 pkt/s każdy). Dobre, gdy główne punkty są utrzymane, a drużyna ma wolnych ludzi – nigdy nie warte handlowania Bramami czy środkiem.
+- **Obserwatorium – +10% dochodu z utrzymywanych budynków.** Skaluje się z kontrolą mapy: świetne przy połowie mapy, słabe przy dwóch punktach na dziesięć.
+- **Środek (otwiera się ok. 10. minuty): Zamek Eliksirów + Relikt Wojenny + Przeklęty Ołtarz.** Zamek to najbogatszy punkt na mapie (~80 pkt/s) – przygotuj silnych graczy na ten moment. Relikt wspiera twoją stronę, Ołtarz osłabia wroga (sprawdź dokładnie procenty w grze, bilans się zmienia). Celuj w Zamek plus jeden punkt bojowy – **bez porzucania wszystkiego**: ładne przejęcie środka, podczas gdy wróg przejmuje Bramy, dwa namioty, alchemię i Obserwatorium, nadal pokazuje porażkę na tablicy wyników.
+
+![Zamek Eliksirów, Relikt Wojenny i Przeklęty Ołtarz po otwarciu środka](/img/dtf/elixir/04.jpg)
+
+### Punkty leżące na ziemi {#dropped-points}
+
+Po przejęciu, **apteczki gromadzą się obok budynku** (zaczynając po ok. minucie, rosnąc podczas utrzymywania). Jeśli punkt zmieni właściciela, zapasy **rozpraszają się i każdy może je podnieść** – w tym ty. Od pięciu do dziewięciu tysięcy punktów leżących wokół budynku może zdecydować o wyrównanym meczu:
+
+- Obserwuj zapasy pod swoimi budynkami; jeśli masz stracić punkt, przygotuj się na powrót i zebranie dropu.
+- Budynek wroga z dużą kupką i właścicielem, którego można pokonać, staje się priorytetowym celem.
+- **Szybcy zwiadowcy to zbieracze punktów**: bezczynni posiadacze powinni szukać żółtych dropów i ścigać się z nimi zwiadowcami (twoje kontra ich są widoczne po kolorze). Ulepszenia prędkości zwiadowców zwracają się tutaj.
+
+![Zbieranie apteczek i punktów wokół przejętych budynków](/img/dtf/elixir/05.jpg)
+
+### Nawyki w środku bitwy, które wygrywają mecze {#mid-fight-habits}
+
+- **Silny oddział walczy, słaby utrzymuje.** Nigdy nie zostawiaj najlepszej armii pilnującej niezagrożonego pokoju przez dziesięć minut – rotuj ją z powrotem, gdy do słabego obrońcy zbliża się poważny wróg.
+- **Złap opróżnioną twierdzę.** Kiedy wszystkie trzy oddziały wroga wędrują na zewnątrz, teleportuj się i uderz w pusty dom – nawet zmuszenie głównego oddziału do powrotu jest wygraną.
+- **Zwiadowaj najpierw dalekie cele.** Długi marsz w nieznaną twierdzę, która paruje, to zmarnowana wycieczka; jeśli jeden gracz stale cię pokonuje, zamień się celem z sojusznikiem zamiast udowadniać rację po raz dwudziesty.
+- **Brak żołnierzy? Zostań w wydarzeniu.** Późne **obozy dają ok. 5 pkt/s każdy** – trzy obozy to 15 pkt/s, co bije zero. Zbierz apteczki, zwiadowaj i przejmuj puste punkty oddziałami technicznymi; gracze niemal bez armii w ten sposób trafiali na szczyt rankingów zbierania.
+- **Czytaj czat.** Krótkie komunikaty („bramy puste”, „potrzebny środek”, „nie można przebić”, „zbierzcie apteczki”) są częścią taktyki – poproś o zmianę wcześnie zamiast dokarmiać silniejszego przeciwnika przez dziesięć minut.
+- **Sprawdź raport powalcowy, a nie tylko swoją rangę.** Liczba zabójstw myli; gracz, który po cichu brał darmowe punkty i zbierał dropy, często ma lepszy wynik niż awanturnik. Udział nagradza również **Medalami Honoru**, które można wydać w sklepie wydarzenia (materiały, plany sprzętu) – przejrzyj statystyki przed zamknięciem okna.
+
+![Zbieranie punktów z obozów w późnej fazie bitwy](/img/dtf/elixir/06.jpg)
+
+![Wyniki po bitwie: zbieranie, przejęcia i walki](/img/dtf/elixir/07.jpg)
+
+Częste błędy, których należy unikać: ignorowanie wiadomości z planem, obrona słabymi oddziałami na murze, jednoczesne porzucanie starych punktów na rzecz środka i zapominanie o łupach z ziemi. Obserwuj punkty na sekundę przez całą grę – możesz pięknie spalić pięciu graczy, a i tak przegrać wydarzenie.
+
+> Źródło: [Гонка за эликсиром в Last Asylum: Plague - тактика и стратегии](https://dtf.ru/howto/5338769-gonka-za-eliksirom-v-last-asylum-plague-taktika-i-strategii), autor Гейм-Знаток (DTF).

@@ -2,7 +2,7 @@
 title: "Überlebenskampf: 60.000 kostenlose Abzeichen & 4-Stunden-Phasenrotation"
 description: "Wöchentliches Missions-Event mit ca. 60.000 kostenlosen Fähigkeitsabzeichen: 5 Aufgabenkategorien, 4-Stunden-Phasenrotation, warteschlangenbasiertes Truppentraining und Synchronisation mit dem Allianz-Duell."
 lang: de
-updated: "2026-09-15"
+updated: "2026-10-12"
 videoTopic: survival
 type: event
 ---
@@ -107,3 +107,51 @@ Ein herausragender, hocheffizienter Meilenstein wird für genau **30 Rekrutierun
 6. Reihen Sie das Soldatentraining **strikt nach Beginn der Trainingsphase** ein (Punkte werden beim Einreihen vergeben!).
 7. Trainieren Sie die höchste freigeschaltete Stufe (T7–T10) oder befördern Sie bestehende Truppen.
 8. Leeren Sie alle Meilenstein-Truhen, um Ihre ~60.000 Fähigkeitsabzeichen vor dem wöchentlichen Reset (00:00 Serverzeit / 02:00 UTC) zu sichern.
+
+---
+
+## Tägliche Routine beim Überlebenskampf: Siegel, Energie und Duell-Überschneidung (DTF) {#dtf-daily-loop}
+
+Das Event läuft täglich in fünf rotierenden Themen – Truppentraining, Technologieforschung, Raven-Aufwertungen, Heldenentwicklung und Territoriumsentwicklung. Ihr braucht nicht alle fünf: **18 Überlebenssiegel bringen die drei täglichen K1isten**, d. h. drei vollständig abgeschlossene Themen. Der eigentliche Gewinn ist die Überschneidung mit dem Allianzeduell – Bauen am Dienstag, Forschen am Mittwoch, Trainieren am Freitag –, sodass dieselben Beschleuniger doppelt zählen.
+
+![Fünf Überlebensthemen und 18 Siegel für drei Kisten](/img/dtf/survival/02.jpg)
+
+### So funktionieren Siegel und Ränge {#dtf-seals}
+
+Die Reihenfolge rotiert täglich ohne festen Zeitplan – öffnet das Event, bevor ihr etwas ausgebt, und überprüft das aktuelle sowie das nächste Thema. Jedes Thema hat **4 Stufen, die 1+1+2+2 = 6 Siegel einbringen**; 18 Siegel = drei abgeschlossene Themen. Stufenbelohnungen (Fähigkeitenabzeichen, Beschleuniger, Ressourcen) gibt es zusätzlich. Das Abschließen aller fünf Themen bringt grob **8.000 Fähigkeitenabzeichen pro Tag** ein, bis zu ca. 9.600, wenn sich ein wiederkehrendes Trainingsthema wiederholt. Eine tägliche Bestenliste zahlt einen Basis-Ressourcenpreis für jede Punktzahl und bessere Preise für höhere Platzierungen – macht nach 18 Siegeln nur dann weiter, wenn das Thema zum geplanten Wachstum passt; das Verbrauchen des Beschleunigervorrats nur für den Rang lohnt sich selten.
+
+![Belohnungen für die Überlebensrangliste](/img/dtf/survival/03.jpg)
+
+Das günstigste tägliche Trio für die meisten Konten: **Raven (Energie) + Helden (Antitoxin) + das Thema des Duelltags** (Dienstag Territorium, Mittwoch Forschung, Freitag Truppen; Samstag – was auch immer gerade am günstigsten im Vorrat ist). Hört nach der goldenen Kiste bei 18 auf, es sei denn, das nächste Thema ist bereits geplantes Wachstum.
+
+### Truppen, Forschung, Raven, Helden, Territorium {#dtf-themes}
+
+**Training:** Punkte durch Trainingsbeschleuniger und Armeewachstum auf dem am weitesten entwickelten Gelände (max. Stufe), wobei andere Gelände geladen sind oder niedrigere Stufen für die Beförderung vorbereiten. Wenn das Training in einer Stunde beginnt und ein Durchgang sich dem Ende neigt, reiht nur die verbleibende Zeit ein und ladet nach Öffnung des Themas vollständig nach – kein untätiges Gelände, aber der Großteil landet im Zeitfenster. Der beste Tag ist Freitag mit der Duell-Trainingsstufe.
+
+![Truppentraining im Event-Zeitfenster](/img/dtf/survival/04.jpg)
+
+**Forschung:** Punkte für Forschungsbeschleuniger sowie Zuwachs an Tech-Macht – timt das Ende innerhalb des Zeitfensters, startet dann die nächste, holt Allianz-Hilfe ein und entscheidet dann, was beschleunigt wird. Wenn eine Tech deutlich mehr Macht bringt und die nächste Stufe nur wenig benötigt, ist das Abschließen besser als das Verteilen von Beschleunigern auf kleine Techs; eine lange Tech muss nicht vollständig beendet werden, sobald die Schwelle erreicht ist. Der beste Tag ist Mittwoch mit der Duell-Forschung.
+
+![Technologieforschung und Machtbepunktung](/img/dtf/survival/06.jpg)
+
+**Raven – das tägliche Arbeitstier:** zwei Wege zur Bepunktung, Obstzucht oder Energieverbrauch. Spart Obst für die Raven-Duellstufe am Montag auf; an anderen Tagen gebt **Energie** für Seuche/Diebe/Bosse/Falken-Quests aus – normale tägliche Aktivität, keine dedizierten Kosten. Etwa **300 Energie** schließt das Thema vollständig ab (4 Belohnungen, 6 Siegel). Kombiniert dies mit der Diebesjagd: Ein schwacher Marsch findet kleine Golddiebe und öffnet Bosskämpfe, ein starker Marsch trifft große Ziele. Abkürzung: Schickt einen Trupp zuerst zu einem näher gelegenen Ressourcenfeld und leitet ihn dann auf das Monster um, während es vorbeizieht – das verkürzt viele Märsche am Tag.
+
+![Raven-Aufwertungen über Energie und Diebesjagd](/img/dtf/survival/08.jpg)
+
+**Helden – das schnellste Thema:** Tavernen-Beschwörungen plus Antitoxin; ein richtig dimensioniertes Stufen-Up schließt oft alle vier Stufen ab. Öffnet mehrere Helden, wählt denjenigen, dessen Kosten für die nächste Stufe am dichtesten an der Endschwelle liegen – haut keine 100 Mio. Antitoxin raus, wo 20 Mio. gereicht hätten. Spart Massenbeschwörungen für den Helden-Duelltag am Donnerstag auf; Antitoxin schließt das Überleben meist günstiger ab.
+
+![Heldenentwicklung mit Antitoxin](/img/dtf/survival/10.jpg)
+
+**Territorium:** Konstruktionsbeschleuniger plus Zuwachs an Gebäudemacht. Nehmt ein fast fertiges, großes Gebäude innerhalb des Zeitfensters mit, wenn verfügbar (kein Warten von 15–30 Tagen auf Zuflucht/Labor); gebt ansonsten Beschleuniger in größeren Chargen (z. B. 5 Minuten) aus, nachdem ihr Allianz-Hilfe eingesammelt habt. Der beste Tag ist Dienstag mit der Duell-Konstruktion.
+
+![Territoriumsentwicklung mit Konstruktionsbeschleunigern](/img/dtf/survival/11.jpg)
+
+### Überschneidung, Minister und Siegeldisziplin {#dtf-overlap}
+
+Montag: Im Duell wächst Raven – gebt angesammeltes Obst im Raven-Thema für doppelte Punkte aus. Dienstag: Territorium – nehmt vorbereitete Gebäude plus Konstruktionsbeschleuniger mit. Mittwoch: Forschung – Schriftrollen plus lange Techs. Donnerstag: Helden – Tickets, Fragmente, Antitoxin, Abzeichen. Freitag: Truppen – Gelände während des Trainingsthemas. Samstag: Freie Wahl je nach Vorrat. Passt das Konto nicht an das Event an; passt das Event an das geplante Wachstum an.
+
+Holt euch vor großen Aufwertungen den passenden Ministertitel und behaltet die Warteschlange im Auge: Bei vollen 50/50-Listen hängen Anfragen in der Warteschleife – eine Bewerbung bei **49/50** lässt euch die aktive Warteschlange häufiger erreichen. Plant Titel an Bau-/Forschungstagen im Voraus.
+
+Siegel **werden täglich zurückgesetzt** – 17 heute plus „noch eins morgen“ sind morgen null. Fehlt nur noch eine Stufe bis 18, nehmt das am günstigsten abzuschließende Thema; hortet niemals Siegel in der Hoffnung, es euch morgen einfacher zu machen.
+
+> Quelle: [Last Asylum: Plague - гайд по Битве на выживание](https://dtf.ru/howto/5240960-last-asylum-plague-gajd-po-bitve-na-vyzhivanie) von Гейм-Знаток auf DTF.

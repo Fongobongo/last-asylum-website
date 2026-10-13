@@ -2,7 +2,7 @@
 title: "Elixir-roofstocht: Hoe je kunt winnen"
 description: "Een alliantie-tegen-alliantie slagveld van 30 minuten om punten: vijf fasen, scoren op basis van controle, prioriteit voor de geneestent, teleportatieregels en de muurfout die je run binnen 10 minuten verpest."
 lang: nl
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: elixir
 calculators: []
 infographics: ["/infographics/elixir-guide.webp", "/infographics/elixir-strategy.webp"]
@@ -359,3 +359,66 @@ Het RES-level is cruciaal voor het bevechten van tijdperkmonsters. Het upgraden 
 ### RES-attribuut
 
 RES is het enige attribuut voor het bevechten van tijdperkmonsters. Elk monster heeft zijn eigen RES-attribuut. Wanneer je RES hoger is dan de RES van het monster, versla je ze gemakkelijk; als je RES tekortschiet, krijg je te maken met nadelen of zelfs een nederlaag in de strijd.
+
+---
+
+## Veldtaniek: Eenheden, Gebouwen en Kaartbewustzijn {#field-tactics}
+
+Kracht is belangrijk in Elixir Scramble, maar het telt veel minder dan organisatie. Een sterkere alliantie verliest van een zwakkere die de Migratiepoorten vasthoudt, achtergelaten punten verzamelt en nooit helden op één tent parkeert. Het evenement vindt plaats op **vrijdag**; het alliantieleiderschap wijst meestal vooraf rollen toe — Poorten, tenten, alchemie, centrum — en het is echt de moeite waard om de planningsmail te lezen. Een actieve speler verslaat elke keer een aangemelde no-show: lege gebouwen en teamleden met dubbele taken achtervolgen no-shows overal.
+
+![Alliantie-gevechtsplan voor de Elixir Scramble](/img/dtf/elixir/01.jpg)
+
+### Stel drie eenheden in op basis van rol, niet alleen op kracht {#squad-roles}
+
+- **Eenheid 1 is altijd de sterkste** — de hoofdopstelling die sterke tegenstanders uitschakelt en sleutelgebouwen vasthoudt.
+- **Eenheden 2 en 3 kunnen lichte technische eenheden zijn — tot aan een enkele held toe.** Schakel de vijand uit met de hoofdmacht, parkeer vervolgens een goedkope eenheid op het punt en maak Eenheid 1 vrij voor de volgende aanval. Als de zwakke verdediger wordt uitgeschakeld, zijn de verliezen veel kleiner.
+- De ene vecht, de andere houdt vast, de derde dekt of pakt extra punten.
+
+![Eerste, tweede en derde eenheid instellen vóór de race](/img/dtf/elixir/02.jpg)
+
+### Muurcontrole — en de verkenner-aas-truc {#wall-scout-trick}
+
+Open de fortverdediging vóór het gevecht: **laat alleen de sterkste eenheid op de muur staan, haal eenheden 2–3 weg.** Tegen een sterkere aanvaller zijn zwakke muureenheden gratis verliezen — hier en daar een paar duizend verdwenen, waarna Eenheid 2 meer in de geest dan fysiek bestaat. Tegen zwakkere tegenstanders wint de muureenheid van Eenheid 1 op eigen kracht. En als er een onstuitbare reus aankomt, **haal dan alles weg en laat ze een leeg fort platbranden** — het behouden van het leger gaat boven het behouden van de positie.
+
+![Plaatsing van muureenheden](/img/dtf/elixir/03.jpg)
+
+Verkennertruc: als de vijandelijke verkenning op komst is, **haal Eenheid 1 dan een paar seconden van de muur** zodat het rapport een leeg fort toont, en plaats hem daarna weer terug. Een impulsieve aanvaller valt direct een volledige verdediging binnen. Geen magie — veteranen prikken hier doorheen — maar het werkt fantastisch tegen auto-aanvallers.
+
+### Gebouwprioriteit op basis van ervaring {#building-priority}
+
+Probeer niet alles vast te houden met acht actieve spelers en elf punten — houd de belangrijkste vast:
+
+- **Migratiepoorten — verdedig vanaf het begin.** −50% cooldown op verhuizen betekent op tijd arriveren om te helpen, verloren gebouwen heroveren, ontsnappen aan slechte aanvallen en teleporteren achter iemand die al zijn eenheden heeft weggestuurd. Zet een sterke speler op de Poorten; als die weg moet, laat dan minstens een zwakke technische verdediger achter. Slechtste scenario: win een gevecht van vijf minuten bij de Poorten, waarna beide sterke spelers wegvliegen en het leeg achterlaten.
+- **Genezingstenten (4 in totaal) — houd er minstens twee vast tegen het midden van het gevecht.** 15 gewonden per 10 seconden (op te eisen via een knop) voelt weinig tot beide kanten elkaar hebben weggevaagd en Eenheid 2 niemand meer over heeft om te sturen. Genees in kleine batches om de versnellingskosten onder controle te houden.
+- **Alchemiewerkplaatsen — stabiel inkomen, geen bonussen** (~50 punten/sec elk). Handig zodra de hoofdpunten in bezit zijn en het team extra mensen over heeft — het nooit waard om Poorten of het centrum voor op te offeren.
+- **Observatorium — +10% inkomen van veroverde gebouwen.** Schaalt mee met kaartcontrole: geweldig bij de helft van de kaart, zwak bij twee van de tien punten.
+- **Centrum (opent na ~10 minuten): Elixer Kasteel + Oorlogsrelikwie + Vervloekt Altaar.** Het Kasteel is het rijkste punt op de kaart (~80 punten/sec) — bereid sterke spelers voor op dit moment. Het Relikwie versterkt je kant, het Altaar verzwakt de vijand (controleer de exacte percentages in de game, de balans verschuift). Mik op het Kasteel plus één gevechtspunt — **zonder alles los te laten**: een mooie verovering van het centrum terwijl de vijand de Poorten, twee tenten, alchemie en het Observatorium inneemt, staat nog steeds als een verlies op het scorebord.
+
+![Elixer Kasteel, Oorlogsrelikwie en Vervloekt Altaar nadat het centrum is geopend](/img/dtf/elixir/04.jpg)
+
+### De punten die op de grond liggen {#dropped-points}
+
+Na een verovering **ophopen medipacks zich naast het gebouw** (beginnend na ~een minuut, groeiend zolang het wordt vastgehouden). Als het punt van eigendom wisselt, **verspreidt de voorraad zich en kan iedereen het oprapen** — inclusief jijzelf. Vijf tot negenduizend punten die rond een gebouw slingeren kunnen een krappe wedstrijd beslissen:
+
+- Houd de voorraad onder je gebouwen in de gaten; als je het punt bijna gaat verliezen, bereid je dan voor om terug te komen en de buit te verzamelen.
+- Een vijandelijk gebouw met een dikke stapel en een verslaanbare eigenaar wordt een prioriteitsdoelwit.
+- **Snelle verkenners zijn puntverzamelaars**: inactieve verdedigers moeten scannen op gele druppels en er met verkenners naartoe racen (jij versus hen is te zien aan de kleur). Upgrades voor verkenner-snelheid verdienen zichzelf hier terug.
+
+![Medipacks en punten verzamelen rond veroverde gebouwen](/img/dtf/elixir/05.jpg)
+
+### Gevechtsgewoonten in het midden van het spel die wedstrijden winnen {#mid-fight-habits}
+
+- **Sterke eenheid vecht, zwakke eenheid houdt vast.** Laat het beste leger nooit tien minuten lang een onbetwiste kamer bewaken — roep het terug wanneer een serieuze vijand de zwakke verdediger nadert.
+- **Vang het leeggemaakte fort.** Wanneer alle drie de vijandelijke eenheden wegmarcheren, teleporteer er dan in en raak het holle thuis — zelfs het dwingen van de hoofdeenheid om terug te keren is een winst.
+- **Verken verre doelwitten eerst.** Een lange mars naar een onbekend fort dat verdampt is een verspilde reis; als één speler je blijft verslaan, wissel dan van doelwit met een bondgenoot in plaats van voor de twintigste keer je gelijk te willen halen.
+- **Geen soldaten meer? Blijf in het evenement.** Late **kampen leveren elk ~5 punten/sec op** — drie kampen is 15/sec, wat beter is dan nul. Blijf medipacks verzamelen, verkennen en lege punten innemen met technische eenheden; spelers zonder nagenoeg legers hebben zo de verzamelranglijsten aangevoerd.
+- **Lees de chat.** Korte oproepen ("poorten leeg", "centrum nodig", "niet doorheen te komen", "pak medipacks") maken deel uit van de tactiek — vraag tijdig om een wissel in plaats van een sterkere tegenstander tien minuten lang te voeden.
+- **Controleer het na-gevechtsrapport, niet alleen je rang.** Aantallen kills misleiden; de speler die stilletjes gratis punten pakte en drops verzamelde, scoort de vechtersbaas vaak weg. Deelname levert ook **Erenmedailles** op, te besteden in de evenementenwinkel (materialen, uitrustingsblauwdrukken) — bekijk de statistieken voordat je het venster sluit.
+
+![Punten verzamelen uit kampen laat in het gevecht](/img/dtf/elixir/06.jpg)
+
+![Resultaten na het gevecht: verzameling, veroveringen en gevechten](/img/dtf/elixir/07.jpg)
+
+Veelgemaakte fouten om over te slaan: de planningsmail negeren, verdedigen met zwakke muureenheden, oude punten tegelijk opgeven voor het centrum, en de buit op de grond vergeten. Houd de punten per seconde het hele spel in de gaten — je kunt vijf spelers prachtig wegvagen en alsnog het evenement verliezen.
+
+> Bron: [Гонка за эликсиром в Last Asylum: Plague - тактика и стратегии](https://dtf.ru/howto/5338769-gonka-za-eliksirom-v-last-asylum-plague-taktika-i-strategii) door Гейм-Знаток op DTF.

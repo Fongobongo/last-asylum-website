@@ -2,7 +2,7 @@
 title: "Guild Wagon & Caravans"
 description: "Lari harian gratis, aturan Wagon Master dan peti Penjaga, refresh Golden Wagon, strategi shard UR karavan, penjarahan lintas server, dan prioritas kotak emas-ungu-biru."
 lang: id
-updated: "2026-09-03"
+updated: "2026-10-12"
 videoTopic: wagon
 calculators: []
 infographics: []
@@ -99,3 +99,55 @@ Saat Anda melihat peta asing yang penuh dengan karavan, urutan targetnya adalah:
 
 - **Periksa peringkat bintang dan hadiah sebelum menyerang** — pratinjau menunjukkan apa yang diberikan kotak tersebut.
 - **Warna lebih baik + bintang lebih tinggi = hadiah lebih baik.** Warna diutamakan, bintang sebagai penentu jika warna sama.
+
+## Panduan Kusir: Run Emas, VIP, dan Pertahanan {#coachman-playbook}
+
+Karavan aliansi berjalan **sekali sehari**. R4/R5 menunjuk **kusir** (кучер); anggota biasa tidak dapat mengambil kursi itu sendiri. Setelah penunjukan, karavan tidak langsung berangkat — ada **tahapan persiapan 4 jam** yang menyusul, di mana kusir meningkatkan karavan, penumpang menempati kursi, VIP ditugaskan, dan pertahanan diatur. Karavan dapat **dijarah hingga 3 kali per run**, dengan sebagian kargo yang benar-benar berisiko — ini tentang pengiriman, bukan sekadar hadiah.
+
+### Mengapa kursi kusir itu penting
+
+Kusir adalah pemenang besar dalam run ini: di atas empat gerobak standar, ada **gerobak pemimpin tersembunyi**, jadi kusir mengumpulkan sekitar **lima gerobak hadiah** alih-alih satu. Jaga agar rotasi tetap transparan — antrean, hadiah keaktifan, atau peringkat Duel of Alliance semuanya bisa digunakan; kusir tetap tanpa penjelasan memicu kebencian.
+
+### Aturan pertama: jadikan emas
+
+Setelah penunjukan, tugas pertama kusir adalah menyegarkan karavan. **5 kali refresh × 5 tiket karavan = 25 tiket** untuk jaminan **Karavan Emas**. Kusir tidak harus membayar semuanya sendirian: penumpang yang naik karavan dapat menyumbangkan tiket, dan norma aliansi yang sehat adalah **2–3 tiket per orang** alih-alih hanya satu. Begitu refresh kelima mendarat, berhenti — jangan ubah karavan menjadi roda roulette demi mengejar gulungan kosmik. Masih ada karavan besok.
+
+![Pemain menyumbangkan tiket untuk Karavan Emas](/img/dtf/wagon/01.jpg)
+
+![Lima kali refresh karavan ke kualitas emas](/img/dtf/wagon/02.jpg)
+
+### Disiplin penumpang: perhatikan jumlah kepala, bukan hanya jarahan
+
+Setiap gerobak biasa hanya menempati **5 orang**. Kelebihan muatan diselesaikan oleh game itu sendiri — dan penumpang yang ditendang sering kali adalah orang yang duduk paling awal. Gerobak yang sedikit lebih buruk dengan 3–4 pengendara yang tenang lebih baik daripada gerobak jackpot dengan delapan orang berjejal. Kursi dapat ditukar secara bebas selama 4 jam, jadi **periksa kembali tak lama sebelum keberangkatan**.
+
+![Memilih gerobak: slot yang terlalu padat dapat mengeluarkan Anda](/img/dtf/wagon/03.jpg)
+
+### Penumpang VIP: dua gerobak, dipilih oleh kusir
+
+Pada **Alliance Gift Lv. 20**, karavan membuka **penumpang VIP**: alih-alih satu gerobak, VIP mengambil **dua gerobak yang dipilih oleh kusir**. Sepakati VIP terlebih dahulu — undangan tergantung selama **60 menit**, dan penerimaan yang terlewat berarti harus menunggu atau mengundang ulang. Setelah menerima, kusir memilih sendiri kedua gerobak tersebut (tanyakan kepada pemain gerobak mana yang mereka inginkan). VIP **tidak dapat ditendang** seperti penumpang biasa, dan tidak dapat beralih kembali ke kursi normal — jarang sekali menjadi pengorbanan di dua gerobak.
+
+![Menugaskan penumpang VIP dan memilih gerobak](/img/dtf/wagon/04.jpg)
+
+### Pengawal: hanya jika benar-benar lebih kuat
+
+Seorang pengawal menempatkan pasukan mereka untuk pertahanan tetapi **mengambil bagian dari hadiah kusir**. Jika pasukan Anda sendiri sudah lebih kuat daripada kandidat pengawal, tidak ada gunanya — Anda membayar kargo tanpa hasil. Aturan: undang pengawal **hanya jika jelas lebih kuat daripada kusir**; jika tidak, ambil VIP dan jaga agar hadiah tetap utuh.
+
+![Slot pengawal dan penumpang VIP](/img/dtf/wagon/05.jpg)
+
+### Segarkan pasukan pertahanan Anda — dan epigraf mereka
+
+Ketiga pasukan pertahanan harus **disimpan ulang setelah setiap peningkatan akun yang serius**: hero baru, damage baru, gagak baru, perlengkapan baru tidak ada artinya jika karavan masih bertahan dengan susunan bulan lalu. Periksa apakah **epigraf yang tepat berada di pasukan yang tepat** — epigraf yang salah tempat akan kalah bertarung.
+
+### Level gift, aturan 24 jam, dan run emas kedua
+
+- **Boost** karavan (gerakan lebih cepat, lebih sedikit upaya penjarahan, pertahanan inti, pembukaan VIP) berasal dari jalur gift — buka tab tersebut lebih dari sekali. Pada **gift Lv. 25**, gerobak biasa mendapatkan **kapasitas penumpang tambahan**, yang penting bagi aliansi aktif yang besar.
+- Tingkatkan Alliance Gift itu sendiri: farming Blight yang aktif ditambah poin ekstra dari summon tingkat lanjut akan menaikkannya, yang berakumulasi menjadi karavan yang lebih cepat dan lebih sulit dirampok.
+- **Anggota baru harus menghabiskan waktu 24 jam di aliansi** sebelum bergabung dengan karavan — ingat ini setelah melakukan transfer.
+- Selama persiapan, kumpulkan **perjanjian perdagangan** (surat tersebut tiba melalui surat jika terlupa). Penumpang yang naik juga memberikan **like** kepada kusir — hal kecil, tetapi hari kusir adalah hari cinta kasih rakyat.
+- **Karavan emas kedua per hari ada tetapi membutuhkan biaya ekstra setiap saat**. Ini untuk aliansi besar yang karavan pertamanya meluap — bukan keharusan untuk run yang setengah kosong.
+
+![Meningkatkan Alliance Gift, dibantu oleh farming Blight](/img/dtf/wagon/06.jpg)
+
+Karavan yang baik adalah ketika semua orang berpikir sedikit: kusir membuat run menjadi emas, memeriksa pertahanan, dan menempatkan VIP; penumpang mengawasi gerobak mereka; aliansi menyepakati aturan alih-alih berimprovisasi setiap malam.
+
+> Sumber: [Last Asylum: Plague - полный гайд по Каравану](https://dtf.ru/howto/5303398-last-asylum-plague-karavan-gayd) oleh Гейм-Знаток di DTF.
