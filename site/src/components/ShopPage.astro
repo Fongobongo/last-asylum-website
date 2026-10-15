@@ -6,7 +6,6 @@ interface Props {
 }
 
 const { lang } = Astro.props;
-const isRu = lang === 'ru';
 
 // Partner top-up links. LDShop is primary, LootBar secondary.
 const LOOTBAR_LINK = 'https://www.lootbar.com/s/fG5O3n';
@@ -72,6 +71,8 @@ const STR: Record<string, Record<string, string>> = {
     card2: ['بطاقة الإمداد الشهرية', 'تصريح الحقبة الأسبوعي', 'تصريح معركة Era of Revival', 'بطاقات امتيازات VIP'],
     card3: ['حزمة بداية Marlena', 'حزمة توسعة البناء', 'حزم تسريع عالمية', 'احتياطيات الموارد'],
     card4: ['تذاكر التجنيد', 'أحجار العتاد (Gearstones)', 'ثمار الغراب (Raven Fruits)', 'حزم الأسلحة الحصرية'],
+    calcBonus: '💎 +{d} بونص x2 للمرة الأولى',
+    lootbarHint: '💡 سجّل في LootBar عبر رابطنا واحصل على قسيمتي خصم بقيمة تصل إلى 20$. شحن آمن، توصيل سريع، وأسعار رائعة.',
   },
   it: {
     heroBadge: 'RICARICA SCONTATA • FINO AL 20% DI SCONTO • LDSHOP',
@@ -132,6 +133,8 @@ const STR: Record<string, Record<string, string>> = {
     card2: ['Carta Forniture Mensili', 'Pass Era Settimanale', 'Battle Pass Era of Revival', 'Carte Privilegio VIP'],
     card3: ['Pacchetto Iniziale Marlena', 'Pacchetto Espansione Costruttore', 'Pacchetti Accelerazioni Universali', 'Riserve di Risorse'],
     card4: ['Biglietti Reclutamento', 'Pietre dell\'Equipaggiamento', 'Frutti del Corvo', 'Pacchetti Armi Esclusive'],
+    calcBonus: '💎 +{d} bonus x2 della prima volta',
+    lootbarHint: '💡 Registrati su LootBar tramite il nostro link e ricevi 2 coupon sconto fino a $20. Ricariche sicure, consegna rapida e ottimi prezzi.',
   },
   ms: {
     heroBadge: 'TAMBAH NILAI DISKAUN • SEHINGGA 20% DISKAUN • LDSHOP',
@@ -192,6 +195,8 @@ const STR: Record<string, Record<string, string>> = {
     card2: ['Kad Bekalan Bulanan', 'Pas Era Mingguan', 'Battle Pass Era of Revival', 'Kad Keistimewaan VIP'],
     card3: ['Pek Permulaan Marlena', 'Pek Pengembangan Pembina', 'Bundel Pecutan Universal', 'Simpanan Sumber'],
     card4: ['Tiket Rekrut', 'Gearstones', 'Raven Fruits', 'Pek Senjata Eksklusif'],
+    calcBonus: '💎 +{d} bonus x2 pertama',
+    lootbarHint: '💡 Daftar di LootBar melalui pautan kami untuk mendapatkan 2 kupon diskaun bernilai sehingga $20. Tambah nilai selamat, penghantaran pantas, dan harga hebat.',
   },
   nl: {
     heroBadge: 'TOP-UP MET KORTING • TOT 20% KORTING • LDSHOP',
@@ -252,6 +257,8 @@ const STR: Record<string, Record<string, string>> = {
     card2: ['Maandelijkse Voorraadkaart', 'Wekelijkse Era Pass', 'Era of Revival Battle Pass', 'VIP-privilegekaarten'],
     card3: ['Marlena Starter Pack', 'Bouwer-uitbreidingspakket', 'Universele Versnellingsbundels', 'Grondstofreserves'],
     card4: ['Rekruteringskaartjes', 'Gearstones', 'Raven Fruits', 'Exclusieve Wapenpakketten'],
+    calcBonus: '💎 +{d} bonus x2 eerste keer',
+    lootbarHint: '💡 Meld je via onze link aan op LootBar en krijg 2 kortingscoupons tot $20. Veilige top-ups, snelle levering en scherpe prijzen.',
   },
   th: {
     heroBadge: 'ส่วนลดเติมเงิน • ลดสูงสุด 20% • LDSHOP',
@@ -312,6 +319,8 @@ const STR: Record<string, Record<string, string>> = {
     card2: ['บัตรเสบียงรายเดือน', 'บัตรผ่านยุคสมัยรายสัปดาห์', 'บัตรผ่านการต่อสู้ Era of Revival', 'บัตรสิทธิพิเศษ VIP'],
     card3: ['แพ็กเริ่มต้น Marlena', 'แพ็กขยายสิ่งก่อสร้าง', 'บันเดิลเร่งความเร็วทั่วไป', 'คลังทรัพยากรสำรอง'],
     card4: ['ตั๋วรับสมัคร', 'หินเกียร์', 'ผลไม้ Raven', 'แพ็กอาวุธเฉพาะตัว'],
+    calcBonus: '💎 +{d} โบนัส x2 ครั้งแรก',
+    lootbarHint: '💡 สมัคร LootBar ผ่านลิงก์ของเราเพื่อรับคูปองส่วนลด 2 ใบมูลค่าสูงสุด $20 เติมเงินปลอดภัย จัดส่งรวดเร็ว และราคาดี',
   },
   tr: {
     heroBadge: 'İNDİRİMLİ YÜKLEME • %20\'YE VARAN İNDİRİM • LDSHOP',
@@ -372,6 +381,8 @@ const STR: Record<string, Record<string, string>> = {
     card2: ['Aylık Tedarik Kartı', 'Haftalık Era Pass', 'Era of Revival Savaş Bileti', 'VIP Ayrıcalık Kartları'],
     card3: ['Marlena Başlangıç Paketi', 'İnşaatçı Genişletme Paketi', 'Evrensel Hızlandırma Paketleri', 'Kaynak Rezervleri'],
     card4: ['Acemi Biletleri', 'Ekipman Taşları', 'Raven Meyveleri', 'Özel Silah Paketleri'],
+    calcBonus: '💎 +{d} ilk kez x2 bonusu',
+    lootbarHint: '💡 Bağlantımız üzerinden LootBar\'a kaydolun ve 20$\'a kadar 2 indirim kuponu kazanın. Güvenli yüklemeler, hızlı teslimat ve harika fiyatlar.',
   },
   vi: {
     heroBadge: 'NẠP TIỀN ƯU ĐÃI • GIẢM GIÁ LÊN ĐẾN 20% • LDSHOP',
@@ -432,6 +443,8 @@ const STR: Record<string, Record<string, string>> = {
     card2: ['Thẻ Tiếp tế Hàng tháng', 'Vé Era Hàng tuần', 'Battle Pass Era of Revival', 'Thẻ Đặc quyền VIP'],
     card3: ['Gói Khởi đầu Marlena', 'Gói Mở rộng Xây dựng', 'Gói Tăng tốc Đa năng', 'Dự trữ Tài nguyên'],
     card4: ['Vé Chiêu mộ', 'Đá Trang bị', 'Quả Raven', 'Gói Vũ khí Độc quyền'],
+    calcBonus: '💎 +{d} thưởng x2 lần đầu',
+    lootbarHint: '💡 Đăng ký LootBar qua liên kết của chúng tôi để nhận 2 phiếu giảm giá trị giá lên đến $20. Nạp tiền an toàn, giao hàng nhanh và giá tốt.',
   },
   zh: {
     heroBadge: '限时折扣 • 最高立减 20% • LDShop',
@@ -492,6 +505,8 @@ const STR: Record<string, Record<string, string>> = {
     card2: ['月度补给卡', '周度时代通行证', '复兴时代战斗通行证', 'VIP 特权卡'],
     card3: ['Marlena 新手礼包', '建筑扩建礼包', '通用加速礼包', '资源储备'],
     card4: ['招募券', '装备石', '乌鸦果实', '专属武器礼包'],
+    calcBonus: '💎 +{d} 首充双倍奖励',
+    lootbarHint: '💡 通过我们的链接注册 LootBar，即可获得价值最高 $20 的 2 张折扣券。充值安全、到账快速、价格优惠。',
   },
   'zh-tw': {
     heroBadge: '限時折扣 • 最高立減 20% • LDShop',
@@ -552,6 +567,8 @@ const STR: Record<string, Record<string, string>> = {
     card2: ['月度補給卡', '周度時代通行證', '復興時代戰鬥通行證', 'VIP 特權卡'],
     card3: ['Marlena 新手禮包', '建築擴建禮包', '通用加速禮包', '資源儲備'],
     card4: ['招募券', '裝備石', '烏鴉果實', '專屬武器禮包'],
+    calcBonus: '💎 +{d} 首充雙倍獎勵',
+    lootbarHint: '💡 透過我們的連結註冊 LootBar，即可獲得價值最高 $20 的 2 張折扣券。充值安全、到賬快速、價格優惠。',
   },
 
 
@@ -614,6 +631,8 @@ const STR: Record<string, Record<string, string>> = {
     card2: ['Miesięczna karta zaopatrzenia', 'Tygodniowa przepustka Era', 'Przepustka bojowa Era of Revival', 'Karty przywilejów VIP'],
     card3: ['Pakiet startowy Marlena', 'Pakiet rozbudowy bazy', 'Zestawy uniwersalnych przyspieszaczy', 'Rezerwy zasobów'],
     card4: ['Bilety rekrutacji', 'Kamienie sprzętu (Gearstones)', 'Raven Fruits', 'Pakiety ekskluzywnej broni'],
+    calcBonus: '💎 +{d} bonus x2 za pierwszym razem',
+    lootbarHint: '💡 Zarejestruj się w LootBar przez nasz link i odbierz 2 kupony rabatowe o wartości do $20. Bezpieczne doładowania, szybka dostawa i świetne ceny.',
   },
   es: {
     heroBadge: 'RECARGA CON DESCUENTO • HASTA 20% DE DESCUENTO • LDSHOP',
@@ -674,6 +693,8 @@ const STR: Record<string, Record<string, string>> = {
     card2: ['Tarjeta de Suministros Mensuales', 'Pase de Era Semanal', 'Pase de Batalla Era of Revival', 'Tarjetas de Privilegio VIP'],
     card3: ['Paquete Inicial de Marlena', 'Paquete de Expansión de Construcción', 'Paquetes de Aceleración Universal', 'Reservas de Recursos'],
     card4: ['Tickets de Reclutamiento', 'Piedras de Equipamiento', 'Frutos de Cuervo', 'Paquetes de Armas Exclusivas'],
+    calcBonus: '💎 +{d} bono x2 de primera compra',
+    lootbarHint: '💡 Regístrate en LootBar con nuestro enlace y consigue 2 cupones de descuento de hasta $20. Recargas seguras, entrega rápida y buenos precios.',
   },
   pt: {
     heroBadge: 'RECARGA COM DESCONTO • ATÉ 20% DE DESCONTO • LDSHOP',
@@ -734,6 +755,8 @@ const STR: Record<string, Record<string, string>> = {
     card2: ['Cartão de Suprimentos Mensais', 'Passe de Era Semanal', 'Passe de Batalha Era of Revival', 'Cartões de Privilégio VIP'],
     card3: ['Pacote Inicial da Marlena', 'Pacote de Expansão de Construção', 'Pacotes de Aceleração Universal', 'Reservas de Recursos'],
     card4: ['Tickets de Recrutamento', 'Pedras de Equipamento', 'Frutos do Corvo', 'Pacotes de Armas Exclusivas'],
+    calcBonus: '💎 +{d} bônus x2 de primeira compra',
+    lootbarHint: '💡 Cadastre-se na LootBar com nosso link e ganhe 2 cupons de desconto de até $20. Recargas seguras, entrega rápida e ótimos preços.',
   },
   fr: {
     heroBadge: 'RECHARGE À PRIX RÉDUIT • JUSQU’À 20% DE RÉDUCTION • LDSHOP',
@@ -794,6 +817,8 @@ const STR: Record<string, Record<string, string>> = {
     card2: ['Carte de Ravitaillement Mensuelle', 'Pass d’Ère Hebdomadaire', 'Pass de Combat Era of Revival', 'Cartes de Privilège VIP'],
     card3: ['Pack de Démarrage Marlena', 'Pack d’Extension de Construction', 'Packs d’Accélération Universelle', 'Réserves de Ressources'],
     card4: ['Tickets de Recrutement', 'Pierres d’Équipement', 'Fruits du Corbeau', 'Packs d’Armes Exclusives'],
+    calcBonus: '💎 +{d} bonus x2 de première recharge',
+    lootbarHint: '💡 Inscrivez-vous sur LootBar via notre lien et recevez 2 coupons de réduction jusqu’à 20$. Recharges sûres, livraison rapide et excellents prix.',
   },
   de: {
     heroBadge: 'AUFLADEN MIT RABATT • BIS ZU 20% RABATT • LDSHOP',
@@ -854,6 +879,8 @@ const STR: Record<string, Record<string, string>> = {
     card2: ['Monatliche Versorgungskarte', 'Wöchentlicher Ära-Pass', 'Era-of-Revival-Battle-Pass', 'VIP-Privilegkarten'],
     card3: ['Marlena-Starterpaket', 'Bau-Erweiterungspaket', 'Universelle Beschleuniger-Bundles', 'Ressourcenreserven'],
     card4: ['Rekrutierungstickets', 'Ausrüstungssteine', 'Rabenfrüchte', 'Exklusive Waffenpakete'],
+    calcBonus: '💎 +{d} x2-Bonus bei Erstkauf',
+    lootbarHint: '💡 Registriere dich über unseren Link bei LootBar und erhalte 2 Rabattcoupons bis zu $20. Sichere Aufladungen, schnelle Lieferung und top Preise.',
   },
   id: {
     heroBadge: 'TOP UP DISKON • DISKON HINGGA 20% • LDSHOP',
@@ -914,6 +941,8 @@ const STR: Record<string, Record<string, string>> = {
     card2: ['Kartu Pasokan Bulanan', 'Pass Era Mingguan', 'Battle Pass Era of Revival', 'Kartu Privilege VIP'],
     card3: ['Paket Starter Marlena', 'Paket Ekspansi Builder', 'Bundle Speedup Universal', 'Cadangan Resource'],
     card4: ['Tiket Rekrut', 'Gearstone', 'Raven Fruit', 'Paket Senjata Eksklusif'],
+    calcBonus: '💎 +{d} bonus x2 pertama',
+    lootbarHint: '💡 Daftar di LootBar lewat link kami dan dapatkan 2 kupon diskon hingga $20. Top up aman, pengiriman cepat, dan harga bagus.',
   },
   ko: {
     heroBadge: '할인 충전 • 최대 20% 할인 • LDSHOP',
@@ -974,6 +1003,8 @@ const STR: Record<string, Record<string, string>> = {
     card2: ['월간 보급 카드', '주간 시대 패스', 'Era of Revival 배틀 패스', 'VIP 특전 카드'],
     card3: ['Marlena 스타터 패키지', '건설 확장 패키지', '만능 가속 번들', '자원 비축분'],
     card4: ['모집 티켓', 'Gearstone', 'Raven Fruit', '한정 무기 패키지'],
+    calcBonus: '💎 +{d} 첫 구매 2배 보너스',
+    lootbarHint: '💡 저희 링크로 LootBar에 가입하고 최대 $20 쿠폰 2장을 받으세요. 안전한 충전, 빠른 지급, 좋은 가격.',
   },
   ja: {
     heroBadge: '割引チャージ • 最大20%オフ • LDSHOP',
@@ -1034,6 +1065,8 @@ const STR: Record<string, Record<string, string>> = {
     card2: ['マンスリー補給カード', 'ウィークリー時代パス', 'Era of Revivalバトルパス', 'VIP特典カード'],
     card3: ['Marlenaスターターパック', '建設拡張パック', '汎用加速バンドル', '資源備蓄'],
     card4: ['募集チケット', 'Gearstone', 'Raven Fruit', '限定武器パック'],
+    calcBonus: '💎 +{d} 初回2倍ボーナス',
+    lootbarHint: '💡 私たちのリンクからLootBarに登録して最大$20の割引クーポン2枚をGET。安全なチャージ、迅速な反映、お得な価格。',
   },
 };
 const Lpick = (ru: string, en: string, k: string): string =>
@@ -1152,9 +1185,7 @@ disclosureNote: Lpick('Партнёрский сервис LDShop. Покупк�
       </div>
 
       <p class="mt-3 text-xs text-stone-400">
-        {isRu
-          ? '💡 Зарегистрируйтесь на LootBar по нашей ссылке — 2 купона на скидку до $20. Безопасные пополнения, быстрая доставка и выгодные цены.'
-          : '💡 Sign up on LootBar via our link to get 2 discount coupons worth up to $20. Safe top-ups, fast delivery, and great prices.'}
+        {Lpick('💡 Зарегистрируйтесь на LootBar по нашей ссылке — 2 купона на скидку до $20. Безопасные пополнения, быстрая доставка и выгодные цены.', '💡 Sign up on LootBar via our link to get 2 discount coupons worth up to $20. Safe top-ups, fast delivery, and great prices.', 'lootbarHint')}
       </p>
     </div>
   </div>
@@ -1410,7 +1441,7 @@ disclosureNote: Lpick('Партнёрский сервис LDShop. Покупк�
       <div class="space-y-1 rounded-xl border border-toxic-500/30 bg-toxic-500/10 p-3">
         <div class="text-xs text-toxic-300 font-bold uppercase tracking-wider">{Lpick('Ваша чистая выгода:', 'Your Total Savings:', 'calcTotal')}</div>
         <div class="font-mono text-2xl sm:text-3xl font-extrabold text-toxic-300" id="calc-save-amount">-$18.00</div>
-        <div class="text-[11px] text-toxic-300/80" id="calc-bonus-diamonds">💎 +6480 бонус x2 первого раза</div>
+        <div class="text-[11px] text-toxic-300/80" id="calc-bonus-diamonds">{Lpick('💎 +{d} бонус x2 первого раза', '💎 +{d} bonus x2', 'calcBonus').replace('{d}', '6480')}</div>
       </div>
     </div>
 
@@ -1430,7 +1461,7 @@ disclosureNote: Lpick('Партнёрский сервис LDShop. Покупк�
     </div>
   </div>
 
-  <script>
+  <script define:vars={{ bonusTpl: Lpick('💎 +{d} бонус x2 первого раза', '💎 +{d} bonus x2', 'calcBonus') }}>
     function initSavingsCalc() {
       const calcRoot = document.getElementById('savings-calc');
       if (!calcRoot) return;
@@ -1461,7 +1492,7 @@ disclosureNote: Lpick('Партнёрский сервис LDShop. Покупк�
         if (offEl) offEl.textContent = currentCurrency === 'RUB' ? `${offPrice} ${sym}` : `${sym}${offPrice}`;
         if (ldEl) ldEl.textContent = currentCurrency === 'RUB' ? `${ldPrice} ${sym}` : `${sym}${ldPrice}`;
         if (saveEl) saveEl.textContent = currentCurrency === 'RUB' ? `-${diff} ${sym}` : `-${sym}${diff}`;
-        if (bonusEl) bonusEl.textContent = `💎 +${diamonds} bonus x2`;
+        if (bonusEl) bonusEl.textContent = bonusTpl.replace('{d}', diamonds);
 
         // Update prices inside buttons
         calcRoot.querySelectorAll<HTMLElement>('.pack-btn').forEach((btn) => {
