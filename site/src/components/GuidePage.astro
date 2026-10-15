@@ -344,9 +344,14 @@ while ((m = re.exec(slots)) !== null) {
       const active = isBookmarked();
       const icon = document.getElementById('bm-icon');
       const label = document.getElementById('bm-label');
-      const isRu = (document.documentElement.lang || '').startsWith('ru');
+      const __bmLang = (document.documentElement.lang || 'en');
+      const __bmDict = {
+        bookmark: {ru:'В закладки',en:'Bookmark',es:'Guardar',pt:'Salvar',fr:'Sauvegarder',de:'Merken',id:'Markah',ko:'북마크',ja:'ブックマーク',ar:'حفظ',it:'Salva',ms:'Tanda buku',nl:'Bladwijzer',th:'บุ๊กมาร์ก',tr:'Yer imi',vi:'Đánh dấu',zh:'收藏',pl:'Zakładka','zh-tw':'收藏'},
+        bookmarked: {ru:'В закладках',en:'Bookmarked',es:'Guardado',pt:'Salvo',fr:'Sauvegardé',de:'Gemerkt',id:'Ditandai',ko:'북마크됨',ja:'ブックマーク済み',ar:'محفوظ',it:'Salvato',ms:'Ditanda buku',nl:'Opgeslagen',th:'บุ๊กมาร์กแล้ว',tr:'Kaydedildi',vi:'Đã đánh dấu',zh:'已收藏',pl:'Zapisano','zh-tw':'已收藏'},
+      };
+      const __bmPick = (d: any) => d[__bmLang] ?? d[__bmLang.slice(0,2)] ?? d.en;
       if (icon) icon.textContent = active ? '★' : '☆';
-      if (label) label.textContent = active ? (isRu ? 'В закладках' : 'Bookmarked') : (isRu ? 'В закладки' : 'Bookmark');
+      if (label) label.textContent = active ? __bmPick(__bmDict.bookmarked) : __bmPick(__bmDict.bookmark);
       btn.classList.toggle('border-toxic-400', active);
       btn.classList.toggle('text-toxic-300', active);
       btn.classList.toggle('bg-toxic-500/10', active);
@@ -372,7 +377,12 @@ while ((m = re.exec(slots)) !== null) {
     const btn = document.getElementById('btn-page-share');
     if (!btn) return;
     const label = document.getElementById('share-label');
-    const isRu = (document.documentElement.lang || '').startsWith('ru');
+    const __shLang = (document.documentElement.lang || 'en');
+    const __shDict = {
+      share: {ru:'Поделиться',en:'Share',es:'Compartir',pt:'Compartilhar',fr:'Partager',de:'Teilen',id:'Bagikan',ko:'공유',ja:'共有',ar:'مشاركة',it:'Condividi',ms:'Kongsi',nl:'Delen',th:'แชร์',tr:'Paylaş',vi:'Chia sẻ',zh:'分享',pl:'Udostępnij','zh-tw':'分享'},
+      copied: {ru:'✓ Скопировано',en:'✓ Copied',es:'✓ Copiado',pt:'✓ Copiado',fr:'✓ Copié',de:'✓ Kopiert',id:'✓ Disalin',ko:'✓ 복사됨',ja:'✓ コピー済み',ar:'✓ تم النسخ',it:'✓ Copiato',ms:'✓ Disalin',nl:'✓ Gekopieerd',th:'✓ คัดลอกแล้ว',tr:'✓ Kopyalandı',vi:'✓ Đã sao chép',zh:'✓ 已复制',pl:'✓ Skopiowano','zh-tw':'✓ 已複製'},
+    };
+    const __shPick = (d: any) => d[__shLang] ?? d[__shLang.slice(0,2)] ?? d.en;
 
     btn.addEventListener('click', async () => {
       try {
@@ -383,10 +393,10 @@ while ((m = re.exec(slots)) !== null) {
           });
         } else {
           await navigator.clipboard.writeText(window.location.href);
-          if (label) label.textContent = isRu ? '✓ Скопировано' : '✓ Copied';
+          if (label) label.textContent = __shPick(__shDict.copied);
           btn.classList.add('border-toxic-400', 'text-toxic-300', 'bg-toxic-500/10');
           setTimeout(() => {
-            if (label) label.textContent = isRu ? 'Поделиться' : 'Share';
+            if (label) label.textContent = __shPick(__shDict.share);
             btn.classList.remove('border-toxic-400', 'text-toxic-300', 'bg-toxic-500/10');
           }, 2000);
         }

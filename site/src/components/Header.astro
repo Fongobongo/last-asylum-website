@@ -330,8 +330,10 @@ const dictServer: Record<string, string> = {
 
       if (bmList) {
         if (list.length === 0) {
-          const isRu = (document.documentElement.lang || '').startsWith('ru');
-          bmList.innerHTML = `<p class="text-xs text-stone-500 py-4 text-center">${isRu ? 'Нет закладок. Нажмите ☆ в гайде.' : 'No bookmarks yet. Click ☆ on any guide.'}</p>`;
+          const __bmLang = (document.documentElement.lang || 'en');
+          const __bmEmpty: Record<string, string> = {ru:'Нет закладок. Нажмите ☆ в гайде.',en:'No bookmarks yet. Click ☆ on any guide.',es:'Sin marcadores. Pulsa ☆ en cualquier guía.',pt:'Sem salvos. Clique em ☆ em qualquer guia.',fr:'Aucun signet. Cliquez sur ☆ dans un guide.',de:'Keine Lesezeichen. Klicke auf ☆ in einem Guide.',id:'Belum ada markah. Klik ☆ di panduan mana pun.',ko:'북마크 없음. 가이드에서 ☆를 눌러 저장하세요.',ja:'ブックマークなし。ガイドの☆を押してください。',ar:'لا توجد عناصر محفوظة. اضغط ☆ في أي دليل.',it:'Nessun segnalibro. Premi ☆ in una guida.',ms:'Tiada tanda buku. Klik ☆ dalam mana-mana panduan.',nl:'Geen bladwijzers. Klik op ☆ in een gids.',th:'ยังไม่มีบุ๊กมาร์ก กด ☆ ในคู่มือ',tr:'Kayıtlı yok. Herhangi bir rehberde ☆ simgesine basın.',vi:'Chưa có đánh dấu. Nhấn ☆ trong bất kỳ hướng dẫn nào.',zh:'暂无收藏。点击任意指南中的☆。',pl:'Brak zakładek. Kliknij ☆ w dowolnym poradniku.','zh-tw':'尚無收藏。點擊任意指南中的☆。'};
+          const __bmEmptyText = __bmEmpty[__bmLang] ?? __bmEmpty[__bmLang.slice(0,2)] ?? __bmEmpty.en;
+          bmList.innerHTML = `<p class="text-xs text-stone-500 py-4 text-center">${__bmEmptyText}</p>`;
         } else {
           bmList.innerHTML = list.map((item, idx) => `
             <div class="flex items-center justify-between gap-2 rounded-xl p-2 hover:bg-white/5 transition group">

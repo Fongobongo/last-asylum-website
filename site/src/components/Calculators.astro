@@ -6,6 +6,9 @@ interface Props {
 
 const { calc, lang } = Astro.props;
 
+const LOCALE_MAP: Record<string, string> = { en: 'en-US', ru: 'ru-RU', de: 'de-DE', es: 'es-ES', pt: 'pt-PT', fr: 'fr-FR', id: 'id-ID', ko: 'ko-KR', ja: 'ja-JP', ar: 'ar-EG', it: 'it-IT', ms: 'ms-MY', nl: 'nl-NL', th: 'th-TH', tr: 'tr-TR', vi: 'vi-VN', zh: 'zh-CN', pl: 'pl-PL', 'zh-tw': 'zh-TW' };
+const LOCALE = LOCALE_MAP[lang] ?? 'en-US';
+
 const i18n = {
   ko: {
     en: {
@@ -26,6 +29,7 @@ const i18n = {
       h100: 'Lv.100 → 비축됨',
       h160: 'Lv.160 → 비축됨',
       stars: '전환 후 별',
+      banked: '비축된 SSR 조각',
     },
     cynthia: {
       desc: '룰렛은 8일차에 등장합니다. 항상 10회 스핀하세요 — 단일 스핀은 토큰을 낭비합니다.',
@@ -54,6 +58,7 @@ const i18n = {
       h100: 'Lv.100 → 貯蔵済み',
       h160: 'Lv.160 → 貯蔵済み',
       stars: '変換後の星',
+      banked: '貯蔵済みSSR破片',
     },
     cynthia: {
       desc: 'ホイールは8日目に登場します。必ず10回スピンしましょう — 単発スピンはトークンの無駄です。',
@@ -82,6 +87,7 @@ const i18n = {
       h100: 'المستوى 100 → تم إيداعها',
       h160: 'المستوى 160 → تم إيداعها',
       stars: 'النجوم بعد التحويل',
+      banked: 'شظايا SSR المودعة',
     },
     cynthia: {
       desc: 'تصل العجلة في اليوم 8. قم دائمًا بالدوران ×10 — الدورات الفردية تهدر الرموز.',
@@ -110,6 +116,7 @@ const i18n = {
       h100: 'เลเวล 100 → สะสมไว้',
       h160: 'เลเวล 160 → สะสมไว้',
       stars: 'จำนวนดาวหลังแปลง',
+      banked: 'เศษ SSR ที่สะสมไว้',
     },
     cynthia: {
       desc: 'วงล้อจะมาในวันที่ 8 หมุนแบบ ×10 เสมอ — การหมุนทีละครั้งจะเปลืองโทเค็น',
@@ -138,6 +145,7 @@ const i18n = {
       h100: 'Lv.100 → 已囤',
       h160: 'Lv.160 → 已囤',
       stars: '转换后的星级',
+      banked: '已囤 SSR 碎片',
     },
     cynthia: {
       desc: '转盘将在第 8 天开启。请务必使用 10 连抽 — 单抽会浪费代币。',
@@ -166,6 +174,7 @@ const i18n = {
       h100: 'Lv.100 → 已儲備',
       h160: 'Lv.160 → 已儲備',
       stars: '轉換後的星級',
+      banked: '已儲備 SSR 碎片',
     },
     cynthia: {
       desc: '幸運轉盤將於第 8 天開啟。請務必使用 10 連抽 — 單抽會浪費代幣。',
@@ -204,6 +213,7 @@ const i18n = {
       h100: 'Stufe 100 → eingelagert',
       h160: 'Stufe 160 → eingelagert',
       stars: 'Sterne nach Umwandlung',
+      banked: 'Gespeicherte SSR-Scherben',
     },
     cynthia: {
       desc: 'Das Rad erscheint an Tag 8. Immer 10-mal drehen — einzelne Drehungen verschwenden Token.',
@@ -232,6 +242,7 @@ const i18n = {
       h100: 'Nv.100 → acumulado',
       h160: 'Nv.160 → acumulado',
       stars: 'Estrellas después de la conversión',
+      banked: 'Fragmentos SSR acumulados',
     },
     cynthia: {
       desc: 'La ruleta llega el Día 8. Gira siempre ×10 — los giros individuales desperdician fichas.',
@@ -260,6 +271,7 @@ const i18n = {
       h100: 'Nv.100 → guardado',
       h160: 'Nv.160 → guardado',
       stars: 'Estrelas após a conversão',
+      banked: 'Fragmentos SSR guardados',
     },
     cynthia: {
       desc: 'A roda chega no Dia 8. Sempre gire ×10 — giros únicos desperdiçam fichas.',
@@ -288,6 +300,7 @@ const i18n = {
       h100: 'Niv.100 → en banque',
       h160: 'Niv.160 → en banque',
       stars: 'Étoiles après conversion',
+      banked: 'Fragments SSR en banque',
     },
     cynthia: {
       desc: 'La roue arrive au Jour 8. Faites toujours des tirages ×10 — les tirages uniques gaspillent des jetons.',
@@ -316,6 +329,7 @@ const i18n = {
       h100: 'Lv.100 → disimpan',
       h160: 'Lv.160 → disimpan',
       stars: 'Bintang setelah konversi',
+      banked: 'Pecahan SSR yang disimpan',
     },
     cynthia: {
       desc: 'Wheel tiba pada Hari ke-8. Selalu putar ×10 — putaran tunggal membuang-buang token.',
@@ -344,6 +358,7 @@ const i18n = {
       h100: 'Liv.100 → depositato',
       h160: 'Liv.160 → depositato',
       stars: 'Stelle dopo la conversione',
+      banked: 'Schegge SSR depositate',
     },
     cynthia: {
       desc: 'La ruota arriva il Giorno 8. Gira sempre ×10 — i giri singoli sprecano gettoni.',
@@ -372,6 +387,7 @@ const i18n = {
       h100: 'Lv.100 → disimpan',
       h160: 'Lv.160 → disimpan',
       stars: 'Bintang selepas penukaran',
+      banked: 'Serpihan SSR yang disimpan',
     },
     cynthia: {
       desc: 'Roda tiba pada Hari 8. Sentiasa putar ×10 — putaran tunggal membazirkan token.',
@@ -400,6 +416,7 @@ const i18n = {
       h100: 'Lv.100 → opgeslagen',
       h160: 'Lv.160 → opgeslagen',
       stars: 'Sterren na conversie',
+      banked: 'Opgeslagen SSR-scherven',
     },
     cynthia: {
       desc: 'Het rad verschijnt op Dag 8. Draai altijd ×10 — losse draaien verspillen tokens.',
@@ -428,6 +445,7 @@ const i18n = {
       h100: 'Sv.100 → birikmiş',
       h160: 'Sv.160 → birikmiş',
       stars: 'Dönüşüm sonrası yıldızlar',
+      banked: 'Birikmiş SSR parçaları',
     },
     cynthia: {
       desc: 'Çark 8. Günde gelir. Her zaman ×10 çevirin — tekli çevirmeler jetonları boşa harcar.',
@@ -456,6 +474,7 @@ const i18n = {
       h100: 'Cấp 100 → đã tích lũy',
       h160: 'Cấp 160 → đã tích lũy',
       stars: 'Số sao sau khi chuyển đổi',
+      banked: 'Mảnh SSR đã tích lũy',
     },
     cynthia: {
       desc: 'Vòng quay xuất hiện vào Ngày 8. Luôn quay ×10 — quay lẻ sẽ lãng phí xu.',
@@ -484,6 +503,7 @@ const i18n = {
       h100: 'Poz. 100 → zachowane',
       h160: 'Poz. 160 → zachowane',
       stars: 'Gwiazdki po konwersji',
+      banked: 'Zachowane odłamki SSR',
     },
     cynthia: {
       desc: 'Koło pojawia się w 8. dniu. Zawsze kręć ×10 — pojedyncze kręcenia marnują żetony.',
@@ -512,6 +532,7 @@ const i18n = {
       h100: 'Lv.100 → banked',
       h160: 'Lv.160 → banked',
       stars: 'Stars after conversion',
+      banked: 'Banked SSR shards',
     },
     cynthia: {
       title: "Cynthia's Wishing Wheel — Diamond Budget",
@@ -541,6 +562,7 @@ const i18n = {
       h100: 'Ур.100 → в банке',
       h160: 'Ур.160 → в банке',
       stars: 'Звёзды после конверсии',
+      banked: 'Накоплено SSR-осколков',
     },
     cynthia: {
       title: 'Колесо Cynthia — бюджет алмазов',
@@ -582,7 +604,7 @@ const L = (i18n as any)[lang]?.[calcKey] ?? (i18n as any).en[calcKey];
     <div>
       <p class="mb-4 rounded-lg border border-stone-800 bg-stone-950 p-3 text-xs text-stone-400">💡 {L.note}</p>
       <label class="block">
-        <span class="mb-1 block text-sm font-medium text-stone-300">{lang === 'ru' ? 'Накоплено SSR-осколков' : 'Banked SSR shards'} <span class="text-stone-500">(0 – 1,600)</span></span>
+        <span class="mb-1 block text-sm font-medium text-stone-300">{(L as any).banked ?? (lang === 'ru' ? 'Накоплено SSR-осколков' : 'Banked SSR shards')} <span class="text-stone-500">(0 – 1,600)</span></span>
         <input type="number" min="0" max="1600" step="50" value="600" class="js-claire-h60 w-full rounded-md border border-stone-700 bg-stone-950 px-3 py-2 text-stone-200 focus:border-plague-400 outline-none" />
       </label>
       <div class="mt-4 grid gap-3 sm:grid-cols-3">
@@ -624,7 +646,7 @@ const L = (i18n as any)[lang]?.[calcKey] ?? (i18n as any).en[calcKey];
   )}
 </section>
 
-<script>
+<script define:vars={{ numLocale: LOCALE }}>
   function initCalcs() {
     // AD Phase 4
     const adTotal = document.querySelector('.js-ad-total');
@@ -635,7 +657,7 @@ const L = (i18n as any)[lang]?.[calcKey] ?? (i18n as any).en[calcKey];
         inputs.forEach((i) => {
           sum += (parseFloat((i as HTMLInputElement).value) || 0) * parseFloat((i as HTMLInputElement).dataset.mult || '0');
         });
-        adTotal.textContent = sum.toLocaleString('ru-RU').replace(/,/g, ' ');
+        adTotal.textContent = sum.toLocaleString(numLocale);
       };
       inputs.forEach((i) => i.addEventListener('input', recalcAd));
       recalcAd();
@@ -667,7 +689,7 @@ const L = (i18n as any)[lang]?.[calcKey] ?? (i18n as any).en[calcKey];
       const recalcCy = () => {
         const k = parseInt(spins!.value, 10) || 1;
         if (n) n.textContent = String(k);
-        if (cost) cost.textContent = (4500 * k).toLocaleString('ru-RU').replace(/,/g, ' ');
+        if (cost) cost.textContent = (4500 * k).toLocaleString(numLocale);
         if (shards) shards.textContent = `~${50 * k}`;
       };
       spins!.addEventListener('input', recalcCy);

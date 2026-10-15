@@ -8,6 +8,9 @@ interface Props {
 const { lang = 'en' } = Astro.props;
 const isRu = lang === 'ru';
 
+const LOCALE_MAP: Record<string, string> = { en: 'en-US', ru: 'ru-RU', de: 'de-DE', es: 'es-ES', pt: 'pt-PT', fr: 'fr-FR', id: 'id-ID', ko: 'ko-KR', ja: 'ja-JP', ar: 'ar-EG', it: 'it-IT', ms: 'ms-MY', nl: 'nl-NL', th: 'th-TH', tr: 'tr-TR', vi: 'vi-VN', zh: 'zh-CN', pl: 'pl-PL', 'zh-tw': 'zh-TW' };
+const LOCALE = LOCALE_MAP[lang] ?? 'en-US';
+
 const T = (k: string): string => {
   const table: Record<string, string> | undefined = (STR as any)[lang] ?? STR.en;
   return table?.[k] ?? (STR.en as any)[k] ?? k;
@@ -33,6 +36,9 @@ const STR: Record<string, Record<string, string>> = {
     s16: 'дней',
     s17: 'недель',
     s18: 'Совет по плавильне (Smelter Sweet Spot):',
+    s19: 'Уровень {n}',
+    s20: '(~{n} нед.)',
+    s21: '/нед',
   },
   en: {
     s0: 'Gear & Smelter Calculator',
@@ -54,6 +60,9 @@ const STR: Record<string, Record<string, string>> = {
     s16: 'days',
     s17: 'weeks',
     s18: 'Smelter Sweet Spot Tip:',
+    s19: 'Level {n}',
+    s20: '(~{n} wk.)',
+    s21: '/wk',
   },
   de: {
     s0: 'Ausrüstungs- & Schmelzofen-Rechner',
@@ -75,6 +84,9 @@ const STR: Record<string, Record<string, string>> = {
     s16: 'Tage',
     s17: 'Wochen',
     s18: 'Tipp für den optimalen Schmelzofen-Bereich:',
+    s19: 'Stufe {n}',
+    s20: '(~{n} Wo.)',
+    s21: '/Wo.',
   },
   es: {
     s0: 'Calculadora de Equipo y Fundición',
@@ -96,6 +108,9 @@ const STR: Record<string, Record<string, string>> = {
     s16: 'días',
     s17: 'semanas',
     s18: 'Consejo sobre el punto óptimo de la fundición:',
+    s19: 'Nivel {n}',
+    s20: '(~{n} sem.)',
+    s21: '/sem.',
   },
   pt: {
     s0: 'Calculadora de Equipamentos e Fundição',
@@ -117,6 +132,9 @@ const STR: Record<string, Record<string, string>> = {
     s16: 'dias',
     s17: 'semanas',
     s18: 'Dica de ponto ideal da Fundição:',
+    s19: 'Nível {n}',
+    s20: '(~{n} sem.)',
+    s21: '/sem.',
   },
   fr: {
     s0: 'Calculateur d\'équipement et de fonderie',
@@ -138,6 +156,9 @@ const STR: Record<string, Record<string, string>> = {
     s16: 'jours',
     s17: 'semaines',
     s18: 'Conseil pour le point optimal de la fonderie :',
+    s19: 'Niveau {n}',
+    s20: '(~{n} sem.)',
+    s21: '/sem.',
   },
   id: {
     s0: 'Kalkulator Gear & Smelter',
@@ -159,6 +180,9 @@ const STR: Record<string, Record<string, string>> = {
     s16: 'hari',
     s17: 'minggu',
     s18: 'Tips Smelter Sweet Spot:',
+    s19: 'Level {n}',
+    s20: '(~{n} mgg.)',
+    s21: '/mgg',
   },
   ko: {
     s0: '장비 & 제련소 계산기',
@@ -180,6 +204,9 @@ const STR: Record<string, Record<string, string>> = {
     s16: '일',
     s17: '주',
     s18: '제련소 효율 최적화 팁:',
+    s19: '레벨 {n}',
+    s20: '(~{n}주)',
+    s21: '/주',
   },
   ja: {
     s0: '装備＆精錬所計算機',
@@ -201,6 +228,9 @@ const STR: Record<string, Record<string, string>> = {
     s16: '日',
     s17: '週',
     s18: '精錬所の効率的な運用ヒント:',
+    s19: 'レベル {n}',
+    s20: '(~{n}週)',
+    s21: '/週',
   },
   ar: {
     s0: 'حاسبة المعدات والمصهر',
@@ -222,6 +252,9 @@ const STR: Record<string, Record<string, string>> = {
     s16: 'أيام',
     s17: 'أسابيع',
     s18: 'نصيحة حول المستوى الأمثل للمصهر:',
+    s19: 'المستوى {n}',
+    s20: '(~{n} أسابيع)',
+    s21: '/أسبوع',
   },
   it: {
     s0: 'Calcolatore Equipaggiamento e Fonderia',
@@ -243,6 +276,9 @@ const STR: Record<string, Record<string, string>> = {
     s16: 'giorni',
     s17: 'settimane',
     s18: 'Suggerimento sul punto ottimale della Fonderia:',
+    s19: 'Livello {n}',
+    s20: '(~{n} sett.)',
+    s21: '/sett.',
   },
   ms: {
     s0: 'Kalkulator Gear & Smelter',
@@ -264,6 +300,9 @@ const STR: Record<string, Record<string, string>> = {
     s16: 'hari',
     s17: 'minggu',
     s18: 'Petua Tahap Optimum Smelter:',
+    s19: 'Tahap {n}',
+    s20: '(~{n} mgg.)',
+    s21: '/mgg',
   },
   nl: {
     s0: 'Uitrusting & Smelter Calculator',
@@ -285,6 +324,9 @@ const STR: Record<string, Record<string, string>> = {
     s16: 'dagen',
     s17: 'weken',
     s18: 'Smelter Sweet Spot Tip:',
+    s19: 'Niveau {n}',
+    s20: '(~{n} wk.)',
+    s21: '/wk',
   },
   th: {
     s0: 'เครื่องคำนวณอุปกรณ์และโรงถลุง',
@@ -306,6 +348,9 @@ const STR: Record<string, Record<string, string>> = {
     s16: 'วัน',
     s17: 'สัปดาห์',
     s18: 'เคล็ดลับจุดคุ้มทุนของโรงถลุง:',
+    s19: 'เลเวล {n}',
+    s20: '(~{n} สัปดาห์)',
+    s21: '/สัปดาห์',
   },
   tr: {
     s0: 'Ekipman & İzabe Tesisi Hesaplayıcı',
@@ -327,6 +372,9 @@ const STR: Record<string, Record<string, string>> = {
     s16: 'gün',
     s17: 'hafta',
     s18: 'İzabe Tesisi İdeal Nokta İpucu:',
+    s19: 'Seviye {n}',
+    s20: '(~{n} hf.)',
+    s21: '/hf.',
   },
   vi: {
     s0: 'Máy tính Trang bị & Lò luyện',
