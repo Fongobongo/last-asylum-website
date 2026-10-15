@@ -8,20 +8,20 @@ interface Props {
 const { lang = 'en' } = Astro.props;
 const isRu = lang === 'ru';
 
-// UI strings localized for all 9 langs (fallback to EN). Gallery items keep
+// UI strings localized for all 19 langs (fallback to EN). Gallery items keep
 // RU titles for ru and EN titles otherwise — image files themselves are
 // mostly RU-sourced, so each card shows an explicit image-language badge
 // instead of rendering silently "empty" for untranslated locales.
 const ui = {
-  all: { en: 'All Posters', ru: 'Все схемы', de: 'Alle Poster', es: 'Todos', fr: 'Tous', id: 'Semua', ja: 'すべて', ko: '전체', pt: 'Todos' },
-  gear: { en: 'Gear & Relics', ru: 'Снаряжение и реликвии', de: 'Ausrüstung', es: 'Equipo', fr: 'Équipement', id: 'Gear', ja: '装備', ko: '장비', pt: 'Equipamento' },
-  events: { en: 'Events & Duels', ru: 'События и Дуэль', de: 'Events & Duelle', es: 'Eventos', fr: 'Événements', id: 'Event', ja: 'イベント', ko: '이벤트', pt: 'Eventos' },
-  era: { en: 'Era of Rebirth', ru: 'Эра Возрождения', de: 'Ära der Wiedergeburt', es: 'Era del Renacer', fr: 'Ère du Renouveau', id: 'Era Kelahiran', ja: '再生の時代', ko: '부활의 시대', pt: 'Era do Renascimento' },
-  base: { en: 'Base & Tech', ru: 'База и наука', de: 'Basis & Tech', es: 'Base', fr: 'Base', id: 'Markas', ja: '基地', ko: '기지', pt: 'Base' },
-  economy: { en: 'Economy & Shop', ru: 'Экономика и магазин', de: 'Wirtschaft', es: 'Economía', fr: 'Économie', id: 'Ekonomi', ja: '経済', ko: '경제', pt: 'Economia' },
-  heroes: { en: 'Heroes & Squads', ru: 'Герои и отряды', de: 'Helden', es: 'Héroes', fr: 'Héros', id: 'Hero', ja: '英雄', ko: '영웅', pt: 'Heróis' },
-  enlarge: { en: 'Enlarge', ru: 'Увеличить', de: 'Vergrößern', es: 'Ampliar', fr: 'Agrandir', id: 'Perbesar', ja: '拡大', ko: '확대', pt: 'Ampliar' },
-  download: { en: 'Download ↗', ru: 'Скачать ↗', de: 'Download ↗', es: 'Descargar ↗', fr: 'Télécharger ↗', id: 'Unduh ↗', ja: 'ダウンロード ↗', ko: '다운로드 ↗', pt: 'Baixar ↗' },
+  all: { en: 'All Posters', ru: 'Все схемы', de: 'Alle Poster', es: 'Todos', fr: 'Tous', id: 'Semua', ja: 'すべて', ko: '전체', pt: 'Todos', ar: 'كل الملصقات', it: 'Tutti i poster', ms: 'Semua Poster', nl: 'Alle posters', th: 'โปสเตอร์ทั้งหมด', tr: 'Tüm Posterler', vi: 'Tất cả Áp phích', zh: '全部海报', pl: 'Wszystkie plakaty', 'zh-tw': '全部海報' },
+  gear: { en: 'Gear & Relics', ru: 'Снаряжение и реликвии', de: 'Ausrüstung', es: 'Equipo', fr: 'Équipement', id: 'Gear', ja: '装備', ko: '장비', pt: 'Equipamento', ar: 'العتاد والآثار', it: 'Equipaggiamento e reliquie', ms: 'Gear & Relik', nl: 'Uitrusting & Relikwieën', th: 'อุปกรณ์ & วัตถุโบราณ', tr: 'Ekipman & Kalıntılar', vi: 'Trang bị & Di vật', zh: '装备与遗物', pl: 'Ekwipunek i relikwie', 'zh-tw': '裝備與遺物' },
+  events: { en: 'Events & Duels', ru: 'События и Дуэль', de: 'Events & Duelle', es: 'Eventos', fr: 'Événements', id: 'Event', ja: 'イベント', ko: '이벤트', pt: 'Eventos', ar: 'الفعاليات والمبارزات', it: 'Eventi e duelli', ms: 'Acara & Duel', nl: 'Evenementen & Duels', th: 'กิจกรรม & ดวล', tr: 'Etkinlikler & Düellolar', vi: 'Sự kiện & Đấu tay đôi', zh: '活动与对决', pl: 'Wydarzenia i pojedynki', 'zh-tw': '活動與對決' },
+  era: { en: 'Era of Rebirth', ru: 'Эра Возрождения', de: 'Ära der Wiedergeburt', es: 'Era del Renacer', fr: 'Ère du Renouveau', id: 'Era Kelahiran', ja: '再生の時代', ko: '부활의 시대', pt: 'Era do Renascimento', ar: 'عصر النهضة', it: 'Era della Rinascita', ms: 'Era Kelahiran Semula', nl: 'Tijdperk van Heropleving', th: 'ยุคแห่งการฟื้นคืน', tr: 'Diriliş Dönemi', vi: 'Kỷ nguyên Hồi sinh', zh: '复苏纪元', pl: 'Era Odrodzenia', 'zh-tw': '復甦紀元' },
+  base: { en: 'Base & Tech', ru: 'База и наука', de: 'Basis & Tech', es: 'Base', fr: 'Base', id: 'Markas', ja: '基地', ko: '기지', pt: 'Base', ar: 'القاعدة والتكنولوجيا', it: 'Base e tecnologia', ms: 'Pangkalan & Teknologi', nl: 'Basis & Tech', th: 'ฐาน & เทคโนโลยี', tr: 'Üs & Teknoloji', vi: 'Căn cứ & Công nghệ', zh: '基地与科技', pl: 'Baza i technologia', 'zh-tw': '基地與科技' },
+  economy: { en: 'Economy & Shop', ru: 'Экономика и магазин', de: 'Wirtschaft', es: 'Economía', fr: 'Économie', id: 'Ekonomi', ja: '経済', ko: '경제', pt: 'Economia', ar: 'الاقتصاد والمتجر', it: 'Economia e negozio', ms: 'Ekonomi & Kedai', nl: 'Economie & Winkel', th: 'เศรษฐกิจ & ร้านค้า', tr: 'Ekonomi & Mağaza', vi: 'Kinh tế & Cửa hàng', zh: '经济与商店', pl: 'Ekonomia i sklep', 'zh-tw': '經濟與商店' },
+  heroes: { en: 'Heroes & Squads', ru: 'Герои и отряды', de: 'Helden', es: 'Héroes', fr: 'Héros', id: 'Hero', ja: '英雄', ko: '영웅', pt: 'Heróis', ar: 'الأبطال والتشكيلات', it: 'Eroi e squadre', ms: 'Hero & Skuad', nl: 'Helden & Squads', th: 'ฮีโร่ & ทีม', tr: 'Kahramanlar & Birlikler', vi: 'Anh hùng & Đội hình', zh: '英雄与阵容', pl: 'Bohaterowie i oddziały', 'zh-tw': '英雄與陣容' },
+  enlarge: { en: 'Enlarge', ru: 'Увеличить', de: 'Vergrößern', es: 'Ampliar', fr: 'Agrandir', id: 'Perbesar', ja: '拡大', ko: '확대', pt: 'Ampliar', ar: 'تكبير', it: 'Ingrandisci', ms: 'Besarkan', nl: 'Vergroten', th: 'ขยาย', tr: 'Büyüt', vi: 'Phóng to', zh: '放大', pl: 'Powiększ', 'zh-tw': '放大' },
+  download: { en: 'Download ↗', ru: 'Скачать ↗', de: 'Download ↗', es: 'Descargar ↗', fr: 'Télécharger ↗', id: 'Unduh ↗', ja: 'ダウンロード ↗', ko: '다운로드 ↗', pt: 'Baixar ↗', ar: 'تحميل ↗', it: 'Scarica ↗', ms: 'Muat Turun ↗', nl: 'Downloaden ↗', th: 'ดาวน์โหลด ↗', tr: 'İndir ↗', vi: 'Tải xuống ↗', zh: '下载 ↗', pl: 'Pobierz ↗', 'zh-tw': '下載 ↗' },
 } as const;
 type UiKey = keyof typeof ui;
 const t = (k: UiKey) => (ui[k] as Record<string, string>)[lang] ?? ui[k].en;
@@ -265,7 +265,15 @@ const categories = [
       <div id={item.id} class="ig-card group overflow-hidden rounded-2xl border border-white/[0.08] bg-stone-900/60 p-4 transition-all hover:border-toxic-500/50 hover:bg-stone-900/90 shadow-lg flex flex-col justify-between scroll-mt-24" data-category={item.category}>
         <div>
           <!-- Thumbnail with Zoom Trigger -->
-          <div class="relative overflow-hidden rounded-xl bg-black/60 aspect-[4/3] cursor-zoom-in group-hover:shadow-2xl transition" data-src={item.src} data-title={item.title} data-author={item.author}>
+          <div
+            role="button"
+            tabindex="0"
+            aria-label={`${t('enlarge')}: ${item.title}`}
+            class="relative overflow-hidden rounded-xl bg-black/60 aspect-[4/3] cursor-zoom-in group-hover:shadow-2xl transition focus-visible:outline-2 focus-visible:outline-toxic-400"
+            data-src={item.src}
+            data-title={item.title}
+            data-author={item.author}
+          >
             <img src={item.src} alt={item.title} loading="lazy" class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105" />
             <span class="absolute left-2 top-2 rounded-md bg-black/75 px-1.5 py-0.5 text-[10px] font-bold text-stone-300 border border-white/15 backdrop-blur-sm">
               {imgLang(item.src)}
@@ -358,20 +366,29 @@ const categories = [
     });
 
     // Lightbox open
+    const openLightbox = (trigger: Element) => {
+      const src = trigger.getAttribute('data-src') || '';
+      const title = trigger.getAttribute('data-title') || '';
+      const author = trigger.getAttribute('data-author') || '';
+
+      if (lbImg) lbImg.src = src;
+      if (lbTitle) lbTitle.textContent = title;
+      if (lbAuthor) lbAuthor.textContent = `© ${author}`;
+      if (lbDownload) lbDownload.href = src;
+
+      lightbox?.classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    };
     cards.forEach((card) => {
       const trigger = card.querySelector('[data-src]');
       trigger?.addEventListener('click', () => {
-        const src = trigger.getAttribute('data-src') || '';
-        const title = trigger.getAttribute('data-title') || '';
-        const author = trigger.getAttribute('data-author') || '';
-
-        if (lbImg) lbImg.src = src;
-        if (lbTitle) lbTitle.textContent = title;
-        if (lbAuthor) lbAuthor.textContent = `© ${author}`;
-        if (lbDownload) lbDownload.href = src;
-
-        lightbox?.classList.remove('hidden');
-        document.body.style.overflow = 'hidden';
+        if (trigger) openLightbox(trigger);
+      });
+      trigger?.addEventListener('keydown', (e) => {
+        if ((e.key === 'Enter' || e.key === ' ') && trigger) {
+          e.preventDefault();
+          openLightbox(trigger);
+        }
       });
     });
 

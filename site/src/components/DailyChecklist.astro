@@ -42,6 +42,7 @@ const i18n = {
     allDone: '🎉 تم إكمال جميع المهام اليومية! ملاذك يعمل بأقصى كفاءة.',
     resetNotice: 'تتم إعادة التعيين تلقائياً يومياً في منتصف ليل الخادم (02:00 بالتوقيت العالمي) مع إعادة تعيين الخادم',
     resetBtn: 'إعادة تعيين يدوياً',
+    todayFocus: 'تركيز فعاليات اليوم (بتوقيت الخادم):',
     tasks: [
       { id: 'tavern', label: 'تججنيد الحانة المجاني', tip: 'الاستدعاءات المجانية لا تتراكم؛ عداد التحديث يبدأ فقط بعد المطالبة بها.' },
       { id: 'stamina', label: 'استهلاك القدرة على التحمل (لا تتركها أبداً تصل إلى الحد الأقصى 100/100)', tip: 'كل ساعة تفوتها والقدرة على التحمل ممتلئة هي تقدم وموارد ضائعة.' },
@@ -51,6 +52,15 @@ const i18n = {
       { id: 'gather', label: 'إرسال الجامعين إلى عقد الموارد قبل تسجيل الخروج', tip: 'الأولوية: الأعشاب > الأخشاب > الحبوب.' },
       { id: 'alliance', label: 'التبرع لتكنولوجيا التحالف والضغط على مساعدة التحالف', tip: 'تكسب عملات شرف التحالف لشراء عناصر المتجر الأسبوعية الأساسية.' },
     ],
+    days: [
+      "الأحد: التخطيط والاستعداد. أتمم مهام فالكون لكن لا تطالب بالمكافآت حتى منتصف ليل الخادم يوم الاثنين (02:00 بالتوقيت العالمي)!",
+      "الاثنين (اليوم 1): الموارد والغراب. استهلك كل جوهر الغراب والثمار اليوم! واحتفظ بمضاد السموم.",
+      "الثلاثاء (اليوم 2): تطوير القاعدة. استهلك مسرعات البناء. أتمم مهام فالكون لكن احتفظ بها ليوم الأربعاء!",
+      "الأربعاء (اليوم 3): التقنية واللفائف. افتح صناديق عتاد الغراب من المستوى 1-3، وادرس لفائف الدراسة واستلم مهام فالكون المحفوظة.",
+      "الخميس (اليوم 4): يوم الأبطال! استهلك كل شظايا الأبطال وشارات المهارة ومخزون مضاد السموم!",
+      "الجمعة (اليوم 5): تدريب القوات. استهلك مسرعات التدريب! رقِّ القوات مستوى واحداً في كل مرة لتحقيق أقصى النقاط.",
+      "السبت (اليوم 6): النهائي القتالي وPvP. غارات القوافل عبر الخوادم والدفاع عن الأبراج والقضاء على الأعداء.",
+    ]
   },
   it: {
     title: 'Lista di controllo giornaliera del sopravvissuto',
@@ -59,6 +69,7 @@ const i18n = {
     allDone: '🎉 Tutte le attività giornaliere completate! Il tuo rifugio sta operando alla massima efficienza.',
     resetNotice: 'Si resetta automaticamente ogni giorno a mezzanotte del server (02:00 UTC) con il riavvio del server',
     resetBtn: 'Resetta manualmente',
+    todayFocus: 'Focus eventi di oggi (ora del server):',
     tasks: [
       { id: 'tavern', label: 'Reclutamento gratuito in Taverna', tip: 'Le invocazioni gratuite non si accumulano; il timer di aggiornamento parte solo dopo averle riscosse.' },
       { id: 'stamina', label: 'Spendi stamina (non rimanere mai al limite di 100/100)', tip: 'Ogni ora trascorsa al massimo della stamina è un blocco nella progressione e nello spreco di risorse.' },
@@ -68,6 +79,15 @@ const i18n = {
       { id: 'gather', label: 'Invia i raccoglitori ai nodi di risorse prima di disconnetterti', tip: 'Priorità: Erbe > Legname > Grano.' },
       { id: 'alliance', label: 'Dona alla tecnologia dell\'Alleanza e clicca su Aiuto Alleanza', tip: 'Permette di guadagnare monete Onore dell\'Alleanza per gli oggetti essenziali del negozio settimanale.' },
     ],
+    days: [
+      "Domenica: pianificazione e preparazione al reset. Completa le missioni del Falco ma NON riscuoterle fino alla mezzanotte del server di lunedì (02:00 UTC)!",
+      "Lunedì (Giorno 1): Risorse e Corvo. Consuma oggi tutta l'Essenza e i Frutti del Corvo! Conserva l'Antitossina.",
+      "Martedì (Giorno 2): Sviluppo della base. Brucia le accelerazioni di costruzione. Completa le missioni del Falco ma conservale per mercoledì!",
+      "Mercoledì (Giorno 3): Ricerca e pergamene. Apri i forzieri equipaggiamento del Corvo Lv. 1-3, studia le pergamene e riscuoti le missioni del Falco salvate.",
+      "Giovedì (Giorno 4): Giorno degli eroi! Spendi tutti i frammenti eroe, i badge abilità e le scorte di Antitossina!",
+      "Venerdì (Giorno 5): Addestramento truppe. Brucia le accelerazioni di addestramento! Potenzia le truppe di un solo livello alla volta per il massimo dei punti.",
+      "Sabato (Giorno 6): Finale di combattimento e PvP. Incursioni alle carovane tra server, difese delle torri ed eliminazione nemica.",
+    ]
   },
   ms: {
     title: 'Senarai Semak Survivor Harian',
@@ -76,6 +96,7 @@ const i18n = {
     allDone: '🎉 Semua tugasan harian selesai! Sanctuary anda beroperasi pada tahap kecekapan maksimum.',
     resetNotice: 'Tetapan semula automatik setiap hari pada tengah malam pelayan (02:00 UTC) bersama tetapan semula pelayan',
     resetBtn: 'Tetapkan semula secara manual',
+    todayFocus: 'Fokus Acara Hari Ini (masa pelayan):',
     tasks: [
       { id: 'tavern', label: 'Rekrut Tavern Percuma', tip: 'Summon percuma tidak bertimbun; pemasa segar semula hanya bermula selepas dituntut.' },
       { id: 'stamina', label: 'Gunakan stamina (jangan biarkan kekal pada had 100/100)', tip: 'Setiap jam terbiar pada stamina maksimum adalah pembaziran kemajuan dan sumber.' },
@@ -85,6 +106,15 @@ const i18n = {
       { id: 'gather', label: 'Hantar pengumpul ke nod sumber sebelum log keluar', tip: 'Keutamaan: Herba > Kayu > Bijirin.' },
       { id: 'alliance', label: 'Derma kepada Teknologi Alliance & tekan Bantuan Alliance', tip: 'Dapatkan syiling Kehormatan Alliance untuk item kedai mingguan yang penting.' },
     ],
+    days: [
+      "Ahad: Perancangan & persediaan reset. Selesaikan misi Falcon tetapi JANGAN tuntut sehingga tengah malam pelayan Isnin (02:00 UTC)!",
+      "Isnin (Hari 1): Sumber & Raven. Habiskan semua Raven Essence & Buah Raven hari ini! Simpan Antitoxin.",
+      "Selasa (Hari 2): Pembangunan Pangkalan. Bakar pecutan membina. Selesaikan misi Falcon tetapi SIMPAN untuk Rabu!",
+      "Rabu (Hari 3): Teknologi & Skrol. Buka Peti Gear Raven Lv.1-3, kaji skrol & tuntut misi Falcon yang disimpan.",
+      "Khamis (Hari 4): Hari Wira! Habiskan semua serpihan hero, lencana kemahiran, dan stok Antitoxin!",
+      "Jumaat (Hari 5): Latihan Pasukan. Bakar pecutan latihan! Naik taraf pasukan +1 tahap pada satu masa untuk mata maksimum.",
+      "Sabtu (Hari 6): Final Tempur & PvP. Serbuan karavan merentas pelayan, pertahanan menara, dan penghapusan musuh.",
+    ]
   },
   nl: {
     title: 'Dagelijkse Overleverschecklist',
@@ -93,6 +123,7 @@ const i18n = {
     allDone: '🎉 Alle dagelijkse taken voltooid! Je toevluchtsoord werkt op maximale efficiëntie.',
     resetNotice: 'Reset automatisch dagelijks om middernacht servertijd (02:00 UTC) bij de serverreset',
     resetBtn: 'Handmatig resetten',
+    todayFocus: 'Evenementfocus van vandaag (servertijd):',
     tasks: [
       { id: 'tavern', label: 'Gratis taverne-rekrutering', tip: 'Gratis rekruteringen stapelen niet op; de vernieuwingstimer begint pas nadat ze zijn geclaimd.' },
       { id: 'stamina', label: 'Besteed stamina (blijf nooit op de limiet van 100/100)', tip: 'Elk uur dat je op maximale stamina staat, is verspilde voortgang en grondstoffen.' },
@@ -102,6 +133,15 @@ const i18n = {
       { id: 'gather', label: 'Stuur verzamelaars naar grondstofbronnen voordat je uitlogt', tip: 'Prioriteit: Kruiden > Hout > Graan.' },
       { id: 'alliance', label: 'Doneer aan Alliantietechnologie & klik op Alliantiehulp', tip: 'Levert Alliantie-eermunten op voor essentiële wekelijkse winkelitems.' },
     ],
+    days: [
+      "Zondag: Planning en resetvoorbereiding. Voltooi Falcon-quests maar claim ze NIET tot maandag middernacht servertijd (02:00 UTC)!",
+      "Maandag (Dag 1): Grondstoffen & Raven. Verbruik vandaag alle Raven-essentie & Raven-fruit! Bewaar Antitoxine.",
+      "Dinsdag (Dag 2): Basisontwikkeling. Brand bouwversnellers op. Voltooi Falcon-quests maar BEWAAR ze voor woensdag!",
+      "Woensdag (Dag 3): Tech & Rollen. Open Lv.1-3 Raven-uitrustingskisten, bestudeer rollen & claim bewaarde Falcon-quests.",
+      "Donderdag (Dag 4): Heldendag! Verbruik alle heldenscherven, vaardigheidsbadges en grote Antitoxine-voorraden!",
+      "Vrijdag (Dag 5): Troepentraining. Brand trainingsversnellers op! Upgrade troepen +1 niveau per keer voor maximale punten.",
+      "Zaterdag (Dag 6): Gevechtsfinale & PvP. Cross-server karavaanovervallen, torenverdediging en vijandeliminatie.",
+    ]
   },
   th: {
     title: 'รายการตรวจสอบผู้รอดชีวิตประจำวัน',
@@ -110,6 +150,7 @@ const i18n = {
     allDone: '🎉 ทำภารกิจประจำวันสำเร็จทั้งหมดแล้ว! ฐานที่มั่นของคุณกำลังทำงานด้วยประสิทธิภาพสูงสุด',
     resetNotice: 'รีเซ็ตอัตโนมัติทุกวันตามเวลาเที่ยงคืนของเซิร์ฟเวอร์ (02:00 UTC) พร้อมกับการรีเซ็ตเซิร์ฟเวอร์',
     resetBtn: 'รีเซ็ตด้วยตนเอง',
+    todayFocus: 'โฟกัสกิจกรรมประจำวันนี้ (เวลาเซิร์ฟเวอร์):',
     tasks: [
       { id: 'tavern', label: 'รับสมัครฟรีที่โรงเตี๊ยม', tip: 'สิทธิ์อัญเชิญฟรีจะไม่สะสม ตัวนับเวลารีเฟรชจะเริ่มทำงานหลังจากกดรับแล้วเท่านั้น' },
       { id: 'stamina', label: 'ใช้ Stamina (อย่าปล่อยให้เต็มขีดจำกัด 100/100)', tip: 'ทุกๆ ชั่วโมงที่ปล่อยให้ Stamina เต็ม ถือเป็นการสูญเสียความคืบหน้าและทรัพยากรไปโดยเปล่าประโยชน์' },
@@ -119,6 +160,15 @@ const i18n = {
       { id: 'gather', label: 'ส่งหน่วยเก็บรวบรวมไปยังจุดทรัพยากรก่อนออกจากเกม', tip: 'ลำดับความสำคัญ: สมุนไพร > ไม้ > ธัญพืช' },
       { id: 'alliance', label: 'บริจาคเทคโนโลยีพันธมิตร & กดช่วยพันธมิตร', tip: 'รับเหรียญเกียรติยศพันธมิตรสำหรับซื้อไอเทมจำเป็นในร้านค้ารายสัปดาห์' },
     ],
+    days: [
+      "วันอาทิตย์: วางแผนและเตรียมรีเซ็ต ทำเควสต์ Falcon ให้เสร็จแต่ห้ามกดรับจนถึงเที่ยงคืนวันจันทร์ตามเวลาเซิร์ฟเวอร์ (02:00 UTC)!",
+      "วันจันทร์ (วันที่ 1): ทรัพยากรและกา ใช้ Raven Essence และ Raven Fruit ทั้งหมดในวันนี้! เก็บ Antitoxin ไว้ก่อน",
+      "วันอังคาร (วันที่ 2): พัฒนาฐาน ใช้เร่งความเร็วก่อสร้างให้หมด ทำเควสต์ Falcon ให้เสร็จแต่เก็บไว้กดรับวันพุธ!",
+      "วันพุธ (วันที่ 3): เทคโนโลยีและคัมภีร์ เปิดหีบอุปกรณ์กา Lv.1-3 ใช้คัมภีร์ศึกษา และกดรับเควสต์ Falcon ที่เก็บไว้",
+      "วันพฤหัสบดี (วันที่ 4): วันฮีโร่! ใช้เศษฮีโร่ ป้ายทักษะ และสต็อก Antitoxin ทั้งหมด!",
+      "วันศุกร์ (วันที่ 5): ฝึกทหาร ใช้เร่งความเร็วการฝึกให้หมด! อัปเกรดทหารทีละ 1 ระดับเพื่อคะแนนสูงสุด",
+      "วันเสาร์ (วันที่ 6): รอบชิงการรบและ PvP ปล้นคาราวานข้ามเซิร์ฟเวอร์ ป้องกันหอคอย และกำจัดศัตรู",
+    ]
   },
   tr: {
     title: 'Günlük Hayatta Kalanlar Kontrol Listesi',
@@ -127,6 +177,7 @@ const i18n = {
     allDone: '🎉 Tüm günlük görevler tamamlandı! Sığınağın maksimum verimlilikle çalışıyor.',
     resetNotice: 'Sunucu sıfırlamasıyla birlikte her gün sunucu gece yarısında (02:00 UTC) otomatik olarak sıfırlanır',
     resetBtn: 'Manuel olarak sıfırla',
+    todayFocus: 'Bugünkü Etkinlik Odağı (sunucu saati):',
     tasks: [
       { id: 'tavern', label: 'Ücretsiz Han Çağırması', tip: 'Ücretsiz çağrılar birikmez; yenileme sayacı yalnızca talep edildiğinde başlar.' },
       { id: 'stamina', label: 'Dayanıklılık Harca (100/100 sınırında kalmayın)', tip: 'Maksimum dayanıklılıkta boşta geçirilen her saat, boşa harcanmış ilerleme ve kaynak demektir.' },
@@ -136,6 +187,15 @@ const i18n = {
       { id: 'gather', label: 'Çıkış yapmadan önce toplayıcıları kaynak noktalarına gönder', tip: 'Öncelik: Otlar > Kereste > Tahıl.' },
       { id: 'alliance', label: 'İttifak Teknolojisine Bağış Yap ve İttifak Yardımını Kullan', tip: 'Haftalık temel mağaza öğeleri için İttifak Onur paraları kazandırır.' },
     ],
+    days: [
+      "Pazar: Planlama ve sıfırlık hazırlığı. Şahin görevlerini bitir ama Pazartesi sunucu gece yarısına (02:00 UTC) kadar TALEP ETME!",
+      "Pazartesi (1. Gün): Kaynaklar ve Kuzgun. Tüm Kuzgun Özü ve Meyvelerini bugün harca! Antitoksini sakla.",
+      "Salı (2. Gün): Üs Geliştirme. İnşaat hızlandırmalarını yak. Şahin görevlerini bitir ama Çarşamba için BEKLET!",
+      "Çarşamba (3. Gün): Teknoloji ve Parşömenler. Sv.1-3 Kuzgun Ekipman Sandıklarını aç, parşömenleri incele ve biriken Şahin görevlerini al.",
+      "Perşembe (4. Gün): Kahraman Günü! Tüm kahraman parçalarını, yetenek rozetlerini ve dev antitoksin stoklarını harca!",
+      "Cuma (5. Gün): Birlik Eğitimi. Eğitim hızlandırmalarını yak! Maksimum puan için birlikleri her seferinde +1 kademe yükselt.",
+      "Cumartesi (6. Gün): Savaş Finali ve PvP. Sunucular arası kervan baskınları, kule savunmaları ve düşman imhası.",
+    ]
   },
   vi: {
     title: 'Danh sách kiểm tra người sống sót hàng ngày',
@@ -144,6 +204,7 @@ const i18n = {
     allDone: '🎉 Tất cả nhiệm vụ hàng ngày đã hoàn thành! Nơi trú ẩn của bạn đang hoạt động với hiệu suất tối đa.',
     resetNotice: 'Tự động đặt lại hàng ngày vào lúc nửa đêm theo giờ máy chủ (02:00 UTC) cùng với thời điểm đặt lại máy chủ',
     resetBtn: 'Đặt lại thủ công',
+    todayFocus: 'Trọng tâm sự kiện hôm nay (giờ máy chủ):',
     tasks: [
       { id: 'tavern', label: 'Tuyển mộ Quán rượu miễn phí', tip: 'Lượt triệu hồi miễn phí không cộng dồn; bộ đếm thời gian làm mới chỉ bắt đầu sau khi bạn nhận.' },
       { id: 'stamina', label: 'Tiêu hao thể lực (tránh để đạt mức tối đa 100/100)', tip: 'Mỗi giờ đứng yên ở mức thể lực tối đa là sự lãng phí tiến trình và tài nguyên.' },
@@ -153,6 +214,15 @@ const i18n = {
       { id: 'gather', label: 'Cử đội thu thập đến các mỏ tài nguyên trước khi đăng xuất', tip: 'Ưu tiên: Thảo dược > Gỗ > Lương thực.' },
       { id: 'alliance', label: 'Đóng góp Công nghệ Liên minh & bấm Hỗ trợ Liên minh', tip: 'Kiếm xu Danh dự Liên minh cho các vật phẩm thiết yếu trong cửa hàng hàng tuần.' },
     ],
+    days: [
+      "Chủ Nhật: Lên kế hoạch & chuẩn bị reset. Hoàn thành nhiệm vụ Falcon nhưng ĐỪNG nhận thưởng cho đến nửa đêm Thứ Hai theo giờ máy chủ (02:00 UTC)!",
+      "Thứ Hai (Ngày 1): Tài nguyên & Quạ. Dùng hết Tinh hoa Quạ & Quả Quạ ngay hôm nay! Giữ lại Antitoxin.",
+      "Thứ Ba (Ngày 2): Phát triển căn cứ. Đốt tăng tốc xây dựng. Hoàn thành nhiệm vụ Falcon nhưng GIỮ lại cho Thứ Tư!",
+      "Thứ Tư (Ngày 3): Công nghệ & Cuộn giấy. Mở Rương Trang bị Quạ Lv.1-3, nghiên cứu cuộn giấy & nhận các nhiệm vụ Falcon đã lưu.",
+      "Thứ Năm (Ngày 4): Ngày Anh hùng! Dùng hết mảnh anh hùng, huy hiệu kỹ năng và kho Antitoxin dự trữ!",
+      "Thứ Sáu (Ngày 5): Huấn luyện Quân đội. Đốt tăng tốc huấn luyện! Nâng cấp quân từng +1 cấp một để đạt điểm tối đa.",
+      "Thứ Bảy (Ngày 6): Chung kết Chiến đấu & PvP. Đột kích đoàn xe liên máy chủ, phòng thủ tháp và tiêu diệt kẻ địch.",
+    ]
   },
   zh: {
     title: '每日幸存者清单',
@@ -161,6 +231,7 @@ const i18n = {
     allDone: '🎉 所有日常任务已完成！您的避难所正以最高效率运作。',
     resetNotice: '随服务器重置于每日午夜（02:00 UTC）自动重置',
     resetBtn: '手动重置',
+    todayFocus: '今日活动重点（服务器时间）：',
     tasks: [
       { id: 'tavern', label: '免费酒馆招募', tip: '免费召唤不会叠加；刷新计时器只有在领取后才会开始。' },
       { id: 'stamina', label: '消耗体力（切勿达到 100/100 上限）', tip: '体力达到上限后每闲置一小时，都是进度和资源的浪费。' },
@@ -170,6 +241,15 @@ const i18n = {
       { id: 'gather', label: '下线前派遣采集队前往资源点', tip: '优先级：草药 > 木材 > 粮食。' },
       { id: 'alliance', label: '捐献联盟科技并点击联盟协助', tip: '可获取用于兑换每周必备商店道具的联盟荣誉币。' },
     ],
+    days: [
+      "周日：规划与重置准备。完成猎鹰任务，但不要领取，留到周一服务器午夜（02:00 UTC）！",
+      "周一（第1天）：资源与渡鸦。今天用掉所有乌鸦精粹和渡鸦果实！保留抗毒素。",
+      "周二（第2天）：基地发展。烧掉建筑加速。完成猎鹰任务，但留到周三再领！",
+      "周三（第3天）：科技与卷轴。开启 Lv.1-3 渡鸦装备宝箱，使用研究卷轴并领取存下的猎鹰任务。",
+      "周四（第4天）：英雄日！用掉所有英雄碎片、技能徽章和大量抗毒素储备！",
+      "周五（第5天）：部队训练。烧掉训练加速！每次只升 1 级部队，以获得最高积分。",
+      "周六（第6天）：战斗决赛与 PvP。跨服商队劫掠、塔防和消灭敌人。",
+    ]
   },
   pl: {
     title: 'Codzienna lista kontrolna ocalałego',
@@ -178,6 +258,7 @@ const i18n = {
     allDone: '🎉 Wszystkie codzienne zadania ukończone! Twoje sanktuarium działa z maksymalną wydajnością.',
     resetNotice: 'Automatyczny reset codziennie o północy czasu serwera (02:00 UTC) wraz z resetem serwera',
     resetBtn: 'Resetuj ręcznie',
+    todayFocus: 'Dzisiejszy fokus wydarzeń (czas serwera):',
     tasks: [
       { id: 'tavern', label: 'Darmowa rekrutacja w Tawernie', tip: 'Darmowe przyzwania nie kumulują się; czas odnowienia zaczyna płynąć dopiero po ich odebraniu.' },
       { id: 'stamina', label: 'Zużywaj wytrzymałość (nigdy nie zostawiaj limitu 100/100)', tip: 'Każda godzina bezczynności przy maksymalnej wytrzymałości to zmarnowany postęp i zasoby.' },
@@ -187,6 +268,15 @@ const i18n = {
       { id: 'gather', label: 'Wyślij zbieraczy do punktów zasobów przed wylogowaniem się', tip: 'Priorytet: Zioła > Drewno > Zboże.' },
       { id: 'alliance', label: 'Wpłacaj na technologię Sojuszu i klikaj Pomoc Sojuszu', tip: 'Zapewnia monety Honoru Sojuszu na niezbędne przedmioty w sklepie tygodniowym.' },
     ],
+    days: [
+      "Niedziela: Planowanie i przygotowanie do resetu. Ukończ zadania Sokoła, ale NIE odbieraj ich do poniedziałkowej północy serwera (02:00 UTC)!",
+      "Poniedziałek (Dzień 1): Zasoby i Kruk. Zużyj dziś całą Esencję Kruka i Owoce Kruka! Zachowaj Antytoksynę.",
+      "Wtorek (Dzień 2): Rozwój bazy. Spal przyspieszenia budowy. Ukończ zadania Sokoła, ale ZACHOWAJ je na środę!",
+      "Środa (Dzień 3): Technologia i Zwoje. Otwórz skrzynie ekwipunku Kruka poz. 1-3, studiuj zwoje i odbierz zachowane zadania Sokoła.",
+      "Czwartek (Dzień 4): Dzień Bohaterów! Zużyj wszystkie odłamki bohaterów, odznaki umiejętności i ogromne zapasy antytoksyny!",
+      "Piątek (Dzień 5): Szkolenie wojsk. Spal przyspieszenia szkolenia! Ulepszaj wojska po +1 poziom na raz dla maksymalnych punktów.",
+      "Sobota (Dzień 6): Finał walki i PvP. Międzyserwerowe rajdy na karawany, obrona wież i eliminacja wrogów.",
+    ]
   },
   'zh-tw': {
     title: '每日倖存者清單',
@@ -195,6 +285,7 @@ const i18n = {
     allDone: '🎉 所有日常任務已完成！您的避難所正以最高效率運作。',
     resetNotice: '隨服務器重置於每日午夜（02:00 UTC）自動重置',
     resetBtn: '手動重置',
+    todayFocus: '今日活動重點（伺服器時間）：',
     tasks: [
       { id: 'tavern', label: '免費酒館招募', tip: '免費招募不會累積，領取後才會開始計算刷新倒數。' },
       { id: 'stamina', label: '消耗體力（切勿保持在 100/100 上限狀態）', tip: '體力全滿時每閒置一小時，都是在浪費遊戲進度與資源。' },
@@ -204,6 +295,15 @@ const i18n = {
       { id: 'gather', label: '離線前派遣隊伍前往資源點採集', tip: '優先順序：草藥 > 木材 > 糧食。' },
       { id: 'alliance', label: '捐贈聯盟科技並點擊聯盟幫助', tip: '可賺取聯盟榮譽幣，用於購買每週商店的必備物品。' },
     ],
+    days: [
+      "週日：規劃與重置準備。完成獵鷹任務，但不要領取，留到週一伺服器午夜（02:00 UTC）！",
+      "週一（第1天）：資源與渡鴉。今天用掉所有烏鴉精粹和渡鴉果實！保留抗毒素。",
+      "週二（第2天）：基地發展。燒掉建築加速。完成獵鷹任務，但留到週三再領！",
+      "週三（第3天）：科技與卷軸。開啓 Lv.1-3 渡鴉裝備寶箱，使用研究卷軸並領取存下的獵鷹任務。",
+      "週四（第4天）：英雄日！用掉所有英雄碎片、技能徽章和大量抗毒素儲備！",
+      "週五（第5天）：部隊訓練。燒掉訓練加速！每次只升 1 級部隊，以獲得最高積分。",
+      "週六（第6天）：戰鬥決賽與 PvP。跨服商隊劫掠、塔防和消滅敵人。",
+    ]
   },
   en: {
     title: 'Daily Survivor Checklist',

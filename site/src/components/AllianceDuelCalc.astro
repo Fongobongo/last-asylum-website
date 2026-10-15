@@ -39,6 +39,8 @@ const STR: Record<string, Record<string, string>> = {
     s22: 'Уничтожено вражеских войск (очки мощи)',
     s23: 'Очков за день:',
     s24: 'Сундук 1: 100K • Сундук 6: 2M • Сундук 9: 7.2M',
+    s25: '✓ СУНДУК 9 ГАРАНТИРОВАН!',
+    s26: 'До 9-го сундука осталось: {diff} очков',
   },
   en: {
     s0: 'Alliance Duel Points Calculator (Days 1–6)',
@@ -66,6 +68,8 @@ const STR: Record<string, Record<string, string>> = {
     s22: 'Enemy power killed (might points)',
     s23: 'Estimated Day Score:',
     s24: 'Chest 1: 100K • Chest 6: 2M • Chest 9: 7.2M',
+    s25: '✓ CHEST 9 GUARANTEED!',
+    s26: '{diff} points remaining to Chest 9',
   },
   de: {
     s0: 'Allianz-Duell Punkte-Rechner (Tag 1–6)',
@@ -93,6 +97,8 @@ const STR: Record<string, Record<string, string>> = {
     s22: 'Feindliche Stärke vernichtet (Stärkepunkte)',
     s23: 'Geschätzte Punktzahl für den Tag:',
     s24: 'Truhe 1: 100K • Truhe 6: 2M • Truhe 9: 7,2M',
+    s25: '✓ TRUHE 9 GARANTIERT!',
+    s26: 'Noch {diff} Punkte bis Truhe 9',
   },
   es: {
     s0: 'Calculadora de puntos del Duelo de Alianzas (Días 1–6)',
@@ -120,6 +126,8 @@ const STR: Record<string, Record<string, string>> = {
     s22: 'Poder enemigo eliminado (puntos de poder)',
     s23: 'Puntuación estimada del día:',
     s24: 'Cofre 1: 100K • Cofre 6: 2M • Cofre 9: 7.2M',
+    s25: '✓ ¡COFRE 9 GARANTIZADO!',
+    s26: 'Te faltan {diff} puntos para el Cofre 9',
   },
   pt: {
     s0: 'Calculadora de Pontos do Duelo de Alianças (Dias 1–6)',
@@ -147,6 +155,8 @@ const STR: Record<string, Record<string, string>> = {
     s22: 'Poder inimigo eliminado (pontos de poder)',
     s23: 'Pontuação estimada do dia:',
     s24: 'Baú 1: 100K • Baú 6: 2M • Baú 9: 7,2M',
+    s25: '✓ BAÚ 9 GARANTIDO!',
+    s26: 'Faltam {diff} pontos para o Baú 9',
   },
   fr: {
     s0: 'Calculateur de points du Duel d\'Alliance (Jours 1 à 6)',
@@ -174,6 +184,8 @@ const STR: Record<string, Record<string, string>> = {
     s22: 'Puissance ennemie tuée (points de puissance)',
     s23: 'Score estimé du jour :',
     s24: 'Coffre 1 : 100K • Coffre 6 : 2M • Coffre 9 : 7,2M',
+    s25: '✓ COFFRE 9 GARANTI !',
+    s26: 'Plus que {diff} points avant le Coffre 9',
   },
   id: {
     s0: 'Kalkulator Poin Alliance Duel (Hari 1–6)',
@@ -201,6 +213,8 @@ const STR: Record<string, Record<string, string>> = {
     s22: 'Power musuh yang dibunuh (poin might)',
     s23: 'Estimasi Skor Hari Ini:',
     s24: 'Peti 1: 100K • Peti 6: 2M • Peti 9: 7,2M',
+    s25: '✓ PETI 9 TERJAMIN!',
+    s26: 'Tersisa {diff} poin menuju Peti 9',
   },
   ko: {
     s0: '얼라이언스 결투 포인트 계산기 (1~6일차)',
@@ -228,6 +242,8 @@ const STR: Record<string, Record<string, string>> = {
     s22: '처치한 적군 전투력 (전투력 포인트)',
     s23: '예상 일일 점수:',
     s24: '1단계 상자: 100K • 6단계 상자: 2M • 9단계 상자: 7.2M',
+    s25: '✓ 9단계 상자 확정!',
+    s26: '9단계 상자까지 {diff} 포인트 남음',
   },
   ja: {
     s0: 'アライアンス決闘ポイント計算機 (1日目～6日目)',
@@ -255,6 +271,8 @@ const STR: Record<string, Record<string, string>> = {
     s22: '撃破した敵の戦力 (戦力ポイント)',
     s23: '推定デイリースコア：',
     s24: 'チェスト1：100K • チェスト6：2M • チェスト9：7.2M',
+    s25: '✓ チェスト9確定！',
+    s26: 'チェスト9まで残り{diff}ポイント',
   },
   ar: {
     s0: 'حاسبة نقاط Alliance Duel (الأيام 1–6)',
@@ -282,6 +300,8 @@ const STR: Record<string, Record<string, string>> = {
     s22: 'قوة العدو التي تم القضاء عليها (نقاط القوة)',
     s23: 'النتيجة التقديرية لليوم:',
     s24: 'الصندوق 1: 100 ألف • الصندوق 6: 2 مليون • الصندوق 9: 7.2 مليون',
+    s25: '✓ الصندوق 9 مضمون!',
+    s26: 'متبقٍ {diff} نقطة للوصول إلى الصندوق 9',
   },
   it: {
     s0: 'Calcolatore Punti Duello Alleanza (Giorni 1–6)',
@@ -309,6 +329,8 @@ const STR: Record<string, Record<string, string>> = {
     s22: 'Potenza nemica eliminata (punti potenza)',
     s23: 'Punteggio stimato del giorno:',
     s24: 'Forziere 1: 100K • Forziere 6: 2M • Forziere 9: 7,2M',
+    s25: '✓ FORZIERE 9 GARANTITO!',
+    s26: 'Mancano {diff} punti al Forziere 9',
   },
   ms: {
     s0: 'Kalkulator Mata Alliance Duel (Hari 1–6)',
@@ -336,6 +358,8 @@ const STR: Record<string, Record<string, string>> = {
     s22: 'Power musuh dibunuh (mata might)',
     s23: 'Anggaran Skor Hari:',
     s24: 'Peti 1: 100K • Peti 6: 2M • Peti 9: 7.2M',
+    s25: '✓ PETI 9 TERJAMIN!',
+    s26: 'Tinggal {diff} mata lagi ke Peti 9',
   },
   nl: {
     s0: 'Alliantie Duel Punten Calculator (Dagen 1–6)',
@@ -363,6 +387,8 @@ const STR: Record<string, Record<string, string>> = {
     s22: 'Vijandelijke kracht gedood (krachtpunten)',
     s23: 'Geschatte dagscore:',
     s24: 'Kist 1: 100K • Kist 6: 2M • Kist 9: 7,2M',
+    s25: '✓ KIST 9 GEGARANDEERD!',
+    s26: 'Nog {diff} punten tot Kist 9',
   },
   th: {
     s0: 'เครื่องคำนวณคะแนน Alliance Duel (วันที่ 1–6)',
@@ -390,6 +416,8 @@ const STR: Record<string, Record<string, string>> = {
     s22: 'พลังศัตรูที่สังหารได้ (คะแนนพลัง)',
     s23: 'คะแนนโดยประมาณของวัน:',
     s24: 'หีบ 1: 100K • หีบ 6: 2M • หีบ 9: 7.2M',
+    s25: '✓ รับหีบระดับ 9 แน่นอน!',
+    s26: 'เหลืออีก {diff} คะแนนถึงหีบระดับ 9',
   },
   tr: {
     s0: 'İttifak Düellosu Puan Hesaplayıcı (1–6. Günler)',
@@ -417,6 +445,8 @@ const STR: Record<string, Record<string, string>> = {
     s22: 'Öldürülen düşman gücü (güç puanı)',
     s23: 'Tahmini Günlük Skor:',
     s24: '1. Sandık: 100K • 6. Sandık: 2M • 9. Sandık: 7,2M',
+    s25: '✓ 9. SANDIK GARANTİ!',
+    s26: '9. Sandığa {diff} puan kaldı',
   },
   vi: {
     s0: 'Công cụ tính điểm Alliance Duel (Ngày 1–6)',
@@ -444,6 +474,8 @@ const STR: Record<string, Record<string, string>> = {
     s22: 'Sức mạnh kẻ địch đã tiêu diệt (điểm sức mạnh)',
     s23: 'Điểm dự kiến trong ngày:',
     s24: 'Rương 1: 100K • Rương 6: 2M • Rương 9: 7,2M',
+    s25: '✓ CHẮC CHẮN RƯƠNG 9!',
+    s26: 'Còn {diff} điểm nữa để đạt Rương 9',
   },
   zh: {
     s0: '联盟对决积分计算器（第1-6天）',
@@ -471,6 +503,8 @@ const STR: Record<string, Record<string, string>> = {
     s22: '击杀敌方战力（战力积分）',
     s23: '预计当日得分：',
     s24: '宝箱1：10万 • 宝箱6：200万 • 宝箱9：720万',
+    s25: '✓ 宝箱9已锁定！',
+    s26: '距离宝箱9还差{diff}积分',
   },
   pl: {
     s0: 'Kalkulator punktów Pojedynku Sojuszy (Dni 1–6)',
@@ -498,6 +532,8 @@ const STR: Record<string, Record<string, string>> = {
     s22: 'Potęga pokonanych wrogów (punkty potęgi)',
     s23: 'Szacowany wynik dnia:',
     s24: 'Skrzynia 1: 100 tys. • Skrzynia 6: 2 mln • Skrzynia 9: 7,2 mln',
+    s25: '✓ SKRZYNIA 9 GWARANTOWANA!',
+    s26: 'Do Skrzyni 9 brakuje: {diff} pkt',
   },
   'zh-tw': {
     s0: '聯盟對決積分計算器（第 1–6 天）',
@@ -525,6 +561,8 @@ const STR: Record<string, Record<string, string>> = {
     s22: '擊殺敵方戰力（戰力積分）',
     s23: '預估當日積分：',
     s24: '寶箱 1：10 萬 • 寶箱 6：200 萬 • 寶箱 9：720 萬',
+    s25: '✓ 寶箱9已鎖定！',
+    s26: '距離寶箱9還差{diff}積分',
   },
 };
 
@@ -688,7 +726,7 @@ const STR: Record<string, Record<string, string>> = {
   </div>
 </div>
 
-<script>
+<script define:vars={{ msgUnlocked: T('s25'), msgRemain: T('s26') }}>
   function initAdCalc() {
     const root = document.getElementById('ad-calculator');
     if (!root) return;
@@ -733,10 +771,10 @@ const STR: Record<string, Record<string, string>> = {
 
       if (targetStatusEl) {
         if (total >= 7200000) {
-          targetStatusEl.innerHTML = '<strong class="text-toxic-300">✓ СУНДУК 9 ГАРАНТИРОВАН! (CHEST 9 UNLOCKED)</strong>';
+          targetStatusEl.innerHTML = '<strong class="text-toxic-300">' + msgUnlocked + '</strong>';
         } else {
           const diff = (7200000 - total).toLocaleString();
-          targetStatusEl.textContent = `До 9-го сундука осталось: ${diff} очков`;
+          targetStatusEl.textContent = msgRemain.replace('{diff}', diff);
         }
       }
     };
