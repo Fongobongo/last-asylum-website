@@ -1,4 +1,4 @@
-name: Build & Deploy
+name: Build
 
 on:
   push:
@@ -8,8 +8,6 @@ on:
 
 permissions:
   contents: read
-  deployments: write
-  statuses: write
 
 jobs:
   build:
@@ -44,30 +42,3 @@ jobs:
           name: site-dist
           path: site/dist
           retention-days: 7
-
-  deploy:
-    needs: build
-    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      deployments: write
-      statuses: write
-    steps:
-      - uses: actions/download-artifact@v4
-        with:
-          name: site-dist
-          path: dist
-
-      - name: Deploy to Netlify
-        uses: nwtgck/actions-netlify@v3
-        with:
-          publish-dir: dist
-          production-deploy: true
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          enable-commit-comment: false
-          enable-pull-request-comment: false
-          enable-commit-status: false
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN || secrets.NETLIFY_PAT_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
