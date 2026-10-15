@@ -61,7 +61,17 @@
         "id": "Topeng Gagak Malam",
         "ja": "ナイトレイヴンの仮面",
         "ko": "나이트 레이븐 가면",
-        "pt": "Máscara do Corvo da Noite"
+        "pt": "Máscara do Corvo da Noite",
+        "ar": "قناع غراب الليل",
+        "it": "Maschera del Corvo Notturno",
+        "ms": "Night Raven Mask",
+        "nl": "Nachtraafmasker",
+        "th": "หน้ากากการาตรี",
+        "tr": "Gece Kuzgunu Maskesi",
+        "vi": "Night Raven Mask",
+        "zh": "夜鸦面具",
+        "pl": "Maska Nocnego Kruka",
+        "zh-tw": "夜鴉面具"
       },
       "type": "Offensive (Атакующий)",
       "bonus": {
@@ -80,7 +90,17 @@
         "id": "Jubah Bulu Gagak",
         "ja": "レイヴンの羽衣",
         "ko": "레이븐 깃털 망토",
-        "pt": "Manto de Penas de Corvo"
+        "pt": "Manto de Penas de Corvo",
+        "ar": "رداء ريش الغراب",
+        "it": "Mantellina di Piume di Corvo",
+        "ms": "Raven Feather Cloak",
+        "nl": "Ravenveren mantel",
+        "th": "เสื้อคลุมขนนกกา",
+        "tr": "Kuzgun Tüyü Pelerini",
+        "vi": "Raven Feather Cloak",
+        "zh": "渡鸦羽氅",
+        "pl": "Płaszcz z Piór Kruka",
+        "zh-tw": "渡鴉羽氅"
       },
       "type": "Defensive (Защитный)",
       "bonus": {
@@ -101,7 +121,17 @@
         "id": "Target yang terkena efek menerima 12% lebih banyak damage selama 5 detik",
         "ja": "影響を受けた対象が受けるダメージが12%増加、5秒間持続",
         "ko": "영향을 받은 대상이 받는 피해가 5초 동안 12% 증가합니다",
-        "pt": "Aumenta o dano recebido por alvos afetados em 12% por 5s"
+        "pt": "Aumenta o dano recebido por alvos afetados em 12% por 5s",
+        "ar": "تزيد الضرر الذي تتلقاه الأهداف المتأثرة بنسبة 12% لمدة 5 ثوان.",
+        "it": "Aumenta del 12% i danni subiti dai bersagli colpiti per 5s.",
+        "ms": "Meningkatkan kerosakan yang diterima oleh sasaran yang terjejas sebanyak 12% selama 5s.",
+        "nl": "Verhoogt de schade die getroffen doelen ontvangen met 12% gedurende 5s.",
+        "th": "เพิ่มความเสียหายที่เป้าหมายที่ได้รับผลกระทบได้รับ 12% เป็นเวลา 5 วินาที",
+        "tr": "Etkilenen hedeflerin aldığı hasarı 5sn boyunca %12 artırır.",
+        "vi": "Tăng 12% sát thương mà các mục tiêu bị ảnh hưởng phải chịu trong 5s.",
+        "zh": "使受影响目标受到的伤害提高12%，持续5秒。",
+        "pl": "Zwiększa otrzymywane obrażenia dotkniętych celów o 12% na 5s.",
+        "zh-tw": "使受影響目標受到的傷害提高12%，持續5秒。"
       }
     },
     {
@@ -115,7 +145,17 @@
         "id": "Memberikan 18% DMG tambahan",
         "ja": "追加で18%のダメージを与える",
         "ko": "추가로 18% 피해를 입힙니다",
-        "pt": "Causa 18% de dano extra"
+        "pt": "Causa 18% de dano extra",
+        "ar": "تُلحق ضررًا إضافيًا بنسبة 18%.",
+        "it": "Infligge il 18% di danni extra.",
+        "ms": "Memberikan 18% kerosakan tambahan.",
+        "nl": "Brengt 18% extra schade toe.",
+        "th": "สร้างความเสียหายเพิ่มเติม 18%",
+        "tr": "%18 ekstra hasar verir.",
+        "vi": "Gây thêm 18% sát thương.",
+        "zh": "造成18%的额外伤害。",
+        "pl": "Zadaje dodatkowe 18% obrażeń.",
+        "zh-tw": "造成18%的額外傷害。"
       }
     },
     {
@@ -129,7 +169,17 @@
         "id": "Tingkatkan DMG yang diterima target sebesar 15% selama 5d",
         "ja": "影響を受けた対象が受けるダメージが15%増加、5秒間持続",
         "ko": "영향을 받은 대상이 받는 피해가 5초 동안 15% 증가합니다",
-        "pt": "Aumenta o dano recebido por alvos afetados em 15% por 5s"
+        "pt": "Aumenta o dano recebido por alvos afetados em 15% por 5s",
+        "ar": "تزيد الضرر الذي تتلقاه الأهداف المتأثرة بنسبة 15% لمدة 5 ثوان.",
+        "it": "Aumenta del 15% i danni subiti dai bersagli colpiti per 5s.",
+        "ms": "Meningkatkan kerosakan yang diterima oleh sasaran yang terjejas sebanyak 15% selama 5s.",
+        "nl": "Verhoogt de schade die getroffen doelen ontvangen met 15% gedurende 5s.",
+        "th": "เพิ่มความเสียหายที่เป้าหมายที่ได้รับผลกระทบได้รับ 15% เป็นเวลา 5 วินาที",
+        "tr": "Etkilenen hedeflerin aldığı hasarı 5sn boyunca %15 artırır.",
+        "vi": "Tăng 15% sát thương mà các mục tiêu bị ảnh hưởng phải chịu trong 5s.",
+        "zh": "使受影响目标受到的伤害提高15%，持续5秒。",
+        "pl": "Zwiększa otrzymywane obrażenia dotkniętych celów o 15% na 5s.",
+        "zh-tw": "使受影響目標受到的傷害提高15%，持續5秒。"
       }
     },
     {
@@ -143,7 +193,17 @@
         "id": "Tambahan damage meningkat menjadi 36%",
         "ja": "追加ダメージが36%に上昇",
         "ko": "추가 피해가 36%로 증가합니다",
-        "pt": "O dano extra aumenta para 36%"
+        "pt": "O dano extra aumenta para 36%",
+        "ar": "يرتفع الضرر الإضافي إلى 36%.",
+        "it": "I danni extra aumentano al 36%.",
+        "ms": "Kerosakan tambahan meningkat kepada 36%.",
+        "nl": "Extra schade stijgt naar 36%.",
+        "th": "ความเสียหายเพิ่มเติมเพิ่มขึ้นเป็น 36%",
+        "tr": "Ekstra hasar %36'ya yükselir.",
+        "vi": "Sát thương cộng thêm tăng lên 36%.",
+        "zh": "额外伤害提高至36%。",
+        "pl": "Dodatkowe obrażenia rosną do 36%.",
+        "zh-tw": "額外傷害提高至36%。"
       }
     },
     {
@@ -157,7 +217,17 @@
         "id": "Target terkena menerima 15% lebih banyak damage selama 7d",
         "ja": "影響を受けた対象が受けるダメージが15%増加、7秒間持続",
         "ko": "영향을 받은 대상이 받는 피해가 15% 증가하며, 7초간 지속됩니다",
-        "pt": "Aumenta o dano recebido por alvos afetados em 15% por 7s"
+        "pt": "Aumenta o dano recebido por alvos afetados em 15% por 7s",
+        "ar": "تزيد الضرر الذي تتلقاه الأهداف المتأثرة بنسبة 15% لمدة 7 ثوان.",
+        "it": "Aumenta del 15% i danni subiti dai bersagli colpiti per 7s.",
+        "ms": "Meningkatkan kerosakan yang diterima oleh sasaran yang terjejas sebanyak 15% selama 7s.",
+        "nl": "Verhoogt de schade die getroffen doelen ontvangen met 15% gedurende 7s.",
+        "th": "เพิ่มความเสียหายที่เป้าหมายที่ได้รับผลกระทบได้รับ 15% เป็นเวลา 7 วินาที",
+        "tr": "Etkilenen hedeflerin aldığı hasarı 7sn boyunca %15 artırır.",
+        "vi": "Tăng 15% sát thương mà các mục tiêu bị ảnh hưởng phải chịu trong 7s.",
+        "zh": "使受影响目标受到的伤害提高15%，持续7秒。",
+        "pl": "Zwiększa otrzymywane obrażenia dotkniętych celów o 15% na 7s.",
+        "zh-tw": "使受影響目標受到的傷害提高15%，持續7秒。"
       }
     }
   ]

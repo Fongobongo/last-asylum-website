@@ -10,7 +10,17 @@
       "id": "David",
       "ja": "デイビッド",
       "ko": "데이비드",
-      "pt": "David"
+      "pt": "David",
+      "ar": "ديفيد",
+      "it": "David",
+      "ms": "David",
+      "nl": "David",
+      "th": "เดวิด",
+      "tr": "David",
+      "vi": "David",
+      "zh": "大卫",
+      "pl": "David",
+      "zh-tw": "大衛"
     },
     "character": {
       "ru": "Спокойн.",
@@ -21,7 +31,17 @@
       "id": "Diam & jujur",
       "ja": "穏やか",
       "ko": "차분하고 성실함",
-      "pt": "Firmeza"
+      "pt": "Firmeza",
+      "ar": "ثابت",
+      "it": "Fermo",
+      "ms": "Tenang",
+      "nl": "Standvastig",
+      "th": "หนักแน่น",
+      "tr": "Sağlam",
+      "vi": "Vững vàng",
+      "zh": "稳重",
+      "pl": "Opanowany",
+      "zh-tw": "沉穩"
     },
     "assignedBuilding": {
       "ru": "Лесопилка",
@@ -37,7 +57,17 @@
       "id": "Penebang Kayu,Produksi Kayu +30%\nPrajurit berpengalaman, menderita Wabah Hitam parah yang menyebabkan ruam di seluruh tubuhnya.",
       "ja": "伐採工、木材生産量+30%\n戦場を駆け抜けてきたベテラン兵士だが、重度のペストにかかり、全身に発疹が出ている。",
       "ko": "나무꾼. 목재 생산량 +30%\n전장을 누빈 베테랑 병사. 심각한 흑사병에 걸려 온몸에 발진이 생겼다.",
-      "pt": "Lenhador, Produção de Madeira +30%\nUm soldado calejado pela batalha, afligido por uma grave Praga, com erupções por todo o corpo."
+      "pt": "Lenhador, Produção de Madeira +30%\nUm soldado calejado pela batalha, afligido por uma grave Praga, com erupções por todo o corpo.",
+      "ar": "حطاب، إنتاج الأخشاب +30%\nجندي مخضرم أصيب بآفة شديدة، مع طفح جلدي يغطي جسده كله.",
+      "it": "Boscaiolo, Produzione legname +30%\nUn soldato temprato dalla battaglia colpito da un grave Flagello, con eruzioni su tutto il corpo.",
+      "ms": "Penebang kayu, Pengeluaran Kayu +30%\nSeorang askar berpengalaman yang dijangkiti Wabak Hitam yang teruk, dengan ruam di seluruh badannya.",
+      "nl": "Houthakker, Houtopbrengst +30%\nEen geharde soldaat getroffen door een ernstige plaag, met uitslag over zijn hele lichaam.",
+      "th": "คนตัดไม้ ผลผลิตไม้ +30%\nทหารผ่านศึกที่ติดโรคระบาดขั้นรุนแรง มีผื่นขึ้นทั่วร่างกาย",
+      "tr": "Oduncu, Kereste Üretimi +%30\nAğır Veba'ya yakalanmış, vücudu baştan aşağı döküntülerle kaplı, savaş görmüş bir asker.",
+      "vi": "Thợ đốn gỗ, Sản lượng Gỗ +30%\nMột người lính dày dạn chiến trận nhiễm Dịch Bệnh nghiêm trọng, phát ban khắp cơ thể.",
+      "zh": "伐木工，木材产量+30%\n一名身经百战的士兵，感染了严重的瘟疫，全身布满皮疹。",
+      "pl": "Drwal, Produkcja drewna +30%\nZahartowany w boju żołnierz dotknięty ciężką zarazą, z wysypką na całym ciele.",
+      "zh-tw": "伐木工，木材產量+30%\n一名身經百戰的士兵，感染了嚴重的瘟疫，全身佈滿皮疹。"
     }
   },
   {
@@ -51,7 +81,17 @@
       "id": "Jenny",
       "ja": "ジェニー",
       "ko": "제니",
-      "pt": "Jenny"
+      "pt": "Jenny",
+      "ar": "جيني",
+      "it": "Jenny",
+      "ms": "Jenny",
+      "nl": "Jenny",
+      "th": "เจนนี่",
+      "tr": "Jenny",
+      "vi": "Jenny",
+      "zh": "珍妮",
+      "pl": "Jenny",
+      "zh-tw": "珍妮"
     },
     "character": {
       "ru": "Прилежн.",
@@ -62,7 +102,17 @@
       "id": "Rajin & baik",
       "ja": "真面目",
       "ko": "부지런하고 착함",
-      "pt": "Diligência"
+      "pt": "Diligência",
+      "ar": "مجتهد",
+      "it": "Diligente",
+      "ms": "Rajin",
+      "nl": "Vlijtig",
+      "th": "ขยัน",
+      "tr": "Çalışkan",
+      "vi": "Chăm chỉ",
+      "zh": "勤奋",
+      "pl": "Pilny",
+      "zh-tw": "勤奮"
     },
     "assignedBuilding": {
       "ru": "Ферма",
@@ -78,7 +128,17 @@
       "id": "Petani, Produksi Makanan +10%\nWanita berhati mulia, kehilangan anaknya karena Wabah Hitam.",
       "ja": "農家、食料生産量+10%\n心優しい女性だが、ペストでわが子を失ってしまった。",
       "ko": "농부. 식량 생산량 +10%\n따뜻한 마음을 가진 여성. 흑사병으로 인해 자신의 아이를 잃었다.",
-      "pt": "Agricultora, Produção de Comida +10%\nUma mulher de bom coração, que perdeu seu filho para a Praga."
+      "pt": "Agricultora, Produção de Comida +10%\nUma mulher de bom coração, que perdeu seu filho para a Praga.",
+      "ar": "مزارعة، إنتاج الحبوب +10%\nامرأة طيبة القلب فقدت طفلها بسبب الآفة.",
+      "it": "Contadina, Produzione grano +10%\nUna donna dal cuore gentile che ha perso suo figlio a causa del Flagello.",
+      "ms": "Petani, Pengeluaran Bijirin +10%\nSeorang wanita yang baik hati, yang kehilangan anaknya akibat Wabak Hitam.",
+      "nl": "Boerin, Graanopbrengst +10%\nEen goedhartige vrouw die haar kind aan de plaag verloor.",
+      "th": "ชาวนา ผลผลิตธัญพืช +10%\nหญิงใจดีผู้สูญเสียลูกไปเพราะโรคระบาด",
+      "tr": "Çiftçi, Tahıl Üretimi +%10\nÇocuğunu Felaket yüzünden kaybetmiş, iyi kalpli bir kadın.",
+      "vi": "Nông dân, Sản lượng Lương thực +10%\nMột người phụ nữ tốt bụng đã mất con vì Dịch Bệnh.",
+      "zh": "农夫，粮食产量+10%\n一位善良的女性，因瘟疫失去了孩子。",
+      "pl": "Rolniczka, Produkcja zboża +10%\nKobieta o dobrym sercu, która straciła dziecko przez zarazę.",
+      "zh-tw": "農夫，糧食產量+10%\n一位善良的女性，因瘟疫失去了孩子。"
     }
   },
   {
@@ -92,7 +152,17 @@
       "id": "Phyllis",
       "ja": "フィリス",
       "ko": "필리스",
-      "pt": "Phyllis"
+      "pt": "Phyllis",
+      "ar": "فيليس",
+      "it": "Phyllis",
+      "ms": "Phyllis",
+      "nl": "Phyllis",
+      "th": "ฟิลลิส",
+      "tr": "Phyllis",
+      "vi": "Phyllis",
+      "zh": "菲莉丝",
+      "pl": "Phyllis",
+      "zh-tw": "菲莉絲"
     },
     "character": {
       "ru": "Отличн.",
@@ -103,7 +173,17 @@
       "id": "Penolong",
       "ja": "世話焼き",
       "ko": "남을 잘 돕는 편",
-      "pt": "Presteza"
+      "pt": "Presteza",
+      "ar": "متعاون",
+      "it": "Disponibile",
+      "ms": "Suka menolong",
+      "nl": "Behulpzaam",
+      "th": "ชอบช่วยเหลือ",
+      "tr": "Yardımsever",
+      "vi": "Hay giúp đỡ",
+      "zh": "乐于助人",
+      "pl": "Pomocny",
+      "zh-tw": "樂於助人"
     },
     "assignedBuilding": {
       "ru": "Лесопилка",
@@ -119,7 +199,17 @@
       "id": "Penebang Kayu,Produksi Kayu+20%\nTerluka oleh gigitan penduduk kota yang terinfeksi, memotong lengannya untuk menghindari berubah menjadi Ghoul.",
       "ja": "伐採工、木材生産量+20%\n感染した町民に腕を噛まれ、ゾンビ化を避けるため自ら腕を切断した。",
       "ko": "나무꾼. 목재 생산량 +20%\n병에 걸린 마을 주민에게 팔을 물려, 구울이 되는 것을 피하고자 팔을 절단했다.",
-      "pt": "Lenhador, Produção de Madeira +20%\nMordido no braço por um aldeão Infectado, acabou amputado para não se infectar também."
+      "pt": "Lenhador, Produção de Madeira +20%\nMordido no braço por um aldeão Infectado, acabou amputado para não se infectar também.",
+      "ar": "حطاب، إنتاج الأخشاب +20%\nعضه قروي مصاب في ذراعه فبترها حتى لا يتحول إلى مسخ.",
+      "it": "Boscaiolo, Produzione legname +20%\nMorso al braccio da un abitante infetto, amputato per evitare di diventare un Flagello.",
+      "ms": "Penebang kayu, Pengeluaran Kayu +20%\nDigigit di lengan oleh penduduk yang dijangkiti, diamputasi untuk mengelak menjadi Blight.",
+      "nl": "Houthakker, Houtopbrengst +20%\nGebeten in de arm door een besmette dorpeling, geamputeerd om geen plaagwezen te worden.",
+      "th": "คนตัดไม้ ผลผลิตไม้ +20%\nถูกชาวบ้านที่ติดเชื้อกัดที่แขน จึงตัดแขนทิ้งเพื่อไม่ให้กลายเป็นผีดิบ",
+      "tr": "Oduncu, Kereste Üretimi +%20\nEnfekte bir köylü tarafından kolundan ısırıldı, Felaket'e dönüşmemek için kolu kesildi.",
+      "vi": "Thợ đốn gỗ, Sản lượng Gỗ +20%\nBị dân làng nhiễm bệnh cắn vào tay, phải cắt cụt để tránh biến thành Zombie.",
+      "zh": "伐木工，木材产量+20%\n手臂被感染的村民咬伤，为避免变成行尸而截肢。",
+      "pl": "Drwal, Produkcja drewna +20%\nUgryziony w ramię przez zainfekowanego wieśniaka, amputowany aby nie stać się zarazą.",
+      "zh-tw": "伐木工，木材產量+20%\n手臂被感染的村民咬傷，為避免變成行屍而截肢。"
     }
   },
   {
@@ -133,7 +223,17 @@
       "id": "Jessica",
       "ja": "ジェシカ",
       "ko": "제시카",
-      "pt": "Jessica"
+      "pt": "Jessica",
+      "ar": "جيسيكا",
+      "it": "Jessica",
+      "ms": "Jessica",
+      "nl": "Jessica",
+      "th": "เจสสิก้า",
+      "tr": "Jessica",
+      "vi": "Jessica",
+      "zh": "杰西卡",
+      "pl": "Jessica",
+      "zh-tw": "潔西卡"
     },
     "character": {
       "ru": "Порядочн.",
@@ -144,7 +244,17 @@
       "id": "Pintar & jujur",
       "ja": "誠実",
       "ko": "똑똑하고 정직함",
-      "pt": "Integridade"
+      "pt": "Integridade",
+      "ar": "مستقيم",
+      "it": "Retto",
+      "ms": "Lurus",
+      "nl": "Oprecht",
+      "th": "ซื่อตรง",
+      "tr": "Dürüst",
+      "vi": "Ngay thẳng",
+      "zh": "正直",
+      "pl": "Prawy",
+      "zh-tw": "正直"
     },
     "assignedBuilding": {
       "ru": "Цветник",
@@ -160,7 +270,17 @@
       "id": "Petani Obat,Perlindungan obat +10%\nKeluarganya berubah menjadi Ghoul setelah terinfeksi saat melawan tikus hitam.",
       "ja": "薬草栽培者、薬材保護+10%\n家族が黒ネズミに抵抗したため感染し、ゾンビになってしまった。",
       "ko": "약초 농부. 약재 보호 +10%\n그의 가족은 검은 쥐에 맞서다 불행히도 감염되어 구울이 되었다.",
-      "pt": "Herborista, Proteção de Ervas +10%\nA família dele foi tragicamente transformada em Infectados enquanto resistia aos Ratos Negros."
+      "pt": "Herborista, Proteção de Ervas +10%\nA família dele foi tragicamente transformada em Infectados enquanto resistia aos Ratos Negros.",
+      "ar": "معالج بالأعشاب، حماية الأعشاب +10%\nتحولت عائلته بشكل مأساوي إلى مسوخ أثناء مقاومة الجرذان السوداء.",
+      "it": "Erborista, Protezione erbe +10%\nLa sua famiglia è stata tragicamente trasformata in Flagelli mentre resisteva ai ratti neri.",
+      "ms": "Pengumpul herba, Perlindungan Herba +10%\nKeluarganya malangnya telah bertukar menjadi Blight ketika menentang Tikus Hitam.",
+      "nl": "Kruidkundige, Kruidenbescherming +10%\nZijn familie veranderde op tragische wijze in plaagwezens tijdens het verzet tegen de zwarte ratten.",
+      "th": "นักสมุนไพร ป้องกันสมุนไพร +10%\nครอบครัวของเขากลายเป็นผีดิบอย่างน่าเศร้าระหว่างต่อต้านหนูดำ",
+      "tr": "Aktar, Bitki Koruması +%10\nAilesi, Kara Sıçanlar'a direnirken trajik bir şekilde Felaket'e dönüştü.",
+      "vi": "Thợ thảo dược, Bảo vệ Thảo dược +10%\nGia đình anh ta đã bi thảm biến thành Zombie khi chống lại Chuột Đen.",
+      "zh": "草药师，草药保护+10%\n他的家人在抵抗黑鼠时不幸变成了行尸。",
+      "pl": "Zielarz, Ochrona ziół +10%\nJego rodzina tragicznie zamieniła się w zarazę podczas walki z czarnymi szczurami.",
+      "zh-tw": "草藥師，草藥保護+10%\n他的家人在抵抗黑鼠時不幸變成了行屍。"
     }
   },
   {
@@ -174,7 +294,17 @@
       "id": "Alice",
       "ja": "アリシュ",
       "ko": "앨리스",
-      "pt": "Alice"
+      "pt": "Alice",
+      "ar": "أليس",
+      "it": "Alice",
+      "ms": "Alice",
+      "nl": "Alice",
+      "th": "อลิซ",
+      "tr": "Alice",
+      "vi": "Alice",
+      "zh": "爱丽丝",
+      "pl": "Alice",
+      "zh-tw": "愛麗絲"
     },
     "character": {
       "ru": "Обычн.",
@@ -185,7 +315,17 @@
       "id": "Biasa",
       "ja": "普通",
       "ko": "평범한",
-      "pt": "Singeleza"
+      "pt": "Singeleza",
+      "ar": "عادي",
+      "it": "Comune",
+      "ms": "Biasa",
+      "nl": "Gewoon",
+      "th": "ธรรมดา",
+      "tr": "Sıradan",
+      "vi": "Bình thường",
+      "zh": "普通",
+      "pl": "Zwyczajny",
+      "zh-tw": "普通"
     },
     "assignedBuilding": {
       "ru": "Хижина строителя",
@@ -201,7 +341,17 @@
       "id": "Pekerja Konstruksi, Waktu percepatan gratis pembangunan 30 m\nGadis yang nyaris digigit Ghoul mengatakan dia melihat banyak tikus hitam di utara hutan lebat.",
       "ja": "建設作業員、建造無料ブースト時間30分\nゾンビに噛まれかけた少女。密林の北側で大量の黒ネズミを目撃したと話している。",
       "ko": "건설 노동자. 건설 무료 가속 시간 30분\n구울에게 물릴 뻔한 소녀. 울창한 숲 북쪽에서 수많은 검은 쥐를 목격했다고 전했다.",
-      "pt": "Construtora, 30m de tempo de aceleração de construção grátis\nUma garota que foi mordida pelos Infectados. Ela disse que viu um grande número de Ratos Negros no norte da floresta densa."
+      "pt": "Construtora, 30m de tempo de aceleração de construção grátis\nUma garota que foi mordida pelos Infectados. Ela disse que viu um grande número de Ratos Negros no norte da floresta densa.",
+      "ar": "بنّاء، 30 دقيقة تسريع بناء مجاني\nفتاة عضّتها المسوخ. قالت إنها رأت عدداً كبيراً من الجرذان السوداء شمال الغابة الكثيفة.",
+      "it": "Costruttore, 30 min di accelerazione costruzione gratuita\nUna ragazza morsa dai Flagelli. Ha detto di aver visto un gran numero di ratti neri a nord della fitta foresta.",
+      "ms": "Pembina, 30m masa pecut bina percuma\nSeorang gadis yang digigit Blight. Dia berkata dia melihat sejumlah besar Tikus Hitam di utara hutan tebal.",
+      "nl": "Bouwer, 30 min gratis bouwversnelling\nEen meisje dat door plaagwezens is gebeten. Ze zei dat ze een groot aantal zwarte ratten ten noorden van het dichte bos heeft gezien.",
+      "th": "ช่างก่อสร้าง เร่งก่อสร้างฟรี 30 นาที\nเด็กสาวที่ถูกผีดิบกัด เธอบอกว่าเห็นหนูดำจำนวนมากทางตอนเหนือของป่าทึบ",
+      "tr": "İnşaatçı, 30 dk ücretsiz inşaat hızlandırma\nFelaketler tarafından ısırılmış bir kız. Sık ormanın kuzeyinde çok sayıda Kara Sıçan gördüğünü söyledi.",
+      "vi": "Thợ xây, 30 phút tăng tốc xây dựng miễn phí\nMột cô gái bị Zombie cắn. Cô nói đã thấy rất nhiều Chuột Đen ở phía bắc khu rừng rậm.",
+      "zh": "建筑工，30分钟免费建造加速\n一个被行尸咬伤的女孩。她说在密林北部看到了大量黑鼠。",
+      "pl": "Budowniczy, 30 min darmowego przyspieszenia budowy\nDziewczyna ugryziona przez zarazę. Powiedziała, że widziała dużą liczbę czarnych szczurów na północ od gęstego lasu.",
+      "zh-tw": "建築工，30分鐘免費建造加速\n一個被行屍咬傷的女孩。她說在密林北部看到了大量黑鼠。"
     }
   },
   {
@@ -215,7 +365,17 @@
       "id": "Chelsea",
       "ja": "チェルシー",
       "ko": "첼시",
-      "pt": "Chelsea"
+      "pt": "Chelsea",
+      "ar": "تشيلسي",
+      "it": "Chelsea",
+      "ms": "Chelsea",
+      "nl": "Chelsea",
+      "th": "เชลซี",
+      "tr": "Chelsea",
+      "vi": "Chelsea",
+      "zh": "切尔西",
+      "pl": "Chelsea",
+      "zh-tw": "切爾西"
     },
     "character": {
       "ru": "Робк.",
@@ -226,7 +386,17 @@
       "id": "Pengecut",
       "ja": "臆病",
       "ko": "겁이 많음",
-      "pt": "Timidez"
+      "pt": "Timidez",
+      "ar": "خجول",
+      "it": "Timido",
+      "ms": "Pemalu",
+      "nl": "Timide",
+      "th": "ขี้อาย",
+      "tr": "Ürkek",
+      "vi": "Rụt rè",
+      "zh": "胆小",
+      "pl": "Nieśmiały",
+      "zh-tw": "膽小"
     },
     "assignedBuilding": {
       "ru": "Цветник",
@@ -242,7 +412,17 @@
       "id": "Pengumpul Herbal,Perlindungan obat +20%\nPasien dari kota sebelah,dikejar Ghoul sampai ke sini.",
       "ja": "採薬工、薬材保護+20%\n隣町から逃れてきた患者。ゾンビに追われ、この町へたどり着いた。",
       "ko": "약초 채집가. 약재 보호 +20%\n이웃 마을의 환자. 구울에게 쫓겨 이곳까지 왔다.",
-      "pt": "Herborista, Proteção de Ervas +20%\nOs pacientes da cidade vizinha vieram para cá por causa dos Infectados."
+      "pt": "Herborista, Proteção de Ervas +20%\nOs pacientes da cidade vizinha vieram para cá por causa dos Infectados.",
+      "ar": "معالج بالأعشاب، حماية الأعشاب +20%\nطُرد المرضى من البلدة المجاورة إلى هنا بسبب المسوخ.",
+      "it": "Erborista, Protezione erbe +20%\nI pazienti della città vicina sono stati spinti qui dai Flagelli.",
+      "ms": "Pengumpul herba, Perlindungan Herba +20%\nPesakit dari bandar jiran dihalau ke sini oleh Blight.",
+      "nl": "Kruidkundige, Kruidenbescherming +20%\nPatiënten uit de naburige stad werden hierheen gedreven door plaagwezens.",
+      "th": "นักสมุนไพร ป้องกันสมุนไพร +20%\nผู้ป่วยจากเมืองข้างเคียงถูกผีดิบไล่ต้อนมาที่นี่",
+      "tr": "Aktar, Bitki Koruması +%20\nKomşu kasabadaki hastalar Felaketler tarafından buraya sürüldü.",
+      "vi": "Thợ thảo dược, Bảo vệ Thảo dược +20%\nCác bệnh nhân từ thị trấn lân cận bị Zombie lùa đến đây.",
+      "zh": "草药师，草药保护+20%\n邻镇的病人被行尸驱赶到这里。",
+      "pl": "Zielarz, Ochrona ziół +20%\nPacjenci z sąsiedniego miasta zostali wygnani tutaj przez zarazę.",
+      "zh-tw": "草藥師，草藥保護+20%\n鄰鎮的病人被行屍驅趕到這裡。"
     }
   },
   {
@@ -256,7 +436,17 @@
       "id": "Hugo",
       "ja": "ヒューゴ",
       "ko": "휴고",
-      "pt": "Hugo"
+      "pt": "Hugo",
+      "ar": "هوغو",
+      "it": "Hugo",
+      "ms": "Hugo",
+      "nl": "Hugo",
+      "th": "ฮิวโก้",
+      "tr": "Hugo",
+      "vi": "Hugo",
+      "zh": "雨果",
+      "pl": "Hugo",
+      "zh-tw": "雨果"
     },
     "character": {
       "ru": "Храбр.",
@@ -267,7 +457,17 @@
       "id": "Berani & adil",
       "ja": "熱血",
       "ko": "용감하고 정의로움",
-      "pt": "Coragem"
+      "pt": "Coragem",
+      "ar": "شجاع",
+      "it": "Coraggioso",
+      "ms": "Berani",
+      "nl": "Dapper",
+      "th": "กล้าหาญ",
+      "tr": "Cesur",
+      "vi": "Dũng cảm",
+      "zh": "勇敢",
+      "pl": "Odważny",
+      "zh-tw": "勇敢"
     },
     "assignedBuilding": {
       "ru": "Полигон / Казарма",
@@ -283,7 +483,17 @@
       "id": "Perwira,Batas Pelatihan Prajurit +5%\nMantan jenderal kekaisaran yang diasingkan oleh penyihir hitam.",
       "ja": "軍官、兵士訓練上限+5%\nかつて帝国の将軍だったが、黒魔術師の陰謀により、この地に身を潜めることになった。",
       "ko": "장교. 병사 훈련 한도 +5%\n한때 제국의 장군이었으나, 흑마법사의 모함으로 이곳에 은거하게 되었다.",
-      "pt": "Oficial, Capacidade de Treinamento de Soldados +5%\nOutrora um general do império, ele foi incriminado por um feiticeiro sombrio e agora vive recluso."
+      "pt": "Oficial, Capacidade de Treinamento de Soldados +5%\nOutrora um general do império, ele foi incriminado por um feiticeiro sombrio e agora vive recluso.",
+      "ar": "ضابط، سقف تدريب الجنود +5%\nكان جنرالاً في الإمبراطورية، لفق له ساحر مظلم تهمة ويعيش الآن في عزلة.",
+      "it": "Ufficiale, Limite addestramento soldati +5%\nUn tempo generale dell'impero, incastrato da un oscuro stregone, ora vive in isolamento.",
+      "ms": "Pegawai, Had Latihan Askar +5%\nDahulu seorang jeneral empayar, dia difitnah oleh ahli sihir gelap dan kini hidup bersembunyi.",
+      "nl": "Officier, Soldatentrainingslimiet +5%\nOoit generaal van het keizerrijk, erin geluisd door een duistere tovenaar, leeft nu in afzondering.",
+      "th": "นายทหาร ขีดจำกัดฝึกทหาร +5%\nเคยเป็นแม่ทัพของจักรวรรดิ ถูกจอมเวทมืดใส่ร้าย ปัจจุบันใช้ชีวิตสันโดษ",
+      "tr": "Subay, Asker Eğitim Kapasitesi +%5\nBir zamanlar imparatorluğun generaliydi, karanlık bir büyücü tarafından tuzağa düşürüldü ve şimdi inzivada yaşıyor.",
+      "vi": "Sĩ quan, Giới hạn Huấn luyện Lính +5%\nTừng là tướng quân của đế quốc, bị một phù thủy hắc ám hãm hại nên giờ sống ẩn dật.",
+      "zh": "军官，士兵训练上限+5%\n曾是帝国的将军，被黑暗术士陷害，如今隐居避世。",
+      "pl": "Oficer, Limit szkolenia żołnierzy +5%\nNiegdyś generał imperium, wrobiony przez mrocznego czarnoksiężnika, teraz żyje w odosobnieniu.",
+      "zh-tw": "軍官，士兵訓練上限+5%\n曾是帝國的將軍，被黑暗術士陷害，如今隱居避世。"
     }
   },
   {
@@ -297,7 +507,17 @@
       "id": "Cindy",
       "ja": "シンディ",
       "ko": "신디",
-      "pt": "Cindy"
+      "pt": "Cindy",
+      "ar": "سيندي",
+      "it": "Cindy",
+      "ms": "Cindy",
+      "nl": "Cindy",
+      "th": "ซินดี้",
+      "tr": "Cindy",
+      "vi": "Cindy",
+      "zh": "辛迪",
+      "pl": "Cindy",
+      "zh-tw": "辛蒂"
     },
     "character": {
       "ru": "Осмотрит.",
@@ -308,7 +528,17 @@
       "id": "Waspada",
       "ja": "慎重",
       "ko": "조심스러움",
-      "pt": "Cautela"
+      "pt": "Cautela",
+      "ar": "حذر",
+      "it": "Cauto",
+      "ms": "Berhati-hati",
+      "nl": "Voorzichtig",
+      "th": "ระมัดระวัง",
+      "tr": "Tedbirli",
+      "vi": "Thận trọng",
+      "zh": "谨慎",
+      "pl": "Ostrożny",
+      "zh-tw": "謹慎"
     },
     "assignedBuilding": {
       "ru": "Травяной склад",
@@ -324,7 +554,17 @@
       "id": "Petugas Gudang Obat, Perlindungan bahan obat +20%\nTubuh penuh bintik hitam karena mengelus tikus hitam, demam tinggi selama seminggu.",
       "ja": "薬材倉庫係、薬材保護+20%\n黒ネズミを撫でてしまい、全身に黒い発疹が広がって高熱が1週間も下がらない。",
       "ko": "약재 창고 관리원. 약재 보호 +20%\n검은 쥐를 쓰다듬어 온몸에 검은 반점이 생기고, 일주일 동안 고열이 떨어지지 않았다.",
-      "pt": "Encarregado da Botica, Proteção de ervas +20%\nCoberto de erupções pretas por tocar em Ratos Pretos, está com febre alta há uma semana."
+      "pt": "Encarregado da Botica, Proteção de ervas +20%\nCoberto de erupções pretas por tocar em Ratos Pretos, está com febre alta há uma semana.",
+      "ar": "أمين الأعشاب، حماية الأعشاب +20%\nمغطى بطفح أسود من لمس الجرذان السوداء، ويعاني من حمى مرتفعة مستمرة منذ أسبوع.",
+      "it": "Custode delle erbe, Protezione erbe +20%\nRicoperti di eruzioni nere per aver toccato i ratti neri, hanno una febbre alta persistente da una settimana.",
+      "ms": "Penjaga herba, Perlindungan herba +20%\nDipenuhi ruam hitam akibat menyentuh Tikus Hitam, mereka mengalami demam panas berterusan selama seminggu.",
+      "nl": "Kruidenbewaarder, Kruidenbescherming +20%\nBedekt met zwarte uitslag door het aanraken van zwarte ratten, hebben al een week aanhoudende hoge koorts.",
+      "th": "ผู้ดูแลสมุนไพร ป้องกันสมุนไพร +20%\nมีผื่นดำขึ้นทั่วตัวจากการสัมผัสหนูดำ และมีไข้สูงต่อเนื่องมาหนึ่งสัปดาห์แล้ว",
+      "tr": "Bitki Bekçisi, Bitki Koruması +%20\nKara Sıçanlar'a dokunmaktan vücudu siyah döküntülerle kaplı, bir haftadır sürekli yüksek ateşi var.",
+      "vi": "Người giữ thảo dược, Bảo vệ thảo dược +20%\nNổi mẩn đen khắp người do chạm vào Chuột Đen, sốt cao liên tục đã một tuần.",
+      "zh": "草药管理员，草药保护+20%\n因接触黑鼠而布满黑色皮疹，持续高烧已一周。",
+      "pl": "Strażnik ziół, Ochrona ziół +20%\nPokryci czarną wysypką od dotykania czarnych szczurów, od tygodnia mają uporczywą wysoką gorączkę.",
+      "zh-tw": "草藥管理員，草藥保護+20%\n因接觸黑鼠而佈滿黑色皮疹，持續高燒已一週。"
     }
   },
   {
@@ -338,7 +578,17 @@
       "id": "Adelaide",
       "ja": "アデレード",
       "ko": "아델레이드",
-      "pt": "Adelaide"
+      "pt": "Adelaide",
+      "ar": "أديلايد",
+      "it": "Adelaide",
+      "ms": "Adelaide",
+      "nl": "Adelaide",
+      "th": "อเดเลด",
+      "tr": "Adelaide",
+      "vi": "Adelaide",
+      "zh": "阿德莱德",
+      "pl": "Adelaide",
+      "zh-tw": "阿德萊德"
     },
     "character": {
       "ru": "Сообразит.",
@@ -349,7 +599,17 @@
       "id": "Cerdik",
       "ja": "器用",
       "ko": "영리하고 재치 있음",
-      "pt": "Inteligência"
+      "pt": "Inteligência",
+      "ar": "ذكي",
+      "it": "Intelligente",
+      "ms": "Pintar",
+      "nl": "Slim",
+      "th": "ฉลาด",
+      "tr": "Zeki",
+      "vi": "Thông minh",
+      "zh": "机灵",
+      "pl": "Sprytny",
+      "zh-tw": "機靈"
     },
     "assignedBuilding": {
       "ru": "Ферма",
@@ -365,7 +625,17 @@
       "id": "Petani, Produksi Makanan +15%\nPasien dari kota sebelah masuk ke hutan lebat demi mencari obat mujarab karena percaya omongan orang.",
       "ja": "農家、食料生産量+15%\n隣町から来た患者。特効薬を求め、人づての噂を信じて密林へ入り込んでしまった。",
       "ko": "농부. 식량 생산량 +15%\n이웃 마을의 환자. 특효약을 찾기 위해 남의 말을 듣고 울창한 숲속으로 들어갔다.",
-      "pt": "Agricultor, Produção de Comida +15%\nUm paciente da cidade vizinha, que se aventurou na floresta densa, enganado por outros em busca de uma cura milagrosa."
+      "pt": "Agricultor, Produção de Comida +15%\nUm paciente da cidade vizinha, que se aventurou na floresta densa, enganado por outros em busca de uma cura milagrosa.",
+      "ar": "مزارعة، إنتاج الحبوب +15%\nمريضة من البلدة المجاورة غامرت بدخول الغابة الكثيفة، مضلَّلة من الآخرين بحثاً عن علاج معجزة.",
+      "it": "Contadina, Produzione grano +15%\nUna paziente della città vicina che si è avventurata nella fitta foresta, ingannata da altri in cerca di una cura miracolosa.",
+      "ms": "Petani, Pengeluaran Bijirin +15%\nSeorang pesakit dari bandar jiran, yang memberanikan diri masuk ke hutan tebal, diperdaya oleh orang lain untuk mencari penawar ajaib.",
+      "nl": "Boerin, Graanopbrengst +15%\nEen patiënt uit de naburige stad die het dichte bos introk, misleid door anderen op zoek naar een wondermiddel.",
+      "th": "ชาวนา ผลผลิตธัญพืช +15%\nผู้ป่วยจากเมืองข้างเคียงที่บุกเข้าไปในป่าทึบ ถูกผู้อื่นหลอกให้ไปตามหายาวิเศษ",
+      "tr": "Çiftçi, Tahıl Üretimi +%15\nKomşu kasabadan bir hasta; mucize bir tedavi arayışında başkaları tarafından kandırılıp sık ormana daldı.",
+      "vi": "Nông dân, Sản lượng Lương thực +15%\nMột bệnh nhân từ thị trấn lân cận đã liều mình vào rừng rậm, bị người khác lừa đi tìm thuốc tiên.",
+      "zh": "农夫，粮食产量+15%\n一位来自邻镇的病人，被他人误导进入密林寻找灵药。",
+      "pl": "Rolniczka, Produkcja zboża +15%\nPacjentka z sąsiedniego miasta, która zapuściła się w gęsty las, zwiedziona przez innych w poszukiwaniu cudownego leku.",
+      "zh-tw": "農夫，糧食產量+15%\n一位來自鄰鎮的病人，被他人誤導進入密林尋找靈藥。"
     }
   },
   {
@@ -379,7 +649,17 @@
       "id": "Lynn",
       "ja": "リン",
       "ko": "린",
-      "pt": "Lynn"
+      "pt": "Lynn",
+      "ar": "لين",
+      "it": "Lynn",
+      "ms": "Lynn",
+      "nl": "Lynn",
+      "th": "ลินน์",
+      "tr": "Lynn",
+      "vi": "Lynn",
+      "zh": "琳恩",
+      "pl": "Lynn",
+      "zh-tw": "琳恩"
     },
     "character": {
       "ru": "Переменчив.",
@@ -390,7 +670,17 @@
       "id": "Labil",
       "ja": "気まぐれ",
       "ko": "다중 인격",
-      "pt": "Emotividade"
+      "pt": "Emotividade",
+      "ar": "متقلب المزاج",
+      "it": "Lunatico",
+      "ms": "Pemurung",
+      "nl": "Wispelturig",
+      "th": "อารมณ์แปรปรวน",
+      "tr": "Huysuz",
+      "vi": "Thất thường",
+      "zh": "情绪多变",
+      "pl": "Kapryśny",
+      "zh-tw": "情緒多變"
     },
     "assignedBuilding": {
       "ru": "Исследовательская лаборатория",
@@ -406,7 +696,17 @@
       "id": "Peneliti, kecepatan Riset Teknologi +5%\nKehilangan pekerjaan karena Wabah Hitam, juga menderita penyakit parah.",
       "ja": "研究員、技術研究速度+5%\nペストの流行で仕事を失い、自身も重い病を抱えている。",
       "ko": "연구원. 기술 연구 속도 +5%\n흑사병으로 인해 일자리를 잃었고, 동시에 본인도 중증 질병을 앓고 있다.",
-      "pt": "Q5:Pesquisador, Velocidade de Pesquisa +5%\nPerdeu o emprego devido à Praga e sofre de uma doença grave."
+      "pt": "Q5:Pesquisador, Velocidade de Pesquisa +5%\nPerdeu o emprego devido à Praga e sofre de uma doença grave.",
+      "ar": "باحثة، سرعة البحث التقني +5%\nفقدت وظيفتها بسبب الآفة وتعاني من مرض شديد.",
+      "it": "Ricercatrice, Velocità ricerca tecnologica +5%\nHa perso il lavoro a causa del Flagello e soffre di una grave malattia.",
+      "ms": "Penyelidik, Kelajuan Kajian Teknologi +5%\nKehilangan pekerjaan akibat Blight dan menghidap penyakit yang teruk.",
+      "nl": "Onderzoeker, Techonderzoekssnelheid +5%\nVerloor het werk door de plaag en lijdt aan een ernstige ziekte.",
+      "th": "นักวิจัย ความเร็ววิจัยเทคโนโลยี +5%\nตกงานเพราะโรคระบาดและป่วยหนัก",
+      "tr": "Araştırmacı, Teknoloji Araştırma Hızı +%5\nFelaket yüzünden işini kaybetti ve ağır bir hastalıktan mustarip.",
+      "vi": "Nhà nghiên cứu, Tốc độ Nghiên cứu Công nghệ +5%\nMất việc vì Dịch Bệnh và đang mắc bệnh nặng.",
+      "zh": "研究员，科技研究速度+5%\n因瘟疫失业，且身患重病。",
+      "pl": "Badacz, Prędkość badań technologicznych +5%\nStracił pracę przez zarazę i cierpi na ciężką chorobę.",
+      "zh-tw": "研究員，科技研究速度+5%\n因瘟疫失業，且身患重病。"
     }
   },
   {
@@ -420,7 +720,17 @@
       "id": "George",
       "ja": "ジョージ",
       "ko": "조지",
-      "pt": "George"
+      "pt": "George",
+      "ar": "جورج",
+      "it": "George",
+      "ms": "George",
+      "nl": "George",
+      "th": "จอร์จ",
+      "tr": "George",
+      "vi": "George",
+      "zh": "乔治",
+      "pl": "George",
+      "zh-tw": "喬治"
     },
     "character": {
       "ru": "Простодушн.",
@@ -431,7 +741,17 @@
       "id": "Sederhana",
       "ja": "単純",
       "ko": "단순한 두뇌",
-      "pt": "Simplicidade"
+      "pt": "Simplicidade",
+      "ar": "بسيط",
+      "it": "Semplice",
+      "ms": "Sederhana",
+      "nl": "Eenvoudig",
+      "th": "เรียบง่าย",
+      "tr": "Sade",
+      "vi": "Giản dị",
+      "zh": "朴实",
+      "pl": "Prosty",
+      "zh-tw": "樸實"
     },
     "assignedBuilding": {
       "ru": "Палатка спасения",
@@ -447,7 +767,17 @@
       "id": "Pemburu,Kapasitas Tenda Penyelamatan +5%\nPemburu yang tinggal di hutan lebat terkena pneumonia akibat batuk parah karena Wabah Hitam.",
       "ja": "猟師、救援テント収容量+5%\n密林で暮らす猟師。ペストに罹り、咳が悪化して肺炎へと進行した。",
       "ko": "사냥꾼. 구조 텐트 수용량 +5%\n울창한 숲속에서 살던 사냥꾼. 흑사병으로 인해 기침이 심해져 폐렴에 걸렸다.",
-      "pt": "Caçador, Capacidade da Tenda de Resgate +5%\nUm caçador que vive na floresta densa, desenvolveu pneumonia devido à tosse causada pela Praga."
+      "pt": "Caçador, Capacidade da Tenda de Resgate +5%\nUm caçador que vive na floresta densa, desenvolveu pneumonia devido à tosse causada pela Praga.",
+      "ar": "صياد، سعة خيمة الإنقاذ +5%\nصياد يعيش في الغابة الكثيفة، أصيب بالتهاب رئوي من السعال بسبب الآفة.",
+      "it": "Cacciatore, Capacità Tenda di soccorso +5%\nUn cacciatore che vive nella fitta foresta, che ha sviluppato la polmonite per la tosse causata dal Flagello.",
+      "ms": "Pemburu, Kapasiti Khemah Penyelamat +5%\nSeorang pemburu yang tinggal di hutan tebal, yang menghidap radang paru-paru akibat batuk disebabkan Blight.",
+      "nl": "Jager, Reddingstentcapaciteit +5%\nEen jager die in het dichte bos woont en longontsteking opliep door hoesten als gevolg van de plaag.",
+      "th": "นักล่า ความจุเต็นท์ช่วยเหลือ +5%\nนายพรานที่อาศัยในป่าทึบ เป็นปอดบวมจากการไอเพราะโรคระบาด",
+      "tr": "Avcı, Kurtarma Çadırı Kapasitesi +%5\nSık ormanda yaşayan bir avcı; Felaket'in yol açtığı öksürükten zatürre oldu.",
+      "vi": "Thợ săn, Sức chứa Lều Cứu hộ +5%\nMột thợ săn sống trong rừng rậm, bị viêm phổi do ho vì Dịch Bệnh.",
+      "zh": "猎人，救援帐篷容量+5%\n一位住在密林中的猎人，因瘟疫引发的咳嗽而患上肺炎。",
+      "pl": "Myśliwy, Pojemność namiotu ratunkowego +5%\nMyśliwy mieszkający w gęstym lesie, który nabawił się zapalenia płuc od kaszlu spowodowanego zarazą.",
+      "zh-tw": "獵人，救援帳篷容量+5%\n一位住在密林中的獵人，因瘟疫引發的咳嗽而患上肺炎。"
     }
   },
   {
@@ -461,7 +791,17 @@
       "id": "Anita",
       "ja": "アニータ",
       "ko": "아니타",
-      "pt": "Anita"
+      "pt": "Anita",
+      "ar": "أنيتا",
+      "it": "Anita",
+      "ms": "Anita",
+      "nl": "Anita",
+      "th": "แอนนิต้า",
+      "tr": "Anita",
+      "vi": "Anita",
+      "zh": "安妮塔",
+      "pl": "Anita",
+      "zh-tw": "安妮塔"
     },
     "character": {
       "ru": "Прямолинейн.",
@@ -472,7 +812,17 @@
       "id": "Blak-blakan",
       "ja": "素直",
       "ko": "직설적임",
-      "pt": "Franqueza"
+      "pt": "Franqueza",
+      "ar": "صريح",
+      "it": "Franco",
+      "ms": "Berterus terang",
+      "nl": "Openhartig",
+      "th": "ตรงไปตรงมา",
+      "tr": "Açık sözlü",
+      "vi": "Thẳng thắn",
+      "zh": "直率",
+      "pl": "Szczery",
+      "zh-tw": "直率"
     },
     "assignedBuilding": {
       "ru": "Лазарет",
@@ -488,7 +838,17 @@
       "id": "Perawat,kecepatan penyembuhan +0.03%\nPerawat dari kota sebelah, kabur ke hutan lebat setelah Rumah Sakit dikuasai tikus hitam dan Ghoul.",
       "ja": "看護師、治療速度+0.03%\n隣町の看護師。病院がネズミとゾンビに占拠されたため、密林へ逃げ込んできた。",
       "ko": "간호사. 치료 속도 +0.03%\n인근 도시의 간호사. 병원이 검은 쥐와 구울에게 점령당해 숲속으로 도망쳤다.",
-      "pt": "Enfermeira, Velocidade de cura +0,03%\nUma enfermeira da cidade vizinha fugiu para a floresta densa depois que a enfermaria foi invadida por Ratos Negros e Infectados."
+      "pt": "Enfermeira, Velocidade de cura +0,03%\nUma enfermeira da cidade vizinha fugiu para a floresta densa depois que a enfermaria foi invadida por Ratos Negros e Infectados.",
+      "ar": "ممرضة، سرعة الشفاء +0.03%\nممرضة من البلدة المجاورة هربت إلى الغابة الكثيفة بعد أن اجتاحت الجرذان السوداء والمسوخ المستشفى.",
+      "it": "Infermiera, Velocità di guarigione +0,03%\nUn'infermiera della città vicina è fuggita nella fitta foresta dopo che l'infermeria è stata invasa dai ratti neri e dai Flagelli.",
+      "ms": "Jururawat, Kelajuan Penyembuhan +0.03%\nSeorang jururawat dari bandar jiran melarikan diri ke hutan tebal selepas klinik dipenuhi Tikus Hitam dan Blight.",
+      "nl": "Verpleegster, Genezingssnelheid +0,03%\nEen verpleegster uit de naburige stad vluchtte het dichte bos in nadat de ziekenboeg werd overspoeld door zwarte ratten en plaagwezens.",
+      "th": "พยาบาล ความเร็วรักษา +0.03%\nพยาบาลจากเมืองข้างเคียงหนีเข้าป่าทึบหลังจากโรงพยาบาลถูกหนูดำและผีดิบยึด",
+      "tr": "Hemşire, İyileşme Hızı +%0,03\nKomşu kasabadan bir hemşire; hastane Kara Sıçanlar ve Felaketler tarafından istila edilince sık ormana kaçtı.",
+      "vi": "Y tá, Tốc độ Hồi phục +0,03%\nMột y tá từ thị trấn lân cận chạy vào rừng rậm sau khi trạm y tế bị Chuột Đen và Zombie tràn ngập.",
+      "zh": "护士，治疗速度+0.03%\n一位来自邻镇的护士，在医院被黑鼠和行尸淹没后逃入密林。",
+      "pl": "Pielęgniarka, Prędkość leczenia +0,03%\nPielęgniarka z sąsiedniego miasta uciekła w gęsty las po tym, jak szpital został opanowany przez czarne szczury i zarazę.",
+      "zh-tw": "護士，治療速度+0.03%\n一位來自鄰鎮的護士，在醫院被黑鼠和行屍淹沒後逃入密林。"
     }
   },
   {
@@ -502,7 +862,17 @@
       "id": "Belle",
       "ja": "ベル",
       "ko": "벨",
-      "pt": "Bell"
+      "pt": "Bell",
+      "ar": "بيل",
+      "it": "Bell",
+      "ms": "Bell",
+      "nl": "Bell",
+      "th": "เบลล์",
+      "tr": "Bell",
+      "vi": "Bell",
+      "zh": "贝尔",
+      "pl": "Bell",
+      "zh-tw": "貝爾"
     },
     "character": {
       "ru": "Добросердеч.",
@@ -513,7 +883,17 @@
       "id": "Baik hati",
       "ja": "優しい",
       "ko": "착함",
-      "pt": "Gentileza"
+      "pt": "Gentileza",
+      "ar": "طيب",
+      "it": "Gentile",
+      "ms": "Baik hati",
+      "nl": "Vriendelijk",
+      "th": "ใจดี",
+      "tr": "İyi kalpli",
+      "vi": "Tốt bụng",
+      "zh": "善良",
+      "pl": "Dobry",
+      "zh-tw": "善良"
     },
     "assignedBuilding": {
       "ru": "Цветник",
@@ -529,7 +909,17 @@
       "id": "Pengumpul Herbal Perlindungan obat +5%\nSering mengalami mata merah, diusir dari kota asalnya dan terdampar di sini.",
       "ja": "採薬工、薬材保護+5%\n目の充血が頻発するため元の町から追放され、この地へたどり着いた。",
       "ko": "약초 채집가. 약재 보호 +5%\n자주 충혈된 눈 증상을 보여 원래 살던 마을에서 추방당해 이곳에 오게 되었다.",
-      "pt": "Herborista, Proteção de Ervas +5%\nFrequentemente exibe sintomas como olhos vermelhos, foi exilado de sua cidade para este lugar."
+      "pt": "Herborista, Proteção de Ervas +5%\nFrequentemente exibe sintomas como olhos vermelhos, foi exilado de sua cidade para este lugar.",
+      "ar": "معالج بالأعشاب، حماية الأعشاب +5%\nتظهر عليه أعراض احتقان العينين بشكل متكرر، منفي من بلدته الأصلية إلى هذا المكان.",
+      "it": "Erborista, Protezione erbe +5%\nMostra spesso sintomi di occhi arrossati, esiliato dalla città natale in questo luogo.",
+      "ms": "Pengumpul herba, Perlindungan Herba +5%\nKerap menunjukkan gejala mata merah, dibuang dari bandar asalnya ke tempat ini.",
+      "nl": "Kruidkundige, Kruidenbescherming +5%\nVertoont vaak symptomen van bloeddoorlopen ogen, verbannen uit de oorspronkelijke stad naar deze plek.",
+      "th": "นักสมุนไพร ป้องกันสมุนไพร +5%\nมักมีอาการตาแดงก่ำ ถูกเนรเทศจากเมืองเดิมมายังที่นี่",
+      "tr": "Aktar, Bitki Koruması +%5\nSık sık göz kızarıklığı belirtileri gösterir, memleketinden buraya sürgün edildi.",
+      "vi": "Thợ thảo dược, Bảo vệ Thảo dược +5%\nThường xuyên có triệu chứng mắt đỏ ngầu, bị đày khỏi quê nhà đến nơi này.",
+      "zh": "草药师，草药保护+5%\n经常出现眼睛充血症状，被从家乡流放到此地。",
+      "pl": "Zielarz, Ochrona ziół +5%\nCzęsto wykazuje objawy przekrwionych oczu, wygnany z rodzinnego miasta w to miejsce.",
+      "zh-tw": "草藥師，草藥保護+5%\n經常出現眼睛充血症狀，被從家鄉流放到此地。"
     }
   },
   {
@@ -543,7 +933,17 @@
       "id": "Blanche",
       "ja": "ブランシュ",
       "ko": "블랑쉬",
-      "pt": "Blanche"
+      "pt": "Blanche",
+      "ar": "بلانش",
+      "it": "Blanche",
+      "ms": "Blanche",
+      "nl": "Blanche",
+      "th": "บลานช์",
+      "tr": "Blanche",
+      "vi": "Blanche",
+      "zh": "布兰奇",
+      "pl": "Blanche",
+      "zh-tw": "布蘭奇"
     },
     "character": {
       "ru": "Высокомерн.",
@@ -554,7 +954,17 @@
       "id": "Sombong",
       "ja": "自信家",
       "ko": "거만함",
-      "pt": "Arrogância"
+      "pt": "Arrogância",
+      "ar": "متغطرس",
+      "it": "Arrogante",
+      "ms": "Sombong",
+      "nl": "Arrogant",
+      "th": "หยิ่ง",
+      "tr": "Kibirli",
+      "vi": "Kiêu ngạo",
+      "zh": "傲慢",
+      "pl": "Arogancki",
+      "zh-tw": "傲慢"
     },
     "assignedBuilding": {
       "ru": "Хижина строителя",
@@ -570,7 +980,17 @@
       "id": "Pekerja Konstruksi, Waktu percepatan gratis konstruksi 20m\nSangat suka memperbaiki, tapi tak bisa angkat palu besar karena Wabah Hitam.",
       "ja": "建設作業員、無料建設ブースト時間20分\n修理好きな作業員だが、ペストの影響で重いハンマーを持てなくなってしまった。",
       "ko": "건설 노동자. 무료 건설 가속 시간 20분\n수리를 매우 좋아하지만, 흑사병으로 인해 무거운 망치를 들 수 없게 되었다.",
-      "pt": "Construtor, Acelerar Construção – 20min grátis\nApaixonado por obras, incapaz de empunhar o martelo devido à Praga."
+      "pt": "Construtor, Acelerar Construção – 20min grátis\nApaixonado por obras, incapaz de empunhar o martelo devido à Praga.",
+      "ar": "بنّاء، 20 دقيقة تسريع بناء مجاني\nشغوف بالإصلاحات، لكنه عاجز عن حمل المطرقة الثقيلة بسبب الآفة.",
+      "it": "Costruttore, 20 min di accelerazione costruzione gratuita\nAppassionato di riparazioni, incapace di brandire la mazza a causa del Flagello.",
+      "ms": "Pembina, 20m Pecutan Bina percuma\nBersemangat tentang pembaikan, tidak mampu menghayun tukul besi akibat Blight.",
+      "nl": "Bouwer, 20 min gratis bouwversnelling\nGepassioneerd door reparaties, niet in staat de voorhamer te hanteren door de plaag.",
+      "th": "ช่างก่อสร้าง เร่งก่อสร้างฟรี 20 นาที\nหลงใหลในการซ่อมแซม แต่ยกค้อนปอนด์ไม่ไหวเพราะโรคระบาด",
+      "tr": "İnşaatçı, 20 dk ücretsiz inşaat hızlandırma\nTamirata tutkun, ancak Felaket yüzünden balyozu kaldıramıyor.",
+      "vi": "Thợ xây, 20 phút tăng tốc xây dựng miễn phí\nĐam mê sửa chữa, nhưng không thể vung búa tạ vì Dịch Bệnh.",
+      "zh": "建筑工，20分钟免费建造加速\n热爱修理，但因瘟疫而无法挥动大锤。",
+      "pl": "Budowniczy, 20 min darmowego przyspieszenia budowy\nPasjonuje się naprawami, niezdolny do władania młotem przez zarazę.",
+      "zh-tw": "建築工，20分鐘免費建造加速\n熱愛修理，但因瘟疫而無法揮動大錘。"
     }
   },
   {
@@ -584,7 +1004,17 @@
       "id": "Elizabeth",
       "ja": "エリザベス",
       "ko": "엘리자베스",
-      "pt": "Elizabeth"
+      "pt": "Elizabeth",
+      "ar": "إليزابيث",
+      "it": "Elizabeth",
+      "ms": "Elizabeth",
+      "nl": "Elizabeth",
+      "th": "เอลิซาเบธ",
+      "tr": "Elizabeth",
+      "vi": "Elizabeth",
+      "zh": "伊丽莎白",
+      "pl": "Elizabeth",
+      "zh-tw": "伊莉莎白"
     },
     "character": {
       "ru": "Наивн.",
@@ -595,7 +1025,17 @@
       "id": "Lugu & polos",
       "ja": "無邪気",
       "ko": "천진난만함",
-      "pt": "Ingenuidade"
+      "pt": "Ingenuidade",
+      "ar": "ساذج",
+      "it": "Ingenuo",
+      "ms": "Naif",
+      "nl": "Naïef",
+      "th": "ไร้เดียงสา",
+      "tr": "Saf",
+      "vi": "Ngây thơ",
+      "zh": "天真",
+      "pl": "Naiwny",
+      "zh-tw": "天真"
     },
     "assignedBuilding": {
       "ru": "Зерновой склад",
@@ -611,7 +1051,17 @@
       "id": "Petugas Gudang Makanan,perlindungan makanan +10%\nGadis kecil dengan ruam di seluruh tubuh, dibuang orangtuanya, nyaris mati karena demam tinggi.",
       "ja": "食糧倉庫係、食糧保護+10%\n全身に発疹が出て親に捨てられた少女。高熱で命を落としかけたことがある。",
       "ko": "식량 창고 관리원. 식량 보호 +10%\n온몸에 붉은 발진이 생겨 부모에게 버림받은 어린 소녀. 고열로 인해 목숨을 잃을 뻔했다.",
-      "pt": "Encarregada do Granário, Proteção de Grãos+10%\nUma garotinha coberta de erupções vermelhas, que foi abandonada por seus pais e quase perdeu a vida devido a uma febre alta."
+      "pt": "Encarregada do Granário, Proteção de Grãos+10%\nUma garotinha coberta de erupções vermelhas, que foi abandonada por seus pais e quase perdeu a vida devido a uma febre alta.",
+      "ar": "أمينة الحبوب، حماية الحبوب +10%\nفتاة صغيرة مغطاة بطفح أحمر، تخلى عنها والداها وكادت تفقد حياتها بسبب حمى شديدة.",
+      "it": "Custode del grano, Protezione grano +10%\nUna bambina ricoperta di eruzioni rosse, abbandonata dai genitori, che ha quasi perso la vita per la febbre alta.",
+      "ms": "Penjaga bijirin, Perlindungan Bijirin +10%\nSeorang gadis kecil yang dipenuhi ruam merah, yang ditinggalkan oleh ibu bapanya dan hampir kehilangan nyawa akibat demam panas.",
+      "nl": "Graanbewaarder, Graanbescherming +10%\nEen klein meisje bedekt met rode uitslag, in de steek gelaten door haar ouders, dat bijna het leven verloor door hoge koorts.",
+      "th": "ผู้ดูแลธัญพืช ป้องกันธัญพืช +10%\nเด็กหญิงตัวน้อยที่มีผื่นแดงทั่วตัว ถูกพ่อแม่ทอดทิ้งและเกือบเสียชีวิตเพราะไข้สูง",
+      "tr": "Tahıl Bekçisi, Tahıl Koruması +%10\nVücudu kırmızı döküntülerle kaplı küçük bir kız; ailesi tarafından terk edildi ve yüksek ateşten neredeyse ölüyordu.",
+      "vi": "Người giữ lương thực, Bảo vệ Lương thực +10%\nMột bé gái nổi mẩn đỏ khắp người, bị cha mẹ bỏ rơi và suýt mất mạng vì sốt cao.",
+      "zh": "粮食管理员，粮食保护+10%\n一个布满红色皮疹的小女孩，被父母抛弃，因高烧差点丧命。",
+      "pl": "Strażnik zboża, Ochrona zboża +10%\nMała dziewczynka pokryta czerwoną wysypką, porzucona przez rodziców, która omal nie straciła życia z powodu wysokiej gorączki.",
+      "zh-tw": "糧食管理員，糧食保護+10%\n一個佈滿紅色皮疹的小女孩，被父母拋棄，因高燒差點喪命。"
     }
   },
   {
@@ -625,7 +1075,17 @@
       "id": "Gail",
       "ja": "ゲイル",
       "ko": "게일",
-      "pt": "Gale"
+      "pt": "Gale",
+      "ar": "غيل",
+      "it": "Gale",
+      "ms": "Gale",
+      "nl": "Gale",
+      "th": "เกล",
+      "tr": "Gale",
+      "vi": "Gale",
+      "zh": "盖尔",
+      "pl": "Gale",
+      "zh-tw": "蓋爾"
     },
     "character": {
       "ru": "Ленив.",
@@ -636,7 +1096,17 @@
       "id": "Malas & rakus",
       "ja": "ずぼら",
       "ko": "게으름",
-      "pt": "Preguiça"
+      "pt": "Preguiça",
+      "ar": "كسول",
+      "it": "Pigro",
+      "ms": "Malas",
+      "nl": "Lui",
+      "th": "ขี้เกียจ",
+      "tr": "Tembel",
+      "vi": "Lười biếng",
+      "zh": "懒惰",
+      "pl": "Leniwy",
+      "zh-tw": "懶惰"
     },
     "assignedBuilding": {
       "ru": "Древесный склад",
@@ -652,7 +1122,17 @@
       "id": "Petugas Gudang Kayu,Perlindungan kayu +10%\nGelandangan yang menangkap tikus hitam untuk dimakan,sering berhalusinasi di malam hari.",
       "ja": "木材倉庫係、木材保護+10%\n黒ネズミを食べて生き延びてきた放浪者。夜になるとよく幻聴に悩まされる。",
       "ko": "목재 창고 관리원. 목재 보존 +10%\n쥐를 잡아먹는 부랑자. 밤에는 환청에 시달리곤 한다.",
-      "pt": "Encarregado do Armazém de Madeira, Proteção de Madeira +10%\nUm errante que captura e come Ratos Pretos, frequentemente tem alucinações auditivas à noite."
+      "pt": "Encarregado do Armazém de Madeira, Proteção de Madeira +10%\nUm errante que captura e come Ratos Pretos, frequentemente tem alucinações auditivas à noite.",
+      "ar": "أمين الأخشاب، حماية الأخشاب +10%\nمتشرد يصطاد الجرذان السوداء ويأكلها، وغالباً ما يسمع أصواتاً وهمية في الليل.",
+      "it": "Custode del legname, Protezione legname +10%\nUn vagabondo che cattura e mangia i ratti neri, spesso ha allucinazioni uditive di notte.",
+      "ms": "Penjaga kayu, Perlindungan Kayu +10%\nSeorang gelandangan yang menangkap dan memakan Tikus Hitam, sering mengalami halusinasi pendengaran pada waktu malam.",
+      "nl": "Houtbewaarder, Houtbescherming +10%\nEen zwerver die zwarte ratten vangt en opeet, heeft 's nachts vaak auditieve hallucinaties.",
+      "th": "ผู้ดูแลไม้ ป้องกันไม้ +10%\nคนเร่ร่อนที่จับหนูดำกิน มักหูแว่วตอนกลางคืน",
+      "tr": "Kereste Bekçisi, Kereste Koruması +%10\nKara Sıçanları yakalayıp yiyen bir serseri, geceleri sık sık işitsel halüsinasyonlar görür.",
+      "vi": "Người giữ gỗ, Bảo vệ Gỗ +10%\nMột kẻ lang thang bắt Chuột Đen ăn thịt, thường xuyên bị ảo giác thính giác vào ban đêm.",
+      "zh": "木材管理员，木材保护+10%\n一个捕食黑鼠的流浪汉，夜里经常出现幻听。",
+      "pl": "Strażnik drewna, Ochrona drewna +10%\nWłóczęga, który łapie i zjada czarne szczury, często doświadcza omamów słuchowych w nocy.",
+      "zh-tw": "木材管理員，木材保護+10%\n一個捕食黑鼠的流浪漢，夜裡經常出現幻聽。"
     }
   },
   {
@@ -666,7 +1146,17 @@
       "id": "Karina",
       "ja": "カリーナ",
       "ko": "카리나",
-      "pt": "Karina"
+      "pt": "Karina",
+      "ar": "كارينا",
+      "it": "Karina",
+      "ms": "Karina",
+      "nl": "Karina",
+      "th": "คาริน่า",
+      "tr": "Karina",
+      "vi": "Karina",
+      "zh": "卡琳娜",
+      "pl": "Karina",
+      "zh-tw": "卡琳娜"
     },
     "character": {
       "ru": "Сочувствующ.",
@@ -677,7 +1167,17 @@
       "id": "Pengertian",
       "ja": "親切",
       "ko": "강한 배려심",
-      "pt": "Gentileza"
+      "pt": "Gentileza",
+      "ar": "لطيف",
+      "it": "Gentile",
+      "ms": "Lembut",
+      "nl": "Zachtaardig",
+      "th": "อ่อนโยน",
+      "tr": "Şefkatli",
+      "vi": "Dịu dàng",
+      "zh": "温柔",
+      "pl": "Łagodny",
+      "zh-tw": "溫柔"
     },
     "assignedBuilding": {
       "ru": "Лазарет",
@@ -693,7 +1193,17 @@
       "id": "Perawat,kecepatan penyembuhan +0.03%\nWanita cantik yang diberkati Tuhan, menderita batuk parah dan demam ringan.",
       "ja": "看護師、治療速度+0.03%\n神に愛されたような美しい女性。ひどい咳と微熱が続いている。",
       "ko": "간호사. 치료 속도 +0.03%\n신의 은총을 받은 아름다운 여성. 심한 기침과 미열 증상을 앓고 있다.",
-      "pt": "Enfermeira, Velocidade de Cura +0,03%\nUma bela mulher abençoada pelos deuses, sofrendo de tosse severa e febril."
+      "pt": "Enfermeira, Velocidade de Cura +0,03%\nUma bela mulher abençoada pelos deuses, sofrendo de tosse severa e febril.",
+      "ar": "ممرضة، سرعة الشفاء +0.03%\nامرأة جميلة مباركة من السماء، تعاني من سعال شديد وحمى خفيفة.",
+      "it": "Infermiera, Velocità di guarigione +0,03%\nUna bella donna benedetta dal divino, affetta da forte tosse e febbricola.",
+      "ms": "Jururawat, Kelajuan Penyembuhan +0.03%\nSeorang wanita cantik yang diberkati ilahi, menghidap batuk yang teruk dan demam ringan.",
+      "nl": "Verpleegster, Genezingssnelheid +0,03%\nEen mooie vrouw gezegend door het goddelijke, lijdend aan ernstige hoest en lichte koorts.",
+      "th": "พยาบาล ความเร็วรักษา +0.03%\nหญิงงามผู้ได้รับพรจากสวรรค์ ทรมานจากอาการไอแรงและไข้ต่ำ",
+      "tr": "Hemşire, İyileşme Hızı +%0,03\nTanrı'nın kutsadığı güzel bir kadın; şiddetli öksürük ve hafif ateşten mustarip.",
+      "vi": "Y tá, Tốc độ Hồi phục +0,03%\nMột người phụ nữ xinh đẹp được thần linh phù hộ, đang bị ho nặng và sốt nhẹ.",
+      "zh": "护士，治疗速度+0.03%\n一位受神眷顾的美人，患有严重咳嗽和低烧。",
+      "pl": "Pielęgniarka, Prędkość leczenia +0,03%\nPiękna kobieta pobłogosławiona przez boskość, cierpiąca na silny kaszel i stan podgorączkowy.",
+      "zh-tw": "護士，治療速度+0.03%\n一位受神眷顧的美人，患有嚴重咳嗽和低燒。"
     }
   },
   {
@@ -707,7 +1217,17 @@
       "id": "Charlotte",
       "ja": "シャーロット",
       "ko": "샬롯",
-      "pt": "Charlotte"
+      "pt": "Charlotte",
+      "ar": "شارلوت",
+      "it": "Charlotte",
+      "ms": "Charlotte",
+      "nl": "Charlotte",
+      "th": "ชาร์ล็อตต์",
+      "tr": "Charlotte",
+      "vi": "Charlotte",
+      "zh": "夏洛特",
+      "pl": "Charlotte",
+      "zh-tw": "夏洛特"
     },
     "character": {
       "ru": "Прагматичн.",
@@ -718,7 +1238,17 @@
       "id": "Realistis",
       "ja": "現実的",
       "ko": "현실적임",
-      "pt": "Pragmatismo"
+      "pt": "Pragmatismo",
+      "ar": "عملي",
+      "it": "Pragmatico",
+      "ms": "Pragmatik",
+      "nl": "Pragmatisch",
+      "th": "เน้นปฏิบัติ",
+      "tr": "Pratik",
+      "vi": "Thực tế",
+      "zh": "务实",
+      "pl": "Pragmatyczny",
+      "zh-tw": "務實"
     },
     "assignedBuilding": {
       "ru": "Лазарет",
@@ -734,7 +1264,17 @@
       "id": "Perawat, Kecepatan penyembuhan +0.01%\nKurus kering akibat diare kronis.",
       "ja": "看護師、治療速度+0.01%\n長く続く下痢症状で衰弱し、骨と皮ばかりになってしまった。",
       "ko": "간호사. 치료 속도 +0.01%\n오랫동안 설사를 앓아 앙상한 뼈만 남은 상태다.",
-      "pt": "Enfermeira, Velocidade de Cura +0,01%\nEmaciada devido a sintomas de diarreia crônica."
+      "pt": "Enfermeira, Velocidade de Cura +0,01%\nEmaciada devido a sintomas de diarreia crônica.",
+      "ar": "ممرضة، سرعة الشفاء +0.01%\nهزيلة بسبب أعراض الإسهال المزمن.",
+      "it": "Infermiera, Velocità di guarigione +0,01%\nEmaciata a causa di diarrea cronica.",
+      "ms": "Jururawat, Kelajuan Penyembuhan +0.01%\nKurus kering akibat gejala cirit-birit kronik.",
+      "nl": "Verpleegster, Genezingssnelheid +0,01%\nUitgemergeld door chronische diarree.",
+      "th": "พยาบาล ความเร็วรักษา +0.01%\nผอมแห้งเพราะท้องเสียเรื้อรัง",
+      "tr": "Hemşire, İyileşme Hızı +%0,01\nKronik ishal nedeniyle bir deri bir kemik kalmış.",
+      "vi": "Y tá, Tốc độ Hồi phục +0,01%\nGầy gò vì tiêu chảy mãn tính.",
+      "zh": "护士，治疗速度+0.01%\n因慢性腹泻而骨瘦如柴。",
+      "pl": "Pielęgniarka, Prędkość leczenia +0,01%\nWychudzona z powodu przewlekłej biegunki.",
+      "zh-tw": "護士，治療速度+0.01%\n因慢性腹瀉而骨瘦如柴。"
     }
   },
   {
@@ -748,7 +1288,17 @@
       "id": "Julia",
       "ja": "ジュリア",
       "ko": "줄리아",
-      "pt": "Julia"
+      "pt": "Julia",
+      "ar": "جوليا",
+      "it": "Julia",
+      "ms": "Julia",
+      "nl": "Julia",
+      "th": "จูเลีย",
+      "tr": "Julia",
+      "vi": "Julia",
+      "zh": "朱莉娅",
+      "pl": "Julia",
+      "zh-tw": "茱莉亞"
     },
     "character": {
       "ru": "Осмотрит.",
@@ -759,7 +1309,17 @@
       "id": "Waspada",
       "ja": "慎重",
       "ko": "조심스러움",
-      "pt": "Cautela"
+      "pt": "Cautela",
+      "ar": "حذر",
+      "it": "Cauto",
+      "ms": "Berhati-hati",
+      "nl": "Voorzichtig",
+      "th": "ระมัดระวัง",
+      "tr": "Tedbirli",
+      "vi": "Thận trọng",
+      "zh": "谨慎",
+      "pl": "Ostrożny",
+      "zh-tw": "謹慎"
     },
     "assignedBuilding": {
       "ru": "Ферма",
@@ -775,7 +1335,17 @@
       "id": "Petani,Produksi Makanan +0.5%\nIstri Rowan yang sakit parah, tersesat di hutan lebat saat mencari suaminya.",
       "ja": "農家、食料生産量+0.5%\n重病の夫ロウェンを探すうち密林で迷ってしまった妻。",
       "ko": "농부. 식량 생산량+0.5%\n중병을 앓는 로웬의 아내. 남편을 찾다가 울창한 숲에서 길을 잃었다.",
-      "pt": "Agricultora, Produção de Comida +0.5%\nA esposa de Rowan, que está gravemente doente, se perdeu na floresta densa enquanto procurava por seu marido."
+      "pt": "Agricultora, Produção de Comida +0.5%\nA esposa de Rowan, que está gravemente doente, se perdeu na floresta densa enquanto procurava por seu marido.",
+      "ar": "مزارعة، إنتاج الحبوب +0.5%\nزوجة روان المريض مرضاً خطيراً، تائهة في الغابة الكثيفة أثناء بحثها عن زوجها.",
+      "it": "Contadina, Produzione grano +0,5%\nLa moglie del gravemente malato Rowan, dispersa nella fitta foresta mentre cercava suo marito.",
+      "ms": "Petani, Pengeluaran Bijirin +0.5%\nIsteri Rowan yang sakit tenat, sesat di hutan tebal ketika mencari suaminya.",
+      "nl": "Boerin, Graanopbrengst +0,5%\nDe vrouw van de ernstig zieke Rowan, verdwaald in het dichte bos tijdens het zoeken naar haar man.",
+      "th": "ชาวนา ผลผลิตธัญพืช +0.5%\nภรรยาของโรเวนที่ป่วยหนัก พลัดหลงในป่าทึบขณะตามหาสามี",
+      "tr": "Çiftçi, Tahıl Üretimi +%0,5\nAğır hasta Rowan'ın karısı; kocasını ararken sık ormanda kayboldu.",
+      "vi": "Nông dân, Sản lượng Lương thực +0,5%\nVợ của Rowan đang bệnh nặng, lạc trong rừng rậm khi đi tìm chồng.",
+      "zh": "农夫，粮食产量+0.5%\n身患重病的罗文之妻，在密林中寻找丈夫时迷路。",
+      "pl": "Rolniczka, Produkcja zboża +0,5%\nŻona ciężko chorego Rowana, zagubiona w gęstym lesie podczas poszukiwań męża.",
+      "zh-tw": "農夫，糧食產量+0.5%\n身患重病的羅文之妻，在密林中尋找丈夫時迷路。"
     }
   },
   {
@@ -789,7 +1359,17 @@
       "id": "Rowen",
       "ja": "ローウェン",
       "ko": "로웬",
-      "pt": "Rowen"
+      "pt": "Rowen",
+      "ar": "روان",
+      "it": "Rowen",
+      "ms": "Rowen",
+      "nl": "Rowen",
+      "th": "โรเวน",
+      "tr": "Rowen",
+      "vi": "Rowen",
+      "zh": "罗文",
+      "pl": "Rowen",
+      "zh-tw": "羅文"
     },
     "character": {
       "ru": "Честн.",
@@ -800,7 +1380,17 @@
       "id": "Bersahaja",
       "ja": "素朴",
       "ko": "순진하고 정직함",
-      "pt": "Sinceridade"
+      "pt": "Sinceridade",
+      "ar": "أمين",
+      "it": "Onesto",
+      "ms": "Jujur",
+      "nl": "Eerlijk",
+      "th": "ซื่อสัตย์",
+      "tr": "Dürüst",
+      "vi": "Trung thực",
+      "zh": "诚实",
+      "pl": "Uczciwy",
+      "zh-tw": "誠實"
     },
     "assignedBuilding": {
       "ru": "Палатка спасения",
@@ -816,7 +1406,17 @@
       "id": "Pemburu,kapasitas tenda penyelamat +5%\nMasuk ke hutan lebat mencari Makanan, sayangnya terkepung oleh tikus hitam.",
       "ja": "ハンター、救援テント収容量+5%\n食料を求めて密林へ入ったが、不運にも黒ネズミに包囲されてしまった。",
       "ko": "사냥꾼. 구조 텐트 수용량+5%\n식량을 찾아 울창한 숲으로 들어갔다가 불행히도 검은 쥐들에게 포위당했다.",
-      "pt": "Caçador, Capacidade da Tenda de Resgate +5%\nAventurou-se na floresta densa em busca de comida, apenas para ser encurralado por Ratos Pretos."
+      "pt": "Caçador, Capacidade da Tenda de Resgate +5%\nAventurou-se na floresta densa em busca de comida, apenas para ser encurralado por Ratos Pretos.",
+      "ar": "صياد، سعة خيمة الإنقاذ +5%\nتوغل في الغابة الكثيفة بحثاً عن الحبوب، لكن الجرذان السوداء حاصرته.",
+      "it": "Cacciatore, Capacità Tenda di soccorso +5%\nSi è avventurato nella fitta foresta in cerca di grano, ma è stato accerchiato dai ratti neri.",
+      "ms": "Pemburu, Kapasiti Khemah Penyelamat +5%\nMemberanikan diri masuk ke hutan tebal untuk mencari bijirin, tetapi dikepung oleh Tikus Hitam.",
+      "nl": "Jager, Reddingstentcapaciteit +5%\nTrok het dichte bos in op zoek naar graan, maar werd in het nauw gedreven door zwarte ratten.",
+      "th": "นักล่า ความจุเต็นท์ช่วยเหลือ +5%\nบุกเข้าป่าทึบเพื่อหาธัญพืช แต่กลับถูกหนูดำต้อนจนมุม",
+      "tr": "Avcı, Kurtarma Çadırı Kapasitesi +%5\nTahıl aramak için sık ormana daldı, ancak Kara Sıçanlar tarafından köşeye sıkıştırıldı.",
+      "vi": "Thợ săn, Sức chứa Lều Cứu hộ +5%\nLiều mình vào rừng rậm tìm lương thực, nhưng bị Chuột Đen dồn vào đường cùng.",
+      "zh": "猎人，救援帐篷容量+5%\n深入密林寻找粮食，却被黑鼠逼入绝境。",
+      "pl": "Myśliwy, Pojemność namiotu ratunkowego +5%\nZapuścił się w gęsty las w poszukiwaniu zboża, lecz został osaczony przez czarne szczury.",
+      "zh-tw": "獵人，救援帳篷容量+5%\n深入密林尋找糧食，卻被黑鼠逼入絕境。"
     }
   }
 ]

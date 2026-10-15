@@ -15,7 +15,17 @@
    "id": "Ghoul Petani",
    "ja": "農家ゾンビ",
    "ko": "농부 구울",
-   "pt": "Fazendeiro Infectado"
+   "pt": "Fazendeiro Infectado",
+   "ar": "آفة الحبوب",
+   "it": "Flagello di Grano",
+   "ms": "Blight Bijirin",
+   "nl": "Besmette Boer",
+   "th": "ภัยพิบัติธัญพืช",
+   "tr": "Tahıl Felaketi",
+   "vi": "Đất Hoang Lương Thức",
+   "zh": "粮食荒疫",
+   "pl": "Zaraza Zbożowa",
+   "zh-tw": "糧食荒疫"
   }
  },
  {
@@ -34,7 +44,17 @@
    "id": "Ghoul Penebang",
    "ja": "木こりゾンビ",
    "ko": "나무꾼 좀비",
-   "pt": "Lenhador Infectado"
+   "pt": "Lenhador Infectado",
+   "ar": "آفة الخشب",
+   "it": "Flagello di Legname",
+   "ms": "Blight Kayu",
+   "nl": "Houthakkersplaag",
+   "th": "ภัยพิบัติไม้",
+   "tr": "Kereste Felaketi",
+   "vi": "Đất Hoang Gỗ",
+   "zh": "木材荒疫",
+   "pl": "Zaraza Drzewna",
+   "zh-tw": "木材荒疫"
   }
  },
  {
@@ -53,7 +73,17 @@
    "id": "Ghoul Peracik Obat",
    "ja": "薬草栽培者ゾンビ",
    "ko": "약초 재배자 좀비",
-   "pt": "Herborista Infectado"
+   "pt": "Herborista Infectado",
+   "ar": "آفة الأعشاب",
+   "it": "Flagello di Erbe",
+   "ms": "Blight Herba",
+   "nl": "Besmette Kruidenmeester",
+   "th": "ภัยพิบัติสมุนไพร",
+   "tr": "Bitki Felaketi",
+   "vi": "Đất Hoang Thảo Dược",
+   "zh": "草药荒疫",
+   "pl": "Zaraza Ziołowa",
+   "zh-tw": "草藥荒疫"
   }
  },
  {
@@ -72,7 +102,17 @@
    "id": "Ghoul Elite",
    "ja": "エリートゾンビ",
    "ko": "정예 좀비",
-   "pt": "Elite Infectado"
+   "pt": "Elite Infectado",
+   "ar": "آفة النخبة",
+   "it": "Flagello d'Élite",
+   "ms": "Blight Elit",
+   "nl": "Eliteplaag",
+   "th": "ภัยพิบัติชั้นสูง",
+   "tr": "Seçkin Felaket",
+   "vi": "Đất Hoang Tinh Nhuệ",
+   "zh": "精英荒疫",
+   "pl": "Elitarna Zaraza",
+   "zh-tw": "精英荒疫"
   }
  },
  {
@@ -91,7 +131,17 @@
    "id": "Ghoul Raja Warlock",
    "ja": "魔王・ソーサラーゾンビ",
    "ko": "마왕·마법사 좀비",
-   "pt": "Rei Demônio: Bruxo Infectado"
+   "pt": "Rei Demônio: Bruxo Infectado",
+   "ar": "ملك الشياطين: مشعوذ الآفة",
+   "it": "Demon King: Warlock Blight",
+   "ms": "Demon King: Warlock Blight",
+   "nl": "Demon King: Warlock Blight",
+   "th": "ราชาปีศาจ: Warlock Blight",
+   "tr": "Demon King: Büyücü Felaketi",
+   "vi": "Demon King: Warlock Blight",
+   "zh": "魔王：术士荒疫",
+   "pl": "Demon King: Warlock Blight",
+   "zh-tw": "魔王：術士荒疫"
   }
  },
  {
@@ -110,7 +160,17 @@
    "id": "Ghoul Raja Ranger",
    "ja": "魔王・レンジャーゾンビ",
    "ko": "마왕·레인저 좀비",
-   "pt": "Rei Demônio: Patrulheiro Infectado"
+   "pt": "Rei Demônio: Patrulheiro Infectado",
+   "ar": "ملك الشياطين: حارس الآفة",
+   "it": "Demon King: Ranger Blight",
+   "ms": "Demon King: Ranger Blight",
+   "nl": "Demon King: Ranger Blight",
+   "th": "ราชาปีศาจ: Ranger Blight",
+   "tr": "Demon King: Ranger Felaketi",
+   "vi": "Demon King: Ranger Blight",
+   "zh": "魔王：游侠荒疫",
+   "pl": "Demon King: Ranger Blight",
+   "zh-tw": "魔王：遊俠荒疫"
   }
  },
  {
@@ -129,7 +189,17 @@
    "id": "Ghoul Raja Fighter",
    "ja": "魔王・ウォーリアゾンビ",
    "ko": "마왕·전사 좀비",
-   "pt": "Rei Demônio: Guerreiro Infectado"
+   "pt": "Rei Demônio: Guerreiro Infectado",
+   "ar": "ملك الشياطين: محارب الآفة",
+   "it": "Demon King: Warrior Blight",
+   "ms": "Demon King: Warrior Blight",
+   "nl": "Demon King: Warrior Blight",
+   "th": "ราชาปีศาจ: Warrior Blight",
+   "tr": "Demon King: Savaşçı Felaketi",
+   "vi": "Demon King: Warrior Blight",
+   "zh": "魔王：战士荒疫",
+   "pl": "Demon King: Warrior Blight",
+   "zh-tw": "魔王：戰士荒疫"
   }
  },
  {
@@ -148,7 +218,17 @@
    "id": "Ghoul Pengembara",
    "ja": "放浪ゾンビ",
    "ko": "방랑 좀비",
-   "pt": "Praga Errante"
+   "pt": "Praga Errante",
+   "ar": "الآفة المتجولة",
+   "it": "Flagello Errante",
+   "ms": "Blight Pengembara",
+   "nl": "Zwervende Plaag",
+   "th": "ภัยพิบัติพเนจร",
+   "tr": "Gezgin Felaketi",
+   "vi": "Đất Hoang Lang Thang",
+   "zh": "流浪荒疫",
+   "pl": "Wędrująca Zaraza",
+   "zh-tw": "流浪荒疫"
   }
  },
  {
@@ -167,7 +247,17 @@
    "id": "Pemberontak",
    "ja": "反乱軍",
    "ko": "반군",
-   "pt": "Tropa Rebelde"
+   "pt": "Tropa Rebelde",
+   "ar": "القوات المتمردة",
+   "it": "Truppa Ribelle",
+   "ms": "Pasukan Pemberontak",
+   "nl": "Rebellentroep",
+   "th": "กองกำลังกบฏ",
+   "tr": "İsyancı Birlik",
+   "vi": "Quân Nổi Loạn",
+   "zh": "叛军部队",
+   "pl": "Oddział Rebeliantów",
+   "zh-tw": "叛軍部隊"
   }
  },
  {
@@ -186,7 +276,17 @@
    "id": "Pencuri Koin",
    "ja": "金貨盗賊",
    "ko": "금화 도둑",
-   "pt": "Ladrão de Ouro"
+   "pt": "Ladrão de Ouro",
+   "ar": "سارق الذهب",
+   "it": "Ladro d'Oro",
+   "ms": "Pencuri Emas",
+   "nl": "Goudrover",
+   "th": "โจรทองคำ",
+   "tr": "Altın Hırsızı",
+   "vi": "Kẻ Trộm Vàng",
+   "zh": "黄金大盗",
+   "pl": "Złodziej Złota",
+   "zh-tw": "黃金大盜"
   }
  },
  {
@@ -205,7 +305,17 @@
    "id": "Kawanan Tikus Hitam",
    "ja": "黒ネズミの群れ",
    "ko": "검은 쥐 무리",
-   "pt": "Horda de Ratos Negros"
+   "pt": "Horda de Ratos Negros",
+   "ar": "حشد الجرذان",
+   "it": "Orda di Ratti",
+   "ms": "Gerombolan Tikus",
+   "nl": "Zwarte Rattenhorde",
+   "th": "ฝูงหนู",
+   "tr": "Sıçan Sürüsü",
+   "vi": "Bầy Chuột",
+   "zh": "鼠群",
+   "pl": "Horda Szczurów",
+   "zh-tw": "鼠羣"
   }
  },
  {
@@ -224,7 +334,17 @@
    "id": "Serangan Raja Tikus Raksasa",
    "ja": "キングネズミの襲撃",
    "ko": "자이언트 쥐왕의 습격",
-   "pt": "Ataque do Rei dos Ratos Gigantes"
+   "pt": "Ataque do Rei dos Ratos Gigantes",
+   "ar": "هجوم ملك الجرذان العملاق",
+   "it": "Attacco del Re dei Ratti Gigante",
+   "ms": "Serangan Raja Tikus Gergasi",
+   "nl": "Aanval van de Reuzenrattenkoning",
+   "th": "การโจมตีของราชาหนูยักษ์",
+   "tr": "Dev Sıçan Kralı Saldırısı",
+   "vi": "Cuộc Tấn Công của Vua Chuột Khổng Lồ",
+   "zh": "巨型鼠王袭击",
+   "pl": "Atak Króla Gigantycznych Szczurów",
+   "zh-tw": "巨型鼠王襲擊"
   }
  },
  {
@@ -243,7 +363,17 @@
    "id": "Wabah Tikus Gila",
    "ja": "ネズミの大災害",
    "ko": "광란의 쥐난",
-   "pt": "Praga dos Ratos"
+   "pt": "Praga dos Ratos",
+   "ar": "طاعون الجرذان",
+   "it": "Peste dei Ratti",
+   "ms": "Wabak Tikus",
+   "nl": "Rattenpest",
+   "th": "โรคระบาดหนู",
+   "tr": "Sıçan Vebası",
+   "vi": "Dịch Chuột",
+   "zh": "鼠疫",
+   "pl": "Dżuma Szczurów",
+   "zh-tw": "鼠疫"
   }
  },
  {
@@ -262,7 +392,17 @@
    "id": "Pengawal Gigi Serigala",
    "ja": "狼牙の護衛",
    "ko": "늑대 경비병",
-   "pt": "Guarda da Presa"
+   "pt": "Guarda da Presa",
+   "ar": "حارس الأنياب",
+   "it": "Guardia delle Zanne",
+   "ms": "Pengawal Taring",
+   "nl": "Hoektandwacht",
+   "th": "ผู้พิทักษ์เขี้ยว",
+   "tr": "Diş Muhafızı",
+   "vi": "Lính Gác Nanh",
+   "zh": "獠牙守卫",
+   "pl": "Strażnik Kłów",
+   "zh-tw": "獠牙守衛"
   }
  },
  {
@@ -281,7 +421,17 @@
    "id": "Pejuang Kapak Raksasa",
    "ja": "巨斧戦士",
    "ko": "거대 도끼 전사",
-   "pt": "Guerreiro do Machado Gigante"
+   "pt": "Guerreiro do Machado Gigante",
+   "ar": "محارب الفأس العملاق",
+   "it": "Guerriero dall'Ascia Gigante",
+   "ms": "Pejuang Kapak Gergasi",
+   "nl": "Reuzenbijlkrijger",
+   "th": "นักรบขวานยักษ์",
+   "tr": "Dev Balta Savaşçısı",
+   "vi": "Chiến Binh Rìu Khổng Lồ",
+   "zh": "巨斧战士",
+   "pl": "Wojownik z Ogromnym Toporem",
+   "zh-tw": "巨斧戰士"
   }
  },
  {
@@ -300,7 +450,17 @@
    "id": "Ghoul Wabah",
    "ja": "疫病ゾンビ",
    "ko": "역병 좀비",
-   "pt": "Praga da Peste"
+   "pt": "Praga da Peste",
+   "ar": "آفة الطاعون",
+   "it": "Flagello della Peste",
+   "ms": "Blight Wabak",
+   "nl": "Pestplaag",
+   "th": "ภัยพิบัติโรคระบาด",
+   "tr": "Veba Felaketi",
+   "vi": "Đất Hoang Dịch Bệnh",
+   "zh": "瘟疫荒疫",
+   "pl": "Zaraza Dżumy",
+   "zh-tw": "瘟疫荒疫"
   }
  },
  {
@@ -319,7 +479,17 @@
    "id": "Kawanan Tikus Hitam Wabah",
    "ja": "疫病黒ネズミの群れ",
    "ko": "역병 검은 쥐 무리",
-   "pt": "Horda de Ratos Negros da Peste"
+   "pt": "Horda de Ratos Negros da Peste",
+   "ar": "حشد جرذان الطاعون",
+   "it": "Orda di Ratti della Peste",
+   "ms": "Gerombolan Tikus Wabak",
+   "nl": "Plaag Zwarte Rattenhorde",
+   "th": "ฝูงหนูโรคระบาด",
+   "tr": "Veba Sıçanı Sürüsü",
+   "vi": "Bầy Chuột Dịch Bệnh",
+   "zh": "瘟疫鼠群",
+   "pl": "Horda Szczurów Zarazy",
+   "zh-tw": "瘟疫鼠羣"
   }
  },
  {
@@ -338,7 +508,17 @@
    "id": "Raja Tikus Raksasa Berbahaya",
    "ja": "危険なキングネズミ",
    "ko": "위험한 자이언트 쥐왕",
-   "pt": "Rei dos Ratos Gigantes Ameaçador"
+   "pt": "Rei dos Ratos Gigantes Ameaçador",
+   "ar": "ملك الجرذان العملاق المهدد",
+   "it": "Re dei Ratti Gigante Minaccioso",
+   "ms": "Raja Tikus Gergasi Mengancam",
+   "nl": "Dreigende Reuzenrattenkoning",
+   "th": "ราชาหนูยักษ์คุกคาม",
+   "tr": "Tehditkâr Dev Sıçan Kralı",
+   "vi": "Vua Chuột Khổng Lồ Đáng Sợ",
+   "zh": "强力巨型鼠王",
+   "pl": "Złowrogi Król Gigantycznych Szczurów",
+   "zh-tw": "強力巨型鼠王"
   }
  },
  {
@@ -357,7 +537,17 @@
    "id": "Perburuan Ghoul Lv.1",
    "ja": "Lv.1ゾンビ討伐",
    "ko": "Lv.1 좀비 사냥",
-   "pt": "Infectado Caçado Nv.1"
+   "pt": "Infectado Caçado Nv.1",
+   "ar": "آفة مطاردة Lv.1",
+   "it": "Flagello Braccato Lv.1",
+   "ms": "Blight Buruan Lv.1",
+   "nl": "Lv.1 Bejaagde Plaag",
+   "th": "ภัยพิบัติถูกล่า Lv.1",
+   "tr": "Lv.1 Avlanan Felaket",
+   "vi": "Đất Hoang Bị Săn Lv.1",
+   "zh": "Lv.1猎杀荒疫",
+   "pl": "Ścigana Zaraza Lv.1",
+   "zh-tw": "Lv.1獵殺荒疫"
   }
  },
  {
@@ -376,7 +566,17 @@
    "id": "Perburuan Ghoul Lv.2",
    "ja": "Lv.2ゾンビ討伐",
    "ko": "Lv.2 좀비 사냥",
-   "pt": "Infectado Caçado Nv.2"
+   "pt": "Infectado Caçado Nv.2",
+   "ar": "آفة مطاردة Lv.2",
+   "it": "Flagello Braccato Lv.2",
+   "ms": "Blight Buruan Lv.2",
+   "nl": "Lv.2 Bejaagde Plaag",
+   "th": "ภัยพิบัติถูกล่า Lv.2",
+   "tr": "Lv.2 Avlanan Felaket",
+   "vi": "Đất Hoang Bị Săn Lv.2",
+   "zh": "Lv.2猎杀荒疫",
+   "pl": "Ścigana Zaraza Lv.2",
+   "zh-tw": "Lv.2獵殺荒疫"
   }
  },
  {
@@ -395,7 +595,17 @@
    "id": "Perburuan Ghoul Lv.3",
    "ja": "Lv.3ゾンビ討伐",
    "ko": "Lv.3 좀비 사냥",
-   "pt": "Infectado Caçado Nv.3"
+   "pt": "Infectado Caçado Nv.3",
+   "ar": "آفة مطاردة Lv.3",
+   "it": "Flagello Braccato Lv.3",
+   "ms": "Blight Buruan Lv.3",
+   "nl": "Lv.3 Bejaagde Plaag",
+   "th": "ภัยพิบัติถูกล่า Lv.3",
+   "tr": "Lv.3 Avlanan Felaket",
+   "vi": "Đất Hoang Bị Săn Lv.3",
+   "zh": "Lv.3猎杀荒疫",
+   "pl": "Ścigana Zaraza Lv.3",
+   "zh-tw": "Lv.3獵殺荒疫"
   }
  },
  {
@@ -414,7 +624,17 @@
    "id": "Perburuan Ghoul Lv.4",
    "ja": "Lv.4ゾンビ討伐",
    "ko": "Lv.4 좀비 사냥",
-   "pt": "Infectado Caçado Nv.4"
+   "pt": "Infectado Caçado Nv.4",
+   "ar": "آفة مطاردة Lv.4",
+   "it": "Flagello Braccato Lv.4",
+   "ms": "Blight Buruan Lv.4",
+   "nl": "Lv.4 Bejaagde Plaag",
+   "th": "ภัยพิบัติถูกล่า Lv.4",
+   "tr": "Lv.4 Avlanan Felaket",
+   "vi": "Đất Hoang Bị Săn Lv.4",
+   "zh": "Lv.4猎杀荒疫",
+   "pl": "Ścigana Zaraza Lv.4",
+   "zh-tw": "Lv.4獵殺荒疫"
   }
  },
  {
@@ -433,7 +653,17 @@
    "id": "Perburuan Ghoul Lv.5",
    "ja": "Lv.5ゾンビ討伐",
    "ko": "Lv.5 좀비 사냥",
-   "pt": "Infectado Caçado Nv.5"
+   "pt": "Infectado Caçado Nv.5",
+   "ar": "آفة مطاردة Lv.5",
+   "it": "Flagello Braccato Lv.5",
+   "ms": "Blight Buruan Lv.5",
+   "nl": "Lv.5 Bejaagde Plaag",
+   "th": "ภัยพิบัติถูกล่า Lv.5",
+   "tr": "Lv.5 Avlanan Felaket",
+   "vi": "Đất Hoang Bị Săn Lv.5",
+   "zh": "Lv.5猎杀荒疫",
+   "pl": "Ścigana Zaraza Lv.5",
+   "zh-tw": "Lv.5獵殺荒疫"
   }
  },
  {
@@ -452,7 +682,17 @@
    "id": "Ghoul Elite Lv.1",
    "ja": "Lv.1ゾンビエリート",
    "ko": "Lv.1 좀비 정예병",
-   "pt": "Elite Infectado Nv.1"
+   "pt": "Elite Infectado Nv.1",
+   "ar": "آفة النخبة Lv.1",
+   "it": "Flagello d'Élite Lv.1",
+   "ms": "Blight Elit Lv.1",
+   "nl": "Lv.1 Eliteplaag",
+   "th": "ภัยพิบัติชั้นสูง Lv.1",
+   "tr": "Seçkin Felaket Lv.1",
+   "vi": "Đất Hoang Tinh Nhuệ Lv.1",
+   "zh": "Lv.1精英荒疫",
+   "pl": "Elitarna Zaraza Lv.1",
+   "zh-tw": "Lv.1精英荒疫"
   }
  },
  {
@@ -471,7 +711,17 @@
    "id": "Ghoul Elite Lv.2",
    "ja": "Lv.2ゾンビエリート",
    "ko": "Lv.2 좀비 정예병",
-   "pt": "Elite Infectado Nv.2"
+   "pt": "Elite Infectado Nv.2",
+   "ar": "آفة النخبة Lv.2",
+   "it": "Flagello d'Élite Lv.2",
+   "ms": "Blight Elit Lv.2",
+   "nl": "Lv.2 Eliteplaag",
+   "th": "ภัยพิบัติชั้นสูง Lv.2",
+   "tr": "Seçkin Felaket Lv.2",
+   "vi": "Đất Hoang Tinh Nhuệ Lv.2",
+   "zh": "Lv.2精英荒疫",
+   "pl": "Elitarna Zaraza Lv.2",
+   "zh-tw": "Lv.2精英荒疫"
   }
  },
  {
@@ -490,7 +740,17 @@
    "id": "Ghoul Elite Lv.3",
    "ja": "Lv.3ゾンビエリート",
    "ko": "Lv.3 좀비 정예병",
-   "pt": "Elite Infectado Nv.3"
+   "pt": "Elite Infectado Nv.3",
+   "ar": "آفة النخبة Lv.3",
+   "it": "Flagello d'Élite Lv.3",
+   "ms": "Blight Elit Lv.3",
+   "nl": "Lv.3 Eliteplaag",
+   "th": "ภัยพิบัติชั้นสูง Lv.3",
+   "tr": "Seçkin Felaket Lv.3",
+   "vi": "Đất Hoang Tinh Nhuệ Lv.3",
+   "zh": "Lv.3精英荒疫",
+   "pl": "Elitarna Zaraza Lv.3",
+   "zh-tw": "Lv.3精英荒疫"
   }
  },
  {
@@ -509,7 +769,17 @@
    "id": "Ghoul Elite Lv.4",
    "ja": "Lv.4ゾンビエリート",
    "ko": "Lv.4 좀비 정예병",
-   "pt": "Elite Infectado Nv.4"
+   "pt": "Elite Infectado Nv.4",
+   "ar": "آفة النخبة Lv.4",
+   "it": "Flagello d'Élite Lv.4",
+   "ms": "Blight Elit Lv.4",
+   "nl": "Lv.4 Eliteplaag",
+   "th": "ภัยพิบัติชั้นสูง Lv.4",
+   "tr": "Seçkin Felaket Lv.4",
+   "vi": "Đất Hoang Tinh Nhuệ Lv.4",
+   "zh": "Lv.4精英荒疫",
+   "pl": "Elitarna Zaraza Lv.4",
+   "zh-tw": "Lv.4精英荒疫"
   }
  },
  {
@@ -528,7 +798,17 @@
    "id": "Ghoul Elite Lv.5",
    "ja": "Lv.5ゾンビエリート",
    "ko": "Lv.5 좀비 정예병",
-   "pt": "Elite Infectado Nv.5"
+   "pt": "Elite Infectado Nv.5",
+   "ar": "آفة النخبة Lv.5",
+   "it": "Flagello d'Élite Lv.5",
+   "ms": "Blight Elit Lv.5",
+   "nl": "Lv.5 Eliteplaag",
+   "th": "ภัยพิบัติชั้นสูง Lv.5",
+   "tr": "Seçkin Felaket Lv.5",
+   "vi": "Đất Hoang Tinh Nhuệ Lv.5",
+   "zh": "Lv.5精英荒疫",
+   "pl": "Elitarna Zaraza Lv.5",
+   "zh-tw": "Lv.5精英荒疫"
   }
  },
  {
@@ -547,7 +827,17 @@
    "id": "Legiun Terjatuh Lv.1",
    "ja": "堕落軍団 Lv.1",
    "ko": "타락한 군단 Lv.1",
-   "pt": "Legião Caída Nv.1"
+   "pt": "Legião Caída Nv.1",
+   "ar": "الفيلق الساقط Lv.1",
+   "it": "Legione Caduta Lv.1",
+   "ms": "Legiun Terjatuh Lv.1",
+   "nl": "Gevallen Legioen Lv.1",
+   "th": "ลีเจียนล่มสลาย Lv.1",
+   "tr": "Düşmüş Lejyon Lv.1",
+   "vi": "Quân Đoàn Sa Ngã Lv.1",
+   "zh": "堕落军团 Lv.1",
+   "pl": "Upadły Legion Lv.1",
+   "zh-tw": "墮落軍團 Lv.1"
   }
  },
  {
@@ -566,7 +856,17 @@
    "id": "Legiun Terjatuh Lv.2",
    "ja": "堕落軍団 Lv.2",
    "ko": "타락한 군단 Lv.2",
-   "pt": "Legião Caída Nv.2"
+   "pt": "Legião Caída Nv.2",
+   "ar": "الفيلق الساقط Lv.2",
+   "it": "Legione Caduta Lv.2",
+   "ms": "Legiun Terjatuh Lv.2",
+   "nl": "Gevallen Legioen Lv.2",
+   "th": "ลีเจียนล่มสลาย Lv.2",
+   "tr": "Düşmüş Lejyon Lv.2",
+   "vi": "Quân Đoàn Sa Ngã Lv.2",
+   "zh": "堕落军团 Lv.2",
+   "pl": "Upadły Legion Lv.2",
+   "zh-tw": "墮落軍團 Lv.2"
   }
  },
  {
@@ -585,7 +885,17 @@
    "id": "Legiun Terjatuh Lv.3",
    "ja": "堕落軍団 Lv.3",
    "ko": "타락한 군단 Lv.3",
-   "pt": "Legião Caída Nv.3"
+   "pt": "Legião Caída Nv.3",
+   "ar": "الفيلق الساقط Lv.3",
+   "it": "Legione Caduta Lv.3",
+   "ms": "Legiun Terjatuh Lv.3",
+   "nl": "Gevallen Legioen Lv.3",
+   "th": "ลีเจียนล่มสลาย Lv.3",
+   "tr": "Düşmüş Lejyon Lv.3",
+   "vi": "Quân Đoàn Sa Ngã Lv.3",
+   "zh": "堕落军团 Lv.3",
+   "pl": "Upadły Legion Lv.3",
+   "zh-tw": "墮落軍團 Lv.3"
   }
  },
  {
@@ -604,7 +914,17 @@
    "id": "Legiun Terjatuh Lv.4",
    "ja": "堕落軍団 Lv.4",
    "ko": "타락한 군단 Lv.4",
-   "pt": "Legião Caída Nv.4"
+   "pt": "Legião Caída Nv.4",
+   "ar": "الفيلق الساقط Lv.4",
+   "it": "Legione Caduta Lv.4",
+   "ms": "Legiun Terjatuh Lv.4",
+   "nl": "Gevallen Legioen Lv.4",
+   "th": "ลีเจียนล่มสลาย Lv.4",
+   "tr": "Düşmüş Lejyon Lv.4",
+   "vi": "Quân Đoàn Sa Ngã Lv.4",
+   "zh": "堕落军团 Lv.4",
+   "pl": "Upadły Legion Lv.4",
+   "zh-tw": "墮落軍團 Lv.4"
   }
  },
  {
@@ -623,7 +943,17 @@
    "id": "Legiun Terjatuh Lv.5",
    "ja": "堕落軍団 Lv.5",
    "ko": "타락한 군단 Lv.5",
-   "pt": "Legião Caída Nv.5"
+   "pt": "Legião Caída Nv.5",
+   "ar": "الفيلق الساقط Lv.5",
+   "it": "Legione Caduta Lv.5",
+   "ms": "Legiun Terjatuh Lv.5",
+   "nl": "Gevallen Legioen Lv.5",
+   "th": "ลีเจียนล่มสลาย Lv.5",
+   "tr": "Düşmüş Lejyon Lv.5",
+   "vi": "Quân Đoàn Sa Ngã Lv.5",
+   "zh": "堕落军团 Lv.5",
+   "pl": "Upadły Legion Lv.5",
+   "zh-tw": "墮落軍團 Lv.5"
   }
  },
  {
@@ -642,7 +972,17 @@
    "id": "Legiun Terjatuh Lv.6",
    "ja": "堕落軍団 Lv.6",
    "ko": "타락한 군단 Lv.6",
-   "pt": "Legião Caída Nv.6"
+   "pt": "Legião Caída Nv.6",
+   "ar": "الفيلق الساقط Lv.6",
+   "it": "Legione Caduta Lv.6",
+   "ms": "Legiun Terjatuh Lv.6",
+   "nl": "Gevallen Legioen Lv.6",
+   "th": "ลีเจียนล่มสลาย Lv.6",
+   "tr": "Düşmüş Lejyon Lv.6",
+   "vi": "Quân Đoàn Sa Ngã Lv.6",
+   "zh": "堕落军团 Lv.6",
+   "pl": "Upadły Legion Lv.6",
+   "zh-tw": "墮落軍團 Lv.6"
   }
  },
  {
@@ -661,7 +1001,17 @@
    "id": "Tikus Wabah",
    "ja": "ペストネズミ",
    "ko": "역병 쥐",
-   "pt": "Rato Infectado"
+   "pt": "Rato Infectado",
+   "ar": "جرذ الطاعون",
+   "it": "Ratto della Peste",
+   "ms": "Tikus Wabak",
+   "nl": "Pestrat",
+   "th": "หนูโรคระบาด",
+   "tr": "Veba Sıçanı",
+   "vi": "Chuột Dịch Bệnh",
+   "zh": "瘟疫鼠",
+   "pl": "Szczur Zarazy",
+   "zh-tw": "瘟疫鼠"
   }
  },
  {
@@ -680,7 +1030,17 @@
    "id": "Penjaga Kristal Lv.1",
    "ja": "Lv.1晶簇ガード",
    "ko": "Lv.1 수정 군집 수호자",
-   "pt": "Guardião de Cristal Nv.1"
+   "pt": "Guardião de Cristal Nv.1",
+   "ar": "حارس الكريستال Lv.1",
+   "it": "Guardiano di Cristallo Lv.1",
+   "ms": "Penjaga Kristal Lv.1",
+   "nl": "Lv.1 Kristalbewaker",
+   "th": "ผู้พิทักษ์คริสตัล Lv.1",
+   "tr": "Kristal Muhafızı Lv.1",
+   "vi": "Vệ Binh Tinh Thể Lv.1",
+   "zh": "水晶守卫 Lv.1",
+   "pl": "Kryształowy Strażnik Lv.1",
+   "zh-tw": "水晶守衛 Lv.1"
   }
  },
  {
@@ -699,7 +1059,17 @@
    "id": "Lv.2 Penjaga Kristal",
    "ja": "Lv.2晶簇ガード",
    "ko": "Lv.2 수정 군집 수호자",
-   "pt": "Guardião de Cristal Nv.2"
+   "pt": "Guardião de Cristal Nv.2",
+   "ar": "حارس الكريستال Lv.2",
+   "it": "Guardiano di Cristallo Lv.2",
+   "ms": "Penjaga Kristal Lv.2",
+   "nl": "Lv.2 Kristalbewaker",
+   "th": "ผู้พิทักษ์คริสตัล Lv.2",
+   "tr": "Kristal Muhafızı Lv.2",
+   "vi": "Vệ Binh Tinh Thể Lv.2",
+   "zh": "水晶守卫 Lv.2",
+   "pl": "Kryształowy Strażnik Lv.2",
+   "zh-tw": "水晶守衛 Lv.2"
   }
  },
  {
@@ -718,7 +1088,17 @@
    "id": "Lv.3 Penjaga Kristal",
    "ja": "Lv.3晶簇ガード",
    "ko": "Lv.3 수정 군집 수호자",
-   "pt": "Guardião de Cristal Nv.3"
+   "pt": "Guardião de Cristal Nv.3",
+   "ar": "حارس الكريستال Lv.3",
+   "it": "Guardiano di Cristallo Lv.3",
+   "ms": "Penjaga Kristal Lv.3",
+   "nl": "Lv.3 Kristalbewaker",
+   "th": "ผู้พิทักษ์คริสตัล Lv.3",
+   "tr": "Kristal Muhafızı Lv.3",
+   "vi": "Vệ Binh Tinh Thể Lv.3",
+   "zh": "水晶守卫 Lv.3",
+   "pl": "Kryształowy Strażnik Lv.3",
+   "zh-tw": "水晶守衛 Lv.3"
   }
  }
 ]

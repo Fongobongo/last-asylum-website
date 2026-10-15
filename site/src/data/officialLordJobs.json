@@ -11,7 +11,17 @@
         "id": "Pengrajin Terampil",
         "ja": "巧みな工匠",
         "ko": "솜씨 좋은 장인",
-        "pt": "Faz-Tudo"
+        "pt": "Faz-Tudo",
+        "ar": "الحرفي",
+        "it": "Tuttofare",
+        "ms": "Tukang Serba Guna",
+        "nl": "Handlanger",
+        "th": "ช่างซ่อมบำรุง",
+        "tr": "Tamirci",
+        "vi": "Thợ Đa năng",
+        "zh": "杂工",
+        "pl": "Złota Rączka",
+        "zh-tw": "雜工"
       },
       "desc": {
         "ru": "Технологии — двигатель прогресса. Благодаря своему таланту, умельцы становятся незаменимой опорой городов, повышая эффективность добычи ресурсов и усиливая союзников.",
@@ -22,7 +32,17 @@
         "id": "Semua perkembangan bergantung pada kemajuan Teknologi. Para pengrajin meraih rasa hormat berkat bakat luar biasa mereka, menjadi pilar penting Kota. Pengrajin dapat mempercepat efisiensi Perolehan Sumber Daya sekaligus memberikan efek Perkuat untuk sekutu.",
         "ja": "あらゆる発展は技術の進歩なくしてはあり得ない。工匠たちはその優れた才能によって人々の尊敬を集め、町の不可欠な支柱となっている。彼らは資源獲得の効率を上げると同時に、味方に強化効果を付与。",
         "ko": "모든 발전은 기술의 진보를 바탕으로 이루어집니다. 뛰어난 재능을 지닌 장인들은 모두의 존경을 받으며 도시의 중추적인 역할을 하죠. 장인들은 자원 획득 효율을 높이고 아군에게 강화 효과를 부여합니다.",
-        "pt": "A Tecnologia impulsiona todo o progresso. Os Faz-Tudo conquistam respeito por meio de talento excepcional, tornando-se pilares indispensáveis de suas cidades. Eles aumentam a eficiência de aquisição de recursos e concedem melhorias aos aliados."
+        "pt": "A Tecnologia impulsiona todo o progresso. Os Faz-Tudo conquistam respeito por meio de talento excepcional, tornando-se pilares indispensáveis de suas cidades. Eles aumentam a eficiência de aquisição de recursos e concedem melhorias aos aliados.",
+        "ar": "التقنية تدفع كل تقدم. يكسب الحرفيون الاحترام من خلال موهبتهم الاستثنائية، ليصبحوا ركائز لا غنى عنها لمدنهم. إنهم يسرّعون كفاءة الحصول على الموارد مع تقديم التعزيزات للحلفاء.",
+        "it": "La tecnologia guida ogni progresso. I Tuttofare si guadagnano il rispetto grazie a un talento eccezionale, diventando pilastri indispensabili delle loro città. Accelerano l'efficienza di acquisizione delle risorse fornendo potenziamenti agli alleati.",
+        "ms": "Teknologi memacu semua kemajuan. Tukang Serba Guna meraih penghormatan melalui bakat luar biasa mereka, menjadi tonggak penting bagi bandar mereka. Mereka mempercepat kecekapan perolehan sumber sambil memberikan pengukuhan kepada sekutu.",
+        "nl": "Technologie drijft alle vooruitgang aan. Handlangers verdienen respect door uitzonderlijk talent en worden onmisbare pijlers van hun steden. Ze versnellen de efficiëntie van het verzamelen van grondstoffen en bieden versterkingen aan bondgenoten.",
+        "th": "เทคโนโลยีขับเคลื่อนทุกความก้าวหน้า ช่างซ่อมบำรุงได้รับความเคารพผ่านพรสวรรค์อันโดดเด่น กลายเป็นเสาหลักที่ขาดไม่ได้ของเมือง พวกเขาเร่งประสิทธิภาพการหาทรัพยากรพร้อมมอบการเสริมพลังให้พันธมิตร",
+        "tr": "Teknoloji tüm ilerlemenin motorudur. Tamirciler, olağanüstü yetenekleri sayesinde saygı kazanır ve şehirlerinin vazgeçilmez direkleri haline gelir. Müttefiklere güçlendirme sağlarken kaynak edinme verimliliğini artırırlar.",
+        "vi": "Công nghệ thúc đẩy mọi tiến bộ. Những người Thợ Đa năng giành được sự tôn trọng nhờ tài năng xuất chúng, trở thành trụ cột không thể thiếu của thành phố. Họ tăng tốc hiệu quả thu thập tài nguyên đồng thời mang lại cường hóa cho đồng minh.",
+        "zh": "科技推动一切进步。杂工凭借卓越才能赢得尊重，成为城镇不可或缺的支柱。他们提高资源获取效率，同时为盟友提供增益。",
+        "pl": "Technologia napędza wszelki postęp. Złote Rączki zdobywają szacunek dzięki wyjątkowemu talentowi, stając się niezbędnymi filarami swoich miast. Przyspieszają efektywność pozyskiwania zasobów, zapewniając jednocześnie wzmocnienia sojusznikom.",
+        "zh-tw": "科技推動一切進步。雜工憑藉卓越才能贏得尊重，成為城鎮不可或缺的支柱。他們提高資源獲取效率，同時為盟友提供增益。"
       }
     },
     {
@@ -36,7 +56,17 @@
         "id": "Komandan Legion",
         "ja": "軍団総帥",
         "ko": "군단 통솔자",
-        "pt": "Comandante da Legião"
+        "pt": "Comandante da Legião",
+        "ar": "قائد الفيلق",
+        "it": "Comandante della Legione",
+        "ms": "Komander Legion",
+        "nl": "Legioencommandant",
+        "th": "ผู้บัญชาการกองพล",
+        "tr": "Lejyon Komutanı",
+        "vi": "Chỉ huy Binh đoàn",
+        "zh": "军团指挥官",
+        "pl": "Dowódca Legionu",
+        "zh-tw": "軍團指揮官"
       },
       "desc": {
         "ru": "Перед абсолютной властью все прочие голоса ничтожны. Грозный командир сокрушит любые преграды и подчинит себе всех вокруг. Командиры усиливают боеспособность отрядов, применяя тактики для увеличения наносимого урона.",
@@ -47,7 +77,17 @@
         "id": "Di hadapan kekuatan absolut, suara lain akan menjadi lemah tak berdaya. Komandan yang tangguh akan menyapu segala rintangan dan menaklukkan segala penjuru. Komandan dapat memperkuat daya tempur pasukan, sekaligus menggunakan taktik untuk meningkatkan damage yang diterima musuh.",
         "ja": "絶対的な力の前では、他の声は無力に等しい。強力な統帥は、あらゆる障害をなぎ払い、八方を征する。統帥は部隊の戦闘能力を強化すると同時に、戦術を駆使して敵への与ダメージを増加させる。",
         "ko": "절대적인 힘 앞에서는 그 어떤 목소리도 공허할 뿐입니다. 강력한 통솔자는 모든 장애물을 휩쓸고 천하를 정복하죠. 통솔자는 부대의 전투력을 강화하고, 전술을 구사하여 적에게 더 큰 피해를 입힙니다.",
-        "pt": "Diante do poder absoluto, todas as outras vozes se tornam insignificantes. Um comandante formidável supera todos os obstáculos e conquista tudo ao redor. Os Comandantes aumentam a eficácia de combate das tropas e empregam táticas para amplificar o dano causado a inimigos."
+        "pt": "Diante do poder absoluto, todas as outras vozes se tornam insignificantes. Um comandante formidável supera todos os obstáculos e conquista tudo ao redor. Os Comandantes aumentam a eficácia de combate das tropas e empregam táticas para amplificar o dano causado a inimigos.",
+        "ar": "أمام القوة المطلقة، تتلاشى كل الأصوات الأخرى. القائد المهيب سيزيح كل العقبات ويخضع كل الاتجاهات. يعزز القادة الفعالية القتالية للقوات مع توظيف التكتيكات لتضخيم الضرر الموجَّه للأعداء.",
+        "it": "Di fronte al potere assoluto, ogni altra voce svanisce. Un comandante formidabile spazzerà via ogni ostacolo e conquisterà in ogni direzione. I comandanti rafforzano l'efficacia in combattimento delle truppe usando tattiche per amplificare i danni inflitti ai nemici.",
+        "ms": "Di hadapan kuasa mutlak, semua suara lain menjadi tidak penting. Komander yang hebat akan menyapu segala halangan dan menakluki semua arah. Para Komander mengukuhkan keberkesanan tempur tentera sambil menggunakan taktik untuk menggandakan kerosakan terhadap musuh.",
+        "nl": "Voor absolute macht vervagen alle andere stemmen. Een geduchte commandant ruimt alle obstakels uit de weg en verovert in alle richtingen. Commandanten versterken de gevechtseffectiviteit van troepen en gebruiken tactieken om de schade aan vijanden te vergroten.",
+        "th": "ต่อหน้าพลังอันสมบูรณ์ เสียงอื่นๆ ล้วนไร้ความหมาย ผู้บัญชาการผู้เกรียงไกรจะกวาดล้างทุกอุปสรรคและพิชิตทุกทิศทาง ผู้บัญชาการเสริมประสิทธิภาพการรบของกองทัพ พร้อมใช้กลยุทธ์เพื่อขยายดาเมจที่ทำต่อศัตรู",
+        "tr": "Mutlak gücün karşısında diğer tüm sesler silinir. Kudretli bir komutan tüm engelleri süpürür ve her yönü fetheder. Komutanlar, düşmanlara verilen hasarı artıran taktikler kullanırken birliklerin savaş etkinliğini güçlendirir.",
+        "vi": "Trước sức mạnh tuyệt đối, mọi tiếng nói khác đều trở nên vô nghĩa. Một chỉ huy đáng gờm sẽ quét sạch mọi chướng ngại và chinh phục mọi hướng. Các Chỉ huy tăng cường hiệu quả chiến đấu của quân đội đồng thời dùng chiến thuật để khuếch đại sát thương lên kẻ địch.",
+        "zh": "在绝对力量面前，其他一切声音都微不足道。强大的指挥官将扫除一切障碍，征服四方。指挥官们加强部队的作战效能，同时运用战术放大对敌人造成的伤害。",
+        "pl": "W obliczu absolutnej potęgi wszystkie inne głosy bledną. Groźny dowódca usunie wszelkie przeszkody i podbije wszystkie strony. Dowódcy wzmacniają skuteczność bojową wojsk, stosując taktyki zwiększające obrażenia zadawane wrogom.",
+        "zh-tw": "在絕對力量面前，其他一切聲音都微不足道。強大的指揮官將掃除一切障礙，征服四方。指揮官們加強部隊的作戰效能，同時運用戰術放大對敵人造成的傷害。"
       }
     }
   ],
@@ -64,7 +104,17 @@
         "id": "Produksi Instan",
         "ja": "今すぐ生産",
         "ko": "즉시 생산",
-        "pt": "Produção Instantânea"
+        "pt": "Produção Instantânea",
+        "ar": "إنتاج فوري",
+        "it": "Produzione istantanea",
+        "ms": "Hasil Segera",
+        "nl": "Direct produceren",
+        "th": "ผลิตทันที",
+        "tr": "Anında Üretim",
+        "vi": "Sản xuất Tức thì",
+        "zh": "立即生产",
+        "pl": "Natychmiastowa produkcja",
+        "zh-tw": "立即生產"
       },
       "desc": {}
     },
@@ -80,7 +130,17 @@
         "id": "Kontribusi Luar Biasa",
         "ja": "大貢献",
         "ko": "탁월한 공헌",
-        "pt": "Contribuição Excepcional"
+        "pt": "Contribuição Excepcional",
+        "ar": "مساهمة متميزة",
+        "it": "Contributo eccezionale",
+        "ms": "Sumbangan Cemerlang",
+        "nl": "Uitstekende bijdrage",
+        "th": "ผลงานโดดเด่น",
+        "tr": "Üstün Katkı",
+        "vi": "Đóng góp Xuất sắc",
+        "zh": "杰出贡献",
+        "pl": "Wybitny wkład",
+        "zh-tw": "傑出貢獻"
       },
       "desc": {}
     },
@@ -96,7 +156,17 @@
         "id": "Stamina Berlimpah",
         "ja": "スタミナ満タン",
         "ko": "활력 충만",
-        "pt": "Vitalidade & Vigor"
+        "pt": "Vitalidade & Vigor",
+        "ar": "الحيوية والنشاط",
+        "it": "Vitalità e vigore",
+        "ms": "Kecergasan & Tenaga",
+        "nl": "Vitaliteit en kracht",
+        "th": "พลังชีวิตและความกระปรี้กระเปร่า",
+        "tr": "Dinçlik ve Güç",
+        "vi": "Sinh lực & Tinh lực",
+        "zh": "活力与干劲",
+        "pl": "Witalność i wigor",
+        "zh-tw": "活力與幹勁"
       },
       "desc": {}
     },
@@ -112,7 +182,17 @@
         "id": "Demam Serbu Kota",
         "ja": "攻城フィーバー",
         "ko": "공성의 광란",
-        "pt": "Frenesi de Cerco"
+        "pt": "Frenesi de Cerco",
+        "ar": "جنون الحصار",
+        "it": "Frenesia d'assedio",
+        "ms": "Amuk Pengepungan",
+        "nl": "Belegeringsrazernij",
+        "th": "คลั่งโจมตี",
+        "tr": "Kuşatma Coşkusu",
+        "vi": "Cuồng nộ Công thành",
+        "zh": "攻城狂热",
+        "pl": "Szał oblężenia",
+        "zh-tw": "攻城狂熱"
       },
       "desc": {}
     },
@@ -128,7 +208,17 @@
         "id": "Bangun Gratis",
         "ja": "無料建設",
         "ko": "무료 건설",
-        "pt": "Construção Gratuita"
+        "pt": "Construção Gratuita",
+        "ar": "بناء مجاني",
+        "it": "Costruzione gratuita",
+        "ms": "Bina Percuma",
+        "nl": "Gratis bouwen",
+        "th": "ก่อสร้างฟรี",
+        "tr": "Ücretsiz İnşaat",
+        "vi": "Xây dựng Miễn phí",
+        "zh": "免费建造",
+        "pl": "Darmowa budowa",
+        "zh-tw": "免費建造"
       },
       "desc": {}
     },
@@ -144,7 +234,17 @@
         "id": "Riset Gratis",
         "ja": "無料研究",
         "ko": "무료 연구",
-        "pt": "Pesquisa Gratuita"
+        "pt": "Pesquisa Gratuita",
+        "ar": "بحث مجاني",
+        "it": "Ricerca gratuita",
+        "ms": "Kajian Percuma",
+        "nl": "Gratis onderzoek",
+        "th": "วิจัยฟรี",
+        "tr": "Ücretsiz Araştırma",
+        "vi": "Nghiên cứu Miễn phí",
+        "zh": "免费研究",
+        "pl": "Darmowe badania",
+        "zh-tw": "免費研究"
       },
       "desc": {}
     },
@@ -160,7 +260,17 @@
         "id": "Bangun Sekarang",
         "ja": "今すぐ建設",
         "ko": "즉시 건설",
-        "pt": "Construção Instantânea"
+        "pt": "Construção Instantânea",
+        "ar": "بناء فوري",
+        "it": "Costruzione istantanea",
+        "ms": "Bina Segera",
+        "nl": "Direct bouwen",
+        "th": "ก่อสร้างทันที",
+        "tr": "Anında İnşaat",
+        "vi": "Xây dựng Tức thì",
+        "zh": "立即建造",
+        "pl": "Natychmiastowa budowa",
+        "zh-tw": "立即建造"
       },
       "desc": {}
     },
@@ -176,7 +286,17 @@
         "id": "Riset Sekarang",
         "ja": "今すぐ研究",
         "ko": "즉시 연구",
-        "pt": "Pesquisa instantânea"
+        "pt": "Pesquisa instantânea",
+        "ar": "بحث فوري",
+        "it": "Ricerca istantanea",
+        "ms": "Kajian Segera",
+        "nl": "Direct onderzoek",
+        "th": "วิจัยทันที",
+        "tr": "Anında Araştırma",
+        "vi": "Nghiên cứu Tức thì",
+        "zh": "立即研究",
+        "pl": "Natychmiastowe badania",
+        "zh-tw": "立即研究"
       },
       "desc": {}
     },
@@ -192,7 +312,17 @@
         "id": "Langkah Cepat",
         "ja": "俊足",
         "ko": "신속한 걸음",
-        "pt": "Passo Veloz"
+        "pt": "Passo Veloz",
+        "ar": "خطوة سريعة",
+        "it": "Passo rapido",
+        "ms": "Langkah Pantas",
+        "nl": "Snelle pas",
+        "th": "ก้าวฉับไว",
+        "tr": "Hızlı Adım",
+        "vi": "Bước Nhanh",
+        "zh": "疾行",
+        "pl": "Szybki krok",
+        "zh-tw": "疾行"
       },
       "desc": {}
     },
@@ -208,7 +338,17 @@
         "id": "Bendera Pengepungan",
         "ja": "攻城戦旗",
         "ko": "공성 전투 깃발",
-        "pt": "Bandeira de Guerra de Cerco"
+        "pt": "Bandeira de Guerra de Cerco",
+        "ar": "راية حرب الحصار",
+        "it": "Stendardo di guerra d'assedio",
+        "ms": "Panji Perang Pengepungan",
+        "nl": "Belegeringsoorlogsvlag",
+        "th": "ธงสงครามปิดล้อม",
+        "tr": "Kuşatma Savaş Sancağı",
+        "vi": "Chiến kỳ Công thành",
+        "zh": "攻城战旗",
+        "pl": "Sztandar wojny oblężniczej",
+        "zh-tw": "攻城戰旗"
       },
       "desc": {}
     },
@@ -224,7 +364,17 @@
         "id": "EXP Tempur",
         "ja": "作戦経験",
         "ko": "작전 경험치",
-        "pt": "EXP de Combate"
+        "pt": "EXP de Combate",
+        "ar": "خبرة قتالية",
+        "it": "EXP combattimento",
+        "ms": "EXP Tempur",
+        "nl": "Gevechts-EXP",
+        "th": "EXP การต่อสู้",
+        "tr": "Savaş EXP",
+        "vi": "EXP Chiến đấu",
+        "zh": "战斗经验",
+        "pl": "PD walki",
+        "zh-tw": "戰鬥經驗"
       },
       "desc": {}
     },
@@ -240,7 +390,17 @@
         "id": "Bantuan Persahabatan",
         "ja": "友情援助",
         "ko": "우정 지원",
-        "pt": "Ajuda da Aliança"
+        "pt": "Ajuda da Aliança",
+        "ar": "مساعدة التحالف",
+        "it": "Aiuto alleanza",
+        "ms": "Bantuan Pakatan",
+        "nl": "Alliantiehulp",
+        "th": "ช่วยเหลือพันธมิตร",
+        "tr": "İttifak Yardımı",
+        "vi": "Viện trợ Liên minh",
+        "zh": "联盟援助",
+        "pl": "Pomoc sojuszu",
+        "zh-tw": "聯盟援助"
       },
       "desc": {}
     },
@@ -256,7 +416,17 @@
         "id": "Membantu Bangunan",
         "ja": "建物協力",
         "ko": "건설 협조",
-        "pt": "Ajudar em Edifício"
+        "pt": "Ajudar em Edifício",
+        "ar": "مساعدة البناء",
+        "it": "Aiuto costruzione",
+        "ms": "Bantu Bina",
+        "nl": "Bouwhulp",
+        "th": "ช่วยก่อสร้าง",
+        "tr": "İnşaat Yardımı",
+        "vi": "Hỗ trợ Xây dựng",
+        "zh": "建造协助",
+        "pl": "Pomoc w budowie",
+        "zh-tw": "建造協助"
       },
       "desc": {}
     },
@@ -272,7 +442,17 @@
         "id": "Membantu Riset",
         "ja": "研究協力",
         "ko": "연구 협조",
-        "pt": "Ajudar em Pesquisa"
+        "pt": "Ajudar em Pesquisa",
+        "ar": "مساعدة البحث",
+        "it": "Aiuto ricerca",
+        "ms": "Bantu Kajian",
+        "nl": "Onderzoekshulp",
+        "th": "ช่วยวิจัย",
+        "tr": "Araştırma Yardımı",
+        "vi": "Hỗ trợ Nghiên cứu",
+        "zh": "研究协助",
+        "pl": "Pomoc w badaniach",
+        "zh-tw": "研究協助"
       },
       "desc": {}
     },
@@ -288,7 +468,17 @@
         "id": "Seni Membangun",
         "ja": "建設アート",
         "ko": "건설 예술",
-        "pt": "Arte da Arquitetura"
+        "pt": "Arte da Arquitetura",
+        "ar": "فن العمارة",
+        "it": "Arte dell'architettura",
+        "ms": "Seni Bina",
+        "nl": "Bouwkunst",
+        "th": "ศิลปะสถาปัตยกรรม",
+        "tr": "Mimari Sanatı",
+        "vi": "Nghệ thuật Kiến trúc",
+        "zh": "建筑艺术",
+        "pl": "Sztuka architektury",
+        "zh-tw": "建築藝術"
       },
       "desc": {}
     },
@@ -304,7 +494,17 @@
         "id": "Daur Ulang",
         "ja": "循環利用",
         "ko": "재활용",
-        "pt": "Reciclagem de Materiais"
+        "pt": "Reciclagem de Materiais",
+        "ar": "إعادة تدوير المواد",
+        "it": "Riciclo materiali",
+        "ms": "Kitar Semula Bahan",
+        "nl": "Materiaalrecycling",
+        "th": "รีไซเคิลวัสดุ",
+        "tr": "Malzeme Geri Dönüşümü",
+        "vi": "Tái chế Nguyên liệu",
+        "zh": "材料回收",
+        "pl": "Recykling materiałów",
+        "zh-tw": "材料回收"
       },
       "desc": {}
     },
@@ -320,7 +520,17 @@
         "id": "Kekuatan Penyembuhan",
         "ja": "治療の力",
         "ko": "치료의 힘",
-        "pt": "Força Curativa"
+        "pt": "Força Curativa",
+        "ar": "قوة الشفاء",
+        "it": "Forza curativa",
+        "ms": "Pasukan Penyembuh",
+        "nl": "Genezende kracht",
+        "th": "พลังรักษา",
+        "tr": "İyileştirme Gücü",
+        "vi": "Lực lượng Hồi phục",
+        "zh": "治疗之力",
+        "pl": "Lecznicza siła",
+        "zh-tw": "治療之力"
       },
       "desc": {}
     },
@@ -336,7 +546,17 @@
         "id": "Perisai Persahabatan",
         "ja": "友情の盾",
         "ko": "우정의 보호막",
-        "pt": "Escudo de Vínculo"
+        "pt": "Escudo de Vínculo",
+        "ar": "درع الرابطة",
+        "it": "Scudo del legame",
+        "ms": "Perisai Ikatan",
+        "nl": "Verbondsschild",
+        "th": "โล่สายสัมพันธ์",
+        "tr": "Bağ Kalkanı",
+        "vi": "Khiên Kết nối",
+        "zh": "羁绊护盾",
+        "pl": "Tarcza więzi",
+        "zh-tw": "羈絆護盾"
       },
       "desc": {}
     },
@@ -352,7 +572,17 @@
         "id": "Pasokan Burung Gagak Sihir",
         "ja": "レイヴン補給",
         "ko": "까마귀 보급",
-        "pt": "Suprimento do Corvo"
+        "pt": "Suprimento do Corvo",
+        "ar": "إمداد الغراب",
+        "it": "Rifornimento Corvo",
+        "ms": "Bekalan Raven",
+        "nl": "Raven-bevoorrading",
+        "th": "เสบียงกา",
+        "tr": "Kuzgun İkmali",
+        "vi": "Tiếp tế Quạ",
+        "zh": "渡鸦补给",
+        "pl": "Zaopatrzenie Kruka",
+        "zh-tw": "渡鴉補給"
       },
       "desc": {
         "ru": "Получите награду Ворона в зависимости от вашего уровня.",
@@ -363,7 +593,17 @@
         "id": "Dapatkan satu Hadiah Burung Gagak Sihir, isi Hadiah terkait dengan Level",
         "ja": "レイヴンの報酬を1つ獲得、報酬内容はレベルによって決まる",
         "ko": "까마귀의 보상 1개를 획득한다(보상 내용은 레벨에 따라 결정된다)",
-        "pt": "Obtenha uma Recompensa de Corvo com base no seu nível."
+        "pt": "Obtenha uma Recompensa de Corvo com base no seu nível.",
+        "ar": "احصل على مكافأة الغراب بناءً على مستواك.",
+        "it": "Ottieni una ricompensa del Corvo in base al tuo livello.",
+        "ms": "Dapatkan Ganjaran Raven berdasarkan tahap anda.",
+        "nl": "Verkrijg een Raven-beloning op basis van je niveau.",
+        "th": "รับรางวัลกาตามเลเวลของคุณ",
+        "tr": "Seviyene göre Kuzgun Ödülü kazan.",
+        "vi": "Nhận Phần thưởng Quạ dựa trên cấp độ của bạn.",
+        "zh": "根据你的等级获得渡鸦奖励。",
+        "pl": "Zdobądź Nagrodę Kruka na podstawie swojego poziomu.",
+        "zh-tw": "根據你的等級獲得渡鴉獎勵。"
       }
     },
     {
@@ -378,7 +618,17 @@
         "id": "Pertahanan Kokoh",
         "ja": "鉄壁防御",
         "ko": "견고한 방어",
-        "pt": "Defesa Sólida"
+        "pt": "Defesa Sólida",
+        "ar": "دفاع متين",
+        "it": "Difesa solida",
+        "ms": "Pertahanan Kukuh",
+        "nl": "Solide verdediging",
+        "th": "ป้องกันแน่นหนา",
+        "tr": "Sağlam Savunma",
+        "vi": "Phòng thủ Vững chắc",
+        "zh": "坚固防御",
+        "pl": "Solidna obrona",
+        "zh-tw": "堅固防禦"
       },
       "desc": {}
     },
@@ -394,7 +644,17 @@
         "id": "Pengunjung Acak",
         "ja": "ランダム訪問者",
         "ko": "랜덤 방문객",
-        "pt": "Visitante Aleatório"
+        "pt": "Visitante Aleatório",
+        "ar": "زائر عشوائي",
+        "it": "Visitatore casuale",
+        "ms": "Pelawat Rawak",
+        "nl": "Willekeurige bezoeker",
+        "th": "ผู้มาเยือนแบบสุ่ม",
+        "tr": "Rastgele Ziyaretçi",
+        "vi": "Khách Ngẫu nhiên",
+        "zh": "随机访客",
+        "pl": "Losowy gość",
+        "zh-tw": "隨機訪客"
       },
       "desc": {}
     },
@@ -410,7 +670,17 @@
         "id": "Bahaya Tersembunyi",
         "ja": "潜む危機",
         "ko": "도사리는 위기",
-        "pt": "Perigo Oculto"
+        "pt": "Perigo Oculto",
+        "ar": "خطر خفي",
+        "it": "Pericolo nascosto",
+        "ms": "Bahaya Tersembunyi",
+        "nl": "Verborgen gevaar",
+        "th": "ภัยซ่อนเร้น",
+        "tr": "Gizli Tehlike",
+        "vi": "Hiểm họa Ẩn",
+        "zh": "隐秘威胁",
+        "pl": "Ukryte zagrożenie",
+        "zh-tw": "隱祕威脅"
       },
       "desc": {}
     },
@@ -426,7 +696,17 @@
         "id": "Kembali Sekarang",
         "ja": "すぐに戻る",
         "ko": "즉시 복귀",
-        "pt": "Voltar Agora"
+        "pt": "Voltar Agora",
+        "ar": "عودة فورية",
+        "it": "Ritorno immediato",
+        "ms": "Kembali Sekarang",
+        "nl": "Keer direct terug",
+        "th": "กลับทันที",
+        "tr": "Hemen Dön",
+        "vi": "Về Ngay",
+        "zh": "立即返回",
+        "pl": "Wróć teraz",
+        "zh-tw": "立即返回"
       },
       "desc": {}
     },
@@ -442,7 +722,17 @@
         "id": "Latih Sekarang",
         "ja": "すぐに訓練",
         "ko": "즉시 훈련",
-        "pt": "Treinar Agora"
+        "pt": "Treinar Agora",
+        "ar": "تدريب فوري",
+        "it": "Addestramento immediato",
+        "ms": "Latih Sekarang",
+        "nl": "Train direct",
+        "th": "ฝึกทันที",
+        "tr": "Hemen Eğit",
+        "vi": "Huấn luyện Ngay",
+        "zh": "立即训练",
+        "pl": "Trenuj teraz",
+        "zh-tw": "立即訓練"
       },
       "desc": {}
     },
@@ -458,7 +748,17 @@
         "id": "Perluas Barak",
         "ja": "兵営拡張",
         "ko": "병영 확장",
-        "pt": "Expansão do Quartel"
+        "pt": "Expansão do Quartel",
+        "ar": "توسيع الثكنات",
+        "it": "Espansione caserma",
+        "ms": "Peluasan Berek",
+        "nl": "Kazerne-uitbreiding",
+        "th": "ขยายค่ายทหาร",
+        "tr": "Kışla Genişletme",
+        "vi": "Mở rộng Doanh trại",
+        "zh": "兵营扩建",
+        "pl": "Rozbudowa koszar",
+        "zh-tw": "兵營擴建"
       },
       "desc": {}
     },
@@ -474,7 +774,17 @@
         "id": "Perluas Rumah Sakit",
         "ja": "病院拡張",
         "ko": "병원 확장",
-        "pt": "Expansão da Enfermaria"
+        "pt": "Expansão da Enfermaria",
+        "ar": "توسيع المستشفى",
+        "it": "Espansione infermeria",
+        "ms": "Peluasan Klinik",
+        "nl": "Ziekenboeguitbreiding",
+        "th": "ขยายโรงพยาบาล",
+        "tr": "Hastane Genişletme",
+        "vi": "Mở rộng Trạm y tế",
+        "zh": "医院扩建",
+        "pl": "Rozbudowa szpitala",
+        "zh-tw": "醫院擴建"
       },
       "desc": {}
     },
@@ -490,7 +800,17 @@
         "id": "Fanatik",
         "ja": "熱狂",
         "ko": "광란",
-        "pt": "Frenesi"
+        "pt": "Frenesi",
+        "ar": "هياج",
+        "it": "Frenesia",
+        "ms": "Amuk",
+        "nl": "Razernij",
+        "th": "คลั่ง",
+        "tr": "Coşku",
+        "vi": "Cuồng nộ",
+        "zh": "狂热",
+        "pl": "Szał",
+        "zh-tw": "狂熱"
       },
       "desc": {}
     },
@@ -506,7 +826,17 @@
         "id": "Perawatan Darurat",
         "ja": "緊急治療",
         "ko": "긴급 치료",
-        "pt": "Tratamento de Emergência"
+        "pt": "Tratamento de Emergência",
+        "ar": "علاج طارئ",
+        "it": "Trattamento d'emergenza",
+        "ms": "Rawatan Kecemasan",
+        "nl": "Spoedbehandeling",
+        "th": "รักษาฉุกเฉิน",
+        "tr": "Acil Tedavi",
+        "vi": "Điều trị Khẩn cấp",
+        "zh": "紧急治疗",
+        "pl": "Leczenie awaryjne",
+        "zh-tw": "緊急治療"
       },
       "desc": {}
     },
@@ -522,7 +852,17 @@
         "id": "Tembakan Terfokus",
         "ja": "火力集中",
         "ko": "화력 집중",
-        "pt": "Fogo Concentrado"
+        "pt": "Fogo Concentrado",
+        "ar": "نيران مركزة",
+        "it": "Fuoco concentrato",
+        "ms": "Tembakan Bertumpu",
+        "nl": "Geconcentreerd vuur",
+        "th": "ยิงรวมศูนย์",
+        "tr": "Yoğun Ateş",
+        "vi": "Hỏa lực Tập trung",
+        "zh": "集火射击",
+        "pl": "Skoncentrowany ogień",
+        "zh-tw": "集火射擊"
       },
       "desc": {}
     },
@@ -538,7 +878,17 @@
         "id": "Pelatihan Intensif",
         "ja": "集中特訓",
         "ko": "집중 특훈",
-        "pt": "Treino Intensivo"
+        "pt": "Treino Intensivo",
+        "ar": "تدريب مكثف",
+        "it": "Addestramento intensivo",
+        "ms": "Latihan Intensif",
+        "nl": "Intensieve training",
+        "th": "ฝึกเข้มข้น",
+        "tr": "Yoğun Eğitim",
+        "vi": "Huấn luyện Chuyên sâu",
+        "zh": "强化训练",
+        "pl": "Intensywny trening",
+        "zh-tw": "強化訓練"
       },
       "desc": {}
     },
@@ -554,7 +904,17 @@
         "id": "Pawai Tanah Tandus",
         "ja": "悪地行軍",
         "ko": "황무지 행군",
-        "pt": "Marcha pelos Ermos"
+        "pt": "Marcha pelos Ermos",
+        "ar": "مسيرة الأرض القاحلة",
+        "it": "Marcia della landa",
+        "ms": "Perarakan Tanah Terbiar",
+        "nl": "Woestenijmars",
+        "th": "เดินทัพดินแดนรกร้าง",
+        "tr": "Issız Toprak Yürüyüşü",
+        "vi": "Hành quân Hoang mạc",
+        "zh": "荒原行军",
+        "pl": "Marsz przez pustkowia",
+        "zh-tw": "荒原行軍"
       },
       "desc": {}
     },
@@ -570,7 +930,17 @@
         "id": "Pasokan Perang",
         "ja": "戦時補給",
         "ko": "전쟁 보급",
-        "pt": "Suprimentos de Guerra"
+        "pt": "Suprimentos de Guerra",
+        "ar": "الإمداد الحربي",
+        "it": "Rifornimento di guerra",
+        "ms": "Bekalan Perang",
+        "nl": "Oorlogsbevoorrading",
+        "th": "เสบียงสงคราม",
+        "tr": "Savaş İkmali",
+        "vi": "Tiếp tế Chiến tranh",
+        "zh": "战争补给",
+        "pl": "Zaopatrzenie wojenne",
+        "zh-tw": "戰爭補給"
       },
       "desc": {}
     },
@@ -586,7 +956,17 @@
         "id": "Peningkatan Moral",
         "ja": "士気鼓舞",
         "ko": "사기 진작",
-        "pt": "Aumentar Moral"
+        "pt": "Aumentar Moral",
+        "ar": "رفع الروح المعنوية",
+        "it": "Sostieni il morale",
+        "ms": "Naikkan Semangat",
+        "nl": "Verhoog het moreel",
+        "th": "ปลุกขวัญกำลังใจ",
+        "tr": "Morali Yükselt",
+        "vi": "Tăng Sĩ khí",
+        "zh": "鼓舞士气",
+        "pl": "Podnieś morale",
+        "zh-tw": "鼓舞士氣"
       },
       "desc": {}
     },
@@ -602,7 +982,17 @@
         "id": "Percepat Bala Bantuan",
         "ja": "増援加速",
         "ko": "증원 가속",
-        "pt": "Aceleração de Reforços"
+        "pt": "Aceleração de Reforços",
+        "ar": "تسريع التعزيزات",
+        "it": "Accelerazione rinforzi",
+        "ms": "Percepat Bantuan",
+        "nl": "Versterkingversnelling",
+        "th": "เร่งกำลังเสริม",
+        "tr": "Takviye Hızlandırma",
+        "vi": "Tăng tốc Viện binh",
+        "zh": "增援加速",
+        "pl": "Przyspieszenie posiłków",
+        "zh-tw": "增援加速"
       },
       "desc": {}
     },
@@ -618,7 +1008,17 @@
         "id": "Serangan Tim",
         "ja": "パーティーレイド",
         "ko": "팀 습격",
-        "pt": "Ataque em Equipe"
+        "pt": "Ataque em Equipe",
+        "ar": "غارة الفريق",
+        "it": "Raid di squadra",
+        "ms": "Serbuan Pasukan",
+        "nl": "Teamraid",
+        "th": "บุกจู่โจมทีม",
+        "tr": "Ekip Baskını",
+        "vi": "Đột kích Đội",
+        "zh": "团队突袭",
+        "pl": "Rajd drużynowy",
+        "zh-tw": "團隊突襲"
       },
       "desc": {}
     },
@@ -634,7 +1034,17 @@
         "id": "Penyamaran Identitas",
         "ja": "正体隠し",
         "ko": "신분 위장",
-        "pt": "Identidade Oculta"
+        "pt": "Identidade Oculta",
+        "ar": "هوية مستترة",
+        "it": "Identità nascosta",
+        "ms": "Identiti Terselindung",
+        "nl": "Verborgen identiteit",
+        "th": "ตัวตนที่ซ่อนเร้น",
+        "tr": "Gizli Kimlik",
+        "vi": "Thân phận Ẩn",
+        "zh": "隐匿身份",
+        "pl": "Ukryta tożsamość",
+        "zh-tw": "隱匿身份"
       },
       "desc": {
         "ru": "Входит в режим маскировки: скрывает личные данные и не отображается в боевых отчётах противника. Длительность: 30 мин. Перезарядка: 47.5 ч.",
@@ -645,7 +1055,17 @@
         "id": "Masuk mode kamuflase: menyembunyikan info pribadi dan tidak muncul di laporan perang musuh, berlangsung 30 menit, cooldown 47,5 jam",
         "ja": "偽装状態に入る：個人情報を非表示にし、敵の戦闘レポートに表示されなくなる。持続時間30分、クールダウン47.5時間",
         "ko": "위장 상태 진입: 개인 정보가 숨겨지고, 적 전투 보고서에 뜨지 않는다(30분 지속, 쿨타임 47.5시간)",
-        "pt": "Ativar Modo Disfarce: Oculta informações pessoais e não aparece nos relatórios de batalha inimigos, dura 30 min. Recarga: 47,5h"
+        "pt": "Ativar Modo Disfarce: Oculta informações pessoais e não aparece nos relatórios de batalha inimigos, dura 30 min. Recarga: 47,5h",
+        "ar": "ادخل وضع التنكر: أخفِ معلوماتك الشخصية ولن تظهر في تقارير معارك العدو، يستمر 30 دقيقة. فترة التهدئة: 47.5 ساعة.",
+        "it": "Entra in modalità travestimento: nascondi le informazioni personali e non apparirai nei rapporti di battaglia nemici, dura 30 min. Ricarica: 47,5 h.",
+        "ms": "Masuk Mod Disamaran: Sembunyikan maklumat peribadi dan tidak akan muncul dalam laporan pertempuran musuh, bertahan 30m. Masa bertenang: 47.5j.",
+        "nl": "Ga naar de vermommingsmodus: verberg persoonlijke informatie en verschijn niet in vijandelijke gevechtsrapporten, duurt 30 min. Afkoeling: 47,5 u.",
+        "th": "เข้าสู่โหมดปลอมตัว: ซ่อนข้อมูลส่วนตัวและจะไม่ปรากฏในรายงานการรบของศัตรู นาน 30 นาที คูลดาวน์: 47.5 ชม.",
+        "tr": "Kılık Değiştirme Moduna gir: Kişisel bilgileri gizle ve düşman savaş raporlarında görünme, 30 dk sürer. Bekleme süresi: 47,5 sa.",
+        "vi": "Vào Chế độ Ngụy trang: Ẩn thông tin cá nhân và sẽ không xuất hiện trong báo cáo chiến đấu của địch, kéo dài 30 phút. Hồi chiêu: 47,5 giờ.",
+        "zh": "进入伪装模式：隐藏个人信息，不会出现在敌方战斗报告中，持续30分钟。冷却时间：47.5小时。",
+        "pl": "Wejdź w tryb przebrania: ukryj dane osobowe, nie pojawisz się we wrogich raportach bitewnych, trwa 30 min. Czas odnowienia: 47,5 godz.",
+        "zh-tw": "進入偽裝模式：隱藏個人資訊，不會出現在敵方戰鬥報告中，持續30分鐘。冷卻時間：47.5小時。"
       }
     },
     {
@@ -660,7 +1080,17 @@
         "id": "Buff Penuh",
         "ja": "全力バフ",
         "ko": "총력 버프",
-        "pt": "Buff de Força Total"
+        "pt": "Buff de Força Total",
+        "ar": "تعزيز القوة الكاملة",
+        "it": "Potenziamento totale",
+        "ms": "Buff Kuasa Penuh",
+        "nl": "Volledige krachtbuff",
+        "th": "บัฟพลังเต็มที่",
+        "tr": "Tam Güç Takviyesi",
+        "vi": "Buff Toàn lực",
+        "zh": "全力增益",
+        "pl": "Pełne wzmocnienie",
+        "zh-tw": "全力增益"
       },
       "desc": {}
     },
@@ -676,7 +1106,17 @@
         "id": "Perkuat Bantuan",
         "ja": "増援強化",
         "ko": "증원 강화",
-        "pt": "Aprimorar Reforço"
+        "pt": "Aprimorar Reforço",
+        "ar": "تعزيز التعزيزات",
+        "it": "Potenziamento rinforzi",
+        "ms": "Perkuat Bantuan",
+        "nl": "Versterkingsverbetering",
+        "th": "เสริมกำลังเสริม",
+        "tr": "Takviye Güçlendirme",
+        "vi": "Cường hóa Viện binh",
+        "zh": "增援强化",
+        "pl": "Wzmocnienie posiłków",
+        "zh-tw": "增援強化"
       },
       "desc": {}
     },
@@ -692,7 +1132,17 @@
         "id": "Lemah",
         "ja": "弱体化",
         "ko": "쇠약",
-        "pt": "Enfraquecido"
+        "pt": "Enfraquecido",
+        "ar": "إضعاف",
+        "it": "Indebolimento",
+        "ms": "Lemah",
+        "nl": "Verzwakt",
+        "th": "อ่อนแอ",
+        "tr": "Zayıflatılmış",
+        "vi": "Suy yếu",
+        "zh": "虚弱",
+        "pl": "Osłabienie",
+        "zh-tw": "虛弱"
       },
       "desc": {}
     },
@@ -708,7 +1158,17 @@
         "id": "Bendera Serbu",
         "ja": "突撃戦旗",
         "ko": "돌격 전투 깃발",
-        "pt": "Carregando a Bandeira de Guerra"
+        "pt": "Carregando a Bandeira de Guerra",
+        "ar": "راية الحرب الهجومية",
+        "it": "Stendardo d'assalto",
+        "ms": "Panji Perang Penyerang",
+        "nl": "Aanvalsoorlogsvlag",
+        "th": "ธงสงครามบุกทะลวง",
+        "tr": "Hücum Savaş Sancağı",
+        "vi": "Chiến kỳ Xung phong",
+        "zh": "冲锋战旗",
+        "pl": "Szturmowy sztandar wojenny",
+        "zh-tw": "衝鋒戰旗"
       },
       "desc": {}
     },
@@ -724,7 +1184,17 @@
         "id": "Bertahan Posisi",
         "ja": "陣地死守",
         "ko": "진지 사수",
-        "pt": "Mantenha a Posição"
+        "pt": "Mantenha a Posição",
+        "ar": "اثبت في الخط",
+        "it": "Tieni la linea",
+        "ms": "Pertahankan Barisan",
+        "nl": "Houd de linie",
+        "th": "ยืนหยัดแนวรบ",
+        "tr": "Hattı Tut",
+        "vi": "Giữ Vững Tuyến",
+        "zh": "坚守防线",
+        "pl": "Trzymaj linię",
+        "zh-tw": "堅守防線"
       },
       "desc": {}
     },
@@ -740,7 +1210,17 @@
         "id": "Reli Penjaga",
         "ja": "集結防衛",
         "ko": "집결 수호",
-        "pt": "Mobilizar Guardião"
+        "pt": "Mobilizar Guardião",
+        "ar": "حارس الحشد",
+        "it": "Guardiano del rally",
+        "ms": "Penjaga Perhimpunan",
+        "nl": "Rally-beschermer",
+        "th": "ผู้พิทักษ์การรวมพล",
+        "tr": "Toplanma Muhafızı",
+        "vi": "Hộ vệ Tập kết",
+        "zh": "集结守卫",
+        "pl": "Strażnik rajdu",
+        "zh-tw": "集結守衛"
       },
       "desc": {}
     },
@@ -756,7 +1236,17 @@
         "id": "Serangan Wilayah",
         "ja": "領地侵攻",
         "ko": "영지 침략",
-        "pt": "Ataque ao Território"
+        "pt": "Ataque ao Território",
+        "ar": "غارة الأراضي",
+        "it": "Raid territoriale",
+        "ms": "Serbuan Wilayah",
+        "nl": "Gebiedsraid",
+        "th": "บุกดินแดน",
+        "tr": "Bölge Baskını",
+        "vi": "Đột kích Lãnh thổ",
+        "zh": "领地突袭",
+        "pl": "Rajd na terytorium",
+        "zh-tw": "領地突襲"
       },
       "desc": {}
     },
@@ -772,7 +1262,17 @@
         "id": "Singkirkan Ancaman",
         "ja": "脅威排除",
         "ko": "위험 요소 제거",
-        "pt": "Elimine as Ameaças"
+        "pt": "Elimine as Ameaças",
+        "ar": "القضاء على التهديدات",
+        "it": "Elimina le minacce",
+        "ms": "Hapuskan Ancaman",
+        "nl": "Schakel dreigingen uit",
+        "th": "กำจัดภัยคุกคาม",
+        "tr": "Tehditleri Ortadan Kaldır",
+        "vi": "Loại bỏ Mối đe dọa",
+        "zh": "消除威胁",
+        "pl": "Wyeliminuj zagrożenia",
+        "zh-tw": "消除威脅"
       },
       "desc": {}
     }

@@ -8,7 +8,17 @@
     "id": "Kuil",
     "ja": "教会",
     "ko": "성당",
-    "pt": "Santuário"
+    "pt": "Santuário",
+    "ar": "الملجأ",
+    "it": "Santuario",
+    "ms": "Sanctuary",
+    "nl": "Heiligdom",
+    "th": "ศูนย์บัญชาการ",
+    "tr": "Sığınak",
+    "vi": "Căn cứ",
+    "zh": "庇护所",
+    "pl": "Sanktuarium",
+    "zh-tw": "庇護所"
   },
   "1002": {
     "en": "Walls",
@@ -19,7 +29,17 @@
     "id": "Tembok Kota",
     "ja": "防壁",
     "ko": "성벽",
-    "pt": "Muralhas"
+    "pt": "Muralhas",
+    "ar": "الجدران",
+    "it": "Mura",
+    "ms": "Tembok",
+    "nl": "Muren",
+    "th": "กำแพงเมือง",
+    "tr": "Surlar",
+    "vi": "Tường thành",
+    "zh": "城墙",
+    "pl": "Mury",
+    "zh-tw": "城牆"
   },
   "1004": {
     "en": "Infirmary",
@@ -30,7 +50,17 @@
     "id": "Rumah Sakit",
     "ja": "病院",
     "ko": "병원",
-    "pt": "Enfermaria"
+    "pt": "Enfermaria",
+    "ar": "المستشفى",
+    "it": "Infermeria",
+    "ms": "Klinik",
+    "nl": "Ziekenboeg",
+    "th": "โรงพยาบาล",
+    "tr": "Hastane",
+    "vi": "Trạm y tế",
+    "zh": "医院",
+    "pl": "Szpital",
+    "zh-tw": "醫院"
   },
   "1006": {
     "en": "Falcon Tower",
@@ -41,7 +71,17 @@
     "id": "Menara Raven",
     "ja": "ファルコンタワー",
     "ko": "팔콘 타워",
-    "pt": "Torre do Falcão"
+    "pt": "Torre do Falcão",
+    "ar": "برج الصقر",
+    "it": "Torre dei Falchi",
+    "ms": "Menara Falcon",
+    "nl": "Valkurentoren",
+    "th": "หอคอยฟอลคอน",
+    "tr": "Şahin Kulesi",
+    "vi": "Tháp Falcon",
+    "zh": "猎鹰之塔",
+    "pl": "Wieża Sokoła",
+    "zh-tw": "獵鷹之塔"
   },
   "1007": {
     "en": "Research Lab",
@@ -52,7 +92,17 @@
     "id": "Laboratorium",
     "ja": "研究室",
     "ko": "연구실",
-    "pt": "Laboratório de Pesquisa"
+    "pt": "Laboratório de Pesquisa",
+    "ar": "مختبر الأبحاث",
+    "it": "Laboratorio di Ricerca",
+    "ms": "Makmal Kajian",
+    "nl": "Onderzoekslab",
+    "th": "ห้องวิจัย",
+    "tr": "Araştırma Laboratuvarı",
+    "vi": "Phòng Nghiên cứu",
+    "zh": "研究实验室",
+    "pl": "Laboratorium Badawcze",
+    "zh-tw": "研究實驗室"
   },
   "1008": {
     "en": "Gear Workshop",
@@ -63,7 +113,17 @@
     "id": "Bengkel Gear",
     "ja": "装備工房",
     "ko": "장비 공방",
-    "pt": "Oficina de Equipamentos"
+    "pt": "Oficina de Equipamentos",
+    "ar": "ورشة العتاد",
+    "it": "Armeria",
+    "ms": "Bengkel Gear",
+    "nl": "Uitrustingswerkplaats",
+    "th": "โรงงานเกราะ",
+    "tr": "Ekipman Atölyesi",
+    "vi": "Xưởng Trang bị",
+    "zh": "装备工坊",
+    "pl": "Warsztat Ekwipunku",
+    "zh-tw": "裝備工坊"
   },
   "1010": {
     "en": "Alliance Hall",
@@ -74,7 +134,17 @@
     "id": "Pos Kontak Guild",
     "ja": "ギルド連絡所",
     "ko": "길드 연락소",
-    "pt": "Salão da Aliança"
+    "pt": "Salão da Aliança",
+    "ar": "قاعة التحالف",
+    "it": "Sala dell'alleanza",
+    "ms": "Dewan Perikatan",
+    "nl": "Alliantiehal",
+    "th": "หอประชุมพันธมิตร",
+    "tr": "İttifak Salonu",
+    "vi": "Sảnh liên minh",
+    "zh": "联盟大厅",
+    "pl": "Sala Sojuszu",
+    "zh-tw": "聯盟大廳"
   },
   "1016": {
     "en": "Farm",
@@ -85,7 +155,17 @@
     "id": "Peternakan",
     "ja": "農場",
     "ko": "농장",
-    "pt": "Fazenda"
+    "pt": "Fazenda",
+    "ar": "المزرعة",
+    "it": "Fattoria",
+    "ms": "Ladang",
+    "nl": "Boerderij",
+    "th": "ฟาร์ม",
+    "tr": "Çiftlik",
+    "vi": "Nông trại",
+    "zh": "农场",
+    "pl": "Farma",
+    "zh-tw": "農場"
   },
   "1017": {
     "en": "Lumberyard",
@@ -96,7 +176,17 @@
     "id": "Penebangan",
     "ja": "伐採場",
     "ko": "벌목장",
-    "pt": "Madeireira"
+    "pt": "Madeireira",
+    "ar": "ساحة الأخشاب",
+    "it": "Segheria",
+    "ms": "Tapak Kayu",
+    "nl": "Houthakkerskamp",
+    "th": "โรงเลื่อย",
+    "tr": "Kereste Fabrikası",
+    "vi": "Xưởng gỗ",
+    "zh": "锯木厂",
+    "pl": "Tartak",
+    "zh-tw": "鋸木廠"
   },
   "1019": {
     "en": "Herb Garden",
@@ -107,7 +197,17 @@
     "id": "Kebun Obat",
     "ja": "薬草園",
     "ko": "약초원",
-    "pt": "Herbário"
+    "pt": "Herbário",
+    "ar": "بستان الأعشاب",
+    "it": "Giardino botanico",
+    "ms": "Taman Herba",
+    "nl": "Kruidentuin",
+    "th": "สวนสมุนไพร",
+    "tr": "Bitki Bahçesi",
+    "vi": "Vườn thảo dược",
+    "zh": "草药园",
+    "pl": "Ogród Ziół",
+    "zh-tw": "草藥園"
   },
   "1020": {
     "en": "Training Grounds",
@@ -118,7 +218,17 @@
     "id": "Arena Latihan",
     "ja": "訓練場",
     "ko": "훈련장",
-    "pt": "Campo de Treinos"
+    "pt": "Campo de Treinos",
+    "ar": "أراضي التدريب",
+    "it": "Campo di addestramento",
+    "ms": "Gelanggang Latihan",
+    "nl": "Oefenterrein",
+    "th": "สนามฝึกทหาร",
+    "tr": "Eğitim Sahası",
+    "vi": "Khu huấn luyện",
+    "zh": "训练场",
+    "pl": "Plac Treningowy",
+    "zh-tw": "訓練場"
   },
   "1027": {
     "en": "Antitoxin Workshop",
@@ -129,7 +239,17 @@
     "id": "Pusat Antitoksin",
     "ja": "抗毒剤工房",
     "ko": "항독소 작업장",
-    "pt": "Oficina de Antitoxinas"
+    "pt": "Oficina de Antitoxinas",
+    "ar": "ورشة الترياق",
+    "it": "Laboratorio antitossine",
+    "ms": "Bengkel Antitoksin",
+    "nl": "Serumwerkplaats",
+    "th": "โรงงานสารต้านพิษ",
+    "tr": "Antitoksin Atölyesi",
+    "vi": "Xưởng giải độc",
+    "zh": "解毒剂工坊",
+    "pl": "Warsztat Antytoksyn",
+    "zh-tw": "解毒劑工坊"
   },
   "5002": {
     "en": "Explorer\\'s Camp",
@@ -140,7 +260,17 @@
     "id": "Kemah Penjelajah",
     "ja": "探索者キャンプ",
     "ko": "탐험가 캠프",
-    "pt": "Acampamento de Exploradores"
+    "pt": "Acampamento de Exploradores",
+    "ar": "معسكر المستكشف",
+    "it": "Campo degli esploratori",
+    "ms": "Kem Penjelajah",
+    "nl": "Verkennerskamp",
+    "th": "ค่ายสำรวจ",
+    "tr": "Gezgin Kampı",
+    "vi": "Trại thám hiểm",
+    "zh": "探险者营地",
+    "pl": "Obóz odkrywcy",
+    "zh-tw": "探險者營地"
   },
   "5006": {
     "en": "Barracks",
@@ -151,7 +281,17 @@
     "id": "Barak",
     "ja": "兵営",
     "ko": "병영",
-    "pt": "Quartel"
+    "pt": "Quartel",
+    "ar": "الثكنات",
+    "it": "Caserma",
+    "ms": "Berek",
+    "nl": "Kazerne",
+    "th": "ค่ายทหาร",
+    "tr": "Kışla",
+    "vi": "Doanh trại",
+    "zh": "兵营",
+    "pl": "Koszary",
+    "zh-tw": "兵營"
   },
   "5008": {
     "en": "Tavern",
@@ -162,7 +302,17 @@
     "id": "Kedai",
     "ja": "酒場",
     "ko": "선술집",
-    "pt": "Taverna"
+    "pt": "Taverna",
+    "ar": "الحانة",
+    "it": "Taverna",
+    "ms": "Tavern",
+    "nl": "Taveerne",
+    "th": "โรงเตี๊ยม",
+    "tr": "Meyhane",
+    "vi": "Quán rượu",
+    "zh": "酒馆",
+    "pl": "Bar",
+    "zh-tw": "酒館"
   },
   "5010": {
     "en": "Arena",
@@ -173,7 +323,17 @@
     "id": "Arena",
     "ja": "アリーナ",
     "ko": "경기장",
-    "pt": "Arena"
+    "pt": "Arena",
+    "ar": "الساحة",
+    "it": "Arena",
+    "ms": "Arena",
+    "nl": "Arena",
+    "th": "อารีน่า",
+    "tr": "Arena",
+    "vi": "Đấu trường",
+    "zh": "竞技场",
+    "pl": "Arena",
+    "zh-tw": "競技場"
   },
   "5013": {
     "en": "Squad 1",
@@ -184,7 +344,17 @@
     "id": "Tim 1",
     "ja": "小隊1",
     "ko": "소대 1",
-    "pt": "Esquadrão 1"
+    "pt": "Esquadrão 1",
+    "ar": "الفرقة 1",
+    "it": "Squadra 1",
+    "ms": "Skuad 1",
+    "nl": "Team 1",
+    "th": "กองทัพ 1",
+    "tr": "Birlik 1",
+    "vi": "Đội hình 1",
+    "zh": "部队 1",
+    "pl": "Oddział 1",
+    "zh-tw": "部隊 1"
   },
   "5014": {
     "en": "Squad 2",
@@ -195,7 +365,17 @@
     "id": "Tim 2",
     "ja": "小隊2",
     "ko": "소대 2",
-    "pt": "Esquadrão 2"
+    "pt": "Esquadrão 2",
+    "ar": "الفرقة 2",
+    "it": "Squadra 2",
+    "ms": "Skuad 2",
+    "nl": "Team 2",
+    "th": "กองทัพ 2",
+    "tr": "Birlik 2",
+    "vi": "Đội hình 2",
+    "zh": "部队 2",
+    "pl": "Oddział 2",
+    "zh-tw": "部隊 2"
   },
   "5015": {
     "en": "Squad 3",
@@ -206,7 +386,17 @@
     "id": "Tim 3",
     "ja": "小隊3",
     "ko": "소대 3",
-    "pt": "Esquadrão 3"
+    "pt": "Esquadrão 3",
+    "ar": "الفرقة 3",
+    "it": "Squadra 3",
+    "ms": "Skuad 3",
+    "nl": "Team 3",
+    "th": "กองทัพ 3",
+    "tr": "Birlik 3",
+    "vi": "Đội hình 3",
+    "zh": "部队 3",
+    "pl": "Oddział 3",
+    "zh-tw": "部隊 3"
   },
   "5016": {
     "en": "Squad 4",
@@ -217,7 +407,17 @@
     "id": "Tim 4",
     "ja": "小隊4",
     "ko": "소대 4",
-    "pt": "Esquadrão 4"
+    "pt": "Esquadrão 4",
+    "ar": "الفرقة 4",
+    "it": "Squadra 4",
+    "ms": "Skuad 4",
+    "nl": "Team 4",
+    "th": "กองทัพ 4",
+    "tr": "Birlik 4",
+    "vi": "Đội hình 4",
+    "zh": "部队 4",
+    "pl": "Oddział 4",
+    "zh-tw": "部隊 4"
   },
   "5021": {
     "en": "Residence",
@@ -228,7 +428,17 @@
     "id": "Pemukiman",
     "ja": "民家",
     "ko": "민가",
-    "pt": "Residência"
+    "pt": "Residência",
+    "ar": "السكن",
+    "it": "Residenza",
+    "ms": "Kediaman",
+    "nl": "Woning",
+    "th": "ที่พักอาศัย",
+    "tr": "Konut",
+    "vi": "Khu dân cư",
+    "zh": "住宅",
+    "pl": "Rezydencja",
+    "zh-tw": "住宅"
   },
   "5023": {
     "en": "Granary",
@@ -239,7 +449,17 @@
     "id": "Gudang Makanan",
     "ja": "食糧倉庫",
     "ko": "식량 창고",
-    "pt": "Celeiro"
+    "pt": "Celeiro",
+    "ar": "الصومعة",
+    "it": "Granaio",
+    "ms": "Jelapang",
+    "nl": "Graanschuur",
+    "th": "ยุ้งฉาง",
+    "tr": "Tahıl Ambarı",
+    "vi": "Kho Lương thực",
+    "zh": "粮仓",
+    "pl": "Spichlerz",
+    "zh-tw": "糧倉"
   },
   "5024": {
     "en": "Lumber Depot",
@@ -250,7 +470,17 @@
     "id": "Gudang Kayu",
     "ja": "木材倉庫",
     "ko": "목재 창고",
-    "pt": "Depósito de Madeira"
+    "pt": "Depósito de Madeira",
+    "ar": "مستودع الأخشاب",
+    "it": "Legnaia",
+    "ms": "Depoh Kayu",
+    "nl": "Houtopslag",
+    "th": "คลังไม้",
+    "tr": "Kereste Deposu",
+    "vi": "Kho Gỗ",
+    "zh": "木材仓库",
+    "pl": "Skład Drewna",
+    "zh-tw": "木材倉庫"
   },
   "5025": {
     "en": "Herb Storage",
@@ -261,7 +491,17 @@
     "id": "Gudang Obat",
     "ja": "薬材倉庫",
     "ko": "약재 창고",
-    "pt": "Botica"
+    "pt": "Botica",
+    "ar": "مستودع الأعشاب",
+    "it": "Deposito erboristico",
+    "ms": "Simpanan Herba",
+    "nl": "Kruidenopslag",
+    "th": "คลังสมุนไพร",
+    "tr": "Bitki Deposu",
+    "vi": "Kho Thảo dược",
+    "zh": "草药仓库",
+    "pl": "Skład Ziół",
+    "zh-tw": "草藥倉庫"
   },
   "5029": {
     "en": "Black Ops",
@@ -272,7 +512,17 @@
     "id": "Divisi Operasi Rahasia",
     "ja": "秘密作戦部",
     "ko": "비밀 작전부",
-    "pt": "Operação Secreta"
+    "pt": "Operação Secreta",
+    "ar": "العمليات السوداء",
+    "it": "Operazione segreta",
+    "ms": "Operasi Hitam",
+    "nl": "Geheime Operaties",
+    "th": "ปฏิบัติการลับ",
+    "tr": "Gizli Operasyonlar",
+    "vi": "Tác chiến Đặc biệt",
+    "zh": "黑行动",
+    "pl": "Czarne operacje",
+    "zh-tw": "黑行動"
   },
   "5031": {
     "en": "Builder\\'s Hut",
@@ -283,7 +533,17 @@
     "id": "Rumah Pekerja",
     "ja": "建築作業小屋",
     "ko": "건설 작업장",
-    "pt": "Cabana do Construtor"
+    "pt": "Cabana do Construtor",
+    "ar": "كوخ البناء",
+    "it": "Capanna del costruttore",
+    "ms": "Pondok Pembina",
+    "nl": "Bouwershut",
+    "th": "กระท่อมผู้สร้าง",
+    "tr": "İnşaatçı Kulübesi",
+    "vi": "Lều thợ xây",
+    "zh": "建筑工小屋",
+    "pl": "Chata Budowniczego",
+    "zh-tw": "建築工小屋"
   },
   "5033": {
     "en": "Scout Squad",
@@ -294,7 +554,17 @@
     "id": "Tim Pengintai",
     "ja": "偵察隊",
     "ko": "정찰 부대",
-    "pt": "Esquadrão de Batedores"
+    "pt": "Esquadrão de Batedores",
+    "ar": "فرقة الاستطلاع",
+    "it": "Presidio di ricognizione",
+    "ms": "Skuad Pengintip",
+    "nl": "Verkenningsteam",
+    "th": "หน่วยลาดตระเวน",
+    "tr": "Keşif Ekibi",
+    "vi": "Đội trinh sát",
+    "zh": "侦察小队",
+    "pl": "Oddział zwiadowczy",
+    "zh-tw": "偵察小隊"
   },
   "5034": {
     "en": "Raven Workshop",
@@ -305,7 +575,17 @@
     "id": "Bengkel Raven",
     "ja": "レイヴンの工房",
     "ko": "까마귀 공방",
-    "pt": "Oficina do Corvo"
+    "pt": "Oficina do Corvo",
+    "ar": "ورشة الغراب",
+    "it": "Officina del Corvo",
+    "ms": "Bengkel Raven",
+    "nl": "Ravenwerkplaats",
+    "th": "โรงงานกา",
+    "tr": "Kuzgun Atölyesi",
+    "vi": "Xưởng Quạ",
+    "zh": "渡鸦工坊",
+    "pl": "Warsztat kruka",
+    "zh-tw": "渡鴉工坊"
   },
   "5035": {
     "en": "Epigraph Workshop",
@@ -316,7 +596,17 @@
     "id": "Bengkel Prasasti",
     "ja": "ルーン工房",
     "ko": "룬 공방",
-    "pt": "Oficina de Epígrafes"
+    "pt": "Oficina de Epígrafes",
+    "ar": "ورشة النقوش",
+    "it": "Laboratorio Epigrafi",
+    "ms": "Bengkel Epigraf",
+    "nl": "Inscriptiewerkplaats",
+    "th": "โรงงานจารึก",
+    "tr": "Yazıt Atölyesi",
+    "vi": "Xưởng khắc văn",
+    "zh": "碑铭工坊",
+    "pl": "Warsztat epigrafów",
+    "zh-tw": "碑銘工坊"
   },
   "5036": {
     "en": "Raven Nest",
@@ -327,7 +617,17 @@
     "id": "Kediaman Raven",
     "ja": "レイヴンの小屋",
     "ko": "까마귀 거처",
-    "pt": "Ninho do Corvo"
+    "pt": "Ninho do Corvo",
+    "ar": "عش الغراب",
+    "it": "Nido del Corvo",
+    "ms": "Sarang Raven",
+    "nl": "Ravennest",
+    "th": "รังกา",
+    "tr": "Kuzgun Yuvası",
+    "vi": "Tổ quạ",
+    "zh": "渡鸦巢",
+    "pl": "Gniazdo kruka",
+    "zh-tw": "渡鴉巢"
   },
   "5038": {
     "en": "Monument",
@@ -338,7 +638,17 @@
     "id": "Monumen",
     "ja": "記念碑",
     "ko": "기념비",
-    "pt": "Monumento"
+    "pt": "Monumento",
+    "ar": "النصب التذكاري",
+    "it": "Monumento",
+    "ms": "Monumen",
+    "nl": "Monument",
+    "th": "อนุสาวรีย์",
+    "tr": "Anıt",
+    "vi": "Hợp thạch",
+    "zh": "纪念碑",
+    "pl": "Pomnik",
+    "zh-tw": "紀念碑"
   },
   "5039": {
     "en": "Curio Hall",
@@ -349,7 +659,17 @@
     "id": "Galeri Koleksi",
     "ja": "収蔵品館",
     "ko": "수집관",
-    "pt": "Salão de Artefatos"
+    "pt": "Salão de Artefatos",
+    "ar": "قاعة التحف",
+    "it": "Sala dei cimeli",
+    "ms": "Dewan Curio",
+    "nl": "Curiozaal",
+    "th": "หอคูริโอ",
+    "tr": "Merak Salonu",
+    "vi": "Sảnh cổ vật",
+    "zh": "珍宝馆",
+    "pl": "Sala Osobliwości",
+    "zh-tw": "珍寶館"
   },
   "5040": {
     "en": "Nomad Trader",
@@ -360,7 +680,17 @@
     "id": "Pedagang Keliling",
     "ja": "遊牧商人",
     "ko": "유목 상인",
-    "pt": "Mercador Itinerante"
+    "pt": "Mercador Itinerante",
+    "ar": "التاجر البدوي",
+    "it": "Mercante nomade",
+    "ms": "Pedagang Nomad",
+    "nl": "Nomadenhandelaar",
+    "th": "พ่อค้าเร่",
+    "tr": "Göçebe Tüccar",
+    "vi": "Thương nhân Du mục",
+    "zh": "游牧商人",
+    "pl": "Wędrowny Kupiec",
+    "zh-tw": "遊牧商人"
   },
   "5042": {
     "en": "Smelting Workshop",
@@ -371,7 +701,17 @@
     "id": "Bengkel Peleburan",
     "ja": "製錬工房",
     "ko": "제련 공방",
-    "pt": "Casa de Fundição"
+    "pt": "Casa de Fundição",
+    "ar": "ورشة الصهر",
+    "it": "Fonderia",
+    "ms": "Bengkel Peleburan",
+    "nl": "Smelterij",
+    "th": "โรงงานหลอมโลหะ",
+    "tr": "Ergitme Atölyesi",
+    "vi": "Xưởng luyện kim",
+    "zh": "熔炼工坊",
+    "pl": "Warsztat Hutniczy",
+    "zh-tw": "熔鍊工坊"
   },
   "5043": {
     "en": "Weaving Workshop",
@@ -382,7 +722,17 @@
     "id": "Bengkel Tenun",
     "ja": "織物工房",
     "ko": "방직 공방",
-    "pt": "Casa de Tecelagem"
+    "pt": "Casa de Tecelagem",
+    "ar": "ورشة النسيج",
+    "it": "Tessitoria",
+    "ms": "Bengkel Tenunan",
+    "nl": "Weverij",
+    "th": "โรงงานทอผ้า",
+    "tr": "Dokuma Atölyesi",
+    "vi": "Xưởng dệt",
+    "zh": "纺织工坊",
+    "pl": "Warsztat Tkacki",
+    "zh-tw": "紡織工坊"
   },
   "5044": {
     "en": "Warrior Statue",
@@ -393,7 +743,17 @@
     "id": "Patung Fighter",
     "ja": "ウォーリア像",
     "ko": "전사 조각상",
-    "pt": "Estátua do Guerreiro"
+    "pt": "Estátua do Guerreiro",
+    "ar": "تمثال المحارب",
+    "it": "Statua del guerriero",
+    "ms": "Patung Pahlawan",
+    "nl": "Krijgersstandbeeld",
+    "th": "รูปปั้นนักรบ",
+    "tr": "Savaşçı Heykeli",
+    "vi": "Tượng Chiến binh",
+    "zh": "战士雕像",
+    "pl": "Posąg Wojownika",
+    "zh-tw": "戰士雕像"
   },
   "5045": {
     "en": "Warlock Statue",
@@ -404,7 +764,17 @@
     "id": "Patung Warlock",
     "ja": "ソーサラー像",
     "ko": "마법사 조각상",
-    "pt": "Estátua do Bruxo"
+    "pt": "Estátua do Bruxo",
+    "ar": "تمثال الساحر",
+    "it": "Statua dello stregone",
+    "ms": "Patung Warlock",
+    "nl": "Tovenaarsstandbeeld",
+    "th": "รูปปั้นวอร์ล็อก",
+    "tr": "Büyücü Heykeli",
+    "vi": "Tượng Phù thủy",
+    "zh": "术士雕像",
+    "pl": "Posąg Czarnoksiężnika",
+    "zh-tw": "術士雕像"
   },
   "5046": {
     "en": "Ranger Statue",
@@ -415,7 +785,17 @@
     "id": "Patung Ranger",
     "ja": "レンジャー像",
     "ko": "레인저 조각상",
-    "pt": "Estátua do Patrulheiro"
+    "pt": "Estátua do Patrulheiro",
+    "ar": "تمثال الحارس",
+    "it": "Statua del ramingo",
+    "ms": "Patung Renjer",
+    "nl": "Jagersstandbeeld",
+    "th": "รูปปั้นเรนเจอร์",
+    "tr": "Korucu Heykeli",
+    "vi": "Tượng Thợ săn",
+    "zh": "游侠雕像",
+    "pl": "Posąg Zwiadowcy",
+    "zh-tw": "遊俠雕像"
   },
   "5053": {
     "en": "Temple",
@@ -426,7 +806,17 @@
     "id": "Kuil",
     "ja": "神殿",
     "ko": "신전",
-    "pt": "Templo"
+    "pt": "Templo",
+    "ar": "المعبد",
+    "it": "Tempio",
+    "ms": "Kuil",
+    "nl": "Tempel",
+    "th": "วิหาร",
+    "tr": "Tapınak",
+    "vi": "Đền thờ",
+    "zh": "神殿",
+    "pl": "Świątynia",
+    "zh-tw": "神殿"
   },
   "5054": {
     "en": "Hall of Honor",
@@ -437,7 +827,17 @@
     "id": "Aula Upacara Kemuliaan",
     "ja": "栄光の講堂",
     "ko": "영예 강당",
-    "pt": "Salão da Honra"
+    "pt": "Salão da Honra",
+    "ar": "قاعة الشرف",
+    "it": "Sala d'onore",
+    "ms": "Dewan Kehormatan",
+    "nl": "Erehal",
+    "th": "หอเกียรติยศ",
+    "tr": "Onur Salonu",
+    "vi": "Sảnh danh vọng",
+    "zh": "荣耀大厅",
+    "pl": "Sala Honoru",
+    "zh-tw": "榮耀大廳"
   },
   "5047": {
     "en": "2nd Workbench",
@@ -448,7 +848,17 @@
     "id": "Meja Kerja ke-2",
     "ja": "第2作業台",
     "ko": "2번째 작업대",
-    "pt": "2ª Bancada"
+    "pt": "2ª Bancada",
+    "ar": "طاولة العمل الثانية",
+    "it": "2° banco da lavoro",
+    "ms": "Workbench ke-2",
+    "nl": "2e werkbank",
+    "th": "โต๊ะทำงานที่ 2",
+    "tr": "2. Çalışma Tezgâhı",
+    "vi": "Bàn làm việc thứ 2",
+    "zh": "第二工作台",
+    "pl": "Drugi stół roboczy",
+    "zh-tw": "第二工作臺"
   },
   "5049": {
     "en": "Watchtower",
@@ -459,7 +869,17 @@
     "id": "Menara Pengawas",
     "ja": "見張り塔",
     "ko": "전망대",
-    "pt": "Torre de Vigia"
+    "pt": "Torre de Vigia",
+    "ar": "برج المراقبة",
+    "it": "Torre di guardia",
+    "ms": "Menara Tinjau",
+    "nl": "Wachttoren",
+    "th": "หอสังเกตการณ์",
+    "tr": "Gözetleme Kulesi",
+    "vi": "Tháp canh",
+    "zh": "瞭望塔",
+    "pl": "Wieża Obserwacyjna",
+    "zh-tw": "瞭望塔"
   },
   "5051": {
     "en": "Private Stable",
@@ -470,7 +890,17 @@
     "id": "Kandang Pribadi",
     "ja": "個人厩舎",
     "ko": "개인 마구간",
-    "pt": "Estábulo Particular"
+    "pt": "Estábulo Particular",
+    "ar": "الإسطبل الخاص",
+    "it": "Scuderia privata",
+    "ms": "Kandang Peribadi",
+    "nl": "Privéstal",
+    "th": "คอกม้าส่วนตัว",
+    "tr": "Özel Ahır",
+    "vi": "Chuồng ngựa riêng",
+    "zh": "私人马厩",
+    "pl": "Prywatna stajnia",
+    "zh-tw": "私人馬廄"
   },
   "5052": {
     "en": "Alliance Stable",
@@ -481,7 +911,17 @@
     "id": "Kandang Guild",
     "ja": "ギルド厩舎",
     "ko": "길드 마구간",
-    "pt": "Estábulo da Aliança"
+    "pt": "Estábulo da Aliança",
+    "ar": "إسطبل التحالف",
+    "it": "Scuderia dell'alleanza",
+    "ms": "Kandang Perikatan",
+    "nl": "Alliantiestal",
+    "th": "คอกม้าพันธมิตร",
+    "tr": "İttifak Ahırı",
+    "vi": "Chuồng ngựa liên minh",
+    "zh": "联盟马厩",
+    "pl": "Stajnia sojuszu",
+    "zh-tw": "聯盟馬廄"
   },
   "5055": {
     "en": "Soldier\\'s Rest",
@@ -492,7 +932,17 @@
     "id": "Tempat Istirahat Prajurit",
     "ja": "兵士休息所",
     "ko": "병사 휴식소",
-    "pt": "Abrigo de Soldados"
+    "pt": "Abrigo de Soldados",
+    "ar": "استراحة الجنود",
+    "it": "Riposo del Soldato",
+    "ms": "Rehat Askar",
+    "nl": "Herstelkwartier",
+    "th": "ที่พักทหาร",
+    "tr": "Asker Dinlenme Yeri",
+    "vi": "Nơi nghỉ của lính",
+    "zh": "士兵休息室",
+    "pl": "Odpoczynek żołnierza",
+    "zh-tw": "士兵休息室"
   },
   "5056": {
     "en": "Lord Statue",
@@ -503,7 +953,17 @@
     "id": "Patung Lord",
     "ja": "領主彫像",
     "ko": "영주 조각상",
-    "pt": "Estátua do Senhor Feudal"
+    "pt": "Estátua do Senhor Feudal",
+    "ar": "تمثال اللورد",
+    "it": "Statua del Lord",
+    "ms": "Patung Lord",
+    "nl": "Heer Standbeeld",
+    "th": "รูปปั้นลอร์ด",
+    "tr": "Lord Heykeli",
+    "vi": "Tượng Chúa tể",
+    "zh": "领主雕像",
+    "pl": "Posąg Władcy",
+    "zh-tw": "領主雕像"
   },
   "10001": {
     "en": "Twin Dragon Brooch",
@@ -514,7 +974,17 @@
     "id": "Bros Naga Kembar",
     "ja": "ドラゴンブローチ",
     "ko": "트윈 드래곤 브로치",
-    "pt": "Broche do Dragão Gêmeo"
+    "pt": "Broche do Dragão Gêmeo",
+    "ar": "بروش التنين المزدوج",
+    "it": "Spilla dei draghi gemelli",
+    "ms": "Kerongsang Naga Kembar",
+    "nl": "Tweelingdrakenbroche",
+    "th": "เข็มกลัดมังกรคู่",
+    "tr": "İkiz Ejderha Broşu",
+    "vi": "Trâm cài Rồng Đôi",
+    "zh": "双龙胸针",
+    "pl": "Broszka Bliźniaczych Smoków",
+    "zh-tw": "雙龍胸針"
   },
   "10002": {
     "en": "Golden Feather",
@@ -525,7 +995,17 @@
     "id": "Bulu Emas",
     "ja": "金の羽",
     "ko": "황금 깃털",
-    "pt": "Pena Dourada"
+    "pt": "Pena Dourada",
+    "ar": "الريشة الذهبية",
+    "it": "Piuma dorata",
+    "ms": "Bulu Emas",
+    "nl": "Gouden veer",
+    "th": "ขนนกทองคำ",
+    "tr": "Altın Tüy",
+    "vi": "Lông Vũ Vàng",
+    "zh": "金色羽毛",
+    "pl": "Złote pióro",
+    "zh-tw": "金色羽毛"
   },
   "10003": {
     "en": "Red Amber Amulet",
@@ -536,7 +1016,17 @@
     "id": "Jimat Amber Merah",
     "ja": "紅琥珀のお守り",
     "ko": "레드 앰버 부적",
-    "pt": "Amuleto de Âmbar Vermelho"
+    "pt": "Amuleto de Âmbar Vermelho",
+    "ar": "تميمة الكهرمان الأحمر",
+    "it": "Amuleto d'ambra rossa",
+    "ms": "Azimat Ambar Merah",
+    "nl": "Rode barnsteenamulet",
+    "th": "เครื่องรางอำพันแดง",
+    "tr": "Kırmızı Kehribar Muskası",
+    "vi": "Bùa Hổ phách Đỏ",
+    "zh": "红琥珀护符",
+    "pl": "Amulet z czerwonego bursztynu",
+    "zh-tw": "紅琥珀護符"
   },
   "10005": {
     "en": "Sacred Chalice",
@@ -547,7 +1037,17 @@
     "id": "Cawan Suci",
     "ja": "聖なる杯",
     "ko": "성스러운 성배",
-    "pt": "Cálice Sagrado"
+    "pt": "Cálice Sagrado",
+    "ar": "الكأس المقدسة",
+    "it": "Calice sacro",
+    "ms": "Cawan Suci",
+    "nl": "Heilige kelk",
+    "th": "ถ้วยศักดิ์สิทธิ์",
+    "tr": "Kutsal Kadeh",
+    "vi": "Chén Thánh",
+    "zh": "圣杯",
+    "pl": "Święty kielich",
+    "zh-tw": "聖杯"
   },
   "10009": {
     "en": "Star Dice",
@@ -558,7 +1058,17 @@
     "id": "Dadu bintang",
     "ja": "スターダイス",
     "ko": "별 주사위",
-    "pt": "Dado Estelar"
+    "pt": "Dado Estelar",
+    "ar": "نرد النجم",
+    "it": "Dado stellare",
+    "ms": "Dadu Bintang",
+    "nl": "Sterrendobbelsteen",
+    "th": "ลูกเต๋าดวงดาว",
+    "tr": "Yıldız Zarı",
+    "vi": "Xúc xắc Ngôi sao",
+    "zh": "星星骰子",
+    "pl": "Gwiezdna kostka",
+    "zh-tw": "星星骰子"
   },
   "10010": {
     "en": "Warrior Stone",
@@ -569,7 +1079,17 @@
     "id": "Ukiran Batu Fighter",
     "ja": "ウォーリアの石碑",
     "ko": "전사 석각",
-    "pt": "Pedra do Guerreiro"
+    "pt": "Pedra do Guerreiro",
+    "ar": "حجر المحارب",
+    "it": "Pietra del guerriero",
+    "ms": "Batu Pahlawan",
+    "nl": "Krijgerssteen",
+    "th": "ศิลานักรบ",
+    "tr": "Savaşçı Taşı",
+    "vi": "Đá Chiến binh",
+    "zh": "战士之石",
+    "pl": "Kamień Wojownika",
+    "zh-tw": "戰士之石"
   },
   "10011": {
     "en": "Ranger Stone",
@@ -580,7 +1100,17 @@
     "id": "Ukiran Ranger",
     "ja": "レンジャーの石碑",
     "ko": "레인저 석각",
-    "pt": "Pedra do Patrulheiro"
+    "pt": "Pedra do Patrulheiro",
+    "ar": "حجر الحارس",
+    "it": "Pietra del ramingo",
+    "ms": "Batu Renjer",
+    "nl": "Jagerssteen",
+    "th": "ศิลาเรนเจอร์",
+    "tr": "Korucu Taşı",
+    "vi": "Đá Thợ săn",
+    "zh": "游侠之石",
+    "pl": "Kamień Zwiadowcy",
+    "zh-tw": "遊俠之石"
   },
   "10012": {
     "en": "Warlock Stone",
@@ -591,7 +1121,17 @@
     "id": "Ukiran Warlock",
     "ja": "ソーサラーの石碑",
     "ko": "마법사 석각",
-    "pt": "Pedra do Bruxo"
+    "pt": "Pedra do Bruxo",
+    "ar": "حجر الساحر",
+    "it": "Pietra dello stregone",
+    "ms": "Batu Warlock",
+    "nl": "Tovenaarssteen",
+    "th": "ศิลาวอร์ล็อก",
+    "tr": "Büyücü Taşı",
+    "vi": "Đá Phù thủy",
+    "zh": "术士之石",
+    "pl": "Kamień Czarnoksiężnika",
+    "zh-tw": "術士之石"
   },
   "10013": {
     "en": "Warrior Epaulet",
@@ -602,7 +1142,17 @@
     "id": "Pangkat Fighter",
     "ja": "ウォーリアの肩章",
     "ko": "전사 견장",
-    "pt": "Dragonas de Guerreiro"
+    "pt": "Dragonas de Guerreiro",
+    "ar": "شارة كتف المحارب",
+    "it": "Spallaccio del guerriero",
+    "ms": "Pangkat Pahlawan",
+    "nl": "Epaulet van de krijger",
+    "th": "อินทรธนูนักรบ",
+    "tr": "Savaşçı Apoleti",
+    "vi": "Cầu vai Chiến binh",
+    "zh": "战士肩章",
+    "pl": "Epolety Wojownika",
+    "zh-tw": "戰士肩章"
   },
   "10014": {
     "en": "Ranger Epaulet",
@@ -613,7 +1163,17 @@
     "id": "Pangkat Ranger",
     "ja": "レンジャーの肩章",
     "ko": "레인저 견장",
-    "pt": "Dragonas de Patrulheiro"
+    "pt": "Dragonas de Patrulheiro",
+    "ar": "شارة كتف الحارس",
+    "it": "Spallaccio del ramingo",
+    "ms": "Pangkat Renjer",
+    "nl": "Epaulet van de jager",
+    "th": "อินทรธนูเรนเจอร์",
+    "tr": "Korucu Apoleti",
+    "vi": "Cầu vai Thợ săn",
+    "zh": "游侠肩章",
+    "pl": "Epolety Zwiadowcy",
+    "zh-tw": "遊俠肩章"
   },
   "10015": {
     "en": "Warlock Epaulet",
@@ -624,7 +1184,17 @@
     "id": "Pangkat Warlock",
     "ja": "ソーサラーの肩章",
     "ko": "마법사 견장",
-    "pt": "Dragonas de Bruxo"
+    "pt": "Dragonas de Bruxo",
+    "ar": "شارة كتف الساحر",
+    "it": "Spallaccio dello stregone",
+    "ms": "Pangkat Warlock",
+    "nl": "Epaulet van de tovenaar",
+    "th": "อินทรธนูวอร์ล็อก",
+    "tr": "Büyücü Apoleti",
+    "vi": "Cầu vai Phù thủy",
+    "zh": "术士肩章",
+    "pl": "Epolety Czarnoksiężnika",
+    "zh-tw": "術士肩章"
   },
   "10016": {
     "en": "Warrior Seal",
@@ -635,7 +1205,17 @@
     "id": "Segel Fighter",
     "ja": "ウォーリアの封蝋印",
     "ko": "전사의 밀랍 인장",
-    "pt": "Selo de Guerreiro"
+    "pt": "Selo de Guerreiro",
+    "ar": "ختم المحارب",
+    "it": "Sigillo del guerriero",
+    "ms": "Meterai Pahlawan",
+    "nl": "Zegel van de krijger",
+    "th": "ตราประทับนักรบ",
+    "tr": "Savaşçı Mührü",
+    "vi": "Ấn Chiến binh",
+    "zh": "战士印章",
+    "pl": "Pieczęć Wojownika",
+    "zh-tw": "戰士印章"
   },
   "10017": {
     "en": "Ranger Seal",
@@ -646,7 +1226,17 @@
     "id": "Segel Lilin Ranger",
     "ja": "レンジャーの封蝋印",
     "ko": "레인저의 밀랍 인장",
-    "pt": "Selo de Patrulheiro"
+    "pt": "Selo de Patrulheiro",
+    "ar": "ختم الحارس",
+    "it": "Sigillo del ramingo",
+    "ms": "Meterai Renjer",
+    "nl": "Zegel van de jager",
+    "th": "ตราประทับเรนเจอร์",
+    "tr": "Korucu Mührü",
+    "vi": "Ấn Thợ săn",
+    "zh": "游侠印章",
+    "pl": "Pieczęć Zwiadowcy",
+    "zh-tw": "遊俠印章"
   },
   "10018": {
     "en": "Warlock Seal",
@@ -657,7 +1247,17 @@
     "id": "Segel Lilin Warlock",
     "ja": "ソーサラーの封蝋印",
     "ko": "마법사의 밀랍 인장",
-    "pt": "Selo de Bruxo"
+    "pt": "Selo de Bruxo",
+    "ar": "ختم الساحر",
+    "it": "Sigillo dello stregone",
+    "ms": "Meterai Warlock",
+    "nl": "Zegel van de tovenaar",
+    "th": "ตราประทับวอร์ล็อก",
+    "tr": "Büyücü Mührü",
+    "vi": "Ấn Phù thủy",
+    "zh": "术士印章",
+    "pl": "Pieczęć Czarnoksiężnika",
+    "zh-tw": "術士印章"
   },
   "10019": {
     "en": "Prophecy Card",
@@ -668,7 +1268,17 @@
     "id": "Kartu Ramalan",
     "ja": "予言カード",
     "ko": "예언 카드",
-    "pt": "Carta da Profecia"
+    "pt": "Carta da Profecia",
+    "ar": "بطاقة النبوءة",
+    "it": "Carta della profezia",
+    "ms": "Kad Ramalan",
+    "nl": "Profetiekaart",
+    "th": "ไพ่พยากรณ์",
+    "tr": "Kehanet Kartı",
+    "vi": "Thẻ Tiên tri",
+    "zh": "预言卡牌",
+    "pl": "Karta przepowiedni",
+    "zh-tw": "預言卡牌"
   },
   "10020": {
     "en": "Lost Scroll",
@@ -679,7 +1289,17 @@
     "id": "Gulungan yang Hilang",
     "ja": "失われた巻物",
     "ko": "잃어버린 두루마리",
-    "pt": "Pergaminho Perdido"
+    "pt": "Pergaminho Perdido",
+    "ar": "المخطوطة المفقودة",
+    "it": "Pergamena perduta",
+    "ms": "Gulungan Hilang",
+    "nl": "Verloren rol",
+    "th": "คัมภีร์ที่สาบสูญ",
+    "tr": "Kayıp Parşömen",
+    "vi": "Cuộn sách Thất lạc",
+    "zh": "失落卷轴",
+    "pl": "Zaginiony zwój",
+    "zh-tw": "失落卷軸"
   },
   "10021": {
     "en": "Sphinx",
@@ -690,7 +1310,17 @@
     "id": "Patung Wajah",
     "ja": "人面像",
     "ko": "인면상",
-    "pt": "Esfinge"
+    "pt": "Esfinge",
+    "ar": "أبو الهول",
+    "it": "Sfinge",
+    "ms": "Sfinks",
+    "nl": "Sfinx",
+    "th": "สฟิงซ์",
+    "tr": "Sfenks",
+    "vi": "Nhân sư",
+    "zh": "狮身人面像",
+    "pl": "Sfinks",
+    "zh-tw": "獅身人面像"
   },
   "10022": {
     "en": "Beast Teeth",
@@ -701,7 +1331,17 @@
     "id": "Taring Purba",
     "ja": "古獣の牙",
     "ko": "고대 짐승의 이빨",
-    "pt": "Dentes de Fera"
+    "pt": "Dentes de Fera",
+    "ar": "أنياب الوحش",
+    "it": "Denti di bestia",
+    "ms": "Taring Binatang",
+    "nl": "Beestentanden",
+    "th": "เขี้ยวอสูร",
+    "tr": "Canavar Dişleri",
+    "vi": "Răng Quái thú",
+    "zh": "野兽之牙",
+    "pl": "Kły bestii",
+    "zh-tw": "野獸之牙"
   },
   "10024": {
     "en": "Pocket Watch",
@@ -712,7 +1352,17 @@
     "id": "Jam Saku",
     "ja": "懐中時計",
     "ko": "회중시계",
-    "pt": "Relógio de Bolso"
+    "pt": "Relógio de Bolso",
+    "ar": "ساعة الجيب",
+    "it": "Orologio da tasca",
+    "ms": "Jam Poket",
+    "nl": "Zakhorloge",
+    "th": "นาฬิกาพก",
+    "tr": "Cep Saati",
+    "vi": "Đồng hồ bỏ túi",
+    "zh": "怀表",
+    "pl": "Zegarek kieszonkowy",
+    "zh-tw": "懷錶"
   },
   "10999": {
     "en": "Blue Nutcracker",
@@ -723,7 +1373,17 @@
     "id": "Pemecah Kenari Biru",
     "ja": "青い服のくるみ割り人形",
     "ko": "파란 옷의 호두까기 인형",
-    "pt": "Quebra-Nozes Azul"
+    "pt": "Quebra-Nozes Azul",
+    "ar": "كسارة البندق الزرقاء",
+    "it": "Schiaccianoci blu",
+    "ms": "Pemecah Kacang Biru",
+    "nl": "Blauwe notenkraker",
+    "th": "นัทแครกเกอร์สีน้ำเงิน",
+    "tr": "Mavi Fındıkkıran",
+    "vi": "Kẹp Hạt Dẻ Xanh",
+    "zh": "蓝色胡桃夹子",
+    "pl": "Niebieski Dziadek do orzechów",
+    "zh-tw": "藍色胡桃鉗"
   },
   "11000": {
     "en": "Red Nutcracker",
@@ -734,7 +1394,17 @@
     "id": "Pemecah Kacang Merah",
     "ja": "赤い服のくるみ割り人形",
     "ko": "빨간 옷의 호두까기 인형",
-    "pt": "Quebra-Nozes Vermelho"
+    "pt": "Quebra-Nozes Vermelho",
+    "ar": "كسارة البندق الحمراء",
+    "it": "Schiaccianoci rosso",
+    "ms": "Pemecah Kacang Merah",
+    "nl": "Rode notenkraker",
+    "th": "นัทแครกเกอร์สีแดง",
+    "tr": "Kırmızı Fındıkkıran",
+    "vi": "Kẹp Hạt Dẻ Đỏ",
+    "zh": "红色胡桃夹子",
+    "pl": "Czerwony Dziadek do orzechów",
+    "zh-tw": "紅色胡桃鉗"
   },
   "11001": {
     "en": "Yellow Nutcracker",
@@ -745,7 +1415,17 @@
     "id": "Pemecah Kacang Kuning",
     "ja": "黄色い服のくるみ割り人形",
     "ko": "노란 옷의 호두까기 인형",
-    "pt": "Quebra-Nozes Amarelo"
+    "pt": "Quebra-Nozes Amarelo",
+    "ar": "كسارة البندق الصفراء",
+    "it": "Schiaccianoci giallo",
+    "ms": "Pemecah Kacang Kuning",
+    "nl": "Gele notenkraker",
+    "th": "นัทแครกเกอร์สีเหลือง",
+    "tr": "Sarı Fındıkkıran",
+    "vi": "Kẹp Hạt Dẻ Vàng",
+    "zh": "黄色胡桃夹子",
+    "pl": "Żółty Dziadek do orzechów",
+    "zh-tw": "黃色胡桃鉗"
   },
   "11002": {
     "en": "Green Nutcracker",
@@ -756,7 +1436,17 @@
     "id": "Pemecah Kacang Hijau",
     "ja": "緑の服のくるみ割り人形",
     "ko": "초록 옷의 호두까기 인형",
-    "pt": "Quebra-Nozes Verde"
+    "pt": "Quebra-Nozes Verde",
+    "ar": "كسارة البندق الخضراء",
+    "it": "Schiaccianoci verde",
+    "ms": "Pemecah Kacang Hijau",
+    "nl": "Groene notenkraker",
+    "th": "นัทแครกเกอร์สีเขียว",
+    "tr": "Yeşil Fındıkkıran",
+    "vi": "Kẹp Hạt Dẻ Xanh lá",
+    "zh": "绿色胡桃夹子",
+    "pl": "Zielony Dziadek do orzechów",
+    "zh-tw": "綠色胡桃鉗"
   },
   "11003": {
     "en": "Demon\\'s Eye",
@@ -767,7 +1457,17 @@
     "id": "Mata Iblis",
     "ja": "悪魔の目",
     "ko": "악마의 눈",
-    "pt": "Olho do Demônio"
+    "pt": "Olho do Demônio",
+    "ar": "عين الشيطان",
+    "it": "Occhio del demone",
+    "ms": "Mata Iblis",
+    "nl": "Demonenoog",
+    "th": "ดวงตาปีศาจ",
+    "tr": "İblis Gözü",
+    "vi": "Mắt Quỷ",
+    "zh": "恶魔之眼",
+    "pl": "Oko demona",
+    "zh-tw": "惡魔之眼"
   },
   "11004": {
     "en": "Dragon Blood",
@@ -778,7 +1478,17 @@
     "id": "Darah Naga",
     "ja": "ドラゴンの血",
     "ko": "용족의 피",
-    "pt": "Sangue de Dragão"
+    "pt": "Sangue de Dragão",
+    "ar": "دم التنين",
+    "it": "Sangue di drago",
+    "ms": "Darah Naga",
+    "nl": "Drakenbloed",
+    "th": "เลือดมังกร",
+    "tr": "Ejderha Kanı",
+    "vi": "Máu Rồng",
+    "zh": "龙血",
+    "pl": "Smocza krew",
+    "zh-tw": "龍血"
   },
   "11005": {
     "en": "Panacea",
@@ -789,7 +1499,17 @@
     "id": "Ramuan Jiwa",
     "ja": "万能薬",
     "ko": "만병통치약",
-    "pt": "Panaceia"
+    "pt": "Panaceia",
+    "ar": "الدواء الجامع",
+    "it": "Panacea",
+    "ms": "Penawar",
+    "nl": "Panacee",
+    "th": "ยาครอบจักรวาล",
+    "tr": "Her Derde Deva",
+    "vi": "Tiên đan",
+    "zh": "万能药",
+    "pl": "Panaceum",
+    "zh-tw": "萬能藥"
   },
   "11006": {
     "en": "Easter Egg Warrior",
@@ -800,7 +1520,17 @@
     "id": "Pejuang Telur Paskah",
     "ja": "イースターエッグウォーリア",
     "ko": "이스터 에그 전사",
-    "pt": "Guerreiro Ovo de Páscoa"
+    "pt": "Guerreiro Ovo de Páscoa",
+    "ar": "محارب بيضة الفصح",
+    "it": "Guerriero Uovo di Pasqua",
+    "ms": "Pahlawan Telur Paskah",
+    "nl": "Paasei-krijger",
+    "th": "นักรบไข่อีสเตอร์",
+    "tr": "Paskalya Yumurtası Savaşçısı",
+    "vi": "Chiến binh Trứng Phục sinh",
+    "zh": "复活节彩蛋战士",
+    "pl": "Wojownik Pisanki",
+    "zh-tw": "復活節彩蛋戰士"
   },
   "11007": {
     "en": "Fish Amulet",
@@ -811,7 +1541,17 @@
     "id": "Jimat Ikan",
     "ja": "魚型護符",
     "ko": "물고기 부적",
-    "pt": "Amuleto de Peixe"
+    "pt": "Amuleto de Peixe",
+    "ar": "تميمة السمكة",
+    "it": "Amuleto pesce",
+    "ms": "Azimat Ikan",
+    "nl": "Visamulet",
+    "th": "เครื่องรางปลา",
+    "tr": "Balık Muskası",
+    "vi": "Bùa Cá",
+    "zh": "鱼形护符",
+    "pl": "Amulet ryby",
+    "zh-tw": "魚形護符"
   },
   "11008": {
     "en": "Mad Hat",
@@ -822,7 +1562,17 @@
     "id": "Topi Gila",
     "ja": "マッドハット",
     "ko": "광란의 모자",
-    "pt": "Chapeleiro Maluco"
+    "pt": "Chapeleiro Maluco",
+    "ar": "القبعة المجنونة",
+    "it": "Cappello matto",
+    "ms": "Topi Gila",
+    "nl": "Gekke hoed",
+    "th": "หมวกบ้า",
+    "tr": "Çılgın Şapka",
+    "vi": "Mũ Điên",
+    "zh": "疯帽子",
+    "pl": "Szalony kapelusz",
+    "zh-tw": "瘋帽子"
   },
   "11009": {
     "en": "Slow Pocket Watch",
@@ -833,7 +1583,17 @@
     "id": "Jam Saku Terlambat",
     "ja": "遅刻の懐中時計",
     "ko": "느린 회중시계",
-    "pt": "Relógio de Bolso Lento"
+    "pt": "Relógio de Bolso Lento",
+    "ar": "ساعة الجيب البطيئة",
+    "it": "Orologio da tasca lento",
+    "ms": "Jam Poket Perlahan",
+    "nl": "Trage zakhorloge",
+    "th": "นาฬิกาพกเดินช้า",
+    "tr": "Yavaş Cep Saati",
+    "vi": "Đồng hồ bỏ túi Chậm",
+    "zh": "慢速怀表",
+    "pl": "Wolny zegarek kieszonkowy",
+    "zh-tw": "慢速懷錶"
   },
   "11010": {
     "en": "Beacon of the Era",
@@ -844,7 +1604,17 @@
     "id": "Cahaya Zaman",
     "ja": "時代の光",
     "ko": "시대의 빛",
-    "pt": "Farol da Era"
+    "pt": "Farol da Era",
+    "ar": "منارة العصر",
+    "it": "Faro dell'Era",
+    "ms": "Suar Era",
+    "nl": "Baken van het Tijdperk",
+    "th": "ประภาคารแห่งยุค",
+    "tr": "Çağ Feneri",
+    "vi": "Hải Đăng Thời Đại",
+    "zh": "纪元灯塔",
+    "pl": "Latarnia Ery",
+    "zh-tw": "紀元燈塔"
   },
   "11011": {
     "en": "Pearl of the Deep",
@@ -855,7 +1625,17 @@
     "id": "Mutiara Laut Dalam",
     "ja": "深海の宝珠",
     "ko": "심해의 진주",
-    "pt": "Pérola das Profundezas"
+    "pt": "Pérola das Profundezas",
+    "ar": "لؤلؤة الأعماق",
+    "it": "Perla degli abissi",
+    "ms": "Mutiara Dasar Laut",
+    "nl": "Parel van de diepte",
+    "th": "ไข่มุกแห่งห้วงลึก",
+    "tr": "Derinlerin İncisi",
+    "vi": "Ngọc Trai Biển Sâu",
+    "zh": "深海珍珠",
+    "pl": "Perła głębin",
+    "zh-tw": "深海珍珠"
   },
   "11012": {
     "en": "Ship in a Bottle",
@@ -866,7 +1646,17 @@
     "id": "Kapal dalam Botol",
     "ja": "ボトルシップ",
     "ko": "병 속의 배",
-    "pt": "Navio na Garrafa"
+    "pt": "Navio na Garrafa",
+    "ar": "سفينة في زجاجة",
+    "it": "Nave in bottiglia",
+    "ms": "Kapal dalam Botol",
+    "nl": "Schip in een fles",
+    "th": "เรือในขวด",
+    "tr": "Şişedeki Gemi",
+    "vi": "Thuyền trong Chai",
+    "zh": "瓶中船",
+    "pl": "Statek w butelce",
+    "zh-tw": "瓶中船"
   },
   "11013": {
     "en": "建造锤子",
@@ -877,7 +1667,17 @@
     "id": "建造锤子",
     "ja": "建造锤子",
     "ko": "建造锤子",
-    "pt": "建造锤子"
+    "pt": "建造锤子",
+    "ar": "مطرقة البناء",
+    "it": "Martello da costruzione",
+    "ms": "Palu Bina",
+    "nl": "Bouwhamer",
+    "th": "ค้อนก่อสร้าง",
+    "tr": "İnşaat Çekici",
+    "vi": "Búa Xây dựng",
+    "zh": "建造锤子",
+    "pl": "Młot budowlany",
+    "zh-tw": "建造錘子"
   },
   "11014": {
     "en": "研究之书",
@@ -888,7 +1688,17 @@
     "id": "研究之书",
     "ja": "研究之书",
     "ko": "研究之书",
-    "pt": "研究之书"
+    "pt": "研究之书",
+    "ar": "كتاب الأبحاث",
+    "it": "Libro di ricerca",
+    "ms": "Buku Kajian",
+    "nl": "Onderzoeksboek",
+    "th": "หนังสือวิจัย",
+    "tr": "Araştırma Kitabı",
+    "vi": "Sách Nghiên cứu",
+    "zh": "研究之书",
+    "pl": "Księga badań",
+    "zh-tw": "研究之書"
   },
   "11015": {
     "en": "重装骑士",
@@ -899,6 +1709,16 @@
     "id": "重装骑士",
     "ja": "重装骑士",
     "ko": "重装骑士",
-    "pt": "重装骑士"
+    "pt": "重装骑士",
+    "ar": "الفارس المدرع",
+    "it": "Cavaliere corazzato",
+    "ms": "Kesatria Berperisai",
+    "nl": "Zware ridder",
+    "th": "อัศวินเกราะหนัก",
+    "tr": "Ağır Zırhlı Şövalye",
+    "vi": "Hiệp sĩ Trọng giáp",
+    "zh": "重装骑士",
+    "pl": "Ciężki rycerz",
+    "zh-tw": "重裝騎士"
   }
 }

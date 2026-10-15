@@ -10,7 +10,17 @@
       "id": "Pengembalian Poin",
       "ja": "水晶サージ",
       "ko": "포인트 환급",
-      "pt": "Erupção de Cristal"
+      "pt": "Erupção de Cristal",
+      "ar": "طفرة الكريستال",
+      "it": "Ondata di Cristallo",
+      "ms": "Lonjakan Kristal",
+      "nl": "Crystal Surge",
+      "th": "คริสตัลเซิร์จ",
+      "tr": "Kristal Dalgası",
+      "vi": "Dâng Trào Tinh Thể",
+      "zh": "水晶涌动",
+      "pl": "Przypływ Kryształów",
+      "zh-tw": "水晶湧動"
     },
     "desc": {
       "ru": "Периодически даёт 1080 очищенных кристаллов",
@@ -21,7 +31,17 @@
       "id": "Otomatis mendapat 1080 Kristal Pemurni setiap periode waktu tertentu",
       "ja": "一定時間ごとに1080浄化クリスタルを自動で獲得",
       "ko": "일정 시간마다 정화 수정 1,080개 자동 획득",
-      "pt": "Ganhe periodicamente 1.080 Cristais Purificados"
+      "pt": "Ganhe periodicamente 1.080 Cristais Purificados",
+      "ar": "احصل بشكل دوري على 1080 كريستالة نقية",
+      "it": "Ottieni periodicamente 1080 Cristalli Purificati",
+      "ms": "Dapatkan 1080 Kristal Tulen secara berkala",
+      "nl": "Ontvang periodiek 1080 Gezuiverde Kristallen",
+      "th": "รับคริสตัลบริสุทธิ์ 1080 ชิ้นเป็นระยะ",
+      "tr": "Periyodik olarak 1080 Arındırılmış Kristal kazanın",
+      "vi": "Định kỳ nhận 1080 Tinh Thể Tinh Chế",
+      "zh": "定期获得1080纯净水晶",
+      "pl": "Okresowo otrzymujesz 1080 Oczyszczonych Kryształów",
+      "zh-tw": "定期獲得1080純淨水晶"
     }
   },
   {
@@ -35,7 +55,17 @@
       "id": "Pemburu Tikus Wabah",
       "ja": "疫病ネズミハンター",
       "ko": "역병 쥐 사냥꾼",
-      "pt": "Caçador de Ratos Infectados"
+      "pt": "Caçador de Ratos Infectados",
+      "ar": "صائد جرذان الطاعون",
+      "it": "Cacciatore di Ratti della Peste",
+      "ms": "Pemburu Tikus Wabak",
+      "nl": "Plaagrat Hunter",
+      "th": "นักล่าหนูโรคระบาด",
+      "tr": "Veba Sıçanı Avcısı",
+      "vi": "Thợ Săn Chuột Dịch Bệnh",
+      "zh": "瘟疫鼠猎人",
+      "pl": "Łowca Szczurów Zarazy",
+      "zh-tw": "瘟疫鼠獵人"
     },
     "desc": {
       "ru": "Получите 1500 дополнительных кристаллов за убийство чумной крысы",
@@ -46,7 +76,17 @@
       "id": "Dapatkan 1500 bonus kristal saat mengalahkan Tikus Wabah",
       "ja": "疫病ネズミを討伐すると、追加報酬としてクリスタルを1500獲得",
       "ko": "역병 쥐 처치 시 수정 1,500개 추가 획득",
-      "pt": "Ganhe 1.500 Cristais extras ao abater um Rato Infectado"
+      "pt": "Ganhe 1.500 Cristais extras ao abater um Rato Infectado",
+      "ar": "احصل على 1500 كريستالة إضافية عندما تقضي على جرذ طاعون",
+      "it": "Ottieni 1500 Cristalli extra quando sconfiggi un Ratto della Peste",
+      "ms": "Dapatkan 1500 Kristal tambahan apabila anda membunuh Tikus Wabak",
+      "nl": "Ontvang 1500 extra Kristallen wanneer je een Pestrat verslaat",
+      "th": "รับคริสตัลเพิ่ม 1500 ชิ้นเมื่อคุณสังหารหนูโรคระบาด",
+      "tr": "Bir Veba Sıçanı katlettiğinizde 1500 ekstra Kristal kazanın",
+      "vi": "Nhận thêm 1500 Tinh Thể khi tiêu diệt một Chuột Dịch Bệnh",
+      "zh": "击杀瘟疫鼠时额外获得1500水晶",
+      "pl": "Otrzymujesz 1500 dodatkowych Kryształów po zabiciu Szczura Zarazy",
+      "zh-tw": "擊殺瘟疫鼠時額外獲得1500水晶"
     }
   },
   {
@@ -60,7 +100,17 @@
       "id": "Ekspansi Pasukan",
       "ja": "兵力拡張",
       "ko": "병력 확장",
-      "pt": "Expansão de Força"
+      "pt": "Expansão de Força",
+      "ar": "توسيع القوة",
+      "it": "Espansione della Forza",
+      "ms": "Peningkatan Kuasa",
+      "nl": "Force Expansion",
+      "th": "การขยายกำลังพล",
+      "tr": "Güç Genişlemesi",
+      "vi": "Mở Rộng Lực Lượng",
+      "zh": "武力扩张",
+      "pl": "Ekspansja Siły",
+      "zh-tw": "武力擴張"
     },
     "desc": {
       "ru": "Вместимость похода Героя +50.",
@@ -71,7 +121,17 @@
       "id": "Kapasitas ekspedisi Hero tunggal bertambah 50",
       "ja": "英雄単体の遠征容量+50",
       "ko": "단일 영웅 출정 부대 규모 +50",
-      "pt": "Capacidade de Marcha de Herói Individual +50"
+      "pt": "Capacidade de Marcha de Herói Individual +50",
+      "ar": "سعة مسير البطل الفردي +50",
+      "it": "Capacità di Marcia Eroe Singolo +50",
+      "ms": "Kapasiti Pergerakan Wira Tunggal +50",
+      "nl": "Capaciteit van Maart met Enkele Held +50",
+      "th": "ความจุทัพฮีโร่เดี่ยว +50",
+      "tr": "Tek Kahraman Yürüyüş Kapasitesi +50",
+      "vi": "Sức Chứa Hành Quân của Tướng Đơn +50",
+      "zh": "单英雄行军上限+50",
+      "pl": "Pojemność marszu pojedynczego bohatera +50",
+      "zh-tw": "單英雄行軍上限+50"
     }
   },
   {
@@ -85,7 +145,17 @@
       "id": "Sprint Lembah",
       "ja": "山谷疾走",
       "ko": "골짜기 질주",
-      "pt": "Marcha Veloz"
+      "pt": "Marcha Veloz",
+      "ar": "المسير السريع",
+      "it": "Marcia Rapida",
+      "ms": "Pergerakan Pantas",
+      "nl": "Swift March",
+      "th": "เดินทัพว่องไว",
+      "tr": "Seri Yürüyüş",
+      "vi": "Hành Quân Thần Tốc",
+      "zh": "疾行军",
+      "pl": "Szybki Marsz",
+      "zh-tw": "疾行軍"
     },
     "desc": {
       "ru": "Скорость похода войск в долине Кристальных скоплений +25%",
@@ -96,7 +166,17 @@
       "id": "SPD Perjalanan Pasukan di Lembah Kristal meningkat 25%",
       "ja": "晶簇の谷での部隊行軍速度+25%",
       "ko": "수정 골짜기 내 부대 행군 속도+25%",
-      "pt": "Velocidade de Marcha da Tropa no Vale dos Cristais +25%"
+      "pt": "Velocidade de Marcha da Tropa no Vale dos Cristais +25%",
+      "ar": "سرعة مسير القوات في وادي عناقيد الكريستال +25%",
+      "it": "Velocità di Marcia delle Truppe nella Valle dei Cluster di Cristallo +25%",
+      "ms": "Kelajuan Pergerakan Pasukan dalam Lembah Kluster Kristal +25%",
+      "nl": "Troepenmars-snelheid in Kristalkluster Vallei +25%",
+      "th": "ความเร็วเดินทัพกองกำลังในหุบเขาคริสตัล +25%",
+      "tr": "Kristal Küme Vadisi'ndeki Birlik Yürüyüş Hızı +%25",
+      "vi": "Tốc Độ Hành Quân của Lính trong Thung Lũng Cụm Tinh Thể +25%",
+      "zh": "水晶簇山谷中的部队行军速度+25%",
+      "pl": "Prędkość marszu wojsk w Dolinie Klastrów Kryształów +25%",
+      "zh-tw": "水晶簇山谷中的部隊行軍速度+25%"
     }
   },
   {
@@ -110,7 +190,17 @@
       "id": "Penjarahan Lembah",
       "ja": "山谷略奪",
       "ko": "골짜기 약탈",
-      "pt": "Pilhagem do Vale"
+      "pt": "Pilhagem do Vale",
+      "ar": "غنائم الوادي",
+      "it": "Sacco della Valle",
+      "ms": "Penjarahan Lembah",
+      "nl": "Valley Plunder",
+      "th": "ปล้นสะดมภ์หุบเขา",
+      "tr": "Vadi Yağması",
+      "vi": "Cướp Bóc Thung Lũng",
+      "zh": "山谷劫掠",
+      "pl": "Grabież Doliny",
+      "zh-tw": "山谷劫掠"
     },
     "desc": {
       "ru": "Получите 5000 дополнительных очищенных кристаллов при захвате жилы. Восстановление: 60 сек.",
@@ -121,7 +211,17 @@
       "id": "Dapatkan 5000 bonus Kristal Pemurni saat berhasil merebut tambang, cooldown 60d",
       "ja": "鉱脈の奪取成功時、追加で浄化クリスタルを5000獲得、クールダウン60秒",
       "ko": "광맥 쟁탈 성공 시 정화 수정 5,000개 추가 획득(쿨타임: 60초)",
-      "pt": "Ganhe 5.000 Cristais Purificados extras ao conquistar um Veio. Recarga: 60s"
+      "pt": "Ganhe 5.000 Cristais Purificados extras ao conquistar um Veio. Recarga: 60s",
+      "ar": "احصل على 5000 كريستالة نقية إضافية عند الاستيلاء على عرق. فترة الهدوء: 60 ثانية",
+      "it": "Ottieni 5000 Cristalli Purificati extra quando conquisti un Filone. CD: 60s",
+      "ms": "Dapatkan 5000 Kristal Tulen tambahan apabila anda merampas Lode. CD: 60s",
+      "nl": "Ontvang 5000 extra Gezuiverde Kristallen wanneer je een Ader verovert. CD: 60s",
+      "th": "รับคริสตัลบริสุทธิ์เพิ่ม 5000 ชิ้นเมื่อคุณยึดครองแหล่งแร่ คูลดาวน์: 60s",
+      "tr": "Bir Maden Damarı ele geçirdiğinizde 5000 ekstra Arındırılmış Kristal kazanın. Bekleme Süresi: 60sn",
+      "vi": "Nhận thêm 5000 Tinh Thể Tinh Chế khi chiếm được một Mạch Khoáng. Hồi chiêu: 60s",
+      "zh": "夺取矿脉时额外获得5000纯净水晶。冷却时间：60秒",
+      "pl": "Otrzymujesz 5000 dodatkowych Oczyszczonych Kryształów po przejęciu Złoża. Czas odnowienia: 60s",
+      "zh-tw": "奪取礦脈時額外獲得5000純淨水晶。冷卻時間：60秒"
     }
   },
   {
@@ -135,7 +235,17 @@
       "id": "Penjaga Lembah",
       "ja": "山谷見張り",
       "ko": "골짜기 수호",
-      "pt": "Vigília do Vale"
+      "pt": "Vigília do Vale",
+      "ar": "يقظة الوادي",
+      "it": "Vigilanza della Valle",
+      "ms": "Kewaspadaan Lembah",
+      "nl": "Valley Vigil",
+      "th": "เฝ้าระวังหุบเขา",
+      "tr": "Vadi Nöbeti",
+      "vi": "Cảnh Giác Thung Lũng",
+      "zh": "山谷警戒",
+      "pl": "Czuwanie w Dolinie",
+      "zh-tw": "山谷警戒"
     },
     "desc": {
       "ru": "Получите 5000 дополнительных очищенных кристаллов при неудачной попытке захвата жилы. Восстановление: 60 сек.",
@@ -146,7 +256,17 @@
       "id": "Dapatkan 5000 bonus Kristal Pemurni saat gagal merebut tambang, cooldown 60d",
       "ja": "鉱脈の奪取失敗時、追加で浄化クリスタルを5000獲得、クールダウン60秒",
       "ko": "광맥 쟁탈 실패 시 정화 수정 5,000개 추가 획득(쿨타임: 60초)",
-      "pt": "Ganhe 5.000 Cristais Purificados extras se não conseguir conquistar um Veio. Recarga: 60s"
+      "pt": "Ganhe 5.000 Cristais Purificados extras se não conseguir conquistar um Veio. Recarga: 60s",
+      "ar": "احصل على 5000 كريستالة نقية إضافية عند الفشل في الاستيلاء على عرق. فترة الهدوء: 60 ثانية",
+      "it": "Ottieni 5000 Cristalli Purificati extra quando non riesci a conquistare un Filone. CD: 60s",
+      "ms": "Dapatkan 5000 Kristal Tulen tambahan apabila anda gagal merampas Lode. CD: 60s",
+      "nl": "Ontvang 5000 extra Gezuiverde Kristallen als het niet lukt om een Ader te veroveren. CD: 60s",
+      "th": "รับคริสตัลบริสุทธิ์เพิ่ม 5000 ชิ้นเมื่อคุณล้มเหลวในการยึดครองแหล่งแร่ คูลดาวน์: 60s",
+      "tr": "Bir Maden Damarı ele geçiremediğinizde 5000 ekstra Arındırılmış Kristal kazanın. Bekleme Süresi: 60sn",
+      "vi": "Nhận thêm 5000 Tinh Thể Tinh Chế khi không chiếm được một Mạch Khoáng. Hồi chiêu: 60s",
+      "zh": "未能夺取矿脉时额外获得5000纯净水晶。冷却时间：60秒",
+      "pl": "Otrzymujesz 5000 dodatkowych Oczyszczonych Kryształów w przypadku niepowodzenia przy próbie przejęcia Złoża. Czas odnowienia: 60s",
+      "zh-tw": "未能奪取礦脈時額外獲得5000純淨水晶。冷卻時間：60秒"
     }
   },
   {
@@ -160,7 +280,17 @@
       "id": "Teknik Penambangan Kristal",
       "ja": "晶簇採掘術",
       "ko": "수정 군집 채광술",
-      "pt": "Mineração de Cristal"
+      "pt": "Mineração de Cristal",
+      "ar": "تعدين الكريستال",
+      "it": "Estrazione di Cristallo",
+      "ms": "Perlombongan Kristal",
+      "nl": "Crystal Mining",
+      "th": "การขุดคริสตัล",
+      "tr": "Kristal Madenciliği",
+      "vi": "Khai Thác Tinh Thể",
+      "zh": "水晶开采",
+      "pl": "Wydobycie Kryształów",
+      "zh-tw": "水晶開採"
     },
     "desc": {
       "ru": "Скорость сбора кристаллических скоплений увеличивается на 15%",
@@ -171,7 +301,17 @@
       "id": "Kecepatan Pengumpulan Kumpulan Kristal otomatis meningkat 15%",
       "ja": "晶簇の採集速度が15%自動で上昇",
       "ko": "수정 채집 속도 15% 자동 증가",
-      "pt": "Velocidade de Coleta no Vale dos Cristais aumenta em 15%"
+      "pt": "Velocidade de Coleta no Vale dos Cristais aumenta em 15%",
+      "ar": "تزداد سرعة جمع عناقيد الكريستال بنسبة 15%",
+      "it": "La velocità di raccolta dei Cluster di Cristallo aumenta del 15%",
+      "ms": "Kelajuan Pengumpulan Kluster Kristal meningkat sebanyak 15%",
+      "nl": "Verzamelsnelheid van Kristalclusters verhoogt met 15%",
+      "th": "ความเร็วในการเก็บเกี่ยวคลัสเตอร์คริสตัลเพิ่มขึ้น 15%",
+      "tr": "Kristal Küme Toplama Hızı %15 artar",
+      "vi": "Tốc Độ Thu Thập Cụm Tinh Thể tăng 15%",
+      "zh": "水晶簇采集速度提升15%",
+      "pl": "Prędkość zbierania z Klastra Kryształów wzrasta o 15%",
+      "zh-tw": "水晶簇採集速度提升15%"
     }
   },
   {
@@ -185,7 +325,17 @@
       "id": "Tekad Kuat",
       "ja": "不屈の意志",
       "ko": "결연한 의지",
-      "pt": "Vontade de Ferro"
+      "pt": "Vontade de Ferro",
+      "ar": "إرادة حديدية",
+      "it": "Volontà di Ferro",
+      "ms": "Semangat Besi",
+      "nl": "Iron Will",
+      "th": "เจตจำนงเหล็กกล้า",
+      "tr": "Çelik İrade",
+      "vi": "Ý Chí Sắt Đá",
+      "zh": "钢铁意志",
+      "pl": "Żelazna Wola",
+      "zh-tw": "鋼鐵意志"
     },
     "desc": {
       "ru": "Уменьшает длительность получаемых ослаблений на 30 сек.",
@@ -196,7 +346,17 @@
       "id": "Mengurangi durasi efek negatif yang diterima 30d",
       "ja": "受けるデバフの持続時間を30秒短縮",
       "ko": "받는 디버프의 지속 시간-30초",
-      "pt": "Reduz a duração dos debuffs recebidos em 30s"
+      "pt": "Reduz a duração dos debuffs recebidos em 30s",
+      "ar": "تقلل مدة التأثيرات السلبية المستلمة بمقدار 30 ثانية",
+      "it": "Riduce la durata dei debuff ricevuti di 30s",
+      "ms": "Mengurangkan tempoh nyah-buff yang diterima sebanyak 30s",
+      "nl": "Vermindert de duur van ontvangen debuffs met 30s",
+      "th": "ลดระยะเวลาของดีบัฟที่ได้รับลง 30 วินาที",
+      "tr": "Alınan zayıflatmaların süresini 30sn azaltır",
+      "vi": "Giảm thời gian nhận hiệu ứng bất lợi đi 30s",
+      "zh": "承受的减益效果持续时间减少30秒",
+      "pl": "Zmniejsza czas trwania otrzymanych negatywnych efektów o 30s",
+      "zh-tw": "承受的減益效果持續時間減少30秒"
     }
   },
   {
@@ -210,7 +370,17 @@
       "id": "Kebangkitan Lembah",
       "ja": "谷の覚醒",
       "ko": "골짜기의 각성",
-      "pt": "Despertar do Vale"
+      "pt": "Despertar do Vale",
+      "ar": "صحوة الوادي",
+      "it": "Risveglio della Valle",
+      "ms": "Kebangkitan Lembah",
+      "nl": "Valley Awakening",
+      "th": "ตื่นรู้แห่งหุบเขา",
+      "tr": "Vadi Uyanışı",
+      "vi": "Thức Tỉnh Thung Lũng",
+      "zh": "山谷觉醒",
+      "pl": "Przebudzenie Doliny",
+      "zh-tw": "山谷覺醒"
     },
     "desc": {
       "ru": "Увеличивает Урон героя на 15% на 60 сек. Перезарядка: 300 сек.",
@@ -221,7 +391,17 @@
       "id": "Setelah digunakan meningkatkan DMG Hero +15%, durasi 60d, cooldown 300d",
       "ja": "使用すると60秒間、英雄ダメージが15%上昇。クールダウン300秒。",
       "ko": "사용 시 60초 동안 영웅의 피해량이 15% 증가한다(쿨타임: 300초)",
-      "pt": "Aumenta o Dano do Herói em 15% por 60s. Recarga: 300s"
+      "pt": "Aumenta o Dano do Herói em 15% por 60s. Recarga: 300s",
+      "ar": "تزيد ضرر البطل بنسبة 15% لمدة 60 ثانية. فترة الهدوء: 300 ثانية",
+      "it": "Aumenta i DAN dell'Eroe del 15% per 60s. CD: 300s",
+      "ms": "Meningkatkan Kerosakan Wira sebanyak 15% selama 60s. CD: 300s",
+      "nl": "Verhoogt Helden-SCHADE met 15% gedurende 60s. CD: 300s",
+      "th": "เพิ่มความเสียหายฮีโร่ 15% เป็นเวลา 60s คูลดาวน์: 300s",
+      "tr": "60sn boyunca Kahraman Hasarı'nı %15 artırır. Bekleme Süresi: 300sn",
+      "vi": "Tăng Sát Thương của Tướng thêm 15% trong 60s. Hồi chiêu: 300s",
+      "zh": "英雄伤害提升15%，持续60秒。冷却时间：300秒",
+      "pl": "Zwiększa obrażenia bohatera o 15% na 60s. Czas odnowienia: 300s",
+      "zh-tw": "英雄傷害提升15%，持續60秒。冷卻時間：300秒"
     }
   },
   {
@@ -235,7 +415,17 @@
       "id": "Resonansi Kristal",
       "ja": "晶簇共鳴",
       "ko": "수정 군집 공명",
-      "pt": "Ressonância de Cristal"
+      "pt": "Ressonância de Cristal",
+      "ar": "رنين الكريستال",
+      "it": "Risonanza di Cristallo",
+      "ms": "Resonans Kristal",
+      "nl": "Crystal Resonance",
+      "th": "เสียงสะท้อนคริสตัล",
+      "tr": "Kristal Rezonansı",
+      "vi": "Cộng Hưởng Tinh Thể",
+      "zh": "水晶共鸣",
+      "pl": "Rezonans Kryształów",
+      "zh-tw": "水晶共鳴"
     },
     "desc": {
       "ru": "Временно увеличивает скорость сбора кристаллических скоплений на 50% на 60 сек. Перезарядка: 300 сек.",
@@ -246,7 +436,17 @@
       "id": "Setelah digunakan sementara meningkatkan Kecepatan Pengumpulan Kumpulan Kristal 50%, berlangsung 60d, cooldown 300d",
       "ja": "使用すると60秒間晶簇の採集速度が50%上昇。クールダウン300秒。",
       "ko": "사용 시 60초 동안 수정 채집 속도가 50% 증가한다(쿨타임: 300초)",
-      "pt": "Aumenta em 50% a Velocidade de Coleta de Aglomerados de Cristal por 60s. Recarga: 300s"
+      "pt": "Aumenta em 50% a Velocidade de Coleta de Aglomerados de Cristal por 60s. Recarga: 300s",
+      "ar": "تزيد مؤقتًا سرعة جمع عناقيد الكريستال بنسبة 50% لمدة 60 ثانية. فترة الهدوء: 300 ثانية",
+      "it": "Aumenta temporaneamente la velocità di raccolta dei Cluster di Cristallo del 50% per 60s. CD: 300s",
+      "ms": "Meningkatkan Kelajuan Pengumpulan Kluster Kristal buat sementara waktu sebanyak 50% selama 60s. CD: 300s",
+      "nl": "Verhoogt tijdelijk de verzamelsnelheid van Kristalclusters met 50% gedurende 60s. CD: 300s",
+      "th": "เพิ่มความเร็วในการเก็บเกี่ยวคลัสเตอร์คริสตัลชั่วคราว 50% เป็นเวลา 60s คูลดาวน์: 300s",
+      "tr": "60sn boyunca Kristal Küme Toplama Hızı'nı geçici olarak %50 artırır. Bekleme Süresi: 300sn",
+      "vi": "Tạm thời tăng Tốc Độ Thu Thập Cụm Tinh Thể thêm 50% trong 60s. Hồi chiêu: 300s",
+      "zh": "临时提升水晶簇采集速度50%，持续60秒。冷却时间：300秒",
+      "pl": "Tymczasowo zwiększa prędkość zbierania z Klastra Kryształów o 50% na 60s. Czas odnowienia: 300s",
+      "zh-tw": "臨時提升水晶簇採集速度50%，持續60秒。冷卻時間：300秒"
     }
   }
 ]

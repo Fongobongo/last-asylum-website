@@ -10,7 +10,17 @@
       "id": "Meningkatkan Kuil akan menaikkan batas Level hero",
       "ja": "教会をレベルアップすると、英雄の最大レベルが上昇します",
       "ko": "성당을 업그레이드하면 영웅의 레벨 한도가 높아집니다",
-      "pt": "Melhorar o Santuário aumenta o nível máximo do Herói."
+      "pt": "Melhorar o Santuário aumenta o nível máximo do Herói.",
+      "ar": "ترقية الملاذ ترفع الحد الأقصى لمستوى الأبطال.",
+      "it": "Potenziare il Santuario aumenta il limite di livello degli eroi.",
+      "ms": "Menaik taraf Sanctuary meningkatkan had tahap wira.",
+      "nl": "Het upgraden van het Heiligdom verhoogt het heldenniveaulimiet.",
+      "th": "การอัปเกรด Sanctuary จะเพิ่มขีดจำกัดเลเวลฮีโร่",
+      "tr": "Sığınağı yükseltmek kahraman seviye sınırını artırır.",
+      "vi": "Nâng cấp Sanctuary sẽ tăng giới hạn cấp độ tướng.",
+      "zh": "升级避难所可提高英雄等级上限。",
+      "pl": "Ulepszenie Sanktuarium zwiększa limit poziomu bohaterów.",
+      "zh-tw": "升級避難所可提高英雄等級上限。"
     }
   },
   {
@@ -24,7 +34,17 @@
       "id": "Meningkatkan Level laboratorium riset akan membuka lebih banyak teknologi",
       "ja": "研究室をレベルアップすると、より多くの技術が解放されます",
       "ko": "연구소 레벨을 업그레이드하면 더 많은 기술을 해제할 수 있습니다",
-      "pt": "Atualizar o Laboratório de Pesquisa desbloqueia mais tecnologias."
+      "pt": "Atualizar o Laboratório de Pesquisa desbloqueia mais tecnologias.",
+      "ar": "ترقية مختبر الأبحاث تفتح تقنيات جديدة.",
+      "it": "Potenziare il Laboratorio di Ricerca sblocca nuove tecnologie.",
+      "ms": "Menaik taraf Makmal Penyelidikan membuka lebih banyak teknologi.",
+      "nl": "Het upgraden van het Onderzoekslab ontgrendelt meer technologieën.",
+      "th": "การอัปเกรดห้องวิจัยจะปลดล็อกเทคโนโลยีเพิ่มเติม",
+      "tr": "Araştırma Laboratuvarını yükseltmek yeni teknolojilerin kilidini açar.",
+      "vi": "Nâng cấp Phòng thí nghiệm sẽ mở khóa thêm công nghệ.",
+      "zh": "升级研究实验室可解锁更多科技。",
+      "pl": "Ulepszenie Laboratorium Badawczego odblokowuje nowe technologie.",
+      "zh-tw": "升級研究實驗室可解鎖更多科技。"
     }
   },
   {
@@ -38,7 +58,17 @@
       "id": "Meningkatkan Barak akan menambah kapasitas Prajurit",
       "ja": "兵営をレベルアップすると、兵士の収容数が増加します",
       "ko": "병영을 업그레이드하면 더 많은 병사를 수용할 수 있습니다",
-      "pt": "Atualizar o Quartel aumenta a capacidade de Soldados."
+      "pt": "Atualizar o Quartel aumenta a capacidade de Soldados.",
+      "ar": "ترقية الثكنات تزيد سعة الجنود.",
+      "it": "Potenziare la Caserma aumenta la capacità delle truppe.",
+      "ms": "Menaik taraf Berek meningkatkan kapasiti tentera.",
+      "nl": "Het upgraden van de Kazerne verhoogt de soldatencapaciteit.",
+      "th": "การอัปเกรดค่ายทหารจะเพิ่มความจุทหาร",
+      "tr": "Kışlayı yükseltmek asker kapasitesini artırır.",
+      "vi": "Nâng cấp Doanh trại sẽ tăng sức chứa lính.",
+      "zh": "升级兵营可增加士兵容量。",
+      "pl": "Ulepszenie Koszar zwiększa pojemność żołnierzy.",
+      "zh-tw": "升級兵營可增加士兵容量。"
     }
   },
   {
@@ -52,7 +82,17 @@
       "id": "Prajurit meningkatkan atribut hero",
       "ja": "兵士は英雄のステータスを強化します",
       "ko": "병사는 영웅의 능력치를 향상시킵니다",
-      "pt": "Os soldados podem melhorar os atributos do herói."
+      "pt": "Os soldados podem melhorar os atributos do herói.",
+      "ar": "يمكن للجنود تعزيز سمات البطل.",
+      "it": "I soldati possono potenziare gli attributi degli eroi.",
+      "ms": "Tentera boleh meningkatkan atribut wira.",
+      "nl": "Soldaten kunnen heldenattributen verbeteren.",
+      "th": "ทหารสามารถเสริมค่าพลังฮีโร่ได้",
+      "tr": "Askerler kahraman niteliklerini güçlendirebilir.",
+      "vi": "Lính có thể tăng cường thuộc tính của tướng.",
+      "zh": "士兵可以增强英雄属性。",
+      "pl": "Żołnierze mogą wzmacniać atrybuty bohaterów.",
+      "zh-tw": "士兵可以增強英雄屬性。"
     }
   },
   {
@@ -66,7 +106,17 @@
       "id": "Prajurit bisa naik pangkat menjadi tingkat yang lebih tinggi di Barak",
       "ja": "兵営で兵士をより高いレベルへ昇進させることができます",
       "ko": "병사는 병영에서 더 높은 등급으로 승급할 수 있습니다",
-      "pt": "Os soldados podem ser promovidos a patentes mais altas no Quartel."
+      "pt": "Os soldados podem ser promovidos a patentes mais altas no Quartel.",
+      "ar": "يمكن ترقية الجنود إلى رتب أعلى في الثكنات.",
+      "it": "I soldati possono essere promossi a ranghi superiori nella Caserma.",
+      "ms": "Tentera boleh dinaikkan pangkat ke tahap lebih tinggi di Berek.",
+      "nl": "Soldaten kunnen in de Kazerne tot hogere rangen worden bevorderd.",
+      "th": "ทหารสามารถเลื่อนขั้นให้สูงขึ้นได้ในค่ายทหาร",
+      "tr": "Askerler Kışlada daha yüksek rütbelere terfi ettirilebilir.",
+      "vi": "Lính có thể được thăng cấp cao hơn trong Doanh trại.",
+      "zh": "士兵可以在兵营中晋升到更高等级。",
+      "pl": "Żołnierze mogą awansować na wyższe stopnie w Koszarach.",
+      "zh-tw": "士兵可以在兵營中晉升到更高等級。"
     }
   },
   {
@@ -80,7 +130,17 @@
       "id": "Bahan penguatan dapat meningkatkan atribut Gear",
       "ja": "強化素材を使用すると、装備のステータスを強化できます",
       "ko": "강화 재료로 장비의 속성을 강화할 수 있습니다",
-      "pt": "Os materiais de aprimoramento podem fortalecer os atributos do equipamento."
+      "pt": "Os materiais de aprimoramento podem fortalecer os atributos do equipamento.",
+      "ar": "مواد التعزيز تقوّي خصائص العتاد.",
+      "it": "I materiali di potenziamento rafforzano le statistiche dell'equipaggiamento.",
+      "ms": "Bahan peningkatan boleh menguatkan stat peralatan.",
+      "nl": "Versterkingsmaterialen kunnen uitrustingsstatistieken verbeteren.",
+      "th": "วัสดุเสริมพลังสามารถเพิ่มค่าสถานะอุปกรณ์ได้",
+      "tr": "Geliştirme malzemeleri ekipman özelliklerini güçlendirir.",
+      "vi": "Nguyên liệu cường hóa có thể tăng chỉ số trang bị.",
+      "zh": "强化材料可以提升装备属性。",
+      "pl": "Materiały ulepszające wzmacniają statystyki ekwipunku.",
+      "zh-tw": "強化材料可以提升裝備屬性。"
     }
   },
   {
@@ -94,7 +154,17 @@
       "id": "Meningkatkan CP hero adalah kunci kemenangan dalam pertempuran",
       "ja": "英雄の戦力を高めることが、戦闘に勝利するための重要な要素です",
       "ko": "영웅의 전투력을 높이는 것이 전투 승리의 핵심입니다",
-      "pt": "Aumentar o poder dos Heróis é a chave para vencer combates."
+      "pt": "Aumentar o poder dos Heróis é a chave para vencer combates.",
+      "ar": "قوة البطل الأعلى هي مفتاح النصر في المعركة.",
+      "it": "Una potenza eroe maggiore è la chiave della vittoria in battaglia.",
+      "ms": "Kuasa (Might) wira yang lebih tinggi adalah kunci kemenangan dalam pertempuran.",
+      "nl": "Een hogere heldenmacht is de sleutel tot overwinning in gevechten.",
+      "th": "ค่าพลังฮีโร่ที่สูงขึ้นคือกุญแจสู่ชัยชนะในการต่อสู้",
+      "tr": "Daha yüksek kahraman gücü, savaştaki zaferin anahtarıdır.",
+      "vi": "Lực chiến của tướng càng cao càng là chìa khóa chiến thắng trong chiến đấu.",
+      "zh": "更高的英雄战力是赢得战斗的关键。",
+      "pl": "Wyższa potęga bohatera to klucz do zwycięstwa w walce.",
+      "zh-tw": "更高的英雄戰力是贏得戰鬥的關鍵。"
     }
   },
   {
@@ -108,7 +178,17 @@
       "id": "Fragmen Gear dapat ditukar dengan bahan penguatan",
       "ja": "装備の欠片は、強化素材と交換できます",
       "ko": "장비 조각으로 강화 재료를 교환할 수 있습니다",
-      "pt": "Troque os fragmentos de equipamento por materiais de aprimoramento."
+      "pt": "Troque os fragmentos de equipamento por materiais de aprimoramento.",
+      "ar": "يمكن استبدال شظايا العتاد بمواد التعزيز.",
+      "it": "I frammenti di equipaggiamento possono essere scambiati con materiali di potenziamento.",
+      "ms": "Serpihan peralatan boleh ditukar dengan bahan peningkatan.",
+      "nl": "Uitrustingsfragmenten kunnen worden ingewisseld voor versterkingsmaterialen.",
+      "th": "ชิ้นส่วนอุปกรณ์สามารถแลกเป็นวัสดุเสริมพลังได้",
+      "tr": "Ekipman parçaları geliştirme malzemeleriyle takas edilebilir.",
+      "vi": "Mảnh trang bị có thể đổi lấy nguyên liệu cường hóa.",
+      "zh": "装备碎片可以兑换强化材料。",
+      "pl": "Fragmenty ekwipunku można wymieniać na materiały ulepszające.",
+      "zh-tw": "裝備碎片可以兌換強化材料。"
     }
   },
   {
@@ -122,7 +202,17 @@
       "id": "Saat bertarung, tempatkan hero tank di garis depan untuk menyerap DMG",
       "ja": "戦闘時は、タンクタイプの英雄を前列に配置することで、ダメージを受け持たせることができます",
       "ko": "전투 시 탱커 영웅을 전열에 배치하여 피해를 막아내게 할 수 있습니다",
-      "pt": "Durante as batalhas, coloque Heróis tanques na linha de frente para absorver o dano."
+      "pt": "Durante as batalhas, coloque Heróis tanques na linha de frente para absorver o dano.",
+      "ar": "أثناء المعارك، ضع أبطال الدبابات في الصف الأمامي لتحمّل الضرر.",
+      "it": "Durante le battaglie, posiziona gli eroi tank in prima linea per assorbire i danni.",
+      "ms": "Semasa pertempuran, letakkan wira tank di barisan hadapan untuk menyerap kerosakan.",
+      "nl": "Plaats tijdens gevechten tankhelden op de voorste rij om schade op te vangen.",
+      "th": "ระหว่างการต่อสู้ ให้วางฮีโร่สายแทงก์ไว้แถวหน้าเพื่อรับความเสียหาย",
+      "tr": "Savaşlar sırasında tank kahramanları hasarı karşılamaları için ön sıraya yerleştirin.",
+      "vi": "Trong trận chiến, hãy đặt các tướng đỡ đòn ở hàng trước để chịu sát thương.",
+      "zh": "战斗中，将坦克英雄放在前排以承受伤害。",
+      "pl": "Podczas walk ustaw bohaterów-tanki w pierwszym rzędzie, aby przyjmowali obrażenia.",
+      "zh-tw": "戰鬥中，將坦克英雄放在前排以承受傷害。"
     }
   },
   {
@@ -136,7 +226,17 @@
       "id": "Menyelesaikan misi harian memberikan banyak hadiah",
       "ja": "デイリー任務を完了すると、多くの報酬を獲得できます",
       "ko": "일일 퀘스트를 완료하면 풍성한 보상을 얻을 수 있습니다",
-      "pt": "Complete missões diárias e ganhe recompensas generosas."
+      "pt": "Complete missões diárias e ganhe recompensas generosas.",
+      "ar": "أكمل المهام اليومية للحصول على مكافآت وفيرة.",
+      "it": "Completa le missioni giornaliere per ottenere ricche ricompense.",
+      "ms": "Selesaikan misi harian untuk mendapatkan ganjaran yang lumayan.",
+      "nl": "Voltooi dagelijkse missies om rijke beloningen te verdienen.",
+      "th": "ทำภารกิจรายวันให้สำเร็จเพื่อรับรางวัลมากมาย",
+      "tr": "Zengin ödüller kazanmak için günlük görevleri tamamlayın.",
+      "vi": "Hoàn thành nhiệm vụ hàng ngày để nhận phần thưởng phong phú.",
+      "zh": "完成每日任务可获得丰厚奖励。",
+      "pl": "Wykonuj codzienne zadania, aby zdobywać bogate nagrody.",
+      "zh-tw": "完成每日任務可獲得豐厚獎勵。"
     }
   },
   {
@@ -150,7 +250,17 @@
       "id": "Reli untuk dapatkan banyak hadiah",
       "ja": "ラリーに参加すると、多くの報酬を獲得できます",
       "ko": "집결에 참여하면 많은 보상을 획득할 수 있습니다",
-      "pt": "Participe de Mobilizações e ganhe recompensas generosas."
+      "pt": "Participe de Mobilizações e ganhe recompensas generosas.",
+      "ar": "انضم إلى التجمعات للحصول على مكافآت وفيرة.",
+      "it": "Unisciti ai rally per ottenere ricche ricompense.",
+      "ms": "Sertai Perhimpunan untuk mendapatkan ganjaran yang lumayan.",
+      "nl": "Doe mee aan rally's om rijke beloningen te verdienen.",
+      "th": "เข้าร่วมการรวมพลเพื่อรับรางวัลมากมาย",
+      "tr": "Zengin ödüller için rallilere katılın.",
+      "vi": "Tham gia rally để nhận phần thưởng phong phú.",
+      "zh": "参加集结可获得丰厚奖励。",
+      "pl": "Dołączaj do rajdów, aby zdobywać bogate nagrody.",
+      "zh-tw": "參加集結可獲得豐厚獎勵。"
     }
   },
   {
@@ -164,7 +274,17 @@
       "id": "Ikuti event untuk raih imbalan besar",
       "ja": "イベントに参加すると、豊富な報酬を獲得できます",
       "ko": "이벤트에 참여하여 풍성한 보상을 획득하세요",
-      "pt": "Participe de eventos para receber recompensas generosas."
+      "pt": "Participe de eventos para receber recompensas generosas.",
+      "ar": "شارك في الفعاليات للحصول على مكافآت سخية.",
+      "it": "Partecipa agli eventi per ricevere generose ricompense.",
+      "ms": "Sertai acara untuk menerima ganjaran yang lumayan.",
+      "nl": "Neem deel aan evenementen om gulle beloningen te ontvangen.",
+      "th": "เข้าร่วมกิจกรรมเพื่อรับรางวัลมากมาย",
+      "tr": "Cömert ödüller için etkinliklere katılın.",
+      "vi": "Tham gia sự kiện để nhận phần thưởng hậu hĩnh.",
+      "zh": "参加活动可获得慷慨奖励。",
+      "pl": "Bierz udział w wydarzeniach, aby otrzymywać hojne nagrody.",
+      "zh-tw": "參加活動可獲得慷慨獎勵。"
     }
   },
   {
@@ -178,7 +298,17 @@
       "id": "Dapatkan lebih banyak hero di Kedai",
       "ja": "酒場では、より多くの英雄を獲得できます",
       "ko": "선술집에서 더 많은 영웅을 얻을 수 있습니다",
-      "pt": "Adquira mais Heróis na Taverna."
+      "pt": "Adquira mais Heróis na Taverna.",
+      "ar": "احصل على المزيد من الأبطال في الحانة.",
+      "it": "Recluta più eroi nella Taverna.",
+      "ms": "Dapatkan lebih banyak wira di Tavern.",
+      "nl": "Verkrijg meer helden in de Herberg.",
+      "th": "รับฮีโร่เพิ่มเติมได้ที่โรงเตี๊ยม",
+      "tr": "Meyhanede daha fazla kahraman edinin.",
+      "vi": "Chiêu mộ thêm tướng trong Quán rượu.",
+      "zh": "在酒馆中招募更多英雄。",
+      "pl": "Zdobywaj więcej bohaterów w Tawernie.",
+      "zh-tw": "在酒館中招募更多英雄。"
     }
   },
   {
@@ -192,7 +322,17 @@
       "id": "Raih banyak hadiah dari Menara Raven",
       "ja": "ファルコンタワーで大量の報酬を獲得しましょう",
       "ko": "팔콘 타워를 통해 풍성한 보상을 획득하세요",
-      "pt": "Obtenha recompensas abundantes na Torre do Falcão."
+      "pt": "Obtenha recompensas abundantes na Torre do Falcão.",
+      "ar": "احصل على مكافآت وفيرة في برج فالكون.",
+      "it": "Ottieni abbondanti ricompense nella Torre dei Falchi.",
+      "ms": "Dapatkan banyak ganjaran di Menara Falcon.",
+      "nl": "Verkrijg overvloedige beloningen in de Valkentoren.",
+      "th": "รับรางวัลมากมายได้ใน Falcon Tower",
+      "tr": "Şahin Kulesinde bol ödüller kazanın.",
+      "vi": "Nhận nhiều phần thưởng trong Tháp Falcon.",
+      "zh": "在猎鹰塔中获得丰厚奖励。",
+      "pl": "Zdobywaj obfite nagrody w Wieży Sokoła.",
+      "zh-tw": "在獵鷹塔中獲得豐厚獎勵。"
     }
   },
   {
@@ -206,7 +346,17 @@
       "id": "Ikuti aktivitas Guild untuk dapatkan hadiah melimpah",
       "ja": "ギルドイベントに参加して豊富な報酬を獲得しましょう",
       "ko": "길드 이벤트에 참여하여 풍성한 보상 획득하세요",
-      "pt": "Participe de eventos da aliança para recompensas generosas."
+      "pt": "Participe de eventos da aliança para recompensas generosas.",
+      "ar": "شارك في فعاليات التحالف للحصول على مكافآت سخية.",
+      "it": "Partecipa agli eventi dell'alleanza per generose ricompense.",
+      "ms": "Sertai acara Perikatan untuk ganjaran yang lumayan.",
+      "nl": "Neem deel aan alliantie-evenementen voor gulle beloningen.",
+      "th": "เข้าร่วมกิจกรรมพันธมิตรเพื่อรับรางวัลมากมาย",
+      "tr": "Cömert ödüller için ittifak etkinliklerine katılın.",
+      "vi": "Tham gia sự kiện Liên minh để nhận phần thưởng hậu hĩnh.",
+      "zh": "参加联盟活动可获得慷慨奖励。",
+      "pl": "Bierz udział w wydarzeniach sojuszu, aby otrzymywać hojne nagrody.",
+      "zh-tw": "參加聯盟活動可獲得慷慨獎勵。"
     }
   },
   {
@@ -220,7 +370,17 @@
       "id": "Bergabung dengan Guild, saling membantu",
       "ja": "ギルドに加入してメンバー同士で助け合いましょう",
       "ko": "길드에 가입하여 서로 도울 수 있습니다",
-      "pt": "Junte-se a uma aliança e ajudem uns aos outros."
+      "pt": "Junte-se a uma aliança e ajudem uns aos outros.",
+      "ar": "انضم إلى تحالف وادعموا بعضكم.",
+      "it": "Unisciti a un'alleanza e sostenetevi a vicenda.",
+      "ms": "Sertai Perikatan dan sokong satu sama lain.",
+      "nl": "Sluit je aan bij een alliantie en steun elkaar.",
+      "th": "เข้าร่วมพันธมิตรและช่วยเหลือซึ่งกันและกัน",
+      "tr": "Bir ittifaka katılın ve birbirinize destek olun.",
+      "vi": "Tham gia một liên minh và hỗ trợ lẫn nhau.",
+      "zh": "加入一个联盟并相互支持。",
+      "pl": "Dołącz do sojuszu i wspierajcie się nawzajem.",
+      "zh-tw": "加入一個聯盟並相互支持。"
     }
   }
 ]

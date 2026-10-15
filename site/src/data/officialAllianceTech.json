@@ -12,7 +12,17 @@
       "id": "Reli otomatis",
       "ja": "自動ラリー",
       "ko": "자동 집결",
-      "pt": "Mobilizar Automático"
+      "pt": "Mobilizar Automático",
+      "ar": "الحشد التلقائي",
+      "it": "Rally automatico",
+      "ms": "Rali Auto",
+      "nl": "Auto-rally",
+      "th": "รวมพลอัตโนมัติ",
+      "tr": "Otomatik Toplanma",
+      "vi": "Tập kết Tự động",
+      "zh": "自动集结",
+      "pl": "Automatyczny rajd",
+      "zh-tw": "自動集結"
     },
     "desc": {
       "ru": "Союзники не в сети автоматически добавят войска к штурму.",
@@ -23,7 +33,17 @@
       "id": "Anggota Guild yang offline akan otomatis mengirim Pasukan untuk Reli",
       "ja": "オフラインのギルドメンバーが自動で部隊をラリーに派遣",
       "ko": "오프라인 길드원들이 자동으로 부대를 집결에 파견합니다",
-      "pt": "Membros da aliança offline enviam tropas automaticamente para participar da mobilização."
+      "pt": "Membros da aliança offline enviam tropas automaticamente para participar da mobilização.",
+      "ar": "سيقوم أعضاء التحالف غير المتصلين بإرسال القوات تلقائياً للانضمام إلى الحشد.",
+      "it": "I membri dell'alleanza offline invieranno automaticamente le truppe per unirsi al rally.",
+      "ms": "Ahli pakatan yang luar talian akan menghantar tentera secara automatik untuk menyertai perhimpunan (rally).",
+      "nl": "Offline alliantieleden sturen automatisch troepen om deel te nemen aan de rally.",
+      "th": "สมาชิกพันธมิตรที่ออฟไลน์จะส่งกองทัพเข้าร่วมการรวมพลโดยอัตโนมัติ",
+      "tr": "Çevrimdışı ittifak üyeleri, toplanmaya katılmak için otomatik olarak birlik gönderir.",
+      "vi": "Các thành viên liên minh ngoại tuyến sẽ tự động điều quân tham gia tập kết.",
+      "zh": "离线联盟成员将自动派遣部队加入集结。",
+      "pl": "Członkowie sojuszu będący w trybie offline automatycznie wysyłają wojska, aby dołączyć do rajdu.",
+      "zh-tw": "離線聯盟成員將自動派遣部隊加入集結。"
     }
   },
   "1002": {
@@ -39,7 +59,17 @@
       "id": "Bangun cepat",
       "ja": "クイック建設",
       "ko": "신속 건설",
-      "pt": "Construção Rápida"
+      "pt": "Construção Rápida",
+      "ar": "البناء السريع",
+      "it": "Costruzione rapida",
+      "ms": "Bina Pantas",
+      "nl": "Snel bouwen",
+      "th": "ก่อสร้างด่วน",
+      "tr": "Hızlı İnşaat",
+      "vi": "Xây dựng Nhanh",
+      "zh": "快速建造",
+      "pl": "Szybka budowa",
+      "zh-tw": "快速建造"
     },
     "desc": {
       "ru": "Увеличивает скорость строительства для членов альянса.",
@@ -50,7 +80,17 @@
       "id": "Kecepatan membangun bangunan anggota Guild meningkat",
       "ja": "ギルドメンバーの建物建設速度アップ",
       "ko": "길드원의 건물 건설 속도 향상",
-      "pt": "Aumenta a Velocidade de Construção para membros da aliança."
+      "pt": "Aumenta a Velocidade de Construção para membros da aliança.",
+      "ar": "تزيد من سرعة البناء لأعضاء التحالف.",
+      "it": "Aumenta la velocità di costruzione per i membri dell'alleanza.",
+      "ms": "Meningkatkan Kelajuan Pembinaan untuk ahli pakatan.",
+      "nl": "Verhoogt de bouwsnelheid voor alliantieleden.",
+      "th": "เพิ่มความเร็วในการก่อสร้างสำหรับสมาชิกพันธมิตร",
+      "tr": "İttifak üyeleri için İnşaat Hızını artırır.",
+      "vi": "Tăng tốc độ xây dựng cho các thành viên liên minh.",
+      "zh": "提高联盟成员的建筑建造速度。",
+      "pl": "Zwiększa prędkość budowy dla członków sojuszu.",
+      "zh-tw": "提高聯盟成員的建築建造速度。"
     }
   },
   "1003": {
@@ -66,7 +106,17 @@
       "id": "Bantu perkuat",
       "ja": "強化ヘルプ",
       "ko": "강화 지원",
-      "pt": "Ajuda de Aprimoramento"
+      "pt": "Ajuda de Aprimoramento",
+      "ar": "تعزيز المساعدة",
+      "it": "Aiuto potenziato",
+      "ms": "Peningkatan Bantuan",
+      "nl": "Verbeterde hulp",
+      "th": "เสริมการช่วยเหลือ",
+      "tr": "Yardım Geliştirme",
+      "vi": "Tăng cường Hỗ trợ",
+      "zh": "强化援助",
+      "pl": "Usprawniona pomoc",
+      "zh-tw": "強化援助"
     },
     "desc": {
       "ru": "Усиливает эффект помощи альянса, дополнительно сокращая время с каждой попыткой помощи.",
@@ -77,7 +127,17 @@
       "id": "Efek Bantuan Guild meningkat, setiap bantuan mengurangi waktu lebih banyak",
       "ja": "ギルドヘルプの効果上昇、1回のヘルプごとに時間が追加短縮",
       "ko": "길드 도움의 효과가 증가하여 매번 도움을 줄 때마다 추가로 시간이 단축됩니다",
-      "pt": "Aumenta o efeito da Ajuda da Aliança, reduzindo ainda mais o tempo a cada ajuda."
+      "pt": "Aumenta o efeito da Ajuda da Aliança, reduzindo ainda mais o tempo a cada ajuda.",
+      "ar": "تعزز تأثير مساعدة التحالف، مما يقلل الوقت إضافياً مع كل مساعدة.",
+      "it": "Migliora l'effetto dell'Aiuto Alleanza, riducendo ulteriormente il tempo con ogni aiuto.",
+      "ms": "Meningkatkan kesan Bantuan Pakatan, mengurangkan masa secara tambahan dengan setiap bantuan.",
+      "nl": "Verbetert het effect van Alliantiehulp, waardoor de tijd bij elke hulp extra wordt verkort.",
+      "th": "เพิ่มประสิทธิภาพการช่วยเหลือของพันธมิตร โดยลดเวลาลงเพิ่มเติมในทุกครั้งที่ได้รับความช่วยเหลือ",
+      "tr": "İttifak Yardımı etkisini güçlendirir, her yardımla süreyi ek olarak azaltır.",
+      "vi": "Tăng cường hiệu quả Hỗ trợ Liên minh, giảm thêm thời gian với mỗi lần giúp đỡ.",
+      "zh": "增强联盟援助效果，每次援助额外减少更多时间。",
+      "pl": "Zwiększa efekt Pomocy sojuszu, dodatkowo skracając czas z każdą pomocą.",
+      "zh-tw": "增強聯盟援助效果，每次援助額外減少更多時間。"
     }
   },
   "1004": {
@@ -93,7 +153,17 @@
       "id": "Percepatan Pengumpulan",
       "ja": "採集ブースト",
       "ko": "수집 가속",
-      "pt": "Acelerar Coleta"
+      "pt": "Acelerar Coleta",
+      "ar": "تسريع الجمع",
+      "it": "Velocità di raccolta",
+      "ms": "Pecutan Pengumpulan",
+      "nl": "Verzamelsnelheid",
+      "th": "เร่งรวบรวม",
+      "tr": "Toplama Hızı",
+      "vi": "Tăng tốc Thu thập",
+      "zh": "采集加速",
+      "pl": "Przyspieszenie zbierania",
+      "zh-tw": "採集加速"
     },
     "desc": {
       "ru": "Увеличивает скорость сбора ресурсов для членов альянса.",
@@ -104,7 +174,17 @@
       "id": "Kecepatan mengumpulkan Sumber Daya anggota Guild meningkat",
       "ja": "ギルドメンバーの資源採集速度アップ",
       "ko": "길드원의 자원 수집 속도 향상",
-      "pt": "Aumenta a Velocidade de Coleta de Recursos para membros da aliança."
+      "pt": "Aumenta a Velocidade de Coleta de Recursos para membros da aliança.",
+      "ar": "تزيد من سرعة جمع الموارد لأعضاء التحالف.",
+      "it": "Aumenta la velocità di raccolta delle risorse per i membri dell'alleanza.",
+      "ms": "Meningkatkan Kelajuan Mengumpul Sumber untuk ahli pakatan.",
+      "nl": "Verhoogt de verzamelsnelheid van grondstoffen voor alliantieleden.",
+      "th": "เพิ่มความเร็วในการรวบรวมทรัพยากรสำหรับสมาชิกพันธมิตร",
+      "tr": "İttifak üyeleri için Kaynak Toplama Hızını artırır.",
+      "vi": "Tăng tốc độ thu thập tài nguyên cho các thành viên liên minh.",
+      "zh": "提高联盟成员的资源采集速度。",
+      "pl": "Zwiększa prędkość zbierania zasobów dla członków sojuszu.",
+      "zh-tw": "提高聯盟成員的資源採集速度。"
     }
   },
   "1005": {
@@ -120,7 +200,17 @@
       "id": "Produksi Makanan",
       "ja": "食料生産量",
       "ko": "식량 생산량",
-      "pt": "Produção de Comida"
+      "pt": "Produção de Comida",
+      "ar": "إنتاج الحبوب",
+      "it": "Produzione grano",
+      "ms": "Pengeluaran Bijirin",
+      "nl": "Graanopbrengst",
+      "th": "ผลผลิตธัญพืช",
+      "tr": "Tahıl Üretimi",
+      "vi": "Sản lượng Lương thực",
+      "zh": "粮食产量",
+      "pl": "Produkcja zboża",
+      "zh-tw": "糧食產量"
     },
     "desc": {
       "ru": "Увеличивает продукцию зерна в городах членов альянса.",
@@ -131,7 +221,17 @@
       "id": "Produksi Makanan dalam kota anggota Guild meningkat",
       "ja": "ギルドメンバーの都市内の食料生産量アップ",
       "ko": "길드원의 도시 내 식량 생산량 증가",
-      "pt": "Aumenta a Produção de Comida nas cidades dos membros da aliança."
+      "pt": "Aumenta a Produção de Comida nas cidades dos membros da aliança.",
+      "ar": "تزيد من إنتاج الحبوب لمدن أعضاء التحالف.",
+      "it": "Aumenta la produzione di grano per le città dei membri dell'alleanza.",
+      "ms": "Meningkatkan Pengeluaran Bijirin untuk bandar ahli pakatan.",
+      "nl": "Verhoogt de graanopbrengst voor de steden van alliantieleden.",
+      "th": "เพิ่มผลผลิตธัญพืชสำหรับเมืองของสมาชิกพันธมิตร",
+      "tr": "İttifak üyelerinin şehirleri için Tahıl Üretimini artırır.",
+      "vi": "Tăng sản lượng Lương thực cho thành phố của các thành viên liên minh.",
+      "zh": "提高联盟成员城市的粮食产量。",
+      "pl": "Zwiększa produkcję zboża w miastach członków sojuszu.",
+      "zh-tw": "提高聯盟成員城市的糧食產量。"
     }
   },
   "1006": {
@@ -147,7 +247,17 @@
       "id": "Produksi Kayu",
       "ja": "木材生産量",
       "ko": "목재 생산량",
-      "pt": "Produção de Madeira"
+      "pt": "Produção de Madeira",
+      "ar": "إنتاج الأخشاب",
+      "it": "Produzione legname",
+      "ms": "Pengeluaran Kayu",
+      "nl": "Houtopbrengst",
+      "th": "ผลผลิตไม้",
+      "tr": "Kereste Üretimi",
+      "vi": "Sản lượng Gỗ",
+      "zh": "木材产量",
+      "pl": "Produkcja drewna",
+      "zh-tw": "木材產量"
     },
     "desc": {
       "ru": "Увеличивает продукцию древесины в городах членов альянса.",
@@ -158,7 +268,17 @@
       "id": "Produksi Kayu dalam kota anggota Guild meningkat",
       "ja": "ギルドメンバーの都市内の木材生産量アップ",
       "ko": "길드원의 도시 내 목재 생산량 증가",
-      "pt": "Aumenta a Produção de Madeira nas cidades dos membros da aliança."
+      "pt": "Aumenta a Produção de Madeira nas cidades dos membros da aliança.",
+      "ar": "تزيد من إنتاج الأخشاب لمدن أعضاء التحالف.",
+      "it": "Aumenta la produzione di legname per le città dei membri dell'alleanza.",
+      "ms": "Meningkatkan Pengeluaran Kayu untuk bandar ahli pakatan.",
+      "nl": "Verhoogt de houtopbrengst voor de steden van alliantieleden.",
+      "th": "เพิ่มผลผลิตไม้สำหรับเมืองของสมาชิกพันธมิตร",
+      "tr": "İttifak üyelerinin şehirleri için Kereste Üretimini artırır.",
+      "vi": "Tăng sản lượng Gỗ cho thành phố của các thành viên liên minh.",
+      "zh": "提高联盟成员城市的木材产量。",
+      "pl": "Zwiększa produkcję drewna w miastach członków sojuszu.",
+      "zh-tw": "提高聯盟成員城市的木材產量。"
     }
   },
   "1007": {
@@ -174,7 +294,17 @@
       "id": "Produksi Obat",
       "ja": "薬材生産量",
       "ko": "약재 생산량",
-      "pt": "Produção de Ervas"
+      "pt": "Produção de Ervas",
+      "ar": "إنتاج الأعشاب",
+      "it": "Produzione erbe",
+      "ms": "Pengeluaran Herba",
+      "nl": "Kruidenopbrengst",
+      "th": "ผลผลิตสมุนไพร",
+      "tr": "Bitki Üretimi",
+      "vi": "Sản lượng Thảo dược",
+      "zh": "草药产量",
+      "pl": "Produkcja ziół",
+      "zh-tw": "草藥產量"
     },
     "desc": {
       "ru": "Увеличивает продукцию травы в городах членов альянса.",
@@ -185,7 +315,17 @@
       "id": "Peningkatan produksi obat anggota Guild di dalam kota",
       "ja": "ギルドメンバーの都市内の薬材生産量アップ",
       "ko": "길드원의 도시 내 약재 생산량 증가",
-      "pt": "Aumenta a Produção de Ervas para as cidades dos membros da aliança."
+      "pt": "Aumenta a Produção de Ervas para as cidades dos membros da aliança.",
+      "ar": "تزيد من إنتاج الأعشاب لمدن أعضاء التحالف.",
+      "it": "Aumenta la produzione di erbe per le città dei membri dell'alleanza.",
+      "ms": "Meningkatkan Pengeluaran Herba untuk bandar ahli pakatan.",
+      "nl": "Verhoogt de kruidenopbrengst voor de steden van alliantieleden.",
+      "th": "เพิ่มผลผลิตสมุนไพรสำหรับเมืองของสมาชิกพันธมิตร",
+      "tr": "İttifak üyelerinin şehirleri için Bitki Üretimini artırır.",
+      "vi": "Tăng sản lượng Thảo dược cho thành phố của các thành viên liên minh.",
+      "zh": "提高联盟成员城市的草药产量。",
+      "pl": "Zwiększa produkcję ziół w miastach członków sojuszu.",
+      "zh-tw": "提高聯盟成員城市的草藥產量。"
     }
   },
   "1008": {
@@ -201,7 +341,17 @@
       "id": "Percepatan Riset",
       "ja": "研究ブースト",
       "ko": "연구 가속",
-      "pt": "Acelerar Pesquisa"
+      "pt": "Acelerar Pesquisa",
+      "ar": "تسريع الأبحاث",
+      "it": "Velocità di ricerca",
+      "ms": "Pecutan Kajian",
+      "nl": "Onderzoekssnelheid",
+      "th": "เร่งวิจัย",
+      "tr": "Araştırma Hızı",
+      "vi": "Tăng tốc Nghiên cứu",
+      "zh": "研究加速",
+      "pl": "Przyspieszenie badań",
+      "zh-tw": "研究加速"
     },
     "desc": {
       "ru": "Увеличивает скорость исследований технологий для членов альянса.",
@@ -212,7 +362,17 @@
       "id": "Peningkatan kecepatan Riset Teknologi anggota Guild",
       "ja": "ギルドメンバーの技術研究速度アップ",
       "ko": "길드원의 과학기술 연구 속도 향상",
-      "pt": "Aumenta a Velocidade de Pesquisa para os membros da aliança."
+      "pt": "Aumenta a Velocidade de Pesquisa para os membros da aliança.",
+      "ar": "تزيد من سرعة البحث التقني لأعضاء التحالف.",
+      "it": "Aumenta la velocità di ricerca tecnologica per i membri dell'alleanza.",
+      "ms": "Meningkatkan Kelajuan Penyelidikan Teknologi untuk ahli pakatan.",
+      "nl": "Verhoogt de snelheid van technologisch onderzoek voor alliantieleden.",
+      "th": "เพิ่มความเร็วในการวิจัยเทคโนโลยีสำหรับสมาชิกพันธมิตร",
+      "tr": "İttifak üyeleri için Teknoloji Araştırma Hızını artırır.",
+      "vi": "Tăng tốc độ nghiên cứu công nghệ cho các thành viên liên minh.",
+      "zh": "提高联盟成员的科技研究速度。",
+      "pl": "Zwiększa prędkość badań technologii dla członków sojuszu.",
+      "zh-tw": "提高聯盟成員的科技研究速度。"
     }
   },
   "1009": {
@@ -228,7 +388,17 @@
       "id": "Peningkatan Riset",
       "ja": "研究改良",
       "ko": "연구 개선",
-      "pt": "Melhorar Pesquisa"
+      "pt": "Melhorar Pesquisa",
+      "ar": "ترقية الأبحاث",
+      "it": "Aggiornamento ricerca",
+      "ms": "Naik Taraf Kajian",
+      "nl": "Onderzoeksupgrade",
+      "th": "อัปเกรดวิจัย",
+      "tr": "Araştırma Geliştirmesi",
+      "vi": "Nâng cấp Nghiên cứu",
+      "zh": "研究升级",
+      "pl": "Ulepszenie badań",
+      "zh-tw": "研究升級"
     },
     "desc": {
       "ru": "Снижает расходы ресурсов для исследований технологий для членов альянса.",
@@ -239,7 +409,17 @@
       "id": "Pengurangan konsumsi Sumber Daya untuk Riset Teknologi anggota Guild",
       "ja": "ギルドメンバーの技術研究の資源消費量ダウン",
       "ko": "길드원의 과학기술 연구 자원 소비 감소",
-      "pt": "Reduz o custo de recursos da Pesquisa para os membros da aliança."
+      "pt": "Reduz o custo de recursos da Pesquisa para os membros da aliança.",
+      "ar": "تقلل من تكلفة موارد البحث التقني لأعضاء التحالف.",
+      "it": "Riduce il costo in risorse per la ricerca tecnologica per i membri dell'alleanza.",
+      "ms": "Mengurangkan kos sumber Penyelidikan Teknologi untuk ahli pakatan.",
+      "nl": "Verlaagt de grondstoffenkosten voor technologisch onderzoek voor alliantieleden.",
+      "th": "ลดค่าใช้จ่ายทรัพยากรในการวิจัยเทคโนโลยีสำหรับสมาชิกพันธมิตร",
+      "tr": "İttifak üyeleri için Teknoloji Araştırma kaynak maliyetini düşürür.",
+      "vi": "Giảm chi phí tài nguyên nghiên cứu công nghệ cho các thành viên liên minh.",
+      "zh": "降低联盟成员的科技研究资源消耗。",
+      "pl": "Zmniejsza koszt zasobów badań technologii dla członków sojuszu.",
+      "zh-tw": "降低聯盟成員的科技研究資源消耗。"
     }
   },
   "1010": {
@@ -255,7 +435,17 @@
       "id": "Perlindungan Makanan",
       "ja": "食料保護",
       "ko": "식량 보호",
-      "pt": "Proteção de Comida"
+      "pt": "Proteção de Comida",
+      "ar": "حماية الحبوب",
+      "it": "Protezione grano",
+      "ms": "Perlindungan Bijirin",
+      "nl": "Graanbescherming",
+      "th": "ป้องกันธัญพืช",
+      "tr": "Tahıl Koruması",
+      "vi": "Bảo vệ Lương thực",
+      "zh": "粮食保护",
+      "pl": "Ochrona zboża",
+      "zh-tw": "糧食保護"
     },
     "desc": {
       "ru": "Увеличивает предел защиты зерна для членов альянса.",
@@ -266,7 +456,17 @@
       "id": "Peningkatan batas perlindungan Makanan anggota Guild",
       "ja": "ギルドメンバーの食料保護上限アップ",
       "ko": "길드원의 식량 보호 한도 증가",
-      "pt": "Aumenta o limite de proteção de Comida para os membros da aliança."
+      "pt": "Aumenta o limite de proteção de Comida para os membros da aliança.",
+      "ar": "تزيد من حد حماية الحبوب لأعضاء التحالف.",
+      "it": "Aumenta il limite di protezione del grano per i membri dell'alleanza.",
+      "ms": "Meningkatkan had perlindungan Bijirin untuk ahli pakatan.",
+      "nl": "Verhoogt de beschermingslimiet voor graan voor alliantieleden.",
+      "th": "เพิ่มขีดจำกัดการป้องกันธัญพืชสำหรับสมาชิกพันธมิตร",
+      "tr": "İttifak üyeleri için Tahıl koruma limitini artırır.",
+      "vi": "Tăng giới hạn bảo vệ Lương thực cho các thành viên liên minh.",
+      "zh": "提高联盟成员的粮食保护上限。",
+      "pl": "Zwiększa limit ochrony zboża dla członków sojuszu.",
+      "zh-tw": "提高聯盟成員的糧食保護上限。"
     }
   },
   "1011": {
@@ -282,7 +482,17 @@
       "id": "Perlindungan Kayu",
       "ja": "木材保護",
       "ko": "목재 보호",
-      "pt": "Madeira Protegida"
+      "pt": "Madeira Protegida",
+      "ar": "حماية الأخشاب",
+      "it": "Protezione legname",
+      "ms": "Perlindungan Kayu",
+      "nl": "Houtbescherming",
+      "th": "ป้องกันไม้",
+      "tr": "Kereste Koruması",
+      "vi": "Bảo vệ Gỗ",
+      "zh": "木材保护",
+      "pl": "Ochrona drewna",
+      "zh-tw": "木材保護"
     },
     "desc": {
       "ru": "Увеличивает предел защиты древесины для членов альянса.",
@@ -293,7 +503,17 @@
       "id": "Peningkatan batas perlindungan Kayu anggota Guild",
       "ja": "ギルドメンバーの木材保護上限アップ",
       "ko": "길드원의 목재 보호 한도 증가",
-      "pt": "Aumenta o limite de proteção de Madeira para os membros da aliança."
+      "pt": "Aumenta o limite de proteção de Madeira para os membros da aliança.",
+      "ar": "تزيد من حد حماية الأخشاب لأعضاء التحالف.",
+      "it": "Aumenta il limite di protezione del legname per i membri dell'alleanza.",
+      "ms": "Meningkatkan had perlindungan Kayu untuk ahli pakatan.",
+      "nl": "Verhoogt de beschermingslimiet voor hout voor alliantieleden.",
+      "th": "เพิ่มขีดจำกัดการป้องกันไม้สำหรับสมาชิกพันธมิตร",
+      "tr": "İttifak üyeleri için Kereste koruma limitini artırır.",
+      "vi": "Tăng giới hạn bảo vệ Gỗ cho các thành viên liên minh.",
+      "zh": "提高联盟成员的木材保护上限。",
+      "pl": "Zwiększa limit ochrony drewna dla członków sojuszu.",
+      "zh-tw": "提高聯盟成員的木材保護上限。"
     }
   },
   "1012": {
@@ -309,7 +529,17 @@
       "id": "Perlindungan Obat",
       "ja": "薬材保護",
       "ko": "약재 보호",
-      "pt": "Proteção de Ervas"
+      "pt": "Proteção de Ervas",
+      "ar": "حماية الأعشاب",
+      "it": "Protezione erbe",
+      "ms": "Perlindungan Herba",
+      "nl": "Kruidenbescherming",
+      "th": "ป้องกันสมุนไพร",
+      "tr": "Bitki Koruması",
+      "vi": "Bảo vệ Thảo dược",
+      "zh": "草药保护",
+      "pl": "Ochrona ziół",
+      "zh-tw": "草藥保護"
     },
     "desc": {
       "ru": "Увеличивает предел защиты травы для членов альянса.",
@@ -320,7 +550,17 @@
       "id": "Batas perlindungan maksimum Obat anggota Guild meningkat",
       "ja": "ギルドメンバーの薬材保護上限アップ",
       "ko": "길드원의 약재 보호 한도 증가",
-      "pt": "Aumenta o limite de proteção de Ervas para membros da aliança."
+      "pt": "Aumenta o limite de proteção de Ervas para membros da aliança.",
+      "ar": "تزيد من حد حماية الأعشاب لأعضاء التحالف.",
+      "it": "Aumenta il limite di protezione delle erbe per i membri dell'alleanza.",
+      "ms": "Meningkatkan had perlindungan Herba untuk ahli pakatan.",
+      "nl": "Verhoogt de beschermingslimiet voor kruiden voor alliantieleden.",
+      "th": "เพิ่มขีดจำกัดการป้องกันสมุนไพรสำหรับสมาชิกพันธมิตร",
+      "tr": "İttifak üyeleri için Bitki koruma limitini artırır.",
+      "vi": "Tăng giới hạn bảo vệ Thảo dược cho các thành viên liên minh.",
+      "zh": "提高联盟成员的草药保护上限。",
+      "pl": "Zwiększa limit ochrony ziół dla członków sojuszu.",
+      "zh-tw": "提高聯盟成員的草藥保護上限。"
     }
   },
   "1013": {
@@ -336,7 +576,17 @@
       "id": "Percepatan Produksi",
       "ja": "製造速度アップ",
       "ko": "제작 가속",
-      "pt": "Acelerar Fabricação"
+      "pt": "Acelerar Fabricação",
+      "ar": "تسريع التصنيع",
+      "it": "Velocità di creazione",
+      "ms": "Pecutan Kraf",
+      "nl": "Maaksnelheid",
+      "th": "เร่งคราฟต์",
+      "tr": "Üretim Hızı",
+      "vi": "Tăng tốc Chế tạo",
+      "zh": "制作加速",
+      "pl": "Przyspieszenie wytwarzania",
+      "zh-tw": "製作加速"
     },
     "desc": {
       "ru": "Повышает скорость создания снаряжения для членов альянса.",
@@ -347,7 +597,17 @@
       "id": "Kecepatan pembuatan Gear anggota Guild meningkat",
       "ja": "ギルドメンバーの装備製造速度アップ",
       "ko": "길드원의 장비 제작 속도 향상",
-      "pt": "Aumenta a velocidade de fabricação de Equipamentos para membros da aliança."
+      "pt": "Aumenta a velocidade de fabricação de Equipamentos para membros da aliança.",
+      "ar": "تزيد من سرعة تصنيع المعدات لأعضاء التحالف.",
+      "it": "Aumenta la velocità di creazione dell'equipaggiamento per i membri dell'alleanza.",
+      "ms": "Meningkatkan kelajuan kraf Peralatan untuk ahli pakatan.",
+      "nl": "Verhoogt de snelheid van het maken van uitrusting voor alliantieleden.",
+      "th": "เพิ่มความเร็วในการคราฟต์อุปกรณ์สำหรับสมาชิกพันธมิตร",
+      "tr": "İttifak üyeleri için Ekipman üretim hızını artırır.",
+      "vi": "Tăng tốc độ chế tạo trang bị cho các thành viên liên minh.",
+      "zh": "提高联盟成员的装备制作速度。",
+      "pl": "Zwiększa prędkość wytwarzania wyposażenia dla członków sojuszu.",
+      "zh-tw": "提高聯盟成員的裝備製作速度。"
     }
   },
   "1014": {
@@ -363,7 +623,17 @@
       "id": "Teknik Manufaktur",
       "ja": "製造工程",
       "ko": "제작 기술",
-      "pt": "Técnica de Fabricação"
+      "pt": "Técnica de Fabricação",
+      "ar": "تقنية التصنيع",
+      "it": "Tecnica di creazione",
+      "ms": "Teknik Kraf",
+      "nl": "Maaktechniek",
+      "th": "เทคนิคคราฟต์",
+      "tr": "Üretim Tekniği",
+      "vi": "Kỹ thuật Chế tạo",
+      "zh": "制作工艺",
+      "pl": "Technika wytwarzania",
+      "zh-tw": "製作工藝"
     },
     "desc": {
       "ru": "Уменьшает затраты травы на создание снаряжения для членов альянса.",
@@ -374,7 +644,17 @@
       "id": "Konsumsi Obat saat membuat Gear anggota Guild berkurang",
       "ja": "ギルドメンバーの装備製造の薬材消費量ダウン",
       "ko": "길드원의 장비 제작에 소비되는 약재 감소",
-      "pt": "Reduz o custo em Ervas para fabricar Equipamentos para membros da aliança."
+      "pt": "Reduz o custo em Ervas para fabricar Equipamentos para membros da aliança.",
+      "ar": "تقلل من تكلفة الأعشاب لتصنيع المعدات لأعضاء التحالف.",
+      "it": "Riduce il costo in erbe per la creazione dell'equipaggiamento per i membri dell'alleanza.",
+      "ms": "Mengurangkan kos Herba kraf Peralatan untuk ahli pakatan.",
+      "nl": "Verlaagt de kruidenkosten voor het maken van uitrusting voor alliantieleden.",
+      "th": "ลดค่าใช้จ่ายสมุนไพรในการคราฟต์อุปกรณ์สำหรับสมาชิกพันธมิตร",
+      "tr": "İttifak üyeleri için Ekipman üretim Bitki maliyetini düşürür.",
+      "vi": "Giảm chi phí Thảo dược chế tạo trang bị cho các thành viên liên minh.",
+      "zh": "降低联盟成员的装备制作草药消耗。",
+      "pl": "Zmniejsza koszt ziół na wytwarzanie wyposażenia dla członków sojuszu.",
+      "zh-tw": "降低聯盟成員的裝備製作草藥消耗。"
     }
   },
   "1015": {
@@ -390,7 +670,17 @@
       "id": "Biaya Pembangunan",
       "ja": "建設コスト",
       "ko": "건설 소모",
-      "pt": "Custo de Construção"
+      "pt": "Custo de Construção",
+      "ar": "تكلفة البناء",
+      "it": "Costo costruzione",
+      "ms": "Kos Pembinaan",
+      "nl": "Bouwkosten",
+      "th": "ต้นทุนก่อสร้าง",
+      "tr": "İnşaat Maliyeti",
+      "vi": "Chi phí Xây dựng",
+      "zh": "建筑成本",
+      "pl": "Koszt budowy",
+      "zh-tw": "建築成本"
     },
     "desc": {
       "ru": "Уменьшает затраты ресурсов на строительство для членов альянса.",
@@ -401,7 +691,17 @@
       "id": "Konsumsi Sumber Daya saat membangun bangunan anggota Guild berkurang",
       "ja": "ギルドメンバーの建物建設の資源消費量ダウン",
       "ko": "길드원의 건물 건설에 소비되는 자원 감소",
-      "pt": "Reduz o custo de recursos de construção para membros da aliança."
+      "pt": "Reduz o custo de recursos de construção para membros da aliança.",
+      "ar": "تقلل من تكلفة موارد البناء لأعضاء التحالف.",
+      "it": "Riduce il costo in risorse di costruzione per i membri dell'alleanza.",
+      "ms": "Mengurangkan kos sumber pembinaan untuk ahli pakatan.",
+      "nl": "Verlaagt de grondstoffenkosten voor constructie voor alliantieleden.",
+      "th": "ลดค่าใช้จ่ายทรัพยากรในการก่อสร้างสำหรับสมาชิกพันธมิตร",
+      "tr": "İttifak üyeleri için inşaat kaynak maliyetini düşürür.",
+      "vi": "Giảm chi phí tài nguyên xây dựng cho các thành viên liên minh.",
+      "zh": "降低联盟成员的建筑资源消耗。",
+      "pl": "Zmniejsza koszt zasobów budowy dla członków sojuszu.",
+      "zh-tw": "降低聯盟成員的建築資源消耗。"
     }
   },
   "2001": {
@@ -417,7 +717,17 @@
       "id": "Beban Pasukan",
       "ja": "部隊積載量",
       "ko": "부대 적재량",
-      "pt": "Carga da Tropa"
+      "pt": "Carga da Tropa",
+      "ar": "حمولة القوات",
+      "it": "Carico truppe",
+      "ms": "Muatan Tentera",
+      "nl": "Troepenlast",
+      "th": "บรรทุกกองทัพ",
+      "tr": "Birlik Yükü",
+      "vi": "Sức chứa Quân",
+      "zh": "部队负重",
+      "pl": "Ładowność wojsk",
+      "zh-tw": "部隊負重"
     },
     "desc": {
       "ru": "Увеличивает загрузку войска для членов альянса.",
@@ -428,7 +738,17 @@
       "id": "Beban Pasukan anggota Guild meningkat",
       "ja": "ギルドメンバーの部隊積載量アップ",
       "ko": "길드원의 부대 적재량 증가",
-      "pt": "Aumenta a Carga da Tropa para membros da aliança."
+      "pt": "Aumenta a Carga da Tropa para membros da aliança.",
+      "ar": "تزيد من حمولة القوات لأعضاء التحالف.",
+      "it": "Aumenta il carico delle truppe per i membri dell'alleanza.",
+      "ms": "Meningkatkan Muatan Tentera untuk ahli pakatan.",
+      "nl": "Verhoogt de draagcapaciteit van troepen voor alliantieleden.",
+      "th": "เพิ่มความสามารถในการบรรทุกของกองทัพสำหรับสมาชิกพันธมิตร",
+      "tr": "İttifak üyeleri için Birlik Yükünü artırır.",
+      "vi": "Tăng sức chứa quân cho các thành viên liên minh.",
+      "zh": "提高联盟成员的部队负重。",
+      "pl": "Zwiększa ładowność wojsk dla członków sojuszu.",
+      "zh-tw": "提高聯盟成員的部隊負重。"
     }
   },
   "2002": {
@@ -444,7 +764,17 @@
       "id": "Pelatihan Cepat",
       "ja": "クイック訓練",
       "ko": "신속 훈련",
-      "pt": "Treinamento Rápido"
+      "pt": "Treinamento Rápido",
+      "ar": "التدريب السريع",
+      "it": "Addestramento rapido",
+      "ms": "Latihan Pantas",
+      "nl": "Snelle training",
+      "th": "ฝึกด่วน",
+      "tr": "Hızlı Eğitim",
+      "vi": "Huấn luyện Nhanh",
+      "zh": "快速训练",
+      "pl": "Szybki trening",
+      "zh-tw": "快速訓練"
     },
     "desc": {
       "ru": "Увеличивает скорость обучения солдат для членов альянса.",
@@ -455,7 +785,17 @@
       "id": "Peningkatan kecepatan Pelatihan Pasukan anggota Guild",
       "ja": "ギルドメンバーの兵士訓練速度アップ",
       "ko": "길드원의 병사 훈련 속도 증가",
-      "pt": "Aumenta a velocidade de treinamento de soldados para membros da aliança."
+      "pt": "Aumenta a velocidade de treinamento de soldados para membros da aliança.",
+      "ar": "تزيد من سرعة تدريب الجنود لأعضاء التحالف.",
+      "it": "Aumenta la velocità di addestramento dei soldati per i membri dell'alleanza.",
+      "ms": "Meningkatkan kelajuan latihan askar untuk ahli pakatan.",
+      "nl": "Verhoogt de trainingssnelheid van soldaten voor alliantieleden.",
+      "th": "เพิ่มความเร็วในการฝึกทหารสำหรับสมาชิกพันธมิตร",
+      "tr": "İttifak üyeleri için asker eğitim hızını artırır.",
+      "vi": "Tăng tốc độ huấn luyện lính cho các thành viên liên minh.",
+      "zh": "提高联盟成员的士兵训练速度。",
+      "pl": "Zwiększa prędkość szkolenia żołnierzy dla członków sojuszu.",
+      "zh-tw": "提高聯盟成員的士兵訓練速度。"
     }
   },
   "2003": {
@@ -471,7 +811,17 @@
       "id": "Pelatihan Terpadu",
       "ja": "統括訓練",
       "ko": "종합 훈련",
-      "pt": "Treinamento Coordenado"
+      "pt": "Treinamento Coordenado",
+      "ar": "التدريب المنسق",
+      "it": "Addestramento coordinato",
+      "ms": "Latihan Selaras",
+      "nl": "Gecoördineerde training",
+      "th": "ฝึกประสาน",
+      "tr": "Koordineli Eğitim",
+      "vi": "Huấn luyện Phối hợp",
+      "zh": "协同训练",
+      "pl": "Koordynowany trening",
+      "zh-tw": "協同訓練"
     },
     "desc": {
       "ru": "Снижает расход ресурсов на обучения солдат для членов альянса.",
@@ -482,7 +832,17 @@
       "id": "Pengurangan konsumsi Sumber Daya saat Pelatihan Pasukan anggota Guild",
       "ja": "ギルドメンバーの兵士訓練の資源消費ダウン",
       "ko": "길드원의 병사 훈련 자원 소비 감소",
-      "pt": "Reduz o custo de recursos de treinamento de soldados para membros da aliança."
+      "pt": "Reduz o custo de recursos de treinamento de soldados para membros da aliança.",
+      "ar": "تقلل من تكلفة موارد تدريب الجنود لأعضاء التحالف.",
+      "it": "Riduce il costo in risorse per l'addestramento dei soldati per i membri dell'alleanza.",
+      "ms": "Mengurangkan kos sumber latihan askar untuk ahli pakatan.",
+      "nl": "Verlaagt de grondstoffenkosten voor het trainen van soldaten voor alliantieleden.",
+      "th": "ลดค่าใช้จ่ายทรัพยากรในการฝึกทหารสำหรับสมาชิกพันธมิตร",
+      "tr": "İttifak üyeleri için asker eğitim kaynak maliyetini düşürür.",
+      "vi": "Giảm chi phí tài nguyên huấn luyện lính cho các thành viên liên minh.",
+      "zh": "降低联盟成员的士兵训练资源消耗。",
+      "pl": "Zmniejsza koszt zasobów szkolenia żołnierzy dla członków sojuszu.",
+      "zh-tw": "降低聯盟成員的士兵訓練資源消耗。"
     }
   },
   "2004": {
@@ -498,7 +858,17 @@
       "id": "Bantuan Perjalanan",
       "ja": "行軍支援",
       "ko": "행군 지원",
-      "pt": "Auxílio de Marcha"
+      "pt": "Auxílio de Marcha",
+      "ar": "عون المسير",
+      "it": "Supporto marcia",
+      "ms": "Bantuan Perarakan",
+      "nl": "Marshulp",
+      "th": "ช่วยเดินทัพ",
+      "tr": "Yürüyüş Desteği",
+      "vi": "Hỗ trợ Hành quân",
+      "zh": "行军援助",
+      "pl": "Wsparcie marszu",
+      "zh-tw": "行軍援助"
     },
     "desc": {
       "ru": "Увеличивает Скорость похода войск альянса при атаке городов других Докторов.",
@@ -509,7 +879,17 @@
       "id": "Peningkatan SPD Perjalanan Pasukan anggota Guild saat menyerang kota dokter lain",
       "ja": "ギルドメンバーが他のドクターの都市を攻撃する際、部隊の行軍速度アップ",
       "ko": "길드원이 다른 의사의 도시를 공격할 때, 부대 행군 속도 증가",
-      "pt": "Aumenta a Velocidade de Marcha da Tropa ao atacar cidades de outros Médicos para membros da aliança."
+      "pt": "Aumenta a Velocidade de Marcha da Tropa ao atacar cidades de outros Médicos para membros da aliança.",
+      "ar": "تزيد من سرعة مسيرة القوات عند مهاجمة بلدات الأطباء الآخرين لأعضاء التحالف.",
+      "it": "Aumenta la velocità di marcia delle truppe durante l'attacco alle città di altri Dottori per i membri dell'alleanza.",
+      "ms": "Meningkatkan Kelajuan Perarakan Tentera apabila menyerang bandar Doktor lain untuk ahli pakatan.",
+      "nl": "Verhoogt de mars-snelheid van troepen bij het aanvallen van de steden van andere Dokters voor alliantieleden.",
+      "th": "เพิ่มความเร็วในการเดินทัพเมื่อโจมตีเมืองของหมอคนอื่นสำหรับสมาชิกพันธมิตร",
+      "tr": "İttifak üyeleri için diğer Doktorların şehirlerine saldırırken Birlik Yürüyüş Hızını artırır.",
+      "vi": "Tăng tốc độ hành quân khi tấn công thị trấn của các Bác sĩ khác cho thành viên liên minh.",
+      "zh": "提高联盟成员攻击其他医生城镇时的部队行军速度。",
+      "pl": "Zwiększa prędkość marszu wojsk podczas atakowania miast innych Doktorów dla członków sojuszu.",
+      "zh-tw": "提高聯盟成員攻擊其他醫生城鎮時的部隊行軍速度。"
     }
   },
   "2005": {
@@ -525,7 +905,17 @@
       "id": "Percepat Pertahanan",
       "ja": "駐屯ブースト",
       "ko": "주둔 가속",
-      "pt": "Acelerar Guarnição"
+      "pt": "Acelerar Guarnição",
+      "ar": "تسريع الحامية",
+      "it": "Velocità presidio",
+      "ms": "Pecutan Garnisun",
+      "nl": "Garnizoensnelheid",
+      "th": "เร่งประจำการ",
+      "tr": "Garnizon Hızı",
+      "vi": "Tăng tốc Đóng quân",
+      "zh": "驻守加速",
+      "pl": "Przyspieszenie garnizonu",
+      "zh-tw": "駐守加速"
     },
     "desc": {
       "ru": "Увеличивает Скорость похода войск альянса при атаке городов.",
@@ -536,7 +926,17 @@
       "id": "Peningkatan SPD Perjalanan Pasukan anggota Guild saat menyerang kota",
       "ja": "ギルドメンバーが都市を攻撃する際、部隊の行軍速度アップ",
       "ko": "길드원이 도시를 공격할 때, 부대 행군 속도 증가",
-      "pt": "Aumenta a Velocidade de Marcha da Tropa ao atacar cidades para membros da aliança."
+      "pt": "Aumenta a Velocidade de Marcha da Tropa ao atacar cidades para membros da aliança.",
+      "ar": "تزيد من سرعة مسيرة القوات عند مهاجمة المدن لأعضاء التحالف.",
+      "it": "Aumenta la velocità di marcia delle truppe durante l'attacco alle città per i membri dell'alleanza.",
+      "ms": "Meningkatkan Kelajuan Perarakan Tentera apabila menyerang bandar untuk ahli pakatan.",
+      "nl": "Verhoogt de mars-snelheid van troepen bij het aanvallen van steden voor alliantieleden.",
+      "th": "เพิ่มความเร็วในการเดินทัพเมื่อโจมตีเมืองสำหรับสมาชิกพันธมิตร",
+      "tr": "İttifak üyeleri için şehir saldırılarında Birlik Yürüyüş Hızını artırır.",
+      "vi": "Tăng tốc độ hành quân khi tấn công thành phố cho các thành viên liên minh.",
+      "zh": "提高联盟成员攻击城市时的部队行军速度。",
+      "pl": "Zwiększa prędkość marszu wojsk podczas atakowania miast dla członków sojuszu.",
+      "zh-tw": "提高聯盟成員攻擊城市時的部隊行軍速度。"
     }
   },
   "2006": {
@@ -552,7 +952,17 @@
       "id": "Pertahanan Cepat",
       "ja": "クイック駐屯",
       "ko": "빠른 주둔",
-      "pt": "Guarnição Rápida"
+      "pt": "Guarnição Rápida",
+      "ar": "الحامية السريعة",
+      "it": "Presidio rapido",
+      "ms": "Garnisun Pantas",
+      "nl": "Snel garnizoen",
+      "th": "ประจำการด่วน",
+      "tr": "Hızlı Garnizon",
+      "vi": "Đóng quân Nhanh",
+      "zh": "快速驻守",
+      "pl": "Szybki garnizon",
+      "zh-tw": "快速駐守"
     },
     "desc": {
       "ru": "Увеличивает Скорость похода войск альянса при создании гарнизона.",
@@ -563,7 +973,17 @@
       "id": "Peningkatan SPD Perjalanan Pasukan anggota Guild saat melakukan pertahanan",
       "ja": "ギルドメンバーが駐屯を行う際、部隊の行軍速度アップ",
       "ko": "길드원이 주둔 방어를 할 때, 부대 행군 속도 증가",
-      "pt": "Aumenta a Velocidade de Marcha da Tropa ao guarnecer para membros da aliança."
+      "pt": "Aumenta a Velocidade de Marcha da Tropa ao guarnecer para membros da aliança.",
+      "ar": "تزيد من سرعة مسيرة القوات عند التمركز في الحامية لأعضاء التحالف.",
+      "it": "Aumenta la velocità di marcia delle truppe durante il presidio per i membri dell'alleanza.",
+      "ms": "Meningkatkan Kelajuan Perarakan Tentera apabila mengawal untuk ahli pakatan.",
+      "nl": "Verhoogt de mars-snelheid van troepen bij het garnizoen voor alliantieleden.",
+      "th": "เพิ่มความเร็วในการเดินทัพเมื่อเข้าประจำการสำหรับสมาชิกพันธมิตร",
+      "tr": "İttifak üyeleri için garnizon kurarken Birlik Yürüyüş Hızını artırır.",
+      "vi": "Tăng tốc độ hành quân khi đóng quân cho các thành viên liên minh.",
+      "zh": "提高联盟成员驻守时的部队行军速度。",
+      "pl": "Zwiększa prędkość marszu wojsk podczas obsadzania garnizonu dla członków sojuszu.",
+      "zh-tw": "提高聯盟成員駐守時的部隊行軍速度。"
     }
   },
   "2007": {
@@ -579,7 +999,17 @@
       "id": "Pergerakan Pasukan",
       "ja": "部隊行軍",
       "ko": "부대 행군",
-      "pt": "Marcha da Tropa"
+      "pt": "Marcha da Tropa",
+      "ar": "مسيرة القوات",
+      "it": "Marcia truppe",
+      "ms": "Perarakan Tentera",
+      "nl": "Troepenmars",
+      "th": "เดินทัพ",
+      "tr": "Birlik Yürüyüşü",
+      "vi": "Hành quân",
+      "zh": "部队行军",
+      "pl": "Marsz wojsk",
+      "zh-tw": "部隊行軍"
     },
     "desc": {
       "ru": "Увеличивает Скорость похода войск для членов альянса.",
@@ -590,7 +1020,17 @@
       "id": "SPD Perjalanan Pasukan anggota Guild meningkat",
       "ja": "ギルドメンバーの部隊の行軍速度アップ",
       "ko": "길드원의 부대 행군 속도 증가",
-      "pt": "Aumenta a Velocidade de Marcha da Tropa para membros da aliança."
+      "pt": "Aumenta a Velocidade de Marcha da Tropa para membros da aliança.",
+      "ar": "تزيد من سرعة مسيرة القوات لأعضاء التحالف.",
+      "it": "Aumenta la velocità di marcia delle truppe per i membri dell'alleanza.",
+      "ms": "Meningkatkan Kelajuan Perarakan Tentera untuk ahli pakatan.",
+      "nl": "Verhoogt de mars-snelheid van troepen voor alliantieleden.",
+      "th": "เพิ่มความเร็วในการเดินทัพสำหรับสมาชิกพันธมิตร",
+      "tr": "İttifak üyeleri için Birlik Yürüyüş Hızını artırır.",
+      "vi": "Tăng tốc độ hành quân cho các thành viên liên minh.",
+      "zh": "提高联盟成员的部队行军速度。",
+      "pl": "Zwiększa prędkość marszu wojsk dla członków sojuszu.",
+      "zh-tw": "提高聯盟成員的部隊行軍速度。"
     }
   },
   "2008": {
@@ -606,7 +1046,17 @@
       "id": "HP Reli",
       "ja": "ラリーHP",
       "ko": "집결 체력",
-      "pt": "Mobilizar Vida"
+      "pt": "Mobilizar Vida",
+      "ar": "صحة الحشد",
+      "it": "HP rally",
+      "ms": "HP Perhimpunan",
+      "nl": "Rally-HP",
+      "th": "HP รวมพล",
+      "tr": "Toplanma HP",
+      "vi": "HP Tập kết",
+      "zh": "集结生命",
+      "pl": "PŻ rajdu",
+      "zh-tw": "集結生命"
     },
     "desc": {
       "ru": "Увеличивает Здоровье героя членов альянса при вступлении в штурм.",
@@ -617,7 +1067,17 @@
       "id": "HP Hero Pasukan anggota Guild meningkat saat Reli",
       "ja": "ギルドメンバーがラリーに参加する際、部隊の英雄HPアップ",
       "ko": "길드원이 집결에 참여 시, 부대 영웅의 체력 증가",
-      "pt": "Aumenta o HP do Herói ao participar de uma mobilização de membros da aliança."
+      "pt": "Aumenta o HP do Herói ao participar de uma mobilização de membros da aliança.",
+      "ar": "تزيد من نقاط صحة البطل عند الانضمام إلى الحشد لأعضاء التحالف.",
+      "it": "Aumenta gli HP dell'Eroe quando si partecipa a un rally per i membri dell'alleanza.",
+      "ms": "Meningkatkan HP Wira apabila menyertai perhimpunan untuk ahli pakatan.",
+      "nl": "Verhoogt de HP van helden bij deelname aan een rally voor alliantieleden.",
+      "th": "เพิ่มพลังชีวิตของฮีโร่เมื่อเข้าร่วมการรวมพลสำหรับสมาชิกพันธมิตร",
+      "tr": "İttifak üyeleri için bir toplanmaya katılırken Kahraman HP değerini artırır.",
+      "vi": "Tăng HP của Anh hùng khi tham gia tập kết cho các thành viên liên minh.",
+      "zh": "提高联盟成员加入集结时的英雄生命值。",
+      "pl": "Zwiększa punkty życia bohatera podczas dołączania do rajdu dla członków sojuszu.",
+      "zh-tw": "提高聯盟成員加入集結時的英雄生命值。"
     }
   },
   "2009": {
@@ -633,7 +1093,17 @@
       "id": "ATK Reli",
       "ja": "ラリー攻撃",
       "ko": "집결 공격력",
-      "pt": "Mobilizar Ataque"
+      "pt": "Mobilizar Ataque",
+      "ar": "هجوم الحشد",
+      "it": "Attacco rally",
+      "ms": "Serangan Perhimpunan",
+      "nl": "Rally-aanval",
+      "th": "โจมตีรวมพล",
+      "tr": "Toplanma Saldırısı",
+      "vi": "Tấn công Tập kết",
+      "zh": "集结攻击",
+      "pl": "Atak rajdu",
+      "zh-tw": "集結攻擊"
     },
     "desc": {
       "ru": "Увеличивает Атаку героя членов альянса при вступлении в штурм.",
@@ -644,7 +1114,17 @@
       "id": "ATK Hero Pasukan anggota Guild meningkat saat Reli",
       "ja": "ギルドメンバーがラリーに参加する際、部隊の英雄攻撃力アップ",
       "ko": "길드원이 집결에 참여 시, 부대 영웅의 공격력 증가",
-      "pt": "Aumenta o ATQ do Herói ao participar de uma mobilização de membros da aliança."
+      "pt": "Aumenta o ATQ do Herói ao participar de uma mobilização de membros da aliança.",
+      "ar": "تزيد من هجوم البطل عند الانضمام إلى الحشد لأعضاء التحالف.",
+      "it": "Aumenta l'ATK dell'Eroe quando si partecipa a un rally per i membri dell'alleanza.",
+      "ms": "Meningkatkan ATK Wira apabila menyertai perhimpunan untuk ahli pakatan.",
+      "nl": "Verhoogt de ATK van helden bij deelname aan een rally voor alliantieleden.",
+      "th": "เพิ่มพลังโจมตีของฮีโร่เมื่อเข้าร่วมการรวมพลสำหรับสมาชิกพันธมิตร",
+      "tr": "İttifak üyeleri için bir toplanmaya katılırken Kahraman ATK değerini artırır.",
+      "vi": "Tăng tấn công của Anh hùng khi tham gia tập kết cho các thành viên liên minh.",
+      "zh": "提高联盟成员加入集结时的英雄攻击力。",
+      "pl": "Zwiększa ataku bohatera podczas dołączania do rajdu dla członków sojuszu.",
+      "zh-tw": "提高聯盟成員加入集結時的英雄攻擊力。"
     }
   },
   "2010": {
@@ -660,7 +1140,17 @@
       "id": "DEF Reli",
       "ja": "ラリー防御",
       "ko": "집결 방어력",
-      "pt": "Mobilizar Defesa"
+      "pt": "Mobilizar Defesa",
+      "ar": "دفاع الحشد",
+      "it": "Difesa rally",
+      "ms": "Pertahanan Perhimpunan",
+      "nl": "Rally-verdediging",
+      "th": "ป้องกันรวมพล",
+      "tr": "Toplanma Savunması",
+      "vi": "Phòng thủ Tập kết",
+      "zh": "集结防御",
+      "pl": "Obrona rajdu",
+      "zh-tw": "集結防禦"
     },
     "desc": {
       "ru": "Увеличивает Защиту героя членов альянса при вступлении в штурм.",
@@ -671,7 +1161,17 @@
       "id": "DEF Hero Pasukan anggota Guild meningkat saat Reli",
       "ja": "ギルドメンバーがラリーに参加する際、部隊の英雄防御力アップ",
       "ko": "길드원이 집결에 참여 시, 부대 영웅의 방어력 증가",
-      "pt": "Aumenta a DEF do Herói ao participar de uma mobilização de membros da aliança."
+      "pt": "Aumenta a DEF do Herói ao participar de uma mobilização de membros da aliança.",
+      "ar": "تزيد من دفاع البطل عند الانضمام إلى الحشد لأعضاء التحالف.",
+      "it": "Aumenta la DEF dell'Eroe quando si partecipa a un rally per i membri dell'alleanza.",
+      "ms": "Meningkatkan DEF Wira apabila menyertai perhimpunan untuk ahli pakatan.",
+      "nl": "Verhoogt de DEF van helden bij deelname aan een rally voor alliantieleden.",
+      "th": "เพิ่มพลังป้องกันของฮีโร่เมื่อเข้าร่วมการรวมพลสำหรับสมาชิกพันธมิตร",
+      "tr": "İttifak üyeleri için bir toplanmaya katılırken Kahraman DEF değerini artırır.",
+      "vi": "Tăng phòng thủ của Anh hùng khi tham gia tập kết cho các thành viên liên minh.",
+      "zh": "提高联盟成员加入集结时的英雄防御力。",
+      "pl": "Zwiększa obronę bohatera podczas dołączania do rajdu dla członków sojuszu.",
+      "zh-tw": "提高聯盟成員加入集結時的英雄防禦力。"
     }
   },
   "2011": {
@@ -687,7 +1187,17 @@
       "id": "Bantuan Penyembuhan",
       "ja": "治療支援",
       "ko": "치유 지원",
-      "pt": "Ajuda de Cura"
+      "pt": "Ajuda de Cura",
+      "ar": "عون العلاج",
+      "it": "Aiuto guarigione",
+      "ms": "Bantuan Penyembuhan",
+      "nl": "Genezingshulp",
+      "th": "ช่วยรักษา",
+      "tr": "İyileştirme Desteği",
+      "vi": "Hỗ trợ Hồi phục",
+      "zh": "治疗援助",
+      "pl": "Wsparcie leczenia",
+      "zh-tw": "治療援助"
     },
     "desc": {
       "ru": "Снижает стоимость ресурсов для лечения войск альянса.",
@@ -698,7 +1208,17 @@
       "id": "Konsumsi Sumber Daya untuk menyembuhkan Pasukan anggota Guild berkurang",
       "ja": "ギルドメンバーの部隊治療に必要な資源消費ダウン",
       "ko": "길드원의 부대 치료 시 자원 소모 감소",
-      "pt": "Reduz o custo de recursos de cura de tropas para membros da aliança."
+      "pt": "Reduz o custo de recursos de cura de tropas para membros da aliança.",
+      "ar": "تقلل من تكلفة موارد علاج القوات لأعضاء التحالف.",
+      "it": "Riduce il costo in risorse per la guarigione delle truppe per i membri dell'alleanza.",
+      "ms": "Mengurangkan kos sumber penyembuhan tentera untuk ahli pakatan.",
+      "nl": "Verlaagt de grondstoffenkosten voor het genezen van troepen voor alliantieleden.",
+      "th": "ลดค่าใช้จ่ายทรัพยากรในการรักษาทหารสำหรับสมาชิกพันธมิตร",
+      "tr": "İttifak üyeleri için birlik iyileştirme kaynak maliyetini düşürür.",
+      "vi": "Giảm chi phí tài nguyên hồi phục quân cho các thành viên liên minh.",
+      "zh": "降低联盟成员的部队治疗资源消耗。",
+      "pl": "Zmniejsza koszt zasobów leczenia wojsk dla członków sojuszu.",
+      "zh-tw": "降低聯盟成員的部隊治療資源消耗。"
     }
   },
   "2012": {
@@ -714,7 +1234,17 @@
       "id": "HP Garnisun",
       "ja": "駐屯HP",
       "ko": "주둔 체력",
-      "pt": "HP do Quartel"
+      "pt": "HP do Quartel",
+      "ar": "صحة الحامية",
+      "it": "HP presidio",
+      "ms": "HP Garnisun",
+      "nl": "Garnizoens-HP",
+      "th": "HP ประจำการ",
+      "tr": "Garnizon HP",
+      "vi": "HP Đóng quân",
+      "zh": "驻守生命",
+      "pl": "PŻ garnizonu",
+      "zh-tw": "駐守生命"
     },
     "desc": {
       "ru": "Увеличивает Здоровье героя членов альянса в гарнизоне.",
@@ -725,7 +1255,17 @@
       "id": "HP Hero Pasukan meningkat saat anggota Guild berpartisipasi dalam pertahanan",
       "ja": "ギルドメンバーが駐屯に参加する際、部隊の英雄HPアップ",
       "ko": "길드원이 주둔 방어에 참여 시, 부대 영웅의 체력 증가",
-      "pt": "Aumenta o HP do Herói quando guarnecido para membros da aliança."
+      "pt": "Aumenta o HP do Herói quando guarnecido para membros da aliança.",
+      "ar": "تزيد من نقاط صحة البطل عند التمركز في الحامية لأعضاء التحالف.",
+      "it": "Aumenta gli HP dell'Eroe quando è di presidio per i membri dell'alleanza.",
+      "ms": "Meningkatkan HP Wira apabila mengawal untuk ahli pakatan.",
+      "nl": "Verhoogt de HP van helden in het garnizoen voor alliantieleden.",
+      "th": "เพิ่มพลังชีวิตของฮีโร่เมื่อประจำการสำหรับสมาชิกพันธมิตร",
+      "tr": "İttifak üyeleri için garnizon halindeyken Kahraman HP değerini artırır.",
+      "vi": "Tăng HP của Anh hùng khi đóng quân cho các thành viên liên minh.",
+      "zh": "提高联盟成员驻守时的英雄生命值。",
+      "pl": "Zwiększa punkty życia bohatera w garnizonie dla członków sojuszu.",
+      "zh-tw": "提高聯盟成員駐守時的英雄生命值。"
     }
   },
   "2013": {
@@ -741,7 +1281,17 @@
       "id": "ATK Garnisun",
       "ja": "駐屯攻撃",
       "ko": "주둔 공격력",
-      "pt": "Ataque do Quartel"
+      "pt": "Ataque do Quartel",
+      "ar": "هجوم الحامية",
+      "it": "Attacco presidio",
+      "ms": "Serangan Garnisun",
+      "nl": "Garnizoensaanval",
+      "th": "โจมตีประจำการ",
+      "tr": "Garnizon Saldırısı",
+      "vi": "Tấn công Đóng quân",
+      "zh": "驻守攻击",
+      "pl": "Atak garnizonu",
+      "zh-tw": "駐守攻擊"
     },
     "desc": {
       "ru": "Увеличивает Атаку героя членов альянса в гарнизоне.",
@@ -752,7 +1302,17 @@
       "id": "ATK Hero Pasukan meningkat saat anggota Guild berpartisipasi dalam pertahanan",
       "ja": "ギルドメンバーが駐屯に参加する際、部隊の英雄攻撃力アップ",
       "ko": "길드원이 주둔 방어에 참여 시, 부대 영웅의 공격력 증가",
-      "pt": "Aumenta o ATQ do Herói quando guarnecido para membros da aliança."
+      "pt": "Aumenta o ATQ do Herói quando guarnecido para membros da aliança.",
+      "ar": "تزيد من هجوم البطل عند التمركز في الحامية لأعضاء التحالف.",
+      "it": "Aumenta l'ATK dell'Eroe quando è di presidio per i membri dell'alleanza.",
+      "ms": "Meningkatkan ATK Wira apabila mengawal untuk ahli pakatan.",
+      "nl": "Verhoogt de ATK van helden in het garnizoen voor alliantieleden.",
+      "th": "เพิ่มพลังโจมตีของฮีโร่เมื่อประจำการสำหรับสมาชิกพันธมิตร",
+      "tr": "İttifak üyeleri için garnizon halindeyken Kahraman ATK değerini artırır.",
+      "vi": "Tăng tấn công của Anh hùng khi đóng quân cho các thành viên liên minh.",
+      "zh": "提高联盟成员驻守时的英雄攻击力。",
+      "pl": "Zwiększa ataku bohatera w garnizonie dla członków sojuszu.",
+      "zh-tw": "提高聯盟成員駐守時的英雄攻擊力。"
     }
   },
   "2014": {
@@ -768,7 +1328,17 @@
       "id": "DEF Garnisun",
       "ja": "駐屯防御",
       "ko": "주둔 방어력",
-      "pt": "Defesa do Quartel"
+      "pt": "Defesa do Quartel",
+      "ar": "دفاع الحامية",
+      "it": "Difesa presidio",
+      "ms": "Pertahanan Garnisun",
+      "nl": "Garnizoensverdediging",
+      "th": "ป้องกันประจำการ",
+      "tr": "Garnizon Savunması",
+      "vi": "Phòng thủ Đóng quân",
+      "zh": "驻守防御",
+      "pl": "Obrona garnizonu",
+      "zh-tw": "駐守防禦"
     },
     "desc": {
       "ru": "Увеличивает Защиту героя членов альянса в гарнизоне.",
@@ -779,7 +1349,17 @@
       "id": "DEF Hero Pasukan meningkat saat anggota Guild berpartisipasi dalam pertahanan",
       "ja": "ギルドメンバーが駐屯に参加する際、部隊の英雄防御力アップ",
       "ko": "길드원이 주둔 방어에 참여 시, 부대 영웅의 방어력 증가",
-      "pt": "Aumenta a DEF do Herói quando guarnecido para membros da aliança."
+      "pt": "Aumenta a DEF do Herói quando guarnecido para membros da aliança.",
+      "ar": "تزيد من دفاع البطل عند التمركز في الحامية لأعضاء التحالف.",
+      "it": "Aumenta la DEF dell'Eroe quando è di presidio per i membri dell'alleanza.",
+      "ms": "Meningkatkan DEF Wira apabila mengawal untuk ahli pakatan.",
+      "nl": "Verhoogt de DEF van helden in het garnizoen voor alliantieleden.",
+      "th": "เพิ่มพลังป้องกันของฮีโร่เมื่อประจำการสำหรับสมาชิกพันธมิตร",
+      "tr": "İttifak üyeleri için garnizon halindeyken Kahraman DEF değerini artırır.",
+      "vi": "Tăng phòng thủ của Anh hùng khi đóng quân cho các thành viên liên minh.",
+      "zh": "提高联盟成员驻守时的英雄防御力。",
+      "pl": "Zwiększa obronę bohatera w garnizonie dla członków sojuszu.",
+      "zh-tw": "提高聯盟成員駐守時的英雄防禦力。"
     }
   },
   "2015": {
@@ -795,7 +1375,17 @@
       "id": "Perluasan Barak",
       "ja": "兵営拡張",
       "ko": "병영 확장",
-      "pt": "Expansão do Quartel"
+      "pt": "Expansão do Quartel",
+      "ar": "توسيع الثكنات",
+      "it": "Espansione caserma",
+      "ms": "Peluasan Berek",
+      "nl": "Kazerne-uitbreiding",
+      "th": "ขยายค่ายทหาร",
+      "tr": "Kışla Genişletme",
+      "vi": "Mở rộng Doanh trại",
+      "zh": "兵营扩建",
+      "pl": "Rozbudowa koszar",
+      "zh-tw": "兵營擴建"
     },
     "desc": {
       "ru": "Повышает вместимость казарм для членов альянса.",
@@ -806,7 +1396,17 @@
       "id": "Kapasitas Barak anggota Guild meningkat",
       "ja": "ギルドメンバーの兵営容量アップ",
       "ko": "길드원의 병영 수용력 증가",
-      "pt": "Aumenta a capacidade do quartel para membros da aliança."
+      "pt": "Aumenta a capacidade do quartel para membros da aliança.",
+      "ar": "تزيد من سعة الثكنات لأعضاء التحالف.",
+      "it": "Aumenta la capacità della caserma per i membri dell'alleanza.",
+      "ms": "Meningkatkan kapasiti berek untuk ahli pakatan.",
+      "nl": "Verhoogt de capaciteit van kazernes voor alliantieleden.",
+      "th": "เพิ่มความจุของค่ายทหารสำหรับสมาชิกพันธมิตร",
+      "tr": "İttifak üyeleri için kışla kapasitesini artırır.",
+      "vi": "Tăng sức chứa doanh trại cho các thành viên liên minh.",
+      "zh": "提高联盟成员的兵营容量。",
+      "pl": "Zwiększa pojemność koszar dla członków sojuszu.",
+      "zh-tw": "提高聯盟成員的兵營容量。"
     }
   }
 }

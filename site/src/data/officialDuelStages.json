@@ -10,7 +10,17 @@
       "id": "Penguatan Raven",
       "ja": "レイヴン強化",
       "ko": "까마귀 강화",
-      "pt": "Aprimore o Corvo"
+      "pt": "Aprimore o Corvo",
+      "ar": "تعزيز الغراب",
+      "it": "Potenzia il Corvo",
+      "ms": "Perkuat Raven",
+      "nl": "Versterk Raven",
+      "th": "เสริมพลังกา",
+      "tr": "Kuzgun'u Güçlendir",
+      "vi": "Cường hóa Quạ",
+      "zh": "渡鸦强化",
+      "pl": "Wzmocnij Kruka",
+      "zh-tw": "渡鴉強化"
     },
     "tasks": {
       "ru": [
@@ -66,6 +76,66 @@
         "Melhoria do Corvo",
         "Consumir Vigor",
         "Colete Recursos"
+      ],
+      "ar": [
+        "برج الصقر",
+        "ترقية الغراب",
+        "استهلاك الطاقة",
+        "جمع الموارد"
+      ],
+      "it": [
+        "Torre dei Falchi",
+        "Potenziamento Corvo",
+        "Consuma energia",
+        "Raccogli risorse"
+      ],
+      "ms": [
+        "Menara Falcon",
+        "Naik Taraf Raven",
+        "Guna Stamina",
+        "Kumpul Sumber"
+      ],
+      "nl": [
+        "Valkurentoren",
+        "Raven-upgrade",
+        "Verbruik uithoudingsvermogen",
+        "Verzamel grondstoffen"
+      ],
+      "th": [
+        "หอคอยฟอลคอน",
+        "อัปเกรดกา",
+        "ใช้สตามินา",
+        "รวบรวมทรัพยากร"
+      ],
+      "tr": [
+        "Şahin Kulesi",
+        "Kuzgun Yükseltmesi",
+        "Enerji Harca",
+        "Kaynak Topla"
+      ],
+      "vi": [
+        "Tháp Falcon",
+        "Nâng cấp Quạ",
+        "Tiêu hao Thể lực",
+        "Thu thập Tài nguyên"
+      ],
+      "zh": [
+        "猎鹰之塔",
+        "渡鸦升级",
+        "消耗体力",
+        "采集资源"
+      ],
+      "pl": [
+        "Wieża Sokoła",
+        "Ulepszenie Kruka",
+        "Zużyj wytrzymałość",
+        "Zbieraj zasoby"
+      ],
+      "zh-tw": [
+        "獵鷹之塔",
+        "渡鴉升級",
+        "消耗體力",
+        "採集資源"
       ]
     },
     "tips": {}
@@ -81,7 +151,17 @@
       "id": "Pengembangan Wilayah",
       "ja": "領地発展",
       "ko": "영지 발전",
-      "pt": "Desenvolvimento de Território"
+      "pt": "Desenvolvimento de Território",
+      "ar": "تطوير الإقليم",
+      "it": "Sviluppo del territorio",
+      "ms": "Pembangunan Wilayah",
+      "nl": "Gebiedsontwikkeling",
+      "th": "พัฒนาดินแดน",
+      "tr": "Bölge Geliştirme",
+      "vi": "Phát triển Lãnh thổ",
+      "zh": "领地发展",
+      "pl": "Rozwój terytorium",
+      "zh-tw": "領地發展"
     },
     "tasks": {
       "ru": [
@@ -128,6 +208,56 @@
         "Construir",
         "Operação Secreta",
         "Caravana Mercante"
+      ],
+      "ar": [
+        "تشييد",
+        "عملية سرية",
+        "قافلة تجارية"
+      ],
+      "it": [
+        "Costruisci",
+        "Operazione segreta",
+        "Carovana commerciale"
+      ],
+      "ms": [
+        "Bina",
+        "Operasi Rahsia",
+        "Karavan Dagang"
+      ],
+      "nl": [
+        "Bouw",
+        "Geheime operatie",
+        "Handelskaravaan"
+      ],
+      "th": [
+        "ก่อสร้าง",
+        "ปฏิบัติการลับ",
+        "คาราวานการค้า"
+      ],
+      "tr": [
+        "İnşa Et",
+        "Gizli Operasyon",
+        "Ticaret Kervanı"
+      ],
+      "vi": [
+        "Xây dựng",
+        "Chiến dịch Bí mật",
+        "Đoàn buôn"
+      ],
+      "zh": [
+        "建造",
+        "秘密行动",
+        "贸易商队"
+      ],
+      "pl": [
+        "Buduj",
+        "Tajna operacja",
+        "Karawana handlowa"
+      ],
+      "zh-tw": [
+        "建造",
+        "祕密行動",
+        "貿易商隊"
       ]
     },
     "tips": {}
@@ -143,7 +273,17 @@
       "id": "Riset Teknologi",
       "ja": "技術開発",
       "ko": "기술 연구개발",
-      "pt": "Pesquisa de Tecnologia"
+      "pt": "Pesquisa de Tecnologia",
+      "ar": "البحث التقني",
+      "it": "Ricerca tecnologica",
+      "ms": "Kajian Teknologi",
+      "nl": "Techonderzoek",
+      "th": "วิจัยเทคโนโลยี",
+      "tr": "Teknoloji Araştırması",
+      "vi": "Nghiên cứu Công nghệ",
+      "zh": "科技研究",
+      "pl": "Badania technologiczne",
+      "zh-tw": "科技研究"
     },
     "tasks": {
       "ru": [
@@ -190,6 +330,56 @@
         "Pesquisa de Tecnologia",
         "Pergaminho de Estudo",
         "Torre do Falcão"
+      ],
+      "ar": [
+        "البحث التقني",
+        "مخطوطة الدراسة",
+        "برج الصقر"
+      ],
+      "it": [
+        "Ricerca tecnologica",
+        "Pergamena di studio",
+        "Torre dei Falchi"
+      ],
+      "ms": [
+        "Kajian Teknologi",
+        "Skrol Kajian",
+        "Menara Falcon"
+      ],
+      "nl": [
+        "Techonderzoek",
+        "Studierol",
+        "Valkurentoren"
+      ],
+      "th": [
+        "วิจัยเทคโนโลยี",
+        "คัมภีร์การศึกษา",
+        "หอคอยฟอลคอน"
+      ],
+      "tr": [
+        "Teknoloji Araştırması",
+        "Çalışma Parşömeni",
+        "Şahin Kulesi"
+      ],
+      "vi": [
+        "Nghiên cứu Công nghệ",
+        "Cuộn sách Nghiên cứu",
+        "Tháp Falcon"
+      ],
+      "zh": [
+        "科技研究",
+        "研究卷轴",
+        "猎鹰之塔"
+      ],
+      "pl": [
+        "Badania technologiczne",
+        "Zwój nauki",
+        "Wieża Sokoła"
+      ],
+      "zh-tw": [
+        "科技研究",
+        "研究卷軸",
+        "獵鷹之塔"
       ]
     },
     "tips": {}
@@ -205,7 +395,17 @@
       "id": "Peningkatan Hero",
       "ja": "英雄強化",
       "ko": "영웅 강화",
-      "pt": "Melhore os Heróis"
+      "pt": "Melhore os Heróis",
+      "ar": "تعزيز الأبطال",
+      "it": "Potenzia gli eroi",
+      "ms": "Perkuat Wira",
+      "nl": "Versterk helden",
+      "th": "เสริมพลังฮีโร่",
+      "tr": "Kahramanları Güçlendir",
+      "vi": "Cường hóa Anh hùng",
+      "zh": "英雄强化",
+      "pl": "Wzmocnij bohaterów",
+      "zh-tw": "英雄強化"
     },
     "tasks": {
       "ru": [
@@ -243,6 +443,46 @@
       "pt": [
         "Recrutar",
         "Fragmento de Herói"
+      ],
+      "ar": [
+        "تجنيد",
+        "شظية البطل"
+      ],
+      "it": [
+        "Recluta",
+        "Frammento eroe"
+      ],
+      "ms": [
+        "Rekrut",
+        "Serpihan Wira"
+      ],
+      "nl": [
+        "Rekruteer",
+        "Heldenfragment"
+      ],
+      "th": [
+        "รับสมัคร",
+        "เศษฮีโร่"
+      ],
+      "tr": [
+        "Asker Topla",
+        "Kahraman Parçası"
+      ],
+      "vi": [
+        "Chiêu mộ",
+        "Mảnh Anh hùng"
+      ],
+      "zh": [
+        "招募",
+        "英雄碎片"
+      ],
+      "pl": [
+        "Rekrutuj",
+        "Odłamek bohatera"
+      ],
+      "zh-tw": [
+        "招募",
+        "英雄碎片"
       ]
     },
     "tips": {}
@@ -258,7 +498,17 @@
       "id": "Pengembangan Menyeluruh I",
       "ja": "総合発展I",
       "ko": "균형 성장 I",
-      "pt": "Desenvolvimento Completo I"
+      "pt": "Desenvolvimento Completo I",
+      "ar": "التطوير الكامل I",
+      "it": "Sviluppo completo I",
+      "ms": "Pembangunan Menyeluruh I",
+      "nl": "Volledige ontwikkeling I",
+      "th": "พัฒนาครบทุกด้าน I",
+      "tr": "Tam Gelişme I",
+      "vi": "Phát triển Toàn diện I",
+      "zh": "全面发展 I",
+      "pl": "Pełny rozwój I",
+      "zh-tw": "全面發展 I"
     },
     "tasks": {
       "ru": [
@@ -305,6 +555,56 @@
         "Torre do Falcão",
         "Acelerar",
         "Treinamento de Soldados"
+      ],
+      "ar": [
+        "برج الصقر",
+        "تسريع",
+        "تدريب الجنود"
+      ],
+      "it": [
+        "Torre dei Falchi",
+        "Accelerazione",
+        "Addestramento soldati"
+      ],
+      "ms": [
+        "Menara Falcon",
+        "Percepat",
+        "Latihan Askar"
+      ],
+      "nl": [
+        "Valkurentoren",
+        "Versnelling",
+        "Soldatentraining"
+      ],
+      "th": [
+        "หอคอยฟอลคอน",
+        "เร่งความเร็ว",
+        "ฝึกทหาร"
+      ],
+      "tr": [
+        "Şahin Kulesi",
+        "Hızlandırma",
+        "Asker Eğitimi"
+      ],
+      "vi": [
+        "Tháp Falcon",
+        "Tăng tốc",
+        "Huấn luyện Lính"
+      ],
+      "zh": [
+        "猎鹰之塔",
+        "加速",
+        "士兵训练"
+      ],
+      "pl": [
+        "Wieża Sokoła",
+        "Przyspieszenie",
+        "Szkolenie żołnierzy"
+      ],
+      "zh-tw": [
+        "獵鷹之塔",
+        "加速",
+        "士兵訓練"
       ]
     },
     "tips": {}
@@ -320,7 +620,17 @@
       "id": "Pengembangan Menyeluruh II",
       "ja": "総合発展II",
       "ko": "균형 성장 II",
-      "pt": "DesenvolvIImento Completo II"
+      "pt": "DesenvolvIImento Completo II",
+      "ar": "التطوير الكامل II",
+      "it": "Sviluppo completo II",
+      "ms": "Pembangunan Menyeluruh II",
+      "nl": "Volledige ontwikkeling II",
+      "th": "พัฒนาครบทุกด้าน II",
+      "tr": "Tam Gelişme II",
+      "vi": "Phát triển Toàn diện II",
+      "zh": "全面发展 II",
+      "pl": "Pełny rozwój II",
+      "zh-tw": "全面發展 II"
     },
     "tasks": {
       "ru": [
@@ -376,6 +686,66 @@
         "Operação Secreta",
         "Acelerar",
         "Caravana Mercante"
+      ],
+      "ar": [
+        "اهزم",
+        "عملية سرية",
+        "تسريع",
+        "قافلة تجارية"
+      ],
+      "it": [
+        "Sconfiggi",
+        "Operazione segreta",
+        "Accelerazione",
+        "Carovana commerciale"
+      ],
+      "ms": [
+        "Kalahkan",
+        "Operasi Rahsia",
+        "Percepat",
+        "Karavan Dagang"
+      ],
+      "nl": [
+        "Versla",
+        "Geheime operatie",
+        "Versnelling",
+        "Handelskaravaan"
+      ],
+      "th": [
+        "เอาชนะ",
+        "ปฏิบัติการลับ",
+        "เร่งความเร็ว",
+        "คาราวานการค้า"
+      ],
+      "tr": [
+        "Yen",
+        "Gizli Operasyon",
+        "Hızlandırma",
+        "Ticaret Kervanı"
+      ],
+      "vi": [
+        "Đánh bại",
+        "Chiến dịch Bí mật",
+        "Tăng tốc",
+        "Đoàn buôn"
+      ],
+      "zh": [
+        "击败",
+        "秘密行动",
+        "加速",
+        "贸易商队"
+      ],
+      "pl": [
+        "Pokonaj",
+        "Tajna operacja",
+        "Przyspieszenie",
+        "Karawana handlowa"
+      ],
+      "zh-tw": [
+        "擊敗",
+        "祕密行動",
+        "加速",
+        "貿易商隊"
       ]
     },
     "tips": {}
@@ -391,7 +761,17 @@
       "id": "Penguatan Raven",
       "ja": "レイヴン強化",
       "ko": "까마귀 강화",
-      "pt": "Aprimore o Corvo"
+      "pt": "Aprimore o Corvo",
+      "ar": "تعزيز الغراب",
+      "it": "Potenzia il Corvo",
+      "ms": "Perkuat Raven",
+      "nl": "Versterk Raven",
+      "th": "เสริมพลังกา",
+      "tr": "Kuzgun'u Güçlendir",
+      "vi": "Cường hóa Quạ",
+      "zh": "渡鸦强化",
+      "pl": "Wzmocnij Kruka",
+      "zh-tw": "渡鴉強化"
     },
     "tasks": {
       "ru": [
@@ -447,6 +827,66 @@
         "Melhoria do Corvo",
         "Consumir Vigor",
         "Colete Recursos"
+      ],
+      "ar": [
+        "برج الصقر",
+        "ترقية الغراب",
+        "استهلاك الطاقة",
+        "جمع الموارد"
+      ],
+      "it": [
+        "Torre dei Falchi",
+        "Potenziamento Corvo",
+        "Consuma energia",
+        "Raccogli risorse"
+      ],
+      "ms": [
+        "Menara Falcon",
+        "Naik Taraf Raven",
+        "Guna Stamina",
+        "Kumpul Sumber"
+      ],
+      "nl": [
+        "Valkurentoren",
+        "Raven-upgrade",
+        "Verbruik uithoudingsvermogen",
+        "Verzamel grondstoffen"
+      ],
+      "th": [
+        "หอคอยฟอลคอน",
+        "อัปเกรดกา",
+        "ใช้สตามินา",
+        "รวบรวมทรัพยากร"
+      ],
+      "tr": [
+        "Şahin Kulesi",
+        "Kuzgun Yükseltmesi",
+        "Enerji Harca",
+        "Kaynak Topla"
+      ],
+      "vi": [
+        "Tháp Falcon",
+        "Nâng cấp Quạ",
+        "Tiêu hao Thể lực",
+        "Thu thập Tài nguyên"
+      ],
+      "zh": [
+        "猎鹰之塔",
+        "渡鸦升级",
+        "消耗体力",
+        "采集资源"
+      ],
+      "pl": [
+        "Wieża Sokoła",
+        "Ulepszenie Kruka",
+        "Zużyj wytrzymałość",
+        "Zbieraj zasoby"
+      ],
+      "zh-tw": [
+        "獵鷹之塔",
+        "渡鴉升級",
+        "消耗體力",
+        "採集資源"
       ]
     },
     "tips": {}
@@ -462,7 +902,17 @@
       "id": "Pengembangan Wilayah",
       "ja": "領地発展",
       "ko": "영지 발전",
-      "pt": "Desenvolvimento de Território"
+      "pt": "Desenvolvimento de Território",
+      "ar": "تطوير الإقليم",
+      "it": "Sviluppo del territorio",
+      "ms": "Pembangunan Wilayah",
+      "nl": "Gebiedsontwikkeling",
+      "th": "พัฒนาดินแดน",
+      "tr": "Bölge Geliştirme",
+      "vi": "Phát triển Lãnh thổ",
+      "zh": "领地发展",
+      "pl": "Rozwój terytorium",
+      "zh-tw": "領地發展"
     },
     "tasks": {
       "ru": [
@@ -509,6 +959,56 @@
         "Construir",
         "Operação Secreta",
         "Caravana Mercante"
+      ],
+      "ar": [
+        "تشييد",
+        "عملية سرية",
+        "قافلة تجارية"
+      ],
+      "it": [
+        "Costruisci",
+        "Operazione segreta",
+        "Carovana commerciale"
+      ],
+      "ms": [
+        "Bina",
+        "Operasi Rahsia",
+        "Karavan Dagang"
+      ],
+      "nl": [
+        "Bouw",
+        "Geheime operatie",
+        "Handelskaravaan"
+      ],
+      "th": [
+        "ก่อสร้าง",
+        "ปฏิบัติการลับ",
+        "คาราวานการค้า"
+      ],
+      "tr": [
+        "İnşa Et",
+        "Gizli Operasyon",
+        "Ticaret Kervanı"
+      ],
+      "vi": [
+        "Xây dựng",
+        "Chiến dịch Bí mật",
+        "Đoàn buôn"
+      ],
+      "zh": [
+        "建造",
+        "秘密行动",
+        "贸易商队"
+      ],
+      "pl": [
+        "Buduj",
+        "Tajna operacja",
+        "Karawana handlowa"
+      ],
+      "zh-tw": [
+        "建造",
+        "祕密行動",
+        "貿易商隊"
       ]
     },
     "tips": {}
@@ -524,7 +1024,17 @@
       "id": "Riset Teknologi",
       "ja": "技術開発",
       "ko": "기술 연구개발",
-      "pt": "Pesquisa de Tecnologia"
+      "pt": "Pesquisa de Tecnologia",
+      "ar": "البحث التقني",
+      "it": "Ricerca tecnologica",
+      "ms": "Kajian Teknologi",
+      "nl": "Techonderzoek",
+      "th": "วิจัยเทคโนโลยี",
+      "tr": "Teknoloji Araştırması",
+      "vi": "Nghiên cứu Công nghệ",
+      "zh": "科技研究",
+      "pl": "Badania technologiczne",
+      "zh-tw": "科技研究"
     },
     "tasks": {
       "ru": [
@@ -571,6 +1081,56 @@
         "Pesquisa de Tecnologia",
         "Pergaminho de Estudo",
         "Torre do Falcão"
+      ],
+      "ar": [
+        "البحث التقني",
+        "مخطوطة الدراسة",
+        "برج الصقر"
+      ],
+      "it": [
+        "Ricerca tecnologica",
+        "Pergamena di studio",
+        "Torre dei Falchi"
+      ],
+      "ms": [
+        "Kajian Teknologi",
+        "Skrol Kajian",
+        "Menara Falcon"
+      ],
+      "nl": [
+        "Techonderzoek",
+        "Studierol",
+        "Valkurentoren"
+      ],
+      "th": [
+        "วิจัยเทคโนโลยี",
+        "คัมภีร์การศึกษา",
+        "หอคอยฟอลคอน"
+      ],
+      "tr": [
+        "Teknoloji Araştırması",
+        "Çalışma Parşömeni",
+        "Şahin Kulesi"
+      ],
+      "vi": [
+        "Nghiên cứu Công nghệ",
+        "Cuộn sách Nghiên cứu",
+        "Tháp Falcon"
+      ],
+      "zh": [
+        "科技研究",
+        "研究卷轴",
+        "猎鹰之塔"
+      ],
+      "pl": [
+        "Badania technologiczne",
+        "Zwój nauki",
+        "Wieża Sokoła"
+      ],
+      "zh-tw": [
+        "科技研究",
+        "研究卷軸",
+        "獵鷹之塔"
       ]
     },
     "tips": {}
@@ -586,7 +1146,17 @@
       "id": "Peningkatan Hero",
       "ja": "英雄強化",
       "ko": "영웅 강화",
-      "pt": "Melhore os Heróis"
+      "pt": "Melhore os Heróis",
+      "ar": "تعزيز الأبطال",
+      "it": "Potenzia gli eroi",
+      "ms": "Perkuat Wira",
+      "nl": "Versterk helden",
+      "th": "เสริมพลังฮีโร่",
+      "tr": "Kahramanları Güçlendir",
+      "vi": "Cường hóa Anh hùng",
+      "zh": "英雄强化",
+      "pl": "Wzmocnij bohaterów",
+      "zh-tw": "英雄強化"
     },
     "tasks": {
       "ru": [
@@ -624,6 +1194,46 @@
       "pt": [
         "Recrutar",
         "Fragmento de Herói"
+      ],
+      "ar": [
+        "تجنيد",
+        "شظية البطل"
+      ],
+      "it": [
+        "Recluta",
+        "Frammento eroe"
+      ],
+      "ms": [
+        "Rekrut",
+        "Serpihan Wira"
+      ],
+      "nl": [
+        "Rekruteer",
+        "Heldenfragment"
+      ],
+      "th": [
+        "รับสมัคร",
+        "เศษฮีโร่"
+      ],
+      "tr": [
+        "Asker Topla",
+        "Kahraman Parçası"
+      ],
+      "vi": [
+        "Chiêu mộ",
+        "Mảnh Anh hùng"
+      ],
+      "zh": [
+        "招募",
+        "英雄碎片"
+      ],
+      "pl": [
+        "Rekrutuj",
+        "Odłamek bohatera"
+      ],
+      "zh-tw": [
+        "招募",
+        "英雄碎片"
       ]
     },
     "tips": {}
@@ -639,7 +1249,17 @@
       "id": "Persiapan Perang",
       "ja": "戦争準備",
       "ko": "전쟁 준비",
-      "pt": "Preparação para a Guerra"
+      "pt": "Preparação para a Guerra",
+      "ar": "الاستعداد للحرب",
+      "it": "Preparativi di guerra",
+      "ms": "Persiapan Perang",
+      "nl": "Oorlogsvoorbereiding",
+      "th": "เตรียมพร้อมสงคราม",
+      "tr": "Savaş Hazırlığı",
+      "vi": "Chuẩn bị Chiến tranh",
+      "zh": "战争准备",
+      "pl": "Przygotowania do wojny",
+      "zh-tw": "戰爭準備"
     },
     "tasks": {
       "ru": [
@@ -686,6 +1306,56 @@
         "Torre do Falcão",
         "Acelerar",
         "Treinamento de Soldados"
+      ],
+      "ar": [
+        "برج الصقر",
+        "تسريع",
+        "تدريب الجنود"
+      ],
+      "it": [
+        "Torre dei Falchi",
+        "Accelerazione",
+        "Addestramento soldati"
+      ],
+      "ms": [
+        "Menara Falcon",
+        "Percepat",
+        "Latihan Askar"
+      ],
+      "nl": [
+        "Valkurentoren",
+        "Versnelling",
+        "Soldatentraining"
+      ],
+      "th": [
+        "หอคอยฟอลคอน",
+        "เร่งความเร็ว",
+        "ฝึกทหาร"
+      ],
+      "tr": [
+        "Şahin Kulesi",
+        "Hızlandırma",
+        "Asker Eğitimi"
+      ],
+      "vi": [
+        "Tháp Falcon",
+        "Tăng tốc",
+        "Huấn luyện Lính"
+      ],
+      "zh": [
+        "猎鹰之塔",
+        "加速",
+        "士兵训练"
+      ],
+      "pl": [
+        "Wieża Sokoła",
+        "Przyspieszenie",
+        "Szkolenie żołnierzy"
+      ],
+      "zh-tw": [
+        "獵鷹之塔",
+        "加速",
+        "士兵訓練"
       ]
     },
     "tips": {
@@ -724,6 +1394,46 @@
       "pt": [
         "Ativar Escudo",
         "Realocar para o Ponto de Mobilização da Aliança"
+      ],
+      "ar": [
+        "تفعيل الدرع",
+        "الانتقال إلى نقطة تجمع التحالف"
+      ],
+      "it": [
+        "Attiva lo scudo",
+        "Trasferisciti al punto di raduno dell'alleanza"
+      ],
+      "ms": [
+        "Aktifkan Perisai",
+        "Pindah ke Titik Kumpul Pakatan"
+      ],
+      "nl": [
+        "Activeer het schild",
+        "Verplaats naar het verzamelpunt van de alliantie"
+      ],
+      "th": [
+        "เปิดโล่ป้องกัน",
+        "ย้ายไปยังจุดรวมพลพันธมิตร"
+      ],
+      "tr": [
+        "Kalkan Aç",
+        "İttifak Toplanma Noktasına Işınlan"
+      ],
+      "vi": [
+        "Kích hoạt Khiên",
+        "Di chuyển đến Điểm tập kết liên minh"
+      ],
+      "zh": [
+        "开启护盾",
+        "迁移至联盟集结点"
+      ],
+      "pl": [
+        "Aktywuj tarczę",
+        "Przemieść się do punktu zbiórki sojuszu"
+      ],
+      "zh-tw": [
+        "開啟護盾",
+        "遷移至聯盟集結點"
       ]
     }
   },
@@ -738,7 +1448,17 @@
       "id": "Serangan Mendadak ke Musuh",
       "ja": "敵軍へのレイド",
       "ko": "적군 기습",
-      "pt": "Ataque o Inimigo"
+      "pt": "Ataque o Inimigo",
+      "ar": "الإغارة على العدو",
+      "it": "Assalta il nemico",
+      "ms": "Serbu Musuh",
+      "nl": "Overval de vijand",
+      "th": "โจมตีข้าศึก",
+      "tr": "Düşmana Baskın",
+      "vi": "Đột kích Kẻ địch",
+      "zh": "突袭敌人",
+      "pl": "Najedź wroga",
+      "zh-tw": "突襲敵人"
     },
     "tasks": {
       "ru": [
@@ -794,6 +1514,66 @@
         "Operação Secreta",
         "Acelerar",
         "Caravana Mercante"
+      ],
+      "ar": [
+        "اهزم",
+        "عملية سرية",
+        "تسريع",
+        "قافلة تجارية"
+      ],
+      "it": [
+        "Sconfiggi",
+        "Operazione segreta",
+        "Accelerazione",
+        "Carovana commerciale"
+      ],
+      "ms": [
+        "Kalahkan",
+        "Operasi Rahsia",
+        "Percepat",
+        "Karavan Dagang"
+      ],
+      "nl": [
+        "Versla",
+        "Geheime operatie",
+        "Versnelling",
+        "Handelskaravaan"
+      ],
+      "th": [
+        "เอาชนะ",
+        "ปฏิบัติการลับ",
+        "เร่งความเร็ว",
+        "คาราวานการค้า"
+      ],
+      "tr": [
+        "Yen",
+        "Gizli Operasyon",
+        "Hızlandırma",
+        "Ticaret Kervanı"
+      ],
+      "vi": [
+        "Đánh bại",
+        "Chiến dịch Bí mật",
+        "Tăng tốc",
+        "Đoàn buôn"
+      ],
+      "zh": [
+        "击败",
+        "秘密行动",
+        "加速",
+        "贸易商队"
+      ],
+      "pl": [
+        "Pokonaj",
+        "Tajna operacja",
+        "Przyspieszenie",
+        "Karawana handlowa"
+      ],
+      "zh-tw": [
+        "擊敗",
+        "祕密行動",
+        "加速",
+        "貿易商隊"
       ]
     },
     "tips": {}

@@ -86,7 +86,17 @@
         "id": "Pedang R",
         "ja": "Rソード",
         "ko": "R 검",
-        "pt": "Espada R"
+        "pt": "Espada R",
+        "ar": "سيف R",
+        "it": "Spada R",
+        "ms": "Pedang R",
+        "nl": "R-zwaard",
+        "th": "ดาบ R",
+        "tr": "R Kılıç",
+        "vi": "Kiếm R",
+        "zh": "R剑",
+        "pl": "Miecz R",
+        "zh-tw": "R劍"
       },
       "proName": null,
       "primaryStat": {
@@ -119,7 +129,17 @@
         "id": "Armor R",
         "ja": "Rアーマー",
         "ko": "R 갑옷",
-        "pt": "Armadura R"
+        "pt": "Armadura R",
+        "ar": "درع R",
+        "it": "Armatura R",
+        "ms": "Armor R",
+        "nl": "R-pantser",
+        "th": "เกราะ R",
+        "tr": "R Zırh",
+        "vi": "Giáp R",
+        "zh": "R盔甲",
+        "pl": "Zbroja R",
+        "zh-tw": "R盔甲"
       },
       "proName": null,
       "primaryStat": {
@@ -152,7 +172,17 @@
         "id": "Pelindung Tangan R",
         "ja": "Rグローブ",
         "ko": "R 건틀릿",
-        "pt": "Manoplas R"
+        "pt": "Manoplas R",
+        "ar": "قفازات R",
+        "it": "Guanti R",
+        "ms": "Pelindung Tangan R",
+        "nl": "R-handschoenen",
+        "th": "ถุงมือ R",
+        "tr": "R Eldiven",
+        "vi": "Găng tay R",
+        "zh": "R手套",
+        "pl": "Rękawice R",
+        "zh-tw": "R手套"
       },
       "proName": null,
       "primaryStat": {
@@ -185,7 +215,17 @@
         "id": "Sepatu R",
         "ja": "Rブーツ",
         "ko": "R 전투 부츠",
-        "pt": "Botas R"
+        "pt": "Botas R",
+        "ar": "حذاء R",
+        "it": "Stivali R",
+        "ms": "Kasut R",
+        "nl": "R-laarzen",
+        "th": "รองเท้า R",
+        "tr": "R Çizme",
+        "vi": "Giày R",
+        "zh": "R靴子",
+        "pl": "Buty R",
+        "zh-tw": "R靴子"
       },
       "proName": null,
       "primaryStat": {
@@ -218,7 +258,17 @@
         "id": "Pedang SR",
         "ja": "SRソード",
         "ko": "SR 검",
-        "pt": "Espada SR"
+        "pt": "Espada SR",
+        "ar": "سيف SR",
+        "it": "Spada SR",
+        "ms": "Pedang SR",
+        "nl": "SR-zwaard",
+        "th": "ดาบ SR",
+        "tr": "SR Kılıç",
+        "vi": "Kiếm SR",
+        "zh": "SR剑",
+        "pl": "Miecz SR",
+        "zh-tw": "SR劍"
       },
       "proName": null,
       "primaryStat": {
@@ -251,7 +301,17 @@
         "id": "Armor SR",
         "ja": "SRアーマー",
         "ko": "SR 갑옷",
-        "pt": "Armadura SR"
+        "pt": "Armadura SR",
+        "ar": "درع SR",
+        "it": "Armatura SR",
+        "ms": "Armor SR",
+        "nl": "SR-pantser",
+        "th": "เกราะ SR",
+        "tr": "SR Zırh",
+        "vi": "Giáp SR",
+        "zh": "SR盔甲",
+        "pl": "Zbroja SR",
+        "zh-tw": "SR盔甲"
       },
       "proName": null,
       "primaryStat": {
@@ -284,7 +344,17 @@
         "id": "Pelindung Tangan SR",
         "ja": "SRグローブ",
         "ko": "SR 건틀릿",
-        "pt": "Manoplas SR"
+        "pt": "Manoplas SR",
+        "ar": "قفازات SR",
+        "it": "Guanti SR",
+        "ms": "Pelindung Tangan SR",
+        "nl": "SR-handschoenen",
+        "th": "ถุงมือ SR",
+        "tr": "SR Eldiven",
+        "vi": "Găng tay SR",
+        "zh": "SR手套",
+        "pl": "Rękawice SR",
+        "zh-tw": "SR手套"
       },
       "proName": null,
       "primaryStat": {
@@ -317,7 +387,17 @@
         "id": "Sepatu SR",
         "ja": "SRブーツ",
         "ko": "SR 전투 부츠",
-        "pt": "Botas SR"
+        "pt": "Botas SR",
+        "ar": "حذاء SR",
+        "it": "Stivali SR",
+        "ms": "Kasut SR",
+        "nl": "SR-laarzen",
+        "th": "รองเท้า SR",
+        "tr": "SR Çizme",
+        "vi": "Giày SR",
+        "zh": "SR靴子",
+        "pl": "Buty SR",
+        "zh-tw": "SR靴子"
       },
       "proName": null,
       "primaryStat": {
@@ -350,7 +430,17 @@
         "id": "Pedang SSR",
         "ja": "SSRソード",
         "ko": "SSR 검",
-        "pt": "Espada SSR"
+        "pt": "Espada SSR",
+        "ar": "سيف SSR",
+        "it": "Spada SSR",
+        "ms": "Pedang SSR",
+        "nl": "SSR-zwaard",
+        "th": "ดาบ SSR",
+        "tr": "SSR Kılıç",
+        "vi": "Kiếm SSR",
+        "zh": "SSR剑",
+        "pl": "Miecz SSR",
+        "zh-tw": "SSR劍"
       },
       "proName": null,
       "primaryStat": {
@@ -383,7 +473,17 @@
         "id": "Armor SSR",
         "ja": "SSRアーマー",
         "ko": "SSR 갑옷",
-        "pt": "Armadura SSR"
+        "pt": "Armadura SSR",
+        "ar": "درع SSR",
+        "it": "Armatura SSR",
+        "ms": "Armor SSR",
+        "nl": "SSR-pantser",
+        "th": "เกราะ SSR",
+        "tr": "SSR Zırh",
+        "vi": "Giáp SSR",
+        "zh": "SSR盔甲",
+        "pl": "Zbroja SSR",
+        "zh-tw": "SSR盔甲"
       },
       "proName": null,
       "primaryStat": {
@@ -416,7 +516,17 @@
         "id": "Pelindung Tangan SSR",
         "ja": "SSRグローブ",
         "ko": "SSR 건틀릿",
-        "pt": "Manoplas SSR"
+        "pt": "Manoplas SSR",
+        "ar": "قفازات SSR",
+        "it": "Guanti SSR",
+        "ms": "Pelindung Tangan SSR",
+        "nl": "SSR-handschoenen",
+        "th": "ถุงมือ SSR",
+        "tr": "SSR Eldiven",
+        "vi": "Găng tay SSR",
+        "zh": "SSR手套",
+        "pl": "Rękawice SSR",
+        "zh-tw": "SSR手套"
       },
       "proName": null,
       "primaryStat": {
@@ -449,7 +559,17 @@
         "id": "Sepatu SSR",
         "ja": "SSRブーツ",
         "ko": "SSR 전투 부츠",
-        "pt": "Botas SSR"
+        "pt": "Botas SSR",
+        "ar": "حذاء SSR",
+        "it": "Stivali SSR",
+        "ms": "Kasut SSR",
+        "nl": "SSR-laarzen",
+        "th": "รองเท้า SSR",
+        "tr": "SSR Çizme",
+        "vi": "Giày SSR",
+        "zh": "SSR靴子",
+        "pl": "Buty SSR",
+        "zh-tw": "SSR靴子"
       },
       "proName": null,
       "primaryStat": {
@@ -482,7 +602,17 @@
         "id": "Pedang UR",
         "ja": "URソード",
         "ko": "UR 검",
-        "pt": "Espada UR"
+        "pt": "Espada UR",
+        "ar": "سيف UR",
+        "it": "Spada UR",
+        "ms": "Pedang UR",
+        "nl": "UR-zwaard",
+        "th": "ดาบ UR",
+        "tr": "UR Kılıç",
+        "vi": "Kiếm UR",
+        "zh": "UR剑",
+        "pl": "Miecz UR",
+        "zh-tw": "UR劍"
       },
       "proName": {
         "ru": "Меч (MR)",
@@ -493,7 +623,17 @@
         "id": "Pedang MR",
         "ja": "MRソード",
         "ko": "MR 검",
-        "pt": "Espada MR"
+        "pt": "Espada MR",
+        "ar": "سيف MR",
+        "it": "Spada MR",
+        "ms": "Pedang MR",
+        "nl": "MR-zwaard",
+        "th": "ดาบ MR",
+        "tr": "MR Kılıç",
+        "vi": "Kiếm MR",
+        "zh": "MR剑",
+        "pl": "Miecz MR",
+        "zh-tw": "MR劍"
       },
       "primaryStat": {
         "ru": "Атака героя (ATK)",
@@ -525,7 +665,17 @@
         "id": "Armor UR",
         "ja": "URアーマー",
         "ko": "UR 갑옷",
-        "pt": "Armadura UR"
+        "pt": "Armadura UR",
+        "ar": "درع UR",
+        "it": "Armatura UR",
+        "ms": "Armor UR",
+        "nl": "UR-pantser",
+        "th": "เกราะ UR",
+        "tr": "UR Zırh",
+        "vi": "Giáp UR",
+        "zh": "UR盔甲",
+        "pl": "Zbroja UR",
+        "zh-tw": "UR盔甲"
       },
       "proName": {
         "ru": "Броня (MR)",
@@ -536,7 +686,17 @@
         "id": "Armor MR",
         "ja": "MRアーマー",
         "ko": "MR 갑옷",
-        "pt": "Armadura MR"
+        "pt": "Armadura MR",
+        "ar": "درع MR",
+        "it": "Armatura MR",
+        "ms": "Armor MR",
+        "nl": "MR-pantser",
+        "th": "เกราะ MR",
+        "tr": "MR Zırh",
+        "vi": "Giáp MR",
+        "zh": "MR盔甲",
+        "pl": "Zbroja MR",
+        "zh-tw": "MR盔甲"
       },
       "primaryStat": {
         "ru": "Защита героя (DEF)",
@@ -568,7 +728,17 @@
         "id": "Pelindung Tangan UR",
         "ja": "URグローブ",
         "ko": "UR 건틀릿",
-        "pt": "Manoplas UR"
+        "pt": "Manoplas UR",
+        "ar": "قفازات UR",
+        "it": "Guanti UR",
+        "ms": "Pelindung Tangan UR",
+        "nl": "UR-handschoenen",
+        "th": "ถุงมือ UR",
+        "tr": "UR Eldiven",
+        "vi": "Găng tay UR",
+        "zh": "UR手套",
+        "pl": "Rękawice UR",
+        "zh-tw": "UR手套"
       },
       "proName": {
         "ru": "Наручи (MR)",
@@ -579,7 +749,17 @@
         "id": "Pelindung Tangan MR",
         "ja": "MRグローブ",
         "ko": "MR 건틀릿",
-        "pt": "Manoplas MR"
+        "pt": "Manoplas MR",
+        "ar": "قفازات MR",
+        "it": "Guanti MR",
+        "ms": "Pelindung Tangan MR",
+        "nl": "MR-handschoenen",
+        "th": "ถุงมือ MR",
+        "tr": "MR Eldiven",
+        "vi": "Găng tay MR",
+        "zh": "MR手套",
+        "pl": "Rękawice MR",
+        "zh-tw": "MR手套"
       },
       "primaryStat": {
         "ru": "Атака и Крит. шанс",
@@ -611,7 +791,17 @@
         "id": "Sepatu UR",
         "ja": "URブーツ",
         "ko": "UR 전투 부츠",
-        "pt": "Botas UR"
+        "pt": "Botas UR",
+        "ar": "حذاء UR",
+        "it": "Stivali UR",
+        "ms": "Kasut UR",
+        "nl": "UR-laarzen",
+        "th": "รองเท้า UR",
+        "tr": "UR Çizme",
+        "vi": "Giày UR",
+        "zh": "UR靴子",
+        "pl": "Buty UR",
+        "zh-tw": "UR靴子"
       },
       "proName": {
         "ru": "Сапоги (MR)",
@@ -622,7 +812,17 @@
         "id": "Sepatu MR",
         "ja": "MRブーツ",
         "ko": "MR 전투 부츠",
-        "pt": "Botas MR"
+        "pt": "Botas MR",
+        "ar": "حذاء MR",
+        "it": "Stivali MR",
+        "ms": "Kasut MR",
+        "nl": "MR-laarzen",
+        "th": "รองเท้า MR",
+        "tr": "MR Çizme",
+        "vi": "Giày MR",
+        "zh": "MR靴子",
+        "pl": "Buty MR",
+        "zh-tw": "MR靴子"
       },
       "primaryStat": {
         "ru": "Очки здоровья (HP)",

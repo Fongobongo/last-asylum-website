@@ -10,7 +10,17 @@
       "id": "Kastil Ramuan Kuno",
       "ja": "秘薬の古城",
       "ko": "비약의 고성",
-      "pt": "Castelo do Elixir"
+      "pt": "Castelo do Elixir",
+      "ar": "قلعة الإكسير",
+      "it": "Castello dell'elisir",
+      "ms": "Kastil Eliksir",
+      "nl": "Elixerkasteel",
+      "th": "ปราสาทยาพิศวง",
+      "tr": "İksir Kalesi",
+      "vi": "Lâu đài Elixir",
+      "zh": "灵药城堡",
+      "pl": "Zamek Eliksiru",
+      "zh-tw": "靈藥城堡"
     },
     "desc": {
       "ru": "[Замок эликсира] откроется спустя некоторое время после начала битвы, принося [огромное количество очков] при захвате.",
@@ -21,7 +31,17 @@
       "id": "[Kastil Ramuan Rahasia] akan terbuka setelah pertempuran berlangsung beberapa saat. Menguasainya akan memberikan [Poin berlimpah].",
       "ja": "[秘薬の古城]は戦場が開始されてしばらくすると開放されます。占領すると[超大量のポイント]を獲得できます。",
       "ko": "[비약의 고성]은 전장이 오픈된 후 일정 시간이 지나면 개방되며, 점령 시 [대량의 포인트]를 획득할 수 있습니다.",
-      "pt": "O [Castelo do Elixir] fica disponível após o campo de batalha estar ativo por um tempo, concedendo [uma enorme quantidade de pontos] ao ser capturado."
+      "pt": "O [Castelo do Elixir] fica disponível após o campo de batalha estar ativo por um tempo, concedendo [uma enorme quantidade de pontos] ao ser capturado.",
+      "ar": "[قلعة الإكسير] ستُفتح بعد استمرار المعركة لبعض الوقت، وتمنح [كمية هائلة من النقاط] عند الاستيلاء عليها.",
+      "it": "[Castello dell'elisir] si aprirà dopo che il campo di battaglia sarà attivo da un po', conferendo [una quantità enorme di punti] alla cattura.",
+      "ms": "[Kastil Eliksir] akan terbuka selepas medan perang aktif seketika, memberikan [jumlah Poin yang sangat banyak] apabila dikuasai.",
+      "nl": "[Elixerkasteel] wordt geopend nadat het slagveld een tijdje actief is geweest en levert [een enorme hoeveelheid punten] op bij verovering.",
+      "th": "[ปราสาทยาพิศวง] จะเปิดหลังจากสนามรบดำเนินไปได้สักพัก โดยมอบ [คะแนนจำนวนมหาศาล] เมื่อยึดครองได้",
+      "tr": "[İksir Kalesi], savaş alanı bir süre aktif kaldıktan sonra açılır ve ele geçirildiğinde [çok büyük miktarda puan] kazandırır.",
+      "vi": "[Lâu đài Elixir] sẽ mở sau khi chiến trường diễn ra được một lúc, mang lại [một lượng điểm khổng lồ] khi chiếm được.",
+      "zh": "[灵药城堡]将在战场开启一段时间后开放，占领后可获得[海量积分]。",
+      "pl": "[Zamek Eliksiru] otworzy się po pewnym czasie aktywności pola bitwy, przyznając [ogromną liczbę punktów] po zdobyciu.",
+      "zh-tw": "[靈藥城堡]將在戰場開啟一段時間後開放，佔領後可獲得[海量積分]。"
     }
   },
   {
@@ -35,7 +55,17 @@
       "id": "Reruntuhan Perang",
       "ja": "戦争の遺跡",
       "ko": "전쟁의 유적",
-      "pt": "Relíquias de Guerra"
+      "pt": "Relíquias de Guerra",
+      "ar": "آثار الحرب",
+      "it": "Reliquie di guerra",
+      "ms": "Relik Perang",
+      "nl": "Oorlogsrelikwieën",
+      "th": "ซากสงคราม",
+      "tr": "Savaş Kalıntıları",
+      "vi": "Di tích Chiến tranh",
+      "zh": "战争遗迹",
+      "pl": "Relikwie wojny",
+      "zh-tw": "戰爭遺跡"
     },
     "desc": {
       "ru": "[Реликвии войны] откроются спустя некоторое время после начала битвы, принося [небольшое количество очков] при захвате.",
@@ -46,7 +76,17 @@
       "id": "[Reruntuhan Perang] akan terbuka setelah medan perang aktif beberapa saat. Menguasainya memberi [sedikit Poin].",
       "ja": "[戦争の遺跡]は戦場が開始されてしばらくすると開放されます。占領すると[少量のポイント]を獲得できます。",
       "ko": "[전쟁의 유적]은 전장이 오픈된 후 일정 시간이 지나면 개방되며, 점령 시 [소량의 포인트]를 획득할 수 있습니다.",
-      "pt": "As [Relíquias de Guerra] ficam disponíveis após o campo de batalha estar ativo por um tempo, concedendo [uma pequena quantidade de pontos] ao serem capturadas."
+      "pt": "As [Relíquias de Guerra] ficam disponíveis após o campo de batalha estar ativo por um tempo, concedendo [uma pequena quantidade de pontos] ao serem capturadas.",
+      "ar": "[آثار الحرب] ستُفتح بعد استمرار المعركة لبعض الوقت، وتمنح [كمية صغيرة من النقاط] عند الاستيلاء عليها.",
+      "it": "[Reliquie di guerra] si apriranno dopo che il campo di battaglia sarà attivo da un po', conferendo [una piccola quantità di punti] alla cattura.",
+      "ms": "[Relik Perang] akan terbuka selepas medan perang aktif seketika, memberikan [sedikit Poin] apabila dikuasai.",
+      "nl": "[Oorlogsrelikwieën] worden geopend nadat het slagveld een tijdje actief is geweest en leveren [een kleine hoeveelheid punten] op bij verovering.",
+      "th": "[ซากสงคราม] จะเปิดหลังจากสนามรบดำเนินไปได้สักพัก โดยมอบ [คะแนนจำนวนเล็กน้อย] เมื่อยึดครองได้",
+      "tr": "[Savaş Kalıntıları], savaş alanı bir süre aktif kaldıktan sonra açılır ve ele geçirildiğinde [az miktarda puan] kazandırır.",
+      "vi": "[Di tích Chiến tranh] sẽ mở sau khi chiến trường diễn ra được một lúc, mang lại [một lượng điểm nhỏ] khi chiếm được.",
+      "zh": "[战争遗迹]将在战场开启一段时间后开放，占领后可获得[少量积分]。",
+      "pl": "[Relikwie wojny] otworzą się po pewnym czasie aktywności pola bitwy, przyznając [małą liczbę punktów] po zdobyciu.",
+      "zh-tw": "[戰爭遺跡]將在戰場開啟一段時間後開放，佔領後可獲得[少量積分]。"
     }
   },
   {
@@ -60,7 +100,17 @@
       "id": "Altar Kutukan",
       "ja": "呪いの祭壇",
       "ko": "저주받은 제단",
-      "pt": "Altar Amaldiçoado"
+      "pt": "Altar Amaldiçoado",
+      "ar": "المذبح الملعون",
+      "it": "Altare maledetto",
+      "ms": "Altar Terkutuk",
+      "nl": "Vervloekt altaar",
+      "th": "แท่นบูชาต้องสาป",
+      "tr": "Lanetli Sunak",
+      "vi": "Bàn thờ Bị nguyền",
+      "zh": "被诅咒的祭坛",
+      "pl": "Przeklęty ołtarz",
+      "zh-tw": "被詛咒的祭壇"
     },
     "desc": {
       "ru": "[Проклятый алтарь] появится спустя некоторое время после начала битвы, принося [небольшое количество очков] при захвате.",
@@ -71,7 +121,17 @@
       "id": "[Altar Kutukan] akan terbuka setelah medan perang aktif beberapa saat. Menguasainya memberi [sedikit Poin].",
       "ja": "[呪いの祭壇]は戦場が開始されてしばらくすると開放されます。占領すると[少量のポイント]を獲得できます。",
       "ko": "[저주받은 제단]은 전장이 열린 후 일정 시간이 지나면 개방되며, 점령 시 [소량의 포인트]를 획득할 수 있습니다.",
-      "pt": "O [Altar Amaldiçoado] fica disponível após o campo de batalha estar ativo por um tempo, concedendo [uma pequena quantidade de pontos] ao ser capturado."
+      "pt": "O [Altar Amaldiçoado] fica disponível após o campo de batalha estar ativo por um tempo, concedendo [uma pequena quantidade de pontos] ao ser capturado.",
+      "ar": "[المذبح الملعون] سيظهر بعد استمرار المعركة لبعض الوقت، ويمنح [كمية صغيرة من النقاط] عند الاستيلاء عليه.",
+      "it": "[Altare maledetto] si aprirà dopo che il campo di battaglia sarà attivo da un po', conferendo [una piccola quantità di punti] alla cattura.",
+      "ms": "[Altar Terkutuk] akan terbuka selepas medan perang aktif seketika, memberikan [sedikit Poin] apabila dikuasai.",
+      "nl": "[Vervloekt altaar] wordt geopend nadat het slagveld een tijdje actief is geweest en levert [een kleine hoeveelheid punten] op bij verovering.",
+      "th": "[แท่นบูชาต้องสาป] จะเปิดหลังจากสนามรบดำเนินไปได้สักพัก โดยมอบ [คะแนนจำนวนเล็กน้อย] เมื่อยึดครองได้",
+      "tr": "[Lanetli Sunak], savaş alanı bir süre aktif kaldıktan sonra açılır ve ele geçirildiğinde [az miktarda puan] kazandırır.",
+      "vi": "[Bàn thờ Bị nguyền] sẽ mở sau khi chiến trường diễn ra được một lúc, mang lại [một lượng điểm nhỏ] khi chiếm được.",
+      "zh": "[被诅咒的祭坛]将在战场开启一段时间后开放，占领后可获得[少量积分]。",
+      "pl": "[Przeklęty ołtarz] otworzy się po pewnym czasie aktywności pola bitwy, przyznając [małą liczbę punktów] po zdobyciu.",
+      "zh-tw": "[被詛咒的祭壇]將在戰場開啟一段時間後開放，佔領後可獲得[少量積分]。"
     }
   },
   {
@@ -85,7 +145,17 @@
       "id": "Bengkel Alkimia 1",
       "ja": "1番錬金工房",
       "ko": "1호 연금술 공방",
-      "pt": "Oficina do Alquimia #1"
+      "pt": "Oficina do Alquimia #1",
+      "ar": "ورشة الكيمياء #1",
+      "it": "Laboratorio alchemico #1",
+      "ms": "Bengkel Alkimia 1",
+      "nl": "Alchemiewerkplaats 1",
+      "th": "โรงงานเล่นแร่แปรธาตุ #1",
+      "tr": "Simya Atölyesi 1",
+      "vi": "Xưởng Giả kim 1",
+      "zh": "炼金工坊#1",
+      "pl": "Warsztat alchemiczny #1",
+      "zh-tw": "煉金工坊#1"
     },
     "desc": {
       "ru": "[Алхимическая мастерская] появляется в начале битвы, принося [значительное количество очков] при захвате.",
@@ -96,7 +166,17 @@
       "id": "[Bengkel Alkimia] akan terbuka saat medan perang dimulai. Menguasainya memberi [banyak Poin].",
       "ja": "[錬金工房]は戦場が開始されてしばらくすると開放されます。占領すると[大量のポイント]を獲得できます。",
       "ko": "[연금술 공방]은 전장이 오픈되면 즉시 개방되며, 점령 시 [대량의 포인트]를 획득할 수 있습니다.",
-      "pt": "A [Oficina de Alquimia] fica disponível quando o campo de batalha começa, concedendo [uma grande quantidade de pontos] ao ser capturada."
+      "pt": "A [Oficina de Alquimia] fica disponível quando o campo de batalha começa, concedendo [uma grande quantidade de pontos] ao ser capturada.",
+      "ar": "[ورشة الكيمياء] تُفتتح مع بداية المعركة، وتمنح [كمية كبيرة من النقاط] عند الاستيلاء عليها.",
+      "it": "[Laboratorio alchemico] si apre all'inizio del campo di battaglia, conferendo [una grande quantità di punti] alla cattura.",
+      "ms": "[Bengkel Alkimia] akan terbuka apabila medan perang bermula, memberikan [jumlah Poin yang banyak] apabila dikuasai.",
+      "nl": "[Alchemiewerkplaats] opent bij aanvang van het slagveld en levert [een grote hoeveelheid punten] op bij verovering.",
+      "th": "[โรงงานเล่นแร่แปรธาตุ] จะเปิดเมื่อสนามรบเริ่มต้น โดยมอบ [คะแนนจำนวนมาก] เมื่อยึดครองได้",
+      "tr": "[Simya Atölyesi], savaş alanı başladığında açılır ve ele geçirildiğinde [büyük miktarda puan] kazandırır.",
+      "vi": "[Xưởng Giả kim] mở khi chiến trường bắt đầu, mang lại [một lượng điểm lớn] khi chiếm được.",
+      "zh": "[炼金工坊]在战场开始时开放，占领后可获得[大量积分]。",
+      "pl": "[Warsztat alchemiczny] otwiera się na początku bitwy, przyznając [dużą liczbę punktów] po zdobyciu.",
+      "zh-tw": "[煉金工坊]在戰場開始時開放，佔領後可獲得[大量積分]。"
     }
   },
   {
@@ -110,7 +190,17 @@
       "id": "Bengkel Alkimia 2",
       "ja": "2番錬金工房",
       "ko": "2호 연금술 공방",
-      "pt": "Oficina do Alquimista #2"
+      "pt": "Oficina do Alquimista #2",
+      "ar": "ورشة الكيمياء #2",
+      "it": "Laboratorio alchemico #2",
+      "ms": "Bengkel Alkimia 2",
+      "nl": "Alchemiewerkplaats 2",
+      "th": "โรงงานเล่นแร่แปรธาตุ #2",
+      "tr": "Simya Atölyesi 2",
+      "vi": "Xưởng Giả kim 2",
+      "zh": "炼金工坊#2",
+      "pl": "Warsztat alchemiczny #2",
+      "zh-tw": "煉金工坊#2"
     },
     "desc": {
       "ru": "[Алхимическая мастерская] появляется в начале битвы, принося [значительное количество очков] при захвате.",
@@ -121,7 +211,17 @@
       "id": "[Bengkel Alkimia] akan terbuka saat medan perang dimulai. Menguasainya memberi [banyak Poin].",
       "ja": "[錬金工房]は戦場が開始されてしばらくすると開放されます。占領すると[大量のポイント]を獲得できます。",
       "ko": "[연금술 공방]은 전장이 오픈되면 즉시 개방되며, 점령 시 [대량의 포인트]를 획득할 수 있습니다.",
-      "pt": "A [Oficina de Alquimia] fica disponível quando o campo de batalha começa, concedendo [uma grande quantidade de pontos] ao ser capturada."
+      "pt": "A [Oficina de Alquimia] fica disponível quando o campo de batalha começa, concedendo [uma grande quantidade de pontos] ao ser capturada.",
+      "ar": "[ورشة الكيمياء] تُفتتح مع بداية المعركة، وتمنح [كمية كبيرة من النقاط] عند الاستيلاء عليها.",
+      "it": "[Laboratorio alchemico] si apre all'inizio del campo di battaglia, conferendo [una grande quantità di punti] alla cattura.",
+      "ms": "[Bengkel Alkimia] akan terbuka apabila medan perang bermula, memberikan [jumlah Poin yang banyak] apabila dikuasai.",
+      "nl": "[Alchemiewerkplaats] opent bij aanvang van het slagveld en levert [een grote hoeveelheid punten] op bij verovering.",
+      "th": "[โรงงานเล่นแร่แปรธาตุ] จะเปิดเมื่อสนามรบเริ่มต้น โดยมอบ [คะแนนจำนวนมาก] เมื่อยึดครองได้",
+      "tr": "[Simya Atölyesi], savaş alanı başladığında açılır ve ele geçirildiğinde [büyük miktarda puan] kazandırır.",
+      "vi": "[Xưởng Giả kim] mở khi chiến trường bắt đầu, mang lại [một lượng điểm lớn] khi chiếm được.",
+      "zh": "[炼金工坊]在战场开始时开放，占领后可获得[大量积分]。",
+      "pl": "[Warsztat alchemiczny] otwiera się na początku bitwy, przyznając [dużą liczbę punktów] po zdobyciu.",
+      "zh-tw": "[煉金工坊]在戰場開始時開放，佔領後可獲得[大量積分]。"
     }
   },
   {
@@ -135,7 +235,17 @@
       "id": "Gerbang Perpindahan",
       "ja": "転移の門",
       "ko": "이주의 문",
-      "pt": "Portal de Migração"
+      "pt": "Portal de Migração",
+      "ar": "بوابة الهجرة",
+      "it": "Portale di migrazione",
+      "ms": "Portal Migrasi",
+      "nl": "Migratieportaal",
+      "th": "ประตูโยกย้าย",
+      "tr": "Göç Portalı",
+      "vi": "Cổng Di chuyển",
+      "zh": "迁移之门",
+      "pl": "Portal migracji",
+      "zh-tw": "遷移之門"
     },
     "desc": {
       "ru": "[Врата миграции] появляются в начале битвы, принося [небольшое количество очков] при захвате.",
@@ -146,7 +256,17 @@
       "id": "[Gerbang Migrasi] akan terbuka saat medan perang dimulai. Menguasainya memberi [sedikit Poin].",
       "ja": "[転移の門]は戦場が開始されてしばらくすると開放されます。占領すると[少量のポイント]を獲得できます。",
       "ko": "[이주의 문]은 전장이 오픈되면 즉시 개방되며, 점령 시 [소량의 포인트]를 획득할 수 있습니다.",
-      "pt": "O [Portal de Migração] fica disponível quando a batalha começa, concedendo [uma pequena quantidade de pontos] após a captura."
+      "pt": "O [Portal de Migração] fica disponível quando a batalha começa, concedendo [uma pequena quantidade de pontos] após a captura.",
+      "ar": "[بوابة الهجرة] تُفتتح مع بداية المعركة، وتمنح [كمية صغيرة من النقاط] عند الاستيلاء عليها.",
+      "it": "[Portale di migrazione] si apre all'inizio del campo di battaglia, conferendo [una piccola quantità di punti] alla cattura.",
+      "ms": "[Portal Migrasi] akan terbuka apabila medan perang bermula, memberikan [sedikit Poin] apabila dikuasai.",
+      "nl": "[Migratieportaal] opent bij aanvang van het slagveld en levert [een kleine hoeveelheid punten] op bij verovering.",
+      "th": "[ประตูโยกย้าย] จะเปิดเมื่อสนามรบเริ่มต้น โดยมอบ [คะแนนจำนวนเล็กน้อย] เมื่อยึดครองได้",
+      "tr": "[Göç Kapısı], savaş alanı başladığında açılır ve ele geçirildiğinde [az miktarda puan] kazandırır.",
+      "vi": "[Cổng Di chuyển] mở khi chiến trường bắt đầu, mang lại [một lượng điểm nhỏ] khi chiếm được.",
+      "zh": "[迁移之门]在战场开始时开放，占领后可获得[少量积分]。",
+      "pl": "[Portal migracji] otwiera się na początku bitwy, przyznając [małą liczbę punktów] po zdobyciu.",
+      "zh-tw": "[遷移之門]在戰場開始時開放，佔領後可獲得[少量積分]。"
     }
   },
   {
@@ -160,7 +280,17 @@
       "id": "Menara Pengamatan",
       "ja": "観測台",
       "ko": "관측소",
-      "pt": "Observatório"
+      "pt": "Observatório",
+      "ar": "المرصد",
+      "it": "Osservatorio",
+      "ms": "Balai Cerap",
+      "nl": "Observatorium",
+      "th": "หอดูดาว",
+      "tr": "Gözlemevi",
+      "vi": "Đài quan sát",
+      "zh": "观测站",
+      "pl": "Obserwatorium",
+      "zh-tw": "觀測站"
     },
     "desc": {
       "ru": "[Наблюдательный пункт] открывается в начале битвы, принося [небольшое количество очков] при захвате.",
@@ -171,7 +301,17 @@
       "id": "[Menara Pengintai] akan terbuka saat medan perang dimulai. Menguasainya memberi [sedikit Poin].",
       "ja": "[観測台]は戦場が開始されてしばらくすると開放されます。占領すると[少量のポイント]を獲得できます。",
       "ko": "[관측소]는 전장이 오픈되면 즉시 개방되며, 점령 시 [소량의 포인트]를 획득할 수 있습니다.",
-      "pt": "O [Observatório] fica disponível quando a batalha começa, concedendo [uma pequena quantidade de pontos] após a captura."
+      "pt": "O [Observatório] fica disponível quando a batalha começa, concedendo [uma pequena quantidade de pontos] após a captura.",
+      "ar": "[المرصد] يُفتتح مع بداية المعركة، ويمنح [كمية صغيرة من النقاط] عند الاستيلاء عليه.",
+      "it": "[Osservatorio] si apre all'inizio del campo di battaglia, conferendo [una piccola quantità di punti] alla cattura.",
+      "ms": "[Balai Cerap] akan terbuka apabila medan perang bermula, memberikan [sedikit Poin] apabila dikuasai.",
+      "nl": "[Observatorium] opent bij aanvang van het slagveld en levert [een kleine hoeveelheid punten] op bij verovering.",
+      "th": "[หอดูดาว] จะเปิดเมื่อสนามรบเริ่มต้น โดยมอบ [คะแนนจำนวนเล็กน้อย] เมื่อยึดครองได้",
+      "tr": "[Gözlemevi], savaş alanı başladığında açılır ve ele geçirildiğinde [az miktarda puan] kazandırır.",
+      "vi": "[Đài quan sát] mở khi chiến trường bắt đầu, mang lại [một lượng điểm nhỏ] khi chiếm được.",
+      "zh": "[观测站]在战场开始时开放，占领后可获得[少量积分]。",
+      "pl": "[Obserwatorium] otwiera się na początku bitwy, przyznając [małą liczbę punktów] po zdobyciu.",
+      "zh-tw": "[觀測站]在戰場開始時開放，佔領後可獲得[少量積分]。"
     }
   },
   {
@@ -185,7 +325,17 @@
       "id": "Tenda Penyembuhan 1",
       "ja": "1番救護テント",
       "ko": "1호 치료 텐트",
-      "pt": "Tenda de Cura #1"
+      "pt": "Tenda de Cura #1",
+      "ar": "خيمة الشفاء #1",
+      "it": "Tenda di cura #1",
+      "ms": "Khemah Rawatan 1",
+      "nl": "Genezingstent 1",
+      "th": "เต็นท์พยาบาล #1",
+      "tr": "İyileştirme Çadırı 1",
+      "vi": "Lều Hồi phục 1",
+      "zh": "治疗帐篷#1",
+      "pl": "Namiot leczniczy #1",
+      "zh-tw": "治療帳篷#1"
     },
     "desc": {
       "ru": "[Лечебная палатка] открывается с началом боя, дает [умеренное количество очков] при захвате.",
@@ -196,7 +346,17 @@
       "id": "[Tenda Penyembuhan] akan tersedia saat medan perang dibuka, memberikan [Poin sedang] saat dikuasai.",
       "ja": "[救護テント]は戦場が開始されてしばらくすると開放されます。占領すると[中量のポイント]を獲得できます。",
       "ko": "[치료 텐트]는 전장이 오픈되면 즉시 개방되며, 점령 시 [중간량의 포인트]를 획득할 수 있습니다.",
-      "pt": "A [Tenda de Cura] fica disponível quando a batalha começa, concedendo [uma quantidade moderada de pontos] após a captura."
+      "pt": "A [Tenda de Cura] fica disponível quando a batalha começa, concedendo [uma quantidade moderada de pontos] após a captura.",
+      "ar": "[خيمة الشفاء] تُفتتح مع بداية المعركة، وتمنح [كمية متوسطة من النقاط] عند الاستيلاء عليها.",
+      "it": "[Tenda di cura] si apre all'inizio del campo di battaglia, conferendo [una quantità moderata di punti] alla cattura.",
+      "ms": "[Khemah Rawatan] akan terbuka apabila medan perang bermula, memberikan [jumlah Poin yang sederhana] apabila dikuasai.",
+      "nl": "[Genezingstent] opent bij aanvang van het slagveld en levert [een gemiddelde hoeveelheid punten] op bij verovering.",
+      "th": "[เต็นท์พยาบาล] จะเปิดเมื่อสนามรบเริ่มต้น โดยมอบ [คะแนนจำนวนปานกลาง] เมื่อยึดครองได้",
+      "tr": "[İyileştirme Çadırı], savaş alanı başladığında açılır ve ele geçirildiğinde [orta miktarda puan] kazandırır.",
+      "vi": "[Lều Hồi phục] mở khi chiến trường bắt đầu, mang lại [một lượng điểm vừa phải] khi chiếm được.",
+      "zh": "[治疗帐篷]在战场开始时开放，占领后可获得[中等积分]。",
+      "pl": "[Namiot leczniczy] otwiera się na początku bitwy, przyznając [umiarkowaną liczbę punktów] po zdobyciu.",
+      "zh-tw": "[治療帳篷]在戰場開始時開放，佔領後可獲得[中等積分]。"
     }
   },
   {
@@ -210,7 +370,17 @@
       "id": "Tenda Penyembuhan 2",
       "ja": "2番救護テント",
       "ko": "2번 치료 텐트",
-      "pt": "Tenda de Cura #2"
+      "pt": "Tenda de Cura #2",
+      "ar": "خيمة الشفاء #2",
+      "it": "Tenda di cura #2",
+      "ms": "Khemah Rawatan 2",
+      "nl": "Genezingstent 2",
+      "th": "เต็นท์พยาบาล #2",
+      "tr": "İyileştirme Çadırı 2",
+      "vi": "Lều Hồi phục 2",
+      "zh": "治疗帐篷#2",
+      "pl": "Namiot leczniczy #2",
+      "zh-tw": "治療帳篷#2"
     },
     "desc": {
       "ru": "[Лечебная палатка] открывается с началом боя, дает [умеренное количество очков] при захвате.",
@@ -221,7 +391,17 @@
       "id": "[Tenda Penyembuhan] akan tersedia saat medan perang dibuka, memberikan [Poin sedang] saat dikuasai.",
       "ja": "[救護テント]は戦場が開始されてしばらくすると開放されます。占領すると[中量のポイント]を獲得できます。",
       "ko": "[치료 텐트]는 전장이 오픈되면 즉시 개방되며, 점령 시 [중간량의 포인트]를 획득할 수 있습니다.",
-      "pt": "A [Tenda de Cura] fica disponível quando a batalha começa, concedendo [uma quantidade moderada de pontos] após a captura."
+      "pt": "A [Tenda de Cura] fica disponível quando a batalha começa, concedendo [uma quantidade moderada de pontos] após a captura.",
+      "ar": "[خيمة الشفاء] تُفتتح مع بداية المعركة، وتمنح [كمية متوسطة من النقاط] عند الاستيلاء عليها.",
+      "it": "[Tenda di cura] si apre all'inizio del campo di battaglia, conferendo [una quantità moderata di punti] alla cattura.",
+      "ms": "[Khemah Rawatan] akan terbuka apabila medan perang bermula, memberikan [jumlah Poin yang sederhana] apabila dikuasai.",
+      "nl": "[Genezingstent] opent bij aanvang van het slagveld en levert [een gemiddelde hoeveelheid punten] op bij verovering.",
+      "th": "[เต็นท์พยาบาล] จะเปิดเมื่อสนามรบเริ่มต้น โดยมอบ [คะแนนจำนวนปานกลาง] เมื่อยึดครองได้",
+      "tr": "[İyileştirme Çadırı], savaş alanı başladığında açılır ve ele geçirildiğinde [orta miktarda puan] kazandırır.",
+      "vi": "[Lều Hồi phục] mở khi chiến trường bắt đầu, mang lại [một lượng điểm vừa phải] khi chiếm được.",
+      "zh": "[治疗帐篷]在战场开始时开放，占领后可获得[中等积分]。",
+      "pl": "[Namiot leczniczy] otwiera się na początku bitwy, przyznając [umiarkowaną liczbę punktów] po zdobyciu.",
+      "zh-tw": "[治療帳篷]在戰場開始時開放，佔領後可獲得[中等積分]。"
     }
   },
   {
@@ -235,7 +415,17 @@
       "id": "Tenda Penyembuhan 3",
       "ja": "3番救護テント",
       "ko": "3번 치료 텐트",
-      "pt": "Tenda de Cura #3"
+      "pt": "Tenda de Cura #3",
+      "ar": "خيمة الشفاء #3",
+      "it": "Tenda di cura #3",
+      "ms": "Khemah Rawatan 3",
+      "nl": "Genezingstent 3",
+      "th": "เต็นท์พยาบาล #3",
+      "tr": "İyileştirme Çadırı 3",
+      "vi": "Lều Hồi phục 3",
+      "zh": "治疗帐篷#3",
+      "pl": "Namiot leczniczy #3",
+      "zh-tw": "治療帳篷#3"
     },
     "desc": {
       "ru": "[Лечебная палатка] открывается с началом боя, дает [умеренное количество очков] при захвате.",
@@ -246,7 +436,17 @@
       "id": "[Tenda Penyembuhan] akan tersedia saat medan perang dibuka, memberikan [Poin sedang] saat dikuasai.",
       "ja": "[救護テント]は戦場が開始されてしばらくすると開放されます。占領すると[中量のポイント]を獲得できます。",
       "ko": "[치료 텐트]는 전장이 오픈되면 즉시 개방되며, 점령 시 [중간량의 포인트]를 획득할 수 있습니다.",
-      "pt": "A [Tenda de Cura] fica disponível quando a batalha começa, concedendo [uma quantidade moderada de pontos] após a captura."
+      "pt": "A [Tenda de Cura] fica disponível quando a batalha começa, concedendo [uma quantidade moderada de pontos] após a captura.",
+      "ar": "[خيمة الشفاء] تُفتتح مع بداية المعركة، وتمنح [كمية متوسطة من النقاط] عند الاستيلاء عليها.",
+      "it": "[Tenda di cura] si apre all'inizio del campo di battaglia, conferendo [una quantità moderata di punti] alla cattura.",
+      "ms": "[Khemah Rawatan] akan terbuka apabila medan perang bermula, memberikan [jumlah Poin yang sederhana] apabila dikuasai.",
+      "nl": "[Genezingstent] opent bij aanvang van het slagveld en levert [een gemiddelde hoeveelheid punten] op bij verovering.",
+      "th": "[เต็นท์พยาบาล] จะเปิดเมื่อสนามรบเริ่มต้น โดยมอบ [คะแนนจำนวนปานกลาง] เมื่อยึดครองได้",
+      "tr": "[İyileştirme Çadırı], savaş alanı başladığında açılır ve ele geçirildiğinde [orta miktarda puan] kazandırır.",
+      "vi": "[Lều Hồi phục] mở khi chiến trường bắt đầu, mang lại [một lượng điểm vừa phải] khi chiếm được.",
+      "zh": "[治疗帐篷]在战场开始时开放，占领后可获得[中等积分]。",
+      "pl": "[Namiot leczniczy] otwiera się na początku bitwy, przyznając [umiarkowaną liczbę punktów] po zdobyciu.",
+      "zh-tw": "[治療帳篷]在戰場開始時開放，佔領後可獲得[中等積分]。"
     }
   },
   {
@@ -260,7 +460,17 @@
       "id": "Tenda Penyembuhan 4",
       "ja": "4番救護テント",
       "ko": "4번 치료 텐트",
-      "pt": "Tenda de Cura #4"
+      "pt": "Tenda de Cura #4",
+      "ar": "خيمة الشفاء #4",
+      "it": "Tenda di cura #4",
+      "ms": "Khemah Rawatan 4",
+      "nl": "Genezingstent 4",
+      "th": "เต็นท์พยาบาล #4",
+      "tr": "İyileştirme Çadırı 4",
+      "vi": "Lều Hồi phục 4",
+      "zh": "治疗帐篷#4",
+      "pl": "Namiot leczniczy #4",
+      "zh-tw": "治療帳篷#4"
     },
     "desc": {
       "ru": "[Лечебная палатка] открывается с началом боя, дает [умеренное количество очков] при захвате.",
@@ -271,7 +481,17 @@
       "id": "[Tenda Penyembuhan] akan tersedia saat medan perang dibuka, memberikan [Poin sedang] saat dikuasai.",
       "ja": "[救護テント]は戦場が開始されてしばらくすると開放されます。占領すると[中量のポイント]を獲得できます。",
       "ko": "[치료 텐트]는 전장이 오픈되면 즉시 개방되며, 점령 시 [중간량의 포인트]를 획득할 수 있습니다.",
-      "pt": "A [Tenda de Cura] fica disponível quando a batalha começa, concedendo [uma quantidade moderada de pontos] após a captura."
+      "pt": "A [Tenda de Cura] fica disponível quando a batalha começa, concedendo [uma quantidade moderada de pontos] após a captura.",
+      "ar": "[خيمة الشفاء] تُفتتح مع بداية المعركة، وتمنح [كمية متوسطة من النقاط] عند الاستيلاء عليها.",
+      "it": "[Tenda di cura] si apre all'inizio del campo di battaglia, conferendo [una quantità moderata di punti] alla cattura.",
+      "ms": "[Khemah Rawatan] akan terbuka apabila medan perang bermula, memberikan [jumlah Poin yang sederhana] apabila dikuasai.",
+      "nl": "[Genezingstent] opent bij aanvang van het slagveld en levert [een gemiddelde hoeveelheid punten] op bij verovering.",
+      "th": "[เต็นท์พยาบาล] จะเปิดเมื่อสนามรบเริ่มต้น โดยมอบ [คะแนนจำนวนปานกลาง] เมื่อยึดครองได้",
+      "tr": "[İyileştirme Çadırı], savaş alanı başladığında açılır ve ele geçirildiğinde [orta miktarda puan] kazandırır.",
+      "vi": "[Lều Hồi phục] mở khi chiến trường bắt đầu, mang lại [một lượng điểm vừa phải] khi chiếm được.",
+      "zh": "[治疗帐篷]在战场开始时开放，占领后可获得[中等积分]。",
+      "pl": "[Namiot leczniczy] otwiera się na początku bitwy, przyznając [umiarkowaną liczbę punktów] po zdobyciu.",
+      "zh-tw": "[治療帳篷]在戰場開始時開放，佔領後可獲得[中等積分]。"
     }
   }
 ]

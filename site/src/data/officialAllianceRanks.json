@@ -10,7 +10,17 @@
       "id": "Kelas 1",
       "ja": "階級1",
       "ko": "레벨 1",
-      "pt": "R1"
+      "pt": "R1",
+      "ar": "R1",
+      "it": "R1",
+      "ms": "R1",
+      "nl": "R1",
+      "th": "R1",
+      "tr": "R1",
+      "vi": "R1",
+      "zh": "R1",
+      "pl": "R1",
+      "zh-tw": "R1"
     },
     "desc": {
       "ru": "Новобранцы альянса, готовые к новым свершениям.",
@@ -21,7 +31,17 @@
       "id": "Anggota baru yang baru bergabung dengan Guild, berharap memulai petualangan baru di sini.",
       "ja": "ギルドに入ったばかりの新人。ここで新たな旅が始まることを期待している。",
       "ko": "길드에 갓 가입한 신입 멤버. 여기서 새로운 여정을 시작하길 기대합니다.",
-      "pt": "Novatos na aliança, ansiosos para começar uma nova jornada aqui."
+      "pt": "Novatos na aliança, ansiosos para começar uma nova jornada aqui.",
+      "ar": "الوافدون الجدد إلى التحالف، يتطلعون لبدء رحلة جديدة هنا.",
+      "it": "Nuovi arrivati nell'alleanza, pronti a iniziare un nuovo viaggio qui.",
+      "ms": "Ahli baharu Perikatan yang berharap untuk memulakan pengembaraan baharu di sini.",
+      "nl": "Nieuwkomers in de alliantie, die uitkijken naar een nieuw avontuur hier.",
+      "th": "สมาชิกใหม่ของพันธมิตร ที่พร้อมเริ่มต้นการเดินทางครั้งใหม่ที่นี่",
+      "tr": "İttifaka yeni katılanlar, burada yeni bir yolculuğa başlamayı dört gözle bekliyor.",
+      "vi": "Những thành viên mới của liên minh, mong chờ bắt đầu một hành trình mới tại đây.",
+      "zh": "联盟的新成员，期待在这里开启新的旅程。",
+      "pl": "Nowicjusze w sojuszu, gotowi rozpocząć tu nową przygodę.",
+      "zh-tw": "聯盟的新成員，期待在這裡開啟新的旅程。"
     }
   },
   {
@@ -35,7 +55,17 @@
       "id": "Kelas 2",
       "ja": "階級2",
       "ko": "레벨 2",
-      "pt": "R2"
+      "pt": "R2",
+      "ar": "R2",
+      "it": "R2",
+      "ms": "R2",
+      "nl": "R2",
+      "th": "R2",
+      "tr": "R2",
+      "vi": "R2",
+      "zh": "R2",
+      "pl": "R2",
+      "zh-tw": "R2"
     },
     "desc": {
       "ru": "Освоение альянса, активное участие в событиях, демонстрация своей значимости.",
@@ -46,7 +76,17 @@
       "id": "Semakin akrab dengan Guild, aktif berpartisipasi dalam kegiatan, menunjukkan nilai diri.",
       "ja": "ギルドに馴染み、イベントへ積極的に参加し、自らの価値を示す。",
       "ko": "길드에 점차 익숙해지며, 이벤트에 적극 참여하고 개인의 가치를 드러냅니다.",
-      "pt": "Gradualmente se familiarizando com a aliança, participando ativamente de eventos, mostrando valor pessoal."
+      "pt": "Gradualmente se familiarizando com a aliança, participando ativamente de eventos, mostrando valor pessoal.",
+      "ar": "يندمجون تدريجيًا في التحالف، ويشاركون بنشاط في الفعاليات، ويُظهرون قيمتهم الشخصية.",
+      "it": "Integrazione graduale nell'alleanza, partecipazione attiva agli eventi, dimostrazione del valore personale.",
+      "ms": "Semakin mesra dengan Perikatan, aktif menyertai acara, menunjukkan nilai diri.",
+      "nl": "Geleidelijk vertrouwd raken met de alliantie, actief deelnemen aan evenementen, persoonlijke waarde tonen.",
+      "th": "ทำความคุ้นเคยกับพันธมิตร เข้าร่วมกิจกรรมอย่างแข็งขัน และแสดงคุณค่าของตนเอง",
+      "tr": "İttifaka giderek alışıyor, etkinliklere aktif katılıyor, kişisel değerini gösteriyor.",
+      "vi": "Dần quen với liên minh, tích cực tham gia sự kiện, thể hiện giá trị cá nhân.",
+      "zh": "逐渐熟悉联盟，积极参加活动，展现个人价值。",
+      "pl": "Stopniowo poznają sojusz, aktywnie uczestniczą w wydarzeniach i pokazują swoją wartość.",
+      "zh-tw": "逐漸熟悉聯盟，積極參加活動，展現個人價值。"
     }
   },
   {
@@ -60,7 +100,17 @@
       "id": "Kelas 3",
       "ja": "階級3",
       "ko": "레벨 3",
-      "pt": "R3"
+      "pt": "R3",
+      "ar": "R3",
+      "it": "R3",
+      "ms": "R3",
+      "nl": "R3",
+      "th": "R3",
+      "tr": "R3",
+      "vi": "R3",
+      "zh": "R3",
+      "pl": "R3",
+      "zh-tw": "R3"
     },
     "desc": {
       "ru": "Выдающиеся успехи делают вас опорой альянса.",
@@ -71,7 +121,17 @@
       "id": "Berprestasi gemilang, menjadi tulang punggung Guild",
       "ja": "目覚ましい活躍を見せ、次第にギルドの中核となる存在。",
       "ko": "뛰어난 활약으로 길드의 중추적인 역량으로 성장합니다.",
-      "pt": "Com desempenho excepcional, gradualmente se tornando a espinha dorsal da aliança."
+      "pt": "Com desempenho excepcional, gradualmente se tornando a espinha dorsal da aliança.",
+      "ar": "بفضل الأداء المتميز، يصبحون تدريجيًا ركيزة التحالف.",
+      "it": "Con prestazioni eccellenti, diventano gradualmente la spina dorsale dell'alleanza.",
+      "ms": "Dengan prestasi cemerlang, menjadi tulang belakang Perikatan secara beransur-ansur.",
+      "nl": "Met uitstekende prestaties groeien ze geleidelijk uit tot de ruggengraat van de alliantie.",
+      "th": "ด้วยผลงานอันโดดเด่น จึงกลายเป็นกำลังหลักของพันธมิตร",
+      "tr": "Üstün performanslarıyla ittifakın bel kemiği haline geliyorlar.",
+      "vi": "Với thành tích xuất sắc, dần trở thành trụ cột của liên minh.",
+      "zh": "凭借出色的表现，逐渐成为联盟的中坚力量。",
+      "pl": "Dzięki wybitnym osiągnięciom stopniowo stają się filarem sojuszu.",
+      "zh-tw": "憑藉出色的表現，逐漸成為聯盟的中堅力量。"
     }
   },
   {
@@ -85,7 +145,17 @@
       "id": "Kelas 4",
       "ja": "階級4",
       "ko": "레벨 4",
-      "pt": "R4"
+      "pt": "R4",
+      "ar": "R4",
+      "it": "R4",
+      "ms": "R4",
+      "nl": "R4",
+      "th": "R4",
+      "tr": "R4",
+      "vi": "R4",
+      "zh": "R4",
+      "pl": "R4",
+      "zh-tw": "R4"
     },
     "desc": {
       "ru": "Вносить весомый вклад в альянс, участвовать в принятии решений, обучать новичков и способствовать его развитию.",
@@ -96,7 +166,17 @@
       "id": "Berkontribusi besar pada Guild, terlibat dalam pengambilan keputusan, membimbing anggota baru, dan mendorong kemajuan Guild",
       "ja": "ギルドへの顕著な貢献者。意思決定に関わり、新人を育成し、ギルドの発展を推進する。",
       "ko": "길드에 큰 공헌을 하며, 의사결정에 참여하고 신입 회원을 육성하여 길드 발전을 추진합니다.",
-      "pt": "Fazer contribuições significativas à aliança, participar na tomada de decisões, nutrir novos membros e colaborar para o crescimento da aliança."
+      "pt": "Fazer contribuições significativas à aliança, participar na tomada de decisões, nutrir novos membros e colaborar para o crescimento da aliança.",
+      "ar": "يقدمون مساهمات كبيرة للتحالف، ويشاركون في صنع القرار، ويرعون الأعضاء الجدد، ويدفعون نمو التحالف.",
+      "it": "Contributi significativi all'alleanza, partecipazione alle decisioni, guida dei nuovi membri e crescita dell'alleanza.",
+      "ms": "Memberi sumbangan besar kepada Perikatan, terlibat dalam membuat keputusan, membimbing ahli baharu, dan memacu pertumbuhan Perikatan.",
+      "nl": "Leveren belangrijke bijdragen aan de alliantie, nemen deel aan besluitvorming, begeleiden nieuwe leden en stimuleren de groei van de alliantie.",
+      "th": "สร้างคุณูปการสำคัญแก่พันธมิตร มีส่วนร่วมในการตัดสินใจ ดูแลสมาชิกใหม่ และขับเคลื่อนการเติบโตของพันธมิตร",
+      "tr": "İttifaka önemli katkılar sağlıyor, kararlara katılıyor, yeni üyeleri yetiştiriyor ve ittifakın büyümesine öncülük ediyor.",
+      "vi": "Đóng góp đáng kể cho liên minh, tham gia ra quyết định, dìu dắt thành viên mới và thúc đẩy sự phát triển của liên minh.",
+      "zh": "为联盟做出重大贡献，参与决策，培养新成员，推动联盟发展。",
+      "pl": "Wnoszą znaczący wkład w sojusz, uczestniczą w podejmowaniu decyzji, wspierają nowych członków i napędzają rozwój sojuszu.",
+      "zh-tw": "為聯盟做出重大貢獻，參與決策，培養新成員，推動聯盟發展。"
     }
   },
   {
@@ -110,7 +190,17 @@
       "id": "Kelas 5",
       "ja": "階級5",
       "ko": "레벨 5",
-      "pt": "R5"
+      "pt": "R5",
+      "ar": "R5",
+      "it": "R5",
+      "ms": "R5",
+      "nl": "R5",
+      "th": "R5",
+      "tr": "R5",
+      "vi": "R5",
+      "zh": "R5",
+      "pl": "R5",
+      "zh-tw": "R5"
     },
     "desc": {
       "ru": "Верховный глава альянса, определяющий стратегию и ведущий его к величию.",
@@ -121,7 +211,17 @@
       "id": "Sebagai pemimpin tertinggi Guild, menyusun strategi dan memimpin Guild menuju masa depan yang gemilang",
       "ja": "ギルドの最高指導者。戦略を立て、ギルドを輝かしい未来へ導く。",
       "ko": "길드의 최고 지도자로서 전략을 수립하고 길드를 영광스러운 미래로 이끕니다.",
-      "pt": "O líder máximo da aliança, formulando estratégias e conduzindo a aliança em direção a um futuro glorioso."
+      "pt": "O líder máximo da aliança, formulando estratégias e conduzindo a aliança em direção a um futuro glorioso.",
+      "ar": "القائد الأعلى للتحالف، يضع الاستراتيجيات ويقود التحالف نحو مستقبل مجيد.",
+      "it": "Il capo supremo dell'alleanza, elabora strategie e guida l'alleanza verso un futuro glorioso.",
+      "ms": "Pemimpin tertinggi Perikatan, merangka strategi dan memimpin Perikatan ke arah masa depan yang gemilang.",
+      "nl": "De hoogste leider van de alliantie, stelt strategieën op en leidt de alliantie naar een glorieuze toekomst.",
+      "th": "ผู้นำสูงสุดของพันธมิตร วางกลยุทธ์และนำพันธมิตรสู่อนาคตอันรุ่งโรจน์",
+      "tr": "İttifakın en yüksek lideri, stratejiler belirliyor ve ittifakı görkemli bir geleceğe taşıyor.",
+      "vi": "Lãnh đạo tối cao của liên minh, hoạch định chiến lược và dẫn dắt liên minh tới tương lai huy hoàng.",
+      "zh": "联盟的最高领袖，制定战略并带领联盟走向辉煌未来。",
+      "pl": "Najwyższy przywódca sojuszu, opracowuje strategie i prowadzi sojusz ku chwalebnej przyszłości.",
+      "zh-tw": "聯盟的最高領袖，制定戰略並帶領聯盟走向輝煌未來。"
     }
   },
   {
@@ -135,7 +235,17 @@
       "id": "Dewa Perang",
       "ja": "戦神",
       "ko": "전쟁의 신",
-      "pt": "Líder Militar"
+      "pt": "Líder Militar",
+      "ar": "إله الحرب",
+      "it": "Dio della Guerra",
+      "ms": "Dewa Perang",
+      "nl": "Oorlogsgod",
+      "th": "เทพสงคราม",
+      "tr": "Savaş Tanrısı",
+      "vi": "Thần Chiến Tranh",
+      "zh": "战神",
+      "pl": "Bóg Wojny",
+      "zh-tw": "戰神"
     },
     "desc": {
       "ru": "Как командир альянса, воевода возглавляет отряды в боях, повышая общую боевую мощь альянса.",
@@ -146,7 +256,17 @@
       "id": "Sebagai Panglima perang Guild, tugas utama Dewa Perang adalah memimpin tim dalam berbagai pertempuran, sekaligus meningkatkan kekuatan tempur Guild secara keseluruhan",
       "ja": "ギルドの戦闘統帥「戦神」。あらゆる戦闘イベントでチームを率い、ギルド全体の戦闘力を高めることが核となる職責。",
       "ko": "길드의 전투 총사령관이자 전쟁의 신으로서 핵심 임무는 팀을 이끌어 각종 전투 이벤트에 참여하고, 동시에 길드 전체의 전투력 향상을 주도하는 것입니다.",
-      "pt": "Como comandante da aliança, a responsabilidade central do Líder Militar é liderar a equipe em várias atividades de combate, ao mesmo tempo em que aumenta a força de combate geral da aliança."
+      "pt": "Como comandante da aliança, a responsabilidade central do Líder Militar é liderar a equipe em várias atividades de combate, ao mesmo tempo em que aumenta a força de combate geral da aliança.",
+      "ar": "بصفته قائد التحالف، تتمثل المسؤولية الأساسية لإله الحرب في قيادة الفريق في مختلف الأنشطة القتالية، مع تعزيز القوة القتالية الشاملة للتحالف.",
+      "it": "Come comandante dell'alleanza, la responsabilità principale del Dio della Guerra è guidare la squadra nelle varie attività di combattimento, aumentando al contempo la forza complessiva dell'alleanza.",
+      "ms": "Sebagai komander Perikatan, tanggungjawab utama Dewa Perang adalah memimpin pasukan dalam pelbagai aktiviti pertempuran, sambil meningkatkan kekuatan tempur keseluruhan Perikatan.",
+      "nl": "Als bevelhebber van de alliantie is het de kerntaak van de Oorlogsgod om het team in verschillende gevechtsactiviteiten te leiden en tegelijk de algehele gevechtskracht van de alliantie te vergroten.",
+      "th": "ในฐานะผู้บัญชาการของพันธมิตร หน้าที่หลักของเทพสงครามคือการนำทีมในกิจกรรมต่อสู้ต่างๆ พร้อมกับเสริมความแข็งแกร่งโดยรวมของพันธมิตร",
+      "tr": "İttifakın komutanı olarak Savaş Tanrısı'nın temel sorumluluğu, takımı çeşitli savaş etkinliklerinde yönetmek ve ittifakın genel savaş gücünü artırmaktır.",
+      "vi": "Với tư cách là chỉ huy của liên minh, trách nhiệm cốt lõi của Thần Chiến Tranh là dẫn dắt đội trong các hoạt động chiến đấu khác nhau, đồng thời nâng cao sức mạnh chiến đấu tổng thể của liên minh.",
+      "zh": "作为联盟的指挥官，战神的核心职责是率领队伍参加各种战斗活动，同时提升联盟的整体战斗力。",
+      "pl": "Jako dowódca sojuszu, głównym obowiązkiem Boga Wojny jest prowadzenie drużyny w różnych działaniach bojowych przy jednoczesnym wzmacnianiu ogólnej siły bojowej sojuszu.",
+      "zh-tw": "作為聯盟的指揮官，戰神的核心職責是率領隊伍參加各種戰鬥活動，同時提升聯盟的整體戰鬥力。"
     }
   },
   {
@@ -160,7 +280,17 @@
       "id": "Perekrut",
       "ja": "募集官",
       "ko": "모집관",
-      "pt": "Recrutador"
+      "pt": "Recrutador",
+      "ar": "المُجنِّد",
+      "it": "Reclutatore",
+      "ms": "Perekrut",
+      "nl": "Rekruteerder",
+      "th": "ผู้รับสมัคร",
+      "tr": "Üye Alımcısı",
+      "vi": "Tuyển Dụng Viên",
+      "zh": "招募官",
+      "pl": "Rekruter",
+      "zh-tw": "招募官"
     },
     "desc": {
       "ru": "Вербовщик привлекает новых участников в альянс, оценивает их способности и совместимость, обеспечивая непрерывный рост и расширение.",
@@ -171,7 +301,17 @@
       "id": "Perekrut bertugas menarik anggota baru ke Guild, menilai kemampuan dan kesesuaian calon anggota, serta memastikan perkembangan dan pertumbuhan Guild yang berkelanjutan",
       "ja": "募集官。新メンバーの勧誘、潜在メンバーの能力評価と適性判断を担い、ギルドの持続的発展と強化を確保する。",
       "ko": "모집관은 새로운 멤버를 길드에 유치하고, 잠재적 멤버의 능력과 적합성을 평가하며, 길드의 지속적인 성장과 발전을 보장합니다.",
-      "pt": "O Recrutador é responsável por atrair novos membros para a aliança, avaliar as habilidades e compatibilidade dos membros em potencial e garantir o crescimento e expansão contínuos da aliança."
+      "pt": "O Recrutador é responsável por atrair novos membros para a aliança, avaliar as habilidades e compatibilidade dos membros em potencial e garantir o crescimento e expansão contínuos da aliança.",
+      "ar": "المُجنِّد مسؤول عن جذب أعضاء جدد إلى التحالف، وتقييم قدرات الأعضاء المحتملين ومدى انسجامهم، وضمان نمو التحالف وتوسعه المستمر.",
+      "it": "Il Reclutatore è responsabile di attrarre nuovi membri nell'alleanza, valutare capacità e compatibilità dei potenziali membri e garantire la crescita continua dell'alleanza.",
+      "ms": "Perekrut bertanggungjawab menarik ahli baharu ke dalam Perikatan, menilai kebolehan dan kesesuaian bakal ahli, serta memastikan pertumbuhan dan perkembangan Perikatan yang berterusan.",
+      "nl": "De Rekruteerder is verantwoordelijk voor het aantrekken van nieuwe leden voor de alliantie, het beoordelen van de vaardigheden en geschiktheid van potentiële leden en het waarborgen van de voortdurende groei en uitbreiding van de alliantie.",
+      "th": "ผู้รับสมัครมีหน้าที่ดึงดูดสมาชิกใหม่เข้าพันธมิตร ประเมินความสามารถและความเหมาะสมของผู้สมัคร และดูแลให้พันธมิตรเติบโตอย่างต่อเนื่อง",
+      "tr": "Üye Alımcısı, ittifaka yeni üye kazandırmak, aday üyelerin yeteneklerini ve uyumunu değerlendirmek ve ittifakın sürekli büyümesini sağlamakla sorumludur.",
+      "vi": "Tuyển Dụng Viên chịu trách nhiệm thu hút thành viên mới cho liên minh, đánh giá năng lực và độ phù hợp của các ứng viên, đồng thời đảm bảo liên minh phát triển và mở rộng liên tục.",
+      "zh": "招募官负责为联盟吸引新成员，评估潜在成员的能力与契合度，并确保联盟持续成长壮大。",
+      "pl": "Rekruter odpowiada za pozyskiwanie nowych członków sojuszu, ocenę umiejętności i dopasowania kandydatów oraz zapewnienie ciągłego wzrostu i rozwoju sojuszu.",
+      "zh-tw": "招募官負責為聯盟吸引新成員，評估潛在成員的能力與契合度，並確保聯盟持續成長壯大。"
     }
   },
   {
@@ -185,7 +325,17 @@
       "id": "Dewi",
       "ja": "女神",
       "ko": "여신",
-      "pt": "Musa"
+      "pt": "Musa",
+      "ar": "الإلهة",
+      "it": "Dea",
+      "ms": "Dewi",
+      "nl": "Godin",
+      "th": "เทพธิดา",
+      "tr": "Tanrıça",
+      "vi": "Nữ Thần",
+      "zh": "女神",
+      "pl": "Bogini",
+      "zh-tw": "女神"
     },
     "desc": {
       "ru": "Богиня — сердце альянса, поддерживающее его атмосферу и культуру, организующее события и укрепляющее взаимодействие и сплоченность.",
@@ -196,7 +346,17 @@
       "id": "Dewi adalah tokoh kunci Guild, bertanggung jawab menjaga suasana dan budaya Guild, mengorganisir kegiatan, serta meningkatkan interaksi dan kekompakan antar anggota Guild.",
       "ja": "ギルドの魂「女神」。ギルドの雰囲気と文化を維持し、イベントを企画し、メンバー間の交流と結束力を高める役割を果たしている。",
       "ko": "여신은 길드의 핵심 인물로, 길드의 분위기와 문화를 유지하고, 이벤트를 조직하며, 길드원 간의 상호작용과 결속력을 강화하는 역할을 담당합니다.",
-      "pt": "A Musa é o coração da aliança, mantendo sua atmosfera e cultura, organizando eventos e aprimorando a interação e coesão dos membros."
+      "pt": "A Musa é o coração da aliança, mantendo sua atmosfera e cultura, organizando eventos e aprimorando a interação e coesão dos membros.",
+      "ar": "الإلهة هي قلب التحالف، تحافظ على أجوائه وثقافته، وتنظم الفعاليات، وتعزز التفاعل والتلاحم بين الأعضاء.",
+      "it": "La Dea è il cuore dell'alleanza, ne mantiene l'atmosfera e la cultura, organizza eventi e rafforza interazione e coesione tra i membri.",
+      "ms": "Dewi ialah nadi Perikatan, mengekalkan suasana dan budayanya, menganjurkan acara, serta meningkatkan interaksi dan perpaduan ahli.",
+      "nl": "De Godin is het hart van de alliantie, bewaakt de sfeer en cultuur, organiseert evenementen en versterkt de interactie en samenhang tussen leden.",
+      "th": "เทพธิดาคือหัวใจของพันธมิตร คอยรักษาบรรยากาศและวัฒนธรรม จัดกิจกรรม และเสริมสร้างปฏิสัมพันธ์และความสามัคคีของสมาชิก",
+      "tr": "Tanrıça ittifakın kalbidir; atmosferini ve kültürünü korur, etkinlikler düzenler, üyeler arası etkileşimi ve uyumu güçlendirir.",
+      "vi": "Nữ Thần là trái tim của liên minh, duy trì bầu không khí và văn hóa, tổ chức sự kiện, tăng cường tương tác và gắn kết giữa các thành viên.",
+      "zh": "女神是联盟的核心，维护联盟的氛围与文化，组织活动，增强成员之间的互动与凝聚力。",
+      "pl": "Bogini jest sercem sojuszu — dba o jego atmosferę i kulturę, organizuje wydarzenia oraz wzmacnia interakcję i spójność członków.",
+      "zh-tw": "女神是聯盟的核心，維護聯盟的氛圍與文化，組織活動，增強成員之間的互動與凝聚力。"
     }
   },
   {
@@ -210,7 +370,17 @@
       "id": "Diplomat",
       "ja": "外交官",
       "ko": "외교관",
-      "pt": "Diplomata"
+      "pt": "Diplomata",
+      "ar": "الدبلوماسي",
+      "it": "Diplomatico",
+      "ms": "Diplomat",
+      "nl": "Diplomaat",
+      "th": "นักการทูต",
+      "tr": "Diplomat",
+      "vi": "Nhà Ngoại Giao",
+      "zh": "外交官",
+      "pl": "Dyplomata",
+      "zh-tw": "外交官"
     },
     "desc": {
       "ru": "Управляющий руководит повседневными делами альянса и распределением ресурсов, обеспечивая бесперебойную работу, поддерживая другие роли и поддерживая общий порядок.",
@@ -221,7 +391,17 @@
       "id": "Pengurus bertugas mengelola urusan harian dan alokasi Sumber Daya Guild, memastikan kelancaran operasional, mendukung pekerjaan posisi lain, serta menjaga keteraturan Guild secara keseluruhan.",
       "ja": "執事。ギルドの日常業務と資源配分を管理し、運営を円滑にし、他の役職をサポートして秩序を維持する。",
       "ko": "집사는 길드의 일상적인 업무와 자원 분배를 관리하고, 길드 운영이 원활하게 이루어지도록 하며, 다른 직책들의 업무를 지원하고, 길드의 전반적인 질서를 유지합니다.",
-      "pt": "O Administrador gere os assuntos diários da aliança e a alocação de recursos, garantindo a fluidez das operações, apoiando as outras funções e mantendo a ordem geral."
+      "pt": "O Administrador gere os assuntos diários da aliança e a alocação de recursos, garantindo a fluidez das operações, apoiando as outras funções e mantendo a ordem geral.",
+      "ar": "يشرف المشرف على الشؤون اليومية للتحالف وتوزيع الموارد، ويضمن سير العمليات بسلاسة، ويدعم الأدوار الأخرى، ويحافظ على النظام العام.",
+      "it": "Il Maggiordomo gestisce gli affari quotidiani dell'alleanza e l'assegnazione delle risorse, garantendo operazioni fluide, supportando gli altri ruoli e mantenendo l'ordine generale.",
+      "ms": "Pentadbir menguruskan hal ehwal harian Perikatan dan pengagihan sumber, memastikan operasi berjalan lancar, menyokong peranan lain, dan mengekalkan ketenteraman keseluruhan.",
+      "nl": "De Beheerder regelt de dagelijkse zaken en de verdeling van grondstoffen van de alliantie, zorgt voor een soepele werking, ondersteunt andere rollen en handhaaft de algemene orde.",
+      "th": "ผู้ดูแลรับผิดชอบงานประจำวันของพันธมิตรและการจัดสรรทรัพยากร ดูแลให้การดำเนินงานราบรื่น สนับสนุนบทบาทอื่น และรักษาความสงบเรียบร้อยโดยรวม",
+      "tr": "Kahya, ittifakın günlük işlerini ve kaynak dağılımını yönetir, sorunsuz işleyişi sağlar, diğer rolleri destekler ve genel düzeni korur.",
+      "vi": "Quản gia quản lý công việc hàng ngày của liên minh và phân bổ tài nguyên, đảm bảo vận hành trơn tru, hỗ trợ các vai trò khác và duy trì trật tự chung.",
+      "zh": "大管家负责联盟的日常事务与资源分配，确保运转顺畅，支持其他职位，维护整体秩序。",
+      "pl": "Zarządca zarządza codziennymi sprawami sojuszu i podziałem zasobów, dbając o sprawne działanie, wspierając inne role i utrzymując ogólny porządek.",
+      "zh-tw": "大管家負責聯盟的日常事務與資源分配，確保運轉順暢，支持其他職位，維護整體秩序。"
     }
   }
 ]
