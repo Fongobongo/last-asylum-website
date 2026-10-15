@@ -16,6 +16,7 @@
       "tr": "Durant",
       "vi": "Durant",
       "zh": "杜兰特",
+      "zh-tw": "杜蘭特",
       "pl": "Durant"
     },
     "weapons": {},
@@ -28,7 +29,8 @@
       "id": "Hero akan bergabung setelah berhasil diobati di klinik.",
       "ja": "英雄。診療所で治療を行い、成功すると獲得できる。",
       "ko": "영웅이 진료소에서 성공적으로 치료를 받으면 해당 영웅 캐릭터를 획득하게 됩니다.",
-      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica."
+      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica.",
+      "zh-tw": "英雄。在診所成功治療後即可獲得。"
     },
     "trait": {
       "ru": "Спокойн.",
@@ -39,7 +41,8 @@
       "id": "Diam & jujur",
       "ja": "穏やか",
       "ko": "차분하고 성실함",
-      "pt": "Firmeza"
+      "pt": "Firmeza",
+      "zh-tw": "沉穩"
     }
   },
   "40002": {
@@ -59,6 +62,7 @@
       "tr": "William",
       "vi": "William",
       "zh": "威廉姆斯",
+      "zh-tw": "威廉",
       "pl": "William"
     },
     "weapons": {},
@@ -71,7 +75,8 @@
       "id": "Hero akan bergabung setelah berhasil diobati di klinik.",
       "ja": "英雄。診療所で治療を行い、成功すると獲得できる。",
       "ko": "영웅이 진료소에서 성공적으로 치료를 받으면 해당 영웅 캐릭터를 획득하게 됩니다.",
-      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica."
+      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica.",
+      "zh-tw": "英雄。在診所成功治療後即可獲得。"
     },
     "trait": {
       "ru": "Прилежн.",
@@ -82,7 +87,8 @@
       "id": "Rajin & baik",
       "ja": "真面目",
       "ko": "부지런하고 착함",
-      "pt": "Diligência"
+      "pt": "Diligência",
+      "zh-tw": "勤勉"
     }
   },
   "30011": {
@@ -102,6 +108,7 @@
       "tr": "Robin",
       "vi": "Robin",
       "zh": "罗宾",
+      "zh-tw": "羅賓",
       "pl": "Robin"
     },
     "weapons": {},
@@ -114,7 +121,8 @@
       "id": "\\",
       "ja": "「英雄」狩りに熱中する冒険者。診療所での治療に成功すると獲得できる。",
       "ko": "「영웅」은 사냥을 열정적으로 즐기는 모험가입니다. 진료소에서 성공적으로 치료를 받으면 그를 획득할 수 있습니다.",
-      "pt": "[Herói] Um caçador e aventureiro ávido. Adquira-o após o tratá-lo na clínica."
+      "pt": "[Herói] Um caçador e aventureiro ávido. Adquira-o após o tratá-lo na clínica.",
+      "zh-tw": "[英雄] 一位熱心的獵人和冒險家。在診所成功治療後即可獲得。"
     },
     "trait": {
       "ru": "Самодовольн.",
@@ -125,7 +133,8 @@
       "id": "Puas diri",
       "ja": "自信過剰",
       "ko": "자만",
-      "pt": "Complacência"
+      "pt": "Complacência",
+      "zh-tw": "自滿"
     }
   },
   "30010": {
@@ -145,6 +154,7 @@
       "tr": "Kafa",
       "vi": "Caffa",
       "zh": "卡法",
+      "zh-tw": "卡法",
       "pl": "Kafa"
     },
     "weapons": {},
@@ -157,7 +167,8 @@
       "id": "Hero akan bergabung setelah berhasil diobati di klinik.",
       "ja": "英雄。診療所で治療を行い、成功すると獲得できる。",
       "ko": "영웅이 진료소에서 성공적으로 치료를 받으면 해당 영웅 캐릭터를 획득하게 됩니다.",
-      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica."
+      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica.",
+      "zh-tw": "英雄。在診所成功治療後即可獲得。"
     },
     "trait": {
       "ru": "Спокойн.",
@@ -168,7 +179,8 @@
       "id": "Diam & jujur",
       "ja": "穏やか",
       "ko": "차분하고 성실함",
-      "pt": "Firmeza"
+      "pt": "Firmeza",
+      "zh-tw": "沉穩"
     }
   },
   "10006": {
@@ -188,6 +200,7 @@
       "tr": "Celia",
       "vi": "Celia",
       "zh": "希莉亚",
+      "zh-tw": "塞莉婭",
       "pl": "Celia"
     },
     "weapons": {},
@@ -200,7 +213,8 @@
       "id": "Hero akan bergabung setelah berhasil diobati di klinik.",
       "ja": "英雄。診療所で治療を行い、成功すると獲得できる。",
       "ko": "영웅이 진료소에서 성공적으로 치료를 받으면 해당 영웅 캐릭터를 획득하게 됩니다.",
-      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica."
+      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica.",
+      "zh-tw": "英雄。在診所成功治療後即可獲得。"
     },
     "trait": {
       "ru": "Прилежн.",
@@ -211,7 +225,8 @@
       "id": "Rajin & baik",
       "ja": "真面目",
       "ko": "부지런하고 착함",
-      "pt": "Diligência"
+      "pt": "Diligência",
+      "zh-tw": "勤勉"
     }
   },
   "30003": {
@@ -231,6 +246,7 @@
       "tr": "Claire",
       "vi": "Claire",
       "zh": "克蕾雅",
+      "zh-tw": "克萊爾",
       "pl": "Claire"
     },
     "weapons": {},
@@ -243,7 +259,8 @@
       "id": "Hero akan bergabung setelah berhasil diobati di klinik.",
       "ja": "英雄。診療所で治療を行い、成功すると獲得できる。",
       "ko": "영웅이 진료소에서 성공적으로 치료를 받으면 해당 영웅 캐릭터를 획득하게 됩니다.",
-      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica."
+      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica.",
+      "zh-tw": "英雄。在診所成功治療後即可獲得。"
     },
     "trait": {
       "ru": "Отличн.",
@@ -254,7 +271,8 @@
       "id": "Penolong",
       "ja": "世話焼き",
       "ko": "남을 잘 돕는 편",
-      "pt": "Presteza"
+      "pt": "Presteza",
+      "zh-tw": "樂於助人"
     }
   },
   "30001": {
@@ -274,6 +292,7 @@
       "tr": "Bella",
       "vi": "Bella",
       "zh": "贝拉",
+      "zh-tw": "貝拉",
       "pl": "Bella"
     },
     "weapons": {},
@@ -286,7 +305,8 @@
       "id": "\\",
       "ja": "「英雄」ツンデレな修道女。小柄な体で巨大な斧を振り回す。診療所での治療に成功すると獲得できる。",
       "ko": "「영웅」 시크한 수녀. 작은 체구로 거대한 도끼를 휘두를 수 있습니다. 진료소에서 성공적으로 치료를 받으면 그녀를 얻을 수 있습니다.",
-      "pt": "[Herói] Uma freira tsundere. Baixinha, mas capaz de empunhar um machado enorme. Adquira-a após o tratá-la na clínica."
+      "pt": "[Herói] Uma freira tsundere. Baixinha, mas capaz de empunhar um machado enorme. Adquira-a após o tratá-la na clínica.",
+      "zh-tw": "[英雄] 一個傲嬌修女，嬌小卻能揮舞一把巨大的戰斧。在診所成功治療後即可獲得她。"
     },
     "trait": {
       "ru": "Отстраненн.",
@@ -297,7 +317,8 @@
       "id": "Dingin",
       "ja": "冷淡",
       "ko": "냉담",
-      "pt": "Indiferença"
+      "pt": "Indiferença",
+      "zh-tw": "冷漠"
     }
   },
   "10005": {
@@ -317,6 +338,7 @@
       "tr": "Kesso",
       "vi": "Kesso",
       "zh": "凯索",
+      "zh-tw": "凱索",
       "pl": "Kesso"
     },
     "weapons": {},
@@ -329,7 +351,8 @@
       "id": "Hero akan bergabung setelah berhasil diobati di klinik.",
       "ja": "英雄。診療所で治療を行い、成功すると獲得できる。",
       "ko": "영웅이 진료소에서 성공적으로 치료를 받으면 해당 영웅 캐릭터를 획득하게 됩니다.",
-      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica."
+      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica.",
+      "zh-tw": "英雄。在診所成功治療後即可獲得。"
     },
     "trait": {
       "ru": "Прилежн.",
@@ -340,7 +363,8 @@
       "id": "Rajin & baik",
       "ja": "真面目",
       "ko": "부지런하고 착함",
-      "pt": "Diligência"
+      "pt": "Diligência",
+      "zh-tw": "勤勉"
     }
   },
   "10008": {
@@ -360,6 +384,7 @@
       "tr": "Lucius",
       "vi": "Lucius",
       "zh": "卢修斯",
+      "zh-tw": "路修斯",
       "pl": "Lucius"
     },
     "weapons": {},
@@ -372,7 +397,8 @@
       "id": "Hero akan bergabung setelah berhasil diobati di klinik.",
       "ja": "英雄。診療所で治療を行い、成功すると獲得できる。",
       "ko": "영웅이 진료소에서 성공적으로 치료를 받으면 해당 영웅 캐릭터를 획득하게 됩니다.",
-      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica."
+      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica.",
+      "zh-tw": "英雄。在診所成功治療後即可獲得。"
     },
     "trait": {
       "ru": "Отличн.",
@@ -383,7 +409,8 @@
       "id": "Penolong",
       "ja": "世話焼き",
       "ko": "남을 잘 돕는 편",
-      "pt": "Presteza"
+      "pt": "Presteza",
+      "zh-tw": "樂於助人"
     }
   },
   "20009": {
@@ -403,6 +430,7 @@
       "tr": "Sivir",
       "vi": "Sivir",
       "zh": "希维尔",
+      "zh-tw": "希維爾",
       "pl": "Sivir"
     },
     "weapons": {},
@@ -415,7 +443,8 @@
       "id": "Hero akan bergabung setelah berhasil diobati di klinik.",
       "ja": "英雄。診療所で治療を行い、成功すると獲得できる。",
       "ko": "영웅이 진료소에서 성공적으로 치료를 받으면 해당 영웅 캐릭터를 획득하게 됩니다.",
-      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica."
+      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica.",
+      "zh-tw": "英雄。在診所成功治療後即可獲得。"
     },
     "trait": {
       "ru": "Спокойн.",
@@ -426,7 +455,8 @@
       "id": "Diam & jujur",
       "ja": "穏やか",
       "ko": "차분하고 성실함",
-      "pt": "Firmeza"
+      "pt": "Firmeza",
+      "zh-tw": "沉穩"
     }
   },
   "20006": {
@@ -446,6 +476,7 @@
       "tr": "Griffith",
       "vi": "Griffith",
       "zh": "格里菲斯",
+      "zh-tw": "格里菲斯",
       "pl": "Griffith"
     },
     "weapons": {},
@@ -458,7 +489,8 @@
       "id": "Hero akan bergabung setelah berhasil diobati di klinik.",
       "ja": "英雄。診療所で治療を行い、成功すると獲得できる。",
       "ko": "영웅이 진료소에서 성공적으로 치료를 받으면 해당 영웅 캐릭터를 획득하게 됩니다.",
-      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica."
+      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica.",
+      "zh-tw": "英雄。在診所成功治療後即可獲得。"
     },
     "trait": {
       "ru": "Прилежн.",
@@ -469,7 +501,8 @@
       "id": "Rajin & baik",
       "ja": "真面目",
       "ko": "부지런하고 착함",
-      "pt": "Diligência"
+      "pt": "Diligência",
+      "zh-tw": "勤勉"
     }
   },
   "20005": {
@@ -489,6 +522,7 @@
       "tr": "Stellar",
       "vi": "Stellar",
       "zh": "星缀",
+      "zh-tw": "星綴",
       "pl": "Stellar"
     },
     "weapons": {},
@@ -501,7 +535,8 @@
       "id": "Hero akan bergabung setelah berhasil diobati di klinik.",
       "ja": "英雄。診療所で治療を行い、成功すると獲得できる。",
       "ko": "영웅이 진료소에서 성공적으로 치료를 받으면 해당 영웅 캐릭터를 획득하게 됩니다.",
-      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica."
+      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica.",
+      "zh-tw": "英雄。在診所成功治療後即可獲得。"
     },
     "trait": {
       "ru": "Отличн.",
@@ -512,7 +547,8 @@
       "id": "Penolong",
       "ja": "世話焼き",
       "ko": "남을 잘 돕는 편",
-      "pt": "Presteza"
+      "pt": "Presteza",
+      "zh-tw": "樂於助人"
     }
   },
   "40010": {
@@ -532,6 +568,7 @@
       "tr": "Ash",
       "vi": "Ash",
       "zh": "艾希",
+      "zh-tw": "艾什",
       "pl": "Ash"
     },
     "weapons": {},
@@ -544,7 +581,8 @@
       "id": "\\",
       "ja": "「英雄」優れた射撃技術を持つ英雄。診療所での治療に成功すると獲得できる。",
       "ko": "「영웅」 그녀는 뛰어난 사격 기술을 보유하고 있습니다. 진료소에서 성공적으로 치료를 받으면 그녀를 얻을 수 있습니다.",
-      "pt": "[Herói] Possui habilidades excepcionais de tiro. Adquira-a após o tratá-la na clínica."
+      "pt": "[Herói] Possui habilidades excepcionais de tiro. Adquira-a após o tratá-la na clínica.",
+      "zh-tw": "[英雄] 擁有出色的射擊技巧。在診所成功接受治療後即可獲得。"
     },
     "trait": {
       "ru": "Храбр.",
@@ -555,7 +593,8 @@
       "id": "Berani & baik",
       "ja": "義侠心",
       "ko": "용감하고 착함",
-      "pt": "Coragem"
+      "pt": "Coragem",
+      "zh-tw": "英勇"
     }
   },
   "30007": {
@@ -575,6 +614,7 @@
       "tr": "Hastar",
       "vi": "Hastar",
       "zh": "哈斯塔",
+      "zh-tw": "哈斯塔",
       "pl": "Hastar"
     },
     "weapons": {},
@@ -587,7 +627,8 @@
       "id": "Hero akan bergabung setelah berhasil diobati di klinik.",
       "ja": "英雄。診療所で治療を行い、成功すると獲得できる。",
       "ko": "영웅이 진료소에서 성공적으로 치료를 받으면 해당 영웅 캐릭터를 획득하게 됩니다.",
-      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica."
+      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica.",
+      "zh-tw": "英雄。在診所成功治療後即可獲得。"
     },
     "trait": {
       "ru": "Прилежн.",
@@ -598,7 +639,8 @@
       "id": "Rajin & baik",
       "ja": "真面目",
       "ko": "부지런하고 착함",
-      "pt": "Diligência"
+      "pt": "Diligência",
+      "zh-tw": "勤勉"
     }
   },
   "30005": {
@@ -618,6 +660,7 @@
       "tr": "Bestar",
       "vi": "Bestar",
       "zh": "贝斯特",
+      "zh-tw": "貝絲特",
       "pl": "Bestar"
     },
     "weapons": {},
@@ -630,7 +673,8 @@
       "id": "Hero akan bergabung setelah berhasil diobati di klinik.",
       "ja": "英雄。診療所で治療を行い、成功すると獲得できる。",
       "ko": "영웅이 진료소에서 성공적으로 치료를 받으면 해당 영웅 캐릭터를 획득하게 됩니다.",
-      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica."
+      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica.",
+      "zh-tw": "英雄。在診所成功治療後即可獲得。"
     },
     "trait": {
       "ru": "Отличн.",
@@ -641,7 +685,8 @@
       "id": "Penolong",
       "ja": "世話焼き",
       "ko": "남을 잘 돕는 편",
-      "pt": "Presteza"
+      "pt": "Presteza",
+      "zh-tw": "樂於助人"
     }
   },
   "30004": {
@@ -661,6 +706,7 @@
       "tr": "Grenwald",
       "vi": "Grenwald",
       "zh": "格林德沃",
+      "zh-tw": "格倫沃爾德",
       "pl": "Grenwald"
     },
     "weapons": {},
@@ -673,7 +719,8 @@
       "id": "\\",
       "ja": "「英雄」魔法研究に強い執着を持つ英雄。診療所での治療に成功すると獲得できる。",
       "ko": "「영웅」 마법 연구에 상당한 집착을 가지고 있습니다. 진료소에서 성공적으로 치료를 받으면 그를 얻을 수 있습니다.",
-      "pt": "[Herói] Tem uma certa obsessão com pesquisas mágicas. Adquira-o após o tratá-lo na clínica."
+      "pt": "[Herói] Tem uma certa obsessão com pesquisas mágicas. Adquira-o após o tratá-lo na clínica.",
+      "zh-tw": "[英雄] 對魔法研究有着某種執念。在診所成功治療後獲得。"
     },
     "trait": {
       "ru": "Сообразит.",
@@ -684,7 +731,8 @@
       "id": "Cerdas",
       "ja": "聡明",
       "ko": "똑똑함",
-      "pt": "Inteligência"
+      "pt": "Inteligência",
+      "zh-tw": "機智"
     }
   },
   "10007": {
@@ -704,6 +752,7 @@
       "tr": "Arthur",
       "vi": "Arthur",
       "zh": "亚瑟",
+      "zh-tw": "亞瑟",
       "pl": "Arthur"
     },
     "weapons": {
@@ -715,7 +764,8 @@
       "id": "Perisai Batu Kokoh",
       "ja": "磐石の盾",
       "ko": "반석 방패",
-      "pt": "Escudo de Pedra"
+      "pt": "Escudo de Pedra",
+      "zh-tw": "磐石之盾"
     },
     "story": {
       "ru": "Герой. Станет доступен после лечения в клинике.",
@@ -726,7 +776,8 @@
       "id": "Hero akan bergabung setelah berhasil diobati di klinik.",
       "ja": "英雄。診療所で治療を行い、成功すると獲得できる。",
       "ko": "영웅이 진료소에서 성공적으로 치료를 받으면 해당 영웅 캐릭터를 획득하게 됩니다.",
-      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica."
+      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica.",
+      "zh-tw": "英雄。在診所成功治療後即可獲得。"
     },
     "trait": {
       "ru": "Прилежн.",
@@ -737,7 +788,8 @@
       "id": "Rajin & baik",
       "ja": "真面目",
       "ko": "부지런하고 착함",
-      "pt": "Diligência"
+      "pt": "Diligência",
+      "zh-tw": "勤勉"
     },
     "previewQuote": {
       "ru": "Живая крепость! Несокрушимый воин, не знающий поражений.",
@@ -748,7 +800,8 @@
       "id": "Perisai hidup yang kokoh! Pejuang tak terkalahkan!",
       "ja": "要塞の如き壁！倒れることなき戦士！",
       "ko": "철옹성과 같은 탱커! 결코 쓰러지지 않는 전사!",
-      "pt": "Uma fortaleza viva! Um guerreiro indomável que se recusa a perder."
+      "pt": "Uma fortaleza viva! Um guerreiro indomável que se recusa a perder.",
+      "zh-tw": "活體堡壘!絕不倒下的不屈戰士。"
     },
     "officialSkills": [
       {
@@ -1171,6 +1224,7 @@
       "tr": "Marlena",
       "vi": "Marlena",
       "zh": "玛莲娜",
+      "zh-tw": "瑪蓮娜",
       "pl": "Marlena"
     },
     "weapons": {
@@ -1182,7 +1236,8 @@
       "id": "Pedang Merah Darah",
       "ja": "クリムゾンソード",
       "ko": "진홍의 검",
-      "pt": "Espada Carmesim"
+      "pt": "Espada Carmesim",
+      "zh-tw": "緋紅之劍"
     },
     "story": {
       "ru": "Герой. Станет доступен после лечения в клинике.",
@@ -1193,7 +1248,8 @@
       "id": "Hero akan bergabung setelah berhasil diobati di klinik.",
       "ja": "英雄。診療所で治療を行い、成功すると獲得できる。",
       "ko": "영웅이 진료소에서 성공적으로 치료를 받으면 해당 영웅 캐릭터를 획득하게 됩니다.",
-      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica."
+      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica.",
+      "zh-tw": "英雄。在診所成功治療後即可獲得。"
     },
     "trait": {
       "ru": "Отличн.",
@@ -1204,7 +1260,8 @@
       "id": "Penolong",
       "ja": "世話焼き",
       "ko": "남을 잘 돕는 편",
-      "pt": "Presteza"
+      "pt": "Presteza",
+      "zh-tw": "樂於助人"
     },
     "previewQuote": {
       "ru": "Проблеск клинка в ночной тьме — беспощадная смертоносность.",
@@ -1215,7 +1272,8 @@
       "id": "Pedang yang menari dalam kegelapan, serangan yang tak tertandingi!",
       "ja": "闇夜に舞う刃、圧倒的な火力！",
       "ko": "어둠 속에서 춤추는 칼날, 압도적인 파괴력!",
-      "pt": "Uma lâmina reluzente nas noites escuras. Incomparavelmente letal."
+      "pt": "Uma lâmina reluzente nas noites escuras. Incomparavelmente letal.",
+      "zh-tw": "暗夜中一閃而過的利刃——無可匹敵的殺傷力。"
     },
     "officialSkills": [
       {
@@ -1647,6 +1705,7 @@
       "tr": "Gölge",
       "vi": "Ảnh",
       "zh": "影",
+      "zh-tw": "影",
       "pl": "Cień"
     },
     "weapons": {
@@ -1658,7 +1717,8 @@
       "id": "Belati Bayangan",
       "ja": "虚影のダガー",
       "ko": "환영 단검",
-      "pt": "Adaga Fantasma"
+      "pt": "Adaga Fantasma",
+      "zh-tw": "幻影匕首"
     },
     "story": {
       "ru": "Герой. Станет доступен после лечения в клинике.",
@@ -1669,7 +1729,8 @@
       "id": "Hero akan bergabung setelah berhasil diobati di klinik.",
       "ja": "英雄。診療所で治療を行い、成功すると獲得できる。",
       "ko": "영웅이 진료소에서 성공적으로 치료를 받으면 해당 영웅 캐릭터를 획득하게 됩니다.",
-      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica."
+      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica.",
+      "zh-tw": "英雄。在診所成功治療後即可獲得。"
     },
     "trait": {
       "ru": "Спокойн.",
@@ -1680,7 +1741,8 @@
       "id": "Diam & jujur",
       "ja": "穏やか",
       "ko": "차분하고 성실함",
-      "pt": "Firmeza"
+      "pt": "Firmeza",
+      "zh-tw": "沉穩"
     },
     "previewQuote": {
       "ru": "Призрачная форма, сводящая на нет любую атаку.",
@@ -1691,7 +1753,8 @@
       "id": "Bayangan misterius bagai hantu, menangkis segala serangan!",
       "ja": "神出鬼没の影、あらゆる攻撃を無力化する！",
       "ko": "신출귀몰한 그림자, 모든 공격을 무력화!",
-      "pt": "Uma presença fantasmagórica capaz de neutralizar qualquer golpe."
+      "pt": "Uma presença fantasmagórica capaz de neutralizar qualquer golpe.",
+      "zh-tw": "如幻影般的存在,能化解任何攻擊。"
     },
     "officialSkills": [
       {
@@ -2125,6 +2188,7 @@
       "tr": "Cynthia",
       "vi": "Xynthia",
       "zh": "辛西娅",
+      "zh-tw": "辛西婭",
       "pl": "Cynthia"
     },
     "weapons": {
@@ -2136,7 +2200,8 @@
       "id": "Pedang Bulan Suci",
       "ja": "聖なる月刃",
       "ko": "신성한 달의 검날",
-      "pt": "Lâmina Lunar"
+      "pt": "Lâmina Lunar",
+      "zh-tw": "月刃"
     },
     "story": {
       "ru": "Герой. Станет доступен после лечения в клинике.",
@@ -2147,7 +2212,8 @@
       "id": "Hero akan bergabung setelah berhasil diobati di klinik.",
       "ja": "英雄。診療所で治療を行い、成功すると獲得できる。",
       "ko": "영웅이 진료소에서 성공적으로 치료를 받으면 해당 영웅 캐릭터를 획득하게 됩니다.",
-      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica."
+      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica.",
+      "zh-tw": "英雄。在診所成功治療後即可獲得。"
     },
     "trait": {
       "ru": "Прилежн.",
@@ -2158,7 +2224,8 @@
       "id": "Rajin & baik",
       "ja": "真面目",
       "ko": "부지런하고 착함",
-      "pt": "Diligência"
+      "pt": "Diligência",
+      "zh-tw": "勤勉"
     },
     "previewQuote": {
       "ru": "Пусть падет пред силой луны всякое зло!",
@@ -2169,7 +2236,8 @@
       "id": "Kekuatan sinar bulan, memurnikan segala kejahatan!",
       "ja": "月光の力、あらゆる邪悪を浄化する！",
       "ko": "달빛의 힘으로, 모든 악을 정화하리!",
-      "pt": "Aproveite o poder do luar para erradicar todo o mal!"
+      "pt": "Aproveite o poder do luar para erradicar todo o mal!",
+      "zh-tw": "駕馭月光之力,滌盪一切邪惡!"
     },
     "officialSkills": [
       {
@@ -2602,6 +2670,7 @@
       "tr": "Annie",
       "vi": "Annie",
       "zh": "安妮",
+      "zh-tw": "安妮",
       "pl": "Annie"
     },
     "weapons": {
@@ -2613,7 +2682,8 @@
       "id": "Tongkat Permen",
       "ja": "キャンディステッキ",
       "ko": "사탕 지팡이",
-      "pt": "Varinha de Doce"
+      "pt": "Varinha de Doce",
+      "zh-tw": "糖果魔杖"
     },
     "story": {
       "ru": "Герой. Станет доступен после лечения в клинике.",
@@ -2624,7 +2694,8 @@
       "id": "Hero akan bergabung setelah berhasil diobati di klinik.",
       "ja": "英雄。診療所で治療を行い、成功すると獲得できる。",
       "ko": "영웅이 진료소에서 성공적으로 치료를 받으면 해당 영웅 캐릭터를 획득하게 됩니다.",
-      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica."
+      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica.",
+      "zh-tw": "英雄。在診所成功治療後即可獲得。"
     },
     "trait": {
       "ru": "Отличн.",
@@ -2635,7 +2706,8 @@
       "id": "Penolong",
       "ja": "世話焼き",
       "ko": "남을 잘 돕는 편",
-      "pt": "Presteza"
+      "pt": "Presteza",
+      "zh-tw": "樂於助人"
     },
     "previewQuote": {
       "ru": "Искрометной смекалкой покарайте недругов!",
@@ -2646,7 +2718,8 @@
       "id": "Dengan ide-ide brilian, musuh akan dihukum dengan mudah!",
       "ja": "奇抜な発想で、全ての敵を楽々撃破！",
       "ko": "기상천외한 발상으로 모든 적을 가뿐하게 제압!",
-      "pt": "Puna seus inimigos com uma faísca extravagante de engenhosidade!"
+      "pt": "Puna seus inimigos com uma faísca extravagante de engenhosidade!",
+      "zh-tw": "以奇思妙想的火花懲罰你的敵人!"
     },
     "officialSkills": [
       {
@@ -3078,6 +3151,7 @@
       "tr": "Joker",
       "vi": "Hề",
       "zh": "小丑",
+      "zh-tw": "小丑",
       "pl": "Joker"
     },
     "weapons": {
@@ -3089,7 +3163,8 @@
       "id": "Kartu Ilusi",
       "ja": "マジックカード",
       "ko": "환술 카드",
-      "pt": "Carta da Ilusão"
+      "pt": "Carta da Ilusão",
+      "zh-tw": "幻象卡牌"
     },
     "story": {
       "ru": "Герой. Станет доступен после лечения в клинике.",
@@ -3100,7 +3175,8 @@
       "id": "Hero akan bergabung setelah berhasil diobati di klinik.",
       "ja": "英雄。診療所で治療を行い、成功すると獲得できる。",
       "ko": "영웅이 진료소에서 성공적으로 치료를 받으면 해당 영웅 캐릭터를 획득하게 됩니다.",
-      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica."
+      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica.",
+      "zh-tw": "英雄。在診所成功治療後即可獲得。"
     },
     "trait": {
       "ru": "Спокойн.",
@@ -3111,7 +3187,8 @@
       "id": "Diam & jujur",
       "ja": "穏やか",
       "ko": "차분하고 성실함",
-      "pt": "Firmeza"
+      "pt": "Firmeza",
+      "zh-tw": "沉穩"
     },
     "previewQuote": {
       "ru": "Пора им показать! В ваших руках власть над жизнью и смертью.",
@@ -3122,7 +3199,8 @@
       "id": "Saatnya sulap! Hidup dan mati ada dalam genggaman.",
       "ja": "奇抜な発想で、全ての敵を楽々撃破！",
       "ko": "쇼타임! 모든 생사를 내 뜻대로!",
-      "pt": "É hora do show! O poder da vida e da morte está em suas mãos."
+      "pt": "É hora do show! O poder da vida e da morte está em suas mãos.",
+      "zh-tw": "表演開始!將生殺大權握在手中。"
     },
     "officialSkills": [
       {
@@ -3554,6 +3632,7 @@
       "tr": "Harper",
       "vi": "Harper",
       "zh": "哈珀",
+      "zh-tw": "哈珀",
       "pl": "Harper"
     },
     "weapons": {
@@ -3565,7 +3644,8 @@
       "id": "Terompet Penyanyi",
       "ja": "吟遊の角笛",
       "ko": "음유의 뿔피리",
-      "pt": "Corneta do Bardo"
+      "pt": "Corneta do Bardo",
+      "zh-tw": "吟遊號角"
     },
     "story": {
       "ru": "Герой. Станет доступен после лечения в клинике.",
@@ -3576,7 +3656,8 @@
       "id": "Hero akan bergabung setelah berhasil diobati di klinik.",
       "ja": "英雄。診療所で治療を行い、成功すると獲得できる。",
       "ko": "영웅이 진료소에서 성공적으로 치료를 받으면 해당 영웅 캐릭터를 획득하게 됩니다.",
-      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica."
+      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica.",
+      "zh-tw": "英雄。在診所成功治療後即可獲得。"
     },
     "trait": {
       "ru": "Прилежн.",
@@ -3587,7 +3668,8 @@
       "id": "Rajin & baik",
       "ja": "真面目",
       "ko": "부지런하고 착함",
-      "pt": "Diligência"
+      "pt": "Diligência",
+      "zh-tw": "勤勉"
     },
     "previewQuote": {
       "ru": "Победа — в ритме. Восславьте дух!",
@@ -3598,7 +3680,8 @@
       "id": "Dalam nyanyian, kekuatan semangat adalah kunci kemenangan!",
       "ja": "詠唱による鼓舞こそが、勝利の鍵となる！",
       "ko": "울려 퍼지는 찬가가 승리를 향한 열쇠가 된다!",
-      "pt": "A vitória está no ritmo. Cante para fortalecer a alma."
+      "pt": "A vitória está no ritmo. Cante para fortalecer a alma.",
+      "zh-tw": "勝利藏在節奏之中。吟唱吧,為靈魂注入力量。"
     },
     "officialSkills": [
       {
@@ -4010,6 +4093,7 @@
       "tr": "Daskal",
       "vi": "Daskal",
       "zh": "达斯卡尔",
+      "zh-tw": "達斯卡爾",
       "pl": "Daskal"
     },
     "weapons": {
@@ -4021,7 +4105,8 @@
       "id": "Pedang Raksasa Merah",
       "ja": "鮮血の巨刃",
       "ko": "선혈의 대검",
-      "pt": "Espadão Carmesim"
+      "pt": "Espadão Carmesim",
+      "zh-tw": "緋紅巨劍"
     },
     "story": {
       "ru": "Герой. Станет доступен после лечения в клинике.",
@@ -4032,7 +4117,8 @@
       "id": "Hero akan bergabung setelah berhasil diobati di klinik.",
       "ja": "英雄。診療所で治療を行い、成功すると獲得できる。",
       "ko": "영웅이 진료소에서 성공적으로 치료를 받으면 해당 영웅 캐릭터를 획득하게 됩니다.",
-      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica."
+      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica.",
+      "zh-tw": "英雄。在診所成功治療後即可獲得。"
     },
     "trait": {
       "ru": "Отличн.",
@@ -4043,7 +4129,8 @@
       "id": "Penolong",
       "ja": "世話焼き",
       "ko": "남을 잘 돕는 편",
-      "pt": "Presteza"
+      "pt": "Presteza",
+      "zh-tw": "樂於助人"
     },
     "previewQuote": {
       "ru": "Обрушьте проклятия и поглотите всех, кто встанет на пути!",
@@ -4054,7 +4141,8 @@
       "id": "Kekuatan kutukan bisa melahap semua target!",
       "ja": "呪いの力は、全ての標的を喰らい尽くす！",
       "ko": "지독한 저주의 힘이 모든 대상을 집어삼킨다!",
-      "pt": "Use o poder das maldições para devorar quem estiver em seu caminho!"
+      "pt": "Use o poder das maldições para devorar quem estiver em seu caminho!",
+      "zh-tw": "揮舞詛咒之力,吞噬所有擋路者!"
     },
     "officialSkills": [
       {
@@ -4533,6 +4621,7 @@
       "tr": "Kızıl Hanım",
       "vi": "Bà Đỏ",
       "zh": "红夫人",
+      "zh-tw": "紅衣女郎",
       "pl": "Czerwona Dama"
     },
     "weapons": {
@@ -4544,7 +4633,8 @@
       "id": "Bilah Merah",
       "ja": "赤紅の利刃",
       "ko": "진홍의 칼날",
-      "pt": "Lâmina Carmesim"
+      "pt": "Lâmina Carmesim",
+      "zh-tw": "緋紅利刃"
     },
     "story": {
       "ru": "Герой. Станет доступен после лечения в клинике.",
@@ -4555,7 +4645,8 @@
       "id": "Hero akan bergabung setelah berhasil diobati di klinik.",
       "ja": "英雄。診療所で治療を行い、成功すると獲得できる。",
       "ko": "영웅이 진료소에서 성공적으로 치료를 받으면 해당 영웅 캐릭터를 획득하게 됩니다.",
-      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica."
+      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica.",
+      "zh-tw": "英雄。在診所成功治療後即可獲得。"
     },
     "trait": {
       "ru": "Спокойн.",
@@ -4566,7 +4657,8 @@
       "id": "Diam & jujur",
       "ja": "穏やか",
       "ko": "차분하고 성실함",
-      "pt": "Firmeza"
+      "pt": "Firmeza",
+      "zh-tw": "沉穩"
     },
     "previewQuote": {
       "ru": "Точность, изящество, смертоносность — вот ответы на любую угрозу.",
@@ -4577,7 +4669,8 @@
       "id": "Akurat dan anggun, membereskan semua ancaman.",
       "ja": "正確かつ優雅に、あらゆる脅威を始末。",
       "ko": "정밀하고도 우아하게, 모든 위협을 제거한다.",
-      "pt": "Preciso, elegante e letal. A solução para qualquer ameaça."
+      "pt": "Preciso, elegante e letal. A solução para qualquer ameaça.",
+      "zh-tw": "精準、優雅且致命。化解一切威脅的答案。"
     },
     "officialSkills": [
       {
@@ -5010,6 +5103,7 @@
       "tr": "Ulfrid",
       "vi": "Ulfred",
       "zh": "乌尔弗雷德",
+      "zh-tw": "烏爾弗裏德",
       "pl": "Ulfrid"
     },
     "weapons": {
@@ -5021,7 +5115,8 @@
       "id": "Cakar Suku Serigala",
       "ja": "狼族の爪",
       "ko": "늑대의 발톱",
-      "pt": "Garra do Lobo"
+      "pt": "Garra do Lobo",
+      "zh-tw": "狼族之爪"
     },
     "story": {
       "ru": "Герой. Станет доступен после лечения в клинике.",
@@ -5032,7 +5127,8 @@
       "id": "Hero akan bergabung setelah berhasil diobati di klinik.",
       "ja": "英雄。診療所で治療を行い、成功すると獲得できる。",
       "ko": "영웅이 진료소에서 성공적으로 치료를 받으면 해당 영웅 캐릭터를 획득하게 됩니다.",
-      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica."
+      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica.",
+      "zh-tw": "英雄。在診所成功治療後即可獲得。"
     },
     "trait": {
       "ru": "Прилежн.",
@@ -5043,7 +5139,8 @@
       "id": "Rajin & baik",
       "ja": "真面目",
       "ko": "부지런하고 착함",
-      "pt": "Diligência"
+      "pt": "Diligência",
+      "zh-tw": "勤勉"
     },
     "officialSkills": [
       {
@@ -5532,6 +5629,7 @@
       "tr": "Zoya",
       "vi": "Trác Nhã",
       "zh": "卓雅",
+      "zh-tw": "佐婭",
       "pl": "Zoya"
     },
     "weapons": {
@@ -5543,7 +5641,8 @@
       "id": "Pedang Kayu Hutan",
       "ja": "森の木刀",
       "ko": "숲의 목검",
-      "pt": "Lâmina da Floresta"
+      "pt": "Lâmina da Floresta",
+      "zh-tw": "森林之刃"
     },
     "story": {
       "ru": "Герой. Станет доступен после лечения в клинике.",
@@ -5554,7 +5653,8 @@
       "id": "Hero akan bergabung setelah berhasil diobati di klinik.",
       "ja": "英雄。診療所で治療を行い、成功すると獲得できる。",
       "ko": "영웅이 진료소에서 성공적으로 치료를 받으면 해당 영웅 캐릭터를 획득하게 됩니다.",
-      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica."
+      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica.",
+      "zh-tw": "英雄。在診所成功治療後即可獲得。"
     },
     "trait": {
       "ru": "Отличн.",
@@ -5565,7 +5665,8 @@
       "id": "Penolong",
       "ja": "世話焼き",
       "ko": "남을 잘 돕는 편",
-      "pt": "Presteza"
+      "pt": "Presteza",
+      "zh-tw": "樂於助人"
     },
     "officialSkills": [
       {
@@ -5997,6 +6098,7 @@
       "tr": "Louis",
       "vi": "Luis",
       "zh": "路易斯",
+      "zh-tw": "路易",
       "pl": "Louis"
     },
     "weapons": {
@@ -6008,7 +6110,8 @@
       "id": "Belenggu Duri",
       "ja": "荊の枷",
       "ko": "가시 족쇄",
-      "pt": "Grilhões de Espinhos"
+      "pt": "Grilhões de Espinhos",
+      "zh-tw": "荊棘枷鎖"
     },
     "story": {
       "ru": "Герой. Станет доступен после лечения в клинике.",
@@ -6019,7 +6122,8 @@
       "id": "Hero akan bergabung setelah berhasil diobati di klinik.",
       "ja": "英雄。診療所で治療を行い、成功すると獲得できる。",
       "ko": "영웅이 진료소에서 성공적으로 치료를 받으면 해당 영웅 캐릭터를 획득하게 됩니다.",
-      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica."
+      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica.",
+      "zh-tw": "英雄。在診所成功治療後即可獲得。"
     },
     "trait": {
       "ru": "Спокойн.",
@@ -6030,7 +6134,8 @@
       "id": "Diam & jujur",
       "ja": "穏やか",
       "ko": "차분하고 성실함",
-      "pt": "Firmeza"
+      "pt": "Firmeza",
+      "zh-tw": "沉穩"
     },
     "officialSkills": [
       {
@@ -6509,6 +6614,7 @@
       "tr": "Bell",
       "vi": "Bell",
       "zh": "贝尔",
+      "zh-tw": "貝爾",
       "pl": "Bell"
     },
     "weapons": {
@@ -6520,7 +6626,8 @@
       "id": "Drum Lincah",
       "ja": "躍動の小太鼓",
       "ko": "경쾌한 소고",
-      "pt": "Tamborzinho"
+      "pt": "Tamborzinho",
+      "zh-tw": "小鼓"
     },
     "story": {
       "ru": "Герой. Станет доступен после лечения в клинике.",
@@ -6531,7 +6638,8 @@
       "id": "Hero akan bergabung setelah berhasil diobati di klinik.",
       "ja": "英雄。診療所で治療を行い、成功すると獲得できる。",
       "ko": "영웅이 진료소에서 성공적으로 치료를 받으면 해당 영웅 캐릭터를 획득하게 됩니다.",
-      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica."
+      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica.",
+      "zh-tw": "英雄。在診所成功治療後即可獲得。"
     },
     "trait": {
       "ru": "Прилежн.",
@@ -6542,7 +6650,8 @@
       "id": "Rajin & baik",
       "ja": "真面目",
       "ko": "부지런하고 착함",
-      "pt": "Diligência"
+      "pt": "Diligência",
+      "zh-tw": "勤勉"
     },
     "officialSkills": [
       {
@@ -6954,6 +7063,7 @@
       "tr": "Billy",
       "vi": "Billy",
       "zh": "比利",
+      "zh-tw": "比利",
       "pl": "Billy"
     },
     "weapons": {
@@ -6965,7 +7075,8 @@
       "id": "Rangka Kayu Tali",
       "ja": "操り糸の十字架",
       "ko": "꼭두각시 조종틀",
-      "pt": "Moldura de Marionete"
+      "pt": "Moldura de Marionete",
+      "zh-tw": "傀儡框架"
     },
     "story": {
       "ru": "Герой. Станет доступен после лечения в клинике.",
@@ -6976,7 +7087,8 @@
       "id": "Hero akan bergabung setelah berhasil diobati di klinik.",
       "ja": "英雄。診療所で治療を行い、成功すると獲得できる。",
       "ko": "영웅이 진료소에서 성공적으로 치료를 받으면 해당 영웅 캐릭터를 획득하게 됩니다.",
-      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica."
+      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica.",
+      "zh-tw": "英雄。在診所成功治療後即可獲得。"
     },
     "trait": {
       "ru": "Отличн.",
@@ -6987,7 +7099,8 @@
       "id": "Penolong",
       "ja": "世話焼き",
       "ko": "남을 잘 돕는 편",
-      "pt": "Presteza"
+      "pt": "Presteza",
+      "zh-tw": "樂於助人"
     },
     "officialSkills": [
       {
@@ -7420,6 +7533,7 @@
       "tr": "Nicole",
       "vi": "Nicole",
       "zh": "妮可",
+      "zh-tw": "妮可",
       "pl": "Nicole"
     },
     "weapons": {
@@ -7431,7 +7545,8 @@
       "id": "Jubah Api Berkobar",
       "ja": "烈火のマント",
       "ko": "불꽃 망토",
-      "pt": "Manto Flamejante"
+      "pt": "Manto Flamejante",
+      "zh-tw": "烈焰斗篷"
     },
     "story": {
       "ru": "Герой. Станет доступен после лечения в клинике.",
@@ -7442,7 +7557,8 @@
       "id": "Hero akan bergabung setelah berhasil diobati di klinik.",
       "ja": "英雄。診療所で治療を行い、成功すると獲得できる。",
       "ko": "영웅이 진료소에서 성공적으로 치료를 받으면 해당 영웅 캐릭터를 획득하게 됩니다.",
-      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica."
+      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica.",
+      "zh-tw": "英雄。在診所成功治療後即可獲得。"
     },
     "trait": {
       "ru": "Отличн.",
@@ -7453,7 +7569,8 @@
       "id": "Penolong",
       "ja": "世話焼き",
       "ko": "남을 잘 돕는 편",
-      "pt": "Presteza"
+      "pt": "Presteza",
+      "zh-tw": "樂於助人"
     },
     "officialSkills": [
       {
@@ -7876,6 +7993,7 @@
       "tr": "Claire",
       "vi": "Claire",
       "zh": "克蕾雅",
+      "zh-tw": "克萊爾",
       "pl": "Claire"
     },
     "weapons": {},
@@ -7888,7 +8006,8 @@
       "id": "Hero akan bergabung setelah berhasil diobati di klinik.",
       "ja": "英雄。診療所で治療を行い、成功すると獲得できる。",
       "ko": "영웅이 진료소에서 성공적으로 치료를 받으면 해당 영웅 캐릭터를 획득하게 됩니다.",
-      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica."
+      "pt": "Herói. Você recebe este personagem após tratá-lo na clínica.",
+      "zh-tw": "英雄。在診所成功治療後即可獲得。"
     },
     "trait": {
       "ru": "Отличн.",
@@ -7899,7 +8018,8 @@
       "id": "Penolong",
       "ja": "世話焼き",
       "ko": "남을 잘 돕는 편",
-      "pt": "Presteza"
+      "pt": "Presteza",
+      "zh-tw": "樂於助人"
     },
     "officialSkills": [
       {
@@ -8331,6 +8451,7 @@
       "tr": "Marlena",
       "vi": "Marlena",
       "zh": "玛莲娜",
+      "zh-tw": "瑪蓮娜",
       "pl": "Marlena"
     },
     "weapons": {}
@@ -8352,6 +8473,7 @@
       "tr": "Marlena",
       "vi": "Marlena",
       "zh": "玛莲娜",
+      "zh-tw": "瑪蓮娜",
       "pl": "Marlena"
     },
     "weapons": {}
@@ -8373,6 +8495,7 @@
       "tr": "Durant",
       "vi": "Durant",
       "zh": "杜兰特",
+      "zh-tw": "杜蘭特",
       "pl": "Durant"
     },
     "weapons": {}
@@ -8394,6 +8517,7 @@
       "tr": "William",
       "vi": "William",
       "zh": "威廉姆斯",
+      "zh-tw": "威廉",
       "pl": "William"
     },
     "weapons": {}
@@ -8415,6 +8539,7 @@
       "tr": "Robin",
       "vi": "Robin",
       "zh": "罗宾",
+      "zh-tw": "羅賓",
       "pl": "Robin"
     },
     "weapons": {}
@@ -8436,6 +8561,7 @@
       "tr": "Annie",
       "vi": "Annie",
       "zh": "安妮",
+      "zh-tw": "安妮",
       "pl": "Annie"
     },
     "weapons": {}
@@ -8457,6 +8583,7 @@
       "tr": "Celia",
       "vi": "Celia",
       "zh": "希莉亚",
+      "zh-tw": "塞莉婭",
       "pl": "Celia"
     },
     "weapons": {}
@@ -8478,6 +8605,7 @@
       "tr": "Claire",
       "vi": "Claire",
       "zh": "克蕾雅",
+      "zh-tw": "克萊爾",
       "pl": "Claire"
     },
     "weapons": {}
@@ -8499,6 +8627,7 @@
       "tr": "Bella",
       "vi": "Bella",
       "zh": "贝拉",
+      "zh-tw": "貝拉",
       "pl": "Bella"
     },
     "weapons": {}
@@ -8520,6 +8649,7 @@
       "tr": "Kesso",
       "vi": "Kesso",
       "zh": "凯索",
+      "zh-tw": "凱索",
       "pl": "Kesso"
     },
     "weapons": {}
@@ -8541,6 +8671,7 @@
       "tr": "Lucius",
       "vi": "Lucius",
       "zh": "卢修斯",
+      "zh-tw": "路修斯",
       "pl": "Lucius"
     },
     "weapons": {}
@@ -8562,6 +8693,7 @@
       "tr": "Sivir",
       "vi": "Sivir",
       "zh": "希维尔",
+      "zh-tw": "希維爾",
       "pl": "Sivir"
     },
     "weapons": {}
@@ -8583,6 +8715,7 @@
       "tr": "Griffith",
       "vi": "Griffith",
       "zh": "格里菲斯",
+      "zh-tw": "格里菲斯",
       "pl": "Griffith"
     },
     "weapons": {}
@@ -8604,6 +8737,7 @@
       "tr": "Stellar",
       "vi": "Stellar",
       "zh": "星缀",
+      "zh-tw": "星綴",
       "pl": "Stellar"
     },
     "weapons": {}
@@ -8625,6 +8759,7 @@
       "tr": "Ash",
       "vi": "Ash",
       "zh": "艾希",
+      "zh-tw": "艾什",
       "pl": "Ash"
     },
     "weapons": {}
@@ -8646,6 +8781,7 @@
       "tr": "Hastar",
       "vi": "Hastar",
       "zh": "哈斯塔",
+      "zh-tw": "哈斯塔",
       "pl": "Hastar"
     },
     "weapons": {}
@@ -8667,6 +8803,7 @@
       "tr": "Bestar",
       "vi": "Bestar",
       "zh": "贝斯特",
+      "zh-tw": "貝絲特",
       "pl": "Bestar"
     },
     "weapons": {}
@@ -8688,6 +8825,7 @@
       "tr": "Grenwald",
       "vi": "Grenwald",
       "zh": "格林德沃",
+      "zh-tw": "格倫沃爾德",
       "pl": "Grenwald"
     },
     "weapons": {}
@@ -8709,6 +8847,7 @@
       "tr": "Arthur",
       "vi": "Arthur",
       "zh": "亚瑟",
+      "zh-tw": "亞瑟",
       "pl": "Arthur"
     },
     "weapons": {}
@@ -8730,6 +8869,7 @@
       "tr": "Marlena",
       "vi": "Marlena",
       "zh": "玛莲娜",
+      "zh-tw": "瑪蓮娜",
       "pl": "Marlena"
     },
     "weapons": {}
@@ -8751,6 +8891,7 @@
       "tr": "Gölge",
       "vi": "Ảnh",
       "zh": "影",
+      "zh-tw": "影",
       "pl": "Cień"
     },
     "weapons": {}
@@ -8772,6 +8913,7 @@
       "tr": "Cynthia",
       "vi": "Xynthia",
       "zh": "辛西娅",
+      "zh-tw": "辛西婭",
       "pl": "Cynthia"
     },
     "weapons": {}
@@ -8793,6 +8935,7 @@
       "tr": "Annie",
       "vi": "Annie",
       "zh": "安妮",
+      "zh-tw": "安妮",
       "pl": "Annie"
     },
     "weapons": {}
@@ -8814,6 +8957,7 @@
       "tr": "Joker",
       "vi": "Hề",
       "zh": "小丑",
+      "zh-tw": "小丑",
       "pl": "Joker"
     },
     "weapons": {}
@@ -8835,6 +8979,7 @@
       "tr": "Harper",
       "vi": "Harper",
       "zh": "哈珀",
+      "zh-tw": "哈珀",
       "pl": "Harper"
     },
     "weapons": {}
@@ -8856,6 +9001,7 @@
       "tr": "Daskal",
       "vi": "Daskal",
       "zh": "达斯卡尔",
+      "zh-tw": "達斯卡爾",
       "pl": "Daskal"
     },
     "weapons": {}
@@ -8877,6 +9023,7 @@
       "tr": "Kızıl Hanım",
       "vi": "Bà Đỏ",
       "zh": "红夫人",
+      "zh-tw": "紅衣女郎",
       "pl": "Czerwona Dama"
     },
     "weapons": {}
@@ -8898,6 +9045,7 @@
       "tr": "Ulfrid",
       "vi": "Ulfred",
       "zh": "乌尔弗雷德",
+      "zh-tw": "烏爾弗裏德",
       "pl": "Ulfrid"
     },
     "weapons": {}
@@ -8919,6 +9067,7 @@
       "tr": "Zoya",
       "vi": "Trác Nhã",
       "zh": "卓雅",
+      "zh-tw": "佐婭",
       "pl": "Zoya"
     },
     "weapons": {}
@@ -8940,6 +9089,7 @@
       "tr": "Louis",
       "vi": "Luis",
       "zh": "路易斯",
+      "zh-tw": "路易",
       "pl": "Louis"
     },
     "weapons": {}
@@ -8961,6 +9111,7 @@
       "tr": "Bell",
       "vi": "Bell",
       "zh": "贝尔",
+      "zh-tw": "貝爾",
       "pl": "Bell"
     },
     "weapons": {}
@@ -8982,6 +9133,7 @@
       "tr": "Billy",
       "vi": "Billy",
       "zh": "比利",
+      "zh-tw": "比利",
       "pl": "Billy"
     },
     "weapons": {}
@@ -9003,6 +9155,7 @@
       "tr": "Nicole",
       "vi": "Nicole",
       "zh": "妮可",
+      "zh-tw": "妮可",
       "pl": "Nicole"
     },
     "weapons": {}
@@ -9024,6 +9177,7 @@
       "tr": "Durant",
       "vi": "Durant",
       "zh": "杜兰特",
+      "zh-tw": "杜蘭特",
       "pl": "Durant"
     },
     "weapons": {}
@@ -9045,6 +9199,7 @@
       "tr": "William",
       "vi": "William",
       "zh": "威廉姆斯",
+      "zh-tw": "威廉",
       "pl": "William"
     },
     "weapons": {}
@@ -9066,6 +9221,7 @@
       "tr": "Robin",
       "vi": "Robin",
       "zh": "罗宾",
+      "zh-tw": "羅賓",
       "pl": "Robin"
     },
     "weapons": {}
@@ -9087,6 +9243,7 @@
       "tr": "Annie",
       "vi": "Annie",
       "zh": "安妮",
+      "zh-tw": "安妮",
       "pl": "Annie"
     },
     "weapons": {}
@@ -9108,6 +9265,7 @@
       "tr": "Celia",
       "vi": "Celia",
       "zh": "希莉亚",
+      "zh-tw": "塞莉婭",
       "pl": "Celia"
     },
     "weapons": {}
@@ -9129,6 +9287,7 @@
       "tr": "Claire",
       "vi": "Claire",
       "zh": "克蕾雅",
+      "zh-tw": "克萊爾",
       "pl": "Claire"
     },
     "weapons": {}
@@ -9150,6 +9309,7 @@
       "tr": "Bella",
       "vi": "Bella",
       "zh": "贝拉",
+      "zh-tw": "貝拉",
       "pl": "Bella"
     },
     "weapons": {}
@@ -9171,6 +9331,7 @@
       "tr": "Kesso",
       "vi": "Kesso",
       "zh": "凯索",
+      "zh-tw": "凱索",
       "pl": "Kesso"
     },
     "weapons": {}
@@ -9192,6 +9353,7 @@
       "tr": "Lucius",
       "vi": "Lucius",
       "zh": "卢修斯",
+      "zh-tw": "路修斯",
       "pl": "Lucius"
     },
     "weapons": {}
@@ -9213,6 +9375,7 @@
       "tr": "Sivir",
       "vi": "Sivir",
       "zh": "希维尔",
+      "zh-tw": "希維爾",
       "pl": "Sivir"
     },
     "weapons": {}
@@ -9234,6 +9397,7 @@
       "tr": "Griffith",
       "vi": "Griffith",
       "zh": "格里菲斯",
+      "zh-tw": "格里菲斯",
       "pl": "Griffith"
     },
     "weapons": {}
@@ -9255,6 +9419,7 @@
       "tr": "Stellar",
       "vi": "Stellar",
       "zh": "星缀",
+      "zh-tw": "星綴",
       "pl": "Stellar"
     },
     "weapons": {}
@@ -9276,6 +9441,7 @@
       "tr": "Ash",
       "vi": "Ash",
       "zh": "艾希",
+      "zh-tw": "艾什",
       "pl": "Ash"
     },
     "weapons": {}
@@ -9297,6 +9463,7 @@
       "tr": "Hastar",
       "vi": "Hastar",
       "zh": "哈斯塔",
+      "zh-tw": "哈斯塔",
       "pl": "Hastar"
     },
     "weapons": {}
@@ -9318,6 +9485,7 @@
       "tr": "Bestar",
       "vi": "Bestar",
       "zh": "贝斯特",
+      "zh-tw": "貝絲特",
       "pl": "Bestar"
     },
     "weapons": {}
@@ -9339,6 +9507,7 @@
       "tr": "Grenwald",
       "vi": "Grenwald",
       "zh": "格林德沃",
+      "zh-tw": "格倫沃爾德",
       "pl": "Grenwald"
     },
     "weapons": {}
@@ -9360,6 +9529,7 @@
       "tr": "Arthur",
       "vi": "Arthur",
       "zh": "亚瑟",
+      "zh-tw": "亞瑟",
       "pl": "Arthur"
     },
     "weapons": {}
@@ -9381,6 +9551,7 @@
       "tr": "Marlena",
       "vi": "Marlena",
       "zh": "玛莲娜",
+      "zh-tw": "瑪蓮娜",
       "pl": "Marlena"
     },
     "weapons": {}
@@ -9402,6 +9573,7 @@
       "tr": "Gölge",
       "vi": "Ảnh",
       "zh": "影",
+      "zh-tw": "影",
       "pl": "Cień"
     },
     "weapons": {}
@@ -9423,6 +9595,7 @@
       "tr": "Cynthia",
       "vi": "Xynthia",
       "zh": "辛西娅",
+      "zh-tw": "辛西婭",
       "pl": "Cynthia"
     },
     "weapons": {}
@@ -9444,6 +9617,7 @@
       "tr": "Annie",
       "vi": "Annie",
       "zh": "安妮",
+      "zh-tw": "安妮",
       "pl": "Annie"
     },
     "weapons": {}
@@ -9465,6 +9639,7 @@
       "tr": "Joker",
       "vi": "Hề",
       "zh": "小丑",
+      "zh-tw": "小丑",
       "pl": "Joker"
     },
     "weapons": {}
@@ -9486,6 +9661,7 @@
       "tr": "Harper",
       "vi": "Harper",
       "zh": "哈珀",
+      "zh-tw": "哈珀",
       "pl": "Harper"
     },
     "weapons": {}
@@ -9507,6 +9683,7 @@
       "tr": "Daskal",
       "vi": "Daskal",
       "zh": "达斯卡尔",
+      "zh-tw": "達斯卡爾",
       "pl": "Daskal"
     },
     "weapons": {}
@@ -9528,6 +9705,7 @@
       "tr": "Kızıl Hanım",
       "vi": "Bà Đỏ",
       "zh": "红夫人",
+      "zh-tw": "紅衣女郎",
       "pl": "Czerwona Dama"
     },
     "weapons": {}
@@ -9549,6 +9727,7 @@
       "tr": "Ulfrid",
       "vi": "Ulfred",
       "zh": "乌尔弗雷德",
+      "zh-tw": "烏爾弗裏德",
       "pl": "Ulfrid"
     },
     "weapons": {}
@@ -9570,6 +9749,7 @@
       "tr": "Zoya",
       "vi": "Trác Nhã",
       "zh": "卓雅",
+      "zh-tw": "佐婭",
       "pl": "Zoya"
     },
     "weapons": {}
@@ -9591,6 +9771,7 @@
       "tr": "Louis",
       "vi": "Luis",
       "zh": "路易斯",
+      "zh-tw": "路易",
       "pl": "Louis"
     },
     "weapons": {}
@@ -9612,6 +9793,7 @@
       "tr": "Bell",
       "vi": "Bell",
       "zh": "贝尔",
+      "zh-tw": "貝爾",
       "pl": "Bell"
     },
     "weapons": {}
@@ -9633,6 +9815,7 @@
       "tr": "Billy",
       "vi": "Billy",
       "zh": "比利",
+      "zh-tw": "比利",
       "pl": "Billy"
     },
     "weapons": {}
@@ -9654,6 +9837,7 @@
       "tr": "Nicole",
       "vi": "Nicole",
       "zh": "妮可",
+      "zh-tw": "妮可",
       "pl": "Nicole"
     },
     "weapons": {}
@@ -9675,6 +9859,7 @@
       "tr": "Louis",
       "vi": "Luis",
       "zh": "路易斯",
+      "zh-tw": "路易",
       "pl": "Louis"
     },
     "weapons": {}
@@ -9696,6 +9881,7 @@
       "tr": "Louis",
       "vi": "Luis",
       "zh": "路易斯",
+      "zh-tw": "路易",
       "pl": "Louis"
     },
     "weapons": {}
@@ -9717,6 +9903,7 @@
       "tr": "Louis",
       "vi": "Luis",
       "zh": "路易斯",
+      "zh-tw": "路易",
       "pl": "Louis"
     },
     "weapons": {}
@@ -9738,6 +9925,7 @@
       "tr": "Louis",
       "vi": "Luis",
       "zh": "路易斯",
+      "zh-tw": "路易",
       "pl": "Louis"
     },
     "weapons": {}
@@ -9759,6 +9947,7 @@
       "tr": "Louis",
       "vi": "Luis",
       "zh": "路易斯",
+      "zh-tw": "路易",
       "pl": "Louis"
     },
     "weapons": {}
@@ -9780,6 +9969,7 @@
       "tr": "Louis",
       "vi": "Luis",
       "zh": "路易斯",
+      "zh-tw": "路易",
       "pl": "Louis"
     },
     "weapons": {}
@@ -9801,6 +9991,7 @@
       "tr": "Louis",
       "vi": "Luis",
       "zh": "路易斯",
+      "zh-tw": "路易",
       "pl": "Louis"
     },
     "weapons": {}
@@ -9822,6 +10013,7 @@
       "tr": "Louis",
       "vi": "Luis",
       "zh": "路易斯",
+      "zh-tw": "路易",
       "pl": "Louis"
     },
     "weapons": {}
@@ -9843,6 +10035,7 @@
       "tr": "Louis",
       "vi": "Luis",
       "zh": "路易斯",
+      "zh-tw": "路易",
       "pl": "Louis"
     },
     "weapons": {}
@@ -9864,6 +10057,7 @@
       "tr": "Louis",
       "vi": "Luis",
       "zh": "路易斯",
+      "zh-tw": "路易",
       "pl": "Louis"
     },
     "weapons": {}
@@ -9885,6 +10079,7 @@
       "tr": "Louis",
       "vi": "Luis",
       "zh": "路易斯",
+      "zh-tw": "路易",
       "pl": "Louis"
     },
     "weapons": {}
@@ -9906,6 +10101,7 @@
       "tr": "Louis",
       "vi": "Luis",
       "zh": "路易斯",
+      "zh-tw": "路易",
       "pl": "Louis"
     },
     "weapons": {}
@@ -9927,6 +10123,7 @@
       "tr": "Louis",
       "vi": "Luis",
       "zh": "路易斯",
+      "zh-tw": "路易",
       "pl": "Louis"
     },
     "weapons": {}
@@ -9948,6 +10145,7 @@
       "tr": "Louis",
       "vi": "Luis",
       "zh": "路易斯",
+      "zh-tw": "路易",
       "pl": "Louis"
     },
     "weapons": {}
@@ -9969,6 +10167,7 @@
       "tr": "Louis",
       "vi": "Luis",
       "zh": "路易斯",
+      "zh-tw": "路易",
       "pl": "Louis"
     },
     "weapons": {}
@@ -9990,6 +10189,7 @@
       "tr": "Yalnız Sıçan",
       "vi": "Chuột Đen Đơn Độc",
       "zh": "独行黑鼠",
+      "zh-tw": "獨行黑鼠",
       "pl": "Samotny Szczur"
     },
     "weapons": {}
@@ -10011,6 +10211,7 @@
       "tr": "Yalnız Sıçan",
       "vi": "Chuột Đen Đơn Độc",
       "zh": "独行黑鼠",
+      "zh-tw": "獨行黑鼠",
       "pl": "Samotny Szczur"
     },
     "weapons": {}
@@ -10032,6 +10233,7 @@
       "tr": "Yalnız Sıçan",
       "vi": "Chuột Đen Đơn Độc",
       "zh": "独行黑鼠",
+      "zh-tw": "獨行黑鼠",
       "pl": "Samotny Szczur"
     },
     "weapons": {}
@@ -10053,6 +10255,7 @@
       "tr": "Yalnız Sıçan",
       "vi": "Chuột Đen Đơn Độc",
       "zh": "独行黑鼠",
+      "zh-tw": "獨行黑鼠",
       "pl": "Samotny Szczur"
     },
     "weapons": {}
@@ -10074,6 +10277,7 @@
       "tr": "Yalnız Sıçan",
       "vi": "Chuột Đen Đơn Độc",
       "zh": "独行黑鼠",
+      "zh-tw": "獨行黑鼠",
       "pl": "Samotny Szczur"
     },
     "weapons": {}
@@ -10095,6 +10299,7 @@
       "tr": "Yalnız Sıçan",
       "vi": "Chuột Đen Đơn Độc",
       "zh": "独行黑鼠",
+      "zh-tw": "獨行黑鼠",
       "pl": "Samotny Szczur"
     },
     "weapons": {}
@@ -10116,6 +10321,7 @@
       "tr": "Yalnız Sıçan",
       "vi": "Chuột Đen Đơn Độc",
       "zh": "独行黑鼠",
+      "zh-tw": "獨行黑鼠",
       "pl": "Samotny Szczur"
     },
     "weapons": {}
@@ -10137,6 +10343,7 @@
       "tr": "Çift Sıçanlar",
       "vi": "Đôi Chuột Đen",
       "zh": "成对黑鼠",
+      "zh-tw": "成對黑鼠",
       "pl": "Sparowane Szczury"
     },
     "weapons": {}
@@ -10158,6 +10365,7 @@
       "tr": "Çift Sıçanlar",
       "vi": "Đôi Chuột Đen",
       "zh": "成对黑鼠",
+      "zh-tw": "成對黑鼠",
       "pl": "Sparowane Szczury"
     },
     "weapons": {}
@@ -10179,6 +10387,7 @@
       "tr": "Çift Sıçanlar",
       "vi": "Đôi Chuột Đen",
       "zh": "成对黑鼠",
+      "zh-tw": "成對黑鼠",
       "pl": "Sparowane Szczury"
     },
     "weapons": {}
@@ -10200,6 +10409,7 @@
       "tr": "Çift Sıçanlar",
       "vi": "Đôi Chuột Đen",
       "zh": "成对黑鼠",
+      "zh-tw": "成對黑鼠",
       "pl": "Sparowane Szczury"
     },
     "weapons": {}
@@ -10221,6 +10431,7 @@
       "tr": "Çift Sıçanlar",
       "vi": "Đôi Chuột Đen",
       "zh": "成对黑鼠",
+      "zh-tw": "成對黑鼠",
       "pl": "Sparowane Szczury"
     },
     "weapons": {}
@@ -10242,6 +10453,7 @@
       "tr": "Çift Sıçanlar",
       "vi": "Đôi Chuột Đen",
       "zh": "成对黑鼠",
+      "zh-tw": "成對黑鼠",
       "pl": "Sparowane Szczury"
     },
     "weapons": {}
@@ -10263,6 +10475,7 @@
       "tr": "Çift Sıçanlar",
       "vi": "Đôi Chuột Đen",
       "zh": "成对黑鼠",
+      "zh-tw": "成對黑鼠",
       "pl": "Sparowane Szczury"
     },
     "weapons": {}
@@ -10284,6 +10497,7 @@
       "tr": "Çift Sıçanlar",
       "vi": "Đôi Chuột Đen",
       "zh": "成对黑鼠",
+      "zh-tw": "成對黑鼠",
       "pl": "Sparowane Szczury"
     },
     "weapons": {}
@@ -10305,6 +10519,7 @@
       "tr": "Çift Sıçanlar",
       "vi": "Đôi Chuột Đen",
       "zh": "成对黑鼠",
+      "zh-tw": "成對黑鼠",
       "pl": "Sparowane Szczury"
     },
     "weapons": {}
@@ -10325,7 +10540,8 @@
       "th": "หนูดำคู่",
       "tr": "Çift Sıçanlar",
       "vi": "Đôi Chuột Đen",
-      "pl": "Sparowane Szczury"
+      "pl": "Sparowane Szczury",
+      "zh-tw": "成對黑鼠"
     },
     "weapons": {}
   },
@@ -10346,6 +10562,7 @@
       "tr": "Vebalı Oduncu",
       "vi": "Zombie thợ đốn gỗ",
       "zh": "伐木男尸鬼",
+      "zh-tw": "伐木男屍鬼",
       "pl": "Skażony drwal"
     },
     "weapons": {}
@@ -10367,6 +10584,7 @@
       "tr": "Vebalı Oduncu",
       "vi": "Zombie thợ đốn gỗ",
       "zh": "伐木男尸鬼",
+      "zh-tw": "伐木男屍鬼",
       "pl": "Skażony drwal"
     },
     "weapons": {}
@@ -10388,6 +10606,7 @@
       "tr": "Vebalı Oduncu",
       "vi": "Zombie thợ đốn gỗ",
       "zh": "伐木男尸鬼",
+      "zh-tw": "伐木男屍鬼",
       "pl": "Skażony drwal"
     },
     "weapons": {}
@@ -10409,6 +10628,7 @@
       "tr": "Vebalı Oduncu",
       "vi": "Zombie thợ đốn gỗ",
       "zh": "伐木男尸鬼",
+      "zh-tw": "伐木男屍鬼",
       "pl": "Skażony drwal"
     },
     "weapons": {}
@@ -10430,6 +10650,7 @@
       "tr": "Vebalı Oduncu",
       "vi": "Zombie thợ đốn gỗ",
       "zh": "伐木男尸鬼",
+      "zh-tw": "伐木男屍鬼",
       "pl": "Skażony drwal"
     },
     "weapons": {}
@@ -10451,6 +10672,7 @@
       "tr": "Vebalı Oduncu",
       "vi": "Zombie thợ đốn gỗ",
       "zh": "伐木男尸鬼",
+      "zh-tw": "伐木男屍鬼",
       "pl": "Skażony drwal"
     },
     "weapons": {}
@@ -10472,6 +10694,7 @@
       "tr": "Vebalı Oduncu",
       "vi": "Zombie thợ đốn gỗ",
       "zh": "伐木男尸鬼",
+      "zh-tw": "伐木男屍鬼",
       "pl": "Skażony drwal"
     },
     "weapons": {}
@@ -10493,6 +10716,7 @@
       "tr": "Rahibe",
       "vi": "Sơ",
       "zh": "修女",
+      "zh-tw": "修女",
       "pl": "Zakonnica"
     },
     "weapons": {}
@@ -10514,6 +10738,7 @@
       "tr": "Rahibe",
       "vi": "Sơ",
       "zh": "修女",
+      "zh-tw": "修女",
       "pl": "Zakonnica"
     },
     "weapons": {}
@@ -10535,6 +10760,7 @@
       "tr": "Rahibe",
       "vi": "Sơ",
       "zh": "修女",
+      "zh-tw": "修女",
       "pl": "Zakonnica"
     },
     "weapons": {}
@@ -10556,6 +10782,7 @@
       "tr": "Rahibe",
       "vi": "Sơ",
       "zh": "修女",
+      "zh-tw": "修女",
       "pl": "Zakonnica"
     },
     "weapons": {}
@@ -10577,6 +10804,7 @@
       "tr": "Rahibe",
       "vi": "Sơ",
       "zh": "修女",
+      "zh-tw": "修女",
       "pl": "Zakonnica"
     },
     "weapons": {}
@@ -10598,6 +10826,7 @@
       "tr": "Rahibe",
       "vi": "Sơ",
       "zh": "修女",
+      "zh-tw": "修女",
       "pl": "Zakonnica"
     },
     "weapons": {}
@@ -10619,6 +10848,7 @@
       "tr": "Rahibe",
       "vi": "Sơ",
       "zh": "修女",
+      "zh-tw": "修女",
       "pl": "Zakonnica"
     },
     "weapons": {}
@@ -10640,6 +10870,7 @@
       "tr": "Kadın",
       "vi": "Phụ nữ",
       "zh": "妇女",
+      "zh-tw": "婦女",
       "pl": "Kobieta"
     },
     "weapons": {}
@@ -10661,6 +10892,7 @@
       "tr": "Kadın",
       "vi": "Phụ nữ",
       "zh": "妇女",
+      "zh-tw": "婦女",
       "pl": "Kobieta"
     },
     "weapons": {}
@@ -10682,6 +10914,7 @@
       "tr": "Kadın",
       "vi": "Phụ nữ",
       "zh": "妇女",
+      "zh-tw": "婦女",
       "pl": "Kobieta"
     },
     "weapons": {}
@@ -10703,6 +10936,7 @@
       "tr": "Kadın",
       "vi": "Phụ nữ",
       "zh": "妇女",
+      "zh-tw": "婦女",
       "pl": "Kobieta"
     },
     "weapons": {}
@@ -10724,6 +10958,7 @@
       "tr": "Kadın",
       "vi": "Phụ nữ",
       "zh": "妇女",
+      "zh-tw": "婦女",
       "pl": "Kobieta"
     },
     "weapons": {}
@@ -10745,6 +10980,7 @@
       "tr": "Kadın",
       "vi": "Phụ nữ",
       "zh": "妇女",
+      "zh-tw": "婦女",
       "pl": "Kobieta"
     },
     "weapons": {}
@@ -10766,6 +11002,7 @@
       "tr": "Kadın",
       "vi": "Phụ nữ",
       "zh": "妇女",
+      "zh-tw": "婦女",
       "pl": "Kobieta"
     },
     "weapons": {}
@@ -10787,6 +11024,7 @@
       "tr": "Çiftçi",
       "vi": "Nông Dân",
       "zh": "农夫",
+      "zh-tw": "農夫",
       "pl": "Rolnik"
     },
     "weapons": {}
@@ -10808,6 +11046,7 @@
       "tr": "Çiftçi",
       "vi": "Nông Dân",
       "zh": "农夫",
+      "zh-tw": "農夫",
       "pl": "Rolnik"
     },
     "weapons": {}
@@ -10829,6 +11068,7 @@
       "tr": "Çiftçi",
       "vi": "Nông Dân",
       "zh": "农夫",
+      "zh-tw": "農夫",
       "pl": "Rolnik"
     },
     "weapons": {}
@@ -10850,6 +11090,7 @@
       "tr": "Çiftçi",
       "vi": "Nông Dân",
       "zh": "农夫",
+      "zh-tw": "農夫",
       "pl": "Rolnik"
     },
     "weapons": {}
@@ -10871,6 +11112,7 @@
       "tr": "Çiftçi",
       "vi": "Nông Dân",
       "zh": "农夫",
+      "zh-tw": "農夫",
       "pl": "Rolnik"
     },
     "weapons": {}
@@ -10892,6 +11134,7 @@
       "tr": "Çiftçi",
       "vi": "Nông Dân",
       "zh": "农夫",
+      "zh-tw": "農夫",
       "pl": "Rolnik"
     },
     "weapons": {}
@@ -10913,6 +11156,7 @@
       "tr": "Çiftçi",
       "vi": "Nông Dân",
       "zh": "农夫",
+      "zh-tw": "農夫",
       "pl": "Rolnik"
     },
     "weapons": {}
@@ -10934,6 +11178,7 @@
       "tr": "Vebalı Aktar",
       "vi": "Zombie Nhà Thảo Dược",
       "zh": "药农尸鬼",
+      "zh-tw": "藥農屍鬼",
       "pl": "Skażony zielarz"
     },
     "weapons": {}
@@ -10955,6 +11200,7 @@
       "tr": "Vebalı Aktar",
       "vi": "Zombie Nhà Thảo Dược",
       "zh": "药农尸鬼",
+      "zh-tw": "藥農屍鬼",
       "pl": "Skażony zielarz"
     },
     "weapons": {}
@@ -10976,6 +11222,7 @@
       "tr": "Vebalı Aktar",
       "vi": "Zombie Nhà Thảo Dược",
       "zh": "药农尸鬼",
+      "zh-tw": "藥農屍鬼",
       "pl": "Skażony zielarz"
     },
     "weapons": {}
@@ -10997,6 +11244,7 @@
       "tr": "Vebalı Aktar",
       "vi": "Zombie Nhà Thảo Dược",
       "zh": "药农尸鬼",
+      "zh-tw": "藥農屍鬼",
       "pl": "Skażony zielarz"
     },
     "weapons": {}
@@ -11018,6 +11266,7 @@
       "tr": "Vebalı Aktar",
       "vi": "Zombie Nhà Thảo Dược",
       "zh": "药农尸鬼",
+      "zh-tw": "藥農屍鬼",
       "pl": "Skażony zielarz"
     },
     "weapons": {}
@@ -11039,6 +11288,7 @@
       "tr": "Vebalı Aktar",
       "vi": "Zombie Nhà Thảo Dược",
       "zh": "药农尸鬼",
+      "zh-tw": "藥農屍鬼",
       "pl": "Skażony zielarz"
     },
     "weapons": {}
@@ -11060,6 +11310,7 @@
       "tr": "Vebalı Aktar",
       "vi": "Zombie Nhà Thảo Dược",
       "zh": "药农尸鬼",
+      "zh-tw": "藥農屍鬼",
       "pl": "Skażony zielarz"
     },
     "weapons": {}
@@ -11081,6 +11332,7 @@
       "tr": "Kadın 2",
       "vi": "Phụ Nữ 2",
       "zh": "妇女2",
+      "zh-tw": "婦女2",
       "pl": "Kobieta 2"
     },
     "weapons": {}
@@ -11102,6 +11354,7 @@
       "tr": "Kadın 2",
       "vi": "Phụ Nữ 2",
       "zh": "妇女2",
+      "zh-tw": "婦女2",
       "pl": "Kobieta 2"
     },
     "weapons": {}
@@ -11123,6 +11376,7 @@
       "tr": "Kadın 2",
       "vi": "Phụ Nữ 2",
       "zh": "妇女2",
+      "zh-tw": "婦女2",
       "pl": "Kobieta 2"
     },
     "weapons": {}
@@ -11144,6 +11398,7 @@
       "tr": "Kadın 2",
       "vi": "Phụ Nữ 2",
       "zh": "妇女2",
+      "zh-tw": "婦女2",
       "pl": "Kobieta 2"
     },
     "weapons": {}
@@ -11165,6 +11420,7 @@
       "tr": "Kadın 2",
       "vi": "Phụ Nữ 2",
       "zh": "妇女2",
+      "zh-tw": "婦女2",
       "pl": "Kobieta 2"
     },
     "weapons": {}
@@ -11186,6 +11442,7 @@
       "tr": "Kadın 2",
       "vi": "Phụ Nữ 2",
       "zh": "妇女2",
+      "zh-tw": "婦女2",
       "pl": "Kobieta 2"
     },
     "weapons": {}
@@ -11207,6 +11464,7 @@
       "tr": "Kadın 2",
       "vi": "Phụ Nữ 2",
       "zh": "妇女2",
+      "zh-tw": "婦女2",
       "pl": "Kobieta 2"
     },
     "weapons": {}
@@ -11228,6 +11486,7 @@
       "tr": "Mutant Vebalı Tazı",
       "vi": "Chó Zombie Đột Biến",
       "zh": "变异尸狗",
+      "zh-tw": "變異屍狗",
       "pl": "Zmutowany skażony ogar"
     },
     "weapons": {}
@@ -11249,6 +11508,7 @@
       "tr": "Mutant Vebalı Tazı",
       "vi": "Chó Zombie Đột Biến",
       "zh": "变异尸狗",
+      "zh-tw": "變異屍狗",
       "pl": "Zmutowany skażony ogar"
     },
     "weapons": {}
@@ -11270,6 +11530,7 @@
       "tr": "Mutant Vebalı Tazı",
       "vi": "Chó Zombie Đột Biến",
       "zh": "变异尸狗",
+      "zh-tw": "變異屍狗",
       "pl": "Zmutowany skażony ogar"
     },
     "weapons": {}
@@ -11291,6 +11552,7 @@
       "tr": "Mutant Vebalı Tazı",
       "vi": "Chó Zombie Đột Biến",
       "zh": "变异尸狗",
+      "zh-tw": "變異屍狗",
       "pl": "Zmutowany skażony ogar"
     },
     "weapons": {}
@@ -11312,6 +11574,7 @@
       "tr": "Mutant Vebalı Tazı",
       "vi": "Chó Zombie Đột Biến",
       "zh": "变异尸狗",
+      "zh-tw": "變異屍狗",
       "pl": "Zmutowany skażony ogar"
     },
     "weapons": {}
@@ -11333,6 +11596,7 @@
       "tr": "Seçkin Vebalı",
       "vi": "Zombie Tinh Anh",
       "zh": "精英尸鬼",
+      "zh-tw": "精英屍鬼",
       "pl": "Elitarny skażony"
     },
     "weapons": {}
@@ -11354,6 +11618,7 @@
       "tr": "Seçkin Vebalı",
       "vi": "Zombie Tinh Anh",
       "zh": "精英尸鬼",
+      "zh-tw": "精英屍鬼",
       "pl": "Elitarny skażony"
     },
     "weapons": {}
@@ -11375,6 +11640,7 @@
       "tr": "Seçkin Vebalı",
       "vi": "Zombie Tinh Anh",
       "zh": "精英尸鬼",
+      "zh-tw": "精英屍鬼",
       "pl": "Elitarny skażony"
     },
     "weapons": {}
@@ -11396,6 +11662,7 @@
       "tr": "Seçkin Vebalı",
       "vi": "Zombie Tinh Anh",
       "zh": "精英尸鬼",
+      "zh-tw": "精英屍鬼",
       "pl": "Elitarny skażony"
     },
     "weapons": {}
@@ -11417,6 +11684,7 @@
       "tr": "Seçkin Vebalı",
       "vi": "Zombie Tinh Anh",
       "zh": "精英尸鬼",
+      "zh-tw": "精英屍鬼",
       "pl": "Elitarny skażony"
     },
     "weapons": {}
@@ -11438,6 +11706,7 @@
       "tr": "Asil Vebalı",
       "vi": "Zombie Quý Tộc",
       "zh": "贵族尸鬼",
+      "zh-tw": "貴族屍鬼",
       "pl": "Szlachetny skażony"
     },
     "weapons": {}
@@ -11459,6 +11728,7 @@
       "tr": "Asil Vebalı",
       "vi": "Zombie Quý Tộc",
       "zh": "贵族尸鬼",
+      "zh-tw": "貴族屍鬼",
       "pl": "Szlachetny skażony"
     },
     "weapons": {}
@@ -11480,6 +11750,7 @@
       "tr": "Asil Vebalı",
       "vi": "Zombie Quý Tộc",
       "zh": "贵族尸鬼",
+      "zh-tw": "貴族屍鬼",
       "pl": "Szlachetny skażony"
     },
     "weapons": {}
@@ -11501,6 +11772,7 @@
       "tr": "Asil Vebalı",
       "vi": "Zombie Quý Tộc",
       "zh": "贵族尸鬼",
+      "zh-tw": "貴族屍鬼",
       "pl": "Szlachetny skażony"
     },
     "weapons": {}
@@ -11522,6 +11794,7 @@
       "tr": "Asil Vebalı",
       "vi": "Zombie Quý Tộc",
       "zh": "贵族尸鬼",
+      "zh-tw": "貴族屍鬼",
       "pl": "Szlachetny skażony"
     },
     "weapons": {}
@@ -11543,6 +11816,7 @@
       "tr": "Vebalı Muhafız",
       "vi": "Zombie Hộ Vệ",
       "zh": "护卫尸鬼",
+      "zh-tw": "護衛屍鬼",
       "pl": "Skażony Strażnik"
     },
     "weapons": {}
@@ -11564,6 +11838,7 @@
       "tr": "Vebalı Muhafız",
       "vi": "Zombie Hộ Vệ",
       "zh": "护卫尸鬼",
+      "zh-tw": "護衛屍鬼",
       "pl": "Skażony Strażnik"
     },
     "weapons": {}
@@ -11585,6 +11860,7 @@
       "tr": "Vebalı Muhafız",
       "vi": "Zombie Hộ Vệ",
       "zh": "护卫尸鬼",
+      "zh-tw": "護衛屍鬼",
       "pl": "Skażony Strażnik"
     },
     "weapons": {}
@@ -11606,6 +11882,7 @@
       "tr": "Vebalı Muhafız",
       "vi": "Zombie Hộ Vệ",
       "zh": "护卫尸鬼",
+      "zh-tw": "護衛屍鬼",
       "pl": "Skażony Strażnik"
     },
     "weapons": {}
@@ -11627,6 +11904,7 @@
       "tr": "Vebalı Muhafız",
       "vi": "Zombie Hộ Vệ",
       "zh": "护卫尸鬼",
+      "zh-tw": "護衛屍鬼",
       "pl": "Skażony Strażnik"
     },
     "weapons": {}
@@ -11648,6 +11926,7 @@
       "tr": "Vebalı Gezgin",
       "vi": "Zombie Lang Thang",
       "zh": "流浪尸鬼",
+      "zh-tw": "流浪屍鬼",
       "pl": "Wędrująca Plaga"
     },
     "weapons": {}
@@ -11669,6 +11948,7 @@
       "tr": "Vebalı Gezgin",
       "vi": "Zombie Lang Thang",
       "zh": "流浪尸鬼",
+      "zh-tw": "流浪屍鬼",
       "pl": "Wędrująca Plaga"
     },
     "weapons": {}
@@ -11690,6 +11970,7 @@
       "tr": "Vebalı Gezgin",
       "vi": "Zombie Lang Thang",
       "zh": "流浪尸鬼",
+      "zh-tw": "流浪屍鬼",
       "pl": "Wędrująca Plaga"
     },
     "weapons": {}
@@ -11711,6 +11992,7 @@
       "tr": "Vebalı Gezgin",
       "vi": "Zombie Lang Thang",
       "zh": "流浪尸鬼",
+      "zh-tw": "流浪屍鬼",
       "pl": "Wędrująca Plaga"
     },
     "weapons": {}
@@ -11732,6 +12014,7 @@
       "tr": "Vebalı Gezgin",
       "vi": "Zombie Lang Thang",
       "zh": "流浪尸鬼",
+      "zh-tw": "流浪屍鬼",
       "pl": "Wędrująca Plaga"
     },
     "weapons": {}
@@ -11753,6 +12036,7 @@
       "tr": "Vebalı İstilası",
       "vi": "Zombie Tấn Công",
       "zh": "尸鬼侵袭",
+      "zh-tw": "屍鬼侵襲",
       "pl": "Inwazja skażonych"
     },
     "weapons": {}
@@ -11774,6 +12058,7 @@
       "tr": "Vebalı İstilası",
       "vi": "Zombie Tấn Công",
       "zh": "尸鬼侵袭",
+      "zh-tw": "屍鬼侵襲",
       "pl": "Inwazja skażonych"
     },
     "weapons": {}
@@ -11795,6 +12080,7 @@
       "tr": "Vebalı İstilası",
       "vi": "Zombie Tấn Công",
       "zh": "尸鬼侵袭",
+      "zh-tw": "屍鬼侵襲",
       "pl": "Inwazja skażonych"
     },
     "weapons": {}
@@ -11816,6 +12102,7 @@
       "tr": "Vebalı İstilası",
       "vi": "Zombie Tấn Công",
       "zh": "尸鬼侵袭",
+      "zh-tw": "屍鬼侵襲",
       "pl": "Inwazja skażonych"
     },
     "weapons": {}
@@ -11837,6 +12124,7 @@
       "tr": "Vebalı İstilası",
       "vi": "Zombie Tấn Công",
       "zh": "尸鬼侵袭",
+      "zh-tw": "屍鬼侵襲",
       "pl": "Inwazja skażonych"
     },
     "weapons": {}
@@ -11858,6 +12146,7 @@
       "tr": "Cehennem Hemşiresi",
       "vi": "Y Tá Địa Ngục",
       "zh": "地狱护士",
+      "zh-tw": "地獄護士",
       "pl": "Piekielna Pielęgniarka"
     },
     "weapons": {}
@@ -11879,6 +12168,7 @@
       "tr": "Cehennem Hemşiresi",
       "vi": "Y Tá Địa Ngục",
       "zh": "地狱护士",
+      "zh-tw": "地獄護士",
       "pl": "Piekielna Pielęgniarka"
     },
     "weapons": {}
@@ -11900,6 +12190,7 @@
       "tr": "Cehennem Hemşiresi",
       "vi": "Y Tá Địa Ngục",
       "zh": "地狱护士",
+      "zh-tw": "地獄護士",
       "pl": "Piekielna Pielęgniarka"
     },
     "weapons": {}
@@ -11921,6 +12212,7 @@
       "tr": "Cehennem Hemşiresi",
       "vi": "Y Tá Địa Ngục",
       "zh": "地狱护士",
+      "zh-tw": "地獄護士",
       "pl": "Piekielna Pielęgniarka"
     },
     "weapons": {}
@@ -11942,6 +12234,7 @@
       "tr": "Cehennem Hemşiresi",
       "vi": "Y Tá Địa Ngục",
       "zh": "地狱护士",
+      "zh-tw": "地獄護士",
       "pl": "Piekielna Pielęgniarka"
     },
     "weapons": {}
@@ -11963,6 +12256,7 @@
       "tr": "Veba Müridi",
       "vi": "Zombie Tín Đồ",
       "zh": "信徒尸鬼",
+      "zh-tw": "信徒屍鬼",
       "pl": "Uczeń Skażenia"
     },
     "weapons": {}
@@ -11984,6 +12278,7 @@
       "tr": "Veba Müridi",
       "vi": "Zombie Tín Đồ",
       "zh": "信徒尸鬼",
+      "zh-tw": "信徒屍鬼",
       "pl": "Uczeń Skażenia"
     },
     "weapons": {}
@@ -12005,6 +12300,7 @@
       "tr": "Veba Müridi",
       "vi": "Zombie Tín Đồ",
       "zh": "信徒尸鬼",
+      "zh-tw": "信徒屍鬼",
       "pl": "Uczeń Skażenia"
     },
     "weapons": {}
@@ -12026,6 +12322,7 @@
       "tr": "Veba Müridi",
       "vi": "Zombie Tín Đồ",
       "zh": "信徒尸鬼",
+      "zh-tw": "信徒屍鬼",
       "pl": "Uczeń Skażenia"
     },
     "weapons": {}
@@ -12047,6 +12344,7 @@
       "tr": "Veba Müridi",
       "vi": "Zombie Tín Đồ",
       "zh": "信徒尸鬼",
+      "zh-tw": "信徒屍鬼",
       "pl": "Uczeń Skażenia"
     },
     "weapons": {}
@@ -12068,6 +12366,7 @@
       "tr": "Fare Kralı",
       "vi": "Vua Chuột Khổng Lồ",
       "zh": "巨鼠王",
+      "zh-tw": "巨鼠王",
       "pl": "Szczurzy Król"
     },
     "weapons": {}
@@ -12089,6 +12388,7 @@
       "tr": "Fare Kralı",
       "vi": "Vua Chuột Khổng Lồ",
       "zh": "巨鼠王",
+      "zh-tw": "巨鼠王",
       "pl": "Szczurzy Król"
     },
     "weapons": {}
@@ -12110,6 +12410,7 @@
       "tr": "Fare Kralı",
       "vi": "Vua Chuột Khổng Lồ",
       "zh": "巨鼠王",
+      "zh-tw": "巨鼠王",
       "pl": "Szczurzy Król"
     },
     "weapons": {}
@@ -12131,6 +12432,7 @@
       "tr": "Fare Kralı",
       "vi": "Vua Chuột Khổng Lồ",
       "zh": "巨鼠王",
+      "zh-tw": "巨鼠王",
       "pl": "Szczurzy Król"
     },
     "weapons": {}
@@ -12152,6 +12454,7 @@
       "tr": "Diş Muhafızı",
       "vi": "Lang Nha Hộ Vệ",
       "zh": "狼牙护卫",
+      "zh-tw": "狼牙護衛",
       "pl": "Kłowa Straż"
     },
     "weapons": {}
@@ -12173,6 +12476,7 @@
       "tr": "Diş Muhafızı",
       "vi": "Lang Nha Hộ Vệ",
       "zh": "狼牙护卫",
+      "zh-tw": "狼牙護衛",
       "pl": "Kłowa Straż"
     },
     "weapons": {}
@@ -12194,6 +12498,7 @@
       "tr": "Diş Muhafızı",
       "vi": "Lang Nha Hộ Vệ",
       "zh": "狼牙护卫",
+      "zh-tw": "狼牙護衛",
       "pl": "Kłowa Straż"
     },
     "weapons": {}
@@ -12215,6 +12520,7 @@
       "tr": "Ruh Hırsızı Vebalı",
       "vi": "Nhiếp Hồn Zombie",
       "zh": "摄魂尸鬼",
+      "zh-tw": "攝魂屍鬼",
       "pl": "Skażony Złodziej Dusz"
     },
     "weapons": {}
@@ -12236,6 +12542,7 @@
       "tr": "Ruh Hırsızı Vebalı",
       "vi": "Nhiếp Hồn Zombie",
       "zh": "摄魂尸鬼",
+      "zh-tw": "攝魂屍鬼",
       "pl": "Skażony Złodziej Dusz"
     },
     "weapons": {}
@@ -12257,6 +12564,7 @@
       "tr": "Ruh Hırsızı Vebalı",
       "vi": "Nhiếp Hồn Zombie",
       "zh": "摄魂尸鬼",
+      "zh-tw": "攝魂屍鬼",
       "pl": "Skażony Złodziej Dusz"
     },
     "weapons": {}
@@ -12278,6 +12586,7 @@
       "tr": "Cehennem Doktoru",
       "vi": "Bác Sĩ Địa Ngục",
       "zh": "地狱医生",
+      "zh-tw": "地獄醫生",
       "pl": "Piekielny lekarz"
     },
     "weapons": {}
@@ -12299,6 +12608,7 @@
       "tr": "Cehennem Doktoru",
       "vi": "Bác Sĩ Địa Ngục",
       "zh": "地狱医生",
+      "zh-tw": "地獄醫生",
       "pl": "Piekielny lekarz"
     },
     "weapons": {}
@@ -12320,6 +12630,7 @@
       "tr": "Cehennem Doktoru",
       "vi": "Bác Sĩ Địa Ngục",
       "zh": "地狱医生",
+      "zh-tw": "地獄醫生",
       "pl": "Piekielny lekarz"
     },
     "weapons": {}
@@ -12341,6 +12652,7 @@
       "tr": "Fare Vebası",
       "vi": "Nạn chuột cuồng",
       "zh": "狂鼠之灾",
+      "zh-tw": "狂鼠之災",
       "pl": "Szczurza Plaga"
     },
     "weapons": {}
@@ -12362,6 +12674,7 @@
       "tr": "Fare Vebası",
       "vi": "Nạn chuột cuồng",
       "zh": "狂鼠之灾",
+      "zh-tw": "狂鼠之災",
       "pl": "Szczurza Plaga"
     },
     "weapons": {}
@@ -12383,6 +12696,7 @@
       "tr": "Fare Vebası",
       "vi": "Nạn chuột cuồng",
       "zh": "狂鼠之灾",
+      "zh-tw": "狂鼠之災",
       "pl": "Szczurza Plaga"
     },
     "weapons": {}
@@ -12404,6 +12718,7 @@
       "tr": "Veba Sıçanı Kılıcı",
       "vi": "Đại đao Nạn chuột cuồng",
       "zh": "狂鼠之灾大刀",
+      "zh-tw": "狂鼠之災大刀",
       "pl": "Wielki Miecz Szczurzej Plagi"
     },
     "weapons": {}
@@ -12425,6 +12740,7 @@
       "tr": "Veba Sıçanı Kılıcı",
       "vi": "Đại đao Nạn chuột cuồng",
       "zh": "狂鼠之灾大刀",
+      "zh-tw": "狂鼠之災大刀",
       "pl": "Wielki Miecz Szczurzej Plagi"
     },
     "weapons": {}
@@ -12446,6 +12762,7 @@
       "tr": "Veba Sıçanı Kılıcı",
       "vi": "Đại đao Nạn chuột cuồng",
       "zh": "狂鼠之灾大刀",
+      "zh-tw": "狂鼠之災大刀",
       "pl": "Wielki Miecz Szczurzej Plagi"
     },
     "weapons": {}
@@ -12467,6 +12784,7 @@
       "tr": "Veba Sıçanı Kılıcı",
       "vi": "Đại đao Nạn chuột cuồng",
       "zh": "狂鼠之灾大刀",
+      "zh-tw": "狂鼠之災大刀",
       "pl": "Wielki Miecz Szczurzej Plagi"
     },
     "weapons": {}
@@ -12488,6 +12806,7 @@
       "tr": "Veba Sıçanı Kılıcı",
       "vi": "Đại đao Nạn chuột cuồng",
       "zh": "狂鼠之灾大刀",
+      "zh-tw": "狂鼠之災大刀",
       "pl": "Wielki Miecz Szczurzej Plagi"
     },
     "weapons": {}
@@ -12509,6 +12828,7 @@
       "tr": "Veba Sıçanı Kılıcı",
       "vi": "Đại đao Nạn chuột cuồng",
       "zh": "狂鼠之灾大刀",
+      "zh-tw": "狂鼠之災大刀",
       "pl": "Wielki Miecz Szczurzej Plagi"
     },
     "weapons": {}
@@ -12530,6 +12850,7 @@
       "tr": "Veba Sıçanı Kılıcı",
       "vi": "Đại đao Nạn chuột cuồng",
       "zh": "狂鼠之灾大刀",
+      "zh-tw": "狂鼠之災大刀",
       "pl": "Wielki Miecz Szczurzej Plagi"
     },
     "weapons": {}
@@ -12551,6 +12872,7 @@
       "tr": "Veba Sıçanı Kılıcı",
       "vi": "Đại đao Nạn chuột cuồng",
       "zh": "狂鼠之灾大刀",
+      "zh-tw": "狂鼠之災大刀",
       "pl": "Wielki Miecz Szczurzej Plagi"
     },
     "weapons": {}
@@ -12572,6 +12894,7 @@
       "tr": "Veba Sıçanı Kılıcı",
       "vi": "Đại đao Nạn chuột cuồng",
       "zh": "狂鼠之灾大刀",
+      "zh-tw": "狂鼠之災大刀",
       "pl": "Wielki Miecz Szczurzej Plagi"
     },
     "weapons": {}
@@ -12593,6 +12916,7 @@
       "tr": "Veba Sıçanı Arabası",
       "vi": "Xe ngựa Nạn chuột cuồng",
       "zh": "狂鼠之灾马车",
+      "zh-tw": "狂鼠之災馬車",
       "pl": "Wóz Szczurzej Plagi"
     },
     "weapons": {}
@@ -12614,6 +12938,7 @@
       "tr": "Veba Sıçanı Arabası",
       "vi": "Xe ngựa Nạn chuột cuồng",
       "zh": "狂鼠之灾马车",
+      "zh-tw": "狂鼠之災馬車",
       "pl": "Wóz Szczurzej Plagi"
     },
     "weapons": {}
@@ -12635,6 +12960,7 @@
       "tr": "Veba Sıçanı Arabası",
       "vi": "Xe ngựa Nạn chuột cuồng",
       "zh": "狂鼠之灾马车",
+      "zh-tw": "狂鼠之災馬車",
       "pl": "Wóz Szczurzej Plagi"
     },
     "weapons": {}
@@ -12656,6 +12982,7 @@
       "tr": "Savaşçı Vebalı Kral",
       "vi": "Chiến Binh Zombie Vua",
       "zh": "战士尸鬼王",
+      "zh-tw": "戰士屍鬼王",
       "pl": "Król Skażonych Wojowników"
     },
     "weapons": {}
@@ -12677,6 +13004,7 @@
       "tr": "Savaşçı Vebalı Kral",
       "vi": "Chiến Binh Zombie Vua",
       "zh": "战士尸鬼王",
+      "zh-tw": "戰士屍鬼王",
       "pl": "Król Skażonych Wojowników"
     },
     "weapons": {}
@@ -12698,6 +13026,7 @@
       "tr": "Savaşçı Vebalı Kral",
       "vi": "Chiến Binh Zombie Vua",
       "zh": "战士尸鬼王",
+      "zh-tw": "戰士屍鬼王",
       "pl": "Król Skażonych Wojowników"
     },
     "weapons": {}
@@ -12719,6 +13048,7 @@
       "tr": "Büyücü Vebalı Kral",
       "vi": "Pháp Sư Zombie Vua",
       "zh": "术士尸鬼王",
+      "zh-tw": "術士屍鬼王",
       "pl": "Król Skażonych Czarnoksiężników"
     },
     "weapons": {}
@@ -12740,6 +13070,7 @@
       "tr": "Büyücü Vebalı Kral",
       "vi": "Pháp Sư Zombie Vua",
       "zh": "术士尸鬼王",
+      "zh-tw": "術士屍鬼王",
       "pl": "Król Skażonych Czarnoksiężników"
     },
     "weapons": {}
@@ -12761,6 +13092,7 @@
       "tr": "Büyücü Vebalı Kral",
       "vi": "Pháp Sư Zombie Vua",
       "zh": "术士尸鬼王",
+      "zh-tw": "術士屍鬼王",
       "pl": "Król Skażonych Czarnoksiężników"
     },
     "weapons": {}
@@ -12782,6 +13114,7 @@
       "tr": "Korucu Vebalı Kral",
       "vi": "Du Hiệp Zombie Vua",
       "zh": "游侠尸鬼王",
+      "zh-tw": "遊俠屍鬼王",
       "pl": "Król Skażonych Łowców"
     },
     "weapons": {}
@@ -12803,6 +13136,7 @@
       "tr": "Korucu Vebalı Kral",
       "vi": "Du Hiệp Zombie Vua",
       "zh": "游侠尸鬼王",
+      "zh-tw": "遊俠屍鬼王",
       "pl": "Król Skażonych Łowców"
     },
     "weapons": {}
@@ -12824,6 +13158,7 @@
       "tr": "Korucu Vebalı Kral",
       "vi": "Du Hiệp Zombie Vua",
       "zh": "游侠尸鬼王",
+      "zh-tw": "遊俠屍鬼王",
       "pl": "Król Skażonych Łowców"
     },
     "weapons": {}
@@ -12847,6 +13182,7 @@
       "tr": "BOSS-11",
       "vi": "BOSS-11",
       "zh": "BOSS-11",
+      "zh-tw": "BOSS-11",
       "pl": "BOSS-11"
     },
     "weapons": {}
@@ -12870,6 +13206,7 @@
       "tr": "BOSS-11",
       "vi": "BOSS-11",
       "zh": "BOSS-11",
+      "zh-tw": "BOSS-11",
       "pl": "BOSS-11"
     },
     "weapons": {}
@@ -12893,6 +13230,7 @@
       "tr": "BOSS-11",
       "vi": "BOSS-11",
       "zh": "BOSS-11",
+      "zh-tw": "BOSS-11",
       "pl": "BOSS-11"
     },
     "weapons": {}
@@ -12914,6 +13252,7 @@
       "tr": "\\",
       "vi": "Zombie Giáo hoàng",
       "zh": "“教皇”尸鬼",
+      "zh-tw": "“教皇”屍鬼",
       "pl": "„Papież\\"
     },
     "weapons": {}
@@ -12935,6 +13274,7 @@
       "tr": "\\",
       "vi": "Zombie Giáo hoàng",
       "zh": "“教皇”尸鬼",
+      "zh-tw": "“教皇”屍鬼",
       "pl": "„Papież\\"
     },
     "weapons": {}
@@ -12956,6 +13296,7 @@
       "tr": "\\",
       "vi": "Zombie Giáo hoàng",
       "zh": "“教皇”尸鬼",
+      "zh-tw": "“教皇”屍鬼",
       "pl": "„Papież\\"
     },
     "weapons": {}
@@ -12977,6 +13318,7 @@
       "tr": "Dev Baltalı Savaşçı",
       "vi": "Chiến binh rìu khổng lồ",
       "zh": "巨斧战士",
+      "zh-tw": "巨斧戰士",
       "pl": "Gigantyczny Wojownik z Toporem"
     },
     "weapons": {}
@@ -12998,6 +13340,7 @@
       "tr": "Dev Baltalı Savaşçı",
       "vi": "Chiến binh rìu khổng lồ",
       "zh": "巨斧战士",
+      "zh-tw": "巨斧戰士",
       "pl": "Gigantyczny Wojownik z Toporem"
     },
     "weapons": {}
@@ -13019,6 +13362,7 @@
       "tr": "Dev Baltalı Savaşçı",
       "vi": "Chiến binh rìu khổng lồ",
       "zh": "巨斧战士",
+      "zh-tw": "巨斧戰士",
       "pl": "Gigantyczny Wojownik z Toporem"
     },
     "weapons": {}
