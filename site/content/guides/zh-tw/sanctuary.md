@@ -4,6 +4,7 @@ description: "避難所限制了城內的幾乎一切：英雄等級、其他建
 lang: zh-tw
 updated: "2026-09-19"
 type: guide
+infographics: ["/infographics/sanctuary-guide-zh-tw.webp"]
 ---
 
 > 數據已通過遊戲客戶端驗證（v1.0.87，來源：[wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/sanctuary)）。

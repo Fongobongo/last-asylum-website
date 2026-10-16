@@ -4,6 +4,7 @@ description: "Il Santuario stabilisce il limite per quasi tutto in città: livel
 lang: it
 updated: "2026-09-19"
 type: guide
+infographics: ["/infographics/sanctuary-guide-it.webp"]
 ---
 
 > Dati verificati con il client di gioco (v1.0.87, fonte: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/sanctuary)).

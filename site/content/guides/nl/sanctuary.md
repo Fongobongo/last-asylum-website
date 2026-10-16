@@ -4,6 +4,7 @@ description: "Het Heiligdom bepaalt de limiet voor bijna alles in de stad: helde
 lang: nl
 updated: "2026-09-19"
 type: guide
+infographics: ["/infographics/sanctuary-guide-nl.webp"]
 ---
 
 > Gegevens geverifieerd tegen de gameclient (v1.0.87, bron: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/sanctuary)).

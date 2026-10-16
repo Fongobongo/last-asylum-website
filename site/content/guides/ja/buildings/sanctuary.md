@@ -5,6 +5,7 @@ videoTopic: "buildings"
 lang: ja
 updated: "2026-09-19"
 type: guide
+infographics: ["/infographics/sanctuary-guide-ja.webp"]
 ---
 ![教会](/building-icons/1001.png)
 

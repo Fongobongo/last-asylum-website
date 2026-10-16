@@ -4,6 +4,7 @@ description: "Sanktuarium wyznacza limit niemal wszystkiego w mieście: poziomó
 lang: pl
 updated: "2026-09-19"
 type: guide
+infographics: ["/infographics/sanctuary-guide-pl.webp"]
 ---
 
 > Dane zweryfikowane na podstawie klienta gry (wersja 1.0.87, źródło: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/sanctuary)).

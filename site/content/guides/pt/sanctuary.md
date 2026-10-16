@@ -4,6 +4,7 @@ description: "The Sanctuary sets the limit on almost everything in the city: her
 lang: pt
 updated: "2026-09-19"
 type: guide
+infographics: ["/infographics/sanctuary-guide-pt.webp"]
 ---
 
 > Baseado na versão em inglês; números verificados do cliente v1.0.87.

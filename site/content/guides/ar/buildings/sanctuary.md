@@ -5,6 +5,7 @@ videoTopic: "buildings"
 lang: ar
 updated: "2026-09-19"
 type: guide
+infographics: ["/infographics/sanctuary-guide-ar.webp"]
 ---
 ![الملاذ](/building-icons/1001.png)
 

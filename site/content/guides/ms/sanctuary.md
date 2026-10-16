@@ -4,6 +4,7 @@ description: "Sanctuary menetapkan had untuk hampir segala-galanya di bandar: ta
 lang: ms
 updated: "2026-09-19"
 type: guide
+infographics: ["/infographics/sanctuary-guide-ms.webp"]
 ---
 
 > Data disahkan terhadap klien permainan (v1.0.87, sumber: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/sanctuary)).

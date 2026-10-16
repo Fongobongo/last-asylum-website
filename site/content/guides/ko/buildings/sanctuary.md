@@ -5,6 +5,7 @@ videoTopic: "buildings"
 lang: ko
 updated: "2026-09-19"
 type: guide
+infographics: ["/infographics/sanctuary-guide-ko.webp"]
 ---
 ![성당](/building-icons/1001.png)
 

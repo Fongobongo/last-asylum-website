@@ -5,6 +5,7 @@ videoTopic: "buildings"
 lang: vi
 updated: "2026-09-19"
 type: guide
+infographics: ["/infographics/sanctuary-guide-vi.webp"]
 ---
 ![Thánh Điện](/building-icons/1001.png)
 

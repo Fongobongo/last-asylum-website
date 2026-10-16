@@ -4,6 +4,7 @@ description: "Святилище задаёт предел почти всему
 lang: ru
 updated: "2026-09-19"
 type: guide
+infographics: ["/infographics/sanctuary-guide-ru.webp"]
 ---
 
 > Данные сверены с игровым клиентом (v1.0.87, [wiki-last-asylum.com](https://wiki-last-asylum.com/ru/wiki/sanctuary)).

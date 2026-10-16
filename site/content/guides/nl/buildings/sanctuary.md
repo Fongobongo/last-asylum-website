@@ -5,6 +5,7 @@ videoTopic: "buildings"
 lang: nl
 updated: "2026-09-19"
 type: guide
+infographics: ["/infographics/sanctuary-guide-nl.webp"]
 ---
 ![Sanctuary](/building-icons/1001.png)
 

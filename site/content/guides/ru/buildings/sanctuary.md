@@ -5,6 +5,7 @@ videoTopic: "buildings"
 lang: ru
 updated: "2026-09-19"
 type: guide
+infographics: ["/infographics/sanctuary-guide-ru.webp"]
 ---
 ![Святилище](/building-icons/1001.png)
 

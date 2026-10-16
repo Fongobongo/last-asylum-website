@@ -4,6 +4,7 @@ description: "Sanctuary đặt ra giới hạn cho hầu hết mọi thứ trong
 lang: vi
 updated: "2026-09-19"
 type: guide
+infographics: ["/infographics/sanctuary-guide-vi.webp"]
 ---
 
 > Dữ liệu đã được xác minh với client trò chơi (v1.0.87, nguồn: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/sanctuary)).

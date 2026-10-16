@@ -4,6 +4,7 @@ description: "Sığınak, şehirdeki neredeyse her şeyin sınırını belirler:
 lang: tr
 updated: "2026-09-19"
 type: guide
+infographics: ["/infographics/sanctuary-guide-tr.webp"]
 ---
 
 > Veriler oyun istemcisi üzerinden doğrulanmıştır (v1.0.87, kaynak: [wiki-last-asylum.com](https://wiki-last-asylum.com/tr/wiki/sanctuary)).

@@ -5,6 +5,7 @@ videoTopic: "buildings"
 lang: pt
 updated: "2026-09-19"
 type: guide
+infographics: ["/infographics/sanctuary-guide-pt.webp"]
 ---
 ![Santuário](/building-icons/1001.png)
 

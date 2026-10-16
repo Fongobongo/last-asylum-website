@@ -5,6 +5,7 @@ videoTopic: "buildings"
 lang: de
 updated: "2026-09-19"
 type: guide
+infographics: ["/infographics/sanctuary-guide-de.webp"]
 ---
 ![Zuflucht](/building-icons/1001.png)
 

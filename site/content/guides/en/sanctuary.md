@@ -4,6 +4,7 @@ description: "The Sanctuary sets the limit on almost everything in the city: her
 lang: en
 updated: "2026-09-19"
 type: guide
+infographics: ["/infographics/sanctuary-guide-en.webp"]
 ---
 
 > Data verified against the game client (v1.0.87, source: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/sanctuary)).

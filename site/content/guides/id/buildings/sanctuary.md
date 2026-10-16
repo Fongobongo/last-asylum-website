@@ -5,6 +5,7 @@ videoTopic: "buildings"
 lang: id
 updated: "2026-09-19"
 type: guide
+infographics: ["/infographics/sanctuary-guide-id.webp"]
 ---
 ![Kuil](/building-icons/1001.png)
 

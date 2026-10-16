@@ -4,6 +4,7 @@ description: "يحدد الملاذ الحد الأقصى لكل شيء تقري
 lang: ar
 updated: "2026-09-19"
 type: guide
+infographics: ["/infographics/sanctuary-guide-ar.webp"]
 ---
 
 > تم التحقق من البيانات مقابل عميل اللعبة (الإصدار 1.0.87، المصدر: [wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/sanctuary)).

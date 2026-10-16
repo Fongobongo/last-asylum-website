@@ -4,6 +4,7 @@ description: "避难所限制了城内的几乎一切：英雄等级、其他建
 lang: zh
 updated: "2026-09-19"
 type: guide
+infographics: ["/infographics/sanctuary-guide-zh.webp"]
 ---
 
 > 数据已通过游戏客户端验证（v1.0.87，来源：[wiki-last-asylum.com](https://wiki-last-asylum.com/en/wiki/sanctuary)）。

@@ -5,6 +5,7 @@ videoTopic: "buildings"
 lang: zh
 updated: "2026-09-19"
 type: guide
+infographics: ["/infographics/sanctuary-guide-zh.webp"]
 ---
 ![避难所](/building-icons/1001.png)
 

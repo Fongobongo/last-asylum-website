@@ -26,9 +26,55 @@ const ui = {
 type UiKey = keyof typeof ui;
 const t = (k: UiKey) => (ui[k] as Record<string, string>)[lang] ?? ui[k].en;
 const imgLang = (src: string) => {
+  const m = src.match(/-([a-z]{2}(?:-[a-z]{2})?)\.(?:webp|png|jpg)$/i);
+  if (m) return m[1].toUpperCase();
   if (src.includes('-ru.')) return 'RU';
   if (src.includes('-en.')) return 'EN';
   return 'EN';
+};
+
+const sanctuaryTitles: Record<string, string> = {
+  en: 'Sanctuary Progression (Lv. 7 — 30)',
+  ru: 'Развитие Святилища (Ур. 7 — 30)',
+  es: 'Progresión del Santuario (Nv. 7 — 30)',
+  pt: 'Progressão do Santuário (Nv. 7 — 30)',
+  fr: 'Progression du Sanctuaire (Niv. 7 — 30)',
+  de: 'Zuflucht-Aufstieg (Stufe 7 — 30)',
+  id: 'Progresi Sanctuary (Lv. 7 — 30)',
+  ko: '생츄어리 업그레이드 (Lv. 7 — 30)',
+  ja: '聖域の育成早見表 (Lv. 7 — 30)',
+  ar: 'ترقية الملاذ (المستوى 7 — 30)',
+  it: 'Progressione Santuario (Liv. 7 — 30)',
+  ms: 'Kemajuan Sanctuary (Lv. 7 — 30)',
+  nl: 'Heiligdom Progressie (Niv. 7 — 30)',
+  th: 'ลำดับการอัปเกรดแซงทัวรี (Lv. 7 — 30)',
+  tr: 'Sığınak Gelişimi (Sv. 7 — 30)',
+  vi: 'Tiến Trình Thánh Địa (Lv. 7 — 30)',
+  zh: '庇护所升级指南 (7 — 30级)',
+  pl: 'Progres Sanktuarium (Poz. 7 — 30)',
+  'zh-tw': '庇護所升級指南 (7 — 30級)',
+};
+
+const sanctuaryDescs: Record<string, string> = {
+  en: 'Building requirements, resources (wheat, wood, herb), base construction times, and key unlocks for Sanctuary levels 7–30.',
+  ru: 'Требования зданий, ресурсы (зерно, дерево, трава), базовое время постройки и разблокировки на каждом уровне 7–30.',
+  es: 'Requisitos de edificios, costes de recursos, tiempo base de construcción y desbloqueos clave para los niveles 7–30.',
+  pt: 'Requisitos de edifícios, custos de recursos, tempo base de construção e desbloqueios para os níveis 7–30.',
+  fr: 'Prérequis de bâtiments, coûts en ressources, temps de construction de base et déblocages des niveaux 7 à 30.',
+  de: 'Gebäudeanforderungen, Ressourcenkosten, Bauzeiten und Freischaltungen für Zuflucht Stufen 7–30.',
+  id: 'Syarat bangunan, biaya sumber daya, waktu pembangunan dasar, dan pembukaan fitur level 7–30.',
+  ko: '생츄어리 7~30레벨 건물 요구사항, 자원 비용, 기본 건설 시간 및 주요 해금 항목 정리.',
+  ja: '聖域レベル7〜30の施設条件、資源コスト、基本建設時間、主要アンロック要素の早見表。',
+  ar: 'متطلبات المباني، وتكاليف الموارد، ووقت البناء الأساسي، والفتوحات للمستويات 7–30.',
+  it: 'Requisiti degli edifici, costi in risorse, tempi di costruzione base e sblocchi chiave per i livelli 7–30.',
+  ms: 'Keperluan bangunan, kos sumber, masa pembinaan asas, dan buka kunci penting untuk tahap 7–30.',
+  nl: 'Gebouwvereisten, grondstoffenkosten, basisebouwtijden en ontgrendelingen voor niveaus 7–30.',
+  th: 'ข้อกำหนดอาคาร ทรัพยากร เวลาสร้างพื้นฐาน และการปลดล็อกสำคัญสำหรับแซงทัวรีเลเวล 7–30',
+  tr: '7–30 seviyeleri için bina gereksinimleri, kaynak maliyetleri, temel inşa süreleri ve kilit açılışlar.',
+  vi: 'Yêu cầu công trình, chi phí tài nguyên, thời gian xây dựng gốc và mở khóa tính năng cấp 7–30.',
+  zh: '庇护所7–30级建筑前置条件、资源消耗、基础建造时间与关键解锁一览。',
+  pl: 'Wymagania budynków, koszty surowców, czasy budowy i kluczowe odblokowania dla poziomów 7–30.',
+  'zh-tw': '庇護所7–30級建築前置條件、資源消耗、基礎建造時間與關鍵解鎖一覽。',
 };
 
 export interface InfographicItem {
@@ -192,6 +238,14 @@ const gallery: InfographicItem[] = [
   },
 
   // Base & Economy
+  {
+    id: 'sanctuary-guide',
+    title: sanctuaryTitles[lang] ?? sanctuaryTitles.en,
+    category: 'base',
+    src: `/infographics/sanctuary-guide-${lang}.webp`,
+    author: 'Last Asylum Community',
+    desc: sanctuaryDescs[lang] ?? sanctuaryDescs.en,
+  },
   {
     id: 'building-speed',
     title: isRu ? 'Формула скорости строительства' : 'Building Speed Formula',
