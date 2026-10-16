@@ -263,9 +263,11 @@ while ((m = re.exec(slots)) !== null) {
       )
     }
 
-    <div class="prose-la">
-      <slot />
-    </div>
+    {/* NOTE: рендерим уже полученную в frontmatter строку слота (set:html).
+         Повторный <slot /> терял hoisted-скрипты дочерних компонентов
+         (InfographicGallery, PvPMatrix, TroopCalc, SquadQuiz и др.) —
+         Astro дедуплицирует скрипты при повторном рендере слота. */}
+    <div class="prose-la" set:html={slots} />
 
     <div class="mt-10">
       <Feedback lang={Astro.props.lang} />
