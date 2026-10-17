@@ -32,19 +32,25 @@ export function ipKey(ip) {
   return (h >>> 0).toString(36);
 }
 
-export function identOf(req, fp) {
+// For gift-code keys the client-provided fingerprint is NOT trusted: a script
+// can rotate it to cast unlimited votes and auto-promote a fake code to
+// "approved". One vote per IP per code is the honest dedup there.
+export function identOf(req, fp, key = '') {
+  if (key.startsWith('code:')) return ipKey(clientIp(req));
   return `${ipKey(clientIp(req))}:${fp || 'nofp'}`;
 }
 
-// Pure transition, easy to unit-test: returns {totals, mine}.
-export function applyVote(totals, prev, vote) {
-  const t = { likes: Math.max(0, totals.likes | 0), dislikes: Math.max(0, totals.dislikes | 0) };
-  if (prev === 'yes') t.likes = Math.max(0, t.likes - 1);
-  else if (prev === 'no') t.dislikes = Math.max(0, t.dislikes - 1);
+// Pure transition, easy to unit-test: returns {dLikes, dDislikes, mine}.
+// Deltas keep concurrent votes composable — the server applies them with SQL
+// increments, so two votes landing at the same time both count.
+export function voteDelta(prev, vote) {
+  const d = { dLikes: 0, dDislikes: 0 };
+  if (prev === 'yes') d.dLikes--;
+  else if (prev === 'no') d.dDislikes--;
   const next = prev === vote ? null : vote;
-  if (next === 'yes') t.likes++;
-  else if (next === 'no') t.dislikes++;
-  return { totals: t, mine: next };
+  if (next === 'yes') d.dLikes++;
+  else if (next === 'no') d.dDislikes++;
+  return { ...d, mine: next };
 }
 
 export async function readTotals(db, key) {
@@ -61,16 +67,16 @@ export async function readMine(db, key, ident) {
   return v === 'yes' || v === 'no' ? v : null;
 }
 
-export async function writeVote(db, key, ident, next, totals) {
+export async function writeVote(db, key, ident, next, dLikes, dDislikes) {
+  // SQL-side increments: safe under concurrency. The INSERT arm carries the
+  // delta as the initial absolute value; the ON CONFLICT arm adds deltas.
+  const totalsSql =
+    'INSERT INTO totals (key, likes, dislikes) VALUES (?, ?, ?) ' +
+    'ON CONFLICT(key) DO UPDATE SET likes = totals.likes + excluded.likes, dislikes = totals.dislikes + excluded.dislikes';
   const now = Date.now();
   if (next) {
     await db.batch([
-      db
-        .prepare(
-          'INSERT INTO totals (key, likes, dislikes) VALUES (?, ?, ?) ' +
-            'ON CONFLICT(key) DO UPDATE SET likes = excluded.likes, dislikes = excluded.dislikes'
-        )
-        .bind(key, totals.likes, totals.dislikes),
+      db.prepare(totalsSql).bind(key, dLikes, dDislikes),
       db
         .prepare(
           'INSERT INTO votes (key, ident, vote, updated_at) VALUES (?, ?, ?, ?) ' +
@@ -80,12 +86,7 @@ export async function writeVote(db, key, ident, next, totals) {
     ]);
   } else {
     await db.batch([
-      db
-        .prepare(
-          'INSERT INTO totals (key, likes, dislikes) VALUES (?, ?, ?) ' +
-            'ON CONFLICT(key) DO UPDATE SET likes = excluded.likes, dislikes = excluded.dislikes'
-        )
-        .bind(key, totals.likes, totals.dislikes),
+      db.prepare(totalsSql).bind(key, dLikes, dDislikes),
       db.prepare('DELETE FROM votes WHERE key = ? AND ident = ?').bind(key, ident),
     ]);
   }

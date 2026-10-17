@@ -7,7 +7,7 @@ import {
   PROMOTE_LIKES,
   json,
   identOf,
-  applyVote,
+  voteDelta,
   readTotals,
   readMine,
   writeVote,
@@ -47,19 +47,22 @@ export async function onRequest(context) {
   if (!db) return json(503, { error: 'store unavailable' });
 
   try {
-    const ident = identOf(req, fp);
+    // For code:* keys identOf ignores the client fingerprint (anti-spam),
+    // so GET and POST must agree on the ident computation.
+    const ident = identOf(req, fp, key);
 
     if (req.method === 'GET') {
       const totals = await readTotals(db, key);
-      const mine = fp ? await readMine(db, key, ident) : null;
+      const mine = await readMine(db, key, ident);
       return json(200, { likes: totals.likes, dislikes: totals.dislikes, mine });
     }
 
-    // POST (validated above)
-    const totals = await readTotals(db, key);
+    // POST (validated above): compute per-vote deltas, apply via SQL
+    // increments (concurrency-safe), then read back the authoritative totals.
     const prev = await readMine(db, key, ident);
-    const { totals: next, mine } = applyVote(totals, prev, vote);
-    await writeVote(db, key, ident, mine, next);
+    const { dLikes, dDislikes, mine } = voteDelta(prev, vote);
+    await writeVote(db, key, ident, mine, dLikes, dDislikes);
+    const next = await readTotals(db, key);
 
     // Promotion: a pending player suggestion with enough likes stays for good.
     let promoted = false;

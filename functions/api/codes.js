@@ -1,7 +1,7 @@
 // GET /api/codes — player suggestions with live totals for the
 // "new from players" section. (Builtin codes ship in the page bundle;
 // the frontend merges both and derives the probably-expired section.)
-import { json, readTotals } from './_store.js';
+import { json } from './_store.js';
 
 export async function onRequest(context) {
   const { request: req, env } = context;
@@ -11,22 +11,27 @@ export async function onRequest(context) {
   if (!db) return json(503, { error: 'store unavailable' });
 
   try {
-    const rows = await db
-      .prepare('SELECT code, note, status, created_at FROM suggested_codes ORDER BY created_at DESC LIMIT 200')
+    // Single JOIN instead of 1 + N queries: this endpoint is hit from
+    // the /codes/ page on every language on every visit.
+    const { results } = await db
+      .prepare(
+        'SELECT s.code, s.note, s.status, s.created_at, ' +
+          "COALESCE(t.likes, 0) AS likes, COALESCE(t.dislikes, 0) AS dislikes " +
+          'FROM suggested_codes s ' +
+          "LEFT JOIN totals t ON t.key = 'code:' || s.code " +
+          'ORDER BY s.created_at DESC LIMIT 200'
+      )
       .all();
-    const suggestions = [];
-    for (const r of rows.results ?? []) {
-      const totals = await readTotals(db, `code:${r.code}`);
-      suggestions.push({
+    return json(200, {
+      suggestions: (results ?? []).map((r) => ({
         code: r.code,
         note: r.note || '',
         status: r.status,
         created_at: r.created_at,
-        likes: totals.likes,
-        dislikes: totals.dislikes,
-      });
-    }
-    return json(200, { suggestions });
+        likes: Math.max(0, r.likes | 0),
+        dislikes: Math.max(0, r.dislikes | 0),
+      })),
+    });
   } catch (e) {
     return json(500, { error: 'internal' });
   }

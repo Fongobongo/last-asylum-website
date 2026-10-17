@@ -41,12 +41,21 @@ export async function onRequest(context) {
     if ((quota?.n ?? 0) >= SUGGEST_PER_DAY) {
       return json(429, { error: 'too many suggestions, try tomorrow' });
     }
-    await db
-      .prepare(
-        'INSERT INTO suggested_codes (code, note, status, submitter, created_at) VALUES (?, ?, ?, ?, ?)'
-      )
-      .bind(code, note, 'pending', submitter, Date.now())
-      .run();
+    try {
+      await db
+        .prepare(
+          'INSERT INTO suggested_codes (code, note, status, submitter, created_at) VALUES (?, ?, ?, ?, ?)'
+        )
+        .bind(code, note, 'pending', submitter, Date.now())
+        .run();
+    } catch (e) {
+      // Two identical codes submitted at the same time: the PRIMARY KEY on
+      // code makes the second insert fail. Answer "duplicate" instead of 500.
+      if (String(e?.message || '').includes('UNIQUE') || String(e?.message || '').includes('constraint')) {
+        return json(200, { ok: true, duplicate: true, code, status: 'pending' });
+      }
+      throw e;
+    }
     return json(200, { ok: true, code, status: 'pending' });
   } catch (e) {
     return json(500, { error: 'internal' });
