@@ -35,6 +35,21 @@ jobs:
       - name: Check internal links
         run: npm run check:links
 
+      - name: Verify search index exists
+        run: |
+          test -f dist/pagefind/pagefind.js || {
+            echo "::error::pagefind index missing — refusing to deploy"; exit 1;
+          }
+
+      - name: Deploy to Cloudflare Pages
+        # CI runners have 7 GB RAM; the local box OOM-kills pagefind at ~2.7 GB.
+        # Prod must always deploy from this full, verified build.
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: npx wrangler pages deploy dist --project-name=lastasylum --branch=main
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
       - name: Upload artifact
         if: github.event_name == 'push'
         uses: actions/upload-artifact@v4

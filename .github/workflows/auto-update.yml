@@ -54,3 +54,11 @@ jobs:
             git commit -m "chore: auto-update patch notes [skip ci]"
             git push
           fi
+      - name: Deploy updated site to Cloudflare Pages
+        working-directory: site
+        run: |
+          test -f dist/pagefind/pagefind.js || { echo "pagefind index missing — refusing to deploy"; exit 1; }
+          npx wrangler pages deploy dist --project-name=lastasylum --branch=main
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

@@ -12,7 +12,8 @@
     "astro": "astro",
     "check:links": "node scripts/check-links.mjs",
     "db:sync": "node scripts/sync-db-articles.mjs",
-    "db:seed": "node scripts/seed-supabase.mjs"
+    "db:seed": "node scripts/seed-supabase.mjs",
+    "deploy": "bash scripts/deploy.sh"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
