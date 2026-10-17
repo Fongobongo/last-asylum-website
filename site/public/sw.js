@@ -1,4 +1,5 @@
-const CACHE_NAME = 'la-hub-v1';
+const CACHE_NAME = 'la-hub-v3';
+
 const STATIC_ASSETS = [
   '/',
   '/manifest.webmanifest',
@@ -37,16 +38,16 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Static assets (images, fonts, scripts): Cache-First
-  if (
-    url.pathname.startsWith('/icons/') ||
-    url.pathname.startsWith('/infographics/') ||
-    url.pathname.endsWith('.webp') ||
-    url.pathname.endsWith('.png') ||
-    url.pathname.endsWith('.svg') ||
-    url.pathname.endsWith('.css') ||
-    url.pathname.endsWith('.js')
-  ) {
+  // Only content-hashed build assets (/_astro/*, /js/* with ?v= query) are
+  // safe to cache forever: their URL changes when the content changes.
+  // Everything else — infographics, images, HTML — is network-first so
+  // returning visitors actually see updates (gift codes change daily!).
+  const isImmutable =
+    url.pathname.startsWith('/_astro/') ||
+    (url.pathname.startsWith('/js/') && url.search.length > 0);
+
+  if (isImmutable) {
+    // Cache-First
     event.respondWith(
       caches.match(req).then((cached) => {
         if (cached) return cached;
@@ -62,18 +63,23 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // HTML pages: Stale-While-Revalidate (Instant offline access + auto refresh)
+  // Network-First with cache fallback (offline access to visited pages)
   event.respondWith(
-    caches.match(req).then((cached) => {
-      const fetchPromise = fetch(req).then((networkRes) => {
-        if (networkRes && networkRes.status === 200) {
-          const clone = networkRes.clone();
+    fetch(req)
+      .then((res) => {
+        if (res.status === 200) {
+          const clone = res.clone();
           caches.open(CACHE_NAME).then((cache) => cache.put(req, clone));
         }
-        return networkRes;
-      }).catch(() => cached || caches.match('/'));
-
-      return cached || fetchPromise;
-    })
+        return res;
+      })
+      .catch(() =>
+        caches.match(req).then((cached) => {
+          if (cached) return cached;
+          // Offline navigation fallback: cached home page
+          if (req.mode === 'navigate') return caches.match('/');
+          return Response.error();
+        })
+      )
   );
 });
