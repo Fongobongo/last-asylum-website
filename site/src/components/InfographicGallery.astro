@@ -26,6 +26,7 @@ const ui = {
 type UiKey = keyof typeof ui;
 const t = (k: UiKey) => (ui[k] as Record<string, string>)[lang] ?? ui[k].en;
 const imgLang = (src: string) => {
+  if (src.includes('cheese-trap')) return 'RU';
   const m = src.match(/-([a-z]{2}(?:-[a-z]{2})?)\.(?:webp|png|jpg)$/i);
   if (m) return m[1].toUpperCase();
   if (src.includes('-ru.')) return 'RU';
@@ -33,49 +34,41 @@ const imgLang = (src: string) => {
   return 'EN';
 };
 
-const sanctuaryTitles: Record<string, string> = {
-  en: 'Sanctuary Progression (Lv. 7 — 30)',
-  ru: 'Развитие Святилища (Ур. 7 — 30)',
-  es: 'Progresión del Santuario (Nv. 7 — 30)',
-  pt: 'Progressão do Santuário (Nv. 7 — 30)',
-  fr: 'Progression du Sanctuaire (Niv. 7 — 30)',
-  de: 'Zuflucht-Aufstieg (Stufe 7 — 30)',
-  id: 'Progresi Sanctuary (Lv. 7 — 30)',
-  ko: '생츄어리 업그레이드 (Lv. 7 — 30)',
-  ja: '聖域の育成早見表 (Lv. 7 — 30)',
-  ar: 'ترقية الملاذ (المستوى 7 — 30)',
-  it: 'Progressione Santuario (Liv. 7 — 30)',
-  ms: 'Kemajuan Sanctuary (Lv. 7 — 30)',
-  nl: 'Heiligdom Progressie (Niv. 7 — 30)',
-  th: 'ลำดับการอัปเกรดแซงทัวรี (Lv. 7 — 30)',
-  tr: 'Sığınak Gelişimi (Sv. 7 — 30)',
-  vi: 'Tiến Trình Thánh Địa (Lv. 7 — 30)',
-  zh: '庇护所升级指南 (7 — 30级)',
-  pl: 'Progres Sanktuarium (Poz. 7 — 30)',
-  'zh-tw': '庇護所升級指南 (7 — 30級)',
-};
+import translations from '../data/infographicsTranslations.json';
 
-const sanctuaryDescs: Record<string, string> = {
-  en: 'Building requirements, resources (wheat, wood, herb), base construction times, and key unlocks for Sanctuary levels 7–30.',
-  ru: 'Требования зданий, ресурсы (зерно, дерево, трава), базовое время постройки и разблокировки на каждом уровне 7–30.',
-  es: 'Requisitos de edificios, costes de recursos, tiempo base de construcción y desbloqueos clave para los niveles 7–30.',
-  pt: 'Requisitos de edifícios, custos de recursos, tempo base de construção e desbloqueios para os níveis 7–30.',
-  fr: 'Prérequis de bâtiments, coûts en ressources, temps de construction de base et déblocages des niveaux 7 à 30.',
-  de: 'Gebäudeanforderungen, Ressourcenkosten, Bauzeiten und Freischaltungen für Zuflucht Stufen 7–30.',
-  id: 'Syarat bangunan, biaya sumber daya, waktu pembangunan dasar, dan pembukaan fitur level 7–30.',
-  ko: '생츄어리 7~30레벨 건물 요구사항, 자원 비용, 기본 건설 시간 및 주요 해금 항목 정리.',
-  ja: '聖域レベル7〜30の施設条件、資源コスト、基本建設時間、主要アンロック要素の早見表。',
-  ar: 'متطلبات المباني، وتكاليف الموارد، ووقت البناء الأساسي، والفتوحات للمستويات 7–30.',
-  it: 'Requisiti degli edifici, costi in risorse, tempi di costruzione base e sblocchi chiave per i livelli 7–30.',
-  ms: 'Keperluan bangunan, kos sumber, masa pembinaan asas, dan buka kunci penting untuk tahap 7–30.',
-  nl: 'Gebouwvereisten, grondstoffenkosten, basisebouwtijden en ontgrendelingen voor niveaus 7–30.',
-  th: 'ข้อกำหนดอาคาร ทรัพยากร เวลาสร้างพื้นฐาน และการปลดล็อกสำคัญสำหรับแซงทัวรีเลเวล 7–30',
-  tr: '7–30 seviyeleri için bina gereksinimleri, kaynak maliyetleri, temel inşa süreleri ve kilit açılışlar.',
-  vi: 'Yêu cầu công trình, chi phí tài nguyên, thời gian xây dựng gốc và mở khóa tính năng cấp 7–30.',
-  zh: '庇护所7–30级建筑前置条件、资源消耗、基础建造时间与关键解锁一览。',
-  pl: 'Wymagania budynków, koszty surowców, czasy budowy i kluczowe odblokowania dla poziomów 7–30.',
-  'zh-tw': '庇護所7–30級建築前置條件、資源消耗、基礎建造時間與關鍵解鎖一覽。',
-};
+const rawGallery = [
+  // Gear & Relics
+  { id: 'gear-craft', category: 'gear', src: '/infographics/gear-craft-priority-ru.webp', author: 'promethev (RU)' },
+  { id: 'relics-1', category: 'gear', src: '/infographics/relics-guide-part1-ru.webp', author: 'promethev (RU)' },
+  { id: 'relics-2', category: 'gear', src: '/infographics/relics-guide-part2-ru.webp', author: 'promethev (RU)' },
+  { id: 'skill-scaling', category: 'gear', src: '/infographics/skill-scaling.webp', author: 'HottChoklit' },
+
+  // Events & Duels
+  { id: 'falcon-tower-storage', category: 'events', src: '/infographics/falcon-tower-storage.webp', author: '#252 Dalkongss' },
+  { id: 'troops-training', category: 'events', src: '/infographics/troops-training-strategy-ru.webp', author: 'promethev (RU)' },
+  { id: 'duel-day-guide', category: 'events', src: '/infographics/duel-day-guide.webp', author: 'community' },
+  { id: 'undead-siege', category: 'events', src: '/infographics/undead-siege-guide.webp', author: 'community' },
+  { id: 'undead-siege-2', category: 'events', src: '/infographics/undead-siege-guide-2.webp', author: 'community' },
+  { id: 'canyon-rats', category: 'events', src: '/infographics/canyon-crystal-rats-ru.webp', author: 'promethev (RU)' },
+  { id: 'crystal-mine', category: 'events', src: '/infographics/crystal-mine-strategy-ru.webp', author: 'promethev (RU)' },
+  { id: 'royal-city', category: 'events', src: '/infographics/royal-city-tactics-ru.webp', author: 'promethev (RU)' },
+  { id: 'royal-scramble', category: 'events', src: '/infographics/royal-scramble.webp', author: 'cinorafist' },
+  { id: 'elixir-guide', category: 'events', src: '/infographics/elixir-guide.webp', author: 'community' },
+  { id: 'cheese-trap', category: 'events', src: '/infographics/cheese-trap.webp', author: 'community' },
+
+  // Era of Rebirth
+  { id: 'hero-awakening', category: 'era', src: '/infographics/hero-awakening-ru.jpg', author: 'promethev (RU)' },
+  { id: 'era-monsters', category: 'era', src: '/infographics/era-monsters-infection-ru.jpg', author: 'promethev (RU)' },
+  { id: 'era-royal', category: 'era', src: '/infographics/era-royal-city-ru.webp', author: 'promethev (RU)' },
+
+  // Base & Economy
+  { id: 'sanctuary-guide', category: 'base', src: '/infographics/sanctuary-guide.webp', author: 'Last Asylum Community' },
+  { id: 'building-speed', category: 'base', src: '/infographics/building-speed-formula-ru.webp', author: 'promethev (RU)' },
+  { id: 'tech-order', category: 'base', src: '/infographics/tech-research-order-ru.webp', author: 'promethev (RU)' },
+  { id: 'diamond-shop', category: 'economy', src: '/infographics/diamond-shop-guide-ru.jpg', author: 'promethev (RU)' },
+  { id: 'raven-epigraph', category: 'heroes', src: '/infographics/raven-epigraph-priority-ru.webp', author: 'promethev (RU)' },
+  { id: 'squad-damage', category: 'heroes', src: '/infographics/squad-damage-guide-ru.webp', author: 'promethev (RU)' },
+] as const;
 
 export interface InfographicItem {
   id: string;
@@ -86,207 +79,34 @@ export interface InfographicItem {
   desc: string;
 }
 
-const gallery: InfographicItem[] = [
-  // Gear & Relics
-  {
-    id: 'gear-craft',
-    title: isRu ? 'Приоритет крафта снаряжения' : 'Gear Crafting Priority',
-    category: 'gear',
-    src: '/infographics/gear-craft-priority-ru.webp',
-    author: 'promethev (RU)',
-    desc: isRu ? 'Порядок создания и прокачки слотов снаряжения: Сапоги/Оружие → Броня → Шлем.' : 'Order of crafting gear slots: Boots/Weapon first, then Armor and Helmet.',
-  },
-  {
-    id: 'relics-1',
-    title: isRu ? 'Сундуки реликвий (Часть 1)' : 'Relics Guide (Part 1)',
-    category: 'gear',
-    src: '/infographics/relics-guide-part1-ru.webp',
-    author: 'promethev (RU)',
-    desc: isRu ? 'Дропрейты, гарантированные осколки и распределение реликвий по классам.' : 'Drop rates, guaranteed shards, and relic distribution by class.',
-  },
-  {
-    id: 'relics-2',
-    title: isRu ? 'Сундуки реликвий (Часть 2)' : 'Relics Guide (Part 2)',
-    category: 'gear',
-    src: '/infographics/relics-guide-part2-ru.webp',
-    author: 'promethev (RU)',
-    desc: isRu ? 'Оптимизация сбора золотых реликвий и синергия параметров отряда.' : 'Gold relic farming optimization and squad stat synergies.',
-  },
-  {
-    id: 'skill-scaling',
-    title: isRu ? 'Масштабирование навыков и снаряжения' : 'Skill & Gear Scaling',
-    category: 'gear',
-    src: '/infographics/skill-scaling.webp',
-    author: 'HottChoklit',
-    desc: isRu ? 'Почему герои без правильного снаряжения наносят мало урона: формулы скейлинга.' : 'Why heroes feel weak without correct gear stats: scaling math explained.',
-  },
+const getInfographicSrc = (id: string, defaultSrc: string, currentLang: Lang): string => {
+  if (id === 'sanctuary-guide') {
+    return `/infographics/sanctuary-guide-${currentLang}.webp`;
+  }
+  if (id === 'falcon-tower-storage') {
+    return currentLang === 'ru' ? '/infographics/falcon-tower-storage-ru.webp' : '/infographics/falcon-tower-storage.webp';
+  }
+  if (id === 'royal-scramble') {
+    return currentLang === 'ru' ? '/infographics/royal-scramble-ru.webp' : '/infographics/royal-scramble.webp';
+  }
+  return defaultSrc;
+};
 
-  // Events & Duels
-  {
-    id: 'falcon-tower-storage',
-    title: isRu ? 'Соколиная башня: Хранение заданий' : 'Falcon Tower Incident Storage Guide',
-    category: 'events',
-    src: isRu ? '/infographics/falcon-tower-storage-ru.webp' : '/infographics/falcon-tower-storage.webp',
-    author: '#252 Dalkongss',
-    desc: isRu ? 'Как сохранять задания сокола, почему важно держать 29/30 и метод красных точек перед сбросом 02:00 UTC.' : 'How to store Falcon Tower incidents, why keep 29/30, and the red dot trick before 02:00 UTC reset.',
-  },
-  {
-    id: 'troops-training',
-    title: isRu ? '3-фазная тренировка войск под Дуэль' : '3-Phase Troop Training Strategy',
-    category: 'events',
-    src: '/infographics/troops-training-strategy-ru.webp',
-    author: 'promethev (RU)',
-    desc: isRu ? 'Как максимизировать очки в День 5 Дуэли через апгрейд T1 в T8/T9.' : 'Maximize Day 5 Duel points via T1 to T8/T9 promotion loops.',
-  },
-  {
-    id: 'duel-day-guide',
-    title: isRu ? 'Дуэль Альянсов: Расписание фаз' : 'Alliance Duel Day-by-Day',
-    category: 'events',
-    src: '/infographics/duel-day-guide.webp',
-    author: 'community',
-    desc: isRu ? 'План на каждый день недели для взятия 9-го сундука (7.2M очков).' : 'Weekly routine to claim Chest 9 (7.2M points) every day.',
-  },
-  {
-    id: 'undead-siege',
-    title: isRu ? 'Осада зомби: Тактика обороны' : 'Undead Siege Defense Tactics',
-    category: 'events',
-    src: '/infographics/undead-siege-guide.webp',
-    author: 'community',
-    desc: isRu ? 'Скрытые механики 2 отрядов на волну и расстановка подкреплений.' : 'Hidden 2-squad per wave rules and reinforcement positioning.',
-  },
-  {
-    id: 'undead-siege-2',
-    title: isRu ? 'Осада зомби: Карта волн' : 'Undead Siege Wave Map',
-    category: 'events',
-    src: '/infographics/undead-siege-guide-2.webp',
-    author: 'community',
-    desc: isRu ? 'Полный список волн 1–20, состав боссов и тайминги захода.' : 'Waves 1–20 breakdown, boss mechanics, and timing triggers.',
-  },
-  {
-    id: 'canyon-rats',
-    title: isRu ? 'Каньон: Кристальные крысы' : 'Canyon Crystal Rats Strategy',
-    category: 'events',
-    src: '/infographics/canyon-crystal-rats-ru.webp',
-    author: 'promethev (RU)',
-    desc: isRu ? 'Тактика сбора очков на крысах без потери основных отрядов.' : 'Crystal rat point-farming strategy without frontline attrition.',
-  },
-  {
-    id: 'crystal-mine',
-    title: isRu ? 'Каньон: Кристальная шахта' : 'Canyon Crystal Mine Strategy',
-    category: 'events',
-    src: '/infographics/crystal-mine-strategy-ru.webp',
-    author: 'promethev (RU)',
-    desc: isRu ? 'Захват центров, ротация баффов и удержание контрольных точек.' : 'Core mine capture, buff rotations, and zone control.',
-  },
-  {
-    id: 'royal-city',
-    title: isRu ? 'Королевский город: Тактика боя' : 'Royal City Battle Tactics',
-    category: 'events',
-    src: '/infographics/royal-city-tactics-ru.webp',
-    author: 'promethev (RU)',
-    desc: isRu ? 'Позиционирование альянса, тайминги пушей и перехват пушек.' : 'Alliance positioning, assault timing, and cannon interception.',
-  },
-  {
-    id: 'royal-scramble',
-    title: isRu ? 'Схватка за Королевский город' : 'Royal Scramble Infographic',
-    category: 'events',
-    src: '/infographics/royal-scramble-ru.webp',
-    author: 'cinorafist',
-    desc: isRu ? 'Официальные правила, роли командиров и распределение наград.' : 'Official rules, commander roles, and reward milestones.',
-  },
-  {
-    id: 'elixir-guide',
-    title: isRu ? 'Эликсир: Стратегия битвы' : 'Elixir Scramble Strategy',
-    category: 'events',
-    src: '/infographics/elixir-guide.webp',
-    author: 'community',
-    desc: isRu ? 'Маршруты сбора бочек, точки засад и распределение ролей.' : 'Barrel routes, ambush zones, and team roles.',
-  },
-  {
-    id: 'cheese-trap',
-    title: isRu ? 'Сырная ловушка (Cheese Trap)' : 'Cheese Trap Mechanics',
-    category: 'events',
-    src: '/infographics/cheese-trap.webp',
-    author: 'community',
-    desc: isRu ? 'Безопасный фарм наград мышиного короля без риска слива войск.' : 'Safe mouse king farming loops without troop wipeout risks.',
-  },
+const gallery: InfographicItem[] = rawGallery.map((item) => {
+  const itemTrans = (translations as Record<string, { title: Record<string, string>; desc: Record<string, string> }>)[item.id];
+  const title = itemTrans?.title?.[lang] ?? itemTrans?.title?.en ?? itemTrans?.title?.ru ?? item.id;
+  const desc = itemTrans?.desc?.[lang] ?? itemTrans?.desc?.en ?? itemTrans?.desc?.ru ?? '';
+  const src = getInfographicSrc(item.id, item.src, lang);
 
-  // Era of Rebirth
-  {
-    id: 'hero-awakening',
-    title: isRu ? 'Пробуждение героев' : 'Hero Awakening System',
-    category: 'era',
-    src: '/infographics/hero-awakening-ru.jpg',
-    author: 'promethev (RU)',
-    desc: isRu ? 'Материалы пробуждения, разблокировка 4-го слота и порядок Синтия/Анни/Марлена.' : 'Awakening materials, 4th skill slot unlocks, and priority order.',
-  },
-  {
-    id: 'era-monsters',
-    title: isRu ? 'Монстры Эры и заражение' : 'Era Seasonal Monsters & Infection',
-    category: 'era',
-    src: '/infographics/era-monsters-infection-ru.jpg',
-    author: 'promethev (RU)',
-    desc: isRu ? 'Уровни заражения, иммунитет отряда и расчет необходимого антидота.' : 'Infection tiers, squad immunity scaling, and antidote requirements.',
-  },
-  {
-    id: 'era-royal',
-    title: isRu ? 'Королевский город в Эре Возрождения' : 'Era Royal City Changes',
-    category: 'era',
-    src: '/infographics/era-royal-city-ru.webp',
-    author: 'promethev (RU)',
-    desc: isRu ? 'Новые механики защиты столицы с учетом сезонных навыков Эры.' : 'Capital defense changes accounting for seasonal Era mechanics.',
-  },
-
-  // Base & Economy
-  {
-    id: 'sanctuary-guide',
-    title: sanctuaryTitles[lang] ?? sanctuaryTitles.en,
-    category: 'base',
-    src: `/infographics/sanctuary-guide-${lang}.webp`,
-    author: 'Last Asylum Community',
-    desc: sanctuaryDescs[lang] ?? sanctuaryDescs.en,
-  },
-  {
-    id: 'building-speed',
-    title: isRu ? 'Формула скорости строительства' : 'Building Speed Formula',
-    category: 'base',
-    src: '/infographics/building-speed-formula-ru.webp',
-    author: 'promethev (RU)',
-    desc: isRu ? 'Хижина строителя, формула снижения таймеров и бесплатное завершение.' : 'Builder’s Hut speed divisor math and free-completion thresholds.',
-  },
-  {
-    id: 'tech-order',
-    title: isRu ? 'Оптимальный порядок технологий' : 'Optimal Research Tech Order',
-    category: 'base',
-    src: '/infographics/tech-research-order-ru.webp',
-    author: 'promethev (RU)',
-    desc: isRu ? 'Приоритеты лаборатории: экономика vs военные ветки до T8/T9.' : 'Research lab priorities: economy vs military tree rush to T8/T9.',
-  },
-  {
-    id: 'diamond-shop',
-    title: isRu ? 'Магазин алмазов: Что покупать' : 'Diamond Shop Buying Guide',
-    category: 'economy',
-    src: '/infographics/diamond-shop-guide-ru.jpg',
-    author: 'promethev (RU)',
-    desc: isRu ? 'Топ покупок за алмазы: VIP 30 дней, ускорения со скидкой 70%, пропуск мусора.' : 'Best diamond investments: 30-day VIP, 70% speedups, and trap offers to skip.',
-  },
-  {
-    id: 'raven-epigraph',
-    title: isRu ? 'Приоритет эпиграфов Ворона' : 'Raven Epigraph Priorities',
-    category: 'heroes',
-    src: '/infographics/raven-epigraph-priority-ru.webp',
-    author: 'promethev (RU)',
-    desc: isRu ? 'Какую ветку эпиграфов качать первой и какие фракционные статы максить.' : 'Which epigraph branch to max first and optimal faction stat spreads.',
-  },
-  {
-    id: 'squad-damage',
-    title: isRu ? 'Формулы и разгон урона отряда' : 'Squad Damage Multipliers',
-    category: 'heroes',
-    src: '/infographics/squad-damage-guide-ru.webp',
-    author: 'promethev (RU)',
-    desc: isRu ? 'Влияние фракционных бонусов 3+2 и 5 моно-фракции на чистый DPS.' : 'Impact of 3+2 and 5-mono faction synergy bonuses on effective DPS.',
-  },
-];
+  return {
+    id: item.id,
+    title,
+    category: item.category,
+    src,
+    author: item.author,
+    desc,
+  };
+});
 
 const categories = [
   { id: 'all', label: t('all') },
