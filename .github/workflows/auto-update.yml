@@ -55,10 +55,12 @@ jobs:
             git push
           fi
       - name: Deploy updated site to Cloudflare Pages
-        working-directory: site
+        # From the repo root: wrangler picks up ./functions (Pages Functions)
+        # via path.join(cwd, "functions") — running from site/ would strip
+        # the /api/* endpoints from prod.
         run: |
-          test -f dist/pagefind/pagefind.js || { echo "pagefind index missing — refusing to deploy"; exit 1; }
-          npx wrangler pages deploy dist --project-name=lastasylum --branch=main
+          test -f site/dist/pagefind/pagefind.js || { echo "pagefind index missing — refusing to deploy"; exit 1; }
+          site/node_modules/.bin/wrangler pages deploy site/dist --project-name=lastasylum --branch=main
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

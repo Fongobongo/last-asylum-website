@@ -44,8 +44,12 @@ jobs:
       - name: Deploy to Cloudflare Pages
         # CI runners have 7 GB RAM; the local box OOM-kills pagefind at ~2.7 GB.
         # Prod must always deploy from this full, verified build.
+        # IMPORTANT: wrangler resolves the Pages Functions directory as
+        # path.join(cwd, "functions") — run from the REPO ROOT, not site/,
+        # or the /api/* endpoints silently vanish from prod.
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        run: npx wrangler pages deploy dist --project-name=lastasylum --branch=main
+        working-directory: .
+        run: site/node_modules/.bin/wrangler pages deploy site/dist --project-name=lastasylum --branch=main
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
