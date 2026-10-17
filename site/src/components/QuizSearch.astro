@@ -349,6 +349,9 @@ const i18n = {
 
 const t = i18n[lang as keyof typeof i18n] || i18n.en;
 
+// 19-lang "CORRECT" badge (fallback: EN).
+const D_CORRECT: Record<string, string> = { ru: 'ВЕРНО', en: 'CORRECT', de: 'RICHTIG', es: 'CORRECTO', fr: 'CORRECT', id: 'BENAR', ja: '正解', ko: '정답', pt: 'CORRETO', ar: 'صحيح', it: 'CORRETTO', ms: 'BETUL', nl: 'JUIST', th: 'ถูกต้อง', tr: 'DOĞRU', vi: 'ĐÚNG', zh: '正确', pl: 'POPRAWNIE', 'zh-tw': '正確' };
+
 const categories = [
   { id: 'all', label: t.all },
   { id: 'events', label: t.events },
@@ -482,7 +485,7 @@ const formattedQuiz = (quizData as any[]).map((q) => {
                 </span>
                 {opt.isCorrect && (
                   <span class="text-[10px] text-toxic-400 uppercase tracking-wide">
-                    {lang === 'ru' ? 'ВЕРНО' : 'CORRECT'}
+                    {D_CORRECT[lang] ?? D_CORRECT.en}
                   </span>
                 )}
               </div>

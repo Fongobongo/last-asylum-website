@@ -198,6 +198,9 @@ const showFaq =
   slug === 'calendar' ||
   slug === 'heroes' ||
   slug.startsWith('events/');
+
+// 19-lang "Updated" label (fallback: EN).
+const D_UPDATED: Record<string, string> = { ru: 'Обновлено', en: 'Updated', de: 'Aktualisiert', es: 'Actualizado', fr: 'Mis à jour', id: 'Diperbarui', ja: '更新', ko: '업데이트됨', pt: 'Atualizado', ar: 'محدّث', it: 'Aggiornato', ms: 'Dikemas kini', nl: 'Bijgewerkt', th: 'อัปเดตแล้ว', tr: 'Güncellendi', vi: 'Đã cập nhật', zh: '已更新', pl: 'Zaktualizowano', 'zh-tw': '已更新' };
 ---
 
 <Base lang={lang} path={path} title={data.title} description={data.description} langs={supportedLangs}>
@@ -221,7 +224,7 @@ const showFaq =
   <GuidePage title={data.title} description={data.description} lang={lang} breadcrumbs={breadcrumbs}>
     {data.updated && (
       <p class="mb-4 text-xs text-stone-500">
-        🗓 {lang === 'ru' ? 'Обновлено' : 'Updated'}: {data.updated}
+        🗓 {D_UPDATED[lang] ?? D_UPDATED.en}: {data.updated}
       </p>
     )}
 

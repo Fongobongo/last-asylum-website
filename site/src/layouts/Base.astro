@@ -151,7 +151,7 @@ const umamiSrc = import.meta.env.PUBLIC_UMAMI_SRC ?? '';
     <script src="/js/votes.v2.js?v=2" defer></script>
     <slot name="head" />
   </head>
-  <body class="min-h-screen antialiased">
+  <body class="min-h-screen antialiased" data-pagefind-filter={`lang:${lang}`}>
     <!-- Reading Progress Bar -->
     <div id="reading-progress" class="fixed top-0 left-0 h-[2.5px] w-0 bg-gradient-to-r from-toxic-500 via-toxic-400 to-plague-400 z-[100] transition-[width] duration-100 ease-out pointer-events-none"></div>
 

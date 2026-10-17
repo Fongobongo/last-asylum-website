@@ -358,6 +358,9 @@ const i18n = {
 
 const t = i18n[lang as keyof typeof i18n] || i18n.en;
 
+// 19-lang "Priority" badge (fallback: EN).
+const D_PRIORITY: Record<string, string> = { ru: 'Приоритет', en: 'Priority', de: 'Priorität', es: 'Prioridad', fr: 'Priorité', id: 'Prioritas', ja: '優先', ko: '우선', pt: 'Prioridade', ar: 'أولوية', it: 'Priorità', ms: 'Keutamaan', nl: 'Prioriteit', th: 'ลำดับความสำคัญ', tr: 'Öncelik', vi: 'Ưu tiên', zh: '优先级', pl: 'Priorytet', 'zh-tw': '優先級' };
+
 // Format list of tech items with branch info
 const branchMap = new Map(branchesData.map((b) => [b.id, b]));
 
@@ -523,7 +526,7 @@ const allTechs = Object.values(techsData).map((tech: any) => {
             </span>
             {isSTier && (
               <span class="text-toxic-400 font-semibold flex items-center gap-1">
-                ⭐ {lang === 'ru' ? 'Приоритет' : 'Priority'}
+                ⭐ {D_PRIORITY[lang] ?? D_PRIORITY.en}
               </span>
             )}
           </div>

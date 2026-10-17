@@ -463,7 +463,9 @@ const sanctuaryLevels = [
   { level: 30, food: 1356000000, timber: 1356000000, herbs: 441300000, hours: 2462.9, prereq: 'Research Lab Lv.29, Training Grounds Lv.29, Antitoxin Workshop Lv.15', prereqRu: 'Исследовательская лаборатория ур. 29, Полигон ур. 29, Мастерская противоядий ур. 15' },
 ];
 
-const lvlLabel = lang === 'ru' ? 'Уровень' : 'Level';
+const D_LEVEL: Record<string, string> = { ru: 'Уровень', en: 'Level', de: 'Stufe', es: 'Nivel', fr: 'Niveau', id: 'Level', ja: 'レベル', ko: '레벨', pt: 'Nível', ar: 'المستوى', it: 'Livello', ms: 'Tahap', nl: 'Niveau', th: 'เลเวล', tr: 'Seviye', vi: 'Cấp', zh: '等级', pl: 'Poziom', 'zh-tw': '等級' };
+const D_LV: Record<string, string> = { ru: 'Ур.', en: 'Lv.', de: 'St.', es: 'Nv.', fr: 'Niv.', id: 'Lv.', ja: 'Lv.', ko: 'Lv.', pt: 'Nv.', ar: 'مس', it: 'Liv.', ms: 'Th', nl: 'Niv.', th: 'ล.', tr: 'Sv.', vi: 'C.', zh: '级', pl: 'Poz.', 'zh-tw': '級' };
+const lvlLabel = D_LEVEL[lang] ?? D_LEVEL.en;
 ---
 
 <div class="not-prose my-8 rounded-xl border border-stone-800 bg-stone-900/95 p-5 shadow-xl" id="sanctuary-calc-container">
@@ -631,7 +633,7 @@ const lvlLabel = lang === 'ru' ? 'Уровень' : 'Level';
           totalHerbs += item.herbs;
           totalHours += item.hours;
           const req = isRu && item.prereqRu ? item.prereqRu : item.prereq;
-          prereqs.push(`→ ${isRu ? 'Ур.' : 'Lv.'} ${item.level}: ${req}`);
+          prereqs.push(`→ ${D_LV[lang] ?? D_LV.en} ${item.level}: ${req}`);
         }
       }
 

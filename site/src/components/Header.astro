@@ -46,6 +46,16 @@ const dictReset: Record<string, string> = {
   ja: '更新:',
   ko: '초기화:',
   pt: 'Reset:',
+  ar: 'إعادة:',
+  it: 'Reset:',
+  ms: 'Set semula:',
+  nl: 'Reset:',
+  th: 'รีเซ็ต:',
+  tr: 'Sıfırlama:',
+  vi: 'Đặt lại:',
+  zh: '重置:',
+  pl: 'Reset:',
+  'zh-tw': '重置:',
 };
 
 // Game server runs at UTC-2: its midnight (daily reset) is 02:00 UTC
@@ -61,7 +71,41 @@ const dictServer: Record<string, string> = {
   ja: 'サーバー:',
   ko: '서버:',
   pt: 'Servidor:',
+  ar: 'الخادم:',
+  it: 'Server:',
+  ms: 'Pelayan:',
+  nl: 'Server:',
+  th: 'เซิร์ฟเวอร์:',
+  tr: 'Sunucu:',
+  vi: 'Máy chủ:',
+  zh: '服务器:',
+  pl: 'Serwer:',
+  'zh-tw': '伺服器:',
 };
+
+// 19-lang UI strings for header chrome (fallback: EN).
+const dictH: Record<string, Record<string, string>> = {
+  allianceInfo: { ru: 'Информация альянса', en: 'Alliance Live Info', de: 'Allianz-Infos', es: 'Info de alianza', fr: 'Infos alliance', id: 'Info aliansi', ja: 'アライアンス情報', ko: '얼라이언스 정보', pt: 'Info da aliança', ar: 'معلومات التحالف', it: 'Info alleanza', ms: 'Info pakatan', nl: 'Alliantie-info', th: 'ข้อมูลพันธมิตร', tr: 'İttifak bilgisi', vi: 'Thông tin liên minh', zh: '联盟信息', pl: 'Info o sojuszu', 'zh-tw': '聯盟資訊' },
+  allianceInfoTitle: { ru: 'Актуальная информация альянса: тактика, голосования, директивы', en: 'Alliance live info: tactics, polls & directives', de: 'Aktuelle Allianz-Infos: Taktik, Umfragen & Direktiven', es: 'Información de alianza: tácticas, votaciones y directivas', fr: 'Infos alliance en direct : tactiques, votes et directives', id: 'Info aliansi terkini: taktik, pemungutan suara & direktif', ja: 'アライアンス最新情報：戦術、投票、指令', ko: '얼라이언스 실시간 정보: 전술, 투표, 지시사항', pt: 'Informação da aliança: táticas, votações e diretrizes', ar: 'معلومات التحالف المباشرة: تكتيكات، تصويت، وتوجيهات', it: 'Info alleanza in tempo reale: tattiche, votazioni e direttive', ms: 'Info pakatan terkini: taktik, undian & arahan', nl: 'Actuele alliantie-info: tactiek, peilingen & richtlijnen', th: 'ข้อมูลพันธมิตรแบบเรียลไทม์: กลยุทธ์ การโหวต และคำสั่ง', tr: 'Güncel ittifak bilgisi: taktikler, oylamalar ve direktifler', vi: 'Thông tin liên minh trực tiếp: chiến thuật, bình chọn & chỉ thị', zh: '联盟实时信息：战术、投票与指令', pl: 'Aktualne info o sojuszu: taktyka, głosowania i dyrektywy', 'zh-tw': '聯盟即時資訊：戰術、投票與指令' },
+  allianceShort: { ru: 'Инфо альянса', en: 'Alliance Info', de: 'Allianz-Info', es: 'Info alianza', fr: 'Info alliance', id: 'Info aliansi', ja: 'アライアンス情報', ko: '얼라이언스', pt: 'Info aliança', ar: 'معلومات التحالف', it: 'Info alleanza', ms: 'Info pakatan', nl: 'Alliantie-info', th: 'ข้อมูลพันธมิตร', tr: 'İttifak bilgisi', vi: 'Thông tin liên minh', zh: '联盟信息', pl: 'Info o sojuszu', 'zh-tw': '聯盟資訊' },
+  savedGuides: { ru: 'Избранные статьи', en: 'Saved Guides', de: 'Gespeicherte Guides', es: 'Guías guardadas', fr: 'Guides sauvegardés', id: 'Panduan tersimpan', ja: '保存したガイド', ko: '저장한 가이드', pt: 'Guias salvos', ar: 'أدلة محفوظة', it: 'Guide salvate', ms: 'Panduan disimpan', nl: 'Opgeslagen gidsen', th: 'คู่มือที่บันทึก', tr: 'Kayıtlı rehberler', vi: 'Hướng dẫn đã lưu', zh: '收藏的指南', pl: 'Zapisane poradniki', 'zh-tw': '收藏的指南' },
+  bookmarksEmpty: { ru: 'Нет закладок. Нажмите ☆ в гайде.', en: 'No bookmarks yet. Click ☆ on any guide.', de: 'Keine Lesezeichen. Klicke auf ☆ in einem Guide.', es: 'Sin marcadores. Pulsa ☆ en cualquier guía.', fr: 'Aucun signet. Cliquez sur ☆ dans un guide.', id: 'Belum ada markah. Klik ☆ di panduan mana pun.', ja: 'ブックマークなし。ガイドの☆を押してください。', ko: '북마크 없음. 가이드에서 ☆를 눌러 저장하세요.', pt: 'Sem salvos. Clique em ☆ em qualquer guia.', ar: 'لا توجد عناصر محفوظة. اضغط ☆ في أي دليل.', it: 'Nessun segnalibro. Premi ☆ in una guida.', ms: 'Tiada tanda buku. Klik ☆ dalam mana-mana panduan.', nl: 'Geen bladwijzers. Klik op ☆ in een gids.', th: 'ยังไม่มีบุ๊กมาร์ก กด ☆ ในคู่มือ', tr: 'Kayıtlı yok. Herhangi bir rehberde ☆ simgesine basın.', vi: 'Chưa có đánh dấu. Nhấn ☆ trong bất kỳ hướng dẫn nào.', zh: '暂无收藏。点击任意指南中的☆。', pl: 'Brak zakładek. Kliknij ☆ w dowolnym poradniku.', 'zh-tw': '尚無收藏。點擊任意指南中的☆。' },
+  shopTopup: { ru: 'Магазин / Донат', en: 'Shop & Top-Up', de: 'Shop & Aufladen', es: 'Tienda / Recargas', fr: 'Boutique / Recharges', id: 'Toko / Top-Up', ja: 'ショップ / 課金', ko: '상점 / 충전', pt: 'Loja / Recargas', ar: 'المتجر / الشحن', it: 'Negozio / Ricariche', ms: 'Kedai / Nilai tambah', nl: 'Winkel / Opwaarderen', th: 'ร้านค้า / เติมเงิน', tr: 'Mağaza / Yükleme', vi: 'Cửa hàng / Nạp tiền', zh: '商店 / 充值', pl: 'Sklep / Doładowanie', 'zh-tw': '商店 / 儲值' },
+  duelLabel: { ru: 'Дуэль Альянсов:', en: 'Alliance Duel:', de: 'Allianz-Duell:', es: 'Duelo de alianzas:', fr: 'Duel d’alliance :', id: 'Duel Aliansi:', ja: 'アライアンスデュエル:', ko: '얼라이언스 결투:', pt: 'Duelo de Alianças:', ar: 'مبارزة التحالف:', it: 'Duello di alleanze:', ms: 'Duel Pakatan:', nl: 'Alliantie-duel:', th: 'ดวลพันธมิตร:', tr: 'İttifak düellosu:', vi: 'Đấu liên minh:', zh: '联盟对决：', pl: 'Pojedynek sojuszy:', 'zh-tw': '聯盟對決：' },
+  pollsTactics: { ru: 'Голосования, директивы и тактика', en: 'Polls, battle orders & tactics', de: 'Umfragen, Befehle & Taktik', es: 'Votaciones, órdenes y tácticas', fr: 'Votes, ordres et tactiques', id: 'Pemungutan suara, perintah & taktik', ja: '投票、指令、戦術', ko: '투표, 전투 명령, 전술', pt: 'Votações, ordens e táticas', ar: 'تصويت، أوامر معركة وتكتيكات', it: 'Votazioni, ordini e tattiche', ms: 'Undian, perintah & taktik', nl: 'Peilingen, bevelen & tactiek', th: 'การโหวต คำสั่งรบ และกลยุทธ์', tr: 'Oylamalar, savaş emirleri ve taktikler', vi: 'Bình chọn, mệnh lệnh & chiến thuật', zh: '投票、战斗指令与战术', pl: 'Głosowania, rozkazy i taktyka', 'zh-tw': '投票、戰鬥指令與戰術' },
+  open: { ru: 'Открыто', en: 'Open', de: 'Offen', es: 'Abierto', fr: 'Ouvert', id: 'Terbuka', ja: '開催中', ko: '열림', pt: 'Aberto', ar: 'مفتوح', it: 'Aperto', ms: 'Terbuka', nl: 'Open', th: 'เปิดอยู่', tr: 'Açık', vi: 'Đang mở', zh: '开放中', pl: 'Otwarte', 'zh-tw': '開放中' },
+  quick: { ru: 'Быстро:', en: 'Quick:', de: 'Schnell:', es: 'Rápido:', fr: 'Rapide :', id: 'Cepat:', ja: 'クイック:', ko: '빠른:', pt: 'Rápido:', ar: 'سريع:', it: 'Veloce:', ms: 'Pantas:', nl: 'Snel:', th: 'ด่วน:', tr: 'Hızlı:', vi: 'Nhanh:', zh: '快速：', pl: 'Szybko:', 'zh-tw': '快速：' },
+  chipDuel: { ru: 'Дуэль', en: 'Duel', de: 'Duell', es: 'Duelo', fr: 'Duel', id: 'Duel', ja: 'デュエル', ko: '결투', pt: 'Duelo', ar: 'مبارزة', it: 'Duello', ms: 'Duel', nl: 'Duel', th: 'ดวล', tr: 'Düello', vi: 'Đấu', zh: '对决', pl: 'Pojedynek', 'zh-tw': '對決' },
+  chipDuelQ: { ru: 'Дуэль альянсов', en: 'Alliance Duel', de: 'Allianz-Duell', es: 'Duelo de alianzas', fr: 'Duel d’alliance', id: 'Duel Aliansi', ja: 'アライアンスデュエル', ko: '얼라이언스 결투', pt: 'Duelo de Alianças', ar: 'مبارزة التحالف', it: 'Duello di alleanze', ms: 'Duel Pakatan', nl: 'Alliantie-duel', th: 'ดวลพันธมิตร', tr: 'İttifak düellosu', vi: 'Đấu liên minh', zh: '联盟对决', pl: 'Pojedynek sojuszy', 'zh-tw': '聯盟對決' },
+  chipCodes: { ru: 'Коды', en: 'Codes', de: 'Codes', es: 'Códigos', fr: 'Codes', id: 'Kode', ja: 'コード', ko: '코드', pt: 'Códigos', ar: 'رموز', it: 'Codici', ms: 'Kod', nl: 'Codes', th: 'โค้ด', tr: 'Kodlar', vi: 'Mã', zh: '兑换码', pl: 'Kody', 'zh-tw': '兌換碼' },
+  chipCodesQ: { ru: 'Промокоды', en: 'Gift Codes', de: 'Geschenkcodes', es: 'Códigos de regalo', fr: 'Codes cadeaux', id: 'Kode hadiah', ja: 'ギフトコード', ko: '기프트 코드', pt: 'Códigos de presente', ar: 'رموز الهدايا', it: 'Codici regalo', ms: 'Kod hadiah', nl: 'Cadeaucodes', th: 'โค้ดของรางวัล', tr: 'Hediye kodları', vi: 'Mã quà tặng', zh: '礼包兑换码', pl: 'Kody prezentowe', 'zh-tw': '禮包兌換碼' },
+  chipTier: { ru: 'Тир-лист', en: 'Tier', de: 'Tier', es: 'Tier', fr: 'Tier', id: 'Tier', ja: 'ティア', ko: '티어', pt: 'Tier', ar: 'مستوى', it: 'Tier', ms: 'Tier', nl: 'Tier', th: 'ทีม', tr: 'Kademe', vi: 'Tier', zh: '梯度', pl: 'Tier', 'zh-tw': '梯度' },
+  chipTierQ: { ru: 'Тир-лист', en: 'Tier list', de: 'Tier-Liste', es: 'Lista de tiers', fr: 'Liste des tiers', id: 'Daftar tier', ja: 'ティアリスト', ko: '티어 리스트', pt: 'Lista de tiers', ar: 'قائمة المستويات', it: 'Lista dei tier', ms: 'Senarai tier', nl: 'Tierlijst', th: 'รายการทีม', tr: 'Kademe listesi', vi: 'Danh sách tier', zh: '梯队榜', pl: 'Lista tierów', 'zh-tw': '梯隊榜' },
+  chipRaven: { ru: 'Ворон', en: 'Raven', de: 'Rabe', es: 'Cuervo', fr: 'Corbeau', id: 'Gagak', ja: 'レイヴン', ko: '레이븐', pt: 'Corvo', ar: 'الغراب', it: 'Corvo', ms: 'Gagak', nl: 'Raaf', th: 'เรเวน', tr: 'Kuzgun', vi: 'Quạ', zh: '渡鸦', pl: 'Kruk', 'zh-tw': '渡鴉' },
+  chipGear: { ru: 'Снаряжение', en: 'Gear', de: 'Ausrüstung', es: 'Equipo', fr: 'Équipement', id: 'Gear', ja: '装備', ko: '장비', pt: 'Equipamento', ar: 'العتاد', it: 'Equipaggiamento', ms: 'Gear', nl: 'Uitrusting', th: 'อุปกรณ์', tr: 'Ekipman', vi: 'Trang bị', zh: '装备', pl: 'Ekwipunek', 'zh-tw': '裝備' },
+  chipInfographics: { ru: 'Схемы', en: 'Infographics', de: 'Infografiken', es: 'Infografías', fr: 'Infographies', id: 'Infografis', ja: 'インフォグラフィック', ko: '인포그래픽', pt: 'Infográficos', ar: 'إنفوجرافيك', it: 'Infografiche', ms: 'Infografik', nl: 'Infographics', th: 'อินโฟกราฟิก', tr: 'İnfografikler', vi: 'Hình minh họa', zh: '信息图', pl: 'Infografiki', 'zh-tw': '資訊圖表' },
+};
+const H = (k: string): string => dictH[k]?.[lang] ?? dictH[k]?.en ?? '';
 ---
 
 <header id="site-header" class="sticky top-0 z-50 border-b border-white/[0.07] bg-[#080807]/75 backdrop-blur-2xl supports-[backdrop-filter]:bg-[#080807]/65 transition-shadow">
@@ -82,14 +126,14 @@ const dictServer: Record<string, string> = {
           {dictReset[lang] ?? 'Reset:'} <strong id="utc-countdown" class="text-toxic-300 font-semibold">--h --m</strong>
         </span>
         <span class="text-stone-700">|</span>
-        <a href={`${base}/events/alliance-duel/`} class="flex items-center gap-1 text-toxic-300 hover:text-white transition" title="Alliance Duel Today">
+        <a href={`${base}/events/alliance-duel/`} class="flex items-center gap-1 text-toxic-300 hover:text-white transition" title={H('duelLabel')}>
           <span>⚔️</span>
           <strong id="ad-phase-badge" class="font-semibold text-toxic-400">AD: --</strong>
         </a>
       </div>
       <span class="flex items-center gap-3">
         <a href={`${base}/alliance/`} class="inline-flex items-center gap-1 font-semibold text-toxic-400 hover:text-toxic-300 transition">
-          🛡️ {lang === 'ru' ? 'Информация альянса' : 'Alliance Live Info'}
+          🛡️ {H('allianceInfo')}
         </a>
         <span class="text-stone-700 hidden sm:inline">|</span>
         <span class="hidden sm:inline">{t(lang, 'header.stats')}</span>
@@ -112,10 +156,10 @@ const dictServer: Record<string, string> = {
         <a
           href={`${base}/alliance/`}
           class="btn-glow inline-flex items-center gap-1.5 rounded-full border border-toxic-500/40 bg-stone-900/90 px-3 py-1.5 text-xs font-bold text-toxic-300 hover:border-toxic-400 hover:bg-toxic-500/15 shadow-[0_0_15px_rgba(180,255,57,0.15)] transition"
-          title={lang === 'ru' ? 'Актуальная информация альянса: тактика, голосования, директивы' : 'Alliance live info: tactics, polls & directives'}
+          title={H('allianceInfoTitle')}
         >
           <span>🛡️</span>
-          <span>{lang === 'ru' ? 'Инфо альянса' : 'Alliance Info'}</span>
+          <span>{H('allianceShort')}</span>
         </a>
 
         <button id="search-open" class="btn-glow hidden md:inline-flex items-center gap-2.5 rounded-full bg-white text-black px-4 py-2 text-sm font-medium hover:bg-stone-200">
@@ -130,7 +174,7 @@ const dictServer: Record<string, string> = {
             type="button"
             class="inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-white/[0.06] px-2.5 sm:px-3 py-2 text-sm text-stone-300 hover:bg-white/10 hover:border-toxic-400/40 transition cursor-pointer"
             aria-label="Bookmarks"
-            title={lang === 'ru' ? 'Избранные статьи' : 'Saved Guides'}
+            title={H('savedGuides')}
           >
             <span>⭐</span>
             <span id="bm-header-badge" class="hidden rounded-full bg-toxic-400 px-1.5 py-0.2 text-[10px] font-bold text-black leading-none">0</span>
@@ -139,12 +183,12 @@ const dictServer: Record<string, string> = {
             <div class="flex items-center justify-between border-b border-stone-800/80 pb-2 mb-2 px-1">
               <span class="text-xs font-bold text-white flex items-center gap-1.5">
                 <span>⭐</span>
-                <span>{lang === 'ru' ? 'Избранные статьи' : 'Saved Guides'}</span>
+                <span>{H('savedGuides')}</span>
               </span>
               <span id="bm-header-count" class="text-[10px] font-mono text-stone-500">0</span>
             </div>
             <div id="bm-header-list" class="space-y-1 max-h-64 overflow-y-auto pr-1">
-              <p class="text-xs text-stone-500 py-4 text-center">{lang === 'ru' ? 'Нет закладок. Нажмите ☆ в гайде.' : 'No bookmarks yet. Click ☆ on any guide.'}</p>
+              <p class="text-xs text-stone-500 py-4 text-center">{H('bookmarksEmpty')}</p>
             </div>
           </div>
         </div>
@@ -167,7 +211,7 @@ const dictServer: Record<string, string> = {
           class="btn-glow hidden sm:inline-flex items-center gap-1.5 rounded-full bg-toxic-400 px-4 py-2 text-xs sm:text-sm font-bold text-black hover:bg-toxic-300 shadow-[0_0_15px_rgba(180,255,57,0.3)] transition"
         >
           <span>💎</span>
-          <span>{lang === 'ru' ? 'Магазин / Донат' : 'Shop & Top-Up'}</span>
+          <span>{H('shopTopup')}</span>
         </a>
         <button id="menu-toggle" class="lg:hidden h-9 w-9 grid place-items-center rounded-full bg-white text-black text-sm font-bold transition" aria-label="Toggle menu">☰</button>
       </div>
@@ -212,7 +256,7 @@ const dictServer: Record<string, string> = {
       >
         <span class="flex items-center gap-1.5">
           <span>⚔️</span>
-          <span>{lang === 'ru' ? 'Дуэль Альянсов:' : 'Alliance Duel:'}</span>
+          <span>{H('duelLabel')}</span>
         </span>
         <strong id="ad-phase-badge-m" class="text-toxic-400 font-semibold">--</strong>
       </a>
@@ -224,11 +268,11 @@ const dictServer: Record<string, string> = {
         <div class="flex items-center gap-2.5">
           <span class="text-base">🛡️</span>
           <div>
-            <div class="font-bold text-toxic-300">{lang === 'ru' ? 'Актуальная информация альянса' : 'Alliance Live Info'}</div>
-            <div class="text-[10px] text-stone-400 font-normal">{lang === 'ru' ? 'Голосования, директивы и тактика' : 'Polls, battle orders & tactics'}</div>
+            <div class="font-bold text-toxic-300">{H('allianceInfo')}</div>
+            <div class="text-[10px] text-stone-400 font-normal">{H('pollsTactics')}</div>
           </div>
         </div>
-        <span class="rounded bg-stone-950/80 border border-toxic-500/30 px-2 py-0.5 font-mono text-[10px] text-toxic-400">{lang === 'ru' ? 'Открыто' : 'Open'}</span>
+        <span class="rounded bg-stone-950/80 border border-toxic-500/30 px-2 py-0.5 font-mono text-[10px] text-toxic-400">{H('open')}</span>
       </a>
       <div class="grid grid-cols-2 gap-2">
         {navItems.map((item) => {
@@ -244,7 +288,7 @@ const dictServer: Record<string, string> = {
         <a href={`${base}/credits/`} class="text-xs text-stone-400 hover:text-white">{t(lang, 'nav.credits')}</a>
         <a href={`${base}/support/`} class="text-xs font-bold text-toxic-400 hover:text-toxic-300 inline-flex items-center gap-1">
           <span>💎</span>
-          <span>{lang === 'ru' ? 'Магазин / Донат' : 'Shop & Top-Up'}</span>
+          <span>{H('shopTopup')}</span>
         </a>
       </div>
     </nav>
@@ -260,13 +304,13 @@ const dictServer: Record<string, string> = {
         <button id="search-close" class="rounded-full bg-white/10 hover:bg-white hover:text-black px-3 py-1 text-xs font-semibold text-stone-300 transition">ESC</button>
       </div>
       <div class="flex flex-wrap items-center gap-1.5 px-4 py-2 bg-black/40 border-b border-white/5 text-xs text-stone-400 overflow-x-auto">
-        <span class="text-[10px] font-mono text-stone-500 mr-1">{lang === 'ru' ? 'Быстро:' : 'Quick:'}</span>
-        <button type="button" class="js-search-chip rounded-md border border-white/10 bg-white/5 px-2 py-0.5 hover:border-toxic-400 hover:text-toxic-300 transition text-[11px]" data-query={lang === 'ru' ? 'Дуэль альянсов' : 'Alliance Duel'}>⚔️ {lang === 'ru' ? 'Дуэль' : 'Duel'}</button>
-        <button type="button" class="js-search-chip rounded-md border border-white/10 bg-white/5 px-2 py-0.5 hover:border-toxic-400 hover:text-toxic-300 transition text-[11px]" data-query={lang === 'ru' ? 'Промокоды' : 'Gift Codes'}>🎁 {lang === 'ru' ? 'Коды' : 'Codes'}</button>
-        <button type="button" class="js-search-chip rounded-md border border-white/10 bg-white/5 px-2 py-0.5 hover:border-toxic-400 hover:text-toxic-300 transition text-[11px]" data-query={lang === 'ru' ? 'Тир-лист' : 'Tier list'}>🏆 {lang === 'ru' ? 'Тир-лист' : 'Tier'}</button>
-        <button type="button" class="js-search-chip rounded-md border border-white/10 bg-white/5 px-2 py-0.5 hover:border-toxic-400 hover:text-toxic-300 transition text-[11px]" data-query={lang === 'ru' ? 'Ворон' : 'Raven'}>🦅 {lang === 'ru' ? 'Ворон' : 'Raven'}</button>
-        <button type="button" class="js-search-chip rounded-md border border-white/10 bg-white/5 px-2 py-0.5 hover:border-toxic-400 hover:text-toxic-300 transition text-[11px]" data-query={lang === 'ru' ? 'Снаряжение' : 'Gear'}>🛡️ {lang === 'ru' ? 'Снаряжение' : 'Gear'}</button>
-        <button type="button" class="js-search-chip rounded-md border border-white/10 bg-white/5 px-2 py-0.5 hover:border-toxic-400 hover:text-toxic-300 transition text-[11px]" data-query={lang === 'ru' ? 'Инфографики' : 'Infographics'}>📊 {lang === 'ru' ? 'Схемы' : 'Infographics'}</button>
+        <span class="text-[10px] font-mono text-stone-500 mr-1">{H('quick')}</span>
+        <button type="button" class="js-search-chip rounded-md border border-white/10 bg-white/5 px-2 py-0.5 hover:border-toxic-400 hover:text-toxic-300 transition text-[11px]" data-query={H('chipDuelQ')}>⚔️ {H('chipDuel')}</button>
+        <button type="button" class="js-search-chip rounded-md border border-white/10 bg-white/5 px-2 py-0.5 hover:border-toxic-400 hover:text-toxic-300 transition text-[11px]" data-query={H('chipCodesQ')}>🎁 {H('chipCodes')}</button>
+        <button type="button" class="js-search-chip rounded-md border border-white/10 bg-white/5 px-2 py-0.5 hover:border-toxic-400 hover:text-toxic-300 transition text-[11px]" data-query={H('chipTierQ')}>🏆 {H('chipTier')}</button>
+        <button type="button" class="js-search-chip rounded-md border border-white/10 bg-white/5 px-2 py-0.5 hover:border-toxic-400 hover:text-toxic-300 transition text-[11px]" data-query={H('chipRaven')}>🦅 {H('chipRaven')}</button>
+        <button type="button" class="js-search-chip rounded-md border border-white/10 bg-white/5 px-2 py-0.5 hover:border-toxic-400 hover:text-toxic-300 transition text-[11px]" data-query={H('chipGear')}>🛡️ {H('chipGear')}</button>
+        <button type="button" class="js-search-chip rounded-md border border-white/10 bg-white/5 px-2 py-0.5 hover:border-toxic-400 hover:text-toxic-300 transition text-[11px]" data-query={H('chipInfographics')}>📊 {H('chipInfographics')}</button>
       </div>
       <div id="search-results" class="max-h-[60vh] overflow-y-auto p-2"></div>
       <div class="flex items-center justify-between border-t border-white/5 px-4 py-3 text-xs text-stone-500">
@@ -420,7 +464,9 @@ const dictServer: Record<string, string> = {
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') close();
       const isK = (e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k';
-      const isSlash = e.key === '/' && (e.target as HTMLElement)?.tagName !== 'INPUT';
+      const t = (e.target as HTMLElement);
+      const isTypingContext = t?.tagName === 'INPUT' || t?.tagName === 'TEXTAREA' || t?.tagName === 'SELECT' || t?.isContentEditable;
+      const isSlash = e.key === '/' && !isTypingContext;
       if (isK || isSlash) {
         e.preventDefault();
         if (modal?.classList.contains('hidden')) {
@@ -471,14 +517,19 @@ const dictServer: Record<string, string> = {
         const el = document.getElementById('search-results');
         if (!el) return;
         const curLang = modal?.dataset.lang || 'en';
-        const emptyMsg = curLang === 'ru' ? 'Введите запрос для поиска по руководствам…' : 'Type to search guides…';
-        const noResultsMsg = curLang === 'ru' ? 'Ничего не найдено' : 'No results found';
+        // 19-lang search modal messages (fallback: EN).
+        const M_EMPTY: Record<string, string> = { ru: 'Введите запрос для поиска по руководствам…', en: 'Type to search guides…', de: 'Tippe, um Guides zu durchsuchen…', es: 'Escribe para buscar guías…', fr: 'Tapez pour rechercher des guides…', id: 'Ketik untuk mencari panduan…', ja: '入力してガイドを検索…', ko: '입력하여 가이드 검색…', pt: 'Digite para pesquisar guias…', ar: 'اكتب للبحث في الأدلة…', it: 'Digita per cercare guide…', ms: 'Taip untuk cari panduan…', nl: 'Typ om gidsen te zoeken…', th: 'พิมพ์เพื่อค้นหาคู่มือ…', tr: 'Rehberlerde aramak için yazın…', vi: 'Gõ để tìm hướng dẫn…', zh: '输入以搜索指南…', pl: 'Wpisz, aby szukać poradników…', 'zh-tw': '輸入以搜尋指南…' };
+        const M_NONE: Record<string, string> = { ru: 'Ничего не найдено', en: 'No results found', de: 'Keine Ergebnisse', es: 'Sin resultados', fr: 'Aucun résultat', id: 'Tidak ada hasil', ja: '結果なし', ko: '결과 없음', pt: 'Nenhum resultado', ar: 'لا نتائج', it: 'Nessun risultato', ms: 'Tiada keputusan', nl: 'Geen resultaten', th: 'ไม่พบผลลัพธ์', tr: 'Sonuç yok', vi: 'Không có kết quả', zh: '未找到结果', pl: 'Brak wyników', 'zh-tw': '未找到結果' };
+        const emptyMsg = M_EMPTY[curLang] ?? M_EMPTY.en;
+        const noResultsMsg = M_NONE[curLang] ?? M_NONE.en;
 
         if (!pf || !input.value.trim()) {
           el.innerHTML = `<div class="p-10 text-center text-stone-500 text-sm">${emptyMsg}</div>`;
           return;
         }
-        const s = await pf.search(input.value);
+        // Search only in the current language — a site with 19 locales must
+        // not mix RU/EN/KO results for an Italian visitor.
+        const s = await pf.search(input.value, { filters: { lang: curLang } });
         const items = await Promise.all(s.results.slice(0, 8).map((r: any) => r.data()));
         if (!items.length) {
           el.innerHTML = `<div class="p-10 text-center text-stone-500 text-sm">${noResultsMsg}</div>`;

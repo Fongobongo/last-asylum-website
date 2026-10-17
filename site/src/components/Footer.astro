@@ -10,6 +10,9 @@ interface Props {
 const { lang } = Astro.props;
 const year = new Date().getFullYear();
 const base = lang === 'en' ? '' : `/${lang}`;
+// 19-lang alliance info label (fallback: EN).
+const D_ALLIANCE: Record<string, string> = { ru: 'Информация альянса', en: 'Alliance Live Info', de: 'Allianz-Infos', es: 'Info de alianza', fr: 'Infos alliance', id: 'Info aliansi', ja: 'アライアンス情報', ko: '얼라이언스 정보', pt: 'Info da aliança', ar: 'معلومات التحالف', it: 'Info alleanza', ms: 'Info pakatan', nl: 'Alliantie-info', th: 'ข้อมูลพันธมิตร', tr: 'İttifak bilgisi', vi: 'Thông tin liên minh', zh: '联盟信息', pl: 'Info o sojuszu', 'zh-tw': '聯盟資訊' };
+const D_ALLIANCE_SHORT: Record<string, string> = { ru: 'Информация альянса', en: 'Alliance Info', de: 'Allianz-Info', es: 'Info alianza', fr: 'Info alliance', id: 'Info aliansi', ja: 'アライアンス情報', ko: '얼라이언스', pt: 'Info aliança', ar: 'معلومات التحالف', it: 'Info alleanza', ms: 'Info pakatan', nl: 'Alliantie-info', th: 'ข้อมูลพันธมิตร', tr: 'İttifak bilgisi', vi: 'Thông tin liên minh', zh: '联盟信息', pl: 'Info o sojuszu', 'zh-tw': '聯盟資訊' };
 // Slim cross-link to the top-up section, shown on every page.
 const shopLead =
   lang === 'ru' ? 'Пополнение со скидкой —'
@@ -50,7 +53,7 @@ const shopLead =
             class="inline-flex items-center gap-1.5 rounded-lg border border-toxic-500/30 bg-toxic-500/10 px-2.5 py-1.5 text-xs font-semibold text-toxic-300 hover:border-toxic-400 hover:bg-toxic-500/20 transition"
           >
             <span>🛡️</span>
-            <span>{lang === 'ru' ? 'Информация альянса' : 'Alliance Live Info'}</span>
+            <span>{D_ALLIANCE[lang] ?? D_ALLIANCE.en}</span>
           </a>
         </div>
       </div>
@@ -87,7 +90,7 @@ const shopLead =
         <ul class="space-y-1.5 text-sm">
           <li><a href={`${base}/codes/`} class="text-stone-400 hover:text-plague-200 transition">{t(lang, 'nav.codes')}</a></li>
           <li><a href={`${base}/support/`} class="inline-flex items-center gap-1 font-semibold text-toxic-400 hover:text-toxic-300 transition">💎 {t(lang, 'nav.support')}</a></li>
-          <li><a href={`${base}/alliance/`} class="text-stone-400 hover:text-plague-200 transition">🛡️ {lang === 'ru' ? 'Информация альянса' : 'Alliance Info'}</a></li>
+          <li><a href={`${base}/alliance/`} class="text-stone-400 hover:text-plague-200 transition">🛡️ {D_ALLIANCE_SHORT[lang] ?? D_ALLIANCE_SHORT.en}</a></li>
           <li><a href={`${base}/credits/`} class="text-stone-400 hover:text-plague-200 transition">{t(lang, 'nav.credits')}</a></li>
           <li><a href={DISCORD_URL} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-indigo-400 hover:text-indigo-300 transition">Discord ↗</a></li>
         </ul>

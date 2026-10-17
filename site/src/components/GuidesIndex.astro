@@ -58,10 +58,30 @@ const orderedSections = [...groups.keys()].sort(
   (a, b) => SECTION_ORDER.indexOf(a) - SECTION_ORDER.indexOf(b)
 );
 
-const heading = lang === 'ru' ? 'Все гайды' : 'All guides';
-const sub = lang === 'ru'
-  ? `Все ${guides.length} публикаций в одном месте — хабы, события и справочники.`
-  : `All ${guides.length} publications in one place — hubs, events and references.`;
+const D_HEAD: Record<string, string> = { ru: 'Все гайды', en: 'All guides', de: 'Alle Guides', es: 'Todas las guías', fr: 'Tous les guides', id: 'Semua panduan', ja: 'すべてのガイド', ko: '전체 가이드', pt: 'Todos os guias', ar: 'كل الأدلة', it: 'Tutte le guide', ms: 'Semua panduan', nl: 'Alle gidsen', th: 'คู่มือทั้งหมด', tr: 'Tüm rehberler', vi: 'Tất cả hướng dẫn', zh: '全部指南', pl: 'Wszystkie poradniki', 'zh-tw': '全部指南' };
+const D_SUB: Record<string, string> = {
+  ru: `Все ${guides.length} публикаций в одном месте — хабы, события и справочники.`,
+  en: `All ${guides.length} publications in one place — hubs, events and references.`,
+  de: `Alle ${guides.length} Beiträge an einem Ort — Hubs, Events und Referenzen.`,
+  es: `Las ${guides.length} publicaciones en un solo lugar — hubs, eventos y referencias.`,
+  fr: `Les ${guides.length} publications au même endroit — hubs, événements et références.`,
+  id: `Semua ${guides.length} publikasi di satu tempat — hub, acara, dan referensi.`,
+  ja: `全${guides.length}記事を一箇所に — ハブ、イベント、リファレンス。`,
+  ko: `가이드 ${guides.length}개를 한곳에서 — 허브, 이벤트, 참고자료.`,
+  pt: `Todas as ${guides.length} publicações num só lugar — hubs, eventos e referências.`,
+  ar: `كل ${guides.length} منشور في مكان واحد — أقسام وأحداث ومراجع.`,
+  it: `Tutte le ${guides.length} pubblicazioni in un solo posto — hub, eventi e riferimenti.`,
+  ms: `Semua ${guides.length} penerbitan di satu tempat — hab, acara dan rujukan.`,
+  nl: `Alle ${guides.length} publicaties op één plek — hubs, evenementen en referenties.`,
+  th: `คู่มือทั้งหมด ${guides.length} รายการในที่เดียว — ฮับ อีเวนต์ และเนื้อหาอ้างอิง`,
+  tr: `Tüm ${guides.length} yayın tek yerde — hublar, etkinlikler ve referanslar.`,
+  vi: `Tất cả ${guides.length} bài viết tại một nơi — hub, sự kiện và tham khảo.`,
+  zh: `全部 ${guides.length} 篇内容集中在一处 — 专题、活动与参考。`,
+  pl: `Wszystkie ${guides.length} publikacje w jednym miejscu — sekcje, wydarzenia i materiały.`,
+  'zh-tw': `全部 ${guides.length} 篇內容集中在一處 — 專題、活動與參考。`,
+};
+const heading = D_HEAD[lang] ?? D_HEAD.en;
+const sub = D_SUB[lang] ?? D_SUB.en;
 ---
 
 <div class="not-prose my-8">

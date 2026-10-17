@@ -1,5 +1,6 @@
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
+import { languages } from '../i18n/utils';
 
 export const GET: APIRoute = async ({ site }) => {
   const base = site?.toString().replace(/\/$/, '') || 'https://lastasylum.pages.dev';
@@ -15,7 +16,10 @@ export const GET: APIRoute = async ({ site }) => {
     '# Last Asylum: Plague — Fan Hub',
     '',
     '> Unofficial community strategy guides, event breakdowns and reference tables for the game Last Asylum: Plague.',
-    `> Canonical site: ${base}/ — every guide below also exists in 8 more languages under /ru/, /de/, /es/, /fr/, /id/, /ja/, /ko/, /pt/.`,
+    `> Canonical site: ${base}/ — every guide below also exists in ${languages.length - 1} more languages: ${languages
+      .filter((l) => l !== 'en')
+      .map((l) => `/${l}/`)
+      .join(', ')}.`,
     '',
     '## Guides',
     '',

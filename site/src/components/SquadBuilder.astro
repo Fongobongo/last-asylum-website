@@ -913,11 +913,13 @@ const T = (k: string): string => {
       window.history.replaceState({}, '', url.toString());
 
       const label = document.getElementById('sb-share-label');
-      const isRu = (document.documentElement.lang || '').startsWith('ru');
-      const origText = label?.textContent || (isRu ? 'Поделиться' : 'Share Squad');
+      const __sbLang = (document.documentElement.lang || 'en');
+      const __sbCopied: Record<string, string> = {ru:'✓ Скопировано!',en:'✓ Copied!',es:'✓ Copiado',pt:'✓ Copiado',fr:'✓ Copié',de:'✓ Kopiert',id:'✓ Tersalin',ko:'✓ 복사됨',ja:'✓ コピー済み',ar:'✓ تم النسخ',it:'✓ Copiato',ms:'✓ Disalin',nl:'✓ Gekopieerd',th:'✓ คัดลอกแล้ว',tr:'✓ Kopyalandı',vi:'✓ Đã sao chép',zh:'✓ 已复制',pl:'✓ Skopiowano','zh-tw':'✓ 已複製'};
+      const __sbCopiedText = __sbCopied[__sbLang] ?? __sbCopied[__sbLang.slice(0,2)] ?? __sbCopied.en;
+      const origText = label?.textContent || 'Share Squad';
       try {
         await navigator.clipboard.writeText(url.toString());
-        if (label) label.textContent = isRu ? '✓ Скопировано!' : '✓ Copied!';
+        if (label) label.textContent = __sbCopiedText;
         setTimeout(() => { if (label) label.textContent = origText; }, 2000);
       } catch {
         if (label) label.textContent = url.toString();
