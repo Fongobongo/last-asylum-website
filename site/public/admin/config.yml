@@ -1,12 +1,12 @@
-site_url: https://lastasylum.netlify.app
-logo_url: https://lastasylum.netlify.app/og-cover.png
+site_url: https://lastasylum.pages.dev
+logo_url: https://lastasylum.pages.dev/og-cover.png
 locale: en
 
 # Editorial workflow: editors publish through pull requests; admins merge.
 # Requires "Allow editors to publish through PRs" mindset; on public repos
 # GitHub permissions do the rest (write access = editor).
 publish_mode: editorial_workflow
-media_folder: site/static/uploads
+media_folder: site/public/uploads
 public_folder: /uploads
 
 # Auth: GitHub backend with OAuth. Set up an OAuth app (see README-ADMIN.md):
@@ -15,6 +15,11 @@ backend:
   name: github
   repo: Fongobongo/last-asylum-website
   branch: main
+  # OAuth proxy (sveltia-cms-auth worker, deployed to this account).
+  # Needs GITHUB_CLIENT_ID + GITHUB_CLIENT_SECRET secrets on the worker:
+  #   npx wrangler secret put GITHUB_CLIENT_ID --name sveltia-cms-auth
+  #   npx wrangler secret put GITHUB_CLIENT_SECRET --name sveltia-cms-auth
+  base_url: https://sveltia-cms-auth.tofong.workers.dev
 
 collections:
   # ---------- Guides (English) ----------

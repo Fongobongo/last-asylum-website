@@ -1,46 +1,50 @@
 # Admin panel & editors guide
 
-## РљР°Рє СЌС‚Рѕ СѓСЃС‚СЂРѕРµРЅРѕ
+## Как это устроено
 
-- **РђРґРјРёРЅРєР°**: `/admin/` вЂ” Sveltia CMS (РѕС‚РєСЂС‹РІР°РµС‚СЃСЏ РІ Р±СЂР°СѓР·РµСЂРµ, СЂР°Р±РѕС‚Р°РµС‚ РїРѕРІРµСЂС… GitHub С‡РµСЂРµР· OAuth)
-- **РљРѕРЅС‚РµРЅС‚**: РіР°Р№РґС‹ Р»РµР¶Р°С‚ РІ `site/content/guides/{lang}/*.md` вЂ” СЂРµРґР°РєС‚РёСЂСѓСЋС‚СЃСЏ С‡РµСЂРµР· Р°РґРјРёРЅРєСѓ СЃ РїСЂРµРІСЊСЋ РёР»Рё РїСЂСЏРјРѕ РЅР° GitHub
-- **РџСѓР±Р»РёРєР°С†РёСЏ**: editorial workflow вЂ” РІСЃРµ РїСЂР°РІРєРё РёРґСѓС‚ С‡РµСЂРµР· Pull Request; РІР»Р°РґРµР»РµС† РјРµСЂР¶РёС‚
-- **Р›РёРјРёС‚ РїСЂР°РІРѕРє**: РЅРµ Р±РѕР»РµРµ **5 РјРµСЂР¶РµР№ РІ РґРµРЅСЊ** РЅР° Р°РІС‚РѕСЂР° (GitHub Actions `limit-edits.yml`); РїСЂРµРІС‹С€РµРЅРёРµ = Р°РІС‚РѕРєРѕРјРјРµРЅС‚Р°СЂРёР№ РІ PR + Р±Р»РѕРєРёСЂРѕРІРєР° РјРµСЂР¶Р°
+- **Админка**: `/admin/` — Sveltia CMS (открывается в браузере, работает поверх GitHub через OAuth)
+- **Контент**: гайды лежат в `site/content/guides/{lang}/*.md` — редактируются через админку с превью или прямо на GitHub
+- **Публикация**: editorial workflow — все правки идут через Pull Request; владелец мержит
+- **Лимит правок**: не более **5 мержей в день** на автора (GitHub Actions `limit-edits.yml`); превышение = автокомментарий в PR + блокировка мержа
 
-## РљР°Рє СЃРѕР·РґР°С‚СЊ СЂРµРґР°РєС‚РѕСЂР°
+## Как создать редактора
 
-1. **РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ**: СЂРµРґР°РєС‚РѕСЂ СЃРѕР·РґР°С‘С‚ GitHub-Р°РєРєР°СѓРЅС‚ Рё РіРѕРІРѕСЂРёС‚ С‚РµР±Рµ СЃРІРѕР№ username
-2. **Р”РѕСЃС‚СѓРї**: РІ РЅР°СЃС‚СЂРѕР№РєР°С… СЂРµРїРѕР·РёС‚РѕСЂРёСЏ в†’ *Collaborators* в†’ *Add people* в†’ РІРІРѕРґРёС€СЊ username в†’ СЂРѕР»СЊ **Write**
-3. Р РµРґР°РєС‚РѕСЂ РѕС‚РєСЂС‹РІР°РµС‚ `https://lastasylum.pages.dev/admin/`, Р»РѕРіРёРЅРёС‚СЃСЏ С‡РµСЂРµР· GitHub (OAuth), РІРёРґРёС‚ РІСЃРµ РєРѕР»Р»РµРєС†РёРё: Guides (EN/RU), Events (EN/RU)
-4. Р’СЃРµ РµРіРѕ РёР·РјРµРЅРµРЅРёСЏ РёРґСѓС‚ РІРµС‚РєР°РјРё + PR вЂ” С‚С‹ РєРѕРЅС‚СЂРѕР»РёСЂСѓРµС€СЊ РєР°Р¶РґС‹Р№ РјРµСЂР¶
+1. **Пользователь**: редактор создаёт GitHub-аккаунт и говорит тебе свой username
+2. **Доступ**: в настройках репозитория → *Collaborators* → *Add people* → вводишь username → роль **Write**
+3. Редактор открывает `https://lastasylum.pages.dev/admin/`, логинится через GitHub (OAuth), видит все коллекции: Guides (EN/RU), Events (EN/RU)
+4. Все его изменения идут ветками + PR — ты контролируешь каждый мерж
 
-> Р’Р»Р°РґРµР»РµС† (Owner) Рё Р°РґРјРёРЅС‹ РЅРµ РѕРіСЂР°РЅРёС‡РµРЅС‹ Р»РёРјРёС‚РѕРј? РќРµС‚ вЂ” Р»РёРјРёС‚ РґРµР№СЃС‚РІСѓРµС‚ РґР»СЏ РІСЃРµС… Р°РІС‚РѕСЂРѕРІ PR, РєСЂРѕРјРµ `auto-update-bot` Рё `github-actions`. Р•СЃР»Рё РЅСѓР¶РЅРѕ exempt-РїСЂР°РІРёР»Рѕ РґР»СЏ СЃРµР±СЏ, РґРѕР±Р°РІСЊ СЃРІРѕР№ Р»РѕРіРёРЅ РІ СЃРїРёСЃРѕРє РёСЃРєР»СЋС‡РµРЅРёР№ РІ `limit-edits.yml`.
+> Владелец (Owner) и админы не ограничены лимитом? Нет — лимит действует для всех авторов PR, кроме `auto-update-bot` и `github-actions`. Если нужно exempt-правило для себя, добавь свой логин в список исключений в `limit-edits.yml`.
 
-## Р›РёРјРёС‚ РїСЂР°РІРѕРє (5/РґРµРЅСЊ)
+## Лимит правок (5/день)
 
-`limit-edits.yml` СЃСЂР°Р±Р°С‚С‹РІР°РµС‚ РЅР° РєР°Р¶РґС‹Р№ PR:
-- РЎС‡РёС‚Р°РµС‚ **merged** PR Р°РІС‚РѕСЂР° Р·Р° РїРѕСЃР»РµРґРЅРёРµ 24 С‡Р°СЃР° (Search API GitHub)
-- > 5 в†’ вќЊ РєСЂР°СЃРЅС‹Р№ СЃС‚Р°С‚СѓСЃ + РєРѕРјРјРµРЅС‚Р°СЂРёР№ В«в›” Daily edit limit reachedВ», РјРµСЂР¶ Р·Р°Р±Р»РѕРєРёСЂРѕРІР°РЅ
-- в‰¤ 5 в†’ вњ… РєРѕРјРјРµРЅС‚Р°СЂРёР№ В«Edit limit OK: N/5 usedВ»
+`limit-edits.yml` срабатывает на каждый PR:
+- Считает **merged** PR автора за последние 24 часа (Search API GitHub)
+- > 5 → ❌ красный статус + комментарий «⛔ Daily edit limit reached», мерж заблокирован
+- ≤ 5 → ✅ комментарий «Edit limit OK: N/5 used»
 
-РР·РјРµРЅРёС‚СЊ Р»РёРјРёС‚: РїРµСЂРµРјРµРЅРЅР°СЏ `MAX_EDITS_PER_DAY` РІ `.github/workflows/limit-edits.yml`.
+Изменить лимит: переменная `MAX_EDITS_PER_DAY` в `.github/workflows/limit-edits.yml`.
 
-## OAuth РґР»СЏ РІС…РѕРґР° РІ Р°РґРјРёРЅРєСѓ
+## OAuth для входа в админку
 
-Sveltia CMS РЅСѓР¶РЅР° GitHub OAuth-РїСЂРѕРєСЃРё (РЅРµ С…СЂР°РЅРёРј СЃРµРєСЂРµС‚С‹ РЅР° СЃС‚Р°С‚РёРєРµ):
+Sveltia CMS нужна GitHub OAuth-прокси (не храним секреты на статике):
 
-**Р’Р°СЂРёР°РЅС‚ A вЂ” СЃРІРѕР№ РїСЂРѕРєСЃРё (Р±РµСЃРїР»Р°С‚РЅРѕ, 5 РјРёРЅСѓС‚):**
-1. GitHub в†’ Settings в†’ Developer settings в†’ OAuth Apps в†’ New: Homepage `https://lastasylum.pages.dev`, callback `https://<С‚РІРѕР№-РїСЂРѕРєСЃРё>.vercel.app/callback`
-2. Р Р°Р·РІРµСЂРЅРё `sveltia/sveltia-cms-auth` РЅР° Vercel/Cloudflare Workers РѕРґРЅРѕР№ РєРЅРѕРїРєРѕР№: https://github.com/sveltia/sveltia-cms-auth вЂ” РІСЃС‚Р°РІСЊ Client ID/Secret
-3. Р’ `site/public/admin/config.yml` РґРѕР±Р°РІСЊ РїРѕРґ `backend:` СЃС‚СЂРѕРєСѓ `base_url: https://<С‚РІРѕР№-РїСЂРѕРєСЃРё>.vercel.app`
+**Вариант A — свой прокси (прокси уже развёрнут 2026-10-16):**
+1. ✅ Прокси развёрнут: `https://sveltia-cms-auth.tofong.workers.dev` (worker `sveltia-cms-auth` в CF-аккаунте, `base_url` уже вписан в `config.yml`, `ALLOWED_DOMAINS` настроен)
+2. GitHub → Settings → Developer settings → OAuth Apps → New OAuth App: Homepage `https://lastasylum.pages.dev`, Authorization callback URL `https://sveltia-cms-auth.tofong.workers.dev/callback`
+3. Полученные Client ID и Client Secret загрузи в worker:
+   ```
+   npx wrangler secret put GITHUB_CLIENT_ID --name sveltia-cms-auth
+   npx wrangler secret put GITHUB_CLIENT_SECRET --name sveltia-cms-auth
+   ```
 
-**Р’Р°СЂРёР°РЅС‚ B вЂ” Р±РµР· OAuth (Р»РѕРєР°Р»СЊРЅРѕ):** Р·Р°РїСѓСЃС‚Рё `npx @sveltia/cms`... РёР»Рё РїСЂРѕСЃС‚Рѕ РїСЂР°РІСЊ markdown РІ СЂРµРїРѕ вЂ” СЃС‚СЂСѓРєС‚СѓСЂР° РїСЂРµРґРµР»СЊРЅРѕ РїСЂРѕСЃС‚Р°СЏ.
+**Вариант B — без OAuth (локально):** запусти `npx @sveltia/cms`... или просто правь markdown в репо — структура предельно простая.
 
 
-| РљРѕР»Р»РµРєС†РёСЏ | РџСѓС‚СЊ | Р§С‚Рѕ СЂРµРґР°РєС‚РёСЂСѓРµС‚ |
+| Коллекция | Путь | Что редактирует |
 |---|---|---|
-| Guides (EN) | `site/content/guides/en/` | 11 РіР°Р№РґРѕРІ + РЅРѕРІС‹Рµ |
-| Guides (RU) | `site/content/guides/ru/` | СЂСѓСЃСЃРєРёРµ РІРµСЂСЃРёРё |
-| Event guides (EN/RU) | `.../events/` | 12 РёРІРµРЅС‚РѕРІ Г— 2 |
+| Guides (EN) | `site/content/guides/en/` | 11 гайдов + новые |
+| Guides (RU) | `site/content/guides/ru/` | русские версии |
+| Event guides (EN/RU) | `.../events/` | 12 ивентов × 2 |
 
-Frontmatter РєР°Р¶РґРѕРіРѕ РіР°Р№РґР°: `title`, `description`, `lang`, `updated`, `videoTopic` (РІС‹Р±РѕСЂ РёР· СЃРїРёСЃРєР°), `calculators`, `infographics`, `noindex`. РўРµР»Рѕ вЂ” markdown; Р·Р°РіРѕР»РѕРІРєРё СЃ СЏРєРѕСЂСЏРјРё: `## Р—Р°РіРѕР»РѕРІРѕРє {#anchor-id}`.
+Frontmatter каждого гайда: `title`, `description`, `lang`, `updated`, `videoTopic` (выбор из списка), `calculators`, `infographics`, `noindex`. Тело — markdown; заголовки с якорями: `## Заголовок {#anchor-id}`.
