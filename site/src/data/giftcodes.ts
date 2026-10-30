@@ -7,9 +7,7 @@ export interface GiftCode {
 
 // Актуальный список от топ-игроков (перепроверен вручную).
 export const giftCodes: GiftCode[] = [
-  { code: 'LA26CAFE1', date: '2026-10-15', active: true, note: 'October 2026 promo (Discord/community)' },
   { code: 'LAGRAN26', date: '2026-10-15', active: true, note: 'October 2026 promo (Discord/community)' },
-  { code: 'LAHD26', date: '2026-10-09', active: true, note: 'October 2026 promo (Discord/community)' },
   { code: 'LACAFE26', date: '2026-10-02', active: true, note: 'October 2026 promo (Discord/community)' },
   { code: 'LA30W7F2M', date: '2026-09-14', active: true, note: 'Discord milestone' },
   { code: 'LADCEX1223', date: '2026-09-08', active: true, note: '100 diamonds, 12× 5-min speedups, 15k grain + 15k timber' },
