@@ -122,7 +122,7 @@ const RELATED: Record<string, string[]> = {
   'alliance-dig': ['alliance', 'economy', 'tips'],
 };
 const relatedSlugs =
-  RELATED[slug] ?? (slug.startsWith('events/') ? ['calendar', 'alliance', 'tips'] : ['guides']);
+  RELATED[slug] ?? RELATED[slug.split('/')[0]] ?? (slug.startsWith('events/') ? ['calendar', 'alliance', 'tips'] : ['guides']);
 const relatedItems: RelatedItem[] = relatedSlugs.flatMap((s) => {
   // Note: collection entry ids carry no .md extension (e.g. "en/economy").
   const hit =

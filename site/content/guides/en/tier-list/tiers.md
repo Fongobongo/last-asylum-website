@@ -1,0 +1,50 @@
+---
+title: "S tier"
+description: "Arthur (UR · Warrior · Tank) — Free UR tank from day 1 — the backbone of every F2P squad"
+lang: en
+updated: "2026-10-12"
+type: guide
+---
+## S tier {#s-tier}
+
+- **Arthur** (UR · Warrior · Tank) — Free UR tank from day 1 — the backbone of every F2P squad
+- **Marlena** (UR · Warrior · Carry) — ~85% of your damage until Zoya; $1 top-up = best value in game
+- **Claire** (SSR · Warrior · Carry) — Free shards early, key boss passive, SSR→UR conversion later
+- **Harper** (UR · Warrior · Support) — Ultimate buffs entire team ATK — 8★ is mandatory
+- **Daskal** (UR · Warrior · Tank) — Best tank in the game (Era of Revival, day 120+); shields backline DPS when HP drops below 50%
+
+## A Tier {#a-tier}
+
+- **Cynthia** (UR · Ranger · Carry) — F2P carry via Wishing Wheel day 8 (~1.5k diamonds after 7 free daily spins + milestone); strong vs monsters
+- **Zoya** (UR · Warrior · Carry) — Paid-only; splits damage 50/50 with maxed Marlena
+- **Bell** (UR · Ranger · Support) — Buffs 2 strongest ATK allies + all rangers — boss comp core (needs 6★/ult 10)
+- **Shadow** (UR · Ranger · Tank) — Hero Pass tank; hold the line while carries kill
+- **Annie** (UR · Warlock · Carry) — Secretly strong for F2P; 8★ support skill = huge team value
+- **Joker** (UR · Warlock · Carry) — PvP finisher (targets lowest HP); wheel target after day 15
+- **Red Lady** (UR · Ranger · Carry) — Ranger carry with stuns for PvP
+
+## B Tier {#b-tier}
+
+- **Lucius** (SSR · Warrior · Tank) — "Absolute Shield" free tank while building URs
+- **Bella** (SSR · Warrior · Tank) — Free early frontliner; thief-hunt survival pick
+- **Celia** (SSR · Warrior · Support) — Team-wide elite-monster buff for boss fights
+- **Kesso** (SSR · Warrior · Carry) — Budget backline DPS with resource boosts
+- **Ash** (SSR · Ranger · Carry) — Monster-damage passive for 2 best rangers — ranger boss comps
+- **Stellar** (SSR · Warlock · Support) — Warlock monster-damage support — warlock boss comps
+- **Louis** (UR · Ranger · Tank) — Ranger tank for mono-ranger rosters
+- **Nicole** (UR · Warlock · Support) — Healing support for warlock squads (reworked Ember Dust & healing)
+- **Ulfrid** (UR · Warlock · Tank) — Warlock reflect tank (renamed from Brian in July 2026)
+- **Billy** (UR · Warlock · Tank) — Anti-CC tank (counters Red Lady stuns), −8% Energy DMG taken, debuffs 3 enemies
+
+## C tier {#c-tier}
+
+- **Sivir** (SSR · Warrior · Carry) — Very early budget carry — replaced quickly
+
+## How to read this list {#how-to-read}
+
+- **S** — long-term core investments: build them first, keep them forever
+- **A** — strong carries and event heroes: worth building when your S-core is stable
+- **B** — situational/budget: good while you are building the S/A roster, in boss comps, or for mono-faction squads
+- **C** — very early placeholders only
+
+> Mono-faction meta: UR epigraphs buff ONE faction only. 3 same-faction heroes = +5%, 4 = +15%, 5 = +20% HP/ATK/DEF. Faction counter: Warrior > Warlock > Ranger > Warrior.
