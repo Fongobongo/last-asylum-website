@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import GuidePage from '../../../components/GuidePage.astro';
+import Infographic from '../../../components/Infographic.astro';
 import VideoSection from '../../../components/VideoSection.astro';
 import { t } from '../../../i18n/ui';
 import type { Lang } from '../../../i18n/utils';
@@ -76,6 +77,8 @@ const lang: Lang = 'fr';
     <p>Elixir Scramble récompense la discipline plutôt que la puissance. Une alliance plus faible tenant les bons bâtiments et ne cessant jamais de tourter bat une alliance plus forte courant après les kills — parce que les kills n&apos;ont jamais rien valu.</p>
 
     <p><strong>Rappels :</strong> Des courriers de rappel en jeu sont expédiés <strong>4 heures et 2 heures</strong> avant le début de la bataille.</p>
+    
+    <Infographic src={`/infographics/elixir-guide-${lang}.webp`} alt='Elixir War' />
     <VideoSection topic="elixir" lang={lang} />
   </GuidePage>
 </Base>

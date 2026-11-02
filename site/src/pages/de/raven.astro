@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
+import Infographic from '../../components/Infographic.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import { t } from '../../i18n/ui';
 import type { Lang } from '../../i18n/utils';
@@ -109,7 +110,8 @@ const lang: Lang = 'de';
     
     <h2 id="epigraphs-update">Epigraphen (bis zu 6 Sterne) & Wächter der Natur</h2>
     <p>Epigraphen können bis zu <strong>6 Sternen</strong> aufgewertet werden. Das mächtige UR-Epigraph <strong>«Wächter der Natur»</strong> erzeugt zu Kampfbeginn einen Schutzschild und verleiht nach dessen Zerbrechen Schadensreduktion.</p>
-
+    
+    <Infographic src={`/infographics/raven-epigraph-priority-${lang}.webp`} alt='Raven Epigraphs' />
     <VideoSection topic="raven" lang={lang} />
   </GuidePage>
 </Base>

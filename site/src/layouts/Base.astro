@@ -33,18 +33,18 @@ const alternates = (Astro.props.langs ?? languages).map((l) => ({
 // content pages AND static hub pages across all 9 langs get them for free.
 const OG_BY_SECTION: Record<string, string> = {
   beginners: '/infographics/beg-tutorial.jpg',
-  alliance: '/infographics/duel-day-guide.webp',
-  buildings: '/infographics/building-speed-formula-ru.webp',
+  alliance: `/infographics/duel-day-guide-${lang}.webp`,
+  buildings: `/infographics/building-speed-formula-${lang}.webp`,
   heroes: '/hero-art/marlena.webp',
-  economy: '/infographics/diamond-shop-guide-ru.jpg',
-  gear: '/infographics/gear-craft-priority-ru.webp',
-  era: '/infographics/era-royal-city-ru.webp',
+  economy: `/infographics/diamond-shop-guide-${lang}.webp`,
+  gear: `/infographics/gear-craft-priority-${lang}.webp`,
+  era: `/infographics/era-royal-city-${lang}.webp`,
   might: '/hero-art/cynthia.webp',
-  raven: '/infographics/raven-epigraph-priority-ru.webp',
-  tips: '/infographics/undead-siege-guide.webp',
-  calendar: '/infographics/royal-scramble-ru.webp',
+  raven: `/infographics/raven-epigraph-priority-${lang}.webp`,
+  tips: `/infographics/undead-siege-guide-${lang}.webp`,
+  calendar: `/infographics/royal-scramble-${lang}.webp`,
   'tier-list': '/hero-art/arthur.webp',
-  events: '/infographics/duel-day-guide.webp',
+  events: `/infographics/duel-day-guide-${lang}.webp`,
 };
 const section = cleanPath.split('/').filter(Boolean)[0];
 const ogImage = Astro.props.ogImage ?? (section && OG_BY_SECTION[section]) ?? `${site}/og-cover.png`;
@@ -156,7 +156,7 @@ const umamiSrc = import.meta.env.PUBLIC_UMAMI_SRC ?? '';
     <div id="reading-progress" class="fixed top-0 left-0 h-[2.5px] w-0 bg-gradient-to-r from-toxic-500 via-toxic-400 to-plague-400 z-[100] transition-[width] duration-100 ease-out pointer-events-none"></div>
 
     <Header lang={lang} path={path} langs={Astro.props.langs} />
-    <main class="mx-auto w-full max-w-7xl px-4">
+    <main class="mx-auto w-full max-w-7xl px-4" data-pagefind-body>
       <slot />
     </main>
     <Footer lang={lang} />

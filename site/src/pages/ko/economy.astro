@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
+import Infographic from '../../components/Infographic.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import PlunderCalculator from '../../components/PlunderCalculator.astro';
 import { t } from '../../i18n/ui';
@@ -124,7 +125,8 @@ const lang: Lang = 'ko';
       <li><strong>상단</strong> — 자동화된 교역 수입. 계속 움직이게 하세요.</li>
       <li><strong>비밀 작전</strong> — 하루에 최대 5명의 다른 플레이어 비밀 작전을 약탈할 수 있습니다. 황금 비밀 작전이 최고의 보상을 줍니다 — 보이면 항상 황금을 잡으세요.</li>
     </ul>
-
+    
+    <Infographic src={`/infographics/diamond-shop-guide-${lang}.webp`} alt='Diamond Shop Guide' />
     <VideoSection topic="economy" lang={lang} />
   </GuidePage>
 </Base>

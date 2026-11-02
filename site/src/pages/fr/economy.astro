@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
+import Infographic from '../../components/Infographic.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import PlunderCalculator from '../../components/PlunderCalculator.astro';
 import { t } from '../../i18n/ui';
@@ -124,7 +125,8 @@ const lang: Lang = 'fr';
       <li><strong>Caravanes</strong> — votre revenu commercial automatisé. Gardez-les en mouvement.</li>
       <li><strong>Opérations Secrètes</strong> — vous pouvez piller jusqu&apos;à 5 Opérations Secrètes d&apos;autres joueurs par jour. Les Dorées paient les meilleures récompenses — prenez toujours une dorée quand vous en voyez une.</li>
     </ul>
-
+    
+    <Infographic src={`/infographics/diamond-shop-guide-${lang}.webp`} alt='Diamond Shop Guide' />
     <VideoSection topic="economy" lang={lang} />
   </GuidePage>
 </Base>

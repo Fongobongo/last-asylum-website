@@ -83,11 +83,74 @@ const getInfographicSrc = (id: string, defaultSrc: string, currentLang: Lang): s
   if (id === 'sanctuary-guide') {
     return `/infographics/sanctuary-guide-${currentLang}.webp`;
   }
+  if (id === 'building-speed') {
+    return `/infographics/building-speed-formula-${currentLang}.webp`;
+  }
+  if (id === 'gear-craft') {
+    return `/infographics/gear-craft-priority-${currentLang}.webp`;
+  }
+  if (id === 'troops-training') {
+    return `/infographics/troops-training-strategy-${currentLang}.webp`;
+  }
   if (id === 'falcon-tower-storage') {
-    return currentLang === 'ru' ? '/infographics/falcon-tower-storage-ru.webp' : '/infographics/falcon-tower-storage.webp';
+    return `/infographics/falcon-tower-storage-${currentLang}.webp`;
   }
   if (id === 'royal-scramble') {
-    return currentLang === 'ru' ? '/infographics/royal-scramble-ru.webp' : '/infographics/royal-scramble.webp';
+    return `/infographics/royal-scramble-${currentLang}.webp`;
+  }
+  if (id === 'skill-scaling') {
+    return `/infographics/skill-scaling-${currentLang}.webp`;
+  }
+  if (id === 'canyon-rats') {
+    return `/infographics/canyon-crystal-rats-${currentLang}.webp`;
+  }
+  if (id === 'crystal-mine') {
+    return `/infographics/crystal-mine-strategy-${currentLang}.webp`;
+  }
+  if (id === 'tech-order') {
+    return `/infographics/tech-research-order-${currentLang}.webp`;
+  }
+  if (id === 'diamond-shop') {
+    return `/infographics/diamond-shop-guide-${currentLang}.webp`;
+  }
+  if (id === 'raven-epigraph') {
+    return `/infographics/raven-epigraph-priority-${currentLang}.webp`;
+  }
+  if (id === 'squad-damage') {
+    return `/infographics/squad-damage-guide-${currentLang}.webp`;
+  }
+  if (id === 'relics-1') {
+    return `/infographics/relics-guide-part1-${currentLang}.webp`;
+  }
+  if (id === 'relics-2') {
+    return `/infographics/relics-guide-part2-${currentLang}.webp`;
+  }
+  if (id === 'hero-awakening') {
+    return `/infographics/hero-awakening-${currentLang}.webp`;
+  }
+  if (id === 'era-monsters') {
+    return `/infographics/era-monsters-infection-${currentLang}.webp`;
+  }
+  if (id === 'era-royal') {
+    return `/infographics/era-royal-city-${currentLang}.webp`;
+  }
+  if (id === 'cheese-trap') {
+    return `/infographics/cheese-trap-${currentLang}.webp`;
+  }
+  if (id === 'royal-city') {
+    return `/infographics/royal-city-tactics-${currentLang}.webp`;
+  }
+  if (id === 'elixir-guide') {
+    return `/infographics/elixir-guide-${currentLang}.webp`;
+  }
+  if (id === 'undead-siege') {
+    return `/infographics/undead-siege-guide-${currentLang}.webp`;
+  }
+  if (id === 'undead-siege-2') {
+    return `/infographics/undead-siege-guide-2-${currentLang}.webp`;
+  }
+  if (id === 'duel-day-guide') {
+    return `/infographics/duel-day-guide-${currentLang}.webp`;
   }
   return defaultSrc;
 };

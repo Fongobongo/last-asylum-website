@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import GuidePage from '../../../components/GuidePage.astro';
+import Infographic from '../../../components/Infographic.astro';
 import VideoSection from '../../../components/VideoSection.astro';
 import { t } from '../../../i18n/ui';
 import type { Lang } from '../../../i18n/utils';
@@ -72,7 +73,9 @@ const lang: Lang = 'ko';
       <li><strong>적용 후 20분 쿨다운</strong> — 대기열의 유일한 브레이크입니다. 재신청을 그 중심으로 타이밍 잡으세요.</li>
     </ul>
     <p>칭호 버프는 주간 캘린더의 다른 모든 것과 복리로 쌓입니다 — <a href="/ko/events/alliance-duel/">동맹 결투 3단계</a> 동안의 연구 칭호 슬롯이나 <a href="/ko/events/alliance-duel/">5단계</a> 동안의 훈련 슬롯이 주 전체가 짜인 캘린더 일석이조입니다.</p>
-
+    
+    <Infographic src={`/infographics/royal-city-tactics-${lang}.webp`} alt='Royal City Tactics' />
+    <Infographic src={`/infographics/royal-scramble-${lang}.webp`} alt='Royal Scramble' />
     <VideoSection topic="royal" lang={lang} />
   </GuidePage>
 </Base>

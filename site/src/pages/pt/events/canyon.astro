@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import GuidePage from '../../../components/GuidePage.astro';
+import Infographic from '../../../components/Infographic.astro';
 import VideoSection from '../../../components/VideoSection.astro';
 import { t } from '../../../i18n/ui';
 import type { Lang } from '../../../i18n/utils';
@@ -61,7 +62,8 @@ const lang: Lang = 'pt';
     <h2 id="why-zero-risk">Por que este é o melhor evento de risco zero</h2>
     <p>Canyon Conquest <strong>não tem perda de tropas, risco de recursos nem custo real de vigor</strong> — diferente do <a href="/pt/events/kvk/">KvK</a>, onde uma cidade sem escudo queima. Você luta com poder de torneio emprestado, e seu exército real fica em casa intacto. Isso torna um dos <strong>melhores eventos para recompensas seguras</strong> do jogo: apareça, registre-se, lute suas três lutas, recolha.</p>
     <p>O único custo real é atenção à formação — e as regras de revezamento acima são toda a meta de formação.</p>
-
+    
+    <Infographic src={`/infographics/canyon-crystal-rats-${lang}.webp`} alt='Canyon Crystal Rats' />
     <VideoSection topic="canyon" lang={lang} />
   </GuidePage>
 </Base>

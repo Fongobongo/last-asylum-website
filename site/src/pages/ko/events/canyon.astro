@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import GuidePage from '../../../components/GuidePage.astro';
+import Infographic from '../../../components/Infographic.astro';
 import VideoSection from '../../../components/VideoSection.astro';
 import { t } from '../../../i18n/ui';
 import type { Lang } from '../../../i18n/utils';
@@ -61,7 +62,8 @@ const lang: Lang = 'ko';
     <h2 id="why-zero-risk">왜 최고의 무리스크 이벤트인가</h2>
     <p>협곡 정복은 <strong>부대 손실도, 자원 리스크도, 실제 스태미나 비용도 없습니다</strong> — 보호막 없는 도시가 불타는 <a href="/ko/events/kvk/">KvK</a>와 다릅니다. 빌린 토너먼트 전력으로 싸우고, 실제 군대는 집에 온전히 남습니다. 그래서 게임에서 <strong>가장 안전한 보상 이벤트</strong> 중 하나입니다: 나타나고, 등록하고, 세 전투를 치르고, 수령하세요.</p>
     <p>유일한 실제 비용은 라인업 주의입니다 — 그리고 위의 릴레이 규칙이 라인업 메타의 전부입니다.</p>
-
+    
+    <Infographic src={`/infographics/canyon-crystal-rats-${lang}.webp`} alt='Canyon Crystal Rats' />
     <VideoSection topic="canyon" lang={lang} />
   </GuidePage>
 </Base>

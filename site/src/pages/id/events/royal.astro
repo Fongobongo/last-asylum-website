@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import GuidePage from '../../../components/GuidePage.astro';
+import Infographic from '../../../components/Infographic.astro';
 import VideoSection from '../../../components/VideoSection.astro';
 import { t } from '../../../i18n/ui';
 import type { Lang } from '../../../i18n/utils';
@@ -72,7 +73,9 @@ const lang: Lang = 'id';
       <li><strong>Cooldown 20 menit setelah menerapkan</strong> — satu-satunya rem pada antrean. Atur waktu pengajuan ulang Anda di sekitarnya.</li>
     </ul>
     <p>Buff gelar bertumpuk dengan semua hal lain di kalender mingguan — slot gelar riset selama <a href="/id/events/alliance-duel/">Fase 3 Alliance Duel</a> atau slot pelatihan selama <a href="/id/events/alliance-duel/">Fase 5</a> adalah double-dip kalender yang menjadi pondasi seluruh minggunya.</p>
-
+    
+    <Infographic src={`/infographics/royal-city-tactics-${lang}.webp`} alt='Royal City Tactics' />
+    <Infographic src={`/infographics/royal-scramble-${lang}.webp`} alt='Royal Scramble' />
     <VideoSection topic="royal" lang={lang} />
   </GuidePage>
 </Base>

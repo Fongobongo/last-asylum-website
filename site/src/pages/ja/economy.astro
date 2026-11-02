@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
+import Infographic from '../../components/Infographic.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import PlunderCalculator from '../../components/PlunderCalculator.astro';
 import { t } from '../../i18n/ui';
@@ -124,7 +125,8 @@ const lang: Lang = 'ja';
       <li><strong>キャラバン</strong> — 自動化された交易収入。動かし続けること。</li>
       <li><strong>秘密作戦</strong> — 1日に最大5人の他プレイヤーの秘密作戦を略奪できます。ゴールデンの秘密作戦が最高報酬 — 見つけたら必ず取る。</li>
     </ul>
-
+    
+    <Infographic src={`/infographics/diamond-shop-guide-${lang}.webp`} alt='Diamond Shop Guide' />
     <VideoSection topic="economy" lang={lang} />
   </GuidePage>
 </Base>

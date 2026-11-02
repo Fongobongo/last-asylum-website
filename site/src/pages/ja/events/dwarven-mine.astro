@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import GuidePage from '../../../components/GuidePage.astro';
+import Infographic from '../../../components/Infographic.astro';
 import VideoSection from '../../../components/VideoSection.astro';
 import DiscordBanner from '../../../components/DiscordBanner.astro';
 import { t } from '../../../i18n/ui';
@@ -20,7 +21,8 @@ const lang: Lang = 'ja';
 
 <h2 id="hoarding">無課金の750ツルハシ貯蓄ルール</h2>
 <blockquote>無課金の鉄則: イベントごとにツルハシを中途半端に使わず、<strong>750本以上貯蓄</strong>してから一気に100階を目指しましょう。</blockquote>
-
+    
+    <Infographic src={`/infographics/crystal-mine-strategy-${lang}.webp`} alt='Crystal Mine Strategy' />
     <VideoSection topic="dwarven" lang={lang} />
 
     <DiscordBanner lang={lang} />

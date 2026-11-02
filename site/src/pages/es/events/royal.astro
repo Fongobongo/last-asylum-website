@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import GuidePage from '../../../components/GuidePage.astro';
+import Infographic from '../../../components/Infographic.astro';
 import VideoSection from '../../../components/VideoSection.astro';
 import { t } from '../../../i18n/ui';
 import type { Lang } from '../../../i18n/utils';
@@ -72,7 +73,9 @@ const lang: Lang = 'es';
       <li><strong>Enfriamiento de 20 minutos tras aplicar</strong> — el único freno a la cola. Calcula tu reaplicación en torno a él.</li>
     </ul>
     <p>Los bonos de título se acumulan con todo lo demás del calendario semanal — una ranura de título de investigación durante la <a href="/es/events/alliance-duel/">Fase 3 del Duelo de Alianzas</a> o una ranura de entrenamiento durante la <a href="/es/events/alliance-duel/">Fase 5</a> es el doble beneficio de calendario en torno al cual se construye toda la semana.</p>
-
+    
+    <Infographic src={`/infographics/royal-city-tactics-${lang}.webp`} alt='Royal City Tactics' />
+    <Infographic src={`/infographics/royal-scramble-${lang}.webp`} alt='Royal Scramble' />
     <VideoSection topic="royal" lang={lang} />
   </GuidePage>
 </Base>

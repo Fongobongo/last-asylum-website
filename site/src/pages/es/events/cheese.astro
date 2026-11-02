@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import GuidePage from '../../../components/GuidePage.astro';
+import Infographic from '../../../components/Infographic.astro';
 import VideoSection from '../../../components/VideoSection.astro';
 import { t } from '../../../i18n/ui';
 import type { Lang } from '../../../i18n/utils';
@@ -69,6 +70,8 @@ const lang: Lang = 'es';
     <p>Si tu alianza tiene un peso pesado, hay un patrón eficiente de endgame: <strong>2-3 concentraciones bastan para maximizar las recompensas de alianza</strong> cuando el whale acarrea el daño. El resto se une a la concentración por el +2.5%, deja caer sus tropas, y para en su Fase 5 personal. El daño del whale llena el fondo compartido; el nivel de alianza se llena; nadie quema tropas más allá de su propio punto de parada.</p>
 
     <p><strong>Importante:</strong> ¡La Trampa de Queso <strong>no se puede invocar en la Tierra Maldita (Cursed Land)</strong>!</p>
+    
+    <Infographic src={`/infographics/cheese-trap-${lang}.webp`} alt='Cheese Trap' />
     <VideoSection topic="cheese" lang={lang} />
   </GuidePage>
 </Base>

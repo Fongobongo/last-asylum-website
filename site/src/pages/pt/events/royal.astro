@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import GuidePage from '../../../components/GuidePage.astro';
+import Infographic from '../../../components/Infographic.astro';
 import VideoSection from '../../../components/VideoSection.astro';
 import { t } from '../../../i18n/ui';
 import type { Lang } from '../../../i18n/utils';
@@ -72,7 +73,9 @@ const lang: Lang = 'pt';
       <li><strong>Recarga de 20 minutos após aplicar</strong> — o único freio na fila. Cronometre sua reaplicação em torno dele.</li>
     </ul>
     <p>Bônus de título se acumulam com todo o resto do calendário semanal — uma vaga de título de pesquisa durante a <a href="/pt/events/alliance-duel/">Fase 3 do Duelo de Alianças</a> ou uma vaga de treino durante a <a href="/pt/events/alliance-duel/">Fase 5</a> é o benefício duplo de calendário em torno do qual a semana inteira é construída.</p>
-
+    
+    <Infographic src={`/infographics/royal-city-tactics-${lang}.webp`} alt='Royal City Tactics' />
+    <Infographic src={`/infographics/royal-scramble-${lang}.webp`} alt='Royal Scramble' />
     <VideoSection topic="royal" lang={lang} />
   </GuidePage>
 </Base>

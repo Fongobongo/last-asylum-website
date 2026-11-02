@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import GuidePage from '../../../components/GuidePage.astro';
+import Infographic from '../../../components/Infographic.astro';
 import VideoSection from '../../../components/VideoSection.astro';
 import { t } from '../../../i18n/ui';
 import type { Lang } from '../../../i18n/utils';
@@ -76,6 +77,8 @@ const lang: Lang = 'pt';
     <p>Elixir Scramble recompensa disciplina sobre poder. Uma aliança mais fraca que segura os edifícios certos e nunca para de rotacionar vence uma mais forte caçando mortes — porque mortes nunca valeram nada.</p>
 
     <p><strong>Lembrete:</strong> E-mails de lembrete do sistema são enviados <strong>4 horas e 2 horas</strong> antes do início da batalha.</p>
+    
+    <Infographic src={`/infographics/elixir-guide-${lang}.webp`} alt='Elixir War' />
     <VideoSection topic="elixir" lang={lang} />
   </GuidePage>
 </Base>

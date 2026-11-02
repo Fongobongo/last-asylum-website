@@ -7,7 +7,7 @@
     "dev": "astro dev",
     "prebuild": "node scripts/sync-db-articles.mjs",
     "build": "astro build",
-    "postbuild": "pagefind --site dist --output-path dist/pagefind",
+    "postbuild": "pagefind --site dist --output-path dist/pagefind || pagefind --site dist --output-path dist/pagefind --glob \"{en,ru,es,de,fr,pt,it,nl,pl,tr}/**/*.html\"",
     "preview": "astro preview",
     "astro": "astro",
     "check:links": "node scripts/check-links.mjs",

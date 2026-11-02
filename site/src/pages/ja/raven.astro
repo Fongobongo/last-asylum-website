@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
+import Infographic from '../../components/Infographic.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import { t } from '../../i18n/ui';
 import type { Lang } from '../../i18n/utils';
@@ -109,7 +110,8 @@ const lang: Lang = 'ja';
     
     <h2 id="epigraphs-update">碑文の星6上限とUR「自然の守護」</h2>
     <p>碑文は最大<strong>星6</strong>まで強化可能。強力なUR碑文<strong>「自然の守護」</strong>は戦闘開始時にシールドを展開し、破壊時に被ダメージ軽減効果を発動します。</p>
-
+    
+    <Infographic src={`/infographics/raven-epigraph-priority-${lang}.webp`} alt='Raven Epigraphs' />
     <VideoSection topic="raven" lang={lang} />
   </GuidePage>
 </Base>

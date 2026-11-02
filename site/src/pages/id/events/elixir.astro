@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import GuidePage from '../../../components/GuidePage.astro';
+import Infographic from '../../../components/Infographic.astro';
 import VideoSection from '../../../components/VideoSection.astro';
 import { t } from '../../../i18n/ui';
 import type { Lang } from '../../../i18n/utils';
@@ -76,6 +77,8 @@ const lang: Lang = 'id';
     <p>Elixir Scramble menghargai disiplin di atas kekuatan. Aliansi lebih lemah yang memegang bangunan yang tepat dan tidak pernah berhenti berotasi akan mengalahkan aliansi lebih kuat yang mengejar kill — karena kill tidak pernah bernilai apa-apa.</p>
 
     <p><strong>Pengingat:</strong> Surat pengingat sistem dikirimkan <strong>4 jam dan 2 jam</strong> sebelum pertempuran dimulai.</p>
+    
+    <Infographic src={`/infographics/elixir-guide-${lang}.webp`} alt='Elixir War' />
     <VideoSection topic="elixir" lang={lang} />
   </GuidePage>
 </Base>

@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import GuidePage from '../../../components/GuidePage.astro';
+import Infographic from '../../../components/Infographic.astro';
 import VideoSection from '../../../components/VideoSection.astro';
 import { t } from '../../../i18n/ui';
 import type { Lang } from '../../../i18n/utils';
@@ -61,7 +62,8 @@ const lang: Lang = 'fr';
     <h2 id="why-zero-risk">Pourquoi c&apos;est le meilleur événement sans risque</h2>
     <p>Canyon Conquest n&apos;a <strong>pas de perte de troupes, pas de risque de ressources ni de vrai coût d&apos;énergie</strong> — à la différence du <a href="/fr/events/kvk/">KvK</a>, où une ville sans bouclier brûle. Vous vous battez avec une puissance de tournoi empruntée, et votre vraie armée reste intacte à la maison. Cela en fait l&apos;un des <strong>meilleurs événements pour des récompenses sûres</strong> du jeu : présentez-vous, inscrivez-vous, livrez vos trois combats, encaissez.</p>
     <p>Le seul vrai coût est l&apos;attention portée aux formations — et les règles de relais ci-dessus sont toute la méta de formation.</p>
-
+    
+    <Infographic src={`/infographics/canyon-crystal-rats-${lang}.webp`} alt='Canyon Crystal Rats' />
     <VideoSection topic="canyon" lang={lang} />
   </GuidePage>
 </Base>

@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
+import Infographic from '../../components/Infographic.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import PlunderCalculator from '../../components/PlunderCalculator.astro';
 import { t } from '../../i18n/ui';
@@ -124,7 +125,8 @@ const lang: Lang = 'id';
       <li><strong>Karavan</strong> — penghasilan dagang otomatis Anda. Jaga mereka terus bergerak.</li>
       <li><strong>Covert Ops</strong> — Anda bisa menjarah Covert Ops hingga 5 pemain lain per hari. Covert Ops Emas memberikan hadiah terbaik — selalu ambil yang emas saat Anda melihatnya.</li>
     </ul>
-
+    
+    <Infographic src={`/infographics/diamond-shop-guide-${lang}.webp`} alt='Diamond Shop Guide' />
     <VideoSection topic="economy" lang={lang} />
   </GuidePage>
 </Base>

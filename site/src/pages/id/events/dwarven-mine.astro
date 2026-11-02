@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import GuidePage from '../../../components/GuidePage.astro';
+import Infographic from '../../../components/Infographic.astro';
 import VideoSection from '../../../components/VideoSection.astro';
 import DiscordBanner from '../../../components/DiscordBanner.astro';
 import { t } from '../../../i18n/ui';
@@ -17,7 +18,8 @@ const lang: Lang = 'id';
     breadcrumbs={[{ label: t(lang, 'nav.home'), href: '/id/' }, { label: t(lang, 'nav.events'), href: '/id/events/' }, { label: 'Tambang Kurcaci' }]}
   >
     <p><strong>Tambang Kurcaci</strong> adalah event 7 hari di mana Anda menggali ubin dengan <strong>Beliung</strong>. Pemain yang menyelesaikan <strong>100 lantai</strong> memenangkan <strong>cetak biru perlengkapan MR</strong>.</p>
-
+    
+    <Infographic src={`/infographics/crystal-mine-strategy-${lang}.webp`} alt='Crystal Mine Strategy' />
     <VideoSection topic="dwarven" lang={lang} />
 
     <DiscordBanner lang={lang} />

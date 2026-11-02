@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import GuidePage from '../../../components/GuidePage.astro';
+import Infographic from '../../../components/Infographic.astro';
 import VideoSection from '../../../components/VideoSection.astro';
 import { t } from '../../../i18n/ui';
 import type { Lang } from '../../../i18n/utils';
@@ -61,7 +62,8 @@ const lang: Lang = 'ja';
     <h2 id="why-zero-risk">このゲームで最良のリスクゼロイベントである理由</h2>
     <p>Canyon Conquest には<strong>兵士損失も資源リスクも実質的なスタミナコストもありません</strong> — シールドなしの都市が燃える<a href="/ja/events/kvk/">KvK</a>とは違います。借り物のトーナメント戦力で戦い、本物の軍隊は無傷で家に残ります。それがこのゲームで<strong>最も安全な報酬イベント</strong>の一つである理由です：現れて、登録して、3戦して、受け取る。</p>
     <p>唯一の実コストは編成への注意 — そして上のリレールールが編成メタのすべてです。</p>
-
+    
+    <Infographic src={`/infographics/canyon-crystal-rats-${lang}.webp`} alt='Canyon Crystal Rats' />
     <VideoSection topic="canyon" lang={lang} />
   </GuidePage>
 </Base>

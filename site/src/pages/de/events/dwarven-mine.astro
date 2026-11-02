@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import GuidePage from '../../../components/GuidePage.astro';
+import Infographic from '../../../components/Infographic.astro';
 import VideoSection from '../../../components/VideoSection.astro';
 import DiscordBanner from '../../../components/DiscordBanner.astro';
 import { t } from '../../../i18n/ui';
@@ -36,7 +37,8 @@ const lang: Lang = 'de';
   <li><strong>Kräuter (~8M pro Wahl):</strong> ✅ <strong>Beste Wahl für das Mid- und Endgame.</strong> Kräuter sind das Nadelöhr für hochstufige Forschung.</li>
   <li><strong>Ausrüstungssteine:</strong> ❌ Im späteren Spielverlauf hat man Hunderttausende Steine auf Lager. Das Nadelöhr sind Baupläne, nicht Steine.</li>
 </ul>
-
+    
+    <Infographic src={`/infographics/crystal-mine-strategy-${lang}.webp`} alt='Crystal Mine Strategy' />
     <VideoSection topic="dwarven" lang={lang} />
 
     <DiscordBanner lang={lang} />

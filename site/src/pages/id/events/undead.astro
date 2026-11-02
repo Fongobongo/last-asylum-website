@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import GuidePage from '../../../components/GuidePage.astro';
+import Infographic from '../../../components/Infographic.astro';
 import VideoSection from '../../../components/VideoSection.astro';
 import { t } from '../../../i18n/ui';
 import type { Lang } from '../../../i18n/utils';
@@ -98,6 +99,9 @@ const lang: Lang = 'id';
     <p>Jalankan event dengan tujuh itu diperbaiki dan aliansi Anda bertahan dekat plafonnya. Penataan hero untuk tembok dan komposisi pasukan dibahas di <a href="/id/heroes/">Panduan Hero</a>.</p>
 
     <p><strong>Syarat Buka:</strong> Pengepungan Mayat Hidup terbuka setelah server berumur <strong>2 minggu</strong>.</p>
+    
+    <Infographic src={`/infographics/undead-siege-guide-${lang}.webp`} alt='Undead Siege Part 1' />
+    <Infographic src={`/infographics/undead-siege-guide-2-${lang}.webp`} alt='Undead Siege Part 2' />
     <VideoSection topic="undead" lang={lang} />
   </GuidePage>
 </Base>

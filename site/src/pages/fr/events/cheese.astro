@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import GuidePage from '../../../components/GuidePage.astro';
+import Infographic from '../../../components/Infographic.astro';
 import VideoSection from '../../../components/VideoSection.astro';
 import { t } from '../../../i18n/ui';
 import type { Lang } from '../../../i18n/utils';
@@ -69,6 +70,8 @@ const lang: Lang = 'fr';
     <p>Si votre alliance a un gros bill, il existe un schéma efficace d&apos;endgame : <strong>2-3 rallyes suffisent pour maximiser les récompenses d&apos;alliance</strong> quand le whale porte les dégâts. Tout le monde rejoint le rallye pour les +2.5%, y dépose ses troupes, et s&apos;arrête à sa Phase 5 personnelle. Les dégâts du whale remplissent le pool partagé ; le palier d&apos;alliance se remplit ; personne ne brûle de troupes au-delà de son propre point d&apos;arrêt.</p>
 
     <p><strong>Important :</strong> Le Piège à Fromage <strong>ne peut pas être invoqué sur la Terre Maudite (Cursed Land)</strong> !</p>
+    
+    <Infographic src={`/infographics/cheese-trap-${lang}.webp`} alt='Cheese Trap' />
     <VideoSection topic="cheese" lang={lang} />
   </GuidePage>
 </Base>

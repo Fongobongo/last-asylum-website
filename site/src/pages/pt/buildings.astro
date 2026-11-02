@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
+import Infographic from '../../components/Infographic.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import SanctuaryCalc from '../../components/SanctuaryCalc.astro';
 import { t } from '../../i18n/ui';
@@ -131,6 +132,8 @@ const lang: Lang = 'pt';
     <p>E mantenha a mistura equilibrada: tenha sempre Grão, Madeira e Ervas em estoque. Melhorias tardias devoram as três ao mesmo tempo, e ficar seco em qualquer uma no meio do empurrão desperdiça exatamente o cronômetro que você empilhou bônus para economizar.</p>
 
     <SanctuaryCalc lang={lang} />
+    
+    <Infographic src={`/infographics/building-speed-formula-${lang}.webp`} alt='Building Speed Formula' />
     <VideoSection topic="buildings" lang={lang} />
   </GuidePage>
 </Base>

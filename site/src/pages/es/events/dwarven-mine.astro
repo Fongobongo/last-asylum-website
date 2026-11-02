@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import GuidePage from '../../../components/GuidePage.astro';
+import Infographic from '../../../components/Infographic.astro';
 import VideoSection from '../../../components/VideoSection.astro';
 import DiscordBanner from '../../../components/DiscordBanner.astro';
 import { t } from '../../../i18n/ui';
@@ -35,7 +36,8 @@ const lang: Lang = 'es';
   <li><strong>Hierbas (~8M por elección):</strong> ✅ <strong>La mejor opción para el juego tardío.</strong> Bloquean investigaciones de alto nivel.</li>
   <li><strong>Piedras de equipo:</strong> ❌ Más adelante tendrás cientos de miles sin gastar. El cuello de botella son los planos.</li>
 </ul>
-
+    
+    <Infographic src={`/infographics/crystal-mine-strategy-${lang}.webp`} alt='Crystal Mine Strategy' />
     <VideoSection topic="dwarven" lang={lang} />
 
     <DiscordBanner lang={lang} />

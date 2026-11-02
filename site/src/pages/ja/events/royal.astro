@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import GuidePage from '../../../components/GuidePage.astro';
+import Infographic from '../../../components/Infographic.astro';
 import VideoSection from '../../../components/VideoSection.astro';
 import { t } from '../../../i18n/ui';
 import type { Lang } from '../../../i18n/utils';
@@ -72,7 +73,9 @@ const lang: Lang = 'ja';
       <li><strong>申请後20分のクールダウン</strong> — キューへの唯一のブレーキ。再申请はそれに合わせて。</li>
     </ul>
     <p>称号バフは週間カレンダーの他のすべてと複利します — <a href="/ja/events/alliance-duel/">Alliance Duel フェーズ3</a>の間の研究枠や、<a href="/ja/events/alliance-duel/">フェーズ5</a>の間の訓練枠こそ、週全体が組み上がる「二重取り」です。</p>
-
+    
+    <Infographic src={`/infographics/royal-city-tactics-${lang}.webp`} alt='Royal City Tactics' />
+    <Infographic src={`/infographics/royal-scramble-${lang}.webp`} alt='Royal Scramble' />
     <VideoSection topic="royal" lang={lang} />
   </GuidePage>
 </Base>

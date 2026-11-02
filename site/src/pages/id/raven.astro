@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
+import Infographic from '../../components/Infographic.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import { t } from '../../i18n/ui';
 import type { Lang } from '../../i18n/utils';
@@ -109,7 +110,8 @@ const lang: Lang = 'id';
     
     <h2 id="epigraphs-update">Epigraf (Hingga Bintang 6) & Penjaga Alam</h2>
     <p>Epigraf dapat ditingkatkan hingga <strong>Bintang 6</strong>. Epigraf UR <strong>«Penjaga Alam»</strong> memicu perisai awal pertempuran dan mitigasi damage saat perisai pecah.</p>
-
+    
+    <Infographic src={`/infographics/raven-epigraph-priority-${lang}.webp`} alt='Raven Epigraphs' />
     <VideoSection topic="raven" lang={lang} />
   </GuidePage>
 </Base>

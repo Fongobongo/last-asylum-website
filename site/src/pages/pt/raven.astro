@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
+import Infographic from '../../components/Infographic.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import { t } from '../../i18n/ui';
 import type { Lang } from '../../i18n/utils';
@@ -109,7 +110,8 @@ const lang: Lang = 'pt';
     
     <h2 id="epigraphs-update">Epígrafes (Até 6 Estrelas) e Guardião da Natureza</h2>
     <p>Os epígrafes podem evoluir até <strong>6 Estrelas</strong>. O poderoso epígrafe UR <strong>«Guardião da Natureza»</strong> concede um escudo inicial e mitigação de dano após a quebra da barreira.</p>
-
+    
+    <Infographic src={`/infographics/raven-epigraph-priority-${lang}.webp`} alt='Raven Epigraphs' />
     <VideoSection topic="raven" lang={lang} />
   </GuidePage>
 </Base>

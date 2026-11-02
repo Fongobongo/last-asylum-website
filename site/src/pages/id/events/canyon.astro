@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import GuidePage from '../../../components/GuidePage.astro';
+import Infographic from '../../../components/Infographic.astro';
 import VideoSection from '../../../components/VideoSection.astro';
 import { t } from '../../../i18n/ui';
 import type { Lang } from '../../../i18n/utils';
@@ -61,7 +62,8 @@ const lang: Lang = 'id';
     <h2 id="why-zero-risk">Mengapa Ini Event Tanpa-Risiko Terbaik</h2>
     <p>Canyon Conquest <strong>tanpa kehilangan pasukan, tanpa risiko sumber daya, dan tanpa biaya stamina nyata</strong> — tidak seperti <a href="/id/events/kvk/">KvK</a>, di mana kota tanpa shield terbakar. Anda bertarung dengan kekuatan turnamen pinjaman, pasukan nyata Anda tetap utuh di rumah. Itu menjadikannya salah satu <strong>event terbaik untuk hadiah aman</strong> dalam game: datang, daftar, jalankan tiga pertarungan Anda, panen.</p>
     <p>Satu-satunya biaya nyata adalah perhatian pada lineup — dan aturan estafet di atas adalah seluruh meta lineup-nya.</p>
-
+    
+    <Infographic src={`/infographics/canyon-crystal-rats-${lang}.webp`} alt='Canyon Crystal Rats' />
     <VideoSection topic="canyon" lang={lang} />
   </GuidePage>
 </Base>

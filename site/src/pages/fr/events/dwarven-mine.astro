@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import GuidePage from '../../../components/GuidePage.astro';
+import Infographic from '../../../components/Infographic.astro';
 import VideoSection from '../../../components/VideoSection.astro';
 import DiscordBanner from '../../../components/DiscordBanner.astro';
 import { t } from '../../../i18n/ui';
@@ -27,7 +28,8 @@ const lang: Lang = 'fr';
 
 <h2 id="hoarding">La règle des 750 pioches F2P</h2>
 <blockquote>Conseil F2P : économisez au moins <strong>750 pioches</strong> sur plusieurs cycles avant de tenter l'étage 100.</blockquote>
-
+    
+    <Infographic src={`/infographics/crystal-mine-strategy-${lang}.webp`} alt='Crystal Mine Strategy' />
     <VideoSection topic="dwarven" lang={lang} />
 
     <DiscordBanner lang={lang} />

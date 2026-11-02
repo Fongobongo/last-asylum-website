@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import GuidePage from '../../../components/GuidePage.astro';
+import Infographic from '../../../components/Infographic.astro';
 import VideoSection from '../../../components/VideoSection.astro';
 import { t } from '../../../i18n/ui';
 import type { Lang } from '../../../i18n/utils';
@@ -72,7 +73,9 @@ const lang: Lang = 'fr';
       <li><strong>Recharge de 20 minutes après application</strong> — le seul frein à la file. Calibrez votre repostulation autour.</li>
     </ul>
     <p>Les bonus de titres se composent avec tout le reste du calendrier hebdomadaire — un slot de titre de recherche pendant la <a href="/fr/events/alliance-duel/">Phase 3 du Duel d&apos;Alliances</a> ou un slot d&apos;entraînement pendant la <a href="/fr/events/alliance-duel/">Phase 5</a>, c&apos;est le double bénéfice de calendrier autour duquel toute la semaine s&apos;articule.</p>
-
+    
+    <Infographic src={`/infographics/royal-city-tactics-${lang}.webp`} alt='Royal City Tactics' />
+    <Infographic src={`/infographics/royal-scramble-${lang}.webp`} alt='Royal Scramble' />
     <VideoSection topic="royal" lang={lang} />
   </GuidePage>
 </Base>

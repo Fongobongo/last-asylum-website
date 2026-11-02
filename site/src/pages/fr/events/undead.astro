@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import GuidePage from '../../../components/GuidePage.astro';
+import Infographic from '../../../components/Infographic.astro';
 import VideoSection from '../../../components/VideoSection.astro';
 import { t } from '../../../i18n/ui';
 import type { Lang } from '../../../i18n/utils';
@@ -98,6 +99,9 @@ const lang: Lang = 'fr';
     <p>Jouez l&apos;événement avec ces sept points corrigés et votre alliance défend près de son plafond. La configuration des héros pour le mur et la composition d&apos;escouade sont couvertes dans le <a href="/fr/heroes/">guide des Héros</a>.</p>
 
     <p><strong>Déblocage :</strong> Le Siège des Morts-Vivants se débloque lorsque le serveur atteint <strong>2 semaines d'ancienneté</strong>.</p>
+    
+    <Infographic src={`/infographics/undead-siege-guide-${lang}.webp`} alt='Undead Siege Part 1' />
+    <Infographic src={`/infographics/undead-siege-guide-2-${lang}.webp`} alt='Undead Siege Part 2' />
     <VideoSection topic="undead" lang={lang} />
   </GuidePage>
 </Base>

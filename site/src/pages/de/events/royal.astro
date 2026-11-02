@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import GuidePage from '../../../components/GuidePage.astro';
+import Infographic from '../../../components/Infographic.astro';
 import VideoSection from '../../../components/VideoSection.astro';
 import { t } from '../../../i18n/ui';
 import type { Lang } from '../../../i18n/utils';
@@ -72,7 +73,9 @@ const lang: Lang = 'de';
       <li><strong>20 Minuten Abklingzeit nach dem Anwenden</strong> — die einzige Bremse an der Warteschlange. Takte deine Wiederbewerbung darum herum.</li>
     </ul>
     <p>Titel-Bonis stapeln sich mit allem anderen im Wochen-Kalender — ein Forschungs-Titel-Slot während <a href="/de/events/alliance-duel/">Allianz-Duell-Phase 3</a> oder ein Trainings-Slot während <a href="/de/events/alliance-duel/">Phase 5</a> ist das Kalender-Doppelnutzen, um das die ganze Woche gebaut ist.</p>
-
+    
+    <Infographic src={`/infographics/royal-city-tactics-${lang}.webp`} alt='Royal City Tactics' />
+    <Infographic src={`/infographics/royal-scramble-${lang}.webp`} alt='Royal Scramble' />
     <VideoSection topic="royal" lang={lang} />
   </GuidePage>
 </Base>

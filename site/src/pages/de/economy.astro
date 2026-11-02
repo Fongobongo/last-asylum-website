@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
+import Infographic from '../../components/Infographic.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import PlunderCalculator from '../../components/PlunderCalculator.astro';
 import { t } from '../../i18n/ui';
@@ -124,7 +125,8 @@ const lang: Lang = 'de';
       <li><strong>Karawanen</strong> — dein automatisiertes Handels-Einkommen. Halte sie in Bewegung.</li>
       <li><strong>Verdeckte Operationen</strong> — du kannst pro Tag bis zu 5 Verdeckte Operationen anderer Spieler plündern. Goldene zahlen die besten Belohnungen — schnapp dir immer eine goldene, wenn du eine siehst.</li>
     </ul>
-
+    
+    <Infographic src={`/infographics/diamond-shop-guide-${lang}.webp`} alt='Diamond Shop Guide' />
     <VideoSection topic="economy" lang={lang} />
   </GuidePage>
 </Base>

@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
+import Infographic from '../../components/Infographic.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import PlunderCalculator from '../../components/PlunderCalculator.astro';
 import { t } from '../../i18n/ui';
@@ -124,7 +125,8 @@ const lang: Lang = 'es';
       <li><strong>Caravanas</strong> — tu ingreso comercial automatizado. Mantenlas moviéndose.</li>
       <li><strong>Operaciones Encubiertas</strong> — puedes saquear hasta 5 Operaciones Encubiertas de otros jugadores al día. las Doradas pagan las mejores recompensas — agarra siempre una dorada cuando la veas.</li>
     </ul>
-
+    
+    <Infographic src={`/infographics/diamond-shop-guide-${lang}.webp`} alt='Diamond Shop Guide' />
     <VideoSection topic="economy" lang={lang} />
   </GuidePage>
 </Base>

@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import GuidePage from '../../components/GuidePage.astro';
+import Infographic from '../../components/Infographic.astro';
 import VideoSection from '../../components/VideoSection.astro';
 import { t } from '../../i18n/ui';
 import type { Lang } from '../../i18n/utils';
@@ -109,7 +110,8 @@ const lang: Lang = 'fr';
     
     <h2 id="epigraphs-update">Épigraphes (Jusqu'à 6 Étoiles) & Gardien de la Nature</h2>
     <p>Les épigraphes peuvent être améliorées jusqu'à <strong>6 Étoiles</strong>. La puissante épigraphe UR <strong>«Gardien de la Nature»</strong> déploie un bouclier en début de combat et réduit les dégâts subis après sa rupture.</p>
-
+    
+    <Infographic src={`/infographics/raven-epigraph-priority-${lang}.webp`} alt='Raven Epigraphs' />
     <VideoSection topic="raven" lang={lang} />
   </GuidePage>
 </Base>
