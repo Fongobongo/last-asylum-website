@@ -92,7 +92,7 @@ Stamina ialah salah satu enjin pemarkahan F2P yang paling kos efektif pada **Har
 
 Dalam Penyembuh Teragung, Misi Falcon mengutip mata secara ketat pada **Hari 1, 3, 5, dan 7** (**1,000 mata** setiap misi). Misi ini memberikan 0 mata pada Hari 2, 4, dan 6!
 
-![Panduan visual simpanan insiden Menara Falcon](/infographics/falcon-tower-storage.webp)
+![Panduan visual simpanan insiden Menara Falcon](/infographics/falcon-tower-storage-ms.webp)
 
 > [!TIP]
 > Rujukan pantas simpanan visual oleh `#252 Dalkongss`. Juga terdapat dalam [Galeri Infografik](/infographics/#falcon-tower-storage).

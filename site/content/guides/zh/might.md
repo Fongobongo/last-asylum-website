@@ -5,6 +5,7 @@ lang: zh
 type: guide
 updated: "2026-09-14"
 videoTopic: might
+infographics: ["/infographics/squad-damage-guide-zh.webp"]
 ---
 
 许多指挥官在《最后庇护所：瘟疫》（Last Asylum: Plague）中犯了一个致命错误：他们通过训练无休止的低阶士兵来盲目追求面板战力。其结果就是老玩家们所说的**“纸面战力”**——个人资料上耀眼的数字在精锐战斗小队面前会在几秒钟内崩溃，导致成千上万的部队直接涌入满溢的医院并彻底阵亡。

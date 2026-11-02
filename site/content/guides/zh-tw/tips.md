@@ -4,6 +4,7 @@ description: "《Last Asylum: Plague》隱藏機制完全百科全書——建�
 lang: zh-tw
 updated: "2026-10-12"
 videoTopic: tips
+infographics: ["/infographics/tech-research-order-zh-tw.webp", "/infographics/building-speed-formula-zh-tw.webp"]
 ---
 
 乍一看，大多數手機策略遊戲似乎都簡單得令人髮指：升級建築、培養英雄、點擊帶有紅點的按鈕。然而，在 **《Last Asylum: Plague》** 的表象之下，隱藏着一個複雜的數學引擎，裏面有幾十條遊戲從未解釋過的未成文規則。

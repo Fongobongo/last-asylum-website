@@ -4,6 +4,7 @@ description: "The complete encyclopedia of hidden mechanics in Last Asylum: Plag
 lang: en
 updated: "2026-10-12"
 videoTopic: tips
+infographics: ["/infographics/tech-research-order-en.webp", "/infographics/building-speed-formula-en.webp"]
 ---
 
 Most mobile strategy games seem deceptively simple at first glance: upgrade buildings, level heroes, and tap buttons with red dots. However, beneath the surface of **Last Asylum: Plague** lies a sophisticated mathematical engine with dozens of unwritten rules that the game never explains.

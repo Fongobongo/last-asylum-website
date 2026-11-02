@@ -92,7 +92,7 @@ type: event
 
 在至高治療師中，獵鷹任務嚴格在**第 1、3、5 和 7 天**計分（每項任務 **1,000 點**）。它們在第 2、4 和 6 天提供 0 積分！
 
-![獵鷹塔事件存儲視覺指南](/infographics/falcon-tower-storage.webp)
+![獵鷹塔事件存儲視覺指南](/infographics/falcon-tower-storage-zh-tw.webp)
 
 > [!TIP]
 > 由 `#252 Dalkongss` 製作的視覺存儲備忘單。也可在[信息圖表庫](/infographics/#falcon-tower-storage)中查看。

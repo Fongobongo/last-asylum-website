@@ -4,6 +4,7 @@ description: "Harmonogram rozwoju Sanktuarium do poziomu 30, kolejność prioryt
 lang: pl
 updated: "2026-10-12"
 videoTopic: buildings
+infographics: ["/infographics/building-speed-formula-pl.webp"]
 ---
 
 Budowanie w Last Asylum: Plague to gra na dłuższą metę – parcie z Sanktuarium od poziomu 1 do 30 zajmuje całe miesiące, a zła kolejność kosztuje Cię tygodnie z nich. Ta strona przedstawia społecznościową kolejność budowy: które budynki mają znaczenie i w jakiej sekwencji, harmonogram Sanktuarium poziom po poziomie oraz dokładną matematykę kumulowania prędkości budowy.

@@ -92,7 +92,7 @@ Wytrzymałość to jeden z najbardziej opłacalnych silników punktowych dla gra
 
 W Najwyższym Uzdrowicielu misje Sokoła punktują ściśle w **Dniach 1, 3, 5 i 7** (**1 000 punktów** za misję). W Dniach 2, 4 i 6 dają 0 punktów!
 
-![Wizualny poradnik przechowywania incydentów w Wieży Sokoła](/infographics/falcon-tower-storage.webp)
+![Wizualny poradnik przechowywania incydentów w Wieży Sokoła](/infographics/falcon-tower-storage-pl.webp)
 
 > [!TIP]
 > Wizualna ściąga przechowywania autorstwa `#252 Dalkongss`. Również w [Galerii infografik](/infographics/#falcon-tower-storage).

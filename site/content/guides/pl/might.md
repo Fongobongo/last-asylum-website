@@ -5,6 +5,7 @@ lang: pl
 type: guide
 updated: "2026-09-14"
 videoTopic: might
+infographics: ["/infographics/squad-damage-guide-pl.webp"]
 ---
 
 Wielu dowódców popełnia krytyczny błąd w grze **Last Asylum: Plague**: gonią za surową potęgą profilu, trenując nieskończone hordy żołnierzy niskich tierów. Wynikiem tego jest zjawisko nazywane przez weteranów **„napompowaną potęgą” (Paper Might)** — imponująca liczba w profilu, która w kilka sekund rozpada się w starciu z dopracowanym oddziałem bojowym, wysyłając setki tysięcy żołnierzy prosto do permanentnego przelewu szpitalnego i śmierci.

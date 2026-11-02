@@ -4,7 +4,7 @@ description: "Mỗi viên kim cương đi về đâu: Thứ tự ưu tiên cửa
 lang: vi
 updated: "2026-10-12"
 videoTopic: economy
-infographics: ["/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
+infographics: ["/infographics/diamond-shop-guide-vi.webp", "/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
 ---
 
 Last Asylum: Plague vận hành ba nền kinh tế song song: kim cương và cửa hàng, cướp bóc hàng ngày, và lịch sự kiện. Mỗi hệ thống đều có những cạm bẫy riêng — mua nhầm kim cương, lãng phí sức chứa cướp bóc, tiêu tốn thể lực với hiệu suất 5%. Trang này là sự đồng thuận của cộng đồng về cả ba, đi kèm các con số chính xác.

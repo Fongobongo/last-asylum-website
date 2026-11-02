@@ -4,7 +4,7 @@ description: "装备系统的社区规则——打造什么、喂养什么、跳
 lang: zh
 updated: "2026-10-12"
 videoTopic: gear
-infographics: ["/infographics/skill-scaling.webp"]
+infographics: ["/infographics/gear-craft-priority-zh.webp", "/infographics/relics-guide-part1-zh.webp", "/infographics/relics-guide-part2-zh.webp", "/infographics/skill-scaling-zh.webp"]
 ---
 
 ## 核心规则 {#cardinal-rules}

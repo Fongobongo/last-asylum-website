@@ -4,6 +4,7 @@ description: "Pelan hala tuju Sanctuary ke tahap 30, susunan keutamaan binaan, f
 lang: ms
 updated: "2026-10-12"
 videoTopic: buildings
+infographics: ["/infographics/building-speed-formula-ms.webp"]
 ---
 
 Pembangunan dalam Last Asylum: Plague adalah permainan jangka panjang — desakan Sanctuary dari tahap 1 ke tahap 30 mengambil masa berbulan-bulan, dan susunan yang salah akan merugikan anda berminggu-minggu daripadanya. Halaman ini adalah susunan binaan komuniti: bangunan yang mana penting dan dalam urutan apa, pelan hala tuju Sanctuary mengikut tahap, dan matematik tepat bagi penyusunan kelajuan pembinaan.

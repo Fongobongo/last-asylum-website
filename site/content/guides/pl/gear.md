@@ -4,7 +4,7 @@ description: "Zasady społeczności dotyczące systemu ekwipunku — co wytwarza
 lang: pl
 updated: "2026-10-12"
 videoTopic: gear
-infographics: ["/infographics/skill-scaling.webp"]
+infographics: ["/infographics/gear-craft-priority-pl.webp", "/infographics/relics-guide-part1-pl.webp", "/infographics/relics-guide-part2-pl.webp", "/infographics/skill-scaling-pl.webp"]
 ---
 
 ## Główne zasady {#cardinal-rules}

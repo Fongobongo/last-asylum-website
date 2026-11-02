@@ -4,6 +4,7 @@ description: "الموسوعة الكاملة للميكانيكيات الخف�
 lang: ar
 updated: "2026-10-12"
 videoTopic: tips
+infographics: ["/infographics/tech-research-order-ar.webp", "/infographics/building-speed-formula-ar.webp"]
 ---
 
 تبدو معظم ألعاب الاستراتيجية على الأجهزة الذكية بسيطة بشكل خادع للوهلة الأولى: ترقية المباني، رفع مستوى الأبطال، والضغط على الأزرار التي تحتوي على نقاط حمراء. ومع ذلك، يكمن تحت سطح لعبة **Last Asylum: Plague** محرك رياضي معقد يضم عشرات القواعد غير المكتوبة التي لا تشرحها اللعبة أبداً.

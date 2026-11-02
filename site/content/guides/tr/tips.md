@@ -4,6 +4,7 @@ description: "Last Asylum: Plague oyunundaki gizli mekaniklerin eksiksiz ansiklo
 lang: tr
 updated: "2026-10-12"
 videoTopic: tips
+infographics: ["/infographics/tech-research-order-tr.webp", "/infographics/building-speed-formula-tr.webp"]
 ---
 
 Çoğu mobil strateji oyunu ilk bakışta aldatıcı bir şekilde basit görünür: binaları geliştir, kahramanları seviye atlat ve kırmızı noktalı düğmelere dokun. Ancak **Last Asylum: Plague** oyununun derinliklerinde, oyunun asla açıklamadığı onlarca yazılı olmayan kurala sahip gelişmiş bir matematiksel motor yatar.

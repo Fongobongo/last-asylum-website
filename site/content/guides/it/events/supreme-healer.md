@@ -92,7 +92,7 @@ La stamina è uno dei motori di punteggio F2P più efficaci in termini di costi 
 
 Nel Guaritore Supremo, le Missioni del Falco contano punti strettamente nei **Giorni 1, 3, 5 e 7** (**1.000 punti** per missione). Non valgono punti nei Giorni 2, 4 e 6!
 
-![Guida visiva all'accumulo nella Torre del Falco](/infographics/falcon-tower-storage.webp)
+![Guida visiva all'accumulo nella Torre del Falco](/infographics/falcon-tower-storage-it.webp)
 
 > [!TIP]
 > Foglio di trucchi visivo per l'accumulo di `#252 Dalkongss`. Anche nella [Galleria Infografiche](/infographics/#falcon-tower-storage).

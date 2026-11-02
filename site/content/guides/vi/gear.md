@@ -4,7 +4,7 @@ description: "Các quy tắc cộng đồng về hệ thống trang bị — ch�
 lang: vi
 updated: "2026-10-12"
 videoTopic: gear
-infographics: ["/infographics/skill-scaling.webp"]
+infographics: ["/infographics/gear-craft-priority-vi.webp", "/infographics/relics-guide-part1-vi.webp", "/infographics/relics-guide-part2-vi.webp", "/infographics/skill-scaling-vi.webp"]
 ---
 
 ## Các quy tắc vàng {#cardinal-rules}

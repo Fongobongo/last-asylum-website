@@ -5,7 +5,7 @@ lang: zh-tw
 updated: "2026-09-03"
 videoTopic: royal
 calculators: []
-infographics: ["/infographics/royal-scramble.webp"]
+infographics: ["/infographics/royal-city-tactics-zh-tw.webp", "/infographics/royal-scramble-zh-tw.webp"]
 type: event
 ---
 

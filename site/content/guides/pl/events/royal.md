@@ -5,7 +5,7 @@ lang: pl
 updated: "2026-09-03"
 videoTopic: royal
 calculators: []
-infographics: ["/infographics/royal-scramble.webp"]
+infographics: ["/infographics/royal-city-tactics-pl.webp", "/infographics/royal-scramble-pl.webp"]
 type: event
 ---
 

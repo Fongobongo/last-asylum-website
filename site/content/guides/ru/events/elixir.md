@@ -5,7 +5,7 @@ lang: ru
 updated: "2026-10-12"
 videoTopic: elixir
 calculators: []
-infographics: ["/infographics/elixir-guide.webp"]
+infographics: ["/infographics/elixir-guide-ru.webp"]
 type: event
 ---
 

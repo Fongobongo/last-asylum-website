@@ -4,6 +4,7 @@ description: "Lộ trình Căn cứ lên cấp 30, thứ tự ưu tiên xây d�
 lang: vi
 updated: "2026-10-12"
 videoTopic: buildings
+infographics: ["/infographics/building-speed-formula-vi.webp"]
 ---
 
 Xây dựng trong Last Asylum: Plague là một trò chơi dài hơi — quá trình đẩy cấp Căn cứ (Sanctuary) từ cấp 1 lên cấp 30 mất hàng tháng trời, và chọn sai thứ tự sẽ khiến bạn tốn phí cả tuần liền. Trang này là thứ tự xây dựng theo cộng đồng: công trình nào quan trọng và theo trình tự nào, lộ trình Căn cứ theo từng cấp, và công thức chính xác để cộng dồn tốc độ xây dựng.

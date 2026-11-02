@@ -4,7 +4,7 @@ description: "Her elmasın gittiği yer: VIP mağazası öncelikleri, yenilenme 
 lang: tr
 updated: "2026-10-12"
 videoTopic: economy
-infographics: ["/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
+infographics: ["/infographics/diamond-shop-guide-tr.webp", "/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
 ---
 
 Last Asylum: Plague, birbirine paralel üç ekonomi yürütür: elmaslar ve mağazalar, günlük yağma ve etkinlik takvimi. Her birinin kendi tuzakları vardır — kötü elmas harcamaları, boşa harcanan yağma kapasitesi, %5 verimlilikle harcanan dayanıklılık. Bu sayfa, tam rakamlarla birlikte her üçü üzerindeki topluluk mutabakatıdır.

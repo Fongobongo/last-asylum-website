@@ -4,7 +4,7 @@ description: "The community rules of the gear system — what to craft, what to 
 lang: en
 updated: "2026-10-12"
 videoTopic: gear
-infographics: ["/infographics/skill-scaling.webp"]
+infographics: ["/infographics/gear-craft-priority-en.webp", "/infographics/relics-guide-part1-en.webp", "/infographics/relics-guide-part2-en.webp", "/infographics/skill-scaling-en.webp"]
 ---
 
 ## The cardinal rules {#cardinal-rules}

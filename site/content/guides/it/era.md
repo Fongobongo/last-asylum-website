@@ -4,6 +4,7 @@ description: "Il sistema delle stagioni: Resistenza come priorità giornaliera, 
 lang: it
 updated: "2026-10-12"
 videoTopic: era
+infographics: ["/infographics/hero-awakening-it.webp", "/infographics/era-monsters-infection-it.webp", "/infographics/era-royal-city-it.webp"]
 calculators: ["claire-shards"]
 ---
 

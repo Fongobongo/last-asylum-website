@@ -4,6 +4,7 @@ description: "Sezon sistemi: Günlük öncelik olarak Direnç, F2P ve balinalar 
 lang: tr
 updated: "2026-10-12"
 videoTopic: era
+infographics: ["/infographics/hero-awakening-tr.webp", "/infographics/era-monsters-infection-tr.webp", "/infographics/era-royal-city-tr.webp"]
 calculators: ["claire-shards"]
 ---
 

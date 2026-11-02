@@ -4,6 +4,7 @@ description: "نظام المواسم: المقاومة كأولوية يومي�
 lang: ar
 updated: "2026-10-12"
 videoTopic: era
+infographics: ["/infographics/hero-awakening-ar.webp", "/infographics/era-monsters-infection-ar.webp", "/infographics/era-royal-city-ar.webp"]
 calculators: ["claire-shards"]
 ---
 

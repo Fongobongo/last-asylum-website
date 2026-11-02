@@ -4,7 +4,7 @@ description: "Dove va a finire ogni diamante: priorità del negozio VIP, program
 lang: it
 updated: "2026-10-12"
 videoTopic: economy
-infographics: ["/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
+infographics: ["/infographics/diamond-shop-guide-it.webp", "/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
 ---
 
 Last Asylum: Plague gestisce tre economie parallele: diamanti e negozi, razzie giornaliere e calendario degli eventi. Ognuna ha le sue trappole: acquisti di diamanti errati, capacità di razzo sprecata, stamina spesa al 5% di efficienza. Questa pagina rappresenta il consenso della community su tutte e tre, con i numeri esatti.

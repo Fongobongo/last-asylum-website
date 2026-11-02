@@ -92,7 +92,7 @@ Uithoudingsvermogen is een van de meest kosteneffectieve F2P-scoreschijven op **
 
 In Opperste Genezer scoren Valkenburg-missies strikt op **dag 1, 3, 5 en 7** (**1.000 punten** per missie). Ze leveren 0 punten op op dag 2, 4 en 6!
 
-![Visuele handleiding voor het opslaan van Valkenburg-torenincidenten](/infographics/falcon-tower-storage.webp)
+![Visuele handleiding voor het opslaan van Valkenburg-torenincidenten](/infographics/falcon-tower-storage-nl.webp)
 
 > [!TIP]
 > Visueel opslagspiekbriefje door `#252 Dalkongss`. Ook in de [Infographicsgalerij](/infographics/#falcon-tower-storage).

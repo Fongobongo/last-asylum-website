@@ -4,6 +4,7 @@ description: "Sistem musim: Ketahanan (Resistance) sebagai keutamaan harian, pok
 lang: ms
 updated: "2026-10-12"
 videoTopic: era
+infographics: ["/infographics/hero-awakening-ms.webp", "/infographics/era-monsters-infection-ms.webp", "/infographics/era-royal-city-ms.webp"]
 calculators: ["claire-shards"]
 ---
 

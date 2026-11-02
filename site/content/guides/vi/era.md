@@ -4,6 +4,7 @@ description: "Hệ thống mùa giải: Kháng cự là ưu tiên hàng đầu m
 lang: vi
 updated: "2026-10-12"
 videoTopic: era
+infographics: ["/infographics/hero-awakening-vi.webp", "/infographics/era-monsters-infection-vi.webp", "/infographics/era-royal-city-vi.webp"]
 calculators: ["claire-shards"]
 ---
 

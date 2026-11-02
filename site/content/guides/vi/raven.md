@@ -4,7 +4,7 @@ description: "Các cấp độ và kế hoạch của Raven, chiến lược tra
 lang: vi
 updated: "2026-10-12"
 videoTopic: raven
-infographics: ["/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
+infographics: ["/infographics/raven-epigraph-priority-vi.webp", "/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
 ---
 
 Raven là hệ thống âm thầm tạo ra sự khác biệt giữa các tài khoản: nó hoạt động như một anh hùng bổ sung cho tất cả các đội hình của bạn cùng lúc, và các Epigraph của nó chính là nơi meta đơn phe phái được thực thi. Raven cũng là hệ thống mà hầu hết người chơi bỏ bê — để Raven kẹt ở cấp 1 là một sai lầm kinh điển.

@@ -92,7 +92,7 @@ Thể lực là một trong những công cụ kiếm điểm F2P hiệu quả n
 
 Trong Bậc thầy chữa trị, Nhiệm vụ Falcon tính điểm nghiêm ngặt vào **Ngày 1, 3, 5 và 7** (**1.000 điểm** mỗi nhiệm vụ). Chúng cho 0 điểm vào Ngày 2, 4 và 6!
 
-![Hướng dẫn trực quan lưu trữ sự cố Tháp Falcon](/infographics/falcon-tower-storage.webp)
+![Hướng dẫn trực quan lưu trữ sự cố Tháp Falcon](/infographics/falcon-tower-storage-vi.webp)
 
 > [!TIP]
 > Bảng ghi nhớ lưu trữ trực quan bởi `#252 Dalkongss`. Cũng có trong [Thư viện đồ họa thông tin](/infographics/#falcon-tower-storage).

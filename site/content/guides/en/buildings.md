@@ -4,6 +4,7 @@ description: "Sanctuary roadmap to level 30, the build priority order, what ever
 lang: en
 updated: "2026-10-12"
 videoTopic: buildings
+infographics: ["/infographics/building-speed-formula-en.webp"]
 ---
 
 Building in Last Asylum: Plague is a long game — the Sanctuary push from level 1 to level 30 takes months, and the wrong order costs you weeks of it. This page is the community build order: which buildings matter and in what sequence, a level-by-level Sanctuary roadmap, and the exact math of construction speed stacking.

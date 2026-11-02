@@ -5,7 +5,7 @@ lang: nl
 updated: "2026-09-03"
 videoTopic: canyon
 calculators: []
-infographics: []
+infographics: ["/infographics/crystal-mine-strategy-nl.webp", "/infographics/canyon-crystal-rats-nl.webp"]
 type: event
 ---
 

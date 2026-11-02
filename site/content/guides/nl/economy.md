@@ -4,7 +4,7 @@ description: "Waar elke diamanten naartoe gaat: VIP-winkelprioriteiten, het herb
 lang: nl
 updated: "2026-10-12"
 videoTopic: economy
-infographics: ["/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
+infographics: ["/infographics/diamond-shop-guide-nl.webp", "/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
 ---
 
 Last Asylum: Plague kent drie parallelle economieën: diamanten en winkels, dagelijks plunderen en de evenementenkalender. Elk heeft zijn eigen valkuilen — slechte diamanteus aankopen, verspilde plundercapaciteit, uithoudingsvermogen besteed aan 5% efficiëntie. Deze pagina vertegenwoordigt de gemeenschappelijke consensus over alle drie, inclusief de exacte cijfers.

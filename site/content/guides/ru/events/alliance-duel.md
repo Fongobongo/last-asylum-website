@@ -5,7 +5,7 @@ lang: ru
 updated: "2026-10-12"
 videoTopic: alliance_duel
 calculators: []
-infographics: ["/infographics/troops-training-strategy-ru.webp", "/infographics/duel-day-guide.webp", "/infographics/falcon-tower-storage-ru.webp"]
+infographics: ["/infographics/troops-training-strategy-ru.webp", "/infographics/duel-day-guide-ru.webp", "/infographics/falcon-tower-storage-ru.webp"]
 type: event
 ---
 

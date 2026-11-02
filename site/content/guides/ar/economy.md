@@ -4,7 +4,7 @@ description: "إلى أين يذهب كل ماسة: أولويات متجر VIP�
 lang: ar
 updated: "2026-10-12"
 videoTopic: economy
-infographics: ["/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
+infographics: ["/infographics/diamond-shop-guide-ar.webp", "/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
 ---
 
 تدير لعبة Last Asylum: Plague ثلاثة اقتصاديات متوازية: الماس والمتاجر، النهب اليومي، وتقويم الفخاخ. لكل منها فخاخها الخاصة — عمليات شراء ماس سيئة، سعة نهب مهدرة، قدرة تحمل (ستامينا) يتم إنفاقها بكفاءة 5%. هذه الصفحة تمثل إجماع المجتمع على الثلاثة مع الأرقام الدقيقة.

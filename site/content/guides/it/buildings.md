@@ -4,6 +4,7 @@ description: "Tabella di marcia del Santuario fino al livello 30, l'ordine di pr
 lang: it
 updated: "2026-10-12"
 videoTopic: buildings
+infographics: ["/infographics/building-speed-formula-it.webp"]
 ---
 
 Costruire in Last Asylum: Plague è un gioco a lungo termine: la spinta del Santuario dal livello 1 al livello 30 richiede mesi, e l'ordine sbagliato vi costerà settimane di tempo. Questa pagina rappresenta la build order della community: quali edifici contano e in quale sequenza, una tabella di marcia del Santuario livello per livello e la matematica esatta del cumulo della velocità di costruzione.

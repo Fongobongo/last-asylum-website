@@ -5,6 +5,7 @@ lang: nl
 type: guide
 updated: "2026-09-14"
 videoTopic: might
+infographics: ["/infographics/squad-damage-guide-nl.webp"]
 ---
 
 Veel commandanten maken een cruciale fout in **Last Asylum: Plague**: ze jagen op pure profielkracht door eindeloze hordes soldaten van een lage rang te trainen. Het resultaat is wat doorgewinterde spelers **"Papieren kracht"** noemen — een indrukwekkend getal op je profiel dat binnen enkele seconden ineenzakt tegen een verfijnd gevechtsteam, waardoor honderdduizenden troepen rechtstreeks naar de permanente overloopsterfte van het hospitaal worden gestuurd.

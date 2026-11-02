@@ -4,6 +4,7 @@ description: "System sezonowy: Odporność jako priorytet dzienny, drzewka specj
 lang: pl
 updated: "2026-10-12"
 videoTopic: era
+infographics: ["/infographics/hero-awakening-pl.webp", "/infographics/era-monsters-infection-pl.webp", "/infographics/era-royal-city-pl.webp"]
 calculators: ["claire-shards"]
 ---
 

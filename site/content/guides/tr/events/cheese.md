@@ -5,7 +5,7 @@ lang: tr
 updated: "2026-09-03"
 videoTopic: cheese
 calculators: []
-infographics: ["/infographics/cheese-trap.webp", "/infographics/cheese-rewards.webp"]
+infographics: ["/infographics/cheese-trap-tr.webp", "/infographics/cheese-rewards.webp"]
 type: event
 ---
 

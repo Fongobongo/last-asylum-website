@@ -4,6 +4,7 @@ description: "30. seviyeye giden Sığınak yol haritası, inşaat öncelik sır
 lang: tr
 updated: "2026-10-12"
 videoTopic: buildings
+infographics: ["/infographics/building-speed-formula-tr.webp"]
 ---
 
 Last Asylum: Plague oyununda inşaat uzun soluklu bir süreçtir; 1. seviyeden 30. seviyeye geçiş aylar sürer ve yanlış sıra, bunun haftalarca zamanınızı kaybetmesine yol açar. Bu sayfa topluluk inşaat sırasını, hangi binaların neden önemli olduğunu ve hangi sırayla yapılması gerektiğini, seviye seviye bir Sığınak yol haritasını ve inşaat hızı istiflemesinin kesin matematiğini içerir.

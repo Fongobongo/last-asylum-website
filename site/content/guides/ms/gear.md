@@ -4,7 +4,7 @@ description: "Peraturan komuniti untuk sistem peralatan — apa yang perlu dibua
 lang: ms
 updated: "2026-10-12"
 videoTopic: gear
-infographics: ["/infographics/skill-scaling.webp"]
+infographics: ["/infographics/gear-craft-priority-ms.webp", "/infographics/relics-guide-part1-ms.webp", "/infographics/relics-guide-part2-ms.webp", "/infographics/skill-scaling-ms.webp"]
 ---
 
 ## Peraturan utama {#cardinal-rules}

@@ -4,6 +4,7 @@ description: "De complete encyclopedie van verborgen mechanieken in Last Asylum:
 lang: nl
 updated: "2026-10-12"
 videoTopic: tips
+infographics: ["/infographics/tech-research-order-nl.webp", "/infographics/building-speed-formula-nl.webp"]
 ---
 
 De meeste mobiele strategiegames lijken op het eerste gezicht bedrieglijk eenvoudig: upgrade gebouwen, level helden en tik op knoppen met rode stippen. Onder de oppervlakte van **Last Asylum: Plague** schuilt echter een geavanceerde wiskundige engine met tientallen ongeschreven regels die het spel nergens uitlegt.

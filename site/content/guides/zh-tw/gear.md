@@ -4,7 +4,7 @@ description: "裝備系統的社區規則——打造什麼、餵養什麼、跳
 lang: zh-tw
 updated: "2026-10-12"
 videoTopic: gear
-infographics: ["/infographics/skill-scaling.webp"]
+infographics: ["/infographics/gear-craft-priority-zh-tw.webp", "/infographics/relics-guide-part1-zh-tw.webp", "/infographics/relics-guide-part2-zh-tw.webp", "/infographics/skill-scaling-zh-tw.webp"]
 ---
 
 ## 核心規則 {#cardinal-rules}

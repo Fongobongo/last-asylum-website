@@ -92,7 +92,7 @@ Stamina is one of the most cost-effective F2P scoring engines on **Day 1** and *
 
 In Supreme Healer, Falcon Missions score strictly on **Days 1, 3, 5, and 7** (**1,000 points** per mission). They provide 0 points on Days 2, 4, and 6!
 
-![Falcon Tower incident storage visual guide](/infographics/falcon-tower-storage.webp)
+![Falcon Tower incident storage visual guide](/infographics/falcon-tower-storage-en.webp)
 
 > [!TIP]
 > Visual storage cheat-sheet by `#252 Dalkongss`. Also in the [Infographics Gallery](/infographics/#falcon-tower-storage).

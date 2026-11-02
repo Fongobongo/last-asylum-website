@@ -5,7 +5,7 @@ lang: ru
 updated: "2026-10-12"
 videoTopic: undead
 calculators: []
-infographics: ["/infographics/undead-siege-guide.webp", "/infographics/undead-siege-guide-2.webp"]
+infographics: ["/infographics/undead-siege-guide-ru.webp", "/infographics/undead-siege-guide-2-ru.webp"]
 type: event
 ---
 

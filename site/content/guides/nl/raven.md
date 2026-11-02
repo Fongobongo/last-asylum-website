@@ -4,7 +4,7 @@ description: "Raven-niveaus en plannen, uitrustingsstrategie, zeldzaamheden en p
 lang: nl
 updated: "2026-10-12"
 videoTopic: raven
-infographics: ["/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
+infographics: ["/infographics/raven-epigraph-priority-nl.webp", "/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
 ---
 
 De Raaf (Raven) is het systeem dat accounts stilletjes van elkaar scheidt: het werkt als een extra held voor al je squadrons tegelijk, en in de epigraven wordt de meta van één enkele factie daadwerkelijk afgedwongen. De Raaf is ook het systeem dat de meeste spelers verwaarlozen — een Raaf die vastzit op niveau 1 is een klassieke fout.

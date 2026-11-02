@@ -4,6 +4,7 @@ description: "庇护所升至30级的路线图、建造优先级顺序、每个�
 lang: zh
 updated: "2026-10-12"
 videoTopic: buildings
+infographics: ["/infographics/building-speed-formula-zh.webp"]
 ---
 
 在《末日庇护所：瘟疫》（Last Asylum: Plague）中，这是一个长线游戏——庇护所从1级推到30级需要数月时间，而错误的顺序会浪费你数周的进度。本页面是社区总结的建造顺序：哪些建筑重要及先后顺序、逐级的庇护所路线图，以及建造速度叠加的精确数学原理。

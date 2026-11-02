@@ -4,6 +4,7 @@ description: "賽季系統：將抵抗力作爲每日首選、面向免費玩家
 lang: zh-tw
 updated: "2026-10-12"
 videoTopic: era
+infographics: ["/infographics/hero-awakening-zh-tw.webp", "/infographics/era-monsters-infection-zh-tw.webp", "/infographics/era-royal-city-zh-tw.webp"]
 calculators: ["claire-shards"]
 ---
 

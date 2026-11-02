@@ -4,7 +4,7 @@ description: "Kuzgun seviyeleri ve planları, ekipman stratejisi, epigraf nadirl
 lang: tr
 updated: "2026-10-12"
 videoTopic: raven
-infographics: ["/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
+infographics: ["/infographics/raven-epigraph-priority-tr.webp", "/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
 ---
 
 Kuzgun, hesapları sessizce birbirinden ayıran sistemdir: Tüm birlikleriniz için aynı anda ekstra bir kahraman gibi çalışır ve epigraf ları, tek-faction (tek grup) metasının gerçek anlamda uygulandığı yerdir. Kuzgun ayrıca çoğu oyuncunun ihmal ettiği bir sistemdir; 1. seviyede kalmış bir Kuzgun klasik bir hatadır.

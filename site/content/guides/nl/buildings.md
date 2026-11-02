@@ -4,6 +4,7 @@ description: "Sanctuary-roadmap naar level 30, de bouwprioriteitsvolgorde, wat e
 lang: nl
 updated: "2026-10-12"
 videoTopic: buildings
+infographics: ["/infographics/building-speed-formula-nl.webp"]
 ---
 
 Bouwen in Last Asylum: Plague is een lange rit — de Sanctuary-push van level 1 naar level 30 kost maanden, en de verkeerde volgorde kost je daar weken van. Deze pagina toont de community-bouwvolgorde: welke gebouwen ertoe doen en in welke volgorde, een level-voor-level Sanctuary-roadmap en de exacte wiskunde achter het stapelen van bouwsnelheid.

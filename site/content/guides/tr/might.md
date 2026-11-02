@@ -5,6 +5,7 @@ lang: tr
 type: guide
 updated: "2026-09-14"
 videoTopic: might
+infographics: ["/infographics/squad-damage-guide-tr.webp"]
 ---
 
 Birçok komutan **Last Asylum: Plague** oyununda kritik bir hata yapar: Düşük kademeli askerlerden oluşan sonsuz ordular eğiterek ham profil Gücünü kovalarlar. Bunun sonucunda deneyimli oyuncuların **"Kağıt Güç"** dediği durum ortaya çıkar — profilinizde etkileyici duran, ancak gelişmiş bir savaş birliği karşısında saniyeler içinde çöken ve yüz binlerce askeri doğrudan kalıcı hastane doluluk ölümüne gönderen bir rakam.

@@ -4,7 +4,7 @@ description: "Livelli e piani del Corvo, strategia per l'equipaggiamento, rarit�
 lang: it
 updated: "2026-10-12"
 videoTopic: raven
-infographics: ["/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
+infographics: ["/infographics/raven-epigraph-priority-it.webp", "/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
 ---
 
 Il Corvo è il sistema che separa silenziosamente gli account: funziona come un eroe extra per tutte le tue squadre contemporaneamente, e le sue epigrafi sono il luogo in cui il meta mono-fazione viene effettivamente applicato. Il Corvo è anche il sistema che la maggior parte dei giocatori trascura: un Corvo bloccato al livello 1 è un errore classico.

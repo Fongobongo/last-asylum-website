@@ -4,7 +4,7 @@ description: "ระดับและแผนของกา, กลยุท�
 lang: th
 updated: "2026-10-12"
 videoTopic: raven
-infographics: ["/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
+infographics: ["/infographics/raven-epigraph-priority-th.webp", "/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
 ---
 
 กา (Raven) คือระบบที่ช่วยแยกแยะความต่างของไอดีผู้เล่นได้อย่างเงียบๆ: มันทำหน้าที่เหมือนฮีโร่เสริมสำหรับกองทัพทั้งหมดของคุณพร้อมๆ กัน และศิลาจารึก (Epigraphs) ของมันก็คือจุดที่เมตาดาต้าแบบฝ่ายเดียว (Mono-faction) ถูกบังคับใช้อย่างแท้จริง นอกจากนี้กาอายังเป็นระบบที่ผู้เล่นส่วนใหญ่มักมองข้าม — การปล่อยให้กาติดอยู่ที่เลเวล 1 ถือเป็นความผิดพลาดคลาสสิก

@@ -5,7 +5,7 @@ lang: vi
 updated: "2026-10-12"
 videoTopic: elixir
 calculators: []
-infographics: ["/infographics/elixir-guide.webp", "/infographics/elixir-strategy.webp"]
+infographics: ["/infographics/elixir-guide-vi.webp", "/infographics/elixir-strategy.webp"]
 type: event
 ---
 

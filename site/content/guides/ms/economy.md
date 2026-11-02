@@ -4,7 +4,7 @@ description: "Ke mana setiap berlian pergi: keutamaan kedai VIP, jadual stok sem
 lang: ms
 updated: "2026-10-12"
 videoTopic: economy
-infographics: ["/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
+infographics: ["/infographics/diamond-shop-guide-ms.webp", "/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
 ---
 
 Last Asylum: Plague menjalankan tiga ekonomi selari: berlian dan kedai, penjarahan harian, dan kalendar acara. Setiap satunya mempunyai perangkap tersendiri — pembelian berlian yang buruk, kapasiti penjarahan yang membazir, stamina yang dibelanjakan pada kecekapan 5%. Halaman ini adalah konsensus komuniti tentang ketiga-tiganya, lengkap dengan nombor yang tepat.

@@ -4,6 +4,7 @@ description: "Ensiklopedia lengkap mekanistik tersembunyi dalam Last Asylum: Pla
 lang: ms
 updated: "2026-10-12"
 videoTopic: tips
+infographics: ["/infographics/tech-research-order-ms.webp", "/infographics/building-speed-formula-ms.webp"]
 ---
 
 Kebanyakan permainan strategi mudah alih kelihatan mudah pada pandangan pertama: menaik taraf bangunan, menaikkan tahap wira, dan mengetuk butang dengan titik merah. Walau enjin matematik yang canggih dengan berdozen-dozen peraturan tersirat yang tidak pernah dijelaskan oleh permainan ini tersembunyi di sebalik **Last Asylum: Plague**.

@@ -4,7 +4,7 @@ description: "Tahap dan pelan Raven, strategi gear, tahap kelangkaan epigraph da
 lang: ms
 updated: "2026-10-12"
 videoTopic: raven
-infographics: ["/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
+infographics: ["/infographics/raven-epigraph-priority-ms.webp", "/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
 ---
 
 Raven ialah sistem yang secara senyap membezakan akaun: ia berfungsi seperti wira tambahan untuk semua skuad anda serentak, dan epigraph-nya adalah tempat di mana meta mono-faksi benar-benar dikuatkuasakan. Raven juga merupakan sistem yang paling banyak diabaikan oleh pemain — Raven yang tersangkut pada tahap 1 adalah kesilapan klasik.

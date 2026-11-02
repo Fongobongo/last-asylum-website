@@ -4,7 +4,7 @@ description: "Poziomy i plany Kruka, strategia dotycząca ekwipunku, rzadkości 
 lang: pl
 updated: "2026-10-12"
 videoTopic: raven
-infographics: ["/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
+infographics: ["/infographics/raven-epigraph-priority-pl.webp", "/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
 ---
 
 Kruk to system, który po cichu dzieli konta: działa jak dodatkowy bohater dla wszystkich twoich oddziałów naraz, a jego epigrafy to miejsce, gdzie naprawdę obowiązuje meta oparta na jednej frakcji. Kruk to także system, który większość graczy zaniedbuje – Kruk utknął na 1. poziomie to klasyczny błąd.

@@ -4,7 +4,7 @@ description: "每一颗钻石的去向：VIP 商店优先级、刷新时间表�
 lang: zh
 updated: "2026-10-12"
 videoTopic: economy
-infographics: ["/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
+infographics: ["/infographics/diamond-shop-guide-zh.webp", "/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
 ---
 
 《末日庇护所：瘟疫》（Last Asylum: Plague）同时运行着三套平行的经济系统：钻石与商店、每日掠夺以及活动日历。每一套系统都有其陷阱——错误的钻石消费、浪费的掠夺上限、在 5% 效率下消耗的体力。本页面是社区对这三者的共识，并附带精确的数据。

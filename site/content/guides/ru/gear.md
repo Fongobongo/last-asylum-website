@@ -4,7 +4,7 @@ description: "Правила сообщества по системе гира �
 lang: ru
 updated: "2026-10-12"
 videoTopic: gear
-infographics: ["/infographics/gear-craft-priority-ru.webp", "/infographics/relics-guide-part1-ru.webp", "/infographics/relics-guide-part2-ru.webp", "/infographics/skill-scaling.webp"]
+infographics: ["/infographics/gear-craft-priority-ru.webp", "/infographics/relics-guide-part1-ru.webp", "/infographics/relics-guide-part2-ru.webp", "/infographics/skill-scaling-ru.webp"]
 ---
 
 ## Кардинальные правила {#cardinal-rules}

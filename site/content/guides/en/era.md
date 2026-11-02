@@ -4,6 +4,7 @@ description: "The season system: Resistance as the daily priority, specialty tre
 lang: en
 updated: "2026-10-12"
 videoTopic: era
+infographics: ["/infographics/hero-awakening-en.webp", "/infographics/era-monsters-infection-en.webp", "/infographics/era-royal-city-en.webp"]
 calculators: ["claire-shards"]
 ---
 

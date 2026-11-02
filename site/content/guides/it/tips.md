@@ -4,6 +4,7 @@ description: "L'enciclopedia completa delle meccaniche nascoste in Last Asylum: 
 lang: it
 updated: "2026-10-12"
 videoTopic: tips
+infographics: ["/infographics/tech-research-order-it.webp", "/infographics/building-speed-formula-it.webp"]
 ---
 
 La maggior parte dei giochi strategici per dispositivi mobili sembra ingannevolmente semplice a prima vista: potenzia gli edifici, fai salire di livello gli eroi e tocca i pulsanti con i puntini rossi. Tuttavia, sotto la superficie di **Last Asylum: Plague** si nasconde un motore matematico sofisticato con decine di regole non scritte che il gioco non spiega mai.

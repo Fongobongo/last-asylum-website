@@ -5,6 +5,7 @@ lang: ms
 type: guide
 updated: "2026-09-14"
 videoTopic: might
+infographics: ["/infographics/squad-damage-guide-ms.webp"]
 ---
 
 Ramai komander melakukan kesilapan kritikal dalam **Last Asylum: Plague**: mereka mengejar Kuasa profil mentah dengan melatih gerombolan askar peringkat rendah tanpa henti. Hasilnya ialah apa yang dipanggil oleh pemain berpengalaman sebagai **"Kuasa Kertas" (Paper Might)** — angka yang kelihatan hebat pada profil anda tetapi runtuh dalam beberapa saat apabila berdepan skuad tempur yang terlatih, menyebabkan ratusan ribu tentera mati terus di hospital yang melimpah.

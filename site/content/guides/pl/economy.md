@@ -4,7 +4,7 @@ description: "Gdzie trafiają wszystkie diamenty: priorytety sklepu VIP, harmono
 lang: pl
 updated: "2026-10-12"
 videoTopic: economy
-infographics: ["/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
+infographics: ["/infographics/diamond-shop-guide-pl.webp", "/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
 ---
 
 Last Asylum: Plague opiera się na trzech równoległych gospodarkach: diamentach i sklepach, codziennym plądrowaniu oraz kalendarzu wydarzeń. Każda z nich ma swoje pułapki — nietrafione zakupy za diamenty, zmarnowana pojemność plądrowania czy energia wydawana z 5% efektywnością. Ta strona stanowi konsensus społeczności dotyczący wszystkich trzech aspektów, wraz z dokładnymi liczbami.

@@ -4,6 +4,7 @@ description: "ระบบซีซัน: ความต้านทานค�
 lang: th
 updated: "2026-10-12"
 videoTopic: era
+infographics: ["/infographics/hero-awakening-th.webp", "/infographics/era-monsters-infection-th.webp", "/infographics/era-royal-city-th.webp"]
 calculators: ["claire-shards"]
 ---
 

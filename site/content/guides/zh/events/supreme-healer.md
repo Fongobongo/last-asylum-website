@@ -92,7 +92,7 @@ type: event
 
 在至高治疗师中，猎鹰任务严格在**第 1、3、5 和 7 天**计分（每项任务 **1,000 点**）。它们在第 2、4 和 6 天提供 0 积分！
 
-![猎鹰塔事件存储视觉指南](/infographics/falcon-tower-storage.webp)
+![猎鹰塔事件存储视觉指南](/infographics/falcon-tower-storage-zh.webp)
 
 > [!TIP]
 > 由 `#252 Dalkongss` 制作的视觉存储备忘单。也可在[信息图表库](/infographics/#falcon-tower-storage)中查看。

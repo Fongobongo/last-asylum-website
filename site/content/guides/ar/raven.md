@@ -4,7 +4,7 @@ description: "مستويات الغراب والخطط، إستراتيجية ا
 lang: ar
 updated: "2026-10-12"
 videoTopic: raven
-infographics: ["/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
+infographics: ["/infographics/raven-epigraph-priority-ar.webp", "/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
 ---
 
 الغراب هو النظام الذي يفصل بين الحسابات بصمت: فهو يعمل كبطل إضافي لجميع تشكيلاتك في نفس الوقت، وتعتبر نقوشه المكان الذي يتم فيه تطبيق ميتا الفصيلة الواحدة (Mono-faction) فعلياً. كما أن الغراب هو النظام الذي يتجاهله معظم اللاعبين — فالغراب العالق عند المستوى 1 هو خطأ كلاسيكي شائع.

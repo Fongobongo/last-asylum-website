@@ -4,7 +4,7 @@ description: "ทุกเพชรไปอยู่ที่ไหน: ลำ�
 lang: th
 updated: "2026-10-12"
 videoTopic: economy
-infographics: ["/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
+infographics: ["/infographics/diamond-shop-guide-th.webp", "/infographics/shop-priority.webp", "/infographics/diamonds-free.webp", "/infographics/plunder-mail.webp", "/infographics/plunder-limit.webp", "/infographics/plunder-load.webp"]
 ---
 
 Last Asylum: Plague มีระบบเศรษฐกิจคู่ขนานกันสามระบบ ได้แก่ เพชรและร้านค้า, การปล้นสะดมรายวัน, และปฏิทินกิจกรรม แต่ละระบบมีกับดักของตัวเอง เช่น การใช้เพชรผิดวิธี, ความจุการปล้นที่สูเปล่า, การใช้ความอึด (Stamina) ที่ประสิทธิภาพเหลือเพียง 5% หน้านี้คือข้อสรุปที่เป็นฉันทามติของคอมมูนิตี้สำหรับทั้งสามระบบ พร้อมตัวเลขที่แม่นยำ

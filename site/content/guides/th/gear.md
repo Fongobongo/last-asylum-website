@@ -4,7 +4,7 @@ description: "กฎของคอมมิวนิตี้สำหรับ
 lang: th
 updated: "2026-10-12"
 videoTopic: gear
-infographics: ["/infographics/skill-scaling.webp"]
+infographics: ["/infographics/gear-craft-priority-th.webp", "/infographics/relics-guide-part1-th.webp", "/infographics/relics-guide-part2-th.webp", "/infographics/skill-scaling-th.webp"]
 ---
 
 ## กฎเหล็ก {#cardinal-rules}

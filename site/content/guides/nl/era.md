@@ -4,6 +4,7 @@ description: "Het seizoenssysteem: Weerstand als dagelijkse prioriteit, speciali
 lang: nl
 updated: "2026-10-12"
 videoTopic: era
+infographics: ["/infographics/hero-awakening-nl.webp", "/infographics/era-monsters-infection-nl.webp", "/infographics/era-royal-city-nl.webp"]
 calculators: ["claire-shards"]
 ---
 

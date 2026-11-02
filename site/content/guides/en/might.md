@@ -5,6 +5,7 @@ lang: en
 type: guide
 updated: "2026-09-14"
 videoTopic: might
+infographics: ["/infographics/squad-damage-guide-en.webp"]
 ---
 
 Many commanders make a critical mistake in **Last Asylum: Plague**: they chase raw profile Might by training endless hordes of low-tier soldiers. The result is what seasoned players call **"Paper Might"** — an impressive number on your profile that collapses in seconds against a refined combat squad, sending hundreds of thousands of troops straight into permanent hospital overflow death.

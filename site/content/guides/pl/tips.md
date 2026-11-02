@@ -4,6 +4,7 @@ description: "Kompletna encyklopedia ukrytych mechanik w Last Asylum: Plague —
 lang: pl
 updated: "2026-10-12"
 videoTopic: tips
+infographics: ["/infographics/tech-research-order-pl.webp", "/infographics/building-speed-formula-pl.webp"]
 ---
 
 Większość mobilnych gier strategicznych na pierwszy rzut oka wydaje się zwodniczo prosta: ulepszaj budynki, awansuj bohaterów i klikaj przyciski z czerwonymi kropkami. Jednak pod powierzchnią **Last Asylum: Plague** kryje się wyrafinowany silnik matematyczny z dziesiątkami niepisanych zasad, których gra nigdy nie wyjaśnia.

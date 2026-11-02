@@ -4,7 +4,7 @@ description: "渡鴉等級與方案、裝備策略、銘文稀有度與晉升順
 lang: zh-tw
 updated: "2026-10-12"
 videoTopic: raven
-infographics: ["/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
+infographics: ["/infographics/raven-epigraph-priority-zh-tw.webp", "/infographics/epigraph-tips-1.webp", "/infographics/epigraph-tips-2.webp", "/infographics/epigraph-tips-3.webp", "/infographics/epigraph-sets.webp"]
 ---
 
 渡鴉是一個悄悄拉開玩家賬號差距的系統：它就像是你所有部隊的額外英雄，而它的銘文則是真正貫徹單一陣營版本META的地方。渡鴉也是最容易被玩家忽視的系統——把渡鴉卡在1級是一個經典的錯誤。

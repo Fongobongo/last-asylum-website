@@ -4,7 +4,7 @@ description: "Ekipman sisteminin topluluk kuralları — ne üretilmeli, ne harc
 lang: tr
 updated: "2026-10-12"
 videoTopic: gear
-infographics: ["/infographics/skill-scaling.webp"]
+infographics: ["/infographics/gear-craft-priority-tr.webp", "/infographics/relics-guide-part1-tr.webp", "/infographics/relics-guide-part2-tr.webp", "/infographics/skill-scaling-tr.webp"]
 ---
 
 ## Temel kurallar {#cardinal-rules}

@@ -5,6 +5,7 @@ lang: it
 type: guide
 updated: "2026-09-14"
 videoTopic: might
+infographics: ["/infographics/squad-damage-guide-it.webp"]
 ---
 
 Molti comandanti commettono un errore critico in **Last Asylum: Plague**: inseguono la Potenza grezza del profilo addestrando orde infinite di soldati di basso livello. Il risultato è quella che i giocatori esperti chiamano **"Potenza di carta"** — un numero impressionante sul profilo che crolla in pochi secondi contro una squadra di combattimento raffinata, spedendo centinaia di migliaia di truppe dritte verso una morte permanente per sovraccarico dell'ospedale.

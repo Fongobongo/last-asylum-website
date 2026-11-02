@@ -4,7 +4,7 @@ description: "Le regole della community sul sistema di equipaggiamento: cosa cre
 lang: it
 updated: "2026-10-12"
 videoTopic: gear
-infographics: ["/infographics/skill-scaling.webp"]
+infographics: ["/infographics/gear-craft-priority-it.webp", "/infographics/relics-guide-part1-it.webp", "/infographics/relics-guide-part2-it.webp", "/infographics/skill-scaling-it.webp"]
 ---
 
 ## Le regole cardinali {#cardinal-rules}

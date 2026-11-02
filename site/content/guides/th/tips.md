@@ -4,6 +4,7 @@ description: "สารานุกรมฉบับสมบูรณ์ขอ
 lang: th
 updated: "2026-10-12"
 videoTopic: tips
+infographics: ["/infographics/tech-research-order-th.webp", "/infographics/building-speed-formula-th.webp"]
 ---
 
 เกมวางแผนบนมือถือส่วนใหญ่ดูเหมือนจะเล่นง่ายในตอนแรก: อัปเกรดสิ่งก่อสร้าง, เลเวลอัปฮีโร่ และกดปุ่มที่มีจุดสีแดง แต่ภายใต้พื้นผิวของ **Last Asylum: Plague** นั้นมีระบบคณิตศาสตร์ที่ซับซ้อนพร้อมกฎเกณฑ์ที่ไม่ได้เขียนไว้มากมายซึ่งเกมไม่เคยอธิบายให้ทราบ

@@ -5,6 +5,7 @@ lang: vi
 type: guide
 updated: "2026-09-14"
 videoTopic: might
+infographics: ["/infographics/squad-damage-guide-vi.webp"]
 ---
 
 Nhiều chỉ huy mắc một sai lầm chí mạng trong **Last Asylum: Plague**: họ chạy theo điểm Sức chiến đấu (Might) thô trên hồ sơ bằng cách huấn luyện vô số lính cấp thấp. Kết quả là điều mà những người chơi kỳ cựu gọi là **"Sức chiến đấu giấy" (Paper Might)** — một con số ấn tượng trên hồ sơ nhưng sẽ sụp đổ chỉ trong vài giây khi đối đầu với một đội hình chiến đấu tinh nhuệ, khiến hàng trăm nghìn lính đi thẳng vào cảnh tử vong do tràn bệnh viện vĩnh viễn.

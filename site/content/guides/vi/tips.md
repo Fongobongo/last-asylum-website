@@ -4,6 +4,7 @@ description: "Bách khoa toàn thư đầy đủ về các cơ chế ẩn trong 
 lang: vi
 updated: "2026-10-12"
 videoTopic: tips
+infographics: ["/infographics/tech-research-order-vi.webp", "/infographics/building-speed-formula-vi.webp"]
 ---
 
 Hầu hết các trò chơi chiến thuật di động thoạt nhìn có vẻ đơn giản: nâng cấp công trình, tăng cấp anh hùng và nhấn vào các nút có dấu chấm đỏ. Tuy nhiên, ẩn sâu bên dưới **Last Asylum: Plague** là một bộ máy toán học tinh vi với hàng chục quy tắc bất thành văn mà trò chơi không bao giờ giải thích.

@@ -4,7 +4,7 @@ description: "De communityregels van het uitrustingssysteem — wat te maken, wa
 lang: nl
 updated: "2026-10-12"
 videoTopic: gear
-infographics: ["/infographics/skill-scaling.webp"]
+infographics: ["/infographics/gear-craft-priority-nl.webp", "/infographics/relics-guide-part1-nl.webp", "/infographics/relics-guide-part2-nl.webp", "/infographics/skill-scaling-nl.webp"]
 ---
 
 ## De gulden regels {#cardinal-rules}

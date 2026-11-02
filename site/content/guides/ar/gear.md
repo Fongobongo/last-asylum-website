@@ -4,7 +4,7 @@ description: "قواعد المجتمع لنظام العتاد — ما الذ�
 lang: ar
 updated: "2026-10-12"
 videoTopic: gear
-infographics: ["/infographics/skill-scaling.webp"]
+infographics: ["/infographics/gear-craft-priority-ar.webp", "/infographics/relics-guide-part1-ar.webp", "/infographics/relics-guide-part2-ar.webp", "/infographics/skill-scaling-ar.webp"]
 ---
 
 ## القواعد الأساسية {#cardinal-rules}

@@ -92,7 +92,7 @@ Dayanıklılık, **1. Gün** ve **7. Gün**'de F2P oyuncular için en maliyet et
 
 Yüce İyileştirici'de Falcon Görevleri katı bir şekilde yalnızca **1, 3, 5 ve 7. Günlerde** puan kazandırır (görev başına **1.000 puan**). 2, 4 ve 6. günlerde 0 puan sağlarlar!
 
-![Falcon Kulesi olay depolama görsel rehberi](/infographics/falcon-tower-storage.webp)
+![Falcon Kulesi olay depolama görsel rehberi](/infographics/falcon-tower-storage-tr.webp)
 
 > [!TIP]
 > `#252 Dalkongss` tarafından hazırlanan görsel depolama kopya kağıdı. Ayrıca [İllüstrasyon Galerisinde](/infographics/#falcon-tower-storage) bulunabilir.
