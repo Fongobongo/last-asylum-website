@@ -16,7 +16,6 @@ Das Spiel gibt seine besten Helden nach einem festen Zeitplan heraus. Den Zeitpl
 | Tag 8     | Cynthia und Shadow — Wunschrad | Kostet ~1.500 Diamanten pro Stück: 7 kostenlose tägliche Spins + Meilenstein-Belohnung bei 10 Spins gibt 10 Fragmente = eine vollständige Kopie. |
 | Tag 36 / 43 / 57 / 64 / 72 / 85 | Neue UR-Helden-Events | Eine Diamanten-intensive Phase – plane Reserven im Voraus. |
 | Tag 1 / Tag 66 | Marlena: sofort verfügbar für $1 (First Top-Up), erscheint kostenlos in der Taverne an Tag 66 | Apex früher Carry. Eine $1-Ausgabe schaltet sie an Tag 1 frei; 100% F2P-Spieler rekrutieren sie kostenlos aus der Taverne an Tag 66. |
-| Tag 120+ (Era of Revival) | Daskal (UR Tank); Claire SSR-zu-UR-Umwandlung an Era Day 8 | Daskal ist der beste Tank im Spiel; plane die Claire-Umwandlung sorgfältig. |
 
 ### Arthur: Tag 1-2, Kostenloser UR {#arthur-day-one}
 
@@ -35,10 +34,6 @@ Eine Reihe neuer UR-Helden-Events trifft an den Tagen 36, 43, 57, 64, 72 und 85 
 Marlena ist ab Tag 1 über das $1 First Top-Up Pack erhältlich – universell als der beste Wertkauf im Spiel gefeiert. Sie dient als der zentrale Damage Carry der Standard-Squad und verursacht etwa 85% deines gesamten Squad-Schadens, bis Zoya eintrifft.
 
 Für strikte 100% F2P-Spieler, die nichts ausgeben: **An Server-Tag 66 tritt Marlena in den Standard-Taverne-Rekrutierungspool ein**, wodurch du sie mit gesammelten Recruitment Tickets komplett kostenlos beschwören kannst!
-
-### Tag 120+: Era of Revival — Daskal und Claire {#era-daskal-claire}
-
-Die saisonale Era of Revival beginnt um Tag 120. Sie bringt Daskal, den besten Tank im Spiel, und an Era Day 8 öffnet sich die Claire SSR-zu-UR-Umwandlung. Beide Events ändern deine langfristige Squad; die Timing-Details findest du im [Era of Revival Leitfaden](/de/era/).
 
 ## Wie Held Might funktioniert {#hero-might}
 

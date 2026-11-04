@@ -21,7 +21,7 @@ The beginner section is split into standalone articles — read them in order:
 
 Hero basics now live in the Heroes section, which collects every hero guide:
 
-- **[Hero Unlock Timeline](/heroes/hero-basics/#unlock-timeline)** — when Arthur lands, the Cynthia/Shadow Wishing Wheel, the UR event train of days 36–85, Marlena, Age of Rebirth
+- **[Hero Unlock Timeline](/heroes/hero-basics/#unlock-timeline)** — when Arthur lands, the Cynthia/Shadow Wishing Wheel, the UR event train of days 36–85, Marlena
 - **[How Hero Might Works](/heroes/hero-basics/#hero-might)** — level, stars (the 4★ jump), skills and gear
 - **[Factions and Counters](/heroes/hero-basics/#wiki-hero-factions)** — +5/+10/+15/+20% stack bonuses and the Warriors > Warlocks > Rangers > Warriors circle
 - **[Your First Lineup](/heroes/hero-basics/#f2p-squad)** — Arthur and Bella up front; Marlena, Claire and Celia in the back (full breakdown with alternatives)
@@ -371,7 +371,7 @@ A proven early core: **Arthur and Bella up front; Marlena, Claire and Celia behi
 - **Arthur** becomes the main tank. He is the first UR to appear in the Tavern on a young state, and 50 summons guarantee 10 of his fragments — claim him into the main five early, then start saving tickets for events that score summon points.
 - **Bella** holds the second front slot so no damage-dealer has to stand there.
 - **Marlena** is the main long-term damage carry — the prime candidate for extended investment.
-- **Claire** shreds monsters and amplifies strong Warriors — and she is no throwaway SSR: in the Era of Rebirth she advances from SSR to UR, so early investment keeps paying.
+- **Claire** shreds monsters and amplifies strong Warriors — and she is no throwaway SSR: early investment keeps paying.
 - **Celia** shines in PvE, farming resource and elite monsters, rounding out the team until a full UR five exists.
 
 Split unevenly: Marlena, Arthur and Claire are the long-term trio; Bella and Celia do starter jobs well but should not receive universal UR fragments, best blueprints or the rarest materials. While upgrades are cheap, keep the five roughly level; as costs climb, the trio takes priority. The same logic governs skill badges. Gear follows roles: tanks want armor and boots to hold the front longer; damage-dealers want sword and gloves to end fights faster. And never upgrade an item just because a red dot appeared next to it — the red dot does not know your plan.

@@ -21,7 +21,7 @@ Bahagian pemula dibahagikan kepada artikel kendiri — baca mengikut urutan:
 
 Asas wira kini berada dalam bahagian Wira, yang mengumpulkan setiap panduan wira:
 
-- **[Garis Masa Pembukaan Wira](/ms/heroes/hero-basics/#unlock-timeline)** — bila Arthur tiba, Roda Harapan Cynthia/Shadow, siri acara UR hari ke-36–85, Marlena, Era Kelahiran Semula
+- **[Garis Masa Pembukaan Wira](/ms/heroes/hero-basics/#unlock-timeline)** — bila Arthur tiba, Roda Harapan Cynthia/Shadow, siri acara UR hari ke-36–85, Marlena
 - **[Bagaimana Might Wira Berfungsi](/ms/heroes/hero-basics/#hero-might)** — tahap, bintang (lonjakan 4★), kemahiran dan peralatan
 - **[Puak dan Kaunter](/ms/heroes/hero-basics/#wiki-hero-factions)** — bonus timbunan +5/+10/+15/+20% dan kitaran Pahlawan > Warlock > Renjer > Pahlawan
 - **[Barisan Pertama Anda](/ms/heroes/hero-basics/#f2p-squad)** — Arthur dan Bella di barisan hadapan; Marlena, Claire dan Celia di belakang (pecahan penuh dengan alternatif)
@@ -366,7 +366,7 @@ Teras awal yang terbukti: **Arthur dan Bella di barisan hadapan; Marlena, Claire
 - **Arthur** menjadi kebal utama. Beliau adalah UR pertama yang muncul di Tavern pada negeri muda, dan 50 panggilan (summons) menjamin 10 serpihannya — tuntut beliau ke dalam lima wira utama awal, kemudian mula simpan tiket untuk acara yang menjaringkan mata panggilan.
 - **Bella** memegang slot barisan hadapan kedua supaya tiada pemberi-kerosakan terpaksa berdiri di situ.
 - **Marlena** ialah pembawa kerosakan jangka panjang utama — calon utama untuk pelaburan lanjutan.
-- **Claire** merobek raksasa dan menguatkan Pahlawan yang kuat — dan beliau bukan SSR buangan: dalam Era Kebangkitan (Era of Rebirth) beliau maju daripada SSR kepada UR, jadi pelaburan awal terus membuahkan hasil.
+- **Claire** merobek raksasa dan menguatkan Pahlawan yang kuat — dan beliau bukan SSR buangan: pelaburan awal terus membuahkan hasil.
 - **Celia** bersinar dalam PvE, meladang sumber dan raksasa elit, melengkapkan pasukan sehingga pasukan lima UR penuh wujud.
 
 Bahagikan secara tidak saksama: Marlena, Arthur dan Claire adalah trio jangka panjang; Bella dan Celia menjalankan tugas permulaan dengan baik tetapi tidak seharusnya menerima serpihan UR universal, pelan tindakan (blueprints) terbaik atau bahan paling jarang. Semasa naik taraf adalah murah, pastikan kelima-limanya berada pada tahap yang hampir sama; apabila kos meningkat, trio mengambil keutamaan. Logik yang sama mentadbir lencana kemahiran. Peralatan mengikut peranan: kebal mahukan perisai dan but untuk menahan barisan hadapan lebih lama; pemberi-kerosakan mahukan pedang dan sarung tangan untuk menamatkan pertarungan dengan lebih cepat. Dan jangan sesekali menaik taraf item hanya kerana titik merah muncul di sebelahnya — titik merah tidak tahu rancangan anda.

@@ -21,7 +21,7 @@ Yeni başlayanlar bölümü bağımsız makalelere ayrılmıştır — bunları 
 
 Kahraman temelleri artık her kahraman rehberini toplayan Kahramanlar bölümünde yer almaktadır:
 
-- **[Kahraman Kilit Açma Zaman Çizelgesi](/tr/heroes/hero-basics/#unlock-timeline)** — Arthur'un gelişi, Cynthia/Gölge Dilek Çarkı, 36–85. günler arası UR etkinlik treni, Marlena, Yeniden Doğuş Çağı (Age of Rebirth)
+- **[Kahraman Kilit Açma Zaman Çizelgesi](/tr/heroes/hero-basics/#unlock-timeline)** — Arthur'un gelişi, Cynthia/Gölge Dilek Çarkı, 36–85. günler arası UR etkinlik treni, Marlena
 - **[Kahraman Gücü Nasıl Çalışır](/tr/heroes/hero-basics/#hero-might)** — seviye, yıldızlar (4★ sıçraması), beceriler ve ekipman
 - **[Fraksiyonlar ve Karşıtlıklar](/tr/heroes/hero-basics/#wiki-hero-factions)** — +5/+10/+15/+20% yığın bonusları ve Savaşçılar > Büyücüler > Korucular > Savaşçılar döngüsü
 - **[İlk Kadronuz](/tr/heroes/hero-basics/#f2p-squad)** — ön safta Arthur ve Bella; arka safta Marlena, Claire ve Celia (alternatifleriyle birlikte tam döküm)
@@ -366,7 +366,7 @@ Kanıtlanmış erken dönem çekirdeği: **Önde Arthur ve Bella; arkada Marlena
 - **Arthur** ana tank olur. Genç bir eyalette Tavernada görünen ilk UR'dir ve 50 çağrı onun 10 parçasını garanti eder — onu erken aşamada ana beşliye dahil edin, ardından çağrı puanları kazandıran etkinlikler için bilet biriktirmeye başlayın.
 - **Bella** ikinci ön slotu tutar, böylece hiçbir hasar vericinin orada durması gerekmez.
 - **Marlena** uzun vadeli ana hasar taşıyıcısıdır — uzun süreli yatırım için baş numaralı adaydır.
-- **Claire** canavarları paramparça eder ve güçlü Savaşçıları güçlendirir — ve o atılabilir bir SSR değildir: Yeniden Doğuş Çağında SSR'den UR'ye yükselir, bu nedenle erken yatırım karşılığını vermeye devam eder.
+- **Claire** canavarları paramparça eder ve güçlü Savaşçıları güçlendirir — ve o atılabilir bir SSR değildir: erken yatırım karşılığını vermeye devam eder.
 - **Celia** PvE'de parlar, kaynak ve elit canavarlar kasar, tam bir UR beşlisi var olana kadar takımı tamamlar.
 
 Eşitsiz bir şekilde bölün: Marlena, Arthur ve Claire uzun vadeli üçlüdür; Bella ve Celia başlangıç işlerini iyi yapar ancak evrensel UR parçalarını, en iyi taslakları veya en nadir materyalleri almamalıdır. Yükseltmeler ucuzken, beşliği yaklaşık olarak aynı seviyede tutun; maliyetler tırmandıkça üçlü öncelik alır. Aynı mantık beceri rozetlerini de yönetir. Teçhizat rolleri takip eder: tanklar önü daha uzun süre tutmak için zırh ve bot ister; hasar vericiler savaşları daha hızlı bitirmek için kılıç ve eldiven ister. Ve sırf yanında kırmızı bir nokta belirdi diye asla bir eşyayı yükseltmeyin — kırmızı nokta sizin planınızı bilmez.

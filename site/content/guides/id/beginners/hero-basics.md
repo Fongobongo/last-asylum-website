@@ -15,7 +15,6 @@ Game ini mengeluarkan hero terbaiknya dengan jadwal tetap. Mengetahui jadwalnya 
 | Hari 8 | Cynthia dan Ying — Roda Harapan (Roda Permohonan) | Biaya ~1.500 berlian masing-masing: 7 putaran harian gratis + hadiah milestone pada 10 putaran menjatuhkan 10 fragmen = salinan lengkap. |
 | Hari 36 / 43 / 57 / 64 / 72 / 85 | Event hero UR baru | Periode yang banyak menghabiskan berlian — rencanakan cadangan terlebih dahulu. |
 | Hari 1 / Hari 66 | Marlena: tersedia segera seharga $1 (Top-Up Pertama), muncul di Kedai secara gratis pada Hari 66 | Carry awal terbaik. Pengeluaran $1 membukanya pada Hari 1; pemain 100% F2P merekrutnya secara gratis dari Kedai pada Hari 66. |
-| Hari 120+ (Era Kebangkitan) | Duskar (tank UR); konversi Clea SSR-ke-UR pada Hari Era 8 | Duskar adalah tank terbaik dalam game; atur waktu konversi Clea dengan hati-hati. |
 
 ### Arthur: Hari 1-2, UR Gratis {#arthur-day-one}
 
@@ -34,10 +33,6 @@ Serangkaian event hero UR baru tiba pada hari ke-36, 43, 57, 64, 72, dan 85. Set
 Marlena tersedia mulai Hari 1 melalui paket top-up pertama $1 — secara universal dianggap sebagai pembelian bernilai terbaik dalam game. Dia berfungsi sebagai carry damage inti dari skuad standar, menangani sekitar 85% dari total damage skuad Anda sampai Zoya tiba.
 
 Untuk pemain 100% F2P yang tidak mengeluarkan uang sama sekali: **pada Hari Server 66, Marlena memasuki kumpulan rekrutmen Kedai standar**, memungkinkan Anda untuk memanggilnya sepenuhnya gratis menggunakan tiket rekrutmen yang disimpan!
-
-### Hari 120+: Era Kebangkitan — Duskar dan Clea {#era-daskal-claire}
-
-Era Kebangkitan (Era of Revival) musiman dimulai sekitar hari ke-120. Ini membawa Duskar, tank terbaik dalam game, dan pada Hari Era 8 konversi Clea SSR-ke-UR terbuka. Kedua event ini mengubah skuad jangka panjang Anda; detail waktunya ada di [panduan Era Kebangkitan](/id/era/).
 
 ## Cara Kerja Kekuatan Hero {#hero-might}
 

@@ -16,7 +16,6 @@ El juego gotea sus mejores héroes en un horario fijo. Conocer el horario de ant
 | Día 8 | Cynthia y Sombra — Rueda de los Deseos | Cuesta ~1.500 diamantes cada uno: 7 tiradas diarias gratuitas + recompensa de hito a las 10 tiradas otorga 10 fragmentos = una copia completa. |
 | Día 36 / 43 / 57 / 64 / 72 / 85 | Nuevos eventos de héroes UR | Un tramo con muchos diamantes — planifica reservas con antelación. |
 | Día 1 / Día 66 | Marlena: disponible inmediatamente por $1 (Primera Recarga), aparece en la Taberna gratis el Día 66 | Carry temprano principal. Un gasto de $1 la desbloquea el Día 1; los jugadores 100% F2P la reclutan gratis de la Taberna el Día 66. |
-| Día 120+ (Era del Renacimiento) | Daskal (tanque UR); conversión de Claire de SSR a UR en el Día 8 de la Era | Daskal es el mejor tanque del juego; programa la conversión de Claire con cuidado. |
 
 ### Arturo: Día 1-2, UR Gratis {#arthur-day-one}
 
@@ -35,10 +34,6 @@ Una serie de nuevos eventos de héroes UR llega los días 36, 43, 57, 64, 72 y 8
 Marlena está disponible a partir del Día 1 a través del paquete de primera recarga de $1 — universalmente aclamado como la mejor compra en el juego. Sirve como la principal carry de daño del escuadrón estándar, infligiendo aproximadamente el 85% del daño total de tu escuadrón hasta que llega Zoya.
 
 Para jugadores 100% F2P estrictos que no gastan nada: **el Día 66 del Servidor, Marlena entra en el grupo de reclutamiento estándar de la Taberna**, ¡lo que te permite invocarla completamente gratis usando tickets de reclutamiento acumulados!
-
-### Día 120+: Era del Renacimiento — Daskal y Claire {#era-daskal-claire}
-
-La Era estacional del Renacimiento comienza alrededor del día 120. Trae a Daskal, el mejor tanque del juego, y en el Día 8 de la Era se abre la conversión de Claire de SSR a UR. Ambos eventos cambian tu escuadrón a largo plazo; los detalles de la sincronización están en la [guía de la Era del Renacimiento](/es/era/).
 
 ## Cómo Funciona el Poder de los Héroes {#hero-might}
 

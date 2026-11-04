@@ -21,7 +21,7 @@ De beginnerssectie is opgesplitst in losse artikelen — lees ze in deze volgord
 
 De basisprincipes van helden staan nu in de sectie Helden, waar alle heldengidsen zijn verzameld:
 
-- **[Tijdlijn voor het ontgrendelen van helden](/nl/heroes/hero-basics/#unlock-timeline)** — wanneer Arthur arriveert, het Cynthia/Schaduw Wensrad, de UR-evenemententrein van dag 36–85, Marlena, Age of Rebirth
+- **[Tijdlijn voor het ontgrendelen van helden](/nl/heroes/hero-basics/#unlock-timeline)** — wanneer Arthur arriveert, het Cynthia/Schaduw Wensrad, de UR-evenemententrein van dag 36–85, Marlena
 - **[Hoe heldenmacht werkt](/nl/heroes/hero-basics/#hero-might)** — niveau, sterren (de 4★ sprong), vaardigheden en uitrusting
 - **[Facties en counters](/nl/heroes/hero-basics/#wiki-hero-factions)** — +5/+10/+15/+20% stack-bonussen en de cirkel Warriors > Warlocks > Rangers > Warriors
 - **[Je eerste opstelling](/nl/heroes/hero-basics/#f2p-squad)** — Arthur en Bella voorin; Marlena, Claire en Celia achterin (volledige analyse met alternatieven)
@@ -371,7 +371,7 @@ Een bewezen vroege kern: **Arthur en Bella vooraan; Marlena, Claire en Celia ach
 - **Arthur** wordt de main tank. Hij is de eerste UR die verschijnt in de Tavern op een jonge staat, en 50 oproepen garanderen 10 van zijn fragmenten — claim hem vroeg in het hoofdvijftal, begin dan met het sparen van tickets voor evenementen die oproepunten scoren.
 - **Bella** houdt de tweede front-slot bezet zodat geen enkele schadeverlener daar hoeft te staan.
 - **Marlena** is de belangrijkste schadeverlener op lange termijn — de prime-kandidaat voor langdurige investering.
-- **Claire** versnippert monsters en versterkt sterke Krijgers — en ze is geen wegwerp SSR: in het Tijdperk van de Wedergeboorte (Era of Rebirth) vordert ze van SSR naar UR, dus vroege investering blijft renderen.
+- **Claire** versnippert monsters en versterkt sterke Krijgers — en ze is geen wegwerp SSR: vroege investering blijft renderen.
 - **Celia** blinkt uit in PvE, het farmen van grondstoffen en elitemonsters, en rondt het team af tot er een volledig UR-vijftal bestaat.
 
 Verdeel ongelijkmatig: Marlena, Arthur en Claire zijn het langetermijntrio; Bella en Celia doen startbanen goed maar moeten geen universele UR-fragmenten, beste blauwdrukken of zeldzaamste materialen krijgen. Terwijl upgrades goedkoop zijn, houd je de vijf grofweg gelijk in level; naarmate de kosten stijgen, krijgt het trio prioriteit. Dezelfde logica bestuurt vaardigheidsbadges. Uitrusting volgt rollen: tanks willen pantser en laarzen om het front langer vast te houden; schadeverlener willen zwaard en handschoenen om gevechten sneller te beëindigen. En upgrade nooit een item puur omdat er een rode stip naast verscheen — de rode stip kent jouw plan niet.

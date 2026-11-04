@@ -21,7 +21,7 @@ Sekcja dla początkujących jest podzielona na niezależne artykuły — czytaj 
 
 Podstawy dotyczące bohaterów znajdują się teraz w sekcji Bohaterowie, która gromadzi wszystkie poradniki na ich temat:
 
-- **[Oś czasu odblokowania bohaterów](/pl/heroes/hero-basics/#unlock-timeline)** — kiedy pojawia się Arthur, Koło Fortuny Cynthii/Cień, pociąg wydarzeń UR z dni 36–85, Marlena, Era Odrodzenia
+- **[Oś czasu odblokowania bohaterów](/pl/heroes/hero-basics/#unlock-timeline)** — kiedy pojawia się Arthur, Koło Fortuny Cynthii/Cień, pociąg wydarzeń UR z dni 36–85, Marlena
 - **[Jak działa potęga bohaterów](/pl/heroes/hero-basics/#hero-might)** — poziom, gwiazdki (skok na 4★), umiejętności i sprzęt
 - **[Frakcje i kontry](/pl/heroes/hero-basics/#wiki-hero-factions)** — bonusy kumulacji +5/+10/+15/+20% oraz krąg Wojownicy > Warlockowie > Rangerzy > Wojownicy
 - **[Twój pierwszy skład](/pl/heroes/hero-basics/#f2p-squad)** — Arthur i Bella z przodu; Marlena, Claire i Celia z tyłu (pełne zestawienie wraz z alternatywami)

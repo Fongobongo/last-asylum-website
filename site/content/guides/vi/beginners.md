@@ -21,7 +21,7 @@ Phần dành cho người mới bắt đầu được chia thành các bài vi�
 
 Kiến thức cơ bản về anh hùng hiện nằm trong phần Anh hùng, nơi tập hợp mọi hướng dẫn về anh hùng:
 
-- **[Dòng thời gian mở khóa anh hùng](/vi/heroes/hero-basics/#unlock-timeline)** — khi nào Arthur xuất hiện, Vòng quay may mắn Xynthia/Ảnh, chuỗi sự kiện UR từ ngày 36–85, Marlena, Kỷ nguyên tái sinh (Age of Rebirth)
+- **[Dòng thời gian mở khóa anh hùng](/vi/heroes/hero-basics/#unlock-timeline)** — khi nào Arthur xuất hiện, Vòng quay may mắn Xynthia/Ảnh, chuỗi sự kiện UR từ ngày 36–85, Marlena
 - **[Cách hoạt động của Sức mạnh anh hùng](/vi/heroes/hero-basics/#hero-might)** — cấp độ, sao (bước nhảy 4★), kỹ năng và trang bị
 - **[Phe phái và Khắc chế](/vi/heroes/hero-basics/#wiki-hero-factions)** — tiền thưởng cộng dồn +5/+10/+15/+20% và vòng tròn khắc chế Chiến binh > Pháp sư > Xạ thủ > Chiến binh
 - **[Đội hình đầu tiên của bạn](/vi/heroes/hero-basics/#f2p-squad)** — Arthur và Bella ở hàng trước; Marlena, Claire và Celia ở hàng sau (phân tích đầy đủ cùng các lựa chọn thay thế)

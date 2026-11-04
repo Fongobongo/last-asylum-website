@@ -21,7 +21,7 @@ La sezione per principianti è suddivisa in articoli indipendenti: leggili in or
 
 Le basi sugli eroi si trovano ora nella sezione Eroi, che raccoglie tutte le guide agli eroi:
 
-- **[Cronologia di sblocco degli eroi](/it/heroes/hero-basics/#unlock-timeline)** — quando arriva Arthur, la Ruota della Fortuna di Cynthia/Shadow, il treno degli eventi UR dei giorni 36–85, Marlena, Era della Rinascita
+- **[Cronologia di sblocco degli eroi](/it/heroes/hero-basics/#unlock-timeline)** — quando arriva Arthur, la Ruota della Fortuna di Cynthia/Shadow, il treno degli eventi UR dei giorni 36–85, Marlena
 - **[Come funziona la Potenza degli eroi](/it/heroes/hero-basics/#hero-might)** — livello, stelle (il salto a 4★), abilità ed equipaggiamento
 - **[Fazioni e contromisure](/it/heroes/hero-basics/#wiki-hero-factions)** — bonus di accumulo +5/+10/+15/+20% e il cerchio Guerrieri > Stregoni > Ranger > Guerrieri
 - **[La tua prima formazione](/it/heroes/hero-basics/#f2p-squad)** — Arthur e Bella in prima linea; Marlena, Claire e Celia nelle retrovie (analisi completa con alternative)
@@ -371,7 +371,7 @@ Un nucleo iniziale collaudato: **Arthur e Bella davanti; Marlena, Claire e Celia
 - **Arthur** diventa il tank principale. È il primo UR che appare nella Taverna su uno stato giovane, e 50 evocazioni garantiscono 10 dei suoi frammenti: inseriscilo presto nel quintetto principale, poi inizia a risparmiare i biglietti per gli eventi che assegnano punti evocazione.
 - **Bella** occupa il secondo slot in prima linea in modo che nessun damager debba esporsi.
 - **Marlena** è il principale portatore di danni a lungo termine: la candidata ideale per investimenti prolungati.
-- **Claire** distrugge i mostri e potenzia i Guerrieri forti, e non è un SSR da buttare: nell'Era della Rinascita passa da SSR a UR, quindi l'investimento iniziale continua a dare i suoi frutti.
+- **Claire** distrugge i mostri e potenzia i Guerrieri forti, e non è un SSR da buttare: l'investimento iniziale continua a dare i suoi frutti.
 - **Celia** brilla nel PvE, raccogliendo risorse e affrontando mostri d'élite, completando la squadra finché non esisterà un quintetto interamente UR.
 
 Dividi le risorse in modo non uniforme: Marlena, Arthur e Claire sono il trio a lungo termine; Bella e Celia fanno bene i lavori iniziali ma non dovrebbero ricevere frammenti UR universali, progetti migliori o i materiali più rari. Finché i miglioramenti sono economici, mantieni i cinque all'incirca allo stesso livello; man mano che i costi salgono, il trio ha la priorità. La stessa logica governa i badge delle abilità. L'equipaggiamento segue i ruoli: i tank vogliono armatura e stivali per reggere più a lungo la prima linea; i damager vogliono spada e guanti per chiudere i combattimenti più velocemente. E non potenziare mai un oggetto solo perché è comparso un puntino rosso accanto ad esso: il puntino rosso non conosce i tuoi piani.
