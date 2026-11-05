@@ -27,7 +27,7 @@ Use nossa ferramenta de busca interativa abaixo! Basta digitar uma palavra-chave
   * **Guerreiro (Warrior) vence Bruxo (Warlock)**
   * **Bruxo (Warlock) vence Patrulheiro (Ranger)**
   * **Patrulheiro (Ranger) vence Guerreiro (Warrior)**
-  * Implantar 5 heróis da mesma facção concede a amplificação máxima de atributos do esquadrão (+25% ATK e HP).
+  * Implantar 5 heróis da mesma facção concede a amplificação máxima de atributos do esquadrão (+20% ATK e HP).
 * **Marcos VIP:** Distintivo VIP no chat (**VIP 3**), Expedição Rápida (**VIP 8**), Despacho Automático de Operações Secretas (**VIP 10**) e Super Modo (**VIP 12**).
 * **Lore do Jogo:** O Rei Rato (Rei dos Ratos) feriu Celia, William foi o primeiro paciente resgatado e as máscaras dos Médicos da Peste (Plague Doctor) são preenchidas com especiarias e ervas aromáticas.
 

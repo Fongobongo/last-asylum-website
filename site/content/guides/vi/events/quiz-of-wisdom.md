@@ -27,7 +27,7 @@ Sử dụng công cụ tìm kiếm tương tác của chúng tôi bên dưới! 
   * **Chiến binh (Warrior) khắc chế Phù thủy (Warlock)**
   * **Phù thủy (Warlock) khắc chế Kỵ xạ (Ranger)**
   * **Kỵ xạ (Ranger) khắc chế Chiến binh (Warrior)**
-  * Triển khai 5 anh hùng cùng một phe sẽ cấp mức khuếch đại chỉ số đội hình tối đa (+25% Tấn công & HP).
+  * Triển khai 5 anh hùng cùng một phe sẽ cấp mức khuếch đại chỉ số đội hình tối đa (+20% Tấn công & HP).
 * **Mốc VIP:** Huy hiệu VIP trong trò chuyện (**VIP 3**), Thám hiểm Nhanh (**VIP 8**), Tự động Điều phối Hoạt động Ngầm (**VIP 10**), và Chế độ Siêu cấp (**VIP 12**).
 * **Cốt truyện Trò chơi:** Vua Chuột đã làm bị thương Celia, William là bệnh nhân đầu tiên được cứu, và mặt nạ Bác sĩ Dịch hạch được nhồi các loại gia vị và thảo mộc thơm.
 

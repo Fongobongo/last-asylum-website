@@ -27,7 +27,7 @@ Gunakan alat pencarian interaktif kami di bawah ini! Cukup ketik kata kunci dari
   * **Warrior mengalahkan Warlock**
   * **Warlock mengalahkan Ranger**
   * **Ranger mengalahkan Warrior**
-  * Mengerahkan 5 pahlawan dari faksi yang sama memberikan amplifikasi statistik pasukan maksimum (+25% ATK & HP).
+  * Mengerahkan 5 pahlawan dari faksi yang sama memberikan amplifikasi statistik pasukan maksimum (+20% ATK & HP).
 * **Pencapaian VIP:** Lencana VIP obrolan (**VIP 3**), Ekspedisi Cepat (**VIP 8**), Pengiriman Terselubung Otomatis (**VIP 10**), dan Mode Super (**VIP 12**).
 * **Lore Permainan:** Raja Tikus Raksasa melukai Celia, Williams adalah pasien pertama yang diselamatkan, dan masker Dokter Wabah diisi dengan rempah-rempah dan tanaman aromatik.
 

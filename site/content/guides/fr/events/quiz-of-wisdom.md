@@ -27,7 +27,7 @@ Utilisez notre outil de recherche interactif ci-dessous ! Tapez simplement un mo
   * **Guerrier contre Démoniste**
   * **Démoniste contre Rôdeur**
   * **Rôdeur contre Guerrier**
-  * Déployer 5 héros de la même faction accorde une amplification maximale des statistiques d'escouade (+25 % ATQ & PV).
+  * Déployer 5 héros de la même faction accorde une amplification maximale des statistiques d'escouade (+20 % ATQ & PV).
 * **Paliers VIP :** Badge VIP dans le chat (**VIP 3**), Expédition rapide (**VIP 8**), Envoi automatique des opérations secrètes (**VIP 10**) et Super Mode (**VIP 12**).
 * **Lore du jeu :** Le Roi Rat a blessé Celia, William a été le premier patient secouru, et les masques des Médecins de la Peste sont remplis d'épices et d'herbes aromatiques.
 

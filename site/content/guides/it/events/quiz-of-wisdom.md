@@ -27,7 +27,7 @@ Usa il nostro strumento di ricerca interattivo qui sotto! Digita semplicemente u
   * **Il Guerriero batte lo Stregone**
   * **Lo Stregone batte il Ranger**
   * **Il Ranger batte il Guerriero**
-  * Schierare 5 eroi della stessa fazione garantisce la massima amplificazione delle statistiche della squadra (+25% ATK & HP).
+  * Schierare 5 eroi della stessa fazione garantisce la massima amplificazione delle statistiche della squadra (+20% ATK & HP).
 * **Traguardi VIP:** Stemma VIP in chat (**VIP 3**), Spedizione Rapida (**VIP 8**), Invio Operazioni Segrete Automatico (**VIP 10**) e Super Modalità (**VIP 12**).
 * **Lore di Gioco:** Il Re dei Ratti ha ferito Celia, William è stato il primo paziente salvato e le maschere dei Medici della Peste sono riempite con spezie aromatiche ed erbe aromatiche.
 

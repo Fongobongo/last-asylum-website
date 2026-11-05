@@ -27,7 +27,7 @@ Aşağıdaki interaktif arama aracımızı kullanın! Sadece soru içinden bir a
   * **Savaşçı, Büyücü'yü (Warlock) alt eder**
   * **Büyücü, Avcı'yı (Ranger) alt eder**
   * **Avcı, Savaşçı'yı alt eder**
-  * Aynı fraksiyondan 5 kahraman konuşlandırmak, maksimum birlik istatistiği artışı (%25 ATK ve HP) sağlar.
+  * Aynı fraksiyondan 5 kahraman konuşlandırmak, maksimum birlik istatistiği artışı (%20 ATK ve HP) sağlar.
 * **VIP Dönüm Noktaları:** Sohbet VIP rozeti (**VIP 3**), Hızlı Keşif (**VIP 8**), Otomatik Gizli Sevk (**VIP 10**) ve Süper Mod (**VIP 12**).
 * **Oyun Hikayesi:** Fare Kral Celia'yı yaraladı, William kurtarılan ilk hastaydı ve Veba Doktoru maskeleri aromatik baharatlar ve otlarla doludur.
 

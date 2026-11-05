@@ -27,7 +27,7 @@ Responder correctamente a las 15 preguntas otorga los cofres de recompensa de ni
   * **Guerrero vence a Brujo**
   * **Brujo vence a Explorador**
   * **Explorador vence a Guerrero**
-  * Desplegar 5 héroes de la misma facción otorga la máxima amplificación de estadísticas de escuadrón (+25% ATQ y HP).
+  * Desplegar 5 héroes de la misma facción otorga la máxima amplificación de estadísticas de escuadrón (+20% ATQ y HP).
 * **Hitos VIP:** Insignia de chat VIP (**VIP 3**), Expedición rápida (**VIP 8**), Despacho automático de operaciones encubiertas (**VIP 10**) y Supermodo (**VIP 12**).
 * **Lore del juego:** El Rey Rata hirió a Celia, William fue el primer paciente rescatado y las máscaras de los Doctores de la Peste están rellenas de especias y hierbas aromáticas.
 

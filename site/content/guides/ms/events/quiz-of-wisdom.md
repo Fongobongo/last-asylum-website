@@ -27,7 +27,7 @@ Gunakan alat carian interaktif kami di bawah! Hanya taip kata kunci daripada soa
   * **Pahlawan (Warrior) menentang Warlock**
   * **Warlock menentang Renjer (Ranger)**
   * **Renjer (Ranger) menentang Pahlawan (Warrior)**
-  * Menempatkan 5 wira dari faksi yang sama memberikan pengukuhan statistik skuad maksimum (+25% ATK & HP).
+  * Menempatkan 5 wira dari faksi yang sama memberikan pengukuhan statistik skuad maksimum (+20% ATK & HP).
 * **Pencapaian VIP:** Lencana VIP sembang (**VIP 3**), Ekspedisi Pantas (**VIP 8**), Penghantaran Rahsia Auto (**VIP 10**), dan Mod Super (**VIP 12**).
 * **Lore Permainan:** Raja Tikus mencederakan Celia, William adalah pesakit pertama yang diselamatkan, dan topeng Doktor Wabak diisi dengan rempah-ratus dan herba aromatik.
 

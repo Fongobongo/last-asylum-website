@@ -27,7 +27,7 @@ Use our interactive search tool below! Simply type a keyword from the question (
   * **Warrior counters Warlock**
   * **Warlock counters Ranger**
   * **Ranger counters Warrior**
-  * Deploying 5 heroes of the same faction grants maximum squad stat amplification (+25% ATK & HP).
+  * Deploying 5 heroes of the same faction grants maximum squad stat amplification (+20% ATK & HP).
 * **VIP Milestones:** Chat VIP badge (**VIP 3**), Quick Expedition (**VIP 8**), Auto Covert Dispatch (**VIP 10**), and Super Mode (**VIP 12**).
 * **Game Lore:** The Rat King injured Celia, William was the first rescued patient, and Plague Doctor masks are filled with aromatic spices and herbs.
 

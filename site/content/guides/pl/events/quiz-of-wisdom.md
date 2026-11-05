@@ -27,7 +27,7 @@ Skorzystaj z naszego interaktywnego narzędzia wyszukiwania poniżej! Po prostu 
   * **Wojownik kontruje Warlocka**
   * **Warlock kontruje Rangera**
   * **Ranger kontruje Wojownika**
-  * Wystawienie 5 bohaterów tej samej frakcji zapewnia maksymalną amplifikację statystyk oddziału (+25% do ATK i PŻ).
+  * Wystawienie 5 bohaterów tej samej frakcji zapewnia maksymalną amplifikację statystyk oddziału (+20% do ATK i PŻ).
 * **Kamienie milowe VIP:** Odznaka VIP na czacie (**VIP 3**), Szybka ekspedycja (**VIP 8**), Automatyczne wysyłanie tajnych operacji (**VIP 10**) oraz Tryb super (**VIP 12**).
 * **Fabuła gry:** Król Szczurów ranił Celię, William był pierwszym uratowanym pacjentem, a maski Doktora Plumy są wypełnione aromatycznymi przyprawami i ziołami.
 

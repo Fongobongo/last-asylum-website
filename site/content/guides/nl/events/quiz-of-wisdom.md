@@ -27,7 +27,7 @@ Gebruik onze interactieve zoektool hieronder! Typ eenvoudig een trefwoord uit de
   * **Krijger verslaat Tovenaar**
   * **Tovenaar verslaat Ranger**
   * **Ranger verslaat Krijger**
-  * Het inzetten van 5 helden van dezelfde factie geeft maximale statistiekversterking voor het peloton (+25% ATK & HP).
+  * Het inzetten van 5 helden van dezelfde factie geeft maximale statistiekversterking voor het peloton (+20% ATK & HP).
 * **VIP-mijlpalen:** VIP-chatbadge (**VIP 3**), Snelle Expeditie (**VIP 8**), Automatische Geheime Verkenning (**VIP 10**) en Supermodus (**VIP 12**).
 * **Spel-lore:** De Rattenkoning verwondde Celia, William was de eerste geredde patiënt, en maskers van de pestdokter zijn gevuld met aromatische specerijen en kruiden.
 

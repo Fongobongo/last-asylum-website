@@ -27,7 +27,7 @@ Nutze unser interaktives Suchwerkzeug unten! Gib einfach ein Schlüsselwort aus 
   * **Krieger kontert Hexenmeister**
   * **Hexenmeister kontert Waldläufer**
   * **Waldläufer kontert Krieger**
-  * Der Einsatz von 5 Helden derselben Fraktion gewährt die maximale Verstärkung der Truppenwerte (+25 % ANG & LP).
+  * Der Einsatz von 5 Helden derselben Fraktion gewährt die maximale Verstärkung der Truppenwerte (+20 % ANG & LP).
 * **VIP-Meilensteine:** VIP-Chat-Abzeichen (**VIP 3**), Schnelle Expedition (**VIP 8**), Automatischer verdeckter Einsatz (**VIP 10**) und Super-Modus (**VIP 12**).
 * **Spiel-Lore:** Der Rattenkönig verletzte Celia, William war der erste gerettete Patient und die Masken der Pestärzte sind mit aromatischen Gewürzen und Kräutern gefüllt.
 
