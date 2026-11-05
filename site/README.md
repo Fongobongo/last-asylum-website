@@ -45,6 +45,7 @@ cd site
 npm install
 npm run dev        # http://localhost:4321
 npm run build      # билд + pagefind-индекс (postbuild)
+npm run build:local # то же, но с обходом шима безопасных удалений (песочница WorkBuddy)
 npm run check:links # проверка внутренних ссылок и локальных ассетов в dist/
 npm run preview    # превью
 node serve.cjs     # простой статический сервер для проверки dist/
