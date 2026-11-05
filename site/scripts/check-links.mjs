@@ -1,19 +1,22 @@
 #!/usr/bin/env node
 /**
- * Verifies internal links across the built site (site/dist).
+ * Verifies internal links and local assets across the built site (site/dist).
  * - Resolves root-absolute (/x/) and relative hrefs against dist/
  * - Respects trailingSlash:'always' (/foo/ -> foo/index.html)
  * - Validates #fragment anchors against id="..." in the target file
- * - Skips external URLs, mailto:, tel:, javascript:
+ * - Validates <img src>, <source src>, <script src>, <video poster>, srcset
+ *   (a broken portrait on 18 locales went unnoticed while only <a> was checked)
+ * - Skips external URLs, mailto:, tel:, javascript:, data:, blob:
  *
  * Usage: node scripts/check-links.mjs [distDir]
- * Exit code 1 when broken links are found.
+ * Exit code 1 when broken links or missing assets are found.
  */
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
 
 const DIST = path.resolve(process.argv[2] ?? 'dist');
-const SKIP_PREFIXES = ['http://', 'https://', 'mailto:', 'tel:', 'javascript:', 'data:'];
+const SKIP_PREFIXES = ['http://', 'https://', '//', 'mailto:', 'tel:', 'javascript:', 'data:', 'blob:'];
+const MAX_ERRORS = 200;
 
 async function collectHtml(dir) {
   const out = [];
@@ -76,43 +79,85 @@ async function hasAnchor(file, anchor) {
 
 const files = await collectHtml(DIST);
 console.log(`🔗 check-links: scanning ${files.length} HTML files in ${DIST}`);
-const errors = [];
+const linkErrors = [];
+const assetErrors = [];
 const hrefRe = /<a\b[^>]*\bhref="([^"]+)"/gi;
+// src/poster on media+script tags; srcset is handled separately.
+const assetRe = /<(?:img|source|script|iframe|video|audio)\b[^>]*?\b(?:src|poster)="([^"]+)"/gi;
+const srcsetRe = /\bsrcset="([^"]+)"/gi;
+
+function isLocal(url) {
+  return url && !SKIP_PREFIXES.some((p) => url.toLowerCase().startsWith(p));
+}
+
+async function checkAsset(fromFile, url, seen) {
+  if (!isLocal(url)) return;
+  const clean = decodeURIComponent(url.split('?')[0].split('#')[0]);
+  if (!clean || seen.has(clean)) return;
+  seen.add(clean);
+  const target = clean.startsWith('/')
+    ? path.join(DIST, clean)
+    : path.resolve(path.dirname(fromFile), clean);
+  if (!(await fileExists(target))) {
+    assetErrors.push(`${path.relative(DIST, fromFile)} → missing asset ${url}`);
+  }
+}
 
 for (const f of files) {
   const raw = await fs.readFile(f, 'utf8');
   // Runtime-generated links inside <script> can't be validated statically
   // (e.g. client-side template literals like `${baseLink}`) — strip scripts.
   const html = raw.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, '');
-  const seen = new Set();
+  const seenHref = new Set();
   let m;
   hrefRe.lastIndex = 0;
   while ((m = hrefRe.exec(html)) !== null) {
     const href = m[1].trim();
-    if (!href || seen.has(href)) continue;
-    seen.add(href);
+    if (!href || seenHref.has(href)) continue;
+    seenHref.add(href);
     if (SKIP_PREFIXES.some((p) => href.toLowerCase().startsWith(p))) continue;
     if (href.startsWith('#')) {
       if (!(await hasAnchor(f, decodeURIComponent(href.slice(1))))) {
-        errors.push(`${path.relative(DIST, f)} → missing anchor ${href}`);
+        linkErrors.push(`${path.relative(DIST, f)} → missing anchor ${href}`);
       }
       continue;
     }
     const { file, anchor } = resolveTarget(f, href);
     const real = await fileExists(file);
     if (!real) {
-      errors.push(`${path.relative(DIST, f)} → 404 ${href}`);
+      linkErrors.push(`${path.relative(DIST, f)} → 404 ${href}`);
     } else if (anchor && !(await hasAnchor(real, anchor))) {
-      errors.push(`${path.relative(DIST, f)} → ${href} (anchor #${anchor} missing)`);
+      linkErrors.push(`${path.relative(DIST, f)} → ${href} (anchor #${anchor} missing)`);
     }
-    if (errors.length > 200) break;
+    if (linkErrors.length > MAX_ERRORS) break;
   }
-  if (errors.length > 200) break;
+
+  const seenAsset = new Set();
+  assetRe.lastIndex = 0;
+  while ((m = assetRe.exec(html)) !== null) {
+    await checkAsset(f, m[1].trim(), seenAsset);
+    if (assetErrors.length > MAX_ERRORS) break;
+  }
+  srcsetRe.lastIndex = 0;
+  while ((m = srcsetRe.exec(html)) !== null) {
+    for (const part of m[1].split(',')) {
+      const url = part.trim().split(/\s+/)[0];
+      if (url) await checkAsset(f, url, seenAsset);
+    }
+    if (assetErrors.length > MAX_ERRORS) break;
+  }
+  if (linkErrors.length > MAX_ERRORS && assetErrors.length > MAX_ERRORS) break;
 }
 
-if (errors.length) {
-  console.error(`❌ check-links: ${errors.length} broken internal link(s):`);
-  for (const e of errors.slice(0, 50)) console.error(`   ${e}`);
+if (linkErrors.length || assetErrors.length) {
+  if (linkErrors.length) {
+    console.error(`❌ check-links: ${linkErrors.length} broken internal link(s):`);
+    for (const e of linkErrors.slice(0, 50)) console.error(`   ${e}`);
+  }
+  if (assetErrors.length) {
+    console.error(`❌ check-links: ${assetErrors.length} missing local asset(s):`);
+    for (const e of assetErrors.slice(0, 50)) console.error(`   ${e}`);
+  }
   process.exit(1);
 }
-console.log('✅ check-links: all internal links resolve.');
+console.log('✅ check-links: all internal links and local assets resolve.');

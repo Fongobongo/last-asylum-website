@@ -7,7 +7,6 @@ import {
   PROMOTE_LIKES,
   json,
   identOf,
-  voteDelta,
   readTotals,
   readMine,
   writeVote,
@@ -57,16 +56,18 @@ export async function onRequest(context) {
       return json(200, { likes: totals.likes, dislikes: totals.dislikes, mine });
     }
 
-    // POST (validated above): compute per-vote deltas, apply via SQL
-    // increments (concurrency-safe), then read back the authoritative totals.
+    // POST (validated above): write the vote, let SQL derive the counter delta
+    // from the stored value (single transaction), then read back the
+    // authoritative totals + this voter's state.
     const prev = await readMine(db, key, ident);
-    const { dLikes, dDislikes, mine } = voteDelta(prev, vote);
-    await writeVote(db, key, ident, mine, dLikes, dDislikes);
-    const next = await readTotals(db, key);
+    const nextVote = prev === vote ? null : vote;
+    await writeVote(db, key, ident, nextVote);
+    const totals = await readTotals(db, key);
+    const mine = await readMine(db, key, ident);
 
     // Promotion: a pending player suggestion with enough likes stays for good.
     let promoted = false;
-    if (next.likes >= PROMOTE_LIKES && key.startsWith('code:')) {
+    if (totals.likes >= PROMOTE_LIKES && key.startsWith('code:')) {
       const code = key.slice(5);
       const row = await db
         .prepare('SELECT status FROM suggested_codes WHERE code = ?')
@@ -77,7 +78,7 @@ export async function onRequest(context) {
         promoted = true;
       }
     }
-    return json(200, { likes: next.likes, dislikes: next.dislikes, mine, promoted });
+    return json(200, { likes: totals.likes, dislikes: totals.dislikes, mine, promoted });
   } catch (e) {
     return json(500, { error: 'internal' });
   }

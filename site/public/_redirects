@@ -1,7 +1,9 @@
 # Cloudflare Pages redirects (mirrors netlify.toml for hosts that don't read it).
 # Specific rules first — first match wins.
 
+# Legacy Guide Atlas -> /guides/ (all 19 locales)
 /atlas/ /guides/ 301
+/en/atlas/ /guides/ 301
 /ru/atlas/ /ru/guides/ 301
 /de/atlas/ /de/guides/ 301
 /es/atlas/ /es/guides/ 301
@@ -10,7 +12,18 @@
 /ja/atlas/ /ja/guides/ 301
 /ko/atlas/ /ko/guides/ 301
 /pt/atlas/ /pt/guides/ 301
+/ar/atlas/ /ar/guides/ 301
+/it/atlas/ /it/guides/ 301
+/ms/atlas/ /ms/guides/ 301
+/nl/atlas/ /nl/guides/ 301
+/pl/atlas/ /pl/guides/ 301
+/th/atlas/ /th/guides/ 301
+/tr/atlas/ /tr/guides/ 301
+/vi/atlas/ /vi/guides/ 301
+/zh/atlas/ /zh/guides/ 301
+/zh-tw/atlas/ /zh-tw/guides/ 301
 
+# Legacy FAQ -> /tips/ (all 19 locales)
 /faq/ /tips/ 301
 /en/faq/ /tips/ 301
 /ru/faq/ /ru/tips/ 301
@@ -21,5 +34,16 @@
 /ja/faq/ /ja/tips/ 301
 /ko/faq/ /ko/tips/ 301
 /pt/faq/ /pt/tips/ 301
+/ar/faq/ /ar/tips/ 301
+/it/faq/ /it/tips/ 301
+/ms/faq/ /ms/tips/ 301
+/nl/faq/ /nl/tips/ 301
+/pl/faq/ /pl/tips/ 301
+/th/faq/ /th/tips/ 301
+/tr/faq/ /tr/tips/ 301
+/vi/faq/ /vi/tips/ 301
+/zh/faq/ /zh/tips/ 301
+/zh-tw/faq/ /zh-tw/tips/ 301
 
+# English is served from the root — strip the /en/ prefix.
 /en/* /:splat 301

@@ -24,3 +24,6 @@ Thumbs.db
 site/public/dnd/payload.enc
 *.log
 
+# WorkBuddy project data (local agent memory, not source)
+.workbuddy-ai/
+

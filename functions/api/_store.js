@@ -67,16 +67,30 @@ export async function readMine(db, key, ident) {
   return v === 'yes' || v === 'no' ? v : null;
 }
 
-export async function writeVote(db, key, ident, next, dLikes, dDislikes) {
-  // SQL-side increments: safe under concurrency. The INSERT arm carries the
-  // delta as the initial absolute value; the ON CONFLICT arm adds deltas.
+export async function writeVote(db, key, ident, next) {
+  // Deltas are computed *inside* SQL from the stored vote, and the totals
+  // update + votes upsert run in one batch (a single transaction). This closes
+  // the read-modify-write race where two concurrent requests from the same
+  // voter both saw prev=null and both incremented the counter.
   const totalsSql =
     'INSERT INTO totals (key, likes, dislikes) VALUES (?, ?, ?) ' +
-    'ON CONFLICT(key) DO UPDATE SET likes = totals.likes + excluded.likes, dislikes = totals.dislikes + excluded.dislikes';
+    'ON CONFLICT(key) DO UPDATE SET ' +
+    'likes = MAX(0, totals.likes ' +
+    "  + CASE WHEN ? = 'yes' THEN 1 ELSE 0 END " +
+    "  - CASE WHEN (SELECT vote FROM votes WHERE key = ? AND ident = ?) = 'yes' THEN 1 ELSE 0 END), " +
+    'dislikes = MAX(0, totals.dislikes ' +
+    "  + CASE WHEN ? = 'no' THEN 1 ELSE 0 END " +
+    "  - CASE WHEN (SELECT vote FROM votes WHERE key = ? AND ident = ?) = 'no' THEN 1 ELSE 0 END)";
+  // Initial absolute values for the INSERT arm (no totals row yet => no votes).
+  const initLikes = next === 'yes' ? 1 : 0;
+  const initDislikes = next === 'no' ? 1 : 0;
+  const totalsStmt = db
+    .prepare(totalsSql)
+    .bind(key, initLikes, initDislikes, next, key, ident, next, key, ident);
   const now = Date.now();
   if (next) {
     await db.batch([
-      db.prepare(totalsSql).bind(key, dLikes, dDislikes),
+      totalsStmt,
       db
         .prepare(
           'INSERT INTO votes (key, ident, vote, updated_at) VALUES (?, ?, ?, ?) ' +
@@ -86,7 +100,7 @@ export async function writeVote(db, key, ident, next, dLikes, dDislikes) {
     ]);
   } else {
     await db.batch([
-      db.prepare(totalsSql).bind(key, dLikes, dDislikes),
+      totalsStmt,
       db.prepare('DELETE FROM votes WHERE key = ? AND ident = ?').bind(key, ident),
     ]);
   }

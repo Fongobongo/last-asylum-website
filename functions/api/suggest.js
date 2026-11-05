@@ -1,7 +1,7 @@
 // POST /api/suggest — propose a new gift code.
 //   {code, note?, fp?} -> {ok, code, status} | {ok, duplicate:true, ...}
 // Normalizes to uppercase, rate-limits to SUGGEST_PER_DAY per voter/day.
-import { CODE_RE, FP_RE, NOTE_MAX, SUGGEST_PER_DAY, json, identOf } from './_store.js';
+import { CODE_RE, FP_RE, NOTE_MAX, SUGGEST_PER_DAY, clientIp, ipKey, json } from './_store.js';
 
 const DAY_MS = 86400000;
 
@@ -32,7 +32,10 @@ export async function onRequest(context) {
     if (existing) {
       return json(200, { ok: true, duplicate: true, code, status: existing.status });
     }
-    const submitter = identOf(req, fp);
+    // Quota is keyed by IP only: the client-supplied fingerprint is rotatable,
+    // so trusting it would let a script bypass SUGGEST_PER_DAY (same reasoning
+    // as identOf() for code:* vote keys).
+    const submitter = ipKey(clientIp(req));
     const since = Date.now() - DAY_MS;
     const quota = await db
       .prepare('SELECT COUNT(*) AS n FROM suggested_codes WHERE submitter = ? AND created_at > ?')

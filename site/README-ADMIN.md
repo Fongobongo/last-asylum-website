@@ -43,8 +43,10 @@ Sveltia CMS нужна GitHub OAuth-прокси (не храним секрет
 
 | Коллекция | Путь | Что редактирует |
 |---|---|---|
-| Guides (EN) | `site/content/guides/en/` | 11 гайдов + новые |
-| Guides (RU) | `site/content/guides/ru/` | русские версии |
-| Event guides (EN/RU) | `.../events/` | 12 ивентов × 2 |
+| Guides (EN) | `site/content/guides/en/` | 191 гайд + новые |
+| Guides (RU) | `site/content/guides/ru/` | 191 гайд (русские версии) |
+| Event guides (EN/RU) | `.../events/` | 24 ивента × 2 |
+
+> CMS настроена только на EN и RU. Остальные 17 локалей (`ar, de, es, fr, id, it, ja, ko, ms, nl, pl, pt, th, tr, vi, zh, zh-tw`) правятся напрямую в markdown.
 
 Frontmatter каждого гайда: `title`, `description`, `lang`, `updated`, `videoTopic` (выбор из списка), `calculators`, `infographics`, `noindex`. Тело — markdown; заголовки с якорями: `## Заголовок {#anchor-id}`.
