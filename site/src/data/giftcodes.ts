@@ -7,6 +7,7 @@ export interface GiftCode {
 
 // Актуальный список от топ-игроков (перепроверен вручную).
 export const giftCodes: GiftCode[] = [
+  { code: 'CHUPPERLA', date: '2026-11-06', active: true, note: 'chuppergaming creator code' },
   { code: 'KORPEZLA', date: '2026-11-06', active: true, note: 'Korpez Gaming creator code' },
   { code: 'LA350K6CN', date: '2026-11-30', active: true, note: 'November 2026 promo' },
   { code: 'LAHAL26', date: '2026-10-31', active: true, note: 'October 2026 promo (Discord/community)' },
