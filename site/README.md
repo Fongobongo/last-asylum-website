@@ -47,7 +47,7 @@ npm run dev        # http://localhost:4321
 npm run build      # билд + pagefind-индекс (postbuild)
 npm run build:local # то же, но с обходом шима безопасных удалений (песочница WorkBuddy)
 npm run check:links # проверка внутренних ссылок и локальных ассетов в dist/
-npm run check:types # tsc --noEmit по .ts-исходникам (0 ошибок в CI)
+npm run check:types # astro sync + tsc --noEmit по .ts-исходникам (0 ошибок в CI)
 npm run preview    # превью
 node serve.cjs     # простой статический сервер для проверки dist/
 npm run deploy     # деплой в Cloudflare Pages (требует wrangler + токен)
