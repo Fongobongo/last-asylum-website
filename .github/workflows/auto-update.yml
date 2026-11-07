@@ -8,6 +8,11 @@ on:
 jobs:
   update:
     runs-on: ubuntu-24.04
+    env:
+      # Keep in sync with deploy.yml: suppress the runner's git init branch hint.
+      GIT_CONFIG_COUNT: '1'
+      GIT_CONFIG_KEY_0: init.defaultBranch
+      GIT_CONFIG_VALUE_0: main
     permissions:
       contents: write
     steps:

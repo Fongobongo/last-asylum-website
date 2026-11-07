@@ -12,6 +12,13 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-24.04
+    env:
+      # Suppress Git's "Using 'master' as the name for the initial branch" hint
+      # from the `git init` inside actions/checkout. Env config is inherited by
+      # every git process in the job, including the checkout action itself.
+      GIT_CONFIG_COUNT: '1'
+      GIT_CONFIG_KEY_0: init.defaultBranch
+      GIT_CONFIG_VALUE_0: main
     defaults:
       run:
         working-directory: site
