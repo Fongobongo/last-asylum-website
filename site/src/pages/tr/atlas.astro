@@ -1,4 +1,5 @@
 ---
-// Legacy route: the Guide Atlas lives at /guides/ now.
-return Astro.redirect('/tr/guides/', 301);
+import LegacyRedirect from '../../components/LegacyRedirect.astro';
 ---
+
+<LegacyRedirect to="/tr/guides/" lang="tr" />

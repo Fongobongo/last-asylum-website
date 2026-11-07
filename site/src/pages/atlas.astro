@@ -1,5 +1,5 @@
 ---
-// Legacy route: the Guide Atlas lives at /guides/ now.
-// Kept as a 301 so external backlinks keep working.
-return Astro.redirect('/guides/', 301);
+import LegacyRedirect from '../components/LegacyRedirect.astro';
 ---
+
+<LegacyRedirect to="/guides/" lang="en" />

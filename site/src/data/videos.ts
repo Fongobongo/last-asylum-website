@@ -2314,7 +2314,7 @@ export const rawVideos: Record<string, Video[]> = {
   ],
 };
 
-export const topicSearchTerms: Record<string, Record<Lang, string>> = {
+export const topicSearchTerms: Record<string, Partial<Record<Lang, string>>> = {
   "dwarven": {
     "en": "Last Asylum Plague Dwarven Mine guide",
     "ru": "Last Asylum Plague Гномья шахта гайд",
@@ -2658,7 +2658,7 @@ export const topicSearchTerms: Record<string, Record<Lang, string>> = {
   }
 };
 
-export const topicNames: Record<string, Record<Lang, string>> = {
+export const topicNames: Record<string, Partial<Record<Lang, string>>> = {
   "dwarven": {
     "en": "Dwarven Mine",
     "ru": "Гномья шахта",

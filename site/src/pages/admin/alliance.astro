@@ -1,0 +1,25 @@
+---
+// Admin Panel for Alliance Management (/admin/alliance/).
+// /admin/ itself is reserved for the Sveltia CMS entry in public/admin/index.html.
+import Base from "../../layouts/Base.astro";
+import GuildHub from "../../components/GuildHub.astro";
+import type { Lang } from "../../i18n/utils";
+
+const lang: Lang = "ru";
+---
+
+<Base lang={lang} path="/admin/alliance/" title="Панель администратора | LA Plague Hub" description="Панель управления доступом альянса, директивами и тактическими голосованиями" noindex={true}>
+  <section class="py-8 sm:py-12">
+    <GuildHub lang={lang} />
+  </section>
+
+  <script>
+    // Auto trigger the admin modal on this dedicated alliance-admin route.
+    document.addEventListener("DOMContentLoaded", () => {
+      setTimeout(() => {
+        const btn = document.getElementById("gh-btn-open-admin-from-login") || document.getElementById("gh-btn-open-admin-from-bar");
+        btn?.click();
+      }, 50);
+    });
+  </script>
+</Base>

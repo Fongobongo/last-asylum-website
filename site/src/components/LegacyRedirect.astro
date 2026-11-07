@@ -1,0 +1,28 @@
+---
+// Static fallback for legacy URLs. Cloudflare `_redirects` serves the real
+// 301; this page is the fallback for hosts without redirect rules.
+// Unlike Astro.redirect()'s generated stub it renders a complete <html>
+// document, so Pagefind can parse it instead of warning about 19 files.
+interface Props {
+  to: string;
+  lang?: string;
+}
+
+const { to, lang = 'en' } = Astro.props;
+const site = Astro.site ?? new URL('https://lastasylum.pages.dev');
+const canonical = new URL(to, site).toString();
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting to {to}</title>
+    <meta http-equiv="refresh" content={`0;url=${to}`} />
+    <meta name="robots" content="noindex" />
+    <link rel="canonical" href={canonical} />
+  </head>
+  <body data-pagefind-ignore>
+    <p>Redirecting to <a href={to}>{to}</a></p>
+  </body>
+</html>

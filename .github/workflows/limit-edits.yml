@@ -18,7 +18,7 @@ env:
 jobs:
   check:
     name: Daily edit limit (${{ github.event.pull_request.user.login }})
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Count author's merges in the last 24h
         id: count
@@ -39,7 +39,7 @@ jobs:
 
       - name: Comment status on the PR
         if: always()
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           script: |
             const count = parseInt('${{ steps.count.outputs.count }}');

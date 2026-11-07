@@ -566,7 +566,7 @@ const t = ui[lang] || ui.en;
     </div>
   )}
 
-  <!-- Official Skills Breakdown (5 Slots) -->
+  <!-- Official Skills Breakdown (5 Slots); falls back to community skills if absent -->
   {officialSkills && officialSkills.length > 0 ? (
     <div class="not-prose my-8 space-y-4">
       <div class="border-b border-stone-800 pb-3">
@@ -641,7 +641,6 @@ const t = ui[lang] || ui.en;
       </div>
     </div>
   ) : (
-    <!-- Fallback community skills if official 5-slot not present -->
     <div class="not-prose my-6">
       <h2 class="mb-3 text-lg font-bold text-plague-200">{t.build}</h2>
       <div class="space-y-3">

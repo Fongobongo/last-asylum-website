@@ -4,9 +4,9 @@
 
 ## Стек
 
-- **Astro 5** — статическая генерация, zero-JS по умолчанию
+- **Astro 7** — статическая генерация, zero-JS по умолчанию (нужен Node ≥ 22.22.0; CI закреплён на 22.22.2)
 - **Tailwind CSS 4** — кастомная «plague»-тема
-- **Pagefind** — статический поиск по сайту (19 языков, ~292 тыс. слов)
+- **Pagefind 1.6** — статический поиск по сайту (19 языков, ~400 тыс. слов)
 - **Cloudflare Pages** — хостинг + Pages Functions (голосование, заявки на коды) + D1
 - **TypeScript** — строгая типизация
 
@@ -33,7 +33,7 @@ site/
 │   │   ├── codes | patch-notes | credits | support | shop | atlas
 │   │   └── events/       # 24 события + hub
 │   └── styles/global.css
-└── dist/                 # билд: ~4275 страниц + pagefind-индекс
+└── dist/                 # билд: ~4276 страниц + pagefind-индекс
 ```
 
 Контент гайдов — `site/content/guides/<lang>/*.md` (по 191 файлу на локаль).
@@ -47,6 +47,7 @@ npm run dev        # http://localhost:4321
 npm run build      # билд + pagefind-индекс (postbuild)
 npm run build:local # то же, но с обходом шима безопасных удалений (песочница WorkBuddy)
 npm run check:links # проверка внутренних ссылок и локальных ассетов в dist/
+npm run check:types # tsc --noEmit по .ts-исходникам (0 ошибок в CI)
 npm run preview    # превью
 node serve.cjs     # простой статический сервер для проверки dist/
 npm run deploy     # деплой в Cloudflare Pages (требует wrangler + токен)

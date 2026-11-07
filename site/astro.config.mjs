@@ -1,4 +1,5 @@
 import { defineConfig } from 'astro/config';
+import { unified } from '@astrojs/markdown-remark';
 import tailwindcss from '@tailwindcss/vite';
 
 function remarkCustomHeadingId() {
@@ -56,9 +57,17 @@ const SITE_URL = process.env.SITE_URL?.trim() ? process.env.SITE_URL.trim() : 'h
 export default defineConfig({
   site: SITE_URL,
   trailingSlash: 'always',
+  // Astro 7 defaults to 'jsx' whitespace handling, which can glue inline
+  // elements together. Keep the HTML-aware behaviour this site was built with.
+  compressHTML: true,
   markdown: {
-    remarkPlugins: [remarkCustomHeadingId],
-    rehypePlugins: [rehypeTableWrap],
+    // Astro 7 switched the default Markdown pipeline to Sätteri. Our custom
+    // heading IDs ({#...}) and table wrappers are remark/rehype plugins, so
+    // explicitly opt back into the unified pipeline.
+    processor: unified({
+      remarkPlugins: [remarkCustomHeadingId],
+      rehypePlugins: [rehypeTableWrap],
+    }),
   },
   vite: {
     plugins: [tailwindcss()],
