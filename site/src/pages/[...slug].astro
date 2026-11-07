@@ -38,6 +38,7 @@ import GearCalc from '../components/GearCalc.astro';
 import HeroCompare from '../components/HeroCompare.astro';
 import GuidesIndex from '../components/GuidesIndex.astro';
 import RelatedGuides, { type RelatedItem } from '../components/RelatedGuides.astro';
+import { t } from '../i18n/ui';
 import type { Lang } from '../i18n/utils';
 
 export async function getStaticPaths() {
@@ -49,7 +50,7 @@ export async function getStaticPaths() {
   const STATIC_HUBS = new Set([
     'alliance', 'beginners', 'buildings', 'calendar', 'compare', 'economy',
     'era', 'gear', 'heroes', 'might', 'raven', 'status', 'tier-list', 'tips',
-    'codes', 'credits', 'support', 'shop', 'atlas', 'infographics', 'patch-notes',
+    'codes', 'city-map', 'credits', 'support', 'shop', 'atlas', 'infographics', 'patch-notes',
   ]);
   const STATIC_EVENTS = new Set([
     'alliance-duel', 'arena', 'canyon', 'cheese', 'crystal-cluster', 'dwarven-mine',
@@ -235,6 +236,16 @@ const D_UPDATED: Record<string, string> = { ru: 'Обновлено', en: 'Updat
     )}
 
     <Content />
+
+    {slug === 'cities' && (
+      <a href={`${prefix}/city-map/`} class="not-prose group my-8 flex items-center gap-4 rounded-2xl border border-emerald-500/25 bg-emerald-900/15 p-4 transition hover:border-emerald-400/50 hover:bg-emerald-900/25">
+        <span class="shrink-0 text-3xl">🗺️</span>
+        <span class="min-w-0">
+          <span class="block text-sm font-bold text-stone-100 group-hover:text-emerald-200">{t(lang, 'nav.citymap')} →</span>
+          <span class="mt-0.5 block text-xs leading-relaxed text-stone-400">{t(lang, 'home.sections.citymap.desc')}</span>
+        </span>
+      </a>
+    )}
 
     {slug === 'guides' && (
       <div class="not-prose">

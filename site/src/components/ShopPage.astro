@@ -1467,9 +1467,9 @@ disclosureNote: Lpick('Партнёрский сервис LDShop. Покупк�
       if (!calcRoot) return;
 
       let currentCurrency = 'USD';
-      let activeBtn = calcRoot.querySelector('.pack-btn.active') as HTMLElement | null;
+      let activeBtn = calcRoot.querySelector('.pack-btn.active');
 
-      const currencySymbols: Record<string, string> = { USD: '$', RUB: '₽', EUR: '€' };
+      const currencySymbols = { USD: '$', RUB: '₽', EUR: '€' };
 
       const updateValues = () => {
         if (!activeBtn) return;
@@ -1495,7 +1495,7 @@ disclosureNote: Lpick('Партнёрский сервис LDShop. Покупк�
         if (bonusEl) bonusEl.textContent = bonusTpl.replace('{d}', diamonds);
 
         // Update prices inside buttons
-        calcRoot.querySelectorAll<HTMLElement>('.pack-btn').forEach((btn) => {
+        calcRoot.querySelectorAll('.pack-btn').forEach((btn) => {
           const p = btn.dataset[`ld${currentCurrency}`];
           const prEl = btn.querySelector('.pack-price');
           if (prEl && p) {
@@ -1505,7 +1505,7 @@ disclosureNote: Lpick('Партнёрский сервис LDShop. Покупк�
       };
 
       // Currency toggling
-      calcRoot.querySelectorAll<HTMLButtonElement>('.curr-btn').forEach((btn) => {
+      calcRoot.querySelectorAll('.curr-btn').forEach((btn) => {
         btn.addEventListener('click', () => {
           calcRoot.querySelectorAll('.curr-btn').forEach((b) => {
             b.classList.remove('active', 'bg-white', 'text-black');
@@ -1519,7 +1519,7 @@ disclosureNote: Lpick('Партнёрский сервис LDShop. Покупк�
       });
 
       // Pack selection
-      calcRoot.querySelectorAll<HTMLElement>('.pack-btn').forEach((btn) => {
+      calcRoot.querySelectorAll('.pack-btn').forEach((btn) => {
         btn.addEventListener('click', () => {
           calcRoot.querySelectorAll('.pack-btn').forEach((b) => {
             b.classList.remove('active', 'border-toxic-400', 'bg-toxic-500/10', 'text-toxic-300');

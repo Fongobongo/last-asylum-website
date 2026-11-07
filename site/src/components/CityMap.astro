@@ -1,0 +1,906 @@
+---
+import {
+  CITIES, MAP_W, MAP_H, LEVEL_COLORS, LEVEL_HP, LEVEL_GARRISON,
+  BONUS_KEYS, BONUS_LABELS, GENERIC_NAMES, NAMED_CITIES, UI,
+  ALLIANCE_COLORS, ALLIANCE_ICONS,
+  type BonusKey,
+} from '../data/cityMap';
+import type { Lang } from '../i18n/utils';
+
+interface Props { lang: Lang; }
+const { lang } = Astro.props;
+
+const S = UI[lang] ?? UI.en;
+const B = BONUS_LABELS[lang] ?? BONUS_LABELS.en;
+const G = GENERIC_NAMES[lang] ?? GENERIC_NAMES.en;
+const levels = [1, 2, 3, 4, 5, 6];
+
+const nameOf = (c: (typeof CITIES)[number]): string =>
+  c.name
+    ? (NAMED_CITIES[c.name]?.[lang] ?? NAMED_CITIES[c.name]?.en ?? c.name)
+    : (G[c.lv] ?? GENERIC_NAMES.en[c.lv]);
+const shortOf = (c: (typeof CITIES)[number]): string =>
+  c.bonus ? B[c.bonus as BonusKey].short : '';
+const fullOf = (c: (typeof CITIES)[number]): string =>
+  c.bonus ? B[c.bonus as BonusKey].full : '';
+
+const payload = {
+  s: S, b: B, keys: BONUS_KEYS, colors: LEVEL_COLORS,
+  hp: LEVEL_HP, garrison: LEVEL_GARRISON,
+  palette: ALLIANCE_COLORS, icons: ALLIANCE_ICONS,
+  mapW: MAP_W, mapH: MAP_H, lang,
+};
+---
+
+<script is:inline define:vars={{ CM_DATA: payload }}>
+  window.__CM_DATA__ = CM_DATA;
+</script>
+
+<div id="cm-app" class="mx-auto max-w-[1600px] px-3 sm:px-5 pb-16" data-lang={lang}>
+  <!-- ══ Heading ══════════════════════════════════════════════════════ -->
+  <header class="pt-8 sm:pt-12 pb-5">
+    <div class="flex flex-wrap items-start justify-between gap-4">
+      <div>
+        <div class="mb-2 inline-flex items-center gap-2 rounded-full border border-toxic-400/25 bg-toxic-400/[0.06] px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-toxic-300">
+          🗺️ {S.legend} · {lang.toUpperCase()}
+        </div>
+        <h1 class="display text-3xl sm:text-5xl text-stone-50">{S.title}</h1>
+        <p class="mt-3 max-w-3xl text-sm sm:text-base leading-relaxed text-stone-400">{S.subtitle}</p>
+      </div>
+      <div class="flex flex-wrap gap-2 text-xs">
+        <div class="rounded-xl border border-white/[0.07] bg-white/[0.03] px-3 py-2"><span id="cm-stat-total" class="font-mono text-stone-500">87</span> <span class="text-stone-300">{S.cityList}</span></div>
+        <div class="rounded-xl border border-white/[0.07] bg-white/[0.03] px-3 py-2"><span id="cm-stat-held" class="font-mono font-bold text-toxic-300">0</span> <span class="text-stone-300">{S.heldCities}</span></div>
+        <div class="rounded-xl border border-white/[0.07] bg-white/[0.03] px-3 py-2"><span id="cm-stat-free" class="font-mono font-bold text-plague-300">87</span> <span class="text-stone-300">{S.freeCities}</span></div>
+        <div class="rounded-xl border border-white/[0.07] bg-white/[0.03] px-3 py-2"><span id="cm-stat-alliances" class="font-mono font-bold text-sky-300">0</span> <span class="text-stone-300">{S.alliances}</span></div>
+      </div>
+    </div>
+    <p class="mt-4 text-xs leading-relaxed text-stone-500">{S.sourceNote} <a href="/img/city-map-original.jpg" target="_blank" rel="noopener noreferrer" class="text-plague-300 underline decoration-dotted hover:text-plague-200">{S.original} ↗</a></p>
+  </header>
+
+  <!-- ══ Toolbar ══════════════════════════════════════════════════════ -->
+  <div class="cm-panel mb-4 p-3 sm:p-4">
+    <div class="flex flex-wrap items-center gap-x-6 gap-y-3">
+      <div class="flex items-center gap-2">
+        <span class="cm-cap">{S.filters}</span>
+        <div id="cm-levels" class="flex flex-wrap gap-1">
+          <button class="cm-chip is-on" data-level="all">{S.all}</button>
+          {levels.map((l) => (
+            <button class="cm-chip" data-level={l}>
+              <span class="inline-block h-2 w-2 rounded-sm" style={`background:${LEVEL_COLORS[l]}`}></span>
+              Lv.{l}
+            </button>
+          ))}
+          <button class="cm-chip" data-level="7" title={S.royal}>👑</button>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-2">
+        <span class="cm-cap">{S.bonus}</span>
+        <div id="cm-bonuses" class="flex flex-wrap gap-1">
+          {BONUS_KEYS.map((k) => <button class="cm-chip" data-bonus={k}>{B[k].short}</button>)}
+        </div>
+      </div>
+
+      <div class="flex flex-wrap items-center gap-2">
+        <label class="cm-cap" for="cm-owner-filter">{S.owner}</label>
+        <select id="cm-owner-filter" class="cm-select"></select>
+        <input id="cm-search" class="cm-input" type="search" placeholder={S.search} autocomplete="off" />
+      </div>
+    </div>
+
+    <div class="mt-3 flex flex-wrap items-center gap-x-6 gap-y-3 border-t border-white/[0.06] pt-3">
+      <div class="flex items-center gap-2">
+        <span class="cm-cap">{S.viewLevels}</span>
+        <div id="cm-view" class="cm-seg">
+          <button class="is-on" data-view="levels">{S.viewLevels}</button>
+          <button data-view="owners">{S.viewOwners}</button>
+        </div>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="cm-cap">{S.labels}</span>
+        <div id="cm-labelmode" class="cm-seg">
+          <button class="is-on" data-label="full">{S.full}</button>
+          <button data-label="compact">{S.compact}</button>
+          <button data-label="off">{S.off}</button>
+        </div>
+      </div>
+      <div class="flex items-center gap-1.5">
+        <button id="cm-zoom-in" class="cm-iconbtn" title={S.zoomIn} aria-label={S.zoomIn}>＋</button>
+        <button id="cm-zoom-out" class="cm-iconbtn" title={S.zoomOut} aria-label={S.zoomOut}>−</button>
+        <button id="cm-fit" class="cm-iconbtn text-[11px] px-3" title={S.fit}>{S.fit}</button>
+      </div>
+      <label class="flex cursor-pointer items-center gap-2 text-xs text-stone-300">
+        <input id="cm-paint-mode" type="checkbox" class="accent-toxic-400 h-4 w-4" />
+        <span>{S.assignTo}</span>
+      </label>
+      <select id="cm-paint" class="cm-select"></select>
+    </div>
+  </div>
+
+  <!-- ══ Map + side panel ═════════════════════════════════════════════ -->
+  <div class="grid gap-4 xl:grid-cols-[minmax(0,1fr)_360px]">
+    <section id="cm-map-card" class="cm-panel overflow-hidden">
+      <div class="cm-map-wrap">
+        <svg id="cm-svg" viewBox={`0 0 ${MAP_W} ${MAP_H}`} role="img" aria-label={S.title}
+             preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+          <g id="cm-territories">
+            {CITIES.map((c) => (
+              <polygon
+                class:list={['cm-poly', c.tiny ? 'cm-tiny' : '']}
+                points={c.poly}
+                fill={LEVEL_COLORS[c.lv]}
+                data-id={c.id}
+                data-lv={c.lv}
+                data-bonus={c.bonus}
+                data-value={c.value}
+                data-name={nameOf(c)}
+                data-full={fullOf(c)}
+                data-short={shortOf(c)}
+                data-x={c.lx - 60}
+                data-y={c.ly - 45}
+                data-w="120"
+                data-h="90"
+                data-bx={c.bx}
+                data-by={c.by}
+                tabindex="0"
+                role="button"
+                aria-label={`${nameOf(c)} · ${c.id} · Lv.${c.lv}`}
+              >
+                <title>{nameOf(c)} · {c.id} · Lv.{c.lv}{c.bonus ? ` · ${fullOf(c)} +${c.value}%` : ''}</title>
+              </polygon>
+            ))}
+          </g>
+          <g id="cm-badges" pointer-events="none"></g>
+          <g id="cm-labels" data-mode="full" pointer-events="none">
+            {CITIES.map((c) => (
+              <g class:list={['cm-label', c.tiny ? 'cm-tiny' : '']} data-id={c.id}>
+                <text class="cm-lv" x={c.lx} y={c.ly - 19}>Lv.{c.lv}</text>
+                {c.lv === 7 ? (
+                  <text class="cm-royal" x={c.lx} y={c.ly + 4}>👑 {S.royal}</text>
+                ) : (
+                  <g>
+                    <text class="cm-bl" x={c.lx} y={c.ly - 3}>{shortOf(c)}</text>
+                    <text class="cm-val" x={c.lx} y={c.ly + 15}>+{c.value}%</text>
+                  </g>
+                )}
+              </g>
+            ))}
+          </g>
+        </svg>
+      </div>
+      <div class="flex flex-wrap items-center justify-between gap-3 border-t border-white/[0.06] px-4 py-3">
+        <div class="flex flex-wrap items-center gap-2">
+          <span class="cm-cap">{S.legend}</span>
+          {levels.map((l) => (
+            <span class="inline-flex items-center gap-1.5 text-[11px] text-stone-400">
+              <span class="inline-block h-3 w-3 rounded-sm border border-black/40" style={`background:${LEVEL_COLORS[l]}`}></span>
+              Lv.{l}
+            </span>
+          ))}
+          <span class="inline-flex items-center gap-1.5 text-[11px] text-stone-400">
+            <span class="inline-block h-3 w-3 rounded-sm border border-black/40" style={`background:${LEVEL_COLORS[7]}`}></span>
+            {S.royal}
+          </span>
+        </div>
+        <span class="text-[11px] text-stone-500">{S.paintHint}</span>
+      </div>
+    </section>
+
+    <aside class="flex flex-col gap-4">
+      <!-- Alliances -->
+      <section class="cm-panel p-4">
+        <div class="mb-3 flex items-center justify-between">
+          <h2 class="text-sm font-bold uppercase tracking-widest text-stone-300">🛡️ {S.alliances}</h2>
+          <span id="cm-alliance-count" class="font-mono text-xs text-stone-500">0</span>
+        </div>
+        <div id="cm-alliance-list" class="space-y-1.5"></div>
+
+        <div class="mt-4 rounded-xl border border-white/[0.07] bg-black/20 p-3">
+          <input id="cm-new-name" class="cm-input w-full" type="text" maxlength="40" placeholder={S.namePlaceholder} />
+          <div class="mt-2.5 text-[10px] uppercase tracking-widest text-stone-500">🎨 {S.colorLabel}</div>
+          <div id="cm-colors" class="mt-1.5 flex flex-wrap gap-1.5">
+            {ALLIANCE_COLORS.map((col, i) => (
+              <button class="cm-swatch" data-color={col} style={`background:${col}`} aria-label={col} class:list={[i === 0 ? 'is-on' : '']}></button>
+            ))}
+          </div>
+          <div class="mt-2.5 text-[10px] uppercase tracking-widest text-stone-500">🛡️ {S.iconLabel}</div>
+          <div id="cm-icons" class="mt-1.5 flex flex-wrap gap-1">
+            {ALLIANCE_ICONS.map((ic, i) => (
+              <button class="cm-emoji" data-icon={ic} class:list={[i === 0 ? 'is-on' : '']}>{ic}</button>
+            ))}
+          </div>
+          <div class="mt-3 flex gap-2">
+            <button id="cm-save-alliance" class="cm-btn flex-1">{S.add}</button>
+            <button id="cm-cancel-edit" class="cm-btn-ghost hidden">✕</button>
+          </div>
+        </div>
+
+        <div class="mt-3 grid grid-cols-2 gap-2">
+          <button id="cm-share" class="cm-btn-ghost" title={S.shareHint}>🔗 {S.share}</button>
+          <button id="cm-clear" class="cm-btn-ghost">🧹 {S.clearAll}</button>
+          <button id="cm-export" class="cm-btn-ghost">⬇ {S.export}</button>
+          <button id="cm-import" class="cm-btn-ghost">⬆ {S.import}</button>
+          <input id="cm-file" type="file" accept="application/json,.json" class="hidden" />
+        </div>
+        <p class="mt-2 text-[11px] leading-snug text-stone-500">💾 {S.saved}</p>
+      </section>
+
+      <!-- City details -->
+      <section class="cm-panel p-4">
+        <h2 class="mb-3 text-sm font-bold uppercase tracking-widest text-stone-300">📍 {S.colCity}</h2>
+        <div id="cm-details" class="text-sm text-stone-400">{S.details}</div>
+      </section>
+    </aside>
+  </div>
+
+  <!-- ══ Bonus totals ═════════════════════════════════════════════════ -->
+  <section class="mt-6">
+    <h2 class="display mb-3 text-xl text-stone-100">📊 {S.bonusTotals}</h2>
+    <div id="cm-summary" class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"></div>
+  </section>
+
+  <!-- ══ City directory ══════════════════════════════════════════════ -->
+  <section class="mt-8">
+    <div class="mb-3 flex flex-wrap items-baseline justify-between gap-2">
+      <h2 class="display text-xl text-stone-100">📋 {S.cityList}</h2>
+      <span id="cm-table-count" class="font-mono text-xs text-stone-500">87</span>
+    </div>
+    <div class="cm-panel overflow-hidden">
+      <div class="cm-table-scroll">
+        <table class="w-full text-left text-sm">
+          <thead class="sticky top-0 z-10 bg-[#14140f] text-[10px] uppercase tracking-widest text-stone-500">
+            <tr>
+              <th class="px-3 py-2.5 font-semibold">#</th>
+              <th class="px-3 py-2.5 font-semibold">{S.colCity}</th>
+              <th class="px-3 py-2.5 font-semibold">{S.level}</th>
+              <th class="px-3 py-2.5 font-semibold">{S.colBonus}</th>
+              <th class="px-3 py-2.5 font-semibold">{S.colOwner}</th>
+            </tr>
+          </thead>
+          <tbody id="cm-table-body"></tbody>
+        </table>
+      </div>
+      <p id="cm-no-match" class="hidden px-4 py-6 text-center text-sm text-stone-500">{S.noMatch}</p>
+    </div>
+  </section>
+
+  <div id="cm-toast" class="cm-toast" role="status" aria-live="polite"></div>
+</div>
+
+<script>
+  (function () {
+    function init() {
+      if (window.__cmReady) return;
+      var D = window.__CM_DATA__;
+      var root = document.getElementById('cm-app');
+      if (!D || !root) return;
+      window.__cmReady = true;
+
+      var S = D.s, B = D.b, KEYS = D.keys, LCOL = D.colors, HP = D.hp, GAR = D.garrison;
+      var MW = D.mapW, MH = D.mapH, RATIO = MH / MW;
+      var KEY = 'lap_citymap_v1';
+
+      var svg = document.getElementById('cm-svg');
+      var polys = Array.prototype.slice.call(svg.querySelectorAll('.cm-poly'));
+      var byId = new Map(polys.map(function (p) { return [p.dataset.id, p]; }));
+      // 86 capturable cities + the Royal City territory.
+      var TOTAL = byId.size;
+      var badgeLayer = document.getElementById('cm-badges');
+      var labelLayer = document.getElementById('cm-labels');
+      var labels = Array.prototype.slice.call(labelLayer.querySelectorAll('.cm-label'));
+      var labelById = new Map(labels.map(function (g) { return [g.dataset.id, g]; }));
+
+      var state = { alliances: [], owners: {} };
+      var editingId = '';
+      var formColor = D.palette[0], formIcon = D.icons[0];
+      var paintId = '', paintMode = false, selectedCity = '', viewMode = 'levels';
+      var filters = { levels: new Set(), bonuses: new Set(), owner: '', q: '' };
+      var view = { x: 0, y: 0, w: MW, h: MH };
+      var suppressClick = false;
+
+      /* ---------- helpers ---------- */
+      function esc(s) {
+        return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+          return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+        });
+      }
+      function uid() { return 'a' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6); }
+      function alliance(id) { return state.alliances.find(function (a) { return a.id === id; }); }
+      function ownerOf(id) { return alliance(state.owners[id]); }
+      function bonusText(p) {
+        if (!p.dataset.bonus) return '—';
+        var b = B[p.dataset.bonus];
+        return (b ? b.full : p.dataset.bonus) + ' +' + p.dataset.value + '%';
+      }
+      function normalize(raw) {
+        var out = { alliances: [], owners: {} };
+        if (!raw || typeof raw !== 'object') return out;
+        var arr = Array.isArray(raw.alliances) ? raw.alliances : (Array.isArray(raw.a) ? raw.a : []);
+        out.alliances = arr.slice(0, 40).map(function (a, i) {
+          return {
+            id: String(a && a.id ? a.id : uid() + i),
+            name: String(a && a.name ? a.name : 'Alliance ' + (i + 1)).slice(0, 40),
+            color: /^#[0-9a-f]{6}$/i.test(a && a.color) ? a.color : D.palette[i % D.palette.length],
+            icon: String(a && a.icon ? a.icon : D.icons[i % D.icons.length]).slice(0, 4),
+          };
+        });
+        var ids = new Set(out.alliances.map(function (a) { return a.id; }));
+        var own = raw.owners && typeof raw.owners === 'object' ? raw.owners : (raw.o && typeof raw.o === 'object' ? raw.o : {});
+        Object.keys(own).forEach(function (cid) {
+          if (byId.has(cid) && ids.has(own[cid])) out.owners[cid] = own[cid];
+        });
+        return out;
+      }
+      function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
+      function toast(msg) {
+        var t = document.getElementById('cm-toast');
+        t.textContent = msg; t.classList.add('is-on');
+        clearTimeout(toast._t); toast._t = setTimeout(function () { t.classList.remove('is-on'); }, 2600);
+      }
+      function encode(obj) {
+        var bytes = new TextEncoder().encode(JSON.stringify(obj));
+        var bin = ''; bytes.forEach(function (b) { bin += String.fromCharCode(b); });
+        return btoa(bin).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+      }
+      function decode(str) {
+        var b = atob(str.replace(/-/g, '+').replace(/_/g, '/'));
+        var bytes = Uint8Array.from(b, function (c) { return c.charCodeAt(0); });
+        return JSON.parse(new TextDecoder().decode(bytes));
+      }
+
+      /* ---------- view / zoom ---------- */
+      function setView(v) {
+        view = v;
+        svg.setAttribute('viewBox', v.x + ' ' + v.y + ' ' + v.w + ' ' + v.h);
+      }
+      function zoom(f, cx, cy) {
+        var nw = Math.max(150, Math.min(MW * 1.15, view.w / f));
+        var nh = nw * RATIO;
+        var px = cx == null ? view.x + view.w / 2 : cx;
+        var py = cy == null ? view.y + view.h / 2 : cy;
+        var rx = (px - view.x) / view.w, ry = (py - view.y) / view.h;
+        setView({ x: px - rx * nw, y: py - ry * nh, w: nw, h: nh });
+      }
+      document.getElementById('cm-zoom-in').addEventListener('click', function () { zoom(1.25); });
+      document.getElementById('cm-zoom-out').addEventListener('click', function () { zoom(1 / 1.25); });
+      document.getElementById('cm-fit').addEventListener('click', function () { setView({ x: 0, y: 0, w: MW, h: MH }); });
+      svg.addEventListener('wheel', function (e) {
+        e.preventDefault();
+        var r = svg.getBoundingClientRect();
+        var cx = view.x + ((e.clientX - r.left) / r.width) * view.w;
+        var cy = view.y + ((e.clientY - r.top) / r.height) * view.h;
+        zoom(e.deltaY < 0 ? 1.16 : 1 / 1.16, cx, cy);
+      }, { passive: false });
+      var drag = null;
+      svg.addEventListener('pointerdown', function (e) {
+        if (e.button !== 0) return;
+        drag = { x: e.clientX, y: e.clientY, vx: view.x, vy: view.y, moved: false };
+      });
+      window.addEventListener('pointermove', function (e) {
+        if (!drag) return;
+        var dx = e.clientX - drag.x, dy = e.clientY - drag.y;
+        if (Math.abs(dx) + Math.abs(dy) > 4) drag.moved = true;
+        var r = svg.getBoundingClientRect();
+        setView({ x: drag.vx - (dx / r.width) * view.w, y: drag.vy - (dy / r.height) * view.h, w: view.w, h: view.h });
+      });
+      window.addEventListener('pointerup', function () {
+        if (!drag) return;
+        if (drag.moved) { suppressClick = true; setTimeout(function () { suppressClick = false; }, 0); }
+        drag = null;
+      });
+
+      /* ---------- filters ---------- */
+      function matches(p) {
+        var lv = +p.dataset.lv, own = state.owners[p.dataset.id] || '';
+        if (filters.levels.size && !filters.levels.has(lv)) return false;
+        if (filters.bonuses.size && !filters.bonuses.has(p.dataset.bonus)) return false;
+        if (filters.owner === '__free__' && own) return false;
+        if (filters.owner && filters.owner !== '__free__' && own !== filters.owner) return false;
+        if (filters.q) {
+          var hay = (p.dataset.name + ' ' + p.dataset.id + ' ' + p.dataset.full).toLowerCase();
+          if (hay.indexOf(filters.q) === -1) return false;
+        }
+        return true;
+      }
+      function paintFilters() {
+        polys.forEach(function (p) {
+          var ok = matches(p);
+          p.classList.toggle('cm-dim', !ok);
+          var g = labelById.get(p.dataset.id);
+          if (g) g.classList.toggle('cm-dim', !ok);
+        });
+      }
+
+      /* ---------- map visuals ---------- */
+      function paintMap() {
+        polys.forEach(function (p) {
+          var a = ownerOf(p.dataset.id), lv = +p.dataset.lv;
+          p.setAttribute('fill', viewMode === 'owners' ? (a ? a.color : '#252a26') : (LCOL[lv] || LCOL[7]));
+          if (a) { p.style.stroke = a.color; p.style.strokeWidth = '4'; }
+          else { p.style.stroke = ''; p.style.strokeWidth = ''; }
+        });
+        var html = '';
+        polys.forEach(function (p) {
+          var a = ownerOf(p.dataset.id);
+          if (!a) return;
+          html += '<g class="cm-badge"><circle cx="' + p.dataset.bx + '" cy="' + p.dataset.by +
+            '" r="13" fill="' + a.color + '" stroke="#08090a" stroke-width="2.5"/><text x="' +
+            p.dataset.bx + '" y="' + (Number(p.dataset.by) + 4.5) + '" text-anchor="middle" font-size="13">' +
+            esc(a.icon) + '</text></g>';
+        });
+        badgeLayer.innerHTML = html;
+        paintFilters();
+      }
+      function highlight() {
+        polys.forEach(function (p) { p.classList.toggle('cm-selected', p.dataset.id === selectedCity); });
+      }
+
+      /* ---------- alliances ---------- */
+      function countFor(id) {
+        return Object.keys(state.owners).filter(function (cid) { return state.owners[cid] === id; }).length;
+      }
+      function renderAlliances() {
+        var list = document.getElementById('cm-alliance-list');
+        if (!state.alliances.length) {
+          list.innerHTML = '<p class="rounded-lg border border-dashed border-white/10 px-3 py-4 text-center text-xs text-stone-500">' + esc(S.noAlliances) + '</p>';
+        } else {
+          list.innerHTML = state.alliances.map(function (a) {
+            return '<div class="cm-alliance' + (paintId === a.id ? ' is-active' : '') + '" data-id="' + esc(a.id) + '">' +
+              '<button class="cm-pick" data-id="' + esc(a.id) + '" title="' + esc(S.assignTo) + '">' +
+                '<span class="text-base leading-none">' + esc(a.icon) + '</span>' +
+                '<span class="h-3.5 w-3.5 shrink-0 rounded-sm border border-black/40" style="background:' + a.color + '"></span>' +
+                '<span class="min-w-0 flex-1 truncate text-left text-xs text-stone-200">' + esc(a.name) + '</span>' +
+                '<span class="font-mono text-[11px] text-stone-500">' + countFor(a.id) + '</span>' +
+              '</button>' +
+              '<button class="cm-rowbtn" data-act="edit" data-id="' + esc(a.id) + '" title="' + esc(S.save) + '">✎</button>' +
+              '<button class="cm-rowbtn cm-rowbtn-danger" data-act="del" data-id="' + esc(a.id) + '" title="' + esc(S.delete) + '">✕</button>' +
+            '</div>';
+          }).join('');
+        }
+        document.getElementById('cm-alliance-count').textContent = state.alliances.length;
+        document.getElementById('cm-stat-alliances').textContent = state.alliances.length;
+
+        var opts = '<option value="">— ' + esc(S.alliances) + ' —</option><option value="__free__">🧹 ' + esc(S.free) + '</option>' +
+          state.alliances.map(function (a) { return '<option value="' + esc(a.id) + '">' + esc(a.icon + ' ' + a.name) + '</option>'; }).join('');
+        var paint = document.getElementById('cm-paint');
+        paint.innerHTML = opts; paint.value = paintId;
+        var own = document.getElementById('cm-owner-filter');
+        var prev = filters.owner;
+        own.innerHTML = '<option value="">' + esc(S.all) + '</option><option value="__free__">' + esc(S.freeCities) + '</option>' +
+          state.alliances.map(function (a) { return '<option value="' + esc(a.id) + '">' + esc(a.icon + ' ' + a.name) + '</option>'; }).join('');
+        own.value = state.alliances.some(function (a) { return a.id === prev; }) || prev === '__free__' || prev === '' ? prev : '';
+        filters.owner = own.value;
+      }
+      function resetForm() {
+        editingId = '';
+        document.getElementById('cm-new-name').value = '';
+        document.getElementById('cm-save-alliance').textContent = S.add;
+        document.getElementById('cm-cancel-edit').classList.add('hidden');
+        // Pick the first unused colour/icon so newly added alliances are always
+        // visually distinguishable on the map (random picks could collide).
+        var usedColors = state.alliances.map(function (a) { return a.color; });
+        var usedIcons = state.alliances.map(function (a) { return a.icon; });
+        formColor = D.palette.find(function (c) { return usedColors.indexOf(c) < 0; }) || D.palette[state.alliances.length % D.palette.length];
+        formIcon = D.icons.find(function (i) { return usedIcons.indexOf(i) < 0; }) || D.icons[state.alliances.length % D.icons.length];
+        syncFormSwatches();
+      }
+      function syncFormSwatches() {
+        document.querySelectorAll('#cm-colors .cm-swatch').forEach(function (b) { b.classList.toggle('is-on', b.dataset.color === formColor); });
+        document.querySelectorAll('#cm-icons .cm-emoji').forEach(function (b) { b.classList.toggle('is-on', b.dataset.icon === formIcon); });
+      }
+      function saveAlliance() {
+        var name = document.getElementById('cm-new-name').value.trim().slice(0, 40);
+        if (!name) { document.getElementById('cm-new-name').focus(); return; }
+        if (editingId) {
+          var a = alliance(editingId);
+          if (a) { a.name = name; a.color = formColor; a.icon = formIcon; }
+        } else {
+          var id = uid();
+          state.alliances.push({ id: id, name: name, color: formColor, icon: formIcon });
+          paintId = id;
+          document.getElementById('cm-paint').value = id;
+          document.getElementById('cm-paint-mode').checked = true;
+          paintMode = true;
+        }
+        save(); resetForm(); renderAll();
+      }
+
+      /* ---------- details ---------- */
+      function renderDetails() {
+        var box = document.getElementById('cm-details');
+        var p = byId.get(selectedCity);
+        if (!p) { box.innerHTML = '<p class="text-xs text-stone-500">' + esc(S.details) + '</p>'; return; }
+        var a = ownerOf(selectedCity), lv = +p.dataset.lv;
+        var rows = [
+          '<div class="flex items-baseline justify-between gap-2"><span class="font-semibold text-stone-100">' + esc(p.dataset.name) + '</span><span class="font-mono text-[11px] text-stone-500">' + esc(p.dataset.id) + '</span></div>',
+          '<div class="mt-2 flex flex-wrap gap-1.5 text-[11px]">' +
+            '<span class="rounded-md border border-white/10 px-2 py-1" style="color:' + (LCOL[lv] || LCOL[7]) + '">' + S.level + ' ' + lv + '</span>' +
+            (p.dataset.bonus ? '<span class="rounded-md border border-toxic-400/25 bg-toxic-400/10 px-2 py-1 text-toxic-300">' + esc(bonusText(p)) + '</span>' : '<span class="rounded-md border border-white/10 px-2 py-1">' + esc(S.royal) + '</span>') +
+          '</div>',
+          '<div class="mt-2 grid grid-cols-2 gap-2 text-[11px] text-stone-400">' +
+            '<div>' + S.hp + ': <strong class="font-mono text-stone-200">' + (HP[lv] ? Number(HP[lv]).toLocaleString() : '—') + '</strong></div>' +
+            '<div>' + S.garrison + ': <strong class="font-mono text-stone-200">' + (GAR[lv] || '—') + '</strong></div>' +
+          '</div>',
+          '<label class="mt-3 block text-[10px] uppercase tracking-widest text-stone-500">' + esc(S.assignTo) + '</label>',
+          '<select id="cm-detail-owner" class="cm-select mt-1 w-full">' +
+            '<option value="">' + esc(S.free) + '</option>' +
+            state.alliances.map(function (x) { return '<option value="' + esc(x.id) + '"' + (a && a.id === x.id ? ' selected' : '') + '>' + esc(x.icon + ' ' + x.name) + '</option>'; }).join('') +
+          '</select>'
+        ];
+        box.innerHTML = rows.join('');
+        var sel = document.getElementById('cm-detail-owner');
+        sel.addEventListener('change', function () {
+          if (sel.value) state.owners[selectedCity] = sel.value;
+          else delete state.owners[selectedCity];
+          save(); renderAll();
+        });
+      }
+
+      /* ---------- summary ---------- */
+      function renderSummary() {
+        var box = document.getElementById('cm-summary');
+        var stat = {};
+        state.alliances.forEach(function (a) { stat[a.id] = { count: 0, byLevel: {}, byBonus: {} }; });
+        var held = 0;
+        polys.forEach(function (p) {
+          var id = state.owners[p.dataset.id];
+          if (!id || !stat[id]) return;
+          var st = stat[id]; st.count++; held++;
+          st.byLevel[p.dataset.lv] = (st.byLevel[p.dataset.lv] || 0) + 1;
+          if (p.dataset.bonus) st.byBonus[p.dataset.bonus] = (st.byBonus[p.dataset.bonus] || 0) + Number(p.dataset.value);
+        });
+        document.getElementById('cm-stat-held').textContent = held;
+        document.getElementById('cm-stat-free').textContent = TOTAL - held;
+        document.getElementById('cm-stat-total').textContent = TOTAL;
+
+        function bonusRows(st) {
+          var rows = KEYS.filter(function (k) { return st.byBonus[k]; }).map(function (k) {
+            return '<div class="flex items-center justify-between gap-2 border-b border-white/[0.04] py-1 last:border-0">' +
+              '<span class="text-[11px] text-stone-400">' + esc(B[k] ? B[k].full : k) + '</span>' +
+              '<span class="font-mono text-xs font-bold text-toxic-300">+' + st.byBonus[k] + '%</span></div>';
+          }).join('');
+          return rows || '<p class="py-2 text-[11px] text-stone-600">—</p>';
+        }
+        function levelChips(st) {
+          return Object.keys(st.byLevel).sort(function (a, b) { return a - b; }).map(function (l) {
+            return '<span class="inline-flex items-center gap-1 rounded border border-white/[0.07] px-1.5 py-0.5 text-[10px] text-stone-400">' +
+              '<span class="inline-block h-2 w-2 rounded-sm" style="background:' + (LCOL[l] || LCOL[7]) + '"></span>L' + l + ' ×' + st.byLevel[l] + '</span>';
+          }).join('');
+        }
+        var cards = state.alliances.map(function (a) {
+          var st = stat[a.id];
+          return '<article class="cm-card" style="border-top:3px solid ' + a.color + '">' +
+            '<div class="flex items-center gap-2"><span class="text-lg">' + esc(a.icon) + '</span>' +
+            '<strong class="min-w-0 flex-1 truncate text-sm text-stone-100">' + esc(a.name) + '</strong>' +
+            '<span class="font-mono text-xs text-toxic-300">' + st.count + '</span></div>' +
+            '<div class="mt-2 text-[10px] uppercase tracking-widest text-stone-500">' + esc(S.held + ' · ' + S.byLevel) + '</div>' +
+            '<div class="mt-1.5 flex flex-wrap gap-1">' + levelChips(st) + '</div>' +
+            '<div class="mt-3 text-[10px] uppercase tracking-widest text-stone-500">' + esc(S.bonus) + '</div>' +
+            '<div class="mt-1">' + bonusRows(st) + '</div></article>';
+        });
+        var total = { byBonus: {} };
+        polys.forEach(function (p) {
+          if (!state.owners[p.dataset.id] || !p.dataset.bonus) return;
+          total.byBonus[p.dataset.bonus] = (total.byBonus[p.dataset.bonus] || 0) + Number(p.dataset.value);
+        });
+        cards.push('<article class="cm-card border-t-[3px] border-t-plague-400">' +
+          '<div class="flex items-center gap-2"><span class="text-lg">📊</span><strong class="flex-1 text-sm text-stone-100">' + esc(S.total) + '</strong>' +
+          '<span class="font-mono text-xs text-plague-300">' + held + '</span></div>' +
+          '<div class="mt-2 text-[10px] uppercase tracking-widest text-stone-500">' + esc(S.heldCities + ' · ' + S.freeCities) + '</div>' +
+          '<div class="mt-1 text-xs text-stone-400">' + held + ' / ' + (TOTAL - held) + '</div>' +
+          '<div class="mt-3 text-[10px] uppercase tracking-widest text-stone-500">' + esc(S.bonus) + '</div>' +
+          '<div class="mt-1">' + bonusRows(total) + '</div></article>');
+        box.innerHTML = cards.join('');
+      }
+
+      /* ---------- table ---------- */
+      function renderTable() {
+        var body = document.getElementById('cm-table-body');
+        var rows = polys.filter(matches).map(function (p) {
+          var a = ownerOf(p.dataset.id), lv = +p.dataset.lv;
+          return '<tr data-id="' + esc(p.dataset.id) + '" class="cm-row' + (p.dataset.id === selectedCity ? ' is-selected' : '') + '">' +
+            '<td class="px-3 py-2 font-mono text-[11px] text-stone-600">' + esc(p.dataset.id) + '</td>' +
+            '<td class="px-3 py-2"><span class="text-stone-200">' + esc(p.dataset.name) + '</span></td>' +
+            '<td class="px-3 py-2"><span class="inline-flex items-center gap-1.5 whitespace-nowrap text-xs text-stone-300">' +
+              '<span class="inline-block h-2.5 w-2.5 rounded-sm" style="background:' + (LCOL[lv] || LCOL[7]) + '"></span>Lv.' + lv + '</span></td>' +
+            '<td class="px-3 py-2 text-xs text-stone-400" title="' + esc(bonusText(p)) + '">' +
+              (p.dataset.bonus ? esc(p.dataset.short) + ' <span class="font-mono text-toxic-300">+' + p.dataset.value + '%</span>' : '—') + '</td>' +
+            '<td class="px-3 py-2 text-xs">' + (a
+              ? '<span class="inline-flex items-center gap-1.5"><span class="inline-block h-2.5 w-2.5 rounded-full" style="background:' + a.color + '"></span><span class="text-stone-300">' + esc(a.icon + ' ' + a.name) + '</span></span>'
+              : '<span class="text-stone-600">' + esc(S.free) + '</span>') + '</td></tr>';
+        });
+        body.innerHTML = rows.join('');
+        document.getElementById('cm-table-count').textContent = rows.length + ' / ' + TOTAL;
+        document.getElementById('cm-no-match').classList.toggle('hidden', rows.length > 0);
+      }
+
+      function renderAll() {
+        renderAlliances(); paintMap(); highlight(); renderSummary(); renderTable(); renderDetails();
+      }
+
+      /* ---------- events ---------- */
+      function cityClick(id) {
+        if (suppressClick) return;
+        if (paintMode && paintId) {
+          if (paintId === '__free__') delete state.owners[id];
+          else if (state.owners[id] === paintId) delete state.owners[id];
+          else state.owners[id] = paintId;
+          save(); renderAlliances(); paintMap(); highlight(); renderSummary(); renderTable(); renderDetails();
+          return;
+        }
+        selectedCity = selectedCity === id ? '' : id;
+        highlight(); renderDetails(); renderTable();
+      }
+      polys.forEach(function (p) {
+        p.addEventListener('click', function () { cityClick(p.dataset.id); });
+        p.addEventListener('keydown', function (e) {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); cityClick(p.dataset.id); }
+        });
+      });
+
+      document.getElementById('cm-table-body').addEventListener('click', function (e) {
+        var tr = e.target.closest('tr[data-id]');
+        if (!tr) return;
+        var id = tr.dataset.id, p = byId.get(id);
+        selectedCity = id; highlight(); renderDetails(); renderTable();
+        var x = Number(p.dataset.x), y = Number(p.dataset.y), w = Number(p.dataset.w), h = Number(p.dataset.h);
+        var nw = Math.max(w + 100, (h + 100) / RATIO), nh = nw * RATIO;
+        setView({ x: x + w / 2 - nw / 2, y: y + h / 2 - nh / 2, w: nw, h: nh });
+        document.getElementById('cm-map-card').scrollIntoView({ behavior: 'smooth', block: 'center' });
+      });
+
+      document.getElementById('cm-levels').addEventListener('click', function (e) {
+        var b = e.target.closest('button[data-level]'); if (!b) return;
+        var v = b.dataset.level;
+        if (v === 'all') filters.levels.clear();
+        else { var n = Number(v); if (filters.levels.has(n)) filters.levels.delete(n); else filters.levels.add(n); }
+        document.querySelectorAll('#cm-levels .cm-chip').forEach(function (c) {
+          c.classList.toggle('is-on', c.dataset.level === 'all' ? filters.levels.size === 0 : filters.levels.has(Number(c.dataset.level)));
+        });
+        paintFilters(); renderTable();
+      });
+      document.getElementById('cm-bonuses').addEventListener('click', function (e) {
+        var b = e.target.closest('button[data-bonus]'); if (!b) return;
+        var k = b.dataset.bonus;
+        if (filters.bonuses.has(k)) filters.bonuses.delete(k); else filters.bonuses.add(k);
+        b.classList.toggle('is-on', filters.bonuses.has(k));
+        paintFilters(); renderTable();
+      });
+      document.getElementById('cm-owner-filter').addEventListener('change', function (e) {
+        filters.owner = e.target.value; paintFilters(); renderTable();
+      });
+      document.getElementById('cm-search').addEventListener('input', function (e) {
+        filters.q = e.target.value.trim().toLowerCase(); paintFilters(); renderTable();
+      });
+      document.getElementById('cm-view').addEventListener('click', function (e) {
+        var b = e.target.closest('button[data-view]'); if (!b) return;
+        viewMode = b.dataset.view;
+        document.querySelectorAll('#cm-view button').forEach(function (c) { c.classList.toggle('is-on', c === b); });
+        paintMap();
+      });
+      document.getElementById('cm-labelmode').addEventListener('click', function (e) {
+        var b = e.target.closest('button[data-label]'); if (!b) return;
+        labelLayer.dataset.mode = b.dataset.label;
+        document.querySelectorAll('#cm-labelmode button').forEach(function (c) { c.classList.toggle('is-on', c === b); });
+      });
+      document.getElementById('cm-paint-mode').addEventListener('change', function (e) { paintMode = e.target.checked; });
+      document.getElementById('cm-paint').addEventListener('change', function (e) {
+        paintId = e.target.value;
+        if (paintId) { paintMode = true; document.getElementById('cm-paint-mode').checked = true; }
+        renderAlliances();
+      });
+      document.getElementById('cm-alliance-list').addEventListener('click', function (e) {
+        var btn = e.target.closest('button'); if (!btn) return;
+        var id = btn.dataset.id, act = btn.dataset.act;
+        if (act === 'del') {
+          state.alliances = state.alliances.filter(function (a) { return a.id !== id; });
+          Object.keys(state.owners).forEach(function (cid) { if (state.owners[cid] === id) delete state.owners[cid]; });
+          if (paintId === id) paintId = '';
+          if (editingId === id) resetForm();
+          save(); renderAll(); return;
+        }
+        if (act === 'edit') {
+          var a = alliance(id); if (!a) return;
+          editingId = id;
+          document.getElementById('cm-new-name').value = a.name;
+          formColor = a.color; formIcon = a.icon; syncFormSwatches();
+          document.getElementById('cm-save-alliance').textContent = S.save;
+          document.getElementById('cm-cancel-edit').classList.remove('hidden');
+          document.getElementById('cm-new-name').focus(); return;
+        }
+        paintId = paintId === id ? '' : id;
+        if (paintId) { paintMode = true; document.getElementById('cm-paint-mode').checked = true; }
+        document.getElementById('cm-paint').value = paintId;
+        renderAlliances();
+      });
+      document.getElementById('cm-save-alliance').addEventListener('click', saveAlliance);
+      document.getElementById('cm-new-name').addEventListener('keydown', function (e) { if (e.key === 'Enter') saveAlliance(); });
+      document.getElementById('cm-cancel-edit').addEventListener('click', resetForm);
+      document.getElementById('cm-colors').addEventListener('click', function (e) {
+        var b = e.target.closest('.cm-swatch'); if (!b) return;
+        formColor = b.dataset.color; syncFormSwatches();
+      });
+      document.getElementById('cm-icons').addEventListener('click', function (e) {
+        var b = e.target.closest('.cm-emoji'); if (!b) return;
+        formIcon = b.dataset.icon; syncFormSwatches();
+      });
+      document.getElementById('cm-clear').addEventListener('click', function () {
+        state.owners = {}; save(); renderAll();
+      });
+      document.getElementById('cm-share').addEventListener('click', function () {
+        var hash = '#cm=' + encode({ v: 1, a: state.alliances, o: state.owners });
+        var url = location.origin + location.pathname + hash;
+        history.replaceState(null, '', hash);
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(url).then(function () { toast(S.copyOk + ' · ' + S.shareHint); },
+            function () { toast(S.copyOk); });
+        } else { toast(S.copyOk); }
+      });
+      document.getElementById('cm-export').addEventListener('click', function () {
+        var blob = new Blob([JSON.stringify({ v: 1, alliances: state.alliances, owners: state.owners }, null, 2)], { type: 'application/json' });
+        var a = document.createElement('a');
+        a.href = URL.createObjectURL(blob); a.download = 'last-asylum-city-map-' + D.lang + '.json';
+        document.body.appendChild(a); a.click(); a.remove();
+        setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
+      });
+      document.getElementById('cm-import').addEventListener('click', function () { document.getElementById('cm-file').click(); });
+      document.getElementById('cm-file').addEventListener('change', function (e) {
+        var f = e.target.files && e.target.files[0]; if (!f) return;
+        f.text().then(function (txt) {
+          state = normalize(JSON.parse(txt)); save(); renderAll(); toast(S.importOk);
+        }).catch(function () { toast('JSON error'); });
+        e.target.value = '';
+      });
+
+      /* ---------- boot ---------- */
+      try {
+        var raw = localStorage.getItem(KEY);
+        if (raw) state = normalize(JSON.parse(raw));
+      } catch (e) {}
+      var m = location.hash.match(/#cm=([A-Za-z0-9\-_]+)/);
+      if (m) {
+        try { state = normalize(decode(m[1])); save(); } catch (e) {}
+      }
+      resetForm(); renderAll();
+    }
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+    else init();
+    document.addEventListener('astro:page-load', init);
+  })();
+</script>
+
+<style is:global>
+  #cm-app .cm-panel {
+    border: 1px solid rgba(255, 255, 255, 0.075);
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(24, 24, 19, 0.92), rgba(12, 12, 10, 0.94));
+    box-shadow: 0 18px 45px -30px rgba(0, 0, 0, 0.9);
+  }
+  #cm-app .cm-cap {
+    font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase;
+    color: #a8a29e; white-space: nowrap; font-weight: 600;
+  }
+  #cm-app .cm-chip,
+  #cm-app .cm-iconbtn,
+  #cm-app .cm-btn-ghost {
+    display: inline-flex; align-items: center; justify-content: center; gap: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.09); border-radius: 8px;
+    background: rgba(255, 255, 255, 0.035); color: #d6d3d1;
+    font-size: 11px; line-height: 1.1; padding: 6px 9px; cursor: pointer;
+    transition: background .15s, color .15s, border-color .15s, transform .15s;
+  }
+  #cm-app .cm-chip:hover, #cm-app .cm-iconbtn:hover, #cm-app .cm-btn-ghost:hover {
+    background: rgba(255, 255, 255, 0.1); color: #fff;
+  }
+  #cm-app .cm-chip.is-on {
+    background: #b4ff39; border-color: #b4ff39; color: #10130a; font-weight: 700;
+  }
+  #cm-app .cm-iconbtn { min-width: 34px; height: 32px; font-size: 16px; padding: 0 8px; }
+  #cm-app .cm-btn {
+    border: 1px solid rgba(180, 255, 57, 0.45); border-radius: 8px;
+    background: linear-gradient(180deg, #b4ff39, #84cc16); color: #10130a;
+    font-size: 12px; font-weight: 800; padding: 9px 12px; cursor: pointer;
+    transition: filter .15s;
+  }
+  #cm-app .cm-btn:hover { filter: brightness(1.12); }
+  #cm-app .cm-btn-ghost { justify-content: flex-start; }
+  #cm-app .cm-seg { display: inline-flex; border: 1px solid rgba(255,255,255,.09); border-radius: 9px; overflow: hidden; }
+  #cm-app .cm-seg button {
+    border: 0; border-right: 1px solid rgba(255,255,255,.07);
+    background: rgba(255,255,255,.03); color: #a8a29e;
+    font-size: 11px; padding: 6px 10px; cursor: pointer; white-space: nowrap;
+  }
+  #cm-app .cm-seg button:last-child { border-right: 0; }
+  #cm-app .cm-seg button.is-on { background: #b4ff39; color: #10130a; font-weight: 800; }
+  #cm-app .cm-input, #cm-app .cm-select {
+    border: 1px solid rgba(255,255,255,.1); border-radius: 8px;
+    background: rgba(8,8,7,.75); color: #e7e5e4;
+    font-size: 12px; padding: 7px 10px; outline: none; max-width: 220px;
+  }
+  #cm-app .cm-select { cursor: pointer; }
+  #cm-app .cm-input:focus, #cm-app .cm-select:focus { border-color: #b4ff39; }
+  #cm-app .cm-input::placeholder { color: #78716c; }
+
+  #cm-app .cm-map-wrap {
+    background: radial-gradient(circle at 50% 45%, #1b211a 0%, #0b0d0a 78%);
+    padding: 8px; overflow: hidden;
+  }
+  #cm-svg { width: 100%; height: auto; display: block; cursor: grab; touch-action: none; user-select: none; }
+  #cm-svg:active { cursor: grabbing; }
+  #cm-app .cm-poly {
+    stroke: #0b0e0a; stroke-width: 1.4; stroke-linejoin: round;
+    cursor: pointer; transition: opacity .18s, fill .18s, stroke-width .18s;
+    outline: none;
+  }
+  #cm-app .cm-poly:hover { filter: brightness(1.22); }
+  #cm-app .cm-poly:focus-visible { stroke: #fff; stroke-width: 4; }
+  #cm-app .cm-poly.cm-dim { opacity: .1; pointer-events: none; }
+  #cm-app .cm-poly.cm-selected { stroke: #fff !important; stroke-width: 5 !important; stroke-dasharray: 9 5; }
+  #cm-app .cm-label { transition: opacity .18s; direction: ltr; unicode-bidi: plaintext; }
+  #cm-app .cm-label.cm-dim { opacity: .08; }
+  #cm-app .cm-label text {
+    text-anchor: middle; font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+    fill: #fff; stroke: rgba(10, 14, 9, .78); stroke-width: 2.6px;
+    paint-order: stroke fill; font-weight: 700; pointer-events: none;
+  }
+  #cm-app .cm-lv { font-size: 10.5px; opacity: .92; letter-spacing: .02em; }
+  #cm-app .cm-bl { font-size: 11.5px; }
+  #cm-app .cm-val { font-size: 13px; fill: #fff !important; }
+  #cm-app .cm-royal { font-size: 13px; }
+  #cm-app .cm-label.cm-tiny .cm-lv { font-size: 9px; }
+  #cm-app .cm-label.cm-tiny .cm-bl { font-size: 9.5px; }
+  #cm-app .cm-label.cm-tiny .cm-val { font-size: 11px; }
+  #cm-labels[data-mode="compact"] .cm-lv { display: none; }
+  #cm-labels[data-mode="off"] { display: none; }
+  #cm-app .cm-badge text { font-family: system-ui, sans-serif; }
+  #cm-app .cm-badge circle { filter: drop-shadow(0 2px 3px rgba(0,0,0,.7)); }
+
+  #cm-app .cm-alliance {
+    display: flex; align-items: stretch; gap: 2px;
+    border: 1px solid rgba(255,255,255,.07); border-radius: 9px;
+    background: rgba(255,255,255,.025); overflow: hidden;
+  }
+  #cm-app .cm-alliance.is-active { border-color: #b4ff39; background: rgba(180,255,57,.08); }
+  #cm-app .cm-pick {
+    display: flex; align-items: center; gap: 7px; flex: 1; min-width: 0;
+    border: 0; background: transparent; padding: 7px 9px; cursor: pointer;
+  }
+  #cm-app .cm-rowbtn {
+    border: 0; border-left: 1px solid rgba(255,255,255,.06); background: transparent;
+    color: #78716c; width: 30px; cursor: pointer; font-size: 12px;
+  }
+  #cm-app .cm-rowbtn:hover { color: #fff; background: rgba(255,255,255,.08); }
+  #cm-app .cm-rowbtn-danger:hover { color: #fb7185; }
+  #cm-app .cm-swatch {
+    width: 20px; height: 20px; border-radius: 5px; border: 2px solid transparent; cursor: pointer;
+  }
+  #cm-app .cm-swatch.is-on { border-color: #fff; transform: scale(1.12); }
+  #cm-app .cm-emoji {
+    width: 26px; height: 26px; border-radius: 6px; border: 1px solid transparent;
+    background: rgba(255,255,255,.04); font-size: 14px; cursor: pointer; line-height: 1;
+  }
+  #cm-app .cm-emoji.is-on { border-color: #b4ff39; background: rgba(180,255,57,.12); }
+
+  #cm-app .cm-card {
+    border: 1px solid rgba(255,255,255,.075); border-radius: 14px;
+    background: linear-gradient(180deg, rgba(26,26,21,.92), rgba(12,12,10,.94));
+    padding: 14px;
+  }
+  #cm-app .cm-table-scroll { max-height: 480px; overflow: auto; }
+  #cm-app .cm-row { border-top: 1px solid rgba(255,255,255,.045); cursor: pointer; transition: background .15s; }
+  #cm-app .cm-row:hover { background: rgba(180,255,57,.055); }
+  #cm-app .cm-row.is-selected { background: rgba(180,255,57,.1); }
+  #cm-app .cm-toast {
+    position: fixed; left: 50%; bottom: 28px; transform: translate(-50%, 18px);
+    z-index: 80; max-width: min(560px, 92vw); padding: 11px 18px;
+    border: 1px solid rgba(180,255,57,.4); border-radius: 12px;
+    background: #14180e; color: #e7e5e4; font-size: 12px; line-height: 1.5;
+    box-shadow: 0 18px 45px rgba(0,0,0,.6); opacity: 0; pointer-events: none;
+    transition: opacity .2s, transform .2s;
+  }
+  #cm-app .cm-toast.is-on { opacity: 1; transform: translate(-50%, 0); }
+  @media (max-width: 640px) {
+    #cm-app .cm-label .cm-bl { font-size: 9px; }
+    #cm-app .cm-label .cm-lv { font-size: 8px; }
+  }
+</style>

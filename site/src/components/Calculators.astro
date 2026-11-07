@@ -655,7 +655,7 @@ const L = (i18n as any)[lang]?.[calcKey] ?? (i18n as any).en[calcKey];
       const recalcAd = () => {
         let sum = 0;
         inputs.forEach((i) => {
-          sum += (parseFloat((i as HTMLInputElement).value) || 0) * parseFloat((i as HTMLInputElement).dataset.mult || '0');
+          sum += (parseFloat(i.value) || 0) * parseFloat(i.dataset.mult || '0');
         });
         adTotal.textContent = sum.toLocaleString(numLocale);
       };
@@ -664,35 +664,35 @@ const L = (i18n as any)[lang]?.[calcKey] ?? (i18n as any).en[calcKey];
     }
 
     // Claire shards
-    const h60 = document.querySelector('.js-claire-h60') as HTMLInputElement | null;
+    const h60 = document.querySelector('.js-claire-h60');
     if (h60) {
       const b1 = document.querySelector('.js-claire-b1');
       const b2 = document.querySelector('.js-claire-b2');
       const b3 = document.querySelector('.js-claire-b3');
       const recalcClaire = () => {
-        const v = parseInt(h60!.value, 10) || 0;
+        const v = parseInt(h60.value, 10) || 0;
         const capped = Math.min(Math.max(v, 0), 1600);
         if (b1) b1.textContent = String(Math.min(capped, 600));
         if (b2) b2.textContent = String(Math.min(capped, 1000));
         if (b3) b3.textContent = String(capped);
       };
-      h60!.addEventListener('input', recalcClaire);
+      h60.addEventListener('input', recalcClaire);
       recalcClaire();
     }
 
     // Cynthia wheel
-    const spins = document.querySelector('.js-cynthia-spins') as HTMLInputElement | null;
+    const spins = document.querySelector('.js-cynthia-spins');
     if (spins) {
       const n = document.querySelector('.js-cynthia-n');
       const cost = document.querySelector('.js-cynthia-cost');
       const shards = document.querySelector('.js-cynthia-shards');
       const recalcCy = () => {
-        const k = parseInt(spins!.value, 10) || 1;
+        const k = parseInt(spins.value, 10) || 1;
         if (n) n.textContent = String(k);
         if (cost) cost.textContent = (4500 * k).toLocaleString(numLocale);
         if (shards) shards.textContent = `~${50 * k}`;
       };
-      spins!.addEventListener('input', recalcCy);
+      spins.addEventListener('input', recalcCy);
       recalcCy();
     }
   }

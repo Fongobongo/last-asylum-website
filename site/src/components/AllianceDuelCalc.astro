@@ -741,7 +741,7 @@ const STR: Record<string, Record<string, string>> = {
       if (!activeForm) return;
 
       let total = 0;
-      activeForm.querySelectorAll<HTMLInputElement>('.ad-input').forEach((inp) => {
+      activeForm.querySelectorAll('.ad-input').forEach((inp) => {
         const factor = parseInt(inp.dataset.factor || '0', 10);
         const val = parseInt(inp.value || '0', 10);
         if (!isNaN(val) && val > 0) {
@@ -780,7 +780,7 @@ const STR: Record<string, Record<string, string>> = {
     };
 
     // Tab switching
-    root.querySelectorAll<HTMLButtonElement>('.ad-tab').forEach((tab) => {
+    root.querySelectorAll('.ad-tab').forEach((tab) => {
       tab.addEventListener('click', () => {
         root.querySelectorAll('.ad-tab').forEach((t) => {
           t.classList.remove('active', 'border-toxic-400', 'bg-toxic-500/20', 'text-toxic-300');
@@ -799,7 +799,7 @@ const STR: Record<string, Record<string, string>> = {
     });
 
     // Inputs listener
-    root.querySelectorAll<HTMLInputElement>('.ad-input').forEach((inp) => {
+    root.querySelectorAll('.ad-input').forEach((inp) => {
       inp.addEventListener('input', updatePoints);
     });
 

@@ -1,0 +1,13 @@
+---
+import Base from '../../layouts/Base.astro';
+import CityMap from '../../components/CityMap.astro';
+import { UI } from '../../data/cityMap';
+import type { Lang } from '../../i18n/utils';
+
+const lang: Lang = 'zh';
+const M = UI[lang];
+---
+
+<Base lang={lang} path="/zh/city-map/" title={M.metaTitle} description={M.metaDesc}>
+  <CityMap lang={lang} />
+</Base>

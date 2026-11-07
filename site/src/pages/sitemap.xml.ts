@@ -44,6 +44,7 @@ const pages = [
   'alliance/',
   'might/',
   'guides/',
+  'city-map/',
 ];
 
 // hero codex dynamic routes

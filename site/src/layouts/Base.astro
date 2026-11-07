@@ -45,6 +45,7 @@ const OG_BY_SECTION: Record<string, string> = {
   calendar: `/infographics/royal-scramble-${lang}.webp`,
   'tier-list': '/hero-art/arthur.webp',
   events: `/infographics/duel-day-guide-${lang}.webp`,
+  'city-map': '/img/city-map-original.jpg',
 };
 const section = cleanPath.split('/').filter(Boolean)[0];
 const ogImage = Astro.props.ogImage ?? (section && OG_BY_SECTION[section]) ?? `${site}/og-cover.png`;
