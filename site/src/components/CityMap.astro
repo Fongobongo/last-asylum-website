@@ -1,7 +1,8 @@
 ---
 import {
   CITIES, MAP_W, MAP_H, LEVEL_COLORS, LEVEL_HP, LEVEL_GARRISON,
-  BONUS_KEYS, BONUS_LABELS, GENERIC_NAMES, NAMED_CITIES, UI,
+  BONUS_KEYS, BONUS_LABELS, BONUS_ICONS, BONUS_HUES,
+  GENERIC_NAMES, NAMED_CITIES, UI,
   ALLIANCE_COLORS, ALLIANCE_ICONS,
   type BonusKey,
 } from '../data/cityMap';
@@ -14,6 +15,7 @@ const S = UI[lang] ?? UI.en;
 const B = BONUS_LABELS[lang] ?? BONUS_LABELS.en;
 const G = GENERIC_NAMES[lang] ?? GENERIC_NAMES.en;
 const levels = [1, 2, 3, 4, 5, 6];
+const STAGES = 7;
 
 const nameOf = (c: (typeof CITIES)[number]): string =>
   c.name
@@ -24,10 +26,19 @@ const shortOf = (c: (typeof CITIES)[number]): string =>
 const fullOf = (c: (typeof CITIES)[number]): string =>
   c.bonus ? B[c.bonus as BonusKey].full : '';
 
+// Bonus magnitude -> colour. +5% is a muted shade, +20% is vivid; saturation
+// carries the strength so the pictogram itself encodes the bonus size.
+const ramp = (v: number) => Math.max(0, Math.min(1, (v - 5) / 15));
+const fillFor = (k: BonusKey, v: number) =>
+  `hsl(${BONUS_HUES[k]} ${Math.round(34 + 56 * ramp(v))}% ${Math.round(24 + 12 * ramp(v))}%)`;
+const inkFor = (k: BonusKey, v: number) =>
+  `hsl(${BONUS_HUES[k]} ${Math.round(50 + 45 * ramp(v))}% ${Math.round(62 + 14 * ramp(v))}%)`;
+
 const payload = {
   s: S, b: B, keys: BONUS_KEYS, colors: LEVEL_COLORS,
   hp: LEVEL_HP, garrison: LEVEL_GARRISON,
   palette: ALLIANCE_COLORS, icons: ALLIANCE_ICONS,
+  bicons: BONUS_ICONS, bhues: BONUS_HUES,
   mapW: MAP_W, mapH: MAP_H, lang,
 };
 ---
@@ -57,8 +68,101 @@ const payload = {
     <p class="mt-4 text-xs leading-relaxed text-stone-500">{S.sourceNote} <a href="/img/city-map-original.jpg" target="_blank" rel="noopener noreferrer" class="text-plague-300 underline decoration-dotted hover:text-plague-200">{S.original} ↗</a></p>
   </header>
 
+  <!-- ══ Maps: library, sharing, access ══════════════════════════════ -->
+  <section class="cm-panel mb-4 p-4">
+    <div class="cm-stage-slot" data-slot="maps"></div>
+
+    <div class="mt-2.5 flex flex-wrap items-end gap-2">
+      <label class="cm-field w-[230px]">
+        <span class="cm-cap">{S.maps}</span>
+        <select id="cm-map-select" class="cm-select w-full"></select>
+      </label>
+      <button id="cm-new-map" class="cm-btn-ghost">＋ {S.newMap}</button>
+      <button id="cm-save-online" class="cm-btn">💾 {S.saveOnline}</button>
+      <button id="cm-fork" class="cm-btn-ghost" title={S.forkHint}>⑂ {S.forkMap}</button>
+      <button id="cm-copy-link" class="cm-btn-ghost" title={S.shareHint}>🔗 {S.copyLink}</button>
+      <button id="cm-delete-map" class="cm-btn-ghost cm-danger">🗑 {S.deleteMap}</button>
+      <span id="cm-save-status" class="ml-auto text-[11px] text-stone-500"></span>
+    </div>
+
+    <div class="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+      <label class="cm-field">
+        <span class="cm-cap">{S.mapName}</span>
+        <input id="cm-map-name" class="cm-input w-full" type="text" maxlength="80" placeholder={S.namePlaceholder} autocomplete="off" />
+      </label>
+      <label class="cm-field">
+        <span class="cm-cap">{S.server}</span>
+        <input id="cm-map-server" class="cm-input w-full" type="text" maxlength="40" placeholder="S1 · EU-3" autocomplete="off" />
+      </label>
+      <label class="cm-field">
+        <span class="cm-cap">{S.readMode}</span>
+        <select id="cm-read-mode" class="cm-select w-full">
+          <option value="public">{S.accessPublic}</option>
+          <option value="password">{S.password}</option>
+          <option value="owner">{S.accessNone}</option>
+        </select>
+      </label>
+      <label class="cm-field">
+        <span class="cm-cap">{S.writeMode}</span>
+        <select id="cm-write-mode" class="cm-select w-full">
+          <option value="open">{S.accessPublic}</option>
+          <option value="password">{S.password}</option>
+          <option value="owner">{S.accessNone}</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="mt-3 grid gap-3 sm:grid-cols-2">
+      <label class="cm-field" id="cm-read-pw-wrap">
+        <span class="cm-cap">🔒 {S.readPassword}</span>
+        <input id="cm-read-pw" class="cm-input w-full" type="password" autocomplete="new-password" placeholder={S.enterPassword} />
+      </label>
+      <label class="cm-field" id="cm-write-pw-wrap">
+        <span class="cm-cap">✏️ {S.writePassword}</span>
+        <input id="cm-write-pw" class="cm-input w-full" type="password" autocomplete="new-password" placeholder={S.enterPassword} />
+      </label>
+    </div>
+    <p id="cm-pw-hint" class="mt-1.5 text-[11px] leading-snug text-stone-500">{S.passwordOptional}</p>
+
+    <div class="mt-3 flex flex-wrap items-center gap-2 rounded-lg border border-white/[0.06] bg-black/25 px-3 py-2 text-[11px] text-stone-400">
+      <span class="cm-cap">🔑 {S.ownerKey}</span>
+      <code id="cm-owner-key" class="max-w-[240px] truncate font-mono text-[11px] text-stone-300">—</code>
+      <button id="cm-copy-owner" class="cm-btn-ghost" title={S.copyOk}>⧉</button>
+      <span class="ml-auto text-stone-600">{S.forkHint}</span>
+    </div>
+
+    <div id="cm-ro-banner" class="mt-3 hidden items-center gap-2 rounded-lg border border-amber-500/30 bg-amber-500/[0.07] px-3 py-2 text-[12px] text-amber-200">
+      <span>🔒</span>
+      <span id="cm-ro-text"></span>
+      <button id="cm-unlock-write" class="cm-btn-ghost ml-auto hidden">🔓 {S.unlock}</button>
+    </div>
+
+    <details class="mt-3 group">
+      <summary class="cursor-pointer select-none text-[11px] font-semibold uppercase tracking-widest text-stone-400 hover:text-stone-200">🌐 {S.publicMaps}</summary>
+      <div id="cm-public-list" class="mt-2 space-y-1.5"></div>
+    </details>
+  </section>
+
+  <!-- ══ Stage selector ══════════════════════════════════════════════ -->
+  <section class="cm-panel mb-4 p-4">
+    <div class="flex flex-wrap items-center gap-3">
+      <span class="cm-cap">{S.stage}</span>
+      <div id="cm-stages" class="flex flex-wrap gap-1">
+        {[1, 2, 3, 4, 5, 6, 7].map((n) => (
+          <button class="cm-stagebtn" data-stage={n} title={`${S.stage} ${n}`}>
+            <span class="cm-stagebtn-pip" style={`background:${LEVEL_COLORS[n]}`}></span>{n}
+          </button>
+        ))}
+      </div>
+      <button id="cm-copy-prev" class="cm-btn-ghost">⧉ {S.copyPrev}</button>
+      <span id="cm-stage-note" class="text-[11px] text-stone-500"></span>
+    </div>
+    <p class="mt-2 text-[11px] leading-snug text-stone-500">{S.paintHint}</p>
+  </section>
+
   <!-- ══ Toolbar ══════════════════════════════════════════════════════ -->
   <div class="cm-panel mb-4 p-3 sm:p-4">
+    <div class="cm-stage-slot mb-2.5" data-slot="toolbar"></div>
     <div class="flex flex-wrap items-center gap-x-6 gap-y-3">
       <div class="flex items-center gap-2">
         <span class="cm-cap">{S.filters}</span>
@@ -77,7 +181,12 @@ const payload = {
       <div class="flex items-center gap-2">
         <span class="cm-cap">{S.bonus}</span>
         <div id="cm-bonuses" class="flex flex-wrap gap-1">
-          {BONUS_KEYS.map((k) => <button class="cm-chip" data-bonus={k}>{B[k].short}</button>)}
+          {BONUS_KEYS.map((k) => (
+            <button class="cm-chip" data-bonus={k}>
+              <span class="cm-bchip" style={`background:${fillFor(k, 20)}`}>{BONUS_ICONS[k]}</span>
+              {B[k].short}
+            </button>
+          ))}
         </div>
       </div>
 
@@ -120,6 +229,7 @@ const payload = {
   <!-- ══ Map + side panel ═════════════════════════════════════════════ -->
   <div class="grid gap-4 xl:grid-cols-[minmax(0,1fr)_360px]">
     <section id="cm-map-card" class="cm-panel overflow-hidden">
+      <div class="cm-stage-slot px-4 pt-3" data-slot="map"></div>
       <div class="cm-map-wrap">
         <svg id="cm-svg" viewBox={`0 0 ${MAP_W} ${MAP_H}`} role="img" aria-label={S.title}
              preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
@@ -155,12 +265,16 @@ const payload = {
             {CITIES.map((c) => (
               <g class:list={['cm-label', c.tiny ? 'cm-tiny' : '']} data-id={c.id}>
                 <text class="cm-lv" x={c.lx} y={c.ly - 19}>Lv.{c.lv}</text>
-                {c.lv === 7 ? (
+                {c.lv === 7 || !c.bonus ? (
                   <text class="cm-royal" x={c.lx} y={c.ly + 4}>👑 {S.royal}</text>
                 ) : (
                   <g>
-                    <text class="cm-bl" x={c.lx} y={c.ly - 3}>{shortOf(c)}</text>
-                    <text class="cm-val" x={c.lx} y={c.ly + 15}>+{c.value}%</text>
+                    <circle class="cm-bico" cx={c.lx - 31} cy={c.ly + 4} r="10"
+                            fill={fillFor(c.bonus as BonusKey, c.value)}
+                            stroke="rgba(255,255,255,.45)" stroke-width="1.2" />
+                    <text class="cm-bico-i" x={c.lx - 31} y={c.ly + 8.5}>{BONUS_ICONS[c.bonus as BonusKey]}</text>
+                    <text class="cm-bl" x={c.lx + 8} y={c.ly - 2}>{shortOf(c)}</text>
+                    <text class="cm-val" x={c.lx + 8} y={c.ly + 16} style={`fill:${inkFor(c.bonus as BonusKey, c.value)}`}>+{c.value}%</text>
                   </g>
                 )}
               </g>
@@ -168,8 +282,8 @@ const payload = {
           </g>
         </svg>
       </div>
-      <div class="flex flex-wrap items-center justify-between gap-3 border-t border-white/[0.06] px-4 py-3">
-        <div class="flex flex-wrap items-center gap-2">
+      <div class="border-t border-white/[0.06] px-4 py-3">
+        <div class="flex flex-wrap items-center gap-x-4 gap-y-2">
           <span class="cm-cap">{S.legend}</span>
           {levels.map((l) => (
             <span class="inline-flex items-center gap-1.5 text-[11px] text-stone-400">
@@ -181,15 +295,33 @@ const payload = {
             <span class="inline-block h-3 w-3 rounded-sm border border-black/40" style={`background:${LEVEL_COLORS[7]}`}></span>
             {S.royal}
           </span>
+          <span class="inline-flex items-center gap-1.5 text-[11px] text-stone-500">
+            <span class="inline-block h-3 w-3 rounded-sm border border-dashed border-white/25"></span>
+            {S.locked}
+          </span>
         </div>
-        <span class="text-[11px] text-stone-500">{S.paintHint}</span>
+        <div class="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1.5">
+          <span class="cm-cap">{S.bonus}</span>
+          {BONUS_KEYS.map((k) => (
+            <span class="inline-flex items-center gap-1.5 text-[11px] text-stone-400">
+              <span class="cm-bchip" style={`background:${fillFor(k, 5)}`}>{BONUS_ICONS[k]}</span>
+              <span>{B[k].short}</span>
+              <span class="inline-flex gap-[3px]">
+                {[5, 10, 15, 20].map((v) => (
+                  <i class="cm-ramp" style={`background:${fillFor(k, v)}`} title={`+${v}%`}></i>
+                ))}
+              </span>
+            </span>
+          ))}
+        </div>
       </div>
     </section>
 
     <aside class="flex flex-col gap-4">
       <!-- Alliances -->
       <section class="cm-panel p-4">
-        <div class="mb-3 flex items-center justify-between">
+        <div class="cm-stage-slot" data-slot="alliances"></div>
+        <div class="mb-3 mt-2 flex items-center justify-between">
           <h2 class="text-sm font-bold uppercase tracking-widest text-stone-300">🛡️ {S.alliances}</h2>
           <span id="cm-alliance-count" class="font-mono text-xs text-stone-500">0</span>
         </div>
@@ -216,18 +348,18 @@ const payload = {
         </div>
 
         <div class="mt-3 grid grid-cols-2 gap-2">
-          <button id="cm-share" class="cm-btn-ghost" title={S.shareHint}>🔗 {S.share}</button>
+          <button id="cm-share" class="cm-btn-ghost" title={S.shareHint}>🔗 {S.copyLink}</button>
           <button id="cm-clear" class="cm-btn-ghost">🧹 {S.clearAll}</button>
           <button id="cm-export" class="cm-btn-ghost">⬇ {S.export}</button>
           <button id="cm-import" class="cm-btn-ghost">⬆ {S.import}</button>
           <input id="cm-file" type="file" accept="application/json,.json" class="hidden" />
         </div>
-        <p class="mt-2 text-[11px] leading-snug text-stone-500">💾 {S.saved}</p>
       </section>
 
       <!-- City details -->
       <section class="cm-panel p-4">
-        <h2 class="mb-3 text-sm font-bold uppercase tracking-widest text-stone-300">📍 {S.colCity}</h2>
+        <div class="cm-stage-slot" data-slot="details"></div>
+        <h2 class="mb-3 mt-2 text-sm font-bold uppercase tracking-widest text-stone-300">📍 {S.colCity}</h2>
         <div id="cm-details" class="text-sm text-stone-400">{S.details}</div>
       </section>
     </aside>
@@ -235,12 +367,14 @@ const payload = {
 
   <!-- ══ Bonus totals ═════════════════════════════════════════════════ -->
   <section class="mt-6">
+    <div class="cm-stage-slot mb-3" data-slot="summary"></div>
     <h2 class="display mb-3 text-xl text-stone-100">📊 {S.bonusTotals}</h2>
     <div id="cm-summary" class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"></div>
   </section>
 
   <!-- ══ City directory ══════════════════════════════════════════════ -->
   <section class="mt-8">
+    <div class="cm-stage-slot mb-3" data-slot="directory"></div>
     <div class="mb-3 flex flex-wrap items-baseline justify-between gap-2">
       <h2 class="display text-xl text-stone-100">📋 {S.cityList}</h2>
       <span id="cm-table-count" class="font-mono text-xs text-stone-500">87</span>
@@ -264,6 +398,20 @@ const payload = {
     </div>
   </section>
 
+  <!-- ══ Password modal ══════════════════════════════════════════════ -->
+  <div id="cm-modal" class="cm-modal hidden" role="dialog" aria-modal="true" aria-labelledby="cm-modal-title">
+    <div class="cm-modal-box">
+      <h3 id="cm-modal-title" class="text-sm font-bold uppercase tracking-widest text-stone-200"></h3>
+      <p id="cm-modal-text" class="mt-2 text-xs leading-relaxed text-stone-400"></p>
+      <input id="cm-modal-input" class="cm-input mt-3 w-full" type="password" autocomplete="current-password" placeholder={S.enterPassword} />
+      <p id="cm-modal-error" class="mt-2 hidden text-[11px] text-rose-400">{S.badPassword}</p>
+      <div class="mt-4 flex justify-end gap-2">
+        <button id="cm-modal-cancel" class="cm-btn-ghost">{S.cancel}</button>
+        <button id="cm-modal-ok" class="cm-btn">🔓 {S.unlock}</button>
+      </div>
+    </div>
+  </div>
+
   <div id="cm-toast" class="cm-toast" role="status" aria-live="polite"></div>
 </div>
 
@@ -277,20 +425,33 @@ const payload = {
       window.__cmReady = true;
 
       var S = D.s, B = D.b, KEYS = D.keys, LCOL = D.colors, HP = D.hp, GAR = D.garrison;
+      var BICON = D.bicons, BHUE = D.bhues;
       var MW = D.mapW, MH = D.mapH, RATIO = MH / MW;
-      var KEY = 'lap_citymap_v1';
+      var STAGES = 7;
+      var LS = 'lap_citymap_v2';
 
       var svg = document.getElementById('cm-svg');
       var polys = Array.prototype.slice.call(svg.querySelectorAll('.cm-poly'));
       var byId = new Map(polys.map(function (p) { return [p.dataset.id, p]; }));
-      // 86 capturable cities + the Royal City territory.
       var TOTAL = byId.size;
       var badgeLayer = document.getElementById('cm-badges');
       var labelLayer = document.getElementById('cm-labels');
       var labels = Array.prototype.slice.call(labelLayer.querySelectorAll('.cm-label'));
       var labelById = new Map(labels.map(function (g) { return [g.dataset.id, g]; }));
 
-      var state = { alliances: [], owners: {} };
+      /* ---------- state ---------- */
+      var current = { meta: blankMeta(), doc: blankDoc() };
+      var stage = 1;
+      var isOwner = false;
+      var canEdit = true;
+      var readLocked = false;
+      var writeUnlocked = false;
+      var readPassword = '';
+      var writePassword = '';
+      var registry = { active: 'local', maps: {} };
+      var dirty = false;
+      var apiOnline = true;
+      var pending = null;
       var editingId = '';
       var formColor = D.palette[0], formIcon = D.icons[0];
       var paintId = '', paintMode = false, selectedCity = '', viewMode = 'levels';
@@ -305,37 +466,56 @@ const payload = {
         });
       }
       function uid() { return 'a' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6); }
-      function alliance(id) { return state.alliances.find(function (a) { return a.id === id; }); }
-      function ownerOf(id) { return alliance(state.owners[id]); }
+      function blankMeta() {
+        return {
+          id: '', name: '', server: '', rev: 0,
+          readMode: 'public', writeMode: 'open',
+          hasReadPassword: false, hasWritePassword: false,
+          forkedFrom: '', ownerToken: '', updatedAt: 0,
+        };
+      }
+      function blankDoc() {
+        var stages = [];
+        for (var i = 0; i < STAGES; i++) stages.push({ o: {} });
+        return { v: 2, alliances: [], stages: stages };
+      }
+      function rampOf(v) { return Math.max(0, Math.min(1, (Number(v) - 5) / 15)); }
+      function bonusFill(k, v) {
+        if (!k || BHUE[k] == null) return '#3f4440';
+        var t = rampOf(v);
+        return 'hsl(' + BHUE[k] + ' ' + Math.round(34 + 56 * t) + '% ' + Math.round(24 + 12 * t) + '%)';
+      }
+      function bonusInk(k, v) {
+        if (!k || BHUE[k] == null) return '#a8a29e';
+        var t = rampOf(v);
+        return 'hsl(' + BHUE[k] + ' ' + Math.round(50 + 45 * t) + '% ' + Math.round(62 + 14 * t) + '%)';
+      }
+      function stageLabel(n) {
+        var txt = S.unlockedLevels.replace('{n}', String(n));
+        return n <= 1 ? txt.replace('1–1', '1') : txt;
+      }
+      function curOwners() { return current.doc.stages[stage - 1].o; }
+      function alliance(id) {
+        return current.doc.alliances.find(function (a) { return a.id === id; });
+      }
+      function ownerOf(id) { return alliance(curOwners()[id]); }
       function bonusText(p) {
         if (!p.dataset.bonus) return '—';
         var b = B[p.dataset.bonus];
         return (b ? b.full : p.dataset.bonus) + ' +' + p.dataset.value + '%';
       }
-      function normalize(raw) {
-        var out = { alliances: [], owners: {} };
-        if (!raw || typeof raw !== 'object') return out;
-        var arr = Array.isArray(raw.alliances) ? raw.alliances : (Array.isArray(raw.a) ? raw.a : []);
-        out.alliances = arr.slice(0, 40).map(function (a, i) {
-          return {
-            id: String(a && a.id ? a.id : uid() + i),
-            name: String(a && a.name ? a.name : 'Alliance ' + (i + 1)).slice(0, 40),
-            color: /^#[0-9a-f]{6}$/i.test(a && a.color) ? a.color : D.palette[i % D.palette.length],
-            icon: String(a && a.icon ? a.icon : D.icons[i % D.icons.length]).slice(0, 4),
-          };
-        });
-        var ids = new Set(out.alliances.map(function (a) { return a.id; }));
-        var own = raw.owners && typeof raw.owners === 'object' ? raw.owners : (raw.o && typeof raw.o === 'object' ? raw.o : {});
-        Object.keys(own).forEach(function (cid) {
-          if (byId.has(cid) && ids.has(own[cid])) out.owners[cid] = own[cid];
-        });
-        return out;
+      function isLocked(p) { return +p.dataset.lv > stage; }
+      function unlockedPolys() { return polys.filter(function (p) { return !isLocked(p); }); }
+      function readOnlyMessage() {
+        if (readLocked) return S.readLockedMsg;
+        if (current.meta.writeMode === 'owner' && !isOwner) return S.ownerOnlyMsg;
+        if (current.meta.writeMode === 'password' && !writeUnlocked && !isOwner) return S.writeLockedMsg;
+        return S.readOnly;
       }
-      function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
       function toast(msg) {
         var t = document.getElementById('cm-toast');
         t.textContent = msg; t.classList.add('is-on');
-        clearTimeout(toast._t); toast._t = setTimeout(function () { t.classList.remove('is-on'); }, 2600);
+        clearTimeout(toast._t); toast._t = setTimeout(function () { t.classList.remove('is-on'); }, 3200);
       }
       function encode(obj) {
         var bytes = new TextEncoder().encode(JSON.stringify(obj));
@@ -346,6 +526,159 @@ const payload = {
         var b = atob(str.replace(/-/g, '+').replace(/_/g, '/'));
         var bytes = Uint8Array.from(b, function (c) { return c.charCodeAt(0); });
         return JSON.parse(new TextDecoder().decode(bytes));
+      }
+
+      /* ---------- document normalization ---------- */
+      function normalizeDoc(raw) {
+        var out = blankDoc();
+        if (!raw || typeof raw !== 'object') return out;
+        var arr = Array.isArray(raw.alliances) ? raw.alliances : (Array.isArray(raw.a) ? raw.a : []);
+        var seen = {};
+        out.alliances = arr.slice(0, 40).map(function (a, i) {
+          var id = String(a && a.id ? a.id : uid() + i).slice(0, 40);
+          seen[id] = 1;
+          return {
+            id: id,
+            name: String(a && a.name ? a.name : 'Alliance ' + (i + 1)).slice(0, 40),
+            color: /^#[0-9a-f]{6}$/i.test(a && a.color) ? a.color : D.palette[i % D.palette.length],
+            icon: String(a && a.icon ? a.icon : D.icons[i % D.icons.length]).slice(0, 8),
+          };
+        });
+        var stages = Array.isArray(raw.stages) ? raw.stages : null;
+        for (var s = 0; s < STAGES; s++) {
+          var src = stages ? stages[s] : (s === 0 ? (raw.o || raw.owners) : null);
+          if (!src || typeof src !== 'object') continue;
+          var owners = src.o && typeof src.o === 'object' ? src.o : (src.o ? null : src);
+          if (!owners) continue;
+          Object.keys(owners).forEach(function (cid) {
+            if (!byId.has(cid)) return;
+            var owner = owners[cid];
+            if (typeof owner !== 'string' || !seen[owner]) return;
+            out.stages[s].o[cid] = owner;
+          });
+        }
+        return out;
+      }
+
+      /* ---------- local persistence ---------- */
+      function persistLocal() {
+        var key = current.meta.id || 'local';
+        registry.maps[key] = { meta: current.meta, doc: current.doc, stage: stage };
+        registry.active = key;
+        var keys = Object.keys(registry.maps);
+        if (keys.length > 12) {
+          keys.sort(function (a, b) {
+            return (registry.maps[b].meta.updatedAt || 0) - (registry.maps[a].meta.updatedAt || 0);
+          });
+          keys.slice(12).forEach(function (k) { if (k !== key) delete registry.maps[k]; });
+        }
+        try { localStorage.setItem(LS, JSON.stringify(registry)); } catch (e) {}
+      }
+      function markDirty() {
+        dirty = true;
+        persistLocal();
+        updateStatus();
+      }
+      function updateStatus() {
+        var el = document.getElementById('cm-save-status');
+        var text;
+        if (!current.meta.id) text = S.localDraft;
+        else if (!apiOnline) text = S.offlineSaved;
+        else text = S.onlineSaved;
+        el.textContent = text + (dirty ? ' •' : '');
+        el.className = 'ml-auto text-[11px] ' + (dirty ? 'text-amber-300' : 'text-stone-500');
+      }
+
+      /* ---------- stage badges ---------- */
+      function stageTagHTML() {
+        var pips = '';
+        for (var i = 1; i <= STAGES; i++) {
+          var on = i <= stage;
+          pips += '<i class="cm-pip' + (on ? ' is-on' : '') + '" style="background:' +
+            (on ? (LCOL[i] || LCOL[7]) : 'rgba(255,255,255,.09)') + '"></i>';
+        }
+        return '<div class="cm-stage-tag">' +
+          '<span class="cm-stage-name">' + esc(S.stage) + ' <strong>' + stage + '</strong><span class="cm-stage-total">/' + STAGES + '</span></span>' +
+          '<span class="cm-pips">' + pips + '</span>' +
+          '<span class="cm-stage-sub">' + esc(stageLabel(stage)) + '</span>' +
+          '</div>';
+      }
+      function renderStageTags() {
+        document.querySelectorAll('.cm-stage-slot').forEach(function (el) { el.innerHTML = stageTagHTML(); });
+      }
+      function renderStages() {
+        document.querySelectorAll('#cm-stages .cm-stagebtn').forEach(function (b) {
+          b.classList.toggle('is-on', Number(b.dataset.stage) === stage);
+        });
+        document.getElementById('cm-copy-prev').disabled = stage < 2 || !canEdit;
+        document.getElementById('cm-stage-note').textContent = stageLabel(stage);
+      }
+
+      /* ---------- map manager ---------- */
+      function renderMapManager() {
+        var sel = document.getElementById('cm-map-select');
+        var opts = '<option value="local">💾 ' + esc(S.localDraft) + '</option>';
+        var known = { local: 1 };
+        Object.keys(registry.maps).forEach(function (k) {
+          if (k === 'local') return;
+          known[k] = 1;
+          var m = registry.maps[k].meta;
+          opts += '<option value="' + esc(k) + '">' + esc((m.name || k) + (m.server ? ' · ' + m.server : '')) + '</option>';
+        });
+        if (current.meta.id && !known[current.meta.id]) {
+          opts += '<option value="' + esc(current.meta.id) + '">' + esc((current.meta.name || current.meta.id) + ' · ' + S.loading) + '</option>';
+        }
+        sel.innerHTML = opts;
+        sel.value = current.meta.id || 'local';
+
+        document.getElementById('cm-map-name').value = current.meta.name || '';
+        document.getElementById('cm-map-server').value = current.meta.server || '';
+        document.getElementById('cm-read-mode').value = current.meta.readMode;
+        document.getElementById('cm-write-mode').value = current.meta.writeMode;
+        document.getElementById('cm-read-pw-wrap').style.display = current.meta.readMode === 'password' ? '' : 'none';
+        document.getElementById('cm-write-pw-wrap').style.display = current.meta.writeMode === 'password' ? '' : 'none';
+        document.getElementById('cm-read-pw').value = '';
+        document.getElementById('cm-write-pw').value = '';
+        document.getElementById('cm-read-pw').placeholder = current.meta.hasReadPassword ? '••••••' : S.enterPassword;
+        document.getElementById('cm-write-pw').placeholder = current.meta.hasWritePassword ? '••••••' : S.enterPassword;
+        document.getElementById('cm-pw-hint').textContent = S.passwordOptional;
+
+        var keyEl = document.getElementById('cm-owner-key');
+        keyEl.textContent = current.meta.ownerToken || '—';
+        document.getElementById('cm-copy-owner').disabled = !current.meta.ownerToken;
+        document.getElementById('cm-delete-map').disabled = !current.meta.ownerToken;
+        document.getElementById('cm-fork').disabled = !current.meta.id;
+        document.getElementById('cm-copy-link').disabled = !current.meta.id;
+        updateStatus();
+      }
+
+      /* ---------- permissions ---------- */
+      function applyPermissions() {
+        canEdit = !readLocked && (isOwner || current.meta.writeMode === 'open' || writeUnlocked);
+        if (!current.meta.id) canEdit = true;
+        root.classList.toggle('cm-readonly', !canEdit);
+
+        var ids = ['cm-paint-mode', 'cm-paint', 'cm-new-name', 'cm-save-alliance', 'cm-clear',
+          'cm-import', 'cm-save-online'];
+        ids.forEach(function (id) {
+          var el = document.getElementById(id);
+          if (el) el.disabled = !canEdit;
+        });
+        document.getElementById('cm-copy-prev').disabled = !canEdit || stage < 2;
+        document.getElementById('cm-paint-mode').disabled = !canEdit;
+        var lock = canEdit ? '' : 'none';
+        document.getElementById('cm-alliance-list').style.pointerEvents = lock;
+        document.getElementById('cm-colors').style.pointerEvents = lock;
+        document.getElementById('cm-icons').style.pointerEvents = lock;
+
+        var banner = document.getElementById('cm-ro-banner');
+        banner.classList.toggle('hidden', canEdit);
+        banner.classList.toggle('flex', !canEdit);
+        document.getElementById('cm-ro-text').textContent = canEdit ? '' : readOnlyMessage();
+        document.getElementById('cm-unlock-write').classList.toggle(
+          'hidden', !(!canEdit && (readLocked || (!isOwner && current.meta.writeMode === 'password')))
+        );
+        renderStages();
       }
 
       /* ---------- view / zoom ---------- */
@@ -391,7 +724,8 @@ const payload = {
 
       /* ---------- filters ---------- */
       function matches(p) {
-        var lv = +p.dataset.lv, own = state.owners[p.dataset.id] || '';
+        if (isLocked(p)) return false;
+        var lv = +p.dataset.lv, own = curOwners()[p.dataset.id] || '';
         if (filters.levels.size && !filters.levels.has(lv)) return false;
         if (filters.bonuses.size && !filters.bonuses.has(p.dataset.bonus)) return false;
         if (filters.owner === '__free__' && own) return false;
@@ -404,10 +738,15 @@ const payload = {
       }
       function paintFilters() {
         polys.forEach(function (p) {
+          var locked = isLocked(p);
           var ok = matches(p);
-          p.classList.toggle('cm-dim', !ok);
+          p.classList.toggle('cm-locked', locked);
+          p.classList.toggle('cm-dim', !ok && !locked);
           var g = labelById.get(p.dataset.id);
-          if (g) g.classList.toggle('cm-dim', !ok);
+          if (g) {
+            g.classList.toggle('cm-dim', !ok && !locked);
+            g.classList.toggle('cm-locked', locked);
+          }
         });
       }
 
@@ -421,6 +760,7 @@ const payload = {
         });
         var html = '';
         polys.forEach(function (p) {
+          if (isLocked(p)) return;
           var a = ownerOf(p.dataset.id);
           if (!a) return;
           html += '<g class="cm-badge"><circle cx="' + p.dataset.bx + '" cy="' + p.dataset.by +
@@ -437,14 +777,17 @@ const payload = {
 
       /* ---------- alliances ---------- */
       function countFor(id) {
-        return Object.keys(state.owners).filter(function (cid) { return state.owners[cid] === id; }).length;
+        var owners = curOwners();
+        return Object.keys(owners).filter(function (cid) {
+          return owners[cid] === id && !isLocked(byId.get(cid));
+        }).length;
       }
       function renderAlliances() {
         var list = document.getElementById('cm-alliance-list');
-        if (!state.alliances.length) {
+        if (!current.doc.alliances.length) {
           list.innerHTML = '<p class="rounded-lg border border-dashed border-white/10 px-3 py-4 text-center text-xs text-stone-500">' + esc(S.noAlliances) + '</p>';
         } else {
-          list.innerHTML = state.alliances.map(function (a) {
+          list.innerHTML = current.doc.alliances.map(function (a) {
             return '<div class="cm-alliance' + (paintId === a.id ? ' is-active' : '') + '" data-id="' + esc(a.id) + '">' +
               '<button class="cm-pick" data-id="' + esc(a.id) + '" title="' + esc(S.assignTo) + '">' +
                 '<span class="text-base leading-none">' + esc(a.icon) + '</span>' +
@@ -457,18 +800,18 @@ const payload = {
             '</div>';
           }).join('');
         }
-        document.getElementById('cm-alliance-count').textContent = state.alliances.length;
-        document.getElementById('cm-stat-alliances').textContent = state.alliances.length;
+        document.getElementById('cm-alliance-count').textContent = current.doc.alliances.length;
+        document.getElementById('cm-stat-alliances').textContent = current.doc.alliances.length;
 
         var opts = '<option value="">— ' + esc(S.alliances) + ' —</option><option value="__free__">🧹 ' + esc(S.free) + '</option>' +
-          state.alliances.map(function (a) { return '<option value="' + esc(a.id) + '">' + esc(a.icon + ' ' + a.name) + '</option>'; }).join('');
+          current.doc.alliances.map(function (a) { return '<option value="' + esc(a.id) + '">' + esc(a.icon + ' ' + a.name) + '</option>'; }).join('');
         var paint = document.getElementById('cm-paint');
         paint.innerHTML = opts; paint.value = paintId;
         var own = document.getElementById('cm-owner-filter');
         var prev = filters.owner;
         own.innerHTML = '<option value="">' + esc(S.all) + '</option><option value="__free__">' + esc(S.freeCities) + '</option>' +
-          state.alliances.map(function (a) { return '<option value="' + esc(a.id) + '">' + esc(a.icon + ' ' + a.name) + '</option>'; }).join('');
-        own.value = state.alliances.some(function (a) { return a.id === prev; }) || prev === '__free__' || prev === '' ? prev : '';
+          current.doc.alliances.map(function (a) { return '<option value="' + esc(a.id) + '">' + esc(a.icon + ' ' + a.name) + '</option>'; }).join('');
+        own.value = current.doc.alliances.some(function (a) { return a.id === prev; }) || prev === '__free__' || prev === '' ? prev : '';
         filters.owner = own.value;
       }
       function resetForm() {
@@ -478,10 +821,10 @@ const payload = {
         document.getElementById('cm-cancel-edit').classList.add('hidden');
         // Pick the first unused colour/icon so newly added alliances are always
         // visually distinguishable on the map (random picks could collide).
-        var usedColors = state.alliances.map(function (a) { return a.color; });
-        var usedIcons = state.alliances.map(function (a) { return a.icon; });
-        formColor = D.palette.find(function (c) { return usedColors.indexOf(c) < 0; }) || D.palette[state.alliances.length % D.palette.length];
-        formIcon = D.icons.find(function (i) { return usedIcons.indexOf(i) < 0; }) || D.icons[state.alliances.length % D.icons.length];
+        var usedColors = current.doc.alliances.map(function (a) { return a.color; });
+        var usedIcons = current.doc.alliances.map(function (a) { return a.icon; });
+        formColor = D.palette.find(function (c) { return usedColors.indexOf(c) < 0; }) || D.palette[current.doc.alliances.length % D.palette.length];
+        formIcon = D.icons.find(function (i) { return usedIcons.indexOf(i) < 0; }) || D.icons[current.doc.alliances.length % D.icons.length];
         syncFormSwatches();
       }
       function syncFormSwatches() {
@@ -489,6 +832,7 @@ const payload = {
         document.querySelectorAll('#cm-icons .cm-emoji').forEach(function (b) { b.classList.toggle('is-on', b.dataset.icon === formIcon); });
       }
       function saveAlliance() {
+        if (!canEdit) { toast(readOnlyMessage()); return; }
         var name = document.getElementById('cm-new-name').value.trim().slice(0, 40);
         if (!name) { document.getElementById('cm-new-name').focus(); return; }
         if (editingId) {
@@ -496,67 +840,80 @@ const payload = {
           if (a) { a.name = name; a.color = formColor; a.icon = formIcon; }
         } else {
           var id = uid();
-          state.alliances.push({ id: id, name: name, color: formColor, icon: formIcon });
+          current.doc.alliances.push({ id: id, name: name, color: formColor, icon: formIcon });
           paintId = id;
           document.getElementById('cm-paint').value = id;
           document.getElementById('cm-paint-mode').checked = true;
           paintMode = true;
         }
-        save(); resetForm(); renderAll();
+        markDirty(); resetForm(); renderAll();
       }
 
       /* ---------- details ---------- */
       function renderDetails() {
         var box = document.getElementById('cm-details');
         var p = byId.get(selectedCity);
-        if (!p) { box.innerHTML = '<p class="text-xs text-stone-500">' + esc(S.details) + '</p>'; return; }
+        if (!p || isLocked(p)) {
+          box.innerHTML = '<p class="text-xs text-stone-500">' + esc(S.details) + '</p>';
+          return;
+        }
         var a = ownerOf(selectedCity), lv = +p.dataset.lv;
         var rows = [
           '<div class="flex items-baseline justify-between gap-2"><span class="font-semibold text-stone-100">' + esc(p.dataset.name) + '</span><span class="font-mono text-[11px] text-stone-500">' + esc(p.dataset.id) + '</span></div>',
           '<div class="mt-2 flex flex-wrap gap-1.5 text-[11px]">' +
             '<span class="rounded-md border border-white/10 px-2 py-1" style="color:' + (LCOL[lv] || LCOL[7]) + '">' + S.level + ' ' + lv + '</span>' +
-            (p.dataset.bonus ? '<span class="rounded-md border border-toxic-400/25 bg-toxic-400/10 px-2 py-1 text-toxic-300">' + esc(bonusText(p)) + '</span>' : '<span class="rounded-md border border-white/10 px-2 py-1">' + esc(S.royal) + '</span>') +
+            (p.dataset.bonus
+              ? '<span class="inline-flex items-center gap-1.5 rounded-md border border-white/10 px-2 py-1 text-stone-200">' +
+                '<span class="cm-bchip" style="background:' + bonusFill(p.dataset.bonus, p.dataset.value) + '">' + esc(BICON[p.dataset.bonus] || '') + '</span>' +
+                esc(bonusText(p)) + '</span>'
+              : '<span class="rounded-md border border-white/10 px-2 py-1">' + esc(S.royal) + '</span>') +
           '</div>',
           '<div class="mt-2 grid grid-cols-2 gap-2 text-[11px] text-stone-400">' +
             '<div>' + S.hp + ': <strong class="font-mono text-stone-200">' + (HP[lv] ? Number(HP[lv]).toLocaleString() : '—') + '</strong></div>' +
             '<div>' + S.garrison + ': <strong class="font-mono text-stone-200">' + (GAR[lv] || '—') + '</strong></div>' +
           '</div>',
           '<label class="mt-3 block text-[10px] uppercase tracking-widest text-stone-500">' + esc(S.assignTo) + '</label>',
-          '<select id="cm-detail-owner" class="cm-select mt-1 w-full">' +
+          '<select id="cm-detail-owner" class="cm-select mt-1 w-full"' + (canEdit ? '' : ' disabled') + '>' +
             '<option value="">' + esc(S.free) + '</option>' +
-            state.alliances.map(function (x) { return '<option value="' + esc(x.id) + '"' + (a && a.id === x.id ? ' selected' : '') + '>' + esc(x.icon + ' ' + x.name) + '</option>'; }).join('') +
+            current.doc.alliances.map(function (x) { return '<option value="' + esc(x.id) + '"' + (a && a.id === x.id ? ' selected' : '') + '>' + esc(x.icon + ' ' + x.name) + '</option>'; }).join('') +
           '</select>'
         ];
         box.innerHTML = rows.join('');
         var sel = document.getElementById('cm-detail-owner');
         sel.addEventListener('change', function () {
-          if (sel.value) state.owners[selectedCity] = sel.value;
-          else delete state.owners[selectedCity];
-          save(); renderAll();
+          if (!canEdit) { toast(readOnlyMessage()); return; }
+          var owners = curOwners();
+          if (sel.value) owners[selectedCity] = sel.value;
+          else delete owners[selectedCity];
+          markDirty(); renderAll();
         });
       }
 
       /* ---------- summary ---------- */
       function renderSummary() {
         var box = document.getElementById('cm-summary');
+        var list = unlockedPolys();
         var stat = {};
-        state.alliances.forEach(function (a) { stat[a.id] = { count: 0, byLevel: {}, byBonus: {} }; });
+        current.doc.alliances.forEach(function (a) { stat[a.id] = { count: 0, byLevel: {}, byBonus: {} }; });
         var held = 0;
-        polys.forEach(function (p) {
-          var id = state.owners[p.dataset.id];
+        var owners = curOwners();
+        list.forEach(function (p) {
+          var id = owners[p.dataset.id];
           if (!id || !stat[id]) return;
           var st = stat[id]; st.count++; held++;
           st.byLevel[p.dataset.lv] = (st.byLevel[p.dataset.lv] || 0) + 1;
           if (p.dataset.bonus) st.byBonus[p.dataset.bonus] = (st.byBonus[p.dataset.bonus] || 0) + Number(p.dataset.value);
         });
         document.getElementById('cm-stat-held').textContent = held;
-        document.getElementById('cm-stat-free').textContent = TOTAL - held;
-        document.getElementById('cm-stat-total').textContent = TOTAL;
+        document.getElementById('cm-stat-free').textContent = list.length - held;
+        document.getElementById('cm-stat-total').textContent = list.length;
 
         function bonusRows(st) {
           var rows = KEYS.filter(function (k) { return st.byBonus[k]; }).map(function (k) {
             return '<div class="flex items-center justify-between gap-2 border-b border-white/[0.04] py-1 last:border-0">' +
-              '<span class="text-[11px] text-stone-400">' + esc(B[k] ? B[k].full : k) + '</span>' +
+              '<span class="inline-flex items-center gap-1.5 text-[11px] text-stone-400">' +
+                '<span class="cm-bchip" style="background:' + bonusFill(k, Math.min(20, st.byBonus[k])) + '">' + esc(BICON[k] || '') + '</span>' +
+                esc(B[k] ? B[k].full : k) + '</span>' +
               '<span class="font-mono text-xs font-bold text-toxic-300">+' + st.byBonus[k] + '%</span></div>';
           }).join('');
           return rows || '<p class="py-2 text-[11px] text-stone-600">—</p>';
@@ -567,7 +924,7 @@ const payload = {
               '<span class="inline-block h-2 w-2 rounded-sm" style="background:' + (LCOL[l] || LCOL[7]) + '"></span>L' + l + ' ×' + st.byLevel[l] + '</span>';
           }).join('');
         }
-        var cards = state.alliances.map(function (a) {
+        var cards = current.doc.alliances.map(function (a) {
           var st = stat[a.id];
           return '<article class="cm-card" style="border-top:3px solid ' + a.color + '">' +
             '<div class="flex items-center gap-2"><span class="text-lg">' + esc(a.icon) + '</span>' +
@@ -579,15 +936,15 @@ const payload = {
             '<div class="mt-1">' + bonusRows(st) + '</div></article>';
         });
         var total = { byBonus: {} };
-        polys.forEach(function (p) {
-          if (!state.owners[p.dataset.id] || !p.dataset.bonus) return;
+        list.forEach(function (p) {
+          if (!owners[p.dataset.id] || !p.dataset.bonus) return;
           total.byBonus[p.dataset.bonus] = (total.byBonus[p.dataset.bonus] || 0) + Number(p.dataset.value);
         });
         cards.push('<article class="cm-card border-t-[3px] border-t-plague-400">' +
           '<div class="flex items-center gap-2"><span class="text-lg">📊</span><strong class="flex-1 text-sm text-stone-100">' + esc(S.total) + '</strong>' +
           '<span class="font-mono text-xs text-plague-300">' + held + '</span></div>' +
           '<div class="mt-2 text-[10px] uppercase tracking-widest text-stone-500">' + esc(S.heldCities + ' · ' + S.freeCities) + '</div>' +
-          '<div class="mt-1 text-xs text-stone-400">' + held + ' / ' + (TOTAL - held) + '</div>' +
+          '<div class="mt-1 text-xs text-stone-400">' + held + ' / ' + (list.length - held) + '</div>' +
           '<div class="mt-3 text-[10px] uppercase tracking-widest text-stone-500">' + esc(S.bonus) + '</div>' +
           '<div class="mt-1">' + bonusRows(total) + '</div></article>');
         box.innerHTML = cards.join('');
@@ -604,28 +961,372 @@ const payload = {
             '<td class="px-3 py-2"><span class="inline-flex items-center gap-1.5 whitespace-nowrap text-xs text-stone-300">' +
               '<span class="inline-block h-2.5 w-2.5 rounded-sm" style="background:' + (LCOL[lv] || LCOL[7]) + '"></span>Lv.' + lv + '</span></td>' +
             '<td class="px-3 py-2 text-xs text-stone-400" title="' + esc(bonusText(p)) + '">' +
-              (p.dataset.bonus ? esc(p.dataset.short) + ' <span class="font-mono text-toxic-300">+' + p.dataset.value + '%</span>' : '—') + '</td>' +
+              (p.dataset.bonus
+                ? '<span class="inline-flex items-center gap-1.5">' +
+                  '<span class="cm-bchip" style="background:' + bonusFill(p.dataset.bonus, p.dataset.value) + '">' + esc(BICON[p.dataset.bonus] || '') + '</span>' +
+                  '<span>' + esc(p.dataset.short) + '</span> <span class="font-mono" style="color:' + bonusInk(p.dataset.bonus, p.dataset.value) + '">+' + p.dataset.value + '%</span></span>'
+                : '—') + '</td>' +
             '<td class="px-3 py-2 text-xs">' + (a
               ? '<span class="inline-flex items-center gap-1.5"><span class="inline-block h-2.5 w-2.5 rounded-full" style="background:' + a.color + '"></span><span class="text-stone-300">' + esc(a.icon + ' ' + a.name) + '</span></span>'
               : '<span class="text-stone-600">' + esc(S.free) + '</span>') + '</td></tr>';
         });
         body.innerHTML = rows.join('');
-        document.getElementById('cm-table-count').textContent = rows.length + ' / ' + TOTAL;
+        document.getElementById('cm-table-count').textContent = rows.length + ' / ' + unlockedPolys().length;
         document.getElementById('cm-no-match').classList.toggle('hidden', rows.length > 0);
       }
 
       function renderAll() {
-        renderAlliances(); paintMap(); highlight(); renderSummary(); renderTable(); renderDetails();
+        renderStageTags(); renderStages(); renderAlliances(); paintMap(); highlight();
+        renderSummary(); renderTable(); renderDetails(); applyPermissions();
       }
 
-      /* ---------- events ---------- */
+      /* ---------- api ---------- */
+      async function api(method, body, query, headers) {
+        var opts = { method: method, headers: Object.assign({ 'content-type': 'application/json' }, headers || {}) };
+        if (body) opts.body = JSON.stringify(body);
+        try {
+          var res = await fetch('/api/maps' + (query || ''), opts);
+          var data = null;
+          try { data = await res.json(); } catch (e) { data = {}; }
+          apiOnline = true;
+          return { status: res.status, data: data || {} };
+        } catch (e) {
+          apiOnline = false;
+          return { status: 0, data: { error: 'offline' } };
+        }
+      }
+      function setBusy(on) {
+        var b = document.getElementById('cm-save-online');
+        b.disabled = on;
+        b.textContent = on ? '⏳ ' + S.loading : '💾 ' + S.saveOnline;
+      }
+
+      function adopt(map, ownerToken, owner) {
+        var prevId = current.meta.id;
+        current.meta = {
+          id: map.id, name: map.name || '', server: map.server || '', rev: map.rev,
+          readMode: map.readMode, writeMode: map.writeMode,
+          hasReadPassword: !!map.hasReadPassword, hasWritePassword: !!map.hasWritePassword,
+          forkedFrom: map.forkedFrom || '', ownerToken: ownerToken || '', updatedAt: map.updatedAt || 0,
+        };
+        current.doc = normalizeDoc(map.doc);
+        isOwner = !!owner;
+        readLocked = false;
+        writeUnlocked = false;
+        dirty = false;
+        if (prevId !== map.id) {
+          stage = (registry.maps[map.id] && registry.maps[map.id].stage) || stage;
+        }
+        persistLocal();
+        renderMapManager();
+        renderAll();
+        syncUrl();
+      }
+      function adoptCached(entry) {
+        var prevId = current.meta.id;
+        current.meta = Object.assign(blankMeta(), entry.meta);
+        current.doc = normalizeDoc(entry.doc);
+        isOwner = !!current.meta.ownerToken;
+        readLocked = false;
+        writeUnlocked = false;
+        dirty = false;
+        if (prevId !== current.meta.id) stage = entry.stage || stage;
+        renderMapManager();
+        renderAll();
+      }
+      function syncUrl() {
+        var url = location.pathname + (current.meta.id ? '?map=' + current.meta.id : '');
+        try { history.replaceState(null, '', url); } catch (e) {}
+      }
+
+      async function openMap(id) {
+        var entry = registry.maps[id];
+        var token = (entry && entry.meta.ownerToken) || '';
+        var headers = token ? { 'x-map-owner': token } : {};
+        if (readPassword) headers['x-map-read'] = readPassword;
+        var r = await api('GET', null, '?id=' + encodeURIComponent(id), headers);
+        if (r.status === 200) {
+          adopt(r.data.map, token, r.data.isOwner);
+          return;
+        }
+        if (r.status === 401) {
+          if (entry) adoptCached(entry);
+          else { renderMapManager(); renderAll(); }
+          readLocked = true;
+          renderMapManager();
+          renderAll();
+          pending = { kind: 'read', id: id };
+          showModal('read');
+          return;
+        }
+        if (entry) { adoptCached(entry); toast(S.apiOffline); }
+        else toast(r.status === 404 ? S.noMaps : S.apiOffline);
+      }
+
+      async function saveOnline() {
+        if (!canEdit) { toast(readOnlyMessage()); return; }
+        var meta = current.meta;
+        var readPw = document.getElementById('cm-read-pw').value;
+        var writePw = document.getElementById('cm-write-pw').value;
+        if (meta.readMode === 'password' && !meta.hasReadPassword && readPw.length < 3) {
+          document.getElementById('cm-read-pw').focus(); return;
+        }
+        if (meta.writeMode === 'password' && !meta.hasWritePassword && writePw.length < 3) {
+          document.getElementById('cm-write-pw').focus(); return;
+        }
+
+        var access = {
+          readMode: meta.readMode,
+          writeMode: meta.writeMode,
+          readPassword: readPw,
+          writePassword: writePw,
+          clearReadPassword: meta.readMode !== 'password' && meta.hasReadPassword,
+          clearWritePassword: meta.writeMode !== 'password' && meta.hasWritePassword,
+        };
+
+        var body;
+        if (!meta.id) {
+          body = {
+            action: 'create', name: meta.name, server: meta.server, doc: current.doc,
+            readMode: meta.readMode, writeMode: meta.writeMode,
+            readPassword: readPw, writePassword: writePw,
+          };
+        } else {
+          body = {
+            action: 'save', id: meta.id, rev: meta.rev, name: meta.name, server: meta.server,
+            doc: current.doc, ownerToken: meta.ownerToken || '',
+            writePassword: writePassword || writePw,
+            access: isOwner ? access : null,
+          };
+        }
+
+        setBusy(true);
+        var r = await api('POST', body);
+        setBusy(false);
+
+        if (r.status === 200 && r.data.ok) {
+          adopt(r.data.map, r.data.ownerToken || meta.ownerToken, isOwner || !meta.id);
+          toast(meta.id ? S.onlineSaved : S.mapSavedMsg);
+          loadPublicMaps();
+          return;
+        }
+        if (r.status === 409 && r.data.map) {
+          adopt(r.data.map, meta.ownerToken, isOwner);
+          toast(S.conflictMsg);
+          return;
+        }
+        if (r.status === 401) {
+          if (r.data.error === 'write-locked') {
+            pending = { kind: 'write', id: meta.id };
+            showModal('write');
+          } else {
+            toast(S.ownerOnlyMsg);
+          }
+          return;
+        }
+        if (r.status === 0) { toast(S.apiOffline); return; }
+        toast(S.saveFailed);
+      }
+
+      async function forkCurrent() {
+        if (!current.meta.id) { toast(S.saveOnline); return; }
+        var headers = current.meta.ownerToken ? { 'x-map-owner': current.meta.ownerToken } : {};
+        var r = await api('POST', { action: 'fork', id: current.meta.id, readPassword: readPassword }, null, headers);
+        if (r.status === 200 && r.data.ok) {
+          adopt(r.data.map, r.data.ownerToken, true);
+          toast(S.forkDone);
+          loadPublicMaps();
+          return;
+        }
+        if (r.status === 401) { pending = { kind: 'read', id: current.meta.id }; showModal('read'); return; }
+        toast(S.saveFailed);
+      }
+
+      async function deleteCurrent() {
+        if (!current.meta.ownerToken) { toast(S.ownerOnlyMsg); return; }
+        if (!window.confirm(S.deleteConfirm)) return;
+        var r = await api('POST', { action: 'delete', id: current.meta.id, ownerToken: current.meta.ownerToken });
+        if (r.status === 200) {
+          delete registry.maps[current.meta.id];
+          newMap(true);
+          loadPublicMaps();
+        } else {
+          toast(S.saveFailed);
+        }
+      }
+
+      function newMap(silent) {
+        current = { meta: blankMeta(), doc: blankDoc() };
+        isOwner = false; canEdit = true; readLocked = false; writeUnlocked = false; dirty = false;
+        stage = 1; selectedCity = ''; paintId = ''; paintMode = false;
+        document.getElementById('cm-paint-mode').checked = false;
+        persistLocal();
+        renderMapManager();
+        renderAll();
+        syncUrl();
+        if (!silent) toast(S.localDraft);
+      }
+
+      async function loadPublicMaps() {
+        var box = document.getElementById('cm-public-list');
+        box.innerHTML = '<p class="text-[11px] text-stone-500">' + esc(S.loading) + '</p>';
+        var r = await api('GET', null, '?list=1');
+        if (r.status !== 200) {
+          box.innerHTML = '<p class="text-[11px] text-stone-500">' + esc(S.apiOffline) + '</p>';
+          return;
+        }
+        var maps = r.data.maps || [];
+        if (!maps.length) {
+          box.innerHTML = '<p class="text-[11px] text-stone-500">' + esc(S.noMaps) + '</p>';
+          return;
+        }
+        box.innerHTML = maps.map(function (m) {
+          var when = m.updatedAt ? new Date(m.updatedAt).toLocaleDateString(D.lang) : '';
+          return '<div class="cm-map-row">' +
+            '<span class="min-w-0 flex-1 truncate text-xs text-stone-200">' + esc(m.name || m.id) +
+              (m.server ? ' <span class="text-stone-500">· ' + esc(m.server) + '</span>' : '') + '</span>' +
+            '<span class="font-mono text-[10px] text-stone-600">' + esc(when) + '</span>' +
+            '<button class="cm-btn-ghost" data-open="' + esc(m.id) + '">' + esc(S.openMap) + '</button>' +
+            '</div>';
+        }).join('');
+      }
+
+      function copy(text, msg) {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text).then(function () { toast(msg); }, function () { toast(msg); });
+        } else {
+          toast(msg);
+        }
+      }
+      function copyLink() {
+        if (!current.meta.id) { toast(S.saveOnline); return; }
+        copy(location.origin + location.pathname + '?map=' + current.meta.id, S.copyOk + ' · ' + S.shareHint);
+      }
+
+      /* ---------- modal ---------- */
+      function showModal(kind) {
+        var m = document.getElementById('cm-modal');
+        document.getElementById('cm-modal-title').textContent = kind === 'write' ? S.writePassword : S.readPassword;
+        document.getElementById('cm-modal-text').textContent = kind === 'write' ? S.writeLockedMsg : S.readLockedMsg;
+        document.getElementById('cm-modal-input').value = '';
+        document.getElementById('cm-modal-error').classList.add('hidden');
+        m.classList.remove('hidden');
+        m.dataset.kind = kind;
+        setTimeout(function () { document.getElementById('cm-modal-input').focus(); }, 30);
+      }
+      function hideModal() {
+        document.getElementById('cm-modal').classList.add('hidden');
+      }
+      async function submitModal() {
+        var m = document.getElementById('cm-modal');
+        var kind = m.dataset.kind;
+        var pw = document.getElementById('cm-modal-input').value;
+        var err = document.getElementById('cm-modal-error');
+        if (!pending || !pending.id) { hideModal(); return; }
+        var body = { action: 'unlock', id: pending.id, kind: kind, ownerToken: current.meta.ownerToken || '' };
+        if (kind === 'write') body.writePassword = pw; else body.readPassword = pw;
+        var r = await api('POST', body);
+        if (r.status === 200) {
+          hideModal();
+          if (kind === 'write') {
+            writePassword = pw;
+            writeUnlocked = true;
+            applyPermissions();
+            renderDetails();
+            toast(S.canEdit);
+          } else {
+            readPassword = pw;
+            var id = pending.id;
+            pending = null;
+            openMap(id);
+          }
+          return;
+        }
+        err.textContent = r.status === 429 ? S.badPassword : S.badPassword;
+        err.classList.remove('hidden');
+      }
+
+      /* ---------- events: map manager ---------- */
+      document.getElementById('cm-save-online').addEventListener('click', saveOnline);
+      document.getElementById('cm-new-map').addEventListener('click', function () { newMap(); });
+      document.getElementById('cm-fork').addEventListener('click', forkCurrent);
+      document.getElementById('cm-copy-link').addEventListener('click', copyLink);
+      document.getElementById('cm-delete-map').addEventListener('click', deleteCurrent);
+      document.getElementById('cm-copy-owner').addEventListener('click', function () {
+        if (current.meta.ownerToken) copy(current.meta.ownerToken, S.copyOk);
+      });
+      document.getElementById('cm-map-name').addEventListener('input', function (e) {
+        current.meta.name = e.target.value.slice(0, 80); markDirty();
+      });
+      document.getElementById('cm-map-server').addEventListener('input', function (e) {
+        current.meta.server = e.target.value.slice(0, 40); markDirty();
+      });
+      document.getElementById('cm-read-mode').addEventListener('change', function (e) {
+        current.meta.readMode = e.target.value; markDirty();
+        document.getElementById('cm-read-pw-wrap').style.display = e.target.value === 'password' ? '' : 'none';
+      });
+      document.getElementById('cm-write-mode').addEventListener('change', function (e) {
+        current.meta.writeMode = e.target.value; markDirty(); applyPermissions();
+        document.getElementById('cm-write-pw-wrap').style.display = e.target.value === 'password' ? '' : 'none';
+      });
+      document.getElementById('cm-map-select').addEventListener('change', function (e) {
+        var id = e.target.value;
+        if (id === 'local') {
+          var entry = registry.maps.local;
+          if (entry) { adoptCached(entry); syncUrl(); }
+          else newMap(true);
+          return;
+        }
+        openMap(id);
+      });
+      document.getElementById('cm-public-list').addEventListener('click', function (e) {
+        var b = e.target.closest('button[data-open]');
+        if (!b) return;
+        openMap(b.dataset.open);
+      });
+      document.getElementById('cm-unlock-write').addEventListener('click', function () {
+        pending = { kind: readLocked ? 'read' : 'write', id: current.meta.id };
+        showModal(pending.kind);
+      });
+      document.getElementById('cm-modal-cancel').addEventListener('click', hideModal);
+      document.getElementById('cm-modal-ok').addEventListener('click', submitModal);
+      document.getElementById('cm-modal-input').addEventListener('keydown', function (e) {
+        if (e.key === 'Enter') { e.preventDefault(); submitModal(); }
+        if (e.key === 'Escape') hideModal();
+      });
+      document.getElementById('cm-modal').addEventListener('click', function (e) {
+        if (e.target.id === 'cm-modal') hideModal();
+      });
+
+      /* ---------- events: stages ---------- */
+      document.getElementById('cm-stages').addEventListener('click', function (e) {
+        var b = e.target.closest('button[data-stage]');
+        if (!b) return;
+        stage = Number(b.dataset.stage);
+        selectedCity = '';
+        persistLocal();
+        renderAll();
+      });
+      document.getElementById('cm-copy-prev').addEventListener('click', function () {
+        if (!canEdit) { toast(readOnlyMessage()); return; }
+        if (stage < 2) return;
+        current.doc.stages[stage - 1].o = Object.assign({}, current.doc.stages[stage - 2].o);
+        markDirty(); renderAll();
+      });
+
+      /* ---------- events: cities ---------- */
       function cityClick(id) {
         if (suppressClick) return;
+        var p = byId.get(id);
+        if (!p) return;
+        if (isLocked(p)) { toast(stageLabel(stage)); return; }
+        if (!canEdit) { toast(readOnlyMessage()); return; }
         if (paintMode && paintId) {
-          if (paintId === '__free__') delete state.owners[id];
-          else if (state.owners[id] === paintId) delete state.owners[id];
-          else state.owners[id] = paintId;
-          save(); renderAlliances(); paintMap(); highlight(); renderSummary(); renderTable(); renderDetails();
+          var owners = curOwners();
+          if (paintId === '__free__') delete owners[id];
+          else if (owners[id] === paintId) delete owners[id];
+          else owners[id] = paintId;
+          markDirty(); renderAll();
           return;
         }
         selectedCity = selectedCity === id ? '' : id;
@@ -683,8 +1384,12 @@ const payload = {
         labelLayer.dataset.mode = b.dataset.label;
         document.querySelectorAll('#cm-labelmode button').forEach(function (c) { c.classList.toggle('is-on', c === b); });
       });
-      document.getElementById('cm-paint-mode').addEventListener('change', function (e) { paintMode = e.target.checked; });
+      document.getElementById('cm-paint-mode').addEventListener('change', function (e) {
+        if (!canEdit) { e.target.checked = false; toast(readOnlyMessage()); return; }
+        paintMode = e.target.checked;
+      });
       document.getElementById('cm-paint').addEventListener('change', function (e) {
+        if (!canEdit) { e.target.value = ''; toast(readOnlyMessage()); return; }
         paintId = e.target.value;
         if (paintId) { paintMode = true; document.getElementById('cm-paint-mode').checked = true; }
         renderAlliances();
@@ -692,12 +1397,15 @@ const payload = {
       document.getElementById('cm-alliance-list').addEventListener('click', function (e) {
         var btn = e.target.closest('button'); if (!btn) return;
         var id = btn.dataset.id, act = btn.dataset.act;
+        if (!canEdit) { toast(readOnlyMessage()); return; }
         if (act === 'del') {
-          state.alliances = state.alliances.filter(function (a) { return a.id !== id; });
-          Object.keys(state.owners).forEach(function (cid) { if (state.owners[cid] === id) delete state.owners[cid]; });
+          current.doc.alliances = current.doc.alliances.filter(function (a) { return a.id !== id; });
+          current.doc.stages.forEach(function (s) {
+            Object.keys(s.o).forEach(function (cid) { if (s.o[cid] === id) delete s.o[cid]; });
+          });
           if (paintId === id) paintId = '';
           if (editingId === id) resetForm();
-          save(); renderAll(); return;
+          markDirty(); renderAll(); return;
         }
         if (act === 'edit') {
           var a = alliance(id); if (!a) return;
@@ -725,43 +1433,83 @@ const payload = {
         formIcon = b.dataset.icon; syncFormSwatches();
       });
       document.getElementById('cm-clear').addEventListener('click', function () {
-        state.owners = {}; save(); renderAll();
+        if (!canEdit) { toast(readOnlyMessage()); return; }
+        current.doc.stages[stage - 1].o = {};
+        markDirty(); renderAll();
       });
-      document.getElementById('cm-share').addEventListener('click', function () {
-        var hash = '#cm=' + encode({ v: 1, a: state.alliances, o: state.owners });
-        var url = location.origin + location.pathname + hash;
-        history.replaceState(null, '', hash);
-        if (navigator.clipboard && navigator.clipboard.writeText) {
-          navigator.clipboard.writeText(url).then(function () { toast(S.copyOk + ' · ' + S.shareHint); },
-            function () { toast(S.copyOk); });
-        } else { toast(S.copyOk); }
-      });
+      document.getElementById('cm-share').addEventListener('click', copyLink);
       document.getElementById('cm-export').addEventListener('click', function () {
-        var blob = new Blob([JSON.stringify({ v: 1, alliances: state.alliances, owners: state.owners }, null, 2)], { type: 'application/json' });
+        var payload = {
+          v: 2, name: current.meta.name, server: current.meta.server,
+          alliances: current.doc.alliances, stages: current.doc.stages,
+        };
+        var blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
         var a = document.createElement('a');
-        a.href = URL.createObjectURL(blob); a.download = 'last-asylum-city-map-' + D.lang + '.json';
+        a.href = URL.createObjectURL(blob);
+        a.download = 'last-asylum-city-map-' + D.lang + '.json';
         document.body.appendChild(a); a.click(); a.remove();
         setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
       });
-      document.getElementById('cm-import').addEventListener('click', function () { document.getElementById('cm-file').click(); });
+      document.getElementById('cm-import').addEventListener('click', function () {
+        if (!canEdit) { toast(readOnlyMessage()); return; }
+        document.getElementById('cm-file').click();
+      });
       document.getElementById('cm-file').addEventListener('change', function (e) {
         var f = e.target.files && e.target.files[0]; if (!f) return;
         f.text().then(function (txt) {
-          state = normalize(JSON.parse(txt)); save(); renderAll(); toast(S.importOk);
+          var raw = JSON.parse(txt);
+          current.doc = normalizeDoc(raw);
+          if (typeof raw.name === 'string') current.meta.name = raw.name.slice(0, 80);
+          if (typeof raw.server === 'string') current.meta.server = raw.server.slice(0, 40);
+          current.meta.id = '';
+          current.meta.rev = 0;
+          markDirty(); renderMapManager(); renderAll(); toast(S.importOk);
         }).catch(function () { toast('JSON error'); });
         e.target.value = '';
+      });
+      window.addEventListener('beforeunload', function (e) {
+        if (dirty && current.meta.id) { e.preventDefault(); e.returnValue = ''; }
       });
 
       /* ---------- boot ---------- */
       try {
-        var raw = localStorage.getItem(KEY);
-        if (raw) state = normalize(JSON.parse(raw));
+        var raw = localStorage.getItem(LS);
+        if (raw) {
+          var parsed = JSON.parse(raw);
+          if (parsed && parsed.maps) registry = { active: parsed.active || 'local', maps: parsed.maps };
+        }
       } catch (e) {}
-      var m = location.hash.match(/#cm=([A-Za-z0-9\-_]+)/);
-      if (m) {
-        try { state = normalize(decode(m[1])); save(); } catch (e) {}
+
+      var params = new URLSearchParams(location.search);
+      var mapId = params.get('map');
+      var ownerFromHash = (location.hash.match(/#k=([a-f0-9]{32,64})/) || [])[1] || '';
+      if (ownerFromHash && mapId && registry.maps[mapId]) registry.maps[mapId].meta.ownerToken = ownerFromHash;
+
+      if (mapId && /^[a-z0-9]{8,16}$/.test(mapId)) {
+        var cached = registry.maps[mapId];
+        if (cached) adoptCached(cached);
+        else {
+          current.meta = Object.assign(blankMeta(), { id: mapId, name: mapId });
+          readLocked = true;
+          renderMapManager(); renderAll();
+        }
+        openMap(mapId);
+      } else {
+        var entry = registry.maps[registry.active];
+        if (entry) adoptCached(entry);
+        else { persistLocal(); renderMapManager(); renderAll(); }
+        var legacy = location.hash.match(/#cm=([A-Za-z0-9\-_]+)/);
+        if (legacy) {
+          try {
+            current.doc = normalizeDoc(decode(legacy[1]));
+            current.meta.id = '';
+            markDirty(); renderMapManager(); renderAll(); toast(S.importOk);
+          } catch (e) {}
+        }
       }
-      resetForm(); renderAll();
+      resetForm();
+      renderAll();
+      loadPublicMaps();
     }
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
     else init();
@@ -780,6 +1528,7 @@ const payload = {
     font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase;
     color: #a8a29e; white-space: nowrap; font-weight: 600;
   }
+  #cm-app .cm-field { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
   #cm-app .cm-chip,
   #cm-app .cm-iconbtn,
   #cm-app .cm-btn-ghost {
@@ -804,6 +1553,9 @@ const payload = {
   }
   #cm-app .cm-btn:hover { filter: brightness(1.12); }
   #cm-app .cm-btn-ghost { justify-content: flex-start; }
+  #cm-app .cm-danger { color: #fda4af; border-color: rgba(244, 63, 94, .25); }
+  #cm-app .cm-danger:hover { background: rgba(244, 63, 94, .12); color: #ffe4e6; }
+  #cm-app button:disabled { opacity: .38; cursor: not-allowed; }
   #cm-app .cm-seg { display: inline-flex; border: 1px solid rgba(255,255,255,.09); border-radius: 9px; overflow: hidden; }
   #cm-app .cm-seg button {
     border: 0; border-right: 1px solid rgba(255,255,255,.07);
@@ -817,9 +1569,41 @@ const payload = {
     background: rgba(8,8,7,.75); color: #e7e5e4;
     font-size: 12px; padding: 7px 10px; outline: none; max-width: 220px;
   }
+  #cm-app .cm-field .cm-input, #cm-app .cm-field .cm-select { max-width: none; }
   #cm-app .cm-select { cursor: pointer; }
   #cm-app .cm-input:focus, #cm-app .cm-select:focus { border-color: #b4ff39; }
   #cm-app .cm-input::placeholder { color: #78716c; }
+
+  /* stage badge — repeated at the top of every section */
+  #cm-app .cm-stage-tag {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
+    border-bottom: 1px solid rgba(255,255,255,.06); padding-bottom: 8px;
+  }
+  #cm-app .cm-stage-name {
+    font-size: 10px; letter-spacing: .14em; text-transform: uppercase;
+    color: #a8a29e; font-weight: 700;
+  }
+  #cm-app .cm-stage-name strong { color: #b4ff39; font-size: 13px; letter-spacing: 0; }
+  #cm-app .cm-stage-total { color: #57534e; }
+  #cm-app .cm-pips { display: inline-flex; gap: 3px; }
+  #cm-app .cm-pip { width: 16px; height: 5px; border-radius: 2px; display: inline-block; }
+  #cm-app .cm-pip.is-on { box-shadow: 0 0 7px -1px currentColor; }
+  #cm-app .cm-stage-sub { font-size: 10.5px; color: #78716c; margin-left: auto; }
+  #cm-app .cm-stagebtn {
+    display: inline-flex; align-items: center; gap: 5px;
+    border: 1px solid rgba(255,255,255,.09); border-radius: 8px;
+    background: rgba(255,255,255,.035); color: #d6d3d1;
+    font-size: 11px; font-weight: 700; padding: 6px 9px; cursor: pointer;
+  }
+  #cm-app .cm-stagebtn:hover { background: rgba(255,255,255,.1); }
+  #cm-app .cm-stagebtn.is-on { background: #b4ff39; border-color: #b4ff39; color: #10130a; }
+  #cm-app .cm-stagebtn-pip { width: 9px; height: 9px; border-radius: 2px; display: inline-block; }
+
+  #cm-app .cm-map-row {
+    display: flex; align-items: center; gap: 8px;
+    border: 1px solid rgba(255,255,255,.06); border-radius: 9px;
+    background: rgba(255,255,255,.025); padding: 5px 6px 5px 10px;
+  }
 
   #cm-app .cm-map-wrap {
     background: radial-gradient(circle at 50% 45%, #1b211a 0%, #0b0d0a 78%);
@@ -835,9 +1619,15 @@ const payload = {
   #cm-app .cm-poly:hover { filter: brightness(1.22); }
   #cm-app .cm-poly:focus-visible { stroke: #fff; stroke-width: 4; }
   #cm-app .cm-poly.cm-dim { opacity: .1; pointer-events: none; }
+  #cm-app .cm-poly.cm-locked {
+    fill: #14170f; opacity: .55; cursor: not-allowed;
+    stroke-dasharray: 4 4; stroke: #2c3026; stroke-width: 1.4;
+  }
+  #cm-app .cm-poly.cm-locked:hover { filter: none; }
   #cm-app .cm-poly.cm-selected { stroke: #fff !important; stroke-width: 5 !important; stroke-dasharray: 9 5; }
   #cm-app .cm-label { transition: opacity .18s; direction: ltr; unicode-bidi: plaintext; }
   #cm-app .cm-label.cm-dim { opacity: .08; }
+  #cm-app .cm-label.cm-locked { display: none; }
   #cm-app .cm-label text {
     text-anchor: middle; font-family: "Plus Jakarta Sans", system-ui, sans-serif;
     fill: #fff; stroke: rgba(10, 14, 9, .78); stroke-width: 2.6px;
@@ -845,15 +1635,30 @@ const payload = {
   }
   #cm-app .cm-lv { font-size: 10.5px; opacity: .92; letter-spacing: .02em; }
   #cm-app .cm-bl { font-size: 11.5px; }
-  #cm-app .cm-val { font-size: 13px; fill: #fff !important; }
+  #cm-app .cm-val { font-size: 13px; }
   #cm-app .cm-royal { font-size: 13px; }
+  #cm-app .cm-bico-i {
+    font-size: 11px; stroke: none !important; paint-order: normal !important;
+    text-anchor: middle;
+  }
   #cm-app .cm-label.cm-tiny .cm-lv { font-size: 9px; }
   #cm-app .cm-label.cm-tiny .cm-bl { font-size: 9.5px; }
   #cm-app .cm-label.cm-tiny .cm-val { font-size: 11px; }
-  #cm-labels[data-mode="compact"] .cm-lv { display: none; }
+  #cm-labels[data-mode="compact"] .cm-lv,
+  #cm-labels[data-mode="compact"] .cm-bl { display: none; }
+  #cm-labels[data-mode="compact"] .cm-val { font-size: 14px; }
   #cm-labels[data-mode="off"] { display: none; }
   #cm-app .cm-badge text { font-family: system-ui, sans-serif; }
   #cm-app .cm-badge circle { filter: drop-shadow(0 2px 3px rgba(0,0,0,.7)); }
+
+  /* bonus pictograms */
+  #cm-app .cm-bchip {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 19px; height: 19px; border-radius: 5px; font-size: 11px;
+    border: 1px solid rgba(0,0,0,.35); line-height: 1; flex: none;
+  }
+  #cm-app .cm-ramp { width: 9px; height: 9px; border-radius: 2px; display: inline-block; }
+  #cm-app .cm-bico { filter: drop-shadow(0 1px 2px rgba(0,0,0,.55)); }
 
   #cm-app .cm-alliance {
     display: flex; align-items: stretch; gap: 2px;
@@ -899,8 +1704,22 @@ const payload = {
     transition: opacity .2s, transform .2s;
   }
   #cm-app .cm-toast.is-on { opacity: 1; transform: translate(-50%, 0); }
+
+  #cm-app .cm-modal {
+    position: fixed; inset: 0; z-index: 90; display: flex; align-items: center; justify-content: center;
+    background: rgba(5,6,4,.72); backdrop-filter: blur(3px); padding: 16px;
+  }
+  #cm-app .cm-modal.hidden { display: none; }
+  #cm-app .cm-modal-box {
+    width: 100%; max-width: 380px; border-radius: 14px; padding: 18px;
+    border: 1px solid rgba(180,255,57,.22); background: #14150f;
+    box-shadow: 0 30px 80px -30px #000;
+  }
+  #cm-app.cm-readonly .cm-poly { cursor: default; }
+
   @media (max-width: 640px) {
     #cm-app .cm-label .cm-bl { font-size: 9px; }
     #cm-app .cm-label .cm-lv { font-size: 8px; }
+    #cm-app .cm-stage-sub { margin-left: 0; }
   }
 </style>

@@ -13,6 +13,7 @@
     "astro": "astro",
     "check:links": "node scripts/check-links.mjs",
     "check:types": "astro sync && tsc --noEmit -p tsconfig.json",
+    "test:maps": "node scripts/test-maps-api.mjs",
     "db:sync": "node scripts/sync-db-articles.mjs",
     "db:seed": "node scripts/seed-supabase.mjs",
     "deploy": "bash scripts/deploy.sh"

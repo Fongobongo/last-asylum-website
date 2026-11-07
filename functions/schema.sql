@@ -28,3 +28,33 @@ CREATE TABLE IF NOT EXISTS suggested_codes (
   submitter TEXT NOT NULL DEFAULT '',
   created_at INTEGER NOT NULL
 );
+
+-- city_maps: shared city-map documents (see api/maps.js).
+-- doc holds JSON {v:2, alliances:[...], stages:[{o:{cityId:allianceId}} x7]}.
+-- Passwords and the owner token are stored as salted SHA-256 hashes only.
+CREATE TABLE IF NOT EXISTS city_maps (
+  id TEXT PRIMARY KEY,
+  name TEXT NOT NULL DEFAULT '',
+  server TEXT NOT NULL DEFAULT '',
+  owner_hash TEXT NOT NULL,
+  read_mode TEXT NOT NULL DEFAULT 'public',
+  write_mode TEXT NOT NULL DEFAULT 'open',
+  read_salt TEXT NOT NULL DEFAULT '',
+  read_hash TEXT NOT NULL DEFAULT '',
+  write_salt TEXT NOT NULL DEFAULT '',
+  write_hash TEXT NOT NULL DEFAULT '',
+  doc TEXT NOT NULL,
+  rev INTEGER NOT NULL DEFAULT 1,
+  forked_from TEXT NOT NULL DEFAULT '',
+  created_at INTEGER NOT NULL,
+  updated_at INTEGER NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS idx_city_maps_updated ON city_maps(updated_at DESC);
+
+-- map_attempts: brute-force guard for map passwords (per IP + map + kind).
+CREATE TABLE IF NOT EXISTS map_attempts (
+  ident TEXT PRIMARY KEY,
+  count INTEGER NOT NULL DEFAULT 0,
+  window_start INTEGER NOT NULL
+);
