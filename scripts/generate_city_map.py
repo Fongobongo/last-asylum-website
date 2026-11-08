@@ -27,12 +27,19 @@ Source of truth for the bonus translations:
   game_terms.json  (strings extracted from the game client, 18 languages)
   + the hand-written UI dictionaries below (19 languages).
 
+`rectify_city_map.py` straightens the traced outlines and returns one
+deduplicated SVG path for all borders; `build_city_map_icons.py` exports the
+real in-game resource/activity sprites into site/public/city-map/. Bonus cells
+therefore show a kind sign + a game sprite + "+N%" instead of a paragraph.
+
 Run:  python scripts/generate_city_map.py
 """
 
 import json
 import os
 import re
+
+from rectify_city_map import border_path, rectify
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GEOMETRY = os.path.join(ROOT, "scripts", "city_map_geometry.json")
@@ -49,6 +56,20 @@ BONUS_KEYS = [
     "grain_output", "timber_output", "herb_output", "grain_gather",
     "training", "research", "building",
 ]
+
+# In-cell badges: one sign for production/output, another for gathering, a
+# third for the speed bonuses; next to it the real in-game resource (or
+# activity) sprite, then just the +N% value. No localized prose inside cells.
+BONUS_KIND = {
+    "grain_output": "output", "timber_output": "output", "herb_output": "output",
+    "grain_gather": "gather",
+    "training": "speed", "research": "speed", "building": "speed",
+}
+BONUS_SPRITE = {
+    "grain_output": "grain", "timber_output": "timber", "herb_output": "herb",
+    "grain_gather": "grain", "training": "training",
+    "research": "research", "building": "building",
+}
 
 # English map labels -> game_terms.json key holding the localized phrase.
 TERM_KEYS = {
@@ -141,6 +162,11 @@ UI_ROWS = {
     "iconLabel": ["Pictogram", "Пиктограмма", "Icono", "Ícone", "Icône", "Symbol", "Ikon", "아이콘", "アイコン", "أيقونة", "Icona", "Ikon", "Pictogram", "ไอคอน", "Simge", "Biểu tượng", "图标", "Ikona", "圖示"],
     "level": ["Level", "Уровень", "Nivel", "Nível", "Niveau", "Stufe", "Level", "레벨", "レベル", "المستوى", "Livello", "Tahap", "Level", "เลเวล", "Seviye", "Cấp độ", "等级", "Poziom", "等級"],
     "bonus": ["Bonus", "Бонус", "Bonificación", "Bônus", "Bonus", "Bonus", "Bonus", "보너스", "ボーナス", "مكافأة", "Bonus", "Bonus", "Bonus", "โบนัส", "Bonus", "Bonus", "加成", "Bonus", "加成"],
+    # The three in-cell signs. The badge reads: sign + game icon + "+N%",
+    # so the legend needs a word for each sign and none for the resource.
+    "kindOutput": ["Production", "Продукция", "Producción", "Produção", "Production", "Produktion", "Produksi", "생산", "生産", "الإنتاج", "Produzione", "Pengeluaran", "Productie", "การผลิต", "Üretim", "Sản xuất", "生产", "Produkcja", "生產"],
+    "kindGather": ["Gathering", "Сбор", "Recolección", "Coleta", "Collecte", "Sammeln", "Pengumpulan", "채집", "採集", "الجمع", "Raccolta", "Kutipan", "Verzamelen", "การเก็บรวบ", "Toplama", "Thu thập", "采集", "Zbiór", "採集"],
+    "kindSpeed": ["Speed", "Скорость", "Velocidad", "Velocidade", "Vitesse", "Tempo", "Kecepatan", "속도", "速度", "السرعة", "Velocità", "Kelajuan", "Snelheid", "ความเร็ว", "Hız", "Tốc độ", "速度", "Prędkość", "速度"],
     "owner": ["Owner", "Владелец", "Dueño", "Dono", "Propriétaire", "Besitzer", "Pemilik", "소유자", "所有者", "المالك", "Proprietario", "Pemilik", "Eigenaar", "เจ้าของ", "Sahip", "Chủ sở hữu", "归属", "Właściciel", "歸屬"],
     "free": ["Unclaimed", "Свободен", "Libre", "Livre", "Libre", "Frei", "Bebas", "미점령", "未占領", "غير محتل", "Libero", "Bebas", "Vrij", "ยังไม่มีเจ้าของ", "Boş", "Chưa chiếm", "未占领", "Wolne", "未佔領"],
     "royal": ["Royal City", "Королевский город", "Ciudad Real", "Cidade Real", "Cité Royale", "Königsstadt", "Kota Kerajaan", "왕성", "王城", "المدينة الملكية", "Città Reale", "Kota Diraja", "Koningsstad", "นครหลวง", "Kraliyet Şehri", "Thành Hoàng Gia", "王城", "Miasto Królewskie", "王城"],
@@ -249,12 +275,10 @@ UI_ROWS = {
     "cityName": ["City", "Город", "Ciudad", "Cidade", "Ville", "Stadt", "Kota", "도시", "都市", "مدينة", "Città", "Bandar", "Stad", "เมือง", "Şehir", "Thành phố", "城市", "Miasto", "城市"],
 }
 
-# Bonus pictograms and their base hues. The client derives saturation from the
-# bonus value: +5% is a muted shade, +20% is a vivid, fully saturated one.
-BONUS_ICONS = {
-    "grain_output": "🌾", "timber_output": "🪵", "herb_output": "🌿",
-    "grain_gather": "🧺", "training": "⚔️", "research": "🔬", "building": "🏗️",
-}
+# Bonus base hues. The client derives saturation from the bonus value:
+# +5% is a muted shade, +20% is a vivid, fully saturated one. The pictograms
+# themselves are now the kind signs + real game sprites (BONUS_KIND /
+# BONUS_SPRITE), so the old emoji table is no longer generated.
 BONUS_HUES = {
     "grain_output": 42, "timber_output": 24, "herb_output": 140,
     "grain_gather": 186, "training": 356, "research": 212, "building": 272,
@@ -461,8 +485,19 @@ def main():
     fill_coords(src_cities)
     trace = json.load(open(GEOMETRY, encoding="utf-8"))
     pairs = match_territories(trace, src_cities)
-    map_w = max(p[0] for t in trace for p in t["poly"]) + 7
-    map_h = max(p[1] for t in trace for p in t["poly"]) + 2
+    # The hand trace wobbles by 1-5 px and leaves 2-6 px gaps between
+    # neighbours. Straighten it to exact axis-aligned shared borders and draw
+    # one deduplicated border path instead of two overlapping strokes.
+    shapes, report = rectify(trace)
+    if report["problems"]:
+        raise SystemExit("border rectification failed: " + "; ".join(report["problems"][:5]))
+    borders = border_path(shapes)
+    print(
+        "straightened %d territories: %s, %d unique border segments"
+        % (report["territories"], report["edges"], borders.count("M"))
+    )
+    map_w = max(p[0] for poly in shapes.values() for p in poly) + 7
+    map_h = max(p[1] for poly in shapes.values() for p in poly) + 2
 
     cities = []
     filled = 0
@@ -482,7 +517,7 @@ def main():
         # must agree. (One OCR label lost its percentage, so compare keys.)
         if c["bonus"] and pic_key and c["bonus"] != pic_key:
             raise SystemExit("bonus conflict at %s: client %s / picture %s" % (t["id"], c["bonus"], pic_key))
-        pts = [(px, py) for px, py in t["poly"]]
+        pts = [tuple(p) for p in shapes[t["id"]]]
         if len(pts) < 3:
             raise SystemExit("empty territory for %s" % t["id"])
         xs = [p[0] for p in pts]
@@ -514,7 +549,9 @@ def main():
     add("// in-game city map). Levels, names, bonuses: the game client tables")
     add("// MechCity / DefineBenefit, joined to the outlines by map coordinates.")
     add("// The 20 level-1 bonuses missing from MechCity come from the two")
-    add("// in-game screenshots (all \"Grain Output 5%\").")
+    add("// in-game screenshots (all \"Grain Output 5%\"). Borders are straightened")
+    add("// by scripts/rectify_city_map.py; sprites come from the game client via")
+    add("// scripts/build_city_map_icons.py.")
     add("")
     add("export type Lang = " + " | ".join(ts(l) for l in LANGS) + ";")
     add("export type BonusKey = " + " | ".join(ts(k) for k in BONUS_KEYS) + ";")
@@ -528,10 +565,13 @@ def main():
     add("export const LEVEL_COLORS: Record<number, string> = " + ts(LEVEL_COLORS) + ";")
     add("export const LEVEL_HP: Record<number, number | null> = " + ts(LEVEL_HP) + ";")
     add("export const LEVEL_GARRISON: Record<number, number | null> = " + ts(LEVEL_GARRISON) + ";")
+    add("export type BonusKind = 'output' | 'gather' | 'speed';")
     add("export const BONUS_KEYS: BonusKey[] = " + ts(BONUS_KEYS) + ";")
+    add("export const BONUS_KIND: Record<BonusKey, BonusKind> = " + ts(BONUS_KIND) + ";")
+    add("export const BONUS_SPRITE: Record<BonusKey, string> = " + ts({k: "/city-map/" + v + ".png" for k, v in BONUS_SPRITE.items()}) + ";")
+    add("export const BORDER_PATH: string = " + ts(borders) + ";")
     add("export const ALLIANCE_COLORS: string[] = " + ts(ALLIANCE_COLORS) + ";")
     add("export const ALLIANCE_ICONS: string[] = " + ts(ALLIANCE_ICONS) + ";")
-    add("export const BONUS_ICONS: Record<BonusKey, string> = " + ts(BONUS_ICONS) + ";")
     add("export const BONUS_HUES: Record<BonusKey, number> = " + ts(BONUS_HUES) + ";")
     add("export const BONUS_LABELS: Record<Lang, Record<BonusKey, { full: string; short: string }>> = " + ts(bonus_labels) + ";")
     add("export const GENERIC_NAMES: Record<Lang, Record<number, string>> = " + ts(generic) + ";")

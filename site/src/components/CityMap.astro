@@ -1,10 +1,11 @@
 ---
 import {
   CITIES, MAP_W, MAP_H, LEVEL_COLORS, LEVEL_HP, LEVEL_GARRISON,
-  BONUS_KEYS, BONUS_LABELS, BONUS_ICONS, BONUS_HUES,
+  BONUS_KEYS, BONUS_LABELS, BONUS_HUES,
+  BONUS_KIND, BONUS_SPRITE, BORDER_PATH,
   GENERIC_NAMES, NAMED_CITIES, UI,
   ALLIANCE_COLORS, ALLIANCE_ICONS,
-  type BonusKey,
+  type BonusKey, type BonusKind,
 } from '../data/cityMap';
 import type { Lang } from '../i18n/utils';
 
@@ -26,8 +27,28 @@ const shortOf = (c: (typeof CITIES)[number]): string =>
 const fullOf = (c: (typeof CITIES)[number]): string =>
   c.bonus ? B[c.bonus as BonusKey].full : '';
 
+/* In-cell badges carry almost no text: one sign for production, a different
+   one for gathering, a third for the speed bonuses; then the real in-game
+   resource sprite and just "+N%". The localized prose stays in the legend,
+   the detail panel and the city directory. */
+const SIGN_PATHS: Record<BonusKind, string> = {
+  // an arrow leaving a tray = output / production
+  output: 'M8 1 L13 6 H10.3 V10 H5.7 V6 H3 Z M2.5 11.4 H13.5 V14 H2.5 Z',
+  // an arrow entering from above = gathering / collecting
+  gather: 'M8 15 L3 10 H5.7 V6 H10.3 V10 H13 Z M2.5 2 H13.5 V4.6 H2.5 Z',
+  speed: 'M9.2 1 L3.4 8.7 H7.1 L6.2 15 L12.6 7 H8.8 Z',
+};
+const SIGN_COLORS: Record<BonusKind, string> = {
+  output: '#ffd166', gather: '#67e8f9', speed: '#c4b5fd',
+};
+const SIGN_TITLES: Record<BonusKind, string> = {
+  output: S.kindOutput, gather: S.kindGather, speed: S.kindSpeed,
+};
+const kindOf = (c: (typeof CITIES)[number]): BonusKind | null =>
+  c.bonus ? BONUS_KIND[c.bonus as BonusKey] : null;
+
 // Bonus magnitude -> colour. +5% is a muted shade, +20% is vivid; saturation
-// carries the strength so the pictogram itself encodes the bonus size.
+// carries the strength so the value colour itself encodes the bonus size.
 const ramp = (v: number) => Math.max(0, Math.min(1, (v - 5) / 15));
 const fillFor = (k: BonusKey, v: number) =>
   `hsl(${BONUS_HUES[k]} ${Math.round(34 + 56 * ramp(v))}% ${Math.round(24 + 12 * ramp(v))}%)`;
@@ -38,7 +59,9 @@ const payload = {
   s: S, b: B, keys: BONUS_KEYS, colors: LEVEL_COLORS,
   hp: LEVEL_HP, garrison: LEVEL_GARRISON,
   palette: ALLIANCE_COLORS, icons: ALLIANCE_ICONS,
-  bicons: BONUS_ICONS, bhues: BONUS_HUES,
+  bhues: BONUS_HUES,
+  kinds: BONUS_KIND, sprites: BONUS_SPRITE,
+  signs: SIGN_PATHS, signInk: SIGN_COLORS, signTitles: SIGN_TITLES,
   mapW: MAP_W, mapH: MAP_H, lang,
 };
 ---
@@ -182,8 +205,11 @@ const payload = {
         <span class="cm-cap">{S.bonus}</span>
         <div id="cm-bonuses" class="flex flex-wrap gap-1">
           {BONUS_KEYS.map((k) => (
-            <button class="cm-chip" data-bonus={k}>
-              <span class="cm-bchip" style={`background:${fillFor(k, 20)}`}>{BONUS_ICONS[k]}</span>
+            <button class="cm-chip" data-bonus={k} title={B[k].full}>
+              <svg class="cm-signicon" viewBox="0 0 16 16" width="12" height="12" aria-hidden="true">
+                <path d={SIGN_PATHS[BONUS_KIND[k]]} fill={SIGN_COLORS[BONUS_KIND[k]]} />
+              </svg>
+              <img class="cm-resicon" src={BONUS_SPRITE[k]} width="17" height="17" alt="" loading="lazy" />
               {B[k].short}
             </button>
           ))}
@@ -260,6 +286,9 @@ const payload = {
               </polygon>
             ))}
           </g>
+          <!-- Every shared border is drawn exactly once, from the straightened
+               geometry, so there are no doubled antialiased strokes. -->
+          <path id="cm-borders" d={BORDER_PATH} pointer-events="none" />
           <g id="cm-badges" pointer-events="none"></g>
           <g id="cm-labels" data-mode="full" pointer-events="none">
             {CITIES.map((c) => (
@@ -271,13 +300,18 @@ const payload = {
                 ) : !c.bonus ? (
                   <text class="cm-none" x={c.lx} y={c.ly + 6}>{S.noBonus}</text>
                 ) : (
-                  <g>
-                    <circle class="cm-bico" cx={c.lx - 31} cy={c.ly + 9} r="10"
-                            fill={fillFor(c.bonus as BonusKey, c.value)}
-                            stroke="rgba(255,255,255,.45)" stroke-width="1.2" />
-                    <text class="cm-bico-i" x={c.lx - 31} y={c.ly + 13.5}>{BONUS_ICONS[c.bonus as BonusKey]}</text>
-                    <text class="cm-bl" x={c.lx + 8} y={c.ly + 3}>{shortOf(c)}</text>
-                    <text class="cm-val" x={c.lx + 8} y={c.ly + 21} style={`fill:${inkFor(c.bonus as BonusKey, c.value)}`}>+{c.value}%</text>
+                  <g class="cm-bonus" data-id={c.id} data-cx={c.lx} data-cy={c.ly + 9}>
+                    <title>{SIGN_TITLES[kindOf(c) as BonusKind]} · {fullOf(c)} +{c.value}%</title>
+                    <path class="cm-sign"
+                          d={SIGN_PATHS[kindOf(c) as BonusKind]}
+                          transform={`translate(${c.lx - 37} ${c.ly + 3}) scale(.875)`}
+                          fill={SIGN_COLORS[kindOf(c) as BonusKind]} />
+                    <image class="cm-rico" href={BONUS_SPRITE[c.bonus as BonusKey]}
+                           x={c.lx - 21} y={c.ly - 1} width="20" height="20"
+                           preserveAspectRatio="xMidYMid meet" />
+                    <text class="cm-val" x={c.lx + 18} y={c.ly + 16}
+                          data-vx={c.lx + 18} data-cx={c.lx}
+                          style={`fill:${inkFor(c.bonus as BonusKey, c.value)}`}>+{c.value}%</text>
                   </g>
                 )}
               </g>
@@ -305,9 +339,22 @@ const payload = {
         </div>
         <div class="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1.5">
           <span class="cm-cap">{S.bonus}</span>
+          {(Object.keys(SIGN_PATHS) as BonusKind[]).map((kind) => (
+            <span class="inline-flex items-center gap-1.5 text-[11px] text-stone-400">
+              <svg class="cm-signicon" viewBox="0 0 16 16" width="13" height="13" aria-hidden="true">
+                <path d={SIGN_PATHS[kind]} fill={SIGN_COLORS[kind]} />
+              </svg>
+              <span>{SIGN_TITLES[kind]}</span>
+            </span>
+          ))}
+        </div>
+        <div class="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1.5">
           {BONUS_KEYS.map((k) => (
             <span class="inline-flex items-center gap-1.5 text-[11px] text-stone-400" title={B[k].full}>
-              <span class="cm-bchip" style={`background:${fillFor(k, 5)}`}>{BONUS_ICONS[k]}</span>
+              <svg class="cm-signicon" viewBox="0 0 16 16" width="12" height="12" aria-hidden="true">
+                <path d={SIGN_PATHS[BONUS_KIND[k]]} fill={SIGN_COLORS[BONUS_KIND[k]]} />
+              </svg>
+              <img class="cm-resicon" src={BONUS_SPRITE[k]} width="17" height="17" alt="" loading="lazy" />
               <span>{B[k].short}</span>
               <span class="inline-flex gap-[3px]">
                 {[5, 10, 15, 20].map((v) => (
@@ -428,7 +475,8 @@ const payload = {
       window.__cmReady = true;
 
       var S = D.s, B = D.b, KEYS = D.keys, LCOL = D.colors, HP = D.hp, GAR = D.garrison;
-      var BICON = D.bicons, BHUE = D.bhues;
+      var BHUE = D.bhues;
+      var KINDS = D.kinds, SPRITES = D.sprites, SIGNS = D.signs, SIGNINK = D.signInk;
       var MW = D.mapW, MH = D.mapH, RATIO = MH / MW;
       var STAGES = 7;
       var LS = 'lap_citymap_v2';
@@ -443,11 +491,10 @@ const payload = {
       var labelById = new Map(labels.map(function (g) { return [g.dataset.id, g]; }));
 
       /* City names come from the game in 19 languages and can be long. The
-         territories are Voronoi cells, so a cell's bounding box is much wider
-         than the cell itself where its edges are slanted — a name fitted to the
-         box spills into the neighbours. Instead each name is fitted to the real
-         horizontal extent of its polygon at the height the text sits, and is
-         nudged sideways when the cell is skewed. */
+         territories are traced from the in-game picture, so many are L-shaped
+         and a cell's bounding box is much wider than the cell itself at the
+         height of the text. Fit each name to the real horizontal extent of its
+         polygon instead, and nudge it sideways when the cell is skewed. */
       function parsePoints(poly) {
         if (!poly) return null;
         if (poly._pts) return poly._pts;
@@ -605,31 +652,49 @@ const payload = {
           if (hidden) g.style.display = '';
         });
       }
-      /* Bonus labels are short in English but much longer in e.g. Russian
-         ("Прод. древа" vs "Timber"). Shrink them down to 8px just enough to stay
-         inside their own territory; the pictogram keeps the type readable. */
-      function fitBonusLabels() {
+      /* An in-cell badge is sign + game sprite + "+N%" (~72px). A few traced
+         territories are narrower than that. Drop the sign first, then the
+         sprite, then shrink the value, and finally nudge the whole badge
+         sideways so it never spills into a neighbour. Compact mode hides both
+         pictures via CSS, so only "+N%" has to fit there. */
+      function fitBonusBadges() {
+        if (window.getComputedStyle(labelLayer).display === 'none') return;
         labels.forEach(function (g) {
-          var t = g.querySelector('.cm-bl');
-          if (!t) return;
+          var badge = g.querySelector('.cm-bonus');
+          if (!badge) return;
+          var sign = badge.querySelector('.cm-sign');
+          var ico = badge.querySelector('.cm-rico');
+          var val = badge.querySelector('.cm-val');
           var pts = parsePoints(byId.get(g.dataset.id));
           if (!pts) return;
-          var span = spanAt(pts, Number(t.getAttribute('y')));
+          var cy = Number(badge.getAttribute('data-cy'));
+          var span = bandSpan(pts, cy - 10, cy + 10) || spanAt(pts, cy);
           if (!span) return;
           var hidden = window.getComputedStyle(g).display === 'none';
           if (hidden) g.style.display = 'inline';
-          var px = 11.5;
-          for (; px >= 8; px -= 0.5) {
-            t.style.fontSize = px + 'px';
-            var bb = t.getBBox();
-            if (bb.x >= span[0] - 1 && bb.x + bb.width <= span[1] + 1) break;
-          }
+          var avail = span[1] - span[0] - 6;
+
+          sign.style.display = '';
+          ico.style.display = '';
+          val.style.fontSize = '';
+          badge.removeAttribute('transform');
+          var box = function () { return badge.getBBox(); };
+          var bb = box();
+          if (bb.width > avail) { sign.style.display = 'none'; bb = box(); }
+          if (bb.width > avail) { ico.style.display = 'none'; bb = box(); }
+          if (bb.width > avail) { val.style.fontSize = '10px'; bb = box(); }
+          if (bb.width > avail) { val.style.fontSize = '8px'; bb = box(); }
+
+          var dx = 0;
+          if (bb.x + bb.width > span[1] - 3) dx = span[1] - 3 - bb.x - bb.width;
+          if (bb.x + dx < span[0] + 3) dx = span[0] + 3 - bb.x;
+          if (dx) badge.setAttribute('transform', 'translate(' + dx.toFixed(1) + ' 0)');
           if (hidden) g.style.display = '';
         });
       }
       fitNames();
-      fitBonusLabels();
-      window.addEventListener('load', function () { fitNames(); fitBonusLabels(); });
+      fitBonusBadges();
+      window.addEventListener('load', function () { fitNames(); fitBonusBadges(); });
 
       /* ---------- state ---------- */
       var current = { meta: blankMeta(), doc: blankDoc() };
@@ -681,6 +746,18 @@ const payload = {
         if (!k || BHUE[k] == null) return '#a8a29e';
         var t = rampOf(v);
         return 'hsl(' + BHUE[k] + ' ' + Math.round(50 + 45 * t) + '% ' + Math.round(62 + 14 * t) + '%)';
+      }
+      /* The same visual language as the map cells: a kind sign + the real
+         in-game sprite, on the ramp colour that encodes the bonus size. Used
+         in the detail panel, the alliance summary and the city table. */
+      function bonusChip(k, v) {
+        if (!k || !KINDS[k]) return '';
+        var kind = KINDS[k];
+        return '<span class="cm-bchip" style="background:' + bonusFill(k, v) + '">' +
+          '<svg class="cm-signicon" viewBox="0 0 16 16" width="12" height="12" aria-hidden="true">' +
+          '<path d="' + SIGNS[kind] + '" fill="' + SIGNINK[kind] + '"></path></svg>' +
+          '<img class="cm-resicon" src="' + SPRITES[k] + '" width="15" height="15" alt="" loading="lazy">' +
+          '</span>';
       }
       function stageLabel(n) {
         var txt = S.unlockedLevels.replace('{n}', String(n));
@@ -1056,7 +1133,7 @@ const payload = {
             '<span class="rounded-md border border-white/10 px-2 py-1" style="color:' + (LCOL[lv] || LCOL[7]) + '">' + S.level + ' ' + lv + '</span>' +
             (p.dataset.bonus
               ? '<span class="inline-flex items-center gap-1.5 rounded-md border border-white/10 px-2 py-1 text-stone-200">' +
-                '<span class="cm-bchip" style="background:' + bonusFill(p.dataset.bonus, p.dataset.value) + '">' + esc(BICON[p.dataset.bonus] || '') + '</span>' +
+                bonusChip(p.dataset.bonus, p.dataset.value) +
                 esc(bonusText(p)) + '</span>'
               : '<span class="rounded-md border border-white/10 px-2 py-1">' + esc(S.royal) + '</span>') +
           '</div>',
@@ -1104,7 +1181,7 @@ const payload = {
           var rows = KEYS.filter(function (k) { return st.byBonus[k]; }).map(function (k) {
             return '<div class="flex items-center justify-between gap-2 border-b border-white/[0.04] py-1 last:border-0">' +
               '<span class="inline-flex items-center gap-1.5 text-[11px] text-stone-400">' +
-                '<span class="cm-bchip" style="background:' + bonusFill(k, Math.min(20, st.byBonus[k])) + '">' + esc(BICON[k] || '') + '</span>' +
+                bonusChip(k, Math.min(20, st.byBonus[k])) +
                 esc(B[k] ? B[k].full : k) + '</span>' +
               '<span class="font-mono text-xs font-bold text-toxic-300">+' + st.byBonus[k] + '%</span></div>';
           }).join('');
@@ -1155,7 +1232,7 @@ const payload = {
             '<td class="px-3 py-2 text-xs text-stone-400" title="' + esc(bonusText(p)) + '">' +
               (p.dataset.bonus
                 ? '<span class="inline-flex items-center gap-1.5">' +
-                  '<span class="cm-bchip" style="background:' + bonusFill(p.dataset.bonus, p.dataset.value) + '">' + esc(BICON[p.dataset.bonus] || '') + '</span>' +
+                  bonusChip(p.dataset.bonus, p.dataset.value) +
                   '<span>' + esc(p.dataset.short) + '</span> <span class="font-mono" style="color:' + bonusInk(p.dataset.bonus, p.dataset.value) + '">+' + p.dataset.value + '%</span></span>'
                 : '—') + '</td>' +
             '<td class="px-3 py-2 text-xs">' + (a
@@ -1575,6 +1652,7 @@ const payload = {
         var b = e.target.closest('button[data-label]'); if (!b) return;
         labelLayer.dataset.mode = b.dataset.label;
         document.querySelectorAll('#cm-labelmode button').forEach(function (c) { c.classList.toggle('is-on', c === b); });
+        if (b.dataset.label === 'full') fitBonusBadges();
       });
       document.getElementById('cm-paint-mode').addEventListener('change', function (e) {
         if (!canEdit) { e.target.checked = false; toast(readOnlyMessage()); return; }
@@ -1803,10 +1881,18 @@ const payload = {
   }
   #cm-svg { width: 100%; height: auto; display: block; cursor: grab; touch-action: none; user-select: none; }
   #cm-svg:active { cursor: grabbing; }
+  /* Territory fills have NO stroke. A single #cm-borders path (built from
+     the straightened geometry) draws every shared line exactly once, so a
+     border is one sharp straight line instead of two blurry parallel ones. */
   #cm-app .cm-poly {
-    stroke: #0b0e0a; stroke-width: 1.4; stroke-linejoin: round;
-    cursor: pointer; transition: opacity .18s, fill .18s, stroke-width .18s;
+    stroke: none; stroke-linejoin: miter;
+    cursor: pointer; transition: opacity .18s, fill .18s;
     outline: none;
+  }
+  #cm-borders {
+    fill: none; stroke: #090c07; stroke-width: 1.7;
+    stroke-linecap: square; stroke-linejoin: miter;
+    shape-rendering: crispEdges;
   }
   #cm-app .cm-poly:hover { filter: brightness(1.22); }
   #cm-app .cm-poly:focus-visible { stroke: #fff; stroke-width: 4; }
@@ -1829,34 +1915,34 @@ const payload = {
   }
   #cm-app .cm-name { font-size: 11px; font-weight: 800; letter-spacing: .01em; }
   #cm-app .cm-lv { font-size: 10.5px; opacity: .92; letter-spacing: .02em; }
-  #cm-app .cm-bl { font-size: 11.5px; }
   #cm-app .cm-val { font-size: 13px; }
   #cm-app .cm-royal { font-size: 13px; }
   #cm-app .cm-none { font-size: 10px; opacity: .55; }
-  #cm-app .cm-bico-i {
-    font-size: 11px; stroke: none !important; paint-order: normal !important;
-    text-anchor: middle;
-  }
+  /* The sign and the game sprite are pictures, so they must not inherit the
+     heavy dark text outline applied to every <text> in a label. */
+  #cm-app .cm-sign { stroke: rgba(8, 12, 6, .7); stroke-width: .55px; paint-order: stroke fill; }
+  #cm-app .cm-rico { filter: drop-shadow(0 1px 1px rgba(0, 0, 0, .65)); }
+  #cm-app .cm-signicon, #cm-app .cm-resicon { flex: none; display: inline-block; object-fit: contain; }
   #cm-app .cm-label.cm-tiny .cm-name { display: none; }
   #cm-app .cm-label.cm-tiny .cm-lv { font-size: 9px; }
-  #cm-app .cm-label.cm-tiny .cm-bl { font-size: 9.5px; }
   #cm-app .cm-label.cm-tiny .cm-val { font-size: 11px; }
   #cm-labels[data-mode="compact"] .cm-name,
   #cm-labels[data-mode="compact"] .cm-lv,
-  #cm-labels[data-mode="compact"] .cm-bl { display: none; }
+  #cm-labels[data-mode="compact"] .cm-sign,
+  #cm-labels[data-mode="compact"] .cm-rico { display: none; }
   #cm-labels[data-mode="compact"] .cm-val { font-size: 14px; }
   #cm-labels[data-mode="off"] { display: none; }
   #cm-app .cm-badge text { font-family: system-ui, sans-serif; }
   #cm-app .cm-badge circle { filter: drop-shadow(0 2px 3px rgba(0,0,0,.7)); }
 
-  /* bonus pictograms */
+  /* bonus pictograms: kind sign + real in-game sprite on the value ramp */
   #cm-app .cm-bchip {
-    display: inline-flex; align-items: center; justify-content: center;
-    width: 19px; height: 19px; border-radius: 5px; font-size: 11px;
+    display: inline-flex; align-items: center; justify-content: center; gap: 1px;
+    height: 19px; padding: 0 2px; border-radius: 5px;
     border: 1px solid rgba(0,0,0,.35); line-height: 1; flex: none;
   }
+  #cm-app .cm-bchip .cm-resicon { width: 15px; height: 15px; }
   #cm-app .cm-ramp { width: 9px; height: 9px; border-radius: 2px; display: inline-block; }
-  #cm-app .cm-bico { filter: drop-shadow(0 1px 2px rgba(0,0,0,.55)); }
 
   #cm-app .cm-alliance {
     display: flex; align-items: stretch; gap: 2px;
@@ -1916,8 +2002,8 @@ const payload = {
   #cm-app.cm-readonly .cm-poly { cursor: default; }
 
   @media (max-width: 640px) {
-    #cm-app .cm-label .cm-bl { font-size: 9px; }
     #cm-app .cm-label .cm-lv { font-size: 8px; }
+    #cm-app .cm-label .cm-val { font-size: 11px; }
     #cm-app .cm-stage-sub { margin-left: 0; }
   }
 </style>
