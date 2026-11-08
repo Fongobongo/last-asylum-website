@@ -1,12 +1,18 @@
 {
  "meta": {
-  "source": "Lost Asylum: Plague client 1.0.98.98 (com.phs.global)",
+  "source": "Lost Asylum: Plague client 1.0.102 (com.phs.global)",
   "tables": [
    "MechCity",
    "DefineBenefit",
-   "basedb_f_en/ru (MechCity)"
+   "langs/<lang>/MechCity.lua (city names)"
   ],
-  "note": "x/y are the in-game map coordinates (0-1000). bonus is the holding benefit type id mapped to a key; value is a percentage."
+  "note": "x/y are the in-game map coordinates (0-1000). bonus is the holding benefit type id mapped to a key; value is a percentage. Coordinates/levels/bonuses verified identical between client 1.0.98 and 1.0.102.",
+  "namesFrom": "client language packs (de, en, es, fr, id, it, ja, ko, nl, pl, pt, ru, th, tr, vi, zh, zh-tw)",
+  "namesMissing": {
+   "ar": "86 placeholders",
+   "ms": "86 placeholders"
+  },
+  "namesNote": "zh-tw reuses the zh-cn pack: the client ships no traditional-Chinese pack. ar and ms packs contain the placeholder 暂不翻译 for every city, so those fall back to English."
  },
  "cities": [
   {
@@ -18,7 +24,22 @@
    "value": 5,
    "names": {
     "en": "Old Oak",
-    "ru": "Старый дуб"
+    "ru": "Старый дуб",
+    "es": "Roble ancestral",
+    "pt": "Carvalho Antigo",
+    "fr": "Vieux chêne",
+    "de": "Alte Eiche",
+    "id": "Pohon Ek Tua",
+    "ko": "오래된 떡갈나무",
+    "ja": "老オーク",
+    "it": "Vecchia Quercia",
+    "nl": "Oude Eik",
+    "th": "ต้นโอ๊กโบราณ",
+    "tr": "Yaşlı Meşe",
+    "vi": "Cây Sồi Già",
+    "zh": "老橡树",
+    "pl": "Stary Dąb",
+    "zh-tw": "老橡树"
    },
    "adj": [
     1002,
@@ -34,7 +55,22 @@
    "value": 0,
    "names": {
     "en": "Gravel Slope",
-    "ru": "Гравийный склон"
+    "ru": "Гравийный склон",
+    "es": "Pendiente de grava",
+    "pt": "Declive dos Cascalhos",
+    "fr": "Pente de gravier",
+    "de": "Kieshang",
+    "id": "Lereng Batu Pecah",
+    "ko": "자갈 비탈",
+    "ja": "砂利坂",
+    "it": "Pendio ghiaioso",
+    "nl": "Grindhelling",
+    "th": "เนินหินแตก",
+    "tr": "Çakıl Yamacı",
+    "vi": "Dốc Đá Vụn",
+    "zh": "碎石坡",
+    "pl": "Żwirowe zbocze",
+    "zh-tw": "碎石坡"
    },
    "adj": [
     1001,
@@ -52,7 +88,22 @@
    "value": 5,
    "names": {
     "en": "Windmill Town",
-    "ru": "Город Виндмилл"
+    "ru": "Город Виндмилл",
+    "es": "Pueblo del molino de viento",
+    "pt": "Cidade do Moinho",
+    "fr": "Bourg du moulin à vent",
+    "de": "Windmühlen-Stadt",
+    "id": "Kota Kincir Angin",
+    "ko": "풍차 마을",
+    "ja": "風車の町",
+    "it": "Borgo dei Mulini",
+    "nl": "Windmolenstad",
+    "th": "เมืองกังหันลม",
+    "tr": "Yel Değirmeni Kasabası",
+    "vi": "Thị Trấn Cối Xay Gió",
+    "zh": "风车镇",
+    "pl": "Miasto Wiatraków",
+    "zh-tw": "风车镇"
    },
    "adj": [
     1002,
@@ -70,7 +121,22 @@
    "value": 0,
    "names": {
     "en": "Plaster Wall",
-    "ru": "Гипсовая стена"
+    "ru": "Гипсовая стена",
+    "es": "Muro de yeso",
+    "pt": "Parede de Reboco",
+    "fr": "Mur de plâtre",
+    "de": "Gipswand",
+    "id": "Dinding Mortar",
+    "ko": "회반죽 벽",
+    "ja": "漆喰の壁",
+    "it": "Muro intonacato",
+    "nl": "Pleistermuur",
+    "th": "กำแพงปูนเทา",
+    "tr": "Sıva Duvar",
+    "vi": "Tường Vữa",
+    "zh": "灰泥墙",
+    "pl": "Tynkowy mur",
+    "zh-tw": "灰泥墙"
    },
    "adj": [
     1005,
@@ -88,7 +154,22 @@
    "value": 0,
    "names": {
     "en": "Raven's Roost",
-    "ru": "Гнездо ворона"
+    "ru": "Гнездо ворона",
+    "es": "Nido del Cuervo",
+    "pt": "Ninho do Corvo",
+    "fr": "Perchoir du corbeau",
+    "de": "Rabennest",
+    "id": "Sarang Gagak",
+    "ko": "까마귀의 안식처",
+    "ja": "レイヴンの巣",
+    "it": "Covo del Corvo",
+    "nl": "Ravennest",
+    "th": "ท่าเรืออีกา",
+    "tr": "Kuzgun Yuvası",
+    "vi": "Tổ Quạ Đen",
+    "zh": "渡鸦栖",
+    "pl": "Gniazdo Kruka",
+    "zh-tw": "渡鸦栖"
    },
    "adj": [
     1004,
@@ -107,7 +188,22 @@
    "value": 5,
    "names": {
     "en": "Bluestone Slope",
-    "ru": "Лазурный склон"
+    "ru": "Лазурный склон",
+    "es": "Pendiente de piedra azul",
+    "pt": "Declive de Pedrazul",
+    "fr": "Pente de la pierre bleue",
+    "de": "Blausteinhang",
+    "id": "Lereng Batu Hijau",
+    "ko": "청석 비탈",
+    "ja": "青石坂",
+    "it": "Pendio di Pietrablù",
+    "nl": "Blauwsteenhelling",
+    "th": "เนินหินเขียว",
+    "tr": "Mavitaş Yamacı",
+    "vi": "Dốc Đá Xanh",
+    "zh": "青石坡",
+    "pl": "Zbocze niebieskiego kamienia",
+    "zh-tw": "青石坡"
    },
    "adj": [
     1005,
@@ -124,7 +220,22 @@
    "value": 0,
    "names": {
     "en": "Wheatsheaf",
-    "ru": "Пшеничный сноп"
+    "ru": "Пшеничный сноп",
+    "es": "Gavilla de trigo",
+    "pt": "Feixe de Trigo",
+    "fr": "Gerbe de blé",
+    "de": "Weizengarbe",
+    "id": "Desa Gandum Harum",
+    "ko": "밀향 마을",
+    "ja": "麦香る村",
+    "it": "Spigadoro",
+    "nl": "Korenschoof",
+    "th": "หมู่บ้านกลิ่นข้าว",
+    "tr": "Buğday Demeti",
+    "vi": "Thôn Hương Lúa Mì",
+    "zh": "麦香屯",
+    "pl": "Snopek",
+    "zh-tw": "麦香屯"
    },
    "adj": [
     1006,
@@ -142,7 +253,22 @@
    "value": 5,
    "names": {
     "en": "Stonebrook Town",
-    "ru": "Город Стоунбрук"
+    "ru": "Город Стоунбрук",
+    "es": "Villa arroyo pétreo",
+    "pt": "Vila Pedrabranca",
+    "fr": "Bourg de ruisseaupierre",
+    "de": "Steinbach-Stadt",
+    "id": "Kota Sungai Batu",
+    "ko": "석계 마을",
+    "ja": "石渓の町",
+    "it": "Borgo Riopietra",
+    "nl": "Steenbeekstad",
+    "th": "เมืองห้วยหิน",
+    "tr": "Taşdere Kasabası",
+    "vi": "Thị Trấn Thạch Khê",
+    "zh": "石溪镇",
+    "pl": "Kamienny Strumyk",
+    "zh-tw": "石溪镇"
    },
    "adj": [
     1007,
@@ -159,7 +285,22 @@
    "value": 0,
    "names": {
     "en": "Stag Path",
-    "ru": "Оленья тропа"
+    "ru": "Оленья тропа",
+    "es": "Sendero del ciervo",
+    "pt": "Trilha do Cervo",
+    "fr": "Sentier du cerf",
+    "de": "Hirschpfad",
+    "id": "Jalan Rusa Putih",
+    "ko": "백록의 길",
+    "ja": "白鹿の小道",
+    "it": "Sentiero del Cervo",
+    "nl": "Hertenspoor",
+    "th": "ทางกวางขาว",
+    "tr": "Geyik Patikası",
+    "vi": "Lối Mòn Bạch Lộc",
+    "zh": "白鹿径",
+    "pl": "Ścieżka Jelenia",
+    "zh-tw": "白鹿径"
    },
    "adj": [
     1008,
@@ -177,7 +318,22 @@
    "value": 5,
    "names": {
     "en": "Broken Bridgehead",
-    "ru": "Разбитый плацдарм"
+    "ru": "Разбитый плацдарм",
+    "es": "Cabecera del puente roto",
+    "pt": "Ponte Destruída",
+    "fr": "Tête de pont brisée",
+    "de": "Zerbrochener Brückenkopf",
+    "id": "Ujung Jembatan Putus",
+    "ko": "끊어진 다리",
+    "ja": "壊れた橋の袂",
+    "it": "Testa di Ponte Infranta",
+    "nl": "Gebroken Brughoofd",
+    "th": "ปลายสะพานขาด",
+    "tr": "Kırık Köprübaşı",
+    "vi": "Đầu Cầu Gãy",
+    "zh": "断桥头",
+    "pl": "Zniszczony przyczółek",
+    "zh-tw": "断桥头"
    },
    "adj": [
     1003,
@@ -196,7 +352,22 @@
    "value": 0,
    "names": {
     "en": "Opal Mine",
-    "ru": "Опаловая шахта"
+    "ru": "Опаловая шахта",
+    "es": "Mina de ópalo",
+    "pt": "Mina de Opala",
+    "fr": "Mine d'opale",
+    "de": "Opalmine",
+    "id": "Batu Mata Kucing",
+    "ko": "캣츠아이",
+    "ja": "キャッツアイ Lv.",
+    "it": "Miniera d'Opale",
+    "nl": "Opaalmijn",
+    "th": "พลอยตาแมว",
+    "tr": "Opal Madeni",
+    "vi": "Đá Mắt Mèo",
+    "zh": "猫眼石",
+    "pl": "Kopalnia opalu",
+    "zh-tw": "猫眼石"
    },
    "adj": [
     1001,
@@ -215,7 +386,22 @@
    "value": 0,
    "names": {
     "en": "Redsoil Wastes",
-    "ru": "Красные пустоши"
+    "ru": "Красные пустоши",
+    "es": "Páramos de tierra roja",
+    "pt": "Ermos Vermelhos",
+    "fr": "Désert de terre rouge",
+    "de": "Roterde-Ödland",
+    "id": "Tanah Tandus Merah",
+    "ko": "적토 황야",
+    "ja": "赤土の荒野",
+    "it": "Lande di Terrarossa",
+    "nl": "Roodgrondwoestenij",
+    "th": "ที่ราบดินแดง",
+    "tr": "Kızıltoprak Çorakları",
+    "vi": "Hoang Nguyên Đất Đỏ",
+    "zh": "红土荒原",
+    "pl": "Pustkowia Czerwonej Ziemi",
+    "zh-tw": "红土荒原"
    },
    "adj": [
     1011,
@@ -234,7 +420,22 @@
    "value": 5,
    "names": {
     "en": "Fisher's Bay",
-    "ru": "Рыбацкий залив"
+    "ru": "Рыбацкий залив",
+    "es": "Bahía del pescador",
+    "pt": "Baía dos Pescadores",
+    "fr": "Baie du pêcheur",
+    "de": "Fischerbucht",
+    "id": "Teluk Cahaya Nelayan",
+    "ko": "어부의 만",
+    "ja": "漁火湾",
+    "it": "Baia del Pescatore",
+    "nl": "Vissersbaai",
+    "th": "อ่าวเรือประมง",
+    "tr": "Balıkçı Koyu",
+    "vi": "Vịnh Ngư Hỏa",
+    "zh": "渔火湾",
+    "pl": "Zatoka Rybaka",
+    "zh-tw": "渔火湾"
    },
    "adj": [
     1010,
@@ -255,7 +456,22 @@
    "value": 5,
    "names": {
     "en": "Birchwood Grove",
-    "ru": "Березовая роща"
+    "ru": "Березовая роща",
+    "es": "Arboleda de abedules",
+    "pt": "Bosque de Bétulas",
+    "fr": "Bosquet de bouleaux",
+    "de": "Birkenhain",
+    "id": "Hutan Birch Putih",
+    "ko": "자작나무 숲",
+    "ja": "白樺林",
+    "it": "Boschetto di Betulle",
+    "nl": "Berkenbos",
+    "th": "ป่าไม้เบิร์ช",
+    "tr": "Huş Korusu",
+    "vi": "Rừng Bạch Dương",
+    "zh": "白桦林",
+    "pl": "Gaj brzozowy",
+    "zh-tw": "白桦林"
    },
    "adj": [
     1009,
@@ -275,7 +491,22 @@
    "value": 0,
    "names": {
     "en": "Pinewood Grove",
-    "ru": "Сосновая роща"
+    "ru": "Сосновая роща",
+    "es": "Arboleda de pinos",
+    "pt": "Bosque de Pinheiros",
+    "fr": "Bosquet de pins",
+    "de": "Kiefernhain",
+    "id": "Hutan Pinus",
+    "ko": "소나무 숲",
+    "ja": "松葉林",
+    "it": "Boschetto di Pini",
+    "nl": "Pijnboombos",
+    "th": "ป่าดงสน",
+    "tr": "Çam Korusu",
+    "vi": "Rừng Lá Thông",
+    "zh": "松针林",
+    "pl": "Gaj sosnowy",
+    "zh-tw": "松针林"
    },
    "adj": [
     1009,
@@ -293,7 +524,22 @@
    "value": 5,
    "names": {
     "en": "Millstone Creek",
-    "ru": "Ручей Миллстоун"
+    "ru": "Ручей Миллстоун",
+    "es": "Arroyo del molino",
+    "pt": "Riacho do Moinho",
+    "fr": "Ruisseau de la meule",
+    "de": "Mühlsteinbach",
+    "id": "Sungai Batu Giling",
+    "ko": "맷돌 개울",
+    "ja": "石臼渓",
+    "it": "Ruscello della Macina",
+    "nl": "Molensteenbeek",
+    "th": "ห้วยโม่หิน",
+    "tr": "Değirmentaşı Deresi",
+    "vi": "Suối Cối Xay",
+    "zh": "磨盘溪",
+    "pl": "Potok Żarnowy",
+    "zh-tw": "磨盘溪"
    },
    "adj": [
     1011,
@@ -312,7 +558,22 @@
    "value": 0,
    "names": {
     "en": "Crow's Beak",
-    "ru": "Вороний клюв"
+    "ru": "Вороний клюв",
+    "es": "Pico del Cuervo",
+    "pt": "Bico de Corvo",
+    "fr": "Bec du corbeau",
+    "de": "Krähenschnabel",
+    "id": "Paruh Gagak",
+    "ko": "까마귀 부리",
+    "ja": "烏ノ嘴",
+    "it": "Becco del Corvo",
+    "nl": "Kraaiensnavel",
+    "th": "ปากกาดำ",
+    "tr": "Karga Gagası",
+    "vi": "Mỏm Quạ",
+    "zh": "乌鸦嘴",
+    "pl": "Dziób Wrony",
+    "zh-tw": "乌鸦嘴"
    },
    "adj": [
     1016,
@@ -331,7 +592,22 @@
    "value": 5,
    "names": {
     "en": "Springhead",
-    "ru": "Родник"
+    "ru": "Родник",
+    "es": "Manantial",
+    "pt": "Nascente",
+    "fr": "Source",
+    "de": "Quellkopf",
+    "id": "Muara Mata Air",
+    "ko": "맑은 샘 어귀",
+    "ja": "清泉口",
+    "it": "Sorgente",
+    "nl": "De Bron",
+    "th": "ปากธารใส",
+    "tr": "Pınarbaşı",
+    "vi": "Cửa Suối Trong",
+    "zh": "清泉口",
+    "pl": "Źródło",
+    "zh-tw": "清泉口"
    },
    "adj": [
     1015,
@@ -350,7 +626,22 @@
    "value": 5,
    "names": {
     "en": "Mossy Crag",
-    "ru": "Мшистый утес"
+    "ru": "Мшистый утес",
+    "es": "Peñasco musgoso",
+    "pt": "Penhasco Musgoso",
+    "fr": "Rocher moussu",
+    "de": "Moosfelsen",
+    "id": "Batu Berlumut",
+    "ko": "이끼 바위",
+    "ja": "苔岩",
+    "it": "Rupe Muschiosa",
+    "nl": "Mosrots",
+    "th": "หินตะไคร่",
+    "tr": "Yosunlu Kayalık",
+    "vi": "Đá Rêu Xanh",
+    "zh": "青苔岩",
+    "pl": "Omszała Skała",
+    "zh-tw": "青苔岩"
    },
    "adj": [
     1018,
@@ -369,7 +660,22 @@
    "value": 0,
    "names": {
     "en": "Fox Den",
-    "ru": "Лисья нора"
+    "ru": "Лисья нора",
+    "es": "Madriguera del zorro",
+    "pt": "Toca da Raposa",
+    "fr": "Tanière du renard",
+    "de": "Fuchsbau",
+    "id": "Gua Rubah",
+    "ko": "여우굴",
+    "ja": "狐の穴",
+    "it": "Tana della Volpe",
+    "nl": "Vossenhol",
+    "th": "ถ้ำสุนัขจิ้งจอก",
+    "tr": "Tilki İni",
+    "vi": "Hang Cáo",
+    "zh": "狐狸洞",
+    "pl": "Lisia Nora",
+    "zh-tw": "狐狸洞"
    },
    "adj": [
     1016,
@@ -387,7 +693,22 @@
    "value": 5,
    "names": {
     "en": "Maple Town",
-    "ru": "Кленовая деревня"
+    "ru": "Кленовая деревня",
+    "es": "Villa del arce",
+    "pt": "Vila do Bordo",
+    "fr": "Bourg de l'érable",
+    "de": "Ahornstadt",
+    "id": "Kota Maple",
+    "ko": "단풍숲 마을",
+    "ja": "楓林町",
+    "it": "Borgo d'Acero",
+    "nl": "Esdoornstad",
+    "th": "เมืองป่าเมเปิล",
+    "tr": "Akçaağaç Kasabası",
+    "vi": "Thị Trấn Rừng Phong",
+    "zh": "枫林镇",
+    "pl": "Klonowo",
+    "zh-tw": "枫林镇"
    },
    "adj": [
     1020,
@@ -406,7 +727,22 @@
    "value": 0,
    "names": {
     "en": "Graywolf Vale",
-    "ru": "Долина Грейвулф"
+    "ru": "Долина Грейвулф",
+    "es": "Valle lobo gris",
+    "pt": "Vale do Lobo Cinzento",
+    "fr": "Vallée du loup gris",
+    "de": "Grauwolf-Tal",
+    "id": "Lembah Serigala Abu",
+    "ko": "잿빛 늑대 골짜기",
+    "ja": "灰狼の谷",
+    "it": "Valle del Lupo Grigio",
+    "nl": "Grijzewolfvallei",
+    "th": "หุบเขาหมาป่าเทา",
+    "tr": "Gri Kurt Vadisi",
+    "vi": "Thung Lũng Sói Xám",
+    "zh": "灰狼谷",
+    "pl": "Dolina Szarego Wilka",
+    "zh-tw": "灰狼谷"
    },
    "adj": [
     1021,
@@ -424,7 +760,22 @@
    "value": 0,
    "names": {
     "en": "Mistveil Village",
-    "ru": "Деревня Миствейл"
+    "ru": "Деревня Миствейл",
+    "es": "Aldea velo de niebla",
+    "pt": "Vila do Véu",
+    "fr": "Village de voilebrume",
+    "de": "Nebelschleier-Dorf",
+    "id": "Desa Kabut",
+    "ko": "안개 마을",
+    "ja": "霧隠れの村",
+    "it": "Villaggio Velanebbia",
+    "nl": "Mistsluierdorp",
+    "th": "หมู่บ้านในหมอก",
+    "tr": "Sispeçe Köyü",
+    "vi": "Thôn Sương Ẩn",
+    "zh": "雾隐村",
+    "pl": "Wieś Mglistego Całunu",
+    "zh-tw": "雾隐村"
    },
    "adj": [
     1024,
@@ -444,7 +795,22 @@
    "value": 0,
    "names": {
     "en": "Redbrick House",
-    "ru": "Дом из красного кирпича"
+    "ru": "Дом из красного кирпича",
+    "es": "Casa de ladrillo rojo",
+    "pt": "Casa de Tijolo Vermelho",
+    "fr": "Maison de briques rouges",
+    "de": "Rotziegelhaus",
+    "id": "Rumah Bata Merah",
+    "ko": "붉은 벽돌집",
+    "ja": "赤レンガの家",
+    "it": "Casa dei Mattoni Rossi",
+    "nl": "Roodstenen Huis",
+    "th": "บ้านอิฐแดง",
+    "tr": "Kızıl Tuğlalı Ev",
+    "vi": "Nhà Gạch Đỏ",
+    "zh": "红砖房",
+    "pl": "Ceglany Dom",
+    "zh-tw": "红砖房"
    },
    "adj": [
     1019,
@@ -462,7 +828,22 @@
    "value": 0,
    "names": {
     "en": "Pinecone Market",
-    "ru": "Шишечный рынок"
+    "ru": "Шишечный рынок",
+    "es": "Mercado piña",
+    "pt": "Mercado do Pinhão",
+    "fr": "Marché de la pomme de pin",
+    "de": "Tannenzapfen-Markt",
+    "id": "Koleksi Pinecone",
+    "ko": "솔방울 장터",
+    "ja": "松ぼっくり市",
+    "it": "Mercato della Pigna",
+    "nl": "Dennenappelmarkt",
+    "th": "ตลาดลูกสน",
+    "tr": "Kozalak Pazarı",
+    "vi": "Chợ Quả Thông",
+    "zh": "松果集",
+    "pl": "Szyszkowy Targ",
+    "zh-tw": "松果集"
    },
    "adj": [
     1023,
@@ -480,7 +861,22 @@
    "value": 0,
    "names": {
     "en": "Scavenger",
-    "ru": "Налетчик"
+    "ru": "Налетчик",
+    "es": "Carroñero",
+    "pt": "Catador",
+    "fr": "Pilleur",
+    "de": "Plünderer",
+    "id": "Pemulung",
+    "ko": "약탈자",
+    "ja": "スカベンジャー",
+    "it": "Sciacallo",
+    "nl": "Scharrelaar",
+    "th": "นักเก็บขยะ",
+    "tr": "Çöpçü",
+    "vi": "Kẻ Nhặt Rác",
+    "zh": "拾荒者",
+    "pl": "Zbieracz",
+    "zh-tw": "拾荒者"
    },
    "adj": [
     1027,
@@ -500,7 +896,22 @@
    "value": 5,
    "names": {
     "en": "Dripping Cavern",
-    "ru": "Капающая пещера"
+    "ru": "Капающая пещера",
+    "es": "Caverna goteante",
+    "pt": "Caverna Gotejante",
+    "fr": "Grotte ruisselante",
+    "de": "Tropfende Höhle",
+    "id": "Gua Tetes Air",
+    "ko": "낙수 동굴",
+    "ja": "水滴の洞窟",
+    "it": "Caverna Gocciolante",
+    "nl": "Druipende Grot",
+    "th": "ถ้ำหยาดน้ำ",
+    "tr": "Damlayan Mağara",
+    "vi": "Động Giọt Nước",
+    "zh": "滴水洞",
+    "pl": "Kapiąca Jaskinia",
+    "zh-tw": "滴水洞"
    },
    "adj": [
     1026,
@@ -520,7 +931,22 @@
    "value": 5,
    "names": {
     "en": "Old Mill",
-    "ru": "Старая мельница"
+    "ru": "Старая мельница",
+    "es": "Molino antiguo",
+    "pt": "Moinho Antigo",
+    "fr": "Vieux moulin",
+    "de": "Alte Mühle",
+    "id": "Pabrik Tua",
+    "ko": "낡은 방앗간",
+    "ja": "古い製粉所",
+    "it": "Vecchio Mulino",
+    "nl": "Oude Molen",
+    "th": "โรงโม่เก่า",
+    "tr": "Eski Değirmen",
+    "vi": "Cối Xay Cũ",
+    "zh": "旧磨坊",
+    "pl": "Stary młyn",
+    "zh-tw": "旧磨坊"
    },
    "adj": [
     1029,
@@ -539,7 +965,22 @@
    "value": 5,
    "names": {
     "en": "Eagles' Peak",
-    "ru": "Орлиный пик"
+    "ru": "Орлиный пик",
+    "es": "Pico de las águilas",
+    "pt": "Pico das Águias",
+    "fr": "Pic des aigles",
+    "de": "Adlergipfel",
+    "id": "Puncak Sarang Elang",
+    "ko": "팔콘 둥지의 정상",
+    "ja": "鷹の巣の頂",
+    "it": "Picco delle Aquile",
+    "nl": "Adelaarspiek",
+    "th": "ยอดรังนกอินทรี",
+    "tr": "Kartal Zirvesi",
+    "vi": "Đỉnh Tổ Ưng",
+    "zh": "鹰巢顶",
+    "pl": "Orli Szczyt",
+    "zh-tw": "鹰巢顶"
    },
    "adj": [
     1021,
@@ -558,7 +999,22 @@
    "value": 0,
    "names": {
     "en": "Dry Well",
-    "ru": "Сухой колодец"
+    "ru": "Сухой колодец",
+    "es": "Pozo seco",
+    "pt": "Poço Seco",
+    "fr": "Puits sec",
+    "de": "Trockener Brunnen",
+    "id": "Samping Sumur Kering",
+    "ko": "마른 우물가",
+    "ja": "枯れ井戸のそば",
+    "it": "Pozzo Secco",
+    "nl": "Droge Put",
+    "th": "ข้างบ่อน้ำแห้ง",
+    "tr": "Kuru Kuyu",
+    "vi": "Cạnh Giếng Cạn",
+    "zh": "枯井旁",
+    "pl": "Sucha Studnia",
+    "zh-tw": "枯井旁"
    },
    "adj": [
     1032,
@@ -577,7 +1033,22 @@
    "value": 0,
    "names": {
     "en": "Haystack",
-    "ru": "Стог сена"
+    "ru": "Стог сена",
+    "es": "Pajar",
+    "pt": "Palheiro",
+    "fr": "Meule de foin",
+    "de": "Heuhaufen",
+    "id": "Tumpukan Jerami",
+    "ko": "짚더미",
+    "ja": "藁山",
+    "it": "Pagliaio",
+    "nl": "Hooiberg",
+    "th": "กองฟางข้าว",
+    "tr": "Samanlık",
+    "vi": "Đống Rơm",
+    "zh": "稻草堆",
+    "pl": "Stóg Siana",
+    "zh-tw": "稻草堆"
    },
    "adj": [
     1029,
@@ -594,7 +1065,22 @@
    "value": 5,
    "names": {
     "en": "Frostleaf Market",
-    "ru": "Рынок Фростлиф"
+    "ru": "Рынок Фростлиф",
+    "es": "Mercado hoja helada",
+    "pt": "Mercado da Folha Gelada",
+    "fr": "Marché de givre-feuille",
+    "de": "Frostblatt-Markt",
+    "id": "Kumpulan Daun Beku",
+    "ko": "서리잎 장터",
+    "ja": "霜葉集",
+    "it": "Mercato Foglia Gelata",
+    "nl": "Vorstbladmarkt",
+    "th": "ชุมทางใบไม้ร่วง",
+    "tr": "Donmuş Yaprak Pazarı",
+    "vi": "Chợ Sương Diệp",
+    "zh": "霜叶集",
+    "pl": "Targ Mroźnych Liści",
+    "zh-tw": "霜叶集"
    },
    "adj": [
     1030,
@@ -612,7 +1098,22 @@
    "value": 0,
    "names": {
     "en": "Coal Pit",
-    "ru": "Угольная шахта"
+    "ru": "Угольная шахта",
+    "es": "Mina de carbón",
+    "pt": "Mina de Carvão",
+    "fr": "Mine de charbon",
+    "de": "Kohlengrube",
+    "id": "Tungku Batu Bara Hitam",
+    "ko": "흑탄광",
+    "ja": "黒い炭窯",
+    "it": "Miniera di Carbone",
+    "nl": "Kolenput",
+    "th": "เหมืองถ่านดำ",
+    "tr": "Kömür Ocağı",
+    "vi": "Lò Than Đen",
+    "zh": "黑煤窑",
+    "pl": "Kopalnia węgla",
+    "zh-tw": "黑煤窑"
    },
    "adj": [
     1030,
@@ -630,7 +1131,22 @@
    "value": 5,
    "names": {
     "en": "Narroway",
-    "ru": "Теснина"
+    "ru": "Теснина",
+    "es": "Sendero estrecho",
+    "pt": "Beco Estreito",
+    "fr": "Passage étroit",
+    "de": "Engpass",
+    "id": "Jalan Berliku",
+    "ko": "구불구불 길",
+    "ja": "羊腸の道",
+    "it": "Strettoia",
+    "nl": "Nauweweg",
+    "th": "ทางแคบคดเคี้ยว",
+    "tr": "Dar Geçit",
+    "vi": "Đường Ngoằn Ngoèo",
+    "zh": "羊肠道",
+    "pl": "Wąska droga",
+    "zh-tw": "羊肠道"
    },
    "adj": [
     1027,
@@ -648,7 +1164,22 @@
    "value": 0,
    "names": {
     "en": "Snail Shell",
-    "ru": "Раковина улитки"
+    "ru": "Раковина улитки",
+    "es": "Caparazón de caracol",
+    "pt": "Concha de Caracol",
+    "fr": "Coquille d'escargot",
+    "de": "Schneckenschale",
+    "id": "Cangkang Siput",
+    "ko": "달팽이 껍질",
+    "ja": "カタツムリの殻",
+    "it": "Guscio di Chiocciola",
+    "nl": "Slakkenhuis",
+    "th": "เปลือกหอยทาก",
+    "tr": "Salyangoz Kabuğu",
+    "vi": "Vỏ Ốc Sên",
+    "zh": "蜗牛壳",
+    "pl": "Muszla Ślimaka",
+    "zh-tw": "蜗牛壳"
    },
    "adj": [
     1026,
@@ -666,7 +1197,22 @@
    "value": 5,
    "names": {
     "en": "Wildberry Thicket",
-    "ru": "Ежевичная чаща"
+    "ru": "Ежевичная чаща",
+    "es": "Matorral de bayas silvestres",
+    "pt": "Matagal das Frutinhas",
+    "fr": "Fourré de baies sauvages",
+    "de": "Wildbeeren-Dickicht",
+    "id": "Semak Beri Liar",
+    "ko": "산딸기 덤불",
+    "ja": "野イチゴの茂み",
+    "it": "Roveto di Bacche Selvagge",
+    "nl": "Wildebessenstruweel",
+    "th": "พุ่มเบอร์รีป่า",
+    "tr": "Yabanmersini Çalılığı",
+    "vi": "Bụi Dâu Rừng",
+    "zh": "野莓丛",
+    "pl": "Gąszcz dzikich jagód",
+    "zh-tw": "野莓丛"
    },
    "adj": [
     1026,
@@ -685,7 +1231,22 @@
    "value": 0,
    "names": {
     "en": "Lamp Pavilion",
-    "ru": "Павильон светильников"
+    "ru": "Павильон светильников",
+    "es": "Pabellón de la lámpara",
+    "pt": "Pavilhão da Lamparina",
+    "fr": "Pavillon de la lampe",
+    "de": "Lampenpavillon",
+    "id": "Lentera Minyak",
+    "ko": "호롱불 정자",
+    "ja": "ランプ亭",
+    "it": "Padiglione della Lanterna",
+    "nl": "Lampenpaviljoen",
+    "th": "ศาลาโคมน้ำมัน",
+    "tr": "Fener Köşkü",
+    "vi": "Đình Đèn Dầu",
+    "zh": "油灯亭",
+    "pl": "Pawilon Lamp",
+    "zh-tw": "油灯亭"
    },
    "adj": [
     1036,
@@ -702,7 +1263,22 @@
    "value": 5,
    "names": {
     "en": "Howling Vale",
-    "ru": "Воющая долина"
+    "ru": "Воющая долина",
+    "es": "Valle aullante",
+    "pt": "Vale Uivante",
+    "fr": "Vallée hurlante",
+    "de": "Heulende Schlucht",
+    "id": "Lembah Lolong Serigala",
+    "ko": "늑대 울음 골짜기",
+    "ja": "遠吠えの谷",
+    "it": "Valle Urlante",
+    "nl": "Huilende Vallei",
+    "th": "หุบเขาหมาป่าเห่าหอน",
+    "tr": "Uluyan Vadi",
+    "vi": "Thung Lũng Sói Hú",
+    "zh": "狼嚎谷",
+    "pl": "Wyjąca Dolina",
+    "zh-tw": "狼嚎谷"
    },
    "adj": [
     1025,
@@ -719,7 +1295,22 @@
    "value": 5,
    "names": {
     "en": "Copper Street",
-    "ru": "Медная улица"
+    "ru": "Медная улица",
+    "es": "Calle del cobre",
+    "pt": "Rua do Cobre",
+    "fr": "Rue de cuivre",
+    "de": "Kupferstraße",
+    "id": "Jalan Koin Tembaga",
+    "ko": "동전 거리",
+    "ja": "銅貨街",
+    "it": "Via del Rame",
+    "nl": "Koperstraat",
+    "th": "ถนนเหรียญทองแดง",
+    "tr": "Bakır Sokağı",
+    "vi": "Phố Đồng Xu",
+    "zh": "铜币街",
+    "pl": "Miedziana Ulica",
+    "zh-tw": "铜币街"
    },
    "adj": [
     1003,
@@ -738,7 +1329,22 @@
    "value": 5,
    "names": {
     "en": "Anvil Town",
-    "ru": "Город Анвил"
+    "ru": "Город Анвил",
+    "es": "Villa del yunque",
+    "pt": "Vila da Bigorna",
+    "fr": "Ville de l'enclume",
+    "de": "Ambossstadt",
+    "id": "Kota Landasan",
+    "ko": "모루 마을",
+    "ja": "金床の町",
+    "it": "Borgo dell'Incudine",
+    "nl": "Aambeeldstad",
+    "th": "เมืองทั่งเหล็ก",
+    "tr": "Örs Kasabası",
+    "vi": "Thị Trấn Đe Sắt",
+    "zh": "铁砧镇",
+    "pl": "Kowadłowo",
+    "zh-tw": "铁砧镇"
    },
    "adj": [
     1007,
@@ -758,7 +1364,22 @@
    "value": 5,
    "names": {
     "en": "Sailport",
-    "ru": "Сейлпорт"
+    "ru": "Сейлпорт",
+    "es": "Puerto vélico",
+    "pt": "Porto das Velas",
+    "fr": "Port aux voiles",
+    "de": "Segelhafen",
+    "id": "Pelabuhan Kapal Layar",
+    "ko": "돛단배 항구",
+    "ja": "帆船の港",
+    "it": "Porto delle Vele",
+    "nl": "Zeilhaven",
+    "th": "ท่าเรือเรือใบ",
+    "tr": "Yelken Limanı",
+    "vi": "Cảng Thuyền Buồm",
+    "zh": "帆船港",
+    "pl": "Port żaglowy",
+    "zh-tw": "帆船港"
    },
    "adj": [
     1005,
@@ -777,7 +1398,22 @@
    "value": 5,
    "names": {
     "en": "Stonechant Market",
-    "ru": "Рынок Стоунчант"
+    "ru": "Рынок Стоунчант",
+    "es": "Mercado cantapiedra",
+    "pt": "Mercado do Canto de Pedra",
+    "fr": "Marché des pierres chantantes",
+    "de": "Steingesang-Markt",
+    "id": "Koleksi Lagu Batu",
+    "ko": "돌노래 장터",
+    "ja": "石歌集",
+    "it": "Mercato Cantopietra",
+    "nl": "Steenzangmarkt",
+    "th": "บทกวีแห่งศิลา",
+    "tr": "Taşezgi Pazarı",
+    "vi": "Chợ Thạch Ca",
+    "zh": "石歌集",
+    "pl": "Targ Kamiennej Pieśni",
+    "zh-tw": "石歌集"
    },
    "adj": [
     1004,
@@ -796,7 +1432,22 @@
    "value": 5,
    "names": {
     "en": "Violet",
-    "ru": "Вайолет"
+    "ru": "Вайолет",
+    "es": "Violeta",
+    "pt": "Violeta",
+    "fr": "Violet",
+    "de": "Violett",
+    "id": "Violet",
+    "ko": "바이올렛",
+    "ja": "スミレ",
+    "it": "Violet",
+    "nl": "Violet",
+    "th": "ดอกไวโอเลต",
+    "tr": "Menekşe",
+    "vi": "Violet",
+    "zh": "紫罗兰",
+    "pl": "Fiolet",
+    "zh-tw": "紫罗兰"
    },
    "adj": [
     1004,
@@ -816,7 +1467,22 @@
    "value": 5,
    "names": {
     "en": "Whitestone Town",
-    "ru": "Город Вайтстоун"
+    "ru": "Город Вайтстоун",
+    "es": "Pueblo piedra blanca",
+    "pt": "Cidade de Rochalva",
+    "fr": "Ville de la pierre blanche",
+    "de": "Weißstein-Stadt",
+    "id": "Kota Batu Putih",
+    "ko": "흰돌 마을",
+    "ja": "白石町l",
+    "it": "Borgo di Pietrabianca",
+    "nl": "Witsteenstad",
+    "th": "เมืองหินขาว",
+    "tr": "Aktaş Kasabası",
+    "vi": "Thị Trấn Bạch Thạch",
+    "zh": "白石镇l",
+    "pl": "Biały Kamień",
+    "zh-tw": "白石镇l"
    },
    "adj": [
     1002,
@@ -836,7 +1502,22 @@
    "value": 5,
    "names": {
     "en": "Amber Road",
-    "ru": "Янтарная дорога"
+    "ru": "Янтарная дорога",
+    "es": "Camino ámbar",
+    "pt": "Caminho do Âmbar",
+    "fr": "Route d'ambre",
+    "de": "Bernsteinstraße",
+    "id": "Jalan Amber",
+    "ko": "호박길",
+    "ja": "琥珀路",
+    "it": "Via dell'Ambra",
+    "nl": "Amberweg",
+    "th": "ถนนอำพัน",
+    "tr": "Kehribar Yolu",
+    "vi": "Đường Hổ Phách",
+    "zh": "琥珀路",
+    "pl": "Bursztynowa Droga",
+    "zh-tw": "琥珀路"
    },
    "adj": [
     1010,
@@ -856,7 +1537,22 @@
    "value": 5,
    "names": {
     "en": "Twinspire Town",
-    "ru": "Город Твинспайр"
+    "ru": "Город Твинспайр",
+    "es": "Pueblo torres gemelas",
+    "pt": "Cidade das Torres",
+    "fr": "Ville des deux flèches",
+    "de": "Zwillingsspitzen-Stadt",
+    "id": "Kota Menara Kembar",
+    "ko": "쌍탑 마을",
+    "ja": "双塔の町",
+    "it": "Città delle Guglie Gemelle",
+    "nl": "Tweelingtorenstad",
+    "th": "เมืองหอคอยแฝด",
+    "tr": "İkizkule Kasabası",
+    "vi": "Thị Trấn Song Tháp",
+    "zh": "双塔镇",
+    "pl": "Bliźniacze Iglice",
+    "zh-tw": "双塔镇"
    },
    "adj": []
   },
@@ -869,7 +1565,22 @@
    "value": 5,
    "names": {
     "en": "Windwhisper Market",
-    "ru": "Рынок Виндспайр"
+    "ru": "Рынок Виндспайр",
+    "es": "Mercado susurro del viento",
+    "pt": "Mercado Sopravento",
+    "fr": "Marché de murmure-vent",
+    "de": "Windflüster-Markt",
+    "id": "Kumpulan Angin",
+    "ko": "바람의 장터",
+    "ja": "風語集",
+    "it": "Mercato dei Sussurri",
+    "nl": "Windfluistermarkt",
+    "th": "ตลาดลมพูด",
+    "tr": "Rüzgâr Fısıltısı Pazarı",
+    "vi": "Chợ Phong Ngữ",
+    "zh": "风语集",
+    "pl": "Targ Szeptu Wiatru",
+    "zh-tw": "风语集"
    },
    "adj": [
     1014,
@@ -888,7 +1599,22 @@
    "value": 5,
    "names": {
     "en": "Goldgrain Town",
-    "ru": "Город Голдгрейн"
+    "ru": "Город Голдгрейн",
+    "es": "Pueblo dorado",
+    "pt": "Cidade do Grão Dourado",
+    "fr": "Cité de grain d'or",
+    "de": "Goldkorn-Stadt",
+    "id": "Kota Padi Emas",
+    "ko": "금빛 이삭 마을",
+    "ja": "金穂町",
+    "it": "Borgo Chiccodoro",
+    "nl": "Goudkorrelstad",
+    "th": "เมืองรวงทอง",
+    "tr": "Altınbuğday Kasabası",
+    "vi": "Thị Trấn Kim Tuệ",
+    "zh": "金穗镇",
+    "pl": "Złotoziarno",
+    "zh-tw": "金穗镇"
    },
    "adj": [
     1012,
@@ -908,7 +1634,22 @@
    "value": 5,
    "names": {
     "en": "Nymph Falls",
-    "ru": "Водопад нимф"
+    "ru": "Водопад нимф",
+    "es": "Cascadas de las ninfas",
+    "pt": "Cachoeira das Ninfas",
+    "fr": "Chutes des nymphes",
+    "de": "Nymphenfälle",
+    "id": "Air Terjun Dewi",
+    "ko": "여신의 폭포",
+    "ja": "神女の滝",
+    "it": "Cascate delle Ninfe",
+    "nl": "Nimfenwaterval",
+    "th": "น้ำตกนางฟ้า",
+    "tr": "Peri Şelaleleri",
+    "vi": "Thác Thần Nữ",
+    "zh": "神女瀑布",
+    "pl": "Wodospady Nimf",
+    "zh-tw": "神女瀑布"
    },
    "adj": [
     1019,
@@ -927,7 +1668,22 @@
    "value": 5,
    "names": {
     "en": "Lark Lane",
-    "ru": "Жаворонковый переулок"
+    "ru": "Жаворонковый переулок",
+    "es": "Sendero de alondra",
+    "pt": "Rua das Cotovias",
+    "fr": "Allée de l'alouette",
+    "de": "Lerchengasse",
+    "id": "Gang Skylark",
+    "ko": "종달새 골목",
+    "ja": "雲雀小路",
+    "it": "Vicolo dell'Allodola",
+    "nl": "Leeuweriklaan",
+    "th": "ซอยนกจ้อ",
+    "tr": "Toygar Sokağı",
+    "vi": "Hẻm Vân Tước",
+    "zh": "云雀巷",
+    "pl": "Aleja Skowronków",
+    "zh-tw": "云雀巷"
    },
    "adj": [
     1017,
@@ -948,7 +1704,22 @@
    "value": 5,
    "names": {
     "en": "Blackwater Ferry",
-    "ru": "Паром Черноводья"
+    "ru": "Паром Черноводья",
+    "es": "Ferry de aguanegra",
+    "pt": "Balsa das Águas Negras",
+    "fr": "Bac de l'eau noire",
+    "de": "Schwarzwasserfähre",
+    "id": "Penyeberangan Perairan Hitam",
+    "ko": "흑수 나루",
+    "ja": "黒水の渡し",
+    "it": "Traghetto di Acquanera",
+    "nl": "Zwartwater Veerboot",
+    "th": "ท่าข้ามน้ำดำ",
+    "tr": "Karasu Feribotu",
+    "vi": "Bến Hắc Thủy",
+    "zh": "黑水渡",
+    "pl": "Prom Czarnej Wody",
+    "zh-tw": "黑水渡"
    },
    "adj": [
     1026,
@@ -968,7 +1739,22 @@
    "value": 5,
    "names": {
     "en": "Rose Garden",
-    "ru": "Сад роз"
+    "ru": "Сад роз",
+    "es": "Jardín de rosas",
+    "pt": "Jardim das Rosas",
+    "fr": "Jardin des roses",
+    "de": "Rosengarten",
+    "id": "Taman Mawar",
+    "ko": "장미 정원",
+    "ja": "ローズガーデン",
+    "it": "Roseto",
+    "nl": "Rozentuin",
+    "th": "สวนกุหลาบ",
+    "tr": "Gül Bahçesi",
+    "vi": "Vườn Hồng",
+    "zh": "玫瑰园",
+    "pl": "Ogród różany",
+    "zh-tw": "玫瑰园"
    },
    "adj": [
     1023,
@@ -987,7 +1773,22 @@
    "value": 5,
    "names": {
     "en": "Greatwood Town",
-    "ru": "Город Грейтвуд"
+    "ru": "Город Грейтвуд",
+    "es": "Pueblo granmadera",
+    "pt": "Cidade de Greatwood",
+    "fr": "Bourg de grande forêt",
+    "de": "Großholz-Stadt",
+    "id": "Kota Pohon Raksasa",
+    "ko": "거목 마을",
+    "ja": "巨木の町",
+    "it": "Borgo Boscogrande",
+    "nl": "Grootwoudstad",
+    "th": "เมืองต้นไม้ยักษ์",
+    "tr": "Büyükorman Kasabası",
+    "vi": "Thị Trấn Cự Mộc",
+    "zh": "巨木镇",
+    "pl": "Wielkolas",
+    "zh-tw": "巨木镇"
    },
    "adj": [
     1019,
@@ -1007,7 +1808,22 @@
    "value": 5,
    "names": {
     "en": "Stagcall Vale",
-    "ru": "Долина Стагколл"
+    "ru": "Долина Стагколл",
+    "es": "Valle ciervoaullido",
+    "pt": "Vale de Stagcall",
+    "fr": "Vallée du brame",
+    "de": "Hirschruf-Tal",
+    "id": "Lembah Rusa",
+    "ko": "사슴 울음 골짜기",
+    "ja": "鹿鳴の谷",
+    "it": "Valle del Bramito",
+    "nl": "Hertenroepvallei",
+    "th": "หุบเขาเสียงกวาง",
+    "tr": "Geyik Çağrısı Vadisi",
+    "vi": "Thung Lũng Lộc Minh",
+    "zh": "鹿鸣谷",
+    "pl": "Dolina Jeleniego Zewu",
+    "zh-tw": "鹿鸣谷"
    },
    "adj": [
     1023,
@@ -1027,7 +1843,22 @@
    "value": 5,
    "names": {
     "en": "Beacon Point",
-    "ru": "Маячный пункт"
+    "ru": "Маячный пункт",
+    "es": "Punto faro",
+    "pt": "Pontal do Farol",
+    "fr": "Pointe du phare",
+    "de": "Leuchtfeuer-Spitze",
+    "id": "Tanjung Mercusuar",
+    "ko": "등대곶",
+    "ja": "灯台岬",
+    "it": "Punta del Faro",
+    "nl": "Bakenpunt",
+    "th": "แหลมประภาคาร",
+    "tr": "Fener Burnu",
+    "vi": "Mũi Hải Đăng",
+    "zh": "灯塔角",
+    "pl": "Punkt sygnalizacyjny",
+    "zh-tw": "灯塔角"
    },
    "adj": [
     1023,
@@ -1047,7 +1878,22 @@
    "value": 5,
    "names": {
     "en": "Irongate Town",
-    "ru": "Город Айронгейт"
+    "ru": "Город Айронгейт",
+    "es": "Pueblo puertahierro",
+    "pt": "Cidade do Portão de Ferro",
+    "fr": "Bourg de la porte de fer",
+    "de": "Eisentor-Stadt",
+    "id": "Kota Pintu Besi",
+    "ko": "철문 마을",
+    "ja": "鉄門の町",
+    "it": "Borgo di Cancelloferreo",
+    "nl": "IJzerpoortstad",
+    "th": "เมืองประตูเหล็ก",
+    "tr": "Demirkapı Kasabası",
+    "vi": "Thị Trấn Thiết Môn",
+    "zh": "铁门镇",
+    "pl": "Żelazna Brama",
+    "zh-tw": "铁门镇"
    },
    "adj": [
     1027,
@@ -1068,7 +1914,22 @@
    "value": 5,
    "names": {
     "en": "Rose Court",
-    "ru": "Двор роз"
+    "ru": "Двор роз",
+    "es": "Corte rosa",
+    "pt": "Corte das Rosas",
+    "fr": "Cour de la rose",
+    "de": "Rosenhof",
+    "id": "Taman Mawar",
+    "ko": "장미의 뜰",
+    "ja": "ローズ園",
+    "it": "Corte delle Rose",
+    "nl": "Rozenhof",
+    "th": "อุทยานกุหลาบ",
+    "tr": "Gül Avlusu",
+    "vi": "Khuôn Viên Hoa Hồng",
+    "zh": "玫瑰苑",
+    "pl": "Dwór Róż",
+    "zh-tw": "玫瑰苑"
    },
    "adj": [
     1028,
@@ -1089,7 +1950,22 @@
    "value": 5,
    "names": {
     "en": "Stardust Road",
-    "ru": "Дорога звездной пыли"
+    "ru": "Дорога звездной пыли",
+    "es": "Sendero de polvo estelar",
+    "pt": "Estrada de Poeira Estelar",
+    "fr": "Route de la poussière d'étoiles",
+    "de": "Sternenstaub-Straße",
+    "id": "Jalan Debu Bintang",
+    "ko": "별무리 길",
+    "ja": "スターダストロード",
+    "it": "Via Stellata",
+    "nl": "Sterrenstofweg",
+    "th": "ถนนธุลีดาว",
+    "tr": "Yıldıztozu Yolu",
+    "vi": "Đường Tinh Trần",
+    "zh": "星尘路",
+    "pl": "Droga Gwiezdnego Pyłu",
+    "zh-tw": "星尘路"
    },
    "adj": [
     1028,
@@ -1109,7 +1985,22 @@
    "value": 5,
    "names": {
     "en": "Sailshadow Harbor",
-    "ru": "Гавань Сейлшадоу"
+    "ru": "Гавань Сейлшадоу",
+    "es": "Puerto sombravela",
+    "pt": "Porto Velassombra",
+    "fr": "Port des voiles d'ombre",
+    "de": "Segelschatten-Hafen",
+    "id": "Pelabuhan Bayangan Layar",
+    "ko": "돛 그림자 항구",
+    "ja": "帆影港",
+    "it": "Porto Vele d'Ombra",
+    "nl": "Zeilschaduwhaven",
+    "th": "ท่าเรือเงาเรือ",
+    "tr": "Yelgece Limanı",
+    "vi": "Cảng Phàm Ảnh",
+    "zh": "帆影港",
+    "pl": "Port Cienia Żagli",
+    "zh-tw": "帆影港"
    },
    "adj": [
     1021,
@@ -1129,7 +2020,22 @@
    "value": 5,
    "names": {
     "en": "Echo Town",
-    "ru": "Город Эхо"
+    "ru": "Город Эхо",
+    "es": "Pueblo eco",
+    "pt": "Vila do Eco",
+    "fr": "Bourg de l'écho",
+    "de": "Echo-Stadt",
+    "id": "Kota Gema",
+    "ko": "메아리 마을",
+    "ja": "こだまの町",
+    "it": "Borgo Echeggiante",
+    "nl": "Echostad",
+    "th": "เมืองเสียงสะท้อน",
+    "tr": "Yankı Kasabası",
+    "vi": "Thị Trấn Hồi Âm",
+    "zh": "回声镇",
+    "pl": "Miasto Echa",
+    "zh-tw": "回声镇"
    },
    "adj": [
     1028,
@@ -1149,7 +2055,22 @@
    "value": 10,
    "names": {
     "en": "Drywell Tower",
-    "ru": "Башня суховея"
+    "ru": "Башня суховея",
+    "es": "Torre de pozo seco",
+    "pt": "Torre do Poço Seco",
+    "fr": "Tour du puits sec",
+    "de": "Trockenbrunnenturm",
+    "id": "Menara Penjaga Arai",
+    "ko": "황량한 우물 감시탑",
+    "ja": "荒井の見張り塔",
+    "it": "Torre del Pozzo Secco",
+    "nl": "Drogeputtoren",
+    "th": "หอสังเกตการณ์บ่อร้าง",
+    "tr": "Kurukuyu Kulesi",
+    "vi": "Tháp Canh Giếng Hoang",
+    "zh": "荒井哨塔",
+    "pl": "Wieża Suchej Studni",
+    "zh-tw": "荒井哨塔"
    },
    "adj": [
     2004,
@@ -1168,7 +2089,22 @@
    "value": 10,
    "names": {
     "en": "Ironwall City",
-    "ru": "Город Айронволл"
+    "ru": "Город Айронволл",
+    "es": "Ciudad muralla de hierro",
+    "pt": "Cidade Muralha de Ferro",
+    "fr": "Cité de la muraille de fer",
+    "de": "Eisenmauer-Stadt",
+    "id": "Kota Benteng Besi",
+    "ko": "철벽성",
+    "ja": "鉄壁城",
+    "it": "Città di Muriferro",
+    "nl": "IJzermuurstad",
+    "th": "นครกำแพงเหล็ก",
+    "tr": "Demir Duvar Kasabası",
+    "vi": "Thành Thiết Bích",
+    "zh": "铁壁城",
+    "pl": "Żelazny Mur",
+    "zh-tw": "铁壁城"
    },
    "adj": [
     1014,
@@ -1188,7 +2124,22 @@
    "value": 10,
    "names": {
     "en": "Falcon's Keep",
-    "ru": "Соколиная крепость"
+    "ru": "Соколиная крепость",
+    "es": "Fortaleza del halcón",
+    "pt": "Fortaleza do Falcão",
+    "fr": "Forteresse du faucon",
+    "de": "Falkenfeste",
+    "id": "Benteng Elang Terbang",
+    "ko": "팔콘 요새",
+    "ja": "鷹翔の砦",
+    "it": "Rocca del Falco",
+    "nl": "Valkenburcht",
+    "th": "ป้อมอินทรีบิน",
+    "tr": "Şahin Kalesi",
+    "vi": "Pháo Đài Ưng Tường",
+    "zh": "鹰翔堡",
+    "pl": "Twierdza Sokoła",
+    "zh-tw": "鹰翔堡"
    },
    "adj": [
     1013,
@@ -1207,7 +2158,22 @@
    "value": 10,
    "names": {
     "en": "Deepmere Town",
-    "ru": "Город Дипмир"
+    "ru": "Город Дипмир",
+    "es": "Ciudad de aguasprofundas",
+    "pt": "Cidade de Lagoa Funda",
+    "fr": "Ville du lac profond",
+    "de": "Tiefmeer-Stadt",
+    "id": "Kota Kolam Dalam",
+    "ko": "심연의 마을",
+    "ja": "深潭の町",
+    "it": "Borgo Profondo",
+    "nl": "Diepmeerstad",
+    "th": "เมืองห้วงน้ำลึก",
+    "tr": "Deringöl Kasabası",
+    "vi": "Thị Trấn Vực Sâu",
+    "zh": "深潭镇",
+    "pl": "Bezkresna Toń",
+    "zh-tw": "深潭镇"
    },
    "adj": [
     1013,
@@ -1226,7 +2192,22 @@
    "value": 10,
    "names": {
     "en": "Gale Heights",
-    "ru": "Ветреные высоты"
+    "ru": "Ветреные высоты",
+    "es": "Alturas ventiscosas",
+    "pt": "Planalto de Gale",
+    "fr": "Hauteurs de la bourrasque",
+    "de": "Sturmhöhen",
+    "id": "Bukit Angin Kencang",
+    "ko": "강풍의 언덕",
+    "ja": "烈風崗",
+    "it": "Alture Tempestose",
+    "nl": "Stormhoogte",
+    "th": "เนินลมพายุ",
+    "tr": "Fırtına Tepeleri",
+    "vi": "Đồi Liệt Phong",
+    "zh": "烈风岗",
+    "pl": "Wzgórza Wichury",
+    "zh-tw": "烈风岗"
    },
    "adj": [
     1017,
@@ -1246,7 +2227,22 @@
    "value": 10,
    "names": {
     "en": "Holyspring City",
-    "ru": "Город Холиспринг"
+    "ru": "Город Холиспринг",
+    "es": "Ciudad de manantial sagrado",
+    "pt": "Cidade de Holyspring",
+    "fr": "Cité de la source sacrée",
+    "de": "Heilquellenstadt",
+    "id": "Kota Mata Air Suci",
+    "ko": "성스러운 샘터",
+    "ja": "聖泉の邑",
+    "it": "Città della Fonte Sacra",
+    "nl": "Heilige Bronstad",
+    "th": "หมู่บ้านน้ำศักดิ์สิทธิ์",
+    "tr": "Kutsalpınar Şehri",
+    "vi": "Ấp Thánh Tuyền",
+    "zh": "圣泉邑",
+    "pl": "Świętowzrost",
+    "zh-tw": "圣泉邑"
    },
    "adj": [
     1018,
@@ -1266,7 +2262,22 @@
    "value": 10,
    "names": {
     "en": "Silverleaf Grove",
-    "ru": "Роща Сильверлиф"
+    "ru": "Роща Сильверлиф",
+    "es": "Arboleda hojaplatada",
+    "pt": "Bosque de Pratafolha",
+    "fr": "Bosquet de la feuille d'argent",
+    "de": "Silberblatt-Hain",
+    "id": "Hutan Daun Perak",
+    "ko": "은빛잎 숲",
+    "ja": "銀葉林",
+    "it": "Boschetto Argenteo",
+    "nl": "Zilverbladbos",
+    "th": "ป่าใบเงิน",
+    "tr": "Gümüş Yaprak Korusu",
+    "vi": "Rừng Ngân Diệp",
+    "zh": "银叶林",
+    "pl": "Srebrnolistny Gaj",
+    "zh-tw": "银叶林"
    },
    "adj": [
     1018,
@@ -1286,7 +2297,22 @@
    "value": 10,
    "names": {
     "en": "Stormgate",
-    "ru": "Врата бури"
+    "ru": "Врата бури",
+    "es": "Puerta de la tormenta",
+    "pt": "Portão da Tempestade",
+    "fr": "Porte de la tempête",
+    "de": "Sturmtor",
+    "id": "Gerbang Badai",
+    "ko": "폭풍의 문",
+    "ja": "嵐の門",
+    "it": "Varco della Tempesta",
+    "nl": "Stormpoort",
+    "th": "ประตูพายุ",
+    "tr": "Fırtına Kapısı",
+    "vi": "Cổng Bão Tố",
+    "zh": "风暴之门",
+    "pl": "Brama Burz",
+    "zh-tw": "风暴之门"
    },
    "adj": [
     1022,
@@ -1306,7 +2332,22 @@
    "value": 10,
    "names": {
     "en": "Frostwolf Camp",
-    "ru": "Лагерь морозного волка"
+    "ru": "Лагерь морозного волка",
+    "es": "Campamento lobo gélido",
+    "pt": "Acampamento do Lobo Gelado",
+    "fr": "Camp du loup-de-givre",
+    "de": "Frostwolf-Lager",
+    "id": "Perkemahan Serigala Es",
+    "ko": "서리 늑대 요새",
+    "ja": "霜狼の砦",
+    "it": "Accampamento del Lupo del Gelo",
+    "nl": "Vorstwolfkamp",
+    "th": "ค่ายหมาป่าเหมันต์",
+    "tr": "Donkurt Kampı",
+    "vi": "Trại Sương Lang",
+    "zh": "霜狼寨",
+    "pl": "Obóz Mroźnego Wilka",
+    "zh-tw": "霜狼寨"
    },
    "adj": [
     2011,
@@ -1326,7 +2367,22 @@
    "value": 10,
    "names": {
     "en": "Stillwater River",
-    "ru": "Река Стиллвотер"
+    "ru": "Река Стиллвотер",
+    "es": "Río aguaserena",
+    "pt": "Rio das Águas Serenas",
+    "fr": "Rivière des eaux calmes",
+    "de": "Stillwasser-Fluss",
+    "id": "Sungai Tenang",
+    "ko": "침묵의 강",
+    "ja": "静水河",
+    "it": "Fiume delle Acque Quiete",
+    "nl": "Stilwaterrivier",
+    "th": "แม่น้ำนิ่ง",
+    "tr": "Durgunsu Nehri",
+    "vi": "Sông Tĩnh Thủy",
+    "zh": "静水河",
+    "pl": "Cichy Potok",
+    "zh-tw": "静水河"
    },
    "adj": [
     1026,
@@ -1346,7 +2402,22 @@
    "value": 10,
    "names": {
     "en": "Cliffside Citadel",
-    "ru": "Прибрежная цитадель"
+    "ru": "Прибрежная цитадель",
+    "es": "Ciudadela del acantilado",
+    "pt": "Cidadela do Penhasco",
+    "fr": "Citadelle de la falaise",
+    "de": "Klippen-Zitadelle",
+    "id": "Kota Tebing Curam",
+    "ko": "단애의 성",
+    "ja": "断崖城",
+    "it": "Cittadella della Rupe",
+    "nl": "Klifcitadel",
+    "th": "เมืองผาชัน",
+    "tr": "Uçurum Hisarı",
+    "vi": "Thành Đoạn Nhai",
+    "zh": "断崖城",
+    "pl": "Cytadela na klifie",
+    "zh-tw": "断崖城"
    },
    "adj": [
     1027,
@@ -1366,7 +2437,22 @@
    "value": 10,
    "names": {
     "en": "Cloudtop Highlands",
-    "ru": "Небесные высоты"
+    "ru": "Небесные высоты",
+    "es": "Tierras altas cimanubes",
+    "pt": "Planalto das Nuvens",
+    "fr": "Hautes terres nuageuses",
+    "de": "Wolkengipfel-Hochland",
+    "id": "Dataran Tinggi Puncak Awan",
+    "ko": "구름마루 고원",
+    "ja": "雲頂高地",
+    "it": "Altopiani delle Nuvole",
+    "nl": "Wolkentophooglanden",
+    "th": "ที่สูงยอดเมฆ",
+    "tr": "Bulut Tepesi Yaylaları",
+    "vi": "Cao Nguyên Vân Đỉnh",
+    "zh": "云顶高地",
+    "pl": "Wyżyna Szczytów Chmur",
+    "zh-tw": "云顶高地"
    },
    "adj": [
     2018,
@@ -1385,7 +2471,22 @@
    "value": 15,
    "names": {
     "en": "Dawnhold",
-    "ru": "Рассветная твердыня"
+    "ru": "Рассветная твердыня",
+    "es": "Bastión del amanecer",
+    "pt": "Bastião da Aurora",
+    "fr": "Bastion de l'aube",
+    "de": "Dämmerungsfeste",
+    "id": "Kota Fajar",
+    "ko": "여명의 성",
+    "ja": "暁の城",
+    "it": "Dawnhold",
+    "nl": "Dageraadsburcht",
+    "th": "นครรุ่งอรุณ",
+    "tr": "Şafak Kalesi",
+    "vi": "Thành Thần Hi",
+    "zh": "晨曦城",
+    "pl": "Świtograd",
+    "zh-tw": "晨曦城"
    },
    "adj": [
     2005,
@@ -1406,7 +2507,22 @@
    "value": 15,
    "names": {
     "en": "Everpeak",
-    "ru": "Вечный пик"
+    "ru": "Вечный пик",
+    "es": "Cima eterna",
+    "pt": "Pico Eterno",
+    "fr": "Pic éternel",
+    "de": "Ewigkeitsgipfel",
+    "id": "Puncak Abadi",
+    "ko": "영원의 봉우리",
+    "ja": "エターナルピーク",
+    "it": "Vetta Eterna",
+    "nl": "Eeuwige Piek",
+    "th": "ยอดเขานิรันดร์",
+    "tr": "Ebedi Zirve",
+    "vi": "Đỉnh Vĩnh Hằng",
+    "zh": "永恒峰",
+    "pl": "Wszechszczyt",
+    "zh-tw": "永恒峰"
    },
    "adj": [
     3002,
@@ -1425,7 +2541,22 @@
    "value": 15,
    "names": {
     "en": "Mithril Hall",
-    "ru": "Мифриловый зал"
+    "ru": "Мифриловый зал",
+    "es": "Salón de mithril",
+    "pt": "Salão de Mithril",
+    "fr": "Salle de mithril",
+    "de": "Mithril-Halle",
+    "id": "Aula Mithril",
+    "ko": "미스릴 홀",
+    "ja": "ミスリルホール",
+    "it": "Sala di Mithril",
+    "nl": "Mithrilhal",
+    "th": "ห้องมิธริล",
+    "tr": "Mithril Salonu",
+    "vi": "Sảnh Bí Ngân",
+    "zh": "秘银厅",
+    "pl": "Mithrilowa Sala",
+    "zh-tw": "秘银厅"
    },
    "adj": [
     2011,
@@ -1445,7 +2576,22 @@
    "value": 15,
    "names": {
     "en": "Phantom City",
-    "ru": "Призрачный город"
+    "ru": "Призрачный город",
+    "es": "Ciudad fantasma",
+    "pt": "Cidade Fantasma",
+    "fr": "Ville fantôme",
+    "de": "Phantomstadt",
+    "id": "Kota Phantom",
+    "ko": "환영의 성",
+    "ja": "幻影城",
+    "it": "Città Fantasma",
+    "nl": "Spookstad",
+    "th": "นครลวงตา",
+    "tr": "Hayalet Şehri",
+    "vi": "Thành Huyễn Ảnh",
+    "zh": "幻影城",
+    "pl": "Widmowe Miasto",
+    "zh-tw": "幻影城"
    },
    "adj": [
     2012,
@@ -1465,7 +2611,22 @@
    "value": 15,
    "names": {
     "en": "Sandwind Keep",
-    "ru": "Крепость Сендвинд"
+    "ru": "Крепость Сендвинд",
+    "es": "Fortaleza viento de arena",
+    "pt": "Forte Vento de Areia",
+    "fr": "Donjon de sablevent",
+    "de": "Sandwind-Festung",
+    "id": "Benteng Badai Pasir",
+    "ko": "모래바람 요새",
+    "ja": "風砂の砦",
+    "it": "Fortezza Sabbiovento",
+    "nl": "Zandwindburcht",
+    "th": "ปราสาททรายพัด",
+    "tr": "Kumrüzgâr Hisarı",
+    "vi": "Lâu Đài Phong Sa",
+    "zh": "风沙堡",
+    "pl": "Twierdza Piaskowych Wiatrów",
+    "zh-tw": "风沙堡"
    },
    "adj": [
     2019,
@@ -1484,7 +2645,22 @@
    "value": 15,
    "names": {
     "en": "Emerald City",
-    "ru": "Изумрудный город"
+    "ru": "Изумрудный город",
+    "es": "Ciudad esmeralda",
+    "pt": "Cidade Esmeralda",
+    "fr": "Ville d'émeraude",
+    "de": "Smaragdstadt",
+    "id": "Kota Zamrud",
+    "ko": "비취성",
+    "ja": "翡翠城",
+    "it": "Città di Smeraldo",
+    "nl": "Smaragdstad",
+    "th": "เมืองหยกขาว",
+    "tr": "Zümrüt Şehri",
+    "vi": "Thành Phỉ Thúy",
+    "zh": "翡翠城",
+    "pl": "Szmaragdowe Miasto",
+    "zh-tw": "翡翠城"
    },
    "adj": [
     3010,
@@ -1503,7 +2679,22 @@
    "value": 15,
    "names": {
     "en": "Sunspire City",
-    "ru": "Город Санспайр"
+    "ru": "Город Санспайр",
+    "es": "Ciudad aguja solar",
+    "pt": "Cidade do Pináculo",
+    "fr": "Ville de la flèche solaire",
+    "de": "Sonnenspitz-Stadt",
+    "id": "Kota Matahari",
+    "ko": "태양의 도시",
+    "ja": "日輪城",
+    "it": "Città della Guglia Solare",
+    "nl": "Zonnespitsstad",
+    "th": "นครสุริยัน",
+    "tr": "Güneş Kulesi Şehri",
+    "vi": "Thành Nhật Diệu",
+    "zh": "日耀城",
+    "pl": "Miasto Słonecznej Iglicy",
+    "zh-tw": "日耀城"
    },
    "adj": [
     2013,
@@ -1523,7 +2714,22 @@
    "value": 20,
    "names": {
     "en": "Temple of Nature",
-    "ru": "Храм природы"
+    "ru": "Храм природы",
+    "es": "Templo de la naturaleza",
+    "pt": "Templo da Natureza",
+    "fr": "Temple de la nature",
+    "de": "Tempel der Natur",
+    "id": "Kuil Alam",
+    "ko": "자연의 신전",
+    "ja": "自然神殿",
+    "it": "Tempio della Natura",
+    "nl": "Tempel van de Natuur",
+    "th": "วิหารธรรมชาติ",
+    "tr": "Doğa Tapınağı",
+    "vi": "Thần Điện Tự Nhiên",
+    "zh": "自然神殿",
+    "pl": "Świątynia natury",
+    "zh-tw": "自然神殿"
    },
    "adj": [
     2008,
@@ -1543,7 +2749,22 @@
    "value": 20,
    "names": {
     "en": "Temple of Order",
-    "ru": "Храм порядка"
+    "ru": "Храм порядка",
+    "es": "Templo del orden",
+    "pt": "Templo da Ordem",
+    "fr": "Temple de l'ordre",
+    "de": "Tempel der Ordnung",
+    "id": "Kuil Ketertiban",
+    "ko": "질서의 신전",
+    "ja": "秩序神殿",
+    "it": "Tempio dell'Ordine",
+    "nl": "Tempel van Orde",
+    "th": "วิหารแห่งกฎ",
+    "tr": "Düzen Tapınağı",
+    "vi": "Thần Điện Trật Tự",
+    "zh": "秩序神殿",
+    "pl": "Świątynia Porządku",
+    "zh-tw": "秩序神殿"
    },
    "adj": [
     3003,
@@ -1564,7 +2785,22 @@
    "value": 20,
    "names": {
     "en": "Temple of War",
-    "ru": "Храм войны"
+    "ru": "Храм войны",
+    "es": "Templo de la guerra",
+    "pt": "Templo da Guerra",
+    "fr": "Temple de la guerre",
+    "de": "Tempel des Krieges",
+    "id": "Kuil Perang",
+    "ko": "전쟁의 신전",
+    "ja": "戦争神殿",
+    "it": "Tempio della Guerra",
+    "nl": "Tempel van Oorlog",
+    "th": "วิหารแห่งศึก",
+    "tr": "Savaş Tapınağı",
+    "vi": "Thần Điện Chiến Tranh",
+    "zh": "战争神殿",
+    "pl": "Świątynia Wojny",
+    "zh-tw": "战争神殿"
    },
    "adj": [
     3006,
@@ -1584,7 +2820,22 @@
    "value": 20,
    "names": {
     "en": "Temple of Chaos",
-    "ru": "Храм хаоса"
+    "ru": "Храм хаоса",
+    "es": "Templo del caos",
+    "pt": "Templo do Caos",
+    "fr": "Temple du chaos",
+    "de": "Tempel des Chaos",
+    "id": "Kuil Kekacauan",
+    "ko": "혼돈의 신전",
+    "ja": "混沌神殿",
+    "it": "Tempio del Caos",
+    "nl": "Tempel van Chaos",
+    "th": "วิหารแห่งความวุ่นวาย",
+    "tr": "Kaos Tapınağı",
+    "vi": "Thần Điện Hỗn Mang",
+    "zh": "混沌神殿",
+    "pl": "Świątynia Chaosu",
+    "zh-tw": "混沌神殿"
    },
    "adj": [
     2019,
@@ -1604,7 +2855,22 @@
    "value": 5,
    "names": {
     "en": "Lionheart Fortress",
-    "ru": "Крепость львиного сердца"
+    "ru": "Крепость львиного сердца",
+    "es": "Fortaleza corazón de león",
+    "pt": "Forte Coração de Leão",
+    "fr": "Forteresse Cœur-de-lion",
+    "de": "Löwenherz-Festung",
+    "id": "Benteng Lionheart",
+    "ko": "라이언하트 요새",
+    "ja": "レオンハート要塞",
+    "it": "Fortezza Cuordileone",
+    "nl": "Leeuwenhartfort",
+    "th": "ปราการใจสิงห์",
+    "tr": "Aslan Yürek Kalesi",
+    "vi": "Pháo Đài Hùng Sư",
+    "zh": "狮心堡垒",
+    "pl": "Fort Lwiego Serca",
+    "zh-tw": "狮心堡垒"
    },
    "adj": [
     4001,
@@ -1625,7 +2891,22 @@
    "value": 20,
    "names": {
     "en": "Nightfall Fortress",
-    "ru": "Крепость сумерек"
+    "ru": "Крепость сумерек",
+    "es": "Fortaleza del anochecer",
+    "pt": "Forte do Anoitecer",
+    "fr": "Forteresse du crépuscule",
+    "de": "Abenddämmerungs-Festung",
+    "id": "Benteng Malam",
+    "ko": "흑야의 보루",
+    "ja": "黒夜要塞",
+    "it": "Fortezza Vespertina",
+    "nl": "Nachtvalvesting",
+    "th": "ป้อมปราการราตรี",
+    "tr": "Geceçöktü Kalesi",
+    "vi": "Pháo Đài Hắc Dạ",
+    "zh": "黑夜堡垒",
+    "pl": "Forteca Zmierzchu",
+    "zh-tw": "黑夜堡垒"
    },
    "adj": [
     4003,
@@ -1646,7 +2927,22 @@
    "value": 20,
    "names": {
     "en": "Sky Fortress",
-    "ru": "Небесная крепость"
+    "ru": "Небесная крепость",
+    "es": "Fortaleza celestial",
+    "pt": "Forte Celestial",
+    "fr": "Forteresse céleste",
+    "de": "Himmel-Festung",
+    "id": "Benteng Langit Biru",
+    "ko": "창궁 보루",
+    "ja": "蒼穹要塞",
+    "it": "Fortezza Celeste",
+    "nl": "Hemelvesting",
+    "th": "ป้อมเวหาอาสิน",
+    "tr": "Gökyüzü Kalesi",
+    "vi": "Pháo Đài Trên Không",
+    "zh": "苍穹堡垒",
+    "pl": "Forteca Niebios",
+    "zh-tw": "苍穹堡垒"
    },
    "adj": [
     4004,
