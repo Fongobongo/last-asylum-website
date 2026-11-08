@@ -1,11 +1,16 @@
 """
-Generate site/src/data/cityMap.ts from the extracted map geometry.
+Generate site/src/data/cityMap.ts from the data extracted out of the game client.
 
-Source of truth for the vector shapes and bonuses:
-  scripts/city_map_geometry.json  (87 territories traced from the in-game city
-  map infographic; `text` is the OCR'd bonus label of each territory).
+Source of truth for the cities, levels, bonuses and coordinates:
+  scripts/game_city_data.json
+  (built from the client tables `MechCity` + `DefineBenefit`, plus the localized
+  `MechCity` name tables. `x`/`y` are the in-game map coordinates, 0-1000.)
 
-Source of truth for the translations:
+Territory outlines are not stored by the client, so they are derived here: each
+city owns the Voronoi cell around its real map position, clipped to the map
+frame. Cells share exact edges, so the map is a gap-free partition.
+
+Source of truth for the bonus translations:
   game_terms.json  (strings extracted from the game client, 18 languages)
   + the hand-written UI dictionaries below (19 languages).
 
@@ -17,7 +22,7 @@ import os
 import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-GEOMETRY = os.path.join(ROOT, "scripts", "city_map_geometry.json")
+GAME_DATA = os.path.join(ROOT, "scripts", "game_city_data.json")
 TERMS = os.path.join(ROOT, "game_terms.json")
 OUT = os.path.join(ROOT, "site", "src", "data", "cityMap.ts")
 
@@ -100,25 +105,6 @@ GENERIC_AR = {
     4: "مدينة المستوى 4", 5: "مدينة المستوى 5", 6: "مدينة المستوى 6",
 }
 
-NAMED_KEYS = [
-    "Lionheart Fortress Lv.6", "Nightfall Fortress Lv.6", "Sky Fortress Lv.6",
-    "Temple of Chaos Lv.5", "Temple of Nature Lv.5", "Temple of Order Lv.5", "Temple of War Lv.5",
-    "Emerald City Lv.4", "Phantom City Lv.4", "Sunspire City Lv.4",
-    "Holyspring City Lv.3", "Ironwall City Lv.3",
-]
-
-# Which named city sits on which territory: derived from the holding bonus in
-# content/guides/en/cities.md (the top-cities table).
-NAME_BY_BONUS = {
-    "training": "Lionheart Fortress Lv.6",
-    "research": "Nightfall Fortress Lv.6",
-    "building": "Sky Fortress Lv.6",
-    "timber_output@5": "Temple of Chaos Lv.5",
-    "grain_gather@5": "Temple of Nature Lv.5",
-    "herb_output@5": "Temple of Order Lv.5",
-    "grain_output@5": "Temple of War Lv.5",
-}
-
 ROYAL = {
     "en": "Royal City", "ru": "Королевский город", "es": "Ciudad Real", "pt": "Cidade Real",
     "fr": "Cité Royale", "de": "Königsstadt", "id": "Kota Kerajaan", "ko": "왕성", "ja": "王城",
@@ -168,7 +154,7 @@ UI_ROWS = {
     "colCity": ["City", "Город", "Ciudad", "Cidade", "Ville", "Stadt", "Kota", "도시", "都市", "المدينة", "Città", "Bandar", "Stad", "เมือง", "Şehir", "Thành phố", "城市", "Miasto", "城市"],
     "colBonus": ["Bonus", "Бонус", "Bonificación", "Bônus", "Bonus", "Bonus", "Bonus", "보너스", "ボーナス", "المكافأة", "Bonus", "Bonus", "Bonus", "โบนัส", "Bonus", "Bonus", "加成", "Bonus", "加成"],
     "colOwner": ["Owner", "Владелец", "Dueño", "Dono", "Propriétaire", "Besitzer", "Pemilik", "소유자", "所有者", "المالك", "Proprietario", "Pemilik", "Eigenaar", "เจ้าของ", "Sahip", "Chủ", "归属", "Właściciel", "歸屬"],
-    "sourceNote": ["Levels, colours and bonuses follow the in-game city map (client v1.0.87). Ownership is a local planning tool, not live game data.", "Уровни, цвета и бонусы соответствуют игровой карте (клиент v1.0.87). Владения — локальный инструмент планирования, не данные из игры.", "Niveles, colores y bonificaciones según el mapa del juego (cliente v1.0.87). La posesión es una herramienta local, no datos en vivo.", "Níveis, cores e bônus conforme o mapa do jogo (cliente v1.0.87). A posse é uma ferramenta local, não dados ao vivo.", "Niveaux, couleurs et bonus d'après la carte du jeu (client v1.0.87). La possession est un outil local, pas des données en direct.", "Stufen, Farben und Boni nach der Spielkarte (Client v1.0.87). Besitz ist ein lokales Planungswerkzeug, keine Live-Daten.", "Level, warna dan bonus mengikut peta dalam game (klien v1.0.87). Kepemilikan adalah alat perencanaan lokal, bukan data langsung.", "레벨·색상·보너스는 게임 내 지도(클라이언트 v1.0.87) 기준입니다. 소유 표시는 로컬 계획 도구이며 실시간 데이터가 아닙니다.", "レベル・色・ボーナスはゲーム内マップ（クライアント v1.0.87）準拠。領地表示はローカルの計画ツールで、リアルタイムデータではありません。", "المستويات والألوان والمكافآت حسب خريطة اللعبة (العميل v1.0.87). الملكية أداة تخطيط محلية وليست بيانات مباشرة.", "Livelli, colori e bonus secondo la mappa di gioco (client v1.0.87). Il possesso è uno strumento locale, non dati live.", "Tahap, warna dan bonus mengikut peta dalam permainan (klien v1.0.87). Pemilikan ialah alat perancangan tempatan, bukan data langsung.", "Levels, kleuren en bonussen volgen de spelkaart (client v1.0.87). Bezit is een lokaal planningshulpmiddel, geen live data.", "เลเวล สี และโบนัสอิงแผนที่ในเกม (ไคลเอนต์ v1.0.87) การถือครองเป็นเครื่องมือวางแผนในเครื่อง ไม่ใช่ข้อมูลสด", "Seviyeler, renkler ve bonuslar oyun haritasına (istemci v1.0.87) göredir. Sahiplik yerel bir planlama aracıdır, canlı veri değildir.", "Cấp độ, màu và bonus theo bản đồ trong game (client v1.0.87). Quyền sở hữu là công cụ lập kế hoạch cục bộ, không phải dữ liệu trực tiếp.", "等级、颜色与加成依据游戏内地图（客户端 v1.0.87）。归属标记为本地规划工具，并非实时游戏数据。", "Poziomy, kolory i bonusy wg mapy gry (klient v1.0.87). Przynależność to lokalne narzędzie planowania, nie dane na żywo.", "等級、顏色與加成依據遊戲內地圖（客戶端 v1.0.87）。歸屬標記為本機規劃工具，並非即時遊戲資料。"],
+    "sourceNote": ["Levels, colours and bonuses follow the in-game city map (client v1.0.98). Ownership is a local planning tool, not live game data.", "Уровни, цвета и бонусы соответствуют игровой карте (клиент v1.0.98). Владения — локальный инструмент планирования, не данные из игры.", "Niveles, colores y bonificaciones según el mapa del juego (cliente v1.0.98). La posesión es una herramienta local, no datos en vivo.", "Níveis, cores e bônus conforme o mapa do jogo (cliente v1.0.98). A posse é uma ferramenta local, não dados ao vivo.", "Niveaux, couleurs et bonus d'après la carte du jeu (client v1.0.98). La possession est un outil local, pas des données en direct.", "Stufen, Farben und Boni nach der Spielkarte (Client v1.0.98). Besitz ist ein lokales Planungswerkzeug, keine Live-Daten.", "Level, warna dan bonus mengikut peta dalam game (klien v1.0.98). Kepemilikan adalah alat perencanaan lokal, bukan data langsung.", "레벨·색상·보너스는 게임 내 지도(클라이언트 v1.0.98) 기준입니다. 소유 표시는 로컬 계획 도구이며 실시간 데이터가 아닙니다.", "レベル・色・ボーナスはゲーム内マップ（クライアント v1.0.98）準拠。領地表示はローカルの計画ツールで、リアルタイムデータではありません。", "المستويات والألوان والمكافآت حسب خريطة اللعبة (العميل v1.0.98). الملكية أداة تخطيط محلية وليست بيانات مباشرة.", "Livelli, colori e bonus secondo la mappa di gioco (client v1.0.98). Il possesso è uno strumento locale, non dati live.", "Tahap, warna dan bonus mengikut peta dalam permainan (klien v1.0.98). Pemilikan ialah alat perancangan tempatan, bukan data langsung.", "Levels, kleuren en bonussen volgen de spelkaart (client v1.0.98). Bezit is een lokaal planningshulpmiddel, geen live data.", "เลเวล สี และโบนัสอิงแผนที่ในเกม (ไคลเอนต์ v1.0.98) การถือครองเป็นเครื่องมือวางแผนในเครื่อง ไม่ใช่ข้อมูลสด", "Seviyeler, renkler ve bonuslar oyun haritasına (istemci v1.0.98) göredir. Sahiplik yerel bir planlama aracıdır, canlı veri değildir.", "Cấp độ, màu và bonus theo bản đồ trong game (client v1.0.98). Quyền sở hữu là công cụ lập kế hoạch cục bộ, không phải dữ liệu trực tiếp.", "等级、颜色与加成依据游戏内地图（客户端 v1.0.98）。归属标记为本地规划工具，并非实时游戏数据。", "Poziomy, kolory i bonusy wg mapy gry (klient v1.0.98). Przynależność to lokalne narzędzie planowania, nie dane na żywo.", "等級、顏色與加成依據遊戲內地圖（客戶端 v1.0.98）。歸屬標記為本機規劃工具，並非即時遊戲資料。"],
     "original": ["Original map", "Оригинал карты", "Mapa original", "Mapa original", "Carte originale", "Originalkarte", "Peta asli", "원본 지도", "元のマップ", "الخريطة الأصلية", "Mappa originale", "Peta asal", "Originele kaart", "แผนที่ต้นฉบับ", "Orijinal harita", "Bản đồ gốc", "原版地图", "Oryginalna mapa", "原版地圖"],
     "assignTo": ["Assign to", "Назначить", "Asignar a", "Atribuir a", "Attribuer à", "Zuweisen an", "Tetapkan ke", "배정", "割り当て", "تعيين إلى", "Assegna a", "Tetapkan kepada", "Toewijzen aan", "กำหนดให้", "Ata", "Gán cho", "分配给", "Przypisz do", "分配給"],
     "details": ["Click a city to see its details", "Кликните по городу, чтобы увидеть детали", "Haz clic en una ciudad para ver los detalles", "Clique numa cidade para ver detalhes", "Cliquez sur une ville pour les détails", "Stadt anklicken für Details", "Klik kota untuk butiran", "도시를 클릭하면 상세 정보가 표시됩니다", "都市をクリックすると詳細が表示されます", "انقر على مدينة لعرض التفاصيل", "Clicca una città per i dettagli", "Klik bandar untuk butiran", "Klik een stad voor details", "คลิกเมืองเพื่อดูรายละเอียด", "Ayrıntılar için bir şehre tıklayın", "Nhấp vào thành phố để xem chi tiết", "点击城市查看详情", "Kliknij miasto, aby zobaczyć szczegóły", "點擊城市查看詳情"],
@@ -242,6 +228,8 @@ UI_ROWS = {
     "writeMode": ["Who can edit", "Кто может редактировать", "Quién puede editar", "Quem pode editar", "Qui peut modifier", "Wer darf bearbeiten", "Siapa yang boleh menyunting", "편집할 수 있는 사람", "編集できる人", "من يمكنه التحرير", "Chi può modificare", "Siapa boleh menyunting", "Wie mag bewerken", "ใครแก้ได้", "Kim düzenleyebilir", "Ai có thể chỉnh sửa", "谁可以编辑", "Kto może edytować", "誰可以編輯"],
     "noPassword": ["No password", "Без пароля", "Sin contraseña", "Sem senha", "Sans mot de passe", "Ohne Passwort", "Tanpa kata sandi", "비밀번호 없음", "パスワードなし", "بدون كلمة مرور", "Senza password", "Tiada kata laluan", "Geen wachtwoord", "ไม่มีรหัสผ่าน", "Şifre yok", "Không có mật khẩu", "无密码", "Bez hasła", "無密碼"],
     "hasPassword": ["Password set", "Пароль установлен", "Contraseña establecida", "Senha definida", "Mot de passe défini", "Passwort gesetzt", "Kata sandi diatur", "비밀번호 설정됨", "パスワード設定済み", "تم تعيين كلمة المرور", "Password impostata", "Kata laluan ditetapkan", "Wachtwoord ingesteld", "ตั้งรหัสผ่านแล้ว", "Şifre ayarlandı", "Đã đặt mật khẩu", "已设置密码", "Hasło ustawione", "已設定密碼"],
+    "noBonus": ["No bonus", "Без бонуса", "Sin bonificación", "Sem bônus", "Sans bonus", "Kein Bonus", "Tanpa bonus", "보너스 없음", "ボーナスなし", "بدون مكافأة", "Nessun bonus", "Tiada bonus", "Geen bonus", "ไม่มีโบนัส", "Bonus yok", "Không có thưởng", "无加成", "Bez bonusu", "無加成"],
+    "cityName": ["City", "Город", "Ciudad", "Cidade", "Ville", "Stadt", "Kota", "도시", "都市", "مدينة", "Città", "Bandar", "Stad", "เมือง", "Şehir", "Thành phố", "城市", "Miasto", "城市"],
 }
 
 # Bonus pictograms and their base hues. The client derives saturation from the
@@ -266,33 +254,64 @@ def ts(value):
     return json.dumps(value, ensure_ascii=False)
 
 
-def classify(text, lv):
-    s = text.lower()
-    if "gather" in s:
-        k = "grain_gather"
-    elif "train" in s:
-        k = "training"
-    elif "research" in s:
-        k = "research"
-    elif "bu" in s and "spd" in s and ("build" in s or "buit" in s):
-        k = "building"
-    elif "timber" in s:
-        k = "timber_output"
-    elif "herb" in s:
-        k = "herb_output"
-    elif "grain" in s or "gtain" in s or "graim" in s:
-        k = "grain_output"
-    else:
-        raise ValueError("Unknown bonus: " + repr(text))
-    m = re.search(r"(\d+)\s*%", text)
-    v = int(m.group(1)) if m else {1: 5, 2: 5, 3: 10, 4: 15, 5: 20, 6: 20}[lv]
-    return k, v
+# ── map geometry ────────────────────────────────────────────────────────────
+# The client stores one map position per city (0-1000 on both axes) but no
+# polygons, so the territory outlines are derived from those positions: every
+# city owns the Voronoi cell around its real coordinates. Cells share exact
+# edges, which makes the result a gap-free, overlap-free partition.
+FRAME_PAD = 34.0
+MARGIN = 12.0
+
+
+def _clip(poly, nx, ny, d):
+    out = []
+    n = len(poly)
+    for i in range(n):
+        ax, ay = poly[i]
+        bx, by = poly[(i + 1) % n]
+        da = nx * ax + ny * ay - d
+        db = nx * bx + ny * by - d
+        if da <= 0:
+            out.append((ax, ay))
+        if (da < 0 < db) or (db < 0 < da):
+            t = da / (da - db)
+            out.append((ax + t * (bx - ax), ay + t * (by - ay)))
+    return out
+
+
+def build_cells(cities):
+    xs = [c["x"] for c in cities]
+    ys = [c["y"] for c in cities]
+    x0, y0 = min(xs) - FRAME_PAD, min(ys) - FRAME_PAD
+    x1, y1 = max(xs) + FRAME_PAD, max(ys) + FRAME_PAD
+    frame = [(x0, y0), (x1, y0), (x1, y1), (x0, y1)]
+    cells = []
+    for i, c in enumerate(cities):
+        poly = list(frame)
+        for j, o in enumerate(cities):
+            if i == j:
+                continue
+            nx, ny = o["x"] - c["x"], o["y"] - c["y"]
+            d = (o["x"] ** 2 + o["y"] ** 2 - c["x"] ** 2 - c["y"] ** 2) / 2.0
+            poly = _clip(poly, nx, ny, d)
+            if len(poly) < 3:
+                break
+        clean = []
+        for px, py in poly:
+            if not clean or abs(px - clean[-1][0]) > 0.5 or abs(py - clean[-1][1]) > 0.5:
+                clean.append((px, py))
+        if len(clean) > 2 and clean[0] == clean[-1]:
+            clean.pop()
+        cells.append(clean)
+    w = round(x1 - x0 + 2 * MARGIN)
+    h = round(y1 - y0 + 2 * MARGIN)
+    return cells, x0 - MARGIN, y0 - MARGIN, w, h
 
 
 def main():
-    geometry = json.load(open(GEOMETRY, encoding="utf-8"))
+    data = json.load(open(GAME_DATA, encoding="utf-8"))
+    src_cities = sorted(data["cities"], key=lambda c: c["id"])
     terms = json.load(open(TERMS, encoding="utf-8"))
-    local = {l: 0 for l in LANGS}
 
     def term(lang, key):
         if lang == "en":
@@ -317,70 +336,83 @@ def main():
             row[k] = {"full": full, "short": SHORT[k][LANGS.index(lang)]}
         bonus_labels[lang] = row
 
-    # ---- generic city names ------------------------------------------------
-    generic = {}
-    for lang in LANGS:
-        row = {}
-        for lv in range(1, 7):
-            key = GENERIC_EN[lv]
-            value = terms.get(lang, {}).get(key) if lang != "en" else None
-            if lang == "ar" or not value or value.strip().isupper():
-                value = GENERIC_AR[lv] if lang == "ar" else None
-            if not value:
-                value = key
-            row[lv] = value
-        generic[lang] = row
-
-    # ---- named cities ------------------------------------------------------
+    # ---- city names --------------------------------------------------------
+    # The client ships one name table per language; only the packs the player
+    # downloaded are on disk, so the remaining languages fall back to English.
     named = {}
-    for key in NAMED_KEYS:
+    for c in src_cities:
+        en = c["names"].get("en") or str(c["id"])
         row = {}
         for lang in LANGS:
-            row[lang] = term(lang, key) or key
-        named[key] = row
+            row[lang] = c["names"].get(lang) or en
+        named[str(c["id"])] = row
     named["Royal City"] = ROYAL
+    named["7001"] = ROYAL
+    generic = {lang: {lv: GENERIC_EN[lv] for lv in range(1, 7)} for lang in LANGS}
 
-    # ---- cities ------------------------------------------------------------
+    # ---- geometry ----------------------------------------------------------
+    # a handful of cities have no stored coordinate; place them between their
+    # neighbours on the same ring so the partition stays regular
+    for c in src_cities:
+        if c["x"] is None:
+            near = sorted(
+                [o for o in src_cities if o["lv"] == c["lv"] and o["x"] is not None],
+                key=lambda o: abs(o["id"] - c["id"]),
+            )[:2]
+            c["x"] = sum(o["x"] for o in near) / len(near)
+        if c["y"] is None:
+            near = sorted(
+                [o for o in src_cities if o["lv"] == c["lv"] and o["y"] is not None],
+                key=lambda o: abs(o["id"] - c["id"]),
+            )[:2]
+            c["y"] = sum(o["y"] for o in near) / len(near)
+    polys, ox, oy, map_w, map_h = build_cells(src_cities)
+
     cities = []
-    for r in geometry:
-        lv = r["lv"]
-        rec = {
-            "id": r["id"],
-            "lv": lv,
-            "poly": " ".join(f"{x},{y}" for x, y in r["poly"]),
-            "lx": r["lx"], "ly": r["ly"],
-            "bx": r["x"] + r["w"] - 15, "by": r["y"] + 15,
-            "tiny": 1 if (r["w"] < 95 or r["h"] < 72) else 0,
-        }
-        if lv == 7:
-            rec["bonus"] = ""
-            rec["value"] = 0
-            rec["name"] = "Royal City"
-        else:
-            k, v = classify(r["text"], lv)
-            rec["bonus"] = k
-            rec["value"] = v
-            rec["name"] = NAME_BY_BONUS.get(k if lv == 6 else f"{k}@{lv}", "")
-            local[lv] = local.get(lv, 0)
-        cities.append(rec)
-
+    for c, poly in zip(src_cities, polys):
+        if len(poly) < 3:
+            raise SystemExit("empty cell for city %s" % c["id"])
+        pts = [(round(px - ox, 1), round(py - oy, 1)) for px, py in poly]
+        cx = sum(p[0] for p in pts) / len(pts)
+        cy = sum(p[1] for p in pts) / len(pts)
+        xs = [p[0] for p in pts]
+        ys = [p[1] for p in pts]
+        cw = max(xs) - min(xs)
+        ch = max(ys) - min(ys)
+        cities.append(
+            {
+                "id": str(c["id"]),
+                "lv": c["lv"],
+                "bonus": c["bonus"] or "",
+                "value": c["value"] or 0,
+                "poly": " ".join("%s,%s" % (x, y) for x, y in pts),
+                "lx": round(cx, 1),
+                "ly": round(cy, 1),
+                "bx": round(max(xs) - 15, 1),
+                "by": round(min(ys) + 17, 1),
+                "cw": round(cw),
+                "tiny": 1 if (cw < 104 or ch < 86) else 0,
+                "name": str(c["id"]),
+            }
+        )
     # ---- emit --------------------------------------------------------------
     ui = {lang: {key: vals[LANGS.index(lang)] for key, vals in UI_ROWS.items()} for lang in LANGS}
     lines = []
     add = lines.append
     add("// AUTO-GENERATED by scripts/generate_city_map.py — do not edit by hand.")
-    add("// Vector territories traced from the in-game city map infographic;")
-    add("// bonus labels OCR'd from the same image; names/terms from game_terms.json.")
+    add("// Source: scripts/game_city_data.json, extracted from the game client")
+    add("// (MechCity / DefineBenefit tables). Territory outlines are Voronoi cells")
+    add("// built from the real in-game map coordinates of every city.")
     add("")
     add("export type Lang = " + " | ".join(ts(l) for l in LANGS) + ";")
     add("export type BonusKey = " + " | ".join(ts(k) for k in BONUS_KEYS) + ";")
     add("export interface City {")
     add("  id: string; lv: number; bonus: BonusKey | ''; value: number;")
     add("  poly: string; lx: number; ly: number; bx: number; by: number;")
-    add("  tiny: 0 | 1; name: string;")
+    add("  cw: number; tiny: 0 | 1; name: string;")
     add("}")
-    add("export const MAP_W = 1120;")
-    add("export const MAP_H = 927;")
+    add("export const MAP_W = %d;" % map_w)
+    add("export const MAP_H = %d;" % map_h)
     add("export const LEVEL_COLORS: Record<number, string> = " + ts(LEVEL_COLORS) + ";")
     add("export const LEVEL_HP: Record<number, number | null> = " + ts(LEVEL_HP) + ";")
     add("export const LEVEL_GARRISON: Record<number, number | null> = " + ts(LEVEL_GARRISON) + ";")

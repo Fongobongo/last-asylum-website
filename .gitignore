@@ -30,3 +30,7 @@ site/public/dnd/payload.enc
 # WorkBuddy project data (local agent memory, not source)
 .workbuddy-ai/
 
+# Local scratch: screenshots, extracted game dumps, browser session logs
+.tmp_shots/
+.playwright-cli/
+

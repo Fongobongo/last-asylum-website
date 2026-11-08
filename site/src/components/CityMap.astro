@@ -263,18 +263,21 @@ const payload = {
           <g id="cm-badges" pointer-events="none"></g>
           <g id="cm-labels" data-mode="full" pointer-events="none">
             {CITIES.map((c) => (
-              <g class:list={['cm-label', c.tiny ? 'cm-tiny' : '']} data-id={c.id}>
-                <text class="cm-lv" x={c.lx} y={c.ly - 19}>Lv.{c.lv}</text>
-                {c.lv === 7 || !c.bonus ? (
-                  <text class="cm-royal" x={c.lx} y={c.ly + 4}>👑 {S.royal}</text>
+              <g class:list={['cm-label', c.tiny ? 'cm-tiny' : '']} data-id={c.id} data-cw={c.cw}>
+                <text class="cm-name" x={c.lx} y={c.ly - 27}>{nameOf(c)}</text>
+                <text class="cm-lv" x={c.lx} y={c.ly - 12}>Lv.{c.lv}</text>
+                {c.lv === 7 ? (
+                  <text class="cm-royal" x={c.lx} y={c.ly + 6}>👑 {S.royal}</text>
+                ) : !c.bonus ? (
+                  <text class="cm-none" x={c.lx} y={c.ly + 6}>{S.noBonus}</text>
                 ) : (
                   <g>
-                    <circle class="cm-bico" cx={c.lx - 31} cy={c.ly + 4} r="10"
+                    <circle class="cm-bico" cx={c.lx - 31} cy={c.ly + 9} r="10"
                             fill={fillFor(c.bonus as BonusKey, c.value)}
                             stroke="rgba(255,255,255,.45)" stroke-width="1.2" />
-                    <text class="cm-bico-i" x={c.lx - 31} y={c.ly + 8.5}>{BONUS_ICONS[c.bonus as BonusKey]}</text>
-                    <text class="cm-bl" x={c.lx + 8} y={c.ly - 2}>{shortOf(c)}</text>
-                    <text class="cm-val" x={c.lx + 8} y={c.ly + 16} style={`fill:${inkFor(c.bonus as BonusKey, c.value)}`}>+{c.value}%</text>
+                    <text class="cm-bico-i" x={c.lx - 31} y={c.ly + 13.5}>{BONUS_ICONS[c.bonus as BonusKey]}</text>
+                    <text class="cm-bl" x={c.lx + 8} y={c.ly + 3}>{shortOf(c)}</text>
+                    <text class="cm-val" x={c.lx + 8} y={c.ly + 21} style={`fill:${inkFor(c.bonus as BonusKey, c.value)}`}>+{c.value}%</text>
                   </g>
                 )}
               </g>
@@ -438,6 +441,122 @@ const payload = {
       var labelLayer = document.getElementById('cm-labels');
       var labels = Array.prototype.slice.call(labelLayer.querySelectorAll('.cm-label'));
       var labelById = new Map(labels.map(function (g) { return [g.dataset.id, g]; }));
+
+      /* City names come from the game in 19 languages and can be long. The
+         territories are Voronoi cells, so a cell's bounding box is much wider
+         than the cell itself where its edges are slanted — a name fitted to the
+         box spills into the neighbours. Instead each name is fitted to the real
+         horizontal extent of its polygon at the height the text sits, and is
+         nudged sideways when the cell is skewed. */
+      function parsePoints(poly) {
+        if (!poly) return null;
+        if (poly._pts) return poly._pts;
+        var raw = (poly.getAttribute('points') || '').trim();
+        if (!raw) return null;
+        poly._pts = raw.split(/\s+/).map(function (pair) {
+          var n = pair.split(',');
+          return [Number(n[0]), Number(n[1])];
+        });
+        return poly._pts;
+      }
+
+      /* horizontal extent of a polygon at height y, or null if it misses */
+      function spanAt(pts, y) {
+        var xs = [];
+        for (var i = 0; i < pts.length; i++) {
+          var a = pts[i], b = pts[(i + 1) % pts.length];
+          if ((a[1] <= y && b[1] > y) || (b[1] <= y && a[1] > y)) {
+            xs.push(a[0] + (y - a[1]) * (b[0] - a[0]) / (b[1] - a[1]));
+          }
+        }
+        if (xs.length < 2) return null;
+        return [Math.min.apply(null, xs), Math.max.apply(null, xs)];
+      }
+
+      /* narrowest span that is inside the cell across the whole band [y0, y1] */
+      function bandSpan(pts, y0, y1) {
+        var lo = -Infinity, hi = Infinity;
+        for (var y = y0; y <= y1 + 0.01; y += 1) {
+          var s = spanAt(pts, y);
+          if (!s) return null;
+          if (s[0] > lo) lo = s[0];
+          if (s[1] < hi) hi = s[1];
+          if (hi - lo < 8) return null;
+        }
+        return lo < hi ? [lo, hi] : null;
+      }
+
+      function fitNames() {
+        labels.forEach(function (g) {
+          var t = g.querySelector('.cm-name');
+          if (!t) return;
+          var full = t.getAttribute('data-full') || t.textContent || '';
+          t.setAttribute('data-full', full);
+          if (!t.getAttribute('data-x0')) t.setAttribute('data-x0', t.getAttribute('x'));
+          if (!t.getAttribute('data-y0')) t.setAttribute('data-y0', t.getAttribute('y'));
+
+          /* locked and tiny labels are display:none, and getBBox() is all
+             zeroes for those — measure them visible, then put them back */
+          var hidden = window.getComputedStyle(g).display === 'none';
+          if (hidden) g.style.display = 'inline';
+
+          var x0 = Number(t.getAttribute('data-x0'));
+          var y0 = Number(t.getAttribute('data-y0'));
+          var pts = parsePoints(byId.get(g.dataset.id));
+
+          /* the cell narrows towards its top vertex, so the name is placed at
+             the height where the cell is widest. It may only move up: the
+             level line sits 15px below the original baseline. */
+          var y = y0, span = null;
+          if (pts) {
+            for (var yy = y0 - 10; yy <= y0 + 2; yy += 1) {
+              var probe = bandSpan(pts, yy - 8, yy + 1);
+              if (probe && (!span || probe[1] - probe[0] > span[1] - span[0])) {
+                span = probe;
+                y = yy;
+              }
+            }
+          }
+          var max = span
+            ? (span[1] - span[0]) - 8
+            : Math.max(40, Number(g.dataset.cw || 90) - 12);
+
+          t.setAttribute('y', y);
+          t.style.fontSize = '';
+          t.textContent = full;
+
+          /* prefer shrinking the type down to 9px over cutting the name */
+          if (max >= 34 && t.getBBox().width > max) {
+            var w11 = t.getBBox().width;
+            var px = Math.max(9, Math.min(11, Math.floor((max / w11) * 11 * 2) / 2));
+            t.style.fontSize = px + 'px';
+          }
+          if (max < 34) {
+            t.textContent = '';
+          } else if (t.getBBox().width > max) {
+            var s = full;
+            while (s.length > 3) {
+              s = s.slice(0, -1);
+              t.textContent = s + '…';
+              if (t.getBBox().width <= max) break;
+            }
+            if (t.getBBox().width > max) t.textContent = '';
+          }
+
+          if (t.textContent) {
+            var tw = t.getBBox().width;
+            var x = x0;
+            if (span) {
+              var half = tw / 2 + 2;
+              x = Math.min(Math.max(x0, span[0] + half), span[1] - half);
+            }
+            t.setAttribute('x', x);
+          }
+          if (hidden) g.style.display = '';
+        });
+      }
+      fitNames();
+      window.addEventListener('load', fitNames);
 
       /* ---------- state ---------- */
       var current = { meta: blankMeta(), doc: blankDoc() };
@@ -1620,30 +1739,36 @@ const payload = {
   #cm-app .cm-poly:focus-visible { stroke: #fff; stroke-width: 4; }
   #cm-app .cm-poly.cm-dim { opacity: .1; pointer-events: none; }
   #cm-app .cm-poly.cm-locked {
-    fill: #14170f; opacity: .55; cursor: not-allowed;
+    opacity: .42; cursor: not-allowed;
     stroke-dasharray: 4 4; stroke: #2c3026; stroke-width: 1.4;
   }
   #cm-app .cm-poly.cm-locked:hover { filter: none; }
   #cm-app .cm-poly.cm-selected { stroke: #fff !important; stroke-width: 5 !important; stroke-dasharray: 9 5; }
   #cm-app .cm-label { transition: opacity .18s; direction: ltr; unicode-bidi: plaintext; }
   #cm-app .cm-label.cm-dim { opacity: .08; }
-  #cm-app .cm-label.cm-locked { display: none; }
+  /* locked cities stay named and coloured, just muted — a map without their
+     names reads as empty once the higher stages are still unavailable */
+  #cm-app .cm-label.cm-locked { opacity: .45; }
   #cm-app .cm-label text {
     text-anchor: middle; font-family: "Plus Jakarta Sans", system-ui, sans-serif;
     fill: #fff; stroke: rgba(10, 14, 9, .78); stroke-width: 2.6px;
     paint-order: stroke fill; font-weight: 700; pointer-events: none;
   }
+  #cm-app .cm-name { font-size: 11px; font-weight: 800; letter-spacing: .01em; }
   #cm-app .cm-lv { font-size: 10.5px; opacity: .92; letter-spacing: .02em; }
   #cm-app .cm-bl { font-size: 11.5px; }
   #cm-app .cm-val { font-size: 13px; }
   #cm-app .cm-royal { font-size: 13px; }
+  #cm-app .cm-none { font-size: 10px; opacity: .55; }
   #cm-app .cm-bico-i {
     font-size: 11px; stroke: none !important; paint-order: normal !important;
     text-anchor: middle;
   }
+  #cm-app .cm-label.cm-tiny .cm-name { display: none; }
   #cm-app .cm-label.cm-tiny .cm-lv { font-size: 9px; }
   #cm-app .cm-label.cm-tiny .cm-bl { font-size: 9.5px; }
   #cm-app .cm-label.cm-tiny .cm-val { font-size: 11px; }
+  #cm-labels[data-mode="compact"] .cm-name,
   #cm-labels[data-mode="compact"] .cm-lv,
   #cm-labels[data-mode="compact"] .cm-bl { display: none; }
   #cm-labels[data-mode="compact"] .cm-val { font-size: 14px; }
