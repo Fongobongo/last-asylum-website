@@ -1,14 +1,20 @@
 """
-Generate site/src/data/cityMap.ts from the data extracted out of the game client.
+Generate site/src/data/cityMap.ts from the traced map shapes + the game client data.
 
-Source of truth for the cities, levels, bonuses and coordinates:
+Source of truth for the territory outlines:
+  scripts/city_map_geometry.json  (87 territories traced from the in-game city
+  map image; `poly` is in image pixels, `lx`/`ly` is the label anchor)
+
+Source of truth for the cities, levels, bonuses and names:
   scripts/game_city_data.json
   (built from the client tables `MechCity` + `DefineBenefit`, plus the localized
   `MechCity` name tables. `x`/`y` are the in-game map coordinates, 0-1000.)
 
-Territory outlines are not stored by the client, so they are derived here: each
-city owns the Voronoi cell around its real map position, clipped to the map
-frame. Cells share exact edges, so the map is a gap-free partition.
+The traced picture is drawn by a player and its own bonus labels disagree with
+the client in places, so the shapes and the facts are joined here instead of
+being read off the picture: every territory is matched to a real city by ring
+(same level, ordered by angle around the map centre — the counts per level
+match exactly).
 
 Source of truth for the bonus translations:
   game_terms.json  (strings extracted from the game client, 18 languages)
@@ -18,10 +24,12 @@ Run:  python scripts/generate_city_map.py
 """
 
 import json
+import math
 import os
 import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+GEOMETRY = os.path.join(ROOT, "scripts", "city_map_geometry.json")
 GAME_DATA = os.path.join(ROOT, "scripts", "game_city_data.json")
 TERMS = os.path.join(ROOT, "game_terms.json")
 OUT = os.path.join(ROOT, "site", "src", "data", "cityMap.ts")
@@ -92,7 +100,7 @@ SHORT = {
     "grain_output": ["Grain", "Зерно", "Grano", "Comida", "Céréales", "Getreide", "Makanan", "식량", "食料", "حبوب", "Grano", "Makanan", "Graan", "เสบียง", "Tahıl", "Thức ăn", "粮食", "Zboże", "糧食"],
     "timber_output": ["Timber", "Древо", "Madera", "Madeira", "Bois", "Holz", "Kayu", "목재", "木材", "خشب", "Legname", "Kayu", "Hout", "ไม้", "Kereste", "Gỗ", "木材", "Drewno", "木材"],
     "herb_output": ["Herb", "Травы", "Hierbas", "Ervas", "Herbes", "Kräuter", "Obat", "약재", "薬材", "أعشاب", "Erbe", "Herba", "Kruiden", "สมุนไพร", "Bitki", "Thuốc", "药材", "Zioła", "藥材"],
-    "grain_gather": ["Gather", "Сбор", "Recogida", "Coleta", "Collecte", "Sammeln", "Kumpul", "수집", "採集", "جمع", "Raccolta", "Kutip", "Verzamelen", "รวบรวม", "Toplama", "Thu thập", "采集", "Zbiór", "採集"],
+    "grain_gather": ["Grain Gather", "Сбор зерна", "Recogida grano", "Coleta comida", "Collecte cér.", "Getreide samm.", "Kumpul makanan", "식량 수집", "食料採集", "جمع الحبوب", "Raccolta grano", "Kutip makanan", "Graan verzam.", "รวบรวมเสบียง", "Tahıl topla", "Thu thập lúa", "粮食采集", "Zbiór zboża", "糧食採集"],
     "training": ["Training", "Обуч.", "Entreno", "Treino", "Entraîn.", "Training", "Latih", "훈련", "訓練", "تدريب", "Addestr.", "Latih", "Training", "ฝึกฝน", "Eğitim", "Huấn luyện", "训练", "Trening", "訓練"],
     "research": ["Research", "Иссл.", "Investig.", "Pesquisa", "Recherche", "Forschung", "Riset", "연구", "研究", "بحث", "Ricerca", "Kajian", "Onderzoek", "วิจัย", "Araştırma", "Nghiên cứu", "研究", "Badania", "研究"],
     "building": ["Building", "Стройка", "Constr.", "Constr.", "Constr.", "Bauen", "Bangun", "건설", "建設", "بناء", "Costr.", "Bina", "Bouwen", "ก่อสร้าง", "İnşa", "Xây dựng", "建造", "Budowa", "建造"],
@@ -254,58 +262,54 @@ def ts(value):
     return json.dumps(value, ensure_ascii=False)
 
 
-# ── map geometry ────────────────────────────────────────────────────────────
-# The client stores one map position per city (0-1000 on both axes) but no
-# polygons, so the territory outlines are derived from those positions: every
-# city owns the Voronoi cell around its real coordinates. Cells share exact
-# edges, which makes the result a gap-free, overlap-free partition.
-FRAME_PAD = 34.0
-MARGIN = 12.0
+# ── matching traced shapes to real cities ───────────────────────────────────
+# The traced map is a player's drawing of the in-game city map. Its own bonus
+# labels disagree with the client in dozens of places (it shows Grain and Herb
+# Output on level-1 cities, which the client does not), so its text is not used
+# as data — only its shapes are. Every territory is matched to a real city by
+# ring: same level, ordered by angle around the map centre. The counts per level
+# match exactly (38 / 22 / 12 / 7 / 4 / 3 / 1), so the assignment is a bijection.
+def fill_coords(cities):
+    """A handful of cities have no stored coordinate; place them between their
+    neighbours on the same ring."""
+    for c in cities:
+        if c["x"] is None:
+            near = sorted(
+                [o for o in cities if o["lv"] == c["lv"] and o["x"] is not None],
+                key=lambda o: abs(o["id"] - c["id"]),
+            )[:2]
+            c["x"] = sum(o["x"] for o in near) / len(near)
+        if c["y"] is None:
+            near = sorted(
+                [o for o in cities if o["lv"] == c["lv"] and o["y"] is not None],
+                key=lambda o: abs(o["id"] - c["id"]),
+            )[:2]
+            c["y"] = sum(o["y"] for o in near) / len(near)
+    return cities
 
 
-def _clip(poly, nx, ny, d):
-    out = []
-    n = len(poly)
-    for i in range(n):
-        ax, ay = poly[i]
-        bx, by = poly[(i + 1) % n]
-        da = nx * ax + ny * ay - d
-        db = nx * bx + ny * by - d
-        if da <= 0:
-            out.append((ax, ay))
-        if (da < 0 < db) or (db < 0 < da):
-            t = da / (da - db)
-            out.append((ax + t * (bx - ax), ay + t * (by - ay)))
+def match_territories(trace, cities):
+    def centre(points):
+        return (sum(p[0] for p in points) / len(points), sum(p[1] for p in points) / len(points))
+
+    tc = centre([(t["cx"], t["cy"]) for t in trace])
+    rc = centre([(c["x"], c["y"]) for c in cities])
+    out = {}
+    for lv in range(1, 8):
+        ts = sorted(
+            [t for t in trace if t["lv"] == lv],
+            key=lambda t: math.atan2(t["cy"] - tc[1], t["cx"] - tc[0]),
+        )
+        cs = sorted(
+            [c for c in cities if c["lv"] == lv],
+            key=lambda c: math.atan2(c["y"] - rc[1], c["x"] - rc[0]),
+        )
+        if len(ts) != len(cs):
+            raise SystemExit("level %d: %d traced territories vs %d cities" % (lv, len(ts), len(cs)))
+        for t, c in zip(ts, cs):
+            out[t["id"]] = c
     return out
 
-
-def build_cells(cities):
-    xs = [c["x"] for c in cities]
-    ys = [c["y"] for c in cities]
-    x0, y0 = min(xs) - FRAME_PAD, min(ys) - FRAME_PAD
-    x1, y1 = max(xs) + FRAME_PAD, max(ys) + FRAME_PAD
-    frame = [(x0, y0), (x1, y0), (x1, y1), (x0, y1)]
-    cells = []
-    for i, c in enumerate(cities):
-        poly = list(frame)
-        for j, o in enumerate(cities):
-            if i == j:
-                continue
-            nx, ny = o["x"] - c["x"], o["y"] - c["y"]
-            d = (o["x"] ** 2 + o["y"] ** 2 - c["x"] ** 2 - c["y"] ** 2) / 2.0
-            poly = _clip(poly, nx, ny, d)
-            if len(poly) < 3:
-                break
-        clean = []
-        for px, py in poly:
-            if not clean or abs(px - clean[-1][0]) > 0.5 or abs(py - clean[-1][1]) > 0.5:
-                clean.append((px, py))
-        if len(clean) > 2 and clean[0] == clean[-1]:
-            clean.pop()
-        cells.append(clean)
-    w = round(x1 - x0 + 2 * MARGIN)
-    h = round(y1 - y0 + 2 * MARGIN)
-    return cells, x0 - MARGIN, y0 - MARGIN, w, h
 
 
 def main():
@@ -351,30 +355,19 @@ def main():
     generic = {lang: {lv: GENERIC_EN[lv] for lv in range(1, 7)} for lang in LANGS}
 
     # ---- geometry ----------------------------------------------------------
-    # a handful of cities have no stored coordinate; place them between their
-    # neighbours on the same ring so the partition stays regular
-    for c in src_cities:
-        if c["x"] is None:
-            near = sorted(
-                [o for o in src_cities if o["lv"] == c["lv"] and o["x"] is not None],
-                key=lambda o: abs(o["id"] - c["id"]),
-            )[:2]
-            c["x"] = sum(o["x"] for o in near) / len(near)
-        if c["y"] is None:
-            near = sorted(
-                [o for o in src_cities if o["lv"] == c["lv"] and o["y"] is not None],
-                key=lambda o: abs(o["id"] - c["id"]),
-            )[:2]
-            c["y"] = sum(o["y"] for o in near) / len(near)
-    polys, ox, oy, map_w, map_h = build_cells(src_cities)
+    # shapes come from the traced map, facts come from the client tables
+    fill_coords(src_cities)
+    trace = json.load(open(GEOMETRY, encoding="utf-8"))
+    pairs = match_territories(trace, src_cities)
+    map_w = max(p[0] for t in trace for p in t["poly"]) + 7
+    map_h = max(p[1] for t in trace for p in t["poly"]) + 2
 
     cities = []
-    for c, poly in zip(src_cities, polys):
-        if len(poly) < 3:
-            raise SystemExit("empty cell for city %s" % c["id"])
-        pts = [(round(px - ox, 1), round(py - oy, 1)) for px, py in poly]
-        cx = sum(p[0] for p in pts) / len(pts)
-        cy = sum(p[1] for p in pts) / len(pts)
+    for t in trace:
+        c = pairs[t["id"]]
+        pts = [(px, py) for px, py in t["poly"]]
+        if len(pts) < 3:
+            raise SystemExit("empty territory for %s" % t["id"])
         xs = [p[0] for p in pts]
         ys = [p[1] for p in pts]
         cw = max(xs) - min(xs)
@@ -386,12 +379,12 @@ def main():
                 "bonus": c["bonus"] or "",
                 "value": c["value"] or 0,
                 "poly": " ".join("%s,%s" % (x, y) for x, y in pts),
-                "lx": round(cx, 1),
-                "ly": round(cy, 1),
+                "lx": t["lx"],
+                "ly": t["ly"],
                 "bx": round(max(xs) - 15, 1),
                 "by": round(min(ys) + 17, 1),
                 "cw": round(cw),
-                "tiny": 1 if (cw < 104 or ch < 86) else 0,
+                "tiny": 1 if (cw < 78 or ch < 64) else 0,
                 "name": str(c["id"]),
             }
         )

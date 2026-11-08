@@ -267,7 +267,7 @@ const payload = {
                 <text class="cm-name" x={c.lx} y={c.ly - 27}>{nameOf(c)}</text>
                 <text class="cm-lv" x={c.lx} y={c.ly - 12}>Lv.{c.lv}</text>
                 {c.lv === 7 ? (
-                  <text class="cm-royal" x={c.lx} y={c.ly + 6}>👑 {S.royal}</text>
+                  <text class="cm-royal" x={c.lx} y={c.ly + 8}>👑</text>
                 ) : !c.bonus ? (
                   <text class="cm-none" x={c.lx} y={c.ly + 6}>{S.noBonus}</text>
                 ) : (
@@ -525,13 +525,13 @@ const payload = {
           t.style.fontSize = '';
           t.textContent = full;
 
-          /* prefer shrinking the type down to 9px over cutting the name */
-          if (max >= 34 && t.getBBox().width > max) {
+          /* prefer shrinking the type down to 8px over cutting the name */
+          if (max >= 30 && t.getBBox().width > max) {
             var w11 = t.getBBox().width;
-            var px = Math.max(9, Math.min(11, Math.floor((max / w11) * 11 * 2) / 2));
+            var px = Math.max(8, Math.min(11, Math.floor((max / w11) * 11 * 2) / 2));
             t.style.fontSize = px + 'px';
           }
-          if (max < 34) {
+          if (max < 30) {
             t.textContent = '';
           } else if (t.getBBox().width > max) {
             var s = full;
@@ -547,10 +547,14 @@ const payload = {
             var tw = t.getBBox().width;
             var x = x0;
             if (span) {
-              var half = tw / 2 + 2;
-              x = Math.min(Math.max(x0, span[0] + half), span[1] - half);
+              /* never let a name sit outside its own territory */
+              if (tw > span[1] - span[0] - 4) { t.textContent = ''; }
+              else {
+                var half = tw / 2 + 2;
+                x = Math.min(Math.max(x0, span[0] + half), span[1] - half);
+              }
             }
-            t.setAttribute('x', x);
+            if (t.textContent) t.setAttribute('x', x);
           }
           if (hidden) g.style.display = '';
         });
