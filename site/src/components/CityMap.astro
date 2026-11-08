@@ -306,7 +306,7 @@ const payload = {
         <div class="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1.5">
           <span class="cm-cap">{S.bonus}</span>
           {BONUS_KEYS.map((k) => (
-            <span class="inline-flex items-center gap-1.5 text-[11px] text-stone-400">
+            <span class="inline-flex items-center gap-1.5 text-[11px] text-stone-400" title={B[k].full}>
               <span class="cm-bchip" style={`background:${fillFor(k, 5)}`}>{BONUS_ICONS[k]}</span>
               <span>{B[k].short}</span>
               <span class="inline-flex gap-[3px]">
@@ -490,12 +490,16 @@ const payload = {
         labels.forEach(function (g) {
           var t = g.querySelector('.cm-name');
           if (!t) return;
+          /* A tiny territory has no name at all (.cm-tiny .cm-name is
+             display:none on the text itself). getBBox() is zero there, so
+             skip it instead of measuring a label nobody will ever see. */
+          if (window.getComputedStyle(t).display === 'none') return;
           var full = t.getAttribute('data-full') || t.textContent || '';
           t.setAttribute('data-full', full);
           if (!t.getAttribute('data-x0')) t.setAttribute('data-x0', t.getAttribute('x'));
           if (!t.getAttribute('data-y0')) t.setAttribute('data-y0', t.getAttribute('y'));
 
-          /* locked and tiny labels are display:none, and getBBox() is all
+          /* locked labels are display:none on the group, and getBBox() is all
              zeroes for those — measure them visible, then put them back */
           var hidden = window.getComputedStyle(g).display === 'none';
           if (hidden) g.style.display = 'inline';
@@ -516,6 +520,36 @@ const payload = {
                 y = yy;
               }
             }
+            /* A few traced cells are L-shaped: their name baseline lands a
+               couple of pixels above the top edge, so no 9px band fits inside
+               the outline at all. Without a span the name was left centred on
+               the centroid and spilled into the neighbouring territories.
+               Fall back to the widest single horizontal slice a few pixels
+               around the baseline — the level line is 15px below, so the name
+               must not move further down than that. */
+            if (!span) {
+              for (var sy = y0 - 6; sy <= y0 + 6; sy += 1) {
+                var slice = spanAt(pts, sy);
+                if (slice && slice[1] - slice[0] >= 24 &&
+                    (!span || slice[1] - slice[0] > span[1] - span[0])) {
+                  span = slice;
+                  y = sy;
+                }
+              }
+            }
+            /* Two L-shaped cells have a perfectly valid but razor-thin band
+               (8-21px) at the original baseline, which used to blank the name
+               outright. Look a few pixels further down — still well above the
+               Lv. line at +15 — where the cell opens out. */
+            if (!span || span[1] - span[0] < 38) {
+              for (var ry = y0 + 3; ry <= y0 + 6; ry += 1) {
+                var rescue = bandSpan(pts, ry - 8, ry + 1);
+                if (rescue && (!span || rescue[1] - rescue[0] > span[1] - span[0])) {
+                  span = rescue;
+                  y = ry;
+                }
+              }
+            }
           }
           var max = span
             ? (span[1] - span[0]) - 8
@@ -525,22 +559,34 @@ const payload = {
           t.style.fontSize = '';
           t.textContent = full;
 
-          /* prefer shrinking the type down to 8px over cutting the name */
+          /* Prefer shrinking the type over cutting the name. CJK and Thai
+             glyphs do not scale exactly like Latin ones, so step down until
+             the text really fits instead of trusting the predicted size. */
+          var px = 11;
           if (max >= 30 && t.getBBox().width > max) {
             var w11 = t.getBBox().width;
-            var px = Math.max(8, Math.min(11, Math.floor((max / w11) * 11 * 2) / 2));
+            px = Math.max(7, Math.min(11, Math.floor((max / w11) * 11 * 2) / 2));
             t.style.fontSize = px + 'px';
+            while (t.getBBox().width > max && px > 7) {
+              px -= 0.5;
+              t.style.fontSize = px + 'px';
+            }
           }
-          if (max < 30) {
-            t.textContent = '';
-          } else if (t.getBBox().width > max) {
+          if (max < 30) t.style.fontSize = '7px';
+          if (t.getBBox().width > max) {
             var s = full;
             while (s.length > 3) {
               s = s.slice(0, -1);
               t.textContent = s + '…';
               if (t.getBBox().width <= max) break;
             }
-            if (t.getBBox().width > max) t.textContent = '';
+            if (t.getBBox().width > max) {
+              /* A three-glyph name has nothing left to abbreviate. Keep it
+                 whole at the smallest size rather than leaving a blank cell. */
+              t.style.fontSize = '7px';
+              t.textContent = full;
+              if (t.getBBox().width > max) t.textContent = '';
+            }
           }
 
           if (t.textContent) {
@@ -559,8 +605,31 @@ const payload = {
           if (hidden) g.style.display = '';
         });
       }
+      /* Bonus labels are short in English but much longer in e.g. Russian
+         ("Прод. древа" vs "Timber"). Shrink them down to 8px just enough to stay
+         inside their own territory; the pictogram keeps the type readable. */
+      function fitBonusLabels() {
+        labels.forEach(function (g) {
+          var t = g.querySelector('.cm-bl');
+          if (!t) return;
+          var pts = parsePoints(byId.get(g.dataset.id));
+          if (!pts) return;
+          var span = spanAt(pts, Number(t.getAttribute('y')));
+          if (!span) return;
+          var hidden = window.getComputedStyle(g).display === 'none';
+          if (hidden) g.style.display = 'inline';
+          var px = 11.5;
+          for (; px >= 8; px -= 0.5) {
+            t.style.fontSize = px + 'px';
+            var bb = t.getBBox();
+            if (bb.x >= span[0] - 1 && bb.x + bb.width <= span[1] + 1) break;
+          }
+          if (hidden) g.style.display = '';
+        });
+      }
       fitNames();
-      window.addEventListener('load', fitNames);
+      fitBonusLabels();
+      window.addEventListener('load', function () { fitNames(); fitBonusLabels(); });
 
       /* ---------- state ---------- */
       var current = { meta: blankMeta(), doc: blankDoc() };

@@ -10,11 +10,18 @@ Source of truth for the cities, levels, bonuses and names:
   (built from the client tables `MechCity` + `DefineBenefit`, plus the localized
   `MechCity` name tables. `x`/`y` are the in-game map coordinates, 0-1000.)
 
-The traced picture is drawn by a player and its own bonus labels disagree with
-the client in places, so the shapes and the facts are joined here instead of
-being read off the picture: every territory is matched to a real city by ring
-(same level, ordered by angle around the map centre — the counts per level
-match exactly).
+The traced picture is the in-game city map. `MechCity` stores each city's (X, Y)
+position on the 0..1000 world map; the picture is that same map with Y flipped.
+A quantile fit of the two point clouds gives the affine transform and a
+minimum-cost (Hungarian) assignment pairs every territory with exactly one city
+of the same level — all 87 levels agree, so names and bonuses land on the right
+cells instead of being spread around a ring by guesswork.
+
+The client table has NO `benefit` field for 20 level-1 cities. Both in-game
+screenshots supplied with the project show exactly 20 such cells, all reading
+"Grain Output 5%", and every bonus the client DOES define agrees cell-for-cell
+with those screenshots. Those 20 bonuses are therefore filled from the picture;
+the Royal City alone keeps no bonus.
 
 Source of truth for the bonus translations:
   game_terms.json  (strings extracted from the game client, 18 languages)
@@ -24,7 +31,6 @@ Run:  python scripts/generate_city_map.py
 """
 
 import json
-import math
 import os
 import re
 
@@ -97,9 +103,12 @@ FULL_OVERRIDES = {
 
 # Short labels are drawn inside the SVG territories, so they must be tiny.
 SHORT = {
-    "grain_output": ["Grain", "Зерно", "Grano", "Comida", "Céréales", "Getreide", "Makanan", "식량", "食料", "حبوب", "Grano", "Makanan", "Graan", "เสบียง", "Tahıl", "Thức ăn", "粮食", "Zboże", "糧食"],
-    "timber_output": ["Timber", "Древо", "Madera", "Madeira", "Bois", "Holz", "Kayu", "목재", "木材", "خشب", "Legname", "Kayu", "Hout", "ไม้", "Kereste", "Gỗ", "木材", "Drewno", "木材"],
-    "herb_output": ["Herb", "Травы", "Hierbas", "Ervas", "Herbes", "Kräuter", "Obat", "약재", "薬材", "أعشاب", "Erbe", "Herba", "Kruiden", "สมุนไพร", "Bitki", "Thuốc", "药材", "Zioła", "藥材"],
+    # Output (production) and gathering are different bonuses in the game:
+    # DefineBenefit 20001/2/3 are "продукция", 20013 is "скорость сбора".
+    # Keep that distinction visible in the short in-cell labels as well.
+    "grain_output": ["Grain Out", "Прод. зерна", "Grano", "Comida", "Céréales", "Getreide", "Makanan", "식량", "食料", "حبوب", "Grano", "Makanan", "Graan", "เสบียง", "Tahıl", "Thức ăn", "粮食", "Zboże", "糧食"],
+    "timber_output": ["Timber Out", "Прод. древа", "Madera", "Madeira", "Bois", "Holz", "Kayu", "목재", "木材", "خشب", "Legname", "Kayu", "Hout", "ไม้", "Kereste", "Gỗ", "木材", "Drewno", "木材"],
+    "herb_output": ["Herb Out", "Прод. трав", "Hierbas", "Ervas", "Herbes", "Kräuter", "Obat", "약재", "薬材", "أعشاب", "Erbe", "Herba", "Kruiden", "สมุนไพร", "Bitki", "Thuốc", "药材", "Zioła", "藥材"],
     "grain_gather": ["Grain Gather", "Сбор зерна", "Recogida grano", "Coleta comida", "Collecte cér.", "Getreide samm.", "Kumpul makanan", "식량 수집", "食料採集", "جمع الحبوب", "Raccolta grano", "Kutip makanan", "Graan verzam.", "รวบรวมเสบียง", "Tahıl topla", "Thu thập lúa", "粮食采集", "Zbiór zboża", "糧食採集"],
     "training": ["Training", "Обуч.", "Entreno", "Treino", "Entraîn.", "Training", "Latih", "훈련", "訓練", "تدريب", "Addestr.", "Latih", "Training", "ฝึกฝน", "Eğitim", "Huấn luyện", "训练", "Trening", "訓練"],
     "research": ["Research", "Иссл.", "Investig.", "Pesquisa", "Recherche", "Forschung", "Riset", "연구", "研究", "بحث", "Ricerca", "Kajian", "Onderzoek", "วิจัย", "Araştırma", "Nghiên cứu", "研究", "Badania", "研究"],
@@ -262,54 +271,147 @@ def ts(value):
     return json.dumps(value, ensure_ascii=False)
 
 
-# ── matching traced shapes to real cities ───────────────────────────────────
-# The traced map is a player's drawing of the in-game city map. Its own bonus
-# labels disagree with the client in dozens of places (it shows Grain and Herb
-# Output on level-1 cities, which the client does not), so its text is not used
-# as data — only its shapes are. Every territory is matched to a real city by
-# ring: same level, ordered by angle around the map centre. The counts per level
-# match exactly (38 / 22 / 12 / 7 / 4 / 3 / 1), so the assignment is a bijection.
+# ── joining traced shapes with the real cities ──────────────────────────────
 def fill_coords(cities):
-    """A handful of cities have no stored coordinate; place them between their
-    neighbours on the same ring."""
+    """A few cities have no stored coordinate; place them between their nearest
+    neighbours on the same level."""
     for c in cities:
-        if c["x"] is None:
-            near = sorted(
-                [o for o in cities if o["lv"] == c["lv"] and o["x"] is not None],
-                key=lambda o: abs(o["id"] - c["id"]),
-            )[:2]
-            c["x"] = sum(o["x"] for o in near) / len(near)
-        if c["y"] is None:
-            near = sorted(
-                [o for o in cities if o["lv"] == c["lv"] and o["y"] is not None],
-                key=lambda o: abs(o["id"] - c["id"]),
-            )[:2]
-            c["y"] = sum(o["y"] for o in near) / len(near)
+        for f in ("x", "y"):
+            if c[f] is None:
+                near = sorted(
+                    [o for o in cities if o["lv"] == c["lv"] and o[f] is not None],
+                    key=lambda o: abs(o["id"] - c["id"]),
+                )[:2]
+                c[f] = sum(o[f] for o in near) / len(near)
     return cities
 
 
-def match_territories(trace, cities):
-    def centre(points):
-        return (sum(p[0] for p in points) / len(points), sum(p[1] for p in points) / len(points))
+def quantile_fit(a, b):
+    """Linear b = k*a + m from matched quantiles of two point clouds."""
+    n = min(len(a), len(b))
+    A, B = sorted(a), sorted(b)
+    pa = [A[round(i * (len(A) - 1) / (n - 1))] for i in range(n)]
+    pb = [B[round(i * (len(B) - 1) / (n - 1))] for i in range(n)]
+    ma, mb = sum(pa) / n, sum(pb) / n
+    k = sum((x - ma) * (y - mb) for x, y in zip(pa, pb)) / sum((x - ma) ** 2 for x in pa)
+    return k, mb - k * ma
 
-    tc = centre([(t["cx"], t["cy"]) for t in trace])
-    rc = centre([(c["x"], c["y"]) for c in cities])
-    out = {}
-    for lv in range(1, 8):
-        ts = sorted(
-            [t for t in trace if t["lv"] == lv],
-            key=lambda t: math.atan2(t["cy"] - tc[1], t["cx"] - tc[0]),
-        )
-        cs = sorted(
-            [c for c in cities if c["lv"] == lv],
-            key=lambda c: math.atan2(c["y"] - rc[1], c["x"] - rc[0]),
-        )
-        if len(ts) != len(cs):
-            raise SystemExit("level %d: %d traced territories vs %d cities" % (lv, len(ts), len(cs)))
-        for t, c in zip(ts, cs):
-            out[t["id"]] = c
+
+def hungarian(cost):
+    """Minimum-cost perfect assignment (O(n^3), square matrix)."""
+    n = len(cost)
+    INF = float("inf")
+    u = [0.0] * (n + 1)
+    v = [0.0] * (n + 1)
+    p = [0] * (n + 1)
+    way = [0] * (n + 1)
+    for i in range(1, n + 1):
+        p[0] = i
+        j0 = 0
+        minv = [INF] * (n + 1)
+        used = [False] * (n + 1)
+        while True:
+            used[j0] = True
+            i0 = p[j0]
+            delta, j1 = INF, 0
+            for j in range(1, n + 1):
+                if used[j]:
+                    continue
+                cur = cost[i0 - 1][j - 1] - u[i0] - v[j]
+                if cur < minv[j]:
+                    minv[j], way[j] = cur, j0
+                if minv[j] < delta:
+                    delta, j1 = minv[j], j
+            for j in range(n + 1):
+                if used[j]:
+                    u[p[j]] += delta
+                    v[j] -= delta
+                else:
+                    minv[j] -= delta
+            j0 = j1
+            if p[j0] == 0:
+                break
+        while True:
+            j1 = way[j0]
+            p[j0] = p[j1]
+            j0 = j1
+            if j0 == 0:
+                break
+    res = [0] * n
+    for j in range(1, n + 1):
+        if p[j]:
+            res[p[j] - 1] = j - 1
+    return res
+
+
+def match_territories(trace, cities):
+    """Pair each traced territory with a real city by position, not by guessing.
+
+    The game's Y axis points up, the picture's points down, so Y is flipped.
+    A large penalty on level mismatches keeps every ring intact; with the
+    correct transform all 87 levels agree anyway (verified below).
+    """
+    if len(trace) != len(cities):
+        raise SystemExit("%d territories vs %d cities" % (len(trace), len(cities)))
+    kx, mx = quantile_fit([c["x"] for c in cities], [t["cx"] for t in trace])
+    ky, my = quantile_fit([c["y"] for c in cities], [t["cy"] for t in trace])
+    lo, hi = min(t["cy"] for t in trace), max(t["cy"] for t in trace)
+
+    def proj(c):
+        return (kx * c["x"] + mx, lo + hi - (ky * c["y"] + my))
+
+    LEVEL_MISMATCH = 1e7
+    cost = [
+        [
+            (proj(c)[0] - t["cx"]) ** 2 + (proj(c)[1] - t["cy"]) ** 2
+            + (0 if c["lv"] == t["lv"] else LEVEL_MISMATCH)
+            for c in cities
+        ]
+        for t in trace
+    ]
+    assignment = hungarian(cost)
+    out = {trace[i]["id"]: cities[j] for i, j in enumerate(assignment)}
+    bad = [t["id"] for t in trace if out[t["id"]]["lv"] != t["lv"]]
+    if bad:
+        raise SystemExit("level mismatches after matching: " + ", ".join(bad))
+    print("matched %d territories by coordinates (all levels agree)" % len(trace))
     return out
 
+
+# OCR of the two in-game screenshots is noisy ("Butput", "Gtain", "indino").
+OCR_FIXES = [
+    ("butput", "output"), ("qutput", "output"), ("autput", "output"),
+    ("sutput", "output"), ("0utput", "output"), ("gtain", "grain"),
+    ("graim", "grain"), ("buitding", "building"), ("indino", "output"),
+    ("indang", "output"), ("andino", "output"), ("gatherspd", "gather spd"),
+]
+
+
+def picture_bonus(text):
+    """Read (bonus key, value) from the traced picture's own bonus label."""
+    s = text.lower()
+    for a, b in OCR_FIXES:
+        s = s.replace(a, b)
+    if "royal" in s:
+        return None, 0
+    if "gather" in s:
+        key = "grain_gather"
+    elif "grain" in s:
+        key = "grain_output"
+    elif "timber" in s:
+        key = "timber_output"
+    elif "herb" in s:
+        key = "herb_output"
+    elif "training" in s:
+        key = "training"
+    elif "building" in s:
+        key = "building"
+    elif "research" in s:
+        key = "research"
+    else:
+        return None, 0
+    m = re.search(r"(\d+)\s*%", s)
+    return key, int(m.group(1)) if m else 5
 
 
 def main():
@@ -363,8 +465,23 @@ def main():
     map_h = max(p[1] for t in trace for p in t["poly"]) + 2
 
     cities = []
+    filled = 0
     for t in trace:
         c = pairs[t["id"]]
+        pic_key, pic_val = picture_bonus(t.get("text", ""))
+        bonus, value = c["bonus"], c["value"]
+        # 20 level-1 cities have no `benefit` row in MechCity. The two in-game
+        # screenshots show those exact cells as "Grain Output 5%". Keep the
+        # client value everywhere it exists; only fill the genuine gaps.
+        if not bonus and c["lv"] != 7:
+            if not pic_key:
+                raise SystemExit("territory %s has no client or picture bonus" % t["id"])
+            bonus, value = pic_key, pic_val
+            filled += 1
+        # Cross-check: wherever the client does define a bonus, the picture
+        # must agree. (One OCR label lost its percentage, so compare keys.)
+        if c["bonus"] and pic_key and c["bonus"] != pic_key:
+            raise SystemExit("bonus conflict at %s: client %s / picture %s" % (t["id"], c["bonus"], pic_key))
         pts = [(px, py) for px, py in t["poly"]]
         if len(pts) < 3:
             raise SystemExit("empty territory for %s" % t["id"])
@@ -376,8 +493,8 @@ def main():
             {
                 "id": str(c["id"]),
                 "lv": c["lv"],
-                "bonus": c["bonus"] or "",
-                "value": c["value"] or 0,
+                "bonus": bonus or "",
+                "value": value or 0,
                 "poly": " ".join("%s,%s" % (x, y) for x, y in pts),
                 "lx": t["lx"],
                 "ly": t["ly"],
@@ -393,9 +510,11 @@ def main():
     lines = []
     add = lines.append
     add("// AUTO-GENERATED by scripts/generate_city_map.py — do not edit by hand.")
-    add("// Source: scripts/game_city_data.json, extracted from the game client")
-    add("// (MechCity / DefineBenefit tables). Territory outlines are Voronoi cells")
-    add("// built from the real in-game map coordinates of every city.")
+    add("// Territory outlines: scripts/city_map_geometry.json (traced from the")
+    add("// in-game city map). Levels, names, bonuses: the game client tables")
+    add("// MechCity / DefineBenefit, joined to the outlines by map coordinates.")
+    add("// The 20 level-1 bonuses missing from MechCity come from the two")
+    add("// in-game screenshots (all \"Grain Output 5%\").")
     add("")
     add("export type Lang = " + " | ".join(ts(l) for l in LANGS) + ";")
     add("export type BonusKey = " + " | ".join(ts(k) for k in BONUS_KEYS) + ";")
@@ -425,7 +544,11 @@ def main():
     add("")
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     open(OUT, "w", encoding="utf-8").write("\n".join(lines))
-    print("wrote", OUT, "with", len(cities), "territories", os.path.getsize(OUT), "bytes")
+    print(
+        "wrote", OUT, "with", len(cities), "territories,",
+        filled, "bonuses filled from the in-game screenshots,",
+        sum(1 for c in cities if not c["bonus"]), "without bonus (Royal City only)",
+    )
 
 
 if __name__ == "__main__":
