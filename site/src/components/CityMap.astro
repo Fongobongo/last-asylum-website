@@ -491,10 +491,16 @@ const payload = {
       var labelById = new Map(labels.map(function (g) { return [g.dataset.id, g]; }));
 
       /* City names come from the game in 19 languages and can be long. The
-         territories are traced from the in-game picture, so many are L-shaped
-         and a cell's bounding box is much wider than the cell itself at the
-         height of the text. Fit each name to the real horizontal extent of its
-         polygon instead, and nudge it sideways when the cell is skewed. */
+         territories are traced from the in-game picture, so many are L-shaped:
+         the old traced anchor often sits in a narrow neck while the broad body
+         of the same cell is 40-100px lower. Search the whole polygon for the
+         widest strip that can hold the name AND still leaves room for the
+         level line and the bonus badge, then fit the text to that strip. */
+      /* Vertical envelope above a text baseline. At 11px the SVG bbox is
+         ~11px tall for Latin text, but accented scripts (Ś, ą, ẞ, Thai marks)
+         reach ~14px, so the strip must be validated that far up as well. */
+      var LABEL_TOP = 14;
+
       function parsePoints(poly) {
         if (!poly) return null;
         if (poly._pts) return poly._pts;
@@ -507,7 +513,9 @@ const payload = {
         return poly._pts;
       }
 
-      /* horizontal extent of a polygon at height y, or null if it misses */
+      /* horizontal extent of a polygon at height y, or null if it misses.
+         The rectified territories are horizontally convex, so min/max of the
+         crossings is the exact interior interval. */
       function spanAt(pts, y) {
         var xs = [];
         for (var i = 0; i < pts.length; i++) {
@@ -520,17 +528,142 @@ const payload = {
         return [Math.min.apply(null, xs), Math.max.apply(null, xs)];
       }
 
-      /* narrowest span that is inside the cell across the whole band [y0, y1] */
-      function bandSpan(pts, y0, y1) {
+      /* Precompute every integer pixel row once. Sampling at y+0.5 avoids
+         ambiguous vertices on horizontal borders. */
+      function spanTable(poly) {
+        if (!poly) return null;
+        if (poly._spanTable) return poly._spanTable;
+        var pts = parsePoints(poly);
+        if (!pts) return null;
+        var yMin = Infinity, yMax = -Infinity;
+        for (var i = 0; i < pts.length; i++) {
+          if (pts[i][1] < yMin) yMin = pts[i][1];
+          if (pts[i][1] > yMax) yMax = pts[i][1];
+        }
+        var from = Math.floor(yMin), to = Math.ceil(yMax);
+        var spans = new Array(to - from + 1);
+        for (var y = from; y <= to; y++) spans[y - from] = spanAt(pts, y + 0.5);
+        poly._spanTable = { from: from, spans: spans };
+        return poly._spanTable;
+      }
+
+      /* narrowest span that is inside the cell across the WHOLE band [y0, y1].
+         A band clipped by the top or bottom edge is rejected so the three
+         label lines never hang outside their own territory. */
+      function bandSpan(poly, y0, y1) {
+        var tab = spanTable(poly);
+        if (!tab) return null;
+        var first = tab.from, last = tab.from + tab.spans.length - 1;
+        var a = Math.ceil(y0), b = Math.floor(y1);
+        if (a < first || b > last || a > b) return null;
         var lo = -Infinity, hi = Infinity;
-        for (var y = y0; y <= y1 + 0.01; y += 1) {
-          var s = spanAt(pts, y);
+        for (var y = a; y <= b; y++) {
+          var s = tab.spans[y - first];
           if (!s) return null;
           if (s[0] > lo) lo = s[0];
           if (s[1] < hi) hi = s[1];
           if (hi - lo < 8) return null;
         }
         return lo < hi ? [lo, hi] : null;
+      }
+
+      /* single horizontal slice, used only as a last-resort fallback */
+      function sliceSpan(poly, y) {
+        var tab = spanTable(poly);
+        if (!tab) return null;
+        var i = Math.round(y - 0.5) - tab.from;
+        return tab.spans[Math.max(0, Math.min(tab.spans.length - 1, i))] || null;
+      }
+
+      /* Find the widest name strip in the whole territory. Four stack orders
+         are tried: name/Lv/bonus, bonus/Lv/name, a 6px tighter name/Lv/bonus,
+         and a tight one with the bonus above the name but Lv below it. The
+         tight orders let a wide strip near the bottom of an L-shaped cell be
+         used without pushing the badge out of the shape, while the mixed one
+         keeps the 20px-tall badge from overlapping the "Lv." glyphs. Every
+         line keeps its own horizontal centre; the name gets the max width. */
+      function widestLabelLayout(poly, x0, y0) {
+        var tab = spanTable(poly);
+        if (!tab) return null;
+        var first = tab.from + 1, last = tab.from + tab.spans.length - 2;
+        var orders = [
+          { lv: 15, badge: 36, special: 35, penalty: 0 },
+          { lv: -15, badge: -36, special: -35, penalty: 2 },
+          { lv: 15, badge: 30, special: 29, penalty: 4 },
+          { lv: 15, badge: -30, special: -29, penalty: 6 },
+        ];
+        var best = null;
+        for (var ny = first; ny <= last; ny += 1) {
+          for (var oi = 0; oi < orders.length; oi++) {
+            var o = orders[oi];
+            var ns = bandSpan(poly, ny - LABEL_TOP, ny + 2);
+            var ls = bandSpan(poly, ny + o.lv - LABEL_TOP, ny + o.lv + 2);
+            var bs = bandSpan(poly, ny + o.badge - 10, ny + o.badge + 10);
+            if (!ns || !ls || !bs) continue;
+            var nw = ns[1] - ns[0], lw = ls[1] - ls[0], bw = bs[1] - bs[0];
+            if (nw < 40 || lw < 26 || bw < 36) continue;
+            /* Width dominates; the small distance term only breaks ties
+               between equally wide strips in favour of the old anchor. */
+            var score = nw * 4 + Math.min(lw, 100) + Math.min(bw, 100)
+              - Math.abs(ny - y0) * 0.5 - o.penalty;
+            if (!best || score > best.score) {
+              best = {
+                score: score, ny: ny, lvY: ny + o.lv, badgeY: ny + o.badge,
+                specialY: ny + o.special, nameSpan: ns, levelSpan: ls,
+                badgeSpan: bs, reversed: o.lv < 0,
+              };
+            }
+          }
+        }
+        if (best) return best;
+        /* Defensive fallback for a shape that cannot hold all three lines:
+           keep the original stack order and use the widest slice near the
+           traced anchor. */
+        for (var fy = y0 - 10; fy <= y0 + 6; fy += 1) {
+          var fs = bandSpan(poly, fy - LABEL_TOP, fy + 2) || sliceSpan(poly, fy);
+          if (!fs) continue;
+          var fw = fs[1] - fs[0];
+          if (!best || fw > best.nameSpan[1] - best.nameSpan[0]) {
+            best = {
+              score: fw, ny: fy, lvY: fy + 15, badgeY: fy + 36,
+              specialY: fy + 35, nameSpan: fs,
+              levelSpan: bandSpan(poly, fy + 4, fy + 17) || [x0 - 30, x0 + 30],
+              badgeSpan: bandSpan(poly, fy + 26, fy + 46) || [x0 - 30, x0 + 30],
+              reversed: false,
+            };
+          }
+        }
+        return best;
+      }
+
+      /* Move the whole three-line label to the chosen strip. The bonus group
+         is translated instead of rewriting every child, so fitBonusBadges()
+         can still add its own horizontal clamp on top. */
+      function applyLabelLayout(g, t, poly, L) {
+        var mid = function (s) { return (s[0] + s[1]) / 2; };
+        t.setAttribute('x', mid(L.nameSpan));
+        t.setAttribute('y', L.ny);
+        var lv = g.querySelector('.cm-lv');
+        if (lv) { lv.setAttribute('x', mid(L.levelSpan)); lv.setAttribute('y', L.lvY); }
+        var special = g.querySelector('.cm-royal, .cm-none');
+        if (special) {
+          var ss = bandSpan(poly, L.specialY - LABEL_TOP, L.specialY + 2) || L.nameSpan;
+          special.setAttribute('x', mid(ss));
+          special.setAttribute('y', L.specialY);
+        }
+        var badge = g.querySelector('.cm-bonus');
+        if (badge) {
+          if (!badge.getAttribute('data-cx0')) badge.setAttribute('data-cx0', badge.getAttribute('data-cx'));
+          if (!badge.getAttribute('data-cy0')) badge.setAttribute('data-cy0', badge.getAttribute('data-cy'));
+          var oldCx = Number(badge.getAttribute('data-cx0'));
+          var oldCy = Number(badge.getAttribute('data-cy0'));
+          var bcx = mid(L.badgeSpan);
+          badge.setAttribute('data-cy', L.badgeY);
+          badge.setAttribute('data-shift-x', (bcx - oldCx).toFixed(1));
+          badge.setAttribute('data-shift-y', (L.badgeY - oldCy).toFixed(1));
+        }
+        g.setAttribute('data-layout', L.reversed ? 'above' : 'below');
+        g.setAttribute('data-stack', (L.lvY - L.ny) + ',' + (L.badgeY - L.ny));
       }
 
       function fitNames() {
@@ -545,64 +678,26 @@ const payload = {
           t.setAttribute('data-full', full);
           if (!t.getAttribute('data-x0')) t.setAttribute('data-x0', t.getAttribute('x'));
           if (!t.getAttribute('data-y0')) t.setAttribute('data-y0', t.getAttribute('y'));
+          var x0 = Number(t.getAttribute('data-x0'));
+          var y0 = Number(t.getAttribute('data-y0'));
+          var poly = byId.get(g.dataset.id);
+
+          /* Put the name in the widest part of the WHOLE territory and move
+             the level/bonus lines with it, keeping all three inside the cell. */
+          var L = widestLabelLayout(poly, x0, y0);
+          if (L) applyLabelLayout(g, t, poly, L);
 
           /* locked labels are display:none on the group, and getBBox() is all
              zeroes for those — measure them visible, then put them back */
           var hidden = window.getComputedStyle(g).display === 'none';
           if (hidden) g.style.display = 'inline';
 
-          var x0 = Number(t.getAttribute('data-x0'));
-          var y0 = Number(t.getAttribute('data-y0'));
-          var pts = parsePoints(byId.get(g.dataset.id));
-
-          /* the cell narrows towards its top vertex, so the name is placed at
-             the height where the cell is widest. It may only move up: the
-             level line sits 15px below the original baseline. */
-          var y = y0, span = null;
-          if (pts) {
-            for (var yy = y0 - 10; yy <= y0 + 2; yy += 1) {
-              var probe = bandSpan(pts, yy - 8, yy + 1);
-              if (probe && (!span || probe[1] - probe[0] > span[1] - span[0])) {
-                span = probe;
-                y = yy;
-              }
-            }
-            /* A few traced cells are L-shaped: their name baseline lands a
-               couple of pixels above the top edge, so no 9px band fits inside
-               the outline at all. Without a span the name was left centred on
-               the centroid and spilled into the neighbouring territories.
-               Fall back to the widest single horizontal slice a few pixels
-               around the baseline — the level line is 15px below, so the name
-               must not move further down than that. */
-            if (!span) {
-              for (var sy = y0 - 6; sy <= y0 + 6; sy += 1) {
-                var slice = spanAt(pts, sy);
-                if (slice && slice[1] - slice[0] >= 24 &&
-                    (!span || slice[1] - slice[0] > span[1] - span[0])) {
-                  span = slice;
-                  y = sy;
-                }
-              }
-            }
-            /* Two L-shaped cells have a perfectly valid but razor-thin band
-               (8-21px) at the original baseline, which used to blank the name
-               outright. Look a few pixels further down — still well above the
-               Lv. line at +15 — where the cell opens out. */
-            if (!span || span[1] - span[0] < 38) {
-              for (var ry = y0 + 3; ry <= y0 + 6; ry += 1) {
-                var rescue = bandSpan(pts, ry - 8, ry + 1);
-                if (rescue && (!span || rescue[1] - rescue[0] > span[1] - span[0])) {
-                  span = rescue;
-                  y = ry;
-                }
-              }
-            }
-          }
+          var y = Number(t.getAttribute('y'));
+          var span = bandSpan(poly, y - LABEL_TOP, y + 2) || sliceSpan(poly, y);
           var max = span
             ? (span[1] - span[0]) - 8
             : Math.max(40, Number(g.dataset.cw || 90) - 12);
 
-          t.setAttribute('y', y);
           t.style.fontSize = '';
           t.textContent = full;
 
@@ -638,13 +733,13 @@ const payload = {
 
           if (t.textContent) {
             var tw = t.getBBox().width;
-            var x = x0;
+            var x = Number(t.getAttribute('x'));
             if (span) {
               /* never let a name sit outside its own territory */
               if (tw > span[1] - span[0] - 4) { t.textContent = ''; }
               else {
                 var half = tw / 2 + 2;
-                x = Math.min(Math.max(x0, span[0] + half), span[1] - half);
+                x = Math.min(Math.max(x, span[0] + half), span[1] - half);
               }
             }
             if (t.textContent) t.setAttribute('x', x);
@@ -655,7 +750,9 @@ const payload = {
       /* An in-cell badge is sign + game sprite + "+N%" (~72px). A few traced
          territories are narrower than that. Drop the sign first, then the
          sprite, then shrink the value, and finally nudge the whole badge
-         sideways so it never spills into a neighbour. Compact mode hides both
+         sideways so it never spills into a neighbour. The badge may also have
+         been moved vertically/horizontally by the widest-strip layout, so the
+         clamp is applied ON TOP of that stored shift. Compact mode hides both
          pictures via CSS, so only "+N%" has to fit there. */
       function fitBonusBadges() {
         if (window.getComputedStyle(labelLayer).display === 'none') return;
@@ -665,11 +762,13 @@ const payload = {
           var sign = badge.querySelector('.cm-sign');
           var ico = badge.querySelector('.cm-rico');
           var val = badge.querySelector('.cm-val');
-          var pts = parsePoints(byId.get(g.dataset.id));
-          if (!pts) return;
+          var poly = byId.get(g.dataset.id);
+          if (!poly) return;
           var cy = Number(badge.getAttribute('data-cy'));
-          var span = bandSpan(pts, cy - 10, cy + 10) || spanAt(pts, cy);
+          var span = bandSpan(poly, cy - 10, cy + 10) || sliceSpan(poly, cy);
           if (!span) return;
+          var shiftX = Number(badge.getAttribute('data-shift-x') || 0);
+          var shiftY = Number(badge.getAttribute('data-shift-y') || 0);
           var hidden = window.getComputedStyle(g).display === 'none';
           if (hidden) g.style.display = 'inline';
           var avail = span[1] - span[0] - 6;
@@ -685,10 +784,15 @@ const payload = {
           if (bb.width > avail) { val.style.fontSize = '10px'; bb = box(); }
           if (bb.width > avail) { val.style.fontSize = '8px'; bb = box(); }
 
+          /* getBBox() ignores the group's own transform, so include the layout
+             shift explicitly before clamping to the territory's span. */
+          var left = bb.x + shiftX, right = left + bb.width;
           var dx = 0;
-          if (bb.x + bb.width > span[1] - 3) dx = span[1] - 3 - bb.x - bb.width;
-          if (bb.x + dx < span[0] + 3) dx = span[0] + 3 - bb.x;
-          if (dx) badge.setAttribute('transform', 'translate(' + dx.toFixed(1) + ' 0)');
+          if (right > span[1] - 3) dx = span[1] - 3 - right;
+          if (left + dx < span[0] + 3) dx = span[0] + 3 - left;
+          var tx = shiftX + dx, ty = shiftY;
+          if (tx || ty) badge.setAttribute('transform', 'translate(' + tx.toFixed(1) + ' ' + ty.toFixed(1) + ')');
+          else badge.removeAttribute('transform');
           if (hidden) g.style.display = '';
         });
       }
@@ -1652,7 +1756,7 @@ const payload = {
         var b = e.target.closest('button[data-label]'); if (!b) return;
         labelLayer.dataset.mode = b.dataset.label;
         document.querySelectorAll('#cm-labelmode button').forEach(function (c) { c.classList.toggle('is-on', c === b); });
-        if (b.dataset.label === 'full') fitBonusBadges();
+        if (b.dataset.label !== 'off') fitBonusBadges();
       });
       document.getElementById('cm-paint-mode').addEventListener('change', function (e) {
         if (!canEdit) { e.target.checked = false; toast(readOnlyMessage()); return; }
