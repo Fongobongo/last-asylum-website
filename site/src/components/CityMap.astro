@@ -500,6 +500,32 @@ const payload = {
          ~11px tall for Latin text, but accented scripts (Ś, ą, ẞ, Thai marks)
          reach ~14px, so the strip must be validated that far up as well. */
       var LABEL_TOP = 14;
+      /* Extra name lines stack upward from the name baseline. 15px keeps the
+         ~14px glyph box (and taller Thai/Polish accents) from touching the
+         line above it. */
+      var LINE_H = 15;
+      var MAX_NAME_LINES = 4;
+      var SVG_NS = 'http://www.w3.org/2000/svg';
+      var LABEL_ORDERS_ONE = [
+        { lv: 15, badge: 36, special: 35, penalty: 0 },
+        { lv: -15, badge: -36, special: -35, penalty: 2 },
+        { lv: 15, badge: 30, special: 29, penalty: 4 },
+        { lv: 15, badge: -30, special: -29, penalty: 6 },
+      ];
+      /* Wrapped names grow upward. Lv. and the badge normally stay below, but
+         short cells need tighter stacks and one variant with the badge above
+         the whole name block. `top` is the height of that block, so the
+         above-name offset is derived from it instead of being a constant. */
+      function wrappedOrders(top) {
+        return [
+          { lv: 15, badge: 36, special: 35, penalty: 0 },
+          { lv: 15, badge: 30, special: 29, penalty: 4 },
+          { lv: 15, badge: 26, special: 25, penalty: 8 },
+          { lv: 15, badge: -(top + 12), special: -(top + 13), penalty: 10 },
+        ];
+      }
+
+      function mid(s) { return (s[0] + s[1]) / 2; }
 
       function parsePoints(poly) {
         if (!poly) return null;
@@ -575,28 +601,20 @@ const payload = {
         return tab.spans[Math.max(0, Math.min(tab.spans.length - 1, i))] || null;
       }
 
-      /* Find the widest name strip in the whole territory. Four stack orders
-         are tried: name/Lv/bonus, bonus/Lv/name, a 6px tighter name/Lv/bonus,
-         and a tight one with the bonus above the name but Lv below it. The
-         tight orders let a wide strip near the bottom of an L-shaped cell be
-         used without pushing the badge out of the shape, while the mixed one
-         keeps the 20px-tall badge from overlapping the "Lv." glyphs. Every
-         line keeps its own horizontal centre; the name gets the max width. */
-      function widestLabelLayout(poly, x0, y0) {
+      /* Find the widest name strip in the whole territory. `top` is the full
+         height of the name block above its baseline: LABEL_TOP for one line,
+         plus LINE_H for every extra line. `orders` are the candidate stacks,
+         chosen for the number of name lines. Every line keeps its own
+         horizontal centre; the name gets the max width. */
+      function widestLabelLayout(poly, x0, y0, top, orders) {
         var tab = spanTable(poly);
         if (!tab) return null;
         var first = tab.from + 1, last = tab.from + tab.spans.length - 2;
-        var orders = [
-          { lv: 15, badge: 36, special: 35, penalty: 0 },
-          { lv: -15, badge: -36, special: -35, penalty: 2 },
-          { lv: 15, badge: 30, special: 29, penalty: 4 },
-          { lv: 15, badge: -30, special: -29, penalty: 6 },
-        ];
         var best = null;
         for (var ny = first; ny <= last; ny += 1) {
           for (var oi = 0; oi < orders.length; oi++) {
             var o = orders[oi];
-            var ns = bandSpan(poly, ny - LABEL_TOP, ny + 2);
+            var ns = bandSpan(poly, ny - top, ny + 2);
             var ls = bandSpan(poly, ny + o.lv - LABEL_TOP, ny + o.lv + 2);
             var bs = bandSpan(poly, ny + o.badge - 10, ny + o.badge + 10);
             if (!ns || !ls || !bs) continue;
@@ -620,7 +638,7 @@ const payload = {
            keep the original stack order and use the widest slice near the
            traced anchor. */
         for (var fy = y0 - 10; fy <= y0 + 6; fy += 1) {
-          var fs = bandSpan(poly, fy - LABEL_TOP, fy + 2) || sliceSpan(poly, fy);
+          var fs = bandSpan(poly, fy - top, fy + 2) || sliceSpan(poly, fy);
           if (!fs) continue;
           var fw = fs[1] - fs[0];
           if (!best || fw > best.nameSpan[1] - best.nameSpan[0]) {
@@ -636,11 +654,70 @@ const payload = {
         return best;
       }
 
+      /* One word per line when a name will not fit on a single line. With
+         fewer lines than words, distribute the words evenly so no line keeps
+         the whole tail of the name. Names with no spaces (CJK, long German
+         compounds) are split into even chunks instead of being cut off. */
+      function nameLines(full, n) {
+        var words = full.trim().split(/\s+/).filter(Boolean);
+        if (n <= 1) return [full];
+        if (words.length > 1) {
+          if (n >= words.length) return words.slice();
+          var base = Math.floor(words.length / n), extra = words.length % n;
+          var lines = [], at = 0;
+          for (var i = 0; i < n && at < words.length; i++) {
+            var count = base + (i < extra ? 1 : 0);
+            lines.push(words.slice(at, at + count).join(' '));
+            at += count;
+          }
+          return lines.length ? lines : [full];
+        }
+        var s = full.trim(), size = Math.ceil(s.length / n), out = [];
+        for (var j = 0; j < s.length && out.length < n; j += size) out.push(s.slice(j, j + size));
+        return out.length ? out : [full];
+      }
+
+      function renderNameLines(t, lines, x, ny) {
+        t.textContent = '';
+        for (var i = 0; i < lines.length; i++) {
+          var ts = document.createElementNS(SVG_NS, 'tspan');
+          ts.setAttribute('x', x);
+          ts.setAttribute('y', ny - (lines.length - 1 - i) * LINE_H);
+          ts.textContent = lines[i];
+          t.appendChild(ts);
+        }
+      }
+
+      function setNameX(t, x) {
+        t.setAttribute('x', x);
+        var sp = t.querySelectorAll('tspan');
+        for (var i = 0; i < sp.length; i++) sp[i].setAttribute('x', x);
+      }
+
+      /* Render the wrapped name and step the font down until the widest line
+         really fits the strip. CJK and Thai glyphs do not scale like Latin
+         ones, so measure instead of trusting a predicted size. */
+      function measureNameFit(t, lines, x, ny, max) {
+        renderNameLines(t, lines, x, ny);
+        t.style.fontSize = '';
+        var px = 11;
+        if (max >= 30 && t.getBBox().width > max) {
+          var w11 = t.getBBox().width;
+          px = Math.max(7, Math.min(11, Math.floor((max / w11) * 11 * 2) / 2));
+          t.style.fontSize = px + 'px';
+          while (t.getBBox().width > max && px > 7) {
+            px -= 0.5;
+            t.style.fontSize = px + 'px';
+          }
+        }
+        if (max < 30) { px = 7; t.style.fontSize = '7px'; }
+        return { px: px, fits: t.getBBox().width <= max };
+      }
+
       /* Move the whole three-line label to the chosen strip. The bonus group
          is translated instead of rewriting every child, so fitBonusBadges()
          can still add its own horizontal clamp on top. */
       function applyLabelLayout(g, t, poly, L) {
-        var mid = function (s) { return (s[0] + s[1]) / 2; };
         t.setAttribute('x', mid(L.nameSpan));
         t.setAttribute('y', L.ny);
         var lv = g.querySelector('.cm-lv');
@@ -667,13 +744,16 @@ const payload = {
       }
 
       function fitNames() {
+        /* Every one of the 87 territories gets a name. If the label layer is
+           temporarily hidden by a view mode, show it while measuring — SVG
+           getBBox() is all zeroes inside a display:none subtree. */
+        var layerHidden = window.getComputedStyle(labelLayer).display === 'none';
+        if (layerHidden) labelLayer.style.display = 'inline';
         labels.forEach(function (g) {
           var t = g.querySelector('.cm-name');
           if (!t) return;
-          /* A tiny territory has no name at all (.cm-tiny .cm-name is
-             display:none on the text itself). getBBox() is zero there, so
-             skip it instead of measuring a label nobody will ever see. */
-          if (window.getComputedStyle(t).display === 'none') return;
+          var textHidden = window.getComputedStyle(t).display === 'none';
+          if (textHidden) t.style.display = 'inline';
           var full = t.getAttribute('data-full') || t.textContent || '';
           t.setAttribute('data-full', full);
           if (!t.getAttribute('data-x0')) t.setAttribute('data-x0', t.getAttribute('x'));
@@ -682,70 +762,67 @@ const payload = {
           var y0 = Number(t.getAttribute('data-y0'));
           var poly = byId.get(g.dataset.id);
 
-          /* Put the name in the widest part of the WHOLE territory and move
-             the level/bonus lines with it, keeping all three inside the cell. */
-          var L = widestLabelLayout(poly, x0, y0);
-          if (L) applyLabelLayout(g, t, poly, L);
-
-          /* locked labels are display:none on the group, and getBBox() is all
-             zeroes for those — measure them visible, then put them back */
+          /* Locked labels may be display:none on the group, and getBBox() is
+             all zeroes for those — measure them visible, then put them back. */
           var hidden = window.getComputedStyle(g).display === 'none';
           if (hidden) g.style.display = 'inline';
 
-          var y = Number(t.getAttribute('y'));
-          var span = bandSpan(poly, y - LABEL_TOP, y + 2) || sliceSpan(poly, y);
-          var max = span
-            ? (span[1] - span[0]) - 8
-            : Math.max(40, Number(g.dataset.cw || 90) - 12);
-
-          t.style.fontSize = '';
-          t.textContent = full;
-
-          /* Prefer shrinking the type over cutting the name. CJK and Thai
-             glyphs do not scale exactly like Latin ones, so step down until
-             the text really fits instead of trusting the predicted size. */
-          var px = 11;
-          if (max >= 30 && t.getBBox().width > max) {
-            var w11 = t.getBBox().width;
-            px = Math.max(7, Math.min(11, Math.floor((max / w11) * 11 * 2) / 2));
-            t.style.fontSize = px + 'px';
-            while (t.getBBox().width > max && px > 7) {
-              px -= 0.5;
-              t.style.fontSize = px + 'px';
-            }
-          }
-          if (max < 30) t.style.fontSize = '7px';
-          if (t.getBBox().width > max) {
-            var s = full;
-            while (s.length > 3) {
-              s = s.slice(0, -1);
-              t.textContent = s + '…';
-              if (t.getBBox().width <= max) break;
-            }
-            if (t.getBBox().width > max) {
-              /* A three-glyph name has nothing left to abbreviate. Keep it
-                 whole at the smallest size rather than leaving a blank cell. */
-              t.style.fontSize = '7px';
-              t.textContent = full;
-              if (t.getBBox().width > max) t.textContent = '';
-            }
+          var words = full.trim().split(/\s+/).filter(Boolean);
+          var maxLines = Math.min(MAX_NAME_LINES, words.length > 1
+            ? words.length
+            : Math.max(2, Math.ceil(full.trim().length / 4)));
+          var best = null;
+          for (var n = 1; n <= maxLines; n++) {
+            var lines = nameLines(full, n);
+            var count = lines.length;
+            var top = LABEL_TOP + (count - 1) * LINE_H;
+            var orders = count === 1 ? LABEL_ORDERS_ONE : wrappedOrders(top);
+            var L = widestLabelLayout(poly, x0, y0, top, orders);
+            if (!L) continue;
+            var max = (L.nameSpan[1] - L.nameSpan[0]) - 8;
+            var m = measureNameFit(t, lines, mid(L.nameSpan), L.ny, max);
+            var cand = { n: count, lines: lines, L: L, top: top, px: m.px, max: max, fits: m.fits };
+            /* A single readable line is enough. Wrapping is only for names
+               that would otherwise need tiny type or get cut off. */
+            if (count === 1 && m.fits && m.px >= 9) { best = cand; break; }
+            /* Otherwise prefer the largest readable type; fewer lines win a tie. */
+            if (!best || cand.px > best.px + 0.01 ||
+                (Math.abs(cand.px - best.px) < 0.01 && cand.n < best.n)) best = cand;
           }
 
-          if (t.textContent) {
-            var tw = t.getBBox().width;
-            var x = Number(t.getAttribute('x'));
-            if (span) {
-              /* never let a name sit outside its own territory */
-              if (tw > span[1] - span[0] - 4) { t.textContent = ''; }
-              else {
-                var half = tw / 2 + 2;
-                x = Math.min(Math.max(x, span[0] + half), span[1] - half);
+          if (best) {
+            applyLabelLayout(g, t, poly, best.L);
+            renderNameLines(t, best.lines, Number(t.getAttribute('x')), best.L.ny);
+            t.style.fontSize = best.px + 'px';
+            /* Very last resort: trim the longest line instead of blanking the
+               whole cell. Almost every cell is solved by wrapping first. */
+            if (!best.fits) {
+              var sp = t.querySelectorAll('tspan'), guard = 0;
+              while (t.getBBox().width > best.max && guard++ < 120) {
+                var widest = null, ww = -1;
+                for (var si = 0; si < sp.length; si++) {
+                  var w = sp[si].getBBox().width;
+                  if (w > ww) { ww = w; widest = sp[si]; }
+                }
+                if (!widest) break;
+                var raw = widest.textContent.replace(/…$/, '');
+                if (raw.length <= 2) break;
+                widest.textContent = raw.slice(0, -1) + '…';
               }
             }
-            if (t.textContent) t.setAttribute('x', x);
+            var span = best.L.nameSpan;
+            var tw = t.getBBox().width;
+            if (span && tw <= span[1] - span[0] - 4) {
+              var half = tw / 2 + 2;
+              setNameX(t, Math.min(Math.max(Number(t.getAttribute('x')), span[0] + half), span[1] - half));
+            }
+            g.setAttribute('data-lines', best.n);
+            g.setAttribute('data-name-top', best.top);
           }
           if (hidden) g.style.display = '';
+          if (textHidden) t.style.display = '';
         });
+        if (layerHidden) labelLayer.style.display = '';
       }
       /* An in-cell badge is sign + game sprite + "+N%" (~72px). A few traced
          territories are narrower than that. Drop the sign first, then the
@@ -802,7 +879,8 @@ const payload = {
 
       /* ---------- state ---------- */
       var current = { meta: blankMeta(), doc: blankDoc() };
-      var stage = 1;
+      /* Open on the final stage: all 87 cities are unlocked and named. */
+      var stage = STAGES;
       var isOwner = false;
       var canEdit = true;
       var readLocked = false;
@@ -1531,7 +1609,7 @@ const payload = {
       function newMap(silent) {
         current = { meta: blankMeta(), doc: blankDoc() };
         isOwner = false; canEdit = true; readLocked = false; writeUnlocked = false; dirty = false;
-        stage = 1; selectedCity = ''; paintId = ''; paintMode = false;
+        stage = STAGES; selectedCity = ''; paintId = ''; paintMode = false;
         document.getElementById('cm-paint-mode').checked = false;
         persistLocal();
         renderMapManager();
@@ -1850,7 +1928,13 @@ const payload = {
         var raw = localStorage.getItem(LS);
         if (raw) {
           var parsed = JSON.parse(raw);
-          if (parsed && parsed.maps) registry = { active: parsed.active || 'local', maps: parsed.maps };
+          if (parsed && parsed.maps) {
+            registry = { active: parsed.active || 'local', maps: parsed.maps };
+            /* The stage is a viewing preference, not part of a saved map.
+               Ignore whatever stage was stored in an older session so the
+               page always opens on the final stage with every city visible. */
+            Object.keys(registry.maps).forEach(function (k) { registry.maps[k].stage = STAGES; });
+          }
         }
       } catch (e) {}
 
@@ -2027,7 +2111,8 @@ const payload = {
   #cm-app .cm-sign { stroke: rgba(8, 12, 6, .7); stroke-width: .55px; paint-order: stroke fill; }
   #cm-app .cm-rico { filter: drop-shadow(0 1px 1px rgba(0, 0, 0, .65)); }
   #cm-app .cm-signicon, #cm-app .cm-resicon { flex: none; display: inline-block; object-fit: contain; }
-  #cm-app .cm-label.cm-tiny .cm-name { display: none; }
+  /* Every territory keeps its name, including the three small ones: the
+     runtime wraps long names onto several lines instead of hiding them. */
   #cm-app .cm-label.cm-tiny .cm-lv { font-size: 9px; }
   #cm-app .cm-label.cm-tiny .cm-val { font-size: 11px; }
   #cm-labels[data-mode="compact"] .cm-name,
