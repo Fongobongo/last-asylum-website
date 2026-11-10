@@ -7,6 +7,7 @@ export interface GiftCode {
 
 // Актуальный список от топ-игроков (перепроверен вручную).
 export const giftCodes: GiftCode[] = [
+  { code: 'R8T5N3W6', date: '2026-11-10', active: true, note: '–' },
   { code: 'H4Q8Z5C3', date: '2026-11-10', active: true, note: '–' },
   { code: 'V9D3J7A5', date: '2026-11-10', active: true, note: '–' },
   { code: 'ALEXXXELA', date: '2026-11-07', active: true, note: '–' },
