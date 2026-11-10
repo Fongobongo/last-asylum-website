@@ -20,6 +20,8 @@ const pages = [
   'tier-list/',
   'codex/',
   'gear/',
+  'infographics/',
+  'shop/',
   'status/',
   'compare/',
   'events/',

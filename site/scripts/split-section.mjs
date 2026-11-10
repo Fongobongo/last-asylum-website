@@ -60,8 +60,8 @@ const SECTIONS = {
   'tier-list': [
     { slug: 'tiers', anchors: ['s-tier', 'a-tier', 'b-tier', 'c-tier', 'how-to-read'] },
     { slug: 'pvp-pve', anchors: ['pvp-tier', 'pve-tier', 'f2p-priority'] },
+    // dtf-* ids live on H3s under dtf-squad-guide, so they travel with it.
     { slug: 'reading-tiers', anchors: ['tier-context', 'dtf-squad-guide'] },
-    { slug: 'community-squads', anchors: ['dtf-faction-bonus', 'dtf-ur-roster', 'dtf-overall-tiers', 'dtf-pvp-pve-reads', 'dtf-f2p-priorities', 'dtf-best-5-5', 'dtf-hybrid-squads'] },
     { slug: 'reference', anchors: ['wiki-hero-tier-list'] },
   ],
 };

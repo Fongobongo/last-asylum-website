@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "astro dev",
     "prebuild": "node scripts/sync-db-articles.mjs",
-    "build": "astro build",
+    "build": "rm -rf .astro node_modules/.astro && astro build",
     "build:local": "node scripts/build-local.mjs",
     "postbuild": "node scripts/pagefind.mjs",
     "preview": "astro preview",

@@ -44,7 +44,7 @@ Alle winkels worden op maandag aangevuld. Plan je week eromheen: koop je priorit
 3. Uitrustingsstenen en Rekruteringstickets.
 4. Vaardigheidsbadges en SR Omnifragmenten — alleen extra budget.
 
-## Expeditiewinkel {#expeditie-shop} <!-- /expedition-shop -->
+## Expeditiewinkel {#expedition-shop}
 
 1. UR Omnifragmenten en Essences.
 2. Expeditiekist, Inscriptiefragment en de UR Inscriptiekist.

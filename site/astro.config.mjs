@@ -6,16 +6,21 @@ function remarkCustomHeadingId() {
   return (tree) => {
     function walk(node) {
       if (node.type === 'heading' && Array.isArray(node.children)) {
-        const last = node.children[node.children.length - 1];
-        if (last && last.type === 'text') {
-          const match = last.value.match(/\s*\{#([a-zA-Z0-9_-]+)\}\s*$/);
+        // Trailing HTML comments (e.g. `## Title {#id} <!-- /old-anchor -->`)
+        // parse as separate `html` nodes, so scan back to the last text node
+        // instead of only checking the final child.
+        for (let i = node.children.length - 1; i >= 0; i--) {
+          const child = node.children[i];
+          if (child.type !== 'text') continue;
+          const match = child.value.match(/\s*\{#([a-zA-Z0-9_-]+)\}\s*$/);
           if (match) {
             const id = match[1];
-            last.value = last.value.replace(/\s*\{#([a-zA-Z0-9_-]+)\}\s*$/, '');
+            child.value = child.value.replace(/\s*\{#([a-zA-Z0-9_-]+)\}\s*$/, '');
             node.data = node.data || {};
             node.data.hProperties = node.data.hProperties || {};
             node.data.hProperties.id = id;
           }
+          break;
         }
       }
       if (node.children) {
