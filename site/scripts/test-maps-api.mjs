@@ -160,6 +160,12 @@ check('map is now read-locked', guarded.status === 401 && guarded.data.error ===
 console.log('\n[13] moderation + create limits');
 const blocked = await call('POST', { action: 'create', name: 'fuck map', doc });
 check('blocked name rejected', blocked.status === 400 && blocked.data.error === 'name blocked', blocked.data);
+const innocent = await call('POST', { action: 'create', name: 'Хлеб', doc });
+check('innocent Russian name accepted', innocent.status === 200, innocent.data);
+const innocentEnglish = await call('POST', { action: 'create', name: 'Scunthorpe', doc });
+check('innocent English name accepted', innocentEnglish.status === 200, innocentEnglish.data);
+const blockedFork = await call('POST', { action: 'fork', id: innocent.data.id, name: 'fuck fork' });
+check('fork name moderated', blockedFork.status === 400 && blockedFork.data.error === 'name blocked', blockedFork.data);
 const limitedStore = devStore({ fresh: true });
 let limited = null;
 for (let i = 0; i < 11; i++) {
@@ -173,6 +179,10 @@ for (let i = 0; i < 9; i++) {
   ownerLimited = await call('POST', { action: 'create', name: 'Owner ' + i, doc, ownerIdentity }, {}, '', ownerStore);
 }
 check('owner create quota', ownerLimited.status === 429 && ownerLimited.data.error === 'map quota reached', ownerLimited.data);
+
+console.log('\n[14] list bounds + revision comparison');
+const bounded = await call('GET', null, {}, '?list=1&limit=1.5&offset=0.5');
+check('fractional list bounds accepted', bounded.status === 200 && bounded.data.limit === 1 && bounded.data.offset === 0, bounded.data);
 
 console.log('\n' + pass + ' passed, ' + fail + ' failed');
 process.exit(fail ? 1 : 0);

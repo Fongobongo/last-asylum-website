@@ -40,7 +40,7 @@ const MAX_OWNER_CREATES = 8;
 const PBKDF2_ITERATIONS = 100000;
 const READ_MODES = new Set(['public', 'password', 'owner']);
 const WRITE_MODES = new Set(['open', 'password', 'owner']);
-const BLOCKED_NAME = /(fuck|shit|bitch|cunt|nigg(?:er|a)?|porn|nsfw|\bxxx\b|еб(?:а|у|ан|ат|аль)?|хуй|блядь|сука|пизд)/iu;
+const BLOCKED_NAME = /(?<![\p{L}\p{N}])(?:еб\S*|хуй|блядь|сука|пизд|fuck(?:ing|ed|er|s)?|shit(?:ty|ing|s)?|bullshit|bitch(?:es)?|nigg(?:er|a)?s?|porn|nsfw|xxx|cunt)(?![\p{L}\p{N}])/iu;
 
 const enc = new TextEncoder();
 
@@ -153,16 +153,38 @@ function parseDoc(row) {
 }
 
 function mapSummary(row) {
-  const doc = parseDoc(row);
-  const owners = doc.stages && doc.stages[6] && doc.stages[6].o ? doc.stages[6].o : {};
-  const counts = new Map();
-  for (const owner of Object.values(owners)) counts.set(owner, (counts.get(owner) || 0) + 1);
-  const alliances = Array.isArray(doc.alliances) ? doc.alliances : [];
-  const preview = alliances
-    .map((a) => ({ id: a.id, color: a.color, icon: a.icon, count: counts.get(a.id) || 0 }))
-    .filter((a) => a.count > 0)
-    .sort((a, b) => b.count - a.count)
-    .slice(0, 12);
+  let preview = row.preview;
+  if (typeof preview === 'string') {
+    try { preview = JSON.parse(preview); } catch { preview = []; }
+  }
+  if (!Array.isArray(preview)) preview = [];
+
+  if (row.cityCount === undefined || row.allianceCount === undefined) {
+    const doc = parseDoc(row);
+    const owners = doc.stages && doc.stages[6] && doc.stages[6].o ? doc.stages[6].o : {};
+    const counts = new Map();
+    for (const owner of Object.values(owners)) counts.set(owner, (counts.get(owner) || 0) + 1);
+    const alliances = Array.isArray(doc.alliances) ? doc.alliances : [];
+    preview = alliances
+      .map((a) => ({ id: a.id, color: a.color, icon: a.icon, count: counts.get(a.id) || 0 }))
+      .filter((a) => a.count > 0)
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 12);
+    return {
+      id: row.id,
+      name: row.name,
+      server: row.server,
+      rev: row.rev,
+      forkedFrom: row.forkedFrom,
+      createdAt: row.createdAt,
+      updatedAt: row.updatedAt,
+      actor: doc.actor || '',
+      cityCount: Object.keys(owners).length,
+      allianceCount: alliances.length,
+      preview,
+    };
+  }
+
   return {
     id: row.id,
     name: row.name,
@@ -171,9 +193,9 @@ function mapSummary(row) {
     forkedFrom: row.forkedFrom,
     createdAt: row.createdAt,
     updatedAt: row.updatedAt,
-    actor: doc.actor || '',
-    cityCount: Object.keys(owners).length,
-    allianceCount: alliances.length,
+    actor: row.actor || '',
+    cityCount: Number(row.cityCount) || 0,
+    allianceCount: Number(row.allianceCount) || 0,
     preview,
   };
 }
@@ -289,18 +311,6 @@ async function buildHashes(mode, password) {
   return { salt, hash: `pbkdf2$${PBKDF2_ITERATIONS}$${salt}$${hash}` };
 }
 
-async function recordRevision(store, row, actor) {
-  await store.insertRevision({
-    mapId: row.id,
-    rev: row.rev,
-    name: row.name,
-    server: row.server,
-    doc: row.doc,
-    actor: cleanDisplayText(actor, 40),
-    createdAt: row.updatedAt || Date.now(),
-  });
-}
-
 function badPassword(pw) {
   return typeof pw !== 'string' || pw.length < 3 || pw.length > 64;
 }
@@ -324,8 +334,12 @@ async function handleGet(req, store) {
   const url = new URL(req.url);
 
   if (url.searchParams.has('list')) {
-    const limit = Math.max(1, Math.min(100, Number(url.searchParams.get('limit')) || 20));
-    const offset = Math.max(0, Math.min(10000, Number(url.searchParams.get('offset')) || 0));
+    const limitValue = url.searchParams.get('limit');
+    const offsetValue = url.searchParams.get('offset');
+    const rawLimit = limitValue === null || limitValue === '' ? 20 : Number(limitValue);
+    const rawOffset = offsetValue === null || offsetValue === '' ? 0 : Number(offsetValue);
+    const limit = Number.isFinite(rawLimit) ? Math.max(1, Math.min(100, Math.trunc(rawLimit))) : 20;
+    const offset = Number.isFinite(rawOffset) ? Math.max(0, Math.min(10000, Math.trunc(rawOffset))) : 0;
     const q = cleanDisplayText(url.searchParams.get('q'), 80).toLowerCase();
     const server = cleanDisplayText(url.searchParams.get('server'), 40);
     const [rows, total] = await Promise.all([
@@ -441,8 +455,7 @@ async function createMap(req, store, body) {
     updatedAt: now,
   };
 
-  await store.insert(row);
-  await recordRevision(store, row, doc.actor);
+  await store.insert(row, doc.actor);
   return json(200, {
     ok: true,
     id,
@@ -531,16 +544,14 @@ async function saveMap(req, store, body) {
     return json(400, { error: 'write password required' });
   }
 
-  const updated = await store.update(id, expectedRev, patch);
+  const actor = cleanDisplayText(body.actor, 40) || (patch.doc ? parseDoc({ doc: patch.doc }).actor : '');
+  const updated = await store.update(id, expectedRev, patch, actor);
   if (!updated) {
     const current = await store.get(id);
     return json(409, { error: 'conflict', map: current ? toClient(current) : null });
   }
 
-  const actor = cleanDisplayText(body.actor, 40) || (patch.doc ? parseDoc({ doc: patch.doc }).actor : '');
-  await recordRevision(store, updated, actor);
-  const ident = await throttleIdent(req, id);
-  await store.clearAttempts(ident);
+  await store.clearAttempts(await throttleIdent(req, id + ':write'));
   return json(200, { ok: true, rev: updated.rev, updatedAt: updated.updatedAt, map: toClient(updated) });
 }
 
@@ -568,7 +579,8 @@ async function forkMap(req, store, body) {
   const newMapId = newId();
   const ownerToken = randomHex(24);
   const now = Date.now();
-  const baseName = str(body.name, MAX_NAME) || src.name;
+  const baseName = cleanDisplayText(body.name, MAX_NAME) || src.name;
+  if (blockedName(baseName)) return json(400, { error: 'name blocked' });
   const name = (baseName + ' · fork').slice(0, MAX_NAME);
 
   const row = {
@@ -589,8 +601,7 @@ async function forkMap(req, store, body) {
     updatedAt: now,
   };
 
-  await store.insert(row);
-  await recordRevision(store, row, 'fork');
+  await store.insert(row, 'fork');
   return json(200, {
     ok: true,
     id: newMapId,
@@ -672,11 +683,10 @@ async function restoreMap(req, store, body) {
     doc: JSON.stringify(doc),
     rev: expectedRev + 1,
     updatedAt: Date.now(),
-  });
+  }, actor || doc.actor || 'restore');
   if (!updated) {
     const current = await store.get(id);
     return json(409, { error: 'conflict', map: current ? toClient(current) : null });
   }
-  await recordRevision(store, updated, actor || doc.actor || 'restore');
   return json(200, { ok: true, map: toClient(updated) });
 }

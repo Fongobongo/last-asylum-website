@@ -927,7 +927,9 @@ const payload = {
       var readLocked = false;
       var writeUnlocked = false;
       var readPassword = '';
+      var readPasswordMapId = '';
       var writePassword = '';
+      var writePasswordMapId = '';
       var registry = { active: 'local', maps: {} };
       var dirty = false;
       var saveState = 'local';
@@ -935,6 +937,11 @@ const payload = {
       var ownerIdentity = '';
       var pending = null;
       var conflictState = null;
+      var saving = false;
+      var openRequest = 0;
+      var publicRequest = 0;
+      var historyRequest = 0;
+      var compareRequest = 0;
       var publicMaps = [];
       var publicTotal = 0;
       var publicOffset = 0;
@@ -971,7 +978,7 @@ const payload = {
           id: '', name: '', server: '', rev: 0,
           readMode: 'public', writeMode: 'open',
           hasReadPassword: false, hasWritePassword: false,
-          forkedFrom: '', ownerToken: '', updatedAt: 0, actor: '',
+          forkedFrom: '', ownerToken: '', ownerVerified: false, updatedAt: 0, actor: '',
         };
       }
       function blankDoc() {
@@ -1194,10 +1201,10 @@ const payload = {
         document.getElementById('cm-pw-hint').textContent = S.passwordOptional;
 
         var keyEl = document.getElementById('cm-owner-key');
-        keyEl.textContent = current.meta.ownerToken || '—';
-        document.getElementById('cm-copy-owner').disabled = !current.meta.ownerToken;
-        document.getElementById('cm-copy-owner-link').disabled = !current.meta.ownerToken;
-        document.getElementById('cm-delete-map').disabled = !current.meta.ownerToken;
+        keyEl.textContent = isOwner ? (current.meta.ownerToken || '—') : '—';
+        document.getElementById('cm-copy-owner').disabled = !isOwner || !current.meta.ownerToken;
+        document.getElementById('cm-copy-owner-link').disabled = !isOwner || !current.meta.ownerToken;
+        document.getElementById('cm-delete-map').disabled = !isOwner || !current.meta.ownerToken;
         document.getElementById('cm-fork').disabled = !current.meta.id;
         document.getElementById('cm-copy-link').disabled = !current.meta.id;
         updateStatus();
@@ -1215,6 +1222,9 @@ const payload = {
           var el = document.getElementById(id);
           if (el) el.disabled = !canEdit;
         });
+        var ownerOnly = !!current.meta.id && !isOwner;
+        document.getElementById('cm-read-mode').disabled = ownerOnly;
+        document.getElementById('cm-write-mode').disabled = ownerOnly;
         document.getElementById('cm-copy-prev').disabled = !canEdit || stage < 2;
         document.getElementById('cm-paint-mode').disabled = !canEdit;
         var lock = canEdit ? '' : 'none';
@@ -1557,17 +1567,19 @@ const payload = {
 
       function adopt(map, ownerToken, owner) {
         var prevId = current.meta.id;
+        var keepWriteUnlocked = prevId === map.id && writeUnlocked && map.writeMode === 'password';
+        var verifiedOwner = !!owner;
         current.meta = {
           id: map.id, name: map.name || '', server: map.server || '', rev: map.rev,
           readMode: map.readMode, writeMode: map.writeMode,
           hasReadPassword: !!map.hasReadPassword, hasWritePassword: !!map.hasWritePassword,
-          forkedFrom: map.forkedFrom || '', ownerToken: ownerToken || '', updatedAt: map.updatedAt || 0,
+          forkedFrom: map.forkedFrom || '', ownerToken: verifiedOwner ? (ownerToken || '') : '', ownerVerified: verifiedOwner, updatedAt: map.updatedAt || 0,
           actor: map.actor || (map.doc && map.doc.actor) || '',
         };
         current.doc = normalizeDoc(map.doc);
         isOwner = !!owner;
         readLocked = false;
-        writeUnlocked = false;
+        writeUnlocked = keepWriteUnlocked;
         dirty = false;
         saveState = map.id ? 'saved' : 'local';
         if (prevId !== map.id) {
@@ -1582,7 +1594,7 @@ const payload = {
         var prevId = current.meta.id;
         current.meta = Object.assign(blankMeta(), entry.meta);
         current.doc = normalizeDoc(entry.doc);
-        isOwner = !!current.meta.ownerToken;
+        isOwner = current.meta.ownerVerified === true;
         readLocked = false;
         writeUnlocked = false;
         dirty = false;
@@ -1597,11 +1609,14 @@ const payload = {
       }
 
       async function openMap(id) {
+        if (saving) return;
+        var requestId = ++openRequest;
         var entry = registry.maps[id];
-        var token = (entry && entry.meta.ownerToken) || current.meta.ownerToken || '';
+        var token = (entry && entry.meta.ownerToken) || (current.meta.id === id ? current.meta.ownerToken : '');
         var headers = token ? { 'x-map-owner': token } : {};
-        if (readPassword) headers['x-map-read'] = readPassword;
+        if (readPassword && readPasswordMapId === id) headers['x-map-read'] = readPassword;
         var r = await api('GET', null, '?id=' + encodeURIComponent(id), headers);
+        if (requestId !== openRequest) return;
         if (r.status === 200) {
           adopt(r.data.map, token, r.data.isOwner);
           return;
@@ -1621,6 +1636,7 @@ const payload = {
       }
 
       async function saveOnline() {
+        if (saving) return;
         if (!canEdit) { toast(readOnlyMessage()); return; }
         var meta = current.meta;
         var readPw = document.getElementById('cm-read-pw').value;
@@ -1652,15 +1668,17 @@ const payload = {
         } else {
           body = {
             action: 'save', id: meta.id, rev: meta.rev, name: meta.name, server: meta.server,
-            doc: current.doc, actor: meta.actor || '', ownerToken: meta.ownerToken || '',
-            writePassword: writePassword || writePw,
+            doc: current.doc, actor: meta.actor || '', ownerToken: isOwner ? meta.ownerToken : '',
+            writePassword: writePasswordMapId === meta.id ? writePassword : (writePw || ''),
             access: isOwner ? access : null,
           };
         }
 
+        saving = true;
         setBusy(true);
         var r = await api('POST', body);
         setBusy(false);
+        saving = false;
 
         if (r.status === 200 && r.data.ok) {
           adopt(r.data.map, r.data.ownerToken || meta.ownerToken, isOwner || !meta.id);
@@ -1688,17 +1706,35 @@ const payload = {
         toast(r.data.error === 'name blocked' ? S.nameRejected : S.saveFailed);
       }
 
-      function docDiff(local, remote) {
+      function docDiff(local, remote, localMeta, remoteMeta) {
         var changes = [];
         var localDoc = local && local.stages ? local : blankDoc();
         var remoteDoc = remote && remote.stages ? remote : blankDoc();
+        var lm = localMeta || current.meta;
+        var rm = remoteMeta || {};
+        if ((lm.name || '') !== (rm.name || '')) changes.push({ type: 'meta', field: 'name', from: rm.name || '', to: lm.name || '' });
+        if ((lm.server || '') !== (rm.server || '')) changes.push({ type: 'meta', field: 'server', from: rm.server || '', to: lm.server || '' });
+
+        var localAlliances = {};
+        var remoteAlliances = {};
+        localDoc.alliances.forEach(function (a) { localAlliances[a.id] = a; });
+        remoteDoc.alliances.forEach(function (a) { remoteAlliances[a.id] = a; });
+        var allianceIds = Object.keys(localAlliances);
+        Object.keys(remoteAlliances).forEach(function (id) { if (allianceIds.indexOf(id) < 0) allianceIds.push(id); });
+        allianceIds.sort().forEach(function (id) {
+          var a = localAlliances[id], b = remoteAlliances[id];
+          if (!a || !b || a.name !== b.name || a.color !== b.color || a.icon !== b.icon) {
+            changes.push({ type: 'alliance', id: id, from: b || null, to: a || null });
+          }
+        });
+
         for (var s = 0; s < STAGES; s++) {
           var a = localDoc.stages[s] && localDoc.stages[s].o || {};
           var b = remoteDoc.stages[s] && remoteDoc.stages[s].o || {};
           var ids = Object.keys(a);
           Object.keys(b).forEach(function (id) { if (ids.indexOf(id) < 0) ids.push(id); });
           ids.sort().forEach(function (id) {
-            if ((a[id] || '') !== (b[id] || '')) changes.push({ stage: s + 1, id: id, from: b[id] || '', to: a[id] || '' });
+            if ((a[id] || '') !== (b[id] || '')) changes.push({ type: 'city', stage: s + 1, id: id, from: b[id] || '', to: a[id] || '' });
           });
         }
         return changes;
@@ -1716,6 +1752,17 @@ const payload = {
           return;
         }
         box.innerHTML = changes.slice(0, 50).map(function (c) {
+          if (c.type === 'meta') {
+            var label = c.field === 'name' ? S.mapName : S.server;
+            return '<div class="border-b border-white/[0.05] py-1 last:border-0"><strong>' + esc(label) + '</strong><br>' +
+              '<span class="text-stone-500">' + esc(c.from || '—') + '</span> → <span class="text-toxic-300">' + esc(c.to || '—') + '</span></div>';
+          }
+          if (c.type === 'alliance') {
+            var oldAlliance = c.from ? (c.from.icon + ' ' + c.from.name + ' ' + c.from.color) : '—';
+            var newAlliance = c.to ? (c.to.icon + ' ' + c.to.name + ' ' + c.to.color) : '—';
+            return '<div class="border-b border-white/[0.05] py-1 last:border-0"><strong>' + esc(S.alliances) + '</strong><br>' +
+              '<span class="text-stone-500">' + esc(oldAlliance) + '</span> → <span class="text-toxic-300">' + esc(newAlliance) + '</span></div>';
+          }
           var p = byId.get(c.id);
           var city = p ? p.dataset.name : c.id;
           return '<div class="border-b border-white/[0.05] py-1 last:border-0">' +
@@ -1731,7 +1778,7 @@ const payload = {
           localDoc: JSON.parse(JSON.stringify(current.doc)),
           localMeta: Object.assign({}, current.meta),
         };
-        renderDiff(document.getElementById('cm-conflict-diff'), docDiff(conflictState.localDoc, serverMap.doc), conflictState.localDoc, serverMap.doc);
+        renderDiff(document.getElementById('cm-conflict-diff'), docDiff(conflictState.localDoc, serverMap.doc, conflictState.localMeta, serverMap), conflictState.localDoc, serverMap.doc);
         document.getElementById('cm-conflict').classList.remove('hidden');
       }
 
@@ -1775,10 +1822,12 @@ const payload = {
       }
 
       async function forkCurrent() {
+        if (saving) return;
         if (!current.meta.id) { toast(S.saveOnline); return; }
-        var headers = current.meta.ownerToken ? { 'x-map-owner': current.meta.ownerToken } : {};
+        var headers = isOwner && current.meta.ownerToken ? { 'x-map-owner': current.meta.ownerToken } : {};
         var r = await api('POST', {
-          action: 'fork', id: current.meta.id, readPassword: readPassword,
+          action: 'fork', id: current.meta.id,
+          readPassword: readPasswordMapId === current.meta.id ? readPassword : '',
           ownerIdentity: ownerIdentityToken(),
         }, null, headers);
         if (r.status === 200 && r.data.ok) {
@@ -1792,7 +1841,8 @@ const payload = {
       }
 
       async function deleteCurrent() {
-        if (!current.meta.ownerToken) { toast(S.ownerOnlyMsg); return; }
+        if (saving) return;
+        if (!isOwner || !current.meta.ownerToken) { toast(S.ownerOnlyMsg); return; }
         if (!window.confirm(S.deleteConfirm)) return;
         var r = await api('POST', { action: 'delete', id: current.meta.id, ownerToken: current.meta.ownerToken });
         if (r.status === 200) {
@@ -1805,6 +1855,7 @@ const payload = {
       }
 
       function newMap(silent) {
+        if (saving) return;
         current = { meta: blankMeta(), doc: blankDoc() };
         isOwner = false; canEdit = true; readLocked = false; writeUnlocked = false; dirty = false;
         saveState = 'local';
@@ -1818,6 +1869,7 @@ const payload = {
       }
 
       async function loadPublicMaps(reset = true) {
+        var requestId = ++publicRequest;
         var box = document.getElementById('cm-public-list');
         var query = new URLSearchParams();
         query.set('list', '1');
@@ -1833,6 +1885,7 @@ const payload = {
           box.innerHTML = '<p class="text-[11px] text-stone-500">' + esc(S.loading) + '</p>';
         }
         var r = await api('GET', null, '?' + query.toString());
+        if (requestId !== publicRequest) return;
         if (r.status !== 200) {
           box.innerHTML = '<p class="text-[11px] text-stone-500">' + esc(S.apiOffline) + '</p>';
           document.getElementById('cm-public-more').classList.add('hidden');
@@ -1865,6 +1918,8 @@ const payload = {
       }
 
       async function loadHistory() {
+        var requestId = ++historyRequest;
+        var mapId = current.meta.id;
         var box = document.getElementById('cm-history');
         if (!current.meta.id) {
           box.innerHTML = '<p class="text-[11px] text-stone-500">' + esc(S.noMaps) + '</p>';
@@ -1872,9 +1927,10 @@ const payload = {
         }
         box.innerHTML = '<p class="text-[11px] text-stone-500">' + esc(S.loading) + '</p>';
         var headers = {};
-        if (current.meta.ownerToken) headers['x-map-owner'] = current.meta.ownerToken;
-        if (readPassword) headers['x-map-read'] = readPassword;
-        var r = await api('GET', null, '?id=' + encodeURIComponent(current.meta.id) + '&history=1', headers);
+        if (isOwner && current.meta.ownerToken) headers['x-map-owner'] = current.meta.ownerToken;
+        if (readPassword && readPasswordMapId === mapId) headers['x-map-read'] = readPassword;
+        var r = await api('GET', null, '?id=' + encodeURIComponent(mapId) + '&history=1', headers);
+        if (requestId !== historyRequest || current.meta.id !== mapId) return;
         if (r.status !== 200) {
           box.innerHTML = '<p class="text-[11px] text-stone-500">' + esc(S.apiOffline) + '</p>';
           return;
@@ -1891,26 +1947,30 @@ const payload = {
             '<span class="min-w-0 flex-1 truncate text-xs text-stone-200">' + esc(rev.actor || S.lastEditor) + '</span>' +
             '<span class="font-mono text-[10px] text-stone-600">' + esc(when) + '</span>' +
             '<button class="cm-btn-ghost" data-history-compare="' + rev.rev + '">↔</button>' +
-            (current.meta.ownerToken ? '<button class="cm-btn-ghost" data-history-restore="' + rev.rev + '">' + esc(S.restore) + '</button>' : '') +
+            (isOwner ? '<button class="cm-btn-ghost" data-history-restore="' + rev.rev + '">' + esc(S.restore) + '</button>' : '') +
             '</div>';
         }).join('');
       }
 
       async function compareRevision(rev) {
+        var requestId = ++compareRequest;
+        var mapId = current.meta.id;
         var headers = {};
-        if (current.meta.ownerToken) headers['x-map-owner'] = current.meta.ownerToken;
-        if (readPassword) headers['x-map-read'] = readPassword;
-        var r = await api('GET', null, '?id=' + encodeURIComponent(current.meta.id) + '&revision=' + rev, headers);
+        if (isOwner && current.meta.ownerToken) headers['x-map-owner'] = current.meta.ownerToken;
+        if (readPassword && readPasswordMapId === mapId) headers['x-map-read'] = readPassword;
+        var r = await api('GET', null, '?id=' + encodeURIComponent(mapId) + '&revision=' + rev, headers);
+        if (requestId !== compareRequest || current.meta.id !== mapId) return;
         if (r.status !== 200 || !r.data.revision) {
           toast(S.saveFailed);
           return;
         }
-        var changes = docDiff(current.doc, r.data.revision.doc);
+        var changes = docDiff(current.doc, r.data.revision.doc, current.meta, r.data.revision);
         renderDiff(document.getElementById('cm-history-compare'), changes, current.doc, r.data.revision.doc);
       }
 
       async function restoreRevision(rev) {
-        if (!current.meta.ownerToken) { toast(S.ownerOnlyMsg); return; }
+        if (saving) return;
+        if (!isOwner || !current.meta.ownerToken) { toast(S.ownerOnlyMsg); return; }
         if (!window.confirm(S.restore + ' v' + rev + '?')) return;
         var r = await api('POST', {
           action: 'restore', id: current.meta.id, revision: rev, rev: current.meta.rev,
@@ -1920,6 +1980,7 @@ const payload = {
           adopt(r.data.map, current.meta.ownerToken, true);
           toast(S.restore);
           loadHistory();
+          loadPublicMaps();
           return;
         }
         if (r.status === 409) { showConflict(r.data.map); return; }
@@ -1927,10 +1988,22 @@ const payload = {
       }
 
       function copy(text, msg) {
+        function fallback() {
+          var area = document.createElement('textarea');
+          area.value = text;
+          area.style.position = 'fixed';
+          area.style.opacity = '0';
+          document.body.appendChild(area);
+          area.select();
+          var ok = false;
+          try { ok = document.execCommand('copy'); } catch (e) {}
+          area.remove();
+          toast(ok ? msg : S.saveFailed);
+        }
         if (navigator.clipboard && navigator.clipboard.writeText) {
-          navigator.clipboard.writeText(text).then(function () { toast(msg); }, function () { toast(msg); });
+          navigator.clipboard.writeText(text).then(function () { toast(msg); }, fallback);
         } else {
-          toast(msg);
+          fallback();
         }
       }
       function copyLink() {
@@ -1938,7 +2011,7 @@ const payload = {
         copy(location.origin + location.pathname + '?map=' + current.meta.id, S.copyOk + ' · ' + S.shareHint);
       }
       function copyOwnerLink() {
-        if (!current.meta.id || !current.meta.ownerToken) { toast(S.ownerOnlyMsg); return; }
+        if (!current.meta.id || !isOwner || !current.meta.ownerToken) { toast(S.ownerOnlyMsg); return; }
         copy(location.origin + location.pathname + '?map=' + current.meta.id + '#k=' + current.meta.ownerToken, S.copyOk + ' · ' + S.ownerKey);
       }
 
@@ -1969,12 +2042,14 @@ const payload = {
           hideModal();
           if (kind === 'write') {
             writePassword = pw;
+            writePasswordMapId = pending.id;
             writeUnlocked = true;
             applyPermissions();
             renderDetails();
             toast(S.canEdit);
           } else {
             readPassword = pw;
+            readPasswordMapId = pending.id;
             var id = pending.id;
             pending = null;
             openMap(id);
@@ -1993,7 +2068,7 @@ const payload = {
       document.getElementById('cm-copy-owner-link').addEventListener('click', copyOwnerLink);
       document.getElementById('cm-delete-map').addEventListener('click', deleteCurrent);
       document.getElementById('cm-copy-owner').addEventListener('click', function () {
-        if (current.meta.ownerToken) copy(current.meta.ownerToken, S.copyOk);
+        if (isOwner && current.meta.ownerToken) copy(current.meta.ownerToken, S.copyOk);
       });
       document.getElementById('cm-map-name').addEventListener('input', function (e) {
         current.meta.name = e.target.value.slice(0, 80); markDirty();
@@ -2007,15 +2082,18 @@ const payload = {
         markDirty();
       });
       document.getElementById('cm-read-mode').addEventListener('change', function (e) {
+        if (current.meta.id && !isOwner) { e.target.value = current.meta.readMode; return; }
         current.meta.readMode = e.target.value; markDirty();
         document.getElementById('cm-read-pw-wrap').style.display = e.target.value === 'password' ? '' : 'none';
       });
       document.getElementById('cm-write-mode').addEventListener('change', function (e) {
+        if (current.meta.id && !isOwner) { e.target.value = current.meta.writeMode; return; }
         current.meta.writeMode = e.target.value; markDirty(); applyPermissions();
         document.getElementById('cm-write-pw-wrap').style.display = e.target.value === 'password' ? '' : 'none';
       });
       document.getElementById('cm-map-select').addEventListener('change', function (e) {
         var id = e.target.value;
+        if (saving && id !== (current.meta.id || 'local')) { e.target.value = current.meta.id || 'local'; return; }
         if (id === 'local') {
           var entry = registry.maps.local;
           if (entry) { adoptCached(entry); syncUrl(); }
@@ -2026,7 +2104,7 @@ const payload = {
       });
       document.getElementById('cm-public-list').addEventListener('click', function (e) {
         var b = e.target.closest('button[data-open]');
-        if (!b) return;
+        if (!b || saving) return;
         openMap(b.dataset.open);
       });
       var publicSearchTimer;
@@ -2237,7 +2315,7 @@ const payload = {
         e.target.value = '';
       });
       window.addEventListener('beforeunload', function (e) {
-        if (dirty) { e.preventDefault(); e.returnValue = ''; }
+        if (dirty || saving) { e.preventDefault(); e.returnValue = ''; }
       });
       document.addEventListener('keydown', function (e) {
         if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 's') {
@@ -2266,13 +2344,14 @@ const payload = {
       var ownerFromHash = (location.hash.match(/#k=([a-f0-9]{32,64})/) || [])[1] || '';
       if (ownerFromHash && mapId && registry.maps[mapId]) {
         registry.maps[mapId].meta.ownerToken = ownerFromHash;
+        registry.maps[mapId].meta.ownerVerified = false;
       }
 
       if (mapId && /^[a-z0-9]{8,16}$/.test(mapId)) {
         var cached = registry.maps[mapId];
         if (cached) adoptCached(cached);
         else {
-          current.meta = Object.assign(blankMeta(), { id: mapId, name: mapId, ownerToken: ownerFromHash });
+          current.meta = Object.assign(blankMeta(), { id: mapId, name: mapId, ownerToken: ownerFromHash, ownerVerified: true });
           readLocked = true;
           renderMapManager(); renderAll();
         }

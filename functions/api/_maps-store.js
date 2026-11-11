@@ -5,14 +5,13 @@
 // (site/scripts/dev-maps-store.mjs, JSON file on disk).
 //
 //   get(id)                        -> map | null
-//   insert(map)                    -> void
-//   update(id, expectedRev, patch) -> map | null   (null = revision conflict)
+//   insert(map, actor)             -> void
+//   update(id, expectedRev, patch, actor) -> map | null (null = revision conflict)
 //   listPublic(limit, offset, q, server) -> summary rows
 //   remove(id)                     -> void
 //   bumpAttempt(ident, now, winMs) -> failure count in the current window
 //   clearAttempts(ident)           -> void
 //   countPublic(q, server)         -> number
-//   insertRevision(revision)       -> void
 //   listRevisions(mapId, limit)     -> revision rows
 //   getRevision(mapId, rev)         -> revision row
 //   logSecurityEvent(event)        -> void
@@ -36,6 +35,18 @@ const COLS = {
 const SELECT =
   'SELECT id, name, server, owner_hash, read_mode, write_mode, read_salt, read_hash, ' +
   'write_salt, write_hash, doc, rev, forked_from, created_at, updated_at FROM city_maps';
+
+function revisionStatement(db, revision) {
+  return db
+    .prepare(
+      'INSERT OR IGNORE INTO map_revisions (map_id, rev, name, server, doc, actor, created_at) ' +
+        'VALUES (?,?,?,?,?,?,?)'
+    )
+    .bind(
+      revision.mapId, revision.rev, revision.name, revision.server,
+      revision.doc, revision.actor, revision.createdAt,
+    );
+}
 
 function toMap(r) {
   return {
@@ -64,22 +75,33 @@ export function d1Store(db) {
       return r ? toMap(r) : null;
     },
 
-    async insert(m) {
-      await db
-        .prepare(
-          'INSERT INTO city_maps (id, name, server, owner_hash, read_mode, write_mode, ' +
-            'read_salt, read_hash, write_salt, write_hash, doc, rev, forked_from, ' +
-            'created_at, updated_at) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)'
-        )
-        .bind(
-          m.id, m.name, m.server, m.ownerHash, m.readMode, m.writeMode,
-          m.readSalt, m.readHash, m.writeSalt, m.writeHash, m.doc, m.rev,
-          m.forkedFrom, m.createdAt, m.updatedAt
-        )
-        .run();
+    async insert(m, actor = '') {
+      const revision = {
+        mapId: m.id,
+        rev: m.rev,
+        name: m.name,
+        server: m.server,
+        doc: m.doc,
+        actor,
+        createdAt: m.updatedAt || Date.now(),
+      };
+      await db.batch([
+        db
+          .prepare(
+            'INSERT INTO city_maps (id, name, server, owner_hash, read_mode, write_mode, ' +
+              'read_salt, read_hash, write_salt, write_hash, doc, rev, forked_from, ' +
+              'created_at, updated_at) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)'
+          )
+          .bind(
+            m.id, m.name, m.server, m.ownerHash, m.readMode, m.writeMode,
+            m.readSalt, m.readHash, m.writeSalt, m.writeHash, m.doc, m.rev,
+            m.forkedFrom, m.createdAt, m.updatedAt
+          ),
+        revisionStatement(db, revision),
+      ]);
     },
 
-    async update(id, expectedRev, patch) {
+    async update(id, expectedRev, patch, actor = '') {
       const sets = [];
       const vals = [];
       for (const key of Object.keys(patch)) {
@@ -89,12 +111,19 @@ export function d1Store(db) {
       }
       if (!sets.length) return this.get(id);
       vals.push(id, expectedRev);
-      const res = await db
+      const update = db
         .prepare('UPDATE city_maps SET ' + sets.join(', ') + ' WHERE id = ? AND rev = ?')
-        .bind(...vals)
-        .run();
-      const changes = res && res.meta ? res.meta.changes : 0;
-      if (!changes) return null;
+        .bind(...vals);
+      const revision = db
+        .prepare(
+          'INSERT OR IGNORE INTO map_revisions (map_id, rev, name, server, doc, actor, created_at) ' +
+            'SELECT id, rev, name, server, doc, ?, updated_at FROM city_maps ' +
+            'WHERE id = ? AND rev = ? AND updated_at = ?'
+        )
+        .bind(actor, id, expectedRev + 1, patch.updatedAt);
+      const results = await db.batch([update, revision]);
+      const changed = results[0] && results[0].meta ? results[0].meta.changes : 0;
+      if (!changed) return null;
       return this.get(id);
     },
 
@@ -111,10 +140,33 @@ export function d1Store(db) {
       }
       const res = await db
         .prepare(
-          'SELECT id, name, server, rev, forked_from AS forkedFrom, ' +
-            'created_at AS createdAt, updated_at AS updatedAt, doc ' +
-            'FROM city_maps WHERE ' + where.join(' AND ') +
-            ' ORDER BY updated_at DESC LIMIT ? OFFSET ?'
+          'WITH selected AS (' +
+            'SELECT id, name, server, rev, forked_from AS forkedFrom, ' +
+              'created_at AS createdAt, updated_at AS updatedAt, doc ' +
+              'FROM city_maps WHERE ' + where.join(' AND ') +
+              ' ORDER BY updated_at DESC LIMIT ? OFFSET ?' +
+            '), owners AS (' +
+              'SELECT selected.id AS mapId, owner.value AS owner, COUNT(*) AS count, ' +
+                'json_extract(a.value, \'$.color\') AS color, ' +
+                'json_extract(a.value, \'$.icon\') AS icon ' +
+              'FROM selected ' +
+              'JOIN json_each(selected.doc, \'$.stages[6].o\') AS owner ' +
+              'JOIN json_each(selected.doc, \'$.alliances\') AS a ' +
+                'ON json_extract(a.value, \'$.id\') = owner.value ' +
+              'GROUP BY selected.id, owner.value, color, icon' +
+            '), ranked AS (' +
+              'SELECT *, ROW_NUMBER() OVER (PARTITION BY mapId ORDER BY count DESC, owner) AS rn ' +
+              'FROM owners' +
+            ') ' +
+            'SELECT selected.id, selected.name, selected.server, selected.rev, ' +
+              'selected.forkedFrom, selected.createdAt, selected.updatedAt, ' +
+              'json_extract(selected.doc, \'$.actor\') AS actor, ' +
+              '(SELECT COUNT(*) FROM json_each(selected.doc, \'$.stages[6].o\')) AS cityCount, ' +
+              'json_array_length(selected.doc, \'$.alliances\') AS allianceCount, ' +
+              '(SELECT json_group_array(json_object(' +
+                '\'id\', owner, \'color\', color, \'icon\', icon, \'count\', count)) ' +
+                'FROM ranked WHERE ranked.mapId = selected.id AND ranked.rn <= 12) AS preview ' +
+            'FROM selected ORDER BY selected.updatedAt DESC'
         )
         .bind(...values, limit, offset)
         .all();
@@ -140,46 +192,34 @@ export function d1Store(db) {
     },
 
     async remove(id) {
-      await db.prepare('DELETE FROM city_maps WHERE id = ?').bind(id).run();
-      await db.prepare('DELETE FROM map_revisions WHERE map_id = ?').bind(id).run();
+      await db.batch([
+        db.prepare('DELETE FROM city_maps WHERE id = ?').bind(id),
+        db.prepare('DELETE FROM map_revisions WHERE map_id = ?').bind(id),
+      ]);
     },
 
     async bumpAttempt(ident, now, windowMs) {
-      const r = await db
-        .prepare('SELECT count, window_start FROM map_attempts WHERE ident = ?')
-        .bind(ident)
-        .first();
-      let count = 1;
-      let start = now;
-      if (r && now - r.window_start < windowMs) {
-        count = r.count + 1;
-        start = r.window_start;
-      }
       await db
-        .prepare(
-          'INSERT INTO map_attempts (ident, count, window_start) VALUES (?,?,?) ' +
-            'ON CONFLICT(ident) DO UPDATE SET count = excluded.count, window_start = excluded.window_start'
-        )
-        .bind(ident, count, start)
+        .prepare('DELETE FROM map_attempts WHERE window_start < ?')
+        .bind(now - 2 * 60 * 60 * 1000)
         .run();
-      return count;
+      const row = await db
+        .prepare(
+          'INSERT INTO map_attempts (ident, count, window_start) VALUES (?,1,?) ' +
+            'ON CONFLICT(ident) DO UPDATE SET ' +
+              'count = CASE WHEN ? - map_attempts.window_start < ? ' +
+                'THEN map_attempts.count + 1 ELSE 1 END, ' +
+              'window_start = CASE WHEN ? - map_attempts.window_start < ? ' +
+                'THEN map_attempts.window_start ELSE ? END ' +
+            'RETURNING count'
+        )
+        .bind(ident, now, now, windowMs, now, windowMs, now)
+        .first();
+      return Number((row && row.count) || 0);
     },
 
     async clearAttempts(ident) {
       await db.prepare('DELETE FROM map_attempts WHERE ident = ?').bind(ident).run();
-    },
-
-    async insertRevision(revision) {
-      await db
-        .prepare(
-          'INSERT OR IGNORE INTO map_revisions (map_id, rev, name, server, doc, actor, created_at) ' +
-            'VALUES (?,?,?,?,?,?,?)'
-        )
-        .bind(
-          revision.mapId, revision.rev, revision.name, revision.server,
-          revision.doc, revision.actor, revision.createdAt,
-        )
-        .run();
     },
 
     async listRevisions(mapId, limit = 20) {

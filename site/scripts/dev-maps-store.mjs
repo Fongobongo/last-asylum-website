@@ -36,7 +36,7 @@ async function load() {
 
 function persist() {
   const snapshot = JSON.stringify(cache, null, 2);
-  writing = writing.then(() => writeFile(FILE, snapshot, 'utf8')).catch(() => {});
+  writing = writing.catch(() => {}).then(() => writeFile(FILE, snapshot, 'utf8'));
   return writing;
 }
 
@@ -57,19 +57,55 @@ export function devStore(options = {}) {
       return row ? { ...row } : null;
     },
 
-    async insert(map) {
+    async insert(map, actor = '') {
       const db = await state();
+      const previous = db.maps[map.id];
       db.maps[map.id] = { ...map };
-      await save();
+      db.revisions[`${map.id}:${map.rev}`] = {
+        mapId: map.id,
+        rev: map.rev,
+        name: map.name,
+        server: map.server,
+        doc: map.doc,
+        actor,
+        createdAt: map.updatedAt || Date.now(),
+      };
+      try {
+        await save();
+      } catch (e) {
+        if (previous) db.maps[map.id] = previous;
+        else delete db.maps[map.id];
+        delete db.revisions[`${map.id}:${map.rev}`];
+        throw e;
+      }
     },
 
-    async update(id, expectedRev, patch) {
+    async update(id, expectedRev, patch, actor = '') {
       const db = await state();
       const row = db.maps[id];
       if (!row || row.rev !== expectedRev) return null;
       db.maps[id] = { ...row, ...patch };
-      await save();
-      return { ...db.maps[id] };
+      const updated = db.maps[id];
+      const revisionKey = `${id}:${updated.rev}`;
+      const previousRevision = db.revisions[revisionKey];
+      db.revisions[revisionKey] = {
+        mapId: id,
+        rev: updated.rev,
+        name: updated.name,
+        server: updated.server,
+        doc: updated.doc,
+        actor,
+        createdAt: updated.updatedAt || Date.now(),
+      };
+      try {
+        await save();
+      } catch (e) {
+        db.maps[id] = row;
+        if (previousRevision) db.revisions[revisionKey] = previousRevision;
+        else delete db.revisions[revisionKey];
+        throw e;
+      }
+      return { ...updated };
     },
 
     async listPublic(limit, offset = 0, q = '', server = '') {
@@ -121,12 +157,6 @@ export function devStore(options = {}) {
         delete db.attempts[ident];
         await save();
       }
-    },
-
-    async insertRevision(revision) {
-      const db = await state();
-      db.revisions[`${revision.mapId}:${revision.rev}`] = { ...revision };
-      await save();
     },
 
     async listRevisions(mapId, limit = 20) {
