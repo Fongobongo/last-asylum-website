@@ -13,6 +13,10 @@ const FILE = path.join(HERE, '..', '.maps-dev.json');
 let cache = null;
 let writing = Promise.resolve();
 
+function emptyState() {
+  return { maps: {}, attempts: {}, revisions: {}, securityEvents: [] };
+}
+
 async function load() {
   if (cache) return cache;
   try {
@@ -21,9 +25,11 @@ async function load() {
     cache = {
       maps: parsed.maps && typeof parsed.maps === 'object' ? parsed.maps : {},
       attempts: parsed.attempts && typeof parsed.attempts === 'object' ? parsed.attempts : {},
+      revisions: parsed.revisions && typeof parsed.revisions === 'object' ? parsed.revisions : {},
+      securityEvents: parsed.securityEvents && Array.isArray(parsed.securityEvents) ? parsed.securityEvents : [],
     };
   } catch {
-    cache = { maps: {}, attempts: {} };
+    cache = emptyState();
   }
   return cache;
 }
@@ -34,54 +40,69 @@ function persist() {
   return writing;
 }
 
-export function devStore() {
+export function devStore(options = {}) {
+  // A fresh store is isolated from the preview file, so API tests cannot
+  // replace the developer's local maps.
+  const isolated = options.fresh ? emptyState() : null;
+  const state = async () => isolated || load();
+  const save = async () => {
+    if (!isolated) return persist();
+    writing = writing.then(() => Promise.resolve()).catch(() => {});
+    return writing;
+  };
   return {
     async get(id) {
-      const db = await load();
+      const db = await state();
       const row = db.maps[id];
       return row ? { ...row } : null;
     },
 
     async insert(map) {
-      const db = await load();
+      const db = await state();
       db.maps[map.id] = { ...map };
-      await persist();
+      await save();
     },
 
     async update(id, expectedRev, patch) {
-      const db = await load();
+      const db = await state();
       const row = db.maps[id];
       if (!row || row.rev !== expectedRev) return null;
       db.maps[id] = { ...row, ...patch };
-      await persist();
+      await save();
       return { ...db.maps[id] };
     },
 
-    async listPublic(limit) {
-      const db = await load();
+    async listPublic(limit, offset = 0, q = '', server = '') {
+      const db = await state();
       return Object.values(db.maps)
         .filter((m) => m.readMode === 'public')
+        .filter((m) => !q || `${m.name} ${m.server}`.toLowerCase().includes(q.toLowerCase()))
+        .filter((m) => !server || (m.server || '').toLowerCase() === server.toLowerCase())
         .sort((a, b) => b.updatedAt - a.updatedAt)
-        .slice(0, limit)
-        .map((m) => ({
-          id: m.id,
-          name: m.name,
-          server: m.server,
-          rev: m.rev,
-          forkedFrom: m.forkedFrom,
-          createdAt: m.createdAt,
-          updatedAt: m.updatedAt,
-        }));
+        .slice(offset, offset + limit)
+        .map((m) => ({ ...m }));
+    },
+
+    async countPublic(q = '', server = '') {
+      const db = await state();
+      return Object.values(db.maps)
+        .filter((m) => m.readMode === 'public')
+        .filter((m) => !q || `${m.name} ${m.server}`.toLowerCase().includes(q.toLowerCase()))
+        .filter((m) => !server || (m.server || '').toLowerCase() === server.toLowerCase())
+        .length;
     },
 
     async remove(id) {
-      const db = await load();
+      const db = await state();
       delete db.maps[id];
-      await persist();
+      for (const key of Object.keys(db.revisions)) {
+        if (db.revisions[key].mapId === id) delete db.revisions[key];
+      }
+      await save();
     },
 
     async bumpAttempt(ident, now, windowMs) {
-      const db = await load();
+      const db = await state();
       const row = db.attempts[ident];
       let count = 1;
       let start = now;
@@ -90,16 +111,44 @@ export function devStore() {
         start = row.windowStart;
       }
       db.attempts[ident] = { count, windowStart: start };
-      await persist();
+      await save();
       return count;
     },
 
     async clearAttempts(ident) {
-      const db = await load();
+      const db = await state();
       if (db.attempts[ident]) {
         delete db.attempts[ident];
-        await persist();
+        await save();
       }
+    },
+
+    async insertRevision(revision) {
+      const db = await state();
+      db.revisions[`${revision.mapId}:${revision.rev}`] = { ...revision };
+      await save();
+    },
+
+    async listRevisions(mapId, limit = 20) {
+      const db = await state();
+      return Object.values(db.revisions)
+        .filter((revision) => revision.mapId === mapId)
+        .sort((a, b) => b.rev - a.rev)
+        .slice(0, limit)
+        .map((revision) => ({ ...revision }));
+    },
+
+    async getRevision(mapId, rev) {
+      const db = await state();
+      const revision = db.revisions[`${mapId}:${rev}`];
+      return revision ? { ...revision } : null;
+    },
+
+    async logSecurityEvent(event) {
+      const db = await state();
+      db.securityEvents.push({ ...event });
+      if (db.securityEvents.length > 500) db.securityEvents = db.securityEvents.slice(-500);
+      await save();
     },
   };
 }

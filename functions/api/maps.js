@@ -12,12 +12,15 @@
 //             'password' needs the edit password
 //             'owner'    only the owner token
 // The owner token is returned exactly once, on create/fork, and is stored
-// hashed. Passwords are salted SHA-256; raw passwords never leave the request.
+// hashed. Passwords use PBKDF2-SHA256 (legacy salted SHA-256 remains readable);
+// raw passwords never leave the request.
 //
 // Routes
-//   GET  /api/maps?list=1        public index
+//   GET  /api/maps?list=1        public index (q, server, offset, limit)
 //   GET  /api/maps?id=<id>       one map (X-Map-Read / X-Map-Owner headers)
-//   POST /api/maps               { action: create|save|fork|delete|unlock }
+//   GET  /api/maps?id=<id>&history=1
+//   GET  /api/maps?id=<id>&revision=<rev>
+//   POST /api/maps               { action: create|save|fork|delete|unlock|restore }
 import { d1Store } from './_maps-store.js';
 import { json } from './_store.js';
 
@@ -29,9 +32,15 @@ const TOKEN_RE = /^[a-f0-9]{32,64}$/;
 const ID_ALPHABET = 'abcdefghijkmnpqrstuvwxyz23456789';
 const STAGES = 7;
 const WINDOW_MS = 10 * 60 * 1000;
+const CREATE_WINDOW_MS = 60 * 60 * 1000;
 const MAX_TRIES = 8;
+const MAX_GLOBAL_TRIES = 30;
+const MAX_CREATES = 10;
+const MAX_OWNER_CREATES = 8;
+const PBKDF2_ITERATIONS = 100000;
 const READ_MODES = new Set(['public', 'password', 'owner']);
 const WRITE_MODES = new Set(['open', 'password', 'owner']);
+const BLOCKED_NAME = /(fuck|shit|bitch|cunt|nigg(?:er|a)?|porn|nsfw|\bxxx\b|еб(?:а|у|ан|ат|аль)?|хуй|блядь|сука|пизд)/iu;
 
 const enc = new TextEncoder();
 
@@ -44,6 +53,18 @@ function hex(buf) {
 
 async function sha256(text) {
   return hex(await crypto.subtle.digest('SHA-256', enc.encode(text)));
+}
+
+async function pbkdf2(password, salt, iterations) {
+  const key = await crypto.subtle.importKey(
+    'raw', enc.encode(password), 'PBKDF2', false, ['deriveBits'],
+  );
+  const bits = await crypto.subtle.deriveBits(
+    { name: 'PBKDF2', salt: enc.encode(salt), iterations, hash: 'SHA-256' },
+    key,
+    256,
+  );
+  return hex(bits);
 }
 
 function randomHex(bytes) {
@@ -73,6 +94,14 @@ function ipOf(req) {
 
 function str(v, max) {
   return typeof v === 'string' ? v.trim().slice(0, max) : '';
+}
+
+function cleanDisplayText(v, max) {
+  return str(v, max).normalize('NFKC').replace(/[\u0000-\u001f\u007f]/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
+function blockedName(v) {
+  return BLOCKED_NAME.test(cleanDisplayText(v, 200).toLowerCase());
 }
 
 /** Keep only what the planner can actually produce, so the DB cannot be used
@@ -112,7 +141,51 @@ function sanitizeDoc(raw) {
     }
     stages.push({ o: clean });
   }
-  return { v: 2, alliances, stages };
+  return { v: 2, actor: cleanDisplayText(raw.actor, 40), alliances, stages };
+}
+
+function parseDoc(row) {
+  try {
+    return JSON.parse(row.doc);
+  } catch {
+    return { v: 2, actor: '', alliances: [], stages: [] };
+  }
+}
+
+function mapSummary(row) {
+  const doc = parseDoc(row);
+  const owners = doc.stages && doc.stages[6] && doc.stages[6].o ? doc.stages[6].o : {};
+  const counts = new Map();
+  for (const owner of Object.values(owners)) counts.set(owner, (counts.get(owner) || 0) + 1);
+  const alliances = Array.isArray(doc.alliances) ? doc.alliances : [];
+  const preview = alliances
+    .map((a) => ({ id: a.id, color: a.color, icon: a.icon, count: counts.get(a.id) || 0 }))
+    .filter((a) => a.count > 0)
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 12);
+  return {
+    id: row.id,
+    name: row.name,
+    server: row.server,
+    rev: row.rev,
+    forkedFrom: row.forkedFrom,
+    createdAt: row.createdAt,
+    updatedAt: row.updatedAt,
+    actor: doc.actor || '',
+    cityCount: Object.keys(owners).length,
+    allianceCount: alliances.length,
+    preview,
+  };
+}
+
+function revisionSummary(row) {
+  return {
+    rev: row.rev,
+    name: row.name,
+    server: row.server,
+    actor: row.actor,
+    createdAt: row.createdAt,
+  };
 }
 
 function toClient(row) {
@@ -134,6 +207,7 @@ function toClient(row) {
     writeMode: row.writeMode,
     hasReadPassword: !!row.readHash,
     hasWritePassword: !!row.writeHash,
+    actor: doc.actor || '',
     doc,
   };
 }
@@ -143,6 +217,19 @@ async function isOwner(row, token) {
   return (await sha256(token)) === row.ownerHash;
 }
 
+async function verifyPassword(password, salt, stored) {
+  if (!password || !stored) return false;
+  const parts = stored.split('$');
+  if (parts[0] === 'pbkdf2') {
+    const iterations = Number(parts[1]);
+    if (!Number.isInteger(iterations) || iterations < 10000 || iterations > 1000000) return false;
+    return (await pbkdf2(password, parts[2] || salt, iterations)) === parts[3];
+  }
+  // Legacy salted SHA-256 hashes remain valid; the next password change
+  // upgrades them to PBKDF2 automatically.
+  return (await sha256(salt + ':' + password)) === stored;
+}
+
 async function readAllowed(row, req, readPassword) {
   if (row.readMode === 'public') return true;
   if (row.readMode === 'owner') {
@@ -150,7 +237,7 @@ async function readAllowed(row, req, readPassword) {
   }
   const pw = readPassword || req.headers.get('x-map-read') || '';
   if (!pw || !row.readHash) return false;
-  return (await sha256(row.readSalt + ':' + pw)) === row.readHash;
+  return verifyPassword(pw, row.readSalt, row.readHash);
 }
 
 async function writeAllowed(row, req, body) {
@@ -159,7 +246,7 @@ async function writeAllowed(row, req, body) {
   if (row.writeMode === 'password') {
     const pw = body.writePassword || req.headers.get('x-map-write') || '';
     if (!pw || !row.writeHash) return false;
-    return (await sha256(row.writeSalt + ':' + pw)) === row.writeHash;
+    return verifyPassword(pw, row.writeSalt, row.writeHash);
   }
   return false;
 }
@@ -168,16 +255,50 @@ function throttleIdent(req, id) {
   return sha256(ipOf(req) + '|' + id).then((h) => h.slice(0, 32));
 }
 
-async function tooMany(store, ident) {
-  const n = await store.bumpAttempt(ident, Date.now(), WINDOW_MS);
-  return n > MAX_TRIES;
+async function tooMany(store, ident, limit = MAX_TRIES, windowMs = WINDOW_MS) {
+  const n = await store.bumpAttempt(ident, Date.now(), windowMs);
+  return n > limit;
+}
+
+async function enforceCreateQuota(req, store, ownerIdentity) {
+  const createIdent = await throttleIdent(req, 'create');
+  const createCount = await store.bumpAttempt(createIdent, Date.now(), CREATE_WINDOW_MS);
+  if (createCount > MAX_CREATES) return 'too many maps created';
+
+  if (typeof ownerIdentity === 'string' && /^[a-f0-9]{32,64}$/.test(ownerIdentity)) {
+    const ownerIdent = await sha256('owner:' + ownerIdentity);
+    const ownerCount = await store.bumpAttempt(ownerIdent, Date.now(), CREATE_WINDOW_MS);
+    if (ownerCount > MAX_OWNER_CREATES) return 'map quota reached';
+  }
+  return '';
+}
+
+async function auditPasswordFailure(req, store, id, kind) {
+  const ident = await throttleIdent(req, id + ':' + kind);
+  const localTooMany = await tooMany(store, ident);
+  const globalIdent = await throttleIdent(req, 'password-global');
+  const globalTooMany = await tooMany(store, globalIdent, MAX_GLOBAL_TRIES, WINDOW_MS);
+  await store.logSecurityEvent({ mapId: id, ident, kind, createdAt: Date.now() });
+  return localTooMany || globalTooMany;
 }
 
 async function buildHashes(mode, password) {
-  if (mode !== 'password') return { salt: '', hash: '' };
-  if (!password) return { salt: '', hash: '' };
+  if (mode !== 'password' || !password) return { salt: '', hash: '' };
   const salt = randomHex(8);
-  return { salt, hash: await sha256(salt + ':' + password) };
+  const hash = await pbkdf2(password, salt, PBKDF2_ITERATIONS);
+  return { salt, hash: `pbkdf2$${PBKDF2_ITERATIONS}$${salt}$${hash}` };
+}
+
+async function recordRevision(store, row, actor) {
+  await store.insertRevision({
+    mapId: row.id,
+    rev: row.rev,
+    name: row.name,
+    server: row.server,
+    doc: row.doc,
+    actor: cleanDisplayText(actor, 40),
+    createdAt: row.updatedAt || Date.now(),
+  });
 }
 
 function badPassword(pw) {
@@ -194,6 +315,7 @@ export async function onRequest(context) {
     if (req.method === 'POST') return await handlePost(req, store);
     return json(405, { error: 'method not allowed' });
   } catch (e) {
+    console.error(e);
     return json(500, { error: 'internal' });
   }
 }
@@ -201,9 +323,21 @@ export async function onRequest(context) {
 async function handleGet(req, store) {
   const url = new URL(req.url);
 
-  if (url.searchParams.get('list')) {
-    const maps = await store.listPublic(60);
-    return json(200, { maps });
+  if (url.searchParams.has('list')) {
+    const limit = Math.max(1, Math.min(100, Number(url.searchParams.get('limit')) || 20));
+    const offset = Math.max(0, Math.min(10000, Number(url.searchParams.get('offset')) || 0));
+    const q = cleanDisplayText(url.searchParams.get('q'), 80).toLowerCase();
+    const server = cleanDisplayText(url.searchParams.get('server'), 40);
+    const [rows, total] = await Promise.all([
+      store.listPublic(limit, offset, q, server),
+      store.countPublic(q, server),
+    ]);
+    return json(200, {
+      maps: rows.map(mapSummary),
+      total,
+      offset,
+      limit,
+    });
   }
 
   const id = url.searchParams.get('id') || '';
@@ -216,7 +350,21 @@ async function handleGet(req, store) {
   const allowed = await readAllowed(row, req, pw);
   if (!allowed) {
     const locked = row.readMode === 'owner' ? 'owner-only' : 'read-locked';
+    if (row.readMode === 'password' && await auditPasswordFailure(req, store, id, 'read')) {
+      return json(429, { error: 'too many attempts' });
+    }
     return json(401, { error: locked, readMode: row.readMode });
+  }
+
+  if (url.searchParams.has('history') || url.searchParams.has('revision')) {
+    const revision = Number(url.searchParams.get('revision'));
+    if (Number.isInteger(revision) && revision > 0) {
+      const rowRevision = await store.getRevision(id, revision);
+      if (!rowRevision) return json(404, { error: 'revision not found' });
+      return json(200, { revision: { ...revisionSummary(rowRevision), doc: parseDoc(rowRevision) } });
+    }
+    const revisions = await store.listRevisions(id, 20);
+    return json(200, { revisions: revisions.map(revisionSummary) });
   }
 
   const owner = await isOwner(row, req.headers.get('x-map-owner') || url.searchParams.get('ok') || '');
@@ -242,6 +390,7 @@ async function handlePost(req, store) {
   if (action === 'fork') return forkMap(req, store, body);
   if (action === 'delete') return deleteMap(req, store, body);
   if (action === 'unlock') return unlock(req, store, body);
+  if (action === 'restore') return restoreMap(req, store, body);
   return json(400, { error: 'bad action' });
 }
 
@@ -249,8 +398,9 @@ async function createMap(req, store, body) {
   const doc = sanitizeDoc(body.doc);
   if (!doc) return json(400, { error: 'bad doc' });
 
-  const name = str(body.name, MAX_NAME) || 'City map';
-  const server = str(body.server, MAX_SERVER);
+  const name = cleanDisplayText(body.name, MAX_NAME) || 'City map';
+  const server = cleanDisplayText(body.server, MAX_SERVER);
+  if (blockedName(name) || blockedName(server)) return json(400, { error: 'name blocked' });
   const readMode = READ_MODES.has(body.readMode) ? body.readMode : 'public';
   const writeMode = WRITE_MODES.has(body.writeMode) ? body.writeMode : 'open';
 
@@ -261,9 +411,13 @@ async function createMap(req, store, body) {
     return json(400, { error: 'bad write password' });
   }
 
+  const quotaError = await enforceCreateQuota(req, store, body.ownerIdentity);
+  if (quotaError) return json(429, { error: quotaError });
+
   const id = newId();
   const ownerToken = randomHex(24);
   const now = Date.now();
+  const ownerHash = await sha256(ownerToken);
   const read = await buildHashes(readMode, body.readPassword);
   const write = await buildHashes(writeMode, body.writePassword);
   const serialized = JSON.stringify(doc);
@@ -273,7 +427,7 @@ async function createMap(req, store, body) {
     id,
     name,
     server,
-    ownerHash: await sha256(ownerToken),
+    ownerHash,
     readMode,
     writeMode,
     readSalt: read.salt,
@@ -288,6 +442,7 @@ async function createMap(req, store, body) {
   };
 
   await store.insert(row);
+  await recordRevision(store, row, doc.actor);
   return json(200, {
     ok: true,
     id,
@@ -307,8 +462,9 @@ async function saveMap(req, store, body) {
 
   const allowed = await writeAllowed(row, req, body);
   if (!allowed) {
-    const ident = await throttleIdent(req, id);
-    if (await tooMany(store, ident)) return json(429, { error: 'too many attempts' });
+    if (row.writeMode === 'password' && await auditPasswordFailure(req, store, id, 'write')) {
+      return json(429, { error: 'too many attempts' });
+    }
     return json(401, { error: row.writeMode === 'owner' ? 'owner-only' : 'write-locked' });
   }
 
@@ -316,8 +472,14 @@ async function saveMap(req, store, body) {
   if (!Number.isInteger(expectedRev) || expectedRev < 1) return json(400, { error: 'bad rev' });
 
   const patch = { rev: expectedRev + 1, updatedAt: Date.now() };
-  if (typeof body.name === 'string') patch.name = str(body.name, MAX_NAME) || row.name;
-  if (typeof body.server === 'string') patch.server = str(body.server, MAX_SERVER);
+  if (typeof body.name === 'string') {
+    patch.name = cleanDisplayText(body.name, MAX_NAME) || row.name;
+    if (blockedName(patch.name)) return json(400, { error: 'name blocked' });
+  }
+  if (typeof body.server === 'string') {
+    patch.server = cleanDisplayText(body.server, MAX_SERVER);
+    if (blockedName(patch.server)) return json(400, { error: 'name blocked' });
+  }
 
   if (body.doc !== undefined) {
     const doc = sanitizeDoc(body.doc);
@@ -375,6 +537,8 @@ async function saveMap(req, store, body) {
     return json(409, { error: 'conflict', map: current ? toClient(current) : null });
   }
 
+  const actor = cleanDisplayText(body.actor, 40) || (patch.doc ? parseDoc({ doc: patch.doc }).actor : '');
+  await recordRevision(store, updated, actor);
   const ident = await throttleIdent(req, id);
   await store.clearAttempts(ident);
   return json(200, { ok: true, rev: updated.rev, updatedAt: updated.updatedAt, map: toClient(updated) });
@@ -389,13 +553,17 @@ async function forkMap(req, store, body) {
 
   const allowed = await readAllowed(src, req, body.readPassword || '');
   if (!allowed) {
-    const ident = await throttleIdent(req, id);
-    if (await tooMany(store, ident)) return json(429, { error: 'too many attempts' });
+    if (src.readMode === 'password' && await auditPasswordFailure(req, store, id, 'read')) {
+      return json(429, { error: 'too many attempts' });
+    }
     return json(401, { error: src.readMode === 'owner' ? 'owner-only' : 'read-locked' });
   }
 
   const doc = sanitizeDoc(JSON.parse(src.doc));
   if (!doc) return json(400, { error: 'bad doc' });
+
+  const quotaError = await enforceCreateQuota(req, store, body.ownerIdentity);
+  if (quotaError) return json(429, { error: quotaError });
 
   const newMapId = newId();
   const ownerToken = randomHex(24);
@@ -422,6 +590,7 @@ async function forkMap(req, store, body) {
   };
 
   await store.insert(row);
+  await recordRevision(store, row, 'fork');
   return json(200, {
     ok: true,
     id: newMapId,
@@ -459,18 +628,55 @@ async function unlock(req, store, body) {
   let ok = false;
   if (kind === 'write' && (await isOwner(row, body.ownerToken || ''))) ok = true;
   else if (kind === 'write') {
-    ok = !!password && !!row.writeHash && (await sha256(row.writeSalt + ':' + password)) === row.writeHash;
+    ok = await verifyPassword(password, row.writeSalt, row.writeHash);
   } else {
     if (row.readMode === 'public') ok = true;
     else if (row.readMode === 'owner') ok = await isOwner(row, body.ownerToken || '');
-    else ok = !!password && !!row.readHash && (await sha256(row.readSalt + ':' + password)) === row.readHash;
+    else ok = await verifyPassword(password, row.readSalt, row.readHash);
   }
 
   if (!ok) {
-    if (await tooMany(store, ident)) return json(429, { error: 'too many attempts' });
+    if (await auditPasswordFailure(req, store, id, kind)) {
+      return json(429, { error: 'too many attempts' });
+    }
     return json(401, { error: kind === 'write' ? 'bad-write-password' : 'bad-read-password' });
   }
 
   await store.clearAttempts(ident);
   return json(200, { ok: true, canEdit: kind === 'write' || row.writeMode === 'open' });
+}
+
+async function restoreMap(req, store, body) {
+  const id = typeof body.id === 'string' ? body.id : '';
+  if (!ID_RE.test(id)) return json(400, { error: 'bad id' });
+  const revision = Number(body.revision);
+  if (!Number.isInteger(revision) || revision < 1) return json(400, { error: 'bad revision' });
+  const expectedRev = Number(body.rev);
+  if (!Number.isInteger(expectedRev) || expectedRev < 1) return json(400, { error: 'bad rev' });
+
+  const row = await store.get(id);
+  if (!row) return json(404, { error: 'not found' });
+  const owner = await isOwner(row, body.ownerToken || req.headers.get('x-map-owner') || '');
+  if (!owner) return json(403, { error: 'owner-only' });
+
+  const old = await store.getRevision(id, revision);
+  if (!old) return json(404, { error: 'revision not found' });
+  const doc = sanitizeDoc(parseDoc(old));
+  if (!doc) return json(400, { error: 'bad revision' });
+  const actor = cleanDisplayText(body.actor, 40);
+  if (actor) doc.actor = actor;
+
+  const updated = await store.update(id, expectedRev, {
+    name: old.name,
+    server: old.server,
+    doc: JSON.stringify(doc),
+    rev: expectedRev + 1,
+    updatedAt: Date.now(),
+  });
+  if (!updated) {
+    const current = await store.get(id);
+    return json(409, { error: 'conflict', map: current ? toClient(current) : null });
+  }
+  await recordRevision(store, updated, actor || doc.actor || 'restore');
+  return json(200, { ok: true, map: toClient(updated) });
 }

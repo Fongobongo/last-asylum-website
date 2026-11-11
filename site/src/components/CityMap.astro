@@ -104,6 +104,7 @@ const payload = {
       <button id="cm-save-online" class="cm-btn">💾 {S.saveOnline}</button>
       <button id="cm-fork" class="cm-btn-ghost" title={S.forkHint}>⑂ {S.forkMap}</button>
       <button id="cm-copy-link" class="cm-btn-ghost" title={S.shareHint}>🔗 {S.copyLink}</button>
+      <button id="cm-copy-owner-link" class="cm-btn-ghost" title={S.ownerKey}>👑 {S.ownerLink}</button>
       <button id="cm-delete-map" class="cm-btn-ghost cm-danger">🗑 {S.deleteMap}</button>
       <span id="cm-save-status" class="ml-auto text-[11px] text-stone-500"></span>
     </div>
@@ -116,6 +117,10 @@ const payload = {
       <label class="cm-field">
         <span class="cm-cap">{S.server}</span>
         <input id="cm-map-server" class="cm-input w-full" type="text" maxlength="40" placeholder="S1 · EU-3" autocomplete="off" />
+      </label>
+      <label class="cm-field">
+        <span class="cm-cap">{S.editor}</span>
+        <input id="cm-map-editor" class="cm-input w-full" type="text" maxlength="40" placeholder="—" autocomplete="off" />
       </label>
       <label class="cm-field">
         <span class="cm-cap">{S.readMode}</span>
@@ -162,7 +167,18 @@ const payload = {
 
     <details class="mt-3 group">
       <summary class="cursor-pointer select-none text-[11px] font-semibold uppercase tracking-widest text-stone-400 hover:text-stone-200">🌐 {S.publicMaps}</summary>
+      <div class="mt-2 grid gap-2 sm:grid-cols-[1fr_180px]">
+        <input id="cm-public-search" class="cm-input w-full" type="search" placeholder={S.search} autocomplete="off" />
+        <input id="cm-public-server" class="cm-input w-full" type="search" placeholder={S.server} autocomplete="off" />
+      </div>
       <div id="cm-public-list" class="mt-2 space-y-1.5"></div>
+      <button id="cm-public-more" class="cm-btn-ghost mt-2 hidden">{S.showMore}</button>
+    </details>
+
+    <details id="cm-history-details" class="mt-3 group">
+      <summary class="cursor-pointer select-none text-[11px] font-semibold uppercase tracking-widest text-stone-400 hover:text-stone-200">🕘 {S.history}</summary>
+      <div id="cm-history" class="mt-2 space-y-1.5"></div>
+      <div id="cm-history-compare" class="mt-2"></div>
     </details>
   </section>
 
@@ -181,6 +197,19 @@ const payload = {
       <span id="cm-stage-note" class="text-[11px] text-stone-500"></span>
     </div>
     <p class="mt-2 text-[11px] leading-snug text-stone-500">{S.paintHint}</p>
+    <details class="mt-3 group">
+      <summary class="cursor-pointer select-none text-[11px] font-semibold uppercase tracking-widest text-stone-400 hover:text-stone-200">↔ {S.compareStages}</summary>
+      <div class="mt-2 flex flex-wrap items-center gap-2">
+        <select id="cm-compare-from" class="cm-select">
+          {[1, 2, 3, 4, 5, 6, 7].map((n) => <option value={n} selected={n === 3}>{S.stage} {n}</option>)}
+        </select>
+        <span class="text-stone-500">→</span>
+        <select id="cm-compare-to" class="cm-select">
+          {[1, 2, 3, 4, 5, 6, 7].map((n) => <option value={n} selected={n === 7}>{S.stage} {n}</option>)}
+        </select>
+      </div>
+      <div id="cm-stage-compare" class="mt-2"></div>
+    </details>
   </section>
 
   <!-- ══ Toolbar ══════════════════════════════════════════════════════ -->
@@ -449,6 +478,18 @@ const payload = {
   </section>
 
   <!-- ══ Password modal ══════════════════════════════════════════════ -->
+  <div id="cm-conflict" class="cm-conflict hidden" role="dialog" aria-modal="true" aria-labelledby="cm-conflict-title">
+    <div class="cm-modal-box">
+      <h3 id="cm-conflict-title" class="text-sm font-bold uppercase tracking-widest text-stone-200">{S.conflictMsg}</h3>
+      <p class="mt-2 text-xs leading-relaxed text-stone-400">{S.compareStages}</p>
+      <div id="cm-conflict-diff" class="mt-3 max-h-[45vh] overflow-auto text-xs text-stone-300"></div>
+      <div class="mt-4 flex flex-wrap justify-end gap-2">
+        <button id="cm-conflict-server" class="cm-btn-ghost">{S.keepServer}</button>
+        <button id="cm-conflict-mine" class="cm-btn">{S.keepMine}</button>
+      </div>
+    </div>
+  </div>
+
   <div id="cm-modal" class="cm-modal hidden" role="dialog" aria-modal="true" aria-labelledby="cm-modal-title">
     <div class="cm-modal-box">
       <h3 id="cm-modal-title" class="text-sm font-bold uppercase tracking-widest text-stone-200"></h3>
@@ -889,8 +930,15 @@ const payload = {
       var writePassword = '';
       var registry = { active: 'local', maps: {} };
       var dirty = false;
+      var saveState = 'local';
       var apiOnline = true;
+      var ownerIdentity = '';
       var pending = null;
+      var conflictState = null;
+      var publicMaps = [];
+      var publicTotal = 0;
+      var publicOffset = 0;
+      var publicLimit = 20;
       var editingId = '';
       var formColor = D.palette[0], formIcon = D.icons[0];
       var paintId = '', paintMode = false, selectedCity = '', viewMode = 'levels';
@@ -905,18 +953,31 @@ const payload = {
         });
       }
       function uid() { return 'a' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6); }
+      function ownerIdentityToken() {
+        if (ownerIdentity) return ownerIdentity;
+        try {
+          ownerIdentity = localStorage.getItem('lap_citymap_owner') || '';
+        } catch (e) {}
+        if (!/^[a-f0-9]{32,64}$/.test(ownerIdentity)) {
+          var bytes = new Uint8Array(24);
+          crypto.getRandomValues(bytes);
+          ownerIdentity = Array.from(bytes, function (b) { return b.toString(16).padStart(2, '0'); }).join('');
+        }
+        try { localStorage.setItem('lap_citymap_owner', ownerIdentity); } catch (e) {}
+        return ownerIdentity;
+      }
       function blankMeta() {
         return {
           id: '', name: '', server: '', rev: 0,
           readMode: 'public', writeMode: 'open',
           hasReadPassword: false, hasWritePassword: false,
-          forkedFrom: '', ownerToken: '', updatedAt: 0,
+          forkedFrom: '', ownerToken: '', updatedAt: 0, actor: '',
         };
       }
       function blankDoc() {
         var stages = [];
         for (var i = 0; i < STAGES; i++) stages.push({ o: {} });
-        return { v: 2, alliances: [], stages: stages };
+        return { v: 2, actor: '', alliances: [], stages: stages };
       }
       function rampOf(v) { return Math.max(0, Math.min(1, (Number(v) - 5) / 15)); }
       function bonusFill(k, v) {
@@ -983,6 +1044,7 @@ const payload = {
       function normalizeDoc(raw) {
         var out = blankDoc();
         if (!raw || typeof raw !== 'object') return out;
+        out.actor = String(raw.actor || '').slice(0, 40);
         var arr = Array.isArray(raw.alliances) ? raw.alliances : (Array.isArray(raw.a) ? raw.a : []);
         var seen = {};
         out.alliances = arr.slice(0, 40).map(function (a, i) {
@@ -1027,17 +1089,25 @@ const payload = {
       }
       function markDirty() {
         dirty = true;
+        saveState = 'dirty';
         persistLocal();
         updateStatus();
       }
       function updateStatus() {
         var el = document.getElementById('cm-save-status');
         var text;
-        if (!current.meta.id) text = S.localDraft;
+        if (saveState === 'saving') text = S.saving;
+        else if (saveState === 'error') text = S.saveFailed;
+        else if (dirty) text = S.unsaved;
+        else if (!current.meta.id) text = S.localDraft;
         else if (!apiOnline) text = S.offlineSaved;
-        else text = S.onlineSaved;
-        el.textContent = text + (dirty ? ' •' : '');
-        el.className = 'ml-auto text-[11px] ' + (dirty ? 'text-amber-300' : 'text-stone-500');
+        else {
+          text = S.onlineSaved;
+          if (current.meta.updatedAt) text += ' · ' + new Date(current.meta.updatedAt).toLocaleTimeString(D.lang);
+        }
+        el.textContent = text;
+        el.className = 'ml-auto text-[11px] ' + (dirty || saveState === 'error'
+          ? 'text-amber-300' : saveState === 'saving' ? 'text-sky-300' : 'text-stone-500');
       }
 
       /* ---------- stage badges ---------- */
@@ -1065,6 +1135,34 @@ const payload = {
         document.getElementById('cm-stage-note').textContent = stageLabel(stage);
       }
 
+      function renderStageCompare() {
+        var from = Number(document.getElementById('cm-compare-from').value);
+        var to = Number(document.getElementById('cm-compare-to').value);
+        var a = current.doc.stages[from - 1] && current.doc.stages[from - 1].o || {};
+        var b = current.doc.stages[to - 1] && current.doc.stages[to - 1].o || {};
+        var ids = Object.keys(a);
+        Object.keys(b).forEach(function (id) { if (ids.indexOf(id) < 0) ids.push(id); });
+        var gained = [], lost = [], changed = [];
+        ids.sort().forEach(function (id) {
+          var fromOwner = a[id] || '', toOwner = b[id] || '';
+          if (fromOwner === toOwner) return;
+          var p = byId.get(id), name = p ? p.dataset.name : id;
+          if (!fromOwner && toOwner) gained.push(name);
+          else if (fromOwner && !toOwner) lost.push(name);
+          else changed.push(name);
+        });
+        var box = document.getElementById('cm-stage-compare');
+        if (!gained.length && !lost.length && !changed.length) {
+          box.innerHTML = '<p class="text-[11px] text-stone-500">' + esc(S.noChanges) + '</p>';
+          return;
+        }
+        box.innerHTML = '<div class="flex flex-wrap gap-2 text-[11px]">' +
+          '<span class="text-toxic-300">↑ ' + esc(S.gained) + ': ' + esc(gained.join(', ') || '—') + '</span>' +
+          '<span class="text-rose-300">↓ ' + esc(S.lost) + ': ' + esc(lost.join(', ') || '—') + '</span>' +
+          '<span class="text-amber-300">↔ ' + esc(S.changed) + ': ' + esc(changed.join(', ') || '—') + '</span>' +
+          '</div>';
+      }
+
       /* ---------- map manager ---------- */
       function renderMapManager() {
         var sel = document.getElementById('cm-map-select');
@@ -1084,6 +1182,7 @@ const payload = {
 
         document.getElementById('cm-map-name').value = current.meta.name || '';
         document.getElementById('cm-map-server').value = current.meta.server || '';
+        document.getElementById('cm-map-editor').value = current.meta.actor || '';
         document.getElementById('cm-read-mode').value = current.meta.readMode;
         document.getElementById('cm-write-mode').value = current.meta.writeMode;
         document.getElementById('cm-read-pw-wrap').style.display = current.meta.readMode === 'password' ? '' : 'none';
@@ -1097,6 +1196,7 @@ const payload = {
         var keyEl = document.getElementById('cm-owner-key');
         keyEl.textContent = current.meta.ownerToken || '—';
         document.getElementById('cm-copy-owner').disabled = !current.meta.ownerToken;
+        document.getElementById('cm-copy-owner-link').disabled = !current.meta.ownerToken;
         document.getElementById('cm-delete-map').disabled = !current.meta.ownerToken;
         document.getElementById('cm-fork').disabled = !current.meta.id;
         document.getElementById('cm-copy-link').disabled = !current.meta.id;
@@ -1428,7 +1528,7 @@ const payload = {
 
       function renderAll() {
         renderStageTags(); renderStages(); renderAlliances(); paintMap(); highlight();
-        renderSummary(); renderTable(); renderDetails(); applyPermissions();
+        renderSummary(); renderTable(); renderDetails(); applyPermissions(); renderStageCompare();
       }
 
       /* ---------- api ---------- */
@@ -1450,6 +1550,9 @@ const payload = {
         var b = document.getElementById('cm-save-online');
         b.disabled = on;
         b.textContent = on ? '⏳ ' + S.loading : '💾 ' + S.saveOnline;
+        if (on) saveState = 'saving';
+        else if (saveState === 'saving') saveState = dirty ? 'dirty' : 'saved';
+        updateStatus();
       }
 
       function adopt(map, ownerToken, owner) {
@@ -1459,12 +1562,14 @@ const payload = {
           readMode: map.readMode, writeMode: map.writeMode,
           hasReadPassword: !!map.hasReadPassword, hasWritePassword: !!map.hasWritePassword,
           forkedFrom: map.forkedFrom || '', ownerToken: ownerToken || '', updatedAt: map.updatedAt || 0,
+          actor: map.actor || (map.doc && map.doc.actor) || '',
         };
         current.doc = normalizeDoc(map.doc);
         isOwner = !!owner;
         readLocked = false;
         writeUnlocked = false;
         dirty = false;
+        saveState = map.id ? 'saved' : 'local';
         if (prevId !== map.id) {
           stage = (registry.maps[map.id] && registry.maps[map.id].stage) || stage;
         }
@@ -1481,6 +1586,7 @@ const payload = {
         readLocked = false;
         writeUnlocked = false;
         dirty = false;
+        saveState = current.meta.id ? 'saved' : 'local';
         if (prevId !== current.meta.id) stage = entry.stage || stage;
         renderMapManager();
         renderAll();
@@ -1492,7 +1598,7 @@ const payload = {
 
       async function openMap(id) {
         var entry = registry.maps[id];
-        var token = (entry && entry.meta.ownerToken) || '';
+        var token = (entry && entry.meta.ownerToken) || current.meta.ownerToken || '';
         var headers = token ? { 'x-map-owner': token } : {};
         if (readPassword) headers['x-map-read'] = readPassword;
         var r = await api('GET', null, '?id=' + encodeURIComponent(id), headers);
@@ -1539,13 +1645,14 @@ const payload = {
         if (!meta.id) {
           body = {
             action: 'create', name: meta.name, server: meta.server, doc: current.doc,
+            actor: meta.actor || '', ownerIdentity: ownerIdentityToken(),
             readMode: meta.readMode, writeMode: meta.writeMode,
             readPassword: readPw, writePassword: writePw,
           };
         } else {
           body = {
             action: 'save', id: meta.id, rev: meta.rev, name: meta.name, server: meta.server,
-            doc: current.doc, ownerToken: meta.ownerToken || '',
+            doc: current.doc, actor: meta.actor || '', ownerToken: meta.ownerToken || '',
             writePassword: writePassword || writePw,
             access: isOwner ? access : null,
           };
@@ -1562,7 +1669,7 @@ const payload = {
           return;
         }
         if (r.status === 409 && r.data.map) {
-          adopt(r.data.map, meta.ownerToken, isOwner);
+          showConflict(r.data.map);
           toast(S.conflictMsg);
           return;
         }
@@ -1575,14 +1682,105 @@ const payload = {
           }
           return;
         }
-        if (r.status === 0) { toast(S.apiOffline); return; }
+        if (r.status === 0) { saveState = 'error'; updateStatus(); toast(S.apiOffline); return; }
+        saveState = 'error';
+        updateStatus();
+        toast(r.data.error === 'name blocked' ? S.nameRejected : S.saveFailed);
+      }
+
+      function docDiff(local, remote) {
+        var changes = [];
+        var localDoc = local && local.stages ? local : blankDoc();
+        var remoteDoc = remote && remote.stages ? remote : blankDoc();
+        for (var s = 0; s < STAGES; s++) {
+          var a = localDoc.stages[s] && localDoc.stages[s].o || {};
+          var b = remoteDoc.stages[s] && remoteDoc.stages[s].o || {};
+          var ids = Object.keys(a);
+          Object.keys(b).forEach(function (id) { if (ids.indexOf(id) < 0) ids.push(id); });
+          ids.sort().forEach(function (id) {
+            if ((a[id] || '') !== (b[id] || '')) changes.push({ stage: s + 1, id: id, from: b[id] || '', to: a[id] || '' });
+          });
+        }
+        return changes;
+      }
+
+      function diffOwnerName(doc, id) {
+        if (!id) return '—';
+        var a = doc && doc.alliances && doc.alliances.find(function (x) { return x.id === id; });
+        return a ? (a.icon + ' ' + a.name) : id;
+      }
+
+      function renderDiff(box, changes, localDoc, remoteDoc) {
+        if (!changes.length) {
+          box.innerHTML = '<p class="text-stone-500">' + esc(S.noChanges) + '</p>';
+          return;
+        }
+        box.innerHTML = changes.slice(0, 50).map(function (c) {
+          var p = byId.get(c.id);
+          var city = p ? p.dataset.name : c.id;
+          return '<div class="border-b border-white/[0.05] py-1 last:border-0">' +
+            '<strong>' + esc(city) + '</strong> <span class="text-stone-500">· ' + esc(S.stage) + ' ' + c.stage + '</span><br>' +
+            '<span class="text-stone-500">' + esc(diffOwnerName(remoteDoc, c.from)) + '</span> → ' +
+            '<span class="text-toxic-300">' + esc(diffOwnerName(localDoc, c.to)) + '</span></div>';
+        }).join('') + (changes.length > 50 ? '<p class="mt-2 text-stone-500">+' + (changes.length - 50) + '</p>' : '');
+      }
+
+      function showConflict(serverMap) {
+        conflictState = {
+          server: serverMap,
+          localDoc: JSON.parse(JSON.stringify(current.doc)),
+          localMeta: Object.assign({}, current.meta),
+        };
+        renderDiff(document.getElementById('cm-conflict-diff'), docDiff(conflictState.localDoc, serverMap.doc), conflictState.localDoc, serverMap.doc);
+        document.getElementById('cm-conflict').classList.remove('hidden');
+      }
+
+      function hideConflict() {
+        document.getElementById('cm-conflict').classList.add('hidden');
+      }
+
+      function keepServerVersion() {
+        if (!conflictState) return;
+        adopt(conflictState.server, current.meta.ownerToken, isOwner);
+        hideConflict();
+        conflictState = null;
+      }
+
+      async function keepMineAsFork() {
+        if (!conflictState) return;
+        var local = conflictState;
+        var body = {
+          action: 'create',
+          name: (local.localMeta.name || 'City map') + ' · fork',
+          server: local.localMeta.server,
+          doc: local.localDoc,
+          actor: local.localMeta.actor || '', ownerIdentity: ownerIdentityToken(),
+          readMode: 'public',
+          writeMode: 'open',
+        };
+        setBusy(true);
+        var r = await api('POST', body);
+        setBusy(false);
+        if (r.status === 200 && r.data.ok) {
+          adopt(r.data.map, r.data.ownerToken, true);
+          hideConflict();
+          conflictState = null;
+          toast(S.forkDone);
+          loadPublicMaps(true);
+          return;
+        }
+        saveState = 'error';
+        updateStatus();
         toast(S.saveFailed);
       }
 
       async function forkCurrent() {
         if (!current.meta.id) { toast(S.saveOnline); return; }
         var headers = current.meta.ownerToken ? { 'x-map-owner': current.meta.ownerToken } : {};
-        var r = await api('POST', { action: 'fork', id: current.meta.id, readPassword: readPassword }, null, headers);
+        var r = await api('POST', {
+          action: 'fork', id: current.meta.id, readPassword: readPassword,
+          ownerIdentity: ownerIdentityToken(),
+        }, null, headers);
         if (r.status === 200 && r.data.ok) {
           adopt(r.data.map, r.data.ownerToken, true);
           toast(S.forkDone);
@@ -1609,6 +1807,7 @@ const payload = {
       function newMap(silent) {
         current = { meta: blankMeta(), doc: blankDoc() };
         isOwner = false; canEdit = true; readLocked = false; writeUnlocked = false; dirty = false;
+        saveState = 'local';
         stage = STAGES; selectedCity = ''; paintId = ''; paintMode = false;
         document.getElementById('cm-paint-mode').checked = false;
         persistLocal();
@@ -1618,28 +1817,113 @@ const payload = {
         if (!silent) toast(S.localDraft);
       }
 
-      async function loadPublicMaps() {
+      async function loadPublicMaps(reset = true) {
         var box = document.getElementById('cm-public-list');
+        var query = new URLSearchParams();
+        query.set('list', '1');
+        query.set('limit', String(publicLimit));
+        query.set('offset', String(reset ? 0 : publicOffset));
+        var q = document.getElementById('cm-public-search').value.trim();
+        var server = document.getElementById('cm-public-server').value.trim();
+        if (q) query.set('q', q);
+        if (server) query.set('server', server);
+        if (reset) {
+          publicMaps = [];
+          publicOffset = 0;
+          box.innerHTML = '<p class="text-[11px] text-stone-500">' + esc(S.loading) + '</p>';
+        }
+        var r = await api('GET', null, '?' + query.toString());
+        if (r.status !== 200) {
+          box.innerHTML = '<p class="text-[11px] text-stone-500">' + esc(S.apiOffline) + '</p>';
+          document.getElementById('cm-public-more').classList.add('hidden');
+          return;
+        }
+        var maps = r.data.maps || [];
+        publicMaps = reset ? maps : publicMaps.concat(maps);
+        publicTotal = Number(r.data.total) || publicMaps.length;
+        publicOffset = (Number(r.data.offset) || 0) + maps.length;
+        if (!publicMaps.length) {
+          box.innerHTML = '<p class="text-[11px] text-stone-500">' + esc(q || server ? S.noMatch : S.noMaps) + '</p>';
+        } else {
+          box.innerHTML = publicMaps.map(function (m) {
+            var when = m.updatedAt ? new Date(m.updatedAt).toLocaleDateString(D.lang) : '';
+            var preview = (m.preview || []).map(function (a) {
+              return '<i title="' + esc(a.icon + ' ' + a.id + ': ' + a.count) + '" style="background:' + esc(a.color) + '"></i>';
+            }).join('');
+            return '<div class="cm-map-row">' +
+              '<span class="min-w-0 flex-1 truncate text-xs text-stone-200">' + esc(m.name || m.id) +
+                (m.server ? ' <span class="text-stone-500">· ' + esc(m.server) + '</span>' : '') +
+                '<span class="ml-1 text-stone-600">· ' + Number(m.cityCount || 0) + ' / ' + Number(m.allianceCount || 0) + '</span></span>' +
+              '<span class="cm-map-preview">' + preview + '</span>' +
+              '<span class="font-mono text-[10px] text-stone-600">' + esc(when) + '</span>' +
+              '<button class="cm-btn-ghost" data-open="' + esc(m.id) + '">' + esc(S.openMap) + '</button>' +
+              '</div>';
+          }).join('');
+        }
+        var more = document.getElementById('cm-public-more');
+        more.classList.toggle('hidden', publicOffset >= publicTotal);
+      }
+
+      async function loadHistory() {
+        var box = document.getElementById('cm-history');
+        if (!current.meta.id) {
+          box.innerHTML = '<p class="text-[11px] text-stone-500">' + esc(S.noMaps) + '</p>';
+          return;
+        }
         box.innerHTML = '<p class="text-[11px] text-stone-500">' + esc(S.loading) + '</p>';
-        var r = await api('GET', null, '?list=1');
+        var headers = {};
+        if (current.meta.ownerToken) headers['x-map-owner'] = current.meta.ownerToken;
+        if (readPassword) headers['x-map-read'] = readPassword;
+        var r = await api('GET', null, '?id=' + encodeURIComponent(current.meta.id) + '&history=1', headers);
         if (r.status !== 200) {
           box.innerHTML = '<p class="text-[11px] text-stone-500">' + esc(S.apiOffline) + '</p>';
           return;
         }
-        var maps = r.data.maps || [];
-        if (!maps.length) {
+        var revisions = r.data.revisions || [];
+        if (!revisions.length) {
           box.innerHTML = '<p class="text-[11px] text-stone-500">' + esc(S.noMaps) + '</p>';
           return;
         }
-        box.innerHTML = maps.map(function (m) {
-          var when = m.updatedAt ? new Date(m.updatedAt).toLocaleDateString(D.lang) : '';
+        box.innerHTML = revisions.map(function (rev) {
+          var when = rev.createdAt ? new Date(rev.createdAt).toLocaleString(D.lang) : '';
           return '<div class="cm-map-row">' +
-            '<span class="min-w-0 flex-1 truncate text-xs text-stone-200">' + esc(m.name || m.id) +
-              (m.server ? ' <span class="text-stone-500">· ' + esc(m.server) + '</span>' : '') + '</span>' +
+            '<span class="font-mono text-[11px] text-toxic-300">v' + rev.rev + '</span>' +
+            '<span class="min-w-0 flex-1 truncate text-xs text-stone-200">' + esc(rev.actor || S.lastEditor) + '</span>' +
             '<span class="font-mono text-[10px] text-stone-600">' + esc(when) + '</span>' +
-            '<button class="cm-btn-ghost" data-open="' + esc(m.id) + '">' + esc(S.openMap) + '</button>' +
+            '<button class="cm-btn-ghost" data-history-compare="' + rev.rev + '">↔</button>' +
+            (current.meta.ownerToken ? '<button class="cm-btn-ghost" data-history-restore="' + rev.rev + '">' + esc(S.restore) + '</button>' : '') +
             '</div>';
         }).join('');
+      }
+
+      async function compareRevision(rev) {
+        var headers = {};
+        if (current.meta.ownerToken) headers['x-map-owner'] = current.meta.ownerToken;
+        if (readPassword) headers['x-map-read'] = readPassword;
+        var r = await api('GET', null, '?id=' + encodeURIComponent(current.meta.id) + '&revision=' + rev, headers);
+        if (r.status !== 200 || !r.data.revision) {
+          toast(S.saveFailed);
+          return;
+        }
+        var changes = docDiff(current.doc, r.data.revision.doc);
+        renderDiff(document.getElementById('cm-history-compare'), changes, current.doc, r.data.revision.doc);
+      }
+
+      async function restoreRevision(rev) {
+        if (!current.meta.ownerToken) { toast(S.ownerOnlyMsg); return; }
+        if (!window.confirm(S.restore + ' v' + rev + '?')) return;
+        var r = await api('POST', {
+          action: 'restore', id: current.meta.id, revision: rev, rev: current.meta.rev,
+          ownerToken: current.meta.ownerToken, actor: current.meta.actor || '',
+        });
+        if (r.status === 200 && r.data.map) {
+          adopt(r.data.map, current.meta.ownerToken, true);
+          toast(S.restore);
+          loadHistory();
+          return;
+        }
+        if (r.status === 409) { showConflict(r.data.map); return; }
+        toast(S.saveFailed);
       }
 
       function copy(text, msg) {
@@ -1652,6 +1936,10 @@ const payload = {
       function copyLink() {
         if (!current.meta.id) { toast(S.saveOnline); return; }
         copy(location.origin + location.pathname + '?map=' + current.meta.id, S.copyOk + ' · ' + S.shareHint);
+      }
+      function copyOwnerLink() {
+        if (!current.meta.id || !current.meta.ownerToken) { toast(S.ownerOnlyMsg); return; }
+        copy(location.origin + location.pathname + '?map=' + current.meta.id + '#k=' + current.meta.ownerToken, S.copyOk + ' · ' + S.ownerKey);
       }
 
       /* ---------- modal ---------- */
@@ -1702,6 +1990,7 @@ const payload = {
       document.getElementById('cm-new-map').addEventListener('click', function () { newMap(); });
       document.getElementById('cm-fork').addEventListener('click', forkCurrent);
       document.getElementById('cm-copy-link').addEventListener('click', copyLink);
+      document.getElementById('cm-copy-owner-link').addEventListener('click', copyOwnerLink);
       document.getElementById('cm-delete-map').addEventListener('click', deleteCurrent);
       document.getElementById('cm-copy-owner').addEventListener('click', function () {
         if (current.meta.ownerToken) copy(current.meta.ownerToken, S.copyOk);
@@ -1711,6 +2000,11 @@ const payload = {
       });
       document.getElementById('cm-map-server').addEventListener('input', function (e) {
         current.meta.server = e.target.value.slice(0, 40); markDirty();
+      });
+      document.getElementById('cm-map-editor').addEventListener('input', function (e) {
+        current.meta.actor = e.target.value.slice(0, 40);
+        current.doc.actor = current.meta.actor;
+        markDirty();
       });
       document.getElementById('cm-read-mode').addEventListener('change', function (e) {
         current.meta.readMode = e.target.value; markDirty();
@@ -1735,6 +2029,27 @@ const payload = {
         if (!b) return;
         openMap(b.dataset.open);
       });
+      var publicSearchTimer;
+      document.getElementById('cm-public-search').addEventListener('input', function () {
+        clearTimeout(publicSearchTimer);
+        publicSearchTimer = setTimeout(function () { loadPublicMaps(true); }, 250);
+      });
+      document.getElementById('cm-public-server').addEventListener('input', function () {
+        clearTimeout(publicSearchTimer);
+        publicSearchTimer = setTimeout(function () { loadPublicMaps(true); }, 250);
+      });
+      document.getElementById('cm-public-more').addEventListener('click', function () { loadPublicMaps(false); });
+      document.getElementById('cm-history-details').addEventListener('toggle', function (e) {
+        if (e.target.open) loadHistory();
+      });
+      document.getElementById('cm-history').addEventListener('click', function (e) {
+        var compare = e.target.closest('button[data-history-compare]');
+        if (compare) { compareRevision(Number(compare.dataset.historyCompare)); return; }
+        var restore = e.target.closest('button[data-history-restore]');
+        if (restore) restoreRevision(Number(restore.dataset.historyRestore));
+      });
+      document.getElementById('cm-conflict-server').addEventListener('click', keepServerVersion);
+      document.getElementById('cm-conflict-mine').addEventListener('click', keepMineAsFork);
       document.getElementById('cm-unlock-write').addEventListener('click', function () {
         pending = { kind: readLocked ? 'read' : 'write', id: current.meta.id };
         showModal(pending.kind);
@@ -1758,6 +2073,8 @@ const payload = {
         persistLocal();
         renderAll();
       });
+      document.getElementById('cm-compare-from').addEventListener('change', renderStageCompare);
+      document.getElementById('cm-compare-to').addEventListener('change', renderStageCompare);
       document.getElementById('cm-copy-prev').addEventListener('click', function () {
         if (!canEdit) { toast(readOnlyMessage()); return; }
         if (stage < 2) return;
@@ -1920,7 +2237,13 @@ const payload = {
         e.target.value = '';
       });
       window.addEventListener('beforeunload', function (e) {
-        if (dirty && current.meta.id) { e.preventDefault(); e.returnValue = ''; }
+        if (dirty) { e.preventDefault(); e.returnValue = ''; }
+      });
+      document.addEventListener('keydown', function (e) {
+        if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 's') {
+          e.preventDefault();
+          saveOnline();
+        }
       });
 
       /* ---------- boot ---------- */
@@ -1941,13 +2264,15 @@ const payload = {
       var params = new URLSearchParams(location.search);
       var mapId = params.get('map');
       var ownerFromHash = (location.hash.match(/#k=([a-f0-9]{32,64})/) || [])[1] || '';
-      if (ownerFromHash && mapId && registry.maps[mapId]) registry.maps[mapId].meta.ownerToken = ownerFromHash;
+      if (ownerFromHash && mapId && registry.maps[mapId]) {
+        registry.maps[mapId].meta.ownerToken = ownerFromHash;
+      }
 
       if (mapId && /^[a-z0-9]{8,16}$/.test(mapId)) {
         var cached = registry.maps[mapId];
         if (cached) adoptCached(cached);
         else {
-          current.meta = Object.assign(blankMeta(), { id: mapId, name: mapId });
+          current.meta = Object.assign(blankMeta(), { id: mapId, name: mapId, ownerToken: ownerFromHash });
           readLocked = true;
           renderMapManager(); renderAll();
         }
@@ -1967,6 +2292,7 @@ const payload = {
       }
       resetForm();
       renderAll();
+      renderStageCompare();
       loadPublicMaps();
     }
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
@@ -2062,6 +2388,8 @@ const payload = {
     border: 1px solid rgba(255,255,255,.06); border-radius: 9px;
     background: rgba(255,255,255,.025); padding: 5px 6px 5px 10px;
   }
+  #cm-app .cm-map-preview { display: inline-flex; gap: 2px; flex: none; }
+  #cm-app .cm-map-preview i { width: 7px; height: 7px; border-radius: 50%; display: inline-block; }
 
   #cm-app .cm-map-wrap {
     background: radial-gradient(circle at 50% 45%, #1b211a 0%, #0b0d0a 78%);
@@ -2178,11 +2506,13 @@ const payload = {
   }
   #cm-app .cm-toast.is-on { opacity: 1; transform: translate(-50%, 0); }
 
-  #cm-app .cm-modal {
+  #cm-app .cm-modal,
+  #cm-app .cm-conflict {
     position: fixed; inset: 0; z-index: 90; display: flex; align-items: center; justify-content: center;
     background: rgba(5,6,4,.72); backdrop-filter: blur(3px); padding: 16px;
   }
-  #cm-app .cm-modal.hidden { display: none; }
+  #cm-app .cm-modal.hidden,
+  #cm-app .cm-conflict.hidden { display: none; }
   #cm-app .cm-modal-box {
     width: 100%; max-width: 380px; border-radius: 14px; padding: 18px;
     border: 1px solid rgba(180,255,57,.22); background: #14150f;

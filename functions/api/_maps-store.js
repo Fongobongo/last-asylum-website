@@ -7,10 +7,15 @@
 //   get(id)                        -> map | null
 //   insert(map)                    -> void
 //   update(id, expectedRev, patch) -> map | null   (null = revision conflict)
-//   listPublic(limit)              -> summary rows
+//   listPublic(limit, offset, q, server) -> summary rows
 //   remove(id)                     -> void
 //   bumpAttempt(ident, now, winMs) -> failure count in the current window
 //   clearAttempts(ident)           -> void
+//   countPublic(q, server)         -> number
+//   insertRevision(revision)       -> void
+//   listRevisions(mapId, limit)     -> revision rows
+//   getRevision(mapId, rev)         -> revision row
+//   logSecurityEvent(event)        -> void
 
 const COLS = {
   name: 'name',
@@ -93,28 +98,50 @@ export function d1Store(db) {
       return this.get(id);
     },
 
-    async listPublic(limit) {
+    async listPublic(limit, offset = 0, q = '', server = '') {
+      const where = ["read_mode = 'public'"];
+      const values = [];
+      if (q) {
+        where.push('(LOWER(name) LIKE ? OR LOWER(server) LIKE ?)');
+        values.push(`%${q}%`, `%${q}%`);
+      }
+      if (server) {
+        where.push('LOWER(server) = ?');
+        values.push(server.toLowerCase());
+      }
       const res = await db
         .prepare(
-          'SELECT id, name, server, rev, forked_from, created_at, updated_at FROM city_maps ' +
-            "WHERE read_mode = 'public' ORDER BY updated_at DESC LIMIT ?"
+          'SELECT id, name, server, rev, forked_from AS forkedFrom, ' +
+            'created_at AS createdAt, updated_at AS updatedAt, doc ' +
+            'FROM city_maps WHERE ' + where.join(' AND ') +
+            ' ORDER BY updated_at DESC LIMIT ? OFFSET ?'
         )
-        .bind(limit)
+        .bind(...values, limit, offset)
         .all();
-      const rows = (res && res.results) || [];
-      return rows.map((r) => ({
-        id: r.id,
-        name: r.name,
-        server: r.server,
-        rev: r.rev,
-        forkedFrom: r.forked_from,
-        createdAt: r.created_at,
-        updatedAt: r.updated_at,
-      }));
+      return (res && res.results) || [];
+    },
+
+    async countPublic(q = '', server = '') {
+      const where = ["read_mode = 'public'"];
+      const values = [];
+      if (q) {
+        where.push('(LOWER(name) LIKE ? OR LOWER(server) LIKE ?)');
+        values.push(`%${q}%`, `%${q}%`);
+      }
+      if (server) {
+        where.push('LOWER(server) = ?');
+        values.push(server.toLowerCase());
+      }
+      const row = await db
+        .prepare('SELECT COUNT(*) AS n FROM city_maps WHERE ' + where.join(' AND '))
+        .bind(...values)
+        .first();
+      return Number((row && row.n) || 0);
     },
 
     async remove(id) {
       await db.prepare('DELETE FROM city_maps WHERE id = ?').bind(id).run();
+      await db.prepare('DELETE FROM map_revisions WHERE map_id = ?').bind(id).run();
     },
 
     async bumpAttempt(ident, now, windowMs) {
@@ -140,6 +167,56 @@ export function d1Store(db) {
 
     async clearAttempts(ident) {
       await db.prepare('DELETE FROM map_attempts WHERE ident = ?').bind(ident).run();
+    },
+
+    async insertRevision(revision) {
+      await db
+        .prepare(
+          'INSERT OR IGNORE INTO map_revisions (map_id, rev, name, server, doc, actor, created_at) ' +
+            'VALUES (?,?,?,?,?,?,?)'
+        )
+        .bind(
+          revision.mapId, revision.rev, revision.name, revision.server,
+          revision.doc, revision.actor, revision.createdAt,
+        )
+        .run();
+    },
+
+    async listRevisions(mapId, limit = 20) {
+      const res = await db
+        .prepare(
+          'SELECT map_id AS mapId, rev, name, server, doc, actor, created_at AS createdAt ' +
+            'FROM map_revisions WHERE map_id = ? ORDER BY rev DESC LIMIT ?'
+        )
+        .bind(mapId, limit)
+        .all();
+      return (res && res.results) || [];
+    },
+
+    async getRevision(mapId, rev) {
+      const row = await db
+        .prepare(
+          'SELECT map_id AS mapId, rev, name, server, doc, actor, created_at AS createdAt ' +
+            'FROM map_revisions WHERE map_id = ? AND rev = ?'
+        )
+        .bind(mapId, rev)
+        .first();
+      return row || null;
+    },
+
+    async logSecurityEvent(event) {
+      await db
+        .prepare(
+          'INSERT INTO map_security_events (map_id, ident, kind, created_at) VALUES (?,?,?,?)'
+        )
+        .bind(event.mapId, event.ident, event.kind, event.createdAt)
+        .run();
+      await db
+        .prepare(
+          'DELETE FROM map_security_events WHERE created_at < ?'
+        )
+        .bind(Date.now() - 30 * 24 * 60 * 60 * 1000)
+        .run();
     },
   };
 }

@@ -52,6 +52,14 @@ jobs:
             echo "::error::pagefind index missing — refusing to deploy"; exit 1;
           }
 
+      - name: Apply D1 schema
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        working-directory: .
+        run: site/node_modules/.bin/wrangler d1 execute last_asylum_db --remote --file=functions/schema.sql -y
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
       - name: Deploy to Cloudflare Pages
         # CI runners have 7 GB RAM; the local box OOM-kills pagefind at ~2.7 GB.
         # Prod must always deploy from this full, verified build.
@@ -64,6 +72,10 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Smoke-test map API
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: curl --fail --silent --show-error --retry 5 --retry-delay 5 --retry-all-errors 'https://lastasylum.pages.dev/api/maps?list=1'
 
       - name: Upload artifact
         if: github.event_name == 'push'
