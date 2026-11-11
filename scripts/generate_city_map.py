@@ -241,22 +241,22 @@ UI_ROWS = {
     "deleteConfirm": ["Delete this map?", "Удалить эту карту?", "¿Eliminar este mapa?", "Excluir este mapa?", "Supprimer cette carte ?", "Diese Karte löschen?", "Hapus peta ini?", "이 지도를 삭제할까요?", "このマップを削除しますか？", "حذف هذه الخريطة؟", "Eliminare questa mappa?", "Padam peta ini?", "Deze kaart verwijderen?", "ลบแผนที่นี้ใช่ไหม?", "Bu haritayı sil?", "Xóa bản đồ này?", "删除这张地图？", "Usunąć tę mapę?", "刪除這張地圖？"],
     "copyPrev": ["Copy previous stage", "Скопировать предыдущий этап", "Copiar fase anterior", "Copiar fase anterior", "Copier la phase précédente", "Vorherige Phase kopieren", "Salin tahap sebelumnya", "이전 단계 복사", "前の段階をコピー", "نسخ المرحلة السابقة", "Copia fase precedente", "Salin peringkat sebelumnya", "Vorige fase kopiëren", "คัดลอกด่านก่อนหน้า", "Önceki aşamayı kopyala", "Sao chép giai đoạn trước", "复制上一阶段", "Kopiuj poprzedni etap", "複製上一階段"],
     "publicMaps": ["Public maps", "Публичные карты", "Mapas públicos", "Mapas públicos", "Cartes publiques", "Öffentliche Karten", "Peta publik", "공개 지도", "公開マップ", "الخرائط العامة", "Mappe pubbliche", "Peta awam", "Openbare kaarten", "แผนที่สาธารณะ", "Herkese açık haritalar", "Bản đồ công khai", "公开地图", "Mapy publiczne", "公開地圖"],
-    "unsaved": ["Unsaved changes", "Есть несохранённые изменения"],
-    "saving": ["Saving…", "Сохранение…"],
-    "ownerLink": ["Copy owner link", "Копировать ссылку владельца"],
-    "editor": ["Editor name", "Имя редактора"],
-    "history": ["History", "История"],
-    "restore": ["Restore", "Восстановить"],
-    "compareStages": ["Compare stages", "Сравнить этапы"],
-    "keepServer": ["Keep server version", "Оставить серверную"],
-    "keepMine": ["Keep mine as fork", "Оставить мою как форк"],
-    "showMore": ["Show more", "Показать ещё"],
-    "changed": ["Changed", "Изменено"],
-    "gained": ["Gained", "Получено"],
-    "lost": ["Lost", "Потеряно"],
-    "noChanges": ["No changes", "Изменений нет"],
-    "nameRejected": ["Name rejected by moderation", "Название отклонено модерацией"],
-    "lastEditor": ["Last editor", "Последний редактор"],
+    "unsaved": ["Unsaved changes", "Есть несохранённые изменения", "Cambios sin guardar", "Alterações não salvas", "Modifications non enregistrées", "Nicht gespeicherte Änderungen", "Perubahan belum disimpan", "저장되지 않은 변경 사항", "未保存の変更", "تغييرات غير محفوظة", "Modifiche non salvate", "Perubahan belum disimpan", "Niet-opgeslagen wijzigingen", "การเปลี่ยนแปลงที่ยังไม่บันทึก", "Kaydedilmemiş değişiklikler", "Thay đổi chưa lưu", "未保存的更改", "Niezapisane zmiany", "未儲存的變更"],
+    "saving": ["Saving…", "Сохранение…", "Guardando…", "Salvando…", "Enregistrement…", "Speichern…", "Menyimpan…", "저장 중…", "保存中…", "جارٍ الحفظ…", "Salvataggio…", "Menyimpan…", "Opslaan…", "กำลังบันทึก…", "Kaydediliyor…", "Đang lưu…", "正在保存…", "Zapisywanie…", "正在儲存…"],
+    "ownerLink": ["Copy owner link", "Копировать ссылку владельца", "Copiar enlace del propietario", "Copiar link do proprietário", "Copier le lien du propriétaire", "Besitzerlink kopieren", "Salin tautan pemilik", "소유자 링크 복사", "所有者のリンクをコピー", "نسخ رابط المالك", "Copia link del proprietario", "Salin pautan pemilik", "Link van eigenaar kopiëren", "คัดลอกลิงก์เจ้าของ", "Sahip bağlantısını kopyala", "Sao chép liên kết chủ sở hữu", "复制所有者链接", "Kopiuj link właściciela", "複製擁有者連結"],
+    "editor": ["Editor name", "Имя редактора", "Nombre del editor", "Nome do editor", "Nom de l’éditeur", "Name des Bearbeiters", "Nama editor", "편집자 이름", "編集者名", "اسم المحرر", "Nome dell’editor", "Nama editor", "Naam van editor", "ชื่อผู้แก้ไข", "Düzenleyen adı", "Tên người chỉnh sửa", "编辑者名称", "Nazwa edytora", "編輯者名稱"],
+    "history": ["History", "История", "Historial", "Histórico", "Historique", "Verlauf", "Riwayat", "기록", "履歴", "السجل", "Cronologia", "Sejarah", "Geschiedenis", "ประวัติ", "Geçmiş", "Lịch sử", "历史记录", "Historia", "歷史記錄"],
+    "restore": ["Restore", "Восстановить", "Restaurar", "Restaurar", "Restaurer", "Wiederherstellen", "Pulihkan", "복원", "復元", "استعادة", "Ripristina", "Pulihkan", "Herstellen", "กู้คืน", "Geri yükle", "Khôi phục", "恢复", "Przywróć", "還原"],
+    "compareStages": ["Compare stages", "Сравнить этапы", "Comparar etapas", "Comparar etapas", "Comparer les étapes", "Phasen vergleichen", "Bandingkan tahap", "단계 비교", "段階を比較", "مقارنة المراحل", "Confronta le fasi", "Bandingkan peringkat", "Fasen vergelijken", "เปรียบเทียบด่าน", "Aşamaları karşılaştır", "So sánh các giai đoạn", "比较阶段", "Porównaj etapy", "比較階段"],
+    "keepServer": ["Keep server version", "Оставить серверную версию", "Conservar versión del servidor", "Manter versão do servidor", "Conserver la version du serveur", "Serverversion behalten", "Pertahankan versi server", "서버 버전 유지", "サーバー版を保持", "الاحتفاظ بنسخة الخادم", "Mantieni la versione del server", "Kekalkan versi pelayan", "Serverversie behouden", "คงเวอร์ชันเซิร์ฟเวอร์", "Sunucu sürümünü koru", "Giữ phiên bản máy chủ", "保留服务器版本", "Zachowaj wersję serwera", "保留伺服器版本"],
+    "keepMine": ["Keep mine as fork", "Оставить мою как форк", "Conservar la mía como variante", "Manter a minha como variante", "Conserver la mienne comme variante", "Meine als Fork behalten", "Pertahankan versi saya sebagai cabang", "내 버전을 포크로 유지", "自分の版をフォークとして保持", "الاحتفاظ بنسختي كنسخة مشتقة", "Mantieni la mia come fork", "Kekalkan milik saya sebagai cabang", "Mijn versie als fork behouden", "เก็บเวอร์ชันของฉันไว้เป็นฟอร์ก", "Kendiminkini çatalla olarak koru", "Giữ bản của tôi làm nhánh", "将我的版本保留为分叉", "Zachowaj moją jako wariant", "將我的版本保留為分支"],
+    "showMore": ["Show more", "Показать ещё", "Mostrar más", "Mostrar mais", "Afficher plus", "Mehr anzeigen", "Tampilkan lebih banyak", "더 보기", "もっと見る", "عرض المزيد", "Mostra altro", "Tunjukkan lagi", "Meer weergeven", "แสดงเพิ่มเติม", "Daha fazla göster", "Xem thêm", "显示更多", "Pokaż więcej", "顯示更多"],
+    "changed": ["Changed", "Изменено", "Cambiado", "Alterado", "Modifié", "Geändert", "Berubah", "변경됨", "変更", "مُعدّل", "Modificato", "Diubah", "Gewijzigd", "เปลี่ยนแปลง", "Değişti", "Đã thay đổi", "已更改", "Zmieniono", "已變更"],
+    "gained": ["Gained", "Получено", "Ganado", "Ganho", "Gagné", "Gewonnen", "Diperoleh", "획득", "獲得", "مكتسب", "Acquisito", "Diperoleh", "Verworven", "ได้รับ", "Kazanıldı", "Đã nhận", "已获得", "Zyskano", "已獲得"],
+    "lost": ["Lost", "Потеряно", "Perdido", "Perdido", "Perdu", "Verloren", "Hilang", "손실됨", "喪失", "مفقود", "Perso", "Hilang", "Verloren", "สูญเสีย", "Kaybedildi", "Đã mất", "已失去", "Utracono", "已遺失"],
+    "noChanges": ["No changes", "Изменений нет", "Sin cambios", "Sem alterações", "Aucun changement", "Keine Änderungen", "Tidak ada perubahan", "변경 사항 없음", "変更なし", "لا توجد تغييرات", "Nessuna modifica", "Tiada perubahan", "Geen wijzigingen", "ไม่มีการเปลี่ยนแปลง", "Değişiklik yok", "Không có thay đổi", "无更改", "Brak zmian", "無變更"],
+    "nameRejected": ["Name rejected by moderation", "Название отклонено модерацией", "Nombre rechazado por moderación", "Nome rejeitado pela moderação", "Nom refusé par la modération", "Name durch Moderation abgelehnt", "Nama ditolak oleh moderasi", "검토로 거부된 이름", "モデレーションにより名前が拒否されました", "رُفض الاسم بواسطة الإشراف", "Nome rifiutato dalla moderazione", "Nama ditolak oleh moderasi", "Naam geweigerd door moderatie", "ชื่อถูกปฏิเสธโดยผู้ดูแล", "Moderasyon nedeniyle ad reddedildi", "Tên bị từ chối do kiểm duyệt", "名称被审核拒绝", "Nazwa odrzucona przez moderację", "名稱被審核拒絕"],
+    "lastEditor": ["Last editor", "Последний редактор", "Último editor", "Último editor", "Dernier éditeur", "Letzter Bearbeiter", "Editor terakhir", "마지막 편집자", "最終編集者", "آخر محرر", "Ultimo editor", "Editor terakhir", "Laatste editor", "ผู้แก้ไขล่าสุด", "Son düzenleyen", "Người chỉnh sửa gần nhất", "最后编辑者", "Ostatni edytor", "最後編輯者"],
     "noMaps": ["No saved maps yet", "Сохранённых карт пока нет", "Aún no hay mapas", "Nenhum mapa salvo", "Aucune carte enregistrée", "Noch keine Karten", "Belum ada peta", "저장된 지도 없음", "保存済みマップなし", "لا توجد خرائط محفوظة", "Nessuna mappa salvata", "Tiada peta disimpan", "Nog geen kaarten", "ยังไม่มีแผนที่", "Kayıtlı harita yok", "Chưa có bản đồ nào", "还没有保存的地图", "Brak zapisanych map", "還沒有儲存的地圖"],
     "enterPassword": ["Enter password", "Введите пароль", "Introduce la contraseña", "Digite a senha", "Saisissez le mot de passe", "Passwort eingeben", "Masukkan kata sandi", "비밀번호 입력", "パスワードを入力", "أدخل كلمة المرور", "Inserisci la password", "Masukkan kata laluan", "Voer wachtwoord in", "ใส่รหัสผ่าน", "Şifre girin", "Nhập mật khẩu", "输入密码", "Wpisz hasło", "輸入密碼"],
     "badPassword": ["Wrong password", "Неверный пароль", "Contraseña incorrecta", "Senha incorreta", "Mot de passe incorrect", "Falsches Passwort", "Kata sandi salah", "비밀번호 오류", "パスワードが違います", "كلمة مرور خاطئة", "Password errata", "Kata laluan salah", "Onjuist wachtwoord", "รหัสผ่านผิด", "Yanlış şifre", "Sai mật khẩu", "密码错误", "Błędne hasło", "密碼錯誤"],
@@ -557,11 +557,11 @@ def main():
             }
         )
     # ---- emit --------------------------------------------------------------
+    for key, vals in UI_ROWS.items():
+        if len(vals) != len(LANGS):
+            raise SystemExit("%s has %d translations; expected %d" % (key, len(vals), len(LANGS)))
     ui = {
-        lang: {
-            key: vals[LANGS.index(lang)] if LANGS.index(lang) < len(vals) else vals[0]
-            for key, vals in UI_ROWS.items()
-        }
+        lang: {key: vals[LANGS.index(lang)] for key, vals in UI_ROWS.items()}
         for lang in LANGS
     }
     lines = []
