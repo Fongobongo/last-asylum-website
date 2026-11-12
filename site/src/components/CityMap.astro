@@ -2478,16 +2478,23 @@ const payload = {
   #cm-svg:active { cursor: grabbing; }
   /* Territory fills have NO stroke. A single #cm-borders path (built from
      the straightened geometry) draws every shared line exactly once, so a
-     border is one sharp straight line instead of two blurry parallel ones. */
+     border is one sharp straight line instead of two blurry parallel ones.
+     The stroke is measured in SCREEN pixels: a 1.7 user-unit stroke scaled
+     by the viewBox (~0.73) became ~1.24px, and crispEdges snapped that to
+     either 1 or 2 device pixels depending on the line's position - so
+     neighbouring cities looked like they had different border thickness.
+     non-scaling-stroke + antialiasing keeps every line at a constant 2px,
+     including while zooming. */
   #cm-app .cm-poly {
     stroke: none; stroke-linejoin: miter;
     cursor: pointer; transition: opacity .18s, fill .18s;
     outline: none;
   }
   #cm-borders {
-    fill: none; stroke: #090c07; stroke-width: 1.7;
+    fill: none; stroke: #090c07; stroke-width: 2;
+    vector-effect: non-scaling-stroke;
     stroke-linecap: square; stroke-linejoin: miter;
-    shape-rendering: crispEdges;
+    shape-rendering: geometricPrecision;
   }
   #cm-app .cm-poly:hover { filter: brightness(1.22); }
   #cm-app .cm-poly:focus-visible { stroke: #fff; stroke-width: 4; }
