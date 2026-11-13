@@ -40,6 +40,36 @@ function persist() {
   return writing;
 }
 
+// Mirror the aggregate columns that the production D1 query computes, so the
+// local preview (and the API test suite) exercise the SAME mapSummary branch
+// as production instead of the raw-row fallback.
+function summarize(row) {
+  let doc = {};
+  try { doc = JSON.parse(row.doc); } catch { doc = {}; }
+  const owners = doc.stages && doc.stages[6] && doc.stages[6].o ? doc.stages[6].o : {};
+  const alliances = Array.isArray(doc.alliances) ? doc.alliances : [];
+  const counts = new Map();
+  for (const owner of Object.values(owners)) counts.set(owner, (counts.get(owner) || 0) + 1);
+  const preview = alliances
+    .map((a) => ({ id: a.id, color: a.color, icon: a.icon, count: counts.get(a.id) || 0 }))
+    .filter((a) => a.count > 0)
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 12);
+  return {
+    id: row.id,
+    name: row.name,
+    server: row.server,
+    rev: row.rev,
+    forkedFrom: row.forkedFrom,
+    createdAt: row.createdAt,
+    updatedAt: row.updatedAt,
+    actor: doc.actor || '',
+    cityCount: Object.keys(owners).length,
+    allianceCount: alliances.length,
+    preview,
+  };
+}
+
 export function devStore(options = {}) {
   // A fresh store is isolated from the preview file, so API tests cannot
   // replace the developer's local maps.
@@ -116,7 +146,7 @@ export function devStore(options = {}) {
         .filter((m) => !server || (m.server || '').toLowerCase() === server.toLowerCase())
         .sort((a, b) => b.updatedAt - a.updatedAt)
         .slice(offset, offset + limit)
-        .map((m) => ({ ...m }));
+        .map(summarize);
     },
 
     async countPublic(q = '', server = '') {

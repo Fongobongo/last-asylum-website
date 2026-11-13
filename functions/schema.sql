@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS city_maps (
   server TEXT NOT NULL DEFAULT '',
   owner_hash TEXT NOT NULL,
   read_mode TEXT NOT NULL DEFAULT 'public',
-  write_mode TEXT NOT NULL DEFAULT 'open',
+  write_mode TEXT NOT NULL DEFAULT 'owner',
   read_salt TEXT NOT NULL DEFAULT '',
   read_hash TEXT NOT NULL DEFAULT '',
   write_salt TEXT NOT NULL DEFAULT '',
@@ -51,6 +51,27 @@ CREATE TABLE IF NOT EXISTS city_maps (
 );
 
 CREATE INDEX IF NOT EXISTS idx_city_maps_updated ON city_maps(updated_at DESC);
+-- The public gallery filters on read_mode and sorts by updated_at; without
+-- this composite index D1 scans every map for each page of the list.
+CREATE INDEX IF NOT EXISTS idx_city_maps_public_updated
+  ON city_maps(read_mode, updated_at DESC);
+
+-- One-time data migration: maps created before 2026-11-12 inherited 'open' as
+-- their write_mode default, so anyone who saw their id in the public gallery
+-- could overwrite the plan. 'open' is now an explicit opt-in; convert those
+-- legacy rows to 'owner'. The marker makes this idempotent and guarantees a
+-- map deliberately switched to 'open' AFTER this deploy is never reset later.
+CREATE TABLE IF NOT EXISTS schema_migrations (
+  name TEXT PRIMARY KEY,
+  applied_at INTEGER NOT NULL
+);
+UPDATE city_maps SET write_mode = 'owner'
+WHERE write_mode = 'open'
+  AND NOT EXISTS (
+    SELECT 1 FROM schema_migrations WHERE name = '20261112_write_mode_owner'
+  );
+INSERT OR IGNORE INTO schema_migrations(name, applied_at)
+VALUES ('20261112_write_mode_owner', CAST(strftime('%s','now') AS INTEGER) * 1000);
 
 -- map_revisions: immutable snapshots for map history, comparison and restore.
 CREATE TABLE IF NOT EXISTS map_revisions (
@@ -72,6 +93,10 @@ CREATE TABLE IF NOT EXISTS map_attempts (
   count INTEGER NOT NULL DEFAULT 0,
   window_start INTEGER NOT NULL
 );
+
+-- Attempt rows are pruned by window_start (see bumpAttempt in _maps-store.js).
+-- Must stay AFTER the table above, otherwise a fresh database fails to apply.
+CREATE INDEX IF NOT EXISTS idx_map_attempts_window ON map_attempts(window_start);
 
 -- map_security_events: audit trail of failed password attempts (ident is hashed).
 CREATE TABLE IF NOT EXISTS map_security_events (

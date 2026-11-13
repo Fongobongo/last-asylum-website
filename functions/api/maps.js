@@ -8,9 +8,9 @@
 //   readMode  'public'   anyone with the link
 //             'password' needs the view password
 //             'owner'    only the owner token
-//   writeMode 'open'     anyone with the link
+//   writeMode 'open'     anyone with the link (explicit opt-in only)
 //             'password' needs the edit password
-//             'owner'    only the owner token
+//             'owner'    only the owner token (default for new maps/forks)
 // The owner token is returned exactly once, on create/fork, and is stored
 // hashed. Passwords use PBKDF2-SHA256 (legacy salted SHA-256 remains readable);
 // raw passwords never leave the request.
@@ -23,7 +23,11 @@
 //   POST /api/maps               { action: create|save|fork|delete|unlock|restore }
 import { d1Store } from './_maps-store.js';
 import { json } from './_store.js';
+import { CITY_IDS } from './_city-ids.js';
 
+// Hard cap on the raw request body, checked BEFORE parsing. MAX_DOC alone was
+// not enough: a huge JSON blob was fully materialised in memory first.
+const MAX_BODY = 256 * 1024;
 const MAX_DOC = 200000;
 const MAX_NAME = 80;
 const MAX_SERVER = 40;
@@ -36,7 +40,6 @@ const CREATE_WINDOW_MS = 60 * 60 * 1000;
 const MAX_TRIES = 8;
 const MAX_GLOBAL_TRIES = 30;
 const MAX_CREATES = 10;
-const MAX_OWNER_CREATES = 8;
 const PBKDF2_ITERATIONS = 100000;
 const READ_MODES = new Set(['public', 'password', 'owner']);
 const WRITE_MODES = new Set(['open', 'password', 'owner']);
@@ -84,12 +87,34 @@ function newId() {
 }
 
 function ipOf(req) {
-  return (
-    req.headers.get('cf-connecting-ip') ||
-    req.headers.get('x-forwarded-for') ||
-    req.headers.get('x-real-ip') ||
-    'local'
-  );
+  // cf-connecting-ip is set by the Cloudflare edge and cannot be forged by a
+  // client. x-forwarded-for / x-real-ip are just request headers outside CF,
+  // so trusting them let an attacker rotate the throttle identity at will.
+  return req.headers.get('cf-connecting-ip') || 'local';
+}
+
+/** Constant-time comparison for hashes/tokens (all fixed-length hex strings). */
+function safeEqual(a, b) {
+  if (typeof a !== 'string' || typeof b !== 'string' || a.length !== b.length) return false;
+  let diff = 0;
+  for (let i = 0; i < a.length; i++) diff |= a.charCodeAt(i) ^ b.charCodeAt(i);
+  return diff === 0;
+}
+
+/** Block browser-driven cross-site writes. Non-browser clients send no Origin
+ *  header and are unaffected; a real browser always sends one on POST. */
+function sameOrigin(req, env) {
+  if (req.headers.get('sec-fetch-site') === 'cross-site') return false;
+  const origin = req.headers.get('origin');
+  if (!origin) return true;
+  let parsed;
+  try { parsed = new URL(origin).origin; } catch { return false; }
+  const allowed = new Set([new URL(req.url).origin, 'https://lastasylum.pages.dev']);
+  const configured = env && env.SITE_URL;
+  if (typeof configured === 'string' && configured.trim()) {
+    try { allowed.add(new URL(configured.trim()).origin); } catch { /* ignore */ }
+  }
+  return allowed.has(parsed);
 }
 
 function str(v, max) {
@@ -129,11 +154,14 @@ function sanitizeDoc(raw) {
   for (let i = 0; i < STAGES; i++) {
     const src = Array.isArray(raw.stages) ? raw.stages[i] : null;
     const owners = src && src.o && typeof src.o === 'object' ? src.o : {};
-    const clean = {};
+    // City ids come from the generated geometry. The old /^C\d{2}$/ pattern
+    // only matched test fixtures, so every real ownership assignment ("1001",
+    // "7001", ...) was silently dropped and shared maps came back empty.
+    const clean = Object.create(null);
     let n = 0;
     for (const city of Object.keys(owners)) {
-      if (n >= 200) break;
-      if (!/^C\d{2}$/.test(city)) continue;
+      if (n >= CITY_IDS.size) break;
+      if (!CITY_IDS.has(city)) continue;
       const owner = owners[city];
       if (typeof owner !== 'string' || !seen.has(owner)) continue;
       clean[city] = owner;
@@ -174,7 +202,6 @@ function mapSummary(row) {
       id: row.id,
       name: row.name,
       server: row.server,
-      rev: row.rev,
       forkedFrom: row.forkedFrom,
       createdAt: row.createdAt,
       updatedAt: row.updatedAt,
@@ -186,10 +213,12 @@ function mapSummary(row) {
   }
 
   return {
+    // Public gallery entries deliberately omit `rev`: it is an internal CAS
+    // token and advertising it makes drive-by overwrites easier. The full
+    // GET /api/maps?id=... still returns it for legitimate editors.
     id: row.id,
     name: row.name,
     server: row.server,
-    rev: row.rev,
     forkedFrom: row.forkedFrom,
     createdAt: row.createdAt,
     updatedAt: row.updatedAt,
@@ -236,7 +265,7 @@ function toClient(row) {
 
 async function isOwner(row, token) {
   if (!token || !TOKEN_RE.test(token) || !row.ownerHash) return false;
-  return (await sha256(token)) === row.ownerHash;
+  return safeEqual(await sha256(token), row.ownerHash);
 }
 
 async function verifyPassword(password, salt, stored) {
@@ -245,11 +274,11 @@ async function verifyPassword(password, salt, stored) {
   if (parts[0] === 'pbkdf2') {
     const iterations = Number(parts[1]);
     if (!Number.isInteger(iterations) || iterations < 10000 || iterations > 1000000) return false;
-    return (await pbkdf2(password, parts[2] || salt, iterations)) === parts[3];
+    return safeEqual(await pbkdf2(password, parts[2] || salt, iterations), parts[3]);
   }
   // Legacy salted SHA-256 hashes remain valid; the next password change
   // upgrades them to PBKDF2 automatically.
-  return (await sha256(salt + ':' + password)) === stored;
+  return safeEqual(await sha256(salt + ':' + password), stored);
 }
 
 async function readAllowed(row, req, readPassword) {
@@ -264,6 +293,9 @@ async function readAllowed(row, req, readPassword) {
 
 async function writeAllowed(row, req, body) {
   if (await isOwner(row, body.ownerToken || req.headers.get('x-map-owner') || '')) return true;
+  // 'open' is now an explicit opt-in (new maps default to 'owner'). Such maps
+  // are intentionally collaborative; saveMap still forbids anonymous writers
+  // from renaming the map or changing its access settings.
   if (row.writeMode === 'open') return true;
   if (row.writeMode === 'password') {
     const pw = body.writePassword || req.headers.get('x-map-write') || '';
@@ -282,17 +314,13 @@ async function tooMany(store, ident, limit = MAX_TRIES, windowMs = WINDOW_MS) {
   return n > limit;
 }
 
-async function enforceCreateQuota(req, store, ownerIdentity) {
+async function enforceCreateQuota(req, store) {
+  // Quota identity is derived entirely from the request, never from a
+  // client-supplied "ownerIdentity" token: rotating a localStorage value used
+  // to sidestep the per-owner limit, so it was not a real security boundary.
   const createIdent = await throttleIdent(req, 'create');
   const createCount = await store.bumpAttempt(createIdent, Date.now(), CREATE_WINDOW_MS);
-  if (createCount > MAX_CREATES) return 'too many maps created';
-
-  if (typeof ownerIdentity === 'string' && /^[a-f0-9]{32,64}$/.test(ownerIdentity)) {
-    const ownerIdent = await sha256('owner:' + ownerIdentity);
-    const ownerCount = await store.bumpAttempt(ownerIdent, Date.now(), CREATE_WINDOW_MS);
-    if (ownerCount > MAX_OWNER_CREATES) return 'map quota reached';
-  }
-  return '';
+  return createCount > MAX_CREATES ? 'too many maps created' : '';
 }
 
 async function auditPasswordFailure(req, store, id, kind) {
@@ -322,7 +350,10 @@ export async function onRequest(context) {
 
   try {
     if (req.method === 'GET') return await handleGet(req, store);
-    if (req.method === 'POST') return await handlePost(req, store);
+    if (req.method === 'POST') {
+      if (!sameOrigin(req, env)) return json(403, { error: 'bad origin' });
+      return await handlePost(req, store);
+    }
     return json(405, { error: 'method not allowed' });
   } catch (e) {
     console.error(e);
@@ -360,8 +391,9 @@ async function handleGet(req, store) {
   const row = await store.get(id);
   if (!row) return json(404, { error: 'not found' });
 
-  const pw = url.searchParams.get('rp') || '';
-  const allowed = await readAllowed(row, req, pw);
+  // Passwords/tokens travel in headers only. Keeping them in ?rp= / ?ok=
+  // leaked them into access logs, browser history and Referer headers.
+  const allowed = await readAllowed(row, req, '');
   if (!allowed) {
     const locked = row.readMode === 'owner' ? 'owner-only' : 'read-locked';
     if (row.readMode === 'password' && await auditPasswordFailure(req, store, id, 'read')) {
@@ -381,7 +413,7 @@ async function handleGet(req, store) {
     return json(200, { revisions: revisions.map(revisionSummary) });
   }
 
-  const owner = await isOwner(row, req.headers.get('x-map-owner') || url.searchParams.get('ok') || '');
+  const owner = await isOwner(row, req.headers.get('x-map-owner') || '');
   return json(200, {
     map: toClient(row),
     isOwner: owner,
@@ -390,9 +422,20 @@ async function handleGet(req, store) {
 }
 
 async function handlePost(req, store) {
+  const declared = Number(req.headers.get('content-length'));
+  if (Number.isFinite(declared) && declared > MAX_BODY) {
+    return json(413, { error: 'payload too large' });
+  }
+  const raw = await req.text();
+  // raw.length counts UTF-16 code units; a body full of multibyte characters
+  // could be ~3x the byte budget. Check both, cheap first.
+  if (raw.length > MAX_BODY) return json(413, { error: 'payload too large' });
+  if (new TextEncoder().encode(raw).byteLength > MAX_BODY) {
+    return json(413, { error: 'payload too large' });
+  }
   let body;
   try {
-    body = await req.json();
+    body = JSON.parse(raw);
   } catch {
     return json(400, { error: 'bad json' });
   }
@@ -416,7 +459,10 @@ async function createMap(req, store, body) {
   const server = cleanDisplayText(body.server, MAX_SERVER);
   if (blockedName(name) || blockedName(server)) return json(400, { error: 'name blocked' });
   const readMode = READ_MODES.has(body.readMode) ? body.readMode : 'public';
-  const writeMode = WRITE_MODES.has(body.writeMode) ? body.writeMode : 'open';
+  // A public map must not be writable by every anonymous visitor by default:
+  // the gallery hands out ids, so "open" made drive-by vandalism trivial.
+  // Collaborative editing stays available as an explicit, conscious choice.
+  const writeMode = WRITE_MODES.has(body.writeMode) ? body.writeMode : 'owner';
 
   if (readMode === 'password' && badPassword(body.readPassword)) {
     return json(400, { error: 'bad read password' });
@@ -425,7 +471,7 @@ async function createMap(req, store, body) {
     return json(400, { error: 'bad write password' });
   }
 
-  const quotaError = await enforceCreateQuota(req, store, body.ownerIdentity);
+  const quotaError = await enforceCreateQuota(req, store);
   if (quotaError) return json(429, { error: quotaError });
 
   const id = newId();
@@ -484,12 +530,17 @@ async function saveMap(req, store, body) {
   const expectedRev = Number(body.rev);
   if (!Number.isInteger(expectedRev) || expectedRev < 1) return json(400, { error: 'bad rev' });
 
+  // Resolve ownership once, before any patch is built. Only the owner may
+  // rename/retag a map or change its access rules; an anonymous editor of an
+  // explicitly "open" map may still update the plan itself.
+  const owner = await isOwner(row, body.ownerToken || req.headers.get('x-map-owner') || '');
+
   const patch = { rev: expectedRev + 1, updatedAt: Date.now() };
-  if (typeof body.name === 'string') {
+  if (owner && typeof body.name === 'string') {
     patch.name = cleanDisplayText(body.name, MAX_NAME) || row.name;
     if (blockedName(patch.name)) return json(400, { error: 'name blocked' });
   }
-  if (typeof body.server === 'string') {
+  if (owner && typeof body.server === 'string') {
     patch.server = cleanDisplayText(body.server, MAX_SERVER);
     if (blockedName(patch.server)) return json(400, { error: 'name blocked' });
   }
@@ -504,7 +555,6 @@ async function saveMap(req, store, body) {
 
   // Access settings are owner-only: a shared editor link must not be able to
   // lift the password that protects it.
-  const owner = await isOwner(row, body.ownerToken || req.headers.get('x-map-owner') || '');
   if (owner && body.access && typeof body.access === 'object') {
     const access = body.access;
     if (READ_MODES.has(access.readMode)) patch.readMode = access.readMode;
@@ -570,10 +620,12 @@ async function forkMap(req, store, body) {
     return json(401, { error: src.readMode === 'owner' ? 'owner-only' : 'read-locked' });
   }
 
-  const doc = sanitizeDoc(JSON.parse(src.doc));
+  // parseDoc() tolerates a corrupted stored document; a bare JSON.parse here
+  // used to throw and turn every fork of such a map into a 500.
+  const doc = sanitizeDoc(parseDoc(src));
   if (!doc) return json(400, { error: 'bad doc' });
 
-  const quotaError = await enforceCreateQuota(req, store, body.ownerIdentity);
+  const quotaError = await enforceCreateQuota(req, store);
   if (quotaError) return json(429, { error: quotaError });
 
   const newMapId = newId();
@@ -589,7 +641,7 @@ async function forkMap(req, store, body) {
     server: src.server,
     ownerHash: await sha256(ownerToken),
     readMode: 'public',
-    writeMode: 'open',
+    writeMode: 'owner',
     readSalt: '',
     readHash: '',
     writeSalt: '',
@@ -647,7 +699,12 @@ async function unlock(req, store, body) {
   }
 
   if (!ok) {
-    if (await auditPasswordFailure(req, store, id, kind)) {
+    // A wrong guess against a public/open map is not a brute-force attempt:
+    // counting it poisoned the global throttle for every other visitor.
+    const guarded = kind === 'write'
+      ? (row.writeMode === 'password' || row.writeMode === 'owner')
+      : (row.readMode === 'password' || row.readMode === 'owner');
+    if (guarded && await auditPasswordFailure(req, store, id, kind)) {
       return json(429, { error: 'too many attempts' });
     }
     return json(401, { error: kind === 'write' ? 'bad-write-password' : 'bad-read-password' });

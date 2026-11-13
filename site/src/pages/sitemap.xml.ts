@@ -74,9 +74,12 @@ export const GET: APIRoute = async ({ site }) => {
         lang: l,
         href: l === 'en' ? `${base}/${p}` : `${base}/${l}/${p}`,
       }));
+    // hreflang must be reciprocal: every localized URL has to list the whole
+    // alternate set, not just the English canonical. Otherwise search engines
+    // ignore the annotations and may index the wrong language version.
     push(`${base}/${p}`, undefined, alternates);
     for (const l of languages.filter((x) => x !== 'en')) {
-      push(`${base}/${l}/${p}`);
+      push(`${base}/${l}/${p}`, undefined, alternates);
     }
   }
 
@@ -108,7 +111,7 @@ export const GET: APIRoute = async ({ site }) => {
     for (const v of variants) {
       if (v.lang === 'en') continue;
       if (!hasEn && v.lang === langs[0]) continue; // already pushed as canonical
-      push(`${base}/${v.lang}/${slug}/`, v.updated ?? lastmod);
+      push(`${base}/${v.lang}/${slug}/`, v.updated ?? lastmod, alternates);
     }
   }
 

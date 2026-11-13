@@ -46,6 +46,9 @@ GEOMETRY = os.path.join(ROOT, "scripts", "city_map_geometry.json")
 GAME_DATA = os.path.join(ROOT, "scripts", "game_city_data.json")
 TERMS = os.path.join(ROOT, "game_terms.json")
 OUT = os.path.join(ROOT, "site", "src", "data", "cityMap.ts")
+# The API needs the exact same city ids to validate shared maps. It cannot
+# import the .ts file, so the generator emits a tiny plain-JS whitelist too.
+OUT_CITY_IDS = os.path.join(ROOT, "functions", "api", "_city-ids.js")
 
 LANGS = [
     "en", "ru", "es", "pt", "fr", "de", "id", "ko", "ja", "ar",
@@ -137,10 +140,14 @@ SHORT = {
 }
 
 # Generic city names (game_terms.json has garbage values for Arabic here).
-GENERIC_EN = {1: "Lv.1 City", 2: "Lv.2 City", 3: "Lv.3 City", 4: "Lv.4 City", 5: "Lv.5 City", 6: "Lv.6 City"}
+GENERIC_EN = {
+    1: "Lv.1 City", 2: "Lv.2 City", 3: "Lv.3 City", 4: "Lv.4 City",
+    5: "Lv.5 City", 6: "Lv.6 City", 7: "Lv.7 City",
+}
 GENERIC_AR = {
     1: "مدينة المستوى 1", 2: "مدينة المستوى 2", 3: "مدينة المستوى 3",
     4: "مدينة المستوى 4", 5: "مدينة المستوى 5", 6: "مدينة المستوى 6",
+    7: "مدينة المستوى 7",
 }
 
 ROYAL = {
@@ -156,7 +163,28 @@ UI_ROWS = {
     "metaTitle": ["City Map & Alliance Territory Planner", "Карта городов и раздел территорий", "Mapa de ciudades y territorios", "Mapa de cidades e territórios", "Carte des villes et territoires", "Städtekarte & Territorien", "Peta Kota & Wilayah", "도시 지도 & 영토 분배", "都市マップと縄張り", "خريطة المدن وتقسيم الأراضي", "Mappa delle città e territori", "Peta Bandar & Wilayah", "Stedenkaart & gebieden", "แผนที่เมืองและอาณาเขต", "Şehir Haritası & Bölgeler", "Bản đồ thành phố & lãnh thổ", "城市地图与领地分配", "Mapa miast i terytoriów", "城市地圖與領地分配"],
     "metaDesc": ["Interactive city map with levels, bonuses and alliance ownership planning for 19 languages.", "Интерактивная карта городов: уровни, бонусы и распределение территорий между альянсами.", "Mapa interactivo con niveles, bonificaciones y reparto de territorios entre alianzas.", "Mapa interativo com níveis, bônus e divisão de territórios entre alianças.", "Carte interactive : niveaux, bonus et répartition des territoires entre alliances.", "Interaktive Karte mit Stufen, Boni und Allianz-Aufteilung.", "Peta kota interaktif: level, bonus dan pembagian wilayah aliansi.", "레벨·보너스·동맹 영토 배분이 있는 대화형 도시 지도", "レベル・ボーナス・同盟領地割り振りができる都市マップ", "خريطة تفاعلية للمستويات والمكافآت وتوزيع الأراضي بين التحالفات", "Mappa interattiva con livelli, bonus e ripartizione dei territori", "Peta interaktif: tahap, bonus dan pembahagian wilayah pakatan", "Interactieve kaart met levels, bonussen en alliantie-indeling", "แผนที่แบบโต้ตอบ: เลเวล โบนัส และแบ่งอาณาเขตพันธมิตร", "Seviyeler, bonuslar ve ittifak bölgeleriyle etkileşimli harita", "Bản đồ tương tác: cấp độ, bonus và chia lãnh thổ liên minh", "交互式城市地图：等级、加成与联盟领地划分", "Interaktywna mapa: poziomy, bonusy i podział terytoriów", "互動式城市地圖：等級、加成與聯盟領地劃分"],
     "title": ["City Map", "Карта городов", "Mapa de ciudades", "Mapa de cidades", "Carte des villes", "Städtekarte", "Peta Kota", "도시 지도", "都市マップ", "خريطة المدن", "Mappa delle città", "Peta Bandar", "Stedenkaart", "แผนที่เมือง", "Şehir Haritası", "Bản đồ thành phố", "城市地图", "Mapa miast", "城市地圖"],
-    "subtitle": ["86 capturable cities, 6 levels and 7 bonus types. Mark alliance holdings and total the bonuses automatically.", "86 городов, 6 уровней и 7 типов бонусов. Отмечайте владения альянсов — бонусы суммируются автоматически.", "86 ciudades, 6 niveles y 7 tipos de bonificación. Marca las posesiones y suma los bonos.", "86 cidades, 6 níveis e 7 tipos de bônus. Marque os domínios e some os bônus.", "86 villes, 6 niveaux et 7 types de bonus. Marquez les territoires et totalisez les bonus.", "86 Städte, 6 Stufen, 7 Bonusarten. Markiere Allianzgebiete und summiere die Boni.", "86 kota, 6 level, 7 jenis bonus. Tandai wilayah aliansi dan jumlahkan bonusnya.", "86개 도시, 6레벨, 7종 보너스. 동맹 영토를 표시하고 보너스를 자동 합산하세요.", "86都市・6段階・7種のボーナス。同盟領をマークしてボーナスを自動集計。", "86 مدينة، 6 مستويات و7 أنواع مكافآت. حدد أراضي التحالف وسيتم جمع المكافآت تلقائياً.", "86 città, 6 livelli e 7 tipi di bonus. Segna i territori e somma i bonus.", "86 bandar, 6 tahap, 7 jenis bonus. Tanda wilayah pakatan dan jumlahkan bonus.", "86 steden, 6 levels en 7 bonustypes. Markeer gebieden en tel de bonussen op.", "86 เมือง 6 เลเวล 7 ประเภทโบนัส ทำเครื่องหมายอาณาเขตและรวมโบนัสอัตโนมัติ", "86 şehir, 6 seviye, 7 bonus türü. İttifak bölgelerini işaretleyin, bonuslar toplansın.", "86 thành phố, 6 cấp độ, 7 loại bonus. Đánh dấu lãnh thổ và tự động cộng bonus.", "86座城市、6个等级、7种加成。标记联盟领地，自动汇总加成。", "86 miast, 6 poziomów, 7 typów bonusów. Oznacz terytoria i zsumuj bonusy.", "86座城市、6個等級、7種加成。標記聯盟領地，自動彙總加成。"],
+    # {cities}/{levels}/{bonuses} are filled from the generated data below.
+    "subtitle": [
+        "{cities} capturable cities, {levels} levels and {bonuses} bonus types. Mark alliance holdings and total the bonuses automatically.",
+        "{cities} городов, {levels} уровней и {bonuses} типов бонусов. Отмечайте владения альянсов — бонусы суммируются автоматически.",
+        "{cities} ciudades, {levels} niveles y {bonuses} tipos de bonificación. Marca las posesiones y suma los bonos.",
+        "{cities} cidades, {levels} níveis e {bonuses} tipos de bônus. Marque os domínios e some os bônus.",
+        "{cities} villes, {levels} niveaux et {bonuses} types de bonus. Marquez les territoires et totalisez les bonus.",
+        "{cities} Städte, {levels} Stufen, {bonuses} Bonusarten. Markiere Allianzgebiete und summiere die Boni.",
+        "{cities} kota, {levels} level, {bonuses} jenis bonus. Tandai wilayah aliansi dan jumlahkan bonusnya.",
+        "{cities}개 도시, {levels}레벨, {bonuses}종 보너스. 동맹 영토를 표시하고 보너스를 자동 합산하세요.",
+        "{cities}都市・{levels}段階・{bonuses}種のボーナス。同盟領をマークしてボーナスを自動集計。",
+        "{cities} مدينة، {levels} مستويات و{bonuses} أنواع مكافآت. حدد أراضي التحالف وسيتم جمع المكافآت تلقائياً.",
+        "{cities} città, {levels} livelli e {bonuses} tipi di bonus. Segna i territori e somma i bonus.",
+        "{cities} bandar, {levels} tahap, {bonuses} jenis bonus. Tanda wilayah pakatan dan jumlahkan bonus.",
+        "{cities} steden, {levels} levels en {bonuses} bonustypes. Markeer gebieden en tel de bonussen op.",
+        "{cities} เมือง {levels} เลเวล {bonuses} ประเภทโบนัส ทำเครื่องหมายอาณาเขตและรวมโบนัสอัตโนมัติ",
+        "{cities} şehir, {levels} seviye, {bonuses} bonus türü. İttifak bölgelerini işaretleyin, bonuslar toplansın.",
+        "{cities} thành phố, {levels} cấp độ, {bonuses} loại bonus. Đánh dấu lãnh thổ và tự động cộng bonus.",
+        "{cities}座城市、{levels}个等级、{bonuses}种加成。标记联盟领地，自动汇总加成。",
+        "{cities} miast, {levels} poziomów, {bonuses} typów bonusów. Oznacz terytoria i zsumuj bonusy.",
+        "{cities}座城市、{levels}個等級、{bonuses}種加成。標記聯盟領地，自動彙總加成。",
+    ],
     "legend": ["Legend", "Легенда", "Leyenda", "Legenda", "Légende", "Legende", "Legenda", "범례", "凡例", "دليل", "Legenda", "Petunjuk", "Legenda", "คำอธิบาย", "Lejant", "Chú giải", "图例", "Legenda", "圖例"],
     "colorLabel": ["Colour", "Цвет", "Color", "Cor", "Couleur", "Farbe", "Warna", "색상", "色", "اللون", "Colore", "Warna", "Kleur", "สี", "Renk", "Màu", "颜色", "Kolor", "顏色"],
     "iconLabel": ["Pictogram", "Пиктограмма", "Icono", "Ícone", "Icône", "Symbol", "Ikon", "아이콘", "アイコン", "أيقونة", "Icona", "Ikon", "Pictogram", "ไอคอน", "Simge", "Biểu tượng", "图标", "Ikona", "圖示"],
@@ -289,6 +317,12 @@ UI_ROWS = {
     "hasPassword": ["Password set", "Пароль установлен", "Contraseña establecida", "Senha definida", "Mot de passe défini", "Passwort gesetzt", "Kata sandi diatur", "비밀번호 설정됨", "パスワード設定済み", "تم تعيين كلمة المرور", "Password impostata", "Kata laluan ditetapkan", "Wachtwoord ingesteld", "ตั้งรหัสผ่านแล้ว", "Şifre ayarlandı", "Đã đặt mật khẩu", "已设置密码", "Hasło ustawione", "已設定密碼"],
     "noBonus": ["No bonus", "Без бонуса", "Sin bonificación", "Sem bônus", "Sans bonus", "Kein Bonus", "Tanpa bonus", "보너스 없음", "ボーナスなし", "بدون مكافأة", "Nessun bonus", "Tiada bonus", "Geen bonus", "ไม่มีโบนัส", "Bonus yok", "Không có thưởng", "无加成", "Bez bonusu", "無加成"],
     "cityName": ["City", "Город", "Ciudad", "Cidade", "Ville", "Stadt", "Kota", "도시", "都市", "مدينة", "Città", "Bandar", "Stad", "เมือง", "Şehir", "Thành phố", "城市", "Miasto", "城市"],
+    # Feedback for the hardened sharing flow. Every list stays in LANGS order.
+    "rateLimited": ["Too many attempts — please wait a few minutes and try again.", "Слишком много попыток — подождите несколько минут и попробуйте снова.", "Demasiados intentos: espera unos minutos y vuelve a intentarlo.", "Muitas tentativas — aguarde alguns minutos e tente novamente.", "Trop de tentatives — attendez quelques minutes et réessayez.", "Zu viele Versuche — bitte warte ein paar Minuten und versuche es erneut.", "Terlalu banyak percobaan — tunggu beberapa menit lalu coba lagi.", "시도 횟수가 너무 많습니다. 몇 분 후에 다시 시도해 주세요.", "試行回数が多すぎます。数分待ってからもう一度お試しください。", "محاولات كثيرة جداً — انتظر بضع دقائق ثم حاول مرة أخرى.", "Troppi tentativi — attendi qualche minuto e riprova.", "Terlalu banyak percubaan — tunggu beberapa minit dan cuba lagi.", "Te veel pogingen — wacht een paar minuten en probeer het opnieuw.", "พยายามมากเกินไป — รอสักครู่แล้วลองอีกครั้ง", "Çok fazla deneme — birkaç dakika bekleyip tekrar deneyin.", "Quá nhiều lần thử — vui lòng đợi vài phút rồi thử lại.", "尝试次数过多，请稍等几分钟后重试。", "Zbyt wiele prób — odczekaj kilka minut i spróbuj ponownie.", "嘗試次數過多，請稍等幾分鐘後重試。"],
+    "copyPrevConfirm": ["Replace this stage's assignments with the previous stage? This cannot be undone.", "Заменить владельцев этого этапа данными предыдущего? Отменить нельзя.", "¿Reemplazar las asignaciones de esta fase con las de la anterior? No se puede deshacer.", "Substituir as atribuições desta fase pelas da anterior? Não é possível desfazer.", "Remplacer les attributions de cette étape par celles de la précédente ? Action irréversible.", "Die Zuordnungen dieser Stufe durch die der vorherigen ersetzen? Kann nicht rückgängig gemacht werden.", "Ganti penugasan tahap ini dengan tahap sebelumnya? Tidak dapat dibatalkan.", "이 단계의 배정을 이전 단계로 바꾸시겠습니까? 되돌릴 수 없습니다.", "この段階の割り当てを前の段階で置き換えますか？元に戻せません。", "استبدال توزيع هذه المرحلة بالمرحلة السابقة؟ لا يمكن التراجع.", "Sostituire le assegnazioni di questa fase con quelle precedenti? Non è possibile annullare.", "Ganti penugasan tahap ini dengan tahap sebelumnya? Tindakan ini tidak boleh dibatalkan.", "De toewijzingen van deze fase vervangen door die van de vorige? Dit kan niet ongedaan worden gemaakt.", "แทนที่การจัดสรรขั้นนี้ด้วยขั้นก่อนหน้าไหม? ไม่สามารถย้อนกลับได้", "Bu aşamanın atamalarını önceki aşamayla değiştirmek istiyor musunuz? Geri alınamaz.", "Thay thế phân công của giai đoạn này bằng giai đoạn trước? Không thể hoàn tác.", "用上一阶段的归属替换本阶段？此操作无法撤销。", "Zastąpić przypisania tego etapu poprzednim? Tej operacji nie można cofnąć.", "用上一階段的歸屬取代本階段？此動作無法復原。"],
+    "emptyOwners": ["No cities assigned in this stage yet — pick an alliance and click a city to start.", "На этом этапе города ещё не распределены — выберите альянс и нажмите на город.", "Aún no hay ciudades asignadas en esta fase: elige una alianza y haz clic en una ciudad.", "Ainda não há cidades atribuídas nesta fase — escolha uma aliança e clique numa cidade.", "Aucune ville attribuée à cette étape — choisissez une alliance et cliquez sur une ville.", "In dieser Stufe sind noch keine Städte zugewiesen — wähle eine Allianz und klicke auf eine Stadt.", "Belum ada kota yang ditugaskan pada tahap ini — pilih aliansi lalu klik sebuah kota.", "이 단계에는 아직 배정된 도시가 없습니다. 동맹을 선택하고 도시를 클릭하세요.", "この段階ではまだ都市が割り当てられていません。同盟を選んで都市をクリックしてください。", "لم تُخصّص أي مدينة في هذه المرحلة بعد — اختر تحالفاً وانقر على مدينة.", "Nessuna città assegnata in questa fase — scegli un'alleanza e clicca su una città.", "Belum ada bandar ditugaskan pada tahap ini — pilih pakatan dan klik sebuah bandar.", "Nog geen steden toegewezen in deze fase — kies een alliantie en klik op een stad.", "ยังไม่มีเมืองที่จัดสรรในขั้นนี้ — เลือกพันธมิตรแล้วคลิกเมือง", "Bu aşamada henüz şehir atanmadı — bir ittifak seçip bir şehre tıklayın.", "Chưa có thành phố nào được phân công ở giai đoạn này — hãy chọn liên minh và nhấn vào thành phố.", "本阶段尚未分配城市 — 选择联盟后点击城市即可开始。", "Na tym etapie nie przypisano jeszcze miast — wybierz sojusz i kliknij miasto.", "本階段尚未分配城市 — 選擇聯盟後點擊城市即可開始。"],
+    "mobileHint": ["On a small screen: swipe the map sideways and use ＋ to zoom in.", "На маленьком экране: листайте карту вбок и используйте ＋ для приближения.", "En pantallas pequeñas: desliza el mapa hacia los lados y usa ＋ para acercar.", "Em telas pequenas: deslize o mapa para os lados e use ＋ para ampliar.", "Sur petit écran : faites glisser la carte latéralement et utilisez ＋ pour zoomer.", "Auf kleinen Bildschirmen: Karte seitlich wischen und mit ＋ vergrößern.", "Di layar kecil: geser peta ke samping dan gunakan ＋ untuk memperbesar.", "작은 화면에서는 지도를 좌우로 밀고 ＋ 로 확대하세요.", "小さい画面では地図を横にスワイプし、＋で拡大してください。", "على الشاشات الصغيرة: اسحب الخريطة جانباً واستخدم ＋ للتكبير.", "Su schermi piccoli: scorri la mappa di lato e usa ＋ per ingrandire.", "Pada skrin kecil: leret peta ke tepi dan gunakan ＋ untuk zum masuk.", "Op kleine schermen: veeg de kaart zijwaarts en gebruik ＋ om in te zoomen.", "บนหน้าจอเล็ก: ปัดแผนที่ไปด้านข้างและใช้ ＋ เพื่อซูม", "Küçük ekranlarda: haritayı yana kaydırın ve ＋ ile yakınlaştırın.", "Trên màn hình nhỏ: vuốt bản đồ sang ngang và dùng ＋ để phóng to.", "小屏幕可横向滑动地图，并用 ＋ 放大查看。", "Na małym ekranie: przesuwaj mapę na boki i użyj ＋, aby powiększyć.", "小螢幕可橫向滑動地圖，並用 ＋ 放大檢視。"],
+    "publicError": ["Could not load public maps. Please try again later.", "Не удалось загрузить список карт. Попробуйте позже.", "No se pudieron cargar los mapas públicos. Inténtalo más tarde.", "Não foi possível carregar os mapas públicos. Tente novamente mais tarde.", "Impossible de charger les cartes publiques. Réessayez plus tard.", "Öffentliche Karten konnten nicht geladen werden. Bitte später erneut versuchen.", "Peta publik tidak dapat dimuat. Coba lagi nanti.", "공개 지도를 불러올 수 없습니다. 나중에 다시 시도해 주세요.", "公開マップを読み込めませんでした。しばらくしてからもう一度お試しください。", "تعذّر تحميل الخرائط العامة. حاول مرة أخرى لاحقاً.", "Impossibile caricare le mappe pubbliche. Riprova più tardi.", "Peta awam tidak dapat dimuatkan. Cuba lagi kemudian.", "Openbare kaarten konden niet worden geladen. Probeer het later opnieuw.", "โหลดแผนที่สาธารณะไม่ได้ กรุณาลองใหม่ภายหลัง", "Genel haritalar yüklenemedi. Lütfen daha sonra tekrar deneyin.", "Không thể tải bản đồ công khai. Vui lòng thử lại sau.", "无法加载公开地图，请稍后重试。", "Nie udało się wczytać publicznych map. Spróbuj ponownie później.", "無法載入公開地圖，請稍後重試。"],
 }
 
 # Bonus base hues. The client derives saturation from the bonus value:
@@ -492,9 +526,19 @@ def main():
         for lang in LANGS:
             row[lang] = c["names"].get(lang) or en
         named[str(c["id"])] = row
-    named["Royal City"] = ROYAL
+    # Only the numeric id is ever looked up (City.name is the id). The old
+    # "Royal City" alias was a dead duplicate of "7001".
     named["7001"] = ROYAL
-    generic = {lang: {lv: GENERIC_EN[lv] for lv in range(1, 7)} for lang in LANGS}
+    # Cover every level actually present in the client data (1..7) and use the
+    # Arabic fallback where one exists, instead of English for all languages.
+    levels_present = sorted({c["lv"] for c in src_cities})
+    generic = {
+        lang: {
+            lv: (GENERIC_AR if lang == "ar" else GENERIC_EN).get(lv, "Lv.%d City" % lv)
+            for lv in levels_present
+        }
+        for lang in LANGS
+    }
 
     # ---- geometry ----------------------------------------------------------
     # shapes come from the traced map, facts come from the client tables
@@ -564,6 +608,15 @@ def main():
         lang: {key: vals[LANGS.index(lang)] for key, vals in UI_ROWS.items()}
         for lang in LANGS
     }
+    # Never let the copy drift from the data again: the old hand-written
+    # subtitle claimed 86 cities / 6 levels while the map had 87 / 7.
+    counts = {
+        "cities": len(cities),
+        "levels": max(c["lv"] for c in cities),
+        "bonuses": len(BONUS_KEYS),
+    }
+    for lang in LANGS:
+        ui[lang]["subtitle"] = ui[lang]["subtitle"].format(**counts)
     lines = []
     add = lines.append
     add("// AUTO-GENERATED by scripts/generate_city_map.py — do not edit by hand.")
@@ -605,12 +658,24 @@ def main():
     add("];")
     add("")
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
-    open(OUT, "w", encoding="utf-8").write("\n".join(lines))
+    # newline="\n" keeps regenerated files byte-identical on Windows; text mode
+    # would otherwise translate every \n to \r\n and produce a full-file diff.
+    with open(OUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(lines))
+
+    with open(OUT_CITY_IDS, "w", encoding="utf-8", newline="\n") as f:
+        f.write("// AUTO-GENERATED by scripts/generate_city_map.py — do not edit by hand.\n")
+        f.write("// Every city id the planner can assign to an alliance. Kept in sync with\n")
+        f.write("// site/src/data/cityMap.ts: functions/api/maps.js validates shared maps\n")
+        f.write("// against this set so real ownership can never be silently dropped.\n")
+        f.write("export const CITY_IDS = new Set(" + json.dumps([c["id"] for c in cities], ensure_ascii=False) + ");\n")
+
     print(
         "wrote", OUT, "with", len(cities), "territories,",
         filled, "bonuses filled from the in-game screenshots,",
         sum(1 for c in cities if not c["bonus"]), "without bonus (Royal City only)",
     )
+    print("wrote", OUT_CITY_IDS, "with", len(cities), "city ids")
 
 
 if __name__ == "__main__":

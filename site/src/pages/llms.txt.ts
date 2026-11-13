@@ -31,7 +31,7 @@ export const GET: APIRoute = async ({ site }) => {
     `- [Patch notes](${base}/patch-notes/): client update history`,
     `- [Hero codex](${base}/codex/): all heroes, skills and builds`,
     `- [Events hub](${base}/events/): recurring and seasonal events`,
-    `- [City map & alliance planner](${base}/city-map/): 86 cities, levels, bonuses, 7 unlock stages, shared editable maps with passwords and forks`,
+    `- [City map & alliance planner](${base}/city-map/): 87 cities, 7 levels, 7 bonus types, 7 unlock stages, shared editable maps with passwords and forks`,
   ];
 
   return new Response(lines.join('\n'), { headers: { 'Content-Type': 'text/plain; charset=utf-8' } });

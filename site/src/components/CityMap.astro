@@ -348,6 +348,8 @@ const payload = {
           </g>
         </svg>
       </div>
+      <p id="cm-owners-empty" class="hidden px-4 pb-3 text-[11px] leading-snug text-stone-400">{S.emptyOwners}</p>
+      <p class="cm-mobile-hint hidden px-4 pb-3 text-[11px] leading-snug text-stone-500">{S.mobileHint}</p>
       <div class="border-t border-white/[0.06] px-4 py-3">
         <div class="flex flex-wrap items-center gap-x-4 gap-y-2">
           <span class="cm-cap">{S.legend}</span>
@@ -509,11 +511,20 @@ const payload = {
 <script>
   (function () {
     function init() {
-      if (window.__cmReady) return;
       var D = window.__CM_DATA__;
       var root = document.getElementById('cm-app');
-      if (!D || !root) return;
-      window.__cmReady = true;
+      /* Readiness lives on the ROOT, not on window. With client-side
+         navigation (astro:page-load / view transitions / bfcache) the DOM is
+         replaced but `window` survives, so a global __cmReady flag silently
+         blocked re-initialisation and left the new page without handlers. */
+      if (!D || !root || root.dataset.cmReady) return;
+      root.dataset.cmReady = '1';
+      /* Listeners attached to window/document outlive the old DOM. Abort them
+         before mounting the new instance so they do not fire twice. */
+      if (window.__cmAppAbort) window.__cmAppAbort.abort();
+      var appAbort = new AbortController();
+      window.__cmAppAbort = appAbort;
+      var LISTEN = { signal: appAbort.signal };
 
       var S = D.s, B = D.b, KEYS = D.keys, LCOL = D.colors, HP = D.hp, GAR = D.garrison;
       var BHUE = D.bhues;
@@ -916,7 +927,7 @@ const payload = {
       }
       fitNames();
       fitBonusBadges();
-      window.addEventListener('load', function () { fitNames(); fitBonusBadges(); });
+      window.addEventListener('load', function () { fitNames(); fitBonusBadges(); }, LISTEN);
 
       /* ---------- state ---------- */
       var current = { meta: blankMeta(), doc: blankDoc() };
@@ -952,6 +963,7 @@ const payload = {
       var filters = { levels: new Set(), bonuses: new Set(), owner: '', q: '' };
       var view = { x: 0, y: 0, w: MW, h: MH };
       var suppressClick = false;
+      var suppressTimer = 0;
 
       /* ---------- helpers ---------- */
       function esc(s) {
@@ -976,14 +988,17 @@ const payload = {
       function blankMeta() {
         return {
           id: '', name: '', server: '', rev: 0,
-          readMode: 'public', writeMode: 'open',
+          /* Must match the API default. 'open' used to make every newly
+             created map anonymously writable straight from the public gallery. */
+          readMode: 'public', writeMode: 'owner',
           hasReadPassword: false, hasWritePassword: false,
           forkedFrom: '', ownerToken: '', ownerVerified: false, updatedAt: 0, actor: '',
         };
       }
+      function emptyOwnersMap() { return Object.create(null); }
       function blankDoc() {
         var stages = [];
-        for (var i = 0; i < STAGES; i++) stages.push({ o: {} });
+        for (var i = 0; i < STAGES; i++) stages.push({ o: emptyOwnersMap() });
         return { v: 2, actor: '', alliances: [], stages: stages };
       }
       function rampOf(v) { return Math.max(0, Math.min(1, (Number(v) - 5) / 15)); }
@@ -1053,7 +1068,10 @@ const payload = {
         if (!raw || typeof raw !== 'object') return out;
         out.actor = String(raw.actor || '').slice(0, 40);
         var arr = Array.isArray(raw.alliances) ? raw.alliances : (Array.isArray(raw.a) ? raw.a : []);
-        var seen = {};
+        /* Imported JSON can contain "__proto__"/"constructor" as an alliance
+           id or as an owner value. A plain {} would resolve those to real
+           object properties, so use a prototype-less map for the lookup. */
+        var seen = Object.create(null);
         out.alliances = arr.slice(0, 40).map(function (a, i) {
           var id = String(a && a.id ? a.id : uid() + i).slice(0, 40);
           seen[id] = 1;
@@ -1174,7 +1192,8 @@ const payload = {
       function renderMapManager() {
         var sel = document.getElementById('cm-map-select');
         var opts = '<option value="local">💾 ' + esc(S.localDraft) + '</option>';
-        var known = { local: 1 };
+        var known = Object.create(null);
+        known.local = 1;
         Object.keys(registry.maps).forEach(function (k) {
           if (k === 'local') return;
           known[k] = 1;
@@ -1267,7 +1286,9 @@ const payload = {
       }, { passive: false });
       var drag = null;
       svg.addEventListener('pointerdown', function (e) {
-        if (e.button !== 0) return;
+        /* On touch devices the map wrapper scrolls natively (see the mobile
+           CSS); handling touch pointers here would fight the scroll gesture. */
+        if (e.button !== 0 || e.pointerType === 'touch') return;
         drag = { x: e.clientX, y: e.clientY, vx: view.x, vy: view.y, moved: false };
       });
       window.addEventListener('pointermove', function (e) {
@@ -1276,12 +1297,21 @@ const payload = {
         if (Math.abs(dx) + Math.abs(dy) > 4) drag.moved = true;
         var r = svg.getBoundingClientRect();
         setView({ x: drag.vx - (dx / r.width) * view.w, y: drag.vy - (dy / r.height) * view.h, w: view.w, h: view.h });
-      });
-      window.addEventListener('pointerup', function () {
+      }, LISTEN);
+      /* A click after a drag must not paint a city. The old 0ms timer could
+         expire before the synthesized click arrived; keep the guard for one
+         animation frame window and clear it as soon as it is consumed. */
+      function endDrag() {
         if (!drag) return;
-        if (drag.moved) { suppressClick = true; setTimeout(function () { suppressClick = false; }, 0); }
+        if (drag.moved) {
+          suppressClick = true;
+          clearTimeout(suppressTimer);
+          suppressTimer = setTimeout(function () { suppressClick = false; }, 250);
+        }
         drag = null;
-      });
+      }
+      window.addEventListener('pointerup', endDrag, LISTEN);
+      window.addEventListener('pointercancel', endDrag, LISTEN);
 
       /* ---------- filters ---------- */
       function matches(p) {
@@ -1316,9 +1346,17 @@ const payload = {
         polys.forEach(function (p) {
           var a = ownerOf(p.dataset.id), lv = +p.dataset.lv;
           p.setAttribute('fill', viewMode === 'owners' ? (a ? a.color : '#252a26') : (LCOL[lv] || LCOL[7]));
-          if (a) { p.style.stroke = a.color; p.style.strokeWidth = '4'; }
+          /* Ownership outlines are screen-space too (see #cm-borders): a
+             4 user-unit stroke used to grow/shrink with zoom and was the
+             second source of "some borders are thicker". 3px stays constant. */
+          if (a) { p.style.stroke = a.color; p.style.strokeWidth = '3'; }
           else { p.style.stroke = ''; p.style.strokeWidth = ''; }
         });
+        var ownersEmpty = document.getElementById('cm-owners-empty');
+        if (ownersEmpty) {
+          ownersEmpty.classList.toggle('hidden',
+            viewMode !== 'owners' || Object.keys(curOwners()).length > 0);
+        }
         var html = '';
         polys.forEach(function (p) {
           if (isLocked(p)) return;
@@ -1393,6 +1431,7 @@ const payload = {
         document.querySelectorAll('#cm-icons .cm-emoji').forEach(function (b) { b.classList.toggle('is-on', b.dataset.icon === formIcon); });
       }
       function saveAlliance() {
+        if (saving) return;
         if (!canEdit) { toast(readOnlyMessage()); return; }
         var name = document.getElementById('cm-new-name').value.trim().slice(0, 40);
         if (!name) { document.getElementById('cm-new-name').focus(); return; }
@@ -1454,8 +1493,12 @@ const payload = {
       function renderSummary() {
         var box = document.getElementById('cm-summary');
         var list = unlockedPolys();
-        var stat = {};
-        current.doc.alliances.forEach(function (a) { stat[a.id] = { count: 0, byLevel: {}, byBonus: {} }; });
+        /* Alliance ids come from imported JSON; a plain {} would resolve keys
+           like "__proto__" to inherited properties. */
+        var stat = Object.create(null);
+        current.doc.alliances.forEach(function (a) {
+          stat[a.id] = { count: 0, byLevel: Object.create(null), byBonus: Object.create(null) };
+        });
         var held = 0;
         var owners = curOwners();
         list.forEach(function (p) {
@@ -1496,7 +1539,7 @@ const payload = {
             '<div class="mt-3 text-[10px] uppercase tracking-widest text-stone-500">' + esc(S.bonus) + '</div>' +
             '<div class="mt-1">' + bonusRows(st) + '</div></article>';
         });
-        var total = { byBonus: {} };
+        var total = { byBonus: Object.create(null) };
         list.forEach(function (p) {
           if (!owners[p.dataset.id] || !p.dataset.bonus) return;
           total.byBonus[p.dataset.bonus] = (total.byBonus[p.dataset.bonus] || 0) + Number(p.dataset.value);
@@ -1556,13 +1599,61 @@ const payload = {
           return { status: 0, data: { error: 'offline' } };
         }
       }
+      /* Controls that can mutate the document while a save is in flight. They
+         are disabled temporarily and restored to whatever applyPermissions()
+         had decided (some may already be disabled for read-only maps). */
+      var BUSY_IDS = ['cm-map-name', 'cm-map-server', 'cm-map-editor', 'cm-read-mode',
+        'cm-write-mode', 'cm-new-name', 'cm-save-alliance', 'cm-map-select',
+        'cm-paint-mode', 'cm-paint', 'cm-import', 'cm-clear', 'cm-copy-prev',
+        'cm-new-map', 'cm-fork', 'cm-delete-map', 'cm-export', 'cm-share'];
       function setBusy(on) {
         var b = document.getElementById('cm-save-online');
         b.disabled = on;
         b.textContent = on ? '⏳ ' + S.loading : '💾 ' + S.saveOnline;
+        root.classList.toggle('cm-busy', on);
+        BUSY_IDS.forEach(function (id) {
+          var el = document.getElementById(id);
+          if (!el) return;
+          if (on) {
+            el.dataset.cmPrevDisabled = el.disabled ? '1' : '0';
+            el.disabled = true;
+          } else if (el.dataset.cmPrevDisabled != null) {
+            el.disabled = el.dataset.cmPrevDisabled === '1';
+            delete el.dataset.cmPrevDisabled;
+          }
+        });
         if (on) saveState = 'saving';
         else if (saveState === 'saving') saveState = dirty ? 'dirty' : 'saved';
         updateStatus();
+      }
+
+      /* Switching to a different map must not carry over paint mode, a picked
+         alliance, a stale owner/password or a city selection from the previous
+         plan. Keep all of it when the same map is merely reloaded after a save. */
+      function resetTransient() {
+        paintId = ''; paintMode = false; selectedCity = '';
+        conflictState = null; pending = null;
+        filters.owner = ''; filters.q = '';
+        readPassword = ''; readPasswordMapId = '';
+        writePassword = ''; writePasswordMapId = '';
+        var pm = document.getElementById('cm-paint-mode'); if (pm) pm.checked = false;
+        var search = document.getElementById('cm-search'); if (search) search.value = '';
+        var of = document.getElementById('cm-owner-filter'); if (of) of.value = '';
+      }
+
+      /* Import always produces a fresh LOCAL draft. The old code only cleared
+         id/rev, so owner tokens, password flags and access modes of the map you
+         were viewing leaked into the imported plan and were sent on next save. */
+      function importDoc(raw) {
+        var fresh = blankMeta();
+        fresh.name = typeof raw.name === 'string' ? raw.name.slice(0, 80) : '';
+        fresh.server = typeof raw.server === 'string' ? raw.server.slice(0, 40) : '';
+        current.meta = fresh;
+        current.doc = normalizeDoc(raw);
+        isOwner = false; readLocked = false; writeUnlocked = false; canEdit = true;
+        resetTransient();
+        markDirty(); renderMapManager(); renderAll(); syncUrl();
+        toast(S.importOk);
       }
 
       function adopt(map, ownerToken, owner) {
@@ -1584,6 +1675,7 @@ const payload = {
         saveState = map.id ? 'saved' : 'local';
         if (prevId !== map.id) {
           stage = (registry.maps[map.id] && registry.maps[map.id].stage) || stage;
+          resetTransient();
         }
         persistLocal();
         renderMapManager();
@@ -1599,9 +1691,13 @@ const payload = {
         writeUnlocked = false;
         dirty = false;
         saveState = current.meta.id ? 'saved' : 'local';
-        if (prevId !== current.meta.id) stage = entry.stage || stage;
+        if (prevId !== current.meta.id) {
+          stage = entry.stage || stage;
+          resetTransient();
+        }
         renderMapManager();
         renderAll();
+        syncUrl();
       }
       function syncUrl() {
         var url = location.pathname + (current.meta.id ? '?map=' + current.meta.id : '');
@@ -1701,6 +1797,7 @@ const payload = {
           return;
         }
         if (r.status === 0) { saveState = 'error'; updateStatus(); toast(S.apiOffline); return; }
+        if (r.status === 429) { saveState = 'error'; updateStatus(); toast(S.rateLimited); return; }
         saveState = 'error';
         updateStatus();
         toast(r.data.error === 'name blocked' ? S.nameRejected : S.saveFailed);
@@ -1715,8 +1812,8 @@ const payload = {
         if ((lm.name || '') !== (rm.name || '')) changes.push({ type: 'meta', field: 'name', from: rm.name || '', to: lm.name || '' });
         if ((lm.server || '') !== (rm.server || '')) changes.push({ type: 'meta', field: 'server', from: rm.server || '', to: lm.server || '' });
 
-        var localAlliances = {};
-        var remoteAlliances = {};
+        var localAlliances = Object.create(null);
+        var remoteAlliances = Object.create(null);
         localDoc.alliances.forEach(function (a) { localAlliances[a.id] = a; });
         remoteDoc.alliances.forEach(function (a) { remoteAlliances[a.id] = a; });
         var allianceIds = Object.keys(localAlliances);
@@ -1837,7 +1934,7 @@ const payload = {
           return;
         }
         if (r.status === 401) { pending = { kind: 'read', id: current.meta.id }; showModal('read'); return; }
-        toast(S.saveFailed);
+        toast(r.status === 429 ? S.rateLimited : r.status === 0 ? S.apiOffline : S.saveFailed);
       }
 
       async function deleteCurrent() {
@@ -1887,7 +1984,11 @@ const payload = {
         var r = await api('GET', null, '?' + query.toString());
         if (requestId !== publicRequest) return;
         if (r.status !== 200) {
-          box.innerHTML = '<p class="text-[11px] text-stone-500">' + esc(S.apiOffline) + '</p>';
+          /* A status-0 fetch failure is "offline"; an HTTP error is a broken
+             or missing API. Conflating them made a 404 look like a network
+             outage and gave users the wrong recovery hint. */
+          var message = r.status === 0 ? S.apiOffline : S.publicError;
+          box.innerHTML = '<p class="text-[11px] text-stone-500">' + esc(message) + '</p>';
           document.getElementById('cm-public-more').classList.add('hidden');
           return;
         }
@@ -2056,13 +2157,17 @@ const payload = {
           }
           return;
         }
-        err.textContent = r.status === 429 ? S.badPassword : S.badPassword;
+        /* 429 means throttling, not a wrong password — repeating the guess
+           would only extend the lockout. Both branches used to show the same
+           "wrong password" text, so users kept hammering the lock. */
+        err.textContent = r.status === 429 ? S.rateLimited
+          : r.status === 0 ? S.apiOffline : S.badPassword;
         err.classList.remove('hidden');
       }
 
       /* ---------- events: map manager ---------- */
       document.getElementById('cm-save-online').addEventListener('click', saveOnline);
-      document.getElementById('cm-new-map').addEventListener('click', function () { newMap(); });
+      document.getElementById('cm-new-map').addEventListener('click', function () { if (!saving) newMap(); });
       document.getElementById('cm-fork').addEventListener('click', forkCurrent);
       document.getElementById('cm-copy-link').addEventListener('click', copyLink);
       document.getElementById('cm-copy-owner-link').addEventListener('click', copyOwnerLink);
@@ -2145,7 +2250,7 @@ const payload = {
       /* ---------- events: stages ---------- */
       document.getElementById('cm-stages').addEventListener('click', function (e) {
         var b = e.target.closest('button[data-stage]');
-        if (!b) return;
+        if (!b || saving) return;
         stage = Number(b.dataset.stage);
         selectedCity = '';
         persistLocal();
@@ -2154,15 +2259,24 @@ const payload = {
       document.getElementById('cm-compare-from').addEventListener('change', renderStageCompare);
       document.getElementById('cm-compare-to').addEventListener('change', renderStageCompare);
       document.getElementById('cm-copy-prev').addEventListener('click', function () {
+        if (saving) return;
         if (!canEdit) { toast(readOnlyMessage()); return; }
         if (stage < 2) return;
-        current.doc.stages[stage - 1].o = Object.assign({}, current.doc.stages[stage - 2].o);
+        /* This silently wiped the current stage's assignments. Make the
+           destructive overwrite explicit instead of a one-click surprise. */
+        if (!window.confirm(S.copyPrevConfirm)) return;
+        current.doc.stages[stage - 1].o = Object.assign(emptyOwnersMap(), current.doc.stages[stage - 2].o);
         markDirty(); renderAll();
       });
 
       /* ---------- events: cities ---------- */
       function cityClick(id) {
-        if (suppressClick) return;
+        if (suppressClick) {
+          suppressClick = false;
+          clearTimeout(suppressTimer);
+          return;
+        }
+        if (saving) return;
         var p = byId.get(id);
         if (!p) return;
         if (isLocked(p)) { toast(stageLabel(stage)); return; }
@@ -2232,17 +2346,19 @@ const payload = {
         if (b.dataset.label !== 'off') fitBonusBadges();
       });
       document.getElementById('cm-paint-mode').addEventListener('change', function (e) {
+        if (saving) { e.target.checked = paintMode; return; }
         if (!canEdit) { e.target.checked = false; toast(readOnlyMessage()); return; }
         paintMode = e.target.checked;
       });
       document.getElementById('cm-paint').addEventListener('change', function (e) {
+        if (saving) { e.target.value = paintId; return; }
         if (!canEdit) { e.target.value = ''; toast(readOnlyMessage()); return; }
         paintId = e.target.value;
         if (paintId) { paintMode = true; document.getElementById('cm-paint-mode').checked = true; }
         renderAlliances();
       });
       document.getElementById('cm-alliance-list').addEventListener('click', function (e) {
-        var btn = e.target.closest('button'); if (!btn) return;
+        var btn = e.target.closest('button'); if (!btn || saving) return;
         var id = btn.dataset.id, act = btn.dataset.act;
         if (!canEdit) { toast(readOnlyMessage()); return; }
         if (act === 'del') {
@@ -2280,8 +2396,9 @@ const payload = {
         formIcon = b.dataset.icon; syncFormSwatches();
       });
       document.getElementById('cm-clear').addEventListener('click', function () {
+        if (saving) return;
         if (!canEdit) { toast(readOnlyMessage()); return; }
-        current.doc.stages[stage - 1].o = {};
+        current.doc.stages[stage - 1].o = emptyOwnersMap();
         markDirty(); renderAll();
       });
       document.getElementById('cm-share').addEventListener('click', copyLink);
@@ -2298,31 +2415,27 @@ const payload = {
         setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
       });
       document.getElementById('cm-import').addEventListener('click', function () {
+        if (saving) return;
         if (!canEdit) { toast(readOnlyMessage()); return; }
         document.getElementById('cm-file').click();
       });
       document.getElementById('cm-file').addEventListener('change', function (e) {
+        if (saving) return;
         var f = e.target.files && e.target.files[0]; if (!f) return;
         f.text().then(function (txt) {
-          var raw = JSON.parse(txt);
-          current.doc = normalizeDoc(raw);
-          if (typeof raw.name === 'string') current.meta.name = raw.name.slice(0, 80);
-          if (typeof raw.server === 'string') current.meta.server = raw.server.slice(0, 40);
-          current.meta.id = '';
-          current.meta.rev = 0;
-          markDirty(); renderMapManager(); renderAll(); toast(S.importOk);
+          importDoc(JSON.parse(txt));
         }).catch(function () { toast('JSON error'); });
         e.target.value = '';
       });
       window.addEventListener('beforeunload', function (e) {
         if (dirty || saving) { e.preventDefault(); e.returnValue = ''; }
-      });
+      }, LISTEN);
       document.addEventListener('keydown', function (e) {
         if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 's') {
           e.preventDefault();
           saveOnline();
         }
-      });
+      }, LISTEN);
 
       /* ---------- boot ---------- */
       try {
@@ -2339,12 +2452,24 @@ const payload = {
         }
       } catch (e) {}
 
+      /* Capture both hash payloads BEFORE adoptCached()/syncUrl() rewrite the
+         URL, otherwise a legacy share link would be silently discarded. */
+      var legacyHash = location.hash.match(/#cm=([A-Za-z0-9\-_]+)/);
       var params = new URLSearchParams(location.search);
       var mapId = params.get('map');
       var ownerFromHash = (location.hash.match(/#k=([a-f0-9]{32,64})/) || [])[1] || '';
-      if (ownerFromHash && mapId && registry.maps[mapId]) {
-        registry.maps[mapId].meta.ownerToken = ownerFromHash;
-        registry.maps[mapId].meta.ownerVerified = false;
+      if (ownerFromHash) {
+        /* The owner key is a bearer secret. Keep it in localStorage (so the
+           owner stays signed in) but strip it from the address bar: otherwise
+           it leaks into browser history, Referer headers and screenshots. */
+        if (mapId && registry.maps[mapId]) {
+          registry.maps[mapId].meta.ownerToken = ownerFromHash;
+          registry.maps[mapId].meta.ownerVerified = false;
+        }
+        try {
+          var cleanHash = location.hash.replace(/&?k=[a-f0-9]{32,64}/i, '').replace(/^#$/, '');
+          history.replaceState(null, '', location.pathname + location.search + cleanHash);
+        } catch (e) {}
       }
 
       if (mapId && /^[a-z0-9]{8,16}$/.test(mapId)) {
@@ -2360,13 +2485,8 @@ const payload = {
         var entry = registry.maps[registry.active];
         if (entry) adoptCached(entry);
         else { persistLocal(); renderMapManager(); renderAll(); }
-        var legacy = location.hash.match(/#cm=([A-Za-z0-9\-_]+)/);
-        if (legacy) {
-          try {
-            current.doc = normalizeDoc(decode(legacy[1]));
-            current.meta.id = '';
-            markDirty(); renderMapManager(); renderAll(); toast(S.importOk);
-          } catch (e) {}
+        if (legacyHash) {
+          try { importDoc(decode(legacyHash[1])); } catch (e) {}
         }
       }
       resetForm();
@@ -2487,6 +2607,10 @@ const payload = {
      including while zooming. */
   #cm-app .cm-poly {
     stroke: none; stroke-linejoin: miter;
+    /* Every runtime stroke on a territory (ownership outline, selection,
+       focus, locked dashes) is measured in screen pixels as well, so zooming
+       never changes their apparent weight. */
+    vector-effect: non-scaling-stroke;
     cursor: pointer; transition: opacity .18s, fill .18s;
     outline: none;
   }
@@ -2606,9 +2730,26 @@ const payload = {
   }
   #cm-app.cm-readonly .cm-poly { cursor: default; }
 
+  /* While a save is in flight the request body has already been serialized.
+     Block every remaining interaction that could mutate the plan, including
+     keyboard-activated polygons (pointer-events does not stop keydown). */
+  #cm-app.cm-busy #cm-svg .cm-poly,
+  #cm-app.cm-busy #cm-alliance-list,
+  #cm-app.cm-busy #cm-colors,
+  #cm-app.cm-busy #cm-icons,
+  #cm-app.cm-busy #cm-stages,
+  #cm-app.cm-busy #cm-table-body,
+  #cm-app.cm-busy #cm-levels,
+  #cm-app.cm-busy #cm-bonuses { pointer-events: none; }
+
+  #cm-app .cm-mobile-hint { display: none; }
   @media (max-width: 640px) {
-    #cm-app .cm-label .cm-lv { font-size: 8px; }
-    #cm-app .cm-label .cm-val { font-size: 11px; }
+    /* At ~360px the 1119-unit viewBox squeezes 11px labels down to ~3.5px.
+       Give the map a readable minimum width and let the wrapper scroll
+       natively instead of shrinking the type even further. */
+    #cm-app .cm-map-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    #cm-app #cm-svg { min-width: 700px; touch-action: auto; }
+    #cm-app .cm-mobile-hint { display: block; }
     #cm-app .cm-stage-sub { margin-left: 0; }
   }
 </style>

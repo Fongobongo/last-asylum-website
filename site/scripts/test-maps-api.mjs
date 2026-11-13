@@ -1,7 +1,16 @@
+import fs from 'node:fs';
 import { onRequest } from '../../functions/api/maps.js';
+import { CITY_IDS } from '../../functions/api/_city-ids.js';
 import { devStore } from './dev-maps-store.mjs';
 
+// All sections share ONE store, because later scenarios deliberately build on
+// maps created earlier (fork, history, gallery totals, revision restore).
+// Quota and brute-force throttles, however, are keyed by cf-connecting-ip, so
+// a single shared identity would exhaust the 10-creates/hour budget by section
+// 13. Simulating one client per section keeps those counters independent while
+// leaving the underlying map data shared.
 const store = devStore({ fresh: true });
+let clientIp = '198.51.100.1';
 let pass = 0;
 let fail = 0;
 
@@ -10,21 +19,54 @@ function check(name, cond, extra) {
   else { fail++; console.log('  FAIL ' + name + (extra ? ' :: ' + JSON.stringify(extra) : '')); }
 }
 
+function section(n, label) {
+  clientIp = '198.51.100.' + n;
+  console.log('\n[' + n + '] ' + label);
+}
+
 async function call(method, body, headers = {}, query = '', customStore = store) {
   const url = new URL('https://x.test/api/maps' + query);
-  const init = { method, headers: { 'content-type': 'application/json', ...headers } };
+  const init = {
+    method,
+    headers: { 'content-type': 'application/json', 'cf-connecting-ip': clientIp, ...headers },
+  };
   if (body) init.body = JSON.stringify(body);
   const res = await onRequest({ request: new Request(url, init), env: { LA_MAPS_STORE: customStore } });
   return { status: res.status, data: await res.json() };
 }
 
+// City ids must match the generated map data. The old fixture used "C01"
+// placeholders, which is exactly why sanitizeDoc()'s /^C\d{2}$/ regex shipped
+// unnoticed — it accepted only IDs the real planner never produces.
+check('whitelist has real city ids', CITY_IDS.has('1001') && CITY_IDS.has('7001') && CITY_IDS.size === 87);
+
+// Both files come from the same generator. If cityMap.ts is regenerated but the
+// API whitelist is not, real ownership assignments are silently dropped again.
+const dataSrc = fs.readFileSync(new URL('../src/data/cityMap.ts', import.meta.url), 'utf8');
+const idsStart = dataSrc.indexOf('= [', dataSrc.indexOf('export const CITIES')) + 2;
+const idsEnd = dataSrc.indexOf('\n];', idsStart) + 2;
+// The generator emits a trailing comma before `];`, which JSON forbids.
+const frontendIds = JSON.parse(
+  dataSrc.slice(idsStart, idsEnd).replace(/,\s*\]$/, ']')
+).map((c) => c.id);
+check('whitelist matches generated cityMap.ts',
+  frontendIds.length === CITY_IDS.size && frontendIds.every((x) => CITY_IDS.has(x)));
+
 const doc = {
   v: 2,
   alliances: [{ id: 'a1', name: 'Wolves', color: '#e11d48', icon: '🐺' }],
-  stages: Array.from({ length: 7 }, (_, i) => ({ o: i === 0 ? { C01: 'a1' } : {} })),
+  stages: Array.from({ length: 7 }, (_, i) => ({ o: i === 0 ? { '1001': 'a1' } : {} })),
+};
+const doc2 = { ...doc, stages: [{ o: { '1001': 'a1', '1002': 'a1' } }, ...doc.stages.slice(1)] };
+// The public gallery counts ownership in the FINAL stage (index 6).
+const galleryDoc = {
+  ...doc,
+  stages: Array.from({ length: 7 }, (_, i) => ({
+    o: i === 6 ? { '1001': 'a1', '7001': 'a1', '5001': 'a1' } : {},
+  })),
 };
 
-console.log('\n[1] create + read');
+section(1, 'create + read');
 const created = await call('POST', { action: 'create', name: 'Alpha', server: 'S1', doc, readMode: 'public', writeMode: 'open' });
 check('create 200', created.status === 200, created.data);
 const id = created.data.id;
@@ -32,18 +74,18 @@ check('id shape', /^[a-z0-9]{10}$/.test(id), id);
 check('owner token', /^[a-f0-9]{48}$/.test(created.data.ownerToken));
 const got = await call('GET', null, {}, '?id=' + id);
 check('get 200', got.status === 200, got.data);
-check('doc roundtrip', got.data.map.doc.stages[0].o.C01 === 'a1');
+check('doc roundtrip keeps REAL city ids', got.data.map.doc.stages[0].o['1001'] === 'a1', got.data.map.doc.stages[0].o);
 check('canEdit open', got.data.canEdit === true);
 
-console.log('\n[2] optimistic lock');
-const saved = await call('POST', { action: 'save', id, rev: 1, doc: { ...doc, stages: [{ o: { C01: 'a1', C02: 'a1' } }, ...doc.stages.slice(1)] } });
+section(2, 'optimistic lock');
+const saved = await call('POST', { action: 'save', id, rev: 1, doc: doc2 });
 check('save 200', saved.status === 200, saved.data);
 check('rev bumped', saved.data.rev === 2, saved.data.rev);
 const stale = await call('POST', { action: 'save', id, rev: 1, doc });
 check('stale save 409', stale.status === 409, stale.data);
 check('conflict returns map', stale.data.map && stale.data.map.rev === 2);
 
-console.log('\n[3] read password');
+section(3, 'read password');
 const rp = await call('POST', { action: 'create', name: 'Locked view', doc, readMode: 'password', readPassword: 'secret1', writeMode: 'open' });
 check('create locked 200', rp.status === 200, rp.data);
 const rid = rp.data.id;
@@ -59,7 +101,7 @@ check('unlock bad 401', unlockBad.status === 401);
 const unlockOk = await call('POST', { action: 'unlock', id: rid, kind: 'read', readPassword: 'secret1' });
 check('unlock ok 200', unlockOk.status === 200, unlockOk.data);
 
-console.log('\n[4] write password');
+section(4, 'write password');
 const wp = await call('POST', { action: 'create', name: 'Locked edit', doc, readMode: 'public', writeMode: 'password', writePassword: 'edit123' });
 const wid = wp.data.id;
 const saveNoPw = await call('POST', { action: 'save', id: wid, rev: 1, doc });
@@ -69,7 +111,7 @@ check('save with pw 200', savePw.status === 200, savePw.data);
 const saveOwner = await call('POST', { action: 'save', id: wid, rev: 2, doc, ownerToken: wp.data.ownerToken });
 check('owner bypasses write pw', saveOwner.status === 200, saveOwner.data);
 
-console.log('\n[5] owner-only');
+section(5, 'owner-only');
 const oo = await call('POST', { action: 'create', name: 'Private', doc, readMode: 'owner', writeMode: 'owner' });
 const oid = oo.data.id;
 const ooNo = await call('GET', null, {}, '?id=' + oid);
@@ -77,14 +119,17 @@ check('owner-only get 401', ooNo.status === 401 && ooNo.data.error === 'owner-on
 const ooYes = await call('GET', null, { 'x-map-owner': oo.data.ownerToken }, '?id=' + oid);
 check('owner get 200', ooYes.status === 200 && ooYes.data.isOwner === true, ooYes.data);
 
-console.log('\n[6] fork');
+section(6, 'fork');
 const forked = await call('POST', { action: 'fork', id, readPassword: '' });
 check('fork 200', forked.status === 200, forked.data);
 check('fork new id', forked.data.id !== id);
 check('forkedFrom', forked.data.map.forkedFrom === id, forked.data.map.forkedFrom);
-check('fork copied stages', forked.data.map.doc.stages[0].o.C02 === 'a1');
+check('fork copied stages', forked.data.map.doc.stages[0].o['1002'] === 'a1', forked.data.map.doc.stages[0].o);
+check('fork is owner-only by default', forked.data.map.writeMode === 'owner', forked.data.map.writeMode);
 
-console.log('\n[7] list');
+section(7, 'list');
+const gallery = await call('POST', { action: 'create', name: 'Gallery', doc: galleryDoc });
+check('gallery create 200', gallery.status === 200, gallery.data);
 const list = await call('GET', null, {}, '?list=1');
 check('list 200', list.status === 200);
 check('list total', Number.isInteger(list.data.total), list.data);
@@ -92,26 +137,30 @@ const listWithoutValue = await call('GET', null, {}, '?list');
 check('list without value 200', listWithoutValue.status === 200);
 check('list has public maps', list.data.maps.some((m) => m.id === id), list.data.maps.length);
 check('list hides owner-only', !list.data.maps.some((m) => m.id === oid));
+check('gallery does not leak rev', list.data.maps.every((m) => m.rev === undefined), list.data.maps[0]);
+const galleryRow = list.data.maps.find((m) => m.id === gallery.data.id);
+check('gallery counts real ownership', galleryRow && galleryRow.cityCount === 3 && galleryRow.preview.length === 1, galleryRow);
 const filtered = await call('GET', null, {}, '?list=1&q=Alpha&server=S1&limit=1&offset=0');
 check('list filters + paginates', filtered.status === 200 && filtered.data.maps.length === 1 && filtered.data.total === 2, filtered.data);
 const filteredPage2 = await call('GET', null, {}, '?list=1&q=Alpha&server=S1&limit=1&offset=1');
 check('list second page', filteredPage2.status === 200 && filteredPage2.data.maps[0].id === id, filteredPage2.data);
 
-console.log('\n[8] sanitize');
+section(8, 'sanitize');
 const bad = await call('POST', {
   action: 'create', name: 'Bad', doc: {
     v: 2,
     alliances: [{ id: 'a1', name: 'A', color: 'javascript:x', icon: 'x' }],
-    stages: [{ o: { C01: 'ghost', ZZ9: 'a1', C02: 'a1' } }],
+    stages: [{ o: { '1001': 'ghost', '9999': 'a1', '1002': 'a1', 'C01': 'a1' } }],
   },
 });
 check('create bad 200', bad.status === 200, bad.data);
-check('drops unknown owner', !bad.data.map.doc.stages[0].o.C01, bad.data.map.doc.stages[0].o);
-check('drops bad city id', !bad.data.map.doc.stages[0].o.ZZ9);
-check('keeps valid owner', bad.data.map.doc.stages[0].o.C02 === 'a1');
+check('drops unknown owner', !bad.data.map.doc.stages[0].o['1001'], bad.data.map.doc.stages[0].o);
+check('drops unknown city id', !bad.data.map.doc.stages[0].o['9999']);
+check('drops legacy C01 fixture id', !bad.data.map.doc.stages[0].o['C01']);
+check('keeps valid owner', bad.data.map.doc.stages[0].o['1002'] === 'a1');
 check('bad colour replaced', /^#[0-9a-f]{6}$/i.test(bad.data.map.doc.alliances[0].color), bad.data.map.doc.alliances[0].color);
 
-console.log('\n[9] history + restore');
+section(9, 'history + restore');
 const history = await call('GET', null, { 'x-map-owner': created.data.ownerToken }, '?id=' + id + '&history=1');
 check('history 200', history.status === 200, history.data);
 check('history has revisions', history.data.revisions.length >= 2, history.data);
@@ -127,7 +176,7 @@ const historyAfter = await call('GET', null, { 'x-map-owner': created.data.owner
 check('restore recorded', historyAfter.data.revisions.some((r) => r.rev === 3 && r.actor === 'tester'), historyAfter.data);
 check('restore keeps actor in doc', restored.data.map.doc.actor === 'tester', restored.data.map.doc);
 
-console.log('\n[10] delete');
+section(10, 'delete');
 const delNo = await call('POST', { action: 'delete', id });
 check('delete without token 403', delNo.status === 403, delNo.data);
 const delOk = await call('POST', { action: 'delete', id, ownerToken: created.data.ownerToken });
@@ -135,14 +184,14 @@ check('delete owner 200', delOk.status === 200, delOk.data);
 const gone = await call('GET', null, {}, '?id=' + id);
 check('deleted map 404', gone.status === 404);
 
-console.log('\n[11] brute force guard');
+section(11, 'brute force guard');
 let last = null;
 for (let i = 0; i < 12; i++) {
   last = await call('POST', { action: 'unlock', id: rid, kind: 'read', readPassword: 'wrong' + i });
 }
 check('throttled after repeated failures', last.status === 429, last.data);
 
-console.log('\n[12] password mode needs a password');
+section(12, 'password mode needs a password');
 const guard = await call('POST', { action: 'create', name: 'Guard', doc, readMode: 'public', writeMode: 'open' });
 const noPwSave = await call('POST', {
   action: 'save', id: guard.data.id, rev: 1, doc, ownerToken: guard.data.ownerToken,
@@ -157,7 +206,7 @@ check('accepts password mode with password', withPwSave.status === 200, withPwSa
 const guarded = await call('GET', null, {}, '?id=' + guard.data.id);
 check('map is now read-locked', guarded.status === 401 && guarded.data.error === 'read-locked', guarded.data);
 
-console.log('\n[13] moderation + create limits');
+section(13, 'moderation + create limits');
 const blocked = await call('POST', { action: 'create', name: 'fuck map', doc });
 check('blocked name rejected', blocked.status === 400 && blocked.data.error === 'name blocked', blocked.data);
 const innocent = await call('POST', { action: 'create', name: 'Хлеб', doc });
@@ -166,23 +215,52 @@ const innocentEnglish = await call('POST', { action: 'create', name: 'Scunthorpe
 check('innocent English name accepted', innocentEnglish.status === 200, innocentEnglish.data);
 const blockedFork = await call('POST', { action: 'fork', id: innocent.data.id, name: 'fuck fork' });
 check('fork name moderated', blockedFork.status === 400 && blockedFork.data.error === 'name blocked', blockedFork.data);
+// These two sub-cases intentionally keep ONE identity across all 11 attempts
+// (and use fresh stores) so the create quota is exercised in isolation.
 const limitedStore = devStore({ fresh: true });
 let limited = null;
 for (let i = 0; i < 11; i++) {
   limited = await call('POST', { action: 'create', name: 'Limit ' + i, doc }, {}, '', limitedStore);
 }
 check('create rate limit', limited.status === 429, limited.data);
-const ownerStore = devStore({ fresh: true });
-const ownerIdentity = 'a'.repeat(48);
-let ownerLimited = null;
-for (let i = 0; i < 9; i++) {
-  ownerLimited = await call('POST', { action: 'create', name: 'Owner ' + i, doc, ownerIdentity }, {}, '', ownerStore);
+// A client-side "ownerIdentity" is not a security boundary: rotating it must
+// not buy extra creations.
+const spoofStore = devStore({ fresh: true });
+let spoofed = null;
+for (let i = 0; i < 11; i++) {
+  spoofed = await call('POST', {
+    action: 'create', name: 'Spoof ' + i, doc,
+    ownerIdentity: 'a'.repeat(48 - String(i).length) + i,
+  }, {}, '', spoofStore);
 }
-check('owner create quota', ownerLimited.status === 429 && ownerLimited.data.error === 'map quota reached', ownerLimited.data);
+check('spoofed owner identity cannot bypass quota', spoofed.status === 429 && spoofed.data.error === 'too many maps created', spoofed.data);
 
-console.log('\n[14] list bounds + revision comparison');
+section(14, 'list bounds + revision comparison');
 const bounded = await call('GET', null, {}, '?list=1&limit=1.5&offset=0.5');
 check('fractional list bounds accepted', bounded.status === 200 && bounded.data.limit === 1 && bounded.data.offset === 0, bounded.data);
+
+section(15, 'write permissions (P0 regression)');
+const def = await call('POST', { action: 'create', name: 'Default modes', doc });
+check('default writeMode is owner', def.data.map?.writeMode === 'owner', def.data);
+const anonSave = await call('POST', { action: 'save', id: def.data.id, rev: 1, doc });
+check('anonymous save on new map blocked', anonSave.status === 401, anonSave.data);
+const ownerSave = await call('POST', { action: 'save', id: def.data.id, rev: 1, doc, ownerToken: def.data.ownerToken });
+check('owner can save', ownerSave.status === 200, ownerSave.data);
+const openMap = await call('POST', { action: 'create', name: 'Collaborative', doc, writeMode: 'open' });
+const renamed = await call('POST', { action: 'save', id: openMap.data.id, rev: 1, name: 'VANDALIZED', doc });
+check('open map accepts anonymous plan edits', renamed.status === 200, renamed.data);
+check('anonymous writer cannot rename map', renamed.data.map?.name === 'Collaborative', renamed.data.map?.name);
+const originBad = await call('POST', { action: 'create', name: 'CSRF', doc }, { origin: 'https://evil.example' });
+check('cross-origin POST blocked', originBad.status === 403, originBad.data);
+const originOk = await call('POST', { action: 'create', name: 'Same origin', doc }, { origin: 'https://x.test' });
+check('same-origin POST allowed', originOk.status === 200, originOk.data);
+const huge = await call('POST', { action: 'create', name: 'Huge', doc, junk: 'x'.repeat(300 * 1024) });
+check('oversized body rejected before parse', huge.status === 413, huge.data);
+// 70k emoji = 140k UTF-16 units (under the char cap) but 280k UTF-8 bytes.
+const hugeWide = await call('POST', { action: 'create', name: 'Wide', doc, junk: '😀'.repeat(70000) });
+check('multibyte body rejected by byte count', hugeWide.status === 413, hugeWide.data);
+const qpLeak = await call('GET', null, { 'x-map-read': 'nope' }, '?id=' + rid + '&rp=secret1');
+check('password in query string is ignored', qpLeak.status === 401, qpLeak.data);
 
 console.log('\n' + pass + ' passed, ' + fail + ' failed');
 process.exit(fail ? 1 : 0);

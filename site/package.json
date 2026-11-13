@@ -10,6 +10,7 @@
     "build:local": "node scripts/build-local.mjs",
     "postbuild": "node scripts/pagefind.mjs",
     "preview": "astro preview",
+    "preview:api": "node serve.cjs",
     "astro": "astro",
     "check:links": "node scripts/check-links.mjs",
     "check:types": "astro sync && tsc --noEmit -p tsconfig.json",

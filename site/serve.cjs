@@ -52,10 +52,20 @@ const server = createServer((req, res) => {
     return;
   }
 
-  let urlPath = decodeURIComponent(req.url.split('?')[0]);
+  let urlPath;
+  try {
+    urlPath = decodeURIComponent(req.url.split('?')[0]);
+  } catch {
+    res.writeHead(400); return res.end('Bad request');
+  }
   if (urlPath.endsWith('/')) urlPath += 'index.html';
-  const file = path.join(DIST, urlPath);
-  if (!file.startsWith(DIST)) { res.writeHead(403); return res.end(); }
+  const file = path.resolve(DIST, '.' + urlPath);
+  // startsWith(DIST) also accepts a sibling such as "dist-cache"; compare the
+  // resolved relative path instead so a crafted ../ or %5C cannot escape.
+  const rel = path.relative(DIST, file);
+  if (rel.startsWith('..') || path.isAbsolute(rel)) {
+    res.writeHead(403); return res.end();
+  }
 
   readFile(file, (err, data) => {
     if (err) {
