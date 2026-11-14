@@ -1914,6 +1914,11 @@ const payload = {
       async function keepMineAsFork() {
         if (!conflictState) return;
         var local = conflictState;
+        /* A fork is a NEW map with a NEW owner token, so it starts from the
+           secure default, exactly like forkMap(). The old hard-coded 'open'
+           made the copy anonymously writable without any conscious opt-in.
+           Owners who still want link-based collaboration set it explicitly
+           in the access controls after the fork. */
         var body = {
           action: 'create',
           name: (local.localMeta.name || S.defaultMapName) + S.forkSuffix,
@@ -1921,7 +1926,7 @@ const payload = {
           doc: local.localDoc,
           actor: local.localMeta.actor || '',
           readMode: 'public',
-          writeMode: 'open',
+          writeMode: 'owner',
         };
         setBusy(true);
         var r = await api('POST', body);
