@@ -181,36 +181,26 @@ function parseDoc(row) {
 }
 
 function mapSummary(row) {
-  let preview = row.preview;
-  if (typeof preview === 'string') {
-    try { preview = JSON.parse(preview); } catch { preview = []; }
+  // The gallery used to count only stage 7 (`$.stages[6].o`). Stages are
+  // unlock snapshots, so a plan still being drafted may have only the early
+  // stages filled — those maps showed "0 cities" despite dozens assigned.
+  // Use the HIGHEST stage that actually has assignments. Computing it here
+  // from the raw row keeps D1 and the local dev store on one code path.
+  const doc = parseDoc(row);
+  const stages = Array.isArray(doc.stages) ? doc.stages : [];
+  let owners = {};
+  for (let i = stages.length - 1; i >= 0; i--) {
+    const o = stages[i] && stages[i].o;
+    if (o && typeof o === 'object' && Object.keys(o).length) { owners = o; break; }
   }
-  if (!Array.isArray(preview)) preview = [];
-
-  if (row.cityCount === undefined || row.allianceCount === undefined) {
-    const doc = parseDoc(row);
-    const owners = doc.stages && doc.stages[6] && doc.stages[6].o ? doc.stages[6].o : {};
-    const counts = new Map();
-    for (const owner of Object.values(owners)) counts.set(owner, (counts.get(owner) || 0) + 1);
-    const alliances = Array.isArray(doc.alliances) ? doc.alliances : [];
-    preview = alliances
-      .map((a) => ({ id: a.id, color: a.color, icon: a.icon, count: counts.get(a.id) || 0 }))
-      .filter((a) => a.count > 0)
-      .sort((a, b) => b.count - a.count)
-      .slice(0, 12);
-    return {
-      id: row.id,
-      name: row.name,
-      server: row.server,
-      forkedFrom: row.forkedFrom,
-      createdAt: row.createdAt,
-      updatedAt: row.updatedAt,
-      actor: doc.actor || '',
-      cityCount: Object.keys(owners).length,
-      allianceCount: alliances.length,
-      preview,
-    };
-  }
+  const counts = new Map();
+  for (const owner of Object.values(owners)) counts.set(owner, (counts.get(owner) || 0) + 1);
+  const alliances = Array.isArray(doc.alliances) ? doc.alliances : [];
+  const preview = alliances
+    .map((a) => ({ id: a.id, color: a.color, icon: a.icon, count: counts.get(a.id) || 0 }))
+    .filter((a) => a.count > 0)
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 12);
 
   return {
     // Public gallery entries deliberately omit `rev`: it is an internal CAS
@@ -222,9 +212,9 @@ function mapSummary(row) {
     forkedFrom: row.forkedFrom,
     createdAt: row.createdAt,
     updatedAt: row.updatedAt,
-    actor: row.actor || '',
-    cityCount: Number(row.cityCount) || 0,
-    allianceCount: Number(row.allianceCount) || 0,
+    actor: doc.actor || '',
+    cityCount: Object.keys(owners).length,
+    allianceCount: alliances.length,
     preview,
   };
 }
@@ -393,10 +383,16 @@ async function handleGet(req, store) {
 
   // Passwords/tokens travel in headers only. Keeping them in ?rp= / ?ok=
   // leaked them into access logs, browser history and Referer headers.
+  const readAttempt = !!req.headers.get('x-map-read');
   const allowed = await readAllowed(row, req, '');
   if (!allowed) {
     const locked = row.readMode === 'owner' ? 'owner-only' : 'read-locked';
-    if (row.readMode === 'password' && await auditPasswordFailure(req, store, id, 'read')) {
+    // Merely opening a protected link is NOT a password guess. Counting it
+    // locked out legitimate visitors behind a shared IP after eight page loads
+    // and poisoned the global throttle for every other protected map. Real
+    // guesses are already throttled by the `unlock` action.
+    if (row.readMode === 'password' && readAttempt &&
+        await auditPasswordFailure(req, store, id, 'read')) {
       return json(429, { error: 'too many attempts' });
     }
     return json(401, { error: locked, readMode: row.readMode });
@@ -417,7 +413,10 @@ async function handleGet(req, store) {
   return json(200, {
     map: toClient(row),
     isOwner: owner,
-    canEdit: owner || row.writeMode === 'open',
+    // Mirror writeAllowed(): a write-password map is editable for a caller
+    // that already sent the correct password in the header. The old
+    // `owner || writeMode === 'open'` silently reported false for that case.
+    canEdit: await writeAllowed(row, req, {}),
   });
 }
 

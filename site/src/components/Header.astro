@@ -153,14 +153,14 @@ const H = (k: string): string => dictH[k]?.[lang] ?? dictH[k]?.en ?? '';
         </div>
       </a>
 
-      <div class="flex items-center gap-2">
+      <div class="header-controls flex items-center gap-2">
         <a
           href={`${base}/alliance/`}
           class="btn-glow inline-flex items-center gap-1.5 rounded-full border border-toxic-500/40 bg-stone-900/90 px-3 py-1.5 text-xs font-bold text-toxic-300 hover:border-toxic-400 hover:bg-toxic-500/15 shadow-[0_0_15px_rgba(180,255,57,0.15)] transition"
           title={H('allianceInfoTitle')}
         >
           <span>🛡️</span>
-          <span>{H('allianceShort')}</span>
+          <span class="header-short-label">{H('allianceShort')}</span>
         </a>
 
         <button id="search-open" class="btn-glow hidden md:inline-flex items-center gap-2.5 rounded-full bg-white text-black px-4 py-2 text-sm font-medium hover:bg-stone-200">
@@ -295,6 +295,17 @@ const H = (k: string): string => dictH[k]?.[lang] ?? dictH[k]?.en ?? '';
     </nav>
   </div>
 </header>
+
+<style>
+  /* At ~360px the five header controls plus the "Alliance Info" label are
+     wider than the viewport: the menu button was pushed off-screen and the
+     whole page gained a 5px horizontal scrollbar. Keep the icon-only button
+     and tighten the gaps on very small screens. */
+  @media (max-width: 400px) {
+    .header-short-label { display: none; }
+    .header-controls { gap: 0.25rem; }
+  }
+</style>
 
 <div id="search-modal" data-lang={lang} class="fixed inset-0 z-[60] hidden bg-black/80 backdrop-blur-xl" role="dialog" aria-modal="true">
   <div class="mx-auto mt-[10vh] max-w-2xl px-4">

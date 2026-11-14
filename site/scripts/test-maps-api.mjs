@@ -58,7 +58,8 @@ const doc = {
   stages: Array.from({ length: 7 }, (_, i) => ({ o: i === 0 ? { '1001': 'a1' } : {} })),
 };
 const doc2 = { ...doc, stages: [{ o: { '1001': 'a1', '1002': 'a1' } }, ...doc.stages.slice(1)] };
-// The public gallery counts ownership in the FINAL stage (index 6).
+// The public gallery uses the HIGHEST stage that has any ownership, so a plan
+// still being drafted (only early stages filled) is not shown as "0 cities".
 const galleryDoc = {
   ...doc,
   stages: Array.from({ length: 7 }, (_, i) => ({
@@ -261,6 +262,68 @@ const hugeWide = await call('POST', { action: 'create', name: 'Wide', doc, junk:
 check('multibyte body rejected by byte count', hugeWide.status === 413, hugeWide.data);
 const qpLeak = await call('GET', null, { 'x-map-read': 'nope' }, '?id=' + rid + '&rp=secret1');
 check('password in query string is ignored', qpLeak.status === 401, qpLeak.data);
+
+section(16, 'read throttle + canEdit contract (QA round 2)');
+const lockedNew = await call('POST', {
+  action: 'create', name: 'Protected link', doc,
+  readMode: 'password', readPassword: 'pw123456',
+});
+check('protected create 200', lockedNew.status === 200, lockedNew.data);
+const plainReads = [];
+for (let i = 0; i < 11; i++) {
+  plainReads.push((await call('GET', null, {}, '?id=' + lockedNew.data.id)).status);
+}
+check('opening a protected link is not a password guess',
+  plainReads.every((s) => s === 401), plainReads);
+check('correct password still opens after 11 plain reads',
+  (await call('GET', null, { 'x-map-read': 'pw123456' }, '?id=' + lockedNew.data.id)).status === 200);
+const guesses = [];
+for (let i = 0; i < 9; i++) {
+  guesses.push((await call('GET', null, { 'x-map-read': 'wrong' }, '?id=' + lockedNew.data.id)).status);
+}
+check('real wrong-password guesses are still throttled',
+  guesses[guesses.length - 1] === 429, guesses);
+
+const wpContract = await call('POST', {
+  action: 'create', name: 'PW edit contract', doc,
+  writeMode: 'password', writePassword: 'editpw123',
+});
+const wpGet = await call('GET', null, {}, '?id=' + wpContract.data.id);
+check('canEdit false without write password', wpGet.data.canEdit === false, wpGet.data);
+const wpGetOk = await call('GET', null, { 'x-map-write': 'editpw123' }, '?id=' + wpContract.data.id);
+check('canEdit true with write password', wpGetOk.data.canEdit === true, wpGetOk.data);
+
+section(17, 'gallery stages + literal search (QA round 2)');
+const stageAt = (index, owners) => ({
+  ...doc,
+  stages: Array.from({ length: 7 }, (_, i) => ({ o: i === index ? owners : {} })),
+});
+const early = await call('POST', { action: 'create', name: 'Early stage', doc: stageAt(0, { '1001': 'a1', '1002': 'a1' }) });
+const late = await call('POST', { action: 'create', name: 'Late stage', doc: stageAt(4, { '1001': 'a1', '7001': 'a1', '5001': 'a1' }) });
+const both = await call('POST', {
+  action: 'create', name: 'Both stages',
+  doc: stageAt(1, { '1001': 'a1' }),
+});
+// Patch the "both" map to also hold a later, larger stage.
+await call('POST', {
+  action: 'save', id: both.data.id, rev: 1, ownerToken: both.data.ownerToken,
+  doc: {
+    ...doc,
+    stages: Array.from({ length: 7 }, (_, i) => ({
+      o: i === 1 ? { '1001': 'a1' } : i === 5 ? { '1002': 'a1', '7001': 'a1', '5001': 'a1', '1003': 'a1' } : {},
+    })),
+  },
+});
+const list17 = await call('GET', null, {}, '?list=1&limit=100');
+const row17 = (id) => list17.data.maps.find((m) => m.id === id);
+check('gallery counts an early-stage-only plan', row17(early.data.id)?.cityCount === 2, row17(early.data.id));
+check('gallery counts a mid-stage plan', row17(late.data.id)?.cityCount === 3, row17(late.data.id));
+check('gallery prefers the highest non-empty stage', row17(both.data.id)?.cityCount === 4, row17(both.data.id));
+check('preview follows the chosen stage', row17(both.data.id)?.preview[0]?.count === 4, row17(both.data.id));
+const pct = await call('POST', { action: 'create', name: '100% Real', doc });
+const pctList = await call('GET', null, {}, '?list=1&q=' + encodeURIComponent('%'));
+check('literal % search does not match everything',
+  pctList.data.total === 1 && pctList.data.maps[0]?.id === pct.data.id, pctList.data);
 
 console.log('\n' + pass + ' passed, ' + fail + ' failed');
 process.exit(fail ? 1 : 0);

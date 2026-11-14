@@ -36,6 +36,14 @@ const SELECT =
   'SELECT id, name, server, owner_hash, read_mode, write_mode, read_salt, read_hash, ' +
   'write_salt, write_hash, doc, rev, forked_from, created_at, updated_at FROM city_maps';
 
+// A gallery search is a literal substring, not a LIKE pattern. Without the
+// ESCAPE clause a query for "%" (or "_") matched every public map.
+function likePattern(text) {
+  return '%' + String(text).toLowerCase().replace(/[\\%_]/g, (c) => '\\' + c) + '%';
+}
+
+const LIKE_CLAUSE = "(LOWER(name) LIKE ? ESCAPE '\\' OR LOWER(server) LIKE ? ESCAPE '\\')";
+
 function revisionStatement(db, revision) {
   return db
     .prepare(
@@ -131,42 +139,23 @@ export function d1Store(db) {
       const where = ["read_mode = 'public'"];
       const values = [];
       if (q) {
-        where.push('(LOWER(name) LIKE ? OR LOWER(server) LIKE ?)');
-        values.push(`%${q}%`, `%${q}%`);
+        where.push(LIKE_CLAUSE);
+        const pattern = likePattern(q);
+        values.push(pattern, pattern);
       }
       if (server) {
         where.push('LOWER(server) = ?');
         values.push(server.toLowerCase());
       }
+      // Return the raw rows (including doc) and let mapSummary() build the
+      // counts/preview in JS. One code path for D1 and the local dev store,
+      // and no fragile window-function + json_each aggregation in SQL.
       const res = await db
         .prepare(
-          'WITH selected AS (' +
-            'SELECT id, name, server, rev, forked_from AS forkedFrom, ' +
-              'created_at AS createdAt, updated_at AS updatedAt, doc ' +
-              'FROM city_maps WHERE ' + where.join(' AND ') +
-              ' ORDER BY updated_at DESC LIMIT ? OFFSET ?' +
-            '), owners AS (' +
-              'SELECT selected.id AS mapId, owner.value AS owner, COUNT(*) AS count, ' +
-                'json_extract(a.value, \'$.color\') AS color, ' +
-                'json_extract(a.value, \'$.icon\') AS icon ' +
-              'FROM selected ' +
-              'JOIN json_each(selected.doc, \'$.stages[6].o\') AS owner ' +
-              'JOIN json_each(selected.doc, \'$.alliances\') AS a ' +
-                'ON json_extract(a.value, \'$.id\') = owner.value ' +
-              'GROUP BY selected.id, owner.value, color, icon' +
-            '), ranked AS (' +
-              'SELECT *, ROW_NUMBER() OVER (PARTITION BY mapId ORDER BY count DESC, owner) AS rn ' +
-              'FROM owners' +
-            ') ' +
-            'SELECT selected.id, selected.name, selected.server, selected.rev, ' +
-              'selected.forkedFrom, selected.createdAt, selected.updatedAt, ' +
-              'json_extract(selected.doc, \'$.actor\') AS actor, ' +
-              '(SELECT COUNT(*) FROM json_each(selected.doc, \'$.stages[6].o\')) AS cityCount, ' +
-              'json_array_length(selected.doc, \'$.alliances\') AS allianceCount, ' +
-              '(SELECT json_group_array(json_object(' +
-                '\'id\', owner, \'color\', color, \'icon\', icon, \'count\', count)) ' +
-                'FROM ranked WHERE ranked.mapId = selected.id AND ranked.rn <= 12) AS preview ' +
-            'FROM selected ORDER BY selected.updatedAt DESC'
+          'SELECT id, name, server, rev, forked_from AS forkedFrom, ' +
+            'created_at AS createdAt, updated_at AS updatedAt, doc ' +
+            'FROM city_maps WHERE ' + where.join(' AND ') +
+            ' ORDER BY updated_at DESC LIMIT ? OFFSET ?'
         )
         .bind(...values, limit, offset)
         .all();
@@ -177,8 +166,9 @@ export function d1Store(db) {
       const where = ["read_mode = 'public'"];
       const values = [];
       if (q) {
-        where.push('(LOWER(name) LIKE ? OR LOWER(server) LIKE ?)');
-        values.push(`%${q}%`, `%${q}%`);
+        where.push(LIKE_CLAUSE);
+        const pattern = likePattern(q);
+        values.push(pattern, pattern);
       }
       if (server) {
         where.push('LOWER(server) = ?');
