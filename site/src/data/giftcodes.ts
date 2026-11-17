@@ -7,14 +7,8 @@ export interface GiftCode {
 
 // Актуальный список от топ-игроков (перепроверен вручную).
 export const giftCodes: GiftCode[] = [
-  { code: 'LAW2CAFE', date: '2026-11-10', active: true, note: '–' },
   { code: 'LAKIND26', date: '2026-11-10', active: true, note: '–' },
-  { code: 'B6Y9F2L7', date: '2026-11-10', active: true, note: '–' },
-  { code: 'R8T5N3W6', date: '2026-11-10', active: true, note: '–' },
-  { code: 'H4Q8Z5C3', date: '2026-11-10', active: true, note: '–' },
-  { code: 'V9D3J7A5', date: '2026-11-10', active: true, note: '–' },
   { code: 'LA350K6CN', date: '2026-11-30', active: true, note: 'November 2026 promo' },
-  { code: 'LAHAL26', date: '2026-10-31', active: true, note: 'October 2026 promo (Discord/community)' },
   { code: 'LACAFE26', date: '2026-10-02', active: true, note: 'October 2026 promo (Discord/community)' },
   { code: 'LA30W7F2M', date: '2026-09-14', active: true, note: 'Discord milestone' },
   { code: 'LADCEX1223', date: '2026-09-08', active: true, note: '100 diamonds, 12× 5-min speedups, 15k grain + 15k timber' },
